@@ -1,5 +1,5 @@
 ## Foreword
-This is a FIRST DRAFT of some general rules. They are over-ruled by more specific rules that pertain to certain creatures and situations. Some rules are prefaced by an ALWAYS or NEVER directive. In these cases they are absolute and apply in all situations.
+This is a FIRST DRAFT of some general rules. They are over-ruled by more specific rules that pertain to certain creatures and situations. Some rules are prefaced by an ALWAYS or NEVER directive. In these cases they are absolute and apply in all situations. I have used the "advantage" and "disadvantage" in a lot of places in place of "bonus" and "penalty". Take it as a recommendation and not a set rule (since we haven't balanced anything).
 
 ### Core Rolls
 There are three (and a half) types of base roll.
@@ -15,6 +15,7 @@ The core dice for ability checks/tests, saves and attacks is 2D12. You roll a 2D
 - **Attacks**: Also, or each 12 rolled roll the "damage dice" again and add to total damage.
 - **Advantage**: Sometimes circumstances are very favourable. Then you roll 3d12, drop lowest. In extreme cases this can be 4D12DL2.
 - **Disadvantage**: Sometimes circumstances are very unfavourable. Then you roll 3d12, drop highest. In extreme cases this can be 4D12DH2.
+- Advantage and disadvantage, no matter from how many sources, always cancel each other out.
 
 #### Version II: 1d20
 The core dice for ability checks/tests, saves and attacks is the D20. You roll a D20 and add a static modifier. If the result equals or exceeds a target value, you succeed. Otherwise you fail.
@@ -22,6 +23,7 @@ The core dice for ability checks/tests, saves and attacks is the D20. You roll a
 - **Attacks**: Also, on a 20, the damage from "damage dice" is rolled twice.
 - **Advantage**: Sometimes circumstances are very favourable. Then you roll 2d20, drop lowest.
 - **Disadvantage**: Sometimes circumstances are very unfavourable. Then you roll 2d20, drop highest.
+- Advantage and disadvantage, no matter from how many sources, always cancel each other out.
 
 ### Time
 - 1 day is 24 hours.
@@ -58,6 +60,86 @@ The core dice for ability checks/tests, saves and attacks is the D20. You roll a
  2. **Starvation**: Lose 1 Stamina point/dice per day from your maximum.
  3. **Dehydration**: Lose 1 Stamina point/dice per hour from your maximum.
  4. **Insomnia**: Lose 3 Mana point/dice per day.
+
+#### Conditions and states
+Entities can be affected by a number of conditions, most of them bad. For now these include (and all are badly defined!):
+- "**Dying**": This creature cannot do anything other than make CON saves or lose 1d6HP per round. It suffers from all the detriments of "Unconscious". If they reach their minus their HP total they die. If they succeed before that. They stop losing HP and become "Unconscious".
+- "**Unconscious**": An unconscious character can make CON and CHA saves, and communicate telepathically under certain circumstances. It can take no other actions. In addition it has the following problems:
+  - It does not gain [STATS] to AC.
+  - It it can fall prone, it falls prone.
+  - All melee attacks are at super-advantage.
+  - All damage bypasses SP and MP.
+  - It cannot cast or concentrate on spells or take any actions.
+  - It cannot perceive the outside world or think rationally.
+- "**Helpless**": A helpless character is in a condition where they cannot protect themselves. Usually they are otherwise compromised.
+  - It does not gain [STATS] to AC.
+  - It it can fall prone, it falls prone.
+  - All melee attacks are at super-advantage.
+  - All damage bypasses SP and MP.
+  - It cannot make saves other than CON, CHA and WIS.
+  - It cannot move or take take actions other than [WIS] based skill checks.
+  - If it can communicate, it cannot do so "loudly" enough to gain attention from afar without a [SKILL] check from the recipient.
+- "**Paralysed**": A paralysed character cannot take physical actions:
+ - It does not gain physical[STATS] to AC.
+ - Physical melee attacks against it have super-advantage.
+ - It it can fall prone, it falls prone.
+ - Physical ranged attacks against it have advantage if it is not prone.
+ - Natural damage bypasses SP.
+ - It cannot make [STR] or [DEX] saves.
+ - It cannot use [SKILLS], attacks or cast spells that require the use of its body (including "incantations" and "somatic components").
+ - This means it cannot move.
+- "**Crippled**": This character cannot use one or more limbs.
+  - Creatures crippled in movement related limbs cannot "run", "sprint" and move at half pace (or "crawl").
+  - Creatures crippled in prehensile limbs cannot hold weapons or manipulate objects. They have problems completing "somatic components".
+- "**Incapacitated**": This creature cannot take actions (other than movement or communication) or reactions in combat.
+ - Attacks against it have advantage.
+- "**Immobilised**": An immobilised character is in trouble.
+ - It has a movement speed of 0ft.
+ - It cannot make [DEX] or [STR] saves, attacks.
+ - It cannot cast spells with somatic components.
+ - Attacks against it have advantage.
+ - It cannot use [DEX] and [STR] based skills or abilities except some escape related skills, and even then at super-disadvantage.
+- "**Restrained**": A restrained character has problems. It has a movement speed of 0ft and suffers from one or more of the following:
+ - It cannot make somatic components for spells.
+ - It has disadvantage on physical attacks and [DEX] saves.
+ - Attacks against it have advantage.
+- "**Grappled**": A grappled character has a movement speed of 0ft.
+- "**Prone**": A prone character is intimate with the ground.
+ - It can only move at a crawl.
+ - Melee attacks have advantage against it.
+ - Ranged attacks have disadvantage against it.
+ - It has disadvantage on melee attacks.
+ - It has disadvantage at [STR] and [DEX] saves.
+ - It has advantage at skills used in hiding, but may suffer penalties to perception.
+- "**Catatonic**": A catatonic character loses the will to act and cannot take actions.
+ - It cannot make attacks, use physical abilities or cast spells.
+ - It cannot use skills other than those that are involved in perceiving the world.
+ - It cannot move.
+ - It has disadvantage on all saves.
+- "**Stunned**": A stunned character briefly loses control of their body and mind. Stun is a short term effect and ALWAYS provides a [SAVE] every round.
+ - It does not gain physical[STATS] to AC.
+ - It it can fall prone, it falls prone.
+ - Physical attacks against it have advantage (unless the attack is ranged and the character is prone).
+ - It cannot make [STR], [DEX] or [CHA] saves.
+ - It cannot use [SKILLS], attacks or cast spells that require the use of its body (including "incantations" and "somatic components").
+- "**Charmed**": A charmed character cannot attack the source of its charm. It has disadvantage against [WIS], [CHA], [INT] saves vs it. In theory it perceives its words and actions in the most favourable manner. In practice players are players.
+- "**Frightened**": A frightened character has disadvantage on to targeted attacks. It must use its movement to move away from the source of its fear.
+- "**Poisoned**": Afflicted by a poison. This has some core effects and specific effects. I don't know what they are.
+- "**Diseased**": Afflicted by a disease. This has degrees of effect. I don't know what they are.
+- "**Bleeding/Wilting**": A bleeding character loses HP every round. A [CON] save, or appropriate healing can stem this effect.
+- "**Inaudible**": A silent character makes no sound. It can neither make sounds willingly or unwillingly
+ - It cannot complete incantations or communicate verbally.
+ - Rolls to detect the character based on sound ALWAYS fail.
+- "**Silenced**": A silenced character cannot communicate verbally.
+ - This means that skills and abilities requiring speech automatically fail.
+ - Incantations ALWAYS fail.
+- "**Blinded**": A blinded character cannot perceive visual input:
+ - It cannot use [WIS] based skills based on sight.
+ - It had disadvantage on [DEX] based skills.
+ - It makes melee attacks at disadvantage and ranged attacks at super-disadvantage.
+ - It has disadvantage on [WIS] and [DEX] based saves.
+- "**Invisible**": This character cannot be directly detected by visual means (aka sight). Characters are considered "blinded" in relation to invisible creatures.
+- "**Deafened**": A deafened character cannot perceive sound. It cannot hear. It can speak only stutteringly. It must make an [INT] save to complete Incantations (unless it is deaf for longer than month).
 
 ### Character Descriptors
 A character has descriptive attributes that need not influence mechanics (within reason), eg hair/feather/scale length and colour. Timbre of voice. This kind of thing is cool, but not regulated by these rules.
@@ -267,7 +349,7 @@ Flight is an intriguing and liberating mode of movements. To terrestrial entitie
 However this comes with limitations:
 - A creatures with natural flight can only fly when carrying a light load and at most light armour.
 - They cannot use a shield or heavy weapon and must make concentration checks when casting spells.
-- They must have a wing span of at least 1ft per 3 lb of weight. This has general penalties and in particular this causes penalties on [DEX] and [STR] saves when not in flight, cannot dig and have a penalty to swim and walk speeds.
+- They must have a wing span of at least 1ft per [3lb x Size] of weight. (with size=[1, 2, 3, 4] for ["small", "medium", "large", "huge"] creatures respectively). This has general penalties and in particular this causes penalties on [DEX] and [STR] saves when not in flight, cannot dig and have a penalty to swim and walk speeds.
 - If they slow to lower than 1/2 their speed in a given terrain, they must land or fall.
 
 Not all flying creatures are equal in flight. In fact there are four categories:

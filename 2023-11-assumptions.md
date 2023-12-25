@@ -1,12 +1,29 @@
 ## Foreword
 This is a FIRST DRAFT of some general rules. They are over-ruled by more specific rules that pertain to certain creatures and situations. Some rules are prefaced by an ALWAYS or NEVER directive. In these cases they are absolute and apply in all situations. I have used the "advantage" and "disadvantage" in a lot of places in place of "bonus" and "penalty". Take it as a recommendation and not a set rule (since we haven't balanced anything).
 
-### Core Rolls
+## Purpose of the system
+The system codifies the rules for a fantasy roleplaying game that focuses on combat and exploration. It aims to build on what I perceive as strength of existing systems and address their weaknesses:
+- Keep a well codified rulebook (PF).
+- Create a relatively deep character creation system (PF).
+- Build on the streamlined flow of combat and general play (DnD 5e).
+- Build on the relatively well balanced system (DnD 5e).
+- Build on the fairly well balanced magic system of DnD 5e.
+- Build on the nuanced skill system of PF.
+- Make a system where magic and martial based characters are both viable, while retaining more than cosmetic mechanistic differences.
+- Build on the well codified crafting system of (PF).
+- Expand the rules for exploration and travel.
+- Expand the rules for weapons.
+
+
+### Rolling Dice.
+Rolling dice introduces uncertainty into what is otherwise a numbers game. The outcome of a dice roll should be rolled when the outcome of an action is uncertain, because of hidden variables or otherwise. Thus if an action is sure to fail ("I jump to the moon"), or sure to succeed ("I take a breath of air"), a roll should not be made.
+It is possible to play this kind of game without ever rolling dice (using average values), however this is generally considered boring, which is why we use dice.
+
+#### Core Rolls
 There are three (and a half) types of base roll.
 - An ability/skill roll.
 - A save.
 - An targeted attack.
-
 
 #### Version I: 2d12
 The core dice for ability checks/tests, saves and attacks is 2D12. You roll a 2D12 and add a static modifier. If the result equals or exceeds a target value, you succeed. Otherwise you fail.
@@ -17,13 +34,45 @@ The core dice for ability checks/tests, saves and attacks is 2D12. You roll a 2D
 - **Disadvantage**: Sometimes circumstances are very unfavourable. Then you roll 3d12, drop highest. In extreme cases this can be 4D12DH2.
 - Advantage and disadvantage, no matter from how many sources, always cancel each other out.
 
-#### Version II: 1d20
-The core dice for ability checks/tests, saves and attacks is the D20. You roll a D20 and add a static modifier. If the result equals or exceeds a target value, you succeed. Otherwise you fail.
-- **Saves and attacks**: Also, a 1 is always a failure. A 20 is always a success.
-- **Attacks**: Also, on a 20, the damage from "damage dice" is rolled twice.
-- **Advantage**: Sometimes circumstances are very favourable. Then you roll 2d20, drop lowest.
-- **Disadvantage**: Sometimes circumstances are very unfavourable. Then you roll 2d20, drop highest.
-- Advantage and disadvantage, no matter from how many sources, always cancel each other out.
+2d12 is chosen as a core roll firstly because d12 are nice dice to roll, secondly because this solves the "high modifier - low modifier" problem, and thirdly because the "triangular" probability distribution simulates life more closely than the 1d20 "uniform" distribution and this then allows us to eschew opposed rolls in time sensitive sections of the game (like combat) while preserving a similar probability distribution of success and failure.
+
+#### Taking 24, taking 13, auto-failure and voluntary failure.
+Sometimes rolls of the core dice can be skipped.
+
+**Taking 24:** Add 24 to the modifier and take this as the result. This represents trying something until you get the best possible result. You can do this is if:
+ 1. You are in a safe environment.
+ 2. You have 100 times more time and material resources available available (which are consumed).
+
+This relies on the property of statistics that if you roll 2d12 enough times, you will eventually roll a 24. Statistically speaking, you have a 50% chance of doing so after 100 rolls. As an alternative a character may take 20, which takes 20 times the time and resources (instead of 100).
+
+These numbers are a little bit different from what we see in systems like "Pathfinder" and "Dungeons and Dragons", because a) we use different dice and b) we use proper maths.
+
+**Taking 13:** Add 13 to the modifier and take this as the result. this represents using a systematic, familiar approach to solve a problem. It explains why for example a craftsman doesn't destroy 25% of the shoes he makes despite having only +5 as his modifier and making a shoe having a threshold of 10, or why we don't fall down the stairs every few weeks. One can take 13 if:
+ 1. You are in a relatively safe environment, free of distractions and threats.
+ 2. You are performing a routine, autonomous or habitual task (eg biological functions, general movement, performing a profession or skill in which you have at least one skill point).
+
+This works because the average of 2d12 is 13.
+
+**Auto-failing:** An entity automatically fails if it cannot perform the roll. For example a paralysed entity cannot succeed on a jump check.
+
+**Voluntary failure:** An entity can choose to fail any check that requires some voluntary action. One cannot usually voluntarily fail checks and saves for autonomous functions. For example a humanoid cannot volunteer to fail a constitution save vs poison, since you cannot switch off your liver at will, but you can voluntarily fail an agility save vs a runaway cart, because you can consciously decide not to move out of the way.
+
+#### Opposing Rolls vs Thresholds.
+Static thresholds are always preferred over opposed rolls in combat. This increases the speed of combat as we do not need to wait for other side to make a roll. This means that hit thresholds, save threshold and skill thresholds based on average rolls ("take 13") are used for the defending side.
+Outside of combat it is up to the group whether opposed rolls or thresholds are used. Opposed rolls make the game more interactive in non time critical sections.
+
+#### Precedence of Rolls: Thresholds (DC), and opposing rolls.
+Meeting (equalling) the target number of a roll beats it. The target number can be static or dynamic. Static thresholds are when a dice is rolled and the result compared to a predefined number. Dynamic thresholds are what you get when you have two or more opposing rolls.
+- eg **static**: "Hit" threshold of a monster, eg 18. Save threshold for a spell. Ability threshold for jumping over a gap of 15 feet.
+- eg **dynamic**: Perceiving a monster in hiding (which rolled 2d12+4).
+
+For dynamic thresholds, it can be difficult to tell, which of the opposing rolls becomes the threshold, and which is the opposing roll. In this case the roll that is trying to preserve the status quo becomes the threshold, and the one that is trying to change it is the opposed roll. Eg:
+- A hidden entity is trying to stay hidden: It's stealth roll is the threshold, and the perception roll is the opposing roll. NB: The hidden creature is always preserving the status quo because you cannot hide when being observed.
+- An observed entity is trying create a distraction so it can hide: The perception roll becomes the threshold, and the distraction/deception roll becomes the opposing roll.
+- Anne tries to throw Bob onto his back. Bob wishes to stay on his feet. Bob's grapple roll is the threshold, and Anne's roll is the opposing roll.
+
+This rule is a refinement and codification of "meets it beats it" and "defender wins". It is chosen as the method fo resolving rolls as it is most similar to "meets it beats it", while being systematic and consistent, and not because it is in some way mathematically superior.
+
 
 ### Time
 - 1 day is 24 hours.
@@ -44,7 +93,7 @@ The core dice for ability checks/tests, saves and attacks is the D20. You roll a
 - In addition creatures fall into other categories that have additional properties and rules pertaining to them.
 
 #### Mortals and Characters
-- Unless otherwise stated mortals require "**sustenance**"".
+- Unless otherwise stated mortals require "**sustenance**" and can suffer from all conditions (see "Conditions" below).
 - A mortal that goes without sustenance for a given period of time begins to deteriorate and eventually die.
 - A mortal that is deteriorating without sustenance stops deteriorating when sustenance is returned. However if sustenance is withdrawn within a given time period, the deterioration begins immediately.
 - The time periods can be modified by various factors. Usually environmental factors.
@@ -61,7 +110,7 @@ The core dice for ability checks/tests, saves and attacks is the D20. You roll a
  3. **Dehydration**: Lose 1 Stamina point/dice per hour from your maximum.
  4. **Insomnia**: Lose 3 Mana point/dice per day.
 
-#### Conditions and states
+### Conditions and states
 Entities can be affected by a number of conditions, most of them bad. For now these include (and all are badly defined!):
 - "**Dying**": This creature cannot do anything other than make CON saves or lose 1d6HP per round. It suffers from all the detriments of "Unconscious". If they reach their minus their HP total they die. If they succeed before that. They stop losing HP and become "Unconscious".
 - "**Unconscious**": An unconscious character can make CON and CHA saves, and communicate telepathically under certain circumstances. It can take no other actions. In addition it has the following problems:
@@ -201,45 +250,18 @@ A character has descriptive attributes that need not influence mechanics (within
 
 
 - **Skills**: A character has skills (or at least you'd hope so!). Niall is working on these.
-
-
 - **Proficiencies**: A character has proficiencies. These are discrete skills where you either know how to use them, or you don't. A character that is not proficient with a thing either can't use it or uses it with a penalty. Allu is working on these.
-
-
 - **Resource Pools**: A character has resource pools. These are a critical part of the game and are explained below.
 
-#### Resource Pools (VERSION 1)
+#### Resource Pools
  1. **HP pool**. This represents your health or life force. Loss of HP represents physical/spiritual damage/degradation.
    - An entity at 1/2 HP gains penalties.
    - An entity at 0 HP is disabled and cannot act.
    - An entity at -HP total is destroyed.
-   - A character regains HP on a "long rest" [whatever that may be in duration].
+   - A character regains a single point of HP per long rest (usually a day). If a character receives long term medical care this becomes 2HP.
    - A character has maximum HP=CON+CHA+LEVEL.
    - When a character with no SP takes natural damage, it loses HP equal to the damage taken.
    - When a character with no MP takes supernatural damage, it loses HP equal to the damage taken.
-
-
-  2. **MP pool**. This represents entities' mental energy, it is used when characters use powerful spiritual/mental abilities.
-   - Supernatural attacks drain MP before they can degrade HP.
-   - A character has up to 3 MP per level + CHA.
-   - A character with 0 MP cannot use the more powerful supernatural abilities that require MP.
-   - A character regains 1/2 of all MP on any "rest" [whatever that may be in duration].
-   - When a character takes supernatural damage it loses 1 MP per 5 points of damage, rounded up.
-   - If a character takes more than [CON + 2 x MP total] damage from a single supernatural/mental attack, the remainder is subtracted from HP.
-
-
- 3. **SP pool**. This represents entities' physical energy, stamina, physical "form".
-   - Natural/physical attacks erode SP before they can degrade HP.
-   - A character has up to 3 SP per level + CON.
-   - A character with 0 SP cannot use the more powerful natural/physical abilities that require SP.
-   - A character regains 1/2 of all SP on any "rest" [whatever that may be in duration].
-   - When a character takes natural damage it loses 1 SP per 5 points of damage, rounded up.
-   - If a character takes more than [CON + 2 x SP total] damage from a single natural/physical attack, the remainder is subtracted from HP.
-
-
-#### Resource Pools (VERSION 2)
-- **HP pool**. See above.
-
 
 - **MP dice pool**. This is the determinant of "MP pool".
   - A character has a capacity of up to 3 MP dice per level + CHA.
@@ -278,11 +300,11 @@ A character has descriptive attributes that need not influence mechanics (within
 
 - **Stat Bonus**: For attacks, skills, saves, and often damage, the roll is modified by the **Stat Bonus**, derived from base "stats". This is calculated as follows:
   - **[(STAT - 11) / 2] rounded up**. (this is the same as PF/DnD I think?)
-  - Sometimes multiple stats might determine a stat bonus. ALLU IS WORKING ON THIS!
+  - Sometimes multiple stats might determine a stat bonus.
 
 
 - **Skill points (Skill):** A character gets skill points based on level and intelligence. The maximum number of points in one skill is as follows:
-  - **[2 x Base] rounded up**.
+  - **[3 x Base]**.
 
 
 - **Natural Bonus (Nat)**: This is a bonus added to all natural/physical attacks, and STR, DEX and CON based saves. It is determined by SP/"SP dice" as follows:
@@ -292,12 +314,12 @@ A character has descriptive attributes that need not influence mechanics (within
 
 - **Supernatural Bonus (Sup)**: This is a bonus added to all supernatural/magic attacks, and INT, WIS and CHA based saves. It is determined by MP/"MP dice" as follows:
   - **Sup = [MP / 6] rounded down**
-  - So a character with 30 "SP dice" has a Nat = 4.
+  - So a character with 30 "SP dice" has a Nat = 5.
 
 
 As such the three (and a half) base rolls modifiers are calculated as follows.
-- **Skill roll = 2d12 + Base + Skill + Stat + [other factors]**
-- **Ability roll = 2d12 + Stat + [other factors]**
+- **Skill roll = 2d12 + Base + Skill + Stat + [other factors]** (This reflects that how well an entity does at a trainable activity depends on its natural aptitude (stat), its specific training (skill), and general transferable experience (base))).
+- **Ability roll = 2d12 + Stat + [other factors]** (This is used for checks where the raw ability with no skill is used.)
 - **Save/Attack roll = 2d12 + Base + [Nat] + Stat + [other factors]** (Con, Dex, Str)
 - **Save/Attack roll = 2d12 + Base + [Sup] + Stat + [other factors]** (Cha, Int, Wis)
 
@@ -351,6 +373,7 @@ However this comes with limitations:
 - They cannot use a shield or heavy weapon and must make concentration checks when casting spells.
 - They must have a wing span of at least 1ft per [3lb x Size] of weight. (with size=[1, 2, 3, 4] for ["small", "medium", "large", "huge"] creatures respectively). This has general penalties and in particular this causes penalties on [DEX] and [STR] saves when not in flight, cannot dig and have a penalty to swim and walk speeds.
 - If they slow to lower than 1/2 their speed in a given terrain, they must land or fall.
+- A flying creature that is knocked prone, or tripped, drops a distance equal to its speed and can only move at half speed on its next turn. If this drop causes it to hit the ground, it suffers all of the consequences of falling (see "Falling" section).
 
 Not all flying creatures are equal in flight. In fact there are four categories:
 - **Poor**:
@@ -370,6 +393,8 @@ Not all flying creatures are equal in flight. In fact there are four categories:
 
 Most birds are "typical" flyers, though most fowl are "poor" and small raptors are usually "good". Flies, on the other hand have "perfect flight". Humanoids seldom have natural flight. Those that do, are usually poor. Those races with "average" flight pay a high price for it.
 
+__If a group wishes to simplify__ these rules, it is recommended to use "Good" flight for natural fliers and "Perfect" flight for magical flight. Using "perfect" flight for all fliers is the simplest rule of course, but makes flying monsters, mounts and characters a lot more powerful. Beware!
+
 ##### Walk and Flight Logic
 Most terrestrial creatures have legs and walk. Some do not. They slither. They are an exception. We ignore them for now. Using small to large animals for reference, quadrupeds have a walking speed of 2-6 miles per hour (mph), a running speed of 8-20mph, and a sprint pace of 16-40mph. There are fewer bipeds, but they are capable of similar speeds (see ostriches). Humanoids are comparatively slow. 3-4mph (~5-6ft/s) is a typical walk. The fastest sprinter reaches about 24mph (100m/9s, 35ft/s), an average human springs at ~16mph (100m/15s, 24ft/s). The speeds we have quoted in the rules are a bit lower as conditions on an adventure are seldom as ideal as on a modern running track. Likewise you will notice that I have used [STR] for sprinting. This is in keeping with sports physiology.
 
@@ -383,7 +408,7 @@ Combat starts as soon as one or both sides are capable and willing of fighting. 
 - If some potential combatants are unaware of others or of their intent to attack, they start the combat "surprised". A "surprised" entity cannot act in combat and suffers certain penalties. As soon as its first "turn" has passed, it is no longer considered surprised.
 
 #### The Turn
-- During its turn an entity may take all of the following actions:
+- During its turn an entity may take all of the following actions in any order:
  - One "**move**" action.
  - One "**main action**".
  - One "**secondary action**".
@@ -398,15 +423,16 @@ Combat starts as soon as one or both sides are capable and willing of fighting. 
 
 - In addition, regardless of the other actions, it may take one "**reaction**" at any point in the round, providing that it is not prevented by other factors. It regains its reaction at the start of its turn.
 
+The actions named here are further described in the next section.
+
 #### Types of actions in combat
 The actions an entity may take might also be restricted by its conditions and general limitations. For example, if you have two hands and both are holding swords, you cannot pick up another item with your hand. The following actions exist in combat.
-- "**Move**": Move from A to B via a route that its modality of movement permits up to its stated movement speed (eg, talking, peeling a banana, swinging a sword, chewing gum, making the gestures required for casting most spells).
- - Withdrawing without provoking an attack of opportunity is a "move" action.
+ - "**Move**": Move from A to B via a route that its modality of movement permits up to its stated movement speed.
 
 
 - "**Main Action**": This is some generalised activity that takes no longer than 6 seconds and does not interfere with general "movement". Actions include:
  - Making an attack action.
- - Using an ability that uses SP or MP.
+ - Using most abilities that use SP or MP.
  - Activating certain items.
  - Using some skills.
  - Take a second "Movement".
@@ -450,20 +476,36 @@ This is a collection of unsorted rules related to basic physical combat.
 - Moving out of the threatened area of a foe without precautions provokes an attack of opportunity.
 - Moving through a threatened area provokes attacks of opportunity unless the movement is declared as being "cautious", ie at half speed.
 - Melee attacks can be made "non lethal" at no penalty with blunt weapons, and at a penalty with sharp weapons.
-- Ranged attacks cannot be made non-lethal.
-- Supernatural attacks are either non-lethal or not. The caster does not chose.
+- Ranged attacks cannot be made non-lethal (usually).
+- Supernatural attacks are either non-lethal or not. The caster does not chose (usually).
 - In place of a melee attack, a combatant may execute a martial manoeuvre.
 
 #### Basic Martial Manoeuvres.
-Any adventurer may attempt a martial manoeuvre. If an untrained combatant attempts this however, they risk attacks of opportunity and other penalties. Many monsters can carry out these manoeuvres without penalties or meeting the prerequisites:
-- **Grapple**: Reduce a foe's movement to 0. Requires [SKILL] roll. Penalty if not proficient with hand-to-hand combat. Attack of opportunity on failure.
-- **Restrain**: Give a foe extra penalty. Foe must be prone or grappled.  Requires a [SKILL] roll. The one executing this manoeuvre declares one of the desired outcomes:
-  - "Silence": Prevent foe from completing incantations.
-  - "Restrain": Prevent a foe from casting spells with somatic components and give penalties to weapon attacks.
-- **Shove**: Moves a foe away from you by up to 10ft. Requires a [SKILL] roll.
+Any adventurer may attempt a martial manoeuvre. If an untrained combatant attempts this however, they risk attacks of opportunity and other penalties. Many monsters can carry out these manoeuvres without penalties or meeting the prerequisites. Special abilities and weapons/tools can reduce or remove penalties for manoeuvres or increase their effectiveness.
+- **Grapple**:
+ - Effect: Reduce a foe's movement to 0.
+ - Requires [SKILL] roll.
+ - Penalty if not proficient with hand-to-hand combat.
+ - Attack of opportunity on failure.
+- **Restrain**:
+ - Effect: Give a foe extra penalty.
+  - Prerequisite: Foe must be prone or grappled.
+  - Requires a [SKILL] roll.
+  - The one executing this manoeuvre declares one of the desired outcomes:
+   - "Silence": Prevent foe from completing incantations.
+   - "Restrain": Prevent a foe from casting spells with somatic components and give penalties to weapon attacks.
+- **Shove**:
+ - Effect: Moves a foe away from you by up to 10ft.
+ - Requires a [SKILL] roll.
 - **Throw**: A different flavour of shove.
-- **Trip**: Knock a foe prone. Requires a [SKILL] roll.
-- **Disarm**: Liberate a foe of a weapon or item held. Requires a [SKILL] roll. Provokes a penalty and attack of Opportunity if the foe is holding a weapon you are not proficient with.
+- **Trip**:
+ - Effect: Knock a foe prone.
+ - Requires a [SKILL] roll.
+ - On failure provokes attack of Opportunity if the foe is holding a weapon you are not proficient with.
+- **Disarm**:
+ - Effect: Liberate a foe of a weapon or item held.
+ - Requires a [SKILL] roll.
+ - Provokes a penalty and attack of Opportunity if the foe is holding a weapon you are not proficient with.
 
 A creature that is "grappled" or "restrained" can make a check a [SKILL] check in place of its attack action to try to break free or move its assailant.
 
@@ -518,7 +560,7 @@ A character should be able to take actions a creature of its type should conceiv
 
 Some, but not all, of these activities are covered in rules for skill use, research, exploration, resting, crafting, etc. Activities that are not covered by the rules are judged either too hard to cover well within the rules, or too rare in the foreseen use of the game to bother with.
 
-Freeform RP and common sense are recommended.
+A certain level of freeform RP and common sense are recommended.
 
 ### Exploration
 Exploration and travel is one of the main activities outside of combat and social interactions. When exploring and travelling characters and rules deal with:

@@ -73,6 +73,16 @@ For dynamic thresholds, it can be difficult to tell, which of the opposing rolls
 
 This rule is a refinement and codification of "meets it beats it" and "defender wins". It is chosen as the method fo resolving rolls as it is most similar to "meets it beats it", while being systematic and consistent, and not because it is in some way mathematically superior.
 
+#### Difficulties.
+The numbers on thresholds and rolls are abstractions of how difficult a task is to accomplish and how well it was performed respectively. As a rough guide, assuming that an average person is a level 1 character with 11 in most base stats and hence a +1 in skills they are not familiar with and + 3 in skills that they are familiar in, the table is as follows:
+- 4: Almost impossible to fail. (An infant can do better.)
+- 8: Quite easy. (Amateurish)
+- 13: Fairly tough, your average person will fail half the time, if they're not careful. (Average well done)
+- 16: Quite tough, a trained person will fail half the time if they're not careful. (Pretty good)
+- 20: Very difficult. (Impressive)
+- 25: Hard, even for a pro. (Olympic)
+- 35: Hard, for a legendary hero. (Legendary!)
+- 50+: Actually impossible. With maxed out stats, rolling 24 should not hit above 50. (God)
 
 ### Time
 - 1 day is 24 hours.
@@ -185,7 +195,7 @@ Entities can be affected by a number of conditions, most of them bad. For now th
 - "**Blinded**": A blinded character cannot perceive visual input:
  - It cannot use [WIS] based skills based on sight.
  - It had disadvantage on [DEX] based skills.
- - It makes melee attacks at disadvantage and ranged attacks at super-disadvantage.
+ - It makes melee attacks at disadvantage and ranged and reach attacks at super-disadvantage. When making a ranged attack the attacker must succeed on a roll to detect targets by other means or its attack automatically misses.
  - It has disadvantage on [WIS] and [DEX] based saves.
 - "**Invisible**": This character cannot be directly detected by visual means (aka sight). Characters are considered "blinded" in relation to invisible creatures.
 - "**Deafened**": A deafened character cannot perceive sound. It cannot hear. It can speak only stutteringly. It must make an [INT] save to complete Incantations (unless it is deaf for longer than month).
@@ -217,7 +227,7 @@ A character has descriptive attributes that need not influence mechanics (within
  6. **Cha**: Force of Personality. Mental resilience. Upstream of HP, MP, aspects of social interactions.
 
 
-- **Armour class**: A character has an armour/hit class, this is a measure of how difficult its physical (or spiritual) form is to damage using targeted attacks. It can represent any combination of armour and evasive ability: A targeted attack either hits (potentially doing damage) or it does not.
+- **Hit class**: A character has an armour/hit class, this is a measure of how difficult its physical (or spiritual) form is to damage using targeted attacks. It can represent any combination of armour and evasive ability and is something of an abstraction of how hard a target is to damage with a targeted attack: A targeted attack either hits (potentially doing damage) or it does not.
  1. Base AC is calculated (for now!) as 10+[Static Bonus]+[SP ability bonus]+[MP ability bonus]+[cirumstance bonus]. This has not been decided.
   - Static bonus is some combination of the bonus from armour worn, attributes and passive special abilities.
   - SP ability bonus is the bonus from an active natural ability. Bonuses from different SP abilities do not stack. Only the highest is used.
@@ -304,7 +314,7 @@ A character has descriptive attributes that need not influence mechanics (within
 
 
 - **Skill points (Skill):** A character gets skill points based on level and intelligence. The maximum number of points in one skill is as follows:
-  - **[3 x Base]**.
+  - **[LEVEL / 2] runded up**.
 
 
 - **Natural Bonus (Nat)**: This is a bonus added to all natural/physical attacks, and STR, DEX and CON based saves. It is determined by SP/"SP dice" as follows:
@@ -573,6 +583,141 @@ Exploration and travel is one of the main activities outside of combat and socia
 
 The rules should accommodate to all of these activities without trivialising them too much and allowing both success, failure, and forward failure.
 
+In many games where events move at the speed of plot, travel and exploration rules can be eschewed. However in some games, where exploration, strategy or time sensitive chase-like quests are present, they add an extra layer of depth.
+
+#### Overview
+Travel from A to B can be summarised as follows:
+1. Choose destination.
+2. Choose the desired modality (foot, mount, vehicle, magic, etc).
+3. Calculate distance, time and resources needed (can be done by game master at the party's own risk!).
+4. Assign navigator and scout (if required).
+5. Roll for navigation (getting lost). Deal with consequences if required.
+6. Roll for scouting (ambushes). Deal with consequences if required.
+7. Advance the party along the resulting vector.
+8. Perform any rolls for prospecting, hunting and harvesting.
+9. Camp (and deal with any night ambushes, encounters and so on).
+10. Repeat (usually from (5)) until a destination is reached or everyone is dead.
+
+
+#### Local and Global Movement
+This is described above in "Local and Global Movement" above, but there are some additional nuances which. Tactical movement represents generally bursts of high intensity movement over short time periods and is measured in ft/round, usually limited to a few minutes at a time. On the other hand global movement reflects movement over a long range and is measured in mph. It often abstracts away elements such as winding paths and minor obstacles. Thus, an entity's speed on a local level in ft/round is equal to its speed in mph for overland travel.
+
+For entities and parties that travel via **walk**, **climb**, **dig** or **blink** speed, when travelling between two points that have no defined distance by road (and maybe no road), and only a map distance as the crow flies, the distance travelled is multiplied x2. This represents lack of direct roads, and often meandering routes over off road terrain. For creatures using **walk**, **climb** or **dig** speed in **swamp**, **deep forest**, or **mountain** distance as the crow flies is multiplied by x4. Creatures with a **cosmic** or **fly** speed do not suffer from this kind of impediment.
+
+Entities that move via a **Fly** speed have the movement speed halved in severe precipitation and wind. If precipitation or wind is extreme, such creatures must make a skill roll against the storm's threshold number or make no progress. An entity may attempt to move at 1/4 speed and take damage every hour equal to 2d6 damage plus 2d6, per size category above medium. An entity failing the roll by more than 5 in extreme precipitation falls to the ground. An entity failing the roll by more than 5 in extreme wind is blown away in the prevailing wind direction at 1/2 the wind speed. If this leads to the collision with some kind of fixed obstacle (mountain, big tree, wall), it suffers damage as if it had fallen 100ft (see fall damage).
+
+#### Travel rolls and terrain
+All travel rolls are determined by the terrain type, the weather modifier from inclement weather (severe or extreme) and the familiarity bonus. They are defined in the following tables. It should be noted that weather modifiers from different categories stack.
+- In groups where travel rolls are seen as a burden they can be dropped, but please keep in mind that this will affect the value of certain skills and abilities.
+- There is a simplified table provided if the full rule is deemed burdensome.
+- **Simplified Table (Camping and navigation combined):**
+ - Roads, Plains, Woodlands, Ruin, Hill: 5
+ - Deep Forest, Subterrean, Fells, Swamp, Mountain: 15
+ - Inclement Weather: +5 threshold modifier.
+ - Homeland: +5 bonus to roll.
+
+
+- Full rules are as follows:
+- **Familiarity bonus:**
+ - Familiar (has been here before a few times): +2
+ - Homeland: +5.
+- **Weather modifier navigation/scouting:** NB: Modifiers from different categories stack.
+ - Visibility modifier: Poor (severe) visibility: + 2
+ - Visibility modifier: No (extreme) visibility: + 5
+ - Precipitation: Heavy precipitation (severe or extreme): +2
+ - Wind: Extreme (hurricane, tornado, taifu): + 2.
+- **Terrain difficulty table nav/scouting:** NB, Visibility penality for plains, deserts, swamps and fells are doubled.
+ - Roads: 5
+ - Plains, Deserts, Hills, Mountains: 10
+ - Ruins, Fells, Swamps, Woodlands: 15
+ - Deep Forest, Subterranean: 20
+- **Weather modifier camping:** NB: Modifiers from different categories stack.
+ - Visibility modifier: No visibility: + 2
+ - Precipitation: Severe/Extreme: +2
+ - Wind: Severe: + 2
+ - Wind: Extreme (Hurricane, tornado, taifu): + 5
+ - Extreme temperature: Severe (+40/-10): + 2.
+ - Extreme temperature: Extreme (+50/-30): + 5.
+ - Extreme temperature: Lethal Impossible to camp successfully without special abilities or magic.
+- **Terrain difficulty camping:** NB: Wind penality is doubled in deserts and mountains. Precipitation penalty is doubled in swamps.
+ - Roads, Plains, Woodlands: 5
+ - Ruins, Hills, Deep Forest: 10
+ - Subterrean, Fells: 15
+ - Desert, Swamp, Mountain: 20
+
+
+It should be noted that the simplified table has generally lower thresholds. This is because it is considered likely that a group that is not using the detailed tables is probably not as excited about the challenges of travel and exploration, so the challenge should be lower to occupy less of their time. The group is of course free to modify the tables as it sees fit, if they wish to adjust the challenge.
+
+#### Travel and getting lost
+When travelling on unfamiliar terrain there is generally a chance of getting lost. Likewise sabotage or illusion can facilitate this. This works as follows:
+- At the start of a stage of travel (usually start of the day or start of the journey) the navigator makes a navigation roll (Or uses a spell or ability).
+- On a success travel proceeds as normal. For every 5 points above the threshold, the journey time is reduced by 10% (maximum 30%).
+- On a failure, the DM rolls a D8 to determine the direction the party gets lost in, or makes something up in the direction of plot.
+- Various "saboteur" abilities can increase the threshold for succeeding the navigation roll (see specific skill or ability). Often failure of a navigation roll under these circumstances leads to the party travelling not in a random direction, but in the direction defined the saboteur.
+
+Generally one does not get lost on familiar terrain. Likewise if one has a guide who knows the area, or if it is expedient for the gaming group this kind of roll can be eschewed.
+
+#### Scouting, prospecting and exploration
+Characters and groups that enter new or unfamiliar terrain will often need to explore it in some way to learn useful (or occasionally useless) information about it, this includes:
+- General topography and characteristics. (exploration)
+- Flora, fauna and monsters. (exploration or scouting)
+- Presense of populated centres and ruins. (exploration)
+- Presense and prevelance of resources. (Prospecting)
+
+Different skills are used for each one. In general the thresholds for success are determined by the terrain table (see above), but in some cases skills, abilities and magics used for obfuscating and misleading cansubstitue the threshold value. In general exploration can be detailed (exploring a haunted house for clues to a murder), or cursory (exploring the mountainside for signs of marmots).
+- Cursory exploration takes 4 hours per square mile of threshold 5 & 10 terrain, and a full day for threshold 15 & 20 terrain.
+- Detailed exploration takes between 10 minutes and 1h per 100sq-feet of terrain depending on how much "stuff" there is to explore.
+- For detailed exploration it is recommended that the locale is described by the DM and the players prompted to focus on a certain part of it. At this point the threshold should probably be determined by the general difficulty table.
+
+
+#### Harvesting, Hunting and Mining (very draft)
+Harvesting, hunting and mining are essentially all harvesting of different types of resources from the environment. Sometimes these activities can be an adventure in and of themselves, so this refers to "mundane" harvesting, mining and hunting of resources that will not fight back.
+- After a successful "prospecting"/"scouting" roll a character can make a harvesting roll.
+- The duration of the "harvesting" and the magnitude of success determine the yield of the harvest. Critical failure results in the damage to the tools used (or HP loss or injury if the tool was the character's body or spirit).
+- Exceeding the threshold by 5 allows to double the yield or half the time. Exceeding by 10 or more, allows both.
+- Guideline yields:
+ - Hunt/trap small prey: 1 small creature per day + 1 per 5 points by which the terrain threshold is exceeded.
+ - Strip a carcass (small, medium, large, huge, enormous): (30 min, 2h, 4h, 1d, 1 week). Threshold: (6, 9, 12, 18, 24).
+ - Harvest surface plants/minerals: 5-30 min per 5ft. Threshold: Terrain.
+ - Harvest subsurface minerals (mining): 1h-1d per 5ft Threshold: Terrain.
+- If the resource is rare, or exotic increase the threshold by +5 or +10.
+- If the resource cannot be found in the terrain, then the time is spent and the harvest fails.
+
+#### Camping
+In hostile or wilderness environments characters must often take additions steps before they can safely and effectively rest. These steps are:
+- Find suitable site vs terrain camping threshold + weather scouting modifier. (Skill or special ability). Successful check gives advantage on ameliorate/fortify check.
+- Skill roll to ameliorate/fortify site vs terrain camping threshold + weather camping modifier. (Skill or special ability)
+- Set sentry and watch for hostiles. Succesful fortification roll gives the camp cover, and the sentry advantage on rolls to detect ambushes coming for them (Skill or special ability).
+- Resolve possible encounters.
+- Regain resources (HP, SP, MP) if the rest is successful.
+
+Failure to ameliorate a suitable site leads to [CON] save, with the threshold determined by terrain, weather (see tables above) and any bonuses from special abilities and spells.
+
+#### Environemental hazards. (TODO)
+Depending on the nature of an environment being explored, it is possible to encounter various hazards. This ranges from weather related hazards like storms, extreme heat and , to terrain dangers such as raging rivers, avalanches and rockfall, to "man"-made dangers such as traps in dungeons.
+
+#### Inclement Weather Hazards (TODO: Make a full table of all weather and consequences.)
+Inclement weather has two severities: **Severe** and **Extreme**. The following inclement weather types exist. Here is a brief overview.
+- **Precipitation.** (Rain, snow, sleet, ash.) This can lead to poor visibility, difficult movment due to boggy ground or accumulation, or evencollapse of structures (snow, ash).
+- **Wind.** Can damage structures. Can knock prone smaller creature and impede movement. Dangerous for flying creatures. Makes ranged attacks difficult.
+- **Temperature.** Very low or high temperatures. Being in temperatures an entity is not acclimatised to can quickly lead to exhaustion (hypothermia, hyperthermia, dehydration) or even death. It is more difficult to recuperate under these conditions. In particular, trying to recuperate in unamelioriated camps may require a roll, or be impossible.
+- **Visibility.** Poor visibility is usually caused be caused by extreme precipitation, fog, murky water, cosmic clouds or darkness. It is easier to hide, and harder to detect, navigate and aim in poor visibility. In zero visibility targeted attacks with range and reach weapons, as well as certain spells are impossible, and other targeted attacks suffer a penalty. In areas of zero (extreme) visibility all creatures are considered for all intents and purposes BOTH **blinded** and **invisible**. **NB:** Visibility can refer to senses other than sight in some exotic cases.
+
+Any given inclement weather phenomenon may cause more than one effect. Here are some suggested ratings.
+- **Fog**/**Mist**: Poor/Zero visibility.
+- **Torrential Rain**: Severe precipitiaiton, poor visibility.
+- **Gale**: Severe wind.
+- **Hurricane**: Extreme wind.
+- **Tornado**: Extreme wind, poor visibility.
+- **Taiphoon**: Extreme wind, severe precipitation.
+- **Blizzard**: Severe/Extreme temperature (cold), extreme precipitation(snow), severe visibility, severe wind.\
+- **Whiteout**: Zero visibility, severe precipitation(snow).
+- **Sand Storm**: Zero visibility, severe/extreme wind, severe/extreme precipitation (sand).
+- **Ashfall**: Severe precipitation (ash), poor visibility.
+
+Of course groups that operate in exotic settings should not shy away from creating other types of inclement weather using this framework.
+
+#### Terrain Hazards (TODO)
 
 #### Falling
 A typical humanoid has a terminal velocity of about 100mph, or 1000ft per round. In the first round of falling a falling humanoid falls about 360ft. In most cases they land on the same round. In those cases they have only a "reaction" between them and the swift embrace of the Earth Mother. If the distance exceeds 360ft, they may take other actions, although for the sake of casting spells this counts as vigorous motion. One who falls from the back of a dragon, may have several minutes to contemplate their fate and do something about it.

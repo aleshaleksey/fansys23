@@ -328,7 +328,7 @@ A character has descriptive attributes that need not influence mechanics (within
 
 
 As such the three (and a half) base rolls modifiers are calculated as follows.
-- **Skill roll = 2d12 + Base + Skill + Stat + [other factors]** (This reflects that how well an entity does at a trainable activity depends on its natural aptitude (stat), its specific training (skill), and general transferable experience (base))).
+- **Skill roll = 2d12 + [Base] + Skill + Stat + [other factors]** (This reflects that how well an entity does at a trainable activity depends on its natural aptitude (stat), its specific training (skill), and general transferable experience (base)): Optional, base is added to a number of skills equal to a character's level).
 - **Ability roll = 2d12 + Stat + [other factors]** (This is used for checks where the raw ability with no skill is used.)
 - **Save/Attack roll = 2d12 + Base + [Nat] + Stat + [other factors]** (Con, Dex, Str)
 - **Save/Attack roll = 2d12 + Base + [Sup] + Stat + [other factors]** (Cha, Int, Wis)

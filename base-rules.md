@@ -494,30 +494,34 @@ This is a collection of unsorted rules related to basic physical combat.
 Any adventurer may attempt a martial manoeuvre. If an untrained combatant attempts this however, they risk attacks of opportunity and other penalties. Many monsters can carry out these manoeuvres without penalties or meeting the prerequisites. Special abilities and weapons/tools can reduce or remove penalties for manoeuvres or increase their effectiveness.
 - **Grapple**:
  - Effect: Reduce a foe's movement to 0.
- - Requires [SKILL] roll.
- - Penalty if not proficient with hand-to-hand combat.
+ - Requires attack roll.
+ - Penalty if not proficient with **grapples**.
  - Attack of opportunity on failure.
 - **Restrain**:
  - Effect: Give a foe extra penalty.
   - Prerequisite: Foe must be prone or grappled.
-  - Requires a [SKILL] roll.
+  - Requires attack roll.
+  - Penalty if not proficient with **grapples**.
   - The one executing this manoeuvre declares one of the desired outcomes:
    - "Silence": Prevent foe from completing incantations.
    - "Restrain": Prevent a foe from casting spells with somatic components and give penalties to weapon attacks.
 - **Shove**:
  - Effect: Moves a foe away from you by up to 10ft.
- - Requires a [SKILL] roll.
+ - Requires attack roll.
+ - Penalty if not proficient with **throws**.
 - **Throw**: A different flavour of shove.
 - **Trip**:
  - Effect: Knock a foe prone.
- - Requires a [SKILL] roll.
- - On failure provokes attack of Opportunity if the foe is holding a weapon you are not proficient with.
+ - Requires attack roll.
+ - Penalty if not proficient with **throws**.
+ - On failure provokes attack of Opportunity if the foe is holding a weapon you are not proficient with AND you are not proficient with **throws**.
 - **Disarm**:
  - Effect: Liberate a foe of a weapon or item held.
- - Requires a [SKILL] roll.
- - Provokes a penalty and attack of Opportunity if the foe is holding a weapon you are not proficient with.
+ - Requires attack roll.
+ - Penalty if not proficient with **disarm**.
+ - Provokes a penalty and attack of Opportunity if the foe is holding a weapon you are not proficient with AND you are not proficient with **disarm**.
 
-A creature that is "grappled" or "restrained" can make a check a [SKILL] check in place of its attack action to try to break free or move its assailant.
+A creature that is "grappled" or "restrained" can make an opposing roll in place of its attack action to try to break free or move its assailant.
 
 ### Spellcasting and Supernatural abilities
 - Abilities and phenomena that would not exist in a mundane world, that cannot be explained adequately by "scientific" means are supernatural, otherwise called magical.

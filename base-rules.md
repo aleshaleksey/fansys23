@@ -19,6 +19,9 @@ The system codifies the rules for a fantasy roleplaying game that focuses on com
 Rolling dice introduces uncertainty into what is otherwise a numbers game. The outcome of a dice roll should be rolled when the outcome of an action is uncertain, because of hidden variables or otherwise. Thus if an action is sure to fail ("I jump to the moon"), or sure to succeed ("I take a breath of air"), a roll should not be made.
 It is possible to play this kind of game without ever rolling dice (using average values), however this is generally considered boring, which is why we use dice.
 
+#### Rounding up and down
+Whenever a roll is divided (eg half damage, jump distances, bonuses, etc) and the reuslt is not a whole number, the principle of "round up, except for damage" is applied.
+
 #### Core Rolls
 There are three (and a half) types of base roll.
 - An ability/skill roll.
@@ -73,15 +76,15 @@ For dynamic thresholds, it can be difficult to tell, which of the opposing rolls
 
 This rule is a refinement and codification of "meets it beats it" and "defender wins". It is chosen as the method fo resolving rolls as it is most similar to "meets it beats it", while being systematic and consistent, and not because it is in some way mathematically superior.
 
-#### Difficulties.
+#### Difficulties and recommended thresholds
 The numbers on thresholds and rolls are abstractions of how difficult a task is to accomplish and how well it was performed respectively. As a rough guide, assuming that an average person is a level 1 character with 11 in most base stats and hence a +1 in skills they are not familiar with and + 3 in skills that they are familiar in, the table is as follows:
 - 4: Almost impossible to fail. (An infant can do better.)
 - 8: Quite easy. (Amateurish)
-- 13: Fairly tough, your average person will fail half the time, if they're not careful. (Average well done)
+- 12: Fairly tough, your average person will fail half the time, if they're not careful. (Average well done)
 - 16: Quite tough, a trained person will fail half the time if they're not careful. (Pretty good)
-- 20: Very difficult. (Impressive)
-- 25: Hard, even for a pro. (Olympic)
-- 35: Hard, for a legendary hero. (Legendary!)
+- 24: Very difficult. (Impressive)
+- 30: Hard, even for a pro. (Olympic)
+- 36: Hard, for a legendary hero. (Legendary!)
 - 50+: Actually impossible. With maxed out stats, rolling 24 should not hit above 50. (God)
 
 ### Time
@@ -318,12 +321,12 @@ A character has descriptive attributes that need not influence mechanics (within
 
 
 - **Natural Bonus (Nat)**: This is a bonus added to all natural/physical attacks, and STR, DEX and CON based saves. It is determined by SP/"SP dice" as follows:
-  - **Nat = [SP / 6] rounded down**
+  - **Nat = [SP / 6] rounded up**
   - So a character with 29 "SP dice" has a Nat = 4.
 
 
 - **Supernatural Bonus (Sup)**: This is a bonus added to all supernatural/magic attacks, and INT, WIS and CHA based saves. It is determined by MP/"MP dice" as follows:
-  - **Sup = [MP / 6] rounded down**
+  - **Sup = [MP / 6] rounded up**
   - So a character with 30 "SP dice" has a Nat = 5.
 
 

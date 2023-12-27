@@ -204,14 +204,82 @@ __STR: Athletics__
 
 Athletics is used for most land based physical activities including:
 - Jumping beyond the ordinary jump distance as determined by a character's stats.
-- Lifting or moving objects that are above a character's normal capacity as determined by its stats, or that have an unwieldy shape.
-- Throwing items and creatures beyonda normal distance.
-- Outrunning creatures with the same base speed in overland chases.
-- Entertaining others with a feats of physical prowess.
+  - For long jumps distance = [Athletics Roll / 2] rounded up.
+  - For every 10ft of base speed above 30ft, the roll gets a +1.
+  - For high jumps distance off ground = [Athletics Roll / 5] rounded up.
+  - If the entity does not have a run up of at least 10ft, or has not moved on its previous turn, the jump distance is halved.
+- Lifting or moving objects that are above a character's normal capacity as determined by its stats, or that have an unwieldy shape. Carrying capacity is based on the take 13 rule.
+  - A creature can drag up to [Athletics Roll x 20]lb.
+  - A creature can lift up to [Athletics Roll x 10]lb of the ground.
+  - A creature can lift over its head [Athletics Roll x 5]lb over its head.
+  - For every size category above medium this number is doubled.
+  - For every size category below medium, this number is halved.
+- Throwing items and creatures beyond a normal distance.
+  - More data needed.
+- Outrunning creatures with the same base speed in overland chases (opposed roll rules).
+- Entertaining others with a feats of physical prowess (see "Difficulties and recommended thresholds").
 
 __STR: Climb__
 
-This is a skill specific to scaling steep or vertical surfaces, trees, ropes and entites larger than oneself.
+This is a skill specific to scaling steep or vertical surfaces, trees, ropes and entites larger than oneself. A creature without a *climb* skill climbs at 1/4 of its base speed. This follows the "Difficulties and recommended thresholds" as follows.
+- Base Thresholds:
+  - 4: A steep embankment, ladder, knotted rope, or tree with many branches.
+  - 8: A rope or near vertical rock with many big holds and ledges, or average tree.
+  - 12: A branchless tree or lamp post or vertical wall with good holds, monkey bars.
+  - 16: An slightly overhanging wall with good holds, or vertical wall (eg old brick wall).
+  - 24: A steep overhanging wall with holds, or a well masoned town wall.
+  - 30: A cave roof, steep overhanging wall with few holds, a perfectly masoned town wall.
+  - 36: A ceiling or perfectly smooth glass/metal vertical wall
+  - 50: A force wall or flowing waterfall.
+- Modifiers:
+  - Surface is wet: -5 Penalty.
+  - Surface is loose: -5 Penalty.
+  - Entity climbs at 1/2 speed or dash: -5 penalty.
+  - Entity spends one hour studying the climb: Advantage.
+- Special:
+  - Entities with a climb speed can always take 13 to climb.
+  - A roll of a climber's kit allows to make a climb safe, reducing fall distance to 20ft for threshold 24+ climbs and 10ft for threshold 23- climbs.
 
+__STR: Fortify__
+
+The skill is used for building structures, fortifying positions (dungeon corridors, battle fields, encampments). It is also used for safely demolishing structures and fortifications. Lastly it is used for making a site safe from natural hazards and making it fit for encampment (amelioration). Fortification rolls are usually made against the threshold set by the terrain and weather.
+- Building: There are special rules for building. They need to be written.
+- Fortification: It takes 30min per 5ft square to fortify a position.
+  - This can give a 3/4 cover bonus to defenders.
+  - This can be used to construct a terrain/structure trap (see traps).
+  - This can be used to create a barricade (with a break threshold of your roll).
+- Amelioration: For medium size creature the minum camping area is 5ft x 10ft.
+  - It takes 10 minutes to ameliorate this area in threshold 10- terrain.
+  - It takes 1h to ameliorate this area in threshold 11+ terrain.
+- Modifiers:
+  - The time can be reduced, but without special or supernatural abilities it cannot be less than 5 minutes.
+  - For every size category above medium the total time taken is halved.
+  - Multiple entities can participate in the process, in which case the time taken is divided by the number of entities taking part. For each size category above medium, an entity counts as twice as many entities of the next category down. So a largte entity counts as 2 medium entities, but a huge entity counts as 4 medium entities.
+  - An entity can do a "rush job" and take half the time: -5 penalty.
+
+__STR: Swim__
+
+Swimming is a separate skill from climbing and overland atheletics. It is used for moving through a liquid medium, such as water, lava, quicksand, or a monster's stomach acid. A creature without a *swim* skill climbs at 1/4 of its base speed. This follows the "Difficulties and recommended thresholds" as follows.
+- Base Thresholds:
+  - 4: Float or swim in perfectly calm, warm water, under perfect conditions.
+  - 8: To float or swim while engaged in combat.
+  - 8: Swim in a direction while under water. 
+  - 50: Swim up a flowing waterfall or down an erupting volcano (if you're immune to Fire[Natural]).
+- Threshold modifiers:
+  - Severe or Extreme currents: +5 or +10 to threshold.
+  - Severe or Extreme turbulance/waves: +5 or +10 to threshold.
+  - Severe or Extreme temperature: +5 or +10 to threshold.
+- Penalties:
+  - Wearing medium armour: -5 penalty.
+  - Wearing heavy armour: -10 penalty.
+  - For every 10lb of carried equipment: -1 penalty.
+- Special:
+  - Entities with a swim speed can always take 13 to swim.
+  - Floation devices (improvised or purpose made) reduce thresholds for staying or returning to the surface by 5.
+  - An entity with a diver's kit can see normally in the fluid, can swim at 1/2 base speed instead of 1/4 base speed, and does not need to worry about breath for 30 minutes. Usually a diver's kit is designed specifically for one fluid.
+
+  __DEX: Acrobatics__
+
+  
 
 ##### Kit and tool Descriptions

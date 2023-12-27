@@ -94,9 +94,9 @@ The numbers on thresholds and rolls are abstractions of how difficult a task is 
 #### General
 - Everything is either "**natural**" (that is to say it obeys the physical laws of the world and can be explained by them), or **supernatural** (that is to say that it does not and cannot).
 - All entities are either:
- 1. **Mortals**.
- 2. **Machines**.
- 3. **Divine**/**Profane**/**Spiritual** entities.
+  1. **Mortals**.
+  2. **Machines**.
+  3. **Divine**/**Profane**/**Spiritual** entities.
 - Most entities are mortals, including characters. All mortals are alive and can die.
 - Machines are not alive and therefore cannot die. They can however be created and destroyed.
 - Divine/Profane/Spiritual entities are often not truly alive, and often tend to be eternal. Some are referred to as "gods" or "immortals". This leaves some unanswered questions as to what the rest of them are. Whatever else, they are all **supernatural**.
@@ -110,15 +110,15 @@ The numbers on thresholds and rolls are abstractions of how difficult a task is 
 
 ##### Sustenance for humanoid Characters (and animals)
 - This is as follows: (Sustenance kind|duration before deterioration| deterioration name|reset condition|.
- 1. **Air** (aerated water for some)|[CON] minutes|suffocation|[10 minutes - CON] with sufficient air.
- 2. **Food**|[CONx3] days|starvation|[starvation duration x 2 - CON] days
- 3. **Water**|[CON -1] days|dehydration|[2 days]
- 4. **Sleep**|[1 day + CHA x hours|insomnia|[7 - CHA] days
+  1. **Air** (aerated water for some)|[CON] minutes|suffocation|[10 minutes - CON] with sufficient air.
+  2. **Food**|[CONx3] days|starvation|[starvation duration x 2 - CON] days
+  3. **Water**|[CON -1] days|dehydration|[2 days]
+  4. **Sleep**|[1 day + CHA x hours|insomnia|[7 - CHA] days
 - The deterioration behaves as following:
- 1. **Suffocation**: Lose 2d6 HP every minute.
- 2. **Starvation**: Lose 1 Stamina point/dice per day from your maximum.
- 3. **Dehydration**: Lose 1 Stamina point/dice per hour from your maximum.
- 4. **Insomnia**: Lose 3 Mana point/dice per day.
+  1. **Suffocation**: Lose 2d6 HP every minute.
+  2. **Starvation**: Lose 1 Stamina point/dice per day from your maximum.
+  3. **Dehydration**: Lose 1 Stamina point/dice per hour from your maximum.
+  4. **Insomnia**: Lose 3 Mana point/dice per day.
 
 ### Conditions and states
 Entities can be affected by a number of conditions, most of them bad. For now these include (and all are badly defined!):
@@ -139,124 +139,124 @@ Entities can be affected by a number of conditions, most of them bad. For now th
   - It cannot move or take take actions other than [WIS] based skill checks.
   - If it can communicate, it cannot do so "loudly" enough to gain attention from afar without a [SKILL] check from the recipient.
 - "**Paralysed**": A paralysed character cannot take physical actions:
- - It does not gain physical[STATS] to AC.
- - Physical melee attacks against it have super-advantage.
- - It it can fall prone, it falls prone.
- - Physical ranged attacks against it have advantage if it is not prone.
- - Natural damage bypasses SP.
- - It cannot make [STR] or [DEX] saves.
- - It cannot use [SKILLS], attacks or cast spells that require the use of its body (including "incantations" and "somatic components").
- - This means it cannot move.
+  - It does not gain physical[STATS] to AC.
+  - Physical melee attacks against it have super-advantage.
+  - It it can fall prone, it falls prone.
+  - Physical ranged attacks against it have advantage if it is not prone.
+  - Natural damage bypasses SP.
+  - It cannot make [STR] or [DEX] saves.
+  - It cannot use [SKILLS], attacks or cast spells that require the use of its body (including "incantations" and "somatic components").
+  - This means it cannot move.
 - "**Crippled**": This character cannot use one or more limbs.
   - Creatures crippled in movement related limbs cannot "run", "sprint" and move at half pace (or "crawl").
   - Creatures crippled in prehensile limbs cannot hold weapons or manipulate objects. They have problems completing "somatic components".
 - "**Incapacitated**": This creature cannot take actions (other than movement or communication) or reactions in combat.
- - Attacks against it have advantage.
+  - Attacks against it have advantage.
 - "**Immobilised**": An immobilised character is in trouble.
- - It has a movement speed of 0ft.
- - It cannot make [DEX] or [STR] saves, attacks.
- - It cannot cast spells with somatic components.
- - Attacks against it have advantage.
- - It cannot use [DEX] and [STR] based skills or abilities except some escape related skills, and even then at super-disadvantage.
+  - It has a movement speed of 0ft.
+  - It cannot make [DEX] or [STR] saves, attacks.
+  - It cannot cast spells with somatic components.
+  - Attacks against it have advantage.
+  - It cannot use [DEX] and [STR] based skills or abilities except some escape related skills, and even then at super-disadvantage.
 - "**Restrained**": A restrained character has problems. It has a movement speed of 0ft and suffers from one or more of the following:
- - It cannot make somatic components for spells.
- - It has disadvantage on physical attacks and [DEX] saves.
- - Attacks against it have advantage.
+  - It cannot make somatic components for spells.
+  - It has disadvantage on physical attacks and [DEX] saves.
+  - Attacks against it have advantage.
 - "**Grappled**": A grappled character has a movement speed of 0ft.
 - "**Prone**": A prone character is intimate with the ground.
- - It can only move at a crawl.
- - Melee attacks have advantage against it.
- - Ranged attacks have disadvantage against it.
- - It has disadvantage on melee attacks.
- - It has disadvantage at [STR] and [DEX] saves.
- - It has advantage at skills used in hiding, but may suffer penalties to perception.
+  - It can only move at a crawl.
+  - Melee attacks have advantage against it.
+  - Ranged attacks have disadvantage against it.
+  - It has disadvantage on melee attacks.
+  - It has disadvantage at [STR] and [DEX] saves.
+  - It has advantage at skills used in hiding, but may suffer penalties to perception.
 - "**Catatonic**": A catatonic character loses the will to act and cannot take actions.
- - It cannot make attacks, use physical abilities or cast spells.
- - It cannot use skills other than those that are involved in perceiving the world.
- - It cannot move.
- - It has disadvantage on all saves.
+  - It cannot make attacks, use physical abilities or cast spells.
+  - It cannot use skills other than those that are involved in perceiving the world.
+  - It cannot move.
+  - It has disadvantage on all saves.
 - "**Stunned**": A stunned character briefly loses control of their body and mind. Stun is a short term effect and ALWAYS provides a [SAVE] every round.
- - It does not gain physical[STATS] to AC.
- - It it can fall prone, it falls prone.
- - Physical attacks against it have advantage (unless the attack is ranged and the character is prone).
- - It cannot make [STR], [DEX] or [CHA] saves.
- - It cannot use [SKILLS], attacks or cast spells that require the use of its body (including "incantations" and "somatic components").
+  - It does not gain physical[STATS] to AC.
+  - It it can fall prone, it falls prone.
+  - Physical attacks against it have advantage (unless the attack is ranged and the character is prone).
+  - It cannot make [STR], [DEX] or [CHA] saves.
+  - It cannot use [SKILLS], attacks or cast spells that require the use of its body (including "incantations" and "somatic components").
 - "**Charmed**": A charmed character cannot attack the source of its charm. It has disadvantage against [WIS], [CHA], [INT] saves vs it. In theory it perceives its words and actions in the most favourable manner. In practice players are players.
 - "**Frightened**": A frightened character has disadvantage on to targeted attacks. It must use its movement to move away from the source of its fear.
 - "**Poisoned**": Afflicted by a poison. This has some core effects and specific effects. I don't know what they are.
 - "**Diseased**": Afflicted by a disease. This has degrees of effect. I don't know what they are.
 - "**Bleeding/Wilting**": A bleeding character loses HP every round. A [CON] save, or appropriate healing can stem this effect.
 - "**Inaudible**": A silent character makes no sound. It can neither make sounds willingly or unwillingly
- - It cannot complete incantations or communicate verbally.
- - Rolls to detect the character based on sound ALWAYS fail.
+  - It cannot complete incantations or communicate verbally.
+  - Rolls to detect the character based on sound ALWAYS fail.
 - "**Silenced**": A silenced character cannot communicate verbally.
- - This means that skills and abilities requiring speech automatically fail.
- - Incantations ALWAYS fail.
+  - This means that skills and abilities requiring speech automatically fail.
+  - Incantations ALWAYS fail.
 - "**Blinded**": A blinded character cannot perceive visual input:
- - It cannot use [WIS] based skills based on sight.
- - It had disadvantage on [DEX] based skills.
- - It makes melee attacks at disadvantage and ranged and reach attacks at super-disadvantage. When making a ranged attack the attacker must succeed on a roll to detect targets by other means or its attack automatically misses.
- - It has disadvantage on [WIS] and [DEX] based saves.
+  - It cannot use [WIS] based skills based on sight.
+  - It had disadvantage on [DEX] based skills.
+  - It makes melee attacks at disadvantage and ranged and reach attacks at super-disadvantage. When making a ranged attack the attacker must succeed on a roll to detect targets by other means or its attack automatically misses.
+  - It has disadvantage on [WIS] and [DEX] based saves.
 - "**Invisible**": This character cannot be directly detected by visual means (aka sight). Characters are considered "blinded" in relation to invisible creatures.
 - "**Deafened**": A deafened character cannot perceive sound. It cannot hear. It can speak only stutteringly. It must make an [INT] save to complete Incantations (unless it is deaf for longer than month).
 
 ### Character Descriptors
 A character has descriptive attributes that need not influence mechanics (within reason), eg hair/feather/scale length and colour. Timbre of voice. This kind of thing is cool, but not regulated by these rules.
 - A character has an entity type, race, size category, movement modalities and speed. These have mechanistic effects.
- 1. **Entity type** define the base possibilities of a character (a plant does not require sleep, but usually requires water, air and "sustenance", it does "see" things. A spirit does not have a corporeal form and cannot be "touched" normally, a humanoid (animal) has a movement speed, and a corporeal form, usually with one head, one torso, two arms and two legs, requires air, water, sustenance, sleep and ages).
- 2. The **race** determines some specific characteristics and attributes. (eg base movement speed, movement modality, lifespan, typical weight and height, certain resistances and vulnerabilities and special abilities).
- 3. **Size category** [diminutive, tiny, small, medium, large, huge, gargantuan, colossal] affect how much space an entity takes up on (and off) a battlefield, its reach, its AC, and potentially other things.
- 4. **Movement modalities** are usually determined by race and special abilities. A creature WITH a movement modality may (or may not!) be able to move over other terrain with an ability check. this is covered in "movement" rules:
-   - **walk speed**: ground movement over horizontal-ish terrain.
-   - **climb speed**: ground movement over vertical-ish terrain.
-   - **flight speed**: areal movement. Movement through the air.
-   - **swim speed**: fluid movement.
-   - **dig speed**: tunnelling movement.
-   - **cosmic speed** ethereal movement. Movement through vacuum, solids (without  interacting) or alternative spaces. Very few beings have a "cosmic speed" and most are supernatural.
-   - **blink speed**: discrete movement. An entity with a blink speed need not pass through the spaces between start and destination as long as it is in range. Very few entities have a "blink speed", most are powerful supernatural entities.
+  1. **Entity type** define the base possibilities of a character (a plant does not require sleep, but usually requires water, air and "sustenance", it does "see" things. A spirit does not have a corporeal form and cannot be "touched" normally, a humanoid (animal) has a movement speed, and a corporeal form, usually with one head, one torso, two arms and two legs, requires air, water, sustenance, sleep and ages).
+  2. The **race** determines some specific characteristics and attributes. (eg base movement speed, movement modality, lifespan, typical weight and height, certain resistances and vulnerabilities and special abilities).
+  3. **Size category** [diminutive, tiny, small, medium, large, huge, gargantuan, colossal] affect how much space an entity takes up on (and off) a battlefield, its reach, its AC, and potentially other things.
+  4. **Movement modalities** are usually determined by race and special abilities. A creature WITH a movement modality may (or may not!) be able to move over other terrain with an ability check. this is covered in "movement" rules:
+      - **walk speed**: ground movement over horizontal-ish terrain.
+      - **climb speed**: ground movement over vertical-ish terrain.
+      - **flight speed**: areal movement. Movement through the air.
+      - **swim speed**: fluid movement.
+      - **dig speed**: tunnelling movement.
+      - **cosmic speed** ethereal movement. Movement through vacuum, solids (without  interacting) or alternative spaces. Very few beings have a "cosmic speed" and most are supernatural.
+      - **blink speed**: discrete movement. An entity with a blink speed need not pass through the spaces between start and destination as long as it is in range. Very few entities have a "blink speed", most are powerful supernatural entities.
 
 
 - "**Character Level**": All player characters have one. This is an abstract measure of experience and the power that is derived from it. The level determines the proficiency bonus that modifies all rolls. The proficiency bonus is simply derived as [LEVEL / 5] rounded up. For levels 1-5 it is 1, for 5-10 it is 2, etc. **Character level**, together with **stats**, **entity type**, **race**,  forms the "**governing quartet**" which determine most of the base mechanics of a character. Almost all other characteristics can be derived from these four.
 
 - **Stats**: A character has six **base attributes**, also known as "**statistics**" or "**stats**":
- 1. **Str**: Physical strength. Upstream of most weapon attack, damage. Upstream of abilities linked to affecting the surroundings by physical force.
- 2. **Dex**: Physical agility. Upstream to some weapon attack, damage (usually ranged). Upstream to evasive abilities. Upstream to abilities linked to affecting the surroundings by delicate manipulation.
- 3. **Con**: Physical resilience. Upstream of HP, SP, aspects of physical interactions.
- 4. **Int**: Mental agility. Ability to memorise, deduce, analyse, IQ. Upstream to skill points, some aspects of supernatural abilities.
- 5. **Wis**: Faculty of judgement, discernment, sense, EQ. Upstream of supernatural abilities, abilities devoted to detection, some aspects of social interactions.
- 6. **Cha**: Force of Personality. Mental resilience. Upstream of HP, MP, aspects of social interactions.
+  1. **Str**: Physical strength. Upstream of most weapon attack, damage. Upstream of abilities linked to affecting the surroundings by physical force.
+  2. **Dex**: Physical agility. Upstream to some weapon attack, damage (usually ranged). Upstream to evasive abilities. Upstream to abilities linked to affecting the surroundings by delicate manipulation.
+  3. **Con**: Physical resilience. Upstream of HP, SP, aspects of physical interactions.
+  4. **Int**: Mental agility. Ability to memorise, deduce, analyse, IQ. Upstream to skill points, some aspects of supernatural abilities.
+  5. **Wis**: Faculty of judgement, discernment, sense, EQ. Upstream of supernatural abilities, abilities devoted to detection, some aspects of social interactions.
+  6. **Cha**: Force of Personality. Mental resilience. Upstream of HP, MP, aspects of social interactions.
 
 
 - **Hit class**: A character has an armour/hit class, this is a measure of how difficult its physical (or spiritual) form is to damage using targeted attacks. It can represent any combination of armour and evasive ability and is something of an abstraction of how hard a target is to damage with a targeted attack: A targeted attack either hits (potentially doing damage) or it does not.
- 1. Base AC is calculated (for now!) as 10+[Static Bonus]+[SP ability bonus]+[MP ability bonus]+[cirumstance bonus]. This has not been decided.
-  - Static bonus is some combination of the bonus from armour worn, attributes and passive special abilities.
-  - SP ability bonus is the bonus from an active natural ability. Bonuses from different SP abilities do not stack. Only the highest is used.
-  - MP ability bonus from active supernatural abilities. As with SP abilities.
-  - Circumstance bonus (or penalty!) is how your surroundings and condition affects you. eg. cover, fatigue, etc. Here bonuses stack unless they are from the same source. (eg, you can only have one bonus from cover, you can only have one penalty from viper poison etc.).
+  1. Base AC is calculated (for now!) as 10+[Static Bonus]+[SP ability bonus]+[MP ability bonus]+[cirumstance bonus]. This has not been decided.
+      - Static bonus is some combination of the bonus from armour worn, attributes and passive special abilities.
+      - SP ability bonus is the bonus from an active natural ability. Bonuses from different SP abilities do not stack. Only the highest is used.
+      - MP ability bonus from active supernatural abilities. As with SP abilities.
+      - Circumstance bonus (or penalty!) is how your surroundings and condition affects you. eg. cover, fatigue, etc. Here bonuses stack unless they are from the same source. (eg, you can only have one bonus from cover, you can only have one penalty from viper poison etc.).
 
 
 - **Saving throws:** Some harmful effects can be negated or mitigated with a "**saving throw**". A character has six saving throws, one for each attribute. Abilities and effects that force a save usually specify one or two valid save types:
- 1. **Str**: Use of strength to resist or redirect an effect. This can be voluntarily failed. A "**helpless**" being cannot succeed STR saves. Examples:
-   - Use STR to resist being knocked prone by a charging guinea pig.
-   - Use STR hang on to a ship's mast when a storm wave washes over a ship.
- 2. **Dex**: Use of agility to avoid or redirect an effect. This can be voluntarily failed. An "**immobilised**" being cannot succeed DEX saves. Examples:
-   - Use DEX to avoid a charging guinea pig.
-   - Defensively tuck in time to avoid the worst of a fireball's heat wave.
- 3. **Con**: Use of physical resilience to shake off an effect. This cannot be voluntarily failed. Entities without a physical form ALWAYS succeed CON saves. Examples:
-   - Immune system resisting a disease.
-   - Resisting a poison.
-   - Resisting the effect of a monsters ultrasonic blast.
-   - Resisting some supernatural abilities that eat away at the body.
- 4. **Int**: Use of analysis to negate a complex effect. This can be voluntarily failed. A mindless being is not affected by abilities that force INT saves. Examples:
-   - Negate a confusion effect.
-   - Escape a magical labyrinth.
- 5. **Wis**: Use of senses to detect an insidious effect. This can be voluntarily failed. A mindless being is not affected by abilities that force WIS saves. Examples:
-   - Defeat an illusion.
-   - Defeat a charm/fear effect.
- 6. **Cha**: Use of force of will/presence to negate an effect. Can sometimes be voluntarily failed.
-   - Negate a devil's attempt to cast you into a another plane.
-   - Negate a spirit's attempt to devour your essence.
-   - Negate possession.
+  1. **Str**: Use of strength to resist or redirect an effect. This can be voluntarily failed. A "**helpless**" being cannot succeed STR saves. Examples:
+      - Use STR to resist being knocked prone by a charging guinea pig.
+      - Use STR hang on to a ship's mast when a storm wave washes over a ship.
+  2. **Dex**: Use of agility to avoid or redirect an effect. This can be voluntarily failed. An "**immobilised**" being cannot succeed DEX saves. Examples:
+      - Use DEX to avoid a charging guinea pig.
+      - Defensively tuck in time to avoid the worst of a fireball's heat wave.
+  3. **Con**: Use of physical resilience to shake off an effect. This cannot be voluntarily failed. Entities without a physical form ALWAYS succeed CON saves. Examples:
+      - Immune system resisting a disease.
+      - Resisting a poison.
+      - Resisting the effect of a monsters ultrasonic blast.
+      - Resisting some supernatural abilities that eat away at the body.
+  4. **Int**: Use of analysis to negate a complex effect. This can be voluntarily failed. A mindless being is not affected by abilities that force INT saves. Examples:
+      - Negate a confusion effect.
+      - Escape a magical labyrinth.
+  5. **Wis**: Use of senses to detect an insidious effect. This can be voluntarily failed. A mindless being is not affected by abilities that force WIS saves. Examples:
+      - Defeat an illusion.
+      - Defeat a charm/fear effect.
+  6. **Cha**: Use of force of will/presence to negate an effect. Can sometimes be voluntarily failed.
+      - Negate a devil's attempt to cast you into a another plane.
+      - Negate a spirit's attempt to devour your essence.
+      - Negate possession.
 
 
 - **Skills**: A character has skills (or at least you'd hope so!). Niall is working on these.
@@ -419,16 +419,16 @@ Combat starts as soon as one or both sides are capable and willing of fighting. 
 
 #### The Turn
 - During its turn an entity may take all of the following actions in any order:
- - One "**move**" action.
- - One "**main action**".
- - One "**secondary action**".
- - One "**minor interaction**".
- - One "**communicate**" action.
+  - One "**move**" action.
+  - One "**main action**".
+  - One "**secondary action**".
+  - One "**minor interaction**".
+  - One "**communicate**" action.
 
 
 - Alternatively an entity may take ONE of the following sets instead:
- - "**Sprint**" action.
- - "**Full round action**" and potentially a "**communicate**" & "**item interaction**" if the full round action is centred around an item.
+  - "**Sprint**" action.
+  - "**Full round action**" and potentially a "**communicate**" & "**item interaction**" if the full round action is centred around an item.
 
 
 - In addition, regardless of the other actions, it may take one "**reaction**" at any point in the round, providing that it is not prevented by other factors. It regains its reaction at the start of its turn.
@@ -441,13 +441,13 @@ The actions an entity may take might also be restricted by its conditions and ge
 
 
 - "**Main Action**": This is some generalised activity that takes no longer than 6 seconds and does not interfere with general "movement". Actions include:
- - Making an attack action.
- - Using most abilities that use SP or MP.
- - Activating certain items.
- - Using some skills.
- - Take a second "Movement".
- - Administering a potion.
- - Retrieving/Stowing an item that is in a container in reach.
+  - Making an attack action.
+  - Using most abilities that use SP or MP.
+  - Activating certain items.
+  - Using some skills.
+  - Take a second "Movement".
+  - Administering a potion.
+  - Retrieving/Stowing an item that is in a container in reach.
 
 
 - "**Secondary action**": A minor activity that can be carried out while doing something else at the same time. (eg, Attacking with an offhand dagger while swinging a sword). These include.
@@ -459,20 +459,20 @@ The actions an entity may take might also be restricted by its conditions and ge
 
 
 - "**Minor interaction**": If an "action" involves using an object, you may carry out an activity associated with that item that involves the part of your form that is interacting it. The creature can also drop ONE item IN ADDITION to this. This need not be the same item. Otherwise these include:
- - Drawing/picking up a sword you are about to attack with.
- - Uncorking a vial before administering the content.
+  - Drawing/picking up a sword you are about to attack with.
+  - Uncorking a vial before administering the content.
 
 
 - "**Reaction/Immediate action**": An action that can be taken at any time as long as some trigger condition is fulfilled (usually this requires the entity to be aware that the trigger happens). These actions are generally very quick and can be executed almost reflexively. Eg:
- - Attacking once with a melee weapon or using certain abilities when a creature in range drops their guard (Attack of Opportunity).
- - Cast certain spells or use certain abilities (counter-spelling, parrying, some defensive spells).
- - Dropping to the ground (eg in reaction to the casting of a powerful spell).
- - Dropping an item.
+  - Attacking once with a melee weapon or using certain abilities when a creature in range drops their guard (Attack of Opportunity).
+  - Cast certain spells or use certain abilities (counter-spelling, parrying, some defensive spells).
+  - Dropping to the ground (eg in reaction to the casting of a powerful spell).
+  - Dropping an item.
 
 
 - "**Full round actions**": Certain activities involve using the whole of your turn and cannot fit in an action. They are resolved at the start of the next turn (or a subsequent turn when they are completed. These include:
- - Casting certain spells. Especially those with a casting time of 1 minute or more take multiple full round actions.
- - Using certain mechanisms (eg turning a crank for a mechanism for a drawbridge).
+  - Casting certain spells. Especially those with a casting time of 1 minute or more take multiple full round actions.
+  - Using certain mechanisms (eg turning a crank for a mechanism for a drawbridge).
 
 
 - "**Communicate**": Most entities can communicate in parallel to doing other things. This involves using means of communication (eg Speech) that do not interfere (much!) with other activities. As a guide, a humanoid character can communicate about 1 word per second (6 per round). You cannot use modes of communication that interfere with other actions (eg communicate verbally when chanting an incantation for a spell, using sign-language while wielding a two-handed sword (usually!)).
@@ -493,12 +493,12 @@ This is a collection of unsorted rules related to basic physical combat.
 #### Basic Martial Manoeuvres.
 Any adventurer may attempt a martial manoeuvre. If an untrained combatant attempts this however, they risk attacks of opportunity and other penalties. Many monsters can carry out these manoeuvres without penalties or meeting the prerequisites. Special abilities and weapons/tools can reduce or remove penalties for manoeuvres or increase their effectiveness.
 - **Grapple**:
- - Effect: Reduce a foe's movement to 0.
- - Requires attack roll.
- - Penalty if not proficient with **grapples**.
- - Attack of opportunity on failure.
+  - Effect: Reduce a foe's movement to 0.
+  - Requires attack roll.
+  - Penalty if not proficient with **grapples**.
+  - Attack of opportunity on failure.
 - **Restrain**:
- - Effect: Give a foe extra penalty.
+  - Effect: Give a foe extra penalty.
   - Prerequisite: Foe must be prone or grappled.
   - Requires attack roll.
   - Penalty if not proficient with **grapples**.
@@ -506,20 +506,20 @@ Any adventurer may attempt a martial manoeuvre. If an untrained combatant attemp
    - "Silence": Prevent foe from completing incantations.
    - "Restrain": Prevent a foe from casting spells with somatic components and give penalties to weapon attacks.
 - **Shove**:
- - Effect: Moves a foe away from you by up to 10ft.
- - Requires attack roll.
- - Penalty if not proficient with **throws**.
+  - Effect: Moves a foe away from you by up to 10ft.
+  - Requires attack roll.
+  - Penalty if not proficient with **throws**.
 - **Throw**: A different flavour of shove.
 - **Trip**:
- - Effect: Knock a foe prone.
- - Requires attack roll.
- - Penalty if not proficient with **throws**.
- - On failure provokes attack of Opportunity if the foe is holding a weapon you are not proficient with AND you are not proficient with **throws**.
+  - Effect: Knock a foe prone.
+  - Requires attack roll.
+  - Penalty if not proficient with **throws**.
+  - On failure provokes attack of Opportunity if the foe is holding a weapon you are not proficient with AND you are not proficient with **throws**.
 - **Disarm**:
- - Effect: Liberate a foe of a weapon or item held.
- - Requires attack roll.
- - Penalty if not proficient with **disarm**.
- - Provokes a penalty and attack of Opportunity if the foe is holding a weapon you are not proficient with AND you are not proficient with **disarm**.
+  - Effect: Liberate a foe of a weapon or item held.
+  - Requires attack roll.
+  - Penalty if not proficient with **disarm**.
+  - Provokes a penalty and attack of Opportunity if the foe is holding a weapon you are not proficient with AND you are not proficient with **disarm**.
 
 A creature that is "grappled" or "restrained" can make an opposing roll in place of its attack action to try to break free or move its assailant.
 
@@ -548,26 +548,26 @@ A creature that is "grappled" or "restrained" can make an opposing roll in place
 
 
 - These ALWAYS involve a combination of one or more of the following:
- 1. **Somatic Components**: A set of defined, obvious gestures or movements. An "immobilised" or "restrained" caster cannot perform these. (conditions that imply "immobilised" fall under this category).
- 2. **Incantation components**: A set of defined, well enunciated words or sounds. A "silenced" or "silent" caster cannot perform these. (conditions that imply inability to produce defined sound fall under this category).
- 3. **Ritual components**: A ritual is a procedure involving defined movement and positioning of objects or entities, or the creation of defined patterns. Disruption of this procedure ruins the ritual. Rituals typically apply to global spells.
+  1. **Somatic Components**: A set of defined, obvious gestures or movements. An "immobilised" or "restrained" caster cannot perform these. (conditions that imply "immobilised" fall under this category).
+  2. **Incantation components**: A set of defined, well enunciated words or sounds. A "silenced" or "silent" caster cannot perform these. (conditions that imply inability to produce defined sound fall under this category).
+  3. **Ritual components**: A ritual is a procedure involving defined movement and positioning of objects or entities, or the creation of defined patterns. Disruption of this procedure ruins the ritual. Rituals typically apply to global spells.
 
 
 - Spell ranges are designated as "**melee**" or "**ranged**".
- 1. A "**melee**" spell, like a melee attack must requires direct contact between caster and target. Its range is the caster's reach.
- 2. A "**ranged**" spell can have a range of 5ft or higher. It is designated as eg "ranged[60ft]". The base distances are 15ft, 30ft, 60ft, 120ft, 240ft.
+  1. A "**melee**" spell, like a melee attack must requires direct contact between caster and target. Its range is the caster's reach.
+  2. A "**ranged**" spell can have a range of 5ft or higher. It is designated as eg "ranged[60ft]". The base distances are 15ft, 30ft, 60ft, 120ft, 240ft.
 
 
 - An entity can only cast ONE spell at a time. If it attempts to cast a second, either both spells dissipate, or the casting ends in spectacular failure.
 - Spells can be **counterspelled** and **dispelled**. (How?)
 - Casting non-melee spells with somatic components provokes attacks of opportunity.
 - Spells with an active effect (eg summoning) and non-instantaneous duration usually require the caster to maintain their existence by "**concentrating**" on them. This has the following rules:
- 1. A caster can NEVER concentrate on more than one spell.
- 2. If concentration is broken, the spell dissipates or fails spectacularly.
- 3. An "incapacitated" (or so implied) entity cannot concentrate.
- 4. Concentration can be disrupted by taking damage (DC10 or 1/2 damage taken, whichever is higher).
- 5. Concentration can be disrupted by violent movement (DC10), violent weather (DC10) or both (DC15).
- 6. A caster can "hold" an "instantaneous" spell with a release trigger to trigger the effect within a minute of casting. The DC=10+[rounds held]. If the trigger is not met the spell dissipates. The cost of the spell is paid when the spell is cast (always), not when it is triggered.
+  1. A caster can NEVER concentrate on more than one spell.
+  2. If concentration is broken, the spell dissipates or fails spectacularly.
+  3. An "incapacitated" (or so implied) entity cannot concentrate.
+  4. Concentration can be disrupted by taking damage (DC10 or 1/2 damage taken, whichever is higher).
+  5. Concentration can be disrupted by violent movement (DC10), violent weather (DC10) or both (DC15).
+  6. A caster can "hold" an "instantaneous" spell with a release trigger to trigger the effect within a minute of casting. The DC=10+[rounds held]. If the trigger is not met the spell dissipates. The cost of the spell is paid when the spell is cast (always), not when it is triggered.
 
 ### Actions outside of Combat
 A character should be able to take actions a creature of its type should conceivably be able to take including eat, sleep, explore, and interact with the world.
@@ -615,39 +615,39 @@ All travel rolls are determined by the terrain type, the weather modifier from i
 - In groups where travel rolls are seen as a burden they can be dropped, but please keep in mind that this will affect the value of certain skills and abilities.
 - There is a simplified table provided if the full rule is deemed burdensome.
 - **Simplified Table (Camping and navigation combined):**
- - Roads, Plains, Woodlands, Ruin, Hill: 5
- - Deep Forest, Subterrean, Fells, Swamp, Mountain: 15
- - Inclement Weather: +5 threshold modifier.
- - Homeland: +5 bonus to roll.
+  - Roads, Plains, Woodlands, Ruin, Hill: 5
+  - Deep Forest, Subterrean, Fells, Swamp, Mountain: 15
+  - Inclement Weather: +5 threshold modifier.
+  - Homeland: +5 bonus to roll.
 
 
 - Full rules are as follows:
 - **Familiarity bonus:**
- - Familiar (has been here before a few times): +2
- - Homeland: +5.
+  - Familiar (has been here before a few times): +2
+  - Homeland: +5.
 - **Weather modifier navigation/scouting:** NB: Modifiers from different categories stack.
- - Visibility modifier: Poor (severe) visibility: + 2
- - Visibility modifier: No (extreme) visibility: + 5
- - Precipitation: Heavy precipitation (severe or extreme): +2
- - Wind: Extreme (hurricane, tornado, taifu): + 2.
+  - Visibility modifier: Poor (severe) visibility: + 2
+  - Visibility modifier: No (extreme) visibility: + 5
+  - Precipitation: Heavy precipitation (severe or extreme): +2
+  - Wind: Extreme (hurricane, tornado, taifu): + 2.
 - **Terrain difficulty table nav/scouting:** NB, Visibility penality for plains, deserts, swamps and fells are doubled.
- - Roads: 5
- - Plains, Deserts, Hills, Mountains: 10
- - Ruins, Fells, Swamps, Woodlands: 15
- - Deep Forest, Subterranean: 20
+  - Roads: 5
+  - Plains, Deserts, Hills, Mountains: 10
+  - Ruins, Fells, Swamps, Woodlands: 15
+  - Deep Forest, Subterranean: 20
 - **Weather modifier camping:** NB: Modifiers from different categories stack.
- - Visibility modifier: No visibility: + 2
- - Precipitation: Severe/Extreme: +2
- - Wind: Severe: + 2
- - Wind: Extreme (Hurricane, tornado, taifu): + 5
- - Extreme temperature: Severe (+40/-10): + 2.
- - Extreme temperature: Extreme (+50/-30): + 5.
- - Extreme temperature: Lethal Impossible to camp successfully without special abilities or magic.
+  - Visibility modifier: No visibility: + 2
+  - Precipitation: Severe/Extreme: +2
+  - Wind: Severe: + 2
+  - Wind: Extreme (Hurricane, tornado, taifu): + 5
+  - Extreme temperature: Severe (+40/-10): + 2.
+  - Extreme temperature: Extreme (+50/-30): + 5.
+  - Extreme temperature: Lethal Impossible to camp successfully without special abilities or magic.
 - **Terrain difficulty camping:** NB: Wind penality is doubled in deserts and mountains. Precipitation penalty is doubled in swamps.
- - Roads, Plains, Woodlands: 5
- - Ruins, Hills, Deep Forest: 10
- - Subterrean, Fells: 15
- - Desert, Swamp, Mountain: 20
+  - Roads, Plains, Woodlands: 5
+  - Ruins, Hills, Deep Forest: 10
+  - Subterrean, Fells: 15
+  - Desert, Swamp, Mountain: 20
 
 
 It should be noted that the simplified table has generally lower thresholds. This is because it is considered likely that a group that is not using the detailed tables is probably not as excited about the challenges of travel and exploration, so the challenge should be lower to occupy less of their time. The group is of course free to modify the tables as it sees fit, if they wish to adjust the challenge.

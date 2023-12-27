@@ -36,20 +36,20 @@ There are 32 skills and a number of proficiencies.
 
 ##### STR Based (4):
 - Athletics Group
- - Athletics
- - Climb
- - Swim
+  - Athletics
+  - Climb
+  - Swim
 - Fortify
 
 ##### DEX Based (7):
 - Handiwork group
- - Sleight of Hand
- - Tinker
+  - Sleight of Hand
+  - Tinker
 - Heal
 - Ride Group
- - Acrobatics
- - Fly
- - Ride
+  - Acrobatics
+  - Fly
+  - Ride
 - Stealth
 
 ##### CON Based (1):
@@ -59,132 +59,159 @@ There are 32 skills and a number of proficiencies.
 - Academics
 - Appraise
 - Search Group
- - Investigate/Prospect
- - Navigate
+  - Investigate/Prospect
+  - Navigate
 - Natural Knowledge Group
- - Arcana
- - Geography
- - Nature
+  - Arcana
+  - Geography
+  - Nature
 - Constructed Knowledge Group
- - Dungeoneering
- - History
- - Religion
+  - Dungeoneering
+  - History
+  - Religion
 
 ##### WIS Based (5):
 - Detect Group
  - Observe
- - Sense Motive
- - Track
+  - Sense Motive
+  - Track
 - Spellcraft group
- - Spellworking
- - Use Dwoemer
+  - Spellworking
+  - Use Dwoemer
 
 ##### CHA based (5):
 - Diplomacy Group
- - Intimidate
- - Monster Handling
- - Persuade
+  - Intimidate
+  - Monster Handling
+  - Persuade
 - Perform group
- - Bluff
- - Perform
+  - Bluff
+  - Perform
 
 ##### Language Proficiencies
- - Bluff
-There are as many language proficiencies as there are languages in your setting.
+There are as many language proficiencies as there are languages in your setting. In order to speak, understand, read and write a language a character must be proficient in it.
+
+Optionally, for gritty settings language proficiency does not grant a character the ability to read and write, and they must have a rank in "academics" in order to read or write. This, however, makes "academics" very strong.
 
 ##### Tool Proficiencies
-Using tools usually requires a roll of an associated skill. At the group's discretion it can makes sense for other skills may be associated with a tool (eg woodworking tools being used with **fortify** for making big items like wooden walls).
+Using tools usually requires a roll of an associated skill. Some skills cannot be used for certain purposes unless At the group's discretion it can makes sense for other skills may be associated with a tool (eg woodworking tools being used with **fortify** for making big items like wooden walls). Tools and their properties are further discussed below (in the "tools" sections).
+
 - Athletics group based:
- - Diver's tools
- - Climber's kit
+  - Diver's tools
+  - Climber's kit
 - Fortify based
- - Entrenching tools
- - Mason's tools
- - Smith's Tools
+  - Entrenching tools
+  - Mason's tools
+  - Smith's Tools
 - Sleight of Hand
- - Calligraphy kit
- - Forgery kit
+  - Calligraphy kit
+  - Forgery kit
 - Tinker
- - Tinkerer's tools
- - Woodworking tools
- - Locksmith's tools + picks
- - Glassblower's tools
- - Jeweler's Tools
- - ???
+  - Tinkerer's tools
+  - Woodworking tools
+  - Locksmith's tools + picks
+  - Glassblower's tools
+  - Jeweler's Tools
+  - ???
 - Heal
- - Healer's Kit
+  - Healer's Kit
 - Harvest
- - Butcher's tools
- - Herbalist's kit
- - Mining tools
- - Trapper's/Fisher's tools
+  - Butcher's tools
+  - Herbalist's kit
+  - Mining tools
+  - Trapper's/Fisher's tools
 - Academics
- - Alchemist's Tools
- - Poisoner's Tools
+  - Alchemist's Tools
+  - Poisoner's Tools
 - Navigate
- - Cartographer's tools
+  - Cartographer's tools
 - Perform
- - Disguise kit
- - Gaming Set (pick by group or individually)
- - Musical Instrument (pick by group or individually)
+  - Disguise kit
+  - Gaming Set (pick by group or individually)
+  - Musical Instrument (pick by group or individually)
 
 
 ##### Armour Proficiencies
-There are three armour proficiencies that each cover several groups of armour
+Any entity whose body fits a suit of armour can wear the armour. As such it will get the normal benefit to the hit threshold.
+
+When an entity dons or doffs an armour it is not proficient with, it twice as long to don and doff the armour as normal.
+While an entity is wearing an armour it is not proficient with it takes a -5 penalty to all [DEX] and [STR] based rolls it makes.
+
+Armour and its properties are further discussed in the "Weapons and Armour Section".
+
+There are three armour proficiencies that each cover several groups of armour.
 - Light armours
- - Full Padded
- - Leather Cuirass
- - Chain Shirt
+  - Full Padded
+  - Leather Cuirass
+  - Chain Shirt
 - Medium armours
- - Full Leather
- - Hide armour
- - Metal Cuirass
- - Any Paper Armour
+  - Full Leather
+  - Hide armour
+  - Metal Cuirass
+  - Any Paper Armour
 - Heavy Armour
- - Full Chain
- - Full Splint
- - Full Chain
- - Half Plate
- - Full Plate
- - Any Adamantine Armour
+  - Full Chain
+  - Full Splint
+  - Full Chain
+  - Half Plate
+  - Full Plate
+  - Any Adamantine Armour
 - Shields
- - Buckler
- - Round Shield
- - Kite Shield
- - Tower Shield
+  - Buckler
+  - Round Shield
+  - Kite Shield
+  - Tower Shield
 
 
 ##### Weapon Proficiencies
-Weapons are tools that increase an entity's lethality in combat. For the sake of this definition, this does not include martial or supernatural abilities.
+Weapons are tools that increase an entity's lethality in combat. For the sake of this definition, this does not include martial or supernatural abilities. Weapons and their properties are further discussed in the "Weapons and Armour Section".
 
-Any entity may wield a weapon it is physically capably of wielding.If it is not proficent, it makes attacks with a -5 penalty. On a critical fail it damages itself, rolling the same damage dice it would as if it had hit the intended target.
+Any entity may wield a weapon it is physically capably of wielding. If it is not proficent, it makes attacks with a -5 penalty. On a critical fail it damages itself, rolling the same damage dice it would as if it had hit the intended target.
 
 Proficiency eliminates both the penalty and the damage to self on crit. In addition it allows the use of any of a weapon's special properties.
 
-Weapon proficiencies are taken for each subgroup (eg "Strikes" and "Throws" are a separate proficiency).
-
+Weapon proficiencies are taken for each subgroup (eg "Strikes" and "Throws" are a separate proficiencies).
 - Unarmed combat
- - Strikes
- - Throws
- - Grapples
- - Disarms
+  - Strikes
+  - Throws
+  - Grapples
+  - Disarms
 - Melee
- - One handed blade
- - Two handed blade
- - Axes
- - Light Percussive
- - Heavy Percussive
- - Polearms
- - Staves
+  - One handed blade
+  - Two handed blade
+  - Axes
+  - Light Percussive
+  - Heavy Percussive
+  - Polearms
+  - Staves
 - Melee/Thrown
   - Light/Thrown blades
   - Spears/Javelins
 - Ranged
- - Slings
- - Bows
- - Mechanical bows
- - Firearms (optional)
+  - Slings
+  - Bows
+  - Mechanical bows
+  - Firearms (optional)
 - Heavy
- - Ballistae
- - Trebuche/catapults
- - Canons
+  - Ballistae
+  - Trebuche/catapults
+  - Canons
+
+##### SKill Descriptions
+Each skill has a number of described uses. However, the list is generally not exhaustive and additional uses should be discussed within the group.
+
+__STR: Athletics__
+
+Athletics is used for most land based physical activities including:
+- Jumping beyond the ordinary jump distance as determined by a character's stats.
+- Lifting or moving objects that are above a character's normal capacity as determined by its stats, or that have an unwieldy shape.
+- Throwing items and creatures beyonda normal distance.
+- Outrunning creatures with the same base speed in overland chases.
+- Entertaining others with a feats of physical prowess.
+
+__STR: Climb__
+
+This is a skill specific to scaling steep or vertical surfaces, trees, ropes and entites larger than oneself.
+
+
+##### Kit and tool Descriptions

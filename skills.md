@@ -219,7 +219,7 @@ Athletics is used for most land based physical activities including:
   - For every size category below medium, this number is halved.
 - Throwing items and creatures beyond a normal distance.
   - More data needed.
-- Outrunning creatures with the same base speed in overland chases (opposed roll rules).
+- Outrunning creatures with the same base speed in short overland chases (opposed roll rules). 
 - Entertaining others with a feats of physical prowess (see "Difficulties and recommended thresholds").
 - **Take care**: Yes.
 - **Try again**: Yes, although the DM may rule that failure on a retry results in the "crippled" condition.
@@ -417,7 +417,23 @@ Tinkering involves making, modifying and breaking delicate mechanisms, construct
 - **Take care**: Yes. for "disable", "create" or "modify". No for "research".
 - **Try again**: Yes, if it hasn't blown up in your face yet!
 
+__CON: Harvest__
 
+Harvest is the umbrella skill covering the harvesting of natural resources from the environment. This includes, gathering herbs, cutting wood, trapping small game, fishing and mining. For each individual type of harvesting proficiency with the tools is required to use the skill to its full potential. This reflects that each one is a separate discipline and often uses different tools and a different knowledge base.
+- **Threshold**: Determined by terrain and weather. (See "Travel rolls and terrain")
+- **Guideline yields**:
+ - Hunt/trap small prey: 1 small creature per day + 1 per 5 points by which the terrain threshold is exceeded.
+ - Strip a carcass (small, medium, large, huge, enormous): (30 min, 2h, 4h, 1d, 1 week). Threshold: (6, 9, 12, 18, 24).
+ - Harvest surface plants/minerals: 5-30 min per 5ft. Threshold: Terrain.
+ - Harvest subsurface minerals (mining): 1h-1d per 5ft Threshold: Terrain.
+- **Modifiers and Special**.
+  - If the resource is rare, or exotic increase the threshold by +5 or +10.
+  - If the resource cannot be found in the terrain, then the time is spent and the harvest fails.
+  - The duration of the "harvesting" and the magnitude of success determine the yield of the harvest. Critical failure results in the damage to the tools used (or HP loss or injury if the tool was the character's body or spirit).
+  - Exceeding the threshold by 5 allows to double the yield or half the time. Exceeding by 10 or more, allows both.
+- **Take care**: Yes.
+- **Try again**: Yes.
 
+__
 
 ##### Kit and tool Descriptions

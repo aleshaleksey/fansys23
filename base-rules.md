@@ -88,6 +88,28 @@ The numbers on thresholds and rolls are abstractions of how difficult a task is 
 - 36: Hard, for a legendary hero. (Legendary!)
 - 50+: Actually impossible. With maxed out stats, rolling 24 should not hit above 50. (God)
 
+#### Modifiers vs Advantage/Disadvantage
+A mix of game balance and simulationism guide our understanding on what they represnt and how they should be applied.
+
+Advantage represents factors that mitigate some potential of failure, but do not improve the best result. For example a sharp knife makes it easier to gut a rabbit, but does not increase the amount of meat one can harvest (a rabbit only has a rabbit worth of meat).
+
+Disadvantage represents factors that negate some potential for success, but do not make the worst result any more catastrophic.
+
+A positive modifier (bonus) represents factors that make a task easier and have a potential to improve the best result. For example, a tailwind will give a bonus when trying to travel further in a day's sailing. This is because the speed is actually increased, making it possible to travel further.
+
+A negative modifier (penalty/malus) represents factors that both reduce the best result and make a negative output more likely and worse. A storm gives a penalty to camping (fortify) rolls: Not do you have to content with the wind and rain, but your tent might get blown away. That's definitely worse unless you were trying to lose the tent!
+
+Advantage and disadvantage always cancel each other out. Advantage and disadvantage never stack.
+
+Modifiers from "natural" sources of different types stack (add up). For modifiers of the same type, take the largest modifier, or the sum of the largest bonus and largest penalty if both are present. Modifiers from "supernatural" sources never stack. To simplify mechanics a group can decide that the only types are "natural" and "supernatural" for minimum viable mechanics.
+
+#### Sources of Modifers
+Because stacking modifiers can easily "break" a game or lead to situations where the outcome is decided early on in a scenario, it is desirable to avoid this. As a result the following rule is used with modifiers:
+- Modifiers can come from conditions.
+- Modifiers can come from circumstances or equipment.
+- Modifiers can come from passive abilities.
+- Modifiers can NEVER come directly from active martial or supernatural (spells) abilities (although use of such abilities can induce conditions, which might provide penalties).
+
 ### Time
 - 1 day is 24 hours.
 - 1 hour is 60 minutes.
@@ -151,11 +173,15 @@ A character has descriptive attributes that need not influence mechanics (within
   6. **Cha**: Force of Personality. Mental resilience. Upstream of HP, MP, aspects of social interactions. An entity with zeo Cha has no will, drive or "spirit". It is generally catatonic. If not, it might obey any instructions it recieves to the letter. 
 
 
-- **Hit class**: A character has an armour/hit class, this is a measure of how difficult its physical (or spiritual) form is to damage using targeted attacks. It can represent any combination of armour and evasive ability and is something of an abstraction of how hard a target is to damage with a targeted attack: A targeted attack either hits (potentially doing damage) or it does not.
-  1. Base AC is calculated (for now!) as 10+[Static Bonus]+[SP ability bonus]+[MP ability bonus]+[cirumstance bonus]. This has not been decided.
-      - Static bonus is some combination of the bonus from armour worn, attributes and passive special abilities.
-      - SP ability bonus is the bonus from an active natural ability. Bonuses from different SP abilities do not stack. Only the highest is used.
-      - MP ability bonus from active supernatural abilities. As with SP abilities.
+- **Hit Threshold (HiT)**: A character has an armour class/hit threshold, this is a measure of how difficult its physical (or spiritual) form is to damage using targeted attacks. It can represent any combination of armour and evasive ability and is something of an abstraction of how hard a target is to damage with a targeted attack: A targeted attack either penetrates defences, with the potential o doing damage, (hit) or it does not. This is an abstraction that rolls evasion, deflection, and damage reduction by actual armour into one number.
+  1. Base HiT is calculated (for now!) as 10+[Static Bonus]+[SP ability bonus]+[MP ability bonus]+[cirumstance bonus]. This has not been decided.
+      - Static bonus is the sum of inherent layers of defences:
+        - Dodge modifier (avoid the attack).
+        - Deflect modifier (deflect the attack, eg with a shield or parrying).
+        - Armour modifier (suit of armour).
+        - Hide modifier (thick skin, etc).
+      - SP ability bonus can modify dodge, deflect, and hide bonuses or provide a circumstance bonus.
+      - MP abilities can *substitute*, but not modify, any bonus.
       - Circumstance bonus (or penalty!) is how your surroundings and condition affects you. eg. cover, fatigue, etc. Here bonuses stack unless they are from the same source. (eg, you can only have one bonus from cover, you can only have one penalty from viper poison etc.).
 
 
@@ -183,7 +209,7 @@ A character has descriptive attributes that need not influence mechanics (within
       - Negate possession.
 
 
-- **Skills**: A character has skills (or at least you'd hope so!). Niall is working on these.
+- **Skills**: A character has skills.
 - **Proficiencies**: A character has proficiencies. These are discrete skills where you either know how to use them, or you don't. A character that is not proficient with a thing either can't use it or uses it with a penalty. Allu is working on these.
 - **Resource Pools**: A character has resource pools. These are a critical part of the game and are explained below.
 

@@ -558,6 +558,7 @@ Entities can be affected by a number of conditions, most of them bad. For now th
   - It cannot make [STR], [DEX] or [CHA] saves.
   - It cannot use [SKILLS], attacks or cast spells that require the use of its body (including "incantations" and "somatic components").
 - "**Charmed**": A charmed character cannot attack the source of its charm. It has disadvantage against [WIS], [CHA], [INT] saves vs it. In theory it perceives its words and actions in the most favourable manner. In practice players are players.
+  - Charmed creatures have disadvantage on deception rolls vs their charmer.
 - "**Frightened**": A frightened character has disadvantage on to targeted attacks. It must use its movement to move away from the source of its fear.
 - "**Poisoned**": Afflicted by a poison. This has some core effects and specific effects. I don't know what they are.
 - "**Diseased**": Afflicted by a disease. This has degrees of effect. I don't know what they are.

@@ -73,7 +73,7 @@ There are 32 skills and a number of proficiencies.
 
 ##### WIS Based (5):
 - Detect Group
- - Observe
+  - Observe
   - Sense Motive
   - Track
 - Spellcraft group
@@ -82,8 +82,8 @@ There are 32 skills and a number of proficiencies.
 
 ##### CHA based (5):
 - Diplomacy Group
+  - Creature Handling
   - Intimidate
-  - Monster Handling
   - Persuade
 - Perform group
   - Bluff
@@ -500,6 +500,7 @@ Navigation allows a character to orientate themselves in space, find the best ro
 - **Plan route/logistics:** Plan out a route between two points. On a success, the party will be given the route that fulfills the desired criteria as closely as possible, pointing out potential hazards. The journey time will also be decreased by 10%.
   - **Action**: 1 hour / day of route. 2 hours / day if logistics are included.
   - **Threshold**: [Terrain threshold] + [1 / 5 entities in the group] + [1 per vehicle in the group].
+- **Forecast**: Predict weather up to 24h ahead. The threshold = [terrain with weather modifier]. 
 - **Take care**: Yes.
 - **Try again**: If the situation changes, or extra data is gathered. Otherwise the result is the same.
 
@@ -537,5 +538,120 @@ There are 6 knowledge skills in the game. I represent various subsets of knowled
     - Identify supernatural being: [4 + Total dice].
 - **Take care**: No. You either know it or don't.
 - **Try again**: no. You either know it or don't.
+
+__WIS: Observe__
+
+The skill of observation is used to notice hidden/camouflaged details, entities or items using one's senses. If a character fails to observe another entity, the character is effectively "blinded" with respect to the entity. A character that fails to perceive an ambushing party at the start of combat is considered "surprised", which is not a lot of fun.
+- **Observe hidden entity**:
+- **Modifiers on observed entity**:
+  - Medium item in plain sight: Threshold = 0
+  - Per size category larger: - 5
+  - Per size category smaller: + 5 
+  - Poor Visibility: + 5
+  - Partial concealment: + 2
+  - Per 20ft of distance: + 1
+  - Per additional entity: -1
+  - Through solid object (eg wall): Disadvantage (auto fail for some senses like sight)
+- **Modifiers on perceiving entity**:
+  - Maintaining "concentration": Disadvantage
+  - Asleep: - 10
+- **Special**: Observe always succeeds against an entity or item in plain sight within 60ft, unless certain special abilities or conditions are in play (eg "invisible", "blinded").
+- **Take care**: No. This is essentially random.
+- **Try again**: Yes. in this case this is a "secondary action".
+
+__WIS: Sense Motive__
+See through decption or gain some insight into the motive or state of mind of an entity. Usually this is through paying careful attention to wording, intonation and body language acombined with a thorough knowledge of philosophy. No action required. This skill does not allow one to read an entity's mind (usually).
+- **Discern Deception**: Opposed vs "deception".
+- **Sense motive**: Gain insight into motive. Threshold = 16.
+- **Empathise**: Gain insight into emotional state of entity. Threshold = 12.
+- **Read surface thought**: Read the surface thoughts of an entity of the same race:
+  - Threshold: 32
+  - Action: "full round action"
+- **Modifiers**
+  - Charmed creatures have disadvantage on deception vs those who charmed them.
+  - Different culture in same entity kind: -2 penalty.
+  - Different race in same entity kind: -5 penalty.
+  - Different entity kind: -10 penalty.
+  - Familiar with entity: +2 bonus.
+  - Intimately familiar with entity: +5 bonus.
+- **Take care**: No. Too many random factors.
+- **Try again**: Yes (as "secondary action"), but the result will be the same or the state of mind will have changed and the previous one will not be deduced.
+
+__WIS: Spellworking__
+While 'Knowledge:Arcana" deals with theory, this is the practical application of said theory to manipulate supernatural forces and magical energies. It is used mainly to interact with the supernatural by "natural"/mundane means. This includes attempting to disrupt a ritual or modify its outcome. Alter the effect of arcane/spiritual glyphs and barriers and imbue or disimbue supernatural forces into mundane/"natural" objects. This generally takes between 1 minute and 1 week but can take longer. It should be noted that many barriers and other dwoemer have wards against tampering. This can end badly.
+- **Threshold** = creator's [Sup] roll.
+- **Time required** based on threshold:
+    - Up to 12: 1 minute.
+    - Up to 16: 1 hour.
+    - Up to 24: 1 day.
+    - Up to 32: 1 weeek.
+    - For every 8 points the threshold is exceeded, the time category reduces by one (eg, rolling 33 vs a threshold=24 barrier means it will take an hour to disable it).
+- **Disable magical trap:** Safely disenchant or diffuse a magical trap (1 minute).
+- **Create bypass in supernatural barrier**: Allow a passage big enough to accommodate for 1 medium size entity in a magical barrier for 1 minute.
+- **Extend duration**: Enforce a supernatural effect, extending the duration (requires 1 hour). Roll vs the Creator's [Sup] roll. On success the effect is extended by:
+  - Duration =  [roll - threshold] x 10% of original duration.
+- **Edit enchantment**
+  - **Alter element**: Change the element of an existing effect to a different element.
+  - **Alter conditions**: Change the triggering or safety condition of the enchantment.
+  - **Alter effect**: Alter the effect. NB: Threshold is [creator's [Sup] roll + 10].
+- **Imbue**: This is covered in the "crafting" section, and basically uses pathfinder rules.
+- **Disimbue**: Disimbue an enchantment, dissipating the energy.
+  - **Special**: If you succeed by 5 or less the energy is released in a catastrophic cascade dealing [threshold] x d6 "entropic"[Sup] damage to everything within [threshold] x 5ft of the source. 
+- **Absorb**: Disimbue an enchantment and absorb energy from it as MP. On success the enchantment is disimbued and you replenish a number of MP dice equal to the number used to create the effect. Excess dice are added as temporary dice. If the resulting total dice is more than 3/2 times your maximum, two things happen:
+  1. All your [MP] and [SP] dice are expended, your [HP] drops to zero. You are considered dying.
+  2. All OTHER entities suffer the consequence as from a "catastrophic cascade" (see "disimbue").
+- **Special**: Failure by 5 or more leads to the entity using the skill to expend a number of MP dice equal to the difference between threshold and result. If this leads to the MP dice count reaching 0, the skill user must make a [CHA] save vs the threshold or fall "unconscious" until they receive "first aid" or the status is otherwise lifted by use of natural or supernatural ability.
+- **Take care**: Yes.
+- **Try again**: Yes, although by then it's often too late.
+
+__WIS: Track__
+
+Tracking is used to follow entities based on disturbances they leave in their environment. Finding tracks is a "full round action", while following tracks or identifying them is a "secondary action". One check is needed for every hour of pursuit or every mile if speed is less than 1mph.
+- **Threshold:** For the fresh tracks of a single medium sized creature it is as follows:
+  - Fluid: 28
+  - Rock/hard ground: 20
+  - Unstable ground (eg sand, powder snow): 16
+  - Dirt road: 8
+  - Snow or soft ground: 4
+- **Modifiers**
+  - For every size category up: -1 to threshold.
+  - For every size category down: +1 to threshold.
+  - For every additional entity: -1 to threshold.
+  - If it has rained or fresh snow has fallen since: + 5 to threshold
+  - For every day that has passed: +4 to threshold
+  - Other modifiers may be applied.
+- **Special**
+  - "Prospect" or "observe" may be used to find tracks but not follow them.
+  - If a group tried to mislead the tracker, the threshold may increase by [roll - 15].
+- **Take care**: Yes.
+- **Try again**: Yes. (Although you probably won't catch it if you take 20)
+
+__WIS: Use Dwoemer__
+Probably going to roll this into "Spellworking".
+
+__CHA: Bluff__
+
+
+
+__CHA: Creature Handling__
+
+
+
+__CHA: Intimidate__
+
+
+__CHA: Persuade__
+
+
+__CHA: Perform__
+
+
+
+
+
+
+
+
+
 
 ##### Kit and tool Descriptions

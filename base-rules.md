@@ -1,6 +1,7 @@
 ## Foreword
 This is a FIRST DRAFT of some general rules. They are over-ruled by more specific rules that pertain to certain creatures and situations. Some rules are prefaced by an ALWAYS or NEVER directive. In these cases they are absolute and apply in all situations. I have used the "advantage" and "disadvantage" in a lot of places in place of "bonus" and "penalty". Take it as a recommendation and not a set rule (since we haven't balanced anything).
 
+---
 ## Purpose of the system
 The system codifies the rules for a fantasy roleplaying game that focuses on combat and exploration. It aims to build on what I perceive as strength of existing systems and address their weaknesses:
 - Keep a well codified rulebook (PF).
@@ -14,7 +15,7 @@ The system codifies the rules for a fantasy roleplaying game that focuses on com
 - Expand the rules for exploration and travel.
 - Expand the rules for weapons.
 
-
+---
 ## Rolling Dice.
 
 Rolling dice introduces uncertainty into what is otherwise a numbers game. The outcome of a dice roll should be rolled when the outcome of an action is uncertain, because of hidden variables or otherwise. Thus if an action is sure to fail ("I jump to the moon"), or sure to succeed ("I take a breath of air"), a roll should not be made.
@@ -111,6 +112,7 @@ Because stacking modifiers can easily "break" a game or lead to situations where
 - Modifiers can come from passive abilities.
 - Modifiers can NEVER come directly from active martial or supernatural (spells) abilities (although use of such abilities can induce conditions, which might provide penalties).
 
+---
 ## Time
 
 - 1 day is 24 hours.
@@ -118,8 +120,8 @@ Because stacking modifiers can easily "break" a game or lead to situations where
 - 1 minute is 60 seconds.
 - 1 round is 6 seconds (5 works as well but we're more used to the decimal system).
 
-Entities and Characters
--
+---
+## Entities and Characters
 
 #### General
 - Everything is either "**natural**" (that is to say it obeys the physical laws of the world and can be explained by them), or **supernatural** (that is to say that it does not and cannot).
@@ -132,6 +134,7 @@ Entities and Characters
 - Divine/Profane/Spiritual entities are often not truly alive, and often tend to be eternal. Some are referred to as "gods" or "immortals". This leaves some unanswered questions as to what the rest of them are. Whatever else, they are all **supernatural**.
 - In addition creatures fall into other categories that have additional properties and rules pertaining to them.
 
+---
 ## Character Descriptors
 
 A character has descriptive attributes that need not influence mechanics (within reason), eg hair/feather/scale length and colour. Timbre of voice. This kind of thing is cool, but not regulated by these rules.
@@ -347,6 +350,7 @@ Most terrestrial creatures have legs and walk. Some do not. They slither. They a
 
 Most natural flying creatures of tiny to large sizes are fast. Indeed there are fewer flying creatures that can fly slowly than those that can't. Typical cruise speeds of birds are 10-60mph, with maximum speeds being as much as twice as high. On the other hand, flying creatures usually need space to change direction and sacrifice sturdiness for the highly energetic activity of flight. Few flying creatures in the real world weight much more than 10kg.
 
+---
 ## Actions in combat
 #### Flow of Combat
 Combat starts as soon as one or both sides are capable and willing of fighting. It ends when there is only one side remaining that is capable and willing.
@@ -428,6 +432,7 @@ The actions an entity may take might also be restricted by its conditions and ge
 - "**Sprint**": Move up to 4x your movement speed in a straight line with no obstructions.
 - "**Non-action**": Entities also carry out certain activities autonomously as part of their existence. These do not usually require actions (eg breathing). Concentrating is also a non-action.
 
+---
 ## Basic combat manoeuvres and tactical movement.
 This is a collection of unsorted rules related to basic physical combat.
 - Dropping/falling "prone" does not cost movement.
@@ -475,6 +480,54 @@ Any adventurer may attempt a martial manoeuvre. If an untrained combatant attemp
 
 A creature that is "grappled" or "restrained" can make an opposing roll in place of its attack action to try to break free or move its assailant.
 
+---
+## Spellcasting and Supernatural abilities
+- Abilities and phenomena that would not exist in a mundane world, that cannot be explained adequately by "scientific" means are supernatural, otherwise called magical.
+- The supernatural can be caused by divine, profane or spiritual sources.
+- Supernatural abilities target MP, are fueled by MP dice.
+- Supernatural abilities usually usually force INT, WIS or CHA saves, but some can also force other saves, or be manifest as targeted attacks.
+
+#### Spells
+- Spells are a subset of supernatural powers that mortals have learned to channel by following certain procedures.
+- Entities that cast spells are referred to here as "**casters**".
+- Spells can be either "**common**" or "**global**".
+ 1. "**Common**" spells have the following properties:
+   - They generally take between a couple of seconds to a dozen minutes to cast ("minor action" to "1o minutes"), but generally take a "main action".
+   - Their effect is either immediate, or lasts no longer than a few days.
+   - Their effect has a range of no more than a mile of a caster.
+   - Their effect has a radius of no more than a mile (eg. search spells) or 108ft (eg. explosion magic).
+   - They take 1-9 MP dice to cast.
+ 2. "**Global**" spells have the following properties:
+   - Generally take a dozen minutes to a month to cast, but more often an hour or a day.
+   - Their effect can be immediate and devastating, or can last for centuries (eg Great Barrier spells).
+   - Their range can be hundreds of miles (but is often much shorter).
+   - Their effect radius can be hundreds of miles, but is more often localised (eg a Mage's Sanctum).
+   - They take at least 10 MP dice to cast, with the usual cost being ~20 dice per day.
+
+
+- These ALWAYS involve a combination of one or more of the following:
+  1. **Somatic Components**: A set of defined, obvious gestures or movements. An "immobilised" or "restrained" caster cannot perform these. (conditions that imply "immobilised" fall under this category).
+  2. **Incantation components**: A set of defined, well enunciated words or sounds. A "silenced" or "silent" caster cannot perform these. (conditions that imply inability to produce defined sound fall under this category).
+  3. **Ritual components**: A ritual is a procedure involving defined movement and positioning of objects or entities, or the creation of defined patterns. Disruption of this procedure ruins the ritual. Rituals typically apply to global spells.
+
+
+- Spell ranges are designated as "**melee**" or "**ranged**".
+  1. A "**melee**" spell, like a melee attack must requires direct contact between caster and target. Its range is the caster's reach.
+  2. A "**ranged**" spell can have a range of 5ft or higher. It is designated as eg "ranged[60ft]". The base distances are 15ft, 30ft, 60ft, 120ft, 240ft.
+
+
+- An entity can only cast ONE spell at a time. If it attempts to cast a second, either both spells dissipate, or the casting ends in spectacular failure.
+- Spells can be **counterspelled** and **dispelled**. (How?)
+- Casting non-melee spells with somatic components provokes attacks of opportunity.
+- Spells with an active effect (eg summoning) and non-instantaneous duration usually require the caster to maintain their existence by "**concentrating**" on them. This has the following rules:
+  1. A caster can NEVER concentrate on more than one spell.
+  2. If concentration is broken, the spell dissipates or fails spectacularly.
+  3. An "incapacitated" (or so implied) entity cannot concentrate.
+  4. Concentration can be disrupted by taking damage (DC10 or 1/2 damage taken, whichever is higher).
+  5. Concentration can be disrupted by violent movement (DC10), violent weather (DC10) or both (DC15).
+  6. A caster can "hold" an "instantaneous" spell with a release trigger to trigger the effect within a minute of casting. The DC=10+[rounds held]. If the trigger is not met the spell dissipates. The cost of the spell is paid when the spell is cast (always), not when it is triggered.
+
+---
 ## Conditions and states
 Entities can be affected by a number of conditions, most of them bad. For now these include (and all are badly defined!). Conditions are classified in S to C class based on how much trouble an entity is in if it is afflicted by it. This starts from deadly peril (S) to mildly inconvenient (C). Of course classification is not always absolute. 
 - "**Dying**": S Class
@@ -582,52 +635,7 @@ Entities can be affected by a number of conditions, most of them bad. For now th
 - "**Deafened**": A deafened character cannot perceive sound. It cannot hear. It can speak only stutteringly. It must make an [INT] save to complete Incantations (unless it is deaf for longer than month).
 - "**Surprised**": A surprised character dropped the ball. It cannot take any actions. This condition seldom exists outside of the first round of combat.
 
-## Spellcasting and Supernatural abilities
-- Abilities and phenomena that would not exist in a mundane world, that cannot be explained adequately by "scientific" means are supernatural, otherwise called magical.
-- The supernatural can be caused by divine, profane or spiritual sources.
-- Supernatural abilities target MP, are fueled by MP dice.
-- Supernatural abilities usually usually force INT, WIS or CHA saves, but some can also force other saves, or be manifest as targeted attacks.
-
-#### Spells
-- Spells are a subset of supernatural powers that mortals have learned to channel by following certain procedures.
-- Entities that cast spells are referred to here as "**casters**".
-- Spells can be either "**common**" or "**global**".
- 1. "**Common**" spells have the following properties:
-   - They generally take between a couple of seconds to a dozen minutes to cast ("minor action" to "1o minutes"), but generally take a "main action".
-   - Their effect is either immediate, or lasts no longer than a few days.
-   - Their effect has a range of no more than a mile of a caster.
-   - Their effect has a radius of no more than a mile (eg. search spells) or 108ft (eg. explosion magic).
-   - They take 1-9 MP dice to cast.
- 2. "**Global**" spells have the following properties:
-   - Generally take a dozen minutes to a month to cast, but more often an hour or a day.
-   - Their effect can be immediate and devastating, or can last for centuries (eg Great Barrier spells).
-   - Their range can be hundreds of miles (but is often much shorter).
-   - Their effect radius can be hundreds of miles, but is more often localised (eg a Mage's Sanctum).
-   - They take at least 10 MP dice to cast, with the usual cost being ~20 dice per day.
-
-
-- These ALWAYS involve a combination of one or more of the following:
-  1. **Somatic Components**: A set of defined, obvious gestures or movements. An "immobilised" or "restrained" caster cannot perform these. (conditions that imply "immobilised" fall under this category).
-  2. **Incantation components**: A set of defined, well enunciated words or sounds. A "silenced" or "silent" caster cannot perform these. (conditions that imply inability to produce defined sound fall under this category).
-  3. **Ritual components**: A ritual is a procedure involving defined movement and positioning of objects or entities, or the creation of defined patterns. Disruption of this procedure ruins the ritual. Rituals typically apply to global spells.
-
-
-- Spell ranges are designated as "**melee**" or "**ranged**".
-  1. A "**melee**" spell, like a melee attack must requires direct contact between caster and target. Its range is the caster's reach.
-  2. A "**ranged**" spell can have a range of 5ft or higher. It is designated as eg "ranged[60ft]". The base distances are 15ft, 30ft, 60ft, 120ft, 240ft.
-
-
-- An entity can only cast ONE spell at a time. If it attempts to cast a second, either both spells dissipate, or the casting ends in spectacular failure.
-- Spells can be **counterspelled** and **dispelled**. (How?)
-- Casting non-melee spells with somatic components provokes attacks of opportunity.
-- Spells with an active effect (eg summoning) and non-instantaneous duration usually require the caster to maintain their existence by "**concentrating**" on them. This has the following rules:
-  1. A caster can NEVER concentrate on more than one spell.
-  2. If concentration is broken, the spell dissipates or fails spectacularly.
-  3. An "incapacitated" (or so implied) entity cannot concentrate.
-  4. Concentration can be disrupted by taking damage (DC10 or 1/2 damage taken, whichever is higher).
-  5. Concentration can be disrupted by violent movement (DC10), violent weather (DC10) or both (DC15).
-  6. A caster can "hold" an "instantaneous" spell with a release trigger to trigger the effect within a minute of casting. The DC=10+[rounds held]. If the trigger is not met the spell dissipates. The cost of the spell is paid when the spell is cast (always), not when it is triggered.
-
+---
 ## Actions outside of Combat
 A character should be able to take actions a creature of its type should conceivably be able to take including eat, sleep, explore, and interact with the world.
 

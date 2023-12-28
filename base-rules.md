@@ -50,7 +50,7 @@ This relies on the property of statistics that if you roll 2d12 enough times, yo
 
 These numbers are a little bit different from what we see in systems like "Pathfinder" and "Dungeons and Dragons", because a) we use different dice and b) we use proper maths.
 
-**Taking 13:** Add 13 to the modifier and take this as the result. this represents using a systematic, familiar approach to solve a problem. It explains why for example a craftsman doesn't destroy 25% of the shoes he makes despite having only +5 as his modifier while making a shoe having a threshold of 10, or why we don't fall down the stairs every few weeks. One can take 13 if:
+**Taking care:** Also referred to as "take 13". Add 13 to the modifier and take this as the result. this represents using a systematic, familiar approach to solve a problem. It explains why for example a craftsman doesn't destroy 25% of the shoes he makes despite having only +5 as his modifier while making a shoe having a threshold of 10, or why we don't fall down the stairs every few weeks. One can "take care" if:
  1. You are in a relatively safe environment, free of distractions and threats.
  2. You are performing a routine, autonomous or habitual task (eg biological functions, general movement, performing a profession or skill in which you have at least one skill point).
 
@@ -61,9 +61,9 @@ This works because the average of 2d12 is 13.
 **Voluntary failure:** An entity can choose to fail any check that requires some voluntary action. One cannot usually voluntarily fail checks and saves for autonomous functions. For example a humanoid cannot volunteer to fail a constitution save vs poison, since you cannot switch off your liver at will, but you can voluntarily fail an agility save vs a runaway cart, because you can consciously decide not to move out of the way.
 
 #### Opposing Rolls vs Thresholds.
-Static thresholds are always preferred over opposed rolls in combat. This increases the speed of combat as we do not need to wait for other side to make a roll. This means that hit thresholds, save threshold and skill thresholds based on average rolls ("take 13") are used for the defending side.
+Static thresholds are always preferred over opposed rolls in combat. This increases the speed of combat as we do not need to wait for other side to make a roll. This means that hit thresholds, save threshold and skill thresholds based on average rolls ("take care") are used for the defending side.
 Outside of combat it is up to the group whether opposed rolls or thresholds are used. Opposed rolls make the game more interactive in non time critical sections.
-For many skill rolls the threshold is written as "Opposed vs [skill name]". It is perfectly acceptable to calculate an average (take 13) threshold instead of doing the opposed roll.
+For many skill rolls the threshold is written as "Opposed vs [skill name]". It is perfectly acceptable to calculate an average ("take care") threshold instead of doing the opposed roll.
 
 #### Precedence of Rolls: Thresholds (DC), and opposing rolls.
 Meeting (equalling) the target number of a roll beats it. The target number can be static or dynamic. Static thresholds are when a dice is rolled and the result compared to a predefined number. Dynamic thresholds are what you get when you have two or more opposing rolls.

@@ -198,7 +198,10 @@ Weapon proficiencies are taken for each subgroup (eg "Strikes" and "Throws" are 
   - Canons
 
 ##### SKill Descriptions
-Each skill has a number of described uses. However, the list is generally not exhaustive and additional uses should be discussed within the group.
+Each skill has a number of described uses. However, the list is generally not exhaustive and additional uses should be discussed within the group. For each skill there are two important questions:
+
+1. Can an entity try the roll again, and what are the consequences? If the answer is not "yes", then one cannot "take 20" or "take 24" in that skill.
+2. Can an entity "take care" in that skill or not under approprtiate circumstances (see the "take care") section?
 
 __STR: Athletics__
 
@@ -208,7 +211,7 @@ Athletics is used for most land based physical activities including:
   - For every 10ft of base speed above 30ft, the roll gets a +1.
   - For high jumps distance off ground = [Athletics Roll / 5] rounded up.
   - If the entity does not have a run up of at least 10ft, or has not moved on its previous turn, the jump distance is halved.
-- Lifting or moving objects that are above a character's normal capacity as determined by its stats, or that have an unwieldy shape. Carrying capacity is based on the take 13 rule.
+- Lifting or moving objects that are above a character's normal capacity as determined by its stats, or that have an unwieldy shape. Carrying capacity is based on the "take care" rule.
   - A creature can drag up to [Athletics Roll x 20]lb.
   - A creature can lift up to [Athletics Roll x 10]lb of the ground.
   - A creature can lift over its head [Athletics Roll x 5]lb over its head.
@@ -218,6 +221,8 @@ Athletics is used for most land based physical activities including:
   - More data needed.
 - Outrunning creatures with the same base speed in overland chases (opposed roll rules).
 - Entertaining others with a feats of physical prowess (see "Difficulties and recommended thresholds").
+- **Take care**: Yes.
+- **Try again**: Yes, although the DM may rule that failure on a retry results in the "crippled" condition.
 
 __STR: Climb__
 
@@ -237,10 +242,12 @@ This is a skill specific to scaling steep or vertical surfaces, trees, ropes and
   - Entity climbs at 1/2 speed or dash: -5 penalty.
   - Entity spends one hour studying the climb: Advantage.
 - Special:
-  - Entities with a climb speed can always take 13 to climb.
+  - Entities with a climb speed can always "take care" to climb.
   - A roll of a climber's kit allows to make a climb safe, reducing fall distance to 20ft for threshold 24+ climbs and 10ft for threshold 23- climbs.
   - An entity that fails a climb roll fails to progress on a climb.
   - An entity that fails by 5 or more falls half the distance and suffers the consequences. If this is a critical fail, the entity falls the full distance.
+- **Take care**: No. Entities without a cimb speed are always considered at risk when climbing.
+- **Try again**: Yes, but repeated fall damage on failure might make repeated attempts undesirable.
 
 __STR: Fortify__
 
@@ -258,6 +265,8 @@ The skill is used for building structures, fortifying positions (dungeon corrido
   - For every size category above medium the total time taken is halved.
   - Multiple entities can participate in the process, in which case the time taken is divided by the number of entities taking part. For each size category above medium, an entity counts as twice as many entities of the next category down. So a largte entity counts as 2 medium entities, but a huge entity counts as 4 medium entities.
   - An entity can do a "rush job" and take half the time: -5 penalty.
+- **Take care**: Yes.
+- **Try again**: Yes.
 
 __STR: Swim__
 
@@ -276,9 +285,11 @@ Swimming is a separate skill from climbing and overland atheletics. It is used f
   - Wearing heavy armour: -10 penalty.
   - For every 10lb of carried equipment: -1 penalty.
 - Special:
-  - Entities with a swim speed can always take 13 to swim.
+  - Entities with a swim speed can always "take care" to swim.
   - Floation devices (improvised or purpose made) reduce thresholds for staying or returning to the surface by 5.
   - An entity with a diver's kit can see normally in the fluid, can swim at 1/2 base speed instead of 1/4 base speed, and does not need to worry about breath for 30 minutes. Usually a diver's kit is designed specifically for one fluid.
+- **Take care**: Yes.
+- **Try again**: No. The dynamic nature of failure and drowning makes it meaningless.
 
 __DEX: Acrobatics__
 
@@ -300,6 +311,9 @@ Acrobatics is used for complex dynamic movement and manoeuvres. Unless otherwise
   - Violent (eg ship in a storm) or extreme movement (eg earthquake or collapse): +5 or +10.
   - Slope (30-45 deg), Steep slope (45+): +2 or +5.
 - Entertaining others with a feats of acrobatics or gymnastics (see "Difficulties and recommended thresholds"). This generally represents at least one minute of performance.
+- Failure of an acrobatics roll by 5 or more may result in falling. Failure by a lesser margin generally results in lack of progress.
+- **Take care**: Yes.
+- **Try again**: Yes, although the potential of falling often makes it meaningless.
 
 __DEX: Fly__
 
@@ -311,6 +325,8 @@ I don't know whether we even need this as a skill. It is done as part of an enti
   - Threshold = 10 + [turns falling or out of control].
 - **Emulate highter flight** category (eg good flyer trying to hover). This is also used for manoeuvres.
   - Threshold = 10 + [5 x number of categories above current category].
+- **Take care**: Yes.
+- **Try again**: Yes, although the DM can rule that repeated failure results in the "crippled" condition or damage to the vehicle.
 
 __DEX: Heal__
 
@@ -331,6 +347,8 @@ Healing is used to use medical art and science (as opposed to magic) to diagnose
   - Supernatural condition: 20
   - Disease: Threshold of the disease or poison
   - It is usually fine to rule that once an entity has seen it once, it knows what it is.
+- **Take care**: Yes, for treatment. No for diagnosis.
+- **Try again**: For treatment, yes (although the patient might be dead by then). For diagnos, no.
 
 
 __DEX: Ride__
@@ -348,6 +366,8 @@ An entity riding a mount substitutes uses its move to control its mount and its 
 - **Stay in saddle**: Keep your seating under adverse circumstances (non-action).
   - Threshold = Threshold of provoking event.
   - On damage over 20, threshold = [damage suffered / 2]
+- **Take care**: Yes.
+- **Try again**: Yes, where appropriate. For "fight" and "control" the threshold increases by 1 for every failure.
 
 
 __DEX: Sleight of Hand__
@@ -365,6 +385,8 @@ Sleight of hand is not just for "hands". It is the skill combining the use of de
   - Add +4 to the threshold if fingers (or other body parts) cannot reach.
 - **"Liberate"**: Slip free of manacles and the like.
   - Threshold is threshold value of manacles (usually 20-36).
+- **Take care**: Yes.
+- **Try again**: Yes, although for "steal" or "pick pocket" the threshold increases by +10 as any observers are likely to be wary this time.
 
 __DEX: Tinker__
 
@@ -392,6 +414,8 @@ Tinkering involves making, modifying and breaking delicate mechanisms, construct
   - Threshold: [Creation threshold]
   - Time taken: 1 minute for threshold 16 and below. 1 hour for threshold 24 and below. For higher thresholds, the DM should set a reasonable time.
   - An entity may attempt a rush job to reduce the times to 1 round, 1 minute (or ~1/10) by taking a -10 penalty.
+- **Take care**: Yes. for "disable", "create" or "modify". No for "research".
+- **Try again**: Yes, if it hasn't blown up in your face yet!
 
 
 

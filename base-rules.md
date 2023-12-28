@@ -143,12 +143,12 @@ A character has descriptive attributes that need not influence mechanics (within
 - "**Character Level**": All player characters have one. This is an abstract measure of experience and the power that is derived from it. The level determines the proficiency bonus that modifies all rolls. The proficiency bonus is simply derived as [LEVEL / 5] rounded up. For levels 1-5 it is 1, for 5-10 it is 2, etc. **Character level**, together with **stats**, **entity type**, **race**,  forms the "**governing quartet**" which determine most of the base mechanics of a character. Almost all other characteristics can be derived from these four.
 
 - **Stats**: A character has six **base attributes**, also known as "**statistics**" or "**stats**":
-  1. **Str**: Physical strength. Upstream of most weapon attack, damage. Upstream of abilities linked to affecting the surroundings by physical force.
-  2. **Dex**: Physical agility. Upstream to some weapon attack, damage (usually ranged). Upstream to evasive abilities. Upstream to abilities linked to affecting the surroundings by delicate manipulation.
-  3. **Con**: Physical resilience. Upstream of HP, SP, aspects of physical interactions.
-  4. **Int**: Mental agility. Ability to memorise, deduce, analyse, IQ. Upstream to skill points, some aspects of supernatural abilities.
-  5. **Wis**: Faculty of judgement, discernment, sense, EQ. Upstream of supernatural abilities, abilities devoted to detection, some aspects of social interactions.
-  6. **Cha**: Force of Personality. Mental resilience. Upstream of HP, MP, aspects of social interactions.
+  1. **Str**: Physical strength. Upstream of most weapon attack, damage. Upstream of abilities linked to affecting the surroundings by physical force. An entity with zero Str cannot physically affect the outside world, or move itself. An entity without a material form has no Str.
+  2. **Dex**: Physical agility. Upstream to some weapon attack, damage (usually ranged). Upstream to evasive abilities. Upstream to abilities linked to affecting the surroundings by delicate manipulation. An entity with zero Dex cannot move its physical form. Entities with no physical form have no Dex.
+  3. **Con**: Physical resilience. Upstream of HP, SP, aspects of physical interactions. The physical form of an entity with zero Con has no integrity. An entity with no physical form has no Con. 
+  4. **Int**: Mental agility. Ability to memorise, deduce, analyse, IQ. Upstream to skill points, some aspects of supernatural abilities. An entity with zero Int is not capable of reason or learning. It is mindless.
+  5. **Wis**: Faculty of judgement, discernment, sense, EQ. Upstream of supernatural abilities, abilities devoted to detection, some aspects of social interactions. An entity with zero Wis has no awareness of internal or external realities. It is essentially unconscious.
+  6. **Cha**: Force of Personality. Mental resilience. Upstream of HP, MP, aspects of social interactions. An entity with zeo Cha has no will, drive or "spirit". It is generally catatonic. If not, it might obey any instructions it recieves to the letter. 
 
 
 - **Hit class**: A character has an armour/hit class, this is a measure of how difficult its physical (or spiritual) form is to damage using targeted attacks. It can represent any combination of armour and evasive ability and is something of an abstraction of how hard a target is to damage with a targeted attack: A targeted attack either hits (potentially doing damage) or it does not.

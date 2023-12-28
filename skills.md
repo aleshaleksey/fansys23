@@ -434,6 +434,74 @@ Harvest is the umbrella skill covering the harvesting of natural resources from 
 - **Take care**: Yes.
 - **Try again**: Yes.
 
-__
+__INT: Academics__
+Academics are fundamental knowledge. It starts with literacy and ends in higher logic, mathematics, philosophy, linguistics, music theory and scientific method (although not actual scientific knowledge). Academics is generally used when creating or desciphering secret messages, doing research, showing off, or getting a clue from the DM. This can vary from a 
+- **Create/Descipher** secret meaning: Create or solve a cipher. Leave or discern a secret message.
+  - **Time taken**: 1 minute if threshold 12 or below. 1 hour if threshold is 20 or below. 1 day if 32 or below. Longer if higher.
+  - **Threshold**: Depends. See "Difficulties and recommended thresholds".
+- **Show off**: A character may attempt an opposed academics roll to "persuade" or "bluff" under certain circumstances. Alternatively this can be used to attempt to explain certain theories to others. This can make things better or worse. Can substitute for "Perform" in academic audiences.
+- **Discern logic:** Use of cold analysis to discern a logical inconsistency in words or actions of entities. This is a full round action.
+  - Threshold: Opposed roll if deception is performed. Threshold should be equal to at least 15 otherwise.
+- **Research**: Attempt to understand a phenomenon, theory or puzzle. Can also be used to understand devices but requires proficiency in the appropriate tools. This requires time and an appropriately equipped space (usually). The benefits are either a narrative answer or a +4 insight bonus to dealing with this kind of "thing" in the future.
+  - Simple phenomenon: 1 hour, Threshold = 12.
+  - Complex phenomenon: 1 week+, Threshold = 24.
+  - Grand theory: 1 month+, Threshold = 32. (eg complete the unfinished theorem of a great sage of old).
+  - Unique phenomenon: 1 month+, Threshold = 32+. (eg gain an understanding of what powers the fragment of another world that one day appeared in the countryside)
+  - Develop countermeasures to a monster's ability and gain a +4 to saves/attack against it. This requires at least one knowledge skill.
+    - Time taken: [Monster SP + MP dice] x days
+    - Threshold: [Monster SP + MP dice] 
+- **Recognise theory**: Recognise a theory or phenomenon you have previously studied.
+  - Threshold = [Research threshold - 5]
+- **Take care**: No. Knowledge and thought have too many hidden variables to take care.
+- **Try again**: For knowledge based roll, desciphering and logical clues, one retry at a -10 penalty is allowed. For Research, yes, although given the time and material use, it is often undesirable.
+
+__INT: Appraise__
+
+Appraise is used to determine the value of an item, as well as to determine its origin and condition. It takes a "full round action".
+- **Assess condition**: Threshold = 10.
+- **Determine origin**: Threshold = 15.
+- **Full Appraise**: Threshold = 20.
+- The thresholds are modified as follows: 
+  - Item is rare: + 5.
+  - Item is unique: + 10.
+  - Item is from a distant time or space: + 5.
+  - Item is from another realm or epoch: + 10.
+- **Detect forgery**: Threshold = Threshold of forgery.
+- **Special**: If the check fails it may still reveal partial information, although the part for the failure will still give a false value. For example, rolling 21 to appraise a rare vase will may give a wildly inaccurate value, but still reveal the correct origin and condition.
+- **Take care**: No.
+- **Try again**: No. Same result.
+
+
+__INT: Investigate/Prospect__
+
+This is a wide range of skills and methods that are used to reveal hidden details and properties of the surrounding area. Detailed use is described in "Scouting, prospecting and exploration". The DM should take care not to put plot critical information behind this kind of check (or any other check really, this one is overdone). In addition this skill can be used for "detective" functions like: 
+- **Date Evidence**: Determine the approximate age of evidence. Can also be used for tracks, food stuffs, etc:
+  - Exactly: Threshold = 32
+  - Within 5%: Threshold = 24
+  - Within 10%: Threshold = 20
+  - Within 25%: Threshold = 16
+  - When evidence gets to a certain age, any further deterioration can make it impossible to date. Therefore the DM should use common sense (eg "This blood is exactly 129381 years, 4 days and 3 minutes old!" is silly). 
+- **Detect Tampering**: Determine that something has been tampered with or if there is something that is missing.
+  - Threshold = Theshold of roll used to tamper.
+- **Take care**: Yes.
+- **Try again**: Yes.
+
+__INT: Navigate__
+
+Navigation allows a character to orientate themselves in space, find the best route from A to B, hold a course, or to plan logistics. In conjunction with cartographers' tools it can be used to create wonderful maps. Navigation can be anything from a "full round action" for orientating one-self, to a drawn out process for planning logistics.
+- **Find north:** Orientate your direction. Useful in unknown terrain. This is a full round action.
+  - Threshold = [Threshold of terrain with weather modifier - 5]
+- **Hold course:** Maintain your direction of travel when circumstances change (eg weather changes). This is a "secondary action".
+  - Threshold = [Threshold of terrain with weather modifier - 10]
+- **Orientate:** Use map and compass to locate yourself (eg when lost). This takes a minute.
+  - Threshold = [Threshold of terrain with weather modifier]
+  - Rush job (take "full round action" instead): Increase threhold by + 5.
+- **Plan route/logistics:** Plan out a route between two points. On a success, the party will be given the route that fulfills the desired criteria as closely as possible, pointing out potential hazards. The journey time will also be decreased by 10%.
+  - **Action**: 1 hour / day of route. 2 hours / day if logistics are included.
+  - **Threshold**: [Terrain threshold] + [1 / 5 entities in the group] + [1 per vehicle in the group].
+- **Take care**: Yes.
+- **Try again**: If the situation changes, or extra data is gathered. Otherwise the result is the same.
+
+__INT: Knowledge__
 
 ##### Kit and tool Descriptions

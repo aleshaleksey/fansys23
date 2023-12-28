@@ -368,6 +368,18 @@ Combat starts as soon as one or both sides are capable and willing of fighting. 
 - If some potential combatants are unaware of others or of their intent to attack, they start the combat "surprised". A "surprised" entity cannot act in combat and suffers certain penalties. As soon as its first "turn" has passed, it is no longer considered surprised.
 
 #### The Turn and actions
+- The following (9) actions exist:
+  - "**move**"
+  - "**main action**"
+  - "**secondary action**"
+  - "**item interaction**"
+  - "**minor interaction**"
+  - "**communicate**"
+  - "**sprint**"
+  - "**full round action**"
+  - "**reaction**"
+
+
 - During its turn an entity may take all of the following actions in any order:
   - One "**move**" action.
   - One "**main action**".

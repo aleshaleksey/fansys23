@@ -474,28 +474,28 @@ Any adventurer may attempt a martial manoeuvre. If an untrained combatant attemp
 A creature that is "grappled" or "restrained" can make an opposing roll in place of its attack action to try to break free or move its assailant.
 
 ### Conditions and states
-Entities can be affected by a number of conditions, most of them bad. For now these include (and all are badly defined!):
-- "**Dying**"
-- "**Unconscious**"
-- "**Helpless**"
-- "**Paralysed**"
-- "**Crippled**"
-- "**Incapacitated**"
-- "**Immobilised**"
-- "**Restrained**"
-- "**Prone**"
-- "**Catatonic**"
-- "**Stunned**"
-- "**Charmed**"
-- "**Frightened**"
-- "**Poisoned**"
-- "**Diseased**"
-- "**Bleeding/Wilting**"
-- "**Inaudible**"
-- "**Silenced**"
-- "**Blinded**"
-- "**Invisible**"
-- "**Deafened**"
+Entities can be affected by a number of conditions, most of them bad. For now these include (and all are badly defined!). Conditions are classified in S to C class based on how much trouble an entity is in if it is afflicted by it. This starts from deadly peril (S) to mildly inconvenient (C). Of course classification is not always absolute. 
+- "**Dying**": S Class
+- "**Unconscious**": S Class
+- "**Helpless**": S Class
+- "**Paralysed**": S Class
+- "**Crippled**": A Class
+- "**Incapacitated**": A Class
+- "**Catatonic**": A Class
+- "**Stunned**": A Class
+- "**Immobilised**": A Class
+- "**Restrained**": B Class
+- "**Charmed**": B Class
+- "**Bleeding/Wilting**": B Class
+- "**Blinded**": B Class
+- "**Frightened**": C Class
+- "**Prone**": C Class
+- "**Inaudible**": C Class
+- "**Silenced**": C Class
+- "**Invisible**": C Class
+- "**Deafened**": C Class
+- "**Poisoned**": S-C Class
+- "**Diseased**": S-C Class
 
 #### Conditions in detail.
 - "**Dying**": This creature cannot do anything other than make CON saves or lose 1d6HP per round. It suffers from all the detriments of "Unconscious". If they reach their minus their HP total they die. If they succeed before that. They stop losing HP and become "Unconscious".

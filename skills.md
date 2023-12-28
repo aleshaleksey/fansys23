@@ -521,6 +521,7 @@ There are 6 knowledge skills in the game. I represent various subsets of knowled
     - Identify spell being cast [12 + MP dice used to create it]
     - Identify magical constructs or summoned creature: [4 + Total dice].
       - Special: for every 4 points over the identification threshold, the character gains an extra piece of information about the creature.
+    - *Special*: A character using "counterspell" to counter a spell, that successfully identifies an effect with arcana does not need to make a [Sup] roll, but instead can assign [MP + 2] to succesfully counter the effect.
   - Dungeoneering: A colleciton of esteric fields dealing with dangerous places such as labyrinths, monster lairs and disaster zones. It includes knowledge of things like creatures dwell in such places, typical hazards and resources, likely locations of trap/treasure zones and core zones, and general dungeon trivia. Thresholds are as follows:
     - Identify monstrous creature or construct: [4 + Total dice]
       - Special: for every 4 points over the identification threshold, the character gains an extra piece of information about the creature.
@@ -600,6 +601,12 @@ While 'Knowledge:Arcana" deals with theory, this is the practical application of
 - **Absorb**: Disimbue an enchantment and absorb energy from it as MP. On success the enchantment is disimbued and you replenish a number of MP dice equal to the number used to create the effect. Excess dice are added as temporary dice. If the resulting total dice is more than 3/2 times your maximum, two things happen:
   1. All your [MP] and [SP] dice are expended, your [HP] drops to zero. You are considered dying.
   2. All OTHER entities suffer the consequence as from a "catastrophic cascade" (see "disimbue").
+- **Use magic device**: A character not proficient with a magical device can attempt to use it (this is a full round action unless it is normally longer). A roll is needed for each of:
+  - Equip item.
+  - Activate function or cast spell from item (-5 to threshold).
+  - The threshold is the item's creation threshold.
+  - If the item is a single use item and the roll fails by 5 or more, the item is destroyed in the process.
+  - For each restriction on the item forbidding the character to use it, the threshold increases by +5.
 - **Special**: Failure by 5 or more leads to the entity using the skill to expend a number of MP dice equal to the difference between threshold and result. If this leads to the MP dice count reaching 0, the skill user must make a [CHA] save vs the threshold or fall "unconscious" until they receive "first aid" or the status is otherwise lifted by use of natural or supernatural ability.
 - **Take care**: Yes.
 - **Try again**: Yes, although by then it's often too late.

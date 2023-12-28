@@ -475,26 +475,27 @@ A creature that is "grappled" or "restrained" can make an opposing roll in place
 ## Conditions and states
 Entities can be affected by a number of conditions, most of them bad. For now these include (and all are badly defined!). Conditions are classified in S to C class based on how much trouble an entity is in if it is afflicted by it. This starts from deadly peril (S) to mildly inconvenient (C). Of course classification is not always absolute. 
 - "**Dying**": S Class
-- "**Unconscious**": S Class
 - "**Helpless**": S Class
 - "**Paralysed**": S Class
-- "**Crippled**": A Class
-- "**Incapacitated**": A Class
+- "**Unconscious**": S Class
 - "**Catatonic**": A Class
-- "**Stunned**": A Class
+- "**Crippled**": A Class
 - "**Immobilised**": A Class
-- "**Restrained**": B Class
-- "**Charmed**": B Class
+- "**Incapacitated**": A Class
+- "**Stunned**": A Class
 - "**Bleeding/Wilting**": B Class
 - "**Blinded**": B Class
-- "**Frightened**": C Class
-- "**Prone**": C Class
-- "**Inaudible**": C Class
-- "**Silenced**": C Class
-- "**Invisible**": C Class
+- "**Charmed**": B Class
+- "**Restrained**": B Class
+- "**Surprised**": B Class
+- "**Aphasic**": B/C Class
 - "**Deafened**": C Class
-- "**Poisoned**": S-C Class
+- "**Frightened**": C Class
+- "**Inaudible**": C Class
+- "**Invisible**": C Class
+- "**Prone**": C Class
 - "**Diseased**": S-C Class
+- "**Poisoned**": S-C Class
 
 #### Conditions in detail.
 - "**Dying**": This creature cannot do anything other than make CON saves or lose 1d6HP per round. It suffers from all the detriments of "Unconscious". If they reach their minus their HP total they die. If they succeed before that. They stop losing HP and become "Unconscious".
@@ -564,7 +565,7 @@ Entities can be affected by a number of conditions, most of them bad. For now th
 - "**Inaudible**": A silent character makes no sound. It can neither make sounds willingly or unwillingly
   - It cannot complete incantations or communicate verbally.
   - Rolls to detect the character based on sound ALWAYS fail.
-- "**Silenced**": A silenced character cannot communicate verbally.
+- "**Aphasic**": An aphasic character cannot communicate verbally.
   - This means that skills and abilities requiring speech automatically fail.
   - Incantations ALWAYS fail.
 - "**Blinded**": A blinded character cannot perceive visual input:
@@ -574,6 +575,7 @@ Entities can be affected by a number of conditions, most of them bad. For now th
   - It has disadvantage on [WIS] and [DEX] based saves.
 - "**Invisible**": This character cannot be directly detected by visual means (aka sight). Characters are considered "blinded" in relation to invisible creatures.
 - "**Deafened**": A deafened character cannot perceive sound. It cannot hear. It can speak only stutteringly. It must make an [INT] save to complete Incantations (unless it is deaf for longer than month).
+- "**Surprised**": A surprised character dropped the ball. It cannot take any actions. This condition seldom exists outside of the first round of combat.
 
 ## Spellcasting and Supernatural abilities
 - Abilities and phenomena that would not exist in a mundane world, that cannot be explained adequately by "scientific" means are supernatural, otherwise called magical.

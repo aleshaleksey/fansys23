@@ -21,7 +21,7 @@ Rolling dice introduces uncertainty into what is otherwise a numbers game. The o
 It is possible to play this kind of game without ever rolling dice (using average values), however this is generally considered boring, which is why we use dice.
 
 #### Rounding up and down
-Whenever a roll is divided (eg half damage, jump distances, bonuses, etc) and the reuslt is not a whole number, the principle of "round up, except for damage" is applied.
+Whenever a roll is divided (eg half damage, jump distances, bonuses, etc) and the result is not a whole number, the principle of "round up, except for damage" is applied.
 
 #### Core Rolls
 There are three (and a half) types of base roll.
@@ -90,7 +90,7 @@ The numbers on thresholds and rolls are abstractions of how difficult a task is 
 - 50+: Actually impossible. With maxed out stats, rolling 24 should not hit above 50. (God)
 
 #### Modifiers vs Advantage/Disadvantage
-A mix of game balance and simulationism guide our understanding on what they represnt and how they should be applied.
+A mix of game balance and simulationism guide our understanding on what they represent and how they should be applied.
 
 Advantage represents factors that mitigate some potential of failure, but do not improve the best result. For example a sharp knife makes it easier to gut a rabbit, but does not increase the amount of meat one can harvest (a rabbit only has a rabbit worth of meat).
 
@@ -98,13 +98,13 @@ Disadvantage represents factors that negate some potential for success, but do n
 
 A positive modifier (bonus) represents factors that make a task easier and have a potential to improve the best result. For example, a tailwind will give a bonus when trying to travel further in a day's sailing. This is because the speed is actually increased, making it possible to travel further.
 
-A negative modifier (penalty/malus) represents factors that both reduce the best result and make a negative output more likely and worse. A storm gives a penalty to camping (fortify) rolls: Not do you have to content with the wind and rain, but your tent might get blown away. That's definitely worse unless you were trying to lose the tent!
+A negative modifier (penalty) represents factors that both reduce the best result and make a negative output more likely and worse. A storm gives a penalty to camping (fortify) rolls: Not do you have to content with the wind and rain, but your tent might get blown away. That's definitely worse unless you were trying to lose the tent!
 
 Advantage and disadvantage always cancel each other out. Advantage and disadvantage never stack.
 
 Modifiers from "natural" sources of different types stack (add up). For modifiers of the same type, take the largest modifier, or the sum of the largest bonus and largest penalty if both are present. Modifiers from "supernatural" sources never stack. To simplify mechanics a group can decide that the only types are "natural" and "supernatural" for minimum viable mechanics.
 
-#### Sources of Modifers
+#### Sources of Modifiers
 Because stacking modifiers can easily "break" a game or lead to situations where the outcome is decided early on in a scenario, it is desirable to avoid this. As a result the following rule is used with modifiers:
 - Modifiers can come from conditions.
 - Modifiers can come from circumstances or equipment.
@@ -157,7 +157,7 @@ A character has descriptive attributes that need not influence mechanics (within
   3. **Con**: Physical resilience. Upstream of HP, SP, aspects of physical interactions. The physical form of an entity with zero Con has no integrity. An entity with no physical form has no Con, such entities can only be damaged by "supernatural" means and "spiritual" weapons.
   4. **Int**: Mental agility. Ability to memorise, deduce, analyse, IQ. Upstream to skill points, some aspects of supernatural abilities. An entity with zero Int is not capable of reason or learning. It is mindless.
   5. **Wis**: Faculty of judgement, discernment, sense, EQ. Upstream of supernatural abilities, abilities devoted to detection, some aspects of social interactions. An entity with zero Wis has no awareness of internal or external realities. It is essentially unconscious.
-  6. **Cha**: Force of Personality. Mental resilience. Upstream of HP, MP, aspects of social interactions. An entity with zeo Cha has no will, drive or "spirit". It is generally catatonic. If not, it might obey any instructions it recieves to the letter. Such entities are not affected by "spiritual" weapons.
+  6. **Cha**: Force of Personality. Mental resilience. Upstream of HP, MP, aspects of social interactions. An entity with zeo Cha has no will, drive or "spirit". It is generally catatonic. If not, it might obey any instructions it receives to the letter. Such entities are not affected by "spiritual" weapons.
 
 
 - **Saving throws:** Some harmful effects can be negated or mitigated with a "**saving throw**". A character has six saving throws, one for each attribute. Abilities and effects that force a save usually specify one or two valid save types:
@@ -185,7 +185,7 @@ A character has descriptive attributes that need not influence mechanics (within
 
 
 - **Hit Threshold (HiT)**: A character has an armour class/hit threshold, this is a measure of how difficult its physical (or spiritual) form is to damage using targeted attacks. It can represent any combination of armour and evasive ability and is something of an abstraction of how hard a target is to damage with a targeted attack: A targeted attack either penetrates defences, with the potential o doing damage, (hit) or it does not. This is an abstraction that rolls evasion, deflection, and damage reduction by actual armour into one number.
-  1. Base HiT is calculated (for now!) as 10+[Static Bonus]+[SP ability bonus]+[MP ability bonus]+[cirumstance bonus]. This has not been decided.
+  1. Base HiT is calculated (for now!) as 10+[Static Bonus]+[SP ability bonus]+[MP ability bonus]+[circumstance bonus]. This has not been decided.
       - Static bonus is the sum of inherent layers of defences:
         - Dodge modifier (avoid the attack).
         - Deflect modifier (deflect the attack, eg with a shield or parrying).
@@ -197,7 +197,7 @@ A character has descriptive attributes that need not influence mechanics (within
 
 
 - **Skills**: A character has skills.
-- **Proficiencies**: A character has proficiencies. These are discrete skills where you either know how to use them, or you don't. A character that is not proficient with a thing either can't use it or uses it with a penalty. Allu is working on these.
+- **Proficiencies**: A character has proficiencies. These are discrete skills where you either know how to use them, or you don't. A character that is not proficient with a thing either can't use it or uses it with a penalty.
 - **Resource Pools**: A character has resource pools. These are a critical part of the game and are explained below.
 
 #### Resource Pools
@@ -251,7 +251,7 @@ A character has descriptive attributes that need not influence mechanics (within
 
 
 - **Skill points (Skill):** A character gets skill points based on level and intelligence. The maximum number of points in one skill is as follows:
-  - **[LEVEL / 2] runded up**.
+  - **[LEVEL / 2] rounded up**.
 
 
 - **Natural Bonus (Nat)**: This is a bonus added to all natural/physical attacks, and STR, DEX and CON based saves. It is determined by SP/"SP dice" as follows:
@@ -562,7 +562,7 @@ Entities can be affected by a number of conditions, most of them bad. For now th
   - It cannot use [SKILLS], attacks or cast spells that require the use of its body (including "incantations" and "somatic components").
 - "**Charmed**": A charmed character cannot attack the source of its charm. It has disadvantage against [WIS], [CHA], [INT] saves vs it. In theory it perceives its words and actions in the most favourable manner. In practice players are players.
   - Charmed creatures have disadvantage on deception rolls vs their charmer.
-- "**Frightened**": A frightened character has disadvantage on to targeted attacks. It must use its movement to move away from the source of its fear.
+- "**Frightened**": A frightened character has disadvantage on targeted attacks. It must use its movement to move away from the source of its fear.
 - "**Poisoned**": Afflicted by a poison. This has some core effects and specific effects. I don't know what they are.
 - "**Diseased**": Afflicted by a disease. This has degrees of effect. I don't know what they are.
 - "**Bleeding/Wilting**": A bleeding character loses HP every round. A [CON] save, or appropriate healing can stem this effect.
@@ -675,7 +675,7 @@ All travel rolls are determined by the terrain type, the weather modifier from i
 - There is a simplified table provided if the full rule is deemed burdensome.
 - **Simplified Table (Camping and navigation combined):**
   - Roads, Plains, Woodlands, Ruin, Hill: 5
-  - Deep Forest, Subterrean, Fells, Swamp, Mountain: 15
+  - Deep Forest, Subterranean, Fells, Swamp, Mountain: 15
   - Inclement Weather: +5 threshold modifier.
   - Homeland: +5 bonus to roll.
 
@@ -688,7 +688,7 @@ All travel rolls are determined by the terrain type, the weather modifier from i
   - Visibility modifier: Poor (severe) visibility: + 2
   - Visibility modifier: No (extreme) visibility: + 5
   - Precipitation: Heavy precipitation (severe or extreme): +2
-  - Wind: Extreme (hurricane, tornado, taifu): + 2.
+  - Wind: Extreme (hurricane, tornado, typhoon): + 2.
 - **Terrain difficulty table nav/scouting:** NB, Visibility penality for plains, deserts, swamps and fells are doubled.
   - Roads: 5
   - Plains, Deserts, Hills, Mountains: 10
@@ -698,14 +698,14 @@ All travel rolls are determined by the terrain type, the weather modifier from i
   - Visibility modifier: No visibility: + 2
   - Precipitation: Severe/Extreme: +2
   - Wind: Severe: + 2
-  - Wind: Extreme (Hurricane, tornado, taifu): + 5
+  - Wind: Extreme (Hurricane, tornado, typhoon): + 5
   - Extreme temperature: Severe (+40/-10): + 2.
   - Extreme temperature: Extreme (+50/-30): + 5.
   - Extreme temperature: Lethal Impossible to camp successfully without special abilities or magic.
 - **Terrain difficulty camping:** NB: Wind penality is doubled in deserts and mountains. Precipitation penalty is doubled in swamps.
   - Roads, Plains, Woodlands: 5
   - Ruins, Hills, Deep Forest: 10
-  - Subterrean, Fells: 15
+  - Subterranean, Fells: 15
   - Desert, Swamp, Mountain: 20
 
 
@@ -724,10 +724,10 @@ Generally one does not get lost on familiar terrain. Likewise if one has a guide
 Characters and groups that enter new or unfamiliar terrain will often need to explore it in some way to learn useful (or occasionally useless) information about it, this includes:
 - General topography and characteristics. (exploration)
 - Flora, fauna and monsters. (exploration or scouting)
-- Presense of populated centres and ruins. (exploration)
-- Presense and prevelance of resources. (Prospecting)
+- Presence of populated centres and ruins. (exploration)
+- Presence and prevalence of resources. (Prospecting)
 
-Different skills are used for each one. In general the thresholds for success are determined by the terrain table (see above), but in some cases skills, abilities and magics used for obfuscating and misleading cansubstitue the threshold value. In general exploration can be detailed (exploring a haunted house for clues to a murder), or cursory (exploring the mountainside for signs of marmots).
+Different skills are used for each one. In general the thresholds for success are determined by the terrain table (see above), but in some cases skills, abilities and magics used for obfuscating and misleading can substitute the threshold value. In general exploration can be detailed (exploring a haunted house for clues to a murder), or cursory (exploring the mountainside for signs of marmots).
 - Cursory exploration takes 4 hours per square mile of threshold 5 & 10 terrain, and a full day for threshold 15 & 20 terrain.
 - Detailed exploration takes between 10 minutes and 1h per 100sq-feet of terrain depending on how much "stuff" there is to explore.
 - For detailed exploration it is recommended that the locale is described by the DM and the players prompted to focus on a certain part of it. At this point the threshold should probably be determined by the general difficulty table.
@@ -750,29 +750,29 @@ Harvesting, hunting and mining are essentially all harvesting of different types
 In hostile or wilderness environments characters must often take additions steps before they can safely and effectively rest. These steps are:
 - Find suitable site vs terrain camping threshold + weather scouting modifier. (Skill or special ability). Successful check gives advantage on ameliorate/fortify check.
 - Skill roll to ameliorate/fortify site vs terrain camping threshold + weather camping modifier. (Skill or special ability)
-- Set sentry and watch for hostiles. Succesful fortification roll gives the camp cover, and the sentry advantage on rolls to detect ambushes coming for them (Skill or special ability).
+- Set sentry and watch for hostiles. Successful fortification roll gives the camp cover, and the sentry advantage on rolls to detect ambushes coming for them (Skill or special ability).
 - Resolve possible encounters.
 - Regain resources (HP, SP, MP) if the rest is successful.
 
 Failure to ameliorate a suitable site leads to [CON] save, with the threshold determined by terrain, weather (see tables above) and any bonuses from special abilities and spells.
 
-#### Environemental hazards. (TODO)
+#### Environmental hazards. (TODO)
 Depending on the nature of an environment being explored, it is possible to encounter various hazards. This ranges from weather related hazards like storms, extreme heat and , to terrain dangers such as raging rivers, avalanches and rockfall, to "man"-made dangers such as traps in dungeons.
 
 #### Inclement Weather Hazards (TODO: Make a full table of all weather and consequences.)
 Inclement weather has two severities: **Severe** and **Extreme**. The following inclement weather types exist. Here is a brief overview.
-- **Precipitation.** (Rain, snow, sleet, ash.) This can lead to poor visibility, difficult movment due to boggy ground or accumulation, or evencollapse of structures (snow, ash).
+- **Precipitation.** (Rain, snow, sleet, ash.) This can lead to poor visibility, difficult movement due to boggy ground or accumulation, or even collapse of structures (snow, ash).
 - **Wind.** Can damage structures. Can knock prone smaller creature and impede movement. Dangerous for flying creatures. Makes ranged attacks difficult.
-- **Temperature.** Very low or high temperatures. Being in temperatures an entity is not acclimatised to can quickly lead to exhaustion (hypothermia, hyperthermia, dehydration) or even death. It is more difficult to recuperate under these conditions. In particular, trying to recuperate in unamelioriated camps may require a roll, or be impossible.
+- **Temperature.** Very low or high temperatures. Being in temperatures an entity is not acclimatised to can quickly lead to exhaustion (hypothermia, hyperthermia, dehydration) or even death. It is more difficult to recuperate under these conditions. In particular, trying to recuperate in unameliorated camps may require a roll, or be impossible.
 - **Visibility.** Poor visibility is usually caused be caused by extreme precipitation, fog, murky water, cosmic clouds or darkness. It is easier to hide, and harder to detect, navigate and aim in poor visibility. In zero visibility targeted attacks with range and reach weapons, as well as certain spells are impossible, and other targeted attacks suffer a penalty. In areas of zero (extreme) visibility all creatures are considered for all intents and purposes BOTH **blinded** and **invisible**. **NB:** Visibility can refer to senses other than sight in some exotic cases.
 
 Any given inclement weather phenomenon may cause more than one effect. Here are some suggested ratings.
 - **Fog**/**Mist**: Poor/Zero visibility.
-- **Torrential Rain**: Severe precipitiaiton, poor visibility.
+- **Torrential Rain**: Severe precipitation, poor visibility.
 - **Gale**: Severe wind.
 - **Hurricane**: Extreme wind.
 - **Tornado**: Extreme wind, poor visibility.
-- **Taiphoon**: Extreme wind, severe precipitation.
+- **Typhoon**: Extreme wind, severe precipitation.
 - **Blizzard**: Severe/Extreme temperature (cold), extreme precipitation(snow), severe visibility, severe wind.\
 - **Whiteout**: Zero visibility, severe precipitation(snow).
 - **Sand Storm**: Zero visibility, severe/extreme wind, severe/extreme precipitation (sand).
@@ -796,7 +796,7 @@ Most characters are morals and therefore require **sustenance** and suffer from 
 - A mortal that is deteriorating without sustenance stops deteriorating when sustenance is returned. However if sustenance is withdrawn within a given time period, the deterioration begins immediately.
 - The time periods can be modified by various factors. Usually environmental factors.
 
-|Sustenance Kind|starvation name|duration before starvation|refactory period|
+|Sustenance Kind|starvation name|duration before starvation|refractory period|
 |-|-|-|-|
 | **Air**|suffocation|[CON] minutes|[10 minutes - CON]|
 |**Water**|dehydration|[CON -1] days|[2 days]|

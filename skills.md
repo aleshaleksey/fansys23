@@ -9,7 +9,7 @@ The game has **skills** and **proficiencies**. The game defines them as follows.
 #### Acquiring skills and proficiencies
 Skills are usually acquired at level up by either assigning skill points or adding background skills. This reflects time spent honing skills through us on adventure and picking up new skills and techniques by training. Certain special abilities also grant additional skills and proficiencies.
 
-It is NOT adviseable to allow a character to gain additional skill points outside of this unless it is necessary for party balance or plot reasons. Even then it should not be taken lightly. As an optional rule and downtime activity it takes a solid month of training to gain 1 skill point and the total number of points (ranks) in a skill cannot exceed [LVL]/2. Certain supernatural abilities can also transfer a skill from one entity to another, but no entity should use them lightly.
+It is NOT advisable to allow a character to gain additional skill points outside of this unless it is necessary for party balance or plot reasons. Even then it should not be taken lightly. As an optional rule and downtime activity it takes a solid month of training to gain 1 skill point and the total number of points (ranks) in a skill cannot exceed [LVL]/2. Certain supernatural abilities can also transfer a skill from one entity to another, but no entity should use them lightly.
 
 #### Skill points (ranks)
 A character gets skill points (ranks) based on level and intelligence. The maximum number of points (ranks) in one skill is as follows:
@@ -23,10 +23,10 @@ A skill point can be assigned to either a) gain a proficiency, or b) add a rank 
 Every level a character adds a "background" skill to add its **base** to. This cannot be reassigned later. At level N a character has N skills which are assigned as background skills. This reflects knowledge in untrained skills that a character has picked up over their adventures, travels and other lifetime experience without actual training.
 
 #### Total Skill bonus
-A character has a skill bonus of **[Base (optional)] + [ranks] + [ability bonus]**. So a character with INT = +2, and 2 ranks in "swim" has a +4 to swim. If they have assigned "swim" as a backround skill, and their base is +1, the total bonus is +5.
+A character has a skill bonus of **[Base (optional)] + [ranks] + [ability bonus]**. So a character with INT = +2, and 2 ranks in "swim" has a +4 to swim. If they have assigned "swim" as a background skill, and their base is +1, the total bonus is +5.
 
 #### Circumstance bonus
-Sometimes circumstances may add a +2/+5 to a roll (eg Homeland bonus for navigation). Sometimes they may cause advantage or disadvntage. Sometimes they are codified in the rules, sometimes the DM may apply them as appropriate.
+Sometimes circumstances may add a +2/+5 to a roll (eg Homeland bonus for navigation). Sometimes they may cause advantage or disadvantage. Sometimes they are codified in the rules, sometimes the DM may apply them as appropriate.
 
 #### Skill groups
 Some skills are similar to each other as to be somewhat transferable. In this case the character may roll a different skill from the same group with a -5 penalty. The groups are:
@@ -78,7 +78,7 @@ There are 32 skills and a number of proficiencies.
   - Track
 - Spellcraft group
   - Spellworking
-  - Use Dwoemer
+  - Use dweomer
 
 ##### CHA based (5):
 - Diplomacy Group
@@ -86,7 +86,7 @@ There are 32 skills and a number of proficiencies.
   - Intimidate
   - Persuade
 - Perform group
-  - Bluff
+  - Deceive
   - Perform
 
 ##### Language Proficiencies
@@ -167,7 +167,7 @@ There are three armour proficiencies that each cover several groups of armour.
 ##### Weapon Proficiencies
 Weapons are tools that increase an entity's lethality in combat. For the sake of this definition, this does not include martial or supernatural abilities. Weapons and their properties are further discussed in the "Weapons and Armour Section".
 
-Any entity may wield a weapon it is physically capably of wielding. If it is not proficent, it makes attacks with a -5 penalty. On a critical fail it damages itself, rolling the same damage dice it would as if it had hit the intended target.
+Any entity may wield a weapon it is physically capably of wielding. If it is not proficient, it makes attacks with a -5 penalty. On a critical fail it damages itself, rolling the same damage dice it would as if it had hit the intended target.
 
 Proficiency eliminates both the penalty and the damage to self on crit. In addition it allows the use of any of a weapon's special properties.
 
@@ -183,7 +183,7 @@ Weapon proficiencies are taken for each subgroup (eg "Strikes" and "Throws" are 
   - Axes
   - Light Percussive
   - Heavy Percussive
-  - Polearms
+  - Pole-arms
   - Staves
 - Melee/Thrown
   - Light/Thrown blades
@@ -195,14 +195,14 @@ Weapon proficiencies are taken for each subgroup (eg "Strikes" and "Throws" are 
   - Firearms (optional)
 - Heavy
   - Ballistae
-  - Trebuche/catapults
+  - Trebuchet/catapults
   - Canons
 
 ## Detailed Skill Descriptions
 Each skill has a number of described uses. However, the list is generally not exhaustive and additional uses should be discussed within the group. For each skill there are two important questions:
 
 1. Can an entity try the roll again, and what are the consequences? If the answer is not "yes", then one cannot "take 20" or "take 24" in that skill.
-2. Can an entity "take care" in that skill or not under approprtiate circumstances (see the "take care") section?
+2. Can an entity "take care" in that skill or not under appropriate circumstances (see the "take care") section?
 
 __STR: Athletics__
 
@@ -227,7 +227,7 @@ Athletics is used for most land based physical activities including:
 
 __STR: Climb__
 
-This is a skill specific to scaling steep or vertical surfaces, trees, ropes and entites larger than oneself. A creature without a *climb* skill climbs at 1/4 of its base speed. Unless otherwise stated, no action is required, and the roll is made as part of the entity's movement. This follows the "Difficulties and recommended thresholds" as follows.
+This is a skill specific to scaling steep or vertical surfaces, trees, ropes and entities larger than oneself. A creature without a *climb* skill climbs at 1/4 of its base speed. Unless otherwise stated, no action is required, and the roll is made as part of the entity's movement. This follows the "Difficulties and recommended thresholds" as follows.
 - Base Thresholds:
   - 4: A steep embankment, ladder, knotted rope, or tree with many branches.
   - 8: A rope or near vertical rock with many big holds and ledges, or average tree.
@@ -247,7 +247,7 @@ This is a skill specific to scaling steep or vertical surfaces, trees, ropes and
   - A roll of a climber's kit allows to make a climb safe, reducing fall distance to 20ft for threshold 24+ climbs and 10ft for threshold 23- climbs.
   - An entity that fails a climb roll fails to progress on a climb.
   - An entity that fails by 5 or more falls half the distance and suffers the consequences. If this is a critical fail, the entity falls the full distance.
-- **Take care**: No. Entities without a cimb speed are always considered at risk when climbing.
+- **Take care**: No. Entities without a climb speed are always considered at risk when climbing.
 - **Try again**: Yes, but repeated fall damage on failure might make repeated attempts undesirable.
 
 __STR: Fortify__
@@ -258,20 +258,20 @@ The skill is used for building structures, fortifying positions (dungeon corrido
   - This can give a 3/4 cover bonus to defenders.
   - This can be used to construct a terrain/structure trap (see traps).
   - This can be used to create a barricade (with a break threshold of your roll).
-- **Amelioration**: For medium size creature the minum camping area is 5ft x 10ft.
+- **Amelioration**: For medium size creature the minimum camping area is 5ft x 10ft.
   - It takes 10 minutes to ameliorate this area in threshold 10- terrain.
   - It takes 1h to ameliorate this area in threshold 11+ terrain.
 - **Modifiers**:
   - The time can be reduced, but without special or supernatural abilities it cannot be less than 5 minutes.
   - For every size category above medium the total time taken is halved.
-  - Multiple entities can participate in the process, in which case the time taken is divided by the number of entities taking part. For each size category above medium, an entity counts as twice as many entities of the next category down. So a largte entity counts as 2 medium entities, but a huge entity counts as 4 medium entities.
+  - Multiple entities can participate in the process, in which case the time taken is divided by the number of entities taking part. For each size category above medium, an entity counts as twice as many entities of the next category down. So a large entity counts as 2 medium entities, but a huge entity counts as 4 medium entities.
   - An entity can do a "rush job" and take half the time: -5 penalty.
 - **Take care**: Yes.
 - **Try again**: Yes.
 
 __STR: Swim__
 
-Swimming is a separate skill from climbing and overland atheletics. It is used for moving through a liquid medium, such as water, lava, quicksand, or a monster's stomach acid. A creature without a *swim* skill climbs at 1/4 of its base speed. Unless otherwise stated, no action is required, and the roll is made as part of the entity's movement. This follows the "Difficulties and recommended thresholds" as follows.
+Swimming is a separate skill from climbing and overland athletics. It is used for moving through a liquid medium, such as water, lava, quicksand, or a monster's stomach acid. A creature without a *swim* skill climbs at 1/4 of its base speed. Unless otherwise stated, no action is required, and the roll is made as part of the entity's movement. This follows the "Difficulties and recommended thresholds" as follows.
 - Base Thresholds:
   - 4: Float or swim in perfectly calm, warm water, under perfect conditions.
   - 8: To float or swim while engaged in combat.
@@ -279,7 +279,7 @@ Swimming is a separate skill from climbing and overland atheletics. It is used f
   - 50: Swim up a flowing waterfall or down an erupting volcano (if you're immune to Fire[Natural]).
 - Threshold modifiers:
   - Severe or Extreme currents: +5 or +10 to threshold.
-  - Severe or Extreme turbulance/waves: +5 or +10 to threshold.
+  - Severe or Extreme turbulence/waves: +5 or +10 to threshold.
   - Severe or Extreme temperature: +5 or +10 to threshold.
 - Penalties:
   - Wearing medium armour: -5 penalty.
@@ -287,7 +287,7 @@ Swimming is a separate skill from climbing and overland atheletics. It is used f
   - For every 10lb of carried equipment: -1 penalty.
 - Special:
   - Entities with a swim speed can always "take care" to swim.
-  - Floation devices (improvised or purpose made) reduce thresholds for staying or returning to the surface by 5.
+  - Floatation devices (improvised or purpose made) reduce thresholds for staying or returning to the surface by 5.
   - An entity with a diver's kit can see normally in the fluid, can swim at 1/2 base speed instead of 1/4 base speed, and does not need to worry about breath for 30 minutes. Usually a diver's kit is designed specifically for one fluid.
 - **Take care**: Yes.
 - **Try again**: No. The dynamic nature of failure and drowning makes it meaningless.
@@ -324,7 +324,7 @@ I don't know whether we even need this as a skill. It is done as part of an enti
   - Small entities start making rolls at 30mph. This increases by +10mph for each size category above "small", and flight category above "average".
 - **Regain control** when falling.
   - Threshold = 10 + [turns falling or out of control].
-- **Emulate highter flight** category (eg good flyer trying to hover). This is also used for manoeuvres.
+- **Emulate higher flight** category (eg good flyer trying to hover). This is also used for manoeuvres.
   - Threshold = 10 + [5 x number of categories above current category].
 - **Take care**: Yes.
 - **Try again**: Yes, although the DM can rule that repeated failure results in the "crippled" condition or damage to the vehicle.
@@ -334,7 +334,7 @@ __DEX: Heal__
 Healing is used to use medical art and science (as opposed to magic) to diagnose and treat injury and illness. It usually takes at least a minute. It is fine to use WIS instead as a governing stat, especially for diagnosis.
 - **Stabilise**: As an action, cure the "dying" condition.
   - Threshold = 15
-- **First Aid**. As an action, cure "unconcious", or delay the effects of "crippled" or "bleeding" condition for 1 hour.
+- **First Aid**. As an action, cure "unconscious", or delay the effects of "crippled" or "bleeding" condition for 1 hour.
   - Threshold = 15 if [Natural]
   - Threshold = 25 if [Supernatural]
 - **Treat poison**. Requires 1 minute - 1h of treatment:
@@ -349,7 +349,7 @@ Healing is used to use medical art and science (as opposed to magic) to diagnose
   - Disease: Threshold of the disease or poison
   - It is usually fine to rule that once an entity has seen it once, it knows what it is.
 - **Take care**: Yes, for treatment. No for diagnosis.
-- **Try again**: For treatment, yes (although the patient might be dead by then). For diagnos, no.
+- **Try again**: For treatment, yes (although the patient might be dead by then). For "diagnose", no.
 
 
 __DEX: Ride__
@@ -381,7 +381,7 @@ Sleight of hand is not just for "hands". It is the skill combining the use of de
   - Threshold: Opposed vs [Perception (at advantage if entity has a sense of touch)]. 
 - **"Liberate item"**: Remove a small jammed item or component of device or structure from where it belongs.
   - 8: Loosely jammed item (eg gem between wardrobe and wall).
-  - 12: Tighly jammed item (eg lock of hair stuck in a door).
+  - 12: Tightly jammed item (eg lock of hair stuck in a door).
   - Add +4 to the threshold if the item has adhered.
   - Add +4 to the threshold if fingers (or other body parts) cannot reach.
 - **"Liberate"**: Slip free of manacles and the like.
@@ -405,7 +405,7 @@ Tinkering involves making, modifying and breaking delicate mechanisms, construct
   - Masterpiece/unique mechanism (eg antikythera mechanism): Threshold = 30, time = 1 month.
   - If an entity takes double the time, it can reduce the threshold by -4.
   - If an entity takes wishes to do a rush job and half the time, increase the threshold by +10.
-  - Research of complex (and higher) devices can be simplified by using assistants. The assistant must be proficient both in **tinker** and the appropriate tools. For each assistent reduce research time by 1 day, to a maximum of half the time (rounded up).
+  - Research of complex (and higher) devices can be simplified by using assistants. The assistant must be proficient both in **tinker** and the appropriate tools. For each assistant reduce research time by 1 day, to a maximum of half the time (rounded up).
 - **Create device**: Create a device whose general design you know.
   - Threshold: Varies.
 - **Modify/sabotage device**: Modify the device to alter its function or cause it to disfunction in a specific manner.
@@ -415,6 +415,7 @@ Tinkering involves making, modifying and breaking delicate mechanisms, construct
   - Threshold: [Creation threshold]
   - Time taken: 1 minute for threshold 16 and below. 1 hour for threshold 24 and below. For higher thresholds, the DM should set a reasonable time.
   - An entity may attempt a rush job to reduce the times to 1 round, 1 minute (or ~1/10) by taking a -10 penalty.
+- **Special**: Disabling the supernatural component of supernatural traps and devices increases the threshold by +10.
 - **Take care**: Yes. for "disable", "create" or "modify". No for "research".
 - **Try again**: Yes, if it hasn't blown up in your face yet!
 
@@ -436,8 +437,8 @@ Harvest is the umbrella skill covering the harvesting of natural resources from 
 - **Try again**: Yes.
 
 __INT: Academics__
-Academics are fundamental knowledge. It starts with literacy and ends in higher logic, mathematics, philosophy, linguistics, architecture, music theory and scientific method (although not actual scientific knowledge). Academics is generally used when creating or desciphering secret messages, doing research, showing off, or getting a clue from the DM. This can vary from a 
-- **Create/Descipher** secret meaning: Create or solve a cipher. Leave or discern a secret message.
+Academics are fundamental knowledge. It starts with literacy and ends in higher logic, mathematics, philosophy, linguistics, architecture, music theory and scientific method (although not actual scientific knowledge). Academics is generally used when creating or deciphering secret messages, doing research, showing off, or getting a clue from the DM. This can vary from a 
+- **Create/Decipher** secret meaning: Create or solve a cipher. Leave or discern a secret message.
   - **Time taken**: 1 minute if threshold 12 or below. 1 hour if threshold is 20 or below. 1 day if 32 or below. Longer if higher.
   - **Threshold**: Depends. See "Difficulties and recommended thresholds".
 - **Show off**: A character may attempt an opposed academics roll to "persuade" or "bluff" under certain circumstances. Alternatively this can be used to attempt to explain certain theories to others. This can make things better or worse. Can substitute for "Perform" in academic audiences.
@@ -454,7 +455,7 @@ Academics are fundamental knowledge. It starts with literacy and ends in higher 
 - **Recognise theory**: Recognise a theory or phenomenon you have previously studied.
   - Threshold = [Research threshold - 5]
 - **Take care**: No. Knowledge and thought have too many hidden variables to take care.
-- **Try again**: For knowledge based roll, desciphering and logical clues, one retry at a -10 penalty is allowed. For Research, yes, although given the time and material use, it is often undesirable.
+- **Try again**: For knowledge based roll, deciphering and logical clues, one retry at a -10 penalty is allowed. For Research, yes, although given the time and material use, it is often undesirable.
 
 __INT: Appraise__
 
@@ -483,7 +484,7 @@ This is a wide range of skills and methods that are used to reveal hidden detail
   - Within 25%: Threshold = 16
   - When evidence gets to a certain age, any further deterioration can make it impossible to date. Therefore the DM should use common sense (eg "This blood is exactly 129381 years, 4 days and 3 minutes old!" is silly). 
 - **Detect Tampering**: Determine that something has been tampered with or if there is something that is missing.
-  - Threshold = Theshold of roll used to tamper.
+  - Threshold = Threshold of roll used to tamper.
 - **Take care**: Yes.
 - **Try again**: Yes.
 
@@ -496,7 +497,7 @@ Navigation allows a character to orientate themselves in space, find the best ro
   - Threshold = [Threshold of terrain with weather modifier - 10]
 - **Orientate:** Use map and compass to locate yourself (eg when lost). This takes a minute.
   - Threshold = [Threshold of terrain with weather modifier]
-  - Rush job (take "full round action" instead): Increase threhold by + 5.
+  - Rush job (take "full round action" instead): Increase threshold by + 5.
 - **Plan route/logistics:** Plan out a route between two points. On a success, the party will be given the route that fulfills the desired criteria as closely as possible, pointing out potential hazards. The journey time will also be decreased by 10%.
   - **Action**: 1 hour / day of route. 2 hours / day if logistics are included.
   - **Threshold**: [Terrain threshold] + [1 / 5 entities in the group] + [1 per vehicle in the group].
@@ -511,7 +512,7 @@ There are 6 knowledge skills in the game. I represent various subsets of knowled
   - 4: Common knowledge, everyone knows this! (eg Dragons exist.)
   - 8: Common knowledge, more than half the villagers know this. (eg There are dragons in the northern mountains.)
   - 16: Basic specialist knowledge, known eg. only by a few folk in the village/town. (eg, The dragons in the mountains slumber, but there is one not far from here that is awakening, it's lair is somewhere on the side of mount X.)
-  - 24: Truly specialist knowledge, which is known by only the most knowledgeable in the region. (eg. The dragon's name is Bob, he is five centuries old, has a magical gem instead of one of its eyes and has sworn to destory the kingdom when the moon turns blue)
+  - 24: Truly specialist knowledge, which is known by only the most knowledgeable in the region. (eg. The dragon's name is Bob, he is five centuries old, has a magical gem instead of one of its eyes and has sworn to destroy the kingdom when the moon turns blue)
   - 32: Deep knowledge, known by few or forgotten by most who once knew it. (eg The dragon's crystal eye works by these magics and can be destroyed using that method. 5 centuries ago, queen Alice tricked and killed Bob's mate and then used her scales make herself a suit of armour which is currently said to be lost in the ruins of XYZ. Bob's rage against the kingdom will likely not abate until the scales of his mate are returned.)
   - A DM may give completely false results on a failed check to obfuscate information that can be gleaned from information theory. 
 - Domains:
@@ -520,13 +521,12 @@ There are 6 knowledge skills in the game. I represent various subsets of knowled
     - Identify supernatural effect: [12 + MP dice used to create it]
     - Identify spell being cast [12 + MP dice used to create it]
     - Identify magical constructs or summoned creature: [4 + Total dice].
-      - Special: for every 4 points over the identification threshold, the character gains an extra piece of information about the creature.
-    - *Special*: A character using "counterspell" to counter a spell, that successfully identifies an effect with arcana does not need to make a [Sup] roll, but instead can assign [MP + 2] to succesfully counter the effect.
-  - Dungeoneering: A colleciton of esteric fields dealing with dangerous places such as labyrinths, monster lairs and disaster zones. It includes knowledge of things like creatures dwell in such places, typical hazards and resources, likely locations of trap/treasure zones and core zones, and general dungeon trivia. Thresholds are as follows:
+  - If the item is a single use item and the roll fails by 5 or more, the item is destroyed in the process.an assign [MP + 2] to successfully counter the effect.
+  - Dungeoneering: A collection of esoteric fields dealing with dangerous places such as labyrinths, monster lairs and disaster zones. It includes knowledge of things like creatures dwell in such places, typical hazards and resources, likely locations of trap/treasure zones and core zones, and general dungeon trivia. Thresholds are as follows:
     - Identify monstrous creature or construct: [4 + Total dice]
       - Special: for every 4 points over the identification threshold, the character gains an extra piece of information about the creature.
     - Identify hazard: [terrain + weather] or [threshold of creation].
-    - Identify material/dwoemer in such a zone: See "Appraise".
+    - Identify material/dweomer in such a zone: See "Appraise".
     - Identify structure of zone: [terrain + weather] + 5. 
   - Geography: Geography and geology. Including, know geography and geology of a region. Identify landmarks. Identify regional belonging of an entity from its outwards traits and behaviour.
   - History: Know the history of a region, item or civilisation. Know obscure historical events of significance. Know power structure of a country and know details of past and present rulers. Remember what you did two sessions ago if you forgot to make notes.
@@ -561,7 +561,7 @@ The skill of observation is used to notice hidden/camouflaged details, entities 
 - **Try again**: Yes. in this case this is a "secondary action".
 
 __WIS: Sense Motive__
-See through decption or gain some insight into the motive or state of mind of an entity. Usually this is through paying careful attention to wording, intonation and body language acombined with a thorough knowledge of philosophy. No action required. This skill does not allow one to read an entity's mind (usually).
+See through deception or gain some insight into the motive or state of mind of an entity. Usually this is through paying careful attention to wording, intonation and body language combined with a thorough knowledge of philosophy. No action required. This skill does not allow one to read an entity's mind (usually).
 - **Discern Deception**: Opposed vs "deception".
 - **Sense motive**: Gain insight into motive. Threshold = 16.
 - **Empathise**: Gain insight into emotional state of entity. Threshold = 12.
@@ -579,15 +579,15 @@ See through decption or gain some insight into the motive or state of mind of an
 - **Try again**: Yes (as "secondary action"), but the result will be the same or the state of mind will have changed and the previous one will not be deduced.
 
 __WIS: Spellworking__
-While 'Knowledge:Arcana" deals with theory, this is the practical application of said theory to manipulate supernatural forces and magical energies. It is used mainly to interact with the supernatural by "natural"/mundane means. This includes attempting to disrupt a ritual or modify its outcome. Alter the effect of arcane/spiritual glyphs and barriers and imbue or disimbue supernatural forces into mundane/"natural" objects. This generally takes between 1 minute and 1 week but can take longer. It should be noted that many barriers and other dwoemer have wards against tampering. This can end badly.
+While 'Knowledge:Arcana" deals with theory, this is the practical application of said theory to manipulate supernatural forces and magical energies. It is used mainly to interact with the supernatural by "natural"/mundane means. This includes attempting to disrupt a ritual or modify its outcome. Alter the effect of arcane/spiritual glyphs and barriers and imbue or disimbue supernatural forces into mundane/"natural" objects. This generally takes between 1 minute and 1 week but can take longer. It should be noted that many barriers and other dweomer have wards against tampering. This can end badly.
 - **Threshold** = creator's [Sup] roll.
 - **Time required** based on threshold:
     - Up to 12: 1 minute.
     - Up to 16: 1 hour.
     - Up to 24: 1 day.
-    - Up to 32: 1 weeek.
+    - Up to 32: 1 week.
     - For every 8 points the threshold is exceeded, the time category reduces by one (eg, rolling 33 vs a threshold=24 barrier means it will take an hour to disable it).
-- **Disable magical trap:** Safely disenchant or diffuse a magical trap (1 minute).
+- **Disable supernatural trap:** Safely disenchant or diffuse a magical trap (1 minute).
 - **Create bypass in supernatural barrier**: Allow a passage big enough to accommodate for 1 medium size entity in a magical barrier for 1 minute.
 - **Extend duration**: Enforce a supernatural effect, extending the duration (requires 1 hour). Roll vs the Creator's [Sup] roll. On success the effect is extended by:
   - Duration =  [roll - threshold] x 10% of original duration.
@@ -598,7 +598,8 @@ While 'Knowledge:Arcana" deals with theory, this is the practical application of
 - **Imbue**: This is covered in the "crafting" section, and basically uses pathfinder rules.
 - **Disimbue**: Disimbue an enchantment, dissipating the energy.
   - **Special**: If you succeed by 5 or less the energy is released in a catastrophic cascade dealing [threshold] x d6 "entropic"[Sup] damage to everything within [threshold] x 5ft of the source. 
-- **Absorb**: Disimbue an enchantment and absorb energy from it as MP. On success the enchantment is disimbued and you replenish a number of MP dice equal to the number used to create the effect. Excess dice are added as temporary dice. If the resulting total dice is more than 3/2 times your maximum, two things happen:
+- **Absorb**: Disimbue an enchantment and absorb the energy as MP dice.
+  - If the item is a single use item and the roll fails by 5 or more, the item is destroyed in the process.rb energy from it as MP. On success the enchantment is disimbued and you replenish a number of MP dice equal to the number used to create the effect. Excess dice are added as temporary dice. If the resulting total dice is more than 3/2 times your maximum, two things happen:
   1. All your [MP] and [SP] dice are expended, your [HP] drops to zero. You are considered dying.
   2. All OTHER entities suffer the consequence as from a "catastrophic cascade" (see "disimbue").
 - **Use magic device**: A character not proficient with a magical device can attempt to use it (this is a full round action unless it is normally longer). A roll is needed for each of:
@@ -633,26 +634,120 @@ Tracking is used to follow entities based on disturbances they leave in their en
 - **Take care**: Yes.
 - **Try again**: Yes. (Although you probably won't catch it if you take 20)
 
-__WIS: Use Dwoemer__
+__WIS: Use Dweomer__
 Probably going to roll this into "Spellworking".
 
-__CHA: Bluff__
-
-
-
 __CHA: Creature Handling__
+Train a non-sapient entity or order/direct it to act. Training usually takes days, weeks, months or years. Commanding is a "communicate" action where the command is vocal or telepathic, or a "secondary action" when it is somatic. It can also be used for handling untamed creatures. This skill is generally not useable for entities with Int higher than 4. Those are treated as sapient.
+- **Raise**: Rear a creature from infancy to adulthood. This also involves teaching the entity a number of commands equal to its intelligence score.
+  - **Duration**: varies with life cycle.
+  - **Threshold**: Base threshold for a native domestic animal is 12.
+    - +4 if the entity is not a domestic breed.
+    - +4 if it is not native to the terrain and climate where you are raising it.
+    - +4 if it is a monstrosity or plant.
+    - +8 if it is a different non-animal entity.
+- **Tame**: Tame a wild thing. This has two modes. a) Interact with an entity and move its perception of you to "neutral". This takes a minute. b) Tame an entity. This takes between a week and a year depending on entity.
+  - **Threshold**: Base threshold for a wild animal is 16.
+    - -4 if it has had friendly interactions with your race or similar entities.
+    - +4 if it is not an animal.
+    - +8 if it has had hostile interactions with your race or similar entities.
+    - +16 if it has had hostile interaction with you before.
+- **Teach**: Teach an entity a new command.
+  - **Duration**: 1 week.
+  - **Threshold**: base threshold for a domestic animal is 16.
+    - +4 if this is not a natural activity for the entity (eg. Teaching a guinea pig to attack).
+    - +4 if the entity is not an animal.
+    - +4 for each command above the entity's intelligence score.
+- **Command**: Order an entity to carry out a command.
+  - **Threshold**: The base threshold is 16. 
+    - -4 to threshold if you trained it.
+    - +8 if it is not trained for this command.
+    - +12 if it is an untamed entity.
+- **Take care**: Yes.
+- **Try again**: Sometimes, but at disadvantage. Raising cannot be repeated, because it already grew up.
 
+__CHA: Deceive__
 
+This is deception, whereby by direct lies (verbal, or by suggestive body language) or indirect deception or attempts to mislead. As a rule this skill should be used for direct interaction and written form or sabotage. This is usually a "communicate" action.
+- **Threshold**: Opposed to "Sense Motive".
+- **Modifiers**
+  - The target knows that this cannot feasibly be true: +16 Threshold.
+  - The deception is unlikely: +4 threshold.
+  - The target is unfriendly (skeptical): +4 threshold.
+  - The target wants to believe this is true: Advantage on deception roll.
+- **Secret message**:
+- **Distract**: Give a target disadvantage on mental skill/ability rolls till the end of its next turn (or a minute out of combat).
+- **Take care**: No. Emotions are tricky.
+- **Try again**: Sometimes, but at disadvantage. Sometimes a target may become hostile on failure and then things get messy.
 
 __CHA: Intimidate__
+
+**NB:** Uses of intimidate in PC vs PC is not encouraged (except for "shake resolve"). For maximum effect this is one check that benefits from being roleplayed out.
+
+Encourage compliance based on fear. This can be used either force NPCs to take a certain course of action out of fear or sense of self preservation. It can also be used to shake the resolve of a combatant for a brief moment. This skill has no effect on "fearless" entities.
+- **Threshold**: Opposed roll vs Cha save. Snake eyes do NOT automatically fail this save.
+  - +8 to threshold if you are hopelessly outmatched.
+  - +4 to threshold if you are outnumbered or outsized.
+  - -4 to threshold if you and allies outnumber or outsize target.
+  - -8 to threshold if your target is hopelessly outmatched.
+- **Intimidate**: Spend a minute being scary. The target will act as if it is **charmed** for as long as you are present (up to an hour, then a new roll may be required at the DMs discretion). When you are no longer present the target becomes "unfriendly" if it wasn't already, and may become hostile under some circumstances, but is unlikely to attack you directly. If the check fails, the target's attitude changes to "unfriendly" or "hostile" depending on multiple factors.
+  - This may be used on multiple targets. The targets roll once as a group, using the Cha save of the perceived leader with a +1 for every extra member up to 10.
+- **Shake resolve**: Use "communication" action to give target disadvantage on its next targeted attack or save.
+  - If a "main action" is used instead target is "Frightened" until the end of its next turn.
+- **Break**: Uses a "main action" to cow enemies into surrendering. The roll has the following penalties:
+  - -12 penalty if you have done at least 1 HP damage to the target this encounter.
+  - -16 penalty if the target has taken at least 1 HP damage in this encounter.
+  - -24 penalty if the target is uninjured.
+- **Take care**: No.
+- **Try again**: Yes, once, with disadvantage. Subsequent checks automatically fail until circumstances change.
 
 
 __CHA: Persuade__
 
+Unlike intimidate this does not act as a charm effect. Like intimidate it should not be used on PCs. Persuasion can range from a systematic encroachment onto an entity's system of values and world view over many days of work, to a desperate plea thrown out in a "communicate" action. It can be used in or out of combat.
+- **Threshold**: Opposed roll vs Cha save. Snake eyes do NOT automatically fail this save. NB: The DM is encouraged to set their own thresholds, instead of using a save, but this is a guide in doing so. It is also advisable to put roleplaying ahead of using the persuade skill, and only engage it as a necessary abstraction.
+  - **Basic Threshold Modifiers**:
+    - +24 if you or your request fundamentally contradicts the aims or values of the target.
+    - +16 if you or your request is utterly ridiculous or completely contradicts values of target.
+    - +8 if you or your request puts the target at a disadvantage.
+    - +4 if you or your request causes the target inconvenience.
+    - -4 if you or your request seem likely to be advantageous to the target.
+    - -8 if you or your request is something the target wants to do anyway.
+    - -16 if you or your request completely align with the aims and values of the target.
+  - **Relationship Modifiers**: Based on relationship to you a target is likely to perceive requests differently. The threshold is affected as follows:
+    - Nemesis (eg the one who swore they would cast your soul into the nether hells after seeing you slay their family before their eyes): +16
+    - Hostile (eg the ogre trying to kill you): +8
+    - Unfriendly (eg local thugs): +4
+    - Friendly (eg good neighbour): - 4
+    - Allied (eg good ally, spouse): -8
+    - Sworn (eg The blink dog that you saved from monsters as a pup): -16
+- **Request**: Spend at least one minute supplicating the target for aid. A successful roll means that the target will assist you in this request. Depending on its character it may or may not be particularly diligent or thorough in doing so.
+- **Carouse**: Spend at least one hour interacting with the target, to attempt to shift its relationship one step closer to "allied".
+  - Apart from under special circumstances a target will only advance one step up per day at most.
+- **Beg for mercy**: As a "main action" you can beg for mercy in combat, making a persuade roll at disadvantage. On a successful roll you will be spared by your foe. If you fail by more than 5, you will become the main target.
+- **Call for parley**: As a "full round action" you can call for parley, making a persuade roll at disadvantage. In most cases you have a penalty from both "relationship modifiers" and "basic threshold modifiers". If HP damage has been caused in this encounter, you have an additional -8 penalty. If you fail by 5 or mor, you become the main target of the hostilities.
+- **Special**:
+  - Persuade checks for "Carouse" and "Request" always fail against a "Nemesis".
+  - "Carouse" cannot move a relationship to "Sworn".
+  - A "persuade" will only work on "nemesis" under circumstances where their goals are almost certain to fail otherwise, and sometimes not even then. 
+- **Take care**: No.
+- **Try again**: Yes, once, with disadvantage. Subsequent checks automatically fail until circumstances change.
 
 __CHA: Perform__
-
-
+Put on a show or act, using word or play, song or dance, instrumentals or baffoonery or any number of other means. This can either be done to earn a living, distract attention, carouse or gain information. A performance typically lasts at least a minute.
+- **Carouse**: Can be used to shift relationships one step in either direction between "hostile" and "friendly" for yourself or a different entity. (See "Persuade" rules.)
+- **Distract**: Make a perform roll vs a threshold of the target's Wis save. On a success the target has disadvantage on "observe" and "sense motive" checks while your performance continues. If the target gets snake eyes, it is "charmed" for the duration of your performance.
+- **Gather information**: Works as a "knowledge" skill with a scope limited to what the entities at the performance would know.
+- **General descriptors by roll result**
+ - 4: My 3 year old's screams are less painful to listen to.
+ - 8: Basically Begging.
+ - 12: Amateur Busking.
+ - 16: Enjoyable professional performance.
+ - 20: A memorable performance.
+ - 24: An impressive performance worthy of a famous bard.
+ - 30: A performance worthy of the royal court.
+ - 36: A dragon might kidnap you just to fall asleep to your lullaby.
+ - 50: This music can quite literally sway the gods or raise the dead.
 
 
 

@@ -167,22 +167,10 @@ A character has descriptive attributes that need not influence mechanics (within
 - **Stats**: A character has six **base attributes**, also known as "**statistics**" or "**stats**":
   1. **Str**: Physical strength. Upstream of most weapon attack, damage. Upstream of abilities linked to affecting the surroundings by physical force. An entity with zero Str cannot physically affect the outside world, or move itself. An entity without a material form has no Str.
   2. **Dex**: Physical agility. Upstream to some weapon attack, damage (usually ranged). Upstream to evasive abilities. Upstream to abilities linked to affecting the surroundings by delicate manipulation. An entity with zero Dex cannot move its physical form. Entities with no physical form have no Dex.
-  3. **Con**: Physical resilience. Upstream of HP, SP, aspects of physical interactions. The physical form of an entity with zero Con has no integrity. An entity with no physical form has no Con. 
+  3. **Con**: Physical resilience. Upstream of HP, SP, aspects of physical interactions. The physical form of an entity with zero Con has no integrity. An entity with no physical form has no Con, such entities can only be damaged by "supernatural" means and "spiritual" weapons.
   4. **Int**: Mental agility. Ability to memorise, deduce, analyse, IQ. Upstream to skill points, some aspects of supernatural abilities. An entity with zero Int is not capable of reason or learning. It is mindless.
   5. **Wis**: Faculty of judgement, discernment, sense, EQ. Upstream of supernatural abilities, abilities devoted to detection, some aspects of social interactions. An entity with zero Wis has no awareness of internal or external realities. It is essentially unconscious.
-  6. **Cha**: Force of Personality. Mental resilience. Upstream of HP, MP, aspects of social interactions. An entity with zeo Cha has no will, drive or "spirit". It is generally catatonic. If not, it might obey any instructions it recieves to the letter. 
-
-
-- **Hit Threshold (HiT)**: A character has an armour class/hit threshold, this is a measure of how difficult its physical (or spiritual) form is to damage using targeted attacks. It can represent any combination of armour and evasive ability and is something of an abstraction of how hard a target is to damage with a targeted attack: A targeted attack either penetrates defences, with the potential o doing damage, (hit) or it does not. This is an abstraction that rolls evasion, deflection, and damage reduction by actual armour into one number.
-  1. Base HiT is calculated (for now!) as 10+[Static Bonus]+[SP ability bonus]+[MP ability bonus]+[cirumstance bonus]. This has not been decided.
-      - Static bonus is the sum of inherent layers of defences:
-        - Dodge modifier (avoid the attack).
-        - Deflect modifier (deflect the attack, eg with a shield or parrying).
-        - Armour modifier (suit of armour).
-        - Hide modifier (thick skin, etc).
-      - SP ability bonus can modify dodge, deflect, and hide bonuses or provide a circumstance bonus.
-      - MP abilities can *substitute*, but not modify, any bonus.
-      - Circumstance bonus (or penalty!) is how your surroundings and condition affects you. eg. cover, fatigue, etc. Here bonuses stack unless they are from the same source. (eg, you can only have one bonus from cover, you can only have one penalty from viper poison etc.).
+  6. **Cha**: Force of Personality. Mental resilience. Upstream of HP, MP, aspects of social interactions. An entity with zeo Cha has no will, drive or "spirit". It is generally catatonic. If not, it might obey any instructions it recieves to the letter. Such entities are not affected by "spiritual" weapons.
 
 
 - **Saving throws:** Some harmful effects can be negated or mitigated with a "**saving throw**". A character has six saving throws, one for each attribute. Abilities and effects that force a save usually specify one or two valid save types:
@@ -207,6 +195,18 @@ A character has descriptive attributes that need not influence mechanics (within
       - Negate a devil's attempt to cast you into a another plane.
       - Negate a spirit's attempt to devour your essence.
       - Negate possession.
+
+
+- **Hit Threshold (HiT)**: A character has an armour class/hit threshold, this is a measure of how difficult its physical (or spiritual) form is to damage using targeted attacks. It can represent any combination of armour and evasive ability and is something of an abstraction of how hard a target is to damage with a targeted attack: A targeted attack either penetrates defences, with the potential o doing damage, (hit) or it does not. This is an abstraction that rolls evasion, deflection, and damage reduction by actual armour into one number.
+  1. Base HiT is calculated (for now!) as 10+[Static Bonus]+[SP ability bonus]+[MP ability bonus]+[cirumstance bonus]. This has not been decided.
+      - Static bonus is the sum of inherent layers of defences:
+        - Dodge modifier (avoid the attack).
+        - Deflect modifier (deflect the attack, eg with a shield or parrying).
+        - Armour modifier (suit of armour).
+        - Hide modifier (thick skin, etc).
+      - SP ability bonus can modify dodge, deflect, and hide bonuses or provide a circumstance bonus.
+      - MP abilities can *substitute*, but not modify, any bonus.
+      - Circumstance bonus (or penalty!) is how your surroundings and condition affects you. eg. cover, fatigue, etc. Here bonuses stack unless they are from the same source. (eg, you can only have one bonus from cover, you can only have one penalty from viper poison etc.).
 
 
 - **Skills**: A character has skills.

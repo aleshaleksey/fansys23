@@ -50,7 +50,7 @@ This relies on the property of statistics that if you roll 2d12 enough times, yo
 
 These numbers are a little bit different from what we see in systems like "Pathfinder" and "Dungeons and Dragons", because a) we use different dice and b) we use proper maths.
 
-**Taking 13:** Add 13 to the modifier and take this as the result. this represents using a systematic, familiar approach to solve a problem. It explains why for example a craftsman doesn't destroy 25% of the shoes he makes despite having only +5 as his modifier and making a shoe having a threshold of 10, or why we don't fall down the stairs every few weeks. One can take 13 if:
+**Taking 13:** Add 13 to the modifier and take this as the result. this represents using a systematic, familiar approach to solve a problem. It explains why for example a craftsman doesn't destroy 25% of the shoes he makes despite having only +5 as his modifier while making a shoe having a threshold of 10, or why we don't fall down the stairs every few weeks. One can take 13 if:
  1. You are in a relatively safe environment, free of distractions and threats.
  2. You are performing a routine, autonomous or habitual task (eg biological functions, general movement, performing a profession or skill in which you have at least one skill point).
 
@@ -63,6 +63,7 @@ This works because the average of 2d12 is 13.
 #### Opposing Rolls vs Thresholds.
 Static thresholds are always preferred over opposed rolls in combat. This increases the speed of combat as we do not need to wait for other side to make a roll. This means that hit thresholds, save threshold and skill thresholds based on average rolls ("take 13") are used for the defending side.
 Outside of combat it is up to the group whether opposed rolls or thresholds are used. Opposed rolls make the game more interactive in non time critical sections.
+For many skill rolls the threshold is written as "Opposed vs [skill name]". It is perfectly acceptable to calculate an average (take 13) threshold instead of doing the opposed roll.
 
 #### Precedence of Rolls: Thresholds (DC), and opposing rolls.
 Meeting (equalling) the target number of a roll beats it. The target number can be static or dynamic. Static thresholds are when a dice is rolled and the result compared to a predefined number. Dynamic thresholds are what you get when you have two or more opposing rolls.
@@ -420,7 +421,7 @@ Combat starts as soon as one or both sides are capable and willing of fighting. 
 - Combat takes place in "rounds" (~6s) and "turns". Once each combatant has had a "turn", top initiative to bottom, a "round" passes.
 - If some potential combatants are unaware of others or of their intent to attack, they start the combat "surprised". A "surprised" entity cannot act in combat and suffers certain penalties. As soon as its first "turn" has passed, it is no longer considered surprised.
 
-#### The Turn
+#### The Turn and actions
 - During its turn an entity may take all of the following actions in any order:
   - One "**move**" action.
   - One "**main action**".

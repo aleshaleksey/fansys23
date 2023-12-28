@@ -221,7 +221,7 @@ Athletics is used for most land based physical activities including:
 
 __STR: Climb__
 
-This is a skill specific to scaling steep or vertical surfaces, trees, ropes and entites larger than oneself. A creature without a *climb* skill climbs at 1/4 of its base speed. This follows the "Difficulties and recommended thresholds" as follows.
+This is a skill specific to scaling steep or vertical surfaces, trees, ropes and entites larger than oneself. A creature without a *climb* skill climbs at 1/4 of its base speed. Unless otherwise stated, no action is required, and the roll is made as part of the entity's movement. This follows the "Difficulties and recommended thresholds" as follows.
 - Base Thresholds:
   - 4: A steep embankment, ladder, knotted rope, or tree with many branches.
   - 8: A rope or near vertical rock with many big holds and ledges, or average tree.
@@ -239,19 +239,21 @@ This is a skill specific to scaling steep or vertical surfaces, trees, ropes and
 - Special:
   - Entities with a climb speed can always take 13 to climb.
   - A roll of a climber's kit allows to make a climb safe, reducing fall distance to 20ft for threshold 24+ climbs and 10ft for threshold 23- climbs.
+  - An entity that fails a climb roll fails to progress on a climb.
+  - An entity that fails by 5 or more falls half the distance and suffers the consequences. If this is a critical fail, the entity falls the full distance.
 
 __STR: Fortify__
 
 The skill is used for building structures, fortifying positions (dungeon corridors, battle fields, encampments). It is also used for safely demolishing structures and fortifications. Lastly it is used for making a site safe from natural hazards and making it fit for encampment (amelioration). Fortification rolls are usually made against the threshold set by the terrain and weather.
-- Building: There are special rules for building. They need to be written.
-- Fortification: It takes 30min per 5ft square to fortify a position.
+- **Building**: There are special rules for building. They need to be written.
+- **Fortification**: It takes 30min per 5ft square to fortify a position.
   - This can give a 3/4 cover bonus to defenders.
   - This can be used to construct a terrain/structure trap (see traps).
   - This can be used to create a barricade (with a break threshold of your roll).
-- Amelioration: For medium size creature the minum camping area is 5ft x 10ft.
+- **Amelioration**: For medium size creature the minum camping area is 5ft x 10ft.
   - It takes 10 minutes to ameliorate this area in threshold 10- terrain.
   - It takes 1h to ameliorate this area in threshold 11+ terrain.
-- Modifiers:
+- **Modifiers**:
   - The time can be reduced, but without special or supernatural abilities it cannot be less than 5 minutes.
   - For every size category above medium the total time taken is halved.
   - Multiple entities can participate in the process, in which case the time taken is divided by the number of entities taking part. For each size category above medium, an entity counts as twice as many entities of the next category down. So a largte entity counts as 2 medium entities, but a huge entity counts as 4 medium entities.
@@ -259,7 +261,7 @@ The skill is used for building structures, fortifying positions (dungeon corrido
 
 __STR: Swim__
 
-Swimming is a separate skill from climbing and overland atheletics. It is used for moving through a liquid medium, such as water, lava, quicksand, or a monster's stomach acid. A creature without a *swim* skill climbs at 1/4 of its base speed. This follows the "Difficulties and recommended thresholds" as follows.
+Swimming is a separate skill from climbing and overland atheletics. It is used for moving through a liquid medium, such as water, lava, quicksand, or a monster's stomach acid. A creature without a *swim* skill climbs at 1/4 of its base speed. Unless otherwise stated, no action is required, and the roll is made as part of the entity's movement. This follows the "Difficulties and recommended thresholds" as follows.
 - Base Thresholds:
   - 4: Float or swim in perfectly calm, warm water, under perfect conditions.
   - 8: To float or swim while engaged in combat.
@@ -278,8 +280,120 @@ Swimming is a separate skill from climbing and overland atheletics. It is used f
   - Floation devices (improvised or purpose made) reduce thresholds for staying or returning to the surface by 5.
   - An entity with a diver's kit can see normally in the fluid, can swim at 1/2 base speed instead of 1/4 base speed, and does not need to worry about breath for 30 minutes. Usually a diver's kit is designed specifically for one fluid.
 
-  __DEX: Acrobatics__
+__DEX: Acrobatics__
 
-  
+Acrobatics is used for complex dynamic movement and manoeuvres. Unless otherwise stated, no action is required, and the roll is made as part of the entity's movement.
+- Substitute for climb if the climb distance is less than the entity's base movement.
+  - On a fail the entity automatically falls the full distance.
+- Avoid Attacks of Opportunity when moving through a set of threatened squares.
+  - Threshold: [Attack Bonus of hostile] + 13.
+- Ignore the damage for the first 10ft of a fall.
+  - Deliberate fall: Threshold 12.
+  - Not deliberate fall: Threshold 16.
+- Move over narrow surfaces (adjust accordingly for entity size).:
+  - 4: 1-2ft wide.
+  - 8: 7-12 inches wide.
+  - 12: 2-6 inches wide.
+  - 16: Less than 2 inches wide.
+- When moving over unstable or slippery surfaces. For threshold, start with 0 and add all modifiers that apply.
+  - Slippery or Frictionless surface: +5 or +10.
+  - Violent (eg ship in a storm) or extreme movement (eg earthquake or collapse): +5 or +10.
+  - Slope (30-45 deg), Steep slope (45+): +2 or +5.
+- Entertaining others with a feats of acrobatics or gymnastics (see "Difficulties and recommended thresholds"). This generally represents at least one minute of performance.
+
+__DEX: Fly__
+
+I don't know whether we even need this as a skill. It is done as part of an entity's or vehicle's movement.
+- **Maintain control** of one's trajectory in unfavourable conditions.
+  - Threshold = 5 + [1 per 10mph] of wind speed.
+  - Small entities start making rolls at 30mph. This increases by +10mph for each size category above "small", and flight category above "average".
+- **Regain control** when falling.
+  - Threshold = 10 + [turns falling or out of control].
+- **Emulate highter flight** category (eg good flyer trying to hover). This is also used for manoeuvres.
+  - Threshold = 10 + [5 x number of categories above current category].
+
+__DEX: Heal__
+
+Healing is used to use medical art and science (as opposed to magic) to diagnose and treat injury and illness. It usually takes at least a minute. It is fine to use WIS instead as a governing stat, especially for diagnosis.
+- **Stabilise**: As an action, cure the "dying" condition.
+  - Threshold = 15
+- **First Aid**. As an action, cure "unconcious", or delay the effects of "crippled" or "bleeding" condition for 1 hour.
+  - Threshold = 15 if [Natural]
+  - Threshold = 25 if [Supernatural]
+- **Treat poison**. Requires 1 minute - 1h of treatment:
+  - Threshold = Threshold of poison.
+- **Treat disease**. Requires 1 minute to 1 hour of treatment. Often requires several successes over consecutive days (see diseases).
+  - Threshold = Threshold of disease.
+- **Long term care**. Duration varies (at least 8h). Double number of HP regained over a long rest.
+  - Threshold = 10 + [number of creatures x 2].
+- **Diagnosis**. Diagnose disease, poison or condition.
+  - Natural condition: 12
+  - Supernatural condition: 20
+  - Disease: Threshold of the disease or poison
+  - It is usually fine to rule that once an entity has seen it once, it knows what it is.
+
+
+__DEX: Ride__
+
+An entity riding a mount substitutes uses its move to control its mount and its own seat on it. In return it uses the mount's movement speed and modalities. Using a "run" or "sprint" action requires that a rider also uses their action. In addition rolls can be made to perform certain particular actions.
+- **Substitute** for "Athletics" or "Acrobatics" for actions that start or end with the rider on the mount. For example this includes, dancing, jumping and falling.
+- **Fight**: As a **communicate** action instruct your mount to make its attack.
+  - War trained mount: Threshold = 12.
+  - Untrained mount: Threshold = 24.
+  - An "aggressive" mount will attack of its own accord, whether you want it to or not.
+- **Control**: As a **communicate** action, keep control of your mount in combat.
+  - Keep non combat trained mount in combat: Threshold = 24
+  - Keep an "aggressive" mount from attacking available targets: Threshold = 16.
+  - Control an uncooperative mount that is untrained or does not accept the rider. Threshold = Opposed roll vs Mount's charisma.
+- **Stay in saddle**: Keep your seating under adverse circumstances (non-action).
+  - Threshold = Threshold of provoking event.
+  - On damage over 20, threshold = [damage suffered / 2]
+
+
+__DEX: Sleight of Hand__
+
+Sleight of hand is not just for "hands". It is the skill combining the use of delicate and precise manipulations with one's body parts and the psychological know-how to make sure that they go unnoticed. It is usually a **main action**. The term "small" is not precise, and common sense should be used.
+- **"Steal"**: Take a small unattended item into your possession without being noticed. This should also be used for replacing items or performing "magic" tricks or cheating at cards:
+  - Threshold when not observed: 8 (It is possible to fail because one can fail spectacularly enough to still draw attention!)
+  - Threshold when actively observed: Opposed vs Perception.
+- **"Pick pocket"**: Take a small attended item into your possession without being noticed:
+  - Threshold: Opposed vs [Perception (at advantage if entity has a sense of touch)]. 
+- **"Liberate item"**: Remove a small jammed item or component of device or structure from where it belongs.
+  - 8: Loosely jammed item (eg gem between wardrobe and wall).
+  - 12: Tighly jammed item (eg lock of hair stuck in a door).
+  - Add +4 to the threshold if the item has adhered.
+  - Add +4 to the threshold if fingers (or other body parts) cannot reach.
+- **"Liberate"**: Slip free of manacles and the like.
+  - Threshold is threshold value of manacles (usually 20-36).
+
+__DEX: Tinker__
+
+Tinkering involves making, modifying and breaking delicate mechanisms, constructions or devices. This includes things like gem cutting, watch making, disabling intricate traps and picking locks. Usually this is either difficult or impossible without additional proficiency with an appropriate kit. Disabling devices carefully usually takes a minute. Modifying them takes at least a minute, while crafting can take hours, days or longer (See Crafting for discussion of this topic).
+- **Pick lock or disable trap**:  1 minute.
+  - Threshold: Threshold of lock/trap.
+  - Rush job (1 round): +10 to threshold.
+  - Study: Spending an hour studying the lock/trap reduces threshold by 5.
+  - Thresholds of locks generally range 20-36.
+  - Thresholds of traps generally range 8-28 (but failure can be lethal).
+- **Research device**: Spend time to understand how a device works. This then enables the entity to recreate the device (providing it has the appropriate skills and facilities) or gain a permanent +5 to disabling such devices.
+  - Simple device (eg sand clock, thing that goes "dong"): Threshold = 12, time = 1 hour.
+  - Average device (eg watermill): Threshold = 16, time = 4h.
+  - Complex device (eg pendulum clock, steam engine): Threshold: 24, time = 1 week.
+  - Masterpiece/unique mechanism (eg antikythera mechanism): Threshold = 30, time = 1 month.
+  - If an entity takes double the time, it can reduce the threshold by -4.
+  - If an entity takes wishes to do a rush job and half the time, increase the threshold by +10.
+  - Research of complex (and higher) devices can be simplified by using assistants. The assistant must be proficient both in **tinker** and the appropriate tools. For each assistent reduce research time by 1 day, to a maximum of half the time (rounded up).
+- **Create device**: Create a device whose general design you know.
+  - Threshold: Varies.
+- **Modify/sabotage device**: Modify the device to alter its function or cause it to disfunction in a specific manner.
+  - Threshold: [Creation threshold + 4]
+  - Time taken: Half the time to create the device.
+- **Disable device**: Cause the device to stop functioning without causing immediate catastrophic failure.
+  - Threshold: [Creation threshold]
+  - Time taken: 1 minute for threshold 16 and below. 1 hour for threshold 24 and below. For higher thresholds, the DM should set a reasonable time.
+  - An entity may attempt a rush job to reduce the times to 1 round, 1 minute (or ~1/10) by taking a -10 penalty.
+
+
+
 
 ##### Kit and tool Descriptions

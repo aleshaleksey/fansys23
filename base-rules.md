@@ -440,7 +440,7 @@ This is a collection of unsorted rules related to basic physical combat.
 - In place of a melee attack, a combatant may execute a martial manoeuvre.
 
 #### Basic Martial Manoeuvres.
-Any adventurer may attempt a martial manoeuvre. If an untrained combatant attempts this however, they risk attacks of opportunity and other penalties. Many monsters can carry out these manoeuvres without penalties or meeting the prerequisites. Special abilities and weapons/tools can reduce or remove penalties for manoeuvres or increase their effectiveness.
+Any adventurer may attempt a martial manoeuvre. If an untrained combatant attempts this however, they risk attacks of opportunity and other penalties. Many monsters can carry out these manoeuvres without penalties or meeting the prerequisites. Special abilities and weapons/tools can reduce or remove penalties for manoeuvres or increase their effectiveness. Most manoeuvres are made as an attack within the attack action.
 - **Grapple**:
   - Effect: Reduce a foe's movement to 0.
   - Requires attack roll.
@@ -469,6 +469,9 @@ Any adventurer may attempt a martial manoeuvre. If an untrained combatant attemp
   - Requires attack roll.
   - Penalty if not proficient with **disarm**.
   - Provokes a penalty and attack of Opportunity if the foe is holding a weapon you are not proficient with AND you are not proficient with **disarm**.
+- **Feint**:
+  - Effect: Give advantage to next attack.
+  - Requires attack roll (Cha based [Nat] roll).
 
 A creature that is "grappled" or "restrained" can make an opposing roll in place of its attack action to try to break free or move its assailant.
 
@@ -488,7 +491,7 @@ Entities can be affected by a number of conditions, most of them bad. For now th
 - "**Charmed**": B Class
 - "**Restrained**": B Class
 - "**Surprised**": B Class
-- "**Aphasic**": B/C Class
+- "**Aphonia**": B/C Class
 - "**Deafened**": C Class
 - "**Frightened**": C Class
 - "**Inaudible**": C Class
@@ -566,9 +569,10 @@ Entities can be affected by a number of conditions, most of them bad. For now th
 - "**Inaudible**": A silent character makes no sound. It can neither make sounds willingly or unwillingly
   - It cannot complete incantations or communicate verbally.
   - Rolls to detect the character based on sound ALWAYS fail.
-- "**Aphasic**": An aphasic character cannot communicate verbally.
+- "**Aphonic**": An aphonic character cannot communicate vocally (or verbally).
   - This means that skills and abilities requiring speech automatically fail.
   - Incantations ALWAYS fail.
+  - The character cannot scream, even if they must.
 - "**Blinded**": A blinded character cannot perceive visual input:
   - It cannot use [WIS] based skills based on sight.
   - It had disadvantage on [DEX] based skills.

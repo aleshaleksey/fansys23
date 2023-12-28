@@ -15,7 +15,8 @@ The system codifies the rules for a fantasy roleplaying game that focuses on com
 - Expand the rules for weapons.
 
 
-### Rolling Dice.
+## Rolling Dice.
+
 Rolling dice introduces uncertainty into what is otherwise a numbers game. The outcome of a dice roll should be rolled when the outcome of an action is uncertain, because of hidden variables or otherwise. Thus if an action is sure to fail ("I jump to the moon"), or sure to succeed ("I take a breath of air"), a roll should not be made.
 It is possible to play this kind of game without ever rolling dice (using average values), however this is generally considered boring, which is why we use dice.
 
@@ -110,13 +111,16 @@ Because stacking modifiers can easily "break" a game or lead to situations where
 - Modifiers can come from passive abilities.
 - Modifiers can NEVER come directly from active martial or supernatural (spells) abilities (although use of such abilities can induce conditions, which might provide penalties).
 
-### Time
+## Time
+
 - 1 day is 24 hours.
 - 1 hour is 60 minutes.
 - 1 minute is 60 seconds.
 - 1 round is 6 seconds (5 works as well but we're more used to the decimal system).
 
-### Entities and Characters
+Entities and Characters
+-
+
 #### General
 - Everything is either "**natural**" (that is to say it obeys the physical laws of the world and can be explained by them), or **supernatural** (that is to say that it does not and cannot).
 - All entities are either:
@@ -128,25 +132,8 @@ Because stacking modifiers can easily "break" a game or lead to situations where
 - Divine/Profane/Spiritual entities are often not truly alive, and often tend to be eternal. Some are referred to as "gods" or "immortals". This leaves some unanswered questions as to what the rest of them are. Whatever else, they are all **supernatural**.
 - In addition creatures fall into other categories that have additional properties and rules pertaining to them.
 
-#### Mortals and Characters
-- Unless otherwise stated mortals require "**sustenance**" and can suffer from all conditions (see "Conditions" below).
-- A mortal that goes without sustenance for a given period of time begins to deteriorate and eventually die.
-- A mortal that is deteriorating without sustenance stops deteriorating when sustenance is returned. However if sustenance is withdrawn within a given time period, the deterioration begins immediately.
-- The time periods can be modified by various factors. Usually environmental factors.
+## Character Descriptors
 
-##### Sustenance for humanoid Characters (and animals)
-- This is as follows: (Sustenance kind|duration before deterioration| deterioration name|reset condition|.
-  1. **Air** (aerated water for some)|[CON] minutes|suffocation|[10 minutes - CON] with sufficient air.
-  2. **Food**|[CONx3] days|starvation|[starvation duration x 2 - CON] days
-  3. **Water**|[CON -1] days|dehydration|[2 days]
-  4. **Sleep**|[1 day + CHA x hours|insomnia|[7 - CHA] days
-- The deterioration behaves as following:
-  1. **Suffocation**: Lose 2d6 HP every minute.
-  2. **Starvation**: Lose 1 Stamina point/dice per day from your maximum.
-  3. **Dehydration**: Lose 1 Stamina point/dice per hour from your maximum.
-  4. **Insomnia**: Lose 3 Mana point/dice per day.
-
-### Character Descriptors
 A character has descriptive attributes that need not influence mechanics (within reason), eg hair/feather/scale length and colour. Timbre of voice. This kind of thing is cool, but not regulated by these rules.
 - A character has an entity type, race, size category, movement modalities and speed. These have mechanistic effects.
   1. **Entity type** define the base possibilities of a character (a plant does not require sleep, but usually requires water, air and "sustenance", it does "see" things. A spirit does not have a corporeal form and cannot be "touched" normally, a humanoid (animal) has a movement speed, and a corporeal form, usually with one head, one torso, two arms and two legs, requires air, water, sustenance, sleep and ages).
@@ -295,7 +282,7 @@ Many phenomena/abilities force a saving throw/roll. We have gone through calcula
 
 So for Bob, a 6th level character with an INT of 18 (+4) and 14 "MP Dice" the DC of a supernatural ability could be: 12 + 2(level) + 2(MP dice) + 4(Int) = 20. For Alice, the 5th level character with a WIS of 15 (+2) and 6 "MP Dice", the save bonus would be: 1(level) + 1(MP dice) + 2(WIS) = 4. And she must roll 20 - 4 = 16/24 to pass. Yikes! On the other hand for, for Aerith, a 8th level character with a WIS of 20 (+5) and 19 "MP dice" the save bonus might be 2(level) + 3(dice) + 5(WIS) = 10, so she must roll a 10/24 on the dice. (And this is before we take into account the +2/-2 rule).
 
-### Local and Global Movement.
+## Local and Global Movement.
 Here basic movement is described. It is based, where possible on observations. The main forms of movement are walk, climb, swim, flight and dig. Each one has its place and its pace. There are also two exotic types of movement which are not covered yet because we can live without it. Movement is measured in feet per round (ft), or miles per hour (mph). A very rough translation is 1mph = 1ft.
 
 #### Difficult Terrain
@@ -360,7 +347,7 @@ Most terrestrial creatures have legs and walk. Some do not. They slither. They a
 
 Most natural flying creatures of tiny to large sizes are fast. Indeed there are fewer flying creatures that can fly slowly than those that can't. Typical cruise speeds of birds are 10-60mph, with maximum speeds being as much as twice as high. On the other hand, flying creatures usually need space to change direction and sacrifice sturdiness for the highly energetic activity of flight. Few flying creatures in the real world weight much more than 10kg.
 
-### Actions in combat
+## Actions in combat
 #### Flow of Combat
 Combat starts as soon as one or both sides are capable and willing of fighting. It ends when there is only one side remaining that is capable and willing.
 - At the start of combat all parties make an initiative roll [check]. Entities act in order of initiative (highest to lowest).
@@ -441,7 +428,7 @@ The actions an entity may take might also be restricted by its conditions and ge
 - "**Sprint**": Move up to 4x your movement speed in a straight line with no obstructions.
 - "**Non-action**": Entities also carry out certain activities autonomously as part of their existence. These do not usually require actions (eg breathing). Concentrating is also a non-action.
 
-### Basic combat manoeuvres and tactical movement.
+## Basic combat manoeuvres and tactical movement.
 This is a collection of unsorted rules related to basic physical combat.
 - Dropping/falling "prone" does not cost movement.
 - Standing can be done as part of a "move" action and costs 1/2 your movement speed rounded down.
@@ -485,7 +472,7 @@ Any adventurer may attempt a martial manoeuvre. If an untrained combatant attemp
 
 A creature that is "grappled" or "restrained" can make an opposing roll in place of its attack action to try to break free or move its assailant.
 
-### Conditions and states
+## Conditions and states
 Entities can be affected by a number of conditions, most of them bad. For now these include (and all are badly defined!). Conditions are classified in S to C class based on how much trouble an entity is in if it is afflicted by it. This starts from deadly peril (S) to mildly inconvenient (C). Of course classification is not always absolute. 
 - "**Dying**": S Class
 - "**Unconscious**": S Class
@@ -588,7 +575,7 @@ Entities can be affected by a number of conditions, most of them bad. For now th
 - "**Invisible**": This character cannot be directly detected by visual means (aka sight). Characters are considered "blinded" in relation to invisible creatures.
 - "**Deafened**": A deafened character cannot perceive sound. It cannot hear. It can speak only stutteringly. It must make an [INT] save to complete Incantations (unless it is deaf for longer than month).
 
-### Spellcasting and Supernatural abilities
+## Spellcasting and Supernatural abilities
 - Abilities and phenomena that would not exist in a mundane world, that cannot be explained adequately by "scientific" means are supernatural, otherwise called magical.
 - The supernatural can be caused by divine, profane or spiritual sources.
 - Supernatural abilities target MP, are fueled by MP dice.
@@ -634,14 +621,14 @@ Entities can be affected by a number of conditions, most of them bad. For now th
   5. Concentration can be disrupted by violent movement (DC10), violent weather (DC10) or both (DC15).
   6. A caster can "hold" an "instantaneous" spell with a release trigger to trigger the effect within a minute of casting. The DC=10+[rounds held]. If the trigger is not met the spell dissipates. The cost of the spell is paid when the spell is cast (always), not when it is triggered.
 
-### Actions outside of Combat
+## Actions outside of Combat
 A character should be able to take actions a creature of its type should conceivably be able to take including eat, sleep, explore, and interact with the world.
 
 Some, but not all, of these activities are covered in rules for skill use, research, exploration, resting, crafting, etc. Activities that are not covered by the rules are judged either too hard to cover well within the rules, or too rare in the foreseen use of the game to bother with.
 
 A certain level of freeform RP and common sense are recommended.
 
-### Exploration
+## Exploration
 Exploration and travel is one of the main activities outside of combat and social interactions. When exploring and travelling characters and rules deal with:
 - Navigation and getting lost.
 - Dealing with environmental hazards.
@@ -794,3 +781,24 @@ A typical humanoid has a terminal velocity of about 100mph, or 1000ft per round.
 - "Huge" and larger entities are hated by gravity and take 1d12 damage for every 10ft they fall. They have a higher terminal velocity and also unfavourable physical properties. Sudden drops are not kind to them. The damage also caps at 360ft at (36d12).
 - Damage upon "landing" is Physical[Natural] damage. Entities resistant or immune to Physical[Natural] damage need not fear the ground.
 - Entities that do not have weight (not mass, weight) do not fall.
+
+
+#### Characters, starvation, and other bad ways to die
+Most characters are morals and therefore require **sustenance** and suffer from **conditions**. This can cause certain problems in the great outdoors and other hazardous locales.
+- A mortal that goes without sustenance for a given period of time begins to deteriorate and eventually die.
+- A mortal that is deteriorating without sustenance stops deteriorating when sustenance is returned. However if sustenance is withdrawn within a given time period, the deterioration begins immediately.
+- The time periods can be modified by various factors. Usually environmental factors.
+
+|Sustenance Kind|starvation name|duration before starvation|refactory period|
+|-|-|-|-|
+| **Air**|suffocation|[CON] minutes|[10 minutes - CON]|
+|**Water**|dehydration|[CON -1] days|[2 days]|
+|**Food**|starvation|[CON x 3] days|[starvation x 2 - CON] days|
+|**Sleep**|insomnia|[1 day + CHA] hours|[7 - CHA] days|
+
+|Starvation name|effect|
+|-|-|
+|**Suffocation**| Lose 2d6 HP every minute.|
+|**Dehydration**|Lose 1 Stamina point/dice per hour from your maximum.|
+|**Starvation**|Lose 1 Stamina point/dice per day from your maximum.|
+|**Insomnia**|Lose 3 Mana point/dice per day.|

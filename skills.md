@@ -31,6 +31,7 @@ Sometimes circumstances may add a +2/+5 to a roll (eg Homeland bonus for navigat
 #### Skill groups
 Some skills are similar to each other as to be somewhat transferable. In this case the character may roll a different skill from the same group with a -5 penalty. The groups are:
 
+## Skill and Proficiency Lists
 #### Skills list:
 There are 32 skills and a number of proficiencies.
 
@@ -197,7 +198,7 @@ Weapon proficiencies are taken for each subgroup (eg "Strikes" and "Throws" are 
   - Trebuche/catapults
   - Canons
 
-##### SKill Descriptions
+## Detailed Skill Descriptions
 Each skill has a number of described uses. However, the list is generally not exhaustive and additional uses should be discussed within the group. For each skill there are two important questions:
 
 1. Can an entity try the roll again, and what are the consequences? If the answer is not "yes", then one cannot "take 20" or "take 24" in that skill.

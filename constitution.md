@@ -7,6 +7,8 @@ This document describes RAI, and sets out base rules and principles behind the s
 2. The system focuses on balance and flexibility.
 3. The system uses the sum of a dice roll and static bonus as the core roll.
 4. The core roll should ensure that both the bonus and the roll have a statistically meaningful effect on the outcome in most cases.
+    - We use non-uniform distribution with a total static modifier range roughly the width of the distribution to achieve this.
+    - In order to keep the bonus roughly within this range the stacking and sources of modifiers must be kept within strict parameters.
 5. The system should roughly balance all attributes and abilities using the following principles:
     - If an ability designed to diversify builds is almost always needed for a general kind of build, it is too strong or too broad.
     - If an ability designed to diversify builds is almost never a a good choice, it is too weak or too specific.

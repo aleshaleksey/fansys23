@@ -120,19 +120,6 @@ Because stacking modifiers can easily "break" a game or lead to situations where
 - 1 minute is 60 seconds.
 - 1 round is 6 seconds (5 works as well but we're more used to the decimal system).
 
----
-## Entities and Characters
-
-#### General
-- Everything is either "**natural**" (that is to say it obeys the physical laws of the world and can be explained by them), or **supernatural** (that is to say that it does not and cannot).
-- All entities are either:
-  1. **Mortals**.
-  2. **Machines**.
-  3. **Divine**/**Profane**/**Spiritual** entities.
-- Most entities are mortals, including characters. All mortals are alive and can die.
-- Machines are not alive and therefore cannot die. They can however be created and destroyed.
-- Divine/Profane/Spiritual entities are often not truly alive, and often tend to be eternal. Some are referred to as "gods" or "immortals". This leaves some unanswered questions as to what the rest of them are. Whatever else, they are all **supernatural**.
-- In addition creatures fall into other categories that have additional properties and rules pertaining to them.
 
 ---
 ## Character Descriptors
@@ -528,8 +515,57 @@ A creature that is "grappled" or "restrained" can make an opposing roll in place
   6. A caster can "hold" an "instantaneous" spell with a release trigger to trigger the effect within a minute of casting. The DC=10+[rounds held]. If the trigger is not met the spell dissipates. The cost of the spell is paid when the spell is cast (always), not when it is triggered.
 
 ---
+## Introduction to types
+
+### Natural and supernatural origins
+
+Most entities and phenomena in the game are classified ad **natural**/**mundane** or **supernatural**. "Natural" implies that it generally obeys the laws of logic, mathematics, physics and other natural laws. "Supernatural" implies the fantastic that it does not (although it must obey game mechanics, so it clearly obeys some form of logic). A normal house is "natural"/"mundane", but a house possessed by a hungry demon is most certainly "supernatural" (at least until someone gets rid of the demon). The "supernatural" includes gods, spirits, magic and much more.
+
+Often supernatural entities are not effected by "natural" attacks, or have a resistance to them and have abilities that defy reason and bypass mundane, "natural" defences.
+
+Most characters are fundamentally "natural", but possesses some "supernatural" abilities and traits. "Natural" damage is first at least partially by an entity's SP, before before affecting HP. It generally affects the physical form. "Supernatural" damage is first buffered, at least in part, by an entity's MP, before affecting HP. It affects an entity's essence or spirit.
+
+This is an important factor both in building a character and playing it.
+
+
+### Entity types
+
+- Everything is either "**natural**" (that is to say it obeys the physical laws of the world and can be explained by them), or **supernatural** (that is to say that it does not and cannot).
+- All entities are either:
+  1. **Mortals**.
+  2. **Machines**.
+  3. **Divine**/**Profane**/**Spiritual** entities.
+- Most entities are mortals, including characters. All mortals are alive and can die.
+- Machines are not alive and therefore cannot die. They can however be created and destroyed.
+- Divine/Profane/Spiritual entities are often not truly alive, and often tend to be eternal. Some are referred to as "gods" or "immortals". This leaves some unanswered questions as to what the rest of them are. Whatever else, they are all **supernatural**.
+- In addition creatures fall into other categories that have additional properties and rules pertaining to them.
+- There are more types of "supernatural" entity, but most entities a character is likely to encounter are probably "natural".
+- Entity types include:
+  - **Mortals**
+    - **animal** (Nat)
+    - **humanoid** (Nat or Sup)
+    - **monster** (Nat or Sup)
+    - **plant** (Nat or Sup)
+    - **dragon** (Sup)
+  - **Constructs**
+    - **robot** (Nat)
+    - **golem** (Sup)
+  - **Divine**
+    - **angel** (Sup)
+    - **glitch** (Sup)
+    - **divine** (Nat and/or Sup)
+  - **Spiritual**
+    - **fey** (Sup)
+    - **spirit** (Sup)
+    - **elemental** (Sup)
+  - **Profane**
+    - **fiend** (Sup)
+    - **undead** (Sup)
+
+--
 ## Conditions and states
-Entities can be affected by a number of conditions, most of them bad. For now these include (and all are badly defined!). Conditions are classified in S to C class based on how much trouble an entity is in if it is afflicted by it. This starts from deadly peril (S) to mildly inconvenient (C). Of course classification is not always absolute. 
+Entities can be affected by a number of conditions, most of them bad. For now these include (and all are badly defined!). Conditions are classified in S to C class based on how much trouble an entity is in if it is afflicted by it. This starts from deadly peril (S) to mildly inconvenient (C). Of course classification is not always absolute.
+
 - "**Dying**": S Class
 - "**Helpless**": S Class
 - "**Paralysed**": S Class

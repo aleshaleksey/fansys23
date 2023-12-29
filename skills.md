@@ -6,16 +6,16 @@ This section covers which skills exist and how they are used.
 
 ## Skills and Proficiencies
 
-The game has **skills** and **proficiencies**. The game defines them as follows. They do not necessarily reflect "real life" with perfect accuracy.
+The game has **skills** and **proficiencies**. The game defines them as follows. They do not necessarily reflect "real life" accurately since this is both a game and an abstraction.
 
 - **Skills:** are general abilities that cover a range of activities that a character can learn and improve in with time. For example, **swimming** is a skill because it covers, swimming, diving and similar, and a character's ability to swim is graded. Eg. "I can't swim", "I can swim but not well", "I can cross a river, yeah", "I've swam 20 miles, it took me 3 hours".
-- **Proficiencies:** A proficiency is the knowledge and ability in using every specific set of tools or abilities. Having a **proficiency** allows a character to use a skill with the tool/ability with a skill. Eg. Proficiency in **lock picks** with a **tinker** check allows picking locks. Proficiency with **whale** allows you to use **diplomacy** skill to persuade whales when speaking in their language.
+- **Proficiencies:** A proficiency is the knowledge and ability in using a very specific set of tools or abilities. Having a **proficiency** allows a character to use a skill with the tool/ability with a skill. Eg. Proficiency in **lock picks** with a **tinker** check allows picking locks. Proficiency with **whale** allows you to use **diplomacy** skill to persuade whales when speaking in their language.
 
 ### Acquiring skills and proficiencies
 
-Skills are usually acquired at level up by either assigning skill points or adding background skills. This reflects time spent honing skills through us on adventure and picking up new skills and techniques by training. Certain special abilities also grant additional skills and proficiencies.
+Skills are usually acquired at level up by either assigning skill points or adding a skill to "background skills". This reflects time spent honing skills through use on adventure and picking up new skills and techniques by training. Certain special abilities also grant additional skills and proficiencies.
 
-It is NOT advisable to allow a character to gain additional skill points outside of this unless it is necessary for party balance or plot reasons. Even then it should not be taken lightly. As an optional rule and downtime activity it takes a solid month of training to gain 1 skill point and the total number of points (ranks) in a skill cannot exceed [LVL]/2. Certain supernatural abilities can also transfer a skill from one entity to another, but no entity should use them lightly.
+It is NOT advisable to allow a character to gain additional skill points outside of this unless it is necessary for party balance or plot reasons. Even then it should not be taken lightly. As an optional rule, a character may spend a solid month of training to gain 1 skill point. Even so, the total number of points (ranks) in a skill cannot exceed [LVL]/2. Certain supernatural abilities can also transfer a skill from one entity to another, but no entity should use them lightly.
 
 ### Skill points (ranks)
 
@@ -23,13 +23,13 @@ A character gets skill points (ranks) based on level and intelligence. The maxim
 
 - **[LEVEL / 2] rounded up**.
 
-Every level a character gains skill points equal to **3 + [INT]**. So at level LVL a character has **[LVL] x (3 + [INT])** skill points.
+Every level a character gains skill points equal to **3 + [INT]**. So at level LVL a character has **[LVL] x (3 + [INT])** skill points (not counting any ranks gained through converting "level points" to skill points).
 
-A skill point can be assigned to either a) gain a proficiency, or b) add a rank to a skill. Each level a character can reassign one of the previously assigned skill points to a different proficiency or skill. If a character has **zero** ranks in a skill, any roll of the dice (before modifiers!) in that skill above 12 counts as 12. This reflects lack of specialist knowledge and experience that that character lacks.
+A skill point can be assigned to either (a) gain a proficiency, or (b) add a rank to a skill. Each level a character can reassign one of the previously assigned skill points to a different proficiency or skill. If a character has **zero** ranks in a skill, any roll of the dice (before modifiers!) in that skill above 12 counts as 12. This reflects lack of specialist knowledge and experience that that character lacks.
 
 ### Base and "background" bonus
 
-Every level a character adds a "background" skill to add its **base** to. This cannot be reassigned later. At level N a character has N skills which are assigned as background skills. This reflects knowledge in untrained skills that a character has picked up over their adventures, travels and other lifetime experience without actual training.
+Every level a character adds a "background" skill to add its **base** to. This cannot be reassigned later. At level N a character has N skills which are assigned as background skills (eg: 3 at level 3). This reflects knowledge in untrained skills that a character has picked up over their adventures, travels and other lifetime experience without actual training.
 
 ### Total Skill bonus
 
@@ -49,7 +49,7 @@ Some skills are similar to each other as to be somewhat transferable. In this ca
 
 ### Skills list
 
-There are 32 skills and a number of proficiencies.
+There are 31 skills and a number of proficiencies.
 
 #### STR Based (4)
 
@@ -91,15 +91,13 @@ There are 32 skills and a number of proficiencies.
   - History
   - Religion
 
-#### WIS Based (5)
+#### WIS Based (4)
 
 - Detect Group
   - Observe
   - Sense Motive
   - Track
-- Spellcraft group
-  - Spellworking
-  - Use dweomer
+- Spellworking
 
 #### CHA based (5)
 
@@ -119,7 +117,7 @@ Optionally, for gritty settings language proficiency does not grant a character 
 
 #### Tool Proficiencies
 
-Using tools usually requires a roll of an associated skill. Some skills cannot be used for certain purposes unless At the group's discretion it can makes sense for other skills may be associated with a tool (eg woodworking tools being used with **fortify** for making big items like wooden walls). Tools and their properties are further discussed below (in the "tools" sections).
+Using tools usually requires a roll of an associated skill. Some skills cannot be used for certain purposes unless the character is also proficient with appropriate tools. At the group's discretion it can makes sense for other skills may be associated with a tool (eg woodworking tools being used with **fortify** for making big items like wooden walls). Tools and their properties are further discussed below (in the "tools" sections).
 
 - Athletics group based:
   - Diver's tools
@@ -159,8 +157,8 @@ Using tools usually requires a roll of an associated skill. Some skills cannot b
 
 Any entity whose body fits a suit of armour can wear the armour. As such it will get the normal benefit to the hit threshold.
 
-When an entity dons or doffs an armour it is not proficient with, it twice as long to don and doff the armour as normal.
-While an entity is wearing an armour it is not proficient with it takes a -5 penalty to all [DEX] and [STR] based rolls it makes.
+- When an entity dons or doffs an armour it is not proficient with, it takes twice as long to don and doff the armour as normal.
+- While an entity is wearing an armour it is not proficient with it takes a -5 penalty to all [DEX] and [STR] based rolls it makes.
 
 Armour and its properties are further discussed in the "Weapons and Armour Section".
 
@@ -299,7 +297,7 @@ The skill is used for building structures, fortifying positions (dungeon corrido
 
 #### Swim
 
-Swimming is a separate skill from climbing and overland athletics. It is used for moving through a liquid medium, such as water, lava, quicksand, or a monster's stomach acid. A creature without a *swim* skill climbs at 1/4 of its base speed. Unless otherwise stated, no action is required, and the roll is made as part of the entity's movement. This follows the "Difficulties and recommended thresholds" as follows.
+Swimming is a separate skill from climbing and overland athletics. It is used for moving through a liquid medium, such as water, lava, quicksand, or a monster's stomach acid. A creature without a *swim* skill swims at 1/4 of its base speed. Unless otherwise stated, no action is required, and the roll is made as part of the entity's movement. This follows the "Difficulties and recommended thresholds" as follows.
 
 - Base Thresholds:
   - 4: Float or swim in perfectly calm, warm water, under perfect conditions.
@@ -439,7 +437,7 @@ Tinkering involves making, modifying and breaking delicate mechanisms, construct
   - Complex device (eg pendulum clock, steam engine): Threshold: 24, time = 1 week.
   - Masterpiece/unique mechanism (eg antikythera mechanism): Threshold = 30, time = 1 month.
   - If an entity takes double the time, it can reduce the threshold by -4.
-  - If an entity takes wishes to do a rush job and half the time, increase the threshold by +10.
+  - If an entity wishes to do a rush job and half the time, increase the threshold by +10.
   - Research of complex (and higher) devices can be simplified by using assistants. The assistant must be proficient both in **tinker** and the appropriate tools. For each assistant reduce research time by 1 day, to a maximum of half the time (rounded up).
 - **Create device**: Create a device whose general design you know.
   - Threshold: Varies.
@@ -451,7 +449,7 @@ Tinkering involves making, modifying and breaking delicate mechanisms, construct
   - Time taken: 1 minute for threshold 16 and below. 1 hour for threshold 24 and below. For higher thresholds, the DM should set a reasonable time.
   - An entity may attempt a rush job to reduce the times to 1 round, 1 minute (or ~1/10) by taking a -10 penalty.
 - **Special**: Disabling the supernatural component of supernatural traps and devices increases the threshold by +10.
-- **Take care**: Yes. for "disable", "create" or "modify". No for "research".
+- **Take care**: Yes. for "disable", "create" or "modify". For "research", the time taken on the next check to research the same item doubles with each failure.
 - **Try again**: Yes, if it hasn't blown up in your face yet!
 
 ### CON Based
@@ -493,7 +491,7 @@ Academics are fundamental knowledge. It starts with literacy and ends in higher 
   - Unique phenomenon: 1 month+, Threshold = 32+. (eg gain an understanding of what powers the fragment of another world that one day appeared in the countryside)
   - Develop countermeasures to a monster's ability and gain a +4 to saves/attack against it. This requires at least one knowledge skill.
     - Time taken: [Monster SP + MP dice] x days
-    - Threshold: [Monster SP + MP dice]
+    - Threshold: [(Monster SP + MP dice) / 2]
 - **Recognise theory**: Recognise a theory or phenomenon you have previously studied.
   - Threshold = [Research threshold - 5]
 - **Take care**: No. Knowledge and thought have too many hidden variables to take care.
@@ -507,10 +505,8 @@ Appraise is used to determine the value of an item, as well as to determine its 
 - **Determine origin**: Threshold = 15.
 - **Full Appraise**: Threshold = 20.
 - The thresholds are modified as follows:
-  - Item is rare: + 5.
-  - Item is unique: + 10.
-  - Item is from a distant time or space: + 5.
-  - Item is from another realm or epoch: + 10.
+  - Item is rare or unique: +5 or +10.
+  - Item is from a distant time or space, or from another realm or epoch: +5 or + 10.
 - **Detect forgery**: Threshold = Threshold of forgery.
 - **Special**: If the check fails it may still reveal partial information, although the part for the failure will still give a false value. For example, rolling 21 to appraise a rare vase will may give a wildly inaccurate value, but still reveal the correct origin and condition.
 - **Take care**: No.
@@ -547,28 +543,28 @@ Navigation allows a character to orientate themselves in space, find the best ro
   - **Threshold**: [Terrain threshold] + [1 / 5 entities in the group] + [1 per vehicle in the group].
 - **Forecast**: Predict weather up to 24h ahead. The threshold = [terrain with weather modifier].
 - **Take care**: Yes.
-- **Try again**: If the situation changes, or extra data is gathered. Otherwise the result is the same.
+- **Try again**: Yes. If the situation changes, or extra data is gathered. Otherwise the result is the same.
 
 #### Knowledge
 
-There are 6 knowledge skills in the game. I represent various subsets of knowledge. Each skill works symmetrically and deals with recalling information from one of the fields of knowledge. Using a knowledge skill is a non-action.
+There are 6 knowledge skills in the game. Each represents various subsets of knowledge. Each skill works symmetrically and deals with recalling information from one of the fields of knowledge. Using a knowledge skill is a non-action.
 
 - Thresholds:
   - 4: Common knowledge, everyone knows this! (eg Dragons exist.)
   - 8: Common knowledge, more than half the villagers know this. (eg There are dragons in the northern mountains.)
   - 16: Basic specialist knowledge, known eg. only by a few folk in the village/town. (eg, The dragons in the mountains slumber, but there is one not far from here that is awakening, it's lair is somewhere on the side of mount X.)
   - 24: Truly specialist knowledge, which is known by only the most knowledgeable in the region. (eg. The dragon's name is Bob, he is five centuries old, has a magical gem instead of one of its eyes and has sworn to destroy the kingdom when the moon turns blue)
-  - 32: Deep knowledge, known by few or forgotten by most who once knew it. (eg The dragon's crystal eye works by these magics and can be destroyed using that method. 5 centuries ago, queen Alice tricked and killed Bob's mate and then used her scales make herself a suit of armour which is currently said to be lost in the ruins of XYZ. Bob's rage against the kingdom will likely not abate until the scales of his mate are returned.)
+  - 32: Deep knowledge, known by few or forgotten by most who once knew it. (eg The dragon's crystal eye works by these magics and can be destroyed using that method. 543 years ago to the day, queen Alice tricked and killed Bob's mate and then used her scales to make herself a suit of armour which is currently said to be lost in the ruins of XYZ. Bob's rage against the kingdom will likely not abate until the scales of his mate are returned.)
   - A DM may give completely false results on a failed check to obfuscate information that can be gleaned from information theory.
 - Domains:
   - Arcana: Knowledge of spells and magical rituals. Used to identify magical auras (with appropriate senses), supernatural effects, spells that are being cast, magical constructs and summoned creatures. Thresholds:
     - Identify magical aura: 16.
     - Identify supernatural effect: [12 + MP dice used to create it]
     - Identify spell being cast [12 + MP dice used to create it]
-    - Identify magical constructs or summoned creature: [4 + Total dice].
+    - Identify magical constructs or summoned creature: [4 + Total dice / 2].
   - If the item is a single use item and the roll fails by 5 or more, the item is destroyed in the process.an assign [MP + 2] to successfully counter the effect.
   - Dungeoneering: A collection of esoteric fields dealing with dangerous places such as labyrinths, monster lairs and disaster zones. It includes knowledge of things like creatures dwell in such places, typical hazards and resources, likely locations of trap/treasure zones and core zones, and general dungeon trivia. Thresholds are as follows:
-    - Identify monstrous creature or construct: [4 + Total dice]
+    - Identify monstrous creature or construct: [4 + Total dice / 2]
       - Special: for every 4 points over the identification threshold, the character gains an extra piece of information about the creature.
     - Identify hazard: [terrain + weather] or [threshold of creation].
     - Identify material/dweomer in such a zone: See "Appraise".
@@ -576,12 +572,13 @@ There are 6 knowledge skills in the game. I represent various subsets of knowled
   - Geography: Geography and geology. Including, know geography and geology of a region. Identify landmarks. Identify regional belonging of an entity from its outwards traits and behaviour.
   - History: Know the history of a region, item or civilisation. Know obscure historical events of significance. Know power structure of a country and know details of past and present rulers. Remember what you did two sessions ago if you forgot to make notes.
   - Nature: Identify "natural" entities and know their properties. Identify natural cycles, phenomena and hazards (including diseases). Identify natural materials.
-    - Identify natural entity: [4 + total dice]
+    - Identify natural entity: [4 + total dice / 2]
       - Special: for every 4 points over the identification threshold, the character gains an extra piece of information about the creature.
     - Identify phenomenon, hazard or cycle: [terrain + weather bonus]
     - Identify natural materials: See "appraise".
   - Religion: Know about gods, supernatural beings and religious practices.
-    - Identify supernatural being: [4 + Total dice].
+    - Identify supernatural being: [4 + Total dice / 2].
+- **Special**: Identifying beings by setting thresholds based on "Total dice" can get silly. Most people would know a dragon when they see one. As such general knowledge threshold can be used instead.
 - **Take care**: No. You either know it or don't.
 - **Try again**: no. You either know it or don't.
 
@@ -606,7 +603,7 @@ The skill of observation is used to notice hidden/camouflaged details, entities 
   - Asleep: - 10
 - **Special**: Observe always succeeds against an entity or item in plain sight within 60ft, unless certain special abilities or conditions are in play (eg "invisible", "blinded").
 - **Take care**: No. This is essentially random.
-- **Try again**: Yes. in this case this is a "secondary action".
+- **Try again**: Yes. In this case this is a "secondary action".
 
 #### Sense Motive
 
@@ -651,14 +648,14 @@ While 'Knowledge:Arcana" deals with theory, this is the practical application of
 - **Disimbue**: Disimbue an enchantment, dissipating the energy.
   - **Special**: If you succeed by 5 or less the energy is released in a catastrophic cascade dealing [threshold] x d6 "entropic"[Sup] damage to everything within [threshold] x 5ft of the source.
 - **Absorb**: Disimbue an enchantment and absorb the energy as MP dice.
-  - If the item is a single use item and the roll fails by 5 or more, the item is destroyed in the process.rb energy from it as MP. On success the enchantment is disimbued and you replenish a number of MP dice equal to the number used to create the effect. Excess dice are added as temporary dice. If the resulting total dice is more than 3/2 times your maximum, two things happen:
-  1. All your [MP] and [SP] dice are expended, your [HP] drops to zero. You are considered dying.
-  2. All OTHER entities suffer the consequence as from a "catastrophic cascade" (see "disimbue").
+  - If the item is a single use item and the roll fails by 5 or more, the item is destroyed in the process. On success the enchantment is disimbued and you replenish a number of MP dice equal to the number used to create the effect. Excess dice are added as temporary dice. If the resulting total dice is more than 3/2 times your maximum, two things happen:
+    1. All your [MP] and [SP] dice are expended, your [HP] drops to zero. You are considered dying.
+    2. All OTHER entities suffer the consequence as from a "catastrophic cascade" (see "disimbue").
 - **Use magic device**: A character not proficient with a magical device can attempt to use it (this is a full round action unless it is normally longer). A roll is needed for each of:
   - Equip item.
   - Activate function or cast spell from item (-5 to threshold).
   - The threshold is the item's creation threshold.
-  - If the item is a single use item and the roll fails by 5 or more, the item is destroyed in the process.
+  - If the item is a single use item and the roll fails by 5 or more, the item is destroyed in the process (unless it is "durable" or "indestructible").
   - For each restriction on the item forbidding the character to use it, the threshold increases by +5.
 - **Special**: Failure by 5 or more leads to the entity using the skill to expend a number of MP dice equal to the difference between threshold and result. If this leads to the MP dice count reaching 0, the skill user must make a [CHA] save vs the threshold or fall "unconscious" until they receive "first aid" or the status is otherwise lifted by use of natural or supernatural ability.
 - **Take care**: Yes.
@@ -726,11 +723,11 @@ Train a non-sapient entity or order/direct it to act. Training usually takes day
 
 #### Deceive
 
-This is deception, whereby by direct lies (verbal, or by suggestive body language) or indirect deception or attempts to mislead. As a rule this skill should be used for direct interaction and written form or sabotage. This is usually a "communicate" action.
+This is deception, whereby by direct lies (verbal, or by suggestive body language) or indirect deception or attempts to mislead. As a rule this skill should be used for direct interaction. Written form or sabotage use other skills. This is usually a "communicate" action.
 
 - **Threshold**: Opposed to "Sense Motive".
 - **Modifiers**
-  - The target knows that this cannot feasibly be true: +16 Threshold.
+  - The target knows that this cannot feasibly be true: +16 threshold.
   - The deception is unlikely: +4 threshold.
   - The target is unfriendly (skeptical): +4 threshold.
   - The target wants to believe this is true: Advantage on deception roll.
@@ -785,7 +782,7 @@ Unlike intimidate this does not act as a charm effect. Like intimidate it should
 - **Carouse**: Spend at least one hour interacting with the target, to attempt to shift its relationship one step closer to "allied".
   - Apart from under special circumstances a target will only advance one step up per day at most.
 - **Beg for mercy**: As a "main action" you can beg for mercy in combat, making a persuade roll at disadvantage. On a successful roll you will be spared by your foe. If you fail by more than 5, you will become the main target.
-- **Call for parley**: As a "full round action" you can call for parley, making a persuade roll at disadvantage. In most cases you have a penalty from both "relationship modifiers" and "basic threshold modifiers". If HP damage has been caused in this encounter, you have an additional -8 penalty. If you fail by 5 or mor, you become the main target of the hostilities.
+- **Call for parley**: As a "full round action" you can call for parley, making a persuade roll at disadvantage. In most cases you have a penalty from both "relationship modifiers" and "basic threshold modifiers". If HP damage has been caused in this encounter, you have an additional -8 penalty. If you fail by 5 or more, you become the main target of the hostilities.
 - **Special**:
   - Persuade checks for "Carouse" and "Request" always fail against a "Nemesis".
   - "Carouse" cannot move a relationship to "Sworn".

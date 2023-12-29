@@ -44,7 +44,7 @@ Second Chance,"Once per combat: When attack roll hits you, reaction to force rer
 Shield Master I,If using shield: Bonus to Dex save = shield AC,Shield Master,YES,YES,COMBAT-DEFENCE,,,
 Shield Master II,"If using shield: if Dex save successful, no damage ever.",Shield Master,YES,YES,COMBAT-DEFENCE,,,
 Tough,"Gain some HP (NB: In our system it’s probably gain 2HP, not per level, just 2)",Tough,YES,,COMBAT-DEFENCE,,,
-Bulwark,Use reaction to succeed save vs being moved or knocked prone.,Vigor of Hill Giant,MAYBE,,COMBAT-DEFENCE,,,
+Bulwark,Use reaction to succeed save vs entity moved or knocked prone.,Vigor of Hill Giant,MAYBE,,COMBAT-DEFENCE,,,
 Focused Caster,Advantage/bonus on concentration saves,War caster,MAYBE,YES,COMBAT-DEFENCE,,,
 Life Channel,Life Channel: Expend health for extra damage (1HD per Spell level),Adept of Black Robes,YES,,COMBAT-OFFENCE,,,
 Stasis Strike,"1/turn. On damage to foe in 60ft, deal extra 1d8F. WIS or ensnared. Prof/day.",Agent of Order,YES,,COMBAT-OFFENCE,,,

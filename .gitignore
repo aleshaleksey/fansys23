@@ -1,2 +1,5 @@
 *.html
 *.pdf
+*/*.pdf
+*/*.html
+.gitignore

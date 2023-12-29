@@ -210,7 +210,7 @@ A character has descriptive attributes that need not influence mechanics (within
   - When a character uses an MP dice, it loses 2 MP.
   - When a character regains an MP dice, it regains 2 MP.
   - When a character takes natural damage it loses 1 MP per point of damage.
-  - If a character takes more than [CON + 2 x MP total] damage from a single supernatural/mental attack, the remainder is subtracted from HP.
+  - If a character takes more than [CON + 2 x MP dice total] damage from a single supernatural/mental attack, the remainder is subtracted from HP.
   - When a character rests, it regains [1/2 x CON x LEVEL] MP.
 
 
@@ -224,7 +224,7 @@ A character has descriptive attributes that need not influence mechanics (within
   - When a character uses an SP dice, it loses 2 SP.
   - When a character regains an SP dice, it regains 2 SP.
   - When a character takes natural damage it loses 1 SP per point of damage.
-  - If a character takes more than [CON + 2 x SP total] damage from a single natural/physical attack, the remainder is subtracted from HP.
+  - If a character takes more than [CON + 2 x SP dice total] damage from a single natural/physical attack, the remainder is subtracted from HP.
   - When a character rests, it regains [1/2 x CON x LEVEL] SP.
 
 #### Bonuses for attack, saves and abilities.

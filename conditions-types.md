@@ -2,7 +2,7 @@
 
 ### Natural and supernatural origins
 
-Most entities and phenomena in the game are classified ad **natural**/**mundane** (Nat) or **supernatural** (Sup). "Natural" implies that it generally obeys the laws of logic, mathematics, physics and other natural laws. "Supernatural" implies the fantastic that it does not (although it must obey game mechanics, so it clearly obeys some form of logic). A normal house is "natural"/"mundane", but a house possessed by a hungry demon is most certainly "supernatural" (at least until someone gets rid of the demon). The "supernatural" includes gods, spirits, magic and much more.
+Most entities and phenomena in the game are classified as **natural**/**mundane** (Nat) or **supernatural** (Sup). "Natural" implies that it generally obeys the laws of logic, mathematics, physics and other natural laws. "Supernatural" implies the fantastic that it does not (although it must obey game mechanics, so it clearly obeys some form of logic). A normal house is "natural"/"mundane", but a house possessed by a hungry demon is most certainly "supernatural" (at least until someone gets rid of the demon). The "supernatural" includes gods, spirits, magic and much more.
 
 Often supernatural entities are not effected by "natural" attacks, or have a resistance to them and have abilities that defy reason and bypass mundane, "natural" defences.
 
@@ -10,7 +10,7 @@ Most characters are fundamentally "natural", but possesses some "supernatural" a
 
 #### Natural and Supernatural damage and abilities
 
-Damage can be either Nat or Sup. Nat damage is first at least partially by an entity's SP, before before affecting HP. It generally affects the physical form. Sup damage is first buffered, at least in part, by an entity's MP, before affecting HP. It affects an entity's essence or spirit.
+Damage can be either Nat or Sup. Nat damage first affects the target's SP, being at least partially absorbed, before before affecting HP. It generally affects the physical form. Sup damage is first buffered, at least in part, by an entity's MP, before affecting HP. It affects an entity's essence or spirit. Thus if an entity takes 10 "physical"[Sup] damage, the first, say, 7 points may be absorbed by MP, with the remaining 3 points doing HP damage. The exact calculation for maximum Nat damage absorbed by SP is [CON + 2 x SP dice total], and is symmetrical for MP and Sup (see "Resource Pools" section).
 
 Damage caused by mundane or martial abilities is Nat, unless the ability is very powerful, at which it may become Sup. Damage caused by magic, spells and other supernatural abilities is usually Sup, but may also be Nat on occasion.
 

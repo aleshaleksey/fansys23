@@ -646,7 +646,7 @@ While 'Knowledge:Arcana" deals with theory, this is the practical application of
   - **Alter effect**: Alter the effect. NB: Threshold is [creator's [Sup] roll + 10].
 - **Imbue**: This is covered in the "crafting" section, and basically uses pathfinder rules.
 - **Disimbue**: Disimbue an enchantment, dissipating the energy.
-  - **Special**: If you succeed by 5 or less the energy is released in a catastrophic cascade dealing [threshold] x d6 "entropic"[Sup] damage to everything within [threshold] x 5ft of the source.
+  - **Special**: If you fail this roll by less than 5 but roll snake eyes, the energy is released in a catastrophic cascade dealing [threshold] x d6 "light"[Sup] damage to everything within [threshold] x 5ft of the source.
 - **Absorb**: Disimbue an enchantment and absorb the energy as MP dice.
   - If the item is a single use item and the roll fails by 5 or more, the item is destroyed in the process. On success the enchantment is disimbued and you replenish a number of MP dice equal to the number used to create the effect. Excess dice are added as temporary dice. If the resulting total dice is more than 3/2 times your maximum, two things happen:
     1. All your [MP] and [SP] dice are expended, your [HP] drops to zero. You are considered dying.
@@ -702,13 +702,13 @@ Train a non-sapient entity or order/direct it to act. Training usually takes day
     - +4 if it is a monstrosity or plant.
     - +8 if it is a different non-animal entity.
 - **Tame**: Tame a wild thing. This has two modes. a) Interact with an entity and move its perception of you to "neutral". This takes a minute. b) Tame an entity. This takes between a week and a year depending on entity.
-  - **Threshold**: Base threshold for a wild animal is 16.
+  - **Threshold**: Base threshold for a wild entity is 16.
     - -4 if it has had friendly interactions with your race or similar entities.
     - +4 if it is not an animal.
     - +8 if it has had hostile interactions with your race or similar entities.
     - +16 if it has had hostile interaction with you before.
-- **Teach**: Teach an entity a new command.
-  - **Duration**: 1 week.
+- **Teach**: Teach an adult entity a new command.
+  - **Duration**: 1 week (can be longer or shorter).
   - **Threshold**: base threshold for a domestic animal is 16.
     - +4 if this is not a natural activity for the entity (eg. Teaching a guinea pig to attack).
     - +4 if the entity is not an animal.
@@ -762,10 +762,10 @@ Encourage compliance based on fear. This can be used either force NPCs to take a
 
 Unlike intimidate this does not act as a charm effect. Like intimidate it should not be used on PCs. Persuasion can range from a systematic encroachment onto an entity's system of values and world view over many days of work, to a desperate plea thrown out in a "communicate" action. It can be used in or out of combat.
 
-- **Threshold**: Opposed roll vs Cha save. Snake eyes do NOT automatically fail this save. NB: The DM is encouraged to set their own thresholds, instead of using a save, but this is a guide in doing so. It is also advisable to put roleplaying ahead of using the persuade skill, and only engage it as a necessary abstraction.
+- **Threshold**: Opposed roll vs Cha save. Snake eyes do NOT automatically fail this save. NB: The DM is encouraged to set their own thresholds, instead of using a save, but this is a guide in doing so.
   - **Basic Threshold Modifiers**:
-    - +24 if you or your request fundamentally contradicts the aims or values of the target.
-    - +16 if you or your request is utterly ridiculous or completely contradicts values of target.
+    - +16 if you or your request fundamentally contradicts the aims or values of the target.
+    - +12 if you or your request is utterly ridiculous or completely contradicts values of target.
     - +8 if you or your request puts the target at a disadvantage.
     - +4 if you or your request causes the target inconvenience.
     - -4 if you or your request seem likely to be advantageous to the target.

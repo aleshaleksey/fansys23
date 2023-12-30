@@ -109,7 +109,7 @@ This is something of a misnomer. Light blades refers to smaller one handed blade
 
 **Short Sword**s are short straight blades designed primarily for stabbing. They are simple, sturdy blades. The gladius is a typical short sword.
 
-**Small Sword**s are light, elegant blades designed specifically for piercing. They are typically used by ranking members of high and low society for tidily settling scores and are not meant for heavy combat. They have the "light" and "disarm" properties. As an exception, small swords do NOT cause "bleeding" (as in they cause bleeding, but not "bleeding").
+**Small Sword**s are light, elegant blades designed specifically for piercing. They are typically used by ranking members of high and low society for tidily settling scores and are not meant for heavy combat. They have the "light" and "disarm" properties. As an exception, small swords do NOT cause "bleeding" (as in they cause bleeding, but not "bleeding"). **NB**: The "rapier" from DnD 3.5 onwards is in fact a small sword. 
 
 **Shuriken** refers to throwing needles, throwing knives and throwing stars. These are easily concealed blades used for surprise attacks and as a distraction. They have the "light" property.
 
@@ -146,9 +146,9 @@ Bows are curved ranged weapon, that, when strung appears as a length of material
 
 **Composite bows** represent bows made of several layers of different materials and constructed in a special curved shape to maximise the power of the bow for its size. They are typically used by mounted archers and have the "mounted" property.
 
-**Longbows** are large bows made to shoot heavy arrows over a large distance. Their construction is quite simple and they are a comparatively inexpensive weapon. Longbows have the "unwieldy" property. Longbows require great strength to use properly. For every point below +2 that the character has, it has a -1 penalty for attacks with longbows and the range it can use the weapon at decreases by one range increment.
+**Longbows** are large bows made to shoot heavy arrows over a large distance. Their construction is quite simple and they are a comparatively inexpensive weapon. Longbows have the "unwieldy" property. Longbows require great strength to use properly. For every point of Str bonus below +2 that the character has, it has a -1 penalty for attacks with longbows and the range it can use the weapon at decreases by one range increment.
 
-**Greatbows** are a large, asymmetric composite bow made for maximum power while still allowing use on horseback. Greatbows have the "unwieldy" and "mounted" property. Greatbows require great strength to use properly. For every point below +2 that the character has, it has a -1 penalty for attacks with greatbows and the range it can use the weapon at decreases by one range increment.
+**Greatbows** are a large, asymmetric composite bow made for maximum power while still allowing use on horseback. Greatbows have the "unwieldy" and "mounted" property. Greatbows require great strength to use properly. For every point of Str bonus below +2 that the character has, it has a -1 penalty for attacks with greatbows and the range it can use the weapon at decreases by one range increment.
 
 ## Armour
 Each of the four categories require only a single proficiency to use. The following armours exist in the game:

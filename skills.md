@@ -196,11 +196,9 @@ Weapon proficiencies are taken for each subgroup (eg "Strikes" and "Throws" are 
   - Grapples
   - Disarms
 - Melee
-  - One handed blade
-  - Two handed blade
+  - Heavy blades
   - Axes
-  - Light Percussive
-  - Heavy Percussive
+  - Percussive
   - Pole-arms
   - Staves
 - Melee/Thrown

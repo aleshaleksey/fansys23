@@ -465,6 +465,11 @@ Any adventurer may attempt a martial manoeuvre. If an untrained combatant attemp
 - **Feint**:
   - Effect: Give advantage to next attack.
   - Requires attack roll (Cha based [Nat] roll).
+- **Interception**:
+  - Effect: Redirect a target's attacks against you, or redirect attacks against a target at you.
+  - Requires attack roll.
+  - Description: Declare a target to intercept and roll attack. All attacks by that target that are below that threshold will target you instead. Alternatively pick a target to defend and roll attack. All attacks that are below that threshold against that target will target you instead.
+  - Special: You can attempt to intercept a single attack as a reaction. 
 
 A creature that is "grappled" or "restrained" can make an opposing roll in place of its attack action to try to break free or move its assailant.
 
@@ -697,3 +702,8 @@ Most characters are morals and therefore require **sustenance** and suffer from 
 |**Dehydration**|Lose 1 Stamina point/dice per hour from your maximum.|
 |**Starvation**|Lose 1 Stamina point/dice per day from your maximum.|
 |**Insomnia**|Lose 3 Mana point/dice per day.|
+
+
+## Version
+
+0.0.1

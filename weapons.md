@@ -10,6 +10,7 @@ Weapons are tools that increase the lethality of martial combatants. For the sak
   - Throws
   - Grapples
   - Disarms
+  - Interception
 - **Melee**
   - Heavy blades
   - Axes
@@ -78,6 +79,7 @@ Damage Key:
 |Throws|Throw|-|-|1+|Str/Dex|5|-|-|-|
 |Grapples|Grapple|-|-|1+|Str|5|-|-|-|
 |Disarm|Disarm|-|-|1+|Str/Dex|5|-|-|-|
+|Interception|Interception|-|-|-|Str/Dex|10|-|-|-|
 |||||||||
 |Throwing axe|Axe|1d4|S|1|Str|20|60|2|6|
 |Hand axe|Axe|1d6|S|1|Str|5|-|2|8|
@@ -130,7 +132,6 @@ Damage Key:
 |Pistol|Firearm|1d8|piercing|1|Dex|120|40|1|4
 |Musket|Firearm|2d6|piercing|2|Dex|240|120|8|6
 |Blunderbuss|Firearm|2d12|piercing|2|Dex|120|40|6|6
-|||||||||
 
 ### Unarmed Combat
 
@@ -143,6 +144,8 @@ Unarmed combat is the use of one's own body to effectively neutralise targets. I
 **Strikes** are the use of appendages or protruding body parts to deal bludgeoning or piercing damage to a target.
 
 **Throw** is the act of moving your foe around the battlefield or throwing them down. It follows the "Basic Martial Manoeuvres" rules. It also gives proficiency with "shove" and "trip" manoeuvres.
+
+**Interception** is the art of intercepting a target's attacks as effectively at the lowest cost to yourself. It is used when you need to defend one or more squishy allies from harm, or when you are trying to get your character killed.
 
 ### Light blades
 
@@ -251,9 +254,7 @@ Bows are curved ranged weapon, that, when strung appears as a length of material
 
 ### Mechanical bows
 
-Mechanical bows are bow-like weapons where the draw is performed by a mechanism, usually a lever or winch, and a short arrow (bolt) is released by the push of a trigger. They are a choice weapon of armies, since they require less training to master than normal bows, but suffer from a low reload rate. Therefore explorers and adventurers who use them tend to keep a couple of crossbows and a squire for the task of reloading them. All crossbows have the "bleeding" property.
-
-**Hand crossbow**: A hand crossbow that can be held in one hand. It is favoured by mariners who require a free hand, or dungeoneers who do not know how far away the next monster will be. It is a "secondary action" to reload a hand crossbow. If the wielder has a free appendage they can reload it as part of the attack (essentially using it as a two handed weapon).
+Mechanical bows are bow-like weapons where the draw is performed by a mechanism, usually a lever or winch, and a short arrow (bolt) is released by the push of a trigger. They are a choice weapon of armies, since they require less training to master than normal bows, but suffer from a low reload rate. Therefore explorers and adventurers who use them tend to keep a couple of crossbows and a squire for the task of reloading them. All crossbows have the "bleeding" proper- **Supernatural Bonus (Sup)**: This is a bonus added to all supernatural/magic attacks, and INT, WIS and CHA based saves. It is determined by MP/"MP dice" as follows:t know how far away the next monster will be. It is a "secondary action" to reload a hand crossbow. If the wielder has a free appendage they can reload it as part of the attack (essentially using it as a two handed weapon).
 
 **Crossbow**: This refers to a lever-drawn crossbow. Reloading this weapon is a "secondary action". In practice this means that one may make only one attack per turn with this weapon.
 
@@ -275,40 +276,154 @@ Weapons with a closed or open barrel that use the energy in explosive substances
 **Blunderbuss**: This refers to long barrelled flint lock firearms with an emphasis on damage rather than distance, and Yuan hand cannons. It takes a full round action to reload this weapon.
 
 ## Armour
-Each of the four categories require only a single proficiency to use. The following armours exist in the game:
 
-- **Light armours**
-  - Full Padded
+### Armour and its relationship with [HiT]
+
+Targetted attacks are rolled against [HiT]. [HiT] represents how effective/powerful/precise a target attack has to be to harm the target. It is made of the following components, all of which stack:
+
+- Base Hit (ALWAYS 10).
+- Evasion (avoiding the brunt of the attack, eg dodging)
+- Deflection (deflecting the brunt of the attack through active means, eg parrying)
+- Shield (deflecting the brunt of the attack through passive means, eg shields)
+- Armour (absorbing/nullifying the brunt of the attack through, eg a breast plate or scales)
+
+Each component of armour stacks. Furthermore, for each component, the [Nat] and [Sup] component stacks. Armour usually counts for the Nat component of Armour bonus.
+
+### Armour types
+
+Different armours exist, each with advantages and disadvantages. Each of the four categories require only a single proficiency to use. The following armours exist in the game (NB: Shields are not formally shields, but they are described here for simplicity):
+
+- **Light armours** (armour bonus)
   - Leather Cuirass
   - Chain Shirt
-- **Medium armours**
-  - Full Leather
+- **Medium armours** (armour bonus)
+  - Full Padded
   - Hide armour
+  - Full Leather
+  - Brigandine
   - Metal Cuirass
-  - Any Paper Armour
-- **Heavy Armour**
-  - Full Chain
-  - Full Splint
-  - Full Chain
+- **Heavy Armour** (armour bonus)
+  - Full Segmented mail
+  - Any Adamantine Armour
   - Half Plate
   - Full Plate
-  - Any Adamantine Armour
-- **Shields**
+- **Shields** (shield bonus)
   - Buckler
   - Light/Round Shield
   - Heavy/Kite Shield
   - Tower Shield
 
-#### Armour Proficiencies
+### Armour Proficiencies
 
 Any entity whose body fits a suit of armour can wear the armour. As such it will get the normal benefit to the hit threshold.
 
 - When an entity dons or doffs an armour it is not proficient with, it takes twice as long to don and doff the armour as normal.
 - While an entity is wearing an armour it is not proficient with it takes a -5 penalty to all [DEX] and [STR] based rolls it makes, in addition to any other penalties normally associated with the armour.
 
-Armour and its properties are further discussed in the "Weapons and Armour Section".
+### Donning and Doffing armour.
 
-There are three armour proficiencies that each cover several groups of armour.
+Armour can be donned properly or hastily. Hastily donned armour has -2 to armour. Heavy armour requires an assistant to don properly.
+
+|Armour type|Time to Don| Time to Don hastily| Time to doff|
+|-|-|-|-|
+|Light|1 full round|-|1 full round|
+|Medium|1 minute|2 full rounds|1 minute|
+|Heavy|10 minutes|1 minute|5 minutes|
+|Buckler|1 secondary action|-|secondary action|
+|Shield|1 full round|-|1 main action|
+
+### Armour penalties
+
+Armour tends to restrict movement, somewhat. This is reflected in several penalties:
+- Dex Rating.
+- Armour Weight Penalty.
+
+**Dex rating"**: A character with a Dex bonus higher than the rating, only applies the "Dex rating" to all rolls, attacks and saves. 
+
+**Weight Penalty**: Medium and heavy armour give a weight penalty.
+  - Any Adamantine Armour
+- Heavy Armour gives a -4 penalty to all [Con] rolls related to endurance and a -2 penalty to attack rolls.
+
+### The Armour Table
+
+This table gives a quick overview of armour. For details, see the armour description.  Specific properties of armour are less important than those of weapons, but it may still be of interest. As with weapons, if you do not find your favourite type of armour here, it may have been rolled into another type.
+
+Bonus Key:
+- Armour: A
+- Shield: S
+
+|Armour|Proficiency|Bonus type|Bonus|Max Dex|Weight (lb)|Durability
+|-|-|-|-|-|-|-|
+|Leather Cuirass|Light|A|1|-|10|4|
+|Chain Shirt|Light|A|2|6|20|6|
+||||||||
+|Full Padded|Medium|A|2|6|10|2|
+|Hide Armour|Medium|A|3|3|30|4|
+|Full Leather|Medium|A|3|4|20|6|
+|Brigandine|Medium|A|4|3|38|6|
+|Full Chain|Heavy|A|4|2|55|8|
+|Cuirass|Medium|A|5|2|46|8|
+||||||||
+|Segmented Mail|Heavy|A|6|1|60|10|
+|Half Plate|Heavy|A|8|1|60|12|
+|Full Plate|Heavy|A|9|0|65|14|
+|||||||
+|Buckler|Shield|S|1|-|2|5|
+|Small Shield|Shield|S|2|4|6|4|
+|Large Shield|Shield|S|3|2|10|6|
+|Tower Shield|Shield|S|4|1|20|8|
+
+### Light Armour
+
+This refers to basic armours that can be quickly donned and doffed while giving some level of protection to the vitals. It does not offer much protection, but is better than nothing, and does not restrict movement.
+
+**Leather Cuirass:** This refers to any armour made of a light material that protects the chest, abdomen, back and flanks. Often it has some minor protection for groins and upper legs. It is generally cheap and light. It is often worn by scouts, messengers and runners.
+
+**Chain shirt:** Armour made of small, interconnected rings of interconnected metal rings. This refers to smaller chain shirts that can be somewhat hidden beneath heavy clothes. this armour offers better protection to the vitals than light cuirasses, but is considerably more expensive to construct and heavier. They are often worn by nobles and merchants who may suspect foul play but still need to appear presentable. 
+
+
+### Medium Armour
+
+Medium armour covers armours which either protect the whole body or have a full body underlayer, and a second layer which either gives adequate protection to most of the body or good protection to the most vital areas. Most armour falls in this category.
+
+**Full Padded** or "padded armour" can be any particularly thick and protective clothes, including the silken armours of the saracens, hides worn by northern tribes and gambeson of medieval europe. These armours offer some protection to the whole body and are light enough to wear on a long march. they are also reasonably inexpensive.
+- Special: This armour can serve as cold or hot weather clothes depending on the specific type.
+
+**Hide Armour**: This includes particularly thick all body hides and specially made hide armour and low quality leather. The thickness of the armour means that it is somewhat restrictive, but it is also easy and inexpensive to make.
+- Special: This armour can often serve as cold weather gear.
+
+**Full leather**: This is any high quality armour made of hardened leather or materials with similar properties.
+
+**Brigandine**: Classical "studded leather". Brigandine consists of thin metal plates covered and joined by fabric or thin leather. It is worn atop padded armour and often a chain shirt. This kind of armour offers a good trade off between price, mobility, weight and protection. The segmented nature of this armour means that it is easily repaired. It is a choice of ranged troops, although elite archers will find it restrictive.
+
+**Full Chain**: Full chain mail, worn atop padded armour to reduce chaffing.
+
+**Cuirass:** This refers to a metallic cuirass, with skirt and pauldrons, worn atop padded armour and often a chain shirt. It is not much heavier than a brigandine, but offers better protection, in exchange for poorer agility and greater expense of manufacture.
+
+### Heavy Armour
+
+Heavy armour consists of an underlayer (usually padded), a mid-layer (usually chain) and a shell layer on all parts of the body. This is heavy battlefield armour, it is not necessarily best suited for a long march, although that is often the best way of transporting it to said battlefield. This armour is used when maximum protection at all costs is needed.
+
+**Segmented Mail:** This refers to any kind of mail other than chain mail, such as scale mail, banded mail and ring mail that covers most of the body. This kind of armour typically has a layer of padded armour beneath it and at least a chain shirt.
+
+**Half Plate:** This refers to armour with a padded underlayer, chain layer, cuirass and metal segments covering all parts off the body, but without fully secured joints.
+
+**Full Plate:** A half plate with fully secured joints is considered a full plate here.
+
+### Shields
+
+Not strictly armour, but also defensive equipment. These are generally held or attached to one's arm and used to block/deflect attacks before they reach further in. The data shown are for wooden shields with only a small amount of metal in their construction (except bucklers). Metal shields weigh twice as much, but also have +2 to durability.
+
+Equipping light, heavy and tower shields is a "full round action". Equipping a buckler is a "secondary action".
+
+**Buckler**: This represents small metal shields less than a foot in diameter used to deflect blows.
+
+**Light shield**: This represents smaller shields that offer good protection for the torso but are not big enough to protect legs or head, or open up the torso when used to protect against that kind of attack.
+
+**Heavy Shield**: This represents large shields and includes older and newer kinds of kite shields, as well as some larger round shields. Typically when equipped this type of shield offers a good level of protection to torso, as well as some protection to legs and neck.
+
+**Tower Shield**: This represents shields almost tall and wide enough to cover the entire body of the character. An example is the Roman scutum.
+- Special: This shield can be set as a "main action" to provide 3/4 cover to a single creature of the size it was made for, leaving the wielder's hands free for all kinds of wonderful things.
 
 ## Notes
 
@@ -319,6 +434,11 @@ This section contains a few notes on "realism". It is not exhaustive.
 - Composite bows (such as mongol bows), greatbows and longbows had similar maximum and effective ranges, but different constraints and uses.
 - Winch crossbows typically required between 15-60s to reload, but that would make them "impossible" to use in this system, so some liberties were taken.
 - Flint locks have a similar problem to winch crossbows, and are treated similarly.
+- Unlike bows, the range on flintlock firearms varies a lot over centuries and model. I took some kind of reasonable average as a result.
+- In reality the relationship between armour and firearms is more complex than the rules here, but it would likely bog things down a bit too much.
+- To the question of "Why bother with armour at all, when some people have an Evasion bonus of +6 which is higher anyway?", I would remind you that for +6 is heroic. Most people have -1 to +1. Therefore, historically, in a mundane world, travellers, explorers, nobles and soldiers benefit from armour. Now if most soldiers in a civilisation were elven monks with +6 to Evasion bonus, then that civilisation would likely not have developed armour.
+- Interestingly most texts and commentators note that armours affect agility a lot less than comfort and endurance.
+- In reality each type of armour is defends specifically against different kinds of attacks. However, in a game where there are a dozen kinds of damage and monsters whose natural weapons do all kinds of wonderful things that you might not see on the battlefield, it is abstracted out.
 
 ## Disclaimer
 

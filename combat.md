@@ -7,8 +7,20 @@ This system deals heavily with combat and many of the mechanics are tuned to wor
 All entities have:
 - HiT: Representing how difficult it is to cause it damage with a targetted attack.
 - 6 Saves, one for each stat: Representing how well a target resists targetted effects and area of effect attacks.
-- NAP: How effectively an entity overcomes defences with Nat targetted attacks and the threshold for its Nat abilities and area of effect attacks.
-- SAP: How effectively an entity overcomes defences with Sup targetted attacks and the threshold for its Sup abilities and area of effect attacks.
+- NAP: How effectively an entity overcomes defences with Nat targetted attacks and the threshold for its Nat abilities and area of effect attacks. NAP is determined by base, SP dice count and Dex or Str bonus.
+- SAP: How effectively an entity overcomes defences with Sup targetted attacks and the threshold for its Sup abilities and area of effect attacks. SAP is determined by base, MP dice count and Int or Wis.
+
+There are three categories of offensive abilities: "targetted attacks", "abilities" and "manoeuvres".
+
+- "Targetted Attacks": The attacker rolls using NAP or SAP against a target's HiT.
+- "Abilities": The target rolls a save vs attacker's NAP or SAP.
+- "Manoeuvres": The attacker rolls using NAP vs target's NAP.
+
+The effect is resolved immediately for instantaneous attacks, or at the start of the target's turn for effects that persist for a turn or longer.
+
+A target is considered "dying" when it reaches 0 HP. It is destroyed or killed when it reaches its negative HP total. Entities that are immune to dying continue to operate normally (other conditions they might suffer from, continue to apply however) until they are destroyed when they reach the negative of their total HP.
+
+Of course most offensive abilities must first "eat" through the SP or MP of a target before working away at the HP.
 
 ## Actions in combat
 

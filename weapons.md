@@ -121,11 +121,15 @@ Damage Key:
 |Shortbow|Bow|1d6|P|2|Dex|600|120|1|4|
 |Composite Bow|Bow|1d8|P|2|Dex|1200|240|2|3|
 |Longbow|Bow|1d10|P|2|Dex|1200|240|3|6|
-|Greatbow|Bow|1d10|P|2|Dex|1300|260|3|4|
+|Greatbow|Bow|1d10|P|2|Dex|1200|240|3|4|
 |||||||||
 |Hand Crossbow|Mechanical Bow|1d6|P|1|Dex|360|60|1|4
 |Crossbow|Mechanical Bow|1d10|piercing|2|Dex|800|160|4|6
 |Winch crossbow|Mechanical Bow|2d12|piercing|2|Dex|1000|200|6|8
+|||||||||||
+|Pistol|Firearm|1d8|piercing|1|Dex|120|40|1|4
+|Musket|Firearm|2d6|piercing|2|Dex|240|120|8|6
+|Blunderbuss|Firearm|2d12|piercing|2|Dex|120|40|6|6
 |||||||||
 
 ### Unarmed Combat
@@ -243,7 +247,7 @@ Bows are curved ranged weapon, that, when strung appears as a length of material
 
 **Longbows** are large bows made to shoot heavy arrows over a large distance. Their construction is quite simple and they are a comparatively inexpensive weapon. Longbows have the "unwieldy" property. Longbows require great strength to use properly. For every point of Str bonus below +2 that the character has, it has a -1 penalty for attacks with longbows and the range it can use the weapon at decreases by one range increment.
 
-**Greatbows** are a large, asymmetric composite bow made for maximum power while still allowing use on horseback. Greatbows have the "unwieldy" and "mounted" property. Greatbows require great strength to use properly. For every point of Str bonus below +2 that the character has, it has a -1 penalty for attacks with greatbows and the range it can use the weapon at decreases by one range increment.
+**Greatbows** are a large, asymmetric composite bow made for maximum power while still allowing use on horseback. Greatbows have the "unwieldy" and "mounted" property. Greatbows require great strength to use properly. For every point of Str bonus below +2 that the character has, it has a -1 penalty for attacks with greatbows and the range it can use the weapon at decreases by one range increment. Unlike many other unwieldy weapons, a greatbow CANNOT physically be used in spaces where the ceiling height is less than 8ft.
 
 ### Mechanical bows
 
@@ -251,11 +255,24 @@ Mechanical bows are bow-like weapons where the draw is performed by a mechanism,
 
 **Hand crossbow**: A hand crossbow that can be held in one hand. It is favoured by mariners who require a free hand, or dungeoneers who do not know how far away the next monster will be. It is a "secondary action" to reload a hand crossbow. If the wielder has a free appendage they can reload it as part of the attack (essentially using it as a two handed weapon).
 
-**Crossbow**: This refers to a level-drawn crossbow. Reloading this weapon is a "secondary action".
+**Crossbow**: This refers to a lever-drawn crossbow. Reloading this weapon is a "secondary action". In practice this means that one may make only one attack per turn with this weapon.
 
-**Winch Crossbow**: This refers to larger crossbows drawn by a winch. It fires a heavy bolt and has terrific penetrating power at close range. Reloading it is a "full round action" (you want a squire or hireling for this!). **NB:** Light winch crossbows are not included because no one in their right mind who can afford a better one would use these.
+**Winch Crossbow**: This refers to larger crossbows drawn by a winch. It fires a heavy bolt and has terrific penetrating power at close range. Reloading it is a "full round action" (you want a squire or hireling for this!). In practice this means that a solitary wielder of one of these weapons can only make one attack with it every two turns. **NB:** Light winch crossbows are not included because no one in their right mind who can afford a better one would use these.
 
-**Optional rule: Repeater Crossbow**: Any crossbow can be given the "repeating" property by fitting a magazine that holds 5 bolts. This means that it only needs to be reloaded every 5 rounds. However, these mechanisms are expensive, complex and prone to jamming (jam on a critical miss). They also add 1-3lb to the weight of a crossbow. Most importantly they are not appropriate to all settings.
+**Optional rule: Repeater Crossbow**: Any crossbow can be fitted a magazine that holds 5 bolts. This means that it only needs to be reloaded every 5 rounds. However, these mechanisms are expensive, complex and prone to jamming (jam on a critical miss). They also add 1-3lb to the weight of a crossbow. Most importantly they are not appropriate to all settings.
+
+### Firearms
+
+Weapons with a closed or open barrel that use the energy in explosive substances (or magic) to accelerate a projectile towards a target fall into this category. With the exception of some early and ancient firearms. This kind of weapon is easy to wield and long to reload. It is favoured by armies due to the ease of training manpower in their use, but are not ideal for explorers and adventurers who must carry several of them in order to keep anything resembling an adequate rate of fire. Firearms have several exceptional properties:
+- All firearms have the "loud", "bleeding" and "delicate" properties.
+- All firearms ignore "armour" component of HiT within the first range increment.
+- **NB:** these weapons are not appropriate for all fantasy settings.
+
+**Pistol**: This refers to flint lock pistols of all kind. It is a full round action to reload this weapon.
+
+**Musket**: This refers to earlier long barrelled flint lock firearms with an emphasis on range. It takes a full round action to reload this weapon.
+
+**Blunderbuss**: This refers to long barrelled flint lock firearms with an emphasis on damage rather than distance, and Yuan hand cannons. It takes a full round action to reload this weapon.
 
 ## Armour
 Each of the four categories require only a single proficiency to use. The following armours exist in the game:
@@ -287,7 +304,7 @@ Each of the four categories require only a single proficiency to use. The follow
 Any entity whose body fits a suit of armour can wear the armour. As such it will get the normal benefit to the hit threshold.
 
 - When an entity dons or doffs an armour it is not proficient with, it takes twice as long to don and doff the armour as normal.
-- While an entity is wearing an armour it is not proficient with it takes a -5 penalty to all [DEX] and [STR] based rolls it makes.
+- While an entity is wearing an armour it is not proficient with it takes a -5 penalty to all [DEX] and [STR] based rolls it makes, in addition to any other penalties normally associated with the armour.
 
 Armour and its properties are further discussed in the "Weapons and Armour Section".
 
@@ -300,6 +317,8 @@ This section contains a few notes on "realism". It is not exhaustive.
 - Medieval weapons are often lighter than expected, weighing between 1-3lb. The reason for this becomes quickly apparent when one picks up one of these weapons: Even a well trained warrior would quickly tire of swinging a heavier weapon, so this becomes a necessary constraint of weapons powered by one's own muscles.
 - Slings have a surprisingly long range, and can out-range bows. However slinging accurately is even a lot more difficult than accurately loosing an arrow at a target.
 - Composite bows (such as mongol bows), greatbows and longbows had similar maximum and effective ranges, but different constraints and uses.
+- Winch crossbows typically required between 15-60s to reload, but that would make them "impossible" to use in this system, so some liberties were taken.
+- Flint locks have a similar problem to winch crossbows, and are treated similarly.
 
 ## Disclaimer
 

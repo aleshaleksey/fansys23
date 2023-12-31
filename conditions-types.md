@@ -353,3 +353,4 @@ An entity afflicted by conditions that make it unable to engage in physical comb
 - "**Invisible**": This character cannot be directly detected by visual means (aka sight). Characters are considered "blinded" in relation to invisible creatures.
 - "**Deafened**": A deafened character cannot perceive sound. It cannot hear. It can speak only stutteringly. It must make an [INT] save to complete Incantations (unless it is deaf for longer than month).
 - "**Surprised**": A surprised character dropped the ball. It cannot take any actions. This condition seldom exists outside of the first round of combat.
+  - It does not gain [STATS] to AC.

@@ -279,7 +279,7 @@ Weapons with a closed or open barrel that use the energy in explosive substances
 
 ### Armour and its relationship with [HiT]
 
-Targetted attacks are rolled against [HiT]. [HiT] represents how effective/powerful/precise a target attack has to be to harm the target. It is made of the following components, all of which stack:
+Targeted attacks are rolled against [HiT]. [HiT] represents how effective/powerful/precise a target attack has to be to harm the target. It is made of the following components, all of which stack:
 
 - Base Hit (ALWAYS 10).
 - Evasion (avoiding the brunt of the attack, eg dodging)

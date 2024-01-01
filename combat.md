@@ -5,14 +5,14 @@ This system deals heavily with combat and many of the mechanics are tuned to wor
 ## Prelude
 
 All entities have:
-- HiT: Representing how difficult it is to cause it damage with a targetted attack.
-- 6 Saves, one for each stat: Representing how well a target resists targetted effects and area of effect attacks.
-- NAP: How effectively an entity overcomes defences with Nat targetted attacks and the threshold for its Nat abilities and area of effect attacks. NAP is determined by base, SP dice count and Dex or Str bonus.
-- SAP: How effectively an entity overcomes defences with Sup targetted attacks and the threshold for its Sup abilities and area of effect attacks. SAP is determined by base, MP dice count and Int or Wis.
+- HiT (Hit Threshold): Representing how difficult it is to cause it damage with a targeted attack.
+- 6 Saves, one for each stat: Representing how well a target resists targeted effects and area of effect attacks.
+- NAP (Natural Attack Potential): How effectively an entity overcomes defences with Nat targeted attacks and the threshold for its Nat abilities and area of effect attacks. NAP is determined by base, SP dice count and Dex or Str bonus.
+- SAP (Supernatural Attack Potential): How effectively an entity overcomes defences with Sup targeted attacks and the threshold for its Sup abilities and area of effect attacks. SAP is determined by base, MP dice count and Int or Wis.
 
-There are three categories of offensive abilities: "targetted attacks", "abilities" and "manoeuvres".
+There are three categories of offensive abilities: "targeted attacks", "abilities" and "manoeuvres".
 
-- "Targetted Attacks": The attacker rolls using NAP or SAP against a target's HiT.
+- "Targeted Attacks": The attacker rolls using NAP or SAP against a target's HiT.
 - "Abilities": The target rolls a save vs attacker's NAP or SAP.
 - "Manoeuvres": The attacker rolls using NAP vs target's NAP.
 

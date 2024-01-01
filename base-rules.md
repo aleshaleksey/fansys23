@@ -125,32 +125,172 @@ Because stacking modifiers can easily "break" a game or lead to situations where
 ## Character Descriptors
 
 A character has descriptive attributes that need not influence mechanics (within reason), eg hair/feather/scale length and colour. Timbre of voice. This kind of thing is cool, but not regulated by these rules.
+
 - A character has an entity type, race, size category, movement modalities and speed. These have mechanistic effects.
-  1. **Entity type** define the base possibilities of a character (a plant does not require sleep, but usually requires water, air and "sustenance", it does "see" things. A spirit does not have a corporeal form and cannot be "touched" normally, a humanoid (animal) has a movement speed, and a corporeal form, usually with one head, one torso, two arms and two legs, requires air, water, sustenance, sleep and ages).
-  2. The **race** determines some specific characteristics and attributes. (eg base movement speed, movement modality, lifespan, typical weight and height, certain resistances and vulnerabilities and special abilities).
-  3. **Size category** [diminutive, tiny, small, medium, large, huge, gargantuan, colossal] affect how much space an entity takes up on (and off) a battlefield, its reach, its AC, and potentially other things.
-  4. **Movement modalities** are usually determined by race and special abilities. A creature WITH a movement modality may (or may not!) be able to move over other terrain with an ability check. this is covered in "movement" rules:
-      - **walk speed**: ground movement over horizontal-ish terrain.
-      - **climb speed**: ground movement over vertical-ish terrain.
-      - **flight speed**: areal movement. Movement through the air.
-      - **swim speed**: fluid movement.
-      - **dig speed**: tunnelling movement.
-      - **cosmic speed** ethereal movement. Movement through vacuum, solids (without  interacting) or alternative spaces. Very few beings have a "cosmic speed" and most are supernatural.
-      - **blink speed**: discrete movement. An entity with a blink speed need not pass through the spaces between start and destination as long as it is in range. Very few entities have a "blink speed", most are powerful supernatural entities.
+  1. **Entity type**
+  2. **Race**
+  3. **Size category**
+  4. **Movement modalities**
+- "**Character Level**": A representation of overall experience and power.
+- "**Base**": A bonus that is applied to a lot of rolls, derived from level.
+- **Stats** (Str, Dex, Con, Int, Wis, Cha): Represent basic attributes.
+- **Resource Pools**: A character has 3 primary resource pools (HP, SP dice pool, MP dice pool) and two secondary resource pools (SP and MP).
+- **Nat**: A bonus that is applied to a lot of "natural"/"mundane" rolls. It is derived from SP dice pool.
+- **Sup**: A bonus that is applied to a lot of "supernatural" rolls. It is derived from MP dice pool.
+- **Natural Attack Potential (NAP)**: A character's attack potential with non-supernatural abilities.
+- **Supernatural Attack Potential (SAP)**: A character's attack potential with supernatural abilities.
+- **Hit Threshold (HiT)**: A measure of how difficult it is to harm a character with targeted attacks.
+- **Saving throws:** (Str, Dex, Con, Int, Wis, Cha): Represent characters defences against indirect attacks and dangers.
+- **Skills**: A character has skills (eg Stealth skill).
+- **Proficiencies**: A character has proficiencies (eg heavy armour proficiency).
+- **Abilities**: A character has abilities (eg spellcasting, multi-attack).
+
+### Descriptive Attributes
+
+A character has descriptive attributes that need not influence mechanics (within reason), eg hair/feather/scale length and colour. Timbre of voice. This kind of thing is cool, but not regulated by these rules. Unless your voice is ultrasonic and destroys superstructures, or your hair is 50ft long. Then the DM is well within their rights to interfere.
+
+### Intrinsic Attributes
+
+A character has certain attributes that are inherent to it and are not easily changed. These include: entity type, race, size category, movement modalities and speed. These have mechanistic effects.
+
+1. **Entity type** define the base possibilities of a character (a plant does not require sleep, but usually requires water, air and "sustenance", it does "see" things. A spirit does not have a corporeal form and cannot be "touched" normally, a humanoid (animal) has a movement speed, and a corporeal form, usually with one head, one torso, two arms and two legs, requires air, water, sustenance, sleep and ages).
+2. The **race** determines some specific characteristics and attributes. (eg base movement speed, movement modality, lifespan, typical weight and height, certain resistances and vulnerabilities and special abilities).
+3. **Size category** [diminutive, tiny, small, medium, large, huge, gargantuan, colossal] affect how much space an entity takes up on (and off) a battlefield, its reach, its AC, and potentially other things.
+4. **Movement modalities** are usually determined by race and special abilities. A creature WITH a movement modality may (or may not!) be able to move over other terrain with an ability check. this is covered in "movement" rules:
+    - **walk speed**: ground movement over horizontal-ish terrain.
+    - **climb speed**: ground movement over vertical-ish terrain.
+    - **flight speed**: areal movement. Movement through the air.
+    - **swim speed**: fluid movement.
+    - **dig speed**: tunnelling movement.
+    - **cosmic speed** ethereal movement. Movement through vacuum, solids (without  interacting) or alternative spaces. Very few beings have a "cosmic speed" and most are supernatural.
+    - **blink speed**: discrete movement. An entity with a blink speed need not pass through the spaces between start and destination as long as it is in range. Very few entities have a "blink speed", most are powerful supernatural entities.
+
+### Character level and Base
+
+All player characters have one. This is an abstract measure of experience and the power that is derived from it.
+
+#### Leveling up
+
+Every time a character levels up it gains:
+
++ 1 HP
++ 3 dice points to share between gaining SP dice and MP dice.
++ [3 + Int] skill points to put into skill ranks and proficiencies. 
++ 3 level points, to be used for abilities, or exchanged for skill points (3 skill points per level point).
+
+A character must spend all points when it levels up. It cannot horde unspent points waiting for the next level.
+
+#### Base
+
+A character's **Base** is a measure of global experience that permeates into most of a character's actions, be they day to day activities or extraordinary feats. It is a small bonus that is added to most rolls. Base is calculated as:
+
+**Base = [LEVEL / 5]** (rounded up)
+
+### Stats
+
+A character has six **base attributes**. Each one represents how "strong" some aspect of the character is. In general the stronger that aspect of the character.
+1. **Str**: Physical strength. Upstream of most weapon attack, damage. Upstream of abilities linked to affecting the surroundings by physical force. 
+    - An entity with zero Str cannot physically affect the outside world, or move itself.
+    - An entity without a material form has no Str.
+2. **Dex**: Physical agility. Upstream to some weapon attack, damage (usually ranged). Upstream to evasive abilities. Upstream to abilities linked to affecting the surroundings by delicate manipulation.
+    - An entity with zero Dex cannot move its physical form.
+    - Entities with no physical form have no Dex.
+3. **Con**: Physical resilience. Upstream of HP, SP, aspects of physical interactions
+    - The physical form of an entity with zero Con has no integrity. Corporeal entities with 0 Con are dead.
+    - An entity with no physical form has no Con, such entities can only be damaged by "supernatural" means and "spiritual" weapons.
+4. **Int**: Mental agility. Ability to memorise, deduce, analyse, IQ. Upstream to skill points, some aspects of supernatural abilities.
+    - An entity with zero Int is not capable of reason or learning. It is mindless.
+5. **Wis**: Faculty of judgement, discernment, sense, EQ. Upstream of supernatural abilities, abilities devoted to detection, some aspects of social interactions.
+    - An entity with zero Wis has no awareness of internal or external realities. It is essentially unconscious.
+6. **Cha**: Force of Personality, pluck, mental resilience. Upstream of HP, MP, aspects of social interactions.
+    - An entity with zeo Cha has no will, drive or "spirit". It is generally catatonic. If not, it might obey any instructions it receives to the letter. Such entities are not affected by "spiritual" weapons.
+
+### Resource pools
+
+A character has resource pools. These are a critical part of the game and are explained below.
+
+- The "SP dice pool" represents stamina, physical resilience and affinity for physical (natural) activity. It is important for martial characters.
+- The "MP dice pool" represents spirit, pluck, mental resilience and affinity for the supernatural. It is important for casters, healers and generally "magical" characters.
+- HP represents overall life force. As soon as you start taking HP damage, you are in trouble. Having lots of HP is important, but even more so for characters who will be putting themselves in harm's way often.
+
+#### HP pool
+ 
+ This represents your health or life force. Loss of HP represents physical/spiritual damage/degradation.
+
+- An entity at 1/2 HP gains penalties.
+- An entity at 0 HP is disabled and cannot act.
+- An entity at -HP total is destroyed.
+- A character regains a single point of HP per long rest (usually a day). If a character receives long term medical care this becomes 2HP.
+- A character has maximum HP=CON+CHA+LEVEL.
+- When a character with no SP takes natural damage, it loses HP equal to the damage taken.
+- When a character with no MP takes supernatural damage, it loses HP equal to the damage taken.
+  
+#### MP dice pool
+
+This is the determinant of "MP pool".
+- A character has a capacity of up to [3 MP dice / level] + 1 (min 1).
+- A character uses MP dice to fuel powerful mental/spiritual abilities.
+- A character with 0 MP dice cannot use the more powerful supernatural abilities that require MP.
+ - A character regains 1/2 of all MP dice on any "rest" [whatever that may be in duration], and as a result of this 2 MP per dice (see "Mana Pool").
+
+#### Mana pool
+
+This is a measure of an entities' mental/spiritual energy.
+- A character has maximum MP = CHA x LEVEL + [MP dice count] x 2.
+- When a character uses an MP dice, it loses 2 MP.
+- When a character regains an MP dice, it regains 2 MP.
+- When a character takes natural damage it loses 1 MP per point of damage.
+- If a character takes more than [CON + 2 x MP dice total] damage from a single supernatural/mental attack, the remainder is subtracted from HP.
+- When a character rests, it regains **[1/2 x CON x LEVEL]** MP.
+  - This is in addition to the MP regained due to regained MP dice. So in total a character regains **[1/2 x CON x LEVEL + Total MP dice count]** MP.
 
 
-- "**Character Level**": All player characters have one. This is an abstract measure of experience and the power that is derived from it. The level determines the proficiency bonus that modifies all rolls. The proficiency bonus is simply derived as [LEVEL / 5] rounded up. For levels 1-5 it is 1, for 5-10 it is 2, etc. **Character level**, together with **stats**, **entity type**, **race**,  forms the "**governing quartet**" which determine most of the base mechanics of a character. Almost all other characteristics can be derived from these four.
+#### SP dice pool
 
-- **Stats**: A character has six **base attributes**, also known as "**statistics**" or "**stats**":
-  1. **Str**: Physical strength. Upstream of most weapon attack, damage. Upstream of abilities linked to affecting the surroundings by physical force. An entity with zero Str cannot physically affect the outside world, or move itself. An entity without a material form has no Str.
-  2. **Dex**: Physical agility. Upstream to some weapon attack, damage (usually ranged). Upstream to evasive abilities. Upstream to abilities linked to affecting the surroundings by delicate manipulation. An entity with zero Dex cannot move its physical form. Entities with no physical form have no Dex.
-  3. **Con**: Physical resilience. Upstream of HP, SP, aspects of physical interactions. The physical form of an entity with zero Con has no integrity. An entity with no physical form has no Con, such entities can only be damaged by "supernatural" means and "spiritual" weapons.
-  4. **Int**: Mental agility. Ability to memorise, deduce, analyse, IQ. Upstream to skill points, some aspects of supernatural abilities. An entity with zero Int is not capable of reason or learning. It is mindless.
-  5. **Wis**: Faculty of judgement, discernment, sense, EQ. Upstream of supernatural abilities, abilities devoted to detection, some aspects of social interactions. An entity with zero Wis has no awareness of internal or external realities. It is essentially unconscious.
-  6. **Cha**: Force of Personality. Mental resilience. Upstream of HP, MP, aspects of social interactions. An entity with zeo Cha has no will, drive or "spirit". It is generally catatonic. If not, it might obey any instructions it receives to the letter. Such entities are not affected by "spiritual" weapons.
+This is the determinant of "SP pool".
+- A character has a capacity of up to [3 SP dice / level] + 1 (min 1).
+- A character uses SP dice to fuel powerful physical/natural abilities.
+- A character with 0 SP dice cannot use the more powerful supernatural abilities that require SP.
+- A character regains 1/2 of all SP dice on any "rest" [whatever that may be in duration].
 
+#### Stamina pool
 
-- **Saving throws:** Some harmful effects can be negated or mitigated with a "**saving throw**". A character has six saving throws, one for each attribute. Abilities and effects that force a save usually specify one or two valid save types:
+This is a measure of an entity's physical energy, stamina.
+- A character has maximum SP = CON x LEVEL + [SP dice count] x 2.
+- When a character uses an SP dice, it loses 2 SP.
+- When a character regains an SP dice, it regains 2 SP.
+- When a character takes natural damage it loses 1 SP per point of damage.
+- If a character takes more than [CON + 2 x SP dice total] damage from a single natural/physical attack, the remainder is subtracted from HP.
+- When a character rests, it regains **[1/2 x CON x LEVEL]** SP.
+  - This is in addition to the SP regained due to regained SP dice. So in total a character regains **[1/2 x CON x LEVEL + Total SP dice count]** SP.
+
+### Nat and Sup: Attack of the three letter words
+
+This is the "natural" (Nat) and "supernatural" (Sup) component of many bonuses. They represent the mastery/affinity that a character has over/with "natural" and "supernatural" aspects of the world respectively. As a rule rolls, saves and attacks governed by Str, Dex or Con a character is proficient with use Nat. Rolls, saves and attacks governed by Int, Wis or Cha a character is proficient with use Sup. They are calculated as follows:
+
+- **Nat = [SP / 6] rounded up**
+  - So a character with 29 "SP dice" has a Nat = 4.
+
+- **Sup = [MP / 6] rounded up**
+  - So a character with 30 "SP dice" has a Nat = 5.
+
+### NAP and SAP, NAT and SAT: Attack of the three letter words II
+
+Attack Potentials and Attack Thresholds are used to determine the potence, or more accurately success rate of a character's offensive abilities. They are bonus added to all targeted attack rolls a character makes. NAP is used for natural attacks, SAP is used for supernatural attacks.
+
+**Natural Attack Potential** (NAP) is the bonus used for all of a character's "natural" attacks. **NAP = [Base + Nat + Str/Con/Dex]**
+
+**Supernatural Attack Potential** (SAP) is the bonus used for all of a character's "supernatural" attacks. **SAP = [Base + Sup + Int/Wis/Cha]**
+
+**Natural Attack Threshold** (NAT) is **NAP + 13**. A target of a character's "natural" abilities rolls a save against the character's NAT.
+
+**Supernatural Attack Threshold** (SAP) is **NAP + 13**. A target of a character's "supernatural" abilities rolls a save against a character's SAP.
+
+### Saving throws
+
+Some harmful effects can be negated or mitigated with a "**save**". A character rolls [2d12 + save bonus] vs some threshold. If the save succeeds (meets it beats it), the brunt of a harmful effect can be avoided.
+
+A character has six saving throws, one for each stat. Abilities and effects that force a save usually specify one or two valid save types:
   1. **Str**: Use of strength to resist or redirect an effect. This can be voluntarily failed. A "**helpless**" being cannot succeed STR saves. Examples:
       - Use STR to resist being knocked prone by a charging guinea pig.
       - Use STR hang on to a ship's mast when a storm wave washes over a ship.
@@ -173,106 +313,47 @@ A character has descriptive attributes that need not influence mechanics (within
       - Negate a spirit's attempt to devour your essence.
       - Negate possession.
 
+A character can either be proficient, or not proficient with a save. The calculation for the save bonus is as follow:
 
-- **Hit Threshold (HiT)**: A character has an armour class/hit threshold, this is a measure of how difficult its physical (or spiritual) form is to damage using targeted attacks. It can represent any combination of armour and evasive ability and is something of an abstraction of how hard a target is to damage with a targeted attack: A targeted attack either penetrates defences, with the potential o doing damage, (hit) or it does not. This is an abstraction that rolls evasion, deflection, and damage reduction by actual armour into one number.
-  1. Base HiT is calculated (for now!) as 10+[Static Bonus]+[SP ability bonus]+[MP ability bonus]+[circumstance bonus]. This has not been decided.
-      - Static bonus is the sum of inherent layers of defences:
-        - Dodge modifier (avoid the attack).
-        - Deflect modifier (deflect the attack, eg with a shield or parrying).
-        - Armour modifier (suit of armour).
-        - Hide modifier (thick skin, etc).
-      - SP ability bonus can modify dodge, deflect, and hide bonuses or provide a circumstance bonus.
-      - MP abilities can *substitute*, but not modify, any bonus.
-      - Circumstance bonus (or penalty!) is how your surroundings and condition affects you. eg. cover, fatigue, etc. Here bonuses stack unless they are from the same source. (eg, you can only have one bonus from cover, you can only have one penalty from viper poison etc.).
+- **Not proficient**: [Stat bonus + Base] + [outside factors]
+- **Proficient** (Str, Dex, Con): [Stat bonus + Base + **Nat**] + [outside factors]
+- **Proficient** (Int, Wis, Cha): [Stat bonus + Base + **Sup**] + [outside factors]
 
+### Hit Threshold (HiT)
 
-- **Skills**: A character has skills.
-- **Proficiencies**: A character has proficiencies. These are discrete skills where you either know how to use them, or you don't. A character that is not proficient with a thing either can't use it or uses it with a penalty.
-- **Resource Pools**: A character has resource pools. These are a critical part of the game and are explained below.
+A character has an armour class/hit threshold, this is a measure of how difficult its physical (or spiritual) form is to damage using targeted attacks. It can represent any combination of armour and evasive ability and is something of an abstraction of how hard a character is to damage with a targeted attack: A targeted attack either penetrates defences, with the potential of doing damage, (hit) or it does not (miss). This is an abstraction with the following components:
 
-#### Resource Pools
- 1. **HP pool**. This represents your health or life force. Loss of HP represents physical/spiritual damage/degradation.
-   - An entity at 1/2 HP gains penalties.
-   - An entity at 0 HP is disabled and cannot act.
-   - An entity at -HP total is destroyed.
-   - A character regains a single point of HP per long rest (usually a day). If a character receives long term medical care this becomes 2HP.
-   - A character has maximum HP=CON+CHA+LEVEL.
-   - When a character with no SP takes natural damage, it loses HP equal to the damage taken.
-   - When a character with no MP takes supernatural damage, it loses HP equal to the damage taken.
+  - Base HiT (ALWAYS 10).
+  - **Evasion** (avoiding the brunt of the attack, eg dodging). In general this is equal to the Dex (stat) bonus.
+  - **Deflection** (deflecting the brunt of the attack through active means, eg parrying)
+  - **Shield** (deflecting the brunt of the attack through passive means, eg shields)
+  - **Armour** (absorbing/nullifying the brunt of the attack through, eg a breast plate or dragon's scales)
 
-- **MP dice pool**. This is the determinant of "MP pool".
-  - A character has a capacity of up to 3 MP dice per level + CHA.
-  - A character uses MP dice to fuel powerful mental/spiritual abilities.
-  - A character with 0 MP dice cannot use the more powerful supernatural abilities that require MP.
-  - A character regains 1/2 of all MP dice on any "rest" [whatever that may be in duration].
-- **Mana pool**. This is a measure of an entities' mental/spiritual energy.
-  - A character has maximum MP = CHA x LEVEL + [MP dice count] x 2.
-  - When a character uses an MP dice, it loses 2 MP.
-  - When a character regains an MP dice, it regains 2 MP.
-  - When a character takes natural damage it loses 1 MP per point of damage.
-  - If a character takes more than [CON + 2 x MP dice total] damage from a single supernatural/mental attack, the remainder is subtracted from HP.
-  - When a character rests, it regains [1/2 x CON x LEVEL] MP.
+ Thus the final HiT is **[10 + Evasion + Deflection + Shield + Armour]**
 
+ In some cases not all components of HiT are used.
 
-- **SP dice pool**. This is the determinant of "SP pool".
-  - A character has a capacity of up to 3 SP dice per level + CON.
-  - A character uses SP dice to fuel powerful physical/natural abilities.
-  - A character with 0 MP dice cannot use the more powerful supernatural abilities that require SP.
-  - A character regains 1/2 of all SP dice on any "rest" [whatever that may be in duration].
-- **Stamina pool**. This is a measure of an entity's physical energy, stamina.
-  - A character has maximum SP = CON x LEVEL + [SP dice count] x 2.
-  - When a character uses an SP dice, it loses 2 SP.
-  - When a character regains an SP dice, it regains 2 SP.
-  - When a character takes natural damage it loses 1 SP per point of damage.
-  - If a character takes more than [CON + 2 x SP dice total] damage from a single natural/physical attack, the remainder is subtracted from HP.
-  - When a character rests, it regains [1/2 x CON x LEVEL] SP.
+  - Some attacks ignore armour (a ghost's touch, a musket bullet at close range, a death ray). In this case **HiT = [10 + Evasion + Deflection + Shield]**.
+  - Sometimes the character is not in a position to evade of actively deflect an attack ("surprised" or "immobilised"). In this case **HiT = [10 + Shield + Armour]**.
 
-#### Bonuses for attack, saves and abilities.
-**NB**: This is experimental and probably quite controversial. The idea is to have a class-free Pathfinder style "base attack bonus"-like bonus, but less extreme.
+For each component (eg Armour), the Sup and Nat aspect stack. However for each aspect only the highest bonus applies. Eg: If a character wears a full plate on top of padded armour, only the bonus for the full plate applies. Also your character's gonna be really hot and sweaty.
 
-- **Base proficiency bonus (Base)**: This bonus is a modifier added to all attacks and saves. It is determined purely by level.
-  - **Base = [LEVEL / 5] rounded up**
-  - So at levels 1-5, base=1. At levels 6-10, base=2, at levels 11-15, base=3.
+### Skills and Proficiencies.
 
+A character has skills and proficiencies. They generally represent the mundane ability to carry out learned activities and use tools:
 
-- **Stat Bonus**: For attacks, skills, saves, and often damage, the roll is modified by the **Stat Bonus**, derived from base "stats". This is calculated as follows:
-  - **[(STAT - 11) / 2] rounded up**. (this is the same as PF/DnD I think?)
-  - Sometimes multiple stats might determine a stat bonus.
+- **Skills:** are general abilities that cover a range of activities that a character can learn and improve in with time. A character not proficient with a skill lacks specialist knowledge and training associated with the activity and has the dice roll capped at 13 before bonuses and penalties.
+- **Proficiencies:** A proficiency is the knowledge and ability in using a very specific set of tools or abilities. A character who is not proficient with a tool, kit or technique either cannot use it or takes a hefty penalty when they try.
 
+The number of skill points a character can have in a single skill is capped to:
 
-- **Skill points (Skill):** A character gets skill points based on level and intelligence. The maximum number of points in one skill is as follows:
-  - **[LEVEL / 2] rounded up**.
+- **[LEVEL / 2]** (rounded up)
+- A skill bonus for a given skill is: **[Base (optional)] + [ranks] + [ability bonus]** (see "Skills" chapter)
 
+### Abilities
 
-- **Natural Bonus (Nat)**: This is a bonus added to all natural/physical attacks, and STR, DEX and CON based saves. It is determined by SP/"SP dice" as follows:
-  - **Nat = [SP / 6] rounded up**
-  - So a character with 29 "SP dice" has a Nat = 4.
+These are the really cool abilities that a character has, like throwing fire balls, healing otherwise lethal walls, or being able to chop a giant rock in half (or carry said rock). In short extra "things" that a character can do that it might not be able to do, or the ability to withstand things it might not be able to withstand otherwise. A character can gain abilities in exchange for level points.
 
-
-- **Supernatural Bonus (Sup)**: This is a bonus added to all supernatural/magic attacks, and INT, WIS and CHA based saves. It is determined by MP/"MP dice" as follows:
-  - **Sup = [MP / 6] rounded up**
-  - So a character with 30 "SP dice" has a Nat = 5.
-
-
-As such the three (and a half) base rolls modifiers are calculated as follows.
-- **Skill roll = 2d12 + [Base] + Skill + Stat + [other factors]** (This reflects that how well an entity does at a trainable activity depends on its natural aptitude (stat), its specific training (skill), and general transferable experience (base)): Optional, base is added to a number of skills equal to a character's level).
-- **Ability roll = 2d12 + Stat + [other factors]** (This is used for checks where the raw ability with no skill is used.)
-- **Save/Attack roll = 2d12 + Base + [Nat] + Stat + [other factors]** (Con, Dex, Str)
-- **Save/Attack roll = 2d12 + Base + [Sup] + Stat + [other factors]** (Cha, Int, Wis)
-
-
-A character does not add their Nat or Sup to saving throws and attacks they are not proficient with. I DON'T KNOW HOW MANY SAVING THROWS A CHARACTER SHOULD HAVE PROFICIENCY IN BY DEFAULT. But it probably should not be more than 2.
-
-#### Save Difficulty Class
-**NB**: This is experimental and probably quite controversial. The idea is to have a class-free Pathfinder style "base attack bonus"-like bonus, but less extreme.
-
-Many phenomena/abilities force a saving throw/roll. We have gone through calculations for saving throws, but what about the value they are rolling against? This is the "Difficulty Class" of the ability.
-- For natural abilities this is: **12 + Base + Nat + Stat + [other factors]**
-- For supernatural abilities this is: **12 + Base + Sup + Stat + [other factors]**
-
-So for Bob, a 6th level character with an INT of 18 (+4) and 14 "MP Dice" the DC of a supernatural ability could be: 12 + 2(level) + 2(MP dice) + 4(Int) = 20. For Alice, the 5th level character with a WIS of 15 (+2) and 6 "MP Dice", the save bonus would be: 1(level) + 1(MP dice) + 2(WIS) = 4. And she must roll 20 - 4 = 16/24 to pass. Yikes! On the other hand for, for Aerith, a 8th level character with a WIS of 20 (+5) and 19 "MP dice" the save bonus might be 2(level) + 3(dice) + 5(WIS) = 10, so she must roll a 10/24 on the dice. (And this is before we take into account the +2/-2 rule).
-
----
 
 ## Version
 

@@ -176,9 +176,19 @@ Every time a character levels up it gains:
 + 1 HP
 + 3 dice points to share between gaining SP dice and MP dice.
 + [3 + Int] skill points to put into skill ranks and proficiencies. 
++ 1 skill to add to background skills
 + 3 level points, to be used for abilities, or exchanged for skill points (3 skill points per level point).
 
 A character must spend all points when it levels up. It cannot horde unspent points waiting for the next level.
+
+At level one a character starts with:
+
++ 1 + [Con] + [Cha] HP, with a minimum of 1
++ 3 dice points + 1 SP dice + 1 MP dice
++ 3 + [3 + Int] skill points
++ 1 background skill
++ 3 level points
++ Any benefits and properties it inherits from its type and race.
 
 #### Base
 
@@ -278,13 +288,20 @@ This is the "natural" (Nat) and "supernatural" (Sup) component of many bonuses. 
 
 Attack Potentials and Attack Thresholds are used to determine the potence, or more accurately success rate of a character's offensive abilities. They are bonus added to all targeted attack rolls a character makes. NAP is used for natural attacks, SAP is used for supernatural attacks.
 
-**Natural Attack Potential** (NAP) is the bonus used for all of a character's "natural" attacks. **NAP = [Base + Nat + Str/Con/Dex]**
+**Natural Attack Potential** (NAP) is the bonus used for all of a character's "natural" attacks.
+- **NAP = [Base + Nat]**
+- A total bonus for an "natural" attack = NAP + Str/Dex
 
-**Supernatural Attack Potential** (SAP) is the bonus used for all of a character's "supernatural" attacks. **SAP = [Base + Sup + Int/Wis/Cha]**
+**Supernatural Attack Potential** (SAP) is the bonus used for all of a character's "supernatural" attacks.
+- **SAP = [Base + Sup]**
+- A total bonus for a "supernatural" attack = SAP + Int/Wis
+
 
 **Natural Attack Threshold** (NAT) is **NAP + 13**. A target of a character's "natural" abilities rolls a save against the character's NAT.
+- The threshold for a character's "natural" abilities = NAT + Str/Dex
 
 **Supernatural Attack Threshold** (SAP) is **NAP + 13**. A target of a character's "supernatural" abilities rolls a save against a character's SAP.
+- The threshold for a character's "supernatural" abilities = SAP + Int/Wis
 
 ### Saving throws
 
@@ -316,8 +333,8 @@ A character has six saving throws, one for each stat. Abilities and effects that
 A character can either be proficient, or not proficient with a save. The calculation for the save bonus is as follow:
 
 - **Not proficient**: [Stat bonus + Base] + [outside factors]
-- **Proficient** (Str, Dex, Con): [Stat bonus + Base + **Nat**] + [outside factors]
-- **Proficient** (Int, Wis, Cha): [Stat bonus + Base + **Sup**] + [outside factors]
+- **Proficient** (Str, Dex, Con): [NAP + Stat bonus] + [outside factors]
+- **Proficient** (Int, Wis, Cha): [SAP + Stat bonus] + [outside factors]
 
 ### Hit Threshold (HiT)
 
@@ -352,7 +369,67 @@ The number of skill points a character can have in a single skill is capped to:
 
 ### Abilities
 
-These are the really cool abilities that a character has, like throwing fire balls, healing otherwise lethal walls, or being able to chop a giant rock in half (or carry said rock). In short extra "things" that a character can do that it might not be able to do, or the ability to withstand things it might not be able to withstand otherwise. A character can gain abilities in exchange for level points.
+These are the really cool abilities that a character has, like throwing fire balls, healing otherwise lethal walls, or being able to chop a giant rock in half (or carry said rock). In short extra "things" that a character can do that it might not be able to do, or the ability to withstand things it might not be able to withstand otherwise. A character can gain abilities in exchange for level points. Abilities are covered in the "Abilities" chapter.
+
+## Tables
+
+#### Level parameters
+
+|Level|Base|Total SP/MP dice|Max Skill ranks|
+|-|-|-|-|
+|1|1|5|1|
+|2|1|8|1|
+|3|1|11|2|
+|4|1|14|2|
+|5|1|17|3|
+|6|2|20|3|
+|7|2|23|4|
+|8|2|26|4|
+|9|2|29|5|
+|10|2|32|5|
+|11|3|35|6|
+|12|3|38|6|
+|13|3|41|7|
+|14|3|44|7|
+|15|3|47|8|
+|16|4|50|8|
+|17|4|53|9|
+|18|4|56|9|
+|19|4|59|10|
+|20|4|62|10|
+
+#### Nat vs SP dice and Sup vs MP dice.
+
+Nat vs SP dice and Sup vs MP dice are exactly the same. Therefore only one table needs to be given. Here we give Nat vs SP dice, but the numbers for Sup vs MP dice is the same.
+
+|SP dice| Nat|
+|-|-|
+|1-6|1|
+|7-12|2|
+|13-18|3|
+|19-24|4|
+|25-30|5|
+|31-36|6|
+|37-42|7|
+|43-48|8|
+|49-54|9|
+|55-60|10|
+|60-62|11|
+
+#### NAP from Base and Nat
+
+This table is not necessary since it is a simple addition for Nat + Base. However, what harm can come from one more table? (SAP from Base and Sup is **exactly** the same)
+
+||Base|1|2|3|4|
+|-|-|-|-|-|-|
+|Nat||||||
+|1||2|3|4|5|
+|2||3|4|5|6|
+|3||4|5|6|7|
+|4||5|6|7|8|
+|5||6|7|8|9|
+|6||7|8|9|10|
+|7||8|9|10|11|
 
 
 ## Version

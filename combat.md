@@ -7,8 +7,8 @@ This system deals heavily with combat and many of the mechanics are tuned to wor
 All entities have:
 - HiT (Hit Threshold): Representing how difficult it is to cause it damage with a targeted attack.
 - 6 Saves, one for each stat: Representing how well a target resists targeted effects and area of effect attacks.
-- NAP (Natural Attack Potential): How effectively an entity overcomes defences with Nat targeted attacks and the threshold for its Nat abilities and area of effect attacks. NAP is determined by base, SP dice count and Dex or Str bonus.
-- SAP (Supernatural Attack Potential): How effectively an entity overcomes defences with Sup targeted attacks and the threshold for its Sup abilities and area of effect attacks. SAP is determined by base, MP dice count and Int or Wis.
+- NAP (Natural Attack Potential): How effectively an entity overcomes defences with Nat targeted attacks and the threshold for its Nat abilities and area of effect attacks. NAP is determined by base and SP dice count, and adds [Dex] or [Str].
+- SAP (Supernatural Attack Potential): How effectively an entity overcomes defences with Sup targeted attacks and the threshold for its Sup abilities and area of effect attacks. SAP is determined by base and MP dice count and adds [Int] or [Wis].
 
 The calculation of these parameters is covered in basic rules. There are three categories of offensive abilities: "targeted attacks", "abilities" and "manoeuvres".
 
@@ -129,30 +129,30 @@ Any adventurer may attempt a martial manoeuvre. If an untrained combatant attemp
   - Effect: If attack succeeds damage is dealt to the target in accordance to the damage rules.
 - **Grapple**:
   - Effect: Reduce a foe's movement to 0.
-  - Requires attack roll vs target's NAT.
+  - Requires attack roll vs target's NAT+[Str or Dex].
   - Penalty if not proficient with **grapples**.
   - Attack of opportunity on failure.
 - **Restrain**:
   - Effect: Give a foe extra penalty.
   - Prerequisite: Foe must be prone or grappled.
-  - Requires attack roll vs target's NAT.
+  - Requires attack roll vs target's NAT+[Str or Dex].
   - Penalty if not proficient with **grapples**.
   - The one executing this manoeuvre declares one of the desired outcomes:
    - "Silence": Prevent foe from completing incantations.
    - "Restrain": Prevent a foe from casting spells with somatic components and give penalties to weapon attacks.
 - **Shove**:
   - Effect: Moves a foe away from you by up to 10ft.
-  - Requires attack roll vs target's NAT.
+  - Requires attack roll vs target's NAT+[Str or Dex].
   - Penalty if not proficient with **throws**.
 - **Throw**: A different flavour of shove.
 - **Trip**:
   - Effect: Knock a foe prone.
-  - Requires attack roll vs target's NAT.
+  - Requires attack roll vs target's NAT+[Dex].
   - Penalty if not proficient with **throws**.
   - On failure provokes attack of Opportunity if the foe is holding a weapon you are not proficient with AND you are not proficient with **throws**.
 - **Disarm**:
   - Effect: Liberate a foe of a weapon or item held.
-  - Requires attack roll vs target's NAT.
+  - Requires attack roll vs target's NAT+[Str or Dex].
   - Penalty if not proficient with **disarm**.
   - Provokes a penalty and attack of Opportunity if the foe is holding a weapon you are not proficient with AND you are not proficient with **disarm**.
   - If the weapon is light, the target has a -2 on the roll. If it is heavy, it has +2 on the roll.

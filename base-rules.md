@@ -110,6 +110,7 @@ Because stacking modifiers can easily "break" a game or lead to situations where
 - Modifiers can come from conditions.
 - Modifiers can come from circumstances or equipment.
 - Modifiers can come from passive abilities.
+- Modifiers from templates and size ALWAYS stack with other modifiers.
 - Modifiers can NEVER come directly from active martial or supernatural (spells) abilities (although use of such abilities can induce conditions, which might provide penalties).
 
 ---
@@ -155,7 +156,7 @@ A character has certain attributes that are inherent to it and are not easily ch
 
 1. **Entity type** define the base possibilities of a character (a plant does not require sleep, but usually requires water, air and "sustenance", it does "see" things. A spirit does not have a corporeal form and cannot be "touched" normally, a humanoid (animal) has a movement speed, and a corporeal form, usually with one head, one torso, two arms and two legs, requires air, water, sustenance, sleep and ages).
 2. The **race** determines some specific characteristics and attributes. (eg base movement speed, movement modality, lifespan, typical weight and height, certain resistances and vulnerabilities and special abilities).
-3. **Size category** [diminutive, tiny, small, medium, large, huge, gargantuan, colossal] affect how much space an entity takes up on (and off) a battlefield, its reach, its AC, and potentially other things.
+3. **Size category** [diminutive, tiny, small, medium, large, huge, gargantuan, colossal] affect how much space an entity takes up on (and off) a battlefield, its reach, its AC, and potentially other things. Size rules are described in a table in the "Size Rules" section.
 4. **Movement modalities** are usually determined by race and special abilities. A creature WITH a movement modality may (or may not!) be able to move over other terrain with an ability check. this is covered in "movement" rules:
     - **walk speed**: ground movement over horizontal-ish terrain.
     - **climb speed**: ground movement over vertical-ish terrain.
@@ -183,12 +184,16 @@ A character must spend all points when it levels up. It cannot horde unspent poi
 
 At level one a character starts with:
 
++ 1 template[level 0]
 + 1 + [Con] + [Cha] HP, with a minimum of 1
 + 3 dice points + 1 SP dice + 1 MP dice
 + 3 + [3 + Int] skill points
 + 1 background skill
 + 3 level points
 + Any benefits and properties it inherits from its type and race.
++ 1 homeland.
+
+In addition at level 8 and level 16 a character gets a "race boon" from its race.
 
 #### Base
 
@@ -414,7 +419,7 @@ Nat vs SP dice and Sup vs MP dice are exactly the same. Therefore only one table
 |43-48|8|
 |49-54|9|
 |55-60|10|
-|60-62|11|
+|61-62|11|
 
 #### NAP from Base and Nat
 
@@ -430,6 +435,21 @@ This table is not necessary since it is a simple addition for Nat + Base. Howeve
 |5||6|7|8|9|
 |6||7|8|9|10|
 |7||8|9|10|11|
+
+#### Size rules
+
+There are 8 size categories in the game [diminutive, tiny, small, medium, large, huge, gargantuan, colossal]. As this is a human-centric game, probably designed by a human, "medium", the standard size is about human sized. Size affects how much space an entity takes up, how much it can lift and carry, its reach, how well it dodges, and how thick its defences are. The following table describes how size affects a character.
+
+|Size|Space|Evasion|Armour|Dex Save|Str Save|Carrying capacity|Reach|
+|-|-|-|-|-|-|-|-|
+|Diminutive|5/8|+3|-3|+3|-3|x1/8|-|
+|Tiny|5/4|+2|-2|+2|-2|x1/4|-|
+|Small|5/2|+1|-1|+1|-1|x1/2|5ft|
+|Medium|5|0|0|0|0|x1|5ft|
+|Large|10|-1|+1|-1|+1|x2|5ft(long)|
+|Huge|20|-2|+2|-2|+2|x4|10ft|
+|Gargantuan|40|-3|+3|-3|+3|x8|15ft|
+|Colossal|80|-4|+4|-4|+4|x16|20ft|
 
 
 ## Version

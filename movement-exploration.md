@@ -21,7 +21,7 @@ Most creatures with a "walk" speed can:
 
 
 #### Swimming
-Creatures with a swim speed are often well adapted to their liquid medium, but are either incapable of moving on land or very clumsy. Creatures with a swim speed typically have speeds of 60-120ft and can perform "walk", "run" and "spring" actions in their liquid medium (usually water).
+Creatures with a swim speed are often well adapted to their liquid medium, but are either incapable of moving on land or very clumsy. Creatures with a swim speed typically have speeds of 60-120ft and can perform "walk", "run" and "sprint" actions in their liquid medium (usually water).
 - **Not Swimmers:** Creatures without a swim speed either do not swim at all (they sink), or are poor swimmers and can only move at 1/2 base speed (no "run" or "sprint" possible) and must make a [SKILL] or [ABILITY] check or start drowning/sinking if conditions are not ideal.
 - **Difficult terrain**: Turbulent waters or strong currents, kelp beds and thick, syrup are examples of difficult terrain.
 
@@ -41,7 +41,7 @@ Flight is an intriguing and liberating mode of movements. To terrestrial entitie
 However this comes with limitations:
 - A creatures with natural flight can only fly when carrying a light load and at most light armour.
 - They cannot use a shield or heavy weapon and must make concentration checks when casting spells.
-- They must have a wing span of at least 1ft per [3lb x Size] of weight. (with size=[1, 2, 3, 4] for ["small", "medium", "large", "huge"] creatures respectively). This has general penalties and in particular this causes penalties on [DEX] and [STR] saves when not in flight, cannot dig and have a penalty to swim and walk speeds.
+- They must have a wing span of at least 1ft per [3lb / Size] of weight. (with size=[1, 2, 3, 4] for ["small", "medium", "large", "huge"] creatures respectively). This has general penalties and in particular this causes penalties on [DEX] and [STR] saves when not in flight, cannot dig and have a penalty to swim and walk speeds.
 - If they slow to lower than 1/2 their speed in a given terrain, they must land or fall.
 - A flying creature that is knocked prone, or tripped, drops a distance equal to its speed and can only move at half speed on its next turn. If this drop causes it to hit the ground, it suffers all of the consequences of falling (see "Falling" section).
 

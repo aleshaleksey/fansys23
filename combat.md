@@ -109,7 +109,35 @@ The actions an entity may take might also be restricted by its conditions and ge
 - "**Non-action**": Entities also carry out certain activities autonomously as part of their existence. These do not usually require actions (eg breathing). Concentrating is also a non-action.
 
 ---
+## Space in combat
+
+Combat can take place purely in imaginary space (ie. theatre of the mind), on paper, crafted terrain, ora virtual desktop. In either case most combatants take up space and move through space. Many manoeuvres, spells and other abilities deal with manipulating friend and foe in this space. The game can be played completely ignoring space, but it does change the balance quite severely. On the other hand, there are times when an exact map is not needed. For example, combat is taking place in a small room where all targets are within hand's reach. Alternatively if there is a chase or shoot-out with 600ft of space between combatants, mapping map be equally impractical.
+
+### Squares and Hexes
+
+Space is divided into squares or hexagons (hexes). Usually squares are used, and we will discuss hexes no further (although they are a a perfectly good way of dividing space). Normally the size of a square is 5ft across. This also extends upwards and downwards.
+
+### Range and reach
+
+Attacks have a range and reach. Range and reach is measured in 5ft increments for simplicity.
+
+Melee attacks and manoeuvres have a reach between 0ft-30ft. Ranged attacks have a range of up to a few miles (but usually 60-600ft). The range of a melee attack or ability is called its "reach".
+
+The normal reach for medium sized creatures is 5ft (aka into the adjacent square or one square). Sometimes a reach can be described as "long". This means that an entity may use a "secondary action", to extend a single by 5ft. A reach of 10ft will reach two squares, a reach of 15ft will reach 3 squares and so on. If a creature with a reach of "long" uses a weapon with a range of "long", the long descriptors cancel out, and the range is increased by 5ft.
+
+### Creature sizes, reach and combat
+
+Size is, amongst other things, a measure of how much space an entity occupies. This affects various combat parameters and can be seen in the "Size rules". Tiny and diminutive entities that have a reach of 0ft must occupy the same square as their target to make the attack.
+
+Likewise entities that are separated by at least two categories (eg Diminutive and medium, medium and gargantuan, large and colossal, small and colossal) can usually occupy the same space without penalty. Although the DM may ask for Dex saves (threshold=NAT+Str of the bigger entity) on the turn of the bigger entity or be knocked prone.
+
+### Threatened area and Attacks of Opportunity (AoO)
+
+Any square within the reach of a hostile entity's melee attacks is considered threatened (this usually includes squares that the hostile entity occupies). Targets moving out of a threatened square provoke an attack of opportunity. If a target is moving out of one threatened square into another threatened square may avoid AoOs by declaring "careful movement" and halving their movement speed for the rest of the turn.
+
+---
 ## Basic combat manoeuvres and tactical movement.
+
 This is a collection of unsorted rules related to basic physical combat.
 - Dropping/falling "prone" does not cost movement.
 - Standing can be done as part of a "move" action and costs 1/2 your movement speed rounded down.

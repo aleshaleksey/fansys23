@@ -36,9 +36,23 @@ Weapons are tools that increase the lethality of martial combatants. For the sak
 
 As other objects, weapons have HP and can be broken, either by misuse, bad dice luck or abilities similar to "sunder". When a weapon's HP reaches 0, it is broken and cannot be used until repaired (more precisely it can be used, but counts as Unarmed:Strike).
 
+### Ranged Weapons, collateral and melee
+
+Ranged weapons fired while you are in melee are made at disadvantage.
+
+Ranged attacks may hit other targets on the same line. If an entity's hex/square is intersected by the line from hte center of your square to the center of your target's square, and your attack meets the entity's [HiT + 5], it takes the damage instead.
+
 ### Range increments
 
 It is harder to hit and hit effectively with a ranged weapon at greater distances. This is reflected by the range increment. Not all ranged weapons have the same size or number of ranged increments, reflecting that while some weapons might have a higher absolute range, they do not perform as well at long ranges (harder to aim, loss of projectile speed, etc).
+
+### High ground and weapon ranges
+
+When using melee weapons, attacking from high ground gives advantage, attacking from low ground gives disadvantage.
+
+When using ranged weapons, attacking upwards more than 45 degrees halves the range increment and multiplies total range by 3/4. Attacking downwards more than 45 degrees doubles the range increment, however does not increase effective range (an arrow dropped from a plane will hit the ground, but is almost impossible to aim accurately).
+
+As an **optional** rule: Weapons fired downwards beyond the weapon range are aimed at a square (HiT = 10 + number of range increments). If the attack hits the square, the target makes a Dex save vs the attackers NAT (not NAP, NAT) without modifiers. On a successful save, the attack does damage.
 
 ### Weapon properties
 

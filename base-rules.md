@@ -220,6 +220,36 @@ A character has six **base attributes**. Each one represents how "strong" some a
 6. **Cha**: Force of Personality, pluck, mental resilience. Upstream of HP, MP, aspects of social interactions.
     - An entity with zeo Cha has no will, drive or "spirit". It is generally catatonic. If not, it might obey any instructions it receives to the letter. Such entities are not affected by "spiritual" weapons.
 
+#### Stat assignment
+
+The bases value for stats of a character is 10. When a character is created, this value is modified. Stats can be assigned either with dice rolls, or with a "point buy" system. The usual rule for rolling up stats is (there are other methods which produce other results):
+
+1. Roll 4d6, count the total of the highest 3 dice (4d6dl1).
+2. These 6 totals, in any order are your character's stats.
+3. Apply racial/template modifiers.
+4. If any stat is below 5, raise it to 5.
+
+The rules for point buy are (this is for the standard "24 point buy"):
+
+1. Start with all stats at 10.
+2. Add or subtract points until the remaining points are 0.
+
+The point cost for point buy is as follows.
+
+|Value|Bonus|Total Cost|
+|-|-|-|
+|8|-1|-2|
+|9|-1|-1|
+|10|0|0|
+|11|0|1|
+|12|+1|2|
+|13|+1|3|
+|14|+2|4|
+|15|+2|6|
+|16|+3|8|
+|17|+3|11|
+|18|+4|14|
+
 ### Resource pools
 
 A character has resource pools. These are a critical part of the game and are explained below.

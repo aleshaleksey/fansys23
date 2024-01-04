@@ -136,7 +136,7 @@ Extra:
 - +2 to any one skill. 
 - Any 2 proficiencies.
 
-Race boon:
+Race boon (level 8 and 16):
 - +2 bonus to any stat.
 - 4 skill points to spend on skills and proficiencies.
 
@@ -154,7 +154,7 @@ Extra:
 - +2 Observe
 - Resistance to "Charmed"
 
-Race boon:
+Race boon (level 8 and 16):
 - Immunity to one of "Charmed", "Blinded", "Stunned" or "Bleeding".
 - +5 to walking speed
 
@@ -171,7 +171,7 @@ This is a race that is closer to the feral side of humanoids. They are stronger 
 Extra:
 - Resistance to bludgeoning and advantage on saves vs "Prone".
 
-Race boon:
+Race boon (level 8 and 16):
 - Resistance to one of "piercing", "slashing" or "pressure" or "shear".
 - +1 Con, +1 Str.
 
@@ -189,7 +189,7 @@ Extra:
 + 2 to Fly
 + 2 to Observe
 
-Race boon:
+Race boon (level 8 and 16):
 - +1 fly level.
 - +10 fly speed.
 
@@ -210,7 +210,7 @@ Extra:
 - Incantation Magic (level 1).
 - +2 Navigate.
 
-Race boon:
+Race boon (level 8 and 16):
 - +5 to movement speed.
 - +2 to one of "Str", "Dex", "Con" or "Wis"
 - 1 level of incantation magic.
@@ -312,6 +312,6 @@ Leveling up, strangely enough, is quite easy, if not for the agony of choice. Ea
 
 A character must spend all points when it levels up. It cannot horde unspent points waiting for the next level.
 
-### Play!
+### Play
 
-There's quite a few rules that govern how various actions are resolved, and this can be learned on the go, or studied before hand. Those rules are covered in "Weapons and Armour", "Combat" "Movement and Exploration", "Skills" and "Conditions and Types". Live and learn.
+Go get kitted out, and go out into the world and become a legend. There are a lot of different situations that a party can encounter in this game. And of course there are rules that govern how to resolve them. They are covered in "Weapons and Armour", "Combat" "Movement and Exploration", "Skills" and "Conditions and Types". Live and learn.

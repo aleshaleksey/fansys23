@@ -213,7 +213,7 @@ Extra:
 Race boon:
 - +5 to movement speed.
 - +2 to one of "Str", "Dex", "Con" or "Wis"
-- 1 level of nature magic.
+- 1 level of incantation magic.
 
 ### Skills and abilities
 

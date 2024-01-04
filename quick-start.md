@@ -121,7 +121,7 @@ Templates generally give some small bonuses, a few nice features, some of which 
 
 I am not sure which ones exist in your setting, but I quite like these ones.
 
-#### Human (level-0 template = 4 points)
+#### Human (level-0 template)
 
 Human represents the human race. The human race is the base. Humans have no special senses, resistances, movement modalities or spooky abilities. To compensate this, they adapt quickly to new environments, and learn appropriate skills quickly as soon as they are old enough to walk. Humans have a lifespan that does not exceed a century, reach a breeding age in their teens and can produce up to two dozen offspring in their lifetime.
 - **Size**: Medium (Height: ~5'8", Weight: ~140lb)
@@ -131,12 +131,12 @@ Human represents the human race. The human race is the base. Humans have no spec
 - **Type**: Humanoid (needs to breathe, drink, eat, and sleep). Humans age.
 - **Proficiencies**: Common Language.
 
-Extra (4 points):
+Extra:
 - A +2 bonus to any stat, and +1 to two other stats.
 - +2 to any one skill. 
 - Any 2 proficiencies.
 
-Race boon: (3 points)
+Race boon:
 - +2 bonus to any stat.
 - 4 skill points to spend on skills and proficiencies.
 
@@ -144,16 +144,16 @@ Race boon: (3 points)
 
 This is a race that is closer to the fey, either created when fey spirits took material form in exchange for something, or when they mingled with humankind, or bestowed their "gifts" upon humans long ago. Elves/Fey touched live ridiculously long lives. Compared to humans they have slender, wiry bodies and longer ears. They are known as sometimes known as the "fair folk" and see well in twilight hours.
 - **Size**: Medium (Height: ~5'8", Weight: ~115lb)
-- **Stats**: (Str: 0, Dex: +2, Con: -2, Int: 0, Wis: 0, Cha: 0)
+- **Stats**: (Str: 0, Dex: +2, Con: -2, Int: 0, Wis: 0, Cha: +2)
 - **Movement**: Walk 30ft
-- **Sight**: Normal, low-light vision. (1 point)
-- **Type**: Humanoid (needs to breathe, drink, eat and sleep). Elves do not age. (1 point)
-- **Proficiencies**: Common, Elvish tongues. Bows OR one class of instrument. (1 point)
+- **Sight**: Normal, low-light vision.
+- **Type**: Humanoid (needs to breathe, drink, eat and sleep). Elves do not age.
+- **Proficiencies**: Common, Elvish tongues. Bows OR one class of instrument.
 
 Extra:
 - +2 Observe
 
-Race boon: (3 points)
+Race boon:
 - Immunity to one of "Charmed", "Blinded", "Stunned" or "Bleeding".
 - +5 to walking speed
 
@@ -161,27 +161,34 @@ Race boon: (3 points)
 
 This is a race that is closer to the feral side of humanoids. They are stronger and sturdier than humans, are apt hunters, but tend to lack aptitude for the academic. Orcs lead shorter lives than humans and reproduce even faster.
 - **Size**: Medium (Height: ~6'0", Weight: ~185lb)
-- **Stats**: (Str: +2, Dex: 0, Con: +2, Int: -8, Wis: 0, Cha: 0) (1 points)
+- **Stats**: (Str: +2, Dex: 0, Con: +2, Int: -2, Wis: 0, Cha: 0)
 - **Movement**: Walk 30ft
-- **Sight**: Normal, heat vision. (1 point)
+- **Sight**: Normal, heat vision.
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
-- **Proficiencies**: Common. Strikes AND Slings. (1 point)
+- **Proficiencies**: Common. Strikes AND Slings.
+
+Extra:
+- Resistance to bludgeoning and advantage on saves vs "Prone".
+
+Race boon:
+- Resistance to one of "piercing", "slashing" or "pressure" or "shear".
+- +1 Con, +1 Str.
 
 #### The Winged (level-0 template)
 
 This is a race of winged humanoids that live in high and isolated places, as well as loci associated with elemental air. They are small of stature, sharp sighted, and often shy of other races.
 - **Size**: Medium (Height: ~3'3", Weight: ~32lb, Wingspan: ~11ft.)
 - **Stats**: (Str: -2, Dex: +2, Con: 0, Int: 0, Wis: 0, Cha: 0)
-- **Movement**: Walk 20ft, Fly 60ft (average). (2 point)
+- **Movement**: Walk 20ft, Fly 60ft (average).
 - **Sight**: Normal.
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
 - **Proficiencies**: Common.
 
 Extra:
-+ 2 to Fly (1 point)
-+ 2 to Observe (1 point)
++ 2 to Fly
++ 2 to Observe
 
-Race boon: (3 points)
+Race boon:
 - +1 fly level.
 - +10 fly speed.
 
@@ -189,20 +196,20 @@ Race boon: (3 points)
 
 This is a race of intelligent beasts that dwells in the deepest wilderness. It is thought that they are guardians of the wild, created ancient guardians of those places. Outwardly they take many forms.
 - **Size**: Large (Height: ~6', Weight: ~600lb)
-- **Stats**: (Str: +2, Dex: 0, Con: 0, Int: 0, Wis: +2, Cha: 0) (2 points)
-- **Movement**: Walk 40ft. (2 Points)
-- **Sight**: Normal, keen-scent. (1 point)
+- **Stats**: (Str: +2, Dex: 0, Con: 0, Int: 0, Wis: +2, Cha: 0)
+- **Movement**: Walk 40ft.
+- **Sight**: Normal, keen-scent.
 - **Type**: Monster (needs to breathe, drink, eat and sleep). Ages.
 - **Proficiencies**: Common.
 
 Penalties:
-- Beasts of the Green have no prehensile limbs. (-2 points)
+- Beasts of the Green have no prehensile limbs.
 
 Extra:
-- Nature Magic (level 1). (1 point)
+- Incantation Magic (level 1).
+- +2 Navigate.
 
-
-Race boon: (3 points)
+Race boon:
 - +5 to movement speed.
 - +2 to one of "Str", "Dex", "Con" or "Wis"
 - 1 level of nature magic.

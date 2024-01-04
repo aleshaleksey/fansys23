@@ -25,7 +25,7 @@ For higher power games, where players wish to play angels, devils, dragons and o
 
 A level 1 character, before being build, has:
 - **Size**: Medium
-- **Stats**: All stats set to 10
+- **Stats**: No modifier to any stats.
 - **Movement**: A walking speed of 30ft and no other movement modalities
 - **Senses**:  Hearing, Sight, Smell, Taste, and Touch.
 - **Sight**: Sight in bright light and disadvantage in dim light (aka, no dark-vision or low-light vision)
@@ -41,56 +41,77 @@ The base template allows the following:
 
 **Size change:** Change size to small or large. This comes with advantages and disadvantage.
 
-**Template points**: A template gains **4 template points**. Template points may be spent in a packet, or one by one.
+**Template points**: A template gains **8 template points**. Template points may be spent in a packet, or one by one.
 
-One template point can gain:
+One template point:
+- Advantage on saves vs one B or C class conditions.
+  - A template may grant only 2 condition resistances or immunities per template level.
+- A single proficiency.
+  - A template can never grant more than 4 proficiencies per template level.
+- A permanent +1 to a single stat.
+  - A template may only grant +2 to the same stat ONCE per template level.
+- Speed increase to climb, walk, or swim speed by 5ft.
+  - A single template level can increase climb, walk or swim speeds by no more than 15ft.
+- Remove the "ageing" necessity.
+- Enhance a sense (low-light vision, keen-smell, keen-hearing).
 
+
+Two template points:
 - Resistance to a C or B Class damage type and one associated (B or C Class) condition.
   - A template may grant only 1 damage resistance or immunity per template level.
-- Advantage on saves vs two B or C class conditions.
-  - A template may grant only 2 condition resistances or immunities per template level.
-- A permanent +2 bonus to a single skill, OR 2 proficiencies.
+- A permanent +2 bonus to a single skill.
   - The template bonus to skills NEVER stack.
 - A 30ft climb speed or a 40ft swim speed.
-- A permanent +2 to a single stat, or +1 to two separate stats.
-  - A template may only grant +2 to the same stat ONCE per template level. 
-- Speed increase to climb, walk, or swim speed by 5ft. Increase fly speed by 10ft. Increase cosmic speed by 20ft.
+- Increase fly speed by 10ft. Increase cosmic speed by 20ft.
+  - A single template level can increase fly or consmic speed by no more than 20ft or 40ft respectively.
 - A passive or active (C class) ability with no prerequisites (eg water breathing).
-- Remove a necessity (age, sleep).
+- Enhance a sense (heat-sense, keen-sight).
+- Remove the "sleep" necessity.
 
-Two template points can gain:
-- Resistance to an A or S class damage type and one associated (B or C Class) condition.
-  - A template may grant only 1 damage resistance or immunity per template level.
+Three template points:
 - Advantage on saves vs one A or S class conditions.
   - A template may grant only 2 condition resistances or immunities per template level.
-- Immunity to a single B or C Class condition.
-  - A template may grant only 2 condition resistances or immunities per template level.
-- A passive or active (B class) ability with no prerequisites.
-- A 5ft dig speed or a 60ft (average) fly speed. Characters that pick this option have a -10ft speed penalty to their climb, walk and swim speeds.
-- Improve fly speed by a level (average -> good, good -> perfect).
 - A passive or active (B class) ability with no prerequisites.
 - Remove a necessity (drink or eat).
 
-Three template points can gain:
+Four template points:
+- Resistance to an A or S class damage type and one associated (B or C Class) condition.
+  - A template may grant only 1 damage resistance or immunity per template level.
+- Immunity to a single B or C Class condition.
+  - A template may grant only 2 condition resistances or immunities per template level.
+- A 5ft dig speed or a 60ft (average) fly speed. Characters that pick this option have a -10ft speed penalty to their climb, walk and swim speeds.
+- Improve fly speed by a level (average -> good, good -> perfect).
+- A passive or active (B class) ability with no prerequisites.
+
+
+Five Template points:
+- Remove a necessity (breathe).
+- Immunity to a single A Class condition.
+  - A template may grant only 2 condition resistances or immunities per template level.
+
+
+Six Template points:
 - Immunity to an A class damage type and one associated condition.
   - A template may grant only 1 damage resistance or immunity per template level.
-- Immunity to a single A or S Class condition (this does more harm than good sometimes).
-  - A template may grant only 2 condition resistances or immunities per template level.
-- A passive or active (A class) ability with no prerequisites.
 - A blink speed (30ft).
   - Template must be at least level 2 to have a blink speed.
 - A cosmic speed (100ft).
   - A template must be at least level 5 to have a cosmic speed.
+- Immunity to a single S Class condition (this does more harm than good sometimes).
+  - A template may grant only 2 condition resistances or immunities per template level.
 - A passive or active (A class) ability with no prerequisites.
-- Remove a necessity (breathe).
 
-In addition you can gain an extra point for each:
-- Vulnerability.
-- Special Restriction (eg. Cannot cross flowing water).
+Eight Template points:
+- Immunity to an S class damage type and one associated condition.
+  - A template may grant only 1 damage resistance or immunity per template level.
+
+In addition you can gain points for each:
+- Vulnerability. (2)
+- Special Restriction (eg. Cannot cross flowing water). (2)
 
 ### Example Template
 
-#### Human (level-0 template = 4 points)
+#### Human (level-0 template = 8 points)
 
 Human represents the human race. The human race is the base. Humans have no special senses, resistances, movement modalities or spooky abilities. To compensate this, they adapt quickly to new environments, and learn appropriate skills quickly as soon as they are old enough to walk. Humans have a lifespan that does not exceed a century, reach a breeding age in their teens and can produce up to two dozen offspring in their lifetime.
 - **Size**: Medium (Height: ~5'8", Weight: ~140lb)
@@ -100,140 +121,143 @@ Human represents the human race. The human race is the base. Humans have no spec
 - **Type**: Humanoid (needs to breathe, drink, eat, and sleep). Humans age.
 - **Proficiencies**: Common Language.
 
-Extra (4 points):
+Extra (8 points):
 - A +2 bonus to any stat, and +1 to two other stats.
 - +2 to any one skill. 
 - Any 2 proficiencies.
 
-Race boon: (3 points)
+Race boon: (6 points)
 - +2 bonus to any stat.
 - 4 skill points to spend on skills and proficiencies.
 
-#### Elf/(Fey touched) (level-0 template)
+#### Elf/(Fey touched) (level-0 template = 8 points)
 
 This is a race that is closer to the fey, either created when fey spirits took material form in exchange for something, or when they mingled with humankind, or bestowed their "gifts" upon humans long ago. Elves/Fey touched live ridiculously long lives. Compared to humans they have slender, wiry bodies and longer ears. They are known as sometimes known as the "fair folk" and see well in twilight hours.
 - **Size**: Medium (Height: ~5'8", Weight: ~115lb)
-- **Stats**: (Str: 0, Dex: +2, Con: -2, Int: 0, Wis: 0, Cha: 0)
+- **Stats**: (Str: 0, Dex: +2, Con: -2, Int: 0, Wis: 0, Cha: +2) (2 points)
 - **Movement**: Walk 30ft
 - **Sight**: Normal, low-light vision. (1 point)
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Elves do not age. (1 point)
-- **Proficiencies**: Common, Elvish tongues. Bows OR one class of instrument. (1 point)
+- **Proficiencies**: Common, Elvish tongues. Bows OR one class of instrument. (2 point)
 
 Extra:
-- +2 Observe
+- +2 Observe (2 point)
 
-Race boon: (3 points)
+Race boon: (6 points)
 - Immunity to one of "Charmed", "Blinded", "Stunned" or "Bleeding".
 - +5 to walking speed
 
-#### Orc (level-0 template)
+#### Orc (level-0 template = 8 points)
 
 This is a race that is closer to the feral side of humanoids. They are stronger and sturdier than humans, are apt hunters, but tend to lack aptitude for the academic. Orcs lead shorter lives than humans and reproduce even faster.
 - **Size**: Medium (Height: ~6'0", Weight: ~185lb)
-- **Stats**: (Str: +2, Dex: 0, Con: +2, Int: -8, Wis: 0, Cha: 0) (1 points)
+- **Stats**: (Str: +2, Dex: 0, Con: +2, Int: -2, Wis: 0, Cha: 0) (2 points)
 - **Movement**: Walk 30ft
-- **Sight**: Normal, heat vision. (1 point)
+- **Sight**: Normal, heat vision. (2 point)
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
-- **Proficiencies**: Common. Strikes AND Slings. (1 point)
+- **Proficiencies**: Common. Strikes AND Slings. (2 point)
 
 Extra:
-- Resistance to bludgeoning and advantage on saves vs "Prone". (1 points)
+- Resistance to bludgeoning and advantage on saves vs "Prone". (2 points)
 
-Race boon: (3 points)
+Race boon: (6 points)
 - Resistance to one of "piercing", "slashing" or "pressure" or "shear".
 - +1 Con, +1 Str.
 
-#### Fiend-touched (level-0 template)
+#### Fiend-touched (level-0 template = 8 points)
 
 This represents those who have been touched by dark forces. Perhaps because of a pact, perhaps because of a dark ritual, perhaps because of whimsical evil. Or perhaps it's a bona fide race.
 - **Size**: Medium (Height: ~5'10", Weight: ~160lb)
-- **Stats**: (Str: +1, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: +1) (1 points)
+- **Stats**: (Str: +1, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: +1) (2 points)
 - **Movement**: Walk 30ft
 - **Sight**: Normal, low light vision. (1 point)
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
 - **Proficiencies**: Common.
 
 Extra:
-- Resistance to "poison" + "poisoned" (1).
-- Elemental touch (level 1) (1).
+- Resistance to "poison" + "poisoned" (2 points).
+- Resistance to "Bleeding". (1 point)
+- Elemental touch (level 1) (2 points).
 
-Race boon: (3 points)
+Race boon: (6 points)
 - Resistance to one of "piercing", "bludgeoning", "slashing" or "pressure" or "shear", "fire" or "ice".
 - +1 Str, +1 Cha.
 - +1 Elemental touch.
 
-#### Beast folk (level-0 template)
+#### Beast folk (level-0 template = 8 points)
 
 This is a race of humanoid that has various beast like traits, usually cat-like, or dog-like. This race is loved by degenerates.
 - **Size**: Medium (Height: ~5'8", Weight: ~140lb)
 - **Stats**: (Str: 0, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: 0)
-- **Movement**: Walk 30ft + Climb 30ft, or walk 35ft. (1 point)
+- **Movement**: Walk 35ft + Climb 30ft. (3 point)
 - **Sight**: Normal, low-light vision. (1 point)
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
 - **Proficiencies**: Common.
 
 Extra:
-- +2 Track.
-- +2 to Str or Dex.
+- +2 Track. (2 Points)
+- +2 to Str or Dex. (2 Points)
 
-Race boon: (3 points)
+Race boon: (6 points)
 - +10 to a movement speed of one modality.
 - One of "keen hearing", "keen scent".
 
-#### Beasts of the Green (level-0 template)
+#### Beasts of the Green (level-0 template = 8 points)
 
 This is a race of intelligent beasts that dwells in the deepest wilderness. It is thought that they are guardians of the wild, created ancient guardians of those places. Outwardly they take many forms.
 - **Size**: Large (Height: ~6', Weight: ~600lb)
-- **Stats**: (Str: +2, Dex: 0, Con: 0, Int: 0, Wis: +2, Cha: 0) (2 points)
+- **Stats**: (Str: +2, Dex: 0, Con: 0, Int: 0, Wis: +2, Cha: 0) (4 points)
 - **Movement**: Walk 40ft. (2 Points)
 - **Sight**: Normal, keen-scent. (1 point)
 - **Type**: Monster (needs to breathe, drink, eat and sleep). Ages.
 - **Proficiencies**: Common.
 
 Penalties:
-- Beasts of the Green have no prehensile limbs. (-2 points)
+- Beasts of the Green have no prehensile limbs. (-3 points)
 
 Extra:
-- Nature Magic (level 1). (1 point)
+- Incantation Magic (level 1). (2 point)
+- +2 Navigate.
 
-Race boon: (3 points)
+Race boon: (6 points)
 - +5 to movement speed.
 - +2 to one of "Str", "Dex", "Con" or "Wis"
 - 1 level of nature magic.
 
-#### The Sea People (level-0 template)
+#### The Sea People (level-0 template = 8 points)
 
 The sea people a race of humanoids that live in and around the islands of the shallow seas, and in the marshes and great lakes. They often disguise themselves as humans, for various reasons.
 - **Size**: Medium (Height: ~5'8", Weight: ~140lb)
 - **Stats**: (Str: 0, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: 0)
-- **Movement**: Walk 30ft, Swim 40ft. (1 point)
+- **Movement**: Walk 30ft, Swim 40ft. (2 point)
 - **Sight**: Normal.
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
-- **Proficiencies**: Common, Cetacean AND disguise kit.
+- **Proficiencies**: Common, Cetacean. (1 point)
 
 Extra:
-- Water breathing (1 point)
-- Resistance to "Cold" OR +2 Swim. (1 point)
+- Water breathing (2 points)
+- Resistance to "Cold" OR +2 Swim. (2 point)
+- Resistance to "Aphonia".
 
-Race boon: (3 points)
+Race boon: (6 points)
 - +5 to swim speed.
 - One of "life sense (1 level)" or "blind sight (1 level)".
 
-#### The Winged (level-0 template)
+#### The Winged (level-0 template = 8 points)
 
 This is a race of winged humanoids that live in high and isolated places, as well as loci associated with elemental air. They are small of stature, sharp sighted, and often shy of other races.
 - **Size**: Medium (Height: ~3'3", Weight: ~32lb, Wingspan: ~11ft.)
 - **Stats**: (Str: -2, Dex: +2, Con: 0, Int: 0, Wis: 0, Cha: 0)
-- **Movement**: Walk 20ft, Fly 60ft (average). (2 point)
+- **Movement**: Walk 20ft, Fly 60ft (average). (4 point)
 - **Sight**: Normal.
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
 - **Proficiencies**: Common.
 
 Extra:
-+ 2 to Fly (1 point)
-+ 2 to Observe (1 point)
++ 2 to Fly (2 point)
++ 2 to Observe (2 point)
 
-Race boon: (3 points)
+Race boon: (6 points)
 - +1 fly level.
 - +10 fly speed.
 

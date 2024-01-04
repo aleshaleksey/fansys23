@@ -94,7 +94,7 @@ In addition you can gain an extra point for each:
 
 Human represents the human race. The human race is the base. Humans have no special senses, resistances, movement modalities or spooky abilities. To compensate this, they adapt quickly to new environments, and learn appropriate skills quickly as soon as they are old enough to walk. Humans have a lifespan that does not exceed a century, reach a breeding age in their teens and can produce up to two dozen offspring in their lifetime.
 - **Size**: Medium (Height: ~5'8", Weight: ~140lb)
-- **Stats**: (Str: 10, Dex: 10, Con: 10, Int: 10, Wis: 10, Cha: 10)
+- **Stats**: (Str: 0, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: 0)
 - **Movement**: Walk 30ft
 - **Sight**: Normal
 - **Type**: Humanoid (needs to breathe, drink, eat, and sleep). Humans age.
@@ -113,7 +113,7 @@ Race boon: (3 points)
 
 This is a race that is closer to the fey, either created when fey spirits took material form in exchange for something, or when they mingled with humankind, or bestowed their "gifts" upon humans long ago. Elves/Fey touched live ridiculously long lives. Compared to humans they have slender, wiry bodies and longer ears. They are known as sometimes known as the "fair folk" and see well in twilight hours.
 - **Size**: Medium (Height: ~5'8", Weight: ~115lb)
-- **Stats**: (Str: 10, Dex: 12, Con: 8, Int: 10, Wis: 10, Cha: 10)
+- **Stats**: (Str: 0, Dex: +2, Con: -2, Int: 0, Wis: 0, Cha: 0)
 - **Movement**: Walk 30ft
 - **Sight**: Normal, low-light vision. (1 point)
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Elves do not age. (1 point)
@@ -130,7 +130,7 @@ Race boon: (3 points)
 
 This is a race that is closer to the feral side of humanoids. They are stronger and sturdier than humans, are apt hunters, but tend to lack aptitude for the academic. Orcs lead shorter lives than humans and reproduce even faster.
 - **Size**: Medium (Height: ~6'0", Weight: ~185lb)
-- **Stats**: (Str: 12, Dex: 10, Con: 12, Int: 8, Wis: 10, Cha: 10) (1 points)
+- **Stats**: (Str: +2, Dex: 0, Con: +2, Int: -8, Wis: 0, Cha: 0) (1 points)
 - **Movement**: Walk 30ft
 - **Sight**: Normal, heat vision. (1 point)
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
@@ -147,7 +147,7 @@ Race boon: (3 points)
 
 This represents those who have been touched by dark forces. Perhaps because of a pact, perhaps because of a dark ritual, perhaps because of whimsical evil. Or perhaps it's a bona fide race.
 - **Size**: Medium (Height: ~5'10", Weight: ~160lb)
-- **Stats**: (Str: 11, Dex: 10, Con: 10, Int: 10, Wis: 10, Cha: 11) (1 points)
+- **Stats**: (Str: +1, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: +1) (1 points)
 - **Movement**: Walk 30ft
 - **Sight**: Normal, low light vision. (1 point)
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
@@ -166,7 +166,7 @@ Race boon: (3 points)
 
 This is a race of humanoid that has various beast like traits, usually cat-like, or dog-like. This race is loved by degenerates.
 - **Size**: Medium (Height: ~5'8", Weight: ~140lb)
-- **Stats**: (Str: 10, Dex: 10, Con: 10, Int: 10, Wis: 10, Cha: 10)
+- **Stats**: (Str: 0, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: 0)
 - **Movement**: Walk 30ft + Climb 30ft, or walk 35ft. (1 point)
 - **Sight**: Normal, low-light vision. (1 point)
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
@@ -180,11 +180,32 @@ Race boon: (3 points)
 - +10 to a movement speed of one modality.
 - One of "keen hearing", "keen scent".
 
+#### Beasts of the Green (level-0 template)
+
+This is a race of intelligent beasts that dwells in the deepest wilderness. It is thought that they are guardians of the wild, created ancient guardians of those places. Outwardly they take many forms.
+- **Size**: Large (Height: ~6', Weight: ~600lb)
+- **Stats**: (Str: +2, Dex: 0, Con: 0, Int: 0, Wis: +2, Cha: 0) (2 points)
+- **Movement**: Walk 40ft. (2 Points)
+- **Sight**: Normal, keen-scent. (1 point)
+- **Type**: Monster (needs to breathe, drink, eat and sleep). Ages.
+- **Proficiencies**: Common.
+
+Penalties:
+- Beasts of the Green have no prehensile limbs. (-2 points)
+
+Extra:
+- Nature Magic (level 1). (1 point)
+
+Race boon: (3 points)
+- +5 to movement speed.
+- +2 to one of "Str", "Dex", "Con" or "Wis"
+- 1 level of nature magic.
+
 #### The Sea People (level-0 template)
 
 The sea people a race of humanoids that live in and around the islands of the shallow seas, and in the marshes and great lakes. They often disguise themselves as humans, for various reasons.
 - **Size**: Medium (Height: ~5'8", Weight: ~140lb)
-- **Stats**: (Str: 10, Dex: 10, Con: 10, Int: 10, Wis: 10, Cha: 10)
+- **Stats**: (Str: 0, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: 0)
 - **Movement**: Walk 30ft, Swim 40ft. (1 point)
 - **Sight**: Normal.
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
@@ -202,7 +223,7 @@ Race boon: (3 points)
 
 This is a race of winged humanoids that live in high and isolated places, as well as loci associated with elemental air. They are small of stature, sharp sighted, and often shy of other races.
 - **Size**: Medium (Height: ~3'3", Weight: ~32lb, Wingspan: ~11ft.)
-- **Stats**: (Str: 8, Dex: 12, Con: 10, Int: 10, Wis: 10, Cha: 10)
+- **Stats**: (Str: -2, Dex: +2, Con: 0, Int: 0, Wis: 0, Cha: 0)
 - **Movement**: Walk 20ft, Fly 60ft (average). (2 point)
 - **Sight**: Normal.
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
@@ -221,7 +242,7 @@ Race boon: (3 points)
 This is a template for humans in a game using level-4 templates. It gives some idea of how to enhance humans for higher power games.
 
 - **Size**: Medium (Height: ~5'8", Weight: ~140lb)
-- **Stats**: (Str: 12, Dex: 12, Con: 12, Int: 12, Wis: 12, Cha: 12) (6 points)
+- **Stats**: (Str: +2, Dex: +2, Con: +2, Int: +2, Wis: +2, Cha: +2) (6 points)
 - **Movement**: Walk 30ft
 - **Sight**: Normal
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
@@ -241,7 +262,7 @@ Extra (13 points):
 This is a template for elves/fey-touched in a game using level-4 templates. It gives some idea of how to enhance this race for higher power games.
 
 - **Size**: Medium (Height: ~5'8", Weight: ~115lb)
-- **Stats**: (Str: 10, Dex: 14, Con: 10, Int: 12, Wis: 12, Cha: 12) (5 points)
+- **Stats**: (Str: 0, Dex: +4, Con: 0, Int: +2, Wis: +2, Cha: +2) (5 points)
 - **Movement**: Walk 40ft (2 points)
 - **Sight**: Normal, low-light vision, "keen sight", "keen hearing". (3 point)
 - **Type**: Humanoid (needs to breathe, drink, eat). Elves do not age. (2 point)
@@ -257,7 +278,7 @@ Extra (7):
 Some degenerates want enhanced cat girls for high power games.
 
 - **Size**: Medium (Height: ~5'8", Weight: ~140lb)
-- **Stats**: (Str: 14, Dex: 14, Con: 10, Int: 10, Wis: 12, Cha: 10) (5)
+- **Stats**: (Str: +4, Dex: +4, Con: 0, Int: 0, Wis: +2, Cha: 0) (5)
 - **Movement**: Walk 40ft + Climb 40ft, or walk 50ft. (4 point)
 - **Sight**: Normal, low-light vision, "keen hearing", "keen smell". (3 point)
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
@@ -273,7 +294,7 @@ Extra (8):
 This represents a low-grade vampire. Its type is undead, but due to lack of points, it does not have all undead traits, because we can't afford them.
 
 - **Size**: Medium
-- **Stats**: (Str: 12, Dex: 12, Con: 12, Int: 10, Wis: 10, Cha: 12) (4 points)
+- **Stats**: (Str: +2, Dex: +2, Con: +2, Int: 0, Wis: 0, Cha: +2) (4 points)
 - **Movement**: Walk 30ft + Climb 30ft (1 point)
 - **Sight**: Normal, low-light vision, heat vision, keen scent. (3 point)
 - **Type**: Undead, partial (does not breathe, sleep or age) (4 point)
@@ -301,7 +322,7 @@ This is a divine being created by gods to watch over some aspect of creation (Co
 - The ability to understand all languages and communicate telepathically.
 
 - **Size**: Medium (Height: ~5'8", Weight: ~140lb) (Normal form: Winged)
-- **Stats**: (Str: 12, Dex: 10, Con: 12, Int: 14, Wis: 12, Cha: 14) (7 points)
+- **Stats**: (Str: +2, Dex: 0, Con: +2, Int: +4, Wis: +2, Cha: +4) (7 points)
 - **Movement**: Walk 20ft, Fly 80ft (average). (4 point)
 - **Sight**: True Sight. (3 point)
 - **Type**: Humanoid (does not need to eat, drink, breath, does not age). (8 points)

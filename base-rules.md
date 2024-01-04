@@ -187,10 +187,11 @@ At level one a character starts with:
 + 1 template[level 0]
 + 1 + [Con] + [Cha] HP, with a minimum of 1
 + 3 dice points + 1 SP dice + 1 MP dice
-+ 3 + [3 + Int] skill points
++ 6 + [Int] skill points
 + 1 background skill
 + 3 level points
 + Any benefits and properties it inherits from its type and race.
++ 1 save in which they are proficient
 + 1 homeland.
 
 In addition at level 8 and level 16 a character gets a "race boon" from its race.

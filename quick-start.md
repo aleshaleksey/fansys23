@@ -144,7 +144,7 @@ Race boon:
 
 This is a race that is closer to the fey, either created when fey spirits took material form in exchange for something, or when they mingled with humankind, or bestowed their "gifts" upon humans long ago. Elves/Fey touched live ridiculously long lives. Compared to humans they have slender, wiry bodies and longer ears. They are known as sometimes known as the "fair folk" and see well in twilight hours.
 - **Size**: Medium (Height: ~5'8", Weight: ~115lb)
-- **Stats**: (Str: 0, Dex: +2, Con: -2, Int: 0, Wis: 0, Cha: +2)
+- **Stats**: (Str: 0, Dex: +2, Con: -2, Int: 0, Wis: 0, Cha: +1)
 - **Movement**: Walk 30ft
 - **Sight**: Normal, low-light vision.
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Elves do not age.
@@ -152,6 +152,7 @@ This is a race that is closer to the fey, either created when fey spirits took m
 
 Extra:
 - +2 Observe
+- Resistance to "Charmed"
 
 Race boon:
 - Immunity to one of "Charmed", "Blinded", "Stunned" or "Bleeding".

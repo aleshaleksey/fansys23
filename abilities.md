@@ -114,14 +114,6 @@ ___
 
 **Original state**: Counterstrike is triggered only by attacks against yourself.
 
-#### Swift Counterstrike (Natural)
-
-**Description**: Your counterstrike is so quick that your attack hits before the attacker's. So if your counterstrike makes the attacker incapable of landing the attack, its target takes no damage.
-
-**Prerequisite**: 10 SP dice + "Counterstrike".
-
-**Original state**: A reaction resolves after the action that provoked it.
-
 #### Multi-attack (I-III)
 
 **Description**: Make more than one attack with a melee or ranged weapon, or carry out more than one manoeuvre in a "main action". For each extra attack the ability must be taken again. It can be taken 3 times.
@@ -138,6 +130,14 @@ ___
 |4|4|49|Multi-attack III|
 
 **Limitations**: Multi-attack can NEVER be applied to supernatural abilities or spells.
+
+#### Swift strike (Natural)
+
+**Description**: Your strikes are so quick that your attacks of opportunity hits before the triggering action is complete.
+
+**Prerequisite**: 10 SP dice.
+
+**Original state**: A reaction resolves after the action that provoked it.
 
 ___
 ### Combat Abilities (Supernatural)

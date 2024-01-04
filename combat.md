@@ -133,7 +133,11 @@ Likewise entities that are separated by at least two categories (eg Diminutive a
 
 ### Threatened area and Attacks of Opportunity (AoO)
 
-Any square within the reach of a hostile entity's melee attacks is considered threatened (this usually includes squares that the hostile entity occupies). Targets moving out of a threatened square provoke an attack of opportunity. If a target is moving out of one threatened square into another threatened square may avoid AoOs by declaring "careful movement" and halving their movement speed for the rest of the turn.
+Any square within the reach of a hostile entity's melee attacks is considered threatened (this usually includes squares that the hostile entity occupies). Targets moving out of a threatened square provoke an attack of opportunity. This may be a single attack or another basic combat manoeuvre. If a target is moving out of one threatened square into another threatened square may avoid AoOs by declaring "careful movement" and halving their movement speed for the rest of the turn.
+
+### Reactions and attacks of opportunity
+
+Unless otherwise stated, a "reaction" always resolves after the action that provoked it. Exceptions include attacks of opportunity with "Counterstrike II", or "Counter spell". Likewise, common sense applies, so for example a target that provokes an AoO when moving out of reach (moving out of threatened square) and gets grappled does not leave the attacker's reach.
 
 ---
 ## Basic combat manoeuvres and tactical movement.
@@ -150,11 +154,15 @@ This is a collection of unsorted rules related to basic physical combat.
 
 #### Basic Martial Manoeuvres.
 Any adventurer may attempt a martial manoeuvre. If an untrained combatant attempts this however, they risk attacks of opportunity and other penalties. Many monsters can carry out these manoeuvres without penalties or meeting the prerequisites. Special abilities and weapons/tools can reduce or remove penalties for manoeuvres or increase their effectiveness. Most manoeuvres are made as an attack within the attack action.
+
+The "Grapple", "Restrain", "Shove", "Throw" and "Trip" manoeuvres can only be used against targets no more than two size categories larger than self.
+
 - **Attack**: This is not really a manoeuvre, and is available to all characters.
   - Effect: Deal damage to a target.
   - Requires attack roll vs target's HiT.
   - Penalty if not proficient with the weapon.
   - Effect: If attack succeeds damage is dealt to the target in accordance to the damage rules.
+  - Special: Attacking with a weapon you are not proficient with provokes an attack of opportunity as you leave more openings than a proficient combatant.
 - **Grapple**:
   - Effect: Reduce a foe's movement to 0.
   - Requires attack roll vs target's NAT+[Str or Dex].
@@ -172,6 +180,7 @@ Any adventurer may attempt a martial manoeuvre. If an untrained combatant attemp
   - Effect: Moves a foe away from you by up to 10ft.
   - Requires attack roll vs target's NAT+[Str or Dex].
   - Penalty if not proficient with **throws**.
+  - Special: For every size category that you are larger than your target, increase the maximum distance by 5ft.
 - **Throw**: A different flavour of shove.
 - **Trip**:
   - Effect: Knock a foe prone.

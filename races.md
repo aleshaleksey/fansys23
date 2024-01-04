@@ -77,6 +77,8 @@ Three template points:
 Four template points:
 - Resistance to an A or S class damage type and one associated (B or C Class) condition.
   - A template may grant only 1 damage resistance or immunity per template level.
+- immunity to a C or B class damage type and one associated (B or C Class) condition.
+  - A template may grant only 1 damage resistance or immunity per template level.
 - Immunity to a single B or C Class condition.
   - A template may grant only 2 condition resistances or immunities per template level.
 - A 5ft dig speed or a 60ft (average) fly speed. Characters that pick this option have a -10ft speed penalty to their climb, walk and swim speeds.
@@ -93,12 +95,12 @@ Five Template points:
 Six Template points:
 - Immunity to an A class damage type and one associated condition.
   - A template may grant only 1 damage resistance or immunity per template level.
+- Immunity to a single S Class condition (this does more harm than good sometimes).
+  - A template may grant only 2 condition resistances or immunities per template level.
 - A blink speed (30ft).
   - Template must be at least level 2 to have a blink speed.
 - A cosmic speed (100ft).
   - A template must be at least level 5 to have a cosmic speed.
-- Immunity to a single S Class condition (this does more harm than good sometimes).
-  - A template may grant only 2 condition resistances or immunities per template level.
 - A passive or active (A class) ability with no prerequisites.
 
 Eight Template points:
@@ -223,7 +225,7 @@ Extra:
 Race boon: (6 points)
 - +5 to movement speed.
 - +2 to one of "Str", "Dex", "Con" or "Wis"
-- 1 level of nature magic.
+- 1 level of incantation magic.
 
 #### The Sea People (level-0 template = 8 points)
 
@@ -262,67 +264,70 @@ Race boon: (6 points)
 - +1 fly level.
 - +10 fly speed.
 
-#### Enhanced Human(level-4 template = 20 points)
+#### Enhanced Human(level-4 template = 40 points)
 
 This is a template for humans in a game using level-4 templates. It gives some idea of how to enhance humans for higher power games.
 
 - **Size**: Medium (Height: ~5'8", Weight: ~140lb)
-- **Stats**: (Str: +2, Dex: +2, Con: +2, Int: +2, Wis: +2, Cha: +2) (6 points)
+- **Stats**: (Str: +2, Dex: +2, Con: +2, Int: +2, Wis: +2, Cha: +2) (12 points)
 - **Movement**: Walk 30ft
 - **Sight**: Normal
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
-- **Proficiencies**: Common + Any 2 languages. (1 point)
+- **Proficiencies**: Common + Any 2 languages. (2 point)
 
-Extra (13 points):
-- A +2 bonus to any 3 stats. (3 points)
-- +2 to any 4 skill. (4 points) 
-- Any 2 proficiencies. (1 point)
-- Any 2 class C abilities. (2 points)
-- Any 1 class B ability. (2 points)
-- Resistance to any one physical damage + one associated condition.
-- Resistance to "fire" or "ice" + one associated condition.
+Extra (26 points):
+- A +2 bonus to any 3 stats. (6 points)
+- +2 to any 4 skill. (8 points) 
+- Any 2 proficiencies. (2 point)
+- Any 1 class C abilities. (2 points)
+- Any 1 class B ability. (4 points)
+- Resistance to any one physical damage + one associated condition. (2 points)
+- Resistance to "fire" or "ice" + one associated condition. (2 points)
 
-#### Enhanced Elf (level-4 template = 20 points)
+#### Enhanced Elf (level-4 template = 40 points)
 
 This is a template for elves/fey-touched in a game using level-4 templates. It gives some idea of how to enhance this race for higher power games.
 
 - **Size**: Medium (Height: ~5'8", Weight: ~115lb)
-- **Stats**: (Str: 0, Dex: +4, Con: 0, Int: +2, Wis: +2, Cha: +2) (5 points)
+- **Stats**: (Str: 0, Dex: +4, Con: 0, Int: +2, Wis: +2, Cha: +2) (10 points)
 - **Movement**: Walk 40ft (2 points)
 - **Sight**: Normal, low-light vision, "keen sight", "keen hearing". (3 point)
-- **Type**: Humanoid (needs to breathe, drink, eat). Elves do not age. (2 point)
+- **Type**: Humanoid (needs to breathe, drink, eat). Elves do not age. (3 point)
 - **Proficiencies**: Common, Elvish tongues. Bows OR one class of instrument. (1 point)
 
-Extra (7):
-- +2 Observe (1)
-- +2 Arcana (1)
-- Immunity to "charmed" and "paralysed". (5)
+Extra (21):
+- +2 Observe (2)
+- +2 Navigate (2)
+- +2 Arcana (2)
+- 2 levels of Nature Magic (4)
+- Immunity to "charmed" and "paralysed". (11)
 
 #### Enhanced beast folk (level-4 template = 20 points)
 
 Some degenerates want enhanced cat girls for high power games.
 
 - **Size**: Medium (Height: ~5'8", Weight: ~140lb)
-- **Stats**: (Str: +4, Dex: +4, Con: 0, Int: 0, Wis: +2, Cha: 0) (5)
-- **Movement**: Walk 40ft + Climb 40ft, or walk 50ft. (4 point)
+- **Stats**: (Str: +4, Dex: +4, Con: 0, Int: 0, Wis: +2, Cha: 0) (10)
+- **Movement**: Walk 40ft + Climb 40ft, or walk 50ft. (6 point)
 - **Sight**: Normal, low-light vision, "keen hearing", "keen smell". (3 point)
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
 - **Proficiencies**: Common.
 
-Extra (8):
-- +2 Track, +2 Acrobatics, +2 Athletics. (3)
-- Immune "Surprised" (2)
-- Resistance "bludgeoning" + "prone", "restrained", "grappled", "immobilised". (3)
+Extra (21):
+- +2 Track, +2 Acrobatics, +2 Athletics. (6)
+- Immune "Surprised" (4)
+- Advantage on Dex saves (6)
+- Resistance "bludgeoning" + "prone", "restrained", "grappled", "immobilised". (6)
 
 #### Vampire spawn (level-4 template = 20)
 
 This represents a low-grade vampire. Its type is undead, but due to lack of points, it does not have all undead traits, because we can't afford them.
 
 - **Size**: Medium
-- **Stats**: (Str: +2, Dex: +2, Con: +2, Int: 0, Wis: 0, Cha: +2) (4 points)
+- **Stats**: (Str: +2, Dex: +2, Con: +2, Int: 0, Wis: 0, Cha: +2) (8 points)
 - **Movement**: Walk 30ft + Climb 30ft (1 point)
 - **Sight**: Normal, low-light vision, heat vision, keen scent. (3 point)
-- **Type**: Undead, partial (does not breathe, sleep or age) (4 point)
+- **Type**: Undead, partial (does not breathe, sleep or age) (8 point)
 - **Proficiencies**: Common.
 
 Weaknesses (-4)
@@ -330,14 +335,14 @@ Weaknesses (-4)
 - Cannot cross running water willingly.
 - Vulnerability to "divine" and "light" damage.
 
-Extra (12)
-- Immune "disease" (2)
-- Resistant to "bludgeoning" + "prone", "piercing" + "bleeding", "slashing" + "crippled". (3)
-- Immune to "unconscious", "charmed", "frightened". (4)
-- Alternate form: Bat. (2 points)
-- Lesser Charm. (1)
+Extra (24)
+- Resistant to "bludgeoning" + "prone", "piercing" + "bleeding", "slashing" + "crippled". (6)
+- Resistant to "poison", "disease". (2)
+- Immune to "unconscious", "frightened". (10)
+- Alternate form: Bat. (4 points)
+- Lesser Charm. (2)
 
-#### Watcher (level-9 template = 40 points)
+#### Watcher (level-9 template = 80 points)
 
 This is a divine being created by gods to watch over some aspect of creation (Couatl in DnD 5e). Its natural form is a winged serpent. They can:
 - Take humanoid form (lesser alternate form).
@@ -347,15 +352,19 @@ This is a divine being created by gods to watch over some aspect of creation (Co
 - The ability to understand all languages and communicate telepathically.
 
 - **Size**: Medium (Height: ~5'8", Weight: ~140lb) (Normal form: Winged)
-- **Stats**: (Str: +2, Dex: 0, Con: +2, Int: +4, Wis: +2, Cha: +4) (7 points)
-- **Movement**: Walk 20ft, Fly 80ft (average). (4 point)
-- **Sight**: True Sight. (3 point)
-- **Type**: Humanoid (does not need to eat, drink, breath, does not age). (8 points)
+- **Stats**: (Str: +2, Dex: 0, Con: +2, Int: +4, Wis: +2, Cha: +4) (14 points)
+- **Movement**: Walk 20ft, Fly 80ft (average). (8 point)
+- **Sight**: True Sight. (6 point)
+- **Type**: Humanoid (does not need to eat, drink, breath, does not age). (12 points)
 - **Proficiencies**: Common.
 
-Extra:
-+ Alternate form: Humanoid (2 points)
-+ Telepathy (3 points)
-+ Immunity: Bludgeoning, Slashing, Piercing, Shear and Pressure. (10 points)
-+ Resistance: Light, Fire. (3 points)
-+ Therefore resistance: "bleeding", "crippled", "prone", "stunned", "frightened", "blinded".
+Restriction:
++ A Watcher cannot lie (knowing communicate falsehood). (-2)
+
+Extra (42):
++ +2 Sense Motive, +2 Deception (4 points)
++ Alternate form: Humanoid (4 points)
++ Telepathy (6 points)
++ Immunity: Bludgeoning, Slashing, Piercing, Shear and Pressure. (20 points)
++ Resistance: Light, Fire, Divine. (8 points)
++ Therefore resistance: "bleeding", "crippled", "prone", "stunned", "frightened", "blinded", "aphonia".

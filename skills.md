@@ -547,29 +547,29 @@ Navigation allows a character to orientate themselves in space, find the best ro
 
 There are 6 knowledge skills in the game. Each represents various subsets of knowledge. Each skill works symmetrically and deals with recalling information from one of the fields of knowledge. Using a knowledge skill is a non-action.
 
-- Thresholds:
+- **General Thresholds**:
   - 4: Common knowledge, everyone knows this! (eg Dragons exist.)
   - 8: Common knowledge, more than half the villagers know this. (eg There are dragons in the northern mountains.)
   - 16: Basic specialist knowledge, known eg. only by a few folk in the village/town. (eg, The dragons in the mountains slumber, but there is one not far from here that is awakening, it's lair is somewhere on the side of mount X.)
   - 24: Truly specialist knowledge, which is known by only the most knowledgeable in the region. (eg. The dragon's name is Bob, he is five centuries old, has a magical gem instead of one of its eyes and has sworn to destroy the kingdom when the moon turns blue)
   - 32: Deep knowledge, known by few or forgotten by most who once knew it. (eg The dragon's crystal eye works by these magics and can be destroyed using that method. 543 years ago to the day, queen Alice tricked and killed Bob's mate and then used her scales to make herself a suit of armour which is currently said to be lost in the ruins of XYZ. Bob's rage against the kingdom will likely not abate until the scales of his mate are returned.)
   - A DM may give completely false results on a failed check to obfuscate information that can be gleaned from information theory.
-- Domains:
-  - Arcana: Knowledge of spells and magical rituals. Used to identify magical auras (with appropriate senses), supernatural effects, spells that are being cast, magical constructs and summoned creatures. Thresholds:
+- **Knowledge Domains**:
+  - **Arcana**: Knowledge of spells and magical rituals. Used to identify magical auras (with appropriate senses), supernatural effects, spells that are being cast, magical constructs and summoned creature. Thresholds:
     - Identify magical aura: 16.
     - Identify supernatural effect: [12 + MP dice used to create it]
     - Identify spell being cast [12 + MP dice used to create it]
     - Identify magical constructs or summoned creature: [4 + Total dice / 2].
-  - If the item is a single use item and the roll fails by 5 or more, the item is destroyed in the process.an assign [MP + 2] to successfully counter the effect.
-  - Dungeoneering: A collection of esoteric fields dealing with dangerous places such as labyrinths, monster lairs and disaster zones. It includes knowledge of things like creatures dwell in such places, typical hazards and resources, likely locations of trap/treasure zones and core zones, and general dungeon trivia. Thresholds are as follows:
+    - If the item is a single use item and the roll fails by 5 or more, the item is destroyed in the process.an assign [MP + 2] to successfully counter the effect.
+  - **Dungeoneering**: A collection of esoteric fields dealing with dangerous places such as labyrinths, monster lairs and disaster zones. It includes knowledge of things like creatures dwell in such places, typical hazards and resources, likely locations of trap/treasure zones and core zones, and general dungeon trivia. Thresholds are as follows:
     - Identify monstrous creature or construct: [4 + Total dice / 2]
       - Special: for every 4 points over the identification threshold, the character gains an extra piece of information about the creature.
     - Identify hazard: [terrain + weather] or [threshold of creation].
     - Identify material/dweomer in such a zone: See "Appraise".
     - Identify structure of zone: [terrain + weather] + 5.
-  - Geography: Geography and geology. Including, know geography and geology of a region. Identify landmarks. Identify regional belonging of an entity from its outwards traits and behaviour.
-  - History: Know the history of a region, item or civilisation. Know obscure historical events of significance. Know power structure of a country and know details of past and present rulers. Remember what you did two sessions ago if you forgot to make notes.
-  - Nature: Identify "natural" entities and know their properties. Identify natural cycles, phenomena and hazards (including diseases). Identify natural materials.
+  - **Geography**: Geography and geology. Including, know geography and geology of a region. Identify landmarks. Identify regional belonging of an entity from its outwards traits and behaviour.
+  - **History**: Know the history of a region, item or civilisation. Know obscure historical events of significance. Know power structure of a country and know details of past and present rulers. Remember what you did two sessions ago if you forgot to make notes.
+  - **Nature**: Identify "natural" entities and know their properties. Identify natural cycles, phenomena and hazards (including diseases). Identify natural materials.
     - Identify natural entity: [4 + total dice / 2]
       - Special: for every 4 points over the identification threshold, the character gains an extra piece of information about the creature.
     - Identify phenomenon, hazard or cycle: [terrain + weather bonus]

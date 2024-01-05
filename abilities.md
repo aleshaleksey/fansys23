@@ -375,6 +375,11 @@ General boons are those that can come in handy in and out of combat.
 - Swift Counterstrike
 - Steel Wind Strike
 - Multi-attack (I-III)
+- PENDING
+  - Alert
+  - Multi-weapon fighting
+  - Parry
+  - Sneak Attack
 
 ### Natural (General)
 

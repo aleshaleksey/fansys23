@@ -109,6 +109,26 @@ The actions an entity may take might also be restricted by its conditions and ge
 - "**Non-action**": Entities also carry out certain activities autonomously as part of their existence. These do not usually require actions (eg breathing). Concentrating is also a non-action.
 
 ---
+## Surprise and Ambush
+
+As mentioned above, any combatants who are not aware of the other side, or that the other side is about to attack, starts the first round "surprised". This can happen if the enemy is either if the enemy is hidden, or the intention to attack is hidden.
+
+### Intentionally Hidden Enemies
+
+Either all entities on one side make a "stealth" roll (spontaneously hiding), or a "fortification" roll from the group is used (ambush from a pre-prepared position). If this meets or exceeds the ["Observe" + 13] threshold of entities on the other side, they are surprised.
+
+### Unintentionally Hidden Enemies
+
+Sometimes some combatants are hidden by virtue of coincidence (eg round a corner, or bending over behind a crate, tying their shoelaces) when combat starts. If they are aware of the other side, they are treated as ambushers in the "Intentionally Hidden Enemies" section.
+
+### Enemies Hiding their Intent
+
+Sometimes enemies in plain sight hide their intent to attack (eg secret police or thugs in the street). In this case a "deceive" roll is made by the traitorous ambushers vs ["sense motive" + 13] instead.
+
+### Mutually unaware combatants
+
+If both parties are unaware of each other (eg bandits meet guards round the corner of a mountain path), no one is surprised and combar proceeds immediately. More accurately, both parties are considered surprised in the first round and spend the round gawking and do nothing. Either way the surprise round does not happen.
+
 ## Space in combat
 
 Combat can take place purely in imaginary space (ie. theatre of the mind), on paper, crafted terrain, ora virtual desktop. In either case most combatants take up space and move through space. Many manoeuvres, spells and other abilities deal with manipulating friend and foe in this space. The game can be played completely ignoring space, but it does change the balance quite severely. On the other hand, there are times when an exact map is not needed. For example, combat is taking place in a small room where all targets are within hand's reach. Alternatively if there is a chase or shoot-out with 600ft of space between combatants, mapping map be equally impractical.

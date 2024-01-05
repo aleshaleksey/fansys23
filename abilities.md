@@ -77,7 +77,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Alert](#Alert)
 - [Evasive](#Evasive)
 - [Foresight](#Foresight)
-- [Mental Fight](#Mental%20Fight)
+- [Mental Fight](#mental-fight)
 - [Skirmisher](#Skirmisher)
 
 ### General Boons

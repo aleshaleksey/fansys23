@@ -235,7 +235,7 @@ Thirdly, a character also gets to choose a home terrain. this can be anything fr
 
 Fourthly, a character chooses a save with which they are proficient. This will help defend them against some nasty stuff, so choose carefully.
 
-Lastly, a character gains 3 level points. Level points are spent on gaining abilities. These range from extra save proficiencies, to sword arts and spell casting, and much more. A level point can also be exchanged for 3 skill points. For a list of abilities see the "Abilities" chapter.
+Lastly, a character gains 3 level points. Level points are spent on gaining abilities. These range from extra save proficiencies, to sword arts and spell casting, and much more. A level point can also be exchanged for 3 skill points. For a list of abilities see the "[Abilities](abilities.md)" chapter.
 
 ### Stamina and Mana dice and HP
 

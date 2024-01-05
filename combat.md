@@ -147,7 +147,7 @@ The normal reach for medium sized creatures is 5ft (aka into the adjacent square
 
 ### Creature sizes, reach and combat
 
-Size is, amongst other things, a measure of how much space an entity occupies. This affects various combat parameters and can be seen in the "Size rules". Tiny and diminutive entities that have a reach of 0ft must occupy the same square as their target to make the attack.
+Size is, amongst other things, a measure of how much space an entity occupies. This affects various combat parameters and can be seen in the "[Size rules](base-rules.md#Size%20rules)". Tiny and diminutive entities that have a reach of 0ft must occupy the same square as their target to make the attack.
 
 Likewise entities that are separated by at least two categories (eg Diminutive and medium, medium and gargantuan, large and colossal, small and colossal) can usually occupy the same space without penalty. Although the DM may ask for Dex saves (threshold=NAT+Str of the bigger entity) on the turn of the bigger entity or be knocked prone.
 
@@ -172,7 +172,7 @@ This is a collection of unsorted rules related to basic physical combat.
 - Supernatural attacks are either non-lethal or not. The caster does not chose (usually).
 - In place of a melee attack, a combatant may execute a martial manoeuvre.
 
-#### Basic Martial Manoeuvres.
+#### Basic Martial Manoeuvres
 Any adventurer may attempt a martial manoeuvre. If an untrained combatant attempts this however, they risk attacks of opportunity and other penalties. Many monsters can carry out these manoeuvres without penalties or meeting the prerequisites. Special abilities and weapons/tools can reduce or remove penalties for manoeuvres or increase their effectiveness. Most manoeuvres are made as an attack within the attack action.
 
 The "Grapple", "Restrain", "Shove", "Throw" and "Trip" manoeuvres can only be used against targets no more than two size categories larger than self.

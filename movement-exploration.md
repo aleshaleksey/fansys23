@@ -43,7 +43,7 @@ However this comes with limitations:
 - They cannot use a shield or heavy weapon and must make concentration checks when casting spells.
 - They must have a wing span of at least 1ft per [3lb / Size] of weight. (with size=[1, 2, 3, 4] for ["small", "medium", "large", "huge"] creatures respectively). This has general penalties and in particular this causes penalties on [DEX] and [STR] saves when not in flight, cannot dig and have a penalty to swim and walk speeds.
 - If they slow to lower than 1/2 their speed in a given terrain, they must land or fall.
-- A flying creature that is knocked prone, or tripped, drops a distance equal to its speed and can only move at half speed on its next turn. If this drop causes it to hit the ground, it suffers all of the consequences of falling (see "Falling" section).
+- A flying creature that is knocked prone, or tripped, drops a distance equal to its speed and can only move at half speed on its next turn. If this drop causes it to hit the ground, it suffers all of the consequences of falling (see "[Falling](#Falling)" section).
 
 Not all flying creatures are equal in flight. In fact there are four categories:
 - **Poor**:
@@ -104,7 +104,7 @@ This is described above in "Local and Global Movement" above, but there are some
 
 For entities and parties that travel via **walk**, **climb**, **dig** or **blink** speed, when travelling between two points that have no defined distance by road (and maybe no road), and only a map distance as the crow flies, the distance travelled is multiplied x2. This represents lack of direct roads, and often meandering routes over off road terrain. For creatures using **walk**, **climb** or **dig** speed in **swamp**, **deep forest**, or **mountain** distance as the crow flies is multiplied by x4. Creatures with a **cosmic** or **fly** speed do not suffer from this kind of impediment.
 
-Entities that move via a **Fly** speed have the movement speed halved in severe precipitation and wind. If precipitation or wind is extreme, such creatures must make a skill roll against the storm's threshold number or make no progress. An entity may attempt to move at 1/4 speed and take damage every hour equal to 2d6 damage plus 2d6, per size category above medium. An entity failing the roll by more than 5 in extreme precipitation falls to the ground. An entity failing the roll by more than 5 in extreme wind is blown away in the prevailing wind direction at 1/2 the wind speed. If this leads to the collision with some kind of fixed obstacle (mountain, big tree, wall), it suffers damage as if it had fallen 100ft (see fall damage).
+Entities that move via a **Fly** speed have the movement speed halved in severe precipitation and wind. If precipitation or wind is extreme, such creatures must make a skill roll against the storm's threshold number or make no progress. An entity may attempt to move at 1/4 speed and take damage every hour equal to 2d6 damage plus 2d6, per size category above medium. An entity failing the roll by more than 5 in extreme precipitation falls to the ground. An entity failing the roll by more than 5 in extreme wind is blown away in the prevailing wind direction at 1/2 the wind speed. If this leads to the collision with some kind of fixed obstacle (mountain, big tree, wall), it suffers damage as if it had fallen 100ft (see [fall damage](#Falling)).
 
 #### Travel rolls and terrain
 All travel rolls are determined by the terrain type, the weather modifier from inclement weather (severe or extreme) and the familiarity bonus. They are defined in the following tables. It should be noted that weather modifiers from different categories stack.
@@ -210,7 +210,7 @@ Any given inclement weather phenomenon may cause more than one effect. Here are 
 - **Hurricane**: Extreme wind.
 - **Tornado**: Extreme wind, poor visibility.
 - **Typhoon**: Extreme wind, severe precipitation.
-- **Blizzard**: Severe/Extreme temperature (cold), extreme precipitation(snow), severe visibility, severe wind.\
+- **Blizzard**: Severe/Extreme temperature (cold), extreme precipitation(snow), severe visibility, severe wind.
 - **Whiteout**: Zero visibility, severe precipitation(snow).
 - **Sand Storm**: Zero visibility, severe/extreme wind, severe/extreme precipitation (sand).
 - **Ashfall**: Severe precipitation (ash), poor visibility.

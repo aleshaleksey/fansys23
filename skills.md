@@ -117,7 +117,7 @@ Optionally, for gritty settings language proficiency does not grant a character 
 
 #### Tool Proficiencies
 
-Using tools usually requires a roll of an associated skill. Some skills cannot be used for certain purposes unless the character is also proficient with appropriate tools. At the group's discretion it can makes sense for other skills may be associated with a tool (eg woodworking tools being used with **fortify** for making big items like wooden walls). Tools and their properties are further discussed below (in the "tools" sections).
+Using tools usually requires a roll of an associated skill. Some skills cannot be used for certain purposes unless the character is also proficient with appropriate tools. At the group's discretion it can makes sense for other skills may be associated with a tool (eg woodworking tools being used with **fortify** for making big items like wooden walls). Tools and their properties are further discussed below (in the "[Tools](#Kit%20and%20Tool%20Descriptions)" sections).
 
 - Athletics group based:
   - Diver's tools
@@ -221,7 +221,7 @@ Weapon proficiencies are taken for each subgroup (eg "Strikes" and "Throws" are 
 Each skill has a number of described uses. However, the list is generally not exhaustive and additional uses should be discussed within the group. For each skill there are two important questions:
 
 1. Can an entity try the roll again, and what are the consequences? If the answer is not "yes", then one cannot "take 20" or "take 24" in that skill.
-2. Can an entity "take care" in that skill or not under appropriate circumstances (see the "take care") section?
+2. Can an entity "take care" in that skill or not under appropriate circumstances (see  "[Take Care](base-rules.md#Taking%2024)")?
 
 ### STR Based
 
@@ -243,7 +243,7 @@ Athletics is used for most land based physical activities including:
 - Throwing items and creatures beyond a normal distance.
   - More data needed.
 - Outrunning creatures with the same base speed in short overland chases (opposed roll rules).
-- Entertaining others with a feats of physical prowess (see "Difficulties and recommended thresholds").
+- Entertaining others with a feats of physical prowess (see "[Difficulties and recommended thresholds](base-rules.md#Difficulties%20and%20recommended%20thresholds)").
 - **Take care**: Yes.
 - **Try again**: Yes, although the DM may rule that failure on a retry results in the "crippled" condition.
 
@@ -339,7 +339,7 @@ Acrobatics is used for complex dynamic movement and manoeuvres. Unless otherwise
   - Slippery or Frictionless surface: +5 or +10.
   - Violent (eg ship in a storm) or extreme movement (eg earthquake or collapse): +5 or +10.
   - Slope (30-45 deg), Steep slope (45+): +2 or +5.
-- Entertaining others with a feats of acrobatics or gymnastics (see "Difficulties and recommended thresholds"). This generally represents at least one minute of performance.
+- Entertaining others with a feats of acrobatics or gymnastics (see "[Difficulties and recommended thresholds](base-rules.md#Difficulties%20and%20recommended%20thresholds)"). This generally represents at least one minute of performance.
 - Failure of an acrobatics roll by 5 or more may result in falling. Failure by a lesser margin generally results in lack of progress.
 - **Take care**: Yes.
 - **Try again**: Yes, although the potential of falling often makes it meaningless.
@@ -478,7 +478,7 @@ Academics are fundamental knowledge. It starts with literacy and ends in higher 
 
 - **Create/Decipher** secret meaning: Create or solve a cipher. Leave or discern a secret message.
   - **Time taken**: 1 minute if threshold 12 or below. 1 hour if threshold is 20 or below. 1 day if 32 or below. Longer if higher.
-  - **Threshold**: Depends. See "Difficulties and recommended thresholds".
+  - **Threshold**: Depends. See "[Difficulties and recommended thresholds](base-rules.md#Difficulties%20and%20recommended%20thresholds)".
 - **Show off**: A character may attempt an opposed academics roll to "persuade" or "bluff" under certain circumstances. Alternatively this can be used to attempt to explain certain theories to others. This can make things better or worse. Can substitute for "Perform" in academic audiences.
 - **Discern logic:** Use of cold analysis to discern a logical inconsistency in words or actions of entities. This is a full round action.
   - Threshold: Opposed roll if deception is performed. Threshold should be equal to at least 15 otherwise.
@@ -565,7 +565,7 @@ There are 6 knowledge skills in the game. Each represents various subsets of kno
     - Identify monstrous creature or construct: [4 + Total dice / 2]
       - Special: for every 4 points over the identification threshold, the character gains an extra piece of information about the creature.
     - Identify hazard: [terrain + weather] or [threshold of creation].
-    - Identify material/dweomer in such a zone: See "Appraise".
+    - Identify material/dweomer in such a zone: See "[Appraise](#Appraise)".
     - Identify structure of zone: [terrain + weather] + 5.
   - **Geography**: Geography and geology. Including, know geography and geology of a region. Identify landmarks. Identify regional belonging of an entity from its outwards traits and behaviour.
   - **History**: Know the history of a region, item or civilisation. Know obscure historical events of significance. Know power structure of a country and know details of past and present rulers. Remember what you did two sessions ago if you forgot to make notes.
@@ -573,7 +573,7 @@ There are 6 knowledge skills in the game. Each represents various subsets of kno
     - Identify natural entity: [4 + total dice / 2]
       - Special: for every 4 points over the identification threshold, the character gains an extra piece of information about the creature.
     - Identify phenomenon, hazard or cycle: [terrain + weather bonus]
-    - Identify natural materials: See "appraise".
+    - Identify natural materials: See "[appraise](#Appraise)".
   - Religion: Know about gods, supernatural beings and religious practices.
     - Identify supernatural being: [4 + Total dice / 2].
 - **Special**: Identifying beings by setting thresholds based on "Total dice" can get silly. Most people would know a dragon when they see one. As such general knowledge threshold can be used instead.
@@ -648,7 +648,7 @@ While 'Knowledge:Arcana" deals with theory, this is the practical application of
 - **Absorb**: Disimbue an enchantment and absorb the energy as MP dice.
   - If the item is a single use item and the roll fails by 5 or more, the item is destroyed in the process. On success the enchantment is disimbued and you replenish a number of MP dice equal to the number used to create the effect. Excess dice are added as temporary dice. If the resulting total dice is more than 3/2 times your maximum, two things happen:
     1. All your [MP] and [SP] dice are expended, your [HP] drops to zero. You are considered dying.
-    2. All OTHER entities suffer the consequence as from a "catastrophic cascade" (see "disimbue").
+    2. All OTHER entities suffer the consequence as from a "catastrophic cascade" (see "disimbue" above).
 - **Use magic device**: A character not proficient with a magical device can attempt to use it (this is a full round action unless it is normally longer). A roll is needed for each of:
   - Equip item.
   - Activate function or cast spell from item (-5 to threshold).
@@ -792,7 +792,7 @@ Unlike intimidate this does not act as a charm effect. Like intimidate it should
 
 Put on a show or act, using word or play, song or dance, instrumentals or baffoonery or any number of other means. This can either be done to earn a living, distract attention, carouse or gain information. A performance typically lasts at least a minute.
 
-- **Carouse**: Can be used to shift relationships one step in either direction between "hostile" and "friendly" for yourself or a different entity. (See "Persuade" rules.)
+- **Carouse**: Can be used to shift relationships one step in either direction between "hostile" and "friendly" for yourself or a different entity. (See "Persuade" rules above.)
 - **Distract**: Make a perform roll vs a threshold of the target's Wis save. On a success the target has disadvantage on "observe" and "sense motive" checks while your performance continues. If the target gets snake eyes, it is "charmed" for the duration of your performance.
 - **Gather information**: Works as a "knowledge" skill with a scope limited to what the entities at the performance would know.
 - **General descriptors by roll result**
@@ -806,6 +806,6 @@ Put on a show or act, using word or play, song or dance, instrumentals or baffoo
   - 36: A dragon might kidnap you just to fall asleep to your lullaby.
   - 50: This music can quite literally sway the gods or raise the dead.
 
-#### Kit and tool Descriptions
+## Kit and Tool Descriptions
 
 Empty.

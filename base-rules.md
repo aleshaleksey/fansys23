@@ -277,7 +277,7 @@ This is the determinant of "MP pool".
 - A character has a capacity of up to [3 MP dice / level] + 1 (min 1).
 - A character uses MP dice to fuel powerful mental/spiritual abilities.
 - A character with 0 MP dice cannot use the more powerful supernatural abilities that require MP.
- - A character regains 1/2 of all MP dice on any "rest" [whatever that may be in duration], and as a result of this 2 MP per dice (see "Mana Pool").
+ - A character regains 1/2 of all MP dice on any "rest" [whatever that may be in duration], and as a result of this 2 MP per dice (see "Mana Pool" below).
 
 #### Mana pool
 
@@ -401,11 +401,11 @@ A character has skills and proficiencies. They generally represent the mundane a
 The number of skill points a character can have in a single skill is capped to:
 
 - **[LEVEL / 2]** (rounded up)
-- A skill bonus for a given skill is: **[Base (optional)] + [ranks] + [ability bonus]** (see "Skills" chapter)
+- A skill bonus for a given skill is: **[Base (optional)] + [ranks] + [ability bonus]** (see "[Skills](skills.md)" chapter)
 
 ### Abilities
 
-These are the really cool abilities that a character has, like throwing fire balls, healing otherwise lethal walls, or being able to chop a giant rock in half (or carry said rock). In short extra "things" that a character can do that it might not be able to do, or the ability to withstand things it might not be able to withstand otherwise. A character can gain abilities in exchange for level points. Abilities are covered in the "Abilities" chapter.
+These are the really cool abilities that a character has, like throwing fire balls, healing otherwise lethal walls, or being able to chop a giant rock in half (or carry said rock). In short extra "things" that a character can do that it might not be able to do, or the ability to withstand things it might not be able to withstand otherwise. A character can gain abilities in exchange for level points. Abilities are covered in the "[Abilities](abilities.md)" chapter.
 
 ## Tables
 

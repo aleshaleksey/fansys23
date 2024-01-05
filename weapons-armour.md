@@ -153,7 +153,7 @@ Unarmed combat is the use of one's own body to effectively neutralise targets. I
 
 **Disarming** is the act of liberating a foe of their weapon. Also grants proficiency with "sunder". Ranged weapons cannot be used for disarming or sundering. It follows the rules set out in "Basic Martial Manoeuvres".
 
-**Grapple** is the act of restricting the movement of your foe using your body or held items. It covers the "grapple" and "restrain" manoeuvres and follows the "Basic Martial Manoeuvres" rules.
+**Grapple** is the act of restricting the movement of your foe using your body or held items. It covers the "grapple" and "restrain" manoeuvres and follows the "[Basic Martial Manoeuvres](combat.md#Basic%20Martial%20Manoeuvres)" rules.
 
 **Strikes** are the use of appendages or protruding body parts to deal bludgeoning or piercing damage to a target.
 
@@ -456,4 +456,4 @@ This section contains a few notes on "realism". It is not exhaustive.
 
 ## Disclaimer
 
-I am not experienced with weapons outside of bows and staves, and nor am I a scholar of medieval weapons. Therefore this chapter should be taken with pinch of salt with regards to historical realism.
+I am not a scholar of medieval weapons, and nor am I a martial arts master. Therefore this chapter should be taken with pinch of salt with regards to historical realism.

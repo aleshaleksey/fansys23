@@ -10,7 +10,7 @@ Most characters are fundamentally "natural", but possesses some "supernatural" a
 
 #### Natural and Supernatural damage and abilities
 
-Damage can be either Nat or Sup. Nat damage first affects the target's SP, being at least partially absorbed, before before affecting HP. It generally affects the physical form. Sup damage is first buffered, at least in part, by an entity's MP, before affecting HP. It affects an entity's essence or spirit. Thus if an entity takes 10 "physical"[Sup] damage, the first, say, 7 points may be absorbed by MP, with the remaining 3 points doing HP damage. The exact calculation for maximum Nat damage absorbed by SP is [CON + 2 x SP dice total], and is symmetrical for MP and Sup (see "Resource Pools" section).
+Damage can be either Nat or Sup. Nat damage first affects the target's SP, being at least partially absorbed, before before affecting HP. It generally affects the physical form. Sup damage is first buffered, at least in part, by an entity's MP, before affecting HP. It affects an entity's essence or spirit. Thus if an entity takes 10 "physical"[Sup] damage, the first, say, 7 points may be absorbed by MP, with the remaining 3 points doing HP damage. The exact calculation for maximum Nat damage absorbed by SP is [CON + 2 x SP dice total], and is symmetrical for MP and Sup (see "[Resource Pools](base-rules.md#Resource%20pools)" section).
 
 Damage caused by mundane or martial abilities is Nat, unless the ability is very powerful, at which it may become Sup. Damage caused by magic, spells and other supernatural abilities is usually Sup, but may also be Nat on occasion.
 
@@ -155,7 +155,7 @@ Not all damage types were created equal. This is intentional. easily "obtained" 
 
 #### Mortals
 
-Mortals are the most common entities in the material world. Mortals have a physical form,limited lifespan and age by necessity. They need to breathe, drink, eat.
+Mortals are the most common entities in the material world. Mortals have a physical form, limited lifespan and age by necessity. They need to breathe, drink, eat.
 
 **Plants** are the the most common mortals. Plants are generally stationary (no movement speed) and generate organic mass by using water and minerals from the earth they grow in, and energy from sunlight. Some plants, however prey on other creatures.
 - Plants do not sleep.
@@ -270,7 +270,7 @@ Entities can be affected by a number of conditions, most of them bad. For now th
 - "**Diseased**": S-C Class
 - "**Poisoned**": S-C Class
 
-An entity afflicted by conditions that make it unable to engage in physical combat or other activities is considered "disabled". This is a useful catch all. These conditions are: "dying", "helpless", "paralysed", "unconscious", "catatonic", "immobilised", "stunned" or "surprised".
+An entity afflicted by conditions that make it unable to engage in physical combat or other activities is considered **"disabled"**. This is a useful catch all. These conditions are: "dying", "helpless", "paralysed", "unconscious", "catatonic", "immobilised", "stunned" or "surprised".
 
 #### Conditions in detail.
 - "**Dying**": This creature cannot do anything other than make CON saves or lose 1d6HP per round. It suffers from all the detriments of "Unconscious". If they reach their minus their HP total they die. If they succeed before that they stop losing HP and become "Unconscious".

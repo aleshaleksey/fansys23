@@ -31,44 +31,44 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 
 ### Natural (Combat)
 
-- [Broad Strike](#Broad%20Strike)
-- [Combined Manoeuvre (I-V)](#Combined%20Manoeuvre%20I-V)
-- [Counterstrike](#Counterstrike)
-- [Debilitating Strike](#Debilitating%20Strike)
-- [Far Throw (I-V)](#Far%20Throw%20I-V)
+- [Broad Strike](#broad-strike)
+- [Combined Manoeuvre (I-V)](#combined-nanoeuvre-i-v)
+- [Counterstrike](#ounterstrike)
+- [Debilitating Strike](#debilitating-strike)
+- [Far Throw (I-V)](#far-throw-i-v)
 - [Flurry](#Flurry)
-- [Greater Manoeuvre (I-V)](#Greater%20Manoeuvre%20I-V)
-- [Guardian's Counterstrike](#Guardian's%20Counterstrike)
-- [Multi-attack (I-III)](#Multi-attack%20I-III)
-- [Offhand fighting I-IV](#Offhand%20fighting%20I-IV)
+- [Greater Manoeuvre (I-V)](#greater-manoeuvre-i-v)
+- [Guardian's Counterstrike](#guardian's-counterstrike)
+- [Multi-attack (I-III)](#multi-attack-i-iii)
+- [Offhand fighting I-IV](#offhand-fighting-i-iv)
 - [Parry](#Parry)
-- [Swift strike](#Swift%20strike)
-- [Sneak Attack (I-X)](#Sneak%20Attack%20I-X)
-- [Steel Wind Strike](#Steel%20Wind%20Strike)
-- [Unarmed Strike (I-IX)](#Unarmed%20Strike%20I-IX)
+- [Swift strike](#swift-strike)
+- [Sneak Attack (I-X)](#sneak-attack-i-x)
+- [Steel Wind Strike](#steel-wind-strike)
+- [Unarmed Strike (I-IX)](#unarmed-strike-i-ix)
 
 ### Natural (General)
 
-- [Flash Step](#Flash%20Step)
+- [Flash Step](#flash-step)
 
 ### Supernatural (Combat)
 
-- [Cursed Blood](#Cursed%20Blood)
-- [Elemental Blast](#Elemental%20Blast)
-- [Elemental Touch](#Elemental%20Touch)
-- [Spirit Strike](#Spirit%20Strike)
+- [Cursed Blood](#cursed-blood)
+- [Elemental Blast](#elemental-blast)
+- [Elemental Touch](#elemental-touch)
+- [Spirit Strike](#spirit-strike)
 
 ### Supernatural (General)
 
-- [Aphonic Spell](#Aphonic%20Spell)
-- [Bind Familiar (I-IV)](#Bind%20Familiar%20I-IV)
-- [Elemental Affinity](#Elemental%20Affinity)
-- [Lingering Spell](#Lingering%20Spell)
-- [Still Spell](#Still%20Spell)
-- [Spellcasting: Elemental](#Spellcasting:%20Elemental)
-- [Spellcasting: Nature](#Spellcasting:%20Nature)
-- [Spellcasting: Incantation](#Spellcasting:%20Incantation)
-- [Spellcasting: Global](#Spellcasting:%20Global)
+- [Aphonic Spell](#aphonic-spell)
+- [Bind Familiar (I-IV)](#bind-familiar-i-iv)
+- [Elemental Affinity](#elemental-affinity)
+- [Lingering Spell](#lingering-spell)
+- [Still Spell](#still-spell)
+- [Spellcasting: Elemental](#spellcasting:-elemental)
+- [Spellcasting: Nature](#spellcasting:-nature)
+- [Spellcasting: Incantation](#spellcasting:-incantation)
+- [Spellcasting: Global](#spellcasting:-global)
 
 ## Boon List
 
@@ -83,7 +83,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 ### General Boons
 
 - [Blink](#Blink)
-- [Extra Save](#Extra%20Save)
+- [Extra Save](#extra-save)
 - [Speed](#Speed)
 - [Sprinter](#Sprinter)
 
@@ -408,7 +408,7 @@ ___
 
 **Description**: Spend 1 MP dice to deal "supernatural" damage with a "natural" weapon attack.
 
-**Limitation**: This must be an attack as defined in "[Basic Martial Manoeuvres](combat.md#Basic%20Martial%20Manoeuvres)". It cannot be used in combination with abilities (other than "Multi-attack").
+**Limitation**: This must be an attack as defined in "[Basic Martial Manoeuvres](combat.md#basic-martial-manoeuvres)". It cannot be used in combination with abilities (other than "Multi-attack").
 
 **Prerequisites**: 12 MP dice total and 18 SP dice total.
 

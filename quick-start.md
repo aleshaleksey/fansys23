@@ -273,7 +273,7 @@ HiT (Hit Threshold) represents how difficult it is to harm a character with targ
 + Evasion is generally equal to [Dex] + [Size modifier]
 + Deflection is granted by blades which can be used to parry, and certain abilities.
 
-In general, the higher the hit the better (See "[Base Rules: Hit Threshold (HiT)](base-rules.md#HiT%20Threshold%20%28HiT%29"). A level one character can expect to have HiT 16 when equipped.
+In general, the higher the hit the better (See "[Base Rules: Hit Threshold (HiT)](base-rules.md#Hit%20Threshold%20%28HiT%29"). A level one character can expect to have HiT 16 when equipped.
 
 #### Attack bonuses and thresholds
 

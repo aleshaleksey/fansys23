@@ -28,7 +28,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 
 ### Combat Abilities (Natural)
 ___
-#### Combined Manoeuvre (I-V)
+#### Combined Manoeuvre I-V
 
 **Description**: Combine two or more "basic combat manoeuvre"s in one attack.
 
@@ -44,7 +44,7 @@ ___
 
 **Prerequisites**: For every extra manoeuvre combined this ability must be taken again
 
-|Number of Manoeuvres combined |SP dice total|Ability Name|
+|Number of Manoeuvres combined |SP dice total|Ability name|
 |-|-|-|
 |2|6|Combined Manoeuvre I|
 |3|13|Combined Manoeuvre II|
@@ -54,13 +54,13 @@ ___
 
 **Original state**: A character must pick a single manoeuvre when making an attack.
 
-#### Far Throw (I-V)
+#### Far Throw I-V
 
 **Description**: Increase throw/shove distance by 5ft.
 
 **Prerequisites**: For every extra 5ft this ability must be taken again.
 
-|Throw distance |SP dice total|Ability Name|
+|Throw distance |SP dice total|Ability name|
 |-|-|-|
 |15|6|Far Throw I|
 |20|13|Far Throw II|
@@ -70,13 +70,13 @@ ___
 
 **Original state**: The "throw" manoeuvre moves tha target 10ft + 5ft x size advantages.
 
-#### Greater Manoeuvre (I-V)
+#### Greater Manoeuvre I-V
 
 **Description**: Increase size gap where "Grapple", "Restrain", "Shove", "Throw" and "Trip" still work by 1.
 
 **Prerequisites**: For every extra size category, this ability must be taken again.
 
-|Size difference|SP dice total|Ability Name|
+|Size difference|SP dice total|Ability name|
 |-|-|-|
 |3|6|Greater Manoeuvre I|
 |4|13|Greater Manoeuvre II|
@@ -86,6 +86,49 @@ ___
 
 **Original state**: The above manoeuvres do not work on targets more than two categories larger than yourself.
 
+____
+#### Debilitating Strike
+
+**Description**: Expend 1-3 SP dice to induce a condition when making an unarmed strike or a melee attack with a light weapon. For each new condition the ability must be taken again.
+
+**Action**:
+1. Declare the ability and make the attack.
+2. If you hit, expend the SP dice, target tres to save against your NAP + [Wis].
+3. On a fail, the target is stunned till the end of its next turn.
+
+**Prerequisites**: There is an SP prerequisite and cost on all debilitating strikes.
+
+|Condition|SP dice cost|SP dice total prereq.|Ability name|
+|-|-|-|-|
+|"Deafened"|1|3|Deafening Strike|
+|"Aphonia"|1|3|Aphonic Strike|
+|"Blinded"|1|7|Blinding Strike|
+|"Stunned"|2|13|Stunning Strike|
+|"Incapacitated"|2|13|Incapacitating Strike|
+
+#### Flurry
+
+**Description**: As a "secondary action" make an extra attack with a light weapon or unarmed strike. If you expend an SP dice, you get to make 2.
+
+#### Unarmed Strike I-IX
+
+**Description**: Increase damage dice of unarmed strikes. For each increase the ability must be taken again.
+
+**Prerequisites**: There is an SP dice prerequisite for each size increase.
+
+|Dice|SP dice total|Ability name|
+|-|-|-|
+|1d4|3|Unarmed Strike I|
+|1d6|8|Unarmed Strike II|
+|1d8|13|Unarmed Strike III|
+|2d4|18|Unarmed Strike IV|
+|1d10|23|Unarmed Strike V|
+|2d6|29|Unarmed Strike VI|
+|2d8|35|Unarmed Strike VII|
+|2d10|42|Unarmed Strike VIII|
+|2d12|49|Unarmed Strike IX|
+
+**Warning**: If it is damage you seek, this is not the ideal ability. It does however guarantee the ability to do a good amount of damage even when you don't have your big stick handy.
 ___
 #### Broad Strike
 
@@ -98,7 +141,7 @@ ___
 **Original state**: A single melee attack can only strike one target.
 
 
-#### Counterstrike (Natural)
+#### Counterstrike
 
 **Description**: Gain an attack of opportunity against an attacker striking you with any melee attack.
 
@@ -106,7 +149,7 @@ ___
 
 **Original state**: Only melee attacks with weapons you are not proficient with provoke attacks of opportunity.
 
-#### Guardian's Counterstrike (Natural)
+#### Guardian's Counterstrike
 
 **Description**: Your counterstrike can be triggered by attacks against any entity in your reach, not just yourself.
 
@@ -123,7 +166,7 @@ ___
 **Original state**: A character can make one attack, or use a single manoeuvre with a "main action".
 
 **Prerequisite table**: This ability can be taken more than once. Each time, the minimum "base" and SP dice requirements must be met.
-|Number of attacks|Minimum Base|Minimum SP dice|Ability Name|
+|Number of attacks|Minimum Base|Minimum SP dice|Ability name|
 |-|-|-|-|
 |2|1|14|Multi-attack I|
 |3|2|28|Multi-attack II|
@@ -171,6 +214,18 @@ ___
 **Prerequisite**: 10 SP dice.
 
 **Original state**: A reaction resolves after the action that provoked it.
+
+___
+### General Abilities (Natural)
+
+#### Flash Step
+
+**Description**: As a "secondary action" move up to your base speed per SP dice expended. This movement does not provoke attacks of opportunity. While moving like this your jump distance is increased by 10ft per SP dice spent.
+
+**Special**:
+- This ability must be taken separately for each movement modality.
+- Flash step cannot be used with "dig" speed, "swim" speed or "cosmic" speed.
+- This ability cannot be used when wearing heavy armour.
 
 ___
 ### Combat Abilities (Supernatural)
@@ -225,11 +280,36 @@ ___
 
 ### Combat Boons (Natural)
 
+#### Mental Fight (Supernatural)
+
+**Description**: The following abilities are "supernatural" and go off MP dice and SAP (instead of SP dice and NAP):
++ Flurry
++ Unarmed Strike I-IX
++ Debilitating Strike
++ Flash Step
+
+**Prerequisites**:
++ SP dice total of at least 7.
++ MP dice total of at least 7.
++ Any 3 of "Flurry", "Unarmed Strike", "Debilitating Strike" and "Flash Step".
+
+**Special**: Prerequisites for further improvements of these abilities are also transferred to MP dice total. You still use Str/Dex to make the attack (SAP + [Dex]/[Str]).
+
+**Warning**: This is a bit niche and build dependant. It is here as homage to the belief that these abilities can be either "natural" or "supernatural". It does not necessarily improve the build.
+
 #### Evasive (Natural, Class B)
 
 **Description**: Avoid attacks of opportunities when moving between threatened squares. If using "cautious movement" avoid attacks of opportunity when leaving threatened squares.
 
 **Original state**: Characters moving out of threatened squares provoke attacks of opportunity. Attacks of opportunity when moving between threatened squares can be avoided using "cautious movement".
+
+#### Foresight (Natural, Class B)
+
+**Description**: Add [Wis] to your evasion modifier, on top of [Dex] and [size].
+
+**Prerequisite**: MP dice total of 4 or above. At least one "natural" (combat) ability.
+ 
+**Original state**: A character only adds their [size] and [Dex] to their evasion.
 
 #### Skirmisher (Natural, Class B)
 
@@ -281,22 +361,32 @@ General boons are those that can come in handy in and out of combat.
 
 ## Ability List
 
-### Natural
+### Natural (Combat)
 
 - Combined Manoeuvre (I-V)
 - Far Throw
 - Greater Manoeuvre
-- Broad strike
+- Debilitating Strike
+- Unarmed Strike I-IX
+- Flurry
+- Broad Strike
 - Counterstrike
 - Guardian's Counterstrike
 - Swift Counterstrike
 - Steel Wind Strike
 - Multi-attack (I-III)
 
-### Supernatural
+### Natural (General)
+
+- Flash Step
+
+### Supernatural (Combat)
 
 - Elemental Blast
 - Elemental Touch
+
+### Supernatural (General)
+
 - Spellcasting: Elemental
 - Spellcasting: Nature
 - Spellcasting: Incantation
@@ -307,6 +397,8 @@ General boons are those that can come in handy in and out of combat.
 ### Combat Boons
 
 - Evasive
+- Foresight
+- Mental Fight
 - Skirmisher
 
 ### General Boons

@@ -32,7 +32,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 ### Natural (Combat)
 
 - [Broad Strike](#broad-strike)
-- [Combined Manoeuvre (I-V)](#combined-nanoeuvre-i-v)
+- [Combined Manoeuvre (I-V)](#combined-manoeuvre-i-v)
 - [Counterstrike](#ounterstrike)
 - [Debilitating Strike](#debilitating-strike)
 - [Far Throw (I-V)](#far-throw-i-v)

@@ -147,7 +147,7 @@ The normal reach for medium sized creatures is 5ft (aka into the adjacent square
 
 ### Creature sizes, reach and combat
 
-Size is, amongst other things, a measure of how much space an entity occupies. This affects various combat parameters and can be seen in the "[Size rules](base-rules.md#Size%20rules)". Tiny and diminutive entities that have a reach of 0ft must occupy the same square as their target to make the attack.
+Size is, amongst other things, a measure of how much space an entity occupies. This affects various combat parameters and can be seen in the "[Size rules](base-rules.md#size-rules)". Tiny and diminutive entities that have a reach of 0ft must occupy the same square as their target to make the attack.
 
 Likewise entities that are separated by at least two categories (eg Diminutive and medium, medium and gargantuan, large and colossal, small and colossal) can usually occupy the same space without penalty. Although the DM may ask for Dex saves (threshold=NAT+Str of the bigger entity) on the turn of the bigger entity or be knocked prone.
 

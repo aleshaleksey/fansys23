@@ -117,7 +117,7 @@ Optionally, for gritty settings language proficiency does not grant a character 
 
 #### Tool Proficiencies
 
-Using tools usually requires a roll of an associated skill. Some skills cannot be used for certain purposes unless the character is also proficient with appropriate tools. At the group's discretion it can makes sense for other skills may be associated with a tool (eg woodworking tools being used with **fortify** for making big items like wooden walls). Tools and their properties are further discussed below (in the "[Tools](#Kit%20and%20Tool%20Descriptions)" sections).
+Using tools usually requires a roll of an associated skill. Some skills cannot be used for certain purposes unless the character is also proficient with appropriate tools. At the group's discretion it can makes sense for other skills may be associated with a tool (eg woodworking tools being used with **fortify** for making big items like wooden walls). Tools and their properties are further discussed below (in the "[Tools](#kit-and-tool-descriptions)" sections).
 
 - Athletics group based:
   - Diver's tools
@@ -223,7 +223,7 @@ Weapon proficiencies are taken for each subgroup (eg "Strikes" and "Throws" are 
 Each skill has a number of described uses. However, the list is generally not exhaustive and additional uses should be discussed within the group. For each skill there are two important questions:
 
 1. Can an entity try the roll again, and what are the consequences? If the answer is not "yes", then one cannot "take 20" or "take 24" in that skill.
-2. Can an entity "take care" in that skill or not under appropriate circumstances (see  "[Take Care](base-rules.md#Taking%2024)")?
+2. Can an entity "take care" in that skill or not under appropriate circumstances (see  "[Take Care](base-rules.md#taking-24)")?
 
 ### STR Based
 
@@ -245,7 +245,7 @@ Athletics is used for most land based physical activities including:
 - Throwing items and creatures beyond a normal distance.
   - More data needed.
 - Outrunning creatures with the same base speed in short overland chases (opposed roll rules).
-- Entertaining others with a feats of physical prowess (see "[Difficulties and recommended thresholds](base-rules.md#Difficulties%20and%20recommended%20thresholds)").
+- Entertaining others with a feats of physical prowess (see "[Difficulties and recommended thresholds](base-rules.md#difficulties-and-recommended-thresholds)").
 - **Take care**: Yes.
 - **Try again**: Yes, although the DM may rule that failure on a retry results in the "crippled" condition.
 
@@ -341,7 +341,7 @@ Acrobatics is used for complex dynamic movement and manoeuvres. Unless otherwise
   - Slippery or Frictionless surface: +5 or +10.
   - Violent (eg ship in a storm) or extreme movement (eg earthquake or collapse): +5 or +10.
   - Slope (30-45 deg), Steep slope (45+): +2 or +5.
-- Entertaining others with a feats of acrobatics or gymnastics (see "[Difficulties and recommended thresholds](base-rules.md#Difficulties%20and%20recommended%20thresholds)"). This generally represents at least one minute of performance.
+- Entertaining others with a feats of acrobatics or gymnastics (see "[Difficulties and recommended thresholds](base-rules.md#difficulties-and-recommended-thresholds)"). This generally represents at least one minute of performance.
 - Failure of an acrobatics roll by 5 or more may result in falling. Failure by a lesser margin generally results in lack of progress.
 - **Take care**: Yes.
 - **Try again**: Yes, although the potential of falling often makes it meaningless.
@@ -480,7 +480,7 @@ Academics are fundamental knowledge. It starts with literacy and ends in higher 
 
 - **Create/Decipher** secret meaning: Create or solve a cipher. Leave or discern a secret message.
   - **Time taken**: 1 minute if threshold 12 or below. 1 hour if threshold is 20 or below. 1 day if 32 or below. Longer if higher.
-  - **Threshold**: Depends. See "[Difficulties and recommended thresholds](base-rules.md#Difficulties%20and%20recommended%20thresholds)".
+  - **Threshold**: Depends. See "[Difficulties and recommended thresholds](base-rules.md#difficulties-and-recommended-thresholds)".
 - **Show off**: A character may attempt an opposed academics roll to "persuade" or "bluff" under certain circumstances. Alternatively this can be used to attempt to explain certain theories to others. This can make things better or worse. Can substitute for "Perform" in academic audiences.
 - **Discern logic:** Use of cold analysis to discern a logical inconsistency in words or actions of entities. This is a full round action.
   - Threshold: Opposed roll if deception is performed. Threshold should be equal to at least 15 otherwise.

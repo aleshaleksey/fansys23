@@ -482,12 +482,12 @@ ___
 - Action: 1 hour ritual.
 - Target: A single tiny animal that must remain within arm's reach for the whole duration of the ritual.
 - Attack: None
-- Damage: Damage
+- Damage: None
 - Cost: 3 MP dice
 
 **Benefits**: A familiar allows a spellcaster several benefits:
 - A familiar can give advise (although it is often bad advise!).
-- A familiar gives a "supernatural" bonus equal to the "Bind Familiar" level to either (must be chosen when the familiar is first bound) when the familiar is within 10ft of the binder:
+- A familiar gives a "supernatural" bonus equal to the "Bind Familiar" level (must be chosen when the familiar is first bound) when the familiar is within 10ft of the binder, to one of the following:
   - "spellworking" rolls when working with global spells and to your threshold for global spells 
   - "concentration" saves to maintain spells.
   - "Knowledge:Arcana" rolls.

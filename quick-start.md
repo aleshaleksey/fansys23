@@ -4,7 +4,7 @@ This is a fantasy roleplaying system optimised for balance that uses 2d12 for it
 
 ## Playing the game
 
-The game is played like any of the number of table top roleplaying games that exist. This game uses a similar concept to Pathfinder or Dungeons and Dragons, with the big difference that it uses 2d12 instead of 1d20 as the dice roll that decides the outcome of uncertain events and interactions (See ["Base Rules: Rolling Dice"](base-rules.md/#Rolling Dice) for more detail). To play this game, one needs to:
+The game is played like any of the number of table top roleplaying games that exist. This game uses a similar concept to Pathfinder or Dungeons and Dragons, with the big difference that it uses 2d12 instead of 1d20 as the dice roll that decides the outcome of uncertain events and interactions (See "[Base Rules: Rolling Dice](base-rules.md#Rolling%20Dice)" for more detail). To play this game, one needs to:
 
 1. Find a group.
 2. Assign a DM.
@@ -82,7 +82,7 @@ But which stats are important? Simply put:
 
 Beware there are stats and stat bonuses. Bonuses are added to rolls, stats are just "there". When we speak about stat bonuses we write eg [Str]. When we talk about a stat we write eg Str.
 
-For more information on stats see "Base Rules: Stats".
+For more information on stats see "[Base Rules: Stats](base-rules.md#Stats)".
 
 # Types, Races, Species and Templates
 
@@ -104,7 +104,7 @@ It is possible that the setting has only humans. This is fine. For some. Others 
 
 In either case, the unique characteristics of these beings are represented by "templates" or "races". 
 
-Depending on the power level of the game one can pick a basic race or a "level-4" or "level-9" template. It is is essential that it is pre-agreed beforehand what level template everyone picks. I guarantee that unless the group is extremely chilled you will fall out if you do not. Advanced templates, as well as rules on how to make new ones are found in the "Races" chapter. When introducing new templates or races to a setting make sure to discuss your ideas with the rest of the agree.
+Depending on the power level of the game one can pick a basic race or a "level-4" or "level-9" template. It is is essential that it is pre-agreed beforehand what level template everyone picks. I guarantee that unless the group is extremely chilled you will fall out if you do not. Advanced templates, as well as rules on how to make new ones are found in the "[Races](races.md)" chapter. When introducing new templates or races to a setting make sure to discuss your ideas with the rest of the agree.
 
 #### How to apply a race/template
 
@@ -227,7 +227,7 @@ At level one a character starts with the following:
 
 #### Skills and proficiencies
 
-Skills and proficiencies determine how well practiced your character is with certain routine or esoteric arts, skills or sciences, as well as which tools, weapons and armours they know are trained in. A character essentially starts with between 5 and 11 skill points. It is recommended that you take at least one weapon proficiency and one armour proficiency, and maybe more for martial characters. For more information see the "Skills" and "Weapons and Armour" chapters.
+Skills and proficiencies determine how well practiced your character is with certain routine or esoteric arts, skills or sciences, as well as which tools, weapons and armours they know are trained in. A character essentially starts with between 5 and 11 skill points. It is recommended that you take at least one weapon proficiency and one armour proficiency, and maybe more for martial characters. For more information see the "[Skills](skills.md)" and "[Weapons and Armour](weapons-armour.md)" chapters.
 
 Secondly, a character starts with one background skill, where they get to add a small bonus called "Base" (+1 at level 1).
 
@@ -273,7 +273,7 @@ HiT (Hit Threshold) represents how difficult it is to harm a character with targ
 + Evasion is generally equal to [Dex] + [Size modifier]
 + Deflection is granted by blades which can be used to parry, and certain abilities.
 
-In general, the higher the hit the better (See "Base Rules: Hit Threshold (HiT)"). A level one character can expect to have HiT 16 when equipped.
+In general, the higher the hit the better (See "[Base Rules: Hit Threshold (HiT)](base-rules.md#Hit%20Threshold%20%28HiT%29)"). A level one character can expect to have HiT 16 when equipped.
 
 #### Attack bonuses and thresholds
 
@@ -298,7 +298,7 @@ In short:
     - = [Nat] + [Base] + [Str]
         - = [NAP] + [Str]
 
-Luckily we don't have to calculate the attack potentials outside of leveling up our characters. And even then we can just use the tables in the "Base Rules: Tables".
+Luckily we don't have to calculate the attack potentials outside of leveling up our characters. And even then we can just use the tables in the "[Base Rules: Tables](base-rules.md#Tables)".
 
 ### Leveling up
 
@@ -314,4 +314,4 @@ A character must spend all points when it levels up. It cannot horde unspent poi
 
 ### Play
 
-Go get kitted out, and go out into the world and become a legend. There are a lot of different situations that a party can encounter in this game. And of course there are rules that govern how to resolve them. They are covered in "Weapons and Armour", "Combat" "Movement and Exploration", "Skills" and "Conditions and Types". Live and learn.
+Go get kitted out, and go out into the world and become a legend. There are a lot of different situations that a party can encounter in this game. And of course there are rules that govern how to resolve them. They are covered in "[Weapons and Armour](weapons-armour.md)", "[Combat](combat.md)" "[Movement and Exploration](movement-exploration.md)", "[Skills](skills.md)" and "[Conditions and Types](conditions-types.md)". Live and learn.

@@ -131,6 +131,39 @@ ___
 
 **Limitations**: Multi-attack can NEVER be applied to supernatural abilities or spells.
 
+#### Steel Wind Strike (Natural)
+
+**Description**: Strike several targets within 30ft of you with a melee weapon that deals piercing or slashing damage and end your movement within 10ft of any of those targets.
+
+**Action**: 
+1. Select number of SP dice to expend (4-10) and up to 6 targets (one per SP dice).
+2. Roll attack against each target. On hit deals damage (see below).
+3. Select ending location.
+
+**Offence:**
+- Exertion: Yes.
+- Range: 30ft.
+- Duration: Instantaneous.
+- Action: "main action".
+- Target: Special (Up to 6).
+- Attack: [NAP + [Str]/[Dex]]
+- Damage: Special.
+- Dice: SP.
+
+|SP dice expended|Max targets|Damage|
+|-|-|-|
+|4|4|Weapon dmg + 4d8|
+|5|5|Weapon dmg + 5d8|
+|6|6|Weapon dmg + 6d8|
+|7|6|Weapon dmg + 7d8|
+|8|6|Weapon dmg + 8d8|
+|9|6|Weapon dmg + 9d8|
+|10|6|Weapon dmg + 10d8|
+
+**Prerequisites**:
+- **SP dice total**: 25.
+- **Other:** At least 3 other martial combat abilities, one of which must be "Swift Strike".
+
 #### Swift strike (Natural)
 
 **Description**: Your strikes are so quick that your attacks of opportunity hits before the triggering action is complete.
@@ -257,6 +290,7 @@ General boons are those that can come in handy in and out of combat.
 - Counterstrike
 - Guardian's Counterstrike
 - Swift Counterstrike
+- Steel Wind Strike
 - Multi-attack (I-III)
 
 ### Supernatural

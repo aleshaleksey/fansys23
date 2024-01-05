@@ -4,7 +4,7 @@ This is a fantasy roleplaying system optimised for balance that uses 2d12 for it
 
 ## Playing the game
 
-The game is played like any of the number of table top roleplaying games that exist. This game uses a similar concept to Pathfinder or Dungeons and Dragons, with the big difference that it uses 2d12 instead of 1d20 as the dice roll that decides the outcome of uncertain events and interactions (See "Base Rules: Rolling Dice" for more detail). To play this game, one needs to:
+The game is played like any of the number of table top roleplaying games that exist. This game uses a similar concept to Pathfinder or Dungeons and Dragons, with the big difference that it uses 2d12 instead of 1d20 as the dice roll that decides the outcome of uncertain events and interactions (See ["Base Rules: Rolling Dice"](base-rules.md/#Rolling Dice) for more detail). To play this game, one needs to:
 
 1. Find a group.
 2. Assign a DM.

@@ -16,7 +16,7 @@ The system codifies the rules for a fantasy roleplaying game that focuses on com
 - Expand the rules for weapons.
 
 ---
-## Rolling Dice.
+## Rolling Dice
 
 Rolling dice introduces uncertainty into what is otherwise a numbers game. The outcome of a dice roll should be rolled when the outcome of an action is uncertain, because of hidden variables or otherwise. Thus if an action is sure to fail ("I jump to the moon"), or sure to succeed ("I take a breath of air"), a roll should not be made.
 It is possible to play this kind of game without ever rolling dice (using average values), however this is generally considered boring, which is why we use dice.

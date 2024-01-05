@@ -9,7 +9,7 @@ The system is designed around a [Constitution](constitution.md), which is half w
 ## Index
 
 - [Quick Start](quick-start.md)
-- [Base Rules](base-rulesstart.md)
+- [Base Rules](base-rules.md)
 - [Movement and Exploration](movement-exploration.md)
 - [Skills](skills.md)
 - [conditions and Types](conditions-types.md)

@@ -160,7 +160,7 @@ Any entity whose body fits a suit of armour can wear the armour. As such it will
 - When an entity dons or doffs an armour it is not proficient with, it takes twice as long to don and doff the armour as normal.
 - While an entity is wearing an armour it is not proficient with it takes a -5 penalty to all [DEX] and [STR] based rolls it makes.
 
-Armour and its properties are further discussed in the "Weapons and Armour Section".
+Armour and its properties are further discussed in the "[Weapons and Armour Section](weapons-armour.md)".
 
 There are three armour proficiencies that each cover several groups of armour.
 
@@ -182,9 +182,11 @@ There are three armour proficiencies that each cover several groups of armour.
   - Any Adamantine Armour
 - Shields (all)
 
+#### Weapon Proficiencies
+
 Weapons are tools that increase an entity's lethality in combat. For the sake of this definition, this does not include martial or supernatural abilities. Weapons and their properties are further discussed in the "Weapons and Armour Section".
 
-Any entity may wield a weapon it is physically capably of wielding. If it is not proficient, it makes attacks with a -5 penalty. On a critical fail it damages itself, rolling the same damage dice it would as if it had hit the intended target.
+Any entity may wield a weapon it is physically capably of wielding. If it is not proficient, it makes attacks with a -5 penalty. On a critical fail it damages itself, rolling the same damage dice it would as if it had hit the intended target. In addition it provokes attacks of opportunity when it attacks, since poor technique leaves openings.
 
 Proficiency eliminates both the penalty and the damage to self on crit. In addition it allows the use of any of a weapon's special properties.
 

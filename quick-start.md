@@ -27,7 +27,7 @@ Below the rules for making a character is briefly described.
 
 ### Character concepts
 
-FanSys is a class-free system which supports different races and templates. So depending on what setting, power level, and game style the group has chosen, a character can be a human mage, or a cat girl sword's master, or a winged beast that breathes fire, or a vampire.
+FanSys is a class-free system which supports different races and templates. So depending on what setting, power level, and game style the group has chosen, a character can be a human mage, or a cat girl sword master, or a winged beast that breathes fire, or a vampire.
 
 Likewise it is worth thinking about *who* your character is. Are they an ambitious peasant going out into the world to find their chosen one? Are they a weary old knight who has gone on one last quest? Or did they perhaps just misread a map on the way to town and ended up in this god forsaken wilderness with an overambitious peasant and a weary old knight?
 
@@ -79,6 +79,7 @@ But which stats are important? Simply put:
 - Cha also helps with mental resilience, which Con helps with physical stamina.
 - If you want your character to be agile and precise, pump Dex.
 - If you want them to be athletic and strong, pump Str.
+- If you want your character to be smart and wiley, pump Int or Wis.
 
 Beware there are stats and stat bonuses. Bonuses are added to rolls, stats are just "there". When we speak about stat bonuses we write eg [Str]. When we talk about a stat we write eg Str.
 
@@ -94,7 +95,7 @@ The system does not debate whether different races are different species or not.
 
 ## Templates
 
-All characters start with a template. A template is a set of abilities, traits and properties. Usually it is associated with a race or creature type. Not all templates are equal. Some templates (eg dragon, angel) are blatantly more powerful than others. In order to offset this, templates have levels. Templates exist for level 0, level 4 and level 9. They can also be created for other levels.
+All characters start with a template. A template is a set of abilities, traits and properties. Usually it is associated with a race or creature type. Not all templates are equal. Some templates (eg dragon, angel) are blatantly more powerful than others. In order to offset this, templates have levels. Templates exist for level 0, level 4 and level 9. They can also be created for other levels. For a start, level 0 templates should be considered the standard.
 
 For higher power games, where players wish to play angels, devils, dragons and other things, higher level templates should be used. It is recommended that all players use higher level templates, as low level templates with extra class levels mix poorly with higher level templates.
 
@@ -110,7 +111,7 @@ Depending on the power level of the game one can pick a basic race or a "level-4
 
 Templates generally give some small bonuses, a few nice features, some of which cannot be gained by other means. Some also give your character penalties. These can be both a pain and a roleplaying crutch. To apply a template:
 
-1. Red over the template.
+1. Resd over the template.
 2. Apply the creature size to your character, adjust heights and weights within 20% as desired.
 3. Apply stat bonuses and penalties.
 4. Apply movement speed, special senses and type.
@@ -195,7 +196,7 @@ Race boon (level 8 and 16):
 
 #### Beasts of the Green (level-0 template)
 
-This is a race of intelligent beasts that dwells in the deepest wilderness. It is thought that they are guardians of the wild, created ancient guardians of those places. Outwardly they take many forms.
+This is a race of intelligent beasts that dwells in the deepest wilderness. It is thought that they are guardians of the wild, created by ancient forces. Outwardly they take many forms.
 - **Size**: Large (Height: ~6', Weight: ~600lb)
 - **Stats**: (Str: +2, Dex: 0, Con: 0, Int: 0, Wis: +2, Cha: 0)
 - **Movement**: Walk 40ft.
@@ -223,11 +224,12 @@ At level one a character starts with the following:
 + 1 background skill
 + 3 level points
 + 1 save in which they are proficient
-+ 1 homeland.
++ 1 homeland
++ 3 dice points (but these are neither skills nor abilities...)
 
 #### Skills and proficiencies
 
-Skills and proficiencies determine how well practiced your character is with certain routine or esoteric arts, skills or sciences, as well as which tools, weapons and armours they know are trained in. A character essentially starts with between 5 and 11 skill points. It is recommended that you take at least one weapon proficiency and one armour proficiency, and maybe more for martial characters. For more information see the "[Skills](skills.md)" and "[Weapons and Armour](weapons-armour.md)" chapters.
+Skills and proficiencies determine how well practiced your character is with certain routine or esoteric arts, skills or sciences, as well as which tools, weapons and armours they know. A character essentially starts with between 5 and 11 skill points. It is recommended that you take at least one weapon proficiency and one armour proficiency, and maybe more for martial characters. For more information see the "[Skills](skills.md)" and "[Weapons and Armour](weapons-armour.md)" chapters.
 
 Secondly, a character starts with one background skill, where they get to add a small bonus called "Base" (+1 at level 1).
 
@@ -235,7 +237,7 @@ Thirdly, a character also gets to choose a home terrain. this can be anything fr
 
 Fourthly, a character chooses a save with which they are proficient. This will help defend them against some nasty stuff, so choose carefully.
 
-Lastly, a character gains 3 level points. Level points are spent on gaining abilities. These range from extra save proficiencies, to sword arts and spell casting, and much more. A level point can also be exchanged for 3 skill points. For a list of abilities see the "[Abilities](abilities.md)" chapter.
+Lastly, a character gains 3 level points. Level points are spent on gaining abilities. These range from extra save proficiencies, to sword arts and spell casting, and much more. A level point can also be exchanged for 3 skill points or a +1 increase to any stat. For a list of abilities see the "[Abilities](abilities.md)" chapter.
 
 ### Stamina and Mana dice and HP
 
@@ -256,8 +258,8 @@ The total SP = [Level x [Con] + 2 x [SP dice]]
 
 So if a character starts with 3 SP dice and 2 MP dice, and has +3 [Con] and +1 [Cha] then,
 
-MP = [1 x 1 + 2 x 2] = 5
-SP = [3 x 1 + 2 x 3] = 9
++ MP = [1 x 1 + 2 x 2] = 5
++ SP = [3 x 1 + 2 x 3] = 9
 
 This is also not a lot, but already a lot better than it used to be!
 
@@ -287,7 +289,7 @@ The Attack Potential of a character's ability is determined by the total number 
 So for our example level one character who had 3 SP dice and 2 MP dice:
 
 + [Nat] = [SP dice] / 6 = 3 / 6 = 1 (because we always round these things up)
-+ [Sup] [MP dice] / 6 = 2 / 6 = 1 (because we always round up)
++ [Sup] = [MP dice] / 6 = 2 / 6 = 1 (because we always round up)
 
 With the above [Nat] and [Sup] values (1), at level one (when [Base] = 1), our example character will have both [NAP] and [SAP] equal to 2. 
 
@@ -314,4 +316,4 @@ A character must spend all points when it levels up. It cannot horde unspent poi
 
 ### Play
 
-Go get kitted out, and go out into the world and become a legend. There are a lot of different situations that a party can encounter in this game. And of course there are rules that govern how to resolve them. They are covered in "[Weapons and Armour](weapons-armour.md)", "[Combat](combat.md)" "[Movement and Exploration](movement-exploration.md)", "[Skills](skills.md)" and "[Conditions and Types](conditions-types.md)". Live and learn.
+Go get kitted out, and go out into the world and become a legend. Or if you prefer not to, then just roll some dice. There are a lot of different situations that a party can encounter in this game. And of course there are rules that govern how to resolve them. They are covered in "[Weapons and Armour](weapons-armour.md)", "[Combat](combat.md)" "[Movement and Exploration](movement-exploration.md)", "[Skills](skills.md)" and "[Conditions and Types](conditions-types.md)". Live and learn.

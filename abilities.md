@@ -65,7 +65,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 
 - [Aphonic Spell](#aphonic-spell)
 - [Bind Familiar (I-IV)](#bind-familiar-i-iv)
-- [Bind Beast (I-IV)](#bind-beast-i-x)
+- [Bind Beast (I-X)](#bind-beast-i-x)
 - [Elemental Affinity](#elemental-affinity)
 - [Lingering Spell](#lingering-spell)
 - [Still Spell](#still-spell)
@@ -163,7 +163,7 @@ ____
 
 **Prerequisites**: There is an SP prerequisite and cost on all debilitating strikes.
 
-|Condition|SP dice cost|SP dice total prereq.|Ability name|
+|Condition|SP dice cost|SP dice total prerequisite|Ability name|
 |-|-|-|-|
 |"Deafened"|1|3|Deafening Strike|
 |"Aphonia"|1|3|Aphonic Strike|
@@ -551,16 +551,16 @@ ___
 
 |Ability Level|Min Level|Dmg. dice|Attack bonus|HP|SP|MP|Permitted class|Modalities|
 |-|-|-|-|-|-|-|-|-|
-|I|1|1d4|+4|3|6|4|C|walk,climb,swim|
-|II|3|1d4|+5|4|12|8|C|walk,climb,swim|
-|III|5|1d6|+6|5|18|12|B|walk,climb,swim,dig|
-|IV|7|1d8|+7|6|24|16|B|walk,climb,swim,dig|
-|V|9|1d10|+8|7|30|20|B|walk,climb,swim,dig,fly|
-|VI|11|1d12|+9|8|36|24|B|walk,climb,swim,dig,fly|
-|VII|13|2d6|+10|9|42|28|A|walk,climb,swim,dig,fly,blink|
-|VIII|15|2d8|+11|10|48|32|A|walk,climb,swim,dig,fly,blink|
-|IX|17|2d10|+12|11|54|36|A|all|
-|X|19|2d12|+13|12|60|40|S|all|
+|I|1|1d4|+4|3|8|4|C|walk,climb,swim|
+|II|3|1d4|+5|4|16|8|C|walk,climb,swim|
+|III|5|1d6|+6|5|24|12|B|walk,climb,swim,dig|
+|IV|7|1d8|+7|6|32|16|B|walk,climb,swim,dig|
+|V|9|1d10|+8|7|40|20|B|walk,climb,swim,dig,fly|
+|VI|11|1d12|+9|8|48|24|B|walk,climb,swim,dig,fly|
+|VII|13|2d6|+10|9|56|28|A|walk,climb,swim,dig,fly,blink|
+|VIII|15|2d8|+11|10|64|32|A|walk,climb,swim,dig,fly,blink|
+|IX|17|2d10|+12|11|72|36|A|all|
+|X|19|2d12|+13|12|80|40|S|all|
 
 ___
 #### Bind Familiar I-IV

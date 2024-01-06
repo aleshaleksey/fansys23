@@ -145,6 +145,8 @@ Melee attacks and manoeuvres have a reach between 0ft-30ft. Ranged attacks have 
 
 The normal reach for medium sized creatures is 5ft (aka into the adjacent square or one square). Sometimes a reach can be described as "long". This means that an entity may use a "secondary action", to extend a single by 5ft. A reach of 10ft will reach two squares, a reach of 15ft will reach 3 squares and so on. If a creature with a reach of "long" uses a weapon with a range of "long", the long descriptors cancel out, and the range is increased by 5ft.
 
+Ranged weapons fired while you are in melee are made at disadvantage (See "[Ranged Weapons, collateral and melee](weapons-armour.md#ranged-weapons-collateral-and-melee)").
+
 ### Creature sizes, reach and combat
 
 Size is, amongst other things, a measure of how much space an entity occupies. This affects various combat parameters and can be seen in the "[Size rules](base-rules.md#size-rules)". Tiny and diminutive entities that have a reach of 0ft must occupy the same square as their target to make the attack.

@@ -42,9 +42,12 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Multi-attack (I-III)](#multi-attack-i-iii)
 - [Offhand fighting I-IV](#offhand-fighting-i-iv)
 - [Parry](#Parry)
-- [Swift strike](#swift-strike)
+- [Pointblank shot (I-III)](#pointblank-shot-i-iii)
+- [Trick shot (I-II)](#trick-shot-i-ii)
+- [Deflect Arrows](#deflect-arrows)
 - [Sneak Attack (I-X)](#sneak-attack-i-x)
 - [Steel Wind Strike](#steel-wind-strike)
+- [Swift strike](#swift-strike)
 - [Unarmed Strike (I-IX)](#unarmed-strike-i-ix)
 
 ### Natural (General)
@@ -62,6 +65,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 
 - [Aphonic Spell](#aphonic-spell)
 - [Bind Familiar (I-IV)](#bind-familiar-i-iv)
+- [Bind Beast (I-IV)](#bind-beast-i-x)
 - [Elemental Affinity](#elemental-affinity)
 - [Lingering Spell](#lingering-spell)
 - [Still Spell](#still-spell)
@@ -91,7 +95,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 ___
 #### Combined Manoeuvre I-V
 
-**Description**: Combine two or more "basic combat manoeuvre"s in one attack.
+**Description**: Combine two or more different "basic combat manoeuvre"s in one attack.
 
 **Cost**: This is an exerting activity. For each manoeuvre combined one SP dice is expended.
 
@@ -251,18 +255,27 @@ ___
 |3|Multi-attack III|Offhand fighting III|
 |4|Multi-attack III|Offhand fighting IV|
 
-
 #### Parry
 
 **Type**: (Class A)
 
-**Description**: Add your [Nat] to your HiT against a number of attacks.
+**Description**: Add your [Nat] to your HiT against a number of melee attacks.
 
 **Action**: Use as your reaction on an enemy's turn vs ONE weapon attack. Alternatively declare on your turn and give up your reaction to make a number of parries up to 1 + your multi-attack level.
 
 **Prerequisite**: SP dice total of 6.
 
 **Special**: You must be aware of the attacker and the attack being made in order to use "parry".
+
+#### Deflect Arrows
+
+**Type**: (Class B)
+
+**Description**: Use 1 SP to use "parry" against ranged weapons attacks.
+
+**Action**: When you use parry, you may use it to deflect a ranged weapon attack. Every time you do so, you must use 1 SP.
+
+**Original state**: Ranged weapon attacks cannot be parried.
 
 #### Sneak attack I-X
 
@@ -327,6 +340,36 @@ ___
 **Prerequisite**: 10 SP dice.
 
 **Original state**: A reaction resolves after the action that provoked it.
+
+___
+#### Pointblank shot I-III
+
+**Type**: (Class B)
+
+**Description**: Remove penalties with ranged weapons in melee.
+
+**Original state**: Ranged weapons fired while you are in melee are made at disadvantage (See "[Ranged Weapons, collateral and melee](weapons-armour.md#ranged-weapons-collateral-and-melee)").
+
+**Prerequisites and benefits**:
+
+|SP dice total|Name|Benefits|
+|-|-|-|
+|7|Pointblank shot I|Ranged attacks into melee no longer at disadvantage|
+|10|Pointblank shot II|+1 to damage of ranged attacks within 15ft of target|
+|14|Pointblank shot III|+2 to damage of ranged attacks within 30ft of target|
+
+#### Trick shot I-II
+
+**Description**: Calculate and execute attacks with ranged weapons that have unlikely trajectories.
+
+**Original state**: Ranged weapons shoot mostly in a straight line, often hitting the first thing that gets in the way (See "[Ranged Weapons, collateral and melee](weapons-armour.md#ranged-weapons-collateral-and-melee)").
+
+**Prerequisites and benefits**:
+
+|SP dice total|Name|Benefits|
+|-|-|-|
+|7|Trick shot I|Avoid hitting unintentional targets on the line at a -4 penalty to attack|
+|10|Trick shot II|Avoid hitting unintentional targets on the line|
 
 ___
 ### General Abilities (Natural)
@@ -471,6 +514,55 @@ ___
 - This allows spellcasting when "immobilised" or "restrained".
 
 ___
+#### Bind Beast I-X
+
+**Description**: Bind an "animal" or "monster" to accompany and serve you. Mystics often use bound monsters as guardians.
+
+**Action:**
+- Exertion: Yes.
+- Range: 30ft.
+- Duration: Instantaneous.
+- Action: 1 hour ritual.
+- Target: A single "animal" or "monster" which must remain within 30ft of you for the duration of the ritual.
+- Attack: None
+- Damage: None
+- Cost: 1 MP dice per level of beast.
+
+**Benefits**: A bound beast may not disobey you and acts as a loyal servant, this does not mean, however that it necessarily likes it.
+- A bound beast understands your commands and can be commanded in and out of battle with a "communicate" action. No "creature handling" check is required.
+- Such a beast can be used for combat, scouting, guarding and other menial tasks within its capability.
+
+**Limitations**:
+- You must find a suitable beast and keep it still for long enough to bind it. It can attempt a Cha save vs your [SAP + [Cha]] to not be bound. You cannot attempt to bind the same beast for a month if it succeeds. If it succeeds three times, you can never bind it.
+- If a beast has a higher level than your "Bind Beast" limit, you cannot bind it.
+- If you do something, or order the beast to do something that would normally make it a "nemesis" (see "[Skills: Persuade](skills.md#persuade)"), it gets a Cha save vs your [SAP + [Cha]] at advantage to break the binding.
+- You can never have more than one bound beast at a time.
+- You must sacrifice 1HP of your own per 2 levels of "bind beast" to the beast every day to keep it bound (min 1). Sacrificing another's HP transfers the beast to their control for the day: Every day this is done the beast gets a Cha save vs the temporary master's [SAP + [Cha]] to break free.
+
+**Rules**:
+- If the beast's attack, damage dice, HP, SP or MP are greater than the values displayed on the table, they are reduced to that value.
+- If the beast's attack, damage dice, HP, SP or MP are lower than 3/4 of the values displayed on the table, they are increased to 3/4 of the value.
+- If its movement modalities are too high, it looses them until your "Bind Beast" level reaches a point where it is high enough. If the beast does not have these modalities, it does NOT gain them.
+- The beast retains its HiT and uses your base save bonuses.
+- The beast loses all abilities that exceed the max permitted class.
+- The beast may serve as a mount if it can carry you.
+
+**Prerequisite**: You must have at least one level of "global" or "incantation" magic to gain this ability.
+
+|Ability Level|Min Level|Dmg. dice|Attack bonus|HP|SP|MP|Permitted class|Modalities|
+|-|-|-|-|-|-|-|-|-|
+|I|1|1d4|+4|3|6|4|C|walk,climb,swim|
+|II|3|1d4|+5|4|12|8|C|walk,climb,swim|
+|III|5|1d6|+6|5|18|12|B|walk,climb,swim,dig|
+|IV|7|1d8|+7|6|24|16|B|walk,climb,swim,dig|
+|V|9|1d10|+8|7|30|20|B|walk,climb,swim,dig,fly|
+|VI|11|1d12|+9|8|36|24|B|walk,climb,swim,dig,fly|
+|VII|13|2d6|+10|9|42|28|A|walk,climb,swim,dig,fly,blink|
+|VIII|15|2d8|+11|10|48|32|A|walk,climb,swim,dig,fly,blink|
+|IX|17|2d10|+12|11|54|36|A|all|
+|X|19|2d12|+13|12|60|40|S|all|
+
+___
 #### Bind Familiar I-IV
 
 **Description**: Bind a minor spirit into a tiny animal to serve you. Spellcasters often use familiars for the most mundane and ridiculous of tasks.
@@ -502,7 +594,7 @@ ___
 
 **Rules**:
 - A familiar has an intelligence of 5 + [Bind Familiar level] x 2.
-- A familiar has HP, MP, and SP dependant the "Bind Familiar" level.
+- A familiar has HP, MP, and SP dependant on the "Bind Familiar" level.
 - A familiar retains the HiT of its base creature but uses your saves, has resistance to damage based on the spellcasting that was used as a prerequisite to bind it.
 - A familiar has an empathic link with its binder to a distance based on the "Bind familiar" level.
 
@@ -512,17 +604,17 @@ ___
 
 |Ability Level|MP dice minimum|Max Vessel Level|HP|SP|MP|Int|Link range|Can Attack|
 |-|-|-|-|-|-|-|-|-|
-|1|3|1|3|3|3|7|120ft|No|
-|2|7|2|4|6|6|9|1 mile|No|
-|3|14|3|5|9|9|11|108 miles|Yes|
-|4|21|4|6|12|12|13|The realm|Yes|
+|I|3|1|3|3|3|7|120ft|No|
+|II|7|2|4|6|6|9|1 mile|No|
+|III|14|3|5|9|9|11|108 miles|Yes|
+|IV|21|4|6|12|12|13|The realm|Yes|
 
 |Spellcasting type|Resistance|Ability|
 |-|-|-|
 |Elemental|Immunity to given element|"Elemental Touch"|
 |Incantation|Resistance to all "physical"|"Spirits' Whisper"|
-|Natural|Resistance to all "elemental"|"Guide"|
-|Global|Resistance to  all conditions|"Least Ward"|
+|Natural|Resistance to all "energy"|"Guide"|
+|Global|Resistance to all conditions|"Least Ward"|
 
 ___
 ## Boons

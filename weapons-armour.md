@@ -40,7 +40,7 @@ As other objects, weapons have HP and can be broken, either by misuse, bad dice 
 
 Ranged weapons fired while you are in melee are made at disadvantage.
 
-Ranged attacks may hit other targets on the same line. If an entity's hex/square is intersected by the line from hte center of your square to the center of your target's square, and your attack meets the entity's [HiT + 5], it takes the damage instead.
+Ranged attacks may hit other targets on the same line. If an entity's hex/square is intersected by the line from the center of your square to the center of your target's square, and your attack meets the entity's [HiT + 5], it takes the damage instead.
 
 ### Range increments
 

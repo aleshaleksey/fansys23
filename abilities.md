@@ -1,8 +1,10 @@
 # Abilities and Boons
 
-Abilities are special actions that a character can take outside of the core actions available to all characters (covered in "Combat", "Movement and Exploration", and "Skills"). Abilities are often more potent than the core actions, but these also come at a cost of consuming SP dice and MP dice, so use them with care. Importantly, magic is covered at the end of this chapter.
+**Abilities** are special actions that a character can take outside of the core actions available to all characters (covered in "Combat", "Movement and Exploration", and "Skills"). Abilities are often more potent than the core actions, but these also come at a cost of consuming SP dice and MP dice, so use them with care. Importantly, magic is covered at the end of this chapter.
 
-Boons are traits that enhance a character beyond what it would otherwise be. For example, a boon might grant resistance to "bludgeoning" damage, or allow a character to move faster, or breath under water, or attack more than once during a "main action".
+**Boons** are traits that enhance a character beyond what it would otherwise be. For example, a boon might grant resistance to "bludgeoning" damage, or allow a character to move faster, or breath under water, or attack more than once during a "main action".
+
+The line between "boons" and "abilities" is a fine one, but in general "abilities" are something that is actively used, (eg, "I use elemental touch", "I use far throw"), while a boon is something that is used passively (eg "I have skirmisher so I move behind the enemy where I am flanking and you don't get an attack of opportunity."). 
 
 Each category is split up into "combat", "exploration" or "general". The categories are not perfect but they cover most bases relatively well.
 
@@ -35,20 +37,14 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Combined Manoeuvre (I-V)](#combined-manoeuvre-i-v)
 - [Counterstrike](#ounterstrike)
 - [Debilitating Strike](#debilitating-strike)
+- [Deflect Arrows](#deflect-arrows)
 - [Far Throw (I-V)](#far-throw-i-v)
 - [Flurry](#Flurry)
 - [Greater Manoeuvre (I-V)](#greater-manoeuvre-i-v)
 - [Guardian's Counterstrike](#guardian's-counterstrike)
-- [Multi-attack (I-III)](#multi-attack-i-iii)
-- [Offhand fighting I-IV](#offhand-fighting-i-iv)
 - [Parry](#Parry)
-- [Pointblank shot (I-III)](#pointblank-shot-i-iii)
-- [Trick shot (I-II)](#trick-shot-i-ii)
-- [Deflect Arrows](#deflect-arrows)
 - [Sneak Attack (I-X)](#sneak-attack-i-x)
 - [Steel Wind Strike](#steel-wind-strike)
-- [Swift strike](#swift-strike)
-- [Unarmed Strike (I-IX)](#unarmed-strike-i-ix)
 
 ### Natural (General)
 
@@ -57,8 +53,11 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 ### Supernatural (Combat)
 
 - [Cursed Blood](#cursed-blood)
+- [Divine Strike](#divine-strike)
 - [Elemental Blast](#elemental-blast)
 - [Elemental Touch](#elemental-touch)
+- [Profane Strike](#profane-strike)
+- [Spell Strike](#spell-strike)
 - [Spirit Strike](#spirit-strike)
 
 ### Supernatural (General)
@@ -76,13 +75,26 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 
 ## Boon List
 
-### Combat Boons
+### Combat Boons (Natural)
 
 - [Alert](#Alert)
 - [Evasive](#Evasive)
 - [Foresight](#Foresight)
-- [Mental Fight](#mental-fight)
+- [Mage Hunter](#mage-hunter-i)
+- [Multi-attack (I-III)](#multi-attack-i-iii)
+- [Offhand fighting I-IV](#offhand-fighting-i-iv)
+- [Opportunist](#opportunist)
+- [Pointblank shot (I-III)](#pointblank-shot-i-iii)
 - [Skirmisher](#Skirmisher)
+- [Swift strike](#swift-strike)
+- [Trick shot (I-II)](#trick-shot-i-ii)
+- [Unarmed Strike (I-IX)](#unarmed-strike-i-ix)
+
+### Combat Boons (Supernatural)
+
+- [Mental Fight](#mental-fight)
+- [Safe Cast](#safe-cast)
+- [War Mage](#war-mage)
 
 ### General Boons
 
@@ -174,26 +186,6 @@ ____
 #### Flurry
 
 **Description**: As a "secondary action" make an extra attack with a light weapon or unarmed strike. If you expend an SP dice, you get to make 2.
-
-#### Unarmed Strike I-IX
-
-**Description**: Increase damage dice of unarmed strikes. For each increase the ability must be taken again.
-
-**Prerequisites**: There is an SP dice prerequisite for each size increase.
-
-|Dice|SP dice total|Ability name|
-|-|-|-|
-|1d4|3|Unarmed Strike I|
-|1d6|8|Unarmed Strike II|
-|1d8|13|Unarmed Strike III|
-|2d4|18|Unarmed Strike IV|
-|1d10|23|Unarmed Strike V|
-|2d6|29|Unarmed Strike VI|
-|2d8|35|Unarmed Strike VII|
-|2d10|42|Unarmed Strike VIII|
-|2d12|49|Unarmed Strike IX|
-
-**Warning**: If it is damage you seek, this is not the ideal ability. It does however guarantee the ability to do a good amount of damage even when you don't have your big stick handy.
 ___
 #### Broad Strike
 
@@ -205,7 +197,6 @@ ___
 
 **Original state**: A single melee attack can only strike one target.
 
-
 #### Counterstrike
 
 **Description**: Gain an attack of opportunity against an attacker striking you with any melee attack.
@@ -214,6 +205,16 @@ ___
 
 **Original state**: Only melee attacks with weapons you are not proficient with provoke attacks of opportunity.
 
+#### Deflect Arrows
+
+**Type**: (Class B)
+
+**Description**: Use 1 SP to use "parry" against ranged weapons attacks.
+
+**Action**: When you use parry, you may use it to deflect a ranged weapon attack. Every time you do so, you must use 1 SP.
+
+**Original state**: Ranged weapon attacks cannot be parried.
+
 #### Guardian's Counterstrike
 
 **Description**: Your counterstrike can be triggered by attacks against any entity in your reach, not just yourself.
@@ -221,39 +222,6 @@ ___
 **Prerequisite**: 10 SP dice + "Counterstrike".
 
 **Original state**: Counterstrike is triggered only by attacks against yourself.
-
-#### Multi-attack I-III
-
-**Description**: Make more than one attack with a melee or ranged weapon, or carry out more than one manoeuvre in a "main action". For each extra attack the ability must be taken again. It can be taken 3 times.
-
-**Uses**: Offence.
-
-**Original state**: A character can make one attack, or use a single manoeuvre with a "main action".
-
-**Prerequisite table**: This ability can be taken more than once. Each time, the minimum "base" and SP dice requirements must be met.
-|Number of attacks|Minimum Base|Minimum SP dice|Ability name|
-|-|-|-|-|
-|2|1|14|Multi-attack I|
-|3|2|28|Multi-attack II|
-|4|4|49|Multi-attack III|
-
-**Limitations**: Multi-attack can NEVER be applied to supernatural abilities or spells.
-
-#### Offhand fighting I-IV
-
-**Description**: Make an addition attack with an offhand weapon with the "light" property as a "secondary" action when you make one or more attacks as a "basic martial manoeuvre: attack" with a one handed weapon as your "main action".
-
-**Original state**: A character cannot make an attack with an offhand weapon. They can however flail wildly.
-
-**Special**: You can make no more offhand attacks than you made main attacks on a turn.
-
-**Prerequisite table**: This ability can be taken multiple times, each time you get an extra offhand attack.
-|Number of offhand attacks|Prerequisite|Ability name|
-|-|-|-|
-|1|Multi-attack I|Offhand fighting I|
-|2|Multi-attack II|Offhand fighting II|
-|3|Multi-attack III|Offhand fighting III|
-|4|Multi-attack III|Offhand fighting IV|
 
 #### Parry
 
@@ -266,16 +234,6 @@ ___
 **Prerequisite**: SP dice total of 6.
 
 **Special**: You must be aware of the attacker and the attack being made in order to use "parry".
-
-#### Deflect Arrows
-
-**Type**: (Class B)
-
-**Description**: Use 1 SP to use "parry" against ranged weapons attacks.
-
-**Action**: When you use parry, you may use it to deflect a ranged weapon attack. Every time you do so, you must use 1 SP.
-
-**Original state**: Ranged weapon attacks cannot be parried.
 
 #### Sneak attack I-X
 
@@ -294,9 +252,10 @@ ___
 - Dice: None.
 
 **Special**:
-- Sneak attack can only be made with a Dex based weapon.
+- Sneak attack can only be made with a Dex based weapon on a Dex based attack roll.
 - You can only make one weapon attack when using "sneak attack".
 - The target must be unaware of you, "surprised", or be in melee range of an entity hostile to it.
+- Since it uses a "main action" it cannot be used as a "reaction".
 
 **Prerequisite table**: Sneak attack has 10 levels. The maximum level of sneak attack a character may have is [Level / 2]
 
@@ -331,45 +290,7 @@ ___
 
 **Prerequisites**:
 - **SP dice total**: 25.
-- **Other:** At least 3 other martial combat abilities, one of which must be "Swift Strike".
-
-#### Swift strike
-
-**Description**: Your strikes are so quick that your attacks of opportunity hits before the triggering action is complete.
-
-**Prerequisite**: 10 SP dice.
-
-**Original state**: A reaction resolves after the action that provoked it.
-
-___
-#### Pointblank shot I-III
-
-**Type**: (Class B)
-
-**Description**: Remove penalties with ranged weapons in melee.
-
-**Original state**: Ranged weapons fired while you are in melee are made at disadvantage (See "[Ranged Weapons, collateral and melee](weapons-armour.md#ranged-weapons-collateral-and-melee)").
-
-**Prerequisites and benefits**:
-
-|SP dice total|Name|Benefits|
-|-|-|-|
-|7|Pointblank shot I|Ranged attacks into melee no longer at disadvantage|
-|10|Pointblank shot II|+1 to damage of ranged attacks within 15ft of target|
-|14|Pointblank shot III|+2 to damage of ranged attacks within 30ft of target|
-
-#### Trick shot I-II
-
-**Description**: Calculate and execute attacks with ranged weapons that have unlikely trajectories.
-
-**Original state**: Ranged weapons shoot mostly in a straight line, often hitting the first thing that gets in the way (See "[Ranged Weapons, collateral and melee](weapons-armour.md#ranged-weapons-collateral-and-melee)").
-
-**Prerequisites and benefits**:
-
-|SP dice total|Name|Benefits|
-|-|-|-|
-|7|Trick shot I|Avoid hitting unintentional targets on the line at a -4 penalty to attack|
-|10|Trick shot II|Avoid hitting unintentional targets on the line|
+- **Other:** At least 3 other martial combat abilities or boons, one of which must be "Swift Strike".
 
 ___
 ### General Abilities (Natural)
@@ -444,6 +365,38 @@ ___
 - Elemental touch "ice" will freeze 1 gallon of water, + 1 gallon / MP dice.
 
 **Special**: Elemental touch must be taken separately for each element.
+___
+#### Divine Strike
+
+**Type**: A/S Class
+
+**Description**: Expend MP to infuse a weapon attack with divine energy, dealing extra damage. This costs 2 MP per 1d6 of divine damage.
+
+**Declaration**: Must be made when the attack is called, however, for MELEE attacks the MP cost is only paid if the attack hits. For ranged and thrown weapon attacks the cost is always paid.
+
+**Limitations**: These are OPTIONAL rules for when playing with alignment:
+- A character with a "Profane" alignment cannot take this ability.
+- A character who gains this ability gains the "Divine" alignment and loses the ability to use it if they lose the alignment.
+
+**Special**: Must be taken separately for each weapon proficiency group.
+
+**Prerequisites**:
+- Proficiency with the given weapon group.
+- 12 SP dice total and 18 MP dice total.
+
+**Table**:
+
+|Level|Max Divine Damage|
+|-|-|
+|10-13|1d6|
+|14-16|2d6|
+|17-20|3d6|
+
+#### Profane Strike
+
+**Type**: A/S Class
+
+**Description**: Exactly as "Divine Strike", but replace the word "Divine" with "Profane".
 
 #### Spirit Strike
 
@@ -452,8 +405,40 @@ ___
 **Description**: Spend 1 MP dice to deal "supernatural" damage with a "natural" weapon attack.
 
 **Limitation**: This must be an attack as defined in "[Basic Martial Manoeuvres](combat.md#basic-martial-manoeuvres)". It cannot be used in combination with abilities (other than "Multi-attack").
+- OPTIONAL: If playing with alignment rules, a character who gains "Spirit Strike" should be spiritually aligned, and cannot use this ability if they lose this alignment.
 
 **Prerequisites**: 12 MP dice total and 18 SP dice total.
+
+___
+#### Spell Strike
+
+**Type**: Class B (melee), Class S (ranged)
+
+**Description**: Choose a weapon proficiency group. You can now declare spell strike when wielding a weapon in that group and deliver spells weapons of that group for 1 MP.
+
+- When delivering a spell that takes an action to cast, or releasing a spell that takes an action/reaction to release (held spell), make a weapon attack. If the attack hits, you deal the normal damage and discharge the spell through the weapon. If the attack misses, the spell is "held".
+
+**Special**: When you miss when a "spell strike" when already concentrating on a spell, the double concentration rule resolves itself in the usual way (either you chose to drop on spell, or they both end, be it quietly or loudly).
+
+**Prerequisites**:
+- Must be proficient in the given weapon group.
+- SP dice total of 7.
+- At least one spellcasting ability.
+- Depending on weapon category there are different MP dice total prerequisites.
+
+|Weapon Group|MP dice total prerequisite|
+|-|-|
+|Unarmed|6|
+|Light blades|6|
+|Staves|9|
+|Axes|9|
+|Percussive|9|
+|Heavy blades|9|
+|Pole-arms|12|
+|Spears|12|
+|Thrown|16|
+|Ranged|19|
+|Seige|22|
 
 ___
 #### Energy Affinity
@@ -515,6 +500,8 @@ ___
 
 ___
 #### Bind Beast I-X
+
+**Type**: A Class (I-V), S Class (VI-X).
 
 **Description**: Bind an "animal" or "monster" to accompany and serve you. Mystics often use bound monsters as guardians.
 
@@ -612,7 +599,7 @@ ___
 |Spellcasting type|Resistance|Ability|
 |-|-|-|
 |Elemental|Immunity to given element|"Elemental Touch"|
-|Incantation|Resistance to all "physical"|"Spirits' Whisper"|
+|Incantation|Resistance to all "physical"|"Spirit Strike"|
 |Natural|Resistance to all "energy"|"Guide"|
 |Global|Resistance to all conditions|"Least Ward"|
 
@@ -666,6 +653,57 @@ ___
 
 **Warning**: This is a bit niche and build dependant. It is here as homage to the belief that these abilities can be either "natural" or "supernatural". It does not necessarily improve the build.
 
+#### Mage Hunter I
+
+**Description**: You may make an attack of opportunity against entities casting spells within reach, even if there are no somatic components.
+
+**Prerequisite**: 4 SP dice total and 4 MP dice total.
+
+#### Mage Hunter II
+
+**Description**: A spellcaster concentrating on a spell makes the save at disadvantage when it takes damage from one of your weapon attacks.
+
+**Prerequisite**: Mage Hunter I + 7 SP dice total and 7 MP dice total.
+
+#### Multi-attack I-III
+
+**Description**: Make more than one attack with a melee or ranged weapon, or carry out more than one manoeuvre in a "main action". For each extra attack the ability must be taken again. It can be taken 3 times.
+
+**Uses**: Offence.
+
+**Original state**: A character can make one attack, or use a single manoeuvre with a "main action".
+
+**Prerequisite table**: This ability can be taken more than once. Each time, the minimum "base" and SP dice requirements must be met.
+|Number of attacks|Minimum Base|Minimum SP dice|Ability name|
+|-|-|-|-|
+|2|1|14|Multi-attack I|
+|3|2|28|Multi-attack II|
+|4|4|49|Multi-attack III|
+
+**Limitations**: Multi-attack can NEVER be applied to supernatural abilities or spells.
+
+#### Offhand fighting I-IV
+
+**Description**: Make an addition attack with an offhand weapon with the "light" property as a "secondary" action when you make one or more attacks as a "basic martial manoeuvre: attack" with a one handed weapon as your "main action".
+
+**Original state**: A character cannot make an attack with an offhand weapon. They can however flail wildly.
+
+**Special**: You can make no more offhand attacks than you made main attacks on a turn.
+
+**Prerequisite table**: This ability can be taken multiple times, each time you get an extra offhand attack.
+|Number of offhand attacks|Prerequisite|Ability name|
+|-|-|-|
+|1|Multi-attack I|Offhand fighting I|
+|2|Multi-attack II|Offhand fighting II|
+|3|Multi-attack III|Offhand fighting III|
+|4|Multi-attack III|Offhand fighting IV|
+
+#### Opportunist
+
+**Description**: You may make attacks of opportunity against entities that are:
+- Standing up.
+- Drinking potions.
+
 #### Skirmisher
 
 **Type**: (Natural, Class B)
@@ -673,6 +711,92 @@ ___
 **Description**: Avoid all attacks of opportunity from a target that you have made a melee attack against for the rest of your turns.
 
 **Original state**: Characters moving out of threatened squares provoke attacks of opportunity. Attacks of opportunity when moving between threatened squares can be avoided using "cautious movement".
+
+#### Swift strike
+
+**Description**: Your strikes are so quick that your attacks of opportunity hits before the triggering action is complete.
+
+**Prerequisite**: 10 SP dice.
+
+**Original state**: A reaction resolves after the action that provoked it.
+
+#### Unarmed Strike I-IX
+
+**Description**: Increase damage dice of unarmed strikes. For each increase the ability must be taken again.
+
+**Prerequisites**: There is an SP dice prerequisite for each size increase.
+
+|Dice|SP dice total|Ability name|
+|-|-|-|
+|1d4|3|Unarmed Strike I|
+|1d6|8|Unarmed Strike II|
+|1d8|13|Unarmed Strike III|
+|2d4|18|Unarmed Strike IV|
+|1d10|23|Unarmed Strike V|
+|2d6|29|Unarmed Strike VI|
+|2d8|35|Unarmed Strike VII|
+|2d10|42|Unarmed Strike VIII|
+|2d12|49|Unarmed Strike IX|
+
+**Warning**: If it is damage you seek, this is not the ideal ability. It does however guarantee the ability to do a good amount of damage even when you don't have your big stick handy.
+
+___
+#### Safe Cast
+
+**Type**: (Class B)
+
+**Description**: Your spellcasting no longer provokes attacks of opportunity.
++ This means that spells with somatic components do not provoke attacks of opportunity.
+
+**Limitations**: Entities with the "mage hunter" boon can still make attacks of opportunity against your spells UNLESS you also have the "mage hunter" boon.
+
+**Prerequisites**:
+- Proficiency with at least one weapon proficiency group.
+- 4SP dice and 7 MP dice total.
+- At least one spellcasting ability.
+
+**Warning**: This boon is best used together with the "mage hunter" boon.
+
+#### War Mage
+
+**Type**: (Class B)
+
+**Description**: Gain advantage on concentration saves when maintaining spells.
+
+**Prerequisites**:
+- Proficiency with at least one weapon proficiency group.
+- 4 SP dice and 7 MP dice total.
+- At least one spellcasting ability.
+
+___
+#### Pointblank shot I-III
+
+**Type**: (Class B)
+
+**Description**: Remove penalties with ranged weapons in melee.
+
+**Original state**: Ranged weapons fired while you are in melee are made at disadvantage (See "[Ranged Weapons, collateral and melee](weapons-armour.md#ranged-weapons-collateral-and-melee)").
+
+**Prerequisites and benefits**:
+
+|SP dice total|Name|Benefits|
+|-|-|-|
+|7|Pointblank shot I|Ranged attacks into melee no longer at disadvantage|
+|10|Pointblank shot II|+1 to damage of ranged attacks within 15ft of target|
+|14|Pointblank shot III|+2 to damage of ranged attacks within 30ft of target|
+
+#### Trick shot I-II
+
+**Description**: Calculate and execute attacks with ranged weapons that have unlikely trajectories.
+
+**Original state**: Ranged weapons shoot mostly in a straight line, often hitting the first thing that gets in the way (See "[Ranged Weapons, collateral and melee](weapons-armour.md#ranged-weapons-collateral-and-melee)").
+
+**Prerequisites and benefits**:
+
+|SP dice total|Name|Benefits|
+|-|-|-|
+|7|Trick shot I|Avoid hitting unintentional targets on the line at a -4 penalty to attack|
+|10|Trick shot II|Avoid hitting unintentional targets on the line|
 
 ___
 ### General Boons

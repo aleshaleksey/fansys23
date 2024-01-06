@@ -161,6 +161,21 @@ Any square within the reach of a hostile entity's melee attacks is considered th
 
 Unless otherwise stated, a "reaction" always resolves after the action that provoked it. Exceptions include attacks of opportunity with "Counterstrike II", or "Counter spell". Likewise, common sense applies, so for example a target that provokes an AoO when moving out of reach (moving out of threatened square) and gets grappled does not leave the attacker's reach.
 
+#### Attacks of Opportunity Table
+|Action|Provokes AoO|
+|-|-|
+|Move out of threatened square|Yes|
+|Move between threatened squares|Yes, usually|
+|Cast spell with somatic components|Yes|
+|Execute weapon attack, when proficient|No|
+|Execute weapon attack when NOT proficient|Yes|
+|Execute "basic martial manoeuvre"|Varies|
+|Dropping prone|No|
+|Standing up|No|
+|Drink Potion|No|
+|Use item|No, usually|
+|Drop item|No|
+
 ---
 ## Basic combat manoeuvres and tactical movement.
 
@@ -231,7 +246,7 @@ A creature that is "grappled" or "restrained" can make an opposing roll in place
 - Abilities and phenomena that would not exist in a mundane world, that cannot be explained adequately by "scientific" means are supernatural, otherwise called magical.
 - The supernatural can be caused by divine, profane or spiritual sources.
 - Supernatural abilities target MP, are fueled by MP dice.
-- Supernatural abilities usually usually force INT, WIS or CHA saves, but some can also force other saves, or be manifest as targeted attacks.
+- Supernatural abilities usually force INT, WIS or CHA saves, but some can also force other saves, or be manifest as targeted attacks.
 
 #### Spells
 - Spells are a subset of supernatural powers that mortals have learned to channel by following certain procedures.
@@ -252,7 +267,7 @@ A creature that is "grappled" or "restrained" can make an opposing roll in place
 
 
 - These ALWAYS involve a combination of one or more of the following:
-  1. **Somatic Components**: A set of defined, obvious gestures or movements. An "immobilised" or "restrained" caster cannot perform these. (conditions that imply "immobilised" fall under this category).
+  1. **Somatic Components**: A set of defined, obvious gestures or movements. An "immobilised" or "restrained" caster cannot perform these. (conditions that imply "immobilised" fall under this category). Spells with somatic components provoke attacks of opportunity.
   2. **Incantation components**: A set of defined, well enunciated words or sounds. A "silenced" or "silent" caster cannot perform these. (conditions that imply inability to produce defined sound fall under this category).
   3. **Ritual components**: A ritual is a procedure involving defined movement and positioning of objects or entities, or the creation of defined patterns. Disruption of this procedure ruins the ritual. Rituals typically apply to global spells.
 

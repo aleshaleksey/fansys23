@@ -22,8 +22,9 @@ Below the rules for making a character is briefly described.
 4. Assign skill points and background skill.
 5. Assign abilities.
 6. Assign stamina and mana dice and calculate HP.
-6. If starting above level 1, repeat (4) and (5) for each level until done.
-7. Play!
+7. Assign alignment (optional).
+8. If starting above level 1, repeat (4) and (5) for each level until done.
+9. Play!
 
 ### Character concepts
 
@@ -301,6 +302,21 @@ In short:
         - = [NAP] + [Str]
 
 Luckily we don't have to calculate the attack potentials outside of leveling up our characters. And even then we can just use the tables in the "[Base Rules: Tables](base-rules.md#Tables)".
+
+### Alignment
+
+This is OPTIONAL.
+
+Some systems have an alignment system, usually along the order/chaos axis or the good/evil axis. There is no such system here. Rather we fully embrace orange/blue morality.
+
+A character does not have to be aligned with or to anything. Not even magnetic north. A character CAN, however, be "aligned" with various types of forces if they chose. This is not necessarily guided by behaviour or moral code of a character. It is however important for certain abilities and may influence how certain entities perceive the character.
+
+Alignments can be: "None", "Spiritual", "Divine" and "Profane".
++ None: The normal state of being for a mortal.
++ Spiritual: Implies priority of the immaterial world over the material world.
++ Divine: Implies homage to the forces that created and maintain the world.
++ Profane: Implies homage to the forces that oppose creation.
++ One cannot be aligned to "Divine" and "Profane" simultaneously as those forces oppose each other.
 
 ### Leveling up
 

@@ -20,9 +20,9 @@ Below the rules for making a character is briefly described.
 2. Assign stats.
 3. Apply race/template.
 4. Assign skill points and background skill.
-5. Assign abilities.
-6. Assign stamina and mana dice and calculate HP.
-7. Assign alignment (optional).
+5. Assign stamina and mana dice and calculate HP.
+6. Assign alignment (optional).
+7. Assign abilities.
 8. If starting above level 1, repeat (4) and (5) for each level until done.
 9. Play!
 
@@ -85,7 +85,7 @@ But which stats are important? Simply put:
 
 Beware there are stats and stat bonuses. Bonuses are added to rolls, stats are just "there". When we speak about stat bonuses we write eg [Str]. When we talk about a stat we write eg Str.
 
-For more information on stats see "[Base Rules: Stats](base-rules.md#Stats)".
+For more information on stats see "[Base Rules: Stats](base-rules.md#stats)".
 
 # Types, Races, Species and Templates
 
@@ -313,7 +313,7 @@ In short:
     - = [Nat] + [Base] + [Str]
         - = [NAP] + [Str]
 
-Luckily we don't have to calculate the attack potentials outside of leveling up our characters. And even then we can just use the tables in the "[Base Rules: Tables](base-rules.md#Tables)".
+Luckily we don't have to calculate the attack potentials outside of leveling up our characters. And even then we can just use the tables in the "[Base Rules: Tables](base-rules.md#tables)".
 
 ___
 ### Alignment
@@ -325,11 +325,27 @@ Some systems have an alignment system, usually along the order/chaos axis or the
 A character does not have to be aligned with or to anything. Not even magnetic north. A character CAN, however, be "aligned" with various types of forces if they chose. This is not necessarily guided by behaviour or moral code of a character. It is however important for certain abilities and may influence how certain entities perceive the character.
 
 Alignments can be: "None", "Spiritual", "Divine" and "Profane".
+
 + None: The normal state of being for a mortal.
 + Spiritual: Implies priority of the immaterial world over the material world.
 + Divine: Implies homage to the forces that created and maintain the world.
 + Profane: Implies homage to the forces that oppose creation.
 + One cannot be aligned to "Divine" and "Profane" simultaneously as those forces oppose each other.
+
+___
+### Level points and abilities
+
+Every character gets 3 level points at level 1. These can be spend as follows.
+
++ Exchanged for skill points at the rate of 1 level points = 3 skill points.
++ Exchanged for an increase to stats at the rate of 1 level point = +1 to a single stat. No stat may exceed 24 for player characters.
++ Exchanged for abilities and boons.
+
+Abilities and boons are special features of a character that allow them to do things they would not otherwise be able to do, or withstand things they would otherwise not be able to withstand. This also provides some of the flavour to the character. As an example:
+
+- An aspiring pyromancer would probably want to take "[elemental touch](abilities.md#elemental-touch)" or "[elemental blast](abilities.md#elemental-blast)" and "[spellcasting: elemental (fire)](abilities.md#spellcasting-elemental)".
+- A plucky peasant or mysterious summoner might both wish to travel with a bestial companion and so take "[bind beast](abilities.md#bind-beast-i-x)".
+- Swashbuckler and martial artists would probably both benefit from "[flurry](abilities.md#flurry)".
 
 ___
 ### Leveling up

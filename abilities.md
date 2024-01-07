@@ -39,7 +39,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Debilitating Strike](#debilitating-strike)
 - [Deflect Arrows](#deflect-arrows)
 - [Far Throw (I-V)](#far-throw-i-v)
-- [Flurry](#Flurry)
+- [Flurry](#flurry)
 - [Greater Manoeuvre (I-V)](#greater-manoeuvre-i-v)
 - [Guardian's Counterstrike](#guardian's-counterstrike)
 - [Parry](#Parry)
@@ -68,7 +68,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Elemental Affinity](#elemental-affinity)
 - [Lingering Spell](#lingering-spell)
 - [Still Spell](#still-spell)
-- [Spellcasting: Elemental](#spellcasting:-elemental)
+- [Spellcasting: Elemental](#spellcasting-elemental)
 - [Spellcasting: Nature](#spellcasting:-nature)
 - [Spellcasting: Incantation](#spellcasting:-incantation)
 - [Spellcasting: Global](#spellcasting:-global)
@@ -721,9 +721,9 @@ ___
 **Prerequisite table**: This ability can be taken multiple times, each time you get an extra offhand attack.
 |Number of offhand attacks|Prerequisite|Ability name|
 |-|-|-|
-|1|Multi-attack I|Offhand fighting I|
-|2|Multi-attack II|Offhand fighting II|
-|3|Multi-attack III|Offhand fighting III|
+|1|-|Offhand fighting I|
+|2|Multi-attack I|Offhand fighting II|
+|3|Multi-attack II|Offhand fighting III|
 |4|Multi-attack III|Offhand fighting IV|
 
 #### Opportunist

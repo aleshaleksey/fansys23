@@ -85,6 +85,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Offhand fighting I-IV](#offhand-fighting-i-iv)
 - [Opportunist](#opportunist)
 - [Pointblank shot (I-III)](#pointblank-shot-i-iii)
+- [Precise shot (I-III)](#precise-shot-i-iii)
 - [Skirmisher](#Skirmisher)
 - [Swift strike](#swift-strike)
 - [Trick shot (I-II)](#trick-shot-i-ii)
@@ -131,6 +132,7 @@ ___
 
 **Original state**: A character must pick a single manoeuvre when making an attack.
 
+___
 #### Far Throw I-V
 
 **Description**: Increase throw/shove distance by 5ft.
@@ -147,6 +149,7 @@ ___
 
 **Original state**: The "throw" manoeuvre moves tha target 10ft + 5ft x size advantages.
 
+___
 #### Greater Manoeuvre I-V
 
 **Description**: Increase size gap where "Grapple", "Restrain", "Shove", "Throw" and "Trip" still work by 1.
@@ -197,6 +200,7 @@ ___
 
 **Original state**: A single melee attack can only strike one target.
 
+___
 #### Counterstrike
 
 **Description**: Gain an attack of opportunity against an attacker striking you with any melee attack.
@@ -205,6 +209,7 @@ ___
 
 **Original state**: Only melee attacks with weapons you are not proficient with provoke attacks of opportunity.
 
+___
 #### Deflect Arrows
 
 **Type**: (Class B)
@@ -215,6 +220,14 @@ ___
 
 **Original state**: Ranged weapon attacks cannot be parried.
 
+___
+#### Great Strike
+
+**Description**: Sacrifice precision for power when making melee attacks. (Swing like a helicopter).
+
+**Action**: When making an attack with a melee weapon, take a penalty up to your [Nat] to your attack roll and take the same number as a bonus to your damage if you hit.
+
+___
 #### Guardian's Counterstrike
 
 **Description**: Your counterstrike can be triggered by attacks against any entity in your reach, not just yourself.
@@ -223,6 +236,7 @@ ___
 
 **Original state**: Counterstrike is triggered only by attacks against yourself.
 
+___
 #### Parry
 
 **Type**: (Class A)
@@ -235,6 +249,7 @@ ___
 
 **Special**: You must be aware of the attacker and the attack being made in order to use "parry".
 
+___
 #### Sneak attack I-X
 
 **Description**: A precision attack that deals extra damage to a target which is distracted or unaware.
@@ -259,6 +274,7 @@ ___
 
 **Prerequisite table**: Sneak attack has 10 levels. The maximum level of sneak attack a character may have is [Level / 2]
 
+___
 #### Steel Wind Strike
 
 **Description**: Strike several targets within 30ft of you with a melee weapon that deals piercing or slashing damage and end your movement within 10ft of any of those targets.
@@ -338,6 +354,7 @@ ___
 
 **Special**: Elemental touch must be taken separately for each element.
 
+___
 #### Elemental Touch
 
 **Type**: (Class C)
@@ -392,12 +409,14 @@ ___
 |14-16|2d6|
 |17-20|3d6|
 
+___
 #### Profane Strike
 
 **Type**: A/S Class
 
 **Description**: Exactly as "Divine Strike", but replace the word "Divine" with "Profane".
 
+___
 #### Spirit Strike
 
 **Type**: (Class A)
@@ -469,6 +488,7 @@ ___
 - Can be combined with "still spell" and "lingering spell".
 - This allows casting of spells with incantations when under the effects of "aphonia" or "inaudible".
 
+___
 #### Lingering Spell
 
 **Type**: (Class A)
@@ -483,6 +503,7 @@ ___
 - Must be taken separately for each time of spellcasting.
 - Can be combined with "still spell" and "lingering spell".
 
+___
 #### Still Spell
 
 **Type**: (Class A)
@@ -616,6 +637,7 @@ ___
 
 **Prerequisite**: +13 Wis.
 
+___
 #### Evasive
 
 **Type**: (Natural, Class B)
@@ -624,6 +646,7 @@ ___
 
 **Original state**: Characters moving out of threatened squares provoke attacks of opportunity. Attacks of opportunity when moving between threatened squares can be avoided using "cautious movement".
 
+___
 #### Foresight
 
 **Type**: (Natural, Class B)
@@ -634,6 +657,7 @@ ___
  
 **Original state**: A character only adds their [size] and [Dex] to their evasion.
 
+___
 #### Mental Fight
 
 **Type**: (Supernatural)
@@ -653,18 +677,21 @@ ___
 
 **Warning**: This is a bit niche and build dependant. It is here as homage to the belief that these abilities can be either "natural" or "supernatural". It does not necessarily improve the build.
 
+___
 #### Mage Hunter I
 
 **Description**: You may make an attack of opportunity against entities casting spells within reach, even if there are no somatic components.
 
 **Prerequisite**: 4 SP dice total and 4 MP dice total.
 
+___
 #### Mage Hunter II
 
 **Description**: A spellcaster concentrating on a spell makes the save at disadvantage when it takes damage from one of your weapon attacks.
 
 **Prerequisite**: Mage Hunter I + 7 SP dice total and 7 MP dice total.
 
+___
 #### Multi-attack I-III
 
 **Description**: Make more than one attack with a melee or ranged weapon, or carry out more than one manoeuvre in a "main action". For each extra attack the ability must be taken again. It can be taken 3 times.
@@ -682,6 +709,7 @@ ___
 
 **Limitations**: Multi-attack can NEVER be applied to supernatural abilities or spells.
 
+___
 #### Offhand fighting I-IV
 
 **Description**: Make an addition attack with an offhand weapon with the "light" property as a "secondary" action when you make one or more attacks as a "basic martial manoeuvre: attack" with a one handed weapon as your "main action".
@@ -704,6 +732,7 @@ ___
 - Standing up.
 - Drinking potions.
 
+___
 #### Skirmisher
 
 **Type**: (Natural, Class B)
@@ -712,6 +741,7 @@ ___
 
 **Original state**: Characters moving out of threatened squares provoke attacks of opportunity. Attacks of opportunity when moving between threatened squares can be avoided using "cautious movement".
 
+___
 #### Swift strike
 
 **Description**: Your strikes are so quick that your attacks of opportunity hits before the triggering action is complete.
@@ -720,6 +750,7 @@ ___
 
 **Original state**: A reaction resolves after the action that provoked it.
 
+___
 #### Unarmed Strike I-IX
 
 **Description**: Increase damage dice of unarmed strikes. For each increase the ability must be taken again.
@@ -757,6 +788,7 @@ ___
 
 **Warning**: This boon is best used together with the "mage hunter" boon.
 
+___
 #### War Mage
 
 **Type**: (Class B)
@@ -785,6 +817,23 @@ ___
 |10|Pointblank shot II|+1 to damage of ranged attacks within 15ft of target|
 |14|Pointblank shot III|+2 to damage of ranged attacks within 30ft of target|
 
+#### Precise shot I-III
+
+**Type**: (Class B)
+
+**Description**: Remove penalties with ranged weapons when dealing with cover and concealment.
+
+**Original state**: Light cove gives a -2 penalty to attacks against a target. Heavy cover gives a -5 penalty to attacks against a target. Full cover prevents targeted attacks, but this does not help here.
+
+**Prerequisites and benefits**:
+
+|SP dice total|Name|Benefits|
+|-|-|-|
+|7|Precise shot I|Ranged attacks ignore light cover|
+|14|Precise shot II|Ranged attacks ignore heavy cover and light concealment|
+|21|Precise shot III|Ranged attacks ignore heavy concealment|
+
+___
 #### Trick shot I-II
 
 **Description**: Calculate and execute attacks with ranged weapons that have unlikely trajectories.
@@ -811,6 +860,7 @@ General boons are those that can come in handy in and out of combat.
 
 **Prerequisites**: 36 MP dice. Either Elemental[air] or Spirit magic, level 3.
 
+___
 #### Extra Save
 
 **Type**: (Natural, Class A)
@@ -827,6 +877,7 @@ General boons are those that can come in handy in and out of combat.
 |13-16|5| Extra Save IV|
 |17-20|6| Extra Save V|
 
+___
 #### Speed
 
 **Type**: (Natural, Class C)
@@ -837,6 +888,7 @@ General boons are those that can come in handy in and out of combat.
 
 **Warning**: Increasing fly speed also increases turn radius, which is not usually desirable.
 
+___
 #### Sprinter
 
 **Type**: (Natural, Class B)

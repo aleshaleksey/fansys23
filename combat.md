@@ -127,7 +127,7 @@ Sometimes enemies in plain sight hide their intent to attack (eg secret police o
 
 ### Mutually unaware combatants
 
-If both parties are unaware of each other (eg bandits meet guards round the corner of a mountain path), no one is surprised and combar proceeds immediately. More accurately, both parties are considered surprised in the first round and spend the round gawking and do nothing. Either way the surprise round does not happen.
+If both parties are unaware of each other (eg bandits meet guards round the corner of a mountain path), no one is surprised and combat proceeds immediately. More accurately, both parties are considered surprised in the first round and spend the round gawking and do nothing. Either way the surprise round does not happen.
 
 ## Space in combat
 
@@ -155,6 +155,8 @@ Likewise entities that are separated by at least two categories (eg Diminutive a
 
 ### Threatened area and Attacks of Opportunity (AoO)
 
+An attack of opportunity is when a combatant exploits an opening left by another, and carries out a "basic martial manoeuvre" to its target.
+
 Any square within the reach of a hostile entity's melee attacks is considered threatened (this usually includes squares that the hostile entity occupies). Targets moving out of a threatened square provoke an attack of opportunity. This may be a single attack or another basic combat manoeuvre. If a target is moving out of one threatened square into another threatened square may avoid AoOs by declaring "careful movement" and halving their movement speed for the rest of the turn.
 
 ### Reactions and attacks of opportunity
@@ -175,6 +177,18 @@ Unless otherwise stated, a "reaction" always resolves after the action that prov
 |Drink Potion|No|
 |Use item|No, usually|
 |Drop item|No|
+
+### Cover and Concealment
+
+Cover and concealment come in three flavours "light" (1/2), "heavy" (3/4) and "full",
+
+**Cover** is when something block line of effect between attacker and target. Light cover (as a rule covers no more than half of the entity's body area) provides a -2 penalty to targeted attacks vs a target. Heavy cover (as a rule covers 1/2 to 3/4 of a target's area) provides a -5 penalty to targeted attacks and advantage to Dex saves. A target in full cover cannot be targeted with a targeted attack. Examples of things that can provide cover and concealment includes terrain features, buildings, items, and creatures.
+
+**Concealment** is when something blocks line of sight between two entities. It can also be something that blocks a different sense, if that is the main scent used by the entity. An entity can attempt to hide ("stealth" skill) if it has heavy concealment or full concealment. In addition light concealment provides a 1/6 miss chance (use a d6). Heavy cover provides a 2/6 miss chance. Full concealment provides 5/6 miss chance. The miss chance is rolled before or after the attack roll, but obviously before damage.
+
+#### Concealment and attacks of opportunity
+
+Attacks of opportunity require careful observation of the target. One cannot make an attack of opportunity against a target which is "invisible" to you or otherwise has full concealment.
 
 ---
 ## Basic combat manoeuvres and tactical movement.

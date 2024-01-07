@@ -281,7 +281,7 @@ The skill is used for building structures, fortifying positions (dungeon corrido
 
 - **Building**: There are special rules for building. They need to be written.
 - **Fortification**: It takes 30min per 5ft square to fortify a position.
-  - This can give a 3/4 cover bonus to defenders.
+  - This can give a heavy cover bonus to defenders.
   - This can be used to construct a terrain/structure trap (see traps).
   - This can be used to create a barricade (with a break threshold of your roll).
 - **Amelioration**: For medium size creature the minimum camping area is 5ft x 10ft.

@@ -437,7 +437,7 @@ Equipping light, heavy and tower shields is a "full round action". Equipping a b
 **Heavy Shield**: This represents large shields and includes older and newer kinds of kite shields, as well as some larger round shields. Typically when equipped this type of shield offers a good level of protection to torso, as well as some protection to legs and neck.
 
 **Tower Shield**: This represents shields almost tall and wide enough to cover the entire body of the character. An example is the Roman scutum.
-- Special: This shield can be set as a "main action" to provide 3/4 cover to a single creature of the size it was made for, leaving the wielder's hands free for all kinds of wonderful things.
+- Special: This shield can be set as a "main action" to provide heavy cover to a single creature of the size it was made for, leaving the wielder's hands free for all kinds of wonderful things.
 
 ## Notes
 

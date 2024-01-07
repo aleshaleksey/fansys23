@@ -348,7 +348,7 @@ An entity afflicted by conditions that make it unable to engage in physical comb
 - "**Blinded**": A blinded character cannot perceive visual input:
   - It cannot use [WIS] based skills based on sight.
   - It had disadvantage on [DEX] based skills.
-  - It makes melee attacks at disadvantage and ranged and reach attacks at super-disadvantage. When making a ranged attack the attacker must succeed on a roll to detect targets by other means or its attack automatically misses.
+  - All targets have full concealment (5/6 miss chance) from you for the sake of targeted attacks. Ranged attacks beyond 60ft are also at disadvantage.
   - It has disadvantage on [WIS] and [DEX] based saves.
 - "**Invisible**": This character cannot be directly detected by visual means (aka sight). Characters are considered "blinded" in relation to invisible creatures.
 - "**Deafened**": A deafened character cannot perceive sound. It cannot hear. It can speak only stutteringly. It must make an [INT] save to complete Incantations (unless it is deaf for longer than month).

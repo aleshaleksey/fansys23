@@ -439,7 +439,8 @@ Stealth is the art and technique of hiding your presence and remaining, and movi
 - **Threshold**: Stealth roll vs "observe" threshold. (Can be opposed roll out of combat).
 - **Limitations**:
   - An entity cannot stealth in plain sight when observed and must generally have at least "heavy concealment" to stealth.
-  - An entity attempting to maintain stealth must move at half speed or suffer penalties.
+  - An entity attempting to maintain stealth must move at half speed or suffer penalties. It loses stealth it it attempts to run or sprint.
+  - An entity that has "stealthed" and makes a targeted attack or basic combat manoeuvre "breaks" stealth and reveals itself. 
 - **Modifiers**: Most of the modifiers are on the observing side. However there are a couple:
   - Armour penalty (Dex rating) affects all Dex based skills, but is especially pertinent here.
   - Size modifier to "Evasion" also applies to stealth rolls (see "[Size rules](base-rules.md#size-rules)").

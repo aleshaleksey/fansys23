@@ -42,7 +42,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Flurry](#flurry)
 - [Greater Manoeuvre (I-V)](#greater-manoeuvre-i-v)
 - [Guardian's Counterstrike](#guardian's-counterstrike)
-- [Parry](#Parry)
+- [Parry](#parry)
 - [Sneak Attack (I-X)](#sneak-attack-i-x)
 - [Steel Wind Strike](#steel-wind-strike)
 
@@ -77,16 +77,16 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 
 ### Combat Boons (Natural)
 
-- [Alert](#Alert)
-- [Evasive](#Evasive)
-- [Foresight](#Foresight)
+- [Alert](#alert)
+- [Evasive](#evasive)
+- [Foresight](#foresight)
 - [Mage Hunter](#mage-hunter-i)
 - [Multi-attack (I-III)](#multi-attack-i-iii)
 - [Offhand fighting I-IV](#offhand-fighting-i-iv)
 - [Opportunist](#opportunist)
 - [Pointblank shot (I-III)](#pointblank-shot-i-iii)
 - [Precise shot (I-III)](#precise-shot-i-iii)
-- [Skirmisher](#Skirmisher)
+- [Skirmisher](#skirmisher)
 - [Swift strike](#swift-strike)
 - [Trick shot (I-II)](#trick-shot-i-ii)
 - [Unarmed Strike (I-IX)](#unarmed-strike-i-ix)
@@ -99,10 +99,14 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 
 ### General Boons
 
-- [Blink](#Blink)
+- [Blink](#blink)
 - [Extra Save](#extra-save)
-- [Speed](#Speed)
-- [Sprinter](#Sprinter)
+- [Fleet](#fleet)
+- [Silent Step (I-III)](#silent-step-i-iii)
+- [Sniper](#sniper)
+- [Speed](#speed)
+- [Sprinter](#sprinter)
+- [Stalker](#stalker)
 
 ### Combat Abilities (Natural)
 ___
@@ -878,6 +882,39 @@ ___
 |17-20|6| Extra Save V|
 
 ___
+#### Fleet
+
+**Type**: (Either, Class B)
+
+**Description**: You can try to stealth from "light concealment".
+
+**Prerequisite**: At least one rank or "base" in "stealth".
+___
+#### Silent Step I-III
+
+**Type**: (Natural, Class B)
+
+**Description**: You can move faster while stealthed.
+
+|Boon level|Prerequisite (Base)|Boon|
+|-|-|-|
+|I|1|You can move up to your movement speed without penalties to maintain stealth|
+|II|2|You can run while stealthed (no stealth penalty), as long as you have some concealment|
+|III|3|You can sprint wile stealthed (no stealth penalty), as long as you have some concealment|
+
+___
+#### Sniper
+
+**Type**: (Natural, Class A/B)
+
+**Description**: When you are "stealthed" and make a ranged attack from concealment, and the attack misses the target, it does not reveal itself to the target.
+
+**Prerequisite**:
+- SP dice total of 10
+- At least 2 ranks in "stealth".
+- Proficiency with at least one ranged/thrown weapon that is not a firearm or seige weapon.
+
+___
 #### Speed
 
 **Type**: (Natural, Class C)
@@ -898,3 +935,12 @@ ___
 **Special**:
 - Must be taken separately for each movement modality.
 - Does not affect movement modalities where "run" or "sprint" are not valid actions.
+
+___
+#### Stalker
+
+**Type**: (Natural, Class B)
+
+**Description**: You can use "stealth" as a "secondary action".
+
+**Prerequisites**: SP dice total of 5. At least 1 rank in "stealth".

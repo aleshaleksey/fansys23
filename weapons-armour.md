@@ -79,7 +79,9 @@ Proficiency with a weapon type eliminates both the penalty and the damage to sel
 
 ### Weapon table
 
-This table gives a quick overview of weapons. For details on each weapon, see the weapon description. Since specific properties are an important part of how a weapon is used, it is advisable to read over the description of weapons the reader is thinking of using for their character. Sometimes a weapon listed in the table represents several functionally similar historical weapons. Therefore if you do find your beloved katana, please check the entry for "falchion".
+This table gives a quick overview of weapons. For details on each weapon, see the weapon description.
+
+**NB**: Since specific properties are an important part of how a weapon is used, it is advisable to read over the description of weapons the reader is thinking of using for their character. Sometimes a weapon listed in the table represents several functionally similar historical weapons. Therefore if you do find your beloved katana, please check the entry for "falchion".
 
 Damage Key:
 - Bludgeoning: B
@@ -165,6 +167,14 @@ Unarmed combat is the use of one's own body to effectively neutralise targets. I
 
 This is something of a misnomer. Light blades refers to smaller one handed bladed weapons that weight no more than 2lb. It also refers to certain thrown weapons whose use similar to that of bladed weapons. Light blades  are typically easily hidden. All light blades can cause "bleeding". Not all light blades have the light properties. All blades give a +1 HiT to proficient wielders who are not "disabled".
 
+|Weapon|Special Properties| Manoeuvres|
+|-|-|-|
+|Daggers|bleeding, light||
+|Scimitars|bleeding,cripple||
+|Short Swords|bleeding||
+|Small Swords|light|disarm|
+|Shuriken|bleeding,light||
+
 **Daggers** include kitchen knives, hunting knives, daggers and similar blades. They are often somewhat throwable. Daggers have the "light" property.
 
 **Scimitars** are curved blades designed for cutting and chopping. Scimitars, sabres, kodachi, kukri and machetes all fall in this category. can cause the "crippled" condition.
@@ -179,6 +189,13 @@ This is something of a misnomer. Light blades refers to smaller one handed blade
 
 These are the legendary blades of legend, and the symbol of a warrior. Heavy blades are fearsome bladed weapons. All items in this category except Falchions are "long". All heavy blades cause "bleeding". All blades give a +1 HiT to proficient wielders who are not "disabled".
 
+|Weapon|Special Properties| Manoeuvres|
+|-|-|-|
+|Rapier|long, bleeding|disarm|
+|Falchion|bleeding, cripple||
+|Longsword|long, bleeding, cripple||
+|Greatsword|long, bleeding, heavy, cripple||
+
 **Rapiers** are long blades designed for keeping enemies at a distance and inflicting deep, piercing wounds. Rapiers have the "disarm" property.
 
 **Falchions** are long, curved blades with a single edge. Katanas and cutlasses are also considered falchions here. Falchions can cause "cripple".
@@ -190,6 +207,15 @@ These are the legendary blades of legend, and the symbol of a warrior. Heavy bla
 ### Axes
 
 A hefted weapon with a sharp, protruding head that is used for chopping. While also a tool used for carpentry amd fortification, most axes specialised for combat are not suited for any purpose other that chopping foes and wood. All axes have the "grapple" and "cripple" property.
+
+|Weapon|Special Properties| Manoeuvres|
+|-|-|-|
+|Hand axe|cripple, bleeding, "Tool:Carpentry, fortification, forestry"|grapple|
+|War shovel|cripple, bleeding, "Tool: Fortification, agriculture"|grapple|
+|War pick|cripple|grapple, sunder|
+|War axe|cripple, bleeding, "Tool: Forestry"|grapple|
+|Greataxe|cripple, bleeding, heavy|grapple|
+
 
 **Hand Axe**: Any well balanced, one handed axe with a sturdy construction is considered a hand axe. Cavalry axes are usually also considered hand axes. Hand axes have of the "bleeding", "Tool:Carpentry", "Tool:Fortification" and "Tool: Forestry" properties.
 
@@ -204,6 +230,15 @@ A hefted weapon with a sharp, protruding head that is used for chopping. While a
 ### Percussive
 
 Percussive weapons like clubs, maces and hammer are in their essence a weight at the end of a handle and rely on blunt force trauma (bludgeoning). All percussive weapons can cause "cripple".
+
+|Weapon|Special Properties| Manoeuvres|
+|-|-|-|
+|Clubs|cripple||
+|Greatclub|cripple, heavy, prone||
+|Mace|cripple|sunder|
+|Morning stars|cripple, bleeding||
+|War hammers|cripple|sunder|
+|Mauls|cripple, heavy, prone, "Tools:Fortification"||
 
 **Clubs** can include police batons, bats, and heavy branches and have been made from just about any material. As long as humanoids have existed they have used clubs. A basic club is extremely easy to make and use. Clubs do NOT require proficiency to use. 
 
@@ -220,35 +255,55 @@ Percussive weapons like clubs, maces and hammer are in their essence a weight at
 ### Spears
  The venerable spear is the unsung defender of humanoids throughout the realms and ages. Any weapon with a long heft ending in a sharp point is considered a spear. Longer spears have the "unwieldy" property and warriors who use spears as a primary weapon often carry a light weapon in reserve. All spears have the "bleeding" property.
 
- **Short spear**: This is any spear shorter than 6ft. It has the "throw", "disarm", and paradoxically "long" property and can be thrown up to 60ft in 20ft increments. It does NOT have the unwieldy property.
+|Weapon|Special Properties| Manoeuvres|
+|-|-|-|
+|Short spear|bleeding, long|throw, disarm|
+|Spear|bleeding, unwieldy,||
+|Long spear|bleeding, unwieldy, heavy||
+|Javelin|bleeding, unwieldy,||
+|War dart|bleeding, light||
 
- **Spear**: This refers to spears between 6-10ft. It has the "unwieldy" and "bleeding" property and can be thrown up to to 60ft in 20ft increments.
+ **Short spear**: This is any spear shorter than 6ft. It can be thrown up to 60ft in 20ft increments. It does NOT have the unwieldy property.
 
- **Long spears**: This refers to obscenely long spears. Pikes are included in this category. Long spears have the "bleeding" and "heavy" property and cannot be cannot be used against targets within 5ft of the wielder.
+ **Spear**: This refers to spears between 6-10ft. It can be thrown up to to 60ft in 20ft increments.
+
+ **Long spears**: This refers to obscenely long spears. Pikes are included in this category. Long spears cannot be cannot be used against targets within 5ft of the wielder.
 
  **Javelin:** This is a short, lighter, spear-like throwing weapon designed specifically for throwing. It includes weapons like the pilum.
 
- **War dart:** A smaller javelin-like throwing weapon, typically around 2ft long. This includes weapons like the plumbata. War darts have the "light" property.
+ **War dart:** A smaller javelin-like throwing weapon, typically around 2ft long. This includes weapons like the plumbata.
 
  ### Pole-arms
 
  Here pole-arms refers to long hefted weapons with something other than a simple sharp point at the end. Historically these were mostly used as weapons of war, although some had other uses. All pole-arms have the "unwieldy" property.
 
- **Glaive**: A blade of at least one foot at the end of a long heft. This category includes the glaive, palma, naginata, bardiche and other weapons. This is generally a cutting weapon that has the "bleeding" and "cripple" property.
+|Weapon|Special Properties| Manoeuvres|
+|-|-|-|
+|Glaive|unwieldy, bleeding, cripple||
+|Halberd|unwieldy, heavy,bleeding, cripple|grapple, sunder|
+|Venetian Hammer|unwieldy, heavy|grapple, sunder|
+|Long axe|unwieldy, heavy, cripple, bleeding||
 
- **Halberd**: This refers to a family of weapons with a complex head that often make it suitable for penetrating armour of other nasty manoeuvres. A Halberd has the "heavy", "bleeding", "cripple", "grapple" and "sunder" properties.
+ **Glaive**: A blade of at least one foot at the end of a long heft. This category includes the glaive, palma, naginata, bardiche and other weapons.
 
- **Venetian Hammer**: Similar to a halberd, but with a hammer instead of an axe. A Venetian hammer has the "heavy", "grapple" and "sunder" properties. In addition "sunder" vs armour and unattended items is at advantage when using this weapon.
+ **Halberd**: This refers to a family of weapons with a complex head that often make it suitable for penetrating armour of other nasty manoeuvres.
 
-**Long axe**: This is a category that refers to greataxes with a haft of 5ft or longer, certain bardiche-like weapons and simple pole-axes. It has the "heavy", "cripple" and "bleeding" property. Due to the extra weight of the weapon, attacking foes within 5ft of you is at disadvantage.
+ **Venetian Hammer**: Similar to a halberd, but with a hammer instead of an axe. "Sunder" vs armour and unattended items is at advantage when using this weapon.
+
+**Long axe**: This is a category that refers to greataxes with a haft of 5ft or longer, certain bardiche-like weapons and simple pole-axes. Due to the extra weight of the weapon, attacking foes within 5ft of you is at disadvantage.
 
 ### Staves
 
 Staves are round poles with a length between 4-8ft. Staves are bludgeoning weapons that can also be used for support when "crippled" or on difficult terrain. They particularly useful for non-lethal combat. Staves can cause "cripple" and "prone".
 
-**Quarterstaff**: This is a two handed weapon between 6-8ft long. It has the "reach" and enables the "throw" manoeuvre.
+|Weapon|Special Properties| Manoeuvres|
+|-|-|-|
+|Quarterstaff|reach, cripple, prone|throw|
+|Shortstaff|long, cripple, prone|throw, grapple, disarm|
 
-**Shortstaff**: This is a short staff between 4-6ft long. The shortened length allows a great deal of manoeuvres to be executed with this weapon. It has the "long" property and enables "throw", "grapple" and "disarm".
+**Quarterstaff**: This is a two handed weapon between 6-8ft long.
+
+**Shortstaff**: This is a short staff between 4-6ft long. The shortened length allows a great deal of manoeuvres to be executed with this weapon.
 
 ### Slings
 
@@ -257,6 +312,13 @@ Slings are simple in construction and difficult in exploitation which make use c
 ### Bows
 
 Bows are curved ranged weapon, that, when strung appears as a length of material, bent into a curve by a string from its two extremities. This is one of the most common and effective ranged weapons used in most realms. Bows are quite delicate weapons and easily ruined by poor handling or attacks aimed to sunder them. All bows cause "bleeding". Bows have the "delicate" property. Bows cannot be used effectively from "prone".
+
+|Weapon|Special Properties| Manoeuvres|
+|-|-|-|
+|Shortbow|bleeding, delicate||
+|Composite Bow|bleeding, delicate||
+|Longbow|bleeding, delicate, unwieldy||
+|Greatbow|bleeding, delicate, unwieldy, mounted||
 
 **Shortbows** represent actual shortbows, as well as simple, low draw weight bows that do not fall into other categories. Shortbow attacks can cause "bleeding". Typically they are used for hunting and banditry.
 
@@ -268,7 +330,15 @@ Bows are curved ranged weapon, that, when strung appears as a length of material
 
 ### Mechanical bows
 
-Mechanical bows are bow-like weapons where the draw is performed by a mechanism, usually a lever or winch, and a short arrow (bolt) is released by the push of a trigger. They are a choice weapon of armies, since they require less training to master than normal bows, but suffer from a low reload rate. Therefore explorers and adventurers who use them tend to keep a couple of crossbows and a squire for the task of reloading them. All crossbows have the "bleeding" proper- **Supernatural Bonus (Sup)**: This is a bonus added to all supernatural/magic attacks, and INT, WIS and CHA based saves. It is determined by MP/"MP dice" as follows:t know how far away the next monster will be. It is a "secondary action" to reload a hand crossbow. If the wielder has a free appendage they can reload it as part of the attack (essentially using it as a two handed weapon).
+Mechanical bows are bow-like weapons where the draw is performed by a mechanism, usually a lever or winch, and a short arrow (bolt) is released by the push of a trigger. They are a choice weapon of armies, since they require less training to master than normal bows, but suffer from a low firing rate. Therefore explorers and adventurers who use them tend to keep a couple of crossbows and a squire for the task of reloading them. All crossbows have the "bleeding" property.
+
+|Weapon|Special Properties| Manoeuvres|
+|-|-|-|
+|Hand Crossbow|bleeding||
+|Crossbow|bleeding||
+|Winch crossbow|bleeding||
+
+**Hand Crossbow:**: This refers to small, light crossbows that can be wielded in one hand. It is a "secondary action" to reload a hand crossbow. If the wielder has a free appendage they can reload it as part of the attack (essentially using it as a two handed weapon).
 
 **Crossbow**: This refers to a lever-drawn crossbow. Reloading this weapon is a "secondary action". In practice this means that one may make only one attack per turn with this weapon.
 
@@ -282,6 +352,12 @@ Weapons with a closed or open barrel that use the energy in explosive substances
 - All firearms have the "loud", "bleeding" and "delicate" properties.
 - All firearms ignore "armour" component of HiT within the first range increment.
 - **NB:** these weapons are not appropriate for all fantasy settings.
+
+|Weapon|Special Properties| Manoeuvres|
+|-|-|-|
+|Pistol|loud, bleeding, delicate||
+|Musket|loud, bleeding, delicate||
+|Blunderbuss|loud, bleeding, delicate||
 
 **Pistol**: This refers to flint lock pistols of all kind. It is a full round action to reload this weapon.
 

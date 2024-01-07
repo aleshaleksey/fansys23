@@ -32,6 +32,7 @@ FanSys is a class-free system which supports different races and templates. So d
 
 Likewise it is worth thinking about *who* your character is. Are they an ambitious peasant going out into the world to find their chosen one? Are they a weary old knight who has gone on one last quest? Or did they perhaps just misread a map on the way to town and ended up in this god forsaken wilderness with an overambitious peasant and a weary old knight?
 
+___
 ### Stats
 
 There are six stats. Str, Dex, Con, Int, Wis and Cha. Each one represents how intrinsically "strong" some aspect of the character is.
@@ -100,6 +101,7 @@ All characters start with a template. A template is a set of abilities, traits a
 
 For higher power games, where players wish to play angels, devils, dragons and other things, higher level templates should be used. It is recommended that all players use higher level templates, as low level templates with extra class levels mix poorly with higher level templates.
 
+___
 ### Race or template
 
 It is possible that the setting has only humans. This is fine. For some. Others prefer a world with many different kinds of sapient beings that they can play. It might be a world with timeless elves and  brutish orcs. Or it might be a world with beasts that roam the land, sea people who inhabit the waters and winged folk whose domain is the sky.
@@ -112,17 +114,19 @@ Depending on the power level of the game one can pick a basic race or a "level-4
 
 Templates generally give some small bonuses, a few nice features, some of which cannot be gained by other means. Some also give your character penalties. These can be both a pain and a roleplaying crutch. To apply a template:
 
-1. Resd over the template.
+1. Read over the template.
 2. Apply the creature size to your character, adjust heights and weights within 20% as desired.
 3. Apply stat bonuses and penalties.
 4. Apply movement speed, special senses and type.
 5. Add proficiencies and skill bonuses.
 6. Add special abilities, resistances and vulnerabilities.
 
+___
 ### A few basic templates
 
 I am not sure which ones exist in your setting, but I quite like these ones.
 
+___
 #### Human (level-0 template)
 
 Human represents the human race. The human race is the base. Humans have no special senses, resistances, movement modalities or spooky abilities. To compensate this, they adapt quickly to new environments, and learn appropriate skills quickly as soon as they are old enough to walk. Humans have a lifespan that does not exceed a century, reach a breeding age in their teens and can produce up to two dozen offspring in their lifetime.
@@ -142,6 +146,7 @@ Race boon (level 8 and 16):
 - +2 bonus to any stat.
 - 4 skill points to spend on skills and proficiencies.
 
+___
 #### Elf/(Fey touched) (level-0 template)
 
 This is a race that is closer to the fey, either created when fey spirits took material form in exchange for something, or when they mingled with humankind, or bestowed their "gifts" upon humans long ago. Elves/Fey touched live ridiculously long lives. Compared to humans they have slender, wiry bodies and longer ears. They are known as sometimes known as the "fair folk" and see well in twilight hours.
@@ -160,6 +165,7 @@ Race boon (level 8 and 16):
 - Immunity to one of "Charmed", "Blinded", "Stunned" or "Bleeding".
 - +5 to walking speed
 
+___
 #### Orc (level-0 template)
 
 This is a race that is closer to the feral side of humanoids. They are stronger and sturdier than humans, are apt hunters, but tend to lack aptitude for the academic. Orcs lead shorter lives than humans and reproduce even faster.
@@ -177,6 +183,7 @@ Race boon (level 8 and 16):
 - Resistance to one of "piercing", "slashing" or "pressure" or "shear".
 - +1 Con, +1 Str.
 
+___
 #### The Winged (level-0 template)
 
 This is a race of winged humanoids that live in high and isolated places, as well as loci associated with elemental air. They are small of stature, sharp sighted, and often shy of other races.
@@ -195,6 +202,7 @@ Race boon (level 8 and 16):
 - +1 fly level.
 - +10 fly speed.
 
+___
 #### Beasts of the Green (level-0 template)
 
 This is a race of intelligent beasts that dwells in the deepest wilderness. It is thought that they are guardians of the wild, created by ancient forces. Outwardly they take many forms.
@@ -217,6 +225,7 @@ Race boon (level 8 and 16):
 - +2 to one of "Str", "Dex", "Con" or "Wis"
 - 1 level of incantation magic.
 
+___
 ### Skills and abilities
 
 At level one a character starts with the following:
@@ -234,12 +243,13 @@ Skills and proficiencies determine how well practiced your character is with cer
 
 Secondly, a character starts with one background skill, where they get to add a small bonus called "Base" (+1 at level 1).
 
-Thirdly, a character also gets to choose a home terrain. this can be anything from "town" or "plains" to "ruins" or "subterranean". The character has a +5 bonus to navigation and camping in that terrain (very useful).
+Thirdly, a character also gets to choose a home terrain. This can be anything from "town" or "plains" to "ruins" or "subterranean". The character has a +5 bonus to navigation and camping in that terrain (very useful).
 
 Fourthly, a character chooses a save with which they are proficient. This will help defend them against some nasty stuff, so choose carefully.
 
 Lastly, a character gains 3 level points. Level points are spent on gaining abilities. These range from extra save proficiencies, to sword arts and spell casting, and much more. A level point can also be exchanged for 3 skill points or a +1 increase to any stat. For a list of abilities see the "[Abilities](abilities.md)" chapter.
 
+___
 ### Stamina and Mana dice and HP
 
 HP represents a character's vitality, physical body or life force. Importantly, losing HP represents taking actual damage and often has consequences, such as losing limbs, bleeding and death. A character loses HP by taking damage from attacks and indirect effects (like a fireball or an avalanche). Try not to lose too much HP too often.
@@ -264,6 +274,7 @@ So if a character starts with 3 SP dice and 2 MP dice, and has +3 [Con] and +1 [
 
 This is also not a lot, but already a lot better than it used to be!
 
+___
 ### A word on HiT, NAP, SAP and other 3 letter words.
 
 This introduction leaves a lot of unanswered questions, such as "how do I attack?", "saves defend against indirect attacks, but what about direct attacks?", "why am I even playing this?" and probably quite a few more. Before looking for answers in other chapters, we present a brief answer to the first two.
@@ -278,6 +289,7 @@ HiT (Hit Threshold) represents how difficult it is to harm a character with targ
 
 In general, the higher the hit the better (See "[Base Rules: Hit Threshold (HiT)](base-rules.md#hit-threshold-(hit)"). A level one character can expect to have HiT 16 when equipped.
 
+___
 #### Attack bonuses and thresholds
 
 Attacks must overcome HiT to do damage, abilities are opposed by a save. "Natural" attacks are governed by Str and Dex (use [Str] or [Dex] bonus to hit), while "supernatural" attacks are governed by Int and Wis (use [Int] or [Wis] bonus to hit, usually [Wis]).
@@ -303,6 +315,7 @@ In short:
 
 Luckily we don't have to calculate the attack potentials outside of leveling up our characters. And even then we can just use the tables in the "[Base Rules: Tables](base-rules.md#Tables)".
 
+___
 ### Alignment
 
 This is OPTIONAL.
@@ -318,6 +331,7 @@ Alignments can be: "None", "Spiritual", "Divine" and "Profane".
 + Profane: Implies homage to the forces that oppose creation.
 + One cannot be aligned to "Divine" and "Profane" simultaneously as those forces oppose each other.
 
+___
 ### Leveling up
 
 Leveling up, strangely enough, is quite easy, if not for the agony of choice. Each time a character levels up it gains:
@@ -330,6 +344,7 @@ Leveling up, strangely enough, is quite easy, if not for the agony of choice. Ea
 
 A character must spend all points when it levels up. It cannot horde unspent points waiting for the next level.
 
+___
 ### Play
 
 Go get kitted out, and go out into the world and become a legend. Or if you prefer not to, then just roll some dice. There are a lot of different situations that a party can encounter in this game. And of course there are rules that govern how to resolve them. They are covered in "[Weapons and Armour](weapons-armour.md)", "[Combat](combat.md)" "[Movement and Exploration](movement-exploration.md)", "[Skills](skills.md)" and "[Conditions and Types](conditions-types.md)". Live and learn.

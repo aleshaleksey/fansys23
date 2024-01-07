@@ -471,6 +471,8 @@ This table is not necessary since it is a simple addition for Nat + Base. Howeve
 
 There are 8 size categories in the game [diminutive, tiny, small, medium, large, huge, gargantuan, colossal]. As this is a human-centric game, probably designed by a human, "medium", the standard size is about human sized. Size affects how much space an entity takes up, how much it can lift and carry, its reach, how well it dodges, and how thick its defences are. The following table describes how size affects a character.
 
+**NB**: Size modifier to evasion also applies to certain Dex based skills such as "stealth".
+
 |Size|Space|Evasion|Armour|Dex Save|Str Save|Carrying capacity|Reach|
 |-|-|-|-|-|-|-|-|
 |Diminutive|5/8|+3|-3|+3|-3|x1/8|-|

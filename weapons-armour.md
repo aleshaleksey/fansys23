@@ -77,6 +77,7 @@ Any entity may wield a weapon it is physically capably of wielding. If it is not
 
 Proficiency with a weapon type eliminates both the penalty and the damage to self on crit fails. In addition it allows the use of any of a weapon's special properties.
 
+___
 ### Weapon table
 
 This table gives a quick overview of weapons. For details on each weapon, see the weapon description.
@@ -149,6 +150,7 @@ Damage Key:
 |Musket|Firearm|2d6|piercing|2|Dex|240|120|8|6
 |Blunderbuss|Firearm|2d12|piercing|2|Dex|120|40|6|6
 
+___
 ### Unarmed Combat
 
 Unarmed combat is the use of one's own body to effectively neutralise targets. In a mundane world this is not particularly effective on the battle field, but can be used effectively in offensively and defensively in other situations, especially when weapons are not available. In a world where the supernatural exists, unarmed combat has additional uses. Attacking with techniques from this category without proficiency provokes attacks of opportunity from trained combatants. Proficiency with an unarmed combat technique allows the use that technique with no penalty even when wielding weapons not specifically designed for it or when wielding no weapon at all.
@@ -163,6 +165,7 @@ Unarmed combat is the use of one's own body to effectively neutralise targets. I
 
 **Interception** is the art of intercepting a target's attacks as effectively at the lowest cost to yourself. It is used when you need to defend one or more squishy allies from harm, or when you are trying to get your character killed.
 
+___
 ### Light blades
 
 This is something of a misnomer. Light blades refers to smaller one handed bladed weapons that weight no more than 2lb. It also refers to certain thrown weapons whose use similar to that of bladed weapons. Light blades  are typically easily hidden. All light blades can cause "bleeding". Not all light blades have the light properties. All blades give a +1 HiT to proficient wielders who are not "disabled".
@@ -185,6 +188,7 @@ This is something of a misnomer. Light blades refers to smaller one handed blade
 
 **Shuriken** refers to throwing needles, throwing knives and throwing stars. These are easily concealed blades used for surprise attacks and as a distraction. They have the "light" property.
 
+___
 ### Heavy blades
 
 These are the legendary blades of legend, and the symbol of a warrior. Heavy blades are fearsome bladed weapons. All items in this category except Falchions are "long". All heavy blades cause "bleeding". All blades give a +1 HiT to proficient wielders who are not "disabled".
@@ -204,6 +208,7 @@ These are the legendary blades of legend, and the symbol of a warrior. Heavy bla
 
 **Greatswords** represent claymores and zweihanders rather than classical "greatswords". They can be used to cut with the blade and bludgeon with the weighty pommel. These are "heavy" weapons which can, and will cause "cripple".
 
+___
 ### Axes
 
 A hefted weapon with a sharp, protruding head that is used for chopping. While also a tool used for carpentry amd fortification, most axes specialised for combat are not suited for any purpose other that chopping foes and wood. All axes have the "grapple" and "cripple" property.
@@ -227,6 +232,7 @@ A hefted weapon with a sharp, protruding head that is used for chopping. While a
 
 **Greataxe**: This category contains any large axes, including shorter Danish axes that require two hands to use. It has the "bleeding" and "heavy" properties.
 
+___
 ### Percussive
 
 Percussive weapons like clubs, maces and hammer are in their essence a weight at the end of a handle and rely on blunt force trauma (bludgeoning). All percussive weapons can cause "cripple".
@@ -252,6 +258,7 @@ Percussive weapons like clubs, maces and hammer are in their essence a weight at
 
 **Mauls**: Any exceptionally big and heavy mace or war hammer -like weapons that requires hands to use is considered a maul here. Mauls are always "heavy" and can cause the "prone" condition. It also has the "Tool:Fortification" property.
 
+___
 ### Spears
  The venerable spear is the unsung defender of humanoids throughout the realms and ages. Any weapon with a long heft ending in a sharp point is considered a spear. Longer spears have the "unwieldy" property and warriors who use spears as a primary weapon often carry a light weapon in reserve. All spears have the "bleeding" property.
 
@@ -273,6 +280,7 @@ Percussive weapons like clubs, maces and hammer are in their essence a weight at
 
  **War dart:** A smaller javelin-like throwing weapon, typically around 2ft long. This includes weapons like the plumbata.
 
+___
  ### Pole-arms
 
  Here pole-arms refers to long hefted weapons with something other than a simple sharp point at the end. Historically these were mostly used as weapons of war, although some had other uses. All pole-arms have the "unwieldy" property.
@@ -292,6 +300,7 @@ Percussive weapons like clubs, maces and hammer are in their essence a weight at
 
 **Long axe**: This is a category that refers to greataxes with a haft of 5ft or longer, certain bardiche-like weapons and simple pole-axes. Due to the extra weight of the weapon, attacking foes within 5ft of you is at disadvantage.
 
+___
 ### Staves
 
 Staves are round poles with a length between 4-8ft. Staves are bludgeoning weapons that can also be used for support when "crippled" or on difficult terrain. They particularly useful for non-lethal combat. Staves can cause "cripple" and "prone".
@@ -305,10 +314,12 @@ Staves are round poles with a length between 4-8ft. Staves are bludgeoning weapo
 
 **Shortstaff**: This is a short staff between 4-6ft long. The shortened length allows a great deal of manoeuvres to be executed with this weapon.
 
+___
 ### Slings
 
 Slings are simple in construction and difficult in exploitation which make use centripetal force. A sling is essentially a length of sinew with a "nest" for the projectile (usually a round stone or metal bullet) at the center. Despite the range, slings are difficult to aim and therefore have a low range increment. Slings can also be used to shoot stones, in absence of proper ammunition, but the attack is at disadvantage. Slings have the "light" and "unwieldy" properties. Slings cannot be used effectively from prone.
 
+___
 ### Bows
 
 Bows are curved ranged weapon, that, when strung appears as a length of material, bent into a curve by a string from its two extremities. This is one of the most common and effective ranged weapons used in most realms. Bows are quite delicate weapons and easily ruined by poor handling or attacks aimed to sunder them. All bows cause "bleeding". Bows have the "delicate" property. Bows cannot be used effectively from "prone".
@@ -328,6 +339,7 @@ Bows are curved ranged weapon, that, when strung appears as a length of material
 
 **Greatbows** are a large, asymmetric composite bow made for maximum power while still allowing use on horseback. Greatbows have the "unwieldy" and "mounted" property. Greatbows require great strength to use properly. For every point of Str bonus below +2 that the character has, it has a -1 penalty for attacks with greatbows and the range it can use the weapon at decreases by one range increment. Unlike many other unwieldy weapons, a greatbow CANNOT physically be used in spaces where the ceiling height is less than 8ft.
 
+___
 ### Mechanical bows
 
 Mechanical bows are bow-like weapons where the draw is performed by a mechanism, usually a lever or winch, and a short arrow (bolt) is released by the push of a trigger. They are a choice weapon of armies, since they require less training to master than normal bows, but suffer from a low firing rate. Therefore explorers and adventurers who use them tend to keep a couple of crossbows and a squire for the task of reloading them. All crossbows have the "bleeding" property.
@@ -346,6 +358,7 @@ Mechanical bows are bow-like weapons where the draw is performed by a mechanism,
 
 **Optional rule: Repeater Crossbow**: Any crossbow can be fitted a magazine that holds 5 bolts. This means that it only needs to be reloaded every 5 rounds. However, these mechanisms are expensive, complex and prone to jamming (jam on a critical miss). They also add 1-3lb to the weight of a crossbow. Most importantly they are not appropriate to all settings.
 
+___
 ### Firearms
 
 Weapons with a closed or open barrel that use the energy in explosive substances (or magic) to accelerate a projectile towards a target fall into this category. With the exception of some early and ancient firearms. This kind of weapon is easy to wield and long to reload. It is favoured by armies due to the ease of training manpower in their use, but are not ideal for explorers and adventurers who must carry several of them in order to keep anything resembling an adequate rate of fire. Firearms have several exceptional properties:
@@ -434,6 +447,7 @@ Armour tends to restrict movement, somewhat. This is reflected in several penalt
   - Any Adamantine Armour
 - Heavy Armour gives a -4 penalty to all [Con] rolls related to endurance and a -2 penalty to attack rolls.
 
+___
 ### The Armour Table
 
 This table gives a quick overview of armour. For details, see the armour description.  Specific properties of armour are less important than those of weapons, but it may still be of interest. As with weapons, if you do not find your favourite type of armour here, it may have been rolled into another type.
@@ -463,6 +477,7 @@ Bonus Key:
 |Large Shield|Shield|S|3|2|10|6|
 |Tower Shield|Shield|S|4|1|20|8|
 
+___
 ### Light Armour
 
 This refers to basic armours that can be quickly donned and doffed while giving some level of protection to the vitals. It does not offer much protection, but is better than nothing, and does not restrict movement.
@@ -471,7 +486,7 @@ This refers to basic armours that can be quickly donned and doffed while giving 
 
 **Chain shirt:** Armour made of small, interconnected rings of interconnected metal rings. This refers to smaller chain shirts that can be somewhat hidden beneath heavy clothes. this armour offers better protection to the vitals than light cuirasses, but is considerably more expensive to construct and heavier. They are often worn by nobles and merchants who may suspect foul play but still need to appear presentable. 
 
-
+___
 ### Medium Armour
 
 Medium armour covers armours which either protect the whole body or have a full body underlayer, and a second layer which either gives adequate protection to most of the body or good protection to the most vital areas. Most armour falls in this category.
@@ -490,6 +505,7 @@ Medium armour covers armours which either protect the whole body or have a full 
 
 **Cuirass:** This refers to a metallic cuirass, with skirt and pauldrons, worn atop padded armour and often a chain shirt. It is not much heavier than a brigandine, but offers better protection, in exchange for poorer agility and greater expense of manufacture.
 
+___
 ### Heavy Armour
 
 Heavy armour consists of an underlayer (usually padded), a mid-layer (usually chain) and a shell layer on all parts of the body. This is heavy battlefield armour, it is not necessarily best suited for a long march, although that is often the best way of transporting it to said battlefield. This armour is used when maximum protection at all costs is needed.
@@ -500,6 +516,7 @@ Heavy armour consists of an underlayer (usually padded), a mid-layer (usually ch
 
 **Full Plate:** A half plate with fully secured joints is considered a full plate here.
 
+___
 ### Shields
 
 Not strictly armour, but also defensive equipment. These are generally held or attached to one's arm and used to block/deflect attacks before they reach further in. The data shown are for wooden shields with only a small amount of metal in their construction (except bucklers). Metal shields weigh twice as much, but also have +2 to durability.

@@ -54,22 +54,22 @@ There are 31 skills and a number of proficiencies.
 #### STR Based (4)
 
 - Athletics Group
-  - Athletics
-  - Climb
-  - Swim
-- Fortify
+  - [Athletics](#athletics)
+  - [Climb](#climb)
+  - [Swim](#swim)
+- [Fortify](#fortify)
 
 #### DEX Based (7)
 
 - Handiwork group
-  - Sleight of Hand
-  - Tinker
-- Heal
+  - [Sleight of Hand](#sleight-of-hand)
+  - [Tinker](#tinker)
+- [Heal](#heal)
 - Ride Group
-  - Acrobatics
-  - Fly
-  - Ride
-- Stealth
+  - [Acrobatics](#acrobatics)
+  - [Fly](#fly)
+  - [Ride](#ride)
+- [Stealth](#stealth)
 
 #### CON Based (1)
 
@@ -77,37 +77,37 @@ There are 31 skills and a number of proficiencies.
 
 #### INT Based (10)
 
-- Academics
-- Appraise
+- [Academics](#academics)
+- [Appraise](#appraise)
 - Search Group
-  - Investigate/Prospect
-  - Navigate
+  - [Investigate/Prospect](#investigateprospect)
+  - [Navigate](#navigate)
 - Natural Knowledge Group
-  - Arcana
-  - Geography
-  - Nature
+  - [Arcana](#knowledge)
+  - [Geography](#knowledge)
+  - [Nature](#knowledge)
 - Constructed Knowledge Group
-  - Dungeoneering
-  - History
-  - Religion
+  - [Dungeoneering](#knowledge)
+  - [History](#knowledge)
+  - [Religion](#knowledge)
 
 #### WIS Based (4)
 
 - Detect Group
-  - Observe
-  - Sense Motive
-  - Track
-- Spellworking
+  - [Observe](#observe)
+  - [Sense Motive](#sense-motive)
+  - [Track](#track)
+- [Spellworking](#spellworking)
 
 #### CHA based (5)
 
 - Diplomacy Group
-  - Creature Handling
-  - Intimidate
-  - Persuade
+  - [Creature Handling](#creature-handling)
+  - [Intimidate](#intimidate)
+  - [Persuade](#persuade)
 - Perform group
-  - Deceive
-  - Perform
+  - [Deceive](#deceive)
+  - [Perform](#perform)
 
 #### Language Proficiencies
 
@@ -227,6 +227,7 @@ Each skill has a number of described uses. However, the list is generally not ex
 
 ### STR Based
 
+___
 #### Athletics
 
 Athletics is used for most land based physical activities including:
@@ -249,6 +250,7 @@ Athletics is used for most land based physical activities including:
 - **Take care**: Yes.
 - **Try again**: Yes, although the DM may rule that failure on a retry results in the "crippled" condition.
 
+___
 #### Climb
 
 This is a skill specific to scaling steep or vertical surfaces, trees, ropes and entities larger than oneself. A creature without a *climb* skill climbs at 1/4 of its base speed. Unless otherwise stated, no action is required, and the roll is made as part of the entity's movement. This follows the "Difficulties and recommended thresholds" as follows.
@@ -275,6 +277,7 @@ This is a skill specific to scaling steep or vertical surfaces, trees, ropes and
 - **Take care**: No. Entities without a climb speed are always considered at risk when climbing.
 - **Try again**: Yes, but repeated fall damage on failure might make repeated attempts undesirable.
 
+___
 #### Fortify
 
 The skill is used for building structures, fortifying positions (dungeon corridors, battle fields, encampments). It is also used for safely demolishing structures and fortifications. Lastly it is used for making a site safe from natural hazards and making it fit for encampment (amelioration). Fortification rolls are usually made against the threshold set by the terrain and weather.
@@ -295,6 +298,7 @@ The skill is used for building structures, fortifying positions (dungeon corrido
 - **Take care**: Yes.
 - **Try again**: Yes.
 
+___
 #### Swim
 
 Swimming is a separate skill from climbing and overland athletics. It is used for moving through a liquid medium, such as water, lava, quicksand, or a monster's stomach acid. A creature without a *swim* skill swims at 1/4 of its base speed. Unless otherwise stated, no action is required, and the roll is made as part of the entity's movement. This follows the "Difficulties and recommended thresholds" as follows.
@@ -319,6 +323,7 @@ Swimming is a separate skill from climbing and overland athletics. It is used fo
 - **Take care**: Yes.
 - **Try again**: No. The dynamic nature of failure and drowning makes it meaningless.
 
+___
 ### DEX Based
 
 #### Acrobatics
@@ -346,6 +351,7 @@ Acrobatics is used for complex dynamic movement and manoeuvres. Unless otherwise
 - **Take care**: Yes.
 - **Try again**: Yes, although the potential of falling often makes it meaningless.
 
+___
 #### Fly
 
 I don't know whether we even need this as a skill. It is done as part of an entity's or vehicle's movement.
@@ -360,6 +366,7 @@ I don't know whether we even need this as a skill. It is done as part of an enti
 - **Take care**: Yes.
 - **Try again**: Yes, although the DM can rule that repeated failure results in the "crippled" condition or damage to the vehicle.
 
+___
 #### Heal
 
 Healing is used to use medical art and science (as opposed to magic) to diagnose and treat injury and illness. It usually takes at least a minute. It is fine to use WIS instead as a governing stat, especially for diagnosis.
@@ -383,6 +390,7 @@ Healing is used to use medical art and science (as opposed to magic) to diagnose
 - **Take care**: Yes, for treatment. No for diagnosis.
 - **Try again**: For treatment, yes (although the patient might be dead by then). For "diagnose", no.
 
+___
 #### Ride
 
 An entity riding a mount substitutes uses its move to control its mount and its own seat on it. In return it uses the mount's movement speed and modalities. Using a "run" or "sprint" action requires that a rider also uses their action. In addition rolls can be made to perform certain particular actions.
@@ -402,6 +410,7 @@ An entity riding a mount substitutes uses its move to control its mount and its 
 - **Take care**: Yes.
 - **Try again**: Yes, where appropriate. For "fight" and "control" the threshold increases by 1 for every failure.
 
+___
 #### Sleight of Hand
 
 Sleight of hand is not just for "hands". It is the skill combining the use of delicate and precise manipulations with one's body parts and the psychological know-how to make sure that they go unnoticed. It is usually a **main action**. The term "small" is not precise, and common sense should be used.
@@ -421,6 +430,28 @@ Sleight of hand is not just for "hands". It is the skill combining the use of de
 - **Take care**: Yes.
 - **Try again**: Yes, although for "steal" or "pick pocket" the threshold increases by +10 as any observers are likely to be wary this time.
 
+___
+#### Stealth
+
+Stealth is the art and technique of hiding your presence and remaining, and moving, unseen and unheard. It is a skill valued by hunters, scouts, saboteurs and scum. It is commonly opposed by observe.
+
+- **Action**: "Main action".
+- **Threshold**: Stealth roll vs "observe" threshold. (Can be opposed roll out of combat).
+- **Limitations**:
+  - An entity cannot stealth in plain sight when observed and must generally have at least "heavy concealment" to stealth.
+  - An entity attempting to maintain stealth must move at half speed or suffer penalties.
+- **Modifiers**: Most of the modifiers are on the observing side. However there are a couple:
+  - Armour penalty (Dex rating) affects all Dex based skills, but is especially pertinent here.
+  - Size modifier to "Evasion" also applies to stealth rolls (see "[Size rules](base-rules.md#size-rules)").
+  - Moving at full speed when trying to maintain gives forces a reroll of the stealth with disadvantage.
+- **Special**: 
+  - An entity usually needs at least "heavy" concealment to use the stealth skill (otherwise the roll automatically fails).
+  - Anything that grants you the "invisible" status or observers the "blind" status allows one to stealth.
+  - The use of "[deceive](#deceive)" to distract allows one to use stealth in plain sight or "light cover" at disadvantage.
+- **Take care**: No. This is essentially random.
+- **Try again**: Yes. In this case this is a "secondary action".
+
+___
 #### Tinker
 
 Tinkering involves making, modifying and breaking delicate mechanisms, constructions or devices. This includes things like gem cutting, watch making, disabling intricate traps and picking locks. Usually this is either difficult or impossible without additional proficiency with an appropriate kit. Disabling devices carefully usually takes a minute. Modifying them takes at least a minute, while crafting can take hours, days or longer (See Crafting for discussion of this topic).
@@ -452,6 +483,7 @@ Tinkering involves making, modifying and breaking delicate mechanisms, construct
 - **Take care**: Yes. for "disable", "create" or "modify". For "research", the time taken on the next check to research the same item doubles with each failure.
 - **Try again**: Yes, if it hasn't blown up in your face yet!
 
+___
 ### CON Based
 
 #### Harvest
@@ -472,6 +504,7 @@ Harvest is the umbrella skill covering the harvesting of natural resources from 
 - **Take care**: Yes.
 - **Try again**: Yes.
 
+___
 ### INT Based
 
 #### Academics
@@ -497,6 +530,7 @@ Academics are fundamental knowledge. It starts with literacy and ends in higher 
 - **Take care**: No. Knowledge and thought have too many hidden variables to take care.
 - **Try again**: For knowledge based roll, deciphering and logical clues, one retry at a -10 penalty is allowed. For Research, yes, although given the time and material use, it is often undesirable.
 
+___
 #### Appraise
 
 Appraise is used to determine the value of an item, as well as to determine its origin and condition. It takes a "full round action".
@@ -512,6 +546,7 @@ Appraise is used to determine the value of an item, as well as to determine its 
 - **Take care**: No.
 - **Try again**: No. Same result.
 
+___
 #### Investigate/Prospect
 
 This is a wide range of skills and methods that are used to reveal hidden details and properties of the surrounding area. Detailed use is described in "Scouting, prospecting and exploration". The DM should take care not to put plot critical information behind this kind of check (or any other check really, this one is overdone). In addition this skill can be used for "detective" functions like:
@@ -527,6 +562,7 @@ This is a wide range of skills and methods that are used to reveal hidden detail
 - **Take care**: Yes.
 - **Try again**: Yes.
 
+___
 #### Navigate
 
 Navigation allows a character to orientate themselves in space, find the best route from A to B, hold a course, or to plan logistics. In conjunction with cartographers' tools it can be used to create wonderful maps. Navigation can be anything from a "full round action" for orientating one-self, to a drawn out process for planning logistics.
@@ -545,6 +581,7 @@ Navigation allows a character to orientate themselves in space, find the best ro
 - **Take care**: Yes.
 - **Try again**: Yes. If the situation changes, or extra data is gathered. Otherwise the result is the same.
 
+___
 #### Knowledge
 
 There are 6 knowledge skills in the game. Each represents various subsets of knowledge. Each skill works symmetrically and deals with recalling information from one of the fields of knowledge. Using a knowledge skill is a non-action.
@@ -582,6 +619,7 @@ There are 6 knowledge skills in the game. Each represents various subsets of kno
 - **Take care**: No. You either know it or don't.
 - **Try again**: no. You either know it or don't.
 
+___
 ### WIS Based
 
 #### Observe
@@ -589,22 +627,23 @@ There are 6 knowledge skills in the game. Each represents various subsets of kno
 The skill of observation is used to notice hidden/camouflaged details, entities or items using one's senses. If a character fails to observe another entity, the character is effectively "blinded" with respect to the entity. A character that fails to perceive an ambushing party at the start of combat is considered "surprised", which is not a lot of fun.
 
 - **Observe hidden entity**:
-- **Modifiers on observed entity**:
-  - Medium item in plain sight: Threshold = 0
-  - Per size category larger: - 5
-  - Per size category smaller: + 5
-  - Poor Visibility: + 5
-  - Partial concealment: + 2
-  - Per 20ft of distance: + 1
-  - Per additional entity: -1
-  - Through solid object (eg wall): Disadvantage (auto fail for some senses like sight)
-- **Modifiers on perceiving entity**:
-  - Maintaining "concentration": Disadvantage
-  - Asleep: - 10
+  - **Modifiers on observed entity**:
+    - Medium item in plain sight: Threshold = 0
+    - Per size category larger: - 5
+    - Per size category smaller: + 5
+    - Poor Visibility: + 5
+    - Partial concealment: + 2
+    - Per 20ft of distance: + 1
+    - Per additional entity: -1
+    - Through solid object (eg wall): Disadvantage (auto fail for some senses like sight)
+  - **Modifiers on perceiving entity**:
+    - Maintaining "concentration": Disadvantage
+    - Asleep: - 10
 - **Special**: Observe always succeeds against an entity or item in plain sight within 60ft, unless certain special abilities or conditions are in play (eg "invisible", "blinded").
 - **Take care**: No. This is essentially random.
 - **Try again**: Yes. In this case this is a "secondary action".
 
+___
 #### Sense Motive
 
 See through deception or gain some insight into the motive or state of mind of an entity. Usually this is through paying careful attention to wording, intonation and body language combined with a thorough knowledge of philosophy. No action required. This skill does not allow one to read an entity's mind (usually).
@@ -625,6 +664,7 @@ See through deception or gain some insight into the motive or state of mind of a
 - **Take care**: No. Too many random factors.
 - **Try again**: Yes (as "secondary action"), but the result will be the same or the state of mind will have changed and the previous one will not be deduced.
 
+___
 #### Spellworking
 
 While 'Knowledge:Arcana" deals with theory, this is the practical application of said theory to manipulate supernatural forces and magical energies. It is used mainly to interact with the supernatural by "natural"/mundane means. This includes attempting to disrupt a ritual or modify its outcome. Alter the effect of arcane/spiritual glyphs and barriers and imbue or disimbue supernatural forces into mundane/"natural" objects. This generally takes between 1 minute and 1 week but can take longer. It should be noted that many barriers and other dweomer have wards against tampering. This can end badly.
@@ -661,6 +701,7 @@ While 'Knowledge:Arcana" deals with theory, this is the practical application of
 - **Take care**: Yes.
 - **Try again**: Yes, although by then it's often too late.
 
+___
 #### Track
 
 Tracking is used to follow entities based on disturbances they leave in their environment. Finding tracks is a "full round action", while following tracks or identifying them is a "secondary action". One check is needed for every hour of pursuit or every mile if speed is less than 1mph.
@@ -684,10 +725,7 @@ Tracking is used to follow entities based on disturbances they leave in their en
 - **Take care**: Yes.
 - **Try again**: Yes. (Although you probably won't catch it if you take 20)
 
-#### Use Dweomer
-
-Probably going to roll this into "Spellworking".
-
+___
 ### CHA Based
 
 #### Creature Handling
@@ -721,6 +759,7 @@ Train a non-sapient entity or order/direct it to act. Training usually takes day
 - **Take care**: Yes.
 - **Try again**: Sometimes, but at disadvantage. Raising cannot be repeated, because it already grew up.
 
+___
 #### Deceive
 
 This is deception, whereby by direct lies (verbal, or by suggestive body language) or indirect deception or attempts to mislead. As a rule this skill should be used for direct interaction. Written form or sabotage use other skills. This is usually a "communicate" action.
@@ -732,11 +771,12 @@ This is deception, whereby by direct lies (verbal, or by suggestive body languag
   - The target is unfriendly (skeptical): +4 threshold.
   - The target wants to believe this is true: Advantage on deception roll.
 - **Secret message**:
-- **Distract**: Give a target disadvantage on mental skill/ability rolls till the end of its next turn (or a minute out of combat).
+- **Distract**: Give a target disadvantage on mental skill/ability rolls till the end of its next turn (or a minute out of combat). It can also allow you or another entity to stealth in plain sight at disadvantage.
 - **Take care**: No. Emotions are tricky.
 - **Try again**: Sometimes, but at disadvantage. Sometimes a target may become hostile on failure and then things get messy.
 
-### CHA: Intimidate
+___
+### Intimidate
 
 **NB:** Uses of intimidate in PC vs PC is not encouraged (except for "shake resolve"). For maximum effect this is one check that benefits from being roleplayed out.
 
@@ -758,6 +798,7 @@ Encourage compliance based on fear. This can be used either force NPCs to take a
 - **Take care**: No.
 - **Try again**: Yes, once, with disadvantage. Subsequent checks automatically fail until circumstances change.
 
+___
 #### Persuade
 
 Unlike intimidate this does not act as a charm effect. Like intimidate it should not be used on PCs. Persuasion can range from a systematic encroachment onto an entity's system of values and world view over many days of work, to a desperate plea thrown out in a "communicate" action. It can be used in or out of combat.
@@ -790,6 +831,7 @@ Unlike intimidate this does not act as a charm effect. Like intimidate it should
 - **Take care**: No.
 - **Try again**: Yes, once, with disadvantage. Subsequent checks automatically fail until circumstances change.
 
+___
 #### Perform
 
 Put on a show or act, using word or play, song or dance, instrumentals or baffoonery or any number of other means. This can either be done to earn a living, distract attention, carouse or gain information. A performance typically lasts at least a minute.

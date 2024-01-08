@@ -393,13 +393,14 @@ Healing is used to use medical art and science (as opposed to magic) to diagnose
 ___
 #### Ride
 
-An entity riding a mount substitutes uses its move to control its mount and its own seat on it. In return it uses the mount's movement speed and modalities. Using a "run" or "sprint" action requires that a rider also uses their action. In addition rolls can be made to perform certain particular actions.
+An entity riding a mount substitutes/uses its move to control its mount and its own seat on it. In return it uses the mount's movement speed and modalities. Using a "run" or "sprint" action requires that a rider also uses their action. In addition rolls can be made to perform certain particular actions.
 
 - **Substitute** for "Athletics" or "Acrobatics" for actions that start or end with the rider on the mount. For example this includes, dancing, jumping and falling.
 - **Fight**: As a **communicate** action instruct your mount to make its attack.
   - War trained mount: Threshold = 12.
   - Untrained mount: Threshold = 24.
   - An "aggressive" mount will attack of its own accord, whether you want it to or not.
+  - A mount which has used the "run" or "sprint" action cannot take the fight action.
 - **Control**: As a **communicate** action, keep control of your mount in combat.
   - Keep non combat trained mount in combat: Threshold = 24
   - Keep an "aggressive" mount from attacking available targets: Threshold = 16.
@@ -407,6 +408,11 @@ An entity riding a mount substitutes uses its move to control its mount and its 
 - **Stay in saddle**: Keep your seating under adverse circumstances (non-action).
   - Threshold = Threshold of provoking event.
   - On damage over 20, threshold = [damage suffered / 2]
+- **Mount**: Getting onto a mount and making yourself ready to ride is a "main action": Threshold = 8.
+- **Dismount**: Getting off a mount and is a "secondary action": Threshold = 8.
+  - Failing the roll by less than 5 results in the action being wasted, failing by 5 or more results in you falling from your mount.
+  - When the mount falls, the rider makes a roll (threshold=16) as a reaction to fall the first 10ft safely and land on their feet. Otherwise they suffer the usual falling rules.
+- **Quick mount**: Mount as a "secondary action" instead of a "main action": Threshold = 16.
 - **Take care**: Yes.
 - **Try again**: Yes, where appropriate. For "fight" and "control" the threshold increases by 1 for every failure.
 

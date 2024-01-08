@@ -66,7 +66,8 @@ The actions named here are further described in the next section.
 
 #### Types of actions in combat
 The actions an entity may take might also be restricted by its conditions and general limitations. For example, if you have two hands and both are holding swords, you cannot pick up another item with your hand. The following actions exist in combat.
- - "**Move**": Move from A to B via a route that its modality of movement permits up to its stated movement speed.
+- "**Move**": Move from A to B via a route that its modality of movement permits up to its stated movement speed.
+  - A mounted characted using their "move" action, but their mount's movement speed and movement modalities.
 
 
 - "**Main Action**": This is some generalised activity that takes no longer than 6 seconds and does not interfere with general "movement". Actions include:
@@ -190,6 +191,17 @@ Cover and concealment come in three flavours "light" (1/2), "heavy" (3/4) and "f
 
 Attacks of opportunity require careful observation of the target. One cannot make an attack of opportunity against a target which is "invisible" to you or otherwise has full concealment.
 
+#### Mounts and Mounted Combat
+
+A character may ride a mount into combat (and in combat). In this case, for movement the rider's move action is used, with the mount's movement speed and modality. Likewise if a mounted character wishes to "run" or "sprint" (ie it wishes for its mount to do so with them on it), the rider's action is used for it.
+
+- Mounting is a "main action". A quick mount can be attempted as a "secondary action" but this increases the risk of failure.
+- Dismounting is a "secondary action".
+- A mount can be commanded to attack with a "communicate action", although an untrained mount is unlikely to obey.
+- A mount not trained in combat will likely bolt or freeze ("ride", threshold = 24).
+- A rider with the "charge" ability may make an attack as a secondary action even if the mount "runs" or "sprints".
+- When an attack of opportunity is triggered it may be made against the mount or the rider.
+-  When the mount falls, the rider makes a "ride" or "acrobatics" roll (threshold=16) as a reaction to fall the first 10ft safely and land on their feet. Otherwise they suffer the usual falling rules.
 ---
 ## Basic combat manoeuvres and tactical movement.
 

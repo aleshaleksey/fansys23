@@ -650,6 +650,7 @@ There are several forms of spellcasting in this category, but they all have simi
 - Each time a character wishes to learn the new category of local magic, they must take it as a separate ability.
 - Each type of local magic also covers some global spells. As long a character has "Spellcasting: Global I" and the requisite level of local spellcasting of the type, they can cast global spells of that type and level.
 - In order to get the next level of a type of local magic, a character must have the previous one. So if a character wishes to learn "Spellcasting: Nature III", they must have "Spellcasting: Nature II", which requires having "Spellcasting: Nature I".
+- A spellcaster can never channel more than 1/3 of their MP dice total into a single spell.
 
 **Local Spellcasting table**:
 

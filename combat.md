@@ -274,38 +274,29 @@ A creature that is "grappled" or "restrained" can make an opposing roll in place
 - Supernatural abilities target MP, are fueled by MP dice.
 - Supernatural abilities usually force INT, WIS or CHA saves, but some can also force other saves, or be manifest as targeted attacks.
 
-#### Spells
-- Spells are a subset of supernatural powers that mortals have learned to channel by following certain procedures.
-- Entities that cast spells are referred to here as "**casters**".
-- Spells can be either "**common**" or "**global**".
- 1. "**Common**" spells have the following properties:
-   - They generally take between a couple of seconds to a dozen minutes to cast ("minor action" to "1o minutes"), but generally take a "main action".
-   - Their effect is either immediate, or lasts no longer than a few days.
-   - Their effect has a range of no more than a mile of a caster.
-   - Their effect has a radius of no more than a mile (eg. search spells) or 108ft (eg. explosion magic).
-   - They take 1-9 MP dice to cast.
- 2. "**Global**" spells have the following properties:
-   - Generally take a dozen minutes to a month to cast, but more often an hour or a day.
-   - Their effect can be immediate and devastating, or can last for centuries (eg Great Barrier spells).
-   - Their range can be hundreds of miles (but is often much shorter).
-   - Their effect radius can be hundreds of miles, but is more often localised (eg a Mage's Sanctum).
-   - They take at least 10 MP dice to cast, with the usual cost being ~20 dice per day.
+### Spells
 
+Spells are a subset of supernatural powers that mortals have learned to channel by following certain procedures. Entities that cast spells are referred to here as "**casters**". Spells can be either "**local**" or "**global**". "Global" spells can be useful, and indeed devastating in combat, but most combat spells are "local". "Local" spells have the following properties:
 
-- These ALWAYS involve a combination of one or more of the following:
+- They generally take between a couple of seconds to a dozen minutes to cast ("minor action" to "10 minutes"), but generally take a "main action".
+- Their effect is either immediate, or lasts no longer than a few days.
+- Their effect has a range of no more than a mile of a caster.
+- Their effect has a radius of no more than a mile (eg. search spells) or 108ft (eg. explosion magic).
+- They take 1-9 MP dice to cast.
+
+Spells ALWAYS involve a combination of one or more of the following:
+
   1. **Somatic Components**: A set of defined, obvious gestures or movements. An "immobilised" or "restrained" caster cannot perform these. (conditions that imply "immobilised" fall under this category). Spells with somatic components provoke attacks of opportunity.
   2. **Incantation components**: A set of defined, well enunciated words or sounds. A "silenced" or "silent" caster cannot perform these. (conditions that imply inability to produce defined sound fall under this category).
   3. **Ritual components**: A ritual is a procedure involving defined movement and positioning of objects or entities, or the creation of defined patterns. Disruption of this procedure ruins the ritual. Rituals typically apply to global spells.
 
+Spell ranges are designated as "**close**" or "**ranged**".
 
-- Spell ranges are designated as "**melee**" or "**ranged**".
-  1. A "**melee**" spell, like a melee attack must requires direct contact between caster and target. Its range is the caster's reach.
-  2. A "**ranged**" spell can have a range of 5ft or higher. It is designated as eg "ranged[60ft]". The base distances are 15ft, 30ft, 60ft, 120ft, 240ft.
-
-
+1. A "**close**" spell, like a melee attack must requires direct contact between caster and target. Its range is the caster's reach and includes the caster.
+2. A "**ranged**" spell can have a range of 5ft or higher. It is designated as eg "ranged[60ft]". The base distances are 15ft, 30ft, 60ft, 120ft, 240ft.
 - An entity can only cast ONE spell at a time. If it attempts to cast a second, either both spells dissipate, or the casting ends in spectacular failure.
 - Spells can be **counterspelled** and **dispelled**. (How?)
-- Casting non-melee spells with somatic components provokes attacks of opportunity.
+- Casting non-melee spells with somatic components provokes attacks of opportunity unless the "mage hunter" ability is involved.
 - Spells with an active effect (eg summoning) and non-instantaneous duration usually require the caster to maintain their existence by "**concentrating**" on them. This has the following rules:
   1. A caster can NEVER concentrate on more than one spell.
   2. If concentration is broken, the spell dissipates or fails spectacularly.

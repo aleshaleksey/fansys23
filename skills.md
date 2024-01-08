@@ -603,7 +603,7 @@ There are 6 knowledge skills in the game. Each represents various subsets of kno
 - **Knowledge Domains**:
   - **Arcana**: Knowledge of spells and magical rituals. Used to identify magical auras (with appropriate senses), supernatural effects, spells that are being cast, magical constructs and summoned creature. Thresholds:
     - Identify magical aura: 16.
-    - Identify supernatural effect: [12 + MP dice used to create it]
+    - Identify supernatural effect: [16 + MP dice used to create it]
     - Identify spell being cast [12 + MP dice used to create it]
     - Identify magical constructs or summoned creature: [4 + Total dice / 2].
     - If the item is a single use item and the roll fails by 5 or more, the item is destroyed in the process.an assign [MP + 2] to successfully counter the effect.

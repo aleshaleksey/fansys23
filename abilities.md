@@ -68,10 +68,8 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Elemental Affinity](#elemental-affinity)
 - [Lingering Spell](#lingering-spell)
 - [Still Spell](#still-spell)
-- [Spellcasting: Elemental](#spellcasting-elemental)
-- [Spellcasting: Nature](#spellcasting:-nature)
-- [Spellcasting: Incantation](#spellcasting:-incantation)
-- [Spellcasting: Global](#spellcasting:-global)
+- [Spellcasting: Local](#spellcasting-local)
+- [Spellcasting: Global](#spellcasting-global)
 
 ## Boon List
 
@@ -627,6 +625,72 @@ ___
 |Incantation|Resistance to all "physical"|"Spirit Strike"|
 |Natural|Resistance to all "energy"|"Guide"|
 |Global|Resistance to all conditions|"Least Ward"|
+
+___
+### Spellcasting
+
+Spell casting abilities come in two flavour: Local and Global. Local spellcasting covers spells which take no longer than an hour to cast, have effects that wear off in a month of less and do not reach further than a mile from the point of casting. They are most useful in battle and situations where an immediate effect is needed. Global spellcasting covers everything else and is used in various applications, from near impenetrable barrier on holy sites, to enchantments that bring fertile harvests to whole kingdoms over the centuries.
+
+The rules for use of spells in combat are found in "[Combat: Spells](combat.md#spells)".
+
+Other magic rules, including spell lists are found in "[Spells](spells.md)"
+
+#### Spellcasting: Local
+
+There are several forms of spellcasting in this category, but they all have similar mechanics and have the same prerequisites. The casting types in this category are:
+
+- Elemental: Fire
+- Elemental: Ice
+- Elemental: Light
+- Elemental: Lightning
+- Incantation
+- Nature
+
+**Special**:
+- Each time a character wishes to learn the new category of local magic, they must take it as a separate ability.
+- Each type of local magic also covers some global spells. As long a character has "Spellcasting: Global I" and the requisite level of local spellcasting of the type, they can cast global spells of that type and level.
+- In order to get the next level of a type of local magic, a character must have the previous one. So if a character wishes to learn "Spellcasting: Nature III", they must have "Spellcasting: Nature II", which requires having "Spellcasting: Nature I".
+
+**Local Spellcasting table**:
+
+|Ability level|MP dice casting cost|MP dice prerequisite|Level Prerequisite|
+|-|-|-|-|
+|I|1|3|1|
+|II|2|6|3|
+|III|3|9|5|
+|IV|4|12|7|
+|V|5|20|9|
+|VI|6|24|11|
+|VII|7|28|13|
+|VIII|8|32|15|
+|IX|9|36|17|
+|X|10|40|19|
+
+#### Spellcasting: Global
+
+Global magic covers the casting of all global spells. In order to access and cast global spells of a certain type and level a character must have either of:
+
+1. The requisite level in that type of local magic and 1 level of global magic.
+2. The requisite level of global magic and 1 level in that type of local magic.
+
+So for example, to cast global 7th level Nature magic, a character must have either "Spellcasting: Nature VII" and "Spellcasting: Global I", or "Spellcasting: Global VII" and "Spellcasting: Nature I".
+
+**Casting time and cost**: Global spells take at least an hour to cast, but more often the casting time is measured in days or weeks. Thus the MP dice cost is measured in "dice per day".
+
+**Global Spellcasting table**:
+
+|Ability level|MP dice casting cost per day of casting|MP dice prerequisite|Level Prerequisite|
+|-|-|-|-|
+|I|3|3|1|
+|II|6|6|3|
+|III|9|9|5|
+|IV|12|12|7|
+|V|15|20|9|
+|VI|18|24|11|
+|VII|21|28|13|
+|VIII|24|32|15|
+|IX|27|36|17|
+|X|30|40|19|
 
 ___
 ## Boons

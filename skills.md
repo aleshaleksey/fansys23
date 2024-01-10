@@ -532,6 +532,7 @@ Academics are fundamental knowledge. It starts with literacy and ends in higher 
   - Develop countermeasures to a monster's ability and gain a +4 to saves/attack against it. This requires at least one knowledge skill.
     - Time taken: [Monster SP + MP dice] x days
     - Threshold: [(Monster SP + MP dice) / 2]
+- **Learning spells**: The base time for independently learning spells is 108 days per MP dice that it costs to cast. A character proficient with academics and with access to relevant resources may make an academics roll at the beginning of this period and subtract the result from the base cost, hence giving an adjusted base time. For example, with an academics roll of 24, the base time is reduced to 84 days. This can never reduce the base time below 64h per MP dice.
 - **Recognise theory**: Recognise a theory or phenomenon you have previously studied.
   - Threshold = [Research threshold - 5]
 - **Take care**: No. Knowledge and thought have too many hidden variables to take care.
@@ -704,7 +705,9 @@ While 'Knowledge:Arcana" deals with theory, this is the practical application of
   - The threshold is the item's creation threshold.
   - If the item is a single use item and the roll fails by 5 or more, the item is destroyed in the process (unless it is "durable" or "indestructible").
   - For each restriction on the item forbidding the character to use it, the threshold increases by +5.
-- **Special**: Failure by 5 or more leads to the entity using the skill to expend a number of MP dice equal to the difference between threshold and result. If this leads to the MP dice count reaching 0, the skill user must make a [CHA] save vs the threshold or fall "unconscious" until they receive "first aid" or the status is otherwise lifted by use of natural or supernatural ability.
+- **Special**:
+  - Failure by 5 or more leads to the entity using the skill to expend a number of MP dice equal to the difference between threshold and result. If this leads to the MP dice count reaching 0, the skill user must make a [CHA] save vs the threshold or fall "unconscious" until they receive "first aid" or the status is otherwise lifted by use of natural or supernatural ability.
+  - You have disadvantage on "spellworking" rolls relating to spells with the "**curse** descriptor until curse's break condition has been fulfilled. Once the condition has been fulfilled rolls to disimbue or disable the curse have advantage.
 - **Take care**: Yes.
 - **Try again**: Yes, although by then it's often too late.
 

@@ -116,9 +116,9 @@ Because stacking modifiers can easily "break" a game or lead to situations where
 ---
 ## Time
 
-- 1 day is 24 hours.
-- 1 hour is 60 minutes.
-- 1 minute is 60 seconds.
+- 1 day is 24 hours. It should be noted that when an activity's duration is measured in days, this generally assumes that 10 hours are spent on the activity, and the rest are used for maintaining vital activities and rest.
+- 1 hour (abbreviated to "h") is 60 minutes.
+- 1 minute (abbreviated to "min") is 60 seconds.
 - 1 round is 6 seconds (5 works as well but we're more used to the decimal system).
 
 

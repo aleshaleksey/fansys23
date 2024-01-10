@@ -286,7 +286,7 @@ Spells are a subset of supernatural powers that mortals have learned to channel 
 
 Spells ALWAYS involve a combination of one or more of the following:
 
-  1. **Somatic Components**: A set of defined, obvious gestures or movements. An "immobilised" or "restrained" caster cannot perform these. (conditions that imply "immobilised" fall under this category). Spells with somatic components provoke attacks of opportunity.
+  1. **Kinetic Components**: A set of defined, obvious gestures or movements. An "immobilised" or "restrained" caster cannot perform these. (conditions that imply "immobilised" fall under this category). Spells with somatic components provoke attacks of opportunity.
   2. **Incantation components**: A set of defined, well enunciated words or sounds. A "silenced" or "silent" caster cannot perform these. (conditions that imply inability to produce defined sound fall under this category).
   3. **Ritual components**: A ritual is a procedure involving defined movement and positioning of objects or entities, or the creation of defined patterns. Disruption of this procedure ruins the ritual. Rituals typically apply to global spells.
 

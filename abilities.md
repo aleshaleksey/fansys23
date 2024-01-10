@@ -623,6 +623,7 @@ ___
 |-|-|-|
 |Elemental|Immunity to given element|"Elemental Touch"|
 |Incantation|Resistance to all "physical"|"Spirit Strike"|
+|Kinetic|Resistance to all "immobilise", "grapple", "restrain"|"Parry"|
 |Natural|Resistance to all "energy"|"Guide"|
 |Global|Resistance to all conditions|"Least Ward"|
 
@@ -639,11 +640,12 @@ Other magic rules, including spell lists are found in "[Spells](spells.md)"
 
 There are several forms of spellcasting in this category, but they all have similar mechanics and have the same prerequisites. The casting types in this category are:
 
+- Elemental: Air
+- Elemental: Earth
 - Elemental: Fire
 - Elemental: Ice
-- Elemental: Light
-- Elemental: Lightning
 - Incantation
+- Kinetic
 - Nature
 
 **Special**:

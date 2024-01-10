@@ -265,15 +265,87 @@ For every extra MP point (4, if casting globally) placed in the spell you can ad
 ___
 ## Rules for making spells
 
-More powerful spells have a higher MP dice cost, weaker spells have a lower MP dice cost. Spell power and utility can also be tweaked by adjusting the cost and availability of materials and foci, as well as changing the duration of casting. To be systematic in this development, there should be clear rules on how to calculate the cost, duration, components etc. of a spell. On the other hand, this is unlikely to be an exact science, since the power of a spell is determined to a large degree by circumstances and player creativity. Thus any such system should be well thought out and flexible.
+More powerful spells have a higher MP dice cost, weaker spells have a lower MP dice cost. Spell power and utility can also be tweaked by adjusting the cost and availability of materials and foci, as well as changing the duration of casting. To be systematic in this development, there should be clear rules on how to calculate the cost, duration, components etc. of a spell. On the other hand, this is unlikely to be an exact science, since the power of a spell is determined to a large degree by circumstances and player creativity. Thus any such system should be well thought out and flexible. Ultimately the cost of a spell should correlate perfectly with its agency. Where:
+
+Agency = [probability that the spell is useful in a situation] x [how strongly it affects outcome]
 
 ### Power consideration of Local spells
-
 - Damage: Class (C-S), number of damage types, amount of damage.
 - Conditions: Class(C-S), number of conditions.
+- Movement Modalities.
+- Bonuses.
+- Healing.
 - Duration.
+- Casting time.
 - Concentration.
 - Range.
 - Number of targets.
 - Material and foci.
 - Which components and number of components.
+
+#### Base spell, local:
+- Spell points: 3
+- Max "traits": 3 + 4 x MP
+- Damage: None 
+- Condition: None 2 x C class, or 1 x B class.
+- Movement Modalities: None
+- Bonuses: None
+- Healing: None
+- Duration: ~1 round.
+- Casting time: Main action.
+- Concentration: None
+- Range: Close IF incantation. 30ft IF kinetic.
+- Targets: 1 OR 1 square.
+- Material and foci: None
+- Components: Kinetic
+
+### Cost rules
+- Spell points: +3 per MP dice.
+- Damage magnitude: +3 per (C class, 1d12) OR (B class, 1d8) OR (A class, 1d6) OR +9 (S class 1d6) 
+- Condition: +3 if Class C, +6 if Class B, +9 if Class A, +12 if Class A.
+- Healing: +3 per HP. +3 per condition
+- Modality: +3 if C(walk, climb, swim), +6 if B(flyA, dig), +9 if Fly(G), +12 if (blink), +15 if S(cosmic).
+- Duration (no damage): +1 if 1 min, +3 if 12 min, +6 if hour +12 if day
+- Duration (damage): +3 if min, +6 if 12 min.
+- Casting time (no damage or conditions): Secondary (+2), Main(0), Full round(-2).
+- Casting time (damage or conditions): Secondary(+2), Main(0), Full round(-1), 1 minute (-2).
+- Concentration: All condition and damage spells MUST be concentration. Otherwise -3 if concentration
+- Range: +1 per range up (15, 30, 60, 120, 240), -1 per range down.
+- Targets +2 per target or +3 per 5ft radius.
+- Material: -2 if material, -1 if focus. -1 if either is rare.
+- Components: Incantation only (+1), Kinetic only (0), Kinetic + Incantation (+1)
+
+#### Examine "Wind Walk"
+|||
+|-|-|
+|Name|Wind Walk [Air, Nature, Travel]|
+|Scope|Local (Global)|
+|MP|3 (12)|
+|Target(s)|1+|
+|Casting time|"main action" (1h + 20 min/4MP)|
+|Range|5ft|
+|Duration|12 min+ (1 day+)|
+|Components|incantation (+ritual)|
+|Materials|None (12 dandelion heads)|
+|Condition|target cannot be earth aligned|
+|Save|Wis (harmless), no effect|
+
+**Description**: The target gains a good fly speed equal to your walking speed, as if walking upon the air. When the spell ends, the target loses this movement modality immediately.
+
+For every extra MP point (4, if casting globally) placed in the spell you can add either: 1. An extra target, 2. an extra 6 minutes of effect (6h if cast globally).
+
+- Spell points: 
+- Damage types: NONE
+- Damage magnitude: NONE
+- Condition: NONE
+- Healing: NONE
+- Modality: Fly(G) (+9)
+- Duration (no damage): 12 min (+3)
+- Casting time (no damage or conditions): Main (0)
+- Concentration: NONE
+- Range: Incantation-close (0)
+- Targets: 1 (0)
+- Material: None
+- Components: Incantation only (+1)
+- Total SP points: +9+3+1=13
+- Therefore cost: (13-3)/4=C=2.5 

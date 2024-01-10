@@ -261,3 +261,19 @@ The clean example would look like:
 **Description**: The target gains a good fly speed equal to your walking speed, as if walking upon the air. When the spell ends, the target loses this movement modality immediately.
 
 For every extra MP point (4, if casting globally) placed in the spell you can add either: 1. An extra target, 2. an extra 6 minutes of effect (6h if cast globally).
+
+___
+## Rules for making spells
+
+More powerful spells have a higher MP dice cost, weaker spells have a lower MP dice cost. Spell power and utility can also be tweaked by adjusting the cost and availability of materials and foci, as well as changing the duration of casting. To be systematic in this development, there should be clear rules on how to calculate the cost, duration, components etc. of a spell. On the other hand, this is unlikely to be an exact science, since the power of a spell is determined to a large degree by circumstances and player creativity. Thus any such system should be well thought out and flexible.
+
+### Power consideration of Local spells
+
+- Damage: Class (C-S), number of damage types, amount of damage.
+- Conditions: Class(C-S), number of conditions.
+- Duration.
+- Concentration.
+- Range.
+- Number of targets.
+- Material and foci.
+- Which components and number of components.

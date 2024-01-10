@@ -127,7 +127,7 @@ ___
 
 #### Spells known and spells ready
 
-A character can know any number of spells. However, a character can only have a limited number of spells ready. A character decides last thing before sleeping which spells to bring ready for the next day. The number of spells a character can ready [Int + [MP dice total] / 2] spells at any one time.
+A character can know any number of spells. However, a character can only have a limited number of spells ready. A character decides last thing before sleeping which spells to bring ready for the next day. The number of spells a character can ready [Int + [MP dice total] / 2] spells at any one time. The first ten "MP 0 spells" do not count against this limit.
 
 #### Spells gained from levels in "spellcasting" ability
 
@@ -141,7 +141,11 @@ The more common way to learn spells is to learn from an entity that already has 
 
 #### Spell transfer
 
-Certain spells, such as "Isolate Essense", "Memory Thief" and "Imbue Essense" allow knowledge, skills and spells to be almost instantaneously between entities. However these spells carry a high cost. More importantly, the entity imparting the spell loses it from their spells known, and there are few who would agree to such a transfer without a steep cost.
+Certain spells, such as "Isolate Essence", "Memory Thief" and "Imbue Essence" allow knowledge, skills and spells to be almost instantaneously between entities. However these spells carry a high cost. More importantly, the entity imparting the spell loses it from their spells known, and there are few who would agree to such a transfer without a steep cost.
+
+#### MP 0 spells
+
+These spells use so little energy to cast, that they do not use MP. Casting them does not cause exertion. For the sake learning spells they count as taking half as long as spells that cost 1 MP dice. These spells are so simple that the first ten of these do not count against readied spell limit. MP 0 spells ALWAYS have a base casting time of "main action".
 
 ___
 ## The 6 types of magic
@@ -162,13 +166,13 @@ Element and nature magic is "domain" based, and the the spells that fall into th
 
 Spells of this type are associated with elemental air. All and any spells with the "air" descriptor are on this spell list. They are associated with the "shear" and "lighting" damage types and "paralysed", "stunned", "prone" and "crippled" conditions.They are often used for travel, gathering information and controlling weather, but also have combat uses.
 
-For every level of Spellcasting: Elemental(Air), a character learns 2 compatible spells. A character can learn additional spell at a base rate of 108 days per MP dice cost.
+For every level of Spellcasting: Elemental(Air), a character learns 2 compatible spells. At the first level it learns 3 zero-level spells.
 
 ### Elemental (Earth)
 
-Spells of this type are associated with elemental earth. All and any spells with the "earth" descriptor are on this spell list. They are associated with all physical damage types and the "restrained", "grappled", "prone", "crippled", and "bleeding" conditions. It is generally used for fortification and agriculture.
+Spells of this type are associated with elemental earth. All and any spells with the "earth" descriptor are on this spell list. They are associated with all physical damage types and the "restrained", "grappled", "prone", "crippled", and "bleeding" conditions. It is generally used for fortification and agriculture. At the first level it learns 3 zero-level spells.
 
-For every level of Spellcasting: Elemental(Air), a character learns 2 compatible spells. A character can learn additional spell at a base rate of 108 days per MP dice cost.
+For every level of Spellcasting: Elemental(Air), a character learns 2 compatible spells. A character can learn additional spell at a base rate of 108 days per MP dice cost. At the first level it learns 3 zero-level spells.
 
 ### Elemental (Fire)
 
@@ -184,9 +188,7 @@ For every level of Spellcasting: Elemental(Air), a character learns 2 compatible
 
 ### Incantation
 
-Incantation magic covers a wide range of spells whose effects are activated by song or chant. Incantation magic covers all spells with an incantation component. Spells cast through incantation spellcasting cannot be affect by "aphonic spell". Typically summoning spells and close in combat spells are compatible with incantation magic.
-
-For every level of Spellcasting: Elemental(Air), a character learns 1 compatible spell. A character can learn additional spell at a base rate of 108 days per MP dice cost.
+Incantation magic covers a wide range of spells whose effects are activated by song or chant. Incantation magic covers all spells with an incantation component. Spells cast through incantation spellcasting cannot be affect by "aphonic spell". Typically summoning spells and close in combat spells are compatible with incantation magic. At the first level it learns 3 zero-level spells.ce cost.
 
 ### Kinetic
 
@@ -196,10 +198,7 @@ For every level of Spellcasting: Elemental(Air), a character learns 1 compatible
 
 ### Nature
 
-Nature magic covers all nature related spells. All spells of "winter", "spring", "summer", "autumn" and "seasonal" fall within this category. They are not associated with any particular damage type or condition. It is used in any sphere associated with nature. Unlike other types of spellcasting, nature magic does not have an opposite, and is therefore quite difficult to dispel and counter-spell. Likewise, nature mages will not be most adept at dispelling and counter-spelling other types of magic.
-
-For every level of Spellcasting: Elemental(Air), a character learns 2 compatible spell. A character can learn additional spell at a base rate of 108 days per MP dice cost.
-
+Nature magic covers all nature related spells. All spells of "winter", "spring", "summer", "autumn" and "seasonal" fall within this category. They are not associated with any particular damage type or condition. It is used in any sphere associated with nature. Unlike other types of spellcasting, nature magic does not have an opposite, and is th At the first level it learns 3 zero-level spells.
 ## Spell List
 
 ### Spell Descriptors
@@ -251,7 +250,7 @@ The clean example would look like:
 |MP|3 (12)|
 |Target(s)|1+|
 |Casting time|"main action" (1h + 20 min/4MP)|
-|Range|5ft|
+|Range|Close|
 |Duration|12 min+ (1 day+)|
 |Components|incantation (+ritual)|
 |Materials|None (12 dandelion heads)|
@@ -284,10 +283,10 @@ Agency = [probability that the spell is useful in a situation] x [how strongly i
 - Which components and number of components.
 
 #### Base spell, local:
-- Spell points: 3
+- Spell points: 4
 - Max "traits": 3 + 4 x MP
 - Damage: None 
-- Condition: None 2 x C class, or 1 x B class.
+- Condition: None
 - Movement Modalities: None
 - Bonuses: None
 - Healing: None
@@ -300,20 +299,26 @@ Agency = [probability that the spell is useful in a situation] x [how strongly i
 - Components: Kinetic
 
 ### Cost rules
-- Spell points: +3 per MP dice.
+- Spell points: +(1 + MP dice total) per MP dice. (MP1=2, MP2=2+3=5, MP3=2+3+4=9, etc)
 - Damage magnitude: +3 per (C class, 1d12) OR (B class, 1d8) OR (A class, 1d6) OR +9 (S class 1d6) 
-- Condition: +3 if Class C, +6 if Class B, +9 if Class A, +12 if Class A.
-- Healing: +3 per HP. +3 per condition
+- Condition: +2 if Class C, +4 if Class B, +6 if Class A, +12 if Class S.
+- Healing: +3 per HP. +3 per condition MIN=LVL1
 - Modality: +3 if C(walk, climb, swim), +6 if B(flyA, dig), +9 if Fly(G), +12 if (blink), +15 if S(cosmic).
-- Duration (no damage): +1 if 1 min, +3 if 12 min, +6 if hour +12 if day
-- Duration (damage): +3 if min, +6 if 12 min.
-- Casting time (no damage or conditions): Secondary (+2), Main(0), Full round(-2).
+- Bonus:
+  - Cover: + 2 (Light), +4 (Heavy), +6(Total)
+  - Concealment: + 2, +4 (Heavy), +6(Total)
+- Duration (harmless): +1 if 1 min, +3 if 12 min, +6 if hour +12 if day
+- Duration (no damage): +3 if 1 min, +6 if 12 min, +12 if hour +24 if day
+- Duration (damage/healing): +6 if min, +12 if 12 min.
+- Casting time (no damage ): Secondary (+2), Main(0), Full round(-2).
 - Casting time (damage or conditions): Secondary(+2), Main(0), Full round(-1), 1 minute (-2).
-- Concentration: All condition and damage spells MUST be concentration. Otherwise -3 if concentration
+- Casting time: Reaction + 4.
+- Concentration: All damage spells MUST be concentration. Otherwise -3 if concentration
 - Range: +1 per range up (15, 30, 60, 120, 240), -1 per range down.
-- Targets +2 per target or +3 per 5ft radius.
+- Targets +2 per target or +2 per 5ft radius.
 - Material: -2 if material, -1 if focus. -1 if either is rare.
 - Components: Incantation only (+1), Kinetic only (0), Kinetic + Incantation (+1)
+- Half on save: Half the cost of main effect, or full cost of secondary effect.
 
 #### Examine "Wind Walk"
 |||
@@ -340,7 +345,7 @@ For every extra MP point (4, if casting globally) placed in the spell you can ad
 - Condition: NONE
 - Healing: NONE
 - Modality: Fly(G) (+9)
-- Duration (no damage): 12 min (+3)
+- Duration (no damage): 12 min (+6)
 - Casting time (no damage or conditions): Main (0)
 - Concentration: NONE
 - Range: Incantation-close (0)
@@ -348,4 +353,4 @@ For every extra MP point (4, if casting globally) placed in the spell you can ad
 - Material: None
 - Components: Incantation only (+1)
 - Total SP points: +9+3+1=13
-- Therefore cost: (13-3)/4=C=2.5 
+- Therefore cost: (13-4)/3=C=3 

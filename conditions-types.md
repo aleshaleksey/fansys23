@@ -261,9 +261,9 @@ Entities can be affected by a number of conditions, most of them bad. For now th
 - "**Charmed**": B Class
 - "**Restrained**": B Class
 - "**Surprised**": B Class
+- "**Frightened**": B Class
 - "**Aphonia**": B/C Class
 - "**Deafened**": C Class
-- "**Frightened**": C Class
 - "**Inaudible**": C Class
 - "**Invisible**": C Class
 - "**Prone**": C Class

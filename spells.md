@@ -122,6 +122,7 @@ Spells can either be "local" or "global" in scope. This helps distinguish spells
 
 Many "local" spells can also be cast as global spells. In this case the parameters of the global casting are are indicated in brackets after the parameters of the local casting.
 
+___
 ### Learning spells and mental capacity
 
 #### Spells known and spells ready
@@ -134,15 +135,13 @@ Characters learn a few spells every time they gain a level in one of the "Spellc
 
 #### learning spells through independent study or from a mentor.
 
-The base time to learn a spell through personal research is 108 days per MP dice cost of a spell (for global spells this is the "per day" cost). For higher level spells, independent research is incredibly time consuming, and a sage might spell have a lifetime to uncover a new global spell. A character with access to suitable environment and resources may use academics to reduce the time (see "[Academics](skills.md#academics)").
+The base time to learn a spell through personal research is 108 days per MP dice cost of a spell (for global spells this is the "per day" cost). A character with access to suitable environment and resources may use academics to reduce the time (see "[Academics](skills.md#academics)"). The rate per MP dice become (108 - ["academics" roll]) to a minimum of 64 days per MP dice. For higher level spells, independent research is incredibly time consuming, and a sage might have spent a lifetime to uncover a single new global spell.
 
-If you are learning from a mentor, the process is faster.
+The more common way to learn spells is to learn from an entity that already has the spell, a mentor so to speak. If you are learning from a mentor, the process is a lot faster, as you are transferring skills and knowledge that already exists, as opposed to unearthing new spells. For elemental and nature spells the base rate is 108 hours per MP dice cost of a spell. For incantation and kinetic spells the base rate is 64 hours. This time can be reduced with a "academics" roll from the "apprentice" and a "knowledge:arcana" roll from the mentor. The final time cost per MP dice cost is [base rate - ["academics" roll] - ["arcana" roll]]. Regardless of the result, this cost cannot be reduced to lower than 20 hours (aka 2 days) per MP dice cost for elemental and nature magic, or 10 hours (aka 1 day) per 2 MP dice cost for incantation and kinetic magic.
 
 #### Spell transfer
 
-Certain spells, such as "X" and "Y" 
-
-
+Certain spells, such as "Isolate Essense", "Memory Thief" and "Imbue Essense" allow knowledge, skills and spells to be almost instantaneously between entities. However these spells carry a high cost. More importantly, the entity imparting the spell loses it from their spells known, and there are few who would agree to such a transfer without a steep cost.
 
 ___
 ## The 6 types of magic
@@ -187,19 +186,19 @@ For every level of Spellcasting: Elemental(Air), a character learns 2 compatible
 
 Incantation magic covers a wide range of spells whose effects are activated by song or chant. Incantation magic covers all spells with an incantation component. Spells cast through incantation spellcasting cannot be affect by "aphonic spell". Typically summoning spells and close in combat spells are compatible with incantation magic.
 
-For every level of Spellcasting: Elemental(Air), a character learns 2 compatible spells. A character can learn additional spell at a base rate of 108 days per MP dice cost.
+For every level of Spellcasting: Elemental(Air), a character learns 1 compatible spell. A character can learn additional spell at a base rate of 108 days per MP dice cost.
 
 ### Kinetic
 
 Kinetic magic covers a wide range of spells whose effects are activated by song or chant. Kinetic magic covers all spells with a kinetic component. Spells cast through kinetic spellcasting cannot be affected by "stilled spell". Kinetic components seem to increase the potence of a spell, therefore spells which are not constrained by other considerations (eg close combat spells), tend to use kinetic components and be compatible with this type of magic.
 
-For every level of Spellcasting: Elemental(Air), a character learns 2 compatible spells. A character can learn additional spell at a base rate of 108 days per MP dice cost.
+For every level of Spellcasting: Elemental(Air), a character learns 1 compatible spell. A character can learn additional spell at a base rate of 108 days per MP dice cost.
 
 ### Nature
 
 Nature magic covers all nature related spells. All spells of "winter", "spring", "summer", "autumn" and "seasonal" fall within this category. They are not associated with any particular damage type or condition. It is used in any sphere associated with nature. Unlike other types of spellcasting, nature magic does not have an opposite, and is therefore quite difficult to dispel and counter-spell. Likewise, nature mages will not be most adept at dispelling and counter-spelling other types of magic.
 
-For every level of Spellcasting: Elemental(Air), a character learns 2 compatible spells. A character can learn additional spell at a base rate of 108 days per MP dice cost.
+For every level of Spellcasting: Elemental(Air), a character learns 2 compatible spell. A character can learn additional spell at a base rate of 108 days per MP dice cost.
 
 ## Spell List
 

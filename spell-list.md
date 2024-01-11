@@ -8,11 +8,18 @@
 - [Down](#down)
 - [Hide](#hide)
 - [Ignition](#ignition)
+- [Least Anemancy](#least-anemancy)
+- [Least Blast](#least-blast)
+- [Least Freeze](#least-freeze)
 - [Least Geomancy](#least-geomancy)
+- [Least Hydromancy](#least-hydromancy)
 - [Least Pyromancy](#least-pyromancy)
 - [Least Shroud](#least-shroud)
+- [Least Spike](#least-spike)
 - [Least Ward](#least-ward)
 - [Least Warmth](#least-warmth)
+- [Message](#message)
+- [Mist](#mist)
 - [Silent](#silent)
 - [Sour](#sour)
 
@@ -21,6 +28,8 @@
 - [Least Heal](#least-heal)
 
 ### MP 2
+- [](#)
+- [](#)
 
 
 ### MP 3
@@ -45,7 +54,7 @@
 |Name|Sour [Nature]|
 |Scope|Local|
 |MP|0|
-|Target(s)|10ft| (+2)
+|Target(s)|5ft radius centered on a square in range| (+2)
 |Casting time|"main action"|
 |Range|Close|
 |Duration|Immediate|
@@ -61,7 +70,7 @@
 |Name|Hide [Nature, Air]|
 |Scope|local|
 |MP|0|
-|Target(s)|1|
+|Target(s)|1 entity|
 |Casting time|"main action"|
 |Range|30ft|
 |Duration|1 minute| (+3)
@@ -78,7 +87,7 @@
 |Name|Silent [Nature, Air]|
 |Scope|local|
 |MP|0|
-|Target(s)|1|
+|Target(s)|1 object within a 5ft cube or 1 entity|
 |Casting time|"main action"|
 |Range|close|
 |Duration|1 minute| (+3)
@@ -94,7 +103,7 @@
 |Name|Deafen [Curse]|
 |Scope|local|
 |MP|0|
-|Target(s)|1|
+|Target(s)|1 entity|
 |Casting time|"main action"|
 |Range|30ft|
 |Duration|1 minute| (+3)
@@ -111,7 +120,7 @@
 |Name|Compass [Nature, Travel]|
 |Scope|local|
 |MP|0|
-|Target(s)|1|
+|Target(s)|1sq|
 |Casting time|"main action"|
 |Range|close|
 |Duration|1 minute| (+1)
@@ -120,13 +129,70 @@
 
 **Description**: Conjure a clearly visible sign next to you that either points north, or to the nearest source of clean water that must be at least 10ft away.
 
+### Least Anemancy
+|||
+|-|-|
+|Name|Least Anemancy [Air, Spiritual]|
+|Scope|local|
+|MP|0|
+|Target(s)|1sq of air, or a single elemental[air]|
+|Casting time|"main action"|
+|Range|30ft|+2
+|Duration|1 round|
+|Components|incantation|+1
+|Focus|A lump of clay|-1
+|Conditions|"charmed"|+4
+|Limitation|No effect on entities other than elementals[air]|-2
+|Save|Wis|
+
+**Description**: If used on an elemental[air], or enchanted wind it must make a Wis save, else it is charmed for one round. Natural, air and wind can be manipulated as follows:
++ Create or erase severe wind effect within the square.
++ Blow out or kindle a small fire (size "small" or smaller).
++ Freeze the surface of 1sq of water.
++ Dry water on a solid surface (eg your clothes).
++ Change the cosmetic qualities of the air.
+
+### Least Blast
+|||
+|-|-|
+|Name|Least Blast [Air, Destruction]|
+|Scope|local|
+|MP|0|
+|Target(s)|1ft sq, 1 entity or 1 object in range|
+|Casting time||
+|Range|120ft|+2
+|Damage|1d12+[Int] pressure|+3
+|Duration|instantaneous|
+|Components|incantation, kinetic| -1
+|Limitation|Target must be in air (ie not submerged in a liquid or buried in earth)|
+|Save|Str|
+
+**Description**: Call for a violent burst of wind to strike a target. The effect is a very small explosion.
+
+### Whispers
+|||
+|-|-|
+|Name|Message [Air, Spring, Spirit]|
+|Scope|local|
+|MP|0|
+|Target(s)|1sq or 1 entity|
+|Casting time|"main action"|
+|Range|120ft|+2
+|Duration|1 round/instantaneous|
+|Components|kinetic|
+|Save|-|
+
+**Description**: Either:
++ Transmit a vocal message (no longer than 12 words) to a single target that you can envision in range. There must be no hermetic barriers between you and the target.
++ Make a sound (can be speech, calls of beast, rustling of leaves, etc) in a square in range which you can see. It is roughly the volume of spoken speech (less than 60 dB), and does not cause damage.
+
 ### Least Shroud
 |||
 |-|-|
 |Name|Least Shroud [Air, Light, Nature, Spirit, Travel]|
 |Scope|local|
 |MP|0|
-|Target(s)|1|
+|Target(s)|1 object within a 5ft cube or 1 entity|
 |Casting time|"main action"|
 |Range|60ft|
 |Duration|1 minute| (+1)
@@ -141,7 +207,7 @@
 |Name|Least Ward [Barrier, Divine, Earth, Mortal, Nature, Spiritual]|
 |Scope|local|
 |MP|0|
-|Target(s)|1|
+|Target(s)|1 object within a 5ft cube or 1 entity|
 |Casting time|"main action"|
 |Range|close|
 |Duration|1 minute| (+1)
@@ -156,7 +222,7 @@
 |Name|Down [Earth]|
 |Scope|local|
 |MP|0|
-|Target(s)|1|
+|Target(s)|1 entity|
 |Casting time|"main action"|
 |Range|15ft| (+1)
 |Duration|Immediate|
@@ -182,7 +248,7 @@
 |Limitation|No effect on entities other than elementals[earth]|-2
 |Save|Wis|
 
-**Description**: If used on an elemental[earth], or enchanted ground it has a save, else it is charmed for one round. Natural, unworked earth (but not solid rock) can be manipulated as follows:
+**Description**: If used on an elemental[earth], or enchanted ground it must make a Wis save, else it is charmed for one round. Natural, unworked earth (but not solid rock) can be manipulated as follows:
 + Move up to 10ft, as long as there is an open conduit of earth for it and space in the destination square (ie, you cannot float the earth through air, water and other medium).
 + Cause the square to become difficult terrain, or difficult terrain caused by earth features to become freely passable.
 + Change the cosmetic qualities of the earth.
@@ -193,13 +259,16 @@
 |Name|Least Spike [Earth, Destruction]|
 |Scope|local|
 |MP|0|
-|Target(s)|5ft, centered on caster|+2
+|Target(s)|5ft radius, centered on caster|+2
 |Casting time|"main action"|
 |Range|close|
 |Duration|instantaneous|
-|Components||
-|Conditions||
-|Save||
+|Components|incantation|
+|Attack|SAP+Int|
+|Damage|1d8+Int Piercing| + 3
+|Limitation|Caster must be touching the ground| -1
+
+**Description**: Ask the earth nicely to harden and strike all entities within 5ft of you with sharp spikes. (5-1=4+4)
 
 ### Ignition
 |||
@@ -215,7 +284,7 @@
 |Components|incantation, kinetic| -1
 |Save|Cha|
 
-**Description**: Call forth flames at a spot. They ignite flammable material in one square, violently if desired, in which case the flames do damage to any entity in the square. (4-4)
+**Description**: Call forth flames at a spot. Ignite flammable material in one square, violently if desired. If cast violently, the flames do damage to any entity in the square. (4-4)
 
 ### Least Warmth
 |||
@@ -223,7 +292,7 @@
 |Name|Least Warmth [Fire, Travel, Summer]|
 |Scope|local|
 |MP|0|
-|Target(s)|5ft| + 2
+|Target(s)|5ft radius round a square in range| + 2
 |Casting time|"full round"| -1
 |Range|close|
 |Duration|1 minute| +1
@@ -255,23 +324,59 @@
 + Move the whole flame up to 60ft if it is small or smaller, 30ft if it is large or smaller, and 10ft otherwise (as long as there are flammable materials and air (or other source of oxidant) available).
 + Change the colour and other cosmetic qualities of the flame.
 
-
+### Least Hydromancy
 |||
 |-|-|
-|Name| []|
-|Scope||
-|MP||
-|Target(s)||
-|Casting time||
-|Range||
-|Duration||
-|Components||
-|Conditions||
-|Save||
+|Name|Least Hydromancy [Water, Spiritual]|
+|Scope|local|
+|MP|0|
+|Target(s)|1sq of water or ice, or a single elemental[water]|
+|Casting time|"main action"|
+|Range|30ft|+2
+|Duration|1 round|
+|Components|incantation|+1
+|Focus|A block of ice or a handful of water|-1
+|Conditions|"charmed"|+4
+|Limitation|No effect on entities other than elementals[water]|-2
+|Save|Wis|
 
+**Description**: If used against an elemental[water], or an enchanted body of water or ice it must make a Wis save, else it is charmed for one round. Natural water and ice can be manipulated as follows:
++ Move water up to 20ft, as long as it can flow along a surface (ie it cannot pass through solid objects (or similar) or float through the air or vacuum).
++ Melt ice or freeze water up to a volume of 1 cubic ft.
++ Cause currents in a square of water to make it difficult terrain, or steady the flow to remove that quality.
++ Change the cosmetic qualities of the water.
 
+### Least Freeze
+|||
+|-|-|
+|Name|Least Freeze [Water, Ice, Destruction]|
+|Scope|local|
+|MP|0|
+|Target(s)|1sq|
+|Casting time|"main action"|
+|Range|120ft|+2
+|Duration|immediate|
+|Damage|1d8+[Sup] Ice|+3
+|Components|incantation, kinetic|-1
+|Save|Con|
 
+**Description**: Still the movement inside of water. Freeze a material or creature containing water, violently if desired. If cast violently the rapid cooling damages any entity on the square. (4-4)
 
+### Mist
+|||
+|-|-|
+|Name|Mist [Water, Ice, Winter]|
+|Scope|local|
+|MP|0|
+|Target(s)|5ft radius centered on a square in range|
+|Casting time|"main action"|
+|Range|30ft|
+|Duration|1 round|
+|Components|kinetic|
+|Conditions|lightly obscured|
+|Save|-|
+
+**Description**: Calls forth a thick, cold mist. Any entity of size "huge" or smaller that is separated from observes by at least 5ft of the mist is lightly obscured.
 
 ## MP 1 spells
 
@@ -305,7 +410,7 @@
 |Name|Least Heal [Divine, Healing, Nature, Spring]|
 |Scope|local|
 |MP|1|
-|Target(s)|1 target|
+|Target(s)|1 entity|
 |Casting time|"main action"|
 |Range|close|
 |Duration|instantaneous|
@@ -329,7 +434,7 @@
 |Name|Wind Walk [Air, Nature, Travel]|
 |Scope|Local (Global)|
 |MP|3 (12)|
-|Target(s)|1+|
+|Target(s)|1 or more entities|
 |Casting time|"main action" (1h + 20 min/4MP)|
 |Range|5ft|
 |Duration|12 min+ (1 day+)|

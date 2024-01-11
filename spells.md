@@ -236,7 +236,7 @@ Spells are by their nature quite varied and cause various effects. This means th
 |Components|What bodily components are needed to cast the spell|incantation (+ritual)|
 |Materials|What consumable materials are needed for the spell|None (12 dandelion heads)|
 |Focus|What spell focus, or material that is not consumed is needed|None|
-|Condition|Any special conditions that must be fulfilled to successfully cast|target cannot be earth aligned|
+|Limitation|Any special conditions that must be fulfilled to successfully cast|target cannot be earth aligned|
 |Save|What save is needed , if any, and what happens on a success|Wis (harmless), no effect|
 |Attack|What the governing attribute for the attack is, if any (usually Wis)|-|
 |Damage|Damage done if any|-|
@@ -259,7 +259,7 @@ The clean example would look like:
 |Duration|12 min+ (1 day+)|
 |Components|incantation (+ritual)|
 |Materials|None (12 dandelion heads)|
-|Condition|target cannot be earth aligned|
+|Limitation|target cannot be earth aligned|
 |Save|Wis (harmless), no effect|
 
 **Description**: The target gains a good fly speed equal to your walking speed, as if walking upon the air. When the spell ends, the target loses this movement modality immediately.

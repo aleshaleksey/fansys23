@@ -3,15 +3,18 @@
 ## Listing
 
 ### MP 0
-- [Sour](#sour)
+- [Compass](#compass)
+- [Deafen](#deafen)
 - [Down](#down)
 - [Hide](#hide)
-- [Silent](#silent)
-- [Deafen](#deafen)
-- [Compass](#compass)
+- [Ignition](#ignition)
+- [Least Geomancy](#least-geomancy)
+- [Least Pyromancy](#least-pyromancy)
 - [Least Shroud](#least-shroud)
 - [Least Ward](#least-ward)
 - [Least Warmth](#least-warmth)
+- [Silent](#silent)
+- [Sour](#sour)
 
 ### MP 1
 - [Winter's Touch](#winters-touch)
@@ -50,23 +53,6 @@
 |Save|None|
 
 **Description**: This spell turns sweet grapes sour (+1).
-(4-4)/3 = 0
-
-### Down
-|||
-|-|-|
-|Name|Down [Earth]|
-|Scope|local|
-|MP|0|
-|Target(s)|1|
-|Casting time|"main action"|
-|Range|15ft| (+1)
-|Duration|Immediate|
-|Components|incantation| (+1)
-|Conditions|prone|
-|Save|Wis, repeated end of turn|
-
-**Description**: The earth attracts the target and it falls prone.
 (4-4)/3 = 0
 
 ### Hide
@@ -145,14 +131,14 @@
 |Range|60ft|
 |Duration|1 minute| (+1)
 |Components|kinetic|
-|Save|Cha, harmless|
+|Save|Int, harmless|
 
 **Description**: The target gains lightly concealment, by some intangible, but clearly visible phenomenon.
 
 ### Least Ward
 |||
 |-|-|
-|Name|Least Ward [Barrier, Divine, Mortal, Nature, Spiritual]|
+|Name|Least Ward [Barrier, Divine, Earth, Mortal, Nature, Spiritual]|
 |Scope|local|
 |MP|0|
 |Target(s)|1|
@@ -160,25 +146,114 @@
 |Range|close|
 |Duration|1 minute| (+1)
 |Components|incantation|(+1)
-|Save|Cha, harmless|
+|Save|Int, harmless|
 
 **Description**: The target gains light cover, from a clearly tangibles phenomenon. (+2) (4-4)
+
+### Down
+|||
+|-|-|
+|Name|Down [Earth]|
+|Scope|local|
+|MP|0|
+|Target(s)|1|
+|Casting time|"main action"|
+|Range|15ft| (+1)
+|Duration|Immediate|
+|Components|incantation| (+1)
+|Conditions|prone|
+|Save|Wis, repeated end of turn|
+
+**Description**: The earth attracts the target and it falls prone. (4-4)
+
+### Least Geomancy
+|||
+|-|-|
+|Name|Least Geomancy [Earth, Spiritual]|
+|Scope|local|
+|MP|0|
+|Target(s)|1sq of earth, or a single elemental[earth]|
+|Casting time|"main action"|
+|Range|30ft|+2
+|Duration|1 round|
+|Components|incantation|+1
+|Focus|A lump of clay|-1
+|Conditions|"charmed"|+4
+|Limitation|No effect on entities other than elementals[earth]|-2
+|Save|Wis|
+
+**Description**: If used on an elemental[earth], or enchanted ground it has a save, else it is charmed for one round. Natural, unworked earth (but not solid rock) can be manipulated as follows:
++ Move up to 10ft, as long as there is an open conduit of earth for it and space in the destination square (ie, you cannot float the earth through air, water and other medium).
++ Cause the square to become difficult terrain, or difficult terrain caused by earth features to become freely passable.
++ Change the cosmetic qualities of the earth.
+
+### Least Spike
+|||
+|-|-|
+|Name|Least Spike [Earth, Destruction]|
+|Scope|local|
+|MP|0|
+|Target(s)|5ft, centered on caster|+2
+|Casting time|"main action"|
+|Range|close|
+|Duration|instantaneous|
+|Components||
+|Conditions||
+|Save||
+
+### Ignition
+|||
+|-|-|
+|Name|Ignition [Fire, Destruction]|
+|Scope|local|
+|MP|0|
+|Target(s)|1sq|
+|Casting time|"main action"|
+|Range|120ft|+2
+|Duration|Instantaneous|
+|Damage|1d8+[Sup] Fire|+3
+|Components|incantation, kinetic| -1
+|Save|Cha|
+
+**Description**: Call forth flames at a spot. They ignite flammable material in one square, violently if desired, in which case the flames do damage to any entity in the square. (4-4)
 
 ### Least Warmth
 |||
 |-|-|
-|Name|Heat [Fire, Travel, Summer]|
+|Name|Least Warmth [Fire, Travel, Summer]|
 |Scope|local|
 |MP|0|
 |Target(s)|5ft| + 2
 |Casting time|"full round"| -1
 |Range|close|
 |Duration|1 minute| +1
-|Components|incantation,kinetic| -1
+|Components|incantation, kinetic| -1
 |Conditions|-|
 |Save|Cha|
 
 **Description**: Attempts to warm an area and anything in it to body temperature. If the area is affected by any "Extreme temperature: Cold" category, it is considered as being one step milder.
+
+### Least Pyromancy
+|||
+|-|-|
+|Name|Least Pyromancy [Fire, Summer, Spiritual]|
+|Scope|local|
+|MP|0|
+|Target(s)|A fire in a single square, or a single elemental[fire]|
+|Casting time|"main action"|
+|Range|30ft|+2
+|Duration|1 round|
+|Components|incantation|+1
+|Focus|A lit candle or torch|-1
+|Conditions|"charmed"|+4
+|Limitation|No effect on entities other than elementals[fire]|-2
+|Save|Wis|
+
+**Description**: If used on a magical flame or fire elemental, it has a save, else it is charmed for one round. Natural fire can be manipulated as follows:
++ Increase or decrease size by 1 category.
++ Change shape, as long the volume of flame remains the same, and no part of it is displaced by more than 20ft.
++ Move the whole flame up to 60ft if it is small or smaller, 30ft if it is large or smaller, and 10ft otherwise (as long as there are flammable materials and air (or other source of oxidant) available).
++ Change the colour and other cosmetic qualities of the flame.
 
 
 |||

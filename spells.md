@@ -307,7 +307,7 @@ Agency = [probability that the spell is useful in a situation] x [how strongly i
 - Spell points: +(1 + MP dice total) per MP dice. (MP1=2, MP2=2+3=5, MP3=2+3+4=9, etc)
 - Damage magnitude: +3 per (C class, 1d12) OR (B class, 1d8) OR (A class, 1d6) OR +9 (S class 1d6) 
 - Condition: +2 if Class C, +4 if Class B, +6 if Class A, +12 if Class S.
-- Healing: +3 per HP. +3 per condition MIN=LVL1
+- Healing: +5 per HP. +3 per condition MIN=LVL1
 - Modality: +3 if C(walk, climb, swim), +6 if B(flyA, dig), +9 if Fly(G), +12 if (blink), +15 if S(cosmic).
 - Bonus:
   - Cover: + 2 (Light), +4 (Heavy), +6(Total)

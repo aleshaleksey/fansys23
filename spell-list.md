@@ -1,7 +1,42 @@
 # Spell List
 
+## Listing
+
+### MP 0
+- [Sour](#sour)
+- [Down](#down)
+- [Hide](#hide)
+- [Silent](#silent)
+- [Deafen](#deafen)
+- [Compass](#compass)
+- [Least Shroud](#least-shroud)
+- [Least Ward](#least-ward)
+- [Least Warmth](#least-warmth)
+
+### MP 1
+- [Winter's Touch](#winters-touch)
+- [Least Heal](#least-heal)
+
+### MP 2
+
+
+### MP 3
+- [Wind Walk](#wind-walk)
+- [](#)
+- [](#)
+- [](#)
+- [](#)
+- [](#)
+- [](#)
+- [](#)
+- [](#)
+- [](#)
+- [](#)
+- [](#)
+
 ## MP 0 spells
 
+### Sour
 |||
 |-|-|
 |Name|Sour [Nature]|
@@ -17,6 +52,7 @@
 **Description**: This spell turns sweet grapes sour (+1).
 (4-4)/3 = 0
 
+### Down
 |||
 |-|-|
 |Name|Down [Earth]|
@@ -27,12 +63,13 @@
 |Range|15ft| (+1)
 |Duration|Immediate|
 |Components|incantation| (+1)
+|Conditions|prone|
 |Save|Wis, repeated end of turn|
 
 **Description**: The earth attracts the target and it falls prone.
 (4-4)/3 = 0
 
-
+### Hide
 |||
 |-|-|
 |Name|Hide [Nature, Air]|
@@ -43,11 +80,13 @@
 |Range|30ft|
 |Duration|1 minute| (+3)
 |Components|kinetic|
+|Conditions|invisible*|
 |Limitation|The spell ends if you or an ally attacks the target in any way|(-1)
 |Save|Int, repeated end of turn|
 
 **Description**: You become "invisible" to 1 target (+2).
 
+### Silent
 |||
 |-|-|
 |Name|Silent [Nature, Air]|
@@ -58,11 +97,12 @@
 |Range|close|
 |Duration|1 minute| (+3)
 |Components|kinetic|
+|Conditions|inaudible*|
 |Save|None|
 
 **Description**: The target becomes "inaudible" for the duration. Unwilling targets are not affected. (+3+2-1=4, (4-4)/3=0)
 
-
+### Deafen
 |||
 |-|-|
 |Name|Deafen [Curse]|
@@ -73,11 +113,13 @@
 |Range|30ft|
 |Duration|1 minute| (+3)
 |Components|kinetic|
+|Conditions|deafened|
 |Limitation|The spell ends if you or an ally attacks the target in any way|(-1)
 |Save|Wis, repeated end of turn|
 
-**Description**: The target is deafened (+2). (4-4)
+**Description**: The target is "deafened" (+2). (4-4)
 
+### Compass
 |||
 |-|-|
 |Name|Compass [Nature, Travel]|
@@ -92,6 +134,7 @@
 
 **Description**: Conjure a clearly visible sign next to you that either points north, or to the nearest source of clean water that must be at least 10ft away.
 
+### Least Shroud
 |||
 |-|-|
 |Name|Least Shroud [Air, Light, Nature, Spirit, Travel]|
@@ -106,6 +149,7 @@
 
 **Description**: The target gains lightly concealment, by some intangible, but clearly visible phenomenon.
 
+### Least Ward
 |||
 |-|-|
 |Name|Least Ward [Barrier, Divine, Mortal, Nature, Spiritual]|
@@ -120,17 +164,21 @@
 
 **Description**: The target gains light cover, from a clearly tangibles phenomenon. (+2) (4-4)
 
+### Least Warmth
 |||
 |-|-|
-|Name| []|
-|Scope||
-|MP||
-|Target(s)||
-|Casting time||
-|Range||
-|Duration||
-|Components||
-|Save||
+|Name|Heat [Fire, Travel, Summer]|
+|Scope|local|
+|MP|0|
+|Target(s)|5ft| + 2
+|Casting time|"full round"| -1
+|Range|close|
+|Duration|1 minute| +1
+|Components|incantation,kinetic| -1
+|Conditions|-|
+|Save|Cha|
+
+**Description**: Attempts to warm an area and anything in it to body temperature. If the area is affected by any "Extreme temperature: Cold" category, it is considered as being one step milder.
 
 
 |||
@@ -143,6 +191,7 @@
 |Range||
 |Duration||
 |Components||
+|Conditions||
 |Save||
 
 
@@ -151,6 +200,7 @@
 
 ## MP 1 spells
 
+### Winter's Touch
 |||
 |-|-|
 |Name|Winter's Touch [Ice, Winter]|
@@ -161,9 +211,12 @@
 |Range|close|
 |Duration|1 min (24 h)|(+1)
 |Components|kinetic|
+|Conditions|Immobilised|
 |Save|Cha|
 
-**Description**: A bitter chill binds the target. The target or targets in the area are "immobilised".The target repeats its save at the end of every turn. (+6)
+**Description**: A bitter chill binds the target. The target or targets in the area are "immobilised".The target repeats its save at the end of every turn. (+6).
+
+**Special**: The affected area is classed as being one step closer to having the "Extreme temperature: Sever Cold" modifier.
 
 **Upcast**: For every MP dice added the spell's radius increases by 5ft (this also affects the caster). OR Increase the duration by 1 minute.
 
@@ -171,12 +224,31 @@
 
 (7-4)/3 = 1
 
+### Least Heal
+|||
+|-|-|
+|Name|Least Heal [Divine, Healing, Nature, Spring]|
+|Scope|local|
+|MP|1|
+|Target(s)|1 target|
+|Casting time|"main action"|
+|Range|close|
+|Duration|instantaneous|
+|Components|incantation|(+1)
+|Save|Cha, harmless, usually|
+|Healing| 1HP|(+5)
 
-## MP dice cost = 2
+**Description**: Restore 1HP to a target.
+
+**Special**: Undead must make a Cha save or take 1 point of divine damage. (1+5)=(4+2)
 
 
-### MP dice cost = 3
+## MP 2 pells
 
+
+## MP 3 pells
+
+### Wind Walk
 |||
 |-|-|
 |Name|Wind Walk [Air, Nature, Travel]|
@@ -188,7 +260,7 @@
 |Duration|12 min+ (1 day+)|
 |Components|incantation (+ritual)|
 |Materials|None (12 dandelion heads)|
-|Condition|target cannot be earth aligned|
+|Limitation|target cannot be earth aligned|
 |Save|Wis (harmless), no effect|
 
 **Description**: The target gains a good fly speed equal to your walking speed, as if walking upon the air. When the spell ends, the target loses this movement modality immediately.

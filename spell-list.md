@@ -118,7 +118,7 @@
 |Components|incantation|(+1)
 |Save|Cha, harmless|
 
-**Description**: The target gains light cover, from a very tangibles phenomenon.
+**Description**: The target gains light cover, from a clearly tangibles phenomenon. (+2) (4-4)
 
 |||
 |-|-|

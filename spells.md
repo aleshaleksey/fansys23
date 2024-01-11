@@ -166,39 +166,44 @@ Element and nature magic is "domain" based, and the the spells that fall into th
 
 Spells of this type are associated with elemental air. All and any spells with the "air" descriptor are on this spell list. They are associated with the "shear" and "lighting" damage types and "paralysed", "stunned", "prone" and "crippled" conditions.They are often used for travel, gathering information and controlling weather, but also have combat uses.
 
-For every level of Spellcasting: Elemental(Air), a character learns 2 compatible spells. At the first level it learns 3 zero-level spells.
+For every level of Spellcasting: Elemental(Air), a character learns 2 compatible spells. On taking Elemental(Earth) I a character also gains 2 MP zero spells of the "air" descriptor.
 
 ### Elemental (Earth)
 
 Spells of this type are associated with elemental earth. All and any spells with the "earth" descriptor are on this spell list. They are associated with all physical damage types and the "restrained", "grappled", "prone", "crippled", and "bleeding" conditions. It is generally used for fortification and agriculture. At the first level it learns 3 zero-level spells.
 
-For every level of Spellcasting: Elemental(Air), a character learns 2 compatible spells. A character can learn additional spell at a base rate of 108 days per MP dice cost. At the first level it learns 3 zero-level spells.
+For every level of Spellcasting: Elemental(Air), a character learns 2 compatible spells. On taking Elemental(Earth) I a character also gains 2 MP zero spells of the "earth" descriptor.
 
 ### Elemental (Fire)
 
 Spells of this type are associated with elemental fire. All and any spells with the "fire" descriptor are on this spell list. They are associate with "fire" damage and the "incapacitated", "catatonic", "frightened" and "blinded". It is often used in cooking, smelting and similar disciplines, as well as  and of course warfare.
 
-For every level of Spellcasting: Elemental(Air), a character learns 2 compatible spells. A character can learn additional spell at a base rate of 108 days per MP dice cost.
+For every level of Spellcasting: Elemental(Fire), a character learns 2 compatible spells. On taking Elemental(Fire) I a character also gains 2 MP zero spells of the "fire" descriptor.
 
 ### Elemental (Ice)
 
 Spells of this type are associated with elemental water and ice. All and any spells with the "water" and "ice" descriptors are on this spell list. They are associated with "ice", "piercing" and "pressure" damage. It is typically used in seaborne travel and agriculture.
 
-For every level of Spellcasting: Elemental(Air), a character learns 2 compatible spells. A character can learn additional spell at a base rate of 108 days per MP dice cost.
+For every level of Spellcasting: Elemental(Ice), a character learns 2 compatible spells.  On taking Elemental(Ice) I a character also gains 2 MP zero spells of the "ice" descriptor.
 
 ### Incantation
 
-Incantation magic covers a wide range of spells whose effects are activated by song or chant. Incantation magic covers all spells with an incantation component. Spells cast through incantation spellcasting cannot be affect by "aphonic spell". Typically summoning spells and close in combat spells are compatible with incantation magic. At the first level it learns 3 zero-level spells.ce cost.
+Incantation magic covers a wide range of spells whose effects are activated by song or chant. Incantation magic covers all spells with an incantation component. Spells cast through incantation spellcasting cannot be affect by "aphonic spell". Typically summoning spells and close combat spells are compatible with incantation magic.
+
+For every level of Spellcasting: Incantation, a character learns 1 compatible spells. On taking Incantation I a character also gains 3 compatible MP zero spells.
 
 ### Kinetic
 
 Kinetic magic covers a wide range of spells whose effects are activated by song or chant. Kinetic magic covers all spells with a kinetic component. Spells cast through kinetic spellcasting cannot be affected by "stilled spell". Kinetic components seem to increase the potence of a spell, therefore spells which are not constrained by other considerations (eg close combat spells), tend to use kinetic components and be compatible with this type of magic.
 
-For every level of Spellcasting: Elemental(Air), a character learns 1 compatible spell. A character can learn additional spell at a base rate of 108 days per MP dice cost.
+For every level of Spellcasting: Kinetic, a character learns 1 compatible spell. On taking Kinetic I a character also gains 3 compatible MP zero spells.
 
 ### Nature
 
-Nature magic covers all nature related spells. All spells of "winter", "spring", "summer", "autumn" and "seasonal" fall within this category. They are not associated with any particular damage type or condition. It is used in any sphere associated with nature. Unlike other types of spellcasting, nature magic does not have an opposite, and is th At the first level it learns 3 zero-level spells.
+Nature magic covers all nature related spells. All spells of "winter", "spring", "summer", "autumn" and "seasonal" fall within this category. They are not associated with any particular damage type or condition. It is used in any sphere associated with nature. Unlike other types of spellcasting, nature magic does not have an opposite spell type. 
+
+For every level of Spellcasting: Nature, a character learns 2 compatible spell. On taking Nature I a character also gains 2 compatible MP zero spells.
+
 ## Spell List
 
 ### Spell Descriptors

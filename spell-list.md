@@ -423,6 +423,26 @@
 
 (-2+6+2)=(4+2)
 
+### Tailwind
+|Name|Tailwind [Air, Spirit, Travel]|
+|-|-|
+|Scope|local (global)|
+|MP|1 (4)|
+|Target(s)|1 entity|
+|Casting time|"1 main action" (1h + 20min per 4MP dice)|
+|Range|close|-2
+|Duration|1h+ (1 day+)|+6
+|Components|incantation, kinetic|-1
+|Limitation|Cover is only against ranged weapon|
+|Save|Cha|
+
+**Description**: A friendly wind blows around the target, giving it light cover against ranged weapons and +10 to movement speed.
+
+**Upcast**: Increase the duration by an hour or add an additional target for each extra MP.
+
+**Global**: The duration increases to a day. The wind affects up to 4 creatures within 20ft of the caster. For every 4MP extra the duration increases by a day, or the number of targets increases by 4.
+
+
 ### Ensnare
 |Name|Ensnare [Nature]|
 |-|-|
@@ -526,7 +546,7 @@
 ## MP 2 pells
 
 
-## MP 3 pells
+## MP 3 spells
 
 ### Wind Walk
 |||
@@ -547,6 +567,31 @@
 
 **Upcast**: For every extra MP point (4, if casting globally) placed in the spell you can add either: 1. An extra target, 2. an extra 6 minutes of effect (6h if cast globally).
 
+## MP 6 spells
+
+### Razor Wind
+|Name|Razor Wind [Wind, Destruction]|
+|-|-|
+|Scope|local|
+|MP|6|
+|Target(s)|60ft, 60 degree cone, centered on caster|+10
+|Casting time|"secondary action"|+2
+|Range|60ft|+3
+|Duration|Instantaneous|
+|Damage|5d12+[Sup] pressure|+15
+|Condition|Prone|
+|Components|"incantation"|+1
+|Save|Dex+|+2
+
+**Description**: You summon a sharp burst of hurricane like wind that cuts through an area, dealing 5d12+[Sup] damage to all entities, objects and structures within it. Entities can avoid the damage with a successful Dex save. Even in this case all entities and objects of "huge" and smaller are blown back 20ft (for "medium").
+
+**Upcast**: The size of the one increases by 15ft per MP dice or the damage increases by 1d12.
+
+**
+
+33
+4+2+3+4+5+6+7
+6,9,13,18,24,31
 
 |||
 |-|-|

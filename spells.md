@@ -311,6 +311,7 @@ Agency = [probability that the spell is useful in a situation] x [how strongly i
 - Condition: +2 if Class C, +4 if Class B, +6 if Class A, +12 if Class S.
 - Healing: +5 per HP. +3 per condition MIN=LVL1
 - Modality: +3 if C(walk, climb, swim), +6 if B(flyA, dig), +9 if Fly(G), +12 if (blink), +15 if S(cosmic).
+  - +2 Standard improvement.
 - Bonus:
   - Cover: + 2 (Light), +4 (Heavy), +6(Total)
   - Concealment: + 2, +4 (Heavy), +6(Total)

@@ -9,11 +9,11 @@ ___
 
 Spells can be viewed as recipes or instructions for calling forth supernatural forces. They are generally at least somewhat fixed in their formulation and procedure and have the following components.
 
-1. **Kinetic Components**: A set of defined, obvious gestures or movements. An "immobilised" or "restrained" caster cannot perform these. (conditions that imply "immobilised" fall under this category). Spells with somatic components provoke attacks of opportunity.
+1. **Kinetic Components**: A set of defined, obvious gestures or movements. An "immobilised" or "restrained" caster cannot perform these. (conditions that imply "immobilised" fall under this category). Spells with kinetic components provoke attacks of opportunity.
 2. **Incantation components**: A set of defined, well enunciated words or sounds. A "silenced" or "silent" caster cannot perform these. (conditions that imply inability to produce defined sound fall under this category).
 3. **Ritual components**: A ritual is a procedure involving defined movement and positioning of objects or entities, or the creation of defined patterns. Disruption of this procedure ruins the ritual. Rituals typically apply to global spells.
 
-As a consequence, a caster who is "restrained" or "immobilised" cannot cast spells with somatic components and a caster who is "aphonic" or "silenced" cannot cast spells with incantation components.
+As a consequence, a caster who is "restrained" or "immobilised" cannot cast spells with kinetic components and a caster who is "aphonic" or "silenced" cannot cast spells with incantation components.
 
 ___
 ### Spell ranges
@@ -28,7 +28,9 @@ ___
 There are a number of general rules pertaining to spellcasting.
 1. An entity can only cast ONE spell at a time. If it attempts to cast a second, either both spells dissipate, or the casting ends in spectacular failure. For example trying to cast "Fire Shield" (local) while casting "Resurrection" (global), will result in failure. 
 2. Spells are never truly permanent in the material realm and can be **broken**, **counterspelled**, and **dispelled**. Entities summoned through spells can be **banished**.
-3. Casting "ranged" spells with somatic components in melee provokes attacks of opportunity.
+3. Casting "ranged" spells with kinetic components in melee provokes attacks of opportunity.
+4. Unless otherwise stated, a caster must have line of sight to the target of a spell to cast it.
+5. An entity gets a save at the end of every turn against harmful effects of the spell unless otherwise stated. 
 
 ___
 ### Concentration

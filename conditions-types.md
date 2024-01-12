@@ -264,6 +264,8 @@ Entities can be affected by a number of conditions, most of them bad. For now th
 - "**Frightened**": B Class
 - "**Aphonia**": B/C Class
 - "**Deafened**": C Class
+- "**Glowing**": C Class
+- "**Grappled**": C Class
 - "**Inaudible**": C Class
 - "**Invisible**": C Class
 - "**Prone**": C Class
@@ -296,24 +298,26 @@ An entity afflicted by conditions that make it unable to engage in physical comb
   - Physical ranged attacks against it have advantage (if it is prone this cancels out).
   - Natural damage bypasses SP.
   - It cannot make [STR] or [DEX] saves.
-  - It cannot use [SKILLS], attacks or cast spells that require the use of its body (including "incantations" and "somatic components").
+  - It cannot use [SKILLS], attacks or cast spells that require the use of its body (including "incantations" and "kinetic components").
   - This means it cannot move.
 - "**Crippled**": This character cannot use one or more limbs.
   - Creatures crippled in movement related limbs cannot "run", "sprint" and move at half pace (or "crawl").
-  - Creatures crippled in prehensile limbs cannot hold weapons or manipulate objects. They have problems completing "somatic components".
+  - Creatures crippled in prehensile limbs cannot hold weapons or manipulate objects. They have problems completing "kinetic" components.
 - "**Incapacitated**": This creature cannot take actions (other than movement or communication) or reactions in combat.
   - Attacks against it have advantage.
 - "**Immobilised**": An immobilised character is in trouble.
   - It has a movement speed of 0ft.
   - It cannot make [DEX] or [STR] saves, attacks.
-  - It cannot cast spells with somatic components.
+  - It cannot cast spells with kinetic components.
   - Attacks against it have advantage.
   - It cannot use [DEX] and [STR] based skills or abilities except some escape related skills, and even then at super-disadvantage.
 - "**Restrained**": A restrained character has problems. It has a movement speed of 0ft and suffers from one or more of the following:
-  - It cannot make somatic components for spells.
+  - It cannot make kinetic components for spells.
   - It has disadvantage on physical attacks and [DEX] saves.
   - Attacks against it have advantage.
 - "**Grappled**": A grappled character has a movement speed of 0ft.
+- "**Glowing**": An glowing character cannot stealth and is never invisible.
+  - Attacks by entities whose main sense is sight against a glowing character have advantage.
 - "**Prone**": A prone character is intimate with the ground.
   - It can only move at a crawl.
   - Melee attacks have advantage against it.
@@ -331,7 +335,7 @@ An entity afflicted by conditions that make it unable to engage in physical comb
   - It it can fall prone, it falls prone.
   - Physical attacks against it have advantage (unless the attack is ranged and the character is prone).
   - It cannot make [STR], [DEX] or [CHA] saves.
-  - It cannot use [SKILLS], attacks or cast spells that require the use of its body (including "incantations" and "somatic components").
+  - It cannot use [SKILLS], attacks or cast spells that require the use of its body (including "incantations" and "kinetic" components).
 - "**Charmed**": A charmed character cannot attack the source of its charm. It has disadvantage against [WIS], [CHA], [INT] saves vs it. In theory it perceives its words and actions in the most favourable manner. In practice players are players.
   - Charmed creatures have disadvantage on deception rolls vs their charmer.
 - "**Frightened**": A frightened character has disadvantage on targeted attacks. It must use its movement to move away from the source of its fear.

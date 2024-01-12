@@ -510,7 +510,7 @@ ___
 
 **Type**: (Class A)
 
-**Description**: Spend 1 MP dice to cast a spell without somatic components.
+**Description**: Spend 1 MP dice to cast a spell without kinetic components.
 
 **Declaration**: Declare "still spell" before casting the spell.
 
@@ -751,7 +751,7 @@ ___
 ___
 #### Mage Hunter I
 
-**Description**: You may make an attack of opportunity against entities casting spells within reach, even if there are no somatic components.
+**Description**: You may make an attack of opportunity against entities casting spells within reach, even if there are no kinetic components.
 
 **Prerequisite**: 4 SP dice total and 4 MP dice total.
 
@@ -848,7 +848,7 @@ ___
 **Type**: (Class B)
 
 **Description**: Your spellcasting no longer provokes attacks of opportunity.
-+ This means that spells with somatic components do not provoke attacks of opportunity.
++ This means that spells with kinetic components do not provoke attacks of opportunity.
 
 **Limitations**: Entities with the "mage hunter" boon can still make attacks of opportunity against your spells UNLESS you also have the "mage hunter" boon.
 

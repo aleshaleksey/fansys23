@@ -24,8 +24,11 @@
 - [Sour](#sour)
 
 ### MP 1
-- [Winter's Touch](#winters-touch)
+- [Bear's Claws](#bears-claws)
+- [Beast Speech](#beast-speech)
 - [Least Heal](#least-heal)
+- [Shape Earth](#shape-earth)
+- [Winter's Touch](#winters-touch)
 
 ### MP 2
 - [](#)
@@ -161,7 +164,7 @@
 |Target(s)|1ft sq, 1 entity or 1 object in range|
 |Casting time||
 |Range|120ft|+2
-|Damage|1d12+[Int] pressure|+3
+|Damage|1d12+[Sup] pressure|+3
 |Duration|instantaneous|
 |Components|incantation, kinetic| -1
 |Limitation|Target must be in air (ie not submerged in a liquid or buried in earth)|
@@ -380,10 +383,126 @@
 
 ## MP 1 spells
 
+### Least Heal
+|||
+|-|-|
+|Name|Least Heal [Divine, Healing, Nature, Spring]|
+|Scope|local|
+|MP|1|
+|Target(s)|1 entity|
+|Casting time|"main action"|
+|Range|close|
+|Duration|instantaneous|
+|Components|incantation|(+1)
+|Save|Cha, harmless, usually|
+|Healing| 1HP|(+5)
+
+**Description**: Restore 1HP to a target.
+
+**Special**: Undead must make a Cha save or take 1 point of divine damage. (1+5)=(4+2)
+
+### Beast Speech
+|||
+|-|-|
+|Name|Beast Speech [Nature, Air]|
+|Scope|local (global)|
+|MP|1 (4)|
+|Target(s)|1 entity (100ft radius)|
+|Casting time|"full round action" (1h + 20min per 4MP)| -2
+|Range|close|
+|Duration|1 hour (1 week+)|+6
+|Components|incantation,kinetic|
+|Material|A tuft of fur, a feather and a few scales|
+|Save|Cha|
+
+**Description**: Grants you the ability to communicate with animals within a reasonable range (about 30ft, may be larger or smaller depending on the form of communication). The communication can be vocal, tactile, or visual.
+
+**Upcast (local)**: Add an extra target for every 1MP of cost paid.
+
+**Global**: Creates a zone with a 100ft radius where all entities can communicate with animals (Cha save on entry negates). For every 4MP, the duration increases by 1 week.
+
+(-2+6+2)=(4+2)
+
+### Ensnare
+|Name|Ensnare [Nature]|
+|-|-|
+|Scope|local (global)|
+|MP|1 (4)|
+|Target(s)|10ft radius centered on a square (200ft)| + 4
+|Casting time|"main action" (1h + 20min per 4MP)|
+|Range|60ft|+1
+|Duration|1 min (1 hour+)|+3
+|Components|incantation, kinetic|-1
+|Conditions|Grappled|+2
+|Limitations|There must be plant life (at least "medium") within 120ft|-2 
+|Save|Dex or Str|-1
+
+**Description**: Vigorous plant life sprouts and grasp at all targets in range, causing them to be "grappled" on a failed save, and transforming it to difficult terrain.
+
+**Upcast (local)**: Increase the radius by 5ft for every 1MP of cost paid.
+
+**Global**: Create a zone of 200ft with the same properties. For every 4MP add either 100ft of radius or 1 hour of duration.
+(4+1+3+2-4)=(4+2)
+
+### Bear's Claws
+|Name| Bear's Claws [Earth, Nature, Travel]|
+|-|-|
+|Scope|local|
+|MP|1+|
+|Target(s)|1 entity+|
+|Casting time|"1 action"|
+|Range|close|
+|Duration|12 minutes|+3
+|Components|incantation|+1
+|Save|Wis|
+
+**Description**: The target grows sturdy claws on all appendages, potentially damaging footwear. The target gains a climb speed (30ft). The claws can also be used as a weapon with a Str/Dex based attack, dealing [1d4 + [Str/Dex]] damage and using "strike"/"light blade" proficiency group.
+
+**Upcast**: Increase the duration by 12 minute for each extra MP.
+(Cost is wonky. Assuming the natural attack has a +1 cost.)
+
+### Shape Earth
+|Name|Shape Earth [Earth, Nature, Travel]|
+|-|-|
+|Scope|local (global)|
+|MP|1 (4)|
+|Target(s)|rock or ground within a 10ft radius of a sq (200ft)| +4
+|Casting time|"main action" (1h + 20min per 4MP)|
+|Range|120ft| +2
+|Duration|Instantaneous|
+|Components|incantation, kinetic| -1
+|Conditions|Difficult terrain~| +2
+|Limitations|Target is ground or rock attached to the ground|-2
+|Save|Dex|
+
+**Description**: Over the course of the round you gradually shape earth (but not rock or worked stone). It can become difficult terrain or stop being difficult terrain.
++ If this would encapsulate or otherwise trap an entity, it has enough time to use its reaction and escape the effect or do so by making a Dex save at advantage.
++ If the shape will not be structurally sound it collapses.
++ If you are attempting to make something artistic or structurally sound, you must make a "Tinker" or "Fortify" roll at disadvantage.
+
+**Global**: If cast globally the area affected is 200ft plus 100ft per extra 4MP. In this case artistic or structurally coherent use is not possible.
+
+### Foxfire
+|Name|Foxfire [Fire, Spirit]|
+|Scope|local (global)|
+|MP|1 (4)|
+|Target(s)|5ft radius centered on a sq (100ft)|+2
+|Casting time|"main action" (1h + 20min per 4MP)|
+|Range|120ft| +2
+|Duration|1 min (1 hour)| +3
+|Components|incantation, kinetic| -1
+|Conditions|glowing|+2
+|Concentration|Yes|-2
+|Save|Cha|
+
+**Description**: Harmless, supernatural flames spring forth in the area and persist, providing a dim illumination and potentially adhering to entities in the area. All targets that do not succeed a Cha save are "glowing" until the end of the spell. The target does not repeat the save at the end of its turn.
+
+**Global**: When cast globally the spell illuminates an area with a radius of 100ft and lasts for 1h plus 20 min for each extra 4MP. This use is popular at festivals and parties.
+
 ### Winter's Touch
 |||
 |-|-|
-|Name|Winter's Touch [Ice, Winter]|
+|Name|Winter's Touch [Ice/Water, Winter]|
 |Scope|local (global)|
 |MP|1 (4)|
 |Target(s)|1+ entity/sq (100ft per 4MP)|
@@ -403,25 +522,6 @@
 **Global**: The spell's range is 100ft per 4 MP, centered on you (you are not affected) and lasts for a day. For every 4 MP either the radius increases by 100ft, or the duration increase by a day.
 
 (7-4)/3 = 1
-
-### Least Heal
-|||
-|-|-|
-|Name|Least Heal [Divine, Healing, Nature, Spring]|
-|Scope|local|
-|MP|1|
-|Target(s)|1 entity|
-|Casting time|"main action"|
-|Range|close|
-|Duration|instantaneous|
-|Components|incantation|(+1)
-|Save|Cha, harmless, usually|
-|Healing| 1HP|(+5)
-
-**Description**: Restore 1HP to a target.
-
-**Special**: Undead must make a Cha save or take 1 point of divine damage. (1+5)=(4+2)
-
 
 ## MP 2 pells
 

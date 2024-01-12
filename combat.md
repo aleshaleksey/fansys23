@@ -169,7 +169,7 @@ Unless otherwise stated, a "reaction" always resolves after the action that prov
 |-|-|
 |Move out of threatened square|Yes|
 |Move between threatened squares|Yes, usually|
-|Cast spell with somatic components|Yes|
+|Cast spell with kinetic components|Yes|
 |Execute weapon attack, when proficient|No|
 |Execute weapon attack when NOT proficient|Yes|
 |Execute "basic martial manoeuvre"|Varies|
@@ -238,7 +238,7 @@ The "Grapple", "Restrain", "Shove", "Throw" and "Trip" manoeuvres can only be us
   - Penalty if not proficient with **grapples**.
   - The one executing this manoeuvre declares one of the desired outcomes:
    - "Silence": Prevent foe from completing incantations.
-   - "Restrain": Prevent a foe from casting spells with somatic components and give penalties to weapon attacks.
+   - "Restrain": Prevent a foe from casting spells with kinetic components and give penalties to weapon attacks.
 - **Shove**:
   - Effect: Moves a foe away from you by up to 10ft.
   - Requires attack roll vs target's NAT+[Str or Dex].
@@ -286,7 +286,7 @@ Spells are a subset of supernatural powers that mortals have learned to channel 
 
 Spells ALWAYS involve a combination of one or more of the following:
 
-  1. **Kinetic Components**: A set of defined, obvious gestures or movements. An "immobilised" or "restrained" caster cannot perform these. (conditions that imply "immobilised" fall under this category). Spells with somatic components provoke attacks of opportunity.
+  1. **Kinetic Components**: A set of defined, obvious gestures or movements. An "immobilised" or "restrained" caster cannot perform these. (conditions that imply "immobilised" fall under this category). Spells with kinetic components provoke attacks of opportunity.
   2. **Incantation components**: A set of defined, well enunciated words or sounds. A "silenced" or "silent" caster cannot perform these. (conditions that imply inability to produce defined sound fall under this category).
   3. **Ritual components**: A ritual is a procedure involving defined movement and positioning of objects or entities, or the creation of defined patterns. Disruption of this procedure ruins the ritual. Rituals typically apply to global spells.
 
@@ -296,7 +296,7 @@ Spell ranges are designated as "**close**" or "**ranged**".
 2. A "**ranged**" spell can have a range of 5ft or higher. It is designated as eg "ranged[60ft]". The base distances are 15ft, 30ft, 60ft, 120ft, 240ft.
 - An entity can only cast ONE spell at a time. If it attempts to cast a second, either both spells dissipate, or the casting ends in spectacular failure.
 - Spells can be **counterspelled** and **dispelled**. (How?)
-- Casting non-melee spells with somatic components provokes attacks of opportunity unless the "mage hunter" ability is involved.
+- Casting non-melee spells with kinetic components provokes attacks of opportunity unless the "mage hunter" ability is involved.
 - Spells with an active effect (eg summoning) and non-instantaneous duration usually require the caster to maintain their existence by "**concentrating**" on them. This has the following rules:
   1. A caster can NEVER concentrate on more than one spell.
   2. If concentration is broken, the spell dissipates or fails spectacularly.

@@ -305,7 +305,12 @@ Agency = [probability that the spell is useful in a situation] x [how strongly i
 - Material and foci: None
 - Components: Kinetic
 
-### Cost rules
+## Cost rules
+
+When creating spells the cost rules should be guided by the principle of agency and balance (see agency equation). However these are almost impossible to to formalise mathematically while keeping the formula useable. As such the numbers presented here are an easily abusable guide. 
+
+Any spell created using this guide MUST be checked and validated. In general no spell of a lower level should be more useful or more potent than a higher level spell that is uses the same magic type or is useable in the same circumstances as a primary purpose.
+
 - Spell points: +(1 + MP dice total) per MP dice. (MP1=2, MP2=2+3=5, MP3=2+3+4=9, etc)
 - Damage magnitude: +3 per (C class, 1d12) OR (B class, 1d8) OR (A class, 1d6) OR +9 (S class 1d6) 
 - Condition: +2 if Class C, +4 if Class B, +6 if Class A, +12 if Class S.
@@ -314,13 +319,18 @@ Agency = [probability that the spell is useful in a situation] x [how strongly i
   - +2 Standard improvement.
 - Bonus:
   - Cover: + 2 (Light), +4 (Heavy), +6(Total)
-  - Concealment: + 2, +4 (Heavy), +6(Total)
+  - Concealment: + 2, +4 (Heavy), +6(Total). This includes invisibility.
   - Condition resistance: +1,2,3,4(C,B,A,S) (level 0,1,2,3)
   - Condition immunity: +2,4,6,8(C,B,A,S) (level 1,2,3,4)
   - Damage resistance: +2,4,6,8(C,B,A,S) (level 1,2,3,4)
-- Duration (harmless): +1 if 1 min, +3 if 12 min, +6 if hour +12 if day
-- Duration (no damage): +3 if 1 min, +6 if 12 min, +12 if hour +24 if day
+- Boon:
+  - Transform into the same subtype: 6.
+  - Transform into the same type: 12.
+  - Transform into a different type 24.
+- Duration (harmless): +1 if 1 min, +3 if 12 min, +6 if hour +12 if day +24 if permanent
+- Duration (no damage): +3 if 1 min, +6 if 12 min, +12 if hour +24 if day +36 if permanent.
 - Duration (damage/healing): +6 if min, +12 if 12 min.
+- Duration Special: Some mundane effects may be permanent. This pertains mainly to diseases.
 - Casting time (no damage ): Secondary (+2), Main(0), Full round(-2).
 - Casting time (damage or conditions): Secondary(+2), Main(0), Full round(-1), 1 minute (-2).
 - Casting time: Reaction + 4.

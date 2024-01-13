@@ -32,19 +32,27 @@
 - [Gnomes' Mercy](#gnomes-mercy)
 - [Headwind](#headwind)
 - [Least Heal](#least-heal)
+- [Least Vengeance](#least-vengeance)
 - [Shape Earth](#shape-earth)
 - [Spirits' Secret](#spirits-secret)
 - [Tailwind](#tailwind)
+- [Water Snake](#water-snake)
 - [Winter's Touch](#winters-touch)
 
 ### MP 2
+- [Call Ailment](#call-ailment)
 - [Glide](#glide)
 - [Harvest](#harvest)
 - [Least Rest](#least-rest)
+- [Least Veil](#least-veil)
+- [Least Transformation](#least-transformation)
+- [Meadow of Flame](#meadow-of-flame)
+- [Silence](#silence)
 - [Summon Fire Sprite](#summon-flame-sprite)
 - [Summon Gnome](#summon-gnome)
 - [Summon Water Sprite](#summon-water-sprite)
 - [Summon Wind Sprite](#summon-wind-sprite)
+- [Warmth](#warmth)
 - [](#)
 
 
@@ -597,6 +605,25 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 
 **Upcast**: Add 1 target for every extra MP dice uses.
 
+### Least Vengeance
+|Name|Least Vengeance [Curse, Destruction, Fire]|
+|-|-|
+|Scope|local|
+|MP|1|
+|Target(s)|1 entity|
+|Casting time|"reaction" or "secondary action"|+4
+|Range|close|
+|Duration|"instantaneous"|
+|Components|incantation|+1
+|Limitation|The target MUST have dealt damage to you, or directly caused a harmful effect to you since the end of your last turn.|-2
+|Damage (if reaction)|1d8+[Sup], fire|
+|Damage (if "secondary action")|2d8+[Sup], fire|
+|Save|Dex|
+
+**Description**: Invoke fiery vengeance on a target that dealt damage, or otherwise attacked you since the end of your last turn.
+
+**Upcast**: Add +1d8 to the damage for every extra MP used.
+
 ### Winter's Touch
 |Name|Winter's Touch [Ice/Water, Winter]|
 |-|-|
@@ -641,26 +668,53 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 
 (7-4)/3 = 1
 
-## MP 2 spells
-
-### Least Rest
-|Name|Least Rest [Divine, Healing, Nature, Winter]|
+### Water Snake
+|Name|Water Snake [Water/ice, Spiritual]|
 |-|-|
 |Scope|local|
-|MP|2|
-|Target(s)|1 entity|
+|MP|1|
+|Target(s)|1 entity or sq|
 |Casting time|"main action"|
-|Range|close|
-|Duration|instantaneous|
-|Components|incantation|+1
-|Save|Cha, harmless, usually|
-|Healing|1d4+[Sup] SP + 1SP dice (Total 1d4+2+[Sup] SP)|
+|Range|close/15ft|-1
+|Duration|1 minute|+6
+|Concentration|true|
+|Components|incantation, kinetic|-1
+|Limitation|Target cannot be fire aligned or on fire|-1
+|Damage|1d12+[Sup]|+3
+|Attack|[SAP]+Int|
+|Save|Cha, spell fails|
 
-**Description**: You channel your mental energies into restoring the physical energies of the target.
+**Description**: Collects a water weird and give control of it to the target. The caster may make a single attack with the weird (15ft reach) as a "main action" on the same turn and on subsequent turns. The weird may also carry out the "grapple" or "shove"/"throw" combat manoeuvres, or make simple interactions with its environment, similar to a 15ft snake. (-3+3+6=4+2)
 
-**Special**: Undead must make a Cha save or take 2 points of divine damage.
+**Special**: If the target is a square of water or ground, the caster retains control of the weird. If the target is an entity it may make a save to reject the spell, in which case the spell fails.
 
-**Upcast**: Target regains an extra 1d4MP and an extra SP dice per extra MP dice used, to a maximum of 4MP dice used. No extra effect on undead.
+**Upcast**: Either the damage increases by 1d12, or the reach increases by 5ft for every extra MP dice used. If the MP dice total is 3 or higher, the weird's attack is carried out as a "secondary action".
+
+## MP 2 spells
+
+### Call Ailment
+|Name|Contagion|
+|-|-|
+|Name|Contagion [Curse, Destruction, Nature]|
+|Scope|local (global)|
+|MP|2 (8)|
+|Target(s)|1 entity (100ft radius)|
+|Casting time|"main action" (2h + 1h per 4MP)|
+|Range|15ft|-1
+|Duration|Special: 1h, then permanent (7 days)| + 12
+|Concentration|yes (yes)|-3
+|Components|kinetic|
+|Focus|A wilted leaf of a dead spider|-1
+|Save|Con|
+
+**Description**: Call a class C "disease" to afflict the target. Alternatively chose a single stat: The target has disadvantage with all attacks, rolls and saves governed by that stat.
+
+**Special**:
+- The target does not get a save at the end of its turns vs this spell.
+- If the caster concentrates on the spell to the end of the duration, the target has a second save, and then the spell becomes permanent.
+- The spell can also be lifted with any ability that curses diseases.
+
+**Global**: The spell has an affect with a 100ft radius, centered on the spot where it was cast. For every 4MP extra, the spell's radius is increased by 100ft or the duration is increased by 7 days.
 
 ### Harvest
 |Name|Harvest [Curse, Nature]|
@@ -685,13 +739,75 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 
 **Global**: The radius increases to 100ft per 8MP dice. The amount of sustenance obtained is enough for 200 large (800 medium) mortals per 8MP.
 
+### Least Rest
+|Name|Least Rest [Divine, Healing, Nature, Winter]|
+|-|-|
+|Scope|local|
+|MP|2|
+|Target(s)|1 entity|
+|Casting time|"main action"|
+|Range|close|
+|Duration|instantaneous|
+|Components|incantation|+1
+|Save|Cha, harmless, usually|
+|Healing|1d4+[Sup] SP + 1SP dice (Total 1d4+2+[Sup] SP)|
+
+**Description**: You channel your mental energies into restoring the physical energies of the target.
+
+**Special**: Undead must make a Cha save or take 2 points of divine damage.
+
+**Upcast**: Target regains an extra 1d4MP and an extra SP dice per extra MP dice used, to a maximum of 4MP dice used. No extra effect on undead.
+
+### Meadow of Flame
+|Name|Meadow of Flame [Fire, Destruction]|
+|-|-|
+|Scope|local|
+|MP|2|
+|Target(s)|20ft radius centered on a square, 10ft height|+4
+|Casting time||
+|Range|close (excludes own square)|
+|Duration|1 min|+4
+|Components|incantation|+1
+|Material|Dried petals of three types of flower|-2
+|Limitation|Focal area must be at least minimally flammable material|-2
+|Concentration|true|
+|Damage|1d8+[Sup] fire|+3
+|Condition|Lightly concealed|+2
+|Save|Con|
+
+**Description**: Flames bloom on flammable surfaces all around you, to a height of 10ft. Everything within the flames in lightly concealed.
+
+**Upcast**: For every extra MP dice, increase the radius by 5ft or increase the damage by 1d8.
+
+### Warmth
+|Name|Warmth [Fire, Travel]|
+|-|-|
+|Scope|local (global)|
+|MP|2 (8)|
+|Target(s)|15ft radius round a square in range (300ft)|+6
+|Casting time|"full round" (4h + 40min per 4MP) |-1
+|Range|30ft|
+|Duration|12min (1 day+)|+3
+|Components|kinetic|
+|Save|Cha, if the area is already enchanted|
+
+**Description**: Attempts to warm an area and anything in it to up to Heat: Severe (a little above body temperature).  If the area is affected by any "Extreme temperature: Cold" category, it is considered as being one step milder.
+
+**Upcast**: For every extra MP dice above 2, the duration increase by 6 min or the radius increases by 5ft.
+
+**Global**: The spell affects a much larger area and and lasts longer. For every extra 4MP the radius increases by 200ft or the duration increases by a day. These long durations begin to have significant effects on the surroundings as follows:
+- 1h: Per hour: 2' of snow cover melts.
+- 1h: Temperature in bodies of water smaller than 10x10x10 ft equilibrates.
+- 2h: Per 2 hour: 1' of snow ice melts.
+- 24h: Early plants begin emerge from winter dormancy.
+
 ### Summon Flame Sprite
 |Name|Summon Flame Sprite [Fire, Spiritual]|
 |-|-|
 |Scope|local (global)|
 |MP|2 (8)|
 |Target(s)|1sq (1sq)|
-|Casting time|"full round action" (2 hours + 20min per 4MP)|-2
+|Casting time|"full round action" (4h + 40min per 4MP)|-2
 |Range|30ft (30ft)|
 |Duration|12 min (1 day+)|+3
 |Components|incantation, kinetic|-1
@@ -723,7 +839,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 |Save|Cha|
 
 **Description**: The target is no longer attracted to the earth. This has the following effect:
-- Its jump distance is increased x4 (after that it slows down and stops).
+- Its jump distance is by x4 the base distance of the roll (after that it slows down and stops).
 - When jumping upwards it will hang at the maximum height instead of returning to earth.
 - When moving at more than than half its speed, the target must make a threshold=20 acrobatics roll or end up hanging mid-air at an altitude of a few feet.
 - When airborne as a result of this spell, a target is carried by the wind at half of the wind's speed.
@@ -731,6 +847,29 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 **Special**: The spell can be cast as a reaction when a target begins to fall. If cast as a reaction, the target descends at ~60ft per round. If cast as a main action on a target that is already falling, it begins to decelerate. This does nothing if the fall distance is less than ~360ft. Otherwise, if the fall is long, for every round the spell effects the target it falls 20ft per round less, and takes 2d12 less damage.
 
 **Global**: When cast globally the spell creates a spherical zone centered on the caster where this effect acts. For every 8 extra MP dice added the zone is expanded by 200ft or the duration increased by a day. Every entity that enters the are and does not succeed a Cha save is affected by the spell.
+
+### Lesser Veil
+|Name|Veil [Air, Curse]|
+|-|-|
+|Scope|local (global)|
+|MP|2 (8)|
+|Target(s)|1 entity or an object no more than 5x5x5ft (100ft)|
+|Casting time|"main action" (2h + 40min per 4MP dice)|
+|Range|close|
+|Duration|1h (1 week)|+6
+|Components|incantation|+1
+|Condition|Invisible|+6
+|Limitations|If the target attempts to cause damage or a condition (ability, attack, manoeuvre, etc)| -2
+|Limitations|If the target casts a spell above MP 0, the spell breaks| -2
+|Save|Cha, harmless|
+
+**Description**: Make a target "invisible" for the duration. (6+6+1-2-2=4+2+3)
+
+**Upcast**: For every extra MP used, the duration increases by a week or the number of targets increases by one.
+
+**Warning**: "Invisibility" does not hide the sounds a target makes, or the aroma it exudes.
+
+**Global**: Hides surface features from sight, eg. a camp, with all people and objects in it. It does not hide inherent terrain features, eg mountains and lakes. All valid targets in a radius of 100ft are "invisible" for a week. For every 4MP, the radius increases by 100ft, or the duration increases by a week.
 
 ### Summon Wind Sprite
 |Name|Summon Flame Sprite [Air, Spiritual]|
@@ -754,6 +893,46 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 **Upcast**: For every MP dice added (12MP dice for global), the sprite gains two levels.
 
 **Global**: The sprite is bound by a longer contract (an extra day for every 8MP above 8) and the spell does not require concentration. For every day of the contract the material component must be paid anew.
+
+### Least Transformation
+|Name| [Curse, Water]|
+|-|-|
+|Scope|local (global)|
+|MP|2 (8)|
+|Target(s)|1 entity|
+|Casting time|"main action" (2h + 40min per 4MP)|
+|Range|close|
+|Duration|1h (1 week)|+6
+|Components|kinetic|+1
+|Material|A handful of target's hair, and result creature's hair|
+|Limitation|You must be familiar with the entity kind that you're transforming into|-2
+|Save|Cha|
+
+**Description**: You transform into another entity of your type. You lose your template and instead gain the template of any valid entity that has both (see "[example templates](races.md#example-template)"): (6)
+- The same template level as your own.
+- The same entity type and subtype as your own.
+
+**Upcast**: For every extra MP dice spend the spell lasts for an extra hour, or you can target an extra entity.
+
+**Global**: The spell lasts for a week, with an extra week for every 4MP. It cannot be cancelled voluntarily.
+
+### Silence
+|Name|Silence [Curse, Water]|
+|-|-|
+|Scope|local (global)|
+|MP|2 (8)|
+|Target(s)|1 entity or 5ft radius centered ona square (100ft)|+2
+|Casting time|"main action" (2h + 40min per 4MP dice)|
+|Range|30ft|
+|Duration|12min (1 week)|+6
+|Components|kinetic|
+|Focus|A wind chime|
+|Condition|Inaudible|+2
+|Save|Wis|
+
+**Description**: You render a single target or a small, fixed area "inaudible".
+
+**Global**: The spell affects an area with a radius of 100ft and lasts for a week. For every 4 extra MP dice used the radius increases by 100ft, or the duration increases by a week.
 
 ### Summon Water Sprite
 |Name|Summon Flame Sprite [water/Ice, Spiritual]|
@@ -819,7 +998,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 
 **Description**: The target gains a good fly speed equal to your walking speed, as if walking upon the air. When the spell ends, the target loses this movement modality immediately.
 
-**Upcast**: For every extra MP point (4, if casting globally) placed in the spell you can add either: 1. An extra target, 2. an extra 6 minutes of effect (6h if cast globally).
+**Upcast**: For every extra MP dice (4, if casting globally) placed in the spell you can add either: 1. An extra target, 2. an extra 6 minutes of effect (6h if cast globally).
 
 ## MP 6 spells
 

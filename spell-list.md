@@ -26,12 +26,21 @@
 ### MP 1
 - [Bear's Claws](#bears-claws)
 - [Beast Speech](#beast-speech)
+- [Chill Blood](#chill-blood)
+- [Enflame](#enflame)
+- [Foxfire](#foxfire)
+- [Headwind](#headwind)
 - [Least Heal](#least-heal)
 - [Shape Earth](#shape-earth)
+- [Tailwind](#tailwind)
 - [Winter's Touch](#winters-touch)
 
 ### MP 2
-- [](#)
+- [Glide](#glide)
+- [Summon Fire Sprite](#summon-flame-sprite)
+- [Summon Gnome](#summon-gnome)
+- [Summon Water Sprite](#summon-water-sprite)
+- [Summon Wind Sprite](#summon-wind-sprite)
 - [](#)
 
 
@@ -47,6 +56,10 @@
 - [](#)
 - [](#)
 - [](#)
+- [](#)
+
+### MP 3
+- [Razor Wind](#razor-wind)
 - [](#)
 
 ## MP 0 spells
@@ -423,26 +436,6 @@
 
 (-2+6+2)=(4+2)
 
-### Tailwind
-|Name|Tailwind [Air, Spirit, Travel]|
-|-|-|
-|Scope|local (global)|
-|MP|1 (4)|
-|Target(s)|1 entity|
-|Casting time|"1 main action" (1h + 20min per 4MP dice)|
-|Range|close|-2
-|Duration|1h+ (1 day+)|+6
-|Components|incantation, kinetic|-1
-|Limitation|Cover is only against ranged weapon|
-|Save|Cha|
-
-**Description**: A friendly wind blows around the target, giving it light cover against ranged weapons and +10 to movement speed.
-
-**Upcast**: Increase the duration by an hour or add an additional target for each extra MP.
-
-**Global**: The duration increases to a day. The wind affects up to 4 creatures within 20ft of the caster. For every 4MP extra the duration increases by a day, or the number of targets increases by 4.
-
-
 ### Ensnare
 |Name|Ensnare [Nature]|
 |-|-|
@@ -463,6 +456,44 @@
 
 **Global**: Create a zone of 200ft with the same properties. For every 4MP add either 100ft of radius or 1 hour of duration.
 (4+1+3+2-4)=(4+2)
+
+### Tailwind
+|Name|Tailwind [Air, Spirit, Travel]|
+|-|-|
+|Scope|local (global)|
+|MP|1 (4)|
+|Target(s)|1 entity|
+|Casting time|"1 main action" (1h + 20min per 4MP dice)|
+|Range|close|-2
+|Duration|1h+ (1 day+)|+6
+|Components|incantation, kinetic|-1
+|Limitation|Cover is only against ranged weapon|
+|Save|Cha|
+
+**Description**: A friendly wind blows around the target, giving it light cover against ranged weapons and +10 to movement speed.
+
+**Upcast**: Increase the duration by an hour or add an additional target for each extra MP.
+
+**Global**: The duration increases to a day. The wind affects up to 4 creatures within 20ft of the caster. For every 4MP extra the duration increases by a day, or the number of targets increases by 4.
+
+### Headwind
+|Name|Tailwind [Air, Spring]|
+|-|-|
+|Scope|local (global)|
+|MP|1 (4)|
+|Target(s)|20ft, 60 degree cone centered on the caster (100ft sphere)|+1
+|Casting time|"1 main action" (1h + 20min per 4MP dice)|
+|Range|close|
+|Duration|1min+ (1 hour+)|+3
+|Components|incantation|+1
+|Concentration|true (false)|
+|Save|Str|
+
+**Description**: An extreme wind emanates from you. It is more than strong enough break small branches and drop fruit from trees, or blow away unattended objects in range that weight less than 50lb. Any entity that starts its turn in the area that does not succeed a Str Save is blown back 10ft and lands prone.
+
+**Upcast**: Increase the radius of the cone by 5ft for each extra MP.
+
+**Global**: The wind strength remains the same, but the spell creates a whirlwind with a 100ft radius. The duration increases to an hour. For every 4MP extra the duration increases by an hour or the radius increases by 50ft.
 
 ### Bear's Claws
 |Name| Bear's Claws [Earth, Nature, Travel]|
@@ -504,6 +535,7 @@
 
 ### Foxfire
 |Name|Foxfire [Fire, Spirit]|
+|-|-|
 |Scope|local (global)|
 |MP|1 (4)|
 |Target(s)|5ft radius centered on a sq (100ft)|+2
@@ -519,10 +551,29 @@
 
 **Global**: When cast globally the spell illuminates an area with a radius of 100ft and lasts for 1h plus 20 min for each extra 4MP. This use is popular at festivals and parties.
 
-### Winter's Touch
-|||
+### Enflame
+|Name|Enflame [Fire, Mortal]|
 |-|-|
+|Scope|local|
+|MP|1|
+|Target(s)|1 entity|
+|Casting time|"main action"|
+|Range|30ft|
+|Duration|12 min| +3
+|Components|kinetic|
+|Limit|Cannot be applied to entities immune to "fear" and "charm"|
+|Save|Int|
+
+**Description**: Enflames the heart of the target. It gains:
++ Immunity to "fear".
++ Disadvantage vs "charm".
++ It deals an extra +3 to damage with any Str based melee attacks and "supernatural" fire based abilities it has.
+
+**Upcast**: Add 1 target for every extra MP dice uses.
+
+### Winter's Touch
 |Name|Winter's Touch [Ice/Water, Winter]|
+|-|-|
 |Scope|local (global)|
 |MP|1 (4)|
 |Target(s)|1+ entity/sq (100ft per 4MP)|
@@ -541,17 +592,152 @@
 
 **Global**: The spell's range is 100ft per 4 MP, centered on you (you are not affected) and lasts for a day. For every 4 MP either the radius increases by 100ft, or the duration increase by a day.
 
+### Chill Blood
+|Name|Winter's Touch [Ice/Water, Mortal]|
+|-|-|
+|Scope|local|
+|MP|1|
+|Target(s)|1+ entity|
+|Casting time|"main action"|
+|Range|close|-2
+|Duration|12 min|+3
+|Components|incantation, kinetic|-1
+|Focus|A faceted clear crystal|
+|Limitation|Entity cannot be immune to "fear" and "charm"|-1
+|Save|Cha|
+
+**Description**: Cool the target's passions, granting the following:
+- Immunity to charm.
+- Resistance to fear.
+- Advantage on Wis based skill and stat rolls.
+
+**Upcast**: For every MP dice added the spell's radius increases by 5ft (this also affects the caster). OR Increase the duration by 1 minute.
+
 (7-4)/3 = 1
 
-## MP 2 pells
+## MP 2 spells
 
+### Summon Flame Sprite
+|Name|Summon Flame Sprite [Fire, Spiritual]|
+|-|-|
+|Scope|local (global)|
+|MP|2 (8)|
+|Target(s)|1sq (1sq)|
+|Casting time|"full round action" (2 hours + 20min per 4MP)|-2
+|Range|30ft (30ft)|
+|Duration|12 min (1 day+)|+3
+|Components|incantation, kinetic|-1
+|Material|A saucer of lamp oil or a lump of coal|-2
+|Limitation|The sprite must end its turn on flammable material|-2
+|Concentration|local|
+|Save|-|
+
+**Description**: Summons a level I flame sprite to faithfully serve and fight for you. The sprite communicates with its summoner and other fire spirits and is intelligent enough to understand gestures of other mortal entities.
+
+**Special**: You can only have one summon at any one time.
+
+**Upcast**: For every MP dice added (12MP dice for global), the sprite gains two levels.
+
+**Global**: The sprite is bound by a longer contract (an extra day for every 8MP above 8) and the spell does not require concentration. For every day of the contract the material component must be paid anew.
+
+### Glide
+|Name|Glide [Wind, Travel]|
+|-|-|
+|Scope|local (global)|
+|MP|2 (8)|
+|Target(s)|2 entities or an object no bigger than 15 x 15 x 15ft (200ft)|+2
+|Casting time|"main action" or "reaction" (2h + 20min per 8MP)|
+|Range|30ft|
+|Duration|12min (1 day)|+3
+|Components|kinetic|
+|Concentration|local|-3
+|Limit|The target has no control over its fly direction or speed|-2 
+|Save|Cha|
+
+**Description**: The target is no longer attracted to the earth. This has the following effect:
+- Its jump distance is increased x4 (after that it slows down and stops).
+- When jumping upwards it will hang at the maximum height instead of returning to earth.
+- When moving at more than than half its speed, the target must make a threshold=20 acrobatics roll or end up hanging mid-air at an altitude of a few feet.
+- When airborne as a result of this spell, a target is carried by the wind at half of the wind's speed.
+
+**Special**: The spell can be cast as a reaction when a target begins to fall. If cast as a reaction, the target descends at ~60ft per round. If cast as a main action on a target that is already falling, it begins to decelerate. This does nothing if the fall distance is less than ~360ft. Otherwise, if the fall is long, for every round the spell effects the target it falls 20ft per round less, and takes 2d12 less damage.
+
+**Global**: When cast globally the spell creates a spherical zone centered on the caster where this effect acts. For every 8 extra MP dice added the zone is expanded by 200ft or the duration increased by a day. Every entity that enters the are and does not succeed a Cha save is affected by the spell.
+
+### Summon Wind Sprite
+|Name|Summon Flame Sprite [Air, Spiritual]|
+|-|-|
+|Scope|local (global)|
+|MP|2 (8)|
+|Target(s)|1sq (1sq)|
+|Casting time|"full round action" (2 hours + 20min per 4MP)|-2
+|Range|30ft (30ft)|
+|Duration|12 min (1 day+)|+3
+|Components|incantation, kinetic|-1
+|Material|A handful of poplar fluff|-2
+|Limitation|The sprite cannot be summoned submerged or into liquid|-2
+|Concentration|local|
+|Save|-|
+
+**Description**: Summons a level I wind sprite to faithfully serve and fight for you. The sprite communicates with its summoner and other water spirits and is intelligent enough to understand gestures of other mortal entities.
+
+**Special**: You can only have one summon at any one time.
+
+**Upcast**: For every MP dice added (12MP dice for global), the sprite gains two levels.
+
+**Global**: The sprite is bound by a longer contract (an extra day for every 8MP above 8) and the spell does not require concentration. For every day of the contract the material component must be paid anew.
+
+### Summon Water Sprite
+|Name|Summon Flame Sprite [water/Ice, Spiritual]|
+|-|-|
+|Scope|local (global)|
+|MP|2 (8)|
+|Target(s)|1sq (1sq)|
+|Casting time|"full round action" (2 hours + 20min per 4MP)|-2
+|Range|30ft (30ft)|
+|Duration|12 min (1 day+)|+3
+|Components|incantation, kinetic|-1
+|Material||
+|Limitation|The water sprite must end its turn in a body of water, wet ground or in rain or mist|-2
+|Concentration|local|
+|Save|-|
+
+**Description**: Summons a level I water sprite to faithfully serve and fight for you. The sprite communicates with its summoner and other water spirits and is intelligent enough to understand gestures of other mortal entities.
+
+**Special**: You can only have one summon at any one time.
+
+**Upcast**: For every MP dice added (12MP dice for global), the sprite gains two levels.
+
+**Global**: The sprite is bound by a longer contract (an extra day for every 8MP above 8) and the spell does not require concentration. For every day of the contract the material component must be paid anew.
+
+### Summon Gnome
+|Name|Summon gnome [Earth, Spiritual]|
+|-|-|
+|Scope|local (global)|
+|MP|2 (8)|
+|Target(s)|1sq (1sq)|
+|Casting time|"full round action" (2 hours + 20min per 4MP)|-2
+|Range|30ft (30ft)|
+|Duration|12 min (1 day+)|+3
+|Components|incantation, kinetic|-1
+|Material|An offering of fine alcohol or 1HP worth of blood|-2
+|Limitation|The gnome is earthbound|-2
+|Concentration|local|
+|Save|-|
+
+**Description**: Summons a level I earth gnome to faithfully serve and fight for you. The gnome communicates with its summoner and other earth spirits and is intelligent enough to understand gestures of other mortal entities.
+
+**Special**: You can only have one summon at any one time.
+
+**Upcast**: For every MP dice added (4MP dice for global), the gnome gains two levels.
+
+**Global**: The gnome is bound by a longer contract (an extra day for every 8MP above 8) and the spell does not require concentration. For every day of the contract the material component must be paid anew.
 
 ## MP 3 spells
 
 ### Wind Walk
-|||
-|-|-|
 |Name|Wind Walk [Air, Nature, Travel]|
+|-|-|
 |Scope|Local (Global)|
 |MP|3 (12)|
 |Target(s)|1 or more entities|

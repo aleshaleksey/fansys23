@@ -190,13 +190,13 @@ For every level of Spellcasting: Elemental(Ice), a character learns 2 compatible
 
 ### Incantation
 
-Incantation magic covers a wide range of spells whose effects are activated by song or chant. Incantation magic covers all spells with an incantation component. Spells cast through incantation spellcasting cannot be affect by "aphonic spell". Typically summoning spells and close combat spells are compatible with incantation magic.
+Incantation magic covers a wide range of spells whose effects are activated by song or chant. Incantation magic covers all spells with no "kinetic" component. Spells cast through incantation spellcasting cannot be affect by "aphonic spell". Typically summoning spells and close combat spells are compatible with incantation magic.
 
 For every level of Spellcasting: Incantation, a character learns 1 compatible spells. On taking Incantation I a character also gains 3 compatible MP zero spells.
 
 ### Kinetic
 
-Kinetic magic covers a wide range of spells whose effects are activated by song or chant. Kinetic magic covers all spells with a kinetic component. Spells cast through kinetic spellcasting cannot be affected by "stilled spell". Kinetic components seem to increase the potence of a spell, therefore spells which are not constrained by other considerations (eg close combat spells), tend to use kinetic components and be compatible with this type of magic.
+Kinetic magic covers a wide range of spells whose effects are activated by a precise and well defined series of motions. Kinetic magic covers all spells with no "incantation" component. Spells cast through kinetic spellcasting cannot be affected by "stilled spell". Kinetic components seem to increase the potence of a spell, therefore spells which are not constrained by other considerations (eg close combat spells), tend to use kinetic components and be compatible with this type of magic.
 
 For every level of Spellcasting: Kinetic, a character learns 1 compatible spell. On taking Kinetic I a character also gains 3 compatible MP zero spells.
 
@@ -315,6 +315,8 @@ Agency = [probability that the spell is useful in a situation] x [how strongly i
 - Bonus:
   - Cover: + 2 (Light), +4 (Heavy), +6(Total)
   - Concealment: + 2, +4 (Heavy), +6(Total)
+  - Condition resistance: +1,2,3,4(C,B,A,S) (level 0,1,2,3)
+  - Condition immunity: +2,4,6,8(C,B,A,S) (level 1,2,3,4)
 - Duration (harmless): +1 if 1 min, +3 if 12 min, +6 if hour +12 if day
 - Duration (no damage): +3 if 1 min, +6 if 12 min, +12 if hour +24 if day
 - Duration (damage/healing): +6 if min, +12 if 12 min.

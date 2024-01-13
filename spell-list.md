@@ -33,11 +33,14 @@
 - [Headwind](#headwind)
 - [Least Heal](#least-heal)
 - [Shape Earth](#shape-earth)
+- [Spirits' Secret](#spirits-secret)
 - [Tailwind](#tailwind)
 - [Winter's Touch](#winters-touch)
 
 ### MP 2
 - [Glide](#glide)
+- [Harvest](#harvest)
+- [Least Rest](#least-rest)
 - [Summon Fire Sprite](#summon-flame-sprite)
 - [Summon Gnome](#summon-gnome)
 - [Summon Water Sprite](#summon-water-sprite)
@@ -66,9 +69,8 @@
 ## MP 0 spells
 
 ### Sour
-|||
-|-|-|
 |Name|Sour [Nature]|
+|-|-|
 |Scope|Local|
 |MP|0|
 |Target(s)|5ft radius centered on a square in range| (+2)
@@ -82,9 +84,8 @@
 (4-4)/3 = 0
 
 ### Hide
-|||
-|-|-|
 |Name|Hide [Nature, Air]|
+|-|-|
 |Scope|local|
 |MP|0|
 |Target(s)|1 entity|
@@ -99,9 +100,8 @@
 **Description**: You become "invisible" to 1 target (+2).
 
 ### Silent
-|||
-|-|-|
 |Name|Silent [Nature, Air]|
+|-|-|
 |Scope|local|
 |MP|0|
 |Target(s)|1 object within a 5ft cube or 1 entity|
@@ -115,9 +115,8 @@
 **Description**: The target becomes "inaudible" for the duration. Unwilling targets are not affected. (+3+2-1=4, (4-4)/3=0)
 
 ### Deafen
-|||
-|-|-|
 |Name|Deafen [Curse]|
+|-|-|
 |Scope|local|
 |MP|0|
 |Target(s)|1 entity|
@@ -132,9 +131,8 @@
 **Description**: The target is "deafened" (+2). (4-4)
 
 ### Compass
-|||
-|-|-|
 |Name|Compass [Nature, Travel]|
+|-|-|
 |Scope|local|
 |MP|0|
 |Target(s)|1sq|
@@ -147,9 +145,8 @@
 **Description**: Conjure a clearly visible sign next to you that either points north, or to the nearest source of clean water that must be at least 10ft away.
 
 ### Least Anemancy
-|||
-|-|-|
 |Name|Least Anemancy [Air, Spiritual]|
+|-|-|
 |Scope|local|
 |MP|0|
 |Target(s)|1sq of air, or a single elemental[air]|
@@ -170,9 +167,8 @@
 + Change the cosmetic qualities of the air.
 
 ### Least Blast
-|||
-|-|-|
 |Name|Least Blast [Air, Destruction]|
+|-|-|
 |Scope|local|
 |MP|0|
 |Target(s)|1ft sq, 1 entity or 1 object in range|
@@ -187,9 +183,8 @@
 **Description**: Call for a violent burst of wind to strike a target. The effect is a very small explosion.
 
 ### Whispers
-|||
-|-|-|
 |Name|Message [Air, Spring, Spirit]|
+|-|-|
 |Scope|local|
 |MP|0|
 |Target(s)|1sq or 1 entity|
@@ -204,9 +199,8 @@
 + Make a sound (can be speech, calls of beast, rustling of leaves, etc) in a square in range which you can see. It is roughly the volume of spoken speech (less than 60 dB), and does not cause damage.
 
 ### Least Shroud
-|||
-|-|-|
 |Name|Least Shroud [Air, Light, Nature, Spirit, Travel]|
+|-|-|
 |Scope|local|
 |MP|0|
 |Target(s)|1 object within a 5ft cube or 1 entity|
@@ -219,9 +213,8 @@
 **Description**: The target gains lightly concealment, by some intangible, but clearly visible phenomenon.
 
 ### Least Ward
-|||
-|-|-|
 |Name|Least Ward [Barrier, Divine, Earth, Mortal, Nature, Spiritual]|
+|-|-|
 |Scope|local|
 |MP|0|
 |Target(s)|1 object within a 5ft cube or 1 entity|
@@ -234,9 +227,8 @@
 **Description**: The target gains light cover, from a clearly tangibles phenomenon. (+2) (4-4)
 
 ### Down
-|||
-|-|-|
 |Name|Down [Earth]|
+|-|-|
 |Scope|local|
 |MP|0|
 |Target(s)|1 entity|
@@ -250,9 +242,8 @@
 **Description**: The earth attracts the target and it falls prone. (4-4)
 
 ### Least Geomancy
-|||
-|-|-|
 |Name|Least Geomancy [Earth, Spiritual]|
+|-|-|
 |Scope|local|
 |MP|0|
 |Target(s)|1sq of earth, or a single elemental[earth]|
@@ -271,9 +262,8 @@
 + Change the cosmetic qualities of the earth.
 
 ### Least Spike
-|||
-|-|-|
 |Name|Least Spike [Earth, Destruction]|
+|-|-|
 |Scope|local|
 |MP|0|
 |Target(s)|5ft radius, centered on caster|+2
@@ -288,9 +278,8 @@
 **Description**: Ask the earth nicely to harden and strike all entities within 5ft of you with sharp spikes. (5-1=4+4)
 
 ### Ignition
-|||
-|-|-|
 |Name|Ignition [Fire, Destruction]|
+|-|-|
 |Scope|local|
 |MP|0|
 |Target(s)|1sq|
@@ -304,9 +293,8 @@
 **Description**: Call forth flames at a spot. Ignite flammable material in one square, violently if desired. If cast violently, the flames do damage to any entity in the square. (4-4)
 
 ### Least Warmth
-|||
-|-|-|
 |Name|Least Warmth [Fire, Travel, Summer]|
+|-|-|
 |Scope|local|
 |MP|0|
 |Target(s)|5ft radius round a square in range| + 2
@@ -320,9 +308,8 @@
 **Description**: Attempts to warm an area and anything in it to body temperature. If the area is affected by any "Extreme temperature: Cold" category, it is considered as being one step milder.
 
 ### Least Pyromancy
-|||
-|-|-|
 |Name|Least Pyromancy [Fire, Summer, Spiritual]|
+|-|-|
 |Scope|local|
 |MP|0|
 |Target(s)|A fire in a single square, or a single elemental[fire]|
@@ -342,9 +329,8 @@
 + Change the colour and other cosmetic qualities of the flame.
 
 ### Least Hydromancy
-|||
-|-|-|
 |Name|Least Hydromancy [Water, Spiritual]|
+|-|-|
 |Scope|local|
 |MP|0|
 |Target(s)|1sq of water or ice, or a single elemental[water]|
@@ -364,9 +350,8 @@
 + Change the cosmetic qualities of the water.
 
 ### Least Freeze
-|||
-|-|-|
 |Name|Least Freeze [Water, Ice, Destruction]|
+|-|-|
 |Scope|local|
 |MP|0|
 |Target(s)|1sq|
@@ -380,9 +365,8 @@
 **Description**: Still the movement inside of water. Freeze a material or creature containing water, violently if desired. If cast violently the rapid cooling damages any entity on the square. (4-4)
 
 ### Mist
-|||
-|-|-|
 |Name|Mist [Water, Ice, Winter]|
+|-|-|
 |Scope|local|
 |MP|0|
 |Target(s)|5ft radius centered on a square in range|
@@ -398,9 +382,8 @@
 ## MP 1 spells
 
 ### Least Heal
-|||
-|-|-|
 |Name|Least Heal [Divine, Healing, Nature, Spring]|
+|-|-|
 |Scope|local|
 |MP|1|
 |Target(s)|1 entity|
@@ -415,10 +398,11 @@
 
 **Special**: Undead must make a Cha save or take 1 point of divine damage. (1+5)=(4+2)
 
+**Upcast**: Target regains an extra HP per extra MP, to a maximum of 3. No extra effect on undead.
+
 ### Beast Speech
-|||
-|-|-|
 |Name|Beast Speech [Nature, Air]|
+|-|-|
 |Scope|local (global)|
 |MP|1 (4)|
 |Target(s)|1 entity (100ft radius)|
@@ -458,6 +442,30 @@
 **Global**: Create a zone of 200ft with the same properties. For every 4MP add either 100ft of radius or 1 hour of duration.
 (4+1+3+2-4)=(4+2)
 
+### Spirits' Secret
+|Name|Spirits' Secret [Air, Spirit]|
+|-|-|
+|Scope|local (global)|
+|MP|1 (4)|
+|Target(s)|1 entity|
+|Casting time|1 minute (24h + 2h per 4MP dice)|-2
+|Range|240ft (2 miles)|+3
+|Duration|Instantaneous (Instantaneous)|
+|Components|kinetic|
+|Limitation|Fails if caster and answer to the question are not both in contact with air|
+|Limitation|Fails if the caster and answer to the question are hermetically separated|
+|Save|-|
+
+**Description**: The caster attempts to ascertain the location (and rough time it was there during the casting of the spell but is no there when the casting ends) of an object, feature or entity described by the caster, by asking low level wind spirits. The spirits will seek out he nearest example of the thing that meets the specification.
+
+**Special**: The low level spirits answer truthfully and faithfully, but are limited to 3 physically discernable criteria in the description and do not understand many human concepts (eg belonging, names, age). Eg *"An half-elf woman in a red cloak"*, or *"an elvish woman around who the word 'Illusi' is spoken"* are valid, but *"A half-elf woman by the name of 'Illusi'"* or *"My favourite backpack"* are not.
+
+If more than 3 criteria are chosen the lesser spirits will latch on to any three and ignore the rest.
+
+Other users of air magic can use "knowledge:arcana" to recognise that the spell is being cast in the area and use "summon wind sprite" at a higher level to hide their location without breaking the casting.
+
+**Global**: The spell reaches to a range of two miles and gives the caster the location of all objects matching the criteria.
+
 ### Tailwind
 |Name|Tailwind [Air, Spirit, Travel]|
 |-|-|
@@ -468,7 +476,7 @@
 |Range|close|-2
 |Duration|1h+ (1 day+)|+6
 |Components|incantation, kinetic|-1
-|Limitation|Cover is only against ranged weapon|
+|Limitation|Cover is only against targeted ranged weapon attacks|
 |Save|Cha|
 
 **Description**: A friendly wind blows around the target, giving it light cover against ranged weapons and +10 to movement speed.
@@ -634,6 +642,48 @@
 (7-4)/3 = 1
 
 ## MP 2 spells
+
+### Least Rest
+|Name|Least Rest [Divine, Healing, Nature, Winter]|
+|-|-|
+|Scope|local|
+|MP|2|
+|Target(s)|1 entity|
+|Casting time|"main action"|
+|Range|close|
+|Duration|instantaneous|
+|Components|incantation|+1
+|Save|Cha, harmless, usually|
+|Healing|1d4+[Sup] SP + 1SP dice (Total 1d4+2+[Sup] SP)|
+
+**Description**: You channel your mental energies into restoring the physical energies of the target.
+
+**Special**: Undead must make a Cha save or take 2 points of divine damage.
+
+**Upcast**: Target regains an extra 1d4MP and an extra SP dice per extra MP dice used, to a maximum of 4MP dice used. No extra effect on undead.
+
+### Harvest
+|Name|Harvest [Curse, Nature]|
+|-|-|
+|Scope|local (global)|
+|MP|2 (8)|
+|Target(s)|5ft radius centered on a sq (100ft)|+2
+|Casting time|"main action" (1h + 20min per 4MP)|
+|Range|close|-2
+|Duration|instantaneous|
+|Components|incantation, kinetic|-1
+|Limitation|The point the spell is cast on must be at least somewhat fertile ground|-1
+|Save|Cha, harmless|
+
+**Description**: Obtain a day's worth of *unprepared* food and water for a large mortal of your choice (or 4 medium). In doing so the vitality of the ground in the casting area is depleted until the end of the next harvest season. (+2+8)
+
+**Upcast**: The amount harvested increases by 1 large mortal's worth of food and water for every extra MP dice. The radius increases by 5ft for every extra 2MP dice.
+
+**Special**: Harvester mages are often used by marching or retreating armies for logistics and scorched earth. There would likely be ramifications to using this magic, especially on inhabited or claimed lands.
+- If the land is marginally fertile (eg fells, swamp, mountains) the harvest is 1/4 of the usual.
+- If the land is infertile (eg ruins, city, subterranean, desert), the MP is expended and the harvest fails.
+
+**Global**: The radius increases to 100ft per 8MP dice. The amount of sustenance obtained is enough for 200 large (800 medium) mortals per 8MP.
 
 ### Summon Flame Sprite
 |Name|Summon Flame Sprite [Fire, Spiritual]|

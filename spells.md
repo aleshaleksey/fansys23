@@ -317,6 +317,7 @@ Agency = [probability that the spell is useful in a situation] x [how strongly i
   - Concealment: + 2, +4 (Heavy), +6(Total)
   - Condition resistance: +1,2,3,4(C,B,A,S) (level 0,1,2,3)
   - Condition immunity: +2,4,6,8(C,B,A,S) (level 1,2,3,4)
+  - Damage resistance: +2,4,6,8(C,B,A,S) (level 1,2,3,4)
 - Duration (harmless): +1 if 1 min, +3 if 12 min, +6 if hour +12 if day
 - Duration (no damage): +3 if 1 min, +6 if 12 min, +12 if hour +24 if day
 - Duration (damage/healing): +6 if min, +12 if 12 min.

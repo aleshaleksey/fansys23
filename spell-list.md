@@ -29,6 +29,7 @@
 - [Chill Blood](#chill-blood)
 - [Enflame](#enflame)
 - [Foxfire](#foxfire)
+- [Gnomes' Mercy](#gnomes-mercy)
 - [Headwind](#headwind)
 - [Least Heal](#least-heal)
 - [Shape Earth](#shape-earth)
@@ -58,7 +59,7 @@
 - [](#)
 - [](#)
 
-### MP 3
+### MP 6
 - [Razor Wind](#razor-wind)
 - [](#)
 
@@ -511,6 +512,23 @@
 
 **Upcast**: Increase the duration by 12 minute for each extra MP.
 (Cost is wonky. Assuming the natural attack has a +1 cost.)
+
+### Gnomes' Mercy
+|Name|Gnomes' Mercy [Earth, Spirit, Travel]|
+|-|-|
+|Scope|local|
+|MP|1|
+|Target(s)|1 entity or an object up to 5x5x5ft|
+|Casting time|"reaction"|+4
+|Range|30ft|
+|Duration|1 min|+1
+|Components|incantation, kinetic|-1
+|Limitation|No effect on air aligned entities, damage from falls only|-3
+|Save|Int|
+
+**Description**: You call upon earth spirits to be gentle to whoever falls upon them, making the target resistant to damage taken when falling. In addition the damage it takes when hitting the ground is reduced by 1d12+[Sup] points. (+5)
+
+**Upcast**: Increase the number of targets by 1 and decrease the damage bya  further 1d12 points.
 
 ### Shape Earth
 |Name|Shape Earth [Earth, Nature, Travel]|

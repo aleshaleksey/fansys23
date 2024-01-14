@@ -327,7 +327,7 @@ Any spell created using this guide MUST be checked and validated. In general no 
   - Transform into the same subtype: 6.
   - Transform into the same type: 12.
   - Transform into a different type 24.
-- Duration (harmless): +1 if 1 min, +3 if 12 min, +6 if hour +12 if day +24 if permanent
+- Duration (harmless): +1 if 1 min, +3 if 12 min, +6 if hour, +9 8h, +12 if day +24 if permanent
 - Duration (no damage): +3 if 1 min, +6 if 12 min, +12 if hour +24 if day +36 if permanent.
 - Duration (damage/healing): +6 if min, +12 if 12 min.
 - Duration Special: Some mundane effects may be permanent. This pertains mainly to diseases.

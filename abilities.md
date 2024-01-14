@@ -315,7 +315,7 @@ ___
 
 #### Flash Step
 
-**Description**: As a "secondary action" move up to your base speed per SP dice expended. This movement does not provoke attacks of opportunity. While moving like this your jump distance is increased by 10ft per SP dice spent.
+**Description**: As a "secondary action" move up to your base speed per SP dice expended. This movement does not provoke attacks of opportunity. While moving like this your jump distance is increased by 10ft per SP dice spent and you are not affected by difficult terrain.
 
 **Special**:
 - This ability must be taken separately for each movement modality.

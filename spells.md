@@ -31,6 +31,7 @@ There are a number of general rules pertaining to spellcasting.
 3. Casting "ranged" spells with kinetic components in melee provokes attacks of opportunity.
 4. Unless otherwise stated, a caster must have line of sight to the target of a spell to cast it.
 5. An entity gets a save at the end of every turn against harmful effects of the spell unless otherwise stated. 
+6. All damage caused by spells, unless otherwise stated, counts as "supernatural". The major exception is physical damage (bludgeoning, shear, piercing, pressure, slashing), which is always "natural".
 
 ___
 ### Concentration
@@ -206,9 +207,8 @@ Nature magic covers all nature related spells. All spells of "winter", "spring",
 
 For every level of Spellcasting: Nature, a character learns 2 compatible spell. On taking Nature I a character also gains 2 compatible MP zero spells.
 
-## Spell List
-
-### Spell Descriptors
+___
+## Spell Descriptors
 
 A descriptor tells you something about the nature of the spell. This can include the element or force it is associated with, its purpose and its creator.
 
@@ -307,7 +307,7 @@ Agency = [probability that the spell is useful in a situation] x [how strongly i
 
 ## Cost rules
 
-When creating spells the cost rules should be guided by the principle of agency and balance (see agency equation). However these are almost impossible to to formalise mathematically while keeping the formula useable. As such the numbers presented here are an easily abusable guide. 
+When creating spells the cost rules should be guided by the principle of agency and balance (see agency equation). However these are almost impossible to to formalise mathematically while keeping the formula useable. As such the numbers presented here are an easily abusable guide.
 
 Any spell created using this guide MUST be checked and validated. In general no spell of a lower level should be more useful or more potent than a higher level spell that is uses the same magic type or is useable in the same circumstances as a primary purpose.
 
@@ -323,6 +323,7 @@ Any spell created using this guide MUST be checked and validated. In general no 
   - Condition resistance: +1,2,3,4(C,B,A,S) (level 0,1,2,3)
   - Condition immunity: +2,4,6,8(C,B,A,S) (level 1,2,3,4)
   - Damage resistance: +2,4,6,8(C,B,A,S) (level 1,2,3,4)
+  - Size up or down +3 per category.
 - Boon:
   - Transform into the same subtype: 6.
   - Transform into the same type: 12.
@@ -336,29 +337,30 @@ Any spell created using this guide MUST be checked and validated. In general no 
 - Casting time: Reaction + 4.
 - Concentration: All damage spells MUST be concentration. Otherwise -3 if concentration
 - Range: +1 per range up (15, 30, 60, 120, 240), -1 per range down.
-- Targets +2 per target or +2 per 5ft radius.
+- Targets +2 per target or +2 per 5ft radius. SPECIAL: Only +1 for the first *N* increases for a spell of cost *N* MP.
 - Material: -2 if material, -1 if focus. -1 if either is rare.
 - Components: Incantation only (+1), Kinetic only (0), Kinetic + Incantation (+1)
-- Half on save: Half the cost of main effect, or full cost of secondary effect.
+- Half on save: All spells whose primary effect is damage and cost MP have a half on save rule. Those that don't have a -6 to cost.
 
 #### Examine "Wind Walk"
-|||
-|-|-|
 |Name|Wind Walk [Air, Nature, Travel]|
+|-|-|
 |Scope|Local (Global)|
 |MP|3 (12)|
-|Target(s)|1+|
-|Casting time|"main action" (1h + 20 min/4MP)|
-|Range|5ft|
-|Duration|12 min+ (1 day+)|
-|Components|incantation (+ritual)|
-|Materials|None (12 dandelion heads)|
-|Condition|target cannot be earth aligned|
+|Target(s)|1 or more entities|
+|Casting time|"main action" (1h + 20 min per 4MP)|
+|Range|close|
+|Duration|12 min+ (1 day+)|+6
+|Components|incantation|+1(7)
+|Materials|None (12 dandelion heads)|-2(5)
+|Limitation|target cannot be earth aligned|-2(3)
 |Save|Wis (harmless), no effect|
 
-**Description**: The target gains a good fly speed equal to your walking speed, as if walking upon the air. When the spell ends, the target loses this movement modality immediately.
+**Description**: The target gains a good fly speed equal to your walking speed + 20ft, as if walking upon the air. When the spell ends, the target loses this movement modality immediately.
 
-For every extra MP point (4, if casting globally) placed in the spell you can add either: 1. An extra target, 2. an extra 6 minutes of effect (6h if cast globally).
+**Upcast**: For every extra MP dice (4, if casting globally) placed in the spell you can add either: 1. An extra target, 2. an extra 6 minutes of effect.
+
+**Global**: The spell has a duration of 1 day + 6h per extra 4MP or gives flight to an additional target.
 
 - Spell points: 
 - Damage types: NONE

@@ -63,7 +63,7 @@ Two template points:
   - The template bonus to skills NEVER stack.
 - A 30ft climb speed or a 40ft swim speed.
 - Increase fly speed by 10ft. Increase cosmic speed by 20ft.
-  - A single template level can increase fly or consmic speed by no more than 20ft or 40ft respectively.
+  - A single template level can increase fly or cosmic speed by no more than 20ft or 40ft respectively.
 - A passive or active (C class) ability with no prerequisites (eg water breathing).
 - Enhance a sense (heat-sense, keen-sight).
 - Remove the "sleep" necessity.
@@ -83,6 +83,7 @@ Four template points:
   - A template may grant only 2 condition resistances or immunities per template level.
 - A 5ft dig speed or a 60ft (average) fly speed. Characters that pick this option have a -10ft speed penalty to their climb, walk and swim speeds.
 - Improve fly speed by a level (average -> good, good -> perfect).
+- Improve dig speed by 5ft.
 - A passive or active (B class) ability with no prerequisites.
 
 

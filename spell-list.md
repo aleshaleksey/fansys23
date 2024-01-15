@@ -58,6 +58,8 @@
 
 
 ### MP 3
+- [Animate Plant](#animate-plant)
+- [Animate Dead](#animatecontrol-dead)
 - [Command Mortal](#command-mortal)
 - [Cure](#cure)
 - [Growth](#growth)
@@ -65,7 +67,6 @@
 - [Mole](#mole)
 - [](#)
 - [Wind Walk](#wind-walk)
-- [](#)
 - [](#)
 - [](#)
 - [](#)
@@ -829,7 +830,7 @@ ___
 |Components|incantation, kinetic|-1
 |Material|A saucer of lamp oil or a lump of coal|-2
 |Limitation|The sprite must end its turn on flammable material|-2
-|Concentration|local|
+|Concentration|local|+3
 |Save|-|
 
 **Description**: Summons a level I flame sprite to faithfully serve and fight for you. The sprite communicates with its summoner and other fire spirits and is intelligent enough to understand gestures of other mortal entities.
@@ -839,6 +840,8 @@ ___
 **Upcast**: For every MP dice added (12MP dice for global), the sprite gains two levels.
 
 **Global**: The sprite is bound by a longer contract (an extra day for every 8MP above 8) and the spell does not require concentration. For every day of the contract the material component must be paid anew.
+
+(Summon spell rating is controversial)
 
 ### Glide
 |Name|Glide [Wind, Travel]|
@@ -1056,24 +1059,29 @@ ___
 ## MP 3 spells
 4+2+3+4=13
 
-### Growth
-|Name|Growth [Nature]|
+### Animate Plant
+|Name|Animate Plant [Mortal, Nature]|
 |-|-|
 |Scope|local (global)|
-|MP|3 (12)|
-|Target(s)|1 entity or an object that fits within a 5ft square (100ft)|
-|Casting time|"main action" (3 hours + 1 h per 4MP)|
-|Range|close|-3
-|Duration|1h (1 week)|+12(9)
-|Components|incantation, kinetic|-1(8)
-|Focus|A crystal shard|-1 (7)
-|Save|Wis|
+|MP|3 (8)|
+|Target(s)|1sq (1sq)|
+|Casting time|"full round action" (4h + 40min per 4MP)|-2
+|Range|30ft (30ft)|
+|Duration|60 min (1 week+)|+6
+|Components|incantation, kinetic|-1
+|Limitation|You must have a plant of "medium" size or larger|-2
+|Concentration|local|+3
+|Save|-|
 
-**Description**: Change the target entity's size by up two categories up or down. When the spell ends the target's size returns to what it used to be. The same applies for objects.
+**Description**: Animate a plant with at least a size "medium", the plant serves and fights faithfully for the one who animated it. The plant becomes a "level II plant" and can communicate with its summoner and other sentient plants. At the end of the spell, the plant becomes a normal plant again.
 
-**Upcast:** For every MP dice added the duration increases by an hour, or the size change increases by a category
+**Special**: You can only have one summon at any one time.
 
-**Global**: The spell acts over an area with a radius of 100ft for a week. All entities that enter the area that do not succeed a Wis save are affected by the size change. For every 4 extra MP dice, the radius increases by 4 or the size category change increases by 1.
+**Upcast**: For every MP dice added (12MP dice for global), the sprite gains two levels.
+
+**Global**: The plant is animated for longer (an extra week for every 4MP above 12) and the spell does not require concentration. If at least 36MP is used, the plant is forever animated.
+
+(Summon spell rating is controversial)
 
 ### Cure
 |Name|Cure [Divine, Healing, Nature]|
@@ -1092,6 +1100,25 @@ ___
 **Special**: Undead that do not succeed the save take 3 damage (divine) directly to their HP.
 
 **Upcast**: For every extra dice increase the number of B/C class conditions removed by 1. If at least 5 dice are used, an S class condition can be removed, although this will not necessarily make things better. The damage to undead is not increased.
+
+### Growth
+|Name|Growth [Nature]|
+|-|-|
+|Scope|local (global)|
+|MP|3 (12)|
+|Target(s)|1 entity or an object that fits within a 5ft square (100ft)|
+|Casting time|"main action" (3 hours + 1 h per 4MP)|
+|Range|close|-3
+|Duration|1h (1 week)|+12(9)
+|Components|incantation, kinetic|-1(8)
+|Focus|A crystal shard|-1 (7)
+|Save|Wis|
+
+**Description**: Change the target entity's size by up two categories up or down. When the spell ends the target's size returns to what it used to be. The same applies for objects.
+
+**Upcast:** For every MP dice added the duration increases by an hour, or the size change increases by a category
+
+**Global**: The spell acts over an area with a radius of 100ft for a week. All entities that enter the area that do not succeed a Wis save are affected by the size change. For every 4 extra MP dice, the radius increases by 4 or the size category change increases by 1.
 
 ### Least Curse
 |Name|Least Curse [Curse, Destruction, Spirit]|
@@ -1134,6 +1161,34 @@ ___
 **Upcast(local)**: If upcast to 5 MP dice, the caster may choose three C class, two B class or 1 A curses. If upcast to 7 MP dice, the caster may choose 4 C class, three B class, 2 A class or 1 S class curses.
 
 **Global**: The curse is permanent. If upcast to cost 20 MP dice the caster may choose three C Class, two B class or 1 A class condition.
+
+### Animate/Control Dead
+|Name|Animate Dead [Curse, Profane]|
+|-|-|
+|Scope|local (global)|
+|MP|3 (12)|
+|Target(s)|1sq (1sq)|
+|Casting time|"full round action" (4h + 40min per 4MP)|-2
+|Range|30ft (30ft)|
+|Duration|60 min (1 week+)|+6(5)
+|Components|incantation, kinetic|-1(4)
+|Focus|A symbol of a dark religion|-2(2)
+|Material|Fresh blood of an animal or humanoid|-2(0)
+|Limitation|You must have corpse of an animal or humanoid the appropriate size|-2(-2)
+|Concentration|No|
+|Save|-|
+
+**Description**: Animate a corpse of medium size "medium", to become a level I corporeal undead. The undead serves and fights faithfully for the caster. The undead is capable of performing any reflexive or rote task it knew in life if its body still supports that functionality. Alternatively the spell can be cast to gain control of 4 non-intelligent undead for 6 hours.
+
+**Special**:
+- After 60 minutes the undead is not destroys, but persists, becoming hostile to its creator.
+- There is no limit to the number of undead a caster can control, however legions of dead seldom end well.
+
+**Upcast**: For every MP dice added (4MP dice for global), the caster may either animate an extra corpse as a level I undead, assert control over an extra 4 corpses, or increase the level of hte created undead by I.
+
+**Global**: The undead are under the caster's control for 1 week, after which time they have a "neutral" attitude towards it. For every 4MP dice above 12, the caster may create an extra level I undead, assert control over 4 undead, or increase the level of a created undead by 1.
+
+(Summon spell rating is controversial)
 
 ### Mole
 |Name|Mole [Earth, Nature, Travel]|

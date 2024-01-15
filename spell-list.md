@@ -53,11 +53,17 @@
 - [Summon Gnome](#summon-gnome)
 - [Summon Water Sprite](#summon-water-sprite)
 - [Summon Wind Sprite](#summon-wind-sprite)
+- [Warded Ground](#warded-ground)
 - [Warmth](#warmth)
-- [](#)
 
 
 ### MP 3
+- [Command Mortal](#command-mortal)
+- [Cure](#cure)
+- [Growth](#growth)
+- [Least Curse](#least-curse)
+- [Mole](#mole)
+- [](#)
 - [Wind Walk](#wind-walk)
 - [](#)
 - [](#)
@@ -66,14 +72,17 @@
 - [](#)
 - [](#)
 - [](#)
-- [](#)
-- [](#)
-- [](#)
-- [](#)
+
+### MP 4
+- [Least Storm](#least-storm)
 
 ### MP 6
+- [Forest of Flame](#forest-of-flame)
 - [Razor Wind](#razor-wind)
 - [](#)
+
+### MP 10 Spells
+- [Realm of Flame](#realm-of-flame)
 
 ## MP 0 spells
 
@@ -388,6 +397,7 @@
 
 **Description**: Calls forth a thick, cold mist. Any entity of size "huge" or smaller that is separated from observes by at least 5ft of the mist is lightly obscured.
 
+____
 ## MP 1 spells
 
 ### Least Heal
@@ -430,27 +440,6 @@
 
 (-2+6+2)=(4+2)
 
-### Ensnare
-|Name|Ensnare [Nature]|
-|-|-|
-|Scope|local (global)|
-|MP|1 (4)|
-|Target(s)|10ft radius centered on a square (200ft)| + 4
-|Casting time|"main action" (1h + 20min per 4MP)|
-|Range|60ft|+1
-|Duration|1 min (1 hour+)|+3
-|Components|incantation, kinetic|-1
-|Conditions|Grappled|+2
-|Limitations|There must be plant life (at least "medium") within 120ft|-2 
-|Save|Dex or Str|-1
-
-**Description**: Vigorous plant life sprouts and grasp at all targets in range, causing them to be "grappled" on a failed save, and transforming it to difficult terrain.
-
-**Upcast (local)**: Increase the radius by 5ft for every 1MP of cost paid.
-
-**Global**: Create a zone of 200ft with the same properties. For every 4MP add either 100ft of radius or 1 hour of duration.
-(4+1+3+2-4)=(4+2)
-
 ### Spirits' Secret
 |Name|Spirits' Secret [Air, Spirit]|
 |-|-|
@@ -552,11 +541,11 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 |-|-|
 |Scope|local (global)|
 |MP|1 (4)|
-|Target(s)|rock or ground within a 10ft radius of a sq (200ft)| +4
+|Target(s)|rock or ground within a 10ft radius of a sq (200ft)| +3
 |Casting time|"main action" (1h + 20min per 4MP)|
 |Range|120ft| +2
 |Duration|Instantaneous|
-|Components|incantation, kinetic| -1
+|Components|kinetic| -1
 |Conditions|Difficult terrain~| +2
 |Limitations|Target is ground or rock attached to the ground|-2
 |Save|Dex|
@@ -571,33 +560,12 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 
 **Upcast**: Target regains an extra HP per extra MP, to a maximum of 3. No extra effect on undead.
 
-### Beast Speech
-|Name|Beast Speech [Nature, Air]|
-|-|-|
-|Scope|local (global)|
-|MP|1 (4)|
-|Target(s)|1 entity (100ft radius)|
-|Casting time|"full round action" (1h + 20min per 4MP)| -2
-|Range|close|
-|Duration|1 hour (1 week+)|+6
-|Components|incantation,kinetic|
-|Material|A tuft of fur, a feather and a few scales|
-|Save|Cha|
-
-**Description**: Grants you the ability to communicate with animals within a reasonable range (about 30ft, may be larger or smaller depending on the form of communication). The communication can be vocal, tactile, or visual.
-
-**Upcast (local)**: Add an extra target for every 1MP of cost paid.
-
-**Global**: Creates a zone with a 100ft radius where all entities can communicate with animals (Cha save on entry negates). For every 4MP, the duration increases by 1 week.
-
-(-2+6+2)=(4+2)
-
 ### Ensnare
 |Name|Ensnare [Nature]|
 |-|-|
 |Scope|local (global)|
 |MP|1 (4)|
-|Target(s)|10ft radius centered on a square (200ft)| + 4
+|Target(s)|10ft radius centered on a square (200ft)| +3
 |Casting time|"main action" (1h + 20min per 4MP)|
 |Range|60ft|+1
 |Duration|1 min (1 hour+)|+3
@@ -613,295 +581,19 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 **Global**: Create a zone of 200ft with the same properties. For every 4MP add either 100ft of radius or 1 hour of duration.
 (4+1+3+2-4)=(4+2)
 
-### Spirits' Secret
-|Name|Spirits' Secret [Air, Spirit]|
-|-|-|
-|Scope|local (global)|
-|MP|1 (4)|
-|Target(s)|1 entity|
-|Casting time|1 minute (24h + 2h per 4MP dice)|-2
-|Range|240ft (2 miles)|+3
-|Duration|Instantaneous (Instantaneous)|
-|Components|kinetic|
-|Limitation|Fails if caster and answer to the question are not both in contact with air|
-|Limitation|Fails if the caster and answer to the question are hermetically separated|
-|Save|-|
-
-**Description**: The caster attempts to ascertain the location (and rough time it was there during the casting of the spell but is no there when the casting ends) of an object, feature or entity described by the caster, by asking low level wind spirits. The spirits will seek out he nearest example of the thing that meets the specification.
-
-**Special**: The low level spirits answer truthfully and faithfully, but are limited to 3 physically discernable criteria in the description and do not understand many human concepts (eg belonging, names, age). Eg *"An half-elf woman in a red cloak"*, or *"an elvish woman around who the word 'Illusi' is spoken"* are valid, but *"A half-elf woman by the name of 'Illusi'"* or *"My favourite backpack"* are not.
-
-If more than 3 criteria are chosen the lesser spirits will latch on to any three and ignore the rest.
-
-Other users of air magic can use "knowledge:arcana" to recognise that the spell is being cast in the area and use "summon wind sprite" at a higher level to hide their location without breaking the casting.
-
-**Global**: The spell reaches to a range of two miles and gives the caster the location of all objects matching the criteria.
-
-### Tailwind
-|Name|Tailwind [Air, Spirit, Travel]|
-|-|-|
-|Scope|local (global)|
-|MP|1 (4)|
-|Target(s)|1 entity|
-|Casting time|"1 main action" (1h + 20min per 4MP dice)|
-|Range|close|-2
-|Duration|1h+ (1 day+)|+6
-|Components|incantation, kinetic|-1
-|Limitation|Cover is only against targeted ranged weapon attacks|
-|Save|Cha|
-
-**Description**: A friendly wind blows around the target, giving it light cover against ranged weapons and +10 to movement speed.
-
-**Upcast**: Increase the duration by an hour or add an additional target for each extra MP.
-
-**Global**: The duration increases to a day. The wind affects up to 4 creatures within 20ft of the caster. For every 4MP extra the duration increases by a day, or the number of targets increases by 4.
-
-### Headwind
-|Name|Tailwind [Air, Spring]|
-|-|-|
-|Scope|local (global)|
-|MP|1 (4)|
-|Target(s)|20ft, 60 degree cone centered on the caster (100ft sphere)|+1
-|Casting time|"1 main action" (1h + 20min per 4MP dice)|
-|Range|close|
-|Duration|1min+ (1 hour+)|+3
-|Components|incantation|+1
-|Concentration|true (false)|
-|Save|Str|
-
-**Description**: An extreme wind emanates from you. It is more than strong enough break small branches and drop fruit from trees, or blow away unattended objects in range that weight less than 50lb. Any entity that starts its turn in the area that does not succeed a Str Save is blown back 10ft and lands prone.
-
-**Upcast**: Increase the radius of the cone by 5ft for each extra MP.
-
-**Global**: The wind strength remains the same, but the spell creates a whirlwind with a 100ft radius. The duration increases to an hour. For every 4MP extra the duration increases by an hour or the radius increases by 50ft.
-
-### Bear's Claws
-|Name| Bear's Claws [Earth, Nature, Travel]|
-|-|-|
-|Scope|local|
-|MP|1+|
-|Target(s)|1 entity+|
-|Casting time|"1 action"|
-|Range|close|
-|Duration|12 minutes|+3
-|Components|incantation|+1
-|Save|Wis|
-
-**Description**: The target grows sturdy claws on all appendages, potentially damaging footwear. The target gains a climb speed (30ft). The claws can also be used as a weapon with a Str/Dex based attack, dealing [1d4 + [Str/Dex]] damage and using "strike"/"light blade" proficiency group.
-
-**Upcast**: Increase the duration by 12 minute for each extra MP.
-(Cost is wonky. Assuming the natural attack has a +1 cost.)
-
-### Gnomes' Mercy
-|Name|Gnomes' Mercy [Earth, Spirit, Travel]|
-|-|-|
-|Scope|local|
-|MP|1|
-|Target(s)|1 entity or an object up to 54+2)
-
-**Upcast**: Target regains an extra HP per extra MP, to a maximum of 3. No extra effect on undead.
-
-### Beast Speech
-|Name|Beast Speech [Nature, Air]|
-|-|-|
-|Scope|local (global)|
-|MP|1 (4)|
-|Target(s)|1 entity (100ft radius)|
-|Casting time|"full round action" (1h + 20min per 4MP)| -2
-|Range|close|
-|Duration|1 hour (1 week+)|+6
-|Components|incantation,kinetic|
-|Material|A tuft of fur, a feather and a few scales|
-|Save|Cha|
-
-**Description**: Grants you the ability to communicate with animals within a reasonable range (about 30ft, may be larger or smaller depending on the form of communication). The communication can be vocal, tactile, or visual.
-
-**Upcast (local)**: Add an extra target for every 1MP of cost paid.
-
-**Global**: Creates a zone with a 100ft radius where all entities can communicate with animals (Cha save on entry negates). For every 4MP, the duration increases by 1 week.
-
-(-2+6+2)=(4+2)
-
-### Ensnare
-|Name|Ensnare [Nature]|
-|-|-|
-|Scope|local (global)|
-|MP|1 (4)|
-|Target(s)|10ft radius centered on a square (200ft)| + 4
-|Casting time|"main action" (1h + 20min per 4MP)|
-|Range|60ft|+1
-|Duration|1 min (1 hour+)|+3
-|Components|incantation, kinetic|-1
-|Conditions|Grappled|+2
-|Limitations|There must be plant life (at least "medium") within 120ft|-2 
-|Save|Dex or Str|-1
-
-**Description**: Vigorous plant life sprouts and grasp at all targets in range, causing them to be "grappled" on a failed save, and transforming it to difficult terrain.
-
-**Upcast (local)**: Increase the radius by 5ft for every 1MP of cost paid.
-
-**Global**: Create a zone of 200ft with the same properties. For every 4MP add either 100ft of radius or 1 hour of duration.
-(4+1+3+2-4)=(4+2)
-
-### Spirits' Secret
-|Name|Spirits' Secret [Air, Spirit]|
-|-|-|
-|Scope|local (global)|
-|MP|1 (4)|
-|Target(s)|1 entity|
-|Casting time|1 minute (24h + 2h per 4MP dice)|-2
-|Range|240ft (2 miles)|+3
-|Duration|Instantaneous (Instantaneous)|
-|Components|kinetic|
-|Limitation|Fails if caster and answer to the question are not both in contact with air|
-|Limitation|Fails if the caster and answer to the question are hermetically separated|
-|Save|-|
-
-**Description**: The caster attempts to ascertain the location (and rough time it was there during the casting of the spell but is no there when the casting ends) of an object, feature or entity described by the caster, by asking low level wind spirits. The spirits will seek out he nearest example of the thing that meets the specification.
-
-**Special**: The low level spirits answer truthfully and faithfully, but are limited to 3 physically discernable criteria in the description and do not understand many human concepts (eg belonging, names, age). Eg *"An half-elf woman in a red cloak"*, or *"an elvish woman around who the word 'Illusi' is spoken"* are valid, but *"A half-elf woman by the name of 'Illusi'"* or *"My favourite backpack"* are not.
-
-If more than 3 criteria are chosen the lesser spirits will latch on to any three and ignore the rest.
-
-Other users of air magic can use "knowledge:arcana" to recognise that the spell is being cast in the area and use "summon wind sprite" at a higher level to hide their location without breaking the casting.
-
-**Global**: The spell reaches to a range of two miles and gives the caster the location of all objects matching the criteria.
-
-### Tailwind
-|Name|Tailwind [Air, Spirit, Travel]|
-|-|-|
-|Scope|local (global)|
-|MP|1 (4)|
-|Target(s)|1 entity|
-|Casting time|"1 main action" (1h + 20min per 4MP dice)|
-|Range|close|-2
-|Duration|1h+ (1 day+)|+6
-|Components|incantation, kinetic|-1
-|Limitation|Cover is only against targeted ranged weapon attacks|
-|Save|Cha|
-
-**Description**: A friendly wind blows around the target, giving it light cover against ranged weapons and +10 to movement speed.
-
-**Upcast**: Increase the duration by an hour or add an additional target for each extra MP.
-
-**Global**: The duration increases to a day. The wind affects up to 4 creatures within 20ft of the caster. For every 4MP extra the duration increases by a day, or the number of targets increases by 4.
-
-### Headwind
-|Name|Tailwind [Air, Spring]|
-|-|-|
-|Scope|local (global)|
-|MP|1 (4)|
-|Target(s)|20ft, 60 degree cone centered on the caster (100ft sphere)|+1
-|Casting time|"1 main action" (1h + 20min per 4MP dice)|
-|Range|close|
-|Duration|1min+ (1 hour+)|+3
-|Components|incantation|+1
-|Concentration|true (false)|
-|Save|Str|
-
-**Description**: An extreme wind emanates from you. It is more than strong enough break small branches and drop fruit from trees, or blow away unattended objects in range that weight less than 50lb. Any entity that starts its turn in the area that does not succeed a Str Save is blown back 10ft and lands prone.
-
-**Upcast**: Increase the radius of the cone by 5ft for each extra MP.
-
-**Global**: The wind strength remains the same, but the spell creates a whirlwind with a 100ft radius. The duration increases to an hour. For every 4MP extra the duration increases by an hour or the radius increases by 50ft.
-
-### Bear's Claws
-|Name| Bear's Claws [Earth, Nature, Travel]|
-|-|-|
-|Scope|local|
-|MP|1+|
-|Target(s)|1 entity+|
-|Casting time|"1 action"|
-|Range|close|
-|Duration|12 minutes|+3
-|Components|incantation|+1
-|Save|Wis|
-
-**Description**: The target grows sturdy claws on all appendages, potentially damaging footwear. The target gains a climb speed (30ft). The claws can also be used as a weapon with a Str/Dex based attack, dealing [1d4 + [Str/Dex]] damage and using "strike"/"light blade" proficiency group.
-
-**Upcast**: Increase the duration by 12 minute for each extra MP.
-(Cost is wonky. Assuming the natural attack has a +1 cost.)
-
-### Gnomes' Mercy
-|Name|Gnomes' Mercy [Earth, Spirit, Travel]|
-|-|-|
-|Scope|local|
-|MP|1|
-|Target(s)|1 entity or an object up to 5x5x5ft|
-|Casting time|"reaction"|+4
-|Range|30ft|
-|Duration|1 min|+1
-|Components|incantation, kinetic|-1
-|Limitation|No effect on air aligned entities, damage from falls only|-3
-|Save|Int|
-
-**Description**: You call upon earth spirits to be gentle to whoever falls upon them, making the target resistant to damage taken when falling. In addition the damage it takes when hitting the ground is reduced by 1d12+[Sup] points. (+5)
-
-**Upcast**: Increase the number of targets by 1 and decrease the damage bya  further 1d12 points.
-
-### Shape Earth
-|Name|Shape Earth [Earth, Nature, Travel]|
-|-|-|
-|Scope|local (global)|
-|MP|1 (4)|
-|Target(s)|rock or ground within a 10ft radius of a sq (200ft)| +4
-|Casting time|"main action" (1h + 20min per 4MP)|
-|Range|120ft| +2
-|Duration|Instantaneous|
-|Components|incantation, kinetic| -1
-|Conditions|Difficult terrain~| +2
-|Limitations|Target is ground or rock attached to the ground|-2
-|Save|Dex|
-
-**Description**: Over the course of the round you gradually shape earth (but not rock or worked stone). It can become difficult terrain or stop being difficult terrain.
-+ If this would encapsulate or otherwise trap an entity, it has enough time to use its reaction and escape the effect or do so by making a Dex save at advantage.
-+ If the shape will not be structurally sound it collapses.
-+ If you are attempting to make something artistic or structurally sound, you must make a "Tinker" or "Fortify" roll at disadvantage.
-
-**Global**: If cast globally the area affected is 200ft plus 100ft per extra 4MP. In this case artistic or structurally coherent use is not possible.
-
-### Foxfire
-|Name|Foxfire [Fire, Spirit]|
-|-|-|
-
-**Description**: You call upon earth spirits to be gentle to whoever falls upon them, making the target resistant to damage taken when falling. In addition the damage it takes when hitting the ground is reduced by 1d12+[Sup] points. (+5)
-
-**Upcast**: Increase the number of targets by 1 and decrease the damage bya  further 1d12 points.
-
-### Shape Earth
-|Name|Shape Earth [Earth, Nature, Travel]|
-|-|-|
-|Scope|local (global)|
-|MP|1 (4)|
-|Target(s)|rock or ground within a 10ft radius of a sq (200ft)| +4
-|Casting time|"main action" (1h + 20min per 4MP)|
-|Range|120ft| +2
-|Duration|Instantaneous|
-|Components|incantation, kinetic| -1
-|Conditions|Difficult terrain~| +2
-|Limitations|Target is ground or rock attached to the ground|-2
-|Save|Dex|
-
-**Description**: Over the course of the round you gradually shape earth (but not rock or worked stone). It can become difficult terrain or stop being difficult terrain.
-+ If this would encapsulate or otherwise trap an entity, it has enough time to use its reaction and escape the effect or do so by making a Dex save at advantage.
-+ If the shape will not be structurally sound it collapses.
-+ If you are attempting to make something artistic or structurally sound, you must make a "Tinker" or "Fortify" roll at disadvantage.
-
-**Global**: If cast globally the area affected is 200ft plus 100ft per extra 4MP. In this case artistic or structurally coherent use is not possible.
-
 ### Foxfire
 |Name|Foxfire [Fire, Spirit]|
 |-|-|
 |-|-|
 |Scope|local (global)|
 |MP|1 (4)|
-|Target(s)|5ft radius centered on a sq (100ft)|+2
+|Target(s)|5ft radius centered on a sq (100ft)|+1
 |Casting time|"main action" (1h + 20min per 4MP)|
 |Range|120ft| +2
 |Duration|1 min (1 hour)| +3
 |Components|incantation, kinetic| -1
 |Conditions|glowing|+2
-|Concentration|Yes|-2
+|Concentration|Yes|-3
 |Save|Cha|
 
 **Description**: Harmless, supernatural flames spring forth in the area and persist, providing a dim illumination and potentially adhering to entities in the area. All targets that do not succeed a Cha save are "glowing" until the end of the spell. The target does not repeat the save at the end of its turn.
@@ -1013,6 +705,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 
 **Upcast**: Either the damage increases by 1d12, or the reach increases by 5ft for every extra MP dice used. If the MP dice total is 3 or higher, the weird's attack is carried out as a "secondary action".
 
+___
 ## MP 2 spells
 
 ### Call Ailment
@@ -1044,9 +737,9 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 |-|-|
 |Scope|local (global)|
 |MP|2 (8)|
-|Target(s)|5ft radius centered on a sq (100ft)|+2
+|Target(s)|5ft radius centered on a sq (100ft)|+1
 |Casting time|"main action" (1h + 20min per 4MP)|
-|Range|close|-2
+|Range|15ft|-2
 |Duration|instantaneous|
 |Components|incantation, kinetic|-1
 |Limitation|The point the spell is cast on must be at least somewhat fertile ground|-1
@@ -1086,8 +779,8 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 |-|-|
 |Scope|local|
 |MP|2|
-|Target(s)|20ft radius centered on a square, 10ft height|+4
-|Casting time||
+|Target(s)|25ft radius centered on a square, 10ft height|+4
+|Casting time|"main action"|
 |Range|close (excludes own square)|
 |Duration|1 min|+4
 |Components|incantation|+1
@@ -1107,7 +800,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 |-|-|
 |Scope|local (global)|
 |MP|2 (8)|
-|Target(s)|15ft radius round a square in range (300ft)|+6
+|Target(s)|20ft radius round a square in range (400ft)|+6
 |Casting time|"full round" (4h + 40min per 4MP) |-1
 |Range|30ft|
 |Duration|12min (1 day+)|+3
@@ -1152,9 +845,9 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 |-|-|
 |Scope|local (global)|
 |MP|2 (8)|
-|Target(s)|2 entities or an object no bigger than 15 x 15 x 15ft (200ft)|+2
+|Target(s)|2 entities or an object no bigger than 15 x 15 x 15ft (200ft)|+1
 |Casting time|"main action" or "reaction" (2h + 20min per 8MP)|
-|Range|30ft|
+|Range|60ft|+1
 |Duration|12min (1 day)|+3
 |Components|kinetic|
 |Concentration|local|-3
@@ -1226,13 +919,13 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 |Casting time|"main action" (2h + 40min per 4MP)|
 |Range|close|
 |Duration|1h (1 week)|+6
-|Components|kinetic|+1
-|Material|A handful of target's hair, and result creature's hair|
-|Limitation|You must be familiar with the entity kind that you're transforming into|-2
+|Components|kinetic|-1(5)
+|Focus|A handful of target's hair, and result creature's hair|-1(4)
+|Limitation|You must be familiar with the entity kind that you're transforming into|-1(3)
 |Save|Cha|
 
 **Description**: You transform into another entity of your type. You lose your template and instead gain the template of any valid entity that has both (see "[example templates](races.md#example-template)"): (6)
-- The same template level as your own.
+- The same template level as your own or a template whose level is lower than your own.
 - The same entity type and subtype as your own.
 
 **Upcast**: For every extra MP dice spend the spell lasts for an extra hour, or you can target an extra entity.
@@ -1244,9 +937,9 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 |-|-|
 |Scope|local (global)|
 |MP|2 (8)|
-|Target(s)|1 entity or 5ft radius centered ona square (100ft)|+2
+|Target(s)|1 entity or 5ft radius centered ona square (100ft)|+1
 |Casting time|"main action" (2h + 40min per 4MP dice)|
-|Range|30ft|
+|Range|60ft|+1
 |Duration|12min (1 week)|+6
 |Components|kinetic|
 |Focus|A wind chime|
@@ -1317,7 +1010,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 |-|-|
 |Scope|local (global)|
 |MP|2 (8)|
-|Target(s)|20ft (400ft)|+4 (Ground only)
+|Target(s)|30ft (400ft)|+4 (Ground only)
 |Casting time|"1 minute" (24h +2h per 4Mp dice)|-2
 |Range|close|-2
 |Duration| 8 hours (1 month)|+9
@@ -1359,7 +1052,108 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 
 **Global**: The gnome is bound by a longer contract (an extra day for every 8MP above 8) and the spell does not require concentration. For every day of the contract the material component must be paid anew.
 
+___
 ## MP 3 spells
+4+2+3+4=13
+
+### Growth
+|Name|Growth [Nature]|
+|-|-|
+|Scope|local (global)|
+|MP|3 (12)|
+|Target(s)|1 entity or an object that fits within a 5ft square (100ft)|
+|Casting time|"main action" (3 hours + 1 h per 4MP)|
+|Range|close|-3
+|Duration|1h (1 week)|+12(9)
+|Components|incantation, kinetic|-1(8)
+|Focus|A crystal shard|-1 (7)
+|Save|Wis|
+
+**Description**: Change the target entity's size by up two categories up or down. When the spell ends the target's size returns to what it used to be. The same applies for objects.
+
+**Upcast:** For every MP dice added the duration increases by an hour, or the size change increases by a category
+
+**Global**: The spell acts over an area with a radius of 100ft for a week. All entities that enter the area that do not succeed a Wis save are affected by the size change. For every 4 extra MP dice, the radius increases by 4 or the size category change increases by 1.
+
+### Cure
+|Name|Cure [Divine, Healing, Nature]|
+|-|-|
+|Scope|local|
+|MP|3|
+|Target(s)|1 entity|
+|Casting time|"main action"|
+|Range|15ft|+
+|Duration|instantaneous|
+|Components|incantation|+1
+|Save|Cha, usually harmless|
+
+**Description**: Remove up to 3 C class conditions, 2 B/C class condition, or one A class condition from the target.
+
+**Special**: Undead that do not succeed the save take 3 damage (divine) directly to their HP.
+
+**Upcast**: For every extra dice increase the number of B/C class conditions removed by 1. If at least 5 dice are used, an S class condition can be removed, although this will not necessarily make things better. The damage to undead is not increased.
+
+### Least Curse
+|Name|Least Curse [Curse, Destruction, Spirit]|
+|-|-|
+|Scope|local (global)|
+|MP|3 (12)|
+|Target(s)|1 entity or item|
+|Casting time|"full round" (6h + 6h per 4MP)|-1
+|Range|30ft|
+|Duration|1 day (permanent)|+24(23)
+|Components|incantation, kinetic|-1(22)
+|Save|Cha, on success the curse bounces to the caster|x0.5((22+4)/2=13)
+
+**Description**: Curse the target with two "C" class curses from the table below or one "B" class curse from the table below.
+
+|Class|Description|
+|-|-|
+|C|The target gains the "glowing", "aphonia" or "deafened" condition|
+|C|The target falls "prone" at the end of each of its turns|
+|C|Specify a skill: If the target rolls above a 10 for this skill, its total is a 10|
+|B|The target is "grappled" at the end of each of its turns, it may make a grapple roll as an attack action to attempt to break it at the start of it turn|
+|B|The target is "blinded"|
+|B|The target starts all combats "surprised"|
+|B|The target is charmed by the first entity it sees or hears after the spell is cast|
+|B|The target has disadvantage on all targeted attacks governed by one attribute of the caster's choice|
+|B|The target has disadvantage on all saves governed by one attribute of the caster's choice|
+|B|The target's base movement speed is halved|
+|A|The target is "restrained" at the end of each of its turns, it may make a grapple roll as an attack action to attempt to break it at the start of it turn|
+|A|The target is "incapacitated"|
+|A|The target is "crippled"|
+|A|The target has vulnerability to one damage type|
+|S|The target is "immobilised" at the end of each of its turns, it may make a grapple roll as an attack action to attempt to break it at the start of it turn|
+
+
+**Special**:
+- If the target succeeds the save, the curse automatically affects the caster instead.
+- If the target fails the initial save, it is affected by the curse for the full duration and does not make repeated saves.
+- Poison or Disease class depends on the class of the individual poison or disease.
+
+**Upcast(local)**: If upcast to 5 MP dice, the caster may choose three C class, two B class or 1 A curses. If upcast to 7 MP dice, the caster may choose 4 C class, three B class, 2 A class or 1 S class curses.
+
+**Global**: The curse is permanent. If upcast to cost 20 MP dice the caster may choose three C Class, two B class or 1 A class condition.
+
+### Mole
+|Name|Mole [Earth, Nature, Travel]|
+|-|-|
+|Scope|local (global)|
+|MP|3 (12)|
+|Target(s)|1 or more entities|
+|Casting time|"main action" (1h + 20min per 4MP)|
+|Range|close|
+|Duration|12 min+ (1 day+)|+6
+|Components|incantation|+1(7)
+|Materials|None (12 dandelion heads)|-2(5)
+|Limitation|target cannot be air aligned|-1(4)
+|Save|Wis (harmless), no effect|
+
+**Description**: The target gains a dig speed equal to 10ft, as if swimming through earth. It leaves a passage large enough for an entity of its size to walk through as "difficult terrain", or for an entity one or more sizes smaller to move through freely. The spell does not give the target to move through stone. When the spell ends, the target loses this movement modality immediately.
+
+**Upcast**: For every extra MP dice placed in the spell you can add either add an extra target or an extra 6 minutes of dig speed.
+
+**Global**: The spell has a duration of 1 day + 6h per extra 4MP or gives flight to an additional target.
 
 ### Wind Walk
 |Name|Wind Walk [Air, Nature, Travel]|
@@ -1367,28 +1161,86 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 |Scope|Local (Global)|
 |MP|3 (12)|
 |Target(s)|1 or more entities|
-|Casting time|"main action" (1h + 20 min/4MP)|
-|Range|5ft|
-|Duration|12 min+ (1 day+)|
-|Components|incantation (+ritual)|
-|Materials|None (12 dandelion heads)|
-|Limitation|target cannot be earth aligned|
+|Casting time|"main action" (3h + 1h per 4MP)|
+|Range|close|
+|Duration|12 min+ (1 day+)|+6
+|Components|incantation|+1(7)
+|Materials|None (12 dandelion heads)|-2(5)
+|Limitation|target cannot be earth aligned|-2(3)
 |Save|Wis (harmless), no effect|
 
-**Description**: The target gains a good fly speed equal to your walking speed, as if walking upon the air. When the spell ends, the target loses this movement modality immediately.
+**Description**: The target gains a good fly speed equal to your walking speed + 20ft, as if walking upon the air. When the spell ends, the target loses this movement modality immediately.
 
-**Upcast**: For every extra MP dice (4, if casting globally) placed in the spell you can add either: 1. An extra target, 2. an extra 6 minutes of effect (6h if cast globally).
+**Upcast**: For every extra MP dice (4, if casting globally) placed in the spell you can add either: 1. An extra target, 2. an extra 6 minutes of effect.
 
+**Global**: The spell has a duration of 1 day + 6h per extra 4MP or gives flight to an additional target.
+
+### Command Mortal
+|Name|Charm Mortal [mortal, fire]|
+|-|-|
+|Scope|local|
+|MP|3|
+|Target(s)|1 entity|
+|Casting time|"main action"|
+|Range|15ft|-1
+|Duration|1h|+12(11)
+|Components|incantation, kinetic|(10)
+|Focus||-1(9)
+|Material||-2(7)
+|Save|Wis|
+
+**Description**: The target is "charmed". In addition it will follow your up to 3 commands as if it was "allied". After the completion of each command it may make a Wis save to end the spell.
+
+**Special**:
++ The spell ends if the caster or an entity perceived by the target as the caster's ally attacks (or applies a harmful effect) the target.
++ The target is not necessarily aware that it has been charmed, unless it succeeds a "knowledge:arcana" roll to identify the spell.
++ If the command involves harming an entity with which its relationship is "sworn", or helping an entity with which its relationship is "nemesis" it gets an additional save against the spell.
+
+**Upcast**: For every extra MP, the spell may:
+- Last for an extra hour, or:
+- Allow the caster to give the target an extra command or:
+- Add an extra tower.
+
+___
+## MP 4 spells
+4+2+3+4+5=18
+
+### Least Storm
+|Name|Least Storm [Air, Destruction, Nature]|
+|-|-|
+|Scope|local (global)|
+|MP|4 (16)|
+|Target(s)|30ft centered on a square (600ft)|+8
+|Casting time|"main action" (4h + 40 min per 4 MP dice)|
+|Range|120ft|+2(10)
+|Duration|1 min (1 hour)|+6(16)
+|Concentration|local|
+|Components|incantation, kinetic|
+|Material||-2(14)
+|Damage|1d8+[Nat] lightning|(17)
+|Conditions|Prone, Deafened|+4(21)
+|Limitations|Must be outdoors, or under an open sky|-2(19)
+|Save|Dex for no damage, Str to avoid prone|-1(18)
+
+**Description**: Calls upon the wind spirits to create a localised storm. When first entering, or starting a turn in the storm, all entities must make a Str save to avoid being blown prone by the winds and a Dex save to avoid lightning strikes (no damage). In addition the high winds make vocal communication impossible, making the entity essentially "deaf". The winds are classed as "severe".
+
+**Upcast**: For every extra MP dice, either the radius of the storm increases by 5ft, the duration increases by 1 min or the lightning damage increases by 1d8.
+
+**Global**: The spell affects a large area and lasts for an hour. The winds are classed as "severe". For every extra 4MP dice, either the area increases by 100ft, or the duration increases by 1h. If at least 24MP dice are used in the casting, the wind effects are "extreme".
+
+___
 ## MP 6 spells
+4+2+3+4+5+6+7
+6,9,13,18,24,31
 
 ### Razor Wind
 |Name|Razor Wind [Wind, Destruction]|
 |-|-|
 |Scope|local|
 |MP|6|
-|Target(s)|60ft, 60 degree cone, centered on caster|+10
+|Target(s)|60ft, 90 degree cone, centered on caster|+10
 |Casting time|"secondary action"|+2
-|Range|60ft|+3
+|Range|close|
 |Duration|Instantaneous|
 |Damage|5d12+[Sup] pressure|+15
 |Condition|Prone|
@@ -1399,11 +1251,66 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 
 **Upcast**: The size of the one increases by 15ft per MP dice or the damage increases by 1d12.
 
-**
-
 33
-4+2+3+4+5+6+7
-6,9,13,18,24,31
+
+### Forest of Flame
+|Name|Forest of Flame [Fire, Destruction]|
+|-|-|
+|Scope|local (global)|
+|MP|6|
+|Target(s)|40ft radius centered on a square, 60ft height (800ft, 100ft high)|+7
+|Casting time|"main action" (6 hours + 1h per 4MP)|
+|Range|close|
+|Duration|1 min (6h)|+4(14)
+|Components|incantation, kinetic|-1(13)
+|Material|Dried petals of three types of flower|-2(11)
+|Limitation|Focal area must be at least minimally flammable material|-2(9)
+|Concentration|true|
+|Damage|5d8+[Sup] fire|+15(24)
+|Condition|Heavily concealed|+2(26)
+|Save|Con|
+
+**Description**: Flames bloom on flammable surfaces all around the caster and rise, tree-like, to a height of 70ft. Everything within the flames in heavily concealed. The caster is immune to the damage caused by these flames.
+
+**Upcast**: For every extra MP dice, increase the radius by 10ft and height by 5ft or increase the damage by 2d8.
+
+**Global**: Creates an inferno, large enough to engulf a small town. For every extra 4MP the radius increases by 200ft and the height increases by 10ft. Elemental lords might use this kind of magic for "amelioration" when visiting the mortal realm.
+
+___
+## MP 10 spells
+3+(2+11)x10/2=3+13x5 = 68
+
+### Realm of Flame
+|Name|Realm of Flame [Spiritual, Fire, Destruction]|
+|-|-|
+|Scope|local (global)|
+|MP|10 (40)|
+|Target(s)|110ft radius centered on a square, 160ft height (1 mile, 600ft high)|+19
+|Casting time|"main action" (10 days + 1 day per 4MP)|
+|Range|close|
+|Duration|12 min (2 days)|+12(31)
+|Components|incantation, kinetic|-1(30)
+|Focus|A portrait of a flaming realm, painted on wax|-1(29)
+|Material|Dried petals of flowers native to the realm of fire|-2(27)
+|Concentration|local|-3(24)
+|Damage|12d8+[Sup] fire|+39(63)
+|Condition|Heavily concealed, Catatonic|+9(68)
+|Save|Con, Cha|
+
+**Description**: Flames bloom on flammable surfaces all around the caster and rise, tree-like, to a height of 70ft. This has the following effects:
+- Everything within the flames in heavily concealed.
+- All entities that first enter the area or first start their turn in it, must make a Cha save or become catatonic. The entity may retry the save at the end of each turn. Those that succeed are immune to the "catatonic" condition until the end of the spell.
+- When an entity first enters the area on its turn, or starts its turn in the area, it makes a Con save or takes 10d8 fire damage. On a successful save it takes half damage. 
+
+**Upcast**: For every extra MP dice, increase the radius by 10ft and height by 5ft or increase the damage by 2d8.
+
+**Special**: The realm of flame is a legendary magic. It is the embodiment of flaming destruction.
+- All entities aligned or immune to "fire" are immune to the "catatonic" effect caused by the spell.
+- The spot where it is cast forever resonates with an aura of [spiritual, fire and destructive] energies. Mortals born in those lands might be aligned in some way with elemental flame.
+- Even after the spell has dissipated it leaves echoes behind, "[Meadow of Flame](#meadow-of-flame)" or lesser elementals may spontaneously spring up in the place it was cast for 108 years if it was cast locally and a millennium if it was cast globally.
+
+**Global**: Realises the Realm of Flame onto the caster's current location. The radius is 1 mile. For every extra 4MP the radius increases by 200ft and the height increases by 10ft and the damage increases by 2d8.
+____
 
 |||
 |-|-|

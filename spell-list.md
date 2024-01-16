@@ -78,6 +78,15 @@
 
 ### MP 4
 - [Least Storm](#least-storm)
+- [Animate Golem](#animate-golem)
+- [](#)
+- [](#)
+- [](#)
+- [](#)
+- [](#)
+- [](#)
+- [](#)
+- [](#)
 
 ### MP 6
 - [Forest of Flame](#forest-of-flame)
@@ -1473,6 +1482,30 @@ ___
 ___
 ## MP 4 spells
 4+2+3+4+5=18
+
+### Animate Golem
+|Name|Animate Golem [Earth]|
+|-|-|
+|Scope|local (global)|
+|MP|4 (16)|
+|Target(s)|1sq (1sq)|
+|Casting time|"1 min" (4 days + 1 day per 4MP)|
+|Range|15ft|-1
+|Duration|1 hour (1 week)|+6(5)
+|Components|incantation, kinetic|-1(4)
+|Material|Earth that has been worked for 100 years or 1HP worth of blood|-3(1)
+|Limitation|The golem is earthbound|-2(-1)
+|Concentration|local|-3(-4)
+|Save|-|
+
+**Description**: Creates a level IV earth/clay golem to faithfully serve and fight for you. The golem can communicate with its creator and other geomancer and golems through machine language. It is intelligent enough to understand stances and movements of mortal entities.
+
+**Special**: When the spell ends, the golem runs of of energy but is not destroyed. Recharging a golem costs only half of the MP dice cost of creating it (rounded up).
+
+**Upcast**: For every extra MP dice used when casting this spell, the golem can either function for an extra hour or gains two levels.
+
+**Global**: The golem functions for longer and concentration is not required. However, it must be given a simple set of instructions that cannot be changed afterwards. A caster need not concentrate on golems created this way. For every extra 4MP dice the golem either functions for an extra week or gains 2 levels.
+- If 40MP dice or more are used and the golem has no more than 10 levels, the golem does not run out of energy.
 
 ### Least Storm
 |Name|Least Storm [Air, Destruction, Nature]|

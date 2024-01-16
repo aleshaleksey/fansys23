@@ -18,9 +18,39 @@ The calculation of these parameters is covered in basic rules. There are three c
 
 The effect is resolved immediately for instantaneous attacks, or at the start of the target's turn for effects that persist for a turn or longer.
 
+## Attacks
+
+An attack is any action attempted against an entity that has the potential to reduce its combat potential, be it by direct damage, inducing a condition, or otherwise. For example, slashing an entity with a sword, trying to shove or disarming it, throwing dynamite at a spot where the explosion will catch it, casting a spell that charms, paralyses or blinds it, or dropping a piano on an entity all count as attacks, as do many other actions.
+
+### Targeted attacks
+
+A targeted attack is an attack made specifically against an entity that involves the attacker making a [NAP] or [SAP] based roll against the target. Usually these do damage, but they can also have other effects, for example the "grapple" manoeuvre.
+
+## Damage and death
+
+Attacks and various harmful effects cause injury and death to combatants and destruction of structures and equipment (amongst other things). An semi-abstract measurement, damage, is used to quantify this.
+
+### Death, dying and the relationship between HP, MP and SP
+
 A target is considered "dying" when it reaches 0 HP. It is destroyed or killed when it reaches its negative HP total. Entities that are immune to dying continue to operate normally (other conditions they might suffer from, continue to apply however) until they are destroyed when they reach the negative of their total HP.
 
 Of course most offensive abilities must first "eat" through the SP or MP of a target before working away at the HP.
+
+### Damage resistance
+
+An item or entity with damage resistance to a damage type is not as strongly affected by the given damage type. An item or entity with resistance to a damage type takes half damage from that type of damage. Damage is ALWAYS rounded down when divided by 2.
+
+So if an entity with resistance fire[natural] is hit for 21 points of natural fire damage, it only takes 10.
+
+### Damage reduction
+
+An item or material with damage reduction is not affected by weak attacks and ignores the first few points of damage of the type. For example, if you hit a rock with a pick, you will not chip or break it unless you hit it hard enough, and hitting the same rock with a dagger will probably never do anything (compare to hitting a warrior in armour). Damage reduction is never used for entities.
+
+So if an entity with damage reduction=10 physical is hit for 9 points of physical damage, it takes no damage, but  if it is hit for 17 points of physical damage it takes 7.
+
+### Damage immunity
+
+An item or entity with immunity to a damage type does not take damage from that damage type. For example, a fire elemental might never take damage from fire[natural].
 
 ## Actions in combat
 

@@ -45,7 +45,7 @@
 - [Glide](#glide)
 - [Harvest](#harvest)
 - [Least Rest](#least-rest)
-- [Least Veil](#least-veil)
+- [Lesser Veil](#lesser-veil)
 - [Least Transformation](#least-transformation)
 - [Meadow of Flame](#meadow-of-flame)
 - [Silence](#silence)
@@ -62,15 +62,17 @@
 - [Animate Dead](#animatecontrol-dead)
 - [Command Mortal](#command-mortal)
 - [Cure](#cure)
+- [Earth Ward](#earth-ward)
+- [Fire Ward](#fire-ward)
 - [Growth](#growth)
 - [Least Curse](#least-curse)
 - [Mole](#mole)
-- [](#)
+- [Water Walk](#water-walk)
+- [Water Ward](#water-ward)
 - [Wind Walk](#wind-walk)
-- [](#)
-- [](#)
-- [](#)
-- [](#)
+- [Storm Ward](#storm-ward)
+- [Summer's Blade](#summers-blade)
+- [Winter's Blade](#winters-blade)
 - [](#)
 - [](#)
 
@@ -1190,6 +1192,33 @@ ___
 
 (Summon spell rating is controversial)
 
+### Earth Ward
+|Name|Earth Ward [Barrier, Earth]|
+|-|-|
+|Scope|local (global)|
+|MP|3 (12)|
+|Target(s)|1 entity/15ft (200ft)|+6
+|Casting time|"full round"/"reaction"(12h + 6h per 4MP)|(5,10)
+|Range|close|(3,8)
+|Duration|1h/1min (1 week)|(9,9)
+|Components|incantation, kinetic|(8,8)
+|Concentration|local|(5,5)
+|Focus|A glass bowl filled with water, the bowl smashes when the spell is cast|(3)
+|Material|A glass bowl filled with water, the bowl smashes when the spell is cast|(3)
+|Save|Cha, harmless|
+
+**Description**: Create a solid, physical barrier of earth with a radius of **up to** 15ft around the target. The barrier gives total cover and total concealment to targets within it. Dealing physical damage to the barrier (HiT=10, HP=10, damage reduction=10) in one turn opens a window big enough for a small size entity to enter freely (or a medium entity to squeeze through). At the end of the turn the barrier resets.
+
+**Special**:
+- If the spell is cast as a reaction, it cannot be upcast, and lasts for 1 minute.
+- If the attack is a rectilinear effect and the barrier crosses its path, the target is affected as if it is inside the barrier.
+
+**Upcast**: For every extra MP point placed in the spell, the radius extends by 5ft, or the duration increases by 1h.
+- If the spell is cast as a reaction, it cannot be upcast.
+- At 5MP and higher the spell is no longer concentration.
+
+**Global:** This is one of the lesser barrier spells. Cast globally it extends over a radius of 300ft centered on a square/point and lasts for a week. For every 4MP extra either the duration increases by a week or the radius increases by 200ft.
+
 ### Mole
 |Name|Mole [Earth, Nature, Travel]|
 |-|-|
@@ -1209,6 +1238,102 @@ ___
 **Upcast**: For every extra MP dice placed in the spell you can add either add an extra target or an extra 6 minutes of dig speed.
 
 **Global**: The spell has a duration of 1 day + 6h per extra 4MP or gives flight to an additional target.
+
+### Water Ward
+|Name|Wind Ward [Barrier, Water]|
+|-|-|
+|Scope|local (global)|
+|MP|3 (12)|
+|Target(s)|1 entity/10ft (200ft)|+4
+|Casting time|"full round"/"reaction"(12h + 6h per 4MP)|(3,7)
+|Range|15ft|(2,6)
+|Duration|1h/1min (1 week)|(8,9)
+|Components|incantation, kinetic|(7,8)
+|Concentration|local|(4,5)
+|Material|A glass bowl filled with water, the bowl smashes when the spell is cast|(3)
+|Save|Cha, harmless|
+
+**Description**: Create a barrier with a radius of **up to** 10ft around the target. All entities within the barrier has resistance to piercing, slashing and bludgeoning damage from attacks from outside the barrier, as well as pressure and fire damage from the outside. If the barrier's radius is reduced to 5ft, resistance is also gained to those damage types within the barrier. (2+2+2+2+4-2=10)
+
+**Special**:
+- If the spell is cast as a reaction, it cannot be upcast, and lasts for 1 minute.
+- If the attack is a rectilinear effect and the barrier crosses its path, the target is affected as if it is inside the barrier.
+
+**Upcast**: For every extra MP point placed in the spell, the radius extends by 5ft, or the duration increases by 1h.
+- If the spell is cast as a reaction, it cannot be upcast.
+- At 5MP and higher the spell is no longer concentration.
+
+**Global:** This is one of the lesser barrier spells. Cast globally it extends over a radius of 300ft centered on a square/point and lasts for a week. For every 4MP extra either the duration increases by a week or the radius increases by 200ft.
+
+### Water Walk
+|Name|Water Walk [Travel, Water]|
+|-|-|
+|Scope|Local (Global)|
+|MP|3 (12)|
+|Target(s)|3 or more entities(300ft)|+4
+|Casting time|"main action" (6h + 2h per 4MP)|
+|Range|close|-2(2)
+|Duration|8h+ (1 month)|+9(9)
+|Components|kinetic|
+|Limitation|target cannot be fire aligned|-2(7)
+|Save|Wis (harmless), no effect|
+
+**Description**: The target gains the ability to walk over the surface of water (eg ponds, swamps, rivers, lakes, seas) to its walking speed or interact with it otherwise as if it was a soft solid surface capable of holding its weight, like a meadow. When the spell ends the ability is lost immediately (+6)(12)
+
+**Special**:
+- If walking over turbulent water, or waters with large waves, the target must succeed a threshold=16 "acrobatics" roll or fall prone.
+- Flowing water moves a water-walker at the speed of its flow along the direction of the current.
+
+**Upcast**: For every extra MP dice placed in the spell you can add either an extra target or increase the duration by 8 hours.
+
+**Global**: The spell is cast upon a square/point on the ground or water adjacent to the caster. All water within 300ft of that spot can be crossed on foot. If extra MP dice are used for the casting of the spell, the range increases by 300ft per extra MP dice.
+
+### Winter's Blade
+|Name|Winter's Blade [Ice, Destruction, Summer]|
+|-|-|
+|Scope|local|
+|MP|3|
+|Target(s)|1 entity or weapon|
+|Casting time|1 secondary action|+2
+|Range|30ft|+2(4)
+|Duration|12 min|+6(10)
+|Components|petals of snowdrops and quartz dust|-2(7)
+|Limitation|Does not affect entities aligned with "fire"|-2(5)
+|Damage|1d8+[Sup] ice|+3(8) defacto more.
+|Save|Con|
+
+**Description**: Aligns a weapon or entity with elemental ice/water. The weapon (or if cast on the entity, its touch/strike) deals an extra 1d8+[caster's Sup] damage. The first time an entity is hit by such a weapon, it must make a Con save or be immobilised to the end of its next turn.
+
+**Special**: Alternatively it can affect up to 13 pieces of ammunition.
+
+**Upcast**: For every extra MP dice, the spell lasts for an extra 12 minutes or affect an extra 13 pieces of ammunition. Alternatively for every extra 2MP dice placed in the spell, it will deal an extra 1d8 damage.
+
+### Storm Ward
+|Name|Storm Ward [Barrier, Wind]|
+|-|-|
+|Scope|local (global)|
+|MP|3 (12)|
+|Target(s)|1 entity/15ft (300ft)|+6
+|Casting time|"full round"/"reaction"(12h + 6h per 4MP)|(5,10)
+|Range|15ft|(4,9)
+|Duration|1h/1min (1 week)|(12,12)
+|Components|incantation, kinetic|(11,11)
+|Concentration|local|(8,8)
+|Focus|A paper windmill|(7,7)
+|Material Component|A polished amber sphere which crumbles to ash when the spell ends|(5,5)
+|Save|Cha, harmless|
+
+**Description**: Create a barrier with a radius of **up to** 15ft around the target. All entities within the barrier has resistance to piercing damage from ranged weapons, pressure damage, and lightning damage from outside the barrier. If the barrier's radius is reduced to 5ft, resistance is also gained to those damage types within the barrier.
+
+**Special**:
+- If the spell is cast as a reaction, it cannot be upcast, and lasts for 1 minute.
+- If the attack is a rectilinear effect and the barrier crosses its path, the target is affected as if it is inside the barrier.
+
+**Upcast**: For every extra MP point placed in the spell, the radius extends by 5ft, or the duration increases by 1h.
+- If the spell is cast as a reaction, it cannot be upcast.
+- At 5MP and higher the spell is no longer concentration.
+
+**Global:** This is one of the lesser barrier spells. Cast globally it extends over a radius of 300ft centered on a square/point and lasts for a week. For every 4MP extra either the duration increases by a week or the radius increases by 300ft.
 
 ### Wind Walk
 |Name|Wind Walk [Air, Nature, Travel]|
@@ -1255,6 +1380,54 @@ ___
 - Last for an extra hour, or:
 - Allow the caster to give the target an extra command or:
 - Add an extra tower.
+
+### Fire Ward
+|Name|Fire Ward [Barrier, Fire]|
+|-|-|
+|Scope|local (global)|
+|MP|3 (12)|
+|Target(s)|1 entity/10ft (200ft)|+4
+|Casting time|"full round"/"reaction"(12h + 6h per 4MP)|(3,8)
+|Range|close|(3,8)
+|Duration|1h/1min (1 week)|(9,9)
+|Components|incantation, kinetic|(8,8)
+|Concentration|local|(5,5)
+|Limitation|If cast on an entity, the entity must remain stationary or the spell breaks|(1)
+|Material|A candle which spontaneously combusts when the spell expires|(-1)
+|Damage|3d8+[Sup] fire|(8)
+|Save|Cha, harmless|
+
+**Description**: Create a barrier of raging fire **up to** 10ft around the target. The barrier gives light concealment to all targets within. Entities inside the barrier have damage reduction of 5 vs non-magical physical or cold/ice attacks. In addition, any non-magical weapon (or unarmed entity) attacking or otherwise passing through the barrier takes 3d8+[Sup] fire damage.
+
+**Special**:
+- If the spell is cast as a reaction, it cannot be upcast, and lasts for 1 minute.
+- If the attack is a rectilinear effect and the barrier crosses its path, the target is affected as if it is inside the barrier.
+
+**Upcast**: For every extra MP point placed in the spell, the radius extends by 5ft, or the duration increases by 1h. Alternatively the damage increases by 1d8 and damage reduction increases by 2.
+- If the spell is cast as a reaction, it cannot be upcast.
+- At 5MP and higher the spell is no longer concentration.
+
+**Global:** This is one of the lesser barrier spells. Cast globally it extends over a radius of 300ft centered on a square/point and lasts for a week. For every 4MP extra either the duration increases by a week or the radius increases by 200ft.
+
+### Summer's Blade
+|Name|Summer's Blade [Destruction, Fire, Summer]|
+|-|-|
+|Scope|local|
+|MP|3|
+|Target(s)|1 entity or weapon|
+|Casting time|1 secondary action|+2
+|Range|30ft|+2(4)
+|Duration|12 min|+6(10)
+|Components|Ashes of a mortal that died in a fire|-2(7)
+|Limitation|Does not affect entities aligned with water/ice|-2(5)
+|Damage|1d8+[Sup] fire|+3(8) defacto more.
+|Save|Dex|
+
+**Description**: Aligns a weapon or entity with elemental fire. The weapon (or if cast on the entity, its touch/strike) deals an extra 1d8+[caster's Sup] damage. The first time an entity is hit by such a weapon, it must make a Dex save or be be set ablaze and become "incapacitated".
+
+**Special**: Alternatively it can affect up to 13 pieces of ammunition.
+
+**Upcast**: For every extra MP dice, the spell lasts for an extra 12 minutes or affect an extra 13 pieces of ammunition. Alternatively for every extra 2MP dice placed in the spell, it will deal an extra 1d8 damage.
 
 ___
 ## MP 4 spells

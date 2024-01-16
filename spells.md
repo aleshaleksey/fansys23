@@ -312,10 +312,10 @@ When creating spells the cost rules should be guided by the principle of agency 
 Any spell created using this guide MUST be checked and validated. In general no spell of a lower level should be more useful or more potent than a higher level spell that is uses the same magic type or is useable in the same circumstances as a primary purpose.
 
 - Spell points: +(1 + MP dice total) per MP dice. (MP1=2, MP2=2+3=5, MP3=2+3+4=9, etc)
-- Damage magnitude: +3 per (C class, 1d12) OR (B class, 1d8) OR (A class, 1d6) OR +9 (S class 1d6) 
+- Damage magnitude: +3 per (C class, 1d12) OR (B class, 1d8) OR (A class, 1d6) OR +12 (S class 1d6) 
 - Condition: +2 if Class C, +4 if Class B, +6 if Class A, +12 if Class S.
 - Healing: +5 per HP. +3 per condition MIN=LVL1
-- Modality: +3 if C(walk, climb, swim), +6 if B(flyA, dig), +9 if Fly(G), +12 if (blink), +15 if S(cosmic).
+- Modality: +3 if C(walk, climb, swim), +6 if B(flyA, dig), +9 if Fly(G), +12 if (blink), +15 if S(cosmic). Water-walk=6?
   - +2 Standard improvement.
 - Bonus:
   - Cover: + 2 (Light), +4 (Heavy), +6(Total)
@@ -323,6 +323,8 @@ Any spell created using this guide MUST be checked and validated. In general no 
   - Condition resistance: +1,2,3,4(C,B,A,S) (level 0,1,2,3)
   - Condition immunity: +2,4,6,8(C,B,A,S) (level 1,2,3,4)
   - Damage resistance: +2,4,6,8(C,B,A,S) (level 1,2,3,4)
+    - Or 10pts of damage reduction: NB, damage reduction NEVER applies vs A or S class damage.
+  - Damage Immunity: +4,8,12,16(C,B,A,S) (level 3,5,7,9)
   - Size up or down +3 per category.
 - Boon:
   - Transform into the same subtype: 6.

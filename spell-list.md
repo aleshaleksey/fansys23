@@ -73,8 +73,8 @@
 - [Storm Ward](#storm-ward)
 - [Summer's Blade](#summers-blade)
 - [Winter's Blade](#winters-blade)
-- [](#)
-- [](#)
+- [Guidance of the Winds](#guidance-of-the-winds)
+- [Guidance of the Earth](#guidance-of-the-earth)
 
 ### MP 4
 - [Least Storm](#least-storm)
@@ -1428,6 +1428,47 @@ ___
 **Special**: Alternatively it can affect up to 13 pieces of ammunition.
 
 **Upcast**: For every extra MP dice, the spell lasts for an extra 12 minutes or affect an extra 13 pieces of ammunition. Alternatively for every extra 2MP dice placed in the spell, it will deal an extra 1d8 damage.
+
+### Guidance of the Winds
+|Name|Guidance of the Winds [Air, Spirit]|
+|-|-|
+|Scope|local (global)|
+|MP|3 (12)|
+|Target(s)|1 entity (100ft)|
+|Casting time|"full round" (12h + 6 per 3MP)|-1
+|Range|close|-2
+|Duration|1h (1 week)|
+|Components|incantation, kinetic|
+|Save|Cha, harmless|
+
+**Description**: The target rolls adds 1d6 to all:
+- Dex saves and attack rolls with bows, slings and thrown weapons.
+- The following skills: Acrobatics, Athletics, sleight of hand, heal, ride group, stealth, appraise, search group, knowledge, detect and perform groups.
+
+**Special**: This applies only for rolls made above ground/water level and knowledge of things that belong above ground.
+
+**Global**: The caster gives a locus the blessing of the winds. Within 100ft of that spot rolls made by entities that are not hostile to the caster receive this blessing. For every 4MP extra the radius of the spell increases by 100ft or the duration increases by a week.
+
+### Guidance of the Earth
+|Name|Guidance of the Earth [Earth, Spirit]|
+|-|-|
+|Scope|local (global)|
+|MP|3 (12)|
+|Target(s)|1 entity (100ft)|
+|Casting time|"full round" (12h + 6 per 3MP)|-1
+|Range|close|-2(-3)
+|Duration|1h (1 week)|+6(3)
+|Components|incantation, kinetic|-1(2)
+|Save|Cha, harmless|
+
+**Description**: The target rolls adds 1d6 to all:
+- Dex saves and attack rolls with melee weapons and basic combat manoeuvres.
+- The following skills: Athletics group, tinker, heal, stealth, academics, search group, knowledge, detect and diplomacy groups.
+
+**Special**: This applies only for rolls made when touching the ground, or below ground level and for knowledge of things that belong on and below the ground.
+
+**Global**: The caster gives a locus the blessing of the earth. Within 100ft of that spot rolls made by entities that are not hostile to the caster receive this blessing. For every 4MP extra the radius of the spell increases by 100ft or the duration increases by a week.
+
 
 ___
 ## MP 4 spells

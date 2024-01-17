@@ -22,6 +22,7 @@
 - [Mist](#mist)
 - [Silent](#silent)
 - [Sour](#sour)
+- [Whispers](#whispers)
 
 ### MP 1
 - [Bear's Claws](#bears-claws)
@@ -1778,3 +1779,120 @@ ____
 |Duration||
 |Components||
 |Save||
+
+## Spell List by Spellcasting Type
+
+### MP 0
+- Nature
+    - [Compass](#compass)
+    - [Hide](#hide)
+    - [Sour](#sour)
+- Air
+    - [Least Anemancy](#least-anemancy)
+    - [Least Blast](#least-blast)
+    - [Least Shroud](#least-shroud)
+    - [Silent](#silent)
+    - [Whispers](#whispers)
+- Earth
+    - [Down](#down)
+    - [Least Geomancy](#least-geomancy)
+    - [Least Spike](#least-spike)
+    - [Least Ward](#least-ward)
+- Fire
+    - [Ignition](#ignition)
+    - [Least Pyromancy](#least-pyromancy)
+    - [Least Warmth](#least-warmth)
+- Water
+    - [Least Freeze](#least-freeze)
+    - [Least Hydromancy](#least-hydromancy)
+    - [Mist](#mist)
+- Other
+    - [Deafen](#deafen)
+
+### MP 1
+
+- Nature
+    - [Beast Speech](#beast-speech)
+    - [Least Heal](#least-heal)
+- Air
+    - [Headwind](#headwind)
+    - [Tailwind](#tailwind)
+    - [Spirits' Secret](#spirits-secret)
+- Earth
+    - [Bear's Claws](#bears-claws)
+    - [Gnomes' Mercy](#gnomes-mercy)
+    - [Shape Earth](#shape-earth)
+- Fire
+    - [Enflame](#enflame)
+    - [Foxfire](#foxfire)
+    - [Least Vengeance](#least-vengeance)
+- Water
+    - [Chill Blood](#chill-blood)
+    - [Water Snake](#water-snake)
+    - [Winter's Touch](#winters-touch)
+
+### MP 2
+
+- Nature
+    - [Call Ailment](#call-ailment)
+    - [Harvest](#harvest)
+    - [Least Rest](#least-rest)
+- Air
+    - [Glide](#glide)
+    - [Lesser Veil](#lesser-veil)
+    - [Silence](#silence)
+    - [Summon Wind Sprite](#summon-wind-sprite)
+- Earth
+    - [Earthen Hand](#earthen-hand)
+    - [Summon Gnome](#summon-gnome)
+- Fire
+    - [Meadow of Flame](#meadow-of-flame)
+    - [Summon Fire Sprite](#summon-flame-sprite)
+    - [Warded Ground](#warded-ground)
+    - [Warmth](#warmth)
+- Water
+    - [Least Transformation](#least-transformation)
+    - [Summon Water Sprite](#summon-water-sprite)
+
+### MP 3
+
+- Nature
+    - [Animate Plant](#animate-plant)
+    - [Cure](#cure)
+    - [Growth](#growth)
+- Air
+    - [Storm Ward](#storm-ward)
+    - [Wind Walk](#wind-walk)
+    - [Guidance of the Winds](#guidance-of-the-winds)
+- Earth
+    - [Earth Ward](#earth-ward)
+    - [Mole](#mole)
+    - [Guidance of the Earth](#guidance-of-the-earth)
+- Fire
+    - [Command Mortal](#command-mortal)
+    - [Summer's Blade](#summers-blade)
+- Water
+    - [Water Walk](#water-walk)
+    - [Water Ward](#water-ward)
+    - [Winter's Blade](#winters-blade)
+- Other
+    - [Animate Dead](#animatecontrol-dead)
+    - [Least Curse](#least-curse)
+
+### MP 4
+
+- Nature
+    - [Rejuvenate Land](#rejuvenate-land)
+- Air
+    - [Least Storm](#least-storm)
+    - [Lesser Weather Control](#least-weather-control)
+- Earth
+    - [Animate Golem](#animate-golem)
+    - [Enchanted Ground](#enchanted-ground)
+- Fire
+    - [Speak Through Flame](#speak-through-flame)
+- Water
+    - [Aqueous Step](#aqueous-step)
+    - [Scry](#scry)
+- Other
+

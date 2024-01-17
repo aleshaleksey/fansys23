@@ -482,7 +482,7 @@ ___
 
 This refers to basic armours that can be quickly donned and doffed while giving some level of protection to the vitals. It does not offer much protection, but is better than nothing, and does not restrict movement.
 
-**Leather Cuirass:** This refers to any armour made of a light material that protects the chest, abdomen, back and flanks. Often it has some minor protection for groins and upper legs. It is generally cheap and light. It is often worn by scouts, messengers and runners.
+**Leather Cuirass:** This refers to any armour made of a light material that protects the chest, abdomen, back and flanks. Often it has some minor protection for groins and upper legs. It is generally cheap and light. It is often worn by scouts, messengers and runners. Lighter linothorax armour belongs in this category.
 
 **Chain shirt:** Armour made of small, interconnected rings of interconnected metal rings. This refers to smaller chain shirts that can be somewhat hidden beneath heavy clothes. this armour offers better protection to the vitals than light cuirasses, but is considerably more expensive to construct and heavier. They are often worn by nobles and merchants who may suspect foul play but still need to appear presentable. 
 
@@ -499,7 +499,7 @@ Medium armour covers armours which either protect the whole body or have a full 
 
 **Full leather**: This is any high quality armour made of hardened leather or materials with similar properties.
 
-**Brigandine**: Classical "studded leather". Brigandine consists of thin metal plates covered and joined by fabric or thin leather. It is worn atop padded armour and often a chain shirt. This kind of armour offers a good trade off between price, mobility, weight and protection. The segmented nature of this armour means that it is easily repaired. It is a choice of ranged troops, although elite archers will find it restrictive.
+**Brigandine**: Classical "studded leather". Brigandine consists of thin metal plates covered and joined by fabric or thin leather. It is worn atop padded armour and often a chain shirt. This kind of armour offers a good trade off between price, mobility, weight and protection. The segmented nature of this armour means that it is easily repaired. It is a choice of ranged troops, although elite archers will find it restrictive. Heavier linothorax armour belongs in this category.
 
 **Full Chain**: Full chain mail, worn atop padded armour to reduce chaffing.
 

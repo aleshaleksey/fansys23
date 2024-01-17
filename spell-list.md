@@ -77,9 +77,9 @@
 - [Guidance of the Earth](#guidance-of-the-earth)
 
 ### MP 4
-- [Least Storm](#least-storm)
 - [Animate Golem](#animate-golem)
-- [](#)
+- [Least Storm](#least-storm)
+- [Aqueous Step](#aqueous-step)
 - [](#)
 - [](#)
 - [](#)
@@ -466,7 +466,7 @@ ____
 |Limitation|Fails if the caster and answer to the question are hermetically separated|
 |Save|-|
 
-**Description**: The caster attempts to ascertain the location (and rough time it was there during the casting of the spell but is no there when the casting ends) of an object, feature or entity described by the caster, by asking low level wind spirits. The spirits will seek out he nearest example of the thing that meets the specification.
+**Description**: The caster attempts to ascertain the location (and rough time, if it was there during the casting of the spell but is no there when the casting ends) of an object, feature or entity described by the caster, by asking low level wind spirits. The spirits will seek out he nearest example of the thing that meets the specification.
 
 **Special**: The low level spirits answer truthfully and faithfully, but are limited to 3 physically discernable criteria in the description and do not understand many human concepts (eg belonging, names, age). Eg *"An half-elf woman in a red cloak"*, or *"an elvish woman around who the word 'Illusi' is spoken"* are valid, but *"A half-elf woman by the name of 'Illusi'"* or *"My favourite backpack"* are not.
 
@@ -1507,13 +1507,38 @@ ___
 **Global**: The golem functions for longer and concentration is not required. However, it must be given a simple set of instructions that cannot be changed afterwards. A caster need not concentrate on golems created this way. For every extra 4MP dice the golem either functions for an extra week or gains 2 levels.
 - If 40MP dice or more are used and the golem has no more than 10 levels, the golem does not run out of energy.
 
+### Aqueous Step
+|Name|Aqueous Step [Travel, Water]|
+|-|-|
+|Scope|local (global)|
+|MP|4 (16)|
+|Target(s)|2 entities* (2 entities*)|+2
+|Casting time|"main action" (4h + 40 min per 4MP dice)|
+|Range|close/540ft (close/180 miles)|+8(10)
+|Duration|instantaneous|
+|Components|kinetic|-1(9)
+|Limitation (local)|The caster must be one of the entities that travels|-1(8)
+|Limitation (global)|The start and end location must be bodies of water|-1(7)
+|Material|A flask of water, poured on the travellers' head|
+|Limitation|The caster and any entities teleported are always wet at the end of the spell|-1(6)
+|Save|Cha|
+
+**Description**: The caster. They do not need to see it, only know it exists. The caster may take up to 2 other entities with it. An unwilling passenger does not travel if it succeeds a Cha save.
+
+**Upcast**: For every extra MP dice the range increases by 60ft or the number of passengers increases by 1.
+
+**Global**: Enter a body of water deep enough to submerge in and step out of another within range (180 miles). The caster must have visited the pool to successfully travel. If the pool does not exist the travellers emerge in the nearest pool in range to the destination. If the caster has not visited the destination pool before, the DM rolls randomly for where, within 180 miles of the destination the travellers end up.
+- For every 4 extra MP dice the range increases by 60ft or the number of passengers increases by 1.
+
+(blink speed = 12+7)
+
 ### Least Storm
 |Name|Least Storm [Air, Destruction, Nature]|
 |-|-|
 |Scope|local (global)|
 |MP|4 (16)|
 |Target(s)|30ft centered on a square (600ft)|+8
-|Casting time|"main action" (4h + 40 min per 4 MP dice)|
+|Casting time|"main action" (4h + 40 min per 4MP dice)|
 |Range|120ft|+2(10)
 |Duration|1 min (1 hour)|+6(16)
 |Concentration|local|
@@ -1524,7 +1549,7 @@ ___
 |Limitations|Must be outdoors, or under an open sky|-2(19)
 |Save|Dex for no damage, Str to avoid prone|-1(18)
 
-**Description**: Calls upon the wind spirits to create a localised storm. When first entering, or starting a turn in the storm, all entities must make a Str save to avoid being blown prone by the winds and a Dex save to avoid lightning strikes (no damage). In addition the high winds make vocal communication impossible, making the entity essentially "deaf". The winds are classed as "severe".
+**Description**: Calls upon the wind spirits to create a localised storm. When first entering, or starting a turn in the storm, all entities must make a Str save to avoid being blown prone by the winds and a Dex save to avoid lightning strikes (no damage on successful save). In addition the high winds make vocal communication impossible, making the entity essentially "deaf". The winds are classed as "extreme".
 
 **Upcast**: For every extra MP dice, either the radius of the storm increases by 5ft, the duration increases by 1 min or the lightning damage increases by 1d8.
 

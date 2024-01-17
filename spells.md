@@ -339,7 +339,7 @@ Any spell created using this guide MUST be checked and validated. In general no 
 - Casting time (damage or conditions): Secondary(+2), Main(0), Full round(-1), 1 minute (-2).
 - Casting time: Reaction + 4.
 - Concentration: All damage spells MUST be concentration. Otherwise -3 if concentration
-- Range: +1 per range up (15, 30, 60, 120, 240), -1 per range down.
+- Range: +1 per range up (15, 30, 60, 120, 240), -1 per range down. (+1 per 60ft increment)
 - Targets +2 per target or +2 per 5ft radius. SPECIAL: Only +1 for the first *N* increases for a spell of cost *N* MP.
 - Material: -2 if material, -1 if focus. -1 if either is rare.
 - Components: Incantation only (+1), Kinetic only (0), Kinetic + Incantation (+1)

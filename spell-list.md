@@ -78,15 +78,30 @@
 
 ### MP 4
 - [Animate Golem](#animate-golem)
-- [Least Storm](#least-storm)
 - [Aqueous Step](#aqueous-step)
+- [Enchanted Ground](#enchanted-ground)
+- [Least Storm](#least-storm)
+- [Lesser Weather Control](#least-weather-control)
+- [Rejuvenate Land](#rejuvenate-land)
+- [Scry](#scry)
+- [Speak Through Flame](#speak-through-flame)
 - [](#)
 - [](#)
 - [](#)
 - [](#)
 - [](#)
 - [](#)
-- [](#)
+
+|Name| []|
+|-|-|
+|Scope||
+|MP||
+|Target(s)||
+|Casting time||
+|Range||
+|Duration||
+|Components||
+|Save||
 
 ### MP 6
 - [Forest of Flame](#forest-of-flame)
@@ -819,7 +834,7 @@ ___
 |Components|kinetic|
 |Save|Cha, if the area is already enchanted|
 
-**Description**: Attempts to warm an area and anything in it to up to Heat: Severe (a little above body temperature).  If the area is affected by any "Extreme temperature: Cold" category, it is considered as being one step milder.
+**Description**: Attempts to warm an area and anything in it to up to Heat: Severe (a little above body temperature). If the area is affected by any "Extreme temperature: Cold" category, it is considered as being one step milder.
 
 **Upcast**: For every extra MP dice above 2, the duration increase by 6 min or the radius increases by 5ft.
 
@@ -1483,6 +1498,30 @@ ___
 ## MP 4 spells
 4+2+3+4+5=18
 
+### Rejuvenate Land
+|Name|Rejuvenate Land [Healing, Nature]|
+|-|-|
+|Scope|local (global)|
+|MP|4 (16)|
+|Target(s)|30ft radius (600ft)| (+12)
+|Casting time|"1 minute" (4 days + 1 day per 4MP)|-2(10)
+|Range|close|-2(8)
+|Duration|instantaneous|
+|Components|incantation, kinetic|-1(7)
+|Save|Int|
+
+**Description**: This spell has one of the following effects:
+- Cleanse the area of the effect of one curse. If the curse is a higher level than your casting, it get to make an Int save, with a bonus equal to the difference in spell level.
+- Remove the aftereffects of legendary magic. The magic gets to roll an Int save against the cleansing with a bonus equal difference in the spell level.
+- Cure one disease or poison affecting the land.
+- Double the productivity of the land for the next harvest. Doubling zero is still zero.
+
+**Upcast**: For every extra MP die either:
+- Increase the radius by 5ft.
+- Increase the level of the spell by 1 for the sake of determining its level for breaking curses and aftereffects.
+
+**Global**: The same, but with a 600ft radius. For every extra 4MP increase the radius by 600ft, alternatively the level increases for the sake of breaking curses or aftereffects.
+
 ### Animate Golem
 |Name|Animate Golem [Earth]|
 |-|-|
@@ -1507,6 +1546,57 @@ ___
 **Global**: The golem functions for longer and concentration is not required. However, it must be given a simple set of instructions that cannot be changed afterwards. A caster need not concentrate on golems created this way. For every extra 4MP dice the golem either functions for an extra week or gains 2 levels.
 - If 40MP dice or more are used and the golem has no more than 10 levels, the golem does not run out of energy.
 
+### Enchanted Ground
+|Name|Enchanted Ground [Earth, Spirit]|
+|-|-|
+|Scope|local (global)|
+|MP|4 (16)|
+|Target(s)|40ft radius, 15ft depth (800ft radius, 100ft depth)|+8
+|Casting time|"1 action" (4h + 4h per 4MP dice)|
+|Range|close|-2(6)
+|Duration|12 minutes (1 day)|+6(12)
+|Concentration|local|-3(9)
+|Components|incantation,kinetic|-1(8)
+|Material||-2(6)
+|Damage|1d12+[Sup]|+3(9)
+|Condition|"grappled"|
+|Save|Dex|
+
+**Description**: The caster enchants the ground around them. The ground has the following properties:
+- It is difficult terrain for all hostile entities.+2(11)
+- At the start of their turn, all hostile entities must make a Dex save or take 1d12+[Sup] bludgeoning damage and become "grappled".
+- All friendly entities have a +10 to movement speed and light cover.+4(15)
+- Furthermore, as an action, the caster the caster can move or sculpt 10ftx10ftx10ft of earth of stone as if using the "[Shape Earth](#shape-earth)" spell, expect the spell can affect ground and natural rock all through the affected zone.+3(18)
+
+**Special**: The spell does not affect entities that are at least 5ft above the ground.
+
+**Upcast**: The for every extra MP die used, the spell's radius increases by 5ft or the damage increases by 1d12, or the duration increases by 12 min.
+
+**Global**: The spell lasts for a day and has a great radius. It deals the damage only during the first minute of the spell and can also affect structures. For every 4MP dice extra the duration increases by a day, or the radius increases by 800ft.
+
+### Speak Through Flame
+|Name|Speak Through Flame [Fire, Spirit]|
+|-|-|
+|Scope|local|
+|MP|4|
+|Target(s)|1 entity|
+|Casting time|"1 action"|
+|Range|The material realm|+15
+|Duration|12 minutes|+3(18)
+|Components|incantation|+1(19)
+|Focus|A fire of size "tiny" or bigger|-1(18)
+|Material|A flammable object with the likeness or name of your target|-2(16)
+|Limitation|The spell cannot contact water aligned entities|-2(14)
+|Limitation|The spell only allows two entities to communicate through flame|-4(10)
+|Save|-|
+
+**Description**: The caster may speak to any being they have previously met or know and hold some token of, as long as both are on the material realm. It works as follows:
+1. A phantasmal flame briefly flickers before the target when the spell is cast.
+2. The target may light a fire before the spell ends. 
+3. When it does it may communicate verbally with the caster of the spell. The communication is two way.
+
+**Upcast**: The spell lasts for an extra 12 minutes per MP dice.
+
 ### Aqueous Step
 |Name|Aqueous Step [Travel, Water]|
 |-|-|
@@ -1523,7 +1613,7 @@ ___
 |Limitation|The caster and any entities teleported are always wet at the end of the spell|-1(6)
 |Save|Cha|
 
-**Description**: The caster. They do not need to see it, only know it exists. The caster may take up to 2 other entities with it. An unwilling passenger does not travel if it succeeds a Cha save.
+**Description**: The caster blinks to a chosen location that is not inside a solid object. The caster may take up to 2 other entities with it. An unwilling passenger does not travel if it succeeds a Cha save.
 
 **Upcast**: For every extra MP dice the range increases by 60ft or the number of passengers increases by 1.
 
@@ -1531,6 +1621,26 @@ ___
 - For every 4 extra MP dice the range increases by 60ft or the number of passengers increases by 1.
 
 (blink speed = 12+7)
+
+### Scry
+|-|-|
+|Name|Scry [Spirit, Water]|
+|Scope|local (global)|
+|MP|4 (16)|
+|Target(s)|1 entity or object|
+|Casting time|"main action" (4h + 40min per 4MP dice)|
+|Range|720ft (240 miles)|+11
+|Duration|12 min (1 day)|+6(17)
+|Components|kinetic|
+|Focus|A pool of clean water at least 5ft across|-1(16)
+|Concentration|local|-3(13)
+|Save|Wis|
+
+**Description**: The caster chooses a target (entity or object). If the target is within range and does not succeed a Wis save, the caster can see and hear the target and its surroundings out to 60ft (view distance). In addition the caster may use one more sense (natural or supernatural) through the spell. If the target is out of range or succeeds its Wis save, the caster gains no information.
+
+**Upcast**: For every extra MP die, the target range increases by 60ft and the view distance increases by 5ft. Alternatively the duration increases by 12 min.
+
+**Global**: The spell has a range or 240 miles and lasts for a day. The view distance is 120ft. For every 4MP the  range increases by 60 miles or the duration increases by a day.
 
 ### Least Storm
 |Name|Least Storm [Air, Destruction, Nature]|
@@ -1555,6 +1665,24 @@ ___
 
 **Global**: The spell affects a large area and lasts for an hour. The winds are classed as "severe". For every extra 4MP dice, either the area increases by 100ft, or the duration increases by 1h. If at least 24MP dice are used in the casting, the wind effects are "extreme".
 
+### Lesser Weather Control
+|Name|Least Weather Control [Air, Nature]|
+|-|-|
+|Scope|local (global)|
+|MP|4 (16)|
+|Target(s)|25ft (500ft)|+8
+|Casting time|"full round" (8 hours + 8 hours per 4MP)|-1(7)
+|Range|close|
+|Duration|12 min (1 day)|+3(10)
+|Focus|A crystal whistle|-1(9)
+|Components|incantation|
+|Save||
+
+**Description**: The caster affects the weather, shifting any and all of visibility, precipitation, wind and temperature by one point in either direction. For example if it is an average spring day with severe wind and no rain and good visibility, the caster can change the weather to "extreme wind" or "no wind", in addition it can affect other aspects, eg "extreme wind, severe fog (poor visibility) and severe cold and precipitation (snowstorm).
+
+**Upcast**: The for every extra MP die, the spell lasts for an extra 6 minutes or increases in radius by 5ft. If 7 or more MP dice are used, the caster can shift the weather by two points in any direction.
+
+**Global**: As local, but with a radius of 400ft and a duration of 1 day. For every extra 4MP dice, the radius increases by 500ft or the duration increases by 1 day. If 7 or more MP dice are used the weather can be shifted by two points in any direction.
 ___
 ## MP 6 spells
 4+2+3+4+5+6+7

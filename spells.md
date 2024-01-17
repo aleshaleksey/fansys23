@@ -316,6 +316,7 @@ Any spell created using this guide MUST be checked and validated. In general no 
 - Condition: +2 if Class C, +4 if Class B, +6 if Class A, +12 if Class S.
 - Healing: +5 per HP. +3 per condition MIN=LVL1
 - Modality: +3 if C(walk, climb, swim), +6 if B(flyA, dig), +9 if Fly(G), +12 if (blink), +15 if S(cosmic). Water-walk=6?
+- Change the weather one step.
   - +2 Standard improvement.
 - Bonus:
   - Cover: + 2 (Light), +4 (Heavy), +6(Total)
@@ -331,6 +332,9 @@ Any spell created using this guide MUST be checked and validated. In general no 
   - Transform into the same type: 12.
   - Transform into a different type 24.
   - Skills??
+  - Proficiency with one tool, language, weapon or armour. +1
+  - Proficiency with all languages: +12
+  - Mimic ability (sort of): (C,B,A,S)->(3,6,9,12)
 - Duration (harmless): +1 if 1 min, +3 if 12 min, +6 if hour, +9 8h, +12 if day +24 if permanent
 - Duration (no damage): +3 if 1 min, +6 if 12 min, +12 if hour +24 if day +36 if permanent.
 - Duration (damage/healing): +6 if min, +12 if 12 min.
@@ -340,6 +344,7 @@ Any spell created using this guide MUST be checked and validated. In general no 
 - Casting time: Reaction + 4.
 - Concentration: All damage spells MUST be concentration. Otherwise -3 if concentration
 - Range: +1 per range up (15, 30, 60, 120, 240), -1 per range down. (+1 per 60ft increment)
+- Range (harmless): The realm: +15. All realms +30.
 - Targets +2 per target or +2 per 5ft radius. SPECIAL: Only +1 for the first *N* increases for a spell of cost *N* MP.
 - Material: -2 if material, -1 if focus. -1 if either is rare.
 - Components: Incantation only (+1), Kinetic only (0), Kinetic + Incantation (+1)

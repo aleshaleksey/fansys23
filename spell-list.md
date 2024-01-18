@@ -80,6 +80,8 @@
 ### MP 4
 - [Animate Golem](#animate-golem)
 - [Aqueous Step](#aqueous-step)
+- [Balance of Nature](#balance-of-nature)
+- [Bestial Transformation](#bestial-transformation)
 - [Enchanted Ground](#enchanted-ground)
 - [Least Storm](#least-storm)
 - [Lesser Weather Control](#least-weather-control)
@@ -87,9 +89,7 @@
 - [Scry](#scry)
 - [Speak Through Flame](#speak-through-flame)
 
-- [Bestial Transformation](#bestial-transformation)
 - [Mirage](#mirage)
-- [Balance of Nature](#balance-of-nature)
 - [Balance of Power](#balance-of-power)
 - [Balance of Seasons](#balance-of-seasons)
 
@@ -1539,7 +1539,8 @@ ___
 |Focus|A skull|-1(7)
 |Material|The seed of a tree of life|-3(4)
 |Concentration|local|-3(1)
-|Limitation||-2(-1)
+|Limitation|A caster aligned to [Profane] can only cast this spell in the [Destruction] modality|-2(-1)
+|Limitation|A caster aligned to [Divine] can only cast this spell in the [Healing] modality|-2(-1)
 |Components|incantation|+1(0)
 |Save|-|
 
@@ -1549,7 +1550,11 @@ ___
 
 **Upcast**: For every extra MP dice, the threshold change increases by 1.
 
-**Global**: 
+**Special**: Any entity casting this spell in the [Healing] modality becomes aligned to [Divine] for 24h. Any entity casting this spell in the [Destruction] modality becomes aligned to [Profane] for 24h.
+
+**Global**: When the spell is cast globally it covers a radius of 400ft and lasts for a day. In addition to the normal effects, if it is cast in the [Destruction] modality, "profane" entities gain +1 to all saves in the area, and "divine" entities a -1 penalty to all saves. If the spell is cast in the [Healing] modality this is reversed.
+- For every extra 4MP added to the spell it lasts for an extra day or the radius increases by 400ft.
+- If the spell is cast with at least 40MP and an intended duration of at least 1 week, the effect is permenant.
 
 ### Bestial Transformation
 |Name|Balance Bestial Transformation [Curse, Mortal, Nature]|

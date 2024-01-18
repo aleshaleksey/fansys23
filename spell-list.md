@@ -952,11 +952,15 @@ ___
 |Components|kinetic|-1(5)
 |Focus|A handful of target's hair, and result creature's hair|-1(4)
 |Limitation|You must be familiar with the entity kind that you're transforming into|-1(3)
-|Save|Cha|
+|Save|Wis|
 
-**Description**: You transform into another entity of your type. You lose your template and instead gain the template of any valid entity that has both (see "[example templates](races.md#example-template)"): (6)
+**Description**: The target transforms into another entity of its type and subtype. It loses its template and instead gain the template of any valid entity that has both (see "[example templates](races.md#example-template)"): (6)
 - The same template level as your own or a template whose level is lower than your own.
 - The same entity type and subtype as your own.
+
+**Special**:
+- Shapeshifters can ignore the effects of this spell.
+- The target, if it fails the initial save, does not get another chance to save.
 
 **Upcast**: For every extra MP dice spend the spell lasts for an extra hour, or you can target an extra entity.
 
@@ -1508,7 +1512,7 @@ ___
 |Casting time||
 |Range||
 |Duration||
-|Components||
+|Components|incantation|
 |Save||
 
 ### Balance of Seasons
@@ -1520,7 +1524,7 @@ ___
 |Casting time||
 |Range||
 |Duration||
-|Components||
+|Components|incantation|
 |Save||
 
 ### Balance of Nature
@@ -1528,25 +1532,46 @@ ___
 |-|-|
 |Scope|local (global)|
 |MP|4 (16)|
-|Target(s)||
-|Casting time||
-|Range||
-|Duration||
-|Components||
-|Save||
+|Target(s)|20ft radius (400ft radius)|+8
+|Casting time|"full round action" (8h + 8h per 4MP dice)|-1(7)
+|Range|close|-(5)
+|Duration|12 min (1 day)|+3(8)
+|Focus|A skull|-1(7)
+|Material|The seed of a tree of life|-3(4)
+|Concentration|local|-3(1)
+|Limitation||-2(-1)
+|Components|incantation|+1(0)
+|Save|-|
+
+**Description**: The caster changes the balance of nature in the area. Select one of the following descriptorss: [Healing, Destruction]:
+- If [Healing] is chosen, the MP dice cost of all spells with the [Healing] descriptor is decreased by 1 (to a minimum of 1) and their range increases by 15ft. The MP dice cost of all spells with the [Destruction] descriptor is increased by 1 and the save threshold is decreased by 1. (9)
+- If [Destruction] is chosen, the MP dice cost of all spells with the [Healing] descriptor is increased by 2. The MP dice cost of all spells with the [Destruction] descriptor is decreased by 1 and the save threshold is increased by 1. (9)
+
+**Upcast**: For every extra MP dice, the threshold change increases by 1.
+
+**Global**: 
 
 ### Bestial Transformation
-|Name|Balance Bestial Transformation [Mortal, Nature]|
+|Name|Balance Bestial Transformation [Curse, Mortal, Nature]|
 |-|-|
 |Scope|local (global)|
 |MP|4 (16)|
-|Target(s)||
-|Casting time||
-|Range||
-|Duration||
-|Components||
-|Save||
+|Target(s)|1 entity|
+|Casting time|"main action" (2h + 40min per 4MP)|
+|Range|close|
+|Duration|1h (1 week)|+6
+|Components|kinetic|(6)
+|Save|Wis|
 
+**Description**: The target becomes an "animal" or "plant" of level 8 or lower, but no higher than its own level + 1 for the duration of the spell. It replaces its character sheet with that of the entity it transforms into. (12)
+
+**Special**:
+- Shapeshifters can ignore the effects of this spell.
+- The target, if it fails the initial save, does not get another chance to save.
+
+**Upcast**: For every extra MP dice spend, the caster can either extend the spell by an extra hour, select an additional target, or increase the maximum level of the resulting animal/plant by 1.
+
+**Global**: The spell lasts for a week. For every 4MP the spell lasts an extra week and the maximum level of the resulting animal/plant increases by 1. It cannot be cancelled voluntarily.
 
 ### Rejuvenate Land
 |Name|Rejuvenate Land [Healing, Nature]|

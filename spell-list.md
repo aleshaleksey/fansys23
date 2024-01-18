@@ -86,12 +86,12 @@
 - [Rejuvenate Land](#rejuvenate-land)
 - [Scry](#scry)
 - [Speak Through Flame](#speak-through-flame)
-- [](#)
-- [](#)
-- [](#)
-- [](#)
-- [](#)
-- [](#)
+
+- [Bestial Transformation](#bestial-transformation)
+- [Mirage](#mirage)
+- [Balance of Nature](#balance-of-nature)
+- [Balance of Power](#balance-of-power)
+- [Balance of Seasons](#balance-of-seasons)
 
 |Name| []|
 |-|-|
@@ -1499,6 +1499,55 @@ ___
 ## MP 4 spells
 4+2+3+4+5=18
 
+### Balance of Power
+|Name|Balance of Power [Incantation]|
+|-|-|
+|Scope|local (global)|
+|MP|4 (16)|
+|Target(s)||
+|Casting time||
+|Range||
+|Duration||
+|Components||
+|Save||
+
+### Balance of Seasons
+|Name|Balance of Seasons [Nature, Air, Earth, Fire, Water]|
+|-|-|
+|Scope|local (global)|
+|MP|4 (16)|
+|Target(s)||
+|Casting time||
+|Range||
+|Duration||
+|Components||
+|Save||
+
+### Balance of Nature
+|Name|Balance of Nature [Divine, Profane, Nature]|
+|-|-|
+|Scope|local (global)|
+|MP|4 (16)|
+|Target(s)||
+|Casting time||
+|Range||
+|Duration||
+|Components||
+|Save||
+
+### Bestial Transformation
+|Name|Balance Bestial Transformation [Mortal, Nature]|
+|-|-|
+|Scope|local (global)|
+|MP|4 (16)|
+|Target(s)||
+|Casting time||
+|Range||
+|Duration||
+|Components||
+|Save||
+
+
 ### Rejuvenate Land
 |Name|Rejuvenate Land [Healing, Nature]|
 |-|-|
@@ -1573,7 +1622,7 @@ ___
 
 **Upcast**: The for every extra MP die used, the spell's radius increases by 5ft or the damage increases by 1d12, or the duration increases by 12 min.
 
-**Global**: The spell lasts for a day and has a great radius. It deals the damage only during the first minute of the spell and can also affect structures. For every 4MP dice extra the duration increases by a day, or the radius increases by 800ft.
+**Global**: The spell lasts for a day and has a great radius. It deals the damage only during the first minute of the spell and can also affect structures. In addition friendly entities have advantage on fortification and harvesting rolls in the area. For every 4MP dice extra the duration increases by a day, or the radius increases by 800ft.
 
 ### Speak Through Flame
 |Name|Speak Through Flame [Fire, Spirit]|
@@ -1622,6 +1671,19 @@ ___
 - For every 4 extra MP dice the range increases by 60ft or the number of passengers increases by 1.
 
 (blink speed = 12+7)
+
+### Mirage
+|Name|Mirage [Spiritual, Water]|
+|-|-|
+|Scope|local (global)|
+|MP|4 (16)|
+|Target(s)||
+|Casting time||
+|Range||
+|Duration||
+|Components||
+|Save||
+
 
 ### Scry
 |-|-|

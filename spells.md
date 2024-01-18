@@ -280,6 +280,8 @@ For every extra MP point (4, if casting globally) placed in the spell you can ad
 ___
 ## Rules for making spells
 
+Rules for making spells are an oxymoron, since magic is often seen as being above rules and logic. However, for the sake of balancing a game, some rules that determine how spells are made and work are required.
+
 More powerful spells have a higher MP dice cost, weaker spells have a lower MP dice cost. Spell power and utility can also be tweaked by adjusting the cost and availability of materials and foci, as well as changing the duration of casting. To be systematic in this development, there should be clear rules on how to calculate the cost, duration, components etc. of a spell. On the other hand, this is unlikely to be an exact science, since the power of a spell is determined to a large degree by circumstances and player creativity. Thus any such system should be well thought out and flexible. Ultimately the cost of a spell should correlate perfectly with its agency. Where:
 
 Agency = [probability that the spell is useful in a situation] x [how strongly it affects outcome]

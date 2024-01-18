@@ -222,6 +222,15 @@ A descriptor tells you something about the nature of the spell. This can include
 |Season|Winter, Spring, Summer, Autumn|
 |Origin|Nature, Mortal, Divine, Profane, Spiritual|
 
+#### Elements and seasons table
+
+|Element|Associated Season|Opposites|
+|-|-|-|
+|Air|Spring|Earth, Autumn|
+|Earth|Autumn|Air, Spring|
+|Fire||Summer|Water, Winter|
+|Water|Winter|Fire, Summer|
+
 ### Spell cards
 
 Spells are by their nature quite varied and cause various effects. This means that the rules and description for each one should be clearly stated and explained. Spells are laid out as "spell cards". Below is an explanation and description:

@@ -57,7 +57,6 @@
 - [Warded Ground](#warded-ground)
 - [Warmth](#warmth)
 
-
 ### MP 3
 - [Animate Plant](#animate-plant)
 - [Animate Dead](#animatecontrol-dead)
@@ -80,29 +79,16 @@
 ### MP 4
 - [Animate Golem](#animate-golem)
 - [Aqueous Step](#aqueous-step)
+- [Balance of Elements](#balance-of-elements)
 - [Balance of Nature](#balance-of-nature)
 - [Bestial Transformation](#bestial-transformation)
 - [Enchanted Ground](#enchanted-ground)
 - [Least Storm](#least-storm)
 - [Lesser Weather Control](#least-weather-control)
+- [Mirage](#mirage)
 - [Rejuvenate Land](#rejuvenate-land)
 - [Scry](#scry)
 - [Speak Through Flame](#speak-through-flame)
-
-- [Mirage](#mirage)
-- [Balance of Power](#balance-of-power)
-- [Balance of Seasons](#balance-of-seasons)
-
-|Name| []|
-|-|-|
-|Scope||
-|MP||
-|Target(s)||
-|Casting time||
-|Range||
-|Duration||
-|Components||
-|Save||
 
 ### MP 6
 - [Forest of Flame](#forest-of-flame)
@@ -188,7 +174,7 @@
 |Components|kinetic|
 |Save|None, harmless|
 
-**Description**: Conjure a clearly visible sign next to you that either points north, or to the nearest source of clean water that must be at least 10ft away.
+**Description**: Conjure a clearly visible sign next to you that either points north, or to the nearest source of either, clean water, nourishment, or shelter that must be at least 10ft away.
 
 ### Least Anemancy
 |Name|Least Anemancy [Air, Spiritual]|
@@ -1394,8 +1380,8 @@ ___
 |Range|15ft|-1
 |Duration|1h|+12(11)
 |Components|incantation, kinetic|(10)
-|Focus||-1(9)
-|Material||-2(7)
+|Focus|A small blade|-1(9)
+|Material|Honey|-2(7)
 |Save|Wis|
 
 **Description**: The target is "charmed". In addition it will follow your up to 3 commands as if it was "allied". After the completion of each command it may make a Wis save to end the spell.
@@ -1515,17 +1501,35 @@ ___
 |Components|incantation|
 |Save||
 
-### Balance of Seasons
-|Name|Balance of Seasons [Nature, Air, Earth, Fire, Water]|
+### Balance of Elements
+|Name|Balance of Seasons [Air, Earth, Fire, Water]|
 |-|-|
 |Scope|local (global)|
 |MP|4 (16)|
-|Target(s)||
-|Casting time||
-|Range||
-|Duration||
-|Components|incantation|
-|Save||
+|Target(s)|20ft radius (400ft radius)|+8
+|Casting time|"full round action" (8h + 8h per 4MP dice)|-1(7)
+|Range|close|-(5)
+|Duration|12 min (1 day)|+3(8)
+|Focus|A skull|-1(7)
+|Material||-3(4)
+|Concentration|local|-3(1)
+|Limitation|A caster aligned to a season or element cannot cast this spell with the opposite alignment|-4(-3)
+|Components|incantation|+1(0)
+|Save|-|
+
+**Description**: The caster changes the nature of the area. Select one of the following descriptors: [Air, Earth, Fire, Water].
+- Spells with the associated descriptor have their cost decreased by 1 MP dice (to a minimum of 1) and their save threshold is increased by 1.
+- Spells with the opposite descriptor have their cost increased by 1MP and their threshold decreased by 1.
+
+**Upcast**: For every extra MP dice, the radius increases by 10ft.
+
+**Special**:
+- An entity casting this spell becomes aligned to the associated element for 24 hours.
+- If the spell is cast twice in opposite elements, where the two spells overlap, they cancel out if the level is equal. If one has more MP dice input than the other, it overpowers the weaker casting where they overlap.
+
+**Global**: When the spell is cast globally it covers a radius of 400ft and lasts for a day. In addition to the normal effects, all elementals aligned to the opposite element, or entities aligned to the opposite season have their base movement speed halved in the area.
+- For every extra 4MP added to the spell it lasts for an extra day or the radius increases by 400ft.
+- If the spell is cast with at least 40MP and an intended duration of at least 1 week, the effect is permanent.
 
 ### Balance of Nature
 |Name|Balance of Nature [Divine, Profane, Nature]|
@@ -1544,17 +1548,20 @@ ___
 |Components|incantation|+1(0)
 |Save|-|
 
-**Description**: The caster changes the balance of nature in the area. Select one of the following descriptorss: [Healing, Destruction]:
+**Description**: The caster changes the balance of nature in the area. Select one of the following descriptors: [Healing, Destruction]:
 - If [Healing] is chosen, the MP dice cost of all spells with the [Healing] descriptor is decreased by 1 (to a minimum of 1) and their range increases by 15ft. The MP dice cost of all spells with the [Destruction] descriptor is increased by 1 and the save threshold is decreased by 1. (9)
 - If [Destruction] is chosen, the MP dice cost of all spells with the [Healing] descriptor is increased by 2. The MP dice cost of all spells with the [Destruction] descriptor is decreased by 1 and the save threshold is increased by 1. (9)
 
 **Upcast**: For every extra MP dice, the threshold change increases by 1.
 
-**Special**: Any entity casting this spell in the [Healing] modality becomes aligned to [Divine] for 24h. Any entity casting this spell in the [Destruction] modality becomes aligned to [Profane] for 24h.
+**Special**: 
+- Any entity casting this spell in the [Healing] modality becomes aligned to [Divine] for 24h.
+- Any entity casting this spell in the [Destruction] modality becomes aligned to [Profane] for 24h.
+- If the spell is cast twice in opposite modalities, where the two spells overlap, they cancel out if the level is equal. If one has more MP dice input than the other, it overpowers the weaker casting where they overlap.
 
 **Global**: When the spell is cast globally it covers a radius of 400ft and lasts for a day. In addition to the normal effects, if it is cast in the [Destruction] modality, "profane" entities gain +1 to all saves in the area, and "divine" entities a -1 penalty to all saves. If the spell is cast in the [Healing] modality this is reversed.
 - For every extra 4MP added to the spell it lasts for an extra day or the radius increases by 400ft.
-- If the spell is cast with at least 40MP and an intended duration of at least 1 week, the effect is permenant.
+- If the spell is cast with at least 40MP and an intended duration of at least 1 week, the effect is permanent.
 
 ### Bestial Transformation
 |Name|Balance Bestial Transformation [Curse, Mortal, Nature]|
@@ -1707,17 +1714,34 @@ ___
 |-|-|
 |Scope|local (global)|
 |MP|4 (16)|
-|Target(s)||
-|Casting time||
-|Range||
-|Duration||
-|Components||
-|Save||
+|Target(s)|20ft radius (400ft)|8
+|Casting time|"main action" (4h +4h per 4MP)|
+|Range|120ft|+2(10)
+|Duration|12 min (1 day)|+3(13)
+|Components|kinetic|
+|Focus||-1(12)
+|Limitations||-2(10)
+|Save|Wis|
+
+**Description**: The caster creates an illusionary scene which mimics the real scene to all senses except touch and pain. It can do no damage. The scene realistically mimics a real scene, at first glance, but has no material substance. For example:
+- An illusionary bridge over a river will hold no weight, but if a rock is thrown against might show the rock bouncing a few steps along the bridge and coming to rest on it (while the real rock would go straight through it).
+- An illusionary bonfire would feel warm at t distance, but would fail to melt a block of ice at some distance (although it the ice is placed inside of the area of the "mirage" it would *appear* to melt).
+
+An illusion can be broken in the following manner:
+- At a distance, when interacting with the illusion from outside of it, an entity may attempt to disbelieve, and roll a Wis save at disadvantage against the caster's threshold.
+- When interacting with the "mirage" from inside it, it may attempt disbelieve t and roll a Wis save against the caster's threshold.
+- When an entity interacts with the "mirage" in such a way that the "mirage" seems implausible or suspicious (eg a bonfire failing to melt a block of ice, or the target falling through the bridge), it may roll a Wis save at advantage.
+- If the entity has some magic sense, it makes a Wis save against the "mirage" as soon as it detects it.
+- If the entity has "true seeing" it automatically sees through the "mirage"
+
+**Upcast**: For every extra MP, the duration increases by 12 min or the radius increases by 5ft.
+
+**Global**: The mirage lasts for a day and has a radius of 400ft. For every 4 extra MP the mirage lasts for an extra day or its radius increases by 400ft.
 
 
 ### Scry
-|-|-|
 |Name|Scry [Spirit, Water]|
+|-|-|
 |Scope|local (global)|
 |MP|4 (16)|
 |Target(s)|1 entity or object|
@@ -1974,17 +1998,36 @@ ____
 ### MP 4
 
 - Nature
+    - [Balance of Nature](#balance-of-nature)
+    - [Bestial Transformation](#bestial-transformation)
     - [Rejuvenate Land](#rejuvenate-land)
 - Air
+    - [Balance of Elements](#balance-of-elements)
     - [Least Storm](#least-storm)
     - [Lesser Weather Control](#least-weather-control)
 - Earth
     - [Animate Golem](#animate-golem)
+    - [Balance of Elements](#balance-of-elements)
     - [Enchanted Ground](#enchanted-ground)
 - Fire
+    - [Balance of Elements](#balance-of-elements)
     - [Speak Through Flame](#speak-through-flame)
 - Water
     - [Aqueous Step](#aqueous-step)
+    - [Balance of Elements](#balance-of-elements)
+    - [Mirage](#mirage)
     - [Scry](#scry)
 - Other
 
+___
+
+|Name| []|
+|-|-|
+|Scope||
+|MP||
+|Target(s)||
+|Casting time||
+|Range||
+|Duration||
+|Components||
+|Save||

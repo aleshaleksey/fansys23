@@ -1,5 +1,15 @@
 # Equipment and Economy
 
+- "[Labour Costs](#labour-costs)"
+- "[Resources](#resources)"
+- "[Upkeep](#upkeep)"
+- "[Weapons](#weapons)"
+- "[Ammunition](#ammunition)"
+- "[Armour](#armour)"
+- "[Adventuring Gear](#adventuring-gear)"
+- "[Transport, Beasts and Property](#transport-beasts-and-property)"
+- "[Tools and Kits](#tools-and-kits)"
+
 This chapter discusses resources, basic fantasy economy and item/equipment prices. Most "adventurers" need equipment, weapons and supplies in some shape and form, so they are covered here.
 
 ## Economy and economies
@@ -62,48 +72,6 @@ If the time is "ancient" crafting times for mostly metal items is x2 the base ti
 Importantly crafting time can be shared between several artisans.
 
 ___
-### Labour Costs
-
-Labour costs are given in silver (sp) per day (10-12 hours). Labour that does not need to be paid for, still has to be fed. Generally it should be assumed that the wages of unskilled workers, trained worker, mercenaries and scribes includes food and board where appropriate.
-
-|Labour type|ancient |medieval |late |
-|-|-|-|-|
-|Unskilled|0|1|2|
-|Trained|0|2|~5|
-|Artisan (mason)|0-4|~8|~20|
-|Artisan (smith)|0-4|~16|~40|
-|mercenary (foot)||~6|~15|
-|mercenary (specialist)||~24|~50|
-|mercenary (captain)||~200|~500|
-|scribe/priest||~6|~15|
-|magistrate||~500||
-
-### Resources
-
-This table provides some numbers for how much of a resource one can expect to harvest from an area. An acre is 121 x 360 feet or about 24 x 72 5ft squares.
-
-|Item|Yield per year|Workforce|
-|-|-|-|
-|Wheat|||
-|Apple|||
-|Lumber|||
-|Iron|||
-|Marble|||
-
-### Upkeep
-|Item|ancient |medieval |late |
-|-|-|-|-|
-|Unskilled|0|1|2|
-|Trained|0|2|~5|
-|Artisan (mason)|0-4|~8|~20|
-|Artisan (smith)|0-4|~16|~40|
-|mercenary (foot)||~6|~15|
-|mercenary (specialist)||~24|~50|
-|mercenary (captain)||~200|~500|
-|scribe/priest||~6|~15|
-|magistrate||~500||
-
-___
 ### Weapons
 |Weapon|Cost (sp)|crafting days|"ancient"|"medieval"|"late"|
 |-|-|-|-|-|-|
@@ -113,7 +81,7 @@ ___
 |War pick|||no|rare|yes|
 |Battleaxe|||rare|yes|rare|
 |GreatAxe|||rare|yes|rare|
-|Dagger|||yes|yes|yes|
+|Dagger|8||yes|yes|yes|
 |Shuriken|||yes|yes|yes|
 |Short Sword|12||yes|yes|yes|
 |Small Sword|||no|rare|yes|
@@ -132,9 +100,9 @@ ___
 |Halberd|||no|no/rare|yes|
 |Venetian Hammer|||no|no/rare|yes|
 |Long axe|||rare|yes|yes|
-|Short Spear|||yes|yes|yes|
-|Spear|||yes|yes|yes|
-|Long Spear|||yes|yes|yes|
+|Short Spear|24||yes|yes|yes|
+|Spear|32||yes|yes|yes|
+|Long Spear|40||yes|yes|yes|
 |Javelin|||yes|rare|no|
 |War dart|||yes|rare|no|
 |Shortstaff|||yes|yes|yes|
@@ -174,15 +142,123 @@ ___
 |Cuirass|480||yes|yes|yes|
 |Segmented Mail|||no|yes|yes/rare|
 |Half Plate|1200||no|yes|yes/rare|
-|Full Plate|1560||no|yes|yes/rare|
+|Full Plate|1920||no|yes|yes/rare|
 |Buckler|||yes|yes|yes|
-|Small Shield|60||yes|yes|yes|
+|Small Shield|48||yes|yes|yes|
 |Large Shield|90||yes|yes|rare|
 |Tower Shield|120||yes|yes|rare|
 
 ___
-### Tools and Kits
+### Labour Costs
 
+Labour costs are given in silver (sp) per day (10-12 hours). Labour that does not need to be paid for, still has to be fed. Generally it should be assumed that the wages of unskilled workers, trained worker, mercenaries and scribes includes food and board where appropriate.
+
+|Labour type|ancient |medieval |late |
+|-|-|-|-|
+|Unskilled|0|1|2|
+|Trained|0|2|~5|
+|Artisan (mason)|0-4|~8|~20|
+|Artisan (smith)|0-4|~16|~40|
+|mercenary (foot)||~6|~15|
+|mercenary (specialist)||~24|~50|
+|mercenary (captain)||~200|~500|
+|scribe/priest||~6|~15|
+|magistrate||~500||
+
+___
+### Resources
+
+This table provides some numbers for how much of a resource one can expect to harvest from an area. An acre is 121 x 360 feet or about 24 x 72 5ft squares.
+
+|Item|Yield per year|Workforce|
+|-|-|-|
+|Wheat|||
+|Apple|||
+|Lumber|||
+|Iron|||
+|Marble|||
+
+___
+### Upkeep
+|Item|ancient |medieval |late |
+|-|-|-|-|
+|Unskilled|0|1|2|
+|Trained|0|2|~5|
+|Artisan (mason)|0-4|~8|~20|
+|Artisan (smith)|0-4|~16|~40|
+|mercenary (foot)||~6|~15|
+|mercenary (specialist)||~24|~50|
+|mercenary (captain)||~200|~500|
+|scribe/priest||~6|~15|
+|magistrate||~500||
+
+___
+### Common Goods
+|Item|ancient |medieval |late |
+|-|-|-|-|
+|Ale, poor (gallon)||1||
+|Ale, good (gallon)||4||
+|Wine, poor (gallon)||6||
+|Wine, good (gallon)||16||
+|Wheat (5lb)||1||
+|Bread (3lb)||1||
+|Bacon (1lb)||2||
+|Eggs (12)||2||
+|Rations, good (4lb)||3||
+|Rations, expedition (4lb)||8||
+
+___
+### Adventuring Gear
+|Weapon|Cost (sp)|crafting days|"ancient"|"medieval"|"late"|
+|-|-|-|-|-|-|
+
+___
+### Transport, Beasts and Property
+|Weapon|Cost (sp)|crafting days|"ancient"|"medieval"|"late"|
+|-|-|-|-|-|-|
+|8 chickens|1||rare|yes|yes|
+|Sheep|12||yes|yes|yes|
+|Pig|40||yes|yes|yes|
+|Cow|150||yes|yes|yes|
+|Ox|170||yes|yes|yes|
+|||||||
+|Swarm of bees|16||yes|yes|yes|
+|Hive of bees|48||yes|yes|yes|
+|Falcon|480||yes|yes|yes|
+|Falcon, chick|240||yes|yes|yes|
+|Hawk|48||yes|yes|yes|
+|Hawk, chick|24||yes|yes|yes|
+|||||||
+|Pup|8||yes|yes|yes|
+|Well bred pup|240||yes|yes|yes|
+|Untrained dog|240||yes|yes|yes|
+|Hunting dog|480||yes|yes|yes|
+|||||||
+|Untrained Horse|240||yes|yes|yes|
+|Riding/draught Horse|480||yes|yes|yes|
+|Warhorse|4000-80000||yes|yes|yes|
+|||||||
+|Humanoid Slave|400||yes|yes|rare|
+|||||||
+|Cart|48||yes|yes|yes|
+|Carriage|3880||yes|yes|yes|
+|Barge|4800||yes|yes|yes|
+|||||||
+|Small house (rent)|10/month||yes|yes|yes|
+|House (rent)|40/month||yes|yes|yes|
+|Small Manor (rent)|120/month||yes|yes|yes|
+|Small house|||yes|yes|yes|
+|House|||yes|yes|yes|
+|Small Manor|||yes|yes|yes|
+|Keep|192K||yes|yes|yes|
+|Castle|672K||yes|yes|yes|
+|Fortress|4800K||yes|yes|yes|
+
+___
+### Tools and Kits
+|Weapon|Cost (sp)|crafting days|"ancient"|"medieval"|"late"|
+|-|-|-|-|-|-|
+|||||||
 
 ___
 # Notes

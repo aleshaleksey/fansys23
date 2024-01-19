@@ -206,7 +206,6 @@ ___
 |Eggs (12)||2||
 |Rations, good (4lb)||3||
 |Rations, expedition (4lb)||8||
-
 ___
 ### Adventuring Gear
 |Weapon|Cost (sp)|crafting days|"ancient"|"medieval"|"late"|
@@ -247,17 +246,55 @@ ___
 |Small house (rent)|10/month||yes|yes|yes|
 |House (rent)|40/month||yes|yes|yes|
 |Small Manor (rent)|120/month||yes|yes|yes|
+|Acre of land|4||rare|rare|rare|
 |Small house|||yes|yes|yes|
 |House|||yes|yes|yes|
 |Small Manor|||yes|yes|yes|
 |Keep|192K||yes|yes|yes|
 |Castle|672K||yes|yes|yes|
 |Fortress|4800K||yes|yes|yes|
+|||||||
+|Fleece|4||yes|yes|yes|
+|Common furs|10||yes|yes|yes|
+|Rare furs|100||yes|yes|rare|
+|||||||
+
+*Acre of land*: Land in many kingdoms is not commonly available and cannot be bought and sold without special permission from officials, lords or kings.
 
 ___
 ### Tools and Kits
 |Weapon|Cost (sp)|crafting days|"ancient"|"medieval"|"late"|
 |-|-|-|-|-|-|
+|Diver's kit||||||
+|Climber's kit||||||
+|Entrenching tools||||||
+|Mason's tools||||||
+|Smith's tools||||||
+|Smith's forge||||||
+|Calligraphy kit||||||
+|Forgery kit||||||
+|Tinkere's tools||||||
+|Carpenter's tools||||||
+|Locksmith's tools||||||
+|Glassblower's tools||||||
+|Jeweler's tools||||||
+|Healer's kit||||||
+|Butcher's tool||||||
+|Herbalist's kit||||||
+|Miner's tools||||||
+|Trapper's tools||||||
+|Fisher's tools||||||
+|Alchemist's equipment||||||
+|Poisoner's equipment||||||
+|Cartographer's tools||||||
+|Astronomer's tools||||||
+|Disguise kit||||||
+|Gaming Set (small)||||||
+|Gaming Set (large)||||||
+|Musical instrument (simple)||||||
+|Musical instrument (average)||||||
+|Musical instrument (complex)||||||
+|Musical instrument (exquisite)||||||
 |||||||
 
 ___

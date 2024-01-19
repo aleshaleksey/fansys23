@@ -58,18 +58,44 @@ Importantly crafting time can be shared between several artisans.
 
 ### Labour Costs
 
-Labour costs are given in silver (sp) per day (10-12 hours). Labour that does not need to be paid for, still has to be fed.
+Labour costs are given in silver (sp) per day (10-12 hours). Labour that does not need to be paid for, still has to be fed. Generally it should be assumed that the wages of unskilled workers, trained worker, mercenaries and scribes includes food and board where appropriate.
 
 |Labour type|ancient |medieval |late |
 |-|-|-|-|
 |Unskilled|0|1|2|
-|Trained|0|2-4|4-10|
-|Artisan|0-4|4-10|10-20|
-|mercenary (foot)||||
-|mercenary (specialist)||||
-|mercenary (captain)||||
-|scribe||||
-|magistrate||||
+|Trained|0|2|~5|
+|Artisan (mason)|0-4|~8|~20|
+|Artisan (smith)|0-4|~16|~40|
+|mercenary (foot)||~6|~15|
+|mercenary (specialist)||~24|~50|
+|mercenary (captain)||~200|~500|
+|scribe/priest||~6|~15|
+|magistrate||~500||
+
+### Resources
+
+This table provides some numbers for how much of a resource one can expect to harvest from an area. An acre is 121 x 360 feet or about 24 x 72 5ft squares.
+
+|Item|Yield per year|Workforce|
+|-|-|-|
+|Wheat|||
+|Apple|||
+|Lumber|||
+|Iron|||
+|Marble|||
+
+### Upkeep
+|Item|ancient |medieval |late |
+|-|-|-|-|
+|Unskilled|0|1|2|
+|Trained|0|2|~5|
+|Artisan (mason)|0-4|~8|~20|
+|Artisan (smith)|0-4|~16|~40|
+|mercenary (foot)||~6|~15|
+|mercenary (specialist)||~24|~50|
+|mercenary (captain)||~200|~500|
+|scribe/priest||~6|~15|
+|magistrate||~500||
 
 ___
 ### Weapons

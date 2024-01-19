@@ -23,13 +23,14 @@ ___
 
 This is the usual "adventuring guilds" settings. All kinds of weapons and armours are available. Some have become obsolete (under some situations). Firearms become available. Techniques of extracting resources and crafting become very efficient, and all kinds of sciences flourish. Labour costs are high, but productivity of labour also increases due to advanced techniques and industrialisation. Population densities are generally high. Most of the world has been at least crudely mapped. Most ruins have been found and at least some are explored. It is possible that monsters and other "inhuman" forces have retreated (but who knows?).
 
+___
 ### Currency
 
-The most common currency was generally silver, although gold, copper, bronze, electrum (gold/silver allow) and other currencies have been used. The main prerequisite was that the material can be worked with available tools, does not degrade much over time and is scarce. Gold generally was worth 10-20 times more than silver. Copper currency was used mostly locally. However, silver coin or trade bars of various sizes were the most common. Good examples include the English "silver penny" (~1.4g) and the Athenian silver drachma (~4.3g).
+The most common currency was generally silver, although gold, copper, bronze, electrum (gold/silver allow) and other currencies have been used. The main prerequisite was that the material can be worked with available tools, does not degrade much over time and is scarce. Gold generally was worth 10-20 times more than silver. Copper currency was used mostly locally. However, silver coin or trade bars of various sizes were the most common. Good examples include the English "silver penny" (1.4g-1.55g) and the Athenian silver drachma (~4.3g).
 
 This also brings up the phantom of different currencies between kingdoms. If a group is playing a socially complex game, it may be worth introducing different convertible currency or tender between powers. A roughly ~5% conversion fee seems to be a fair average to use as a starting point.
 
-For simplicity, we will be using an anachronistic mix of modern pound (lb) measurement together with a silver obol (1/6th of a drachma), weighing ~0.76g to give us 600 silver pieces (sp) per lb (actual Obols had a weight closer to ~0.72g). The choice is made to have a practical minimum unit. Although of course most sane kingdoms would have larger denominations. I would recommend a modified drachma (~4.5g, 100/lb) and dekadrachma (~45g, 10/lb). This mix may be an insult to history, so please feel free to convert to your own currency. This is summarised in the table below. Please keep in mind that the weights are abridged from historic figures to work more smoothly in the system. If you and your group wishes to go medieval, and use the real weights, be my guest!
+By default, this game uses an anachronistic mix of modern pound (lb) measurement together with a silver obol (1/6th of a drachma), weighing ~0.76g to give us 600 silver pieces (sp) per lb (actual Obols had a weight closer to ~0.72g). The choice is made to have a practical minimum unit. Although of course most sane kingdoms would have larger denominations. I would recommend a modified drachma (~4.5g, 100/lb) and dekadrachma (~45g, 10/lb). These values are used for ease of calculation and not any semblance of pseudo-historical accuracy.
 
 |Currency|Weight(lb)|Conversion from obols|Weight (g)|
 |-|-|-|-|
@@ -42,8 +43,12 @@ For simplicity, we will be using an anachronistic mix of modern pound (lb) measu
 
 More importantly, the lists will give a cost in "days of labour", which are equivalent to 12 manhours. Often, in a world where everything is made by hand and not always stockpiled, the labour availability is more important than the material or currency cost.
 
-### Labour costs and crafting times.
+___
+### Labour costs and crafting times
 
+Crafting costs are a sum of the labour cost and the material costs. Labour costs depend on the level of the worker, and the number of man hours that they need to work to complete the task.
+
+___
 ## The lists
 
 The lists a monetary cost, a labour cost and an availability table. The availability should be taken with a large pinch of salt and is meant as a guide for settings. If availability is "no" the weapon is not generally available or the technology or technique to make it does not exist. "Rare" means it was available at some point of the age, but were not commonly used.
@@ -56,6 +61,7 @@ If the time is "ancient" crafting times for mostly metal items is x2 the base ti
 
 Importantly crafting time can be shared between several artisans.
 
+___
 ### Labour Costs
 
 Labour costs are given in silver (sp) per day (10-12 hours). Labour that does not need to be paid for, still has to be fed. Generally it should be assumed that the wages of unskilled workers, trained worker, mercenaries and scribes includes food and board where appropriate.
@@ -109,12 +115,12 @@ ___
 |GreatAxe|||rare|yes|rare|
 |Dagger|||yes|yes|yes|
 |Shuriken|||yes|yes|yes|
-|Short Sword|||yes|yes|yes|
+|Short Sword|12||yes|yes|yes|
 |Small Sword|||no|rare|yes|
 |Scimitar|||yes|yes|yes|
 |Rapier|||no|rare|yes|
 |Falchion|||yes|yes|yes|
-|Longsword|||rare/yes|yes|yes/rare|
+|Longsword|168||rare/yes|yes|yes/rare|
 |Greatsword|||no|yes|yes/rare|
 |Club|||yes|yes|yes|
 |Greatclub|||yes|yes|yes|
@@ -141,9 +147,9 @@ ___
 |Hand Crossbow|||no|rare|yes|
 |Crossbow|||no|yes|yes/rare|
 |Winch crossbow|||rare|yes|yes/rare|
-|Pistol|||no|no|rare/yes|
-|Musket|||no|no|rare/yes|
-|Blunderbuss|||no|no|rare/yes|
+|Pistol|480||no|no|rare/yes|
+|Musket|600||no|no|rare/yes|
+|Blunderbuss|480||no|no|rare/yes|
 
 ___
 ### Ammunition
@@ -158,21 +164,21 @@ ___
 ### Armour
 |Weapon|Cost (sp)|crafting days|"ancient"|"medieval"|"late"|
 |-|-|-|-|-|-|
-|Leather Cuirass|||yes|yes|yes|
+|Leather Cuirass|60||yes|yes|yes|
 |Chain Shirt|||no|yes|yes|
 |Full Padded|||yes|yes|yes|
 |Hide Armour|||yes|yes|yes|
-|Full Leather|||yes|yes|yes|
-|Brigandine|||yes|yes|yes|
-|Full Chain|||no|yes|yes|
-|Cuirass|||yes|yes|yes|
+|Full Leather|120||yes|yes|yes|
+|Brigandine|288||yes|yes|yes|
+|Full Chain|600||no|yes|yes/rare|
+|Cuirass|480||yes|yes|yes|
 |Segmented Mail|||no|yes|yes/rare|
-|Half Plate|||no|yes|yes/rare|
-|Full Plate|||no|yes|yes/rare|
+|Half Plate|1200||no|yes|yes/rare|
+|Full Plate|1560||no|yes|yes/rare|
 |Buckler|||yes|yes|yes|
-|Small Shield|||yes|yes|yes|
-|Large Shield|||yes|yes|rare|
-|Tower Shield|||yes|yes|rare|
+|Small Shield|60||yes|yes|yes|
+|Large Shield|90||yes|yes|rare|
+|Tower Shield|120||yes|yes|rare|
 
 ___
 ### Tools and Kits

@@ -77,29 +77,29 @@ ___
 |-|-|-|-|-|-|
 |Throwing axe|10||yes|yes|yes|
 |Hand axe|10||yes|yes|yes|
-|War shovel|12||no|no|yes|
-|War pick|||no|rare|yes|
-|Battleaxe|||rare|yes|rare|
-|GreatAxe|||rare|yes|rare|
+|War shovel|12?||no|no|yes|
+|War pick|12?||no|rare|yes|
+|Battleaxe|120?||rare|yes|rare|
+|GreatAxe|240?||rare|yes|rare|
 |Dagger|8||yes|yes|yes|
-|Shuriken|||yes|yes|yes|
+|Shuriken|8?||yes|yes|yes|
 |Short Sword|12||yes|yes|yes|
 |Small Sword|||no|rare|yes|
 |Scimitar|||yes|yes|yes|
 |Rapier|||no|rare|yes|
 |Falchion|||yes|yes|yes|
 |Longsword|168||rare/yes|yes|yes/rare|
-|Greatsword|||no|yes|yes/rare|
+|Greatsword|320?||no|yes|yes/rare|
 |Club|1||yes|yes|yes|
 |Greatclub|1||yes|yes|yes|
-|Mace|||yes|yes|yes|
-|Morning Star|||rare|yes|yes|
-|War hammer|||rare|rare|yes|
-|Maul|||rare|rare|yes|
-|Glaive|||yes|yes|yes|
+|Mace|24?||yes|yes|yes|
+|Morning Star|24?||rare|yes|yes|
+|War hammer|48?||rare|rare|yes|
+|Maul|96?||rare|rare|yes|
+|Glaive|90?||yes|yes|yes|
 |Halberd|128?||no|no/rare|yes|
 |Venetian Hammer|200?||no|no/rare|yes|
-|Long axe|||rare|yes|yes|
+|Long axe|128?||rare|yes|yes|
 |Short Spear|24||yes|yes|yes|
 |Spear|32||yes|yes|yes|
 |Long Spear|40||yes|yes|yes|

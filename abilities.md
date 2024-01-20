@@ -108,6 +108,31 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 
 ### Combat Abilities (Natural)
 ___
+### Berserk I-V
+
+**Description**: You enter a trance of violence, enhancing combat prowess at the cost of stressing the physical form past its limits.
+
+**Action**: Declare berserk as a "secondary action".
+
+**Effect**: A Berserk character can in the trance for [SP dice count] rounds. However, if the character does not take damage or attack from the the end of the start of their turn one round to their next turn, the trance ends. At the start of the trance, and at the start of each turn of the trance, the character regains [Nat] SP (NB: NOT SP **dice**). In addition the character has a bonus to walk, climb, swim and fly speed, weapon damage, and may have advantage on attacks.
+
+**Special**:
+- Berserk does not have an SP dice cost. However, when the berserker trance is over, you lose a number of HP equal to the level of the Berserk ability (so if you have "Berserk I" you lose 1HP).
+- While "berserk", a character may not use Int based skills and has disadvantage on all Wis and Cha based skills while Berserk. It has disadvantage on "Tinker" rolls.
+- While "berserk", a character cannot cast spells with a kinetic component and must roll a 1d6 when trying to cast spells with an incantation, losing the spell on a 3 or lower.
+- While "berserk", a character may not use abilities such as "sneak attack".
+
+**Berserk Table**:
+
+|Berserk level|SP dice prerequisite|Speed boost|Attack|Damage|Extra
+|-|-|-|-|-|-|
+|I|3|-|normal|2|-|
+|II|9|5|normal|3|Advantage vs "frightened"|
+|III|18|10|normal|4|Advantage vs "grappled" & "restrained"|
+|IV|30|15|advantage|5|Advantage vs vs "Charmed"|
+|V|45|20|advantage|6|Advantage vs "stunned" & "incapacitated"|
+
+___
 #### Combined Manoeuvre I-V
 
 **Description**: Combine two or more different "basic combat manoeuvre"s in one attack.
@@ -124,7 +149,7 @@ ___
 
 **Prerequisites**: For every extra manoeuvre combined this ability must be taken again
 
-|Number of Manoeuvres combined |SP dice total|Ability name|
+|Number of Manoeuvres combined|SP dice total|Ability name|
 |-|-|-|
 |2|6|Combined Manoeuvre I|
 |3|13|Combined Manoeuvre II|

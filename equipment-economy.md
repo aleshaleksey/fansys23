@@ -90,24 +90,24 @@ ___
 |Falchion|||yes|yes|yes|
 |Longsword|168||rare/yes|yes|yes/rare|
 |Greatsword|||no|yes|yes/rare|
-|Club|||yes|yes|yes|
-|Greatclub|||yes|yes|yes|
+|Club|1||yes|yes|yes|
+|Greatclub|1||yes|yes|yes|
 |Mace|||yes|yes|yes|
 |Morning Star|||rare|yes|yes|
 |War hammer|||rare|rare|yes|
 |Maul|||rare|rare|yes|
 |Glaive|||yes|yes|yes|
-|Halberd|||no|no/rare|yes|
-|Venetian Hammer|||no|no/rare|yes|
+|Halberd|128?||no|no/rare|yes|
+|Venetian Hammer|200?||no|no/rare|yes|
 |Long axe|||rare|yes|yes|
 |Short Spear|24||yes|yes|yes|
 |Spear|32||yes|yes|yes|
 |Long Spear|40||yes|yes|yes|
 |Javelin|||yes|rare|no|
 |War dart|||yes|rare|no|
-|Shortstaff|||yes|yes|yes|
-|Quarterstaff|||yes|yes|yes|
-|Sling|||yes|yes|rare|
+|Shortstaff|1||yes|yes|yes|
+|Quarterstaff|2||yes|yes|yes|
+|Sling|1||yes|yes|rare|
 |Shortbow|||yes|yes|yes/rare|
 |Composite Bow|||yes|yes|yes/rare|
 |Longbow|||yes|yes|yes/rare|
@@ -170,14 +170,15 @@ ___
 
 This table provides some numbers for how much of a resource one can expect to harvest from an area. An acre is 121 x 360 feet or about 24 x 72 5ft squares.
 
-|Item|Yield per year|Workforce|
-|-|-|-|
-|Wheat|||
-|Apple|||
-|Lumber|||
-|Iron|||
-|Marble|||
+|Item|Yield ancient|Yield medieval|Yield late
+|-|-|-|-|
+|Wheat|320lb|320lb|800lb|
+|Apple|4000lb|4000lb|8000lb|
+|Lumber||||
+|Iron||||
+|Marble||||
 
+**Wheat**: Yield is per acre. Usually 1g of seeds was sown for 12-100g of harvest. Lower yield in earlier ages were associated with higher yields of straw which is also an important material. You need about half a dozen peasants for 10 acres.
 ___
 ### Upkeep
 |Item|ancient |medieval |late |
@@ -198,14 +199,26 @@ ___
 |-|-|-|-|
 |Ale, poor (gallon)||1||
 |Ale, good (gallon)||4||
+|Cider, poor (gallon)||4||
+|Cider, good (gallon)||8||
 |Wine, poor (gallon)||6||
 |Wine, good (gallon)||16||
+|||||
 |Wheat (5lb)||1||
 |Bread (3lb)||1||
 |Bacon (1lb)||2||
+|Olive oil(1 gallon)|1|||
 |Eggs (12)||2||
 |Rations, good (4lb)||3||
 |Rations, expedition (4lb)||8||
+|||||
+|Purse/Pouch||3||
+|Shoes/Boots||10||
+|Courtier's Garments||480-8000||
+|Robes||60||
+|Woolen Garments||120||
+|Linen Garment||24||
+|Basic tunics||2-12||
 ___
 ### Adventuring Gear
 |Weapon|Cost (sp)|crafting days|"ancient"|"medieval"|"late"|
@@ -233,8 +246,8 @@ ___
 |Untrained dog|240||yes|yes|yes|
 |Hunting dog|480||yes|yes|yes|
 |||||||
-|Untrained Horse|240||yes|yes|yes|
-|Riding/draught Horse|480||yes|yes|yes|
+|Riding|480||yes|yes|yes|
+|Draught horse|60||yes|yes|yes|
 |Warhorse|4000-80000||yes|yes|yes|
 |||||||
 |Humanoid Slave|400||yes|yes|rare|
@@ -273,7 +286,7 @@ ___
 |Smith's forge||||||
 |Calligraphy kit||||||
 |Forgery kit||||||
-|Tinkere's tools||||||
+|Tinkerer's tools||||||
 |Carpenter's tools||||||
 |Locksmith's tools||||||
 |Glassblower's tools||||||

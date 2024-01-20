@@ -66,7 +66,7 @@ ___
 |-|-|-|-|-|-|-|
 |Stat|12|10|12|10|10|11|
 |Bonus|+1|0|+1|0|0|0|
-|Save|+1|0|+3|0|0|0|
+|Save|+2|+1|+3|+1|+1|+1|
 
 |Level(base)|MP dice|SP Dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
@@ -98,7 +98,7 @@ On the battlefield, will often use Cuirass and shield for (HiT: 17/16/11)
 |-|-|-|-|-|-|-|
 |Stat|12|12|12|14|10|12|
 |Bonus|+1|+1|+1|+2|0|+1|
-|Save|+1|+1|+1|+5|0|+1|
+|Save|+2|+2|+2|+5|+1|+2|
 
 |Level(base)|MP dice|SP Dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
@@ -128,7 +128,7 @@ The HiT includes +2 from padded armour and +2 from a small shield.
 |-|-|-|-|-|-|-|
 |Stat|14|12|14|10|10|11|
 |Bonus|+2|+1|+2|0|0|0|
-|Save|+2|0|+4|0|0|0|
+|Save|+3|+1|+5|+1|+1|+1|
 
 |Level(base)|MP dice|SP Dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
@@ -157,7 +157,7 @@ ___
 
 |HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|17/14/13|49|17|10|30|-|
+|17/14/13|17|49|10|30|-|
 
 (wears brigandine, Greatsword grants a +1 to shield HIT)
 
@@ -165,7 +165,7 @@ ___
 |-|-|-|-|-|-|-|
 |Stat|14|14|16|10|12|12|
 |Bonus|+2|+2|+3|0|+1|+1|
-|Save|+5|+2|+3|0|+3|+1|
+|Save|+7|+4|+8|+2|+3|+3|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -187,6 +187,7 @@ This block can also represents guard captains, monster hunters and other humans 
 
 A warrior usually carries one heavy weapon weapon and a sidearm. He may also carry a ranged weapon. He usually has an attendant, or at least a pack animal.
 
+___
 ### Human Knight
 |Level(base)|MP dice|SP Dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
@@ -200,7 +201,7 @@ A warrior usually carries one heavy weapon weapon and a sidearm. He may also car
 |-|-|-|-|-|-|-|
 |Stat|18|14|16|10|12|14|
 |Bonus|+4|+2|+3|0|+1|+2|
-|Save|+4|+2|+9|0|+5|+2|
+|Save|+6|+4|+9|+2|+5|+4|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -225,17 +226,108 @@ A knight usually has a warhorse, squire and attendants. Like a warrior, he will 
 ## Elf
 
 ### Elvish Youth
+|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|11/10/11|7|3|1|30ft|-|
 
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|10|13|8|11|10|12|
+|Bonus|0|+1|-1|0|0|+1|
+|Save|+1|+3|0|+1|+1|+1|
 
+|Level(base)|MP dice|SP Dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|1 (1)|3|2|1|1|2|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Shortbow|+3|1d6+1 piercing|range = 600/120ft|
+|Knife|+3|1d4+1 slashing||
+|Low-light vision||||
+|Spellcasting: Nature I|||"[Sour](spell-list.md#silent)", "[Hide](spell-list.md#hide)", "[Beast Speech](spell-list.md#beast-speech)"|
+|Proficiencies|||One musical instrument, elvish, common|
+|Skills|-|-|Usually +3 to "perform", +1 to one knowledge, +2 to "acrobatics" or +1 to "stealth"|
+|Loot|||Usually some small trinket of sentimental value and the clothes on their back|
+
+Elves live for a ridiculously long time. This stat block represents an elf that has lived for 100 years or less.
+
+An ordinary elf will seldom carry weapons beyond a dagger for no reason. These elves will seldom try to start a fight, preferring to hide and observe. If threatened they prefer to accept the terms and obtain revenge later if there is any risk. No one wants to die.
 
 ### Elf
+|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|12/10/12|23|16|6|30ft|-|
+(HiT (13/11/13) if wearing a light cuirass)
 
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|10|14|10|12|12|12|
+|Bonus|0|+2|0|+1|+1|+1|
+|Save|+1|+5|+1|+2|+4|+2|
 
+|Level(base)|MP dice|SP Dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|5 (1)|9|8|2|2|3|3|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Shortbow|+5|1d6+2 piercing|range = 600/120ft|
+|Sling|+5|1d6+2 piercing|range = 1600/80ft|
+|Knife|+5|1d4+2 slashing||
+|Low-light vision||||
+|[Fleet](abilities.md#fleet)|||Hide from light concealment|
+|[Silent Step I](abilities.md#silent-step-i-iii)|||Move more silently|
+|Spellcasting: Nature III|||"[Sour](spell-list.md#silent)", "[Hide](spell-list.md#hide)", "[Beast Speech](spell-list.md#beast-speech)", "[Least Heal](spell-list.md#least-heal)", "[Least Rest](spell-list.md#least-rest)", "[Animate Plant](spell-list.md#animate-plant)"|
+|Spellcasting: Water I|||"[Least Hydromancy](spell-list.md#least-hydromancy)", "[Mist](spell-list.md#mist)", "[Chill Blood](spell-list.md#chill-blood)"|
+|Proficiencies|||One musical instrument, elvish, common and at least 2 other languages|
+|Skills|-|-|Usually +5 to "perform", +3 to three knowledges, +4 to "acrobatics" and +4 to "stealth"|
+|Loot|||Usually some small trinket of sentimental value and the clothes on their back|
+
+The average elf has lived for centuries and has had time to learn an incredible range of skills. This thus represents your average elf.
+
+An average elf will carry a sling and knife for self defense, knowing that the world is more dangerous than it appears. They seldom enter combat unless there is a strict necessity for it. No one wants to die.
 
 ### Elvish Elder
+|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|15/15/15|76|49|15|30ft|-|
+(HiT (16/16/15) if wearing a light cuirass)
 
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|14|20|12|14|16|14|
+|Bonus|+2|+5|+1|+2|+3|+2|
+|Save|+5|+8|+7|+4|+11|+5|
 
+|Level(base)|MP dice|SP Dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|13 (3)|25|16|3|5|6|8|
 
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Longbow|+11|1d10+5 piercing|range = 600/120ft|
+|Sling|+11|1d6+5 piercing|range = 1600/80ft|
+|Knife|+11|1d4+5 slashing||
+|Low-light vision||||
+|[Multi-attack I](abilities.md#multi-attack-i-iii)|||Make 2 attacks per turn|
+|[Fleet](abilities.md#fleet)|||Hide from light concealment|
+|[Alert](abilities.md#alert)|||Immune to "surprised"|
+|[Aphonic Spell](abilities.md#aphonic-spell)|||Eschew incantation components|
+|[Pointblank Shot I](abilities.md#pointblank-shot-i-iii)|||Use bow and sling in melee|
+|[Precise Shot I](abilities.md#precise-shot-i-iii)|||Ignore light cover|
+|[Trick Shot I](abilities.md#trick-shot-i-ii)|||Avoid hitting friendlies in melee|
+|[Silent Step II](abilities.md#silent-step-i-iii)|||Move more silently & run silently|
+|Spellcasting: Nature VII|||"[Sour](spell-list.md#silent)", "[Hide](spell-list.md#hide)", "[Beast Speech](spell-list.md#beast-speech)", "[Least Heal](spell-list.md#least-heal)", "[Least Rest](spell-list.md#least-rest)", "[Animate Plant](spell-list.md#animate-plant)","[Cure](spell-list.md#cure)", "[Bestial Transformation](spell-list.md#bestial-transformation)", "[Rejuvenate Land](spell-list.md#rejuvenate-land)"|
+|Spellcasting: Water III|||"[Least Hydromancy](spell-list.md#least-hydromancy)", "[Mist](spell-list.md#mist)", "[Chill Blood](spell-list.md#chill-blood)", "[Winter's Touch](spell-list.md#winters-touch)", "[Summon Water Sprite](spell-list.md#summon-water-sprite)", "[Water Ward](spell-list.md#water-ward)"|
+|[Cursed Blood](abilities.md#cursed-blood)|||Reaction to cast spells in revenge|
+|Proficiencies|||One musical instrument, elvish, common and at least 2 other languages|
+|Skills|-|-|Usually +12 to "perform", +9 to four knowledges, +6 to the rest, +7 to "spellworking", +7 to "acrobatics" and +8 to "stealth"|
+|Loot|||Usually some small trinket of sentimental value and the clothes on their back|
+
+This represents a millennia old elf. They have likely seen civilisations rise and fall. If they ever had friends amongst shorter lived mortals, then they have likely passed on long ago. This entity has a terrifying wealth of experience. This block can represent an elvish king, or some traveller who has wondered the earth for longer than he can remember. Either way, this is an extremely dangerous opponent.
+
+Elvish elders seldom carry much on their journeys. They will almost never engage in combat (how else does one live this long). However, should an inevitable threat appear, they will attempt to eradicate it in the most effective manner. They will not fight fair or put themselves in danger unless absolutely necessary. No one wants to die.
 
 ### Elvish Hunter
 
@@ -243,8 +335,46 @@ A knight usually has a warhorse, squire and attendants. Like a warrior, he will 
 
 
 ### Elvish Mage
+|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|14/11/13|58|36|15|30ft|-|
+Wears a light cuirass.
 
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|10|16|12|14|18|14|
+|Bonus|+2|+3|+1|+2|+4|+2|
+|Save|+4|+5|+3|+8|+10|+4|
 
+|Level(base)|MP dice|SP Dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|10 (2)|19|13|3|4|5|6|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Sling|+8|1d6+3 piercing|range = 600/120ft|
+|Shortstaff|+8|1d6+3 piercing||
+|Knife|+8|1d4+3 slashing||
+|Low-light vision||||
+|[Fleet](abilities.md#fleet)|||Hide from light concealment|
+|[Alert](abilities.md#alert)|||Immune to "surprised"|
+|[Aphonic Spell](abilities.md#aphonic-spell)|||Eschew incantation components|
+|[Lingering Spell](abilities.md#lingering-spell)|||Spells last longer|
+|[Safe Cast](abilities.md#safe-cast)|||Eschew incantation components|
+|[Silent Step II](abilities.md#silent-step-i-iii)|||Move more silently & run silently|
+|Spellcasting: Nature V|||"[Sour](spell-list.md#silent)", "[Hide](spell-list.md#hide)", "[Beast Speech](spell-list.md#beast-speech)", "[Least Heal](spell-list.md#least-heal)", "[Least Rest](spell-list.md#least-rest)", "[Animate Plant](spell-list.md#animate-plant)","[Cure](spell-list.md#cure)", "[Bestial Transformation](spell-list.md#bestial-transformation)", "[Rejuvenate Land](spell-list.md#rejuvenate-land)"|
+|Spellcasting: Water V|||"[Least Hydromancy](spell-list.md#least-hydromancy)", "[Mist](spell-list.md#mist)", "[Chill Blood](spell-list.md#chill-blood)", "[Winter's Touch](spell-list.md#winters-touch)", "[Summon Water Sprite](spell-list.md#summon-water-sprite)", "[Water Ward](spell-list.md#water-ward)", "[](spell-list.md)"|
+|Spellcasting: Air III|||"[Least Anemancy](spell-list.md#least-anemancy)", "[Least Blast](spell-list.md#least-blast)", "[Spirits' Secrets](spell-list.md#spirits-secret)", "[Silence](spell-list.md#silence)", "[Glide](spell-list.md#glide)", "[Wind Walk](spell-list.md#wind-walk)", "[Guidance of the Winds](spell-list.md#guidance-of-the-winds)", |
+|[Cursed Blood](abilities.md#cursed-blood)|||Reaction to cast spells in revenge|
+|Proficiencies|||One musical instrument, elvish, common and at least 2 other languages|
+|Skills|-|-|Usually +5 to "perform", +7 to three knowledges, +9 to "spellworking", +4 to "acrobatics" and +8 to "stealth"|
+|Loot|||Usually some small trinket of sentimental value and the clothes on their back|
+
+This represents an elf who has devoted several centuries to learning spellcraft.
+
+An elvish mage will do just about anything to avoid getting into a fight. However, they will defend themselves, their apprentices and their brethren fiercely.
+
+___
 ## Orc
 
 ### Orc

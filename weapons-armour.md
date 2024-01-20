@@ -136,7 +136,7 @@ Damage Key:
 |Shortstaff|Staff|1d4/1d8|B|1+|Str/Dex|5|-|2|5|
 |Quarterstaff|Staff|1d10|B|2|Str|10|-|4|6|
 |||||||||
-|Sling|Sling|1d6|B|1|Dex|800|80|1|2|
+|Sling|Sling|1d6|B|1|Dex|1600|80|1|2|
 |Shortbow|Bow|1d6|P|2|Dex|600|120|1|4|
 |Composite Bow|Bow|1d8|P|2|Dex|1200|240|2|3|
 |Longbow|Bow|1d10|P|2|Dex|1200|240|3|6|

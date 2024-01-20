@@ -32,3 +32,14 @@ The version currently stands at:
 **v0.0.1**
 
 This means that it is the initial draft working version.
+
+## TODO
+
+- Finish and expand ability list.
+- Finish and expand spell list.
+- Finish equipment list.
+- Rules for superior and inferior equipment.
+- Rules for crafting.
+- A good number of monster/NPC stat blocks.
+- List and evaluate all sources of bonuses and penalties for analysis of balance.
+- Playtesting and analysis of balance.

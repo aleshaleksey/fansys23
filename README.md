@@ -20,7 +20,9 @@ The system is designed to provide a relatively high level of complexity at chara
 - [Races and Templates](races.md)
 - [Abilities](abilities.md)
 - [Spell List](spell-list.md)
-- Equipment and Economy
+- [Equipment and Economy](equipment-economy.md)
+- [NPC Stat Blocks](npc-stat-blocks.md)
+- [Monster Stat Blocks](monster-stat-blocks.md)
 - Crafting
 
 ## Version

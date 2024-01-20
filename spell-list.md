@@ -304,7 +304,7 @@
 |Duration|instantaneous|
 |Components|incantation|
 |Attack|SAP+Int|
-|Damage|1d8+Int Piercing| + 3
+|Damage|1d8+[Sup] Piercing| + 3
 |Limitation|Caster must be touching the ground| -1
 
 **Description**: Ask the earth nicely to harden and strike all entities within 5ft of you with sharp spikes. (5-1=4+4)

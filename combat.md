@@ -248,7 +248,7 @@ This is a collection of unsorted rules related to basic physical combat.
 #### Basic Martial Manoeuvres
 Any adventurer may attempt a martial manoeuvre. If an untrained combatant attempts this however, they risk attacks of opportunity and other penalties. Many monsters can carry out these manoeuvres without penalties or meeting the prerequisites. Special abilities and weapons/tools can reduce or remove penalties for manoeuvres or increase their effectiveness. Most manoeuvres are made as an attack within the attack action.
 
-The "Grapple", "Restrain", "Shove", "Throw" and "Trip" manoeuvres can only be used against targets no more than two size categories larger than self.
+The "Grapple", "Restrain", "Shove", "Throw" and "Trip" manoeuvres can only be used against targets no more than two size categories larger than self. The penalty for using a manoeuvre or attack without proficiency, if there is one is -5 to the roll.
 
 - **Attack**: This is not really a manoeuvre, and is available to all characters.
   - Effect: Deal damage to a target.

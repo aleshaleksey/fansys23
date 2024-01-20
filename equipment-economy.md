@@ -75,9 +75,9 @@ ___
 ### Weapons
 |Weapon|Cost (sp)|crafting days|"ancient"|"medieval"|"late"|
 |-|-|-|-|-|-|
-|Throwing axe|||yes|yes|yes|
-|Hand axe|||yes|yes|yes|
-|War shovel|||no|no|yes|
+|Throwing axe|10||yes|yes|yes|
+|Hand axe|10||yes|yes|yes|
+|War shovel|12||no|no|yes|
 |War pick|||no|rare|yes|
 |Battleaxe|||rare|yes|rare|
 |GreatAxe|||rare|yes|rare|
@@ -108,13 +108,13 @@ ___
 |Shortstaff|1||yes|yes|yes|
 |Quarterstaff|2||yes|yes|yes|
 |Sling|1||yes|yes|rare|
-|Shortbow|||yes|yes|yes/rare|
+|Shortbow|4||yes|yes|yes/rare|
 |Composite Bow|||yes|yes|yes/rare|
-|Longbow|||yes|yes|yes/rare|
+|Longbow|24||yes|yes|yes/rare|
 |Greatbow|||no|yes|rare|
-|Hand Crossbow|||no|rare|yes|
-|Crossbow|||no|yes|yes/rare|
-|Winch crossbow|||rare|yes|yes/rare|
+|Hand Crossbow|92||no|rare|yes|
+|Crossbow|48||no|yes|yes/rare|
+|Winch crossbow|92||rare|yes|yes/rare|
 |Pistol|480||no|no|rare/yes|
 |Musket|600||no|no|rare/yes|
 |Blunderbuss|480||no|no|rare/yes|
@@ -124,8 +124,8 @@ ___
 |Weapon|Cost (sp)|crafting days|"ancient"|"medieval"|"late"|
 |-|-|-|-|-|-|
 |Arrow(24)|5||yes|yes|yes|
-|Crossbow bolt(24)|||rare|yes|yes|
-|Sling Bullet(24)|||yes|yes|rare|
+|Crossbow bolt(24)|5||rare|yes|yes|
+|Sling Bullet(24)|1||yes|yes|rare|
 |Bullets & Powder(20)|||no|no/rare|yes|
 
 ___
@@ -151,7 +151,7 @@ ___
 ___
 ### Labour Costs
 
-Labour costs are given in silver (sp) per day (10-12 hours). Labour that does not need to be paid for, still has to be fed. Generally it should be assumed that the wages of unskilled workers, trained worker, mercenaries and scribes includes food and board where appropriate.
+Labour costs are given in silver (sp) per day (10-12 hours). Labour that does not need to be paid for, still has to be fed. Generally it should be assumed that the wages of unskilled workers, trained worker, mercenaries and scribes includes food and board where appropriate. The wages are given for medium sized humanoids. Larger entities, like giants, will have a significantly higher upkeep, but will also accomplish certain tasks, especially construction and mining a lot more quickly and effectively.
 
 |Labour type|ancient |medieval |late |
 |-|-|-|-|
@@ -219,6 +219,10 @@ ___
 |Woolen Garments||120||
 |Linen Garment||24||
 |Basic tunics||2-12||
+|||||
+|A tome/grimoire||480||
+|A tome (rent)||1/day||
+|||||
 ___
 ### Adventuring Gear
 |Weapon|Cost (sp)|crafting days|"ancient"|"medieval"|"late"|
@@ -256,14 +260,14 @@ ___
 |Carriage|3880||yes|yes|yes|
 |Barge|4800||yes|yes|yes|
 |||||||
-|Small house (rent)|10/month||yes|yes|yes|
-|House (rent)|40/month||yes|yes|yes|
-|Small Manor (rent)|120/month||yes|yes|yes|
+|Small house (rent)|6/month||yes|yes|yes|
+|House (rent)|24/month||yes|yes|yes|
+|Small Manor (rent)|90/month||yes|yes|yes|
 |Acre of land|4||rare|rare|rare|
-|Small house|||yes|yes|yes|
-|House|||yes|yes|yes|
-|Small Manor|||yes|yes|yes|
-|Keep|192K||yes|yes|yes|
+|Small house|960||yes|yes|yes|
+|House|4800||yes|yes|yes|
+|Small Manor|144K||yes|yes|yes|
+|Keep|192K|95K|yes|yes|yes|
 |Castle|672K||yes|yes|yes|
 |Fortress|4800K||yes|yes|yes|
 |||||||
@@ -274,41 +278,60 @@ ___
 
 *Acre of land*: Land in many kingdoms is not commonly available and cannot be bought and sold without special permission from officials, lords or kings.
 
+*Keep*: A stone keep measures approximately 48 x 48 x 48 feet, has 3-4 stories and walls about 4-6 feet thick. The crafting days can be split between any number of workers and include procurement and transport costs. Even if additional man power is available, medium sized humanoids will not accomplish this task in less than 3 months by conventional means.
+
 ___
 ### Tools and Kits
 |Weapon|Cost (sp)|crafting days|"ancient"|"medieval"|"late"|
 |-|-|-|-|-|-|
-|Diver's kit||||||
+|Diver's kit|||no|rare|yes|
 |Climber's kit||||||
-|Entrenching tools||||||
-|Mason's tools||||||
-|Smith's tools||||||
-|Smith's forge||||||
-|Calligraphy kit||||||
-|Forgery kit||||||
-|Tinkerer's tools||||||
-|Carpenter's tools||||||
-|Locksmith's tools||||||
-|Glassblower's tools||||||
-|Jeweler's tools||||||
-|Healer's kit||||||
-|Butcher's tool||||||
-|Herbalist's kit||||||
-|Miner's tools||||||
-|Trapper's tools||||||
-|Fisher's tools||||||
-|Alchemist's equipment||||||
-|Poisoner's equipment||||||
-|Cartographer's tools||||||
-|Astronomer's tools||||||
-|Disguise kit||||||
-|Gaming Set (small)||||||
-|Gaming Set (large)||||||
-|Musical instrument (simple)||||||
-|Musical instrument (average)||||||
-|Musical instrument (complex)||||||
-|Musical instrument (exquisite)||||||
+|Entrenching tools|30||yes|yes|yes|
+|Farmer's equipment|80||yes|yes|yes|
+|Mason's tools|18||yes|yes|yes|
+|Smith's tools|120||rare|yes|yes|
+|Smith's forge|5600||no/rare|yes|yes|
+|Calligraphy kit|||rare|no/rare|yes|
+|Forgery kit|||yes|yes|yes|
+|Tinkerer's tools|||rare|no/rare|yes|
+|Carpenter's tools|||yes|yes|yes|
+|Locksmith's tools|||no/rare|rare|yes|
+|Glassblower's tools|||yes|rare|yes|
+|Jeweler's tools|||yes|yes|yes|
+|Healer's kit|||yes|yes|yes|
+|Butcher's tool|||yes|yes|yes|
+|Herbalist's kit|||yes|yes|yes|
+|Miner's tools|||yes|yes|yes|
+|Trapper's tools|||yes|yes|yes|
+|Fisher's tools|||yes|yes|yes|
+|Alchemist's equipment|||yes|rare|yes|
+|Poisoner's equipment|||yes|yes|yes|
+|Cartographer's tools|||yes|rare|yes|
+|Astronomer's tools|||yes|rare|yes|
+|Disguise kit|||yes|yes|yes|
+|Gaming Set (small)|||yes|yes|yes|
+|Gaming Set (large)|||yes|yes|yes|
+|Musical instrument (simple)|1-10||yes|yes|yes|
+|Musical instrument (average)|12-120||yes|yes|yes|
+|Musical instrument (complex)|120-2400||yes|rare|yes|
+|Musical instrument (exquisite)|2400+||rare|no|yes|
 |||||||
+
+**Entrenching tools**: This is a full set of equipment needed to fortify a a field position or make a simple dwelling. It includes, hammer, chisel, axe, shovel, knives and a number of other implements.
+
+**Farmer's Equipment**: Farmer's equipment consists of yokes, ploughs, shovels and other minimal equipment needed to raise crops. Animals not included.
+
+**Smith's tools**: A minimal set of tools needed to make use of a forge or make a field forge. Using a field forge gives -5 on all crafting rolls. The set include hammers, vice, chisels, small anvil and other implements. The set weighs about 30lb.
+
+**Smith's forge**: A complete forge. This is not mobile and consists of furnace as well as all other tools and structures for turning an iron ingot into an implement.
+
+**Musical instruments (simple)**: This mostly includes simple wind instruments made of reed, with no metal parts and no rare materials. These would be welcome at a festival, a fey glade, ora village tavern, but might get you laughed out of town or executed at a king's court.
+
+**Musical instruments (average)**: This includes more robust wind instruments and certain percussion, such as tambourines. Certain simpler string instruments would fall in this category. They might contain mixture of wooden, hide and metal parts and would be acceptable either as a performance in a town's tavern or as part of a band or orchestra. A buffoon at a court might use instruments from this category.
+
+**Musical instrument (complex)**: This includes most string instruments (guitars/lutes, violins, harps, lyres), as brass and certain others. These would be acceptable at many mortal courts and would draw crowds at backwater settlements for their rarity.
+
+**Musical instrument (exquisite)**: This includes things like pianos, church organs and other large, complex instruments. They are generally nor easily transported.
 
 ___
 # Notes

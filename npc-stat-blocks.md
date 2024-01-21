@@ -13,7 +13,7 @@ This section contains a few NPC stat blocks and notes on their intended use and 
 - [Elvish Youth](#elvish-youth)
 - [Elf](#elf)
 - [Elvish Elder](#elvish-elder)
-- [Elvish Hunter](#elvish-scout)
+- [Elvish Hunter](#elvish-hunter)
 - [Elvish Mage](#elvish-mage)
 - [Orc](#orc)
 - [Orcish Hunter](#orcish-hunter)
@@ -151,10 +151,6 @@ Militiamen will normally perform their combat duty, but will break and flee if t
 
 ___
 ### Human Warrior
-|Level(base)|MP dice|SP Dice|Nat|Sup|NAP|SUP|
-|-|-|-|-|-|-|-|
-|6(2)|14|6|3|2|5|4|
-
 |HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |17/14/13|17|49|10|30|-|
@@ -166,6 +162,10 @@ ___
 |Stat|14|14|16|10|12|12|
 |Bonus|+2|+2|+3|0|+1|+1|
 |Save|+7|+4|+8|+2|+3|+3|
+
+|Level(base)|MP dice|SP Dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|6(2)|14|6|3|2|5|4|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -189,10 +189,6 @@ A warrior usually carries one heavy weapon weapon and a sidearm. He may also car
 
 ___
 ### Human Knight
-|Level(base)|MP dice|SP Dice|Nat|Sup|NAP|SUP|
-|-|-|-|-|-|-|-|
-|9(2)|10|19|4|2|6|4|
-
 |HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |23/19/19|38|65|14|30|-|
@@ -202,6 +198,10 @@ ___
 |Stat|18|14|16|10|12|14|
 |Bonus|+4|+2|+3|0|+1|+2|
 |Save|+6|+4|+9|+2|+5|+4|
+
+|Level(base)|MP dice|SP Dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|9(2)|10|19|4|2|6|4|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -254,10 +254,12 @@ Elves live for a ridiculously long time. This stat block represents an elf that 
 
 An ordinary elf will seldom carry weapons beyond a dagger for no reason. These elves will seldom try to start a fight, preferring to hide and observe. If threatened they prefer to accept the terms and obtain revenge later if there is any risk. No one wants to die.
 
+___
 ### Elf
 |HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |12/10/12|23|16|6|30ft|-|
+
 (HiT (13/11/13) if wearing a light cuirass)
 
 ||Str|Dex|Con|Int|Wis|Cha|
@@ -288,6 +290,7 @@ The average elf has lived for centuries and has had time to learn an incredible 
 
 An average elf will carry a sling and knife for self defense, knowing that the world is more dangerous than it appears. They seldom enter combat unless there is a strict necessity for it. No one wants to die.
 
+____
 ### Elvish Elder
 |HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
@@ -329,15 +332,61 @@ This represents a millennia old elf. They have likely seen civilisations rise an
 
 Elvish elders seldom carry much on their journeys. They will almost never engage in combat (how else does one live this long). However, should an inevitable threat appear, they will attempt to eradicate it in the most effective manner. They will not fight fair or put themselves in danger unless absolutely necessary. No one wants to die.
 
+___
 ### Elvish Hunter
+|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|17/17/15|39|53|13|40ft|-|
 
+Wears padded armour. When wielding blades increases to 18.
 
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|14|20|12|12|12|12|
+|Bonus|+2|+5|+1|+1|+1|+1|
+|Save|+6|+12|+8|+4|+7|+4|
 
+|Level(base)|MP dice|SP Dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|11 (3)|14|21|4|3|7|6|
 
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Longbow|+11|1d10+5 piercing|range = 1200/240ft|
+|Sling|+11|1d6+5 piercing|range = 1600/80ft|
+|Scimitar|+11|1d8+5 slashing||
+|Knife|+11|1d4+5 slashing||
+|Low-light vision||||
+|[Multi-attack II](abilities.md#multi-attack-i-iii)|||Make 3 attacks per turn|
+|[Offhand fighting II](abilities.md#multi-attack-i-iii)|||Make 2 offhand attacks per turn|
+|[Fleet](abilities.md#fleet)|||Hide from light concealment|
+|[Skirmisher](abilities.md#skirmisher)|||Do not provoke attack of opportunity after attack|
+|[Swift Strike](abilities.md#swift-strike)|||Attack of opportunity hits first|
+|[Speed II](abilities.md#speed)|||+10 base movement|
+|[Alert](abilities.md#alert)|||Immune to "surprised"|
+|[Aphonic Spell](abilities.md#aphonic-spell)|||Eschew incantation components|
+|[Sniper](abilities.md#sniper)|||Do not reveal yourself when you miss|
+|[Precise Shot I](abilities.md#precise-shot-i-iii)|||Ignore light cover|
+|[Trick Shot I](abilities.md#trick-shot-i-ii)|||Avoid hitting friendlies in melee|
+|[Silent Step III](abilities.md#silent-step-i-iii)|||Move really silently|
+|Spellcasting: Nature IV|||"[Sour](spell-list.md#silent)", "[Hide](spell-list.md#hide)", "[Beast Speech](spell-list.md#beast-speech)", "[Least Heal](spell-list.md#least-heal)", "[Least Rest](spell-list.md#least-rest)", "[Cure](spell-list.md#cure)", "[Bestial Transformation](spell-list.md#bestial-transformation)"|
+|Spellcasting: Air II|||"[Least Anemancy](spell-list.md#least-anemancy)", "[Least Blast](spell-list.md#least-blast)", "[Spirits' Secrets](spell-list.md#spirits-secret)", "[Silence](spell-list.md#silence)", "[Glide](spell-list.md#glide)"|
+|Proficiencies|||One musical instrument, elvish, common|
+|Skills|-|-|+13 stealth, +13 Acrobatics, +8 Athletics, Climb, Swim, +8 Track, Observe, +5 Sense motive, knowledge: nature, geography|
+|Loot|||Usually some small trinket of sentimental value and the clothes on their back|
+
+This block represents an elite warrior/scout who hunts down evil creatures and enemies of elven-kind, be they monsters that hunt people, or people who hunt elves.
+
+A hunter carries only what they need to exist autonomously and hunt down their pray. A hunter prefers to remain hidden and kill from afar, if necessary using magic to deceive, mislead and otherwise gain the upper hand. A hunter makes maximum use of "sniper" and "aphonic spell" to avoid detection. They will use "silence" to shut down enemy spellcasters. Killing prey when it sleeps or is otherwise weak is most preferable. However, if they must they will fight up close using their superior speed to inflict a death by a thousand cuts.
+
+**NB**: Do not use this stat block unless you intend to kill the party, or know that they have a very good capacity when it comes to detecting hidden foes.
+
+___
 ### Elvish Mage
 |HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |14/11/13|58|36|15|30ft|-|
+
 Wears a light cuirass.
 
 ||Str|Dex|Con|Int|Wis|Cha|
@@ -364,7 +413,7 @@ Wears a light cuirass.
 |[Silent Step II](abilities.md#silent-step-i-iii)|||Move more silently & run silently|
 |Spellcasting: Nature V|||"[Sour](spell-list.md#silent)", "[Hide](spell-list.md#hide)", "[Beast Speech](spell-list.md#beast-speech)", "[Least Heal](spell-list.md#least-heal)", "[Least Rest](spell-list.md#least-rest)", "[Animate Plant](spell-list.md#animate-plant)","[Cure](spell-list.md#cure)", "[Bestial Transformation](spell-list.md#bestial-transformation)", "[Rejuvenate Land](spell-list.md#rejuvenate-land)"|
 |Spellcasting: Water V|||"[Least Hydromancy](spell-list.md#least-hydromancy)", "[Mist](spell-list.md#mist)", "[Chill Blood](spell-list.md#chill-blood)", "[Winter's Touch](spell-list.md#winters-touch)", "[Summon Water Sprite](spell-list.md#summon-water-sprite)", "[Water Ward](spell-list.md#water-ward)", "[](spell-list.md)"|
-|Spellcasting: Air III|||"[Least Anemancy](spell-list.md#least-anemancy)", "[Least Blast](spell-list.md#least-blast)", "[Spirits' Secrets](spell-list.md#spirits-secret)", "[Silence](spell-list.md#silence)", "[Glide](spell-list.md#glide)", "[Wind Walk](spell-list.md#wind-walk)", "[Guidance of the Winds](spell-list.md#guidance-of-the-winds)", |
+|Spellcasting: Air III|||"[Least Anemancy](spell-list.md#least-anemancy)", "[Least Blast](spell-list.md#least-blast)", "[Spirits' Secrets](spell-list.md#spirits-secret)", "[Silence](spell-list.md#silence)", "[Glide](spell-list.md#glide)", "[Wind Walk](spell-list.md#wind-walk)", "[Guidance of the Winds](spell-list.md#guidance-of-the-winds)"|
 |[Cursed Blood](abilities.md#cursed-blood)|||Reaction to cast spells in revenge|
 |Proficiencies|||One musical instrument, elvish, common and at least 2 other languages|
 |Skills|-|-|Usually +5 to "perform", +7 to three knowledges, +9 to "spellworking", +4 to "acrobatics" and +8 to "stealth"|

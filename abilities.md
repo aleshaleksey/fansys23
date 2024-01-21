@@ -33,6 +33,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 
 ### Natural (Combat)
 
+- [Berserk I-V](#berserk-i-v)
 - [Broad Strike](#broad-strike)
 - [Combined Manoeuvre (I-V)](#combined-manoeuvre-i-v)
 - [Counterstrike](#ounterstrike)
@@ -296,7 +297,7 @@ ___
 **Special**:
 - Sneak attack can only be made with a Dex based weapon on a Dex based attack roll.
 - You can only make one weapon attack when using "sneak attack".
-- The target must be unaware of you, "surprised", or be in melee range of an entity hostile to it.
+- The target must be unaware of you, "surprised", or be in melee range of another entity hostile to it.
 - Since it uses a "main action" it cannot be used as a "reaction".
 
 **Prerequisite table**: Sneak attack has 10 levels. The maximum level of sneak attack a character may have is [Level / 2]
@@ -376,7 +377,7 @@ ___
 - Damage: 
   - [[Base]d6 + [Int]] (fire or ice).
   - [[Base]d4 + [Int]] for lightning or light.
-- Dice: MP.
+- Dice: MP (base dice cost = 0).
 - Per dice: 1 extra damage dice / MP dice + 10ft/30ft of range (cone/blast).
 
 **Special**: Elemental touch must be taken separately for each element.
@@ -398,7 +399,7 @@ ___
 - Damage: 
   - [[Base]d6 + [Int]] (fire or ice).
   - [[Base]d4 + [Int]] for lightning or light.
-- Dice: MP.
+- Dice: MP (base dice cost = 0).
 - Per dice: 2 extra damage dice / MP dice.
 
 **Other**: (Also a "main action")

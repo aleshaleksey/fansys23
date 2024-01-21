@@ -131,7 +131,7 @@ Damage Key:
 |Spear|Spear|1d8/1d12|P|1+|Str|10|special|4|6|
 |Long Spear|Spear|1d12|P|2|Str|15|-|8|10|
 |Javelin|Spear|1d8|P|1|Str|120|40|2|4|
-|War dart|Spear|1d4|P|1|Dex|240|60|0.5|4|
+|War dart|Spear|1d4|P|1|Str/Dex|240|60|0.5|4|
 |||||||||||
 |Shortstaff|Staff|1d4/1d8|B|1+|Str/Dex|5|-|2|5|
 |Quarterstaff|Staff|1d10|B|2|Str|10|-|4|6|

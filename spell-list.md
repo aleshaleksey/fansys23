@@ -1961,10 +1961,10 @@ ____
 - Earth
     - [Earthen Hand](#earthen-hand)
     - [Summon Gnome](#summon-gnome)
+    - [Warded Ground](#warded-ground)
 - Fire
     - [Meadow of Flame](#meadow-of-flame)
     - [Summon Fire Sprite](#summon-flame-sprite)
-    - [Warded Ground](#warded-ground)
     - [Warmth](#warmth)
 - Water
     - [Least Transformation](#least-transformation)

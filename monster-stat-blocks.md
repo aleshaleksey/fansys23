@@ -218,6 +218,37 @@ ___
 
 ## Profane: Undead
 
+Undead are mortals that died but failed to move on. They are cursed by creation and driven to destroy or oppose it in some way. Undead do not breath, sleep. They are vulnerable to "divine" damage. However they are immune to "disease", "unconscious", "dying", "stunned", "charmed", "frightened" and "paralysed" and "resistant" to "physical" damage.
+
+### Skeleton
+|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|15/13/12|-|-|29|30|-|
+
+(Skeletons have a natural armour of +3)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|10|14|12|-|12|-|
+|Bonus|0|+2|+1|-|+1|-|
+|Save|+1|+3|+2|-|+2|-|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|3 (1)|6|5|1|1|2|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|||||
+|||||
+|||||
+|||||
+
+Skeletons generally obey the will of whoever raised them.
+
+
+
+
 |HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 ||||||

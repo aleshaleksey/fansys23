@@ -98,14 +98,20 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 
 ### General Boons
 
+- [Blind Sight I-VI](#blind-sight-i-vi)
 - [Blink](#blink)
 - [Extra Save](#extra-save)
 - [Fleet](#fleet)
+- [Heat Sense I-VI](#heat-sense-i-v)
+- [Keen Senses I-III](#keen-senses-i-iii)
+- [Life Sense I-VI](#life-sense-i-v)
+- [Low-light Vision](#low-light-vision)
 - [Silent Step (I-III)](#silent-step-i-iii)
 - [Sniper](#sniper)
 - [Speed](#speed)
 - [Sprinter](#sprinter)
 - [Stalker](#stalker)
+- [Tremor Sense I-VI](#tremor-sense-i-v)
 
 ### Combat Abilities (Natural)
 ___
@@ -982,6 +988,7 @@ ___
 **Description**: You can try to stealth from "light concealment".
 
 **Prerequisite**: At least one rank or "base" in "stealth".
+
 ___
 #### Silent Step I-III
 
@@ -1037,3 +1044,107 @@ ___
 **Description**: You can use "stealth" as a "secondary action".
 
 **Prerequisites**: SP dice total of 5. At least 1 rank in "stealth".
+
+___
+#### Low-light Vision
+
+**Type**: (Natural/Supernatural, Class A)
+
+**Description**: You can see in low light conditions (eg a starry night) as if it was daytime. However, you cannot see in pitch black (a sealed cave or the oceanic abyss).
+
+**Prerequisites**: 15 MP dice.
+
+**Special**: "Low-light vision" is a "supernatural" boon when taken with level points, but can be natural as part of a template or monster block.
+
+___
+#### Heat Sense I-V
+
+**Type**: (Natural/Supernatural, Class A)
+
+**Description**: Your vision can detect differences in temperature with pitch black (extreme cold) to blinding white (a blazing fire). You can see warm blooded creatures and other sources of heat even in complete darkness.
+
+**Prerequisites**:
+|Heat Sense level|Range|MP dice prerequisite|Other|
+|-|-|-|-|
+|I|15ft|9|-|
+|II|30ft|15|Heat Sense I|
+|III|45ft|21|Heat Sense II|
+|IV|60ft|27|Heat Sense III|
+|V|90ft|33|Heat Sense IV|
+|VI|120ft|39|Heat Sense V|
+
+**Special**: "Heat sense" is a "supernatural" boon when taken with level points, but can be natural as part of a template or monster block.
+
+___
+#### Life Sense I-V
+
+**Type**: (Supernatural, Class S)
+
+**Description**: You gain the ability to see the life-force of other entities within the range of your "life sense". This sense does not detect "constructs" or "undead".
+
+**Prerequisites**:
+|Life Sense level|Range|MP dice prerequisite|Other|
+|-|-|-|-|
+|I|15ft|12|-|
+|II|30ft|18|Life Sense I|
+|III|45ft|24|Life Sense II|
+|IV|60ft|30|Life Sense III|
+|V|90ft|36|Life Sense IV|
+|VI|120ft|42|Life Sense V|
+
+___
+#### Tremor Sense I-V
+
+**Type**: (Natural/Supernatural, Class A)
+
+**Description**: You gain the ability to determine the location of an entity based on vibrations transmitted through the ground or liquid you and the entity are both in contact with.
+
+**Prerequisites**:
+|Tremor Sense level|Range|MP/SP dice prerequisite|Other|
+|-|-|-|-|
+|I|15ft|5|-|
+|II|30ft|11|Tremor Sense I|
+|III|45ft|17|Tremor Sense II|
+|IV|60ft|23|Tremor Sense III|
+|V|90ft|29|Tremor Sense IV|
+|VI|120ft|35|Tremor Sense V|
+
+**Special**:
+- "Tremor Sense" can be natural or supernatural.
+- Tremor sense allows you to localise an entity, however, for the sake of targeted ranged attacks you still have disadvantage.
+
+
+___
+#### Blind Sight I-VI
+
+**Type**: (Natural/Supernatural, Class A)
+
+**Description**: Gain the ability to see things even when "blinded" or effectively "blinded". Every time you take this, the range increases by 5ft.
+
+**Prerequisites**:
+|Blind Sight level|Range|MP/SP dice prerequisite|Other|
+|-|-|-|-|
+|I|5ft|5|-|
+|II|10ft|11|Blind Sight I|
+|III|15ft|17|Blind Sight II|
+|IV|20ft|23|Blind Sight III|
+|V|25ft|29|Blind Sight IV|
+|VI|30ft|35|Blind Sight V|
+
+**Special**: "Blind Sight" can be either natural or supernatural.
+
+___
+#### Keen Senses I-III
+
+**Type**: (Supernatural, Class A)
+
+**Description**: Select either sight, smell or hearing. You gain advantage on all "observe rolls based on this sense.
+
+**Prerequisites**:
+|Keen Senses level|MP dice prerequisite|Base prerequisite|Other|
+|-|-|-|-|
+|I|8|2|-|
+|II|16|3|Keen Senses I|
+|III|24|4|Keen Senses II|
+
+**Special**: "Keen senses" is a "supernatural" boon when taken with level points, but can be natural as part of a template or monster block.

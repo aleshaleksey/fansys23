@@ -191,7 +191,9 @@ In hostile or wilderness environments characters must often take additions steps
 - Resolve possible encounters.
 - Regain resources (HP, SP, MP) if the rest is successful.
 
-Failure to ameliorate a suitable site leads to [CON] save, with the threshold determined by terrain, weather (see tables above) and any bonuses from special abilities and spells.
+Failure to ameliorate a suitable site leads to Con save, with the threshold determined by terrain, weather (see tables above) and any bonuses from special abilities and spells.
+
+The full rules on resting can be found in [Rest and Recuperation](combat.md#rest-and-recuperation).
 
 #### Environmental hazards. (TODO)
 Depending on the nature of an environment being explored, it is possible to encounter various hazards. This ranges from weather related hazards like storms, extreme heat and , to terrain dangers such as raging rivers, avalanches and rockfall, to "man"-made dangers such as traps in dungeons.

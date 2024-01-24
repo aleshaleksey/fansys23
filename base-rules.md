@@ -265,7 +265,7 @@ A character has resource pools. These are a critical part of the game and are ex
 
 - An entity at 1/2 HP gains penalties.
 - An entity at 0 HP is disabled and cannot act.
-- An entity at -HP total is destroyed.
+- An entity at the negative of their HP total is destroyed.
 - A character regains a single point of HP per long rest (usually a day). If a character receives long term medical care this becomes 2HP.
 - A character has maximum HP=CON+CHA+LEVEL.
 - When a character with no SP takes natural damage, it loses HP equal to the damage taken.

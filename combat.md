@@ -334,3 +334,45 @@ Spell ranges are designated as "**close**" or "**ranged**".
   4. Concentration can be disrupted by taking damage (DC10 or 1/2 damage taken, whichever is higher).
   5. Concentration can be disrupted by violent movement (DC10), violent weather (DC10) or both (DC15).
   6. A caster can "hold" an "instantaneous" spell with a release trigger to trigger the effect within a minute of casting. The DC=10+[rounds held]. If the trigger is not met the spell dissipates. The cost of the spell is paid when the spell is cast (always), not when it is triggered.
+
+___
+## Rest and Recuperation
+
+After expending resource or sustaining injury in combat or otherwise, a character requires time of rest and healing to restore their strength. A character needs a certain level of comfort to rest effectively. Furthermore there are three types of rest: Short rest, long rest and full rest. Depending on how harsh and "gritty" the game you are in is, the time period that such a rest covers may vary. We recommend the "high action" times for most groups. "Harsh" rules are recommended for more gritty games, or games where violence is meant as the exception and not the rule.
+
+### Preconditions for resting
+
+A character cannot rest if:
+- They are experiencing violent motion (eg on a galloping horse).
+- They are exerting themselves (eg casting spells or doing labour).
+- They are experiencing any extreme weather effect.
+
+In addition, certain types of rest have additional requirements:
+- For a long rest or longer a character must have access to sleep, food and water (if they sleep eat or drink respectively).
+- For a long rest or longer a character must be in an "ameliorated" area or make a Con save against the [terrain + weather] threshold in order to rest successfully (see [Camping](movement-exploration.md#camping)).
+- In addition for a full rest a character must have access to medical care and not be subject to severe weather conditions for longer than 4h at a time (or they must make a Con save against the [terrain + weather] threshold or have to restart the rest).
+- In addition for a full rest a character must not suffer any effects that cause it to lose hit points.
+
+### Short Rest
+
+The recommended duration for a short rest is 1h in a high-action game and 4h in a harsh game. During a short rest a character regains:
+- 1/2 (rounded up) of their MP dice.
+- 1/2 (rounded up) of their SP dice.
+- [1/2 x CON x LEVEL + Total MP dice count] MP.
+- [1/2 x CON x LEVEL + Total MP dice count] SP.
+
+A character can benefit from number of short rests per long rest no higher than its [Base]. So a level 4 character can benefit from only 1 short rest per long rest, while a level 16 character can benefit from 4 short rests per long rest. This represents a higher level character having a deeper pool of reserves. 
+
+### Long Rest
+
+The recommended duration for long rest is 8h in a high action game and 1 day in a harsh game. During a long rest a character gains all of the benefits of a short rest, as well as:
+- Resetting the short rest counter.
+- Regaining exactly 1 HP. (This can be increased to 2 HP with the [Heal](skills.md#heal).)
+
+A character can benefit from no more than one long rest per 24h. In addition a character must carry out at least an hour of exertion after their long rest to benefit from a short rest.
+
+### Full Rest
+
+A full rest is a week of downtime in a high action game and two weeks of downtime with constant long term medical care (see [Heal](skills.md#heal)) in a harsh game. During this time a character regains all SP dice, MP dice, MP, SP and HP.
+
+It is recommended that a character should have to take a full rest in order to level up, which represents the time needed to internalise and "own" the experience gained in previous adventures.

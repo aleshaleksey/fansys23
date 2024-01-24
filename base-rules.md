@@ -1,5 +1,5 @@
 ## Foreword
-This is a FIRST DRAFT of some general rules. They are over-ruled by more specific rules that pertain to certain creatures and situations. Some rules are prefaced by an ALWAYS or NEVER directive. In these cases they are absolute and apply in all situations. I have used the "advantage" and "disadvantage" in a lot of places in place of "bonus" and "penalty". Take it as a recommendation and not a set rule (since we haven't balanced anything).
+This is a FIRST DRAFT of some general rules. They are over-ruled by more specific rules that pertain to certain creatures and situations. Some rules are prefaced by an ALWAYS or NEVER directive. In these cases they are absolute and apply in all situations.
 
 ---
 ## Purpose of the system
@@ -22,7 +22,7 @@ Rolling dice introduces uncertainty into what is otherwise a numbers game. The o
 It is possible to play this kind of game without ever rolling dice (using average values), however this is generally considered boring, which is why we use dice.
 
 #### Rounding up and down
-Whenever a roll is divided (eg half damage, jump distances, bonuses, etc) and the result is not a whole number, the principle of "round up, except for damage" is applied.
+Whenever a roll (or other number) is divided (eg half damage, jump distances, bonuses, etc) and the result is not a whole number, the principle of "round up, except for damage" is applied.
 
 #### Core Rolls
 There are three (and a half) types of base roll.
@@ -31,7 +31,7 @@ There are three (and a half) types of base roll.
 - An targeted attack.
 
 #### Version I: 2d12
-The core dice for ability checks/tests, saves and attacks is 2D12. You roll a 2D12 and add a static modifier. If the result equals or exceeds a target value, you succeed. Otherwise you fail.
+The core dice for ability checks/tests, saves and attacks is 2d12. You roll a 2d12 and add a static modifier. If the result equals or exceeds a target value, you succeed. Otherwise you fail.
 - **General Special**: Also, for every 12 you roll, add +2 to the result. For every 1, subtract 2 from the result.
 - **Saves and Attacks**: Also, snake eyes (1,1) always fails. D12 (12,12) always succeeds.
 - **Attacks**: Also, or each 12 rolled roll the "damage dice" again and add to total damage.

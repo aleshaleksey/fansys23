@@ -99,7 +99,7 @@ The system does not debate whether different races are different species or not.
 
 All characters start with a template. A template is a set of abilities, traits and properties. Usually it is associated with a race or creature type. Not all templates are equal. Some templates (eg dragon, angel) are blatantly more powerful than others. In order to offset this, templates have levels. Templates exist for level 0, level 4 and level 9. They can also be created for other levels. For a start, level 0 templates should be considered the standard.
 
-For higher power games, where players wish to play angels, devils, dragons and other things, higher level templates should be used. It is recommended that all players use higher level templates, as low level templates with extra class levels mix poorly with higher level templates.
+For higher power games, where players wish to play angels, devils, dragons and other things, higher level templates should be used. It is recommended that all players use templates of the same level, as low level templates with extra class levels mix poorly with higher level templates.
 
 ___
 ### Race or template
@@ -247,7 +247,7 @@ Thirdly, a character also gets to choose a home terrain. This can be anything fr
 
 Fourthly, a character chooses a save with which they are proficient. This will help defend them against some nasty stuff, so choose carefully.
 
-Lastly, a character gains 3 level points. Level points are spent on gaining abilities. These range from extra save proficiencies, to sword arts and spell casting, and much more. A level point can also be exchanged for 3 skill points or a +1 increase to any stat. For a list of abilities see the "[Abilities](abilities.md)" chapter.
+Lastly, a character gains 3 level points. Level points are spent on gaining abilities. These range from extra save proficiencies, to sword arts and spell casting, and much more. A level point can also be exchanged for 3 skill points or a +1 increase to any stat (although no stat can exceed 24 for a character). For a list of abilities see the "[Abilities](abilities.md)" chapter.
 
 ___
 ### Stamina and Mana dice and HP
@@ -259,7 +259,7 @@ A character's HP is equal to [Level + [Con] + [Cha]]. So for a level one charact
 Luckily a character also has mana (or mental) points (MP) and stamina points (SP). When a character is hit with a mundane ("natural") attack, the damage is first subtracted from SP, and only if it is massive damage, or if the character runs out of SP, does the damage actually affect HP. This works in the same way of MP and supernatural attacks. SP and MP are different from HP in three ways.
 
 1. You do not die if you run out of SP or MP. You do lose the ability to use your more powerful abilities though.
-2. You regain SP and MP a lot faster than HP, and taking damage to SP/MP represents using your combat/magical prowess to shrug off damage at the expense of expending your power.
+2. You regain SP and MP a lot faster than HP, and taking damage to SP/MP represents using your combat/magical prowess to shrug off damage at the expense of expending your energy.
 3. SP and MP are used to fuel various powerful abilities. So they are both offensive and defensive. HP just sits there and looks pretty.
 
 The amount of SP or MP a character has is determined by how many SP dice and MP dice it has. A level one character starts with 1 SP dice and 1 MP and 3 dice points to assign as they wish for additional SP or MP dice.
@@ -287,7 +287,7 @@ HiT (Hit Threshold) represents how difficult it is to harm a character with targ
 + Evasion is generally equal to [Dex] + [Size modifier]
 + Deflection is granted by blades which can be used to parry, and certain abilities.
 
-In general, the higher the hit the better (See "[Base Rules: Hit Threshold (HiT)](base-rules.md#hit-threshold-(hit)"). A level one character can expect to have HiT 16 when equipped.
+In general, the higher the hit the better (See "[Base Rules: Hit Threshold (HiT)](base-rules.md#hit-threshold-(hit)"). A level one character can expect to have HiT 16 when kitted up.
 
 ___
 #### Attack bonuses and thresholds

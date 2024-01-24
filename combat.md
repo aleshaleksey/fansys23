@@ -13,8 +13,8 @@ All entities have:
 The calculation of these parameters is covered in basic rules. There are three categories of offensive abilities: "targeted attacks", "abilities" and "manoeuvres".
 
 - "Targeted Attacks": The attacker rolls using NAP or SAP against a target's HiT.
-- "Abilities": The target rolls a save vs attacker's NAP or SAP.
-- "Manoeuvres": The attacker rolls using NAP vs target's NAP.
+- "Abilities": The target rolls a save vs attacker's NAT (NAP+13) or SAT (SAP+13).
+- "Manoeuvres": The attacker rolls using NAP vs target's NAT (NAP+13).
 
 The effect is resolved immediately for instantaneous attacks, or at the start of the target's turn for effects that persist for a turn or longer.
 
@@ -32,7 +32,7 @@ Attacks and various harmful effects cause injury and death to combatants and des
 
 ### Death, dying and the relationship between HP, MP and SP
 
-A target is considered "dying" when it reaches 0 HP. It is destroyed or killed when it reaches its negative HP total. Entities that are immune to dying continue to operate normally (other conditions they might suffer from, continue to apply however) until they are destroyed when they reach the negative of their total HP.
+A target is considered "dying" when it reaches 0 HP. It is destroyed or killed when it reaches its negative HP total. Entities that are immune to "dying" continue to operate normally (other conditions they might suffer from, continue to apply however) until they are destroyed when they reach the negative of their total HP.
 
 Of course most offensive abilities must first "eat" through the SP or MP of a target before working away at the HP.
 
@@ -56,12 +56,14 @@ An item or entity with immunity to a damage type does not take damage from that 
 
 ### Flow of Combat
 
-During combat we enter something called "combat-time" where all actions take place in orderly turns. Thus combat in this system is "turn based", and all characters take their turn one at a time. This is is a poor reflection of reality, but helps keep the game flowing smoothly. We can interpret this abstraction in several ways, but generally a good way of doing so is to imagine that all actions take place at the same time, but some characters start moving a split second before others.
+Combat is chaotic and combatants do what they can when they can. However this is not tenable when we come to play games like this one as it usually devolves into a shouting match. As such we use a turn-based combat system and during combat we enter something called "combat-time" where all actions take place in orderly turns.
+
+All characters take their turn one at a time. This is is a poor reflection of reality, but helps keep the game flowing smoothly. We can interpret this abstraction in several ways, but generally a good way of doing so is to imagine that all actions take place at the same time, but some characters start moving a split second before others.
 
 Combat-time starts as soon as one or both sides are capable and willing of fighting. It ends when there is only one side remaining that is capable and willing.
 - At the start of combat all parties make an initiative roll [check]. Entities act in order of initiative (highest to lowest).
 - Combat takes place in "rounds" (~6s) and "turns". Once each combatant has had a "turn", top initiative to bottom, a "round" passes.
-- Any entities that are not aware of of the other side at the start of combat are "surprised" for the duration of the first round.
+- Any entities that are not aware of of the other side at the start of combat, or are not aware that combat has started, are "surprised" for the duration of the first round.
 - The DM can declare the end of combat-time when the outcome is so obviously decided that no roll of the dice is likely to alter it, and any more rounds seem like a waste of time. In this case the DM and players should agree on what extra resources are likely to be expended to achieve a final conclusion. Usually in this case one side will have already surrendered.
 
 #### The Turn and actions
@@ -87,7 +89,7 @@ Combat-time starts as soon as one or both sides are capable and willing of fight
 
 - Alternatively an entity may take ONE of the following sets instead:
   - "**Sprint**" action.
-  - "**Full round action**" and potentially a "**communicate**" & "**item interaction**" if the full round action is centred around an item.
+  - "**Full round action**" and potentially a "**communicate**" & "**minor interaction**" if the full round action is centred around an item.
 
 
 - In addition, regardless of the other actions, it may take one "**reaction**" at any point in the round, providing that it is not prevented by other factors. It regains its reaction at the start of its turn.
@@ -97,7 +99,7 @@ The actions named here are further described in the next section.
 #### Types of actions in combat
 The actions an entity may take might also be restricted by its conditions and general limitations. For example, if you have two hands and both are holding swords, you cannot pick up another item with your hand. The following actions exist in combat.
 - "**Move**": Move from A to B via a route that its modality of movement permits up to its stated movement speed.
-  - A mounted characted using their "move" action, but their mount's movement speed and movement modalities.
+  - A mounted character using their "move" action, but their mount's movement speed and movement modalities.
 
 
 - "**Main Action**": This is some generalised activity that takes no longer than 6 seconds and does not interfere with general "movement". Actions include:
@@ -111,7 +113,7 @@ The actions an entity may take might also be restricted by its conditions and ge
 
 
 - "**Secondary action**": A minor activity that can be carried out while doing something else at the same time. (eg, Attacking with an offhand dagger while swinging a sword). These include.
-  - Attack with an offhand weapon.
+  - Attack with an offhand weapon (if it has the "[Offhand fighting](abilities.md#offhand-fighting-i-iv)" ability).
   - Use certain abilities that use SP or MP.
   - Activate certain item.
   - Drinking a potion.
@@ -130,7 +132,7 @@ The actions an entity may take might also be restricted by its conditions and ge
   - Dropping an item.
 
 
-- "**Full round actions**": Certain activities involve using the whole of your turn and cannot fit in an action. They are resolved at the start of the next turn (or a subsequent turn when they are completed. These include:
+- "**Full round actions**": Certain activities involve using the whole of your turn and cannot fit into an action. They are resolved at the start of the next turn (or a subsequent turn when they are completed. These include:
   - Casting certain spells. Especially those with a casting time of 1 minute or more take multiple full round actions.
   - Using certain mechanisms (eg turning a crank for a mechanism for a drawbridge).
 
@@ -162,11 +164,11 @@ If both parties are unaware of each other (eg bandits meet guards round the corn
 
 ## Space in combat
 
-Combat can take place purely in imaginary space (ie. theatre of the mind), on paper, crafted terrain, ora virtual desktop. In either case most combatants take up space and move through space. Many manoeuvres, spells and other abilities deal with manipulating friend and foe in this space. The game can be played completely ignoring space, but it does change the balance quite severely. On the other hand, there are times when an exact map is not needed. For example, combat is taking place in a small room where all targets are within hand's reach. Alternatively if there is a chase or shoot-out with 600ft of space between combatants, mapping map be equally impractical.
+Combat can take place purely in imaginary space (ie. theatre of the mind), on paper, crafted terrain, ora virtual desktop. In either case most combatants take up space and move through space. Many manoeuvres, spells and other abilities deal with manipulating friend and foe in this space. The game can be played completely ignoring space, but it does change the balance quite severely. On the other hand, there are times when an exact map is not needed. For example, combat is taking place in a small room where all targets are within hand's reach. Alternatively if there is a chase or shoot-out with 600ft of space between combatants, mapping can be equally impractical.
 
 ### Squares and Hexes
 
-Space is divided into squares or hexagons (hexes). Usually squares are used, and we will discuss hexes no further (although they are a a perfectly good way of dividing space). Normally the size of a square is 5ft across. This also extends upwards and downwards.
+Space is divided into squares or hexagons (hexes). Usually squares are used, and we will discuss hexes no further (although they are a perfectly good way of dividing space). Normally the size of a square is 5ft across. This also extends upwards and downwards (so a 5ft square is in fact a 5ft cube).
 
 ### Range and reach
 
@@ -174,7 +176,7 @@ Attacks have a range and reach. Range and reach is measured in 5ft increments fo
 
 Melee attacks and manoeuvres have a reach between 0ft-30ft. Ranged attacks have a range of up to a few miles (but usually 60-600ft). The range of a melee attack or ability is called its "reach".
 
-The normal reach for medium sized creatures is 5ft (aka into the adjacent square or one square). Sometimes a reach can be described as "long". This means that an entity may use a "secondary action", to extend a single by 5ft. A reach of 10ft will reach two squares, a reach of 15ft will reach 3 squares and so on. If a creature with a reach of "long" uses a weapon with a range of "long", the long descriptors cancel out, and the range is increased by 5ft.
+The normal reach for medium sized creatures is 5ft (aka into the adjacent square or one square). Sometimes a reach can be described as "long". This means that an entity may use a "secondary action", to extend a single targeted attack by 5ft. A reach of 10ft will reach two squares, a reach of 15ft will reach 3 squares and so on. If a creature with a reach of "long" uses a weapon with a range of "long", the long descriptors cancel out, and the range is increased by 5ft.
 
 Ranged weapons fired while you are in melee are made at disadvantage (See "[Ranged Weapons, collateral and melee](weapons-armour.md#ranged-weapons-collateral-and-melee)").
 
@@ -182,11 +184,11 @@ Ranged weapons fired while you are in melee are made at disadvantage (See "[Rang
 
 Size is, amongst other things, a measure of how much space an entity occupies. This affects various combat parameters and can be seen in the "[Size rules](base-rules.md#size-rules)". Tiny and diminutive entities that have a reach of 0ft must occupy the same square as their target to make the attack.
 
-Likewise entities that are separated by at least two categories (eg Diminutive and medium, medium and gargantuan, large and colossal, small and colossal) can usually occupy the same space without penalty. Although the DM may ask for Dex saves (threshold=NAT+Str of the bigger entity) on the turn of the bigger entity or be knocked prone.
+Likewise entities that are separated by at least two categories (eg Diminutive and medium, medium and gargantuan, large and colossal, small and colossal) can usually occupy the same space without penalty. Although the DM may ask for Dex saves from the smaller entity (threshold=NAT+Str of the bigger entity) on the turn of the bigger entity, lest the smaller entity be knocked "prone".
 
 ### Threatened area and Attacks of Opportunity (AoO)
 
-An attack of opportunity is when a combatant exploits an opening left by another, and carries out a "basic martial manoeuvre" to its target.
+An attack of opportunity is when a combatant exploits an opening left by another, and carries out a "basic martial manoeuvre" against its target.
 
 Any square within the reach of a hostile entity's melee attacks is considered threatened (this usually includes squares that the hostile entity occupies). Targets moving out of a threatened square provoke an attack of opportunity. This may be a single attack or another basic combat manoeuvre. If a target is moving out of one threatened square into another threatened square may avoid AoOs by declaring "careful movement" and halving their movement speed for the rest of the turn.
 
@@ -215,7 +217,7 @@ Cover and concealment come in three flavours "light" (1/2), "heavy" (3/4) and "f
 
 **Cover** is when something block line of effect between attacker and target. Light cover (as a rule covers no more than half of the entity's body area) provides a -2 penalty to targeted attacks vs a target. Heavy cover (as a rule covers 1/2 to 3/4 of a target's area) provides a -5 penalty to targeted attacks and advantage to Dex saves. A target in full cover cannot be targeted with a targeted attack. Examples of things that can provide cover and concealment includes terrain features, buildings, items, and creatures.
 
-**Concealment** is when something blocks line of sight between two entities. It can also be something that blocks a different sense, if that is the main scent used by the entity. An entity can attempt to hide ("stealth" skill) if it has heavy concealment or full concealment. In addition light concealment provides a 1/6 miss chance (use a d6). Heavy cover provides a 2/6 miss chance. Full concealment provides 5/6 miss chance. The miss chance is rolled before or after the attack roll, but obviously before damage.
+**Concealment** is when something blocks line of sight between two entities. It can also be something that blocks a different sense, if that is the main sense used by the entity. An entity can attempt to hide ("stealth" skill) if it has heavy concealment or full concealment. In addition light concealment provides a 1/6 miss chance (use a d6). Heavy cover provides a 2/6 miss chance. Full concealment provides 5/6 miss chance. The miss chance is rolled before or after the attack roll, but obviously before damage.
 
 #### Concealment and attacks of opportunity
 
@@ -240,7 +242,7 @@ This is a collection of unsorted rules related to basic physical combat.
 - Standing can be done as part of a "move" action and costs 1/2 your movement speed rounded down.
 - Moving out of the threatened area of a foe without precautions provokes an attack of opportunity.
 - Moving through a threatened area provokes attacks of opportunity unless the movement is declared as being "cautious", ie at half speed.
-- Melee attacks can be made "non lethal" at no penalty with blunt weapons, and at a penalty with sharp weapons.
+- Melee attacks can be made "non lethal" at no penalty with "bludgeoning" weapons, and at a penalty with other weapons.
 - Ranged attacks cannot be made non-lethal (usually).
 - Supernatural attacks are either non-lethal or not. The caster does not chose (usually).
 - In place of a melee attack, a combatant may execute a martial manoeuvre.
@@ -257,25 +259,25 @@ The "Grapple", "Restrain", "Shove", "Throw" and "Trip" manoeuvres can only be us
   - Effect: If attack succeeds damage is dealt to the target in accordance to the damage rules.
   - Special: Attacking with a weapon you are not proficient with provokes an attack of opportunity as you leave more openings than a proficient combatant.
 - **Grapple**:
-  - Effect: Reduce a foe's movement to 0.
+  - Effect: The target gains the "[grappled](conditions-types.md#conditions-in-detail)" condition: It's move speed is zero.
   - Requires attack roll vs target's NAT+[Str or Dex].
   - Penalty if not proficient with **grapples**.
   - Attack of opportunity on failure.
-- **Restrain**:
-  - Effect: Give a foe extra penalty.
+- **Restrain**: This is the use of grapple on a prone or grappled target.
+  - Effect: The target gains the "[restrained or aphonic](conditions-types.md#conditions-in-detail)" conditions.
   - Prerequisite: Foe must be prone or grappled.
   - Requires attack roll vs target's NAT+[Str or Dex].
   - Penalty if not proficient with **grapples**.
   - The one executing this manoeuvre declares one of the desired outcomes:
-   - "Silence": Prevent foe from completing incantations.
+   - "Aphonia": Prevent foe from completing incantations.
    - "Restrain": Prevent a foe from casting spells with kinetic components and give penalties to weapon attacks.
 - **Shove**:
   - Effect: Moves a foe away from you by up to 10ft.
   - Requires attack roll vs target's NAT+[Str or Dex].
   - Penalty if not proficient with **throws**.
   - Special: For every size category that you are larger than your target, increase the maximum distance by 5ft.
-- **Throw**: A different flavour of shove.
-- **Trip**:
+- **Throw**: A different flavour of shove and uses the same proficiency
+- **Trip**: This is also a different flavour of "shove" and uses the same proficiency.
   - Effect: Knock a foe prone.
   - Requires attack roll vs target's NAT+[Dex].
   - Penalty if not proficient with **throws**.
@@ -317,7 +319,7 @@ Spells are a subset of supernatural powers that mortals have learned to channel 
 Spells ALWAYS involve a combination of one or more of the following:
 
   1. **Kinetic Components**: A set of defined, obvious gestures or movements. An "immobilised" or "restrained" caster cannot perform these. (conditions that imply "immobilised" fall under this category). Spells with kinetic components provoke attacks of opportunity.
-  2. **Incantation components**: A set of defined, well enunciated words or sounds. A "silenced" or "silent" caster cannot perform these. (conditions that imply inability to produce defined sound fall under this category).
+  2. **Incantation components**: A set of defined, well enunciated words or sounds. A "[aphonic](conditions-types.md#conditions-in-detail)" or "[inaudible](conditions-types.md#conditions-in-detail)" caster cannot perform these. (conditions that imply inability to produce defined sound fall under this category).
   3. **Ritual components**: A ritual is a procedure involving defined movement and positioning of objects or entities, or the creation of defined patterns. Disruption of this procedure ruins the ritual. Rituals typically apply to global spells.
 
 Spell ranges are designated as "**close**" or "**ranged**".
@@ -325,15 +327,15 @@ Spell ranges are designated as "**close**" or "**ranged**".
 1. A "**close**" spell, like a melee attack must requires direct contact between caster and target. Its range is the caster's reach and includes the caster.
 2. A "**ranged**" spell can have a range of 5ft or higher. It is designated as eg "ranged[60ft]". The base distances are 15ft, 30ft, 60ft, 120ft, 240ft.
 - An entity can only cast ONE spell at a time. If it attempts to cast a second, either both spells dissipate, or the casting ends in spectacular failure.
-- Spells can be **counterspelled** and **dispelled**. (How?)
-- Casting non-melee spells with kinetic components provokes attacks of opportunity unless the "mage hunter" ability is involved.
+- Spells can be **counterspelled** and **dispelled**. (See "[Spells](spells.md#banishing-breaking-counter-spelling-and-dispelling)")
+- Casting spells with kinetic components provokes attacks of opportunity unless the "[mage hunter](abilities.md#mage-hunter-i)" boon is involved.
 - Spells with an active effect (eg summoning) and non-instantaneous duration usually require the caster to maintain their existence by "**concentrating**" on them. This has the following rules:
   1. A caster can NEVER concentrate on more than one spell.
   2. If concentration is broken, the spell dissipates or fails spectacularly.
   3. An "incapacitated" (or so implied) entity cannot concentrate.
-  4. Concentration can be disrupted by taking damage (DC10 or 1/2 damage taken, whichever is higher).
-  5. Concentration can be disrupted by violent movement (DC10), violent weather (DC10) or both (DC15).
-  6. A caster can "hold" an "instantaneous" spell with a release trigger to trigger the effect within a minute of casting. The DC=10+[rounds held]. If the trigger is not met the spell dissipates. The cost of the spell is paid when the spell is cast (always), not when it is triggered.
+  4. Concentration can be disrupted by taking damage (Threshold = 12 or 1/2 damage taken, whichever is higher).
+  5. Concentration can be disrupted by violent movement (Threshold = 12), violent weather (Threshold = 12) or both (Threshold = 18).
+  6. A caster can "hold" an "instantaneous" spell with a release trigger to trigger the effect within a minute of casting. The Threshold=[10+[rounds held]]. If the trigger is not met the spell dissipates. The cost of the spell is paid when the spell is cast (always), not when it is triggered.
 
 ___
 ## Rest and Recuperation
@@ -367,7 +369,7 @@ A character can benefit from number of short rests per long rest no higher than 
 
 The recommended duration for long rest is 8h in a high action game and 1 day in a harsh game. During a long rest a character gains all of the benefits of a short rest, as well as:
 - Resetting the short rest counter.
-- Regaining exactly 1 HP. (This can be increased to 2 HP with the [Heal](skills.md#heal).)
+- Regaining exactly 1 HP. (This can be increased to 2 HP with the long term care use of the [Heal skill](skills.md#heal)).
 
 A character can benefit from no more than one long rest per 24h. In addition a character must carry out at least an hour of exertion after their long rest to benefit from a short rest.
 

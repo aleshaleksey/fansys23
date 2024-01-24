@@ -10,11 +10,11 @@ Most characters are fundamentally "natural", but possesses some "supernatural" a
 
 #### Natural and Supernatural damage and abilities
 
-Damage can be either Nat or Sup. Nat damage first affects the target's SP, being at least partially absorbed, before before affecting HP. It generally affects the physical form. Sup damage is first buffered, at least in part, by an entity's MP, before affecting HP. It affects an entity's essence or spirit. Thus if an entity takes 10 "physical"[Sup] damage, the first, say, 7 points may be absorbed by MP, with the remaining 3 points doing HP damage. The exact calculation for maximum Nat damage absorbed by SP is [CON + 2 x SP dice total], and is symmetrical for MP and Sup (see "[Resource Pools](base-rules.md#resource-pools)" section).
+Damage can be either Nat or Sup. Nat damage first affects the target's SP, being at least partially absorbed, before before affecting HP. It generally affects the physical form. Sup damage is first buffered, at least in part, by an entity's MP, before affecting HP. It affects an entity's essence or spirit. Thus if an entity takes 10 "fire"[Sup] damage, the first, say, 7 points may be absorbed by MP, with the remaining 3 points doing HP damage. The exact calculation for maximum Nat damage absorbed by SP is [CON + 2 x SP dice total], and is symmetrical for MP and Sup (see "[Resource Pools](base-rules.md#resource-pools)" section).
 
 Damage caused by mundane or martial abilities is Nat, unless the ability is very powerful, at which it may become Sup. Damage caused by magic, spells and other supernatural abilities is usually Sup, but may also be Nat on occasion.
 
-Some types of damage bypass both MP and SP, and attack HP directly. Entities that possess abilities that inflict these types of damage are extremely.
+Some types of damage bypass both MP and SP, and attack HP directly. Entities that possess abilities that inflict these types of damage are extremely dangerous.
 
 Nat abilities are fueled by SP dice. Sup damage is fueled by MP dice.
 
@@ -27,7 +27,7 @@ Weapons can be mundane, magical or spiritual.
 
 ### Damage types
 
-All damage is deduced from current HPs. HPs are protected from Nar damage by SP and by Sup damage by MP. An entity's MP/SP can absorb a certain amount of damage and deducing from current MP/SP total, with any excess damage counting against HP. When an entity reaches 0 HP it is dying. Some damage types ignore MP/SP. They are particularly dangerous.
+All damage is deduced from current HP. HP are protected from Nat damage by SP and by MP against Sup damage. An entity's MP/SP can absorb a certain amount of damage and deducing from current MP/SP total, with any excess damage counting against HP. When an entity reaches 0 HP it is "dying". Some damage types ignore MP/SP. They are particularly dangerous.
 
 All damage types have associated conditions. If an entity takes damage to HP greater than its level, it must make a Con or Cha save against threshold of [10 + HP damage / 2] or suffer a condition on the attack's list, starting from the lowest class condition. If it is already suffering from it, or is immune to it, it adds the next lowest condition to its conditions. If all conditions are added, nothing more happens.
 
@@ -59,11 +59,11 @@ Physical damage destroys the physical structure of a target by direct applicatio
 
 **Piercing** damage is typically caused by teeth and pointy weapons and projectiles. It involves the concentration of force at a small point (pressure), which results in deep penetration of the target along a line. Soft targets with and without a hard shell are typically susceptible to this kind of damage. It can cause the "bleeding" condition.
 
-**Slashing** damage is typically caused by claws and bladed weapons. It involves the physical splitting of two parts of a target by application of concentrated force along a plane (a cut). Soft targets are particularly susceptible to slashing damage. Slashing damage typically causes the "bleeding" or "crippled" condition.
+**Slashing** damage is typically caused by bladed weapons or sharp claws. It involves the physical splitting of two parts of a target by application of concentrated force along a plane (a cut). Soft targets are particularly susceptible to slashing damage. Slashing damage typically causes the "bleeding" or "crippled" condition.
 
 **Bludgeoning** damage is typically caused by heavy objects with a lot of momentum. It involves the rapid transfer of physical force over a large area, causing brittle materials to break, and pressure sensitive materials to rupture. Targets of a brittle material are particularly susceptible to this damage type. This kind of damage can cause a target to be knocked "prone" or "cripple" it.
 
-**Shear** damage is caused when a target is torn apart. Targets of low tensile materials, such as humanoids and animals are particularly susceptible to this damage type. It typically causes the "crippled" condition.
+**Shear** damage is caused when a target is torn apart, for example by a bear's claws. Targets of low tensile materials, such as humanoids and animals are particularly susceptible to this damage type. It typically causes the "crippled" condition.
 
 **Pressure** damaged is usually caused by shock waves and special techniques designed to transfer force deep into a target. Much like bludgeoning damage it ruptures pressure sensitive internal structures and can fracture very brittle materials. Targets with internal organs are particularly susceptible to this form of damage. This dangerous form of damage typically causes the "stunned", "frightened", "prone" or "incapacitated"  condition.
 
@@ -77,9 +77,9 @@ Destroys the biological structure or physiological function of plants, animals, 
 
 #### Energy/elemental damage
 
-Energy damage is caused by various forms of energy and can affect anything with a physical form. Energies of a supernatural source can affect incorporeal entities.
+Energy damage is caused by various forms of energy and can affect anything with a physical form. Energies of a supernatural source, can affect incorporeal entities.
 
-**Heat (fire)** damage is caused by the heating of materials, and their subsequent oxidation causing it to become too frail to maintain its form and function (at least "natural" fire does). 'Supernatural" burns away the essence. This damage is particularly effective against biological and flammable targets. It can cause "incapacitated" (pain) or "blinded" (permanent) condition. Flammable materials ignite when dealt at least 10 points of heat damage. Highly flammable materials ignite when dealt any heat damage. Heat also tends to travel "upwards" and should not be underestimated!
+**Heat (fire)** damage is caused by the heating of a material, and its subsequent oxidation, which causes it to become too frail to maintain its form and function (at least "natural" fire does). "Supernatural" fire burns away the essence. This damage is particularly effective against biological and flammable targets. It can cause "incapacitated" (pain) or "blinded" (permanent) condition. Flammable materials ignite when dealt at least 10 points of heat damage. Highly flammable materials ignite when dealt any heat damage. Heat also tends to travel "upwards" and should not be underestimated!
 
 **Cold (ice)** damage is caused a reduction of energy level in the substance of the target, often causing it to lose physical function, become brittle, or even freeze. Cold damage causes dangerous conditions like "immobilised" (frozen) and "incapacitated" (hypothermic).
 
@@ -91,7 +91,7 @@ Energy damage is caused by various forms of energy and can affect anything with 
 
 Esoteric damage is caused by, typically powerful, supernatural beings. It typically affects either the spirit or essence of an entity. Esoteric damage cannot exist in a world without the "supernatural". These three damage types are particularly dangerous because they ignore the SP and MP of entities that are not divine.
 
-**Divine** damage directly eliminates a target's spiritual essence. Targets without spirit (mainly objects) are not affected by this damage type. Profane beings and mortals are particularly vulnerable to it. Divine damage typically causes "unconscious", "catatonic", "immobilised", "incapacitated", "aphonia", "blinded" or "frightened". Beware the wrath of the gods. **NB**: Divine damage is caused only by high level abilities and powerful entities.
+**Divine** damage directly eliminates a target's spiritual essence. Targets without spirit (mainly objects) are not affected by this damage type. Profane beings and mortals are particularly vulnerable to it. Divine damage typically causes "unconscious", "catatonic", "immobilised", "incapacitated", "aphonia", "blinded" or "frightened". Beware the wrath of the gods. **NB**: Divine damage is caused only by high level abilities and powerful entities. Healing spells also cause divine damage, but only to undead.
 
 **Entropic** damage prevents the laws of creation from functioning, causing physical targets to disintegrate or mutate horribly, while spiritual targets are rendered down to pure chaos. Typically this damage type causes "crippled", "incapacitated" or "bleeding". **NB**: Divine damage is caused only by high level abilities and powerful entities.
 
@@ -179,7 +179,7 @@ Mortals are the most common entities in the material world. Mortals have a physi
 
 #### Constructs
 
-Constructs are devices that are capable of movement and are generally made of minerals or metals. Constructs do not reproduce, breathe, drink, eat, sleep or age (unless they are made from mortals).
+Constructs are life-like devices that are capable of movement and are generally made of minerals or metals. They are sometimes called "living dolls", although this term is not strictly correct. Constructs do not reproduce, breathe, drink, eat, sleep or age (unless they are made from mortals).
 
 **Robots** are "natural" constructs, typically made by mortals. In the worlds where they exist, they are the height of non-magical artifice. Since they are merely complex machines, robots lack a spirit and thus have no Cha. Robots that are capable of emulating emotion use Int for Cha rolls. A robot that gains a spirit becomes a golem.
 - Robots are immune to: "Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "incapacitated" and "dying".
@@ -282,7 +282,7 @@ An entity afflicted by conditions that make it unable to engage in physical comb
   - Its base movement speed is halved.
   - It cannot take reactions.
   - Every time it takes a "move", "main" or "secondary" action it loses 1 HP.
-  - Every time it takes a "run", "sprint" or "full round aciton" it loses 2 HP.
+  - Every time it takes a "run", "sprint" or "full round action" it loses 2 HP.
 - "**Dying**": This entity cannot do anything other than make CON saves or lose 1d6 HP per round. It usually suffers from most of the detriments of "Unconscious". If they reach their minus their HP total they die. If they succeed before that they stop losing HP and become "Unconscious".
   - **Special**: When an entity gains the dying condition, it may choose to instead take the "**Doomed**" status, although this is usually ill advised.
 - "**Unconscious**": An unconscious character can make CON and CHA saves, and communicate telepathically under certain circumstances. It can take no other actions. In addition it has the following problems:
@@ -301,7 +301,7 @@ An entity afflicted by conditions that make it unable to engage in physical comb
   - It cannot move or take take actions other than [WIS] based skill checks.
   - If it can communicate, it cannot do so "loudly" enough to gain attention from afar without a [SKILL] check from the recipient.
 - "**Paralysed**": A paralysed character cannot take physical actions:
-  - It does not gain physical[STATS] to AC.
+  - It does not gain physical [STATS] to AC.
   - Physical melee attacks against it have super-advantage.
   - It it can fall prone, it falls prone.
   - Physical ranged attacks against it have advantage (if it is prone this cancels out).

@@ -286,19 +286,19 @@ ___
 ### Tripede
 |HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|13/12/10|34|12|6|40ft|climb (40ft)|
+|13/12/10|20|29|6|40ft|climb (40ft)|
 
 (Tripede is large, Natural armour +2)
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|16|12|12|1|12|10|
-|Bonus|+3|+1|+1|-5|+1|-1|
-|Save|+6|+2|+3|-3|+3|+1|
+|Stat|16|12|12|3|12|12|
+|Bonus|+3|+1|+1|-4|+1|+1|
+|Save|+6|+2|+3|-2|+3|+2|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|6 (2)|14|6|3|1|5|3|
+|6 (2)|7|13|3|1|5|3|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -308,10 +308,10 @@ ___
 |Manoeuvres|||"grapple"|
 |Monster Attack II|||The tripede makes one attack with its barbed dart and two with its roots as a "main action"|
 |Immunity|||"frightened", "blinded", "stunned", "catatonic" and "paralysed"|
-|Camouflage|||The Giant flytrap has advantage to hide in natural foliage.|
+|Camouflage|||The Tripede has advantage to hide in natural foliage.|
 |Skill|||"Observe" +6, "Stealth" +6|
-|Sense|||The flytrap does not have conventional senses other than:|
-|Senses|||Heat sense (30ft), Tremor sense (20ft)|
+|Sense|||The tripede does not have conventional senses other than:|
+|Senses|||Heat sense (30ft), Tremor sense (120ft)|
 
 Tripedes dwell in swamps and deep forests. When nutrients is scarce they uproot themselves in search of prey. They prefer to hunt by stalking, but are capable of running down slow prey like humanoids.
 ___

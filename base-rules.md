@@ -60,7 +60,7 @@ This works because the average of 2d12 is 13.
 
 **Auto-failing:** An entity automatically fails if it cannot perform the roll. For example a paralysed entity cannot succeed on a jump check.
 
-**Voluntary failure:** An entity can choose to fail any check that requires some voluntary action. One cannot usually voluntarily fail checks and saves for autonomous functions. For example a humanoid cannot volunteer to fail a constitution save vs poison, since you cannot switch off your liver at will, but you can voluntarily fail an agility save vs a runaway cart, because you can consciously decide not to move out of the way.
+**Voluntary failure:** An entity can choose to fail any check that requires some voluntary action. One cannot usually voluntarily fail checks and saves for autonomous functions. For example a humanoid cannot volunteer to fail a Con save vs poison, since you cannot switch off your liver at will, but you can voluntarily fail a Dex save vs a runaway cart, because you can consciously decide not to move out of the way.
 
 #### Opposing Rolls vs Thresholds.
 Static thresholds are always preferred over opposed rolls in combat. This increases the speed of combat as we do not need to wait for other side to make a roll. This means that hit thresholds, save threshold and skill thresholds based on average rolls ("take care") are used for the defending side.
@@ -69,7 +69,7 @@ For many skill rolls the threshold is written as "Opposed vs [skill name]". It i
 
 #### Precedence of Rolls: Thresholds (DC), and opposing rolls.
 Meeting (equalling) the target number of a roll beats it. The target number can be static or dynamic. Static thresholds are when a dice is rolled and the result compared to a predefined number. Dynamic thresholds are what you get when you have two or more opposing rolls.
-- eg **static**: "Hit" threshold of a monster, eg 18. Save threshold for a spell. Ability threshold for jumping over a gap of 15 feet.
+- eg **static**: "HiT" (Hit Threshold) of a monster, eg 18. Save threshold for a spell. Ability threshold for jumping over a gap of 15 feet.
 - eg **dynamic**: Perceiving a monster in hiding (which rolled 2d12+4).
 
 For dynamic thresholds, it can be difficult to tell, which of the opposing rolls becomes the threshold, and which is the opposing roll. In this case the roll that is trying to preserve the status quo becomes the threshold, and the one that is trying to change it is the opposed roll. Eg:
@@ -99,11 +99,13 @@ Disadvantage represents factors that negate some potential for success, but do n
 
 A positive modifier (bonus) represents factors that make a task easier and have a potential to improve the best result. For example, a tailwind will give a bonus when trying to travel further in a day's sailing. This is because the speed is actually increased, making it possible to travel further.
 
-A negative modifier (penalty) represents factors that both reduce the best result and make a negative output more likely and worse. A storm gives a penalty to camping (fortify) rolls: Not do you have to content with the wind and rain, but your tent might get blown away. That's definitely worse unless you were trying to lose the tent!
+A negative modifier (penalty) represents factors that both reduce the best result and make a negative output more likely and worse. A storm gives a penalty to camping (fortify) rolls: Not only do you have to contend with the wind and rain, but your tent might get blown away. That's definitely worse unless you were trying to lose the tent!
 
 Advantage and disadvantage always cancel each other out. Advantage and disadvantage never stack.
 
-Modifiers from "natural" sources of different types stack (add up). For modifiers of the same type, take the largest modifier, or the sum of the largest bonus and largest penalty if both are present. Modifiers from "supernatural" sources never stack. To simplify mechanics a group can decide that the only types are "natural" and "supernatural" for minimum viable mechanics.
+Modifiers from "natural" sources stack (add up) if they come from a different KIND of source. For example the threshold to "fortify" your camp can be modified by severe precipitation, severe wind and severe temperature. These modifiers will stack. However if there is severe precipitation (ash) and extreme precipitation (snow), only the worst one (extreme) will count, since both modifiers come from precipitation. Thus, for modifiers of the same type, take the largest modifier, or the sum of the largest bonus and largest penalty if both are present.
+
+Modifiers from "supernatural" sources never stack with modifiers from other supernatural sources. To simplify mechanics a group can decide that the only types are "natural" and "supernatural" for minimum viable mechanics.
 
 #### Sources of Modifiers
 Because stacking modifiers can easily "break" a game or lead to situations where the outcome is decided early on in a scenario, it is desirable to avoid this. As a result the following rule is used with modifiers:
@@ -129,7 +131,7 @@ A character has descriptive attributes that need not influence mechanics (within
 
 - A character has an entity type, race, size category, movement modalities and speed. These have mechanistic effects.
   1. **Entity type**
-  2. **Race**
+  2. **Race**/**Template**
   3. **Size category**
   4. **Movement modalities**
 - "**Character Level**": A representation of overall experience and power.
@@ -155,13 +157,13 @@ A character has descriptive attributes that need not influence mechanics (within
 A character has certain attributes that are inherent to it and are not easily changed. These include: entity type, race, size category, movement modalities and speed. These have mechanistic effects.
 
 1. **Entity type** define the base possibilities of a character (a plant does not require sleep, but usually requires water, air and "sustenance", it does "see" things. A spirit does not have a corporeal form and cannot be "touched" normally, a humanoid (animal) has a movement speed, and a corporeal form, usually with one head, one torso, two arms and two legs, requires air, water, sustenance, sleep and ages).
-2. The **race** determines some specific characteristics and attributes. (eg base movement speed, movement modality, lifespan, typical weight and height, certain resistances and vulnerabilities and special abilities).
+2. The **race** (or **template**) determines some specific characteristics and attributes. (eg base movement speed, movement modality, lifespan, typical weight and height, certain resistances and vulnerabilities and special abilities).
 3. **Size category** [diminutive, tiny, small, medium, large, huge, gargantuan, colossal] affect how much space an entity takes up on (and off) a battlefield, its reach, its AC, and potentially other things. Size rules are described in a table in the "Size Rules" section.
 4. **Movement modalities** are usually determined by race and special abilities. A creature WITH a movement modality may (or may not!) be able to move over other terrain with an ability check. this is covered in "movement" rules:
     - **walk speed**: ground movement over horizontal-ish terrain.
     - **climb speed**: ground movement over vertical-ish terrain.
-    - **flight speed**: areal movement. Movement through the air.
-    - **swim speed**: fluid movement.
+    - **flight speed**: Areal movement. Movement through the air.
+    - **swim speed**: movement through a liquid medium (usually water).
     - **dig speed**: tunnelling movement.
     - **cosmic speed** ethereal movement. Movement through vacuum, solids (without  interacting) or alternative spaces. Very few beings have a "cosmic speed" and most are supernatural.
     - **blink speed**: discrete movement. An entity with a blink speed need not pass through the spaces between start and destination as long as it is in range. Very few entities have a "blink speed", most are powerful supernatural entities.
@@ -202,15 +204,17 @@ A character's **Base** is a measure of global experience that permeates into mos
 
 **Base = [LEVEL / 5]** (rounded up)
 
+The values can also be found in the "[Level parameters](#level-parameters)" table.
+
 ### Stats
 
-A character has six **base attributes**. Each one represents how "strong" some aspect of the character is. In general the stronger that aspect of the character.
+A character has six **base attributes**. Each one represents how "strong" some aspect of the character is. In general the higher the value, the stronger that aspect of the character.
 1. **Str**: Physical strength. Upstream of most weapon attack, damage. Upstream of abilities linked to affecting the surroundings by physical force. 
     - An entity with zero Str cannot physically affect the outside world, or move itself.
     - An entity without a material form has no Str.
 2. **Dex**: Physical agility. Upstream to some weapon attack, damage (usually ranged). Upstream to evasive abilities. Upstream to abilities linked to affecting the surroundings by delicate manipulation.
     - An entity with zero Dex cannot move its physical form.
-    - Entities with no physical form have no Dex.
+    - Entities with no physical form can still have Dex.
 3. **Con**: Physical resilience. Upstream of HP, SP, aspects of physical interactions
     - The physical form of an entity with zero Con has no integrity. Corporeal entities with 0 Con are dead.
     - An entity with no physical form has no Con, such entities can only be damaged by "supernatural" means and "spiritual" weapons.
@@ -226,9 +230,10 @@ A character has six **base attributes**. Each one represents how "strong" some a
 The bases value for stats of a character is 10. When a character is created, this value is modified. Stats can be assigned either with dice rolls, or with a "point buy" system. The usual rule for rolling up stats is (there are other methods which produce other results):
 
 1. Roll 4d6, count the total of the highest 3 dice (4d6dl1).
-2. These 6 totals, in any order are your character's stats.
-3. Apply racial/template modifiers.
-4. If any stat is below 5, raise it to 5.
+2. Repeat this for each stat.
+3. These 6 totals, in any order are your character's stats.
+4. Apply racial/template modifiers.
+5. If any stat is below 5, raise it to 5.
 
 The rules for point buy are (this is for the standard "24 point buy"):
 
@@ -263,11 +268,11 @@ A character has resource pools. These are a critical part of the game and are ex
  
  This represents your health or life force. Loss of HP represents physical/spiritual damage/degradation.
 
-- An entity at 1/2 HP gains penalties.
+- A character has maximum HP = [CON+CHA+LEVEL].
+- Every time an entity loses 1 or more HP, it must make a save or risk gaining a condition (see "[Damage types](conditions-types.md#damage-types)").
 - An entity at 0 HP is disabled and cannot act.
 - An entity at the negative of their HP total is destroyed.
 - A character regains a single point of HP per long rest (usually a day). If a character receives long term medical care this becomes 2HP.
-- A character has maximum HP=CON+CHA+LEVEL.
 - When a character with no SP takes natural damage, it loses HP equal to the damage taken.
 - When a character with no MP takes supernatural damage, it loses HP equal to the damage taken.
   
@@ -315,14 +320,14 @@ This is a measure of an entity's physical energy, stamina.
 This is the "natural" (Nat) and "supernatural" (Sup) component of many bonuses. They represent the mastery/affinity that a character has over/with "natural" and "supernatural" aspects of the world respectively. As a rule rolls, saves and attacks governed by Str, Dex or Con a character is proficient with use Nat. Rolls, saves and attacks governed by Int, Wis or Cha a character is proficient with use Sup. They are calculated as follows:
 
 - **Nat = [SP / 6] rounded up**
-  - So a character with 29 "SP dice" has a Nat = 4.
+  - So a character with 29 "SP dice" has a Nat = 5.
 
 - **Sup = [MP / 6] rounded up**
-  - So a character with 30 "SP dice" has a Nat = 5.
+  - So a character with 31 "SP dice" has a Nat = 6.
 
 ### NAP and SAP, NAT and SAT: Attack of the three letter words II
 
-Attack Potentials and Attack Thresholds are used to determine the potence, or more accurately success rate of a character's offensive abilities. They are bonus added to all targeted attack rolls a character makes. NAP is used for natural attacks, SAP is used for supernatural attacks.
+Attack Potentials and Attack Thresholds are used to determine the potence, or more accurately, the success rate of a character's offensive abilities. They are bonus added to all targeted attack rolls a character makes. NAP is used for natural attacks, SAP is used for supernatural attacks.
 
 **Natural Attack Potential** (NAP) is the bonus used for all of a character's "natural" attacks.
 - **NAP = [Base + Nat]**
@@ -336,8 +341,8 @@ Attack Potentials and Attack Thresholds are used to determine the potence, or mo
 **Natural Attack Threshold** (NAT) is **NAP + 13**. A target of a character's "natural" abilities rolls a save against the character's NAT.
 - The threshold for a character's "natural" abilities = NAT + Str/Dex
 
-**Supernatural Attack Threshold** (SAP) is **NAP + 13**. A target of a character's "supernatural" abilities rolls a save against a character's SAP.
-- The threshold for a character's "supernatural" abilities = SAP + Int/Wis
+**Supernatural Attack Threshold** (SAT) is **SAP + 13**. A target of a character's "supernatural" abilities rolls a save against a character's SAT.
+- The threshold for a character's "supernatural" abilities = SAT + Int/Wis
 
 ### Saving throws
 

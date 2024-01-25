@@ -41,7 +41,7 @@ Sometimes circumstances may add a +2/+5 to a roll (eg Homeland bonus for navigat
 
 ### Skill groups
 
-Some skills are similar to each other as to be somewhat transferable. In this case the character may roll a different skill from the same group with a -5 penalty. The groups are:
+Some skills are similar to each other as to be somewhat transferable. In this case the character may roll a different skill from the same group with a -5 penalty.
 
 ---
 
@@ -164,27 +164,16 @@ Armour and its properties are further discussed in the "[Weapons and Armour Sect
 
 There are three armour proficiencies that each cover several groups of armour.
 
-- Light armours
-  - Full Padded
-  - Leather Cuirass
-  - Chain Shirt
-- Medium armours
-  - Full Leather
-  - Hide armour
-  - Metal Cuirass
-  - Any Paper Armour
-- Heavy Armour
-  - Full Chain
-  - Full Splint
-  - Full Chain
-  - Half Plate
-  - Full Plate
-  - Any Adamantine Armour
-- Shields (all)
+|Armour Category|Armour types|
+|-|-|
+|Light armour|Leather cuirass, Chain shirt|
+|Medium armour|Full padded, Hide, Full leather, Brigandine, Full chain, Cuirass|
+|Heavy armour|Segmented mail, Half-plate, Full-plate|
+|Shields|Buckler, Small shield, Large shield, Tower shield|
 
 #### Weapon Proficiencies
 
-Weapons are tools that increase an entity's lethality in combat. For the sake of this definition, this does not include martial or supernatural abilities. Weapons and their properties are further discussed in the "Weapons and Armour Section".
+Weapons are tools that increase an entity's lethality in combat. For the sake of this definition, this does not include martial or supernatural abilities. Weapons and their properties are further discussed in the "[Weapons and Armour Section](weapons-armour.md)".
 
 Any entity may wield a weapon it is physically capably of wielding. If it is not proficient, it makes attacks with a -5 penalty. On a critical fail it damages itself, rolling the same damage dice it would as if it had hit the intended target. In addition it provokes attacks of opportunity when it attacks, since poor technique leaves openings.
 
@@ -192,29 +181,13 @@ Proficiency eliminates both the penalty and the damage to self on crit. In addit
 
 Weapon proficiencies are taken for each subgroup (eg "Strikes" and "Throws" are a separate proficiencies).
 
-- Unarmed combat
-  - Strikes
-  - Throws
-  - Grapples
-  - Disarms
-- Melee
-  - Heavy blades
-  - Axes
-  - Percussive
-  - Pole-arms
-  - Staves
-- Melee/Thrown
-  - Light/Thrown blades
-  - Spears/Javelins
-- Ranged
-  - Slings
-  - Bows
-  - Mechanical bows
-  - Firearms (optional)
-- Heavy
-  - Ballistae
-  - Trebuchet/catapults
-  - Canons
+|Weapon Category| Weapon Type|
+|-|-|
+|Unarmed Combat|Strikes, Throws, Grapples, Disarms, Interception|
+|Melee|Heavy Blades, Axes, Percussive, Pole-arms, Staves|
+|Melee/Thrown|Light blades, Spears|
+|Ranged|Slings, Bows, Mechanical bows, Firearms|
+|Heavy|Ballistae, Trebuchets, Canons|
 
 ---
 
@@ -301,7 +274,7 @@ The skill is used for building structures, fortifying positions (dungeon corrido
 ___
 #### Swim
 
-Swimming is a separate skill from climbing and overland athletics. It is used for moving through a liquid medium, such as water, lava, quicksand, or a monster's stomach acid. A creature without a *swim* skill swims at 1/4 of its base speed. Unless otherwise stated, no action is required, and the roll is made as part of the entity's movement. This follows the "Difficulties and recommended thresholds" as follows.
+Swimming is a separate skill from climbing and overland athletics. It is used for moving through a liquid medium, such as water, lava, quicksand, or a monster's stomach acid. A creature without a *swim* skill swims at 1/4 of its base speed. Unless otherwise stated, no action is required, and the roll is made as part of the entity's movement. This follows the "Difficulties and recommended thresholds" as follows. **NB**: Thi skill does not grant a swim speed.
 
 - Base Thresholds:
   - 4: Float or swim in perfectly calm, warm water, under perfect conditions.
@@ -321,7 +294,7 @@ Swimming is a separate skill from climbing and overland athletics. It is used fo
   - Floatation devices (improvised or purpose made) reduce thresholds for staying or returning to the surface by 5.
   - An entity with a diver's kit can see normally in the fluid, can swim at 1/2 base speed instead of 1/4 base speed, and does not need to worry about breath for 30 minutes. Usually a diver's kit is designed specifically for one fluid.
 - **Take care**: Yes.
-- **Try again**: No. The dynamic nature of failure and drowning makes it meaningless.
+- **Try again**: Yes. But, the dynamic nature of failure and drowning makes it meaningless.
 
 ___
 ### DEX Based
@@ -342,7 +315,7 @@ Acrobatics is used for complex dynamic movement and manoeuvres. Unless otherwise
   - 8: 7-12 inches wide.
   - 12: 2-6 inches wide.
   - 16: Less than 2 inches wide.
-- When moving over unstable or slippery surfaces. For threshold, start with 0 and add all modifiers that apply.
+- When moving over unstable or slippery surfaces. For threshold, start with the threshold based on the surface's width (or 0) and add all modifiers that apply.
   - Slippery or Frictionless surface: +5 or +10.
   - Violent (eg ship in a storm) or extreme movement (eg earthquake or collapse): +5 or +10.
   - Slope (30-45 deg), Steep slope (45+): +2 or +5.
@@ -354,22 +327,22 @@ Acrobatics is used for complex dynamic movement and manoeuvres. Unless otherwise
 ___
 #### Fly
 
-I don't know whether we even need this as a skill. It is done as part of an entity's or vehicle's movement.
+I don't know whether we even need this as a skill. It is done as part of an entity's or vehicle's movement. **NB**: Thi skill does not grant a fly speed.
 
 - **Maintain control** of one's trajectory in unfavourable conditions.
-  - Threshold = 5 + [1 per 10mph] of wind speed.
+  - Threshold = 6 + [1 per 10mph] of wind speed.
   - Small entities start making rolls at 30mph. This increases by +10mph for each size category above "small", and flight category above "average".
 - **Regain control** when falling.
-  - Threshold = 10 + [turns falling or out of control].
+  - Threshold = 12 + [turns falling or out of control].
 - **Emulate higher flight** category (eg good flyer trying to hover). This is also used for manoeuvres.
-  - Threshold = 10 + [5 x number of categories above current category].
+  - Threshold = 12 + [6 x number of categories above current category].
 - **Take care**: Yes.
 - **Try again**: Yes, although the DM can rule that repeated failure results in the "crippled" condition or damage to the vehicle.
 
 ___
 #### Heal
 
-Healing is used to use medical art and science (as opposed to magic) to diagnose and treat injury and illness. It usually takes at least a minute. It is fine to use WIS instead as a governing stat, especially for diagnosis.
+Healing is the use of medical art and science (as opposed to magic) to diagnose and treat injury and illness. It usually takes at least a minute. It is fine to use WIS instead as a governing stat, especially for diagnosis.
 
 - **Stabilise**: As an action, cure the "dying" condition.
   - Threshold = 15
@@ -388,7 +361,7 @@ Healing is used to use medical art and science (as opposed to magic) to diagnose
   - Disease: Threshold of the disease or poison
   - It is usually fine to rule that once an entity has seen it once, it knows what it is.
 - **Take care**: Yes, for treatment. No for diagnosis.
-- **Try again**: For treatment, yes (although the patient might be dead by then). For "diagnose", no.
+- **Try again**: For treatment, yes (although the patient might be dead by then). For "diagnose", yes, but unless you have extra information available you always get the same result.
 
 ___
 #### Ride
@@ -409,7 +382,7 @@ An entity riding a mount substitutes/uses its move to control its mount and its 
   - Threshold = Threshold of provoking event.
   - On damage over 20, threshold = [damage suffered / 2]
 - **Mount**: Getting onto a mount and making yourself ready to ride is a "main action": Threshold = 8.
-- **Dismount**: Getting off a mount and is a "secondary action": Threshold = 8.
+- **Dismount**: Getting off a mount is a "secondary action": Threshold = 8.
   - Failing the roll by less than 5 results in the action being wasted, failing by 5 or more results in you falling from your mount.
   - When the mount falls, the rider makes a roll (threshold=16) as a reaction to fall the first 10ft safely and land on their feet. Otherwise they suffer the usual falling rules.
 - **Quick mount**: Mount as a "secondary action" instead of a "main action": Threshold = 16.
@@ -445,18 +418,19 @@ Stealth is the art and technique of hiding your presence and remaining, and movi
 - **Threshold**: Stealth roll vs "observe" threshold. (Can be opposed roll out of combat).
 - **Limitations**:
   - An entity cannot stealth in plain sight when observed and must generally have at least "heavy concealment" to stealth.
-  - An entity attempting to maintain stealth must move at half speed or suffer penalties. It loses stealth it it attempts to run or sprint.
+  - An entity attempting to maintain stealth must move at half speed or suffer penalties. It loses stealth if it attempts to run or sprint.
   - An entity that has "stealthed" and makes a targeted attack or basic combat manoeuvre "breaks" stealth and reveals itself. 
 - **Modifiers**: Most of the modifiers are on the observing side. However there are a couple:
   - Armour penalty (Dex rating) affects all Dex based skills, but is especially pertinent here.
   - Size modifier to "Evasion" also applies to stealth rolls (see "[Size rules](base-rules.md#size-rules)").
-  - Moving at full speed when trying to maintain gives forces a reroll of the stealth with disadvantage.
+  - Moving at full speed when trying to maintain stealth forces a reroll of the stealth with disadvantage.
 - **Special**: 
   - An entity usually needs at least "heavy" concealment to use the stealth skill (otherwise the roll automatically fails).
-  - Anything that grants you the "invisible" status or observers the "blind" status allows one to stealth.
+  - The "[fleet](abilities.md#fleet)" allows an entity to hide in light concealment.
+  - Anything that grants you the "invisible" status or observers the "blind" status allows the 'observed' entity to stealth.
   - The use of "[deceive](#deceive)" to distract allows one to use stealth in plain sight or "light cover" at disadvantage.
 - **Take care**: No. This is essentially random.
-- **Try again**: Yes. In this case this is a "secondary action".
+- **Try again**: Yes. Although it maybe too late by then.
 
 ___
 #### Tinker
@@ -487,7 +461,7 @@ Tinkering involves making, modifying and breaking delicate mechanisms, construct
   - Time taken: 1 minute for threshold 16 and below. 1 hour for threshold 24 and below. For higher thresholds, the DM should set a reasonable time.
   - An entity may attempt a rush job to reduce the times to 1 round, 1 minute (or ~1/10) by taking a -10 penalty.
 - **Special**: Disabling the supernatural component of supernatural traps and devices increases the threshold by +10.
-- **Take care**: Yes. for "disable", "create" or "modify". For "research", the time taken on the next check to research the same item doubles with each failure.
+- **Take care**: Yes. For "disable", "create" or "modify". For "research", the time taken on the next check to research the same item doubles with each failure.
 - **Try again**: Yes, if it hasn't blown up in your face yet!
 
 ___
@@ -516,7 +490,7 @@ ___
 
 #### Academics
 
-Academics are fundamental knowledge. It starts with literacy and ends in higher logic, mathematics, philosophy, linguistics, architecture, music theory and scientific method (although not actual scientific knowledge). Academics is generally used when creating or deciphering secret messages, doing research, showing off, or getting a clue from the DM. This can be a minute worth of contemplation, or weeks of dedicated study.
+Academics are fundamentals of knowledge. It starts with literacy and ends in higher logic, mathematics, philosophy, linguistics, architecture, music theory and scientific method (although not actual scientific knowledge). Academics is generally used when creating or deciphering secret messages, doing research, showing off, or getting a clue from the DM. This can be a minute worth of contemplation, or weeks of dedicated study.
 
 - **Create/Decipher** secret meaning: Create or solve a cipher. Leave or discern a secret message.
   - **Time taken**: 1 minute if threshold 12 or below. 1 hour if threshold is 20 or below. 1 day if 32 or below. Longer if higher.
@@ -599,7 +573,7 @@ There are 6 knowledge skills in the game. Each represents various subsets of kno
   - 8: Common knowledge, more than half the villagers know this. (eg There are dragons in the northern mountains.)
   - 16: Basic specialist knowledge, known eg. only by a few folk in the village/town. (eg, The dragons in the mountains slumber, but there is one not far from here that is awakening, it's lair is somewhere on the side of mount X.)
   - 24: Truly specialist knowledge, which is known by only the most knowledgeable in the region. (eg. The dragon's name is Bob, he is five centuries old, has a magical gem instead of one of its eyes and has sworn to destroy the kingdom when the moon turns blue)
-  - 32: Deep knowledge, known by few or forgotten by most who once knew it. (eg The dragon's crystal eye works by these magics and can be destroyed using that method. 543 years ago to the day, queen Alice tricked and killed Bob's mate and then used her scales to make herself a suit of armour which is currently said to be lost in the ruins of XYZ. Bob's rage against the kingdom will likely not abate until the scales of his mate are returned.)
+  - 32: Deep knowledge, known by few or lost by most who once knew it. (eg The dragon's crystal eye works by these magics and can be destroyed using that method. 543 years ago to the day, queen Alice tricked and killed Bob's mate and then used her scales to make herself a suit of armour which is currently said to be lost in the ruins of XYZ. Bob's rage against the kingdom will likely not abate until the scales of his mate are returned.)
   - A DM may give completely false results on a failed check to obfuscate information that can be gleaned from information theory.
 - **Knowledge Domains**:
   - **Arcana**: Knowledge of spells and magical rituals. Used to identify magical auras (with appropriate senses), supernatural effects, spells that are being cast, magical constructs and summoned creature. Thresholds:
@@ -607,8 +581,7 @@ There are 6 knowledge skills in the game. Each represents various subsets of kno
     - Identify supernatural effect: [16 + MP dice used to create it]
     - Identify spell being cast [12 + MP dice used to create it]
     - Identify magical constructs or summoned creature: [4 + Total dice / 2].
-    - If the item is a single use item and the roll fails by 5 or more, the item is destroyed in the process.an assign [MP + 2] to successfully counter the effect.
-  - **Dungeoneering**: A collection of esoteric fields dealing with dangerous places such as labyrinths, monster lairs and disaster zones. It includes knowledge of things like creatures dwell in such places, typical hazards and resources, likely locations of trap/treasure zones and core zones, and general dungeon trivia. Thresholds are as follows:
+  - **Dungeoneering**: A collection of esoteric fields dealing with dangerous places such as labyrinths, monster lairs and disaster zones. It includes knowledge of things like which creatures dwell in such places, typical hazards and resources, likely locations of trap/treasure zones and core zones, and general dungeon trivia. Thresholds are as follows:
     - Identify monstrous creature or construct: [4 + Total dice / 2]
       - Special: for every 4 points over the identification threshold, the character gains an extra piece of information about the creature.
     - Identify hazard: [terrain + weather] or [threshold of creation].
@@ -640,7 +613,8 @@ The skill of observation is used to notice hidden/camouflaged details, entities 
     - Per size category larger: - 5
     - Per size category smaller: + 5
     - Poor Visibility: + 5
-    - Partial concealment: + 2
+    - Light concealment: + 2
+    - heavy concealment: + 5
     - Per 20ft of distance: + 1
     - Per additional entity: -1
     - Through solid object (eg wall): Disadvantage (auto fail for some senses like sight)

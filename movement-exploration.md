@@ -1,5 +1,5 @@
 # Actions outside of Combat
-A character should be able to take actions a creature of its type should conceivably be able to take including eat, sleep, explore, and interact with the world.
+A character should be able to take actions an entity of its type should conceivably be able to take including eat, sleep, explore, and interact with the world.
 
 Some, but not all, of these activities are covered in rules for skill use, research, exploration, resting, crafting, etc. Activities that are not covered by the rules are judged either too hard to cover well within the rules, or too rare in the foreseen use of the game to bother with.
 
@@ -9,56 +9,62 @@ A certain level of freeform RP and common sense are recommended.
 Here basic movement is described. It is based, where possible on observations. The main forms of movement are walk, climb, swim, flight and dig. Each one has its place and its pace. There are also two exotic types of movement which are not covered yet because we can live without it. Movement is measured in feet per round (ft), or miles per hour (mph). A very rough translation is 1mph = 1ft.
 
 #### Difficult Terrain
-It is common when adventuring to find less than ideal terrain. Loose, rocky ground or turbulent waters are typical examples. Movement speed is halved over this kind of terrain. Most creatures cannot "sprint" in these conditions and if they try to run, must make a DC12 [SKILL] check or fail to progress (critical failure means falling prone).
+It is common when adventuring to find less than ideal terrain. Loose, rocky ground or turbulent waters are typical examples. Movement speed is halved over this kind of terrain. Most entities cannot "sprint" in these conditions and if they try to run, must make a DC12 [SKILL] check or fail to progress (critical failure means falling prone).
 
 #### Walking
-Most creatures with a "walk" speed can:
-- **Crawl (5ft/round)**: Crawling is movement when prone, dragging one's torso along the ground. It makes one harder to spot or hit with ranged attacks, but is laborious and slow. Creatures without a "walk" speed can only crawl overland.
+Most entities with a "walk" speed can:
+- **Crawl (5ft/round)**: Crawling is movement when prone, dragging one's torso along the ground. It makes one harder to spot or hit with ranged attacks, but is laborious and slow. Entities without a "walk" speed can only crawl overland.
 - **Walk (1x base speed)**: This either represents ordinary walking, or bursts of rapid movements with pauses and changes of direction. Typically a fit humanoid can walk for hours without suffering ill effects. For a base human this is 30ft or 3mph.
 - **Run (2 x base speed)**: This represents a steady jog, a very brisk walk, or rapid movement with obstacles and changes of direction. Typically a humanoid can run for [CON] hours before fatiguing. For a base human this is 60ft or 6mph.
 - **Sprint (4 x base speed)**: This represents movement at maximum pace in a fairly straight line, over unbroken terrain free from obstacles. A typical human can sprint for [STR] rounds before becoming fatigued. For a base human this is 120ft or 12mph.
 - **Difficult terrain:** Some rocky, overgrown, sloping, slippery terrain is classed as "difficult". Narrow passages also count as difficult terrain.
 
 
+### Climb
+Climbing is upwards or downwards movement over steep or near vertical terrain. Entities with a "climb" speed can move along this kind of surfaces at their stated speed. Entities with a climb speed must still succeed a "climb" roll when climbing, but they can always choose to take care on this roll.
+- **Non climbers:** Entities without a climb speed move at 1/4 their base speed (usually "walk"). They cannot "run" or "dash" without succeeding a "climb" roll at a -5 penalty In addition they must succeed on "[climb](skills.md#climb)" rolls to stay attached to make progress or even stay attached to the surface.
+- **Prone and falling**: A climbing entity that falls prone or is knocked prone is considered prone and is subject to the falling rules (which means it accelerates downwards and then comes to a violent halt).
+
+
 #### Swimming
-Creatures with a swim speed are often well adapted to their liquid medium, but are either incapable of moving on land or very clumsy. Creatures with a swim speed typically have speeds of 60-120ft and can perform "walk", "run" and "sprint" actions in their liquid medium (usually water).
-- **Not Swimmers:** Creatures without a swim speed either do not swim at all (they sink), or are poor swimmers and can only move at 1/2 base speed (no "run" or "sprint" possible) and must make a [SKILL] or [ABILITY] check or start drowning/sinking if conditions are not ideal.
+Entities with a swim speed are often well adapted to their liquid medium, but are either incapable of moving on land or very clumsy. Entities with a swim speed typically have speeds of 60-120ft and can perform "walk", "run" and "sprint" actions in their liquid medium (usually water).
+- **Not Swimmers:** Entities without a swim speed either do not swim at all (they sink), or are poor swimmers and can only move at 1/2 base speed (no "run" or "sprint" possible) and must make a [SKILL] or [ABILITY] check or start drowning/sinking if conditions are not ideal.
 - **Difficult terrain**: Turbulent waters or strong currents, kelp beds and thick syrup are examples of difficult terrain.
 
 
 #### Digging
-Moving through solid earth is a slow and difficult process. Moving through rock is often impossible even for diggers. Tunnelling creatures are not slowed by narrow passages. Natural speeds are 5-10ft. Unless otherwise stated Digging creatures cannot dig through solid rock (natural or worked), or metal.
-- **Non-diggers**: Creatures that cannot move through earth, sand, or rock.
-- **Run, Sprint**: Digging creatures cannot run or sprint when digging.
+Moving through solid earth is a slow and difficult process. Moving through rock is often impossible even for diggers. Tunnelling entities are not slowed by narrow passages. Natural speeds are 5-10ft. Unless otherwise stated Digging entities cannot dig through solid rock (natural or worked), or metal.
+- **Non-diggers**: entities that cannot move through earth, sand, or rock.
+- **Run, Sprint**: Digging entities cannot run or sprint when digging.
 
 
 #### Flight
-Flight is an intriguing and liberating mode of movements. To terrestrial entities a flying being seems to have the freedom of the wind. Natural flying creatures move between 80-240ft per round.
-- **Non-flyers**: Creatures without a fly speed cannot fly. But they can jump.
-- **Sprint**: Flying creatures do not sprint.
+Flight is an intriguing and liberating mode of movements. To terrestrial entities a flying being seems to have the freedom of the wind. Natural flying entities move between 80-240ft per round.
+- **Non-flyers**: Entities without a fly speed cannot fly. But they can jump.
+- **Sprint**: Flying entities do not sprint.
 - **Difficult terrain and falling prone**: Turbulent skies, precipitation and high altitude count as difficult terrain. A flying entity that falls prone is welcomed by the firm embrace of mother earth (it falls).
 
 However this comes with limitations:
-- A creatures with natural flight can only fly when carrying a light load and at most light armour.
+- An entity with natural flight can only fly when carrying a light load and at most light armour.
 - They cannot use a shield or "unwieldy"/"heavy" weapon.
-- They must have a wing span of at least 1ft per [3lb / Size] of weight. (with size=[1, 2, 3, 4] for ["small", "medium", "large", "huge"] creatures respectively). This has general penalties and in particular this causes penalties on [DEX] and [STR] saves when not in flight. Furthermore, naturally entities cannot dig and have a penalty to swim and walk speeds.
+- They must have a wing span of at least 1ft per [3lb / Size] of weight. (with size=[1, 2, 3, 4] for ["small", "medium", "large", "huge"] entities respectively). This has general penalties and in particular this causes penalties on [DEX] and [STR] saves when not in flight. Furthermore, naturally entities cannot dig and have a penalty to swim and walk speeds.
 - If they slow to lower than 1/2 their speed in a given terrain, they must land or fall.
-- A flying creature that is knocked prone, or tripped, drops a distance equal to its speed and can only move at half speed on its next turn. If this drop causes it to hit the ground, it suffers all of the consequences of falling (see "[Falling](#Falling)" section).
+- A flying entity that is knocked prone, or tripped, drops a distance equal to its speed and can only move at half speed on its next turn. If this drop causes it to hit the ground, it suffers all of the consequences of falling (see "[Falling](#Falling)" section).
 
-Not all flying creatures are equal in flight. In fact there are four categories:
+Not all flying entities are equal in flight. In fact there are four categories:
 - **Poor**:
-  - These creatures climb at 1/2 speed, cannot "run", cannot ascend/descend at more than 45 degrees.
+  - These entities climb at 1/2 speed, cannot "run", cannot ascend/descend at more than 45 degrees.
   -  Their turn radius is equal to 3/2x their fly speed.
   -  They cannot fly for more than [10 minutes x CON] without fatigue.
 - **Average**:
-  - These creatures climb at 1/2 speed and cannot ascend at more than 45 degrees.
+  - These entities climb at 1/2 speed and cannot ascend at more than 45 degrees.
   - Their turning circle is equal to their fly speed.
   - They cannot fly more than [1 hour x CON] without fatigue.
 - **Good:**
-  - These creatures climb at 1/2 speed.
+  - These entities climb at 1/2 speed.
   - Their turn circle is equal to 1/2x their fly speed.
   - They cannot fly more than [2 hours x CON] without fatigue.
-- **Perfect:** These creatures have none of the typical limits of the other three categories. In addition:
+- **Perfect:** These entities have none of the typical limits of the other three categories. In addition:
   - They can hover without falling.
 
 Most birds are "average" flyers, though most fowl are "poor" and small raptors are usually "good". Flies, on the other hand have "perfect flight". Humanoids seldom have natural flight. Those that do, are usually poor. Those races with "average" flight pay a high price for it.
@@ -66,9 +72,9 @@ Most birds are "average" flyers, though most fowl are "poor" and small raptors a
 __If a group wishes to simplify__ these rules, it is recommended to use "Good" flight for natural fliers and "Perfect" flight for magical flight. Using "perfect" flight for all fliers is the simplest rule of course, but makes flying monsters, mounts and characters a lot more powerful. Beware!
 
 ##### Walk and Flight Logic
-Most terrestrial creatures have legs and walk. Some do not. They slither. They are an exception. We ignore them for now. Using small to large animals for reference, quadrupeds have a walking speed of 2-6 miles per hour (mph), a running speed of 8-20mph, and a sprint pace of 16-40mph. There are fewer bipeds, but they are capable of similar speeds (see ostriches). Humanoids are comparatively slow. 3-4mph (~5-6ft/s) is a typical walk. The fastest sprinter reaches about 24mph (100m/9s, 35ft/s), an average human springs at ~16mph (100m/15s, 24ft/s). The speeds we have quoted in the rules are a bit lower as conditions on an adventure are seldom as ideal as on a modern running track. Likewise you will notice that I have used [STR] for sprinting. This is in keeping with sports physiology.
+Most terrestrial entities have legs and walk. Some do not. They slither. They are an exception. We ignore them for now. Using small to large animals for reference, quadrupeds have a walking speed of 2-6 miles per hour (mph), a running speed of 8-20mph, and a sprint pace of 16-40mph. There are fewer bipeds, but they are capable of similar speeds (see ostriches). Humanoids are comparatively slow. 3-4mph (~5-6ft/s) is a typical walk. The fastest sprinter reaches about 24mph (100m/9s, 35ft/s), an average human springs at ~16mph (100m/15s, 24ft/s). The speeds we have quoted in the rules are a bit lower as conditions on an adventure are seldom as ideal as on a modern running track. Likewise you will notice that I have used [STR] for sprinting. This is in keeping with sports physiology.
 
-Most natural flying creatures of tiny to large sizes are fast. Indeed there are fewer flying creatures that can fly slowly than those that can't. Typical cruise speeds of birds are 10-60mph, with maximum speeds being as much as twice as high. On the other hand, flying creatures usually need space to change direction and sacrifice sturdiness for the highly energetic activity of flight. Few flying creatures in the real world weight much more than 10kg.
+Most natural flying entities of tiny to large sizes are fast. Indeed there are fewer flying entities that can fly slowly than those that can't. Typical cruise speeds of birds are 10-60mph, with maximum speeds being as much as twice as high. On the other hand, flying entities usually need space to change direction and sacrifice sturdiness for the highly energetic activity of flight. Few flying entities in the real world weight much more than 10kg.
 
 ---
 
@@ -102,9 +108,9 @@ Travel from A to B can be summarised as follows:
 #### Local and Global Movement
 This is described above in "Local and Global Movement" above, but there are some additional nuances which. Tactical movement represents generally bursts of high intensity movement over short time periods and is measured in ft/round, usually limited to a few minutes at a time. On the other hand global movement reflects movement over a long range and is measured in mph. It often abstracts away elements such as winding paths and minor obstacles. Thus, an entity's speed on a local level in ft/round is equal to its speed in mph for overland travel.
 
-For entities and parties that travel via **walk**, **climb**, **dig** or **blink** speed, when travelling between two points that have no defined distance by road (and maybe no road), and only a map distance as the crow flies, the distance travelled is multiplied x2. This represents lack of direct roads, and often meandering routes over off road terrain. For creatures using **walk**, **climb** or **dig** speed in **swamp**, **deep forest**, or **mountain** distance as the crow flies is multiplied by x4. Creatures with a **cosmic** or **fly** speed do not suffer from this kind of impediment.
+For entities and parties that travel via **walk**, **climb**, **dig** or **blink** speed, when travelling between two points that have no defined distance by road (and maybe no road), and only a map distance as the crow flies, the distance travelled is multiplied x2. This represents lack of direct roads, and often meandering routes over off road terrain. For entities using **walk**, **climb** or **dig** speed in **swamp**, **deep forest**, or **mountain** distance as the crow flies is multiplied by x4. Entities with a **cosmic** or **fly** speed do not suffer from this kind of impediment.
 
-Entities that move via a **Fly** speed have the movement speed halved in severe precipitation and wind. If precipitation or wind is extreme, such creatures must make a skill roll against the storm's threshold number or make no progress. An entity may attempt to move at 1/4 speed and take damage every hour equal to 2d6 damage plus 2d6, per size category above medium. An entity failing the roll by more than 5 in extreme precipitation falls to the ground. An entity failing the roll by more than 5 in extreme wind is blown away in the prevailing wind direction at 1/2 the wind speed. If this leads to the collision with some kind of fixed obstacle (mountain, big tree, wall), it suffers damage as if it had fallen 100ft (see [fall damage](#Falling)).
+Entities that move via a **Fly** speed have the movement speed halved in severe precipitation and wind. If precipitation or wind is extreme, such entities must make a skill roll against the storm's threshold number or make no progress. An entity may attempt to move at 1/4 speed and take damage every hour equal to 2d6 damage plus 2d6, per size category above medium. An entity failing the roll by more than 5 in extreme precipitation falls to the ground. An entity failing the roll by more than 5 in extreme wind is blown away in the prevailing wind direction at 1/2 the wind speed. If this leads to the collision with some kind of fixed obstacle (mountain, big tree, wall), it suffers damage as if it had fallen 100ft (see [fall damage](#Falling)).
 
 #### Travel rolls and terrain
 All travel rolls are determined by the terrain type, the weather modifier from inclement weather (severe or extreme) and the familiarity bonus. They are defined in the following tables. It should be noted that weather modifiers from different categories stack.
@@ -176,7 +182,7 @@ Harvesting, hunting and mining are essentially all harvesting of different types
 - The duration of the "harvesting" and the magnitude of success determine the yield of the harvest. Critical failure results in the damage to the tools used (or HP loss or injury if the tool was the character's body or spirit).
 - Exceeding the threshold by 5 allows to double the yield or half the time. Exceeding by 10 or more, allows both.
 - Guideline yields:
- - Hunt/trap small prey: 1 small creature per day + 1 per 5 points by which the terrain threshold is exceeded.
+ - Hunt/trap small prey: 1 small entity per day + 1 per 5 points by which the terrain threshold is exceeded.
  - Strip a carcass (small, medium, large, huge, enormous): (30 min, 2h, 4h, 1d, 1 week). Threshold: (6, 9, 12, 18, 24).
  - Harvest surface plants/minerals: 5-30 min per 5ft. Threshold: Terrain.
  - Harvest subsurface minerals (mining): 1h-1d per 5ft Threshold: Terrain.
@@ -201,9 +207,9 @@ Depending on the nature of an environment being explored, it is possible to enco
 #### Inclement Weather Hazards (TODO: Make a full table of all weather and consequences.)
 Inclement weather has two severities: **Severe** and **Extreme**. The following inclement weather types exist. Here is a brief overview.
 - **Precipitation.** (Rain, snow, sleet, ash.) This can lead to poor visibility, difficult movement due to boggy ground or accumulation, or even collapse of structures (snow, ash).
-- **Wind.** Can damage structures. Can knock prone smaller creature and impede movement. Dangerous for flying creatures. Makes ranged attacks difficult.
+- **Wind.** Can damage structures. Can knock prone smaller entity and impede movement. Dangerous for flying entities. Makes ranged attacks difficult.
 - **Temperature.** Very low or high temperatures. Being in temperatures an entity is not acclimatised to can quickly lead to exhaustion (hypothermia, hyperthermia, dehydration) or even death. It is more difficult to recuperate under these conditions. In particular, trying to recuperate in unameliorated camps may require a roll, or be impossible.
-- **Visibility.** Poor visibility is usually caused be caused by extreme precipitation, fog, murky water, cosmic clouds or darkness. It is easier to hide, and harder to detect, navigate and aim in poor visibility. In zero visibility ranged targeted attacks and those made with reach weapons have a 5/6 miss chance (if you can locate the correct square for your target in the first place!), certain spells cannot be cast. In areas of zero (extreme) visibility all creatures are considered for all intents and purposes BOTH **blinded** and **invisible**. **NB:** Visibility can refer to senses other than sight in some exotic cases.
+- **Visibility.** Poor visibility is usually caused be caused by extreme precipitation, fog, murky water, cosmic clouds or darkness. It is easier to hide, and harder to detect, navigate and aim in poor visibility. In zero visibility ranged targeted attacks and those made with reach weapons have a 5/6 miss chance (if you can locate the correct square for your target in the first place!), certain spells cannot be cast. In areas of zero (extreme) visibility all entities are considered for all intents and purposes BOTH **blinded** and **invisible**. **NB:** Visibility can refer to senses other than sight in some exotic cases.
 
 Any given inclement weather phenomenon may cause more than one effect. Here are some suggested ratings.
 - **Fog**/**Mist**: Poor/Zero visibility.

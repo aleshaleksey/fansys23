@@ -129,7 +129,7 @@ I am not sure which ones exist in your setting, but I quite like these ones.
 ___
 #### Human (level-0 template)
 
-Human represents the human race. The human race is the base. Humans have no special senses, resistances, movement modalities or spooky abilities. To compensate this, they adapt quickly to new environments, and learn appropriate skills quickly as soon as they are old enough to walk. Humans have a lifespan that does not exceed a century, reach a breeding age in their teens and can produce up to two dozen offspring in their lifetime.
+Human represents the human race. The human race is the base. Humans have no special senses, resistances, movement modalities or spooky abilities. To compensate this, they adapt quickly to new environments, and begin learning the skills needed to survive in their homeland as soon as they are old enough to walk. Humans have a lifespan that does not exceed a century, reach a breeding age in their teens and can produce up to two dozen offspring in their lifetime.
 - **Size**: Medium (Height: ~5'8", Weight: ~140lb)
 - **Stats**: (Str: 0, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: 0)
 - **Movement**: Walk 30ft
@@ -172,7 +172,7 @@ This is a race that is closer to the feral side of humanoids. They are stronger 
 - **Size**: Medium (Height: ~6'0", Weight: ~185lb)
 - **Stats**: (Str: +2, Dex: 0, Con: +2, Int: -2, Wis: 0, Cha: 0)
 - **Movement**: Walk 30ft
-- **Sight**: Normal, heat vision.
+- **Sight**: Normal, heat sense (30ft).
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
 - **Proficiencies**: Common. Strikes AND Slings.
 
@@ -195,8 +195,8 @@ This is a race of winged humanoids that live in high and isolated places, as wel
 - **Proficiencies**: Common.
 
 Extra:
-+ 2 to Fly
-+ 2 to Observe
++ +2 to Fly
++ +2 to Observe
 
 Race boon (level 8 and 16):
 - +1 fly level.
@@ -239,7 +239,7 @@ At level one a character starts with the following:
 
 #### Skills and proficiencies
 
-Skills and proficiencies determine how well practiced your character is with certain routine or esoteric arts, skills or sciences, as well as which tools, weapons and armours they know. A character essentially starts with between 5 and 11 skill points. It is recommended that you take at least one weapon proficiency and one armour proficiency, and maybe more for martial characters. For more information see the "[Skills](skills.md)" and "[Weapons and Armour](weapons-armour.md)" chapters.
+Skills and proficiencies determine how well practiced your character is with certain routine or esoteric arts, skills or sciences, as well as which tools, weapons and armours they know how to use. A character essentially starts with between 5 and 11 skill points. It is recommended that you take at least one weapon proficiency and one armour proficiency, and maybe more for martial characters. For more information see the "[Skills](skills.md)" and "[Weapons and Armour](weapons-armour.md)" chapters.
 
 Secondly, a character starts with one background skill, where they get to add a small bonus called "Base" (+1 at level 1).
 
@@ -294,7 +294,7 @@ ___
 
 Attacks must overcome HiT to do damage, abilities are opposed by a save. "Natural" attacks are governed by Str and Dex (use [Str] or [Dex] bonus to hit), while "supernatural" attacks are governed by Int and Wis (use [Int] or [Wis] bonus to hit, usually [Wis]).
 
-The Attack Potential of a character's ability is determined by the total number of SP dice it has divided by 6 (for "natural" attacks) and the total number of MP dice it has divided by 6 (for "supernatural" attacks). These bonuses are called the "Nat" and "Sup" respectively, and are used a lot! Overall the total attack bonus is generally given by:
+The Attack Potential of a character's ability is determined by the total number of SP dice it has divided by 6 (for "natural" attacks) or the total number of MP dice it has divided by 6 (for "supernatural" attacks). These bonuses are called the "Nat" and "Sup" respectively, and are used a lot! Overall the total attack bonus is generally given by:
 
 + For "natural" abilities, attack potential (NAP) = [Nat] + [Base]
 + For "supernatural" abilities, attack potential (SAP) = [Sup] + [Base]
@@ -331,6 +331,7 @@ Alignments can be: "None", "Spiritual", "Divine" and "Profane".
 + Divine: Implies homage to the forces that created and maintain the world.
 + Profane: Implies homage to the forces that oppose creation.
 + One cannot be aligned to "Divine" and "Profane" simultaneously as those forces oppose each other.
++ A character can also become aligned with various elements. This affects how other elements interact with the character.
 
 ___
 ### Level points and abilities

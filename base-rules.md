@@ -287,11 +287,11 @@ This is the determinant of "MP pool".
 #### Mana pool
 
 This is a measure of an entities' mental/spiritual energy.
-- A character has maximum MP = CHA x LEVEL + [MP dice count] x 2.
+- A character has maximum **MP = CHA x LEVEL + [MP dice count] x 2**.
 - When a character uses an MP dice, it loses 2 MP.
 - When a character regains an MP dice, it regains 2 MP.
 - When a character takes natural damage it loses 1 MP per point of damage.
-- If a character takes more than [CHA+ 2 x MP dice total] damage from a single supernatural/mental attack, the remainder is subtracted from HP.
+- If a character takes more than **[CHA + 2 x MP dice total]** damage from a single supernatural/mental attack, the remainder is subtracted from HP.
 - When a character rests, it regains **[1/2 x CHA x LEVEL]** MP.
   - This is in addition to the MP regained due to regained MP dice. So in total a character regains **[1/2 x CHA x LEVEL + Total MP dice count]** MP.
 
@@ -307,11 +307,11 @@ This is the determinant of "SP pool".
 #### Stamina pool
 
 This is a measure of an entity's physical energy, stamina.
-- A character has maximum SP = CON x LEVEL + [SP dice count] x 2.
+- A character has maximum **SP = CON x LEVEL + [SP dice count] x 2**.
 - When a character uses an SP dice, it loses 2 SP.
 - When a character regains an SP dice, it regains 2 SP.
 - When a character takes natural damage it loses 1 SP per point of damage.
-- If a character takes more than [CON + 2 x SP dice total] damage from a single natural/physical attack, the remainder is subtracted from HP.
+- If a character takes more than **[CON + 2 x SP dice total]** damage from a single natural/physical attack, the remainder is subtracted from HP.
 - When a character rests, it regains **[1/2 x CON x LEVEL]** SP.
   - This is in addition to the SP regained due to regained SP dice. So in total a character regains **[1/2 x CON x LEVEL + Total SP dice count]** SP.
 

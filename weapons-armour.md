@@ -1,6 +1,6 @@
 # Weapons and armour
 
-Weapon rules here are based on DnD 3.5, DnD 5e and Pathfinder weapons rules.
+Weapons and armour an essential part of any combat heavy table top RPG system. Weapon rules here are inspired primarily by DnD 3.5, and Pathfinder weapons rules.
 
 ## Weapons
 Weapons are tools that increase the lethality of martial combatants. For the sake of most abilities other than "sunder", unarmed techniques count as weapons. Each type of weapon requires its own proficiency. In all, there 5 categories and 18 types. The following categories and types of weapons exist:
@@ -65,11 +65,11 @@ Weapons come in all shapes and sizes. They can be made of various materials. As 
 - **Long**: These weapons are not quite reach weapons, but they are bit longer than usual. A long weapon allows a wielder to use its "secondary action" to lunge and extend its reach to 10ft for a single attack.
 - **Light**: -2 when on the receiving end of "sunder" and "disarm" manoeuvres. Its users have advantage when using stealth to conceal this kind of weapon.
 - **Mounted**: This weapon was made with mounted combat in mind. If normally there would be penalties for using this kind of weapon mounted, they are negated.
-- **Tool**: This weapon also counts as a tool and character proficient with it may use it as a tool for that purpose.
-- **Disarm**: Proficiency with this weapon allows the use of disarm as if proficient with the manoeuvre while wielding it. If the user already has proficiency with "disarm", it gains a +2 bonus with this weapon.
-- **Grapple**: Proficiency with this weapon allows the use of grapple as if proficient with the manoeuvre while wielding it. If the user already has proficiency with "grapple", it gains a +2 bonus with this weapon.
-- **Throw**: Proficiency with this weapon allows the use of throw as if proficient with the manoeuvre while wielding it. If the user already has proficiency with "throw", it gains a +2 bonus with this weapon.
-- **Sunder**: Proficiency with this weapon allows the use of sunder as if proficient with the manoeuvre while wielding it. If the user already has proficiency with "sunder", it gains a +2 bonus with this weapon.
+- **Tool**: This weapon also counts as a tool and character proficient with counts as proficient in that tool when using the weapon as the stated tool type.
+- **Disarm**: Proficiency with this weapon allows the use of disarm as if proficient with the manoeuvre while wielding it. If the user already has proficiency with "disarm", it gains a +2 bonus when disarming with this weapon.
+- **Grapple**: Proficiency with this weapon allows the use of grapple as if proficient with the manoeuvre while wielding it. If the user already has proficiency with "grapple", it gains a +2 bonus when grappling with this weapon.
+- **Throw**: Proficiency with this weapon allows the use of throw as if proficient with the manoeuvre while wielding it. If the user already has proficiency with "throw", it gains a +2 bonus when throwing an opponent with this weapon.
+- **Sunder**: Proficiency with this weapon allows the use of sunder as if proficient with the manoeuvre while wielding it. If the user already has proficiency with "sunder", it gains a +2 bonus when sundering with this weapon.
 
 ### Weapon proficiencies
 
@@ -168,7 +168,7 @@ Unarmed combat is the use of one's own body to effectively neutralise targets. I
 ___
 ### Light blades
 
-This is something of a misnomer. Light blades refers to smaller one handed bladed weapons that weight no more than 2lb. It also refers to certain thrown weapons whose use similar to that of bladed weapons. Light blades  are typically easily hidden. All light blades can cause "bleeding". Not all light blades have the light properties. All blades give a +1 HiT to proficient wielders who are not "disabled".
+This is something of a misnomer. Light blades refers to smaller one handed bladed weapons that weight no more than 2lb. It also refers to certain thrown weapons whose use is similar to that of bladed weapons. Light blades are typically easily hidden. All light blades can cause "bleeding". Not all light blades have the light properties. All blades give a +1 HiT to proficient wielders who are not "disabled".
 
 |Weapon|Special Properties| Manoeuvres|
 |-|-|-|
@@ -180,7 +180,7 @@ This is something of a misnomer. Light blades refers to smaller one handed blade
 
 **Daggers** include kitchen knives, hunting knives, daggers and similar blades. They are often somewhat throwable. Daggers have the "light" property.
 
-**Scimitars** are curved blades designed for cutting and chopping. Scimitars, sabres, kodachi, kukri and machetes all fall in this category. can cause the "crippled" condition.
+**Scimitars** are curved blades designed for cutting and chopping. Scimitars, sabres, kodachi, kukri and machetes all fall in this category. They can cause the "crippled" condition.
 
 **Short Swords** are short straight blades designed primarily for stabbing. They are simple, sturdy blades. The gladius is a typical short sword.
 
@@ -211,7 +211,7 @@ These are the legendary blades of legend, and the symbol of a warrior. Heavy bla
 ___
 ### Axes
 
-A hefted weapon with a sharp, protruding head that is used for chopping. While also a tool used for carpentry amd fortification, most axes specialised for combat are not suited for any purpose other that chopping foes and wood. All axes have the "grapple" and "cripple" property.
+A hefted weapon with a sharp, protruding head that is used for chopping. While also a tool used for carpentry and fortification, most axes specialised for combat are not suited for any purpose other that chopping foes and wood. All axes have the "grapple" and "cripple" property.
 
 |Weapon|Special Properties| Manoeuvres|
 |-|-|-|
@@ -252,7 +252,7 @@ Percussive weapons like clubs, maces and hammer are in their essence a weight at
 
 **Mace** here refers to any weapon with a short shaft and a crafted head of metal or other dense material.
 
-**Morning stars** are essentially spiked mace. This allows it to also deal piercing damage. Morning star can cause can cause "bleeding".
+**Morning stars** are essentially spiked maces. This allows it to also deal piercing damage. Morning star can cause can cause "bleeding".
 
 **War hammers** are a family of mace-like weapons with an asymmetrical head: One end is blunt, the other end is sharp, for piercing armour. War hammers have the "sunder" property, and "sunder" vs armour and unattended items is at advantage when using a war hammer. **NB** long hefted war hammers in the style of venetian war hammers are considered pole-arms for for the sake of proficiency.
 
@@ -260,7 +260,7 @@ Percussive weapons like clubs, maces and hammer are in their essence a weight at
 
 ___
 ### Spears
- The venerable spear is the unsung defender of humanoids throughout the realms and ages. Any weapon with a long heft ending in a sharp point is considered a spear. Longer spears have the "unwieldy" property and warriors who use spears as a primary weapon often carry a light weapon in reserve. All spears have the "bleeding" property.
+ The venerable spear is the unsung defender of humanoids throughout the realms and ages. Any weapon with a long heft ending in a simple head with a sharp point is considered a spear. Longer spears have the "unwieldy" property and warriors who use spears as a primary weapon often carry a light weapon in reserve. All spears have the "bleeding" property.
 
 |Weapon|Special Properties| Manoeuvres|
 |-|-|-|
@@ -274,7 +274,7 @@ ___
 
  **Spear**: This refers to spears between 6-10ft. It can be thrown up to to 60ft in 20ft increments.
 
- **Long spears**: This refers to obscenely long spears. Pikes are included in this category. Long spears cannot be cannot be used against targets within 5ft of the wielder.
+ **Long spears**: This refers to obscenely long spears. Pikes are included in this category. Long spears cannot be used against targets within 5ft of the wielder.
 
  **Javelin:** This is a short, lighter, spear-like throwing weapon designed specifically for throwing. It includes weapons like the pilum.
 
@@ -283,12 +283,12 @@ ___
 ___
  ### Pole-arms
 
- Here pole-arms refers to long hefted weapons with something other than a simple sharp point at the end. Historically these were mostly used as weapons of war, although some had other uses. All pole-arms have the "unwieldy" property.
+ Here pole-arm refers to long hefted weapons with something other than a simple sharp point at the end. Historically these were mostly used as weapons of war, although some had other uses. All pole-arms have the "unwieldy" property.
 
 |Weapon|Special Properties| Manoeuvres|
 |-|-|-|
 |Glaive|unwieldy, bleeding, cripple||
-|Halberd|unwieldy, heavy,bleeding, cripple|grapple, sunder|
+|Halberd|unwieldy, heavy, bleeding, cripple|grapple, sunder|
 |Venetian Hammer|unwieldy, heavy|grapple, sunder|
 |Long axe|unwieldy, heavy, cripple, bleeding||
 
@@ -317,12 +317,12 @@ Staves are round poles with a length between 4-8ft. Staves are bludgeoning weapo
 ___
 ### Slings
 
-Slings are simple in construction and difficult in exploitation which make use centripetal force. A sling is essentially a length of sinew with a "nest" for the projectile (usually a round stone or metal bullet) at the center. Despite the range, slings are difficult to aim and therefore have a low range increment. Slings can also be used to shoot stones, in absence of proper ammunition, but the attack is at disadvantage. Slings have the "light" and "unwieldy" properties. Slings cannot be used effectively from prone.
+Slings are simple in construction and difficult in exploitation. They make use centripetal force. A sling is essentially a length of sinew with a "nest" for the projectile (usually a round stone or metal bullet) at the center. Despite the range, slings are difficult to aim and therefore have a low range increment. Slings can also be used to shoot stones, in absence of proper ammunition, but the attack is at disadvantage. Slings have the "light" and "unwieldy" properties. Slings cannot be used effectively from prone.
 
 ___
 ### Bows
 
-Bows are curved ranged weapon, that, when strung appears as a length of material, bent into a curve by a string from its two extremities. This is one of the most common and effective ranged weapons used in most realms. Bows are quite delicate weapons and easily ruined by poor handling or attacks aimed to sunder them. All bows cause "bleeding". Bows have the "delicate" property. Bows cannot be used effectively from "prone".
+Bows are curved ranged weapon that, when strung, appears as a length of material, bent into a curve by a string from its two extremities. This is one of the most common and effective ranged weapons used in most realms. Bows are quite delicate weapons and easily ruined by poor handling or attacks aimed to sunder them. All bows cause "bleeding". Bows have the "delicate" property. Bows cannot be used effectively from "prone".
 
 |Weapon|Special Properties| Manoeuvres|
 |-|-|-|
@@ -361,7 +361,7 @@ Mechanical bows are bow-like weapons where the draw is performed by a mechanism,
 ___
 ### Firearms
 
-Weapons with a closed or open barrel that use the energy in explosive substances (or magic) to accelerate a projectile towards a target fall into this category. With the exception of some early and ancient firearms. This kind of weapon is easy to wield and long to reload. It is favoured by armies due to the ease of training manpower in their use, but are not ideal for explorers and adventurers who must carry several of them in order to keep anything resembling an adequate rate of fire. Firearms have several exceptional properties:
+Weapons with a closed or open barrel weapons that use the energy in explosive substances (or magic) to accelerate a projectile towards a target fall into this category. With the exception of some early and ancient firearms. This kind of weapon is easy to wield and long to reload. It is favoured by armies due to the ease of training manpower in their use, but are not ideal for explorers and adventurers who must carry several of them in order to keep anything resembling an adequate rate of fire. Firearms have several exceptional properties:
 - All firearms have the "loud", "bleeding" and "delicate" properties.
 - All firearms ignore "armour" component of HiT within the first range increment.
 - **NB:** these weapons are not appropriate for all fantasy settings.
@@ -394,7 +394,7 @@ Each component of armour stacks. Furthermore, for each component, the [Nat] and 
 
 ### Armour types
 
-Different armours exist, each with advantages and disadvantages. Each of the four categories require only a single proficiency to use. The following armours exist in the game (NB: Shields are not formally shields, but they are described here for simplicity):
+Different armours exist, each with advantages and disadvantages. Each of the four categories require only a single proficiency to use. The following armours exist in the game (NB: Shields are not formally armour, but they are described here for simplicity):
 
 - **Light armours** (armour bonus)
   - Leather Cuirass
@@ -441,10 +441,9 @@ Armour tends to restrict movement, somewhat. This is reflected in several penalt
 - Dex Rating.
 - Armour Weight Penalty.
 
-**Dex rating"**: A character with a Dex bonus higher than the rating, only applies the "Dex rating" to all rolls, attacks and saves. 
+**Dex rating**: A character with a Dex bonus higher than the rating, only applies the "Dex rating" to all rolls, attacks and saves. 
 
 **Weight Penalty**: Medium and heavy armour give a weight penalty.
-  - Any Adamantine Armour
 - Heavy Armour gives a -4 penalty to all [Con] rolls related to endurance and a -2 penalty to attack rolls.
 
 ___
@@ -465,7 +464,7 @@ Bonus Key:
 |Hide Armour|Medium|A|3|3|30|4|
 |Full Leather|Medium|A|3|4|20|6|
 |Brigandine|Medium|A|4|3|38|6|
-|Full Chain|Heavy|A|4|2|55|8|
+|Full Chain|Medium|A|5|3|55|8|
 |Cuirass|Medium|A|5|2|46|8|
 ||||||||
 |Segmented Mail|Heavy|A|6|1|60|10|

@@ -291,9 +291,9 @@ This is a measure of an entities' mental/spiritual energy.
 - When a character uses an MP dice, it loses 2 MP.
 - When a character regains an MP dice, it regains 2 MP.
 - When a character takes natural damage it loses 1 MP per point of damage.
-- If a character takes more than [CON + 2 x MP dice total] damage from a single supernatural/mental attack, the remainder is subtracted from HP.
-- When a character rests, it regains **[1/2 x CON x LEVEL]** MP.
-  - This is in addition to the MP regained due to regained MP dice. So in total a character regains **[1/2 x CON x LEVEL + Total MP dice count]** MP.
+- If a character takes more than [CHA+ 2 x MP dice total] damage from a single supernatural/mental attack, the remainder is subtracted from HP.
+- When a character rests, it regains **[1/2 x CHA x LEVEL]** MP.
+  - This is in addition to the MP regained due to regained MP dice. So in total a character regains **[1/2 x CHA x LEVEL + Total MP dice count]** MP.
 
 
 #### SP dice pool

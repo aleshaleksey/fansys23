@@ -207,7 +207,7 @@ ____
 
 **Action**:
 1. Declare the ability and make the attack.
-2. If you hit, expend the SP dice, target tres to save against your NAP + [Wis].
+2. If you hit, expend the SP dice, target tries to save against your NAP + [Con] at the start of its turn.
 3. On a fail, the target is stunned till the end of its next turn.
 
 **Prerequisites**: There is an SP prerequisite and cost on all debilitating strikes.
@@ -222,7 +222,7 @@ ____
 
 #### Flurry
 
-**Description**: As a "secondary action" make an extra attack with a light weapon or unarmed strike. If you expend an SP dice, you get to make 2.
+**Description**: As a "secondary action" make an extra attack or combat manoeuvre with a light weapon or unarmed strike. If you expend an SP dice, you get to make 2 attack.
 ___
 #### Broad Strike
 
@@ -230,7 +230,7 @@ ___
 
 **Action**: Roll attack once. Roll damage once. All targets whose HiT is met are hit.
 
-**Cost**: For every foe above one, an extra SP dice is expended.
+**Cost**: 1 SP dice is expended.
 
 **Original state**: A single melee attack can only strike one target.
 
@@ -241,7 +241,7 @@ ___
 
 **Prerequisite**: 6 SP dice.
 
-**Original state**: Only melee attacks with weapons you are not proficient with provoke attacks of opportunity.
+**Original state**: In melee, only attacks with weapons the attacker is not proficient with provoke attacks of opportunity.
 
 ___
 #### Deflect Arrows
@@ -303,7 +303,8 @@ ___
 **Special**:
 - Sneak attack can only be made with a Dex based weapon on a Dex based attack roll.
 - You can only make one weapon attack when using "sneak attack".
-- The target must be unaware of you, "surprised", or be in melee range of another entity hostile to it.
+- The target must be unaware of you, "surprised", or be in melee range of another entity hostile to it. OR you must have advantage on your attack.
+- Sneak attack automatically fails if the target has heavy concealment or total concealment, or if it is "invisible" to you. (It is impossible to make a precision attack if you cannot carefully observe your target).
 - Since it uses a "main action" it cannot be used as a "reaction".
 
 **Prerequisite table**: Sneak attack has 10 levels. The maximum level of sneak attack a character may have is [Level / 2]
@@ -386,7 +387,7 @@ ___
 - Dice: MP (base dice cost = 0).
 - Per dice: 1 extra damage dice / MP dice + 10ft/30ft of range (cone/blast).
 
-**Special**: Elemental touch must be taken separately for each element.
+**Special**: Elemental blast must be taken separately for each element.
 
 ___
 #### Elemental Touch
@@ -471,7 +472,7 @@ ___
 
 - When delivering a spell that takes an action to cast, or releasing a spell that takes an action/reaction to release (held spell), make a weapon attack. If the attack hits, you deal the normal damage and discharge the spell through the weapon. If the attack misses, the spell is "held".
 
-**Special**: When you miss when a "spell strike" when already concentrating on a spell, the double concentration rule resolves itself in the usual way (either you chose to drop on spell, or they both end, be it quietly or loudly).
+**Special**: When you miss with a "spell strike" when already concentrating on a spell, the double concentration rule resolves itself in the usual way (either you chose to drop on spell, or they both end, be it quietly or loudly).
 
 **Prerequisites**:
 - Must be proficient in the given weapon group.
@@ -498,11 +499,13 @@ ___
 
 **Type**: (Class A)
 
-**Description**: Spend 1 MP dice to overcome damage resistance when dealing elemental damage.
+**Description**: Spend 1 MP dice to overcome damage resistance when dealing elemental/energy damage.
 
 **Declaration**: Declare and pay the price before calling the ability/attack/spell.
 
 **Prerequisites**: At least one "supernatural" ability that utilises the element.
+
+**Special**: Must be taken separately for each element.
 
 ___
 ### General Abilities (Supernatural)
@@ -684,7 +687,7 @@ There are several forms of spellcasting in this category, but they all have simi
 - Each time a character wishes to learn the new category of local magic, they must take it as a separate ability.
 - Each type of local magic also covers some global spells. As long a character has "Spellcasting: Global I" and the requisite level of local spellcasting of the type, they can cast global spells of that type and level.
 - In order to get the next level of a type of local magic, a character must have the previous one. So if a character wishes to learn "Spellcasting: Nature III", they must have "Spellcasting: Nature II", which requires having "Spellcasting: Nature I".
-- A spellcaster can never channel more than 1/3 of their MP dice total into a single spell.
+- A spellcaster can never channel more than 1/3 of their MP dice total into a single "local" spell.
 
 **Local Spellcasting table**:
 
@@ -783,7 +786,7 @@ ___
 ___
 #### Mage Hunter I
 
-**Description**: You may make an attack of opportunity against entities casting spells within reach, even if there are no kinetic components.
+**Description**: You may make a melee attack of opportunity against entities casting spells within reach, even if there are no kinetic components.
 
 **Prerequisite**: 4 SP dice total and 4 MP dice total.
 
@@ -815,7 +818,7 @@ ___
 ___
 #### Offhand fighting I-IV
 
-**Description**: Make an addition attack with an offhand weapon with the "light" property as a "secondary" action when you make one or more attacks as a "basic martial manoeuvre: attack" with a one handed weapon as your "main action".
+**Description**: Make one or more addition attacks with an offhand weapon with the "light" property as a "secondary" action when you make one or more attacks as a "basic martial manoeuvre: attack" with a one handed weapon as your "main action".
 
 **Original state**: A character cannot make an attack with an offhand weapon. They can however flail wildly.
 
@@ -926,7 +929,7 @@ ___
 
 **Description**: Remove penalties with ranged weapons when dealing with cover and concealment.
 
-**Original state**: Light cove gives a -2 penalty to attacks against a target. Heavy cover gives a -5 penalty to attacks against a target. Full cover prevents targeted attacks, but this does not help here.
+**Original state**: Light cover gives a -2 penalty to attacks against a target. Heavy cover gives a -5 penalty to attacks against a target. Full cover prevents targeted attacks, but this does not help here.
 
 **Prerequisites and benefits**:
 
@@ -961,7 +964,7 @@ General boons are those that can come in handy in and out of combat.
 
 **Description** Gain a 30ft blink speed.
 
-**Prerequisites**: 36 MP dice. Either Elemental[air] or Spirit magic, level 3.
+**Prerequisites**: 36 MP dice. Either Elemental[air] or Incantation magic, level 3.
 
 ___
 #### Extra Save
@@ -1007,7 +1010,7 @@ ___
 
 **Type**: (Natural, Class A/B)
 
-**Description**: When you are "stealthed" and make a ranged attack from concealment, and the attack misses the target, it does not reveal itself to the target.
+**Description**: When you are "stealthed" and make a ranged attack from concealment, and the attack misses the target, it does not reveal your position to the target.
 
 **Prerequisite**:
 - SP dice total of 10
@@ -1063,6 +1066,8 @@ ___
 
 **Description**: Your vision can detect differences in temperature with pitch black (extreme cold) to blinding white (a blazing fire). You can see warm blooded creatures and other sources of heat even in complete darkness.
 
+**Special**: This ability is blocked by 3ft of earth, wood or organic material, or 1ft of stone or metal. It is also blocked by 10ft of water or other liquid.
+
 **Prerequisites**:
 |Heat Sense level|Range|MP dice prerequisite|Other|
 |-|-|-|-|
@@ -1081,6 +1086,8 @@ ___
 **Type**: (Supernatural, Class S)
 
 **Description**: You gain the ability to see the life-force of other entities within the range of your "life sense". This sense does not detect "constructs" or "undead".
+
+**Special**: This ability is blocked by 3ft of earth, wood or organic material, or 1ft of stone or metal.
 
 **Prerequisites**:
 |Life Sense level|Range|MP dice prerequisite|Other|
@@ -1138,7 +1145,7 @@ ___
 
 **Type**: (Supernatural, Class A)
 
-**Description**: Select either sight, smell or hearing. You gain advantage on all "observe rolls based on this sense.
+**Description**: Select either sight, smell or hearing. You gain advantage on all "observe" rolls based on this sense.
 
 **Prerequisites**:
 |Keen Senses level|MP dice prerequisite|Base prerequisite|Other|

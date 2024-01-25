@@ -1,5 +1,7 @@
 # Spell List
 
+Currently the spell list is not complete. It is adequate (but can be built up a bit more) up to MP 4, but needs to be expanded up to MP 10.
+
 ## Listing
 
 ### MP 0
@@ -127,7 +129,7 @@
 |Components|kinetic|
 |Conditions|invisible*|
 |Limitation|The spell ends if you or an ally attacks the target in any way|(-1)
-|Save|Int, repeated end of turn|
+|Save|Int|
 
 **Description**: You become "invisible" to 1 target (+2).
 
@@ -174,7 +176,7 @@
 |Components|kinetic|
 |Save|None, harmless|
 
-**Description**: Conjure a clearly visible sign next to you that either points north, or to the nearest source of either, clean water, nourishment, or shelter that must be at least 10ft away.
+**Description**: Conjure a clearly visible sign next to you that either points north, or to the nearest source of either clean water, nourishment, or shelter that must be at least 10ft away.
 
 ### Least Anemancy
 |Name|Least Anemancy [Air, Spiritual]|
@@ -204,7 +206,7 @@
 |Scope|local|
 |MP|0|
 |Target(s)|1ft sq, 1 entity or 1 object in range|
-|Casting time||
+|Casting time|"main action"|
 |Range|120ft|+2
 |Damage|1d12+[Sup] pressure|+3
 |Duration|instantaneous|
@@ -269,7 +271,7 @@
 |Duration|Immediate|
 |Components|incantation| (+1)
 |Conditions|prone|
-|Save|Wis, repeated end of turn|
+|Save|Wis|
 
 **Description**: The earth attracts the target and it falls prone. (4-4)
 
@@ -303,7 +305,7 @@
 |Range|close|
 |Duration|instantaneous|
 |Components|incantation|
-|Attack|SAP+Int|
+|Attack|SAP+[Wis]|
 |Damage|1d8+[Sup] Piercing| + 3
 |Limitation|Caster must be touching the ground| -1
 
@@ -446,7 +448,7 @@ ____
 |Material|A tuft of fur, a feather and a few scales|
 |Save|Cha|
 
-**Description**: Grants you the ability to communicate with animals within a reasonable range (about 30ft, may be larger or smaller depending on the form of communication). The communication can be vocal, tactile, or visual.
+**Description**: Grants the target the ability to communicate with animals within a reasonable range (about 30ft, may be larger or smaller depending on the form of communication). The communication can be vocal, tactile, or visual.
 
 **Upcast (local)**: Add an extra target for every 1MP of cost paid.
 
@@ -470,7 +472,7 @@ ____
 
 **Description**: The caster attempts to ascertain the location (and rough time, if it was there during the casting of the spell but is no there when the casting ends) of an object, feature or entity described by the caster, by asking low level wind spirits. The spirits will seek out he nearest example of the thing that meets the specification.
 
-**Special**: The low level spirits answer truthfully and faithfully, but are limited to 3 physically discernable criteria in the description and do not understand many human concepts (eg belonging, names, age). Eg *"An half-elf woman in a red cloak"*, or *"an elvish woman around who the word 'Illusi' is spoken"* are valid, but *"A half-elf woman by the name of 'Illusi'"* or *"My favourite backpack"* are not.
+**Special**: The low level spirits answer truthfully and faithfully, but are limited to 3 physically discernable criteria in the description and do not understand many human concepts (eg belonging, names, age). Eg *"A half-elf woman in a red cloak"*, or *"an elvish woman around who the word 'Illusi' is spoken"* are valid, but *"A half-elf woman by the name of 'Illusi'"* or *"My favourite backpack"* are not.
 
 If more than 3 criteria are chosen the lesser spirits will latch on to any three and ignore the rest.
 
@@ -531,7 +533,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 **Description**: The target grows sturdy claws on all appendages, potentially damaging footwear. The target gains a climb speed (30ft). The claws can also be used as a weapon with a Str/Dex based attack, dealing [1d4 + [Str/Dex]] damage and using "strike"/"light blade" proficiency group.
 
 **Upcast**: Increase the duration by 12 minute for each extra MP.
-(Cost is wonky. Assuming the natural attack has a +1 cost.)
+(~)
 
 ### Gnomes' Mercy
 |Name|Gnomes' Mercy [Earth, Spirit, Travel]|
@@ -548,7 +550,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 
 **Description**: You call upon earth spirits to be gentle to whoever falls upon them, making the target resistant to damage taken when falling. In addition the damage it takes when hitting the ground is reduced by 1d12+[Sup] points. (+5)
 
-**Upcast**: Increase the number of targets by 1 and decrease the damage bya  further 1d12 points.
+**Upcast**: Increase the number of targets by 1 and decrease the damage by a further 1d12 points.
 
 ### Shape Earth
 |Name|Shape Earth [Earth, Nature, Travel]|
@@ -560,7 +562,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 |Range|120ft| +2
 |Duration|Instantaneous|
 |Components|kinetic| -1
-|Conditions|Difficult terrain~| +2
+|Conditions|Difficult terrain| +2
 |Limitations|Target is ground or rock attached to the ground|-2
 |Save|Dex|
 
@@ -570,7 +572,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 + If you are attempting to make something artistic or structurally sound, you must make a "Tinker" or "Fortify" roll at disadvantage.
 
 **Global**: If cast globally the area affected is 200ft plus 100ft per extra 4MP. In this case artistic or structurally coherent use is not possible.
-4+2)
+(4+2)
 
 **Upcast**: Target regains an extra HP per extra MP, to a maximum of 3. No extra effect on undead.
 
@@ -588,7 +590,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 |Limitations|There must be plant life (at least "medium") within 120ft|-2 
 |Save|Dex or Str|-1
 
-**Description**: Vigorous plant life sprouts and grasp at all targets in range, causing them to be "grappled" on a failed save, and transforming it to difficult terrain.
+**Description**: Vigorous plant life sprouts and grasps at all targets in range, causing them to be "grappled" on a failed save, and transforming it to difficult terrain.
 
 **Upcast (local)**: Increase the radius by 5ft for every 1MP of cost paid.
 
@@ -607,7 +609,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 |Duration|1 min (1 hour)| +3
 |Components|incantation, kinetic| -1
 |Conditions|glowing|+2
-|Concentration|Yes|-3
+|Concentration|yes|-3
 |Save|Cha|
 
 **Description**: Harmless, supernatural flames spring forth in the area and persist, providing a dim illumination and potentially adhering to entities in the area. All targets that do not succeed a Cha save are "glowing" until the end of the spell. The target does not repeat the save at the end of its turn.
@@ -632,7 +634,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 + Disadvantage vs "charm".
 + It deals an extra +3 to damage with any Str based melee attacks and "supernatural" fire based abilities it has.
 
-**Upcast**: Add 1 target for every extra MP dice uses.
+**Upcast**: Add 1 target for every extra MP dice used.
 
 ### Least Vengeance
 |Name|Least Vengeance [Curse, Destruction, Fire]|
@@ -691,7 +693,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 **Description**: Cool the target's passions, granting the following:
 - Immunity to charm.
 - Resistance to fear.
-- Advantage on Wis based skill and stat rolls.
+- -10 to movement speed.
 
 **Upcast**: For every MP dice added the spell's radius increases by 5ft (this also affects the caster). OR Increase the duration by 1 minute.
 
@@ -706,9 +708,9 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 |Casting time|"main action"|
 |Range|close/15ft|-1
 |Duration|1 minute|+6
-|Concentration|true|
+|Concentration|yes|
 |Components|incantation, kinetic|-1
-|Limitation|Target cannot be fire aligned or on fire|-1
+|Limitation|Target cannot be fire aligned to, or on fire|-1
 |Damage|1d12+[Sup]|+3
 |Attack|[SAP]+Int|
 |Save|Cha, spell fails|
@@ -744,7 +746,7 @@ ___
 - If the caster concentrates on the spell to the end of the duration, the target has a second save, and then the spell becomes permanent.
 - The spell can also be lifted with any ability that curses diseases.
 
-**Global**: The spell has an affect with a 100ft radius, centered on the spot where it was cast. For every 4MP extra, the spell's radius is increased by 100ft or the duration is increased by 7 days.
+**Global**: The spell has an affect with a 100ft radius, centered on the spot where it was cast and affects all entities within it. For every 4MP extra, the spell's radius is increased by 100ft or the duration is increased by 7 days.
 
 ### Harvest
 |Name|Harvest [Curse, Nature]|
@@ -786,7 +788,7 @@ ___
 
 **Special**: Undead must make a Cha save or take 2 points of divine damage.
 
-**Upcast**: Target regains an extra 1d4MP and an extra SP dice per extra MP dice used, to a maximum of 4MP dice used. No extra effect on undead.
+**Upcast**: Target regains an extra 1d4 SP and an extra SP dice per extra MP dice used, to a maximum of 4MP dice used. No extra effect on undead.
 
 ### Meadow of Flame
 |Name|Meadow of Flame [Fire, Destruction]|
@@ -800,7 +802,7 @@ ___
 |Components|incantation|+1
 |Material|Dried petals of three types of flower|-2
 |Limitation|Focal area must be at least minimally flammable material|-2
-|Concentration|true|
+|Concentration|yes|
 |Damage|1d8+[Sup] fire|+3
 |Condition|Lightly concealed|+2
 |Save|Con|
@@ -868,7 +870,7 @@ ___
 |Components|kinetic|
 |Concentration|local|-3
 |Limit|The target has no control over its fly direction or speed|-2 
-|Save|Cha|
+|Save|Wis|
 
 **Description**: The target is no longer attracted to the earth. This has the following effect:
 - Its jump distance is by x4 the base distance of the roll (after that it slows down and stops).
@@ -876,9 +878,9 @@ ___
 - When moving at more than than half its speed, the target must make a threshold=20 acrobatics roll or end up hanging mid-air at an altitude of a few feet.
 - When airborne as a result of this spell, a target is carried by the wind at half of the wind's speed.
 
-**Special**: The spell can be cast as a reaction when a target begins to fall. If cast as a reaction, the target descends at ~60ft per round. If cast as a main action on a target that is already falling, it begins to decelerate. This does nothing if the fall distance is less than ~360ft. Otherwise, if the fall is long, for every round the spell effects the target it falls 20ft per round less, and takes 2d12 less damage.
+**Special**: The spell can be cast as a reaction when a target begins to fall. If cast as a reaction, the target descends at ~60ft per round. If cast as a main action on a target that is already falling, it begins to decelerate. This does nothing if the fall distance is less than ~360ft. Otherwise, if the fall is long, for every round the spell effects the target it decelerates 20ft per round (from 360ft), decreasing fall damage by 2d12 per round of falling, to an eventual safe speed of 60ft.
 
-**Global**: When cast globally the spell creates a spherical zone centered on the caster where this effect acts. For every 8 extra MP dice added the zone is expanded by 200ft or the duration increased by a day. Every entity that enters the are and does not succeed a Cha save is affected by the spell.
+**Global**: When cast globally the spell creates a spherical zone centered on the caster where this effect acts. For every 8 extra MP dice added the zone is expanded by 200ft or the duration increased by a day. Every entity that enters the area and does not succeed a Wis save is affected by the spell.
 
 ### Lesser Veil
 |Name|Veil [Air, Curse]|
@@ -946,7 +948,7 @@ ___
 
 **Special**:
 - Shapeshifters can ignore the effects of this spell.
-- The target, if it fails the initial save, does not get another chance to save.
+- The target, if it does not succeed the initial save, does not get another chance to save.
 
 **Upcast**: For every extra MP dice spend the spell lasts for an extra hour, or you can target an extra entity.
 
@@ -1003,16 +1005,16 @@ ___
 |Range|30ft|
 |Duration|1 min (1 hour)|+6
 |Components|kinetic|
-|Concentration|true|-3
+|Concentration|yes|-3
 |Limitation|Can only be summoned on surfaces of earth or stone (including worked stone)|-2
 |Damage|2d12+[Sup] bludgeoning|+6 (+2 for being able to do manoeuvres and skills)
-|Attack/Manoeuvre|[SAP]+Int|
+|Attack/Manoeuvre|SAP+[Wis]|
 |Save|-|
 
 **Description**: Gather a "medium" sized hand out of the earth or chipped rock at the target square. The hand is manipulated as your own. It is considered proficient with any tools and attacks/manoeuvres you are proficient in. Including on the turn it is called, you may use your main action to move the hand 20ft and carry out one of the following actions:
-+ Grapple a target ([SAP]+Int).
-+ Shove/Throw a target ([SAP]+Int).
-+ Make a targeted melee attack ([SAP]+Int).
++ Grapple a target (SAP+[Wis]).
++ Shove/Throw a target (SAP+[Wis]).
++ Make a targeted melee attack (SAP+[Wis]).
 + Make any manipulation you can with your own hand, but at disadvantage.
 + The hand provides heavy cover for any medium sized or smaller entity behind it.
 
@@ -1041,7 +1043,7 @@ ___
 
 **Description**: Awaken ever so slightly, the spirits of the earth. On casting declare an entity type:
 + You automatically know when an entity enters the warded ground, and its entity type.
-+ Entities of the initially declared type that are hostile to the caster and its allies have -2 to all rolls that use [SAP] and [NAP] (essentially offensive abilities and save thresholds).
++ The caster and allies have light cover vs entities of the initially declared type.
 
 **Limitations**: The spell only acts on entities that are touching the ground or other solid objects connected to it. On turns that an entity does not fulfil this condition the spell does not act on it.
 
@@ -1086,7 +1088,7 @@ ___
 |Range|30ft (30ft)|
 |Duration|60 min (1 week+)|+6
 |Components|incantation, kinetic|-1
-|Limitation|You must have a plant of "medium" size or larger|-2
+|Limitation|Must be cast on a plant of "medium" size or larger|-2
 |Concentration|local|+3
 |Save|-|
 
@@ -1146,8 +1148,8 @@ ___
 |Casting time|"full round" (6h + 6h per 4MP)|-1
 |Range|30ft|
 |Duration|1 day (permanent)|+24(23)
-|Components|incantation, kinetic|-1(22)
-|Save|Cha, on success the curse bounces to the caster|x0.5((22+4)/2=13)
+|Components|kinetic|(21)
+|Save|Cha, on success the curse bounces to the caster|x0.5((22+4)/2=14)
 
 **Description**: Curse the target with two "C" class curses from the table below or one "B" class curse from the table below.
 
@@ -1188,22 +1190,22 @@ ___
 |Casting time|"full round action" (4h + 40min per 4MP)|-2
 |Range|30ft (30ft)|
 |Duration|60 min (1 week+)|+6(5)
-|Components|incantation, kinetic|-1(4)
-|Focus|A symbol of a dark religion|-2(2)
-|Material|Fresh blood of an animal or humanoid|-2(0)
-|Limitation|You must have corpse of an animal or humanoid the appropriate size|-2(-2)
+|Components|kinetic|(5)
+|Focus|A symbol of a dark religion|-2(3)
+|Material|Fresh blood of an animal or humanoid|-2(1)
+|Limitation|You must have corpse of an animal or humanoid the appropriate size|-2(-1)
 |Concentration|No|
 |Save|-|
 
-**Description**: Animate a corpse of medium size "medium", to become a level I corporeal undead. The undead serves and fights faithfully for the caster. The undead is capable of performing any reflexive or rote task it knew in life if its body still supports that functionality. Alternatively the spell can be cast to gain control of 4 non-intelligent undead for 6 hours.
+**Description**: Animate a corpse of medium size "medium", to become a level I corporeal undead. The undead serves and fights faithfully for the caster. The undead is capable of performing any reflexive or rote task it knew in life if its body still supports that functionality. Alternatively the spell can be cast to gain control of 4 non-intelligent level I undead for 6 hours.
 
 **Special**:
 - After 60 minutes the undead is not destroys, but persists, becoming hostile to its creator.
 - There is no limit to the number of undead a caster can control, however legions of dead seldom end well.
 
-**Upcast**: For every MP dice added (4MP dice for global), the caster may either animate an extra corpse as a level I undead, assert control over an extra 4 corpses, or increase the level of hte created undead by I.
+**Upcast**: For every MP dice added (4MP dice for global), the caster may either animate an extra corpse as a level I undead, assert control over an extra 4 corpses, or increase the level of the created or controlled undead by I.
 
-**Global**: The undead are under the caster's control for 1 week, after which time they have a "neutral" attitude towards it. For every 4MP dice above 12, the caster may create an extra level I undead, assert control over 4 undead, or increase the level of a created undead by 1.
+**Global**: The undead are under the caster's control for 1 week, after which time they have a "neutral" attitude towards it. For every 4MP dice above 12, the caster may create an extra level I undead, assert control over 4 undead, or increase the level of a created or controlled undead by 1.
 
 (Summon spell rating is controversial)
 
@@ -1218,8 +1220,8 @@ ___
 |Duration|1h/1min (1 week)|(9,9)
 |Components|incantation, kinetic|(8,8)
 |Concentration|local|(5,5)
-|Focus|A glass bowl filled with water, the bowl smashes when the spell is cast|(3)
-|Material|A glass bowl filled with water, the bowl smashes when the spell is cast|(3)
+|Focus|A brass bowl filled with earth, the bowl crumbles when the spell is cast|(3)
+|Material|A brass bowl filled with earth, the bowl crumbles when the spell is cast|(3)
 |Save|Cha, harmless|
 
 **Description**: Create a solid, physical barrier of earth with a radius of **up to** 15ft around the target. The barrier gives total cover and total concealment to targets within it. Dealing physical damage to the barrier (HiT=10, HP=10, damage reduction=10) in one turn opens a window big enough for a small size entity to enter freely (or a medium entity to squeeze through). At the end of the turn the barrier resets.
@@ -1244,7 +1246,7 @@ ___
 |Range|close|
 |Duration|12 min+ (1 day+)|+6
 |Components|incantation|+1(7)
-|Materials|None (12 dandelion heads)|-2(5)
+|Materials|None (12 earthworms or centipedes)|-2(5)
 |Limitation|target cannot be air aligned|-1(4)
 |Save|Wis (harmless), no effect|
 
@@ -1268,7 +1270,7 @@ ___
 |Material|A glass bowl filled with water, the bowl smashes when the spell is cast|(3)
 |Save|Cha, harmless|
 
-**Description**: Create a barrier with a radius of **up to** 10ft around the target. All entities within the barrier has resistance to piercing, slashing and bludgeoning damage from attacks from outside the barrier, as well as pressure and fire damage from the outside. If the barrier's radius is reduced to 5ft, resistance is also gained to those damage types within the barrier. (2+2+2+2+4-2=10)
+**Description**: Create a barrier with a radius of **up to** 10ft around the target. All entities within the barrier have resistance to piercing, slashing and bludgeoning damage from attacks from outside the barrier, as well as pressure and fire damage from the outside. If the barrier's radius is reduced to 5ft, resistance is also gained to those damage types within the barrier. (2+2+2+2+4-2=10)
 
 **Special**:
 - If the spell is cast as a reaction, it cannot be upcast, and lasts for 1 minute.
@@ -1394,7 +1396,7 @@ ___
 **Upcast**: For every extra MP, the spell may:
 - Last for an extra hour, or:
 - Allow the caster to give the target an extra command or:
-- Add an extra tower.
+- Add an extra target.
 
 ### Fire Ward
 |Name|Fire Ward [Barrier, Fire]|
@@ -1488,18 +1490,6 @@ ___
 ___
 ## MP 4 spells
 4+2+3+4+5=18
-
-### Balance of Power
-|Name|Balance of Power [Incantation]|
-|-|-|
-|Scope|local (global)|
-|MP|4 (16)|
-|Target(s)||
-|Casting time||
-|Range||
-|Duration||
-|Components|incantation|
-|Save||
 
 ### Balance of Elements
 |Name|Balance of Seasons [Air, Earth, Fire, Water]|
@@ -1599,7 +1589,7 @@ ___
 
 **Description**: This spell has one of the following effects:
 - Cleanse the area of the effect of one curse. If the curse is a higher level than your casting, it get to make an Int save, with a bonus equal to the difference in spell level.
-- Remove the aftereffects of legendary magic. The magic gets to roll an Int save against the cleansing with a bonus equal difference in the spell level.
+- Remove the aftereffects of legendary magic. The magic gets to roll an Int save against the cleansing with a bonus equal to the difference in the spell level.
 - Cure one disease or poison affecting the land.
 - Double the productivity of the land for the next harvest. Doubling zero is still zero.
 
@@ -1705,7 +1695,7 @@ ___
 **Upcast**: For every extra MP dice the range increases by 60ft or the number of passengers increases by 1.
 
 **Global**: Enter a body of water deep enough to submerge in and step out of another within range (180 miles). The caster must have visited the pool to successfully travel. If the pool does not exist the travellers emerge in the nearest pool in range to the destination. If the caster has not visited the destination pool before, the DM rolls randomly for where, within 180 miles of the destination the travellers end up.
-- For every 4 extra MP dice the range increases by 60ft or the number of passengers increases by 1.
+- For every 4 extra MP dice the range increases by 60 miles or the number of passengers increases by 1.
 
 (blink speed = 12+7)
 
@@ -1724,12 +1714,12 @@ ___
 |Save|Wis|
 
 **Description**: The caster creates an illusionary scene which mimics the real scene to all senses except touch and pain. It can do no damage. The scene realistically mimics a real scene, at first glance, but has no material substance. For example:
-- An illusionary bridge over a river will hold no weight, but if a rock is thrown against might show the rock bouncing a few steps along the bridge and coming to rest on it (while the real rock would go straight through it).
-- An illusionary bonfire would feel warm at t distance, but would fail to melt a block of ice at some distance (although it the ice is placed inside of the area of the "mirage" it would *appear* to melt).
+- An illusionary bridge over a river will hold no weight, but if a rock is thrown against might show the rock bouncing a few steps along the bridge and coming to rest on it (in the meanwhile the real rock passes straight through it).
+- An illusionary bonfire would feel warm at a distance, but would fail to melt a block of ice at some distance (although if the ice is placed inside of the area of the "mirage" it would *appear* to melt).
 
 An illusion can be broken in the following manner:
 - At a distance, when interacting with the illusion from outside of it, an entity may attempt to disbelieve, and roll a Wis save at disadvantage against the caster's threshold.
-- When interacting with the "mirage" from inside it, it may attempt disbelieve t and roll a Wis save against the caster's threshold.
+- When interacting with the "mirage" from inside it, it may attempt disbelieve it and roll a Wis save against the caster's threshold.
 - When an entity interacts with the "mirage" in such a way that the "mirage" seems implausible or suspicious (eg a bonfire failing to melt a block of ice, or the target falling through the bridge), it may roll a Wis save at advantage.
 - If the entity has some magic sense, it makes a Wis save against the "mirage" as soon as it detects it.
 - If the entity has "true seeing" it automatically sees through the "mirage"
@@ -1837,7 +1827,7 @@ ___
 |Components|incantation, kinetic|-1(13)
 |Material|Dried petals of three types of flower|-2(11)
 |Limitation|Focal area must be at least minimally flammable material|-2(9)
-|Concentration|true|
+|Concentration|yes|
 |Damage|5d8+[Sup] fire|+15(24)
 |Condition|Heavily concealed|+2(26)
 |Save|Con|

@@ -30,7 +30,8 @@ There are a number of general rules pertaining to spellcasting.
 2. Spells are never truly permanent in the material realm and can be **broken**, **counterspelled**, and **dispelled**. Entities summoned through spells can be **banished**.
 3. Casting "ranged" spells with kinetic components in melee provokes attacks of opportunity.
 4. Unless otherwise stated, a caster must have line of sight to the target of a spell to cast it.
-5. An entity gets a save at the end of every turn against harmful effects of the spell unless otherwise stated. 
+5. If a spell lasts for a round or longer, affected entities make the initial save at the start of its turn and gets a save at the start of every turn against harmful effects of the spell unless otherwise stated otherwise in its description.
+  - For spells with a duration of less than one round, the save is made immediately and no repeated saves are applicable, unless stated otherwise in the spell description.
 6. All damage caused by spells, unless otherwise stated, counts as "supernatural". The major exception is physical damage (bludgeoning, shear, piercing, pressure, slashing), which is always "natural".
 
 ___
@@ -47,15 +48,15 @@ Spells with an active effect (eg summoning) and non-instantaneous duration usual
 ___
 ### Spell types table
 
-|Spell type|Opposite spell type|
-|-|-|
-|Elemental(Air)|Elemental(Earth)|
-|Elemental(Earth)|Elemental(Air)|
-|Elemental(Fire)|Elemental(Ice)|
-|Elemental(Ice)|Elemental(Fire)|
-|Incantation|Kinetic|
-|Kinetic|Incantation|
-|Nature|Nature|
+|Spell type|Opposite spell type|Governing stat for threshold|
+|-|-|-|
+|Elemental(Air)|Elemental(Earth)|Wis|
+|Elemental(Earth)|Elemental(Air)|Wis|
+|Elemental(Fire)|Elemental(Ice)|Wis|
+|Elemental(Ice)|Elemental(Fire)|Wis|
+|Incantation|Kinetic|Int|
+|Kinetic|Incantation|Int|
+|Nature|Nature|Wis|
 
 ___
 ### Identifying and Manipulating spells
@@ -214,7 +215,7 @@ A descriptor tells you something about the nature of the spell. This can include
 
 #### Descriptors table
 
-|Descriptor class| Descriptor|
+|Descriptor class|Descriptor|
 |-|-|
 |Element|Air, Earth, Fire, Ice|
 |Energy|Fire, Ice, Lightning, Light|

@@ -107,7 +107,8 @@ The actions an entity may take might also be restricted by its conditions and ge
   - Using most abilities that use SP or MP.
   - Activating certain items.
   - Using some skills.
-  - Take a second "Movement".
+  - Use in combination with "move action" to **run**.
+    - This is considered "vigorous motion" for the sake of spellcasting.
   - Administering a potion.
   - Retrieving/Stowing an item that is in a container in reach.
 
@@ -139,6 +140,8 @@ The actions an entity may take might also be restricted by its conditions and ge
 
 - "**Communicate**": Most entities can communicate in parallel to doing other things. This involves using means of communication (eg Speech) that do not interfere (much!) with other activities. As a guide, a humanoid character can communicate about 1 word per second (6 per round). You cannot use modes of communication that interfere with other actions (eg communicate verbally when chanting an incantation for a spell, using sign-language while wielding a two-handed sword (usually!)).
 - "**Sprint**": Move up to 4x your movement speed in a straight line with no obstructions.
+  - This is considered "vigorous motion" for the sake of spellcasting.
+
 - "**Non-action**": Entities also carry out certain activities autonomously as part of their existence. These do not usually require actions (eg breathing). Concentrating is also a non-action.
 
 ---
@@ -334,7 +337,7 @@ Spell ranges are designated as "**close**" or "**ranged**".
   2. If concentration is broken, the spell dissipates or fails spectacularly.
   3. An "incapacitated" (or so implied) entity cannot concentrate.
   4. Concentration can be disrupted by taking damage (Threshold = 12 or 1/2 damage taken, whichever is higher).
-  5. Concentration can be disrupted by violent movement (Threshold = 12), violent weather (Threshold = 12) or both (Threshold = 18).
+  5. Concentration can be disrupted by violent/vigorous movement (Threshold = 12), violent weather (Threshold = 12) or both (Threshold = 18).
   6. A caster can "hold" an "instantaneous" spell with a release trigger to trigger the effect within a minute of casting. The Threshold=[10+[rounds held]]. If the trigger is not met the spell dissipates. The cost of the spell is paid when the spell is cast (always), not when it is triggered.
 
 ___

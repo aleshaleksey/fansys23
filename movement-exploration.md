@@ -23,12 +23,12 @@ Most creatures with a "walk" speed can:
 #### Swimming
 Creatures with a swim speed are often well adapted to their liquid medium, but are either incapable of moving on land or very clumsy. Creatures with a swim speed typically have speeds of 60-120ft and can perform "walk", "run" and "sprint" actions in their liquid medium (usually water).
 - **Not Swimmers:** Creatures without a swim speed either do not swim at all (they sink), or are poor swimmers and can only move at 1/2 base speed (no "run" or "sprint" possible) and must make a [SKILL] or [ABILITY] check or start drowning/sinking if conditions are not ideal.
-- **Difficult terrain**: Turbulent waters or strong currents, kelp beds and thick, syrup are examples of difficult terrain.
+- **Difficult terrain**: Turbulent waters or strong currents, kelp beds and thick syrup are examples of difficult terrain.
 
 
 #### Digging
 Moving through solid earth is a slow and difficult process. Moving through rock is often impossible even for diggers. Tunnelling creatures are not slowed by narrow passages. Natural speeds are 5-10ft. Unless otherwise stated Digging creatures cannot dig through solid rock (natural or worked), or metal.
-- **Non-diggers**: Creatures that cannot dig cannot move through earth, sand, or rock.
+- **Non-diggers**: Creatures that cannot move through earth, sand, or rock.
 - **Run, Sprint**: Digging creatures cannot run or sprint when digging.
 
 
@@ -36,12 +36,12 @@ Moving through solid earth is a slow and difficult process. Moving through rock 
 Flight is an intriguing and liberating mode of movements. To terrestrial entities a flying being seems to have the freedom of the wind. Natural flying creatures move between 80-240ft per round.
 - **Non-flyers**: Creatures without a fly speed cannot fly. But they can jump.
 - **Sprint**: Flying creatures do not sprint.
-- **Difficult terrain and falling prone**: Turbulent skies, precipitation and high altitude count as difficult terrain. An flying entity that falls prone is welcomed by the firm embrace of mother earth (it falls).
+- **Difficult terrain and falling prone**: Turbulent skies, precipitation and high altitude count as difficult terrain. A flying entity that falls prone is welcomed by the firm embrace of mother earth (it falls).
 
 However this comes with limitations:
 - A creatures with natural flight can only fly when carrying a light load and at most light armour.
-- They cannot use a shield or heavy weapon and must make concentration checks when casting spells.
-- They must have a wing span of at least 1ft per [3lb / Size] of weight. (with size=[1, 2, 3, 4] for ["small", "medium", "large", "huge"] creatures respectively). This has general penalties and in particular this causes penalties on [DEX] and [STR] saves when not in flight, cannot dig and have a penalty to swim and walk speeds.
+- They cannot use a shield or "unwieldy"/"heavy" weapon.
+- They must have a wing span of at least 1ft per [3lb / Size] of weight. (with size=[1, 2, 3, 4] for ["small", "medium", "large", "huge"] creatures respectively). This has general penalties and in particular this causes penalties on [DEX] and [STR] saves when not in flight. Furthermore, naturally entities cannot dig and have a penalty to swim and walk speeds.
 - If they slow to lower than 1/2 their speed in a given terrain, they must land or fall.
 - A flying creature that is knocked prone, or tripped, drops a distance equal to its speed and can only move at half speed on its next turn. If this drop causes it to hit the ground, it suffers all of the consequences of falling (see "[Falling](#Falling)" section).
 
@@ -58,10 +58,10 @@ Not all flying creatures are equal in flight. In fact there are four categories:
   - These creatures climb at 1/2 speed.
   - Their turn circle is equal to 1/2x their fly speed.
   - They cannot fly more than [2 hours x CON] without fatigue.
--**Perfect:** These creatures have none of the typical limits of the other three categories. In addition:
+- **Perfect:** These creatures have none of the typical limits of the other three categories. In addition:
   - They can hover without falling.
 
-Most birds are "typical" flyers, though most fowl are "poor" and small raptors are usually "good". Flies, on the other hand have "perfect flight". Humanoids seldom have natural flight. Those that do, are usually poor. Those races with "average" flight pay a high price for it.
+Most birds are "average" flyers, though most fowl are "poor" and small raptors are usually "good". Flies, on the other hand have "perfect flight". Humanoids seldom have natural flight. Those that do, are usually poor. Those races with "average" flight pay a high price for it.
 
 __If a group wishes to simplify__ these rules, it is recommended to use "Good" flight for natural fliers and "Perfect" flight for magical flight. Using "perfect" flight for all fliers is the simplest rule of course, but makes flying monsters, mounts and characters a lot more powerful. Beware!
 
@@ -73,7 +73,7 @@ Most natural flying creatures of tiny to large sizes are fast. Indeed there are 
 ---
 
 ## Exploration
-Exploration and travel is one of the main activities outside of combat and social interactions. When exploring and travelling characters and rules deal with:
+Exploration and travel are some of the main activities outside of combat and social interactions. When exploring and travelling characters and rules deal with:
 - Navigation and getting lost.
 - Dealing with environmental hazards.
 - Dealing with hazards from other entities and parties.
@@ -203,7 +203,7 @@ Inclement weather has two severities: **Severe** and **Extreme**. The following 
 - **Precipitation.** (Rain, snow, sleet, ash.) This can lead to poor visibility, difficult movement due to boggy ground or accumulation, or even collapse of structures (snow, ash).
 - **Wind.** Can damage structures. Can knock prone smaller creature and impede movement. Dangerous for flying creatures. Makes ranged attacks difficult.
 - **Temperature.** Very low or high temperatures. Being in temperatures an entity is not acclimatised to can quickly lead to exhaustion (hypothermia, hyperthermia, dehydration) or even death. It is more difficult to recuperate under these conditions. In particular, trying to recuperate in unameliorated camps may require a roll, or be impossible.
-- **Visibility.** Poor visibility is usually caused be caused by extreme precipitation, fog, murky water, cosmic clouds or darkness. It is easier to hide, and harder to detect, navigate and aim in poor visibility. In zero visibility targeted attacks with range and reach weapons, as well as certain spells are impossible, and other targeted attacks suffer a penalty. In areas of zero (extreme) visibility all creatures are considered for all intents and purposes BOTH **blinded** and **invisible**. **NB:** Visibility can refer to senses other than sight in some exotic cases.
+- **Visibility.** Poor visibility is usually caused be caused by extreme precipitation, fog, murky water, cosmic clouds or darkness. It is easier to hide, and harder to detect, navigate and aim in poor visibility. In zero visibility ranged targeted attacks and those made with reach weapons have a 5/6 miss chance (if you can locate the correct square for your target in the first place!), certain spells cannot be cast. In areas of zero (extreme) visibility all creatures are considered for all intents and purposes BOTH **blinded** and **invisible**. **NB:** Visibility can refer to senses other than sight in some exotic cases.
 
 Any given inclement weather phenomenon may cause more than one effect. Here are some suggested ratings.
 - **Fog**/**Mist**: Poor/Zero visibility.
@@ -242,9 +242,11 @@ Most characters are morals and therefore require **sustenance** and suffer from 
 |**Food**|starvation|[CON x 3] days|[starvation x 2 - CON] days|
 |**Sleep**|insomnia|[1 day + CHA] hours|[7 - CHA] days|
 
-|Starvation name|effect|
-|-|-|
-|**Suffocation**| Lose 2d6 HP every minute.|
-|**Dehydration**|Lose 1 Stamina point/dice per hour from your maximum.|
-|**Starvation**|Lose 1 Stamina point/dice per day from your maximum.|
-|**Insomnia**|Lose 3 Mana point/dice per day.|
+|Starvation name|effect|restoration time|
+|-|-|-|
+|**Suffocation**| Lose 2d6 HP every minute.|short rest|
+|**Dehydration**|Lose 1 SP dice per hour from your maximum.|long rest|
+|**Starvation**|Lose 1 SP dice per day from your maximum.|full rest|
+|**Insomnia**|Lose 3 SP dice per day.|full rest|
+
+The loss of dice due to suffocation, dehydration, starvation and insomnia is considered "temporary". A suitable period of rest (see above) restores the dice total and any lost dice.

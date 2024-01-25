@@ -2,7 +2,7 @@
 
 ## Spellcasting basics
 
-Spells are a subset of supernatural powers that mortals have learned to channel by following certain procedures. Entities that cast spells are referred to here as "**casters**". Spells can be either "**local**" or "**global**". Spells  ALWAYS involve a combination of one or more of the following:
+Spells are a subset of supernatural powers that mortals have learned to channel by following certain procedures. Entities that cast spells are referred to here as "**casters**". Spells can be either "**local**" or "**global**".
 
 ___
 ### Casting spells and components
@@ -41,7 +41,7 @@ Spells with an active effect (eg summoning) and non-instantaneous duration usual
 2. If concentration is broken, the spell dissipates or fails spectacularly. Either way its effects end.
 3. An "incapacitated" (or so implied) entity cannot concentrate.
 4. Concentration can be disrupted by taking damage (threshold = 10 or 1/2 damage taken, whichever is higher).
-5. Concentration can be disrupted by violent movement (threshold = 12), violent weather (threshold 12 = 10) or both (threshold = 16).
+5. Concentration can be disrupted by violent movement (threshold = 12), violent weather (threshold = 12) or both (threshold = 16).
 6. A caster can "hold" an "instantaneous" spell with a release trigger to trigger the effect within a minute of casting. The threshold = 8 +[rounds held]. If the trigger is not met the spell dissipates. The cost of the spell is paid when the spell is cast (always), not when it is triggered.
 
 ___
@@ -72,14 +72,14 @@ ___
 2. When a spell is cast, identify that it is with a "knowledge:arcana" roll.
 3. If the spell belongs to the same type or opposite type of local magic, use your reaction and declare "counter-spell".
 4. Pay the declared MP dice cost.
-5. Roll a SAP (Nat + Base + Wis) roll vs their SAT (Nat + Base + Wis). You have a bonus (or penalty if it's less) to the roll equal to the difference in MP dice used by the two sides. If it is the same type of magic, your roll is at disadvantage. If it is neither the same or opposite, you cannot counter-spell it.
+5. Roll a SAP (Sup + Base + Wis) roll vs their SAT (Sup + Base + Wis). You have a bonus (or penalty if it's less) to the roll equal to the difference in MP dice used by the two sides. If it is the same type of magic, your roll is at disadvantage. If it is neither the same or opposite, you cannot counter-spell it.
 6. If you meet or beat the threshold, the spell fails (maybe even catastrophically).
 
 **Dispelling**: Any spellcaster with at least 11 MP dice total can dispel. You can only dispel magics of a type that you are capable of casting. In order to dispel you must be within 10ft x [MP dice] being used to dispel the effect of the effect and you must be able to see it or to experience it. Thus you must either have senses that can detect it (eg using "See Spell" or "See Unseen") or you must enter the area of effect. The steps for dispelling are as follows:
 1. Identify the spell using "knowledge:arcana".
 2. Declare "dispel" as a "main action" and how many MP dice you are using to dispel.
 3. Pay the declared MP dice cost.
-4. Roll a SAP (Nat + Base + Wis) roll vs their SAT (Nat + Base + Wis). You have a bonus (or penalty if it's less) to the roll equal to the difference in MP dice used by the two sides. If you are within the area of the spell's effect, or are its target, you have advantage on the roll.
+4. Roll a SAP (Sup + Base + Wis) roll vs their SAT (Sup + Base + Wis). You have a bonus (or penalty if it's less) to the roll equal to the difference in MP dice used by the two sides. If you are within the area of the spell's effect, or are its target, you have advantage on the roll.
 5. If you succeed on the roll, the spell ends, if you do not, it persists.
 
 **Banishing**: Summoned entities are not dispelled in the same way as spells. There are two ways of dealing with them.
@@ -91,11 +91,11 @@ ___
 ___
 ### The catastrophic cascade
 
-Sometimes, when interaction with a spell or magical effect, it fails. Under certain conditions it fails catastrophically. This is known as"Global" spells can be useful, and indeed devastating in combat, but most combat spells are "local". "spectacular failure" or the "catastrophic cascade".
+Sometimes, when interaction with a spell or magical effect, it fails. Under certain conditions it fails catastrophically. This is known as "spectacular failure" or the "catastrophic cascade".
 
-**Catastrophic cascade on casting two spells**: If a caster tries to cast two spells at the same time, the process fails. If the instantaneous total MP dice of the two spells was greater than the permitted local maximum the caster must roll a Cha save vs the MP dice total + 13 that was used. On failure the spellcaster takes [MP dice total of spells] x d6 light damage. Entities within 10ft may make a Dex save for half damage. Beware of exploding mages.
+**Catastrophic cascade on casting two spells**: If a caster tries to cast two spells at the same time, the process fails. If the instantaneous total MP dice of the two spells was greater than the permitted local maximum the caster must roll a Cha save vs the MP dice used + 13 that was used. On failure the spellcaster takes [MP dice total of spells] x d6 light damage. Entities within 10ft may make a Dex save for half damage. Beware of exploding mages.
 
-**Catastrophic cascade when concentration is broken**: If a caster's concentration is broken, the spell dissipates and its effects end. If the number of MP dice used for a local spell is equal to the maximum permitted (1/3 of the caster's MP dice total), the caster must roll a Cha save vs the MP dice total that was used. On failure the spellcaster takes [MP dice total of spells] x d6 light damage. Entities within 10ft may make a Dex save for half damage. Beware of exploding mages.
+**Catastrophic cascade when concentration is broken**: If a caster's concentration is broken, the spell dissipates and its effects end. If the number of MP dice used for a local spell is equal to the maximum permitted (1/3 of the caster's MP dice total), the caster must roll a Cha save vs the MP dice used + 13. On failure the spellcaster takes [MP dice total of spells] x d6 light damage. Entities within 10ft may make a Dex save for half damage. Beware of exploding mages.
 
 **Catastrophic cascade on counter-spelling**: If a counter-speller's counter-spell roll exactly equals a caster's [SAT] (Nat + Base + Wis + 13), and the number of MP dice expended for the spell and counter-spell are equal a catastrophic cascade is triggered. All entities and structures within 10ft of the half-way point between the two casters take [the combined MP dice used] x d6 of "pressure" damage. The threshold = 18. Beware of exploding mages.
 
@@ -144,16 +144,16 @@ The more common way to learn spells is to learn from an entity that already has 
 
 #### Spell transfer
 
-Certain spells, such as "Isolate Essence", "Memory Thief" and "Imbue Essence" allow knowledge, skills and spells to be almost instantaneously between entities. However these spells carry a high cost. More importantly, the entity imparting the spell loses it from their spells known, and there are few who would agree to such a transfer without a steep cost.
+Certain spells, such as "Isolate Essence", "Memory Thief" and "Imbue Essence" allow knowledge, skills and spells to be almost instantaneously between entities. However these spells carry a high cost. More importantly, the entity imparting the spell loses it from their spells known, and there are few who would agree to such a transfer without substantial recompense.
 
 #### MP 0 spells
 
 These spells use so little energy to cast, that they do not use MP. Casting them does not cause exertion. For the sake learning spells they count as taking half as long as spells that cost 1 MP dice. These spells are so simple that the first ten of these do not count against readied spell limit. MP 0 spells ALWAYS have a base casting time of "main action".
 
 ___
-## The 6 types of magic
+## The 7 types of magic
 
-Beyond "local" and "global" spells are divided into 6 types:
+Beyond "local" and "global" spells are divided into 7 types:
 
 + Elemental: Air
 + Elemental: Earth
@@ -228,7 +228,7 @@ A descriptor tells you something about the nature of the spell. This can include
 |-|-|-|
 |Air|Spring|Earth, Autumn|
 |Earth|Autumn|Air, Spring|
-|Fire||Summer|Water, Winter|
+|Fire|Summer|Water, Winter|
 |Water|Winter|Fire, Summer|
 
 ### Spell cards

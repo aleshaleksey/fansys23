@@ -319,7 +319,7 @@ Spells are a subset of supernatural powers that mortals have learned to channel 
 - Their effect has a radius of no more than a mile (eg. search spells) or 108ft (eg. explosion magic).
 - They take 1-9 MP dice to cast.
 
-Spells ALWAYS involve a combination of one or more of the following:
+Spells involve a combination of one or more of the following:
 
   1. **Kinetic Components**: A set of defined, obvious gestures or movements. An "immobilised" or "restrained" caster cannot perform these. (conditions that imply "immobilised" fall under this category). Spells with kinetic components provoke attacks of opportunity.
   2. **Incantation components**: A set of defined, well enunciated words or sounds. A "[aphonic](conditions-types.md#conditions-in-detail)" or "[inaudible](conditions-types.md#conditions-in-detail)" caster cannot perform these. (conditions that imply inability to produce defined sound fall under this category).

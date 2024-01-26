@@ -50,6 +50,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 ### Natural (General)
 
 - [Flash Step](#flash-step)
+- [Rider: Quick mount](#quick-mount)
 
 ### Supernatural (Combat)
 
@@ -77,6 +78,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 ### Combat Boons (Natural)
 
 - [Alert](#alert)
+- [Charge](#charge)
 - [Evasive](#evasive)
 - [Foresight](#foresight)
 - [Mage Hunter](#mage-hunter-i)
@@ -354,6 +356,13 @@ ___
 - This ability must be taken separately for each movement modality.
 - Flash step cannot be used with "dig" speed, "swim" speed or "cosmic" speed.
 - This ability cannot be used when wearing heavy armour.
+
+___
+#### Quick Mount
+
+**Description**: You mount as a "secondary action" and quick-mount as a "non-action". "Dismount" becomes a "minor interaction". Furthermore you can always "take care" when mounting (but not quick-mounting). The thresholds are not affected.
+
+**Prerequisite**: 2 ranks in ride.
 
 ___
 ### Combat Abilities (Supernatural)
@@ -742,6 +751,15 @@ ___
 **Description**: Gain immunity to "surprised".
 
 **Prerequisite**: +13 Wis.
+
+___
+#### Charge
+
+**Type**: (Natural, Class C)
+
+**Description**: If you take the "run" action when mounted, you can make a melee attack as a "secondary action" on the same turn. You can also make a melee attack as part of a "sprint" action if mounted, however, in this case your attack is at disadvantage.
+
+**Prerequisite**: Ride, 2 ranks.
 
 ___
 #### Evasive

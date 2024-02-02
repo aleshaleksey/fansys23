@@ -2,6 +2,16 @@
 
 This system deals heavily with combat and many of the mechanics are tuned to work smoothly in combat.
 
+1. [Prelude](#prelude)
+2. [Attacks](#attacks)
+3. [Damage and Death](#damage-and-death)
+4. [Actions in combat](#flow-of-combat)
+5. [Surprise and Ambush](#surprise-and-ambush)
+6. [Space in combat](#space-in-combat)
+7. [Mounts and Mounted Combat](#mounts-and-mounted-combat)
+8. [Basic combat manoeuvres and tactical movement.](#basic-combat-manoeuvres-and-tactical-movement)
+9. [Spellcasting and Supernatural abilities](#spellcasting-and-supernatural-abilities)
+10. [Rest and Recuperation](#rest-and-recuperation)
 ## Prelude
 
 All entities have:
@@ -226,7 +236,8 @@ Cover and concealment come in three flavours "light" (1/2), "heavy" (3/4) and "f
 
 Attacks of opportunity require careful observation of the target. One cannot make an attack of opportunity against a target which is "invisible" to you or otherwise has full concealment.
 
-#### Mounts and Mounted Combat
+----
+## Mounts and Mounted Combat
 
 A character may ride a mount into combat (and in combat). In this case, for movement the rider's move action is used, with the mount's movement speed and modality. Likewise if a mounted character wishes to "run" or "sprint" (ie it wishes for its mount to do so with them on it), the rider's action is used for it.
 
@@ -237,6 +248,7 @@ A character may ride a mount into combat (and in combat). In this case, for move
 - A rider with the "charge" ability may make an attack as a secondary action even if the mount "runs" or "sprints".
 - When an attack of opportunity is triggered it may be made against the mount or the rider.
 -  When the mount falls, the rider makes a "ride" or "acrobatics" roll (threshold=16) as a reaction to fall the first 10ft safely and land on their feet. Otherwise they suffer the usual falling rules.
+
 ---
 ## Basic combat manoeuvres and tactical movement.
 

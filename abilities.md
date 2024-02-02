@@ -1,5 +1,18 @@
 # Abilities and Boons
 
+1. [Prerequisites](#prerequisites)
+2. [Max dice per level](#max-dice-per-level)
+3. [Rating](#rating)
+4. [Abilities](#abilities)
+5. [Ability List](#ability-list)
+6. [Combat Abilities (Natural)](#combat-abilities-natural)
+7. [General Abilities (Natural)](#general-abilities-natural)
+8. [Combat Abilities (Supernatural)](#combat-abilities-supernatural)
+8. [General Abilities (Supernatural)](#general-abilities-supernatural)
+8. [Spellcasting](#spellcasting)
+8. [Combat Boons](#combat-boons)
+8. [General Boons](#general-boons)
+
 **Abilities** are special actions that a character can take outside of the core actions available to all characters (covered in "Combat", "Movement and Exploration", and "Skills"). Abilities are often more potent than the core actions, but these also come at a cost of consuming SP dice and MP dice, so use them with care. Importantly, magic is covered at the end of this chapter.
 
 **Boons** are traits that enhance a character beyond what it would otherwise be. For example, a boon might grant resistance to "bludgeoning" damage, or allow a character to move faster, or breath under water, or attack more than once during a "main action".
@@ -117,7 +130,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 
 ### Combat Abilities (Natural)
 ___
-### Berserk I-V
+#### Berserk I-V
 
 **Description**: You enter a trance of violence, enhancing combat prowess at the cost of stressing the physical form past its limits.
 
@@ -742,7 +755,7 @@ So for example, to cast global 7th level Nature magic, a character must have eit
 ___
 ## Boons
 
-### Combat Boons (Natural)
+### Combat Boons
 
 #### Alert
 
@@ -850,6 +863,7 @@ ___
 |3|Multi-attack II|Offhand fighting III|
 |4|Multi-attack III|Offhand fighting IV|
 
+___
 #### Opportunist
 
 **Description**: You may make attacks of opportunity against entities that are:

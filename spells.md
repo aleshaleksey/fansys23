@@ -1,5 +1,26 @@
 # Spells
 
+. [Casting spells and components](#casting-spells-and-components)
+. [Spell ranges](#spell-ranges)
+. [General casting rules](#general-casting-rules)
+. [Concentration](#concentration)
+. [Spell types table](#spell-types-table)
+. [Identifying and Manipulating spells](#identifying-and-manipulating-spells)
+. [Banishing, Breaking, Counter-spelling and Dispelling](#banishing-breaking-counter-spelling-and-dispelling)
+. [The catastrophic cascade](#the-catastrophic-cascade)
+. [Global and local spells](#global-and-local-spells)
+. [Learning spells and mental capacity](#learning-spells-and-mental-capacity)
+. [The 7 types of magic](#the-7-types-of-magic)
+    - [Elemental (Air)](#elemental-air)
+    - [Elemental (Earth)](#elemental-earth)
+    - [Elemental (Fire)](#elemental-fire)
+    - [Elemental (Ice)](#elemental-ice)
+    - [Incantation](#incantation)
+    - [Kinetic](#kinetic)
+    - [Nature](#nature)
+. [Spell Descriptors](#spell-descriptors)
+. [Spell cards](#spell-cards)
+
 ## Spellcasting basics
 
 Spells are a subset of supernatural powers that mortals have learned to channel by following certain procedures. Entities that cast spells are referred to here as "**casters**". Spells can be either "**local**" or "**global**".

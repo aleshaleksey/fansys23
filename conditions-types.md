@@ -1,3 +1,25 @@
+# Conditions and Types
+
+1. [Natural and supernatural origins](#natural-and-supernatural-origins)
+    - [Natural and Supernatural damage and abilities](#natural-and-supernatural-damage-and-abilities)
+    - [Mundane, magical and spiritual weapons](#mundane-magical-and-spiritual-weapons)
+2. [Damage types](#damage-types)
+    - [Damage type list](#damage-type-list)
+    - [Physical damage](#physical-damage)
+    - [Biological damage](#biological-damage)
+    - [Energy/elemental damage](#energyelemental-damage)
+    - [Esoteric damage](#esoteric-damage)
+    - [Damage rankings](#damage-rankings)
+3. [Entity types](#entity-types)
+4. [Detailed Entity descriptions](#detailed-entity-descriptions)
+    - [Mortals](#mortals)
+    - [Constructs](#constructs)
+    - [Spiritual](#spiritual)
+    - [Divine](#divine)
+    - [Profane](#profane)
+5. [Conditions and states](#conditions-and-states)
+    - [Conditions in detail](#conditions-in-detail)
+
 ## Types
 
 ### Natural and supernatural origins
@@ -8,6 +30,7 @@ Often supernatural entities are not effected by "natural" attacks, or have a res
 
 Most characters are fundamentally "natural", but possesses some "supernatural" abilities and traits. This is an important factor both in building a character and playing it.
 
+___
 #### Natural and Supernatural damage and abilities
 
 Damage can be either Nat or Sup. Nat damage first affects the target's SP, being at least partially absorbed, before before affecting HP. It generally affects the physical form. Sup damage is first buffered, at least in part, by an entity's MP, before affecting HP. It affects an entity's essence or spirit. Thus if an entity takes 10 "fire"[Sup] damage, the first, say, 7 points may be absorbed by MP, with the remaining 3 points doing HP damage. The exact calculation for maximum Nat damage absorbed by SP is [CON + 2 x SP dice total], and is symmetrical for MP and Sup (see "[Resource Pools](base-rules.md#resource-pools)" section).
@@ -18,6 +41,7 @@ Some types of damage bypass both MP and SP, and attack HP directly. Entities tha
 
 Nat abilities are fueled by SP dice. Sup damage is fueled by MP dice.
 
+___
 #### Mundane, magical and spiritual weapons
 
 Weapons can be mundane, magical or spiritual.
@@ -25,12 +49,14 @@ Weapons can be mundane, magical or spiritual.
 - A magical weapon deals "physical"[Nat] damage, attacking SP and then HP, but overcomes resistance, but not immunity to physical damage. These weapons are useful for fighting monsters and dragons and should be rare and expensive in any sane setting.
 - A spiritual weapon may (or may not) appear ordinary, but deals "divine"[Sup] damage. As an exception to normal "divine" damage rules, these weapons attack MP and then HP. Spiritual weapons should be exceptionally rare.
 
+___
 ### Damage types
 
 All damage is deduced from current HP. HP are protected from Nat damage by SP and by MP against Sup damage. An entity's MP/SP can absorb a certain amount of damage and deducing from current MP/SP total, with any excess damage counting against HP. When an entity reaches 0 HP it is "dying". Some damage types ignore MP/SP. They are particularly dangerous.
 
 All damage types have associated conditions. If an entity takes damage to HP greater than its level, it must make a Con or Cha save against threshold of [10 + HP damage / 2] or suffer a condition on the attack's list, starting from the lowest class condition. If it is already suffering from it, or is immune to it, it adds the next lowest condition to its conditions. If all conditions are added, nothing more happens.
 
+___
 #### Damage type list
 
 - **Physical** (Nat)
@@ -53,6 +79,7 @@ All damage types have associated conditions. If an entity takes damage to HP gre
   - Entropic
   - Profane
 
+___
 #### Physical damage
 
 Physical damage destroys the physical structure of a target by direct application of physical force. Weapon damage is almost always physical damage. Entities without a physical form are ALWAYS immune to physical damage. Entities with a supernatural form may also be immune to physical damage (eg spirits).
@@ -67,6 +94,7 @@ Physical damage destroys the physical structure of a target by direct applicatio
 
 **Pressure** damaged is usually caused by shock waves and special techniques designed to transfer force deep into a target. Much like bludgeoning damage it ruptures pressure sensitive internal structures and can fracture very brittle materials. Targets with internal organs are particularly susceptible to this form of damage. This dangerous form of damage typically causes the "stunned", "frightened", "prone" or "incapacitated"  condition.
 
+___
 #### Biological damage
 
 Destroys the biological structure or physiological function of plants, animals, humanoids, monsters and dragons. Entities without a physical form, biological structure or functioning physiology are generally immune to this kind of damage (eg, skeletons, constructs).
@@ -75,6 +103,7 @@ Destroys the biological structure or physiological function of plants, animals, 
 
 **Necrotic** damage is caused by substances and energies that destroy biological structures, often causing grizzly "bleeding", "disease", "blinded", "crippled" and a number of other unpleasant conditions. This damage type can affect corporeal undead since they have a biological body.
 
+___
 #### Energy/elemental damage
 
 Energy damage is caused by various forms of energy and can affect anything with a physical form. Energies of a supernatural source, can affect incorporeal entities.
@@ -87,6 +116,7 @@ Energy damage is caused by various forms of energy and can affect anything with 
 
 **Light** damage can be caused by intense light, which can ablate both surface and deep layers of an entity. Natural light is often effective against monsters and undead. Supernatural light is particularly effective against spiritual and profane beings. It tends to cause "frightened", "blinded", "catatonic" and "incapacitated".
 
+___
 #### Esoteric damage 
 
 Esoteric damage is caused by, typically powerful, supernatural beings. It typically affects either the spirit or essence of an entity. Esoteric damage cannot exist in a world without the "supernatural". These three damage types are particularly dangerous because they ignore the SP and MP of entities that are not divine.
@@ -97,6 +127,7 @@ Esoteric damage is caused by, typically powerful, supernatural beings. It typica
 
 **Profane** damage is caused **exclusively** by profane entities. It is the destruction of goodness and vital energies, as well as the draining of spiritual energy. Constructs and undead are the only entities that are safe from this damage type. It typically causes "dying", "paralysed", "immobilised", "restrained", "aphonia", "frightened" and "charmed".
 
+___
 #### Damage rankings
 
 Not all damage types were created equal. This is intentional. easily "obtained" damage types have more counter measures than "rare", "dangerous" or "expensive" damage types. In return the lower class damage types are more easily available, cheaper, and generally have a greater "magnitude".
@@ -117,6 +148,7 @@ Not all damage types were created equal. This is intentional. easily "obtained" 
 - Shear (C Class)
 - Slashing (C Class)
 
+___
 ### Entity types
 
 - Everything is either "**natural**" (that is to say it obeys the physical laws of the world and can be explained by them), or **supernatural** (that is to say that it does not and cannot).
@@ -151,7 +183,8 @@ Not all damage types were created equal. This is intentional. easily "obtained" 
     - **fiend** (Sup)
     - **undead** (Sup)
 
-### Detailed Entity descriptions.
+___
+### Detailed Entity descriptions
 
 #### Mortals
 
@@ -177,6 +210,7 @@ Mortals are the most common entities in the material world. Mortals have a physi
 
 **Monsters** are mortals that do not fit in other categories. Some resemble animals, but are far more intelligent. Some resemble humanoids, but are not. Many are supernatural. They have no unifying trait, but tend to be dangerous to humanoids.
 
+___
 #### Constructs
 
 Constructs are life-like devices that are capable of movement and are generally made of minerals or metals. They are sometimes called "living dolls", although this term is not strictly correct. Constructs do not reproduce, breathe, drink, eat, sleep or age (unless they are made from mortals).
@@ -189,6 +223,7 @@ Constructs are life-like devices that are capable of movement and are generally 
 - Golems are immune to: "Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "stunned" "incapacitated", "catatonic" and "dying".
 - Golems are at least resistant to "physical" damage and all "energy"[Nat] damage.
 
+___
 #### Spiritual
 
 Spiritual entities are those for which the spirit is the main form and the physical form is a decoration rather than a necessity. Spiritual entities do not sleep or age, although they may need to breathe, drink and eat.
@@ -206,7 +241,8 @@ Spiritual entities are those for which the spirit is the main form and the physi
 
 **Spirits** are spiritual beings that do not fall into either of the above categories. A mortal's soul is said to become a spirit when it loses its body.
 
-### Divine
+___
+#### Divine
 
 Divine entities are those that are involved in some way in the creation of maintenance of creation, or are a manifestation of a law, concept or process of creation. Divine entities are typically incredibly powerful by the standards of mortals, and some are worshipped as gods. Divine entities do not need to breath, drink, eat, or sleep, but are often capable of doing so. They do not age.
 - Divine entities are immune to all "natural" damage and resistant to "divine" damage.
@@ -229,8 +265,8 @@ Other **divines** are often gods or manifestations of creation. Divines can only
 - Divines are immune to "divine" damage and vulnerable to "entropic" damage.
 - Divines are immune to "prone", "stunned", "blinded", "deafened" and "aphonic".
 
-
-### Profane
+___
+#### Profane
 
 Profane beings are those that have been cursed by creation and whose nature drives them to destroy or oppose it. Profane beings do not breath, sleep or age, although some eat and drink.
 - Profane entities have vulnerability to "divine" damage and immunity to "disease" and "poison".
@@ -275,7 +311,7 @@ Entities can be affected by a number of conditions, most of them bad. For now th
 
 An entity afflicted by conditions that make it unable to engage in physical combat or other activities is considered **"disabled"**. This is a useful catch all. These conditions are: "dying", "helpless", "paralysed", "unconscious", "catatonic", "immobilised", "stunned" or "surprised".
 
-#### Conditions in detail.
+### Conditions in detail
 - "**Doomed**": This entity is doomed to die. It takes 1d6 HP per round that cannot be prevented by ANY means. The following applies:
   - It has disadvantage on all skill and stat rolls.
   - It has advantage to all saving throws.

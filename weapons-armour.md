@@ -2,6 +2,38 @@
 
 Weapons and armour an essential part of any combat heavy table top RPG system. Weapon rules here are inspired primarily by DnD 3.5, and Pathfinder weapons rules.
 
+1. [Weapons](#weapons)
+    - [Weapon durability](#weapon-durability)
+    - [Ranged Weapons, collateral and melee](#ranged-weapons-collateral-and-melee)
+    - [Range increments](#range-increments)
+    - [High ground and weapon ranges](#high-ground-and-weapon-ranges)
+    - [Weapon properties](#weapon-properties)
+    - [Weapon proficiencies](#weapon-proficiencies)
+    - [Weapon table](#weapon-table)
+    - [Unarmed Combat](#unarmed-combat)
+    - [Light blades](#light-blades)
+    - [Heavy blades](#heavy-blades)
+    - [Axes](#axes)
+    - [Percussive](#percussive)
+    - [Spears](#spears)
+    - [Pole-arms](#pole-arms)
+    - [Staves](#staves)
+    - [Slings](#slings)
+    - [Bows](#bows)
+    - [Mechanical Bows](#mechanical-bows)
+    - [Firearms](#firearms)
+2. [Armour](#armour)
+    - [Armour and its relationship with [HiT]](#armour-and-its-relationship-with-hit)
+    - [Armour types](#armour-types)
+    - [Armour Proficiencies](#armour-proficiencies)
+    - [Donning and Doffing armour](#donning-and-doffing-armour)
+    - [Armour penalties](#armour-penalties)
+    - [The Armour Table](#the-armour-table)
+    - [Light Armour](#light-armour)
+    - [Medium Armour](#medium-armour)
+    - [Heavy Armour](#heavy-armour)
+    - [Shields](#shields)
+
 ## Weapons
 Weapons are tools that increase the lethality of martial combatants. For the sake of most abilities other than "sunder", unarmed techniques count as weapons. Each type of weapon requires its own proficiency. In all, there 5 categories and 18 types. The following categories and types of weapons exist:
 
@@ -423,7 +455,7 @@ Any entity whose body fits a suit of armour can wear the armour. As such it will
 - When an entity dons or doffs an armour it is not proficient with, it takes twice as long to don and doff the armour as normal.
 - While an entity is wearing an armour it is not proficient with it takes a -5 penalty to all [DEX] and [STR] based rolls it makes, in addition to any other penalties normally associated with the armour.
 
-### Donning and Doffing armour.
+### Donning and Doffing armour
 
 Armour can be donned properly or hastily. Hastily donned armour has -2 to armour. Heavy armour requires an assistant to don properly.
 

@@ -1,3 +1,46 @@
+# Base Rules
+
+1. [Foreword](#foreword)
+2. [Purpose of the system](#purpose-of-the-system)
+3. [Rolling Dice](#rolling-dice)
+    -  [Rounding up and down](#rounding-up-and-down)
+    -  [Core Rolls](#core-rolls)
+    -  [Version I: 2d12](#version-i-2d12)
+    -  [Taking 24, taking 13, auto-failure and voluntary failure](#taking-24-taking-13-auto-failure-and-voluntary-failure)
+    -  [Opposing Rolls vs Thresholds](#opposing-rolls-vs-thresholds)
+    -  [Precedence of Rolls: Thresholds (DC), and opposing rolls](#precedence-of-rolls-thresholds-dc-and-opposing-rolls)
+    -  [Difficulties and recommended thresholds](#difficulties-and-recommended-thresholds)
+    -  [Modifiers vs Advantage/Disadvantage](#modifiers-vs-advantagedisadvantage)
+    -  [Sources of Modifiers](#sources-of-modifiers)
+4. [Time](#time)
+5. [Character Descriptors](#character-descriptors)
+    -  [Descriptive Attributes](#descriptive-attributes)
+    -  [Intrinsic Attributes](#intrinsic-attributes)
+    -  [Character level and Base](#character-level-and-base)
+        - [Leveling up](#leveling-up)
+        - [Base](#base)
+    -  [Stats](#stats)
+        -  [Stat assignment](#stat-assignment)
+    -  [Resource pools](#resource-pools)
+        -  [HP pool](#hp-pool)
+        -  [MP dice pool](#mp-dice-pool)
+        -  [Mana pool](#mana-pool)
+        -  [SP dice pool](#sp-dice-pool)
+        -  [Stamina pool](#stamina-pool)
+    -  [Nat and Sup: Attack of the three letter words](#nat-and-sup-attack-of-the-three-letter-words)
+    -  [NAP and SAP, NAT and SAT: Attack of the three letter words II](#nap-and-sap-nat-and-sat-attack-of-the-three-letter-words-ii)
+    -  [Saving throws](#saving-throws)
+    -  [Hit Threshold (HiT)](#hit-threshold-hit)
+    -  [Skills and Proficiencies](#skills-and-proficiencies)
+    -  [Abilities](#abilities)
+6. [Tables](#tables)
+    -  [Level parameters](#level-parameters)
+    -  [Nat vs SP dice and Sup vs MP dice](#nat-vs-sp-dice-and-sup-vs-mp-dice)
+    -  [NAP from Base and Nat](#nap-from-base-and-nat)
+    -  [Size rules](#size-rules)
+7. [Version](#version)
+
+
 ## Foreword
 This is a FIRST DRAFT of some general rules. They are over-ruled by more specific rules that pertain to certain creatures and situations. Some rules are prefaced by an ALWAYS or NEVER directive. In these cases they are absolute and apply in all situations.
 
@@ -41,7 +84,7 @@ The core dice for ability checks/tests, saves and attacks is 2d12. You roll a 2d
 
 2d12 is chosen as a core roll firstly because d12 are nice dice to roll, secondly because this solves the "high modifier - low modifier" problem, and thirdly because the "triangular" probability distribution simulates life more closely than the 1d20 "uniform" distribution and this then allows us to eschew opposed rolls in time sensitive sections of the game (like combat) while preserving a similar probability distribution of success and failure.
 
-#### Taking 24, taking 13, auto-failure and voluntary failure.
+#### Taking 24, taking 13, auto-failure and voluntary failure
 Sometimes rolls of the core dice can be skipped.
 
 **Taking 24:** Add 24 to the modifier and take this as the result. This represents trying something until you get the best possible result. You can do this is if:
@@ -62,12 +105,12 @@ This works because the average of 2d12 is 13.
 
 **Voluntary failure:** An entity can choose to fail any check that requires some voluntary action. One cannot usually voluntarily fail checks and saves for autonomous functions. For example a humanoid cannot volunteer to fail a Con save vs poison, since you cannot switch off your liver at will, but you can voluntarily fail a Dex save vs a runaway cart, because you can consciously decide not to move out of the way.
 
-#### Opposing Rolls vs Thresholds.
+#### Opposing Rolls vs Thresholds
 Static thresholds are always preferred over opposed rolls in combat. This increases the speed of combat as we do not need to wait for other side to make a roll. This means that hit thresholds, save threshold and skill thresholds based on average rolls ("take care") are used for the defending side.
 Outside of combat it is up to the group whether opposed rolls or thresholds are used. Opposed rolls make the game more interactive in non time critical sections.
 For many skill rolls the threshold is written as "Opposed vs [skill name]". It is perfectly acceptable to calculate an average ("take care") threshold instead of doing the opposed roll.
 
-#### Precedence of Rolls: Thresholds (DC), and opposing rolls.
+#### Precedence of Rolls: Thresholds (DC), and opposing rolls
 Meeting (equalling) the target number of a roll beats it. The target number can be static or dynamic. Static thresholds are when a dice is rolled and the result compared to a predefined number. Dynamic thresholds are what you get when you have two or more opposing rolls.
 - eg **static**: "HiT" (Hit Threshold) of a monster, eg 18. Save threshold for a spell. Ability threshold for jumping over a gap of 15 feet.
 - eg **dynamic**: Perceiving a monster in hiding (which rolled 2d12+4).
@@ -396,7 +439,7 @@ A character has an armour class/hit threshold, this is a measure of how difficul
 
 For each component (eg Armour), the Sup and Nat aspect stack. However for each aspect only the highest bonus applies. Eg: If a character wears a full plate on top of padded armour, only the bonus for the full plate applies. Also your character's gonna be really hot and sweaty.
 
-### Skills and Proficiencies.
+### Skills and Proficiencies
 
 A character has skills and proficiencies. They generally represent the mundane ability to carry out learned activities and use tools:
 
@@ -439,7 +482,7 @@ These are the really cool abilities that a character has, like throwing fire bal
 |19|4|59|10|
 |20|4|62|10|
 
-#### Nat vs SP dice and Sup vs MP dice.
+#### Nat vs SP dice and Sup vs MP dice
 
 Nat vs SP dice and Sup vs MP dice are exactly the same. Therefore only one table needs to be given. Here we give Nat vs SP dice, but the numbers for Sup vs MP dice is the same.
 

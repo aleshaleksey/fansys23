@@ -2,6 +2,27 @@
 
 This section covers which skills exist and how they are used.
 
+1. [Skills and Proficiencies](#skills-and-proficiencies)
+    - [Acquiring skills and proficiencies](#acquiring-skills-and-proficiencies)
+    - [Skill points (ranks)](#skill-points-ranks)
+    - [Base and "background" bonus](#base-and-background-bonus)
+    - [Total Skill bonus](#total-skill-bonus)
+    - [Circumstance bonus](#circumstance-bonus)
+    - [Skill groups](#skill-groups)
+2. [Skill and Proficiency Lists](#skill-and-proficiency-lists)
+    - [Skills list](#skills-list)
+    - [Language Proficiencies](#language-proficiencies)
+    - [Tool Proficiencies](#tool-proficiencies)
+    - [Armour Proficiencies](#armour-proficiencies)
+    - [Weapon Proficiencies](#weapon-proficiencies)
+3. [Detailed Skill Descriptions](#detailed-skill-descriptions)
+    - [STR Based](#str-based)
+    - [DEX Based](#dex-based)
+    - [CON Based](#con-based)
+    - [INT Based](#int-based)
+    - [WIS Based](#wis-based)
+    - [CHA Based](#cha-based)
+
 ---
 
 ## Skills and Proficiencies
@@ -109,13 +130,13 @@ There are 31 skills and a number of proficiencies.
   - [Deceive](#deceive)
   - [Perform](#perform)
 
-#### Language Proficiencies
+### Language Proficiencies
 
 There are as many language proficiencies as there are languages in your setting. In order to speak, understand, read and write a language a character must be proficient in it.
 
 Optionally, for gritty settings language proficiency does not grant a character the ability to read and write, and they must have a rank in "academics" in order to read or write. This, however, makes "academics" very strong.
 
-#### Tool Proficiencies
+### Tool Proficiencies
 
 Using tools usually requires a roll of an associated skill. Some skills cannot be used for certain purposes unless the character is also proficient with appropriate tools. At the group's discretion it can makes sense for other skills may be associated with a tool (eg woodworking tools being used with **fortify** for making big items like wooden walls). Tools and their properties are further discussed below (in the "[Tools](#kit-and-tool-descriptions)" sections).
 
@@ -153,7 +174,7 @@ Using tools usually requires a roll of an associated skill. Some skills cannot b
   - Gaming Set (pick by group or individually)
   - Musical Instrument (pick by group or individually)
 
-#### Armour Proficiencies
+### Armour Proficiencies
 
 Any entity whose body fits a suit of armour can wear the armour. As such it will get the normal benefit to the hit threshold.
 
@@ -171,7 +192,7 @@ There are three armour proficiencies that each cover several groups of armour.
 |Heavy armour|Segmented mail, Half-plate, Full-plate|
 |Shields|Buckler, Small shield, Large shield, Tower shield|
 
-#### Weapon Proficiencies
+### Weapon Proficiencies
 
 Weapons are tools that increase an entity's lethality in combat. For the sake of this definition, this does not include martial or supernatural abilities. Weapons and their properties are further discussed in the "[Weapons and Armour Section](weapons-armour.md)".
 

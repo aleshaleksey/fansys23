@@ -5,13 +5,33 @@ Some, but not all, of these activities are covered in rules for skill use, resea
 
 A certain level of freeform RP and common sense are recommended.
 
-## Local and Global Movement.
+1. [Local and Global Movement](#local-and-global-movement)
+    - [Difficult Terrain](#difficult-terrain)
+    - [Walking](#walking)
+    - [Climb](#climb)
+    - [Swimming](#swimming)
+    - [Digging](#digging)
+    - [Flight](#flight)
+1. [Exploration](#exploration)
+    - [Overview](#overview)
+    - [Local and Global Movement](#local-and-global-movement-1)
+    - [Travel rolls and terrain](#travel-rolls-and-terrain)
+    - [Travel and getting lost](#travel-and-getting-lost)
+    - [Scouting, prospecting and exploration](#scouting-prospecting-and-exploration)
+    - [Harvesting, Hunting and Mining (very draft)](#harvesting-hunting-and-mining-very-draft)
+    - [Camping](#camping)
+    - [Inclement Weather Hazards](#inclement-weather-hazards)
+    - [Terrain Hazards (TODO)](#terrain-hazards-todo)
+    - [Falling](#falling)
+    - [Characters, starvation, and other bad ways to die](#characters-starvation-and-other-bad-ways-to-die)
+
+## Local and Global Movement
 Here basic movement is described. It is based, where possible on observations. The main forms of movement are walk, climb, swim, flight and dig. Each one has its place and its pace. There are also two exotic types of movement which are not covered yet because we can live without it. Movement is measured in feet per round (ft), or miles per hour (mph). A very rough translation is 1mph = 1ft.
 
-#### Difficult Terrain
+### Difficult Terrain
 It is common when adventuring to find less than ideal terrain. Loose, rocky ground or turbulent waters are typical examples. Movement speed is halved over this kind of terrain. Most entities cannot "sprint" in these conditions and if they try to run, must make a DC12 [SKILL] check or fail to progress (critical failure means falling prone).
 
-#### Walking
+### Walking
 Most entities with a "walk" speed can:
 - **Crawl (5ft/round)**: Crawling is movement when prone, dragging one's torso along the ground. It makes one harder to spot or hit with ranged attacks, but is laborious and slow. Entities without a "walk" speed can only crawl overland.
 - **Walk (1x base speed)**: This either represents ordinary walking, or bursts of rapid movements with pauses and changes of direction. Typically a fit humanoid can walk for hours without suffering ill effects. For a base human this is 30ft or 3mph.
@@ -25,20 +45,18 @@ Climbing is upwards or downwards movement over steep or near vertical terrain. E
 - **Non climbers:** Entities without a climb speed move at 1/4 their base speed (usually "walk"). They cannot "run" or "dash" without succeeding a "climb" roll at a -5 penalty In addition they must succeed on "[climb](skills.md#climb)" rolls to stay attached to make progress or even stay attached to the surface.
 - **Prone and falling**: A climbing entity that falls prone or is knocked prone is considered prone and is subject to the falling rules (which means it accelerates downwards and then comes to a violent halt).
 
-
-#### Swimming
+### Swimming
 Entities with a swim speed are often well adapted to their liquid medium, but are either incapable of moving on land or very clumsy. Entities with a swim speed typically have speeds of 60-120ft and can perform "walk", "run" and "sprint" actions in their liquid medium (usually water).
 - **Not Swimmers:** Entities without a swim speed either do not swim at all (they sink), or are poor swimmers and can only move at 1/2 base speed (no "run" or "sprint" possible) and must make a [SKILL] or [ABILITY] check or start drowning/sinking if conditions are not ideal.
 - **Difficult terrain**: Turbulent waters or strong currents, kelp beds and thick syrup are examples of difficult terrain.
 
 
-#### Digging
+### Digging
 Moving through solid earth is a slow and difficult process. Moving through rock is often impossible even for diggers. Tunnelling entities are not slowed by narrow passages. Natural speeds are 5-10ft. Unless otherwise stated Digging entities cannot dig through solid rock (natural or worked), or metal.
 - **Non-diggers**: entities that cannot move through earth, sand, or rock.
 - **Run, Sprint**: Digging entities cannot run or sprint when digging.
 
-
-#### Flight
+### Flight
 Flight is an intriguing and liberating mode of movements. To terrestrial entities a flying being seems to have the freedom of the wind. Natural flying entities move between 80-240ft per round.
 - **Non-flyers**: Entities without a fly speed cannot fly. But they can jump.
 - **Sprint**: Flying entities do not sprint.
@@ -71,13 +89,12 @@ Most birds are "average" flyers, though most fowl are "poor" and small raptors a
 
 __If a group wishes to simplify__ these rules, it is recommended to use "Good" flight for natural fliers and "Perfect" flight for magical flight. Using "perfect" flight for all fliers is the simplest rule of course, but makes flying monsters, mounts and characters a lot more powerful. Beware!
 
-##### Walk and Flight Logic
+### Walk and Flight Logic
 Most terrestrial entities have legs and walk. Some do not. They slither. They are an exception. We ignore them for now. Using small to large animals for reference, quadrupeds have a walking speed of 2-6 miles per hour (mph), a running speed of 8-20mph, and a sprint pace of 16-40mph. There are fewer bipeds, but they are capable of similar speeds (see ostriches). Humanoids are comparatively slow. 3-4mph (~5-6ft/s) is a typical walk. The fastest sprinter reaches about 24mph (100m/9s, 35ft/s), an average human springs at ~16mph (100m/15s, 24ft/s). The speeds we have quoted in the rules are a bit lower as conditions on an adventure are seldom as ideal as on a modern running track. Likewise you will notice that I have used [STR] for sprinting. This is in keeping with sports physiology.
 
 Most natural flying entities of tiny to large sizes are fast. Indeed there are fewer flying entities that can fly slowly than those that can't. Typical cruise speeds of birds are 10-60mph, with maximum speeds being as much as twice as high. On the other hand, flying entities usually need space to change direction and sacrifice sturdiness for the highly energetic activity of flight. Few flying entities in the real world weight much more than 10kg.
 
 ---
-
 ## Exploration
 Exploration and travel are some of the main activities outside of combat and social interactions. When exploring and travelling characters and rules deal with:
 - Navigation and getting lost.
@@ -91,7 +108,7 @@ The rules should accommodate to all of these activities without trivialising the
 
 In many games where events move at the speed of plot, travel and exploration rules can be eschewed. However in some games, where exploration, strategy or time sensitive chase-like quests are present, they add an extra layer of depth.
 
-#### Overview
+### Overview
 Travel from A to B can be summarised as follows:
 1. Choose destination.
 2. Choose the desired modality (foot, mount, vehicle, magic, etc).
@@ -105,14 +122,14 @@ Travel from A to B can be summarised as follows:
 10. Repeat (usually from (5)) until a destination is reached or everyone is dead.
 
 
-#### Local and Global Movement
+### Local and Global Movement
 This is described above in "Local and Global Movement" above, but there are some additional nuances which. Tactical movement represents generally bursts of high intensity movement over short time periods and is measured in ft/round, usually limited to a few minutes at a time. On the other hand global movement reflects movement over a long range and is measured in mph. It often abstracts away elements such as winding paths and minor obstacles. Thus, an entity's speed on a local level in ft/round is equal to its speed in mph for overland travel.
 
 For entities and parties that travel via **walk**, **climb**, **dig** or **blink** speed, when travelling between two points that have no defined distance by road (and maybe no road), and only a map distance as the crow flies, the distance travelled is multiplied x2. This represents lack of direct roads, and often meandering routes over off road terrain. For entities using **walk**, **climb** or **dig** speed in **swamp**, **deep forest**, or **mountain** distance as the crow flies is multiplied by x4. Entities with a **cosmic** or **fly** speed do not suffer from this kind of impediment.
 
 Entities that move via a **Fly** speed have the movement speed halved in severe precipitation and wind. If precipitation or wind is extreme, such entities must make a skill roll against the storm's threshold number or make no progress. An entity may attempt to move at 1/4 speed and take damage every hour equal to 2d6 damage plus 2d6, per size category above medium. An entity failing the roll by more than 5 in extreme precipitation falls to the ground. An entity failing the roll by more than 5 in extreme wind is blown away in the prevailing wind direction at 1/2 the wind speed. If this leads to the collision with some kind of fixed obstacle (mountain, big tree, wall), it suffers damage as if it had fallen 100ft (see [fall damage](#Falling)).
 
-#### Travel rolls and terrain
+### Travel rolls and terrain
 All travel rolls are determined by the terrain type, the weather modifier from inclement weather (severe or extreme) and the familiarity bonus. They are defined in the following tables. It should be noted that weather modifiers from different categories stack.
 - In groups where travel rolls are seen as a burden they can be dropped, but please keep in mind that this will affect the value of certain skills and abilities.
 - There is a simplified table provided if the full rule is deemed burdensome.
@@ -154,7 +171,7 @@ All travel rolls are determined by the terrain type, the weather modifier from i
 
 It should be noted that the simplified table has generally lower thresholds. This is because it is considered likely that a group that is not using the detailed tables is probably not as excited about the challenges of travel and exploration, so the challenge should be lower to occupy less of their time. The group is of course free to modify the tables as it sees fit, if they wish to adjust the challenge.
 
-#### Travel and getting lost
+### Travel and getting lost
 When travelling on unfamiliar terrain there is generally a chance of getting lost. Likewise sabotage or illusion can facilitate this. This works as follows:
 - At the start of a stage of travel (usually start of the day or start of the journey) the navigator makes a navigation roll (Or uses a spell or ability).
 - On a success travel proceeds as normal. For every 5 points above the threshold, the journey time is reduced by 10% (maximum 30%).
@@ -163,7 +180,7 @@ When travelling on unfamiliar terrain there is generally a chance of getting los
 
 Generally one does not get lost on familiar terrain. Likewise if one has a guide who knows the area, or if it is expedient for the gaming group this kind of roll can be eschewed.
 
-#### Scouting, prospecting and exploration
+### Scouting, prospecting and exploration
 Characters and groups that enter new or unfamiliar terrain will often need to explore it in some way to learn useful (or occasionally useless) information about it, this includes:
 - General topography and characteristics. (exploration)
 - Flora, fauna and monsters. (exploration or scouting)
@@ -175,8 +192,7 @@ Different skills are used for each one. In general the thresholds for success ar
 - Detailed exploration takes between 10 minutes and 1h per 100sq-feet of terrain depending on how much "stuff" there is to explore.
 - For detailed exploration it is recommended that the locale is described by the DM and the players prompted to focus on a certain part of it. At this point the threshold should probably be determined by the general difficulty table.
 
-
-#### Harvesting, Hunting and Mining (very draft)
+### Harvesting, Hunting and Mining (very draft)
 Harvesting, hunting and mining are essentially all harvesting of different types of resources from the environment. Sometimes these activities can be an adventure in and of themselves, so this refers to "mundane" harvesting, mining and hunting of resources that will not fight back.
 - After a successful "prospecting"/"scouting" roll a character can make a harvesting roll.
 - The duration of the "harvesting" and the magnitude of success determine the yield of the harvest. Critical failure results in the damage to the tools used (or HP loss or injury if the tool was the character's body or spirit).
@@ -189,7 +205,7 @@ Harvesting, hunting and mining are essentially all harvesting of different types
 - If the resource is rare, or exotic increase the threshold by +5 or +10.
 - If the resource cannot be found in the terrain, then the time is spent and the harvest fails.
 
-#### Camping
+### Camping
 In hostile or wilderness environments characters must often take additions steps before they can safely and effectively rest. These steps are:
 - Find suitable site vs terrain camping threshold + weather scouting modifier. (Skill or special ability). Successful check gives advantage on ameliorate/fortify check.
 - Skill roll to ameliorate/fortify site vs terrain camping threshold + weather camping modifier. (Skill or special ability)
@@ -201,10 +217,13 @@ Failure to ameliorate a suitable site leads to Con save, with the threshold dete
 
 The full rules on resting can be found in [Rest and Recuperation](combat.md#rest-and-recuperation).
 
-#### Environmental hazards. (TODO)
+### Environmental hazards. (TODO)
 Depending on the nature of an environment being explored, it is possible to encounter various hazards. This ranges from weather related hazards like storms, extreme heat and , to terrain dangers such as raging rivers, avalanches and rockfall, to "man"-made dangers such as traps in dungeons.
 
-#### Inclement Weather Hazards (TODO: Make a full table of all weather and consequences.)
+### Inclement Weather Hazards 
+
+#### (TODO: Make a full table of all weather and consequences.)
+
 Inclement weather has two severities: **Severe** and **Extreme**. The following inclement weather types exist. Here is a brief overview.
 - **Precipitation.** (Rain, snow, sleet, ash.) This can lead to poor visibility, difficult movement due to boggy ground or accumulation, or even collapse of structures (snow, ash).
 - **Wind.** Can damage structures. Can knock prone smaller entity and impede movement. Dangerous for flying entities. Makes ranged attacks difficult.
@@ -225,9 +244,9 @@ Any given inclement weather phenomenon may cause more than one effect. Here are 
 
 Of course groups that operate in exotic settings should not shy away from creating other types of inclement weather using this framework.
 
-#### Terrain Hazards (TODO)
+### Terrain Hazards (TODO)
 
-#### Falling
+### Falling
 A typical humanoid has a terminal velocity of about 100mph, or 1000ft per round. In the first round of falling a falling humanoid falls about 360ft. In most cases they land on the same round. In those cases they have only a "reaction" between them and the swift embrace of the Earth Mother. If the distance exceeds 360ft, they may take other actions, although for the sake of casting spells this counts as vigorous motion. One who falls from the back of a dragon, may have several minutes to contemplate their fate and do something about it.
 - Entities of "large" and smaller take 1d8 damage per 10ft fallen. The first 1d8 of damage can be negated with a [SAVE]. This caps at 360ft (36d8), at which point they generally reach terminal velocity.
 - "Huge" and larger entities are hated by gravity and take 1d12 damage for every 10ft they fall. They have a higher terminal velocity and also unfavourable physical properties. Sudden drops are not kind to them. The damage also caps at 360ft at (36d12).
@@ -235,7 +254,7 @@ A typical humanoid has a terminal velocity of about 100mph, or 1000ft per round.
 - Entities that do not have weight (not mass, weight) do not fall.
 
 
-#### Characters, starvation, and other bad ways to die
+### Characters, starvation, and other bad ways to die
 Most characters are morals and therefore require **sustenance** and suffer from **conditions**. This can cause certain problems in the great outdoors and other hazardous locales.
 - A mortal that goes without sustenance for a given period of time begins to deteriorate and eventually die.
 - A mortal that is deteriorating without sustenance stops deteriorating when sustenance is returned. However if sustenance is withdrawn within a given time period, the deterioration begins immediately.

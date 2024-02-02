@@ -108,9 +108,10 @@ The actions named here are further described in the next section.
 
 #### Types of actions in combat
 The actions an entity may take might also be restricted by its conditions and general limitations. For example, if you have two hands and both are holding swords, you cannot pick up another item with your hand. The following actions exist in combat.
+
 - "**Move**": Move from A to B via a route that its modality of movement permits up to its stated movement speed.
   - A mounted character using their "move" action, but their mount's movement speed and movement modalities.
-
+  - Movement distance in combat is summarised in the "[Movement summary](#movement-summary)" section.
 
 - "**Main Action**": This is some generalised activity that takes no longer than 6 seconds and does not interfere with general "movement". Actions include:
   - Making an attack action.
@@ -153,6 +154,18 @@ The actions an entity may take might also be restricted by its conditions and ge
   - This is considered "vigorous motion" for the sake of spellcasting.
 
 - "**Non-action**": Entities also carry out certain activities autonomously as part of their existence. These do not usually require actions (eg breathing). Concentrating is also a non-action.
+
+#### Movement Summary
+
+|Action name|Move distance|Action Cost|Special|Time to fatigue|
+|-|-|-|-|-|
+|Move|1x speed|"move action"|-|10+ hours|
+|Run|2x speed|"move action" + "main action"|3x with "sprinter" ability|[CON] hours|
+|Sprint|4x speed|"sprint action" (1)|5x with "sprinter" ability|[STR] rounds|
+
+1. A character that sprints must move in a straight line with no obstacles and can take no other action on its round.
+
+For more information on movement, see "[Movement and Exploration](movement-exploration.md)". In addition, there are more movement rules below.
 
 ---
 ## Surprise and Ambush

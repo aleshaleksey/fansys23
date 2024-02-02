@@ -362,63 +362,88 @@ ___
 Undead are mortals that died but failed to move on. They are cursed by creation and driven to destroy or oppose it in some way. Undead do not breath, sleep. They are vulnerable to "divine" damage. However they are immune to "disease", "unconscious", "dying", "stunned", "charmed", "frightened" and "paralysed" and "resistant" to "physical" damage.
 
 ___
-### Skeleton, humanoid
-|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
-|-|-|-|-|-|-|
-|15/13/12|-|-|19|30|-|
+### Skeleton, humanoid (levels 1-5)
+|Level|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|-|
+|1|15/13/12|-|-|9|30|-|
+|3|15/13/12|-|-|19|30|-|
+|5|15/13/12|-|-|29|30|-|
 
 (Skeletons have a natural armour of +3)
 (A warrior's skeleton warring full chain would have HiT=16/14/12)
 
-||Str|Dex|Con|Int|Wis|Cha|
+|Level 1, 3|Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
 |Stat|12|14|12|-|10|-|
-|Bonus|0|+2|+1|-|0|-|
-|Save|+1|+3|+2|-|+1|-|
+|Bonus|+1|+2|+1|-|0|-|
+|Save |+2|+3|+2|-|+1|-|
+
+|Level 5|Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|14|16|12|-|12|-|
+|Bonus|+2|+3|+1|-|+1|-|
+|Save|+3|+5|+2|-|+2|-|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
+|1 (1)|3|2|1|1|2|2|
 |3 (1)|6|5|1|1|2|2|
+|5 (1)|10|7|2|2|3|3|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Claws|+4|1d4+2||
-|Longsword|+3|1d8/1d12+1||
-|Sling|+4|1d6+2|range=1600/80|
+|Claws|+4(+6)|1d4+2(+3)||
+|Longsword|+3(+5)|1d8/1d12+1(+2)||
+|Sling|+4(+6)|1d6+2(+3)|range=1600/80|
 |Resistant|||"physical" damage|
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"
 |Senses|||"low-light vision", "life-sense" 120ft|
+
+**Level 5**: Level 5 skeletons have Multi-attack I.
 
 Skeletons generally obey the will of whoever raised them. Otherwise they take no action unless they notice another mortal, which they will generally attempt to kill. It is thus that skeletons end up spreading from the place that they were raised.
 
 Skeletons are proficient with any tools, weapons and armours they knew in life. They cannot communicate, but can be commanded by way of dark magics.
 
 ___
-### Zombie, humanoid
-|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
-|-|-|-|-|-|-|
-|9/10/9|-|-|26|20|-|
+### Zombie, humanoid (levels 1-5)
+|Level|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|-|
+|1|9/10/9|-|-|16|20|-|
+|3|9/10/9|-|-|26|20|-|
+|5|9/10/9|-|-|38|20|-|
 
 (A zombified warrior warring full chain would have HiT=13/14/9)
 
-||Str|Dex|Con|Int|Wis|Cha|
+|Level 1, 3|Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
 |Stat|16|8|14|-|8|-|
 |Bonus|+3|-1|+2|-|-1|-|
 |Save|+4|0|+3|-|0|-|
 
+|Level 5|Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|18|8|14|-|8|-|
+|Bonus|+4|-1|+2|-|-1|-|
+|Save|+6|0|+3|-|0|-|
+
+
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
+|1 (1)|3|2|1|1|2|2|
 |3 (1)|6|5|1|1|2|2|
+|5 (1)|10|8|2|2|3|3|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite|+5|1d4+3|Disease: Zombify Threshold = 16|
-|Strike|+5|1d4+3||
-|Longsword|+0|1d8/1d12+3||
+|Bite|+5(+7)|1d4+3(+4)|Disease: Zombify Threshold = 16(17)|
+|Strike|+5(+7)|1d4+3(+4)||
+|Longsword|+0(+2)|1d8/1d12+3(+4)||
 |Resistant|||"physical" damage|
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"
 |Senses|||"low-light vision", "life-sense" 120ft|
+
+**Level 5**: Level 5 zombies have Multi-attack I.
 
 Like skeletons, zombies will obey whoever raised them. Otherwise they wonder around searching for mortals to devour.
 

@@ -1089,10 +1089,10 @@ ___
 
 **Type**: (Natural, Class B)
 
-**Description**: Choose a terrain. You gain a +4 bonus to "Fortify", "Track", "Creature Handling", "Prospect", "Stealth" and "Navigate" on a given terrain.
+**Description**: Choose a terrain. You gain a +4 bonus to "Fortify", "Stealth", "Harvest", "Track", "Navigate", "Prospect" and "Creature Handling" on a given terrain.
 
 **Special**:
-- A character can take this boon once per point of base it has.
+- A character can take this boon once per point of base it has. Each time it must apply to a different type of terrain.
 - When a character gains a point of base, they can change a terrain mastery for a different terrain. This reflects the gradual gain and loss of knowledge and skill with time.
 
 ___

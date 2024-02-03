@@ -126,6 +126,10 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Speed](#speed)
 - [Sprinter](#sprinter)
 - [Stalker](#stalker)
+- [Tracker: Fast Search](#tracker-fast-search)
+- [Tracker: Persistent](#tracker-persistent)
+- [Tracker: Swift](#tracker-swift)
+- [Terrain Mastery](#terrain-mastery)
 - [Tremor Sense I-VI](#tremor-sense-i-v)
 
 ### Combat Abilities (Natural)
@@ -1079,6 +1083,44 @@ ___
 **Description**: You can use "stealth" as a "secondary action".
 
 **Prerequisites**: SP dice total of 5. At least 1 rank in "stealth".
+
+___
+### Terrain Mastery
+
+**Type**: (Natural, Class B)
+
+**Description**: Choose a terrain. You gain a +4 bonus to "Fortify", "Track", "Creature Handling", "Prospect", "Stealth" and "Navigate" on a given terrain.
+
+**Special**:
+- A character can take this boon once per point of base it has.
+- When a character gains a point of base, they can change a terrain mastery for a different terrain. This reflects the gradual gain and loss of knowledge and skill with time.
+
+___
+### Tracker: Fast Search
+
+**Type**: (Natural, Class B)
+
+**Description**: Looking for tracks is a "main action" for you. Following tracks is a non-action.
+
+**Prerequisite**: 1 ranks in "Track".
+
+___
+### Tracker: Persistent
+
+**Type**: (Natural, Class B)
+
+**Description**: Once you find tracks, you do not need to make another roll for 4 hours, or 4 miles if speed is less than 1mph.
+
+**Prerequisite**: 2 ranks in "Track".
+
+___
+### Tracker: Swift
+
+**Type**: (Natural, Class A)
+
+**Description**: You can move at full speed when tracking without penalties. You can "run" when tracking, with a +6 to the threshold.
+
+**Prerequisite**: 2 ranks in "Track".
 
 ___
 #### Low-light Vision

@@ -709,7 +709,7 @@ While 'Knowledge:Arcana" deals with theory, this is the practical application of
 ___
 #### Track
 
-Tracking is used to follow entities based on disturbances they leave in their environment. Finding tracks is a "full round action", while following tracks or identifying them is a "secondary action". One check is needed for every hour of pursuit or every mile if speed is less than 1mph.
+Tracking is used to follow entities based on disturbances they leave in their environment. Finding tracks is a "full round action", while following tracks or identifying them is a "secondary action". One check is needed for every hour of pursuit or every mile if speed is less than 1mph. When following tracks, an entity moves at half speed.
 
 - **Threshold:** For the fresh tracks of a single medium sized creature it is as follows:
   - Fluid: 28
@@ -721,12 +721,16 @@ Tracking is used to follow entities based on disturbances they leave in their en
   - For every size category up: -1 to threshold.
   - For every size category down: +1 to threshold.
   - For every additional entity: -1 to threshold.
-  - If it has rained or fresh snow has fallen since: + 5 to threshold
+  - If it has rained or fresh snow has fallen since: +6 to threshold
   - For every day that has passed: +4 to threshold
+  - Moving at full speed when tracking: +6 to threshold when making repeated roll.
   - Other modifiers may be applied.
 - **Special**
   - "Prospect" or "observe" may be used to find tracks but not follow them.
   - If a group tried to mislead the tracker, the threshold may increase by [roll - 15].
+  - "[Tracker: Fast Search](abilities.md#tracker-fast-search)" makes finding tracks a "main action" and following it a non-action.
+  - "[Tracker: Persistent](abilities.md#tracker-persistent)" allows to make the track check once per 4h or 4 miles.
+  - "[Tracker: Swift](abilities.md#tracker-swift)" removes the penalty for moving at full speed when tracking.
 - **Take care**: Yes.
 - **Try again**: Yes. (Although you probably won't catch it if you take 20)
 

@@ -286,7 +286,7 @@ ___
 ### Tripede
 |HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|13/12/10|20|29|6|40ft|climb (40ft)|
+|13/12/10|32|20|6|40ft|climb (40ft)|
 
 (Tripede is large, Natural armour +2)
 
@@ -355,6 +355,61 @@ Shephard Trees are highly intelligent, but generally benign. That said some will
 
 ___
 ## Monsters
+
+Monsters are mortals. They generally breath, eat, drink and sleep, but not all of them do. They are generally predatory and dangerous to humanoids.
+
+___
+### Snatchers' Hands
+|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|12/10/12|3|19|3|20ft|5ft (dig)|
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|16|14|12|4|12|8|
+|Bonus|+3|+2|+1|-3|+1|-1|
+|Save|+4|+5|+2|-2|+2|0|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|3 (1)|8|3|2|1|3|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Tear|1d6+3||reach=10ft|
+|Grapple|+6||reach=10ft|
+|Combined Manoeuvre I||||
+|Senses|||"Tremor sense" 60ft, blind beyond that|
+|Skills|||Fortify +5, Observe +3|
+
+These are monster that live in soft ground and swamps. They have a small body and 4 limbs. 3 of these limbs are tiny and adapted for digging. The fourth is long and clawed. Snatcher's Hands wait beneath the earth and when they sense prey above them, reach out and attempt to strange them and drag them into the ground.
+___
+### Troll Head
+|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|14/15/9|18|56|12|30ft||
+
+(+4 natural armour, Size = large)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|18|10|22|14|10|14|
+|Bonus|+4|0|+6|+2|+1|+1|
+|Save|+8|+1|+10|+3|+2|+2|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|5 (1)|13|4|3|1|4|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite|+8|4d8+4|Piercing, shear|
+|Great shout|Threshold=23||"secondary action", or stunned until the end of the head's next turn|
+|Resistant|||"fear", "charm", "catatonic", "stun"|
+|Senses|||"Keen senses", "low light vision"|
+|Skills|||+5 to any 2, +4 to any two (usually knowledge arcana, track, nature)|
+
+When strong trolls and some giants are killed, they have enough vitality that the head, filled driven by anger survives and walks away. These monsters are driven by hatred of those that killed them and constant anger. Even so, they are smart enough to avoid obviously suicidal ventures. No one wants to die.
 
 ___
 ## Profane: Undead

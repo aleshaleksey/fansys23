@@ -530,7 +530,7 @@ Wears hide armour
 |Great Strike|||Up to -4/+4 to attack/damage|
 |Broad Strike|||Hit extra targets|
 |"[Multi-attack II](abilities.md#multi-attack-i-iii)"|||Makes 3 attacks|
-|"[Berserk III](abilities.md#berserk-i-v)"|||(+3 damage, adv vs "grappled" and "restrained", +4 damage|
+|"[Berserk III](abilities.md#berserk-i-v)"|||(+3 damage, adv vs "grappled" and "restrained", +4 damage)|
 |Proficiencies|||Common and if it exists, orcish|
 |Proficiencies|||Axes, heavy blades, light blades, pole-arms, spears, percussive, all basic manoeuvres, medium armour, one set of tools|
 |Skills|||+10 "Athletics", "climb", +8 "stealth", +6 "track", +4 "observe"|

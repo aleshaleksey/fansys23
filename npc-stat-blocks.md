@@ -181,7 +181,7 @@ ___
 |Skills|||+7 "athletics", +5 "fortify" and "climb". +3 "swim", +4 to "observe" and "sense motive".|
 |Loot|||All his stuff and 10-400sp|
 
-This represents a seasoned veteran of many campaigns who devotes his life to war. Still if he sees himself hopelessly outmatched by one who is not his sworn hope, he will surrender. No one wants to die.
+This represents a seasoned veteran of many campaigns who devotes his life to war. Still if he sees himself hopelessly outmatched by one who is not his sworn enemy, he will likely surrender. No one wants to die.
 
 This block can also represents guard captains, monster hunters and other humans who have devoted their lives to violence.
 
@@ -222,7 +222,7 @@ A knight is an elite warrior, trained from birth to fight and rule. This block c
 
 A knight usually has a warhorse, squire and attendants. Like a warrior, he will carry a main weapon and shield into battle and carry a side arm. Knights seldom carry ranged weapons, trusting their heavy armour to protect and squire (stat as [militiaman](#human-militia)) to back them up.
 
-
+___
 ## Elf
 
 ### Elvish Youth
@@ -429,7 +429,7 @@ Wears a light cuirass.
 
 This represents an elf who has devoted several centuries to learning spellcraft.
 
-An elvish mage will generally leave the scene as soon as it senses that a fight might be inevitable. However, they will defend themselves, their apprentices and their brethren fiercely. In those cases they will use communication magic to warn allies, and .
+An elvish mage will generally leave the scene as soon as it senses that a fight might be inevitable. However, they will defend themselves, their apprentices and their brethren fiercely. In those cases they will use communication magic to warn allies, before using appropriate magics. Elven mages are generally weary for counter-spelling mages.
 
 ___
 ## Orc

@@ -510,10 +510,10 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Water Magic I||||
-|Water Magic II||||||
+|Water Magic I (lvl 1)||||
+|Water Magic II (lvl 3)||||||
 |Foresight (lvl 4)|||Greater water sprites add [Wis] to HiT|
-|Water Water Magic III||||
+|Water Water Magic III (lvl 5)||||
 |Senses|||Water sprites are blind, but have keen hearing|
 |Senses|||Tremor sense (90ft, 180ft at lvl 4)|
 |Skills (lvl1)|||Swim +1, Stealth +4|

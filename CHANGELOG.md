@@ -6,3 +6,6 @@
 - Add "Troll Head" and "Snatchers' Hands" and correct "Tripede".
 - Add "Tracker" boons, add half speed to tracking.
 - Add "Terrain Mastery" boon.
+- Add gnome sprite.
+- Add vulnerability definition for damage in combat.
+- Add main todo list.

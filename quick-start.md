@@ -117,9 +117,10 @@ Templates generally give some small bonuses, a few nice features, some of which 
 1. Read over the template.
 2. Apply the creature size to your character, adjust heights and weights within 20% as desired.
 3. Apply stat bonuses and penalties.
-4. Apply movement speed, special senses and type.
-5. Add proficiencies and skill bonuses.
-6. Add special abilities, resistances and vulnerabilities.
+4. Apply [size modifiers](base-rules.md#size-rules).
+5. Apply movement speed, special senses and type.
+6. Add proficiencies and skill bonuses.
+7. Add special abilities, resistances and vulnerabilities.
 
 ___
 ### A few basic templates

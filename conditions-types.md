@@ -228,7 +228,7 @@ ___
 
 Spiritual entities are those for which the spirit is the main form and the physical form is a decoration rather than a necessity. Spiritual entities do not sleep or age, although they may need to breathe, drink and eat.
 - Spiritual entities are immune to "physical" damage, as their physical form is either unnecessary or not "real".
-- Spiritual beings are immune to "stunned", "immobilised", "crippled", "bleeding", "poisoned", or "paralysed".
+- Spiritual beings are immune to "stunned", "immobilised", "crippled", "bleeding", "poisoned", and "paralysed".
 
 **Elementals** are spirits of metaphysical elements of "air", "water", "fire", "earth" (although others might exist). Elementals attract the material of their element to them, giving the appearance of a physical form. However, the elemental does not require this  "body", and attacking it does not damage the elemental. In many worlds they are thought to be part of the mechanisms of creation. Elementals do not breathe, drink or eat.
 - An elemental in its element regenerates a number of MP and SP dice equal to at least its "base" (and often more).

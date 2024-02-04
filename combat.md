@@ -62,6 +62,10 @@ So if an entity with damage reduction=10 physical is hit for 9 points of physica
 
 An item or entity with immunity to a damage type does not take damage from that damage type. For example, a fire elemental might never take damage from fire[natural].
 
+### Damage Vulnerability
+
+An item or entity vulnerable to a damage type takes an extra half of the damage it would normally suffer.
+
 ## Actions in combat
 
 ### Flow of Combat

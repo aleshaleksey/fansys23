@@ -500,7 +500,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 **Global**: The duration increases to a day. The wind affects up to 4 creatures within 20ft of the caster. For every 4MP extra the duration increases by a day, or the number of targets increases by 4.
 
 ### Headwind
-|Name|Tailwind [Air, Spring]|
+|Name|Headwind [Air, Spring]|
 |-|-|
 |Scope|local (global)|
 |MP|1 (4)|

@@ -370,6 +370,7 @@ An entity afflicted by conditions that make it unable to engage in physical comb
   - It has disadvantage on melee attacks.
   - It has disadvantage at [STR] and [DEX] saves.
   - It has advantage at skills used in hiding, but may suffer penalties to perception.
+  -  Flying entities that are knocked prone, drops a distance equal to its speed and can only move at half speed on its next turn. If this drop causes it to hit the ground, it suffers all of the consequences of falling (see "[Falling](movement-exploration.md#Falling)" section).
 - "**Catatonic**": A catatonic character loses the will to act and cannot take actions.
   - It cannot make attacks, use physical abilities or cast spells.
   - It cannot use skills other than those that are involved in perceiving the world.

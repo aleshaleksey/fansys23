@@ -79,6 +79,8 @@ ___
 |Kinetic|Incantation|Int|
 |Nature|Nature|Wis|
 
+ Spells obtained from a given spellcasting type, use the corresponding ability for determining thresholds and attack bonus. Thus, if a character obtained "[Least Shroud](spell-list.md#least-shroud)" through Spellcasting: Kinetic, then the threshold would be Int based. If the same spell was obtained through Spellcasting: Air, the threshold would be Wis based.
+
 ___
 ### Identifying and Manipulating spells
 

@@ -411,6 +411,104 @@ ___
 
 When strong trolls and some giants are killed, they have enough vitality that the head, filled driven by anger survives and walks away. These monsters are driven by hatred of those that killed them and constant anger. Even so, they are smart enough to avoid obviously suicidal ventures. No one wants to die.
 
+__
+## Spirits: Elementals
+
+Elementals are spirits of the four elements. They are generally immune to physical damage (with the exception of some low level elementals) since the physical form they accrue is in no way necessary for their existence. Likewise they are immune to "stunned", "immobilised", "crippled", "bleeding", poisoned" and "paralysed".
+
+___
+### Gnome
+|Level|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|-|
+|1|12/9/13|7|4|2|Walk (20ft)|Dig (5ft)|
+|2|12/9/13|12|6|3|Walk (25ft)|Dig (5ft)|
+|3|12/9/13|17|8|4|Walk (30ft)|Dig (5ft)|
+|4|16/9/17|26|14|7|Walk (35ft)|Dig (10ft)|
+|5|16/9/17|30|15|8|Walk (40ft)|Dig (10ft)|
+|6|16/9/17|38|16|9|Walk (45ft)|Dig (10ft)|
+
+- Gnomes are small size,
+- Gnomes can dig even through rock, however, their tiny tunnels collapse immediately after their passage.
+
+|Level 1-3|Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|14|14|10|6|14|12|
+|Bonus|+2|+2|0|-2|+2|+1|
+|Save (1-2)|+3|+3|+1|-1|+4|+2|
+|Save (3)|+3|+3|+1|-1|+5|+2|
+
+|Level 4-6|Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|16|16|12|8|16|14|
+|Bonus|+3|+3|+1|-1|+3|+2|
+|Save (4-5)|+4|+4|+2|0|+6|+3|
+|Save (6)|+5|+5|+3|+1|+7|+4|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|1(1)|2|3|1|1|2|2|
+|2(1)|3|5|1|1|2|2|
+|3(1)|4|7|1|2|2|3|
+|4(1)|5|9|1|2|2|3|
+|5(1)|7|10|2|2|3|3|
+|6(2)|7|13|2|3|3|4|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Earth Magic (lvl 1)|||"[Down](spell-list.md#down)", "[Least Spike](spell-list.md#least-spike)", "[Gnome's Mercy](spell-list.md#gnomes-mercy)"|
+|Earth Magic (lvl 3)|||"[Least Ward](spell-list.md#least-geomancy)", "[Least Geomancy](spell-list.md#least-geomancy)", "[Warded Ground](spell-list.md#warded-ground)"|
+|Earth Magic (lvl 5)|||"[Shape Earth](spell-list.md#shape-earth)", "[Earth Ward](spell-list.md#earth-ward)"|
+|Senses|||Gnomes are blind, but |
+|Senses|||Heat sense (60ft, 120ft at lvl 4), Tremor sense (60ft, 120ft at lvl 4)|
+|Skills (lvl 1)|||Fortify +4, Harvest +1|
+|Skills (lvl 3)|||Fortify +5, Harvest +3, Prospect 0|
+|Skills (lvl 5)|||Fortify +8, Harvest +6, Prospect +2|
+|Special|||A gnome not in contact with its element loses its immunity to physical damage|
+
+Gnomes are minor earth spirits that manifest as tiny humanoids made of dirt. In small numbers they can be either a boon or hindrance, and seldom cause problems bigger than potholes. Large numbers of angry gnomes have been known to cause landslides.
+
+Gnomes tend to be reclusive and benign. On the other hand they tend to be curious and hospitable to mortals they take a liking to.
+
+___
+### Water Sprite
+|Level|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|-|
+|1||||Walk (10ft)||
+|2||||Walk (10ft)||
+|3||||Walk (15ft)||
+|4||||Walk (15ft)||
+|5||||Walk (20ft)||
+|6||||Walk (20ft)||
+
+|Level 1-3|Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|||||||
+|Bonus|||||||
+|Save|||||||
+
+|Level 1-3|Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|||||||
+|Bonus|||||||
+|Save|||||||
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|1(1)|||||||
+|2(1)|||||||
+|3(1)|||||||
+|4(1)|||||||
+|5(1)|||||||
+|6(1)|||||||
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|||||
+|||||
+|||||
+|||||
+
+
 ___
 ## Profane: Undead
 

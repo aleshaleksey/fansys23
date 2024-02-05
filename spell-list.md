@@ -260,6 +260,8 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 
 **Description**: The target gains light cover, from a clearly tangibles phenomenon. (+2) (4-4)
 
+**Special**: This effect is a visual illusion, the spell's target does not get concealment from entities that can see through illusions or who have "blind sight", "tremor sense", "heat sense" or "life sense".
+
 ### Down
 |Name|Down [Earth]|
 |-|-|

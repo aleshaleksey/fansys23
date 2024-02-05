@@ -9,3 +9,4 @@
 - Add gnome sprite.
 - Add vulnerability definition for damage in combat.
 - Add main todo list.
+- Improved "Least Ward" with limitations.

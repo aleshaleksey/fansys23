@@ -231,12 +231,12 @@ ___
 
 At level one a character starts with the following:
 
-+ 6 + [Int] skill points
++ 6 + [Int] skill points (these can also be used for weapon, armour, language and tool proficiencies)
 + 1 background skill
 + 3 level points
 + 1 save in which they are proficient
 + 1 homeland
-+ 3 dice points (but these are neither skills nor abilities...)
++ 3 dice points (NB: these are neither skills nor abilities...)
 
 #### Skills and proficiencies
 

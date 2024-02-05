@@ -392,8 +392,8 @@ In addition, certain types of rest have additional requirements:
 The recommended duration for a short rest is 1h in a high-action game and 4h in a harsh game. During a short rest a character regains:
 - 1/2 (rounded up) of their MP dice.
 - 1/2 (rounded up) of their SP dice.
-- [1/2 x CON x LEVEL + Total MP dice count] MP.
-- [1/2 x CON x LEVEL + Total MP dice count] SP.
+- [Base x CHA + Total MP dice count] MP.
+- [Base x CON + Total SP dice count] SP.
 
 A character can benefit from number of short rests per long rest no higher than its [Base]. So a level 4 character can benefit from only 1 short rest per long rest, while a level 16 character can benefit from 4 short rests per long rest. This represents a higher level character having a deeper pool of reserves. 
 

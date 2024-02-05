@@ -221,7 +221,7 @@ Every time a character levels up it gains:
 
 + 1 HP
 + 3 dice points to share between gaining SP dice and MP dice.
-+ [3 + Int] skill points to put into skill ranks and proficiencies. 
++ [3 + Int] skill points to put into skill ranks and proficiencies (other than saves). 
 + 1 skill to add to background skills
 + 3 level points, to be used for abilities, or exchanged for skill points (3 skill points per level point).
 
@@ -232,7 +232,7 @@ At level one a character starts with:
 + 1 template[level 0]
 + 1 + [Con] + [Cha] HP, with a minimum of 1
 + 3 dice points + 1 SP dice + 1 MP dice
-+ 6 + [Int] skill points
++ 6 + [Int] skill points to put into skill ranks and proficiencies (other than saves).
 + 1 background skill
 + 3 level points
 + Any benefits and properties it inherits from its type and race.
@@ -335,8 +335,8 @@ This is a measure of an entities' mental/spiritual energy.
 - When a character regains an MP dice, it regains 2 MP.
 - When a character takes natural damage it loses 1 MP per point of damage.
 - If a character takes more than **[CHA + 2 x MP dice total]** damage from a single supernatural/mental attack, the remainder is subtracted from HP.
-- When a character rests, it regains **[1/2 x CHA x LEVEL]** MP.
-  - This is in addition to the MP regained due to regained MP dice. So in total a character regains **[1/2 x CHA x LEVEL + Total MP dice count]** MP.
+- When a character rests, it regains **[CHA x Base]** MP.
+  - This is in addition to the MP regained due to regained MP dice. So in total a character regains **[CHA x Base + Total MP dice count]** MP.
 
 
 #### SP dice pool
@@ -355,8 +355,8 @@ This is a measure of an entity's physical energy, stamina.
 - When a character regains an SP dice, it regains 2 SP.
 - When a character takes natural damage it loses 1 SP per point of damage.
 - If a character takes more than **[CON + 2 x SP dice total]** damage from a single natural/physical attack, the remainder is subtracted from HP.
-- When a character rests, it regains **[1/2 x CON x LEVEL]** SP.
-  - This is in addition to the SP regained due to regained SP dice. So in total a character regains **[1/2 x CON x LEVEL + Total SP dice count]** SP.
+- When a character rests, it regains **[CON x Base]** SP.
+  - This is in addition to the SP regained due to regained SP dice. So in total a character regains **[CON x Base + Total SP dice count]** SP.
 
 ### Nat and Sup: Attack of the three letter words
 

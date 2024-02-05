@@ -43,7 +43,7 @@ The base template allows the following:
 
 **Template points**: A template gains **8 template points**. Template points may be spent in a packet, or one by one.
 
-One template point:
+#### One template point:
 - Advantage on saves vs one B or C class conditions.
   - A template may grant only 2 condition resistances or immunities per template level.
 - A single proficiency.
@@ -56,7 +56,7 @@ One template point:
 - Enhance a sense (low-light vision, keen-smell, keen-hearing).
 
 
-Two template points:
+#### Two template points:
 - Resistance to a C or B Class damage type + advantage vs one C class condition.
   - A template may grant only 1 damage resistance or immunity per template level.
 - A permanent +2 bonus to a single skill.
@@ -69,13 +69,13 @@ Two template points:
   -When this enhancement is a graded ability (eg "[Heat Sense](abilities.md#heat-sense-i-v)"), it is always taken at 2nd level (eg "Heat Sense II"). In this case increasing it by a further level costs a single point.
 - Remove the "sleep" necessity.
 
-Three template points:
+#### Three template points:
 - Advantage on saves vs one A or S class conditions.
   - A template may grant only 2 condition resistances or immunities per template level.
 - A passive or active (B class) ability with no prerequisites.
 - Remove a necessity (drink or eat).
 
-Four template points:
+#### Four template points:
 - Resistance to an A or S class damage type + advantage vs one B or C class condition.
   - A template may grant only 1 damage resistance or immunity per template level.
 - Immunity to a C or B class damage type and advantage vs one associated damage type.
@@ -88,13 +88,13 @@ Four template points:
 - A passive or active (B class) ability with no prerequisites.
 
 
-Five Template points:
+#### Five Template points:
 - Remove a necessity (breathe).
 - Immunity to a single A Class condition.
   - A template may grant only 2 condition resistances or immunities per template level.
 
 
-Six Template points:
+#### Six Template points:
 - Immunity to an A class damage type and advantage vs one associated condition.
   - A template may grant only 1 damage resistance or immunity per template level.
 - Immunity to a single S Class condition (this does more harm than good sometimes).
@@ -105,13 +105,25 @@ Six Template points:
   - A template must be at least level 5 to have a cosmic speed.
 - A passive or active (A class) ability with no prerequisites.
 
-Eight Template points:
+#### Eight Template points:
 - Immunity to an S class damage type and advantage vs one associated condition.
   - A template may grant only 1 damage resistance or immunity per template level.
 
-In addition you can gain points for each:
-- Vulnerability. (2)
-- Special Restriction (eg. Cannot cross flowing water). (2)
+#### Vulnerabilities and Restrictions
+Templates with vulnerabilities and special restrictions gain additional template points as follows.
+
+- Vulnerabilities:
+  - Vulnerability to an A, B or C class damage, or an A or S class condition: 2 points.
+  - Vulnerability to a B or c class condition: 1 point.
+  - Vulnerability to an S class damage (NB: This deadly damage type appears mostly in high level games):
+    - 1 point in a game that does not go above level 10.
+    - 4 points in a game that intends to go above level 10.
+- Restrictions (Not an exhaustive list, but can act as a guide):
+  - Cannot cross flowing water. (2)
+  - No sense of hearing or smell. (1)
+  - Blind. (3)
+  - Only one prehensile limb. (1)
+  - No prehensile limbs. (3)
 
 ### Example Template
 

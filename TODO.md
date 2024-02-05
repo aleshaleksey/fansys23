@@ -1,6 +1,5 @@
 ## Races
 - Make lists alphabetical EVERYWHERE.
-- Better rules for abilities (in the race abilities): For heat sense and tremor sense. NB!! Difference between templates on races page and quick-start page.
 
 ## Combat
 - Better define what resistance to a condition is (aka advantage), also capitalise. ([Races](races.md), [Conditions and Types](conditions-types.md))

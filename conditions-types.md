@@ -42,6 +42,15 @@ Some types of damage bypass both MP and SP, and attack HP directly. Entities tha
 Nat abilities are fueled by SP dice. Sup damage is fueled by MP dice.
 
 ___
+#### Resistance to damage and conditions
+
+This is covered in depth in "[Combat: Damage and Death](combat.md#damage-and-death)". In short, resistance to a type of damage means an entity takes half the damage from that type. Damage vulnerability means it takes the full damage and then takes half the damage again (in short x1.5).
+
+Resistance to a condition means the entity has advantage on the saves vs a condition. vulnerability means it has disadvantage.
+
+Immunity to a damage type or condition means the entity is not affected by it.
+
+___
 #### Mundane, magical and spiritual weapons
 
 Weapons can be mundane, magical or spiritual.

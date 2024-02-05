@@ -122,65 +122,68 @@ Damage Key:
 - Slashing: S
 - Piercing: P
 
-|Weapon|Proficiency|Damage dice|Damage type|Handedness|Governed by|Range (ft)|Increment (ft)|Weight (lb)|Durability|
-|-|-|-|-|-|-|-|-|-|-|
-|Strike|Strike|1|B/Sh|1+|Str/Dex|5|-|-|-|
-|Throws|Throw|-|-|1+|Str/Dex|5|-|-|-|
-|Grapples|Grapple|-|-|1+|Str|5|-|-|-|
-|Disarm|Disarm|-|-|1+|Str/Dex|5|-|-|-|
-|Interception|Interception|-|-|-|Str/Dex|10|-|-|-|
+|Weapon|Proficiency|Damage dice|Damage type|Handedness|Governed by|Reach (ft)|Range (ft)|Increment (ft)|Weight (lb)|Durability|
+|-|-|-|-|-|-|-|-|-|-|-|
+|Strike|Strike|1|B/Sh|1+|Str/Dex|5|-|-|-|-|
+|Throws|Throw|-|-|1+|Str/Dex|5|-|-|-|-|
+|Grapples|Grapple|-|-|1+|Str|5|-|-|-|-|
+|Disarm|Disarm|-|-|1+|Str/Dex|5|-|-|-|-|
+|Interception|Interception|-|-|-|Str/Dex|10|-|-|-|-|
 |||||||||
-|Throwing axe|Axe|1d4|S|1|Str|20|60|2|6|
-|Hand axe|Axe|1d6|S|1|Str|5|-|2|8|
-|War shovel|Axe|1d4|S|1|Str|5|-|2|8|
-|War pick|Axe|1d6|P|1|Str|5|-|3|10|
-|Battleaxe|Axe|2d4/1d12|S|1+|Str|5|-|4|10|
-|GreatAxe|Axe|2d8|S|2|Str|5|-|6|12|
+|Throwing axe|Axe|1d4|S|1|Str|5|20|60|2|6|
+|Hand axe|Axe|1d6|S|1|Str|5|-|-|2|8|
+|War shovel|Axe|1d4|S|1|Str|5|-|-|2|8|
+|War pick|Axe|1d6|P|1|Str|5|-|-|3|10|
+|Battleaxe|Axe|2d4/1d12|S|1+|Str|5|-|-|4|10|
+|GreatAxe|Axe|2d8|S|2|Str|5|-|-|6|12|
+||||||||||
+|Dagger|Light blade|1d4|P/S|1|Str/Dex|5|60|10|1|5|
+|Shuriken|Light blade|1d4|P|1|Str/Dex|-|60|20|0.2|3|
+|Short Sword|Light blade|1d6|P/S|1|Str|5|-|-|2|8|
+|Small Sword|Light blade|1d6|P|1|Dex|5|-|-|1|4|
+|Scimitar|Light blade|1d8|S|1|Str/Dex|5|-|-|2|5|
+|Rapier|Heavy blade|1d10|P/S|1|Str|5|-|-|3|8|
+|Falchion|Heavy blade|2d4/1d12|S|1+|Str|5|-|-|3|10|
+|Longsword|Heavy blade|1d8/1d12|S/P|1+|Str|5|-|-|4|10|
+|Greatsword|Heavy blade|2d6|S/P/B|2|Str|5|-|-|6|12|
 |||||||||
-|Dagger|Light blade|1d4|P/S|1|Str/Dex|60|10|1|5|
-|Shuriken|Light blade|1d4|P|1|Str/Dex|60|20|0.2|3|
-|Short Sword|Light blade|1d6|P/S|1|Str|5|-|2|8|
-|Small Sword|Light blade|1d6|P|1|Dex|5|-|1|4|
-|Scimitar|Light blade|1d8|S|1|Str/Dex|5|-|2|5|
-|Rapier|Heavy blade|1d10|P/S|1|Str|5|-|3|8|
-|Falchion|Heavy blade|2d4/1d12|S|1+|Str|5|-|3|10|
-|Longsword|Heavy blade|1d8/1d12|S/P|1+|Str|5|-|4|10|
-|Greatsword|Heavy blade|2d6|S/P/B|2|Str|5|-|6|12|
-|||||||||
-|Club|Percussive|1d4|B|1|Str|5|-|2|6|
-|Greatclub|Percussive|1d10|B|2|Str|5|-|6|8|
-|Mace|Percussive|1d6|B|1|Str|5|-|3|10|
-|Morning Star|Percussive|1d6|B/P|1|Str|5|-|3|10|
-|War hammer|Percussive|2d4/1d12|B/P|1+|Str|5|-|3|10|
-|Maul|Percussive|2d6|B|2|Str|5|-|12|14|
+|Weapon|Proficiency|Damage dice|Damage type|Handedness|Governed by|Reach (ft)|Range (ft)|Increment (ft)|Weight (lb)|Durability|
+|Club|Percussive|1d4|B|1|Str|5|-|-|2|6|
+|Greatclub|Percussive|1d10|B|2|Str|5|-|-|6|8|
+|Mace|Percussive|1d6|B|1|Str|5|-|-|3|10|
+|Morning Star|Percussive|1d6|B/P|1|Str|5|-|-|3|10|
+|War hammer|Percussive|2d4/1d12|B/P|1+|Str|5|-|-|3|10|
+|Maul|Percussive|2d6|B/P|2|Str|5|-|-|12|14|
 |||||||||||
-|Glaive|Pole-arm|1d12|S|2|Str|10|-|4|6|
-|Halberd|Pole-arm|1d10|S/P|2|Str|10|-|5|8|
-|Venetian Hammer|Pole-arm|1d10|B/P|2|Str|10|-|5|8|
-|Long axe|Axe|2d8|S|2|Str|10|-|8|12|
+|Glaive|Pole-arm|1d12|S|2|Str|10|-|-|4|6|
+|Halberd|Pole-arm|1d10|S/P|2|Str|10|-|-|5|8|
+|Venetian Hammer|Pole-arm|1d10|B/P|2|Str|10|-|-|5|8|
+|Long axe|Axe|2d8|S|2|Str|10|-|-|8|12|
 |||||||||||
-|Short Spear|Spear|1d6/1d8|P/B|1+|Str/Dex|5|special|2|5|
-|Spear|Spear|1d8/1d12|P|1+|Str|10|special|4|6|
-|Long Spear|Spear|1d12|P|2|Str|15|-|8|10|
-|Javelin|Spear|1d8|P|1|Str|120|40|2|4|
-|War dart|Spear|1d4|P|1|Str/Dex|240|60|0.5|4|
-|||||||||||
-|Shortstaff|Staff|1d4/1d8|B|1+|Str/Dex|5|-|2|5|
-|Quarterstaff|Staff|1d10|B|2|Str|10|-|4|6|
+|Short Spear|Spear|1d6/1d8|P/B|1+|Str/Dex|5|60|20|2|5|
+|Spear|Spear|1d8/1d12|P|1+|Str|10|60|20|4|6|
+|Long Spear|Spear|1d12|P|2|Str|15|-|-|8|10|
+|Javelin|Spear|1d8|P|1|Str|-|120|40|2|4|
+|War dart|Spear|1d4|P|1|Str/Dex|-|240|60|0.5|4|
+||||||||||||
+|Shortstaff|Staff|1d4/1d8|B|1+|Str/Dex|5|-|-|2|5|
+|Quarterstaff|Staff|1d10|B|2|Str|10|-|-|4|6|
 |||||||||
-|Sling|Sling|1d6|B|1|Dex|1600|80|1|2|
-|Shortbow|Bow|1d6|P|2|Dex|600|120|1|4|
-|Composite Bow|Bow|1d8|P|2|Dex|1200|240|2|3|
-|Longbow|Bow|1d10|P|2|Dex|1200|240|3|6|
-|Greatbow|Bow|1d10|P|2|Dex|1200|240|3|4|
+|Weapon|Proficiency|Damage dice|Damage type|Handedness|Governed by|Reach (ft)|Range (ft)|Increment (ft)|Weight (lb)|Durability|
+|Sling|Sling|1d6|B|1|Dex|-|1600|80|1|2|
+|Shortbow|Bow|1d6|P|2|Dex|-|600|120|1|4|
+|Composite Bow|Bow|1d8|P|2|Dex|-|1200|240|2|3|
+|Longbow|Bow|1d10|P|2|Dex|-|1200|240|3|6|
+|Greatbow|Bow|1d10|P|2|Dex|-|1200|240|3|4|
 |||||||||
-|Hand Crossbow|Mechanical Bow|1d6|P|1|Dex|360|60|1|4
-|Crossbow|Mechanical Bow|1d10|piercing|2|Dex|800|160|4|6
-|Winch crossbow|Mechanical Bow|2d12|piercing|2|Dex|1000|200|6|8
+|Hand Crossbow|Mechanical Bow|1d6|P|1|Dex|-|360|60|1|4
+|Crossbow|Mechanical Bow|1d10|piercing|2|Dex|-|800|160|4|6
+|Winch crossbow|Mechanical Bow|2d12|piercing|2|Dex|-|1000|200|6|8
 |||||||||||
-|Pistol|Firearm|1d8|piercing|1|Dex|120|40|1|4
-|Musket|Firearm|2d6|piercing|2|Dex|240|120|8|6
-|Blunderbuss|Firearm|2d12|piercing|2|Dex|120|40|6|6
+|Pistol|Firearm|1d8|piercing|1|Dex|-|120|40|1|4
+|Musket|Firearm|2d6|piercing|2|Dex|-|240|120|8|6
+|Blunderbuss|Firearm|2d12|piercing|2|Dex|-|120|40|6|6
+|Gun-blade|Firearm|1d8|piercing/slashing|1|Dex|5|120|20|2|4
 
 ___
 ### Unarmed Combat
@@ -276,7 +279,7 @@ Percussive weapons like clubs, maces and hammer are in their essence a weight at
 |Mace|cripple|sunder|
 |Morning stars|cripple, bleeding||
 |War hammers|cripple|sunder|
-|Mauls|cripple, heavy, prone, "Tools:Fortification"||
+|Mauls|cripple, heavy, prone|sunder|
 
 **Clubs** can include police batons, bats, and heavy branches and have been made from just about any material. As long as humanoids have existed they have used clubs. A basic club is extremely easy to make and use. Clubs do NOT require proficiency to use. 
 
@@ -288,7 +291,7 @@ Percussive weapons like clubs, maces and hammer are in their essence a weight at
 
 **War hammers** are a family of mace-like weapons with an asymmetrical head: One end is blunt, the other end is sharp, for piercing armour. War hammers have the "sunder" property, and "sunder" vs armour and unattended items is at advantage when using a war hammer. **NB** long hefted war hammers in the style of venetian war hammers are considered pole-arms for for the sake of proficiency.
 
-**Mauls**: Any exceptionally big and heavy mace or war hammer -like weapons that requires hands to use is considered a maul here. Mauls are always "heavy" and can cause the "prone" condition. It also has the "Tool:Fortification" property.
+**Mauls**: Any exceptionally big and heavy war hammer -like weapons that requires hands to use is considered a maul here. Mauls are always "heavy" and can cause the "prone" condition.
 
 ___
 ### Spears
@@ -403,12 +406,15 @@ Weapons with a closed or open barrel weapons that use the energy in explosive su
 |Pistol|loud, bleeding, delicate||
 |Musket|loud, bleeding, delicate||
 |Blunderbuss|loud, bleeding, delicate||
+|Gun-blade|loud, bleeding, delicate||
 
 **Pistol**: This refers to flint lock pistols of all kind. It is a full round action to reload this weapon.
 
 **Musket**: This refers to earlier long barrelled flint lock firearms with an emphasis on range. It takes a full round action to reload this weapon.
 
 **Blunderbuss**: This refers to long barrelled flint lock firearms with an emphasis on damage rather than distance, and Yuan hand cannons. It takes a full round action to reload this weapon.
+
+**Gun-blade**: This is a pistol with a short blade, allowing to make melee attacks with the same weapon. Unfortunately this causes the weapon to be incredibly unbalanced. As such all attacks with non-magical gun-blades are made at disadvantage.
 
 ## Armour
 

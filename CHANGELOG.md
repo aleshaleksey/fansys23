@@ -15,3 +15,4 @@
 - Clean up vulnerabilities in template rules a little bit.
 - Clarify zero reach in size rules. Added size modifier link to quick-start. Improve some more wording in quick start.
 - Weaken plant monsters that paralyse you.
+- Add "reach" column to weapon table. Make mauls more historically accurate (spike). Add worlds crappiest gunblade.

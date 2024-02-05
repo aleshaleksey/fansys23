@@ -270,7 +270,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Toxic cloud|(threshold=17)|(cost = 1SP dice)|"secondary action": Releases an airborne toxin that causes non-plant mortals that inhale it within 20ft to be "paralysed" if it does not succeed a Con save at the start of its turn. The victim can repeat its save at the start of each turn. A victim that fails 6 saves in a row is paralysed until it receives treatment.|
+|Toxic cloud|(threshold=17)|(cost = 1SP dice)|"secondary action": Releases an airborne toxin that causes non-plant mortals that inhale it within 20ft to be "restrained" if it does not succeed a Con save at the start of its turn. The victim can repeat its save at the start of each turn. If it fails a second time, it is "immobilised", if it fails a third, it is "paralysed". A victim that fails 6 saves in a row is paralysed until it receives treatment.|
 |Bite|+5|1d12+2 piercing + 1d6 poison|reach = 15ft, the flytrap makes a grapple with its bite on a hit without expending an SP dice|
 |Alert|||A flytrap cannot be surprised|
 |Resistance|||"prone"|
@@ -303,7 +303,7 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Root|+8|1d10+3 piercing|reach=10ft, a tripede can chose to "grapple" a target hit by its root without expending an SP dice|
-|Barb|+6|1d6+1 piercing + 2d6 poison|cost = 1 SP dice. Range = 120/30ft. An entity that is large or smaller that is hit by the attack and does not succeed a Con save (threshold=19) at the start of its turn becomes "paralysed". It may repeat the save at the start of each turn. If a victim fails its save 6 times it is paralysed until it receives treatment.|
+|Barb|+6|1d6+1 piercing + 2d6 poison|cost = 1 SP dice. Range = 120/30ft. An entity that is large or smaller that is hit by the attack and does not succeed a Con save (threshold=19) at the start of its turn becomes "restrained". It may repeat the save at the start of each turn. If it fails a second time, it is "immobilised", if it fails a third, it is "paralysed". If a victim fails its save 6 times it is paralysed until it receives treatment.|
 |Resistance|||"prone"|
 |Manoeuvres|||"grapple"|
 |Monster Attack II|||The tripede makes one attack with its barbed dart and two with its roots as a "main action"|

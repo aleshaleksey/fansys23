@@ -14,3 +14,4 @@
 - Template resistances no longer give as much condition "resistance".
 - Clean up vulnerabilities in template rules a little bit.
 - Clarify zero reach in size rules. Added size modifier link to quick-start. Improve some more wording in quick start.
+- Weaken plant monsters that paralyse you.

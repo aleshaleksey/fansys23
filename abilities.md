@@ -1194,7 +1194,6 @@ ___
 - "Tremor Sense" can be natural or supernatural.
 - Tremor sense allows you to localise an entity, however, for the sake of targeted ranged attacks you still have disadvantage.
 
-
 ___
 #### Blind Sight I-VI
 

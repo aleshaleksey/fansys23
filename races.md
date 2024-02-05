@@ -57,7 +57,7 @@ One template point:
 
 
 Two template points:
-- Resistance to a C or B Class damage type.
+- Resistance to a C or B Class damage type + advantage vs one C class condition.
   - A template may grant only 1 damage resistance or immunity per template level.
 - A permanent +2 bonus to a single skill.
   - The template bonus to skills NEVER stack.
@@ -75,7 +75,7 @@ Three template points:
 - Remove a necessity (drink or eat).
 
 Four template points:
-- Resistance to an A or S class damage type.
+- Resistance to an A or S class damage type + advantage vs one B or C class condition.
   - A template may grant only 1 damage resistance or immunity per template level.
 - Immunity to a C or B class damage type and advantage vs one associated damage type.
   - A template may grant only 1 damage resistance or immunity per template level.

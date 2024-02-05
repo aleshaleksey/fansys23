@@ -28,7 +28,7 @@ A level 1 character, before being build, has:
 - **Stats**: No modifier to any stats.
 - **Movement**: A walking speed of 30ft and no other movement modalities
 - **Senses**:  Hearing, Sight, Smell, Taste, and Touch.
-- **Sight**: Sight in bright light and disadvantage in dim light (aka, no dark-vision or low-light vision)
+- **Sight**: Sight in bright light and disadvantage in dim light (aka, no dark-vision or low-light vision). No sight whatsoever in complete darkness (eg a deep cave).
 - **Limbs**: Two prehensile limbs.
 - **Type**: Humanoid (needs to breathe, drink, eat, and sleep).
 - **Proficiencies**: All characters are proficient with one language.
@@ -66,6 +66,7 @@ Two template points:
   - A single template level can increase fly or cosmic speed by no more than 20ft or 40ft respectively.
 - A passive or active (C class) ability with no prerequisites (eg water breathing).
 - Enhance a sense (heat-sense, keen-sight).
+  -When this enhancement is a graded ability (eg "[Heat Sense](abilities.md#heat-sense-i-v)"), it is always taken at 2nd level (eg "Heat Sense II"). In this case increasing it by a further level costs a single point.
 - Remove the "sleep" necessity.
 
 Three template points:
@@ -157,7 +158,7 @@ This is a race that is closer to the feral side of humanoids. They are stronger 
 - **Size**: Medium (Height: ~6'0", Weight: ~185lb)
 - **Stats**: (Str: +2, Dex: 0, Con: +2, Int: -2, Wis: 0, Cha: 0) (2 points)
 - **Movement**: Walk 30ft
-- **Sight**: Normal, heat vision. (2 point)
+- **Sight**: Normal, "heat sense II" (30ft). (2 point)
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
 - **Proficiencies**: Common. Strikes AND Slings. (2 point)
 
@@ -327,7 +328,7 @@ This represents a low-grade vampire. Its type is undead, but due to lack of poin
 - **Size**: Medium
 - **Stats**: (Str: +2, Dex: +2, Con: +2, Int: 0, Wis: 0, Cha: +2) (8 points)
 - **Movement**: Walk 30ft + Climb 30ft (1 point)
-- **Sight**: Normal, low-light vision, heat vision, keen scent. (3 point)
+- **Sight**: Normal, low-light vision, "heat sense II" (30ft), keen scent. (3 point)
 - **Type**: Undead, partial (does not breathe, sleep or age) (8 point)
 - **Proficiencies**: Common.
 
@@ -355,7 +356,7 @@ This is a divine being created by gods to watch over some aspect of creation (Co
 - **Size**: Medium (Height: ~5'8", Weight: ~140lb) (Normal form: Winged)
 - **Stats**: (Str: +2, Dex: 0, Con: +2, Int: +4, Wis: +2, Cha: +4) (14 points)
 - **Movement**: Walk 20ft, Fly 80ft (average). (8 point)
-- **Sight**: True Sight. (6 point)
+- **Sight**: :True Sight II" (60ft). (6 point)
 - **Type**: Humanoid (does not need to eat, drink, breath, does not age). (12 points)
 - **Proficiencies**: Common.
 

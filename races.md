@@ -8,7 +8,7 @@ The system does not debate whether different races are different species or not.
 
 ## Templates
 
-All characters start with a template. A template is a set of abilities, traits and properties. Usually it is associated with a race or creature type. Not all templates are equal. Some templates (eg dragon, angel) are blatantly more powerful than others. In order to offset this, templates have levels. Templates exist for level 0, level 4 and level 9. They can also be created for other levels.
+All characters start with a template. A template is a set of abilities, traits and properties. Usually it is associated with a race or creature type. Not all templates are equal. Some templates (eg dragon, angel) are blatantly more powerful than others. In order to offset this, templates have levels. Templates exist for level 1, level 5 and level 10. They can also be created for other levels.
 
 For higher power games, where players wish to play angels, devils, dragons and other things, higher level templates should be used. It is recommended that all players use higher level templates, as low level templates with extra class levels mix poorly with higher level templates.
 
@@ -18,7 +18,7 @@ For higher power games, where players wish to play angels, devils, dragons and o
 - Templates/races of different level should NOT be used in the same game.
 - A template can also be applied later on if something special happens to a character, however, this must come at the cost of class levels, unless the group forsakes balance.
 - All characters in a game should have the same total level (template + character levels).
-- The HP of a character is determined by the combined template + character levels.
+- The HP of a character is determined by the combined template + character levels and the total LEVEL for the purpose of **HP = [(Character level) + (Template level) - 1]**.
 - The SP dice, MP dice pools, level points and skill points are determined by character level alone. Although a template may grant additional points (though this is not what it is for!).
 
 ### The base character without templates
@@ -37,7 +37,7 @@ A level 1 character, before being build, has:
 
 The base template allows the following:
 
-**Stat changes**: Add +2 or +1 to any number of stats (total 11 or 12), for a total of no more than +4, as long as -1 or -2 is subtracted from any number of stats (total 8 or 9) in such a way that the total added is zero (total of all stats = 60, no stat higher than 12, no stat lower than 8).
+**Stat changes**: Add +2 or +1 to any number of stats to a total of +4 or less. For each point added to a stat, a point must be subtracted from another stat. After all additions and subtractions, the total must remain zero.
 
 **Size change:** Change size to small or large. This comes with advantages and disadvantage.
 
@@ -57,7 +57,7 @@ One template point:
 
 
 Two template points:
-- Resistance to a C or B Class damage type and one associated (B or C Class) condition.
+- Resistance to a C or B Class damage type.
   - A template may grant only 1 damage resistance or immunity per template level.
 - A permanent +2 bonus to a single skill.
   - The template bonus to skills NEVER stack.
@@ -75,9 +75,9 @@ Three template points:
 - Remove a necessity (drink or eat).
 
 Four template points:
-- Resistance to an A or S class damage type and one associated (B or C Class) condition.
+- Resistance to an A or S class damage type.
   - A template may grant only 1 damage resistance or immunity per template level.
-- immunity to a C or B class damage type and one associated (B or C Class) condition.
+- Immunity to a C or B class damage type and advantage vs one associated damage type.
   - A template may grant only 1 damage resistance or immunity per template level.
 - Immunity to a single B or C Class condition.
   - A template may grant only 2 condition resistances or immunities per template level.
@@ -94,7 +94,7 @@ Five Template points:
 
 
 Six Template points:
-- Immunity to an A class damage type and one associated condition.
+- Immunity to an A class damage type and advantage vs one associated condition.
   - A template may grant only 1 damage resistance or immunity per template level.
 - Immunity to a single S Class condition (this does more harm than good sometimes).
   - A template may grant only 2 condition resistances or immunities per template level.
@@ -105,7 +105,7 @@ Six Template points:
 - A passive or active (A class) ability with no prerequisites.
 
 Eight Template points:
-- Immunity to an S class damage type and one associated condition.
+- Immunity to an S class damage type and advantage vs one associated condition.
   - A template may grant only 1 damage resistance or immunity per template level.
 
 In addition you can gain points for each:
@@ -114,7 +114,7 @@ In addition you can gain points for each:
 
 ### Example Template
 
-#### Human (level-0 template = 8 points)
+#### Human (level-1 template = 8 points)
 
 Human represents the human race. The human race is the base. Humans have no special senses, resistances, movement modalities or spooky abilities. To compensate this, they adapt quickly to new environments, and learn appropriate skills quickly as soon as they are old enough to walk. Humans have a lifespan that does not exceed a century, reach a breeding age in their teens and can produce up to two dozen offspring in their lifetime.
 - **Size**: Medium (Height: ~5'8", Weight: ~140lb)
@@ -133,7 +133,7 @@ Race boon: (6 points)
 - +2 bonus to any stat.
 - 4 skill points to spend on skills and proficiencies.
 
-#### Elf/(Fey touched) (level-0 template = 8 points)
+#### Elf/(Fey touched) (level-1 template = 8 points)
 
 This is a race that is closer to the fey, either created when fey spirits took material form in exchange for something, or when they mingled with humankind, or bestowed their "gifts" upon humans long ago. Elves/Fey touched live ridiculously long lives. Compared to humans they have slender, wiry bodies and longer ears. They are known as sometimes known as the "fair folk" and see well in twilight hours.
 - **Size**: Medium (Height: ~5'8", Weight: ~115lb)
@@ -151,7 +151,7 @@ Race boon: (6 points)
 - Immunity to one of "Charmed", "Blinded", "Stunned" or "Bleeding".
 - +5 to walking speed
 
-#### Orc (level-0 template = 8 points)
+#### Orc (level-1 template = 8 points)
 
 This is a race that is closer to the feral side of humanoids. They are stronger and sturdier than humans, are apt hunters, but tend to lack aptitude for the academic. Orcs lead shorter lives than humans and reproduce even faster.
 - **Size**: Medium (Height: ~6'0", Weight: ~185lb)
@@ -168,7 +168,7 @@ Race boon: (6 points)
 - Resistance to one of "piercing", "slashing" or "pressure" or "shear".
 - +1 Con, +1 Str.
 
-#### Fiend-touched (level-0 template = 8 points)
+#### Fiend-touched (level-1 template = 8 points)
 
 This represents those who have been touched by dark forces. Perhaps because of a pact, perhaps because of a dark ritual, perhaps because of whimsical evil. Or perhaps it's a bona fide race.
 - **Size**: Medium (Height: ~5'10", Weight: ~160lb)
@@ -188,7 +188,7 @@ Race boon: (6 points)
 - +1 Str, +1 Cha.
 - +1 Elemental touch.
 
-#### Beast folk (level-0 template = 8 points)
+#### Beast folk (level-1 template = 8 points)
 
 This is a race of humanoid that has various beast like traits, usually cat-like, or dog-like. This race is loved by degenerates.
 - **Size**: Medium (Height: ~5'8", Weight: ~140lb)
@@ -206,7 +206,7 @@ Race boon: (6 points)
 - +10 to a movement speed of one modality.
 - One of "keen hearing", "keen scent".
 
-#### Beasts of the Green (level-0 template = 8 points)
+#### Beasts of the Green (level-1 template = 8 points)
 
 This is a race of intelligent beasts that dwells in the deepest wilderness. It is thought that they are guardians of the wild, created ancient guardians of those places. Outwardly they take many forms.
 - **Size**: Large (Height: ~6', Weight: ~600lb)
@@ -228,7 +228,7 @@ Race boon: (6 points)
 - +2 to one of "Str", "Dex", "Con" or "Wis"
 - 1 level of incantation magic.
 
-#### The Sea People (level-0 template = 8 points)
+#### The Sea People (level-1 template = 8 points)
 
 The sea people a race of humanoids that live in and around the islands of the shallow seas, and in the marshes and great lakes. They often disguise themselves as humans, for various reasons.
 - **Size**: Medium (Height: ~5'8", Weight: ~140lb)
@@ -247,7 +247,7 @@ Race boon: (6 points)
 - +5 to swim speed.
 - One of "life sense (1 level)" or "blind sight (1 level)".
 
-#### The Winged (level-0 template = 8 points)
+#### The Winged (level-1 template = 8 points)
 
 This is a race of winged humanoids that live in high and isolated places, as well as loci associated with elemental air. They are small of stature, sharp sighted, and often shy of other races.
 - **Size**: Medium (Height: ~3'3", Weight: ~32lb, Wingspan: ~11ft.)
@@ -265,9 +265,9 @@ Race boon: (6 points)
 - +1 fly level.
 - +10 fly speed.
 
-#### Enhanced Human(level-4 template = 40 points)
+#### Enhanced Human(level-5 template = 40 points)
 
-This is a template for humans in a game using level-4 templates. It gives some idea of how to enhance humans for higher power games.
+This is a template for humans in a game using level-5 templates. It gives some idea of how to enhance humans for higher power games.
 
 - **Size**: Medium (Height: ~5'8", Weight: ~140lb)
 - **Stats**: (Str: +2, Dex: +2, Con: +2, Int: +2, Wis: +2, Cha: +2) (12 points)
@@ -285,9 +285,9 @@ Extra (26 points):
 - Resistance to any one physical damage + one associated condition. (2 points)
 - Resistance to "fire" or "ice" + one associated condition. (2 points)
 
-#### Enhanced Elf (level-4 template = 40 points)
+#### Enhanced Elf (level-5 template = 40 points)
 
-This is a template for elves/fey-touched in a game using level-4 templates. It gives some idea of how to enhance this race for higher power games.
+This is a template for elves/fey-touched in a game using level-5 templates. It gives some idea of how to enhance this race for higher power games.
 
 - **Size**: Medium (Height: ~5'8", Weight: ~115lb)
 - **Stats**: (Str: 0, Dex: +4, Con: 0, Int: +2, Wis: +2, Cha: +2) (10 points)
@@ -303,7 +303,7 @@ Extra (21):
 - 2 levels of Nature Magic (4)
 - Immunity to "charmed" and "paralysed". (11)
 
-#### Enhanced beast folk (level-4 template = 20 points)
+#### Enhanced beast folk (level-5 template = 20 points)
 
 Some degenerates want enhanced cat girls for high power games.
 
@@ -320,7 +320,7 @@ Extra (21):
 - Advantage on Dex saves (6)
 - Resistance "bludgeoning" + "prone", "restrained", "grappled", "immobilised". (6)
 
-#### Vampire spawn (level-4 template = 20)
+#### Vampire spawn (level-5 template = 20)
 
 This represents a low-grade vampire. Its type is undead, but due to lack of points, it does not have all undead traits, because we can't afford them.
 
@@ -343,7 +343,7 @@ Extra (24)
 - Alternate form: Bat. (4 points)
 - Lesser Charm. (2)
 
-#### Watcher (level-9 template = 80 points)
+#### Watcher (level-10 template = 80 points)
 
 This is a divine being created by gods to watch over some aspect of creation (Couatl in DnD 5e). Its natural form is a winged serpent. They can:
 - Take humanoid form (lesser alternate form).

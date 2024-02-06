@@ -1,16 +1,16 @@
 # Spells
 
-. [Casting spells and components](#casting-spells-and-components)
-. [Spell ranges](#spell-ranges)
-. [General casting rules](#general-casting-rules)
-. [Concentration](#concentration)
-. [Spell types table](#spell-types-table)
-. [Identifying and Manipulating spells](#identifying-and-manipulating-spells)
-. [Banishing, Breaking, Counter-spelling and Dispelling](#banishing-breaking-counter-spelling-and-dispelling)
-. [The catastrophic cascade](#the-catastrophic-cascade)
-. [Global and local spells](#global-and-local-spells)
-. [Learning spells and mental capacity](#learning-spells-and-mental-capacity)
-. [The 7 types of magic](#the-7-types-of-magic)
+1. [Casting spells and components](#casting-spells-and-components)
+2. [Spell ranges](#spell-ranges)
+3. [General casting rules](#general-casting-rules)
+4. [Concentration](#concentration)
+5. [Spell types table](#spell-types-table)
+6. [Identifying and Manipulating spells](#identifying-and-manipulating-spells)
+7. [Banishing, Breaking, Counter-spelling and Dispelling](#banishing-breaking-counter-spelling-and-dispelling)
+8. [The catastrophic cascade](#the-catastrophic-cascade)
+9. [Global and local spells](#global-and-local-spells)
+10. [Learning spells and mental capacity](#learning-spells-and-mental-capacity)
+11. [The 7 types of magic](#the-7-types-of-magic)
     - [Elemental (Air)](#elemental-air)
     - [Elemental (Earth)](#elemental-earth)
     - [Elemental (Fire)](#elemental-fire)
@@ -18,8 +18,8 @@
     - [Incantation](#incantation)
     - [Kinetic](#kinetic)
     - [Nature](#nature)
-. [Spell Descriptors](#spell-descriptors)
-. [Spell cards](#spell-cards)
+12. [Spell Descriptors](#spell-descriptors)
+13. [Spell cards](#spell-cards)
 
 ## Spellcasting basics
 

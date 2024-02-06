@@ -11,7 +11,7 @@ Animals are common entities in the material world. They have a physical form, li
 
 ___
 ### Cat
-|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |14/8/14|6|6|2|30ft|climb (30ft)|
 
@@ -42,9 +42,9 @@ This block can be used for domestic cats or a wildcat. These predators are often
 
 ___
 ### Dog
-|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/9/14|4|8|2|30ft|
+|14/9/14|8|4|2|30ft|
 
 Size = small
 
@@ -72,9 +72,9 @@ This block can be used for domesticated dogs, jackals and foxes. Large dogs shou
 
 ___
 ### Wolf
-|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|12/11/11|6|14|4|40ft||
+|12/11/11|14|6|4|40ft||
 
 (Natural armour + 1)
 
@@ -106,9 +106,9 @@ Wolves can be advanced to a higher level, but seldom reach above level 5.
 
 ___
 ### Light Horse (level 2)
-|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|12/11/11|6|14|4|50|-|
+|12/11/11|14|6|4|50|-|
 
 Size = large
 
@@ -131,9 +131,9 @@ Size = large
 This stat blocks works for normal riding horses. Horses are temperamental creatures, and will defend themselves from predators and people they don't like with violent kicks of their hooves.
 
 ### Heavy Horse (level 3)
-|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|11/10/10|8|23|6|40|-|
+|11/10/10|23|8|6|40|-|
 
 Size = large
 
@@ -156,9 +156,9 @@ This is used for cart horses and can also be used for oxen
 
 
 ### War Horse (level 4)
-|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|12/11/11|10|30|8|50|-|
+|12/11/11|30|10|8|50|-|
 
 Size = large
 
@@ -181,9 +181,9 @@ Size = large
 This is used for warhorses. Unlike other horses these are combat trained. War horses can be of higher level. In general a warhorse should be half the level of its rider. Knights often have armour (barding) made for their warhorse.
 ___
 ### Bear
-|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|13/13/9|20|44|10|40|climb 30ft|
+|13/13/9|44|20|10|40|climb 30ft|
 
 (Natural armour + 3)
 
@@ -214,9 +214,9 @@ This block can be used for brown or polar bear. It is possible for bears to be o
 
 ___
 ### Bear
-|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|13/13/9|20|44|10|40|climb 30ft|
+|13/13/9|44|20|10|40|climb 30ft|
 
 (Natural armour + 3)
 
@@ -252,7 +252,7 @@ Plants mostly produce nourishment from air, water, minerals and sunlight. Some, 
 
 ___
 ### Giant Flytrap
-|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |12/12/9|24|4|4|5ft|-climb (5ft)|
 
@@ -284,9 +284,9 @@ Flytraps stalk their prey in deep undergrowth. When a flytrap detects unsuspecti
 
 ___
 ### Tripede
-|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|13/12/10|32|20|6|40ft|climb (40ft)|
+|13/12/10|20|32|6|40ft|climb (40ft)|
 
 (Tripede is large, Natural armour +2)
 
@@ -316,7 +316,7 @@ ___
 Tripedes dwell in swamps and deep forests. When nutrients is scarce they uproot themselves in search of prey. They prefer to hunt by stalking, but are capable of running down slow prey like humanoids.
 ___
 ### Shephard Tree, elder
-|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |18/22/2|450|290|47|40ft|climb (40ft)|
 
@@ -360,9 +360,9 @@ Monsters are mortals. They generally breath, eat, drink and sleep, but not all o
 
 ___
 ### Snatchers' Hands
-|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|12/10/12|3|19|3|20ft|5ft (dig)|
+|12/10/12|19|3|3|20ft|5ft (dig)|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -385,9 +385,9 @@ ___
 These are monster that live in soft ground and swamps. They have a small body and 4 limbs. 3 of these limbs are tiny and adapted for digging. The fourth is long and clawed. Snatcher's Hands wait beneath the earth and when they sense prey above them, reach out and attempt to strange them and drag them into the ground.
 ___
 ### Troll Head
-|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/15/9|18|56|12|30ft||
+|14/15/9|56|18|12|30ft||
 
 (+4 natural armour, Size = large)
 
@@ -418,14 +418,14 @@ Elementals are spirits of the four elements. They are generally immune to physic
 
 ___
 ### Gnome
-|Level|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|Level|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|-|
-|1|12/9/13|7|4|2|Walk (20ft)|Dig (5ft)|
-|2|12/9/13|12|6|3|Walk (25ft)|Dig (5ft)|
-|3|12/9/13|17|8|4|Walk (30ft)|Dig (5ft)|
-|4|16/9/17|26|14|7|Walk (35ft)|Dig (10ft)|
-|5|16/9/17|30|15|8|Walk (40ft)|Dig (10ft)|
-|6|16/9/17|38|16|9|Walk (45ft)|Dig (10ft)|
+|1|12/9/13|4|7|2|Walk (20ft)|Dig (5ft)|
+|2|12/9/13|6|12|3|Walk (25ft)|Dig (5ft)|
+|3|12/9/13|8|17|4|Walk (30ft)|Dig (5ft)|
+|4|16/9/17|14|26|7|Walk (35ft)|Dig (10ft)|
+|5|16/9/17|15|30|8|Walk (40ft)|Dig (10ft)|
+|6|16/9/17|16|38|9|Walk (45ft)|Dig (10ft)|
 
 - Gnomes are small size,
 - Gnomes can dig even through rock, however, their tiny tunnels collapse immediately after their passage.
@@ -532,7 +532,7 @@ Undead are mortals that died but failed to move on. They are cursed by creation 
 
 ___
 ### Skeleton, humanoid (levels 1-5)
-|Level|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|Level|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|-|
 |1|15/13/12|-|-|9|30|-|
 |3|15/13/12|-|-|19|30|-|
@@ -576,7 +576,7 @@ Skeletons are proficient with any tools, weapons and armours they knew in life. 
 
 ___
 ### Zombie, humanoid (levels 1-5)
-|Level|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|Level|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|-|
 |1|9/10/9|-|-|16|20|-|
 |3|9/10/9|-|-|26|20|-|
@@ -622,7 +622,7 @@ Zombies are not proficient with anything other than their natural attacks and "g
 
 ___
 ### Earthbound Shade (lesser)
-|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |11/10/11|-|-|29|40ft|climb 40ft|
 
@@ -651,7 +651,7 @@ Earthbound shades are lesser incorporeal undead that cannot detach themselves fr
 NB: Shades are exceptionally dangerous since they cannot be harmed by most weapons and are highly resistant to 3/4 elements. In addition "profane" damage bypasses SP and MP.
 
 ___
-|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 ||||||
 

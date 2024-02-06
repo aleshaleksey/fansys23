@@ -28,9 +28,9 @@ This section contains a few NPC stat blocks and notes on their intended use and 
 ## Human
 
 ### Human Commoner
-|HiT|MP|SP|HP|Speed (walk)|Speed (other)|
+|HiT|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|10|4|6|1|30ft|-|
+|10|6|4|1|30ft|-|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -58,9 +58,9 @@ These humans generally prefer to get on with their lives and avoid trouble, but 
 
 ___
 ### Human Peasant
-|HiT|MP|SP|HP|Speed (walk)|Speed (other)|
+|HiT|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|10|6|13|3|30ft|-|
+|10|13|6|3|30ft|-|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -88,9 +88,9 @@ Beware the humble human farmer working his field! He has had a tough life and su
 
 ___
 ### Human Elite
-|HiT|MP|SP|HP|Speed (walk)|Speed (other)|
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|11|21|23|30|-|
+|11/10/11|23|21|7|30|-|
 
 On the battlefield, will often use Cuirass and shield for (HiT: 17/16/11)
 
@@ -118,9 +118,9 @@ These are well fed humans who are trained from birth to rule over their societie
 Elites seldom carry weapons or wear armour beyond a symbolic dagger or smallsword. Although if forced onto the battlefield will take up arms.
 ____
 ### Human Militia
-|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/12/13|8|20|5|30ft|-|
+|15/12/13|20|8|5|30ft|-|
 
 The HiT includes +2 from padded armour and +2 from a small shield.
 
@@ -151,9 +151,9 @@ Militiamen will normally perform their combat duty, but will break and flee if t
 
 ___
 ### Human Warrior
-|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|17/14/13|17|49|10|30|-|
+|17/14/13|49|17|10|30|-|
 
 (wears brigandine, Greatsword grants a +1 to shield HIT)
 
@@ -189,9 +189,9 @@ A warrior usually carries one heavy weapon weapon and a sidearm. He may also car
 
 ___
 ### Human Knight
-|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|23/19/19|38|65|14|30|-|
+|23/19/19|65|38|14|30|-|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -226,9 +226,9 @@ ___
 ## Elf
 
 ### Elvish Youth
-|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|11/10/11|7|3|1|30ft|-|
+|11/10/11|3|7|1|30ft|-|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -257,9 +257,9 @@ An ordinary elf will seldom carry weapons beyond a dagger for no reason. These e
 
 ___
 ### Elf
-|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|12/10/12|23|16|6|30ft|-|
+|12/10/12|16|23|6|30ft|-|
 
 (HiT (13/11/13) if wearing a light cuirass)
 
@@ -294,9 +294,9 @@ An average elf will carry a sling and knife for self defense, knowing that the w
 
 ____
 ### Elvish Elder
-|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/15/15|76|49|15|35ft|-|
+|15/15/15|49|76|15|35ft|-|
 (HiT (16/16/15) if wearing a light cuirass)
 
 ||Str|Dex|Con|Int|Wis|Cha|
@@ -338,9 +338,9 @@ Elvish elders seldom carry much on their journeys. They will almost never engage
 
 ___
 ### Elvish Hunter
-|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|17/17/15|39|53|13|45ft|-|
+|17/17/15|53|39|13|45ft|-|
 
 Wears padded armour. When wielding blades increases to 18.
 
@@ -390,9 +390,9 @@ A hunter carries only what they need to exist autonomously and hunt down their p
 
 ___
 ### Elvish Mage
-|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/11/13|58|36|15|35ft|-|
+|14/11/13|36|58|15|35ft|-|
 
 Wears a light cuirass.
 
@@ -435,9 +435,9 @@ ___
 ## Orc
 
 ### Orc
-|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|10|6|14|4|30ft|-|
+|10|14|6|4|30ft|-|
 
 (HiT (13/13/10) if wearing hide armour)
 
@@ -467,9 +467,9 @@ An orc might have a lower threshold for violence than an average human, but he w
 
 ___
 ### Orcish Hunter
-|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/13/11|22|60|12|30ft|-|
+|14/13/11|60|22|12|30ft|-|
 
 Wears hide armour
 
@@ -503,9 +503,9 @@ An orcish hunter generally runs down its pray, herding it into traps and finishi
 
 ___
 ### Orcish Berserker
-|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/13/11|37|75|15|30ft|-|
+|14/13/11|75|37|15|30ft|-|
 
 Wears hide armour
 
@@ -543,9 +543,9 @@ NB: Be careful when throwing this block at the party.
 
 ___
 ### Orcish Geomancer
-|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/13/12|40|34|12|30ft|-|
+|15/13/12|34|40|4|12|30ft|-|
 
 (wears hide armour)
 
@@ -579,9 +579,9 @@ ___
 ## Winged
 
 ### Winged
-|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|11/9/11|4|6|1|20ft|60ft fly (average)|
+|11/9/11|6|4|1|20ft|60ft fly (average)|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -605,9 +605,9 @@ This represents an averaged Winged. They are fairly harmless and will flee rathe
 
 ___
 ### Winged Shepherd
-|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/10/14|14|18|5|20ft|60ft fly (average)|
+|15/10/14|18|14|5|20ft|60ft fly (average)|
 
 (Assumed to wear a light cuirass)
 
@@ -639,9 +639,9 @@ This block also represents militia, patrol, and the tougher Winged travellers th
 Winged Shepherds prefer to avoid conflict. When they fight, they fight to delay their enemies for long enough to make an escape. No one wants to die.
 ___
 ### Winged Scout
-|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|16/10/15|30|42|11|20ft|80ft fly (good)|
+|16/10/15|42|30|11|20ft|80ft fly (good)|
 
 (Assumed to wear a light cuirass)
 
@@ -677,9 +677,9 @@ Winged scouts will sooner flee than fight, unless there is something that must b
 
 ___
 ### Winged Wind Mage
-|HiT/Surprised/Touch|MP|SP|HP|Speed (walk)|Speed (other)|
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|16/10/15|74|50|16|20ft|70ft fly (good)|
+|16/10/15|50|74|16|20ft|70ft fly (good)|
 
 (Assumed to wear a light cuirass)
 

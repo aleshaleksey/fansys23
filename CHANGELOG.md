@@ -17,3 +17,7 @@
 - Weaken plant monsters that paralyse you.
 - Add "reach" column to weapon table. Make mauls more historically accurate (spike). Add worlds crappiest gunblade.
 - Change short rest gains for SP/MP to [CON/CHA x BASE] for mathematical simplicity.
+
+## From v0.0.2
+
+- Add carrying capacity.

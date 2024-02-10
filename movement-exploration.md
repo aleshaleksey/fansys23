@@ -5,14 +5,15 @@ Some, but not all, of these activities are covered in rules for skill use, resea
 
 A certain level of freeform RP and common sense are recommended.
 
-1. [Local and Global Movement](#local-and-global-movement)
+1. [Load and Carrying Capacity](#load-and-carrying-capacity)
+2. [Local and Global Movement](#local-and-global-movement)
     - [Difficult Terrain](#difficult-terrain)
     - [Walking](#walking)
     - [Climb](#climb)
     - [Swimming](#swimming)
     - [Digging](#digging)
     - [Flight](#flight)
-1. [Exploration](#exploration)
+3. [Exploration](#exploration)
     - [Overview](#overview)
     - [Local and Global Movement](#local-and-global-movement-1)
     - [Travel rolls and terrain](#travel-rolls-and-terrain)
@@ -24,6 +25,33 @@ A certain level of freeform RP and common sense are recommended.
     - [Terrain Hazards (TODO)](#terrain-hazards-todo)
     - [Falling](#falling)
     - [Characters, starvation, and other bad ways to die](#characters-starvation-and-other-bad-ways-to-die)
+
+## Load and Carrying Capacity
+How much a character can carry is determined by its Str and its size. As a character approaches its carrying limit, it begins to suffer penalties. The categories are as follows.
+
+### Weight limits table
+
+|Load Level|Weight Limit (lb)|Special|
+|-|-|-|
+|Light|4lb x Str|Entities with a fly speed cannot fly when carrying more than a light load|
+|Medium|8lb x Str|Entities with a dig speed cannot dig with more than a medium load|
+|Heavy|20lb x Str|A character can lift and carry no more than its heavy load|
+|Drag|30lb x Str|A character can drag twice as much if there is low friction (or when pulling a cart), if the surface is very rough, the drag limit is halved.|
+
+### Weight penalties
+
+- Light load or lighter loads give no penalty.
+- Light to Medium loads give the following penalties.
+  - Walk speed: -5ft. Dig, climb speed: -10ft.
+  - All Str, Con, Dex based rolls, attacks and saves: -2
+- Medium to Heavy load give the following penalties.
+  - Walk speed: Halved. Climb speed is halved.
+  - All Str, Con, Dex based rolls, attacks and saves: -6
+  - Maximum durations for walking (marching), running and sprinting before Con saves have to be made, is halved.
+
+### Weight limits and size
+
+For every size above medium, the carrying capacity limits are doubled. For every size below medium, the carrying capacity limits are halved.
 
 ## Local and Global Movement
 Here basic movement is described. It is based, where possible on observations. The main forms of movement are walk, climb, swim, flight and dig. Each one has its place and its pace. There are also two exotic types of movement which are not covered yet because we can live without it. Movement is measured in feet per round (ft), or miles per hour (mph). A very rough translation is 1mph = 1ft.
@@ -54,6 +82,7 @@ Entities with a swim speed are often well adapted to their liquid medium, but ar
 Moving through solid earth is a slow and difficult process. Moving through rock is often impossible even for diggers. Tunnelling entities are not slowed by narrow passages. Natural speeds are 5-10ft. Unless otherwise stated Digging entities cannot dig through solid rock (natural or worked), or metal.
 - **Non-diggers**: entities that cannot move through earth, sand, or rock.
 - **Run, Sprint**: Digging entities cannot run or sprint when digging.
+- **Load**: Digging entities cannot dig with more than a medium load.
 
 ### Flight
 Flight is an intriguing and liberating mode of movements. To terrestrial entities a flying being seems to have the freedom of the wind. Natural flying entities move between 80-240ft per round.

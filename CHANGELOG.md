@@ -21,3 +21,5 @@
 ## From v0.0.2
 
 - Add carrying capacity.
+- Add the "promise" spell.
+- Amend wording of flight.

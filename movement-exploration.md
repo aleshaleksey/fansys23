@@ -33,7 +33,7 @@ How much a character can carry is determined by its Str and its size. As a chara
 
 |Load Level|Weight Limit (lb)|Special|
 |-|-|-|
-|Light|4lb x Str|Entities with a fly speed cannot fly when carrying more than a light load|
+|Light|4lb x Str|Entities with a [natural] fly speed cannot fly when carrying more than a light load|
 |Medium|8lb x Str|Entities with a dig speed cannot dig with more than a medium load|
 |Heavy|20lb x Str|A character can lift and carry no more than its heavy load|
 |Drag|30lb x Str|A character can drag twice as much if there is low friction (or when pulling a cart), if the surface is very rough, the drag limit is halved.|
@@ -53,6 +53,7 @@ How much a character can carry is determined by its Str and its size. As a chara
 
 For every size above medium, the carrying capacity limits are doubled. For every size below medium, the carrying capacity limits are halved.
 
+___
 ## Local and Global Movement
 Here basic movement is described. It is based, where possible on observations. The main forms of movement are walk, climb, swim, flight and dig. Each one has its place and its pace. There are also two exotic types of movement which are not covered yet because we can live without it. Movement is measured in feet per round (ft), or miles per hour (mph). A very rough translation is 1mph = 1ft.
 

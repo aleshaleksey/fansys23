@@ -51,6 +51,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Lesser Veil](#lesser-veil)
 - [Least Transformation](#least-transformation)
 - [Meadow of Flame](#meadow-of-flame)
+- [Promise](#promise)
 - [Silence](#silence)
 - [Summon Fire Sprite](#summon-flame-sprite)
 - [Summon Gnome](#summon-gnome)
@@ -1075,6 +1076,30 @@ ___
 **Upcast**: For every MP dice added (4MP dice for global), the gnome gains two levels.
 
 **Global**: The gnome is bound by a longer contract (an extra day for every 8MP above 8) and the spell does not require concentration. For every day of the contract the material component must be paid anew.
+
+### Promise
+|Name|Promise [Curse, Global]|
+|-|-|
+|Scope|(global)|
+|MP|(8)|
+|Target(s)|(1 entity)|
+|Casting time|2h + 1h per 4MP|
+|Range|close|
+|Duration|1 month + 1 month per 4MP|
+|Components|incantation|
+|Limitation|The caster must be in contact with the target for the whole duration that the spell is being cast.|
+|Limitation|The spell is weakened if the target is not willing.|
+|Save|Special: Wis|
+
+**Description**: The caster makes a target's promise hold real power. Chose a condition no higher than "A Class" (see "[Conditions](conditions-types.md#conditions-and-states)"). The spell then takes one of the following forms:
+1. The target makes a promise and must fulfil it before the spell ends or suffers the condition permanently. (eg, "I will slay the ogre that terrorises the village.")
+2. The target makes a promise and must either keep fulfilling it for the duration of the spell. (eg, "I promise not to deceive you."). If the target breaks the promise, it suffers the condition for the full duration of the spell (as if it was cast when the target broke the promise).
+
+The condition counts as having a "supernatural" origin.
+
+**Special**: If the target is not aware that it is being bound, or makes the promise against its will, it may attempt a Wis save if it ever brakes the promise. On a success it avoids the effects of the spell.
+
+**Upcast**: The spell lasts for 1 month per 4 MP dice placed in it. In addition, at 16 MP dice, S Class conditions may be selected.
 
 ___
 ## MP 3 spells

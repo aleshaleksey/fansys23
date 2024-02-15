@@ -1817,6 +1817,35 @@ An illusion can be broken in the following manner:
 **Upcast**: The for every extra MP die, the spell lasts for an extra 6 minutes or increases in radius by 5ft. If 7 or more MP dice are used, the caster can shift the weather by two points in any direction.
 
 **Global**: As local, but with a radius of 400ft and a duration of 1 day. For every extra 4MP dice, the radius increases by 500ft or the duration increases by 1 day. If 7 or more MP dice are used the weather can be shifted by two points in any direction.
+
+___
+## MP 5 Spells
+4+2+3+4+5+6=24
+
+### Pact
+|Name|Pact [Curse, Global]|
+|-|-|
+|Scope|(global)|
+|MP|(20)|
+|Target(s)|(2 entities)|+2
+|Casting time|1 day + 4h per 4 MP dice|
+|Range|close|
+|Duration|1 year|+12(14)
+|Components|incantation|+1(15)
+|Focus|An item that is precious to the patron.|-1(14)
+|Material|An item that is precious to the supplicant, which is consumed when the pact is sealed.|-2(12)
+|Limitation|The spell is weakened if the target is not willing.|-1(11)
+|Save|Special: Wis|
+
+**Description**: The caster allows a supernatural pact to be sealed between two targets (supplicant and patron). The caster may be one of the targets. "Pact" may work in the following manner:
+1. Replicate the effect of "[Promise](#promise)", with a year long duration. Furthermore, the patron knows if the promise has been broken.
+2. Chose a one of the patrons attributes: a stat, save, resource pool, ability, skill, or proficiency. A number of times a day equal to the supplicant's [Base], the supplicant may use that attribute (in place of their own as appropriate). *In return* the patron must demand that the supplicant make a promise (as in "[Promise](#promise)") or alternatively the patron may issue a single command to the supplicant on any day that the patron's power is borrowed.
+
+**Special**:
+- A supplicant can have a pact with no more than one patron.
+- If a supplicant makes a pact under duress or unwittingly, they may make a Wis save whenever the patron issues a command or if the promise is broken.
+
+**Upcast**: For every 4 MP dice above 20, the spell lasts an extra year. Alternatively you may select an extra attribute. If the spell is cast with 32 MP dice or more, and only one attribute is taken, it becomes permanent.
 ___
 ## MP 6 spells
 4+2+3+4+5+6+7

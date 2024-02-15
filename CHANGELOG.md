@@ -15,11 +15,12 @@
 - Clean up vulnerabilities in template rules a little bit.
 - Clarify zero reach in size rules. Added size modifier link to quick-start. Improve some more wording in quick start.
 - Weaken plant monsters that paralyse you.
-- Add "reach" column to weapon table. Make mauls more historically accurate (spike). Add worlds crappiest gunblade.
+- Add "reach" column to weapon table. Make mauls more historically accurate (spike).
+- Add worlds crappiest gunblade.
 - Change short rest gains for SP/MP to [CON/CHA x BASE] for mathematical simplicity.
 
 ## From v0.0.2
 
 - Add carrying capacity.
-- Add the "promise" spell.
+- Add the "promise" and "pact" spells.
 - Amend wording of flight.

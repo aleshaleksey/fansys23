@@ -420,9 +420,10 @@ Weapons with a closed or open barrel weapons that use the energy in explosive su
 
 ### Armour and its relationship with [HiT]
 
-Targeted attacks are rolled against [HiT]. [HiT] represents how effective/powerful/precise a target attack has to be to harm the target. It is made of the following components, all of which stack:
+Targeted attacks are rolled against "[HiT](base-rules.md#hit-threshold-hit)". [HiT] represents how effective/powerful/precise a target attack has to be to harm the target. It is made of the following components, all of which stack:
 
-- Base Hit (ALWAYS 10).
+- Initial Hit (ALWAYS 10).
+- Base (general experience bleeding through to various aspects of defense).
 - Evasion (avoiding the brunt of the attack, eg dodging)
 - Deflection (deflecting the brunt of the attack through active means, eg parrying)
 - Shield (deflecting the brunt of the attack through passive means, eg shields)

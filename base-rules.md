@@ -424,18 +424,19 @@ A character can either be proficient, or not proficient with a save. The calcula
 
 A character has an armour class/hit threshold, this is a measure of how difficult its physical (or spiritual) form is to damage using targeted attacks. It can represent any combination of armour and evasive ability and is something of an abstraction of how hard a character is to damage with a targeted attack: A targeted attack either penetrates defences, with the potential of doing damage, (hit) or it does not (miss). This is an abstraction with the following components:
 
-  - Base HiT (ALWAYS 10).
+  - Initial HiT (ALWAYS 10).
+  - **Base**: A character always adds [Base] to HiT. This reflects the general experience of the character bleeding through to defensive capabilities.
   - **Evasion** (avoiding the brunt of the attack, eg dodging). In general this is equal to the Dex (stat) bonus.
   - **Deflection** (deflecting the brunt of the attack through active means, eg parrying)
   - **Shield** (deflecting the brunt of the attack through passive means, eg shields)
   - **Armour** (absorbing/nullifying the brunt of the attack through, eg a breast plate or dragon's scales)
 
- Thus the final HiT is **[10 + Evasion + Deflection + Shield + Armour]**
+ Thus the final HiT is **[10 + Base + Evasion + Deflection + Shield + Armour]**
 
  In some cases not all components of HiT are used.
 
-  - Some attacks ignore armour (a ghost's touch, a musket bullet at close range, a death ray). In this case **HiT = [10 + Evasion + Deflection + Shield]**.
-  - Sometimes the character is not in a position to evade of actively deflect an attack ("surprised" or "immobilised"). In this case **HiT = [10 + Shield + Armour]**.
+  - Some attacks ignore armour (a ghost's touch, a musket bullet at close range, a death ray). In this case **HiT = [10 + Base + Evasion + Deflection + Shield]**.
+  - Sometimes the character is not in a position to evade of actively deflect an attack ("surprised" or "immobilised"). In this case **HiT = [10 + Base + Shield + Armour]**.
 
 For each component (eg Armour), the Sup and Nat aspect stack. However for each aspect only the highest bonus applies. Eg: If a character wears a full plate on top of padded armour, only the bonus for the full plate applies. Also your character's gonna be really hot and sweaty.
 

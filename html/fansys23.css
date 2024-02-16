@@ -211,7 +211,27 @@
     margin: 2px;
 }
 
-.button[type="roll"] {
+.ui-dialog .charsheet button[type=roll]::before {
+    content: "";
+}
+
+.ui-dialog .charsheet button[type="action"] {
+    background-color: #e4d3a5;
+    border: none;
+    color: #392929;
+    margin: 2px;
+    padding: 4px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.ui-dialog .charsheet button[type="action"]:hover {
+    background-color: #f4e3c5;
+}
+
+.ui-dialog .charsheet .button[type=roll] {
     background-color: #e4d3a5 ! important;
     border-style: none ! important;
     padding: 1px ! important;

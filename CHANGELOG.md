@@ -24,3 +24,4 @@
 - Add carrying capacity.
 - Add the "promise" and "pact" spells.
 - Amend wording of flight.
+- Added truesight and clarified vision related abilities for templates.

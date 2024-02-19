@@ -1341,7 +1341,8 @@ ___
 |Casting time|1 secondary action|+2
 |Range|30ft|+2(4)
 |Duration|12 min|+6(10)
-|Components|petals of snowdrops and quartz dust|-2(7)
+|Components|kinetic|
+|Material|petals of snowdrops and quartz dust|-2(7)
 |Limitation|Does not affect entities aligned with "fire"|-2(5)
 |Damage|1d8+[Sup] ice|+3(8) defacto more.
 |Save|Con|
@@ -1462,7 +1463,8 @@ ___
 |Casting time|1 secondary action|+2
 |Range|30ft|+2(4)
 |Duration|12 min|+6(10)
-|Components|Ashes of a mortal that died in a fire|-2(7)
+|Component|kinetic|
+|Material|Ashes of a mortal that died in a fire|-2(7)
 |Limitation|Does not affect entities aligned with water/ice|-2(5)
 |Damage|1d8+[Sup] fire|+3(8) defacto more.
 |Save|Dex|
@@ -1597,6 +1599,7 @@ ___
 **Special**:
 - Shapeshifters can ignore the effects of this spell.
 - The target, if it fails the initial save, does not get another chance to save.
+- If the target is not at full HP/SP/MP/SP dice/MP dice, subtract the missing amount from the maximum value of the new form. If the starting total for HP/SP/MP/SP dice/MP dice is below 1, it is set to 1 instead.
 
 **Upcast**: For every extra MP dice spend, the caster can either extend the spell by an extra hour, select an additional target, or increase the maximum level of the resulting animal/plant by 1.
 
@@ -1968,8 +1971,25 @@ ____
     - [Least Freeze](#least-freeze)
     - [Least Hydromancy](#least-hydromancy)
     - [Mist](#mist)
+- Incantation
+  - [Least Anemancy](#least-anemancy)
+  - [Down](#down)
+  - [Least Blast](#least-blast)
+  - [Least Geomancy](#least-geomancy)
+  - [Least Ward](#least-ward)
+  - [Least Hydromancy](#least-hydromancy)
+  - [Least Pyromancy](#least-pyromancy)
+  - [Ignition](#ignition)
+  - [Least Spike](#least-spike)
+- Kinetic
+  - [Compass](#compass)
+  - [Deafen](#deafen)
+  - [Hide](#hide)
+  - [Least Shroud](#least-shroud)
+  - [Mist](#mist)
+  - [Silence](#silence)
+  - [Whispers](#whispers)
 - Other
-    - [Deafen](#deafen)
 
 ### MP 1
 
@@ -1992,6 +2012,16 @@ ____
     - [Chill Blood](#chill-blood)
     - [Water Snake](#water-snake)
     - [Winter's Touch](#winters-touch)
+- Incantation
+  - [Bear's Claws](#bears-claws)
+  - [Headwind](#headwind)
+  - [Least Heal](#least-heal)
+  - [Least Vengeance](#least-vengeance)
+- Kinetic
+  - [Enflame](#enflame)
+  - [Shape Earth](#shape-earth)
+  - [Spirits' Secret](#spirits-secret)
+  - [Winter's Touch](#winters-touch)
 
 ### MP 2
 
@@ -2015,6 +2045,18 @@ ____
 - Water
     - [Least Transformation](#least-transformation)
     - [Summon Water Sprite](#summon-water-sprite)
+- Incantation
+  - [Least Rest](#least-rest)
+  - [Lesser Veil](#lesser-veil)
+  - [Meadow of Flame](#meadow-of-flame)
+  - [Promise](#promise)
+- Kinetic
+  - [Call Ailment](#call-ailment)
+  - [Earthen Hand](#earthen-hand)
+  - [Glide](#glide)
+  - [Least Transformation](#least-transformation)
+  - [Silence](#silence)
+  - [Warmth](#warmth)
 
 ### MP 3
 
@@ -2040,6 +2082,16 @@ ____
 - Other
     - [Animate Dead](#animatecontrol-dead)
     - [Least Curse](#least-curse)
+- Incantation
+  - [Cure](#cure)
+  - [Mole](#mole)
+  - [Wind Walk](#wind-walk)
+- Kinetic
+  - [Animate/Control Dead](#animatecontrol-dead)
+  - [Least Curse](#least-curse)
+  - [Summer's Blade](#summers-blade)
+  - [Water Walk](#water-walk)
+  - [Winter's Blade](#winters-blade)
 
 ### MP 4
 
@@ -2063,6 +2115,17 @@ ____
     - [Balance of Elements](#balance-of-elements)
     - [Mirage](#mirage)
     - [Scry](#scry)
+- Incantation
+  - [Balance of Elements](#balance-of-elements)
+  - [Balance of Nature](#balance-of-nature)
+  - [Least Weather Control](#lesser-weather-control)
+  - [Speak Through Flame](#speak-through-flame)
+- Kinetic
+  - [Aquous Step](#aqueous-step)
+  - [Bestial Transformation](#bestial-transformation)
+  - [Mirage](#mirage)
+  - [Scry](#scry)
+
 - Other
 
 ___

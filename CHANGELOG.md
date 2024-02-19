@@ -25,3 +25,4 @@
 - Add the "promise" and "pact" spells.
 - Amend wording of flight.
 - Added [Base] to HiT. This should make fights a little bit more balanced, but still keep it in favour of attacks.
+- Added truesight and clarified vision related abilities for templates.

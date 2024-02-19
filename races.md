@@ -10,7 +10,7 @@ The system does not debate whether different races are different species or not.
 
 All characters start with a template. A template is a set of abilities, traits and properties. Usually it is associated with a race or creature type. Not all templates are equal. Some templates (eg dragon, angel) are blatantly more powerful than others. In order to offset this, templates have levels. Templates exist for level 1, level 5 and level 10. They can also be created for other levels.
 
-For higher power games, where players wish to play angels, devils, dragons and other things, higher level templates should be used. It is recommended that all players use higher level templates, as low level templates with extra class levels mix poorly with higher level templates.
+For higher power games, where players wish to play angels, devils, dragons and other things, higher level templates should be used. For such games,  it is recommended that all players use higher level templates, as low level templates with extra class levels mix poorly with higher level templates.
 
 ### Basic template rules
 
@@ -53,7 +53,7 @@ The base template allows the following:
 - Speed increase to climb, walk, or swim speed by 5ft.
   - A single template level can increase climb, walk or swim speeds by no more than 15ft.
 - Remove the "ageing" necessity.
-- Enhance a sense (low-light vision, keen-smell, keen-hearing).
+- Gain one of the following senses: "Low-light vision", "Keen senses: Smell", "Keen senses: Hearing").
 
 
 #### Two template points:
@@ -65,7 +65,7 @@ The base template allows the following:
 - Increase fly speed by 10ft. Increase cosmic speed by 20ft.
   - A single template level can increase fly or cosmic speed by no more than 20ft or 40ft respectively.
 - A passive or active (C class) ability with no prerequisites (eg water breathing).
-- Enhance a sense (heat-sense, keen-sight).
+- Gain one of the following senses: "heat-sense", "keen-senses: Sight".
   -When this enhancement is a graded ability (eg "[Heat Sense](abilities.md#heat-sense-i-v)"), it is always taken at 2nd level (eg "Heat Sense II"). In this case increasing it by a further level costs a single point.
 - Remove the "sleep" necessity.
 
@@ -86,6 +86,8 @@ The base template allows the following:
 - Improve fly speed by a level (average -> good, good -> perfect).
 - Improve dig speed by 5ft.
 - A passive or active (B class) ability with no prerequisites.
+- Gain one of the following senses: "Tremor Sense", "Blindsight".
+  -When this enhancement is a graded ability (eg "[Tremor Sense](abilities.md#tremor-sense-i-v"), it is always taken at 2nd level (eg "Tremor Sense II"). In this case increasing it by a further level costs a single point.
 
 
 #### Five Template points:
@@ -104,6 +106,9 @@ The base template allows the following:
 - A cosmic speed (100ft).
   - A template must be at least level 5 to have a cosmic speed.
 - A passive or active (A class) ability with no prerequisites.
+- Gain one of the following senses: "Life-sense", "Truesight".
+  - A template must be at least level 5 to have one of these sense.
+  - When this enhancement is a graded ability (eg "[Truesight](abilities.md#truesight-i-v)"), it is always taken at 2nd level (eg "Heat Sense II"). In this case increasing it by a further level costs a single point.
 
 #### Eight Template points:
 - Immunity to an S class damage type and advantage vs one associated condition.
@@ -368,7 +373,7 @@ This is a divine being created by gods to watch over some aspect of creation (Co
 - **Size**: Medium (Height: ~5'8", Weight: ~140lb) (Normal form: Winged)
 - **Stats**: (Str: +2, Dex: 0, Con: +2, Int: +4, Wis: +2, Cha: +4) (14 points)
 - **Movement**: Walk 20ft, Fly 80ft (average). (8 point)
-- **Sight**: :True Sight II" (60ft). (6 point)
+- **Sight**: :True Sight II (60ft). (6 point)
 - **Type**: Humanoid (does not need to eat, drink, breath, does not age). (12 points)
 - **Proficiencies**: Common.
 

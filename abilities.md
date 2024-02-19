@@ -1125,7 +1125,7 @@ ___
 ___
 #### Low-light Vision
 
-**Type**: (Natural/Supernatural, Class A)
+**Type**: (Natural/Supernatural, Class B)
 
 **Description**: You can see in low light conditions (eg a starry night) as if it was daytime. However, you cannot see in pitch black (a sealed cave or the oceanic abyss).
 
@@ -1136,11 +1136,13 @@ ___
 ___
 #### Heat Sense I-V
 
-**Type**: (Natural/Supernatural, Class A)
+**Type**: (Natural/Supernatural, Class B)
 
 **Description**: Your vision can detect differences in temperature with pitch black (extreme cold) to blinding white (a blazing fire). You can see warm blooded creatures and other sources of heat even in complete darkness.
 
-**Special**: This ability is blocked by 3ft of earth, wood or organic material, or 1ft of stone or metal. It is also blocked by 10ft of water or other liquid.
+**Special**: This ability is blocked as follows:
+- At levels I-III: By any solid material thicker than about an inch or by 3ft of water or other liquid.
+- At levels IV-V: By 3ft of earth, wood or organic material, or 1ft of stone or metal. It is also blocked by 10ft of water or other liquid.
 
 **Prerequisites**:
 |Heat Sense level|Range|MP dice prerequisite|Other|
@@ -1161,7 +1163,9 @@ ___
 
 **Description**: You gain the ability to see the life-force of other entities within the range of your "life sense". This sense does not detect "constructs" or "undead".
 
-**Special**: This ability is blocked by 3ft of earth, wood or organic material, or 1ft of stone or metal.
+**Special**:
+- This ability is blocked by 6ft of earth, wood or organic material, or 2ft of stone or metal.
+- An entity with life-sense automatically detects living beings in range unless they have full cover as described above, or are concealed or veiled *from this sense* by supernatural means.
 
 **Prerequisites**:
 |Life Sense level|Range|MP dice prerequisite|Other|
@@ -1174,6 +1178,28 @@ ___
 |VI|120ft|42|Life Sense V|
 
 ___
+
+___
+#### Truesight I-V
+
+**Type**: (Supernatural, Class S)
+
+**Description**: You gain the ability to see through illusions and to see the true form of that which has been supernaturally transformed.
+
+**Special**:
+- Truesight is applied on top of of any other "sight", but does not apply to vision abilities ending with "sense" eg. "Tremor Sense"
+- Truesight does not allow one to see through solid objects or natural/mundane disguises, nor does it defeat stealth, unless the stealthed entity is using an illusionary feature to hide itself. 
+
+**Prerequisites**:
+|Life Sense level|Range|MP dice prerequisite|Other|
+|-|-|-|-|
+|I|30ft|12|-|
+|II|60ft|18|Life Sense I|
+|III|90ft|24|Life Sense II|
+|IV|120ft|30|Life Sense III|
+|V|150ft|36|Life Sense IV|
+|VI|180ft|42|Life Sense V|
+
 #### Tremor Sense I-V
 
 **Type**: (Natural/Supernatural, Class A)
@@ -1192,7 +1218,8 @@ ___
 
 **Special**:
 - "Tremor Sense" can be natural or supernatural.
-- Tremor sense allows you to localise an entity, however, for the sake of targeted ranged attacks you still have disadvantage.
+- "Tremor Sense" allows you to localise an entity, however, for the sake of targeted ranged attacks you still have disadvantage.
+- "Tremor Sense" bypasses conventional concealment, making eg. hiding behind a crate useless, but is almost useless against flying entities or those with no path shorter than the ability's range that can be drawn through solid/liquid medium.
 
 ___
 #### Blind Sight I-VI
@@ -1216,7 +1243,7 @@ ___
 ___
 #### Keen Senses I-III
 
-**Type**: (Supernatural, Class A)
+**Type**: (Supernatural, Class B)
 
 **Description**: Select either sight, smell or hearing. You gain advantage on all "observe" rolls based on this sense.
 

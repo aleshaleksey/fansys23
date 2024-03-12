@@ -1166,6 +1166,7 @@ ___
 **Special**:
 - This ability is blocked by 6ft of earth, wood or organic material, or 2ft of stone or metal.
 - An entity with life-sense automatically detects living beings in range unless they have full cover as described above, or are concealed or veiled *from this sense* by supernatural means.
+- Optionally, with a perception roll you can distinguish an entity's type, subtype and race/template/kind (threshold, 12, 16, 24), although a separate knowledge roll may be required to identify this if you are unfamiliar with the type, subtype or template.
 
 **Prerequisites**:
 |Life Sense level|Range|MP dice prerequisite|Other|

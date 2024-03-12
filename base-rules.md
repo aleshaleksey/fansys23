@@ -33,6 +33,7 @@
     -  [Hit Threshold (HiT)](#hit-threshold-hit)
     -  [Skills and Proficiencies](#skills-and-proficiencies)
     -  [Abilities](#abilities)
+    -  [Senses](#senses)
 6. [Tables](#tables)
     -  [Level parameters](#level-parameters)
     -  [Nat vs SP dice and Sup vs MP dice](#nat-vs-sp-dice-and-sup-vs-mp-dice)
@@ -455,6 +456,42 @@ The number of skill points a character can have in a single skill is capped to:
 ### Abilities
 
 These are the really cool abilities that a character has, like throwing fire balls, healing otherwise lethal walls, or being able to chop a giant rock in half (or carry said rock). In short extra "things" that a character can do that it might not be able to do, or the ability to withstand things it might not be able to withstand otherwise. A character can gain abilities in exchange for level points. Abilities are covered in the "[Abilities](abilities.md)" chapter.
+
+### Senses
+
+An entity is assumed by default to have the senses of sight and hearing. Other basic, natural senses include smell, touch and taste, but not all entities possess these senses. For example an incorporeal entity might not have touch, a an undead skeleton might not have taste. In general [mortals](conditions-types.md#mortals) have all five senses unless stated otherwise.
+
+In addition an entity might have the following senses that act like sight in many ways but detect something other than normally visible light:
+- [Heat Sense](abilities.md#heat-sense-i-v)
+- [Life Sense](abilities.md#life-sense-i-v)
+- [Truesight](abilities.md#truesight-i-v)
+- [Tremor Sense](abilities.md#tremor-sense-i-v)
+- [Blind Sight](abilities.md#blind-sight-i-vi)
+
+In addition the following ability improves specifically the sense of sight.
+- [Low Light Vision](abilities.md#low-light-vision)
+
+In addition the following ability improves hearing, sight or smell (optionally it may be used for taste or touch, but this is not considered to be of advantage in any normal game).
+- [Keen Senses](abilities.md#keen-senses-i-iii)
+
+#### Sight
+
+Sight is the ability to see. An entity with sight can detect and distinguish shapes that it can draw a straight line to that is not blocked by opaque objects (line of sight). In addition it can often distinguish considerable details such as colour (if it has colour vision) or texture. This ability can only be used if there is a considerable amount of light, eg outside in daytime, or in a well lit indoor space.
+
+Entities with sight may then make "[observe](skills.md#observe)" or "[prospect](skills.md#investigateprospect)" rolls to gain additional visual information. If light levels are low, eg. on a starlit/moonlit night, in a candle-lit hideout, these rolls are made at disadvantage. This is negated by "low light vision".
+
+In total or near total darkness, eg in an unlit cave or catacomb, or on a moonless, cloudy night (barring torchlight), an entity with ordinary sight or even "low light vision" is blind. Likewise an "invisible" entity cannot be detected by ordinary sight, but the tracks it leaves might be visually detectable with a "[track](skills.md#track)" roll, following the normal rules for the skill. 
+
+"Heat sense", "Life sense","tremor sense" and "blind sight" negate some aspects of blindness, each under specific circumstances (see the specific sections for details).
+
+"[Concealment](combat.md#cover-and-concealment)" gives entities a chance to hide from ordinary sight, but usually not a guarantee. Likewise, light concealment grants a 1/6 miss chance, while heavy concealment provides a 2/6 miss chance. Full concealment gives a 5/6 miss chance (blindness/invisibility gives full concealment).
+
+
+#### Hearing
+
+
+#### Smell
+
 
 ## Tables
 

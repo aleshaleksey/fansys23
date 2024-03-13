@@ -1,7 +1,15 @@
 - Line breaks here and there.
-
-## Races
-- Make lists alphabetical EVERYWHERE.
+- Add following abilities (using DnD terminology):
+ - Talk to beasts/other things as an ability.
+ - Relentless endurance
+ - Savage criticals
+ - Magic resistance
+ - Magic resistance
+ - Improved shield bash.
+ - Swift action dodge/disengage, etc.
+ - Fast help action.
+- Table of actions and costs.
+- Add help action.
 
 ## Character sheet
 - Connect skills and proficiencies.

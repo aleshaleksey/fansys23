@@ -262,7 +262,7 @@ A character may ride a mount into combat (and in combat). In this case, for move
 - Dismounting is a "secondary action".
 - A mount can be commanded to attack with a "communicate action", although an untrained mount is unlikely to obey.
 - A mount not trained in combat will likely bolt or freeze ("ride", threshold = 24).
-- A rider with the "charge" ability may make an attack as a secondary action even if the mount "runs" or "sprints".
+- A rider with the "charge" ability may make a single attack as a secondary action even if the mount "runs" or "sprints".
 - When an attack of opportunity is triggered it may be made against the mount or the rider.
 -  When the mount falls, the rider makes a "ride" or "acrobatics" roll (threshold=16) as a reaction to fall the first 10ft safely and land on their feet. Otherwise they suffer the usual falling rules.
 
@@ -410,3 +410,149 @@ A character can benefit from no more than one long rest per 24h. In addition a c
 A full rest is a week of downtime in a high action game and two weeks of downtime with constant long term medical care (see [Heal](skills.md#heal)) in a harsh game. During this time a character regains all SP dice, MP dice, MP, SP and HP.
 
 It is recommended that a character should have to take a full rest in order to level up, which represents the time needed to internalise and "own" the experience gained in previous adventures.
+
+___
+## Tables
+
+This table covers the typical action economy costs of various actions. It should be noted that some spells, skills and abilities can modify these costs. This is not enumerated here.
+
+### Actions by action cost (how long they take)
+
+|Action|Action Cost|
+|-|-|
+|Use knowledge to identify something|non-action|
+|"Observe" to keep track of someone trying to hide|non-action|
+|"Sense Motive"|non-action|
+|Maintain concentration|non-action|
+|Dropping an item or dropping to the ground on your turn|non-action, once per round|
+|||
+|Move your movement speed|"move"|
+|Use "run" to travel x2 movement speed|"move" + "main action"|
+|Use "sprint" to travel x4 movement speed in a straight line|"sprint action"|
+|"Acrobatics"/"Athletics"/"Fly"/"Climb" as part of movement|As the usual movement|
+|Standing up from prone|uses 1/2 of your movement|
+|Moving cautiously to avoid attacks of opportunity|halves your movement speed for the round|
+|||
+|"Creature Handling" to vocally/telepathically command a "creature"|"communicate action"|
+|Command a mount to attack|"communicate action"|
+|"Deceive" vocally|"communicate action"|
+|"Intimidate" to shake resolve|"communicate action"|
+|Speak up to ~6 words|"communicate action"|
+|||
+|Un-sheath a when making an attack|"minor interaction"|
+|Uncork a vial before using/administering th content|"minor interaction"|
+|||
+|Extend your reach by 5ft for one attack when using a "long" weapon|"secondary action"|
+|"Observe" to locate hidden target|"secondary action"|
+|"Track" to keep following tracks|"secondary action"|
+|"Deceive" somatically|"secondary action"|
+|"Creature Handling" to somatically command a "creature"|"secondary action"|
+|Drink a potion yourself|"secondary action"|
+|Make an attack with an offhand weapon, or use "Flurry"|"secondary action"|
+|Pick up or set down an item in reach not in a container|"secondary action"|
+|Use "offhand attack" to make one or more attacks when it is allowed|"secondary action"|
+|Dismount a steed|"secondary action"|
+|Quick-mount a steed|"secondary action"|
+|Make a single attack when mount "runs" or "sprints"|"secondary action"|
+|||
+|Speak more than 6 words|"main action"|
+|Mount a steed|"main action"|
+|Use "stealth" to hide|"main action"|
+|"Track" to find tracks|"main action"|
+|"Sleight of hand" to steal attended item|"main action"|
+|"Intimidate" to break resolve|"main action"|
+|"Persuade" to beg for mercy|"main action"|
+|Administer a potion to another|"main action"|
+|Retrieve or stow an item stowed in a container in reach|"main action"|
+|Make an attack or use another combat manoeuvre|"main action"|
+|Use "multi-attack" to make several attacks or use several combat manoeuvre|"main action"|
+|Dispel|"main action"|
+|||
+|"Tinker" to pick lock or disable device with -10 penalty|"full round action"|
+|"Appraise" item|"full round action"|
+|"Navigate" to orientate oneself|"full round action"|
+|"Persuade" to call for parley|"full round action"|
+|||
+|Taking some action in response to a stimulus|Usually "reaction"|
+|Making a single melee attack or using a combat manoeuvre in response to a stimulus|"reaction"|
+|Dropping to the ground voluntarily|"reaction"|
+|Dropping an item in response to a stimulus (eg a request to drop the item)|"reaction"|
+|Unprepared parry declared ad-hoc (1 parry)|"reaction"|
+|Prepared parry declared on your turn ([1 + multi-attack level] parries)|"reaction"|
+|Counter-spell|"secondary action" + "reaction"|
+|||
+|Cast a local spell|varies|
+|Use an ability|varies|
+|Activate devices|varies|
+
+### Actions by action category (what they do)
+
+|Action|Action Cost|
+|-|-|
+|||
+|Speak up to ~6 words|"communicate action"|
+|Taking some action in response to a stimulus|Usually "reaction"|
+|||
+|Use knowledge to identify something|non-action|
+|"Observe" to keep track of someone trying to hide|non-action|
+|"Sense Motive"|non-action|
+|"Creature Handling" to vocally/telepathically command a "creature"|"communicate action"|
+|"Deceive" vocally|"communicate action"|
+|"Intimidate" to shake resolve|"communicate action"|
+|"Observe" to locate hidden target|"secondary action"|
+|"Track" to keep following tracks|"secondary action"|
+|"Deceive" somatically|"secondary action"|
+|"Creature Handling" to somatically command a "creature"|"secondary action"|
+|Speak more than 6 words|"main action"|
+|Use "stealth" to hide|"main action"|
+|"Track" to find tracks|"main action"|
+|"Sleight of hand" to steal attended item|"main action"|
+|"Intimidate" to break resolve|"main action"|
+|"Persuade" to beg for mercy|"main action"|
+|"Tinker" to pick lock or disable device with -10 penalty|"full round action"|
+|"Appraise" item|"full round action"|
+|"Navigate" to orientate oneself|"full round action"|
+|"Persuade" to call for parley|"full round action"|
+|||
+|Move your movement speed|"move"|
+|Use "run" to travel x2 movement speed|"move" + "main action"|
+|Use "sprint" to travel x4 movement speed in a straight line|"sprint action"|
+|"Acrobatics"/"Athletics"/"Fly"/"Climb" as part of movement|As the usual movement|
+|Moving cautiously to avoid attacks of opportunity|halves your movement speed for the round|
+|||
+|Command a mount to attack|"communicate action"|
+|Dismount a steed|"secondary action"|
+|Quick-mount a steed|"secondary action"|
+|Make a single attack when mount "runs" or "sprints"|"secondary action"|
+|Mount a steed|"main action"|
+|||
+|Standing up from prone|uses 1/2 of your movement|
+|Dropping an item or dropping to the ground on your turn|non-action, once per round|
+|Dropping to the ground voluntarily outside of your turn|"reaction"|
+|||
+|Un-sheath a weapon when making an attack|"minor interaction"|
+|Extend your reach by 5ft for one attack when using a "long" weapon|"secondary action"|
+|Make an attack with an offhand weapon, or use "Flurry"|"secondary action"|
+|Use "offhand attack" to make one or more attacks when it is allowed|"secondary action"|
+|Make an attack or use another combat manoeuvre|"main action"|
+|Use "multi-attack" to make several attacks or use several combat manoeuvre|"main action"|
+|Making a single melee attack or using a combat manoeuvre in response to a stimulus|"reaction"|
+|Unprepared parry declared ad-hoc (1 parry)|"reaction"|
+|Prepared parry declared on your turn ([1 + multi-attack level] parries)|"reaction"|
+|||
+|Uncork a vial before using/administering th content|"minor interaction"|
+|Drink a potion yourself|"secondary action"|
+|Administer a potion to another|"main action"|
+|Dropping concentration, an item or dropping to the ground on your turn|non-action, once per round|
+|Dropping an item in response to a stimulus (eg a request to drop the item)|"reaction"|
+|Pick up or set down an item in reach not in a container|"secondary action"|
+|Retrieve or stow an item stowed in a container in reach|"main action"|
+|||
+|Maintain concentration|non-action|
+|Dropping concentration, an item or dropping to the ground on your turn|non-action, once per round|
+|Drop concentration in response to a stimulus outside of your turn|reaction|
+|Dispel|"main action"|
+|Counter-spell|"secondary action" + "reaction"|
+|Use an ability|varies|
+|Activate devices|varies|
+|Cast a local spell|varies|

@@ -850,7 +850,7 @@ Unlike intimidate this does not act as a charm effect. Like intimidate it should
 ___
 #### Perform
 
-Put on a show or act, using word or play, song or dance, instrumentals or baffoonery or any number of other means. This can either be done to earn a living, distract attention, carouse or gain information. A performance typically lasts at least a minute.
+Put on a show or act, using word or play, song or dance, instrumentals or buffoonery or any number of other means. This can either be done to earn a living, distract attention, carouse or gain information. A performance typically lasts at least a minute.
 
 - **Carouse**: Can be used to shift relationships one step in either direction between "hostile" and "friendly" for yourself or a different entity. (See "Persuade" rules above.)
 - **Distract**: Make a perform roll vs a threshold of the target's Wis save. On a success the target has disadvantage on "observe" and "sense motive" checks while your performance continues. If the target gets snake eyes, it is "charmed" for the duration of your performance.

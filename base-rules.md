@@ -461,7 +461,7 @@ These are the really cool abilities that a character has, like throwing fire bal
 
 An entity is assumed by default to have the senses of sight and hearing. Other basic, natural senses include smell, touch and taste, but not all entities possess these senses. For example an incorporeal entity might not have touch, a an undead skeleton might not have taste. In general [mortals](conditions-types.md#mortals) have all five senses unless stated otherwise.
 
-In addition an entity might have the following senses that act like sight in many ways but detect something other than normally visible light:
+In addition an entity might have the following "special" senses that act like sight in many ways but detect something other than normally visible light:
 - [Heat Sense](abilities.md#heat-sense-i-v)
 - [Life Sense](abilities.md#life-sense-i-v)
 - [Truesight](abilities.md#truesight-i-v)
@@ -478,7 +478,7 @@ In addition the following ability improves hearing, sight or smell (optionally i
 
 Sight is the ability to see. An entity with sight can detect and distinguish shapes that it can draw a straight line to that is not blocked by opaque objects (line of sight). In addition it can often distinguish considerable details such as colour (if it has colour vision) or texture. This ability can only be used if there is a considerable amount of light, eg outside in daytime, or in a well lit indoor space.
 
-Entities with sight may then make "[observe](skills.md#observe)" or "[prospect](skills.md#investigateprospect)" rolls to gain additional visual information. If light levels are low, eg. on a starlit/moonlit night, in a candle-lit hideout, these rolls are made at disadvantage. This is negated by "low light vision".
+Entities with sight may then make an "[observe](skills.md#observe)" roll to gain additional visual information. If light levels are low, eg. on a starlit/moonlit night, in a candle-lit hideout, these rolls are made at disadvantage. This is negated by "low light vision". In addition "[Prospect](skills.md#investigateprospect)", "[Navigate](skills.md#navigate)" and "[Track](skills.md#track)" rolls are made at disadvantage in low light conditions or darkness unless the entity making them has a special sense which is applicable in that situation. 
 
 In total or near total darkness, eg in an unlit cave or catacomb, or on a moonless, cloudy night (barring torchlight), an entity with ordinary sight or even "low light vision" is blind. Likewise an "invisible" entity cannot be detected by ordinary sight, but the tracks it leaves might be visually detectable with a "[track](skills.md#track)" roll, following the normal rules for the skill. 
 
@@ -489,9 +489,17 @@ In total or near total darkness, eg in an unlit cave or catacomb, or on a moonle
 
 #### Hearing
 
+Hearing is the ability to hear. An entity with hearing can detect certain vibrations (sound) and interpret them to gain information about the approximate of things and entities and gain some information about their properties. Hearing does not require a straight, unimpeded line between the entity and the source of the sound, however it does require the source to be located in contiguous gaseous, liquid or solid medium. Sound does not travel in a vacuum. 
+
+Hearing can be used, with an "[observe](skills#observe)" roll, to locate the square where the source of the sound is located if it is within 100ft, otherwise, the direction can be determined, but the distance can only be determined to "less than 200ft", "less than 300ft", etc. 
+
+Terrestrial and flying entities have disadvantage on hearing based "[Observe](skills.md#observe)" and "[Track](skills.md#track)" rolls in water. Aquatic entities have disadvantage on these rolls out of water. Likewise, an intervening solid barrier between the entity and source of sound, causes these rolls to be made at disadvantage.
 
 #### Smell
 
+Smell is the ability to detect scents. An entity with scent can detect and identify material emanations, such as aromatic oils, sweat, and the like. Scents are generally blocked if there is no path through air, space or water for the emanations to travel between their source and detecting entity.
+
+Smell cannot be used to detect location of a target, but can be used to discern the presence/absence of otherwise concealed targets, to identify them and for tracking, investigating and prospecting.
 
 ## Tables
 

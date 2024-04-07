@@ -27,3 +27,6 @@
 - Added [Base] to HiT. This should make fights a little bit more balanced, but still keep it in favour of attacks.
 - Added truesight and clarified vision related abilities for templates.
 - Clarified how sight and other sense should work.
+- Table of actions and costs.
+- Add improvised weapon rules.
+- Add equipment weight scaling and dice scaling (for weapon sizes.)

@@ -568,17 +568,28 @@ There are 8 size categories in the game [diminutive, tiny, small, medium, large,
 **NB**: Size modifier to evasion also applies to certain Dex based skills such as "stealth".
 **NB2**: A Reach of 0ft means that the entity must occupy the same 5ft square/cube/hex as the target of its melee attack.
 
-|Size|Space|Evasion|Armour|Dex Save|Str Save|Carrying capacity|Reach|
-|-|-|-|-|-|-|-|-|
-|Diminutive|5/8|+3|-3|+3|-3|x1/8|-|
-|Tiny|5/4|+2|-2|+2|-2|x1/4|-|
-|Small|5/2|+1|-1|+1|-1|x1/2|5ft|
-|Medium|5|0|0|0|0|x1|5ft|
-|Large|10|-1|+1|-1|+1|x2|5ft(long)|
-|Huge|20|-2|+2|-2|+2|x4|10ft|
-|Gargantuan|40|-3|+3|-3|+3|x8|15ft|
-|Colossal|80|-4|+4|-4|+4|x16|20ft|
+|Size|Space|Evasion|Armour|Dex Save|Str Save|Carrying capacity|Equipment Weight|Reach|
+|-|-|-|-|-|-|-|-|-|
+|Diminutive|5/8|+3|-3|+3|-3|x1/8|x1/16|-|
+|Tiny|5/4|+2|-2|+2|-2|x1/4|x1/8|-|
+|Small|5/2|+1|-1|+1|-1|x1/2|x1/4|5ft|
+|Medium|5|0|0|0|0|x1|1|5ft|
+|Large|10|-1|+1|-1|+1|x4|x3|5ft(long)|
+|Huge|20|-2|+2|-2|+2|x4|x16|10ft|
+|Gargantuan|40|-3|+3|-3|+3|x8|x64|15ft|
+|Colossal|80|-4|+4|-4|+4|x16|x256|20ft|
 
+#### Dice size rules
+This applies mostly to weapon attacks, but may also apply to dose based damage at the group's discretion.
+|Dice size|First size down|Next size up/down|Note|
+|-|-|-|-|
+|1|1|1d3|1 is minimum, increases to 1d3 progression|
+|1d3|1d2|1d6|Increases to 1d6 progression|
+|1d4|1d2|+/-1d4 /size||
+|1d6|1d3|+/-1d6 /size||
+|1d8|1d4|+/-1d8 /size||
+|1d10|1d6|+/-1d10 /size||
+|1d12|1d8|+/-1d12 /size||
 
 ## Version
 

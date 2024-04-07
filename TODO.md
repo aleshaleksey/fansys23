@@ -8,7 +8,6 @@
  - Improved shield bash.
  - Swift action dodge/disengage, etc.
  - Fast help action.
-- Table of actions and costs.
 - Add help action.
 
 ## Character sheet

@@ -9,6 +9,7 @@ Weapons and armour an essential part of any combat heavy table top RPG system. W
     - [High ground and weapon ranges](#high-ground-and-weapon-ranges)
     - [Weapon properties](#weapon-properties)
     - [Weapon proficiencies](#weapon-proficiencies)
+    - [Improvised weapons](#improvised-weapons)
     - [Weapon table](#weapon-table)
     - [Unarmed Combat](#unarmed-combat)
     - [Light blades](#light-blades)
@@ -35,7 +36,7 @@ Weapons and armour an essential part of any combat heavy table top RPG system. W
     - [Shields](#shields)
 
 ## Weapons
-Weapons are tools that increase the lethality of martial combatants. For the sake of most abilities other than "sunder", unarmed techniques count as weapons. Each type of weapon requires its own proficiency. In all, there 5 categories and 18 types. The following categories and types of weapons exist:
+Weapons are tools that increase the lethality of martial combatants. For the sake of most abilities other than "sunder", unarmed techniques count as weapons. Each type of weapon requires its own proficiency. Weight and size of weapons scales as with all equipment sizes (see ["Base Rules: Size Rules"](base-rules.md#size-rules)). In all, there 5 categories and 18 types. The following categories and types of weapons exist:
 
 - **Unarmed combat**
   - Strikes
@@ -109,10 +110,20 @@ Any entity may wield a weapon it is physically capably of wielding. If it is not
 
 Proficiency with a weapon type eliminates both the penalty and the damage to self on crit fails. In addition it allows the use of any of a weapon's special properties.
 
+### Improvised Weapons
+
+Items that are not designed to be used as weapons can also be used for this purpose, although they are generally les effective. A character using an improvised weapon makes attack rolls as if it is not proficient (-5 penalty). The size of an improvised weapon affects how much damage it does, and its form affects the damage. For example a character wielding a vase might do bludgeoning damage, while one wielding a fork might do [a small amount of] piercing damage.
+|Category|Guideline Weight|Damage|
+|-|-|-|
+|Light|1lb|1|
+|Medium|2lb|1d4|
+|Two Handed|3-6lb|1d6|
+|Heavy|6-20lb|1d8|
+
 ___
 ### Weapon table
 
-This table gives a quick overview of weapons. For details on each weapon, see the weapon description.
+This table gives a quick overview of weapons. For details on each weapon, see the weapon description. The damage dice of weapons follow the general ["Dice size rules"](base-rules.md#dice-size-rules).
 
 **NB**: Since specific properties are an important part of how a weapon is used, it is advisable to read over the description of weapons the reader is thinking of using for their character. Sometimes a weapon listed in the table represents several functionally similar historical weapons. Therefore if you do find your beloved katana, please check the entry for "falchion".
 
@@ -417,6 +428,8 @@ Weapons with a closed or open barrel weapons that use the energy in explosive su
 **Gun-blade**: This is a pistol with a short blade, allowing to make melee attacks with the same weapon. Unfortunately this causes the weapon to be incredibly unbalanced. As such all attacks with non-magical gun-blades are made at disadvantage.
 
 ## Armour
+
+ Armour covers worn equipment that offers passive protection against targeted attacks when correctly equipped. Usually this is because armour dissipates the force of the attack, making it less lethal, or completely negating it. Shields offer protection in a similar manner, although they are generally strapped to a character's appendage, meaning that active use of the appendage is required to make use of a shield.  Weight and size of shields scales as with all equipment sizes (see ["Base Rules: Size Rules"](base-rules.md#size-rules)).
 
 ### Armour and its relationship with [HiT]
 

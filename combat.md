@@ -174,7 +174,7 @@ For more information on movement, see "[Movement and Exploration](movement-explo
 ---
 ## Surprise and Ambush
 
-As mentioned above, any combatants who are not aware of the other side, or that the other side is about to attack, starts the first round "surprised". This can happen if the enemy is either if the enemy is hidden, or the intention to attack is hidden.
+As mentioned above, any combatants who are not aware of the other side, or that the other side is about to attack, starts the first round ["surprised"](conditions-types.md#conditions-in-detail). This can happen if the enemy is either hidden, or the intention to attack is hidden.
 
 ### Intentionally Hidden Enemies
 

@@ -134,6 +134,42 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 
 ### Combat Abilities (Natural)
 ___
+#### Assassinate I-V
+
+**Description**: A character can take advantage of moments of weakness to make a strike that bypasses a target's defences. Damage from this deadly ability is dealt directly to the target's HP.
+
+**Action:** Declare "assassinate" and make the attack.
+
+**Offence**:
+- Exertion: Yes.
+- Range: Weapon range, but no more than 30ft + 5ft/[assassinate level]
+- Duration: Instantaneous.
+- Action: "main action".
+- Target: 1.
+- Attack: Weapon attack.
+- Damage: Weapon damage (directly vs HP).
+- Dice: None.
+
+**Prerequisites**:
+- Precision attack III.
+- Character level of at least [Assassinate level] x 4
+
+**Special**:
+- You can only make one attack as your main action when using "assassinate".
+- The target must affected by at least one of the conditions that your assassinate level qualifies you for. For example at "Assassinate I", it must be "immobilised", at "Assassinate 3" it must be "immobilised", or "surprised" or "stunned".
+- Assassinate automatically fails if the target has heavy or total concealment, or if it is "invisible" to you.
+- Since it uses a "main action" it cannot be used as a "reaction".
+- You cannot use "assassinate" when in conjunction wit "Berserk" and similar abilities.
+
+|Assassinate level|Exploited Condition|Minimum Level|
+|-|-|-|
+|I|Immobilised|4 (5)|
+|II|+Surprised (or unaware)|8|
+|III|+Stunned|12|
+|IV|+Incapacitated|16|
+|V|+Restrained/Blinded|20|
+
+
 #### Berserk I-V
 
 **Description**: You enter a trance of violence, enhancing combat prowess at the cost of stressing the physical form past its limits.

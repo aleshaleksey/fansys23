@@ -30,3 +30,5 @@
 - Table of actions and costs.
 - Add improvised weapon rules.
 - Add equipment weight scaling and dice scaling (for weapon sizes.)
+- Change sneak attack to precision attack. Add assassinate.
+- Fix some wording for "surprise and ambush."

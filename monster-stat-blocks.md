@@ -456,7 +456,7 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Earth Magic I (lvl 1)|||"[Down](spell-list.md#down)", "[Least Spike](spell-list.md#least-spike)", "[Gnome's Mercy](spell-list.md#gnomes-mercy)"|
-|Sneak Attack I (lvl 2)|||Gnomes Add 1d8 to surprise attacks if they attack with a weapon|
+|Precision Attack I (lvl 2)|||Gnomes Add 1d8 to surprise attacks if they attack with a weapon|
 |Earth Magic II (lvl 3)|||"[Least Ward](spell-list.md#least-geomancy)", "[Least Geomancy](spell-list.md#least-geomancy)", "[Warded Ground](spell-list.md#warded-ground)"|
 |Foresight (lvl 4)|||Greater gnomes add [Wis] to HiT|
 |Earth Magic III (lvl 5)|||"[Shape Earth](spell-list.md#shape-earth)", "[Earth Ward](spell-list.md#earth-ward)"|

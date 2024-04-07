@@ -57,7 +57,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Greater Manoeuvre (I-V)](#greater-manoeuvre-i-v)
 - [Guardian's Counterstrike](#guardian's-counterstrike)
 - [Parry](#parry)
-- [Sneak Attack (I-X)](#sneak-attack-i-x)
+- [Precision Attack (I-X)](#precision-attack-i-x)
 - [Steel Wind Strike](#steel-wind-strike)
 
 ### Natural (General)
@@ -146,7 +146,7 @@ ___
 - Berserk does not have an SP dice cost. However, when the berserker trance is over, you lose a number of HP equal to the level of the Berserk ability (so if you have "Berserk I" you lose 1HP).
 - While "berserk", a character may not use Int based skills and has disadvantage on all Wis and Cha based skills while Berserk. It has disadvantage on "Tinker" rolls.
 - While "berserk", a character cannot cast spells with a kinetic component and must roll a 1d6 when trying to cast spells with an incantation, losing the spell on a 3 or lower.
-- While "berserk", a character may not use abilities such as "sneak attack".
+- While "berserk", a character may not use abilities such as "precision attack".
 
 **Berserk Table**:
 
@@ -303,11 +303,11 @@ ___
 **Special**: You must be aware of the attacker and the attack being made in order to use "parry".
 
 ___
-#### Sneak attack I-X
+#### Precision attack I-X
 
 **Description**: A precision attack that deals extra damage to a target which is distracted or unaware.
 
-**Action**: Declare "sneak attack" and make the attack.
+**Action**: Declare "precision attack" and make the attack.
 
 **Offence**:
 - Exertion: Yes.
@@ -316,17 +316,17 @@ ___
 - Action: "main action".
 - Target: 1.
 - Attack: Weapon attack.
-- Damage: Weapon damage + [Sneak attack level]d8
+- Damage: Weapon damage + [Precision attack level]d8
 - Dice: None.
 
 **Special**:
-- Sneak attack can only be made with a Dex based weapon on a Dex based attack roll.
-- You can only make one weapon attack when using "sneak attack".
+- Precision attack can only be made with a Dex based weapon on a Dex based attack roll.
+- You can only make one weapon attack when using "precision attack".
 - The target must be unaware of you, "surprised", or be in melee range of another entity hostile to it. OR you must have advantage on your attack.
-- Sneak attack automatically fails if the target has heavy concealment or total concealment, or if it is "invisible" to you. (It is impossible to make a precision attack if you cannot carefully observe your target).
+- Precision attack automatically fails if the target has heavy concealment or total concealment, or if it is "invisible" to you. (It is impossible to make a precision attack if you cannot carefully observe your target).
 - Since it uses a "main action" it cannot be used as a "reaction".
 
-**Prerequisite table**: Sneak attack has 10 levels. The maximum level of sneak attack a character may have is [Level / 2]
+**Prerequisite table**: Precision attack has 10 levels. The maximum level of precision attack a character may have is [Level / 2]
 
 ___
 #### Steel Wind Strike

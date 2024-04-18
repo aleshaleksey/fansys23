@@ -220,7 +220,7 @@ Likewise entities that are separated by at least two categories (eg Diminutive a
 
 An attack of opportunity is when a combatant exploits an opening left by another, and carries out a "basic martial manoeuvre" against its target.
 
-Any square within the reach of a hostile entity's melee attacks is considered threatened (this usually includes squares that the hostile entity occupies). Targets moving out of a threatened square provoke an attack of opportunity. This may be a single attack or another basic combat manoeuvre. If a target is moving out of one threatened square into another threatened square may avoid AoOs by declaring "careful movement" and halving their movement speed for the rest of the turn.
+Any square within the reach of a hostile entity's melee attacks is considered threatened (this usually includes squares that the hostile entity occupies). Targets moving out of a threatened square provoke an attack of opportunity. This may be a single attack or another basic combat manoeuvre. A target moving out of one threatened square into another threatened square may avoid AoOs by declaring "careful movement" and halving their movement speed for the rest of the turn.
 
 ### Reactions and attacks of opportunity
 
@@ -328,6 +328,14 @@ The "Grapple", "Restrain", "Shove", "Throw" and "Trip" manoeuvres can only be us
   - Requires attack roll.
   - Description: Declare a target to intercept and roll attack. All attacks by that target that are below that threshold will target you instead. Alternatively pick a target to defend and roll attack. All attacks that are below that threshold against that target will target you instead.
   - Special: You can attempt to intercept a single attack as a reaction. 
+- **Sunder**
+  - Effect: Target an accessible object on the target entity instead of the entity itself with a weapon attack that deals damage.
+    - On success, the item takes 1 point of damage for every dice of damage that the weapon normally deals, if the materials are of "equal" quality.
+    - If the weapon used in the attack is made of "higher" materials, the amount of damage is 2 per damage dice of the attacking weapon.
+    - If the weapon used in the attack is made of a "lower" material, the total amount of damage is reduced by 1, and conversely the weapon making the attack takes 1 point of damage.
+  - Requires attack roll vs target's NAT+[Str or Dex].
+  - Penalty if not proficient with **sunder**.
+  - Provokes a penalty and attack of Opportunity if the foe is holding a weapon you are not proficient with AND you are not proficient with **sunder**.
 
 A creature that is "grappled" or "restrained" can make an opposing roll in place of its attack action to try to break free or move its assailant.
 
@@ -395,7 +403,7 @@ The recommended duration for a short rest is 1h in a high-action game and 4h in 
 - [Base x CHA + Total MP dice count] MP.
 - [Base x CON + Total SP dice count] SP.
 
-A character can benefit from number of short rests per long rest no higher than its [Base]. So a level 4 character can benefit from only 1 short rest per long rest, while a level 16 character can benefit from 4 short rests per long rest. This represents a higher level character having a deeper pool of reserves. 
+A character can benefit from number of short rests per long rest no higher than its [Base]. So a level 4 character can benefit from only 1 short rest per long rest, while a level 16 character can benefit from 4 short rests per long rest. This represents a higher level character having a deeper well of reserves to draw from. 
 
 ### Long Rest
 

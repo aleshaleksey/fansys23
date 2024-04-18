@@ -59,6 +59,11 @@ ___
 Crafting costs are a sum of the labour cost and the material costs. Labour costs depend on the level of the worker, and the number of man hours that they need to work to complete the task.
 
 ___
+### Materials
+
+Materials come in a hierarchy of hardness/quality. Materials higher on the scale have superior qualities, are harder to work with, generally rarer, give bonuses to attack/damage/armour/durability, etc. Materials lower on the scale are usually cheaper and easier to work with, but also make for less effective tools, weapons and armour.
+
+___
 ## The lists
 
 The lists a monetary cost, a labour cost and an availability table. The availability should be taken with a large pinch of salt and is meant as a guide for settings. If availability is "no" the weapon is not generally available or the technology or technique to make it does not exist. "Rare" means it was available at some point of the age, but were not commonly used.

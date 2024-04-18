@@ -63,7 +63,6 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 ### Natural (General)
 
 - [Flash Step](#flash-step)
-- [Rider: Quick mount](#quick-mount)
 
 ### Supernatural (Combat)
 
@@ -121,6 +120,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Keen Senses I-III](#keen-senses-i-iii)
 - [Life Sense I-VI](#life-sense-i-v)
 - [Low-light Vision](#low-light-vision)
+- [Rider: Quick mount](#quick-mount)
 - [Silent Step (I-III)](#silent-step-i-iii)
 - [Sniper](#sniper)
 - [Speed](#speed)
@@ -131,6 +131,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Tracker: Swift](#tracker-swift)
 - [Terrain Mastery](#terrain-mastery)
 - [Tremor Sense I-VI](#tremor-sense-i-v)
+- [Xenophonia](#xenophonia-i-xiii)
 
 ### Combat Abilities (Natural)
 ___
@@ -409,13 +410,6 @@ ___
 - This ability must be taken separately for each movement modality.
 - Flash step cannot be used with "dig" speed, "swim" speed or "cosmic" speed.
 - This ability cannot be used when wearing heavy armour.
-
-___
-#### Quick Mount
-
-**Description**: You mount as a "secondary action" and quick-mount as a "non-action". "Dismount" becomes a "minor interaction". Furthermore you can always "take care" when mounting (but not quick-mounting). The thresholds are not affected.
-
-**Prerequisite**: 2 ranks in ride.
 
 ___
 ### Combat Abilities (Supernatural)
@@ -1065,6 +1059,13 @@ ___
 **Prerequisite**: At least one rank or "base" in "stealth".
 
 ___
+#### Quick Mount
+
+**Description**: You mount as a "secondary action" and quick-mount as a "non-action". "Dismount" becomes a "minor interaction". Furthermore you can always "take care" when mounting (but not quick-mounting). The thresholds are not affected.
+
+**Prerequisite**: 2 ranks in ride.
+
+___
 #### Silent Step I-III
 
 **Type**: (Natural, Class B)
@@ -1215,8 +1216,6 @@ ___
 |VI|120ft|42|Life Sense V|
 
 ___
-
-___
 #### Truesight I-V
 
 **Type**: (Supernatural, Class S)
@@ -1237,6 +1236,7 @@ ___
 |V|150ft|36|Life Sense IV|
 |VI|180ft|42|Life Sense V|
 
+___
 #### Tremor Sense I-V
 
 **Type**: (Natural/Supernatural, Class A)
@@ -1292,3 +1292,33 @@ ___
 |III|24|4|Keen Senses II|
 
 **Special**: "Keen senses" is a "supernatural" boon when taken with level points, but can be natural as part of a template or monster block.
+
+___
+#### Xenophonia I-XIII
+
+**Type**: (Natural/Supernatural, Class A-C)
+
+**Description**: Also known as "Speak to X". You are able to communicate vocally to entities of a given subtype *other than your own* in a way that the signals will be understood. Likewise you can understand their communication, vocal or otherwise, if you have the means to detect it.
+
+**Prerequisite:** Xenophonia of various types can be taken in any order, but prerequisites must be obeyed. For example to take xenophonia(undead), a character must be at least level 6, or to take xenophonia(animals) a character must be level 2. On the other hand to take Xenophonia(Fey) a character must be at least level 6 and have at least one other xenophonia, though it can be *any* type, so for example a level 6 character with xenophonia(animal), or a level 7 character with xenophonia(elemental) can both take xenophonia(fey). 
+
+|Entity sub-type|Level Prerequisite|Other|Nature of Ability
+|-|-|-|-|
+|Animal|4|-|Natural/Supernatural (chose)|
+|Plant|4|Xenophonia I|Natural/Supernatural (chose)|
+|Undead|6|-|Supernatural|
+|Monster|6|Xenophonia I|Supernatural|
+|Humanoid|6|Xenophonia I|Natural/Supernatural (chose)|
+|Robot|6|-|Natural/Supernatural (chose)|
+|Fey|6|Xenophonia I|Supernatural|
+|Elemental|6|-|Supernatural|
+|Golem|8|Xenophonia I|Supernatural|
+|Spirit|8|-|Supernatural|
+|Dragon|10|Xenophonia II|Supernatural|
+|Angel|12|Xenophonia III|Supernatural|
+|Fiend|12|Xenophonia III|Supernatural|
+
+**Special**
+- Even if you can communicate through xenophonia with beings of other types using signals that they understand, the content of your communication may still be incomprehensible to them due to alien minds, incompatible conceptual frameworks or limited intellectual capacity. For example, the concept of death may be alien to certain spirits, while a plant may not have the ability to count, while a hedgehog might not know what a steam train is.
+- Characters with "xenophonia" can never use the ability to understand "glitches" and "divines".
+- A character may only take one type of "xenophonia" per level.

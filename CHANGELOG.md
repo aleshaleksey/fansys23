@@ -32,3 +32,6 @@
 - Add equipment weight scaling and dice scaling (for weapon sizes.)
 - Change sneak attack to precision attack. Add assassinate.
 - Fix some wording for "surprise and ambush."
+- Add xenophonia (speak with x) ability.
+- Add sunder rules.
+- Material ranking.

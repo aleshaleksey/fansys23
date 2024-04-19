@@ -61,7 +61,61 @@ Crafting costs are a sum of the labour cost and the material costs. Labour costs
 ___
 ### Materials
 
-Materials come in a hierarchy of hardness/quality. Materials higher on the scale have superior qualities, are harder to work with, generally rarer, give bonuses to attack/damage/armour/durability, etc. Materials lower on the scale are usually cheaper and easier to work with, but also make for less effective tools, weapons and armour.
+Materials come in a hierarchy of hardness/quality. Materials higher on the scale have superior qualities, are harder to work with, generally rarer, give bonuses to attack/damage/armour/durability, etc. Materials lower on the scale are usually cheaper and easier to work with, but also make for less effective tools, weapons and armour. 
+
+#### Material Ranks
+
+Materials have an absolute rank. Absolute rank is important for the "sunder" manoeuvre rules. The highest rank is 0. If the weapon used when performing the "sunder" manoeuvre is made of a "lower ranking material, the total amount of damage is reduced by 1, and the weapon making the attack takes 1 point of damage. If the weapon used in the attack is made of "higher" materials, the amount of damage is 2 per damage dice of the attacking weapon instead of 1.
+
+#### Material types
+
+As a rule, each item of equipment can be made of materials of the same kind, but of different grades and maintain effectiveness. For example, metal swords (tungsten/adamantium, titanium/mithral, steel, iron, bronze) will all be effective to an extent, but a wooden sword is likely to be as effective as a glorified club. The types of material are classified as: cloth, hide, bone, ivory, wood, resin, ceramic, stone and metal. For simplicity, the following categories can be sensibly unified.
+- **Soft**: Cloth, hide.
+- **Medium**: Wood, Resin, Bone.
+- **Hard**: Ivory, ceramic, stone.
+- **Metallic**: Metals.
+
+#### Material level
+
+Material level is classified from one I to IV. Level I materials make equipment that performs and costs as per base statics. Higher level material give a higher durability, give a higher attack/damage/armour/shield bonus, but also take longer to craft and are generally more expensive or simply unobtainable in some situations. Some higher grade materials can have other benefits or even disadvantage.
+
+Availability, crafting time and price of higher level materials may be lower in renaissance and later settings.
+
+|Level|Attack bonus|Damage bonus|Armour bonus|Shield bonus|Typical cost|Crafting time|
+|-|-|-|-|-|-|-|
+|1|0|0|0|0|x1|x1|
+|2|+1|+1|+1|+1|x2|x2|
+|3|+2|+1|+2|+1|x9|x4|
+|4|+3|+2|+3|+2|x64|x12|
+|5|+4|+2|+4|+2|x625|x108|
+
+#### Material table
+
+This table contains a basic list of materials. This can, and should, be expanded with setting-specific materials.
+
+|Absolute rank|Material|Level|Type|Notes|
+|-|-|-|-|-|
+|0|Divine Source|5|Any|Endows divine alignment, indestructible by lower rank materials except "profane"|
+|1|Adamantium|4|Metal| Weight x2 of base weight, indestructible by lower rank materials|
+|2|Dragon Source|4|Hide/Bone/Ivory|gives advantage to intimidate animals and monsters|
+|3|True Gems|4|Hard: Stone|Indestructable by level 2 and lower materials, cost x128 base cost|
+|4|Semi-precious Gems|3|Hard: Stone||
+|5|Mithral|3|Metal|weight x1/2 of base weight, does not corrode|
+|6|Fiend Source|4|Any|Endows profane alignment|
+|7|Steel|3|Metal||
+|8|Ironwood|3|Medium: Wood|Not flammable|
+|9|Superior Ceramic|2|Hard: Ceramic||
+|10|Iron|2|Metal||
+|11|Animal Ivory|1|Hard: Ivory||
+|12|Bronze|1|Metal||
+|13|Hardwood|2|Medium: Wood||
+|14|Glass/Ordinary Ceramic|1|Hard: Ceramic||
+|15|Animal Bone|1|Medium: Bone||
+|16|Softwood|1|Medium: Wood||
+|17|Animal Silk|3|Soft: Cloth||
+|18|Animal Hide|1|Soft: Hide||
+|19|Cotton|2|Soft: Cloth||
+|20|Wool|1|Soft: Cloth||
 
 ___
 ## The lists

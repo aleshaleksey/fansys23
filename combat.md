@@ -136,7 +136,7 @@ The actions an entity may take might also be restricted by its conditions and ge
   - Picking up, or setting down an item in reach that is not in a container.
 
 
-- "**Minor interaction**": If an "action" involves using an object, you may carry out an activity associated with that item that involves the part of your form that is interacting it. The creature can also drop ONE item IN ADDITION to this. This need not be the same item. Otherwise these include:
+- "**Minor interaction**": The minor interaction exists to allow characters to perform an action which is usually time consuming and substantial on its own, but will only add a small overhead as part of a different action. For example, unsheathing a sword is generally a secondary action in and of itself, but it is a minor interaction as part of a strike. If an "action" involves using an object, you may carry out an activity associated with that item that involves the part of your form that is interacting it. The creature can also drop ONE item IN ADDITION to this. This need not be the same item. Otherwise minor interactions include:
   - Drawing/picking up a sword you are about to attack with.
   - Uncorking a vial before administering the content.
 

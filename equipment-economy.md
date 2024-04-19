@@ -77,7 +77,7 @@ As a rule, each item of equipment can be made of materials of the same kind, but
 
 #### Material level
 
-Material level is classified from one I to IV. Level I materials make equipment that performs and costs as per base statics. Higher level material give a higher durability, give a higher attack/damage/armour/shield bonus, but also take longer to craft and are generally more expensive or simply unobtainable in some situations. Some higher grade materials can have other benefits or even disadvantage.
+Material level is classified from one I to V. Level I materials make equipment that performs and costs as per base statics. Higher level material give a higher durability, give a higher attack/damage/armour/shield bonus, but also take longer to craft and are generally more expensive or simply unobtainable in some situations. Some higher grade materials can have other benefits or even disadvantage.
 
 Availability, crafting time and price of higher level materials may be lower in renaissance and later settings.
 

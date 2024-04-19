@@ -220,7 +220,11 @@ Likewise entities that are separated by at least two categories (eg Diminutive a
 
 An attack of opportunity is when a combatant exploits an opening left by another, and carries out a "basic martial manoeuvre" against its target.
 
-Any square within the reach of a hostile entity's melee attacks is considered threatened (this usually includes squares that the hostile entity occupies). Targets moving out of a threatened square provoke an attack of opportunity. This may be a single attack or another basic combat manoeuvre. A target moving out of one threatened square into another threatened square may avoid AoOs by declaring "careful movement" and halving their movement speed for the rest of the turn.
+Any square within the reach of a hostile entity's melee attacks is considered threatened (this usually includes squares that the hostile entity occupies). 
+
+#### Provoking and Avoiding attacks of opportunity
+
+Targets moving out of a threatened square provoke an attack of opportunity. This may be a single attack or another basic combat manoeuvre. A target moving out of one threatened square into another threatened square may avoid AoOs by declaring "careful movement" and halving their movement speed for the rest of the turn. Likewise a combatant may use their action and roll ["acrobatic"](skills.md#acrobatics) to try and avoid attacks of opportunity when moving through (and out of) a contiguous set of threatened squares.
 
 ### Reactions and attacks of opportunity
 

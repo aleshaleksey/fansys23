@@ -8,7 +8,6 @@
  - Swift action dodge/disengage, etc.
  - Fast help action.
 - Add help action.
-- Add material rankings.
 
 ## Character sheet
 - Connect skills and proficiencies.

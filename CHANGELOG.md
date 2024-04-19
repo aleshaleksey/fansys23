@@ -34,4 +34,4 @@
 - Fix some wording for "surprise and ambush."
 - Add xenophonia (speak with x) ability.
 - Add sunder rules.
-- Material ranking.
+- Material ranking and rules.

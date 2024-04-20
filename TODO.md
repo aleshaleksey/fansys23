@@ -5,7 +5,6 @@
  - Magic resistance
  - Magic resistance
  - Improved shield bash.
- - Swift action dodge/disengage, etc.
 
 ## Character sheet
 - Connect skills and proficiencies.

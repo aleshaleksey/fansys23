@@ -35,3 +35,4 @@
 - Add xenophonia (speak with x) ability.
 - Add sunder rules.
 - Material ranking and rules.
+- Refine AoO and acrobatics rules a little bit.

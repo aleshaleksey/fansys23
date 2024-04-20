@@ -224,7 +224,11 @@ Any square within the reach of a hostile entity's melee attacks is considered th
 
 #### Provoking and Avoiding attacks of opportunity
 
-Targets moving out of a threatened square provoke an attack of opportunity. This may be a single attack or another basic combat manoeuvre. A target moving out of one threatened square into another threatened square may avoid AoOs by declaring "careful movement" and halving their movement speed for the rest of the turn. Likewise a combatant may use their action and roll ["acrobatic"](skills.md#acrobatics) to try and avoid attacks of opportunity when moving through (and out of) a contiguous set of threatened squares.
+Targets moving out of a threatened square provoke an attack of opportunity. This may be a single attack or another basic combat manoeuvre.
+
+A target moving out of one threatened square into another threatened square may avoid AoOs by declaring "careful movement" and halving their movement speed for the rest of the turn. Likewise a combatant may make a roll ["acrobatic"](skills.md#acrobatics) to try and avoid attacks of opportunity when moving through a contiguous set of threatened squares (threshold = [attack bonus of hostile] + 13), on a failure by 5 or more, the one making the acrobatics roll falls prone.
+
+A character can avoid attacks of opportunity when moving out of a threatened squares (into a square that is not threatened) by using their "main action" to withdraw. As in the previous case, an "acrobatics" roll can be used to ameliorate the situation. In this case a successful roll vs [attack bonus of hostile] + 13 allows one to withdraw as a bonus action, as usual, on a failure by 5 or more, the one making the acrobatics roll falls prone.
 
 ### Reactions and attacks of opportunity
 

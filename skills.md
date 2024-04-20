@@ -327,7 +327,9 @@ Acrobatics is used for complex dynamic movement and manoeuvres. Unless otherwise
 
 - Substitute for climb if the climb distance is less than the entity's base movement.
   - On a fail the entity automatically falls the full distance.
-- Avoid Attacks of Opportunity when moving through a set of threatened squares.
+- Avoid Attacks of Opportunity when moving *through* a set of threatened squares.
+  - Threshold: [Attack Bonus of hostile] + 13.
+- Avoid Attacks of Opportunity when moving *out of* a set of threatened squares as a bonus action instead of a main action.
   - Threshold: [Attack Bonus of hostile] + 13.
 - Ignore the damage for the first 10ft of a fall.
   - Deliberate fall: Threshold 12.

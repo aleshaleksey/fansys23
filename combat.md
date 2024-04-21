@@ -228,11 +228,15 @@ Targets moving out of a threatened square provoke an attack of opportunity. This
 
 A target moving out of one threatened square into another threatened square may avoid AoOs by declaring "careful movement" and halving their movement speed for the rest of the turn. Likewise a combatant may make a roll ["acrobatic"](skills.md#acrobatics) to try and avoid attacks of opportunity when moving through a contiguous set of threatened squares (threshold = [attack bonus of hostile] + 13), on a failure by 5 or more, the one making the acrobatics roll falls prone.
 
-A character can avoid attacks of opportunity when moving out of a threatened squares (into a square that is not threatened) by using their "main action" to withdraw. As in the previous case, an "acrobatics" roll can be used to ameliorate the situation. In this case a successful roll vs [attack bonus of hostile] + 13 allows one to withdraw as a bonus action, as usual, on a failure by 5 or more, the one making the acrobatics roll falls prone.
+A character can avoid attacks of opportunity when moving out of a threatened square (into a square that is not threatened) by using their "main action" to withdraw. As in the previous case, an "acrobatics" roll can be used to ameliorate the situation. In this case a successful roll vs [attack bonus of hostile] + 13 allows one to withdraw as a bonus action, as usual, on a failure by 5 or more, the one making the acrobatics roll falls prone.
 
 ### Reactions and attacks of opportunity
 
-Unless otherwise stated, a "reaction" always resolves after the action that provoked it. Exceptions include attacks of opportunity with "Counterstrike II", or "Counter spell". Likewise, common sense applies, so for example a target that provokes an AoO when moving out of reach (moving out of threatened square) and gets grappled does not leave the attacker's reach.
+Unless otherwise stated, a "reaction" must be declared before the provoking action has resolved (narratively a reaction is initiated when the provoking action is still ongoing and has only just started). Thus a combatant does not declare their intent to parry after seeing the enemy's blade pierce their gut. Likewise, one cannot declare "counter-spell" after learning that the target has failed its save. Reactions which are triggered by specific events such as "taking damage" obviously cannot be declared until the provoking event has happened (in this case the damage has been taken).
+
+Likewise, the provoking action resolves before any reactions to it, although there can be exceptions to this rules. Exceptions include attacks of opportunity with "Counterstrike II", or "counter-spelling". Likewise, common sense applies, so for example a target that provokes an AoO when moving out of reach (moving out of threatened square) and gets grappled does not leave the attacker's reach. Likewise, if the provoking action is a "full round action", "sprint", or takes the whole of a turn or more to complete, the reaction will resolve first (if the reaction is to *begin* an activity that takes at least as long as the provoking action, then the activity begins immediately, but resolves after the action that provokes it).
+
+Either way, the golden rule with resolving reactions is that they must not break causality.
 
 #### Attacks of Opportunity Table
 |Action|Provokes AoO|

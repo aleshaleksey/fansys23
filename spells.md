@@ -93,7 +93,7 @@ ___
 
 **Counter-spelling**: Any spellcaster with at least 9 MP dice total can counter-spell. You can only counter-spell magics from the same or opposite type (see table above). In order to counter-spell, you must be within 10ft x [MP dice] being used to counter-spell of the target caster. Counter-spelling magics of the same type is done at disadvantage. The steps are as follows:
 1. Declare "preparing to counter-spell" on your turn and use your "secondary action" to watch for spellcasters. Declare the number of MP dice you are preparing for this (minimum of 3).
-2. When a spell is cast, identify that it is with a "knowledge:arcana" roll.
+2. When a spell is being cast, but before its effects take place, identify that it is with a "knowledge:arcana" roll.
 3. If the spell belongs to the same type or opposite type of local magic, use your reaction and declare "counter-spell".
 4. Pay the declared MP dice cost.
 5. Roll a SAP (Sup + Base + Wis) roll vs their SAT (Sup + Base + Wis). You have a bonus (or penalty if it's less) to the roll equal to the difference in MP dice used by the two sides. If it is the same type of magic, your roll is at disadvantage. If it is neither the same or opposite, you cannot counter-spell it.

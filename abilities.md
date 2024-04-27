@@ -871,6 +871,8 @@ ___
 
 **Original state**: A character can make one attack, or use a single manoeuvre with a "main action".
 
+**Special:** A character with "Multi-attack I" or better can make a single offhand attack (regardless of "Multi-attack" level) with a light weapon, but takes a -4 penalty to the attack roll.
+
 **Prerequisite table**: This ability can be taken more than once. Each time, the minimum "base" and SP dice requirements must be met.
 |Number of attacks|Minimum Base|Minimum SP dice|Ability name|
 |-|-|-|-|
@@ -885,7 +887,7 @@ ___
 
 **Description**: Make one or more addition attacks with an offhand weapon with the "light" property as a "secondary" action when you make one or more attacks as a "basic martial manoeuvre: attack" with a one handed weapon as your "main action".
 
-**Original state**: A character cannot make an attack with an offhand weapon. They can however flail wildly.
+**Original state**: A character cannot make offhand attacks unless they have "Multi-attack I" or better. A character with "Multi-attack I" or better can make a single offhand attack (regardless of "Multi-attack" level) with a light weapon, but takes a -4 penalty to the attack roll.
 
 **Special**: You can make no more offhand attacks than you made main attacks on a turn.
 

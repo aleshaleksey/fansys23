@@ -524,7 +524,7 @@ ___
 
 **Type**: Class B (melee), Class S (ranged)
 
-**Description**: Choose a weapon proficiency group. You can now declare spell strike when wielding a weapon in that group and deliver spells weapons of that group for 1 MP.
+**Description**: Choose a weapon proficiency group. You can now declare spell strike when wielding a weapon in that group and deliver spells for 1 MP.
 
 - When delivering a spell that takes an action to cast, or releasing a spell that takes an action/reaction to release (held spell), make a weapon attack. If the attack hits, you deal the normal damage and discharge the spell through the weapon. If the attack misses, the spell is "held".
 
@@ -691,7 +691,7 @@ ___
 **Limitations**: A familiar has certain limitations.
 - A familiar's vessel must be an animal of size "tiny" or "small".
 - If a familiar's vessel is killed, it cannot be given a new vessel till the next day.
-- A character can ONLY have one single familiar.
+- A character can ONLY have one familiar.
 
 **Rules**:
 - A familiar has an intelligence of 5 + [Bind Familiar level] x 2.
@@ -911,7 +911,7 @@ ___
 
 **Type**: (Natural, Class B)
 
-**Description**: Avoid all attacks of opportunity from a target that you have made a melee attack against for the rest of your turns.
+**Description**: Avoid all attacks of opportunity from a target that you have made a melee attack against for the rest of your turn.
 
 **Original state**: Characters moving out of threatened squares provoke attacks of opportunity. Attacks of opportunity when moving between threatened squares can be avoided using "cautious movement".
 

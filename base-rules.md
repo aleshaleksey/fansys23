@@ -121,7 +121,7 @@ For dynamic thresholds, it can be difficult to tell, which of the opposing rolls
 - An observed entity is trying create a distraction so it can hide: The perception roll becomes the threshold, and the distraction/deception roll becomes the opposing roll.
 - Anne tries to throw Bob onto his back. Bob wishes to stay on his feet. Bob's grapple roll is the threshold, and Anne's roll is the opposing roll.
 
-This rule is a refinement and codification of "meets it beats it" and "defender wins". It is chosen as the method fo resolving rolls as it is most similar to "meets it beats it", while being systematic and consistent, and not because it is in some way mathematically superior.
+This rule is a refinement and codification of "meets it beats it" and "defender wins". It is chosen as the method for resolving rolls as it is most similar to "meets it beats it", while being systematic and consistent, and not because it is in some way mathematically superior.
 
 #### Difficulties and recommended thresholds
 The numbers on thresholds and rolls are abstractions of how difficult a task is to accomplish and how well it was performed respectively. As a rough guide, assuming that an average person is a level 1 character with 11 in most base stats and hence a +1 in skills they are not familiar with and + 3 in skills that they are familiar in, the table is as follows:

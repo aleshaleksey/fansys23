@@ -102,7 +102,7 @@ These numbers are a little bit different from what we see in systems like "Pathf
 
 This works because the average of 2d12 is 13.
 
-**Auto-failing:** An entity automatically fails if it cannot perform the roll. For example a paralysed entity cannot succeed on a jump check.
+**Auto-failing:** An entity automatically fails if it cannot perform the roll. For example a paralysed entity cannot succeed on a jump roll.
 
 **Voluntary failure:** An entity can choose to fail any check that requires some voluntary action. One cannot usually voluntarily fail checks and saves for autonomous functions. For example a humanoid cannot volunteer to fail a Con save vs poison, since you cannot switch off your liver at will, but you can voluntarily fail a Dex save vs a runaway cart, because you can consciously decide not to move out of the way.
 
@@ -139,7 +139,7 @@ A mix of game balance and simulationism guide our understanding on what they rep
 
 Advantage represents factors that mitigate some potential of failure, but do not improve the best result. For example a sharp knife makes it easier to gut a rabbit, but does not increase the amount of meat one can harvest (a rabbit only has a rabbit worth of meat).
 
-Disadvantage represents factors that negate some potential for success, but do not make the worst result any more catastrophic.
+Disadvantage represents factors that negate some potential for success, but do not make the worst result any more catastrophic. For example trying to run with shoes tied together increases a character's chance of falling (disadvantage on acrobatics perhaps), but the worst possible fall is no more dramatic than normal.
 
 A positive modifier (bonus) represents factors that make a task easier and have a potential to improve the best result. For example, a tailwind will give a bonus when trying to travel further in a day's sailing. This is because the speed is actually increased, making it possible to travel further.
 
@@ -153,10 +153,10 @@ Modifiers from "supernatural" sources never stack with modifiers from other supe
 
 #### Sources of Modifiers
 Because stacking modifiers can easily "break" a game or lead to situations where the outcome is decided early on in a scenario, it is desirable to avoid this. As a result the following rule is used with modifiers:
-- Modifiers can come from conditions.
 - Modifiers can come from circumstances or equipment.
 - Modifiers can come from passive abilities.
 - Modifiers from templates and size ALWAYS stack with other modifiers.
+- Modifiers cannot usually come from conditions.
 - Modifiers can NEVER come directly from active martial or supernatural (spells) abilities (although use of such abilities can induce conditions, which might provide penalties).
 
 ---

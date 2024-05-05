@@ -390,10 +390,10 @@ Attack Potentials and Attack Thresholds are used to determine the potence, or mo
 - A total bonus for a "supernatural" attack = SAP + Int/Wis
 
 
-**Natural Attack Threshold** (NAT) is **NAP + 13**. A target of a character's "natural" abilities rolls a save against the character's NAT.
+**Natural Attack Threshold** (NAT) is **NAP + 10**. A target of a character's "natural" abilities rolls a save against the character's NAT.
 - The threshold for a character's "natural" abilities = NAT + Str/Dex
 
-**Supernatural Attack Threshold** (SAT) is **SAP + 13**. A target of a character's "supernatural" abilities rolls a save against a character's SAT.
+**Supernatural Attack Threshold** (SAT) is **SAP + 10**. A target of a character's "supernatural" abilities rolls a save against a character's SAT.
 - The threshold for a character's "supernatural" abilities = SAT + Int/Wis
 
 ### Saving throws

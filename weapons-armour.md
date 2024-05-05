@@ -180,6 +180,10 @@ Damage Key:
 |Shortstaff|Staff|1d4/1d8|B|1+|Str/Dex|5|-|-|2|5|
 |Quarterstaff|Staff|1d10|B|2|Str|10|-|-|4|6|
 |||||||||
+|Buckler|Shield|1|B/S|1|Str/Dex|5|-|-|2|5|
+|Small Shield|Shield|1d4|B|1|Str|5|-|-|6|4|
+|Large Shield|Shield|1d6|B|1|Str|5|-|-|10|6|
+|||||||||
 |Weapon|Proficiency|Damage dice|Damage type|Handedness|Governed by|Reach (ft)|Range (ft)|Increment (ft)|Weight (lb)|Durability|
 |Sling|Sling|1d6|B|1|Dex|-|1600|80|1|2|
 |Shortbow|Bow|1d6|P|2|Dex|-|600|120|1|4|
@@ -359,6 +363,16 @@ Staves are round poles with a length between 4-8ft. Staves are bludgeoning weapo
 **Quarterstaff**: This is a two handed weapon between 6-8ft long.
 
 **Shortstaff**: This is a short staff between 4-6ft long. The shortened length allows a great deal of manoeuvres to be executed with this weapon.
+___
+### Shields (as weapons)
+
+[Shields](#shields) are not primarily weapons, however a proficient user can use them effectively as weapons. In doing so a combatant forfeits any bonus to HiT that the shield grants. Bucklers, small shields and large shields can be used in this way.
+
+|Weapon|Special Properties| Manoeuvres|
+|-|-|-|
+|Buckler|-|disarm, interception|
+|Small Shield|prone|shove, interception|
+|Large Shield|prone|shove, interception|
 
 ___
 ### Slings
@@ -582,6 +596,17 @@ Equipping light, heavy and tower shields is a "full round action". Equipping a b
 
 **Tower Shield**: This represents shields almost tall and wide enough to cover the entire body of the character. An example is the Roman scutum.
 - Special: This shield can be set as a "main action" to provide heavy cover to a single creature of the size it was made for, leaving the wielder's hands free for all kinds of wonderful things.
+
+#### Special
+
+[Shields can be used as weapons](#shields-as-weapons), but not at the same time as being used defensively, however when doing so a combatant must first use a secondary action to adjust their hold on the shield. Doing so forfeits any bonus to HiT granted by the shield until the combatant uses *another* secondary action on a subsequent turn to readjust the shield.
+
+The boon ["Offensive Buckler"](abilities.md#offensive-buckler) allows the wielder of a buckler to make the readjustment without using an action.
+
+The boon ["Swift Shield Bash"](abilities.md#swift-shield-bash) allows the wielder of a shield to make an offhand attack with a shield as a secondary action without sacrificing the HiT bonus.
+
+The boon ["Shield Master"](abilities.md#shield-master) allows the wielder of a small, large or tower shield to gain a bonus to Dex and Str saves equal to the HiT bonus of the shield.
+
 
 ## Notes
 

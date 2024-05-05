@@ -59,6 +59,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Parry](#parry)
 - [Precision Attack (I-X)](#precision-attack-i-x)
 - [Steel Wind Strike](#steel-wind-strike)
+- [Swift Shield Bash](#swift-shield-bash)
 
 ### Natural (General)
 
@@ -95,10 +96,12 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Foresight](#foresight)
 - [Mage Hunter](#mage-hunter-i)
 - [Multi-attack (I-III)](#multi-attack-i-iii)
+- [Offensive buckler](#offensive-buckler)
 - [Offhand fighting I-IV](#offhand-fighting-i-iv)
 - [Opportunist](#opportunist)
 - [Pointblank shot (I-III)](#pointblank-shot-i-iii)
 - [Precise shot (I-III)](#precise-shot-i-iii)
+- [Shield master](#shield-master)
 - [Skirmisher](#skirmisher)
 - [Swift strike](#swift-strike)
 - [Trick shot (I-II)](#trick-shot-i-ii)
@@ -900,6 +903,21 @@ ___
 |4|Multi-attack III|Offhand fighting IV|
 
 ___
+#### Swift Shield Bash
+
+**Description**: Use a shield as an offhand weapon while using it as a shield.
+
+**Original state**: A shield can either be used as a shield or a weapon, not both.
+
+**Benefits:** A character can not use a buckler, small shield or large shield as a shield, and still use it to make offhand attacks as a secondary action.
+
+**Prerequisites:**
+- Proficiency with Shields.
+- ["Offhand fighting"](#offhand-fighting-i-iv) ability.
+
+**Special**: A character that makes more than two offhand attacks with a shield in a round loses the bonus to HiT from the shield to the end of their next turn.
+
+___
 #### Opportunist
 
 **Description**: You may make attacks of opportunity against entities that are:
@@ -1020,6 +1038,31 @@ ___
 |-|-|-|
 |7|Trick shot I|Avoid hitting unintentional targets on the line at a -4 penalty to attack|
 |10|Trick shot II|Avoid hitting unintentional targets on the line|
+
+___
+#### Offensive Buckler
+
+**Description**: Switch seamlessly between using a buckler offensively and defensively.
+
+**Original state**: A "secondary action" is to be used when switching between offensive and defensive use of aa buckler.
+
+**Benefits:** Switch between using a buckler as a weapon or a shield without using an action.
+
+**Prerequisites:** Proficiency with shields + 7 SP dice total.
+
+___
+#### Shield Master
+
+**Description**: Use shields to defend against untargeted attacks.
+
+**Original state**: Shields do noth grant any bonuses to saves.
+
+**Benefits:** Gain a bonus to Dex and Str saves equal to the HiT bonus of a shield when using a small, large, or tower shield.
+
+**Prerequisites:**
+- Proficiency with Shields.
+- Poficiency Dex or Str saves.
+- 8 SP dice total and 3 MP dice total.
 
 ___
 ### General Boons

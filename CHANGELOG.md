@@ -39,3 +39,9 @@
 - Refine offhand fighting rules to allow offhand attacks with out offhand fighting under certain conditions.
 - Added flanking.
 - Added shield bash, shield mastery, buckler mastery.
+
+## From v0.0.3
+
+- Clarify for HiT when "evasion" and "deflection" work and when they don't.
+- Add clarification for leveling up stats.
+- Nerf foresight a little bit.

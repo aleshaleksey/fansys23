@@ -216,6 +216,15 @@ Size is, amongst other things, a measure of how much space an entity occupies. T
 
 Likewise entities that are separated by at least two categories (eg Diminutive and medium, medium and gargantuan, large and colossal, small and colossal) can usually occupy the same space without penalty. Although the DM may ask for Dex saves from the smaller entity (threshold=NAT+Str of the bigger entity) on the turn of the bigger entity, lest the smaller entity be knocked "prone".
 
+### Flanking
+
+Conceptually speaking, when a target entity has to split its attention in combat in a way that it can no longer adequately defend itself from attacks from different sides it is considered flanked. When an entity is flanked all basic combat manoeuvres and close range spells against it gain a +2 on their attack roll.
+
+To simplify, a target entity is flanked if it has combatants that are hostile to it on opposite sides of it. Formally speaking, both of the following conditions are met:
+
+1. The target entity is in the threatened area of two or more combatants that are hostile to it.
+2. A pair of intersection line can be drawn from opposite sides of squares occupied by one hostile entity to another that both lines of the pair intersect the squares occupied by the target entity.
+
 ### Threatened area and Attacks of Opportunity (AoO)
 
 An attack of opportunity is when a combatant exploits an opening left by another, and carries out a "basic martial manoeuvre" against its target.

@@ -1571,7 +1571,7 @@ ___
 - If [Healing] is chosen, the MP dice cost of all spells with the [Healing] descriptor is decreased by 1 (to a minimum of 1) and their range increases by 15ft. The MP dice cost of all spells with the [Destruction] descriptor is increased by 1 and the save threshold is decreased by 1. (9)
 - If [Destruction] is chosen, the MP dice cost of all spells with the [Healing] descriptor is increased by 2. The MP dice cost of all spells with the [Destruction] descriptor is decreased by 1 and the save threshold is increased by 1. (9)
 
-**Upcast**: For every extra MP dice, the threshold change increases by 1.
+**Upcast**: For every extra MP dice, the threshold change increases by 1, to a maximum of 4.
 
 **Special**: 
 - Any entity casting this spell in the [Healing] modality becomes aligned to [Divine] for 24h.

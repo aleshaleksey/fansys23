@@ -80,7 +80,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Aphonic Spell](#aphonic-spell)
 - [Bind Familiar (I-IV)](#bind-familiar-i-iv)
 - [Bind Beast (I-X)](#bind-beast-i-x)
-- [Elemental Affinity](#elemental-affinity)
+- [Energy Affinity](#energy-affinity)
 - [Lingering Spell](#lingering-spell)
 - [Still Spell](#still-spell)
 - [Spellcasting: Local](#spellcasting-local)

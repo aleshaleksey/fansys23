@@ -38,9 +38,9 @@ Of course play will be "clunky" if there isn't at least one person at the table 
 
 The version currently stands at:
 
-**v0.0.1**
+**v0.0.3**
 
-This means that it is the initial draft working version.
+This means that it is the 3rd draft working version.
 
 ## TODO
 

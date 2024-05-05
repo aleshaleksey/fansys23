@@ -68,16 +68,16 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Earth Ward](#earth-ward)
 - [Fire Ward](#fire-ward)
 - [Growth](#growth)
+- [Guidance of the Earth](#guidance-of-the-earth)
+- [Guidance of the Winds](#guidance-of-the-winds)
 - [Least Curse](#least-curse)
 - [Mole](#mole)
+- [Storm Ward](#storm-ward)
+- [Summer's Blade](#summers-blade)
 - [Water Walk](#water-walk)
 - [Water Ward](#water-ward)
 - [Wind Walk](#wind-walk)
-- [Storm Ward](#storm-ward)
-- [Summer's Blade](#summers-blade)
 - [Winter's Blade](#winters-blade)
-- [Guidance of the Winds](#guidance-of-the-winds)
-- [Guidance of the Earth](#guidance-of-the-earth)
 
 ### MP 4
 - [Animate Golem](#animate-golem)
@@ -92,6 +92,10 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Rejuvenate Land](#rejuvenate-land)
 - [Scry](#scry)
 - [Speak Through Flame](#speak-through-flame)
+
+### MP 5
+- [Flawed Transmute](#flawed-transmute)
+- [Pact](#pact)
 
 ### MP 6
 - [Forest of Flame](#forest-of-flame)
@@ -1758,7 +1762,6 @@ An illusion can be broken in the following manner:
 
 **Global**: The mirage lasts for a day and has a radius of 400ft. For every 4 extra MP the mirage lasts for an extra day or its radius increases by 400ft.
 
-
 ### Scry
 |Name|Scry [Spirit, Water]|
 |-|-|
@@ -1849,6 +1852,33 @@ ___
 - If a supplicant makes a pact under duress or unwittingly, they may make a Wis save whenever the patron issues a command or if the promise is broken.
 
 **Upcast**: For every 4 MP dice above 20, the spell lasts an extra year. Alternatively you may select an extra attribute. If the spell is cast with 32 MP dice or more, and only one attribute is taken, it becomes permanent.
+
+### Flawed Transmute
+|Name|Flawed Transmutation [Curse, Incantation]|
+|-|-|
+|Scope|local (global)|
+|MP|5 (20)|
+|Target(s)|1 object (medium)|
+|Casting time|1 action (5h + 5h per 5 MP dice)|
+|Range|close|
+|Duration|1 day (permanent)|+24
+|Components|incantation|+1(25)
+|Focus|A vial of clean water, a vial of clean air, a vial of earth, smouldering embers|-2(23)
+|Material|A cup of the caster's blood|-2(21)
+|Limitation|The material level of the object cannot be higher than 2|-2(19)
+|Limitation|The material level of the object decreases by 1|-2(17)
+|Limitation|The gold value of the final object cannot be higher than the value of the initial option|-2(15)
+|Limitation|The size of the transmuted object in volume is the same as the initial object|-2(13)
+|Save|Charisma (if wielded by an entity, or is magical), not otherwise|
+
+**Description**: Transmute a target object, no more than 5ft x 5ft x 5ft in volume from one substance to another. The shape of the object remains the same. Thus if you transform a shield from steel to salami, it will still retain the form of a shield.
+
+**Special**: The final substance has to be in the same element/state as the initial substance. Thus a caster cannot use this spell to turn water into air, but can turn water into (poor) wine. Likewise it can be used to turn steel into cheese, but not into bad air.
+
+**Upcast**: For every addition MP dice used in the casting, either add an extra object or increase its size by one category. If at least 7 MP dice are used the maximum material level can be 3. If 9 MP dice are used the maximum material level can be 4.
+
+**Global**: The spell is permanent. If at least 28 MP dice are used the maximum material level can be 3. If 36 MP dice are used the maximum material level can be 4.
+
 ___
 ## MP 6 spells
 4+2+3+4+5+6+7
@@ -2128,6 +2158,43 @@ ____
 
 - Other
 
+### MP 5
+
+- Nature
+    - []()
+    - []()
+    - []()
+- Air
+    - []()
+    - []()
+    - []()
+- Earth
+    - []()
+    - []()
+    - []()
+- Fire
+    - []()
+    - []()
+    - []()
+- Water
+    - []()
+    - []()
+    - []()
+- Incantation
+    - [Flawed Transmute](#flawed-transmute)
+    - [Pact](#pact)
+    - []()
+    - []()
+    - []()
+- Kinetic
+    - []()
+    - []()
+    - []()
+    - []()
+    - []()
+
+- Other
+
 ___
 
 |Name| []|
@@ -2140,3 +2207,40 @@ ___
 |Duration||
 |Components||
 |Save||
+ 
+|Name| []|
+|-|-|
+|Scope||
+|MP||
+|Target(s)||
+|Casting time||
+|Range||
+|Duration||
+|Components||
+|Focus||
+|Material||
+|Limitation||
+|Save||
+
+
+
+### 
+|Name| []|
+|-|-|
+|Scope||
+|MP||
+|Target(s)||
+|Casting time||
+|Range||
+|Duration||
+|Components||
+|Focus||
+|Material||
+|Limitation||
+|Save||
+
+**Description**:
+
+**Special**:
+
+**Upcast**:

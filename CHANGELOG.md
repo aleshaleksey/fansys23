@@ -38,3 +38,4 @@
 - Refine AoO and acrobatics rules a little bit.
 - Refine offhand fighting rules to allow offhand attacks with out offhand fighting under certain conditions.
 - Added flanking.
+- Added shield bash, shield mastery, buckler mastery.

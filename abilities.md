@@ -825,9 +825,12 @@ ___
 
 **Type**: (Natural, Class B)
 
-**Description**: Add [Wis] to your evasion modifier, on top of [Dex] and [size].
+**Description**: Add [Wis]/2 to your evasion modifier, on top of [Dex] and [size].
 
-**Prerequisite**: MP dice total of 4 or above. At least one "natural" (combat) ability.
+**Prerequisite**: 
+  - MP dice total of 4 or above.
+  - At least one "natural" (combat) ability.
+  - Dex of 13+ and Wis of 13+.
  
 **Original state**: A character only adds their [size] and [Dex] to their evasion.
 

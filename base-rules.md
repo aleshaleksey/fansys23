@@ -224,7 +224,7 @@ Every time a character levels up it gains:
 + 3 dice points to share between gaining SP dice and MP dice.
 + [3 + Int] skill points to put into skill ranks and proficiencies (other than saves). 
 + 1 skill to add to background skills
-+ 3 level points, to be used for abilities, or exchanged for skill points (3 skill points per level point).
++ 3 level points, to be used for stats, abilities, or exchanged for skill points (3 skill points per level point).
 
 A character must spend all points when it levels up. It cannot horde unspent points waiting for the next level.
 
@@ -241,6 +241,14 @@ At level one a character starts with:
 + 1 homeland.
 
 In addition at level 8 and level 16 a character gets a "race boon" from its race.
+
+#### Level points and abilities
+
+Every character gets 3 level points at level 1 and at each subsequent level up. These can be spend as follows.
+
++ Exchanged for skill points at the rate of 1 level points = 3 skill points.
++ Exchanged for an increase to stats at the rate of 1 level point = +1 to a single stat. No stat may exceed 24 for player characters. A character can only add one level point to stats per level.
++ Exchanged for abilities and boons.
 
 #### Base
 
@@ -437,7 +445,15 @@ A character has an armour class/hit threshold, this is a measure of how difficul
  In some cases not all components of HiT are used.
 
   - Some attacks ignore armour (a ghost's touch, a musket bullet at close range, a death ray). In this case **HiT = [10 + Base + Evasion + Deflection + Shield]**.
-  - Sometimes the character is not in a position to evade of actively deflect an attack ("surprised" or "immobilised"). In this case **HiT = [10 + Base + Shield + Armour]**.
+  - Sometimes the character is not in a position to evade of actively deflect an attack. In this case **HiT = [10 + Base + Shield + Armour]**. Conditions where this is so are:
+    - "surprised"
+    - "restrained"
+    - "immobilised"
+    - "incapacitated"
+    - "paralysed"
+    - "helpless"
+    - "unconscious"
+    - "dying"
 
 For each component (eg Armour), the Sup and Nat aspect stack. However for each aspect only the highest bonus applies. Eg: If a character wears a full plate on top of padded armour, only the bonus for the full plate applies. Also your character's gonna be really hot and sweaty.
 

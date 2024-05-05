@@ -1879,6 +1879,31 @@ ___
 
 **Global**: The spell is permanent. If at least 28 MP dice are used the maximum material level can be 3. If 36 MP dice are used the maximum material level can be 4.
 
+### Flame Stride
+|Name|Flame Stride [Travel, Fire]|
+|-|-|
+|Scope|local (global)|
+|MP|5 (20)|
+|Target(s)|2 entities* (2 entities*)|+2
+|Casting time|"secondary action" (4h + 40 min per 4MP dice)|+2
+|Range|close/600ft (close/200 miles)|+9(13)
+|Duration|instantaneous|
+|Components|kinetic|-1(12)
+|Limitation (local)|The caster must be one of the entities that travels|-1(11)
+|Limitation (global)|The start and end location must be bodies of water|-1(10)
+|Focus|A fire at least 1ft x 1ft x 1ft|-1(9)
+|Limitation|The caster and any entities teleported are always on fire at the end of the spell though this does not harm them or equipped items. It does, however, set other flammable objects on fire. The fire extinguishes itself after 1 minute.|-2(7)
+|Save|Cha|
+|Damage|2d8+[Nat] fire|+6(13)
+
+**Description**: The caster blinks to a chosen location that is not inside a solid object. The caster may take up to 2 other entities with it. An unwilling passenger does not travel if it succeeds a Cha save. Any entity that travelled this way deals 2d8+[Sup] fire damage on its next attack.
+
+**Upcast**: For every extra MP dice the range increases by 60ft or the number of passengers increases by 1.
+
+**Global**: Enter a bonfire large enough to engulf the caster and emerge from another of their choice in range (200 miles). The caster is aware of all valid fires in range.
+- For every 4 extra MP dice the range increases by 60 miles or the number of passengers increases by 1.
+
+(blink speed = 12+13)
 ___
 ## MP 6 spells
 4+2+3+4+5+6+7

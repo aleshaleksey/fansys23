@@ -100,6 +100,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 ### MP 6
 - [Forest of Flame](#forest-of-flame)
 - [Razor Wind](#razor-wind)
+- [Legion of Dead](#legion-of-dead)
 - [](#)
 
 ### MP 10 Spells
@@ -1233,6 +1234,7 @@ ___
 **Special**:
 - After 60 minutes the undead is not destroys, but persists, becoming hostile to its creator.
 - There is no limit to the number of undead a caster can control, however legions of dead seldom end well.
+- The type of undead being animated depends on the condition of the corpse(s). A corpse with flesh will become a zombie, a corpse without flesh will become a skeleton. A corpse with flesh but no bones becomes a crawling
 
 **Upcast**: For every MP dice added (4MP dice for global), the caster may either animate an extra corpse as a level I undead, assert control over an extra 4 corpses, or increase the level of the created or controlled undead by I.
 
@@ -1951,6 +1953,39 @@ ___
 **Upcast**: For every extra MP dice, increase the radius by 10ft and height by 5ft or increase the damage by 2d8.
 
 **Global**: Creates an inferno, large enough to engulf a small town. For every extra 4MP the radius increases by 200ft and the height increases by 10ft. Elemental lords might use this kind of magic for "amelioration" when visiting the mortal realm.
+
+### Legion of Dead
+|Name|Legion of Dead [Curse, Profane]|
+|-|-|
+|Scope|local (global)|
+|MP|6 (24)|
+|Target(s)|50ft radius (1000ft)| (+20) 
+|Casting time|"full round action" (12h + 2h per 4MP)|18(-2)
+|Range|30ft (30ft)|16(-2)
+|Duration|60 min (1 week+)|22(+6)
+|Components|incantation + kinetic|21(-1)
+|Focus|A symbol of a dark religion|-19(-2)
+|Material|Relic/item that would hold significance to those dead|17(-2)
+|Material|Blood of a humanoid or sapient monster, dragon, fiend or deity that was killed in the last 24 hours.|15(-2)
+|Limitation|You must have corpse of an animal or humanoid the appropriate size|-2(-1)
+|Concentration|Yes(No)|
+|Save|-|
+
+**Description**: A form of pact magic: All corpses of huge or smaller ("huge") within 50ft of the offering (the offering must be within 30ft of the caster) and which are satisfied with the offering (see "special") are animated and become level III corporeal undead. The undead is capable of performing any reflexive or rote task it knew in life, if its body still supports that functionality. 
+
+The undead faithfully follow **the single, initial command** that the caster makes, however the spirits animating the corpses retain their original allegiances. If the command is **completely** fulfilled by the end of the duration of the spell, the animated dead crumble to dust.
+
+If the undead are not destroyed by the end of the spell, or the caster loses concentration, the caster's control of the legion ends. The dead do not return to rest, but become hostile towards all living things. However, these undead will prioritise those groups that they were hostile to in life over other living beings.
+
+**Special**: 
+- The offering must include firstly, something of symbolic significance to the dead (eg, their favourite dolfie, the banner of their religion, etc). If dead of multiple allegiances are present in the radius, only those that find the offering significant will be raised.
+- If a command is given that would go against this, the caster loses control of all the dead animated by this spell. For example, animating a group of holy knights with this spell and ordering one of them to burn down their old shrine will not only lead to the command not being followed, but to the loss of control over all the dead animated in this way.
+
+**Upcast**: For every MP dice added (4 MP dice for global), the radius of the effect increases by 15ft.
+
+**Global**: The spell has a radius of 1000ft and the duration is 1 week. For every 4 MP dice extra, the casting time increases by 2h, and the radius increases by 300ft. The spell does not require concentration is, **but** the caster cannot cast the spell again as a global spell for a week.
+
+**Notes**: This spell produces a large number of units, possibly in the thousands. It is recommended that the DM controls the legion and uses it as a single group or AoE rather than individually rolling for each undead.
 
 ___
 ## MP 10 spells

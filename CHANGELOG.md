@@ -45,3 +45,4 @@
 - Clarify for HiT when "evasion" and "deflection" work and when they don't.
 - Add clarification for leveling up stats.
 - Nerf foresight a little bit.
+- Add a small weight endurance penalty to medium armour and add the penalty text to all sections.

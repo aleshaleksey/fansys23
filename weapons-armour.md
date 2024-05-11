@@ -510,6 +510,7 @@ Armour tends to restrict movement, somewhat. This is reflected in several penalt
 **Dex rating**: A character with a Dex bonus higher than the rating, only applies the "Dex rating" to all rolls, attacks and saves. 
 
 **Weight Penalty**: Medium and heavy armour give a weight penalty.
+- Medium Armour gives a -2 penalty to all [Con] rolls related to endurance.
 - Heavy Armour gives a -4 penalty to all [Con] rolls related to endurance and a -2 penalty to attack rolls.
 
 ___
@@ -554,7 +555,7 @@ This refers to basic armours that can be quickly donned and doffed while giving 
 ___
 ### Medium Armour
 
-Medium armour covers armours which either protect the whole body or have a full body underlayer, and a second layer which either gives adequate protection to most of the body or good protection to the most vital areas. Most armour falls in this category.
+Medium armour covers armours which either protect the whole body or have a full body underlayer, and a second layer which either gives adequate protection to most of the body or good protection to the most vital areas. Most armour falls in this category. Medium Armour gives a -2 penalty to all [Con] rolls related to endurance.
 
 **Full Padded** or "padded armour" can be any particularly thick and protective clothes, including the silken armours of the saracens, hides worn by northern tribes and gambeson of medieval europe. These armours offer some protection to the whole body and are light enough to wear on a long march. they are also reasonably inexpensive.
 - Special: This armour can serve as cold or hot weather clothes depending on the specific type.
@@ -573,7 +574,7 @@ Medium armour covers armours which either protect the whole body or have a full 
 ___
 ### Heavy Armour
 
-Heavy armour consists of an underlayer (usually padded), a mid-layer (usually chain) and a shell layer on all parts of the body. This is heavy battlefield armour, it is not necessarily best suited for a long march, although that is often the best way of transporting it to said battlefield. This armour is used when maximum protection at all costs is needed.
+Heavy armour consists of an underlayer (usually padded), a mid-layer (usually chain) and a shell layer on all parts of the body. This is heavy battlefield armour, it is not necessarily best suited for a long march, although that is often the best way of transporting it to said battlefield. This armour is used when maximum protection at all costs is needed. Heavy Armour gives a -4 penalty to all [Con] rolls related to endurance and a -2 penalty to attack rolls.
 
 **Segmented Mail:** This refers to any kind of mail other than chain mail, such as scale mail, banded mail and ring mail that covers most of the body. This kind of armour typically has a layer of padded armour beneath it and at least a chain shirt.
 

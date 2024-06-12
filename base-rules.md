@@ -324,7 +324,7 @@ A character has resource pools. These are a critical part of the game and are ex
 - Every time an entity loses 1 or more HP, it must make a save or risk gaining a condition (see "[Damage types](conditions-types.md#damage-types)").
 - An entity at 0 HP is disabled and cannot act.
 - An entity at the negative of their HP total is destroyed.
-- A character regains a single point of HP per long rest (usually a day). If a character receives long term medical care this becomes 2HP.
+- A character regains a single point of HP per long rest (usually a day). If a character receives long term medical care this becomes 2HP. (see ["Rest and Recuperation"](combat.md#rest-and-recuperation))
 - When a character with no SP takes natural damage, it loses HP equal to the damage taken.
 - When a character with no MP takes supernatural damage, it loses HP equal to the damage taken.
   
@@ -342,9 +342,9 @@ This is a measure of an entities' mental/spiritual energy.
 - A character has maximum **MP = CHA x LEVEL + [MP dice count] x 2**.
 - When a character uses an MP dice, it loses 2 MP.
 - When a character regains an MP dice, it regains 2 MP.
-- When a character takes natural damage it loses 1 MP per point of damage.
+- When a character takes supernatural damage it loses 1 MP per point of damage.
 - If a character takes more than **[CHA + 2 x MP dice total]** damage from a single supernatural/mental attack, the remainder is subtracted from HP.
-- When a character rests, it regains **[CHA x Base]** MP.
+- When a character rests, it regains **[CHA x Base]** MP. (see ["Rest and Recuperation"](combat.md#rest-and-recuperation))
   - This is in addition to the MP regained due to regained MP dice. So in total a character regains **[CHA x Base + Total MP dice count]** MP.
 
 
@@ -364,7 +364,7 @@ This is a measure of an entity's physical energy, stamina.
 - When a character regains an SP dice, it regains 2 SP.
 - When a character takes natural damage it loses 1 SP per point of damage.
 - If a character takes more than **[CON + 2 x SP dice total]** damage from a single natural/physical attack, the remainder is subtracted from HP.
-- When a character rests, it regains **[CON x Base]** SP.
+- When a character rests, it regains **[CON x Base]** SP. (see ["Rest and Recuperation"](combat.md#rest-and-recuperation))
   - This is in addition to the SP regained due to regained SP dice. So in total a character regains **[CON x Base + Total SP dice count]** SP.
 
 ### Nat and Sup: Attack of the three letter words

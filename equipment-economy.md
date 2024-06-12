@@ -58,6 +58,8 @@ ___
 
 Crafting costs are a sum of the labour cost and the material costs. Labour costs depend on the level of the worker, and the number of man hours that they need to work to complete the task.
 
+See [below](#labour-costs) for the actual labour cost table.
+
 ___
 ### Materials
 

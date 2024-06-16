@@ -1855,6 +1855,37 @@ ___
 
 **Upcast**: For every 4 MP dice above 20, the spell lasts an extra year. Alternatively you may select an extra attribute. If the spell is cast with 32 MP dice or more, and only one attribute is taken, it becomes permanent.
 
+### Revenant
+|Name|Revenant [Divine, Fire, Earth]|
+|-|-|
+|Scope|(global)|
+|MP|20|
+|Target(s)|1 entity|
+|Casting time|24 hours|-2
+|Range|close|
+|Duration|1 day|+3
+|Components|incantation, kinetic|
+|Focus|An item that the target has a strong emotional attachment to.|-1
+|Material|Sanctified Earth, and oils which are set on fire and consumed|-2
+|Limitation|See below| -4
+|Save|Special|
+
+**Description**: The caster performs an intricate ritual and attempts to return a deceased entity back to the mortal realm for one short day (24 hours). The target entity's vessel/body is not needed and is provided by the magic. Likewise the revenant carries equipment/garments it was typically associated with/attached to, unless they are in the possession of another entity.
+
+It returns to the world of the living at dawn if is diurnal (or at dusk if it is nocturnal), appearing before the caster, wherever they may be, as long as it is in the mortal realm, and not sealed by appropriate barriers. The revenant stays in the mortal realm for 24 hours, after which it crumbles to dust if it has not already been destroyed.
+
+The target returns with all of its SP and MP and up to 12 HP.
+
+**Limitations**:
+- The entity must have a dice total (MP + SP) no more than twice the dice total of the caster.
+- The entity is not beholden to the caster and it is not obliged to obey the caster, although it may if it is so inclined.
+-  Likewise the target entity and any divine/spiritual/profane that holds its soul is aware of who is trying return it and may attempt to resist. In this case the caster may disengage fom the ritual or try to force it. If the caster tries to force the issue, the target and caster make an opposed SAP roll. If the caster wins the ritual succeeds (although the caster may wish that it hadn't). If the ritual fails, the spell fails [catastrophically](spells.md#the-catastrophic-cascade) as if the spell was countered on the caster's location.
+- The spell can NEVER be cast on the same target more than once a month.
+
+**Special**: The spell can be cast up to 7 times for the same target. However, on each casting following the first time, either the caster or an entity with at least as many MP or SP dice as the caster's total must be sacrificed (it must die in the ritual). If the sacrifice is not satisfactory, the life is lost but nothing is summoned.
+
+**Upcast**: For each 8MP dice put into the spell, the target stays in the mortal realm for an extra 24 hours.
+
 ### Flawed Transmute
 |Name|Flawed Transmutation [Curse, Incantation]|
 |-|-|

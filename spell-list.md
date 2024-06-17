@@ -2026,7 +2026,7 @@ ___
 4+2+3+4+5+6+7+8=39
 
 ### Incarnate
-|Name|Return [Divine, Profane]|
+|Name|Incarnate [Divine, Profane]|
 |-|-|
 |Scope|(global)|
 |MP|28|

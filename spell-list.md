@@ -94,8 +94,10 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Speak Through Flame](#speak-through-flame)
 
 ### MP 5
+- [Flame Stride](#flame-stride)
 - [Flawed Transmute](#flawed-transmute)
 - [Pact](#pact)
+- [Revenant](#revenant)
 
 ### MP 6
 - [Forest of Flame](#forest-of-flame)
@@ -1872,11 +1874,12 @@ ___
 
 **Description**: The caster performs an intricate ritual and attempts to return a deceased entity back to the mortal realm for one short day (24 hours). The target entity's vessel/body is not needed and is provided by the magic. Likewise the revenant carries equipment/garments it was typically associated with/attached to, unless they are in the possession of another entity.
 
-It returns to the world of the living at dawn if is diurnal (or at dusk if it is nocturnal), appearing before the caster, wherever they may be, as long as it is in the mortal realm, and not sealed by appropriate barriers. The revenant stays in the mortal realm for 24 hours, after which it crumbles to dust if it has not already been destroyed.
+It returns to the world of the living at dawn if is diurnal (or at dusk if it is nocturnal), appearing before the caster, wherever they may be, as long as it is in the mortal realm, and not sealed by appropriate barriers. The revenant stays in the mortal realm for 24 hours. When its time has expired, its spirit is drawn back to the afterlife, and any physical form it held crumbles to dust if it has not already been destroyed.
 
 The target returns with all of its SP and MP and up to 12 HP.
 
 **Limitations**:
+- The entity must be a mortal.
 - The entity must have a dice total (MP + SP) no more than twice the dice total of the caster.
 - The entity is not beholden to the caster and it is not obliged to obey the caster, although it may if it is so inclined.
 -  Likewise the target entity and any divine/spiritual/profane that holds its soul is aware of who is trying return it and may attempt to resist. In this case the caster may disengage fom the ritual or try to force it. If the caster tries to force the issue, the target and caster make an opposed SAP roll. If the caster wins the ritual succeeds (although the caster may wish that it hadn't). If the ritual fails, the spell fails [catastrophically](spells.md#the-catastrophic-cascade) as if the spell was countered on the caster's location.
@@ -2018,6 +2021,46 @@ If the undead are not destroyed by the end of the spell, or the caster loses con
 
 **Notes**: This spell produces a large number of units, possibly in the thousands. It is recommended that the DM controls the legion and uses it as a single group or AoE rather than individually rolling for each undead.
 
+___
+## MP 7 spells
+4+2+3+4+5+6+7+8=39
+
+### Incarnate
+|Name|Return [Divine, Profane]|
+|-|-|
+|Scope|(global)|
+|MP|28|
+|Target(s)|1 entity|
+|Casting time|24 hours|-3
+|Range|close|
+|Duration|1 week|+6
+|Components|incantation, kinetic|
+|Focus|A symbol associated with the being|-1
+|Material|Offering associated with the being|-2
+|Material|A humanoid who is both unconscious and dying as a vessel|-2
+|Limitation|See below| -4
+|Save|Special|
+
+**Description**: The caster performs a ritual, incarnating the residual energy of an incorporeal being that has previously been destroyed into a humanoid vessel. The entity retains all of its powers and MP/MP dice as well as skills, abilities, WIS, INT and CHA. It also uses the HP and SP/SP dice of the vessel. The vessel must be a humanoid that is ["unconscious"](conditions-types.md#conditions-in-detail) for the whole of the ritual, and ["dying"](conditions-types.md#conditions-in-detail) during the last round.
+
+When the ritual is complete, the entity takes full control of the mortal vessel and controls it fully as if it was its own. It cannot leave the body it possess until the body is destroyed (reaches minus its HP total) or the spell ends.
+
+The possessing entity is in no way beholden to the caster, but may be inclined to reward them.
+
+When the spell ends one of the following things can happen (the final decision is with the possessing entity):
+1. The possessing entity consumes the humanoid body it is possessing and is returned to the spirit realm or its divine/profane realm. The humanoid soul is consigned to the afterlife.
+2. The possessing entity allows the humanoid soul to return to the body (hence allowing the sacrifice to live), and is itself consigned to the void.
+3. The caster recasts the ritual and provides a new sacrifice. The possessing entity can chose whether to keep using the old body or the new one. Whichever body is discarded, the corresponding body is destroyed and the soul passes to the afterlife.
+
+
+**Limitations**:
+- The entity must be a "spirit", "divine" or a "fiend".
+- The entity must have a dice total (MP + SP) no more than three times the dice total of the caster.
+- The entity is not beholden to the caster and it is not obliged to obey the caster, although it may if it is so inclined.
+- The target entity is aware of who is trying return it and may attempt to resist. In this case the caster may disengage fom the ritual or try to force it. If the caster tries to force the issue, the target and caster make an opposed SAP roll. If the caster wins the ritual succeeds (although the caster may wish that it hadn't). If the ritual fails, the spell fails [catastrophically](spells.md#the-catastrophic-cascade) as if the spell was countered on the caster's location.
+- The spell can NEVER be cast on the same target more than once.
+
+**Upcast**: For each 8MP dice put into the spell, the target stays in the mortal realm for an extra week.
 ___
 ## MP 10 spells
 3+(2+11)x10/2=3+13x5 = 68

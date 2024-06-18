@@ -2303,12 +2303,12 @@ ____
     - []()
     - []()
 - Earth
-    - []()
+    - [Revenant](#revenant)
     - []()
     - []()
 - Fire
-    - []()
-    - []()
+    - [Flame Stride](#flame-stride)
+    - [Revenant](#revenant)
     - []()
 - Water
     - []()
@@ -2321,13 +2321,51 @@ ____
     - []()
     - []()
 - Kinetic
-    - []()
+    - [Flame Stride](#flame-stride)
     - []()
     - []()
     - []()
     - []()
 
 - Other
+
+### MP 6+
+
+- Nature
+    - []()
+    - []()
+    - []()
+- Air
+    - [Razor Wind](#razor-wind) [6]
+    - []()
+    - []()
+- Earth
+    - []()
+    - []()
+    - []()
+- Fire
+    - [Forest of Flame](#forest-of-flame) [6]
+    - [Realm of Flame](#realm-of-flame) [10]
+    - []()
+- Water
+    - []()
+    - []()
+    - []()
+- Incantation
+    - [Razor Wind](#razor-wind) [6]
+    - []()
+    - []()
+- Kinetic
+    - []()
+    - []()
+    - []()
+    - []()
+
+- Other
+    - [Legion of Dead](#legion-of-dead) [6]
+    - [Incarnate](#incarnate) 7]
+    - []()
+    - []()
 
 ___
 

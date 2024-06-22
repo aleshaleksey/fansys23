@@ -193,7 +193,7 @@ Element and nature magic is "domain" based, and the the spells that fall into th
 
 Spells of this type are associated with elemental air. All and any spells with the "air" descriptor are on this spell list. They are associated with the "shear" and "lighting" damage types and "paralysed", "stunned", "prone" and "crippled" conditions.They are often used for travel, gathering information and controlling weather, but also have combat uses.
 
-For every level of Spellcasting: Elemental(Air), a character learns 2 compatible spells. On taking Elemental(Earth) I a character also gains 2 MP zero spells of the "air" descriptor.
+For every level of Spellcasting: Elemental(Air), a character learns 2 compatible spells. On taking Elemental(Air) I a character also gains 2 MP zero spells of the "air" descriptor.
 
 ### Elemental (Earth)
 

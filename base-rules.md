@@ -202,7 +202,7 @@ A character has certain attributes that are inherent to it and are not easily ch
 
 1. **Entity type** define the base possibilities of a character (a plant does not require sleep, but usually requires water, air and "sustenance", it does "see" things. A spirit does not have a corporeal form and cannot be "touched" normally, a humanoid (animal) has a movement speed, and a corporeal form, usually with one head, one torso, two arms and two legs, requires air, water, sustenance, sleep and ages).
 2. The **race** (or **template**) determines some specific characteristics and attributes. (eg base movement speed, movement modality, lifespan, typical weight and height, certain resistances and vulnerabilities and special abilities).
-3. **Size category** [diminutive, tiny, small, medium, large, huge, gargantuan, colossal] affect how much space an entity takes up on (and off) a battlefield, its reach, its AC, and potentially other things. Size rules are described in a table in the "Size Rules" section.
+3. **Size category** [diminutive, tiny, small, medium, large, huge, gargantuan, colossal] affect how much space an entity takes up on (and off) a battlefield, its reach, its AC, and potentially other things. Size rules are described in the ["Size Rules"](#size-rules) section below.
 4. **Movement modalities** are usually determined by race and special abilities. A creature WITH a movement modality may (or may not!) be able to move over other terrain with an ability check. this is covered in "movement" rules:
     - **walk speed**: ground movement over horizontal-ish terrain.
     - **climb speed**: ground movement over vertical-ish terrain.
@@ -473,6 +473,50 @@ The number of skill points a character can have in a single skill is capped to:
 
 These are the really cool abilities that a character has, like throwing fire balls, healing otherwise lethal walls, or being able to chop a giant rock in half (or carry said rock). In short extra "things" that a character can do that it might not be able to do, or the ability to withstand things it might not be able to withstand otherwise. A character can gain abilities in exchange for level points. Abilities are covered in the "[Abilities](abilities.md)" chapter.
 
+### Size Rules
+
+Entities can have different physical sizes. These are categorised into 8 categories:
+- diminutive (smallest),
+- tiny,
+- small,
+- medium (human sized),
+- large,
+- huge,
+- gargantuan,
+- colossal (largest).
+
+With "medium" being roughly human sized, and each size category up being approximately twice the size in length/height of the previous one (x8 in volume and weight). We do not deal with size categories below "diminutive" although smaller entities certainly exist (they're just treated as "diminutive" for the sake of mechanics).
+
+While as a human centric game the mechanics are fine tuned to medium sized characters, the size rules mean that they will also work for larger and smaller characters, although there will be certain very obvious (and some less obvious) advantages and disadvantages for characters of those size categories.
+
+NB: These rules are incomplete. More complete rules on hypo/hyperthermia affects and hunger need to be developed.
+
+#### Weapon Damage and Reach
+
+As a rule, larger entities have limbs that reach further and use larger weapons, which deal more damage, while the converse is true for smaller entities. This is detailed in the ["Dice size rules"](#dice-size-rules) section at the end of the chapter.
+
+Likewise reach increases. While small, medium and large entities have a reach of 5ft, larger entities usually reach further, making it harder for smaller entities to approach close enough to attack them in melee. Similarly tiny and diminutive entities must enter the space of a larger entity to engage it in melee. See the ["Size rules tables"](#size-rules-table) near the end of the chapter for details.
+
+Likewise, there are more details on the effects of size in combat in the ["Combat: Space in combat"](combat.md#space-in-combat) section.
+
+#### Space and Weight
+
+A medium sized entity takes up a 5ft square/hex. For the every size category up the side length of this space, is doubled, so a large entity takes up a 10ft square (4 x 5ft squares), and a huge entity takes up a 20ft square (16 x 5ft squares). Likewise, a small entity does not fully take up its 5ft square, and you can fit 4 small entities in a 5ft without. Thus small characters may be able to explore areas that a larger character cannot reach and escape from situations which a larger character may find inescapable. (Again this is found in the ["Combat: Space in combat"](combat.md#space-in-combat) section)
+
+Likewise, weight increases proportionally to volume, so larger entities are a lot heavier, usually x8 for each size category. So if a dainty human waif might weigh 100lb, the pony/horse she rides (one size category larger) may easily be 800lb. This means that large entities should be weary of the structural integrity of the ground they tread.
+
+#### HiT, strength, carrying capacity
+
+Larger entities are bigger targets, and have more of themselves to move, so they do not dodge as easily. Thus they suffer a penalty to DEX saves and "evasion", but gain a bonus to STR saves and "armour".
+
+Likewise carrying capacity increases with size, but less(!) than the weight of equipment, arms and armour. (See the ["Size rules tables"](#size-rules-table)).
+
+#### Environmental Effects
+
+Entities larger than "medium" take more damage when flying in stormy weather (["Movement and Exploration: Local and Global Movement"](movement-exploration.md#local-and-global-movement-1)) or when hitting the ground at the end of a fall (["Movement and Exploration: Falling"](movement-exploration.md#falling)). This generally results from the fact that while a larger body is sturdier than a small one, it is usually *less sturdy for its size*.
+
+
+
 ### Senses
 
 An entity is assumed by default to have the senses of sight and hearing. Other basic, natural senses include smell, touch and taste, but not all entities possess these senses. For example an incorporeal entity might not have touch, a an undead skeleton might not have taste. In general [mortals](conditions-types.md#mortals) have all five senses unless stated otherwise.
@@ -579,15 +623,7 @@ This table is not necessary since it is a simple addition for Nat + Base. Howeve
 
 #### Size rules table
 
-There are 8 size categories in the game: 
-- diminutive,
-- tiny,
-- small,
-- medium,
-- large,
-- huge,
-- gargantuan,
-- colossal.
+There are 8 size categories in the game: [diminutive, tiny, small, medium, large, huge, gargantuan, colossal].
 
 As this is a human-centric game, probably designed by a human, "medium", the standard size, is about human sized. Size affects how much space an entity takes up, how much it can lift and carry, its reach, how well it dodges, how thick its defences are, and often how much it must consume to survive. The following table describes how size affects a character.
 
@@ -605,7 +641,7 @@ As this is a human-centric game, probably designed by a human, "medium", the sta
 |Gargantuan|40|-3|+3|-3|+3|x8|x64|15ft|
 |Colossal|80|-4|+4|-4|+4|x16|x256|20ft|
 
-1. Applies the "long" property to all weapons of "large" size category it wields. All "large" size category that already have the "long" property lose it and instead are treated as having a reach of 10ft.
+1. Applies the "long" property to all weapons of "large" size category it wields. All "large" size category that already have the "long" property lose it and instead are treated as having a reach of 10ft. (See ["Combat: Range and Reach"](combat.md#range-and-reach))
 
 #### Dice size rules
 This applies mostly to weapon attacks, but may also apply to adjustments to poison based damage based on dose at the group's discretion. *[NB: Poison rules have not yet been written.]

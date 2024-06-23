@@ -375,7 +375,7 @@ This is a divine being created by gods to watch over some aspect of creation (Co
 
 - **Size**: Medium (Height: ~5'8", Weight: ~140lb) (Normal form: Winged)
 - **Stats**: (Str: +2, Dex: 0, Con: +2, Int: +4, Wis: +2, Cha: +4) (14 points)
-- **Movement**: Walk 20ft, Fly 80ft (average). (8 point)
+- **Movement**: Walk 20ft, Fly 80ft (rating: average). (8 point)
 - **Sight**: :True Sight II (60ft). (6 point)
 - **Type**: Humanoid (does not need to eat, drink, breath, does not age). (12 points)
 - **Proficiencies**: Common.

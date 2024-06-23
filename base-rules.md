@@ -33,6 +33,7 @@
     -  [Hit Threshold (HiT)](#hit-threshold-hit)
     -  [Skills and Proficiencies](#skills-and-proficiencies)
     -  [Abilities](#abilities)
+    -  [Size](#size)
     -  [Senses](#senses)
 6. [Tables](#tables)
     -  [Level parameters](#level-parameters)
@@ -473,7 +474,7 @@ The number of skill points a character can have in a single skill is capped to:
 
 These are the really cool abilities that a character has, like throwing fire balls, healing otherwise lethal walls, or being able to chop a giant rock in half (or carry said rock). In short extra "things" that a character can do that it might not be able to do, or the ability to withstand things it might not be able to withstand otherwise. A character can gain abilities in exchange for level points. Abilities are covered in the "[Abilities](abilities.md)" chapter.
 
-### Size Rules
+### Size
 
 Entities can have different physical sizes. These are categorised into 8 categories:
 - diminutive (smallest),

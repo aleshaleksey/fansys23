@@ -577,9 +577,19 @@ This table is not necessary since it is a simple addition for Nat + Base. Howeve
 |6||7|8|9|10|
 |7||8|9|10|11|
 
-#### Size rules
+#### Size rules table
 
-There are 8 size categories in the game [diminutive, tiny, small, medium, large, huge, gargantuan, colossal]. As this is a human-centric game, probably designed by a human, "medium", the standard size is about human sized. Size affects how much space an entity takes up, how much it can lift and carry, its reach, how well it dodges, and how thick its defences are. The following table describes how size affects a character.
+There are 8 size categories in the game: 
+- diminutive,
+- tiny,
+- small,
+- medium,
+- large,
+- huge,
+- gargantuan,
+- colossal.
+
+As this is a human-centric game, probably designed by a human, "medium", the standard size, is about human sized. Size affects how much space an entity takes up, how much it can lift and carry, its reach, how well it dodges, how thick its defences are, and often how much it must consume to survive. The following table describes how size affects a character.
 
 **NB**: Size modifier to evasion also applies to certain Dex based skills such as "stealth".
 **NB2**: A Reach of 0ft means that the entity must occupy the same 5ft square/cube/hex as the target of its melee attack.
@@ -590,23 +600,42 @@ There are 8 size categories in the game [diminutive, tiny, small, medium, large,
 |Tiny|5/4|+2|-2|+2|-2|x1/4|x1/8|-|
 |Small|5/2|+1|-1|+1|-1|x1/2|x1/4|5ft|
 |Medium|5|0|0|0|0|x1|1|5ft|
-|Large|10|-1|+1|-1|+1|x4|x3|5ft(long)|
+|Large|10|-1|+1|-1|+1|x4|x3|5ft(long[1])|
 |Huge|20|-2|+2|-2|+2|x4|x16|10ft|
 |Gargantuan|40|-3|+3|-3|+3|x8|x64|15ft|
 |Colossal|80|-4|+4|-4|+4|x16|x256|20ft|
 
+1. Applies the "long" property to all weapons of "large" size category it wields. All "large" size category that already have the "long" property lose it and instead are treated as having a reach of 10ft.
+
 #### Dice size rules
-This applies mostly to weapon attacks, but may also apply to dose based damage at the group's discretion.
-|Dice size|First size down|Next size up/down|Note|
+This applies mostly to weapon attacks, but may also apply to adjustments to poison based damage based on dose at the group's discretion. *[NB: Poison rules have not yet been written.]
+
+When an weapon attack deals only one die worth of damage, use the first table to determine how the weapon damage changes with size category. When the weapon attack deals multiple 
+
+For example, Bob the pixie is "tiny" and uses a greatsword (2d6 damage at medium). The first transformation to small is for a multi-dice weapon and this takes this down to 1d6. Now you have a small greatsword that deals 1d6 damage. To take it down to tiny you look at the single dice table, and see that 1d6 decreases to 1d3. Thus Bob's "tiny" greatsword will deal a base damage of 1d3, which is not that great.
+
+|Dice size (single die)|First size down|First size up|Note|
 |-|-|-|-|
 |1|1|1d3|1 is minimum, increases to 1d3 progression|
-|1d3|1d2|1d6|Increases to 1d6 progression|
-|1d4|1d2|+/-1d4 /size||
-|1d6|1d3|+/-1d6 /size||
-|1d8|1d4|+/-1d8 /size||
-|1d10|1d6|+/-1d10 /size||
-|1d12|1d8|+/-1d12 /size||
+|1d3|1|1d6|Increases to 1d6 progression|
+|1d4|1d2|2d4||
+|1d6|1d3|2d6||
+|1d8|1d4|2d8||
+|1d10|1d6|2d10||
+|1d12|1d8|2d12||
+
+If a weapon attack rolls 2 or more damage dice of the same size, then for each size category up, a dice of the same type is added, and for every size category down a dice is subtracted. Thus, a "huge" greatsword, being two categories above medium deals 4d6 damage (while a "medium" sized greatsword will deal 2d6 damage).
+
+|Dice size (multiple dice)|size down|Next size up|
+|-|-|-|
+|d4|-1d4|+1d4||
+|d6|-1d6|+1d6||
+|d8|-1d8|+1d8||
+|d10|-1d10|+1d10||
+|d12|-1d12|+1d12||
+
+NB: There can never be multiple d2, d3 or "d1" rolled for damage for a weapon attack.
 
 ## Version
 
-0.0.1
+0.0.4

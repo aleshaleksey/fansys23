@@ -1,10 +1,7 @@
-- Line breaks here and there.
-- Add following abilities (using DnD terminology):
- - Relentless endurance
- - Savage criticals
- - Magic resistance
- - Magic resistance
- - Improved shield bash.
+- Add link to Size-change size rules tables.
+- Unite size rules in base-rules.md. With links to size rules elsewhere.
+- Improve size rules. 
+- Change wording on size table 95ft (long): "applys the long property to all weapons")
 
 ## Character sheet
 - Connect skills and proficiencies.

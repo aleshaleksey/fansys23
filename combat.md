@@ -38,7 +38,7 @@ A targeted attack is an attack made specifically against an entity that involves
 
 ## Damage and death
 
-Attacks and various harmful effects cause injury and death to combatants and destruction of structures and equipment (amongst other things). An semi-abstract measurement, damage, is used to quantify this.
+Attacks and various harmful effects cause injury and death to combatants and destruction of structures and equipment (amongst other things). A semi-abstract measurement, damage, is used to quantify this.
 
 ### Death, dying and the relationship between HP, MP and SP
 

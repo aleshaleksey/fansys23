@@ -384,7 +384,7 @@ Restriction:
 + A Watcher cannot lie (knowing communicate falsehood). (-2)
 
 Extra (42):
-+ +2 Sense Motive, +2 Deception (4 points)
++ +2 Sense Motive, +1 Deception (3 points)
 + Alternate form: Humanoid (4 points)
 + Telepathy (6 points)
 + Immunity: Bludgeoning, Slashing, Piercing, Shear and Pressure. (20 points)

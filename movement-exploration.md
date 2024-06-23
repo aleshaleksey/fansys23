@@ -98,7 +98,7 @@ However this comes with limitations:
 - If they slow to lower than 1/2 their speed in a given terrain, they must land or fall.
 - A flying entity that is knocked **"prone"**, or tripped, drops a distance equal to its speed and can only move at half speed on its next turn. If this drop causes it to hit the ground, it suffers all of the consequences of falling (see "[Falling](#Falling)" section).
 
-Not all flying entities are equal in flight. In fact there are four categories:
+Not all flying entities are equal in flight. In fact there are four categories (ratings):
 - **Poor**:
   - These entities climb at 1/2 speed, cannot "run", cannot ascend/descend at more than 45 degrees.
   -  Their turn radius is equal to 3/2x their fly speed.

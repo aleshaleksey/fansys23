@@ -62,8 +62,9 @@ The base template allows the following:
 - A permanent +2 bonus to a single skill.
   - The template bonus to skills NEVER stack.
 - A 30ft climb speed or a 40ft swim speed.
-- Increase fly speed by 10ft. Increase cosmic speed by 20ft.
+- Increase fly speed by 10ft OR Increase cosmic speed by 20ft.
   - A single template level can increase fly or cosmic speed by no more than 20ft or 40ft respectively.
+- Improve fly speed rating from "poor" -> "average".
 - A passive or active (C class) ability with no prerequisites (eg water breathing).
 - Gain one of the following senses: "heat-sense", "keen-senses: Sight".
   - When this enhancement is a graded ability (eg "[Heat Sense](abilities.md#heat-sense-i-v)"), it is always taken at 2nd level (eg "Heat Sense II"). In this case increasing it by a further level costs a single point.
@@ -74,6 +75,7 @@ The base template allows the following:
   - A template may grant only 2 condition resistances or immunities per template level.
 - A passive or active (B class) ability with no prerequisites.
 - Remove a necessity (drink or eat).
+- A 60ft (rating: poor) fly speed. Characters that pick this option have a -10ft speed penalty to their climb, walk and swim speeds.
 
 #### Four template points:
 - Resistance to an A or S class damage type + advantage vs one B or C class condition.
@@ -82,8 +84,8 @@ The base template allows the following:
   - A template may grant only 1 damage resistance or immunity per template level.
 - Immunity to a single B or C Class condition.
   - A template may grant only 2 condition resistances or immunities per template level.
-- A 5ft dig speed or a 60ft (average) fly speed. Characters that pick this option have a -10ft speed penalty to their climb, walk and swim speeds.
-- Improve fly speed by a level (average -> good, good -> perfect).
+- A 5ft dig speed. Characters that pick this option have a -10ft speed penalty to their climb, walk and swim speeds.
+- Improve fly speed rating from "average" -> "good".
 - Improve dig speed by 5ft.
 - A passive or active (B class) ability with no prerequisites.
 - Gain one of the following senses: "Tremor Sense", "Blindsight".
@@ -106,6 +108,7 @@ The base template allows the following:
 - A cosmic speed (100ft).
   - A template must be at least level 5 to have a cosmic speed.
 - A passive or active (A class) ability with no prerequisites.
+- Improve fly speed rating from "good" -> "perfect".
 - Gain one of the following senses: "Life-sense", "Truesight".
   - A template must be at least level 5 to have one of these sense.
   - When this enhancement is a graded ability (eg "[Truesight](abilities.md#truesight-i-v)"), it is always taken at 2nd level (eg "Heat Sense II"). In this case increasing it by a further level costs a single point.
@@ -270,14 +273,14 @@ Race boon: (6 points)
 This is a race of winged humanoids that live in high and isolated places, as well as loci associated with elemental air. They are small of stature, sharp sighted, and often shy of other races.
 - **Size**: Medium (Height: ~3'3", Weight: ~32lb, Wingspan: ~11ft.)
 - **Stats**: (Str: -2, Dex: +2, Con: 0, Int: 0, Wis: 0, Cha: 0)
-- **Movement**: Walk 20ft, Fly 60ft (average). (4 point)
+- **Movement**: Walk 20ft, Fly 60ft (rating: average). (5 point)
 - **Sight**: Normal.
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
 - **Proficiencies**: Common.
 
 Extra:
 + 2 to Fly (2 point)
-+ 2 to Observe (2 point)
++ 1 to Observe (1 point)
 
 Race boon: (6 points)
 - +1 fly level.

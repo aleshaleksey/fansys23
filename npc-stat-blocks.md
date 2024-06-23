@@ -311,7 +311,7 @@ ____
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Longbow|+11|1d10+5 piercing|range = 600/120ft|
+|Longbow|+11|1d10+5 piercing|range = 1200/240ft|
 |Sling|+11|1d6+5 piercing|range = 1600/80ft|
 |Knife|+11|1d4+5 slashing||
 |Low-light vision||||

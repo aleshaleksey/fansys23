@@ -2,6 +2,63 @@
 
 Elementals are spirits of the four elements. They are generally immune to physical damage (with the exception of some low level elementals) since the physical form they accrue is in no way necessary for their existence. Likewise they are immune to "stunned", "immobilised", "crippled", "bleeding", poisoned" and "paralysed".
 
+
+___
+### Flame Sprite
+|Level|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|-|
+|1|13/9/14|3|8|2|40ft|-|
+|2|13/9/14|4|14|3|40ft|-|
+|3|13/9/14|5|20|4|45ft|-|
+|4|16/9/17|10|30|7|45ft|-|
+|5|16/9/17|14|35|8|50ft|-|
+|6|16/9/17|14|42|9|50ft|-|
+
+- Flame sprites are small size.
+
+|Level 1-3|Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|8|16|8|8|12|14|
+|Bonus|-1|+3|-1|-1|+1|+2|
+|Save(1-3)|0|+5|0|0|+2|+3|
+
+|Level 4-6|Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|8|18|10|10|14|16|
+|Bonus|-1|+4|0+1|0|+2|+3|
+|Save(4-6)|+1|+6|+2|+2|+4|+5|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|1(1)|2|3|1|1|2|2|
+|2(1)|3|5|1|1|2|2|
+|3(1)|4|7|1|2|2|3|
+|4(1)|5|9|1|2|2|3|
+|5(1)|7|10|2|2|3|3|
+|6(2)|7|13|2|3|3|4|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Fire Magic I (lvl 1)||||
+|Fire Magic II (lvl 3)||||||
+|Foresight (lvl 4)|||Greater flame sprites add [Wis] to HiT|
+|Fire Magic III (lvl 5)||||
+|Elemental Touch (Fire)|SAP+[Int]|[[Base]d6 + [Int]]|Fire, supernatural, can upcast|
+|Senses|||flame sprites are blind, but have keen smell|
+|Senses|||Heat sense (90ft, 180ft at lvl 4)|
+|Skills (lvl1)|||Intimidate +3|
+|Skills (lvl3)|||Acrobatics +5, Intimidate +4|
+|Skills (lvl5)|||Acrobatics +8, Intimidate +7|
+|Special|||A flame sprite not in contact with its element loses its resistance/immunity to physical damage|
+|Ignition|||A flame sprite ignites flammable materials it contacts, making it extremely dangerous|
+|Damage resistance|||"Physical" (becomes immunity at lvl4 and above)|
+|Damage immunity|||"Fire"|
+|Condition immunity|||"stunned", "immobilised", "crippled", "bleeding", poisoned" and "paralysed"|
+|Vulnerability|||"Ice"|
+|Anathema (water)|||Flame sprites take damage when doused with water or sand. For every gallon of water/sand, the flame sprite takes 5 points of natural damage. A flame sprite that is completely submerged in cold water is destroyed after 1 round (if you can somehow submerge a spirit).|
+
+Flame Sprites are the most dangerous of minor elementals. They are playful spirits associated with fire, however their propensity to ignite everything they and step on as they dance, makes them extremely dangerous, even when they do not have hostile intent.
+
 ___
 ### Gnome
 |Level|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
@@ -52,7 +109,8 @@ ___
 |Skills (lvl 3)|||Fortify +5, Harvest +3, Prospect 0|
 |Skills (lvl 5)|||Fortify +8, Harvest +6, Prospect +2|
 |Special|||A gnome not in contact with its element loses its immunity to physical damage|
-|Damage immunity|||"Physical", "lightning"|
+|Damage resistance|||"Physical" (becomes immunity at lvl4 and above)|
+|Damage immunity|||"lightning"|
 |Condition immunity|||"stunned", "immobilised", "crippled", "bleeding", poisoned" and "paralysed"|
 |Vulnerability|||"Light"|
 
@@ -99,16 +157,21 @@ ___
 |Water Magic I (lvl 1)||||
 |Water Magic II (lvl 3)||||||
 |Foresight (lvl 4)|||Greater water sprites add [Wis] to HiT|
-|Water Water Magic III (lvl 5)||||
+|Water Magic III (lvl 5)||||
 |Senses|||Water sprites are blind, but have keen hearing|
 |Senses|||Tremor sense (90ft, 180ft at lvl 4)|
 |Skills (lvl1)|||Swim +1, Stealth +4|
 |Skills (lvl3)|||Swim +3, Stealth +5|
 |Skills (lvl5)|||Swim +5, Stealth +8, Navigate +5|
-|Special|||A water sprite not in contact with its element loses its immunity to physical damage|
-|Damage immunity|||"Physical", "ice"|
+|Special|||A water sprite not in contact with its element loses its resistance/immunity to physical damage|
+|Damage resistance|||"Physical" (becomes immunity at lvl4 and above)|
+|Damage immunity|||"ice"|
 |Condition immunity|||"stunned", "immobilised", "crippled", "bleeding", poisoned" and "paralysed"|
 |Vulnerability|||"Fire"|
+
+Water sprites are the least of the water elementals and take many shapes. Generally they mimic the first moving material object or entity they observe on the material realm, so while they often take the shapes of beasts, birds and humanoids, they occasionally take on somewhat inane forms.
+
+These sprites inhabit aquifers and bodies of water, but they are most noticeable in streams, small rivers and the litoral zone, where they are more likely to encounter humanoids. While seldom hostile to mortals, they have a tendency to inadvertently drown them, which can make them quite dangerous.
 
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|

@@ -30,8 +30,13 @@ Of course play will be "clunky" if there isn't at least one person at the table 
 - [Spellcasting](spells.md)
 - [Spell List](spell-list.md)
 - [Equipment and Economy](equipment-economy.md)
-- [NPC Stat Blocks](npc-stat-blocks.md)
-- [Monster Stat Blocks](monster-stat-blocks.md)
+- [NPC Stat Blocks](monsters-npcs/humanoids.md)
+- [Beast and Plant Stat Blocks](monsters-npcs/beasts-and-plants.md)
+- [Monster and Dragon Stat Blocks](monsters-npcs/monsters-and-dragons.md)
+- [Construct Stat Blocks](monsters-npcs/constructs.md)
+- [Spirit Stat Blocks](monsters-npcs/spirits.md)
+- [Divine Stat Blocks](monsters-npcs/divines.md)
+- [Profane Stat Blocks](monsters-npcs/profanes.md)
 - Crafting
 
 ## Version

@@ -118,6 +118,35 @@ A mudwalker looks a lot like a mudcrawler but a lot larger, towering over 30ft t
 
 Mudwalkers seldom directly attack humanoids. Instead they release a noxious gas from their enormous shelled bodies. However, if they find humans that fight back, they attempt to skewer them with their sharp limbs.
 
+___
+### e
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|14/9/14|8|4|2|30ft|
+
+Size = small
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|8|12|12|4|12|10|
+|Bonus|-1|+1|0|-3|+1|0|
+|Save|-1|+4|+1|-2|+2|+1|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|1 (1)|3|2|1|1|2|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite|+3|1d4+1|Shear damage|
+|Keen Senses|||Advantage on perception rolls based on scent and hearing|
+|Low light Vision|||Can see in the "dark", but not pitch black conditions|
+|[Sprint](abilities.md#sprinter)|||x3 move, x5 sprint|
+|Prof|||"Grapple"|
+|Skills|||"Stealth" +3, "Observe" +2|
+|Loot|||Dog meat is edible to humanoids|
+
+This block can be used for domesticated dogs, jackals and foxes. Large dogs should use the wolf block.
 
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|

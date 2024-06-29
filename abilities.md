@@ -421,12 +421,13 @@ ___
 
 **Type**: (Class A)
 
-**Description**: When a "natural" or "weapon" attack deals HP damage to you or an adjacent entity, you may may use your "reaction" to cast targeted attack spell at the entity making the attack.
+**Description**: When a "natural" or "weapon" attack deals HP damage to you or an adjacent entity, you may may use your "reaction" to cast a targeted attack spell at the entity which made the attack.
 
 **Limitations**: The spell must take a "main action" or "secondary action" to cast and must affect only the entity that made the attack.
 
 **Prerequisite**: 6 MP dice total.
 
+___
 #### Elemental Blast
 
 **Type**: (Class C)

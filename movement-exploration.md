@@ -93,7 +93,7 @@ Flight is an intriguing and liberating mode of movements. To terrestrial entitie
 
 However this comes with limitations:
 - An entity with natural flight can only fly when carrying a light load and at most light armour.
-- They cannot use a shield or "unwieldy"/"heavy" weapon.
+- They cannot use a shield or "unwieldy"/"heavy" weapon. (But they can use a buckler)
 - They must have a wing span of at least 1ft per [3lb / Size] of weight. (with size=[1, 2, 3, 4] for ["small", "medium", "large", "huge"] entities respectively). This has general penalties and in particular this causes penalties on [DEX] and [STR] saves when not in flight. Furthermore, naturally entities cannot dig and have a penalty to swim and walk speeds.
 - If they slow to lower than 1/2 their speed in a given terrain, they must land or fall.
 - A flying entity that is knocked **"prone"**, or tripped, drops a distance equal to its speed and can only move at half speed on its next turn. If this drop causes it to hit the ground, it suffers all of the consequences of falling (see "[Falling](#Falling)" section).

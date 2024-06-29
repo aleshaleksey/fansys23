@@ -57,3 +57,5 @@
 - "Acquiring skills and proficiences" -> added proficiency text.
 - Alter wording on spell strike.
 - Fix wording on disarm: "If the weapon is light, the target has a +2 on the roll. If it is heavy, it has -2 on the roll." (used to be backwards for the bonuses.)
+- But they can use a buckler.
+- Spacers. Grammar pedantry.

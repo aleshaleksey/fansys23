@@ -49,4 +49,7 @@
 - A lot of copypasta.
 - A few more spells at level 5-7.
 - Split monster pages.
-- Add remaining two sprites.
+- Add remaining two sprites. Also add raptors and hadrosaurs to "beast" list.
+- Adjust large creature carrying capacity.
+
+## From v0.0.4

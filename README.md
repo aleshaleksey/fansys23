@@ -43,7 +43,7 @@ Of course play will be "clunky" if there isn't at least one person at the table 
 
 The version currently stands at:
 
-**v0.0.1**
+**v0.0.4**
 
 This means that it is the initial draft working version.
 

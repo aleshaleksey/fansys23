@@ -637,7 +637,7 @@ As this is a human-centric game, probably designed by a human, "medium", the sta
 |Tiny|5/4|+2|-2|+2|-2|x1/4|x1/8|-|
 |Small|5/2|+1|-1|+1|-1|x1/2|x1/4|5ft|
 |Medium|5|0|0|0|0|x1|1|5ft|
-|Large|10|-1|+1|-1|+1|x4|x3|5ft(long[1])|
+|Large|10|-1|+1|-1|+1|x2|x3|5ft(long[1])|
 |Huge|20|-2|+2|-2|+2|x4|x16|10ft|
 |Gargantuan|40|-3|+3|-3|+3|x8|x64|15ft|
 |Colossal|80|-4|+4|-4|+4|x16|x256|20ft|

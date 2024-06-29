@@ -171,8 +171,9 @@ Size = large
 |Skills|||"Observe" +3|
 
 This is used for warhorses. Unlike other horses these are combat trained. War horses can be of higher level. In general a warhorse should be half the level of its rider. Knights often have armour (barding) made for their warhorse.
+
 ___
-### Bear
+### Bear (level 6)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |13/13/9|44|20|10|40|climb 30ft|
@@ -205,37 +206,79 @@ ___
 This block can be used for brown or polar bear. It is possible for bears to be of a higher level.
 
 ___
-### Bear
+### Raptor (levels 2, 4)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|13/13/9|44|20|10|40|climb 30ft|
+|(level 2) 14/10/11|12|6|3|45|-|
+|(level 4) 14/10/11|26|10|6|50|-|
 
-(Natural armour + 3)
+(Large, carrying capacity +3 Natural)
 
-||Str|Dex|Con|Int|Wis|Cha|
+|Level 2|Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|16|10|16|4|10|12|
-|Bonus|+3|0|3|-3|0|+1|
-|Save|+6|+1|+5|-1|+2|+3|
+|Stat|16|14|12|4|12|10|
+|Bonus|+3|+2|+1|-3|+1|0|
+|Save|+5|+3|+2|-2|+2|+1|
+
+|Level 4|Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|16|14|14|4|12|10|
+|Bonus|+3|+2|+2|-3|+1|0|
+|Save|+5|+4|+3|-2|+2|+1|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|6 (2)|13|7|3|2|5|4|
+|2(1)|5|3|1|1|2|2|
+|4(1)|9|5|2|1|3|2|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite|+8|1d8+3|Shear damage|
-|Claws|+8|2d4+3|Shear damage|
-|Monster attack|||Two claw attacks as a main action and a bite as secondary action|
-|Keen scent|||Advantage on perception rolls based on scent|
-|Low light Vision|||Can see in the "dark", but not pitch black conditions|
-|[Combined Manoeuvre](abilities.md#combined-manoeuvre-i-v)|||A bear will usually grapple when biting|
-|[Greater Manoeuvre](abilities.md#greater-manoeuvre-i-v)|||Bears can take down very large prey|
-|Prof|||"Grapple", "Sunder"|
-|Skills|||"Swim", "climb", "Track" +2|
-|Loot|||Bear pelts are valuable and make hide armour, their meat is marginally edible to humanoids|
+|Claw|+5/+6|1d4+3 (Shear)|The raptor can either attack with its claw or bite, unless it has multi/monster attack|
+|Bite|+5/+6|2d4+3 (Shear)|The raptor can either attack with its claw or bite, unless it has multi/monster attack|
+|[Skirmisher](../abilities.md#skirmisher)||||
+|Sprinter|||Run x3, Sprint x3|
+|Tracker: Swift (lvl4)||||
+|Flurry (lvl4)|||A rapter can make multiple claw attacks|
+|Keen Sense|||"Sight"|
+|Prof|||"Grapple","Throw"|
+|Skills (lvl2)|"Track" +2, "Climb" +4, "Athletics" +5|||
+|Skills (lvl4)|"Track" +3, "Climb" +6, "Athletics" +7|||
+|Loot|||Raptor pelts are valuable for armour and building materials|
 
-This block can be used for brown or polar bear. It is possible for bears to be of a higher level.
+This represents a large raptor, such as the ones that could be used as cavalry, and not the small, dog sized creatures which are commonly found in bush and woodlands.
+
+Wild raptors dwell on plains and hills and hunt in packs. They prefer smaller prey (including cattle and humanoid caravans), but when hungry have no hesitation when it comes to taking on larger pray, including monsters. Raptors are highly intelligent and have been known to blindside inexperienced humans that come to hunt them.
+
+Raptors are valued as fearsome mounts, but also for their tough hides, which have numerous uses.
+
+___
+### Hadrosaur (level 7)
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|12/14/9|56|23|40ft|(swim) 20ft|
+
+(huge, +3 natural)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|22|8|18|2|10|12|
+|Bonus|+6|-1|+4|-4|0|+1|
+|Save|+10|-1|+6|-2|+2|+3|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|7(2)|14|8|3|2|4|3|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Slam|+10|1d8+6||
+|Throw|+10|||
+|Combined Maneuver I|||A hadrosaur often sends foes flying when it slams them|
+|Senses|||Keen Smell|
+|Skills|"Observe" +5, "Swim" +10|||
+|||||
+
+This is a large, herbivorous dinosaur, that dwells mostly in marsh and wetland terrain. They are not naturally aggressive, but can be dangerous by virtue of their size.
 
 ___
 ## Plants

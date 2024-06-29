@@ -346,7 +346,7 @@ The "Grapple", "Restrain", "Shove", "Throw" and "Trip" manoeuvres can only be us
   - Provokes a penalty and attack of Opportunity if the foe is holding a weapon you are not proficient with AND you are not proficient with **disarm**.
   - If the weapon is light, the target has a +2 on the roll. If it is heavy, it has -2 on the roll.
 - **Feint**:
-  - Effect: Give advantage to next attack.
+  - Effect: Give advantage to next attack against a target (you do not have to be the one to make the next attack).
   - Requires attack roll (Cha based [Nat] roll) vs target's NAT.
 - **Interception**:
   - Effect: Redirect a target's attacks against you, or redirect attacks against a target at you.

@@ -527,7 +527,7 @@ ___
 
 **Type**: Class B (melee), Class S (ranged)
 
-**Description**: Choose a weapon proficiency group. You can now declare spell strike when wielding a weapon in that group and deliver spells for 1 MP.
+**Description**: Choose a weapon proficiency group. You can now declare spell strike when wielding a weapon in that group and deliver spells (cost 1MP dice).
 
 - When delivering a spell that takes an action to cast, or releasing a spell that takes an action/reaction to release (held spell), make a weapon attack. If the attack hits, you deal the normal damage and discharge the spell through the weapon. If the attack misses, the spell is "held".
 

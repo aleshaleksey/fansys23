@@ -34,7 +34,7 @@ The game has **skills** and **proficiencies**. The game defines them as follows.
 
 ### Acquiring skills and proficiencies
 
-Skills are usually acquired at level up by either assigning skill points or adding a skill to "background skills". This reflects time spent honing skills through use on adventure and picking up new skills and techniques by training. Certain special abilities also grant additional skills and proficiencies.
+Skills and proficiencies are usually acquired at level up by either assigning skill points or adding a skill to "background skills". This reflects time spent honing skills through use on adventure and picking up new skills and techniques by training. Certain special abilities also grant additional skills and proficiencies.
 
 It is NOT advisable to allow a character to gain additional skill points outside of this unless it is necessary for party balance or plot reasons. Even then it should not be taken lightly. As an optional rule, a character may spend a solid month of training to gain 1 skill point. Even so, the total number of points (ranks) in a skill cannot exceed [LVL]/2. Certain supernatural abilities can also transfer a skill from one entity to another, but no entity should use them lightly.
 

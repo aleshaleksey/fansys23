@@ -7,26 +7,26 @@ ___
 ### Flame Sprite
 |Level|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|-|
-|1|13/9/14|3|8|2|40ft|-|
-|2|13/9/14|4|14|3|40ft|-|
-|3|13/9/14|5|20|4|45ft|-|
-|4|16/9/17|10|30|7|45ft|-|
-|5|16/9/17|14|35|8|50ft|-|
-|6|16/9/17|14|42|9|50ft|-|
+|1|12/9/13|4|8|2|40ft|-|
+|2|12/9/13|6|14|3|40ft|-|
+|3|12/9/13|8|20|4|45ft|-|
+|4|15/9/16|14|30|7|45ft|-|
+|5|15/9/16|19|35|8|50ft|-|
+|6|15/9/166|19|42|9|50ft|-|
 
 - Flame sprites are small size.
 
 |Level 1-3|Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|8|16|8|8|12|14|
-|Bonus|-1|+3|-1|-1|+1|+2|
-|Save(1-3)|0|+5|0|0|+2|+3|
+|Stat|8|14|10|8|12|14|
+|Bonus|-1|+2|0|-1|+1|+2|
+|Save(1-3)|0|+4|+1|0|+2|+3|
 
 |Level 4-6|Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|8|18|10|10|14|16|
-|Bonus|-1|+4|0+1|0|+2|+3|
-|Save(4-6)|+1|+6|+2|+2|+4|+5|
+|Stat|8|16|12|10|14|16|
+|Bonus|-1|+3|+1|0|+2|+3|
+|Save(4-6)|+1|+6|+s2|+2|+4|+5|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
@@ -46,9 +46,9 @@ ___
 |Elemental Touch (Fire)|SAP+[Int]|[[Base]d6 + [Int]]|Fire, supernatural, can upcast|
 |Senses|||flame sprites are blind, but have keen smell|
 |Senses|||Heat sense (90ft, 180ft at lvl 4)|
-|Skills (lvl1)|||Intimidate +3|
-|Skills (lvl3)|||Acrobatics +5, Intimidate +4|
-|Skills (lvl5)|||Acrobatics +8, Intimidate +7|
+|Skills (lvl1)|||Perform +3|
+|Skills (lvl3)|||Acrobatics +5, Perform +4|
+|Skills (lvl5)|||Acrobatics +8, Perform +7|
 |Special|||A flame sprite not in contact with its element loses its resistance/immunity to physical damage|
 |Ignition|||A flame sprite ignites flammable materials it contacts, making it extremely dangerous|
 |Damage resistance|||"Physical" (becomes immunity at lvl4 and above)|
@@ -57,7 +57,7 @@ ___
 |Vulnerability|||"Ice"|
 |Anathema (water)|||Flame sprites take damage when doused with water or sand. For every gallon of water/sand, the flame sprite takes 5 points of natural damage. A flame sprite that is completely submerged in cold water is destroyed after 1 round (if you can somehow submerge a spirit).|
 
-Flame Sprites are the most dangerous of minor elementals. They are playful spirits associated with fire, however their propensity to ignite everything they and step on as they dance, makes them extremely dangerous, even when they do not have hostile intent.
+Flame Sprites are the most dangerous of minor elementals. They are playful material spirits associated with fire an consisting of it. Despite their playfulness, their propensity to ignite everything they and step on as they dance, makes them extremely dangerous, even when they do not have hostile intent.
 
 ___
 ### Gnome

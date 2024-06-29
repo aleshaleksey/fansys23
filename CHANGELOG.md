@@ -48,3 +48,5 @@
 - Add a small weight endurance penalty to medium armour and add the penalty text to all sections.
 - A lot of copypasta.
 - A few more spells at level 5-7.
+- Split monster pages.
+- Add remaining two sprites.

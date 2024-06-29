@@ -45,7 +45,7 @@ ___
 |Fire Magic III (lvl 5)||||
 |Elemental Touch (Fire)|SAP+[Int]|[[Base]d6 + [Int]]|Fire, supernatural, can upcast|
 |Senses|||flame sprites are blind, but have keen smell|
-|Senses|||Heat sense (90ft, 180ft at lvl 4)|
+|Senses|||Heat sense (90ft, 180ft at lvl 4) - ignores prerequisites|
 |Skills (lvl1)|||Perform +3|
 |Skills (lvl3)|||Acrobatics +5, Perform +4|
 |Skills (lvl5)|||Acrobatics +8, Perform +7|
@@ -104,7 +104,7 @@ ___
 |Foresight (lvl 4)|||Greater gnomes add [Wis] to HiT|
 |Earth Magic III (lvl 5)|||"[Shape Earth](spell-list.md#shape-earth)", "[Earth Ward](spell-list.md#earth-ward)"|
 |Senses|||Gnomes are blind, but have other senses|
-|Senses|||Heat sense (60ft, 120ft at lvl 4), Tremor sense (60ft, 120ft at lvl 4)|
+|Senses|||Heat sense (60ft, 120ft at lvl 4), Tremor sense (60ft, 120ft at lvl 4) - ignores prerequisites|
 |Skills (lvl 1)|||Fortify +4, Harvest +1|
 |Skills (lvl 3)|||Fortify +5, Harvest +3, Prospect 0|
 |Skills (lvl 5)|||Fortify +8, Harvest +6, Prospect +2|
@@ -159,7 +159,7 @@ ___
 |Foresight (lvl 4)|||Greater water sprites add [Wis] to HiT|
 |Water Magic III (lvl 5)||||
 |Senses|||Water sprites are blind, but have keen hearing|
-|Senses|||Tremor sense (90ft, 180ft at lvl 4)|
+|Senses|||Tremor sense (90ft, 180ft at lvl 4) - ignores prerequisites|
 |Skills (lvl1)|||Swim +1, Stealth +4|
 |Skills (lvl3)|||Swim +3, Stealth +5|
 |Skills (lvl5)|||Swim +5, Stealth +8, Navigate +5|
@@ -172,6 +172,61 @@ ___
 Water sprites are the least of the water elementals and take many shapes. Generally they mimic the first moving material object or entity they observe on the material realm, so while they often take the shapes of beasts, birds and humanoids, they occasionally take on somewhat inane forms.
 
 These sprites inhabit aquifers and bodies of water, but they are most noticeable in streams, small rivers and the litoral zone, where they are more likely to encounter humanoids. While seldom hostile to mortals, they have a tendency to inadvertently drown them, which can make them quite dangerous.
+
+___
+### Wind Sprite
+|Level|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|-|
+|1|13/9/14|4|7|2|-|Fly (50ft)|
+|2|13/9/14|6|12|3|-|Fly (50ft)|
+|3|13/9/14|8|17|4|-|Fly (50ft)|
+|4|16/9/17|14|26|7|-|Fly (60ft)|
+|5|16/9/17|19|30|8|-|Fly (60ft)|
+|6|16/9/17|20|38|9|-|Fly (60ft)|
+
+- Water sprites are small size.
+
+|Level 1-3|Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|8|18|8|8|12|12|
+|Bonus|-1|+4|-1|-1|+1|+1|
+|Save(1-3)|0|+6|0|0|+2|+2|
+
+|Level 4-6|Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|8|20|10|10|14|14|
+|Bonus|-1|+5|+0|0|+2|+2|
+|Save(4-6)|+1|+8|+2|+2|+4|+4|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|1(1)|2|3|1|1|2|2|
+|2(1)|4|4|1|1|2|2|
+|3(1)|5|6|1|2|2|3|
+|4(1)|7|7|2|2|3|3|
+|5(1)|8|9|2|2|3|3|
+|6(2)|10|10|2|2|3|3|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Wind Magic I (lvl 1)||||
+|Wind Magic II (lvl 3)||||||
+|Foresight (lvl 4)|||Greater water sprites add [Wis] to HiT|
+|Wind Magic III (lvl 5)||||
+|Senses|||Wind sprites are blind but have keen hearing|
+|Senses|||Blind Sight (15ft, 30ft at lvl 4) - ignores prerequisites|
+|Skills (lvl1)|||Fly +5, Navigate +1|
+|Skills (lvl3)|||Fly +6, Navigate +2|
+|Skills (lvl5)|||Fly +8, Navigate +4|
+|Special|||A wind sprite that IS in contact with an element that is not its own loses resistance/immunity to physical damage|
+|Damage resistance|||"Physical" (becomes immunity at lvl4 and above)|
+|Damage immunity|||"Light"|
+|Condition immunity|||"stunned", "immobilised", "crippled", "bleeding", poisoned" and "paralysed"|
+|Vulnerability|||"Lightning"|
+
+Wind sprites are minor air elementals that like peaceful skies and hate lightning. They particularly like exploring topographically complex terrain and are often found near the ground. They are the ones responsible for laundry and hats blowing away and for the sudden rustling of leaves on days when one would not normally expect it.
+
+Wind sprites hate lightning and vacate an area when they sense a storm brewing.
 
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|

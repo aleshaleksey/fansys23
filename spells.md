@@ -30,7 +30,7 @@ ___
 
 Spells can be viewed as recipes or instructions for calling forth supernatural forces. They are generally at least somewhat fixed in their formulation and procedure and have the following components.
 
-1. **Kinetic Components**: A set of defined, obvious gestures or movements. An "immobilised" or "restrained" caster cannot perform these. (conditions that imply "immobilised" fall under this category). Spells with kinetic components provoke attacks of opportunity.
+1. **Kinetic Components**: A set of defined, obvious gestures or movements. An "immobilised" or "restrained" caster cannot perform these. (conditions that imply "immobilised" fall under this category). Spells with kinetic components provoke attacks of opportunity. Holding objects in one or more hands (or other prehensile appendages), in and of itself, does not prevent a caster from performing kinetic components, unless it is explicitly stated in the spell description/limitations.
 2. **Incantation components**: A set of defined, well enunciated words or sounds. A "silenced" or "silent" caster cannot perform these. (conditions that imply inability to produce defined sound fall under this category).
 3. **Ritual components**: A ritual is a procedure involving defined movement and positioning of objects or entities, or the creation of defined patterns. Disruption of this procedure ruins the ritual. Rituals typically apply to global spells.
 

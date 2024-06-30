@@ -61,3 +61,6 @@
 - Spacers. Grammar pedantry.
 - Change special on least shroud and least ward.
 - Better explain the feint maneuver.
+- Link to abilities and boons in "Level points and abilities" in quickstart.
+- Explicitly state that "kinetic components" have nothing to do with hands.
+- Link to base rule calculations in "All entities have" in the combat section.

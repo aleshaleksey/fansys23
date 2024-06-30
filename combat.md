@@ -17,10 +17,10 @@ This system deals heavily with combat and many of the mechanics are tuned to wor
 All entities have:
 - HiT (Hit Threshold): Representing how difficult it is to cause it damage with a targeted attack.
 - 6 Saves, one for each stat: Representing how well a target resists targeted effects and area of effect attacks.
-- NAP (Natural Attack Potential): How effectively an entity overcomes defences with Nat targeted attacks and the threshold for its Nat abilities and area of effect attacks. NAP is determined by base and SP dice count, and adds [Dex] or [Str].
-- SAP (Supernatural Attack Potential): How effectively an entity overcomes defences with Sup targeted attacks and the threshold for its Sup abilities and area of effect attacks. SAP is determined by base and MP dice count and adds [Int] or [Wis].
+- NAP (Natural Attack Potential): How effectively an entity overcomes defences with Nat targeted attacks and the threshold for its Nat abilities and area of effect attacks. NAP is determined by base and SP dice count, and adds [Dex] or [Str]. See the [NAP/SAP rules](base-rules.md#nap-and-sap-nat-and-sat-attack-of-the-three-letter-words-ii), [NAP/SAP table](base-rules.md#nap-from-base-and-nat) and [NAT/SUP table](base-rules.md#nat-vs-sp-dice-and-sup-vs-mp-dice).
+- SAP (Supernatural Attack Potential): How effectively an entity overcomes defences with Sup targeted attacks and the threshold for its Sup abilities and area of effect attacks. SAP is determined by base and MP dice count and adds [Int] or [Wis]. See the [NAP/SAP rules](base-rules.md#nap-and-sap-nat-and-sat-attack-of-the-three-letter-words-ii), [NAP/SAP table](base-rules.md#nap-from-base-and-nat) and [NAT/SUP table](base-rules.md#nat-vs-sp-dice-and-sup-vs-mp-dice).
 
-The calculation of these parameters is covered in basic rules. There are three categories of offensive abilities: "targeted attacks", "abilities" and "manoeuvres".
+The calculation of these parameters is covered in the base rules. There are three categories of offensive abilities: "targeted attacks", "abilities" and "manoeuvres".
 
 - "Targeted Attacks": The attacker rolls using NAP or SAP against a target's HiT.
 - "Abilities": The target rolls a save vs attacker's NAT (NAP+13) or SAT (SAP+13).

@@ -343,7 +343,7 @@ Every character gets 3 level points at level 1. These can be spend as follows.
 + Exchanged for an increase to stats at the rate of 1 level point = +1 to a single stat. No stat may exceed 24 for player characters. A character can only add one level point to stats per level.
 + Exchanged for abilities and boons.
 
-Abilities and boons are special features of a character that allow them to do things they would not otherwise be able to do, or withstand things they would otherwise not be able to withstand. This also provides some of the flavour to the character. As an example:
+Abilities and boons are special features of a character that allow them to do things they would not otherwise be able to do, or withstand things they would otherwise not be able to withstand. This also provides some of the flavour to the character. See the ["Abilities and Boons"](abilities.md) chapter. As an example:
 
 - An aspiring pyromancer would probably want to take "[elemental touch](abilities.md#elemental-touch)" or "[elemental blast](abilities.md#elemental-blast)" and "[spellcasting: elemental (fire)](abilities.md#spellcasting-elemental)".
 - A plucky peasant or mysterious summoner might both wish to travel with a bestial companion and so take "[bind beast](abilities.md#bind-beast-i-x)".

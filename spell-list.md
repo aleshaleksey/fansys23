@@ -114,7 +114,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 |Name|Sour [Nature]|
 |-|-|
 |Scope|Local|
-|MP|0|
+|MP Dice|0|
 |Target(s)|5ft radius centered on a square in range| (+2)
 |Casting time|"main action"|
 |Range|Close|
@@ -129,7 +129,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 |Name|Hide [Nature, Air]|
 |-|-|
 |Scope|local|
-|MP|0|
+|MP Dice|0|
 |Target(s)|1 entity|
 |Casting time|"main action"|
 |Range|30ft|
@@ -145,7 +145,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 |Name|Silent [Nature, Air]|
 |-|-|
 |Scope|local|
-|MP|0|
+|MP Dice|0|
 |Target(s)|1 object within a 5ft cube or 1 entity|
 |Casting time|"main action"|
 |Range|close|
@@ -160,7 +160,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 |Name|Deafen [Curse]|
 |-|-|
 |Scope|local|
-|MP|0|
+|MP Dice|0|
 |Target(s)|1 entity|
 |Casting time|"main action"|
 |Range|30ft|
@@ -176,7 +176,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 |Name|Compass [Nature, Travel]|
 |-|-|
 |Scope|local|
-|MP|0|
+|MP Dice|0|
 |Target(s)|1sq|
 |Casting time|"main action"|
 |Range|close|
@@ -190,7 +190,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 |Name|Least Anemancy [Air, Spiritual]|
 |-|-|
 |Scope|local|
-|MP|0|
+|MP Dice|0|
 |Target(s)|1sq of air, or a single elemental[air]|
 |Casting time|"main action"|
 |Range|30ft|+2
@@ -212,7 +212,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 |Name|Least Blast [Air, Destruction]|
 |-|-|
 |Scope|local|
-|MP|0|
+|MP Dice|0|
 |Target(s)|1ft sq, 1 entity or 1 object in range|
 |Casting time|"main action"|
 |Range|120ft|+2
@@ -228,7 +228,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 |Name|Message [Air, Spring, Spirit]|
 |-|-|
 |Scope|local|
-|MP|0|
+|MP Dice|0|
 |Target(s)|1sq or 1 entity|
 |Casting time|"main action"|
 |Range|120ft|+2
@@ -244,7 +244,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 |Name|Least Shroud [Air, Light, Nature, Spirit, Travel]|
 |-|-|
 |Scope|local|
-|MP|0|
+|MP Dice|0|
 |Target(s)|1 object within a 5ft cube or 1 entity|
 |Casting time|"main action"|
 |Range|60ft|
@@ -260,7 +260,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 |Name|Least Ward [Barrier, Divine, Earth, Mortal, Nature, Spiritual]|
 |-|-|
 |Scope|local|
-|MP|0|
+|MP Dice|0|
 |Target(s)|1 object within a 5ft cube or 1 entity|
 |Casting time|"main action"|
 |Range|close|
@@ -274,7 +274,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 |Name|Down [Earth]|
 |-|-|
 |Scope|local|
-|MP|0|
+|MP Dice|0|
 |Target(s)|1 entity|
 |Casting time|"main action"|
 |Range|15ft| (+1)
@@ -289,7 +289,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 |Name|Least Geomancy [Earth, Spiritual]|
 |-|-|
 |Scope|local|
-|MP|0|
+|MP Dice|0|
 |Target(s)|1sq of earth, or a single elemental[earth]|
 |Casting time|"main action"|
 |Range|30ft|+2
@@ -309,7 +309,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 |Name|Least Spike [Earth, Destruction]|
 |-|-|
 |Scope|local|
-|MP|0|
+|MP Dice|0|
 |Target(s)|5ft radius, centered on caster|+2
 |Casting time|"main action"|
 |Range|close|
@@ -325,7 +325,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 |Name|Ignition [Fire, Destruction]|
 |-|-|
 |Scope|local|
-|MP|0|
+|MP Dice|0|
 |Target(s)|1sq|
 |Casting time|"main action"|
 |Range|120ft|+2
@@ -340,7 +340,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 |Name|Least Warmth [Fire, Travel, Summer]|
 |-|-|
 |Scope|local|
-|MP|0|
+|MP Dice|0|
 |Target(s)|5ft radius round a square in range| + 2
 |Casting time|"full round"| -1
 |Range|close|
@@ -355,7 +355,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 |Name|Least Pyromancy [Fire, Summer, Spiritual]|
 |-|-|
 |Scope|local|
-|MP|0|
+|MP Dice|0|
 |Target(s)|A fire in a single square, or a single elemental[fire]|
 |Casting time|"main action"|
 |Range|30ft|+2
@@ -376,7 +376,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 |Name|Least Hydromancy [Water, Spiritual]|
 |-|-|
 |Scope|local|
-|MP|0|
+|MP Dice|0|
 |Target(s)|1sq of water or ice, or a single elemental[water]|
 |Casting time|"main action"|
 |Range|30ft|+2
@@ -397,7 +397,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 |Name|Least Freeze [Water, Ice, Destruction]|
 |-|-|
 |Scope|local|
-|MP|0|
+|MP Dice|0|
 |Target(s)|1sq|
 |Casting time|"main action"|
 |Range|120ft|+2
@@ -412,7 +412,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 |Name|Mist [Water, Ice, Winter]|
 |-|-|
 |Scope|local|
-|MP|0|
+|MP Dice|0|
 |Target(s)|5ft radius centered on a square in range|
 |Casting time|"main action"|
 |Range|30ft|
@@ -430,7 +430,7 @@ ____
 |Name|Least Heal [Divine, Healing, Nature, Spring]|
 |-|-|
 |Scope|local|
-|MP|1|
+|MP Dice|1|
 |Target(s)|1 entity|
 |Casting time|"main action"|
 |Range|close|
@@ -449,7 +449,7 @@ ____
 |Name|Beast Speech [Nature, Air]|
 |-|-|
 |Scope|local (global)|
-|MP|1 (4)|
+|MP Dice|1 (4)|
 |Target(s)|1 entity (100ft radius)|
 |Casting time|"full round action" (1h + 20min per 4MP)| -2
 |Range|close|
@@ -470,7 +470,7 @@ ____
 |Name|Spirits' Secret [Air, Spirit]|
 |-|-|
 |Scope|local (global)|
-|MP|1 (4)|
+|MP Dice|1 (4)|
 |Target(s)|1 entity|
 |Casting time|1 minute (24h + 2h per 4MP dice)|-2
 |Range|240ft (2 miles)|+3
@@ -494,7 +494,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 |Name|Tailwind [Air, Spirit, Travel]|
 |-|-|
 |Scope|local (global)|
-|MP|1 (4)|
+|MP Dice|1 (4)|
 |Target(s)|1 entity|
 |Casting time|"1 main action" (1h + 20min per 4MP dice)|
 |Range|close|-2
@@ -513,7 +513,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 |Name|Headwind [Air, Spring]|
 |-|-|
 |Scope|local (global)|
-|MP|1 (4)|
+|MP Dice|1 (4)|
 |Target(s)|20ft, 60 degree cone centered on the caster (100ft sphere)|+1
 |Casting time|"1 main action" (1h + 20min per 4MP dice)|
 |Range|close|
@@ -532,7 +532,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 |Name| Bear's Claws [Earth, Nature, Travel]|
 |-|-|
 |Scope|local|
-|MP|1+|
+|MP Dice|1+|
 |Target(s)|1 entity+|
 |Casting time|"1 action"|
 |Range|close|
@@ -549,7 +549,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 |Name|Gnomes' Mercy [Earth, Spirit, Travel]|
 |-|-|
 |Scope|local|
-|MP|1|
+|MP Dice|1|
 |Target(s)|1 entity or an object up to 5x5x5ft|
 |Casting time|"reaction"|+4
 |Range|30ft|
@@ -566,7 +566,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 |Name|Shape Earth [Earth, Nature, Travel]|
 |-|-|
 |Scope|local (global)|
-|MP|1 (4)|
+|MP Dice|1 (4)|
 |Target(s)|rock or ground within a 10ft radius of a sq (200ft)| +3
 |Casting time|"main action" (1h + 20min per 4MP)|
 |Range|120ft| +2
@@ -590,7 +590,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 |Name|Ensnare [Nature]|
 |-|-|
 |Scope|local (global)|
-|MP|1 (4)|
+|MP Dice|1 (4)|
 |Target(s)|10ft radius centered on a square (200ft)| +3
 |Casting time|"main action" (1h + 20min per 4MP)|
 |Range|60ft|+1
@@ -612,7 +612,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 |-|-|
 |-|-|
 |Scope|local (global)|
-|MP|1 (4)|
+|MP Dice|1 (4)|
 |Target(s)|5ft radius centered on a sq (100ft)|+1
 |Casting time|"main action" (1h + 20min per 4MP)|
 |Range|120ft| +2
@@ -630,7 +630,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 |Name|Enflame [Fire, Mortal]|
 |-|-|
 |Scope|local|
-|MP|1|
+|MP Dice|1|
 |Target(s)|1 entity|
 |Casting time|"main action"|
 |Range|30ft|
@@ -650,7 +650,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 |Name|Least Vengeance [Curse, Destruction, Fire]|
 |-|-|
 |Scope|local|
-|MP|1|
+|MP Dice|1|
 |Target(s)|1 entity|
 |Casting time|"reaction" or "secondary action"|+4
 |Range|close|
@@ -669,7 +669,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 |Name|Winter's Touch [Ice/Water, Winter]|
 |-|-|
 |Scope|local (global)|
-|MP|1 (4)|
+|MP Dice|1 (4)|
 |Target(s)|1+ entity/sq (100ft per 4MP)|
 |Casting time|"main action" (1 hour + 20 min/4MP)|
 |Range|close|
@@ -690,7 +690,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 |Name|Winter's Touch [Ice/Water, Mortal]|
 |-|-|
 |Scope|local|
-|MP|1|
+|MP Dice|1|
 |Target(s)|1+ entity|
 |Casting time|"main action"|
 |Range|close|-2
@@ -713,7 +713,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 |Name|Water Snake [Water/ice, Spiritual]|
 |-|-|
 |Scope|local|
-|MP|1|
+|MP Dice|1|
 |Target(s)|1 entity or sq|
 |Casting time|"main action"|
 |Range|close/15ft|-1
@@ -739,7 +739,7 @@ ___
 |-|-|
 |Name|Contagion [Curse, Destruction, Nature]|
 |Scope|local (global)|
-|MP|2 (8)|
+|MP Dice|2 (8)|
 |Target(s)|1 entity (100ft radius)|
 |Casting time|"main action" (2h + 1h per 4MP)|
 |Range|15ft|-1
@@ -762,7 +762,7 @@ ___
 |Name|Harvest [Curse, Nature]|
 |-|-|
 |Scope|local (global)|
-|MP|2 (8)|
+|MP Dice|2 (8)|
 |Target(s)|5ft radius centered on a sq (100ft)|+1
 |Casting time|"main action" (1h + 20min per 4MP)|
 |Range|15ft|-2
@@ -785,7 +785,7 @@ ___
 |Name|Least Rest [Divine, Healing, Nature, Winter]|
 |-|-|
 |Scope|local|
-|MP|2|
+|MP Dice|2|
 |Target(s)|1 entity|
 |Casting time|"main action"|
 |Range|close|
@@ -804,7 +804,7 @@ ___
 |Name|Meadow of Flame [Fire, Destruction]|
 |-|-|
 |Scope|local|
-|MP|2|
+|MP Dice|2|
 |Target(s)|25ft radius centered on a square, 10ft height|+4
 |Casting time|"main action"|
 |Range|close (excludes own square)|
@@ -825,7 +825,7 @@ ___
 |Name|Warmth [Fire, Travel]|
 |-|-|
 |Scope|local (global)|
-|MP|2 (8)|
+|MP Dice|2 (8)|
 |Target(s)|20ft radius round a square in range (400ft)|+6
 |Casting time|"full round" (4h + 40min per 4MP) |-1
 |Range|30ft|
@@ -847,7 +847,7 @@ ___
 |Name|Summon Flame Sprite [Fire, Spiritual]|
 |-|-|
 |Scope|local (global)|
-|MP|2 (8)|
+|MP Dice|2 (8)|
 |Target(s)|1sq (1sq)|
 |Casting time|"full round action" (4h + 40min per 4MP)|-2
 |Range|30ft (30ft)|
@@ -872,7 +872,7 @@ ___
 |Name|Glide [Wind, Travel]|
 |-|-|
 |Scope|local (global)|
-|MP|2 (8)|
+|MP Dice|2 (8)|
 |Target(s)|2 entities or an object no bigger than 15 x 15 x 15ft (200ft)|+1
 |Casting time|"main action" or "reaction" (2h + 20min per 8MP)|
 |Range|60ft|+1
@@ -896,7 +896,7 @@ ___
 |Name|Veil [Air, Curse]|
 |-|-|
 |Scope|local (global)|
-|MP|2 (8)|
+|MP Dice|2 (8)|
 |Target(s)|1 entity or an object no more than 5x5x5ft (100ft)|
 |Casting time|"main action" (2h + 40min per 4MP dice)|
 |Range|close|
@@ -919,7 +919,7 @@ ___
 |Name|Summon Flame Sprite [Air, Spiritual]|
 |-|-|
 |Scope|local (global)|
-|MP|2 (8)|
+|MP Dice|2 (8)|
 |Target(s)|1sq (1sq)|
 |Casting time|"full round action" (2 hours + 20min per 4MP)|-2
 |Range|30ft (30ft)|
@@ -942,7 +942,7 @@ ___
 |Name| [Curse, Water]|
 |-|-|
 |Scope|local (global)|
-|MP|2 (8)|
+|MP Dice|2 (8)|
 |Target(s)|1 entity|
 |Casting time|"main action" (2h + 40min per 4MP)|
 |Range|close|
@@ -968,7 +968,7 @@ ___
 |Name|Silence [Curse, Water]|
 |-|-|
 |Scope|local (global)|
-|MP|2 (8)|
+|MP Dice|2 (8)|
 |Target(s)|1 entity or 5ft radius centered ona square (100ft)|+1
 |Casting time|"main action" (2h + 40min per 4MP dice)|
 |Range|60ft|+1
@@ -986,7 +986,7 @@ ___
 |Name|Summon Flame Sprite [water/Ice, Spiritual]|
 |-|-|
 |Scope|local (global)|
-|MP|2 (8)|
+|MP Dice|2 (8)|
 |Target(s)|1sq (1sq)|
 |Casting time|"full round action" (2 hours + 20min per 4MP)|-2
 |Range|30ft (30ft)|
@@ -1009,7 +1009,7 @@ ___
 |Name|Earthen Hand [Earth]|
 |-|-|
 |Scope|local (global)|
-|MP|2 (8)|
+|MP Dice|2 (8)|
 |Target(s)|1sq|
 |Casting time|"main action" (2h + 40min per 4MP dice)|
 |Range|30ft|
@@ -1041,7 +1041,7 @@ ___
 |Name|Warded Ground [Barrier, Earth, Ground]|
 |-|-|
 |Scope|local (global)|
-|MP|2 (8)|
+|MP Dice|2 (8)|
 |Target(s)|30ft (400ft)|+4 (Ground only)
 |Casting time|"1 minute" (24h +2h per 4Mp dice)|-2
 |Range|close|-2
@@ -1065,7 +1065,7 @@ ___
 |Name|Summon gnome [Earth, Spiritual]|
 |-|-|
 |Scope|local (global)|
-|MP|2 (8)|
+|MP Dice|2 (8)|
 |Target(s)|1sq (1sq)|
 |Casting time|"full round action" (2 hours + 20min per 4MP)|-2
 |Range|30ft (30ft)|
@@ -1088,7 +1088,7 @@ ___
 |Name|Promise [Curse, Global]|
 |-|-|
 |Scope|(global)|
-|MP|(8)|
+|MP Dice|(8)|
 |Target(s)|(1 entity)|
 |Casting time|2h + 1h per 4MP|
 |Range|close|
@@ -1116,7 +1116,7 @@ ___
 |Name|Animate Plant [Mortal, Nature]|
 |-|-|
 |Scope|local (global)|
-|MP|3 (8)|
+|MP Dice|3 (8)|
 |Target(s)|1sq (1sq)|
 |Casting time|"full round action" (4h + 40min per 4MP)|-2
 |Range|30ft (30ft)|
@@ -1140,7 +1140,7 @@ ___
 |Name|Cure [Divine, Healing, Nature]|
 |-|-|
 |Scope|local|
-|MP|3|
+|MP Dice|3|
 |Target(s)|1 entity|
 |Casting time|"main action"|
 |Range|15ft|+
@@ -1158,7 +1158,7 @@ ___
 |Name|Growth [Nature]|
 |-|-|
 |Scope|local (global)|
-|MP|3 (12)|
+|MP Dice|3 (12)|
 |Target(s)|1 entity or an object that fits within a 5ft square (100ft)|
 |Casting time|"main action" (3 hours + 1 h per 4MP)|
 |Range|close|-3
@@ -1177,7 +1177,7 @@ ___
 |Name|Least Curse [Curse, Destruction, Spirit]|
 |-|-|
 |Scope|local (global)|
-|MP|3 (12)|
+|MP Dice|3 (12)|
 |Target(s)|1 entity or item|
 |Casting time|"full round" (6h + 6h per 4MP)|-1
 |Range|30ft|
@@ -1219,7 +1219,7 @@ ___
 |Name|Animate Dead [Curse, Profane]|
 |-|-|
 |Scope|local (global)|
-|MP|3 (12)|
+|MP Dice|3 (12)|
 |Target(s)|1sq (1sq)|
 |Casting time|"full round action" (4h + 40min per 4MP)|-2
 |Range|30ft (30ft)|
@@ -1248,7 +1248,7 @@ ___
 |Name|Earth Ward [Barrier, Earth]|
 |-|-|
 |Scope|local (global)|
-|MP|3 (12)|
+|MP Dice|3 (12)|
 |Target(s)|1 entity/15ft (200ft)|+6
 |Casting time|"full round"/"reaction"(12h + 6h per 4MP)|(5,10)
 |Range|close|(3,8)
@@ -1275,7 +1275,7 @@ ___
 |Name|Mole [Earth, Nature, Travel]|
 |-|-|
 |Scope|local (global)|
-|MP|3 (12)|
+|MP Dice|3 (12)|
 |Target(s)|1 or more entities|
 |Casting time|"main action" (1h + 20min per 4MP)|
 |Range|close|
@@ -1295,7 +1295,7 @@ ___
 |Name|Wind Ward [Barrier, Water]|
 |-|-|
 |Scope|local (global)|
-|MP|3 (12)|
+|MP Dice|3 (12)|
 |Target(s)|1 entity/10ft (200ft)|+4
 |Casting time|"full round"/"reaction"(12h + 6h per 4MP)|(3,7)
 |Range|15ft|(2,6)
@@ -1321,7 +1321,7 @@ ___
 |Name|Water Walk [Travel, Water]|
 |-|-|
 |Scope|Local (Global)|
-|MP|3 (12)|
+|MP Dice|3 (12)|
 |Target(s)|3 or more entities(300ft)|+4
 |Casting time|"main action" (6h + 2h per 4MP)|
 |Range|close|-2(2)
@@ -1344,7 +1344,7 @@ ___
 |Name|Winter's Blade [Ice, Destruction, Summer]|
 |-|-|
 |Scope|local|
-|MP|3|
+|MP Dice|3|
 |Target(s)|1 entity or weapon|
 |Casting time|1 secondary action|+2
 |Range|30ft|+2(4)
@@ -1365,7 +1365,7 @@ ___
 |Name|Storm Ward [Barrier, Wind]|
 |-|-|
 |Scope|local (global)|
-|MP|3 (12)|
+|MP Dice|3 (12)|
 |Target(s)|1 entity/15ft (300ft)|+6
 |Casting time|"full round"/"reaction"(12h + 6h per 4MP)|(5,10)
 |Range|15ft|(4,9)
@@ -1392,7 +1392,7 @@ ___
 |Name|Wind Walk [Air, Nature, Travel]|
 |-|-|
 |Scope|Local (Global)|
-|MP|3 (12)|
+|MP Dice|3 (12)|
 |Target(s)|1 or more entities|
 |Casting time|"main action" (3h + 1h per 4MP)|
 |Range|close|
@@ -1412,7 +1412,7 @@ ___
 |Name|Charm Mortal [mortal, fire]|
 |-|-|
 |Scope|local|
-|MP|3|
+|MP Dice|3|
 |Target(s)|1 entity|
 |Casting time|"main action"|
 |Range|15ft|-1
@@ -1438,7 +1438,7 @@ ___
 |Name|Fire Ward [Barrier, Fire]|
 |-|-|
 |Scope|local (global)|
-|MP|3 (12)|
+|MP Dice|3 (12)|
 |Target(s)|1 entity/10ft (200ft)|+4
 |Casting time|"full round"/"reaction"(12h + 6h per 4MP)|(3,8)
 |Range|close|(3,8)
@@ -1466,7 +1466,7 @@ ___
 |Name|Summer's Blade [Destruction, Fire, Summer]|
 |-|-|
 |Scope|local|
-|MP|3|
+|MP Dice|3|
 |Target(s)|1 entity or weapon|
 |Casting time|1 secondary action|+2
 |Range|30ft|+2(4)
@@ -1487,7 +1487,7 @@ ___
 |Name|Guidance of the Winds [Air, Spirit]|
 |-|-|
 |Scope|local (global)|
-|MP|3 (12)|
+|MP Dice|3 (12)|
 |Target(s)|1 entity (100ft)|
 |Casting time|"full round" (12h + 6 per 3MP)|-1
 |Range|close|-2
@@ -1507,7 +1507,7 @@ ___
 |Name|Guidance of the Earth [Earth, Spirit]|
 |-|-|
 |Scope|local (global)|
-|MP|3 (12)|
+|MP Dice|3 (12)|
 |Target(s)|1 entity (100ft)|
 |Casting time|"full round" (12h + 6 per 3MP)|-1
 |Range|close|-2(-3)
@@ -1532,7 +1532,7 @@ ___
 |Name|Balance of Seasons [Air, Earth, Fire, Water]|
 |-|-|
 |Scope|local (global)|
-|MP|4 (16)|
+|MP Dice|4 (16)|
 |Target(s)|20ft radius (400ft radius)|+8
 |Casting time|"full round action" (8h + 8h per 4MP dice)|-1(7)
 |Range|close|-(5)
@@ -1562,7 +1562,7 @@ ___
 |Name|Balance of Nature [Divine, Profane, Nature]|
 |-|-|
 |Scope|local (global)|
-|MP|4 (16)|
+|MP Dice|4 (16)|
 |Target(s)|20ft radius (400ft radius)|+8
 |Casting time|"full round action" (8h + 8h per 4MP dice)|-1(7)
 |Range|close|-(5)
@@ -1594,7 +1594,7 @@ ___
 |Name|Balance Bestial Transformation [Curse, Mortal, Nature]|
 |-|-|
 |Scope|local (global)|
-|MP|4 (16)|
+|MP Dice|4 (16)|
 |Target(s)|1 entity|
 |Casting time|"main action" (2h + 40min per 4MP)|
 |Range|close|
@@ -1617,7 +1617,7 @@ ___
 |Name|Rejuvenate Land [Healing, Nature]|
 |-|-|
 |Scope|local (global)|
-|MP|4 (16)|
+|MP Dice|4 (16)|
 |Target(s)|30ft radius (600ft)| (+12)
 |Casting time|"1 minute" (4 days + 1 day per 4MP)|-2(10)
 |Range|close|-2(8)
@@ -1641,7 +1641,7 @@ ___
 |Name|Animate Golem [Earth]|
 |-|-|
 |Scope|local (global)|
-|MP|4 (16)|
+|MP Dice|4 (16)|
 |Target(s)|1sq (1sq)|
 |Casting time|"1 min" (4 days + 1 day per 4MP)|
 |Range|15ft|-1
@@ -1665,7 +1665,7 @@ ___
 |Name|Enchanted Ground [Earth, Spirit]|
 |-|-|
 |Scope|local (global)|
-|MP|4 (16)|
+|MP Dice|4 (16)|
 |Target(s)|40ft radius, 15ft depth (800ft radius, 100ft depth)|+8
 |Casting time|"1 action" (4h + 4h per 4MP dice)|
 |Range|close|-2(6)
@@ -1693,7 +1693,7 @@ ___
 |Name|Speak Through Flame [Fire, Spirit]|
 |-|-|
 |Scope|local|
-|MP|4|
+|MP Dice|4|
 |Target(s)|1 entity|
 |Casting time|"1 action"|
 |Range|The material realm|+15
@@ -1716,7 +1716,7 @@ ___
 |Name|Aqueous Step [Travel, Water]|
 |-|-|
 |Scope|local (global)|
-|MP|4 (16)|
+|MP Dice|4 (16)|
 |Target(s)|2 entities* (2 entities*)|+2
 |Casting time|"main action" (4h + 40 min per 4MP dice)|
 |Range|close/540ft (close/180 miles)|+8(10)
@@ -1741,7 +1741,7 @@ ___
 |Name|Mirage [Spiritual, Water]|
 |-|-|
 |Scope|local (global)|
-|MP|4 (16)|
+|MP Dice|4 (16)|
 |Target(s)|20ft radius (400ft)|8
 |Casting time|"main action" (4h +4h per 4MP)|
 |Range|120ft|+2(10)
@@ -1770,7 +1770,7 @@ An illusion can be broken in the following manner:
 |Name|Scry [Spirit, Water]|
 |-|-|
 |Scope|local (global)|
-|MP|4 (16)|
+|MP Dice|4 (16)|
 |Target(s)|1 entity or object|
 |Casting time|"main action" (4h + 40min per 4MP dice)|
 |Range|720ft (240 miles)|+11
@@ -1790,7 +1790,7 @@ An illusion can be broken in the following manner:
 |Name|Least Storm [Air, Destruction, Nature]|
 |-|-|
 |Scope|local (global)|
-|MP|4 (16)|
+|MP Dice|4 (16)|
 |Target(s)|30ft centered on a square (600ft)|+8
 |Casting time|"main action" (4h + 40 min per 4MP dice)|
 |Range|120ft|+2(10)
@@ -1813,7 +1813,7 @@ An illusion can be broken in the following manner:
 |Name|Least Weather Control [Air, Nature]|
 |-|-|
 |Scope|local (global)|
-|MP|4 (16)|
+|MP Dice|4 (16)|
 |Target(s)|25ft (500ft)|+8
 |Casting time|"full round" (8 hours + 8 hours per 4MP)|-1(7)
 |Range|close|
@@ -1836,7 +1836,7 @@ ___
 |Name|Pact [Curse, Global]|
 |-|-|
 |Scope|(global)|
-|MP|(20)|
+|MP Dice|(20)|
 |Target(s)|(2 entities)|+2
 |Casting time|1 day + 4h per 4 MP dice|
 |Range|close|
@@ -1861,7 +1861,7 @@ ___
 |Name|Revenant [Divine, Fire, Earth]|
 |-|-|
 |Scope|(global)|
-|MP|20|
+|MP Dice|20|
 |Target(s)|1 entity|
 |Casting time|24 hours|-2
 |Range|close|
@@ -1893,7 +1893,7 @@ The target returns with all of its SP and MP and up to 12 HP.
 |Name|Flawed Transmutation [Curse, Incantation]|
 |-|-|
 |Scope|local (global)|
-|MP|5 (20)|
+|MP Dice|5 (20)|
 |Target(s)|1 object (medium)|
 |Casting time|1 action (5h + 5h per 5 MP dice)|
 |Range|close|
@@ -1919,7 +1919,7 @@ The target returns with all of its SP and MP and up to 12 HP.
 |Name|Flame Stride [Travel, Fire]|
 |-|-|
 |Scope|local (global)|
-|MP|5 (20)|
+|MP Dice|5 (20)|
 |Target(s)|2 entities* (2 entities*)|+2
 |Casting time|"secondary action" (4h + 40 min per 4MP dice)|+2
 |Range|close/600ft (close/200 miles)|+9(13)
@@ -1949,7 +1949,7 @@ ___
 |Name|Razor Wind [Wind, Destruction]|
 |-|-|
 |Scope|local|
-|MP|6|
+|MP Dice|6|
 |Target(s)|60ft, 90 degree cone, centered on caster|+10
 |Casting time|"secondary action"|+2
 |Range|close|
@@ -1969,7 +1969,7 @@ ___
 |Name|Forest of Flame [Fire, Destruction]|
 |-|-|
 |Scope|local (global)|
-|MP|6|
+|MP Dice|6|
 |Target(s)|40ft radius centered on a square, 60ft height (800ft, 100ft high)|+7
 |Casting time|"main action" (6 hours + 1h per 4MP)|
 |Range|close|
@@ -1992,7 +1992,7 @@ ___
 |Name|Legion of Dead [Curse, Profane]|
 |-|-|
 |Scope|local (global)|
-|MP|6 (24)|
+|MP Dice|6 (24)|
 |Target(s)|50ft radius (1000ft)| (+20) 
 |Casting time|"full round action" (12h + 2h per 4MP)|18(-2)
 |Range|30ft (30ft)|16(-2)
@@ -2029,7 +2029,7 @@ ___
 |Name|Incarnate [Divine, Profane]|
 |-|-|
 |Scope|(global)|
-|MP|28|
+|MP Dice|28|
 |Target(s)|1 entity|
 |Casting time|24 hours|-3
 |Range|close|
@@ -2069,7 +2069,7 @@ ___
 |Name|Realm of Flame [Spiritual, Fire, Destruction]|
 |-|-|
 |Scope|local (global)|
-|MP|10 (40)|
+|MP Dice|10 (40)|
 |Target(s)|110ft radius centered on a square, 160ft height (1 mile, 600ft high)|+19
 |Casting time|"main action" (10 days + 1 day per 4MP)|
 |Range|close|
@@ -2101,7 +2101,7 @@ ____
 |-|-|
 |Name| []|
 |Scope||
-|MP||
+|MP Dice||
 |Target(s)||
 |Casting time||
 |Range||
@@ -2372,7 +2372,7 @@ ___
 |Name| []|
 |-|-|
 |Scope||
-|MP||
+|MP Dice||
 |Target(s)||
 |Casting time||
 |Range||
@@ -2383,7 +2383,7 @@ ___
 |Name| []|
 |-|-|
 |Scope||
-|MP||
+|MP Dice||
 |Target(s)||
 |Casting time||
 |Range||
@@ -2400,7 +2400,7 @@ ___
 |Name| []|
 |-|-|
 |Scope||
-|MP||
+|MP Dice||
 |Target(s)||
 |Casting time||
 |Range||

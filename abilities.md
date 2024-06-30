@@ -652,7 +652,7 @@ ___
 - The beast loses all abilities that exceed the max permitted class.
 - The beast may serve as a mount if it can carry you.
 
-**Prerequisite**: You must have at least one level of "global" or "incantation" magic to gain this ability.
+**Prerequisite**: You must have at least one level of "global" or "incantation" or "nature" magic to gain this ability.
 
 |Ability Level|Min Level|Dmg. dice|Attack bonus|HP|SP|MP|Permitted class|Modalities|
 |-|-|-|-|-|-|-|-|-|

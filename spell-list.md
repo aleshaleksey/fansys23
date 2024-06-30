@@ -268,7 +268,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 |Components|incantation|(+1)
 |Save|Int, harmless|
 
-**Description**: The target gains light cover, from a clearly tangibles phenomenon. (+2) (4-4)
+**Description**: The target gains light cover from a clearly tangible phenomenon. (+2) (4-4)
 
 ### Down
 |Name|Down [Earth]|

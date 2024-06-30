@@ -164,7 +164,7 @@ Damage Key:
 |Mace|Percussive|1d6|B|1|Str|5|-|-|3|10|
 |Morning Star|Percussive|1d6|B/P|1|Str|5|-|-|3|10|
 |War hammer|Percussive|2d4/1d12|B/P|1+|Str|5|-|-|3|10|
-|Maul|Percussive|2d6|B/P|2|Str|5|-|-|12|14|
+|Maul|Percussive|2d6|B/P|2|Str|5|-|-|8|14|
 |||||||||||
 |Glaive|Pole-arm|1d12|S|2|Str|10|-|-|4|6|
 |Halberd|Pole-arm|1d10|S/P|2|Str|10|-|-|5|8|

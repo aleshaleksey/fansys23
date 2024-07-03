@@ -36,7 +36,7 @@ ___
 ### Sweet Ooze
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|12/11/11|10|8|20ft|20ft(climb)|
+|12/11/11|10|8|2|20ft|20ft(climb)|
 
 (medium)
 
@@ -58,6 +58,8 @@ ___
 |Skills|"Climb" +2, "Stealth" +4, "Observe" + |||
 |Heat sense|||The ooze is blind but can accurately sense heat up to 10ft|
 |Tremor sense|||Th ooze is blind but can sense vibrations within 60ft|
+|Resistance|||"Physical"|
+|Vulnerability|||"light", "heat"|
 
 This monster dwells in cracks in dry rocks and exudes a sweet smell to attract prey. When beasts or humanoids approach it oozes out of the cracks and attempts to make contact with its prey, subduing it with its poisonous touch before dissolving it.
 
@@ -147,6 +149,44 @@ ___
 |Skills|||+5 to any 2, +4 to any two (usually knowledge arcana, track, nature)|
 
 When strong trolls and some giants are killed, they have enough vitality that the head, filled driven by anger survives and walks away. These monsters are driven by hatred of those that killed them and constant anger. Even so, they are smart enough to avoid obviously suicidal ventures. No one wants to die.
+
+___
+### The worm that sings
+___
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|15/14/15|56|58|15|30ft|Cosmic*|
+
+(huge +2/-2, Deflection +4)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|18|12|16|18|14|14|
+|Bonus|+4|+1|+3|+4|+2|+2|
+|Save|+9|+3|+5|+11|+4|+4|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
+|-|-|-|-|-|-|-|
+|10(2)|13|19|3|4|5|7|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Elemental Blast|+9|2d4+4|Lightning|
+|Elemental Touch|+9|2d4+2|Lightning|
+|Spore touch|||The worm uses its action to touch one willing mortal. The mortal becomes infected with its spores. It must make 3 Con saves, one at the end of the day, one after 7 days, one after 30 days. After failing a save, the target loses 1 Con (can be cured by a complete rest with medical treatment) and gains +1 to Int. If the target fails all three saves it becomes a young worm.|
+|Spellcasting:Incantation V|||Theshold=24, Always knows "command mortal"|
+|Spellcasting: Air III|||Threshold=22|
+|Spellcasting: Nature II|||Threshold=22|
+|Xenophonia|||Humanoid, Animal, Plant, Monster, Undead, Spirit||
+|Senses|||Normal + Life sense (60ft)|
+|Senses|||Keen Hearing|
+|Skills|||"Perform" +9, "Spellworking" +11, "Knowledge:Arcane, Nature, Geography" +11, "Knowledge: History": +8, "Navigate" +8, "Observe" +8|
+|Resistance|||"percussive", "pressure", "light", "ice", "necrotic"|
+|Vulnerability|||"entropic"|
+
+A very dangerous otherworldly monster. The worm that sings is has a slender, mushroom-like body with a flat head and towers 15ft as it stands. It wonders remote and sparsely inhabited lands, with no obvious goal, singing a haunting song as it goes, that is capable of ensnaring mortals. Mortals ensnared by the song either stand motionless and allow the worm to implant its eggs in it, which hatch within a month, beginning to devour the victim as they mature. Others become violent and attempt to strike nearby beings, even close friends.
+
+Worms that sing are thought to be capable of spellcasting. Those that encounter them speak of enthralling stories of ages past and ages that are to come, of other places on this world and of other worlds.
 
 ___
 ### Mudwalker

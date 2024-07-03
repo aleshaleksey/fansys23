@@ -65,3 +65,4 @@
 - Explicitly state that "kinetic components" have nothing to do with hands.
 - Link to base rule calculations in "All entities have" in the combat section.
 - Add table of spell learning to the 'Spells gained from levels in "spellcasting" ability' section.
+- add brown ooze.

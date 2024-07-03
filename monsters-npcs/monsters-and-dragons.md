@@ -146,7 +146,38 @@ Size = small
 |Skills|||"Stealth" +3, "Observe" +2|
 |Loot|||Dog meat is edible to humanoids|
 
-A mog is a small vicious flying creature that resembles a dog, with sharp jaws and flippers. 
+A mog is a small vicious flying creature that resembles a dog, with sharp jaws and flippers. They live on coastlines and and rocky islands.
+
+___
+### Sweet Ooze
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|12/11/11|10|8|20ft|20ft(climb)|
+
+(medium)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|8|12|12|6|12|10|
+|Bonus|-1|+1|+1|-2|+1|0|
+|Save|0|+2|+3|-1|+2|+1|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|2(1)|4|4|1|1|2|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Touch (attack)|+3|1d4+1|Immobilisation poison: End of first turn the target must succeed threshold=16 Con save or be restrained. If it fails the first save, it must make a second Con save (threshold=16) at the end of its subsequent turn or be immobilised for 10 minutes. The condition can be removed with a (threshold=16) heal roll.|
+|Dissolve|+3|1d10+1 (necrotic)|The ooze can use its action to enter an immobilised entity's orifices and dissolve it from the inside|
+|Amorphous|||The ooze is liquid and can fit into spaces as 1 inch across.|
+|Skills|"Climb" +2, "Stealth" +4, "Observe" + |||
+|Heat sense|||The ooze is blind but can accurately sense heat up to 10ft|
+|Tremor sense|||Th ooze is blind but can sense vibrations within 60ft|
+
+This monster dwells in cracks in dry rocks and exudes a sweet smell to attract prey. When beasts or humanoids approach it oozes out of the cracks and attempts to make contact with its prey, subduing it with its poisonous touch before dissolving it.
+
+These oozes are themselves devoured by some kinds of fungus, and as such they prefer dry climates.
 
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|

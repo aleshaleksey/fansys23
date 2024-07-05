@@ -229,6 +229,43 @@ Wind sprites are minor air elementals that like peaceful skies and hate lightnin
 Wind sprites hate lightning and vacate an area when they sense a storm brewing.
 
 ___
+### Undine: Lesser
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|15/9/15|23|51|11|20ft|50ft(swim)|
+
+Size: Small +1/-1
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|10|20|13|12|13|16|
+|Bonus|0|+5|+1|+1|+1|+3|
+|Save|+2|+9|+3|+3|+4|+5|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|7(2)|8|15|2|3|4|5|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Tendril|+9|1d6+5|Bludgeoning|
+|Grapple|+9|||
+|Combined Maneuver I||||
+|||||
+|Spellcasting: Incantation III|||Favourites are: "Least Heal", "Lesser Veil", "Cure"|
+|Spellcasting: Water IV|||Favourites are: "Balance of Elements", "Water Ward", "Least Transformation", "Summon Water sprite", "Water Snake", "Mist"|
+|Skills|||"Creature Handling" +9, "Spellworking" +7, "Observe" + 7, "K: Arcana" +6, "Heal" +5, "Swim" +6, "K:History" +5, "K:Nature" +4|
+|Resistance|||"Ice"|
+|Immunity|||"Physical"|
+|Immunity|||"Restrained", "Surprised", "Helpless", "Dying", "Stunned", "Immobilised", "crippled", "bleeding", "Paralysed"|
+|Vulnerability|||"Poison"|
+|Sacrifice|||As a full round action can destroy its elemental core and die. As a consequence a spring is formed on the ground beneath it. It produces 2 pints of water per round (enough to sustain a camp of ~10 thousand medium sized humanoids or a town of 100-1000) for the next 108 years.|
+
+Undines are feminine elemental spirits of water, classically associated with springs and sources of water. They are generally harmless unless their streams are threatened. They often take the form of humanoid women of great beauty.
+
+Undines are often bound summoners as guardians or caretakers of specific locales. It is said that an undine can sacrifice its life-force to create a new freshwater spring that will exist for a 108 years..
+
+___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 ||||||

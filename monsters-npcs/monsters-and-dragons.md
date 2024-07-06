@@ -177,14 +177,15 @@ ___
 |Spellcasting:Incantation V|||Theshold=24, Always knows "command mortal"|
 |Spellcasting: Air III|||Threshold=22|
 |Spellcasting: Nature II|||Threshold=22|
+|Abnormal Spellcasting|||A worm that sings knows a single MP 7 spell, and can cast it globally.|
 |Xenophonia|||Humanoid, Animal, Plant, Monster, Undead, Spirit||
 |Senses|||Normal + Life sense (60ft)|
 |Senses|||Keen Hearing|
-|Skills|||"Perform" +9, "Spellworking" +11, "Knowledge:Arcane, Nature, Geography" +11, "Knowledge: History": +8, "Navigate" +8, "Observe" +8|
+|Skills|||"Perform" +9, "Deception" + 9, "Spellworking" +11, "Knowledge:Arcane, Nature, Geography" +11, "Knowledge: History": +8, "Navigate" +8, "Observe" +8, "Prospect" +9, "Sense Motive" +6, "Track" +6, "Creature Handling" +6|
 |Resistance|||"percussive", "pressure", "light", "ice", "necrotic"|
 |Vulnerability|||"entropic"|
 
-A very dangerous otherworldly monster. The worm that sings is has a slender, mushroom-like body with a flat head and towers 15ft as it stands. It wonders remote and sparsely inhabited lands, with no obvious goal, singing a haunting song as it goes, that is capable of ensnaring mortals. Mortals ensnared by the song either stand motionless and allow the worm to implant its eggs in it, which hatch within a month, beginning to devour the victim as they mature. Others become violent and attempt to strike nearby beings, even close friends.
+A very dangerous otherworldly monster. The Worm that Sings is has a slender, mushroom-like body with a flat head and towers 15ft as it stands. It wonders remote and sparsely inhabited lands, with no obvious goal, singing a haunting song as it goes, that is capable of ensnaring mortals. Mortals ensnared by the song either stand motionless and allow the worm to implant its eggs in it, which hatch within a month, beginning to devour the victim as they mature. Others become violent and attempt to strike nearby beings, even close friends.
 
 Worms that sing are thought to be capable of spellcasting. Those that encounter them speak of enthralling stories of ages past and ages that are to come, of other places on this world and of other worlds.
 

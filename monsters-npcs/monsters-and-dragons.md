@@ -3,6 +3,8 @@
 Monsters are mortals. They generally breath, eat, drink and sleep, but not all of them do. They are generally predatory and dangerous to humanoids.
 
 ___
+### 
+___
 ### Mog
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|

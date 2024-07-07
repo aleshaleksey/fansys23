@@ -243,6 +243,8 @@ A target moving out of one threatened square into another threatened square may 
 
 A character can avoid attacks of opportunity when moving out of a threatened square (into a square that is not threatened) by using their "main action" to withdraw. As in the previous case, an "acrobatics" roll can be used to ameliorate the situation. In this case a successful roll vs [attack bonus of hostile] + 13 allows one to withdraw as a bonus action, as usual, on a failure by 5 or more, the one making the acrobatics roll falls prone.
 
+As a rule, characters only provoke attacks of opportunity when moving through/out of threatened squares if they move under their own power. For example if a character is "shoved" out of a threatened space of an enemy, it does not provoke an attack of opportunity.
+
 ### Reactions and attacks of opportunity
 
 Unless otherwise stated, a "reaction" must be declared before the provoking action has resolved (narratively a reaction is initiated when the provoking action is still ongoing and has only just started). Thus a combatant does not declare their intent to parry after seeing the enemy's blade pierce their gut. Likewise, one cannot declare "counter-spell" after learning that the target has failed its save. Reactions which are triggered by specific events such as "taking damage" obviously cannot be declared until the provoking event has happened (in this case the damage has been taken).
@@ -255,7 +257,9 @@ Either way, the golden rule with resolving reactions is that they must not break
 |Action|Provokes AoO|
 |-|-|
 |Move out of threatened square|Yes|
+|**Be** moved out of threatened square|No|
 |Move between threatened squares|Yes, usually|
+|**Be** moved between threatened squares|No|
 |Cast spell with kinetic components|Yes|
 |Execute weapon attack, when proficient|No|
 |Execute weapon attack when NOT proficient|Yes|

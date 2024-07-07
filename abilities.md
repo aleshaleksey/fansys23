@@ -173,17 +173,17 @@ ___
 |IV|+Incapacitated|16|
 |V|+Restrained/Blinded|20|
 
-
+___
 #### Berserk I-V
 
 **Description**: You enter a trance of violence, enhancing combat prowess at the cost of stressing the physical form past its limits.
 
 **Action**: Declare berserk as a "secondary action".
 
-**Effect**: A Berserk character can in the trance for [SP dice count] rounds. However, if the character does not take damage or attack from the the end of the start of their turn one round to their next turn, the trance ends. At the start of the trance, and at the start of each turn of the trance, the character regains [Nat] SP (NB: NOT SP **dice**). In addition the character has a bonus to walk, climb, swim and fly speed, weapon damage, and may have advantage on attacks.
+**Effect**: A Berserk character can in the trance for [SP dice count] rounds. However, if the character does not take damage or attack from the the end of the start of their turn one round to their next turn, the trance ends. The character gains a number of SP equal to their SP Dice maximum. In addition the character has a bonus to walk, climb, swim and fly speed, weapon damage, and may have advantage on attacks.
 
 **Special**:
-- Berserk does not have an SP dice cost. However, when the berserker trance is over, you lose a number of HP equal to the level of the Berserk ability (so if you have "Berserk I" you lose 1HP).
+- Berserk does not have an SP dice cost. However, when the berserker trance is over, you lose a number of HP equal to the level of the Berserk ability (so if you have "Berserk I" you lose 1HP). In addition, the SP gained at the start of berserker trance is lost. It this takes the character into negative SP, the remainder is taken out of HP.
 - While "berserk", a character may not use Int based skills and has disadvantage on all Wis and Cha based skills while Berserk. It has disadvantage on "Tinker" rolls.
 - While "berserk", a character cannot cast spells with a kinetic component and must roll a 1d6 when trying to cast spells with an incantation, losing the spell on a 3 or lower.
 - While "berserk", a character may not use abilities such as "precision attack".

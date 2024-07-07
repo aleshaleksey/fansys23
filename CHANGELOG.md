@@ -66,3 +66,7 @@
 - Link to base rule calculations in "All entities have" in the combat section.
 - Add table of spell learning to the 'Spells gained from levels in "spellcasting" ability' section.
 - Add brown ooze and worm that sings.
+- Change "dying" and "doomed" to only lose 1 HP per round.
+- Chang "doomed" to give advantage on attacks.
+- Disambiguate AoO to to not work on involuntary movement.
+- Change berserk to not return SP.

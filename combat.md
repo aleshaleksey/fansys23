@@ -75,7 +75,7 @@ Combat is chaotic and combatants do what they can when they can. However this is
 All characters take their turn one at a time. This is is a poor reflection of reality, but helps keep the game flowing smoothly. We can interpret this abstraction in several ways, but generally a good way of doing so is to imagine that all actions take place at the same time, but some characters start moving a split second before others.
 
 Combat-time starts as soon as one or both sides are capable and willing of fighting. It ends when there is only one side remaining that is capable and willing.
-- At the start of combat all parties make an initiative roll [see "initiative"](base-rules.md#initiative). Entities act in order of initiative (highest to lowest).
+- At the start of combat all parties make an initiative roll [(see "initiative")](base-rules.md#initiative). Entities act in order of initiative (highest to lowest).
 - Combat takes place in "rounds" (~6s) and "turns". Once each combatant has had a "turn", top initiative to bottom, a "round" passes.
 - Any entities that are not aware of of the other side at the start of combat, or are not aware that combat has started, are "surprised" for the duration of the first round.
 - The DM can declare the end of combat-time when the outcome is so obviously decided that no roll of the dice is likely to alter it, and any more rounds seem like a waste of time. In this case the DM and players should agree on what extra resources are likely to be expended to achieve a final conclusion. Usually in this case one side will have already surrendered.

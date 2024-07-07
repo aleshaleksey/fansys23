@@ -143,7 +143,7 @@ Human represents the human race. The human race is the base. Humans have no spec
 - **Movement**: Walk 30ft
 - **Sight**: Normal
 - **Type**: Humanoid (needs to breathe, drink, eat, and sleep). Humans age.
-- **Proficiencies**: Common Language.
+- **Proficiencies**: One appropriate language.
 
 Extra (8 points):
 - A +2 bonus to any stat, and +1 to two other stats.
@@ -162,7 +162,7 @@ This is a race that is closer to the fey, either created when fey spirits took m
 - **Movement**: Walk 30ft
 - **Sight**: Normal, low-light vision. (1 point)
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Elves do not age. (1 point)
-- **Proficiencies**: Common, Elvish tongues. Bows OR one class of instrument. (2 point)
+- **Proficiencies**: One appropriate language and the Elvish tongues. Bows OR one class of instrument. (2 point)
 
 Extra:
 - +2 Observe (2 point)
@@ -180,7 +180,7 @@ This is a race that is closer to the feral side of humanoids. They are stronger 
 - **Movement**: Walk 30ft
 - **Sight**: Normal, "heat sense II" (30ft). (2 point)
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
-- **Proficiencies**: Common. Strikes AND Slings. (2 point)
+- **Proficiencies**: One appropriate language. Strikes AND Slings. (2 point)
 
 Extra:
 - Resistance to bludgeoning and advantage on saves vs "Prone". (2 points)
@@ -197,7 +197,7 @@ This represents those who have been touched by dark forces. Perhaps because of a
 - **Movement**: Walk 30ft
 - **Sight**: Normal, low light vision. (1 point)
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
-- **Proficiencies**: Common.
+- **Proficiencies**: One appropriate language.
 
 Extra:
 - Resistance to "poison" + "poisoned" (2 points).
@@ -217,7 +217,7 @@ This is a race of humanoid that has various beast like traits, usually cat-like,
 - **Movement**: Walk 35ft + Climb 30ft. (3 point)
 - **Sight**: Normal, low-light vision. (1 point)
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
-- **Proficiencies**: Common.
+- **Proficiencies**: One appropriate language.
 
 Extra:
 - +2 Track. (2 Points)
@@ -235,7 +235,7 @@ This is a race of intelligent beasts that dwells in the deepest wilderness. It i
 - **Movement**: Walk 40ft. (2 Points)
 - **Sight**: Normal, keen-scent. (1 point)
 - **Type**: Monster (needs to breathe, drink, eat and sleep). Ages.
-- **Proficiencies**: Common.
+- **Proficiencies**: One appropriate language.
 
 Penalties:
 - Beasts of the Green have no prehensile limbs. (-3 points)
@@ -257,7 +257,7 @@ The sea people a race of humanoids that live in and around the islands of the sh
 - **Movement**: Walk 30ft, Swim 40ft. (2 point)
 - **Sight**: Normal.
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
-- **Proficiencies**: Common, Cetacean. (1 point)
+- **Proficiencies**: One appropriate language, Cetacean. (1 point)
 
 Extra:
 - Water breathing (2 points)
@@ -276,7 +276,7 @@ This is a race of winged humanoids that live in high and isolated places, as wel
 - **Movement**: Walk 20ft, Fly 60ft (rating: average). (5 point)
 - **Sight**: Normal.
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
-- **Proficiencies**: Common.
+- **Proficiencies**: One appropriate language.
 
 Extra:
 + 2 to Fly (2 point)
@@ -295,7 +295,7 @@ This is a template for humans in a game using level-5 templates. It gives some i
 - **Movement**: Walk 30ft
 - **Sight**: Normal
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
-- **Proficiencies**: Common + Any 2 languages. (2 point)
+- **Proficiencies**: Any 3 appropriate languages. (2 point)
 
 Extra (26 points):
 - A +2 bonus to any 3 stats. (6 points)
@@ -315,7 +315,7 @@ This is a template for elves/fey-touched in a game using level-5 templates. It g
 - **Movement**: Walk 40ft (2 points)
 - **Sight**: Normal, low-light vision, "keen sight", "keen hearing". (3 point)
 - **Type**: Humanoid (needs to breathe, drink, eat). Elves do not age. (3 point)
-- **Proficiencies**: Common, Elvish tongues. Bows OR one class of instrument. (1 point)
+- **Proficiencies**: One appropriate language and the Elvish tongues. Bows OR one class of instrument. (1 point)
 
 Extra (21):
 - +2 Observe (2)
@@ -333,7 +333,7 @@ Some degenerates want enhanced cat girls for high power games.
 - **Movement**: Walk 40ft + Climb 40ft, or walk 50ft. (6 point)
 - **Sight**: Normal, low-light vision, "keen hearing", "keen smell". (3 point)
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
-- **Proficiencies**: Common.
+- **Proficiencies**: One appropriate language.
 
 Extra (21):
 - +2 Track, +2 Acrobatics, +2 Athletics. (6)
@@ -350,7 +350,7 @@ This represents a low-grade vampire. Its type is undead, but due to lack of poin
 - **Movement**: Walk 30ft + Climb 30ft (1 point)
 - **Sight**: Normal, low-light vision, "heat sense II" (30ft), keen scent. (3 point)
 - **Type**: Undead, partial (does not breathe, sleep or age) (8 point)
-- **Proficiencies**: Common.
+- **Proficiencies**: One appropriate language.
 
 Weaknesses (-4)
 - Cannot enter home uninvited.
@@ -378,7 +378,7 @@ This is a divine being created by gods to watch over some aspect of creation (Co
 - **Movement**: Walk 20ft, Fly 80ft (rating: average). (8 point)
 - **Sight**: :True Sight II (60ft). (6 point)
 - **Type**: Humanoid (does not need to eat, drink, breath, does not age). (12 points)
-- **Proficiencies**: Common.
+- **Proficiencies**: One appropriate language.
 
 Restriction:
 + A Watcher cannot lie (knowing communicate falsehood). (-2)

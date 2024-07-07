@@ -136,7 +136,7 @@ Human represents the human race. The human race is the base. Humans have no spec
 - **Movement**: Walk 30ft
 - **Sight**: Normal
 - **Type**: Humanoid (needs to breathe, drink, eat, and sleep). Humans age.
-- **Proficiencies**: Common Language.
+- **Proficiencies**: One appropriate language.
 
 Extra:
 - A +2 bonus to any stat, and +1 to two other stats.
@@ -156,7 +156,7 @@ This is a race that is closer to the fey, either created when fey spirits took m
 - **Movement**: Walk 30ft
 - **Sight**: Normal, low-light vision.
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Elves do not age.
-- **Proficiencies**: Common, Elvish tongues. Bows OR one class of instrument.
+- **Proficiencies**: One appropriate language and the Elvish tongues. Bows OR one class of instrument.
 
 Extra:
 - +2 Observe
@@ -175,7 +175,7 @@ This is a race that is closer to the feral side of humanoids. They are stronger 
 - **Movement**: Walk 30ft
 - **Sight**: Normal, heat sense (30ft).
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
-- **Proficiencies**: Common. Strikes AND Slings.
+- **Proficiencies**: One appropriate language. Strikes AND Slings.
 
 Extra:
 - Resistance to bludgeoning and advantage on saves vs "Prone".
@@ -193,7 +193,7 @@ This is a race of winged humanoids that live in high and isolated places, as wel
 - **Movement**: Walk 20ft, Fly 60ft (rating: average).
 - **Sight**: Normal.
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
-- **Proficiencies**: Common.
+- **Proficiencies**: One appropriate language.
 
 Extra:
 + +2 to Fly
@@ -212,7 +212,7 @@ This is a race of intelligent beasts that dwells in the deepest wilderness. It i
 - **Movement**: Walk 40ft.
 - **Sight**: Normal, keen-scent.
 - **Type**: Monster (needs to breathe, drink, eat and sleep). Ages.
-- **Proficiencies**: Common.
+- **Proficiencies**: One appropriate language.
 
 Penalties:
 - Beasts of the Green have no prehensile limbs.
@@ -231,12 +231,15 @@ ___
 
 At level one a character starts with the following:
 
++ Any benefits and properties it inherits from its type and race.
++ 1 + [Con] + [Cha] HP, with a minimum of 1
++ 3 dice points + 1 SP dice + 1 MP dice
 + 6 + [Int] skill points (these can also be used for weapon, armour, language and tool proficiencies)
 + 1 background skill
 + 3 level points
 + 1 save in which they are proficient
-+ 1 homeland
 + 3 dice points (NB: these are neither skills nor abilities...)
++ 1 homeland
 
 #### Skills and proficiencies
 

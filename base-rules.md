@@ -458,6 +458,12 @@ A character has an armour class/hit threshold, this is a measure of how difficul
 
 For each component (eg Armour), the Sup and Nat aspect stack. However for each aspect only the highest bonus applies. Eg: If a character wears a full plate on top of padded armour, only the bonus for the full plate applies. Also your character's gonna be really hot and sweaty.
 
+### Initiative
+
+FanSys, like most TTRPG systems, is turn based, which means that all characters act one at a time. The order in which they act, in sensitive situations, such as combat, is determined by an "initiative roll". This is a *roll* with an "Initiative Bonus", which represents how quick a character is to act and react. The "Initiative Bonus" is determined as follows:
+
+**Initiative Bonus** = [DEX/2] + [INT/2]  (all fractions are rounded up as usual)
+
 ### Skills and Proficiencies
 
 A character has skills and proficiencies. They generally represent the mundane ability to carry out learned activities and use tools:

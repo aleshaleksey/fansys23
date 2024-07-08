@@ -46,6 +46,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 
 ### Natural (Combat)
 
+- [Assassinate I-V](#assassinate-i-v)
 - [Berserk I-V](#berserk-i-v)
 - [Broad Strike](#broad-strike)
 - [Combined Manoeuvre (I-V)](#combined-manoeuvre-i-v)
@@ -71,6 +72,8 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Divine Strike](#divine-strike)
 - [Elemental Blast](#elemental-blast)
 - [Elemental Touch](#elemental-touch)
+- [Greater Elemental Blast (Linear)](#greater-elemental-blast-linear)
+- [Greater Elemental Blast (Radial)](#greater-elemental-blast-radial)
 - [Profane Strike](#profane-strike)
 - [Spell Strike](#spell-strike)
 - [Spirit Strike](#spirit-strike)
@@ -430,7 +433,7 @@ ___
 ___
 #### Elemental Blast
 
-**Type**: (Class C)
+**Type**: (Class B)
 
 **Description**: Basic elemental attack. Pick an element (fire, ice, lightning or light). Project a bolt or energy or a cone of that element.
 
@@ -447,7 +450,39 @@ ___
 - Dice: MP (base dice cost = 0).
 - Per dice: 1 extra damage dice / MP dice + 10ft/30ft of range (cone/blast).
 
+**Prerequisites**: 3 MP dice total.
+
+**Limitations**: The elemental blast originates from the user and travels more or less in a straight line, unaffected by wind or gravity. The blast is affected by cover and concealment. If the blast impacts cover, it may damage, ignite, or have other affects on it (see below).
+
+**Other**: (Also a "main action")
+- Elemental blast "fire" or "lightning" will ignite flammable materials.
+- Elemental blast "fire" or "lighting" shed light (visibility: 1 mile, illumination: dim, 10ft).
+- Elemental blast "light" sheds light (visibility 5 miles, illumination: bright/dim 10ft, 20ft).
+- Elemental blast "ice" will freeze 1 gallon of water, + 1 gallon / MP dice.
+
 **Special**: Elemental blast must be taken separately for each element.
+
+___
+#### Greater Elemental Blast (Linear)
+
+**Type**: (Class B)
+
+**Description**: Improve elemental blast. The blast affects all items and entities in its path. The blast's path has a path (between user and target) with a width of [MP dice spend] x 5ft. These dice are separate from the dice used to increase the damage caused by the blast. All entities caught in the blast must make a Dex (Fire, Lightning) or Con (Ice, Light) save or suffer the usual elemental blast damage and effects.
+
+**Limitation**: This extra effect applies to items and entities other than the final target.
+
+**Prerequisites**: 13 MP dice.
+
+___
+#### Greater Elemental Blast (Radial)
+
+**Type**: (Class B)
+
+**Description**: Improve elemental blast. The blast blossoms upon reaching its target. Damaging all entities within a radius of [MP dice spent] x 10ft. These dice are separate from the dice used to increase the damage caused by the blast. All entities caught in the blast must make a Dex (Fire, Lightning) or Con (Ice, Light) save or suffer the usual elemental blast damage and effects.
+
+**Limitation**: This extra effect applies to items and entities including than the final target. These means that the final target can take the damage twice.
+
+**Prerequisites**: 19 MP dice. 
 
 ___
 #### Elemental Touch
@@ -475,6 +510,8 @@ ___
 - Elemental touch "fire" or "lighting" shed light (visibility: 1 mile, illumination: dim, 10ft).
 - Elemental touch "light" sheds light (visibility 5 miles, illumination: bright/dim 10ft, 20ft).
 - Elemental touch "ice" will freeze 1 gallon of water, + 1 gallon / MP dice.
+
+**Prerequisites**: 3 MP dice total.
 
 **Special**: Elemental touch must be taken separately for each element.
 ___

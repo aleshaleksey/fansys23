@@ -114,6 +114,8 @@ Not all flying entities are equal in flight. In fact there are four categories (
 - **Perfect:** These entities have none of the typical limits of the other three categories. In addition:
   - They can hover without falling.
 
+**NB**: Flight "time" is fully regained at the end of a ["long rest"](combat.md#long-rest). Likewise, half of an entity's flight time is regained at the end of a ["short rest"](combat.md#short-rest).
+
 Most birds are "average" flyers, though most fowl are "poor" and small raptors are usually "good". Flies, on the other hand have "perfect flight". Humanoids seldom have natural flight. Those that do, are usually poor. Those races with "average" flight pay a high price for it.
 
 __If a group wishes to simplify__ these rules, it is recommended to use "Good" flight for natural fliers and "Perfect" flight for magical flight. Using "perfect" flight for all fliers is the simplest rule of course, but makes flying monsters, mounts and characters a lot more powerful. Beware!

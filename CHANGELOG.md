@@ -70,3 +70,5 @@
 - Chang "doomed" to give advantage on attacks.
 - Disambiguate AoO to to not work on involuntary movement.
 - Change berserk to not return SP.
+- Add Greater Elemental Blast (linear and radial)
+- Nerf least shroud and least ward (now only stationary)

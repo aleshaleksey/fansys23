@@ -254,6 +254,8 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 
 **Description**: The target gains lightly concealment, by some intangible, but clearly visible phenomenon.
 
+**Limitation**: The "Least shroud" cannot be moved from the square it was originally cast. If the target leaves the square, the ward remains there.
+
 **Special**: This effect is a visual illusion, the spell's target does not get concealment from entities that can see through illusions or who have "blind sight", "tremor sense", "heat sense" or "life sense".
 
 ### Least Ward
@@ -269,6 +271,8 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 |Save|Int, harmless|
 
 **Description**: The target gains light cover from a clearly tangible phenomenon. (+2) (4-4)
+
+**Limitation**: The "Least ward" cannot be moved from the square it was originally cast. If the target leaves the square, the ward remains there.
 
 ### Down
 |Name|Down [Earth]|

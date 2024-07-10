@@ -1938,7 +1938,7 @@ ___
 
 ___
 ### Revenant
-|Name|Revenant [Divine, Fire, Earth]|
+|Name|Revenant [Divine, Curse, Earth, Fire]|
 |-|-|
 |Scope|(global)|
 |MP Dice|20|
@@ -2180,6 +2180,41 @@ ___
 
 **Global**: Realises the Realm of Flame onto the caster's current location. The radius is 1 mile. For every extra 4MP the radius increases by 200ft and the height increases by 10ft and the damage increases by 2d8.
 ____
+
+### Undying Realm
+|||
+|-|-|
+|Name|Undying Realm [Curse, Divine, Profane, Spiritual]|
+|Scope|global|
+|MP Dice|40|
+|Target(s)|1000ft radius centered on a square|+10
+|Casting time|10 days + 1 day per 4MP|
+|Range|close|-1(9)
+|Duration|Permanent|+36(45)
+|Components|incantation, kinetic|-1(44)
+|Focus|A part of a fey, divine or fiend|-1(43)
+|Material|Water from the land of the dead, a seed of the tree of life|-2(41)
+|Concentration|-|
+|Save|Cha|
+
+**Description**: Infuse an area with the aura of the tree of life and banish death. The concept of mortality no longer exists in this zone. The remains of mortals brought to this zone, and mortals that die within this zone, return to life at dawn if diurnal (or after the sun has set if nocturnal). They regain all of its SP and MP and up to 12 HP. The possessions of the entity are not returned, unless they were an intrinsic part of its being.
+
+**Limitations**:
+- The entity must be a mortal.
+- The entity must have a dice total (MP + SP) no more than twice the dice total of the caster.
+- The entity is not beholden to the caster and it is not obliged to obey the caster, although it may if it is so inclined.
+- The entity may attempt to continue resting (ie not be resurrected) with a Cha save.
+- Any entities brought back by this spell die the instant they leave the radius of effect of the Undying Realm, or if the spell ends for whatever reason.
+
+**Upcast**: For every 8MP dice put into the spell, the radius increases by 200ft.
+
+**Special**: The Undying Realm is a legendary magic. It banishes death and breaks the order that divinity set for a small part of reality.
+- For every time a caster casts the spell, it gains the grudge of the gods. When "dying" or "doomed", the amount of HP it loses increases by 1 per round. (-2 per round after one casting, -3 after two castings, etc).
+- The spell is permanent, but even if the spell is dispelled, the place it is cast forever resonates with an aura of [Curse, Divine, Profane, Spiritual] energies. Mortals born nearby may be cursed or blessed by the gods, or have otherworldly affinities or resistances.
+- After the spell is dispelled, the area is still affected as if by a permanent ["Rejuvenate Land"](#rejuvenate-land), likewise, entities that rest here roll a 1d6. On a 1, they gain a curse (as if affected by ["Curse"](#least-curse) cast with 3 MP dice). On a 6 they are healed (as if affected by ["Cure"](#cure) cast with 3 MP dice).
+- The caster gains the grudge of a divine entity, and the favour of a [glitch](10-conditions-types.md#divine), the later seldom being a good thing.
+
+___
 
 |||
 |-|-|

@@ -555,7 +555,7 @@ ___
 
 **Description**: Spend 1 MP dice to deal "supernatural" damage with a "natural" weapon attack.
 
-**Limitation**: This must be an attack as defined in "[Basic Martial Manoeuvres](combat.md#basic-martial-manoeuvres)". It cannot be used in combination with abilities (other than "Multi-attack").
+**Limitation**: This must be an attack as defined in "[Basic Martial Manoeuvres](04-combat.md#basic-martial-manoeuvres)". It cannot be used in combination with abilities (other than "Multi-attack").
 - OPTIONAL: If playing with alignment rules, a character who gains "Spirit Strike" should be spiritually aligned, and cannot use this ability if they lose this alignment.
 
 **Prerequisites**: 12 MP dice total and 18 SP dice total.
@@ -677,7 +677,7 @@ ___
 **Limitations**:
 - You must find a suitable beast and keep it still for long enough to bind it. It can attempt a Cha save vs your [SAP + [Cha]] to not be bound. You cannot attempt to bind the same beast for a month if it succeeds. If it succeeds three times, you can never bind it.
 - If a beast has a higher level than your "Bind Beast" limit, you cannot bind it.
-- If you do something, or order the beast to do something that would normally make it a "nemesis" (see "[Skills: Persuade](skills.md#persuade)"), it gets a Cha save vs your [SAP + [Cha]] at advantage to break the binding.
+- If you do something, or order the beast to do something that would normally make it a "nemesis" (see "[Skills: Persuade](05-skills.md#persuade)"), it gets a Cha save vs your [SAP + [Cha]] at advantage to break the binding.
 - You can never have more than one bound beast at a time.
 - You must sacrifice 1HP of your own per 2 levels of "bind beast" to the beast every day to keep it bound (min 1). Sacrificing another's HP transfers the beast to their control for the day: Every day this is done the beast gets a Cha save vs the temporary master's [SAP + [Cha]] to break free.
 
@@ -764,9 +764,9 @@ ___
 
 Spell casting abilities come in two flavour: Local and Global. Local spellcasting covers spells which take no longer than an hour to cast, have effects that wear off in a month of less and do not reach further than a mile from the point of casting. They are most useful in battle and situations where an immediate effect is needed. Global spellcasting covers everything else and is used in various applications, from near impenetrable barrier on holy sites, to enchantments that bring fertile harvests to whole kingdoms over the centuries.
 
-The rules for use of spells in combat are found in "[Combat: Spells](combat.md#spells)".
+The rules for use of spells in combat are found in "[Combat: Spells](04-combat.md#spells)".
 
-Other magic rules, including spell lists are found in "[Spells](spells.md)"
+Other magic rules, including spell lists are found in "[Spells](07-spells.md)"
 
 #### Spellcasting: Local
 
@@ -1040,7 +1040,7 @@ ___
 
 **Description**: Remove penalties with ranged weapons in melee.
 
-**Original state**: Ranged weapons fired while you are in melee are made at disadvantage (See "[Ranged Weapons, collateral and melee](weapons-armour.md#ranged-weapons-collateral-and-melee)").
+**Original state**: Ranged weapons fired while you are in melee are made at disadvantage (See "[Ranged Weapons, collateral and melee](11-weapons-armour.md#ranged-weapons-collateral-and-melee)").
 
 **Prerequisites and benefits**:
 
@@ -1071,7 +1071,7 @@ ___
 
 **Description**: Calculate and execute attacks with ranged weapons that have unlikely trajectories.
 
-**Original state**: Ranged weapons shoot mostly in a straight line, often hitting the first thing that gets in the way (See "[Ranged Weapons, collateral and melee](weapons-armour.md#ranged-weapons-collateral-and-melee)").
+**Original state**: Ranged weapons shoot mostly in a straight line, often hitting the first thing that gets in the way (See "[Ranged Weapons, collateral and melee](11-weapons-armour.md#ranged-weapons-collateral-and-melee)").
 
 **Prerequisites and benefits**:
 

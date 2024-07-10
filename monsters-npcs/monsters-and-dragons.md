@@ -27,7 +27,7 @@ Size = small
 |Bite|+3|1d4+1|Shear damage|
 |Keen Senses|||Advantage on perception rolls based on and hearing|
 |Low light Vision|||Can see in the "dark", but not pitch black conditions|
-|[Sprint](abilities.md#sprinter)|||x3 move, x5 sprint|
+|[Sprint](../06-abilities.md#sprinter)|||x3 move, x5 sprint|
 |Prof|||"Grapple"|
 |Skills|||"Stealth" +3, "Observe" +2|
 |Loot|||Dog meat is edible to humanoids|
@@ -212,7 +212,7 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Piercing Limb|+20|3d12+9|Piercing, shear|
-|Noxious aura|DC26:Con|2d8 Poison[natural]|"main action", 2SP. Every round the aura is active it increases in radius by 20 feet beyond the mudwalker's space to a maximum of 60ft. The poison hangs in the air for 10 minutes in the area where it was active. [Severe](movement-exploration.md#travel-and-getting-lost), or worse, blows away the aura upwind fom the mudwalker.|
+|Noxious aura|DC26:Con|2d8 Poison[natural]|"main action", 2SP. Every round the aura is active it increases in radius by 20 feet beyond the mudwalker's space to a maximum of 60ft. The poison hangs in the air for 10 minutes in the area where it was active. [Severe](../03-movement-exploration.md#travel-and-getting-lost), or worse, blows away the aura upwind fom the mudwalker.|
 |"Monster Attack III"|||Makes 4 "Piercing Limb" attacks per round|
 |Resistant|||"charm", "catatonic", "stun", "piercing"|
 |Senses|||"Tremor Sense IV" 60ft, "Blind sight" 5ft (otherwise blind)|

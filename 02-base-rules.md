@@ -322,10 +322,10 @@ A character has resource pools. These are a critical part of the game and are ex
  This represents your health or life force. Loss of HP represents physical/spiritual damage/degradation.
 
 - A character has maximum HP = [CON+CHA+LEVEL].
-- Every time an entity loses 1 or more HP, it must make a save or risk gaining a condition (see "[Damage types](conditions-types.md#damage-types)").
+- Every time an entity loses 1 or more HP, it must make a save or risk gaining a condition (see "[Damage types](10-conditions-types.md#damage-types)").
 - An entity at 0 HP is disabled and cannot act.
 - An entity at the negative of their HP total is destroyed.
-- A character regains a single point of HP per long rest (usually a day). If a character receives long term medical care this becomes 2HP. (see ["Rest and Recuperation"](combat.md#rest-and-recuperation))
+- A character regains a single point of HP per long rest (usually a day). If a character receives long term medical care this becomes 2HP. (see ["Rest and Recuperation"](04-combat.md#rest-and-recuperation))
 - When a character with no SP takes natural damage, it loses HP equal to the damage taken.
 - When a character with no MP takes supernatural damage, it loses HP equal to the damage taken.
   
@@ -345,7 +345,7 @@ This is a measure of an entities' mental/spiritual energy.
 - When a character regains an MP dice, it regains 2 MP.
 - When a character takes supernatural damage it loses 1 MP per point of damage.
 - If a character takes more than **[CHA + 2 x MP dice total]** damage from a single supernatural/mental attack, the remainder is subtracted from HP.
-- When a character rests, it regains **[CHA x Base]** MP. (see ["Rest and Recuperation"](combat.md#rest-and-recuperation))
+- When a character rests, it regains **[CHA x Base]** MP. (see ["Rest and Recuperation"](04-combat.md#rest-and-recuperation))
   - This is in addition to the MP regained due to regained MP dice. So in total a character regains **[CHA x Base + Total MP dice count]** MP.
 
 
@@ -365,7 +365,7 @@ This is a measure of an entity's physical energy, stamina.
 - When a character regains an SP dice, it regains 2 SP.
 - When a character takes natural damage it loses 1 SP per point of damage.
 - If a character takes more than **[CON + 2 x SP dice total]** damage from a single natural/physical attack, the remainder is subtracted from HP.
-- When a character rests, it regains **[CON x Base]** SP. (see ["Rest and Recuperation"](combat.md#rest-and-recuperation))
+- When a character rests, it regains **[CON x Base]** SP. (see ["Rest and Recuperation"](04-combat.md#rest-and-recuperation))
   - This is in addition to the SP regained due to regained SP dice. So in total a character regains **[CON x Base + Total SP dice count]** SP.
 
 ### Nat and Sup: Attack of the three letter words
@@ -474,11 +474,11 @@ A character has skills and proficiencies. They generally represent the mundane a
 The number of skill points a character can have in a single skill is capped to:
 
 - **[LEVEL / 2]** (rounded up)
-- A skill bonus for a given skill is: **[Base (optional)] + [ranks] + [ability bonus]** (see "[Skills](skills.md)" chapter)
+- A skill bonus for a given skill is: **[Base (optional)] + [ranks] + [ability bonus]** (see "[Skills](05-skills.md)" chapter)
 
 ### Abilities
 
-These are the really cool abilities that a character has, like throwing fire balls, healing otherwise lethal walls, or being able to chop a giant rock in half (or carry said rock). In short extra "things" that a character can do that it might not be able to do, or the ability to withstand things it might not be able to withstand otherwise. A character can gain abilities in exchange for level points. Abilities are covered in the "[Abilities](abilities.md)" chapter.
+These are the really cool abilities that a character has, like throwing fire balls, healing otherwise lethal walls, or being able to chop a giant rock in half (or carry said rock). In short extra "things" that a character can do that it might not be able to do, or the ability to withstand things it might not be able to withstand otherwise. A character can gain abilities in exchange for level points. Abilities are covered in the "[Abilities](06-abilities.md)" chapter.
 
 ### Size
 
@@ -504,11 +504,11 @@ As a rule, larger entities have limbs that reach further and use larger weapons,
 
 Likewise reach increases. While small, medium and large entities have a reach of 5ft, larger entities usually reach further, making it harder for smaller entities to approach close enough to attack them in melee. Similarly tiny and diminutive entities must enter the space of a larger entity to engage it in melee. See the ["Size rules tables"](#size-rules-table) near the end of the chapter for details.
 
-Likewise, there are more details on the effects of size in combat in the ["Combat: Space in combat"](combat.md#space-in-combat) section.
+Likewise, there are more details on the effects of size in combat in the ["Combat: Space in combat"](04-combat.md#space-in-combat) section.
 
 #### Space and Weight
 
-A medium sized entity takes up a 5ft square/hex. For the every size category up the side length of this space, is doubled, so a large entity takes up a 10ft square (4 x 5ft squares), and a huge entity takes up a 20ft square (16 x 5ft squares). Likewise, a small entity does not fully take up its 5ft square, and you can fit 4 small entities in a 5ft without. Thus small characters may be able to explore areas that a larger character cannot reach and escape from situations which a larger character may find inescapable. (Again this is found in the ["Combat: Space in combat"](combat.md#space-in-combat) section)
+A medium sized entity takes up a 5ft square/hex. For the every size category up the side length of this space, is doubled, so a large entity takes up a 10ft square (4 x 5ft squares), and a huge entity takes up a 20ft square (16 x 5ft squares). Likewise, a small entity does not fully take up its 5ft square, and you can fit 4 small entities in a 5ft without. Thus small characters may be able to explore areas that a larger character cannot reach and escape from situations which a larger character may find inescapable. (Again this is found in the ["Combat: Space in combat"](04-combat.md#space-in-combat) section)
 
 Likewise, weight increases proportionally to volume, so larger entities are a lot heavier, usually x8 for each size category. So if a dainty human waif might weigh 100lb, the pony/horse she rides (one size category larger) may easily be 800lb. This means that large entities should be weary of the structural integrity of the ground they tread.
 
@@ -520,38 +520,38 @@ Likewise carrying capacity increases with size, but less(!) than the weight of e
 
 #### Environmental Effects
 
-Entities larger than "medium" take more damage when flying in stormy weather (["Movement and Exploration: Local and Global Movement"](movement-exploration.md#local-and-global-movement-1)) or when hitting the ground at the end of a fall (["Movement and Exploration: Falling"](movement-exploration.md#falling)). This generally results from the fact that while a larger body is sturdier than a small one, it is usually *less sturdy for its size*.
+Entities larger than "medium" take more damage when flying in stormy weather (["Movement and Exploration: Local and Global Movement"](03-movement-exploration.md#local-and-global-movement-1)) or when hitting the ground at the end of a fall (["Movement and Exploration: Falling"](03-movement-exploration.md#falling)). This generally results from the fact that while a larger body is sturdier than a small one, it is usually *less sturdy for its size*.
 
 
 
 ### Senses
 
-An entity is assumed by default to have the senses of sight and hearing. Other basic, natural senses include smell, touch and taste, but not all entities possess these senses. For example an incorporeal entity might not have touch, a an undead skeleton might not have taste. In general [mortals](conditions-types.md#mortals) have all five senses unless stated otherwise.
+An entity is assumed by default to have the senses of sight and hearing. Other basic, natural senses include smell, touch and taste, but not all entities possess these senses. For example an incorporeal entity might not have touch, a an undead skeleton might not have taste. In general [mortals](10-conditions-types.md#mortals) have all five senses unless stated otherwise.
 
 In addition an entity might have the following "special" senses that act like sight in many ways but detect something other than normally visible light:
-- [Heat Sense](abilities.md#heat-sense-i-v)
-- [Life Sense](abilities.md#life-sense-i-v)
-- [Truesight](abilities.md#truesight-i-v)
-- [Tremor Sense](abilities.md#tremor-sense-i-v)
-- [Blind Sight](abilities.md#blind-sight-i-vi)
+- [Heat Sense](06-abilities.md#heat-sense-i-v)
+- [Life Sense](06-abilities.md#life-sense-i-v)
+- [Truesight](06-abilities.md#truesight-i-v)
+- [Tremor Sense](06-abilities.md#tremor-sense-i-v)
+- [Blind Sight](06-abilities.md#blind-sight-i-vi)
 
 In addition the following ability improves specifically the sense of sight.
-- [Low Light Vision](abilities.md#low-light-vision)
+- [Low Light Vision](06-abilities.md#low-light-vision)
 
 In addition the following ability improves hearing, sight or smell (optionally it may be used for taste or touch, but this is not considered to be of advantage in any normal game).
-- [Keen Senses](abilities.md#keen-senses-i-iii)
+- [Keen Senses](06-abilities.md#keen-senses-i-iii)
 
 #### Sight
 
 Sight is the ability to see. An entity with sight can detect and distinguish shapes that it can draw a straight line to that is not blocked by opaque objects (line of sight). In addition it can often distinguish considerable details such as colour (if it has colour vision) or texture. This ability can only be used if there is a considerable amount of light, eg outside in daytime, or in a well lit indoor space.
 
-Entities with sight may then make an "[observe](skills.md#observe)" roll to gain additional visual information. If light levels are low, eg. on a starlit/moonlit night, in a candle-lit hideout, these rolls are made at disadvantage. This is negated by "low light vision". In addition "[Prospect](skills.md#investigateprospect)", "[Navigate](skills.md#navigate)" and "[Track](skills.md#track)" rolls are made at disadvantage in low light conditions or darkness unless the entity making them has a special sense which is applicable in that situation. 
+Entities with sight may then make an "[observe](05-skills.md#observe)" roll to gain additional visual information. If light levels are low, eg. on a starlit/moonlit night, in a candle-lit hideout, these rolls are made at disadvantage. This is negated by "low light vision". In addition "[Prospect](05-skills.md#investigateprospect)", "[Navigate](05-skills.md#navigate)" and "[Track](05-skills.md#track)" rolls are made at disadvantage in low light conditions or darkness unless the entity making them has a special sense which is applicable in that situation. 
 
-In total or near total darkness, eg in an unlit cave or catacomb, or on a moonless, cloudy night (barring torchlight), an entity with ordinary sight or even "low light vision" is blind. Likewise an "invisible" entity cannot be detected by ordinary sight, but the tracks it leaves might be visually detectable with a "[track](skills.md#track)" roll, following the normal rules for the skill. 
+In total or near total darkness, eg in an unlit cave or catacomb, or on a moonless, cloudy night (barring torchlight), an entity with ordinary sight or even "low light vision" is blind. Likewise an "invisible" entity cannot be detected by ordinary sight, but the tracks it leaves might be visually detectable with a "[track](05-skills.md#track)" roll, following the normal rules for the skill. 
 
 "Heat sense", "Life sense","tremor sense" and "blind sight" negate some aspects of blindness, each under specific circumstances (see the specific sections for details).
 
-"[Concealment](combat.md#cover-and-concealment)" gives entities a chance to hide from ordinary sight, but usually not a guarantee. Likewise, light concealment grants a 1/6 miss chance, while heavy concealment provides a 2/6 miss chance. Full concealment gives a 5/6 miss chance (blindness/invisibility gives full concealment).
+"[Concealment](04-combat.md#cover-and-concealment)" gives entities a chance to hide from ordinary sight, but usually not a guarantee. Likewise, light concealment grants a 1/6 miss chance, while heavy concealment provides a 2/6 miss chance. Full concealment gives a 5/6 miss chance (blindness/invisibility gives full concealment).
 
 
 #### Hearing
@@ -560,7 +560,7 @@ Hearing is the ability to hear. An entity with hearing can detect certain vibrat
 
 Hearing can be used, with an "[observe](skills#observe)" roll, to locate the square where the source of the sound is located if it is within 100ft, otherwise, the direction can be determined, but the distance can only be determined to "less than 200ft", "less than 300ft", etc. 
 
-Terrestrial and flying entities have disadvantage on hearing based "[Observe](skills.md#observe)" and "[Track](skills.md#track)" rolls in water. Aquatic entities have disadvantage on these rolls out of water. Likewise, an intervening solid barrier between the entity and source of sound, causes these rolls to be made at disadvantage.
+Terrestrial and flying entities have disadvantage on hearing based "[Observe](05-skills.md#observe)" and "[Track](05-skills.md#track)" rolls in water. Aquatic entities have disadvantage on these rolls out of water. Likewise, an intervening solid barrier between the entity and source of sound, causes these rolls to be made at disadvantage.
 
 #### Smell
 
@@ -648,7 +648,7 @@ As this is a human-centric game, probably designed by a human, "medium", the sta
 |Gargantuan|40|-3|+3|-3|+3|x8|x64|15ft|
 |Colossal|80|-4|+4|-4|+4|x16|x256|20ft|
 
-1. Applies the "long" property to all weapons of "large" size category it wields. All "large" size category that already have the "long" property lose it and instead are treated as having a reach of 10ft. (See ["Combat: Range and Reach"](combat.md#range-and-reach))
+1. Applies the "long" property to all weapons of "large" size category it wields. All "large" size category that already have the "long" property lose it and instead are treated as having a reach of 10ft. (See ["Combat: Range and Reach"](04-combat.md#range-and-reach))
 
 #### Dice size rules
 This applies mostly to weapon attacks, but may also apply to adjustments to poison based damage based on dose at the group's discretion. *[NB: Poison rules have not yet been written.]

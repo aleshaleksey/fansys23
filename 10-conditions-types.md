@@ -33,7 +33,7 @@ Most characters are fundamentally "natural", but possesses some "supernatural" a
 ___
 #### Natural and Supernatural damage and abilities
 
-Damage can be either Nat or Sup. Nat damage first affects the target's SP, being at least partially absorbed, before before affecting HP. It generally affects the physical form. Sup damage is first buffered, at least in part, by an entity's MP, before affecting HP. It affects an entity's essence or spirit. Thus if an entity takes 10 "fire"[Sup] damage, the first, say, 7 points may be absorbed by MP, with the remaining 3 points doing HP damage. The exact calculation for maximum Nat damage absorbed by SP is [CON + 2 x SP dice total], and is symmetrical for MP and Sup (see "[Resource Pools](base-rules.md#resource-pools)" section).
+Damage can be either Nat or Sup. Nat damage first affects the target's SP, being at least partially absorbed, before before affecting HP. It generally affects the physical form. Sup damage is first buffered, at least in part, by an entity's MP, before affecting HP. It affects an entity's essence or spirit. Thus if an entity takes 10 "fire"[Sup] damage, the first, say, 7 points may be absorbed by MP, with the remaining 3 points doing HP damage. The exact calculation for maximum Nat damage absorbed by SP is [CON + 2 x SP dice total], and is symmetrical for MP and Sup (see "[Resource Pools](02-base-rules.md#resource-pools)" section).
 
 Damage caused by mundane or martial abilities is Nat, unless the ability is very powerful, at which it may become Sup. Damage caused by magic, spells and other supernatural abilities is usually Sup, but may also be Nat on occasion.
 
@@ -44,7 +44,7 @@ Nat abilities are fueled by SP dice. Sup damage is fueled by MP dice.
 ___
 #### Resistance to damage and conditions
 
-This is covered in depth in "[Combat: Damage and Death](combat.md#damage-and-death)". In short, resistance to a type of damage means an entity takes half the damage from that type. Damage vulnerability means it takes the full damage and then takes half the damage again (in short x1.5).
+This is covered in depth in "[Combat: Damage and Death](04-combat.md#damage-and-death)". In short, resistance to a type of damage means an entity takes half the damage from that type. Damage vulnerability means it takes the full damage and then takes half the damage again (in short x1.5).
 
 Resistance to a condition means the entity has advantage on the saves vs a condition. vulnerability means it has disadvantage.
 
@@ -380,7 +380,7 @@ An entity afflicted by conditions that make it unable to engage in physical comb
   - It has disadvantage on melee attacks.
   - It has disadvantage at [STR] and [DEX] saves.
   - It has advantage at skills used in hiding, but may suffer penalties to perception.
-  -  Flying entities that are knocked prone, drops a distance equal to its speed and can only move at half speed on its next turn. If this drop causes it to hit the ground, it suffers all of the consequences of falling (see "[Falling](movement-exploration.md#Falling)" section).
+  -  Flying entities that are knocked prone, drops a distance equal to its speed and can only move at half speed on its next turn. If this drop causes it to hit the ground, it suffers all of the consequences of falling (see "[Falling](03-movement-exploration.md#Falling)" section).
 - "**Catatonic**": A catatonic character loses the will to act and cannot take actions.
   - It cannot make attacks, use physical abilities or cast spells.
   - It cannot use skills other than those that are involved in perceiving the world.

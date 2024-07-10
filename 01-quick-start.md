@@ -4,7 +4,7 @@ This is a fantasy roleplaying system optimised for balance that uses 2d12 for it
 
 ## Playing the game
 
-The game is played like any of the number of table top roleplaying games that exist. This game uses a similar concept to Pathfinder or Dungeons and Dragons, with the big difference that it uses 2d12 instead of 1d20 as the dice roll that decides the outcome of uncertain events and interactions (See "[Base Rules: Rolling Dice](base-rules.md#rolling-dice)" for more detail). To play this game, one needs to:
+The game is played like any of the number of table top roleplaying games that exist. This game uses a similar concept to Pathfinder or Dungeons and Dragons, with the big difference that it uses 2d12 instead of 1d20 as the dice roll that decides the outcome of uncertain events and interactions (See "[Base Rules: Rolling Dice](02-base-rules.md#rolling-dice)" for more detail). To play this game, one needs to:
 
 1. Find a group.
 2. Assign a DM.
@@ -85,7 +85,7 @@ But which stats are important? Simply put:
 
 Beware there are stats and stat bonuses. Bonuses are added to rolls, stats are just "there". When we speak about stat bonuses we write eg [Str]. When we talk about a stat we write eg Str.
 
-For more information on stats see "[Base Rules: Stats](base-rules.md#stats)".
+For more information on stats see "[Base Rules: Stats](02-base-rules.md#stats)".
 
 # Types, Races, Species and Templates
 
@@ -108,7 +108,7 @@ It is possible that the setting has only humans. This is fine. For some. Others 
 
 In either case, the unique characteristics of these beings are represented by "templates" or "races". 
 
-Depending on the power level of the game one can pick a basic race or a "level-4" or "level-9" template. It is is essential that it is pre-agreed beforehand what level template everyone picks. I guarantee that unless the group is extremely chilled you will fall out if you do not. Advanced templates, as well as rules on how to make new ones are found in the "[Races](races.md)" chapter. When introducing new templates or races to a setting make sure to discuss your ideas with the rest of the agree.
+Depending on the power level of the game one can pick a basic race or a "level-4" or "level-9" template. It is is essential that it is pre-agreed beforehand what level template everyone picks. I guarantee that unless the group is extremely chilled you will fall out if you do not. Advanced templates, as well as rules on how to make new ones are found in the "[Races](09-races.md)" chapter. When introducing new templates or races to a setting make sure to discuss your ideas with the rest of the agree.
 
 #### How to apply a race/template
 
@@ -117,7 +117,7 @@ Templates generally give some small bonuses, a few nice features, some of which 
 1. Read over the template.
 2. Apply the creature size to your character, adjust heights and weights within 20% as desired.
 3. Apply stat bonuses and penalties.
-4. Apply [size modifiers](base-rules.md#size-rules).
+4. Apply [size modifiers](02-base-rules.md#size-rules).
 5. Apply movement speed, special senses and type.
 6. Add proficiencies and skill bonuses.
 7. Add special abilities, resistances and vulnerabilities.
@@ -243,7 +243,7 @@ At level one a character starts with the following:
 
 #### Skills and proficiencies
 
-Skills and proficiencies determine how well practiced your character is with certain routine or esoteric arts, skills or sciences, as well as which tools, weapons and armours they know how to use. A character essentially starts with between 5 and 11 skill points. It is recommended that you take at least one weapon proficiency and one armour proficiency, and maybe more for martial characters. For more information see the "[Skills](skills.md)" and "[Weapons and Armour](weapons-armour.md)" chapters.
+Skills and proficiencies determine how well practiced your character is with certain routine or esoteric arts, skills or sciences, as well as which tools, weapons and armours they know how to use. A character essentially starts with between 5 and 11 skill points. It is recommended that you take at least one weapon proficiency and one armour proficiency, and maybe more for martial characters. For more information see the "[Skills](05-skills.md)" and "[Weapons and Armour](11-weapons-armour.md)" chapters.
 
 Secondly, a character starts with one background skill, where they get to add a small bonus called "Base" (+1 at level 1).
 
@@ -251,7 +251,7 @@ Thirdly, a character also gets to choose a home terrain. This can be anything fr
 
 Fourthly, a character chooses a save with which they are proficient. This will help defend them against some nasty stuff, so choose carefully.
 
-Lastly, a character gains 3 level points. Level points are spent on gaining abilities. These range from extra save proficiencies, to sword arts and spell casting, and much more. A level point can also be exchanged for 3 skill points or a +1 increase to any stat (although no stat can exceed 24 for a character). For a list of abilities see the "[Abilities](abilities.md)" chapter.
+Lastly, a character gains 3 level points. Level points are spent on gaining abilities. These range from extra save proficiencies, to sword arts and spell casting, and much more. A level point can also be exchanged for 3 skill points or a +1 increase to any stat (although no stat can exceed 24 for a character). For a list of abilities see the "[Abilities](06-abilities.md)" chapter.
 
 ___
 ### Stamina and Mana dice and HP
@@ -291,7 +291,7 @@ HiT (Hit Threshold) represents how difficult it is to harm a character with targ
 + Evasion is generally equal to [Dex] + [Size modifier]
 + Deflection is granted by blades which can be used to parry, and certain abilities.
 
-In general, the higher the hit the better (See "[Base Rules: Hit Threshold (HiT)](base-rules.md#hit-threshold-(hit)"). A level one character can expect to have HiT 16 when kitted up.
+In general, the higher the hit the better (See "[Base Rules: Hit Threshold (HiT)](02-base-rules.md#hit-threshold-(hit)"). A level one character can expect to have HiT 16 when kitted up.
 
 ___
 #### Attack bonuses and thresholds
@@ -317,7 +317,7 @@ In short:
     - = [Nat] + [Base] + [Str]
         - = [NAP] + [Str]
 
-Luckily we don't have to calculate the attack potentials outside of leveling up our characters. And even then we can just use the tables in the "[Base Rules: Tables](base-rules.md#tables)".
+Luckily we don't have to calculate the attack potentials outside of leveling up our characters. And even then we can just use the tables in the "[Base Rules: Tables](02-base-rules.md#tables)".
 
 ___
 ### Alignment
@@ -346,11 +346,11 @@ Every character gets 3 level points at level 1. These can be spend as follows.
 + Exchanged for an increase to stats at the rate of 1 level point = +1 to a single stat. No stat may exceed 24 for player characters. A character can only add one level point to stats per level.
 + Exchanged for abilities and boons.
 
-Abilities and boons are special features of a character that allow them to do things they would not otherwise be able to do, or withstand things they would otherwise not be able to withstand. This also provides some of the flavour to the character. See the ["Abilities and Boons"](abilities.md) chapter. As an example:
+Abilities and boons are special features of a character that allow them to do things they would not otherwise be able to do, or withstand things they would otherwise not be able to withstand. This also provides some of the flavour to the character. See the ["Abilities and Boons"](06-abilities.md) chapter. As an example:
 
-- An aspiring pyromancer would probably want to take "[elemental touch](abilities.md#elemental-touch)" or "[elemental blast](abilities.md#elemental-blast)" and "[spellcasting: elemental (fire)](abilities.md#spellcasting-elemental)".
-- A plucky peasant or mysterious summoner might both wish to travel with a bestial companion and so take "[bind beast](abilities.md#bind-beast-i-x)".
-- Swashbuckler and martial artists would probably both benefit from "[flurry](abilities.md#flurry)".
+- An aspiring pyromancer would probably want to take "[elemental touch](06-abilities.md#elemental-touch)" or "[elemental blast](06-abilities.md#elemental-blast)" and "[spellcasting: elemental (fire)](06-abilities.md#spellcasting-elemental)".
+- A plucky peasant or mysterious summoner might both wish to travel with a bestial companion and so take "[bind beast](06-abilities.md#bind-beast-i-x)".
+- Swashbuckler and martial artists would probably both benefit from "[flurry](06-abilities.md#flurry)".
 
 ___
 ### Leveling up
@@ -368,4 +368,4 @@ A character must spend all points when it levels up. It cannot horde unspent poi
 ___
 ### Play
 
-Go get kitted out, and go out into the world and become a legend. Or if you prefer not to, then just roll some dice. There are a lot of different situations that a party can encounter in this game. And of course there are rules that govern how to resolve them. They are covered in "[Weapons and Armour](weapons-armour.md)", "[Combat](combat.md)" "[Movement and Exploration](movement-exploration.md)", "[Skills](skills.md)" and "[Conditions and Types](conditions-types.md)". Live and learn.
+Go get kitted out, and go out into the world and become a legend. Or if you prefer not to, then just roll some dice. There are a lot of different situations that a party can encounter in this game. And of course there are rules that govern how to resolve them. They are covered in "[Weapons and Armour](11-weapons-armour.md)", "[Combat](04-combat.md)" "[Movement and Exploration](03-movement-exploration.md)", "[Skills](05-skills.md)" and "[Conditions and Types](10-conditions-types.md)". Live and learn.

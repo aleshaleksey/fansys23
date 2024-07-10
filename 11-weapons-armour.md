@@ -36,7 +36,7 @@ Weapons and armour an essential part of any combat heavy table top RPG system. W
     - [Shields](#shields)
 
 ## Weapons
-Weapons are tools that increase the lethality of martial combatants. For the sake of most abilities other than "sunder", unarmed techniques count as weapons. Each type of weapon requires its own proficiency. Weight and size of weapons scales as with all equipment sizes (see ["Base Rules: Size Rules"](base-rules.md#size-rules)). In all, there 5 categories and 18 types. The following categories and types of weapons exist:
+Weapons are tools that increase the lethality of martial combatants. For the sake of most abilities other than "sunder", unarmed techniques count as weapons. Each type of weapon requires its own proficiency. Weight and size of weapons scales as with all equipment sizes (see ["Base Rules: Size Rules"](02-base-rules.md#size-rules)). In all, there 5 categories and 18 types. The following categories and types of weapons exist:
 
 - **Unarmed combat**
   - Strikes
@@ -123,7 +123,7 @@ Items that are not designed to be used as weapons can also be used for this purp
 ___
 ### Weapon table
 
-This table gives a quick overview of weapons. For details on each weapon, see the weapon description. The damage dice of weapons follow the general ["Dice size rules"](base-rules.md#dice-size-rules).
+This table gives a quick overview of weapons. For details on each weapon, see the weapon description. The damage dice of weapons follow the general ["Dice size rules"](02-base-rules.md#dice-size-rules).
 
 **NB**: Since specific properties are an important part of how a weapon is used, it is advisable to read over the description of weapons the reader is thinking of using for their character. Sometimes a weapon listed in the table represents several functionally similar historical weapons. Therefore if you do find your beloved katana, please check the entry for "falchion".
 
@@ -207,7 +207,7 @@ Unarmed combat is the use of one's own body to effectively neutralise targets. I
 
 **Disarming** is the act of liberating a foe of their weapon. Also grants proficiency with "sunder". Ranged weapons cannot be used for disarming or sundering. It follows the rules set out in "Basic Martial Manoeuvres".
 
-**Grapple** is the act of restricting the movement of your foe using your body or held items. It covers the "grapple" and "restrain" manoeuvres and follows the "[Basic Martial Manoeuvres](combat.md#basic-martial-manoeuvres)" rules.
+**Grapple** is the act of restricting the movement of your foe using your body or held items. It covers the "grapple" and "restrain" manoeuvres and follows the "[Basic Martial Manoeuvres](04-combat.md#basic-martial-manoeuvres)" rules.
 
 **Strikes** are the use of appendages or protruding body parts to deal bludgeoning or piercing damage to a target.
 
@@ -443,11 +443,11 @@ Weapons with a closed or open barrel weapons that use the energy in explosive su
 
 ## Armour
 
- Armour covers worn equipment that offers passive protection against targeted attacks when correctly equipped. Usually this is because armour dissipates the force of the attack, making it less lethal, or completely negating it. Shields offer protection in a similar manner, although they are generally strapped to a character's appendage, meaning that active use of the appendage is required to make use of a shield.  Weight and size of shields scales as with all equipment sizes (see ["Base Rules: Size Rules"](base-rules.md#size-rules)).
+ Armour covers worn equipment that offers passive protection against targeted attacks when correctly equipped. Usually this is because armour dissipates the force of the attack, making it less lethal, or completely negating it. Shields offer protection in a similar manner, although they are generally strapped to a character's appendage, meaning that active use of the appendage is required to make use of a shield.  Weight and size of shields scales as with all equipment sizes (see ["Base Rules: Size Rules"](02-base-rules.md#size-rules)).
 
 ### Armour and its relationship with [HiT]
 
-Targeted attacks are rolled against "[HiT](base-rules.md#hit-threshold-hit)". [HiT] represents how effective/powerful/precise a target attack has to be to harm the target. It is made of the following components, all of which stack:
+Targeted attacks are rolled against "[HiT](02-base-rules.md#hit-threshold-hit)". [HiT] represents how effective/powerful/precise a target attack has to be to harm the target. It is made of the following components, all of which stack:
 
 - Initial Hit (ALWAYS 10).
 - Base (general experience bleeding through to various aspects of defense).
@@ -602,11 +602,11 @@ Equipping light, heavy and tower shields is a "full round action". Equipping a b
 
 [Shields can be used as weapons](#shields-as-weapons), but not at the same time as being used defensively, however when doing so a combatant must first use a secondary action to adjust their hold on the shield. Doing so forfeits any bonus to HiT granted by the shield until the combatant uses *another* secondary action on a subsequent turn to readjust the shield.
 
-The boon ["Offensive Buckler"](abilities.md#offensive-buckler) allows the wielder of a buckler to make the readjustment without using an action.
+The boon ["Offensive Buckler"](06-abilities.md#offensive-buckler) allows the wielder of a buckler to make the readjustment without using an action.
 
-The boon ["Swift Shield Bash"](abilities.md#swift-shield-bash) allows the wielder of a shield to make an offhand attack with a shield as a secondary action without sacrificing the HiT bonus.
+The boon ["Swift Shield Bash"](06-abilities.md#swift-shield-bash) allows the wielder of a shield to make an offhand attack with a shield as a secondary action without sacrificing the HiT bonus.
 
-The boon ["Shield Master"](abilities.md#shield-master) allows the wielder of a small, large or tower shield to gain a bonus to Dex and Str saves equal to the HiT bonus of the shield.
+The boon ["Shield Master"](06-abilities.md#shield-master) allows the wielder of a small, large or tower shield to gain a bonus to Dex and Str saves equal to the HiT bonus of the shield.
 
 
 ## Notes

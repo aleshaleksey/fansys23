@@ -116,7 +116,7 @@ ___
 |Immune|||"physical" damage and all combat manoeuvres carried out without "spiritual" properties|
 |Immune||||All combat manoeuvres carried by corporeal entities without the "spiritual" property|
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
-|Spellcasting III|||"[Least Curse](spell-list.md#least-curse)"|
+|Spellcasting III|||"[Least Curse](../08-spell-list.md#least-curse)"|
 |Senses|||"low-light vision", "life-sense" 120ft|
 Earthbound shades are lesser incorporeal undead that cannot detach themselves from the earth's surface. Nevertheless they are incredibly dangerous.
 

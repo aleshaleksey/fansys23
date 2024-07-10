@@ -98,11 +98,11 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Earth Magic I (lvl 1)|||"[Down](spell-list.md#down)", "[Least Spike](spell-list.md#least-spike)", "[Gnome's Mercy](spell-list.md#gnomes-mercy)"|
+|Earth Magic I (lvl 1)|||"[Down](../08-spell-list.md#down)", "[Least Spike](../08-spell-list.md#least-spike)", "[Gnome's Mercy](../08-spell-list.md#gnomes-mercy)"|
 |Precision Attack I (lvl 2)|||Gnomes Add 1d8 to surprise attacks if they attack with a weapon|
-|Earth Magic II (lvl 3)|||"[Least Ward](spell-list.md#least-geomancy)", "[Least Geomancy](spell-list.md#least-geomancy)", "[Warded Ground](spell-list.md#warded-ground)"|
+|Earth Magic II (lvl 3)|||"[Least Ward](../08-spell-list.md#least-geomancy)", "[Least Geomancy](../08-spell-list.md#least-geomancy)", "[Warded Ground](../08-spell-list.md#warded-ground)"|
 |Foresight (lvl 4)|||Greater gnomes add [Wis] to HiT|
-|Earth Magic III (lvl 5)|||"[Shape Earth](spell-list.md#shape-earth)", "[Earth Ward](spell-list.md#earth-ward)"|
+|Earth Magic III (lvl 5)|||"[Shape Earth](../08-spell-list.md#shape-earth)", "[Earth Ward](../08-spell-list.md#earth-ward)"|
 |Senses|||Gnomes are blind, but have other senses|
 |Senses|||Heat sense (60ft, 120ft at lvl 4), Tremor sense (60ft, 120ft at lvl 4) - ignores prerequisites|
 |Skills (lvl 1)|||Fortify +4, Harvest +1|

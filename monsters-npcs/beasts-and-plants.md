@@ -24,9 +24,9 @@ Size = tiny
 |Claws|+4|1d3+2|Shear damage|
 |Keen Senses|||Advantage on perception rolls|
 |Low light Vision|||Can see in the "dark", but not pitch black conditions|
-|[Sprint](abilities.md#sprinter)|||x3 move, x5 sprint|
-|[Evasive](abilities.md#evasive)|||Avoid AoOs|
-|[Stalker](abilities.md#stalker)|||Hides really quickly|
+|[Sprint](../06-abilities.md#sprinter)|||x3 move, x5 sprint|
+|[Evasive](../06-abilities.md#evasive)|||Avoid AoOs|
+|[Stalker](../06-abilities.md#stalker)|||Hides really quickly|
 |Skills|||"Stealth" +4, "Observe" +2|
 |Loot|||Cat meat is edible to humanoids|
 
@@ -55,7 +55,7 @@ Size = small
 |Bite|+3|1d4+1|Shear damage|
 |Keen Senses|||Advantage on perception rolls based on scent and hearing|
 |Low light Vision|||Can see in the "dark", but not pitch black conditions|
-|[Sprint](abilities.md#sprinter)|||x3 move, x5 sprint|
+|[Sprint](../06-abilities.md#sprinter)|||x3 move, x5 sprint|
 |Prof|||"Grapple"|
 |Skills|||"Stealth" +3, "Observe" +2|
 |Loot|||Dog meat is edible to humanoids|
@@ -85,9 +85,9 @@ ___
 |Bite|+5|1d6+2|Shear damage|
 |Keen Senses|||Advantage on perception rolls based on scent and hearing|
 |Low light Vision|||Can see in the "dark", but not pitch black conditions|
-|[Sprint](abilities.md#sprinter)|||x3 move, x5 sprint|
-|[Combined Manoeuvre](abilities.md#combined-manoeuvre-i-v)|||A wolf will usually grapple when biting|
-|[Greater Manoeuvre](abilities.md#greater-manoeuvre-i-v)|||Wolves can take down very large prey|
+|[Sprint](../06-abilities.md#sprinter)|||x3 move, x5 sprint|
+|[Combined Manoeuvre](../06-abilities.md#combined-manoeuvre-i-v)|||A wolf will usually grapple when biting|
+|[Greater Manoeuvre](../06-abilities.md#greater-manoeuvre-i-v)|||Wolves can take down very large prey|
 |Prof|||"Grapple", "Interception'|
 |Skills|||"Stealth" +3, "Track" +3, "Observe" +2|
 |Loot|||Wolf pelts are valuable, their meat is edible to humanoids|
@@ -117,7 +117,7 @@ Size = large
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Hooves|+5|1d8+2||
-|[Sprinter](abilities.md#sprinter)|||run faster|
+|[Sprinter](../06-abilities.md#sprinter)|||run faster|
 |Skills|||"Observe" +2|
 
 This stat blocks works for normal riding horses. Horses are temperamental creatures, and will defend themselves from predators and people they don't like with violent kicks of their hooves.
@@ -167,7 +167,7 @@ Size = large
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Hooves|+7|1d8+4|Don't get hit by a horse|
-|[Sprinter](abilities.md#sprinter)|||Run faster|
+|[Sprinter](../06-abilities.md#sprinter)|||Run faster|
 |Skills|||"Observe" +3|
 
 This is used for warhorses. Unlike other horses these are combat trained. War horses can be of higher level. In general a warhorse should be half the level of its rider. Knights often have armour (barding) made for their warhorse.
@@ -197,8 +197,8 @@ ___
 |Monster attack|||Two claw attacks as a main action and a bite as secondary action|
 |Keen scent|||Advantage on perception rolls based on scent|
 |Low light Vision|||Can see in the "dark", but not pitch black conditions|
-|[Combined Manoeuvre](abilities.md#combined-manoeuvre-i-v)|||A bear will usually grapple when biting|
-|[Greater Manoeuvre](abilities.md#greater-manoeuvre-i-v)|||Bears can take down very large prey|
+|[Combined Manoeuvre](../06-abilities.md#combined-manoeuvre-i-v)|||A bear will usually grapple when biting|
+|[Greater Manoeuvre](../06-abilities.md#greater-manoeuvre-i-v)|||Bears can take down very large prey|
 |Prof|||"Grapple", "Sunder"|
 |Skills|||"Swim", "climb", "Track" +2|
 |Loot|||Bear pelts are valuable and make hide armour, their meat is marginally edible to humanoids|
@@ -235,7 +235,7 @@ ___
 |-|-|-|-|
 |Claw|+5/+6|1d4+3 (Shear)|The raptor can either attack with its claw or bite, unless it has multi/monster attack|
 |Bite|+5/+6|2d4+3 (Shear)|The raptor can either attack with its claw or bite, unless it has multi/monster attack|
-|[Skirmisher](../abilities.md#skirmisher)||||
+|[Skirmisher](../../06-abilities.md#skirmisher)||||
 |Sprinter|||Run x3, Sprint x3|
 |Tracker: Swift (lvl4)||||
 |Flurry (lvl4)|||A rapter can make multiple claw attacks|

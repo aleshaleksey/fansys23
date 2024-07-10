@@ -17,8 +17,8 @@ This system deals heavily with combat and many of the mechanics are tuned to wor
 All entities have:
 - HiT (Hit Threshold): Representing how difficult it is to cause it damage with a targeted attack.
 - 6 Saves, one for each stat: Representing how well a target resists targeted effects and area of effect attacks.
-- NAP (Natural Attack Potential): How effectively an entity overcomes defences with Nat targeted attacks and the threshold for its Nat abilities and area of effect attacks. NAP is determined by base and SP dice count, and adds [Dex] or [Str]. See the [NAP/SAP rules](base-rules.md#nap-and-sap-nat-and-sat-attack-of-the-three-letter-words-ii), [NAP/SAP table](base-rules.md#nap-from-base-and-nat) and [NAT/SUP table](base-rules.md#nat-vs-sp-dice-and-sup-vs-mp-dice).
-- SAP (Supernatural Attack Potential): How effectively an entity overcomes defences with Sup targeted attacks and the threshold for its Sup abilities and area of effect attacks. SAP is determined by base and MP dice count and adds [Int] or [Wis]. See the [NAP/SAP rules](base-rules.md#nap-and-sap-nat-and-sat-attack-of-the-three-letter-words-ii), [NAP/SAP table](base-rules.md#nap-from-base-and-nat) and [NAT/SUP table](base-rules.md#nat-vs-sp-dice-and-sup-vs-mp-dice).
+- NAP (Natural Attack Potential): How effectively an entity overcomes defences with Nat targeted attacks and the threshold for its Nat abilities and area of effect attacks. NAP is determined by base and SP dice count, and adds [Dex] or [Str]. See the [NAP/SAP rules](02-base-rules.md#nap-and-sap-nat-and-sat-attack-of-the-three-letter-words-ii), [NAP/SAP table](02-base-rules.md#nap-from-base-and-nat) and [NAT/SUP table](02-base-rules.md#nat-vs-sp-dice-and-sup-vs-mp-dice).
+- SAP (Supernatural Attack Potential): How effectively an entity overcomes defences with Sup targeted attacks and the threshold for its Sup abilities and area of effect attacks. SAP is determined by base and MP dice count and adds [Int] or [Wis]. See the [NAP/SAP rules](02-base-rules.md#nap-and-sap-nat-and-sat-attack-of-the-three-letter-words-ii), [NAP/SAP table](02-base-rules.md#nap-from-base-and-nat) and [NAT/SUP table](02-base-rules.md#nat-vs-sp-dice-and-sup-vs-mp-dice).
 
 The calculation of these parameters is covered in the base rules. There are three categories of offensive abilities: "targeted attacks", "abilities" and "manoeuvres".
 
@@ -75,7 +75,7 @@ Combat is chaotic and combatants do what they can when they can. However this is
 All characters take their turn one at a time. This is is a poor reflection of reality, but helps keep the game flowing smoothly. We can interpret this abstraction in several ways, but generally a good way of doing so is to imagine that all actions take place at the same time, but some characters start moving a split second before others.
 
 Combat-time starts as soon as one or both sides are capable and willing of fighting. It ends when there is only one side remaining that is capable and willing.
-- At the start of combat all parties make an initiative roll [(see "initiative")](base-rules.md#initiative). Entities act in order of initiative (highest to lowest).
+- At the start of combat all parties make an initiative roll [(see "initiative")](02-base-rules.md#initiative). Entities act in order of initiative (highest to lowest).
 - Combat takes place in "rounds" (~6s) and "turns". Once each combatant has had a "turn", top initiative to bottom, a "round" passes.
 - Any entities that are not aware of of the other side at the start of combat, or are not aware that combat has started, are "surprised" for the duration of the first round.
 - The DM can declare the end of combat-time when the outcome is so obviously decided that no roll of the dice is likely to alter it, and any more rounds seem like a waste of time. In this case the DM and players should agree on what extra resources are likely to be expended to achieve a final conclusion. Usually in this case one side will have already surrendered.
@@ -129,7 +129,7 @@ The actions an entity may take might also be restricted by its conditions and ge
 
 
 - "**Secondary action**": A minor activity that can be carried out while doing something else at the same time. (eg, Attacking with an offhand dagger while swinging a sword). These include.
-  - Attack with an offhand weapon (if it has the "[Offhand fighting](abilities.md#offhand-fighting-i-iv)" ability).
+  - Attack with an offhand weapon (if it has the "[Offhand fighting](06-abilities.md#offhand-fighting-i-iv)" ability).
   - Use certain abilities that use SP or MP.
   - Activate certain item.
   - Drinking a potion.
@@ -169,12 +169,12 @@ The actions an entity may take might also be restricted by its conditions and ge
 
 1. A character that sprints must move in a straight line with no obstacles and can take no other action on its round.
 
-For more information on movement, see "[Movement and Exploration](movement-exploration.md)". In addition, there are more movement rules below.
+For more information on movement, see "[Movement and Exploration](03-movement-exploration.md)". In addition, there are more movement rules below.
 
 ---
 ## Surprise and Ambush
 
-As mentioned above, any combatants who are not aware of the other side, or that the other side is about to attack, starts the first round ["surprised"](conditions-types.md#conditions-in-detail). This can happen if the enemy is either hidden, or the intention to attack is hidden.
+As mentioned above, any combatants who are not aware of the other side, or that the other side is about to attack, starts the first round ["surprised"](10-conditions-types.md#conditions-in-detail). This can happen if the enemy is either hidden, or the intention to attack is hidden.
 
 ### Intentionally Hidden Enemies
 
@@ -208,11 +208,11 @@ Melee attacks and manoeuvres have a reach between 0ft-30ft. Ranged attacks have 
 
 The normal reach for medium sized creatures is 5ft (aka into the adjacent square or one square). Sometimes a reach can be described as "long". This means that an entity may use a "secondary action", to extend a single targeted attack by 5ft. A reach of 10ft will reach two squares, a reach of 15ft will reach 3 squares and so on. If a creature with a reach of "long" uses a weapon with a range of "long", the long descriptors cancel out, and the range is increased by 5ft.
 
-Ranged weapons fired while you are in melee are made at disadvantage (See "[Ranged Weapons, collateral and melee](weapons-armour.md#ranged-weapons-collateral-and-melee)").
+Ranged weapons fired while you are in melee are made at disadvantage (See "[Ranged Weapons, collateral and melee](11-weapons-armour.md#ranged-weapons-collateral-and-melee)").
 
 ### Creature sizes, reach and combat
 
-Size is, amongst other things, a measure of how much space an entity occupies. This affects various combat parameters and can be seen in the "[Size rules](base-rules.md#size-rules)". Tiny and diminutive entities that have a reach of 0ft must occupy the same square as their target to make the attack.
+Size is, amongst other things, a measure of how much space an entity occupies. This affects various combat parameters and can be seen in the "[Size rules](02-base-rules.md#size-rules)". Tiny and diminutive entities that have a reach of 0ft must occupy the same square as their target to make the attack.
 
 Likewise entities that are separated by at least two categories (eg Diminutive and medium, medium and gargantuan, large and colossal, small and colossal) can usually occupy the same space without penalty. Although the DM may ask for Dex saves from the smaller entity (threshold=NAT+Str of the bigger entity) on the turn of the bigger entity, lest the smaller entity be knocked "prone".
 
@@ -239,7 +239,7 @@ Any square within the reach of a hostile entity's melee attacks is considered th
 
 Targets moving out of a threatened square provoke an attack of opportunity. This may be a single attack or another basic combat manoeuvre.
 
-A target moving out of one threatened square into another threatened square may avoid AoOs by declaring "careful movement" and halving their movement speed for the rest of the turn. Likewise a combatant may make a roll ["acrobatic"](skills.md#acrobatics) to try and avoid attacks of opportunity when moving through a contiguous set of threatened squares (threshold = [attack bonus of hostile] + 13), on a failure by 5 or more, the one making the acrobatics roll falls prone.
+A target moving out of one threatened square into another threatened square may avoid AoOs by declaring "careful movement" and halving their movement speed for the rest of the turn. Likewise a combatant may make a roll ["acrobatic"](05-skills.md#acrobatics) to try and avoid attacks of opportunity when moving through a contiguous set of threatened squares (threshold = [attack bonus of hostile] + 13), on a failure by 5 or more, the one making the acrobatics roll falls prone.
 
 A character can avoid attacks of opportunity when moving out of a threatened square (into a square that is not threatened) by using their "main action" to withdraw. As in the previous case, an "acrobatics" roll can be used to ameliorate the situation. In this case a successful roll vs [attack bonus of hostile] + 13 allows one to withdraw as a bonus action, as usual, on a failure by 5 or more, the one making the acrobatics roll falls prone.
 
@@ -320,12 +320,12 @@ The "Grapple", "Restrain", "Shove", "Throw" and "Trip" manoeuvres can only be us
   - Effect: If attack succeeds damage is dealt to the target in accordance to the damage rules.
   - Special: Attacking with a weapon you are not proficient with provokes an attack of opportunity as you leave more openings than a proficient combatant.
 - **Grapple**:
-  - Effect: The target gains the "[grappled](conditions-types.md#conditions-in-detail)" condition: It's move speed is zero.
+  - Effect: The target gains the "[grappled](10-conditions-types.md#conditions-in-detail)" condition: It's move speed is zero.
   - Requires attack roll vs target's NAT+[Str or Dex].
   - Penalty if not proficient with **grapples**.
   - Attack of opportunity on failure.
 - **Restrain**: This is the use of grapple on a prone or grappled target.
-  - Effect: The target gains the "[restrained or aphonic](conditions-types.md#conditions-in-detail)" conditions.
+  - Effect: The target gains the "[restrained or aphonic](10-conditions-types.md#conditions-in-detail)" conditions.
   - Prerequisite: Foe must be prone or grappled.
   - Requires attack roll vs target's NAT+[Str or Dex].
   - Penalty if not proficient with **grapples**.
@@ -388,7 +388,7 @@ Spells are a subset of supernatural powers that mortals have learned to channel 
 Spells involve a combination of one or more of the following:
 
   1. **Kinetic Components**: A set of defined, obvious gestures or movements. An "immobilised" or "restrained" caster cannot perform these. (conditions that imply "immobilised" fall under this category). Spells with kinetic components provoke attacks of opportunity.
-  2. **Incantation components**: A set of defined, well enunciated words or sounds. A "[aphonic](conditions-types.md#conditions-in-detail)" or "[inaudible](conditions-types.md#conditions-in-detail)" caster cannot perform these. (conditions that imply inability to produce defined sound fall under this category).
+  2. **Incantation components**: A set of defined, well enunciated words or sounds. A "[aphonic](10-conditions-types.md#conditions-in-detail)" or "[inaudible](10-conditions-types.md#conditions-in-detail)" caster cannot perform these. (conditions that imply inability to produce defined sound fall under this category).
   3. **Ritual components**: A ritual is a procedure involving defined movement and positioning of objects or entities, or the creation of defined patterns. Disruption of this procedure ruins the ritual. Rituals typically apply to global spells.
 
 Spell ranges are designated as "**close**" or "**ranged**".
@@ -396,8 +396,8 @@ Spell ranges are designated as "**close**" or "**ranged**".
 1. A "**close**" spell, like a melee attack must requires direct contact between caster and target. Its range is the caster's reach and includes the caster.
 2. A "**ranged**" spell can have a range of 5ft or higher. It is designated as eg "ranged[60ft]". The base distances are 15ft, 30ft, 60ft, 120ft, 240ft.
 - An entity can only cast ONE spell at a time. If it attempts to cast a second, either both spells dissipate, or the casting ends in spectacular failure.
-- Spells can be **counterspelled** and **dispelled**. (See "[Spells](spells.md#banishing-breaking-counter-spelling-and-dispelling)")
-- Casting spells with kinetic components provokes attacks of opportunity unless the "[mage hunter](abilities.md#mage-hunter-i)" boon is involved.
+- Spells can be **counterspelled** and **dispelled**. (See "[Spells](07-spells.md#banishing-breaking-counter-spelling-and-dispelling)")
+- Casting spells with kinetic components provokes attacks of opportunity unless the "[mage hunter](06-abilities.md#mage-hunter-i)" boon is involved.
 - Spells with an active effect (eg summoning) and non-instantaneous duration usually require the caster to maintain their existence by "**concentrating**" on them. This has the following rules:
   1. A caster can NEVER concentrate on more than one spell.
   2. If concentration is broken, the spell dissipates or fails spectacularly.
@@ -420,7 +420,7 @@ A character cannot rest if:
 
 In addition, certain types of rest have additional requirements:
 - For a long rest or longer a character must have access to sleep, food and water (if they sleep eat or drink respectively).
-- For a long rest or longer a character must be in an "ameliorated" area or make a Con save against the [terrain + weather] threshold in order to rest successfully (see [Camping](movement-exploration.md#camping)).
+- For a long rest or longer a character must be in an "ameliorated" area or make a Con save against the [terrain + weather] threshold in order to rest successfully (see [Camping](03-movement-exploration.md#camping)).
 - In addition for a full rest a character must have access to medical care and not be subject to severe weather conditions for longer than 4h at a time (or they must make a Con save against the [terrain + weather] threshold or have to restart the rest).
 - In addition for a full rest a character must not suffer any effects that cause it to lose hit points.
 
@@ -438,13 +438,13 @@ A character can benefit from number of short rests per long rest no higher than 
 
 The recommended duration for long rest is 8h in a high action game and 1 day in a harsh game. During a long rest a character gains all of the benefits of a short rest, as well as:
 - Resetting the short rest counter.
-- Regaining exactly 1 HP. (This can be increased to 2 HP with the long term care use of the [Heal skill](skills.md#heal)).
+- Regaining exactly 1 HP. (This can be increased to 2 HP with the long term care use of the [Heal skill](05-skills.md#heal)).
 
 A character can benefit from no more than one long rest per 24h. In addition a character must carry out at least an hour of exertion after their long rest to benefit from a short rest.
 
 ### Full Rest
 
-A full rest is a week of downtime in a high action game and two weeks of downtime with constant long term medical care (see [Heal](skills.md#heal)) in a harsh game. During this time a character regains all SP dice, MP dice, MP, SP and HP.
+A full rest is a week of downtime in a high action game and two weeks of downtime with constant long term medical care (see [Heal](05-skills.md#heal)) in a harsh game. During this time a character regains all SP dice, MP dice, MP, SP and HP.
 
 It is recommended that a character should have to take a full rest in order to level up, which represents the time needed to internalise and "own" the experience gained in previous adventures.
 

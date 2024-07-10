@@ -10,26 +10,26 @@ The system is designed to provide a relatively high level of complexity at chara
 
 ## Recommended starting point
 
-The "[Quick Start](quick-start.md)" should be enough to get an idea of the system.
+The "[Quick Start](01-quick-start.md)" should be enough to get an idea of the system.
 
-To play it is probably also necessary to read "[Movement and Exploration](movement-exploration.md)" and "[Combat](combat.md)". For character creation "[Skills](skills.md)", "[Abilities](abilities.md)" and the first bit of "[Spellcasting](spells.md)" are also important.
+To play it is probably also necessary to read "[Movement and Exploration](03-movement-exploration.md)" and "[Combat](04-combat.md)". For character creation "[Skills](05-skills.md)", "[Abilities](06-abilities.md)" and the first bit of "[Spellcasting](07-spells.md)" are also important.
 
 Of course play will be "clunky" if there isn't at least one person at the table who knows the system properly. 
 
 ## Index
 
 - [Quick Start](quick-start.md)
-- [Base Rules](base-rules.md)
-- [Movement and Exploration](movement-exploration.md)
-- [Skills](skills.md)
-- [conditions and Types](conditions-types.md)
-- [Combat](combat.md)
-- [Weapons and Armour](weapons-armour.md)
-- [Races and Templates](races.md)
-- [Abilities](abilities.md)
-- [Spellcasting](spells.md)
-- [Spell List](spell-list.md)
-- [Equipment and Economy](equipment-economy.md)
+- [Base Rules](02-base-rules.md)
+- [Movement and Exploration](03-movement-exploration.md)
+- [Combat](04-combat.md)
+- [Skills](05-skills.md)
+- [Abilities](06-abilities.md)
+- [Spellcasting](07-spells.md)
+- [Spell List](08-spell-list.md)
+- [Races and Templates](09-races.md)
+- [conditions and Types](10-conditions-types.md)
+- [Weapons and Armour](11-weapons-armour.md)
+- [Equipment and Economy](12-equipment-economy.md)
 - [NPC Stat Blocks](monsters-npcs/humanoids.md)
 - [Beast and Plant Stat Blocks](monsters-npcs/beasts-and-plants.md)
 - [Monster and Dragon Stat Blocks](monsters-npcs/monsters-and-dragons.md)

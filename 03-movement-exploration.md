@@ -70,7 +70,7 @@ Most entities with a "walk" speed can:
 
 ### Climb
 Climbing is upwards or downwards movement over steep or near vertical terrain. Entities with a "climb" speed can move along this kind of surfaces at their stated speed. Entities with a climb speed must still succeed a "climb" roll when climbing, but they can always choose to take care on this roll.
-- **Non climbers:** Entities without a climb speed move at 1/4 their base speed (usually "walk"). They cannot "run" or "dash" without succeeding a "climb" roll at a -5 penalty In addition they must succeed on "[climb](skills.md#climb)" rolls to stay attached to make progress or even stay attached to the surface.
+- **Non climbers:** Entities without a climb speed move at 1/4 their base speed (usually "walk"). They cannot "run" or "dash" without succeeding a "climb" roll at a -5 penalty In addition they must succeed on "[climb](05-skills.md#climb)" rolls to stay attached to make progress or even stay attached to the surface.
 - **Prone and falling**: A climbing entity that falls prone or is knocked prone is considered prone and is subject to the falling rules (which means it accelerates downwards and then comes to a violent halt).
 
 ### Swimming
@@ -114,7 +114,7 @@ Not all flying entities are equal in flight. In fact there are four categories (
 - **Perfect:** These entities have none of the typical limits of the other three categories. In addition:
   - They can hover without falling.
 
-**NB**: Flight "time" is fully regained at the end of a ["long rest"](combat.md#long-rest). Likewise, half of an entity's flight time is regained at the end of a ["short rest"](combat.md#short-rest).
+**NB**: Flight "time" is fully regained at the end of a ["long rest"](04-combat.md#long-rest). Likewise, half of an entity's flight time is regained at the end of a ["short rest"](04-combat.md#short-rest).
 
 Most birds are "average" flyers, though most fowl are "poor" and small raptors are usually "good". Flies, on the other hand have "perfect flight". Humanoids seldom have natural flight. Those that do, are usually poor. Those races with "average" flight pay a high price for it.
 
@@ -246,7 +246,7 @@ In hostile or wilderness environments characters must often take additions steps
 
 Failure to ameliorate a suitable site leads to Con save, with the threshold determined by terrain, weather (see tables above) and any bonuses from special abilities and spells.
 
-The full rules on resting can be found in [Rest and Recuperation](combat.md#rest-and-recuperation).
+The full rules on resting can be found in [Rest and Recuperation](04-combat.md#rest-and-recuperation).
 
 ### Environmental hazards. (TODO)
 Depending on the nature of an environment being explored, it is possible to encounter various hazards. This ranges from weather related hazards like storms, extreme heat and , to terrain dangers such as raging rivers, avalanches and rockfall, to "man"-made dangers such as traps in dungeons.

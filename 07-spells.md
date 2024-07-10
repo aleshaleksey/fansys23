@@ -79,12 +79,12 @@ ___
 |Kinetic|Incantation|Int|
 |Nature|Nature|Wis|
 
- Spells obtained from a given spellcasting type, use the corresponding ability for determining thresholds and attack bonus. Thus, if a character obtained "[Least Shroud](spell-list.md#least-shroud)" through Spellcasting: Kinetic, then the threshold would be Int based. If the same spell was obtained through Spellcasting: Air, the threshold would be Wis based.
+ Spells obtained from a given spellcasting type, use the corresponding ability for determining thresholds and attack bonus. Thus, if a character obtained "[Least Shroud](08-spell-list.md#least-shroud)" through Spellcasting: Kinetic, then the threshold would be Int based. If the same spell was obtained through Spellcasting: Air, the threshold would be Wis based.
 
 ___
 ### Identifying and Manipulating spells
 
-Spells can be identified while they are being cast by the "[Knowledge:Arcana](skills.md#knowledge)" skill. This is usually a non-action. "[Spellworking](skills.md#spellworking)" is used for interfacing with spells, magical effects, and devices. This generally takes between 1 minute and 1 week.
+Spells can be identified while they are being cast by the "[Knowledge:Arcana](05-skills.md#knowledge)" skill. This is usually a non-action. "[Spellworking](05-skills.md#spellworking)" is used for interfacing with spells, magical effects, and devices. This generally takes between 1 minute and 1 week.
 
 ___
 ### Banishing, Breaking, Counter-spelling and Dispelling
@@ -123,7 +123,7 @@ Sometimes, when interaction with a spell or magical effect, it fails. Under cert
 
 **Catastrophic cascade on counter-spelling**: If a counter-speller's counter-spell roll exactly equals a caster's [SAT] (Nat + Base + Wis + 13), and the number of MP dice expended for the spell and counter-spell are equal a catastrophic cascade is triggered. All entities and structures within 10ft of the half-way point between the two casters take [the combined MP dice used] x d6 of "pressure" damage. The threshold = 18. Beware of exploding mages.
 
-**Other modes of spectacular failure**: Failing a "spellworking" roll when interacting with powerful magics, especially when disimbuing, can lead to spectacular failure. Further information is found in the "[spellworking](skills.md#spellworking)" rules. 
+**Other modes of spectacular failure**: Failing a "spellworking" roll when interacting with powerful magics, especially when disimbuing, can lead to spectacular failure. Further information is found in the "[spellworking](05-skills.md#spellworking)" rules. 
 
 ___
  
@@ -158,7 +158,7 @@ A character can know any number of spells. However, a character can only have a 
 
 #### Spells gained from levels in "spellcasting" ability
 
-Characters learn a few spells every time they gain a level in one of the "Spellcasting" abilities. A character can also learn spells by independent study, apprenticeship or gifting. As a rule, elemental and natural spellcasting grant more spells on learning the ability, but are harder to learn outside of that. On the other hand kinetic and incantation spellcasting grants fewer spells, but allows extra spells to be learned more easily. This is described in th table below and in the ["7 types of magic"](spells.md#the-7-types-of-magic) subchapter.
+Characters learn a few spells every time they gain a level in one of the "Spellcasting" abilities. A character can also learn spells by independent study, apprenticeship or gifting. As a rule, elemental and natural spellcasting grant more spells on learning the ability, but are harder to learn outside of that. On the other hand kinetic and incantation spellcasting grants fewer spells, but allows extra spells to be learned more easily. This is described in th table below and in the ["7 types of magic"](07-spells.md#the-7-types-of-magic) subchapter.
 
 |Spellcasting kind|Spells gained per level of ability|"MP 0" spells gained at ability level 1|
 |-|-|-|
@@ -172,7 +172,7 @@ Characters learn a few spells every time they gain a level in one of the "Spellc
 
 #### learning spells through independent study or from a mentor.
 
-The base time to learn a spell through personal research is 108 days per MP dice cost of a spell (for global spells this is the "per day" cost). A character with access to suitable environment and resources may use academics to reduce the time (see "[Academics](skills.md#academics)"). The rate per MP dice become (108 - ["academics" roll]) to a minimum of 64 days per MP dice. For higher level spells, independent research is incredibly time consuming, and a sage might have spent a lifetime to uncover a single new global spell.
+The base time to learn a spell through personal research is 108 days per MP dice cost of a spell (for global spells this is the "per day" cost). A character with access to suitable environment and resources may use academics to reduce the time (see "[Academics](05-skills.md#academics)"). The rate per MP dice become (108 - ["academics" roll]) to a minimum of 64 days per MP dice. For higher level spells, independent research is incredibly time consuming, and a sage might have spent a lifetime to uncover a single new global spell.
 
 The more common way to learn spells is to learn from an entity that already has the spell, a mentor so to speak. If you are learning from a mentor, the process is a lot faster, as you are transferring skills and knowledge that already exists, as opposed to unearthing new spells. For elemental and nature spells the base rate is 108 hours per MP dice cost of a spell. For incantation and kinetic spells the base rate is 64 hours. This time can be reduced with a "academics" roll from the "apprentice" and a "knowledge:arcana" roll from the mentor. The final time cost per MP dice cost is [base rate - ["academics" roll] - ["arcana" roll]]. Regardless of the result, this cost cannot be reduced to lower than 20 hours (aka 2 days) per MP dice cost for elemental and nature magic, or 10 hours (aka 1 day) per 2 MP dice cost for incantation and kinetic magic.
 

@@ -67,7 +67,7 @@ The base template allows the following:
 - Improve fly speed rating from "poor" -> "average".
 - A passive or active (C class) ability with no prerequisites (eg water breathing).
 - Gain one of the following senses: "heat-sense", "keen-senses: Sight".
-  - When this enhancement is a graded ability (eg "[Heat Sense](abilities.md#heat-sense-i-v)"), it is always taken at 2nd level (eg "Heat Sense II"). In this case increasing it by a further level costs a single point.
+  - When this enhancement is a graded ability (eg "[Heat Sense](06-abilities.md#heat-sense-i-v)"), it is always taken at 2nd level (eg "Heat Sense II"). In this case increasing it by a further level costs a single point.
 - Remove the "sleep" necessity.
 
 #### Three template points:
@@ -89,7 +89,7 @@ The base template allows the following:
 - Improve dig speed by 5ft.
 - A passive or active (B class) ability with no prerequisites.
 - Gain one of the following senses: "Tremor Sense", "Blindsight".
-  - When this enhancement is a graded ability (eg "[Tremor Sense](abilities.md#tremor-sense-i-v"), it is always taken at 2nd level (eg "Tremor Sense II"). In this case increasing it by a further level costs a single point.
+  - When this enhancement is a graded ability (eg "[Tremor Sense](06-abilities.md#tremor-sense-i-v"), it is always taken at 2nd level (eg "Tremor Sense II"). In this case increasing it by a further level costs a single point.
 
 
 #### Five Template points:
@@ -111,7 +111,7 @@ The base template allows the following:
 - Improve fly speed rating from "good" -> "perfect".
 - Gain one of the following senses: "Life-sense", "Truesight".
   - A template must be at least level 5 to have one of these sense.
-  - When this enhancement is a graded ability (eg "[Truesight](abilities.md#truesight-i-v)"), it is always taken at 2nd level (eg "Heat Sense II"). In this case increasing it by a further level costs a single point.
+  - When this enhancement is a graded ability (eg "[Truesight](06-abilities.md#truesight-i-v)"), it is always taken at 2nd level (eg "Heat Sense II"). In this case increasing it by a further level costs a single point.
 
 #### Eight Template points:
 - Immunity to an S class damage type and advantage vs one associated condition.

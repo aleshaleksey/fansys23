@@ -956,7 +956,7 @@ ___
 |Limitation|You must be familiar with the entity kind that you're transforming into|-1(3)
 |Save|Wis|
 
-**Description**: The target transforms into another entity of its type and subtype. It loses its template and instead gain the template of any valid entity that has both (see "[example templates](races.md#example-template)"): (6)
+**Description**: The target transforms into another entity of its type and subtype. It loses its template and instead gain the template of any valid entity that has both (see "[example templates](09-races.md#example-template)"): (6)
 - The same template level as your own or a template whose level is lower than your own.
 - The same entity type and subtype as your own.
 
@@ -1102,7 +1102,7 @@ ___
 |Limitation|The spell is weakened if the target is not willing.|
 |Save|Special: Wis|
 
-**Description**: The caster makes a target's promise hold real power. Chose a condition no higher than "A Class" (see "[Conditions](conditions-types.md#conditions-and-states)"). The spell then takes one of the following forms:
+**Description**: The caster makes a target's promise hold real power. Chose a condition no higher than "A Class" (see "[Conditions](10-conditions-types.md#conditions-and-states)"). The spell then takes one of the following forms:
 1. The target makes a promise and must fulfil it before the spell ends or suffers the condition permanently. (eg, "I will slay the ogre that terrorises the village.")
 2. The target makes a promise and must either keep fulfilling it for the duration of the spell. (eg, "I promise not to deceive you."). If the target breaks the promise, it suffers the condition for the full duration of the spell (as if it was cast when the target broke the promise).
 
@@ -1886,7 +1886,7 @@ The target returns with all of its SP and MP and up to 12 HP.
 - The entity must be a mortal.
 - The entity must have a dice total (MP + SP) no more than twice the dice total of the caster.
 - The entity is not beholden to the caster and it is not obliged to obey the caster, although it may if it is so inclined.
--  Likewise the target entity and any divine/spiritual/profane that holds its soul is aware of who is trying return it and may attempt to resist. In this case the caster may disengage fom the ritual or try to force it. If the caster tries to force the issue, the target and caster make an opposed SAP roll. If the caster wins the ritual succeeds (although the caster may wish that it hadn't). If the ritual fails, the spell fails [catastrophically](spells.md#the-catastrophic-cascade) as if the spell was countered on the caster's location.
+-  Likewise the target entity and any divine/spiritual/profane that holds its soul is aware of who is trying return it and may attempt to resist. In this case the caster may disengage fom the ritual or try to force it. If the caster tries to force the issue, the target and caster make an opposed SAP roll. If the caster wins the ritual succeeds (although the caster may wish that it hadn't). If the ritual fails, the spell fails [catastrophically](07-spells.md#the-catastrophic-cascade) as if the spell was countered on the caster's location.
 - The spell can NEVER be cast on the same target more than once a month.
 
 **Special**: The spell can be cast up to 7 times for the same target. However, on each casting following the first time, either the caster or an entity with at least as many MP or SP dice as the caster's total must be sacrificed (it must die in the ritual). If the sacrifice is not satisfactory, the life is lost but nothing is summoned.
@@ -2045,7 +2045,7 @@ ___
 |Limitation|See below| -4
 |Save|Special|
 
-**Description**: The caster performs a ritual, incarnating the residual energy of an incorporeal being that has previously been destroyed into a humanoid vessel. The entity retains all of its powers and MP/MP dice as well as skills, abilities, WIS, INT and CHA. It also uses the HP and SP/SP dice of the vessel. The vessel must be a humanoid that is ["unconscious"](conditions-types.md#conditions-in-detail) for the whole of the ritual, and ["dying"](conditions-types.md#conditions-in-detail) during the last round.
+**Description**: The caster performs a ritual, incarnating the residual energy of an incorporeal being that has previously been destroyed into a humanoid vessel. The entity retains all of its powers and MP/MP dice as well as skills, abilities, WIS, INT and CHA. It also uses the HP and SP/SP dice of the vessel. The vessel must be a humanoid that is ["unconscious"](10-conditions-types.md#conditions-in-detail) for the whole of the ritual, and ["dying"](10-conditions-types.md#conditions-in-detail) during the last round.
 
 When the ritual is complete, the entity takes full control of the mortal vessel and controls it fully as if it was its own. It cannot leave the body it possess until the body is destroyed (reaches minus its HP total) or the spell ends.
 
@@ -2061,7 +2061,7 @@ When the spell ends one of the following things can happen (the final decision i
 - The entity must be a "spirit", "divine" or a "fiend".
 - The entity must have a dice total (MP + SP) no more than three times the dice total of the caster.
 - The entity is not beholden to the caster and it is not obliged to obey the caster, although it may if it is so inclined.
-- The target entity is aware of who is trying return it and may attempt to resist. In this case the caster may disengage fom the ritual or try to force it. If the caster tries to force the issue, the target and caster make an opposed SAP roll. If the caster wins the ritual succeeds (although the caster may wish that it hadn't). If the ritual fails, the spell fails [catastrophically](spells.md#the-catastrophic-cascade) as if the spell was countered on the caster's location.
+- The target entity is aware of who is trying return it and may attempt to resist. In this case the caster may disengage fom the ritual or try to force it. If the caster tries to force the issue, the target and caster make an opposed SAP roll. If the caster wins the ritual succeeds (although the caster may wish that it hadn't). If the ritual fails, the spell fails [catastrophically](07-spells.md#the-catastrophic-cascade) as if the spell was countered on the caster's location.
 - The spell can NEVER be cast on the same target more than once.
 
 **Upcast**: For each 8MP dice put into the spell, the target stays in the mortal realm for an extra week.

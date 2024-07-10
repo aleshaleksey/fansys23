@@ -109,7 +109,7 @@ On the battlefield, will often use Cuirass and shield for (HiT: 17/16/11)
 |Dagger|+4|1d4+1|-|
 |Smallsword|+4|1d6+1||
 |Composite Bow|+4|1d8+1|range: 1200/240ft|
-|Spellcasting: Kinetic II|||"[Least Shroud](spell-list.md#least-shroud)", "[Whispers](spell-list.md#whispers)","[Enflame](spell-list.md#enflame)", "[Winter's Touch](spell-list.md#winters-touch), "[Silence](spell-list.md#silence)"|
+|Spellcasting: Kinetic II|||"[Least Shroud](../08-spell-list.md#least-shroud)", "[Whispers](../08-spell-list.md#whispers)","[Enflame](../08-spell-list.md#enflame)", "[Winter's Touch](../08-spell-list.md#winters-touch), "[Silence](../08-spell-list.md#silence)"|
 |||||
 |Skills|||Has a +5 in deception, +5 in academics and 2 knowledge, "navigate" +4, +3 in persuade and sense motive|
 
@@ -215,7 +215,7 @@ ___
 |Broad Strike|||Hit extra targets|
 |Combined Manoeuvre I|||Two manoeuvres in one|
 |Debilitating Strike: Aphonia|||Threshold=20|
-|Spellcasting: Incantation I|||"[Least Ward](spell-list.md#least-ward)", "[Ignition](spell-list.md#ignition)", "[Least Heal](spell-list.md#least-heal)"|
+|Spellcasting: Incantation I|||"[Least Ward](../08-spell-list.md#least-ward)", "[Ignition](../08-spell-list.md#ignition)", "[Least Heal](../08-spell-list.md#least-heal)"|
 |Skills|||Athletics +11, Ride 9, Acrobatics +5, Climb +7, Creature Handling +8, Sense Motive +4, Observe +4, History +3|
 
 A knight is an elite warrior, trained from birth to fight and rule. This block can also represent generals and kings who lived their life on the battlefield.
@@ -246,7 +246,7 @@ ___
 |Knife|+3|1d4+1 slashing||
 |Low-light vision||||
 |Resistance|||"charmed"|
-|Spellcasting: Nature I|||"[Sour](spell-list.md#silent)", "[Hide](spell-list.md#hide)", "[Beast Speech](spell-list.md#beast-speech)"|
+|Spellcasting: Nature I|||"[Sour](../08-spell-list.md#silent)", "[Hide](../08-spell-list.md#hide)", "[Beast Speech](../08-spell-list.md#beast-speech)"|
 |Proficiencies|||One musical instrument, elvish, common|
 |Skills|-|-|Usually +3 to "perform", +1 to one knowledge, +2 to "acrobatics" or +1 to "stealth"|
 |Loot|||Usually some small trinket of sentimental value and the clothes on their back|
@@ -280,10 +280,10 @@ ___
 |Knife|+5|1d4+2 slashing||
 |Low-light vision||||
 |Resistance|||"charmed"|
-|[Fleet](abilities.md#fleet)|||Hide from light concealment|
-|[Silent Step I](abilities.md#silent-step-i-iii)|||Move more silently|
-|Spellcasting: Nature III|||"[Sour](spell-list.md#silent)", "[Hide](spell-list.md#hide)", "[Beast Speech](spell-list.md#beast-speech)", "[Least Heal](spell-list.md#least-heal)", "[Least Rest](spell-list.md#least-rest)", "[Animate Plant](spell-list.md#animate-plant)"|
-|Spellcasting: Water I|||"[Least Hydromancy](spell-list.md#least-hydromancy)", "[Mist](spell-list.md#mist)", "[Chill Blood](spell-list.md#chill-blood)"|
+|[Fleet](../06-abilities.md#fleet)|||Hide from light concealment|
+|[Silent Step I](../06-abilities.md#silent-step-i-iii)|||Move more silently|
+|Spellcasting: Nature III|||"[Sour](../08-spell-list.md#silent)", "[Hide](../08-spell-list.md#hide)", "[Beast Speech](../08-spell-list.md#beast-speech)", "[Least Heal](../08-spell-list.md#least-heal)", "[Least Rest](../08-spell-list.md#least-rest)", "[Animate Plant](../08-spell-list.md#animate-plant)"|
+|Spellcasting: Water I|||"[Least Hydromancy](../08-spell-list.md#least-hydromancy)", "[Mist](../08-spell-list.md#mist)", "[Chill Blood](../08-spell-list.md#chill-blood)"|
 |Proficiencies|||One musical instrument, elvish, common and at least 2 other languages|
 |Skills|-|-|Usually +5 to "perform", +3 to three knowledges, +4 to "acrobatics" and +4 to "stealth", "navigate" +4|
 |Loot|||Usually some small trinket of sentimental value and the clothes on their back|
@@ -317,17 +317,17 @@ ____
 |Low-light vision||||
 |Resistance|||"charmed"|
 |Resistance|||"stunned"|
-|[Multi-attack I](abilities.md#multi-attack-i-iii)|||Make 2 attacks per turn|
-|[Fleet](abilities.md#fleet)|||Hide from light concealment|
-|[Alert](abilities.md#alert)|||Immune to "surprised"|
-|[Aphonic Spell](abilities.md#aphonic-spell)|||Eschew incantation components|
-|[Pointblank Shot I](abilities.md#pointblank-shot-i-iii)|||Use bow and sling in melee|
-|[Precise Shot I](abilities.md#precise-shot-i-iii)|||Ignore light cover|
-|[Trick Shot I](abilities.md#trick-shot-i-ii)|||Avoid hitting friendlies in melee|
-|[Silent Step II](abilities.md#silent-step-i-iii)|||Move more silently & run silently|
-|Spellcasting: Nature VII|||"[Sour](spell-list.md#silent)", "[Hide](spell-list.md#hide)", "[Beast Speech](spell-list.md#beast-speech)", "[Least Heal](spell-list.md#least-heal)", "[Least Rest](spell-list.md#least-rest)", "[Animate Plant](spell-list.md#animate-plant)","[Cure](spell-list.md#cure)", "[Bestial Transformation](spell-list.md#bestial-transformation)", "[Rejuvenate Land](spell-list.md#rejuvenate-land)"|
-|Spellcasting: Water III|||"[Least Hydromancy](spell-list.md#least-hydromancy)", "[Mist](spell-list.md#mist)", "[Chill Blood](spell-list.md#chill-blood)", "[Winter's Touch](spell-list.md#winters-touch)", "[Summon Water Sprite](spell-list.md#summon-water-sprite)", "[Water Ward](spell-list.md#water-ward)"|
-|[Cursed Blood](abilities.md#cursed-blood)|||Reaction to cast spells in revenge|
+|[Multi-attack I](../06-abilities.md#multi-attack-i-iii)|||Make 2 attacks per turn|
+|[Fleet](../06-abilities.md#fleet)|||Hide from light concealment|
+|[Alert](../06-abilities.md#alert)|||Immune to "surprised"|
+|[Aphonic Spell](../06-abilities.md#aphonic-spell)|||Eschew incantation components|
+|[Pointblank Shot I](../06-abilities.md#pointblank-shot-i-iii)|||Use bow and sling in melee|
+|[Precise Shot I](../06-abilities.md#precise-shot-i-iii)|||Ignore light cover|
+|[Trick Shot I](../06-abilities.md#trick-shot-i-ii)|||Avoid hitting friendlies in melee|
+|[Silent Step II](../06-abilities.md#silent-step-i-iii)|||Move more silently & run silently|
+|Spellcasting: Nature VII|||"[Sour](../08-spell-list.md#silent)", "[Hide](../08-spell-list.md#hide)", "[Beast Speech](../08-spell-list.md#beast-speech)", "[Least Heal](../08-spell-list.md#least-heal)", "[Least Rest](../08-spell-list.md#least-rest)", "[Animate Plant](../08-spell-list.md#animate-plant)","[Cure](../08-spell-list.md#cure)", "[Bestial Transformation](../08-spell-list.md#bestial-transformation)", "[Rejuvenate Land](../08-spell-list.md#rejuvenate-land)"|
+|Spellcasting: Water III|||"[Least Hydromancy](../08-spell-list.md#least-hydromancy)", "[Mist](../08-spell-list.md#mist)", "[Chill Blood](../08-spell-list.md#chill-blood)", "[Winter's Touch](../08-spell-list.md#winters-touch)", "[Summon Water Sprite](../08-spell-list.md#summon-water-sprite)", "[Water Ward](../08-spell-list.md#water-ward)"|
+|[Cursed Blood](../06-abilities.md#cursed-blood)|||Reaction to cast spells in revenge|
 |Proficiencies|||One musical instrument, elvish, common and at least 2 other languages|
 |Skills|-|-|Usually +12 to "perform", +9 to four knowledges, +6 to the rest, +7 to "spellworking", +7 to "acrobatics" and +8 to "stealth", "navigate" +8|
 |Loot|||Usually some small trinket of sentimental value and the clothes on their back|
@@ -363,21 +363,21 @@ Wears padded armour. When wielding blades increases to 18.
 |Low-light vision||||
 |Resistance|||"charmed"|
 |Resistance|||"bleeding"|
-|"[Stalker](abilities.md#stalker)"|||Hide as secondary action|
-|[Multi-attack II](abilities.md#multi-attack-i-iii)|||Make 3 attacks per turn|
-|[Offhand fighting II](abilities.md#multi-attack-i-iii)|||Make 2 offhand attacks per turn|
-|[Fleet](abilities.md#fleet)|||Hide from light concealment|
-|[Skirmisher](abilities.md#skirmisher)|||Do not provoke attack of opportunity after attack|
-|[Swift Strike](abilities.md#swift-strike)|||Attack of opportunity hits first|
-|[Speed II](abilities.md#speed)|||+10 base movement|
-|[Alert](abilities.md#alert)|||Immune to "surprised"|
-|[Aphonic Spell](abilities.md#aphonic-spell)|||Eschew incantation components|
-|[Sniper](abilities.md#sniper)|||Do not reveal yourself when you miss|
-|[Precise Shot I](abilities.md#precise-shot-i-iii)|||Ignore light cover|
-|[Trick Shot I](abilities.md#trick-shot-i-ii)|||Avoid hitting friendlies in melee|
-|[Silent Step III](abilities.md#silent-step-i-iii)|||Move really silently|
-|Spellcasting: Nature IV|||"[Sour](spell-list.md#silent)", "[Hide](spell-list.md#hide)", "[Beast Speech](spell-list.md#beast-speech)", "[Least Heal](spell-list.md#least-heal)", "[Least Rest](spell-list.md#least-rest)", "[Cure](spell-list.md#cure)", "[Bestial Transformation](spell-list.md#bestial-transformation)"|
-|Spellcasting: Air II|||"[Least Anemancy](spell-list.md#least-anemancy)", "[Least Blast](spell-list.md#least-blast)", "[Spirits' Secrets](spell-list.md#spirits-secret)", "[Silence](spell-list.md#silence)", "[Glide](spell-list.md#glide)"|
+|"[Stalker](../06-abilities.md#stalker)"|||Hide as secondary action|
+|[Multi-attack II](../06-abilities.md#multi-attack-i-iii)|||Make 3 attacks per turn|
+|[Offhand fighting II](../06-abilities.md#multi-attack-i-iii)|||Make 2 offhand attacks per turn|
+|[Fleet](../06-abilities.md#fleet)|||Hide from light concealment|
+|[Skirmisher](../06-abilities.md#skirmisher)|||Do not provoke attack of opportunity after attack|
+|[Swift Strike](../06-abilities.md#swift-strike)|||Attack of opportunity hits first|
+|[Speed II](../06-abilities.md#speed)|||+10 base movement|
+|[Alert](../06-abilities.md#alert)|||Immune to "surprised"|
+|[Aphonic Spell](../06-abilities.md#aphonic-spell)|||Eschew incantation components|
+|[Sniper](../06-abilities.md#sniper)|||Do not reveal yourself when you miss|
+|[Precise Shot I](../06-abilities.md#precise-shot-i-iii)|||Ignore light cover|
+|[Trick Shot I](../06-abilities.md#trick-shot-i-ii)|||Avoid hitting friendlies in melee|
+|[Silent Step III](../06-abilities.md#silent-step-i-iii)|||Move really silently|
+|Spellcasting: Nature IV|||"[Sour](../08-spell-list.md#silent)", "[Hide](../08-spell-list.md#hide)", "[Beast Speech](../08-spell-list.md#beast-speech)", "[Least Heal](../08-spell-list.md#least-heal)", "[Least Rest](../08-spell-list.md#least-rest)", "[Cure](../08-spell-list.md#cure)", "[Bestial Transformation](../08-spell-list.md#bestial-transformation)"|
+|Spellcasting: Air II|||"[Least Anemancy](../08-spell-list.md#least-anemancy)", "[Least Blast](../08-spell-list.md#least-blast)", "[Spirits' Secrets](../08-spell-list.md#spirits-secret)", "[Silence](../08-spell-list.md#silence)", "[Glide](../08-spell-list.md#glide)"|
 |Proficiencies|||One musical instrument, elvish, common|
 |Skills|-|-|+13 stealth, +13 Acrobatics, +8 Athletics, Climb, Swim, +8 Track, Observe, +5 Sense motive, knowledge: nature, geography, "navigate" +5|
 |Loot|||Usually some small trinket of sentimental value and the clothes on their back|
@@ -413,16 +413,16 @@ Wears a light cuirass.
 |Knife|+8|1d4+3 slashing||
 |Low-light vision||||
 |Immunity|||"charmed"|
-|[Fleet](abilities.md#fleet)|||Hide from light concealment|
-|[Alert](abilities.md#alert)|||Immune to "surprised"|
-|[Aphonic Spell](abilities.md#aphonic-spell)|||Eschew incantation components|
-|[Lingering Spell](abilities.md#lingering-spell)|||Spells last longer|
-|[Safe Cast](abilities.md#safe-cast)|||Eschew incantation components|
-|[Silent Step II](abilities.md#silent-step-i-iii)|||Move more silently & run silently|
-|Spellcasting: Nature V|||"[Sour](spell-list.md#silent)", "[Hide](spell-list.md#hide)", "[Beast Speech](spell-list.md#beast-speech)", "[Least Heal](spell-list.md#least-heal)", "[Least Rest](spell-list.md#least-rest)", "[Animate Plant](spell-list.md#animate-plant)","[Cure](spell-list.md#cure)", "[Bestial Transformation](spell-list.md#bestial-transformation)", "[Rejuvenate Land](spell-list.md#rejuvenate-land)"|
-|Spellcasting: Water V|||"[Least Hydromancy](spell-list.md#least-hydromancy)", "[Mist](spell-list.md#mist)", "[Chill Blood](spell-list.md#chill-blood)", "[Winter's Touch](spell-list.md#winters-touch)", "[Summon Water Sprite](spell-list.md#summon-water-sprite)", "[Water Ward](spell-list.md#water-ward)", "[](spell-list.md)"|
-|Spellcasting: Air III|||"[Least Anemancy](spell-list.md#least-anemancy)", "[Least Blast](spell-list.md#least-blast)", "[Spirits' Secrets](spell-list.md#spirits-secret)", "[Silence](spell-list.md#silence)", "[Glide](spell-list.md#glide)", "[Wind Walk](spell-list.md#wind-walk)", "[Guidance of the Winds](spell-list.md#guidance-of-the-winds)"|
-|[Cursed Blood](abilities.md#cursed-blood)|||Reaction to cast spells in revenge|
+|[Fleet](../06-abilities.md#fleet)|||Hide from light concealment|
+|[Alert](../06-abilities.md#alert)|||Immune to "surprised"|
+|[Aphonic Spell](../06-abilities.md#aphonic-spell)|||Eschew incantation components|
+|[Lingering Spell](../06-abilities.md#lingering-spell)|||Spells last longer|
+|[Safe Cast](../06-abilities.md#safe-cast)|||Eschew incantation components|
+|[Silent Step II](../06-abilities.md#silent-step-i-iii)|||Move more silently & run silently|
+|Spellcasting: Nature V|||"[Sour](../08-spell-list.md#silent)", "[Hide](../08-spell-list.md#hide)", "[Beast Speech](../08-spell-list.md#beast-speech)", "[Least Heal](../08-spell-list.md#least-heal)", "[Least Rest](../08-spell-list.md#least-rest)", "[Animate Plant](../08-spell-list.md#animate-plant)","[Cure](../08-spell-list.md#cure)", "[Bestial Transformation](../08-spell-list.md#bestial-transformation)", "[Rejuvenate Land](../08-spell-list.md#rejuvenate-land)"|
+|Spellcasting: Water V|||"[Least Hydromancy](../08-spell-list.md#least-hydromancy)", "[Mist](../08-spell-list.md#mist)", "[Chill Blood](../08-spell-list.md#chill-blood)", "[Winter's Touch](../08-spell-list.md#winters-touch)", "[Summon Water Sprite](../08-spell-list.md#summon-water-sprite)", "[Water Ward](../08-spell-list.md#water-ward)", "[](../08-spell-list.md)"|
+|Spellcasting: Air III|||"[Least Anemancy](../08-spell-list.md#least-anemancy)", "[Least Blast](../08-spell-list.md#least-blast)", "[Spirits' Secrets](../08-spell-list.md#spirits-secret)", "[Silence](../08-spell-list.md#silence)", "[Glide](../08-spell-list.md#glide)", "[Wind Walk](../08-spell-list.md#wind-walk)", "[Guidance of the Winds](../08-spell-list.md#guidance-of-the-winds)"|
+|[Cursed Blood](../06-abilities.md#cursed-blood)|||Reaction to cast spells in revenge|
 |Proficiencies|||One musical instrument, elvish, common and at least 2 other languages|
 |Skills|-|-|Usually +5 to "perform", +7 to three knowledges, +9 to "spellworking", +4 to "acrobatics" and +8 to "stealth", "navigate" +5|
 |Loot|||Usually some small trinket of sentimental value and the clothes on their back|
@@ -486,13 +486,13 @@ Wears hide armour
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Axe|+9|1d6+4||
-|"[Long Axe](weapons-armour.md#pole-arms)"|+9|2d8+4|reach = 10ft|
+|"[Long Axe](../11-weapons-armour.md#pole-arms)"|+9|2d8+4|reach = 10ft|
 |Strike|+9|1d6+4||
 |Sling|+6|1d6+1|range = 1600/80ft|
 |Resistance|||"bludgeoning", "shear"|
 |Unarmed Strike II|||Unarmed strike base damage is 1d6|
 |Multi-attack I|||Makes 2 attacks|
-|"[Stalker](abilities.md#stalker)"|||Hide as secondary action|
+|"[Stalker](../06-abilities.md#stalker)"|||Hide as secondary action|
 |Proficiencies|||Common and if it exists, orcish|
 |Proficiencies|||Axes, strikes, grapples, slings, , medium armour, one set of tools|
 |Skills|||+10 "Athletics", "climb", +8 "stealth", +6 "track", +4 "observe", "navigate" +4, "navigate" +4|
@@ -529,8 +529,8 @@ Wears hide armour
 |Unarmed Strike II|||Unarmed strike base damage is 1d6|
 |Great Strike|||Up to -4/+4 to attack/damage|
 |Broad Strike|||Hit extra targets|
-|"[Multi-attack II](abilities.md#multi-attack-i-iii)"|||Makes 3 attacks|
-|"[Berserk III](abilities.md#berserk-i-v)"|||(+3 damage, adv vs "grappled" and "restrained", +4 damage)|
+|"[Multi-attack II](../06-abilities.md#multi-attack-i-iii)"|||Makes 3 attacks|
+|"[Berserk III](../06-abilities.md#berserk-i-v)"|||(+3 damage, adv vs "grappled" and "restrained", +4 damage)|
 |Proficiencies|||Common and if it exists, orcish|
 |Proficiencies|||Axes, heavy blades, light blades, pole-arms, spears, percussive, all basic manoeuvres, medium armour, one set of tools|
 |Skills|||+10 "Athletics", "climb", +8 "stealth", +6 "track", +4 "observe"|
@@ -561,13 +561,13 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|[Elemental Touch](abilities.md#elemental-touch)|+9|2d6+2|(fire or ice), +2d6 per MP dice|
-|[Elemental Blast](abilities.md#elemental-blast)|+9|2d4+4|(light or lightning), +1d4 per MP dice, see ability.|
+|[Elemental Touch](../06-abilities.md#elemental-touch)|+9|2d6+2|(fire or ice), +2d6 per MP dice|
+|[Elemental Blast](../06-abilities.md#elemental-blast)|+9|2d4+4|(light or lightning), +1d4 per MP dice, see ability.|
 |Shortstaff|+6|1d6+2||
 |Sling|+6|1d6+2|range = 1600/80ft|
-|[Cursed Blood](abilities.md#cursed-blood)|||Reaction to cast spells in revenge|
-|Spellcasting: Nature II|||"[Compass](spell-list.md#compass)", "[Hide](spell-list.md#hide)", "[Least Heal](spell-list.md#least-heal)", "[Harvest](spell-list.md#harvest)"|
-|Spellcasting: Earth IV|||"[Down](spell-list.md#down)", "[Least Geomancy](spell-list.md#least-geomancy)", "[Bear's Claws](spell-list.md#bears-claws)", "[Shape Earth](spell-list.md#shape-earth)", "[Summon gnome](spell-list.md#summon-gnome)", "[Guidance of the Earth](spell-list.md#guidance-of-the-earth)", "[Earth Ward](spell-list.md#earth-ward)", "[Enchanted Ground](spell-list.md#enchanted-ground)"|
+|[Cursed Blood](../06-abilities.md#cursed-blood)|||Reaction to cast spells in revenge|
+|Spellcasting: Nature II|||"[Compass](../08-spell-list.md#compass)", "[Hide](../08-spell-list.md#hide)", "[Least Heal](../08-spell-list.md#least-heal)", "[Harvest](../08-spell-list.md#harvest)"|
+|Spellcasting: Earth IV|||"[Down](../08-spell-list.md#down)", "[Least Geomancy](../08-spell-list.md#least-geomancy)", "[Bear's Claws](../08-spell-list.md#bears-claws)", "[Shape Earth](../08-spell-list.md#shape-earth)", "[Summon gnome](../08-spell-list.md#summon-gnome)", "[Guidance of the Earth](../08-spell-list.md#guidance-of-the-earth)", "[Earth Ward](../08-spell-list.md#earth-ward)", "[Enchanted Ground](../08-spell-list.md#enchanted-ground)"|
 |Proficiency|||Common and any 2 languages, |
 |Skills|||"Spellworking" +10, knowledge nature, arcana +8, "observe" +7, "track" + 5, "fortify" +4, "navigate" +4|
 
@@ -597,7 +597,7 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Size|||Small|
-|(Optional) Spellcasting: Air|||"[Least Anemancy](spell-list.md#least-anemancy)", "[Whispers](spell-list.md#whispers)", "[Least Blast](spell-list.md#least-blast)"|
+|(Optional) Spellcasting: Air|||"[Least Anemancy](../08-spell-list.md#least-anemancy)", "[Whispers](../08-spell-list.md#whispers)", "[Least Blast](../08-spell-list.md#least-blast)"|
 |Proficiency|||Common, Bird, 1 tool|
 |Skills|||"Fly" +5, "Observe" +3, "perform" +1|
 
@@ -628,7 +628,7 @@ ___
 |Shortstaff|+6|1d8+3|Two handed|
 |Shortbow|+6|1d6+3|range 600/120ft|
 |Alert|||Immune to surprise|
-|Spellcasting: Air II|||"[Least Anemancy](spell-list.md#least-anemancy)", "[Whispers](spell-list.md#whispers)", "[Least Blast](spell-list.md#least-blast)", "[Spirits Secret](spell-list.md#spirits-secret)", "[Tailwind](spell-list.md#tailwind)", "[Summon Wind Sprite](spell-list.md#summon-wind-sprite)"|
+|Spellcasting: Air II|||"[Least Anemancy](../08-spell-list.md#least-anemancy)", "[Whispers](../08-spell-list.md#whispers)", "[Least Blast](../08-spell-list.md#least-blast)", "[Spirits Secret](../08-spell-list.md#spirits-secret)", "[Tailwind](../08-spell-list.md#tailwind)", "[Summon Wind Sprite](../08-spell-list.md#summon-wind-sprite)"|
 |Proficiency|||Common, Bird, 1 set of tools or a trade|
 |Skills|||"Fly" +8, "Observe" +5, "Navigate" +4, "perform" +4|
 
@@ -661,13 +661,13 @@ ___
 |Size|||Small|
 |Scimitar|+9|1d8+4||
 |Composite Bow|+9|1d8+4|range 1200/240ft|
-|[Alert](abilities.md#alert)|||Immune to surprise|
-|[Evasive](abilities.md#evasive)|||Avoid AoOs|
-|[Skirmisher](abilities.md#skirmisher)|||Avoid AoOs|
-|[Sprinter](abilities.md#sprinter)|||Go further|
-|[Speed II](abilities.md#speed)|||Go faster|
-|[Fleet](abilities.md#fleet)|||Hide in the mist|
-|Spellcasting: Air II|||"[Least Anemancy](spell-list.md#least-anemancy)", "[Whispers](spell-list.md#whispers)", "[Least Blast](spell-list.md#least-blast)", "[Spirits Secret](spell-list.md#spirits-secret)", "[Tailwind](spell-list.md#tailwind)", "[Summon Wind Sprite](spell-list.md#summon-wind-sprite)", "[Lesser Veil](spell-list.md#lesser-veil)"|
+|[Alert](../06-abilities.md#alert)|||Immune to surprise|
+|[Evasive](../06-abilities.md#evasive)|||Avoid AoOs|
+|[Skirmisher](../06-abilities.md#skirmisher)|||Avoid AoOs|
+|[Sprinter](../06-abilities.md#sprinter)|||Go further|
+|[Speed II](../06-abilities.md#speed)|||Go faster|
+|[Fleet](../06-abilities.md#fleet)|||Hide in the mist|
+|Spellcasting: Air II|||"[Least Anemancy](../08-spell-list.md#least-anemancy)", "[Whispers](../08-spell-list.md#whispers)", "[Least Blast](../08-spell-list.md#least-blast)", "[Spirits Secret](../08-spell-list.md#spirits-secret)", "[Tailwind](../08-spell-list.md#tailwind)", "[Summon Wind Sprite](../08-spell-list.md#summon-wind-sprite)", "[Lesser Veil](../08-spell-list.md#lesser-veil)"|
 |Proficiency|||Common, Bird, 1 set of tools or a trade|
 |Skills|||"Fly" +10, "Observe" +8, "Stealth" +7, "Navigate" +6, "Perform" +4|
 
@@ -698,15 +698,15 @@ ___
 |-|-|-|-|
 |Size|||Small|
 |Composite Bow|+10|1d8+4|range 1200/240ft|
-|[Elemental Blast](abilities.md#elemental-blast)|+12|2d4+4|(fire), +1d6 per MP dice, see ability.|
-|[Elemental Touch](abilities.md#elemental-touch)|+12|2d4+4|(lightning), +2d4 per MP dice, see ability.|
-|[Alert](abilities.md#alert)|||Immune to surprise|
-|[Evasive](abilities.md#evasive)|||Avoid AoOs|
-|[Sprinter](abilities.md#sprinter)|||Go further|
-|[Fleet](abilities.md#fleet)|||Hide in the mist|
-|Spellcasting: Air VI|||"[Least Anemancy](spell-list.md#least-anemancy)", "[Whispers](spell-list.md#whispers)", "[Least Blast](spell-list.md#least-blast)", "[Spirits Secret](spell-list.md#spirits-secret)", "[Tailwind](spell-list.md#tailwind)", "[Summon Wind Sprite](spell-list.md#summon-wind-sprite)", "[Lesser Veil](spell-list.md#lesser-veil)"|
-|Spellcasting: Fire III|||"[Least Pyromancy](spell-list.md#least-pyromancy)", "[Ignition](spell-list.md#ignition)", "[Least Vengeance](spell-list.md#least-vengeance)", "[Foxfire](spell-list.md#foxfire)", "[Warmth](spell-list.md#warmth)", "[Summon Flame Sprite](spell-list.md#summon-flame-sprite)", "[Meadow of Flame](spell-list.md#meadow-of-flame)", "[Command Mortal](spell-list.md#command-mortal)"|
-|Spellcasting: Nature III|||"[Compass](spell-list.md#compass)", "[Sour](spell-list.md#sour)", "[Least Heal](spell-list.md#least-heal)", "[Beast Speech](spell-list.md#beast-speech)", "[Least Rest](spell-list.md#least-rest)", "[Harvest](spell-list.md#harvest)", "[Cure](spell-list.md#cure)", "[Growth](spell-list.md#growth)"||
+|[Elemental Blast](../06-abilities.md#elemental-blast)|+12|2d4+4|(fire), +1d6 per MP dice, see ability.|
+|[Elemental Touch](../06-abilities.md#elemental-touch)|+12|2d4+4|(lightning), +2d4 per MP dice, see ability.|
+|[Alert](../06-abilities.md#alert)|||Immune to surprise|
+|[Evasive](../06-abilities.md#evasive)|||Avoid AoOs|
+|[Sprinter](../06-abilities.md#sprinter)|||Go further|
+|[Fleet](../06-abilities.md#fleet)|||Hide in the mist|
+|Spellcasting: Air VI|||"[Least Anemancy](../08-spell-list.md#least-anemancy)", "[Whispers](../08-spell-list.md#whispers)", "[Least Blast](../08-spell-list.md#least-blast)", "[Spirits Secret](../08-spell-list.md#spirits-secret)", "[Tailwind](../08-spell-list.md#tailwind)", "[Summon Wind Sprite](../08-spell-list.md#summon-wind-sprite)", "[Lesser Veil](../08-spell-list.md#lesser-veil)"|
+|Spellcasting: Fire III|||"[Least Pyromancy](../08-spell-list.md#least-pyromancy)", "[Ignition](../08-spell-list.md#ignition)", "[Least Vengeance](../08-spell-list.md#least-vengeance)", "[Foxfire](../08-spell-list.md#foxfire)", "[Warmth](../08-spell-list.md#warmth)", "[Summon Flame Sprite](../08-spell-list.md#summon-flame-sprite)", "[Meadow of Flame](../08-spell-list.md#meadow-of-flame)", "[Command Mortal](../08-spell-list.md#command-mortal)"|
+|Spellcasting: Nature III|||"[Compass](../08-spell-list.md#compass)", "[Sour](../08-spell-list.md#sour)", "[Least Heal](../08-spell-list.md#least-heal)", "[Beast Speech](../08-spell-list.md#beast-speech)", "[Least Rest](../08-spell-list.md#least-rest)", "[Harvest](../08-spell-list.md#harvest)", "[Cure](../08-spell-list.md#cure)", "[Growth](../08-spell-list.md#growth)"||
 |Proficiency|||Common, Bird, herbalist's kit, calligraphy kits|
 |Skills|||"Fly" +8, "Knowledge: arcana" + 7, "Knowledge: geography" +5, "Academics" +5, "Observe" +6, "Stealth" +6, "Navigate" +6, "Perform" +4|
 

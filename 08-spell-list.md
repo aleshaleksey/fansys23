@@ -108,6 +108,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 ### MP 10 Spells
 - [Realm of Flame](#realm-of-flame)
 
+___
 ## MP 0 spells
 
 ### Sour
@@ -125,6 +126,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 **Description**: This spell turns sweet grapes sour (+1).
 (4-4)/3 = 0
 
+___
 ### Hide
 |Name|Hide [Nature, Air]|
 |-|-|
@@ -141,6 +143,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 
 **Description**: You become "invisible" to 1 target (+2).
 
+___
 ### Silent
 |Name|Silent [Nature, Air]|
 |-|-|
@@ -156,6 +159,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 
 **Description**: The target becomes "inaudible" for the duration. Unwilling targets are not affected. (+3+2-1=4, (4-4)/3=0)
 
+___
 ### Deafen
 |Name|Deafen [Curse]|
 |-|-|
@@ -172,6 +176,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 
 **Description**: The target is "deafened" (+2). (4-4)
 
+___
 ### Compass
 |Name|Compass [Nature, Travel]|
 |-|-|
@@ -186,6 +191,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 
 **Description**: Conjure a clearly visible sign next to you that either points north, or to the nearest source of either clean water, nourishment, or shelter that must be at least 10ft away.
 
+___
 ### Least Anemancy
 |Name|Least Anemancy [Air, Spiritual]|
 |-|-|
@@ -208,6 +214,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 + Dry water on a solid surface (eg your clothes).
 + Change the cosmetic qualities of the air.
 
+___
 ### Least Blast
 |Name|Least Blast [Air, Destruction]|
 |-|-|
@@ -224,6 +231,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 
 **Description**: Call for a violent burst of wind to strike a target. The effect is a very small explosion.
 
+___
 ### Whispers
 |Name|Message [Air, Spring, Spirit]|
 |-|-|
@@ -240,6 +248,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 + Transmit a vocal message (no longer than 12 words) to a single target that you can envision in range. There must be no hermetic barriers between you and the target.
 + Make a sound (can be speech, calls of beast, rustling of leaves, etc) in a square in range which you can see. It is roughly the volume of spoken speech (less than 60 dB), and does not cause damage.
 
+___
 ### Least Shroud
 |Name|Least Shroud [Air, Light, Nature, Spirit, Travel]|
 |-|-|
@@ -258,6 +267,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 
 **Special**: This effect is a visual illusion, the spell's target does not get concealment from entities that can see through illusions or who have "blind sight", "tremor sense", "heat sense" or "life sense".
 
+___
 ### Least Ward
 |Name|Least Ward [Barrier, Divine, Earth, Mortal, Nature, Spiritual]|
 |-|-|
@@ -274,6 +284,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 
 **Limitation**: The "Least ward" cannot be moved from the square it was originally cast. If the target leaves the square, the ward remains there.
 
+___
 ### Down
 |Name|Down [Earth]|
 |-|-|
@@ -289,6 +300,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 
 **Description**: The earth attracts the target and it falls prone. (4-4)
 
+___
 ### Least Geomancy
 |Name|Least Geomancy [Earth, Spiritual]|
 |-|-|
@@ -309,6 +321,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 + Cause the square to become difficult terrain, or difficult terrain caused by earth features to become freely passable.
 + Change the cosmetic qualities of the earth.
 
+___
 ### Least Spike
 |Name|Least Spike [Earth, Destruction]|
 |-|-|
@@ -325,6 +338,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 
 **Description**: Ask the earth nicely to harden and strike all entities within 5ft of you with sharp spikes. (5-1=4+4)
 
+___
 ### Ignition
 |Name|Ignition [Fire, Destruction]|
 |-|-|
@@ -340,6 +354,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 
 **Description**: Call forth flames at a spot. Ignite flammable material in one square, violently if desired. If cast violently, the flames do damage to any entity in the square. (4-4)
 
+___
 ### Least Warmth
 |Name|Least Warmth [Fire, Travel, Summer]|
 |-|-|
@@ -355,6 +370,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 
 **Description**: Attempts to warm an area and anything in it to body temperature. If the area is affected by any "Extreme temperature: Cold" category, it is considered as being one step milder.
 
+___
 ### Least Pyromancy
 |Name|Least Pyromancy [Fire, Summer, Spiritual]|
 |-|-|
@@ -376,6 +392,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 + Move the whole flame up to 60ft if it is small or smaller, 30ft if it is large or smaller, and 10ft otherwise (as long as there are flammable materials and air (or other source of oxidant) available).
 + Change the colour and other cosmetic qualities of the flame.
 
+___
 ### Least Hydromancy
 |Name|Least Hydromancy [Water, Spiritual]|
 |-|-|
@@ -397,6 +414,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 + Cause currents in a square of water to make it difficult terrain, or steady the flow to remove that quality.
 + Change the cosmetic qualities of the water.
 
+___
 ### Least Freeze
 |Name|Least Freeze [Water, Ice, Destruction]|
 |-|-|
@@ -412,6 +430,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 
 **Description**: Still the movement inside of water. Freeze a material or creature containing water, violently if desired. If cast violently the rapid cooling damages any entity on the square. (4-4)
 
+___
 ### Mist
 |Name|Mist [Water, Ice, Winter]|
 |-|-|
@@ -449,6 +468,7 @@ ____
 
 **Upcast**: Target regains an extra HP per extra MP, to a maximum of 3. No extra effect on undead.
 
+___
 ### Beast Speech
 |Name|Beast Speech [Nature, Air]|
 |-|-|
@@ -470,6 +490,7 @@ ____
 
 (-2+6+2)=(4+2)
 
+___
 ### Spirits' Secret
 |Name|Spirits' Secret [Air, Spirit]|
 |-|-|
@@ -494,6 +515,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 
 **Global**: The spell reaches to a range of two miles and gives the caster the location of all objects matching the criteria.
 
+___
 ### Tailwind
 |Name|Tailwind [Air, Spirit, Travel]|
 |-|-|
@@ -513,6 +535,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 
 **Global**: The duration increases to a day. The wind affects up to 4 creatures within 20ft of the caster. For every 4MP extra the duration increases by a day, or the number of targets increases by 4.
 
+___
 ### Headwind
 |Name|Headwind [Air, Spring]|
 |-|-|
@@ -532,6 +555,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 
 **Global**: The wind strength remains the same, but the spell creates a whirlwind with a 100ft radius. The duration increases to an hour. For every 4MP extra the duration increases by an hour or the radius increases by 50ft.
 
+___
 ### Bear's Claws
 |Name| Bear's Claws [Earth, Nature, Travel]|
 |-|-|
@@ -549,6 +573,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 **Upcast**: Increase the duration by 12 minute for each extra MP.
 (~)
 
+___
 ### Gnomes' Mercy
 |Name|Gnomes' Mercy [Earth, Spirit, Travel]|
 |-|-|
@@ -566,6 +591,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 
 **Upcast**: Increase the number of targets by 1 and decrease the damage by a further 1d12 points.
 
+___
 ### Shape Earth
 |Name|Shape Earth [Earth, Nature, Travel]|
 |-|-|
@@ -590,6 +616,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 
 **Upcast**: Target regains an extra HP per extra MP, to a maximum of 3. No extra effect on undead.
 
+___
 ### Ensnare
 |Name|Ensnare [Nature]|
 |-|-|
@@ -611,6 +638,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 **Global**: Create a zone of 200ft with the same properties. For every 4MP add either 100ft of radius or 1 hour of duration.
 (4+1+3+2-4)=(4+2)
 
+___
 ### Foxfire
 |Name|Foxfire [Fire, Spirit]|
 |-|-|
@@ -630,6 +658,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 
 **Global**: When cast globally the spell illuminates an area with a radius of 100ft and lasts for 1h plus 20 min for each extra 4MP. This use is popular at festivals and parties.
 
+___
 ### Enflame
 |Name|Enflame [Fire, Mortal]|
 |-|-|
@@ -650,6 +679,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 
 **Upcast**: Add 1 target for every extra MP dice used.
 
+___
 ### Least Vengeance
 |Name|Least Vengeance [Curse, Destruction, Fire]|
 |-|-|
@@ -669,6 +699,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 
 **Upcast**: Add +1d8 to the damage for every extra MP used.
 
+___
 ### Winter's Touch
 |Name|Winter's Touch [Ice/Water, Winter]|
 |-|-|
@@ -690,6 +721,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 
 **Global**: The spell's range is 100ft per 4 MP, centered on you (you are not affected) and lasts for a day. For every 4 MP either the radius increases by 100ft, or the duration increase by a day.
 
+___
 ### Chill Blood
 |Name|Winter's Touch [Ice/Water, Mortal]|
 |-|-|
@@ -713,6 +745,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 
 (7-4)/3 = 1
 
+___
 ### Water Snake
 |Name|Water Snake [Water/ice, Spiritual]|
 |-|-|
@@ -762,6 +795,7 @@ ___
 
 **Global**: The spell has an affect with a 100ft radius, centered on the spot where it was cast and affects all entities within it. For every 4MP extra, the spell's radius is increased by 100ft or the duration is increased by 7 days.
 
+___
 ### Harvest
 |Name|Harvest [Curse, Nature]|
 |-|-|
@@ -785,6 +819,7 @@ ___
 
 **Global**: The radius increases to 100ft per 8MP dice. The amount of sustenance obtained is enough for 200 large (800 medium) mortals per 8MP.
 
+___
 ### Least Rest
 |Name|Least Rest [Divine, Healing, Nature, Winter]|
 |-|-|
@@ -804,6 +839,7 @@ ___
 
 **Upcast**: Target regains an extra 1d4 SP and an extra SP dice per extra MP dice used, to a maximum of 4MP dice used. No extra effect on undead.
 
+___
 ### Meadow of Flame
 |Name|Meadow of Flame [Fire, Destruction]|
 |-|-|
@@ -825,6 +861,7 @@ ___
 
 **Upcast**: For every extra MP dice, increase the radius by 5ft or increase the damage by 1d8.
 
+___
 ### Warmth
 |Name|Warmth [Fire, Travel]|
 |-|-|
@@ -847,6 +884,7 @@ ___
 - 2h: Per 2 hour: 1' of snow ice melts.
 - 24h: Early plants begin emerge from winter dormancy.
 
+___
 ### Summon Flame Sprite
 |Name|Summon Flame Sprite [Fire, Spiritual]|
 |-|-|
@@ -872,6 +910,7 @@ ___
 
 (Summon spell rating is controversial)
 
+___
 ### Glide
 |Name|Glide [Wind, Travel]|
 |-|-|
@@ -896,6 +935,7 @@ ___
 
 **Global**: When cast globally the spell creates a spherical zone centered on the caster where this effect acts. For every 8 extra MP dice added the zone is expanded by 200ft or the duration increased by a day. Every entity that enters the area and does not succeed a Wis save is affected by the spell.
 
+___
 ### Lesser Veil
 |Name|Veil [Air, Curse]|
 |-|-|
@@ -919,6 +959,7 @@ ___
 
 **Global**: Hides surface features from sight, eg. a camp, with all people and objects in it. It does not hide inherent terrain features, eg mountains and lakes. All valid targets in a radius of 100ft are "invisible" for a week. For every 4MP, the radius increases by 100ft, or the duration increases by a week.
 
+___
 ### Summon Wind Sprite
 |Name|Summon Flame Sprite [Air, Spiritual]|
 |-|-|
@@ -942,6 +983,7 @@ ___
 
 **Global**: The sprite is bound by a longer contract (an extra day for every 8MP above 8) and the spell does not require concentration. For every day of the contract the material component must be paid anew.
 
+___
 ### Least Transformation
 |Name| [Curse, Water]|
 |-|-|
@@ -968,6 +1010,7 @@ ___
 
 **Global**: The spell lasts for a week, with an extra week for every 4MP. It cannot be cancelled voluntarily.
 
+___
 ### Silence
 |Name|Silence [Curse, Water]|
 |-|-|
@@ -986,6 +1029,7 @@ ___
 
 **Global**: The spell affects an area with a radius of 100ft and lasts for a week. For every 4 extra MP dice used the radius increases by 100ft, or the duration increases by a week.
 
+___
 ### Summon Water Sprite
 |Name|Summon Flame Sprite [water/Ice, Spiritual]|
 |-|-|
@@ -1009,6 +1053,7 @@ ___
 
 **Global**: The sprite is bound by a longer contract (an extra day for every 8MP above 8) and the spell does not require concentration. For every day of the contract the material component must be paid anew.
 
+___
 ### Earthen Hand
 |Name|Earthen Hand [Earth]|
 |-|-|
@@ -1041,6 +1086,7 @@ ___
 
 **Global**: As local. However, the hand may not move further than 100ft from the point it was called. For every extra 4 MP dice the hand persists for an extra hour.
 
+___
 ### Warded Ground
 |Name|Warded Ground [Barrier, Earth, Ground]|
 |-|-|
@@ -1065,6 +1111,7 @@ ___
 
 **Global**: The spell radius is 400ft. It lasts for a month. For every 4MP extra either the duration increases by a month or the radius extends by 100ft. An extra entity type is automatically added for every 4MP extra. 
 
+___
 ### Summon Gnome
 |Name|Summon gnome [Earth, Spiritual]|
 |-|-|
@@ -1088,6 +1135,7 @@ ___
 
 **Global**: The gnome is bound by a longer contract (an extra day for every 8MP above 8) and the spell does not require concentration. For every day of the contract the material component must be paid anew.
 
+___
 ### Promise
 |Name|Promise [Curse, Global]|
 |-|-|
@@ -1140,6 +1188,7 @@ ___
 
 (Summon spell rating is controversial)
 
+___
 ### Cure
 |Name|Cure [Divine, Healing, Nature]|
 |-|-|
@@ -1158,6 +1207,7 @@ ___
 
 **Upcast**: For every extra dice increase the number of B/C class conditions removed by 1. If at least 5 dice are used, an S class condition can be removed, although this will not necessarily make things better. The damage to undead is not increased.
 
+___
 ### Growth
 |Name|Growth [Nature]|
 |-|-|
@@ -1177,6 +1227,7 @@ ___
 
 **Global**: The spell acts over an area with a radius of 100ft for a week. All entities that enter the area that do not succeed a Wis save are affected by the size change. For every 4 extra MP dice, the radius increases by 4 or the size category change increases by 1.
 
+___
 ### Least Curse
 |Name|Least Curse [Curse, Destruction, Spirit]|
 |-|-|
@@ -1219,6 +1270,7 @@ ___
 
 **Global**: The curse is permanent. If upcast to cost 20 MP dice the caster may choose three C Class, two B class or 1 A class condition.
 
+___
 ### Animate/Control Dead
 |Name|Animate Dead [Curse, Profane]|
 |-|-|
@@ -1248,6 +1300,7 @@ ___
 
 (Summon spell rating is controversial)
 
+___
 ### Earth Ward
 |Name|Earth Ward [Barrier, Earth]|
 |-|-|
@@ -1275,6 +1328,7 @@ ___
 
 **Global:** This is one of the lesser barrier spells. Cast globally it extends over a radius of 300ft centered on a square/point and lasts for a week. For every 4MP extra either the duration increases by a week or the radius increases by 200ft.
 
+___
 ### Mole
 |Name|Mole [Earth, Nature, Travel]|
 |-|-|
@@ -1295,6 +1349,7 @@ ___
 
 **Global**: The spell has a duration of 1 day + 6h per extra 4MP or gives flight to an additional target.
 
+___
 ### Water Ward
 |Name|Wind Ward [Barrier, Water]|
 |-|-|
@@ -1321,6 +1376,7 @@ ___
 
 **Global:** This is one of the lesser barrier spells. Cast globally it extends over a radius of 300ft centered on a square/point and lasts for a week. For every 4MP extra either the duration increases by a week or the radius increases by 200ft.
 
+___
 ### Water Walk
 |Name|Water Walk [Travel, Water]|
 |-|-|
@@ -1344,6 +1400,7 @@ ___
 
 **Global**: The spell is cast upon a square/point on the ground or water adjacent to the caster. All water within 300ft of that spot can be crossed on foot. If extra MP dice are used for the casting of the spell, the range increases by 300ft per extra MP dice.
 
+___
 ### Winter's Blade
 |Name|Winter's Blade [Ice, Destruction, Summer]|
 |-|-|
@@ -1365,6 +1422,7 @@ ___
 
 **Upcast**: For every extra MP dice, the spell lasts for an extra 12 minutes or affect an extra 13 pieces of ammunition. Alternatively for every extra 2MP dice placed in the spell, it will deal an extra 1d8 damage.
 
+___
 ### Storm Ward
 |Name|Storm Ward [Barrier, Wind]|
 |-|-|
@@ -1392,6 +1450,7 @@ ___
 
 **Global:** This is one of the lesser barrier spells. Cast globally it extends over a radius of 300ft centered on a square/point and lasts for a week. For every 4MP extra either the duration increases by a week or the radius increases by 300ft.
 
+___
 ### Wind Walk
 |Name|Wind Walk [Air, Nature, Travel]|
 |-|-|
@@ -1412,6 +1471,7 @@ ___
 
 **Global**: The spell has a duration of 1 day + 6h per extra 4MP or gives flight to an additional target.
 
+___
 ### Command Mortal
 |Name|Charm Mortal [mortal, fire]|
 |-|-|
@@ -1438,6 +1498,7 @@ ___
 - Allow the caster to give the target an extra command or:
 - Add an extra target.
 
+___
 ### Fire Ward
 |Name|Fire Ward [Barrier, Fire]|
 |-|-|
@@ -1466,6 +1527,7 @@ ___
 
 **Global:** This is one of the lesser barrier spells. Cast globally it extends over a radius of 300ft centered on a square/point and lasts for a week. For every 4MP extra either the duration increases by a week or the radius increases by 200ft.
 
+___
 ### Summer's Blade
 |Name|Summer's Blade [Destruction, Fire, Summer]|
 |-|-|
@@ -1487,6 +1549,7 @@ ___
 
 **Upcast**: For every extra MP dice, the spell lasts for an extra 12 minutes or affect an extra 13 pieces of ammunition. Alternatively for every extra 2MP dice placed in the spell, it will deal an extra 1d8 damage.
 
+___
 ### Guidance of the Winds
 |Name|Guidance of the Winds [Air, Spirit]|
 |-|-|
@@ -1507,6 +1570,7 @@ ___
 
 **Global**: The caster gives a locus the blessing of the winds. Within 100ft of that spot rolls made by entities that are not hostile to the caster receive this blessing. For every 4MP extra the radius of the spell increases by 100ft or the duration increases by a week.
 
+___
 ### Guidance of the Earth
 |Name|Guidance of the Earth [Earth, Spirit]|
 |-|-|
@@ -1562,6 +1626,7 @@ ___
 - For every extra 4MP added to the spell it lasts for an extra day or the radius increases by 400ft.
 - If the spell is cast with at least 40MP and an intended duration of at least 1 week, the effect is permanent.
 
+___
 ### Balance of Nature
 |Name|Balance of Nature [Divine, Profane, Nature]|
 |-|-|
@@ -1594,6 +1659,7 @@ ___
 - For every extra 4MP added to the spell it lasts for an extra day or the radius increases by 400ft.
 - If the spell is cast with at least 40MP and an intended duration of at least 1 week, the effect is permanent.
 
+___
 ### Bestial Transformation
 |Name|Balance Bestial Transformation [Curse, Mortal, Nature]|
 |-|-|
@@ -1617,6 +1683,7 @@ ___
 
 **Global**: The spell lasts for a week. For every 4MP the spell lasts an extra week and the maximum level of the resulting animal/plant increases by 1. It cannot be cancelled voluntarily.
 
+___
 ### Rejuvenate Land
 |Name|Rejuvenate Land [Healing, Nature]|
 |-|-|
@@ -1641,6 +1708,7 @@ ___
 
 **Global**: The same, but with a 600ft radius. For every extra 4MP increase the radius by 600ft, alternatively the level increases for the sake of breaking curses or aftereffects.
 
+___
 ### Animate Golem
 |Name|Animate Golem [Earth]|
 |-|-|
@@ -1665,6 +1733,7 @@ ___
 **Global**: The golem functions for longer and concentration is not required. However, it must be given a simple set of instructions that cannot be changed afterwards. A caster need not concentrate on golems created this way. For every extra 4MP dice the golem either functions for an extra week or gains 2 levels.
 - If 40MP dice or more are used and the golem has no more than 10 levels, the golem does not run out of energy.
 
+___
 ### Enchanted Ground
 |Name|Enchanted Ground [Earth, Spirit]|
 |-|-|
@@ -1693,6 +1762,7 @@ ___
 
 **Global**: The spell lasts for a day and has a great radius. It deals the damage only during the first minute of the spell and can also affect structures. In addition friendly entities have advantage on fortification and harvesting rolls in the area. For every 4MP dice extra the duration increases by a day, or the radius increases by 800ft.
 
+___
 ### Speak Through Flame
 |Name|Speak Through Flame [Fire, Spirit]|
 |-|-|
@@ -1716,6 +1786,7 @@ ___
 
 **Upcast**: The spell lasts for an extra 12 minutes per MP dice.
 
+___
 ### Aqueous Step
 |Name|Aqueous Step [Travel, Water]|
 |-|-|
@@ -1741,6 +1812,7 @@ ___
 
 (blink speed = 12+7)
 
+___
 ### Mirage
 |Name|Mirage [Spiritual, Water]|
 |-|-|
@@ -1770,6 +1842,7 @@ An illusion can be broken in the following manner:
 
 **Global**: The mirage lasts for a day and has a radius of 400ft. For every 4 extra MP the mirage lasts for an extra day or its radius increases by 400ft.
 
+___
 ### Scry
 |Name|Scry [Spirit, Water]|
 |-|-|
@@ -1790,6 +1863,7 @@ An illusion can be broken in the following manner:
 
 **Global**: The spell has a range or 240 miles and lasts for a day. The view distance is 120ft. For every 4MP the  range increases by 60 miles or the duration increases by a day.
 
+___
 ### Least Storm
 |Name|Least Storm [Air, Destruction, Nature]|
 |-|-|
@@ -1813,6 +1887,7 @@ An illusion can be broken in the following manner:
 
 **Global**: The spell affects a large area and lasts for an hour. The winds are classed as "severe". For every extra 4MP dice, either the area increases by 100ft, or the duration increases by 1h. If at least 24MP dice are used in the casting, the wind effects are "extreme".
 
+___
 ### Lesser Weather Control
 |Name|Least Weather Control [Air, Nature]|
 |-|-|
@@ -1861,6 +1936,7 @@ ___
 
 **Upcast**: For every 4 MP dice above 20, the spell lasts an extra year. Alternatively you may select an extra attribute. If the spell is cast with 32 MP dice or more, and only one attribute is taken, it becomes permanent.
 
+___
 ### Revenant
 |Name|Revenant [Divine, Fire, Earth]|
 |-|-|
@@ -1893,6 +1969,7 @@ The target returns with all of its SP and MP and up to 12 HP.
 
 **Upcast**: For each 8MP dice put into the spell, the target stays in the mortal realm for an extra 24 hours.
 
+___
 ### Flawed Transmute
 |Name|Flawed Transmutation [Curse, Incantation]|
 |-|-|
@@ -1919,6 +1996,7 @@ The target returns with all of its SP and MP and up to 12 HP.
 
 **Global**: The spell is permanent. If at least 28 MP dice are used the maximum material level can be 3. If 36 MP dice are used the maximum material level can be 4.
 
+___
 ### Flame Stride
 |Name|Flame Stride [Travel, Fire]|
 |-|-|
@@ -1969,6 +2047,7 @@ ___
 
 33
 
+___
 ### Forest of Flame
 |Name|Forest of Flame [Fire, Destruction]|
 |-|-|
@@ -1992,6 +2071,7 @@ ___
 
 **Global**: Creates an inferno, large enough to engulf a small town. For every extra 4MP the radius increases by 200ft and the height increases by 10ft. Elemental lords might use this kind of magic for "amelioration" when visiting the mortal realm.
 
+___
 ### Legion of Dead
 |Name|Legion of Dead [Curse, Profane]|
 |-|-|

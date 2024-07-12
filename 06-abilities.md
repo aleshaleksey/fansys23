@@ -339,7 +339,7 @@ ___
 
 **Description**: Add your [Nat] to your HiT against a number of melee attacks.
 
-**Action**: Use as your reaction on an enemy's turn vs ONE weapon attack. Alternatively declare on your turn and give up your reaction to make a number of parries up to 1 + your multi-attack level.
+**Action**: Use as your reaction on an enemy's turn vs ONE weapon attack. Alternatively declare on your turn and give up your reaction to make a number of parries up to 2 + your multi-attack level.
 
 **Prerequisite**: SP dice total of 6.
 

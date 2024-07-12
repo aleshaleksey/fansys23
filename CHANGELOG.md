@@ -39,6 +39,7 @@
 - Refine offhand fighting rules to allow offhand attacks with out offhand fighting under certain conditions.
 - Added flanking.
 - Added shield bash, shield mastery, buckler mastery.
+___
 
 ## From v0.0.3
 
@@ -51,26 +52,37 @@
 - Split monster pages.
 - Add remaining two sprites. Also add raptors and hadrosaurs to "beast" list.
 - Adjust large creature carrying capacity.
+___
 
 ## From v0.0.4
 
-- "Acquiring skills and proficiences" -> added proficiency text.
-- Alter wording on spell strike.
-- Fix wording on disarm: "If the weapon is light, the target has a +2 on the roll. If it is heavy, it has -2 on the roll." (used to be backwards for the bonuses.)
-- But they can use a buckler.
-- Spacers. Grammar pedantry.
-- Change special on least shroud and least ward.
-- Better explain the feint maneuver.
-- Link to abilities and boons in "Level points and abilities" in quickstart.
+### General
 - Explicitly state that "kinetic components" have nothing to do with hands.
-- Link to base rule calculations in "All entities have" in the combat section.
 - Add table of spell learning to the 'Spells gained from levels in "spellcasting" ability' section.
-- Add brown ooze and worm that sings.
-- Add undying realm.
 - Change "dying" and "doomed" to only lose 1 HP per round.
 - Chang "doomed" to give advantage on attacks.
 - Disambiguate AoO to to not work on involuntary movement.
-- Change berserk to not return SP.
+
+### Abilities & Spells
+- Make prepared Parry stronger 2 + multiattack v 1 + multiattack.
 - Add Greater Elemental Blast (linear and radial)
+- Change berserk to not return SP.
+- Add "undying realm" 10 MP Dice spell.
+- Change special on least shroud and least ward.
 - Nerf least shroud and least ward (now only stationary)
+- Fix wording on disarm: "If the weapon is light, the target has a +2 on the roll. If it is heavy, it has -2 on the roll." (used to be backwards for the bonuses.)
+- But they can use a buckler.
+- Alter wording on spell strike.
+
+### Skills
+- "Acquiring skills and proficiences" -> added proficiency text.
+
+### Monsters
+- Add brown ooze and worm that sings.
+
+### Formatting, Grammar, etc
+- Better explain the feint maneuver.
+- Link to abilities and boons in "Level points and abilities" in quickstart.
+- Link to base rule calculations in "All entities have" in the combat section.
 - Reorganise index.
+- Spacers. Grammar pedantry.

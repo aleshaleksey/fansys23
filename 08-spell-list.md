@@ -1287,16 +1287,16 @@ ___
 |Concentration|No|
 |Save|-|
 
-**Description**: Animate a corpse of medium size "medium", to become a level II corporeal undead. The undead serves and fights faithfully for the caster. The undead is capable of performing any reflexive or rote task it knew in life if its body still supports that functionality. Alternatively the spell can be cast to gain control of 4 non-intelligent level II undead for 6 hours.
+**Description**: Animate a corpse of medium size "medium", to become a level I corporeal undead. The undead serves and fights faithfully for the caster. The undead is capable of performing any reflexive or rote task it knew in life if its body still supports that functionality. Alternatively the spell can be cast to gain control of 5 non-intelligent level I undead for 6 hours.
 
 **Special**:
 - After 60 minutes the undead is not destroys, but persists, becoming hostile to its creator.
 - There is no limit to the number of undead a caster can control, however legions of dead seldom end well.
 - The type of undead being animated depends on the condition of the corpse(s). A corpse with flesh will become a zombie, a corpse without flesh will become a skeleton. A corpse with flesh but no bones becomes a crawling
 
-**Upcast**: For every MP dice added (4MP dice for global), the caster may either animate an extra corpse as a level II undead, assert control over an extra 4 undead, or increase the level of the created or controlled undead by I.
+**Upcast**: For every MP dice added (4MP dice for global), the caster may either animate an extra corpse as a level I undead, assert control over an extra 4 undead, or increase the level of the created or controlled undead by I.
 
-**Global**: The undead are under the caster's control for 1 week, after which time they have a "neutral" attitude towards it. For every 4MP dice above 12, the caster may create an extra level II undead, assert control over 4 undead, or increase the level of a created or controlled undead by 1.
+**Global**: Undead created are level II. Furthermore, the undead are under the caster's control for 1 week, after which time they have a "neutral" attitude towards it. For every 4MP dice above 12, the caster may create an extra level II undead, assert control over 4 undead, or increase the level of a created or controlled undead by 1.
 
 (Summon spell rating is controversial)
 

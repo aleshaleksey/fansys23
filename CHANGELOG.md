@@ -73,6 +73,7 @@ ___
 - Fix wording on disarm: "If the weapon is light, the target has a +2 on the roll. If it is heavy, it has -2 on the roll." (used to be backwards for the bonuses.)
 - But they can use a buckler.
 - Alter wording on spell strike.
+- Bump level of things created by Animate dead/Animate plant by 1.
 
 ### Skills
 - "Acquiring skills and proficiences" -> added proficiency text.

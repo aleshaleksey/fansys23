@@ -1292,7 +1292,7 @@ ___
 **Special**:
 - After 60 minutes the undead is not destroys, but persists, becoming hostile to its creator.
 - There is no limit to the number of undead a caster can control, however legions of dead seldom end well.
-- The type of undead being animated depends on the condition of the corpse(s). A corpse with flesh will become a zombie, a corpse without flesh will become a skeleton. A corpse with flesh but no bones becomes a crawling
+- The type of undead being animated depends on the condition of the corpse(s). A corpse with flesh will become a zombie, a corpse without flesh will become a skeleton. A corpse with flesh but no bones becomes a crawling thing.
 
 **Upcast**: For every MP dice added (4MP dice for global), the caster may either animate an extra corpse as a level I undead, assert control over an extra 4 undead, or increase the level of the created or controlled undead by I.
 

@@ -282,6 +282,7 @@ ____
 |"Stunned"|2|13|Stunning Strike|
 |"Incapacitated"|2|13|Incapacitating Strike|
 
+___
 #### Flurry
 
 **Description**: As a "secondary action" make an extra attack or combat manoeuvre with a light weapon or unarmed strike. If you expend an SP dice, you get to make 2 attack.
@@ -768,6 +769,7 @@ The rules for use of spells in combat are found in "[Combat: Spells](04-combat.m
 
 Other magic rules, including spell lists are found in "[Spells](07-spells.md)"
 
+___
 #### Spellcasting: Local
 
 There are several forms of spellcasting in this category, but they all have similar mechanics and have the same prerequisites. The casting types in this category are:
@@ -801,6 +803,7 @@ There are several forms of spellcasting in this category, but they all have simi
 |IX|9|36|17|
 |X|10|40|19|
 
+___
 #### Spellcasting: Global
 
 Global magic covers the casting of all global spells. In order to access and cast global spells of a certain type and level a character must have either of:
@@ -1050,6 +1053,7 @@ ___
 |10|Pointblank shot II|+1 to damage of ranged attacks within 15ft of target|
 |14|Pointblank shot III|+2 to damage of ranged attacks within 30ft of target|
 
+___
 #### Precise shot I-III
 
 **Type**: (Class B)
@@ -1110,6 +1114,7 @@ ___
 
 General boons are those that can come in handy in and out of combat.
 
+___
 #### Blink
 
 **Type**: (Supernatural, Class S)
@@ -1208,7 +1213,7 @@ ___
 **Prerequisites**: SP dice total of 5. At least 1 rank in "stealth".
 
 ___
-### Terrain Mastery
+#### Terrain Mastery
 
 **Type**: (Natural, Class B)
 
@@ -1219,7 +1224,7 @@ ___
 - When a character gains a point of base, they can change a terrain mastery for a different terrain. This reflects the gradual gain and loss of knowledge and skill with time.
 
 ___
-### Tracker: Fast Search
+#### Tracker: Fast Search
 
 **Type**: (Natural, Class B)
 
@@ -1228,7 +1233,7 @@ ___
 **Prerequisite**: 1 ranks in "Track".
 
 ___
-### Tracker: Persistent
+#### Tracker: Persistent
 
 **Type**: (Natural, Class B)
 
@@ -1237,7 +1242,7 @@ ___
 **Prerequisite**: 2 ranks in "Track".
 
 ___
-### Tracker: Swift
+#### Tracker: Swift
 
 **Type**: (Natural, Class A)
 

@@ -50,7 +50,7 @@ There are a number of general rules pertaining to spellcasting.
 1. An entity can only cast ONE spell at a time. If it attempts to cast a second, either both spells dissipate, or the casting ends in spectacular failure. For example trying to cast "Fire Shield" (local) while casting "Resurrection" (global), will result in failure. 
 2. Spells are never truly permanent in the material realm and can be **broken**, **counterspelled**, and **dispelled**. Entities summoned through spells can be **banished**.
 3. Casting "ranged" spells with kinetic components in melee provokes attacks of opportunity.
-4. Unless otherwise stated, a caster must have line of sight to the target of a spell to cast it.
+4. Unless otherwise stated, a caster must have line of sight to the target of a spell to cast it, or be capable of making contact with it (close range, aka within "reach").
 5. If a spell lasts for a round or longer, affected entities make the initial save at the start of its turn and gets a save at the start of every turn against harmful effects of the spell unless otherwise stated otherwise in its description.
   - For spells with a duration of less than one round, the save is made immediately and no repeated saves are applicable, unless stated otherwise in the spell description.
 6. All damage caused by spells, unless otherwise stated, counts as "supernatural". The major exception is physical damage (bludgeoning, shear, piercing, pressure, slashing), which is always "natural".

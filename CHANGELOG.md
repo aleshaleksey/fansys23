@@ -74,6 +74,7 @@ ___
 - But they can use a buckler.
 - Alter wording on spell strike.
 - Bump level of things created by Animate dead/Animate plant by 1.
+- Check wording on summon Sprite to remove certain ambiguities.
 
 ### Skills
 - "Acquiring skills and proficiences" -> added proficiency text.

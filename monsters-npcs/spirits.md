@@ -71,7 +71,7 @@ ___
 |6|16/9/17|16|38|9|Walk (45ft)|Dig (10ft)|
 
 - Gnomes are small size,
-- Gnomes can dig even through rock, however, their tiny tunnels collapse immediately after their passage.
+- Gnomes of level 3 and above can dig even through rock, however, their tiny tunnels collapse immediately after their passage.
 
 |Level 1-3|Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|

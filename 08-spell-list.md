@@ -900,9 +900,11 @@ ___
 |Concentration|local|+3
 |Save|-|
 
-**Description**: Summons a level I flame sprite to faithfully serve and fight for you. The sprite communicates with its summoner and other fire spirits and is intelligent enough to understand gestures of other mortal entities.
+**Description**: Summons a [level I flame sprite](monsters-npcs/spirits.md#flame-sprite) to faithfully serve and fight for you. The sprite communicates with its summoner and other fire spirits and is intelligent enough to understand gestures of other mortal entities.
 
 **Special**: You can only have one summon at any one time.
+
+**Limitation**: If a sprite summoned by this spell does not end its turn in contact with flammable material, then the spell ends and the sprite returns to whence it came.
 
 **Upcast**: For every MP dice added (12MP dice for global), the sprite gains two levels.
 
@@ -971,13 +973,15 @@ ___
 |Duration|12 min (1 day+)|+3
 |Components|incantation, kinetic|-1
 |Material|A handful of poplar fluff|-2
-|Limitation|The sprite cannot be summoned submerged or into liquid|-2
+|Limitation|The sprite cannot be summoned submerged or partially within either liquid or solid media (eg, water, earth, rock, butter)|-2
 |Concentration|local|
 |Save|-|
 
-**Description**: Summons a level I wind sprite to faithfully serve and fight for you. The sprite communicates with its summoner and other water spirits and is intelligent enough to understand gestures of other mortal entities.
+**Description**: Summons a [level I wind sprite](monsters-npcs/spirits.md#wind-sprite) to faithfully serve and fight for you. The sprite communicates with its summoner and other water spirits and is intelligent enough to understand gestures of other mortal entities.
 
 **Special**: You can only have one summon at any one time.
+
+**Limitation**: The Sprite can only be summoned in an area that is not obstructed by either liquid or solid media, weather (and other) effects such as sandstorms and rain do not count towards this limitation. In case of an attempt to summon a wind sprite in forbidden terrain, the spell ends with "catastrophic failure".
 
 **Upcast**: For every MP dice added (12MP dice for global), the sprite gains two levels.
 
@@ -1045,9 +1049,11 @@ ___
 |Concentration|local|
 |Save|-|
 
-**Description**: Summons a level I water sprite to faithfully serve and fight for you. The sprite communicates with its summoner and other water spirits and is intelligent enough to understand gestures of other mortal entities.
+**Description**: Summons a [level I water sprite](monsters-npcs/spirits.md#water-sprite) to faithfully serve and fight for you. The sprite communicates with its summoner and other water spirits and is intelligent enough to understand gestures of other mortal entities.
 
 **Special**: You can only have one summon at any one time.
+
+**Limitation**: If a water sprite does not end its turn in contact with a body of water, wet ground, rain, mist or other source of water it returns to whence it came and the spell ends.
 
 **Upcast**: For every MP dice added (12MP dice for global), the sprite gains two levels.
 
@@ -1127,9 +1133,11 @@ ___
 |Concentration|local|
 |Save|-|
 
-**Description**: Summons a level I earth gnome to faithfully serve and fight for you. The gnome communicates with its summoner and other earth spirits and is intelligent enough to understand gestures of other mortal entities.
+**Description**: Summons a [level I earth gnome](monsters-npcs/spirits.md#gnome) to faithfully serve and fight for you. The gnome communicates with its summoner and other earth spirits and is intelligent enough to understand gestures of other mortal entities.
 
 **Special**: You can only have one summon at any one time.
+
+**Limitation**: The gnome is earthbound. It cannot leave, or be physically detached from, the ground. In an event where it would otherwise lose contact with the ground, it takes 1 point of ["divine"](10-conditions-types.md#esoteric-damage) damage instead.
 
 **Upcast**: For every MP dice added (4MP dice for global), the gnome gains two levels.
 

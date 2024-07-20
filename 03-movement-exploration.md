@@ -26,6 +26,7 @@ A certain level of freeform RP and common sense are recommended.
     - [Falling](#falling)
     - [Characters, starvation, and other bad ways to die](#characters-starvation-and-other-bad-ways-to-die)
 
+___
 ## Load and Carrying Capacity
 How much a character can carry is determined by its Str and its size. As a character approaches its carrying limit, it begins to suffer penalties. The categories are as follows.
 
@@ -248,9 +249,11 @@ Failure to ameliorate a suitable site leads to Con save, with the threshold dete
 
 The full rules on resting can be found in [Rest and Recuperation](04-combat.md#rest-and-recuperation).
 
-### Environmental hazards. (TODO)
+___
+## Environmental hazards. (TODO)
 Depending on the nature of an environment being explored, it is possible to encounter various hazards. This ranges from weather related hazards like storms, extreme heat and , to terrain dangers such as raging rivers, avalanches and rockfall, to "man"-made dangers such as traps in dungeons.
 
+___
 ### Inclement Weather Hazards 
 
 #### (TODO: Make a full table of all weather and consequences.)
@@ -275,8 +278,10 @@ Any given inclement weather phenomenon may cause more than one effect. Here are 
 
 Of course groups that operate in exotic settings should not shy away from creating other types of inclement weather using this framework.
 
+___
 ### Terrain Hazards (TODO)
 
+___
 ### Falling
 A typical humanoid has a terminal velocity of about 100mph, or 1000ft per round. In the first round of falling a falling humanoid falls about 360ft. In most cases they land on the same round. In those cases they have only a "reaction" between them and the swift embrace of the Earth Mother. If the distance exceeds 360ft, they may take other actions, although for the sake of casting spells this counts as vigorous motion. One who falls from the back of a dragon, may have several minutes to contemplate their fate and do something about it.
 - Entities of "large" and smaller take 1d8 damage per 10ft fallen. The first 1d8 of damage can be negated with a [SAVE]. This caps at 360ft (36d8), at which point they generally reach terminal velocity.
@@ -284,7 +289,45 @@ A typical humanoid has a terminal velocity of about 100mph, or 1000ft per round.
 - Damage upon "landing" is Physical[Natural] damage. Entities resistant or immune to Physical[Natural] damage need not fear the ground.
 - Entities that do not have weight (not mass, weight) do not fall.
 
+___
+### Fire damage and being on fire
 
+Fire is a common danger that characters are likely to face, be it a forest fire, a burning building, or some mystical realm of fire, or entering the boundaries of certain fire spells.
+
+Most entities that come into contact with fire, suffer heat/fire damage. Fire damage is covered in ["Conditions and Types: Energy/elemental damage"](10-conditions-types.md#energyelemental-damage). entities that come into contact with fire may also be set on fire.
+
+When entering a fire, the damage is dependant on both the heat of a fire. When being on fire, the amount of damage depends on the size of the affected entity.
+
+#### Places that are on fire
+
+When entering an area that is on fire or making contact with a fire a character must succeed a CON or CHA save (natural or supernatural fire) or take damage. The save and damage is repeated at the start of each turn. Once the character has failed at least one such save, they take damage automatically each turn until they leave the area that is on fire (or are otherwise no longer in contact with it). Once a character is no longer in or in contact with the fire, they suffer no further consequences unless they took damage after failing one of the CON or CHA saves. Otherwise the character is "on fire" (See below).
+
+Damage from fire is usually determined by size (as per the table below), but can be vary, especially for supernatural fire, or specific types of fire (for example the flames in a blast furnace would be hotter and hence more damaging that a bonfire of the same size).
+
+|'radius' of Fire|Damage|Save threshold|
+|-|-|-|
+|5 ft|1d8|13|
+|10 ft|2d8|16|
+|20 ft|3d8|20|
+
+#### Being on fire
+
+An entity that is on fire takes fire damage at the start of each of its turns, in a manner determined by its size. An entity may put out the fire by:
+- Dropping prone and then use its "move action" to roll and hence attempt a DEX save at the start of its turn.
+  - The save may instead be made at any other point during its turn, but in that case it still suffers the damage at the start of its turn.
+- The entity may also use a "full round action" to attempt a "Fortify" skill check to do the same. Since "Fortify" roll uses a "full round action" the entity cannot also attempt the DEX save, which would use its "move action".
+- Submerge itself in water or earth using whatever action is appropriate at the time for a full round. Doing so automatically extinguishes natural fire. However supernatural flames and those caused by alchemical often follow different rules.
+
+|Entity's size|Damage|Extinguish threshold|
+|-|-|-|
+|large or smaller|1d8|13|
+|huge|2d8|16|
+|gargantuan|3d8|20|
+|colossal|4d8|25|
+
+**NB:** As a consequence of size rules, not only does a bigger entity take more fire damage from being on fire, but being grappled by a bigger entity that *is on fire* does more damage than being grappled by a smaller one.
+
+___
 ### Characters, starvation, and other bad ways to die
 Most characters are morals and therefore require **sustenance** and suffer from **conditions**. This can cause certain problems in the great outdoors and other hazardous locales.
 - A mortal that goes without sustenance for a given period of time begins to deteriorate and eventually die.

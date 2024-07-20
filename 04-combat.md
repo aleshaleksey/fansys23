@@ -12,6 +12,8 @@ This system deals heavily with combat and many of the mechanics are tuned to wor
 8. [Basic combat manoeuvres and tactical movement.](#basic-combat-manoeuvres-and-tactical-movement)
 9. [Spellcasting and Supernatural abilities](#spellcasting-and-supernatural-abilities)
 10. [Rest and Recuperation](#rest-and-recuperation)
+
+___
 ## Prelude
 
 All entities have:
@@ -28,6 +30,7 @@ The calculation of these parameters is covered in the base rules. There are thre
 
 The effect is resolved immediately for instantaneous attacks, or at the start of the target's turn for effects that persist for a turn or longer.
 
+___
 ## Attacks
 
 An attack is any action attempted against an entity that has the potential to reduce its combat potential, be it by direct damage, inducing a condition, or otherwise. For example, slashing an entity with a sword, trying to shove or disarming it, throwing dynamite at a spot where the explosion will catch it, casting a spell that charms, paralyses or blinds it, or dropping a piano on an entity all count as attacks, as do many other actions.
@@ -36,6 +39,7 @@ An attack is any action attempted against an entity that has the potential to re
 
 A targeted attack is an attack made specifically against an entity that involves the attacker making a [NAP] or [SAP] based roll against the target. Usually these do damage, but they can also have other effects, for example the "grapple" manoeuvre.
 
+___
 ## Damage and death
 
 Attacks and various harmful effects cause injury and death to combatants and destruction of structures and equipment (amongst other things). A semi-abstract measurement, damage, is used to quantify this.
@@ -66,6 +70,17 @@ An item or entity with immunity to a damage type does not take damage from that 
 
 An item or entity vulnerable to a damage type takes an extra half of the damage it would normally suffer.
 
+### Damage and effects over time
+
+Some effects and damage have an immediate or short term effect (eg. being hit over the head with a hammer), others have a longer term effect (eg. being on fire). If the effect allows a save, the save is made before the effect takes place, just as an attack roll is made before damage/manoeuvre outcome might be applied.
+
+- If an effect is immediate or lasts no longer than a round, the save, if any, is made immediately, and the effect/damage is likewise applied immediately unless otherwise stated.
+- If an effect lasts for a turn or longer, the save, if any, is made at the start of a target's turn and the effect is then applied. Unless otherwise stated, the save, if applicable, is repeated at the start of each subsequent turn until the effect ends. In some cases, such as being on fire, the effect is broken by a single successful save.
+- On occasion damage over time is measured in minutes, hours or days. In this case the same rule is applied, (save and effects at the start of each time period).
+
+The most common damage over time is fire/heat and is summarised in ["Movement and Exploration: Fire damage and being on fire"](03-movement-exploration.md#fire-damage-and-being-on-fire).
+
+___
 ## Actions in combat
 
 ### Flow of Combat
@@ -171,7 +186,7 @@ The actions an entity may take might also be restricted by its conditions and ge
 
 For more information on movement, see "[Movement and Exploration](03-movement-exploration.md)". In addition, there are more movement rules below.
 
----
+___
 ## Surprise and Ambush
 
 As mentioned above, any combatants who are not aware of the other side, or that the other side is about to attack, starts the first round ["surprised"](10-conditions-types.md#conditions-in-detail). This can happen if the enemy is either hidden, or the intention to attack is hidden.
@@ -192,6 +207,7 @@ Sometimes enemies in plain sight hide their intent to attack (eg secret police o
 
 If both parties are unaware of each other (eg bandits meet guards round the corner of a mountain path), no one is surprised and combat proceeds immediately. More accurately, both parties are considered surprised in the first round and spend the round gawking and do nothing. Either way the surprise round does not happen.
 
+___
 ## Space in combat
 
 Combat can take place purely in imaginary space (ie. theatre of the mind), on paper, crafted terrain, ora virtual desktop. In either case most combatants take up space and move through space. Many manoeuvres, spells and other abilities deal with manipulating friend and foe in this space. The game can be played completely ignoring space, but it does change the balance quite severely. On the other hand, there are times when an exact map is not needed. For example, combat is taking place in a small room where all targets are within hand's reach. Alternatively if there is a chase or shoot-out with 600ft of space between combatants, mapping can be equally impractical.
@@ -282,7 +298,7 @@ Cover and concealment come in three flavours "light" (1/2), "heavy" (3/4) and "f
 
 Attacks of opportunity require careful observation of the target. One cannot make an attack of opportunity against a target which is "invisible" to you or otherwise has full concealment.
 
-----
+___
 ## Mounts and Mounted Combat
 
 A character may ride a mount into combat (and in combat). In this case, for movement the rider's move action is used, with the mount's movement speed and modality. Likewise if a mounted character wishes to "run" or "sprint" (ie it wishes for its mount to do so with them on it), the rider's action is used for it.
@@ -295,7 +311,7 @@ A character may ride a mount into combat (and in combat). In this case, for move
 - When an attack of opportunity is triggered it may be made against the mount or the rider.
 -  When the mount falls, the rider makes a "ride" or "acrobatics" roll (threshold=16) as a reaction to fall the first 10ft safely and land on their feet. Otherwise they suffer the usual falling rules.
 
----
+___
 ## Basic combat manoeuvres and tactical movement.
 
 This is a collection of unsorted rules related to basic physical combat.
@@ -368,7 +384,7 @@ The "Grapple", "Restrain", "Shove", "Throw" and "Trip" manoeuvres can only be us
 
 A creature that is "grappled" or "restrained" can make an opposing roll in place of its attack action to try to break free or move its assailant.
 
----
+___
 ## Spellcasting and Supernatural abilities
 - Abilities and phenomena that would not exist in a mundane world, that cannot be explained adequately by "scientific" means are supernatural, otherwise called magical.
 - The supernatural can be caused by divine, profane or spiritual sources.

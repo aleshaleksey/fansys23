@@ -62,6 +62,7 @@ ___
 - Change "dying" and "doomed" to only lose 1 HP per round.
 - Chang "doomed" to give advantage on attacks.
 - Disambiguate AoO to to not work on involuntary movement.
+- Being on fire and damage from being in burning places.
 
 ### Abilities & Spells
 - Make prepared Parry stronger 2 + multiattack v 1 + multiattack.

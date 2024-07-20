@@ -51,6 +51,11 @@ Resistance to a condition means the entity has advantage on the saves vs a condi
 Immunity to a damage type or condition means the entity is not affected by it.
 
 ___
+#### Damage over time
+
+Damage over time is difined in the ["Combat: Damage and effects over time"](04-combat.md#damage-and-effects-over-time) section.
+
+___
 #### Mundane, magical and spiritual weapons
 
 Weapons can be mundane, magical or spiritual.
@@ -117,7 +122,9 @@ ___
 
 Energy damage is caused by various forms of energy and can affect anything with a physical form. Energies of a supernatural source, can affect incorporeal entities.
 
-**Heat (fire)** damage is caused by the heating of a material, and its subsequent oxidation, which causes it to become too frail to maintain its form and function (at least "natural" fire does). "Supernatural" fire burns away the essence. This damage is particularly effective against biological and flammable targets. It can cause "incapacitated" (pain) or "blinded" (permanent) condition. Flammable materials ignite when dealt at least 10 points of heat damage. Highly flammable materials ignite when dealt any heat damage. Heat also tends to travel "upwards" and should not be underestimated!
+**Heat (fire)** damage is caused by the heating of a material, and its subsequent oxidation, which causes it to become too frail to maintain its form and function (at least "natural" fire does). "Supernatural" fire burns away the essence. This damage is particularly effective against biological and flammable targets. It can cause "incapacitated" (pain) or "blinded" (permanent) condition. Flammable materials ignite[1] when dealt at least 10 points of heat damage. Highly flammable materials ignite when dealt any heat damage. Heat also tends to travel "upwards" and should not be underestimated! Being on fire and fire damage over time is detailed in ["Movement and Exploration: Fire damage and being on fire"](03-movement-exploration.md#fire-damage-and-being-on-fire).
+
+1. An entity that is on fire takes fire damage at the start of each of its turns. Usually this is 1d6 damage per round.
 
 **Cold (ice)** damage is caused a reduction of energy level in the substance of the target, often causing it to lose physical function, become brittle, or even freeze. Cold damage causes dangerous conditions like "immobilised" (frozen) and "incapacitated" (hypothermic).
 

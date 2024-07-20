@@ -1137,7 +1137,7 @@ ___
 
 **Special**: You can only have one summon at any one time.
 
-**Limitation**: The gnome is earthbound. It cannot leave, or be physically detached from, the ground. In an event where it would otherwise lose contact with the ground, it takes 1 point of ["divine"](10-conditions-types.md#esoteric-damage) damage instead.
+**Limitation**: The gnome is "earthbound". It cannot leave, or be detached from, the ground. However, this comes at a cost. In an event where the gnome would otherwise lose contact with the ground (if not for being earthbound), it takes 1 point of ["divine"](10-conditions-types.md#esoteric-damage) damage instead.
 
 **Upcast**: For every MP dice added (4MP dice for global), the gnome gains two levels.
 

@@ -75,6 +75,7 @@ ___
 - Alter wording on spell strike.
 - Bump level of things created by Animate dead/Animate plant by 1.
 - Check wording on summon Sprite to remove certain ambiguities.
+- Change the line of sight rule for spellcasting: Being in contact with the target can replace normal line of sight.
 
 ### Skills
 - "Acquiring skills and proficiences" -> added proficiency text.

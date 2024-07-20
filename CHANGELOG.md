@@ -71,7 +71,6 @@ ___
 - Add "undying realm" 10 MP Dice spell.
 - Change special on least shroud and least ward.
 - Nerf least shroud and least ward (now only stationary)
-- Fix wording on disarm: "If the weapon is light, the target has a +2 on the roll. If it is heavy, it has -2 on the roll." (used to be backwards for the bonuses.)
 - But they can use a buckler.
 - Alter wording on spell strike.
 - Bump level of things created by Animate dead/Animate plant by 1.

@@ -243,17 +243,19 @@ This table provides some numbers for how much of a resource one can expect to ha
 **Wheat**: Yield is per acre. Usually 1g of seeds was sown for 12-100g of harvest. Lower yield in earlier ages were associated with higher yields of straw which is also an important material. You need about half a dozen peasants for 10 acres.
 ___
 ### Upkeep
+Upkeep is distinct from labour cost, as it accounts only for minimal costs associated with keeping the labourer/hireling in working condition, and not the wages.
+
 |Item|ancient |medieval |late |
 |-|-|-|-|
-|Unskilled|0|1|2|
-|Trained|0|2|~5|
-|Artisan (mason)|0-4|~8|~20|
-|Artisan (smith)|0-4|~16|~40|
-|mercenary (foot)||~6|~15|
-|mercenary (specialist)||~24|~50|
-|mercenary (captain)||~200|~500|
-|scribe/priest||~6|~15|
-|magistrate||~500||
+|Unskilled|0.5|1|2|
+|Trained|0.5|2|~4|
+|Artisan (mason)|0.5-2|1-4|~10|
+|Artisan (smith)|0.5-2|1-4|~20|
+|mercenary (foot)|3|~3|~10|
+|mercenary (specialist)|5|~5|~20|
+|mercenary (captain)|10|~10|~40|
+|scribe/priest|4|~6|~10|
+|magistrate|20|~20||
 
 ___
 ### Common Goods

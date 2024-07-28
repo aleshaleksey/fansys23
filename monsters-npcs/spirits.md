@@ -18,17 +18,17 @@ ___
 
 |Level 1-3|Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|8|14|10|8|12|14|
-|Bonus|-1|+2|0|-1|+1|+2|
-|Save(1-3)|0|+4|+1|0|+2|+3|
+|Stat|8|14|10|10|12|14|
+|Bonus|-1|+2|0|+0|+1|+2|
+|Save(1-3)|0|+4|+2|0|+2|+3|
 
 |Level 4-6|Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|8|16|12|10|14|16|
-|Bonus|-1|+3|+1|0|+2|+3|
-|Save(4-6)|+1|+6|+s2|+2|+4|+5|
+|Stat|8|16|12|12|14|16|
+|Bonus|-1|+3|+1|+1|+2|+3|
+|Save(4-6)|+1|+6|+2|+3|+4|+5|
 
-|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
 |1(1)|2|3|1|1|2|2|
 |2(1)|3|5|1|1|2|2|
@@ -39,11 +39,13 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Fire Magic I (lvl 1)||||
-|Fire Magic II (lvl 3)||||||
-|Foresight (lvl 4)|||Greater flame sprites add [Wis] to HiT|
-|Fire Magic III (lvl 5)||||
-|Elemental Touch (Fire)|SAP+[Int]|[[Base]d6 + [Int]]|Fire, supernatural, can upcast|
+|Fire Magic I (lvl 1)|+3||Threshold=16|
+|Fire Magic II (lvl 3)|+4||||Threshold=17|
+|Foresight (lvl 4)|+4||Greater flame sprites add [Wis] to HiT|
+|Fire Magic III (lvl 5)|+5||Threshold=18|
+|Elemental Touch (Fire) (lvl1)|+2|1d6 + 1|Fire, supernatural, can upcast|
+|Elemental Touch (Fire) (lvl3)|+3|1d6 + 1||
+|Elemental Touch (Fire) (lvl5)|+4|1d6 + 2||
 |Senses|||flame sprites are blind, but have keen smell|
 |Senses|||Heat sense (90ft, 180ft at lvl 4) - ignores prerequisites|
 |Skills (lvl1)|||Perform +3|
@@ -51,13 +53,16 @@ ___
 |Skills (lvl5)|||Acrobatics +8, Perform +7|
 |Special|||A flame sprite not in contact with its element loses its resistance/immunity to physical damage|
 |Ignition|||A flame sprite ignites flammable materials it contacts, making it extremely dangerous|
+|Illumination|||A flame sprite sheds light like a campfire, providing bright illumination within 20ft, and dim illumination within another 20ft. The light given off by a flame sprite can be seen up to 2 miles away on a clear night|
 |Damage resistance|||"Physical" (becomes immunity at lvl4 and above)|
 |Damage immunity|||"Fire"|
 |Condition immunity|||"stunned", "immobilised", "crippled", "bleeding", poisoned" and "paralysed"|
 |Vulnerability|||"Ice"|
 |Anathema (water)|||Flame sprites take damage when doused with water or sand. For every gallon of water/sand, the flame sprite takes 5 points of natural damage. A flame sprite that is completely submerged in cold water is destroyed after 1 round (if you can somehow submerge a spirit).|
 
-Flame Sprites are the most dangerous of minor elementals. They are playful material spirits associated with fire an consisting of it. Despite their playfulness, their propensity to ignite everything they and step on as they dance, makes them extremely dangerous, even when they do not have hostile intent.
+Flame Sprites are the most dangerous of minor elementals. They are playful material spirits associated with fire an consisting of it. Despite their playfulness, their propensity to ignite everything they touch and step on as they dance, makes them extremely dangerous, even when they do not have hostile intent.
+
+In combat, the touch of a Flame Sprite is in itself dangerous, but it prefers to avoid melee and relies on its pyromancy. Flame sprites fight without fear on the material realm.
 
 ___
 ### Gnome

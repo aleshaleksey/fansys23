@@ -857,7 +857,9 @@ ___
 |Condition|Lightly concealed|+2
 |Save|Con|
 
-**Description**: Flames bloom on flammable surfaces all around you, to a height of 10ft. Everything within the flames in lightly concealed.
+**Description**: Flames bloom on surfaces all around you, to a height of 10ft. Everything within the flames in lightly concealed.
+
+**Special**: The caster is not damaged by the flames caused by this spell.
 
 **Upcast**: For every extra MP dice, increase the radius by 5ft or increase the damage by 1d8.
 
@@ -896,15 +898,17 @@ ___
 |Duration|12 min (1 day+)|+3
 |Components|incantation, kinetic|-1
 |Material|A saucer of lamp oil or a lump of coal|-2
-|Limitation|The sprite must end its turn on flammable material|-2
+|Limitation|Special (see below)|-2
 |Concentration|local|+3
 |Save|-|
 
-**Description**: Summons a [level I flame sprite](monsters-npcs/spirits.md#flame-sprite) to faithfully serve and fight for you. The sprite communicates with its summoner and other fire spirits and is intelligent enough to understand gestures of other mortal entities.
+**Description**: Summons a [level I flame sprite](monsters-npcs/spirits.md#flame-sprite) to faithfully serve and fight for you. The sprite communicates with its summoner and other fire spirits and is intelligent enough to understand gestures of other mortal entities. The sprite appears at the end of the caster's turn and may act *next round*  on the caster's initiative, before or after the caster's turn. It is not surprised when it appears, and may use reactions.
 
 **Special**: You can only have one summon at any one time.
 
-**Limitation**: If a sprite summoned by this spell does not end its turn in contact with flammable material, then the spell ends and the sprite returns to whence it came.
+**Limitation**: The summoned sprite must keep hold of the offering it was given. If it does not, it must end its turn in contact with flammable material. If at least one of these conditions is not upheld, then the spell ends at the end of the sprite's turn and it returns to whence it came.
+
+Flammable material includes wood, turf, the corporeal forms of mortals, wax, etc, but does not include most minerals, metals, water, air. The DM and group are advised to use common sense.
 
 **Upcast**: For every MP dice added (12MP dice for global), the sprite gains two levels.
 
@@ -1158,15 +1162,33 @@ ___
 |Limitation|The spell is weakened if the target is not willing.|
 |Save|Special: Wis|
 
-**Description**: The caster makes a target's promise hold real power. Chose a condition no higher than "A Class" (see "[Conditions](10-conditions-types.md#conditions-and-states)"). The spell then takes one of the following forms:
-1. The target makes a promise and must fulfil it before the spell ends or suffers the condition permanently. (eg, "I will slay the ogre that terrorises the village.")
+**Description**: The caster makes a target's promise hold real power. Chose a condition no higher than "B Class" from the table below. The spell then takes one of the following forms:
+1. The target makes a promise and must fulfil it before the spell ends or suffers the condition permanently. (eg, "I will slay the ogre that terrorises the village."). The condition can still be dispelled as if it was the "Promise" spell cast with the same number of MP dice.
 2. The target makes a promise and must either keep fulfilling it for the duration of the spell. (eg, "I promise not to deceive you."). If the target breaks the promise, it suffers the condition for the full duration of the spell (as if it was cast when the target broke the promise).
 
 The condition counts as having a "supernatural" origin.
 
+|Class|Description|
+|-|-|
+|C|The target gains the "glowing", "aphonia" or "deafened" condition|
+|C|The target falls "prone" at the end of each of its turns|
+|C|Specify a skill: If the target rolls above a 10 for this skill, its total is a 10|
+|B|The target is "grappled" at the end of each of its turns, it may make a grapple roll as an attack action to attempt to break it at the start of it turn|
+|B|The target is "blinded"|
+|B|The target starts all combats "surprised"|
+|B|The target is charmed by the first entity it sees or hears after it breaks the promise|
+|B|The target has disadvantage on all targeted attacks governed by one attribute of the caster's choice|
+|B|The target has disadvantage on all saves governed by one attribute of the caster's choice|
+|B|The target's base movement speed is halved|
+|A|The target is "restrained" at the end of each of its turns, it may make a grapple roll as an attack action to attempt to break it at the start of it turn|
+|A|The target is "incapacitated"|
+|A|The target is "crippled"|
+|A|The target has vulnerability to one damage type|
+|S|The target is "immobilised" at the end of each of its turns, it may make a grapple roll as an attack action to attempt to break it at the start of it turn|
+
 **Special**: If the target is not aware that it is being bound, or makes the promise against its will, it may attempt a Wis save if it ever brakes the promise. On a success it avoids the effects of the spell.
 
-**Upcast**: The spell lasts for 1 month per 4 MP dice placed in it. In addition, at 16 MP dice, S Class conditions may be selected.
+**Upcast**: The spell lasts for 1 month per 4 MP dice placed in it. In addition, at 12 MP dice an A class condition may be selected, and at 16 MP dice, an S Class conditions may be selected.
 
 ___
 ## MP 3 spells

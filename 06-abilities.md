@@ -50,7 +50,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Berserk I-V](#berserk-i-v)
 - [Broad Strike](#broad-strike)
 - [Combined Manoeuvre (I-V)](#combined-manoeuvre-i-v)
-- [Counterstrike](#ounterstrike)
+- [Counterstrike](#counterstrike)
 - [Debilitating Strike](#debilitating-strike)
 - [Deflect Arrows](#deflect-arrows)
 - [Far Throw (I-V)](#far-throw-i-v)

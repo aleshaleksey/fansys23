@@ -89,3 +89,12 @@ ___
 - Link to base rule calculations in "All entities have" in the combat section.
 - Reorganise index.
 - Spacers. Grammar pedantry.
+______
+## From v0.0.5
+
+### Spells
+- Meadow of flames now works on non-flammable surfaces and does not harm the caster who cast it.
+- Promise now has a specific list of conditions that apply to it.
+
+### Monsters
+- Flame sprite: Boost intelligent. Clarify that it sheds light. Add text on tactics (prefers magic).

@@ -164,7 +164,8 @@ ___
 **Special**:
 - You can only make one attack as your main action when using "assassinate".
 - The target must affected by at least one of the conditions that your assassinate level qualifies you for. For example at "Assassinate I", it must be "immobilised", at "Assassinate 3" it must be "immobilised", or "surprised" or "stunned".
-- Assassinate automatically fails if the target has heavy or total concealment, or if it is "invisible" to you.
+- Assassinate automatically fails if the target has heavy, or total, concealment, or if it is "invisible" to you. This means that, for example, entities without low light vision, or other special sight, cannot use "assassinate" with ranged attacks in low light conditions or darkness.
+- If "assassinate" is used with a ranged attack, it must be within the first range increment of the weapon. 
 - Since it uses a "main action" it cannot be used as a "reaction".
 - You cannot use "assassinate" when in conjunction wit "Berserk" and similar abilities.
 
@@ -367,7 +368,8 @@ ___
 - Precision attack can only be made with a Dex based weapon on a Dex based attack roll.
 - You can only make one weapon attack when using "precision attack".
 - The target must be unaware of you, "surprised", or be in melee range of another entity hostile to it. OR you must have advantage on your attack.
-- Precision attack automatically fails if the target has heavy concealment or total concealment, or if it is "invisible" to you. (It is impossible to make a precision attack if you cannot carefully observe your target).
+- Precision attack automatically fails if the target has heavy concealment or total concealment, or if it is "invisible" to you. (It is impossible to make a precision attack if you cannot carefully observe your target). This means that, for example, entities without low light vision, or other special sight, cannot use "precision attack" with ranged attacks in low light conditions or darkness.
+- If "precision attack" is used with a ranged attack, it must be within the first range increment of the weapon. 
 - Since it uses a "main action" it cannot be used as a "reaction".
 
 **Prerequisite table**: Precision attack has 10 levels. The maximum level of precision attack a character may have is [Level / 2]

@@ -62,7 +62,7 @@ ___
 
 Flame Sprites are the most dangerous of minor elementals. They are playful material spirits associated with fire an consisting of it. Despite their playfulness, their propensity to ignite everything they touch and step on as they dance, makes them extremely dangerous, even when they do not have hostile intent.
 
-In combat, the touch of a Flame Sprite is in itself dangerous, but it prefers to avoid melee and relies on its pyromancy. Flame sprites fight without fear on the material realm.
+In combat, the touch of a Flame Sprite is in itself dangerous, but it prefers to avoid melee and relies on its pyromancy. Flame sprites fight without fear on the material realm. They often toy with mortals with["Least Pyromancy"](../08-spell-list.md#least-pyromancy), ["Enflame"](../08-spell-list.md#enflame) and ["Foxfire"](../08-spell-list.md#foxfire). In combat, however they will harass foes with ["Ignition"](../08-spell-list.md#ignition) and cast ["Meadow of Flame"](../08-spell-list.md#meadow-of-flame) once their foes are within range.
 
 ___
 ### Gnome
@@ -122,6 +122,8 @@ ___
 Gnomes are minor earth spirits that manifest as tiny humanoids made of dirt. In small numbers they can be either a boon or hindrance, and seldom cause problems bigger than potholes. Large numbers of angry gnomes have been known to cause landslides.
 
 Gnomes tend to be reclusive and benign. On the other hand they tend to be curious and hospitable to mortals they take a liking to.
+
+In combat they prefer to use "[Down](../08-spell-list.md#down)" and "[Shape Earth](../08-spell-list.md#shape-earth)" to keep their to immobilise foes and flee to "[Warded Ground](../08-spell-list.md#warded-ground)". However when they must hold their ground, they will use "[Least Spike](../08-spell-list.md#least-spike)" as a weapon.
 
 ___
 ### Water Sprite

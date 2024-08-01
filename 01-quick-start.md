@@ -128,7 +128,7 @@ ___
 I am not sure which ones exist in your setting, but I quite like these ones.
 
 ___
-#### Human (level-0 template)
+#### Human (level-1 template = 8 points)
 
 Human represents the human race. The human race is the base. Humans have no special senses, resistances, movement modalities or spooky abilities. To compensate this, they adapt quickly to new environments, and begin learning the skills needed to survive in their homeland as soon as they are old enough to walk. Humans have a lifespan that does not exceed a century, reach a breeding age in their teens and can produce up to two dozen offspring in their lifetime.
 - **Size**: Medium (Height: ~5'8", Weight: ~140lb)
@@ -148,7 +148,7 @@ Race boon (level 8 and 16):
 - 4 skill points to spend on skills and proficiencies.
 
 ___
-#### Elf/(Fey touched) (level-0 template)
+#### Elf/(Fey touched) (level-1 template = 8 points)
 
 This is a race that is closer to the fey, either created when fey spirits took material form in exchange for something, or when they mingled with humankind, or bestowed their "gifts" upon humans long ago. Elves/Fey touched live ridiculously long lives. Compared to humans they have slender, wiry bodies and longer ears. They are known as sometimes known as the "fair folk" and see well in twilight hours.
 - **Size**: Medium (Height: ~5'8", Weight: ~115lb)
@@ -167,7 +167,7 @@ Race boon (level 8 and 16):
 - +5 to walking speed
 
 ___
-#### Orc (level-0 template)
+#### Orc (level-1 template = 8 points)
 
 This is a race that is closer to the feral side of humanoids. They are stronger and sturdier than humans, are apt hunters, but tend to lack aptitude for the academic. Orcs lead shorter lives than humans and reproduce even faster.
 - **Size**: Medium (Height: ~6'0", Weight: ~185lb)
@@ -185,26 +185,26 @@ Race boon (level 8 and 16):
 - +1 Con, +1 Str.
 
 ___
-#### The Winged (level-0 template)
+### The Winged (level-1 template = 8 points)
 
 This is a race of winged humanoids that live in high and isolated places, as well as loci associated with elemental air. They are small of stature, sharp sighted, and often shy of other races.
 - **Size**: Medium (Height: ~3'3", Weight: ~32lb, Wingspan: ~11ft.)
 - **Stats**: (Str: -2, Dex: +2, Con: 0, Int: 0, Wis: 0, Cha: 0)
-- **Movement**: Walk 20ft, Fly 60ft (rating: average).
+- **Movement**: Walk 20ft, Fly 60ft (rating: average). (5 point)
 - **Sight**: Normal.
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
 - **Proficiencies**: One appropriate language.
 
 Extra:
-+ +2 to Fly
-+ +2 to Observe
++ 2 to Fly (2 point)
++ 1 to Observe (1 point)
 
-Race boon (level 8 and 16):
+Race boon: (6 points)
 - +1 fly level.
 - +10 fly speed.
 
 ___
-#### Beasts of the Green (level-0 template)
+#### Beasts of the Green (level-1 template = 8 points)
 
 This is a race of intelligent beasts that dwells in the deepest wilderness. It is thought that they are guardians of the wild, created by ancient forces. Outwardly they take many forms.
 - **Size**: Large (Height: ~6', Weight: ~600lb)

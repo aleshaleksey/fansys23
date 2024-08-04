@@ -333,6 +333,8 @@ The base template allows the following:
   - A template may grant only 2 condition resistances or immunities per template level.
 - A single proficiency.
   - A template can never grant more than 4 proficiencies per template level.
+- A permanent +1 bonus to a single skill.
+  - The template bonus to skills NEVER stack.
 - A permanent +1 to a single stat.
   - A template may only grant +2 to the same stat ONCE per template level.
 - Speed increase to climb, walk, or swim speed by 5ft.

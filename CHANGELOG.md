@@ -98,3 +98,7 @@ ______
 
 ### Monsters
 - Flame sprite: Boost intelligent. Clarify that it sheds light. Add text on tactics (prefers magic).
+
+### General
+- Death is harder: You die at minus HP or minus CON if CON is higher than HP. instead of minus HP).
+- Define the Save threshold for death and dying.

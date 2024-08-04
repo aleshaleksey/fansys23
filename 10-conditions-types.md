@@ -53,7 +53,7 @@ Immunity to a damage type or condition means the entity is not affected by it.
 ___
 #### Damage over time
 
-Damage over time is difined in the ["Combat: Damage and effects over time"](04-combat.md#damage-and-effects-over-time) section.
+Damage over time is defined in the ["Combat: Damage and effects over time"](04-combat.md#damage-and-effects-over-time) section.
 
 ___
 #### Mundane, magical and spiritual weapons
@@ -337,7 +337,7 @@ An entity afflicted by conditions that make it unable to engage in physical comb
   - Every time it takes a "move", "main" or "secondary" action it loses 1 HP.
   - Every time it takes a "run", "sprint" or "full round action" it loses 2 HP.
   - As a "dying" entity, a doomed entity dies when it reaches minus its total HP.
-- "**Dying**": This entity cannot do anything other than make CON saves or lose 1 HP per round. It usually suffers from most of the detriments of "Unconscious". If they reach their minus their HP total they die. If they succeed before that they stop losing HP and become "Unconscious".
+- "**Dying**": This entity cannot do anything other than make CON saves (threshold = 20) or lose 1 HP per round. It usually suffers from most of the detriments of "Unconscious". If they reach their minus their HP total, or minus their CON (CHA for incorporeal beings) if it is higher than their HP, they die. If they succeed before that they stop losing HP and become "Unconscious".
   - **Special**: When an entity gains the dying condition, it may choose to instead take the "**Doomed**" status, although this is usually ill advised.
 - "**Unconscious**": An unconscious character can make CON and CHA saves, and communicate telepathically under certain circumstances. It can take no other actions. In addition it has the following problems:
   - It does not gain [STATS] to AC.

@@ -46,9 +46,13 @@ Attacks and various harmful effects cause injury and death to combatants and des
 
 ### Death, dying and the relationship between HP, MP and SP
 
-A target is considered "dying" when it reaches 0 HP. It is destroyed or killed when it reaches its negative HP total. Entities that are immune to "dying" continue to operate normally (other conditions they might suffer from, continue to apply however) until they are destroyed when they reach the negative of their total HP.
+A target is considered ["dying"](10-conditions-types.md#conditions-in-detail) when it reaches 0 HP. It is destroyed or killed when it reaches minus its HP total, or CON score[1] if it is higher. An entity that is dying is "unconscious" and can take no actions. At the start of each turn when an entity is "dying" it attempts a CON (CHA) save (threshold=20). On failure it loses 1 HP, on success it stabilises and becomes ["unconscious"](10-conditions-types.md#conditions-in-detail).
+
+Entities that are immune to "dying" fall unconscious instead until, but are still destroyed when they reach the negative of their total HP. Some entities, like undead, are instantly destroyed upon reaching 0 HP. Likewise, a group may decide that monsters and NPCs simply die at 0 HP for the sake of simplicity. This kind of house rule should be made explicitly clear at the start of a game.
 
 Of course most offensive abilities must first "eat" through the SP or MP of a target before working away at the HP.
+
+1. Entities that do not have a CON score may use their CHA score instead.
 
 ### Damage resistance
 
@@ -58,9 +62,11 @@ So if an entity with resistance fire[natural] is hit for 21 points of natural fi
 
 ### Damage reduction
 
+Entities seldom hav damage reduction, so this rule mostly applies for objects and structures.
+
 An item or material with damage reduction is not affected by weak attacks and ignores the first few points of damage of the type. For example, if you hit a rock with a pick, you will not chip or break it unless you hit it hard enough, and hitting the same rock with a dagger will probably never do anything (compare to hitting a warrior in armour). Damage reduction is never used for entities.
 
-So if an entity with damage reduction=10 physical is hit for 9 points of physical damage, it takes no damage, but  if it is hit for 17 points of physical damage it takes 7.
+So if an entity with damage reduction=10 physical is hit for 9 points of physical damage, it takes no damage, but if it is hit for 17 points of physical damage it takes 7.
 
 ### Damage immunity
 

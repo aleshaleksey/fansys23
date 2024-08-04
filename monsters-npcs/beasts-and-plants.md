@@ -2,6 +2,36 @@
 Animals are common entities in the material world. They have a physical form, limited lifespan and age by necessity. They need to sleep, breathe, drink, eat. They devour other mortals to survive and have an intelligence below 5.
 
 ___
+### Rat
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|14/8/14|6|4|1|30ft|climb (30ft)|
+
+Size = tiny
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|4|14|10|3|10|10|
+|Bonus|-3|+2|0|-4|0|0|
+|Save|-4|+6|+1|-3|+1|+1|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|1 (1)|3|2|1|1|2|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite|+4|2|Shear damage|
+|Keen Senses|||Advantage on perception rolls|
+|Low light Vision|||Can see in the "dark", but not pitch black conditions|
+|[Sprint](../06-abilities.md#sprinter)|||x3 move, x5 sprint|
+|[Evasive](../06-abilities.md#evasive)|||Avoid AoOs|
+|[Stalker](../06-abilities.md#stalker)|||Hides really quickly|
+|Skills|||"Stealth" +4, "Observe" +2|
+|Loot|||Cat meat is edible to humanoids|
+
+This block can be used for domestic cats or a wildcat. These predators are often co-exist successfully with humanoids and certain monsters.
+___
 ### Cat
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|

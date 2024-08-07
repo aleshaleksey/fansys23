@@ -1992,7 +1992,7 @@ The target returns with all of its SP and MP and up to 12 HP.
 - The entity must be a mortal.
 - The entity must have a dice total (MP + SP) no more than twice the dice total of the caster.
 - The entity is not beholden to the caster and it is not obliged to obey the caster, although it may if it is so inclined.
--  Likewise the target entity and any divine/spiritual/profane that holds its soul is aware of who is trying return it and may attempt to resist. In this case the caster may disengage fom the ritual or try to force it. If the caster tries to force the issue, the target and caster make an opposed SAP roll. If the caster wins the ritual succeeds (although the caster may wish that it hadn't). If the ritual fails, the spell fails [catastrophically](07-spells.md#the-catastrophic-cascade) as if the spell was countered on the caster's location.
+-  Likewise the target entity and any divine/spiritual/profane that holds its soul is aware of who is trying return it and may attempt to resist. In this case the caster may disengage fom the ritual or try to force it. If the caster tries to force the issue, the target and caster make an opposed SAP roll. If the caster wins the ritual succeeds (although the caster may wish that it hadn't). If the ritual fails, the spell fails [catastrophically](07-magic-and-spellcasting.md#the-catastrophic-cascade) as if the spell was countered on the caster's location.
 - The spell can NEVER be cast on the same target more than once a month.
 
 **Special**: The spell can be cast up to 7 times for the same target. However, on each casting following the first time, either the caster or an entity with at least as many MP or SP dice as the caster's total must be sacrificed (it must die in the ritual). If the sacrifice is not satisfactory, the life is lost but nothing is summoned.
@@ -2171,7 +2171,7 @@ When the spell ends one of the following things can happen (the final decision i
 - The entity must be a "spirit", "divine" or a "fiend".
 - The entity must have a dice total (MP + SP) no more than three times the dice total of the caster.
 - The entity is not beholden to the caster and it is not obliged to obey the caster, although it may if it is so inclined.
-- The target entity is aware of who is trying return it and may attempt to resist. In this case the caster may disengage fom the ritual or try to force it. If the caster tries to force the issue, the target and caster make an opposed SAP roll. If the caster wins the ritual succeeds (although the caster may wish that it hadn't). If the ritual fails, the spell fails [catastrophically](07-spells.md#the-catastrophic-cascade) as if the spell was countered on the caster's location.
+- The target entity is aware of who is trying return it and may attempt to resist. In this case the caster may disengage fom the ritual or try to force it. If the caster tries to force the issue, the target and caster make an opposed SAP roll. If the caster wins the ritual succeeds (although the caster may wish that it hadn't). If the ritual fails, the spell fails [catastrophically](07-magic-and-spellcasting.md#the-catastrophic-cascade) as if the spell was countered on the caster's location.
 - The spell can NEVER be cast on the same target more than once.
 
 **Upcast**: For each 8MP dice put into the spell, the target stays in the mortal realm for an extra week.

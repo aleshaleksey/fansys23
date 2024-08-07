@@ -159,7 +159,7 @@ A character can know any number of spells. However, a character can only have a 
 
 #### Spells gained from levels in "spellcasting" ability
 
-Characters learn a few spells every time they gain a level in one of the "Spellcasting" abilities. A character can also learn spells by independent study, apprenticeship or gifting. As a rule, elemental and natural spellcasting grant more spells on learning the ability, but are harder to learn outside of that. On the other hand kinetic and incantation spellcasting grants fewer spells, but allows extra spells to be learned more easily. This is described in th table below and in the ["7 types of magic"](07-spells.md#the-7-types-of-magic) subchapter.
+Characters learn a few spells every time they gain a level in one of the "Spellcasting" abilities. A character can also learn spells by independent study, apprenticeship or gifting. As a rule, elemental and natural spellcasting grant more spells on learning the ability, but are harder to learn outside of that. On the other hand kinetic and incantation spellcasting grants fewer spells, but allows extra spells to be learned more easily. This is described in th table below and in the ["7 types of magic"](07-magic-and-spellcasting.md#the-7-types-of-magic) subchapter.
 
 |Spellcasting kind|Spells gained per level of ability|"MP 0" spells gained at ability level 1|
 |-|-|-|

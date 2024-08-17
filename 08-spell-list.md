@@ -105,8 +105,13 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Legion of Dead](#legion-of-dead)
 - [](#)
 
+### MP 9 Spells
+- [Mage's Oath](#mages-oath)
+
 ### MP 10 Spells
 - [Realm of Flame](#realm-of-flame)
+- [Mandate of the Deep](#mandate-of-the-deep)
+- [Undying realm](#undying-realm)
 
 ___
 ## MP 0 spells
@@ -2176,8 +2181,41 @@ When the spell ends one of the following things can happen (the final decision i
 
 **Upcast**: For each 8MP dice put into the spell, the target stays in the mortal realm for an extra week.
 ___
-## MP 10 spells
-3+(2+11)x10/2=3+13x5 = 68
+## MP 9 Spells
+3+(2+10)x9/2=3+12x9/2=3+6x9= 57
+
+### Mage's Oath
+|Name|Mage's Oath [Incantation, Curse, Divine]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|9 (36)|
+|Target(s)|Up to 9 willing targets|+8
+|Casting time|"full round action" (9 days)|-1
+|Range|close|
+|Duration|1 day (permanent)|+24
+|Components|incantation|+1(32)
+|Focus|-|
+|Material|1HP worth of blood (global: or one item precious to each participant)|-2
+|Limitation|All participants must be willing|
+|Save||
+**Description**: The caster grants an oath sworn between up to 9 targets to gain real power. The words of the oath, specifically between the participants have the power of the laws of nature. This can also be used to replicate the effect of [Promise](#promise) or [Pact](#pact). Otherwise, the targets can:
+1. Exchange or trade for free one or more of their abilities, boons, stats, skills, or even racial traits with other participants. When the spell ends the abilities are returned.
+2. Lend or borrow, abilities, boons, stats, skills or racial traits with other participants. However, should one participant of the oath lose what is lent, it is lost by all. Thus if the caster lends his MP to an ally, the MP is *shared* between them, and when one of them loses MP, so does the other. This is especially poignant when HP is shared and lost. Likewise, should one member of the oath die, that which is lent is permanently lost by all.
+3. Create a physical law binding one or more participants. However, if the law gives some kind of benefit, it must give an equal drawback, as determined by the DM. Likewise, if some kind of condition is involved, the fulfilment of this condition must be at least somewhat plausible.
+  - For example, the oath may be "I will fear nothing while I'm with you", granting immunity to "frightened" in the presence of another participant. This would also imply that the one making the oath would *always* be "frightened" in their absence.
+  - "I will not die until I have seen the sunset", may make one immortal, but it will guarantee death once the sunset is seen. Likewise if such an oath is made when seeing the sunset is literally impossible, the universe (read: the DM) MUST contrive an event that makes it instead inevitable, literally or figuratively. In this case, a blind paladin who swears such an oath may miraculously regain her sight in time to see the sunset, or see it in her dreams.
+
+**Special**:
+- All targets of the spell innately know that they are making a mage's oath when the spell is cast, and have the power to refuse to participate if they are willing.
+- Dispelling a Mages's Oath means that all participants of the oath, and the one dispelling it, suffer the effects of the oath.
+
+**Upcast**: For every extra MP dice, the spell lasts an extra day.
+
+**Global**: The effect is permanent until dispelled.
+
+___
+## MP 10 Spells
+3+(2+11)x10/2=3+13x10/2 = 68
 
 ### Realm of Flame
 |Name|Realm of Flame [Spiritual, Fire, Destruction]|
@@ -2209,6 +2247,55 @@ ___
 - Even after the spell has dissipated it leaves echoes behind, "[Meadow of Flame](#meadow-of-flame)" or lesser elementals may spontaneously spring up in the place it was cast for 108 years if it was cast locally and a millennium if it was cast globally.
 
 **Global**: Realises the Realm of Flame onto the caster's current location. The radius is 1 mile. For every extra 4MP the radius increases by 200ft and the height increases by 10ft and the damage increases by 2d8.
+____
+### Mandate of the Deep
+(Spell rules break down here)
+|Name|Mandate of the Deep [Spiritual, Water]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|10 (40)|
+|Target(s)|80ft radius, (3/4 mile radius)|+22
+|Casting time|"full round action" (20 days + 2 days per 4MP)|-2(8)
+|Range|close|-1(7)
+|Duration|12 minutes (1 weeks)|+12(19)
+|Components|incantation, kinetic|-1(18)
+|Focus|Flowers of water lilly that the caster must adorn themselves with|-1(17)
+|Material|A pearl from a realm of water|-2(16)
+|Damage|4d12 percussive|+12(28)
+|Immunity|Charm, Catatonic|+8(36)
+|Modality|Swim,Water walk|+12(48)
+|Condition|Heavy cover,throw,bleed|+4(52)
+|Proficiency|Water|+1(53)
+|Proficiency|Water breathing|+1(54)
+|Concentration|local|-3(51+12=63)
+|Save|Str,Dex,Con (Else no damage from tendrils)| -3(60)
+
+**Description**: A crown of ice appears upon the caster's head(s) (if it has one or more). The caster takes control of all water within an 80ft radius with the following effects:
+- All entities of the caster's choice gain the following for the duration of the spell:
+  - A 30ft swim speed
+  - Water walking
+  - An alignment to [water]
+  - Water breathing and the ability to communicate with all entities aligned to [water]
+  - Immunity to "charmed" and "catatonic".
+  - Heavy cover from blocks of ice or tendrils of water.
+- As a "secondary action", the caster can freeze or melt any amount of water in the area of effect. Any entity caught in the frozen areas can attempt to break free with a Str save, however, this is often futile, as even if they break free, they may still be surrounded by walls of ice 10-20 feet thick. (This is very useful as a barrier)
+- As an action call watery tendrils to strike any number of targets in the area of effect, dealing 4d12 percussive damage on a failed Dex save. If the caster so choses, the tendrils an throw a target up to 80ft (or move a willing target the same distance).
+- As an action, cause (CON save to negate) or cure bleeding in any number of targets.
+- Control the movement water as a "move action", including:
+  - Raising or lowering water levels at will.
+  - Changing speed and flow of water in the area at will (but induing currents of no more than 240ft per round)
+- Entities aligned with fire have disadvantage to all attacks in the area of effect, and saving throws against their abilities/spells/etc are made at advantage.
+- The zone of effect moves with the caster, but at no more than 90ft per round.
+
+**Special**: "Mandate of the Deep" is a legendary magic. It gifts a part of the material realm to the lords of the deep.
+- All entities aligned with water have advantage against effects caused by the spell.
+- If the area where the spell is cast is already claimed by another elemental lord of water, the caster forever gains their grudge.
+- The spot where it is cast forever resonates with an aura of [spiritual, water] energies. Mortals born in those lands/seas might be aligned in some way with elemental water.
+- Even after the spell has dissipated it leaves echoes behind, lesser elementals or supernatural mist may spontaneously spring up in the place it was cast for 108 years if it was cast locally and a millennium if it was cast globally.
+
+**Upcast**: For every extra MP dice, the radius of the spell increases by 15ft.
+
+**Global**: The locale within 3/4 miles of the caster is sworn to the realm of water, and the caster is its regent. The spell acts as normal, with the exception that it has a radius of 3/4 of a mile.
 ____
 
 ### Undying Realm
@@ -2498,12 +2585,12 @@ ___
     - [Realm of Flame](#realm-of-flame) [10]
     - []()
 - Water
-    - []()
+    - [Mandate of the Deep](#mandate-of-the-deep)
     - []()
     - []()
 - Incantation
     - [Razor Wind](#razor-wind) [6]
-    - []()
+    - [Mage's Oath](#mages-oath)
     - []()
 - Kinetic
     - []()
@@ -2513,7 +2600,7 @@ ___
 
 - Other
     - [Legion of Dead](#legion-of-dead) [6]
-    - [Incarnate](#incarnate) 7]
+    - [Incarnate](#incarnate) [7]
     - []()
     - []()
 

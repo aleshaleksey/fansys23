@@ -208,7 +208,7 @@ ___
 |Save|Wis|
 
 **Description**: If used on an elemental[air], or enchanted wind it must make a Wis save, else it is charmed for one round. Natural, air and wind can be manipulated as follows:
-+ Create or erase severe wind effect within the square.
++ Create or erase severe wind effect within a 5ft radius of the square. This disperses airborne effects (eg mist, poison, dust, etc).
 + Blow out or kindle a small fire (size "small" or smaller).
 + Freeze the surface of 1sq of water.
 + Dry water on a solid surface (eg your clothes).
@@ -229,7 +229,7 @@ ___
 |Limitation|Target must be in air (ie not submerged in a liquid or buried in earth)|
 |Save|Str|
 
-**Description**: Call for a violent burst of wind to strike a target. The effect is a very small explosion.
+**Description**: Call for a violent burst of wind to strike a target. The effect is a very small explosion. The explosion is typically audible from 300ft away.
 
 ___
 ### Whispers
@@ -317,7 +317,7 @@ ___
 |Save|Wis|
 
 **Description**: If used on an elemental[earth], or enchanted ground it must make a Wis save, else it is charmed for one round. Natural, unworked earth (but not solid rock) can be manipulated as follows:
-+ Move up to 10ft, as long as there is an open conduit of earth for it and space in the destination square (ie, you cannot float the earth through air, water and other medium).
++ Move earth up to 10ft, as long as there is an open conduit of earth for it and space in the destination square (ie, you cannot float the earth through air, water and other medium).
 + Cause the square to become difficult terrain, or difficult terrain caused by earth features to become freely passable.
 + Change the cosmetic qualities of the earth.
 
@@ -389,7 +389,7 @@ ___
 **Description**: If used on a magical flame or fire elemental, it has a save, else it is charmed for one round. Natural fire can be manipulated as follows:
 + Increase or decrease size by 1 category.
 + Change shape, as long the volume of flame remains the same, and no part of it is displaced by more than 20ft.
-+ Move the whole flame up to 60ft if it is small or smaller, 30ft if it is large or smaller, and 10ft otherwise (as long as there are flammable materials and air (or other source of oxidant) available).
++ Move the whole flame up to 40ft if it is small or smaller, 20ft if it is large or smaller, and 5ft otherwise (as long as there are flammable materials and air (or other source of oxidant) available).
 + Change the colour and other cosmetic qualities of the flame.
 
 ___
@@ -410,7 +410,7 @@ ___
 
 **Description**: If used against an elemental[water], or an enchanted body of water or ice it must make a Wis save, else it is charmed for one round. Natural water and ice can be manipulated as follows:
 + Move water up to 20ft, as long as it can flow along a surface (ie it cannot pass through solid objects (or similar) or float through the air or vacuum).
-+ Melt ice or freeze water up to a volume of 1 cubic ft.
++ Melt ice or freeze water up to a volume of 1 cubic ft (the ice does not melt at the end of the round, but melts naturally).
 + Cause currents in a square of water to make it difficult terrain, or steady the flow to remove that quality.
 + Change the cosmetic qualities of the water.
 
@@ -428,7 +428,7 @@ ___
 |Components|incantation, kinetic|-1
 |Save|Con|
 
-**Description**: Still the movement inside of water. Freeze a material or creature containing water, violently if desired. If cast violently the rapid cooling damages any entity on the square. (4-4)
+**Description**: Still the movement inside of water. Freeze a volume of water, or a material or creature containing water, violently if desired. If cast violently the rapid cooling damages any entity on the square. (4-4)
 
 ___
 ### Mist
@@ -1432,7 +1432,7 @@ ___
 
 ___
 ### Winter's Blade
-|Name|Winter's Blade [Ice, Destruction, Summer]|
+|Name|Winter's Blade [Ice, Destruction, Winter]|
 |-|-|
 |Scope|local|
 |MP Dice|3|
@@ -1891,7 +1891,7 @@ ___
 
 **Upcast**: For every extra MP die, the target range increases by 60ft and the view distance increases by 5ft. Alternatively the duration increases by 12 min.
 
-**Global**: The spell has a range or 240 miles and lasts for a day. The view distance is 120ft. For every 4MP the  range increases by 60 miles or the duration increases by a day.
+**Global**: The spell has a range or 240 miles and lasts for a day. The view distance is 120ft. For every 4MP the range increases by 60 miles or the duration increases by a day.
 
 ___
 ### Least Storm
@@ -2307,6 +2307,7 @@ ___
 ### MP 1
 
 - Nature
+    - [Bear's Claws](#bears-claws)
     - [Beast Speech](#beast-speech)
     - [Least Heal](#least-heal)
 - Air
@@ -2326,15 +2327,15 @@ ___
     - [Water Snake](#water-snake)
     - [Winter's Touch](#winters-touch)
 - Incantation
-  - [Bear's Claws](#bears-claws)
-  - [Headwind](#headwind)
-  - [Least Heal](#least-heal)
-  - [Least Vengeance](#least-vengeance)
+    - [Bear's Claws](#bears-claws)
+    - [Headwind](#headwind)
+    - [Least Heal](#least-heal)
+    - [Least Vengeance](#least-vengeance)
 - Kinetic
-  - [Enflame](#enflame)
-  - [Shape Earth](#shape-earth)
-  - [Spirits' Secret](#spirits-secret)
-  - [Winter's Touch](#winters-touch)
+    - [Enflame](#enflame)
+    - [Shape Earth](#shape-earth)
+    - [Spirits' Secret](#spirits-secret)
+    - [Winter's Touch](#winters-touch)
 
 ### MP 2
 

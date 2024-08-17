@@ -184,7 +184,7 @@ ___
 
 **Action**: Declare berserk as a "secondary action".
 
-**Effect**: A Berserk character can in the trance for [SP dice count] rounds. However, if the character does not take damage or attack from the the end of the start of their turn one round to their next turn, the trance ends. The character gains a number of SP equal to their SP Dice maximum. In addition the character has a bonus to walk, climb, swim and fly speed, weapon damage, and may have advantage on attacks.
+**Effect**: A Berserk character can remain in the trance for [SP dice count] rounds. However, if the character does not take damage or attack from the the end of the start of their turn one round to their next turn, the trance ends. The character gains a number of SP equal to their SP Dice maximum. In addition the character has a bonus to walk, climb, swim and fly speed, weapon damage, and may have advantage on attacks.
 
 **Special**:
 - Berserk does not have an SP dice cost. However, when the berserker trance is over, you lose a number of HP equal to the level of the Berserk ability (so if you have "Berserk I" you lose 1HP). In addition, the SP gained at the start of berserker trance is lost. It this takes the character into negative SP, the remainder is taken out of HP.
@@ -271,7 +271,7 @@ ____
 **Action**:
 1. Declare the ability and make the attack.
 2. If you hit, expend the SP dice, target tries to save against your NAP + [Con] at the start of its turn.
-3. On a fail, the target is stunned till the end of its next turn.
+3. On a fail, the target is affected until the end of its next turn.
 
 **Prerequisites**: There is an SP prerequisite and cost on all debilitating strikes.
 
@@ -955,7 +955,7 @@ ___
 
 **Original state**: A shield can either be used as a shield or a weapon, not both.
 
-**Benefits:** A character can not use a buckler, small shield or large shield as a shield, and still use it to make offhand attacks as a secondary action.
+**Benefits:** A character can use a buckler, small shield or large shield as a shield (i.e. benefit from bonus to HiT and other benefits that it may bring), and still use it to make offhand attacks as a secondary action.
 
 **Prerequisites:**
 - Proficiency with Shields.

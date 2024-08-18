@@ -105,3 +105,13 @@ ______
 
 ### Paperwork
 - Rename the spells file.
+_____
+## From v0.0.6
+
+### Races
+- Increase low light vision cost to 2 race-points.
+- Add all races to quick-start.
+
+### Spells
+- Fix wording on Pact, Promise and a couple of other spells.
+- Add extra spells "mandate of the deep, mage's oath"

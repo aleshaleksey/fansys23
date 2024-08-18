@@ -39,12 +39,12 @@ This is a race that is closer to the fey, either created when fey spirits took m
 - **Size**: Medium (Height: ~5'8", Weight: ~115lb)
 - **Stats**: (Str: 0, Dex: +2, Con: -2, Int: 0, Wis: 0, Cha: +1) (1 points)
 - **Movement**: Walk 30ft
-- **Sight**: Normal, low-light vision. (1 point)
+- **Sight**: Normal, low-light vision. (2 point)
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Elves do not age. (1 point)
 - **Proficiencies**: One appropriate language and the Elvish tongues. Bows OR one class of instrument. (2 point)
 
 Extra:
-- +2 Observe (2 point)
+- +1 Observe (1 point)
 - Resistance to "Charmed" (1 point)
 
 Race boon: (6 points)
@@ -74,9 +74,9 @@ ___
 
 This represents those who have been touched by dark forces. Perhaps because of a pact, perhaps because of a dark ritual, perhaps because of whimsical evil. Or perhaps it's a bona fide race.
 - **Size**: Medium (Height: ~5'10", Weight: ~160lb)
-- **Stats**: (Str: +1, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: +1) (2 points)
+- **Stats**: (Str: 0, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: +1) (1 points)
 - **Movement**: Walk 30ft
-- **Sight**: Normal, low light vision. (1 point)
+- **Sight**: Normal, low light vision. (2 point)
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
 - **Proficiencies**: One appropriate language.
 
@@ -97,12 +97,12 @@ This is a race of humanoid that has various beast like traits, usually cat-like,
 - **Size**: Medium (Height: ~5'8", Weight: ~140lb)
 - **Stats**: (Str: 0, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: 0)
 - **Movement**: Walk 35ft + Climb 30ft. (3 point)
-- **Sight**: Normal, low-light vision. (1 point)
+- **Sight**: Normal, low-light vision. (2 point)
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
 - **Proficiencies**: One appropriate language.
 
 Extra:
-- +2 Track. (2 Points)
+- +1 Track. (1 Points)
 - +2 to Str or Dex. (2 Points)
 
 Race boon: (6 points)
@@ -205,44 +205,44 @@ This is a template for elves/fey-touched in a game using level-5 templates. It g
 - **Size**: Medium (Height: ~5'8", Weight: ~115lb)
 - **Stats**: (Str: 0, Dex: +4, Con: 0, Int: +2, Wis: +2, Cha: +2) (10 points)
 - **Movement**: Walk 40ft (2 points)
-- **Sight**: Normal, low-light vision, "keen sight", "keen hearing". (3 point)
+- **Sight**: Normal, low-light vision, "keen sight", "keen hearing". (4 point)
 - **Type**: Humanoid (needs to breathe, drink, eat). Elves do not age. (3 point)
 - **Proficiencies**: One appropriate language and the Elvish tongues. Bows OR one class of instrument. (1 point)
 
 Extra (21):
 - +2 Observe (2)
-- +2 Navigate (2)
+- +1 Navigate (1)
 - +2 Arcana (2)
 - 2 levels of Nature Magic (4)
 - Immunity to "charmed" and "paralysed". (11)
 
 ___
-### Enhanced beast folk (level-5 template = 20 points)
+### Enhanced beast folk (level-5 template = 40 points)
 
 Some degenerates want enhanced cat girls for high power games.
 
 - **Size**: Medium (Height: ~5'8", Weight: ~140lb)
 - **Stats**: (Str: +4, Dex: +4, Con: 0, Int: 0, Wis: +2, Cha: 0) (10)
 - **Movement**: Walk 40ft + Climb 40ft, or walk 50ft. (6 point)
-- **Sight**: Normal, low-light vision, "keen hearing", "keen smell". (3 point)
+- **Sight**: Normal, low-light vision, "keen hearing", "keen smell". (4 point)
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
 - **Proficiencies**: One appropriate language.
 
-Extra (21):
+Extra (20):
 - +2 Track, +2 Acrobatics, +2 Athletics. (6)
 - Immune "Surprised" (4)
 - Advantage on Dex saves (6)
-- Resistance "bludgeoning" + "prone", "restrained", "grappled", "immobilised". (6)
+- Resistance "prone", "restrained", "grappled", "immobilised". (4)
 
 ___
-### Vampire spawn (level-5 template = 20)
+### Vampire spawn (level-5 template = 40)
 
 This represents a low-grade vampire. Its type is undead, but due to lack of points, it does not have all undead traits, because we can't afford them.
 
 - **Size**: Medium
 - **Stats**: (Str: +2, Dex: +2, Con: +2, Int: 0, Wis: 0, Cha: +2) (8 points)
 - **Movement**: Walk 30ft + Climb 30ft (1 point)
-- **Sight**: Normal, low-light vision, "heat sense II" (30ft), keen scent. (3 point)
+- **Sight**: Normal, low-light vision, "heat sense II" (30ft), keen scent. (4 point)
 - **Type**: Undead, partial (does not breathe, sleep or age) (8 point)
 - **Proficiencies**: One appropriate language.
 
@@ -270,8 +270,8 @@ This is a divine being created by gods to watch over some aspect of creation (Co
 
 - **Size**: Medium (Height: ~5'8", Weight: ~140lb) (Normal form: Winged)
 - **Stats**: (Str: +2, Dex: 0, Con: +2, Int: +4, Wis: +2, Cha: +4) (14 points)
-- **Movement**: Walk 20ft, Fly 80ft (rating: average). (8 point)
-- **Sight**: :True Sight II (60ft). (6 point)
+- **Movement**: Walk 20ft, Fly 70ft (rating: average). (6 point)
+- **Sight**: :True Sight II (60ft), low light vision. (8 point)
 - **Type**: Humanoid (does not need to eat, drink, breath, does not age). (12 points)
 - **Proficiencies**: One appropriate language.
 
@@ -340,7 +340,7 @@ The base template allows the following:
 - Speed increase to climb, walk, or swim speed by 5ft.
   - A single template level can increase climb, walk or swim speeds by no more than 15ft.
 - Remove the "ageing" necessity.
-- Gain one of the following senses: "Low-light vision", "Keen senses: Smell", "Keen senses: Hearing").
+- Gain one of the following senses: "Keen senses: Smell", "Keen senses: Hearing").
 
 
 #### Two template points:
@@ -353,7 +353,7 @@ The base template allows the following:
   - A single template level can increase fly or cosmic speed by no more than 20ft or 40ft respectively.
 - Improve fly speed rating from "poor" -> "average".
 - A passive or active (C class) ability with no prerequisites (eg water breathing).
-- Gain one of the following senses: "heat-sense", "keen-senses: Sight".
+- Gain one of the following senses: "Low-light vision", "heat-sense", "keen-senses: Sight".
   - When this enhancement is a graded ability (eg "[Heat Sense](06-abilities.md#heat-sense-i-v)"), it is always taken at 2nd level (eg "Heat Sense II"). In this case increasing it by a further level costs a single point.
 - Remove the "sleep" necessity.
 

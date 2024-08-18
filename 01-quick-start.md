@@ -159,7 +159,7 @@ This is a race that is closer to the fey, either created when fey spirits took m
 - **Proficiencies**: One appropriate language and the Elvish tongues. Bows OR one class of instrument.
 
 Extra:
-- +2 Observe
+- +1 Observe
 - Resistance to "Charmed"
 
 Race boon (level 8 and 16):
@@ -173,7 +173,7 @@ This is a race that is closer to the feral side of humanoids. They are stronger 
 - **Size**: Medium (Height: ~6'0", Weight: ~185lb)
 - **Stats**: (Str: +2, Dex: 0, Con: +2, Int: -2, Wis: 0, Cha: 0)
 - **Movement**: Walk 30ft
-- **Sight**: Normal, heat sense (30ft).
+- **Sight**: Normal, "heat sense II" (30ft).
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
 - **Proficiencies**: One appropriate language. Strikes AND Slings.
 
@@ -185,21 +185,41 @@ Race boon (level 8 and 16):
 - +1 Con, +1 Str.
 
 ___
+### The Sea People (level-1 template = 8 points)
+
+The sea people a race of humanoids that live in and around the islands of the shallow seas, and in the marshes and great lakes. They often disguise themselves as humans, for various reasons.
+- **Size**: Medium (Height: ~5'8", Weight: ~140lb)
+- **Stats**: (Str: 0, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: 0)
+- **Movement**: Walk 30ft, Swim 40ft.
+- **Sight**: Normal.
+- **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
+- **Proficiencies**: One appropriate language, Cetacean.
+
+Extra:
+- Water breathing
+- Resistance to "Cold" OR +2 Swim.
+- Resistance to "Aphonia".
+
+Race boon: (6 points)
+- +5 to swim speed.
+- One of "life sense (1 level)" or "blind sight (1 level)".
+
+___
 ### The Winged (level-1 template = 8 points)
 
 This is a race of winged humanoids that live in high and isolated places, as well as loci associated with elemental air. They are small of stature, sharp sighted, and often shy of other races.
 - **Size**: Medium (Height: ~3'3", Weight: ~32lb, Wingspan: ~11ft.)
 - **Stats**: (Str: -2, Dex: +2, Con: 0, Int: 0, Wis: 0, Cha: 0)
-- **Movement**: Walk 20ft, Fly 60ft (rating: average). (5 point)
+- **Movement**: Walk 20ft, Fly 60ft (rating: average).
 - **Sight**: Normal.
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
 - **Proficiencies**: One appropriate language.
 
 Extra:
-+ 2 to Fly (2 point)
-+ 1 to Observe (1 point)
++ 2 to Fly.
++ 1 to Observe.
 
-Race boon: (6 points)
+Race boon (level 8 and 16):
 - +1 fly level.
 - +10 fly speed.
 
@@ -225,6 +245,46 @@ Race boon (level 8 and 16):
 - +5 to movement speed.
 - +2 to one of "Str", "Dex", "Con" or "Wis"
 - 1 level of incantation magic.
+
+___
+### Beast folk (level-1 template = 8 points)
+
+This is a race of humanoid that has various beast like traits, usually cat-like, or dog-like. This race is loved by degenerates.
+- **Size**: Medium (Height: ~5'8", Weight: ~140lb)
+- **Stats**: (Str: 0, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: 0)
+- **Movement**: Walk 35ft + Climb 30ft.
+- **Sight**: Normal, low-light vision.
+- **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
+- **Proficiencies**: One appropriate language.
+
+Extra:
+- +1 Track.
+- +2 to Str or Dex.
+
+Race boon (level 8 and 16):
+- +10 to a movement speed of one modality.
+- One of "keen hearing", "keen scent".
+
+___
+### Fiend-touched (level-1 template = 8 points)
+
+This represents those who have been touched by dark forces. Perhaps because of a pact, perhaps because of a dark ritual, perhaps because of whimsical evil. Or perhaps it's a bona fide race.
+- **Size**: Medium (Height: ~5'10", Weight: ~160lb)
+- **Stats**: (Str: 0, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: +1)
+- **Movement**: Walk 30ft
+- **Sight**: Normal, low light vision.
+- **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
+- **Proficiencies**: One appropriate language.
+
+Extra:
+- Resistance to "poison" + "poisoned" .
+- Resistance to "Bleeding". 
+- Elemental touch (level 1).
+
+Race boon (level 8 and 16):
+- Resistance to one of "piercing", "bludgeoning", "slashing" or "pressure" or "shear", "fire" or "ice".
+- +1 Str, +1 Cha.
+- +1 Elemental touch.
 
 ___
 ### Skills and abilities

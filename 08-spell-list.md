@@ -2198,6 +2198,7 @@ ___
 |Material|1HP worth of blood (global: or one item precious to each participant)|-2
 |Limitation|All participants must be willing|
 |Save||
+
 **Description**: The caster grants an oath sworn between up to 9 targets to gain real power. The words of the oath, specifically between the participants have the power of the laws of nature. This can also be used to replicate the effect of [Promise](#promise) or [Pact](#pact). Otherwise, the targets can:
 1. Exchange or trade for free one or more of their abilities, boons, stats, skills, or even racial traits with other participants. When the spell ends the abilities are returned.
 2. Lend or borrow, abilities, boons, stats, skills or racial traits with other participants. However, should one participant of the oath lose what is lent, it is lost by all. Thus if the caster lends his MP to an ally, the MP is *shared* between them, and when one of them loses MP, so does the other. This is especially poignant when HP is shared and lost. Likewise, should one member of the oath die, that which is lent is permanently lost by all.

@@ -683,4 +683,4 @@ NB: There can never be multiple d2, d3 or "d1" rolled for damage for a weapon at
 
 ## Version
 
-0.0.6
+0.0.7

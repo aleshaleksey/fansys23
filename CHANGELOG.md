@@ -118,3 +118,4 @@ _____
 
 ### Abilities
 - Add riposte.
+- Fix wording on aphonic, still and lingering spells.

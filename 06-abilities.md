@@ -648,7 +648,7 @@ ___
 
 **Special**:
 - Must be taken separately for each time of spellcasting.
-- Can be combined with "still spell" and "lingering spell".
+- Can be combined with "still spell" and "aphonic spell".
 
 ___
 #### Still Spell
@@ -663,7 +663,7 @@ ___
 
 **Special**:
 - Must be taken separately for each time of spellcasting.
-- Can be combined with "still spell" and "lingering spell".
+- Can be combined with "aphonic spell" and "lingering spell".
 - This allows spellcasting when "immobilised" or "restrained".
 
 ___

@@ -346,6 +346,16 @@ ___
 **Prerequisite**: SP dice total of 6.
 
 **Special**: You must be aware of the attacker and the attack being made in order to use "parry".
+___
+#### Riposte
+
+**Type**: (Class A)
+
+**Description**: Make a targeted weapon attack against the attacking foe upon successfully parrying (once per round).
+
+**Action**: Once per round, when use of parry successfully causes an enemy's attack to miss, you may immediately make a single weapon attack (or other basic combat manoeuvre) against this enemy. The riposte is considered to be part of your parry for the sake of action economy and is essentially a "non-action".
+
+**Prerequisites**: 11 SP dice + "Counterstrike" + "Parry"
 
 ___
 #### Precision attack I-X

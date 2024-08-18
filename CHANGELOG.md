@@ -115,3 +115,6 @@ _____
 ### Spells
 - Fix wording on Pact, Promise and a couple of other spells.
 - Add extra spells "mandate of the deep, mage's oath"
+
+### Abilities
+- Add riposte.

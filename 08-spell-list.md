@@ -1156,15 +1156,16 @@ ___
 ### Promise
 |Name|Promise [Curse, Global]|
 |-|-|
-|Scope|(global)|
+|Scope|local (global)|
 |MP Dice|(8)|
 |Target(s)|(1 entity)|
-|Casting time|2h + 1h per 4MP|
+|Casting time|main action (2h + 1h per 4MP)|
 |Range|close|
-|Duration|1 month + 1 month per 4MP|
+|Duration|1 day (1 month + 1 month per 4MP)|
 |Components|incantation|
 |Limitation|The caster must be in contact with the target for the whole duration that the spell is being cast.|
-|Limitation|The spell is weakened if the target is not willing.|
+|Limitation|Global: The spell is weakened if the target is not willing.|
+|Limitation|Local: The target must be willing.|
 |Save|Special: Wis|
 
 **Description**: The caster makes a target's promise hold real power. Chose a condition no higher than "B Class" from the table below. The spell then takes one of the following forms:
@@ -1193,7 +1194,9 @@ The condition counts as having a "supernatural" origin.
 
 **Special**: If the target is not aware that it is being bound, or makes the promise against its will, it may attempt a Wis save if it ever brakes the promise. On a success it avoids the effects of the spell.
 
-**Upcast**: The spell lasts for 1 month per 4 MP dice placed in it. In addition, at 12 MP dice an A class condition may be selected, and at 16 MP dice, an S Class conditions may be selected.
+**Global**: The spell lasts for a month.
+
+**Upcast (Global only)**: The spell lasts for an extra month per 4 MP dice placed in it. In addition, at 12 MP dice, an A class condition may be selected, and at 16 MP dice, an S Class conditions may be selected.
 
 ___
 ## MP 3 spells
@@ -1936,7 +1939,7 @@ ___
 |Components|incantation|
 |Save||
 
-**Description**: The caster affects the weather, shifting any and all of visibility, precipitation, wind and temperature by one point in either direction. For example if it is an average spring day with severe wind and no rain and good visibility, the caster can change the weather to "extreme wind" or "no wind", in addition it can affect other aspects, eg "extreme wind, severe fog (poor visibility) and severe cold and precipitation (snowstorm).
+**Description**: The caster affects the weather, shifting any and all of, visibility, precipitation, wind and temperature by one point in either direction. For example if it is an average spring day with severe wind and no rain and good visibility, the caster can change the weather to "extreme wind" or "no wind", in addition it can affect other aspects, eg "extreme wind, severe fog (poor visibility) and severe cold and precipitation (snowstorm).
 
 **Upcast**: The for every extra MP die, the spell lasts for an extra 6 minutes or increases in radius by 5ft. If 7 or more MP dice are used, the caster can shift the weather by two points in any direction.
 
@@ -1949,16 +1952,17 @@ ___
 ### Pact
 |Name|Pact [Curse, Global]|
 |-|-|
-|Scope|(global)|
-|MP Dice|(20)|
+|Scope|local (global)|
+|MP Dice|5 (20)|
 |Target(s)|(2 entities)|+2
-|Casting time|1 day + 4h per 4 MP dice|
+|Casting time|full round action (1 day + 4h per 4 MP dice)|
 |Range|close|
-|Duration|1 year|+12(14)
+|Duration|1 day (1 year)|+12(14)
 |Components|incantation|+1(15)
 |Focus|An item that is precious to the patron.|-1(14)
 |Material|An item that is precious to the supplicant, which is consumed when the pact is sealed.|-2(12)
-|Limitation|The spell is weakened if the target is not willing.|-1(11)
+|Limitation|Global: The spell is weakened if the target is not willing.|-1(11)
+|Limitation|Local: The target must be willing.|-1(11)
 |Save|Special: Wis|
 
 **Description**: The caster allows a supernatural pact to be sealed between two targets (supplicant and patron). The caster may be one of the targets. "Pact" may work in the following manner:
@@ -1969,7 +1973,9 @@ ___
 - A supplicant can have a pact with no more than one patron.
 - If a supplicant makes a pact under duress or unwittingly, they may make a Wis save whenever the patron issues a command or if the promise is broken.
 
-**Upcast**: For every 4 MP dice above 20, the spell lasts an extra year. Alternatively you may select an extra attribute. If the spell is cast with 32 MP dice or more, and only one attribute is taken, it becomes permanent.
+**Global**: The spell lasts for a year. Likewise, it is possible to form a pact with an unwilling target, although in this case it may break the pact with a successful Wis save.
+
+**Upcast (Global only)**: For every 4 MP dice above 20, the spell lasts an extra year. Alternatively you may select an extra attribute. If the spell is cast with 32 MP dice or more, and only one attribute is taken, it becomes permanent.
 
 ___
 ### Revenant

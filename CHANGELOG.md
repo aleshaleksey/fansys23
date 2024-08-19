@@ -115,6 +115,7 @@ _____
 ### Spells
 - Fix wording on Pact, Promise and a couple of other spells.
 - Add extra spells "mandate of the deep, mage's oath"
+- "Pact" and "Promise" can now be used locally as well as globally.
 
 ### Abilities
 - Add riposte.

@@ -87,11 +87,13 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Bestial Transformation](#bestial-transformation)
 - [Enchanted Ground](#enchanted-ground)
 - [Least Storm](#least-storm)
+- [Lesser Incarnation](#lesser-incarnation)
 - [Lesser Weather Control](#least-weather-control)
 - [Mirage](#mirage)
 - [Rejuvenate Land](#rejuvenate-land)
 - [Scry](#scry)
 - [Speak Through Flame](#speak-through-flame)
+- [Summon Spirit](#summon-spirit)
 
 ### MP 5
 - [Flame Stride](#flame-stride)
@@ -1772,6 +1774,76 @@ ___
 - If 40MP dice or more are used and the golem has no more than 10 levels, the golem does not run out of energy.
 
 ___
+### Summon Spirit
+|Name|Summon Spirit [Spiritual]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|4 (16)|
+|Target(s)|1sq (1sq)|
+|Casting time|"full round action" (4 hours + 40 min per 4MP)| -2
+|Range|15ft|+1
+|Duration|12 min (2 days)|+3
+|Components|incantation|+1
+|Focus|A symbol associated with the spirit|-1
+|Material|A suitable offering|
+|Limitation|The conjurer cannot have an alignment and allegiance contrary to the spirit's|
+|Concentration|local|
+|Save|-|
+
+**Description**: Summons a level V "spirit" or "fey" to faithfully serve and fight for you. The spirit can communicate with its summoner and other entities it would normally be able to communicate with. Spirits are usually intelligent enough to understand the gestures and emotions of sentient beings.
+
+**Special**:
+- You can only have one summon at a time.
+- Optional if using alignment rules: A character that uses this spell gains the "spiritual" alignment. Likewise a character that is unwilling to gain the "spiritual" alignment will fail to cast this spell.
+
+**Limitation**; A spirit summoned by this means cannot enter or leave areas affected by ["warded ground"](#warded-ground) or ["enchanted ground"](#enchanted-ground), or territory protected by similar means. Nor can it cross the border of the material/spiritual realm until the spell is over.
+
+**Upcast**: For every MP dice added (4MP for global), the spirit gains two levels.
+
+**Global**: The spirit is bound for 1 day for every 4MP dice used summon it (minimum of 8), it *also* gains two levels for every 4 MP dice added. For every day of the contract, the material component must be paid anew.
+
+___
+### Lesser Incarnation
+|Name|Lesser Incarnate [Spiritual]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|4 (16)|
+|Target(s)|1sq (1sq)|
+|Casting time|"main action" (2 hours + 20 min per 4MP)|
+|Range|close|-1
+|Duration|12 min (2 days)|+3
+|Components|kinetic|
+|Focus|A symbol associated with the spirit|-1
+|Material|A suitable offering or an equivalent time to use the vessel (the spell's) target as it sees fit|-2
+|Limitation|If the conjurer has an alignment contrary to that of the spirit, the spell ends in catastrophic failure.|
+|Concentration|yes|
+|Save|CHA|
+
+**Description**: Summons a spirit to inhabit a mortal, construct or corporeal undead of the caster's choosing. The target of the spell (the vessel of the spirit) gains the following:
+- Any two of (may choose same category multiple times):
+  - An "A" class or below ability or attack the spirit has.
+  - An "A" class or below damage immunity the spirit has.
+  - Proficiency with all languages the spirit knows.
+  - Substitute one stat of the spirit for its own.
+- Any three of (may choose same category multiple times):
+  - An "S" class damage resistance or below.
+  - An "A" class condition resistance or below.
+  - Substitute one save of the spirit for its own.
+- Substitute up to 12 of the spirit's proficiencies (not saves) and skills for its own.
+
+**Special**:
+- If the target has an alignment, or aims, that contradict those of the spirit, the spirit and target of the spell make opposed CHA rolls. If the spirit rolls higher, the spell ends in catastrophic failure.
+- If the target performs acts against the spirit's nature, the target and spirit make opposed CHA rolls (with the spirit gaining a +1 bonus for every occurrence). If the spirit wins, it takes control of the target body for the remaining duration of the spell.
+- If the target of the spell (aka the vessel of the spirit) dies while the spell is in effect, the spirit may either return to its realm, or remain on the realm into which it has been called, now in its original form. In this case, the spirit is no longer bound, and is now free to do as it may.
+- If the spirit has a higher level than the caster, it may make a CHA roll vs the target at the start of the spell and if it rolls higher, it may decide to control the vessel instead.
+
+**Limitation**: While the spell is in effect, the spirit and its vessel, bound together by this spell, cannot enter or leave areas affected by ["warded ground"](#warded-ground) or ["enchanted ground"](#enchanted-ground), or territory protected by similar means. Nor can it cross the border of the material/spiritual realm until the spell is over.
+
+**Upcast**: For every extra MP dice (4 when cast globally) the spell either lasts for an extra 12 minutes OR the caster may chose up to 4 extra proficiencies (not saves), or one damage/condition resistance for the spirit's, or one extra "A" class ability of the spirit.
+
+**Global**: The spell lasts for 1 day per 8MP dice (minimum 16).
+
+___
 ### Enchanted Ground
 |Name|Enchanted Ground [Earth, Spirit]|
 |-|-|
@@ -2528,11 +2600,13 @@ ___
   - [Balance of Nature](#balance-of-nature)
   - [Least Weather Control](#lesser-weather-control)
   - [Speak Through Flame](#speak-through-flame)
+  - [Summon Spirit](#summon-spirit)
 - Kinetic
   - [Aquous Step](#aqueous-step)
   - [Bestial Transformation](#bestial-transformation)
   - [Mirage](#mirage)
   - [Scry](#scry)
+  - [Lesser Incarnation](#lesser-incarnation)
 
 - Other
 

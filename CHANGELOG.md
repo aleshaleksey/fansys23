@@ -116,6 +116,7 @@ _____
 - Fix wording on Pact, Promise and a couple of other spells.
 - Add extra spells "mandate of the deep, mage's oath"
 - "Pact" and "Promise" can now be used locally as well as globally.
+- Add "Summon Spirit" and "Lesser Incarnate" spells.
 
 ### Abilities
 - Add riposte.

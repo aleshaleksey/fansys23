@@ -1206,6 +1206,37 @@ ___
 ## MP 3 spells
 4+2+3+4=13
 
+___
+### Animate/Control Dead
+|Name|Animate Dead [Curse, Profane]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|3 (12)|
+|Target(s)|1sq (1sq)|
+|Casting time|"full round action" (4h + 40min per 4MP)|-2
+|Range|30ft (30ft)|
+|Duration|60 min (1 week+)|+6(5)
+|Components|kinetic|(5)
+|Focus|A symbol of a dark religion|-2(3)
+|Material|Fresh blood of an animal or humanoid|-2(1)
+|Limitation|You must have corpse of an animal or humanoid the appropriate size|-2(-1)
+|Concentration|No|
+|Save|-|
+
+**Description**: Animate a corpse of medium size "medium", to become a level I corporeal undead. The undead serves and fights faithfully for the caster. The undead is capable of performing any reflexive or rote task it knew in life if its body still supports that functionality. Alternatively the spell can be cast to gain control of 5 non-intelligent level I undead for 6 hours.
+
+**Special**:
+- After 60 minutes the undead is not destroys, but persists, becoming hostile to its creator.
+- There is no limit to the number of undead a caster can control, however legions of dead seldom end well.
+- The type of undead being animated depends on the condition of the corpse(s). A corpse with flesh will become a zombie, a corpse without flesh will become a skeleton. A corpse with flesh but no bones becomes a crawling thing.
+
+**Upcast**: For every MP dice added (4MP dice for global), the caster may either animate an extra corpse as a level I undead, assert control over an extra 4 undead, or increase the level of the created or controlled undead by I.
+
+**Global**: Undead created are level II. Furthermore, the undead are under the caster's control for 1 week, after which time they have a "neutral" attitude towards it. For every 4MP dice above 12, the caster may create an extra level II undead, assert control over 4 undead, or increase the level of a created or controlled undead by 1.
+
+(Summon spell rating is controversial)
+
+___
 ### Animate Plant
 |Name|Animate Plant [Mortal, Nature]|
 |-|-|
@@ -1231,6 +1262,33 @@ ___
 (Summon spell rating is controversial)
 
 ___
+### Command Mortal
+|Name|Charm Mortal [mortal, fire]|
+|-|-|
+|Scope|local|
+|MP Dice|3|
+|Target(s)|1 entity|
+|Casting time|"main action"|
+|Range|15ft|-1
+|Duration|1h|+12(11)
+|Components|incantation, kinetic|(10)
+|Focus|A small blade|-1(9)
+|Material|Honey|-2(7)
+|Save|Wis|
+
+**Description**: The target is "charmed". In addition it will follow your up to 3 commands as if it was "allied". After the completion of each command it may make a Wis save to end the spell.
+
+**Special**:
++ The spell ends if the caster or an entity perceived by the target as the caster's ally attacks (or applies a harmful effect) the target.
++ The target is not necessarily aware that it has been charmed, unless it succeeds a "knowledge:arcana" roll to identify the spell.
++ If the command involves harming an entity with which its relationship is "sworn", or helping an entity with which its relationship is "nemesis" it gets an additional save against the spell.
+
+**Upcast**: For every extra MP, the spell may:
+- Last for an extra hour, or:
+- Allow the caster to give the target an extra command or:
+- Add an extra target.
+
+___
 ### Cure
 |Name|Cure [Divine, Healing, Nature]|
 |-|-|
@@ -1248,6 +1306,63 @@ ___
 **Special**: Undead that do not succeed the save take 3 damage (divine) directly to their HP.
 
 **Upcast**: For every extra dice increase the number of B/C class conditions removed by 1. If at least 5 dice are used, an S class condition can be removed, although this will not necessarily make things better. The damage to undead is not increased.
+
+___
+### Earth Ward
+|Name|Earth Ward [Barrier, Earth]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|3 (12)|
+|Target(s)|1 entity/15ft (200ft)|+6
+|Casting time|"full round"/"reaction"(12h + 6h per 4MP)|(5,10)
+|Range|close|(3,8)
+|Duration|1h/1min (1 week)|(9,9)
+|Components|incantation, kinetic|(8,8)
+|Concentration|local|(5,5)
+|Focus|A brass bowl filled with earth, the bowl crumbles when the spell is cast|(3)
+|Material|A brass bowl filled with earth, the bowl crumbles when the spell is cast|(3)
+|Save|Cha, harmless|
+
+**Description**: Create a solid, physical barrier of earth with a radius of **up to** 15ft around the target. The barrier gives total cover and total concealment to targets within it. Dealing physical damage to the barrier (HiT=10, HP=10, damage reduction=10) in one turn opens a window big enough for a small size entity to enter freely (or a medium entity to squeeze through). At the end of the turn the barrier resets.
+
+**Special**:
+- If the spell is cast as a reaction, it cannot be upcast, and lasts for 1 minute.
+- If the attack is a rectilinear effect and the barrier crosses its path, the target is affected as if it is inside the barrier.
+
+**Upcast**: For every extra MP point placed in the spell, the radius extends by 5ft, or the duration increases by 1h.
+- If the spell is cast as a reaction, it cannot be upcast.
+- At 5MP and higher the spell is no longer concentration.
+
+**Global:** This is one of the lesser barrier spells. Cast globally it extends over a radius of 300ft centered on a square/point and lasts for a week. For every 4MP extra either the duration increases by a week or the radius increases by 200ft.
+
+___
+### Fire Ward
+|Name|Fire Ward [Barrier, Fire]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|3 (12)|
+|Target(s)|1 entity/10ft (200ft)|+4
+|Casting time|"full round"/"reaction"(12h + 6h per 4MP)|(3,8)
+|Range|close|(3,8)
+|Duration|1h/1min (1 week)|(9,9)
+|Components|incantation, kinetic|(8,8)
+|Concentration|local|(5,5)
+|Limitation|If cast on an entity, the entity must remain stationary or the spell breaks|(1)
+|Material|A candle which spontaneously combusts when the spell expires|(-1)
+|Damage|3d8+[Sup] fire|(8)
+|Save|Cha, harmless|
+
+**Description**: Create a barrier of raging fire **up to** 10ft around the target. The barrier gives light concealment to all targets within. Entities inside the barrier have damage reduction of 5 vs non-magical physical or cold/ice attacks. In addition, any non-magical weapon (or unarmed entity) attacking or otherwise passing through the barrier takes 3d8+[Sup] fire damage.
+
+**Special**:
+- If the spell is cast as a reaction, it cannot be upcast, and lasts for 1 minute.
+- If the attack is a rectilinear effect and the barrier crosses its path, the target is affected as if it is inside the barrier.
+
+**Upcast**: For every extra MP point placed in the spell, the radius extends by 5ft, or the duration increases by 1h. Alternatively the damage increases by 1d8 and damage reduction increases by 2.
+- If the spell is cast as a reaction, it cannot be upcast.
+- At 5MP and higher the spell is no longer concentration.
+
+**Global:** This is one of the lesser barrier spells. Cast globally it extends over a radius of 300ft centered on a square/point and lasts for a week. For every 4MP extra either the duration increases by a week or the radius increases by 200ft.
 
 ___
 ### Growth
@@ -1268,6 +1383,48 @@ ___
 **Upcast:** For every MP dice added the duration increases by an hour, or the size change increases by a category
 
 **Global**: The spell acts over an area with a radius of 100ft for a week. All entities that enter the area that do not succeed a Wis save are affected by the size change. For every 4 extra MP dice, the radius increases by 4 or the size category change increases by 1.
+
+___
+### Guidance of the Earth
+|Name|Guidance of the Earth [Earth, Spirit]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|3 (12)|
+|Target(s)|1 entity (100ft)|
+|Casting time|"full round" (12h + 6 per 3MP)|-1
+|Range|close|-2(-3)
+|Duration|1h (1 week)|+6(3)
+|Components|incantation, kinetic|-1(2)
+|Save|Cha, harmless|
+
+**Description**: The target rolls adds 1d6 to all:
+- Dex saves and attack rolls with melee weapons and basic combat manoeuvres.
+- The following skills: Athletics group, tinker, heal, stealth, academics, search group, knowledge, detect and diplomacy groups.
+
+**Special**: This applies only for rolls made when touching the ground, or below ground level and for knowledge of things that belong on and below the ground.
+
+**Global**: The caster gives a locus the blessing of the earth. Within 100ft of that spot rolls made by entities that are not hostile to the caster receive this blessing. For every 4MP extra the radius of the spell increases by 100ft or the duration increases by a week.
+
+___
+### Guidance of the Winds
+|Name|Guidance of the Winds [Air, Spirit]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|3 (12)|
+|Target(s)|1 entity (100ft)|
+|Casting time|"full round" (12h + 6 per 3MP)|-1
+|Range|close|-2
+|Duration|1h (1 week)|
+|Components|incantation, kinetic|
+|Save|Cha, harmless|
+
+**Description**: The target rolls adds 1d6 to all:
+- Dex saves and attack rolls with bows, slings and thrown weapons.
+- The following skills: Acrobatics, Athletics, sleight of hand, heal, ride group, stealth, appraise, search group, knowledge, detect and perform groups.
+
+**Special**: This applies only for rolls made above ground/water level and knowledge of things that belong above ground.
+
+**Global**: The caster gives a locus the blessing of the winds. Within 100ft of that spot rolls made by entities that are not hostile to the caster receive this blessing. For every 4MP extra the radius of the spell increases by 100ft or the duration increases by a week.
 
 ___
 ### Least Curse
@@ -1313,64 +1470,6 @@ ___
 **Global**: The curse is permanent. If upcast to cost 20 MP dice the caster may choose three C Class, two B class or 1 A class condition.
 
 ___
-### Animate/Control Dead
-|Name|Animate Dead [Curse, Profane]|
-|-|-|
-|Scope|local (global)|
-|MP Dice|3 (12)|
-|Target(s)|1sq (1sq)|
-|Casting time|"full round action" (4h + 40min per 4MP)|-2
-|Range|30ft (30ft)|
-|Duration|60 min (1 week+)|+6(5)
-|Components|kinetic|(5)
-|Focus|A symbol of a dark religion|-2(3)
-|Material|Fresh blood of an animal or humanoid|-2(1)
-|Limitation|You must have corpse of an animal or humanoid the appropriate size|-2(-1)
-|Concentration|No|
-|Save|-|
-
-**Description**: Animate a corpse of medium size "medium", to become a level I corporeal undead. The undead serves and fights faithfully for the caster. The undead is capable of performing any reflexive or rote task it knew in life if its body still supports that functionality. Alternatively the spell can be cast to gain control of 5 non-intelligent level I undead for 6 hours.
-
-**Special**:
-- After 60 minutes the undead is not destroys, but persists, becoming hostile to its creator.
-- There is no limit to the number of undead a caster can control, however legions of dead seldom end well.
-- The type of undead being animated depends on the condition of the corpse(s). A corpse with flesh will become a zombie, a corpse without flesh will become a skeleton. A corpse with flesh but no bones becomes a crawling thing.
-
-**Upcast**: For every MP dice added (4MP dice for global), the caster may either animate an extra corpse as a level I undead, assert control over an extra 4 undead, or increase the level of the created or controlled undead by I.
-
-**Global**: Undead created are level II. Furthermore, the undead are under the caster's control for 1 week, after which time they have a "neutral" attitude towards it. For every 4MP dice above 12, the caster may create an extra level II undead, assert control over 4 undead, or increase the level of a created or controlled undead by 1.
-
-(Summon spell rating is controversial)
-
-___
-### Earth Ward
-|Name|Earth Ward [Barrier, Earth]|
-|-|-|
-|Scope|local (global)|
-|MP Dice|3 (12)|
-|Target(s)|1 entity/15ft (200ft)|+6
-|Casting time|"full round"/"reaction"(12h + 6h per 4MP)|(5,10)
-|Range|close|(3,8)
-|Duration|1h/1min (1 week)|(9,9)
-|Components|incantation, kinetic|(8,8)
-|Concentration|local|(5,5)
-|Focus|A brass bowl filled with earth, the bowl crumbles when the spell is cast|(3)
-|Material|A brass bowl filled with earth, the bowl crumbles when the spell is cast|(3)
-|Save|Cha, harmless|
-
-**Description**: Create a solid, physical barrier of earth with a radius of **up to** 15ft around the target. The barrier gives total cover and total concealment to targets within it. Dealing physical damage to the barrier (HiT=10, HP=10, damage reduction=10) in one turn opens a window big enough for a small size entity to enter freely (or a medium entity to squeeze through). At the end of the turn the barrier resets.
-
-**Special**:
-- If the spell is cast as a reaction, it cannot be upcast, and lasts for 1 minute.
-- If the attack is a rectilinear effect and the barrier crosses its path, the target is affected as if it is inside the barrier.
-
-**Upcast**: For every extra MP point placed in the spell, the radius extends by 5ft, or the duration increases by 1h.
-- If the spell is cast as a reaction, it cannot be upcast.
-- At 5MP and higher the spell is no longer concentration.
-
-**Global:** This is one of the lesser barrier spells. Cast globally it extends over a radius of 300ft centered on a square/point and lasts for a week. For every 4MP extra either the duration increases by a week or the radius increases by 200ft.
-
-___
 ### Mole
 |Name|Mole [Earth, Nature, Travel]|
 |-|-|
@@ -1390,79 +1489,6 @@ ___
 **Upcast**: For every extra MP dice placed in the spell you can add either add an extra target or an extra 6 minutes of dig speed.
 
 **Global**: The spell has a duration of 1 day + 6h per extra 4MP or gives flight to an additional target.
-
-___
-### Water Ward
-|Name|Wind Ward [Barrier, Water]|
-|-|-|
-|Scope|local (global)|
-|MP Dice|3 (12)|
-|Target(s)|1 entity/10ft (200ft)|+4
-|Casting time|"full round"/"reaction"(12h + 6h per 4MP)|(3,7)
-|Range|15ft|(2,6)
-|Duration|1h/1min (1 week)|(8,9)
-|Components|incantation, kinetic|(7,8)
-|Concentration|local|(4,5)
-|Material|A glass bowl filled with water, the bowl smashes when the spell is cast|(3)
-|Save|Cha, harmless|
-
-**Description**: Create a barrier with a radius of **up to** 10ft around the target. All entities within the barrier have resistance to piercing, slashing and bludgeoning damage from attacks from outside the barrier, as well as pressure and fire damage from the outside. If the barrier's radius is reduced to 5ft, resistance is also gained to those damage types within the barrier. (2+2+2+2+4-2=10)
-
-**Special**:
-- If the spell is cast as a reaction, it cannot be upcast, and lasts for 1 minute.
-- If the attack is a rectilinear effect and the barrier crosses its path, the target is affected as if it is inside the barrier.
-
-**Upcast**: For every extra MP point placed in the spell, the radius extends by 5ft, or the duration increases by 1h.
-- If the spell is cast as a reaction, it cannot be upcast.
-- At 5MP and higher the spell is no longer concentration.
-
-**Global:** This is one of the lesser barrier spells. Cast globally it extends over a radius of 300ft centered on a square/point and lasts for a week. For every 4MP extra either the duration increases by a week or the radius increases by 200ft.
-
-___
-### Water Walk
-|Name|Water Walk [Travel, Water]|
-|-|-|
-|Scope|Local (Global)|
-|MP Dice|3 (12)|
-|Target(s)|3 or more entities(300ft)|+4
-|Casting time|"main action" (6h + 2h per 4MP)|
-|Range|close|-2(2)
-|Duration|8h+ (1 month)|+9(9)
-|Components|kinetic|
-|Limitation|target cannot be fire aligned|-2(7)
-|Save|Wis (harmless), no effect|
-
-**Description**: The target gains the ability to walk over the surface of water (eg ponds, swamps, rivers, lakes, seas) to its walking speed or interact with it otherwise as if it was a soft solid surface capable of holding its weight, like a meadow. When the spell ends the ability is lost immediately (+6)(12)
-
-**Special**:
-- If walking over turbulent water, or waters with large waves, the target must succeed a threshold=16 "acrobatics" roll or fall prone.
-- Flowing water moves a water-walker at the speed of its flow along the direction of the current.
-
-**Upcast**: For every extra MP dice placed in the spell you can add either an extra target or increase the duration by 8 hours.
-
-**Global**: The spell is cast upon a square/point on the ground or water adjacent to the caster. All water within 300ft of that spot can be crossed on foot. If extra MP dice are used for the casting of the spell, the range increases by 300ft per extra MP dice.
-
-___
-### Winter's Blade
-|Name|Winter's Blade [Ice, Destruction, Winter]|
-|-|-|
-|Scope|local|
-|MP Dice|3|
-|Target(s)|1 entity or weapon|
-|Casting time|1 secondary action|+2
-|Range|30ft|+2(4)
-|Duration|12 min|+6(10)
-|Components|kinetic|
-|Material|petals of snowdrops and quartz dust|-2(7)
-|Limitation|Does not affect entities aligned with "fire"|-2(5)
-|Damage|1d8+[Sup] ice|+3(8) defacto more.
-|Save|Con|
-
-**Description**: Aligns a weapon or entity with elemental ice/water. The weapon (or if cast on the entity, its touch/strike) deals an extra 1d8+[caster's Sup] damage. The first time an entity is hit by such a weapon, it must make a Con save or be immobilised to the end of its next turn.
-
-**Special**: Alternatively it can affect up to 13 pieces of ammunition.
-
-**Upcast**: For every extra MP dice, the spell lasts for an extra 12 minutes or affect an extra 13 pieces of ammunition. Alternatively for every extra 2MP dice placed in the spell, it will deal an extra 1d8 damage.
 
 ___
 ### Storm Ward
@@ -1493,83 +1519,6 @@ ___
 **Global:** This is one of the lesser barrier spells. Cast globally it extends over a radius of 300ft centered on a square/point and lasts for a week. For every 4MP extra either the duration increases by a week or the radius increases by 300ft.
 
 ___
-### Wind Walk
-|Name|Wind Walk [Air, Nature, Travel]|
-|-|-|
-|Scope|Local (Global)|
-|MP Dice|3 (12)|
-|Target(s)|1 or more entities|
-|Casting time|"main action" (3h + 1h per 4MP)|
-|Range|close|
-|Duration|12 min+ (1 day+)|+6
-|Components|incantation|+1(7)
-|Materials|None (12 dandelion heads)|-2(5)
-|Limitation|target cannot be earth aligned|-2(3)
-|Save|Wis (harmless), no effect|
-
-**Description**: The target gains a good fly speed equal to your walking speed + 20ft, as if walking upon the air. When the spell ends, the target loses this movement modality immediately.
-
-**Upcast**: For every extra MP dice (4, if casting globally) placed in the spell you can add either: 1. An extra target, 2. an extra 6 minutes of effect.
-
-**Global**: The spell has a duration of 1 day + 6h per extra 4MP or gives flight to an additional target.
-
-___
-### Command Mortal
-|Name|Charm Mortal [mortal, fire]|
-|-|-|
-|Scope|local|
-|MP Dice|3|
-|Target(s)|1 entity|
-|Casting time|"main action"|
-|Range|15ft|-1
-|Duration|1h|+12(11)
-|Components|incantation, kinetic|(10)
-|Focus|A small blade|-1(9)
-|Material|Honey|-2(7)
-|Save|Wis|
-
-**Description**: The target is "charmed". In addition it will follow your up to 3 commands as if it was "allied". After the completion of each command it may make a Wis save to end the spell.
-
-**Special**:
-+ The spell ends if the caster or an entity perceived by the target as the caster's ally attacks (or applies a harmful effect) the target.
-+ The target is not necessarily aware that it has been charmed, unless it succeeds a "knowledge:arcana" roll to identify the spell.
-+ If the command involves harming an entity with which its relationship is "sworn", or helping an entity with which its relationship is "nemesis" it gets an additional save against the spell.
-
-**Upcast**: For every extra MP, the spell may:
-- Last for an extra hour, or:
-- Allow the caster to give the target an extra command or:
-- Add an extra target.
-
-___
-### Fire Ward
-|Name|Fire Ward [Barrier, Fire]|
-|-|-|
-|Scope|local (global)|
-|MP Dice|3 (12)|
-|Target(s)|1 entity/10ft (200ft)|+4
-|Casting time|"full round"/"reaction"(12h + 6h per 4MP)|(3,8)
-|Range|close|(3,8)
-|Duration|1h/1min (1 week)|(9,9)
-|Components|incantation, kinetic|(8,8)
-|Concentration|local|(5,5)
-|Limitation|If cast on an entity, the entity must remain stationary or the spell breaks|(1)
-|Material|A candle which spontaneously combusts when the spell expires|(-1)
-|Damage|3d8+[Sup] fire|(8)
-|Save|Cha, harmless|
-
-**Description**: Create a barrier of raging fire **up to** 10ft around the target. The barrier gives light concealment to all targets within. Entities inside the barrier have damage reduction of 5 vs non-magical physical or cold/ice attacks. In addition, any non-magical weapon (or unarmed entity) attacking or otherwise passing through the barrier takes 3d8+[Sup] fire damage.
-
-**Special**:
-- If the spell is cast as a reaction, it cannot be upcast, and lasts for 1 minute.
-- If the attack is a rectilinear effect and the barrier crosses its path, the target is affected as if it is inside the barrier.
-
-**Upcast**: For every extra MP point placed in the spell, the radius extends by 5ft, or the duration increases by 1h. Alternatively the damage increases by 1d8 and damage reduction increases by 2.
-- If the spell is cast as a reaction, it cannot be upcast.
-- At 5MP and higher the spell is no longer concentration.
-
-**Global:** This is one of the lesser barrier spells. Cast globally it extends over a radius of 300ft centered on a square/point and lasts for a week. For every 4MP extra either the duration increases by a week or the radius increases by 200ft.
-
-___
 ### Summer's Blade
 |Name|Summer's Blade [Destruction, Fire, Summer]|
 |-|-|
@@ -1592,47 +1541,98 @@ ___
 **Upcast**: For every extra MP dice, the spell lasts for an extra 12 minutes or affect an extra 13 pieces of ammunition. Alternatively for every extra 2MP dice placed in the spell, it will deal an extra 1d8 damage.
 
 ___
-### Guidance of the Winds
-|Name|Guidance of the Winds [Air, Spirit]|
+### Water Walk
+|Name|Water Walk [Travel, Water]|
 |-|-|
-|Scope|local (global)|
+|Scope|Local (Global)|
 |MP Dice|3 (12)|
-|Target(s)|1 entity (100ft)|
-|Casting time|"full round" (12h + 6 per 3MP)|-1
-|Range|close|-2
-|Duration|1h (1 week)|
-|Components|incantation, kinetic|
-|Save|Cha, harmless|
+|Target(s)|3 or more entities(300ft)|+4
+|Casting time|"main action" (6h + 2h per 4MP)|
+|Range|close|-2(2)
+|Duration|8h+ (1 month)|+9(9)
+|Components|kinetic|
+|Limitation|target cannot be fire aligned|-2(7)
+|Save|Wis (harmless), no effect|
 
-**Description**: The target rolls adds 1d6 to all:
-- Dex saves and attack rolls with bows, slings and thrown weapons.
-- The following skills: Acrobatics, Athletics, sleight of hand, heal, ride group, stealth, appraise, search group, knowledge, detect and perform groups.
+**Description**: The target gains the ability to walk over the surface of water (eg ponds, swamps, rivers, lakes, seas) to its walking speed or interact with it otherwise as if it was a soft solid surface capable of holding its weight, like a meadow. When the spell ends the ability is lost immediately (+6)(12)
 
-**Special**: This applies only for rolls made above ground/water level and knowledge of things that belong above ground.
+**Special**:
+- If walking over turbulent water, or waters with large waves, the target must succeed a threshold=16 "acrobatics" roll or fall prone.
+- Flowing water moves a water-walker at the speed of its flow along the direction of the current.
 
-**Global**: The caster gives a locus the blessing of the winds. Within 100ft of that spot rolls made by entities that are not hostile to the caster receive this blessing. For every 4MP extra the radius of the spell increases by 100ft or the duration increases by a week.
+**Upcast**: For every extra MP dice placed in the spell you can add either an extra target or increase the duration by 8 hours.
+
+**Global**: The spell is cast upon a square/point on the ground or water adjacent to the caster. All water within 300ft of that spot can be crossed on foot. If extra MP dice are used for the casting of the spell, the range increases by 300ft per extra MP dice.
 
 ___
-### Guidance of the Earth
-|Name|Guidance of the Earth [Earth, Spirit]|
+### Water Ward
+|Name|Wind Ward [Barrier, Water]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|3 (12)|
-|Target(s)|1 entity (100ft)|
-|Casting time|"full round" (12h + 6 per 3MP)|-1
-|Range|close|-2(-3)
-|Duration|1h (1 week)|+6(3)
-|Components|incantation, kinetic|-1(2)
+|Target(s)|1 entity/10ft (200ft)|+4
+|Casting time|"full round"/"reaction"(12h + 6h per 4MP)|(3,7)
+|Range|15ft|(2,6)
+|Duration|1h/1min (1 week)|(8,9)
+|Components|incantation, kinetic|(7,8)
+|Concentration|local|(4,5)
+|Material|A glass bowl filled with water, the bowl smashes when the spell is cast|(3)
 |Save|Cha, harmless|
 
-**Description**: The target rolls adds 1d6 to all:
-- Dex saves and attack rolls with melee weapons and basic combat manoeuvres.
-- The following skills: Athletics group, tinker, heal, stealth, academics, search group, knowledge, detect and diplomacy groups.
+**Description**: Create a barrier with a radius of **up to** 10ft around the target. All entities within the barrier have resistance to piercing, slashing and bludgeoning damage from attacks from outside the barrier, as well as pressure and fire damage from the outside. If the barrier's radius is reduced to 5ft, resistance is also gained to those damage types within the barrier. (2+2+2+2+4-2=10)
 
-**Special**: This applies only for rolls made when touching the ground, or below ground level and for knowledge of things that belong on and below the ground.
+**Special**:
+- If the spell is cast as a reaction, it cannot be upcast, and lasts for 1 minute.
+- If the attack is a rectilinear effect and the barrier crosses its path, the target is affected as if it is inside the barrier.
 
-**Global**: The caster gives a locus the blessing of the earth. Within 100ft of that spot rolls made by entities that are not hostile to the caster receive this blessing. For every 4MP extra the radius of the spell increases by 100ft or the duration increases by a week.
+**Upcast**: For every extra MP point placed in the spell, the radius extends by 5ft, or the duration increases by 1h.
+- If the spell is cast as a reaction, it cannot be upcast.
+- At 5MP and higher the spell is no longer concentration.
 
+**Global:** This is one of the lesser barrier spells. Cast globally it extends over a radius of 300ft centered on a square/point and lasts for a week. For every 4MP extra either the duration increases by a week or the radius increases by 200ft.
+
+___
+### Wind Walk
+|Name|Wind Walk [Air, Nature, Travel]|
+|-|-|
+|Scope|Local (Global)|
+|MP Dice|3 (12)|
+|Target(s)|1 or more entities|
+|Casting time|"main action" (3h + 1h per 4MP)|
+|Range|close|
+|Duration|12 min+ (1 day+)|+6
+|Components|incantation|+1(7)
+|Materials|None (12 dandelion heads)|-2(5)
+|Limitation|target cannot be earth aligned|-2(3)
+|Save|Wis (harmless), no effect|
+
+**Description**: The target gains a good fly speed equal to your walking speed + 20ft, as if walking upon the air. When the spell ends, the target loses this movement modality immediately.
+
+**Upcast**: For every extra MP dice (4, if casting globally) placed in the spell you can add either: 1. An extra target, 2. an extra 6 minutes of effect.
+
+**Global**: The spell has a duration of 1 day + 6h per extra 4MP or gives flight to an additional target.
+
+___
+### Winter's Blade
+|Name|Winter's Blade [Ice, Destruction, Winter]|
+|-|-|
+|Scope|local|
+|MP Dice|3|
+|Target(s)|1 entity or weapon|
+|Casting time|1 secondary action|+2
+|Range|30ft|+2(4)
+|Duration|12 min|+6(10)
+|Components|kinetic|
+|Material|petals of snowdrops and quartz dust|-2(7)
+|Limitation|Does not affect entities aligned with "fire"|-2(5)
+|Damage|1d8+[Sup] ice|+3(8) defacto more.
+|Save|Con|
+
+**Description**: Aligns a weapon or entity with elemental ice/water. The weapon (or if cast on the entity, its touch/strike) deals an extra 1d8+[caster's Sup] damage. The first time an entity is hit by such a weapon, it must make a Con save or be immobilised to the end of its next turn.
+
+**Special**: Alternatively it can affect up to 13 pieces of ammunition.
+
+**Upcast**: For every extra MP dice, the spell lasts for an extra 12 minutes or affect an extra 13 pieces of ammunition. Alternatively for every extra 2MP dice placed in the spell, it will deal an extra 1d8 damage.
 
 ___
 ## MP 4 spells

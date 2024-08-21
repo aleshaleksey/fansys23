@@ -1638,6 +1638,58 @@ ___
 ## MP 4 spells
 4+2+3+4+5=18
 
+___
+### Animate Golem
+|Name|Animate Golem [Earth]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|4 (16)|
+|Target(s)|1sq (1sq)|
+|Casting time|"1 min" (4 days + 1 day per 4MP)|
+|Range|15ft|-1
+|Duration|1 hour (1 week)|+6(5)
+|Components|incantation, kinetic|-1(4)
+|Material|Earth that has been worked for 100 years or 1HP worth of blood|-3(1)
+|Limitation|The golem is earthbound|-2(-1)
+|Concentration|local|-3(-4)
+|Save|-|
+
+**Description**: Creates a level IV earth/clay golem to faithfully serve and fight for you. The golem can communicate with its creator and other geomancer and golems through machine language. It is intelligent enough to understand stances and movements of mortal entities.
+
+**Special**: When the spell ends, the golem runs of of energy but is not destroyed. Recharging a golem costs only half of the MP dice cost of creating it (rounded up).
+
+**Upcast**: For every extra MP dice used when casting this spell, the golem can either function for an extra hour or gains two levels.
+
+**Global**: The golem functions for longer and concentration is not required. However, it must be given a simple set of instructions that cannot be changed afterwards. A caster need not concentrate on golems created this way. For every extra 4MP dice the golem either functions for an extra week or gains 2 levels.
+- If 40MP dice or more are used and the golem has no more than 10 levels, the golem does not run out of energy.
+
+___
+### Aqueous Step
+|Name|Aqueous Step [Travel, Water]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|4 (16)|
+|Target(s)|2 entities* (2 entities*)|+2
+|Casting time|"main action" (4h + 40 min per 4MP dice)|
+|Range|close/540ft (close/180 miles)|+8(10)
+|Duration|instantaneous|
+|Components|kinetic|-1(9)
+|Limitation (local)|The caster must be one of the entities that travels|-1(8)
+|Limitation (global)|The start and end location must be bodies of water|-1(7)
+|Material|A flask of water, poured on the travellers' head|
+|Limitation|The caster and any entities teleported are always wet at the end of the spell|-1(6)
+|Save|Cha|
+
+**Description**: The caster blinks to a chosen location that is not inside a solid object. The caster may take up to 2 other entities with it. An unwilling passenger does not travel if it succeeds a Cha save.
+
+**Upcast**: For every extra MP dice the range increases by 60ft or the number of passengers increases by 1.
+
+**Global**: Enter a body of water deep enough to submerge in and step out of another within range (180 miles). The caster must have visited the pool to successfully travel. If the pool does not exist the travellers emerge in the nearest pool in range to the destination. If the caster has not visited the destination pool before, the DM rolls randomly for where, within 180 miles of the destination the travellers end up.
+- For every 4 extra MP dice the range increases by 60 miles or the number of passengers increases by 1.
+
+(blink speed = 12+7)
+
+___
 ### Balance of Elements
 |Name|Balance of Seasons [Air, Earth, Fire, Water]|
 |-|-|
@@ -1726,126 +1778,6 @@ ___
 **Global**: The spell lasts for a week. For every 4MP the spell lasts an extra week and the maximum level of the resulting animal/plant increases by 1. It cannot be cancelled voluntarily.
 
 ___
-### Rejuvenate Land
-|Name|Rejuvenate Land [Healing, Nature]|
-|-|-|
-|Scope|local (global)|
-|MP Dice|4 (16)|
-|Target(s)|30ft radius (600ft)| (+12)
-|Casting time|"1 minute" (4 days + 1 day per 4MP)|-2(10)
-|Range|close|-2(8)
-|Duration|instantaneous|
-|Components|incantation, kinetic|-1(7)
-|Save|Int|
-
-**Description**: This spell has one of the following effects:
-- Cleanse the area of the effect of one curse. If the curse is a higher level than your casting, it get to make an Int save, with a bonus equal to the difference in spell level.
-- Remove the aftereffects of legendary magic. The magic gets to roll an Int save against the cleansing with a bonus equal to the difference in the spell level.
-- Cure one disease or poison affecting the land.
-- Double the productivity of the land for the next harvest. Doubling zero is still zero.
-
-**Upcast**: For every extra MP die either:
-- Increase the radius by 5ft.
-- Increase the level of the spell by 1 for the sake of determining its level for breaking curses and aftereffects.
-
-**Global**: The same, but with a 600ft radius. For every extra 4MP increase the radius by 600ft, alternatively the level increases for the sake of breaking curses or aftereffects.
-
-___
-### Animate Golem
-|Name|Animate Golem [Earth]|
-|-|-|
-|Scope|local (global)|
-|MP Dice|4 (16)|
-|Target(s)|1sq (1sq)|
-|Casting time|"1 min" (4 days + 1 day per 4MP)|
-|Range|15ft|-1
-|Duration|1 hour (1 week)|+6(5)
-|Components|incantation, kinetic|-1(4)
-|Material|Earth that has been worked for 100 years or 1HP worth of blood|-3(1)
-|Limitation|The golem is earthbound|-2(-1)
-|Concentration|local|-3(-4)
-|Save|-|
-
-**Description**: Creates a level IV earth/clay golem to faithfully serve and fight for you. The golem can communicate with its creator and other geomancer and golems through machine language. It is intelligent enough to understand stances and movements of mortal entities.
-
-**Special**: When the spell ends, the golem runs of of energy but is not destroyed. Recharging a golem costs only half of the MP dice cost of creating it (rounded up).
-
-**Upcast**: For every extra MP dice used when casting this spell, the golem can either function for an extra hour or gains two levels.
-
-**Global**: The golem functions for longer and concentration is not required. However, it must be given a simple set of instructions that cannot be changed afterwards. A caster need not concentrate on golems created this way. For every extra 4MP dice the golem either functions for an extra week or gains 2 levels.
-- If 40MP dice or more are used and the golem has no more than 10 levels, the golem does not run out of energy.
-
-___
-### Summon Spirit
-|Name|Summon Spirit [Spiritual]|
-|-|-|
-|Scope|local (global)|
-|MP Dice|4 (16)|
-|Target(s)|1sq (1sq)|
-|Casting time|"full round action" (4 hours + 40 min per 4MP)| -2
-|Range|15ft|+1
-|Duration|12 min (2 days)|+3
-|Components|incantation|+1
-|Focus|A symbol associated with the spirit|-1
-|Material|A suitable offering|
-|Limitation|The conjurer cannot have an alignment and allegiance contrary to the spirit's|
-|Concentration|local|
-|Save|-|
-
-**Description**: Summons a level V "spirit" or "fey" to faithfully serve and fight for you. The spirit can communicate with its summoner and other entities it would normally be able to communicate with. Spirits are usually intelligent enough to understand the gestures and emotions of sentient beings.
-
-**Special**:
-- You can only have one summon at a time.
-- Optional if using alignment rules: A character that uses this spell gains the "spiritual" alignment. Likewise a character that is unwilling to gain the "spiritual" alignment will fail to cast this spell.
-
-**Limitation**; A spirit summoned by this means cannot enter or leave areas affected by ["warded ground"](#warded-ground) or ["enchanted ground"](#enchanted-ground), or territory protected by similar means. Nor can it cross the border of the material/spiritual realm until the spell is over.
-
-**Upcast**: For every MP dice added (4MP for global), the spirit gains two levels.
-
-**Global**: The spirit is bound for 1 day for every 4MP dice used summon it (minimum of 8), it *also* gains two levels for every 4 MP dice added. For every day of the contract, the material component must be paid anew.
-
-___
-### Lesser Incarnation
-|Name|Lesser Incarnate [Spiritual]|
-|-|-|
-|Scope|local (global)|
-|MP Dice|4 (16)|
-|Target(s)|1sq (1sq)|
-|Casting time|"main action" (2 hours + 20 min per 4MP)|
-|Range|close|-1
-|Duration|12 min (2 days)|+3
-|Components|kinetic|
-|Focus|A symbol associated with the spirit|-1
-|Material|A suitable offering or an equivalent time to use the vessel (the spell's) target as it sees fit|-2
-|Limitation|If the conjurer has an alignment contrary to that of the spirit, the spell ends in catastrophic failure.|
-|Concentration|yes|
-|Save|CHA|
-
-**Description**: Summons a spirit to inhabit a mortal, construct or corporeal undead of the caster's choosing. The target of the spell (the vessel of the spirit) gains the following:
-- Any two of (may choose same category multiple times):
-  - An "A" class or below ability or attack the spirit has.
-  - An "A" class or below damage immunity the spirit has.
-  - Proficiency with all languages the spirit knows.
-  - Substitute one stat of the spirit for its own.
-- Any three of (may choose same category multiple times):
-  - An "S" class damage resistance or below.
-  - An "A" class condition resistance or below.
-  - Substitute one save of the spirit for its own.
-- Substitute up to 12 of the spirit's proficiencies (not saves) and skills for its own.
-
-**Special**:
-- If the target has an alignment, or aims, that contradict those of the spirit, the spirit and target of the spell make opposed CHA rolls. If the spirit rolls higher, the spell ends in catastrophic failure.
-- If the target performs acts against the spirit's nature, the target and spirit make opposed CHA rolls (with the spirit gaining a +1 bonus for every occurrence). If the spirit wins, it takes control of the target body for the remaining duration of the spell.
-- If the target of the spell (aka the vessel of the spirit) dies while the spell is in effect, the spirit may either return to its realm, or remain on the realm into which it has been called, now in its original form. In this case, the spirit is no longer bound, and is now free to do as it may.
-- If the spirit has a higher level than the caster, it may make a CHA roll vs the target at the start of the spell and if it rolls higher, it may decide to control the vessel instead.
-
-**Limitation**: While the spell is in effect, the spirit and its vessel, bound together by this spell, cannot enter or leave areas affected by ["warded ground"](#warded-ground) or ["enchanted ground"](#enchanted-ground), or territory protected by similar means. Nor can it cross the border of the material/spiritual realm until the spell is over.
-
-**Upcast**: For every extra MP dice (4 when cast globally) the spell either lasts for an extra 12 minutes OR the caster may chose up to 4 extra proficiencies (not saves), or one damage/condition resistance for the spirit's, or one extra "A" class ability of the spirit.
-
-**Global**: The spell lasts for 1 day per 8MP dice (minimum 16).
-
-___
 ### Enchanted Ground
 |Name|Enchanted Ground [Earth, Spirit]|
 |-|-|
@@ -1873,107 +1805,6 @@ ___
 **Upcast**: The for every extra MP die used, the spell's radius increases by 5ft or the damage increases by 1d12, or the duration increases by 12 min.
 
 **Global**: The spell lasts for a day and has a great radius. It deals the damage only during the first minute of the spell and can also affect structures. In addition friendly entities have advantage on fortification and harvesting rolls in the area. For every 4MP dice extra the duration increases by a day, or the radius increases by 800ft.
-
-___
-### Speak Through Flame
-|Name|Speak Through Flame [Fire, Spirit]|
-|-|-|
-|Scope|local|
-|MP Dice|4|
-|Target(s)|1 entity|
-|Casting time|"1 action"|
-|Range|The material realm|+15
-|Duration|12 minutes|+3(18)
-|Components|incantation|+1(19)
-|Focus|A fire of size "tiny" or bigger|-1(18)
-|Material|A flammable object with the likeness or name of your target|-2(16)
-|Limitation|The spell cannot contact water aligned entities|-2(14)
-|Limitation|The spell only allows two entities to communicate through flame|-4(10)
-|Save|-|
-
-**Description**: The caster may speak to any being they have previously met or know and hold some token of, as long as both are on the material realm. It works as follows:
-1. A phantasmal flame briefly flickers before the target when the spell is cast.
-2. The target may light a fire before the spell ends. 
-3. When it does it may communicate verbally with the caster of the spell. The communication is two way.
-
-**Upcast**: The spell lasts for an extra 12 minutes per MP dice.
-
-___
-### Aqueous Step
-|Name|Aqueous Step [Travel, Water]|
-|-|-|
-|Scope|local (global)|
-|MP Dice|4 (16)|
-|Target(s)|2 entities* (2 entities*)|+2
-|Casting time|"main action" (4h + 40 min per 4MP dice)|
-|Range|close/540ft (close/180 miles)|+8(10)
-|Duration|instantaneous|
-|Components|kinetic|-1(9)
-|Limitation (local)|The caster must be one of the entities that travels|-1(8)
-|Limitation (global)|The start and end location must be bodies of water|-1(7)
-|Material|A flask of water, poured on the travellers' head|
-|Limitation|The caster and any entities teleported are always wet at the end of the spell|-1(6)
-|Save|Cha|
-
-**Description**: The caster blinks to a chosen location that is not inside a solid object. The caster may take up to 2 other entities with it. An unwilling passenger does not travel if it succeeds a Cha save.
-
-**Upcast**: For every extra MP dice the range increases by 60ft or the number of passengers increases by 1.
-
-**Global**: Enter a body of water deep enough to submerge in and step out of another within range (180 miles). The caster must have visited the pool to successfully travel. If the pool does not exist the travellers emerge in the nearest pool in range to the destination. If the caster has not visited the destination pool before, the DM rolls randomly for where, within 180 miles of the destination the travellers end up.
-- For every 4 extra MP dice the range increases by 60 miles or the number of passengers increases by 1.
-
-(blink speed = 12+7)
-
-___
-### Mirage
-|Name|Mirage [Spiritual, Water]|
-|-|-|
-|Scope|local (global)|
-|MP Dice|4 (16)|
-|Target(s)|20ft radius (400ft)|8
-|Casting time|"main action" (4h +4h per 4MP)|
-|Range|120ft|+2(10)
-|Duration|12 min (1 day)|+3(13)
-|Components|kinetic|
-|Focus||-1(12)
-|Limitations||-2(10)
-|Save|Wis|
-
-**Description**: The caster creates an illusionary scene which mimics the real scene to all senses except touch and pain. It can do no damage. The scene realistically mimics a real scene, at first glance, but has no material substance. For example:
-- An illusionary bridge over a river will hold no weight, but if a rock is thrown against might show the rock bouncing a few steps along the bridge and coming to rest on it (in the meanwhile the real rock passes straight through it).
-- An illusionary bonfire would feel warm at a distance, but would fail to melt a block of ice at some distance (although if the ice is placed inside of the area of the "mirage" it would *appear* to melt).
-
-An illusion can be broken in the following manner:
-- At a distance, when interacting with the illusion from outside of it, an entity may attempt to disbelieve, and roll a Wis save at disadvantage against the caster's threshold.
-- When interacting with the "mirage" from inside it, it may attempt disbelieve it and roll a Wis save against the caster's threshold.
-- When an entity interacts with the "mirage" in such a way that the "mirage" seems implausible or suspicious (eg a bonfire failing to melt a block of ice, or the target falling through the bridge), it may roll a Wis save at advantage.
-- If the entity has some magic sense, it makes a Wis save against the "mirage" as soon as it detects it.
-- If the entity has "true seeing" it automatically sees through the "mirage"
-
-**Upcast**: For every extra MP, the duration increases by 12 min or the radius increases by 5ft.
-
-**Global**: The mirage lasts for a day and has a radius of 400ft. For every 4 extra MP the mirage lasts for an extra day or its radius increases by 400ft.
-
-___
-### Scry
-|Name|Scry [Spirit, Water]|
-|-|-|
-|Scope|local (global)|
-|MP Dice|4 (16)|
-|Target(s)|1 entity or object|
-|Casting time|"main action" (4h + 40min per 4MP dice)|
-|Range|720ft (240 miles)|+11
-|Duration|12 min (1 day)|+6(17)
-|Components|kinetic|
-|Focus|A pool of clean water at least 5ft across|-1(16)
-|Concentration|local|-3(13)
-|Save|Wis|
-
-**Description**: The caster chooses a target (entity or object). If the target is within range and does not succeed a Wis save, the caster can see and hear the target and its surroundings out to 60ft (view distance). In addition the caster may use one more sense (natural or supernatural) through the spell. If the target is out of range or succeeds its Wis save, the caster gains no information.
-
-**Upcast**: For every extra MP die, the target range increases by 60ft and the view distance increases by 5ft. Alternatively the duration increases by 12 min.
-
-**Global**: The spell has a range or 240 miles and lasts for a day. The view distance is 120ft. For every 4MP the range increases by 60 miles or the duration increases by a day.
 
 ___
 ### Least Storm
@@ -2018,6 +1849,176 @@ ___
 **Upcast**: The for every extra MP die, the spell lasts for an extra 6 minutes or increases in radius by 5ft. If 7 or more MP dice are used, the caster can shift the weather by two points in any direction.
 
 **Global**: As local, but with a radius of 400ft and a duration of 1 day. For every extra 4MP dice, the radius increases by 500ft or the duration increases by 1 day. If 7 or more MP dice are used the weather can be shifted by two points in any direction.
+
+___
+### Lesser Incarnation
+|Name|Lesser Incarnate [Spiritual]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|4 (16)|
+|Target(s)|1sq (1sq)|
+|Casting time|"main action" (2 hours + 20 min per 4MP)|
+|Range|close|-1
+|Duration|12 min (2 days)|+3
+|Components|kinetic|
+|Focus|A symbol associated with the spirit|-1
+|Material|A suitable offering or an equivalent time to use the vessel (the spell's) target as it sees fit|-2
+|Limitation|If the conjurer has an alignment contrary to that of the spirit, the spell ends in catastrophic failure.|
+|Concentration|yes|
+|Save|CHA|
+
+**Description**: Summons a spirit to inhabit a mortal, construct or corporeal undead of the caster's choosing. The target of the spell (the vessel of the spirit) gains the following:
+- Any two of (may choose same category multiple times):
+  - An "A" class or below ability or attack the spirit has.
+  - An "A" class or below damage immunity the spirit has.
+  - Proficiency with all languages the spirit knows.
+  - Substitute one stat of the spirit for its own.
+- Any three of (may choose same category multiple times):
+  - An "S" class damage resistance or below.
+  - An "A" class condition resistance or below.
+  - Substitute one save of the spirit for its own.
+- Substitute up to 12 of the spirit's proficiencies (not saves) and skills for its own.
+
+**Special**:
+- If the target has an alignment, or aims, that contradict those of the spirit, the spirit and target of the spell make opposed CHA rolls. If the spirit rolls higher, the spell ends in catastrophic failure.
+- If the target performs acts against the spirit's nature, the target and spirit make opposed CHA rolls (with the spirit gaining a +1 bonus for every occurrence). If the spirit wins, it takes control of the target body for the remaining duration of the spell.
+- If the target of the spell (aka the vessel of the spirit) dies while the spell is in effect, the spirit may either return to its realm, or remain on the realm into which it has been called, now in its original form. In this case, the spirit is no longer bound, and is now free to do as it may.
+- If the spirit has a higher level than the caster, it may make a CHA roll vs the target at the start of the spell and if it rolls higher, it may decide to control the vessel instead.
+
+**Limitation**: While the spell is in effect, the spirit and its vessel, bound together by this spell, cannot enter or leave areas affected by ["warded ground"](#warded-ground) or ["enchanted ground"](#enchanted-ground), or territory protected by similar means. Nor can it cross the border of the material/spiritual realm until the spell is over.
+
+**Upcast**: For every extra MP dice (4 when cast globally) the spell either lasts for an extra 12 minutes OR the caster may chose up to 4 extra proficiencies (not saves), or one damage/condition resistance for the spirit's, or one extra "A" class ability of the spirit.
+
+**Global**: The spell lasts for 1 day per 8MP dice (minimum 16).
+
+___
+### Mirage
+|Name|Mirage [Spiritual, Water]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|4 (16)|
+|Target(s)|20ft radius (400ft)|8
+|Casting time|"main action" (4h +4h per 4MP)|
+|Range|120ft|+2(10)
+|Duration|12 min (1 day)|+3(13)
+|Components|kinetic|
+|Focus||-1(12)
+|Limitations||-2(10)
+|Save|Wis|
+
+**Description**: The caster creates an illusionary scene which mimics the real scene to all senses except touch and pain. It can do no damage. The scene realistically mimics a real scene, at first glance, but has no material substance. For example:
+- An illusionary bridge over a river will hold no weight, but if a rock is thrown against might show the rock bouncing a few steps along the bridge and coming to rest on it (in the meanwhile the real rock passes straight through it).
+- An illusionary bonfire would feel warm at a distance, but would fail to melt a block of ice at some distance (although if the ice is placed inside of the area of the "mirage" it would *appear* to melt).
+
+An illusion can be broken in the following manner:
+- At a distance, when interacting with the illusion from outside of it, an entity may attempt to disbelieve, and roll a Wis save at disadvantage against the caster's threshold.
+- When interacting with the "mirage" from inside it, it may attempt disbelieve it and roll a Wis save against the caster's threshold.
+- When an entity interacts with the "mirage" in such a way that the "mirage" seems implausible or suspicious (eg a bonfire failing to melt a block of ice, or the target falling through the bridge), it may roll a Wis save at advantage.
+- If the entity has some magic sense, it makes a Wis save against the "mirage" as soon as it detects it.
+- If the entity has "true seeing" it automatically sees through the "mirage"
+
+**Upcast**: For every extra MP, the duration increases by 12 min or the radius increases by 5ft.
+
+**Global**: The mirage lasts for a day and has a radius of 400ft. For every 4 extra MP the mirage lasts for an extra day or its radius increases by 400ft.
+
+___
+### Rejuvenate Land
+|Name|Rejuvenate Land [Healing, Nature]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|4 (16)|
+|Target(s)|30ft radius (600ft)| (+12)
+|Casting time|"1 minute" (4 days + 1 day per 4MP)|-2(10)
+|Range|close|-2(8)
+|Duration|instantaneous|
+|Components|incantation, kinetic|-1(7)
+|Save|Int|
+
+**Description**: This spell has one of the following effects:
+- Cleanse the area of the effect of one curse. If the curse is a higher level than your casting, it get to make an Int save, with a bonus equal to the difference in spell level.
+- Remove the aftereffects of legendary magic. The magic gets to roll an Int save against the cleansing with a bonus equal to the difference in the spell level.
+- Cure one disease or poison affecting the land.
+- Double the productivity of the land for the next harvest. Doubling zero is still zero.
+
+**Upcast**: For every extra MP die either:
+- Increase the radius by 5ft.
+- Increase the level of the spell by 1 for the sake of determining its level for breaking curses and aftereffects.
+
+**Global**: The same, but with a 600ft radius. For every extra 4MP increase the radius by 600ft, alternatively the level increases for the sake of breaking curses or aftereffects.
+
+___
+### Scry
+|Name|Scry [Spirit, Water]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|4 (16)|
+|Target(s)|1 entity or object|
+|Casting time|"main action" (4h + 40min per 4MP dice)|
+|Range|720ft (240 miles)|+11
+|Duration|12 min (1 day)|+6(17)
+|Components|kinetic|
+|Focus|A pool of clean water at least 5ft across|-1(16)
+|Concentration|local|-3(13)
+|Save|Wis|
+
+**Description**: The caster chooses a target (entity or object). If the target is within range and does not succeed a Wis save, the caster can see and hear the target and its surroundings out to 60ft (view distance). In addition the caster may use one more sense (natural or supernatural) through the spell. If the target is out of range or succeeds its Wis save, the caster gains no information.
+
+**Upcast**: For every extra MP die, the target range increases by 60ft and the view distance increases by 5ft. Alternatively the duration increases by 12 min.
+
+**Global**: The spell has a range or 240 miles and lasts for a day. The view distance is 120ft. For every 4MP the range increases by 60 miles or the duration increases by a day.
+
+___
+### Speak Through Flame
+|Name|Speak Through Flame [Fire, Spirit]|
+|-|-|
+|Scope|local|
+|MP Dice|4|
+|Target(s)|1 entity|
+|Casting time|"1 action"|
+|Range|The material realm|+15
+|Duration|12 minutes|+3(18)
+|Components|incantation|+1(19)
+|Focus|A fire of size "tiny" or bigger|-1(18)
+|Material|A flammable object with the likeness or name of your target|-2(16)
+|Limitation|The spell cannot contact water aligned entities|-2(14)
+|Limitation|The spell only allows two entities to communicate through flame|-4(10)
+|Save|-|
+
+**Description**: The caster may speak to any being they have previously met or know and hold some token of, as long as both are on the material realm. It works as follows:
+1. A phantasmal flame briefly flickers before the target when the spell is cast.
+2. The target may light a fire before the spell ends. 
+3. When it does it may communicate verbally with the caster of the spell. The communication is two way.
+
+**Upcast**: The spell lasts for an extra 12 minutes per MP dice.
+
+___
+### Summon Spirit
+|Name|Summon Spirit [Spiritual]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|4 (16)|
+|Target(s)|1sq (1sq)|
+|Casting time|"full round action" (4 hours + 40 min per 4MP)| -2
+|Range|15ft|+1
+|Duration|12 min (2 days)|+3
+|Components|incantation|+1
+|Focus|A symbol associated with the spirit|-1
+|Material|A suitable offering|
+|Limitation|The conjurer cannot have an alignment and allegiance contrary to the spirit's|
+|Concentration|local|
+|Save|-|
+
+**Description**: Summons a level V "spirit" or "fey" to faithfully serve and fight for you. The spirit can communicate with its summoner and other entities it would normally be able to communicate with. Spirits are usually intelligent enough to understand the gestures and emotions of sentient beings.
+
+**Special**:
+- You can only have one summon at a time.
+- Optional if using alignment rules: A character that uses this spell gains the "spiritual" alignment. Likewise a character that is unwilling to gain the "spiritual" alignment will fail to cast this spell.
+
+**Limitation**; A spirit summoned by this means cannot enter or leave areas affected by ["warded ground"](#warded-ground) or ["enchanted ground"](#enchanted-ground), or territory protected by similar means. Nor can it cross the border of the material/spiritual realm until the spell is over.
+
+**Upcast**: For every MP dice added (4MP for global), the spirit gains two levels.
+
+**Global**: The spirit is bound for 1 day for every 4MP dice used summon it (minimum of 8), it *also* gains two levels for every 4 MP dice added. For every day of the contract, the material component must be paid anew.
 
 ___
 ## MP 5 Spells

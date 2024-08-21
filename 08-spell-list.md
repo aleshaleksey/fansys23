@@ -44,6 +44,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 
 ### MP 2
 - [Call Ailment](#call-ailment)
+- [Dusk](#dusk)
 - [Earthen Hand](#earthen-hand)
 - [Glide](#glide)
 - [Harvest](#harvest)
@@ -639,13 +640,13 @@ ___
 |Concentration|local|
 |Save|Cha (avoid effects), Dex (no damage)|
 
-**Description**: The caster summons a mote of light and bind it to a valid target, giving it the "glowing" condition. An unwilling target may break the effect with a successful Cha save. The mote sheds bright light in 40ft and dim light in 60ft.
+**Description**: The caster summons a mote of light and binds it to a valid target, giving it the "glowing" condition. An unwilling target may break the effect with a successful Cha save, thus ending the spell. The mote sheds bright light in 40ft and dim light in total radius of 100ft.
 
 Incorporeal ["undead"](10-conditions-types.md#profane) and ["fiends"](10-conditions-types.md#profane) have disadvantage on attacks and saves within the radius of the bright light.
 
 As a secondary action the caster may dismiss the flare, causing 1d4+[SUP] damage to a single target within 5ft.
 
-**Upcast**: For each extra MP dice the spell may last for an extra hour or the radius of bright and dim light increase each by 10ft. 
+**Upcast**: For each extra MP dice the spell may last for an extra hour or the radius of bright and dim light increase each by 10ft.
 
 ____
 ### Least Heal
@@ -828,6 +829,33 @@ ___
 - The spell can also be lifted with any ability that curses diseases.
 
 **Global**: The spell has an affect with a 100ft radius, centered on the spot where it was cast and affects all entities within it. For every 4MP extra, the spell's radius is increased by 100ft or the duration is increased by 7 days.
+
+___
+### Dusk
+|Name|Dusk [Curse, Profane, Earth, Water]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|2 (8)|
+|Target(s)|1 target no greater than "large"|+1
+|Casting time|1 action (2h + 40min per 4MP dice)|
+|Range|15ft|
+|Duration|Special: 1h, then permanent (7 days)| +6
+|Components|incantation, kinetic|
+|Focus|A black pearl|
+|Material|-|
+|Limitation||
+|Condition|Catatonic|
+|Save|Cha (avoid effects), Wis(avoid condition)|
+
+**Description**: Much like a shadow of ["Least Flare"](#least-flare), the caster summons a shade and binds it to a valid target, giving it the "blinded" condition. An unwilling target may break the effect with a successful Cha save, thus ending the spell. The shade reaches out and extinguishes bright light within 40ft and dim light within a total radius of 100ft.
+
+[angels](10-conditions-types.md#divine) within 40ft of the shade have disadvantage on attacks and saves.
+
+As a secondary action the caster may command the shade to reach out and touch a target within 10ft. Doing this ends the darkness effect of "Dusk". The target must make a Wis save or be ["Catatonic"](10-conditions-types.md#conditions-in-detail) for a minute (repeated saves apply).
+
+**Upcast**: For each extra MP dice the spell may last for an extra hour.
+
+**Global**: The spell lasts for 7 days per 8MP dice. In addition its target must be static location directly connected to the earth.
 
 ___
 ### Earthen Hand
@@ -2467,6 +2495,7 @@ ___
 - Air
     - [Least Anemancy](#least-anemancy)
     - [Least Blast](#least-blast)
+    - [Least Flare](#least-flare)
     - [Least Shroud](#least-shroud)
     - [Silent](#silent)
     - [Whispers](#whispers)
@@ -2477,6 +2506,7 @@ ___
     - [Least Ward](#least-ward)
 - Fire
     - [Ignition](#ignition)
+    - [Least Flare](#least-flare)
     - [Least Pyromancy](#least-pyromancy)
     - [Least Warmth](#least-warmth)
 - Water
@@ -2582,6 +2612,7 @@ ___
     - [Wind Walk](#wind-walk)
     - [Guidance of the Winds](#guidance-of-the-winds)
 - Earth
+    - [Dusk](#dusk)
     - [Earth Ward](#earth-ward)
     - [Mole](#mole)
     - [Guidance of the Earth](#guidance-of-the-earth)
@@ -2589,6 +2620,7 @@ ___
     - [Command Mortal](#command-mortal)
     - [Summer's Blade](#summers-blade)
 - Water
+    - [Dusk](#dusk)
     - [Water Walk](#water-walk)
     - [Water Ward](#water-ward)
     - [Winter's Blade](#winters-blade)

@@ -33,6 +33,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Foxfire](#foxfire)
 - [Gnomes' Mercy](#gnomes-mercy)
 - [Headwind](#headwind)
+- [Least Flare](#least-flare)
 - [Least Heal](#least-heal)
 - [Least Vengeance](#least-vengeance)
 - [Shape Earth](#shape-earth)
@@ -621,6 +622,30 @@ ___
 **Upcast**: Increase the radius of the cone by 5ft for each extra MP.
 
 **Global**: The wind strength remains the same, but the spell creates a whirlwind with a 100ft radius. The duration increases to an hour. For every 4MP extra the duration increases by an hour or the radius increases by 50ft.
+
+___
+### Least Flare
+|Name|Least Flare [Light, Fire, Air]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|1 (4)|
+|Target(s)|1 target no larger than "small"|-1
+|Casting time|"1 main action' (60min + 20min pr 4MP dice)|
+|Range|close|-1
+|Duration|1 hour (1 week)|+6
+|Components|kinetic, incantation|-1
+|Focus|A flower associate with daylight, or a crystal|
+|Damage|1d4+[SUP] light|
+|Concentration|local|
+|Save|Cha (avoid effects), Dex (no damage)|
+
+**Description**: The caster summons a mote of light and bind it to a valid target, giving it the "glowing" condition. An unwilling target may break the effect with a successful Cha save. The mote sheds bright light in 40ft and dim light in 60ft.
+
+Incorporeal ["undead"](10-conditions-types.md#profane) and ["fiends"](10-conditions-types.md#profane) have disadvantage on attacks and saves within the radius of the bright light.
+
+As a secondary action the caster may dismiss the flare, causing 1d4+[SUP] damage to a single target within 5ft.
+
+**Upcast**: For each extra MP dice the spell may last for an extra hour or the radius of bright and dim light increase each by 10ft. 
 
 ____
 ### Least Heal

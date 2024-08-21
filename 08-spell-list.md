@@ -805,6 +805,64 @@ ___
 **Global**: The spell has an affect with a 100ft radius, centered on the spot where it was cast and affects all entities within it. For every 4MP extra, the spell's radius is increased by 100ft or the duration is increased by 7 days.
 
 ___
+### Earthen Hand
+|Name|Earthen Hand [Earth]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|2 (8)|
+|Target(s)|1sq|
+|Casting time|"main action" (2h + 40min per 4MP dice)|
+|Range|30ft|
+|Duration|1 min (1 hour)|+6
+|Components|kinetic|
+|Concentration|yes|-3
+|Limitation|Can only be summoned on surfaces of earth or stone (including worked stone)|-2
+|Damage|2d12+[Sup] bludgeoning|+6 (+2 for being able to do manoeuvres and skills)
+|Attack/Manoeuvre|SAP+[Wis]|
+|Save|-|
+
+**Description**: Gather a "medium" sized hand out of the earth or chipped rock at the target square. The hand is manipulated as your own. It is considered proficient with any tools and attacks/manoeuvres you are proficient in. Including on the turn it is called, you may use your main action to move the hand 20ft and carry out one of the following actions:
++ Grapple a target (SAP+[Wis]).
++ Shove/Throw a target (SAP+[Wis]).
++ Make a targeted melee attack (SAP+[Wis]).
++ Make any manipulation you can with your own hand, but at disadvantage.
++ The hand provides heavy cover for any medium sized or smaller entity behind it.
+
+**Limitation**:
+- The hand is not an entity but a spell effect.
+- The physical form of the hand is not its essence. Any material destroyed by attacks against it is gathered again from the surrounding ground.
+- The hand has a 5ft reach, and may not leave the ground.
+
+**Upcast**: For every extra MP dice used the damage increases by 1d12 or duration increases by 1 minute. If the MP dice total is 3 or higher for a local casting, working the hand becomes a "secondary action".
+
+**Global**: As local. However, the hand may not move further than 100ft from the point it was called. For every extra 4 MP dice the hand persists for an extra hour.
+
+___
+### Glide
+|Name|Glide [Wind, Travel]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|2 (8)|
+|Target(s)|2 entities or an object no bigger than 15 x 15 x 15ft (200ft)|+1
+|Casting time|"main action" or "reaction" (2h + 20min per 8MP)|
+|Range|60ft|+1
+|Duration|12min (1 day)|+3
+|Components|kinetic|
+|Concentration|local|-3
+|Limit|The target has no control over its fly direction or speed|-2 
+|Save|Wis|
+
+**Description**: The target is no longer attracted to the earth. This has the following effect:
+- Its jump distance is by x4 the base distance of the roll (after that it slows down and stops).
+- When jumping upwards it will hang at the maximum height instead of returning to earth.
+- When moving at more than than half its speed, the target must make a threshold=20 acrobatics roll or end up hanging mid-air at an altitude of a few feet.
+- When airborne as a result of this spell, a target is carried by the wind at half of the wind's speed.
+
+**Special**: The spell can be cast as a reaction when a target begins to fall. If cast as a reaction, the target descends at ~60ft per round. If cast as a main action on a target that is already falling, it begins to decelerate. This does nothing if the fall distance is less than ~360ft. Otherwise, if the fall is long, for every round the spell effects the target it decelerates 20ft per round (from 360ft), decreasing fall damage by 2d12 per round of falling, to an eventual safe speed of 60ft.
+
+**Global**: When cast globally the spell creates a spherical zone centered on the caster where this effect acts. For every 8 extra MP dice added the zone is expanded by 200ft or the duration increased by a day. Every entity that enters the area and does not succeed a Wis save is affected by the spell.
+
+___
 ### Harvest
 |Name|Harvest [Curse, Nature]|
 |-|-|
@@ -849,158 +907,6 @@ ___
 **Upcast**: Target regains an extra 1d4 SP and an extra SP dice per extra MP dice used, to a maximum of 4MP dice used. No extra effect on undead.
 
 ___
-### Meadow of Flame
-|Name|Meadow of Flame [Fire, Destruction]|
-|-|-|
-|Scope|local|
-|MP Dice|2|
-|Target(s)|25ft radius centered on a square, 10ft height|+4
-|Casting time|"main action"|
-|Range|close (excludes own square)|
-|Duration|1 min|+4
-|Components|incantation|+1
-|Material|Dried petals of three types of flower|-2
-|Limitation|Focal area must be at least minimally flammable material|-2
-|Concentration|yes|
-|Damage|1d8+[Sup] fire|+3
-|Condition|Lightly concealed|+2
-|Save|Con|
-
-**Description**: Flames bloom on surfaces all around you, to a height of 10ft. Everything within the flames in lightly concealed.
-
-**Special**: The caster is not damaged by the flames caused by this spell.
-
-**Upcast**: For every extra MP dice, increase the radius by 5ft or increase the damage by 1d8.
-
-___
-### Warmth
-|Name|Warmth [Fire, Travel]|
-|-|-|
-|Scope|local (global)|
-|MP Dice|2 (8)|
-|Target(s)|20ft radius round a square in range (400ft)|+6
-|Casting time|"full round" (4h + 40min per 4MP) |-1
-|Range|30ft|
-|Duration|12min (1 day+)|+3
-|Components|kinetic|
-|Save|Cha, if the area is already enchanted|
-
-**Description**: Attempts to warm an area and anything in it to up to Heat: Severe (a little above body temperature). If the area is affected by any "Extreme temperature: Cold" category, it is considered as being one step milder.
-
-**Upcast**: For every extra MP dice above 2, the duration increase by 6 min or the radius increases by 5ft.
-
-**Global**: The spell affects a much larger area and and lasts longer. For every extra 4MP the radius increases by 200ft or the duration increases by a day. These long durations begin to have significant effects on the surroundings as follows:
-- 1h: Per hour: 2' of snow cover melts.
-- 1h: Temperature in bodies of water smaller than 10x10x10 ft equilibrates.
-- 2h: Per 2 hour: 1' of snow ice melts.
-- 24h: Early plants begin emerge from winter dormancy.
-
-___
-### Summon Flame Sprite
-|Name|Summon Flame Sprite [Fire, Spiritual]|
-|-|-|
-|Scope|local (global)|
-|MP Dice|2 (8)|
-|Target(s)|1sq (1sq)|
-|Casting time|"full round action" (4h + 40min per 4MP)|-2
-|Range|30ft (30ft)|
-|Duration|12 min (1 day+)|+3
-|Components|incantation, kinetic|-1
-|Material|A saucer of lamp oil or a lump of coal|-2
-|Limitation|Special (see below)|-2
-|Concentration|local|+3
-|Save|-|
-
-**Description**: Summons a [level I flame sprite](monsters-npcs/spirits.md#flame-sprite) to faithfully serve and fight for you. The sprite communicates with its summoner and other fire spirits and is intelligent enough to understand gestures of other mortal entities. The sprite appears at the end of the caster's turn and may act *next round*  on the caster's initiative, before or after the caster's turn. It is not surprised when it appears, and may use reactions.
-
-**Special**: You can only have one summon at any one time.
-
-**Limitation**: The summoned sprite must keep hold of the offering it was given. If it does not, it must end its turn in contact with flammable material. If at least one of these conditions is not upheld, then the spell ends at the end of the sprite's turn and it returns to whence it came.
-
-Flammable material includes wood, turf, the corporeal forms of mortals, wax, etc, but does not include most minerals, metals, water, air. The DM and group are advised to use common sense.
-
-**Upcast**: For every MP dice added (12MP dice for global), the sprite gains two levels.
-
-**Global**: The sprite is bound by a longer contract (an extra day for every 8MP above 8) and the spell does not require concentration. For every day of the contract the material component must be paid anew.
-
-(Summon spell rating is controversial)
-
-___
-### Glide
-|Name|Glide [Wind, Travel]|
-|-|-|
-|Scope|local (global)|
-|MP Dice|2 (8)|
-|Target(s)|2 entities or an object no bigger than 15 x 15 x 15ft (200ft)|+1
-|Casting time|"main action" or "reaction" (2h + 20min per 8MP)|
-|Range|60ft|+1
-|Duration|12min (1 day)|+3
-|Components|kinetic|
-|Concentration|local|-3
-|Limit|The target has no control over its fly direction or speed|-2 
-|Save|Wis|
-
-**Description**: The target is no longer attracted to the earth. This has the following effect:
-- Its jump distance is by x4 the base distance of the roll (after that it slows down and stops).
-- When jumping upwards it will hang at the maximum height instead of returning to earth.
-- When moving at more than than half its speed, the target must make a threshold=20 acrobatics roll or end up hanging mid-air at an altitude of a few feet.
-- When airborne as a result of this spell, a target is carried by the wind at half of the wind's speed.
-
-**Special**: The spell can be cast as a reaction when a target begins to fall. If cast as a reaction, the target descends at ~60ft per round. If cast as a main action on a target that is already falling, it begins to decelerate. This does nothing if the fall distance is less than ~360ft. Otherwise, if the fall is long, for every round the spell effects the target it decelerates 20ft per round (from 360ft), decreasing fall damage by 2d12 per round of falling, to an eventual safe speed of 60ft.
-
-**Global**: When cast globally the spell creates a spherical zone centered on the caster where this effect acts. For every 8 extra MP dice added the zone is expanded by 200ft or the duration increased by a day. Every entity that enters the area and does not succeed a Wis save is affected by the spell.
-
-___
-### Lesser Veil
-|Name|Veil [Air, Curse]|
-|-|-|
-|Scope|local (global)|
-|MP Dice|2 (8)|
-|Target(s)|1 entity or an object no more than 5x5x5ft (100ft)|
-|Casting time|"main action" (2h + 40min per 4MP dice)|
-|Range|close|
-|Duration|1h (1 week)|+6
-|Components|incantation|+1
-|Condition|Invisible|+6
-|Limitations|If the target attempts to cause damage or a condition (ability, attack, manoeuvre, etc)| -2
-|Limitations|If the target casts a spell above MP 0, the spell breaks| -2
-|Save|Cha, harmless|
-
-**Description**: Make a target "invisible" for the duration. (6+6+1-2-2=4+2+3)
-
-**Upcast**: For every extra MP used, the duration increases by a week or the number of targets increases by one.
-
-**Warning**: "Invisibility" does not hide the sounds a target makes, or the aroma it exudes.
-
-**Global**: Hides surface features from sight, eg. a camp, with all people and objects in it. It does not hide inherent terrain features, eg mountains and lakes. All valid targets in a radius of 100ft are "invisible" for a week. For every 4MP, the radius increases by 100ft, or the duration increases by a week.
-
-___
-### Summon Wind Sprite
-|Name|Summon Flame Sprite [Air, Spiritual]|
-|-|-|
-|Scope|local (global)|
-|MP Dice|2 (8)|
-|Target(s)|1sq (1sq)|
-|Casting time|"full round action" (2 hours + 20min per 4MP)|-2
-|Range|30ft (30ft)|
-|Duration|12 min (1 day+)|+3
-|Components|incantation, kinetic|-1
-|Material|A handful of poplar fluff|-2
-|Limitation|The sprite cannot be summoned submerged or partially within either liquid or solid media (eg, water, earth, rock, butter)|-2
-|Concentration|local|
-|Save|-|
-
-**Description**: Summons a [level I wind sprite](monsters-npcs/spirits.md#wind-sprite) to faithfully serve and fight for you. The sprite communicates with its summoner and other water spirits and is intelligent enough to understand gestures of other mortal entities.
-
-**Special**: You can only have one summon at any one time.
-
-**Limitation**: The Sprite can only be summoned in an area that is not obstructed by either liquid or solid media, weather (and other) effects such as sandstorms and rain do not count towards this limitation. In case of an attempt to summon a wind sprite in forbidden terrain, the spell ends with "catastrophic failure".
-
-**Upcast**: For every MP dice added (12MP dice for global), the sprite gains two levels.
-
-**Global**: The sprite is bound by a longer contract (an extra day for every 8MP above 8) and the spell does not require concentration. For every day of the contract the material component must be paid anew.
-
-___
 ### Least Transformation
 |Name| [Curse, Water]|
 |-|-|
@@ -1028,133 +934,52 @@ ___
 **Global**: The spell lasts for a week, with an extra week for every 4MP. It cannot be cancelled voluntarily.
 
 ___
-### Silence
-|Name|Silence [Curse, Water]|
+### Lesser Veil
+|Name|Veil [Air, Curse]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|2 (8)|
-|Target(s)|1 entity or 5ft radius centered ona square (100ft)|+1
+|Target(s)|1 entity or an object no more than 5x5x5ft (100ft)|
 |Casting time|"main action" (2h + 40min per 4MP dice)|
-|Range|60ft|+1
-|Duration|12min (1 week)|+6
-|Components|kinetic|
-|Focus|A wind chime|
-|Condition|Inaudible|+2
-|Save|Wis|
+|Range|close|
+|Duration|1h (1 week)|+6
+|Components|incantation|+1
+|Condition|Invisible|+6
+|Limitations|If the target attempts to cause damage or a condition (ability, attack, manoeuvre, etc)| -2
+|Limitations|If the target casts a spell above MP 0, the spell breaks| -2
+|Save|Cha, harmless|
 
-**Description**: You render a single target or a small, fixed area "inaudible".
+**Description**: Make a target "invisible" for the duration. (6+6+1-2-2=4+2+3)
 
-**Global**: The spell affects an area with a radius of 100ft and lasts for a week. For every 4 extra MP dice used the radius increases by 100ft, or the duration increases by a week.
+**Upcast**: For every extra MP used, the duration increases by a week or the number of targets increases by one.
 
-___
-### Summon Water Sprite
-|Name|Summon Flame Sprite [water/Ice, Spiritual]|
-|-|-|
-|Scope|local (global)|
-|MP Dice|2 (8)|
-|Target(s)|1sq (1sq)|
-|Casting time|"full round action" (2 hours + 20min per 4MP)|-2
-|Range|30ft (30ft)|
-|Duration|12 min (1 day+)|+3
-|Components|incantation, kinetic|-1
-|Material||
-|Limitation|The water sprite must end its turn in a body of water, wet ground or in rain or mist|-2
-|Concentration|local|
-|Save|-|
+**Warning**: "Invisibility" does not hide the sounds a target makes, or the aroma it exudes.
 
-**Description**: Summons a [level I water sprite](monsters-npcs/spirits.md#water-sprite) to faithfully serve and fight for you. The sprite communicates with its summoner and other water spirits and is intelligent enough to understand gestures of other mortal entities.
-
-**Special**: You can only have one summon at any one time.
-
-**Limitation**: If a water sprite does not end its turn in contact with a body of water, wet ground, rain, mist or other source of water it returns to whence it came and the spell ends.
-
-**Upcast**: For every MP dice added (12MP dice for global), the sprite gains two levels.
-
-**Global**: The sprite is bound by a longer contract (an extra day for every 8MP above 8) and the spell does not require concentration. For every day of the contract the material component must be paid anew.
+**Global**: Hides surface features from sight, eg. a camp, with all people and objects in it. It does not hide inherent terrain features, eg mountains and lakes. All valid targets in a radius of 100ft are "invisible" for a week. For every 4MP, the radius increases by 100ft, or the duration increases by a week.
 
 ___
-### Earthen Hand
-|Name|Earthen Hand [Earth]|
+### Meadow of Flame
+|Name|Meadow of Flame [Fire, Destruction]|
 |-|-|
-|Scope|local (global)|
-|MP Dice|2 (8)|
-|Target(s)|1sq|
-|Casting time|"main action" (2h + 40min per 4MP dice)|
-|Range|30ft|
-|Duration|1 min (1 hour)|+6
-|Components|kinetic|
-|Concentration|yes|-3
-|Limitation|Can only be summoned on surfaces of earth or stone (including worked stone)|-2
-|Damage|2d12+[Sup] bludgeoning|+6 (+2 for being able to do manoeuvres and skills)
-|Attack/Manoeuvre|SAP+[Wis]|
-|Save|-|
+|Scope|local|
+|MP Dice|2|
+|Target(s)|25ft radius centered on a square, 10ft height|+4
+|Casting time|"main action"|
+|Range|close (excludes own square)|
+|Duration|1 min|+4
+|Components|incantation|+1
+|Material|Dried petals of three types of flower|-2
+|Limitation|Focal area must be at least minimally flammable material|-2
+|Concentration|yes|
+|Damage|1d8+[Sup] fire|+3
+|Condition|Lightly concealed|+2
+|Save|Con|
 
-**Description**: Gather a "medium" sized hand out of the earth or chipped rock at the target square. The hand is manipulated as your own. It is considered proficient with any tools and attacks/manoeuvres you are proficient in. Including on the turn it is called, you may use your main action to move the hand 20ft and carry out one of the following actions:
-+ Grapple a target (SAP+[Wis]).
-+ Shove/Throw a target (SAP+[Wis]).
-+ Make a targeted melee attack (SAP+[Wis]).
-+ Make any manipulation you can with your own hand, but at disadvantage.
-+ The hand provides heavy cover for any medium sized or smaller entity behind it.
+**Description**: Flames bloom on surfaces all around you, to a height of 10ft. Everything within the flames in lightly concealed.
 
-**Limitation**:
-- The hand is not an entity but a spell effect.
-- The physical form of the hand is not its essence. Any material destroyed by attacks against it is gathered again from the surrounding ground.
-- The hand has a 5ft reach, and may not leave the ground.
+**Special**: The caster is not damaged by the flames caused by this spell.
 
-**Upcast**: For every extra MP dice used the damage increases by 1d12 or duration increases by 1 minute. If the MP dice total is 3 or higher for a local casting, working the hand becomes a "secondary action".
-
-**Global**: As local. However, the hand may not move further than 100ft from the point it was called. For every extra 4 MP dice the hand persists for an extra hour.
-
-___
-### Warded Ground
-|Name|Warded Ground [Barrier, Earth, Ground]|
-|-|-|
-|Scope|local (global)|
-|MP Dice|2 (8)|
-|Target(s)|30ft (400ft)|+4 (Ground only)
-|Casting time|"1 minute" (24h +2h per 4Mp dice)|-2
-|Range|close|-2
-|Duration| 8 hours (1 month)|+9
-|Components|incantation, kinetic| -1
-|Material|Burned offerings of wine and lamb|-2
-|Limitations|Only works on ground of earth and stone (worked or natural)|-2
-|Save|-|
-
-**Description**: Awaken ever so slightly, the spirits of the earth. On casting declare an entity type:
-+ You automatically know when an entity enters the warded ground, and its entity type.
-+ The caster and allies have light cover vs entities of the initially declared type.
-
-**Limitations**: The spell only acts on entities that are touching the ground or other solid objects connected to it. On turns that an entity does not fulfil this condition the spell does not act on it.
-
-**Upcast**: For every extra MP dice, either, increase the duration by 8 hours, the area by 5ft, or add an extra entity type.
-
-**Global**: The spell radius is 400ft. It lasts for a month. For every 4MP extra either the duration increases by a month or the radius extends by 100ft. An extra entity type is automatically added for every 4MP extra. 
-
-___
-### Summon Gnome
-|Name|Summon gnome [Earth, Spiritual]|
-|-|-|
-|Scope|local (global)|
-|MP Dice|2 (8)|
-|Target(s)|1sq (1sq)|
-|Casting time|"full round action" (2 hours + 20min per 4MP)|-2
-|Range|30ft (30ft)|
-|Duration|12 min (1 day+)|+3
-|Components|incantation, kinetic|-1
-|Material|An offering of fine alcohol or 1HP worth of blood|-2
-|Limitation|The gnome is earthbound|-2
-|Concentration|local|
-|Save|-|
-
-**Description**: Summons a [level I earth gnome](monsters-npcs/spirits.md#gnome) to faithfully serve and fight for you. The gnome communicates with its summoner and other earth spirits and is intelligent enough to understand gestures of other mortal entities.
-
-**Special**: You can only have one summon at any one time.
-
-**Limitation**: The gnome is "earthbound". It cannot leave, or be detached from, the ground. However, this comes at a cost. In an event where the gnome would otherwise lose contact with the ground (if not for being earthbound), it takes 1 point of ["divine"](10-conditions-types.md#esoteric-damage) damage instead.
-
-**Upcast**: For every MP dice added (4MP dice for global), the gnome gains two levels.
-
-**Global**: The gnome is bound by a longer contract (an extra day for every 8MP above 8) and the spell does not require concentration. For every day of the contract the material component must be paid anew.
+**Upcast**: For every extra MP dice, increase the radius by 5ft or increase the damage by 1d8.
 
 ___
 ### Promise
@@ -1201,6 +1026,181 @@ The condition counts as having a "supernatural" origin.
 **Global**: The spell lasts for a month.
 
 **Upcast (Global only)**: The spell lasts for an extra month per 4 MP dice placed in it. In addition, at 12 MP dice, an A class condition may be selected, and at 16 MP dice, an S Class conditions may be selected.
+
+___
+### Silence
+|Name|Silence [Curse, Water]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|2 (8)|
+|Target(s)|1 entity or 5ft radius centered ona square (100ft)|+1
+|Casting time|"main action" (2h + 40min per 4MP dice)|
+|Range|60ft|+1
+|Duration|12min (1 week)|+6
+|Components|kinetic|
+|Focus|A wind chime|
+|Condition|Inaudible|+2
+|Save|Wis|
+
+**Description**: You render a single target or a small, fixed area "inaudible".
+
+**Global**: The spell affects an area with a radius of 100ft and lasts for a week. For every 4 extra MP dice used the radius increases by 100ft, or the duration increases by a week.
+
+___
+### Summon Flame Sprite
+|Name|Summon Flame Sprite [Fire, Spiritual]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|2 (8)|
+|Target(s)|1sq (1sq)|
+|Casting time|"full round action" (4h + 40min per 4MP)|-2
+|Range|30ft (30ft)|
+|Duration|12 min (1 day+)|+3
+|Components|incantation, kinetic|-1
+|Material|A saucer of lamp oil or a lump of coal|-2
+|Limitation|Special (see below)|-2
+|Concentration|local|+3
+|Save|-|
+
+**Description**: Summons a [level I flame sprite](monsters-npcs/spirits.md#flame-sprite) to faithfully serve and fight for you. The sprite communicates with its summoner and other fire spirits and is intelligent enough to understand gestures of other mortal entities. The sprite appears at the end of the caster's turn and may act *next round*  on the caster's initiative, before or after the caster's turn. It is not surprised when it appears, and may use reactions.
+
+**Special**: You can only have one summon at any one time.
+
+**Limitation**: The summoned sprite must keep hold of the offering it was given. If it does not, it must end its turn in contact with flammable material. If at least one of these conditions is not upheld, then the spell ends at the end of the sprite's turn and it returns to whence it came.
+
+Flammable material includes wood, turf, the corporeal forms of mortals, wax, etc, but does not include most minerals, metals, water, air. The DM and group are advised to use common sense.
+
+**Upcast**: For every MP dice added (12MP dice for global), the sprite gains two levels.
+
+**Global**: The sprite is bound by a longer contract (an extra day for every 8MP above 8) and the spell does not require concentration. For every day of the contract the material component must be paid anew.
+
+(Summon spell rating is controversial)
+
+___
+### Summon Gnome
+|Name|Summon gnome [Earth, Spiritual]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|2 (8)|
+|Target(s)|1sq (1sq)|
+|Casting time|"full round action" (2 hours + 20min per 4MP)|-2
+|Range|30ft (30ft)|
+|Duration|12 min (1 day+)|+3
+|Components|incantation, kinetic|-1
+|Material|An offering of fine alcohol or 1HP worth of blood|-2
+|Limitation|The gnome is earthbound|-2
+|Concentration|local|
+|Save|-|
+
+**Description**: Summons a [level I earth gnome](monsters-npcs/spirits.md#gnome) to faithfully serve and fight for you. The gnome communicates with its summoner and other earth spirits and is intelligent enough to understand gestures of other mortal entities.
+
+**Special**: You can only have one summon at any one time.
+
+**Limitation**: The gnome is "earthbound". It cannot leave, or be detached from, the ground. However, this comes at a cost. In an event where the gnome would otherwise lose contact with the ground (if not for being earthbound), it takes 1 point of ["divine"](10-conditions-types.md#esoteric-damage) damage instead.
+
+**Upcast**: For every MP dice added (4MP dice for global), the gnome gains two levels.
+
+**Global**: The gnome is bound by a longer contract (an extra day for every 8MP above 8) and the spell does not require concentration. For every day of the contract the material component must be paid anew.
+
+___
+### Summon Water Sprite
+|Name|Summon Flame Sprite [water/Ice, Spiritual]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|2 (8)|
+|Target(s)|1sq (1sq)|
+|Casting time|"full round action" (2 hours + 20min per 4MP)|-2
+|Range|30ft (30ft)|
+|Duration|12 min (1 day+)|+3
+|Components|incantation, kinetic|-1
+|Material||
+|Limitation|The water sprite must end its turn in a body of water, wet ground or in rain or mist|-2
+|Concentration|local|
+|Save|-|
+
+**Description**: Summons a [level I water sprite](monsters-npcs/spirits.md#water-sprite) to faithfully serve and fight for you. The sprite communicates with its summoner and other water spirits and is intelligent enough to understand gestures of other mortal entities.
+
+**Special**: You can only have one summon at any one time.
+
+**Limitation**: If a water sprite does not end its turn in contact with a body of water, wet ground, rain, mist or other source of water it returns to whence it came and the spell ends.
+
+**Upcast**: For every MP dice added (12MP dice for global), the sprite gains two levels.
+
+**Global**: The sprite is bound by a longer contract (an extra day for every 8MP above 8) and the spell does not require concentration. For every day of the contract the material component must be paid anew.
+
+___
+### Summon Wind Sprite
+|Name|Summon Flame Sprite [Air, Spiritual]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|2 (8)|
+|Target(s)|1sq (1sq)|
+|Casting time|"full round action" (2 hours + 20min per 4MP)|-2
+|Range|30ft (30ft)|
+|Duration|12 min (1 day+)|+3
+|Components|incantation, kinetic|-1
+|Material|A handful of poplar fluff|-2
+|Limitation|The sprite cannot be summoned submerged or partially within either liquid or solid media (eg, water, earth, rock, butter)|-2
+|Concentration|local|
+|Save|-|
+
+**Description**: Summons a [level I wind sprite](monsters-npcs/spirits.md#wind-sprite) to faithfully serve and fight for you. The sprite communicates with its summoner and other water spirits and is intelligent enough to understand gestures of other mortal entities.
+
+**Special**: You can only have one summon at any one time.
+
+**Limitation**: The Sprite can only be summoned in an area that is not obstructed by either liquid or solid media, weather (and other) effects such as sandstorms and rain do not count towards this limitation. In case of an attempt to summon a wind sprite in forbidden terrain, the spell ends with "catastrophic failure".
+
+**Upcast**: For every MP dice added (12MP dice for global), the sprite gains two levels.
+
+**Global**: The sprite is bound by a longer contract (an extra day for every 8MP above 8) and the spell does not require concentration. For every day of the contract the material component must be paid anew.
+
+___
+### Warmth
+|Name|Warmth [Fire, Travel]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|2 (8)|
+|Target(s)|20ft radius round a square in range (400ft)|+6
+|Casting time|"full round" (4h + 40min per 4MP) |-1
+|Range|30ft|
+|Duration|12min (1 day+)|+3
+|Components|kinetic|
+|Save|Cha, if the area is already enchanted|
+
+**Description**: Attempts to warm an area and anything in it to up to Heat: Severe (a little above body temperature). If the area is affected by any "Extreme temperature: Cold" category, it is considered as being one step milder.
+
+**Upcast**: For every extra MP dice above 2, the duration increase by 6 min or the radius increases by 5ft.
+
+**Global**: The spell affects a much larger area and and lasts longer. For every extra 4MP the radius increases by 200ft or the duration increases by a day. These long durations begin to have significant effects on the surroundings as follows:
+- 1h: Per hour: 2' of snow cover melts.
+- 1h: Temperature in bodies of water smaller than 10x10x10 ft equilibrates.
+- 2h: Per 2 hour: 1' of snow ice melts.
+- 24h: Early plants begin emerge from winter dormancy.
+
+___
+### Warded Ground
+|Name|Warded Ground [Barrier, Earth, Ground]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|2 (8)|
+|Target(s)|30ft (400ft)|+4 (Ground only)
+|Casting time|"1 minute" (24h +2h per 4Mp dice)|-2
+|Range|close|-2
+|Duration| 8 hours (1 month)|+9
+|Components|incantation, kinetic| -1
+|Material|Burned offerings of wine and lamb|-2
+|Limitations|Only works on ground of earth and stone (worked or natural)|-2
+|Save|-|
+
+**Description**: Awaken ever so slightly, the spirits of the earth. On casting declare an entity type:
++ You automatically know when an entity enters the warded ground, and its entity type.
++ The caster and allies have light cover vs entities of the initially declared type.
+
+**Limitations**: The spell only acts on entities that are touching the ground or other solid objects connected to it. On turns that an entity does not fulfil this condition the spell does not act on it.
+
+**Upcast**: For every extra MP dice, either, increase the duration by 8 hours, the area by 5ft, or add an extra entity type.
+
+**Global**: The spell radius is 400ft. It lasts for a month. For every 4MP extra either the duration increases by a month or the radius extends by 100ft. An extra entity type is automatically added for every 4MP extra. 
 
 ___
 ## MP 3 spells

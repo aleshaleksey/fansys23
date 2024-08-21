@@ -2024,6 +2024,61 @@ ___
 ## MP 5 Spells
 4+2+3+4+5+6=24
 
+___
+### Flame Stride
+|Name|Flame Stride [Travel, Fire]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|5 (20)|
+|Target(s)|2 entities* (2 entities*)|+2
+|Casting time|"secondary action" (4h + 40 min per 4MP dice)|+2
+|Range|close/600ft (close/200 miles)|+9(13)
+|Duration|instantaneous|
+|Components|kinetic|-1(12)
+|Limitation (local)|The caster must be one of the entities that travels|-1(11)
+|Limitation (global)|The start and end location must be bodies of water|-1(10)
+|Focus|A fire at least 1ft x 1ft x 1ft|-1(9)
+|Limitation|The caster and any entities teleported are always on fire at the end of the spell though this does not harm them or equipped items. It does, however, set other flammable objects on fire. The fire extinguishes itself after 1 minute.|-2(7)
+|Save|Cha|
+|Damage|2d8+[Nat] fire|+6(13)
+
+**Description**: The caster blinks to a chosen location that is not inside a solid object. The caster may take up to 2 other entities with it. An unwilling passenger does not travel if it succeeds a Cha save. Any entity that travelled this way deals 2d8+[Sup] fire damage on its next attack.
+
+**Upcast**: For every extra MP dice the range increases by 60ft or the number of passengers increases by 1.
+
+**Global**: Enter a bonfire large enough to engulf the caster and emerge from another of their choice in range (200 miles). The caster is aware of all valid fires in range.
+- For every 4 extra MP dice the range increases by 60 miles or the number of passengers increases by 1.
+
+(blink speed = 12+13)
+
+___
+### Flawed Transmute
+|Name|Flawed Transmutation [Curse, Incantation]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|5 (20)|
+|Target(s)|1 object (medium)|
+|Casting time|1 action (5h + 5h per 5 MP dice)|
+|Range|close|
+|Duration|1 day (permanent)|+24
+|Components|incantation|+1(25)
+|Focus|A vial of clean water, a vial of clean air, a vial of earth, smouldering embers|-2(23)
+|Material|A cup of the caster's blood|-2(21)
+|Limitation|The material level of the object cannot be higher than 2|-2(19)
+|Limitation|The material level of the object decreases by 1|-2(17)
+|Limitation|The gold value of the final object cannot be higher than the value of the initial option|-2(15)
+|Limitation|The size of the transmuted object in volume is the same as the initial object|-2(13)
+|Save|Charisma (if wielded by an entity, or is magical), not otherwise|
+
+**Description**: Transmute a target object, no more than 5ft x 5ft x 5ft in volume from one substance to another. The shape of the object remains the same. Thus if you transform a shield from steel to salami, it will still retain the form of a shield.
+
+**Special**: The final substance has to be in the same element/state as the initial substance. Thus a caster cannot use this spell to turn water into air, but can turn water into (poor) wine. Likewise it can be used to turn steel into cheese, but not into bad air.
+
+**Upcast**: For every addition MP dice used in the casting, either add an extra object or increase its size by one category. If at least 7 MP dice are used the maximum material level can be 3. If 9 MP dice are used the maximum material level can be 4.
+
+**Global**: The spell is permanent. If at least 28 MP dice are used the maximum material level can be 3. If 36 MP dice are used the maximum material level can be 4.
+
+___
 ### Pact
 |Name|Pact [Curse, Global]|
 |-|-|
@@ -2084,84 +2139,10 @@ The target returns with all of its SP and MP and up to 12 HP.
 **Special**: The spell can be cast up to 7 times for the same target. However, on each casting following the first time, either the caster or an entity with at least as many MP or SP dice as the caster's total must be sacrificed (it must die in the ritual). If the sacrifice is not satisfactory, the life is lost but nothing is summoned.
 
 **Upcast**: For each 8MP dice put into the spell, the target stays in the mortal realm for an extra 24 hours.
-
-___
-### Flawed Transmute
-|Name|Flawed Transmutation [Curse, Incantation]|
-|-|-|
-|Scope|local (global)|
-|MP Dice|5 (20)|
-|Target(s)|1 object (medium)|
-|Casting time|1 action (5h + 5h per 5 MP dice)|
-|Range|close|
-|Duration|1 day (permanent)|+24
-|Components|incantation|+1(25)
-|Focus|A vial of clean water, a vial of clean air, a vial of earth, smouldering embers|-2(23)
-|Material|A cup of the caster's blood|-2(21)
-|Limitation|The material level of the object cannot be higher than 2|-2(19)
-|Limitation|The material level of the object decreases by 1|-2(17)
-|Limitation|The gold value of the final object cannot be higher than the value of the initial option|-2(15)
-|Limitation|The size of the transmuted object in volume is the same as the initial object|-2(13)
-|Save|Charisma (if wielded by an entity, or is magical), not otherwise|
-
-**Description**: Transmute a target object, no more than 5ft x 5ft x 5ft in volume from one substance to another. The shape of the object remains the same. Thus if you transform a shield from steel to salami, it will still retain the form of a shield.
-
-**Special**: The final substance has to be in the same element/state as the initial substance. Thus a caster cannot use this spell to turn water into air, but can turn water into (poor) wine. Likewise it can be used to turn steel into cheese, but not into bad air.
-
-**Upcast**: For every addition MP dice used in the casting, either add an extra object or increase its size by one category. If at least 7 MP dice are used the maximum material level can be 3. If 9 MP dice are used the maximum material level can be 4.
-
-**Global**: The spell is permanent. If at least 28 MP dice are used the maximum material level can be 3. If 36 MP dice are used the maximum material level can be 4.
-
-___
-### Flame Stride
-|Name|Flame Stride [Travel, Fire]|
-|-|-|
-|Scope|local (global)|
-|MP Dice|5 (20)|
-|Target(s)|2 entities* (2 entities*)|+2
-|Casting time|"secondary action" (4h + 40 min per 4MP dice)|+2
-|Range|close/600ft (close/200 miles)|+9(13)
-|Duration|instantaneous|
-|Components|kinetic|-1(12)
-|Limitation (local)|The caster must be one of the entities that travels|-1(11)
-|Limitation (global)|The start and end location must be bodies of water|-1(10)
-|Focus|A fire at least 1ft x 1ft x 1ft|-1(9)
-|Limitation|The caster and any entities teleported are always on fire at the end of the spell though this does not harm them or equipped items. It does, however, set other flammable objects on fire. The fire extinguishes itself after 1 minute.|-2(7)
-|Save|Cha|
-|Damage|2d8+[Nat] fire|+6(13)
-
-**Description**: The caster blinks to a chosen location that is not inside a solid object. The caster may take up to 2 other entities with it. An unwilling passenger does not travel if it succeeds a Cha save. Any entity that travelled this way deals 2d8+[Sup] fire damage on its next attack.
-
-**Upcast**: For every extra MP dice the range increases by 60ft or the number of passengers increases by 1.
-
-**Global**: Enter a bonfire large enough to engulf the caster and emerge from another of their choice in range (200 miles). The caster is aware of all valid fires in range.
-- For every 4 extra MP dice the range increases by 60 miles or the number of passengers increases by 1.
-
-(blink speed = 12+13)
 ___
 ## MP 6 spells
 4+2+3+4+5+6+7
 6,9,13,18,24,31
-
-### Razor Wind
-|Name|Razor Wind [Wind, Destruction]|
-|-|-|
-|Scope|local|
-|MP Dice|6|
-|Target(s)|60ft, 90 degree cone, centered on caster|+10
-|Casting time|"secondary action"|+2
-|Range|close|
-|Duration|Instantaneous|
-|Damage|5d12+[Sup] pressure|+15
-|Condition|Prone|
-|Components|"incantation"|+1
-|Save|Dex+|+2
-
-**Description**: You summon a sharp burst of hurricane like wind that cuts through an area, dealing 5d12+[Sup] damage to all entities, objects and structures within it. Entities can avoid the damage with a successful Dex save. Even in this case all entities and objects of "huge" and smaller are blown back 20ft (for "medium").
-
-**Upcast**: The size of the one increases by 15ft per MP dice or the damage increases by 1d12.
-
-33
 
 ___
 ### Forest of Flame
@@ -2220,6 +2201,27 @@ If the undead are not destroyed by the end of the spell, or the caster loses con
 **Global**: The spell has a radius of 1000ft and the duration is 1 week. For every 4 MP dice extra, the casting time increases by 2h, and the radius increases by 300ft. The spell does not require concentration is, **but** the caster cannot cast the spell again as a global spell for a week.
 
 **Notes**: This spell produces a large number of units, possibly in the thousands. It is recommended that the DM controls the legion and uses it as a single group or AoE rather than individually rolling for each undead.
+
+___
+### Razor Wind
+|Name|Razor Wind [Wind, Destruction]|
+|-|-|
+|Scope|local|
+|MP Dice|6|
+|Target(s)|60ft, 90 degree cone, centered on caster|+10
+|Casting time|"secondary action"|+2
+|Range|close|
+|Duration|Instantaneous|
+|Damage|5d12+[Sup] pressure|+15
+|Condition|Prone|
+|Components|"incantation"|+1
+|Save|Dex+|+2
+
+**Description**: You summon a sharp burst of hurricane like wind that cuts through an area, dealing 5d12+[Sup] damage to all entities, objects and structures within it. Entities can avoid the damage with a successful Dex save. Even in this case all entities and objects of "huge" and smaller are blown back 20ft (for "medium").
+
+**Upcast**: The size of the one increases by 15ft per MP dice or the damage increases by 1d12.
+
+33
 
 ___
 ## MP 7 spells
@@ -2298,37 +2300,6 @@ ___
 ___
 ## MP 10 Spells
 3+(2+11)x10/2=3+13x10/2 = 68
-
-### Realm of Flame
-|Name|Realm of Flame [Spiritual, Fire, Destruction]|
-|-|-|
-|Scope|local (global)|
-|MP Dice|10 (40)|
-|Target(s)|110ft radius centered on a square, 160ft height (1 mile, 600ft high)|+19
-|Casting time|"main action" (10 days + 1 day per 4MP)|
-|Range|close|
-|Duration|12 min (2 days)|+12(31)
-|Components|incantation, kinetic|-1(30)
-|Focus|A portrait of a flaming realm, painted on wax|-1(29)
-|Material|Dried petals of flowers native to the realm of fire|-2(27)
-|Concentration|local|-3(24)
-|Damage|12d8+[Sup] fire|+39(63)
-|Condition|Heavily concealed, Catatonic|+9(68)
-|Save|Con, Cha|
-
-**Description**: Flames bloom on flammable surfaces all around the caster and rise, tree-like, to a height of 70ft. This has the following effects:
-- Everything within the flames in heavily concealed.
-- All entities that first enter the area or first start their turn in it, must make a Cha save or become catatonic. The entity may retry the save at the end of each turn. Those that succeed are immune to the "catatonic" condition until the end of the spell.
-- When an entity first enters the area on its turn, or starts its turn in the area, it makes a Con save or takes 10d8 fire damage. On a successful save it takes half damage. 
-
-**Upcast**: For every extra MP dice, increase the radius by 10ft and height by 5ft or increase the damage by 2d8.
-
-**Special**: The realm of flame is a legendary magic. It is the embodiment of flaming destruction.
-- All entities aligned or immune to "fire" are immune to the "catatonic" effect caused by the spell.
-- The spot where it is cast forever resonates with an aura of [spiritual, fire and destructive] energies. Mortals born in those lands might be aligned in some way with elemental flame.
-- Even after the spell has dissipated it leaves echoes behind, "[Meadow of Flame](#meadow-of-flame)" or lesser elementals may spontaneously spring up in the place it was cast for 108 years if it was cast locally and a millennium if it was cast globally.
-
-**Global**: Realises the Realm of Flame onto the caster's current location. The radius is 1 mile. For every extra 4MP the radius increases by 200ft and the height increases by 10ft and the damage increases by 2d8.
 ____
 ### Mandate of the Deep
 (Spell rules break down here)
@@ -2378,6 +2349,40 @@ ____
 **Upcast**: For every extra MP dice, the radius of the spell increases by 15ft.
 
 **Global**: The locale within 3/4 miles of the caster is sworn to the realm of water, and the caster is its regent. The spell acts as normal, with the exception that it has a radius of 3/4 of a mile.
+
+____
+
+### Realm of Flame
+|Name|Realm of Flame [Spiritual, Fire, Destruction]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|10 (40)|
+|Target(s)|110ft radius centered on a square, 160ft height (1 mile, 600ft high)|+19
+|Casting time|"main action" (10 days + 1 day per 4MP)|
+|Range|close|
+|Duration|12 min (2 days)|+12(31)
+|Components|incantation, kinetic|-1(30)
+|Focus|A portrait of a flaming realm, painted on wax|-1(29)
+|Material|Dried petals of flowers native to the realm of fire|-2(27)
+|Concentration|local|-3(24)
+|Damage|12d8+[Sup] fire|+39(63)
+|Condition|Heavily concealed, Catatonic|+9(68)
+|Save|Con, Cha|
+
+**Description**: Flames bloom on flammable surfaces all around the caster and rise, tree-like, to a height of 70ft. This has the following effects:
+- Everything within the flames in heavily concealed.
+- All entities that first enter the area or first start their turn in it, must make a Cha save or become catatonic. The entity may retry the save at the end of each turn. Those that succeed are immune to the "catatonic" condition until the end of the spell.
+- When an entity first enters the area on its turn, or starts its turn in the area, it makes a Con save or takes 10d8 fire damage. On a successful save it takes half damage. 
+
+**Upcast**: For every extra MP dice, increase the radius by 10ft and height by 5ft or increase the damage by 2d8.
+
+**Special**: The realm of flame is a legendary magic. It is the embodiment of flaming destruction.
+- All entities aligned or immune to "fire" are immune to the "catatonic" effect caused by the spell.
+- The spot where it is cast forever resonates with an aura of [spiritual, fire and destructive] energies. Mortals born in those lands might be aligned in some way with elemental flame.
+- Even after the spell has dissipated it leaves echoes behind, "[Meadow of Flame](#meadow-of-flame)" or lesser elementals may spontaneously spring up in the place it was cast for 108 years if it was cast locally and a millennium if it was cast globally.
+
+**Global**: Realises the Realm of Flame onto the caster's current location. The radius is 1 mile. For every extra 4MP the radius increases by 200ft and the height increases by 10ft and the damage increases by 2d8.
+
 ____
 
 ### Undying Realm

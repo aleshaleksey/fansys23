@@ -20,7 +20,6 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Least Spike](#least-spike)
 - [Least Ward](#least-ward)
 - [Least Warmth](#least-warmth)
-- [Message](#message)
 - [Mist](#mist)
 - [Silent](#silent)
 - [Sour](#sour)
@@ -458,24 +457,23 @@ ___
 ____
 ## MP 1 spells
 
-### Least Heal
-|Name|Least Heal [Divine, Healing, Nature, Spring]|
+___
+### Bear's Claws
+|Name| Bear's Claws [Earth, Nature, Travel]|
 |-|-|
 |Scope|local|
-|MP Dice|1|
-|Target(s)|1 entity|
-|Casting time|"main action"|
+|MP Dice|1+|
+|Target(s)|1 entity+|
+|Casting time|"1 action"|
 |Range|close|
-|Duration|instantaneous|
-|Components|incantation|(+1)
-|Save|Cha, harmless, usually|
-|Healing| 1HP|(+5)
+|Duration|12 minutes|+3
+|Components|incantation|+1
+|Save|Wis|
 
-**Description**: Restore 1HP to a target.
+**Description**: The target grows sturdy claws on all appendages, potentially damaging footwear. The target gains a climb speed (30ft). The claws can also be used as a weapon with a Str/Dex based attack, dealing [1d4 + [Str/Dex]] damage and using "strike"/"light blade" proficiency group.
 
-**Special**: Undead must make a Cha save or take 1 point of divine damage. (1+5)=(4+2)
-
-**Upcast**: Target regains an extra HP per extra MP, to a maximum of 3. No extra effect on undead.
+**Upcast**: Increase the duration by 12 minute for each extra MP.
+(~)
 
 ___
 ### Beast Speech
@@ -498,6 +496,196 @@ ___
 **Global**: Creates a zone with a 100ft radius where all entities can communicate with animals (Cha save on entry negates). For every 4MP, the duration increases by 1 week.
 
 (-2+6+2)=(4+2)
+
+___
+### Chill Blood
+|Name|Winter's Touch [Ice/Water, Mortal]|
+|-|-|
+|Scope|local|
+|MP Dice|1|
+|Target(s)|1+ entity|
+|Casting time|"main action"|
+|Range|close|-2
+|Duration|12 min|+3
+|Components|incantation, kinetic|-1
+|Focus|A faceted clear crystal|
+|Limitation|Entity cannot be immune to "fear" and "charm"|-1
+|Save|Cha|
+
+**Description**: Cool the target's passions, granting the following:
+- Immunity to charm.
+- Resistance to fear.
+- -10 to movement speed.
+
+**Upcast**: For every MP dice added the spell's radius increases by 5ft (this also affects the caster). OR Increase the duration by 1 minute.
+
+(7-4)/3 = 1extra MP dice used. If the MP dice total is 3 or higher, the weird's attack is carried out as a "secondary action".
+
+___
+### Enflame
+|Name|Enflame [Fire, Mortal]|
+|-|-|
+|Scope|local|
+|MP Dice|1|
+|Target(s)|1 entity|
+|Casting time|"main action"|
+|Range|30ft|
+|Duration|12 min| +3
+|Components|kinetic|
+|Limit|Cannot be applied to entities immune to "fear" and "charm"|
+|Save|Int|
+
+**Description**: Enflames the heart of the target. It gains:
++ Immunity to "fear".
++ Disadvantage vs "charm".
++ It deals an extra +3 to damage with any Str based melee attacks and "supernatural" fire based abilities it has.
+
+**Upcast**: Add 1 target for every extra MP dice used.
+
+___
+### Ensnare
+|Name|Ensnare [Nature]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|1 (4)|
+|Target(s)|10ft radius centered on a square (200ft)| +3
+|Casting time|"main action" (1h + 20min per 4MP)|
+|Range|60ft|+1
+|Duration|1 min (1 hour+)|+3
+|Components|incantation, kinetic|-1
+|Conditions|Grappled|+2
+|Limitations|There must be plant life (at least "medium") within 120ft|-2 
+|Save|Dex or Str|-1
+
+**Description**: Vigorous plant life sprouts and grasps at all targets in range, causing them to be "grappled" on a failed save, and transforming it to difficult terrain.
+
+**Upcast (local)**: Increase the radius by 5ft for every 1MP of cost paid.
+
+**Global**: Create a zone of 200ft with the same properties. For every 4MP add either 100ft of radius or 1 hour of duration.
+(4+1+3+2-4)=(4+2)
+
+___
+### Foxfire
+|Name|Foxfire [Fire, Spirit]|
+|-|-|
+|-|-|
+|Scope|local (global)|
+|MP Dice|1 (4)|
+|Target(s)|5ft radius centered on a sq (100ft)|+1
+|Casting time|"main action" (1h + 20min per 4MP)|
+|Range|120ft| +2
+|Duration|1 min (1 hour)| +3
+|Components|incantation, kinetic| -1
+|Conditions|glowing|+2
+|Concentration|yes|-3
+|Save|Cha|
+
+**Description**: Harmless, supernatural flames spring forth in the area and persist, providing a dim illumination and potentially adhering to entities in the area. All targets that do not succeed a Cha save are "glowing" until the end of the spell. The target does not repeat the save at the end of its turn.
+
+**Global**: When cast globally the spell illuminates an area with a radius of 100ft and lasts for 1h plus 20 min for each extra 4MP. This use is popular at festivals and parties.
+
+___
+### Gnomes' Mercy
+|Name|Gnomes' Mercy [Earth, Spirit, Travel]|
+|-|-|
+|Scope|local|
+|MP Dice|1|
+|Target(s)|1 entity or an object up to 5x5x5ft|
+|Casting time|"reaction"|+4
+|Range|30ft|
+|Duration|1 min|+1
+|Components|incantation, kinetic|-1
+|Limitation|No effect on air aligned entities, damage from falls only|-3
+|Save|Int|
+
+**Description**: You call upon earth spirits to be gentle to whoever falls upon them, making the target resistant to damage taken when falling. In addition the damage it takes when hitting the ground is reduced by 1d12+[Sup] points. (+5)
+
+**Upcast**: Increase the number of targets by 1 and decrease the damage by a further 1d12 points.
+
+___
+### Headwind
+|Name|Headwind [Air, Spring]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|1 (4)|
+|Target(s)|20ft, 60 degree cone centered on the caster (100ft sphere)|+1
+|Casting time|"1 main action" (1h + 20min per 4MP dice)|
+|Range|close|
+|Duration|1min+ (1 hour+)|+3
+|Components|incantation|+1
+|Concentration|true (false)|
+|Save|Str|
+
+**Description**: An extreme wind emanates from you. It is more than strong enough break small branches and drop fruit from trees, or blow away unattended objects in range that weight less than 50lb. Any entity that starts its turn in the area that does not succeed a Str Save is blown back 10ft and lands prone.
+
+**Upcast**: Increase the radius of the cone by 5ft for each extra MP.
+
+**Global**: The wind strength remains the same, but the spell creates a whirlwind with a 100ft radius. The duration increases to an hour. For every 4MP extra the duration increases by an hour or the radius increases by 50ft.
+
+____
+### Least Heal
+|Name|Least Heal [Divine, Healing, Nature, Spring]|
+|-|-|
+|Scope|local|
+|MP Dice|1|
+|Target(s)|1 entity|
+|Casting time|"main action"|
+|Range|close|
+|Duration|instantaneous|
+|Components|incantation|(+1)
+|Save|Cha, harmless, usually|
+|Healing| 1HP|(+5)
+
+**Description**: Restore 1HP to a target.
+
+**Special**: Undead must make a Cha save or take 1 point of divine damage. (1+5)=(4+2)
+
+**Upcast**: Target regains an extra HP per extra MP, to a maximum of 3. No extra effect on undead.
+
+___
+### Least Vengeance
+|Name|Least Vengeance [Curse, Destruction, Fire]|
+|-|-|
+|Scope|local|
+|MP Dice|1|
+|Target(s)|1 entity|
+|Casting time|"reaction" or "secondary action"|+4
+|Range|close|
+|Duration|"instantaneous"|
+|Components|incantation|+1
+|Limitation|The target MUST have dealt damage to you, or directly caused a harmful effect to you since the end of your last turn.|-2
+|Damage (if reaction)|1d8+[Sup], fire|
+|Damage (if "secondary action")|2d8+[Sup], fire|
+|Save|Dex|
+
+**Description**: Invoke fiery vengeance on a target that dealt damage, or otherwise attacked you since the end of your last turn.
+
+**Upcast**: Add +1d8 to the damage for every extra MP used.
+
+___
+### Shape Earth
+|Name|Shape Earth [Earth, Nature, Travel]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|1 (4)|
+|Target(s)|rock or ground within a 10ft radius of a sq (200ft)| +3
+|Casting time|"main action" (1h + 20min per 4MP)|
+|Range|120ft| +2
+|Duration|Instantaneous|
+|Components|kinetic| -1
+|Conditions|Difficult terrain| +2
+|Limitations|Target is ground or rock attached to the ground|-2
+|Save|Dex|
+
+**Description**: Over the course of the round you gradually shape the surface layer of earth or natural, unworked stone, manipulating material to a depth of 5ft (if earth) or 1ft if rock.
++ If this would encapsulate or otherwise trap an entity, it has enough time to use its reaction and escape the effect or do so by making a Dex save at advantage.
++ If the shape will not be structurally sound it collapses.
++ If you are attempting to make something artistic or structurally sound, you must make a "Tinker" or "Fortify" roll at disadvantage.
+
+**Global**: If cast globally the area affected is 200ft plus 100ft per extra 4MP. In this case artistic or structurally coherent use is not possible.
+(4+2)
+
+**Upcast**: Target regains an extra HP per extra MP, to a maximum of 3. No extra effect on undead.
 
 ___
 ### Spirits' Secret
@@ -545,168 +733,27 @@ ___
 **Global**: The duration increases to a day. The wind affects up to 4 creatures within 20ft of the caster. For every 4MP extra the duration increases by a day, or the number of targets increases by 4.
 
 ___
-### Headwind
-|Name|Headwind [Air, Spring]|
-|-|-|
-|Scope|local (global)|
-|MP Dice|1 (4)|
-|Target(s)|20ft, 60 degree cone centered on the caster (100ft sphere)|+1
-|Casting time|"1 main action" (1h + 20min per 4MP dice)|
-|Range|close|
-|Duration|1min+ (1 hour+)|+3
-|Components|incantation|+1
-|Concentration|true (false)|
-|Save|Str|
-
-**Description**: An extreme wind emanates from you. It is more than strong enough break small branches and drop fruit from trees, or blow away unattended objects in range that weight less than 50lb. Any entity that starts its turn in the area that does not succeed a Str Save is blown back 10ft and lands prone.
-
-**Upcast**: Increase the radius of the cone by 5ft for each extra MP.
-
-**Global**: The wind strength remains the same, but the spell creates a whirlwind with a 100ft radius. The duration increases to an hour. For every 4MP extra the duration increases by an hour or the radius increases by 50ft.
-
-___
-### Bear's Claws
-|Name| Bear's Claws [Earth, Nature, Travel]|
-|-|-|
-|Scope|local|
-|MP Dice|1+|
-|Target(s)|1 entity+|
-|Casting time|"1 action"|
-|Range|close|
-|Duration|12 minutes|+3
-|Components|incantation|+1
-|Save|Wis|
-
-**Description**: The target grows sturdy claws on all appendages, potentially damaging footwear. The target gains a climb speed (30ft). The claws can also be used as a weapon with a Str/Dex based attack, dealing [1d4 + [Str/Dex]] damage and using "strike"/"light blade" proficiency group.
-
-**Upcast**: Increase the duration by 12 minute for each extra MP.
-(~)
-
-___
-### Gnomes' Mercy
-|Name|Gnomes' Mercy [Earth, Spirit, Travel]|
+### Water Snake
+|Name|Water Snake [Water/ice, Spiritual]|
 |-|-|
 |Scope|local|
 |MP Dice|1|
-|Target(s)|1 entity or an object up to 5x5x5ft|
-|Casting time|"reaction"|+4
-|Range|30ft|
-|Duration|1 min|+1
-|Components|incantation, kinetic|-1
-|Limitation|No effect on air aligned entities, damage from falls only|-3
-|Save|Int|
-
-**Description**: You call upon earth spirits to be gentle to whoever falls upon them, making the target resistant to damage taken when falling. In addition the damage it takes when hitting the ground is reduced by 1d12+[Sup] points. (+5)
-
-**Upcast**: Increase the number of targets by 1 and decrease the damage by a further 1d12 points.
-
-___
-### Shape Earth
-|Name|Shape Earth [Earth, Nature, Travel]|
-|-|-|
-|Scope|local (global)|
-|MP Dice|1 (4)|
-|Target(s)|rock or ground within a 10ft radius of a sq (200ft)| +3
-|Casting time|"main action" (1h + 20min per 4MP)|
-|Range|120ft| +2
-|Duration|Instantaneous|
-|Components|kinetic| -1
-|Conditions|Difficult terrain| +2
-|Limitations|Target is ground or rock attached to the ground|-2
-|Save|Dex|
-
-**Description**: Over the course of the round you gradually shape the surface layer of earth or natural, unworked stone, manipulating material to a depth of 5ft (if earth) or 1ft if rock.
-+ If this would encapsulate or otherwise trap an entity, it has enough time to use its reaction and escape the effect or do so by making a Dex save at advantage.
-+ If the shape will not be structurally sound it collapses.
-+ If you are attempting to make something artistic or structurally sound, you must make a "Tinker" or "Fortify" roll at disadvantage.
-
-**Global**: If cast globally the area affected is 200ft plus 100ft per extra 4MP. In this case artistic or structurally coherent use is not possible.
-(4+2)
-
-**Upcast**: Target regains an extra HP per extra MP, to a maximum of 3. No extra effect on undead.
-
-___
-### Ensnare
-|Name|Ensnare [Nature]|
-|-|-|
-|Scope|local (global)|
-|MP Dice|1 (4)|
-|Target(s)|10ft radius centered on a square (200ft)| +3
-|Casting time|"main action" (1h + 20min per 4MP)|
-|Range|60ft|+1
-|Duration|1 min (1 hour+)|+3
-|Components|incantation, kinetic|-1
-|Conditions|Grappled|+2
-|Limitations|There must be plant life (at least "medium") within 120ft|-2 
-|Save|Dex or Str|-1
-
-**Description**: Vigorous plant life sprouts and grasps at all targets in range, causing them to be "grappled" on a failed save, and transforming it to difficult terrain.
-
-**Upcast (local)**: Increase the radius by 5ft for every 1MP of cost paid.
-
-**Global**: Create a zone of 200ft with the same properties. For every 4MP add either 100ft of radius or 1 hour of duration.
-(4+1+3+2-4)=(4+2)
-
-___
-### Foxfire
-|Name|Foxfire [Fire, Spirit]|
-|-|-|
-|-|-|
-|Scope|local (global)|
-|MP Dice|1 (4)|
-|Target(s)|5ft radius centered on a sq (100ft)|+1
-|Casting time|"main action" (1h + 20min per 4MP)|
-|Range|120ft| +2
-|Duration|1 min (1 hour)| +3
-|Components|incantation, kinetic| -1
-|Conditions|glowing|+2
-|Concentration|yes|-3
-|Save|Cha|
-
-**Description**: Harmless, supernatural flames spring forth in the area and persist, providing a dim illumination and potentially adhering to entities in the area. All targets that do not succeed a Cha save are "glowing" until the end of the spell. The target does not repeat the save at the end of its turn.
-
-**Global**: When cast globally the spell illuminates an area with a radius of 100ft and lasts for 1h plus 20 min for each extra 4MP. This use is popular at festivals and parties.
-
-___
-### Enflame
-|Name|Enflame [Fire, Mortal]|
-|-|-|
-|Scope|local|
-|MP Dice|1|
-|Target(s)|1 entity|
+|Target(s)|1 entity or sq|
 |Casting time|"main action"|
-|Range|30ft|
-|Duration|12 min| +3
-|Components|kinetic|
-|Limit|Cannot be applied to entities immune to "fear" and "charm"|
-|Save|Int|
+|Range|close/15ft|-1
+|Duration|1 minute|+6
+|Concentration|yes|
+|Components|incantation, kinetic|-1
+|Limitation|Target cannot be fire aligned to, or on fire|-1
+|Damage|1d12+[Sup]|+3
+|Attack|[SAP]+Int|
+|Save|Cha, spell fails|
 
-**Description**: Enflames the heart of the target. It gains:
-+ Immunity to "fear".
-+ Disadvantage vs "charm".
-+ It deals an extra +3 to damage with any Str based melee attacks and "supernatural" fire based abilities it has.
+**Description**: Collects a water weird and give control of it to the target. The caster may make a single attack with the weird (15ft reach) as a "main action" on the same turn and on subsequent turns. The weird may also carry out the "grapple" or "shove"/"throw" combat manoeuvres, or make simple interactions with its environment, similar to a 15ft snake. (-3+3+6=4+2)
 
-**Upcast**: Add 1 target for every extra MP dice used.
+**Special**: If the target is a square of water or ground, the caster retains control of the weird. If the target is an entity it may make a save to reject the spell, in which case the spell fails.
 
-___
-### Least Vengeance
-|Name|Least Vengeance [Curse, Destruction, Fire]|
-|-|-|
-|Scope|local|
-|MP Dice|1|
-|Target(s)|1 entity|
-|Casting time|"reaction" or "secondary action"|+4
-|Range|close|
-|Duration|"instantaneous"|
-|Components|incantation|+1
-|Limitation|The target MUST have dealt damage to you, or directly caused a harmful effect to you since the end of your last turn.|-2
-|Damage (if reaction)|1d8+[Sup], fire|
-|Damage (if "secondary action")|2d8+[Sup], fire|
-|Save|Dex|
-
-**Description**: Invoke fiery vengeance on a target that dealt damage, or otherwise attacked you since the end of your last turn.
-
-**Upcast**: Add +1d8 to the damage for every extra MP used.
+**Upcast**: Either the damage increases by 1d12, or the reach increases by 5ft for every 
 
 ___
 ### Winter's Touch
@@ -729,53 +776,6 @@ ___
 **Upcast**: For every MP dice added the spell's radius increases by 5ft (this also affects the caster). OR Increase the duration by 1 minute.
 
 **Global**: The spell's range is 100ft per 4 MP, centered on you (you are not affected) and lasts for a day. For every 4 MP either the radius increases by 100ft, or the duration increase by a day.
-
-___
-### Chill Blood
-|Name|Winter's Touch [Ice/Water, Mortal]|
-|-|-|
-|Scope|local|
-|MP Dice|1|
-|Target(s)|1+ entity|
-|Casting time|"main action"|
-|Range|close|-2
-|Duration|12 min|+3
-|Components|incantation, kinetic|-1
-|Focus|A faceted clear crystal|
-|Limitation|Entity cannot be immune to "fear" and "charm"|-1
-|Save|Cha|
-
-**Description**: Cool the target's passions, granting the following:
-- Immunity to charm.
-- Resistance to fear.
-- -10 to movement speed.
-
-**Upcast**: For every MP dice added the spell's radius increases by 5ft (this also affects the caster). OR Increase the duration by 1 minute.
-
-(7-4)/3 = 1
-
-___
-### Water Snake
-|Name|Water Snake [Water/ice, Spiritual]|
-|-|-|
-|Scope|local|
-|MP Dice|1|
-|Target(s)|1 entity or sq|
-|Casting time|"main action"|
-|Range|close/15ft|-1
-|Duration|1 minute|+6
-|Concentration|yes|
-|Components|incantation, kinetic|-1
-|Limitation|Target cannot be fire aligned to, or on fire|-1
-|Damage|1d12+[Sup]|+3
-|Attack|[SAP]+Int|
-|Save|Cha, spell fails|
-
-**Description**: Collects a water weird and give control of it to the target. The caster may make a single attack with the weird (15ft reach) as a "main action" on the same turn and on subsequent turns. The weird may also carry out the "grapple" or "shove"/"throw" combat manoeuvres, or make simple interactions with its environment, similar to a 15ft snake. (-3+3+6=4+2)
-
-**Special**: If the target is a square of water or ground, the caster retains control of the weird. If the target is an entity it may make a save to reject the spell, in which case the spell fails.
-
-**Upcast**: Either the damage increases by 1d12, or the reach increases by 5ft for every extra MP dice used. If the MP dice total is 3 or higher, the weird's attack is carried out as a "secondary action".
 
 ___
 ## MP 2 spells

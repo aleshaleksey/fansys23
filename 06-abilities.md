@@ -89,6 +89,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Still Spell](#still-spell)
 - [Spellcasting: Local](#spellcasting-local)
 - [Spellcasting: Global](#spellcasting-global)
+- [Spellsong I-IV](#spellsong-i-iv)
 
 ## Boon List
 
@@ -802,6 +803,34 @@ ___
 |Kinetic|Resistance to all "immobilise", "grapple", "restrain"|"Parry"|
 |Natural|Resistance to all "energy"|"Guide"|
 |Global|Resistance to all conditions|"Least Ward"|
+
+___
+#### Spellsong I-IV
+
+**Type**: Supernatural (C-A) 
+
+**Description**: Mingle song and spell to produce subtle modifications to the spells cast.
+
+**Action**: Declare spellsong when casting a spell that has a cast time of an "action" or "secondary action" and expend an extra 1 MP. The spell will now cost a "full round action". Declare which condition to apply or to cure (see "Spellsong table" below).
+
+**Duration**: As with "bard song", the singer must use a "secondary action" on each subsequent turn to maintain the spellsong and its effect. The signer can continue a song for a number of rounds equal to its Con score.
+
+**Effect**: The targets of the spell must succeed an additional Wis save (at the start of its turn) or be affected by the declared condition or cured of it. An entity affected by spellsong, makes a Wis save at the start of its turn as usual to end the effect on itself.
+
+ALTERNATIVELY, instead of picking a condition, if the spell has ONLY incantation components, make a ["perform"](05-skills.md#perform) roll. Any target observing the casting that does not succeed on an opposed ["Knowledge: Arcana"](05-skills.md#knowledge) roll does not recognise that a spell is being cast and cannot identify (although it can recognise that a spell has been cast from the effects after the fact). This is useful in situations where subtlety is required, and to obstruct counter-spelling.
+
+**Limitations**:
+- Only spells with incantation components can be modified with spellsong.
+- A character that is "aphonic", "silenced", or otherwise cannot produce sound cannot use "bard song".
+- A character that is "deafened" or otherwise cannot perceive sound cannot be affected by "bard song".
+
+**Spellsong table**: It should be noted that conditions from the "conditions" column can be applied or cured with spellsong, but conditions from the "cured only" column can be cured, but not applied, at that level of spellsong.
+|Spellsong Level|Perform Ranks|Minimum Spell MP dice cost|[Conditions](10-conditions-types.md#conditions-in-detail)|Cured Only
+|-|-|-|-|-|
+|I|1|1|"Deafened", "Aphonic"|"Frightened"|
+|II|3|2|"Charmed", "Frightened"|"Catatonic"|
+|III|5|3|"Bleeding", "Catatonic"|"Incapacitated"|
+|IV|7|4|"Incapacitated", "Immobilised"|"Paralysed"|
 
 ___
 ### Spellcasting

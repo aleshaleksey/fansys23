@@ -117,7 +117,9 @@ _____
 - Add extra spells "mandate of the deep, mage's oath"
 - "Pact" and "Promise" can now be used locally as well as globally.
 - Add "Summon Spirit" and "Lesser Incarnate" spells.
+- Add "Avatar" spell.
 
 ### Abilities
 - Add riposte.
 - Fix wording on aphonic, still and lingering spells.
+- Add "bard song", "spellsong", ..

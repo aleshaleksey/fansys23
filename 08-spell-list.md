@@ -847,7 +847,7 @@ ___
 |Condition|Catatonic|
 |Save|Cha (avoid effects), Wis(avoid condition)|
 
-**Description**: Much like a shadow of ["Least Flare"](#least-flare), the caster summons a shade and binds it to a valid target, giving it the "blinded" condition. An unwilling target may break the effect with a successful Cha save, thus ending the spell. The shade reaches out and extinguishes bright light within 40ft and dim light within a total radius of 100ft.
+**Description**: Much like a shadow of ["Least Flare"](#least-flare), the caster summons a shade and binds it to a valid target, giving it the "blinded" condition. An unwilling target may break the effect with a successful Cha save, thus ending the spell. The shade reaches out and extinguishes bright light within 40ft and dim light within a total radius of 100ft. This creates an area of darkness where [ordinary vision and low-light vision](02-base-rules.md#sight) are unable to penetrate, and entities that rely on this kind of vision are effectively ["blind"](10-conditions-types.md#conditions-in-detail). Other senses are not affected. 
 
 [angels](10-conditions-types.md#divine) within 40ft of the shade have disadvantage on attacks and saves.
 

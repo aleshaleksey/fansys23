@@ -64,6 +64,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 
 ### Natural (General)
 
+- [Bard Song I-IV](#bard-song-i-iv)
 - [Flash Step](#flash-step)
 
 ### Supernatural (Combat)
@@ -421,6 +422,36 @@ ___
 ___
 ### General Abilities (Natural)
 
+___
+#### Bard Song I-IV
+
+**Type**: C-A, natural.
+
+**Description**: Use song, oratory or instrumental skills to strongly influence emotions of listeners, hence providing a boon, such as warding off negative conditions (resistance), or gaining advantage on a single roll.
+
+**Action**: Declare bard song as a "secondary action" and expend 1 SP dice, make a ["perform"](05-skills.md#perform) roll to determine range (see below). Each subsequent turn use a "secondary action" to maintain bard song and reroll "perform" (no additional expenditure of SP is required). The song can be maintained for a number of rounds equal to your Con score.
+
+**Range**: ["perform" roll result] x 5ft.
+
+**Targets**: All allied entities within range that can hear the song.
+
+**Effect**: Each targets within range that can hear the song gain resistance to requisite conditions ("frightened", "catatonic", "incapacitated", "paralysed",depending on bard song level), as well as being able to gain advantage on a single roll per song (see "prerequisite table" below).
+
+**Limitations**:
+- A character that is "aphonic", "silenced", or otherwise cannot produce sound cannot use "bard song".
+- A character that is "deafened" or otherwise cannot perceive sound cannot be affected by "bard song".
+
+**Special**: On a perform roll of 24 or higher, a resistance of the performer's choice becomes an immunity for the duration of the song.
+
+**Prerequisites table**:
+|Bard Song Level|Perform Ranks|Resistance|Advantage|
+|-|-|-|-|
+|I|1|"frightened"|-|
+|II|3|"catatonic"|1 skill roll per song|
+|III|5|"incapacitated"|1 skill roll or save per song|
+|IV|7|"paralysed"|1 skill roll or save or attack roll per song|
+
+___
 #### Flash Step
 
 **Description**: As a "secondary action" move up to your base speed per SP dice expended. This movement does not provoke attacks of opportunity. While moving like this your jump distance is increased by 10ft per SP dice spent and you are not affected by difficult terrain.

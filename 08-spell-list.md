@@ -2296,7 +2296,7 @@ ___
 |Limitation|See below| -4
 |Save|Special|
 
-**Description**: The caster performs a ritual, incarnating the residual energy of an incorporeal being that has previously been destroyed into a humanoid vessel. The entity retains all of its powers and MP/MP dice as well as skills, abilities, WIS, INT and CHA. It also uses the HP and SP/SP dice of the vessel. The vessel must be a humanoid that is ["unconscious"](10-conditions-types.md#conditions-in-detail) for the whole of the ritual, and ["dying"](10-conditions-types.md#conditions-in-detail) during the last round.
+**Description**: The caster performs a ritual, incarnating the residual energy of an incorporeal being that has previously been destroyed into a humanoid vessel. The entity retains all of its powers and MP/MP dice as well as skills, abilities, WIS, INT and CHA. It also uses the HP and MP/SP dice of the vessel. The vessel must be a humanoid that is ["unconscious"](10-conditions-types.md#conditions-in-detail) for the whole of the ritual, and ["dying"](10-conditions-types.md#conditions-in-detail) during the last round.
 
 When the ritual is complete, the entity takes full control of the mortal vessel and controls it fully as if it was its own. It cannot leave the body it possess until the body is destroyed (reaches minus its HP total) or the spell ends.
 
@@ -2309,7 +2309,7 @@ When the spell ends one of the following things can happen (the final decision i
 
 
 **Limitations**:
-- The entity must be a "spirit", "divine" or a "fiend".
+- The entity must be a "spirit" (deceased mortals are usually considered "spirits" for this purpose), "divine" or a "fiend".
 - The entity must have a dice total (MP + SP) no more than three times the dice total of the caster.
 - The entity is not beholden to the caster and it is not obliged to obey the caster, although it may if it is so inclined.
 - The target entity is aware of who is trying return it and may attempt to resist. In this case the caster may disengage fom the ritual or try to force it. If the caster tries to force the issue, the target and caster make an opposed SAP roll. If the caster wins the ritual succeeds (although the caster may wish that it hadn't). If the ritual fails, the spell fails [catastrophically](07-magic-and-spellcasting.md#the-catastrophic-cascade) as if the spell was countered on the caster's location.
@@ -2353,6 +2353,43 @@ ___
 ___
 ## MP 10 Spells
 3+(2+11)x10/2=3+13x10/2 = 68
+
+____
+### Avatar
+|Name|Avatar [Divine, Profane]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|10(40)|
+|Target(s)|1 entity|
+|Casting time|2 full round actions (48 hours)|-3
+|Range|close|-1
+|Duration|1 minute (permanent)|+24
+|Components|incantation, kinetic|-1
+|Focus|A symbol associated with the divinity|-1
+|Material|A great sacrifice (perhaps a mortal of great purity and good for a deity associated with malice and destruction or a deed of self-sacrifice from a more noble deity, perhaps performed in the past)|-2
+|Material|A suitable mortal or construct to serve as a vessel|-2
+|Limitation|See below| -4
+|Save|Special|
+
+**Description**: The caster makes a transient link to a deep layer of divine realms and beseeches a powerful **"divinity"** (god) to descend and inhabit a mortal (or construct) vessel, hence creating an avatar of the deity on the mortal realm. The vessel must be willing. If the vessel is unwilling and unconscious, it must make a Wis save with the threshold = the caster's SAP+Wis threshold. If the target is otherwise unwilling, the spell fails.
+
+When the ritual is complete, the vessel is invigorated by the divine energy, restoring its MP, MP dice, SP and SP dice to full. At that moment the divinity takes full control of the mortal vessel and controls it fully as if it was its own (although either the DM or the player may control the avatar). The divinity uses its own stats, saves, abilities, skills, and attacks, but uses the HP, MP, SP (and dice) and effective level of the vessel. Thus it is limited, for example, in the number of MP or SP dice it may expend for a single ability or overall and the total MP/SP of the vessel.
+
+The divinity is in no way beholden to the caster, but may be inclined to reward them or assist them. Likewise, the divinity can make a contested Cha roll vs the host and leave the avatar at any point it wishes, hence ending the spell.
+
+No material form, mortal or construct, can withstand the stress of being a divine vessel. At the start of each of its turns, and every time the avatar takes a "main action" or "full round action", it loses 1HP of untyped damage. This damage cannot be reduced, negated or avoided in any way.
+
+Furthermore, when the spell ends and/or the deity leaves the avatar the mortal/construct host must make a CON and WIS save against the **divinity's CHA based save threshold**.
+- If it fails the CON save, each of its six stats (Str, Dex, Con, Int, Wis, Cha) are reduced by 2 permanently.
+- If it fails the WIS save, it loses 9 proficiency points from up to 4 skills (chosen by dice roll, counting down from the first skill till the number of ranks is 0, and then moving to the next randomly chosen skill if it has lost less than 9 points in total so far). It also forgets 7 abilities.
+
+
+**Limitations**:
+- Divinities are often picky about who will serve as their vessel. A dark god often prefers a vessel that is innocent and "pure" that it may best damage and corrupt it, or it may prefer a powerful vessel that can be best used complete its schemes. A kind god may prefer a vessel on the brink of destruction, or one that has endured great hardships, or it may prefer a champion of its cause (This is usually for the DM to decide). A deity that is not satisfied by the offered vessel may decide to ignore the call or punish the one who calls it.
+- The divinity is aware of who is calling upon it and decide to ignore the summons. In this case the caster may disengage fom the spell or try to force it. If the caster tries to force the issue, the target and caster make an opposed SAP roll. If the caster wins the spell succeeds (although the caster will likely wish that it hadn't). If the spell fails, it fails [catastrophically](07-magic-and-spellcasting.md#the-catastrophic-cascade) as if the spell was countered on the caster's location.
+
+**Global**: The spell lasts for as long as the vessel inhabited by the deity is not destroyed and the deity wishes to remain in it (but at least a week). Likewise, the avatar only takes the unavoidable damage when it takes a "main action" or "full round action".
+
 ____
 ### Mandate of the Deep
 (Spell rules break down here)
@@ -2404,7 +2441,6 @@ ____
 **Global**: The locale within 3/4 miles of the caster is sworn to the realm of water, and the caster is its regent. The spell acts as normal, with the exception that it has a radius of 3/4 of a mile.
 
 ____
-
 ### Realm of Flame
 |Name|Realm of Flame [Spiritual, Fire, Destruction]|
 |-|-|
@@ -2437,7 +2473,6 @@ ____
 **Global**: Realises the Realm of Flame onto the caster's current location. The radius is 1 mile. For every extra 4MP the radius increases by 200ft and the height increases by 10ft and the damage increases by 2d8.
 
 ____
-
 ### Undying Realm
 |||
 |-|-|
@@ -2470,6 +2505,8 @@ ____
 - The spell is permanent, but even if the spell is dispelled, the place it is cast forever resonates with an aura of [Curse, Divine, Profane, Spiritual] energies. Mortals born nearby may be cursed or blessed by the gods, or have otherworldly affinities or resistances.
 - After the spell is dispelled, the area is still affected as if by a permanent ["Rejuvenate Land"](#rejuvenate-land), likewise, entities that rest here roll a 1d6. On a 1, they gain a curse (as if affected by ["Curse"](#least-curse) cast with 3 MP dice). On a 6 they are healed (as if affected by ["Cure"](#cure) cast with 3 MP dice).
 - The caster gains the grudge of a divine entity, and the favour of a [glitch](10-conditions-types.md#divine), the later seldom being a good thing.
+
+____
 
 ___
 

@@ -108,6 +108,9 @@ ______
 _____
 ## From v0.0.6
 
+### General
+- Alphabetical order for ability.
+
 ### Races
 - Increase low light vision cost to 2 race-points.
 - Add all races to quick-start.

@@ -72,9 +72,12 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Cursed Blood](#cursed-blood)
 - [Divine Strike](#divine-strike)
 - [Elemental Blast](#elemental-blast)
+- [Elemental Blast, Greater (Linear)](#elemental-blast-greater-linear)
+- [Elemental Blast, Greateer (Radial)](#elemental-blast-greater-radial)
 - [Elemental Touch](#elemental-touch)
-- [Greater Elemental Blast (Linear)](#greater-elemental-blast-linear)
-- [Greater Elemental Blast (Radial)](#greater-elemental-blast-radial)
+- [Energy Affinity](#energy-affinity)
+- [Greater Elemental Blast (Linear)](#elemental-blast-greater-linear)
+- [Greater Elemental Blast (Radial)](#elemental-blast-greater-radial)
 - [Profane Strike](#profane-strike)
 - [Spell Strike](#spell-strike)
 - [Spirit Strike](#spirit-strike)
@@ -82,13 +85,13 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 ### Supernatural (General)
 
 - [Aphonic Spell](#aphonic-spell)
-- [Bind Familiar (I-IV)](#bind-familiar-i-iv)
 - [Bind Beast (I-X)](#bind-beast-i-x)
-- [Energy Affinity](#energy-affinity)
+- [Bind Familiar (I-IV)](#bind-familiar-i-iv)
 - [Lingering Spell](#lingering-spell)
 - [Still Spell](#still-spell)
 - [Spellcasting: Local](#spellcasting-local)
 - [Spellcasting: Global](#spellcasting-global)
+- [Spelldance I-IV](#spelldance-i-iv)
 - [Spellsong I-IV](#spellsong-i-iv)
 
 ## Boon List
@@ -205,6 +208,17 @@ ___
 |V|45|20|advantage|6|Advantage vs "stunned" & "incapacitated"|
 
 ___
+#### Broad Strike
+
+**Description**: Expend an SP dice and strike multiple foes adjacent to each other and in reach in one melee attack.
+
+**Action**: Roll attack once. Roll damage once. All targets whose HiT is met are hit.
+
+**Cost**: 1 SP dice is expended.
+
+**Original state**: A single melee attack can only strike one target.
+
+___
 #### Combined Manoeuvre I-V
 
 **Description**: Combine two or more different "basic combat manoeuvre"s in one attack.
@@ -232,38 +246,13 @@ ___
 **Original state**: A character must pick a single manoeuvre when making an attack.
 
 ___
-#### Far Throw I-V
+#### Counterstrike
 
-**Description**: Increase throw/shove distance by 5ft.
+**Description**: Gain an attack of opportunity against an attacker striking you with any melee attack.
 
-**Prerequisites**: For every extra 5ft this ability must be taken again.
+**Prerequisite**: 6 SP dice.
 
-|Throw distance |SP dice total|Ability name|
-|-|-|-|
-|15|6|Far Throw I|
-|20|13|Far Throw II|
-|25|25|Far Throw III|
-|30|37|Far Throw IV|
-|35|48|Far Throw V|
-
-**Original state**: The "throw" manoeuvre moves tha target 10ft + 5ft x size advantages.
-
-___
-#### Greater Manoeuvre I-V
-
-**Description**: Increase size gap where "Grapple", "Restrain", "Shove", "Throw" and "Trip" still work by 1.
-
-**Prerequisites**: For every extra size category, this ability must be taken again.
-
-|Size difference|SP dice total|Ability name|
-|-|-|-|
-|3|6|Greater Manoeuvre I|
-|4|13|Greater Manoeuvre II|
-|5|25|Greater Manoeuvre III|
-|6|37|Greater Manoeuvre IV|
-|7|48|Greater Manoeuvre V|
-
-**Original state**: The above manoeuvres do not work on targets more than two categories larger than yourself.
+**Original state**: In melee, only attacks with weapons the attacker is not proficient with provoke attacks of opportunity.
 
 ____
 #### Debilitating Strike
@@ -286,30 +275,6 @@ ____
 |"Incapacitated"|2|13|Incapacitating Strike|
 
 ___
-#### Flurry
-
-**Description**: As a "secondary action" make an extra attack or combat manoeuvre with a light weapon or unarmed strike. If you expend an SP dice, you get to make 2 attack.
-___
-#### Broad Strike
-
-**Description**: Expend an SP dice and strike multiple foes adjacent to each other and in reach in one melee attack.
-
-**Action**: Roll attack once. Roll damage once. All targets whose HiT is met are hit.
-
-**Cost**: 1 SP dice is expended.
-
-**Original state**: A single melee attack can only strike one target.
-
-___
-#### Counterstrike
-
-**Description**: Gain an attack of opportunity against an attacker striking you with any melee attack.
-
-**Prerequisite**: 6 SP dice.
-
-**Original state**: In melee, only attacks with weapons the attacker is not proficient with provoke attacks of opportunity.
-
-___
 #### Deflect Arrows
 
 **Type**: (Class B)
@@ -321,11 +286,50 @@ ___
 **Original state**: Ranged weapon attacks cannot be parried.
 
 ___
+#### Far Throw I-V
+
+**Description**: Increase throw/shove distance by 5ft.
+
+**Prerequisites**: For every extra 5ft this ability must be taken again.
+
+|Throw distance |SP dice total|Ability name|
+|-|-|-|
+|15|6|Far Throw I|
+|20|13|Far Throw II|
+|25|25|Far Throw III|
+|30|37|Far Throw IV|
+|35|48|Far Throw V|
+
+**Original state**: The "throw" manoeuvre moves tha target 10ft + 5ft x size advantages.
+
+___
+#### Flurry
+
+**Description**: As a "secondary action" make an extra attack or combat manoeuvre with a light weapon or unarmed strike. If you expend an SP dice, you get to make 2 attack.
+
+___
 #### Great Strike
 
 **Description**: Sacrifice precision for power when making melee attacks. (Swing like a helicopter).
 
 **Action**: When making an attack with a melee weapon, take a penalty up to your [Nat] to your attack roll and take the same number as a bonus to your damage if you hit.
+
+___
+#### Greater Manoeuvre I-V
+
+**Description**: Increase size gap where "Grapple", "Restrain", "Shove", "Throw" and "Trip" still work by 1.
+
+**Prerequisites**: For every extra size category, this ability must be taken again.
+
+|Size difference|SP dice total|Ability name|
+|-|-|-|
+|3|6|Greater Manoeuvre I|
+|4|13|Greater Manoeuvre II|
+|5|25|Greater Manoeuvre III|
+|6|37|Greater Manoeuvre IV|
+|7|48|Greater Manoeuvre V|
+
+**Original state**: The above manoeuvres do not work on targets more than two categories larger than yourself.
 
 ___
 #### Guardian's Counterstrike
@@ -348,16 +352,6 @@ ___
 **Prerequisite**: SP dice total of 6.
 
 **Special**: You must be aware of the attacker and the attack being made in order to use "parry".
-___
-#### Riposte
-
-**Type**: (Class A)
-
-**Description**: Make a targeted weapon attack against the attacking foe upon successfully parrying (once per round).
-
-**Action**: Once per round, when use of parry successfully causes an enemy's attack to miss, you may immediately make a single weapon attack (or other basic combat manoeuvre) against this enemy. The riposte is considered to be part of your parry for the sake of action economy and is essentially a "non-action".
-
-**Prerequisites**: 11 SP dice + "Counterstrike" + "Parry"
 
 ___
 #### Precision attack I-X
@@ -385,6 +379,17 @@ ___
 - Since it uses a "main action" it cannot be used as a "reaction".
 
 **Prerequisite table**: Precision attack has 10 levels. The maximum level of precision attack a character may have is [Level / 2]
+
+___
+#### Riposte
+
+**Type**: (Class A)
+
+**Description**: Make a targeted weapon attack against the attacking foe upon successfully parrying (once per round).
+
+**Action**: Once per round, when use of parry successfully causes an enemy's attack to miss, you may immediately make a single weapon attack (or other basic combat manoeuvre) against this enemy. The riposte is considered to be part of your parry for the sake of action economy and is essentially a "non-action".
+
+**Prerequisites**: 11 SP dice + "Counterstrike" + "Parry"
 
 ___
 #### Steel Wind Strike
@@ -476,6 +481,46 @@ ___
 **Prerequisite**: 6 MP dice total.
 
 ___
+#### Divine Strike
+
+**Type**: A/S Class
+
+**Description**: Expend MP to infuse a weapon attack with divine energy, dealing extra damage. This costs 2 MP per 1d6 of divine damage.
+
+**Declaration**: Must be made when the attack is called, however, for MELEE attacks the MP cost is only paid if the attack hits. For ranged and thrown weapon attacks the cost is always paid.
+
+**Limitations**: These are OPTIONAL rules for when playing with alignment:
+- A character with a "Profane" alignment cannot take this ability.
+- A character who gains this ability gains the "Divine" alignment and loses the ability to use it if they lose the alignment.
+
+**Special**: Must be taken separately for each weapon proficiency group.
+
+**Prerequisites**:
+- Proficiency with the given weapon group.
+- 12 SP dice total and 18 MP dice total.
+
+**Table**:
+
+|Level|Max Divine Damage|
+|-|-|
+|10-13|1d6|
+|14-16|2d6|
+|17-20|3d6|
+
+___
+#### Energy Affinity
+
+**Type**: (Class A)
+
+**Description**: Spend 1 MP dice to overcome damage resistance when dealing elemental/energy damage.
+
+**Declaration**: Declare and pay the price before calling the ability/attack/spell.
+
+**Prerequisites**: At least one "supernatural" ability that utilises the element.
+
+**Special**: Must be taken separately for each element.
+
+___
 #### Elemental Blast
 
 **Type**: (Class B)
@@ -508,7 +553,7 @@ ___
 **Special**: Elemental blast must be taken separately for each element.
 
 ___
-#### Greater Elemental Blast (Linear)
+#### Elemental Blast, Greater (Linear)
 
 **Type**: (Class B)
 
@@ -519,7 +564,7 @@ ___
 **Prerequisites**: 13 MP dice.
 
 ___
-#### Greater Elemental Blast (Radial)
+#### Elemental Blast, Greater (Radial)
 
 **Type**: (Class B)
 
@@ -559,32 +604,6 @@ ___
 **Prerequisites**: 3 MP dice total.
 
 **Special**: Elemental touch must be taken separately for each element.
-___
-#### Divine Strike
-
-**Type**: A/S Class
-
-**Description**: Expend MP to infuse a weapon attack with divine energy, dealing extra damage. This costs 2 MP per 1d6 of divine damage.
-
-**Declaration**: Must be made when the attack is called, however, for MELEE attacks the MP cost is only paid if the attack hits. For ranged and thrown weapon attacks the cost is always paid.
-
-**Limitations**: These are OPTIONAL rules for when playing with alignment:
-- A character with a "Profane" alignment cannot take this ability.
-- A character who gains this ability gains the "Divine" alignment and loses the ability to use it if they lose the alignment.
-
-**Special**: Must be taken separately for each weapon proficiency group.
-
-**Prerequisites**:
-- Proficiency with the given weapon group.
-- 12 SP dice total and 18 MP dice total.
-
-**Table**:
-
-|Level|Max Divine Damage|
-|-|-|
-|10-13|1d6|
-|14-16|2d6|
-|17-20|3d6|
 
 ___
 #### Profane Strike
@@ -592,18 +611,6 @@ ___
 **Type**: A/S Class
 
 **Description**: Exactly as "Divine Strike", but replace the word "Divine" with "Profane".
-
-___
-#### Spirit Strike
-
-**Type**: (Class A)
-
-**Description**: Spend 1 MP dice to deal "supernatural" damage with a "natural" weapon attack.
-
-**Limitation**: This must be an attack as defined in "[Basic Martial Manoeuvres](04-combat.md#basic-martial-manoeuvres)". It cannot be used in combination with abilities (other than "Multi-attack").
-- OPTIONAL: If playing with alignment rules, a character who gains "Spirit Strike" should be spiritually aligned, and cannot use this ability if they lose this alignment.
-
-**Prerequisites**: 12 MP dice total and 18 SP dice total.
 
 ___
 #### Spell Strike
@@ -637,17 +644,16 @@ ___
 |Seige|22|
 
 ___
-#### Energy Affinity
+#### Spirit Strike
 
 **Type**: (Class A)
 
-**Description**: Spend 1 MP dice to overcome damage resistance when dealing elemental/energy damage.
+**Description**: Spend 1 MP dice to deal "supernatural" damage with a "natural" weapon attack.
 
-**Declaration**: Declare and pay the price before calling the ability/attack/spell.
+**Limitation**: This must be an attack as defined in "[Basic Martial Manoeuvres](04-combat.md#basic-martial-manoeuvres)". It cannot be used in combination with abilities (other than "Multi-attack").
+- OPTIONAL: If playing with alignment rules, a character who gains "Spirit Strike" should be spiritually aligned, and cannot use this ability if they lose this alignment.
 
-**Prerequisites**: At least one "supernatural" ability that utilises the element.
-
-**Special**: Must be taken separately for each element.
+**Prerequisites**: 12 MP dice total and 18 SP dice total.
 
 ___
 ### General Abilities (Supernatural)
@@ -666,37 +672,6 @@ ___
 - Must be taken separately for each time of spellcasting.
 - Can be combined with "still spell" and "lingering spell".
 - This allows casting of spells with incantations when under the effects of "aphonia" or "inaudible".
-
-___
-#### Lingering Spell
-
-**Type**: (Class A)
-
-**Description**: Spend 1 MP dice to add the base duration of the spell to its total duration for non-global spell with a duration of at least one round.
-
-**Declaration**: Declare "lingering spell" before casting the spell.
-
-**Prerequisite**: 6 MP dice total + the ability to cast spells.
-
-**Special**:
-- Must be taken separately for each time of spellcasting.
-- Can be combined with "still spell" and "aphonic spell".
-
-___
-#### Still Spell
-
-**Type**: (Class A)
-
-**Description**: Spend 1 MP dice to cast a spell without kinetic components.
-
-**Declaration**: Declare "still spell" before casting the spell.
-
-**Prerequisite**: 6 MP dice total + the ability to cast spells.
-
-**Special**:
-- Must be taken separately for each time of spellcasting.
-- Can be combined with "aphonic spell" and "lingering spell".
-- This allows spellcasting when "immobilised" or "restrained".
 
 ___
 #### Bind Beast I-X
@@ -805,13 +780,68 @@ ___
 |Global|Resistance to all conditions|"Least Ward"|
 
 ___
+#### Lingering Spell
+
+**Type**: (Class A)
+
+**Description**: Spend 1 MP dice to add the base duration of the spell to its total duration for non-global spell with a duration of at least one round.
+
+**Declaration**: Declare "lingering spell" before casting the spell.
+
+**Prerequisite**: 6 MP dice total + the ability to cast spells.
+
+**Special**:
+- Must be taken separately for each time of spellcasting.
+- Can be combined with "still spell" and "aphonic spell".
+
+___
+#### Spelldance I-IV
+
+**Type**: Supernatural (C-A) 
+
+**Description**: Mingle dance and spell to produce modifications to the spells cast. This ability mirrors "spellsong" (below).
+
+**Action**: Declare "spelldance" when casting a spell that has a cast time of an "action" or "secondary action" and expend an extra 1 MP. This uses your "move action", although you may move up to half of its movement speed/distance during this time if it is otherwise possible. Declare which modifications apply to the spell (see "effects" and "Spellsong table" below).
+
+**Duration**: Similarly to "bard song", the dancer must use their "move action" on each subsequent turn to maintain the "spelldance" and its effect, if the spell has a duration. The signer can continue a song for a number of rounds equal to its Con score.
+
+**Effect**: Spelldance allows the spellcaster to produce one of the following effects:
+- Modify the shape of an area of affect spell slightly, including or excluding a number of 5ft squares equal to twice the level of the spelldance. For global spells this is a number of 200ft squares equal to twice the level of the spelldance.
+- Modify the damage type of the spell within certain subgroups (see below).
+- Obfuscate the spell if it has only kinetic components. In this case, make a ["perform"](05-skills.md#perform) roll. Any target observing the casting that does not succeed on an opposed ["Knowledge: Arcana"](05-skills.md#knowledge) roll does not recognise that a spell is being cast and cannot identify (although it can recognise that a spell has been cast from the effects after the fact). This is useful in situations where subtlety is required, and to obstruct counter-spelling.
+
+**Damage Group Conversions**: For the sake of spelldance, damage is grouped by themes, thus conversion is possible between thematically similar damage types. All damage types within the group ar mutually convertible by spelldance. On the other hand damage types *between* groups, or outside of them cannot be converted.
+
+|Group Name|Damage Types|
+|-|-|
+|Strength|All physical|
+|Poison|Poison, Necrotic, Cold|
+|Warmth|Fire, Light, Lightning|
+|Light|Light, Cold, Divine|
+|Destruction|Necrotic, Atrophic|
+
+**Special**: Conversions to "divine" or "atrophic" damage types increase the cost of the spell by 3 MP dice (instead of 1), and deal half of the damage to the caster as backlash for impinging on the domain of the gods.
+
+**Limitations**:
+- Only spells with kinetic components can be modified with spellsong.
+- A character that is "restrained", "immobilised", or is otherwise unable to move cannot use "spelldance".
+
+**Spelldance table**:
+|Spelldance Level|Perform Ranks|Minimum Spell MP dice cost|5ft Squares Moved|Damage Groups Conversions|
+|-|-|-|-|-|
+|I|1|1|2|-|
+|II|3|2|4|"Strength"|
+|III|5|3|6|"Poison", "Warmth"|
+|IV|7|4|8|"Light", "Destruction"|
+
+___
 #### Spellsong I-IV
 
 **Type**: Supernatural (C-A) 
 
 **Description**: Mingle song and spell to produce subtle modifications to the spells cast.
 
-**Action**: Declare spellsong when casting a spell that has a cast time of an "action" or "secondary action" and expend an extra 1 MP. The spell will now cost a "full round action". Declare which condition to apply or to cure (see "Spellsong table" below).
+**Action**: Declare "spellsong" when casting a spell that has a cast time of an "action" or "secondary action" and expend an extra 1 MP. The spell will now cost a "full round action". Declare which condition to apply or to cure (see "Spellsong table" below).
 
 **Duration**: As with "bard song", the singer must use a "secondary action" on each subsequent turn to maintain the spellsong and its effect. The signer can continue a song for a number of rounds equal to its Con score.
 
@@ -821,8 +851,8 @@ ALTERNATIVELY, instead of picking a condition, if the spell has ONLY incantation
 
 **Limitations**:
 - Only spells with incantation components can be modified with spellsong.
-- A character that is "aphonic", "silenced", or otherwise cannot produce sound cannot use "bard song".
-- A character that is "deafened" or otherwise cannot perceive sound cannot be affected by "bard song".
+- A character that is "aphonic", "silenced", or otherwise cannot produce sound cannot use "spellsong".
+- A character that is "deafened" or otherwise cannot perceive sound cannot be affected by "spellsong".
 
 **Spellsong table**: It should be noted that conditions from the "conditions" column can be applied or cured with spellsong, but conditions from the "cured only" column can be cured, but not applied, at that level of spellsong.
 |Spellsong Level|Perform Ranks|Minimum Spell MP dice cost|[Conditions](10-conditions-types.md#conditions-in-detail)|Cured Only
@@ -831,6 +861,22 @@ ALTERNATIVELY, instead of picking a condition, if the spell has ONLY incantation
 |II|3|2|"Charmed", "Frightened"|"Catatonic"|
 |III|5|3|"Bleeding", "Catatonic"|"Incapacitated"|
 |IV|7|4|"Incapacitated", "Immobilised"|"Paralysed"|
+
+___
+#### Still Spell
+
+**Type**: (Class A)
+
+**Description**: Spend 1 MP dice to cast a spell without kinetic components.
+
+**Declaration**: Declare "still spell" before casting the spell.
+
+**Prerequisite**: 6 MP dice total + the ability to cast spells.
+
+**Special**:
+- Must be taken separately for each time of spellcasting.
+- Can be combined with "aphonic spell" and "lingering spell".
+- This allows spellcasting when "immobilised" or "restrained".
 
 ___
 ### Spellcasting
@@ -905,7 +951,8 @@ So for example, to cast global 7th level Nature magic, a character must have eit
 ___
 ## Boons
 
-### Combat Boons
+___
+### Combat Boons (Natural)
 
 #### Alert
 
@@ -948,26 +995,6 @@ ___
 **Original state**: A character only adds their [size] and [Dex] to their evasion.
 
 ___
-#### Mental Fight
-
-**Type**: (Supernatural)
-
-**Description**: The following abilities are "supernatural" and go off MP dice and SAP (instead of SP dice and NAP):
-+ Flurry
-+ Unarmed Strike I-IX
-+ Debilitating Strike
-+ Flash Step
-
-**Prerequisites**:
-+ SP dice total of at least 7.
-+ MP dice total of at least 7.
-+ Any 3 of "Flurry", "Unarmed Strike", "Debilitating Strike" and "Flash Step".
-
-**Special**: Prerequisites for further improvements of these abilities are also transferred to MP dice total. You still use Str/Dex to make the attack (SAP + [Dex]/[Str]).
-
-**Warning**: This is a bit niche and build dependant. It is here as homage to the belief that these abilities can be either "natural" or "supernatural". It does not necessarily improve the build.
-
-___
 #### Mage Hunter I
 
 **Description**: You may make a melee attack of opportunity against entities casting spells within reach, even if there are no kinetic components.
@@ -1002,6 +1029,17 @@ ___
 **Limitations**: Multi-attack can NEVER be applied to supernatural abilities or spells.
 
 ___
+#### Offensive Buckler
+
+**Description**: Switch seamlessly between using a buckler offensively and defensively.
+
+**Original state**: A "secondary action" is to be used when switching between offensive and defensive use of aa buckler.
+
+**Benefits:** Switch between using a buckler as a weapon or a shield without using an action.
+
+**Prerequisites:** Proficiency with shields + 7 SP dice total.
+
+___
 #### Offhand fighting I-IV
 
 **Description**: Make one or more addition attacks with an offhand weapon with the "light" property as a "secondary" action when you make one or more attacks as a "basic martial manoeuvre: attack" with a one handed weapon as your "main action".
@@ -1019,94 +1057,11 @@ ___
 |4|Multi-attack III|Offhand fighting IV|
 
 ___
-#### Swift Shield Bash
-
-**Description**: Use a shield as an offhand weapon while using it as a shield.
-
-**Original state**: A shield can either be used as a shield or a weapon, not both.
-
-**Benefits:** A character can use a buckler, small shield or large shield as a shield (i.e. benefit from bonus to HiT and other benefits that it may bring), and still use it to make offhand attacks as a secondary action.
-
-**Prerequisites:**
-- Proficiency with Shields.
-- ["Offhand fighting"](#offhand-fighting-i-iv) ability.
-
-**Special**: A character that makes more than two offhand attacks with a shield in a round loses the bonus to HiT from the shield to the end of their next turn.
-
-___
 #### Opportunist
 
 **Description**: You may make attacks of opportunity against entities that are:
 - Standing up.
 - Drinking potions.
-
-___
-#### Skirmisher
-
-**Type**: (Natural, Class B)
-
-**Description**: Avoid all attacks of opportunity from a target that you have made a melee attack against for the rest of your turn.
-
-**Original state**: Characters moving out of threatened squares provoke attacks of opportunity. Attacks of opportunity when moving between threatened squares can be avoided using "cautious movement".
-
-___
-#### Swift strike
-
-**Description**: Your strikes are so quick that your attacks of opportunity hits before the triggering action is complete.
-
-**Prerequisite**: 10 SP dice.
-
-**Original state**: A reaction resolves after the action that provoked it.
-
-___
-#### Unarmed Strike I-IX
-
-**Description**: Increase damage dice of unarmed strikes. For each increase the ability must be taken again.
-
-**Prerequisites**: There is an SP dice prerequisite for each size increase.
-
-|Dice|SP dice total|Ability name|
-|-|-|-|
-|1d4|3|Unarmed Strike I|
-|1d6|8|Unarmed Strike II|
-|1d8|13|Unarmed Strike III|
-|2d4|18|Unarmed Strike IV|
-|1d10|23|Unarmed Strike V|
-|2d6|29|Unarmed Strike VI|
-|2d8|35|Unarmed Strike VII|
-|2d10|42|Unarmed Strike VIII|
-|2d12|49|Unarmed Strike IX|
-
-**Warning**: If it is damage you seek, this is not the ideal ability. It does however guarantee the ability to do a good amount of damage even when you don't have your big stick handy.
-
-___
-#### Safe Cast
-
-**Type**: (Class B)
-
-**Description**: Your spellcasting no longer provokes attacks of opportunity.
-+ This means that spells with kinetic components do not provoke attacks of opportunity.
-
-**Limitations**: Entities with the "mage hunter" boon can still make attacks of opportunity against your spells UNLESS you also have the "mage hunter" boon.
-
-**Prerequisites**:
-- Proficiency with at least one weapon proficiency group.
-- 4SP dice and 7 MP dice total.
-- At least one spellcasting ability.
-
-**Warning**: This boon is best used together with the "mage hunter" boon.
-
-___
-#### War Mage
-
-**Type**: (Class B)
-
-**Description**: Gain advantage on concentration saves when maintaining spells.
-
-**Prerequisites**:
-- Proficiency with at least one weapon proficiency group.
-- 4 SP dice and 7 MP dice total.
-- At least one spellcasting ability.
 
 ___
 #### Pointblank shot I-III
@@ -1143,31 +1098,6 @@ ___
 |21|Precise shot III|Ranged attacks ignore heavy concealment|
 
 ___
-#### Trick shot I-II
-
-**Description**: Calculate and execute attacks with ranged weapons that have unlikely trajectories.
-
-**Original state**: Ranged weapons shoot mostly in a straight line, often hitting the first thing that gets in the way (See "[Ranged Weapons, collateral and melee](11-weapons-armour.md#ranged-weapons-collateral-and-melee)").
-
-**Prerequisites and benefits**:
-
-|SP dice total|Name|Benefits|
-|-|-|-|
-|7|Trick shot I|Avoid hitting unintentional targets on the line at a -4 penalty to attack|
-|10|Trick shot II|Avoid hitting unintentional targets on the line|
-
-___
-#### Offensive Buckler
-
-**Description**: Switch seamlessly between using a buckler offensively and defensively.
-
-**Original state**: A "secondary action" is to be used when switching between offensive and defensive use of aa buckler.
-
-**Benefits:** Switch between using a buckler as a weapon or a shield without using an action.
-
-**Prerequisites:** Proficiency with shields + 7 SP dice total.
-
-___
 #### Shield Master
 
 **Description**: Use shields to defend against untargeted attacks.
@@ -1182,9 +1112,149 @@ ___
 - 8 SP dice total and 3 MP dice total.
 
 ___
+#### Skirmisher
+
+**Type**: (Natural, Class B)
+
+**Description**: Avoid all attacks of opportunity from a target that you have made a melee attack against for the rest of your turn.
+
+**Original state**: Characters moving out of threatened squares provoke attacks of opportunity. Attacks of opportunity when moving between threatened squares can be avoided using "cautious movement".
+
+___
+#### Swift Shield Bash
+
+**Description**: Use a shield as an offhand weapon while using it as a shield.
+
+**Original state**: A shield can either be used as a shield or a weapon, not both.
+
+**Benefits:** A character can use a buckler, small shield or large shield as a shield (i.e. benefit from bonus to HiT and other benefits that it may bring), and still use it to make offhand attacks as a secondary action.
+
+**Prerequisites:**
+- Proficiency with Shields.
+- ["Offhand fighting"](#offhand-fighting-i-iv) ability.
+
+**Special**: A character that makes more than two offhand attacks with a shield in a round loses the bonus to HiT from the shield to the end of their next turn.
+
+___
+#### Swift Strike
+
+**Description**: Your strikes are so quick that your attacks of opportunity hits before the triggering action is complete.
+
+**Prerequisite**: 10 SP dice.
+
+**Original state**: A reaction resolves after the action that provoked it.
+
+___
+#### Trick shot I-II
+
+**Description**: Calculate and execute attacks with ranged weapons that have unlikely trajectories.
+
+**Original state**: Ranged weapons shoot mostly in a straight line, often hitting the first thing that gets in the way (See "[Ranged Weapons, collateral and melee](11-weapons-armour.md#ranged-weapons-collateral-and-melee)").
+
+**Prerequisites and benefits**:
+
+|SP dice total|Name|Benefits|
+|-|-|-|
+|7|Trick shot I|Avoid hitting unintentional targets on the line at a -4 penalty to attack|
+|10|Trick shot II|Avoid hitting unintentional targets on the line|
+
+___
+#### Unarmed Strike I-IX
+
+**Description**: Increase damage dice of unarmed strikes. For each increase the ability must be taken again.
+
+**Prerequisites**: There is an SP dice prerequisite for each size increase.
+
+|Dice|SP dice total|Ability name|
+|-|-|-|
+|1d4|3|Unarmed Strike I|
+|1d6|8|Unarmed Strike II|
+|1d8|13|Unarmed Strike III|
+|2d4|18|Unarmed Strike IV|
+|1d10|23|Unarmed Strike V|
+|2d6|29|Unarmed Strike VI|
+|2d8|35|Unarmed Strike VII|
+|2d10|42|Unarmed Strike VIII|
+|2d12|49|Unarmed Strike IX|
+
+**Warning**: If it is damage you seek, this is not the ideal ability. It does however guarantee the ability to do a good amount of damage even when you don't have your big stick handy.
+
+___
+### Combat Boons (Supernatural)
+
+___
+#### Mental Fight
+
+**Type**: (Supernatural)
+
+**Description**: The following abilities are "supernatural" and go off MP dice and SAP (instead of SP dice and NAP):
++ Flurry
++ Unarmed Strike I-IX
++ Debilitating Strike
++ Flash Step
+
+**Prerequisites**:
++ SP dice total of at least 7.
++ MP dice total of at least 7.
++ Any 3 of "Flurry", "Unarmed Strike", "Debilitating Strike" and "Flash Step".
+
+**Special**: Prerequisites for further improvements of these abilities are also transferred to MP dice total. You still use Str/Dex to make the attack (SAP + [Dex]/[Str]).
+
+**Warning**: This is a bit niche and build dependant. It is here as homage to the belief that these abilities can be either "natural" or "supernatural". It does not necessarily improve the build.
+
+___
+#### Safe Cast
+
+**Type**: (Class B)
+
+**Description**: Your spellcasting no longer provokes attacks of opportunity.
++ This means that spells with kinetic components do not provoke attacks of opportunity.
+
+**Limitations**: Entities with the "mage hunter" boon can still make attacks of opportunity against your spells UNLESS you also have the "mage hunter" boon.
+
+**Prerequisites**:
+- Proficiency with at least one weapon proficiency group.
+- 4SP dice and 7 MP dice total.
+- At least one spellcasting ability.
+
+**Warning**: This boon is best used together with the "mage hunter" boon.
+
+___
+#### War Mage
+
+**Type**: (Class B)
+
+**Description**: Gain advantage on concentration saves when maintaining spells.
+
+**Prerequisites**:
+- Proficiency with at least one weapon proficiency group.
+- 4 SP dice and 7 MP dice total.
+- At least one spellcasting ability.
+
+
+___
 ### General Boons
 
 General boons are those that can come in handy in and out of combat.
+
+___
+#### Blind Sight I-VI
+
+**Type**: (Natural/Supernatural, Class A)
+
+**Description**: Gain the ability to see things even when "blinded" or effectively "blinded". Every time you take this, the range increases by 5ft.
+
+**Prerequisites**:
+|Blind Sight level|Range|MP/SP dice prerequisite|Other|
+|-|-|-|-|
+|I|5ft|5|-|
+|II|10ft|11|Blind Sight I|
+|III|15ft|17|Blind Sight II|
+|IV|20ft|23|Blind Sight III|
+|V|25ft|29|Blind Sight IV|
+|VI|30ft|35|Blind Sight V|
+
+**Special**: "Blind Sight" can be either natural or supernatural.
 
 ___
 #### Blink
@@ -1220,6 +1290,78 @@ ___
 **Description**: You can try to stealth from "light concealment".
 
 **Prerequisite**: At least one rank or "base" in "stealth".
+
+___
+#### Heat Sense I-V
+
+**Type**: (Natural/Supernatural, Class B)
+
+**Description**: Your vision can detect differences in temperature with pitch black (extreme cold) to blinding white (a blazing fire). You can see warm blooded creatures and other sources of heat even in complete darkness.
+
+**Special**: This ability is blocked as follows:
+- At levels I-III: By any solid material thicker than about an inch or by 3ft of water or other liquid.
+- At levels IV-V: By 3ft of earth, wood or organic material, or 1ft of stone or metal. It is also blocked by 10ft of water or other liquid.
+
+**Prerequisites**:
+|Heat Sense level|Range|MP dice prerequisite|Other|
+|-|-|-|-|
+|I|15ft|9|-|
+|II|30ft|15|Heat Sense I|
+|III|45ft|21|Heat Sense II|
+|IV|60ft|27|Heat Sense III|
+|V|90ft|33|Heat Sense IV|
+|VI|120ft|39|Heat Sense V|
+
+**Special**: "Heat sense" is a "supernatural" boon when taken with level points, but can be natural as part of a template or monster block.
+
+___
+#### Keen Senses I-III
+
+**Type**: (Supernatural, Class B)
+
+**Description**: Select either sight, smell or hearing. You gain advantage on all "observe" rolls based on this sense.
+
+**Prerequisites**:
+|Keen Senses level|MP dice prerequisite|Base prerequisite|Other|
+|-|-|-|-|
+|I|8|2|-|
+|II|16|3|Keen Senses I|
+|III|24|4|Keen Senses II|
+
+**Special**: "Keen senses" is a "supernatural" boon when taken with level points, but can be natural as part of a template or monster block.
+
+___
+#### Life Sense I-V
+
+**Type**: (Supernatural, Class S)
+
+**Description**: You gain the ability to see the life-force of other entities within the range of your "life sense". This sense does not detect "constructs" or "undead".
+
+**Special**:
+- This ability is blocked by 6ft of earth, wood or organic material, or 2ft of stone or metal.
+- An entity with life-sense automatically detects living beings in range unless they have full cover as described above, or are concealed or veiled *from this sense* by supernatural means.
+- Optionally, with a perception roll you can distinguish an entity's type, subtype and race/template/kind (threshold, 12, 16, 24), although a separate knowledge roll may be required to identify this if you are unfamiliar with the type, subtype or template.
+
+**Prerequisites**:
+|Life Sense level|Range|MP dice prerequisite|Other|
+|-|-|-|-|
+|I|15ft|12|-|
+|II|30ft|18|Life Sense I|
+|III|45ft|24|Life Sense II|
+|IV|60ft|30|Life Sense III|
+|V|90ft|36|Life Sense IV|
+|VI|120ft|42|Life Sense V|
+
+___
+#### Low-light Vision
+
+**Type**: (Natural/Supernatural, Class B)
+
+**Description**: You can see in low light conditions (eg a starry night) as if it was daytime. However, you cannot see in pitch black (a sealed cave or the oceanic abyss).
+
+**Prerequisites**: 15 MP dice.
+
+**Special**: "Low-light vision" is a "supernatural" boon when taken with level points, but can be natural as part of a template or monster block.
 
 ___
 #### Quick Mount
@@ -1323,83 +1465,6 @@ ___
 **Prerequisite**: 2 ranks in "Track".
 
 ___
-#### Low-light Vision
-
-**Type**: (Natural/Supernatural, Class B)
-
-**Description**: You can see in low light conditions (eg a starry night) as if it was daytime. However, you cannot see in pitch black (a sealed cave or the oceanic abyss).
-
-**Prerequisites**: 15 MP dice.
-
-**Special**: "Low-light vision" is a "supernatural" boon when taken with level points, but can be natural as part of a template or monster block.
-
-___
-#### Heat Sense I-V
-
-**Type**: (Natural/Supernatural, Class B)
-
-**Description**: Your vision can detect differences in temperature with pitch black (extreme cold) to blinding white (a blazing fire). You can see warm blooded creatures and other sources of heat even in complete darkness.
-
-**Special**: This ability is blocked as follows:
-- At levels I-III: By any solid material thicker than about an inch or by 3ft of water or other liquid.
-- At levels IV-V: By 3ft of earth, wood or organic material, or 1ft of stone or metal. It is also blocked by 10ft of water or other liquid.
-
-**Prerequisites**:
-|Heat Sense level|Range|MP dice prerequisite|Other|
-|-|-|-|-|
-|I|15ft|9|-|
-|II|30ft|15|Heat Sense I|
-|III|45ft|21|Heat Sense II|
-|IV|60ft|27|Heat Sense III|
-|V|90ft|33|Heat Sense IV|
-|VI|120ft|39|Heat Sense V|
-
-**Special**: "Heat sense" is a "supernatural" boon when taken with level points, but can be natural as part of a template or monster block.
-
-___
-#### Life Sense I-V
-
-**Type**: (Supernatural, Class S)
-
-**Description**: You gain the ability to see the life-force of other entities within the range of your "life sense". This sense does not detect "constructs" or "undead".
-
-**Special**:
-- This ability is blocked by 6ft of earth, wood or organic material, or 2ft of stone or metal.
-- An entity with life-sense automatically detects living beings in range unless they have full cover as described above, or are concealed or veiled *from this sense* by supernatural means.
-- Optionally, with a perception roll you can distinguish an entity's type, subtype and race/template/kind (threshold, 12, 16, 24), although a separate knowledge roll may be required to identify this if you are unfamiliar with the type, subtype or template.
-
-**Prerequisites**:
-|Life Sense level|Range|MP dice prerequisite|Other|
-|-|-|-|-|
-|I|15ft|12|-|
-|II|30ft|18|Life Sense I|
-|III|45ft|24|Life Sense II|
-|IV|60ft|30|Life Sense III|
-|V|90ft|36|Life Sense IV|
-|VI|120ft|42|Life Sense V|
-
-___
-#### Truesight I-V
-
-**Type**: (Supernatural, Class S)
-
-**Description**: You gain the ability to see through illusions and to see the true form of that which has been supernaturally transformed.
-
-**Special**:
-- Truesight is applied on top of of any other "sight", but does not apply to vision abilities ending with "sense" eg. "Tremor Sense"
-- Truesight does not allow one to see through solid objects or natural/mundane disguises, nor does it defeat stealth, unless the stealthed entity is using an illusionary feature to hide itself. 
-
-**Prerequisites**:
-|Life Sense level|Range|MP dice prerequisite|Other|
-|-|-|-|-|
-|I|30ft|12|-|
-|II|60ft|18|Life Sense I|
-|III|90ft|24|Life Sense II|
-|IV|120ft|30|Life Sense III|
-|V|150ft|36|Life Sense IV|
-|VI|180ft|42|Life Sense V|
-
-___
 #### Tremor Sense I-V
 
 **Type**: (Natural/Supernatural, Class A)
@@ -1422,39 +1487,25 @@ ___
 - "Tremor Sense" bypasses conventional concealment, making eg. hiding behind a crate useless, but is almost useless against flying entities or those with no path shorter than the ability's range that can be drawn through solid/liquid medium.
 
 ___
-#### Blind Sight I-VI
+#### Truesight I-V
 
-**Type**: (Natural/Supernatural, Class A)
+**Type**: (Supernatural, Class S)
 
-**Description**: Gain the ability to see things even when "blinded" or effectively "blinded". Every time you take this, the range increases by 5ft.
+**Description**: You gain the ability to see through illusions and to see the true form of that which has been supernaturally transformed.
 
-**Prerequisites**:
-|Blind Sight level|Range|MP/SP dice prerequisite|Other|
-|-|-|-|-|
-|I|5ft|5|-|
-|II|10ft|11|Blind Sight I|
-|III|15ft|17|Blind Sight II|
-|IV|20ft|23|Blind Sight III|
-|V|25ft|29|Blind Sight IV|
-|VI|30ft|35|Blind Sight V|
-
-**Special**: "Blind Sight" can be either natural or supernatural.
-
-___
-#### Keen Senses I-III
-
-**Type**: (Supernatural, Class B)
-
-**Description**: Select either sight, smell or hearing. You gain advantage on all "observe" rolls based on this sense.
+**Special**:
+- Truesight is applied on top of of any other "sight", but does not apply to vision abilities ending with "sense" eg. "Tremor Sense"
+- Truesight does not allow one to see through solid objects or natural/mundane disguises, nor does it defeat stealth, unless the stealthed entity is using an illusionary feature to hide itself. 
 
 **Prerequisites**:
-|Keen Senses level|MP dice prerequisite|Base prerequisite|Other|
+|Life Sense level|Range|MP dice prerequisite|Other|
 |-|-|-|-|
-|I|8|2|-|
-|II|16|3|Keen Senses I|
-|III|24|4|Keen Senses II|
-
-**Special**: "Keen senses" is a "supernatural" boon when taken with level points, but can be natural as part of a template or monster block.
+|I|30ft|12|-|
+|II|60ft|18|Life Sense I|
+|III|90ft|24|Life Sense II|
+|IV|120ft|30|Life Sense III|
+|V|150ft|36|Life Sense IV|
+|VI|180ft|42|Life Sense V|
 
 ___
 #### Xenophonia I-XIII

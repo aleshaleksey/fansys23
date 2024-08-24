@@ -139,9 +139,9 @@ Esoteric damage is caused by, typically powerful, supernatural beings. It typica
 
 **Divine** damage directly eliminates a target's spiritual essence. Targets without spirit (mainly objects) are not affected by this damage type. Profane beings and mortals are particularly vulnerable to it. Divine damage typically causes "unconscious", "catatonic", "immobilised", "incapacitated", "aphonia", "blinded" or "frightened". Beware the wrath of the gods. **NB**: Divine damage is caused only by high level abilities and powerful entities. Healing spells also cause divine damage, but only to undead.
 
-**Entropic** damage prevents the laws of creation from functioning, causing physical targets to disintegrate or mutate horribly, while spiritual targets are rendered down to pure chaos. Typically this damage type causes "crippled", "incapacitated" or "bleeding". **NB**: Divine damage is caused only by high level abilities and powerful entities.
+**Entropic** damage prevents the laws of creation from functioning, causing physical targets to disintegrate or mutate horribly, while spiritual targets are rendered down to pure chaos. Typically this damage type causes "crippled", "incapacitated" or "bleeding". **NB**: Entropic damage is caused only by high level abilities and powerful entities.
 
-**Profane** damage is caused **exclusively** by profane entities. It is the destruction of goodness and vital energies, as well as the draining of spiritual energy. Constructs and undead are the only entities that are safe from this damage type. It typically causes "dying", "paralysed", "immobilised", "restrained", "aphonia", "frightened" and "charmed".
+**Profane** damage is caused **exclusively** by profane entities. It is the destruction of goodness and vital energies, as well as the draining of spiritual energy. Constructs and undead are the only entities that are safe from this damage type. It typically causes "bleeding", "paralysed", "immobilised", "restrained", "aphonia", "frightened" and "charmed".
 
 ___
 #### Damage rankings
@@ -290,7 +290,7 @@ Profane beings are those that have been cursed by creation and whose nature driv
 - They also have immunity to "unconscious" and "dying".
 
 **Fiends** are entities opposed to creation or mortal-kind. In realms where they exist, devils and demons are fiends. Sometimes divine entities fall and become fiends. Fiends that do not reach minus their total HP from "divine" damage will be reborn elsewhere, at another time (hence cycles of dark lord and heroes).
-- Fiends are resistant to energy.
+- Fiends are resistant to energy ("fire", "ice", "lightning", "light").
 
 **Undead** are the bodies or souls of deceased mortals that refuse to rest.
 - Undead are immune to "stunned", "charmed", "frightened" and "paralysed".

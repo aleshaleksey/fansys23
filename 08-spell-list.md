@@ -101,12 +101,13 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Flawed Transmute](#flawed-transmute)
 - [Pact](#pact)
 - [Revenant](#revenant)
+- [Summon Fiend](#summon-fiend)
 
 ### MP 6
 - [Forest of Flame](#forest-of-flame)
 - [Razor Wind](#razor-wind)
 - [Legion of Dead](#legion-of-dead)
-- [](#)
+- [Summon Angel](#summon-angel)
 
 ### MP 9 Spells
 - [Mage's Oath](#mages-oath)
@@ -2192,6 +2193,35 @@ The target returns with all of its SP and MP and up to 12 HP.
 **Special**: The spell can be cast up to 7 times for the same target. However, on each casting following the first time, either the caster or an entity with at least as many MP or SP dice as the caster's total must be sacrificed (it must die in the ritual). If the sacrifice is not satisfactory, the life is lost but nothing is summoned.
 
 **Upcast**: For each 8MP dice put into the spell, the target stays in the mortal realm for an extra 24 hours.
+
+___
+### Summon Fiend
+|Name|Summon Fiend [Profane]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|5 (20)|
+|Target(s)|1sq (1sq)|
+|Casting time|"full round action" (5 hours + 1 hour per 4MP)|-2
+|Range|30ft (30ft)|
+|Duration|1 hour (1 week+)|+6
+|Components|incantation, kinetic|-1
+|Material|The blood (or essence) of an entity of the same species as the caster|-2
+|Limitation|A fiend will not willingly allow itself to be summoned by a divine, an nor can it be summoned to location that has a "divine" alignment of is otherwise consecrated.|-2
+|Concentration|local|
+|Save|-|
+
+**Description**: Summons a fiend of 9th level or lower, that will faithfully serve, or fight for the caster. The caster and fiend are able to communicate through this spell (this is moot as fiends can generally understand the thoughts of humanoids). 
+
+**Special**: You can only have one summon at any one time.
+
+**Limitation**: A fiend will not be willingly summoned by an entity aligned to the "divine". In this case a caster makes a contested Cha roll vs the fiend. If the fiend wins, it can chose to refuse the summons or to accept it, although in this case it is in no way under the caster's control and is likely to attack it.
+
+**Upcast**: For every MP dice added (4MP dice for global), the fiend's level can be increased by two.
+
+**Global**: The spell does not require concentration. Furthermore the spell can be cast in two ways globally:
+1. Like the "local" casting of the spell, but it lasts for a 1 week.
+2. The fiend is summoned to perform a single task, or favour, which may last any amount of time. However, the fiend will demand some kind of reward in exchange (eg, the sacrifice of an unwilling humanoid, the desecration of a holy site, an evil deed that will blacken the soul of the one performing it).
+
 ___
 ## MP 6 spells
 4+2+3+4+5+6+7
@@ -2274,7 +2304,34 @@ ___
 
 **Upcast**: The size of the one increases by 15ft per MP dice or the damage increases by 1d12.
 
-33
+___
+### Summon Angel
+|Name|Summon Angel [Divine]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|6 (24)|
+|Target(s)|1sq (1sq)|
+|Casting time|"full round action" (6 hours + 1 hour per 4MP)|-2
+|Range|30ft (30ft)|
+|Duration|1 hour (1 week+)|+6
+|Components|incantation, kinetic|-1
+|Focus|A symbol that is holy to the deity/concept that the angel serves|-1
+|Limitation|An angel cannot be summoned by one who its god does not approve of, or by one who acts/stands against the concept it personifies|-2
+|Concentration|local|
+|Save|-|
+
+**Description**: Summons an [angel](10-conditions-types.md#divine) of 11th level or lower, that will faithfully serve, or fight for the caster. The caster and angel are able to communicate (angels understand all languages anyway). 
+
+**Special**: You can only have one summon at any one time.
+
+**Limitation**: An angel cannot be summoned by one who its god does not approve of, and nor by one who acts/stands against the concept it personifies. In this case, the god may decide to send the angel at a time of its choosing anyway, but with the purpose of punishing/opposing the caster who attempted to summon it. In this case, a divine mark of the god appears on the hand or face of the caster, and a threshold=20 ["Knowledge: Religion"](05-skills.md#knowledge) roll is able to identify it as such.
+
+**Upcast**: For every MP dice added (4MP dice for global), the angel's level can be increased by two.
+
+**Global**: The spell does not require concentration. Furthermore the spell can be cast in three ways globally:
+1. Like the "local" casting of the spell, but it lasts for a 1 week.
+2. An angel can be summoned to bear witness to an oath or an event. Since angels are eternal and do not lie, an event that took place under the watch of an angel is considered beyond doubt.
+3. An angel can be called to become the "guardian angel" of a mortal who aligns with a concept or what a god stands for. The angel leaves a divine mark upon said mortal (recognisable with a threshold=24 "Knowledge: Religion" roll) and returns to its realm. The next three times that an attack or other event (other than HP loss caused by the ["dying" or "doomed"](10-conditions-types.md#conditions-in-detail) conditions) would outright kill the "guarded" mortal, it instead reduces their HP to 1.
 
 ___
 ## MP 7 spells
@@ -2748,6 +2805,7 @@ ___
     - []()
 
 - Other
+    - [Summon Fiend](#summon-fiend)
 
 ### MP 6+
 
@@ -2768,12 +2826,12 @@ ___
     - [Realm of Flame](#realm-of-flame) [10]
     - []()
 - Water
-    - [Mandate of the Deep](#mandate-of-the-deep)
+    - [Mandate of the Deep](#mandate-of-the-deep) [10]
     - []()
     - []()
 - Incantation
     - [Razor Wind](#razor-wind) [6]
-    - [Mage's Oath](#mages-oath)
+    - [Mage's Oath](#mages-oath) [9]
     - []()
 - Kinetic
     - []()
@@ -2784,7 +2842,8 @@ ___
 - Other
     - [Legion of Dead](#legion-of-dead) [6]
     - [Incarnate](#incarnate) [7]
-    - []()
+    - [Summon Angel](#summon-angel) [6]
+    - [Undying Realm](#undying-realm) [10]
     - []()
 
 ___

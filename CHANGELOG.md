@@ -110,6 +110,7 @@ _____
 
 ### General
 - Alphabetical order for ability.
+- Table for damage by type.
 
 ### Races
 - Increase low light vision cost to 2 race-points.
@@ -122,6 +123,7 @@ _____
 - Add "Summon Spirit" and "Lesser Incarnate" spells.
 - Add "Summon Angel" and "Summon Fiend" spells.
 - Add "Avatar" spell.
+- Add "Melt" spell.
 
 ### Abilities
 - Add riposte.

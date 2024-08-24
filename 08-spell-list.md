@@ -29,6 +29,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Bear's Claws](#bears-claws)
 - [Beast Speech](#beast-speech)
 - [Chill Blood](#chill-blood)
+- [Ensnare](#ensnare)
 - [Enflame](#enflame)
 - [Foxfire](#foxfire)
 - [Gnomes' Mercy](#gnomes-mercy)
@@ -72,6 +73,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Guidance of the Earth](#guidance-of-the-earth)
 - [Guidance of the Winds](#guidance-of-the-winds)
 - [Least Curse](#least-curse)
+- [Melt](#melt)
 - [Mole](#mole)
 - [Storm Ward](#storm-ward)
 - [Summer's Blade](#summers-blade)
@@ -113,6 +115,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Mage's Oath](#mages-oath)
 
 ### MP 10 Spells
+- [Avatar](#avatar)
 - [Realm of Flame](#realm-of-flame)
 - [Mandate of the Deep](#mandate-of-the-deep)
 - [Undying realm](#undying-realm)
@@ -1524,6 +1527,32 @@ ___
 **Global**: The curse is permanent. If upcast to cost 20 MP dice the caster may choose three C Class, two B class or 1 A class condition.
 
 ___
+### Melt
+|Name|Melt [Fire, Spring, Destruction]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|3 (12)|
+|Target(s)|4 objects occupying no more than a roughly 5ft cube each (50ft radius)|+3
+|Casting time|1 main action (1h + 20min per 4MP)|
+|Range|30ft|+2
+|Duration|1 minute (1 hour)|+6
+|Components|Incantation|
+|Focus||
+|Material||
+|Limitation||
+|Damage|2d8+[Sup] Fire|
+|Save|Con|
+
+**Description**: The caster chooses up to 4 objects, each no larger than "medium", or materials occupying a volume of no more than 4 contiguous 5ft cubes. The targets heat up rapidly and if the [material is of level II](12-equipment-economy.md#material-level) or lower, take 1 point of damage (that bypasses damage reduction) every round as they melt (and potentially catch fire, or set fire to materials they are in contact with).
+
+If the target object/material is in contact with an entity at the start of its turn, then the entity must succeed on a Con save or take 2d8 + [Sup] fire damage.
+
+**Upcast**: At 4 MP dice the spell affects level III materials. At 7 MP dice, the spell affects level IV materials.
+
+**Global**: The spell targets all materials/objects (of material level II or lower) in a 50ft radius and lasts for 1 hour.
+
+
+___
 ### Mole
 |Name|Mole [Earth, Nature, Travel]|
 |-|-|
@@ -2632,9 +2661,11 @@ ___
 - Nature
     - [Bear's Claws](#bears-claws)
     - [Beast Speech](#beast-speech)
+    - [Ensnare](#ensnare)
     - [Least Heal](#least-heal)
 - Air
     - [Headwind](#headwind)
+    - [Least Flare](#least-flare)
     - [Tailwind](#tailwind)
     - [Spirits' Secret](#spirits-secret)
 - Earth
@@ -2644,6 +2675,7 @@ ___
 - Fire
     - [Enflame](#enflame)
     - [Foxfire](#foxfire)
+    - [Least Flare](#least-flare)
     - [Least Vengeance](#least-vengeance)
 - Water
     - [Chill Blood](#chill-blood)
@@ -2672,6 +2704,7 @@ ___
     - [Silence](#silence)
     - [Summon Wind Sprite](#summon-wind-sprite)
 - Earth
+    - [Dusk](#dusk)
     - [Earthen Hand](#earthen-hand)
     - [Summon Gnome](#summon-gnome)
     - [Warded Ground](#warded-ground)
@@ -2680,6 +2713,7 @@ ___
     - [Summon Fire Sprite](#summon-flame-sprite)
     - [Warmth](#warmth)
 - Water
+    - [Dusk](#dusk)
     - [Least Transformation](#least-transformation)
     - [Summon Water Sprite](#summon-water-sprite)
 - Incantation
@@ -2706,15 +2740,14 @@ ___
     - [Wind Walk](#wind-walk)
     - [Guidance of the Winds](#guidance-of-the-winds)
 - Earth
-    - [Dusk](#dusk)
     - [Earth Ward](#earth-ward)
     - [Mole](#mole)
     - [Guidance of the Earth](#guidance-of-the-earth)
 - Fire
     - [Command Mortal](#command-mortal)
+    - [Melt](#melt)
     - [Summer's Blade](#summers-blade)
 - Water
-    - [Dusk](#dusk)
     - [Water Walk](#water-walk)
     - [Water Ward](#water-ward)
     - [Winter's Blade](#winters-blade)
@@ -2723,6 +2756,7 @@ ___
     - [Least Curse](#least-curse)
 - Incantation
   - [Cure](#cure)
+  - [Melt](#melt)
   - [Mole](#mole)
   - [Wind Walk](#wind-walk)
 - Kinetic
@@ -2761,7 +2795,7 @@ ___
   - [Speak Through Flame](#speak-through-flame)
   - [Summon Spirit](#summon-spirit)
 - Kinetic
-  - [Aquous Step](#aqueous-step)
+  - [Aqueous Step](#aqueous-step)
   - [Bestial Transformation](#bestial-transformation)
   - [Mirage](#mirage)
   - [Scry](#scry)
@@ -2841,8 +2875,9 @@ ___
 
 - Other
     - [Legion of Dead](#legion-of-dead) [6]
-    - [Incarnate](#incarnate) [7]
     - [Summon Angel](#summon-angel) [6]
+    - [Incarnate](#incarnate) [7]
+    - [Avatar](#avatar)[10]
     - [Undying Realm](#undying-realm) [10]
     - []()
 

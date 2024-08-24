@@ -120,6 +120,7 @@ _____
 - Add extra spells "mandate of the deep, mage's oath"
 - "Pact" and "Promise" can now be used locally as well as globally.
 - Add "Summon Spirit" and "Lesser Incarnate" spells.
+- Add "Summon Angel" and "Summon Fiend" spells.
 - Add "Avatar" spell.
 
 ### Abilities

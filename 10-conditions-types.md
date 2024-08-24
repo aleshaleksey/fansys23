@@ -56,6 +56,12 @@ ___
 Damage over time is defined in the ["Combat: Damage and effects over time"](04-combat.md#damage-and-effects-over-time) section.
 
 ___
+
+### HP damage and conditions
+
+When an entity loses HP due to damage, it must make a threshold=16 CON save or suffer a condition that the damage can cause (usually rolled by the DM on the ["Conditions by Damage Type"](#conditions-by-damage-type) table).
+
+___
 #### Mundane, magical and spiritual weapons
 
 Weapons can be mundane, magical or spiritual.
@@ -422,3 +428,27 @@ An entity afflicted by conditions that make it unable to engage in physical comb
 - "**Deafened**": A deafened character cannot perceive sound. It cannot hear. It can speak only stutteringly. It must make an [INT] save to complete Incantations (unless it is deaf for longer than month).
 - "**Surprised**": A surprised character dropped the ball. It cannot take any actions. This condition seldom exists outside of the first round of combat.
   - It does not gain [STATS] to AC.
+
+### Conditions by Damage Type
+
+When an entity loses HP (but *NOT* MP or SP) due to a named damage type, it makes a CON save or suffers a random condition associated with the damage type.
+
+||1|2|3|4|5|6|
+|-|-|-|-|-|-|-|
+|Piercing|Bleeding||Bleeding||Bleeding||
+|Slashing|Bleeding|Crippled|Bleeding|Crippled|Bleeding|Crippled|
+|Bludgeoning|Prone|Crippled|Prone|Crippled|Prone|Crippled|
+|Shear||Crippled||Crippled||Crippled|
+|Pressure|Stunned|Frightened|Prone|Incapacitated|Stunned|Frightened|
+|||||||||||||
+|Poison|???|???|???|???|???|???|
+|Necrotic|Bleeding|Disease|Blinded|Bleeding|Disease|Blinded|
+|||||||||||||
+|Fire|Incapacitated|Blinded|Incapacitated|Blinded|Incapacitated|Blinded|
+|Cold|Incapacitated|Immobilised|Incapacitated|Immobilised|Incapacitated|Immobilised|
+|Lightning|Paralysed|Immobilised|Stunned|Paralysed|Immobilised|Stunned|
+|Light|Frightened|Blinded|Catatonic|Incapacitated|Frightened|Blinded|
+|||||||||||||
+|Divine|Unconscious|Catatonic|Immobilised|Incapacitated|Aphonia|Frightened|
+|Entropic|Crippled|Incapacitated|Frightened|Crippled|Incapacitated|Frightened|
+|Profane|Bleeding|Paralysed|Immobilised|Restrained|Aphonia|Frightened|

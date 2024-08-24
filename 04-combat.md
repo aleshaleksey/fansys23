@@ -76,6 +76,10 @@ An item or entity with immunity to a damage type does not take damage from that 
 
 An item or entity vulnerable to a damage type takes an extra half of the damage it would normally suffer.
 
+### HP damage and conditions
+
+When an entity loses HP due to damage, it must make a threshold=16 CON save or suffer a condition that the damage can cause (usually rolled by the DM on the ["Conditions by Damage Type"](10-conditions-types.md#conditions-by-damage-type) table).
+
 ### Damage and effects over time
 
 Some effects and damage have an immediate or short term effect (eg. being hit over the head with a hammer), others have a longer term effect (eg. being on fire). If the effect allows a save, the save is made before the effect takes place, just as an attack roll is made before damage/manoeuvre outcome might be applied.

@@ -3,7 +3,32 @@
 Monsters are mortals. They generally breath, eat, drink and sleep, but not all of them do. They are generally predatory and dangerous to humanoids.
 
 ___
-### 
+### Cradle Imp
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|12/8/12|6|6|2|20ft|30ft Fly(poor)|
+
+Tiny(+2/-2)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|6|14|10|5|10|12|
+|Bonus|-2|+2|0|-3|0|+1|
+|Save|-1|+3|0|-2|+1|+2|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|1(1)|3|2|1|1|2|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite|+4|1d3+2[Shear]|The imp's bite contains a poison. The target must succeed a Threshold=14 CON save *immediately* when hit. If it fails, then it suffers from "aphonia". The aphonia lasts for an hour. It also becomes "immobilised" *at the end of its turn*. The save is repeated at the start of every turn. Upon success, victim is no longer affected by "immobilised", but the "aphonia" remains.|
+|Mimicry|||A motionless Cradle Imp is nigh indistinguishable from a plus toy. However, the difference is detectable with "Truesight" or a Threshold=17 observe roll, by entities with "Keen Senses: Scent" or "Heat-sense".
+|Skills|||"Stealth: +4", "Deception: +3"|
+|Senses|||"Heat Sense", "Keen senses: Hearing"|
+
+Cradle Imps are small predatory monsters that are nigh indistinguishable from plush toys. They hunt humanoid infants by pretending to be plush animals and waiting to be taken home. When the infant and those that protect it are asleep, it gnaws through its pray's neck and devours it.
+
 ___
 ### Mog
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|

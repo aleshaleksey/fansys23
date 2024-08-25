@@ -142,6 +142,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Tracker: Swift](#tracker-swift)
 - [Terrain Mastery](#terrain-mastery)
 - [Tremor Sense I-VI](#tremor-sense-i-v)
+- [Truesight](#truesight-i-v)
 - [Xenophonia](#xenophonia-i-xiii)
 
 ### Combat Abilities (Natural)
@@ -1501,11 +1502,11 @@ ___
 |Life Sense level|Range|MP dice prerequisite|Other|
 |-|-|-|-|
 |I|30ft|12|-|
-|II|60ft|18|Life Sense I|
-|III|90ft|24|Life Sense II|
-|IV|120ft|30|Life Sense III|
-|V|150ft|36|Life Sense IV|
-|VI|180ft|42|Life Sense V|
+|II|60ft|18|Truesight I|
+|III|90ft|24|Truesight II|
+|IV|120ft|30|Truesight III|
+|V|150ft|36|Truesight IV|
+|VI|180ft|42|Truesight V|
 
 ___
 #### Xenophonia I-XIII

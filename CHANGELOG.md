@@ -111,6 +111,7 @@ _____
 ### General
 - Alphabetical order for ability.
 - Table for damage by type.
+- Add monsters.
 
 ### Races
 - Increase low light vision cost to 2 race-points.

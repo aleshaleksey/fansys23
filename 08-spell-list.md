@@ -2385,7 +2385,7 @@ ___
 |Concentration|local|
 |Save|-|
 
-**Description**: Summons an [angel](10-conditions-types.md#divine) of 11th level or lower, that will faithfully serve, or fight for the caster. The caster and angel are able to communicate (angels understand all languages anyway). 
+**Description**: Summons an [angel](10-conditions-types.md#divine) of 8th level or lower, that will faithfully serve, or fight for the caster. The caster and angel are able to communicate (angels understand all languages anyway). 
 
 **Special**: You can only have one summon at any one time.
 

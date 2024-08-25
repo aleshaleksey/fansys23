@@ -2414,14 +2414,14 @@ ___
 |Scope|local (global)|
 |MP Dice|7 (28)|
 |Target(s)|1 entity|
-|Casting time|"main action" (2h + 40min per 4MP)|
+|Casting time|"main action" (3h + 40min per 4MP)|
 |Range|15ft|
 |Duration|1h (1 week)|+6
 |Limitation|Target must be a mortal|
 |Components|kinetic|(6)
 |Save|Wis|
 
-**Description**: The target transforms into any ["mortal"](10-conditions-types.md#mortals) of its own level or lower. It replaces its character sheet with that of the entity it transforms into, although it retains its own equipment and memories.
+**Description**: The target transforms into any ["mortal"](10-conditions-types.md#mortals) of its own level or lower. It replaces its character sheet with that of the entity it transforms into, although it retains its own equipment and memories. An unwilling target can attempt a WIS save to negate the effects of the spell. On a success the spell does not occur.
 
 **Special**:
 - Shapeshifters can ignore the effects of this spell.

@@ -124,6 +124,7 @@ _____
 - Add "Summon Angel" and "Summon Fiend" spells.
 - Add "Avatar" spell.
 - Add "Melt" spell.
+- Add "Transform Mortal" spell.
 
 ### Abilities
 - Add riposte.

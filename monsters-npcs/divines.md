@@ -17,16 +17,16 @@ ___
 ### Lesser Messenger
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/-/12|31|24|8|30ft|Fly (100ft)|
+|15/-/12|31|24|9|30ft|Fly, good (100ft)|
 
 Small (+1/-1)
 Deflection +2
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|13|16|13|14|16|-|
-|Bonus|+1|+3|+1|+2|+3|-|
-|Save|+3|+5|+3|+6|+7|-|
+|Stat|13|16|14|14|16|-|
+|Bonus|+1|+3|+2|+2|+3|-|
+|Save|+3|+5|+4|+6|+7|-|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
@@ -60,16 +60,16 @@ ___
 ### Watcher
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/-/12|31|24|8|30ft|Fly (100ft)|
+|15/-/12|63|95|19|30ft|Fly (100ft, good)|
 
 Medium (+1/-1)
 Deflection +2
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|13|16|15|16|19|20|
-|Bonus|+1|+3|+2|+3|+4|+5|
-|Save|+4|+6|+4|+10|+11|+12|
+|Stat|13|16|16|16|19|20|
+|Bonus|+1|+3|+3|+3|+4|+5|
+|Save|+4|+6|+6|+10|+11|+12|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
@@ -96,7 +96,7 @@ Deflection +2
 
 A watcher exists to watch over an area, entity or event. Often they have a directive to not interfere.
 
-A watcher seldom engages threats that do not interfere with its mission, or those that are not capable of damaging it. Nor do they retaliate against attacks not capable of harming them. On occasion, the discovery of a watcher will jeopardise its mission. In that case those who discovered it may be eliminated, depending on the kind of god the watcher serves.
+A watcher seldom engages threats that do not interfere with its mission, or those that are not capable of damaging it. Nor do they retaliate against attacks not capable of harming them. On occasion, the discovery of a watcher will jeopardise its mission. In that case those who discovered it may be eliminated, depending on the kind of god the watcher serves. When watchers engage in combat, they generally aim to eliminated all threats swiftly using Razor Wind, Elemental Blast (large radius) or divine strike as appropriate. If this is not possible, a watcher will use weather control and superior mobility to chip away at their foes over a period of time.
 
 Watchers have free will. Some sages believe that belies the true purpose of their vigil.
 

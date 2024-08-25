@@ -111,6 +111,10 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Legion of Dead](#legion-of-dead)
 - [Summon Angel](#summon-angel)
 
+### MP 7
+- [Incarnate](#incarnate)
+- [Transform Mortal](#transform-mortal)
+
 ### MP 9 Spells
 - [Mage's Oath](#mages-oath)
 
@@ -1838,7 +1842,7 @@ ___
 
 ___
 ### Bestial Transformation
-|Name|Balance Bestial Transformation [Curse, Mortal, Nature]|
+|Name|Bestial Transformation [Curse, Mortal, Nature, Water]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|4 (16)|
@@ -2402,6 +2406,44 @@ When the spell ends one of the following things can happen (the final decision i
 - The spell can NEVER be cast on the same target more than once.
 
 **Upcast**: For each 8MP dice put into the spell, the target stays in the mortal realm for an extra week.
+
+___
+### Transform Mortal
+|Name|Transformation Mortal [Curse, Mortal, Nature, Water]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|7 (28)|
+|Target(s)|1 entity|
+|Casting time|"main action" (2h + 40min per 4MP)|
+|Range|15ft|
+|Duration|1h (1 week)|+6
+|Limitation|Target must be a mortal|
+|Components|kinetic|(6)
+|Save|Wis|
+
+**Description**: The target transforms into any ["mortal"](10-conditions-types.md#mortals) of its own level or lower. It replaces its character sheet with that of the entity it transforms into, although it retains its own equipment and memories.
+
+**Special**:
+- Shapeshifters can ignore the effects of this spell.
+- The target, if it fails the initial save, does not get another chance to save.
+- If the target is not at full HP/SP/MP/SP dice/MP dice, subtract the missing amount from the maximum value of the new form. If the starting total for HP/SP/MP/SP dice/MP dice is below 1, it is set to 1 instead.
+
+**Limitation**: The caster can specify the appearance of what the target transforms into, but cannot specify a specific individual of a certain race. For example the following three are valid (assuming that you are familiar with them):
+- "I transform into a ginger tabby cat with purple eyes".
+- "I transform into an elf that looks exactly like Mallos Nuora."
+- 'I transform into a red dragon."
+
+While the following are not:
+- "I want to transform into the witch's cat familiar, Ginger."
+- "I want to transform into Mallos Nuora."
+- "I want to transform into the dragon, Argargargior the Great."
+
+Thus when this spell is used, the DM and player (but mostly the DM) pick out an appropriate stat block to use. Certainly in most (or all cases) this spell does not give a player access to the DM's NPC stat blocks.
+
+**Upcast**: For every extra MP dice spend, the caster can either extend the spell by an extra hour, select an additional target, or increase the maximum level of the resulting mortal by 1.
+
+**Global**: The spell lasts for a week. For every 4MP the spell lasts an extra week and the maximum level of the resulting mortal increases by 1. It cannot be cancelled voluntarily.
+
 ___
 ## MP 9 Spells
 3+(2+10)x9/2=3+12x9/2=3+6x9= 57
@@ -2786,6 +2828,7 @@ ___
 - Water
     - [Aqueous Step](#aqueous-step)
     - [Balance of Elements](#balance-of-elements)
+    - [Bestial Transformation](#bestial-transformation)
     - [Mirage](#mirage)
     - [Scry](#scry)
 - Incantation
@@ -2844,7 +2887,7 @@ ___
 ### MP 6+
 
 - Nature
-    - []()
+    - [Transform Mortal](#transform-mortal) [7]
     - []()
     - []()
 - Air
@@ -2860,8 +2903,8 @@ ___
     - [Realm of Flame](#realm-of-flame) [10]
     - []()
 - Water
+    - [Transform Mortal](#transform-mortal) [7]
     - [Mandate of the Deep](#mandate-of-the-deep) [10]
-    - []()
     - []()
 - Incantation
     - [Razor Wind](#razor-wind) [6]

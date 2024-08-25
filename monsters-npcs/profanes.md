@@ -1,5 +1,12 @@
 ## Profane: Undead
 
+1. [Corporeal Horror, Lesser](#lesser-corporeal-horror)
+2. [Shade, Cursed, Lesser](#cursed-shade-lesser)
+3. [Shade, Earthbound, Lesser](#earthbound-shade-lesser)
+4. [Skeleton, Humanoid](#skeleton-humanoid-levels-1-5)
+5. [Zombie, Humanoid](#zombie-humanoid-levels-1-5)
+6. []()
+
 Undead are mortals that died but failed to move on. They are cursed by creation and driven to destroy or oppose it in some way. Undead do not breath, sleep. They are vulnerable to "divine" damage. However they are immune to "disease", "unconscious", "dying", "stunned", "charmed", "frightened" and "paralysed" and "resistant" to "physical" damage.
 
 As all profane entities, undead do not sleep or breath, and most do not age, eat or drink.
@@ -188,6 +195,11 @@ Large(-1/+1)
 |Senses|||"low-light vision", "life-sense" 30ft|
 
 A corporeal horror is produced when incomplete remains are animated together, producing a single whole. These undead often retain the vestiges of the memories of the mortals they comprise of. However, it is rare for them to show true intelligence. Due to the processes involved, a corporeal horror can take seemingly contradictory actions as it is driven simultaneously by a desire for release and the desire for others to meet a fate worse than its own.
+
+___
+## Fiends
+
+### ???
 
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|

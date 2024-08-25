@@ -100,6 +100,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 
 ### MP 5
 - [Flame Stride](#flame-stride)
+- [Flame Ward](#flame-ward)
 - [Flawed Transmute](#flawed-transmute)
 - [Pact](#pact)
 - [Revenant](#revenant)
@@ -1871,7 +1872,7 @@ ___
 |Scope|local (global)|
 |MP Dice|4 (16)|
 |Target(s)|40ft radius, 15ft depth (800ft radius, 100ft depth)|+8
-|Casting time|"1 action" (4h + 4h per 4MP dice)|
+|Casting time|"1 action" (4h + 1h per 4MP dice)|
 |Range|close|-2(6)
 |Duration|12 minutes (1 day)|+6(12)
 |Concentration|local|-3(9)
@@ -2137,6 +2138,37 @@ ___
 - For every 4 extra MP dice the range increases by 60 miles or the number of passengers increases by 1.
 
 (blink speed = 12+13)
+
+___
+### Flame Ward
+|Name|Fire Ward [Fire, Barrier]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|4 (16)|
+|Target(s)|30ft radius (600ft radius)|+9
+|Casting time|"full round action" (4h + 1h per 4 MP dice)|
+|Range|30ft|+1(10)
+|Duration|12 minutes (1 day)|+12(22)
+|Components|incantation,kinetic|-1(21)
+|Focus|A totem of volcanic pumice|-1(20)
+|Material|A handful of ash|-1(19)
+|Limitation|Cannot be used if the area of effect overlaps with global water magic|-2(17)
+|Concentration|local|-3(14)
+|Damage|3d8+[Sup] Fire|+9(23)
+|Save|Dex/Con/Cha (see below)|
+
+**Description**: The caster calls flame to protect and ward an area and its perimeter is ringed by motes of flame. The caster specifies "contain", "exclude" or "both". This gives the following effects:
+- Any entity on the perimeter of the area of effect, or within 5ft of it, when the ward is activated takes 3d8+[Sup] fire damage unless it succeeds a DEX save (for half).
+- Any entity or object that attempts to cross the perimeter takes 3d8+[Sup] fire unless it succeeds a CON save (half).
+  - If the ward was called as "contain", this damage occurs when an entity or object crosses out of the ward.
+  - If the ward was called as "exclude", this damage occurs when an entity or object crosses into the ward.
+- Any entities aligned with "water" can only enter (or leave) the area if they succeed a CHA save.
+
+**Limitation**: This spell fails if its area of effect would overlap with the area of effect of a global water/ice spell.
+
+**Upcast**: The spell radius increases by 10ft or the damage increases by 1d8 for every extra MP dice (local).
+
+**Global**: The spell lasts for a day and has a radius of 600ft. For every extra 4 MP dice, the radius increases by 200ft, or the damage increases by 1d8. Likewise, the duration increases by 1 day.
 
 ___
 ### Flawed Transmute
@@ -2862,6 +2894,7 @@ ___
     - []()
 - Fire
     - [Flame Stride](#flame-stride)
+    - [Flame Ward](#flame-ward)
     - [Revenant](#revenant)
     - []()
 - Water
@@ -2911,7 +2944,7 @@ ___
     - [Mage's Oath](#mages-oath) [9]
     - []()
 - Kinetic
-    - []()
+    - [Transform Mortal](#transform-mortal) [7]
     - []()
     - []()
     - []()

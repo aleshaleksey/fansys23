@@ -123,7 +123,7 @@ _____
 - Add "Summon Spirit" and "Lesser Incarnate" spells.
 - Add "Summon Angel" and "Summon Fiend" spells.
 - Add "Avatar" spell.
-- Add "Melt" spell.
+- Add "Melt", "Flame Ward" spell.
 - Add "Transform Mortal" spell.
 
 ### Abilities

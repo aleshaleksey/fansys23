@@ -2726,7 +2726,7 @@ ___
   - [Hide](#hide)
   - [Least Shroud](#least-shroud)
   - [Mist](#mist)
-  - [Silence](#silence)
+  - [Silence](#silent)
   - [Whispers](#whispers)
 - Other
 

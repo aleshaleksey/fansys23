@@ -273,6 +273,47 @@ Undines are feminine elemental spirits of water, classically associated with spr
 Undines are often bound summoners as guardians or caretakers of specific locales. It is said that an undine can sacrifice its life-force to create a new freshwater spring that will exist for a 108 years..
 
 ___
+### Undine: Greater
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|17/10/17|78|122|22|30ft|100ft(swim)|
+
+Size: Medium
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|16|24|16|14|18|20|
+|Bonus|+3|+7|+3|+2|+4|+5|
+|Save|+6|+13|+6|+5|+7|+13|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|14(3)|18|26|3|5|6|8|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Tendril|+13|2d6+7|Bludgeoning|
+|Grapple|+13|||
+|Water bullet|+13|2d4+7|Piercing|
+|Combined Maneuver I||||
+|Monster Attack (II)|||The greater undine makes up to 3 attacks with tendrils or water bullet|
+|Call Sprites|||A greater undine use its "communicate action" to call 3d6 water sprites, which appear in 1d4 turns. The sprites are loyal to the undine and remain until dismissed.|
+|Spellcasting: Incantation V|||Favourites are: "Least Heal", "Lesser Veil", "Cure", "Balance of Elements", "Summon spirit" and "Pact"|
+|Spellcasting: Water VII|||Favourites are: "Balance of Elements", "Water Ward", "Least Transformation", "Summon Water sprite", "Water Snake", "Mist", "Transform Mortal"|
+|Skills|||"Creature Handling" +14, "Spellworking" +12, "Observe" +12, "K: Arcana" +11, "Heal" +10, "Swim" +10, "K:History" +9, "K:Nature" +9, "K:Religion +9", "Sense Motive: +8", "Perform: +13"|
+|Resistance|||"Ice"|
+|Immunity|||"Physical"|
+|Immunity|||"Restrained", "Surprised", "Helpless", "Dying", "Stunned", "Immobilised", "crippled", "bleeding", "Paralysed"|
+|Vulnerability|||"Poison"|
+|Sacrifice|||As a full round action can destroy its elemental core and die. As a consequence a spring is formed on the ground beneath it. It produces 8 pints of water per round (enough to sustain a camp of ~40 thousand medium sized humanoids or a town of 400-4000) for a thousand years.|
+
+Undines are feminine elemental spirits of water, classically associated with springs and sources of water. They are generally harmless unless their streams are threatened. They often take the form of humanoid women of great beauty.
+
+Undines are often bound summoners as guardians or caretakers of specific locales. It is said that an undine can sacrifice its life-force to create a new freshwater spring that will exist for a 108 years..
+
+Greater undines are typically close associates of elemental lords, or guardians of places of power.
+
+___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 ||||||

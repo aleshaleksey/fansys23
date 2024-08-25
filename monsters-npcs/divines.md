@@ -170,7 +170,7 @@ Deflection +6
 
 Seraphs are angels that are closest to the deity that created them. In general a seraph is sent to punish those who have gone against the god who sent it, or to prepare an area for a new beginning by bringing flaming destruction upon it. Alternatively, the coming of a seraph may portent the completion of an old prophecy, or the beginning of a new one.
 
-The true form of a seraph appears to mortals to be generally appear as a head surrounded by six fiery wings, or as a burning wheel.
+The true form of a seraph appears to mortals generally appear as a head surrounded by six fiery wings, or as a burning wheel.
 
 On missions of prophecy, a seraph generally appears in its true form. On missions of destruction and renewal, it may appear in its bestial form to observe and warn the mortals they are sent to punish before appearing in their true form and delivering judgement.
 

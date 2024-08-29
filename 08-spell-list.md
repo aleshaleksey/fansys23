@@ -108,8 +108,9 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 
 ### MP 6
 - [Forest of Flame](#forest-of-flame)
-- [Razor Wind](#razor-wind)
 - [Legion of Dead](#legion-of-dead)
+- [Metamorphosis/Rebirth](#metamorphosisrebirth)
+- [Razor Wind](#razor-wind)
 - [Summon Angel](#summon-angel)
 
 ### MP 7
@@ -2349,6 +2350,66 @@ If the undead are not destroyed by the end of the spell, or the caster loses con
 **Global**: The spell has a radius of 1000ft and the duration is 1 week. For every 4 MP dice extra, the casting time increases by 2h, and the radius increases by 300ft. The spell does not require concentration is, **but** the caster cannot cast the spell again as a global spell for a week.
 
 **Notes**: This spell produces a large number of units, possibly in the thousands. It is recommended that the DM controls the legion and uses it as a single group or AoE rather than individually rolling for each undead.
+
+___
+### Metamorphosis/Rebirth
+|Name|Metamorphosis/Rebirth [Nature, Curse, Divine]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|6 (24)|
+|Target(s)|1 mortal|
+|Casting time|"full round action" (8h)|-2
+|Range|15ft|
+|Duration|1 day|+12
+|Components|incantation, kinetic|-1
+|Focus|Ouroboros or an empty cocoon|
+|Material|The body of the target|
+|Limitation|Special (See below)|
+|Save|Wis|
+
+**Description**: The caster plants the seeds of change in the body and soul of a dying or doomed mortal, or one that has died less than 7 rounds ago. If the entity dies before healing any HP, or if it is already dead, the spell consumes its remains and it is revived as a mortal of a race other than the one it was previously. This is determined at random by rolling 2d12 and comparing the result with the "Metamorphosis Table" (see below).
+
+Regardless of the state of the target when it died, it begins with half of its HP, half of its SP, half of its MP and half of the corresponding dice.
+
+After 24 hours have passed, the life force from the consumption of the old body runs out and the target dies for good.
+
+**Special**:
+- A target never revives as a plant or monster. Because we do not want a repeat of treeridice.
+- If the target is unwilling, it may attempt a WIS save vs the caster. Upon success it is not subject to the spell. More precisely the spell ends in a catastrophic [cascade centred](07-magic-and-spellcasting.md#the-catastrophic-cascade) on the target's body.
+- The target retains its level after metamorphosing. Thus if a normal level 5 humanoid character is metamorphosed into a dragon, it will be a level 5 dragon (ie little more than a hatchling). If the spell is made permanent, it is recommended that player and DM discuss and come to an agreement as to how many levels of the new creature and how mny of its old levels are retained.
+
+**Global**: The spell can be cast globally in one of two modes.
+- On a mortal that has been subject to a local casting of Metamorphosis, but has not yet wilted. This removes the time limit to their rebirth and they are considered "properly" alive as if they were a *bona fide* mortal of their new race. Thereafter the effect is not considered a spell and cannot be removed, although, of course, they can still die again. When the spell is used in this way, the target of the spell loses 1 ability for very 2 levels (minimum of 1) and 2 proficiencies from their ordeal. This cannot be regained in any way, save divine intervention.
+- Grant a mortal deceased within the last 7 days the gift of true rebirth. They will be reborn in the next seven days as a newborn of their own race, and will mature at the normal rate for a member of that race. They retain the memories and 1 rank in 3 skills of their choice, but nothing else. They do, however, have the chance to live their life again.
+
+**Metamorphosis table**: This table determines what one will metamorphose into. If using custom race templates, please replace the standard ones with your own (TODO). Reroll the inner dice on hitting your own race.
+
+|Outer d12|Inner d12|Creature Subkind|Creature|
+|-|-|-|-|
+|Humanoid|1-6|1|Human|
+|Humanoid|1-6|2|Winged|
+|Humanoid|1-6|3|Orc|
+|Humanoid|1-6|4|Beast folk|
+|Humanoid|1-6|5|Sea folk|
+|Humanoid|1-6|6|Beast of the green|
+|Humanoid|1-6|8|Fiend-touched|
+|Humanoid|1-6|9|Fey-touched|
+|Humanoid|1-6|reroll|(or additional races)|
+|Beast|7-10|1|Rat|
+|Beast|7-10|2|Ox|
+|Beast|7-10|3|Tiger|
+|Beast|7-10|4|Rabbit|
+|Beast|7-10|5|Go to Dragons|
+|Beast|7-10|6|Snake|
+|Beast|7-10|7|Horse|
+|Beast|7-10|8|Goat|
+|Beast|7-10|9|Monkey|
+|Beast|7-10|10|Rooster|
+|Beast|7-10|11|Dog|
+|Beast|7-10|12|Guinea Pig|
+|Dragon|11-12||???|
+|Dragon|11-12||???|
+|Dragon|11-12||???|
 
 ___
 ### Razor Wind

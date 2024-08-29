@@ -110,6 +110,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Forest of Flame](#forest-of-flame)
 - [Legion of Dead](#legion-of-dead)
 - [Metamorphosis/Rebirth](#metamorphosisrebirth)
+- [Otherworld Step](#otherworld-step)
 - [Razor Wind](#razor-wind)
 - [Summon Angel](#summon-angel)
 
@@ -2412,6 +2413,43 @@ After 24 hours have passed, the life force from the consumption of the old body 
 |Dragon|11-12||???|
 
 ___
+### Otherworld Step
+|Name|Otherworld Step [Travel, Fire, Water, Air, Earth]|
+|-|-|
+|Scope|local(global)|
+|MP Dice|6 (24)|
+|Target(s)|7 entities (special)|+7/8/9
+|Casting time|1 full round action (1 day)|-2
+|Range|close|
+|Duration|Special| +3
+|Components|kinetic OR incantation|
+|Focus||
+|Material||
+|Limitation|see below|
+|Save|Wis|
+
+**Description**: Grants up to 7 entities a cosmic speed of 1 that allows travel the voids and barriers that exist between realms, and reach the nearest otherworlds. Be they the nearest stars or the closest layers of the immaterial world (spirit realms, elemental planes, etc). An unwilling target may make a Wis save vs the caster's Threshold to end the spell upon themselves (hence negating the effects).
+
+To travel, the target must move 5ft with a destination in mind. If the traveller moves 5ft with no destination in valid, they are transported to the nearest destination. If the traveller is unable to move 5ft, then the spell activates the moment they do and remains active until that moment.
+
+No time is seen to pass from the perspective of the traveller during their journey. From the perspective of an observer in the realm of departure, the target is seen to freeze for a moment an then flicker out of existence. Likewise, on the realm of destination, it is seen to appear with very little happening in between. As such the "step" does not provoke attacks of opportunity from entities on either side.
+
+
+**Special**:
+- This spell may be taken with any type of spellcasting other than nature, however the kind of realm that the traveller may visit is limited by he school. Thus if taken with:
+  - "Spellcasting: Fire", it may only be used to visit realms associated with fire/heat/summer.
+  - "Spellcasting: Water", it may only be used to visit realms associated with water/spring/winter/autumn.
+  - "Spellcasting: Earth", it may only be used to visit realms associated with earth/ground/summer/autumn.
+  - "Spellcasting: Air", it may only be used to visit realms associated with air/winds/winter/spring.
+  - "Spellcasting: Incantation", it can be used to travel to realms associated with sound and never to silent realms.
+  - "Spellcasting: Kinetic", it can be used to travel to realms associated with motion and never to still realms.
+- In game worlds where dimensions and layers of reality exist (elemental realms, spirit realms, etc), this spell can be quite useful. Alternatively, we may use the meaning of the spell literally, allowing characters to travel to nearby star systems. In more exotic systems it may have other uses yet.
+
+**Upcast**: Add one more target per MP dice.
+
+**Global**: Move everything, including all entities, within a 120ft radius to the realm of choice. For every 4MP dice above the usual, the radius increases by 40ft.
+
+___
 ### Razor Wind
 |Name|Razor Wind [Wind, Destruction]|
 |-|-|
@@ -3067,3 +3105,4 @@ ___
 **Special**:
 
 **Upcast**:
+

@@ -116,6 +116,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 
 ### MP 7
 - [Incarnate](#incarnate)
+- [Portal](#portal)
 - [Transform Mortal](#transform-mortal)
 
 ### MP 9 Spells
@@ -2432,6 +2433,10 @@ To travel, the target must move 5ft with a destination in mind. If the traveller
 
 No time is seen to pass from the perspective of the traveller during their journey. From the perspective of an observer in the realm of departure, the target is seen to freeze for a moment an then flicker out of existence. Likewise, on the realm of destination, it is seen to appear with very little happening in between. As such the "step" does not provoke attacks of opportunity from entities on either side.
 
+The destination point on the otherworld is the equivalent point to the point you set off from. If you are travelling between planets this might be the same coordinate. If you are travelling between parallel worlds, it might be the same point. If you are travelling between metaphysical/spirit realms, it might be the point with the most similar meaning, purpose or significance.
+
+For the sake of mechanics, this is a "cosmic speed" effect.
+
 
 **Special**:
 - This spell may be taken with any type of spellcasting other than nature, however the kind of realm that the traveller may visit is limited by he school. Thus if taken with:
@@ -2540,6 +2545,30 @@ When the spell ends one of the following things can happen (the final decision i
 - The spell can NEVER be cast on the same target more than once.
 
 **Upcast**: For each 8MP dice put into the spell, the target stays in the mortal realm for an extra week.
+
+___
+### Portal
+|Name|Portal [Travel, Earth]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|7 (28)|
+|Target(s)|20ft radius (20ft radius)|+4
+|Casting time|"main action" (7h + 1h per 4MP dice)|
+|Range|close/2400ft (close/unlimited)|+8
+|Duration|1 minute|
+|Components|kinetic|-1
+|Limitation (global)|The start and end location must be touching the earth|-1
+|Material|A lodestone|
+|Concentration|local|
+|Save|Cha|
+
+**Description**: The caster causes a gaping portal, 40ft across to rise out of the earth. The portal connects to any point upon the same world that is on the same contiguous landmass (this includes landmasses connected under a body water) and within the range of the spell. For the duration of the spell, entities and objects can pass through the portals and instantly appear on the other end.
+
+For the sake of mechanics, this is a "blink speed" effect.
+
+**Upcast**: For every extra MP dice the range increases by 4000ft or the radius of the portal increases by 5ft.
+
+**Global**: The range of the portal is not limited, as long as it is on the same realm. The caster must succeed on a "Knowledge: Geography" roll of an appropriate difficulty to know an appropriate route between point of departure and destination. On a fail, the actual destination may be off by up to 10 degrees per point of difference between the threshold and actual roll.
 
 ___
 ### Transform Mortal
@@ -3030,7 +3059,7 @@ ___
     - []()
     - []()
 - Earth
-    - []()
+    - [Portal](#portal)
     - []()
     - []()
 - Fire

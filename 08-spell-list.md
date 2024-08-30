@@ -2423,14 +2423,12 @@ ___
 |Range|close|
 |Duration|Special| +3
 |Components|kinetic OR incantation|
-|Focus||
-|Material||
 |Limitation|see below|
 |Save|Wis|
 
 **Description**: Grants up to 7 entities a cosmic speed of 1 that allows travel the voids and barriers that exist between realms, and reach the nearest otherworlds. Be they the nearest stars or the closest layers of the immaterial world (spirit realms, elemental planes, etc). An unwilling target may make a Wis save vs the caster's Threshold to end the spell upon themselves (hence negating the effects).
 
-To travel, the target must move 5ft with a destination in mind. If the traveller moves 5ft with no destination in valid, they are transported to the nearest destination. If the traveller is unable to move 5ft, then the spell activates the moment they do and remains active until that moment.
+To travel, the target must move 5ft with a destination in mind. If the traveller moves 5ft with no destination in valid, they are transported to the nearest destination. If the traveller is unable to move 5ft, then the spell activates the moment they do and remains active until that moment. Any attempt to travel by any modality will result in an otherworld step being made.
 
 No time is seen to pass from the perspective of the traveller during their journey. From the perspective of an observer in the realm of departure, the target is seen to freeze for a moment an then flicker out of existence. Likewise, on the realm of destination, it is seen to appear with very little happening in between. As such the "step" does not provoke attacks of opportunity from entities on either side.
 
@@ -2443,11 +2441,16 @@ No time is seen to pass from the perspective of the traveller during their journ
   - "Spellcasting: Air", it may only be used to visit realms associated with air/winds/winter/spring.
   - "Spellcasting: Incantation", it can be used to travel to realms associated with sound and never to silent realms.
   - "Spellcasting: Kinetic", it can be used to travel to realms associated with motion and never to still realms.
-- In game worlds where dimensions and layers of reality exist (elemental realms, spirit realms, etc), this spell can be quite useful. Alternatively, we may use the meaning of the spell literally, allowing characters to travel to nearby star systems. In more exotic systems it may have other uses yet.
 
 **Upcast**: Add one more target per MP dice.
 
-**Global**: Move everything, including all entities, within a 120ft radius to the realm of choice. For every 4MP dice above the usual, the radius increases by 40ft.
+**Global**: Move everything, including all entities, within a 120ft radius to the realm of choice (picking from a valid adjacent otherworld). For every 4MP dice above the usual, the radius increases by 40ft.
+
+**Extra Notes:** The term "nearest otherworlds" only has meaning in cosmologies where other realms, planes and worlds can be sorted by distance from the "main", "home" or "material" world. For example:
+- If the game world has star systems, then perhaps this spell might only allow travel to the nearest planets.
+- If the game world has a "Berserk" style layered spirit world, then this spell would only allow travel to one layer at a time.
+- If we are dealing with DnD style cosmology, then it would likely allow travel in steps such as "material plane"<->"ethereal plane"<->"elemental planes"<->"outer planes".
+- If the game world has a more exotic cosmology, then it is for the DM and group to agree on a suitable interpretation.
 
 ___
 ### Razor Wind
@@ -3050,6 +3053,7 @@ ___
 
 - Other
     - [Legion of Dead](#legion-of-dead) [6]
+    - [Otherworld Step](#otherworld-step) [6]
     - [Summon Angel](#summon-angel) [6]
     - [Incarnate](#incarnate) [7]
     - [Avatar](#avatar)[10]

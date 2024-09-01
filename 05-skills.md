@@ -609,7 +609,9 @@ There are 6 knowledge skills in the game. Each represents various subsets of kno
     - Identify supernatural effect: 
       - Local: [16 + MP dice used to create it]
       - Global: [8 + MP dice used to create it]
-    - Identify spell being cast [12 + MP dice used to create it]
+    - Identify spell being cast:
+      - Local: [12 + MP dice used to create it]
+      - Global: [MP dice used to create it] 
     - Identify magical constructs or summoned creature: [4 + Total dice / 2].
   - **Dungeoneering**: A collection of esoteric fields dealing with dangerous places such as labyrinths, monster lairs and disaster zones. It includes knowledge of things like which creatures dwell in such places, typical hazards and resources, likely locations of trap/treasure zones and core zones, and general dungeon trivia. Thresholds are as follows:
     - Identify monstrous creature or construct: [4 + Total dice / 2]

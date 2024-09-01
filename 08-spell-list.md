@@ -91,7 +91,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Enchanted Ground](#enchanted-ground)
 - [Least Storm](#least-storm)
 - [Lesser Incarnation](#lesser-incarnation)
-- [Lesser Weather Control](#least-weather-control)
+- [Lesser Weather Control](#lesser-weather-control)
 - [Mirage](#mirage)
 - [Rejuvenate Land](#rejuvenate-land)
 - [Scry](#scry)
@@ -103,6 +103,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Flame Ward](#flame-ward)
 - [Flawed Transmute](#flawed-transmute)
 - [Pact](#pact)
+- [Plague](#plague)
 - [Revenant](#revenant)
 - [Summon Fiend](#summon-fiend)
 
@@ -115,6 +116,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Summon Angel](#summon-angel)
 
 ### MP 7
+- [Greater Weather Control](#greater-weather-control)
 - [Incarnate](#incarnate)
 - [Portal](#portal)
 - [Transform Mortal](#transform-mortal)
@@ -1927,19 +1929,22 @@ ___
 |-|-|
 |Scope|local (global)|
 |MP Dice|4 (16)|
-|Target(s)|25ft (500ft)|+8
-|Casting time|"full round" (8 hours + 8 hours per 4MP)|-1(7)
+|Target(s)|30ft (600ft)|+6
+|Casting time|"full round" (8 hours + 8 hours per 4MP)|-1(5)
 |Range|close|
-|Duration|12 min (1 day)|+3(10)
-|Focus|A crystal whistle|-1(9)
-|Components|incantation|
+|Duration|12 min (1 day)|+3(8)
+|Focus|A crystal whistle|-1(7)
+|Components|incantation|+1(8)
+|Limitation|The weather cannot completely contradict the season|-1(7)
 |Save||
 
-**Description**: The caster affects the weather, shifting any and all of, visibility, precipitation, wind and temperature by one point in either direction. For example if it is an average spring day with severe wind and no rain and good visibility, the caster can change the weather to "extreme wind" or "no wind", in addition it can affect other aspects, eg "extreme wind, severe fog (poor visibility) and severe cold and precipitation (snowstorm).
+**Description**: The caster affects the weather, shifting any and all of, visibility, precipitation, wind and temperature by one point in either direction. For example if it is an average spring day with severe wind and no rain and good visibility, the caster can change the weather to "extreme wind" or "no wind", in addition it can affect other aspects, eg "extreme wind, severe fog (poor visibility) and severe cold and precipitation (snowstorm, if it is winter)".
+
+**Limitation**: The weather cannot completely contradict the season and climate. For example, the spell cannot cause a snowstorm on a summer's day where snowstorms do not, as a rule, occur in summer.
 
 **Upcast**: The for every extra MP die, the spell lasts for an extra 6 minutes or increases in radius by 5ft. If 7 or more MP dice are used, the caster can shift the weather by two points in any direction.
 
-**Global**: As local, but with a radius of 400ft and a duration of 1 day. For every extra 4MP dice, the radius increases by 500ft or the duration increases by 1 day. If 7 or more MP dice are used the weather can be shifted by two points in any direction.
+**Global**: As local, but with a radius of 600ft and a duration of 1 day. For every extra 4MP dice, the radius increases by 400ft or the duration increases by 1 day. If 7 or more MP dice are used the weather can be shifted by two points in any direction.
 
 ___
 ### Lesser Incarnation
@@ -2230,6 +2235,31 @@ ___
 **Upcast (Global only)**: For every 4 MP dice above 20, the spell lasts an extra year. Alternatively you may select an extra attribute. If the spell is cast with 32 MP dice or more, and only one attribute is taken, it becomes permanent.
 
 ___
+### Plague
+|Name|Plague [Nature, Curse]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|5 (20)|
+|Target(s)|3 entities (300ft radius)|
+|Casting time|main action|
+|Range|120 feet|
+|Duration|1 minute (1 day, special)|
+|Components|kinetic|
+|Focus|-|
+|Material|A rodent's liver, or a handful of dried earth|
+|Save|CON|
+
+**Description**: The caster causes a virulent and violent illness to descend upon 3 target entities in range. At the start of their turns the targets must succeed on a CON save or be afflicted by the acute phase of the illness with no incubation period. The caster chooses any two base Stats: The target has disadvantage on ALL rolls that are governed by those stats. For the duration of the spell (no repeated save). For example, if the caster chooses STR and DEX, the target has disadvantage on all strength and dex based attacks, skills, and saves, as well as miscellaneous rolls based on those Stats.
+
+At the end of the spell, the acute phase ends, but the targets make a *second* CON save. If they fail this save, the target becomes a carrier. After 24 hours the disease progresses into one of those specified on the disease table (TODO).
+
+**Upcast**: For every MP dice above 5, the caster may select an extra 2 targets.
+
+**Global**: Create a zone of pestilence with a radius of 300ft that lasts for a day (the caster must select the disease at the start of the casting). All entities that enter the zone must make a CON save at dusk, or become diseased. From that point they are considered carriers and at dawn they enter the acute phase of the disease (this acts like the local spell- see above).
+
+The zone of pestilence can be detected with a [Heal](05-skills.md#heal) vs the  or ["Knowledge: Arcana"](05-skills.md#knowledge) vs a threshold of [8 + MP dice used to cast the spell].
+
+___
 ### Revenant
 |Name|Revenant [Divine, Curse, Earth, Fire]|
 |-|-|
@@ -2509,6 +2539,31 @@ ___
 ## MP 7 spells
 4+2+3+4+5+6+7+8=39
 
+___
+### Greater Weather Control
+|Name|Least Weather Control [Air, Nature]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|7 (28)|
+|Target(s)|60ft (1200ft)|17
+|Casting time|"full round" (14 hours + 7 hours per 4MP)|-1(16)
+|Range|120ft|+(19)
+|Duration|8 hours (1 month)|+9(28)
+|Focus|A crystal whistle|-1(27)
+|Components|incantation, kinetic|-1(26)
+|Save||
+
+**Description**: The caster affects the weather, shifting any and all of, visibility, precipitation, wind and temperature by two points in either direction. For example if it is an average spring day with no wind and no rain and good visibility, the caster can change the weather between "extreme wind" or "no wind", in addition it can affect other aspects, eg "extreme wind, extreme rain, extreme (no visibility)". This use of the spell cannot break seasonal/climate rules (eg, summer snowstorms on warm plains).
+
+Alternatively the caster can use the spell to affect only one aspect of the weather and move it in any direction, regardless of climate or season, such as changing extreme heat (even in a desert) into extreme cold.
+
+**Upcast**: The for every extra MP die, the spell lasts for an extra hour or increases in radius by 20ft.
+
+**Global**: As local, but with a radius of 1200ft and a duration of 1 month. For every extra 4MP dice, the radius increases by 600ft or the duration increases by 1 month.
+
+Cast globally this is greater magic that can bring calamity to a land where it is cast, destroying crops, turning a growing season to drought, saturation hill sides with water and snow at the worst possible time. Likewise it can bring salvation.
+
+___
 ### Incarnate
 |Name|Incarnate [Divine, Profane]|
 |-|-|
@@ -2980,7 +3035,7 @@ ___
 - Air
     - [Balance of Elements](#balance-of-elements)
     - [Least Storm](#least-storm)
-    - [Lesser Weather Control](#least-weather-control)
+    - [Lesser Weather Control](#lesser-weather-control)
 - Earth
     - [Animate Golem](#animate-golem)
     - [Balance of Elements](#balance-of-elements)
@@ -3012,7 +3067,7 @@ ___
 ### MP 5
 
 - Nature
-    - []()
+    - [Plague](#plague)
     - []()
     - []()
 - Air
@@ -3052,10 +3107,12 @@ ___
 
 - Nature
     - [Transform Mortal](#transform-mortal) [7]
+    - [Greater Weather Control](#greater-weather-control) [7]
     - []()
     - []()
 - Air
     - [Razor Wind](#razor-wind) [6]
+    - [Greater Weather Control](#greater-weather-control) [7]
     - []()
     - []()
 - Earth
@@ -3138,4 +3195,6 @@ ___
 **Special**:
 
 **Upcast**:
+
+
 

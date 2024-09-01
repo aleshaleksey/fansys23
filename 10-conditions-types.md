@@ -342,8 +342,8 @@ An entity afflicted by conditions that make it unable to engage in physical comb
   - It cannot take reactions.
   - Every time it takes a "move", "main" or "secondary" action it loses 1 HP.
   - Every time it takes a "run", "sprint" or "full round action" it loses 2 HP.
-  - As a "dying" entity, a doomed entity dies when it reaches minus its total HP.
-- "**Dying**": This entity cannot do anything other than make CON saves (threshold = 20) or lose 1 HP per round. It usually suffers from most of the detriments of "Unconscious". If they reach their minus their HP total, or minus their CON (CHA for incorporeal beings) if it is higher than their HP, they die. If they succeed before that they stop losing HP and become "Unconscious".
+  - As a "dying" entity, a doomed entity dies when it reaches minus its total HP (or, if higher, CON score).
+- "**Dying**": This entity cannot do anything other than make CON saves (threshold = 20) or lose 1 HP per round. It usually suffers from most of the detriments of "Unconscious". If they reach their minus their HP total, or minus their CON (CHA for incorporeal beings) if it is higher than their HP, they die. If they succeed before that, or heal at least 1 HP, they stop losing HP and become "Unconscious".
   - **Special**: When an entity gains the dying condition, it may choose to instead take the "**Doomed**" status, although this is usually ill advised.
 - "**Unconscious**": An unconscious character can make CON and CHA saves, and communicate telepathically under certain circumstances. It can take no other actions. In addition it has the following problems:
   - It does not gain [STATS] to AC.
@@ -361,6 +361,7 @@ An entity afflicted by conditions that make it unable to engage in physical comb
   - It cannot move or take take actions other than [WIS] based skill checks.
   - If it can communicate, it cannot do so "loudly" enough to gain attention from afar without a [SKILL] check from the recipient.
 - "**Paralysed**": A paralysed character cannot take physical actions:
+  - This means it cannot move.
   - It does not gain physical [STATS] to AC.
   - Physical melee attacks against it have super-advantage.
   - It it can fall prone, it falls prone.
@@ -368,7 +369,6 @@ An entity afflicted by conditions that make it unable to engage in physical comb
   - Natural damage bypasses SP.
   - It cannot make [STR] or [DEX] saves.
   - It cannot use [SKILLS], attacks or cast spells that require the use of its body (including "incantations" and "kinetic components").
-  - This means it cannot move.
 - "**Crippled**": This character cannot use one or more limbs.
   - Creatures crippled in movement related limbs cannot "run", "sprint" and move at half pace (or "crawl").
   - Creatures crippled in prehensile limbs cannot hold weapons or manipulate objects. They have problems completing "kinetic" components.

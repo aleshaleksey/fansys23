@@ -100,7 +100,7 @@ ______
 - Flame sprite: Boost intelligent. Clarify that it sheds light. Add text on tactics (prefers magic).
 
 ### General
-- Death is harder: You die at minus HP or minus CON if CON is higher than HP. instead of minus HP).
+- Death is harder: You die at minus HP or minus CON if CON is higher than HP. instead of minus HP.
 - Define the Save threshold for death and dying.
 
 ### Paperwork
@@ -125,7 +125,7 @@ _____
 - Add "Summon Angel" and "Summon Fiend" spells.
 - Add "Avatar" spell.
 - Add "Melt", "Flame Ward" spell.
-- Add "Transform Mortal" spell.
+- Add "Transform Mortal", "Portal" and "Incarnat" spell.
 
 ### Abilities
 - Add riposte.

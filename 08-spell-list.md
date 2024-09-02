@@ -100,7 +100,6 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 
 ### MP 5
 - [Flame Stride](#flame-stride)
-- [Flame Ward](#flame-ward)
 - [Flawed Transmute](#flawed-transmute)
 - [Pact](#pact)
 - [Plague](#plague)
@@ -109,6 +108,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 
 ### MP 6
 - [Forest of Flame](#forest-of-flame)
+- [Greater Fire Ward](#greater-fire-ward)
 - [Legion of Dead](#legion-of-dead)
 - [Metamorphosis/Rebirth](#metamorphosisrebirth)
 - [Otherworld Step](#otherworld-step)
@@ -118,6 +118,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 ### MP 7
 - [Greater Weather Control](#greater-weather-control)
 - [Incarnate](#incarnate)
+- [Meteoric Flight](#meteoric-flight)
 - [Portal](#portal)
 - [Transform Mortal](#transform-mortal)
 
@@ -1419,7 +1420,7 @@ ___
 |Damage|3d8+[Sup] fire|(8)
 |Save|Cha, harmless|
 
-**Description**: Create a barrier of raging fire **up to** 10ft around the target. The barrier gives light concealment to all targets within. Entities inside the barrier have damage reduction of 5 vs non-magical physical or cold/ice attacks. In addition, any non-magical weapon (or unarmed entity) attacking or otherwise passing through the barrier takes 3d8+[Sup] fire damage.
+**Description**: Create a barrier of raging fire **up to** 10ft around the target. The barrier gives light concealment to all targets within. Entities inside the barrier have damage reduction of 5 vs non-magical physical or cold/ice attacks that originate outside of the barrier. In addition, any non-magical weapon (or unarmed entity) attacking or otherwise passing through the barrier takes 3d8+[Sup] fire damage.
 
 **Special**:
 - If the spell is cast as a reaction, it cannot be upcast, and lasts for 1 minute.
@@ -1429,7 +1430,7 @@ ___
 - If the spell is cast as a reaction, it cannot be upcast.
 - At 5MP and higher the spell is no longer concentration.
 
-**Global:** This is one of the lesser barrier spells. Cast globally it extends over a radius of 300ft centered on a square/point and lasts for a week. For every 4MP extra either the duration increases by a week or the radius increases by 200ft.
+**Global:** This is one of the lesser barrier spells. Cast globally it extends over a radius of 200ft centered on a square/point and lasts for a week. For every 4MP extra either the duration increases by a week or the radius increases by 200ft.
 
 ___
 ### Growth
@@ -1699,11 +1700,11 @@ ___
 |Limitation|target cannot be earth aligned|-2(3)
 |Save|Wis (harmless), no effect|
 
-**Description**: The target gains a good fly speed equal to your walking speed + 20ft, as if walking upon the air. When the spell ends, the target loses this movement modality immediately.
+**Description**: The target gains a good fly speed equal to your walking speed + 10ft, as if walking upon the air. When the spell ends, the target loses this movement modality immediately.
 
 **Upcast**: For every extra MP dice (4, if casting globally) placed in the spell you can add either: 1. An extra target, 2. an extra 6 minutes of effect.
 
-**Global**: The spell has a duration of 1 day + 6h per extra 4MP or gives flight to an additional target.
+**Global**: The spell has a duration of 1 day + 6h per extra 4MP or gives flight to an additional target, but the fly speed is only equal to your walking speed.
 
 ___
 ### Winter's Blade
@@ -2148,12 +2149,12 @@ ___
 (blink speed = 12+13)
 
 ___
-### Flame Ward
-|Name|Fire Ward [Fire, Barrier]|
+### Greater Fire Ward
+|Name|Greater Fire Ward [Fire, Barrier]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|4 (16)|
-|Target(s)|30ft radius (600ft radius)|+9
+|MP Dice|6 (16)|
+|Target(s)|40ft radius (800ft radius)|+9
 |Casting time|"full round action" (4h + 1h per 4 MP dice)|
 |Range|30ft|+1(10)
 |Duration|12 minutes (1 day)|+12(22)
@@ -2163,11 +2164,11 @@ ___
 |Limitation|Cannot be used if the area of effect overlaps with global water magic|-2(17)
 |Concentration|local|-3(14)
 |Damage|3d8+[Sup] Fire|+9(23)
-|Save|Dex/Con/Cha (see below)|
+|Save|Dex/Cha (see below)|
 
-**Description**: The caster calls flame to protect and ward an area and its perimeter is ringed by motes of flame. The caster specifies "contain", "exclude" or "both". This gives the following effects:
-- Any entity on the perimeter of the area of effect, or within 5ft of it, when the ward is activated takes 3d8+[Sup] fire damage unless it succeeds a DEX save (for half).
-- Any entity or object that attempts to cross the perimeter takes 3d8+[Sup] fire unless it succeeds a CON save (half).
+**Description**: The caster calls flame to protect and ward an area and its perimeter is ringed by motes of flame. The barrier gives light concealment to all targets within. Entities inside the barrier have damage reduction of 5 vs non-magical physical or cold/ice attacks, regardless of their origin. The caster specifies "contain", "exclude" or "both". This gives the following effects:
+- Any entity on the perimeter of the area of effect, or within 5ft of it, when the ward is activated takes 4d8+[Sup] fire damage unless it succeeds a DEX save (for half).
+- Any entity or object that attempts to cross the perimeter takes 4d8+[Sup] fire damage.
   - If the ward was called as "contain", this damage occurs when an entity or object crosses out of the ward.
   - If the ward was called as "exclude", this damage occurs when an entity or object crosses into the ward.
 - Any entities aligned with "water" can only enter (or leave) the area if they succeed a CHA save.
@@ -2176,7 +2177,7 @@ ___
 
 **Upcast**: The spell radius increases by 10ft or the damage increases by 1d8 for every extra MP dice (local).
 
-**Global**: The spell lasts for a day and has a radius of 600ft. For every extra 4 MP dice, the radius increases by 200ft, or the damage increases by 1d8. Likewise, the duration increases by 1 day.
+**Global**: The spell lasts for a day and has a radius of 800ft. For every extra 4 MP dice, the radius increases by 200ft, or the damage increases by 1d8. Likewise, the duration increases by 1 day.
 
 ___
 ### Flawed Transmute
@@ -2257,7 +2258,7 @@ At the end of the spell, the acute phase ends, but the targets make a *second* C
 
 **Global**: Create a zone of pestilence with a radius of 300ft that lasts for a day (the caster must select the disease at the start of the casting). All entities that enter the zone must make a CON save at dusk, or become diseased. From that point they are considered carriers and at dawn they enter the acute phase of the disease (this acts like the local spell- see above).
 
-The zone of pestilence can be detected with a [Heal](05-skills.md#heal) vs the  or ["Knowledge: Arcana"](05-skills.md#knowledge) vs a threshold of [8 + MP dice used to cast the spell].
+The zone of pestilence can be detected with a [Heal](05-skills.md#heal) roll or ["Knowledge: Arcana"](05-skills.md#knowledge) roll vs a threshold of [8 + MP dice used to cast the spell].
 
 ___
 ### Revenant
@@ -2600,6 +2601,37 @@ When the spell ends one of the following things can happen (the final decision i
 - The spell can NEVER be cast on the same target more than once.
 
 **Upcast**: For each 8MP dice put into the spell, the target stays in the mortal realm for an extra week.
+
+___
+### Meteoric Flight
+|Name|Meteoric Flight [Air, Fire, Travel]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|7 (28)|
+|Target(s)|1 entity no larger than huge (20ft)|
+|Casting time|1 main action (7 hours)|
+|Range|close| -1
+|Duration|1 minute (1 hour)|+1
+|Components|incantation, kinetic|-1
+|Focus|The remains of a falling star, or a dragon's heart|-2
+|Limitation|The turning circle|-1
+|Limitation|Must use movement|-1
+|Damage|2d8/4d8+[Sup] pressure|+6
+|Save|WIS (harmless), Dex|
+
+**Description**: The target gains a flight speed (poor) of its walking speed + 360ft (spell can be negated with a successful WIS save). During this time it MUST take at a "move" or "run" action every round. When the target lands, it deals a it deals 2d8+[Sup] damage to everything within 20ft, or 4d8+[Sup] if took the "run" action on the turn it landed. The target takes half of this damage. This damage is halved on a successful DEX save (the target of the spell does not get a save).
+
+The target cannot be restrained or immobilised by any means other than a higher MP spell for the duration of the spell (but it can be killed, usually).
+
+**Limitation**: [In accordance with flight rules](03-movement-exploration.md#flight), the turn radius of an entity using this spell is at least 600ft. This means that the uses of this spell are generally quite specific.
+
+**Special**: 
+- If the spell is dispelled mid-flight, the target maintains a horizontal speed of 400ft for the next minute, and deals damage as normal upon landing (unless other effects reduce its flight speed). However it also suffers from [the normal falling rules](03-movement-exploration.md#falling), which will probably be lethal.
+- If the target is unable to take its move action for whatever reason (eg it is unconscious), it will continue to move along its previous trajectory (or in a random direction if it was previously motionless) until either the spell ends, or it hits a solid physical barrier.
+
+**Upcast**: For every extra MP dice the movement speed increases by 100ft.
+
+**Global**: The spell lasts for an hour and can affect up to 4 targets.
 
 ___
 ### Portal
@@ -3005,6 +3037,7 @@ ___
     - [Guidance of the Earth](#guidance-of-the-earth)
 - Fire
     - [Command Mortal](#command-mortal)
+    - [Fire Ward](#fire-ward)
     - [Melt](#melt)
     - [Summer's Blade](#summers-blade)
 - Water
@@ -3080,7 +3113,6 @@ ___
     - []()
 - Fire
     - [Flame Stride](#flame-stride)
-    - [Flame Ward](#flame-ward)
     - [Revenant](#revenant)
     - []()
 - Water
@@ -3113,7 +3145,7 @@ ___
 - Air
     - [Razor Wind](#razor-wind) [6]
     - [Greater Weather Control](#greater-weather-control) [7]
-    - []()
+    - [Meteoric Flight](#meteoric-flight) [7]
     - []()
 - Earth
     - [Portal](#portal)
@@ -3121,6 +3153,8 @@ ___
     - []()
 - Fire
     - [Forest of Flame](#forest-of-flame) [6]
+    - [Greater Fire Ward](#greater-fire-ward) [6]
+    - [Meteoric Flight](#meteoric-flight) [7]
     - [Realm of Flame](#realm-of-flame) [10]
     - []()
 - Water
@@ -3195,6 +3229,7 @@ ___
 **Special**:
 
 **Upcast**:
+
 
 
 

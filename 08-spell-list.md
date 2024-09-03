@@ -390,22 +390,6 @@ ___
 **Limitation**: The "Least ward" cannot be moved from the square it was originally cast. If the target leaves the square, the ward remains there.
 
 ___
-### Mist
-|Name|Mist [Water, Ice, Winter]|
-|-|-|
-|Scope|local|
-|MP Dice|0|
-|Target(s)|5ft radius centered on a square in range|
-|Casting time|"main action"|
-|Range|30ft|
-|Duration|1 round|
-|Components|kinetic|
-|Conditions|lightly obscured|
-|Save|-|
-
-**Description**: Calls forth a thick, cold mist. Any entity of size "huge" or smaller that is separated from observes by at least 5ft of the mist is lightly obscured.
-
-___
 ### Least Warmth
 |Name|Least Warmth [Fire, Travel, Summer]|
 |-|-|
@@ -420,6 +404,22 @@ ___
 |Save|Cha|
 
 **Description**: Attempts to warm an area and anything in it to body temperature. If the area is affected by any "Extreme temperature: Cold" category, it is considered as being one step milder.
+
+___
+### Mist
+|Name|Mist [Water, Ice, Winter]|
+|-|-|
+|Scope|local|
+|MP Dice|0|
+|Target(s)|5ft radius centered on a square in range|
+|Casting time|"main action"|
+|Range|30ft|
+|Duration|1 round|
+|Components|kinetic|
+|Conditions|lightly obscured|
+|Save|-|
+
+**Description**: Calls forth a thick, cold mist. Any entity of size "huge" or smaller that is separated from observes by at least 5ft of the mist is lightly obscured.
 
 ___
 ### Silent
@@ -646,7 +646,7 @@ ___
 |Scope|local (global)|
 |MP Dice|1 (4)|
 |Target(s)|1 target no larger than "small"|-1
-|Casting time|"1 main action' (60min + 20min pr 4MP dice)|
+|Casting time|"1 main action" (60min + 20min pr 4MP dice)|
 |Range|close|-1
 |Duration|1 hour (1 week)|+6
 |Components|kinetic, incantation|-1

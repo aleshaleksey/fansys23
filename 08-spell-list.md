@@ -822,9 +822,8 @@ ___
 ## MP 2 spells
 
 ### Call Ailment
-|Name|Contagion|
+|Name|Call Ailment [Curse, Destruction, Nature]|
 |-|-|
-|Name|Contagion [Curse, Destruction, Nature]|
 |Scope|local (global)|
 |MP Dice|2 (8)|
 |Target(s)|1 entity (100ft radius)|
@@ -1054,7 +1053,7 @@ ___
 |Name|Promise [Curse, Global]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|(8)|
+|MP Dice|2 (8)|
 |Target(s)|(1 entity)|
 |Casting time|main action (2h + 1h per 4MP)|
 |Range|close|

@@ -112,6 +112,7 @@ _____
 - Alphabetical order for ability.
 - Table for damage by type.
 - Add monsters.
+- Change the HP damage and [associated conditions rules.](04-combat.md#hp-damage-and-conditions)
 
 ### Races
 - Increase low light vision cost to 2 race-points.

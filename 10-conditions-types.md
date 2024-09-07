@@ -59,7 +59,13 @@ ___
 
 ### HP damage and conditions
 
-When an entity loses HP due to damage, it must make a threshold=16 CON save or suffer a condition that the damage can cause (usually rolled by the DM on the ["Conditions by Damage Type"](#conditions-by-damage-type) table).
+When an entity loses HP due to damage, it risks acquiring a condition (see ["Conditions by Damage Type"](#conditions-by-damage-type) table). 
+
+If the damage is due to a targeted attack, for every "12" on the attack roll, it gains one associated condition (likewise see extra conditions by weapon).
+
+If the damage is due to an effect that allows a save, it instead gains one associated condition for every "1" it rolls on the save.
+
+If the damage is from a source that has neither attack roll or save, it automatically gains the condition.
 
 ___
 #### Mundane, magical and spiritual weapons

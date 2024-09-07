@@ -2457,7 +2457,7 @@ ___
 |Limitation|see below|
 |Save|Wis|
 
-**Description**: Grants up to 7 entities a cosmic speed of 1 that allows travel the voids and barriers that exist between realms, and reach the nearest otherworlds. Be they the nearest stars or the closest layers of the immaterial world (spirit realms, elemental planes, etc). An unwilling target may make a Wis save vs the caster's Threshold to end the spell upon themselves (hence negating the effects).
+**Description**: Grants up to 7 entities the ability to travel the voids and barriers that exist between realms, and reach the nearest otherworlds. Be they the nearest stars or the closest layers of the immaterial world (spirit realms, elemental planes, etc). An unwilling target may make a Wis save vs the caster's Threshold to end the spell upon themselves (hence negating the effects).
 
 To travel, the target must move 5ft with a destination in mind. If the traveller moves 5ft with no destination in mind, they are transported to the nearest valid destination. If the traveller is unable to move 5ft, then the spell activates the moment they do and remains active until that moment. Any attempt to travel by any modality will result in an otherworld step being made.
 

@@ -80,7 +80,7 @@ ___
 
 All damage is deduced from current HP. HP are protected from Nat damage by SP and by MP against Sup damage. An entity's MP/SP can absorb a certain amount of damage and deducing from current MP/SP total, with any excess damage counting against HP. When an entity reaches 0 HP it is "dying". Some damage types ignore MP/SP. They are particularly dangerous.
 
-All damage types have associated conditions. If an entity takes damage to HP greater than its level, it must make a Con or Cha save against threshold of [10 + HP damage / 2] or suffer a condition on the attack's list, starting from the lowest class condition. If it is already suffering from it, or is immune to it, it adds the next lowest condition to its conditions. If all conditions are added, nothing more happens.
+All damage types have associated conditions. If an entity takes HP damage, it risks acquiring such a condition (see above "HP damage and conditions").
 
 ___
 #### Damage type list

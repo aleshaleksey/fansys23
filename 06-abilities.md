@@ -640,6 +640,7 @@ ___
 |Heavy blades|9|
 |Pole-arms|12|
 |Spears|12|
+|Blowguns|16|
 |Thrown|16|
 |Ranged|19|
 |Seige|22|

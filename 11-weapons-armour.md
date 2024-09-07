@@ -22,6 +22,7 @@ Weapons and armour an essential part of any combat heavy table top RPG system. W
     - [Slings](#slings)
     - [Bows](#bows)
     - [Mechanical Bows](#mechanical-bows)
+    - [Blowguns](#blowguns)
     - [Firearms](#firearms)
 2. [Armour](#armour)
     - [Armour and its relationship with [HiT]](#armour-and-its-relationship-with-hit)
@@ -194,6 +195,10 @@ Damage Key:
 |Hand Crossbow|Mechanical Bow|1d6|P|1|Dex|-|360|60|1|4
 |Crossbow|Mechanical Bow|1d10|piercing|2|Dex|-|800|160|4|6
 |Winch crossbow|Mechanical Bow|2d12|piercing|2|Dex|-|1000|200|6|8
+|||||||||||
+|Short Blowgun|Blowgun|1|P|1|Dex|90|30|0.5|3|
+|Blowgun|Blowgun|1d4|P/B|2|Dex/Con|240|60|1|4|
+|Long Blowgun|Blowgun|1d6|P/B|2|Dex/Con|600|200|2|5|
 |||||||||||
 |Pistol|Firearm|1d8|piercing|1|Dex|-|120|40|1|4
 |Musket|Firearm|2d6|piercing|2|Dex|-|240|120|8|6
@@ -417,6 +422,23 @@ Mechanical bows are bow-like weapons where the draw is performed by a mechanism,
 **Winch Crossbow**: This refers to larger crossbows drawn by a winch. It fires a heavy bolt and has terrific penetrating power at close range. Reloading it is a "full round action" (you want a squire or hireling for this!). In practice this means that a solitary wielder of one of these weapons can only make one attack with it every two turns. **NB:** Light winch crossbows are not included because no one in their right mind who can afford a better one would use these.
 
 **Optional rule: Repeater Crossbow**: Any crossbow can be fitted a magazine that holds 5 bolts. This means that it only needs to be reloaded every 5 rounds. However, these mechanisms are expensive, complex and prone to jamming (jam on a critical miss). They also add 1-3lb to the weight of a crossbow. Most importantly they are not appropriate to all settings.
+
+___
+### Blowguns
+
+Blowguns are essentially tubes used to shoot darts, propelled by air pressure, which is in turn produced by the wielder's breath. This weapon is generally used for hunting small game, or, in the case of shorter blowguns, as a weapon of subterfuge. Since the darts do little damage by themselves, they are usually treated with poisons. Like crossbows and firearms, blowguns can be used from "prone" with no penalty.
+
+|Weapon|Special Properties|Manoeuvres|
+|-|-|-|
+|Short Blowgun|Light||
+|Blowgun|||
+|Long Blowgun|Unwieldy||
+
+**Short Blowgun**: This is a blanket category for blowguns between 1-2ft in length. They are easily hidden or disguised as wind instruments, and are a favourite of assassins who work in environments where more obvious weapons or magic are problematic. The downside is the incredibly short range.
+
+**Blowgun**: Covers blowguns between 2-4ft in length. This kind of blowgun is used mainly by hunters, but can also be effective in combat.
+
+**Long Blowgun**: This covers blowguns longer than 4ft. Their length makes them unwieldy, but also grants them great precision and range.
 
 ___
 ### Firearms

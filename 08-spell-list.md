@@ -76,6 +76,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Melt](#melt)
 - [Mole](#mole)
 - [See Spell](#see-spell)
+- [Slumber](#slumber)
 - [Storm Ward](#storm-ward)
 - [Summer's Blade](#summers-blade)
 - [Water Walk](#water-walk)
@@ -1612,6 +1613,30 @@ ___
 **Global**: The spell is cast on a locus, (centered on a square). All spells within 1200ft of this locus are visible to all entities in range of the spell (as long as they have sight).
 
 ___
+### Slumber
+|Name|Slumber [Air, Earth, Nature, Water, Spirit]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|3 (12)|
+|Target(s)|1 entity|
+|Casting time|"1 full round action" (6 hours)|-1
+|Range|120ft (close)|+3
+|Duration|12 minutes|+3
+|Components|incantation. kinetic| -1
+|Limitation|An entity that does not sleep is unaffected by this spell|-1
+|Limitation|An entity can be awoken using a main action to deal 1 point of HP damage to it|-1
+|Damage|Special|-1
+|Save|INT|
+
+**Description**: The caster causes the target entity to fall asleep (unconscious) on a failed INT save. The target repeats the save at the start of each turn, awakening on a successful save (if it lives long enough).
+
+**Special**: A target, if it fails the save, may instead choose to to take SP damage equal to the SP of the caster, plus 1 point of HP damage, and hence avoid the effect of the spell.
+
+**Upcast**: The spell affects an additional target for each extra MP dice above 3.
+
+**Global**: The target falls asleep permanently, and remains in a deep, stasis-like sleep. The caster must give a plausible condition of the target's awakening.
+
+___
 ### Storm Ward
 |Name|Storm Ward [Barrier, Wind]|
 |-|-|
@@ -3092,9 +3117,11 @@ ___
     - [Animate Plant](#animate-plant)
     - [Cure](#cure)
     - [Growth](#growth)
+    - [Slumber](#slumber)
 - Air
     - [Guidance of the Winds](#guidance-of-the-winds)
     - [See Spell](#see-spell)
+    - [Slumber](#slumber)
     - [Storm Ward](#storm-ward)
     - [Wind Walk](#wind-walk)
 - Earth
@@ -3102,6 +3129,7 @@ ___
     - [Guidance of the Earth](#guidance-of-the-earth)
     - [Mole](#mole)
     - [See Spell](#see-spell)
+    - [Slumber](#slumber)
 - Fire
     - [Command Mortal](#command-mortal)
     - [Fire Ward](#fire-ward)
@@ -3110,6 +3138,7 @@ ___
     - [Summer's Blade](#summers-blade)
 - Water
     - [See Spell](#see-spell)
+    - [Slumber](#slumber)
     - [Water Walk](#water-walk)
     - [Water Ward](#water-ward)
     - [Winter's Blade](#winters-blade)
@@ -3299,6 +3328,8 @@ ___
 **Special**:
 
 **Upcast**:
+
+
 
 
 

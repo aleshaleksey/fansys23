@@ -127,9 +127,10 @@ _____
 - Add "Summon Angel" and "Summon Fiend" spells.
 - Add "Avatar" spell.
 - Add "Melt", "Flame Ward" spell.
-- Add "Transform Mortal", "Portal" and "Incarnate" spell.
+- Add "Transform Mortal", "Portal", "Profane Resurrection" and "Incarnate" spell.
 - "Wind Walk" global fly speed is equal to your walking speed.
 - Add "Meteoric Flight" spell.
+- Add "slumber" spell.
 
 ### Abilities
 - Add riposte.

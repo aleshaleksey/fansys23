@@ -37,6 +37,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Least Flare](#least-flare)
 - [Least Heal](#least-heal)
 - [Least Vengeance](#least-vengeance)
+- [Sense Spell](#sense-spell)
 - [Shape Earth](#shape-earth)
 - [Spirits' Secret](#spirits-secret)
 - [Tailwind](#tailwind)
@@ -707,6 +708,25 @@ ___
 **Description**: Invoke fiery vengeance on a target that dealt damage, or otherwise attacked you since the end of your last turn.
 
 **Upcast**: Add +1d8 to the damage for every extra MP used.
+___
+### Sense Spell
+|Name|Sense Spell [Spirit, Air, Earth, Fire, Water]|
+|-|-|
+|Scope|local|
+|MP Dice|1|
+|Target(s)|1 entity|
+|Casting time|1 action|
+|Range|close/30ft|+1
+|Duration|1 minute|+1
+|Components|incantation, kinetic|-1
+|Limitation|The spell is blocked by any barrier that would also block smells or movement of air/water|-1
+|Save|WIS (harmless)|
+
+**Description**: The caster casts the spell upon one target at close range. The target gains the ability to sense spells and supernatural energies and manifestations thereof that are otherwise unseen, within range. The character can detect the direction (N, NE, E, SE, S, SW, W, NW) and the distance to the nearest edge of the spell. The target can, if it is proficient with "Knowledge: Arcana", determine the type of magic used to cast the spell, and can attempt to identify exactly what it is sensing if it succeeds a ["Knowledge: Arcana"](05-skills.md#knowledge) roll made at disadvantage.
+
+**Limitations**: This is not a "sight" ability. Thus it does not allow a character to dispel an effect while remaining at a distance from its area of effect. It is nevertheless useful for detecting dangerous, or interesting, effects that are occurring nearby.
+
+**Upcast**: The range of the spell increases by 15ft for every extra MP dice used when casting the spell.
 
 ___
 ### Shape Earth
@@ -3048,19 +3068,23 @@ ___
 - Air
     - [Headwind](#headwind)
     - [Least Flare](#least-flare)
-    - [Tailwind](#tailwind)
+    - [Sense Spell](#sense-spell)
     - [Spirits' Secret](#spirits-secret)
+    - [Tailwind](#tailwind)
 - Earth
     - [Bear's Claws](#bears-claws)
     - [Gnomes' Mercy](#gnomes-mercy)
+    - [Sense Spell](#sense-spell)
     - [Shape Earth](#shape-earth)
 - Fire
     - [Enflame](#enflame)
     - [Foxfire](#foxfire)
     - [Least Flare](#least-flare)
     - [Least Vengeance](#least-vengeance)
+    - [Sense Spell](#sense-spell)
 - Water
     - [Chill Blood](#chill-blood)
+    - [Sense Spell](#sense-spell)
     - [Water Snake](#water-snake)
     - [Winter's Touch](#winters-touch)
 - Incantation
@@ -3328,6 +3352,7 @@ ___
 **Special**:
 
 **Upcast**:
+
 
 
 

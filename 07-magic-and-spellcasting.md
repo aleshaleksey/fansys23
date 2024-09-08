@@ -100,7 +100,7 @@ ___
 5. Roll a SAP (Sup + Base + Wis) roll vs their SAT (Sup + Base + Wis). You have a bonus (or penalty if it's less) to the roll equal to the difference in MP dice used by the two sides. If it is the same type of magic, your roll is at disadvantage. If it is neither the same or opposite, you cannot counter-spell it.
 6. If you meet or beat the threshold, the spell fails (maybe even catastrophically).
 
-**Dispelling**: Any spellcaster with at least 11 MP dice total can dispel. You can only dispel magics of a type that you are capable of casting. In order to dispel you must be within 10ft x [MP dice] being used to dispel the effect of the effect and you must be able to see it or to experience it. Thus you must either have senses that can detect it (eg using "See Spell" or "See Unseen") or you must enter the area of effect. The steps for dispelling are as follows:
+**Dispelling**: Any spellcaster with at least 11 MP dice total can dispel. You can only dispel magics of a type that you are capable of casting. In order to dispel you must be within 10ft x [MP dice being used to dispel the effect] of the effect and you must be able to see it. Thus you must have senses that can detect it (eg using "See Spell" or "See Unseen"). If you cannot "see" the spell you can still dispel magic if you are within its area of effect. The steps for dispelling are as follows:
 1. Identify the spell using "knowledge:arcana".
 2. Declare "dispel" as a "main action" and how many MP dice you are using to dispel.
 3. Pay the declared MP dice cost.

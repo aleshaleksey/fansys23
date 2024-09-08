@@ -75,6 +75,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Least Curse](#least-curse)
 - [Melt](#melt)
 - [Mole](#mole)
+- [See Spell](#see-spell)
 - [Storm Ward](#storm-ward)
 - [Summer's Blade](#summers-blade)
 - [Water Walk](#water-walk)
@@ -121,6 +122,9 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Meteoric Flight](#meteoric-flight)
 - [Portal](#portal)
 - [Transform Mortal](#transform-mortal)
+
+### MP 8
+- [Profane Resurrection](#profane-resurrection)
 
 ### MP 9 Spells
 - [Mage's Oath](#mages-oath)
@@ -1584,6 +1588,30 @@ ___
 **Global**: The spell has a duration of 1 day + 6h per extra 4MP or gives flight to an additional target.
 
 ___
+### See Spell
+|Name|See Spell [Spirit, Air, Earth, Fire, Water]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|3 (12)|
+|Target(s)|1 entity (1 locus of origin)|
+|Casting time|1 action (1 hour)|
+|Range|close/60ft (close/1200ft)|+2
+|Duration|12 minutes (1 day)|+3
+|Components|kinetic|
+|Focus||
+|Material||
+|Limitation||
+|Save|WIS (harmless)|
+
+**Description**: The caster casts the spell upon one target at close range. The target gains the ability to see spells and supernatural energies and manifestations thereof that are otherwise unseen, within range. The target might not be able to identify exactly what it is seeing unless it succeeds a ["Knowledge: Arcana"](05-skills.md#knowledge) roll.
+
+**Limitations**: This spell does not give one the ability to see invisible entities or objects, although if the entity is made invisible by a spell, then the target will be able to see the supernatural emanations around it, hence being able to localise it to the squares that it occupies.
+
+**Upcast**: The range of the spell increases by 30ft for every extra MP dice in the spell.
+
+**Global**: The spell is cast on a locus, (centered on a square). All spells within 1200ft of this locus are visible to all entities in range of the spell (as long as they have sight).
+
+___
 ### Storm Ward
 |Name|Storm Ward [Barrier, Wind]|
 |-|-|
@@ -2694,6 +2722,44 @@ Thus when this spell is used, the DM and player (but mostly the DM) pick out an 
 **Global**: The spell lasts for a week. For every 4MP the spell lasts an extra week and the maximum level of the resulting mortal increases by 1. It cannot be cancelled voluntarily.
 
 ___
+## MP 8 Spells
+3+4x(2+9) = 47
+
+### Profane Resurrection
+|Name|Profane Resurrection [Curse, Profane]|
+|-|-|
+|Scope|global|
+|MP Dice|32|
+|Target(s)|1 mortal|
+|Casting time|1 day|
+|Range|close|
+|Duration|Permanent|+36
+|Components|incantation, kinetic|-1
+|Focus|A symbol of a profane being or concept|-1
+|Material|An item or mortal precious to the target|-2
+|Limitation|spell fails if the target has a "divine" alignment| (-12)
+|Save|Cha (special)|
+
+**Description**: The caster performs an intricate ritual that binds the fate of a willing, mortal target to a profane being with the purpose of returning the target to life. In return, the profane being gains a grasp on the target's fate.
+
+The spell can either be cast either while the target is alive or within 6 days of its demise.
+
+The spell allows the target to defy the laws of creation and return to life on the 6th day (midnight) after its death. If it had a physical form, then it is restored to how it was immediately before it died (minus the injuries). It returns to life with full HP, MP, SP and dice. However, it is forever changed:
+- The target gains the "profane" alignment, which cannot be removed by any means, furthermore magical means of discerning entity type will detect the resurrected target as "profane[undead]". The resurrected target does not gain any of the traits associated with "profane" or "undead" entities. 
+- The target loses its ability to reproduce, if it previously had the ability.
+- Should the target go against the will or purpose of the profane being it is bound to, it suffers 3d6 profane damage with no save. The target always knows if it is about to go against the profane being it is bound to.
+- Whenever the target is asleep, or, if it does not sleep, for the hour immediately after midnight, the profane has direct control of the target and will use this to further its goals (which are usually to oppose creation in some way).
+- Should the target die, it rises again. This time, however, it loses its free will and becomes an undead thrall under the profane being's control.
+
+Finally, the resurrected must sacrifice at least 1 level worth of mortals, of the same type as itself, every day (starting at midnight). Until it has done so, it is unable to regain MP, SP or HP.
+
+**Limitation**:
+- The spell fails if the target has a "divine" alignment.
+- The spell fails if the target is unwilling.
+
+**Special**: The target can break the profane pact with a successful CHA save. In this case it dies, and its soul returns to the afterlife. It can only attempt this spell once. Furthermore, should it fail, it can never attempt the save again.
+
+___
 ## MP 9 Spells
 3+(2+10)x9/2=3+12x9/2=3+6x9= 57
 
@@ -3027,19 +3093,23 @@ ___
     - [Cure](#cure)
     - [Growth](#growth)
 - Air
+    - [Guidance of the Winds](#guidance-of-the-winds)
+    - [See Spell](#see-spell)
     - [Storm Ward](#storm-ward)
     - [Wind Walk](#wind-walk)
-    - [Guidance of the Winds](#guidance-of-the-winds)
 - Earth
     - [Earth Ward](#earth-ward)
-    - [Mole](#mole)
     - [Guidance of the Earth](#guidance-of-the-earth)
+    - [Mole](#mole)
+    - [See Spell](#see-spell)
 - Fire
     - [Command Mortal](#command-mortal)
     - [Fire Ward](#fire-ward)
     - [Melt](#melt)
+    - [See Spell](#see-spell)
     - [Summer's Blade](#summers-blade)
 - Water
+    - [See Spell](#see-spell)
     - [Water Walk](#water-walk)
     - [Water Ward](#water-ward)
     - [Winter's Blade](#winters-blade)
@@ -3054,6 +3124,7 @@ ___
 - Kinetic
   - [Animate/Control Dead](#animatecontrol-dead)
   - [Least Curse](#least-curse)
+  - [See Spell](#see-spell)
   - [Summer's Blade](#summers-blade)
   - [Water Walk](#water-walk)
   - [Winter's Blade](#winters-blade)
@@ -3228,7 +3299,6 @@ ___
 **Special**:
 
 **Upcast**:
-
 
 
 

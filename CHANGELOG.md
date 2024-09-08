@@ -131,6 +131,7 @@ _____
 - "Wind Walk" global fly speed is equal to your walking speed.
 - Add "Meteoric Flight" spell.
 - Add "slumber" spell.
+- Add "lesser domain" and "greater domain" spells.
 
 ### Abilities
 - Add riposte.

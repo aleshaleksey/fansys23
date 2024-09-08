@@ -92,6 +92,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Balance of Nature](#balance-of-nature)
 - [Bestial Transformation](#bestial-transformation)
 - [Enchanted Ground](#enchanted-ground)
+- [Lesser Domain](#lesser-domain)
 - [Least Storm](#least-storm)
 - [Lesser Incarnation](#lesser-incarnation)
 - [Lesser Weather Control](#lesser-weather-control)
@@ -126,6 +127,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Transform Mortal](#transform-mortal)
 
 ### MP 8
+- [Greater Domain](#greater-domain)
 - [Profane Resurrection](#profane-resurrection)
 
 ### MP 9 Spells
@@ -1873,8 +1875,8 @@ ___
 |Save|-|
 
 **Description**: The caster changes the nature of the area. Select one of the following descriptors: [Air, Earth, Fire, Water].
-- Spells with the associated descriptor have their cost decreased by 1 MP dice (to a minimum of 1) and their save threshold is increased by 1.
-- Spells with the opposite descriptor have their cost increased by 1MP and their threshold decreased by 1.
+- Spells with the associated descriptor have their cost decreased by 1 MP dice (to a minimum of 1) and their save threshold is increased by 1. This effect never stacks.
+- Spells with the opposite descriptor have their cost increased by 1MP and their threshold decreased by 1. This effect never stacks.
 
 **Upcast**: For every extra MP dice, the radius increases by 10ft.
 
@@ -1971,6 +1973,55 @@ ___
 **Upcast**: The for every extra MP die used, the spell's radius increases by 5ft or the damage increases by 1d12, or the duration increases by 12 min.
 
 **Global**: The spell lasts for a day and has a great radius. It deals the damage only during the first minute of the spell and can also affect structures. In addition friendly entities have advantage on fortification and harvesting rolls in the area. For every 4MP dice extra the duration increases by a day, or the radius increases by 800ft.
+
+___
+### Lesser Domain
+|Name| Lesser Domain [Air, Fire, Water, Earth, Spirit]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|4 (16)|
+|Target(s)|20ft radius (20ft radius)|+4
+|Casting time|1 full round (4 hours + 1h/4MP dice)|-2
+|Range|close (close)|-1
+|Duration|12 minutes (special)|
+|Components|incantation,kinetic|-1
+|Focus|- (a cup of clean meltwater, a handful of black earth, a bottle of spring air, a burning candle of wax gathered in summer)|
+|Material|- (1HP worth of the creator's blood)|-2
+|Limitation||
+|Save|CHA|
+
+**Description**: The caster creates a domain outside of the material world (generally on the border of the spirit realm and the material world). The domain is not necessarily a sphere, but is contained in a space of 40ft x 40ft x 40ft. The domain has an environment that is associated with the elemental spellcasting used to create it, but is habitable for entities of the caster's race. The caster determines the details of this domain, but it contains no living beings and no works of artifice. Though it may contain natural formations that could serve certain functions (such as a flat stone that could act as a table).
+
+If the spell is cast using the element of "air" or "fire", the domain is open and can be lit by a light that resembles starlight or sunlight. Other parts of the spirit realm may be visible as distant specks of light or darkness.
+
+If the spell is cast using the element of "earth" or "water" it is unlit and completely enclosed.
+
+The space is cut off from reality and imperceptible from the material world. Likewise, outside realms are imperceptible and inaccessible from the domain (with a few exceptions). The caster is aware of the presence and count of other entities in their domain, though their location and nature is not revealed.
+
+This space can only be accessed by either a secret path, by using "[Otherworld Step](#otherworld-step)", or by entities with a cosmic speed.
+- The caster knows and can follow the secret path to enter this realm (takes 2 rounds regardless of move speed). Entities that follow the caster may make a "navigate" roll vs the caster's threshold in order to learn the secret path.
+- Only entities that know the location of the domain can enter it via "Otherworld Step".
+- Entities with a cosmic speed can find the domain with a Threshold=30 ["navigate"](05-skills.md#navigate) roll.
+- Other entities can find the domain via an ["Knowledge: Arcana"](05-skills.md#knowledge) roll to identify an effect (at least 20), and a subsequent "navigate" roll equal to the caster's spell threshold.
+
+
+Any entity that tries to enter the domain via the secret path, but fails, returns to where it started. In doing so, it expends 4 MP dice due to the hardships of journey between the material and immaterial realm.
+
+Any entity that attempts to enter the domain, but is not invited by the caster, can only do so upon making a successful CHA save vs the caster's threshold. Upon failure it expends 4 MP dice.
+
+An entity can attempt to leave the domain if it so wishes. However, if it does so without knowledge of the path, it follows the same rules as entities entering the domain under similar conditions.
+
+When the spell ends, the remaining entities within it find themselves at the point in the material world where the spell was cast.
+
+**Limitation**: A caster must have at least 1 level in all 4 elemental spellcasting abilities in order to be able to use this spell safely. If the caster does not know all the elements, there is a chance of instead creating a shadow space inhabited by 2d8 hostile [Cursed Shades](monsters-npcs/profanes.md#cursed-shade-lesser). The probability is as follow: For 3 elements known, 25%. For 2, 50%. For 1, 75%.
+
+**Upcast**: For every extra MP dice, the spell lasts for an extra 12 minutes.
+
+**Special**: A caster can only ever have ONE domain. If the spell is recast, the previous domain disappears.
+
+**Global**: The spell lasts for 1 day. At the end of the day, the caster may decide at the end of this period whether to make the domain permanent.
+
+**NB**: The text of the spell has presumed something about the nature of the game world, however it is reasonable to reflavour the spell if the nature of teh game world is not consistent with the description. Furthermore, this spell presumes the existence of other dimensions, planes, realms, or with the possibility of spatial distortions that are otherwise separate from the "real" or "material" world. In games where this is not the case, the group should consider whether it is reasonable and possible to include this spell in the game.
 
 ___
 ### Least Storm
@@ -2770,6 +2821,36 @@ ___
 ## MP 8 Spells
 3+4x(2+9) = 47
 
+### Greater Domain
+|Name| Greater Domain [Air, Fire, Water, Earth, Spirit]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|8 (32)|
+|Target(s)|40ft radius (40ft radius)|+8
+|Casting time|1 full round (1 day)|-2
+|Range|close (close)|-1
+|Duration|1 hour (special)|+6
+|Components|incantation,kinetic|-1
+|Focus|- (a cup of clean meltwater, a handful of black earth, a bottle of spring air, a burning candle of wax gathered in summer)|
+|Material|- (1HP worth of the creator's blood)|-2
+|Save|CHA|
+
+**Description**: The spell functions like "[Lesser Domain](#lesser-domain)", but lasts longer and affects a greater space. It also has the following differences:
+- The greater domain may be populated with ephemeral spirits that take the forms of plants and animals. They are neither hostile nor friendly, and flee the domain if events threaten their existence.
+- The caster can reshape the domain by will alone, changing 10ft x 10ft x 10ft of the domain per round.
+- Spells associated with the element used to cast the spell have their cost decreased by 1 MP dice. This effect never stacks.
+- Uninvited entities have disadvantage on rolls made to find or enter the domain.
+
+**Limitation**: A caster must have at least 1 level in all 4 elemental spellcasting abilities in order to be able to use this spell safely. If the caster does not know all the elements, there is a chance of instead creating a shadow space inhabited by 4d8 hostile [Cursed Shades](monsters-npcs/profanes.md#cursed-shade-lesser). The probability is as follow: For 3 elements known, 25%. For 2, 50%. For 1, 75%.
+
+**Upcast**: For every extra MP dice, the spell lasts for an extra hour.
+
+**Special**: A caster can only ever have ONE domain. If the spell is recast, the previous domain disappears.
+
+**Global**: The spell lasts for 1 week. At the end of the week, the caster may decide at the end of this period whether to make the domain permanent.
+
+The caster may instead *join* a domain onto an existing domain, hence expanding it. The domain must belong to the caster, or the creator of the other domain must permit it. In the case where the spell is used to expand a domain, the caster must make a "[Spellworking](05-skills.md#spellworking)" roll with a Threshold=[own threshold + 1 for every expansion that the domain has undergone]. Upon failure the spell ends in catastrophic failure.
+
 ### Profane Resurrection
 |Name|Profane Resurrection [Curse, Profane]|
 |-|-|
@@ -3191,18 +3272,22 @@ ___
 - Air
     - [Balance of Elements](#balance-of-elements)
     - [Least Storm](#least-storm)
+    - [Lesser Domain](#lesser-domain)
     - [Lesser Weather Control](#lesser-weather-control)
 - Earth
     - [Animate Golem](#animate-golem)
     - [Balance of Elements](#balance-of-elements)
     - [Enchanted Ground](#enchanted-ground)
+    - [Lesser Domain](#lesser-domain)
 - Fire
     - [Balance of Elements](#balance-of-elements)
+    - [Lesser Domain](#lesser-domain)
     - [Speak Through Flame](#speak-through-flame)
 - Water
     - [Aqueous Step](#aqueous-step)
     - [Balance of Elements](#balance-of-elements)
     - [Bestial Transformation](#bestial-transformation)
+    - [Lesser Domain](#lesser-domain)
     - [Mirage](#mirage)
     - [Scry](#scry)
 - Incantation
@@ -3269,19 +3354,23 @@ ___
     - [Razor Wind](#razor-wind) [6]
     - [Greater Weather Control](#greater-weather-control) [7]
     - [Meteoric Flight](#meteoric-flight) [7]
+    - [Greater Domain](#greater-domain) [8]
     - []()
 - Earth
     - [Portal](#portal)
+    - [Greater Domain](#greater-domain) [8]
     - []()
     - []()
 - Fire
     - [Forest of Flame](#forest-of-flame) [6]
     - [Greater Fire Ward](#greater-fire-ward) [6]
     - [Meteoric Flight](#meteoric-flight) [7]
+    - [Greater Domain](#greater-domain) [8]
     - [Realm of Flame](#realm-of-flame) [10]
     - []()
 - Water
     - [Transform Mortal](#transform-mortal) [7]
+    - [Greater Domain](#greater-domain) [8]
     - [Mandate of the Deep](#mandate-of-the-deep) [10]
     - []()
 - Incantation
@@ -3358,3 +3447,26 @@ ___
 
 
 
+
+
+
+### 
+|Name| []|
+|-|-|
+|Scope||
+|MP Dice||
+|Target(s)||
+|Casting time||
+|Range||
+|Duration||
+|Components||
+|Focus||
+|Material||
+|Limitation||
+|Save||
+
+**Description**:
+
+**Special**:
+
+**Upcast**:

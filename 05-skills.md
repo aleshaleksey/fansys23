@@ -572,26 +572,6 @@ This is a wide range of skills and methods that are used to reveal hidden detail
 - **Try again**: Yes.
 
 ___
-#### Navigate
-
-Navigation allows a character to orientate themselves in space, find the best route from A to B, hold a course, or to plan logistics. In conjunction with cartographers' tools it can be used to create wonderful maps. Navigation can be anything from a "full round action" for orientating one-self, to a drawn out process for planning logistics.
-
-- **Find north:** Orientate your direction. Useful in unknown terrain. This is a full round action.
-  - Threshold = [Threshold of terrain with weather modifier - 5]
-- **Hold course:** Maintain your direction of travel when circumstances change (eg weather changes). This is a "secondary action".
-  - Threshold = [Threshold of terrain with weather modifier - 10]
-- **Orientate:** Use map and compass to locate yourself (eg when lost). This takes a minute.
-  - Threshold = [Threshold of terrain with weather modifier]
-  - Rush job (take "full round action" instead): Increase threshold by + 5.
-- **Plan route/logistics:** Plan out a route between two points. On a success, the party will be given the route that fulfills the desired criteria as closely as possible, pointing out potential hazards. The journey time will also be decreased by 10%.
-  - **Action**: 1 hour / day of route. 2 hours / day if logistics are included.
-  - **Threshold**: [Terrain threshold] + [1 / 5 entities in the group] + [1 per vehicle in the group].
-- **Forecast**: Predict weather up to 24h ahead. The threshold = [terrain with weather modifier].
-- **Special**: A character with terrain mastery has a +4 to "navigate" in that terrain.
-- **Take care**: Yes.
-- **Try again**: Yes. If the situation changes, or extra data is gathered. Otherwise the result is the same.
-
-___
 #### Knowledge
 
 There are 6 knowledge skills in the game. Each represents various subsets of knowledge. Each skill works symmetrically and deals with recalling information from one of the fields of knowledge. Using a knowledge skill is a non-action.
@@ -631,6 +611,26 @@ There are 6 knowledge skills in the game. Each represents various subsets of kno
 - **Special**: Identifying beings by setting thresholds based on "Total dice" can get silly. Most people would know a dragon when they see one. As such general knowledge threshold can be used instead.
 - **Take care**: No. You either know it or don't.
 - **Try again**: no. You either know it or don't.
+
+___
+#### Navigate
+
+Navigation allows a character to orientate themselves in space, find the best route from A to B, hold a course, or to plan logistics. In conjunction with cartographers' tools it can be used to create wonderful maps. Navigation can be anything from a "full round action" for orientating one-self, to a drawn out process for planning logistics.
+
+- **Find north:** Orientate your direction. Useful in unknown terrain. This is a full round action.
+  - Threshold = [Threshold of terrain with weather modifier - 5]
+- **Hold course:** Maintain your direction of travel when circumstances change (eg weather changes). This is a "secondary action".
+  - Threshold = [Threshold of terrain with weather modifier - 10]
+- **Orientate:** Use map and compass to locate yourself (eg when lost). This takes a minute.
+  - Threshold = [Threshold of terrain with weather modifier]
+  - Rush job (take "full round action" instead): Increase threshold by + 5.
+- **Plan route/logistics:** Plan out a route between two points. On a success, the party will be given the route that fulfills the desired criteria as closely as possible, pointing out potential hazards. The journey time will also be decreased by 10%.
+  - **Action**: 1 hour / day of route. 2 hours / day if logistics are included.
+  - **Threshold**: [Terrain threshold] + [1 / 5 entities in the group] + [1 per vehicle in the group].
+- **Forecast**: Predict weather up to 24h ahead. The threshold = [terrain with weather modifier].
+- **Special**: A character with terrain mastery has a +4 to "navigate" in that terrain.
+- **Take care**: Yes.
+- **Try again**: Yes. If the situation changes, or extra data is gathered. Otherwise the result is the same.
 
 ___
 ### WIS Based

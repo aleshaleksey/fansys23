@@ -117,6 +117,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 
 ### Combat Boons (Supernatural)
 
+- [Arcane Interception](#arcane-interception)
 - [Mental Fight](#mental-fight)
 - [Safe Cast](#safe-cast)
 - [War Mage](#war-mage)
@@ -471,6 +472,7 @@ ___
 ___
 ### Combat Abilities (Supernatural)
 
+___
 #### Cursed Blood
 
 **Type**: (Class A)
@@ -1183,6 +1185,28 @@ ___
 
 ___
 ### Combat Boons (Supernatural)
+
+___
+#### Arcane Interception
+
+**Type**: (Supernatural, A)
+
+**Description**: You can use the "interception" manoeuvre to redirect supernatural attacks that require a saving throw at yourself.
+
+**Original state**: "Intercept" manoeuvre can only be used to intercept attacks that require an attack roll (targeted attacks).
+
+**Action**: As a "main action":
+- Declare a target to protect. You must be within reach of your mark, or the direct line between the attacker and target must pass through your square.
+- When a supernatural attack that requires a saving throw is made against your mark before the start of your next turn, it is automatically redirected at you, and you make the save and/or potentially suffer the effect.
+
+As a "reaction": This works in the same way as the "main action" mode, however you can only defend your target against one such attack.
+
+**Limitation**: You can only protect a single target against area of effect attacks, or attacks that would affect multiple targets.
+
+**Prerequisites**:
+- Proficiency with the "interception" manoeuvre.
+- At least one rank in any of: "Knowledge: Arcana", "Knowledge: Religion", or "Spellworking".
+- At least one level of any "local" [spellcasting](#spellcasting-local) ability.
 
 ___
 #### Mental Fight

@@ -112,8 +112,11 @@ _____
 - Alphabetical order for ability.
 - Table for damage by type.
 - Add monsters.
+
+### Combat
 - Change the HP damage and [associated conditions rules.](04-combat.md#hp-damage-and-conditions)
 - Add blowguns as a weapon type.
+- Fix "interception" manoeuvre to only work in threatened area.
 
 ### Races
 - Increase low light vision cost to 2 race-points.

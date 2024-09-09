@@ -387,7 +387,7 @@ The "Grapple", "Restrain", "Shove", "Throw" and "Trip" manoeuvres can only be us
 - **Interception**:
   - Effect: Redirect a target's attacks against you, or redirect attacks against a target at you.
   - Requires attack roll.
-  - Description: Declare a target to intercept and roll attack. All attacks by that target that are below that threshold will target you instead. Alternatively pick a target to defend and roll attack. All attacks that are below that threshold against that target will target you instead.
+  - Description: Declare a target (must be within your threatened area) to intercept and roll attack. All attacks by that target that are below that threshold will target you instead. Alternatively pick a target to defend (must be within your threatened area) and roll attack. All attacks that are below that threshold against that target will target you instead.
   - Special: You can attempt to intercept a single attack as a reaction. 
 - **Sunder**
   - Effect: Target an accessible object on the target entity instead of the entity itself with a weapon attack that deals damage.

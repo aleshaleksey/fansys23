@@ -69,6 +69,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Command Mortal](#command-mortal)
 - [Cure](#cure)
 - [Earth Ward](#earth-ward)
+- [Fairy Shelter](#fairy-shelter)
 - [Fire Ward](#fire-ward)
 - [Growth](#growth)
 - [Guidance of the Earth](#guidance-of-the-earth)
@@ -1428,6 +1429,31 @@ ___
 - At 5MP and higher the spell is no longer concentration.
 
 **Global:** This is one of the lesser barrier spells. Cast globally it extends over a radius of 300ft centered on a square/point and lasts for a week. For every 4MP extra either the duration increases by a week or the radius increases by 200ft.
+
+___
+### Fairy Shelter
+|Name|Fairy Feast [Nature, Kinetic, Spirit]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|3 MP dice (12 MP dice)|
+|Target(s)|Up to 6 mortals, no larger than "huge"|+9
+|Casting time|1 full round action (1 hour)|-2
+|Range|close|-1
+|Duration|1 min (4 hours)|+1
+|Components|kinetic|
+|Focus|A sprig of holy or branch of fern|-1
+|Material (global)|Special|-2
+|Limitation|"Profane" entities cannot enter the fairy shelter|-1
+|Limitation|If any visiter takes anything from the shelter, the spell instantly ends|-2
+|Save|N/A|
+
+**Description**: Beseech a fey to allow several beings to shelter in its realm. The entities follow a hidden path (takes 1 round regardless of speed) to enter the fey's realm. The realm is habitable for all beings.
+
+**Special (global)**: The fey will ask the caster to make a [promise](#promise) (as per the spell) in exchange for the shelter. The promise may be trivial, ridiculous, or deadly serious, depending on the fey that the caster deals with.
+
+**Upcast**: For every extra MP dice added to the spell, the shelter will accept an additional guest.
+
+**Global**: The spell lasts for four hours. The fey will ask a "promise" to be made in exchange (see above).
 
 ___
 ### Fire Ward
@@ -3221,6 +3247,7 @@ ___
 - Nature
     - [Animate Plant](#animate-plant)
     - [Cure](#cure)
+    - [Fairy Shelter](#fairy-shelter)
     - [Growth](#growth)
     - [Slumber](#slumber)
 - Air
@@ -3251,17 +3278,18 @@ ___
     - [Animate Dead](#animatecontrol-dead)
     - [Least Curse](#least-curse)
 - Incantation
-  - [Cure](#cure)
-  - [Melt](#melt)
-  - [Mole](#mole)
-  - [Wind Walk](#wind-walk)
+    - [Cure](#cure)
+    - [Melt](#melt)
+    - [Mole](#mole)
+    - [Wind Walk](#wind-walk)
 - Kinetic
-  - [Animate/Control Dead](#animatecontrol-dead)
-  - [Least Curse](#least-curse)
-  - [See Spell](#see-spell)
-  - [Summer's Blade](#summers-blade)
-  - [Water Walk](#water-walk)
-  - [Winter's Blade](#winters-blade)
+    - [Animate/Control Dead](#animatecontrol-dead)
+    - [Fairy Shelter](#fairy-shelter)
+    - [Least Curse](#least-curse)
+    - [See Spell](#see-spell)
+    - [Summer's Blade](#summers-blade)
+    - [Water Walk](#water-walk)
+    - [Winter's Blade](#winters-blade)
 
 ### MP 4
 
@@ -3443,26 +3471,41 @@ ___
 **Upcast**:
 
 
-
-
-
-
-
-
-
-### 
-|Name| []|
+### Fairy Feast
+|Name|Fairy Feast [Nature, Kinetic, Spirit]|
 |-|-|
-|Scope||
+|Scope|global|
 |MP Dice||
-|Target(s)||
+|Target(s)|120ft radius/No more than 101 medium, 47 large entities, or 9 larger entities|
 |Casting time||
-|Range||
-|Duration||
+|Range|close|
+|Duration|No more than 3 hours|
 |Components||
 |Focus||
 |Material||
-|Limitation||
+|Limitation|"Profane" entities cannot partake in the feast|
+|Save||
+
+**Description**:
+
+**Special**:
+
+**Upcast**:
+
+
+### Fairy Ball
+|Name|Fairy Feast [Nature, Kinetic, Spirit]|
+|-|-|
+|Scope|global|
+|MP Dice||
+|Target(s)|120ft radius/No more than 101 medium, 47 large entities, or 9 larger entities|
+|Casting time||
+|Range|close|
+|Duration|No more than 3 hours|
+|Components||
+|Focus||
+|Material||
+|Limitation|"Profane" entities cannot partake in the ball|
 |Save||
 
 **Description**:

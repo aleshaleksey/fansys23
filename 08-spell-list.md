@@ -112,6 +112,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Summon Fiend](#summon-fiend)
 
 ### MP 6
+- [Fairy Feast](#fairy-feast)
 - [Forest of Flame](#forest-of-flame)
 - [Greater Fire Ward](#greater-fire-ward)
 - [Legion of Dead](#legion-of-dead)
@@ -1436,7 +1437,7 @@ ___
 |-|-|
 |Scope|local (global)|
 |MP Dice|3 MP dice (12 MP dice)|
-|Target(s)|Up to 6 mortals, no larger than "huge"|+9
+|Target(s)|Up to 6 entities, no larger than "huge"|+9
 |Casting time|1 full round action (1 hour)|-2
 |Range|close|-1
 |Duration|1 min (4 hours)|+1
@@ -1448,6 +1449,11 @@ ___
 |Save|N/A|
 
 **Description**: Beseech a fey to allow several beings to shelter in its realm. The entities follow a hidden path (takes 1 round regardless of speed) to enter the fey's realm. The realm is habitable for all beings.
+
+Access to the fey's realm is by a "secret path". The spell give the targets knowledge of the path. At the end of the spell this particular "secret path" ceases to exist.
+- It takes 1 round (regardless of move speed) to follow the secret path, during this time the targets are considered to be outside of the material realm.
+- Other entities can find the shelter via as ["Knowledge: Arcana"](05-skills.md#knowledge) roll to identify an effect (at least 20), and a subsequent "navigate" roll equal to the caster's spell threshold.
+- Uninvited entities can only enter the Fey's realm upon succeeding a WIS save vs the caster's Threshold. However, even if the uninvited guest succeeds, it may face the displeasure of the master of the realm.
 
 **Special (global)**: The fey will ask the caster to make a [promise](#promise) (as per the spell) in exchange for the shelter. The promise may be trivial, ridiculous, or deadly serious, depending on the fey that the caster deals with.
 
@@ -1678,7 +1684,7 @@ ___
 
 **Description**: The caster causes the target entity to fall asleep (unconscious) on a failed INT save. The target repeats the save at the start of each turn, awakening on a successful save (if it lives long enough).
 
-**Special**: A target, if it fails the save, may instead choose to to take SP damage equal to the SP of the caster, plus 1 point of HP damage, and hence avoid the effect of the spell.
+**Special**: A target, if it fails the save, may instead choose to to take SP damage equal to the SP of the caster, plus 1 point of HP damage, and hence avoid the effect of the spell. In order to make use of this possibility the target must be proficient with "[Knowledge: Arcana](05-skills.md#knowledge)" and successfully identify the spell (Threshold of at least 15).
 
 **Upcast**: The spell affects an additional target for each extra MP dice above 3.
 
@@ -2474,6 +2480,43 @@ ___
 ## MP 6 spells
 4+2+3+4+5+6+7
 6,9,13,18,24,31
+
+___
+### Fairy Feast
+|Name|Fairy Feast [Nature, Kinetic, Spirit]|
+|-|-|
+|Scope|global|
+|MP Dice|24 (special)|
+|Target(s)|120ft radius/No more than 101 medium, 47 large entities, or 9 larger entities|+15
+|Casting time|1 hour|+2
+|Range|close|
+|Duration|No more than 3 hours/24 hours|-1/+12
+|Components|incantation|+1
+|Focus|A sprig of holy or branch of fern|-1
+|Material|Special|-2
+|Limitation|"Profane" entities cannot partake in the feast|-2
+|Limitation|The feast cannot be summoned in urban areas, on worked land, or on vehicles|-2
+|Limitation|An entity can be under the effect of only one "fairy feast" at a time|-2
+|Save|Wis|
+
+**Description**: The caster invites a host of fey for a feast.
+
+In exchange a fey realm asserts itself in a 120ft radius of the point where the spell was cast, complete with ephemerally summoned fey, music, and a wondrous feast, which is sufficient to provide 101 medium, 47 large, or 9 larger entities with a day's nutrients. Regardless of type or race, suitable nutrients can be found. Any effects of starvation, dehydration and "insomnia" are cured. Likewise each entity gains immunity to either "charmed" or "frightened", as it chooses. The immunity lasts for 24 hours.
+
+Collectively, the fey offer one piece of useful knowledge between, and should violence or other danger erupt before the spell ends, disappear, along with the feast. In this case, the offered memory (if any) is not consumed, and the beneficial effects of the feast are not gained.
+
+**Special**: If the caster offers up a precious memory, the MP dice cost of the spell is removed. In addition, each entity that partakes in the feast can gain TWO of the below benefits, which it retains for 7 days:
+- Immunity to "grappled", "prone", "restrained", "immobilised".
+- Immune to "diseased" and "poisoned", and "necrotic" and "poison" damage.
+- Immunity to "crippled", "incapacitated", "bleeding"
+- Immunity to "paralysed" and "stunned".
+- Immunity to "aphonic", "deafened", "blinded", "inaudible".
+- Complete restoration of MP and SP (but not dice).
+- Advantage on rolls pertaining to one skill.
+- Advantage on saves to stabilise when "dying" or on ONE save.
+- Advantage on rolls pertaining to one skill.
+- Advantage on initiative.
+- Resistance to all physical damage types.
 
 ___
 ### Forest of Flame
@@ -3374,9 +3417,9 @@ ___
 ### MP 6+
 
 - Nature
+    - [Fairy Feast](#fairy-feast) [6]
     - [Transform Mortal](#transform-mortal) [7]
     - [Greater Weather Control](#greater-weather-control) [7]
-    - []()
     - []()
 - Air
     - [Razor Wind](#razor-wind) [6]
@@ -3402,6 +3445,7 @@ ___
     - [Mandate of the Deep](#mandate-of-the-deep) [10]
     - []()
 - Incantation
+    - [Fairy Feast](#fairy-feast) [6]
     - [Razor Wind](#razor-wind) [6]
     - [Mage's Oath](#mages-oath) [9]
     - []()
@@ -3471,26 +3515,6 @@ ___
 **Upcast**:
 
 
-### Fairy Feast
-|Name|Fairy Feast [Nature, Kinetic, Spirit]|
-|-|-|
-|Scope|global|
-|MP Dice||
-|Target(s)|120ft radius/No more than 101 medium, 47 large entities, or 9 larger entities|
-|Casting time||
-|Range|close|
-|Duration|No more than 3 hours|
-|Components||
-|Focus||
-|Material||
-|Limitation|"Profane" entities cannot partake in the feast|
-|Save||
-
-**Description**:
-
-**Special**:
-
-**Upcast**:
 
 
 ### Fairy Ball

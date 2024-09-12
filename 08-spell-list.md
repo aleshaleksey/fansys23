@@ -133,6 +133,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Profane Resurrection](#profane-resurrection)
 
 ### MP 9 Spells
+- [Fairy Ball/Masquerade](#fairy-ballmasquerade) [9]
 - [Mage's Oath](#mages-oath)
 
 ### MP 10 Spells
@@ -2483,7 +2484,7 @@ ___
 
 ___
 ### Fairy Feast
-|Name|Fairy Feast [Nature, Kinetic, Spirit]|
+|Name|Fairy Feast [Nature, Incantation, Spirit]|
 |-|-|
 |Scope|global|
 |MP Dice|24 (special)|
@@ -2505,7 +2506,7 @@ In exchange a fey realm asserts itself in a 120ft radius of the point where the 
 
 Collectively, the fey offer one piece of useful knowledge between, and should violence or other danger erupt before the spell ends, disappear, along with the feast. In this case, the offered memory (if any) is not consumed, and the beneficial effects of the feast are not gained.
 
-**Special**: If the caster offers up a precious memory, the MP dice cost of the spell is removed. In addition, each entity that partakes in the feast can gain TWO of the below benefits, which it retains for 7 days:
+**Special**: If the caster offers up a precious memory (resulting in the loss of 1 rank in a skill of the caster's choice), the MP dice cost of the spell is removed. In addition, each entity that partakes in the feast can gain TWO of the below benefits, which it retains for 7 days:
 - Immunity to "grappled", "prone", "restrained", "immobilised".
 - Immune to "diseased" and "poisoned", and "necrotic" and "poison" damage.
 - Immunity to "crippled", "incapacitated", "bleeding"
@@ -2957,6 +2958,45 @@ Finally, the resurrected must sacrifice at least 1 level worth of mortals, of th
 ___
 ## MP 9 Spells
 3+(2+10)x9/2=3+12x9/2=3+6x9= 57
+
+### Fairy Ball/Masquerade
+|Name|Fairy Ball/Masquerade [Nature, Kinetic, Spirit]|
+|-|-|
+|Scope|local (global)|58 (41)
+|MP Dice|9 (36)|
+|Target(s)|60ft radius (1200ft)|12
+|Casting time|1 action (9 hours)|
+|Range|120ft|+3
+|Duration|1 minute (24 hours)|+3
+|Components|kinetic|
+|Focus|A sprig of holly or a branch of fern|-1
+|Material|special|-2
+|Limitation|"Profane" entities do not gain any benefits of the spell|-2
+|Healing|4d4+[Sup] SP and MP|+12
+|Healing|4 conditions of choice|+12
+|Save|WIS|
+
+**Description**: The spell briefly sinks a part of the material realm into the fey realms, forcing the absurd rules of feydom to assert themselves in the spell's area of effect.
+
+Firstly, all targets of the caster's choice regain 4d4+[Sup] MP and SP.
+
+Secondly all targets of the caster's choice are cured of up to 4 conditions of their choice.
+
+Thirdly, all hostile entities and all "[profane](10-conditions-types.md#profane)" must make a WIS save vs the caster's threshold, or gain the "glowing" condition, and be either "frightened" of, or "charmed" by, the caster and their allies for the duration of the spell (repeated saves apply).
+
+Fourthly, all willing allies are transformed into "beasts" or "fey" of the caster's choice, as if by the "[Transform Mortal](#transform-mortal)" spell.
+
+**Special**: If the caster sacrifices a precious memory, in the form of permanently losing one of their abilities, the MP dice cost of the spell becomes zero. In addition the following effects occur:
+- The area of the spell is cut off from the material world (or other realms), and it is only possible to enter or leave via a secret path that the caster knows, or with a ["navigate"](05-skills.md#navigate) roll equal to the caster's threshold.
+- Fey spirits take the form of entities of the caster's choice. These provide a ["deceive"](05-skills.md#deceive) roll equal to the caster's spell threshold, for the sake of targeting and identifying the caster for other purposes. If a successful "observe"/"sense motive" roll, or ["truesight"](06-abilities.md#truesight-i-v) (or a similar ability) do not reveal the true target, this counts as ["full concealment"](04-combat.md#cover-and-concealment).
+- All spells with a spirit/spiritual/nature descriptor cost 1 MP dice less to cast (this does not stack), and gain +1 to their threshold. 
+
+**Upcast**: For every extra MP dice, the spell radius increases by 20ft or the duration increases by 1 minute.
+
+**Global**: The spell lasts for 24 hours and covers a radius of 1200ft. If the caster sacrifices a precious memory (and permanently loses an ability) there are a couple of extra effects (on top of the aforementioned special boons):
+- All allies heal all conditions 1 hour after the start of the spell, all MP and SP 2 hours after the start of the spell, starvation, thirst and insomnia 3 hours after the start of the spell, and all HP at the end of the spell. SP and MP dice are not restored.
+- Additional semi-illusionary changes to local terrain may occur.
+- The fey will be willing to offer the caster up to one piece of secret information (either plot related, or secret knowledge (knowledge threshold=36)). Alternatively a fey being may be offered as a bride or groom to the caster by the ruler of the fey realm (although unions between mortals and spirits seldom end well..).
 
 ### Mage's Oath
 |Name|Mage's Oath [Incantation, Curse, Divine]|
@@ -3420,6 +3460,7 @@ ___
     - [Fairy Feast](#fairy-feast) [6]
     - [Transform Mortal](#transform-mortal) [7]
     - [Greater Weather Control](#greater-weather-control) [7]
+    - [Fairy Ball/Masquerade](#fairy-ballmasquerade) [9]
     - []()
 - Air
     - [Razor Wind](#razor-wind) [6]
@@ -3451,7 +3492,7 @@ ___
     - []()
 - Kinetic
     - [Transform Mortal](#transform-mortal) [7]
-    - []()
+    - [Fairy Ball/Masquerade](#fairy-ballmasquerade) [9]
     - []()
     - []()
 
@@ -3514,26 +3555,3 @@ ___
 
 **Upcast**:
 
-
-
-
-### Fairy Ball
-|Name|Fairy Feast [Nature, Kinetic, Spirit]|
-|-|-|
-|Scope|global|
-|MP Dice||
-|Target(s)|120ft radius/No more than 101 medium, 47 large entities, or 9 larger entities|
-|Casting time||
-|Range|close|
-|Duration|No more than 3 hours|
-|Components||
-|Focus||
-|Material||
-|Limitation|"Profane" entities cannot partake in the ball|
-|Save||
-
-**Description**:
-
-**Special**:
-
-**Upcast**:

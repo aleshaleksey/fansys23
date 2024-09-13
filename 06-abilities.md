@@ -10,7 +10,8 @@
 8. [Combat Abilities (Supernatural)](#combat-abilities-supernatural)
 8. [General Abilities (Supernatural)](#general-abilities-supernatural)
 8. [Spellcasting](#spellcasting)
-8. [Combat Boons](#combat-boons)
+8. [Combat Boons (Natural)](#combat-boons-natural)
+8. [Combat Boons (Supernatural)](#combat-boons-supernatural)
 8. [General Boons](#general-boons)
 
 **Abilities** are special actions that a character can take outside of the core actions available to all characters (covered in "Combat", "Movement and Exploration", and "Skills"). Abilities are often more potent than the core actions, but these also come at a cost of consuming SP dice and MP dice, so use them with care. Importantly, magic is covered at the end of this chapter.
@@ -102,6 +103,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Charge](#charge)
 - [Evasive](#evasive)
 - [Foresight](#foresight)
+- [Guarded](#guarded)
 - [Mage Hunter](#mage-hunter-i)
 - [Multi-attack (I-III)](#multi-attack-i-iii)
 - [Offensive buckler](#offensive-buckler)
@@ -997,6 +999,15 @@ ___
   - Dex of 13+ and Wis of 13+.
  
 **Original state**: A character only adds their [size] and [Dex] to their evasion.
+
+___
+#### Guarded
+
+**Type**: (Natural, Class B)
+
+**Description**: Avoid attacks of opportunities when standing up from prone, drinking potions, and using those items that would usually whose use would generally provoke attacks of opportunity.
+
+**Original state**: Characters provoke attacks of opportunity when standing up from prone, drinking potions, and using certain items.
 
 ___
 #### Mage Hunter I

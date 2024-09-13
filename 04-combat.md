@@ -293,12 +293,13 @@ Either way, the golden rule with resolving reactions is that they must not break
 |Move between threatened squares|Yes, usually|
 |**Be** moved between threatened squares|No|
 |Cast spell with kinetic components|Yes|
+|Cast spell without kinetic components|No|
 |Execute weapon attack, when proficient|No|
 |Execute weapon attack when NOT proficient|Yes|
 |Execute "basic martial manoeuvre"|Varies|
 |Dropping prone|No|
-|Standing up|No|
-|Drink Potion|No|
+|Standing up|Yes|
+|Drink Potion|Yes|
 |Use item|No, usually|
 |Drop item|No|
 

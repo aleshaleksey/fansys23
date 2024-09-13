@@ -117,6 +117,7 @@ _____
 - Change the HP damage and [associated conditions rules.](04-combat.md#hp-damage-and-conditions)
 - Add blowguns as a weapon type.
 - Fix "interception" manoeuvre to only work in threatened area.
+- Modify AoO rules so that standing up, drinking potions and using some items can provoke AoOs.
 
 ### Races
 - Increase low light vision cost to 2 race-points.
@@ -135,8 +136,9 @@ _____
 - Add "Meteoric Flight" spell.
 - Add "slumber" spell.
 - Add "lesser domain" and "greater domain" spells.
+- Add "fairy shelter", "fairy feast" and "fairy ball". 
 
 ### Abilities
 - Add riposte.
 - Fix wording on aphonic, still and lingering spells.
-- Add "bard song", "spellsong", ..
+- Add "bard song", "spellsong", "guarded" (vs AoOs).

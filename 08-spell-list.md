@@ -2978,13 +2978,13 @@ ___
 
 **Description**: The spell briefly sinks a part of the material realm into the fey realms, forcing the absurd rules of feydom to assert themselves in the spell's area of effect.
 
-Firstly, all targets of the caster's choice regain 4d4+[Sup] MP and SP.
+Firstly, all targets of the caster's choice regain 4d4+[Sup] MP and SP, if they are in the spell's area of effect when it is cast.
 
-Secondly all targets of the caster's choice are cured of up to 4 conditions of their choice.
+Secondly all targets of the caster's choice are cured of up to 4 conditions of their choice, if they are in the spell's area of effect when it is cast.
 
-Thirdly, all hostile entities and all "[profane](10-conditions-types.md#profane)" must make a WIS save vs the caster's threshold, or gain the "glowing" condition, and be either "frightened" of, or "charmed" by, the caster and their allies for the duration of the spell (repeated saves apply).
+Thirdly, all hostile entities and all "[profane](10-conditions-types.md#profane)" must make a WIS save vs the caster's threshold, or gain the "glowing" condition, and be either "frightened" of, or "charmed" by, the caster and their allies for the duration of the spell (repeated saves apply). This effect occurs to entities if they are in the spell's area of effect when it is cast, or when they first enter the area of effect.
 
-Fourthly, all willing allies are transformed into "beasts" or "fey" of the caster's choice, as if by the "[Transform Mortal](#transform-mortal)" spell.
+Fourthly, all willing allies are transformed into "beasts" or "fey" of the caster's choice, as if by the "[Transform Mortal](#transform-mortal)" spell. This effect occurs to entities if they are in the spell's area of effect when it is cast, or when they first enter the area of effect.
 
 **Special**: If the caster sacrifices a precious memory, in the form of permanently losing one of their abilities, the MP dice cost of the spell becomes zero. In addition the following effects occur:
 - The area of the spell is cut off from the material world (or other realms), and it is only possible to enter or leave via a secret path that the caster knows, or with a ["navigate"](05-skills.md#navigate) roll equal to the caster's threshold.
@@ -2997,6 +2997,7 @@ Fourthly, all willing allies are transformed into "beasts" or "fey" of the caste
 - All allies heal all conditions 1 hour after the start of the spell, all MP and SP 2 hours after the start of the spell, starvation, thirst and insomnia 3 hours after the start of the spell, and all HP at the end of the spell. SP and MP dice are not restored.
 - Additional semi-illusionary changes to local terrain may occur.
 - The fey will be willing to offer the caster up to one piece of secret information (either plot related, or secret knowledge (knowledge threshold=36)). Alternatively a fey being may be offered as a bride or groom to the caster by the ruler of the fey realm (although unions between mortals and spirits seldom end well..).
+- This spell borders on legendary magic, that forever changes the locale where it is cast. When the 24 hours are over, three of the 8 effects caused by the "local" casting of the spell continue to be active for 108 years. Likewise, mortals born in this area tend to have a "spiritual" alignment and fey traits.
 
 ### Mage's Oath
 |Name|Mage's Oath [Incantation, Curse, Divine]|

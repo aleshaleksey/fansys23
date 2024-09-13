@@ -25,6 +25,11 @@ A certain level of freeform RP and common sense are recommended.
     - [Terrain Hazards (TODO)](#terrain-hazards-todo)
     - [Falling](#falling)
     - [Characters, starvation, and other bad ways to die](#characters-starvation-and-other-bad-ways-to-die)
+4. [Supernatural Terrain](#supernatural-terrain)
+    - [Spirit Realms](#spirit-realms-todo)
+    - [Afterlives](#afterlives-todo)
+    - [Secret Paths](#secret-paths)
+
 
 ___
 ## Load and Carrying Capacity
@@ -349,3 +354,44 @@ Most characters are morals and therefore require **sustenance** and suffer from 
 |**Insomnia**|Lose 3 SP dice per day.|full rest|
 
 The loss of dice due to suffocation, dehydration, starvation and insomnia is considered "temporary". A suitable period of rest (see above) restores the dice total and any lost dice.
+
+___
+## Supernatural Terrain.
+Not all terrain is natural or "worked" (ie "man made"). It is not that rare, in a fantastic world, to find supernatural terrain.
+
+This can be labyrinths and lands where distances to not follow the normal laws of physics and geometry (non euclidean spaces). For example the enchanted forest where walking in a straight line will return you to your starting point, but walking in a circle will still get you to a different point altogether.
+
+This can be dreamscapes, which can change unpredictably and at the drop of a hat, and where force of will can change not only the landscape, but the very laws of the realm.
+
+This can be literally enchanted areas, where the enchantment alters the nature of the area (see ["Undying realm"](08-spell-list.md#undying-realm)).
+
+This can be other planes that follow different physical laws.
+
+This can be "spirit realms", which are entirely immaterial, but unlike dreamscapes, very real indeed, with what characters with a physical form experience in those realms being *an interpretation that the mortal mind cn grasp* rather than the true nature of those realms.
+
+This game defines rules for some kinds of supernatural terran, but due to the vastness of the topic, encourages DMs and groups to set off on a flight of fancy, and in their fantasy worlds, create their own fantastic terrain with its own particulars. It should be noted, however, that this kind of terrain drastically changes the balance of the game, and should thus be used careful.
+
+### Spirit Realms (TODO)
+A spirit realm is generally, but not necessarily, a metaphorical layer of reality, which exists overlaid onto the material realm. In various practices and game systems, it is often referred to as the "astral plane", "astral realm", "otherside" or "otherworld". It is characterised as having shallow and deeper layers, which are increasingly difficult to access for material beings and are inhabited by increasing "inhuman" spiritual beings and concepts. Perhaps even gods. Depending on the fantasy world being built, this might be the only major "otherworld", or it might be one of many. FanSys (New System for *Fantasy Worlds*) was made to easily accommodate various cosmologies, but at its core assumes a single interconnected otherworld which is a "spiritual realm".
+
+**Shallow** layers of the spirit realm are adjacent to the material realm and are often easy to wonder in an out of unintentionally. Often they are inhabited by [fey](10-conditions-types.md#spiritual), monsters and minor spirits. The laws governing these layers are often quite similar to the material world, with only minor subtle differences. Mortals can dive into shallow layers of the spirit realm, and return, without consequences.
+
+**Intermediate** areas of the spirit realm one may find realms devoted to pervasive and powerful spirits and concepts. These realms are often absurd and somewhat abstracts, with the laws of reality being clearly different to the material world (all water might be alcohol, fire might be harmless, light, gravity, love, hate or other emotions might not exist). Elemental realms are often found in this layer. These may be impossible to access without a cosmic speed or "secret paths". In addition, returning from these layers is often stressful and the journey may leave a mortal shaken or otherwise drained.
+
+**Deep** layers of the spirit realm are where one finds afterlives, divine/profane realms, and pillar-concepts of creation. The deep realms are often alien to the mortal mind, and the laws that govern them often appear whimsical and disjointed, sometimes dreamlike, and sometimes mor realm than the material realm. These realms are inhabited by gods and demons which often preside over the souls that flocked to them, concepts and fates that are not destined for the material world, and by [things that should not be](10-conditions-types.md#divine). They generally cannot be accessed directly from the material realm, but rather from the appropriate "intermediate realm". Journeys into the deep layers of the spirit realm are more often than not, one way journeys. If a mortal does return from a deep layer of the spirit realm, it usually through great sacrifice, and even then they return forever changed.
+
+### Afterlives (TODO)
+Afterlives take many forms, but share one common property: A soul that has reached its afterlife cannot return to the mortal realm without significant limitations and consequence. Often, it is for a brief interval of time, often but a day (see ["Revenant"](08-spell-list.md#revenant)). In other case, one, or more often *many*, souls must be exchanged in order to keep it in the material realm (see ["Profane Resurrection"](08-spell-list.md#profane-resurrection)). Some spells *bring the afterlife into the material realm* (see ["Undying realm"](08-spell-list.md#undying-realm)). Afterlives often "spirit realms", but creative groups may have their own vision. Travel to an afterlife is much more often than not, a one way journey.
+
+### Secret Paths
+A secret path is a hidden, supernatural path or route that connects two locations. These can be natural or supernatural locations, but more often than not, one end is a natural location, while the other is supernatural. The secret path itself is ALWAYS supernatural. Secret paths are created by mages and supernatural beings, sometimes for their own purposes, and sometimes inadvertently.
+
+A secret path can be obviously supernatural to those who walk it (eg, a moonbeam leading over water into the light, or a bridge of skull-like stepping stones through a mire or blood), or it can be indistinguishable from the natural terrain where it starts (a forest path unseen to all those not walking it, but leading to a place completely different than where one would expect it to lead by physical laws).
+
+Secret paths have the following properties:
+- A secret path cannot be seen or located unconditionally without "true sight", or if it was created by an active spell, "spell sight"
+- A secret path can be found without special senses via a ["Knowledge: Arcana"](05-skills.md#knowledge) roll to identify its start (equal to the creator's threshold + 6). Ordinary "observe" does nothing here.
+- A secret path that has been found can be followed with a ["Navigate"](05-skills.md#navigate) roll equal to the creator's threshold.
+- A secret path takes a fixed number of time (usually measured in rounds) to traverse, regardless of movement speed.
+- Any entity on the secret path is no longer considered to be on the "material" realm, and hence cannot interact, or be interacted with. In general they "just disappear", as if "they were there just a moment ago...".
+

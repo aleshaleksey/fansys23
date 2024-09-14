@@ -112,6 +112,7 @@ _____
 - Alphabetical order for ability.
 - Table for damage by type.
 - Add monsters.
+- Add section on supernatural terrain and associated hazards.
 
 ### Combat
 - Change the HP damage and [associated conditions rules.](04-combat.md#hp-damage-and-conditions)

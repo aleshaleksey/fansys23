@@ -367,7 +367,7 @@ This can be literally enchanted areas, where the enchantment alters the nature o
 
 This can be other planes that follow different physical laws.
 
-This can be "spirit realms", which are entirely immaterial, but unlike dreamscapes, very real indeed, with what characters with a physical form experience in those realms being *an interpretation that the mortal mind cn grasp* rather than the true nature of those realms.
+This can be "spirit realms", which are entirely immaterial, but unlike dreamscapes, very real indeed, with what characters with a physical form experience in those realms being *an interpretation that the mortal mind can grasp* rather than the true nature of those realms.
 
 This game defines rules for some kinds of supernatural terran, but due to the vastness of the topic, encourages DMs and groups to set off on a flight of fancy, and in their fantasy worlds, create their own fantastic terrain with its own particulars. It should be noted, however, that this kind of terrain drastically changes the balance of the game, and should thus be used careful.
 

@@ -1453,7 +1453,7 @@ ___
 
 Access to the fey's realm is by a "secret path". The spell give the targets knowledge of the path. At the end of the spell this particular "secret path" ceases to exist.
 - It takes 1 round (regardless of move speed) to follow the secret path, during this time the targets are considered to be outside of the material realm.
-- Other entities can find the shelter via as ["Knowledge: Arcana"](05-skills.md#knowledge) roll to identify an effect (at least 20), and a subsequent "navigate" roll equal to the caster's spell threshold.
+- Other entities can find the shelter via a ["Knowledge: Arcana"](05-skills.md#knowledge) roll to identify an effect (at least 20), and a subsequent "navigate" roll equal to the caster's spell threshold.
 - Uninvited entities can only enter the Fey's realm upon succeeding a WIS save vs the caster's Threshold. However, even if the uninvited guest succeeds, it may face the displeasure of the master of the realm.
 
 **Special (global)**: The fey will ask the caster to make a [promise](#promise) (as per the spell) in exchange for the shelter. The promise may be trivial, ridiculous, or deadly serious, depending on the fey that the caster deals with.

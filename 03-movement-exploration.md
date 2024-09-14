@@ -61,7 +61,7 @@ For every size above medium, the carrying capacity limits are doubled. For every
 
 ___
 ## Local and Global Movement
-Here basic movement is described. It is based, where possible on observations. The main forms of movement are walk, climb, swim, flight and dig. Each one has its place and its pace. There are also two exotic types of movement which are not covered yet because we can live without it. Movement is measured in feet per round (ft), or miles per hour (mph). A very rough translation is 1mph = 1ft.
+Here basic movement is described. It is based, where possible on observations. The main forms of movement are walk, climb, swim, flight and dig. Each one has its place and its pace. There are also two exotic types of movement which are not covered yet because we can live without it. Movement is measured in feet per round (ft), or miles per hour (mph). A very rough translation is 1mph = 10ft/round.
 
 ### Difficult Terrain
 It is common when adventuring to find less than ideal terrain. Loose, rocky ground or turbulent waters are typical examples. Movement speed is halved over this kind of terrain. Most entities cannot "sprint" in these conditions and if they try to run, must make a DC12 [SKILL] check or fail to progress (critical failure means falling prone).
@@ -160,7 +160,7 @@ Travel from A to B can be summarised as follows:
 
 
 ### Local and Global Movement
-This is described above in "Local and Global Movement" above, but there are some additional nuances which. Tactical movement represents generally bursts of high intensity movement over short time periods and is measured in ft/round, usually limited to a few minutes at a time. On the other hand global movement reflects movement over a long range and is measured in mph. It often abstracts away elements such as winding paths and minor obstacles. Thus, an entity's speed on a local level in ft/round is equal to its speed in mph for overland travel.
+This is described above in "Local and Global Movement" above, but there are some additional nuances. Tactical movement represents generally bursts of high intensity movement over short time periods and is measured in ft/round, usually limited to a few minutes at a time. On the other hand global movement reflects movement over a long range and is measured in mph. It often abstracts away elements such as winding paths and minor obstacles. Thus, an entity's speed on a local level in ft/round is ten times greater than its speed in mph for overland travel. However, most entities are assumed to be able to travel for 10 hours per day, hence the *total distance* travelled in a day in mph is equal to its speed in ft/round.
 
 For entities and parties that travel via **walk**, **climb**, **dig** or **blink** speed, when travelling between two points that have no defined distance by road (and maybe no road), and only a map distance as the crow flies, the distance travelled is multiplied x2. This represents lack of direct roads, and often meandering routes over off road terrain. For entities using **walk**, **climb** or **dig** speed in **swamp**, **deep forest**, or **mountain** distance as the crow flies is multiplied by x4. Entities with a **cosmic** or **fly** speed do not suffer from this kind of impediment.
 
@@ -371,6 +371,7 @@ This can be "spirit realms", which are entirely immaterial, but unlike dreamscap
 
 This game defines rules for some kinds of supernatural terran, but due to the vastness of the topic, encourages DMs and groups to set off on a flight of fancy, and in their fantasy worlds, create their own fantastic terrain with its own particulars. It should be noted, however, that this kind of terrain drastically changes the balance of the game, and should thus be used careful.
 
+___
 ### Spirit Realms (TODO)
 A spirit realm is generally, but not necessarily, a metaphorical layer of reality, which exists overlaid onto the material realm. In various practices and game systems, it is often referred to as the "astral plane", "astral realm", "otherside" or "otherworld". It is characterised as having shallow and deeper layers, which are increasingly difficult to access for material beings and are inhabited by increasing "inhuman" spiritual beings and concepts. Perhaps even gods. Depending on the fantasy world being built, this might be the only major "otherworld", or it might be one of many. FanSys (New System for *Fantasy Worlds*) was made to easily accommodate various cosmologies, but at its core assumes a single interconnected otherworld which is a "spiritual realm".
 
@@ -380,15 +381,31 @@ A spirit realm is generally, but not necessarily, a metaphorical layer of realit
 
 **Deep** layers of the spirit realm are where one finds afterlives, divine/profane realms, and pillar-concepts of creation. The deep realms are often alien to the mortal mind, and the laws that govern them often appear whimsical and disjointed, sometimes dreamlike, and sometimes mor realm than the material realm. These realms are inhabited by gods and demons which often preside over the souls that flocked to them, concepts and fates that are not destined for the material world, and by [things that should not be](10-conditions-types.md#divine). They generally cannot be accessed directly from the material realm, but rather from the appropriate "intermediate realm". Journeys into the deep layers of the spirit realm are more often than not, one way journeys. If a mortal does return from a deep layer of the spirit realm, it usually through great sacrifice, and even then they return forever changed.
 
-### Afterlives (TODO)
+#### Spirit Realm Rules by Depth
+
+___
+### Afterlives
 Afterlives take many forms, but share one common property: A soul that has reached its afterlife cannot return to the mortal realm without significant limitations and consequence. Often, it is for a brief interval of time, often but a day (see ["Revenant"](08-spell-list.md#revenant)). In other case, one, or more often *many*, souls must be exchanged in order to keep it in the material realm (see ["Profane Resurrection"](08-spell-list.md#profane-resurrection)). Some spells *bring the afterlife into the material realm* (see ["Undying realm"](08-spell-list.md#undying-realm)). Afterlives often "spirit realms", but creative groups may have their own vision. Travel to an afterlife is much more often than not, a one way journey.
 
+The explanation given for the difficulties surrounding afterlives, is that the gods that govern death and the dead guard their realms and subjects jealously, and are loath to let them go. Others reason that the laws of creation allot only a fixed time to each mortal in the material realm, and extending that time is breaking, or at the very least bending, the laws of creation themselves. Others still explain it with the finality of death: Death cannot be reversed, and turning it back is merely recreating an ephemeral simulacrum of those who once lived.
+
+#### General Afterlife rules.
+- All rests take twice as long as usually (so a long rest might last 16 hours (or two days) instead of 8 hours (or 1 day)).
+- Spells and supernatural abilities that heal HP, SP and MP damage, as well as those that cure conditions do not function.
+- Undead lose 1 HP for every round spent in an afterlife realm (aka, they graduate to full dead and are released).
+- Only "constructs" and "divinities" can travel freely to and from afterlife realms. Even then, there may be afterlife-like realms where even "divinities" cannot escape. Other entities can only enter by invitation of the ruler of the particular afterlife realm, or having defeated whatever guardian or challenge is placed at crossing points.
+- Spirits that belong to the afterlife realm cannot leave without permission of its ruler.
+- Mortals that are not dead (not spirits) and do not belong to the afterlife realm can only leave by defeating the guardian or challenge at the crossing point, unless they entered by invitation of the realm's ruler.
+- Mortals that take objects, or consume food or drink must succeed a CHA save vs the Threshold of the ruler, or become property of the realm, like the spirits bound there (see above).
+- A ruler of an afterlife realm may transfer the ownership of a spirit or shade directly to another being, hence allowing it to leave that particular afterlife realm. If this spirit is returned to the material realm, its material body is restored, and it is considered resurrected. However, this is NEVER done without a hefty price being paid, be it an equivalent exchange of some kind, or a favour. The favour is often one that will bolster the interests of said afterlife realm's ruler, cause *more* souls/shades to enter this afterlife realm, or significantly harm the interest of this realm's ruler's foes. It should be noted, however, that the only true resurrection that exists, is for those who have comrades on the other side who are willing to risk everything to descend into the afterlife and retrieve them.
+
+___
 ### Secret Paths
 A secret path is a hidden, supernatural path or route that connects two locations. These can be natural or supernatural locations, but more often than not, one end is a natural location, while the other is supernatural. The secret path itself is ALWAYS supernatural. Secret paths are created by mages and supernatural beings, sometimes for their own purposes, and sometimes inadvertently.
 
 A secret path can be obviously supernatural to those who walk it (eg, a moonbeam leading over water into the light, or a bridge of skull-like stepping stones through a mire or blood), or it can be indistinguishable from the natural terrain where it starts (a forest path unseen to all those not walking it, but leading to a place completely different than where one would expect it to lead by physical laws).
 
-Secret paths have the following properties:
+#### Rules of Secret Paths
 - A secret path cannot be seen or located unconditionally without "true sight", or if it was created by an active spell, "spell sight"
 - A secret path can be found without special senses via a ["Knowledge: Arcana"](05-skills.md#knowledge) roll to identify its start (equal to the creator's threshold + 6). Ordinary "observe" does nothing here.
 - A secret path that has been found can be followed with a ["Navigate"](05-skills.md#navigate) roll equal to the creator's threshold.

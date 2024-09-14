@@ -26,8 +26,8 @@ A certain level of freeform RP and common sense are recommended.
     - [Falling](#falling)
     - [Characters, starvation, and other bad ways to die](#characters-starvation-and-other-bad-ways-to-die)
 4. [Supernatural Terrain](#supernatural-terrain)
-    - [Spirit Realms](#spirit-realms-todo)
-    - [Afterlives](#afterlives-todo)
+    - [Spirit Realms](#spirit-realms)
+    - [Afterlives](#afterlives)
     - [Secret Paths](#secret-paths)
 
 

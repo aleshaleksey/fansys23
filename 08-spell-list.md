@@ -60,6 +60,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Summon Gnome](#summon-gnome)
 - [Summon Water Sprite](#summon-water-sprite)
 - [Summon Wind Sprite](#summon-wind-sprite)
+- [Trace Secret Path](#trace-secret-path)
 - [Warded Ground](#warded-ground)
 - [Warmth](#warmth)
 
@@ -122,6 +123,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Summon Angel](#summon-angel)
 
 ### MP 7
+- [Create Secret Path](#create-secret-path)
 - [Greater Weather Control](#greater-weather-control)
 - [Incarnate](#incarnate)
 - [Meteoric Flight](#meteoric-flight)
@@ -133,7 +135,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Profane Resurrection](#profane-resurrection)
 
 ### MP 9 Spells
-- [Fairy Ball/Masquerade](#fairy-ballmasquerade) [9]
+- [Fairy Ball/Masquerade](#fairy-ballmasquerade)
 - [Mage's Oath](#mages-oath)
 
 ### MP 10 Spells
@@ -1251,6 +1253,36 @@ ___
 
 **Global**: The sprite is bound by a longer contract (an extra day for every 8MP above 8) and the spell does not require concentration. For every day of the contract the material component must be paid anew.
 
+____
+### Trace Secret Path
+|Name|Trace Secret Path [Nature, Air, Fire, Water, Earth, Spirit]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|2 (8)|
+|Target(s)|1 entity|
+|Casting time|1 main action (4 hours)|
+|Range|close|
+|Duration|12 min (1 day+)|+3
+|Components|incantation|+1
+|Focus|An item from the location the spell was cast|-1
+|Limitation|Special|-6
+
+**Description**: The caster imbues one target with the ability to trace out a "[secret path](03-movement-exploration.md#secret-paths)". The path is traced between the place where the spell is cast, and where the spell ends. The spell can be completed prematurely by speaking a pre-agreed completion word. The target of the spell knows the secret path and can find and follow it. They can share this information with other entities they can communicate with. Travelling this secret path takes one round per 12 minutes of duration of the spell.
+
+**Special**: The secret path exists for a number of days equal to the caster's character level. However, other entities may end up finding and using or inhabiting this path.
+
+**Limitation**: 
+- If "Secret Path" is learned through "air", "earth", "fire" or "water" magic, it can only be cast if at least one of the locations it connects is associated with the element, or its season. 
+- If "Secret Path" is cast through "nature" magic, it cannot connect two locales created through artifice (eg, cities, castles, houses, ships, etc).
+- The secret path MUST be between two areas in the same realm, or between adjacent realms (eg, one can trace a path between the material realm and a shallow layer of the spirit realm, or a shallow and intermediate layer of the spirit realm, but not between material realm and intermediate or deep layer of the spirit realm).
+- The spell ends if the target attempts to travel via "cosmic speed", or through other supernatural means such as "[Fairy Shelter](#fairy-shelter)", "[Aqueous Step](#aqueous-step)", "[Flame Stride](#flame-stride)", "[Fairy Feast](#fairy-feast)", "[Portal](#portal)", although it does function with "[Otherworld Step](#otherworld-step)" and "[Fairy Ball/Masquerade](#fairy-ballmasquerade)".
+
+**Upcast**: For every extra MP dice spent, the spell lasts for an extra 12 minutes.
+
+**Global**:
+- The spell lasts for 1 day (plus 1 day per extra 4MP dice).
+- The secret path exists for a number of months equal to the caster's character level. However, every month there is a 1/6 chance that the path shifts and the location and route are no longer known to the caster. Other entities might find, use and inhabit the paths created by this spell.
+
 ___
 ### Warmth
 |Name|Warmth [Fire, Travel]|
@@ -1283,7 +1315,7 @@ ___
 |Target(s)|30ft (400ft)|+4 (Ground only)
 |Casting time|"1 minute" (24h +2h per 4Mp dice)|-2
 |Range|close|-2
-|Duration| 8 hours (1 month)|+9
+|Duration|8 hours (1 month)|+9
 |Components|incantation, kinetic| -1
 |Material|Burned offerings of wine and lamb|-2
 |Limitations|Only works on ground of earth and stone (worked or natural)|-2
@@ -2734,6 +2766,28 @@ ___
 4+2+3+4+5+6+7+8=39
 
 ___
+### Create Secret Path
+|Name|Create Secret Path [Nature, Air, Fire, Water, Earth, Spirit]|
+|-|-|
+|Scope|global|
+|MP Dice|28|
+|Target(s)|2 points the caster knows|
+|Casting time|8 hours|
+|Range|The realm|+30
+|Duration|-|
+|Components|incantation|+1
+|Limitation|Special|-6
+
+**Description**: The caster instantly creates a "[secret path](03-movement-exploration.md#secret-paths)" between the current location and another location in this realm or an adjacent realm. The path's destination must be one that the caster has previously visited. The caster knows the secret path and can find and follow it. They can share this information with other entities they can communicate with. Travelling this secret path takes 6 rounds.
+
+**Special**: The secret path exists for a number of years equal to the caster's character level. However, other entities may end up finding and using or inhabiting this path. Every year there is a 1/6 chance that the path will shift and its location and route are no longer known to the caster.
+
+**Limitation**: 
+- If "Secret Path" is learned through "air", "earth", "fire" or "water" magic, it can only be cast if at least one of the locations it connects is associated with the element, or its season. 
+- If "Secret Path" is cast through "nature" magic, it cannot connect two locales created through artifice (eg, cities, castles, houses, ships, etc).
+- The secret path MUST be between two areas in the same realm, or between adjacent realms (eg, one can trace a path between the material realm and a shallow layer of the spirit realm, or a shallow and intermediate layer of the spirit realm, but not between material realm and intermediate or deep layer of the spirit realm).
+
+___
 ### Greater Weather Control
 |Name|Least Weather Control [Air, Nature]|
 |-|-|
@@ -3295,29 +3349,35 @@ ___
     - [Call Ailment](#call-ailment)
     - [Harvest](#harvest)
     - [Least Rest](#least-rest)
+    - [Trace Secret Path](#trace-secret-path)
 - Air
     - [Glide](#glide)
     - [Lesser Veil](#lesser-veil)
     - [Silence](#silence)
     - [Summon Wind Sprite](#summon-wind-sprite)
+    - [Trace Secret Path](#trace-secret-path)
 - Earth
     - [Dusk](#dusk)
     - [Earthen Hand](#earthen-hand)
     - [Summon Gnome](#summon-gnome)
+    - [Trace Secret Path](#trace-secret-path)
     - [Warded Ground](#warded-ground)
 - Fire
     - [Meadow of Flame](#meadow-of-flame)
     - [Summon Fire Sprite](#summon-flame-sprite)
+    - [Trace Secret Path](#trace-secret-path)
     - [Warmth](#warmth)
 - Water
     - [Dusk](#dusk)
     - [Least Transformation](#least-transformation)
     - [Summon Water Sprite](#summon-water-sprite)
+    - [Trace Secret Path](#trace-secret-path)
 - Incantation
   - [Least Rest](#least-rest)
   - [Lesser Veil](#lesser-veil)
   - [Meadow of Flame](#meadow-of-flame)
   - [Promise](#promise)
+  - [Trace Secret Path](#trace-secret-path)
 - Kinetic
   - [Call Ailment](#call-ailment)
   - [Earthen Hand](#earthen-hand)
@@ -3459,29 +3519,34 @@ ___
 
 - Nature
     - [Fairy Feast](#fairy-feast) [6]
+    - [Create Secret Path](#create-secret-path) [7]
     - [Transform Mortal](#transform-mortal) [7]
     - [Greater Weather Control](#greater-weather-control) [7]
     - [Fairy Ball/Masquerade](#fairy-ballmasquerade) [9]
     - []()
 - Air
     - [Razor Wind](#razor-wind) [6]
+    - [Create Secret Path](#create-secret-path) [7]
     - [Greater Weather Control](#greater-weather-control) [7]
     - [Meteoric Flight](#meteoric-flight) [7]
     - [Greater Domain](#greater-domain) [8]
     - []()
 - Earth
-    - [Portal](#portal)
+    - [Create Secret Path](#create-secret-path) [7]
+    - [Portal](#portal) [7]
     - [Greater Domain](#greater-domain) [8]
     - []()
     - []()
 - Fire
     - [Forest of Flame](#forest-of-flame) [6]
     - [Greater Fire Ward](#greater-fire-ward) [6]
+    - [Create Secret Path](#create-secret-path) [7]
     - [Meteoric Flight](#meteoric-flight) [7]
     - [Greater Domain](#greater-domain) [8]
     - [Realm of Flame](#realm-of-flame) [10]
     - []()
 - Water
+    - [Create Secret Path](#create-secret-path) [7]
     - [Transform Mortal](#transform-mortal) [7]
     - [Greater Domain](#greater-domain) [8]
     - [Mandate of the Deep](#mandate-of-the-deep) [10]
@@ -3489,6 +3554,7 @@ ___
 - Incantation
     - [Fairy Feast](#fairy-feast) [6]
     - [Razor Wind](#razor-wind) [6]
+    - [Create Secret Path](#create-secret-path) [7]
     - [Mage's Oath](#mages-oath) [9]
     - []()
 - Kinetic
@@ -3555,4 +3621,8 @@ ___
 **Special**:
 
 **Upcast**:
+
+
+
+
 

@@ -298,7 +298,6 @@ At level one a character starts with the following:
 + 1 background skill
 + 3 level points
 + 1 save in which they are proficient
-+ 3 dice points (NB: these are neither skills nor abilities...)
 + 1 homeland
 
 #### Skills and proficiencies

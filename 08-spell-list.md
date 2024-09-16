@@ -107,6 +107,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 ### MP 5
 - [Flame Stride](#flame-stride)
 - [Flawed Transmute](#flawed-transmute)
+- [Lesser Cosmic Seal](#lesser-cosmic-seal)
 - [Pact](#pact)
 - [Plague](#plague)
 - [Revenant](#revenant)
@@ -132,6 +133,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 
 ### MP 8
 - [Greater Domain](#greater-domain)
+- [Greater Cosmic Seal](#greater-cosmic-seal)
 - [Profane Resurrection](#profane-resurrection)
 
 ### MP 9 Spells
@@ -2395,6 +2397,33 @@ ___
 **Global**: The spell is permanent. If at least 28 MP dice are used the maximum material level can be 3. If 36 MP dice are used the maximum material level can be 4.
 
 ___
+### Lesser Cosmic Seal
+|Name|Cosmic Seal [Air, Earth, Nature, Water, Barrier]|7+15+8=30
+|-|-|
+|Scope|local (global)|
+|MP Dice|5 (20)|
+|Target(s)|10ft radius (200ft radius)|+2
+|Casting time|"1 main action" or "1 reaction" (4 hours)|+2
+|Range|30ft|+1
+|Duration|1 hour (1 month)|+6
+|Components|incantation, kinetic|-1
+|Focus|The symbol of a deity|-1
+|Material (global only)|1 oz of dragon blood used to draw the seal|-2
+|Limitation|Special| -4
+|Save|CHA|
+
+**Description**: The spell creates a seal within a 10ft radius of a point warding it against cosmic forces. This barrier has three effects within its area of effect while it is active:
+- Everything in the AoE has resistance to "[entropic damage](10-conditions-types.md#esoteric-damage)".
+- All secret paths that start or end in the area of effect are unusable.
+- An entity that wishes to enter or leave the area by "cosmic" or "blink" speed, or through the use of a spell or supernatural ability must succeed on a CHA sav vs the caster's Threshold, or fail.
+
+**Special**: If the spell is cast as a reaction, it has a duration of 1 minute and cannot be upcast.
+
+**Upcast**: For every extra MP dice used to cast the spell, the radius increases by 10ft, or the range increases by 30ft.
+
+**Global**: The spell has a radius of 200ft and a duration of 1 month. For every extra 4MP dic used, the duration increases by a month or the radius increases by 200ft.
+
+___
 ### Pact
 |Name|Pact [Curse, Global]|
 |-|-|
@@ -2975,6 +3004,37 @@ ___
 
 The caster may instead *join* a domain onto an existing domain, hence expanding it. The domain must belong to the caster, or the creator of the other domain must permit it. In the case where the spell is used to expand a domain, the caster must make a "[Spellworking](05-skills.md#spellworking)" roll with a Threshold=[own threshold + 1 for every expansion that the domain has undergone]. Upon failure the spell ends in catastrophic failure.
 
+___
+### Greater Cosmic Seal
+|Name|Greater cosmic Seal [Air, Earth, Fire, Nature, Water, Barrier]|12+8+15+16=51
+|-|-|
+|Scope|local (global)|
+|MP Dice|8 (32)|
+|Target(s)|60ft radius (1200ft)|+16
+|Casting time|"1 main action" or "1 reaction" (8 hours)|+2
+|Range|60ft|+2
+|Duration|1 day (1 year)|+12
+|Components|incantation, kinetic|-1
+|Focus|The symbol of a deity|-1
+|Material (global only)|1 pint of dragon blood used to draw the seal|-2
+|Limitation|Special| -4
+|Save|CHA|
+
+**Description**: The spell creates a grand seal within a 60ft radius of a point warding it against cosmic forces. This barrier has three effects within its area of effect while it is active:
+- Everything in the AoE is immune to "[entropic damage](10-conditions-types.md#esoteric-damage)".
+- All secret paths that start or end in the area of effect are unusable.
+- An entity that wishes to enter or leave the area by "cosmic" or "blink" speed, or through the use of a spell or supernatural ability must succeed on a CHA sav vs the caster's Threshold, or fail.
+
+**Limitation**: 
+- If the spell is learned through "air", "earth", "fire" or "water" magic, it can only be cast if the location is associated with the element, or during the appropriate season.
+- If the spell is cast through "nature" magic, it cannot be cast in locales created through artifice (eg, cities, castles, houses, ships, etc).
+
+**Upcast**: For every extra MP dice used in casting the spell, the duration increases by 8 hours, or the radius increases by 20ft.
+
+**Global**: This is one of the great barrier spells used by great mages as part of a great defensive weave, be it to keep great calamities sealed through the ages, or protect places and being precious to them.
+
+The spell covers an area of 1200ft and lasts for a year. For every extra 4 MP dice used, the radius increases by 400ft, or the duration increases by a year.
+___
 ### Profane Resurrection
 |Name|Profane Resurrection [Curse, Profane]|
 |-|-|
@@ -3480,22 +3540,27 @@ ___
 ### MP 5
 
 - Nature
+    - [Lesser Cosmic Seal](#lesser-cosmic-seal)
     - [Plague](#plague)
     - []()
     - []()
 - Air
+    - [Lesser Cosmic Seal](#lesser-cosmic-seal)
     - []()
     - []()
     - []()
 - Earth
+    - [Lesser Cosmic Seal](#lesser-cosmic-seal)
     - [Revenant](#revenant)
     - []()
     - []()
 - Fire
     - [Flame Stride](#flame-stride)
+    - [Lesser Cosmic Seal](#lesser-cosmic-seal)
     - [Revenant](#revenant)
     - []()
 - Water
+    - [Lesser Cosmic Seal](#lesser-cosmic-seal)
     - []()
     - []()
     - []()
@@ -3522,6 +3587,7 @@ ___
     - [Create Secret Path](#create-secret-path) [7]
     - [Transform Mortal](#transform-mortal) [7]
     - [Greater Weather Control](#greater-weather-control) [7]
+    - [Greater Cosmic Seal](#greater-cosmic-seal) [8]
     - [Fairy Ball/Masquerade](#fairy-ballmasquerade) [9]
     - []()
 - Air
@@ -3530,11 +3596,13 @@ ___
     - [Greater Weather Control](#greater-weather-control) [7]
     - [Meteoric Flight](#meteoric-flight) [7]
     - [Greater Domain](#greater-domain) [8]
+    - [Greater Cosmic Seal](#greater-cosmic-seal) [8]
     - []()
 - Earth
     - [Create Secret Path](#create-secret-path) [7]
     - [Portal](#portal) [7]
     - [Greater Domain](#greater-domain) [8]
+    - [Greater Cosmic Seal](#greater-cosmic-seal) [8]
     - []()
     - []()
 - Fire
@@ -3543,12 +3611,14 @@ ___
     - [Create Secret Path](#create-secret-path) [7]
     - [Meteoric Flight](#meteoric-flight) [7]
     - [Greater Domain](#greater-domain) [8]
+    - [Greater Cosmic Seal](#greater-cosmic-seal) [8]
     - [Realm of Flame](#realm-of-flame) [10]
     - []()
 - Water
     - [Create Secret Path](#create-secret-path) [7]
     - [Transform Mortal](#transform-mortal) [7]
     - [Greater Domain](#greater-domain) [8]
+    - [Greater Cosmic Seal](#greater-cosmic-seal) [8]
     - [Mandate of the Deep](#mandate-of-the-deep) [10]
     - []()
 - Incantation

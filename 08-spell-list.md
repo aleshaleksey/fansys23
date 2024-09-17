@@ -1052,7 +1052,7 @@ ___
 
 **Description**: Make a target "invisible" for the duration. (6+6+1-2-2=4+2+3)
 
-**Upcast**: For every extra MP used, the duration increases by a week or the number of targets increases by one.
+**Upcast**: For every extra MP used, the duration increases by an hour or the number of targets increases by one.
 
 **Warning**: "Invisibility" does not hide the sounds a target makes, or the aroma it exudes.
 

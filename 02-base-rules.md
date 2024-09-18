@@ -290,8 +290,8 @@ The bases value for stats of a character is 10. When a character is created, thi
 
 The rules for point buy are (this is for the standard "24 point buy"):
 
-1. Start with all stats at 10.
-2. Add or subtract points until the remaining points are 0.
+1. Start with a blank sheet and 24 points.
+2. Assign points in accordance with the cost table until all 6 stats are assigned and the remaining points are 0. If you end with unassigned points, those points are lost.
 
 The point cost for point buy is as follows.
 

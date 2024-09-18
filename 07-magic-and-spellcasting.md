@@ -63,9 +63,10 @@ Spells with an active effect (eg summoning) and non-instantaneous duration usual
 1. A caster can NEVER concentrate on more than one spell.
 2. If concentration is broken, the spell dissipates or fails spectacularly. Either way its effects end.
 3. An "incapacitated" (or so implied) entity cannot concentrate.
-4. Concentration can be disrupted by taking damage (threshold = 10 or 1/2 damage taken, whichever is higher).
-5. Concentration can be disrupted by violent movement (threshold = 12), violent weather (threshold = 12) or both (threshold = 16).
-6. A caster can "hold" an "instantaneous" spell with a release trigger to trigger the effect within a minute of casting. The threshold = 8 +[rounds held]. If the trigger is not met the spell dissipates. The cost of the spell is paid when the spell is cast (always), not when it is triggered.
+4. A concentration save is a special save calculated as Concentration Bonus = [[Wis]/2 + [Int]/2 + [Nat]]. (A caster's ability to focus depends on mental acuity, connectedness as well as, strangely enough, physical condition and training).
+5. Concentration can be disrupted by taking damage (threshold = 12 or 1/2 damage taken, whichever is higher).
+6. Concentration can be disrupted by violent movement (threshold = 12), violent weather (threshold = 12) or both (threshold = 16).
+7. A caster can "hold" an "instantaneous" spell with a release trigger to trigger the effect within a minute of casting. The threshold = 8 +[rounds held]. If the trigger is not met the spell dissipates. The cost of the spell is paid when the spell is cast (always), not when it is triggered.
 
 ___
 ### Spell types table

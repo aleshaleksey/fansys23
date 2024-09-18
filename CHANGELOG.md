@@ -119,6 +119,7 @@ _____
 - Add blowguns as a weapon type.
 - Fix "interception" manoeuvre to only work in threatened area.
 - Modify AoO rules so that standing up, drinking potions and using some items can provoke AoOs.
+- Define what concentration is (bonus = [Wis]/2 + [Int]/2 + [Nat]), and change damage threshold to 12.
 
 ### Races
 - Increase low light vision cost to 2 race-points.

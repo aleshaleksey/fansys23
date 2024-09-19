@@ -7,6 +7,7 @@ A certain level of freeform RP and common sense are recommended.
 
 1. [Load and Carrying Capacity](#load-and-carrying-capacity)
 2. [Local and Global Movement](#local-and-global-movement)
+    - [Global Movement, Pushing and Fatigue](#global-movement-pushing-and-fatigue)
     - [Difficult Terrain](#difficult-terrain)
     - [Walking](#walking)
     - [Climb](#climb)
@@ -61,7 +62,14 @@ For every size above medium, the carrying capacity limits are doubled. For every
 
 ___
 ## Local and Global Movement
-Here basic movement is described. It is based, where possible on observations. The main forms of movement are walk, climb, swim, flight and dig. Each one has its place and its pace. There are also two exotic types of movement which are not covered yet because we can live without it. Movement is measured in feet per round (ft), or miles per hour (mph). A very rough translation is 1mph = 10ft/round.
+Here basic movement is described. It is based, where possible on observations. The main forms of movement are walk, climb, swim, flight and dig. Each one has its place and its pace. There are also two exotic types of movement which are not covered yet because we can live without it. Movement is measured in feet per round (ft), or miles per hour (mph). A very rough translation is 1mph = 10ft/round. This is known as the "global movement speed".
+
+### Global Movement, Pushing and Fatigue
+Typically, an experienced traveller can continue their journey for 10 hours per day at a reasonable pace (equal to their global movement speed). If a traveller has a fly speed with limitations on fly duration, the time in flight counts against this total journey time of 10 hours. Thus, if a character has a flight time of 2 hours, and they spend those 2 hours on the wing, not only do they expend their flight time, but also they have only 8 hours of journey time remaining. During any rest, 5 hours of journey time is regained, with all 10 hours being regained during a long rest.
+
+A character may "push" beyond that time, but for every hour of "pushing" themselves in this way, the character expends 1 SP dice (and hence 2 SP). A character who has ran out of SP or SP dice, can continue to push, at the cost of 1HP per hour, however, in this case they immediately gain the "crippled" condition.
+
+In addition, a traveller can move faster than their global movement speed (see "[Walking](#walking)" below), however the SP dice/ HP cost is applied at shorter intervals.
 
 ### Difficult Terrain
 It is common when adventuring to find less than ideal terrain. Loose, rocky ground or turbulent waters are typical examples. Movement speed is halved over this kind of terrain. Most entities cannot "sprint" in these conditions and if they try to run, must make a DC12 [SKILL] check or fail to progress (critical failure means falling prone).
@@ -70,8 +78,8 @@ It is common when adventuring to find less than ideal terrain. Loose, rocky grou
 Most entities with a "walk" speed can:
 - **Crawl (5ft/round)**: Crawling is movement when prone, dragging one's torso along the ground. It makes one harder to spot or hit with ranged attacks, but is laborious and slow. Entities without a "walk" speed can only crawl overland.
 - **Walk (1x base speed)**: This either represents ordinary walking, or bursts of rapid movements with pauses and changes of direction. Typically a fit humanoid can walk for hours without suffering ill effects. For a base human this is 30ft or 3mph.
-- **Run (2 x base speed)**: This represents a steady jog, a very brisk walk, or rapid movement with obstacles and changes of direction. Typically a humanoid can run for [CON] hours before fatiguing. For a base human this is 60ft or 6mph.
-- **Sprint (4 x base speed)**: This represents movement at maximum pace in a fairly straight line, over unbroken terrain free from obstacles. A typical human can sprint for [STR] rounds before becoming fatigued. For a base human this is 120ft or 12mph.
+- **Run (2 x base speed)**: This represents a steady jog, a very brisk walk, or rapid movement with obstacles and changes of direction. Typically a humanoid can run for [CON] hours before fatiguing, and the penalty is subsequently applied every 10 minutes. For a base human this is 60ft or 6mph.
+- **Sprint (4 x base speed)**: This represents movement at maximum pace in a fairly straight line, over unbroken terrain free from obstacles. A typical human can sprint for [STR] rounds before becoming fatigued and the penalty is subsequently applied every round. For a base human this is 120ft or 12mph.
 - **Difficult terrain:** Some rocky, overgrown, sloping, slippery terrain is classed as "difficult". Narrow passages also count as difficult terrain.
 
 ### Climb
@@ -121,6 +129,8 @@ Not all flying entities are equal in flight. In fact there are four categories (
   - They can hover without falling.
 
 **NB**: Flight "time" is fully regained at the end of a ["long rest"](04-combat.md#long-rest). Likewise, half of an entity's flight time is regained at the end of a ["short rest"](04-combat.md#short-rest).
+
+A character with flight may "[push](#global-movement-pushing-and-fatigue)" beyond their allocated fly time, however the penalty is applied every 10 minutes, instead of every hour.
 
 Most birds are "average" flyers, though most fowl are "poor" and small raptors are usually "good". Flies, on the other hand have "perfect flight". Humanoids seldom have natural flight. Those that do, are usually poor. Those races with "average" flight pay a high price for it.
 

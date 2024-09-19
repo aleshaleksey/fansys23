@@ -113,6 +113,7 @@ _____
 - Table for damage by type.
 - Add monsters.
 - Add section on supernatural terrain and associated hazards.
+- Add rule for fatigue when travelling and pushing yourself.
 
 ### Combat
 - Change the HP damage and [associated conditions rules.](04-combat.md#hp-damage-and-conditions)

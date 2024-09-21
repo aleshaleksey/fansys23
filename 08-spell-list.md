@@ -56,6 +56,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Meadow of Flame](#meadow-of-flame)
 - [Promise](#promise)
 - [Silence](#silence)
+- [Wind Step](#wind-step)
 - [Summon Fire Sprite](#summon-flame-sprite)
 - [Summon Gnome](#summon-gnome)
 - [Summon Water Sprite](#summon-water-sprite)
@@ -1146,6 +1147,33 @@ ___
 **Description**: You render a single target or a small, fixed area "inaudible".
 
 **Global**: The spell affects an area with a radius of 100ft and lasts for a week. For every 4 extra MP dice used the radius increases by 100ft, or the duration increases by a week.
+
+___
+### Wind Step
+|Name|Wind Step [Air, Travel]|
+|-|-|
+|Scope|Local|
+|MP Dice|2+|
+|Target(s)|1 entity|
+|Casting time|1 Main action (special)|
+|Range|Close|
+|Duration|Instantaneous|
+|Components|Incantation|+1
+|Limitation|Destination must be within line of sight of caster|-2
+|Limitation|Destination and target must not be hermetically isolated|-2
+|Limitation|Destination must not be aligned with elemental "earth"|-1
+|Save|CHA|
+
+**Description**: The caster, or one target entity within its reach, blinks instantly to a point it can see, within a distance of its local walk speed or 30ft (whichever is greater). An unwilling target may negate the spell with a successful CHA save.
+
+**Limitation**: The location the target can blink to must be:
+- In line of sight of the caster.
+- Not hermetically isolated from the caster.
+- Not aligned with "earth"
+
+**Upcast**: For every extra MP, the caster may either:
+- Reduce the casting time to  1 Secondary action.
+- Extend the blink distance by 30ft.
 
 ___
 ### Summon Flame Sprite
@@ -3414,6 +3442,7 @@ ___
     - [Glide](#glide)
     - [Lesser Veil](#lesser-veil)
     - [Silence](#silence)
+    - [Wind Step](#wind-step)
     - [Summon Wind Sprite](#summon-wind-sprite)
     - [Trace Secret Path](#trace-secret-path)
 - Earth
@@ -3691,8 +3720,3 @@ ___
 **Special**:
 
 **Upcast**:
-
-
-
-
-

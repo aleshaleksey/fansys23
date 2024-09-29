@@ -3051,7 +3051,7 @@ ___
 **Description**: The spell creates a grand seal within a 60ft radius of a point warding it against cosmic forces. This barrier has three effects within its area of effect while it is active:
 - Everything in the AoE is immune to "[entropic damage](10-conditions-types.md#esoteric-damage)".
 - All secret paths that start or end in the area of effect are unusable.
-- An entity that wishes to enter or leave the area by "cosmic" or "blink" speed, or through the use of a spell or supernatural ability must succeed on a CHA sav vs the caster's Threshold, or fail.
+- An entity that wishes to enter or leave the area by "cosmic" or "blink" speed, or through the use of a spell or supernatural ability must succeed on a CHA sav vs the caster's Threshold, or fail. The save cannot be repeated.
 
 **Limitation**: 
 - If the spell is learned through "air", "earth", "fire" or "water" magic, it can only be cast if the location is associated with the element, or during the appropriate season.

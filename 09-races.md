@@ -376,7 +376,7 @@ The base template allows the following:
 - Improve dig speed by 5ft.
 - A passive or active (B class) ability with no prerequisites.
 - Gain one of the following senses: "Tremor Sense", "Blindsight".
-  - When this enhancement is a graded ability (eg "[Tremor Sense](06-abilities.md#tremor-sense-i-v"), it is always taken at 2nd level (eg "Tremor Sense II"). In this case increasing it by a further level costs a single point.
+  - When this enhancement is a graded ability (eg "[Tremor Sense](06-abilities.md#tremor-sense-i-v")), it is always taken at 2nd level (eg "Tremor Sense II"). In this case increasing it by a further level costs a single point.
 
 
 #### Five Template points:

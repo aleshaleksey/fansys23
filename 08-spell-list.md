@@ -68,6 +68,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 ### MP 3
 - [Animate Plant](#animate-plant)
 - [Animate Dead](#animatecontrol-dead)
+- [Blessing of the Fates](#blessing-of-the-fates)
 - [Command Mortal](#command-mortal)
 - [Cure](#cure)
 - [Earth Ward](#earth-ward)
@@ -95,6 +96,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Balance of Nature](#balance-of-nature)
 - [Bestial Transformation](#bestial-transformation)
 - [Enchanted Ground](#enchanted-ground)
+- [Gift of the Fates](#gift-of-the-fates)
 - [Lesser Domain](#lesser-domain)
 - [Least Storm](#least-storm)
 - [Lesser Incarnation](#lesser-incarnation)
@@ -1421,6 +1423,31 @@ ___
 (Summon spell rating is controversial)
 
 ___
+### Blessing of the Fates
+|Name|Favour of Fate [Divine, Kinetic]|
+|-|-|
+|Scope|local|
+|MP Dice|3|
+|Target(s)|1 entity|
+|Casting time|1 reaction|+2
+|Range|60ft|+2
+|Duration|Instantaneous|
+|Components|Kinetic|-1
+|Focus|-|
+|Material|-|
+|Limitation|The spell does not affect "profane" or "divine" entities, or those who are "doomed".|-2
+|Save|WIS|
+
+**Description**: The spell allows one to redirect destiny. When an entity or object in range are targeted by an attack or suffer a harmful effect that affects only one object or entity, the caster may redirect it at another valid target within range. Likewise the caster may redirect an AoE targeted at a point in range to any other valid point in range.
+
+If the effect (or attack) is caused by an entity with a WIS score, it may make a WIS save vs the caster's threshold to nullify the spell.
+
+**Limitations**:
+- If there are no valid targets in range, the spell fails.
+
+**Upcast**: For every extra MP dice, the range of the spell increases by 30ft.
+
+___
 ### Command Mortal
 |Name|Charm Mortal [mortal, fire]|
 |-|-|
@@ -2068,6 +2095,25 @@ ___
 **Upcast**: The for every extra MP die used, the spell's radius increases by 5ft or the damage increases by 1d12, or the duration increases by 12 min.
 
 **Global**: The spell lasts for a day and has a great radius. It deals the damage only during the first minute of the spell and can also affect structures. In addition friendly entities have advantage on fortification and harvesting rolls in the area. For every 4MP dice extra the duration increases by a day, or the radius increases by 800ft.
+
+___
+### Gift of the Fates
+|Name|Favour of Fate [Divine, Kinetic]|
+|-|-|
+|Scope|local|
+|MP Dice|4|
+|Target(s)|1 entity|
+|Casting time|1 reaction|+2
+|Range|30ft|+1
+|Duration|Instantaneous|
+|Components|Kinetic|-1
+|Focus|-|
+|Material|-|
+|Limitation|The spell doe not affect "profane" or "divine" entities.|
+|Save|WIS|
+
+**Description**: The caster gifts on entity that is making a targetted attack or save, casting the spell after the action is declared, but before the attack/save is resolved. The target of the spell can reject the effect with a successful WIS save. Effect:
+- The target may treat one of the dice it rolls as 12. The target choses which of its dice to treat as a 12.
 
 ___
 ### Lesser Domain
@@ -3372,23 +3418,23 @@ ___
     - [Least Hydromancy](#least-hydromancy)
     - [Mist](#mist)
 - Incantation
-  - [Least Anemancy](#least-anemancy)
-  - [Down](#down)
-  - [Least Blast](#least-blast)
-  - [Least Geomancy](#least-geomancy)
-  - [Least Ward](#least-ward)
-  - [Least Hydromancy](#least-hydromancy)
-  - [Least Pyromancy](#least-pyromancy)
-  - [Ignition](#ignition)
-  - [Least Spike](#least-spike)
+    - [Least Anemancy](#least-anemancy)
+    - [Down](#down)
+    - [Least Blast](#least-blast)
+    - [Least Geomancy](#least-geomancy)
+    - [Least Ward](#least-ward)
+    - [Least Hydromancy](#least-hydromancy)
+    - [Least Pyromancy](#least-pyromancy)
+    - [Ignition](#ignition)
+    - [Least Spike](#least-spike)
 - Kinetic
-  - [Compass](#compass)
-  - [Deafen](#deafen)
-  - [Hide](#hide)
-  - [Least Shroud](#least-shroud)
-  - [Mist](#mist)
-  - [Silence](#silent)
-  - [Whispers](#whispers)
+    - [Compass](#compass)
+    - [Deafen](#deafen)
+    - [Hide](#hide)
+    - [Least Shroud](#least-shroud)
+    - [Mist](#mist)
+    - [Silence](#silent)
+    - [Whispers](#whispers)
 - Other
 
 ### MP 1
@@ -3462,18 +3508,18 @@ ___
     - [Summon Water Sprite](#summon-water-sprite)
     - [Trace Secret Path](#trace-secret-path)
 - Incantation
-  - [Least Rest](#least-rest)
-  - [Lesser Veil](#lesser-veil)
-  - [Meadow of Flame](#meadow-of-flame)
-  - [Promise](#promise)
-  - [Trace Secret Path](#trace-secret-path)
+    - [Least Rest](#least-rest)
+    - [Lesser Veil](#lesser-veil)
+    - [Meadow of Flame](#meadow-of-flame)
+    - [Promise](#promise)
+    - [Trace Secret Path](#trace-secret-path)
 - Kinetic
-  - [Call Ailment](#call-ailment)
-  - [Earthen Hand](#earthen-hand)
-  - [Glide](#glide)
-  - [Least Transformation](#least-transformation)
-  - [Silence](#silence)
-  - [Warmth](#warmth)
+    - [Call Ailment](#call-ailment)
+    - [Earthen Hand](#earthen-hand)
+    - [Glide](#glide)
+    - [Least Transformation](#least-transformation)
+    - [Silence](#silence)
+    - [Warmth](#warmth)
 
 ### MP 3
 
@@ -3517,6 +3563,7 @@ ___
     - [Wind Walk](#wind-walk)
 - Kinetic
     - [Animate/Control Dead](#animatecontrol-dead)
+    - [Blessing of the Fates](#blessing-of-the-fates)
     - [Fairy Shelter](#fairy-shelter)
     - [Least Curse](#least-curse)
     - [See Spell](#see-spell)
@@ -3552,17 +3599,18 @@ ___
     - [Mirage](#mirage)
     - [Scry](#scry)
 - Incantation
-  - [Balance of Elements](#balance-of-elements)
-  - [Balance of Nature](#balance-of-nature)
-  - [Least Weather Control](#lesser-weather-control)
-  - [Speak Through Flame](#speak-through-flame)
-  - [Summon Spirit](#summon-spirit)
+    - [Balance of Elements](#balance-of-elements)
+    - [Balance of Nature](#balance-of-nature)
+    - [Least Weather Control](#lesser-weather-control)
+    - [Speak Through Flame](#speak-through-flame)
+    - [Summon Spirit](#summon-spirit)
 - Kinetic
-  - [Aqueous Step](#aqueous-step)
-  - [Bestial Transformation](#bestial-transformation)
-  - [Mirage](#mirage)
-  - [Scry](#scry)
-  - [Lesser Incarnation](#lesser-incarnation)
+    - [Aqueous Step](#aqueous-step)
+    - [Bestial Transformation](#bestial-transformation)
+    - [Gift of the Fates](#gift-of-the-fates)
+    - [Mirage](#mirage)
+    - [Scry](#scry)
+    - [Lesser Incarnation](#lesser-incarnation)
 
 - Other
 
@@ -3720,3 +3768,5 @@ ___
 **Special**:
 
 **Upcast**:
+
+

@@ -34,6 +34,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Foxfire](#foxfire)
 - [Gnomes' Mercy](#gnomes-mercy)
 - [Headwind](#headwind)
+- [Hide Spirit](#hide-spirit)
 - [Least Flare](#least-flare)
 - [Least Heal](#least-heal)
 - [Least Vengeance](#least-vengeance)
@@ -656,6 +657,26 @@ ___
 **Upcast**: Increase the radius of the cone by 5ft for each extra MP.
 
 **Global**: The wind strength remains the same, but the spell creates a whirlwind with a 100ft radius. The duration increases to an hour. For every 4MP extra the duration increases by an hour or the radius increases by 50ft.
+
+___
+### Hide Spirit
+|Name| [Nature, Spirit, Wind]|
+|-|-|
+|Scope|local|
+|MP Dice|1|
+|Target(s)|1 entity|
+|Casting time|1 full round action|-2
+|Range|close|-2 
+|Duration|12 minutes|
+|Components|Incantation, Kinetic|-1
+|Focus|A talisman made of material from a hidden valley, or a pouch of nettle leaves|
+|Save|WIS/INT|
+
+**Description**: The target of the spell may attempt to go unnoticed in areas watched by various scrying magics or within wards such as "[Warded Ground](#warded-ground)". An unwilling target may negate the effect with a successful WIS save.
+
+In order to do so, the target of "Hide Spirit" must succeed an INT save vs the Threshold of the one who cast the detection magic the first time that the magic would normally detect it. On a successful save, the detection magic does not detect the target or any objects on its person (within its carrying capacity) or supernatural effects that are affecting it. Repeated saves are not necessary.
+
+**Upcast**: Firstly, the spell lasts for an extra 12 minutes for every extra MP dice used to cast it. Secondly the spell becomes effective against spells that were cast at the same "spell level" (disadvantage no longer applies).
 
 ___
 ### Least Flare
@@ -3443,9 +3464,11 @@ ___
     - [Bear's Claws](#bears-claws)
     - [Beast Speech](#beast-speech)
     - [Ensnare](#ensnare)
+    - [Hide Spirit](#hide-spirit)
     - [Least Heal](#least-heal)
 - Air
     - [Headwind](#headwind)
+    - [Hide Spirit](#hide-spirit)
     - [Least Flare](#least-flare)
     - [Sense Spell](#sense-spell)
     - [Spirits' Secret](#spirits-secret)
@@ -3745,6 +3768,8 @@ ___
 |Material||
 |Limitation||
 |Save||
+
+
 
 
 

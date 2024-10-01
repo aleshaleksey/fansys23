@@ -31,10 +31,10 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Chill Blood](#chill-blood)
 - [Ensnare](#ensnare)
 - [Enflame](#enflame)
+- [Fade](#fade)
 - [Foxfire](#foxfire)
 - [Gnomes' Mercy](#gnomes-mercy)
 - [Headwind](#headwind)
-- [Hide Spirit](#hide-spirit)
 - [Least Flare](#least-flare)
 - [Least Heal](#least-heal)
 - [Least Vengeance](#least-vengeance)
@@ -111,6 +111,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 ### MP 5
 - [Flame Stride](#flame-stride)
 - [Flawed Transmute](#flawed-transmute)
+- [Greater Fade](#greater-fade)
 - [Lesser Cosmic Seal](#lesser-cosmic-seal)
 - [Pact](#pact)
 - [Plague](#plague)
@@ -601,6 +602,28 @@ ___
 (4+1+3+2-4)=(4+2)
 
 ___
+### Fade
+|Name|Fade [Nature, Spirit, Wind]|
+|-|-|
+|Scope|local|
+|MP Dice|1|
+|Target(s)|1 entity|
+|Casting time|1 full round action|-2
+|Range|close|-2 
+|Duration|12 minutes|
+|Components|Incantation, Kinetic|-1
+|Focus|A talisman made of material from a hidden valley, or a pouch of nettle leaves|
+|Save|WIS/INT|
+
+**Description**: The target of the spell may attempt to go unnoticed in areas watched by various scrying magics or within wards such as "[Warded Ground](#warded-ground)". An unwilling target may negate the effect with a successful WIS save.
+
+In order to do so, the target of "Fade" must succeed an INT save vs the Threshold of the one who cast the detection magic the first time that the magic would normally detect it. On a successful save, the detection magic does not detect the target or any objects on its person (within its carrying capacity) or supernatural effects that are affecting it. Repeated saves are not necessary.
+
+If the detection magic is cast at a higher MP dice cost level (higher MP dice cost of local casting) than "Fade", or if detection is by a supernatural ability of "class B" or higher, then the target of "Fade" makes its save at disadvantage.
+
+**Upcast**: Firstly, the spell lasts for an extra 12 minutes for every extra MP dice used to cast it. Secondly the spell becomes effective against spells that were cast at the same "spell level" (disadvantage no longer applies).
+
+___
 ### Foxfire
 |Name|Foxfire [Fire, Spirit]|
 |-|-|
@@ -657,26 +680,6 @@ ___
 **Upcast**: Increase the radius of the cone by 5ft for each extra MP.
 
 **Global**: The wind strength remains the same, but the spell creates a whirlwind with a 100ft radius. The duration increases to an hour. For every 4MP extra the duration increases by an hour or the radius increases by 50ft.
-
-___
-### Hide Spirit
-|Name| [Nature, Spirit, Wind]|
-|-|-|
-|Scope|local|
-|MP Dice|1|
-|Target(s)|1 entity|
-|Casting time|1 full round action|-2
-|Range|close|-2 
-|Duration|12 minutes|
-|Components|Incantation, Kinetic|-1
-|Focus|A talisman made of material from a hidden valley, or a pouch of nettle leaves|
-|Save|WIS/INT|
-
-**Description**: The target of the spell may attempt to go unnoticed in areas watched by various scrying magics or within wards such as "[Warded Ground](#warded-ground)". An unwilling target may negate the effect with a successful WIS save.
-
-In order to do so, the target of "Hide Spirit" must succeed an INT save vs the Threshold of the one who cast the detection magic the first time that the magic would normally detect it. On a successful save, the detection magic does not detect the target or any objects on its person (within its carrying capacity) or supernatural effects that are affecting it. Repeated saves are not necessary.
-
-**Upcast**: Firstly, the spell lasts for an extra 12 minutes for every extra MP dice used to cast it. Secondly the spell becomes effective against spells that were cast at the same "spell level" (disadvantage no longer applies).
 
 ___
 ### Least Flare
@@ -2434,6 +2437,30 @@ ___
 (blink speed = 12+13)
 
 ___
+### Greater Fade
+|Name|Greater Fade [Nature, Spirit, Wind]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|5 (20)|
+|Target(s)|1 entity (120ft radius)|
+|Casting time|1 full round action (1 day)|-2
+|Range|close|-2 
+|Duration|1 day (1 year)|+12
+|Components|Incantation, Kinetic|-1
+|Focus|A talisman made of material from a hidden valley|-1
+|Save|WIS/INT|
+
+**Description**: The target of the spell may attempt to go unnoticed in areas watched by various scrying magics or within wards such as "[Warded Ground](#warded-ground)". An unwilling target may negate the effect with a successful WIS save.
+
+If the level (MP dice cost of the local spell) of the detection magic is equal to, or lower than that at which "Greater Fade" is cast, the detection magic fails to detect the target. The same applies if detection is by a supernatural ability of "A class" or lower.
+
+If the level of the detection magic is higher, or if detection is by an "S class" ability, then, in order for "Greater Fade" to be effective", its target must succeed an INT save vs the Threshold of the one who cast the detection magic, when  the detection magic would normally first detect it. Repeated saves do not apply.
+
+**Upcast**: For every extra dice expended when casting the spell, the spell lasts for an extra day, or affects an extra target. Secondly the spell is automatically effective against spells cast up to that "spell level" (INT save is no longer needed).
+
+**Global**: The spell instead affects a volume with a radius of 120ft, centered on a point on the ground or a stationary object. Likewise it lasts 1 year. For every 4 extra MP dice, either the radius increases by 120ft, or the duration increases by 4 months.
+
+___
 ### Greater Fire Ward
 |Name|Greater Fire Ward [Fire, Barrier]|
 |-|-|
@@ -3464,11 +3491,11 @@ ___
     - [Bear's Claws](#bears-claws)
     - [Beast Speech](#beast-speech)
     - [Ensnare](#ensnare)
-    - [Hide Spirit](#hide-spirit)
+    - [Fade](#fade)
     - [Least Heal](#least-heal)
 - Air
+    - [Fade](#fade)
     - [Headwind](#headwind)
-    - [Hide Spirit](#hide-spirit)
     - [Least Flare](#least-flare)
     - [Sense Spell](#sense-spell)
     - [Spirits' Secret](#spirits-secret)
@@ -3640,11 +3667,13 @@ ___
 ### MP 5
 
 - Nature
+    - [Greater Fade](#greater-fade)]
     - [Lesser Cosmic Seal](#lesser-cosmic-seal)
     - [Plague](#plague)
     - []()
     - []()
 - Air
+    - [Greater Fade](#greater-fade)
     - [Lesser Cosmic Seal](#lesser-cosmic-seal)
     - []()
     - []()
@@ -3793,5 +3822,4 @@ ___
 **Special**:
 
 **Upcast**:
-
 

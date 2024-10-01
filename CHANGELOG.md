@@ -141,6 +141,7 @@ _____
 - Add "lesser domain" and "greater domain" spells.
 - Add "fairy shelter", "fairy feast" and "fairy ball". 
 - Add "Blessing of the Fates" and "Gift of the Fates" spells.
+- Add "Fade" and "Greater fade" spells.
 
 ### Abilities
 - Add riposte.

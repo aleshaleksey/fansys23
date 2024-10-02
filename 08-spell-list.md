@@ -97,6 +97,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Balance of Nature](#balance-of-nature)
 - [Bestial Transformation](#bestial-transformation)
 - [Enchanted Ground](#enchanted-ground)
+- [False Aura](#false-aura)
 - [Gift of the Fates](#gift-of-the-fates)
 - [Lesser Domain](#lesser-domain)
 - [Least Storm](#least-storm)
@@ -2121,6 +2122,38 @@ ___
 **Global**: The spell lasts for a day and has a great radius. It deals the damage only during the first minute of the spell and can also affect structures. In addition friendly entities have advantage on fortification and harvesting rolls in the area. For every 4MP dice extra the duration increases by a day, or the radius increases by 800ft.
 
 ___
+### False Aura
+|Name|False Aura [Water, Spirit]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|4 (16)|
+|Target(s)|1 entity (120ft radius)|
+|Casting time|1 full round action (1 day)|-2
+|Range|close|-1
+|Duration|24 hours (4 months)|+9
+|Components|Incantation, Kinetic|-1
+|Focus|Flower of a Black Dhalia|-1
+|Material|An item or memory precious to the caster or target(if voluntary)|-2
+|Limitation|Does not affect True-sight|-2
+|Save|WIS/INT|
+
+**Description**: The caster touches the aura of a target being, making the target appear as if it was another being or object to supernatural senses, magics and spells. Thus, for example the caster can make a child appear to be a dragon for the sake of a spell such as "[Scry](#scry)" or "[Spirits' Secret](#spirits-secret)", or make themselves appear to be an entirely different individual. This does not affect the target's appearance for the sake of natural senses such as normal sight or scent.
+
+An unwilling target can negate the effect with a successful WIS save vs the caster's threshold. The save is not repeated.
+
+If the detection spell is cast at a higher MP dice cost (level) than "Mage's deception", the target of "Mage's deception" must succeed on an INT save vs the Threshold of the detection spell, or have its real "aura" be revealed. The same applies for "S class" supernatural senses and magics.
+
+**Special (local only)**: If the target is willing, the caster and target can exchange "auras" instead. Hence the target will appear to be the caster to supernatural/magical senses and spells, while the caster will appear to be the target.
+
+**Special**: If the target is disguised as a specific being (eg, 'I disguise my aura as Fana Luine's") or place, is observed by an observer familiar with the new aura, the must make an INT save (at advantage), even for lower level spells or abilities. If the spell is of a higher "level" than the casting of "False Aura", the INT save is made at disadvantage.
+
+**Limitation**: Beings with "[Truesight](06-abilities.md#truesight-i-v)] are not affected by the deception of this spell. 
+
+**Upcast**: For every extra dice expended when casting the spell, the spell lasts for an extra 8 hours, or affects an extra target. Secondly the spell is automatically effective against spells cast up to that "spell level" (INT save is no longer needed).
+
+**Global**: The spell instead affects a volume with a radius of 120ft, centered on a point on the ground or a stationary object. Likewise it lasts for 4 months. For every 4 extra MP dice, either the radius increases by 120ft, or the duration increases by 4 months.
+
+___
 ### Gift of the Fates
 |Name|Favour of Fate [Divine, Kinetic]|
 |-|-|
@@ -2437,6 +2470,33 @@ ___
 (blink speed = 12+13)
 
 ___
+### Flawed Transmute
+|Name|Flawed Transmutation [Curse, Incantation]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|5 (20)|
+|Target(s)|1 object (medium)|
+|Casting time|1 action (5h + 5h per 5 MP dice)|
+|Range|close|
+|Duration|1 day (permanent)|+24
+|Components|incantation|+1(25)
+|Focus|A vial of clean water, a vial of clean air, a vial of earth, smouldering embers|-2(23)
+|Material|A cup of the caster's blood|-2(21)
+|Limitation|The material level of the object cannot be higher than 2|-2(19)
+|Limitation|The material level of the object decreases by 1|-2(17)
+|Limitation|The gold value of the final object cannot be higher than the value of the initial option|-2(15)
+|Limitation|The size of the transmuted object in volume is the same as the initial object|-2(13)
+|Save|Charisma (if wielded by an entity, or is magical), not otherwise|
+
+**Description**: Transmute a target object, no more than 5ft x 5ft x 5ft in volume from one substance to another. The shape of the object remains the same. Thus if you transform a shield from steel to salami, it will still retain the form of a shield.
+
+**Special**: The final substance has to be in the same element/state as the initial substance. Thus a caster cannot use this spell to turn water into air, but can turn water into (poor) wine. Likewise it can be used to turn steel into cheese, but not into bad air.
+
+**Upcast**: For every addition MP dice used in the casting, either add an extra object or increase its size by one category. If at least 7 MP dice are used the maximum material level can be 3. If 9 MP dice are used the maximum material level can be 4.
+
+**Global**: The spell is permanent. If at least 28 MP dice are used the maximum material level can be 3. If 36 MP dice are used the maximum material level can be 4.
+
+___
 ### Greater Fade
 |Name|Greater Fade [Nature, Spirit, Wind]|
 |-|-|
@@ -2490,33 +2550,6 @@ ___
 **Upcast**: The spell radius increases by 10ft or the damage increases by 1d8 for every extra MP dice (local).
 
 **Global**: The spell lasts for a day and has a radius of 800ft. For every extra 4 MP dice, the radius increases by 200ft, or the damage increases by 1d8. Likewise, the duration increases by 1 day.
-
-___
-### Flawed Transmute
-|Name|Flawed Transmutation [Curse, Incantation]|
-|-|-|
-|Scope|local (global)|
-|MP Dice|5 (20)|
-|Target(s)|1 object (medium)|
-|Casting time|1 action (5h + 5h per 5 MP dice)|
-|Range|close|
-|Duration|1 day (permanent)|+24
-|Components|incantation|+1(25)
-|Focus|A vial of clean water, a vial of clean air, a vial of earth, smouldering embers|-2(23)
-|Material|A cup of the caster's blood|-2(21)
-|Limitation|The material level of the object cannot be higher than 2|-2(19)
-|Limitation|The material level of the object decreases by 1|-2(17)
-|Limitation|The gold value of the final object cannot be higher than the value of the initial option|-2(15)
-|Limitation|The size of the transmuted object in volume is the same as the initial object|-2(13)
-|Save|Charisma (if wielded by an entity, or is magical), not otherwise|
-
-**Description**: Transmute a target object, no more than 5ft x 5ft x 5ft in volume from one substance to another. The shape of the object remains the same. Thus if you transform a shield from steel to salami, it will still retain the form of a shield.
-
-**Special**: The final substance has to be in the same element/state as the initial substance. Thus a caster cannot use this spell to turn water into air, but can turn water into (poor) wine. Likewise it can be used to turn steel into cheese, but not into bad air.
-
-**Upcast**: For every addition MP dice used in the casting, either add an extra object or increase its size by one category. If at least 7 MP dice are used the maximum material level can be 3. If 9 MP dice are used the maximum material level can be 4.
-
-**Global**: The spell is permanent. If at least 28 MP dice are used the maximum material level can be 3. If 36 MP dice are used the maximum material level can be 4.
 
 ___
 ### Lesser Cosmic Seal
@@ -3645,6 +3678,7 @@ ___
     - [Aqueous Step](#aqueous-step)
     - [Balance of Elements](#balance-of-elements)
     - [Bestial Transformation](#bestial-transformation)
+    - [False Aura](#false-aura)
     - [Lesser Domain](#lesser-domain)
     - [Mirage](#mirage)
     - [Scry](#scry)

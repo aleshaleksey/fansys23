@@ -2141,7 +2141,7 @@ ___
 
 An unwilling target can negate the effect with a successful WIS save vs the caster's threshold. The save is not repeated.
 
-If the detection spell is cast at a higher MP dice cost (level) than "Mage's deception", the target of "Mage's deception" must succeed on an INT save vs the Threshold of the detection spell, or have its real "aura" be revealed. The same applies for "S class" supernatural senses and magics.
+If the detection spell is cast at a higher MP dice cost (level) than "False Aura", the target of "False Aura" must succeed on an INT save vs the Threshold of the detection spell, or have its real "aura" be revealed. The same applies for "S class" supernatural senses and magics.
 
 **Special (local only)**: If the target is willing, the caster and target can exchange "auras" instead. Hence the target will appear to be the caster to supernatural/magical senses and spells, while the caster will appear to be the target.
 

@@ -52,9 +52,11 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Glide](#glide)
 - [Harvest](#harvest)
 - [Least Rest](#least-rest)
+- [Lesser Xenophonia](#lesser-xenophonia)
 - [Lesser Veil](#lesser-veil)
 - [Least Transformation](#least-transformation)
 - [Meadow of Flame](#meadow-of-flame)
+- [Natural Xenophonia](#natural-xenophonia)
 - [Promise](#promise)
 - [Silence](#silence)
 - [Wind Step](#wind-step)
@@ -99,6 +101,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Enchanted Ground](#enchanted-ground)
 - [False Aura](#false-aura)
 - [Gift of the Fates](#gift-of-the-fates)
+- [Greater Xenophonia](#greater-xenophonia)
 - [Lesser Domain](#lesser-domain)
 - [Least Storm](#least-storm)
 - [Lesser Incarnation](#lesser-incarnation)
@@ -1087,6 +1090,29 @@ ___
 **Global**: Hides surface features from sight, eg. a camp, with all people and objects in it. It does not hide inherent terrain features, eg mountains and lakes. All valid targets in a radius of 100ft are "invisible" for a week. For every 4MP, the radius increases by 100ft, or the duration increases by a week.
 
 ___
+### Lesser Xenophonia
+|Name|Lesser Xenophonia [Air]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|2 (8)|
+|Target(s)|1 entity (120ft)|
+|Casting time|1 full round action (24 hours)|-1
+|Range|close|
+|Duration|12 minutes (1 day)|+3
+|Components|incantation|+1
+|Save|CHA|
+
+**Description**: The caster imbues the target with the ability to communicate vocally with all entities of one the following subkinds:
+- Humanoids
+- Monsters
+
+An unwilling target may ignore the effect with a successful CHA save vs the caster's threshold.
+
+**Upcast**: For every extra MP dice, the spell lasts for an extra 12 minutes or affects an extra target.
+
+**Global**: As the local casting, but is centered on a point and allows all entities within 120ft to communicate to entities of the chosen subkind. The spell lasts for 24 hours. For every 4 extra MP dice placed in the spell, the radius increases by 120ft or the spell lasts for an extra day.
+
+___
 ### Meadow of Flame
 |Name|Meadow of Flame [Fire, Destruction]|
 |-|-|
@@ -1109,6 +1135,32 @@ ___
 **Special**: The caster is not damaged by the flames caused by this spell.
 
 **Upcast**: For every extra MP dice, increase the radius by 5ft or increase the damage by 1d8.
+
+___
+### Natural Xenophonia
+|Name|Natural Xenophonia [Nature]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|2 (8)|
+|Target(s)|1 entity (120ft)|
+|Casting time|1 full round action (24 hours)|-1
+|Range|close|
+|Duration|12 minutes (1 day)|+3
+|Components|incantation|+1
+|Save|CHA|
+
+**Description**: The caster imbues the target with the ability to communicate vocally with one the following entity subkinds:
+- Plants
+- Animals
+- Fey
+
+An unwilling target may ignore the effect with a successful CHA save vs the caster's threshold.
+
+**Upcast**: For every extra MP dice, the spell lasts for an extra 12 minutes or affects an extra target.
+
+**Global**: As the local casting, but is centered on a point and allows all entities within 120ft to communicate to entities of the chosen subkind. The spell lasts for 24 hours. For every 4 extra MP dice placed in the spell, the radius increases by 120ft or the spell lasts for an extra day.
+
+
 
 ___
 ### Promise
@@ -2147,7 +2199,7 @@ If the detection spell is cast at a higher MP dice cost (level) than "False Aura
 
 **Special**: If the target is disguised as a specific being (eg, 'I disguise my aura as Fana Luine's") or place, is observed by an observer familiar with the new aura, the must make an INT save (at advantage), even for lower level spells or abilities. If the spell is of a higher "level" than the casting of "False Aura", the INT save is made at disadvantage.
 
-**Limitation**: Beings with "[Truesight](06-abilities.md#truesight-i-v)] are not affected by the deception of this spell. 
+**Limitation**: Beings with "[Truesight](06-abilities.md#truesight-i-v) are not affected by the deception of this spell. 
 
 **Upcast**: For every extra dice expended when casting the spell, the spell lasts for an extra 8 hours, or affects an extra target. Secondly the spell is automatically effective against spells cast up to that "spell level" (INT save is no longer needed).
 
@@ -2171,6 +2223,27 @@ ___
 
 **Description**: The caster gifts on entity that is making a targetted attack or save, casting the spell after the action is declared, but before the attack/save is resolved. The target of the spell can reject the effect with a successful WIS save. Effect:
 - The target may treat one of the dice it rolls as 12. The target choses which of its dice to treat as a 12.
+
+___
+### Greater Xenophonia
+|Name|Greater Xenophonia [Air]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|4 (20)|
+|Target(s)|3 entities (360ft)|
+|Casting time|1 full round action (24 hours)|-1
+|Range|close|
+|Duration|12 minutes (1 day)|+3
+|Components|incantation|+1
+|Save|CHA|
+
+**Description**: The caster imbues up to 3 target entities with the ability to communicate vocally with all entity within a single subkind. The caster may choose any entity subkind. An unwilling target may ignore the effect with a successful CHA save vs the caster's threshold.
+
+**Special**: Glitches and divines may make themselves incomprehensible at will, despite the magic of this spell.
+
+**Upcast**: For every extra MP dice, the spell lasts for an extra 12 minutes or affects an extra target.
+
+**Global**: As the local casting, but is centered on a point and allows all entities within 120ft to communicate to entities of the chosen subkind. The spell lasts for 24 hours. For every 4 extra MP dice placed in the spell, the radius increases by 360ft or the spell lasts for an extra day.
 
 ___
 ### Lesser Domain
@@ -3566,10 +3639,12 @@ ___
     - [Call Ailment](#call-ailment)
     - [Harvest](#harvest)
     - [Least Rest](#least-rest)
+    - [Natural Xenophonia](#natural-xenophonia)
     - [Trace Secret Path](#trace-secret-path)
 - Air
     - [Glide](#glide)
     - [Lesser Veil](#lesser-veil)
+    - [Lesser Xenophonia](#lesser-xenophonia)
     - [Silence](#silence)
     - [Wind Step](#wind-step)
     - [Summon Wind Sprite](#summon-wind-sprite)
@@ -3659,6 +3734,7 @@ ___
 - Nature
     - [Balance of Nature](#balance-of-nature)
     - [Bestial Transformation](#bestial-transformation)
+    - [Greater Xenophonia](#greater-xenophonia)
     - [Rejuvenate Land](#rejuvenate-land)
 - Air
     - [Balance of Elements](#balance-of-elements)
@@ -3856,4 +3932,6 @@ ___
 **Special**:
 
 **Upcast**:
+
+
 

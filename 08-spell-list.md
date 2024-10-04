@@ -126,6 +126,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Fairy Feast](#fairy-feast)
 - [Forest of Flame](#forest-of-flame)
 - [Greater Fire Ward](#greater-fire-ward)
+- [Inner Voice](#inner-voice)
 - [Legion of Dead](#legion-of-dead)
 - [Metamorphosis/Rebirth](#metamorphosisrebirth)
 - [Otherworld Step](#otherworld-step)
@@ -2833,6 +2834,31 @@ ___
 **Global**: Creates an inferno, large enough to engulf a small town. For every extra 4MP the radius increases by 200ft and the height increases by 10ft. Elemental lords might use this kind of magic for "amelioration" when visiting the mortal realm.
 
 ___
+### Inner Voice
+|Name|Inner Voice [Water, Spirit]|
+|-|-|
+|Scope|local|
+|MP Dice|6|
+|Target(s)|45ft radius|
+|Casting time|1 main action|
+|Range|close|-1
+|Duration|12 minutes|+3
+|Components|kinetic|
+|Focus|A crystal of flourite or quartz|
+|Save|Wis|
+
+**Description**: The caster bestows telepathy upon a target, allowing them to communicate clearly through thought alone with any sentient entity within 120ft. The target can also attempt to read surface thoughts of nearby entities, taking a full round action for one target with a successful observe roll of 20 or above. An entity can identify the effect with a spellcraft roll equal to the caster's threshold, in which case they can chose to block the reading of surface thoughts.
+
+**Special**: 
+- Trying to communicate in this way with entities with an INT score 12 points or more higher than their own triggers an INT save vs the INT based threshold  of the entity. On a failure the one under the effect of "Inner Voice" becomes catatonic for the duration of the spell.
+- Trying to communicate in this way with entities with a CHA score 12 points or more higher than their own triggers a CHA save vs the CHA based threshold of the entity. On a failure the one under the effect of "Inner Voice" becomes "charmed" by the entity for the duration of the spell.
+- All non-divine entities trying to communicate with **Glitches** or **Divines** in this matter are affected by both clauses. 
+
+**Limitation**: The reading of surface thoughts for an entity takes a full round action. However, surface thoughts can change quickly from moment to moment, so it is be necessary to continuously read during a conversation to get anything other than snippets for most entities.
+
+**Upcast**: For every extra MP dice used in the casting of the spell, either its radius increases by 20ft, or the duration increases by 12 minutes.
+
+___
 ### Legion of Dead
 |Name|Legion of Dead [Curse, Profane]|
 |-|-|
@@ -2952,7 +2978,7 @@ For the sake of mechanics, this is a "cosmic speed" effect.
 
 
 **Special**:
-- This spell may be taken with any type of spellcasting other than nature, however the kind of realm that the traveller may visit is limited by he school. Thus if taken with:
+  - This spell may be taken with any type of spellcasting other than nature, however the kind of realm that the traveller may visit is limited by he school. Thus if taken with:
   - "Spellcasting: Fire", it may only be used to visit realms associated with fire/heat/summer.
   - "Spellcasting: Water", it may only be used to visit realms associated with water/spring/winter/autumn.
   - "Spellcasting: Earth", it may only be used to visit realms associated with earth/ground/summer/autumn.
@@ -3854,6 +3880,7 @@ ___
     - [Realm of Flame](#realm-of-flame) [10]
     - []()
 - Water
+    - [Inner Voice](#inner-voice) [6]
     - [Create Secret Path](#create-secret-path) [7]
     - [Transform Mortal](#transform-mortal) [7]
     - [Greater Domain](#greater-domain) [8]
@@ -3867,6 +3894,7 @@ ___
     - [Mage's Oath](#mages-oath) [9]
     - []()
 - Kinetic
+    - [Inner Voice](#inner-voice) [6]
     - [Transform Mortal](#transform-mortal) [7]
     - [Fairy Ball/Masquerade](#fairy-ballmasquerade) [9]
     - []()
@@ -3908,9 +3936,26 @@ ___
 |Limitation||
 |Save||
 
+### 
+|Name| []|
+|-|-|
+|Scope||
+|MP Dice||
+|Target(s)||
+|Casting time||
+|Range||
+|Duration||
+|Components||
+|Focus||
+|Material||
+|Limitation||
+|Save||
 
+**Description**:
 
+**Special**:
 
+**Upcast**:
 
 ### 
 |Name| []|

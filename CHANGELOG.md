@@ -142,7 +142,7 @@ _____
 - Add "fairy shelter", "fairy feast" and "fairy ball". 
 - Add "Blessing of the Fates" and "Gift of the Fates" spells.
 - Add "Fade", "False aura" and "Greater fade" spells.
-- Add "Lesser Xenophonia", "Natural Xenophonia", "Greater Xenophonia".
+- Add "Lesser Xenophonia", "Natural Xenophonia", "Greater Xenophonia", "Inner Voice".
 
 ### Abilities
 - Add riposte.

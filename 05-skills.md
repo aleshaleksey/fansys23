@@ -147,6 +147,7 @@ Using tools usually requires a roll of an associated skill. Some skills cannot b
   - Entrenching tools
   - Mason's tools
   - Smith's Tools
+  - Woodworking tools
 - Sleight of Hand
   - Calligraphy kit
   - Forgery kit
@@ -154,8 +155,8 @@ Using tools usually requires a roll of an associated skill. Some skills cannot b
   - Tinkerer's tools
   - Woodworking tools
   - Locksmith's tools + picks
-  - Glassblower's tools
-  - Jeweler's Tools
+  - Glass-blower's tools
+  - Jeweller's Tools
   - ???
 - Heal
   - Healer's Kit

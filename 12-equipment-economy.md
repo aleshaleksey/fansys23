@@ -34,6 +34,15 @@ ___
 This is the usual "adventuring guilds" settings. All kinds of weapons and armours are available. Some have become obsolete (under some situations). Firearms become available. Techniques of extracting resources and crafting become very efficient, and all kinds of sciences flourish. Labour costs are high, but productivity of labour also increases due to advanced techniques and industrialisation. Population densities are generally high. Most of the world has been at least crudely mapped. Most ruins have been found and at least some are explored. It is possible that monsters and other "inhuman" forces have retreated (but who knows?).
 
 ___
+### The Supernatural Economy
+
+The effects of magic on an economy should be taken into account. A society, and economy, where magic is common would likely be affected (unless there are certain taboos against mixing the natural and supernatural world).
+
+As an example, a society with many nature mages would likely see the cost of agricultural produce both decline and stabilise. A society where fire magic is common, would likely develop advanced smelting, increasing the availability of steel and iron. Golems and elementals may replace certain workers entirely.
+
+The tables here do not take this into account, and assume that users of supernatural abilities are not common enough to affect prices and availability of most goods. That said, there are no mechanistic limitations on how common this kind people are in a game world, and a gaming group should keep this in mind when creating a fantasy world.
+
+___
 ### Currency
 
 The most common currency was generally silver, although gold, copper, bronze, electrum (gold/silver allow) and other currencies have been used. The main prerequisite was that the material can be worked with available tools, does not degrade much over time and is scarce. Gold generally was worth 10-20 times more than silver. Copper currency was used mostly locally. However, silver coin or trade bars of various sizes were the most common. Good examples include the English "silver penny" (1.4g-1.55g) and the Athenian silver drachma (~4.3g).
@@ -128,9 +137,9 @@ If availability is "no" the item cannot be made, but may be bought from speciali
 
 If availability is "rare", the item cost is x2 and the crafting time is x2.
 
-If the time is "ancient" crafting times for mostly metal items is x2 the base time. If the time is "late" the crafting cost is 1/2 the base time.
+If the time is "ancient", crafting times for mostly metal items is x2 the base time. If the time is "late", the crafting cost is 1/2 the base time.
 
-Importantly crafting time can be shared between several artisans.
+Importantly crafting time can be shared between several artisans. Thus if an item has a listed crafting time of "100 days", then ten artisans can usually craft it in 10 days.
 
 ___
 ### Weapons
@@ -195,7 +204,7 @@ ___
 |Armour Type|Weight (lb)|Cost (sp)|crafting days|"ancient"|"medieval"|"late"|
 |-|-|-|-|-|-|-|
 |Leather Cuirass|10|60||yes|yes|yes|
-|Chain Shirt|20|||no|yes|yes|
+|Chain Shirt|20|200||no|yes|yes|
 |Full Padded|10|||yes|yes|yes|
 |Hide Armour|30|||yes|yes|yes|
 |Full Leather|20|120||yes|yes|yes|
@@ -213,19 +222,36 @@ ___
 ___
 ### Labour Costs
 
-Labour costs are given in silver (sp) per day (10-12 hours). Labour that does not need to be paid for, still has to be fed. Generally it should be assumed that the wages of unskilled workers, trained worker, mercenaries and scribes includes food and board where appropriate. The wages are given for medium sized humanoids. Larger entities, like giants, will have a significantly higher upkeep, but will also accomplish certain tasks, especially construction and mining a lot more quickly and effectively.
+Labour costs are given in silver (sp) per day (10-12 hours). Labour that does not need to be paid for, still has to be fed. Generally it should be assumed that the wages of unskilled workers, trained worker, mercenaries and scribes includes food and board where appropriate. The wages are given for medium sized humanoids. Larger entities, like giants, will have a significantly higher upkeep, but will also accomplish certain tasks, especially construction and mining a lot more quickly and effectively. Both of these factors mean that wages for those entities would be higher.
 
 |Labour type|ancient |medieval |late |
 |-|-|-|-|
 |Unskilled|0|1|2|
 |Trained|0|2|~5|
-|Artisan (mason)|0-4|~8|~20|
-|Artisan (smith)|0-4|~16|~40|
-|mercenary (foot)||~6|~15|
-|mercenary (specialist)||~24|~50|
-|mercenary (captain)||~200|~500|
-|scribe/priest||~6|~15|
-|magistrate||~500||
+|Artisan (mason)|0-4|8|20|
+|Artisan (smith)|0-4|16|40|
+|mercenary (foot)||6|20|
+|mercenary (specialist)||24|50|
+|mercenary (captain)||200|500|
+|scribe/priest||6|20|
+|magistrate||200|500|
+___
+### Upkeep
+Upkeep is distinct from labour cost, as it accounts only for minimal costs associated with keeping the labourer/hireling in working condition, and not the wages. This includes the upkeep cost of food, board and specialist equipment. It can also include the costs of various social/societal functions and rituals needed to maintain the position. For example, a magistrate may need to participate in "expensive" social events to retain a degree of "respectability", a mercenary may need to attend training and replace equipment, and a mage may need maintain a supply of rare and expensive material components.
+
+This table is for medium sized humanoids. For every increase in size category, upkeep is increased by a factor of 4.
+
+|Item|ancient |medieval |late |
+|-|-|-|-|
+|Unskilled|0.5|1|2|
+|Trained|0.5|2|4|
+|Artisan (mason)|1|2|10|
+|Artisan (smith)|2|4|20|
+|mercenary (foot)|3|4|10|
+|mercenary (specialist)|5|6|20|
+|mercenary (captain)|10|10|20|
+|scribe/priest|4|6|10|
+|magistrate|6|6|20|
 
 ___
 ### Resources
@@ -241,21 +267,6 @@ This table provides some numbers for how much of a resource one can expect to ha
 |Marble||||
 
 **Wheat**: Yield is per acre. Usually 1g of seeds was sown for 12-100g of harvest. Lower yield in earlier ages were associated with higher yields of straw which is also an important material. You need about half a dozen peasants for 10 acres.
-___
-### Upkeep
-Upkeep is distinct from labour cost, as it accounts only for minimal costs associated with keeping the labourer/hireling in working condition, and not the wages.
-
-|Item|ancient |medieval |late |
-|-|-|-|-|
-|Unskilled|0.5|1|2|
-|Trained|0.5|2|~4|
-|Artisan (mason)|0.5-2|1-4|~10|
-|Artisan (smith)|0.5-2|1-4|~20|
-|mercenary (foot)|3|~3|~10|
-|mercenary (specialist)|5|~5|~20|
-|mercenary (captain)|10|~10|~40|
-|scribe/priest|4|~6|~10|
-|magistrate|20|~20||
 
 ___
 ### Common Goods
@@ -280,7 +291,7 @@ ___
 |Shoes/Boots||10||
 |Courtier's Garments||480-8000||
 |Robes||60||
-|Woolen Garments||120||
+|Woollen Garments||120||
 |Linen Garment||24||
 |Basic tunics||2-12||
 |||||
@@ -321,7 +332,7 @@ ___
 |Humanoid Slave|400||yes|yes|rare|
 |||||||
 |Cart|48||yes|yes|yes|
-|Carriage|3880||yes|yes|yes|
+|Carriage|3600||yes|yes|yes|
 |Barge|4800||yes|yes|yes|
 |||||||
 |Small house (rent)|6/month||yes|yes|yes|

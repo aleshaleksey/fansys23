@@ -3,12 +3,20 @@ Crafting is the production of various items, and wares from raw materials. Imbui
 
 Crafting lies at the heart of both human civilisation, and, indirectly, many RPGs, even if there are no explicit mechanics for it in a given gaming system.
 
-In FanSys, any item that is described in the game can be crafted бы either player or non-player characters. Although using the crafting system does not fit all games, due to the requisite time costs.
+In FanSys, any item that is described in the game can be crafted by either player or non-player characters. Although using the crafting system does not fit all games, due to the requisite time costs.
 
+___
 ## Crafting
 
 ### The Crafting Process
+1. Decide what you want craft.
+2. Work out what the material, equipment, skill and time requirements are.
+2. Acquire the materials and equipment for it.
+3. Declare that you are crafting (eg "I am crafting a steel halberd").
+4. Spend half of the time and make a skill roll (the roll is made in secret by the DM).
+5. Finish successfully (spend the rest of the time), fail (spend only half the time and material), or fail catastrophically (spend all the time and material).
 
+___
 ### Skills Used
 Depending on what is being created different skills are used. Sometimes multiple skills are needed. For example, building a castle may require masonry and carpentry for the structure, engineering for the design, tinkering for traps and so on. Thus common sense should be applied. In cases where multiple skills are needed, each skill roll must succeed for the crafting to succeed. A roll is not necessarily required. For example, it can be assumed that a hundred workers will eventually build a castle, and the poor rolls of some will merely cancel out the brilliant rolls of others.
 
@@ -39,43 +47,96 @@ If multiple skills or tool proficiencies are required, they can be supplied by d
 |Mass Food|Fortify(cook's equipment)|eg. legion field kitchen, banquet|
 
 ___
-### Crafting equipment and environment
-A character generally requires a suitable workspace and equipment. Particularly good or poor working conditions and environment affect the outcome. The following table summarises this:
+### The Crafting Roll and Thresholds
+A crafting roll, with the appropriate skill is made when half the time needed has been spent. The roll should be made in secret by the DM, but this is not always necessary.
+
+The base Threshold is:  **12 + 4 x [Material level]**
+
+Characters can "[take care](02-base-rules.md#taking-24-taking-13-auto-failure-and-voluntary-failure)" on this roll.
+
+If the roll succeeds, the material is consumed and the crafting succeeds at the end of the allotted time. If the roll fails by 4 or less, the character has used up half of the material, but is immediately aware of their failure and does not use the other half of the material or time. If the roll fails by more than 4, the character uses all of the material and only realises that they ruined it at the end of the crafting period, hence also losing all of the time.
+
+Beating the threshold by 6 or more creates an item which has +1 to durability for every 6 by which the threshold is beaten.
+
+The rules for crafting complex devices are similar, to those here, but the thresholds are defined in the ["Skills:Tinker" section](05-skills.md#tinker).
+
+#### Special
+- A critical success (double 12s) when making an item causes it to be inhabited by a minor spirit, giving it a random level one enchantment.
+- Critical failure (snake eyes) on making items means the tools take 1 point of damage.
+- Critical failure (snake eyes) on making an alchemical produce, causes it to explode (Dex save, Threshold=16) in a 10 ft radius causing 1d8 of fire damage for every "material level" of the ingredients.
+- Critical failure (snake eyes) on making a poison means that the artisan(s) making it poison themselves in the process.
+
+___
+### Crafting, equipment, environment and other modifiers
+A character generally requires a suitable workspace and equipment. Particularly good or poor working conditions and environment affect the outcome. Likewise, a character can do a rush job, or take it slow, as needed. The following table summarises the modifiers that this brings. Modifiers from different categories stack, thus you can do a rush job in a poor workspace, under poor conditions for a -16 to the roll. Ouch:
 |Factor|Effect|Example|
 |-|-|-|
 |Poor Workspace|-6|Alchemy in the middle of a forest|
-|Poor Conditions|-6|Fine woodwork in a cart that is shaking|
-|Poor/improvised tools|-6|Digging a ditch with only your hands|
-||||
 |Superior Workspace|+4|A royal alchemist's laboratory|
-|Superior Conditions|Advantage|Literally the perfect conditions|
+||||
+|Poor/improvised tools|-6|Digging a ditch with only your hands|
 |Superior Tools|+4|Divine gem-cutting tools|
+||||
+|Superior Conditions|Advantage|Literally the perfect conditions|
+|Poor Conditions|-6|Fine woodwork in a cart that is shaking|
+||||
+|Rush Job|-4|Crafting takes 3/4 of the normal time|
+|Absolute Rush Job|-8|Crafting takes 1/2 the normal time|
+|Take it slow|+2|Crafting takes x1.5 times the normal time|
+||||
+|Enchantment quality|-|Crafting takes x1.5 times the normal time|
 
 ___
 ### Crafting Time
-The time needed to craft an item is defined by its complexity, and the difficulties of processing and working with the raw materials, the skill of the artisan(s) making it and the quality of the tools and working space available.
+For simplicity, the crafting time of an item in days (10 hour working day) is equal to: **[Base price (in sp)] / 20**
 
-In general the crafting time of an item (in sp) is equal to: **[Base price] / 20**
+Alternatively, it can be measured in hours: **[Base price (in sp)] / 2**
 
-This is an approximation which assumes that most of the cost of any item is the cost labour and equipment used to make it, and material costs are general low in comparison (which is not always true, but keeps things simple).
+If an item takes less than 10 hours to craft, then a character can craft it quicker, although no item can have a base crafting time of less than 2 hours. This is because preparing the materials and workspace always takes some time, no matter how trivial the task. 
+
+It should be noted that one need not spend a whole block of 10 hours crafting with no breaks. Crafting time can be broken up into intervals throughout the day, though no interval can be shorter than 2 hours, as outlined above. Even so, this should allow a somewhat dedicated artisan to still assist their party during the adventuring day.
+
+This is an approximation which assumes that most of the cost of any item is the cost labour and equipment used to make it, and material costs are general low in comparison (which is not always true, but keeps things simple).The time to craft an item can be split between multiple artisans, although they must all be proficient in the tools.
 
 ___
 ### Crafting Costs
-Crafting items for a character is generally cheaper, as it means one can eliminate labour cost completely, however, if the tools are particularly expensive and mst be procured, it an also be more expensive. Likewise, the crafting time, is a major immaterial cost.
+Crafting items for a character is generally cheaper than purchasing ready made items, as it means one can eliminate labour cost completely, however, if the tools are particularly expensive and mst be procured, it an also be more expensive. Likewise, the crafting time, is a major immaterial cost.
 
 This leaves the main variable crafting cost, the material used to make the item, and the material expended in the crafting. For example when smithing a sword, not only does one use the iron for the blade, leather and other materials for the grip, but also, for example, the coal used in the forge.
 
 In general, recommended material costs are as follows:
 
-|Item Kind|Material Cost|
-|-|-|
-|weapons, armour, tools, devices and clothes|**1sp x [quality mod] x [item weight in lb] x 2**|
-|structures|**1sp x [quality mod] x [number of 5ft cubes the structure encompasses] x 2**|
-|jewellery|**100sp x [quality mod] x [weight in lb] x 2**|
-|medicine, poison and alchemical goods|**10sp x [quality mod] x [number of doses] x 2**|
+|Item Kind|Material Cost|Note|
+|-|-|-|
+|weapons, armour, tools, devices and clothes|**1sp x [quality mod] x [item weight in lb] x 2**||
+|structures|**1sp x [quality mod] x [number of 5ft cubes the structure encompasses] x 2**||
+|jewellery|**10sp x [quality mod] x [per item] x 2**|Assumed to use 1/60lb of material|
+|medicine, poison and alchemical goods|**10sp x [quality mod] x [number of doses] x 2**|Assumed to use 1/60lb of material|
 
-### Crafting Costs
+___
+#### Material Coefficients (quality mods) for items
+The cost of a material generally depends on the ["material level"](12-equipment-economy.md#material-level). This is not set in stone, but the recommended costs for non precious materials are:
 
+|Material level|Cost per lb|Included Quality mod|Examples|
+|-|-|-|-|
+|1|2sp|x1|bronze (the raw ores), hide, softwood*|
+|2|4sp|x2|iron, hardwood|
+|3|20sp|x9|Steel, Mithral, Ironwood|
+|4|130sp|x64|Demon Teeth, Dragon Hide, Adamantium|
+|5|1250sp|x625|???|
+
+It should be noted that this refers to materials of high enough quality and free enough of defects to be used to make weapons such as bows, staves, swords. Materials that are of construction quality are usually cheaper.
+
+It should also be noted that the cost also includes costs of treatment and processing of the material (smelting, tanning, etc).
+
+As an exception, "precious" materials that are highly limited in availability break these rules. For example, silver costs 600sp per lb, while gold typically costs 6000lb per lb, despite having limited use for crafting. Likewise, groups may adjust "market prices" of crafting material for world building and plot related reasons. 
+Typically, a precious material will cost at least x100 more per lb than an ordinary material, although it will grant no mechanistic benefit, setting aside the prestige. Alchemical reagents and gems and metals used to make jewellery typically fall into this category. Luckily you do not need to measure those in pounds.
+
+Lastly, groups should remember that acquiring high quality and rare materials is in itself perfect subject matter for side quests.
+
+___
+### Crafting for Enchantment
+All items can be enchanted, but only specially prepared and crafted items will hold their magic permanently. This may involve engraving special ritual circles, or symbols on parts of the item, or performing length rituals to cleanse and purify, or perhaps despoil the material. Regardless, this increases the crafting time by a factor of x1.5, with a minimum of 1 day.
 
 ___
 ### Eschewing Reality

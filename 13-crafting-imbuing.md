@@ -140,4 +140,23 @@ All items can be enchanted, but only specially prepared and crafted items will h
 
 ___
 ### Eschewing Reality
-In reality, some seemingly simple items, like bows took a very long time to make, since drying and processing the wood, and other materials for composite bows, took months. Understandably, we eschew these requirements for most crafting processes in the game, assuming that "processed" materials that do not require these very long maturation processes are available.
+In reality, some seemingly simple items, like bows took a very long time to make, since drying and processing the wood, and other materials when talking about composite bows, took months. Understandably, we eschew these requirements for most crafting processes in the game, assuming that "processed" materials that do not require these very long maturation processes are available. However, if a more gritty style fits the group, then this is something to consider. 
+
+___
+## Enchanting and Imbuing
+
+Enchantment is placing spells upon objects, structures andd locales. The item is quite literally under a spell. A heavy blade can be enchanted with magic that makes it lighter, a cloak with magic that makes it warmer, or sets it on fire under certain conditions. A house may be enchanted in a way that its walls bleed on moonlit nights. A rag-doll may be enchanted to dance and sing.
+
+Imbuing is placing supernatural powers so deep within an object, structure or locale, that it itself becomes a source of supernatural power. The words written in a tome of an ancient mage could be imbued with the power to become real spells when read aloud. A pendant found in an forsaken manor could be imbued with the ability to curse those who wear or wield it. A ring bequeathed by an elemental lord of fire, may grant the rightful wearer a fraction of its creator's power.
+
+For the rest of this chapter they are used interchangeably.
+
+___
+### Types of Enchantments
+- **Single Charge**: The power activates once and then dissipates for good. Imbued scrolls are a good example of this.
+- **Recharge**: A power or effect can be used once, or a few times, after which the magic becomes dormant until either sufficient time has passed, or some other condition has been met.
+- **Constant**: The magical effect or power is exhibited constantly and does not reduce with time.
+- **At Will**: There are no limits to the number of times an item's power can be activated (although usually this still requires an action of some kind).
+
+Unless an item is made to be of enchantment quality, the magic will eventually leave the item and it will once again become mundane. The exception is items of supernatural origin, which were never mundane to start off with.
+

@@ -625,7 +625,7 @@ Navigation allows a character to orientate themselves in space, find the best ro
 - **Orientate:** Use map and compass to locate yourself (eg when lost). This takes a minute.
   - Threshold = [Threshold of terrain with weather modifier]
   - Rush job (take "full round action" instead): Increase threshold by + 5.
-- **Plan route/logistics:** Plan out a route between two points. On a success, the party will be given the route that fulfills the desired criteria as closely as possible, pointing out potential hazards. The journey time will also be decreased by 10%.
+- **Plan route/logistics:** Plan out a route between two points. On a success, the party will be given the route that fulfils the desired criteria as closely as possible, pointing out potential hazards. The journey time will also be decreased by 10%.
   - **Action**: 1 hour / day of route. 2 hours / day if logistics are included.
   - **Threshold**: [Terrain threshold] + [1 / 5 entities in the group] + [1 per vehicle in the group].
 - **Forecast**: Predict weather up to 24h ahead. The threshold = [terrain with weather modifier].

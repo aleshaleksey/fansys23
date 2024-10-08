@@ -149,7 +149,7 @@ Enchantment is placing spells upon objects, structures andd locales. The item is
 
 Imbuing is placing supernatural powers so deep within an object, structure or locale, that it itself becomes a source of supernatural power. The words written in a tome of an ancient mage could be imbued with the power to become real spells when read aloud. A pendant found in an forsaken manor could be imbued with the ability to curse those who wear or wield it. A ring bequeathed by an elemental lord of fire, may grant the rightful wearer a fraction of its creator's power.
 
-For the rest of this chapter they are used interchangeably.
+They are not interchangeable.
 
 ___
 ### Types of Enchantments
@@ -160,3 +160,39 @@ ___
 
 Unless an item is made to be of enchantment quality, the magic will eventually leave the item and it will once again become mundane. The exception is items of supernatural origin, which were never mundane to start off with.
 
+___
+### The Process of Enchanting
+1. Decide what item you wish to enchant/imbue, and the magic you wish to place within it.
+2. Gather the requisite materials, find a suitable place, make sure you have the magic available.
+3. Spend the requisite amount of time enchanting/imbuing the item and expend any material component.
+4. Roll spellcraft, with appropriate modifiers. On success the item is enchanted/imbued. On a failure it is not, and the time is wasted. Upon catastrophic failure bad things happen.
+
+___
+### Threshold for Enchanting or Imbuing
+The base threshold for imbuing or enchanting an item (single use) with a spell, or an individual effect within a spell is: **[8 + (2 x level of the spell)]**
+
+The base threshold for imbuing an item with an ability (single use) is:
+|Class of Ability|Base threshold|
+|-|-|
+|C|16|
+|B|20|
+|A|24|
+|S|28|
+
+Furthermore, the threshold is increased by +4 if the item recharges, or by +8 if the magic is "at will" or "constant".
+
+___
+### Re-enchanting/Re-imbuing
+If a magical item loses its magic (generally, expending the charge or disenchantment), it can be enchanted again, however, in this case, its durability decreases by 1, and the threshold to successfully enchant/imbue it increases by +2.
+
+___
+### Multiple Effects
+An item can be imbued or enchanted with multiple spells, however, in this case the threshold, material cost, and time spend are additive.
+
+___
+### Costs of enchantment and Imbuing
+Apart from material components, where appropriate, this process has no material costs. However, there are other costs.
+
+When enchanting an item, the enchanter must expend a number of MP dice that is a multiple of what one would expend when casting the spell of that level as a global spell. (See enchantment table below).
+
+When imbuing an item, the cost is much higher and one must usually pay with the ability or spell that is being imbued. Thus, for example, if imbuing a ring with a single use of "[Summon Spirit](08-spell-list.md#summon-spirit)", a fifth level spell, the caster loses the ability to cast that spell for five days. (See imbuing table below).

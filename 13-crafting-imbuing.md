@@ -182,19 +182,21 @@ Furthermore the magic in items can be triggered by:
 - Triggered by a change in condition of the wielder.
 - Triggered by a programmed contingency.
 
+Different types of magic and different triggers have different affinities for different kinds of items. So for example, texts have a higher affinity to single use magics, weapons and tools have a higher affinity for magics that can be recharged. Lastly, talismans, and items of purely sentimental value have a higher affinity for "Constant" and "At will" magics.
+
 ____
 #### Types of magic in items by use
 
-**Single/N use magic items**: The magic in these items can be activated once, or more (up to seven times depending how much magic it holds). After the magic has been used, it is gone and the item becomes mundane again.
+**Single/N use magic items**: The magic in these items can be activated once, or more (up to seven times depending how much magic it holds). After the magic has been used, it is gone and the item becomes mundane again. The Threshold for imbuing/enchanting single use tomes and scrolls is reduced by 4.
 
-**Rechargeable**: The magic in these items can be activated once (or up to seven times if it holds enough magic). When the magic runs out, it can be recharged. Depending on the item, the conditions of recharge are different.
+**Rechargeable**: The magic in these items can be activated once (or up to seven times if it holds enough magic). When the magic runs out, it can be recharged. Depending on the item, the conditions of recharge are different. The Threshold for imbuing/enchanting rechargeable weapons, staves and wands is reduced by 4.
 
-**Constant**: The magic in these items is always active, and unless the item is dis-enchanted or otherwise loses its powers, will continue to be active while the item exists.
+**Constant**: The magic in these items is always active, and unless the item is dis-enchanted or otherwise loses its powers, will continue to be active while the item exists. The threshold for imbuing/enchanting jewellery and purely sentimental items with "constant" activation is -4.
 
 **At will**: The number and frequency of uses of the magic in these items is not limited.
 
 ____
-### Types of magic in items by activation
+#### Types of magic in items by activation
 
 **Hit/success triggered**: Magic in weapons can be triggered by a successful attack (eg "entangle on hit"). Magic in armour, talismans and similar can be triggered by a successful save (eg "aqueous step on save"), or on a successful skill roll. This activation does not require an action beyond a successful attack/save/skill roll.
 
@@ -205,10 +207,15 @@ ____
 **On fulfilled contingency**: Some insidious magic items are activated when a condition is fulfilled. The condition can be incredibly complex, but must be tangible. For example "when next the sword is bathed in the light of the full moon", "when the talisman passes through the gates of Dudariarch".
 
 
-
 ___
 ### Threshold for Enchanting or Imbuing
-The base threshold for imbuing or enchanting an item (single use) with a spell, or an individual effect within a spell is: **[8 + (2 x level of the spell)]**
+The base threshold (spellcraft) for enchanting an item (single use) with a spell, or an individual effect within a spell is:
+
+**[8 + (2 x level of the spell)]**
+
+The base threshold (spellcraft) for imbuing an item (single use) with a spell, or an individual effect within a spell is:
+
+**[10 + (2 x level of the spell)]**
 
 The base threshold for imbuing an item with an ability (single use) is:
 |Class of Ability|Base threshold|
@@ -235,3 +242,38 @@ Apart from material components, where appropriate, this process has no material 
 When enchanting an item, the enchanter must expend a number of MP dice that is a multiple of what one would expend when casting the spell of that level as a global spell. (See enchantment table below).
 
 When imbuing an item, the cost is much higher and one must usually pay with the ability or spell that is being imbued. Thus, for example, if imbuing a ring with a single use of "[Summon Spirit](08-spell-list.md#summon-spirit)", a fifth level spell, the caster loses the ability to cast that spell for five days. (See imbuing table below).
+
+___
+### Time for Enchanting/Imbuing
+The time taken for the ritual to imbue or enchant an item is: **[Spell level] x [Spell level] days**
+
+For supernatural abilities the time is:
+|Ability Class|Time taken (days)|
+|-|-|
+|C|4|
+|B|16|
+|A|36|
+|S|64|
+
+If the item is single use, the time taken to imbue it is halved. The minimum time is 1 day, except for single use items, where it is 4 hours.
+
+___
+### Threshold Table
+|Modifying Circumstance|Group|Modifier|extra|Note|
+|-|-|-|-|-|
+|Extra charge on single use/recharge item|Up to lvl 2|+1|Max of 7 (+6)|
+|Extra charge on single use/recharge item|From lvl 2|+2|Max of 7 (+12)|
+|Recharging (up to 3 charges)|Up to lvl 2|+1/charge|Max of 3 (+3)|
+|Recharging (up to 3 charges)|From lvl 2|+2/charge|Max of 3 (+6)|
+|Constant|Up to lvl 2|+8||
+|Constant|From lvl 2|+12||
+|At Will|Up to lvl 2|+10||
+|At Will|From lvl 2|+20||
+|"kinetic" component||-2||
+|"incantation" component||-2||
+|"thought" component||+4||
+|"on condition"||+4||
+|"programmed contingency"||+4||
+|Ritual in a place of power||-4||
+|Ritual in aligned location||-4||
+|For each assistant||-1|Max of 7 (-7)|

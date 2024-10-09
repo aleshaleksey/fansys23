@@ -1,4 +1,31 @@
 # Crafting and Imbuing
+- [Crafting](#crafting)
+  - [The Crafting Process](#the-crafting-process)
+  - [Skills Used](#skills-used)
+  - [The Crafting Roll and Thresholds](#the-crafting-roll-and-thresholds)
+  - [Crafting, equipment, environment and other modifiers](#crafting-equipment-environment-and-other-modifiers)
+  - [Crafting Time](#crafting-time)
+  - [Crafting Costs](#crafting-costs)
+  - [Material Coefficients (quality mods) for items](#material-coefficients-quality-mods-for-items)
+  - [Crafting for Enchantment](#crafting-for-enchantment)
+  - [Eschewing Reality](#eschewing-reality)
+- [Enchanting and Imbuing](#enchanting-and-imbuing)
+  - [Types of Enchantments](#types-of-enchantments)
+  - [The Process of Enchanting](#the-process-of-enchanting)
+  - [Types of Enchanted and Imbued Items](#types-of-enchanted-and-imbued-items)
+    - [Types of magic in items by use](#types-of-magic-in-items-by-use)
+    - [Types of magic in items by activation](#types-of-magic-in-items-by-activation)
+  - [Threshold for Enchanting or Imbuing](#threshold-for-enchanting-or-imbuing)
+  - [Permanency and "Enchantment Quality Items"](#permanency-and-enchantment-quality-items)
+  - [Re-enchanting/Re-imbuing](#re-enchantingre-imbuing)
+  - [Multiple Effects](#multiple-effects)
+  - [Costs of enchantment and Imbuing](#costs-of-enchantment-and-imbuing)
+  - [Time taken for Enchanting/Imbuing](#time-taken-for-enchantingimbuing)
+  - [Threshold Table](#threshold-table)
+
+
+
+___
 Crafting is the production of various items, and wares from raw materials. Imbuing is adding supernatural powers or properties to a crafted item, either during crafting or afterwards.
 
 Crafting lies at the heart of both human civilisation, and, indirectly, many RPGs, even if there are no explicit mechanics for it in a given gaming system.
@@ -114,7 +141,7 @@ In general, recommended material costs are as follows:
 |medicine, poison and alchemical goods|**10sp x [quality mod] x [number of doses] x 2**|Assumed to use 1/60lb of material|
 
 ___
-#### Material Coefficients (quality mods) for items
+### Material Coefficients (quality mods) for items
 The cost of a material generally depends on the ["material level"](12-equipment-economy.md#material-level). This is not set in stone, but the recommended costs for non precious materials are:
 
 |Material level|Cost per lb|Included Quality mod|Examples|
@@ -228,6 +255,12 @@ The base threshold for imbuing an item with an ability (single use) is:
 Furthermore, the threshold is increased by +4 if the item recharges, or by +8 if the magic is "at will" or "constant".
 
 ___
+### Permanency and "Enchantment Quality Items"
+Enchantments on enchantment quality items (see "[Crafting for Enchantment](#crafting-for-enchantment)"), and items made of materials of supernatural origin, are permanent. That is to say that as long as the item is not destroyed, disenchanted, or the charges are not expended, the item retains its magic indefinitely.
+
+Enchantments on other items fade. The magic lingers for: **[Spellcraft roll] x [spell level] x [spell level] days**
+
+___
 ### Re-enchanting/Re-imbuing
 If a magical item loses its magic (generally, expending the charge or disenchantment), it can be enchanted again, however, in this case, its durability decreases by 1, and the threshold to successfully enchant/imbue it increases by +2.
 
@@ -244,7 +277,7 @@ When enchanting an item, the enchanter must expend a number of MP dice that is a
 When imbuing an item, the cost is much higher and one must usually pay with the ability or spell that is being imbued. Thus, for example, if imbuing a ring with a single use of "[Summon Spirit](08-spell-list.md#summon-spirit)", a fifth level spell, the caster loses the ability to cast that spell for five days. (See imbuing table below).
 
 ___
-### Time for Enchanting/Imbuing
+### Time taken for Enchanting/Imbuing
 The time taken for the ritual to imbue or enchant an item is: **[Spell level] x [Spell level] days**
 
 For supernatural abilities the time is:

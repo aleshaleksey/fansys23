@@ -168,6 +168,45 @@ ___
 4. Roll spellcraft, with appropriate modifiers. On success the item is enchanted/imbued. On a failure it is not, and the time is wasted. Upon catastrophic failure bad things happen.
 
 ___
+### Types of Enchanted and Imbued Items
+The magic in items can be:
+- Single use (or useable N times). Not rechargeable.
+- Rechargeable (useable N times and then needs to be recharged).
+- Constant (always on).
+- At will (useable an unlimited amount of times, usually without a "cooldown").
+
+Furthermore the magic in items can be triggered by:
+- A successful attack/roll/skill roll.
+- Triggered by words or gestures (kinetic or incantation components).
+- Triggered by thoughts.
+- Triggered by a change in condition of the wielder.
+- Triggered by a programmed contingency.
+
+____
+#### Types of magic in items by use
+
+**Single/N use magic items**: The magic in these items can be activated once, or more (up to seven times depending how much magic it holds). After the magic has been used, it is gone and the item becomes mundane again.
+
+**Rechargeable**: The magic in these items can be activated once (or up to seven times if it holds enough magic). When the magic runs out, it can be recharged. Depending on the item, the conditions of recharge are different.
+
+**Constant**: The magic in these items is always active, and unless the item is dis-enchanted or otherwise loses its powers, will continue to be active while the item exists.
+
+**At will**: The number and frequency of uses of the magic in these items is not limited.
+
+____
+### Types of magic in items by activation
+
+**Hit/success triggered**: Magic in weapons can be triggered by a successful attack (eg "entangle on hit"). Magic in armour, talismans and similar can be triggered by a successful save (eg "aqueous step on save"), or on a successful skill roll. This activation does not require an action beyond a successful attack/save/skill roll.
+
+**On use**: The most common magic items are activated by an action. Like spells, these actions can have one or more of an "incantation' or "kinetic" component. Rarely they may be activated by thought alone. In general using this kind of item requires an action, be it a "reaction", "secondary action", "main action", "full round action" or other.
+
+**On change of state**: Some magic items activated when its wielder's state changes, eg, when it gains or loses a condition, is hit by an attack, moves, or fails a save. Activating these items does not require an action, but does require the specific condition being met.
+
+**On fulfilled contingency**: Some insidious magic items are activated when a condition is fulfilled. The condition can be incredibly complex, but must be tangible. For example "when next the sword is bathed in the light of the full moon", "when the talisman passes through the gates of Dudariarch".
+
+
+
+___
 ### Threshold for Enchanting or Imbuing
 The base threshold for imbuing or enchanting an item (single use) with a spell, or an individual effect within a spell is: **[8 + (2 x level of the spell)]**
 

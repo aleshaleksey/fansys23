@@ -145,79 +145,79 @@ ___
 ### Weapons
 |Weapon|Weight (lb)|Cost (sp)|crafting days|"ancient"|"medieval"|"late"|
 |-|-|-|-|-|-|-|
-|Throwing axe|2|10||yes|yes|yes|
-|Hand axe|2|10||yes|yes|yes|
-|War shovel|2|12?||no|no|yes|
-|War pick|3|12?||no|rare|yes|
-|Battleaxe|4|120?||rare|yes|rare|
-|GreatAxe|6|240?||rare|yes|rare|
-|Dagger|1|8||yes|yes|yes|
-|Shuriken|0.2|8?||yes|yes|yes|
-|Short Sword|2|12||yes|yes|yes|
-|Small Sword|1|||no|rare|yes|
-|Scimitar|2|||yes|yes|yes|
-|Rapier|3|||no|rare|yes|
-|Falchion|3|||yes|yes|yes|
-|Longsword|4|168||rare/yes|yes|yes/rare|
-|Greatsword|6|320?||no|yes|yes/rare|
-|Club|2|1||yes|yes|yes|
-|Greatclub|6|1||yes|yes|yes|
-|Mace|3|24?||yes|yes|yes|
-|Morning Star|3|24?||rare|yes|yes|
-|War hammer|3|48?||rare|rare|yes|
-|Maul|8|96?||rare|rare|yes|
-|Glaive|4|90?||yes|yes|yes|
-|Halberd|5|128?||no|no/rare|yes|
-|Venetian Hammer|5|200?||no|no/rare|yes|
-|Long axe|8|128?||rare|yes|yes|
-|Short Spear|2|24||yes|yes|yes|
-|Spear|4|32||yes|yes|yes|
-|Long Spear|8|40||yes|yes|yes|
-|Javelin|2|||yes|rare|no|
-|War dart|0.5|||yes|rare|no|
-|Shortstaff|2|1||yes|yes|yes|
-|Quarterstaff|4|2||yes|yes|yes|
-|Sling|1|1||yes|yes|rare|
-|Shortbow|1|4||yes|yes|yes/rare|
-|Composite Bow|2|||yes|yes|yes/rare|
-|Longbow|3|24||yes|yes|yes/rare|
-|Greatbow|3|||no|yes|rare|
-|Hand Crossbow|1|92||no|rare|yes|
-|Crossbow|4|48||no|yes|yes/rare|
-|Winch crossbow|6|92||rare|yes|yes/rare|
-|Pistol|1|480||no|no|rare/yes|
-|Musket|8|600||no|no|rare/yes|
-|Blunderbuss|6|480||no|no|rare/yes|
+|Throwing axe|2|10|1|yes|yes|yes|
+|Hand axe|2|10|1|yes|yes|yes|
+|War shovel|2|12|1|no|no|yes|
+|War pick|3|12|1|no|rare|yes|
+|Battleaxe|4|120|6|rare|yes|rare|
+|GreatAxe|6|240?|6|rare|yes|rare|
+|Dagger|1|8|0.5|yes|yes|yes|
+|Shuriken|0.2|8|0.5|yes|yes|yes|
+|Short Sword|2|12|1|yes|yes|yes|
+|Small Sword|1|40|2|no|rare|yes|
+|Scimitar|2|120|6|yes|yes|yes|
+|Rapier|3|180|9|no|rare|yes|
+|Falchion|3|120|6|yes|yes|yes|
+|Longsword|4|160|8|rare/yes|yes|yes/rare|
+|Greatsword|6|320|16|no|yes|yes/rare|
+|Club|2|1|0.5|yes|yes|yes|
+|Greatclub|6|1|0.5|yes|yes|yes|
+|Mace|3|24|1.5|yes|yes|yes|
+|Morning Star|3|24|1.5|rare|yes|yes|
+|War hammer|3|48|2.5|rare|rare|yes|
+|Maul|8|96|5|rare|rare|yes|
+|Glaive|4|90|5|yes|yes|yes|
+|Halberd|5|128|7|no|no/rare|yes|
+|Venetian Hammer|5|200|10|no|no/rare|yes|
+|Long axe|8|128|7|rare|yes|yes|
+|Short Spear|2|24|1.5|yes|yes|yes|
+|Spear|4|32|2|yes|yes|yes|
+|Long Spear|8|40|2|yes|yes|yes|
+|Javelin|2|10|0.5|yes|rare|no|
+|War dart|0.5|8|0.5|yes|rare|no|
+|Shortstaff|2|1|0.5|yes|yes|yes|
+|Quarterstaff|4|2|0.5|yes|yes|yes|
+|Sling|1|1|1|yes|yes|rare|
+|Shortbow|1|4|1|yes|yes|yes/rare|
+|Composite Bow|2|96|5|yes|yes|yes/rare|
+|Longbow|3|48|2.5|yes|yes|yes/rare|
+|Greatbow|3|160|8|no|yes|rare|
+|Hand Crossbow|1|92|5|no|rare|yes|
+|Crossbow|4|48|2.5|no|yes|yes/rare|
+|Winch crossbow|6|92|5|rare|yes|yes/rare|
+|Pistol|1|480|24|no|no|rare/yes|
+|Musket|8|600|30|no|no|rare/yes|
+|Blunderbuss|6|480|24|no|no|rare/yes|
 
 ___
 ### Ammunition
 |Weapon|Weight (lb)|Cost (sp)|crafting days|"ancient"|"medieval"|"late"|
 |-|-|-|-|-|-|-|
-|Arrow for short/composite bow(24)|2.4|5||yes|yes|yes|
-|Arrow for long/great bow(24)|4.8|5||yes|yes|yes|
-|Crossbow bolt(24)|4.8|5||rare|yes|yes|
-|Sling Bullet(24)|2.4|1||yes|yes|rare|
+|Arrow for short/composite bow(24)|2.4|5|0.5|yes|yes|yes|
+|Arrow for long/great bow(24)|4.8|5|0.5|yes|yes|yes|
+|Crossbow bolt(24)|4.8|5|0.5|rare|yes|yes|
+|Sling Bullet(24)|2.4|1|0.5|yes|yes|rare|
 |Bullets & Powder(20)|?|||no|no/rare|yes|
 
 ___
 ### Armour
 |Armour Type|Weight (lb)|Cost (sp)|crafting days|"ancient"|"medieval"|"late"|
 |-|-|-|-|-|-|-|
-|Leather Cuirass|10|60||yes|yes|yes|
-|Chain Shirt|20|200||no|yes|yes|
-|Full Padded|10|||yes|yes|yes|
-|Hide Armour|30|||yes|yes|yes|
-|Full Leather|20|120||yes|yes|yes|
-|Brigandine|38|288||yes|yes|yes|
-|Full Chain|55|600||no|yes|yes/rare|
-|Cuirass|46|480||yes|yes|yes|
-|Segmented Mail|60|||no|yes|yes/rare|
-|Half Plate|60|1200||no|yes|yes/rare|
-|Full Plate|65|1920||no|yes|yes/rare|
-|Buckler|2|||yes|yes|yes|
-|Small Shield|6|48||yes|yes|yes|
-|Large Shield|10|90||yes|yes|rare|
-|Tower Shield|20|120||yes|yes|rare|
+|Leather Cuirass|10|60|3|yes|yes|yes|
+|Chain Shirt|20|200|5|no|yes|yes|
+|Full Padded|10|20|1|yes|yes|yes|
+|Hide Armour|30|60|3|yes|yes|yes|
+|Full Leather|20|120|6|yes|yes|yes|
+|Brigandine|38|288|15|yes|yes|yes|
+|Full Chain|55|600|30|no|yes|yes/rare|
+|Cuirass|46|480|24|yes|yes|yes|
+|Segmented Mail|60|600|30|no|yes|yes/rare|
+|Half Plate|60|1200|60|no|yes|yes/rare|
+|Full Plate|65|1920|96|no|yes|yes/rare|
+|Buckler|2||1|yes|yes|yes|
+|Small Shield|6|48|2.5|yes|yes|yes|
+|Large Shield|10|90|5|yes|yes|rare|
+|Tower Shield|20|120|6|yes|yes|rare|
 
 ___
 ### Labour Costs
@@ -270,42 +270,53 @@ This table provides some numbers for how much of a resource one can expect to ha
 
 ___
 ### Common Goods
-|Item|ancient |medieval |late |
+|Item|weight (lb)|cost (sp)|Notes|
 |-|-|-|-|
-|Ale, poor (gallon)||1||
-|Ale, good (gallon)||4||
-|Cider, poor (gallon)||4||
-|Cider, good (gallon)||8||
-|Wine, poor (gallon)||6||
-|Wine, good (gallon)||16||
+|Ale, poor (gallon)|10|1||
+|Ale, good (gallon)|10|4||
+|Cider, poor (gallon)|10|4||
+|Cider, good (gallon)|10|8||
+|Wine, poor (gallon)|10|6||
+|Wine, good (gallon)|10|16||
+|Wine, famous (gallon)|10|16+||
 |||||
-|Wheat (5lb)||1||
-|Bread (3lb)||1||
-|Bacon (1lb)||2||
-|Olive oil(1 gallon)|1|||
-|Eggs (12)||2||
-|Rations, good (4lb)||3||
-|Rations, expedition (4lb)||8||
+|Wheat|5|1||
+|Bread|3|1||
+|Bacon|1|2||
+|Olive oil(1 gallon)|10|1||
+|Eggs (12)|2|2||
+|Rations, good|4|3||
+|Rations, expedition|4|8||
 |||||
-|Purse/Pouch||3||
-|Shoes/Boots||10||
-|Courtier's Garments||480-8000||
-|Robes||60||
-|Woollen Garments||120||
-|Linen Garment||24||
-|Basic tunics||2-12||
+|Purse/Pouch|1|3||
+|Shoes/Boots|2|10||
+|Courtier's Garments|8|480-8000||
+|Robes|6|60||
+|Woollen Garments|4|120||
+|Linen Garment|2|24||
+|Basic tunics|3|2-12||
 |||||
-|A tome/grimoire||480||
-|A tome (rent)||1/day||
+|A tome/grimoire|6|480||
+|A tome (rent)|6|1/day||
+|candle(4)|1|1||||
+|Firewood|20|1||
+|Charcoal|10|1||
 |||||
 ___
 ### Adventuring Gear
 |Item|Cost (sp)|crafting days|"ancient"|"medieval"|"late"|
 |-|-|-|-|-|-|
+|Rope (hemp/cotton)||||||
+|Rope (silk)||||||
+|torch||||||
+|candle||||||
+|||||||
+|||||||
+|||||||
 
 ___
 ### Transport, Beasts and Property
-|Item|Cost (sp)|crafting days|"ancient"|"medieval"|"late"|
+|Item|Cost (sp)|crafting/rearing days|"ancient"|"medieval"|"late"|
 |-|-|-|-|-|-|
 |8 chickens|1||rare|yes|yes|
 |Sheep|12||yes|yes|yes|

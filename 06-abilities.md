@@ -261,7 +261,7 @@ ___
 ____
 #### Debilitating Strike
 
-**Description**: Expend 1-3 SP dice to induce a condition when making an unarmed strike or a melee attack with a light weapon. For each new condition the ability must be taken again.
+**Description**: Expend 1-3 SP dice to induce a condition when making an unarmed strike or a melee attack with a "light" weapon. For each new condition the ability must be taken again.
 
 **Action**:
 1. Declare the ability and make the attack.
@@ -309,7 +309,7 @@ ___
 ___
 #### Flurry
 
-**Description**: As a "secondary action" make an extra attack or combat manoeuvre with a light weapon or unarmed strike. If you expend an SP dice, you get to make 2 attack.
+**Description**: As a "secondary action" make an extra attack or combat manoeuvre with a "light" weapon or unarmed strike. If you expend an SP dice, you get to make 2 attack.
 
 ___
 #### Great Strike

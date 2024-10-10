@@ -17,6 +17,7 @@
     - [Types of magic in items by activation](#types-of-magic-in-items-by-activation)
   - [Threshold for Enchanting or Imbuing](#threshold-for-enchanting-or-imbuing)
   - [Permanency and "Enchantment Quality Items"](#permanency-and-enchantment-quality-items)
+  - [Places of Power](#places-of-power)
   - [Re-enchanting/Re-imbuing](#re-enchantingre-imbuing)
   - [Multiple Effects](#multiple-effects)
   - [Costs of enchantment and Imbuing](#costs-of-enchantment-and-imbuing)
@@ -259,6 +260,10 @@ ___
 Enchantments on enchantment quality items (see "[Crafting for Enchantment](#crafting-for-enchantment)"), and items made of materials of supernatural origin, are permanent. That is to say that as long as the item is not destroyed, disenchanted, or the charges are not expended, the item retains its magic indefinitely.
 
 Enchantments on other items fade. The magic lingers for: **[Spellcraft roll] x [spell level] x [spell level] days**
+
+___
+### Places of Power
+Locations associated with supernatural powers facilitate many supernatural processes. Enchanting or imbuing in such locations lowers the threshold for successfully imbuing or enchanting. Places of power do so for all enchanting and imbuing, while locations aligned to an element only empower magics associated with that element. Enchanting and imbuing in these places lowers the threshold by -4.
 
 ___
 ### Re-enchanting/Re-imbuing

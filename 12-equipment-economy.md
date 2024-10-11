@@ -256,13 +256,13 @@ Labour costs are given in silver (sp) per day (10-12 hours). Labour that does no
 |initiate, lvl-3|special|40|500|
 |mage, higher level|special|special|special|
 
-**Untrained**: This refers to untrained workforce that can be used for basic, but not necessary easy work. This includes cleaners, fruit-pickers, and workers for digging ditches and carrying loads.
+**Untrained**: This refers to untrained workforce that can be used for basic, but not necessarily easy work. This includes cleaners, fruit-pickers, and workers for digging ditches and carrying loads.
 
-**Trained**: This refers to labourers that carry out work which requires several months or years to perform well. This includes miners, brick-layers, wagon drivers and sailors.
+**Trained**: This refers to labourers that carry out work which requires several months or years of training to perform well. This includes miners, brick-layers, wagon drivers and sailors.
 
-**Artisan**: Refers to craftsmen with rare and valuable skills, such as smiths, masons, bowyers, alchemists, jewellers, artists, engineers. They have significant practice in their arts, but o course quality varies.
+**Artisan**: Refers to craftsmen with rare and valuable skills, such as smiths, masons, bowyers, alchemists, jewellers, artists, engineers. They have significant practice in their arts, but quality varies.
 
-**Mercenary**: This refers to low level hired combatants. This can be both *bona fide* mercenaries, as well as caravan guards, mounted messengers, and levied militia. They are loath to fight to the death, engage in expeditions lasting longer than a few weeks, or take on jobs with an obvious and significant risk of death.
+**Mercenary**: This refers to low level hired combatants. This can be both *bona fide* mercenaries, as well as caravan guards, mounted messengers, and levied militia. They are loath to fight to the death, engage in expeditions lasting longer than a few weeks, or take on jobs with an obvious and significant risk of not coming back.
 
 **Mercenary, Specialist**: This refers to archers, scouts, basic cavalry. Mercenaries will seldom fight to the death, and need significant persuasion if the job carries a risk of death or lasts longer than a month.
 

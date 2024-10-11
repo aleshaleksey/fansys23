@@ -269,6 +269,18 @@ This table provides some numbers for how much of a resource one can expect to ha
 **Wheat**: Yield is per acre. Usually 1g of seeds was sown for 12-100g of harvest. Lower yield in earlier ages were associated with higher yields of straw which is also an important material. You need about half a dozen peasants for 10 acres.
 
 ___
+### Adventuring Gear
+|Item|Cost (sp)|crafting days|"ancient"|"medieval"|"late"|
+|-|-|-|-|-|-|
+|Rope (hemp/cotton)||||||
+|Rope (silk)||||||
+|torch||||||
+|candle||||||
+|||||||
+|||||||
+|||||||
+
+___
 ### Common Goods
 |Item|weight (lb)|cost (sp)|Notes|
 |-|-|-|-|
@@ -302,20 +314,51 @@ ___
 |Firewood|20|1||
 |Charcoal|10|1||
 |||||
-___
-### Adventuring Gear
-|Item|Cost (sp)|crafting days|"ancient"|"medieval"|"late"|
-|-|-|-|-|-|-|
-|Rope (hemp/cotton)||||||
-|Rope (silk)||||||
-|torch||||||
-|candle||||||
-|||||||
-|||||||
-|||||||
+|Fleece|4|-||
+|Common furs|10|-||
+|Rare furs|100|-||
 
 ___
-### Transport, Beasts and Property
+### Transport
+|Item|Cost (sp)|crafting/rearing days|"ancient"|"medieval"|"late"|
+|-|-|-|-|-|-|
+|Riding|480|-|yes|yes|yes|
+|Draught horse|60|-|yes|yes|yes|
+|Warhorse|4000-80000||yes|yes|yes|
+|||||||
+|Handcart|20|1|yes|yes|yes|
+|Cart|48|2.5|yes|yes|yes|
+|Wagon|200|10|yes|yes|yes|
+|War Chariot|1960|46|yes|yes|yes|
+|Carriage|3600|72|yes|yes|yes|
+|||||||
+|Canoe|30|1.5|yes|yes|yes|
+|Skiff|90|1.5|yes|yes|yes|
+|Skiff (sailing)|90|1.5|yes|yes|yes|
+|Longship|4800|92|yes|yes|no|
+|Sailing ship (small)|4800|92|yes|yes|yes|
+|Sailing ship (carrack)|12600|92|no|yes|yes|
+
+**Cart**: A light, two or four wheeled wooden cart, usually without an awning. Typically a cart is 5x10ft long and can house 8 passengers and 2 drivers, transporting up to 4000lb, but no more than the drag weight of the beasts of burden pulling it. Carts can typically travel on, and off, road. The speed of a wagon is 30ft on road and 20ft off road. A wagon cannot traverse difficult terrain.
+
+**Wagon**: A heavy, four wheeled cart, usually with an awning. A wagon typically is 5x15ft in length, 10ft in height and can house 12 passengers and 2 drivers, transporting up to 8000lb, but no more than the drag weight of the beasts of burden pulling it. Wagons can typically travel on, and off, road. The speed of a wagon is 25ft on road and 15ft off road. A wagon cannot traverse difficult terrain.
+
+**War chariot**: This is a light, two wheeled platform (5x5ft), that carries a driver and up to 3 passengers. In combat it can carry a driver and a single medium sized combatant. A combatant riding chariot may use unwieldy and heavy weapons, as if they were standing on flat, open terrain (if space permits). A chariot with one horse can travel at 40ft, with 2 horses- 50ft, with 4 horses - 60ft. A chariot can be driven off road. It can traverse difficult terrain at 10ft.
+
+**Carriage**: A carriage is a closed wagon approximately 12ft in length and 6ft in width. For combat purposes it takes up 2 squares. A carriage can house up to 6 passengers inside, as well as up to 4 crew. a carriage drawn by 2 horses (a pair) has a speed of 30ft, by 4 horses - 40ft, by 6 horses - 50ft. Travels cannot travel faster than their beasts of burden, unless travelling down hill. Carriages can only travel on roads or relatively flat, solid ground, albeit at half speed. They are seldom suitable for cross country driving.
+
+**Canoe**: A canoe is a light, narrow, rowing boat that can carry up to 4 medium sized humanoids. It has a speed of 50ft, a length of 12-18ft, and a weight of 40lb.
+
+**Skiff**: This refers to a boat that can hold between 4-10 medium size humanoids and has a length of no more than 18ft. It requires 1-3 crew. Rowing skiffs typically have a speed of 30ft, while sailing skiffs can have speeds of up to 100ft in good winds or 30ft in poor winds.
+
+**Longships**: A narrow hull ship, typically with a single mast and between 16-80 oarsmen. They can be between 40ft-120ft long, with displacements of ~20-60 tons. And can maintain speeds of ~90ft (90 miles per day, 180 if the crew pull double shifts). Longships were typically not armed *per se*, but the crew was often trained in combat.
+
+**Sailing ship (small)**: This refers to any sailing ship with one or two masts and a displacement of 20-60 tons and a length of 30-60ft. Depending on size and journey length, it can take 4-20 crewmen. This can be either a square-rig of ancient times, or a caravel of the medieval period. The typical speed is 100ft (200 miles per day) in good wind and 30ft (60 miles per day) in poor winds.
+
+**Carrack**: Carracks are sailing ships with 3 masts and a high rear castle. They have mix of square and triangular sails. They can generally handle long oceanic journeys, but are seldom made to carry large amounts of cargo. They tend to be 60ft-100ft long, and have a displacement of 100-1000 tons. A carrack can be equipped with up to 10 canons per 100 tons of displacement. This is the classic "sailing ship" of the earth colonial era. The cost is quoted for a 200 ton carrack, equipped with 10 canons (or ballistae), which is a typical tonnage for the class. A carrack needs a crew of about 10, but prefers ~40, and can transport 100-500 soldiers over short distances. A carrack has a speed of 120ft (240 miles per day) in good winds and 40ft (80 miles per day) in poor winds.
+
+___
+### Beasts and Slaves
 |Item|Cost (sp)|crafting/rearing days|"ancient"|"medieval"|"late"|
 |-|-|-|-|-|-|
 |8 chickens|1||rare|yes|yes|
@@ -340,12 +383,13 @@ ___
 |Draught horse|60||yes|yes|yes|
 |Warhorse|4000-80000||yes|yes|yes|
 |||||||
-|Humanoid Slave|400||yes|yes|rare|
-|||||||
-|Cart|48||yes|yes|yes|
-|Carriage|3600||yes|yes|yes|
-|Barge|4800||yes|yes|yes|
-|||||||
+|Humanoid Slave (lvl-1)|400||yes|yes|rare|
+|Humanoid Slave, Trained (lvl-3)|3600||yes|yes|rare|
+
+___
+### Property
+|Item|Cost (sp)|crafting/rearing days|"ancient"|"medieval"|"late"|
+|-|-|-|-|-|-|
 |Small house (rent)|6/month||yes|yes|yes|
 |House (rent)|24/month||yes|yes|yes|
 |Small Manor (rent)|90/month||yes|yes|yes|
@@ -356,11 +400,6 @@ ___
 |Keep|192K|95K|yes|yes|yes|
 |Castle|672K||yes|yes|yes|
 |Fortress|4800K||yes|yes|yes|
-|||||||
-|Fleece|4||yes|yes|yes|
-|Common furs|10||yes|yes|yes|
-|Rare furs|100||yes|yes|rare|
-|||||||
 
 *Acre of land*: Land in many kingdoms is not commonly available and cannot be bought and sold without special permission from officials, lords or kings.
 

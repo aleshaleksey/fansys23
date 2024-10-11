@@ -248,11 +248,34 @@ Labour costs are given in silver (sp) per day (10-12 hours). Labour that does no
 |Trained|0|2|~5|
 |Artisan (mason)|0-4|8|20|
 |Artisan (smith)|0-4|16|40|
-|mercenary (foot)||6|20|
-|mercenary (specialist)||24|50|
-|mercenary (captain)||200|500|
-|scribe/priest||6|20|
-|magistrate||200|500|
+|mercenary (foot, lvl-2)|0-6|6|20|
+|mercenary (specialist, lvl-3)|12|24|50|
+|mercenary (captain, lvl-5)|100|200|500|
+|scribe/priest, lvl-3|12|6|20|
+|magistrate, lvl-3|200|200|500|
+|initiate, lvl-3|special|40|500|
+|mage, higher level|special|special|special|
+
+**Untrained**: This refers to untrained workforce that can be used for basic, but not necessary easy work. This includes cleaners, fruit-pickers, and workers for digging ditches and carrying loads.
+
+**Trained**: This refers to labourers that carry out work which requires several months or years to perform well. This includes miners, brick-layers, wagon drivers and sailors.
+
+**Artisan**: Refers to craftsmen with rare and valuable skills, such as smiths, masons, bowyers, alchemists, jewellers, artists, engineers. They have significant practice in their arts, but o course quality varies.
+
+**Mercenary**: This refers to low level hired combatants. This can be both *bona fide* mercenaries, as well as caravan guards, mounted messengers, and levied militia. They are loath to fight to the death, engage in expeditions lasting longer than a few weeks, or take on jobs with an obvious and significant risk of death.
+
+**Mercenary, Specialist**: This refers to archers, scouts, basic cavalry. Mercenaries will seldom fight to the death, and need significant persuasion if the job carries a risk of death or lasts longer than a month.
+
+**Mercenary, Captain**: This refers to an NPC combatant with a significant amount of experience that can also lead a small unit. This kind of mercenary can be experienced in melee or ranged combat and may even have supernatural abilities. They usually demands a high fee for their services. This can also refer to lower level assassins.
+
+**Scribe**: Literate individuals who can transcribe manuscripts, pen letters, and perform similar roles.
+
+**Magistrate**: Ranking members of society, empowered with the rights and knowledge necessary to perform legal services. Magistrates are useful when dealing with nobility, major trade deals, or during dubious dealings for furthering one's own interests. Access to a magistrate is understandably expensive.
+
+**Initiate**: Initiates into the supernatural, who can perform simple spellcasting. They are loathe to enter combat, but often not adverse to exploration.
+
+**Mage**: This refers to any spell caster that has level 3 or higher spellcasting. Mages can often be persuaded to perform services, usually in ritual casting, if they believe it is worth their while. The cost is generally high, and more often than not, it is not paid in gold or silver. Most mages are loathe to enter combat, but are not necessarily adverse to exploration.
+
 ___
 ### Upkeep
 Upkeep is distinct from labour cost, as it accounts only for minimal costs associated with keeping the labourer/hireling in working condition, and not the wages. This includes the upkeep cost of food, board and specialist equipment. It can also include the costs of various social/societal functions and rituals needed to maintain the position. For example, a magistrate may need to participate in "expensive" social events to retain a degree of "respectability", a mercenary may need to attend training and replace equipment, and a mage may need maintain a supply of rare and expensive material components.

@@ -1,17 +1,35 @@
 # Equipment and Economy
 
-- "[Labour Costs](#labour-costs)"
-- "[Resources](#resources)"
-- "[Upkeep](#upkeep)"
-- "[Weapons](#weapons)"
-- "[Ammunition](#ammunition)"
-- "[Armour](#armour)"
-- "[Adventuring Gear](#adventuring-gear)"
-- "[Transport, Beasts and Property](#transport-beasts-and-property)"
-- "[Tools and Kits](#tools-and-kits)"
+- [Economy and economies](#economy-and-economies)
+  - [Ancient Setting](#ancient-setting)
+  - [Early Medieval and Dark ages](#early-medieval-and-dark-ages)
+  - [Late, renaissance and industrial age](#late-renaissance-and-industrial-age)
+  - [The Supernatural Economy](#the-supernatural-economy)
+  - [Currency](#currency)
+  - [Labour costs and crafting times](#labour-costs-and-crafting-times)
+  - [Materials](#materials)
+    - [Material Ranks](#material-ranks)
+    - [Material types](#material-types)
+    - [Material level](#material-level)
+    - [Material table](#material-table)
+- [The Lists](#the-lists)
+  - [Weapons](#weapons)
+  - [Ammunition](#ammunition)
+  - [Armour](#armour)
+  - [Labour Costs](#labour-costs)
+  - [Upkeep](#upkeep)
+  - [Resources](#resources)
+  - [Adventuring Gear](#adventuring-gear)
+  - [Common Goods](#common-goods)
+  - [Adventuring Gear](#adventuring-gear)
+  - [Transport](#transport)
+  - [Beasts and Slaves](#beasts-and-slaves)
+  - [Property](#property)
+  - [Tools and Kits](#tools-and-kits)
 
 This chapter discusses resources, basic fantasy economy and item/equipment prices. Most "adventurers" need equipment, weapons and supplies in some shape and form, so they are covered here.
 
+___
 ## Economy and economies
 
 We assume that the settings that will be used with this system might range from classical/ancient to early medieval, to renaissance to industrial revolution, and might not be based on european civilisations. The availability of natural resources, knowledge/crafting techniques and "human" resources (labour) will naturally vary, which will affect item prices and availability. This will also be affected by how high or low magic the setting is. With this in mind three lists are presented: "ancient", "medieval" and "late".
@@ -269,18 +287,6 @@ This table provides some numbers for how much of a resource one can expect to ha
 **Wheat**: Yield is per acre. Usually 1g of seeds was sown for 12-100g of harvest. Lower yield in earlier ages were associated with higher yields of straw which is also an important material. You need about half a dozen peasants for 10 acres.
 
 ___
-### Adventuring Gear
-|Item|Cost (sp)|crafting days|"ancient"|"medieval"|"late"|
-|-|-|-|-|-|-|
-|Rope (hemp/cotton)||||||
-|Rope (silk)||||||
-|torch||||||
-|candle||||||
-|||||||
-|||||||
-|||||||
-
-___
 ### Common Goods
 |Item|weight (lb)|cost (sp)|Notes|
 |-|-|-|-|
@@ -317,6 +323,18 @@ ___
 |Fleece|4|-||
 |Common furs|10|-||
 |Rare furs|100|-||
+
+___
+### Adventuring Gear
+|Item|Cost (sp)|crafting days|"ancient"|"medieval"|"late"|
+|-|-|-|-|-|-|
+|Rope (hemp/cotton)||||||
+|Rope (silk)||||||
+|torch||||||
+|candle||||||
+|||||||
+|||||||
+|||||||
 
 ___
 ### Transport

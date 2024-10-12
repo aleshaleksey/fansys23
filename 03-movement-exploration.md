@@ -261,6 +261,8 @@ In hostile or wilderness environments characters must often take additions steps
 - Regain resources (HP, SP, MP) if the rest is successful.
 
 Failure to ameliorate a suitable site leads to Con save, with the threshold determined by terrain, weather (see tables above) and any bonuses from special abilities and spells.
+- In cold weather, a blanket gives +2 to this save, while a bedroll gives +4.
+- A tent gives +2 to ameliorate/fortify, a yurt obviates the need for such a roll. This does not apply in swamps, dense forests or on steep slopes. 
 
 The full rules on resting can be found in [Rest and Recuperation](04-combat.md#rest-and-recuperation).
 

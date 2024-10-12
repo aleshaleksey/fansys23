@@ -329,7 +329,7 @@ ___
 |Rations, good|4|3||
 |Rations, expedition|4|8||
 |||||
-|Purse/Pouch|1|3||
+|Purse/Pouch|0.5|3||
 |Shoes/Boots|2|10||
 |Courtier's Garments|8|480-8000||
 |Robes|6|60||
@@ -339,8 +339,8 @@ ___
 |||||
 |A tome/grimoire|6|480||
 |A tome (rent)|6|1/day||
-|candle(4)|1|1||||
-|Firewood|20|1||
+|candle(4)|1|0.5||||
+|Firewood|20|0.5||
 |Charcoal|10|1||
 |||||
 |Fleece|4|-||
@@ -349,15 +349,53 @@ ___
 
 ___
 ### Adventuring Gear
-|Item|Cost (sp)|crafting days|"ancient"|"medieval"|"late"|
-|-|-|-|-|-|-|
-|Rope (hemp/cotton)||||||
-|Rope (silk)||||||
-|torch||||||
-|candle||||||
+|Item|Weight (lb)|Cost (sp)|crafting days|"ancient"|"medieval"|"late"|
+|-|-|-|-|-|-|-|
+|Rope (hemp/cotton)|6|||yes|yes|yes|
+|Rope (silk)|3|||rare|yes|yes|
+|Shovel|4|12|1|rare|yes|yes|
+|Miner's pick|6|24|1|rare|yes|yes|
+|||||||
+|Purse/Pouch|0.5|3|0.5|yes|yes|yes|
+|Sack|2|4|0.5|yes|yes|yes|
+|Small Backpack|3|40|2|yes|yes|yes|
+|Large Backpack|8|120|6|yes|yes|yes|
+|Blanket|4|60|3|yes|yes|yes|
+|Bedroll|8|96|5|yes|yes|yes|
+|Tent|12|120|6|yes|yes|yes|
+|Yurt|180|2200|110|yes|yes|yes|
+|||||||
+|Torch(10)|10|5|0.5|yes|yes|rare|
+|Lantern|1|18|1|rare|yes|yes|
+|Candle(4)|1|1|0.5|yes|yes|yes|
+|Lamp oil (fragrant), 1 gallon|10|10|1|yes|yes|yes|
+|Lamp oil (tallow), 1 gallon|10|5|0.5|yes|yes|rare|
 |||||||
 |||||||
-|||||||
+
+**Rope**: 60ft of rope that can be used for climbing, of tying off animals. This weights 6lb for hemp and 3lb for silk ropes. The durability is 4. Hemp ropes for rigging are four times heavier and cost four times as much. This rope can support 1000lb, or 300lb during a fall of 10ft or more without snapping. Every time the rope takes such a fall, it takes one point of damage.
+
+**Miner's Pick**: A heavy, durable pick used for breaking rocky ground or leveraging it apart. It is a necessary tool for using "fortify" to fortify or dig through rock/rocky ground. This kind of pick can be used as a weapon, but attack rolls with it are made at disadvantage. It deals 1d10 piercing damage and is wielded in two hands.
+
+**Shovel**: A sturdy shovel. "Fortify", "harvest" or "prospect" rolls which involve digging are made at disadvantage without a shovel. It can be used as a weapon (attack rolls are made at disadvantage), and deals 1d8 slashing damage.
+
+**Torch**: A length of wood, usually dipped in tar. When lit, a torch sheds bright light in 20ft, and dim light in 40ft. Its light can be seen within a mile. It will burn out within 30 minutes and will be blown out by extreme precipitation or extreme wind. Torches are ideal for setting things on fire.
+
+**Candle**: A wax candle. Made of bees' wax or tallow. A candle will shed dim light within 10ft. It will burn for 4 hours. Its light can be seen from ~800ft away. An unshielded candle will be blown out by severe wind or precipitation.
+
+**Lamp**: A glass or metal oil lamp, with a small reservoir for oil (no more than 1lb) and a wick. A lamp sheds bright light in 20ft and dim light in 40ft.
+
+**Small Backpack**: A sturdy backpack of cloth or leather that can carry up to 30lb, or a volume of 10 gallons, whatever is smallest. It leaves a traveller's hands free for other activities.
+
+**Large Backpack**: A sturdy backpack of cloth or leather, usually with a wooden frame. It can carry up to 90lb, or a volume of 30 gallons, whatever is smallest. It leaves a traveller's hands free for other activities.
+
+**Blanket**: A heavy woollen blanket big enough to wrap 2 medium sized humanoids. It gives a +2 on CON saves for resting in cold weather (where applicable).
+
+**Bedroll**: A complete sleeping set, complete with a thick felt/woollen sleeping matt and blanket. It gives a +4 on CON saves for resting in cold weather (where applicable).
+
+**Tent**: A tent of canvas and wood big enough for 6 medium sized humanoids. It gives a +2 to ameliorate rolls on terrain that is not swamp, dense forest, or steep slopes. It takes up 5x10ft and takes 30 minutes to assemble.
+
+**Yurt**: A portable dwelling construction of hides, cloth, wood and bone favoured by nomadic peoples. It counts as a dwelling and obviates the need for an ameliorate/fortify roll for camping (although it is still better to make one to fortify one's camp). A yurt takes up 15x15ft and takes 3 hours to assemble.
 
 ___
 ### Transport
@@ -365,7 +403,7 @@ ___
 |-|-|-|-|-|-|
 |Riding|480|-|yes|yes|yes|
 |Draught horse|60|-|yes|yes|yes|
-|Warhorse|4000-80000||yes|yes|yes|
+|Warhorse|4000-80000|-|yes|yes|yes|
 |||||||
 |Handcart|20|1|yes|yes|yes|
 |Cart|48|2.5|yes|yes|yes|
@@ -463,7 +501,7 @@ ___
 |Carpenter's tools|||yes|yes|yes|
 |Locksmith's tools|||no/rare|rare|yes|
 |Glassblower's tools|||yes|rare|yes|
-|Jeweler's tools|||yes|yes|yes|
+|Jeweller's tools|||yes|yes|yes|
 |Healer's kit|||yes|yes|yes|
 |Butcher's tool|||yes|yes|yes|
 |Herbalist's kit|||yes|yes|yes|

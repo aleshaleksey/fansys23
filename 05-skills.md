@@ -291,6 +291,9 @@ The skill is used for building structures, fortifying positions (dungeon corrido
   - Multiple entities can participate in the process, in which case the time taken is divided by the number of entities taking part. For each size category above medium, an entity counts as twice as many entities of the next category down. So a large entity counts as 2 medium entities, but a huge entity counts as 4 medium entities.
   - An entity can do a "rush job" and take half the time: -5 penalty.
 - **Special**: A character with terrain mastery has a +4 to "fortify" in that terrain.
+  - A pick is necessary to use "fortify" rolls that involve digging through rocky terrain.
+  - "fortify" rolls that involve digging through soft ground are made at disadvantage without a shovel or similar implement.
+  - A tent gives +2 to "fortify" when ameliorating a camp, a yurt obviates the need for such a roll. This does not apply in swamps, dense forests or on steep slopes. 
 - **Take care**: Yes.
 - **Try again**: Yes.
 
@@ -509,6 +512,7 @@ Harvest is the umbrella skill covering the harvesting of natural resources from 
   - The duration of the "harvesting" and the magnitude of success determine the yield of the harvest. Critical failure results in the damage to the tools used (or HP loss or injury if the tool was the character's body or spirit).
   - Exceeding the threshold by 5 allows to double the yield or half the time. Exceeding by 10 or more, allows both.
 - **Special**: A character with terrain mastery has a +4 to "harvest" in that terrain.
+  - "harvest" rolls that involve digging through soft ground are made at disadvantage without a shovel or similar implement.
 - **Take care**: Yes.
 - **Try again**: Yes.
 
@@ -569,6 +573,8 @@ This is a wide range of skills and methods that are used to reveal hidden detail
 - **Detect Tampering**: Determine that something has been tampered with or if there is something that is missing.
   - Threshold = Threshold of roll used to tamper.
 - **Special**: A character with terrain mastery has a +4 to "prospect" in that terrain.
+  - A pick is necessary to use "prospect" rolls that involve digging through rocky terrain.
+  - "prospect" rolls that involve digging through soft ground are made at disadvantage without a shovel or similar implement.
 - **Take care**: Yes.
 - **Try again**: Yes.
 

@@ -116,9 +116,9 @@ A character generally requires a suitable workspace and equipment. Particularly 
 
 ___
 ### Crafting Time
-For simplicity, the crafting time of an item in days (10 hour working day) is equal to: **[Base price (in sp)] / 20**
+For simplicity, the crafting time of an item in days (10 hour working day) is equal to: **[Material coefficient] x [Base price (in sp)] / 20**
 
-Alternatively, it can be measured in hours: **[Base price (in sp)] / 2**
+Alternatively, it can be measured in hours: **[Material coefficient] x [Base price (in sp)] / 2**
 
 If an item takes less than 10 hours to craft, then a character can craft it quicker, although no item can have a base crafting time of less than 2 hours. This is because preparing the materials and workspace always takes some time, no matter how trivial the task. 
 
@@ -141,17 +141,19 @@ In general, recommended material costs are as follows:
 |jewellery|**10sp x [quality mod] x [per item] x 2**|Assumed to use 1/60lb of material|
 |medicine, poison and alchemical goods|**10sp x [quality mod] x [number of doses] x 2**|Assumed to use 1/60lb of material|
 
+It should be noted that the costs are not set in stone. For example, the table of ["Common Goods"](12-equipment-economy.md#common-goods), gives much higher cost for rare and fantastic materials, as it assumes a society where they are nigh unattainable.
+
 ___
 ### Material Coefficients (quality mods) for items
 The cost of a material generally depends on the ["material level"](12-equipment-economy.md#material-level). This is not set in stone, but the recommended costs for non precious materials are:
 
-|Material level|Cost per lb|Included Quality mod|Examples|
-|-|-|-|-|
-|1|2sp|x1|bronze (the raw ores), hide, softwood*|
-|2|4sp|x2|iron, hardwood|
-|3|20sp|x9|Steel, Mithral, Ironwood|
-|4|130sp|x64|Demon Teeth, Dragon Hide, Adamantium|
-|5|1250sp|x625|???|
+|Material level|Cost per lb|Included Quality mod|Material Coefficient|Examples|
+|-|-|-|-|-|
+|1|2sp|x1|1|bronze (the raw ores), hide, softwood*|
+|2|4sp|x4|2|iron, hardwood|
+|3|20sp|x27|4|Steel, Mithral, Ironwood|
+|4|130sp|x256|12|Demon Teeth, Dragon Hide, Adamantium|
+|5|1250sp|x3125|108|???|
 
 It should be noted that this refers to materials of high enough quality and free enough of defects to be used to make weapons such as bows, staves, swords. Materials that are of construction quality are usually cheaper.
 

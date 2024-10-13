@@ -113,10 +113,10 @@ Availability, crafting time and price of higher level materials may be lower in 
 |Level|Attack bonus|Damage bonus|Armour bonus|Shield bonus|Typical cost|Crafting time|
 |-|-|-|-|-|-|-|
 |1|0|0|0|0|x1|x1|
-|2|+1|+1|+1|+1|x2|x2|
-|3|+2|+1|+2|+1|x9|x4|
-|4|+3|+2|+3|+2|x64|x12|
-|5|+4|+2|+4|+2|x625|x108|
+|2|+1|+1|+1|+1|x4|x2|
+|3|+2|+1|+2|+1|x27|x4|
+|4|+3|+2|+3|+2|x256|x12|
+|5|+4|+2|+4|+2|x3125|x108|
 
 #### Material table
 
@@ -343,9 +343,27 @@ ___
 |Firewood|20|0.5||
 |Charcoal|10|1||
 |||||
-|Fleece|4|-||
-|Common furs|10|-||
-|Rare furs|100|-||
+|Fleece|4|0.5||
+|Common furs|10|-|level I material|
+|Rare furs|100|-|level I material (rare)|
+|Superior furs|40|-|level II material|
+|||||
+|Iron Ingot|1|2|level II material (common)|
+|Steel Ingot|1|20|level III material (common)|
+|Bronze|1|10|level I material (rare)|
+|Silver Ingot|1|600|level I material (does not corrode, very rare)|
+|Gold Ingot|1|6000|level I material (does not corrode, precious)|
+|||||
+|Ironwood|1|27|level III material (iron, rare, wood)|
+|Mithral|1|1020|level III material (iron, rare, does not corrode, light)|
+|Adamantium|1|1280|level IV material (iron, indestructible)|
+|Infernal Iron|1|2560|level IV material (iron, rare)|
+|Dragon Scale|1|25K|level IV material (hide, rare)|
+|Divine fleece|2|160K|level V material (fleece, precious, light)|
+|||||
+
+**NB**: The prices for fantastic materials are speculative. Especially in connection with the difficulty of obtaining rare, high level materials, it is more common for adventurers to obtain them by prospecting/harvesting them from the source, as rewards for great quests, or through dubious means. It should not be surprising that materials sourced from legendary creatures, or the realm of the gods would be more than worth their weight in gold. It also makes ownership of arms and armour made of such materials extremely dangerous for those who cannot handle themselves, or afford sufficient protection, as it paints an instant target on their backs.
+
 
 ___
 ### Adventuring Gear

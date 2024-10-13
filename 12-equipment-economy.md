@@ -440,11 +440,12 @@ ___
 ### Beasts and Slaves
 |Item|Cost (sp)|crafting/rearing days|"ancient"|"medieval"|"late"|
 |-|-|-|-|-|-|
-|8 chickens|1||rare|yes|yes|
-|Sheep|12||yes|yes|yes|
-|Pig|40||yes|yes|yes|
-|Cow|150||yes|yes|yes|
-|Ox|170||yes|yes|yes|
+|8 chickens|1|5 months|rare|yes|yes|
+|Sheep|12|6 months|yes|yes|yes|
+|Goat|12|15 months|yes|yes|yes|
+|Pig|40|8 months|yes|yes|yes|
+|Cow|150|18 months|yes|yes|yes|
+|Ox|170|2 years|yes|yes|yes|
 |||||||
 |Swarm of bees|16||yes|yes|yes|
 |Hive of bees|48||yes|yes|yes|
@@ -458,9 +459,9 @@ ___
 |Untrained dog|240||yes|yes|yes|
 |Hunting dog|480||yes|yes|yes|
 |||||||
-|Riding|480||yes|yes|yes|
-|Draught horse|60||yes|yes|yes|
-|Warhorse|4000-80000||yes|yes|yes|
+|Riding|480|3 years to rear, 1 to train|yes|yes|yes|
+|Draught horse|60|3 years to rear, 1 to train|yes|yes|yes|
+|Warhorse|4000-80000|3 years to rear, 3 to train|yes|yes|yes|
 |||||||
 |Humanoid Slave (lvl-1)|400||yes|yes|rare|
 |Humanoid Slave, Trained (lvl-3)|3600||yes|yes|rare|

@@ -3598,15 +3598,14 @@ ___
     - [Least Hydromancy](#least-hydromancy)
     - [Mist](#mist)
 - Incantation
-    - [Least Anemancy](#least-anemancy)
     - [Down](#down)
-    - [Least Blast](#least-blast)
+    - [Least Anemancy](#least-anemancy)
     - [Least Geomancy](#least-geomancy)
-    - [Least Ward](#least-ward)
     - [Least Hydromancy](#least-hydromancy)
     - [Least Pyromancy](#least-pyromancy)
-    - [Ignition](#ignition)
     - [Least Spike](#least-spike)
+    - [Least Ward](#least-ward)
+    - [Sour](#sour)
 - Kinetic
     - [Compass](#compass)
     - [Deafen](#deafen)

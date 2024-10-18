@@ -150,6 +150,65 @@ A mudcrawler has a crab-like carapace that covers a flattened round body of 1-2f
 Young mud-crawlers hide beneath the soft mud of lake beds and other waterlogged wetlands, and listen for vibrations. When potential prey passes overhead, the death-crawlers emerge from the ground and attack their pray en mass, stabbing it with their claw, and once it stops moving, it attaches and devours it, injecting its digestive juices into the victim. mud crawlers, being creatures prefer humanoid victims. Every so often, a colony of mudcrawler matures.
 
 ___
+### Fell Beast
+|Level|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|-|
+|1 (young:medium)|11/9/11|7|4|2|40ft|climb(20ft)|
+|4 (adult:large)|13/13/9|23|11|7|50ft|-|
+|7 (great:huge)|15/16/9|54|21|13|60ft|Swim(30ft)|
+
+Adult fell beasts have a natural armour of +2, great have a natural armour of +4
+
+|Young|Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|13|12|12|4|10|10|
+|Bonus|+1|+1|+1|-3|0|0|
+|Save|+2|+2|+2|-2|+1|+1|
+
+|Adult|Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|16|10|16|7|12|12|
+|Bonus|+3|0|+3|-2|+1|0|
+|Save|+4|+1|+4|-1|+2|+1|
+
+|Great|Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|20|10|18|9|15|14|
+|Bonus|+5|0|+4|-1|+2|+1|
+|Save|+7|+2|+6|+1|+4|+3|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|1(1)|3|2|1|1|2|2|
+|4(1)|7|4|2|1|3|2|
+|7(2)|13|7|3|2|5|4|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite (young)|+3|1d6+1 [Shear]||
+|Claws (young)|+3|1d4+1[Shear]|Threshold=14 CON or -2 to Str, on 1, paralysed, non lethal.|
+|Bite (adult)|+7|2d6+3[Shear]||
+|Claws (adult)|+7|2d4+3|Threshold=17 CON or -2 to Str, on 1, paralysed, non lethal.|
+|Stinger (adult)|+7|1d12+3|Threshold=17 CON, repeated 3 times. 1. no effect, 2. restrained, 3.paralysed, saving once stops progression, reverts after next round|
+|Bite (great)|+10|3d6+5[shear]||
+|Claws (great)|+10|3d4+5[shear]|Threshold=19 CON or -2 to Str, on 1, paralysed, non lethal.|
+|Stinger (great)|+10|1d12+5|Threshold=19, repeated 3 times. 1. no effect, 2. restrained, 3.paralysed, saving once stops progression, reverts after next round|
+|Monster attack (adult)|||The fell beast makes one attack with its claws, one with its bite, and one with its tail|
+|Monster attack (great)|||The fell beast makes two attacks with its claws, one with its bite, and one with its tail|
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+
+Fell beasts are predatory monsters that roam hilly and mountainous terrain. They prefer humanoid flesh, but will settle with animals, and in poor times even plants and other monsters.
+
+Fell beasts have four limbs, all with sharp claws, as well as powerful jaws. Adults have a venomous sting with a poison that gradually paralyses its victim. Not being particularly stealthy, they stalk their pray until nightfall, or when it enters narrow ravines and wooded groves, at which point they attack, generally in packs of 2-12.
+
+Young fell beasts prefer to use trees and cliffs to their advantage, leaping onto prey from unexpected angles, while elder fell beasts, becoming heavy, prefer waterways.
+
+___
 ### Troll Head
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|

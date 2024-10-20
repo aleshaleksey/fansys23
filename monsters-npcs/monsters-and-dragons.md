@@ -192,21 +192,25 @@ Adult fell beasts have a natural armour of +2, great have a natural armour of +4
 |Stinger (adult)|+7|1d12+3|Threshold=17 CON, repeated 3 times. 1. no effect, 2. restrained, 3.paralysed, saving once stops progression, reverts after next round|
 |Bite (great)|+10|3d6+5[shear]||
 |Claws (great)|+10|3d4+5[shear]|Threshold=19 CON or -2 to Str, on 1, paralysed, non lethal.|
-|Stinger (great)|+10|1d12+5|Threshold=19, repeated 3 times. 1. no effect, 2. restrained, 3.paralysed, saving once stops progression, reverts after next round|
+|Stinger (great)|+10|1d12+5|Threshold=19, repeated 3 times. 1. no effect, 2. restrained, 3.paralysed, saving once stops progression, reverts after next roundда.|
 |Monster attack (adult)|||The fell beast makes one attack with its claws, one with its bite, and one with its tail|
 |Monster attack (great)|||The fell beast makes two attacks with its claws, one with its bite, and one with its tail|
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
+|Senses|||Normal, Low-light vision, Keen Smell|
+|Skills (young)|||"Track +2", "Navigate -2", "Climb +2", "Observe +1"|
+|Abilities (young)|||Tracker: Fast Search|
+|Skills (adult)|||"Track +5", "Navigate 0", "Climb +6", "Fortify: +6", "Observer +3", "Athletics +4"|
+|Abilities (adult)|||Tracker: Persistent Fast Search|
+|Skills (great)|||"Track +8", "Navigate +5", "Climb +9", "Fortify: +11", "Observer +6", "Athletics +11", "Stealth +8", "Geography +3"|
+|Abilities (great)|||Tracker: Swift, Persistent, Fast Search|
+|Resistances (great)|||Piercing, Shear|
 
 Fell beasts are predatory monsters that roam hilly and mountainous terrain. They prefer humanoid flesh, but will settle with animals, and in poor times even plants and other monsters.
 
 Fell beasts have four limbs, all with sharp claws, as well as powerful jaws. Adults have a venomous sting with a poison that gradually paralyses its victim. Not being particularly stealthy, they stalk their pray until nightfall, or when it enters narrow ravines and wooded groves, at which point they attack, generally in packs of 2-12.
 
-Young fell beasts prefer to use trees and cliffs to their advantage, leaping onto prey from unexpected angles, while elder fell beasts, becoming heavy, prefer waterways.
+Young fell beasts prefer to use trees and cliffs to their advantage, leaping onto prey from unexpected angles, while elder fell beasts, becoming heavy, prefer waterways. With age, the hide of a fell beast becomes thick enough to resist spears, arrows, claws and fangs.
+
+Fell beasts easily navigate complex terrain and have been known to track their prey for weeks.
 
 ___
 ### Troll Head

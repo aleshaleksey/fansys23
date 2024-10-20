@@ -923,7 +923,6 @@ ___
 |Components|incantation, kinetic|
 |Focus|A black pearl|
 |Material|-|
-|Limitation||
 |Condition|Catatonic|
 |Save|Cha (avoid effects), Wis(avoid condition)|
 
@@ -1229,33 +1228,6 @@ ___
 **Global**: The spell affects an area with a radius of 100ft and lasts for a week. For every 4 extra MP dice used the radius increases by 100ft, or the duration increases by a week.
 
 ___
-### Wind Step
-|Name|Wind Step [Air, Travel]|
-|-|-|
-|Scope|Local|
-|MP Dice|2+|
-|Target(s)|1 entity|
-|Casting time|1 Main action (special)|
-|Range|Close|
-|Duration|Instantaneous|
-|Components|Incantation|+1
-|Limitation|Destination must be within line of sight of caster|-2
-|Limitation|Destination and target must not be hermetically isolated|-2
-|Limitation|Destination must not be aligned with elemental "earth"|-1
-|Save|CHA|
-
-**Description**: The caster, or one target entity within its reach, blinks instantly to a point it can see, within a distance of its local walk speed or 30ft (whichever is greater). An unwilling target may negate the spell with a successful CHA save.
-
-**Limitation**: The location the target can blink to must be:
-- In line of sight of the caster.
-- Not hermetically isolated from the caster.
-- Not aligned with "earth"
-
-**Upcast**: For every extra MP, the caster may either:
-- Reduce the casting time to  1 Secondary action.
-- Extend the blink distance by 30ft.
-
-___
 ### Summon Flame Sprite
 |Name|Summon Flame Sprite [Fire, Spiritual]|
 |-|-|
@@ -1440,6 +1412,33 @@ ___
 **Upcast**: For every extra MP dice, either, increase the duration by 8 hours, the area by 5ft, or add an extra entity type.
 
 **Global**: The spell radius is 400ft. It lasts for a month. For every 4MP extra either the duration increases by a month or the radius extends by 100ft. An extra entity type is automatically added for every 4MP extra. 
+
+___
+### Wind Step
+|Name|Wind Step [Air, Travel]|
+|-|-|
+|Scope|Local|
+|MP Dice|2+|
+|Target(s)|1 entity|
+|Casting time|1 Main action (special)|
+|Range|Close|
+|Duration|Instantaneous|
+|Components|Incantation|+1
+|Limitation|Destination must be within line of sight of caster|-2
+|Limitation|Destination and target must not be hermetically isolated|-2
+|Limitation|Destination must not be aligned with elemental "earth"|-1
+|Save|CHA|
+
+**Description**: The caster, or one target entity within its reach, blinks instantly to a point it can see, within a distance of its local walk speed or 30ft (whichever is greater). An unwilling target may negate the spell with a successful CHA save.
+
+**Limitation**: The location the target can blink to must be:
+- In line of sight of the caster.
+- Not hermetically isolated from the caster.
+- Not aligned with "earth"
+
+**Upcast**: For every extra MP, the caster may either:
+- Reduce the casting time to  1 Secondary action.
+- Extend the blink distance by 30ft.
 
 ___
 ## MP 3 spells
@@ -1844,7 +1843,7 @@ ___
 |Casting time|"1 full round action" (6 hours)|-1
 |Range|120ft (close)|+3
 |Duration|12 minutes|+3
-|Components|incantation. kinetic| -1
+|Components|incantation, kinetic| -1
 |Limitation|An entity that does not sleep is unaffected by this spell|-1
 |Limitation|An entity can be awoken using a main action to deal 1 point of HP damage to it|-1
 |Damage|Special|-1
@@ -3693,9 +3692,12 @@ ___
 - Incantation
     - [Least Rest](#least-rest)
     - [Lesser Veil](#lesser-veil)
+    - [Lesser Xenophonia](#lesser-xenophonia)
     - [Meadow of Flame](#meadow-of-flame)
+    - [Natural Xenophonia](#natural-xenophonia)
     - [Promise](#promise)
     - [Trace Secret Path](#trace-secret-path)
+    - [Wind Step](#wind-step)
 - Kinetic
     - [Call Ailment](#call-ailment)
     - [Earthen Hand](#earthen-hand)
@@ -3786,6 +3788,7 @@ ___
 - Incantation
     - [Balance of Elements](#balance-of-elements)
     - [Balance of Nature](#balance-of-nature)
+    - [Greater Xenophonia](#greater-xenophonia)
     - [Least Weather Control](#lesser-weather-control)
     - [Speak Through Flame](#speak-through-flame)
     - [Summon Spirit](#summon-spirit)
@@ -3793,9 +3796,9 @@ ___
     - [Aqueous Step](#aqueous-step)
     - [Bestial Transformation](#bestial-transformation)
     - [Gift of the Fates](#gift-of-the-fates)
+    - [Lesser Incarnation](#lesser-incarnation)
     - [Mirage](#mirage)
     - [Scry](#scry)
-    - [Lesser Incarnation](#lesser-incarnation)
 
 - Other
 
@@ -3836,7 +3839,7 @@ ___
     - []()
 - Kinetic
     - [Flame Stride](#flame-stride)
-    - []()
+    - [Plague](#plague)
     - []()
     - []()
     - []()

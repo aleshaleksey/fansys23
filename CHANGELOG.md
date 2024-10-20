@@ -148,3 +148,21 @@ _____
 - Add riposte.
 - Fix wording on aphonic, still and lingering spells.
 - Add "bard song", "spellsong", "guarded" (vs AoOs).
+
+____
+## From v0.0.7
+
+### General
+- Improve wording and spell list format check.
+- Add crafting rules.
+- Add basic enchanting rules.
+- Improve section on equipment and economy.
+
+### Combat
+
+### Races
+
+### Spells
+
+### Abilities
+- Alter "Berserk" to bea little less penalising on HP when you overrun it.

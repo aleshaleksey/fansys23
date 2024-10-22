@@ -1037,9 +1037,9 @@ ___
 **Prerequisite table**: This ability can be taken more than once. Each time, the minimum "base" and SP dice requirements must be met.
 |Number of attacks|Minimum Base|Minimum SP dice|Ability name|
 |-|-|-|-|
-|2|1|14|Multi-attack I|
-|3|2|28|Multi-attack II|
-|4|4|49|Multi-attack III|
+|2|1|13|Multi-attack I|
+|3|2|25|Multi-attack II|
+|4|4|39|Multi-attack III|
 
 **Limitations**: Multi-attack can NEVER be applied to supernatural abilities or spells.
 

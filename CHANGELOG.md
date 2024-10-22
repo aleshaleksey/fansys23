@@ -166,3 +166,4 @@ ____
 
 ### Abilities
 - Alter "Berserk" to bea little less penalising on HP when you overrun it.
+- Lower prerequisites on multiattack, as it is crazy high. (It needs to be high, but no that high.)

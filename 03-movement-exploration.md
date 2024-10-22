@@ -94,7 +94,7 @@ Entities with a swim speed are often well adapted to their liquid medium, but ar
 
 
 ### Digging
-Moving through solid earth is a slow and difficult process. Moving through rock is often impossible even for diggers. Tunnelling entities are not slowed by narrow passages. Natural speeds are 5-10ft. Unless otherwise stated Digging entities cannot dig through solid rock (natural or worked), or metal.
+Moving through solid earth is a slow and difficult process. Moving through rock is often impossible even for diggers. Entities with a dig speed are not slowed by narrow passages. Natural speeds are 5-10ft. Unless otherwise stated Digging entities cannot dig through solid rock (natural or worked), or metal.
 - **Non-diggers**: entities that cannot move through earth, sand, or rock.
 - **Run, Sprint**: Digging entities cannot run or sprint when digging.
 - **Load**: Digging entities cannot dig with more than a medium load.

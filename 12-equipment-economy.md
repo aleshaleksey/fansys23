@@ -436,7 +436,7 @@ ___
 |Sailing ship (small)|4800|92|yes|yes|yes|
 |Sailing ship (carrack)|12600|92|no|yes|yes|
 
-**Cart**: A light, two or four wheeled wooden cart, usually without an awning. Typically a cart is 5x10ft long and can house 8 passengers and 2 drivers, transporting up to 4000lb, but no more than the drag weight of the beasts of burden pulling it. Carts can typically travel on, and off, road. The speed of a wagon is 30ft on road and 20ft off road. A wagon cannot traverse difficult terrain.
+**Cart**: A light, two or four wheeled wooden cart, usually without an awning. Typically a cart is 5x10ft long and can house 8 passengers and 2 drivers, transporting up to 4000lb, but no more than the drag weight of the beasts of burden pulling it. Carts can typically travel on, and off, road. The speed of a wagon is 30ft on road and 20ft off road. A cart can traverse difficult terrain at 5ft per round.
 
 **Wagon**: A heavy, four wheeled cart, usually with an awning. A wagon typically is 5x15ft in length, 10ft in height and can house 12 passengers and 2 drivers, transporting up to 8000lb, but no more than the drag weight of the beasts of burden pulling it. Wagons can typically travel on, and off, road. The speed of a wagon is 25ft on road and 15ft off road. A wagon cannot traverse difficult terrain.
 

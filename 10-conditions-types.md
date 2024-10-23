@@ -437,7 +437,7 @@ An entity afflicted by conditions that make it unable to engage in physical comb
 
 ### Conditions by Damage Type
 
-When an entity loses HP (but *NOT* MP or SP) due to a named damage type, it makes a CON save or suffers a random condition associated with the damage type.
+When an entity loses HP (but *NOT* MP or SP) due to a named damage type, it may gain one of the following damage types. If it meets the condition, it rolls a d6, and the condition is determined by the roll
 
 ||1|2|3|4|5|6|
 |-|-|-|-|-|-|-|

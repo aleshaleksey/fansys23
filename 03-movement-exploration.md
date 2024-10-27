@@ -49,10 +49,11 @@ How much a character can carry is determined by its Str and its size. As a chara
 
 - Light load or lighter loads give no penalty.
 - Light to Medium loads give the following penalties.
-  - Walk speed: -5ft. Dig, climb speed: -10ft.
+  - Walk, dig speed: -5ft. Climb speed: -10ft, Swim speed: -15ft.
   - All Str, Con, Dex based rolls, attacks and saves: -2
 - Medium to Heavy load give the following penalties.
-  - Walk speed: Halved. Climb speed is halved.
+  - Walk, climb are halved.
+  - Dig and swim speed is reduced to 0.
   - All Str, Con, Dex based rolls, attacks and saves: -6
   - Maximum durations for walking (marching), running and sprinting before Con saves have to be made, is halved.
 
@@ -91,6 +92,7 @@ Climbing is upwards or downwards movement over steep or near vertical terrain. E
 Entities with a swim speed are often well adapted to their liquid medium, but are either incapable of moving on land or very clumsy. Entities with a swim speed typically have speeds of 60-120ft and can perform "walk", "run" and "sprint" actions in their liquid medium (usually water).
 - **Not Swimmers:** Entities without a swim speed either do not swim at all (they sink), or are poor swimmers and can only move at 1/2 base speed (no "run" or "sprint" possible) and must make a [SKILL] or [ABILITY] check or start drowning/sinking if conditions are not ideal.
 - **Difficult terrain**: Turbulent waters or strong currents, kelp beds and thick syrup are examples of difficult terrain.
+- **Load**: An entity with a medium load or more have their swim speed reduced to 0. Entities that exceed their heavy load threshold when swimming sink. 
 
 
 ### Digging

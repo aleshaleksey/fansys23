@@ -157,6 +157,8 @@ ____
 - Add crafting rules.
 - Add basic enchanting rules.
 - Improve section on equipment and economy.
+- Reduce penalties for digging with a light load. Increase penalties for climbing with a light load.
+- Swim, dig, climb above medium is now no.
 
 ### Combat
 

@@ -242,10 +242,10 @@ ___
 |Number of Manoeuvres combined|SP dice total|Ability name|
 |-|-|-|
 |2|6|Combined Manoeuvre I|
-|3|13|Combined Manoeuvre II|
-|4|25|Combined Manoeuvre III|
-|5|37|Combined Manoeuvre IV|
-|6|48|Combined Manoeuvre V|
+|3|12|Combined Manoeuvre II|
+|4|20|Combined Manoeuvre III|
+|5|30|Combined Manoeuvre IV|
+|6|42|Combined Manoeuvre V|
 
 **Original state**: A character must pick a single manoeuvre when making an attack.
 
@@ -299,10 +299,10 @@ ___
 |Throw distance |SP dice total|Ability name|
 |-|-|-|
 |15|6|Far Throw I|
-|20|13|Far Throw II|
-|25|25|Far Throw III|
-|30|37|Far Throw IV|
-|35|48|Far Throw V|
+|20|12|Far Throw II|
+|25|20|Far Throw III|
+|30|30|Far Throw IV|
+|35|42|Far Throw V|
 
 **Original state**: The "throw" manoeuvre moves tha target 10ft + 5ft x size advantages.
 
@@ -328,10 +328,10 @@ ___
 |Size difference|SP dice total|Ability name|
 |-|-|-|
 |3|6|Greater Manoeuvre I|
-|4|13|Greater Manoeuvre II|
-|5|25|Greater Manoeuvre III|
-|6|37|Greater Manoeuvre IV|
-|7|48|Greater Manoeuvre V|
+|4|12|Greater Manoeuvre II|
+|5|20|Greater Manoeuvre III|
+|6|30|Greater Manoeuvre IV|
+|7|42|Greater Manoeuvre V|
 
 **Original state**: The above manoeuvres do not work on targets more than two categories larger than yourself.
 
@@ -920,12 +920,12 @@ There are several forms of spellcasting in this category, but they all have simi
 |II|2|6|3|
 |III|3|9|5|
 |IV|4|12|7|
-|V|5|20|9|
-|VI|6|24|11|
-|VII|7|28|13|
-|VIII|8|32|15|
-|IX|9|36|17|
-|X|10|40|19|
+|V|5|16|9|
+|VI|6|20|11|
+|VII|7|24|13|
+|VIII|8|28|15|
+|IX|9|32|17|
+|X|10|36|19|
 
 ___
 #### Spellcasting: Global
@@ -947,12 +947,12 @@ So for example, to cast global 7th level Nature magic, a character must have eit
 |II|6|6|3|
 |III|9|9|5|
 |IV|12|12|7|
-|V|15|20|9|
-|VI|18|24|11|
-|VII|21|28|13|
-|VIII|24|32|15|
-|IX|27|36|17|
-|X|30|40|19|
+|V|15|16|9|
+|VI|18|20|11|
+|VII|21|24|13|
+|VIII|24|28|15|
+|IX|27|32|17|
+|X|30|36|19|
 
 ___
 ## Boons
@@ -1183,14 +1183,14 @@ ___
 |Dice|SP dice total|Ability name|
 |-|-|-|
 |1d4|3|Unarmed Strike I|
-|1d6|8|Unarmed Strike II|
-|1d8|13|Unarmed Strike III|
-|2d4|18|Unarmed Strike IV|
-|1d10|23|Unarmed Strike V|
-|2d6|29|Unarmed Strike VI|
-|2d8|35|Unarmed Strike VII|
-|2d10|42|Unarmed Strike VIII|
-|2d12|49|Unarmed Strike IX|
+|1d6|6|Unarmed Strike II|
+|1d8|10|Unarmed Strike III|
+|2d4|14|Unarmed Strike IV|
+|1d10|18|Unarmed Strike V|
+|2d6|22|Unarmed Strike VI|
+|2d8|26|Unarmed Strike VII|
+|2d10|30|Unarmed Strike VIII|
+|2d12|34|Unarmed Strike IX|
 
 **Warning**: If it is damage you seek, this is not the ideal ability. It does however guarantee the ability to do a good amount of damage even when you don't have your big stick handy.
 

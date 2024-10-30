@@ -437,7 +437,7 @@ ___
 
 **Type**: C-A, natural.
 
-**Description**: Use song, oratory or instrumental skills to strongly influence emotions of listeners, hence providing a boon, such as warding off negative conditions (resistance), or gaining advantage on a single roll.
+**Description**: Use song, oratory or instrumental skills to strongly influence emotions of listeners, hence providing a boon, such as warding off negative conditions (resistance), and, at higher levels of the ability, gaining advantage on a single roll.
 
 **Action**: Declare bard song as a "secondary action" and expend 1 SP dice, make a ["perform"](05-skills.md#perform) roll to determine range (see below). Each subsequent turn use a "secondary action" to maintain bard song and reroll "perform" (no additional expenditure of SP is required). The song can be maintained for a number of rounds equal to your Con score.
 

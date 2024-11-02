@@ -1363,7 +1363,7 @@ ___
 |-|-|-|-|
 |I|8|2|-|
 |II|16|3|Keen Senses I|
-|III|24|4|Keen Senses II|
+|III|24|4|Keen Senses II?|
 
 **Special**: "Keen senses" is a "supernatural" boon when taken with level points, but can be natural as part of a template or monster block.
 

@@ -340,7 +340,7 @@ The base template allows the following:
 - Speed increase to climb, walk, or swim speed by 5ft.
   - A single template level can increase climb, walk or swim speeds by no more than 15ft.
 - Remove the "ageing" necessity.
-- Gain one of the following senses: "Keen senses: Smell", "Keen senses: Hearing").
+- Gain one of the following senses: "Keen senses: Smell", "Keen senses: Hearing".
 
 
 #### Two template points:
@@ -363,6 +363,8 @@ The base template allows the following:
 - A passive or active (B class) ability with no prerequisites.
 - Remove a necessity (drink or eat).
 - A 60ft (rating: poor) fly speed. Characters that pick this option have a -10ft speed penalty to their climb, walk and swim speeds.
+- A 5ft dig speed. Characters that pick this option have a -10ft speed penalty to their climb, walk and swim speeds.
+- Improve dig speed by 5ft from 5f->10ft.
 
 #### Four template points:
 - Resistance to an A or S class damage type + advantage vs one B or C class condition.
@@ -373,7 +375,7 @@ The base template allows the following:
   - A template may grant only 2 condition resistances or immunities per template level.
 - A 5ft dig speed. Characters that pick this option have a -10ft speed penalty to their climb, walk and swim speeds.
 - Improve fly speed rating from "average" -> "good".
-- Improve dig speed by 5ft.
+- Improve dig speed by 5ft from 10ft or higher.
 - A passive or active (B class) ability with no prerequisites.
 - Gain one of the following senses: "Tremor Sense", "Blindsight".
   - When this enhancement is a graded ability (eg "[Tremor Sense](06-abilities.md#tremor-sense-i-v")), it is always taken at 2nd level (eg "Tremor Sense II"). In this case increasing it by a further level costs a single point.

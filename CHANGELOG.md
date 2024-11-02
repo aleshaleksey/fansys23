@@ -165,9 +165,11 @@ ____
 - Add total defence actions.
 
 ### Races
+- Reduce dig speed cost and first 5ft speed increment in dig each to 3 template points.
 
 ### Spells
 
 ### Abilities
-- Alter "Berserk" to bea little less penalising on HP when you overrun it.
-- Lower prerequisites on multiattack, as it is crazy high. (It needs to be high, but no that high.)
+- Alter "Berserk" to be a little less penalising on HP when you overrun it.
+- Lower prerequisites on multi-attack, as it is crazy high. (It needs to be high, but no that high.)
+- Likewise lower prerequisites on a few other abilities.

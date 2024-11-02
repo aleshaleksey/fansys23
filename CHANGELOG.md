@@ -159,8 +159,10 @@ ____
 - Improve section on equipment and economy.
 - Reduce penalties for digging with a light load. Increase penalties for climbing with a light load.
 - Swim, dig, climb above medium is now no.
+- Restore CON vs [CON] definitions (score vs mod) terminology.
 
 ### Combat
+- Add total defence actions.
 
 ### Races
 

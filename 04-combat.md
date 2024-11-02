@@ -202,10 +202,10 @@ The actions an entity may take might also be restricted by its conditions and ge
 For more information on movement, see "[Movement and Exploration](03-movement-exploration.md)". In addition, there are more movement rules below.
 
 #### Total Defence: Dodge
-A combatant may declare "total defence: dodge" and expend their "main action", "secondary action" and "reaction", hence gaining +5 to  HiT (evasion), DEX saves and Thresholds vs the following combat manoeuvres: "grapple", "shove", "throw", "trip", "disarm" and "sunder", until the start of their next turn.
+A combatant may declare "total defence: dodge" and expend their "main action", "secondary action" and "reaction", hence gaining [3 + Base] to  HiT (evasion), DEX saves and Thresholds vs the following combat manoeuvres: "grapple", "shove", "throw", "trip", "disarm" and "sunder", until the start of their next turn.
 
 #### Total Defence: Shield
-A combatant may declare "total defence; shield" and expend their "main action", "secondary action" and "reaction", hence gaining +5  to  HiT (shield), STR saves and Thresholds vs the following combat manoeuvres: "restrain", "shove", "throw", "trip", "disarm" and "sunder", until the start of their next turn.
+A combatant may declare "total defence; shield" and expend their "main action", "secondary action" and "reaction", hence gaining [3 + Base]  to  HiT (shield), STR saves and Thresholds vs the following combat manoeuvres: "restrain", "shove", "throw", "trip", "disarm" and "sunder", until the start of their next turn.
 
 ___
 ## Surprise and Ambush

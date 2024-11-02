@@ -217,7 +217,7 @@ A character has certain attributes that are inherent to it and are not easily ch
 
 All player characters have one. This is an abstract measure of experience and the power that is derived from it.
 
-#### Leveling up
+#### Levelling up
 
 Every time a character levels up it gains:
 
@@ -277,6 +277,8 @@ A character has six **base attributes**. Each one represents how "strong" some a
     - An entity with zero Wis has no awareness of internal or external realities. It is essentially unconscious.
 6. **Cha**: Force of Personality, pluck, mental resilience. Upstream of HP, MP, aspects of social interactions.
     - An entity with zeo Cha has no will, drive or "spirit". It is generally catatonic. If not, it might obey any instructions it receives to the letter. Such entities are not affected by "spiritual" weapons.
+
+When an ability is written *without* square brackets, for example "Con" or "CON", we are referring to the raw stat, which is likely to be between 5 and 24+. If it is written *with* square brackets, for example "[Con]" or "[CON]", it is referring to the modifier, which is typically between -4 and 8+.
 
 #### Stat assignment
 

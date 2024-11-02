@@ -191,7 +191,6 @@ The actions an entity may take might also be restricted by its conditions and ge
 - "**Non-action**": Entities also carry out certain activities autonomously as part of their existence. These do not usually require actions (eg breathing). Concentrating is also a non-action.
 
 #### Movement Summary
-
 |Action name|Move distance|Action Cost|Special|Time to fatigue|
 |-|-|-|-|-|
 |Move|1x speed|"move action"|-|10+ hours|
@@ -201,6 +200,12 @@ The actions an entity may take might also be restricted by its conditions and ge
 1. A character that sprints must move in a straight line with no obstacles and can take no other action on its round.
 
 For more information on movement, see "[Movement and Exploration](03-movement-exploration.md)". In addition, there are more movement rules below.
+
+#### Total Defence: Dodge
+A combatant may declare "total defence: dodge" and expend their "main action", "secondary action" and "reaction", hence gaining +5 to  HiT (evasion), DEX saves and Thresholds vs the following combat manoeuvres: "grapple", "shove", "throw", "trip", "disarm" and "sunder", until the start of their next turn.
+
+#### Total Defence: Shield
+A combatant may declare "total defence; shield" and expend their "main action", "secondary action" and "reaction", hence gaining +5  to  HiT (shield), STR saves and Thresholds vs the following combat manoeuvres: "restrain", "shove", "throw", "trip", "disarm" and "sunder", until the start of their next turn.
 
 ___
 ## Surprise and Ambush
@@ -538,6 +543,9 @@ This table covers the typical action economy costs of various actions. It should
 |Use "multi-attack" to make several attacks or use several combat manoeuvre|"main action"|
 |Dispel|"main action"|
 |||
+|"full defence: dodge"|"main action" + secondary action" + "reaction"|
+|"full defence: shield"|"main action" + secondary action" + "reaction"|
+|||
 |"Tinker" to pick lock or disable device with -10 penalty|"full round action"|
 |"Appraise" item|"full round action"|
 |"Navigate" to orientate oneself|"full round action"|
@@ -609,6 +617,8 @@ This table covers the typical action economy costs of various actions. It should
 |Making a single melee attack or using a combat manoeuvre in response to a stimulus|"reaction"|
 |Unprepared parry declared ad-hoc (1 parry)|"reaction"|
 |Prepared parry declared on your turn ([1 + multi-attack level] parries)|"reaction"|
+|"full defence: dodge"|"main action" + secondary action" + "reaction"|
+|"full defence: shield"|"main action" + secondary action" + "reaction"|
 |||
 |Uncork a vial before using/administering th content|"minor interaction"|
 |Drink a potion yourself|"secondary action"|

@@ -232,7 +232,7 @@ ___
 |Segmented Mail|60|600|30|no|yes|yes/rare|
 |Half Plate|60|1200|60|no|yes|yes/rare|
 |Full Plate|65|1920|96|no|yes|yes/rare|
-|Buckler|2||1|yes|yes|yes|
+|Buckler|2|40|1|yes|yes|yes|
 |Small Shield|6|48|2.5|yes|yes|yes|
 |Large Shield|10|90|5|yes|yes|rare|
 |Tower Shield|20|120|6|yes|yes|rare|

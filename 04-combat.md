@@ -375,7 +375,7 @@ The "Grapple", "Restrain", "Shove", "Throw" and "Trip" manoeuvres can only be us
   - Requires attack roll vs target's NAT+[Str or Dex].
   - Penalty if not proficient with **throws**.
   - Special: For every size category that you are larger than your target, increase the maximum distance by 5ft.
-- **Throw**: A different flavour of shove and uses the same proficiency
+- **Throw**: A different flavour of shove and uses the same proficiency.
 - **Trip**: This is also a different flavour of "shove" and uses the same proficiency.
   - Effect: Knock a foe prone.
   - Requires attack roll vs target's NAT+[Dex].

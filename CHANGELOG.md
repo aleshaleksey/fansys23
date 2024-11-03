@@ -160,6 +160,7 @@ ____
 - Reduce penalties for digging with a light load. Increase penalties for climbing with a light load.
 - Swim, dig, climb above medium is now no.
 - Restore CON vs [CON] definitions (score vs mod) terminology.
+- Clarify what elemental alignment is.
 
 ### Combat
 - Add total defence actions.
@@ -168,6 +169,9 @@ ____
 - Reduce dig speed cost and first 5ft speed increment in dig each to 3 template points.
 
 ### Spells
+- Clarify that EXTRA in upcasting means EXTRA ABOVE THE MINIMAL cost of the spell.
+- Write a limitation section to better explain what limitation by alignment means.
+- Better word wind-step, increasing its range (60ft), but limiting some aspects of its more abusive functionality (only teleport unwilling targets 30ft, advantage on saves vs harmful transportations).
 
 ### Abilities
 - Alter "Berserk" to be a little less penalising on HP when you overrun it.

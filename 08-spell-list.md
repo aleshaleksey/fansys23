@@ -514,7 +514,7 @@ ___
 
 **Description**: The target grows sturdy claws on all appendages, potentially damaging footwear. The target gains a climb speed (30ft). The claws can also be used as a weapon with a Str/Dex based attack, dealing [1d4 + [Str/Dex]] damage and using "strike"/"light blade" proficiency group.
 
-**Upcast**: Increase the duration by 12 minute for each extra MP.
+**Upcast**: Increase the duration by 12 minute for each extra MP die above 1.
 (~)
 
 ___
@@ -533,7 +533,7 @@ ___
 
 **Description**: Grants the target the ability to communicate with animals within a reasonable range (about 30ft, may be larger or smaller depending on the form of communication). The communication can be vocal, tactile, or visual.
 
-**Upcast (local)**: Add an extra target for every 1MP of cost paid.
+**Upcast (local)**: Add an extra target for every 1MP die above 1 of cost paid.
 
 **Global**: Creates a zone with a 100ft radius where all entities can communicate with animals (Cha save on entry negates). For every 4MP, the duration increases by 1 week.
 
@@ -559,9 +559,9 @@ ___
 - Resistance to fear.
 - -10 to movement speed.
 
-**Upcast**: For every MP dice added the spell's radius increases by 5ft (this also affects the caster). OR Increase the duration by 1 minute.
+**Upcast**: For every MP die above 1 added the spell's radius increases by 5ft (this also affects the caster). OR Increase the duration by 1 minute.
 
-(7-4)/3 = 1extra MP dice used. If the MP dice total is 3 or higher, the weird's attack is carried out as a "secondary action".
+If the MP dice total is 3 or higher, the weird's attack is carried out as a "secondary action".
 
 ___
 ### Enflame
@@ -582,7 +582,7 @@ ___
 + Disadvantage vs "charm".
 + It deals an extra +3 to damage with any Str based melee attacks and "supernatural" fire based abilities it has.
 
-**Upcast**: Add 1 target for every extra MP dice used.
+**Upcast**: Add 1 target for every extra MP die above 1 used.
 
 ___
 ### Ensnare
@@ -601,7 +601,7 @@ ___
 
 **Description**: Vigorous plant life sprouts and grasps at all targets in range, causing them to be "grappled" on a failed save, and transforming it to difficult terrain.
 
-**Upcast (local)**: Increase the radius by 5ft for every 1MP of cost paid.
+**Upcast (local)**: Increase the radius by 5ft for every extra 1MP die above 1 of cost paid.
 
 **Global**: Create a zone of 200ft with the same properties. For every 4MP add either 100ft of radius or 1 hour of duration.
 (4+1+3+2-4)=(4+2)
@@ -626,7 +626,7 @@ In order to do so, the target of "Fade" must succeed an INT save vs the Threshol
 
 If the detection magic is cast at a higher MP dice cost level (higher MP dice cost of local casting) than "Fade", or if detection is by a supernatural ability of "class B" or higher, then the target of "Fade" makes its save at disadvantage.
 
-**Upcast**: Firstly, the spell lasts for an extra 12 minutes for every extra MP dice used to cast it. Secondly the spell becomes effective against spells that were cast at the same "spell level" (disadvantage no longer applies).
+**Upcast**: Firstly, the spell lasts for an extra 12 minutes for every extra MP die above 1 used to cast it. Secondly the spell becomes effective against spells that were cast at the same "spell level" (disadvantage no longer applies).
 
 ___
 ### Foxfire
@@ -664,7 +664,7 @@ ___
 
 **Description**: You call upon earth spirits to be gentle to whoever falls upon them, making the target resistant to damage taken when falling. In addition the damage it takes when hitting the ground is reduced by 1d12+[Sup] points. (+5)
 
-**Upcast**: Increase the number of targets by 1 and decrease the damage by a further 1d12 points.
+**Upcast**: For every extra MP die above 1, increase the number of targets by 1 and decrease the damage by a further 1d12 points.
 
 ___
 ### Headwind
@@ -682,7 +682,7 @@ ___
 
 **Description**: An extreme wind emanates from you. It is more than strong enough break small branches and drop fruit from trees, or blow away unattended objects in range that weight less than 50lb. Any entity that starts its turn in the area that does not succeed a Str Save is blown back 10ft and lands prone.
 
-**Upcast**: Increase the radius of the cone by 5ft for each extra MP.
+**Upcast**: Increase the radius of the cone by 5ft for each extra MP die above 1.
 
 **Global**: The wind strength remains the same, but the spell creates a whirlwind with a 100ft radius. The duration increases to an hour. For every 4MP extra the duration increases by an hour or the radius increases by 50ft.
 
@@ -708,7 +708,7 @@ Incorporeal ["undead"](10-conditions-types.md#profane) and ["fiends"](10-conditi
 
 As a secondary action the caster may dismiss the flare, causing 1d4+[SUP] damage to a single target within 5ft.
 
-**Upcast**: For each extra MP dice the spell may last for an extra hour or the radius of bright and dim light increase each by 10ft.
+**Upcast**: For each extra MP die above 1 the spell may last for an extra hour or the radius of bright and dim light increase each by 10ft.
 
 ____
 ### Least Heal
@@ -728,7 +728,7 @@ ____
 
 **Special**: Undead must make a Cha save or take 1 point of divine damage. (1+5)=(4+2)
 
-**Upcast**: Target regains an extra HP per extra MP, to a maximum of 3. No extra effect on undead.
+**Upcast**: Target regains an extra HP per extra MP die above 1, to a maximum of 3. No extra effect on undead.
 
 ___
 ### Least Vengeance
@@ -748,7 +748,7 @@ ___
 
 **Description**: Invoke fiery vengeance on a target that dealt damage, or otherwise attacked you since the end of your last turn.
 
-**Upcast**: Add +1d8 to the damage for every extra MP used.
+**Upcast**: Add +1d8 to the damage for every extra MP die above 1.
 ___
 ### Sense Spell
 |Name|Sense Spell [Spirit, Air, Earth, Fire, Water]|
@@ -767,7 +767,7 @@ ___
 
 **Limitations**: This is not a "sight" ability. Thus it does not allow a character to dispel an effect while remaining at a distance from its area of effect. It is nevertheless useful for detecting dangerous, or interesting, effects that are occurring nearby.
 
-**Upcast**: The range of the spell increases by 15ft for every extra MP dice used when casting the spell.
+**Upcast**: The range of the spell increases by 15ft for every extra MP  die above 1 used when casting the spell.
 
 ___
 ### Shape Earth
@@ -792,7 +792,7 @@ ___
 **Global**: If cast globally the area affected is 200ft plus 100ft per extra 4MP. In this case artistic or structurally coherent use is not possible.
 (4+2)
 
-**Upcast**: Target regains an extra HP per extra MP, to a maximum of 3. No extra effect on undead.
+**Upcast**: Target regains an extra HP per extra MP die above 1, to a maximum of 3. No extra effect on undead.
 
 ___
 ### Spirits' Secret
@@ -835,7 +835,7 @@ ___
 
 **Description**: A friendly wind blows around the target, giving it light cover against ranged weapons and +10 to movement speed.
 
-**Upcast**: Increase the duration by an hour or add an additional target for each extra MP.
+**Upcast**: Increase the duration by an hour or add an additional target for each extra MP die above 1.
 
 **Global**: The duration increases to a day. The wind affects up to 4 creatures within 20ft of the caster. For every 4MP extra the duration increases by a day, or the number of targets increases by 4.
 
@@ -860,7 +860,7 @@ ___
 
 **Special**: If the target is a square of water or ground, the caster retains control of the weird. If the target is an entity it may make a save to reject the spell, in which case the spell fails.
 
-**Upcast**: Either the damage increases by 1d12, or the reach increases by 5ft for every 
+**Upcast**: Either the damage increases by 1d12, or the reach increases by 5ft for every extra MP die above 1.
 
 ___
 ### Winter's Touch
@@ -880,7 +880,7 @@ ___
 
 **Special**: The affected area is classed as being one step closer to having the "Extreme temperature: Sever Cold" modifier.
 
-**Upcast**: For every MP dice added the spell's radius increases by 5ft (this also affects the caster). OR Increase the duration by 1 minute.
+**Upcast**: For every MP dice added above 2 the spell's radius increases by 5ft (this also affects the caster). OR Increase the duration by 1 minute.
 
 **Global**: The spell's range is 100ft per 4 MP, centered on you (you are not affected) and lasts for a day. For every 4 MP either the radius increases by 100ft, or the duration increase by a day.
 
@@ -932,7 +932,7 @@ ___
 
 As a secondary action the caster may command the shade to reach out and touch a target within 10ft. Doing this ends the darkness effect of "Dusk". The target must make a Wis save or be ["Catatonic"](10-conditions-types.md#conditions-in-detail) for a minute (repeated saves apply).
 
-**Upcast**: For each extra MP dice the spell may last for an extra hour.
+**Upcast**: For each extra MP dice above 2 the spell may last for an extra hour.
 
 **Global**: The spell lasts for 7 days per 8MP dice. In addition its target must be static location directly connected to the earth.
 
@@ -965,7 +965,7 @@ ___
 - The physical form of the hand is not its essence. Any material destroyed by attacks against it is gathered again from the surrounding ground.
 - The hand has a 5ft reach, and may not leave the ground.
 
-**Upcast**: For every extra MP dice used the damage increases by 1d12 or duration increases by 1 minute. If the MP dice total is 3 or higher for a local casting, working the hand becomes a "secondary action".
+**Upcast**: For every extra MP dice used above 2 the damage increases by 1d12 or duration increases by 1 minute. If the MP dice total is 3 or higher for a local casting, working the hand becomes a "secondary action".
 
 **Global**: As local. However, the hand may not move further than 100ft from the point it was called. For every extra 4 MP dice the hand persists for an extra hour.
 
@@ -1010,7 +1010,7 @@ ___
 
 **Description**: Obtain a day's worth of *unprepared* food and water for a large mortal of your choice (or 4 medium). In doing so the vitality of the ground in the casting area is depleted until the end of the next harvest season. (+2+8)
 
-**Upcast**: The amount harvested increases by 1 large mortal's worth of food and water for every extra MP dice. The radius increases by 5ft for every extra 2MP dice.
+**Upcast**: The amount harvested increases by 1 large mortal's worth of food and water for every extra MP dice above 2. The radius increases by 5ft for every extra 2MP dice above 2.
 
 **Special**: Harvester mages are often used by marching or retreating armies for logistics and scorched earth. There would likely be ramifications to using this magic, especially on inhabited or claimed lands.
 - If the land is marginally fertile (eg fells, swamp, mountains) the harvest is 1/4 of the usual.
@@ -1036,7 +1036,7 @@ ___
 
 **Special**: Undead must make a Cha save or take 2 points of divine damage.
 
-**Upcast**: Target regains an extra 1d4 SP and an extra SP dice per extra MP dice used, to a maximum of 4MP dice used. No extra effect on undead.
+**Upcast**: Target regains an extra 1d4 SP and an extra SP dice per extra MP dice used above 2, to a maximum of 4MP dice used. No extra effect on undead.
 
 ___
 ### Least Transformation
@@ -1061,7 +1061,7 @@ ___
 - Shapeshifters can ignore the effects of this spell.
 - The target, if it does not succeed the initial save, does not get another chance to save.
 
-**Upcast**: For every extra MP dice spend the spell lasts for an extra hour, or you can target an extra entity.
+**Upcast**: For every extra MP dice above 2 spent, the spell lasts for an extra hour, or you can target an extra entity.
 
 **Global**: The spell lasts for a week, with an extra week for every 4MP. It cannot be cancelled voluntarily.
 
@@ -1083,7 +1083,7 @@ ___
 
 **Description**: Make a target "invisible" for the duration. (6+6+1-2-2=4+2+3)
 
-**Upcast**: For every extra MP used, the duration increases by an hour or the number of targets increases by one.
+**Upcast**: For every extra MP used above 2, the duration increases by an hour or the number of targets increases by one.
 
 **Warning**: "Invisibility" does not hide the sounds a target makes, or the aroma it exudes.
 
@@ -1108,7 +1108,7 @@ ___
 
 An unwilling target may ignore the effect with a successful CHA save vs the caster's threshold.
 
-**Upcast**: For every extra MP dice, the spell lasts for an extra 12 minutes or affects an extra target.
+**Upcast**: For every extra MP dice above 2, the spell lasts for an extra 12 minutes or affects an extra target.
 
 **Global**: As the local casting, but is centered on a point and allows all entities within 120ft to communicate to entities of the chosen subkind. The spell lasts for 24 hours. For every 4 extra MP dice placed in the spell, the radius increases by 120ft or the spell lasts for an extra day.
 
@@ -1134,7 +1134,7 @@ ___
 
 **Special**: The caster is not damaged by the flames caused by this spell.
 
-**Upcast**: For every extra MP dice, increase the radius by 5ft or increase the damage by 1d8.
+**Upcast**: For every extra MP dice above 2, increase the radius by 5ft or increase the damage by 1d8.
 
 ___
 ### Natural Xenophonia
@@ -1156,7 +1156,7 @@ ___
 
 An unwilling target may ignore the effect with a successful CHA save vs the caster's threshold.
 
-**Upcast**: For every extra MP dice, the spell lasts for an extra 12 minutes or affects an extra target.
+**Upcast**: For every extra MP dice above 2, the spell lasts for an extra 12 minutes or affects an extra target.
 
 **Global**: As the local casting, but is centered on a point and allows all entities within 120ft to communicate to entities of the chosen subkind. The spell lasts for 24 hours. For every 4 extra MP dice placed in the spell, the radius increases by 120ft or the spell lasts for an extra day.
 
@@ -1251,7 +1251,7 @@ ___
 
 Flammable material includes wood, turf, the corporeal forms of mortals, wax, etc, but does not include most minerals, metals, water, air. The DM and group are advised to use common sense.
 
-**Upcast**: For every MP dice added (12MP dice for global), the sprite gains two levels.
+**Upcast**: For every MP dice added above 2 (12MP dice for global), the sprite gains two levels.
 
 **Global**: The sprite is bound by a longer contract (an extra day for every 8MP above 8) and the spell does not require concentration. For every day of the contract the material component must be paid anew.
 
@@ -1279,7 +1279,7 @@ ___
 
 **Limitation**: The gnome is "earthbound". It cannot leave, or be detached from, the ground. However, this comes at a cost. In an event where the gnome would otherwise lose contact with the ground (if not for being earthbound), it takes 1 point of ["divine"](10-conditions-types.md#esoteric-damage) damage instead.
 
-**Upcast**: For every MP dice added (4MP dice for global), the gnome gains two levels.
+**Upcast**: For every MP dice added above 2 (4MP dice for global), the gnome gains two levels.
 
 **Global**: The gnome is bound by a longer contract (an extra day for every 8MP above 8) and the spell does not require concentration. For every day of the contract the material component must be paid anew.
 
@@ -1305,7 +1305,7 @@ ___
 
 **Limitation**: If a water sprite does not end its turn in contact with a body of water, wet ground, rain, mist or other source of water it returns to whence it came and the spell ends.
 
-**Upcast**: For every MP dice added (12MP dice for global), the sprite gains two levels.
+**Upcast**: For every MP dice added above 2 (12MP dice for global), the sprite gains two levels.
 
 **Global**: The sprite is bound by a longer contract (an extra day for every 8MP above 8) and the spell does not require concentration. For every day of the contract the material component must be paid anew.
 
@@ -1331,7 +1331,7 @@ ___
 
 **Limitation**: The Sprite can only be summoned in an area that is not obstructed by either liquid or solid media, weather (and other) effects such as sandstorms and rain do not count towards this limitation. In case of an attempt to summon a wind sprite in forbidden terrain, the spell ends with "catastrophic failure".
 
-**Upcast**: For every MP dice added (12MP dice for global), the sprite gains two levels.
+**Upcast**: For every MP dice added above 2 (12MP dice for global), the sprite gains two levels.
 
 **Global**: The sprite is bound by a longer contract (an extra day for every 8MP above 8) and the spell does not require concentration. For every day of the contract the material component must be paid anew.
 
@@ -1359,7 +1359,7 @@ ____
 - The secret path MUST be between two areas in the same realm, or between adjacent realms (eg, one can trace a path between the material realm and a shallow layer of the spirit realm, or a shallow and intermediate layer of the spirit realm, but not between material realm and intermediate or deep layer of the spirit realm).
 - The spell ends if the target attempts to travel via "cosmic speed", or through other supernatural means such as "[Fairy Shelter](#fairy-shelter)", "[Aqueous Step](#aqueous-step)", "[Flame Stride](#flame-stride)", "[Fairy Feast](#fairy-feast)", "[Portal](#portal)", although it does function with "[Otherworld Step](#otherworld-step)" and "[Fairy Ball/Masquerade](#fairy-ballmasquerade)".
 
-**Upcast**: For every extra MP dice spent, the spell lasts for an extra 12 minutes.
+**Upcast**: For every extra MP dice above 2 spent, the spell lasts for an extra 12 minutes.
 
 **Global**:
 - The spell lasts for 1 day (plus 1 day per extra 4MP dice).
@@ -1409,7 +1409,7 @@ ___
 
 **Limitations**: The spell only acts on entities that are touching the ground or other solid objects connected to it. On turns that an entity does not fulfil this condition the spell does not act on it.
 
-**Upcast**: For every extra MP dice, either, increase the duration by 8 hours, the area by 5ft, or add an extra entity type.
+**Upcast**: For every extra MP dice above 2, either, increase the duration by 8 hours, the area by 5ft, or add an extra entity type.
 
 **Global**: The spell radius is 400ft. It lasts for a month. For every 4MP extra either the duration increases by a month or the radius extends by 100ft. An extra entity type is automatically added for every 4MP extra. 
 
@@ -1429,14 +1429,16 @@ ___
 |Limitation|Destination must not be aligned with elemental "earth"|-1
 |Save|CHA|
 
-**Description**: The caster, or one target entity within its reach, blinks instantly to a point it can see, within a distance of its local walk speed or 30ft (whichever is greater). An unwilling target may negate the spell with a successful CHA save.
+**Description**: The caster, or one target entity within its reach, blinks instantly to a point it can see, within a distance of its local walk speed or 60ft (whichever is greater). An unwilling target may negate the spell with a successful CHA save.
 
 **Limitation**: The location the target can blink to must be:
 - In line of sight of the caster.
 - Not hermetically isolated from the caster.
-- Not aligned with "earth"
+- Not aligned with "earth" (NB: Ordinary ground is not considered earth aligned under normal circumstances)
+- If an unwilling target is moved to a point which requires a movement modality different to the it is currently using to move (eg ground to 30ft up in the air, or onto the surface of a lake), or a point where it would suffer damage or be subject to a condition (eg into a fire if it is not immune to fire, into a cloud of gas that causes paralysis if it is not immune to it) has advantage on the save.
+- An unwilling target CAN never be moved more than 30ft by this spell.
 
-**Upcast**: For every extra MP, the caster may either:
+**Upcast**: For every extra MP dice above 2 MP dice, the caster may either:
 - Reduce the casting time to  1 Secondary action.
 - Extend the blink distance by 30ft.
 
@@ -1468,7 +1470,7 @@ ___
 - There is no limit to the number of undead a caster can control, however legions of dead seldom end well.
 - The type of undead being animated depends on the condition of the corpse(s). A corpse with flesh will become a zombie, a corpse without flesh will become a skeleton. A corpse with flesh but no bones becomes a crawling thing.
 
-**Upcast**: For every MP dice added (4MP dice for global), the caster may either animate an extra corpse as a level I undead, assert control over an extra 4 undead, or increase the level of the created or controlled undead by I.
+**Upcast**: For every MP dice added above 3 (4MP dice for global), the caster may either animate an extra corpse as a level I undead, assert control over an extra 4 undead, or increase the level of the created or controlled undead by I.
 
 **Global**: Undead created are level II. Furthermore, the undead are under the caster's control for 1 week, after which time they have a "neutral" attitude towards it. For every 4MP dice above 12, the caster may create an extra level II undead, assert control over 4 undead, or increase the level of a created or controlled undead by 1.
 
@@ -1493,7 +1495,7 @@ ___
 
 **Special**: You can only have one summon at any one time.
 
-**Upcast**: For every MP dice added (12MP dice for global), the sprite gains two levels.
+**Upcast**: For every MP dice added above 3 (12MP dice for global), the sprite gains two levels.
 
 **Global**: The plant is animated for longer (an extra week for every 4MP above 12) and the spell does not require concentration. If at least 36MP is used, the plant is forever animated.
 
@@ -1546,7 +1548,7 @@ ___
 + The target is not necessarily aware that it has been charmed, unless it succeeds a "knowledge:arcana" roll to identify the spell.
 + If the command involves harming an entity with which its relationship is "sworn", or helping an entity with which its relationship is "nemesis" it gets an additional save against the spell.
 
-**Upcast**: For every extra MP, the spell may:
+**Upcast**: For every extra MP dice above 3, the spell may:
 - Last for an extra hour, or:
 - Allow the caster to give the target an extra command or:
 - Add an extra target.
@@ -1592,7 +1594,7 @@ ___
 - If the spell is cast as a reaction, it cannot be upcast, and lasts for 1 minute.
 - If the attack is a rectilinear effect and the barrier crosses its path, the target is affected as if it is inside the barrier.
 
-**Upcast**: For every extra MP point placed in the spell, the radius extends by 5ft, or the duration increases by 1h.
+**Upcast**: For every extra MP dice above 3 placed in the spell, the radius extends by 5ft, or the duration increases by 1h.
 - If the spell is cast as a reaction, it cannot be upcast.
 - At 5MP and higher the spell is no longer concentration.
 
@@ -1624,7 +1626,7 @@ Access to the fey's realm is by a "secret path". The spell give the targets know
 
 **Special (global)**: The fey will ask the caster to make a [promise](#promise) (as per the spell) in exchange for the shelter. The promise may be trivial, ridiculous, or deadly serious, depending on the fey that the caster deals with.
 
-**Upcast**: For every extra MP dice added to the spell, the shelter will accept an additional guest.
+**Upcast**: For every extra MP dice above 3 added to the spell, the shelter will accept an additional guest.
 
 **Global**: The spell lasts for four hours. The fey will ask a "promise" to be made in exchange (see above).
 
@@ -1651,7 +1653,7 @@ ___
 - If the spell is cast as a reaction, it cannot be upcast, and lasts for 1 minute.
 - If the attack is a rectilinear effect and the barrier crosses its path, the target is affected as if it is inside the barrier.
 
-**Upcast**: For every extra MP point placed in the spell, the radius extends by 5ft, or the duration increases by 1h. Alternatively the damage increases by 1d8 and damage reduction increases by 2.
+**Upcast**: For every extra MP dice above 3 placed into the spell, the radius extends by 5ft, or the duration increases by 1h. Alternatively the damage increases by 1d8 and damage reduction increases by 2.
 - If the spell is cast as a reaction, it cannot be upcast.
 - At 5MP and higher the spell is no longer concentration.
 
@@ -1673,7 +1675,7 @@ ___
 
 **Description**: Change the target entity's size by up two categories up or down. When the spell ends the target's size returns to what it used to be. The same applies for objects.
 
-**Upcast:** For every MP dice added the duration increases by an hour, or the size change increases by a category
+**Upcast:** For every MP dice above 3 added the duration increases by an hour, or the size change increases by a category
 
 **Global**: The spell acts over an area with a radius of 100ft for a week. All entities that enter the area that do not succeed a Wis save are affected by the size change. For every 4 extra MP dice, the radius increases by 4 or the size category change increases by 1.
 
@@ -1805,7 +1807,7 @@ ___
 
 **Description**: The target gains a dig speed equal to 10ft, as if swimming through earth. It leaves a passage large enough for an entity of its size to walk through as "difficult terrain", or for an entity one or more sizes smaller to move through freely. The spell does not give the target to move through stone. When the spell ends, the target loses this movement modality immediately.
 
-**Upcast**: For every extra MP dice placed in the spell you can add either add an extra target or an extra 6 minutes of dig speed.
+**Upcast**: For every extra MP die above 3 placed in the spell you can add either add an extra target or an extra 6 minutes of dig speed.
 
 **Global**: The spell has a duration of 1 day + 6h per extra 4MP or gives flight to an additional target.
 
@@ -1829,7 +1831,7 @@ ___
 
 **Limitations**: This spell does not give one the ability to see invisible entities or objects, although if the entity is made invisible by a spell, then the target will be able to see the supernatural emanations around it, hence being able to localise it to the squares that it occupies.
 
-**Upcast**: The range of the spell increases by 30ft for every extra MP dice in the spell.
+**Upcast**: The range of the spell increases by 30ft for every extra MP die above 3 in the spell.
 
 **Global**: The spell is cast on a locus, (centered on a square). All spells within 1200ft of this locus are visible to all entities in range of the spell (as long as they have sight).
 
@@ -1853,7 +1855,7 @@ ___
 
 **Special**: A target, if it fails the save, may instead choose to to take SP damage equal to the SP of the caster, plus 1 point of HP damage, and hence avoid the effect of the spell. In order to make use of this possibility the target must be proficient with "[Knowledge: Arcana](05-skills.md#knowledge)" and successfully identify the spell (Threshold of at least 15).
 
-**Upcast**: The spell affects an additional target for each extra MP dice above 3.
+**Upcast**: The spell affects an additional target for each extra MP die above 3.
 
 **Global**: The target falls asleep permanently, and remains in a deep, stasis-like sleep. The caster must give a plausible condition of the target's awakening.
 
@@ -1879,7 +1881,7 @@ ___
 - If the spell is cast as a reaction, it cannot be upcast, and lasts for 1 minute.
 - If the attack is a rectilinear effect and the barrier crosses its path, the target is affected as if it is inside the barrier.
 
-**Upcast**: For every extra MP point placed in the spell, the radius extends by 5ft, or the duration increases by 1h.
+**Upcast**: For every extra MP die above 3 placed in the spell, the radius extends by 5ft, or the duration increases by 1h.
 - If the spell is cast as a reaction, it cannot be upcast.
 - At 5MP and higher the spell is no longer concentration.
 
@@ -1905,7 +1907,7 @@ ___
 
 **Special**: Alternatively it can affect up to 13 pieces of ammunition.
 
-**Upcast**: For every extra MP dice, the spell lasts for an extra 12 minutes or affect an extra 13 pieces of ammunition. Alternatively for every extra 2MP dice placed in the spell, it will deal an extra 1d8 damage.
+**Upcast**: For every extra MP die above 3, the spell lasts for an extra 12 minutes or affect an extra 13 pieces of ammunition. Alternatively for every extra 2MP dice placed in the spell, it will deal an extra 1d8 damage.
 
 ___
 ### Water Walk
@@ -1927,7 +1929,7 @@ ___
 - If walking over turbulent water, or waters with large waves, the target must succeed a threshold=16 "acrobatics" roll or fall prone.
 - Flowing water moves a water-walker at the speed of its flow along the direction of the current.
 
-**Upcast**: For every extra MP dice placed in the spell you can add either an extra target or increase the duration by 8 hours.
+**Upcast**: For every extra MP die above 3 placed in the spell you can add either an extra target or increase the duration by 8 hours.
 
 **Global**: The spell is cast upon a square/point on the ground or water adjacent to the caster. All water within 300ft of that spot can be crossed on foot. If extra MP dice are used for the casting of the spell, the range increases by 300ft per extra MP dice.
 
@@ -1952,7 +1954,7 @@ ___
 - If the spell is cast as a reaction, it cannot be upcast, and lasts for 1 minute.
 - If the attack is a rectilinear effect and the barrier crosses its path, the target is affected as if it is inside the barrier.
 
-**Upcast**: For every extra MP point placed in the spell, the radius extends by 5ft, or the duration increases by 1h.
+**Upcast**: For every extra MP die above 3 placed in the spell, the radius extends by 5ft, or the duration increases by 1h.
 - If the spell is cast as a reaction, it cannot be upcast.
 - At 5MP and higher the spell is no longer concentration.
 
@@ -1975,7 +1977,7 @@ ___
 
 **Description**: The target gains a good fly speed equal to your walking speed + 10ft, as if walking upon the air. When the spell ends, the target loses this movement modality immediately.
 
-**Upcast**: For every extra MP dice (4, if casting globally) placed in the spell you can add either: 1. An extra target, 2. an extra 6 minutes of effect.
+**Upcast**: For every extra MP die above 3 (4, if casting globally) placed in the spell you can add either: 1. An extra target, 2. an extra 6 minutes of effect.
 
 **Global**: The spell has a duration of 1 day + 6h per extra 4MP or gives flight to an additional target, but the fly speed is only equal to your walking speed.
 
@@ -1999,7 +2001,7 @@ ___
 
 **Special**: Alternatively it can affect up to 13 pieces of ammunition.
 
-**Upcast**: For every extra MP dice, the spell lasts for an extra 12 minutes or affect an extra 13 pieces of ammunition. Alternatively for every extra 2MP dice placed in the spell, it will deal an extra 1d8 damage.
+**Upcast**: For every extra MP die above 3, the spell lasts for an extra 12 minutes or affect an extra 13 pieces of ammunition. Alternatively for every extra 2MP dice placed in the spell, it will deal an extra 1d8 damage.
 
 ___
 ## MP 4 spells
@@ -2025,7 +2027,7 @@ ___
 
 **Special**: When the spell ends, the golem runs of of energy but is not destroyed. Recharging a golem costs only half of the MP dice cost of creating it (rounded up).
 
-**Upcast**: For every extra MP dice used when casting this spell, the golem can either function for an extra hour or gains two levels.
+**Upcast**: For every extra MP die above 4 used when casting this spell, the golem can either function for an extra hour or gains two levels.
 
 **Global**: The golem functions for longer and concentration is not required. However, it must be given a simple set of instructions that cannot be changed afterwards. A caster need not concentrate on golems created this way. For every extra 4MP dice the golem either functions for an extra week or gains 2 levels.
 - If 40MP dice or more are used and the golem has no more than 10 levels, the golem does not run out of energy.
@@ -2049,7 +2051,7 @@ ___
 
 **Description**: The caster blinks to a chosen location that is not inside a solid object. The caster may take up to 2 other entities with it. An unwilling passenger does not travel if it succeeds a Cha save.
 
-**Upcast**: For every extra MP dice the range increases by 60ft or the number of passengers increases by 1.
+**Upcast**: For every extra MP die above 4 the range increases by 60ft or the number of passengers increases by 1.
 
 **Global**: Enter a body of water deep enough to submerge in and step out of another within range (180 miles). The caster must have visited the pool to successfully travel. If the pool does not exist the travellers emerge in the nearest pool in range to the destination. If the caster has not visited the destination pool before, the DM rolls randomly for where, within 180 miles of the destination the travellers end up.
 - For every 4 extra MP dice the range increases by 60 miles or the number of passengers increases by 1.
@@ -2077,7 +2079,7 @@ ___
 - Spells with the associated descriptor have their cost decreased by 1 MP dice (to a minimum of 1) and their save threshold is increased by 1. This effect never stacks.
 - Spells with the opposite descriptor have their cost increased by 1MP and their threshold decreased by 1. This effect never stacks.
 
-**Upcast**: For every extra MP dice, the radius increases by 10ft.
+**Upcast**: For every extra MP die above 4, the radius increases by 10ft.
 
 **Special**:
 - An entity casting this spell becomes aligned to the associated element for 24 hours.
@@ -2109,7 +2111,7 @@ ___
 - If [Healing] is chosen, the MP dice cost of all spells with the [Healing] descriptor is decreased by 1 (to a minimum of 1) and their range increases by 15ft. The MP dice cost of all spells with the [Destruction] descriptor is increased by 1 and the save threshold is decreased by 1. (9)
 - If [Destruction] is chosen, the MP dice cost of all spells with the [Healing] descriptor is increased by 2. The MP dice cost of all spells with the [Destruction] descriptor is decreased by 1 and the save threshold is increased by 1. (9)
 
-**Upcast**: For every extra MP dice, the threshold change increases by 1, to a maximum of 4.
+**Upcast**: For every extra MP die above 4, the threshold change increases by 1, to a maximum of 4.
 
 **Special**: 
 - Any entity casting this spell in the [Healing] modality becomes aligned to [Divine] for 24h.
@@ -2140,7 +2142,7 @@ ___
 - The target, if it fails the initial save, does not get another chance to save.
 - If the target is not at full HP/SP/MP/SP dice/MP dice, subtract the missing amount from the maximum value of the new form. If the starting total for HP/SP/MP/SP dice/MP dice is below 1, it is set to 1 instead.
 
-**Upcast**: For every extra MP dice spend, the caster can either extend the spell by an extra hour, select an additional target, or increase the maximum level of the resulting animal/plant by 1.
+**Upcast**: For every extra MP die above 4 spend, the caster can either extend the spell by an extra hour, select an additional target, or increase the maximum level of the resulting animal/plant by 1.
 
 **Global**: The spell lasts for a week. For every 4MP the spell lasts an extra week and the maximum level of the resulting animal/plant increases by 1. It cannot be cancelled voluntarily.
 
@@ -2169,7 +2171,7 @@ ___
 
 **Special**: The spell does not affect entities that are at least 5ft above the ground.
 
-**Upcast**: The for every extra MP die used, the spell's radius increases by 5ft or the damage increases by 1d12, or the duration increases by 12 min.
+**Upcast**: The for every extra MP die above 4 used, the spell's radius increases by 5ft or the damage increases by 1d12, or the duration increases by 12 min.
 
 **Global**: The spell lasts for a day and has a great radius. It deals the damage only during the first minute of the spell and can also affect structures. In addition friendly entities have advantage on fortification and harvesting rolls in the area. For every 4MP dice extra the duration increases by a day, or the radius increases by 800ft.
 
@@ -2201,7 +2203,7 @@ If the detection spell is cast at a higher MP dice cost (level) than "False Aura
 
 **Limitation**: Beings with "[Truesight](06-abilities.md#truesight-i-v) are not affected by the deception of this spell. 
 
-**Upcast**: For every extra dice expended when casting the spell, the spell lasts for an extra 8 hours, or affects an extra target. Secondly the spell is automatically effective against spells cast up to that "spell level" (INT save is no longer needed).
+**Upcast**: For every extra die above 4 expended when casting the spell, the spell lasts for an extra 8 hours, or affects an extra target. Secondly the spell is automatically effective against spells cast up to that "spell level" (INT save is no longer needed).
 
 **Global**: The spell instead affects a volume with a radius of 120ft, centered on a point on the ground or a stationary object. Likewise it lasts for 4 months. For every 4 extra MP dice, either the radius increases by 120ft, or the duration increases by 4 months.
 
@@ -2241,7 +2243,7 @@ ___
 
 **Special**: Glitches and divines may make themselves incomprehensible at will, despite the magic of this spell.
 
-**Upcast**: For every extra MP dice, the spell lasts for an extra 12 minutes or affects an extra target.
+**Upcast**: For every extra MP die above 4, the spell lasts for an extra 12 minutes or affects an extra target.
 
 **Global**: As the local casting, but is centered on a point and allows all entities within 120ft to communicate to entities of the chosen subkind. The spell lasts for 24 hours. For every 4 extra MP dice placed in the spell, the radius increases by 360ft or the spell lasts for an extra day.
 
@@ -2286,7 +2288,7 @@ When the spell ends, the remaining entities within it find themselves at the poi
 
 **Limitation**: A caster must have at least 1 level in all 4 elemental spellcasting abilities in order to be able to use this spell safely. If the caster does not know all the elements, there is a chance of instead creating a shadow space inhabited by 2d8 hostile [Cursed Shades](monsters-npcs/profanes.md#cursed-shade-lesser). The probability is as follow: For 3 elements known, 25%. For 2, 50%. For 1, 75%.
 
-**Upcast**: For every extra MP dice, the spell lasts for an extra 12 minutes.
+**Upcast**: For every extra MP die above 4, the spell lasts for an extra 12 minutes.
 
 **Special**: A caster can only ever have ONE domain. If the spell is recast, the previous domain disappears.
 
@@ -2314,7 +2316,7 @@ ___
 
 **Description**: Calls upon the wind spirits to create a localised storm. When first entering, or starting a turn in the storm, all entities must make a Str save to avoid being blown prone by the winds and a Dex save to avoid lightning strikes (no damage on successful save). In addition the high winds make vocal communication impossible, making the entity essentially "deaf". The winds are classed as "extreme".
 
-**Upcast**: For every extra MP dice, either the radius of the storm increases by 5ft, the duration increases by 1 min or the lightning damage increases by 1d8.
+**Upcast**: For every extra MP die above 4, either the radius of the storm increases by 5ft, the duration increases by 1 min or the lightning damage increases by 1d8.
 
 **Global**: The spell affects a large area and lasts for an hour. The winds are classed as "severe". For every extra 4MP dice, either the area increases by 100ft, or the duration increases by 1h. If at least 24MP dice are used in the casting, the wind effects are "extreme".
 
@@ -2337,7 +2339,7 @@ ___
 
 **Limitation**: The weather cannot completely contradict the season and climate. For example, the spell cannot cause a snowstorm on a summer's day where snowstorms do not, as a rule, occur in summer.
 
-**Upcast**: The for every extra MP die, the spell lasts for an extra 6 minutes or increases in radius by 5ft. If 7 or more MP dice are used, the caster can shift the weather by two points in any direction.
+**Upcast**: The for every extra MP die above 4, the spell lasts for an extra 6 minutes or increases in radius by 5ft. If 7 or more MP dice are used, the caster can shift the weather by two points in any direction.
 
 **Global**: As local, but with a radius of 600ft and a duration of 1 day. For every extra 4MP dice, the radius increases by 400ft or the duration increases by 1 day. If 7 or more MP dice are used the weather can be shifted by two points in any direction.
 
@@ -2378,7 +2380,7 @@ ___
 
 **Limitation**: While the spell is in effect, the spirit and its vessel, bound together by this spell, cannot enter or leave areas affected by ["warded ground"](#warded-ground) or ["enchanted ground"](#enchanted-ground), or territory protected by similar means. Nor can it cross the border of the material/spiritual realm until the spell is over.
 
-**Upcast**: For every extra MP dice (4 when cast globally) the spell either lasts for an extra 12 minutes OR the caster may chose up to 4 extra proficiencies (not saves), or one damage/condition resistance for the spirit's, or one extra "A" class ability of the spirit.
+**Upcast**: For every extra MP die above 4 (4 when cast globally) the spell either lasts for an extra 12 minutes OR the caster may chose up to 4 extra proficiencies (not saves), or one damage/condition resistance for the spirit's, or one extra "A" class ability of the spirit.
 
 **Global**: The spell lasts for 1 day per 8MP dice (minimum 16).
 
@@ -2408,7 +2410,7 @@ An illusion can be broken in the following manner:
 - If the entity has some magic sense, it makes a Wis save against the "mirage" as soon as it detects it.
 - If the entity has "true seeing" it automatically sees through the "mirage"
 
-**Upcast**: For every extra MP, the duration increases by 12 min or the radius increases by 5ft.
+**Upcast**: For every extra MP die above 4, the duration increases by 12 min or the radius increases by 5ft.
 
 **Global**: The mirage lasts for a day and has a radius of 400ft. For every 4 extra MP the mirage lasts for an extra day or its radius increases by 400ft.
 
@@ -2431,7 +2433,7 @@ ___
 - Cure one disease or poison affecting the land.
 - Double the productivity of the land for the next harvest. Doubling zero is still zero.
 
-**Upcast**: For every extra MP die either:
+**Upcast**: For every extra MP die above 4 either:
 - Increase the radius by 5ft.
 - Increase the level of the spell by 1 for the sake of determining its level for breaking curses and aftereffects.
 
@@ -2454,7 +2456,7 @@ ___
 
 **Description**: The caster chooses a target (entity or object). If the target is within range and does not succeed a Wis save, the caster can see and hear the target and its surroundings out to 60ft (view distance). In addition the caster may use one more sense (natural or supernatural) through the spell. If the target is out of range or succeeds its Wis save, the caster gains no information.
 
-**Upcast**: For every extra MP die, the target range increases by 60ft and the view distance increases by 5ft. Alternatively the duration increases by 12 min.
+**Upcast**: For every extra MP die above 4, the target range increases by 60ft and the view distance increases by 5ft. Alternatively the duration increases by 12 min.
 
 **Global**: The spell has a range or 240 miles and lasts for a day. The view distance is 120ft. For every 4MP the range increases by 60 miles or the duration increases by a day.
 
@@ -2467,7 +2469,7 @@ ___
 |Target(s)|1 entity|
 |Casting time|"1 action"|
 |Range|The material realm|+15
-|Duration|12 minutes|+3(18)
+|Duration|12 minutes+|+3(18)
 |Components|incantation|+1(19)
 |Focus|A fire of size "tiny" or bigger|-1(18)
 |Material|A flammable object with the likeness or name of your target|-2(16)
@@ -2480,7 +2482,7 @@ ___
 2. The target may light a fire before the spell ends. 
 3. When it does it may communicate verbally with the caster of the spell. The communication is two way.
 
-**Upcast**: The spell lasts for an extra 12 minutes per MP dice.
+**Upcast**: The spell lasts for a 12 minutes per MP dice.
 
 ___
 ### Summon Spirit
@@ -2507,7 +2509,7 @@ ___
 
 **Limitation**; A spirit summoned by this means cannot enter or leave areas affected by ["warded ground"](#warded-ground) or ["enchanted ground"](#enchanted-ground), or territory protected by similar means. Nor can it cross the border of the material/spiritual realm until the spell is over.
 
-**Upcast**: For every MP dice added (4MP for global), the spirit gains two levels.
+**Upcast**: For every MP dice added above 4 (4MP for global), the spirit gains two levels.
 
 **Global**: The spirit is bound for 1 day for every 4MP dice used summon it (minimum of 8), it *also* gains two levels for every 4 MP dice added. For every day of the contract, the material component must be paid anew.
 
@@ -2535,7 +2537,7 @@ ___
 
 **Description**: The caster blinks to a chosen location that is not inside a solid object. The caster may take up to 2 other entities with it. An unwilling passenger does not travel if it succeeds a Cha save. Any entity that travelled this way deals 2d8+[Sup] fire damage on its next attack.
 
-**Upcast**: For every extra MP dice the range increases by 60ft or the number of passengers increases by 1.
+**Upcast**: For every extra MP die above 5 the range increases by 60ft or the number of passengers increases by 1.
 
 **Global**: Enter a bonfire large enough to engulf the caster and emerge from another of their choice in range (200 miles). The caster is aware of all valid fires in range.
 - For every 4 extra MP dice the range increases by 60 miles or the number of passengers increases by 1.
@@ -2565,7 +2567,7 @@ ___
 
 **Special**: The final substance has to be in the same element/state as the initial substance. Thus a caster cannot use this spell to turn water into air, but can turn water into (poor) wine. Likewise it can be used to turn steel into cheese, but not into bad air.
 
-**Upcast**: For every addition MP dice used in the casting, either add an extra object or increase its size by one category. If at least 7 MP dice are used the maximum material level can be 3. If 9 MP dice are used the maximum material level can be 4.
+**Upcast**: For every addition MP die above 5 used in the casting, either add an extra object or increase its size by one category. If at least 7 MP dice are used the maximum material level can be 3. If 9 MP dice are used the maximum material level can be 4.
 
 **Global**: The spell is permanent. If at least 28 MP dice are used the maximum material level can be 3. If 36 MP dice are used the maximum material level can be 4.
 
@@ -2589,7 +2591,7 @@ If the level (MP dice cost of the local spell) of the detection magic is equal t
 
 If the level of the detection magic is higher, or if detection is by an "S class" ability, then, in order for "Greater Fade" to be effective", its target must succeed an INT save vs the Threshold of the one who cast the detection magic, when  the detection magic would normally first detect it. Repeated saves do not apply.
 
-**Upcast**: For every extra dice expended when casting the spell, the spell lasts for an extra day, or affects an extra target. Secondly the spell is automatically effective against spells cast up to that "spell level" (INT save is no longer needed).
+**Upcast**: For every extra die above 5 expended when casting the spell, the spell lasts for an extra day, or affects an extra target. Secondly the spell is automatically effective against spells cast up to that "spell level" (INT save is no longer needed).
 
 **Global**: The spell instead affects a volume with a radius of 120ft, centered on a point on the ground or a stationary object. Likewise it lasts 1 year. For every 4 extra MP dice, either the radius increases by 120ft, or the duration increases by 4 months.
 
@@ -2598,7 +2600,7 @@ ___
 |Name|Greater Fire Ward [Fire, Barrier]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|6 (16)|
+|MP Dice|5 (20)|
 |Target(s)|40ft radius (800ft radius)|+9
 |Casting time|"full round action" (4h + 1h per 4 MP dice)|
 |Range|30ft|+1(10)
@@ -2620,7 +2622,7 @@ ___
 
 **Limitation**: This spell fails if its area of effect would overlap with the area of effect of a global water/ice spell.
 
-**Upcast**: The spell radius increases by 10ft or the damage increases by 1d8 for every extra MP dice (local).
+**Upcast**: The spell radius increases by 10ft or the damage increases by 1d8 for every extra MP die above 5 (local).
 
 **Global**: The spell lasts for a day and has a radius of 800ft. For every extra 4 MP dice, the radius increases by 200ft, or the damage increases by 1d8. Likewise, the duration increases by 1 day.
 
@@ -2647,7 +2649,7 @@ ___
 
 **Special**: If the spell is cast as a reaction, it has a duration of 1 minute and cannot be upcast.
 
-**Upcast**: For every extra MP dice used to cast the spell, the radius increases by 10ft, or the range increases by 30ft.
+**Upcast**: For every extra MP die above 5 used to cast the spell, the radius increases by 10ft, or the range increases by 30ft.
 
 **Global**: The spell has a radius of 200ft and a duration of 1 month. For every extra 4MP dic used, the duration increases by a month or the radius increases by 200ft.
 
@@ -2699,7 +2701,7 @@ ___
 
 At the end of the spell, the acute phase ends, but the targets make a *second* CON save. If they fail this save, the target becomes a carrier. After 24 hours the disease progresses into one of those specified on the disease table (TODO).
 
-**Upcast**: For every MP dice above 5, the caster may select an extra 2 targets.
+**Upcast**: For every MP die above 5, the caster may select an extra 2 targets.
 
 **Global**: Create a zone of pestilence with a radius of 300ft that lasts for a day (the caster must select the disease at the start of the casting). All entities that enter the zone must make a CON save at dusk, or become diseased. From that point they are considered carriers and at dawn they enter the acute phase of the disease (this acts like the local spell- see above).
 
@@ -2760,7 +2762,7 @@ ___
 
 **Limitation**: A fiend will not be willingly summoned by an entity aligned to the "divine". In this case a caster makes a contested Cha roll vs the fiend. If the fiend wins, it can chose to refuse the summons or to accept it, although in this case it is in no way under the caster's control and is likely to attack it.
 
-**Upcast**: For every MP dice added (4MP dice for global), the fiend's level can be increased by two.
+**Upcast**: For every MP die above 5 added (4MP dice for global), the fiend's level can be increased by two.
 
 **Global**: The spell does not require concentration. Furthermore the spell can be cast in two ways globally:
 1. Like the "local" casting of the spell, but it lasts for a 1 week.
@@ -2828,7 +2830,7 @@ ___
 
 **Description**: Flames bloom on flammable surfaces all around the caster and rise, tree-like, to a height of 70ft. Everything within the flames in heavily concealed. The caster is immune to the damage caused by these flames.
 
-**Upcast**: For every extra MP dice, increase the radius by 10ft and height by 5ft or increase the damage by 2d8.
+**Upcast**: For every extra MP die above 5, increase the radius by 10ft and height by 5ft or increase the damage by 2d8.
 
 **Global**: Creates an inferno, large enough to engulf a small town. For every extra 4MP the radius increases by 200ft and the height increases by 10ft. Elemental lords might use this kind of magic for "amelioration" when visiting the mortal realm.
 
@@ -2855,7 +2857,7 @@ ___
 
 **Limitation**: The reading of surface thoughts for an entity takes a full round action. However, surface thoughts can change quickly from moment to moment, so it is be necessary to continuously read during a conversation to get anything other than snippets for most entities.
 
-**Upcast**: For every extra MP dice used in the casting of the spell, either its radius increases by 20ft, or the duration increases by 12 minutes.
+**Upcast**: For every extra MP die above 6 used in the casting of the spell, either its radius increases by 20ft, or the duration increases by 12 minutes.
 
 ___
 ### Legion of Dead
@@ -2885,7 +2887,7 @@ If the undead are not destroyed by the end of the spell, or the caster loses con
 - The offering must include firstly, something of symbolic significance to the dead (eg, their favourite dolfie, the banner of their religion, etc). If dead of multiple allegiances are present in the radius, only those that find the offering significant will be raised.
 - If a command is given that would go against this, the caster loses control of all the dead animated by this spell. For example, animating a group of holy knights with this spell and ordering one of them to burn down their old shrine will not only lead to the command not being followed, but to the loss of control over all the dead animated in this way.
 
-**Upcast**: For every MP dice added (4 MP dice for global), the radius of the effect increases by 15ft.
+**Upcast**: For every MP die above 6 added (4 MP dice for global), the radius of the effect increases by 15ft.
 
 **Global**: The spell has a radius of 1000ft and the duration is 1 week. For every 4 MP dice extra, the casting time increases by 2h, and the radius increases by 300ft. The spell does not require concentration is, **but** the caster cannot cast the spell again as a global spell for a week.
 
@@ -2985,7 +2987,7 @@ For the sake of mechanics, this is a "cosmic speed" effect.
   - "Spellcasting: Incantation", it can be used to travel to realms associated with sound and never to silent realms.
   - "Spellcasting: Kinetic", it can be used to travel to realms associated with motion and never to still realms.
 
-**Upcast**: Add one more target per MP dice.
+**Upcast**: Add one more target per MP die above 6.
 
 **Global**: Move everything, including all entities, within a 120ft radius to the realm of choice (picking from a valid adjacent otherworld). For every 4MP dice above the usual, the radius increases by 40ft.
 
@@ -3012,7 +3014,7 @@ ___
 
 **Description**: You summon a sharp burst of hurricane like wind that cuts through an area, dealing 5d12+[Sup] damage to all entities, objects and structures within it. Entities can avoid the damage with a successful Dex save. Even in this case all entities and objects of "huge" and smaller are blown back 20ft (for "medium").
 
-**Upcast**: The size of the one increases by 15ft per MP dice or the damage increases by 1d12.
+**Upcast**: The size of the one increases by 15ft per MP die above 6 or the damage increases by 1d12.
 
 ___
 ### Summon Angel
@@ -3036,7 +3038,7 @@ ___
 
 **Limitation**: An angel cannot be summoned by one who its god does not approve of, and nor by one who acts/stands against the concept it personifies. In this case, the god may decide to send the angel at a time of its choosing anyway, but with the purpose of punishing/opposing the caster who attempted to summon it. In this case, a divine mark of the god appears on the hand or face of the caster, and a threshold=20 ["Knowledge: Religion"](05-skills.md#knowledge) roll is able to identify it as such.
 
-**Upcast**: For every MP dice added (4MP dice for global), the angel's level can be increased by two.
+**Upcast**: For every MP die above 6 (4MP dice for global), the angel's level can be increased by two.
 
 **Global**: The spell does not require concentration. Furthermore the spell can be cast in three ways globally:
 1. Like the "local" casting of the spell, but it lasts for a 1 week.
@@ -3087,7 +3089,7 @@ ___
 
 Alternatively the caster can use the spell to affect only one aspect of the weather and move it in any direction, regardless of climate or season, such as changing extreme heat (even in a desert) into extreme cold.
 
-**Upcast**: The for every extra MP die, the spell lasts for an extra hour or increases in radius by 20ft.
+**Upcast**: The for every extra MP die above 7, the spell lasts for an extra hour or increases in radius by 20ft.
 
 **Global**: As local, but with a radius of 1200ft and a duration of 1 month. For every extra 4MP dice, the radius increases by 600ft or the duration increases by 1 month.
 
@@ -3158,7 +3160,7 @@ The target cannot be restrained or immobilised by any means other than a higher 
 - If the spell is dispelled mid-flight, the target maintains a horizontal speed of 400ft for the next minute, and deals damage as normal upon landing (unless other effects reduce its flight speed). However it also suffers from [the normal falling rules](03-movement-exploration.md#falling), which will probably be lethal.
 - If the target is unable to take its move action for whatever reason (eg it is unconscious), it will continue to move along its previous trajectory (or in a random direction if it was previously motionless) until either the spell ends, or it hits a solid physical barrier.
 
-**Upcast**: For every extra MP dice the movement speed increases by 100ft.
+**Upcast**: For every extra MP die above 7 the movement speed increases by 100ft.
 
 **Global**: The spell lasts for an hour and can affect up to 4 targets.
 
@@ -3182,7 +3184,7 @@ ___
 
 For the sake of mechanics, this is a "blink speed" effect.
 
-**Upcast**: For every extra MP dice the range increases by 4000ft or the radius of the portal increases by 5ft.
+**Upcast**: For every extra MP die above 7 the range increases by 4000ft or the radius of the portal increases by 5ft.
 
 **Global**: The range of the portal is not limited, as long as it is on the same realm. The caster must succeed on a "Knowledge: Geography" roll of an appropriate difficulty to know an appropriate route between point of departure and destination. On a fail, the actual destination may be off by up to 10 degrees per point of difference between the threshold and actual roll.
 
@@ -3219,7 +3221,7 @@ While the following are not:
 
 Thus when this spell is used, the DM and player (but mostly the DM) pick out an appropriate stat block to use. Certainly in most (or all cases) this spell does not give a player access to the DM's NPC stat blocks.
 
-**Upcast**: For every extra MP dice spend, the caster can either extend the spell by an extra hour, select an additional target, or increase the maximum level of the resulting mortal by 1.
+**Upcast**: For every extra MP die above 7 spend, the caster can either extend the spell by an extra hour, select an additional target, or increase the maximum level of the resulting mortal by 1.
 
 **Global**: The spell lasts for a week. For every 4MP the spell lasts an extra week and the maximum level of the resulting mortal increases by 1. It cannot be cancelled voluntarily.
 
@@ -3249,7 +3251,7 @@ ___
 
 **Limitation**: A caster must have at least 1 level in all 4 elemental spellcasting abilities in order to be able to use this spell safely. If the caster does not know all the elements, there is a chance of instead creating a shadow space inhabited by 4d8 hostile [Cursed Shades](monsters-npcs/profanes.md#cursed-shade-lesser). The probability is as follow: For 3 elements known, 25%. For 2, 50%. For 1, 75%.
 
-**Upcast**: For every extra MP dice, the spell lasts for an extra hour.
+**Upcast**: For every extra MP die above 8, the spell lasts for an extra hour.
 
 **Special**: A caster can only ever have ONE domain. If the spell is recast, the previous domain disappears.
 
@@ -3282,7 +3284,7 @@ ___
 - If the spell is learned through "air", "earth", "fire" or "water" magic, it can only be cast if the location is associated with the element, or during the appropriate season.
 - If the spell is cast through "nature" magic, it cannot be cast in locales created through artifice (eg, cities, castles, houses, ships, etc).
 
-**Upcast**: For every extra MP dice used in casting the spell, the duration increases by 8 hours, or the radius increases by 20ft.
+**Upcast**: For every extra MP die above 8 used in casting the spell, the duration increases by 8 hours, or the radius increases by 20ft.
 
 **Global**: This is one of the great barrier spells used by great mages as part of a great defensive weave, be it to keep great calamities sealed through the ages, or protect places and being precious to them.
 
@@ -3358,7 +3360,7 @@ Fourthly, all willing allies are transformed into "beasts" or "fey" of the caste
 - Fey spirits take the form of entities of the caster's choice. These provide a ["deceive"](05-skills.md#deceive) roll equal to the caster's spell threshold, for the sake of targeting and identifying the caster for other purposes. If a successful "observe"/"sense motive" roll, or ["truesight"](06-abilities.md#truesight-i-v) (or a similar ability) do not reveal the true target, this counts as ["full concealment"](04-combat.md#cover-and-concealment).
 - All spells with a spirit/spiritual/nature descriptor cost 1 MP dice less to cast (this does not stack), and gain +1 to their threshold. 
 
-**Upcast**: For every extra MP dice, the spell radius increases by 20ft or the duration increases by 1 minute.
+**Upcast**: For every extra MP die above 9, the spell radius increases by 20ft or the duration increases by 1 minute.
 
 **Global**: The spell lasts for 24 hours and covers a radius of 1200ft. If the caster sacrifices a precious memory (and permanently loses an ability) there are a couple of extra effects (on top of the aforementioned special boons):
 - All allies heal all conditions 1 hour after the start of the spell, all MP and SP 2 hours after the start of the spell, starvation, thirst and insomnia 3 hours after the start of the spell, and all HP at the end of the spell. SP and MP dice are not restored.
@@ -3392,7 +3394,7 @@ Fourthly, all willing allies are transformed into "beasts" or "fey" of the caste
 - All targets of the spell innately know that they are making a mage's oath when the spell is cast, and have the power to refuse to participate if they are willing.
 - Dispelling a Mages's Oath means that all participants of the oath, and the one dispelling it, suffer the effects of the oath.
 
-**Upcast**: For every extra MP dice, the spell lasts an extra day.
+**Upcast**: For every extra MP die above 9, the spell lasts an extra day.
 
 **Global**: The effect is permanent until dispelled.
 
@@ -3482,7 +3484,7 @@ ____
 - The spot where it is cast forever resonates with an aura of [spiritual, water] energies. Mortals born in those lands/seas might be aligned in some way with elemental water.
 - Even after the spell has dissipated it leaves echoes behind, lesser elementals or supernatural mist may spontaneously spring up in the place it was cast for 108 years if it was cast locally and a millennium if it was cast globally.
 
-**Upcast**: For every extra MP dice, the radius of the spell increases by 15ft.
+**Upcast**: For every extra MP die above 10, the radius of the spell increases by 15ft.
 
 **Global**: The locale within 3/4 miles of the caster is sworn to the realm of water, and the caster is its regent. The spell acts as normal, with the exception that it has a radius of 3/4 of a mile.
 
@@ -3509,7 +3511,7 @@ ____
 - All entities that first enter the area or first start their turn in it, must make a Cha save or become catatonic. The entity may retry the save at the end of each turn. Those that succeed are immune to the "catatonic" condition until the end of the spell.
 - When an entity first enters the area on its turn, or starts its turn in the area, it makes a Con save or takes 10d8 fire damage. On a successful save it takes half damage. 
 
-**Upcast**: For every extra MP dice, increase the radius by 10ft and height by 5ft or increase the damage by 2d8.
+**Upcast**: For every extra MP die above 10, increase the radius by 10ft and height by 5ft or increase the damage by 2d8.
 
 **Special**: The realm of flame is a legendary magic. It is the embodiment of flaming destruction.
 - All entities aligned or immune to "fire" are immune to the "catatonic" effect caused by the spell.

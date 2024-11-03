@@ -387,14 +387,20 @@ Some systems have an alignment system, usually along the order/chaos axis or the
 
 A character does not have to be aligned with or to anything. Not even magnetic north. A character CAN, however, be "aligned" with various types of forces if they chose. This is not necessarily guided by behaviour or moral code of a character. It is however important for certain abilities and may influence how certain entities perceive the character.
 
-Alignments can be: "None", "Spiritual", "Divine" and "Profane".
+Alignment is usually: "None", "Spiritual", "Divine" and "Profane".
 
 + None: The normal state of being for a mortal.
 + Spiritual: Implies priority of the immaterial world over the material world.
 + Divine: Implies homage to the forces that created and maintain the world.
 + Profane: Implies homage to the forces that oppose creation.
 + One cannot be aligned to "Divine" and "Profane" simultaneously as those forces oppose each other.
-+ A character can also become aligned with various elements. This affects how other elements interact with the character.
++ A character or locale can also become aligned with various elements. This affects how other elements interact with the character.
+
+It should be noted that in general, locales are unaligned. The ground is not "earth aligned", unless it is so enchanted, or consecrated to some elemental power, just as a lake will not usually be water aligned. If a locale is linked with a given element, this is all the more reason to be cautious.
+
+Divine beings always have a divine alignment. Profane beings always have a profane alignment.
+
+It is possible to have an alignment on the Spiritual/Divine/Profane axis AND on the elemental axis. So it is possible to have an alignment with both "profane" and "fire", for example.
 
 ___
 ### Level points and abilities

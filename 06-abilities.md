@@ -566,7 +566,7 @@ ___
 
 **Limitation**: This extra effect applies to items and entities other than the final target.
 
-**Prerequisites**: 13 MP dice.
+**Prerequisites**: 13 MP dice + "Elemental Blast".
 
 ___
 #### Elemental Blast, Greater (Radial)
@@ -575,9 +575,9 @@ ___
 
 **Description**: Improve elemental blast. The blast blossoms upon reaching its target. Damaging all entities within a radius of [MP dice spent] x 10ft. These dice are separate from the dice used to increase the damage caused by the blast. All entities caught in the blast must make a Dex (Fire, Lightning) or Con (Ice, Light) save or suffer the usual elemental blast damage and effects.
 
-**Limitation**: This extra effect applies to items and entities including than the final target. These means that the final target can take the damage twice.
+**Limitation**: This extra effect applies to items and entities including the final target. These means that the final target can take the damage twice.
 
-**Prerequisites**: 19 MP dice. 
+**Prerequisites**: 19 MP dice + "Elemental Blast". 
 
 ___
 #### Elemental Touch

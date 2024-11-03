@@ -181,7 +181,7 @@ Damage Key:
 |Shortstaff|Staff|1d4/1d8|B|1+|Str/Dex|5|-|-|2|5|
 |Quarterstaff|Staff|1d10|B|2|Str|10|-|-|4|6|
 |||||||||
-|Buckler|Shield|1|B/S|1|Str/Dex|5|-|-|2|5|
+|Buckler|Shield|1|B/S|1d4|Str/Dex|5|-|-|2|5|
 |Small Shield|Shield|1d4|B|1|Str|5|-|-|6|4|
 |Large Shield|Shield|1d6|B|1|Str|5|-|-|10|6|
 |||||||||

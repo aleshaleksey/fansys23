@@ -164,6 +164,7 @@ ____
 
 ### Combat
 - Add total defence actions.
+- Improve
 
 ### Races
 - Reduce dig speed cost and first 5ft speed increment in dig each to 3 template points.
@@ -177,3 +178,4 @@ ____
 - Alter "Berserk" to be a little less penalising on HP when you overrun it.
 - Lower prerequisites on multi-attack, as it is crazy high. (It needs to be high, but no that high.)
 - Likewise lower prerequisites on a few other abilities.
+- Add Elemental Blast as prerequisite of improved elemental blast, since it was not obvious.

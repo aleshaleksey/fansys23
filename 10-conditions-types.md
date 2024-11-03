@@ -302,10 +302,11 @@ Profane beings are those that have been cursed by creation and whose nature driv
 - They also have immunity to "unconscious" and "dying".
 
 **Fiends** are entities opposed to creation or mortal-kind. In realms where they exist, devils and demons are fiends. Sometimes divine entities fall and become fiends. Fiends that do not reach minus their total HP from "divine" damage will be reborn elsewhere, at another time (hence cycles of dark lord and heroes).
-- Fiends are resistant to energy ("fire", "ice", "lightning", "light").
+- Fiends are resistant to energy ("fire", "ice", "lightning") with the exception of light.
 
 **Undead** are the bodies or souls of deceased mortals that refuse to rest.
 - Undead are immune to "stunned", "charmed", "frightened" and "paralysed".
+- Undead are vulnerable to supernatural light.
 
 ---
 ## Conditions and states

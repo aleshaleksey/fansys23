@@ -161,6 +161,7 @@ ____
 - Swim, dig, climb above medium is now no.
 - Restore CON vs [CON] definitions (score vs mod) terminology.
 - Clarify what elemental alignment is.
+- Add rules for sleeping in armour.
 
 ### Combat
 - Add total defence actions.

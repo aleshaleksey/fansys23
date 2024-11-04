@@ -264,7 +264,10 @@ In hostile or wilderness environments characters must often take additions steps
 
 Failure to ameliorate a suitable site leads to Con save, with the threshold determined by terrain, weather (see tables above) and any bonuses from special abilities and spells.
 - In cold weather, a blanket gives +2 to this save, while a bedroll gives +4.
-- A tent gives +2 to ameliorate/fortify, a yurt obviates the need for such a roll. This does not apply in swamps, dense forests or on steep slopes. 
+- A tent gives +2 to ameliorate/fortify, a yurt obviates the need for such a roll. This does not apply in swamps, dense forests or on steep slopes.
+- Wearing medium or heavy armour gives a penalty to this CON save equal to the armour rating (instead of making a separate roll).
+
+A character wearing medium or heavy armour during a long rest must succeed on a CON save with a Threshold = [10 + Armour rating] to benefit from the long rest, even if the camp is already ameliorated.
 
 The full rules on resting can be found in [Rest and Recuperation](04-combat.md#rest-and-recuperation).
 

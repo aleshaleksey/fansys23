@@ -486,6 +486,17 @@ A full rest is a week of downtime in a high action game and two weeks of downtim
 
 It is recommended that a character should have to take a full rest in order to level up, which represents the time needed to internalise and "own" the experience gained in previous adventures.
 
+### Resting, amelioration and armour
+
+Armour, while suitable for combat, makes for an uncomfortable rest and makes proper treatment of injuries and recuperation difficult.
+
+A character wearing medium or heavy armour during a long rest must succeed on a CON save with a Threshold = [10 + Armour rating] to benefit from the long rest, even if the camp is already ameliorated.
+
+Characters taking a long rest on terrain that is not "[ameliorated](03-movement-exploration.md#camping)", must make a CON save with a threshold  If the camp is not ameliorated characters must make a CON save, with the threshold determined by [terrain and weather](03-movement-exploration.md#travel-rolls-and-terrain).
+- In cold weather, a blanket gives +2 to this save, while a bedroll gives +4.
+- A tent gives +2 to ameliorate/fortify, a yurt obviates the need for such a roll. This does not apply in swamps, dense forests or on steep slopes.
+- Wearing medium or heavy armour gives a penalty to this CON save equal to the armour rating (instead of making a separate roll).
+
 ___
 ## Tables
 

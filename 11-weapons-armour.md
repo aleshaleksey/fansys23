@@ -463,6 +463,7 @@ Weapons with a closed or open barrel weapons that use the energy in explosive su
 
 **Gun-blade**: This is a pistol with a short blade, allowing to make melee attacks with the same weapon. Unfortunately this causes the weapon to be incredibly unbalanced. As such all attacks with non-magical gun-blades are made at disadvantage.
 
+___
 ## Armour
 
  Armour covers worn equipment that offers passive protection against targeted attacks when correctly equipped. Usually this is because armour dissipates the force of the attack, making it less lethal, or completely negating it. Shields offer protection in a similar manner, although they are generally strapped to a character's appendage, meaning that active use of the appendage is required to make use of a shield.  Weight and size of shields scales as with all equipment sizes (see ["Base Rules: Size Rules"](02-base-rules.md#size-rules)).
@@ -534,6 +535,8 @@ Armour tends to restrict movement, somewhat. This is reflected in several penalt
 **Weight Penalty**: Medium and heavy armour give a weight penalty.
 - Medium Armour gives a -2 penalty to all [Con] rolls related to endurance.
 - Heavy Armour gives a -4 penalty to all [Con] rolls related to endurance and a -2 penalty to attack rolls.
+
+**Armour and resting**: Likewise, it is armour is not made for long rests and may in some cases prevent its wearer from resting properly (see"[Combat: Resting, amelioration and armour](04-combat.md#resting-amelioration-and-armour)").
 
 ___
 ### The Armour Table

@@ -180,3 +180,6 @@ ____
 - Lower prerequisites on multi-attack, as it is crazy high. (It needs to be high, but no that high.)
 - Likewise lower prerequisites on a few other abilities.
 - Add Elemental Blast as prerequisite of improved elemental blast, since it was not obvious.
+- Moved "Parry" to "boons" section.
+- Deflect Arrows (now "Deflect Missile") now works more like DnD ability (damage reduction)
+- Add "Deflection" and "Esoteric Deflection" abilities for reducing damage from ranged supernatural attacks.

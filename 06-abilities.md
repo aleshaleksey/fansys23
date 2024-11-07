@@ -53,12 +53,11 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Combined Manoeuvre (I-V)](#combined-manoeuvre-i-v)
 - [Counterstrike](#counterstrike)
 - [Debilitating Strike](#debilitating-strike)
-- [Deflect Arrows](#deflect-arrows)
+- [Deflect Missile](#deflect-missile)
 - [Far Throw (I-V)](#far-throw-i-v)
 - [Flurry](#flurry)
 - [Greater Manoeuvre (I-V)](#greater-manoeuvre-i-v)
 - [Guardian's Counterstrike](#guardian's-counterstrike)
-- [Parry](#parry)
 - [Precision Attack (I-X)](#precision-attack-i-x)
 - [Steel Wind Strike](#steel-wind-strike)
 - [Swift Shield Bash](#swift-shield-bash)
@@ -71,12 +70,14 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 ### Supernatural (Combat)
 
 - [Cursed Blood](#cursed-blood)
+- [Deflection](#deflection)
 - [Divine Strike](#divine-strike)
 - [Elemental Blast](#elemental-blast)
 - [Elemental Blast, Greater (Linear)](#elemental-blast-greater-linear)
 - [Elemental Blast, Greateer (Radial)](#elemental-blast-greater-radial)
 - [Elemental Touch](#elemental-touch)
 - [Energy Affinity](#energy-affinity)
+- [Esoteric Deflection](#esoteric-deflection)
 - [Greater Elemental Blast (Linear)](#elemental-blast-greater-linear)
 - [Greater Elemental Blast (Radial)](#elemental-blast-greater-radial)
 - [Profane Strike](#profane-strike)
@@ -109,6 +110,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Offensive buckler](#offensive-buckler)
 - [Offhand fighting I-IV](#offhand-fighting-i-iv)
 - [Opportunist](#opportunist)
+- [Parry](#parry)
 - [Pointblank shot (I-III)](#pointblank-shot-i-iii)
 - [Precise shot (I-III)](#precise-shot-i-iii)
 - [Shield master](#shield-master)
@@ -279,15 +281,19 @@ ____
 |"Incapacitated"|2|13|Incapacitating Strike|
 
 ___
-#### Deflect Arrows
+#### Deflect Missile
 
 **Type**: (Class B)
 
-**Description**: Use 1 SP to use "parry" against ranged weapons attacks.
+**Description**: Use 1 SP to use ["parry"](#parry) against ranged weapons attacks.
 
-**Action**: When you use parry, you may use it to deflect a ranged weapon attack. Every time you do so, you must use 1 SP.
+**Action**: When you use parry to deflect a ranged weapon attack, you may declare "Deflect Missile". Every time you do so, you must use 1 SP. The effect is as follows:
+- If a ranged weapon attack would hit anyway, despite being parried, the *physical* damage is reduced by the roll of your [melee attack damage]. Thus if you hold a greatsword, and your melee damage is 2d6+4, then the damage of that ranged attack is reduced by 2d6+4.
+- If you fail a DEX save to evade a natural projectile (eg rockfall, or an arrow trap) when your declaration of parry is in effect, you can chose to deflect it, with the same effect as if you were deflecting a ranged weapon attack.
 
-**Original state**: Ranged weapon attacks cannot be parried.
+**Original state**: If the roll for a ranged attack exceeds your HiT, it hits and can do damage.
+
+**Prerequisites**: Parry + SP dice total of 7.
 
 ___
 #### Far Throw I-V
@@ -486,6 +492,25 @@ ___
 **Prerequisite**: 6 MP dice total.
 
 ___
+#### Deflection
+
+**Type**: (Class B)
+
+**Description**: Use a reaction and potentially MP dice to reduce damage from "supernatural" ranged attack.
+
+**Effect**: Reduce the damage from a ranged supernatural attack by [1d4 + SAP + [MP dice expended]d4], as long as the damage type does NOT fall into the "[esoteric](10-conditions-types.md#esoteric-damage)" category. 
+
+**Action**: As a reaction to being hit by a ranged "supernatural" attack, declare "deflection".
+
+**Limitations**:
+- The ability cannot be used when you are surprised, or otherwise incapable of using reaction.
+
+**Prerequisite**:
+- "Arcane Interception" or "Parry"
+- "Elemental Blast" or "Elemental Touch" or any "Spellcasting: Local".
+- 7 MP dice total
+
+___
 #### Divine Strike
 
 **Type**: A/S Class
@@ -609,6 +634,22 @@ ___
 **Prerequisites**: 3 MP dice total.
 
 **Special**: Elemental touch must be taken separately for each element.
+
+___
+#### Esoteric Deflection
+
+**Type**: (Class S)
+
+**Description**: Use a reaction and MP to reduce damage from "[esoteric](10-conditions-types.md#esoteric-damage)" ranged attack.
+
+**Effect**: Reduce the damage from a "esoteric" ranged attack by [1d6 + [2 x MP dice expended]].
+
+**Action**: As a reaction to being hit by a ranged "esoteric" attack, declare "esoteric deflection".
+
+**Limitations**:
+- The ability cannot be used when you are surprised, or otherwise incapable of using reactions.
+
+**Prerequisite**: "[Deflection](#deflection)" + 17 MP dice total.
 
 ___
 #### Profane Strike

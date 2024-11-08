@@ -1435,7 +1435,7 @@ ___
 
 **Type**: (Natural/Supernatural, Class B)
 
-**Description**: You can see in low light conditions (eg a starry night) as if it was daytime. However, you cannot see in pitch black (a sealed cave or the oceanic abyss).
+**Description**: You can see in low light conditions (eg a starry night) as if it was daytime. However, you cannot see in pitch black (a sealed cave or the oceanic abyss). A character with low-light vision treats dim light (such as the illumination between the "bright" and "dim" radius of a torch) as bright light, it will then treat a radius twice that as dim light. Thus if the "dim light" radius of a torch ends within 40ft, a character with "low-light vision" would see within 40ft of the torch as if it were in bright light, and between 40-80ft as if it were in dim light.
 
 **Prerequisites**: 15 MP dice.
 

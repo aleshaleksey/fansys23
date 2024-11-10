@@ -2659,7 +2659,7 @@ ___
 
 ___
 ### Lesser Cosmic Seal
-|Name|Cosmic Seal [Air, Earth, Nature, Water, Barrier]|7+15+8=30
+|Name|Cosmic Seal [Air, Earth, Nature, Water, Barrier]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|5 (20)|

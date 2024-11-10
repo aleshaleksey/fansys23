@@ -115,6 +115,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Precise shot (I-III)](#precise-shot-i-iii)
 - [Shield master](#shield-master)
 - [Skirmisher](#skirmisher)
+- [Sniper](#sniper)
 - [Swift strike](#swift-strike)
 - [Trick shot (I-II)](#trick-shot-i-ii)
 - [Unarmed Strike (I-IX)](#unarmed-strike-i-ix)
@@ -138,7 +139,6 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Low-light Vision](#low-light-vision)
 - [Rider: Quick mount](#quick-mount)
 - [Silent Step (I-III)](#silent-step-i-iii)
-- [Sniper](#sniper)
 - [Speed](#speed)
 - [Sprinter](#sprinter)
 - [Stalker](#stalker)
@@ -1177,6 +1177,18 @@ ___
 **Original state**: Characters moving out of threatened squares provoke attacks of opportunity. Attacks of opportunity when moving between threatened squares can be avoided using "cautious movement".
 
 ___
+#### Sniper
+
+**Type**: (Natural, Class A/B)
+
+**Description**: When you are "stealthed" and make a ranged attack from concealment, and the attack misses the target, it does not reveal your position to the target.
+
+**Prerequisite**:
+- SP dice total of 10
+- At least 2 ranks in "stealth".
+- Proficiency with at least one ranged/thrown weapon that is not a firearm or seige weapon.
+
+___
 #### Swift Shield Bash
 
 **Description**: Use a shield as an offhand weapon while using it as a shield.
@@ -1460,18 +1472,6 @@ ___
 |I|1|You can move up to your movement speed without penalties to maintain stealth|
 |II|2|You can run while stealthed (no stealth penalty), as long as you have some concealment|
 |III|3|You can sprint wile stealthed (no stealth penalty), as long as you have some concealment|
-
-___
-#### Sniper
-
-**Type**: (Natural, Class A/B)
-
-**Description**: When you are "stealthed" and make a ranged attack from concealment, and the attack misses the target, it does not reveal your position to the target.
-
-**Prerequisite**:
-- SP dice total of 10
-- At least 2 ranks in "stealth".
-- Proficiency with at least one ranged/thrown weapon that is not a firearm or seige weapon.
 
 ___
 #### Speed

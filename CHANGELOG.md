@@ -174,6 +174,7 @@ ____
 - Clarify that EXTRA in upcasting means EXTRA ABOVE THE MINIMAL cost of the spell.
 - Write a limitation section to better explain what limitation by alignment means.
 - Better word wind-step, increasing its range (60ft), but limiting some aspects of its more abusive functionality (only teleport unwilling targets 30ft, advantage on saves vs harmful transportations).
+- Added "Isolate Essence" and "Memory Thief".
 
 ### Abilities
 - Alter "Berserk" to be a little less penalising on HP when you overrun it.

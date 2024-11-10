@@ -194,7 +194,7 @@ The more common way to learn spells is to learn from an entity that already has 
 
 #### Spell transfer
 
-Certain spells, such as "Isolate Essence", "Memory Thief" and "Imbue Essence" allow knowledge, skills and spells to be almost instantaneously between entities. However these spells carry a high cost. More importantly, the entity imparting the spell loses it from their spells known, and there are few who would agree to such a transfer without substantial recompense.
+Certain spells, such as "[Pact](08-spell-list.md#pact)", "[Mage's Oath](08-spell-list.md#mages-oath)", "[Isolate Essence](08-spell-list.md#isolate-essence)" and "[Memory Thief](08-spell-list.md#memory-thief)" allow knowledge, skills and spells to be almost instantaneously between entities. However these spells carry a high cost. More importantly, the entity imparting the spell loses it from their spells known, and there are few who would agree to such a transfer without substantial recompense.
 
 #### MP 0 spells
 
@@ -247,7 +247,7 @@ For every level of Spellcasting: Incantation, a character learns 1 compatible sp
 
 ### Kinetic
 
-Kinetic magic covers a wide range of spells whose effects are activated by a precise and well defined series of motions. Kinetic magic covers all spells with no "incantation" component. Spells cast through kinetic spellcasting cannot be affected by "stilled spell". Kinetic components seem to increase the potence of a spell, therefore spells which are not constrained by other considerations (eg close combat spells), tend to use kinetic components and be compatible with this type of magic.
+Kinetic magic covers a wide range of spells whose effects are activated by a precise and well defined series of motions. Kinetic magic covers all spells with no "incantation" component. Spells cast through kinetic spellcasting cannot be affected by "stilled spell". Kinetic components seem to increase the potency of a spell, therefore spells which are not constrained by other considerations (eg close combat spells), tend to use kinetic components and be compatible with this type of magic.
 
 For every level of Spellcasting: Kinetic, a character learns 1 compatible spell. On taking Kinetic I a character also gains 3 compatible MP zero spells.
 

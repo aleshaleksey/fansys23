@@ -116,6 +116,8 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Flame Stride](#flame-stride)
 - [Flawed Transmute](#flawed-transmute)
 - [Greater Fade](#greater-fade)
+- [Greater Fire Ward](#greater-fire-ward)
+- [Isolate Essence](#isolate-essence)
 - [Lesser Cosmic Seal](#lesser-cosmic-seal)
 - [Pact](#pact)
 - [Plague](#plague)
@@ -2627,6 +2629,35 @@ ___
 **Global**: The spell lasts for a day and has a radius of 800ft. For every extra 4 MP dice, the radius increases by 200ft, or the damage increases by 1d8. Likewise, the duration increases by 1 day.
 
 ___
+### Isolate Essence
+|Name|Isolate Essence [Curse, Kinetic, Spirit]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|5 (20)|
+|Target(s)|1 entity|
+|Casting time|1 main action (1 day)|
+|Range|60ft|
+|Duration|1 hour (1 month)|
+|Components|Kinetic|
+|Material|A locket with an empty canvas, which gains the target's likeness if the spell is cast successfully|
+|Limitation|If the canvas within the locket is destroyed, the spell is broken|
+|Save|CHA|
+
+**Description**: The caster places a seal on part of the target's essence, hence stopping it from using a skill or ability. The caster specifies a skill or ability (for example, "Divine Strike" or "Acrobatics"). If the target does not succeed a CHA save vs the caster's Threshold, it cannot use that skill/ability for the duration of the spell.
+- If a skill is lost, the target can still make rolls, however it is treated as having zero ranks and no [base] in the skill.
+- If an ability is lost, the target cannot use it. If the ability has several levels, the highest available level is sealed.
+
+**Special**:
+- The spell can be cast multiple times on the same target specifying the same skill/ability or a different one. If the same ability is targeted, the next level down is lost. Thus if "Isolate Essence" is cast 3 times on a target with "Greater Manoeuvre III", each time specifying "Greater Manoeuvre", the target may lose all three levels of the ability for the duration. Specifying the same ability more times than the ability has levels simply wastes the spell.
+
+**Limitation**:
+- If the canvas within the locket, which is used as the material component is destroyed, the spell is broken.
+
+**Upcast**: For every extra MP dice above 5, the spell can target an extra ability/skill (or the same one again) or last for an extra hour.
+
+**Global**: The spell spell lasts for 1 month. For every 4 MP dice above 20 it lasts for an extra month or seals an extra level of the same ability.
+
+___
 ### Lesser Cosmic Seal
 |Name|Cosmic Seal [Air, Earth, Nature, Water, Barrier]|7+15+8=30
 |-|-|
@@ -3825,6 +3856,7 @@ ___
     - []()
 - Fire
     - [Flame Stride](#flame-stride)
+    - [Greater Fire Ward](#greater-fire-ward)
     - [Lesser Cosmic Seal](#lesser-cosmic-seal)
     - [Revenant](#revenant)
     - []()
@@ -3835,6 +3867,7 @@ ___
     - []()
 - Incantation
     - [Flawed Transmute](#flawed-transmute)
+    - [Isolate Essence](#isolate-essence)
     - [Pact](#pact)
     - []()
     - []()
@@ -3961,16 +3994,17 @@ ___
 
 **Upcast**:
 
-### 
-|Name| []|
+
+### Memory Thief
+|Name|Memory Thief [Incantation, Spirit]|
 |-|-|
-|Scope||
+|Scope|local (global)|
 |MP Dice||
 |Target(s)||
 |Casting time||
 |Range||
 |Duration||
-|Components||
+|Components|Verbal|
 |Focus||
 |Material||
 |Limitation||

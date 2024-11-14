@@ -104,6 +104,7 @@ Weapons come in all shapes and sizes. They can be made of various materials. As 
 - **Grapple**: Proficiency with this weapon allows the use of grapple as if proficient with the manoeuvre while wielding it. If the user already has proficiency with "grapple", it gains a +2 bonus when grappling with this weapon.
 - **Throw**: Proficiency with this weapon allows the use of throw as if proficient with the manoeuvre while wielding it. If the user already has proficiency with "throw", it gains a +2 bonus when throwing an opponent with this weapon.
 - **Sunder**: Proficiency with this weapon allows the use of sunder as if proficient with the manoeuvre while wielding it. If the user already has proficiency with "sunder", it gains a +2 bonus when sundering with this weapon.
+- **Special**: The weapon has some unique properties or rules which do not fit neatly into a different category.
 
 ### Weapon proficiencies
 
@@ -154,7 +155,7 @@ Damage Key:
 |Short Sword|Light blade|1d6|P/S|1|Str|5|-|-|2|8|
 |Small Sword|Light blade|1d6|P|1|Dex|5|-|-|1|4|
 |Scimitar|Light blade|1d8|S|1|Str/Dex|5|-|-|2|5|
-|Rapier|Heavy blade|1d10|P/S|1|Str|5|-|-|3|8|
+|Rapier|Heavy blade|1d10|P/S|1|Str/Dex|5|-|-|3|8|
 |Falchion|Heavy blade|2d4/1d12|S|1+|Str|5|-|-|3|10|
 |Longsword|Heavy blade|1d8/1d12|S/P|1+|Str|5|-|-|4|10|
 |Greatsword|Heavy blade|2d6|S/P/B|2|Str|5|-|-|6|12|
@@ -250,12 +251,12 @@ These are the legendary blades of legend, and the symbol of a warrior. Heavy bla
 
 |Weapon|Special Properties| Manoeuvres|
 |-|-|-|
-|Rapier|long, bleeding|disarm|
+|Rapier|long, bleeding, special|disarm|
 |Falchion|bleeding, cripple||
 |Longsword|long, bleeding, cripple||
 |Greatsword|long, bleeding, heavy, cripple||
 
-**Rapiers** are long blades designed for keeping enemies at a distance and inflicting deep, piercing wounds. Rapiers have the "disarm" property.
+**Rapiers** are long blades designed for keeping enemies at a distance and inflicting deep, piercing wounds. Rapiers have the "disarm" property. The attack made by a rapier can be governed by either DEX or STR. However, it can ONLY be governed by DEX if the wielder has a [STR] of +1 or higher.
 
 **Falchions** are long, curved blades with a single edge. Katanas and cutlasses are also considered falchions here. Falchions can cause "cripple".
 

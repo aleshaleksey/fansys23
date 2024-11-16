@@ -165,7 +165,8 @@ ____
 
 ### Combat
 - Add total defence actions.
-- Improve
+- Improve (I don't know what at this point, good luck figuring it out).
+- Rapiers can now be governed by DEX or STR, but when governed by DEX, require a +1 [STR] to use.
 
 ### Races
 - Reduce dig speed cost and first 5ft speed increment in dig each to 3 template points.
@@ -173,14 +174,14 @@ ____
 ### Spells
 - Clarify that EXTRA in upcasting means EXTRA ABOVE THE MINIMAL cost of the spell.
 - Write a limitation section to better explain what limitation by alignment means.
-- Better word wind-step, increasing its range (60ft), but limiting some aspects of its more abusive functionality (only teleport unwilling targets 30ft, advantage on saves vs harmful transportations).
-- Added "Isolate Essence" and "Memory Thief".
+- Better word **wind-step**, increasing its range (60ft), but limiting some aspects of its more abusive functionality (only teleport unwilling targets 30ft, advantage on saves vs harmful transportations).
+- Added **"Isolate Essence"** and **"Memory Thief"**.
 
 ### Abilities
-- Alter "Berserk" to be a little less penalising on HP when you overrun it.
-- Lower prerequisites on multi-attack, as it is crazy high. (It needs to be high, but no that high.)
+- Alter **"Berserk"** to be a little less penalising on HP when you overrun it.
+- Lower prerequisites on **multi-attack**, as it is crazy high. (It needs to be high, but no that high.)
 - Likewise lower prerequisites on a few other abilities.
-- Add Elemental Blast as prerequisite of improved elemental blast, since it was not obvious.
+- Add Elemental Blast as prerequisite of **improved elemental blast8*, since it was not obvious.
 - Moved "Parry" to "boons" section.
-- Deflect Arrows (now "Deflect Missile") now works more like DnD ability (damage reduction)
-- Add "Deflection" and "Esoteric Deflection" abilities for reducing damage from ranged supernatural attacks.
+- **Deflect Arrows** (now **"Deflect Missile"**) now works more like DnD ability (damage reduction)
+- Add **"Deflection"** and **"Esoteric Deflection"** abilities for reducing damage from ranged supernatural attacks.

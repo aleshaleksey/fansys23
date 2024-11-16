@@ -139,6 +139,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Create Secret Path](#create-secret-path)
 - [Greater Weather Control](#greater-weather-control)
 - [Incarnate](#incarnate)
+- [Memory Thief](#memory-thief)
 - [Meteoric Flight](#meteoric-flight)
 - [Portal](#portal)
 - [Transform Mortal](#transform-mortal)
@@ -3165,6 +3166,40 @@ When the spell ends one of the following things can happen (the final decision i
 **Upcast**: For each 8MP dice put into the spell, the target stays in the mortal realm for an extra week.
 
 ___
+### Memory Thief
+|Name|Memory Thief [Curse, Incantation, Spirit]|
+|-|-|
+|Scope|local|
+|MP Dice||
+|Target(s)|1 entity|
+|Casting time|1 full round action|-2
+|Range|Close|
+|Duration|Permanent|+36(34)
+|Components|Incantation|+1(35)
+|Focus|A rusted chain|-1(34)
+|Material|A gem (see below)|-4(30)
+|Limitation|If the gem is broken, the spell ends|-2(28)
+|Save|INT (special)|
+
+**Description**: The caster speaks an ancient word of power and attempts to steal a memory, skill, spell, or proficiency from a target, robbing them of the ability to use it and taking it for themselves.
+
+The target must make 2 intelligence saves. One immediately, and one after ten rounds (1 minute). If it succeeds the first save, the spell fails. Otherwise the memory is in limbo between the caster of the spell and the target and they both share it and have simultaneous access to it. If the target fails the second spell, the memory is stolen permanently.
+
+If the gem is given to another being within an hour of casting, that being becomes the recipient of the memory, instead of the caster.
+
+*This spell is a curse*.
+
+**Special**: The [material level](12-equipment-economy.md#material-level) of the gem depends on the memory being stolen.
+- Semi precious gem: An everyday memory, a skill with 4 ranks or fewer, a spell of 4th level (4MP dice) or lower. Any proficiency.
+- True gem: A precious memory (memory of a loved one or a special moment), a skill with 7 ranks or lower, a spell of 7th level or lower. Any proficiency.
+- A true gem of "spirit", "profane" or "divine" source: A sacred memory (most precious moments), any skill, any spell. Any proficiency.
+
+**Limitation**: If the gem is broken, the spell ends.
+- When the spell ends, the memory returns to its original owner, unless they are dead/destroyed.
+- If the original owner of the memory is dead or destroyed, whoever breaks the gem keeps the memory as their own.
+- If the gem is destroyed by a soulless force, the memory settles in the nearest sapient being.
+
+___
 ### Meteoric Flight
 |Name|Meteoric Flight [Air, Fire, Travel]|
 |-|-|
@@ -3928,6 +3963,7 @@ ___
     - [Fairy Feast](#fairy-feast) [6]
     - [Razor Wind](#razor-wind) [6]
     - [Create Secret Path](#create-secret-path) [7]
+    - [Memory Thief](#memory-thief) [7]
     - [Mage's Oath](#mages-oath) [9]
     - []()
 - Kinetic
@@ -3983,28 +4019,6 @@ ___
 |Range||
 |Duration||
 |Components||
-|Focus||
-|Material||
-|Limitation||
-|Save||
-
-**Description**:
-
-**Special**:
-
-**Upcast**:
-
-
-### Memory Thief
-|Name|Memory Thief [Incantation, Spirit]|
-|-|-|
-|Scope|local (global)|
-|MP Dice||
-|Target(s)||
-|Casting time||
-|Range||
-|Duration||
-|Components|Verbal|
 |Focus||
 |Material||
 |Limitation||

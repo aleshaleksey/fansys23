@@ -378,7 +378,7 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Multi-attack II||||
-|Broad strike|||1 SP|
+|Broad strike|||(1 SP die) useable only with tail attack|
 |Combined Manoeuvre I|||(1 SP die) usable only with claw attack (except grapple)|
 |Alert||||
 |Foresight||||

@@ -339,17 +339,17 @@ ___
 - Evade: -2, Armour +2
 - Reach: 10ft, 15ft (tail)
 - [DEX save]: -2, [STR save]: +2
-- Carry capacity: (356lb light, 712lb medium, 1760lb heavy, 2640lb drag)
+- Carry capacity: (388lb light, 776lb medium, 1920lb heavy, 2880lb drag)
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|26/22/12|202|222|35|40ft|100ft (fly, good)|
+|26/22/12|222|222|35|40ft|100ft (fly, good)|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|22|14|24|18|16|26|
-|Bonus|+6|+2|+7|+4|+3|+8|
-|Save|+18|+4|+17|+8|+13|+18|
+|Stat|24|14|26|18|16|26|
+|Bonus|+7|+2|+7|+4|+3|+8|
+|Save|+19|+4|+17|+8|+13|+18|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
@@ -357,16 +357,16 @@ ___
 
 |Attacks|Bonus|Damage|Other|
 |-|-|-|-|
-|Claws|+19|2d8+8||
-|Bite|+19|2d12+8|Poison: Threshold=26 or lose 1 point of STR|
-|Tail|+16|2d6+6|Reach 15ft|
+|Claws|+19|2d8+9||
+|Bite|+19|2d12+9|Poison: Threshold=26 or lose 1 point of STR|
+|Tail|+17|2d6+7|Reach 15ft|
 
 - A dragon's attack count as having "draconic source" (level 4 material), this is already taken into account for the stat block.
 - A dragon can make 3 attacks as part of "multi-attack II", of these it can use bite and tail only once each.
 
 |Offensive Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Grapple, Restrain, Throw, Sunder|+16|||
+|Grapple, Restrain, Throw, Sunder|+17|||
 |Elemental Blast (fire)|+17|4d6 + 2d6/dice||
 |Elemental Blast, Greater (fire)|Threshold=30|4d6 + 2d6/MP dice|(Linear)|
 - A dragon's elemental blast counts as natural damage.
@@ -397,7 +397,7 @@ ___
 |Spellcasting: Incantation V|||Favourites: "Pact", "Isolate Essence", "Least Weather Control","Cure", "Trace Secret Path"|
 |Spellcasting: Air III|||Favourites: "Lesser Veil", "Guidance of the Winds"|
 |Spellcasting: Global||||
-|Skills|||Fortify + 20, Athletics +20, Fly + 18, Observe +16, Track +16, Appraise +16, Spellcraft + 16, Sense Motive +16, K:Arcana +16, K:History +16, K:Geography +16|
+|Skills|||Fortify + 20, Athletics +20, Fly +18, Observe +16, Track +16, Appraise +16, Spellcraft + 16, Sense Motive +16, K:Arcana +16, K:History +16, K:Geography +16|
 |Skills|||All others: [Stat bonus]+1|
 
 Depending on world, a flame dragon can either be a vicious creature bent on wholesale destruction, a guardian of elemental nodes of fire, a reclusive hoarder, a keeper of ancient and forbidden lore, or something else entirely. A dragon pursues its goals and objectives with the mindset of a being that has millennia at its disposal, and will seldom move quickly, unless its hand is forced. It may choose to deal with mortals if it suits its goals or fancy.
@@ -415,22 +415,92 @@ Alternatively it may strike first, and depending on its aim and opponent, employ
 - A dragon will seldom fight to the death, but when it realises that it faces a life threatening situation, it will use its abilities to deadly effect. A dragon will occasionally surrender or accept defeat, but never at the expense of its pride and never if it means domination/enslavement by another being.
 
 ___
+### Fire Dragon, Lesser
+**Size category**: Large (10ft x 10ft)
+- Evade: -1, Armour +1
+- Reach: 5ft (long), 10ft tail
+- [DEX save]: -1, [STR save]: +1
+- Carry capacity: (176lb light, 352lb medium, 880lb heavy, 1320lb drag)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|24/24/10|127|125|24|40ft|110ft (fly, good), 50ft swim|
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|22|12|24|14|18|24|
+|Bonus|+6|+1|+7|+2|+4|+7|
+|Save|+14|+3|+14|+5|+11|+14|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|13(3)|21|20|4|4|7|7|
+
+|Attacks|Bonus|Damage|Other|
+|-|-|-|-|
+|Claws|+16|1d8+8|Reach 5ft (long)|
+|Bite|+16|1d12+8|Poison: Threshold=23 or lose 1 point of DEX|
+|Tail|+13|1d6+6|Reach 10ft (long)|
+- A lesser dragon's attack count as having "draconic source" (level 4 material), this is already taken into account for the stat block.
+- A lesser dragon can make 3 attacks as part of "multi-attack II", of these it can use bite and tail only once each.
+
+|Offensive Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Grapple, Restrain, Throw, Sunder|+13|||
+|Elemental Blast (fire)|+17|4d6 + 2d6/dice||
+|Elemental Blast, Greater (fire)|Threshold=30|4d6 + 2d6/MP dice|(Linear)|
+- A lesser dragon's elemental blast counts as natural damage.
+- A lesser dragon's elemental blast deals 2d6 damage for every extra MP/SP die added and has a base damage of 3d6. The attack/threshold is constitution based (breath weapon).
+- A dragon may use MP or SP dice (up to 10) to fuel its elemental blast.
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Multi-attack II||||
+|Broad strike|||(1 SP die) useable only with tail attack|
+|Combined Manoeuvre I|||(1 SP die) usable only with claw attack (except grapple)|
+|Alert||||
+|Foresight||||
+|Truesight (90ft)||||
+|Keen senses|||Sight, Smell|
+|Low-light vision||||
+|Immunity|||Fire, Fear|
+|Resistance|||Slashing, Shear, Bludgeoning|
+|Parry||||
+|Deflect Missile||||
+|Deflection||||
+|Aphonic spell||||
+|Still Spell||||
+|Elemental Affinity: Fire||||
+|Draconic Spell|||A dragon may use 2 MP dice to cast a spell of 5 MP dice or less as a secondary action.|
+|Alternate form|||The dragon has a humanoid, animal and true form. It may shift between them as a "main action". Each form is constant (always the same animal, always the same humanoid, always the same dragon)|
+|Spellcasting: Fire VI|||Favourite: "Forest of Flame", "Flame Stride", "Balance of Elements"|
+|Spellcasting: Incantation IV|||Favourites: "Least Weather Control","Cure", "Trace Secret Path"|
+|Spellcasting: Air III|||Favourites: "Lesser Veil", "Guidance of the Winds"|
+|Spellcasting: Global||||
+|Skills|||Fortify +16, Athletics +16, Fly +17, Observe +13, Track +13, Appraise +13, Spellcraft +13, Sense Motive +13, K:Arcana +13, K:History +13, K:Geography +13|
+|Skills|||All others: [Stat bonus]+1|
+
+Lesser dragons are weaker and smaller than their brethren, and yet they are still dragons. Depending on setting, they may be "lesser" due to age, or for some other setting specific reason.
+
+A lesser dragon is significantly weaker in melee than its more powerful brethren, and thus must be craftier and more careful when engaging. It is more likely to use trickery, or use harrying attacks and magic to first wear down potential foes.
+
+___
 ### Frost Dragon, Normal
 **Size category**: Huge (15ft x 15ft)
 - Evade: -2, Armour +2
 - Reach: 10ft, 15ft (tail)
 - [DEX save]: -2, [STR save]: +2
-- Carry capacity: (388lb light, 776lb medium, 1920lb heavy, 2880lb drag)
+- Carry capacity: (420lb light, 840lb medium, 2080lb heavy, 3120lb drag)
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|28/24/10|202|222|35|40ft|100ft (fly, good), 40ft swim|
+|28/28/8|222|222|35|40ft|100ft (fly, good), 40ft swim|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|24|10|24|16|20|26|
-|Bonus|+6|+0|+7|+4|+5|+8|
-|Save|+19|+2|+17|+8|+15|+18|
+|Stat|26|10|26|16|20|26|
+|Bonus|+8|+0|+8|+4|+5|+8|
+|Save|+20|+2|+17|+8|+15|+18|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
@@ -438,9 +508,9 @@ ___
 
 |Attacks|Bonus|Damage|Other|
 |-|-|-|-|
-|Claws|+20|2d8+9||
-|Bite|+20|2d12+9|Poison: Threshold=26 or lose 1 point of DEX|
-|Tail|+17|2d6+7|Reach 15ft|
+|Claws|+21|2d8+10||
+|Bite|+21|2d12+10|Poison: Threshold=26 or lose 1 point of DEX|
+|Tail|+18|2d6+8|Reach 15ft|
 - A dragon's attack count as having "draconic source" (level 4 material), this is already taken into account for the stat block.
 - A dragon can make 3 attacks as part of "multi-attack II", of these it can use bite and tail only once each.
 
@@ -475,7 +545,7 @@ ___
 |Spellcasting: Water VII|||Favourite: "Transform mortal, "inner voice", "lesser cosmic seal", "aqueous step", "false aura", "mirage", "scry", "winter's touch"|
 |Spellcasting: Air VII|||Favourites: "Greater Weather control", "razor wind", "greater fade", "least storm", "see spell", slumber", "silence", "Trace Secret Path"|
 |Spellcasting: Global||||
-|Skills|||Fortify + 21, Athletics +21, Fly + 16, Observe +18, Track +18, Appraise +16, Spellcraft + 16, Sense Motive +18, K:Arcana +16, K:History +16, K:Geography +16|
+|Skills|||Fortify + 21, Athletics +21, Fly +16, Observe +18, Track +18, Appraise +16, Spellcraft + 16, Sense Motive +18, K:Arcana +16, K:History +16, K:Geography +16|
 |Skills|||All others: [Stat bonus]+1|
 
 Frost Dragons are often less aggressive than Flame Dragons, and their reasons for violence are often more complex and nuanced. Depending on world, they may be self appointed guardians of the ruins left by forgotten civilisations, hermits in great stretches of frozen wilderness or heralds of the changing seasons.
@@ -485,6 +555,74 @@ For the most part, the reasons why a Frost Dragon might fight are not dissimilar
 The devil, however, is in the details. A Frost Dragon is slower and stronger than its flaming cousin, as such, it is even more deadly in melee, where its attacks are powerful enough to rend most armour. Its affinity for elemental magic is also distinct. Whether on the offensive or defensive, it uses its weather control magic to weaken foes over days or weeks before striking, using the cover of storms to then crush its weakened opponents. Frost drakes may be less likely to burn down whole towns, again preferring to slowly suffocate them with unending ice storms without ever initiating direct combat.
 
 Its mastery of water magic grants it the ability to [scry](../08-spell-list.md#scry) on its surrounds or hide its lair with [illusions](../08-spell-list.md#mirage) and it uses both abilities liberally.
+
+___
+### Frost Dragon, Lesser
+**Size category**: Large (10ft x 10ft)
+- Evade: -1, Armour +1
+- Reach: 5ft (long), 10ft tail
+- [DEX save]: -1, [STR save]: +1
+- Carry capacity: (192lb light, 384lb medium, 960lb heavy, 1440lb drag)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|24/24/10|133|129|24|40ft|110ft (fly, good), 50ft swim|
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|24|12|24|14|18|24|
+|Bonus|+7|+1|+7|+2|+4|+7|
+|Save|+15|+3|+14|+5|+11|+14|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|13(3)|21|20|4|4|7|7|
+
+|Attacks|Bonus|Damage|Other|
+|-|-|-|-|
+|Claws|+17|1d8+9|Reach 5ft (long)|
+|Bite|+17|1d12+9|Poison: Threshold=23 or lose 1 point of DEX|
+|Tail|+14|1d6+7|Reach 10ft (long)|
+- A lesser dragon's attack count as having "draconic source" (level 4 material), this is already taken into account for the stat block.
+- A lesser dragon can make 3 attacks as part of "multi-attack II", of these it can use bite and tail only once each.
+
+|Offensive Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Grapple, Restrain, Throw, Sunder|+14|||
+|Elemental Blast (ice)|+17|3d6 + 2d6/dice||
+|Elemental Blast, Greater (ice)|Threshold=27|3d6 + 2d6/MP dice|(Linear)|
+- A lesser dragon's elemental blast counts as natural damage.
+- A lesser dragon's elemental blast deals 2d6 damage for every extra MP/SP die added and has a base damage of 3d6. The attack/threshold is constitution based (breath weapon).
+- A lesser dragon may use MP or SP dice (up to 7) to fuel its elemental blast.
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Multi-attack II||||
+|Broad strike|||(1 SP die) useable only with tail attack|
+|Combined Manoeuvre I|||(1 SP die) usable only with claw attack (except grapple)|
+|Alert||||
+|Foresight||||
+|Truesight (90ft)||||
+|Keen senses|||Sight, Smell|
+|Low-light vision||||
+|Immunity|||Ice, Fear|
+|Resistance|||Slashing, Shear, Bludgeoning|
+|Arcane Interception||||
+|Deflection||||
+|Aphonic spell||||
+|Still Spell||||
+|Elemental Affinity: Ice||||
+|Draconic Spell|||A dragon may use 2 MP dice to cast a spell of 5 MP dice or less as a secondary action.|
+|Alternate form|||The dragon has a humanoid, animal and true form. It may shift between them as a "main action". Each form is constant (always the same animal, always the same humanoid, always the same dragon)|
+|Spellcasting: Water V|||Favourite: "lesser cosmic seal", "aqueous step", "false aura", "mirage", "scry", "winter's touch"|
+|Spellcasting: Air V|||Favourites: "greater fade", "least storm", "see spell", slumber", "silence", "Trace Secret Path"|
+|Spellcasting: Global||||
+|Skills|||Fortify +17, Athletics +17, Fly +14, Observe +14, Track +14, Appraise +12, Spellcraft + 12, Sense Motive +14, K:Arcana +12, K:History +12, K:Geography +12|
+|Skills|||All others: [Stat bonus]+1|
+
+Lesser dragons are weaker and smaller than their brethren, and yet they are still dragons. Depending on setting, they may be "lesser" due to age, or for some other setting specific reason.
+
+A lesser dragon is significantly weaker in melee than its more powerful brethren, and thus must be craftier and more careful when engaging. It is more likely to use trickery, or use harrying attacks and magic to first wear down potential foes.
 
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|

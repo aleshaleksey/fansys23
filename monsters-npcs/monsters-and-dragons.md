@@ -311,6 +311,112 @@ A mudwalker looks a lot like a mudcrawler but a lot larger, towering over 30ft t
 Mudwalkers seldom directly attack humanoids. Instead they release a noxious gas from their enormous shelled bodies. However, if they find humans that fight back, they attempt to skewer them with their sharp limbs.
 
 ___
+## Dragons
+Dragons typically look like reptiles, but are not. Dragons are supernatural entities with 6 or more limbs (of which 2 or more typically wings) and scales. They have an Int of at least 10. Dragons typically have obscenely long lifespans and possess the following characteristic features:
+- Like most mortals, dragons breathe, drink and eat.
+- A dragon's eye can see through illusions.
+- Dragons have an "elemental" organ, which allows them to exhale energy, typically fire.
+- Dragons need sleep.
+- Dragons are an apex lifeform and as such are immune to fear.
+- Dragons are immune to one element.
+- Dragons are resistant to "slashing", "shear" and "bludgeoning" damage.
+- Some, but not all, dragons are shapeshifters, capable of taking on the forms of animals or humanoids.
+
+Dragons, in most worlds, are the apex mortal being. They are typically stronger, more robust and more intelligent than most other mortals. In addition they possess a whole array of potent supernatural abilities. Most dragons are spellcasters. As such this raises the very valid question of why do dragons not rule all the worlds where they are present?
+
+Aside from hand-waving the question away, there can be a whole number of reasons.
+- Dragons reproduce and grow slowly, so their numbers might not be enough to control whole civilisations the world over.
+- In most settings they spend most of their lives sleeping, probably due the enormous metabolic costs of activity for their enormous forms.
+- They do, they'r just magically disguised as humanoids and so most people, other than those who are kept in a constant state of fear, or discredited as madmen, don't know.
+
+Likewise, settings where dragons *do* rule the world are completely plausible.
+
+When using dragons, one should take into account their intelligence and vast experience that comes with age. A dragon *might* be arrogant to the extent of underestimating dangers and overconfident due to its power, but it would also be smart enough to recognise when something is not right, and to have backup plans and strategies for those events. In addition, it is not beyond reason that a dragon might have minions or summons that it would use, possibly as expendable resources.
+
+
+
+___
+### Flame Dragon, Normal
+**Size category**: Huge (15ft x 15ft)
+- Evade: -2, Armour +2
+- Reach: 10ft, 15ft (tail)
+- [DEX save]: -2, [STR save]: +2
+- Carry capacity: (356lb light, 712lb medium, 1760lb heavy, 2640lb drag)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|26/22/12|202|222|35|40ft|100ft (fly, good)|
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|22|14|24|18|16|26|
+|Bonus|+6|+2|+7|+4|+3|+8|
+|Save|+18|+4|+17|+8|+13|+18|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|20(4)|31|31|6|6|10|10|
+
+|Attacks|Bonus|Damage|Other|
+|-|-|-|-|
+|Claws|+19|2d8+8||
+|Bite|+19|2d12+8|Poison: Threshold=26 or lose 1 point of STR|
+|Tail|+16|2d6+6|Reach 15ft|
+
+- A dragon's attack count as having "draconic source" (level 4 material), this is already taken into account for the stat block.
+- A dragon can make 3 attacks as part of "multi-attack II", of these it can use bite and tail only once each.
+
+|Offensive Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Grapple, Restrain, Throw, Sunder|+16|||
+|Elemental Blast (fire)|+17|4d6 + 2d6/dice||
+|Elemental Blast, Greater (fire)|Threshold=30|4d6 + 2d6/MP dice|(Linear)|
+- A dragon's elemental blast counts as natural damage.
+- A dragon's elemental blast deals 2d6 damage for every extra MP/SP die added and has a base damage of 4d6. The attack/threshold is constitution based (breath weapon).
+- A dragon may use MP or SP dice (up to 10) to fuel its elemental blast.
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Multi-attack II||||
+|Broad strike|||1 SP|
+|Combined Manoeuvre I|||(1 SP die) usable only with claw attack (except grapple)|
+|Alert||||
+|Foresight||||
+|Truesight (120ft)||||
+|Keen senses|||Sight, Smell|
+|Low-light vision||||
+|Immunity|||Fire, Fear|
+|Resistance|||Slashing, Shear, Bludgeoning|
+|Parry||||
+|Deflect Missile||||
+|Deflection||||
+|Aphonic spell||||
+|Still Spell||||
+|Elemental Affinity: Fire||||
+|Draconic Spell|||A dragon may use 2 MP dice to cast a spell of 5 MP dice or less as a secondary action.|
+|Alternate form|||The dragon has a humanoid, animal and true form. It may shift between them as a "main action". Each form is constant (always the same animal, always the same humanoid, always the same dragon)|
+|Spellcasting: Fire VII|||Favourite: "Forest of Flame", "Greater Cosmic Seal", "Meteoric Flight", "Flame Stride", "Balance of Elements"|
+|Spellcasting: Incantation V|||Favourites: "Pact", "Isolate Essence", "Least Weather Control","Cure", "Trace Secret Path"|
+|Spellcasting: Air III|||Favourites: "Lesser Veil", "Guidance of the Winds"|
+|Spellcasting: Global||||
+|Skills|||Fortify + 20, Athletics +20, Fly + 18, Observe +16, Track +16, Appraise +16, Spellcraft + 16, Sense Motive +16, K:Arcana +16, K:History +16, K:Geography +16|
+|Skills|||All others: [Stat bonus]+1|
+
+Depending on world, a flame dragon can either be a vicious creature bent on wholesale destruction, a guardian of elemental nodes of fire, a reclusive hoarder, a keeper of ancient and forbidden lore, or something else entirely. A dragon pursues its goals and objectives with the mindset of a being that has millennia at its disposal, and will seldom move quickly, unless its hand is forced. It may choose to deal with mortals if it suits its goals or fancy.
+
+Regardless of world, a flame dragon is a formidable entity. If it wishes to avoid an encounter it has a number of spells, starting from "Lesser Veil" and ending in "Greater Cosmic Seal" and "Meteoric Flight" to do so. Its lair will likely be guarded by minions or bound fire elementals, and hidden at the end of a secret path. The weather around it will likely be altered in order to make it more or less accessible as the dragon wishes.
+
+If it knows that a combat is inevitable, it will likely prepare the ground with "Balance of Element", or "Forest of Flame". It will almost certainly prepare a secret path for a potential escape route if appropriate.
+
+Alternatively it may strike first, and depending on its aim and opponent, employ varying strategies.
+- A dragon does not fight on the ground, or in small spaces, unless there is a very good reason to do so, as this negates many of the advantages its flight gives it.
+- If the purpose is intimidation or domination, it will generally attack from above, devastating its opponents with its fire breath and pyromancy, and only descend and finish the fight in a demonstrative melee, making liberal use of "broad strike" if it faces multiple foes.
+- If a dragon truly wishes to destroy or obtain something it will usually infiltrate through a secret path, or "travel by flame", or in one of its alternate forms. In most cases, it will open up with "Forest of Flame" or a breath attack. If its opponent has particularly dangerous abilities, it will use "Isolate Essence" to seal them before proceeding.
+- A dragon that wishes to protect something, will prefer to sequester it and place numerous magical seals upon it, although it may equally leave the task to minions.
+- Dragons generally prefer using force over a negotiated solution (due to their overwhelming power and nature), but they can be reasoned with, and will occasionally make bargains when it suits them.
+- A dragon will seldom fight to the death, but when it realises that it faces a life threatening situation, it will use its abilities to deadly effect. A dragon will occasionally surrender or accept defeat, but never at the expense of its pride and never if it means domination/enslavement by another being.
+
+___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 ||||||

@@ -404,7 +404,7 @@ ___
 
 Depending on world, a flame dragon can either be a vicious creature bent on wholesale destruction, a guardian of elemental nodes of fire, a reclusive hoarder, a keeper of ancient and forbidden lore, or something else entirely. A dragon pursues its goals and objectives with the mindset of a being that has millennia at its disposal, and will seldom move quickly, unless its hand is forced. It may choose to deal with mortals if it suits its goals or fancy.
 
-Regardless of world, a flame dragon is a formidable entity. If it wishes to avoid an encounter it has a number of spells, starting from "Lesser Veil" and ending in "Greater Cosmic Seal" and "Meteoric Flight" to do so. Its lair will likely be guarded by minions or bound fire elementals, and hidden at the end of a secret path. The weather around it will likely be altered in order to make it more or less accessible as the dragon wishes.
+Regardless of world, a flame dragon is a formidable entity. If it wishes to avoid an encounter it has a number of spells, starting from "Lesser Veil" and ending in "Greater Cosmic Seal" and "Meteoric Flight" to do so. Its lair might be a castle it previously sacked, the caldera of an active volcano, or something else entirely. It will likely be guarded by minions or bound fire elementals, and hidden at the end of a secret path. The weather around it will likely be altered in order to make it more or less accessible as the dragon wishes.
 
 If it knows that a combat is inevitable, it will likely prepare the ground with "Balance of Element", or "Forest of Flame". It will almost certainly prepare a secret path for a potential escape route if appropriate.
 

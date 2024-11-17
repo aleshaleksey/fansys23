@@ -2877,7 +2877,7 @@ ___
 |Range|close|-1
 |Duration|12 minutes|+3
 |Components|kinetic|
-|Focus|A crystal of flourite or quartz|
+|Focus|A crystal of fluorite or quartz|
 |Save|Wis|
 
 **Description**: The caster bestows telepathy upon a target, allowing them to communicate clearly through thought alone with any sentient entity within 120ft. The target can also attempt to read surface thoughts of nearby entities, taking a full round action for one target with a successful observe roll of 20 or above. An entity can identify the effect with a spellcraft roll equal to the caster's threshold, in which case they can chose to block the reading of surface thoughts.

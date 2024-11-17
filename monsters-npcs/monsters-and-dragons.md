@@ -333,8 +333,6 @@ Likewise, settings where dragons *do* rule the world are completely plausible.
 
 When using dragons, one should take into account their intelligence and vast experience that comes with age. A dragon *might* be arrogant to the extent of underestimating dangers and overconfident due to its power, but it would also be smart enough to recognise when something is not right, and to have backup plans and strategies for those events. In addition, it is not beyond reason that a dragon might have minions or summons that it would use, possibly as expendable resources.
 
-
-
 ___
 ### Flame Dragon, Normal
 **Size category**: Huge (15ft x 15ft)
@@ -395,7 +393,7 @@ ___
 |Elemental Affinity: Fire||||
 |Draconic Spell|||A dragon may use 2 MP dice to cast a spell of 5 MP dice or less as a secondary action.|
 |Alternate form|||The dragon has a humanoid, animal and true form. It may shift between them as a "main action". Each form is constant (always the same animal, always the same humanoid, always the same dragon)|
-|Spellcasting: Fire VII|||Favourite: "Forest of Flame", "Greater Cosmic Seal", "Meteoric Flight", "Flame Stride", "Balance of Elements"|
+|Spellcasting: Fire VIII|||Favourite: "Forest of Flame", "Greater Cosmic Seal", "Meteoric Flight", "Flame Stride", "Balance of Elements"|
 |Spellcasting: Incantation V|||Favourites: "Pact", "Isolate Essence", "Least Weather Control","Cure", "Trace Secret Path"|
 |Spellcasting: Air III|||Favourites: "Lesser Veil", "Guidance of the Winds"|
 |Spellcasting: Global||||
@@ -415,6 +413,78 @@ Alternatively it may strike first, and depending on its aim and opponent, employ
 - A dragon that wishes to protect something, will prefer to sequester it and place numerous magical seals upon it, although it may equally leave the task to minions.
 - Dragons generally prefer using force over a negotiated solution (due to their overwhelming power and nature), but they can be reasoned with, and will occasionally make bargains when it suits them.
 - A dragon will seldom fight to the death, but when it realises that it faces a life threatening situation, it will use its abilities to deadly effect. A dragon will occasionally surrender or accept defeat, but never at the expense of its pride and never if it means domination/enslavement by another being.
+
+___
+### Frost Dragon, Normal
+**Size category**: Huge (15ft x 15ft)
+- Evade: -2, Armour +2
+- Reach: 10ft, 15ft (tail)
+- [DEX save]: -2, [STR save]: +2
+- Carry capacity: (388lb light, 776lb medium, 1920lb heavy, 2880lb drag)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|28/24/10|202|222|35|40ft|100ft (fly, good), 40ft swim|
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|24|10|24|16|20|26|
+|Bonus|+6|+0|+7|+4|+5|+8|
+|Save|+19|+2|+17|+8|+15|+18|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|20(4)|31|31|6|6|10|10|
+
+|Attacks|Bonus|Damage|Other|
+|-|-|-|-|
+|Claws|+20|2d8+9||
+|Bite|+20|2d12+9|Poison: Threshold=26 or lose 1 point of DEX|
+|Tail|+17|2d6+7|Reach 15ft|
+- A dragon's attack count as having "draconic source" (level 4 material), this is already taken into account for the stat block.
+- A dragon can make 3 attacks as part of "multi-attack II", of these it can use bite and tail only once each.
+
+|Offensive Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Grapple, Restrain, Throw, Sunder|+16|||
+|Elemental Blast (ice)|+17|4d6 + 2d6/dice||
+|Elemental Blast, Greater (ice)|Threshold=30|4d6 + 2d6/MP dice|(Linear)|
+- A dragon's elemental blast counts as natural damage.
+- A dragon's elemental blast deals 2d6 damage for every extra MP/SP die added and has a base damage of 4d6. The attack/threshold is constitution based (breath weapon).
+- A dragon may use MP or SP dice (up to 10) to fuel its elemental blast.
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Multi-attack II||||
+|Broad strike|||(1 SP die) useable only with tail attack|
+|Combined Manoeuvre I|||(1 SP die) usable only with claw attack (except grapple)|
+|Alert||||
+|Foresight||||
+|Truesight (120ft)||||
+|Keen senses|||Sight, Smell|
+|Low-light vision||||
+|Immunity|||Ice, Fear|
+|Resistance|||Slashing, Shear, Bludgeoning|
+|Arcane Interception||||
+|Deflection||||
+|Aphonic spell||||
+|Still Spell||||
+|Elemental Affinity: Ice||||
+|Draconic Spell|||A dragon may use 2 MP dice to cast a spell of 5 MP dice or less as a secondary action.|
+|Alternate form|||The dragon has a humanoid, animal and true form. It may shift between them as a "main action". Each form is constant (always the same animal, always the same humanoid, always the same dragon)|
+|Spellcasting: Water VII|||Favourite: "Transform mortal, "inner voice", "lesser cosmic seal", "aqueous step", "false aura", "mirage", "scry", "winter's touch"|
+|Spellcasting: Air VII|||Favourites: "Greater Weather control", "razor wind", "greater fade", "least storm", "see spell", slumber", "silence", "Trace Secret Path"|
+|Spellcasting: Global||||
+|Skills|||Fortify + 21, Athletics +21, Fly + 16, Observe +18, Track +18, Appraise +16, Spellcraft + 16, Sense Motive +18, K:Arcana +16, K:History +16, K:Geography +16|
+|Skills|||All others: [Stat bonus]+1|
+
+Frost Dragons are often less aggressive than Flame Dragons, and their reasons for violence are often more complex and nuanced. Depending on world, they may be self appointed guardians of the ruins left by forgotten civilisations, hermits in great stretches of frozen wilderness or heralds of the changing seasons.
+
+For the most part, the reasons why a Frost Dragon might fight are not dissimilar to why a [Flame Dragon](#flame-dragon-normal) might fight. Likewise, their tactics fundamentally have many parallels.
+
+The devil, however, is in the details. A Frost Dragon is slower and stronger than its flaming cousin, as such, it is even more deadly in melee, where its attacks are powerful enough to rend most armour. Its affinity for elemental magic is also distinct. Whether on the offensive or defensive, it uses its weather control magic to weaken foes over days or weeks before striking, using the cover of storms to then crush its weakened opponents. Frost drakes may be less likely to burn down whole towns, again preferring to slowly suffocate them with unending ice storms without ever initiating direct combat.
+
+Its mastery of water magic grants it the ability to [scry](../08-spell-list.md#scry) on its surrounds or hide its lair with [illusions](../08-spell-list.md#mirage) and it uses both abilities liberally.
 
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|

@@ -119,6 +119,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Swift strike](#swift-strike)
 - [Trick shot (I-II)](#trick-shot-i-ii)
 - [Unarmed Strike (I-IX)](#unarmed-strike-i-ix)
+- [Weapon Finesse](#weapon-finesse)
 
 ### Combat Boons (Supernatural)
 
@@ -1229,6 +1230,8 @@ ___
 ___
 #### Unarmed Strike I-IX
 
+**Type**: Natural (C-B)
+
 **Description**: Increase damage dice of unarmed strikes. For each increase the ability must be taken again.
 
 **Prerequisites**: There is an SP dice prerequisite for each size increase.
@@ -1246,6 +1249,17 @@ ___
 |2d12|34|Unarmed Strike IX|
 
 **Warning**: If it is damage you seek, this is not the ideal ability. It does however guarantee the ability to do a good amount of damage even when you don't have your big stick handy.
+
+___
+#### Weapon Finesse
+
+**Type**: Natural (B)
+
+**Description**: When using DEX as the governing attribute for a weapon that can be used with either DEX or STR as the governing attribute, add [DEX] to the damage.
+
+**Original state**:  When using DEX as the governing attribute for a weapon that can be used with either DEX or STR as the governing attribute, there is no bonus to damage from stats.
+
+**Prequisite**: Proficiency with at least one weapon and 4 SP dice.
 
 ___
 ### Combat Boons (Supernatural)

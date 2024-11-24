@@ -35,7 +35,7 @@ Weapons and armour an essential part of any combat heavy table top RPG system. W
     - [Medium Armour](#medium-armour)
     - [Heavy Armour](#heavy-armour)
     - [Shields](#shields)
-
+___
 ## Weapons
 Weapons are tools that increase the lethality of martial combatants. For the sake of most abilities other than "sunder", unarmed techniques count as weapons. Each type of weapon requires its own proficiency. Weight and size of weapons scales as with all equipment sizes (see ["Base Rules: Size Rules"](02-base-rules.md#size-rules)). In all, there 5 categories and 18 types. The following categories and types of weapons exist:
 
@@ -66,20 +66,24 @@ Weapons are tools that increase the lethality of martial combatants. For the sak
 
 **Optional rule**: For games with a simpler feel, proficiencies for whole categories can be taken for 3 proficiency points or 1 level point.
 
+___
 ### Weapon durability
 
 As other objects, weapons have HP and can be broken, either by misuse, bad dice luck or abilities similar to "sunder". When a weapon's HP reaches 0, it is broken and cannot be used until repaired (more precisely it can be used, but counts as Unarmed:Strike).
 
+___
 ### Ranged Weapons, collateral and melee
 
 Ranged weapons fired while you are in melee are made at disadvantage.
 
 Ranged attacks may hit other targets on the same line. If an entity's hex/square is intersected by the line from the center of your square to the center of your target's square, and your attack meets the entity's [HiT + 5], it takes the damage instead.
 
+___
 ### Range increments
 
 It is harder to hit and hit effectively with a ranged weapon at greater distances. This is reflected by the range increment. Not all ranged weapons have the same size or number of ranged increments, reflecting that while some weapons might have a higher absolute range, they do not perform as well at long ranges (harder to aim, loss of projectile speed, etc).
 
+___
 ### High ground and weapon ranges
 
 When using melee weapons, attacking from high ground gives advantage, attacking from low ground gives disadvantage.
@@ -88,6 +92,7 @@ When using ranged weapons, attacking upwards more than 45 degrees halves the ran
 
 As an **optional** rule: Weapons fired downwards beyond the weapon range are aimed at a square (HiT = 10 + number of range increments). If the attack hits the square, the target makes a Dex save vs the attackers NAT (not NAP, NAT) without modifiers. On a successful save, the attack does damage.
 
+___
 ### Weapon properties
 
 Weapons come in all shapes and sizes. They can be made of various materials. As a result they have various properties as follows:
@@ -106,12 +111,20 @@ Weapons come in all shapes and sizes. They can be made of various materials. As 
 - **Sunder**: Proficiency with this weapon allows the use of sunder as if proficient with the manoeuvre while wielding it. If the user already has proficiency with "sunder", it gains a +2 bonus when sundering with this weapon.
 - **Special**: The weapon has some unique properties or rules which do not fit neatly into a different category.
 
+___
 ### Weapon proficiencies
 
 Any entity may wield a weapon it is physically capably of wielding. If it is not proficient, it makes attacks with a -5 penalty. On a critical fail it damages itself, rolling the same damage dice it would as if it had hit the intended target.
 
 Proficiency with a weapon type eliminates both the penalty and the damage to self on crit fails. In addition it allows the use of any of a weapon's special properties.
 
+___
+### Weapons, damage and governing stats
+
+Weapon damage is almost always natural physical damage (see "[damage type](10-conditions-types.md#damage-types)"). However, certain abilities like "[spirit strike](06-abilities.md#spirit-strike)" can change this. Weapons deal damage based on the damage dice which are specific to each weapon (see the [weapon table](#weapon-table) below) plus the bonus based on its governing stat (as well as material bonus and potentially other bonuses). For example a hand axe has an attack bonus of [[NAP] + [STR]] and deals [1d6 + [STR]] damage.
+
+Weapon attacks are generally targeted attacks that rely on NAP and are "[governed](04-combat.md#attacks-and-damage-bonuses)" by one of STR or DEX. For example a hand axe is always governed by STR, a bow is always governed by DEX. However, some, mostly melee, weapons can be governed by either (STR/DEX) as per character choice. If a weapon that that can be governed by either is used with DEX, then [DEX] is added to the attack bonus, but there is no stat bonus added to the damage unless the character has the "[weapon finesse](06-abilities.md#weapon-finesse)" boon.
+___
 ### Improvised Weapons
 
 Items that are not designed to be used as weapons can also be used for this purpose, although they are generally les effective. A character using an improvised weapon makes attack rolls as if it is not proficient (-5 penalty). The size of an improvised weapon affects how much damage it does, and its form affects the damage. For example a character wielding a vase might do bludgeoning damage, while one wielding a fork might do [a small amount of] piercing damage.

@@ -39,6 +39,19 @@ An attack is any action attempted against an entity that has the potential to re
 
 A targeted attack is an attack made specifically against an entity that involves the attacker making a [NAP] or [SAP] based roll against the target. Usually these do damage, but they can also have other effects, for example the "grapple" manoeuvre.
 
+### Attacks and damage bonuses
+Besides [NAP] and [SAP] an attack is modified by the "governing" stat. A [stat bonus] is also added to the damage in most cases. When it is added it is usually the same stat as the governing stat for the attack. Thus for an attack with a [crossbow](11-weapons-armour.md#mechanical-bows) (1d10 damage), where DEX is the governing stat, so:
+- Attack bonus = [NAP] + [DEX]
+- Damage = 1d10 + [DEX]
+
+For a [greatsword](11-weapons-armour.md#heavy-blades), where STR is the governing stat:
+- Attack bonus = [NAP] + [STR]
+- Damage = 1d10 + [STR]
+
+There is an exception, however for many supernatural attacks, where it is case by case and for weapon attacks with those weapons that can be governed by either STR or DEX, as per the character's choice.
+
+For this kind of weapon attacks, if the character chooses to govern the weapon attack with STR, they add the [STR] to the damage. However, if the character chooses to govern the attack with DEX, there is no stat bonus added to the damage unless the character has the "[weapon finesse](06-abilities.md#weapon-finesse)" boon.
+
 ___
 ## Damage and death
 

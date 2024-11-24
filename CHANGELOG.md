@@ -185,3 +185,23 @@ ____
 - Moved "Parry" to "boons" section.
 - **Deflect Arrows** (now **"Deflect Missile"**) now works more like DnD ability (damage reduction)
 - Add **"Deflection"** and **"Esoteric Deflection"** abilities for reducing damage from ranged supernatural attacks.
+
+___
+## From v0.0.7
+
+### General
+- 
+
+### Combat
+- Make DEX/STR based weapons only apply [DEX] to damage if "finesse" feat is taken.
+
+### Races
+- 
+
+### Spells
+- Add "regrowth" and "lesser regrow" spells.
+- Modify the "cure" spell to not restore body parts.
+
+### Abilities
+- 
+

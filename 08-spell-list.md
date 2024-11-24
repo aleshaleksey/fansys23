@@ -131,6 +131,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Greater Fire Ward](#greater-fire-ward)
 - [Inner Voice](#inner-voice)
 - [Legion of Dead](#legion-of-dead)
+- [Lesser Regrowth](#lesser-regrowth)
 - [Metamorphosis/Rebirth](#metamorphosisrebirth)
 - [Otherworld Step](#otherworld-step)
 - [Razor Wind](#razor-wind)
@@ -149,6 +150,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Greater Domain](#greater-domain)
 - [Greater Cosmic Seal](#greater-cosmic-seal)
 - [Profane Resurrection](#profane-resurrection)
+- [Regrowth](#regrowth) [8]
 
 ### MP 9 Spells
 - [Fairy Ball/Masquerade](#fairy-ballmasquerade)
@@ -1567,6 +1569,7 @@ ___
 |Casting time|"main action"|
 |Range|15ft|+
 |Duration|instantaneous|
+|Limitation|This spell does not cure conditions caused by missing/destroyed body parts|
 |Components|incantation|+1
 |Save|Cha, usually harmless|
 
@@ -2950,6 +2953,29 @@ If the undead are not destroyed by the end of the spell, or the caster loses con
 **Notes**: This spell produces a large number of units, possibly in the thousands. It is recommended that the DM controls the legion and uses it as a single group or AoE rather than individually rolling for each undead.
 
 ___
+### Lesser Regrowth
+|Name|Regrowth [Life, Nature]|
+|-|-|
+|Scope|local|
+|MP Dice|6|
+|Target(s)|1 entity|
+|Casting time|1 minute|
+|Range|close|
+|Duration|immediate|
+|Limitation|Only affects entities with a physical form|
+|Limitation|he spell has no effect on "profane" entities|
+|Components|incantation, kinetic|
+|Save|CHA|
+
+**Description**: The caster restores a single missing body part to the target entity. This can cure the "crippled" condition.
+
+**Limitation**: 
+- Only affects entities with a physical form.
+- The spell has no effect on "profane" entities.
+
+**Upcast**: For every extra MP die above 6, an extra body part can be restored.
+
+___
 ### Metamorphosis/Rebirth
 |Name|Metamorphosis/Rebirth [Nature, Curse, Divine]|
 |-|-|
@@ -3413,6 +3439,36 @@ Finally, the resurrected must sacrifice at least 1 level worth of mortals, of th
 - The spell fails if the target is unwilling.
 
 **Special**: The target can break the profane pact with a successful CHA save. In this case it dies, and its soul returns to the afterlife. It can only attempt this spell once. Furthermore, should it fail, it can never attempt the save again.
+
+___
+### Regrowth
+|Name|Regrowth [Life, Nature]|
+|-|-|
+|Scope|local|
+|MP Dice|8|
+|Target(s)|1 entity|
+|Casting time|1 minute|
+|Range|close|
+|Duration|12 minutes|
+|Limitation|Only affects entities with a physical form|
+|Limitation|he spell has no effect on "profane" entities.|
+|Components|incantation, kinetic|
+|Save|CHA|
+
+**Description**: The caster grants immense vitality. For the duration of the spell, every round as a secondary action, the target can either:
+- Regain 1 HP if its current HP is below half of its HP total.
+- Reconnect a severed body part, or restored a crippled (but not missing) body part.
+- Cure "blinded", "deafened", "diseased", "poisoned", "bleeding", "paralysed" on itself, if the condition is caused by a damaged.
+
+In addition the target can forgo these effects for a minute to regrow a body part.
+
+If the target is unconscious, it regains 1 HP if its current HP is below half of its HP total.
+
+**Limitation**: 
+- Only affects entities with a physical form.
+- The spell has no effect on "profane" entities.
+
+**Upcast**: For every extra MP die above 8, the spell lasts for an extra 12 minutes.
 
 ___
 ## MP 9 Spells
@@ -3947,10 +4003,12 @@ ___
 
 - Nature
     - [Fairy Feast](#fairy-feast) [6]
+    - [Lesser Regrowth](#lesser-regrowth) [6]
     - [Create Secret Path](#create-secret-path) [7]
     - [Transform Mortal](#transform-mortal) [7]
     - [Greater Weather Control](#greater-weather-control) [7]
     - [Greater Cosmic Seal](#greater-cosmic-seal) [8]
+    - [Regrowth](#regrowth) [8]
     - [Fairy Ball/Masquerade](#fairy-ballmasquerade) [9]
     - []()
 - Air
@@ -4057,26 +4115,8 @@ ___
 **Upcast**:
 
 
-### 
-|Name| []|
-|-|-|
-|Scope||
-|MP Dice||
-|Target(s)||
-|Casting time||
-|Range||
-|Duration||
-|Components||
-|Focus||
-|Material||
-|Limitation||
-|Save||
 
-**Description**:
 
-**Special**:
-
-**Upcast**:
 
 
 

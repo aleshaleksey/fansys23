@@ -377,6 +377,7 @@ Any spell created using this guide MUST be checked and validated. In general no 
 - Condition: +2 if Class C, +4 if Class B, +6 if Class A, +12 if Class S.
 - Healing: +5 per HP. +3 per condition MIN=LVL1
 - Modality: +3 if C(walk, climb, swim), +6 if B(flyA, dig), +9 if Fly(G), +12 if (blink), +15 if S(cosmic). Water-walk=6?
+- Regeneration (30)
 - Change the weather one step.
   - +2 Standard improvement.
 - Bonus:

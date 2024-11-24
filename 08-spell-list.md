@@ -117,6 +117,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Flawed Transmute](#flawed-transmute)
 - [Greater Fade](#greater-fade)
 - [Greater Fire Ward](#greater-fire-ward)
+- [Healing Seed](#healing-seed)
 - [Isolate Essence](#isolate-essence)
 - [Lesser Cosmic Seal](#lesser-cosmic-seal)
 - [Pact](#pact)
@@ -2630,6 +2631,29 @@ ___
 **Global**: The spell lasts for a day and has a radius of 800ft. For every extra 4 MP dice, the radius increases by 200ft, or the damage increases by 1d8. Likewise, the duration increases by 1 day.
 
 ___
+### Healing Seed
+|Name|Greater Heal [Life, Nature, Earth]|
+|-|-|
+|Scope|local|
+|MP Dice|5|
+|Target(s)|1 entity|
+|Casting time|1 full round action|
+|Range|close|
+|Duration|1 minute|
+|Components|Incantation, Kinetic|
+|Focus|-|
+|Material|1HP worth of blood or life essence|
+|Limitation|Spell ends when the target reaches 1 HP|
+|Concentration|yes|
+|Save|CHA|
+
+**Description**: The caster seeds life into a dying being. Every round, at the start of its turn it regains 1 HP. The spell ends once its target reaches 1 HP.
+
+**Special**: The spell causes 1 point of divine damage to undead at the start of each of their turns. A successful CHA save (repeated at the start of every turn) ends the spell. Regardless, the spell ends once the target reaches 1 HP.
+
+**Upcast**: For every extra MP die above 5, the spell lasts for an extra minute.
+
+___
 ### Isolate Essence
 |Name|Isolate Essence [Curse, Kinetic, Spirit]|
 |-|-|
@@ -3873,10 +3897,11 @@ ___
 ### MP 5
 
 - Nature
-    - [Greater Fade](#greater-fade)]
+    - [Greater Fade](#greater-fade)
+    - [Healing Seed](#healing-seed)
     - [Lesser Cosmic Seal](#lesser-cosmic-seal)
     - [Plague](#plague)
-    - []()
+    - [Healing Seed](#healing-seed)
     - []()
 - Air
     - [Greater Fade](#greater-fade)
@@ -3885,6 +3910,7 @@ ___
     - []()
     - []()
 - Earth
+    - [Healing Seed](#healing-seed)
     - [Lesser Cosmic Seal](#lesser-cosmic-seal)
     - [Revenant](#revenant)
     - []()
@@ -4008,6 +4034,28 @@ ___
 |Material||
 |Limitation||
 |Save||
+
+### 
+|Name| []|
+|-|-|
+|Scope||
+|MP Dice||
+|Target(s)||
+|Casting time||
+|Range||
+|Duration||
+|Components||
+|Focus||
+|Material||
+|Limitation||
+|Save||
+
+**Description**:
+
+**Special**:
+
+**Upcast**:
+
 
 ### 
 |Name| []|

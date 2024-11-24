@@ -398,7 +398,8 @@ Any spell created using this guide MUST be checked and validated. In general no 
   - Mimic ability (sort of): (C,B,A,S)->(3,6,9,12)
 - Duration (harmless): +1 if 1 min, +3 if 12 min, +6 if hour, +9 8h, +12 if day +24 if permanent
 - Duration (no damage): +3 if 1 min, +6 if 12 min, +12 if hour +24 if day +36 if permanent.
-- Duration (damage/healing): +6 if min, +12 if 12 min.
+- Duration (damage): +6 if min, +12 if 12 min.
+- Duration (healing): +3 per round.
 - Duration Special: Some mundane effects may be permanent. This pertains mainly to diseases.
 - Casting time (no damage ): Secondary (+2), Main(0), Full round(-2).
 - Casting time (damage or conditions): Secondary(+2), Main(0), Full round(-1), 1 minute (-2).

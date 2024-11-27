@@ -7,7 +7,7 @@ This section contains a few NPC stat blocks and notes on their intended use and 
 - [Human Commoner](#human-commoner)
 - [Human Peasant](#human-peasant)
 - [Human Elite](#human-elite)
-- [Human Guard](#human-guard)
+- [Human Guard](#human-militia)
 - [Human Warrior](#human-warrior)
 - [Human Knight](#human-knight)
 - [Elvish Youth](#elvish-youth)
@@ -153,7 +153,7 @@ ___
 ### Human Warrior
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|17/14/13|49|17|10|30|-|
+|17/14/13|44|20|10|30|-|
 
 (wears brigandine, Greatsword grants a +1 to shield HIT)
 
@@ -165,7 +165,7 @@ ___
 
 |Level(base)|MP dice|SP Dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
-|6(2)|14|6|3|2|5|4|
+|6(2)|13|7|3|2|5|4|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -191,17 +191,17 @@ ___
 ### Human Knight
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|23/19/19|65|38|14|30|-|
+|23/19/19|65|54|14|30|-|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|18|14|16|10|12|14|
-|Bonus|+4|+2|+3|0|+1|+2|
-|Save|+6|+4|+9|+2|+5|+4|
+|Stat|18|14|16|10|12|16|
+|Bonus|+4|+2|+3|0|+1|+3|
+|Save|+6|+4|+9|+2|+5|+5|
 
-|Level(base)|MP dice|SP Dice|Nat|Sup|NAP|SAP|
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
-|9(2)|10|19|4|2|6|4|
+|10(2)|19|13|4|2|6|4|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -469,7 +469,7 @@ ___
 ### Orcish Hunter
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/13/11|60|22|12|30ft|-|
+|14/13/11|54|28|12|30ft|-|
 
 Wears hide armour
 
@@ -481,7 +481,7 @@ Wears hide armour
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
-|8 (2)|18|8|3|2|5|4|
+|8 (2)|15|11|3|2|5|4|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -505,15 +505,15 @@ ___
 ### Orcish Berserker
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/13/11|75|37|15|30ft|-|
+|14/13/11|75|48|16|30ft|-|
 
 Wears hide armour
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|18|12|16|10|14|12|
-|Bonus|+4|+1|+3|-1|+1|+1|
-|Save|+11|+5|+8|+2|+4|+4|
+|Stat|18|12|16|10|14|14|
+|Bonus|+4|+1|+3|-1|+1|+2|
+|Save|+11|+5|+8|+2|+4|+5|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|

@@ -185,7 +185,7 @@ ___
 |Short sword|+7|1d6+2||
 |Longbow|+7|1d10+2|range = 1200/240ft|
 |Broad Strike|||Attempt to hit all targets in range with melee attack (SP cost)|
-|Parry|||Give up reaction to gain +3 to AC against up to 3 weapon attacks|
+|Parry|||Give up reaction to gain +3 to HiT against up to 4 weapon attacks|
 |Counterstrike|||All melee attacks provoke attacks of opportunity|
 |Multi-attack I|||Makes two attacks|
 |Skills|||+7 "athletics", +5 "fortify" and "climb". +3 "swim", +4 to "observe" and "sense motive".|
@@ -225,6 +225,7 @@ ___
 |Multi-attack I|||Makes 2 attacks|
 |Counterstrike|||Attack of opportunity vs melee attackers|
 |Guardian's Counterstrike|||Attack of opportunity vs melee attackers on others|
+|Parry|||Give up reaction to gain +3 to HiT against up to 3 weapon attacks|
 |Great Strike||| Up to -4/+4|
 |Broad Strike|||Hit extra targets|
 |Combined Manoeuvre I|||Two manoeuvres in one|
@@ -755,6 +756,131 @@ This block represents a high level wind mage (anemancers). These are Winged who 
 
 A wind mage tries to avoid battle. However if it cannot be done, they will attempt to prepare the battlefield with global magic. If attackers are terrestrial, the wind mage will mercilessly use fire and air magic to reduce them before the battle. Unlike most winged, wind mages will do their best to finish off a threat permanently if it can be done without too much risk.
 
+___
+## Beast folk
+
+## Beast folk
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|12/11/12|10|12|3|35|(climb 30ft)|
+
+(+1 from base)
+
+(Optionally proficient with hide armour for +3 armour)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|12|11|11|10|11|12|
+|Bonus|+1|0|0|0|0|+1|
+|Save|+2|+1|+1|+1|+1|+2|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|2(1)|4|4|1|1|2|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Strike|+3|1d4+1||
+|Grapple|+3|||
+|Spear|+3|1d12+1|60ft/20ft (optionally proficient)|
+|Shortbow|+2|1d6|600ft/120ft (optionally proficient)|
+|Abilities|||"Xenophonia I" animal|
+|Senses|||"Low light vision"|
+|Skills|||"Harvest" +2, "Track" +2, "Athletics" +2, "Climb" +2, "Swim" +2, "Prospect" +1, "Observe" +1, "Intimidate" +2, "Creature Handling" +2, "Fortify" +2|
+|Loot|||The clothes on their back,  0-20sp, whatever everyday item they might carry.|
+
+This represents an ordinary beast folk. It can also represent guards, enforcers and militia (although in that case expect them to use hide armour and spears).
+
+Beast folk often dwell in wilder parts of the world, and much like orcs, tend to be a little tougher than ordinary humans. Given the wide range of situations they encounter, they often learn a wide range of skills. Beast folk of more aggressive lineages have no compunctions against conflict and violence, but will not fight to the death unless their kin is threatened.
+
+Common beast folk are often proficient with fighting tooth and claw and one form of ranged weapon. They seldom carry weapons unless they anticipate that they will need it.
+
+___
+## Beast folk traveller
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|14/12/13|18|18|6|35|(climb 30ft)|
+
+(+1 from base)
+
+Assumed wearing light cuirass
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|12|14|12|10|12|12|
+|Bonus|+1|+2|+1|0|+1|+1|
+|Save|+2|+3|+4|+1|+4|+2|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|4(1)|7|7|2|2|3|3|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Strike|+5|1d6+2 (+1d8)|(Unarmed Strike II)|
+|Grapple|+5|||
+|Shortbow|+5|1d6+2 (+1d8)|600ft/120ft|
+|"[Weapon Finesse](../06-abilities.md#weapon-finesse)"|||Add damage to dex based attacks|
+|"[Terrain Mastery](../06-abilities.md#terrain-mastery)" (any 1)|||bonuses to skills on one type of terrain, usually hill or woodlands|
+|"[Xenophonia I](../06-abilities.md#xenophonia-i-xiii)" (animal)|||Can speak to animals|
+|"[Flurry](../06-abilities.md#flurry)"|||Makes an extra attack with their unarmed attack|
+|"[Parry](../06-abilities.md#parry)"|||Adds +2 to HiT against up to 2 weapon attacks|
+|"[Precision Attack I](../06-abilities.md#precision-attack-i-x)"|||Do extra damage against a foe as a main action|
+|Spellcasting I|||Some beastfolk travellers are proficient with one kind of elemental magic, usually water.|
+|Senses|||"Low light vision"|
+|Skills|||"Fortify" +4, "Navigate" +3, "Sense Motive" +4, "Athletics" +2, "Climb" +2, "Swim" +2, "Observe" +2, "Intimidate" +2, "Creature Handling" +2, "Harvest" +1, "Prospect" +1, "Track" +1|
+|Loot|||The clothes on their back,  10-200sp, assorted wares, signet ring.|
+
+This represents merchants, emissaries, messengers and other experienced wayfarers. They prefer to solve their problems through dialogue, though will fight if the situation necessitates it. If they face death, they will usually surrender.
+
+In combat, a beast folk traveller, will attempt to put some distance between themselves and targets and attack from afar. If this seems unlikely to work, they will flurry with tooth and claw, trying to take out their target as quickly as possible.
+
+___
+## Beast folk warrior
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|18/16/14|40|34|11|45ft|(30ft climb)|
+
+(+2 to HiT from "base")
+
+Wears brigandine (+4 HiT, armour)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|16|14|14|10|12|14|
+|Bonus|+3|+2|+2|0|+1|+2|
+|Save|+5|+7|+4|+2|+5|+4|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|7(2)|13|10|3|2|5|4|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Strike|+8|1d8+3|(Unarmed Strike III)|
+|Grapple|+8|||
+|Throw|+8|||
+|War darts|+8|1d4+3|240ft/60ft|
+|Javelin|+8|1d8+3|120ft/40ft|
+|Spear|+8|1d12+3|60ft/20ft|
+|"[Combined manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)"|||Combine two manoeuvres, expending 1 SP dice.|
+|"[Counterstrike](../06-abilities.md#counterstrike)"|||The warrior can make one attack of opportunity against a melee attack as a reaction.|
+|"[Multi attack I](../06-abilities.md#multi-attack-i-iii)"|||The warrior attacks twice|
+|"[Flurry](../06-abilities.md#flurry)"|||Makes an extra attack with their unarmed attack|
+|"[Parry](../06-abilities.md#parry)"|||Adds +3 to HiT against up to 3 weapon attacks|
+|"[Terrain Mastery](../06-abilities.md#terrain-mastery)" (any 1)|||bonuses to skills on one type of terrain, usually hill or woodlands|
+|"[Speed II](../06-abilities.md#speed)"|||+10ft to movement speed for a total of 45ft|
+|"[Xenophonia I](../06-abilities.md#xenophonia-i-xiii)" (animal)|||Can speak to animals|
+|Spellcasting I|||Some beastfolk warriors are proficient with one kind of elemental magic, usually fire.|
+|Senses|||"Low light vision"|
+|Skills|||"Fortify" +9, "Climb" +9, "Athletics" +9, "Swim" +5, "Stealth" +5, "Navigate" +3, "Sense Motive" +4, "Observe" +4, "Intimidate" +2, "Creature Handling" +2, "Harvest" +1, "Prospect" +1, "Track" +1|
+|Loot|||The clothes and weapons on their back,  10-200sp.|
+
+This stat block represents a veteran beast folk warrior, who has fought in many campaigns, or hunted monsters in the wilderness for years. They are found in elite units or as leaders of mercenary bands, or even as solitary figures who roam the wilds.
+
+A warrior generally uses brigandine for armour, although might use any medium armour. Generally they will carry a few war darts or javelins. If they are hunting monsters, or expecting a large combat, they will carry spears to negate the advantage of numbers of foes or the size of monsters.
+
+A beast folk warrior prefers to approach its foe stealthily and then rush the foe and take it down with multiple strikes of its claws. Otherwise it prefers hit and run tactics before closing in for the kill. Beast folk warriors will retreat if victory is outside their reach, but they will generally die before surrendering to other humanoids.
 
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|

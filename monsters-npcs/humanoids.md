@@ -32,6 +32,8 @@ This section contains a few NPC stat blocks and notes on their intended use and 
 |-|-|-|-|-|-|
 |10|6|4|1|30ft|-|
 
+(+1 from base)
+
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
 |Stat|11|10|11|10|10|11|
@@ -60,7 +62,9 @@ ___
 ### Human Peasant
 |HiT|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|10|13|6|3|30ft|-|
+|11|13|6|3|30ft|-|
+
+(+1 from base)
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -90,7 +94,9 @@ ___
 ### Human Elite
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|11/10/11|23|21|7|30|-|
+|12/11/12|23|21|7|30|-|
+
+(+1 from base)
 
 On the battlefield, will often use Cuirass and shield for (HiT: 17/16/11)
 
@@ -120,7 +126,9 @@ ____
 ### Human Militia
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/12/13|20|8|5|30ft|-|
+|16/13/14|20|8|5|30ft|-|
+
+(+1 from base)
 
 The HiT includes +2 from padded armour and +2 from a small shield.
 
@@ -153,7 +161,9 @@ ___
 ### Human Warrior
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|17/14/13|44|20|10|30|-|
+|19/16/15|44|20|10|30|-|
+
+(+2 from base)
 
 (wears brigandine, Greatsword grants a +1 to shield HIT)
 
@@ -191,7 +201,11 @@ ___
 ### Human Knight
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|23/19/19|65|54|14|30|-|
+|24/21/21|65|54|14|30|-|
+
+(+2 from base)
+
+(Stat block assumes Longsword, Heavy Shield, Half-plate)
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -228,7 +242,9 @@ ___
 ### Elvish Youth
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|11/10/11|3|7|1|30ft|-|
+|12/11/12|3|7|1|30ft|-|
+
+(+1 from base)
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -259,9 +275,11 @@ ___
 ### Elf
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|12/10/12|16|23|6|30ft|-|
+|13/11/13|16|23|6|30ft|-|
 
-(HiT (13/11/13) if wearing a light cuirass)
+(+1 from base)
+
+(HiT (14/12/14) if wearing a light cuirass)
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -296,8 +314,11 @@ ____
 ### Elvish Elder
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/15/15|49|76|15|35ft|-|
-(HiT (16/16/15) if wearing a light cuirass)
+|18/18/18|49|76|15|35ft|-|
+
+(+3 from base)
+
+(HiT (19/19/19) if wearing a light cuirass)
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -340,7 +361,9 @@ ___
 ### Elvish Hunter
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|17/17/15|53|39|13|45ft|-|
+|20/20/18|53|39|13|45ft|-|
+
+(+3 from base)
 
 Wears padded armour. When wielding blades increases to 18.
 
@@ -392,7 +415,9 @@ ___
 ### Elvish Mage
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/11/13|36|58|15|35ft|-|
+|16/13/15|36|58|15|35ft|-|
+
+(+2 from base)
 
 Wears a light cuirass.
 
@@ -437,7 +462,9 @@ ___
 ### Orc
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|10|14|6|4|30ft|-|
+|11|14|6|4|30ft|-|
+
+(+1 from base)
 
 (HiT (13/13/10) if wearing hide armour)
 
@@ -469,7 +496,9 @@ ___
 ### Orcish Hunter
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/13/11|54|28|12|30ft|-|
+|16/15/13|54|28|12|30ft|-|
+
+(+2 from base)
 
 Wears hide armour
 
@@ -505,7 +534,9 @@ ___
 ### Orcish Berserker
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/13/11|75|48|16|30ft|-|
+|17/16/14|75|48|16|30ft|-|
+
+(+3 from base)
 
 Wears hide armour
 
@@ -545,7 +576,9 @@ ___
 ### Orcish Geomancer
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/13/12|34|40|4|12|30ft|-|
+|17/15/14|34|40|4|12|30ft|-|
+
+(+2 from base)
 
 (wears hide armour)
 
@@ -581,7 +614,9 @@ ___
 ### Winged
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|11/9/11|6|4|1|20ft|60ft fly (average)|
+|12/10/12|6|4|1|20ft|60ft fly (average)|
+
+(+1 from base)
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -607,7 +642,9 @@ ___
 ### Winged Shepherd
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/10/14|18|14|5|20ft|60ft fly (average)|
+|15/12/14|18|14|5|20ft|60ft fly (average)|
+
+(+1 from base)
 
 (Assumed to wear a light cuirass)
 
@@ -641,7 +678,9 @@ ___
 ### Winged Scout
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|16/10/15|42|30|11|20ft|80ft fly (good)|
+|17/13/16|42|30|11|20ft|80ft fly (good)|
+
+(+2 from base)
 
 (Assumed to wear a light cuirass)
 
@@ -679,7 +718,9 @@ ___
 ### Winged Wind Mage
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|16/10/15|50|74|16|20ft|70ft fly (good)|
+|18/14/17|50|74|16|20ft|70ft fly (good)|
+
+(+3 from base)
 
 (Assumed to wear a light cuirass)
 

@@ -150,7 +150,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Greater Domain](#greater-domain)
 - [Greater Cosmic Seal](#greater-cosmic-seal)
 - [Profane Resurrection](#profane-resurrection)
-- [Regrowth](#regrowth) [8]
+- [Regrowth](#regrowth)
 
 ### MP 9 Spells
 - [Fairy Ball/Masquerade](#fairy-ballmasquerade)

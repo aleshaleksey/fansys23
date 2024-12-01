@@ -289,7 +289,7 @@ ___
 **Description**: Use 1 SP to use ["parry"](#parry) against ranged weapons attacks.
 
 **Action**: When you use parry to deflect a ranged weapon attack, you may declare "Deflect Missile". Every time you do so, you must use 1 SP. The effect is as follows:
-- If a ranged weapon attack would hit anyway, despite being parried, the *physical* damage is reduced by the roll of your [melee attack damage]. Thus if you hold a greatsword, and your melee damage is 2d6+4, then the damage of that ranged attack is reduced by 2d6+4.
+- If a ranged weapon attack would hit anyway, despite being parried, the *physical* damage is reduced by the roll of your [melee attack damage] + [NAP]. Thus if you hold a greatsword, and your melee damage is 2d6+4 and your NAP is 5, then the damage of that ranged attack is reduced by 2d6+9.
 - If you fail a DEX save to evade a natural projectile (eg rockfall, or an arrow trap) when your declaration of parry is in effect, you can chose to deflect it, with the same effect as if you were deflecting a ranged weapon attack.
 
 **Original state**: If the roll for a ranged attack exceeds your HiT, it hits and can do damage.

@@ -277,6 +277,8 @@ ___
 |Spellcasting: Global I||||
 |Skills|||Athletics +9, Spellworking +7, Ride +7, Acrobatics +5, Climb +7, Creature Handling +7, Sense Motive +6, Observe +5, Arcana +5, Stealth +3, Heal +3, History +3|
 
+The spell threshold for a magic knight is Threshold=21 (INT)
+
 This represent an elite mystic warrior trained in sword and magic. Paladins, captains of inquisitorial orders, mage-hunters and battle mages all fall within this category. Leaders of nations in tune with the supernatural, religious orders and some cults may also be "magic knights".
 
 A magic knight will usually have an apprentice and servant. They may have a warhorse. A magic knight will carry a longsword and shield. Magic knights seldom carry ranged weapons, trusting their magics.
@@ -291,6 +293,8 @@ An elemental knight works like a Magic Knight with the following differences:
 - WIS=16
 - Replace "Spell Strike" with "Elemental Blast" (fire or ice).
 - Replace "Incantation" and "kinetic" with two elemental magics of choice.
+
+The spell threshold for a magic knight is Threshold=21 (WIS)
 
 Example, Elemental Knight, fire:
 |Ability|Bonus|Damage|Other|
@@ -943,6 +947,60 @@ This stat block represents a veteran beast folk warrior, who has fought in many 
 A warrior generally uses brigandine for armour, although might use any medium armour. Generally they will carry a few war darts or javelins. If they are hunting monsters, or expecting a large combat, they will carry spears to negate the advantage of numbers of foes or the size of monsters.
 
 A beast folk warrior prefers to approach its foe stealthily and then rush the foe and take it down with multiple strikes of its claws. Otherwise it prefers hit and run tactics before closing in for the kill. Beast folk warriors will retreat if victory is outside their reach, but they will generally die before surrendering to other humanoids.
+
+___
+## Beast folk mystic warrior
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|18/16/14|40|34|11|55ft|(30ft climb)|
+
+(+2 to HiT from "base")
+
+Wears light cuirass  (+1)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|10|18|14|10|14|14|
+|Bonus|+0|+4|+2|0|+2|+2|
+|Save|+5|+7|+4|+2|+6|+4|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|8(2)|13|13|3|3|5|5|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Strike|+8|1d8+3|(Unarmed Strike III)|
+|Shortstaff|+8|1d8+3|Modifier for throw and grapple, disarm increase to +10 when using a staff|
+|Greatbow|+8|1d10+4|1200ft/240ft|
+|Grapple|+8|||
+|Restrain|+8|||
+|Throw|+8|||
+|Disarm|+8|||
+|"[Multi attack I](../06-abilities.md#multi-attack-i-iii)"|||The warrior attacks twice|
+|"[Combined manoeuvre II](../06-abilities.md#combined-manoeuvre-i-v)"|||A mystic warrior can combine 3 manoeuvres (expends 1SP dice per combination)|
+|Foresight|||A mystic warrior adds +1 to HiT from WIS|
+|"[Flurry](../06-abilities.md#flurry)"|||A mystic warrior makes an extra attack with a light weapon or strike as a bonus action, or two if expending 1 MP dice|
+|"[Parry](../06-abilities.md#parry)"|||Adds +3 to HiT against up to 3 weapon attacks|
+|Deflect Missile|||Spend 1 SP dice to reduce damage from ranged weapon attacks by 1d8+9 on a failed parry|
+|"[Debilitating Strike](../06-abilities.md#debilitating-strike)"|||"Aphonic", "Blinded", "Stunned". Threshold=19|
+|"[Deflection](../06-abilities.md#deflection)"|||An arcane warrior may deflect some damage from supernatural attacks|
+|"[Xenophonia I](../06-abilities.md#xenophonia-i-xiii)" (animal)|||Can speak to animals|
+|"[Speed IV](../06-abilities.md#speed)"|||+10ft to movement speed for a total of 55ft|
+|"[Mage Hunter II](../06-abilities.md#mage-hunter-ii)|||Mystic warriors are strong against mages|
+|"[Silent Step I](../06-abilities.md#silent-step-i-iii)"|||A mystic warrior can stealth even while moving at full speed|
+|"[Life Sense I](../06-abilities.md#life-sense-i-v)"|||A mystic warrior can see the life-force of beings that are not undead within 15ft. The ability is blocked by 6ft of earht or organic material, or 2ft of stone or metal.|
+|"[Mental Fight](../06-abilities.md#mental-fight)"|||A mystic warrior can use MP dice and SAP for flurry, debilitating strike and Flash step if it so chooses.|
+|Spellcasting I|||Some beastfolk warriors are proficient with one kind of elemental magic, usually air.|
+|Senses|||"Low light vision"|
+|Skills|||"Fortify" +9, "Climb" +9, "Athletics" +9, "Swim" +5, "Stealth" +5, "Navigate" +3, "Sense Motive" +4, "Observe" +4, "Intimidate" +2, "Creature Handling" +2, "Harvest" +1, "Prospect" +1, "Track" +1|
+|Loot|||The clothes and weapons on their back|
+
+A mystic warrior can represent a master of martial arts who has trained for decades in a hidden temple, or a warrior who has travelled to the spirit realm to obtain knowledge that is ordinarily forbidden to mortals. This may be a high level assassin, spy, bodyguard or diplomat. Whichever it is, one should note that the stat block reflects an NPC of much higher ability level than a baseline "mook".
+
+A mystic warrior might carry a quarter staff or a greatbow, but is usually capable of handling most threats without weapons. Most mystic warriors will generally prefer to get what they want through dialogue, but are not averse to the use of force.
+
+In combat a mystic warrior prefers hit and run tactics, making good use of its combat manoeuvres and "debilitating strike" to disable dangerous opponents. If it has thе opportunity to do so, it will harry enemies with its greatbow before closing in.
 
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|

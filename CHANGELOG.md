@@ -187,10 +187,11 @@ ____
 - Add **"Deflection"** and **"Esoteric Deflection"** abilities for reducing damage from ranged supernatural attacks.
 
 ___
-## From v0.0.7
+## From v0.0.8
 
 ### General
-- 
+- Added more monsters and NPCs.
+- Disambiguate rules for dragging objects and towing vehicles.
 
 ### Combat
 - Make DEX/STR based weapons only apply [DEX] to damage if "finesse" feat is taken.
@@ -203,5 +204,5 @@ ___
 - Modify the "cure" spell to not restore body parts.
 
 ### Abilities
-- 
+- Increase damage reduction by Deflect Missile (since it's not free).
 

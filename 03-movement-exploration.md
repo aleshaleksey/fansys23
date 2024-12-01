@@ -57,6 +57,13 @@ How much a character can carry is determined by its Str and its size. As a chara
   - All Str, Con, Dex based rolls, attacks and saves: -6
   - Maximum durations for walking (marching), running and sprinting before Con saves have to be made, is halved.
 
+### Dragging
+
+Dragging a load, or pulling a vehicle, burdens a character somewhat differently to carrying the same load.
+- Characters dragging objects below "light load" can move at full speed, unless on difficult terrain. This limit is doubled for slick surface, or pulling vehicles.
+- When dragging objects weighing between "light load" and "heavy load", characters move at half of their walk (or dig speed if digging) and cannot sprint. This limit is likewise doubled for slick surfaces and pulling vehicles.
+- When dragging objects weighing higher than "heavy load", characters move at half of their walk speed and no faster than 10ft. In addition they cannot dig.
+
 ### Weight limits and size
 
 For every size above medium, the carrying capacity limits are doubled. For every size below medium, the carrying capacity limits are halved.
@@ -82,6 +89,7 @@ Most entities with a "walk" speed can:
 - **Run (2 x base speed)**: This represents a steady jog, a very brisk walk, or rapid movement with obstacles and changes of direction. Typically a humanoid can run for [CON] hours before fatiguing, and the penalty is subsequently applied every 10 minutes. For a base human this is 60ft or 6mph.
 - **Sprint (4 x base speed)**: This represents movement at maximum pace in a fairly straight line, over unbroken terrain free from obstacles. A typical human can sprint for [STR] rounds before becoming fatigued and the penalty is subsequently applied every round. For a base human this is 120ft or 12mph.
 - **Difficult terrain:** Some rocky, overgrown, sloping, slippery terrain is classed as "difficult". Narrow passages also count as difficult terrain.
+- **Dragging objects:** See the "[dragging](#dragging)" rules above.
 
 ### Climb
 Climbing is upwards or downwards movement over steep or near vertical terrain. Entities with a "climb" speed can move along this kind of surfaces at their stated speed. Entities with a climb speed must still succeed a "climb" roll when climbing, but they can always choose to take care on this roll.

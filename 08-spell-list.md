@@ -3759,7 +3759,7 @@ ___
     - [Hide](#hide)
     - [Least Shroud](#least-shroud)
     - [Mist](#mist)
-    - [Silence](#silent)
+    - [Silent](#silent)
     - [Whispers](#whispers)
 - Other
 

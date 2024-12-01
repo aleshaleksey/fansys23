@@ -201,7 +201,7 @@ ___
 ### Human Knight
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|24/21/21|65|54|14|30|-|
+|24/21/21|65|54|16|30|-|
 
 (+2 from base)
 
@@ -236,6 +236,68 @@ ___
 A knight is an elite warrior, trained from birth to fight and rule. This block can also represent generals and kings who lived their life on the battlefield.
 
 A knight usually has a warhorse, squire and attendants. Like a warrior, he will carry a main weapon and shield into battle and carry a side arm. Knights seldom carry ranged weapons, trusting their heavy armour to protect and squire (stat as [militiaman](#human-militia)) to back them up.
+
+___
+### Human Magic Knight
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|22/19/21|44|59|13|30|-|
+
+(+2 from base)
+
+(Stat block assumes Longsword, Heavy Shield, Cuirass)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|16|12|14|16|12|16|
+|Bonus|+3|+1|+2|+3|+1|+3|
+|Save|+5|+3|+7|+4|+6|+5|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
+|-|-|-|-|-|-|-|
+|9(2)|13|16|3|3|5|5|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Longsword|+8|1d8/1d12+3||
+|Dagger|+8|1d4+3||
+|Multi-attack I|||Makes 2 attacks|
+|Parry|||Give up reaction to gain +3 to HiT against up to 3 weapon attacks|
+|Great Strike||| Up to -3/+3|
+|[Interception](../04-combat.md#basic-martial-manoeuvres)||||
+|Combined Manoeuvre I|||Two manoeuvres in one|
+|[Deflection](../06-abilities.md#deflection)|||A magic knight can reduce damage from ranged supernatural attacks by 1d4+5+([MP dice]d4)|
+|[Arcane Interception](../06-abilities.md#arcane-interception)||A magic knight can use "Interception" against supernatural attacks that require a saving throw|
+|[Safe Cast](../06-abilities.md#safe-cast)|||Spells with Kinetic components do not provoke attacks of opportunity|
+|[War Mage](../06-abilities.md#safe-cast)|||Advantage on concentration saves when maintaining spells|
+|Debilitating Strike: Aphonia|||Threshold=19|
+|"[Spell strike: Heavy Blade](../06-abilities.md#spell-strike)|+8|||
+|Spellcasting: Incantation VI|||"[Least Ward](../08-spell-list.md#least-ward)", "[Ignition](../08-spell-list.md#ignition)", "[Least Heal](../08-spell-list.md#least-heal)", "[Least Rest](../08-spell-list.md#least-rest)", "[Cure](../08-spell-list.md#cure)", "[Summon Spirit](../08-spell-list.md)"|
+|Spellcasting: Kinetic II|||"[Compass](../08-spell-list.md#compass)", "[Mist](../08-spell-list.md#mist)", "[whispers](../08-spell-list.md#whispers)", "[Winter's Touch](../08-spell-list.md#winters-touch)", "[Earthen Hand](../08-spell-list.md#earthen-hand)"|
+|Spellcasting: Global I||||
+|Skills|||Athletics +9, Spellworking +7, Ride +7, Acrobatics +5, Climb +7, Creature Handling +7, Sense Motive +6, Observe +5, Arcana +5, Stealth +3, Heal +3, History +3|
+
+This represent an elite mystic warrior trained in sword and magic. Paladins, captains of inquisitorial orders, mage-hunters and battle mages all fall within this category. Leaders of nations in tune with the supernatural, religious orders and some cults may also be "magic knights".
+
+A magic knight will usually have an apprentice and servant. They may have a warhorse. A magic knight will carry a longsword and shield. Magic knights seldom carry ranged weapons, trusting their magics.
+
+In combat a magic knight will attack its foes perceived weakness. A magic knight will fight to the death if their goal necessitates it, but will otherwise retreat if overwhelmed. Magic knights are generally loath to surrender.
+
+___
+### Human Magic Knight Variant: Elemental Knight
+
+An elemental knight works like a Magic Knight with the following differences:
+- INT=12
+- WIS=16
+- Replace "Spell Strike" with "Elemental Blast" (fire or ice).
+- Replace "Incantation" and "kinetic" with two elemental magics of choice.
+
+Example, Elemental Knight, fire:
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|[Elemental Blast: Fire](../06-abilities.md#elemental-blast)|+8|1d6+1|+1d6 fire damage per MP dice|
+|Spellcasting: Fire IV|||"[Ignition](../08-spell-list.md#ignition)", "[Least Warmth](../08-spell-list.md#least-warmth)", "[Foxfire](../08-spell-list.md#foxfire)", "[Least Vengeance](../08-spell-list.md#least-vengeance)", "[Meadow of Flame](../08-spell-list.md#meadow-of-flame)", "[Warmth](../08-spell-list.md#warmth)", "[Command Mortal](../08-spell-list.md#command-mortal)", "[Fire Ward](../08-spell-list.md#fire-ward)", "[Balance of Elements](../08-spell-list.md#balance-of-elements)", "[Speak Through Flame](../08-spell-list.md#speak-through-flame)"|
+|Spellcasting: Water II|||"[Mist](../08-spell-list.md#mist)", "[Least Freeze](../08-spell-list.md#least-freeze)", "[Sense Spell](../08-spell-list.md#sense-spell)", "[Winter's Touch](../08-spell-list.md#winters-touch)", "[Dusk](../08-spell-list.md#dusk)", "[Trace Secret Path](../08-spell-list.md#trace-secret-path)"|
 
 ___
 ## Elf

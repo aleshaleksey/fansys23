@@ -24,31 +24,33 @@ ___
 ### Lesser corporeal horror
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-||||||
+|10/10/10|40|24|9|30ft|20ft (climb)|
 
 Large(-1/+1)
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|23|10|17|7|15|9|
-|Bonus|+6|0|+3|-2|+2|-1|
-|Save|+7|+1|+4|-1|+3|-2|
+|Stat|23|10|17|7|15|13|
+|Bonus|+6|0|+3|-2|+2|+1|
+|Save|+7|+1|+4|-1|+3|+2|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|5(1)|7|1|2|1|3|2|
+|6(1)|11|9|2|2|4|4|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Claws|+9|1d6+6|Shear|
-|Bite|+9|1d6+6|Shear|
-|Grapple|+9|||
-|Shove|+9|||
+|Claws|+10|1d6+6|Shear|
+|Bite|+10|1d6+6|Shear|
+|Grapple|+10|||
+|Shove|+10|||
 |Combined Manoeuvre I||||
+|Monster Attack I|||The corporeal horror makes one attack with its claws, and one with its bite|
+|Broad Strike|||Claws only|
 |Aura of Nausea|Threshold=19 CON save||All entities that start their turn within 15 feet must make a Threshold=19 CON save or be "incapacitated". An entity can repeat its save at the start of each of its turn. Upon succeeding, it is no longer "incapacitated", and cannot be, for 24 hours.|
 |Scream|Threshold=15 CON save||As a secondary action, the horror can issue a pained shriek (1 SP dice). Any entity within 30ft that hears the shriek must make a Threshold=15 WIS save or become "frightened" of the horror. An entity can repeat its save at the start of each of its turn. Upon succeeding, it is no longer "frightened", and cannot be, for 24 hours.|
 |Vulnerability|||"divine", "lightning"|
-|Resistant|||"physical" damage|
+|Resistant|||"physical" damage except "slashing" and "pressure"|
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
 |Senses|||"low-light vision", "life-sense" 30ft|
 
@@ -88,7 +90,7 @@ ___
 |Claws|+4(+6)|1d4+2(+3)||
 |Longsword|+3(+5)|1d8/1d12+1(+2)||
 |Sling|+4(+6)|1d6+2(+3)|range=1600/80|
-|Resistant|||"physical" damage|
+|Resistant|||"physical" damage except "percussive" and "pressure"|
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"
 |Senses|||"low-light vision", "life-sense" 60ft|
 

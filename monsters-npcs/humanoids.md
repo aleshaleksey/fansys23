@@ -10,6 +10,8 @@ This section contains a few NPC stat blocks and notes on their intended use and 
 - [Human Guard](#human-militia)
 - [Human Warrior](#human-warrior)
 - [Human Knight](#human-knight)
+- [Human Magic Knight](#human-magic-knight)
+- [Human Elemental Knight](#human-magic-knight-variant-elemental-knight)
 - [Elvish Youth](#elvish-youth)
 - [Elf](#elf)
 - [Elvish Elder](#elvish-elder)
@@ -23,6 +25,10 @@ This section contains a few NPC stat blocks and notes on their intended use and 
 - [Winged Shepherd](#winged-shepherd)
 - [Winged Scout](#winged-scout)
 - [Winged Wind Mage](#winged-wind-mage)
+- [Beast Folk](#beast-folk)
+- [Beast folk traveller](#beast-folk-traveller)
+- [Beast folk warrior](#beast-folk-warrior)
+- [Beast folk mystic warrior](#beast-folk-mystic-warrior)
 - []()
 
 ## Human

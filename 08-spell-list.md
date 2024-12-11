@@ -131,7 +131,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Greater Fire Ward](#greater-fire-ward)
 - [Inner Voice](#inner-voice)
 - [Legion of Dead](#legion-of-dead)
-- [Lesser Regrowth](#lesser-regrowth)
+- [False Regrowth](#false-regrowth)
 - [Metamorphosis/Rebirth](#metamorphosisrebirth)
 - [Otherworld Step](#otherworld-step)
 - [Razor Wind](#razor-wind)
@@ -2870,6 +2870,31 @@ Collectively, the fey offer one piece of useful knowledge between, and should vi
 - Resistance to all physical damage types.
 
 ___
+### False Regrowth
+|Name|False Regrowth [Earth, Ice, Water]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|6 (24)|
+|Target(s)|1 entity|
+|Casting time|1 action (6 hours)|
+|Range|close|
+|Duration|1 hour (1 month)|
+|Limitation|Only affects entities with a physical form|
+|Limitation|The spell has no effect on "profane" entities, or those aligned with "air" or "fire"|
+|Components|incantation, kinetic|
+|Save|CHA|
+
+**Description**: The caster manipulates the elements of earth or water (depending on the school used to learn the spell), to create a body part or earth or ice, functionally and visually indistinguishable from the original. The target is cured of the crippled condition and also immune to it for the duration of the spell. The entity likewise regains 1SP (but no SP dice) at the start of its turn if its total SP is below its total SP dice count for the duration of the spell.
+
+When the spell ends, the body part crumbles to dust or melts into a puddle.
+
+**Limitation**: 
+- Only affects entities with a physical form.
+- The spell has no effect on "profane" entities or those aligned with "air" or "fire".
+
+**Upcast**: For every extra MP die above 6, an extra body part can be restored.
+
+___
 ### Forest of Flame
 |Name|Forest of Flame [Fire, Destruction]|
 |-|-|
@@ -2951,29 +2976,6 @@ If the undead are not destroyed by the end of the spell, or the caster loses con
 **Global**: The spell has a radius of 1000ft and the duration is 1 week. For every 4 MP dice extra, the casting time increases by 2h, and the radius increases by 300ft. The spell does not require concentration is, **but** the caster cannot cast the spell again as a global spell for a week.
 
 **Notes**: This spell produces a large number of units, possibly in the thousands. It is recommended that the DM controls the legion and uses it as a single group or AoE rather than individually rolling for each undead.
-
-___
-### Lesser Regrowth
-|Name|Regrowth [Life, Nature]|
-|-|-|
-|Scope|local|
-|MP Dice|6|
-|Target(s)|1 entity|
-|Casting time|1 minute|
-|Range|close|
-|Duration|immediate|
-|Limitation|Only affects entities with a physical form|
-|Limitation|he spell has no effect on "profane" entities|
-|Components|incantation, kinetic|
-|Save|CHA|
-
-**Description**: The caster restores a single missing body part to the target entity. This can cure the "crippled" condition.
-
-**Limitation**: 
-- Only affects entities with a physical form.
-- The spell has no effect on "profane" entities.
-
-**Upcast**: For every extra MP die above 6, an extra body part can be restored.
 
 ___
 ### Metamorphosis/Rebirth
@@ -4003,7 +4005,6 @@ ___
 
 - Nature
     - [Fairy Feast](#fairy-feast) [6]
-    - [Lesser Regrowth](#lesser-regrowth) [6]
     - [Create Secret Path](#create-secret-path) [7]
     - [Transform Mortal](#transform-mortal) [7]
     - [Greater Weather Control](#greater-weather-control) [7]
@@ -4020,6 +4021,7 @@ ___
     - [Greater Cosmic Seal](#greater-cosmic-seal) [8]
     - []()
 - Earth
+    - [False Regrowth](#false-regrowth) [6]
     - [Create Secret Path](#create-secret-path) [7]
     - [Portal](#portal) [7]
     - [Greater Domain](#greater-domain) [8]
@@ -4036,6 +4038,7 @@ ___
     - [Realm of Flame](#realm-of-flame) [10]
     - []()
 - Water
+    - [False Regrowth](#false-regrowth) [6]
     - [Inner Voice](#inner-voice) [6]
     - [Create Secret Path](#create-secret-path) [7]
     - [Transform Mortal](#transform-mortal) [7]

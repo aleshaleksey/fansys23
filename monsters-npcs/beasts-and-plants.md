@@ -311,6 +311,37 @@ ___
 This is a large, herbivorous dinosaur, that dwells mostly in marsh and wetland terrain. They are not naturally aggressive, but can be dangerous by virtue of their size.
 
 ___
+### Swarm of Bees
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|13/11/13|18|16|7|10ft|40ft (fly)|
+
+A swarm of bees is medium sized.
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|2|15|14|3|12|14|
+|Bonus|-5|+2|+2|-4|+1|+2|
+|Save|-4|+3|+3|-3|+2|+3|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|3(1)|6|5|1|1|2|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Sting|+4|1[piercing] + 1d4[poison]|The suffers 1d4 poison at the start of every subsequent round for a minute or until is succeeds on a Threshold=16 CON save. Every time the swarm hits with a sting attack it loses 1 HP.|
+|Grapple/Infiltrate|+6||A swarm that enters the space of another entity can attempt to land and find exposed areas on a target as a main action. A bee swarm that has successfully grappled/infiltrated its target automatically hits with its sting if it stings on subsequent rounds.|
+|Home Territory|||A swarm always succeeds on navigation rolls on home terrain|
+|Skills|||"Navigate" -2, "Harvest" +4|
+|Scattered Cover|||The swarm is considered to have "[heavy cover](../04-combat.md#cover-and-concealment)" for the sake of targeted attacks made against it.|
+|Resistant|||"Bludgeoning, ""Piercing", "Shear", "Slashing"|
+|Resistant|||"Fear","Charm"|
+|Immune|||"Grappled","Bleeding","Grappled","Restrained","Crippled","Paralysed"|
+
+Bees swarm when angered, disturbed, when their home is damaged or destroyed, or when leaving the hive with a new queen to form a new hive. Bee swarms in the latter case are reluctant to attack, since every attack they make costs them the lives of their own that cannot be replaced.
+
+___
 ## Plants
 
 Plants mostly produce nourishment from air, water, minerals and sunlight. Some, however, supplement this with the flesh of other mortals. Plants breathe, drink and eat. Plants do not sleep. Plants are immune to "frightened", "blinded", "stunned", "catatonic" and "paralysed".

@@ -2876,7 +2876,7 @@ ___
 |Scope|local (global)|
 |MP Dice|6 (24)|
 |Target(s)|1 entity|
-|Casting time|1 action (6 hours)|
+|Casting time|1 action (6 days)|
 |Range|close|
 |Duration|1 hour (1 month)|
 |Limitation|Only affects entities with a physical form|

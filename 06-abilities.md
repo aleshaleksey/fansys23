@@ -323,7 +323,7 @@ ___
 
 **Description**: Sacrifice precision for power when making melee attacks. (Swing like a helicopter).
 
-**Action**: When making an attack with a melee weapon, take a penalty up to your [Nat] to your attack roll and take the same number as a bonus to your damage if you hit.
+**Action**: When making an attack with a melee weapon that is governed by STR, take a penalty up to your [Nat] to your attack roll and take the same number as a bonus to your damage if you hit. If the weapon is a two-handed "[heavy weapon](11-weapons-armour.md#weapon-properties)", the bonus to damage is doubled.
 
 ___
 #### Greater Manoeuvre I-V

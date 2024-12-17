@@ -2916,7 +2916,7 @@ ___
 
 **Upcast**: For every extra MP die above 5, increase the radius by 10ft and height by 5ft or increase the damage by 2d8.
 
-**Global**: Creates an inferno, large enough to engulf a small town. For every extra 4MP the radius increases by 200ft and the height increases by 10ft. Elemental lords might use this kind of magic for "amelioration" when visiting the mortal realm.
+**Global**: Creates an inferno, large enough to engulf a small town. For every extra 4MP the radius increases by 200ft and the height increases by 10ft. Elemental lords of fire might use this kind of magic for "amelioration" when visiting the mortal realm.
 
 ___
 ### Inner Voice
@@ -3460,7 +3460,7 @@ ___
 **Description**: The caster grants immense vitality. For the duration of the spell, every round as a secondary action, the target can either:
 - Regain 1 HP if its current HP is below half of its HP total.
 - Reconnect a severed body part, or restored a crippled (but not missing) body part.
-- Cure "blinded", "deafened", "diseased", "poisoned", "bleeding", "paralysed" on itself, if the condition is caused by a damaged.
+- Cure "blinded", "deafened", "diseased", "poisoned", "bleeding", "paralysed" on itself, if the condition is caused by a damaged body part.
 
 In addition the target can forgo these effects for a minute to regrow a body part.
 

@@ -195,12 +195,13 @@ ___
 
 ### Combat
 - Make DEX/STR based weapons only apply [DEX] to damage if "finesse" feat is taken.
+- Make Great Strike attack specifically to STR based attacks and do extra damage for two handed heavy weapons.
 
 ### Races
 - 
 
 ### Spells
-- Add "regrowth" and "lesser regrow" spells.
+- Add "regrowth" and "false regrow" spells.
 - Modify the "cure" spell to not restore body parts.
 
 ### Abilities

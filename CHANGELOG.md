@@ -203,6 +203,8 @@ ___
 ### Spells
 - Add "regrowth" and "false regrow" spells.
 - Modify the "cure" spell to not restore body parts.
+- Make "Blessing of the Fates" a little bit more powerful (the save probably makes it too weak).
+- Make "Healing Seed" a little more powerful.
 
 ### Abilities
 - Increase damage reduction by Deflect Missile (since it's not free).

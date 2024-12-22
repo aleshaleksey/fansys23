@@ -102,6 +102,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [False Aura](#false-aura)
 - [Gift of the Fates](#gift-of-the-fates)
 - [Greater Xenophonia](#greater-xenophonia)
+- [Healing Seed](#healing-seed)
 - [Lesser Domain](#lesser-domain)
 - [Least Storm](#least-storm)
 - [Lesser Incarnation](#lesser-incarnation)
@@ -117,7 +118,6 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Flawed Transmute](#flawed-transmute)
 - [Greater Fade](#greater-fade)
 - [Greater Fire Ward](#greater-fire-ward)
-- [Healing Seed](#healing-seed)
 - [Isolate Essence](#isolate-essence)
 - [Lesser Cosmic Seal](#lesser-cosmic-seal)
 - [Pact](#pact)
@@ -1525,7 +1525,7 @@ ___
 
 **Description**: The spell allows one to redirect destiny. When an entity or object in range are targeted by an attack or suffer a harmful effect that affects only one object or entity, the caster may redirect it at another valid target within range. Likewise the caster may redirect an AoE targeted at a point in range to any other valid point in range.
 
-If the effect (or attack) is caused by an entity with a WIS score, it may make a WIS save vs the caster's threshold to nullify the spell.
+In the case that an AoE is being redirected, if it is caused by an entity with a WIS score, the entity may make a WIS save vs the caster's threshold to nullify the spell.
 
 **Limitations**:
 - If there are no valid targets in range, the spell fails.
@@ -2230,7 +2230,7 @@ ___
 |Limitation|The spell doe not affect "profane" or "divine" entities.|
 |Save|WIS|
 
-**Description**: The caster gifts on entity that is making a targetted attack or save, casting the spell after the action is declared, but before the attack/save is resolved. The target of the spell can reject the effect with a successful WIS save. Effect:
+**Description**: The caster gifts one entity that is making a targetted attack or save, casting the spell after the action is declared, but before the attack/save is resolved. The target of the spell can reject the effect with a successful WIS save. Effect:
 - The target may treat one of the dice it rolls as 12. The target choses which of its dice to treat as a 12.
 
 ___
@@ -2253,6 +2253,29 @@ ___
 **Upcast**: For every extra MP die above 4, the spell lasts for an extra 12 minutes or affects an extra target.
 
 **Global**: As the local casting, but is centered on a point and allows all entities within 120ft to communicate to entities of the chosen subkind. The spell lasts for 24 hours. For every 4 extra MP dice placed in the spell, the radius increases by 360ft or the spell lasts for an extra day.
+
+___
+### Healing Seed
+|Name|Greater Heal [Life, Nature, Earth]|
+|-|-|
+|Scope|local|
+|MP Dice|4|
+|Target(s)|1 entity|
+|Casting time|1 full round action|
+|Range|close|
+|Duration|1 minute|
+|Components|Incantation, Kinetic|
+|Focus|-|
+|Material|1HP worth of blood or life essence|
+|Limitation|Spell ends when the target reaches 1 HP|
+|Concentration|yes|
+|Save|CHA|
+
+**Description**: The caster seeds life into a dying being. Every round, at the start of its turn it regains 1 HP. The spell ends once its target reaches 1 HP.
+
+**Special**: The spell causes 1 point of divine damage to undead at the start of each of their turns. A successful CHA save (repeated at the start of every turn) ends the spell. Regardless, the spell ends once the target reaches 1 HP.
+
+**Upcast**: For every extra MP die above 5, the spell increases the healing/damage by 1HP per round..
 
 ___
 ### Lesser Domain
@@ -2632,29 +2655,6 @@ ___
 **Upcast**: The spell radius increases by 10ft or the damage increases by 1d8 for every extra MP die above 5 (local).
 
 **Global**: The spell lasts for a day and has a radius of 800ft. For every extra 4 MP dice, the radius increases by 200ft, or the damage increases by 1d8. Likewise, the duration increases by 1 day.
-
-___
-### Healing Seed
-|Name|Greater Heal [Life, Nature, Earth]|
-|-|-|
-|Scope|local|
-|MP Dice|5|
-|Target(s)|1 entity|
-|Casting time|1 full round action|
-|Range|close|
-|Duration|1 minute|
-|Components|Incantation, Kinetic|
-|Focus|-|
-|Material|1HP worth of blood or life essence|
-|Limitation|Spell ends when the target reaches 1 HP|
-|Concentration|yes|
-|Save|CHA|
-
-**Description**: The caster seeds life into a dying being. Every round, at the start of its turn it regains 1 HP. The spell ends once its target reaches 1 HP.
-
-**Special**: The spell causes 1 point of divine damage to undead at the start of each of their turns. A successful CHA save (repeated at the start of every turn) ends the spell. Regardless, the spell ends once the target reaches 1 HP.
-
-**Upcast**: For every extra MP die above 5, the spell lasts for an extra minute.
 
 ___
 ### Isolate Essence
@@ -3912,6 +3912,7 @@ ___
     - [Balance of Nature](#balance-of-nature)
     - [Bestial Transformation](#bestial-transformation)
     - [Greater Xenophonia](#greater-xenophonia)
+    - [Healing Seed](#healing-seed)
     - [Rejuvenate Land](#rejuvenate-land)
 - Air
     - [Balance of Elements](#balance-of-elements)
@@ -3956,10 +3957,8 @@ ___
 
 - Nature
     - [Greater Fade](#greater-fade)
-    - [Healing Seed](#healing-seed)
     - [Lesser Cosmic Seal](#lesser-cosmic-seal)
     - [Plague](#plague)
-    - [Healing Seed](#healing-seed)
     - []()
 - Air
     - [Greater Fade](#greater-fade)
@@ -4095,6 +4094,27 @@ ___
 |Material||
 |Limitation||
 |Save||
+
+### 
+|Name| []|
+|-|-|
+|Scope||
+|MP Dice||
+|Target(s)||
+|Casting time||
+|Range||
+|Duration||
+|Components||
+|Focus||
+|Material||
+|Limitation||
+|Save||
+
+**Description**:
+
+**Special**:
+
+**Upcast**:
 
 ### 
 |Name| []|

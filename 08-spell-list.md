@@ -3268,7 +3268,7 @@ ___
 |Damage|2d8/4d8+[Sup] pressure|+6
 |Save|WIS (harmless), Dex|
 
-**Description**: The target gains a flight speed (poor) of its walking speed + 360ft (spell can be negated with a successful WIS save). During this time it MUST take at a "move" or "run" action every round. When the target lands, it deals a it deals 2d8+[Sup] damage to everything within 20ft, or 4d8+[Sup] if took the "run" action on the turn it landed. The target takes half of this damage. This damage is halved on a successful DEX save (the target of the spell does not get a save).
+**Description**: The target gains a flight speed (poor) of its walking speed + 360ft (spell can be negated with a successful WIS save). During this time it MUST take at a "move" or "run" action every round. When the target lands, it deals 2d8+[Sup] damage to everything within 20ft, or 4d8+[Sup] if took the "run" action on the turn it landed. The target takes half of this damage. This damage is halved on a successful DEX save (the target of the spell does not get a save).
 
 The target cannot be restrained or immobilised by any means other than a higher MP spell for the duration of the spell (but it can be killed, usually).
 

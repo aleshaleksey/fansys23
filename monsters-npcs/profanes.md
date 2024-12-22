@@ -49,7 +49,7 @@ Large(-1/+1)
 |Broad Strike|||Claws only|
 |Aura of Nausea|Threshold=19 CON save||All entities that start their turn within 15 feet must make a Threshold=19 CON save or be "incapacitated". An entity can repeat its save at the start of each of its turn. Upon succeeding, it is no longer "incapacitated", and cannot be, for 24 hours.|
 |Scream|Threshold=15 CON save||As a secondary action, the horror can issue a pained shriek (1 SP dice). Any entity within 30ft that hears the shriek must make a Threshold=15 WIS save or become "frightened" of the horror. An entity can repeat its save at the start of each of its turn. Upon succeeding, it is no longer "frightened", and cannot be, for 24 hours.|
-|Vulnerability|||"divine", "lightning"|
+|Vulnerability|||"divine", "light"|
 |Resistant|||"physical" damage except "slashing" and "pressure"|
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
 |Senses|||"low-light vision", "life-sense" 30ft|
@@ -144,7 +144,7 @@ Like skeletons, zombies will obey whoever raised them. Otherwise they wonder aro
 
 Zombies are not proficient with anything other than their natural attacks and "grapple". They cannot communicate, but can be commanded by way of dark magics.
 
-**Zombify**: Any mortal bitten once or more by a zombie must make a Con save at midnight. Should they fail, they will become a zombie in 6d12 hours. This disease counts as magic and can oly be cured by supernatural means.
+**Zombify**: Any mortal bitten once or more by a zombie must make a Con save at midnight. Should they fail, they will become a zombie in 6d12 hours. This disease counts as magic and can only be cured by supernatural means.
 
 ___
 ### Cursed Shade (lesser)
@@ -164,7 +164,8 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Shade's touch|+5|1d4+1|Necrotic damage. Entities touched must succeed a Threshold=18 WIS save or be "catatonic" until they are no longer in line of sight of the shade.|
+|Shade's touch|+5|1d4+1|"Profane" damage. Entities touched must succeed a Threshold=18 WIS save or be "catatonic" until they are no longer in line of sight of the shade.|
+|Profane aura|||(Range = 30ft) A shade removes warmth and vital energies from within 30ft. The temperature within the aura drops by one category. All mortals entering or starting their turn in a shade's aura must succeed on a CON save (threshold=18) or have disadvantage on DEX based rolls and take 3 points of supernatural cold damage.|
 |Resistant|||"fire", "ice", "lightning" damage|
 |Vulnerability|||"divine", "light"|
 |Immune|||"physical" damage and all combat manoeuvres carried out without "spiritual" properties|
@@ -172,6 +173,7 @@ ___
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
 |Spellcasting III|||"[Least Curse](../08-spell-list.md#least-curse)"|
 |Senses|||"low-light vision", "life-sense" 60ft|
+|Horror of the Dark|||The shade has advantage on "stealth" in low-light and darkness. If exposed to direct sunlight, the shade dissipates until low-light conditions are restored|
 
 Cursed shades are incorporeal undead. They are the vestiges of those who died cursing their own existence. Nevertheless they are incredibly dangerous.
 
@@ -203,6 +205,8 @@ ___
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
 |Spellcasting III|||"[Least Curse](../08-spell-list.md#least-curse)"|
 |Senses|||"low-light vision", "life-sense" 60ft|
+|Horror of the Dark|||The shade has advantage on "stealth" in low-light and darkness. If exposed to direct sunlight, the shade dissipates until low-light conditions are restored|
+
 Earthbound shades are lesser incorporeal undead that cannot detach themselves from the earth's surface. Nevertheless they are incredibly dangerous.
 
 NB: Shades are dangerous since they cannot be harmed by most weapons and are highly resistant to 3/4 elements.

@@ -192,10 +192,12 @@ ___
 ### General
 - Added more monsters and NPCs.
 - Disambiguate rules for dragging objects and towing vehicles.
+- Clarify that you will die of starvation eventually (starts eating maximum HP after all else).
 
 ### Combat
 - Make DEX/STR based weapons only apply [DEX] to damage if "finesse" feat is taken.
 - Make Great Strike attack specifically to STR based attacks and do extra damage for two handed heavy weapons.
+- Clarify the order of MP, SP and HP damage.
 
 ### Races
 - 
@@ -204,7 +206,7 @@ ___
 - Add "regrowth" and "false regrow" spells.
 - Modify the "cure" spell to not restore body parts.
 - Make "Blessing of the Fates" a little bit more powerful (the save probably makes it too weak).
-- Make "Healing Seed" a little more powerful.
+- Make "Healing Seed" a little more powerful (drop down a level, add more healing, make duration shorter).
 
 ### Abilities
 - Increase damage reduction by Deflect Missile (since it's not free).

@@ -55,7 +55,7 @@ There are a number of general rules pertaining to spellcasting.
 5. If a spell lasts for a round or longer, affected entities make the initial save at the start of its turn and gets a save at the start of every turn against harmful effects of the spell unless otherwise stated otherwise in its description.
   - For spells with a duration of less than one round, the save is made immediately and no repeated saves are applicable, unless stated otherwise in the spell description.
   - This is in accordance with the ["Damage and effects over time"](04-combat.md#damage-and-effects-over-time).
-6. All damage caused by spells, unless otherwise stated, counts as "supernatural". The major exception is physical damage (bludgeoning, shear, piercing, pressure, slashing), which is always "natural".
+6. All damage caused by spells, unless otherwise stated, counts as "supernatural". The major exception is "[physical damage](10-conditions-types.md#physical-damage)" (bludgeoning, shear, piercing, pressure, slashing), which is always "natural", unless stated otherwise in the spell.
 
 ___
 ### Spells, Limitations and Alignment

@@ -359,7 +359,7 @@ An entity that is on fire takes fire damage at the start of each of its turns, i
 
 ___
 ### Characters, starvation, and other bad ways to die
-Most characters are morals and therefore require **sustenance** and suffer from **conditions**. This can cause certain problems in the great outdoors and other hazardous locales.
+Most characters are morals and therefore require **sustenance** and suffer from **conditions**. This can cause certain problems in the great outdoors and other hazardous locales. While starvation is deterioration and death from hunger, all this section uses an umbrella term "starvation" for all four forms of deprivation classified here.
 - A mortal that goes without sustenance for a given period of time begins to deteriorate and eventually die.
 - A mortal that is deteriorating without sustenance stops deteriorating when sustenance is returned. However if sustenance is withdrawn within a given time period, the deterioration begins immediately.
 - The time periods can be modified by various factors. Usually environmental factors.
@@ -376,7 +376,9 @@ Most characters are morals and therefore require **sustenance** and suffer from 
 |**Suffocation**| Lose 2d6 HP every minute.|short rest|
 |**Dehydration**|Lose 1 SP dice per hour from your maximum.|long rest|
 |**Starvation**|Lose 1 SP dice per day from your maximum.|full rest|
-|**Insomnia**|Lose 3 SP dice per day.|full rest|
+|**Insomnia**|Lose 3 SP AND 3 MP dice per day from your maximum.|full rest|
+
+If an entity's SP/MP dice maximum reaches zero through any form of privation, it will lose HP at the same rate.
 
 The loss of dice due to suffocation, dehydration, starvation and insomnia is considered "temporary". A suitable period of rest (see above) restores the dice total and any lost dice.
 
@@ -390,11 +392,11 @@ This can be dreamscapes, which can change unpredictably and at the drop of a hat
 
 This can be quite literally enchanted areas, where the enchantment alters the nature of the area (see ["Undying realm"](08-spell-list.md#undying-realm)).
 
-This can be other planes that follow different physical laws. the laws of logic, causality, and magic may also be altered.
+This can be other planes that follow different physical laws. The laws of logic, causality, and magic may also be altered.
 
 This can be "spirit realms", which are entirely immaterial, but unlike dreamscapes, very real indeed, with what characters with a physical form experience in those realms being *an interpretation that the mortal mind can grasp* rather than the true nature of those realms.
 
-This game defines rules for some kinds of supernatural terran, but due to the vastness of the topic, encourages DMs and groups to set off on a flight of fancy, and in their fantasy worlds, create their own fantastic terrain with its own particulars. It should be noted, however, that this kind of terrain drastically changes the balance of the game, and should thus be used carefully.
+This game defines rules for some kinds of supernatural terrain, but due to the vastness of the topic, encourages DMs and groups to set off on a flight of fancy, and in their fantasy worlds, create their own fantastic terrain with its own particulars. It should be noted, however, that this kind of terrain drastically changes the balance of the game, and should thus be used carefully.
 
 ___
 ### Spirit Realms

@@ -63,7 +63,7 @@ A target is considered ["dying"](10-conditions-types.md#conditions-in-detail) wh
 
 Entities that are immune to "dying" fall unconscious instead until, but are still destroyed when they reach the negative of their total HP. Some entities, like undead, are instantly destroyed upon reaching 0 HP. Likewise, a group may decide that monsters and NPCs simply die at 0 HP for the sake of simplicity. This kind of house rule should be made explicitly clear at the start of a game.
 
-Of course most offensive abilities must first "eat" through the SP or MP of a target before working away at the HP.
+Of course most offensive abilities must first "eat" through the SP or MP of a target before working away at the HP. "Natural" attacks will first subtract from SP and only when that reaches 0, or if an attack deals massive damage, will HP damage be sustained. Likewise "supernatural" attacks will first subtract from MP.
 
 1. Entities that do not have a CON score may use their CHA score instead.
 

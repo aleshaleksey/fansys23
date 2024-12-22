@@ -110,6 +110,8 @@ ___
 
 Physical damage destroys the physical structure of a target by direct application of physical force. Weapon damage is almost always physical damage. Entities without a physical form are ALWAYS immune to physical damage. Entities with a supernatural form may also be immune to physical damage (eg spirits).
 
+Physical damage, is generally considered "natural", even if it is caused by most [spells](07-magic-and-spellcasting.md).
+
 **Piercing** damage is typically caused by teeth and pointy weapons and projectiles. It involves the concentration of force at a small point (pressure), which results in deep penetration of the target along a line. Soft targets with and without a hard shell are typically susceptible to this kind of damage. It can cause the "bleeding" condition.
 
 **Slashing** damage is typically caused by bladed weapons or sharp claws. It involves the physical splitting of two parts of a target by application of concentrated force along a plane (a cut). Soft targets are particularly susceptible to slashing damage. Slashing damage typically causes the "bleeding" or "crippled" condition.

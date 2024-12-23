@@ -301,7 +301,7 @@ ___
 Profane beings are those that have been cursed by creation and whose nature drives them to destroy or oppose it. Profane beings do not breath, sleep or age, although some eat and drink.
 - Profane entities have vulnerability to "divine" damage and immunity to "disease" and "poison".
 - Profane entities have resistance to "physical" damage.
-- They also have immunity to "unconscious" and "dying".
+- They also have immunity to "dying".
 
 **Fiends** are entities opposed to creation or mortal-kind. In realms where they exist, devils and demons are fiends. Sometimes divine entities fall and become fiends. Fiends that do not reach minus their total HP from "divine" damage will be reborn elsewhere, at another time (hence cycles of dark lord and heroes).
 - Fiends are resistant to energy ("fire", "ice", "lightning") with the exception of light.

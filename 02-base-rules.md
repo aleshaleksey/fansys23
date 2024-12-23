@@ -39,7 +39,7 @@
     -  [Level parameters](#level-parameters)
     -  [Nat vs SP dice and Sup vs MP dice](#nat-vs-sp-dice-and-sup-vs-mp-dice)
     -  [NAP from Base and Nat](#nap-from-base-and-nat)
-    -  [Size rules](#size-rules)
+    -  [Size rules](#size-rules-table)
 7. [Version](#version)
 
 

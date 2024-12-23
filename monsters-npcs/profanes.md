@@ -218,6 +218,42 @@ ___
 Fiends do not breath, sleep or age, but some eat/drink. Fiends are vulnerable to "divine" damage, and are resistant to "physical", "fire", "ice", "lightning" and "light" damage. They are immune to "disease" and "poison" as well as "unconscious" and "dying".
 
 ___
+### Imp
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|13/8/15|4|8|3|20ft|40ft fly, 20ft climb|
+
+Imps are tiny (+2 evasion, -2 armour, +2 DEX save, -2 STR save) 
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|4|17|11|14|10|14|
+|Bonus|-3|+3|0|+2|0|+2|
+|Save|-4|+5|+1|+3|+1|+3|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|1(1)|2|3|1|1|2|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Claw|+5|1d3+3|(threshold=14) A mortal that is damaged by an imp's claws must succeed on a CON save at the start of its turn, or take 1 point of STR damage|
+|Least Blast (fire)|+2|1d6+2 fire[supernatural]|Range 10ft/120ft.|
+|||||
+|Skills|||"deception" +4, "flight" +5|
+|Senses|||"low-light vision", "heat sense" 30ft|
+|||||
+|Resistant|||"physical" damage, "fire", "ice", "lightning" damage|
+|Immune|||"disease", "poison", "dying"|
+|Vulnerability|||"divine" damage|
+
+Imps are tiny fiends. Their potential for evil and destruction is limited only by their limited capability.
+
+An imp accomplishes its goals of undermining creation by corrupting mortals that might associate with them (as familiars but also when not bound). They are also capable of using their powers directly to cause chaos, discord, distrust and direct destruction.
+
+In combat an imp attempts to sneak up on its target and burn it with its flames. It will generally flee if it recognises that it is outmatched.
+
+___
 ### Minor Demon
 Here the stat block for vaguely humanoid minor demons of levels 1-5 is presented.
 |Level|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|

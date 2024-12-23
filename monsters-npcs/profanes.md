@@ -319,6 +319,45 @@ Invariably minor demons despise creation and are generally sadistic beyond the p
 Minor demons may be proficient with one or more weapon. In this case they will use the weapon if it increases their lethality.
 
 ___
+### Succubus/Incubus
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|13/10/13||||30ft|fly (60ft, medium)|
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|10|17|13|14|10|21|
+|Bonus|0|+3|+1|+2|0|+5|
+|Save|||||||
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|7(2)|10|13|2|3|4|5|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Claw|+5|1d4+3||
+|Grapple|+7||A target grappled by a succubus has disadvantage on saves vs its "charm" and "life drain"|
+|Charm|Threshold=23||As a full round action, a succubus can charm a humanoid. The humanoid is charmed for 24h, but gets a repeated save if it is subject to an attack from the succubus. If the humanoid is not attracted to the sex of the form that the succubus is currently in, it has advantage on the save.|
+|Life Drain (1MP dice)|Threshold=23|1d3 SP dice|The succubus' life drain drains 1d3 SP dice from the target's maximum. The actual SP dice is also reduced by that amount. Each time, the succubus gains 2 SP which can take it past its SP maximum. If the target has 0 SP dice, the attack affects HP instead.|
+|||||
+|Senses|||"Low Light Vision", "Heat Sense", "Life Sense"|
+|Spellcasting: Incantation II|Threshold=20||Favourites are: "Down", "Sour", "Least Ward", "Least Vengeance", "Least Veil", "Trace Secret Path"|
+|Skills|||"Deception: +11", "Persuasion:+11", "Sleight of Hand:+9", "Acrobatics:+7", "Ride:+5",  "Insight:+5", "Religion:+5", "Arcana:+4", "Appraise":+3, "Observe": +1, "Athletics":+1|
+|||||
+|Resistant|||"physical" damage, "fire", "ice", "lightning" damage|
+|Immune|||"disease", "poison", "dying"|
+|Vulnerability|||"divine" damage|
+
+Succubi are fiends that prey on the carnal desires of humanoids in order to drain them of life-force or otherwise corrupt them. They usually take on the form of a desirable mate.
+
+Succubi avoid fighting if possible. They study their target and then use secret paths to approach their targets in a moment of weakness. Potentially during their sleep. A succubus may use their innate charms to succumb a victim, or if this seems unlikely, they will attempt to enchant them. If it requires sustenance it will then use its life drain.
+
+If this strategy appears to be failing, the succubus will generally retreat, using "[Dusk](../08-spell-list.md#dusk)" or "[Lesser Veil](../08-spell-list.md)", or pre-prepared secret paths.
+
+If a succubus must fight, it will use magic to charm the most combat capable opponent, then obfuscate the battle field and attempt to use its life-drain if it can while using its thrall to protect it.
+
+___
 ### ???
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|

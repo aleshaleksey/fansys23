@@ -177,7 +177,7 @@ Damage Key:
 |Club|Percussive|1d4|B|1|Str|5|-|-|2|6|
 |Greatclub|Percussive|1d10|B|2|Str|5|-|-|6|8|
 |Mace|Percussive|1d6|B|1|Str|5|-|-|3|10|
-|Morning Star|Percussive|1d6|B/P|1|Str|5|-|-|3|10|
+|Morning Star|Percussive|1d8|B/P|1|Str|5|-|-|3|10|
 |War hammer|Percussive|2d4/1d12|B/P|1+|Str|5|-|-|3|10|
 |Maul|Percussive|2d6|B/P|2|Str|5|-|-|8|14|
 |||||||||||

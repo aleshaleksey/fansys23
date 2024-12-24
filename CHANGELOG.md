@@ -198,6 +198,7 @@ ___
 - Make DEX/STR based weapons only apply [DEX] to damage if "finesse" feat is taken.
 - Make Great Strike attack specifically to STR based attacks and do extra damage for two handed heavy weapons.
 - Clarify the order of MP, SP and HP damage.
+- Increase morning star damage to 1d8 from 1d6.
 
 ### Races
 - 

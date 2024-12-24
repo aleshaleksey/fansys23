@@ -358,6 +358,61 @@ If this strategy appears to be failing, the succubus will generally retreat, usi
 If a succubus must fight, it will use magic to charm the most combat capable opponent, then obfuscate the battle field and attempt to use its life-drain if it can while using its thrall to protect it.
 
 ___
+### Fiendish Warrior
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|18/16/12|52|48|14|40ft||
+
+Size: Medium
+Natural Armour: Armour +6
+Saves: Str, Con
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|22|14|16|10|12|17|
+|Bonus|+6|+2|+3|0|+1|+3|
+|Save|+11|+5|+8|+2|+3|+5|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|8(2)|14|12|3|2|5|4|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Aura of Destruction|Threshold=18|||
+|||||
+|Flail(Or demonic flail)|+11(+13)|1d8+6||
+|Claw|+11|1d6+6||
+|Monster Attack III|||A fiendish warrior makes 4 attacks/combat manoeuvres|
+|Grapple/Throw/Disarm/Sunder|+11|||
+|Combined Manoeuvre II|||A fiendish warrior can combine up to 3 basic combat manoeuvres|
+|Parry|||A fiendish warrior adds +3 to HiT for up to 5 attacks.|
+|Opportunist|||Can make attacks of opportunity vs entities that are standing up or drinking potions|
+|"[Charge](../06-abilities.md#charge)"|||Can attack when running/sprinting when mounted|
+|Counterstrike|||Can take an attack of opportunity against a foe that hits it in melee|
+|Elemental Blast II (one of fire or ice)|+5|2d6|Up to 4d6 (an extra 1d6 per 1MP dice)|
+|Elemental Touch II (one of fire or ice)|+4|2d6|Up to 6d6 (an extra 2d6 per 1MP dice)|
+|||||
+|Senses|||"Low Light Vision", "Tremor Sense"|
+|Skills|||"Athletics":+12, "Fortify": +10", "Climb:+8", "Swim:+7", "Ride:+7", "Intimidation":+7,"Deception":+6, "Acrobatics:+5", "Stealth:+5", "Observe":+3, "Sense Motive": +3, "Religion:+1", "Arcana:+1"|
+|||||
+|Resistant|||"physical" damage, "fire", "ice", "lightning" damage|
+|Immune|||"disease", "poison", "dying"|
+|Vulnerability|||"divine" damage|
+
+A fiendish warrior is a being of violence. It relishes violence. It exists to increase the amount of bloodshed and violence in the world, usually by its own hands. It will seek out combat and is drawn to locales with a blood-stained history. Where there is none, it will work to create it. A fiendish warrior is at least as happy slaughtering and tormenting innocents and those who cannot fight back, as it is destroying strong foes.
+
+Physically, it appears as a monstrous humanoid with four arms, and is capable of wielding weapons. However, its claws are also an effective weapon.
+
+While a demon warrior might not relish intrigue and complex strategy, but will attempt to use it is necessary to bring about more bloodshed.
+
+Fiendish warriors are formidable foes. They usually prefer to fight weakened foes, but will not shy away from a difficult combat. A demon warrior will not hesitate to use an opponent's weakness against them, or finish off a downed foe. Equally they may deliberately leave a survivor to spread tales of horror far and wide.
+
+A fiendish warrior will unleash will close in and unleash their destructive aura. Once they do, they will engage in melee.
+
+Some fiendish warriors have wings and can fly at 50ft.
+
+___
 ### ???
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|

@@ -345,6 +345,8 @@ ___
 |-|-|-|-|-|-|
 |26/22/12|222|222|35|40ft|100ft (fly, good)|
 
+(Natural Armour: 15)
+
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
 |Stat|24|14|26|18|16|26|
@@ -426,6 +428,8 @@ ___
 |-|-|-|-|-|-|
 |24/24/10|127|125|24|40ft|110ft (fly, good), 50ft swim|
 
+(Natural Armour: 13)
+
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
 |Stat|22|12|24|14|18|24|
@@ -495,6 +499,8 @@ ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |28/28/8|222|222|35|40ft|100ft (fly, good), 40ft swim|
+
+(Natural Armour: 17)
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -568,6 +574,8 @@ ___
 |-|-|-|-|-|-|
 |24/24/10|133|129|24|40ft|110ft (fly, good), 50ft swim|
 
+(Natural Armour: 13)
+
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
 |Stat|24|12|24|14|18|24|
@@ -623,6 +631,164 @@ ___
 Lesser dragons are weaker and smaller than their brethren, and yet they are still dragons. Depending on setting, they may be "lesser" due to age, or for some other setting specific reason.
 
 A lesser dragon is significantly weaker in melee than its more powerful brethren, and thus must be craftier and more careful when engaging. It is more likely to use trickery, or use harrying attacks and magic to first wear down potential foes.
+
+___
+### Earthbound Dragon, Normal
+**Size category**: Huge (15ft x 15ft)
+- Evade: -2, Armour +2
+- Reach: 10ft, 15ft (tail)
+- [DEX save]: -2, [STR save]: +2
+- Carry capacity: (420lb light, 840lb medium, 2080lb heavy, 3120lb drag)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|28/28/10|234|170|40ft|Dig 20ft, Climb 40ft|
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|28|14|26|14|18|22|
+|Bonus|+9|+2|+8|+2|+4|+6|
+|Save|+20|+6|+19|+6|+13|+10|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|20(4)|37|25|7|5|11|9|
+
+|Attacks|Bonus|Damage|Other|
+|-|-|-|-|
+|Claws|+23|2d8+11||
+|Bite|+23|3d8+11|Poison: Threshold=26 or lose 1 point of DEX|
+|Tail|+20|2d6+9|Reach 15ft|
+|Grapple, Restrain, Throw, Sunder|+16|||
+- A dragon's attack count as having "draconic source" (level 4 material), this is already taken into account for the stat block.
+- A dragon can make 3 attacks as part of "multi-attack II", of these it can use bite and tail only once each.
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Monster Attack|||The Earthbound dragon makes 3 attacks: 1 bite, 1 claws, 1 tail (must be a different target)|
+|Broad strike|||(1 SP die) useable only with tail attack|
+|Combined Manoeuvre I|||(1 SP die) usable only with claw attack (except grapple)|
+|Alert||||
+|Foresight||||
+|Truesight (90ft)||||
+|Keen senses|||Sight, Smell|
+|Low-light vision||||
+|Immunity|||Ice, Fear|
+|Resistance|||Slashing, Shear, Bludgeoning|
+|Arcane Interception||||
+|Deflection||||
+|Aphonic spell||||
+|Still Spell||||
+|Elemental Affinity: Earth||||
+|Draconic Spell|||A dragon may use 2 MP dice to cast a spell of 5 MP dice or less as a secondary action.|
+|Alternate form|||The earthbound dragon has an animal and true form. Unlike other dragons it does not have a humanoid form. It may shift between them as a "main action". Each form is constant (always the same animal, always the same humanoid, always the same dragon)|
+|Spellcasting: Earth IX|||Favourites: "Greater Cosmic Seal", "Greater Domain", "Portal", "Create Secret Path", "False Regrowth", "see spell", slumber", "silence", "Trace Secret Path", "Revenant", "Lesser Cosmic Seal", "Healing Seed", "Balance of Elements", "Animate Golem", "Enchanted Ground", "Guidance of the Earth", "Earth Ward", "Slumber", "Dusk", "Summon Gnome", "Gnomes' Mercy", "Shape Earth", "Sour"|
+|Spellcasting: Nature IV|||Favourites: "Rejuvenate Land" "Growth", "Animate Plant", "Cure", "Harvest", "Call Ailment", "Ensnare", "
+Least Heal"|
+|Spellcasting: Global||||
+|Skills|||Fortify + 22, Athletics +22, Observe +18, Track +18, Appraise +16, Spellcraft + 16, Sense Motive +18, K:Arcana +16, K:History +16, K:Geography +16|
+|Skills|||All others: [Stat bonus]+1|
+
+Earthbound dragons lack the breath attacks of their flying kin. They live in far away corners of the world. In the deepest caverns. In the most overgrown jungles. In the most hidden of mountain valleys. These dragons are forsaken by the skies but blessed by the earth upon which they dwell.
+
+An earthbound dragon may be a guardian of the elemental nodes of earth or territories closely associated with the earth element. They may be guardians of nature. They can be grave-keepers of lost civilisations or the watchers of portals to other worlds. They are more likely to be benevolent than malevolent, although this is, of course, setting specific.
+
+Whatever its motives, a dragon pursues its goals and objectives with the mindset of a being that has millennia at its disposal, and will seldom move quickly, unless its hand is forced. It may choose to deal with mortals if it suits its goals or fancy.
+
+Earthbound dragons are formidable opponents, even though they lack flight and the usual dragon breath. It will use its considerable intelligence and centuries of experience to the best of its ability. It will use gnomes and earth elementals in order to keep it appraised of potential threats and dispatch golems to neutralise them if appropriate. Its lairs are guarded by "[Greater Cosmic Seal](../08-spell-list.md#greater-cosmic-seal)" and "[Greater Domain](../08-spell-list.md#greater-domain)" as well as lesser spells. If combat is inevitable, it will prepare with "[False Regrowth](../08-spell-list.md#false-regrowth)" before engaging.
+
+In combat an earthbound dragon studies its opponents and strikes quickly and mercilessly.
+- It will use spells such as "slumber" and "dusk" to its advantage.
+- It will use narrow spaces together with its dig speed to strike foes from below. It will not fight in wide open spaces, or beneath the open sky unless it must.
+- It will use spells such as down to knock down flying opponents, and is quite capable of attacking it with boulders, thrown with the force of a trebuchet.
+- Only when its opponents are weakened, does it close in and use its devastating jaws to attempt to settle a battle.
+- If a dragon truly wishes to destroy or obtain something it will usually infiltrate through a secret path, or "travel by flame", or in one of its alternate forms. In most cases, it will open up with "Forest of Flame" or a breath attack. If its opponent has particularly dangerous abilities, it will use "Isolate Essence" to seal them before proceeding.
+- A dragon that wishes to protect something, will prefer to sequester it and place numerous magical seals upon it, although it may equally leave the task to minions.
+- Dragons generally prefer using force over a negotiated solution (due to their overwhelming power and nature), but they can be reasoned with, and will occasionally make bargains when it suits them.
+- A dragon will seldom fight to the death, but when it realises that it faces a life threatening situation, it will use its abilities to deadly effect. A dragon will occasionally surrender or accept defeat, but never at the expense of its pride and never if it means domination/enslavement by another being.
+
+___
+### Earthbound Dragon, Lesser
+**Size category**: Large (10ft x 10ft)
+- Evade: -1, Armour +1
+- Reach: 5ft (long), 10ft tail
+- [DEX save]: -1, [STR save]: +1
+- Carry capacity: (210lb light, 420lb medium, 1040lb heavy, 1560lb drag)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|26/26/12|234|170|40ft|Dig 20ft, Climb 40ft|
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|26|16|24|12|16|20|
+|Bonus|+8|+3|+7|+1|+3|+5|
+|Save|+15|+6|+14|+4|+10|+8|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|13(3)|22|19|4|4|7|7|
+
+|Attacks|Bonus|Damage|Other|
+|-|-|-|-|
+|Claws|+18|1d8+10|Reach 5ft (long)|
+|Bite|+18|2d8+10|Poison: Threshold=23 or lose 1 point of DEX|
+|Tail|+15|1d6+8|Reach 10ft (long)|
+|Grapple, Restrain, Throw, Sunder|+16|||
+- A lesser dragon's attack count as having "draconic source" (level 4 material), this is already taken into account for the stat block.
+- A lesser dragon can make 3 attacks as part of "multi-attack II", of these it can use bite and tail only once each.
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Monster Attack|||The Earthbound dragon makes 3 attacks: 1 bite, 1 claws, 1 tail (must be a different target)|
+|Broad strike|||(1 SP die) useable only with tail attack|
+|Combined Manoeuvre I|||(1 SP die) usable only with claw attack (except grapple)|
+|Alert||||
+|Foresight||||
+|Truesight (90ft)||||
+|Keen senses|||Sight, Smell|
+|Low-light vision||||
+|Immunity|||Ice, Fear|
+|Resistance|||Slashing, Shear, Bludgeoning|
+|Arcane Interception||||
+|Deflection||||
+|Aphonic spell||||
+|Still Spell||||
+|Elemental Affinity: Earth||||
+|Draconic Spell|||A dragon may use 2 MP dice to cast a spell of 5 MP dice or less as a secondary action.|
+|Alternate form|||The earthbound dragon has an animal and true form. Unlike other dragons it does not have a humanoid form. It may shift between them as a "main action". Each form is constant (always the same animal, always the same humanoid, always the same dragon)|
+|Spellcasting: Earth VII|||Favourites: "Portal", "Create Secret Path", "False Regrowth", "see spell", slumber", "silence", "Trace Secret Path", "Revenant", "Lesser Cosmic Seal", "Healing Seed", "Balance of Elements", "Animate Golem", "Enchanted Ground", "Guidance of the Earth", "Earth Ward", "Slumber", "Dusk", "Summon Gnome", "Gnomes' Mercy", "Shape Earth", "Sour"|
+|Spellcasting: Nature III|||Favourites: "Growth", "Animate Plant", "Cure", "Harvest", "Call Ailment", "Ensnare", "
+Least Heal"|
+|Spellcasting: Global||||
+|Skills|||Fortify + 17, Athletics +17, Observe +14, Track +14, Appraise +13, Spellcraft + 12, Sense Motive +13, K:Arcana +11, K:History +11, K:Geography +11|
+|Skills|||All others: [Stat bonus]+1|
+
+Lesser dragons are weaker and smaller than their brethren, and yet they are still dragons. Depending on setting, they may be "lesser" due to age, or for some other setting specific reason.
+
+A lesser dragon is significantly weaker in melee than its more powerful brethren, and thus must be craftier and more careful when engaging. It is more likely to use trickery, or use harrying attacks and magic to first wear down potential foes.
+
+___
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+||||||
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|||||||
+|Bonus|||||||
+|Save|||||||
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+||||||||
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|||||
+|||||
+|||||
+|||||
 
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|

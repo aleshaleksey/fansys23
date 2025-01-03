@@ -992,7 +992,7 @@ Wears light cuirass  (+1)
 |"[Debilitating Strike](../06-abilities.md#debilitating-strike)"|||"Aphonic", "Blinded", "Stunned". Threshold=19|
 |"[Deflection](../06-abilities.md#deflection)"|||An arcane warrior may deflect some damage from supernatural attacks|
 |"[Xenophonia I](../06-abilities.md#xenophonia-i-xiii)" (animal)|||Can speak to animals|
-|"[Speed IV](../06-abilities.md#speed)"|||+10ft to movement speed for a total of 55ft|
+|"[Speed IV](../06-abilities.md#speed)"|||+20ft to movement speed for a total of 55ft|
 |"[Mage Hunter II](../06-abilities.md#mage-hunter-ii)|||Mystic warriors are strong against mages|
 |"[Silent Step I](../06-abilities.md#silent-step-i-iii)"|||A mystic warrior can stealth even while moving at full speed|
 |"[Life Sense I](../06-abilities.md#life-sense-i-v)"|||A mystic warrior can see the life-force of beings that are not undead within 15ft. The ability is blocked by 6ft of earht or organic material, or 2ft of stone or metal.|

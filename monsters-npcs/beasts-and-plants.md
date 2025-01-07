@@ -142,6 +142,37 @@ Size = large
 This is used for warhorses. Unlike other horses these are combat trained. War horses can be of higher level. In general a warhorse should be half the level of its rider. Knights often have armour (barding) made for their warhorse.
 
 ___
+### Sheep (level 1)
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|12/11/11|8|6|3|40|-|
+
+(+1 armour from fleece)
+Size = medium
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|12|12|12|2|10|8|
+|Bonus|+1|+1|+1|-4|0|-1|
+|Save|+2|+2|+2|-3|+1|0|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|1 (1)|3|2|1|1|2|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Ram|+3|1d4+1|percussive|
+|Shove|+3|||
+|Combined Manoeuvre I|||A sheep can knock prone that which it rams (1SP)|
+|Resistant|||Cold: Sheep have a thick fleece which allow them to resist the cold|
+|Skills|||"Harvest" +3, "Observe" +2, "Climb" +2|
+|Loot|||A single sheep can provide up to 40lb of meat, 1 fleece and 10lb of bones|
+
+A sheep is a domestic quadrupedal hoofed ruminant that stands about 3-4 feet tall that typically has a thick fleece. It was domesticated for its meat, fleece and milk and has a strong herd mentality.
+Optional: For __capybara__ replace the cold resistance with a 30ft swim speed, and the "climb" skill with the "swim" skill.
+
+___
 ### Swarm of Bees
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|

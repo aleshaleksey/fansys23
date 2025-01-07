@@ -350,7 +350,6 @@ This is a measure of an entities' mental/spiritual energy.
 - When a character rests, it regains **[CHA x Base]** MP. (see ["Rest and Recuperation"](04-combat.md#rest-and-recuperation))
   - This is in addition to the MP regained due to regained MP dice. So in total a character regains **[CHA x Base + Total MP dice count]** MP.
 
-
 #### SP dice pool
 
 This is the determinant of "SP pool".

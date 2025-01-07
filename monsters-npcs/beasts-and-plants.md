@@ -2,35 +2,35 @@
 Animals are common entities in the material world. They have a physical form, limited lifespan and age by necessity. They need to sleep, breathe, drink, eat. They devour other mortals to survive and have an intelligence below 5.
 
 ___
-### Rat
+### Bat
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/8/14|6|4|1|30ft|climb (30ft)|
+|14/8/14|2|4|1|10ft|climb (10ft), fly 40ft (good)|
 
 Size = tiny
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|4|14|10|3|10|10|
-|Bonus|-3|+2|0|-4|0|0|
-|Save|-4|+6|+1|-3|+1|+1|
+|Stat|4|14|8|3|10|8|
+|Bonus|-3|+2|-1|-4|0|-1|
+|Save|-4|+6|0|-3|+1|0|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|1 (1)|3|2|1|1|2|2|
+|1 (1)|2|3|1|1|2|2|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Bite|+4|2|Shear damage|
-|Keen Senses|||Advantage on perception rolls|
-|Low light Vision|||Can see in the "dark", but not pitch black conditions|
-|[Sprint](../06-abilities.md#sprinter)|||x3 move, x5 sprint|
+|Blind-sight VI|||Bats can accurately perceive targets by echolocation up to a range of 30ft|
+|Poor Sight|||Bats have disadvantage on observe rolls that do not use its echolocation.|
 |[Evasive](../06-abilities.md#evasive)|||Avoid AoOs|
 |[Stalker](../06-abilities.md#stalker)|||Hides really quickly|
-|Skills|||"Stealth" +4, "Observe" +2|
-|Loot|||Cat meat is edible to humanoids|
+|Skills|||"Fly" +4, "Observe" +2|
+|Resistant|||"Disease"|
 
-This block can be used for domestic cats or a wildcat. These predators are often co-exist successfully with humanoids and certain monsters.
+This block can be used for bats. These are nocturnal flying mammals that generally eat fruit or hunt insects, although some do drink blood. Bats tend to roost in caverns and often carry diseases.
+
 ___
 ### Cat
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
@@ -91,6 +91,38 @@ Size = small
 |Loot|||Dog meat is edible to humanoids|
 
 This block can be used for domesticated dogs, jackals and foxes. Large dogs should use the wolf block.
+
+___
+### Rat
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|14/8/14|4|2|1|30ft|climb (30ft)|
+
+Size = tiny
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|4|14|8|3|10|8|
+|Bonus|-3|+2|-1|-4|0|-1|
+|Save|-4|+6|0|-3|+1|0|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|1 (1)|3|2|1|1|2|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite|+4|2|Shear damage|
+|Keen Senses|||Advantage on perception rolls|
+|Low light Vision|||Can see in the "dark", but not pitch black conditions|
+|[Sprint](../06-abilities.md#sprinter)|||x3 move, x5 sprint|
+|[Evasive](../06-abilities.md#evasive)|||Avoid AoOs|
+|[Stalker](../06-abilities.md#stalker)|||Hides really quickly|
+|Skills|||"Stealth" +4, "Observe" +2|
+|Resistant|||"Disease", "Poison"|
+|Loot|||Rat meat is edible to humanoids|
+
+This block can be used for domestic cats or a wildcat. These predators are often co-exist successfully with humanoids and certain monsters. Rats often carry diseases.
 
 ___
 ### Wolf

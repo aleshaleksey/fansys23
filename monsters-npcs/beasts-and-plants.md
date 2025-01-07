@@ -173,7 +173,7 @@ Size = small
 |Keen Senses|||Advantage on perception rolls based on scent and hearing|
 |Low light Vision|||Can see in the "dark", but not pitch black conditions|
 |[Sprint](../06-abilities.md#sprinter)|||x3 move, x5 sprint|
-|Prof|||"Grapple"|
+|Prof|||"Grapple", "Shove"|
 |Skills|||"Stealth" +3, "Observe" +2|
 |Loot|||Dog meat is edible to humanoids|
 
@@ -502,7 +502,7 @@ ___
 |[Sprint](../06-abilities.md#sprinter)|||x3 move, x5 sprint|
 |[Combined Manoeuvre](../06-abilities.md#combined-manoeuvre-i-v)|||A wolf will usually grapple when biting|
 |[Greater Manoeuvre](../06-abilities.md#greater-manoeuvre-i-v)|||Wolves can take down very large prey|
-|Prof|||"Grapple", "Interception'|
+|Prof|||"Grapple", "Interception", "Shove"|
 |Skills|||"Stealth" +3, "Track" +3, "Observe" +2|
 |Loot|||Wolf pelts are valuable, their meat is edible to humanoids|
 

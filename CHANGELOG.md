@@ -212,3 +212,28 @@ ___
 ### Abilities
 - Increase damage reduction by Deflect Missile (since it's not free).
 
+___
+## From v0.0.9
+
+### General
+- 
+- 
+- 
+
+### Combat
+- 
+- 
+- 
+- 
+
+### Races
+- 
+
+### Spells
+- Add "Summon Beast" as a low level spell.
+- 
+- 
+- 
+
+### Abilities
+- 

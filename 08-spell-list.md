@@ -41,6 +41,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Sense Spell](#sense-spell)
 - [Shape Earth](#shape-earth)
 - [Spirits' Secret](#spirits-secret)
+- [Summon Beast](#summon-beast)
 - [Tailwind](#tailwind)
 - [Water Snake](#water-snake)
 - [Winter's Touch](#winters-touch)
@@ -826,6 +827,32 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 **Global**: The spell reaches to a range of two miles and gives the caster the location of all objects matching the criteria.
 
 ___
+### Summon Beast
+|Name|Summon Beast [Beast, Nature]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|1 (4)|
+|Target(s)|1sq (1sq)|
+|Casting time|"full round action" (2 hours + 20min per 4MP)|-2
+|Range|close|-1
+|Duration|12 min (1 day+)|+3
+|Components|incantation, kinetic|-1
+|Focus|An ivory totem|
+|Limitation|The habitat into which the animal is summoned must be able to support it.|-2
+|Concentration|local|
+|Save|-|
+
+**Description**: Summons a [level I beast](monsters-npcs/beasts-and-plants.md#animals) to faithfully serve and fight for you. The beast understands simple gesticulated commands and carries them out to the best of its ability. When the spell ends, the animal, or its remains are returned to its origin.
+
+**Special**: You can only have one summon at any one time.
+
+**Limitation**: You cannot summon a beast into an environment where it cannot breath or more (eg, you cannot summon a horse into mid-air, or a fish onto land).
+
+**Upcast**: For every MP dice added above 1 (4 MP dice above 4 for global), the beast gains a level.
+
+**Global**: The beast is bound by a longer contract (an extra day for every 4MP above 4) and the spell does not require concentration.
+
+___
 ### Tailwind
 |Name|Tailwind [Air, Spirit, Travel]|
 |-|-|
@@ -1297,7 +1324,7 @@ ___
 |MP Dice|2 (8)|
 |Target(s)|1sq (1sq)|
 |Casting time|"full round action" (2 hours + 20min per 4MP)|-2
-|Range|30ft (30ft)|
+|Range|30ft (30ft)|+1
 |Duration|12 min (1 day+)|+3
 |Components|incantation, kinetic|-1
 |Material||
@@ -3773,6 +3800,7 @@ ___
     - [Ensnare](#ensnare)
     - [Fade](#fade)
     - [Least Heal](#least-heal)
+    - [Summon Beast](#summon-beast)
 - Air
     - [Fade](#fade)
     - [Headwind](#headwind)

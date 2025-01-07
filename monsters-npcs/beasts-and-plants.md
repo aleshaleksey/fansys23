@@ -2,6 +2,120 @@
 Animals are common entities in the material world. They have a physical form, limited lifespan and age by necessity. They need to sleep, breathe, drink, eat. They devour other mortals to survive and have an intelligence below 5.
 
 ___
+## Animals: Birds
+
+___
+### Eagle (level 2)
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|12/9/13|12|10|5|10ft|100ft (flight, average)|
+
+Size=Small
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|8|14|14|3|12|12|
+|Bonus|-1|+2|+2|-4|+1|+1|
+|Save|0|+4|+3|-3|+2|+2|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|2 (1)|4|4|1|1|2|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Claws|+4|1d6+2|Shear damage|
+|Keen Senses: Sight|||Advantage on perception rolls based on sight|
+|Skills|||"Fly" +4, "Observe" +4|
+
+Eagles are large raptors that typically hunt ground animals, but can also hunt birds.
+
+___
+### Falcon (level 1)
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|13/8/14|7|4|1|10ft|90ft (flight, good)|
+
+Size=Tiny
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|4|16|12|3|12|10|
+|Bonus|-3|+3|1|-4|+1|0|
+|Save|-2|+5|+2|-3|+2|+1|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|1 (1)|3|2|1|1|2|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Claws|+5|1d3+3|Shear damage|
+|Keen Senses: Sight|||Advantage on perception rolls based on sight|
+|[Evasive](../06-abilities.md#evasive)|||Avoid AoOs|
+|[Sprint](../06-abilities.md#sprinter)|||A hawk can fly "run" at x3 its base fly speed|
+|Skills|||"Fly" +4, "Observe" +4|
+
+Falcons are small (tiny) raptors that hunt other flying creatures.
+
+___
+### Owl (level 1)
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|12/9/13|4|6|1|10ft|50ft (flight, average)|
+
+Size=Small/Tiny
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|4|14|10|3|14|10|
+|Bonus|-3|+2|0|-4|+2|0|
+|Save|-2|+4|+1|-3|+3|+1|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|1 (1)|2|3|1|1|2|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Claws|+4|1d3+2|Shear damage|
+|Keen Senses|||Advantage on perception rolls|
+|Low light Vision|||Can see in the "dark", but not pitch black conditions|
+|[Evasive](../06-abilities.md#evasive)|||Avoid AoOs|
+|[Silent Step I](../06-abilities.md#silent-step-i-iii)|||An owl can fly at full speed maintaining stealth without penalty|
+|[Stalker](../06-abilities.md#stalker)|||Hides really quickly|
+|Skills|||"Stealth" +4, "Observe" +4|
+
+Owls are nocturnal raptors that hunt ground based animals. Their feathers are adapted for silent flight, as a result of which they are weaker (but quieter) fliers than hawks or eagles.
+
+___
+### Raven (level 1)
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|12/9/13|3|7|1|10ft|60ft (flight, average)|
+
+Size= Small, Raven / Tiny, Crow
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|2|14|8|4|12|12|
+|Bonus|-3|+2|0|-3|+1|+1|
+|Save|-2|+4|+1|-2|+2|+2|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|1 (1)|2|3|1|1|2|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Beak|+4|3|Piercing damage|
+|[Evasive](../06-abilities.md#evasive)|||Avoid AoOs|
+|Resistant|||"Disease", "Poison"|
+|Skills|||"Sleight of Hand" +4, "Observe" +3|
+
+Ravens are omnivorous, typically black, birds that are primarily scavengers. This stat block can also be used for crows.
+
+___
 ## Animals: Domestic
 
 ___
@@ -66,6 +180,33 @@ Size = small
 This block can be used for domesticated dogs, jackals and foxes. Large dogs should use the wolf block.
 
 ___
+### Deer/Antelope (level 1)
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|12/11/11|7|4|2|50ft|-|
+
+Size = medium
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|10|16|12|2|10|10|
+|Bonus|0|+3|+1|-5|0|0|
+|Save|+1|+4|+2|-4|+1|+1|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|1 (1)|3|2|1|1|2|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Hooves|+5|1d6+3||
+|Keen Senses: Smell, Hearing|||Advantage on observe rolls based on hearing or scent|
+|[Sprinter](../06-abilities.md#sprinter)|||run faster|
+|Skills|||"Harvest"+1, "Athletics" +1, "Observe" +2|
+
+This stat block can be used for deer or antelopes. For reindeer use [Horse, light](#horse-light-level-2).
+
+___
 ### Horse, Light (level 2)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
@@ -91,6 +232,7 @@ Size = large
 
 This stat blocks works for normal riding horses. Horses are temperamental creatures, and will defend themselves from predators and people they don't like with violent kicks of their hooves.
 
+___
 ### Horse, Heavy (level 3)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
@@ -115,7 +257,7 @@ Size = large
 
 This is used for cart horses and can also be used for oxen
 
-
+___
 ### Horse, War (level 4)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
@@ -170,7 +312,8 @@ Size = medium
 |Loot|||A single sheep can provide up to 40lb of meat, 1 fleece and 10lb of bones|
 
 A sheep is a domestic quadrupedal hoofed ruminant that stands about 3-4 feet tall that typically has a thick fleece. It was domesticated for its meat, fleece and milk and has a strong herd mentality.
-Optional: For __capybara__ replace the cold resistance with a 30ft swim speed, and the "climb" skill with the "swim" skill.
+- Optional: For __capybara__ replace the cold resistance with a 30ft swim speed, and the "climb" skill with the "swim" skill.
+- Optional: For __goat__ replace the cold resistance with a 20ft climb speed.
 
 ___
 ### Swarm of Bees
@@ -482,6 +625,7 @@ ___
 |Senses|||Heat sense (30ft), Tremor sense (120ft)|
 
 Tripedes dwell in swamps and deep forests. When nutrients is scarce they uproot themselves in search of prey. They prefer to hunt by stalking, but are capable of running down slow prey like humanoids.
+
 ___
 ### Shephard Tree, elder
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|

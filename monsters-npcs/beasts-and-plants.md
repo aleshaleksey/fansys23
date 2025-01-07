@@ -2,34 +2,7 @@
 Animals are common entities in the material world. They have a physical form, limited lifespan and age by necessity. They need to sleep, breathe, drink, eat. They devour other mortals to survive and have an intelligence below 5.
 
 ___
-### Bat
-|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
-|-|-|-|-|-|-|
-|14/8/14|2|4|1|10ft|climb (10ft), fly 40ft (good)|
-
-Size = tiny
-
-||Str|Dex|Con|Int|Wis|Cha|
-|-|-|-|-|-|-|-|
-|Stat|4|14|8|3|10|8|
-|Bonus|-3|+2|-1|-4|0|-1|
-|Save|-4|+6|0|-3|+1|0|
-
-|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
-|-|-|-|-|-|-|-|
-|1 (1)|2|3|1|1|2|2|
-
-|Ability|Bonus|Damage|Other|
-|-|-|-|-|
-|Bite|+4|2|Shear damage|
-|Blind-sight VI|||Bats can accurately perceive targets by echolocation up to a range of 30ft|
-|Poor Sight|||Bats have disadvantage on observe rolls that do not use its echolocation.|
-|[Evasive](../06-abilities.md#evasive)|||Avoid AoOs|
-|[Stalker](../06-abilities.md#stalker)|||Hides really quickly|
-|Skills|||"Fly" +4, "Observe" +2|
-|Resistant|||"Disease"|
-
-This block can be used for bats. These are nocturnal flying mammals that generally eat fruit or hunt insects, although some do drink blood. Bats tend to roost in caverns and often carry diseases.
+## Animals: Domestic
 
 ___
 ### Cat
@@ -91,6 +64,179 @@ Size = small
 |Loot|||Dog meat is edible to humanoids|
 
 This block can be used for domesticated dogs, jackals and foxes. Large dogs should use the wolf block.
+
+___
+### Horse, Light (level 2)
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|12/11/11|14|6|4|50|-|
+
+Size = large
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|14|14|14|2|10|11|
+|Bonus|+2|+2|+2|-4|0|0|
+|Save|+4|+2|+3|-3|+1|+1|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|2 (1)|5|3|2|1|3|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Hooves|+5|1d8+2||
+|[Sprinter](../06-abilities.md#sprinter)|||run faster|
+|Skills|||"Observe" +2|
+
+This stat blocks works for normal riding horses. Horses are temperamental creatures, and will defend themselves from predators and people they don't like with violent kicks of their hooves.
+
+### Horse, Heavy (level 3)
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|11/10/10|23|8|6|40|-|
+
+Size = large
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|18|10|16|2|10|10|
+|Bonus|+4|0|+3|-4|0|0|
+|Save|+6|0|+4|-3|+1|+1|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|3 (1)|7|4|2|1|3|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Hooves|+6|1d8+4|Don't get kicked by a horse|
+|Skills|||"Observe" +2|
+
+This is used for cart horses and can also be used for oxen
+
+
+### Horse, War (level 4)
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|12/11/11|30|10|8|50|-|
+
+Size = large
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|18|14|16|2|10|11|
+|Bonus|+4|+2|+3|-4|0|0|
+|Save|+6|+2|+4|-3|+1|+1|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|4 (1)|9|5|2|1|3|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Hooves|+7|1d8+4|Don't get hit by a horse|
+|[Sprinter](../06-abilities.md#sprinter)|||Run faster|
+|Skills|||"Observe" +3|
+
+This is used for warhorses. Unlike other horses these are combat trained. War horses can be of higher level. In general a warhorse should be half the level of its rider. Knights often have armour (barding) made for their warhorse.
+
+___
+### Swarm of Bees
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|13/11/13|18|16|7|10ft|40ft (fly)|
+
+A swarm of bees is medium sized.
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|2|15|14|3|12|14|
+|Bonus|-5|+2|+2|-4|+1|+2|
+|Save|-4|+3|+3|-3|+2|+3|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|3(1)|6|5|1|1|2|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Sting|+4|1[piercing] + 1d4[poison]|The suffers 1d4 poison at the start of every subsequent round for a minute or until is succeeds on a Threshold=16 CON save. Every time the swarm hits with a sting attack it loses 1 HP.|
+|Grapple/Infiltrate|+6||A swarm that enters the space of another entity can attempt to land and find exposed areas on a target as a main action. A bee swarm that has successfully grappled/infiltrated its target automatically hits with its sting if it stings on subsequent rounds.|
+|Home Territory|||A swarm always succeeds on navigation rolls on home terrain|
+|Skills|||"Navigate" -2, "Harvest" +4|
+|Scattered Cover|||The swarm is considered to have "[heavy cover](../04-combat.md#cover-and-concealment)" for the sake of targeted attacks made against it.|
+|Resistant|||"Bludgeoning, ""Piercing", "Shear", "Slashing"|
+|Resistant|||"Fear","Charm"|
+|Immune|||"Grappled","Bleeding","Grappled","Restrained","Crippled","Paralysed"|
+
+Bees swarm when angered, disturbed, when their home is damaged or destroyed, or when leaving the hive with a new queen to form a new hive. Bee swarms in the latter case are reluctant to attack, since every attack they make costs them the lives of their own that cannot be replaced.
+
+___
+## Animals: Wild
+
+___
+### Bat
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|14/8/14|2|4|1|10ft|climb (10ft), fly 40ft (good)|
+
+Size = tiny
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|4|14|8|3|10|8|
+|Bonus|-3|+2|-1|-4|0|-1|
+|Save|-4|+6|0|-3|+1|0|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|1 (1)|2|3|1|1|2|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite|+4|2|Shear damage|
+|Blind-sight VI|||Bats can accurately perceive targets by echolocation up to a range of 30ft|
+|Poor Sight|||Bats have disadvantage on observe rolls that do not use its echolocation.|
+|[Evasive](../06-abilities.md#evasive)|||Avoid AoOs|
+|[Stalker](../06-abilities.md#stalker)|||Hides really quickly|
+|Skills|||"Fly" +4, "Observe" +2|
+|Resistant|||"Disease"|
+
+This block can be used for bats. These are nocturnal flying mammals that generally eat fruit or hunt insects, although some do drink blood. Bats tend to roost in caverns and often carry diseases.
+
+___
+### Bear (level 6)
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|13/13/9|44|20|10|40|climb 30ft|
+
+(Natural armour + 3)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|16|10|16|4|10|12|
+|Bonus|+3|0|3|-3|0|+1|
+|Save|+6|+1|+5|-1|+2|+3|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|6 (2)|13|7|3|2|5|4|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite|+8|1d8+3|Shear damage|
+|Claws|+8|2d4+3|Shear damage|
+|Monster attack|||Two claw attacks as a main action and a bite as secondary action|
+|Keen scent|||Advantage on perception rolls based on scent|
+|Low light Vision|||Can see in the "dark", but not pitch black conditions|
+|[Combined Manoeuvre](../06-abilities.md#combined-manoeuvre-i-v)|||A bear will usually grapple when biting|
+|[Greater Manoeuvre](../06-abilities.md#greater-manoeuvre-i-v)|||Bears can take down very large prey|
+|Prof|||"Grapple", "Sunder"|
+|Skills|||"Swim", "climb", "Track" +2|
+|Loot|||Bear pelts are valuable and make hide armour, their meat is marginally edible to humanoids|
+
+This block can be used for brown or polar bear. It is possible for bears to be of a higher level.
 
 ___
 ### Rat
@@ -159,113 +305,36 @@ This block can be used for large domesticated dogs, hyenas and wolves. These are
 Wolves can be advanced to a higher level, but seldom reach above level 5.
 
 ___
-### Light Horse (level 2)
-|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
-|-|-|-|-|-|-|
-|12/11/11|14|6|4|50|-|
-
-Size = large
-
-||Str|Dex|Con|Int|Wis|Cha|
-|-|-|-|-|-|-|-|
-|Stat|14|14|14|2|10|11|
-|Bonus|+2|+2|+2|-4|0|0|
-|Save|+4|+2|+3|-3|+1|+1|
-
-|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
-|-|-|-|-|-|-|-|
-|2 (1)|5|3|2|1|3|2|
-
-|Ability|Bonus|Damage|Other|
-|-|-|-|-|
-|Hooves|+5|1d8+2||
-|[Sprinter](../06-abilities.md#sprinter)|||run faster|
-|Skills|||"Observe" +2|
-
-This stat blocks works for normal riding horses. Horses are temperamental creatures, and will defend themselves from predators and people they don't like with violent kicks of their hooves.
-
-### Heavy Horse (level 3)
-|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
-|-|-|-|-|-|-|
-|11/10/10|23|8|6|40|-|
-
-Size = large
-
-||Str|Dex|Con|Int|Wis|Cha|
-|-|-|-|-|-|-|-|
-|Stat|18|10|16|2|10|10|
-|Bonus|+4|0|+3|-4|0|0|
-|Save|+6|0|+4|-3|+1|+1|
-
-|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
-|-|-|-|-|-|-|-|
-|3 (1)|7|4|2|1|3|2|
-
-|Ability|Bonus|Damage|Other|
-|-|-|-|-|
-|Hooves|+6|1d8+4|Don't get kicked by a horse|
-|Skills|||"Observe" +2|
-
-This is used for cart horses and can also be used for oxen
-
-
-### War Horse (level 4)
-|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
-|-|-|-|-|-|-|
-|12/11/11|30|10|8|50|-|
-
-Size = large
-
-||Str|Dex|Con|Int|Wis|Cha|
-|-|-|-|-|-|-|-|
-|Stat|18|14|16|2|10|11|
-|Bonus|+4|+2|+3|-4|0|0|
-|Save|+6|+2|+4|-3|+1|+1|
-
-|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
-|-|-|-|-|-|-|-|
-|4 (1)|9|5|2|1|3|2|
-
-|Ability|Bonus|Damage|Other|
-|-|-|-|-|
-|Hooves|+7|1d8+4|Don't get hit by a horse|
-|[Sprinter](../06-abilities.md#sprinter)|||Run faster|
-|Skills|||"Observe" +3|
-
-This is used for warhorses. Unlike other horses these are combat trained. War horses can be of higher level. In general a warhorse should be half the level of its rider. Knights often have armour (barding) made for their warhorse.
+## Animals: Dinosaurs
 
 ___
-### Bear (level 6)
+### Hadrosaur (level 7)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|13/13/9|44|20|10|40|climb 30ft|
+|12/14/9|56|23|40ft|(swim) 20ft|
 
-(Natural armour + 3)
+(huge, +3 natural)
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|16|10|16|4|10|12|
-|Bonus|+3|0|3|-3|0|+1|
-|Save|+6|+1|+5|-1|+2|+3|
+|Stat|22|8|18|2|10|12|
+|Bonus|+6|-1|+4|-4|0|+1|
+|Save|+10|-1|+6|-2|+2|+3|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|6 (2)|13|7|3|2|5|4|
+|7(2)|14|8|3|2|4|3|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite|+8|1d8+3|Shear damage|
-|Claws|+8|2d4+3|Shear damage|
-|Monster attack|||Two claw attacks as a main action and a bite as secondary action|
-|Keen scent|||Advantage on perception rolls based on scent|
-|Low light Vision|||Can see in the "dark", but not pitch black conditions|
-|[Combined Manoeuvre](../06-abilities.md#combined-manoeuvre-i-v)|||A bear will usually grapple when biting|
-|[Greater Manoeuvre](../06-abilities.md#greater-manoeuvre-i-v)|||Bears can take down very large prey|
-|Prof|||"Grapple", "Sunder"|
-|Skills|||"Swim", "climb", "Track" +2|
-|Loot|||Bear pelts are valuable and make hide armour, their meat is marginally edible to humanoids|
+|Slam|+10|1d8+6||
+|Throw|+10|||
+|Combined Maneuver I|||A hadrosaur often sends foes flying when it slams them|
+|Senses|||Keen Smell|
+|Skills|"Observe" +5, "Swim" +10|||
+|||||
 
-This block can be used for brown or polar bear. It is possible for bears to be of a higher level.
+This is a large, herbivorous dinosaur, that dwells mostly in marsh and wetland terrain. They are not naturally aggressive, but can be dangerous by virtue of their size.
 
 ___
 ### Raptor (levels 2, 4)
@@ -312,66 +381,6 @@ This represents a large raptor, such as the ones that could be used as cavalry, 
 Wild raptors dwell on plains and hills and hunt in packs. They prefer smaller prey (including cattle and humanoid caravans), but when hungry have no hesitation when it comes to taking on larger pray, including monsters. Raptors are highly intelligent and have been known to blindside inexperienced humans that come to hunt them.
 
 Raptors are valued as fearsome mounts, but also for their tough hides, which have numerous uses.
-
-___
-### Hadrosaur (level 7)
-|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
-|-|-|-|-|-|-|
-|12/14/9|56|23|40ft|(swim) 20ft|
-
-(huge, +3 natural)
-
-||Str|Dex|Con|Int|Wis|Cha|
-|-|-|-|-|-|-|-|
-|Stat|22|8|18|2|10|12|
-|Bonus|+6|-1|+4|-4|0|+1|
-|Save|+10|-1|+6|-2|+2|+3|
-
-|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
-|-|-|-|-|-|-|-|
-|7(2)|14|8|3|2|4|3|
-
-|Ability|Bonus|Damage|Other|
-|-|-|-|-|
-|Slam|+10|1d8+6||
-|Throw|+10|||
-|Combined Maneuver I|||A hadrosaur often sends foes flying when it slams them|
-|Senses|||Keen Smell|
-|Skills|"Observe" +5, "Swim" +10|||
-|||||
-
-This is a large, herbivorous dinosaur, that dwells mostly in marsh and wetland terrain. They are not naturally aggressive, but can be dangerous by virtue of their size.
-
-___
-### Swarm of Bees
-|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
-|-|-|-|-|-|-|
-|13/11/13|18|16|7|10ft|40ft (fly)|
-
-A swarm of bees is medium sized.
-
-||Str|Dex|Con|Int|Wis|Cha|
-|-|-|-|-|-|-|-|
-|Stat|2|15|14|3|12|14|
-|Bonus|-5|+2|+2|-4|+1|+2|
-|Save|-4|+3|+3|-3|+2|+3|
-
-|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
-|-|-|-|-|-|-|-|
-|3(1)|6|5|1|1|2|2|
-
-|Ability|Bonus|Damage|Other|
-|-|-|-|-|
-|Sting|+4|1[piercing] + 1d4[poison]|The suffers 1d4 poison at the start of every subsequent round for a minute or until is succeeds on a Threshold=16 CON save. Every time the swarm hits with a sting attack it loses 1 HP.|
-|Grapple/Infiltrate|+6||A swarm that enters the space of another entity can attempt to land and find exposed areas on a target as a main action. A bee swarm that has successfully grappled/infiltrated its target automatically hits with its sting if it stings on subsequent rounds.|
-|Home Territory|||A swarm always succeeds on navigation rolls on home terrain|
-|Skills|||"Navigate" -2, "Harvest" +4|
-|Scattered Cover|||The swarm is considered to have "[heavy cover](../04-combat.md#cover-and-concealment)" for the sake of targeted attacks made against it.|
-|Resistant|||"Bludgeoning, ""Piercing", "Shear", "Slashing"|
-|Resistant|||"Fear","Charm"|
-|Immune|||"Grappled","Bleeding","Grappled","Restrained","Crippled","Paralysed"|
-
-Bees swarm when angered, disturbed, when their home is damaged or destroyed, or when leaving the hive with a new queen to form a new hive. Bee swarms in the latter case are reluctant to attack, since every attack they make costs them the lives of their own that cannot be replaced.
 
 ___
 ## Plants

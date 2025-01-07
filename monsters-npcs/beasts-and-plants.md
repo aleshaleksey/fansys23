@@ -180,33 +180,6 @@ Size = small
 This block can be used for domesticated dogs, jackals and foxes. Large dogs should use the wolf block.
 
 ___
-### Deer/Antelope (level 1)
-|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
-|-|-|-|-|-|-|
-|12/11/11|7|4|2|50ft|-|
-
-Size = medium
-
-||Str|Dex|Con|Int|Wis|Cha|
-|-|-|-|-|-|-|-|
-|Stat|10|16|12|2|10|10|
-|Bonus|0|+3|+1|-5|0|0|
-|Save|+1|+4|+2|-4|+1|+1|
-
-|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
-|-|-|-|-|-|-|-|
-|1 (1)|3|2|1|1|2|2|
-
-|Ability|Bonus|Damage|Other|
-|-|-|-|-|
-|Hooves|+5|1d6+3||
-|Keen Senses: Smell, Hearing|||Advantage on observe rolls based on hearing or scent|
-|[Sprinter](../06-abilities.md#sprinter)|||run faster|
-|Skills|||"Harvest"+1, "Athletics" +1, "Observe" +2|
-
-This stat block can be used for deer or antelopes. For reindeer use [Horse, light](#horse-light-level-2).
-
-___
 ### Horse, Light (level 2)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
@@ -350,6 +323,33 @@ ___
 ## Animals: Wild
 
 ___
+### Deer/Antelope (level 1)
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|12/11/11|7|4|2|50ft|-|
+
+Size = medium
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|10|16|12|2|10|10|
+|Bonus|0|+3|+1|-5|0|0|
+|Save|+1|+4|+2|-4|+1|+1|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|1 (1)|3|2|1|1|2|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Hooves|+5|1d6+3||
+|Keen Senses: Smell, Hearing|||Advantage on observe rolls based on hearing or scent|
+|[Sprinter](../06-abilities.md#sprinter)|||run faster|
+|Skills|||"Harvest"+1, "Athletics" +1, "Observe" +2|
+
+This stat block can be used for deer or antelopes. For reindeer use [Horse, light](#horse-light-level-2).
+
+___
 ### Bat
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
@@ -411,6 +411,38 @@ ___
 |Loot|||Bear pelts are valuable and make hide armour, their meat is marginally edible to humanoids|
 
 This block can be used for brown or polar bear. It is possible for bears to be of a higher level.
+
+___
+### Boar (level 4)
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|13/13/9|30|14|8|40||
+
+(Natural armour + 3)
+Size = Medium
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|14|10|16|2|10|12|
+|Bonus|+2|0|3|-4|0|+1|
+|Save|+5|+1|+6|-3|+1|+2|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|4 (1)|9|5|2|1|3|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Gore|+5|1d12+3|Shear damage|
+|Shove|+5|||
+|Keen scent|||Advantage on perception rolls based on scent|
+|Low light Vision|||Can see in the "dark", but not pitch black conditions|
+|[Combined Manoeuvre](../06-abilities.md#combined-manoeuvre-i-v)|||A boar will usually shove when goring (1SP)|
+|[Greater Manoeuvre](../06-abilities.md#greater-manoeuvre-i-v)|||Boars will fiercely tackle very large prey|
+|Skills|||"Athletics" +4, "Harvest" +6, "Observe" +1|
+|Loot|||A boar can provide a sturdy pelt and more than 100lb of meat.|
+
+This block is used for aggressive, wild pigs (boars). Boars are aggressive omnivores that typically dwell in woodlands, hills, and sometimes swamps.
 
 ___
 ### Rat

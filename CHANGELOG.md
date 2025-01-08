@@ -216,8 +216,8 @@ ___
 ## From v0.0.9
 
 ### General
-- 
-- 
+- Better organise the base rules section.
+- Add some more rearing times.
 - 
 
 ### Combat

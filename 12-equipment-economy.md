@@ -436,13 +436,13 @@ ___
 |Sailing ship (small)|4800|92|yes|yes|yes|
 |Sailing ship (carrack)|12600|92|no|yes|yes|
 
-**Cart**: A light, two or four wheeled wooden cart, usually without an awning. Typically a cart is 5x10ft long and can house 8 passengers and 2 drivers, transporting up to 4000lb, but no more than the drag weight of the beasts of burden pulling it. Carts can typically travel on, and off, road. The speed of a wagon is 30ft on road and 20ft off road. A cart can traverse difficult terrain at 5ft per round.
+**Cart**: A light, two or four wheeled wooden cart, usually without an awning. Typically a cart is 5x10ft long and can house 8 passengers and 2 drivers, transporting up to 4000lb, but no more than the drag weight of the beasts of burden pulling it. Carts can typically travel on, and off, road. The speed of a wagon is 30ft on road and 20ft off road. A cart can traverse difficult terrain at 5ft per round. A cart weighs 200lb.
 
-**Wagon**: A heavy, four wheeled cart, usually with an awning. A wagon typically is 5x15ft in length, 10ft in height and can house 12 passengers and 2 drivers, transporting up to 8000lb, but no more than the drag weight of the beasts of burden pulling it. Wagons can typically travel on, and off, road. The speed of a wagon is 25ft on road and 15ft off road. A wagon cannot traverse difficult terrain.
+**Wagon**: A heavy, four wheeled cart, usually with an awning. A wagon typically is 5x15ft in length, 10ft in height and can house 12 passengers and 2 drivers, transporting up to 8000lb, but no more than the drag weight of the beasts of burden pulling it. Wagons can typically travel on, and off, road. The speed of a wagon is 25ft on road and 15ft off road. A wagon cannot traverse difficult terrain. A wagon weighs 800lb.
 
-**War chariot**: This is a light, two wheeled platform (5x5ft), that carries a driver and up to 3 passengers. In combat it can carry a driver and a single medium sized combatant. A combatant riding chariot may use unwieldy and heavy weapons, as if they were standing on flat, open terrain (if space permits). A chariot with one horse can travel at 40ft, with 2 horses- 50ft, with 4 horses - 60ft. A chariot can be driven off road. It can traverse difficult terrain at 10ft.
+**War chariot**: This is a light, two wheeled platform (5x5ft), that carries a driver and up to 2 passengers. In combat it can carry a driver and a single medium sized combatant. A combatant riding chariot may use unwieldy and heavy weapons, as if they were standing on flat, open terrain (if space permits). A chariot with one horse can travel at 40ft, with 2 horses- 50ft, with 4 horses - 60ft. A chariot can be driven off road. It can traverse difficult terrain at 10ft. A chariot weights 80lb.
 
-**Carriage**: A carriage is a closed wagon approximately 12ft in length and 6ft in width. For combat purposes it takes up 2 squares. A carriage can house up to 6 passengers inside, as well as up to 4 crew. a carriage drawn by 2 horses (a pair) has a speed of 30ft, by 4 horses - 40ft, by 6 horses - 50ft. Travels cannot travel faster than their beasts of burden, unless travelling down hill. Carriages can only travel on roads or relatively flat, solid ground, albeit at half speed. They are seldom suitable for cross country driving.
+**Carriage**: A carriage is a closed wagon approximately 12ft in length and 6ft in width. For combat purposes it takes up 2 squares. A carriage can house up to 6 passengers inside, as well as up to 4 crew. a carriage drawn by 2 horses (a pair) has a speed of 30ft, by 4 horses - 40ft, by 6 horses - 50ft. Travels cannot travel faster than their beasts of burden, unless travelling down hill. Carriages can only travel on roads or relatively flat, solid ground, albeit at half speed. They are seldom suitable for cross country driving. A carriage weights 1800lb.
 
 **Canoe**: A canoe is a light, narrow, rowing boat that can carry up to 4 medium sized humanoids. It has a speed of 50ft, a length of 12-18ft, and a weight of 40lb.
 
@@ -465,24 +465,45 @@ ___
 |Cow|150|18 months|yes|yes|yes|
 |Ox|170|2 years|yes|yes|yes|
 |||||||
-|Swarm of bees|16||yes|yes|yes|
-|Hive of bees|48||yes|yes|yes|
-|Falcon|480||yes|yes|yes|
+|Swarm of bees|16|2 months|yes|yes|yes|
+|Hive of bees|48|4 months|yes|yes|yes|
+|Falcon|480|1 year|yes|yes|yes|
 |Falcon, chick|240||yes|yes|yes|
-|Hawk|48||yes|yes|yes|
+|Hawk|48|2 years|yes|yes|yes|
 |Hawk, chick|24||yes|yes|yes|
 |||||||
 |Pup|8||yes|yes|yes|
 |Well bred pup|240||yes|yes|yes|
-|Untrained dog|240||yes|yes|yes|
-|Hunting dog|480||yes|yes|yes|
+|Untrained dog|240|6 months|yes|yes|yes|
+|Hunting dog|480|2 years|yes|yes|yes|
 |||||||
 |Riding|480|3 years to rear, 1 to train|yes|yes|yes|
 |Draught horse|60|3 years to rear, 1 to train|yes|yes|yes|
 |Warhorse|4000-80000|3 years to rear, 3 to train|yes|yes|yes|
 |||||||
-|Humanoid Slave (lvl-1)|400||yes|yes|rare|
-|Humanoid Slave, Trained (lvl-3)|3600||yes|yes|rare|
+|Humanoid Slave* (lvl-1)|400|10 years|yes|yes|rare|
+|Humanoid Slave*, Trained (lvl-3)|3600|15 years|yes|yes|rare|
+
+**Chickens**: Chickens are omnivorous, flightless, fowl. They typically weigh between 2-8lb and provide feathers, meat and eggs. They are easy to keep and raise, but are vulnerable to predation by most things and must be carefully guarded.
+
+**Sheep/Goat**: Small ruminants that typically weigh between 50-200lb. They are hardy grazers and thrive in poor, hilly environments where horses and oxen might have difficulty. They provide milk, wool, meat and hides. They are vulnerable to predation by wolves and larger predators and should be carefully guarded.
+
+**Cow/Ox**: Large ruminants that prefer lush grasses. They typically weigh between 500-2000lb and provide meat, milk and hide. They can also strong enough to pull carts and wagons, although not particularly fast. Being large, and typically horned, they are relatively defended from most beasts, but can be hunted by larger dinosaurs, monsters and dragons.
+
+**Bees**: Bees are venomous insects that dwell in colonies of 100K-1M individuals. They gather nectar and pollen. They provide honey and wax.
+
+**Falcon**: Falcons are predatory birds that prefer to hunt birds. This makes them valuable for hunting, but also for messengers.
+
+**Hawk**: Hawks are predatory birds that prefer to hunt ground animals. Their keen eyes make them valuable for hunters, but also for scouts.
+
+**Dogs**: Dogs are predatory canines that come in many shapes and sizes. They are typically loyal and easily trainable. Together with their keen senses, endurance and lupine instincts, they are invaluable to humanoids, be it for hunting, guard duties, or companionship. Dogs are omnivores with a preference for meat and can weight between 10-200lb.
+
+**Horses**: Horses are hoofed ruminants, prized for their speed, strength and endurance. They are used for mounts and to tow vehicles.
+ - A riding horse (use "[light horse](monsters-npcs/beasts-and-plants.md#horse-light-level-2)") weighs between 500-1500lb and is trained to carry a rider or pulling a vehicle, but is not combat trained.
+ - A draught horse weighs between 1500-2500lb and is trained for pulling a vehicle, but not riding or combat. Use "[heavy horse](monsters-npcs/beasts-and-plants.md#horse-heavy-level-3)".
+ - A war horse weighs between 1000-2000lb and is trained for either riding or pulling, but is trained for combat. Use "[war horse](monsters-npcs/beasts-and-plants.md#horse-war-level-4)".
+
+**Humanoid Slave**: Humanoid slaves are used as servants, for menial labour, or as gladiators (amongst other roles). Slaves must be properly trained and indoctrinated to prevent them escaping. A mistreated slave may attempt to kill its master and/or escape. High-magic society may use supernatural means to bind more dangerous or valuable slaves. Societies that use slaves generally obtain them either by breeding or raiding and capturing. Some societies may sentence certain criminals, or defeated political rivals to a life of slavery. In such societies slaves are usually not particularly expensive, because of high availability and the omnivorous nature of most humanoids (you can feed them almost anything and they will survive). *Since slavery is often a contentious topic, it should be approached sensibly by players and game masters alike.*
 
 ___
 ### Property

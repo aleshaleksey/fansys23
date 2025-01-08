@@ -21,6 +21,7 @@ This system deals heavily with combat and many of the mechanics are tuned to wor
       - [Movement Summary](#movement-summary)
       - [Total Defence: Dodge](#total-defence-dodge)
       - [Total Defence: Shield](#total-defence-shield)
+    - [Assisting](#assisting)
 5. [Surprise and Ambush](#surprise-and-ambush)
     - [Intentionally Hidden Enemies](#intentionally-hidden-enemies)
     - [Unintentionally Hidden Enemies](#unintentionally-hidden-enemies)

@@ -837,7 +837,7 @@ ___
 |Range|close|-1
 |Duration|12 min (1 day+)|+3
 |Components|incantation, kinetic|-1
-|Focus|An ivory totem|
+|Focus|An ivory totem|-1
 |Limitation|The habitat into which the animal is summoned must be able to support it.|-2
 |Concentration|local|
 |Save|-|

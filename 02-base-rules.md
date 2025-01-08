@@ -13,9 +13,13 @@
     -  [Modifiers vs Advantage/Disadvantage](#modifiers-vs-advantagedisadvantage)
     -  [Sources of Modifiers](#sources-of-modifiers)
 4. [Time](#time)
-5. [Character Descriptors](#character-descriptors)
+5. [Character Basics and Descriptors](#character-basics-and-descriptors)
     -  [Descriptive Attributes](#descriptive-attributes)
     -  [Intrinsic Attributes](#intrinsic-attributes)
+        - [Entity Type](#entity-type)
+        - [Template/Race](#templaterace)
+        - [Size category](#size-category)
+        - [Movement modalities](#movement-modalities)
     -  [Character level and Base](#character-level-and-base)
         - [Leveling up](#leveling-up)
         - [Base](#base)
@@ -42,11 +46,11 @@
     -  [Size rules](#size-rules-table)
 7. [Version](#version)
 
-
+___
 ## Foreword
 This is a FIRST DRAFT of some general rules. They are over-ruled by more specific rules that pertain to certain creatures and situations. Some rules are prefaced by an ALWAYS or NEVER directive. In these cases they are absolute and apply in all situations.
 
----
+___
 ## Purpose of the system
 The system codifies the rules for a fantasy roleplaying game that focuses on combat and exploration. It aims to build on what I perceive as strength of existing systems and address their weaknesses:
 - Keep a well codified rulebook (PF).
@@ -60,21 +64,24 @@ The system codifies the rules for a fantasy roleplaying game that focuses on com
 - Expand the rules for exploration and travel.
 - Expand the rules for weapons.
 
----
+___
 ## Rolling Dice
 
 Rolling dice introduces uncertainty into what is otherwise a numbers game. The outcome of a dice roll should be rolled when the outcome of an action is uncertain, because of hidden variables or otherwise. Thus if an action is sure to fail ("I jump to the moon"), or sure to succeed ("I take a breath of air"), a roll should not be made.
 It is possible to play this kind of game without ever rolling dice (using average values), however this is generally considered boring, which is why we use dice.
 
+___
 #### Rounding up and down
 Whenever a roll (or other number) is divided (eg half damage, jump distances, bonuses, etc) and the result is not a whole number, the principle of "round up, except for damage" is applied.
 
+___
 #### Core Rolls
 There are three (and a half) types of base roll.
 - An ability/skill roll.
 - A save.
 - An targeted attack.
 
+___
 #### Version I: 2d12
 The core dice for ability checks/tests, saves and attacks is 2d12. You roll a 2d12 and add a static modifier. If the result equals or exceeds a target value, you succeed. Otherwise you fail.
 - **General Special**: Also, for every 12 you roll, add +2 to the result. For every 1, subtract 2 from the result.
@@ -86,6 +93,7 @@ The core dice for ability checks/tests, saves and attacks is 2d12. You roll a 2d
 
 2d12 is chosen as a core roll firstly because d12 are nice dice to roll, secondly because this solves the "high modifier - low modifier" problem, and thirdly because the "triangular" probability distribution simulates life more closely than the 1d20 "uniform" distribution and this then allows us to eschew opposed rolls in time sensitive sections of the game (like combat) while preserving a similar probability distribution of success and failure.
 
+___
 #### Taking 24, taking 13, auto-failure and voluntary failure
 Sometimes rolls of the core dice can be skipped.
 
@@ -95,7 +103,7 @@ Sometimes rolls of the core dice can be skipped.
 
 This relies on the property of statistics that if you roll 2d12 enough times, you will eventually roll a 24. Statistically speaking, you have a 50% chance of doing so after 100 rolls. As an alternative a character may take 20, which takes 20 times the time and resources (instead of 100).
 
-These numbers are a little bit different from what we see in systems like "Pathfinder" and "Dungeons and Dragons", because a) we use different dice and b) we use proper maths.
+These numbers are a little bit different from what we see in systems like "Pathfinder" and "Dungeons and Dragons", because (a) we use different dice and (b) we use proper maths.
 
 **Taking care:** Also referred to as "take 13". Add 13 to the modifier and take this as the result. this represents using a systematic, familiar approach to solve a problem. It explains why for example a craftsman doesn't destroy 25% of the shoes he makes despite having only +5 as his modifier while making a shoe having a threshold of 10, or why we don't fall down the stairs every few weeks. One can "take care" if:
  1. You are in a relatively safe environment, free of distractions and threats.
@@ -107,11 +115,13 @@ This works because the average of 2d12 is 13.
 
 **Voluntary failure:** An entity can choose to fail any check that requires some voluntary action. One cannot usually voluntarily fail checks and saves for autonomous functions. For example a humanoid cannot volunteer to fail a Con save vs poison, since you cannot switch off your liver at will, but you can voluntarily fail a Dex save vs a runaway cart, because you can consciously decide not to move out of the way.
 
+___
 #### Opposing Rolls vs Thresholds
 Static thresholds are always preferred over opposed rolls in combat. This increases the speed of combat as we do not need to wait for other side to make a roll. This means that hit thresholds, save threshold and skill thresholds based on average rolls ("take care") are used for the defending side.
 Outside of combat it is up to the group whether opposed rolls or thresholds are used. Opposed rolls make the game more interactive in non time critical sections.
 For many skill rolls the threshold is written as "Opposed vs [skill name]". It is perfectly acceptable to calculate an average ("take care") threshold instead of doing the opposed roll.
 
+___
 #### Precedence of Rolls: Thresholds (DC), and opposing rolls
 Meeting (equalling) the target number of a roll beats it. The target number can be static or dynamic. Static thresholds are when a dice is rolled and the result compared to a predefined number. Dynamic thresholds are what you get when you have two or more opposing rolls.
 - eg **static**: "HiT" (Hit Threshold) of a monster, eg 18. Save threshold for a spell. Ability threshold for jumping over a gap of 15 feet.
@@ -124,6 +134,7 @@ For dynamic thresholds, it can be difficult to tell, which of the opposing rolls
 
 This rule is a refinement and codification of "meets it beats it" and "defender wins" (except here defender loses). It is chosen as the method for resolving rolls as it is most similar to "meets it beats it", while being systematic and consistent, and not because it is in some way mathematically superior.
 
+___
 #### Difficulties and recommended thresholds
 The numbers on thresholds and rolls are abstractions of how difficult a task is to accomplish and how well it was performed respectively. As a rough guide, assuming that an average person is a level 1 character with 11 in most base stats and hence a +1 in skills they are not familiar with and + 3 in skills that they are familiar in, the table is as follows:
 - 4: Almost impossible to fail. (An infant can do better.)
@@ -135,6 +146,7 @@ The numbers on thresholds and rolls are abstractions of how difficult a task is 
 - 36: Hard, for a legendary hero. (Legendary!)
 - 50+: Actually impossible. With maxed out stats, rolling 24 should not hit above 50. (God)
 
+___
 #### Modifiers vs Advantage/Disadvantage
 A mix of game balance and simulationism guide our understanding on what they represent and how they should be applied.
 
@@ -152,6 +164,7 @@ Modifiers from "natural" sources stack (add up) if they come from a different KI
 
 Modifiers from "supernatural" sources never stack with modifiers from other supernatural sources. To simplify mechanics a group can decide that the only types are "natural" and "supernatural" for minimum viable mechanics.
 
+___
 #### Sources of Modifiers
 Because stacking modifiers can easily "break" a game or lead to situations where the outcome is decided early on in a scenario, it is desirable to avoid this. As a result the following rule is used with modifiers:
 - Modifiers can come from circumstances or equipment.
@@ -160,7 +173,7 @@ Because stacking modifiers can easily "break" a game or lead to situations where
 - Modifiers cannot usually come from conditions.
 - Modifiers can NEVER come directly from active martial or supernatural (spells) abilities (although use of such abilities can induce conditions, which might provide penalties).
 
----
+___
 ## Time
 
 - 1 day is 24 hours. It should be noted that when an activity's duration is measured in days, this generally assumes that 10 hours are spent on the activity, and the rest are used for maintaining vital activities and rest.
@@ -168,11 +181,12 @@ Because stacking modifiers can easily "break" a game or lead to situations where
 - 1 minute (abbreviated to "min") is 60 seconds.
 - 1 round is 6 seconds (5 works as well but we're more used to the decimal system).
 
+___
+## Character Basics and Descriptors
 
----
-## Character Descriptors
+For a character to function within the game system it has a number of mechanistic parameters. In addition, a character has descriptive attributes that need not influence mechanics (within reason), eg hair/feather/scale length and colour. Timbre of voice. This kind of thing is cool, but not regulated by these rules.
 
-A character has descriptive attributes that need not influence mechanics (within reason), eg hair/feather/scale length and colour. Timbre of voice. This kind of thing is cool, but not regulated by these rules.
+Mechanistic parameters are:
 
 - A character has an entity type, race, size category, movement modalities and speed. These have mechanistic effects.
   1. **Entity type**
@@ -193,30 +207,49 @@ A character has descriptive attributes that need not influence mechanics (within
 - **Proficiencies**: A character has proficiencies (eg heavy armour proficiency).
 - **Abilities**: A character has abilities (eg spellcasting, multi-attack).
 
+These are all covered in detail further in the base rules.
+
+___
 ### Descriptive Attributes
 
 A character has descriptive attributes that need not influence mechanics (within reason), eg hair/feather/scale length and colour. Timbre of voice. This kind of thing is cool, but not regulated by these rules. Unless your voice is ultrasonic and destroys superstructures, or your hair is 50ft long. Then the DM is well within their rights to interfere.
 
+___
 ### Intrinsic Attributes
 
 A character has certain attributes that are inherent to it and are not easily changed. These include: entity type, race, size category, movement modalities and speed. These have mechanistic effects.
 
-1. **Entity type** define the base possibilities of a character (a plant does not require sleep, but usually requires water, air and "sustenance", it does "see" things. A spirit does not have a corporeal form and cannot be "touched" normally, a humanoid (animal) has a movement speed, and a corporeal form, usually with one head, one torso, two arms and two legs, requires air, water, sustenance, sleep and ages).
-2. The **race** (or **template**) determines some specific characteristics and attributes. (eg base movement speed, movement modality, lifespan, typical weight and height, certain resistances and vulnerabilities and special abilities).
-3. **Size category** [diminutive, tiny, small, medium, large, huge, gargantuan, colossal] affect how much space an entity takes up on (and off) a battlefield, its reach, its AC, and potentially other things. Size rules are described in the ["Size Rules"](#size-rules) section below.
-4. **Movement modalities** are usually determined by race and special abilities. A creature WITH a movement modality may (or may not!) be able to move over other terrain with an ability check. this is covered in "movement" rules:
-    - **walk speed**: ground movement over horizontal-ish terrain.
-    - **climb speed**: ground movement over vertical-ish terrain.
-    - **flight speed**: Areal movement. Movement through the air.
-    - **swim speed**: movement through a liquid medium (usually water).
-    - **dig speed**: tunnelling movement.
-    - **cosmic speed** ethereal movement. Movement through vacuum, solids (without  interacting) or alternative spaces. Very few beings have a "cosmic speed" and most are supernatural.
-    - **blink speed**: discrete movement. An entity with a blink speed need not pass through the spaces between start and destination as long as it is in range. Very few entities have a "blink speed", most are powerful supernatural entities.
+___
+#### Entity Type
+This defines the base possibilities of a character (a plant does not require sleep, but usually requires water, air and "sustenance", it does "see" things. A spirit does not have a corporeal form and cannot be "touched" normally, a humanoid (animal) has a movement speed, and a corporeal form, usually with one head, one torso, two arms and two legs, requires air, water, sustenance, sleep and ages). It also defines base resistances, vulnerabilities and resistances. More information can be found in the ["Entity Types"](10-conditions-types.md#entity-types) chapter.
 
+Most player characters will be "Mortal: humanoid", or "Mortal: monster".
+
+___
+#### Template/Race
+Template is a set of attributes, usually attributed to race or species, that is applied to characters on creation. It usually gives some penalties/bonuses to stats and skills, additional movement modalities, and abilities. In addition it affects the size category and appearance of a character. For example, an "orc" template gives a bonus to STR and CON, a penalty to INT, "heat sense, proficiency with "strikes" and "slings", as well as resistance to "bludgeoning".
+
+___
+#### Size category
+Size categories [diminutive, tiny, small, medium, large, huge, gargantuan, colossal] affect how much space an entity takes up on (and off) a battlefield, its reach, its AC, and potentially other things. Size rules are described in the ["Size Rules"](#size-rules) section below.
+
+___
+#### Movement modalities
+Movement modalities are usually determined by race and special abilities. A creature WITH a movement modality may (or may not!) be able to move over other terrain with an ability check. this is covered in "[movement](03-movement-exploration.md#local-and-global-movement)" rules:
+- **walk speed**: ground movement over horizontal-ish terrain.
+- **climb speed**: ground movement over vertical-ish terrain.
+- **flight speed**: Areal movement. Movement through the air.
+- **swim speed**: movement through a liquid medium (usually water).
+- **dig speed**: tunnelling movement.
+- **cosmic speed** ethereal movement. Movement through vacuum, solids (without  interacting) or alternative spaces. Very few beings have a "cosmic speed" and most are supernatural.
+- **blink speed**: discrete movement. An entity with a blink speed need not pass through the spaces between start and destination as long as it is in range. Very few entities have a "blink speed", most are powerful supernatural entities.
+
+___
 ### Character level and Base
 
 All player characters have one. This is an abstract measure of experience and the power that is derived from it.
 
+___
 #### Levelling up
 
 Every time a character levels up it gains:
@@ -243,6 +276,7 @@ At level one a character starts with:
 
 In addition at level 8 and level 16 a character gets a "race boon" from its race.
 
+___
 #### Level points and abilities
 
 Every character gets 3 level points at level 1 and at each subsequent level up. These can be spend as follows.
@@ -251,6 +285,7 @@ Every character gets 3 level points at level 1 and at each subsequent level up. 
 + Exchanged for an increase to stats at the rate of 1 level point = +1 to a single stat. No stat may exceed 24 for player characters. A character can only add one level point to stats per level.
 + Exchanged for abilities and boons.
 
+___
 #### Base
 
 A character's **Base** is a measure of global experience that permeates into most of a character's actions, be they day to day activities or extraordinary feats. It is a small bonus that is added to most rolls. Base is calculated as:
@@ -259,6 +294,7 @@ A character's **Base** is a measure of global experience that permeates into mos
 
 The values can also be found in the "[Level parameters](#level-parameters)" table.
 
+___
 ### Stats
 
 A character has six **base attributes**. Each one represents how "strong" some aspect of the character is. In general the higher the value, the stronger that aspect of the character.
@@ -280,6 +316,7 @@ A character has six **base attributes**. Each one represents how "strong" some a
 
 When an ability is written *without* square brackets, for example "Con" or "CON", we are referring to the raw stat, which is likely to be between 5 and 24+. If it is written *with* square brackets, for example "[Con]" or "[CON]", it is referring to the modifier, which is typically between -4 and 8+.
 
+___
 #### Stat assignment
 
 The bases value for stats of a character is 10. When a character is created, this value is modified. Stats can be assigned either with dice rolls, or with a "point buy" system. The usual rule for rolling up stats is (there are other methods which produce other results):
@@ -311,6 +348,7 @@ The point cost for point buy is as follows.
 |17|+3|11|
 |18|+4|14|
 
+___
 ### Resource pools
 
 A character has resource pools. These are a critical part of the game and are explained below.
@@ -319,6 +357,7 @@ A character has resource pools. These are a critical part of the game and are ex
 - The "MP dice pool" represents spirit, pluck, mental resilience and affinity for the supernatural. It is important for casters, healers and generally "magical" characters.
 - HP represents overall life force. As soon as you start taking HP damage, you are in trouble. Having lots of HP is important, but even more so for characters who will be putting themselves in harm's way often.
 
+___
 #### HP pool
  
  This represents your health or life force. Loss of HP represents physical/spiritual damage/degradation.
@@ -330,7 +369,8 @@ A character has resource pools. These are a critical part of the game and are ex
 - A character regains a single point of HP per long rest (usually a day). If a character receives long term medical care this becomes 2HP. (see ["Rest and Recuperation"](04-combat.md#rest-and-recuperation))
 - When a character with no SP takes natural damage, it loses HP equal to the damage taken.
 - When a character with no MP takes supernatural damage, it loses HP equal to the damage taken.
-  
+
+___
 #### MP dice pool
 
 This is the determinant of "MP pool".
@@ -339,6 +379,7 @@ This is the determinant of "MP pool".
 - A character with 0 MP dice cannot use the more powerful supernatural abilities that require MP.
  - A character regains 1/2 of all MP dice on any "rest" [whatever that may be in duration], and as a result of this 2 MP per dice (see "Mana Pool" below).
 
+___
 #### Mana pool
 
 This is a measure of an entities' mental/spiritual energy.
@@ -350,6 +391,7 @@ This is a measure of an entities' mental/spiritual energy.
 - When a character rests, it regains **[CHA x Base]** MP. (see ["Rest and Recuperation"](04-combat.md#rest-and-recuperation))
   - This is in addition to the MP regained due to regained MP dice. So in total a character regains **[CHA x Base + Total MP dice count]** MP.
 
+___
 #### SP dice pool
 
 This is the determinant of "SP pool".
@@ -358,6 +400,7 @@ This is the determinant of "SP pool".
 - A character with 0 SP dice cannot use the more powerful supernatural abilities that require SP.
 - A character regains 1/2 of all SP dice on any "rest" [whatever that may be in duration].
 
+___
 #### Stamina pool
 
 This is a measure of an entity's physical energy, stamina.
@@ -369,6 +412,7 @@ This is a measure of an entity's physical energy, stamina.
 - When a character rests, it regains **[CON x Base]** SP. (see ["Rest and Recuperation"](04-combat.md#rest-and-recuperation))
   - This is in addition to the SP regained due to regained SP dice. So in total a character regains **[CON x Base + Total SP dice count]** SP.
 
+___
 ### Nat and Sup: Attack of the three letter words
 
 This is the "natural" (Nat) and "supernatural" (Sup) component of many bonuses. They represent the mastery/affinity that a character has over/with "natural" and "supernatural" aspects of the world respectively. As a rule rolls, saves and attacks governed by Str, Dex or Con a character is proficient with use Nat. Rolls, saves and attacks governed by Int, Wis or Cha a character is proficient with use Sup. They are calculated as follows:
@@ -379,9 +423,10 @@ This is the "natural" (Nat) and "supernatural" (Sup) component of many bonuses. 
 - **Sup = [MP / 6] rounded up**
   - So a character with 31 "SP dice" has a Nat = 6.
 
+___
 ### NAP and SAP, NAT and SAT: Attack of the three letter words II
 
-Attack Potentials and Attack Thresholds are used to determine the potence, or more accurately, the success rate of a character's offensive abilities. They are bonus added to all targeted attack rolls a character makes. NAP is used for natural attacks, SAP is used for supernatural attacks.
+Attack Potentials and Attack Thresholds are used to determine the potencyPerhaps, or more accurately, the success rate of a character's offensive abilities. They are bonus added to all targeted attack rolls a character makes. NAP is used for natural attacks, SAP is used for supernatural attacks.
 
 **Natural Attack Potential** (NAP) is the bonus used for all of a character's "natural" attacks.
 - **NAP = [Base + Nat]**
@@ -391,13 +436,13 @@ Attack Potentials and Attack Thresholds are used to determine the potence, or mo
 - **SAP = [Base + Sup]**
 - A total bonus for a "supernatural" attack = SAP + Int/Wis
 
-
 **Natural Attack Threshold** (NAT) is **NAP + 10**. A target of a character's "natural" abilities rolls a save against the character's NAT.
 - The threshold for a character's "natural" abilities = NAT + Str/Dex
 
 **Supernatural Attack Threshold** (SAT) is **SAP + 10**. A target of a character's "supernatural" abilities rolls a save against a character's SAT.
 - The threshold for a character's "supernatural" abilities = SAT + Int/Wis
 
+___
 ### Saving throws
 
 Some harmful effects can be negated or mitigated with a "**save**". A character rolls [2d12 + save bonus] vs some threshold. If the save succeeds (meets it beats it), the brunt of a harmful effect can be avoided.
@@ -431,6 +476,7 @@ A character can either be proficient, or not proficient with a save. The calcula
 - **Proficient** (Str, Dex, Con): [NAP + Stat bonus] + [outside factors]
 - **Proficient** (Int, Wis, Cha): [SAP + Stat bonus] + [outside factors]
 
+___
 ### Hit Threshold (HiT)
 
 A character has an armour class/hit threshold, this is a measure of how difficult its physical (or spiritual) form is to damage using targeted attacks. It can represent any combination of armour and evasive ability and is something of an abstraction of how hard a character is to damage with a targeted attack: A targeted attack either penetrates defences, with the potential of doing damage, (hit) or it does not (miss). This is an abstraction with the following components:
@@ -459,12 +505,14 @@ A character has an armour class/hit threshold, this is a measure of how difficul
 
 For each component (eg Armour), the Sup and Nat aspect stack. However for each aspect only the highest bonus applies. Eg: If a character wears a full plate on top of padded armour, only the bonus for the full plate applies. Also your character's gonna be really hot and sweaty.
 
+___
 ### Initiative
 
 FanSys, like most TTRPG systems, is turn based, which means that all characters act one at a time. The order in which they act, in sensitive situations, such as combat, is determined by an "initiative roll". This is a *roll* with an "Initiative Bonus", which represents how quick a character is to act and react. The "Initiative Bonus" is determined as follows:
 
 **Initiative Bonus** = [DEX/2] + [INT/2]  (all fractions are rounded up as usual)
 
+___
 ### Skills and Proficiencies
 
 A character has skills and proficiencies. They generally represent the mundane ability to carry out learned activities and use tools:
@@ -477,10 +525,12 @@ The number of skill points a character can have in a single skill is capped to:
 - **[LEVEL / 2]** (rounded up)
 - A skill bonus for a given skill is: **[Base (optional)] + [ranks] + [ability bonus]** (see "[Skills](05-skills.md)" chapter)
 
+___
 ### Abilities
 
 These are the really cool abilities that a character has, like throwing fire balls, healing otherwise lethal walls, or being able to chop a giant rock in half (or carry said rock). In short extra "things" that a character can do that it might not be able to do, or the ability to withstand things it might not be able to withstand otherwise. A character can gain abilities in exchange for level points. Abilities are covered in the "[Abilities](06-abilities.md)" chapter.
 
+___
 ### Size
 
 Entities can have different physical sizes. These are categorised into 8 categories:
@@ -499,6 +549,7 @@ While as a human centric game the mechanics are fine tuned to medium sized chara
 
 NB: These rules are incomplete. More complete rules on hypo/hyperthermia affects and hunger need to be developed.
 
+___
 #### Weapon Damage and Reach
 
 As a rule, larger entities have limbs that reach further and use larger weapons, which deal more damage, while the converse is true for smaller entities. This is detailed in the ["Dice size rules"](#dice-size-rules) section at the end of the chapter.
@@ -507,24 +558,26 @@ Likewise reach increases. While small, medium and large entities have a reach of
 
 Likewise, there are more details on the effects of size in combat in the ["Combat: Space in combat"](04-combat.md#space-in-combat) section.
 
+___
 #### Space and Weight
 
 A medium sized entity takes up a 5ft square/hex. For the every size category up the side length of this space, is doubled, so a large entity takes up a 10ft square (4 x 5ft squares), and a huge entity takes up a 20ft square (16 x 5ft squares). Likewise, a small entity does not fully take up its 5ft square, and you can fit 4 small entities in a 5ft without. Thus small characters may be able to explore areas that a larger character cannot reach and escape from situations which a larger character may find inescapable. (Again this is found in the ["Combat: Space in combat"](04-combat.md#space-in-combat) section)
 
 Likewise, weight increases proportionally to volume, so larger entities are a lot heavier, usually x8 for each size category. So if a dainty human waif might weigh 100lb, the pony/horse she rides (one size category larger) may easily be 800lb. This means that large entities should be weary of the structural integrity of the ground they tread.
 
+___
 #### HiT, strength, carrying capacity
 
 Larger entities are bigger targets, and have more of themselves to move, so they do not dodge as easily. Thus they suffer a penalty to DEX saves and "evasion", but gain a bonus to STR saves and "armour".
 
 Likewise carrying capacity increases with size, but less(!) than the weight of equipment, arms and armour. (See the ["Size rules tables"](#size-rules-table)).
 
+___
 #### Environmental Effects
 
 Entities larger than "medium" take more damage when flying in stormy weather (["Movement and Exploration: Local and Global Movement"](03-movement-exploration.md#local-and-global-movement-1)) or when hitting the ground at the end of a fall (["Movement and Exploration: Falling"](03-movement-exploration.md#falling)). This generally results from the fact that while a larger body is sturdier than a small one, it is usually *less sturdy for its size*.
 
-
-
+___
 ### Senses
 
 An entity is assumed by default to have the senses of sight and hearing. Other basic, natural senses include smell, touch and taste, but not all entities possess these senses. For example an incorporeal entity might not have touch, a an undead skeleton might not have taste. In general [mortals](10-conditions-types.md#mortals) have all five senses unless stated otherwise.
@@ -542,6 +595,7 @@ In addition the following ability improves specifically the sense of sight.
 In addition the following ability improves hearing, sight or smell (optionally it may be used for taste or touch, but this is not considered to be of advantage in any normal game).
 - [Keen Senses](06-abilities.md#keen-senses-i-iii)
 
+___
 #### Sight
 
 Sight is the ability to see. An entity with sight can detect and distinguish shapes that it can draw a straight line to that is not blocked by opaque objects (line of sight). In addition it can often distinguish considerable details such as colour (if it has colour vision) or texture. This ability can only be used if there is a considerable amount of light, eg outside in daytime, or in a well lit indoor space.
@@ -556,7 +610,7 @@ In total or near total darkness, eg in an unlit cave or catacomb, or on a moonle
 
 "[Concealment](04-combat.md#cover-and-concealment)" gives entities a chance to hide from ordinary sight, but usually not a guarantee. Likewise, light concealment grants a 1/6 miss chance, while heavy concealment provides a 2/6 miss chance. Full concealment gives a 5/6 miss chance (blindness/invisibility gives full concealment).
 
-
+___
 #### Hearing
 
 Hearing is the ability to hear. An entity with hearing can detect certain vibrations (sound) and interpret them to gain information about the approximate of things and entities and gain some information about their properties. Hearing does not require a straight, unimpeded line between the entity and the source of the sound, however it does require the source to be located in contiguous gaseous, liquid or solid medium. Sound does not travel in a vacuum. 
@@ -565,12 +619,14 @@ Hearing can be used, with an "[observe](skills#observe)" roll, to locate the squ
 
 Terrestrial and flying entities have disadvantage on hearing based "[Observe](05-skills.md#observe)" and "[Track](05-skills.md#track)" rolls in water. Aquatic entities have disadvantage on these rolls out of water. Likewise, an intervening solid barrier between the entity and source of sound, causes these rolls to be made at disadvantage.
 
+___
 #### Smell
 
 Smell is the ability to detect scents. An entity with scent can detect and identify material emanations, such as aromatic oils, sweat, and the like. Scents are generally blocked if there is no path through air, space or water for the emanations to travel between their source and detecting entity.
 
 Smell cannot be used to detect location of a target, but can be used to discern the presence/absence of otherwise concealed targets, to identify them and for tracking, investigating and prospecting.
 
+___
 ## Tables
 
 #### Level parameters
@@ -598,6 +654,7 @@ Smell cannot be used to detect location of a target, but can be used to discern 
 |19|4|59|10|
 |20|4|62|10|
 
+___
 #### Nat vs SP dice and Sup vs MP dice
 
 Nat vs SP dice and Sup vs MP dice are exactly the same. Therefore only one table needs to be given. Here we give Nat vs SP dice, but the numbers for Sup vs MP dice is the same.
@@ -616,6 +673,7 @@ Nat vs SP dice and Sup vs MP dice are exactly the same. Therefore only one table
 |55-60|10|
 |61-62|11|
 
+___
 #### NAP from Base and Nat
 
 This table is not necessary since it is a simple addition for Nat + Base. However, what harm can come from one more table? (SAP from Base and Sup is **exactly** the same)
@@ -631,6 +689,7 @@ This table is not necessary since it is a simple addition for Nat + Base. Howeve
 |6||7|8|9|10|
 |7||8|9|10|11|
 
+___
 #### Size rules table
 
 There are 8 size categories in the game: [diminutive, tiny, small, medium, large, huge, gargantuan, colossal].
@@ -653,6 +712,7 @@ As this is a human-centric game, probably designed by a human, "medium", the sta
 
 1. Applies the "long" property to all weapons of "large" size category it wields. All "large" size category that already have the "long" property lose it and instead are treated as having a reach of 10ft. (See ["Combat: Range and Reach"](04-combat.md#range-and-reach))
 
+___
 #### Dice size rules
 This applies mostly to weapon attacks, but may also apply to adjustments to poison based damage based on dose at the group's discretion. *[NB: Poison rules have not yet been written.]
 
@@ -682,6 +742,7 @@ If a weapon attack rolls 2 or more damage dice of the same size, then for each s
 
 NB: There can never be multiple d2, d3 or "d1" rolled for damage for a weapon attack.
 
+___
 ## Version
 
-0.0.8
+0.0.10

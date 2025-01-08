@@ -22,9 +22,8 @@ This section covers which skills exist and how they are used.
     - [INT Based](#int-based)
     - [WIS Based](#wis-based)
     - [CHA Based](#cha-based)
-
----
-
+4. [Optional Suggested Assisting Skills](#optional-suggested-assisting-skills)
+___
 ## Skills and Proficiencies
 
 The game has **skills** and **proficiencies**. The game defines them as follows. They do not necessarily reflect "real life" accurately since this is both a game and an abstraction.
@@ -32,12 +31,14 @@ The game has **skills** and **proficiencies**. The game defines them as follows.
 - **Skills:** are general abilities that cover a range of activities that a character can learn and improve in with time. For example, **swimming** is a skill because it covers, swimming, diving and similar, and a character's ability to swim is graded. Eg. "I can't swim", "I can swim but not well", "I can cross a river, yeah", "I've swam 20 miles, it took me 3 hours".
 - **Proficiencies:** A proficiency is the knowledge and ability in using a very specific set of tools or abilities. Having a **proficiency** allows a character to use a skill with the tool/ability with a skill. Eg. Proficiency in **lock picks** with a **tinker** check allows picking locks. Proficiency with **whale** allows you to use **diplomacy** skill to persuade whales when speaking in their language.
 
+___
 ### Acquiring skills and proficiencies
 
 Skills and proficiencies are usually acquired at level up by either assigning skill points or adding a skill to "background skills". This reflects time spent honing skills through use on adventure and picking up new skills and techniques by training. Certain special abilities also grant additional skills and proficiencies.
 
 It is NOT advisable to allow a character to gain additional skill points outside of this unless it is necessary for party balance or plot reasons. Even then it should not be taken lightly. As an optional rule, a character may spend a solid month of training to gain 1 skill point. Even so, the total number of points (ranks) in a skill cannot exceed [LVL]/2. Certain supernatural abilities can also transfer a skill from one entity to another, but no entity should use them lightly.
 
+___
 ### Skill points (ranks)
 
 A character gets skill points (ranks) based on level and intelligence. The maximum number of points (ranks) in one skill is as follows:
@@ -48,24 +49,39 @@ Every level a character gains skill points equal to **3 + [INT]**. So at level L
 
 A skill point can be assigned to either (a) gain a proficiency, or (b) add a rank to a skill. Each level a character can reassign one of the previously assigned skill points to a different proficiency or skill. If a character has **zero** ranks in a skill, any roll of the dice (before modifiers!) in that skill above 12 counts as 12. This reflects lack of specialist knowledge and experience that that character lacks.
 
+___
 ### Base and "background" bonus
 
 Every level a character adds a "background" skill to add its **base** to. This cannot be reassigned later. At level N a character has N skills which are assigned as background skills (eg: 3 at level 3). This reflects knowledge in untrained skills that a character has picked up over their adventures, travels and other lifetime experience without actual training.
 
+___
 ### Total Skill bonus
 
 A character has a skill bonus of **[Base (optional)] + [ranks] + [ability bonus]**. So a character with INT = +2, and 2 ranks in "swim" has a +4 to swim. If they have assigned "swim" as a background skill, and their base is +1, the total bonus is +5.
 
+___
 ### Circumstance bonus
 
 Sometimes circumstances may add a +2/+5 to a roll (eg Homeland bonus for navigation). Sometimes they may cause advantage or disadvantage. Sometimes they are codified in the rules, sometimes the DM may apply them as appropriate.
 
+___
+#### Assisting and Circumstance bonuses
+A character may gain a +2 circumstance bonus on a skill or ability roll if *another* character 'assists'. In this case, before the initiating character makes their roll, an additional character or characters declares that they are assisting.
+
+In this case the assisting character may also make the skill/ability roll (with skills/tools the assistant must be proficient). On a total of 12 or higher, the initiating character gains a +2 on the roll.
+
+This bonus stacks, however, the number of assistants can be no higher than [base] of the initiating character.
+
+Some skills cannot be assisted.
+
+**Optional rule**: If it makes sense that a different skill should be able to help (for example assisting a "Spellworking" roll with a "Knowledge: Arcana" roll, or assisting a "Tinker" roll with an "Academics" roll, or assisting a "Harvest") in a given situation, the alternate skill can also be used for assisting. This rule can be problematic since, firstly it slows down the game as players may go into unnecessary long justifications, and secondly, adds a lot more to DM whimsy. On the other hand, this can also encourage creative role-play. An "[Optional Suggested Assisting Skills](#optional-suggested-assisting-skills)" table is provided below.
+
+___
 ### Skill groups
 
 Some skills are similar to each other as to be somewhat transferable. In this case the character may roll a different skill from the same group with a -5 penalty.
 
----
-
+___
 ## Skill and Proficiency Lists
 
 ### Skills list
@@ -130,12 +146,14 @@ There are 31 skills and a number of proficiencies.
   - [Deceive](#deceive)
   - [Perform](#perform)
 
+___
 ### Language Proficiencies
 
 There are as many language proficiencies as there are languages in your setting. In order to speak, understand, read and write a language a character must be proficient in it.
 
 Optionally, for gritty settings language proficiency does not grant a character the ability to read and write, and they must have a rank in "academics" in order to read or write. This, however, makes "academics" very strong.
 
+___
 ### Tool Proficiencies
 
 Using tools usually requires a roll of an associated skill. Some skills cannot be used for certain purposes unless the character is also proficient with appropriate tools. At the group's discretion it can makes sense for other skills may be associated with a tool (eg woodworking tools being used with **fortify** for making big items like wooden walls). Tools and their properties are further discussed below (in the "[Tools](#kit-and-tool-descriptions)" sections).
@@ -175,6 +193,7 @@ Using tools usually requires a roll of an associated skill. Some skills cannot b
   - Gaming Set (pick by group or individually)
   - Musical Instrument (pick by group or individually)
 
+___
 ### Armour Proficiencies
 
 Any entity whose body fits a suit of armour can wear the armour. As such it will get the normal benefit to the hit threshold.
@@ -193,6 +212,7 @@ There are three armour proficiencies that each cover several groups of armour.
 |Heavy armour|Segmented mail, Half-plate, Full-plate|
 |Shields|Buckler, Small shield, Large shield, Tower shield|
 
+___
 ### Weapon Proficiencies
 
 Weapons are tools that increase an entity's lethality in combat. For the sake of this definition, this does not include martial or supernatural abilities. Weapons and their properties are further discussed in the "[Weapons and Armour Section](11-weapons-armour.md)".
@@ -211,8 +231,7 @@ Weapon proficiencies are taken for each subgroup (eg "Strikes" and "Throws" are 
 |Ranged|Slings, Bows, Mechanical bows, Firearms|
 |Heavy|Ballistae, Trebuchets, Canons|
 
----
-
+___
 ## Detailed Skill Descriptions
 
 Each skill has a number of described uses. However, the list is generally not exhaustive and additional uses should be discussed within the group. For each skill there are two important questions:
@@ -220,6 +239,7 @@ Each skill has a number of described uses. However, the list is generally not ex
 1. Can an entity try the roll again, and what are the consequences? If the answer is not "yes", then one cannot "take 20" or "take 24" in that skill.
 2. Can an entity "take care" in that skill or not under appropriate circumstances (see  "[Take Care](02-base-rules.md#taking-24)")?
 
+___
 ### STR Based
 
 ___
@@ -879,6 +899,48 @@ Put on a show or act, using word or play, song or dance, instrumentals or buffoo
   - 36: A dragon might kidnap you just to fall asleep to your lullaby.
   - 50: This music can quite literally sway the gods or raise the dead.
 
+___
 ## Kit and Tool Descriptions
-
 Empty.
+
+___
+## Optional Suggested Assisting Skills
+This table is for the optional alternative assisting rule for "[Assisting and Circumstance bonuses](#assisting-and-circumstance-bonuses)". This table is not exhaustive.
+
+|Skill Used|Suggested Assisting Skills|
+|-|-|
+|Athletics|Academics, Fortify|
+|Climb|Athletics, Fortify, Tinker|
+|Swim||
+|Fortify|Athletics, Tinker|
+|||
+|Sleight of Hand|Academics, Fortify, Investigate, Knowledge, Tinker|
+|Tinker|Academics, Fortify, Investigate, Sleight of Hand|
+|Heal|Academics, Investigate, Knowledge, Sleight of Hand|
+|Acrobatics|Academics, Athletics, Fortify|
+|Fly|Fortify, Observe|
+|Ride|Creature Handling, Sleight of Hand|
+|Stealth||
+|||
+|Harvest|Prospect|
+|||
+|Academics|Investigate, Knowledge|
+|Appraise|Academics, Investigate, Knowledge|
+|Investigate/Prospect|Academics, Harvest, Knowledge, Observe, Track|
+|Navigate|Academics, Observe, Knowledge: Geography|
+|Knowledge: Arcana|Academics, Spellworking|
+|Knowledge: Geography|Academics, Navigate|
+|Knowledge: Nature|Academics, Harvest, Heal|
+|Knowledge: Dungeoneering|Academics|
+|Knowledge: History|Academics|
+|Knowledge: Religion|Academics, Knowledge|
+|Observe|-|
+|Sense Motive|Deceive, Intimidate, Persuade|
+|Track|Harvest, Observe|
+|Spellworking|Academics, Knowledge: Arcana|
+|||
+|Creature Handling|Fly, Ride, Knowledge: Nature, Sleight of Hand|
+|Intimidate|Athletics, Deceive, Perform, Sense Motive|
+|Persuade|Deceive, Perform, Sense Motive|
+|Deceive|Intimidate, Persuade, Sense Motive, Sleight of Hand|
+|Perform|Academics, Acrobatics, Athletics, Sleight of Hand|

@@ -11,7 +11,10 @@
 - []()
 
 **Fiends**
-- [Minor Demons]()
+- [Minor Demons](#minor-demon)
+- [Succubus](#succubusincubus)
+- [Fiendish Warrior](#fiendish-warrior)
+- [Demon](#demon-fire-or-ice)
 - []()
 
 ## Profane: Undead
@@ -411,6 +414,77 @@ Fiendish warriors are formidable foes. They usually prefer to fight weakened foe
 A fiendish warrior will unleash will close in and unleash their destructive aura. Once they do, they will engage in melee.
 
 Some fiendish warriors have wings and can fly at 50ft.
+
+___
+### Demon (Fire or Ice)
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|28/28/16|170|194|32|40ft|Fly 90ft (average), Blink 60ft, Cosmic I|
+
+- Size: Large
+- Natural Armour: Armour +12
+- Profane Deflection: +4
+- Saves: Str, Con, Wis
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|30|14|22|14|18|22|
+|Bonus|+10|+2|+6|+2|+4|+6|
+|Save|+11|+6|+15|+6|+15|+10|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|20(4)|25|37|5|7|9|11|
+
+|Offensive Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Grapple/Throw/Disarm/Sunder|+23|||
+|Demonic flail|+23|2d8+10||
+|Claw|+23|2d6+10||
+|Profane Blast|+15|2d4 [profane]|Range 120ft. 1MP die.|
+|Elemental Blast IV (one of fire or ice)|+15|2d6+2|Up to 6d6 (an extra 1d6 per 1MP dice)|
+|Elemental Touch IV (one of fire or ice)|+13|2d6+2|Up to 10d6 (an extra 2d6 per 1MP dice)|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Aura of Destruction|Threshold=23|||
+|||||
+|Monster Attack III|||A greater fiend makes 4 attacks/combat manoeuvres|
+|Combined Manoeuvre II|||A greater fiend can combine up to 3 basic combat manoeuvres|
+|Greater Manoeuvre I|||A greater fiend can apply manoeuvres even to colossal targets|
+|Parry|||A greater fiend adds +4 to HiT for up to 5 attacks.|
+|Great Strike|||A greater fiend adds +4 to HiT for up to 5 attacks.|
+|Opportunist|||Can make attacks of opportunity vs entities that are standing up or drinking potions|
+|"[Charge](../06-abilities.md#charge)"|||Can attack when running/sprinting when mounted|
+|Counterstrike|||Can take an attack of opportunity against a foe that hits it in melee|
+|"[Broad Strike](../06-abilities.md#broad-strike)"|||A demon may strike all targets adjacent to its target for the cost of 1 SP dice.|
+|"[Great Strike](../06-abilities.md#great-strike)"|||A demon may sacrifice up to 5 from its attack bonus to deal extrea melee damage|
+|"[Spell Strike](../06-abilities.md#spell-strike)"|||A demon may deliver spells through targetted attacks with its claws or flail for 1 MP die.|
+|"[Profane Strike](../06-abilities.md#profane-strike)"|||A demon may add 1d6 profane damage per MP dice expended to damage up to a maximum of 4|
+|||||
+|Xenophonia III|||"Humanoid", "Monster", "Elemental"|
+|Spellcasting: Global I||||
+|Spellcasting: Fire/Water VI|Threshold=28|||
+|Spellcasting: Profane VIII|Threshold=28||Favourites are: "[Dusk](../08-spell-list.md#dusk)", "[Animate Dead](../08-spell-list.md#animatecontrol-dead)", "[Balance of Nature](../08-spell-list.md#balance-of-nature)", "[Summon Fiend](../08-spell-list.md#summon-fiend)", "[Legion of Dead](../08-spell-list.md#legion-of-dead)", "[Profane Resurrection](../08-spell-list.md#profane-resurrection)"|
+|||||
+|Keen Senses|||Scent, Hearing|
+|Senses|||"Blind-sight: 30ft", "Life Sense: 30ft", "Low Light Vision", "Tremor Sense: 60ft"|
+|Skills|||"Athletics":+20, "Fortify": +20", "Climb:+20", "Swim:+11", "Ride:+7", "Intimidation":+16,"Deception":+16, "Acrobatics:+5", "Stealth:+10", "Observe":+14, "Sense Motive": +13, "Spellworking:+11", "Religion:+11", "Academics:+6"|
+|||||
+|Resistant|||"physical" damage, "fire", "ice", "lightning" damage|
+|Immune|||"disease", "poison", "dying"|
+|Vulnerability|||"divine" damage|
+|||||
+|Demonic Realm|||Each demon has its own demonic realm which is found at least in the intermediate depths of the spirit realm. This acts as a "[Greater Domain](../08-spell-list.md#greater-domain) with a radius of at least 40ft (and with no upper limit), with the exception that its alignment is "profane" and is located deeper in the spirit realm. If the domain is destroyed, the demon is likewise destroyed.|
+|Demonic Restoration|||A demon can only be permanently destroyed by "divine" damage or if its demonic realm is destroyed. A demon which is destroyed by other means will be reborn in its domain after an arbitrary amount of time (recommended 13d12 years).|
+
+Demons are greater fiends. They are an incarnation of the forces that wish to despoil and undo creation.
+
+A demon will chose the path that leads to the greatest destruction and tragedy above all, even if it must wait decades or centuries for this outcome. For example, it might save a young child if it can help raise it to be a corrupt king that will lead to the cataclysmic downfall of its kingdom. That said, a demon would prefer a direct bloodbath if this path is available and realistic.
+
+In combat a demon may use any number of strategies. However it especially delights in using a foes strengths and weaknesses against it. It will not hesitate to use a foe's kindness and mercy against it. Likewise it delights in toying with weaker foes and demonstrating to defeated foes the fruits of their powerlessness. It may even rob defeated foes of that which is precious to them and then let them live to foment hatred and despair.
+
+A demon attempts to keep its demonic realm secret and protected, as the demonic realm is its true form. Should the demonic realm be destroyed, the demon likewise perishes.
 
 ___
 ### ???

@@ -4,14 +4,54 @@ This system deals heavily with combat and many of the mechanics are tuned to wor
 
 1. [Prelude](#prelude)
 2. [Attacks](#attacks)
+    - [Targeted attacks](#targeted-attacks)
+    - [Attacks and damage bonuses](#attacks-and-damage-bonuses)
 3. [Damage and Death](#damage-and-death)
+    - [Death, dying and the relationship between HP, MP and SP](#death-dying-and-the-relationship-between-hp-mp-and-sp)
+    - [Damage resistance](#damage-resistance)
+    - [Damage reduction](#damage-reduction)
+    - [Damage immunity](#damage-immunity)
+    - [Damage Vulnerability](#damage-vulnerability)
+    - [HP damage and conditions](#hp-damage-and-conditions)
+    - [Damage and effects over time](#damage-and-effects-over-time)
 4. [Actions in combat](#flow-of-combat)
+    - [Flow of Combat](#flow-of-combat)
+      - [The Turn and actions](#the-turn-and-actions)
+      - [Types of actions in combat](#types-of-actions-in-combat)
+      - [Movement Summary](#movement-summary)
+      - [Total Defence: Dodge](#total-defence-dodge)
+      - [Total Defence: Shield](#total-defence-shield)
 5. [Surprise and Ambush](#surprise-and-ambush)
+    - [Intentionally Hidden Enemies](#intentionally-hidden-enemies)
+    - [Unintentionally Hidden Enemies](#unintentionally-hidden-enemies)
+    - [Enemies Hiding their Intent](#enemies-hiding-their-intent)
+    - [Mutually unaware combatants](#mutually-unaware-combatants)
 6. [Space in combat](#space-in-combat)
+    - [Squares and Hexes](#squares-and-hexes)
+    - [Range and reach](#range-and-reach)
+    - [Creature sizes, reach and combat](#creature-sizes-reach-and-combat)
+    - [Squeezing](#squeezing)
+    - [Flanking](#flanking)
+    - [Threatened area and Attacks of Opportunity (AoO)](#threatened-area-and-attacks-of-opportunity-aoo)
+      - [Provoking and Avoiding attacks of opportunity](#provoking-and-avoiding-attacks-of-opportunity)
+    - [Reactions and attacks of opportunity](#reactions-and-attacks-of-opportunity)
+    - [Attacks of Opportunity Table](#attacks-of-opportunity-table)
+    - [Cover and Concealment](#cover-and-concealment)
+      - [Concealment and attacks of opportunity](#concealment-and-attacks-of-opportunity)
 7. [Mounts and Mounted Combat](#mounts-and-mounted-combat)
 8. [Basic combat manoeuvres and tactical movement.](#basic-combat-manoeuvres-and-tactical-movement)
+    - [Basic Martial Manoeuvres](#basic-martial-manoeuvres)
 9. [Spellcasting and Supernatural abilities](#spellcasting-and-supernatural-abilities)
+    - [Spells](#spells)
 10. [Rest and Recuperation](#rest-and-recuperation)
+    - [Preconditions for resting](#preconditions-for-resting)
+    - [Short Rest](#short-rest)
+    - [Long Rest](#long-rest)
+    - [Full Rest](#full-rest)
+    - [Resting, amelioration and armour](#resting-amelioration-and-armour)
+11. [Tables](#tables)
+    - [Actions by action cost (how long they take)](#actions-by-action-cost-how-long-they-take)
+    - [Actions by action category (what they do)](#actions-by-action-category-what-they-do)
 
 ___
 ## Prelude
@@ -35,10 +75,12 @@ ___
 
 An attack is any action attempted against an entity that has the potential to reduce its combat potential, be it by direct damage, inducing a condition, or otherwise. For example, slashing an entity with a sword, trying to shove or disarming it, throwing dynamite at a spot where the explosion will catch it, casting a spell that charms, paralyses or blinds it, or dropping a piano on an entity all count as attacks, as do many other actions.
 
+___
 ### Targeted attacks
 
 A targeted attack is an attack made specifically against an entity that involves the attacker making a [NAP] or [SAP] based roll against the target. Usually these do damage, but they can also have other effects, for example the "grapple" manoeuvre.
 
+___
 ### Attacks and damage bonuses
 Besides [NAP] and [SAP] an attack is modified by the "governing" stat. A [stat bonus] is also added to the damage in most cases. When it is added it is usually the same stat as the governing stat for the attack. Thus for an attack with a [crossbow](11-weapons-armour.md#mechanical-bows) (1d10 damage), where DEX is the governing stat, so:
 - Attack bonus = [NAP] + [DEX]
@@ -57,6 +99,7 @@ ___
 
 Attacks and various harmful effects cause injury and death to combatants and destruction of structures and equipment (amongst other things). A semi-abstract measurement, damage, is used to quantify this.
 
+___
 ### Death, dying and the relationship between HP, MP and SP
 
 A target is considered ["dying"](10-conditions-types.md#conditions-in-detail) when it reaches 0 HP. It is destroyed or killed when it reaches minus its HP total, or CON score[1] if it is higher. An entity that is dying is "unconscious" and can take no actions. At the start of each turn when an entity is "dying" it attempts a CON (CHA) save (threshold=20). On failure it loses 1 HP, on success it stabilises and becomes ["unconscious"](10-conditions-types.md#conditions-in-detail).
@@ -67,12 +110,14 @@ Of course most offensive abilities must first "eat" through the SP or MP of a ta
 
 1. Entities that do not have a CON score may use their CHA score instead.
 
+___
 ### Damage resistance
 
 An item or entity with damage resistance to a damage type is not as strongly affected by the given damage type. An item or entity with resistance to a damage type takes half damage from that type of damage. Damage is ALWAYS rounded down when divided by 2.
 
 So if an entity with resistance fire[natural] is hit for 21 points of natural fire damage, it only takes 10.
 
+___
 ### Damage reduction
 
 Entities seldom hav damage reduction, so this rule mostly applies for objects and structures.
@@ -81,14 +126,17 @@ An item or material with damage reduction is not affected by weak attacks and ig
 
 So if an entity with damage reduction=10 physical is hit for 9 points of physical damage, it takes no damage, but if it is hit for 17 points of physical damage it takes 7.
 
+___
 ### Damage immunity
 
 An item or entity with immunity to a damage type does not take damage from that damage type. For example, a fire elemental might never take damage from fire[natural].
 
+___
 ### Damage Vulnerability
 
 An item or entity vulnerable to a damage type takes an extra half of the damage it would normally suffer.
 
+___
 ### HP damage and conditions
 
 When an entity loses HP due to damage, it risks acquiring a condition (see ["Conditions by Damage Type"](10-conditions-types.md#conditions-by-damage-type) table). 
@@ -99,6 +147,7 @@ If the damage is due to an effect that allows a save, it instead gains one assoc
 
 If the damage is from a source that has neither attack roll or save, it automatically gains the condition.
 
+___
 ### Damage and effects over time
 
 Some effects and damage have an immediate or short term effect (eg. being hit over the head with a hammer), others have a longer term effect (eg. being on fire). If the effect allows a save, the save is made before the effect takes place, just as an attack roll is made before damage/manoeuvre outcome might be applied.
@@ -112,6 +161,7 @@ The most common damage over time is fire/heat and is summarised in ["Movement an
 ___
 ## Actions in combat
 
+___
 ### Flow of Combat
 
 Combat is chaotic and combatants do what they can when they can. However this is not tenable when we come to play games like this one as it usually devolves into a shouting match. As such we use a turn-based combat system and during combat we enter something called "combat-time" where all actions take place in orderly turns.
@@ -124,6 +174,7 @@ Combat-time starts as soon as one or both sides are capable and willing of fight
 - Any entities that are not aware of of the other side at the start of combat, or are not aware that combat has started, are "surprised" for the duration of the first round.
 - The DM can declare the end of combat-time when the outcome is so obviously decided that no roll of the dice is likely to alter it, and any more rounds seem like a waste of time. In this case the DM and players should agree on what extra resources are likely to be expended to achieve a final conclusion. Usually in this case one side will have already surrendered.
 
+___
 #### The Turn and actions
 - The following (9) actions exist:
   - "**move**"
@@ -135,7 +186,6 @@ Combat-time starts as soon as one or both sides are capable and willing of fight
   - "**sprint**"
   - "**full round action**"
   - "**reaction**"
-
 
 - During its turn an entity may take all of the following actions in any order:
   - One "**move**" action.
@@ -154,6 +204,7 @@ Combat-time starts as soon as one or both sides are capable and willing of fight
 
 The actions named here are further described in the next section.
 
+___
 #### Types of actions in combat
 The actions an entity may take might also be restricted by its conditions and general limitations. For example, if you have two hands and both are holding swords, you cannot pick up another item with your hand. The following actions exist in combat.
 
@@ -203,6 +254,7 @@ The actions an entity may take might also be restricted by its conditions and ge
 
 - "**Non-action**": Entities also carry out certain activities autonomously as part of their existence. These do not usually require actions (eg breathing). Concentrating is also a non-action.
 
+___
 #### Movement Summary
 |Action name|Move distance|Action Cost|Special|Time to fatigue|
 |-|-|-|-|-|
@@ -214,29 +266,44 @@ The actions an entity may take might also be restricted by its conditions and ge
 
 For more information on movement, see "[Movement and Exploration](03-movement-exploration.md)". In addition, there are more movement rules below.
 
+___
 #### Total Defence: Dodge
 A combatant may declare "total defence: dodge" and expend their "main action", "secondary action" and "reaction", hence gaining [3 + Base] to  HiT (evasion), DEX saves and Thresholds vs the following combat manoeuvres: "grapple", "shove", "throw", "trip", "disarm" and "sunder", until the start of their next turn.
 
+___
 #### Total Defence: Shield
 A combatant may declare "total defence; shield" and expend their "main action", "secondary action" and "reaction", hence gaining [3 + Base]  to  HiT (shield), STR saves and Thresholds vs the following combat manoeuvres: "restrain", "shove", "throw", "trip", "disarm" and "sunder", until the start of their next turn.
+
+___
+### Assisting
+
+FanSys does not have a dedicated assist/help action other than for skill/ability rolls (see "[Assisting and Circumstance bonuses](05-skills.md#assisting-and-circumstance-bonuses)" section in the "Skills" chapter). 
+
+However, there are plenty of possible actions and manoeuvres which are helpful, eg flanking, providing cover, using combat manoeuvres to trip, disarm, or grapple/restrain foes, as well as spells as abilities that provide small bonuses, penalties, or various side-effects.
+
+The system works this way to encourage players to be creative with "minor" abilities and positioning rather than blindly calling "I assist".
 
 ___
 ## Surprise and Ambush
 
 As mentioned above, any combatants who are not aware of the other side, or that the other side is about to attack, starts the first round ["surprised"](10-conditions-types.md#conditions-in-detail). This can happen if the enemy is either hidden, or the intention to attack is hidden.
 
+___
 ### Intentionally Hidden Enemies
 
 Either all entities on one side make a "stealth" roll (spontaneously hiding), or a "fortification" roll from the group is used (ambush from a pre-prepared position). If this meets or exceeds the ["Observe" + 13] threshold of entities on the other side, they are surprised.
 
+___
 ### Unintentionally Hidden Enemies
 
 Sometimes some combatants are hidden by virtue of coincidence (eg round a corner, or bending over behind a crate, tying their shoelaces) when combat starts. If they are aware of the other side, they are treated as ambushers in the "Intentionally Hidden Enemies" section.
 
+___
 ### Enemies Hiding their Intent
 
 Sometimes enemies in plain sight hide their intent to attack (eg secret police or thugs in the street). In this case a "deceive" roll is made by the traitorous ambushers vs ["sense motive" + 13] instead.
 
+___
 ### Mutually unaware combatants
 
 If both parties are unaware of each other (eg bandits meet guards round the corner of a mountain path), no one is surprised and combat proceeds immediately. More accurately, both parties are considered surprised in the first round and spend the round gawking and do nothing. Either way the surprise round does not happen.
@@ -246,10 +313,12 @@ ___
 
 Combat can take place purely in imaginary space (ie. theatre of the mind), on paper, crafted terrain, ora virtual desktop. In either case most combatants take up space and move through space. Many manoeuvres, spells and other abilities deal with manipulating friend and foe in this space. The game can be played completely ignoring space, but it does change the balance quite severely. On the other hand, there are times when an exact map is not needed. For example, combat is taking place in a small room where all targets are within hand's reach. Alternatively if there is a chase or shoot-out with 600ft of space between combatants, mapping can be equally impractical.
 
+___
 ### Squares and Hexes
 
 Space is divided into squares or hexagons (hexes). Usually squares are used, and we will discuss hexes no further (although they are a perfectly good way of dividing space). Normally the size of a square is 5ft across. This also extends upwards and downwards (so a 5ft square is in fact a 5ft cube).
 
+___
 ### Range and reach
 
 Attacks have a range and reach. Range and reach is measured in 5ft increments for simplicity.
@@ -260,16 +329,19 @@ The normal reach for medium sized creatures is 5ft (aka into the adjacent square
 
 Ranged weapons fired while you are in melee are made at disadvantage (See "[Ranged Weapons, collateral and melee](11-weapons-armour.md#ranged-weapons-collateral-and-melee)").
 
+___
 ### Creature sizes, reach and combat
 
 Size is, amongst other things, a measure of how much space an entity occupies. This affects various combat parameters and can be seen in the "[Size rules](02-base-rules.md#size-rules)". Tiny and diminutive entities that have a reach of 0ft must occupy the same square as their target to make the attack.
 
 Likewise entities that are separated by at least two categories (eg Diminutive and medium, medium and gargantuan, large and colossal, small and colossal) can usually occupy the same space without penalty. Although the DM may ask for Dex saves from the smaller entity (threshold=NAT+Str of the bigger entity) on the turn of the bigger entity, lest the smaller entity be knocked "prone".
 
+___
 ### Squeezing
 
 An entity can move through spaces less than its size. In general this is up to half the space it occupies, rounded down, so 2ft for a medium sized entity and 5ft for a large entity. However, in this case it loses any DEX and SHIElD bonus to armour and has disadvantage to DEX and STR saves. Movement through smaller spaces may be possible with an acrobatics roll, but the gap should never be lower than what is physically possible. For example, a human cannot fit through a gap smaller than the diameter of its head, or the width of its hips (approximately 1ft x 1ft for an adult human).
 
+___
 ### Flanking
 
 Conceptually speaking, when a target entity has to split its attention in combat in a way that it can no longer adequately defend itself from attacks from different sides it is considered flanked. When an entity is flanked all basic combat manoeuvres and close range spells against it gain a +2 on their attack roll.
@@ -279,6 +351,7 @@ To simplify, a target entity is flanked if it has combatants that are hostile to
 1. The target entity is in the threatened area of two or more combatants that are hostile to it.
 2. A pair of intersection line can be drawn from opposite sides of squares occupied by one hostile entity to another that both lines of the pair intersect the squares occupied by the target entity.
 
+___
 ### Threatened area and Attacks of Opportunity (AoO)
 
 An attack of opportunity is when a combatant exploits an opening left by another, and carries out a "basic martial manoeuvre" against its target.
@@ -295,6 +368,7 @@ A character can avoid attacks of opportunity when moving out of a threatened squ
 
 As a rule, characters only provoke attacks of opportunity when moving through/out of threatened squares if they move under their own power. For example if a character is "shoved" out of a threatened space of an enemy, it does not provoke an attack of opportunity.
 
+___
 ### Reactions and attacks of opportunity
 
 Unless otherwise stated, a "reaction" must be declared before the provoking action has resolved (narratively a reaction is initiated when the provoking action is still ongoing and has only just started). Thus a combatant does not declare their intent to parry after seeing the enemy's blade pierce their gut. Likewise, one cannot declare "counter-spell" after learning that the target has failed its save. Reactions which are triggered by specific events such as "taking damage" obviously cannot be declared until the provoking event has happened (in this case the damage has been taken).
@@ -321,6 +395,7 @@ Either way, the golden rule with resolving reactions is that they must not break
 |Use item|No, usually|
 |Drop item|No|
 
+___
 ### Cover and Concealment
 
 Cover and concealment come in three flavours "light" (1/2), "heavy" (3/4) and "full",
@@ -426,6 +501,7 @@ ___
 - Supernatural abilities target MP, are fueled by MP dice.
 - Supernatural abilities usually force INT, WIS or CHA saves, but some can also force other saves, or be manifest as targeted attacks.
 
+___
 ### Spells
 
 Spells are a subset of supernatural powers that mortals have learned to channel by following certain procedures. Entities that cast spells are referred to here as "**casters**". Spells can be either "**local**" or "**global**". "Global" spells can be useful, and indeed devastating in combat, but most combat spells are "local". "Local" spells have the following properties:
@@ -462,6 +538,7 @@ ___
 
 After expending resource or sustaining injury in combat or otherwise, a character requires time of rest and healing to restore their strength. A character needs a certain level of comfort to rest effectively. Furthermore there are three types of rest: Short rest, long rest and full rest. Depending on how harsh and "gritty" the game you are in is, the time period that such a rest covers may vary. We recommend the "high action" times for most groups. "Harsh" rules are recommended for more gritty games, or games where violence is meant as the exception and not the rule.
 
+___
 ### Preconditions for resting
 
 A character cannot rest if:
@@ -475,6 +552,7 @@ In addition, certain types of rest have additional requirements:
 - In addition for a full rest a character must have access to medical care and not be subject to severe weather conditions for longer than 4h at a time (or they must make a Con save against the [terrain + weather] threshold or have to restart the rest).
 - In addition for a full rest a character must not suffer any effects that cause it to lose hit points.
 
+___
 ### Short Rest
 
 The recommended duration for a short rest is 1h in a high-action game and 4h in a harsh game. During a short rest a character regains:
@@ -485,6 +563,7 @@ The recommended duration for a short rest is 1h in a high-action game and 4h in 
 
 A character can benefit from number of short rests per long rest no higher than its [Base]. So a level 4 character can benefit from only 1 short rest per long rest, while a level 16 character can benefit from 4 short rests per long rest. This represents a higher level character having a deeper well of reserves to draw from. 
 
+___
 ### Long Rest
 
 The recommended duration for long rest is 8h in a high action game and 1 day in a harsh game. During a long rest a character gains all of the benefits of a short rest, as well as:
@@ -493,12 +572,14 @@ The recommended duration for long rest is 8h in a high action game and 1 day in 
 
 A character can benefit from no more than one long rest per 24h. In addition a character must carry out at least an hour of exertion after their long rest to benefit from a short rest.
 
+___
 ### Full Rest
 
 A full rest is a week of downtime in a high action game and two weeks of downtime with constant long term medical care (see [Heal](05-skills.md#heal)) in a harsh game. During this time a character regains all SP dice, MP dice, MP, SP and HP.
 
 It is recommended that a character should have to take a full rest in order to level up, which represents the time needed to internalise and "own" the experience gained in previous adventures.
 
+___
 ### Resting, amelioration and armour
 
 Armour, while suitable for combat, makes for an uncomfortable rest and makes proper treatment of injuries and recuperation difficult.

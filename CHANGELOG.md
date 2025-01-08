@@ -221,7 +221,7 @@ ___
 - 
 
 ### Combat
-- 
+- Upgrade maces 1d6->1d8, increase its durability.
 - 
 - 
 - 

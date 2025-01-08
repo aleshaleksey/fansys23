@@ -8,6 +8,7 @@ This section covers which skills exist and how they are used.
     - [Base and "background" bonus](#base-and-background-bonus)
     - [Total Skill bonus](#total-skill-bonus)
     - [Circumstance bonus](#circumstance-bonus)
+    - [Assisting and Circumstance bonuses](#assisting-and-circumstance-bonuses)
     - [Skill groups](#skill-groups)
 2. [Skill and Proficiency Lists](#skill-and-proficiency-lists)
     - [Skills list](#skills-list)

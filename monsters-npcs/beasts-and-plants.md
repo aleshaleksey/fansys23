@@ -693,7 +693,7 @@ ___
 ### Orc Eating Tuber
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|8/10/6|38|32|10ft|Dig (5ft)|
+|8/10/6|38|32|11|10ft|Dig (5ft)|
 
 Size = Large
 

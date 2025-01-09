@@ -1,6 +1,36 @@
 ## Animals
 Animals are common entities in the material world. They have a physical form, limited lifespan and age by necessity. They need to sleep, breathe, drink, eat. They devour other mortals to survive and have an intelligence below 5.
 
+- [Animals: Birds](#animals-birds)
+    - [Eagle](#eagle-level-2)
+    - [Falcon](#falcon-level-1)
+    - [Owl](#owl-level-1)
+    - [Raven](#raven-level-1)
+- [Animals: Domestic](#animals-domestic)
+    - [Cat](#cat)
+    - [Dog](#dog)
+    - [Horse, Light](#horse-light-level-2)
+    - [Horse, Heavy](#horse-heavy-level-3)
+    - [Horse, War](#horse-war-level-4)
+    - [Sheep](#sheep-level-1)
+    - [Swarm of Bees](#swarm-of-bees)
+- [Animals: Wild](#animals-wild)
+    - [Deer/Antelope](#deerantelope-level-1)
+    - [Bat](#bat)
+    - [Bear](#bear-level-6)
+    - [Boar](#boar-level-4)
+    - [Rat](#rat)
+    - [Wolf](#wolf)
+- [Animals: Dinosaurs](#animals-dinosaurs)
+    - [Hadrosaur](#hadrosaur-level-7)
+    - [Raptor](#raptor-levels-2-4)
+- [Plants](#plants)
+    - [Dark Cabbage](#dark-cabbage)
+    - [Giant Flytrap](#giant-flytrap)
+    - [Orc Eating Tuber](#orc-eating-tuber)
+    - [Shephard Tree, elder](#shephard-tree-elder)
+    - [Tripede](#tripede)
+    - []()
 ___
 ## Animals: Birds
 
@@ -594,6 +624,40 @@ ___
 Plants mostly produce nourishment from air, water, minerals and sunlight. Some, however, supplement this with the flesh of other mortals. Plants breathe, drink and eat. Plants do not sleep. Plants are immune to "frightened", "blinded", "stunned", "catatonic" and "paralysed".
 
 ___
+### Dark Cabbage
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|10/10/11|5|7|3|10ft|climb (10ft)|
+
+(Dark cabbages are small Evade +1, Natural Armour -1)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|3|10|12|-|8|12|
+|Bonus|-4|0|+1|-|-1|+1|
+|Save|-3|+1|+2|-|0|+2|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|1 (1)|2|3|1|1|2|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Dark Aura|||Any mortal within 15ft of a dark cabbage at the start of its turn loses 1MP. In addition the light level within 15ft of a dark cabbage is lowered by one level. This is an 1 MP dice equivalent effect.|
+|"[Greater Manoeuvre I](../06-abilities.md#greater-manoeuvre-i-v)"|||A dark cabbage can grapple/restrain entities up to huge in size with its roots|
+|Root|+2||(main action) reach = 20ft, any entity hit by the root attack is "restrained" (unless immune)|
+|Parasitise|Threshold=16|1d8 necrotic[SUP] + 1d4 CON|main action, reach = 5ft. If a target restrained by the roots of a Dark Cabbage is adjacent to it (5ft), the dark cabbage can attempt to drain its life essence. If the CON score of a target drained by this attack reaches zero, it dies.|
+|Alert|||A dark cabbage cannot be surprised|
+|Resistance|||"prone", "light", "necrotic", "poison", "necrotic"|
+|Immunity|||"profane", "entropic"|
+|Immunity|||"frightened", "blinded", "stunned", "catatonic" and "paralysed"|
+|Skill|||"Observe" +1, "Stealth" +2|
+|Sense|||The dark cabbage does not have conventional senses other than:|
+|Senses|||Life sense (30ft)|
+
+A single dark cabbage is no danger to a seasoned warrior, but a field of dark cabbages can be deadly. Dark cabbages grow exclusively on cursed ground. They supplement their poor soils with mortal blood, hence thickening the curses upon them.
+
+___
 ### Giant Flytrap
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
@@ -623,40 +687,45 @@ ___
 |Sense|||The flytrap does not have conventional senses other than:|
 |Senses|||Heat sense (30ft), Tremor sense (20ft)|
 
-Flytraps stalk their prey in deep undergrowth. When a flytrap detects unsuspecting prey, it will release a 
+Flytraps stalk their prey in deep undergrowth. When a flytrap detects unsuspecting prey, it will release a paralytic toxin before attempting to crush its prey with its jaws.
 
 ___
-### Tripede
+### Orc Eating Tuber
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|13/12/10|20|32|6|40ft|climb (40ft)|
+|8/10/6|38|32|10ft|Dig (5ft)|
 
-(Tripede is large, Natural armour +2)
+Size = Large
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|16|12|12|3|12|12|
-|Bonus|+3|+1|+1|-4|+1|+1|
-|Save|+6|+2|+3|-2|+3|+2|
+|Stat|14|6|18|10|14|12|
+|Bonus|+2|-2|+4|0|+2|+1|
+|Save|+4|0|+8|+7|+4|+3|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|6 (2)|7|13|3|1|5|3|
+|6 (2)|7|13|2|3|4|5|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Root|+8|1d10+3 piercing|reach=10ft, a tripede can chose to "grapple" a target hit by its root without expending an SP dice|
-|Barb|+6|1d6+1 piercing + 2d6 poison|cost = 1 SP dice. Range = 120/30ft. An entity that is large or smaller that is hit by the attack and does not succeed a Con save (threshold=19) at the start of its turn becomes "restrained". It may repeat the save at the start of each turn. If it fails a second time, it is "immobilised", if it fails a third, it is "paralysed". If a victim fails its save 6 times it is paralysed until it receives treatment.|
-|Resistance|||"prone"|
-|Manoeuvres|||"grapple"|
-|Monster Attack II|||The tripede makes one attack with its barbed dart and two with its roots as a "main action"|
-|Immunity|||"frightened", "blinded", "stunned", "catatonic" and "paralysed"|
-|Camouflage|||The Tripede has advantage to hide in natural foliage.|
-|Skill|||"Observe" +6, "Stealth" +6|
-|Sense|||The tripede does not have conventional senses other than:|
-|Senses|||Heat sense (30ft), Tremor sense (120ft)|
+|Charm Pollen|Threshold=19 vs WIS|Charmed|(secondary action) 60ft Cone, 45 degree angle, main action, 1 minute|
+|Noxious Spores|Threshold=19 vs CON||(secondary action) 15ft Cone, 90 degree angle, main action. A mortal "hit" by the Tuber's spores must succeed a CON save or become incapacitated at the start of its turn. At the start of its next turn it must succeed a second CON save. If it succeeds this save it takes 2d6 necrotic[NAT] damage and is cured of the effect. Otherwise it falls unconscious 1 hour (no repeated save)|
+|Engulf|||(main action) An orc eating tuber can enter the space of an unconscious mortal of a size no larger than "medium" and begin engulfing it. It engulfs the volume of a small entity per main action. This means that it takes 8 rounds to engulf a medium sized entity. An entity at least half engulfed by the tuber is considered "[immobilised](../10-conditions-types.md#conditions-in-detail)".|
+|Absorb|Threshold=19 CON|2d6+4 necrotic[NAT]|An entity at least half engulfed by the tuber must make a CON save at the start of its turn or take damage. On success it takes half. A target unconscious due to the noxious spores can then wake up if it succeeds on a save vs the spores.|
+|||||
+|Alert|||An orc eating tuber cannot be surprised.|
+|Immunity|||"frightened", "blinded", "prone" "stunned", "catatonic" and "paralysed"|
+|Camouflage|||The Giant flytrap has advantage to hide in natural foliage.|
+|Skill|||"Observe" +7, "Stealth" +3|
+|Sense|||A tuber has touch and sight|
+|Senses|||Low light vision, Heat sense (30ft), Tremor sense (20ft)|
+|||||
+|Xenophonia|||"Humanoids", "Animals", "Monsters"|
 
-Tripedes dwell in swamps and deep forests. When nutrients is scarce they uproot themselves in search of prey. They prefer to hunt by stalking, but are capable of running down slow prey like humanoids.
+Orc Eating Tubers release hallucinogenic pollen from their dazzling red flowers. This pollen has the effect of incapacitating or charming its prey. The tuber can speak in many tongues and invites mortals to approach it. As its prey approaches, the tuber releases a noxious gas from its main body which sends its prey to sleep. The tuber then slowly absorbs its unconscious prey.
+
+Orc Eating Tubers are quite intelligent, despite appearance.
 
 ___
 ### Shephard Tree, elder
@@ -696,6 +765,39 @@ ___
 Elder Shephard Trees are ancient beings that dwell deep in wild forests. Known by some as the "King of the Forest", they look on as ages go by.
 
 Shephard Trees are highly intelligent, but generally benign. That said some will crush outsiders in their forests as humans crush flies. Most shephard trees know Nature, Earth and Water magic to level IV. The eldest Shephard Tree knows Spellcasting: Nature X and know all spells with the "nature" descriptor.
+
+___
+### Tripede
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|13/12/10|20|32|6|40ft|climb (40ft)|
+
+(Tripede is large, Natural armour +2)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|16|12|12|3|12|12|
+|Bonus|+3|+1|+1|-4|+1|+1|
+|Save|+6|+2|+3|-2|+3|+2|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|6 (2)|7|13|3|1|5|3|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Root|+8|1d10+3 piercing|reach=10ft, a tripede can chose to "grapple" a target hit by its root without expending an SP dice|
+|Barb|+6|1d6+1 piercing + 2d6 poison|cost = 1 SP dice. Range = 120/30ft. An entity that is large or smaller that is hit by the attack and does not succeed a Con save (threshold=19) at the start of its turn becomes "restrained". It may repeat the save at the start of each turn. If it fails a second time, it is "immobilised", if it fails a third, it is "paralysed". If a victim fails its save 6 times it is paralysed until it receives treatment.|
+|Resistance|||"prone"|
+|Manoeuvres|||"grapple"|
+|Monster Attack II|||The tripede makes one attack with its barbed dart and two with its roots as a "main action"|
+|Immunity|||"frightened", "blinded", "stunned", "catatonic" and "paralysed"|
+|Camouflage|||The Tripede has advantage to hide in natural foliage.|
+|Skill|||"Observe" +6, "Stealth" +6|
+|Sense|||The tripede does not have conventional senses other than:|
+|Senses|||Heat sense (30ft), Tremor sense (120ft)|
+
+Tripedes dwell in swamps and deep forests. When nutrients is scarce they uproot themselves in search of prey. They prefer to hunt by stalking, but are capable of running down slow prey like humanoids.
 
 
 ___

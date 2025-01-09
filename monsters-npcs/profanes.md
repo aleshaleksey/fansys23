@@ -1,6 +1,7 @@
 ## Index
 **Corporeal Undead**
-- [Corporeal Horror, Lesser](#lesser-corporeal-horror)
+- [Corporeal Horror, Lesser](#corporeal-horror-lesser)
+- [Corporeal Horror, Greater](#corporeal-horror-greater)
 - [Skeleton, Humanoid](#skeleton-humanoid-levels-1-5)
 - [Zombie, Humanoid](#zombie-humanoid-levels-1-5)
 - []()
@@ -24,7 +25,7 @@ Undead are mortals that died but failed to move on. They are cursed by creation 
 As all profane entities, undead do not sleep or breath, and most do not age, eat or drink.
 
 ___
-### Lesser corporeal horror
+### Corporeal Horror, Lesser
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |10/10/10|40|24|9|30ft|20ft (climb)|
@@ -53,9 +54,51 @@ Large(-1/+1)
 |Aura of Nausea|Threshold=19 CON save||All entities that start their turn within 15 feet must make a Threshold=19 CON save or be "incapacitated". An entity can repeat its save at the start of each of its turn. Upon succeeding, it is no longer "incapacitated", and cannot be, for 24 hours.|
 |Scream|Threshold=15 CON save||As a secondary action, the horror can issue a pained shriek (1 SP dice). Any entity within 30ft that hears the shriek must make a Threshold=15 WIS save or become "frightened" of the horror. An entity can repeat its save at the start of each of its turn. Upon succeeding, it is no longer "frightened", and cannot be, for 24 hours.|
 |Vulnerability|||"divine", "light"|
-|Resistant|||"physical" damage except "slashing" and "pressure"|
+|Resistant|||"physical" damage except "slashing" and "pressure", "grappled", "restrained"|
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
 |Senses|||"low-light vision", "life-sense" 30ft|
+
+A corporeal horror is produced when incomplete remains are animated together, producing a single whole. These undead often retain the vestiges of the memories of the mortals they comprise of. However, it is rare for them to show true intelligence. Due to the processes involved, a corporeal horror can take seemingly contradictory actions as it is driven simultaneously by a desire for release and the desire for others to meet a fate worse than its own.
+
+___
+### Corporeal Horror, Greater
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|14/13/12|107|79|21|30ft|20ft (climb)|
+
+Huge(-2/+2)
+Natural Armour: +4
+Saves: Wis, Cha
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|27|8|21|9|15|17|
+|Bonus|+8|-1|+5|-1|+2|+3|
+|Save|+11|+2|+8|+2|+8|+9|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|13(3)|21|20|3|3|6|6|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Claws|+14|2d6+8|Shear|
+|Bite|+14|2d6+8|Shear|
+|Grapple|+14|||
+|Shove|+14|||
+|Combined Manoeuvre I||||
+|Reshape (move action)|||A greater corporeal horror can reconfigure the grotesque mass of corpses that compose it into any shape as a move action, as long as it takes up the same number of 5ft cubes. The central most cube cannot be moved during such a transformation. The cubes must remain connected by one or more sides.|
+|Counterstrike|||A corporeal horror can use a basic combat manoeuvre as a manoeuvre against an entity that hits it with a melee attack|
+|["Berserk II"](../06-abilities.md#berserk-i-v)|||A corporeal horror can enter a berserk state, increasing its speed by 10ft, gaining +4 damage on its attacks|
+|Monster Attack I|||The corporeal horror makes one attack with its claws, and one with its bite|
+|Broad Strike|||Claws only|
+|Aura of Nausea|Threshold=22 CON save||All entities that start their turn within 30 feet must make a Threshold=19 CON save or be "incapacitated". An entity can repeat its save at the start of each of its turn. Upon succeeding, it is no longer "incapacitated", and cannot be, for 24 hours.|
+|Scream|Threshold=18 CON save||As a secondary action, the horror can issue a pained shriek (1 SP dice). Any entity within 60ft that hears the shriek must make a Threshold=15 WIS save or become "frightened" of the horror. An entity can repeat its save at the start of each of its turn. Upon succeeding, it is no longer "frightened", and cannot be, for 24 hours.|
+|Vulnerability|||"divine", "light"|
+|Resistant|||"physical" damage except "slashing" and "pressure", "grappled", "restrained"|
+|Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
+|Senses|||"low-light vision", "life-sense" 30ft|
+|Skills|||"Observe" +8, "Track" +8, "Athletics" +9|
 
 A corporeal horror is produced when incomplete remains are animated together, producing a single whole. These undead often retain the vestiges of the memories of the mortals they comprise of. However, it is rare for them to show true intelligence. Due to the processes involved, a corporeal horror can take seemingly contradictory actions as it is driven simultaneously by a desire for release and the desire for others to meet a fate worse than its own.
 
@@ -466,6 +509,7 @@ ___
 |Spellcasting: Global I||||
 |Spellcasting: Fire/Water VI|Threshold=28|||
 |Spellcasting: Profane VIII|Threshold=28||Favourites are: "[Dusk](../08-spell-list.md#dusk)", "[Animate Dead](../08-spell-list.md#animatecontrol-dead)", "[Balance of Nature](../08-spell-list.md#balance-of-nature)", "[Summon Fiend](../08-spell-list.md#summon-fiend)", "[Legion of Dead](../08-spell-list.md#legion-of-dead)", "[Profane Resurrection](../08-spell-list.md#profane-resurrection)"|
+|Alternate Form|||A demon has its true form and a humanoid form. It can shift between them as a secondary action. In its humanoid form the demon loses its claw attack and replaces its movement modalities with those of the humanoid. Its stats, saves, and abilities are unaffected.|
 |||||
 |Keen Senses|||Scent, Hearing|
 |Senses|||"Blind-sight: 30ft", "Life Sense: 30ft", "Low Light Vision", "Tremor Sense: 60ft"|
@@ -478,9 +522,11 @@ ___
 |Demonic Realm|||Each demon has its own demonic realm which is found at least in the intermediate depths of the spirit realm. This acts as a "[Greater Domain](../08-spell-list.md#greater-domain) with a radius of at least 40ft (and with no upper limit), with the exception that its alignment is "profane" and is located deeper in the spirit realm. If the domain is destroyed, the demon is likewise destroyed.|
 |Demonic Restoration|||A demon can only be permanently destroyed by "divine" damage or if its demonic realm is destroyed. A demon which is destroyed by other means will be reborn in its domain after an arbitrary amount of time (recommended 13d12 years).|
 
-Demons are greater fiends. They are an incarnation of the forces that wish to despoil and undo creation.
+Demons are greater fiends. They are an incarnation of the forces that wish to despoil and undo creation. A demon of fire (or ice) appears as a horror with at least two legs and at least two arms. It usually has a pair of wings and a bestial head. A demon can shift between this form an a humanoid form (always the exact same humanoid), and will often take on its humanoid form when its demonic form is not suited to a task.
 
 A demon will chose the path that leads to the greatest destruction and tragedy above all, even if it must wait decades or centuries for this outcome. For example, it might save a young child if it can help raise it to be a corrupt king that will lead to the cataclysmic downfall of its kingdom. That said, a demon would prefer a direct bloodbath if this path is available and realistic.
+
+Demons of different elements will likely have slightly different personalities and preferences. A demon of fire is likely to prefer swift and cataclysmic destruction, while a demon of ice may prefer a slow and inevitable decay.
 
 In combat a demon may use any number of strategies. However it especially delights in using a foes strengths and weaknesses against it. It will not hesitate to use a foe's kindness and mercy against it. Likewise it delights in toying with weaker foes and demonstrating to defeated foes the fruits of their powerlessness. It may even rob defeated foes of that which is precious to them and then let them live to foment hatred and despair.
 

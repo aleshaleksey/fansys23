@@ -1887,7 +1887,7 @@ ___
 
 **Description**: The caster causes the target entity to fall asleep (unconscious) on a failed INT save. The target repeats the save at the start of each turn, awakening on a successful save (if it lives long enough).
 
-**Special**: A target, if it fails the save, may instead choose to to take SP damage equal to the SP of the caster, plus 1 point of HP damage, and hence avoid the effect of the spell. In order to make use of this possibility the target must be proficient with "[Knowledge: Arcana](05-skills.md#knowledge)" and successfully identify the spell (Threshold of at least 15).
+**Special**: A target, if it fails the save, may instead choose to to take SP damage equal to the SP of the caster, plus 1 point of HP damage, and hence avoid the effect of the spell. In order to make use of this possibility the target must be proficient with "[Knowledge: Arcana](05-skills.md#knowledge)" and successfully identify the spell (Threshold of at least 15). (The mechanistic reason for this, is because unconsciousness, in this system, is extremely dangerous, so players are given the option of avoiding the effect, for a heavy, heavy toll.)
 
 **Upcast**: The spell affects an additional target for each extra MP die above 3.
 
@@ -2646,7 +2646,7 @@ ___
 
 If the level (MP dice cost of the local spell) of the detection magic is equal to, or lower than that at which "Greater Fade" is cast, the detection magic fails to detect the target. The same applies if detection is by a supernatural ability of "A class" or lower.
 
-If the level of the detection magic is higher, or if detection is by an "S class" ability, then, in order for "Greater Fade" to be effective", its target must succeed an INT save vs the Threshold of the one who cast the detection magic, when  the detection magic would normally first detect it. Repeated saves do not apply.
+If the level of the detection magic is higher, or if detection is by an "S class" ability, then, in order for "Greater Fade" to be effective", its target must succeed an INT save vs the Threshold of the one who cast the detection magic, when the detection magic would normally first detect it. Repeated saves do not apply.
 
 **Upcast**: For every extra die above 5 expended when casting the spell, the spell lasts for an extra day, or affects an extra target. Secondly the spell is automatically effective against spells cast up to that "spell level" (INT save is no longer needed).
 

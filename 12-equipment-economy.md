@@ -182,6 +182,7 @@ ___
 |Greatclub|6|1|0.5|yes|yes|yes|
 |Mace|3|24|1.5|yes|yes|yes|
 |Morning Star|3|24|1.5|rare|yes|yes|
+|Flail|3|56|3|rare|yes|yes|
 |War hammer|3|48|2.5|rare|rare|yes|
 |Maul|8|96|5|rare|rare|yes|
 |Glaive|4|90|5|yes|yes|yes|
@@ -233,8 +234,8 @@ ___
 |Half Plate|60|1200|60|no|yes|yes/rare|
 |Full Plate|65|1920|96|no|yes|yes/rare|
 |Buckler|2|40|1|yes|yes|yes|
-|Small Shield|6|48|2.5|yes|yes|yes|
-|Large Shield|10|90|5|yes|yes|rare|
+|Light Shield|6|48|2.5|yes|yes|yes|
+|Heavy Shield|10|90|5|yes|yes|rare|
 |Tower Shield|20|120|6|yes|yes|rare|
 
 ___

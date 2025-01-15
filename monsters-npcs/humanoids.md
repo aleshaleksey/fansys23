@@ -136,7 +136,7 @@ ____
 
 (+1 from base)
 
-The HiT includes +2 from padded armour and +2 from a small shield.
+The HiT includes +2 from padded armour and +2 from a light shield.
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|

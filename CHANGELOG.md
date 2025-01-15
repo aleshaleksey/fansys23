@@ -218,11 +218,13 @@ ___
 ### General
 - Better organise the base rules section.
 - Add some more rearing times.
+- Change shield terminology from small/large to light/heavy.
+- 
 - 
 
 ### Combat
 - Upgrade maces 1d6->1d8, increase its durability.
-- 
+- Add flails
 - 
 - 
 

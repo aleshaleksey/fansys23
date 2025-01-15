@@ -178,6 +178,7 @@ Damage Key:
 |Greatclub|Percussive|1d10|B|2|Str|5|-|-|6|8|
 |Mace|Percussive|1d8|B|1|Str|5|-|-|3|12|
 |Morning Star|Percussive|1d8|B/P|1|Str|5|-|-|3|10|
+|Flail|Percussive|1d8|B/P|1|Str|5|-|-|4|8|
 |War hammer|Percussive|2d4/1d12|B/P|1+|Str|5|-|-|3|10|
 |Maul|Percussive|2d6|B/P|2|Str|5|-|-|8|14|
 |||||||||||
@@ -196,8 +197,9 @@ Damage Key:
 |Quarterstaff|Staff|1d10|B|2|Str|10|-|-|4|6|
 |||||||||
 |Buckler|Shield|1|B/S|1d4|Str/Dex|5|-|-|2|5|
-|Small Shield|Shield|1d4|B|1|Str|5|-|-|6|4|
-|Large Shield|Shield|1d6|B|1|Str|5|-|-|10|6|
+|Light Shield|Shield|1d4|B|1|Str|5|-|-|6|4|
+|Heavy Shield|Shield|1d6|B|1|Str|5|-|-|10|6|
+|Tower Shield|Shield|1d6|B|1|Str|5|-|-|20|8|
 |||||||||
 |Weapon|Proficiency|Damage dice|Damage type|Handedness|Governed by|Reach (ft)|Range (ft)|Increment (ft)|Weight (lb)|Durability|
 |Sling|Sling|1d6|B|1|Dex|-|1600|80|1|2|
@@ -312,6 +314,7 @@ Percussive weapons like clubs, maces and hammer are in their essence a weight at
 |Greatclub|cripple, heavy, prone||
 |Mace|cripple|sunder|
 |Morning stars|cripple, bleeding||
+|Flail|cripple, special|grapple, trip|
 |War hammers|cripple|sunder|
 |Mauls|cripple, heavy, prone|sunder|
 
@@ -319,9 +322,11 @@ Percussive weapons like clubs, maces and hammer are in their essence a weight at
 
 **Greatclub**: A big club that needs two hands to wield. A greatclub is extremely easy to make and use, however it is heavy. Greatclubs are "heavy" weapons that do NOT require proficiency to use. However, if a greatclub user does not have at least +2 to Str, it takes -4 to attacks. Greatclub can cause "prone".
 
-**Mace** here refers to any weapon with a short shaft and a crafted head of metal or other dense material.
+**Mace**: A flail consist of a wooden haft joined to one or more metal heads via chains. Essentially this is a "ball and chain on a stick". The chain linking the haft and head not only makes the flail a difficult to read weapon, but also makes it useful for grappling.
 
 **Morning stars** are essentially spiked maces. This allows it to also deal piercing damage. Morning star can cause can cause "bleeding".
+
+**Flail** ball on a chain with a handle. On a critical miss (snake eyes), a flail deals its normal (not critical) damage to its wielder.
 
 **War hammers** are a family of mace-like weapons with an asymmetrical head: One end is blunt, the other end is sharp, for piercing armour. War hammers have the "sunder" property, and "sunder" vs armour and unattended items is at advantage when using a war hammer. **NB** long hefted war hammers in the style of venetian war hammers are considered pole-arms for for the sake of proficiency.
 
@@ -390,8 +395,8 @@ ___
 |Weapon|Special Properties| Manoeuvres|
 |-|-|-|
 |Buckler|-|disarm, interception|
-|Small Shield|prone|shove, interception|
-|Large Shield|prone|shove, interception|
+|Light Shield|prone|shove, interception|
+|Heavy Shield|prone|shove, interception|
 
 ___
 ### Slings
@@ -578,8 +583,8 @@ Bonus Key:
 |Full Plate|Heavy|A|9|0|65|14|
 |||||||
 |Buckler|Shield|S|1|-|2|5|
-|Small Shield|Shield|S|2|4|6|4|
-|Large Shield|Shield|S|3|2|10|6|
+|Light Shield|Shield|S|2|4|6|4|
+|Heavy Shield|Shield|S|3|2|10|6|
 |Tower Shield|Shield|S|4|1|20|8|
 
 ___

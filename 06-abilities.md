@@ -1196,7 +1196,7 @@ ___
 
 **Original state**: A shield can either be used as a shield or a weapon, not both.
 
-**Benefits:** A character can use a buckler, small shield or large shield as a shield (i.e. benefit from bonus to HiT and other benefits that it may bring), and still use it to make offhand attacks as a secondary action.
+**Benefits:** A character can use a buckler, "light shield" or "heavy shield" as a shield (i.e. benefit from bonus to HiT and other benefits that it may bring), and still use it to make offhand attacks as a secondary action.
 
 **Prerequisites:**
 - Proficiency with Shields.

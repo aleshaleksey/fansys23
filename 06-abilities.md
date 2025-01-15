@@ -933,14 +933,14 @@ ___
 
 **Type**: (Class A)
 
-**Description**: Spend 2 MP dice reduce the casting time of a spell from "main action" to "secondary action", or from "full round action" to "main actin".
+**Description**: Spend 2 MP dice to reduce the casting time of a spell from "main action" to "secondary action", or from "full round action" to "main actin".
 
 **Declaration**: Declare "swift spell" before casting the spell.
 
 **Prerequisite**:
 - 6 MP dice total
 - The ability to cast spells.
-- +15 DEX or +15 INT.
+- +13 DEX or +13 INT.
 
 **Special**:
 - Must be taken separately for each time of spellcasting.

@@ -238,4 +238,7 @@ ___
 - 
 
 ### Abilities
+- Added "[forbidden spell](06-abilities.md#forbidden-spell)"
+- Added "[swift spell](06-abilities.md#swift-spell)"
+- 
 - 

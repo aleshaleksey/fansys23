@@ -89,8 +89,10 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Aphonic Spell](#aphonic-spell)
 - [Bind Beast (I-X)](#bind-beast-i-x)
 - [Bind Familiar (I-IV)](#bind-familiar-i-iv)
+- [Forbidden Spell](#forbidden-spell)
 - [Lingering Spell](#lingering-spell)
 - [Still Spell](#still-spell)
+- [Swift Spell](#swift-spell)
 - [Spellcasting: Local](#spellcasting-local)
 - [Spellcasting: Global](#spellcasting-global)
 - [Spelldance I-IV](#spelldance-i-iv)
@@ -923,8 +925,26 @@ ___
 
 **Special**:
 - Must be taken separately for each time of spellcasting.
-- Can be combined with "aphonic spell" and "lingering spell".
+- Can be combined with "aphonic spell", "lingering spell" and "swift spell".
 - This allows spellcasting when "immobilised" or "restrained".
+
+___
+#### Swift Spell
+
+**Type**: (Class A)
+
+**Description**: Spend 2 MP dice reduce the casting time of a spell from "main action" to "secondary action", or from "full round action" to "main actin".
+
+**Declaration**: Declare "swift spell" before casting the spell.
+
+**Prerequisite**:
+- 6 MP dice total
+- The ability to cast spells.
+- +15 DEX or +15 INT.
+
+**Special**:
+- Must be taken separately for each time of spellcasting.
+- Can be combined with "still spell", "lingering spell", and "aphonic spell".
 
 ___
 ### Spellcasting
@@ -934,6 +954,23 @@ Spell casting abilities come in two flavour: Local and Global. Local spellcastin
 The rules for use of spells in combat are found in "[Combat: Spells](04-combat.md#spells)".
 
 Other magic rules, including spell lists are found in "[Spells](07-spells.md)"
+
+___
+#### Forbidden Spell
+
+**Type**: Supernatural (C-A)
+
+**Description**: Learn 2 spells that are not covered by any ordinary type of spellcasting.
+
+**Original State**: A character with spellcasting can only learn spells with descriptors associated with that spellcasting type (nature and elemental spellcasting), or only the allowed components (incantation and kinetic spellcasting).
+
+**Action**: None. The spells are chosen on levelling up, when the ability is chosen.
+
+**Prerequisite**: The character must have a level of spellcasting of one of the elemental [spellcasting types](#spellcasting-local) that is at least as high as the level of the spells chosen with this ability.
+
+**Limitation**: 
+- The spell cannot have a descriptor opposite to the "spellcasting type" used to obtain it.
+- Many of these spells may cause a shift in character alignment or have negative mechanistic or narrative consequences. Usually these spells have the "profane" or "spirit" descriptors. This should be kept in mind.
 
 ___
 #### Spellcasting: Local

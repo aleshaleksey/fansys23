@@ -211,7 +211,7 @@ There are three armour proficiencies that each cover several groups of armour.
 |Light armour|Leather cuirass, Chain shirt|
 |Medium armour|Full padded, Hide, Full leather, Brigandine, Full chain, Cuirass|
 |Heavy armour|Segmented mail, Half-plate, Full-plate|
-|Shields|Buckler, Small shield, Large shield, Tower shield|
+|Shields|Buckler, Light shield, Heavy shield, Tower shield|
 
 ___
 ### Weapon Proficiencies

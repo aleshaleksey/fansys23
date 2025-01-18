@@ -8,6 +8,7 @@
 
 **Incorporeal Undead**
 - [Shade, Cursed, Lesser](#cursed-shade-lesser)
+- [Shade, Cursed](#cursed-shade)
 - [Shade, Earthbound, Lesser](#earthbound-shade-lesser)
 - []()
 
@@ -196,12 +197,12 @@ ___
 ### Cursed Shade (lesser)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|11/10/11|-|-|32|40ft|climb 40ft|
+|11/10/11|-|25|7|40ft|climb 40ft, fly 30ft|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
 |Stat|-|12|-|10|8|16|
-|Bonus|-|-1|-|0|-1|+2|
+|Bonus|-|+1|-|0|-1|+2|
 |Save|-|0|-|+1|0|+3|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
@@ -226,10 +227,44 @@ Cursed shades are incorporeal undead. They are the vestiges of those who died cu
 NB: Cursed Shades are extremely dangerous as profane damage attacks HP directly.
 
 ___
+### Cursed Shade
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|11/10/11|-|72|15|40ft|climb 40ft, fly 30ft|
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|-|13|-|14|12|18|
+|Bonus|-|+3|-|0|+1|+4|
+|Save|-|+6|-|+4|+3|+6|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|7 (2)|1|22|1|4|3|6|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Shade's touch|+9|1d4+3|(main action) "Profane" damage. Entities touched must succeed a Threshold=18 WIS save or be "catatonic" until they are no longer in line of sight of the shade.|
+|Shade's gaze|Threshold=23|1d3|(secondary action, range 30ft, 2MP dice) A shade can look into the darker part's of a mortal's soul, draining 1d3 SP dice and the same number of MP dice. (Averting gaze makes one immune, but also makes you blind in respect to the shade)|
+|Profane aura|||(Range = 60ft) A shade removes warmth and vital energies from within 30ft. The temperature within the aura drops by one category. All mortals entering or starting their turn in a shade's aura must succeed on a CON save (threshold=18) or have disadvantage on DEX based rolls and take 3 points of supernatural cold damage.|
+|Resistant|||"fire", "ice", "lightning" damage from supernatural sources|
+|Vulnerability|||"divine", "light" from supernatural sources|
+|Immune|||"natural" damage (except "light") and all combat manoeuvres carried out without "spiritual" properties|
+|Immune||||All combat manoeuvres carried by corporeal entities without the "spiritual" property|
+|Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
+|Spellcasting III|||"[Least Curse](../08-spell-list.md#least-curse)"|
+|Senses|||"low-light vision", "life-sense" 120ft|
+|Horror of the Dark|||The shade has advantage on "stealth" in low-light and darkness. If exposed to direct sunlight, the shade dissipates until low-light conditions are restored|
+
+Cursed shades are incorporeal undead. They are the vestiges of those who died cursing their own existence. They are incredibly dangerous.
+
+NB: Cursed Shades are extremely dangerous as profane damage attacks HP directly. This kind of shade is also immune to almost all natural damage.
+
+___
 ### Earthbound Shade (lesser)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|11/10/11|-|-|29|40ft|climb 40ft|
+|11/10/11|-|22|7|40ft|climb 40ft|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|

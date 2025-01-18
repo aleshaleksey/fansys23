@@ -230,7 +230,7 @@ ___
 ### Cursed Shade
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|11/10/11|-|72|15|40ft|climb 40ft, fly 30ft|
+|11/10/11|-|72|15|40ft|climb 40ft, cosmic(0) 60ft|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|

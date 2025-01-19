@@ -120,7 +120,7 @@ ___
 ### Seraph
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|21(22)/-/19(17)|63|95|19|30ft|Fly (100ft, good), cosmic (1 realm per day)|
+|21(22)/-/19(17)|152|175|30|30ft|Fly (100ft, good), cosmic (1 realm per day)|
 
 Large (+1/-1)
 Deflection +6

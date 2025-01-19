@@ -311,6 +311,65 @@ A mudwalker looks a lot like a mudcrawler but a lot larger, towering over 30ft t
 Mudwalkers seldom directly attack humanoids. Instead they release a noxious gas from their enormous shelled bodies. However, if they find humans that fight back, they attempt to skewer them with their sharp limbs.
 
 ___
+### Sea Monster: Kraken, Lesser
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|22/23/21|270|186|34|20|Swim 100ft|
+
+Size: Gargantuan.
+Natural Armour: +6
+Deflection: +2
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|34|8|28|14|18|20|
+|Bonus|+12|-1|+9|+2|+4|+5|
+|Save|+20|+7|+17|+9|+11|+12|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|24(5)|41|33|8|7|13|12|
+
+
+|Attacks|Bonus|Damage|Other|
+|-|-|-|-|
+|Tentacle|+23|4d8+12|(Reach=15ft)|
+|Monster Attack VII|||See below|
+|Throw/Grapple|+23|2d8+12|Range 120ft/20ft, can throw objects/entities weighting up to 3000lb. If the weight is less than 1000lb, the range, but not increment is doubled|
+|Special Grapple|+23||Once an entity weighing less than 3000lb is grappled by the kraken it can use it with a throw attack.|
+|Sonic Blast(Linear)|+13|2d6+4|(Range=240ft, aqueous only), +1d6 per SP dice.|
+|Elemental Touch: Lightning|+13|10d4+2|+2d4 per Mp dice.|
+
+A kraken makes 8 attacks with its tentacles. It can attack targets smaller than itself with no more than 4 tentacles. If the target is "medium" or smaller, it can only attack it with 2 tentacles at a time.
+
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Combined Manoeuvre 1|||A kraken can combine up to two basic combat manoeuvres for 1 SP dice.|
+|Broad Strike|||A kraken can hit all adjacent targets in range with a single tentacle attack|
+|Parry||||
+|Deflect Missile||||
+|Riposte||||
+|Parry||||
+|Deflection||| Reduce the damage from a ranged supernatural attack by [1d4 + SAP + [MP dice expended]d4] as long as it is not esoteric as a reaction|
+|Esoteric Deflection||| Reduce the damage from a "esoteric" ranged attack by [1d6 + [2 x MP dice expended]], as a reaction to taking esoteric damage|
+|||||
+|"[Spellcasting: Global](../06-abilities.md#spellcasting-global)"||||
+|"[Spellcasting: Water VII](../06-abilities.md#spellcasting-local)" |Threshold=29||Prefers: "[Transform Mortal](../08-spell-list.md#transform-mortal)", "[Create Secret Path](../08-spell-list.md#create-secret-path)", "[Inner Voice](../08-spell-list.md#inner-voice)", "[Lesser Cosmic Seal](../08-spell-list.md#lesser-cosmic-seal)", "[Mirage](../08-spell-list.md#mirage)", "[Balance of Elements](../08-spell-list.md#balance-of-elements)", "[See Spell](../08-spell-list.md#see-spell)", "[Water Ward](../08-spell-list.md#water-ward)", "[Dusk](../08-spell-list.md#dusk)", "[Winter's Touch](../08-spell-list.md)"|
+|||||
+|Resistance|||"Poison", "Cold", "Necrotic", "Percussive", "Pressure"|
+|Resistance|||"Restrained", "Immobilised", "Stunned", "Paralysed"|
+|Immune|||"Fear", "Disease", "Catatonic", "Charmed"|
+|||||
+|Skills|||"Swim" +29, "Observe" +14, "Geography" +13, "Sense Motive" +13, "Nature" +12, "Spellworking" +11, "History" +8, "Knowledge, other" +4.|
+|||||
+|Senses|||"Tremor Sense" 600ft, "Blind Sense" 60ft, "Low light vision"|
+
+A kraken is essentially a very big and very intelligent cephalopod-like monster. While younger krakens simply wonder the seas in search of prey and meaning, the elder ones generally (and erroneously) come to the conclusion that they are gods.
+
+A kraken has an enormous amount of time to learn magic. It seldom uses it in combat, but it *can*, should it choose. Storms at sea are sometimes attributed to this monster.
+
+___
 ## Dragons
 Dragons typically look like reptiles, but are not. Dragons are supernatural entities with 6 or more limbs (of which 2 or more typically wings) and scales. They have an Int of at least 10. Dragons typically have obscenely long lifespans and possess the following characteristic features:
 - Like most mortals, dragons breathe, drink and eat.
@@ -548,8 +607,8 @@ ___
 |Elemental Affinity: Ice||||
 |Draconic Spell|||A dragon may use 2 MP dice to cast a spell of 5 MP dice or less as a secondary action.|
 |Alternate form|||The dragon has a humanoid, animal and true form. It may shift between them as a "main action". Each form is constant (always the same animal, always the same humanoid, always the same dragon)|
-|Spellcasting: Water VII|||Favourite: "Transform mortal, "inner voice", "lesser cosmic seal", "aqueous step", "false aura", "mirage", "scry", "winter's touch"|
-|Spellcasting: Air VII|||Favourites: "Greater Weather control", "razor wind", "greater fade", "least storm", "see spell", slumber", "silence", "Trace Secret Path"|
+|Spellcasting: Water VII|Threshold=28||Favourite: "Transform mortal, "inner voice", "lesser cosmic seal", "aqueous step", "false aura", "mirage", "scry", "winter's touch"|
+|Spellcasting: Air VII|Threshold=28||Favourites: "Greater Weather control", "razor wind", "greater fade", "least storm", "see spell", slumber", "silence", "Trace Secret Path"|
 |Spellcasting: Global||||
 |Skills|||Fortify + 21, Athletics +21, Fly +16, Observe +18, Track +18, Appraise +16, Spellcraft + 16, Sense Motive +18, K:Arcana +16, K:History +16, K:Geography +16|
 |Skills|||All others: [Stat bonus]+1|

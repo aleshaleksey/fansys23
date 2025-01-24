@@ -24,6 +24,7 @@ Weapons and armour an essential part of any combat heavy table top RPG system. W
     - [Mechanical Bows](#mechanical-bows)
     - [Blowguns](#blowguns)
     - [Firearms](#firearms)
+    - [Siege](#siege)
 2. [Armour](#armour)
     - [Armour and its relationship with [HiT]](#armour-and-its-relationship-with-hit)
     - [Armour types](#armour-types)
@@ -495,7 +496,9 @@ These are heavy weapons that are designed for destroying fortifications, large m
 |Ballista (bolt)|bleeding, delicate||
 |Ballista (bullet)|bleeding, delicate||
 
-**Ballista**: A tension device, similar to a very large crossbow, that can be used to launch javelin-like bolts, which weight 6lb each, or stones/bullets weighting 60lb over great distances with a high measure of precision. It requires 2 full-round actions to load a ballista, an additional move action to aim, and a standard action to fire. __Aiming and firing cannot be done on the same round as loading__.
+**Ballista**: A tension device, similar to a very large crossbow, that can be used to launch javelin-like bolts, which weight 6lb each, or stones/bullets weighting 60lb, over great distances with a high measure of precision. It requires 2 full-round actions to load a ballista, an additional move action to aim, and a standard action to fire. __Aiming and firing cannot be done on the same round as loading__.
+
+A ballista typically weights about 400lb, and requires a space of 10ft x 10ft to operate.
 
 ___
 ## Armour

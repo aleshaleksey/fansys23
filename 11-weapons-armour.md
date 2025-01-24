@@ -220,6 +220,9 @@ Damage Key:
 |Musket|Firearm|2d6|piercing|2|Dex|-|240|120|8|6
 |Blunderbuss|Firearm|2d12|piercing|2|Dex|-|120|40|6|6
 |Gun-blade|Firearm|1d8|piercing/slashing|1|Dex|5|120|20|2|4
+|||||||||||
+|Ballista (bolt)|Mechanical Bow|4d12|piercing|2|Dex|-|1800|300|20|400
+|Ballista (bullet)|Mechanical Bow|6d8|bludgeoning|2|Dex|-|900|120|20|400
 
 ___
 ### Unarmed Combat
@@ -481,6 +484,18 @@ Weapons with a closed or open barrel weapons that use the energy in explosive su
 **Blunderbuss**: This refers to long barrelled flint lock firearms with an emphasis on damage rather than distance, and Yuan hand cannons. It takes a full round action to reload this weapon.
 
 **Gun-blade**: This is a pistol with a short blade, allowing to make melee attacks with the same weapon. Unfortunately this causes the weapon to be incredibly unbalanced. As such all attacks with non-magical gun-blades are made at disadvantage.
+
+___
+### Siege
+
+These are heavy weapons that are designed for destroying fortifications, large monsters and concentration of enemy soldiers. Typically these are large mechanical devices that are too heavy and unwieldy to be transported by a member of th race that made it and must be transported by other means.
+
+|Weapon|Special Properties|Manoeuvres|
+|-|-|-|
+|Ballista (bolt)|bleeding, delicate||
+|Ballista (bullet)|bleeding, delicate||
+
+**Ballista**: A tension device, similar to a very large crossbow, that can be used to launch javelin-like bolts, which weight 6lb each, or stones/bullets weighting 60lb over great distances with a high measure of precision. It requires 2 full-round actions to load a ballista, an additional move action to aim, and a standard action to fire. __Aiming and firing cannot be done on the same round as loading__.
 
 ___
 ## Armour

@@ -255,9 +255,11 @@ Size: Small +1/-1
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
+|Water bullet|+9|1d4+5|Piercing|
 |Tendril|+9|1d6+5|Bludgeoning|
 |Grapple|+9|||
 |Combined Maneuver I||||
+|Monster Attack I|||A lesser undine can make 2 attacks with "water bullet"|
 |||||
 |Spellcasting: Incantation III|||Favourites are: "Least Heal", "Lesser Veil", "Cure"|
 |Spellcasting: Water IV|||Favourites are: "Balance of Elements", "Water Ward", "Least Transformation", "Summon Water sprite", "Water Snake", "Mist"|

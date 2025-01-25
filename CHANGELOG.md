@@ -225,7 +225,7 @@ ___
 ### Combat
 - Upgrade maces 1d6->1d8, increase its durability.
 - Add flails
-- 
+- Add Ballistae as weapons
 - 
 
 ### Races
@@ -233,7 +233,7 @@ ___
 
 ### Spells
 - Add "Summon Beast" as a low level spell.
-- 
+- Decrease the initial level for summon fiend, so that it is a level 7 fiend (instead of level 9), because fiends are quite strong.
 - 
 - 
 

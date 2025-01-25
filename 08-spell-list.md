@@ -2842,7 +2842,7 @@ ___
 |Concentration|local|
 |Save|-|
 
-**Description**: Summons a fiend of 9th level or lower, that will faithfully serve, or fight for the caster. The caster and fiend are able to communicate through this spell (this is moot as fiends can generally understand the thoughts of humanoids). 
+**Description**: Summons a fiend of 7th level or lower, that will faithfully serve, or fight for the caster. The caster and fiend are able to communicate through this spell (this is moot as fiends can generally understand the thoughts of humanoids). 
 
 **Special**: You can only have one summon at any one time.
 

@@ -1629,7 +1629,7 @@ ___
 **Prerequisites**:
 |Life Sense level|Range|MP dice prerequisite|Other|
 |-|-|-|-|
-|I|30ft|12|-|
+|I|30ft|15|-|
 |II|60ft|18|Truesight I|
 |III|90ft|24|Truesight II|
 |IV|120ft|30|Truesight III|

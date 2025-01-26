@@ -297,7 +297,7 @@ Size: Medium
 |Tendril|+13|2d6+7|Bludgeoning|
 |Grapple|+13|||
 |Water bullet|+13|2d4+7|Piercing|
-|Combined Maneuver I||||
+|Combined Manoeuvre I||||
 |Monster Attack (II)|||The greater undine makes up to 3 attacks with tendrils or water bullet|
 |Call Sprites|||A greater undine use its "communicate action" to call 3d6 water sprites, which appear in 1d4 turns. The sprites are loyal to the undine and remain until dismissed.|
 |Spellcasting: Incantation V|||Favourites are: "Least Heal", "Lesser Veil", "Cure", "Balance of Elements", "Summon spirit" and "Pact"|

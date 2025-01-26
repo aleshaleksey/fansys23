@@ -508,7 +508,7 @@ ___
 |-|-|-|-|-|-|-|
 |Stat|30|14|22|14|18|22|
 |Bonus|+10|+2|+6|+2|+4|+6|
-|Save|+11|+6|+15|+6|+15|+10|
+|Save|+11|+6|+15|+6|+15|+21|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
@@ -520,8 +520,8 @@ ___
 |Demonic flail|+23|2d8+10||
 |Claw|+23|2d6+10||
 |Profane Blast|+15|2d4 [profane]|Range 120ft. 1MP die.|
-|Elemental Blast IV (one of fire or ice)|+15|2d6+2|Up to 6d6 (an extra 1d6 per 1MP dice)|
-|Elemental Touch IV (one of fire or ice)|+13|2d6+2|Up to 10d6 (an extra 2d6 per 1MP dice)|
+|Elemental Blast IV (one of fire or ice)|+15|4d6+2|Up to 6d6 (an extra 1d6 per 1MP dice)|
+|Elemental Touch IV (one of fire or ice)|+13|4d6+2|Up to 10d6 (an extra 2d6 per 1MP dice)|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -536,7 +536,7 @@ ___
 |"[Charge](../06-abilities.md#charge)"|||Can attack when running/sprinting when mounted|
 |Counterstrike|||Can take an attack of opportunity against a foe that hits it in melee|
 |"[Broad Strike](../06-abilities.md#broad-strike)"|||A demon may strike all targets adjacent to its target for the cost of 1 SP dice.|
-|"[Great Strike](../06-abilities.md#great-strike)"|||A demon may sacrifice up to 5 from its attack bonus to deal extrea melee damage|
+|"[Great Strike](../06-abilities.md#great-strike)"|||A demon may sacrifice up to 5 from its attack bonus to deal extra melee damage|
 |"[Spell Strike](../06-abilities.md#spell-strike)"|||A demon may deliver spells through targetted attacks with its claws or flail for 1 MP die.|
 |"[Profane Strike](../06-abilities.md#profane-strike)"|||A demon may add 1d6 profane damage per MP dice expended to damage up to a maximum of 4|
 |||||
@@ -546,12 +546,15 @@ ___
 |Spellcasting: Profane VIII|Threshold=28||Favourites are: "[Dusk](../08-spell-list.md#dusk)", "[Animate Dead](../08-spell-list.md#animatecontrol-dead)", "[Balance of Nature](../08-spell-list.md#balance-of-nature)", "[Summon Fiend](../08-spell-list.md#summon-fiend)", "[Legion of Dead](../08-spell-list.md#legion-of-dead)", "[Profane Resurrection](../08-spell-list.md#profane-resurrection)"|
 |Alternate Form|||A demon has its true form and a humanoid form. It can shift between them as a secondary action. In its humanoid form the demon loses its claw attack and replaces its movement modalities with those of the humanoid. Its stats, saves, and abilities are unaffected.|
 |||||
+|Deflection||||
+|Esoteric Deflection||||
+|||||
 |Keen Senses|||Scent, Hearing|
 |Senses|||"Blind-sight: 30ft", "Life Sense: 30ft", "Low Light Vision", "Tremor Sense: 60ft"|
 |Skills|||"Athletics":+20, "Fortify": +20", "Climb:+20", "Swim:+11", "Ride:+7", "Intimidation":+16,"Deception":+16, "Acrobatics:+5", "Stealth:+10", "Observe":+14, "Sense Motive": +13, "Spellworking:+11", "Religion:+11", "Academics:+6"|
 |||||
 |Resistant|||"physical" damage, "fire", "ice", "lightning" damage|
-|Immune|||"disease", "poison", "dying"|
+|Immune|||"disease", "poison", "dying", "profane"|
 |Vulnerability|||"divine" damage|
 |||||
 |Demonic Realm|||Each demon has its own demonic realm which is found at least in the intermediate depths of the spirit realm. This acts as a "[Greater Domain](../08-spell-list.md#greater-domain) with a radius of at least 40ft (and with no upper limit), with the exception that its alignment is "profane" and is located deeper in the spirit realm. If the domain is destroyed, the demon is likewise destroyed.|

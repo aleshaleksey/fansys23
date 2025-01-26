@@ -80,7 +80,7 @@ A character may "push" beyond that time, but for every hour of "pushing" themsel
 In addition, a traveller can move faster than their global movement speed (see "[Walking](#walking)" below), however the SP dice/ HP cost is applied at shorter intervals.
 
 ### Difficult Terrain
-It is common when adventuring to find less than ideal terrain. Loose, rocky ground or turbulent waters are typical examples. Movement speed is halved over this kind of terrain. Most entities cannot "sprint" in these conditions and if they try to run, must make a DC12 [SKILL] check or fail to progress (critical failure means falling prone).
+It is common when adventuring to find less than ideal terrain. Loose, rocky ground or turbulent waters are typical examples. Movement speed is halved over this kind of terrain. Most entities cannot "sprint" in these conditions and if they try to run, must make a Threshold=12 "[Acrobatics](05-skills.md#acrobatics)" check or fail to progress (failure with snake eyes means falling prone).
 
 ### Walking
 Most entities with a "walk" speed can:
@@ -252,7 +252,7 @@ Different skills are used for each one. In general the thresholds for success ar
 ### Harvesting, Hunting and Mining (very draft)
 Harvesting, hunting and mining are essentially all harvesting of different types of resources from the environment. Sometimes these activities can be an adventure in and of themselves, so this refers to "mundane" harvesting, mining and hunting of resources that will not fight back.
 - After a successful "prospecting"/"scouting" roll a character can make a harvesting roll.
-- The duration of the "harvesting" and the magnitude of success determine the yield of the harvest. Critical failure results in the damage to the tools used (or HP loss or injury if the tool was the character's body or spirit).
+- The duration of the "harvesting" and the magnitude of success determine the yield of the harvest. Failure with snake eyes results in the damage to the tools used (or HP loss or injury if the tool was the character's body or spirit).
 - Exceeding the threshold by 5 allows to double the yield or half the time. Exceeding by 10 or more, allows both.
 - Guideline yields:
  - Hunt/trap small prey: 1 small entity per day + 1 per 5 points by which the terrain threshold is exceeded.

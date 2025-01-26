@@ -218,9 +218,9 @@ ___
 
 Weapons are tools that increase an entity's lethality in combat. For the sake of this definition, this does not include martial or supernatural abilities. Weapons and their properties are further discussed in the "[Weapons and Armour Section](11-weapons-armour.md)".
 
-Any entity may wield a weapon it is physically capably of wielding. If it is not proficient, it makes attacks with a -5 penalty. On a critical fail it damages itself, rolling the same damage dice it would as if it had hit the intended target. In addition it provokes attacks of opportunity when it attacks, since poor technique leaves openings.
+Any entity may wield a weapon it is physically capably of wielding. If it is not proficient, it makes attacks with a -5 penalty. On snake eyes it damages itself, rolling the same damage dice it would as if it had hit the intended target. In addition it provokes attacks of opportunity when it attacks, since poor technique leaves openings.
 
-Proficiency eliminates both the penalty and the damage to self on crit. In addition it allows the use of any of a weapon's special properties.
+Proficiency eliminates both the penalty and the damage to self on snake eyes. In addition it allows the use of any of a weapon's special properties.
 
 Weapon proficiencies are taken for each subgroup (eg "Strikes" and "Throws" are a separate proficiencies).
 
@@ -289,7 +289,7 @@ This is a skill specific to scaling steep or vertical surfaces, trees, ropes and
   - Entities with a climb speed can always "take care" to climb.
   - A roll of a climber's kit allows to make a climb safe, reducing fall distance to 20ft for threshold 24+ climbs and 10ft for threshold 23- climbs.
   - An entity that fails a climb roll fails to progress on a climb.
-  - An entity that fails by 5 or more falls half the distance and suffers the consequences. If this is a critical fail, the entity falls the full distance.
+  - An entity that fails by 5 or more falls half the distance and suffers the consequences. If it fails with snake eyes, the entity falls the full distance.
 - **Take care**: No. Entities without a climb speed are always considered at risk when climbing.
 - **Try again**: Yes, but repeated fall damage on failure might make repeated attempts undesirable.
 
@@ -530,7 +530,7 @@ Harvest is the umbrella skill covering the harvesting of natural resources from 
 - **Modifiers and Special**.
   - If the resource is rare, or exotic increase the threshold by +5 or +10.
   - If the resource cannot be found in the terrain, then the time is spent and the harvest fails.
-  - The duration of the "harvesting" and the magnitude of success determine the yield of the harvest. Critical failure results in the damage to the tools used (or HP loss or injury if the tool was the character's body or spirit).
+  - The duration of the "harvesting" and the magnitude of success determine the yield of the harvest. Failure with snake eyes results in the damage to the tools used (or HP loss or injury if the tool was the character's body or spirit).
   - Exceeding the threshold by 5 allows to double the yield or half the time. Exceeding by 10 or more, allows both.
 - **Special**: A character with terrain mastery has a +4 to "harvest" in that terrain.
   - "harvest" rolls that involve digging through soft ground are made at disadvantage without a shovel or similar implement.

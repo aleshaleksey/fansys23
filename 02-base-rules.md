@@ -85,8 +85,8 @@ ___
 #### Version I: 2d12
 The core dice for ability checks/tests, saves and attacks is 2d12. You roll a 2d12 and add a static modifier. If the result equals or exceeds a target value, you succeed. Otherwise you fail.
 - **General Special**: Also, for every 12 you roll, add +2 to the result. For every 1, subtract 2 from the result.
-- **Saves and Attacks**: Also, snake eyes (1,1) always fails. D12 (12,12) always succeeds.
-- **Attacks**: Also, or each 12 rolled roll the "damage dice" again and add to total damage.
+- **Saves and Attacks**: Also, snake eyes (1,1) always fails (also known as a "critical fail"). D12 (12,12) always succeeds (also known as a "critical success").
+- **Attacks**: Also, if one 12 is rolled, an extra damage dice is rolled for the attack. If D12 is rolled, the number of damage dice is doubled.
 - **Advantage**: Sometimes circumstances are very favourable. Then you roll 3d12, drop lowest. In extreme cases this can be 4D12DL2.
 - **Disadvantage**: Sometimes circumstances are very unfavourable. Then you roll 3d12, drop highest. In extreme cases this can be 4D12DH2.
 - Advantage and disadvantage, no matter from how many sources, always cancel each other out.

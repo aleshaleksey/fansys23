@@ -98,7 +98,7 @@ ___
 
 Weapons come in all shapes and sizes. They can be made of various materials. As a result they have various properties as follows:
 
-- **Delicate**: On a critical miss, the weapon takes 1 point of damage.
+- **Delicate**: On rolling snake eyes, the weapon takes 1 point of damage.
 - **Unwieldy**: Unwieldy weapons cannot be easily used in small spaces, where any dimension (width or height or length) are 5ft or less, or when mounted. In those conditions these weapons are wielded at disadvantage.
 - **Heavy**: This kind of weapon is "unwieldy". A heavy weapon of the correct size category must be wielded in two hands or it counts as an improvised weapon. In addition they grant a +2 on all basic martial manoeuvres. If a heavy weapon user does not have at least +2 to Str, it takes -4 to attacks with the weapon.
 - **Reach**: This weapon is "unwieldy", but it does have a range of 10ft.
@@ -115,7 +115,7 @@ Weapons come in all shapes and sizes. They can be made of various materials. As 
 ___
 ### Weapon proficiencies
 
-Any entity may wield a weapon it is physically capably of wielding. If it is not proficient, it makes attacks with a -5 penalty. On a critical fail it damages itself, rolling the same damage dice it would as if it had hit the intended target.
+Any entity may wield a weapon it is physically capably of wielding. If it is not proficient, it makes attacks with a -5 penalty. On rolling snake eyes it damages itself, rolling the same damage dice it would as if it had hit the intended target.
 
 Proficiency with a weapon type eliminates both the penalty and the damage to self on crit fails. In addition it allows the use of any of a weapon's special properties.
 
@@ -330,7 +330,7 @@ Percussive weapons like clubs, maces and hammer are in their essence a weight at
 
 **Morning stars** are essentially spiked maces. This allows it to also deal piercing damage. Morning star can cause can cause "bleeding".
 
-**Flail** ball on a chain with a handle. On a critical miss (snake eyes), a flail deals its normal (not critical) damage to its wielder.
+**Flail** ball on a chain with a handle. On Snake eyes, a flail deals its normal (not critical) damage to its wielder.
 
 **War hammers** are a family of mace-like weapons with an asymmetrical head: One end is blunt, the other end is sharp, for piercing armour. War hammers have the "sunder" property, and "sunder" vs armour and unattended items is at advantage when using a war hammer. **NB** long hefted war hammers in the style of venetian war hammers are considered pole-arms for for the sake of proficiency.
 
@@ -444,7 +444,7 @@ Mechanical bows are bow-like weapons where the draw is performed by a mechanism,
 
 **Winch Crossbow**: This refers to larger crossbows drawn by a winch. It fires a heavy bolt and has terrific penetrating power at close range. Reloading it is a "full round action" (you want a squire or hireling for this!). In practice this means that a solitary wielder of one of these weapons can only make one attack with it every two turns. **NB:** Light winch crossbows are not included because no one in their right mind who can afford a better one would use these.
 
-**Optional rule: Repeater Crossbow**: Any crossbow can be fitted a magazine that holds 5 bolts. This means that it only needs to be reloaded every 5 rounds. However, these mechanisms are expensive, complex and prone to jamming (jam on a critical miss). They also add 1-3lb to the weight of a crossbow. Most importantly they are not appropriate to all settings.
+**Optional rule: Repeater Crossbow**: Any crossbow can be fitted a magazine that holds 5 bolts. This means that it only needs to be reloaded every 5 rounds. However, these mechanisms are expensive, complex and prone to jamming on snake eyes. They also add 1-3lb to the weight of a crossbow. Most importantly they are not appropriate to all settings.
 
 ___
 ### Blowguns

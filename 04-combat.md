@@ -244,7 +244,7 @@ The actions an entity may take might also be restricted by its conditions and ge
   - Dropping an item.
 
 
-- "**Full round actions**": Certain activities involve using the whole of your turn and cannot fit into an action. They are resolved at the start of the next turn (or a subsequent turn when they are completed. These include:
+- "**Full round actions**": Certain activities involve using the whole of your turn and cannot fit into an action. They are resolved at the start of the next turn (or a subsequent turn) when they are completed. These include:
   - Casting certain spells. Especially those with a casting time of 1 minute or more take multiple full round actions.
   - Using certain mechanisms (eg turning a crank for a mechanism for a drawbridge).
 

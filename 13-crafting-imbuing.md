@@ -89,10 +89,10 @@ Beating the threshold by 6 or more creates an item which has +1 to durability fo
 The rules for crafting complex devices are similar, to those here, but the thresholds are defined in the ["Skills:Tinker" section](05-skills.md#tinker).
 
 #### Special
-- A critical success (double 12s) when making an item causes it to be inhabited by a minor spirit, giving it a random level one enchantment.
-- Critical failure (snake eyes) on making items means the tools take 1 point of damage.
-- Critical failure (snake eyes) on making an alchemical produce, causes it to explode (Dex save, Threshold=16) in a 10 ft radius causing 1d8 of fire damage for every "material level" of the ingredients.
-- Critical failure (snake eyes) on making a poison means that the artisan(s) making it poison themselves in the process.
+- A D12 when making an item causes it to be inhabited by a minor spirit, giving it a random level one enchantment.
+- Snake eyes on making items means the tools take 1 point of damage.
+- Snake eyes on making an alchemical produce, causes it to explode (Dex save, Threshold=16) in a 10 ft radius causing 1d8 of fire damage for every "material level" of the ingredients.
+- Snake eyes on making a poison means that the artisan(s) making it poison themselves in the process.
 
 ___
 ### Crafting, equipment, environment and other modifiers

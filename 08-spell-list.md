@@ -2674,9 +2674,9 @@ ___
 
 **Description**: Violently summons 65,000 cubic feet of water (enough to fill 520 5ft cubes) which spreads in a catastrophic deluge that spreads to the full radius of effect of the spell. Thereafter the water remains and spreads naturally as naturally occurring water would without causing further damage, but may sweep away small objects to an extent.
 
-Any entity within the area of effect that does not succeed a STR save suffers 3d12, if moved to the edge of the spell's range of effect (this is a "grapple" effect) and falls prone. In addition any entity within 25ft of the origin of the spell must succeed a DEX save or immediately begin "[suffocating](03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die)" (NB: since the spell is instantaneous they do not take any damage, however refractory period is immediately triggered).
+Any entity within the area of effect that does not succeed a STR save suffers 3d12 natural pressure damage, and is moved to the edge of the spell's range of effect (this is a "grapple" effect) and falls prone. In addition any entity within 25ft of the origin of the spell must succeed a DEX save or immediately begin "[suffocating](03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die)" (NB: since the spell is instantaneous they do not take any damage, however refractory period is immediately triggered).
 
-**Limitation**: If the spell is cast through "NATURE" magic, it can only be cast if there are at least 5 5ft cubes of water in the area of effect.
+**Limitation**: If the spell is cast through "NATURE" magic, it can only be cast if there are at least 5 5ft cubes of water or if it is raining or snowing in the proposed area of effect.
 
 **Note**: 65,000 cubic feet is enough to fill a 3m deep, 25m swimming pool.
 

@@ -238,6 +238,7 @@ ___
 - Reduce cast time on Mandate of the Deep.
 - Add "[Flood](08-spell-list.md#flood)" (aquamancy, level 5)
 - Add "[Winter's Grasp](08-spell-list.md#winters-grasp)" (aquamancy, level 5)
+- Add "[Rift](08-spell-list.md#rift)" (geomancy, level 5)
 - 
 - 
 - 

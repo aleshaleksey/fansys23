@@ -126,6 +126,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Pact](#pact)
 - [Plague](#plague)
 - [Revenant](#revenant)
+- [Rift](#rift)
 - [Summon Fiend](#summon-fiend)
 - [Winter's Grasp](#winters-grasp)
 
@@ -2658,7 +2659,7 @@ ___
 
 ___
 ### Flood
-|Name|Lesser Flood [Autumn, Curse, Nature, Water]|
+|Name|Lesser Flood [Autumn, Destruction, Nature, Water]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|5 (20)|
@@ -2881,6 +2882,28 @@ The target returns with all of its SP and MP and up to 12 HP.
 **Special**: The spell can be cast up to 7 times for the same target. However, on each casting following the first time, either the caster or an entity with at least as many MP or SP dice as the caster's total must be sacrificed (it must die in the ritual). If the sacrifice is not satisfactory, the life is lost but nothing is summoned.
 
 **Upcast**: For each 8MP dice put into the spell, the target stays in the mortal realm for an extra 24 hours.
+
+___
+### Rift
+|Name|Rift [Destruction, Earth]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|5 (20)|
+|Target(s)|A spot on the ground, special (see below)|
+|Casting time|1 full round (10 hours + 2 hours per 4MP dice)|-2
+|Range|120ft|+3(1)
+|Duration|Instantaneous|
+|Components|incantation, kinetic|-1(0)
+|Material|An earthenware vessel, which is broken as the spell is cast|-2(-2)
+|Save|DEX|
+
+**Description**: The caster shatters the earth, opening one linear rift on the ground. The spell affects worked and unworked ground, rock and structures.
+
+The rift can be no more than 50ft wide, 400ft long and 200ft deep, the sides are jagged and uneven. Any entity in the area of the rift when it opens, falls if it succeeds on a DEX saving throw. If the rift is wider than the entity, the entity falls into the rift. For every point the entity fails its DEX saving throw by, it will fall 10ft into the rift. So if it fails the save by 6, it will fall 60ft and takes the corresponding damage.
+
+**Special**: Structures that straddle the rift are destroyed, and terrain is permanently altered. The rift remains after the spell is cast. Climbing the sides of the rift requires a climb roll of Threshold=20.
+
+**Upcast**: For every extra MP dice over 5, the rift can be 40ft longer.
 
 ___
 ### Summon Fiend
@@ -4073,6 +4096,7 @@ ___
 - Earth
     - [Lesser Cosmic Seal](#lesser-cosmic-seal)
     - [Revenant](#revenant)
+    - [Rift](#rift)
     - []()
 - Fire
     - [Flame Stride](#flame-stride)
@@ -4234,6 +4258,7 @@ ___
 **Special**:
 
 **Upcast**:
+
 
 
 

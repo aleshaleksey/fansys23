@@ -2899,11 +2899,16 @@ ___
 
 **Description**: The caster shatters the earth, opening one linear rift on the ground. The spell affects worked and unworked ground, rock and structures.
 
-The rift can be no more than 50ft wide, 400ft long and 200ft deep, the sides are jagged and uneven. Any entity in the area of the rift when it opens, falls if it succeeds on a DEX saving throw. If the rift is wider than the entity, the entity falls into the rift. For every point the entity fails its DEX saving throw by, it will fall 10ft into the rift. So if it fails the save by 6, it will fall 60ft and takes the corresponding damage.
+The rift can be no more than 50ft wide, 400ft long and 200ft deep, the sides are jagged and uneven. Any entity in the area of the rift when it opens, falls if it does not succeed on a DEX saving throw. If the rift is wider than the entity, the entity falls into the rift. For every point the entity fails its DEX saving throw by, it will fall 10ft into the rift. So if it fails the save by 6, it will fall 60ft and takes the corresponding damage.
 
-**Special**: Structures that straddle the rift are destroyed, and terrain is permanently altered. The rift remains after the spell is cast. Climbing the sides of the rift requires a climb roll of Threshold=20.
+**Special**:
+- Structures that straddle the rift are destroyed, and terrain is permanently altered. The rift remains after the spell is cast.
+- Climbing the sides of the rift requires a climb roll of Threshold=20.
+- The caster can specify the dimensions of the rift as long as it is 
 
-**Upcast**: For every extra MP dice over 5, the rift can be 40ft longer.
+**Upcast**: For every extra MP dice over 5, the rift can be 80ft longer.
+
+**Global**: The rift can be up to 2 miles long, 200ft wide and 400ft deep.
 
 ___
 ### Summon Fiend
@@ -3641,6 +3646,7 @@ Fourthly, all willing allies are transformed into "beasts" or "fey" of the caste
 - The fey will be willing to offer the caster up to one piece of secret information (either plot related, or secret knowledge (knowledge threshold=36)). Alternatively a fey being may be offered as a bride or groom to the caster by the ruler of the fey realm (although unions between mortals and spirits seldom end well..).
 - This spell borders on legendary magic, that forever changes the locale where it is cast. When the 24 hours are over, three of the 8 effects caused by the "local" casting of the spell continue to be active for 108 years. Likewise, mortals born in this area tend to have a "spiritual" alignment and fey traits.
 
+___
 ### Mage's Oath
 |Name|Mage's Oath [Incantation, Curse, Divine]|
 |-|-|

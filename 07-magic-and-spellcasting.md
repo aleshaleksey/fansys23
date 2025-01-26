@@ -405,7 +405,7 @@ Any spell created using this guide MUST be checked and validated. In general no 
 - Casting time (no damage ): Secondary (+2), Main(0), Full round(-2).
 - Casting time (damage or conditions): Secondary(+2), Main(0), Full round(-1), 1 minute (-2).
 - Casting time: Reaction + 4.
-- Concentration: All damage spells MUST be concentration. Otherwise -3 if concentration
+- Concentration: All damage spells with a non-instantaneous duration MUST be concentration. Otherwise -3 if concentration
 - Range: +1 per range up (15, 30, 60, 120, 240), -1 per range down. (+1 per 60ft increment)
 - Range (harmless): The realm: +15. All realms +30.
 - Targets +2 per target or +2 per 5ft radius. SPECIAL: Only +1 for the first *N* increases for a spell of cost *N* MP.

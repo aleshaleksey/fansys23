@@ -115,8 +115,10 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Summon Spirit](#summon-spirit)
 
 ### MP 5
+- [Blessing of the Winds](#blessing-of-the-winds)
 - [Flame Stride](#flame-stride)
 - [Flawed Transmute](#flawed-transmute)
+- [Flood](#flood)
 - [Greater Fade](#greater-fade)
 - [Greater Fire Ward](#greater-fire-ward)
 - [Isolate Essence](#isolate-essence)
@@ -125,6 +127,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Plague](#plague)
 - [Revenant](#revenant)
 - [Summon Fiend](#summon-fiend)
+- [Winter's Grasp](#winters-grasp)
 
 ### MP 6
 - [Fairy Feast](#fairy-feast)
@@ -808,7 +811,7 @@ ___
 |Scope|local (global)|
 |MP Dice|1 (4)|
 |Target(s)|1 entity|
-|Casting time|1 minute (24h + 2h per 4MP dice)|-2
+|Casting time|1 minute (2h + 2h per 4MP dice)|-2
 |Range|240ft (2 miles)|+3
 |Duration|Instantaneous (Instantaneous)|
 |Components|kinetic|
@@ -863,7 +866,7 @@ ___
 |Range|close|-2
 |Duration|1h+ (1 day+)|+6
 |Components|incantation, kinetic|-1
-|Limitation|Cover is only against targeted ranged weapon attacks|
+|Limitation|Cover is only against targeted ranged weapon attacks|-1
 |Save|Cha|
 
 **Description**: A friendly wind blows around the target, giving it light cover against ranged weapons and +10 to movement speed.
@@ -1627,6 +1630,7 @@ ___
 **Special**:
 - If the spell is cast as a reaction, it cannot be upcast, and lasts for 1 minute.
 - If the attack is a rectilinear effect and the barrier crosses its path, the target is affected as if it is inside the barrier.
+- Effects caused by area of effect "earth" spells of an equal or lower level that do not require an attack roll are excluded from the spell's area of effect. 
 
 **Upcast**: For every extra MP dice above 3 placed in the spell, the radius extends by 5ft, or the duration increases by 1h.
 - If the spell is cast as a reaction, it cannot be upcast.
@@ -1686,6 +1690,7 @@ ___
 **Special**:
 - If the spell is cast as a reaction, it cannot be upcast, and lasts for 1 minute.
 - If the attack is a rectilinear effect and the barrier crosses its path, the target is affected as if it is inside the barrier.
+- Effects caused by area of effect "fire" spells of an equal or lower level that do not require an attack roll are excluded from the spell's area of effect. 
 
 **Upcast**: For every extra MP dice above 3 placed into the spell, the radius extends by 5ft, or the duration increases by 1h. Alternatively the damage increases by 1d8 and damage reduction increases by 2.
 - If the spell is cast as a reaction, it cannot be upcast.
@@ -1914,6 +1919,7 @@ ___
 **Special**:
 - If the spell is cast as a reaction, it cannot be upcast, and lasts for 1 minute.
 - If the attack is a rectilinear effect and the barrier crosses its path, the target is affected as if it is inside the barrier.
+- Effects caused by area of effect "air"/"wind" spells of an equal or lower level that do not require an attack roll are excluded from the spell's area of effect. 
 
 **Upcast**: For every extra MP die above 3 placed in the spell, the radius extends by 5ft, or the duration increases by 1h.
 - If the spell is cast as a reaction, it cannot be upcast.
@@ -1974,7 +1980,7 @@ ___
 |Scope|local (global)|
 |MP Dice|3 (12)|
 |Target(s)|1 entity/10ft (200ft)|+4
-|Casting time|"full round"/"reaction"(12h + 6h per 4MP)|(3,7)
+|Casting time|"full round"/"reaction"(6h + 3h per 4MP)|(3,7)
 |Range|15ft|(2,6)
 |Duration|1h/1min (1 week)|(8,9)
 |Components|incantation, kinetic|(7,8)
@@ -1987,6 +1993,7 @@ ___
 **Special**:
 - If the spell is cast as a reaction, it cannot be upcast, and lasts for 1 minute.
 - If the attack is a rectilinear effect and the barrier crosses its path, the target is affected as if it is inside the barrier.
+- Effects caused by area of effect "ice"/"water" spells of an equal or lower level that do not require an attack roll are excluded from the spell's area of effect. 
 
 **Upcast**: For every extra MP die above 3 placed in the spell, the radius extends by 5ft, or the duration increases by 1h.
 - If the spell is cast as a reaction, it cannot be upcast.
@@ -2283,7 +2290,7 @@ ___
 
 ___
 ### Healing Seed
-|Name|Greater Heal [Life, Nature, Earth]|
+|Name|Greater Heal [Earth, Life, Nature]|
 |-|-|
 |Scope|local|
 |MP Dice|4|
@@ -2379,7 +2386,7 @@ ___
 
 ___
 ### Lesser Weather Control
-|Name|Least Weather Control [Air, Nature]|
+|Name|Least Weather Control [Air, Nature, Water]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|4 (16)|
@@ -2575,6 +2582,27 @@ ___
 4+2+3+4+5+6=24
 
 ___
+### Blessing of the Winds
+|Name|Blessing of the Winds [Air, Kinetic, Wind]|
+|-|-|
+|Scope|local|
+|MP Dice|5|
+|Target(s)|1 entity+|
+|Casting time|1 main action|
+|Range|60ft (2)| 2
+|Duration|12 minutes| 6 (8)
+|Components|incantation, kinetic|-1 (7)
+|Limitation|Does not affect earth elementals|-1(6)
+|Save|Cha|
+
+**Description**: The caster imbues the blessing of the winds unto the target. This has the following effects.
+- The target's walk and fly speeds increase by 50ft/round.
+- If the target has a fly speed, it improves by one step. If it does not, it gains an "average" fly speed equal to its walking speed, but only during its turn (it falls at the end of the turn if it is still airborne).
+- The target has advantage of acrobatics and fly rolls, as well as DEX saves. It can sacrifice this affect until the start of its next turn to instead apply an extra "[basic combat manoeuvre](04-combat.md#basic-martial-manoeuvres)" if it is using its main action to attack.
+
+**Upcast**: For every extra MP dice above 5, the target's movement speed increases by 20ft, or an extra target can be affected.
+
+___
 ### Flame Stride
 |Name|Flame Stride [Travel, Fire]|
 |-|-|
@@ -2627,6 +2655,34 @@ ___
 **Upcast**: For every addition MP die above 5 used in the casting, either add an extra object or increase its size by one category. If at least 7 MP dice are used the maximum material level can be 3. If 9 MP dice are used the maximum material level can be 4.
 
 **Global**: The spell is permanent. If at least 28 MP dice are used the maximum material level can be 3. If 36 MP dice are used the maximum material level can be 4.
+
+___
+### Flood
+|Name|Lesser Flood [Autumn, Curse, Nature, Water]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|5 (20)|
+|Target(s)|50ft radius (or 100ft. 60 degree cone)| 11
+|Casting time|1 full round action (10 hours)| -2 (9)
+|Range|120ft (close for cone)| 4 (13)
+|Duration|Instantaneous|
+|Components|kinetic|
+|Limitation|Special (see below)|
+|Damage|3d12 Pressure[Natural]| 9 (22)
+|Conditions|Special| 2 (23)
+|Save|STR, DEX|-1
+
+**Description**: Violently summons 65,000 cubic feet of water (enough to fill 520 5ft cubes) which spreads in a catastrophic deluge that spreads to the full radius of effect of the spell. Thereafter the water remains and spreads naturally as naturally occurring water would without causing further damage, but may sweep away small objects to an extent.
+
+Any entity within the area of effect that does not succeed a STR save suffers 3d12, if moved to the edge of the spell's range of effect (this is a "grapple" effect) and falls prone. In addition any entity within 25ft of the origin of the spell must succeed a DEX save or immediately begin "[suffocating](03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die)" (NB: since the spell is instantaneous they do not take any damage, however refractory period is immediately triggered).
+
+**Limitation**: If the spell is cast through "NATURE" magic, it can only be cast if there are at least 5 5ft cubes of water in the area of effect.
+
+**Note**: 65,000 cubic feet is enough to fill a 3m deep, 25m swimming pool.
+
+**Upcast**: The Spell's radius increases by 10ft and the volume of water produced increases by 200 5ft cubes (13,000 cubic feet) for every extra MP dice above 5. Alternatively the damage increases by 1d12.
+
+**Global**: The spell's radius increases to a radius of 1000ft. The volume of water produced is enough to submerge an area of 5sq miles to a depth of 50ft. The water takes 1 minute to spread over the area.  Every round an entity must succeed a swim roll (vs caster's Threshold) to reach the surface or suffer 3d6 damage. Structures automatically take 3 dice of damage every round, and are usually swept away.
 
 ___
 ### Greater Fade
@@ -2855,6 +2911,25 @@ ___
 2. The fiend is summoned to perform a single task, or favour, which may last any amount of time. However, the fiend will demand some kind of reward in exchange (eg, the sacrifice of an unwilling humanoid, the desecration of a holy site, an evil deed that will blacken the soul of the one performing it).
 
 ___
+### Winter's Grasp
+|Name|Freeze [Curse, Ice, Water]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|5 (20)|
+|Target(s)|1 entity+10ft radius|
+|Casting time|1 main action|
+|Range|15ft|
+|Duration|1 minute (permanent)|6
+|Components|incantation|
+|Damage|3d8 Cold|9(15)
+|Effect|Immobilised|6(21)
+|Save|CON|
+
+**Description**: Chill the target, freezing it. The target takes 3d8 damage at the start of each turn and is "immobilised". This is negated by a successful CON save, which ends the spell. Furthermore, water within 10ft of the target freezes, and the temperature in the area of effect falls to "Extreme Temperature: Cold".
+
+**Upcast**: The spell is permanent. Furthermore, when the target's HP reaches 0, the spell does not deal further damage.
+
+___
 ## MP 6 spells
 4+2+3+4+5+6+7
 6,9,13,18,24,31
@@ -2879,9 +2954,9 @@ ___
 
 **Description**: The caster invites a host of fey for a feast.
 
-In exchange a fey realm asserts itself in a 120ft radius of the point where the spell was cast, complete with ephemerally summoned fey, music, and a wondrous feast, which is sufficient to provide 101 medium, 47 large, or 9 larger entities with a day's nutrients. Regardless of type or race, suitable nutrients can be found. Any effects of starvation, dehydration and "insomnia" are cured. Likewise each entity gains immunity to either "charmed" or "frightened", as it chooses. The immunity lasts for 24 hours.
+A fey realm asserts itself in a 120ft radius of the point where the spell was cast, complete with ephemerally summoned fey, music, and a wondrous feast, which is sufficient to provide 101 medium, 47 large, or 9 larger entities with a day's nutrients. Regardless of type or race, suitable nutrients can be found. Any effects of starvation, dehydration and "insomnia" are cured. Likewise each entity gains immunity to either "charmed" or "frightened", as it chooses. The immunity lasts for 24 hours.
 
-Collectively, the fey offer one piece of useful knowledge between, and should violence or other danger erupt before the spell ends, disappear, along with the feast. In this case, the offered memory (if any) is not consumed, and the beneficial effects of the feast are not gained.
+Collectively, the fey offer one piece of useful knowledge between them, and should violence or other danger erupt before the spell ends, disappear, along with the feast. In this case, the offered memory (if any) is not consumed, and the beneficial effects of the feast are not gained.
 
 **Special**: If the caster offers up a precious memory (resulting in the loss of 1 rank in a skill of the caster's choice), the MP dice cost of the spell is removed. In addition, each entity that partakes in the feast can gain TWO of the below benefits, which it retains for 7 days:
 - Immunity to "grappled", "prone", "restrained", "immobilised".
@@ -2891,7 +2966,7 @@ Collectively, the fey offer one piece of useful knowledge between, and should vi
 - Immunity to "aphonic", "deafened", "blinded", "inaudible".
 - Complete restoration of MP and SP (but not dice).
 - Advantage on rolls pertaining to one skill.
-- Advantage on saves to stabilise when "dying" or on ONE save.
+- Advantage on saves to stabilise when "dying" or on ONE other type of save.
 - Advantage on rolls pertaining to one skill.
 - Advantage on initiative.
 - Resistance to all physical damage types.
@@ -3621,7 +3696,7 @@ ____
 |Scope|local (global)|
 |MP Dice|10 (40)|
 |Target(s)|80ft radius, (3/4 mile radius)|+22
-|Casting time|"full round action" (20 days + 2 days per 4MP)|-2(8)
+|Casting time|"full round action" (10 days + 1 days per 4MP)|-2(8)
 |Range|close|-1(7)
 |Duration|12 minutes (1 weeks)|+12(19)
 |Components|incantation, kinetic|-1(18)
@@ -3647,7 +3722,7 @@ ____
 - As a "secondary action", the caster can freeze or melt any amount of water in the area of effect. Any entity caught in the frozen areas can attempt to break free with a Str save, however, this is often futile, as even if they break free, they may still be surrounded by walls of ice 10-20 feet thick. (This is very useful as a barrier)
 - As an action call watery tendrils to strike any number of targets in the area of effect, dealing 4d12 percussive damage on a failed Dex save. If the caster so choses, the tendrils an throw a target up to 80ft (or move a willing target the same distance).
 - As an action, cause (CON save to negate) or cure bleeding in any number of targets.
-- Control the movement water as a "move action", including:
+- Control the movement of water as a "move action", including:
   - Raising or lowering water levels at will.
   - Changing speed and flow of water in the area at will (but induing currents of no more than 240ft per round)
 - Entities aligned with fire have disadvantage to all attacks in the area of effect, and saving throws against their abilities/spells/etc are made at advantage.
@@ -3951,6 +4026,7 @@ ___
     - [Animate Golem](#animate-golem)
     - [Balance of Elements](#balance-of-elements)
     - [Enchanted Ground](#enchanted-ground)
+    - [Healing Seed](#healing-seed)
     - [Lesser Domain](#lesser-domain)
 - Fire
     - [Balance of Elements](#balance-of-elements)
@@ -3962,6 +4038,7 @@ ___
     - [Bestial Transformation](#bestial-transformation)
     - [False Aura](#false-aura)
     - [Lesser Domain](#lesser-domain)
+    - [Lesser Weather Control](#lesser-weather-control)
     - [Mirage](#mirage)
     - [Scry](#scry)
 - Incantation
@@ -3989,16 +4066,13 @@ ___
     - [Plague](#plague)
     - []()
 - Air
+    - [Blessing of the Winds](#blessing-of-the-winds)
     - [Greater Fade](#greater-fade)
     - [Lesser Cosmic Seal](#lesser-cosmic-seal)
     - []()
-    - []()
-    - []()
 - Earth
-    - [Healing Seed](#healing-seed)
     - [Lesser Cosmic Seal](#lesser-cosmic-seal)
     - [Revenant](#revenant)
-    - []()
     - []()
 - Fire
     - [Flame Stride](#flame-stride)
@@ -4008,30 +4082,59 @@ ___
     - []()
 - Water
     - [Lesser Cosmic Seal](#lesser-cosmic-seal)
-    - []()
-    - []()
+    - [Flood](#flood)
+    - [Winter's Grasp](#winters-grasp)
     - []()
 - Incantation
     - [Flawed Transmute](#flawed-transmute)
     - [Isolate Essence](#isolate-essence)
     - [Pact](#pact)
     - []()
-    - []()
-    - []()
 - Kinetic
     - [Flame Stride](#flame-stride)
     - [Plague](#plague)
+    - [Flood](#flood)
     - []()
+- Other
+    - [Summon Fiend](#summon-fiend)
+
+### MP 6
+
+- Nature
+    - [Fairy Feast](#fairy-feast) [6]
+    - []()
+- Air
+    - [Razor Wind](#razor-wind) [6]
+    - []()
+- Earth
+    - [False Regrowth](#false-regrowth) [6]
+    - []()
+- Fire
+    - [Forest of Flame](#forest-of-flame) [6]
+    - [Greater Fire Ward](#greater-fire-ward) [6]
+    - []()
+- Water
+    - [False Regrowth](#false-regrowth) [6]
+    - [Inner Voice](#inner-voice) [6]
+    - []()
+- Incantation
+    - [Fairy Feast](#fairy-feast) [6]
+    - [Razor Wind](#razor-wind) [6]
+    - []()
+- Kinetic
+    - [Inner Voice](#inner-voice) [6]
     - []()
     - []()
 
 - Other
-    - [Summon Fiend](#summon-fiend)
+    - [Legion of Dead](#legion-of-dead) [6]
+    - [Otherworld Step](#otherworld-step) [6]
+    - [Summon Angel](#summon-angel) [6]
+    - []()
 
-### MP 6+
+### MP 7+
 
 - Nature
-    - [Fairy Feast](#fairy-feast) [6]
     - [Create Secret Path](#create-secret-path) [7]
     - [Transform Mortal](#transform-mortal) [7]
     - [Greater Weather Control](#greater-weather-control) [7]
@@ -4040,7 +4143,6 @@ ___
     - [Fairy Ball/Masquerade](#fairy-ballmasquerade) [9]
     - []()
 - Air
-    - [Razor Wind](#razor-wind) [6]
     - [Create Secret Path](#create-secret-path) [7]
     - [Greater Weather Control](#greater-weather-control) [7]
     - [Meteoric Flight](#meteoric-flight) [7]
@@ -4048,7 +4150,6 @@ ___
     - [Greater Cosmic Seal](#greater-cosmic-seal) [8]
     - []()
 - Earth
-    - [False Regrowth](#false-regrowth) [6]
     - [Create Secret Path](#create-secret-path) [7]
     - [Portal](#portal) [7]
     - [Greater Domain](#greater-domain) [8]
@@ -4056,8 +4157,6 @@ ___
     - []()
     - []()
 - Fire
-    - [Forest of Flame](#forest-of-flame) [6]
-    - [Greater Fire Ward](#greater-fire-ward) [6]
     - [Create Secret Path](#create-secret-path) [7]
     - [Meteoric Flight](#meteoric-flight) [7]
     - [Greater Domain](#greater-domain) [8]
@@ -4065,8 +4164,6 @@ ___
     - [Realm of Flame](#realm-of-flame) [10]
     - []()
 - Water
-    - [False Regrowth](#false-regrowth) [6]
-    - [Inner Voice](#inner-voice) [6]
     - [Create Secret Path](#create-secret-path) [7]
     - [Transform Mortal](#transform-mortal) [7]
     - [Greater Domain](#greater-domain) [8]
@@ -4074,23 +4171,17 @@ ___
     - [Mandate of the Deep](#mandate-of-the-deep) [10]
     - []()
 - Incantation
-    - [Fairy Feast](#fairy-feast) [6]
-    - [Razor Wind](#razor-wind) [6]
     - [Create Secret Path](#create-secret-path) [7]
     - [Memory Thief](#memory-thief) [7]
     - [Mage's Oath](#mages-oath) [9]
     - []()
 - Kinetic
-    - [Inner Voice](#inner-voice) [6]
     - [Transform Mortal](#transform-mortal) [7]
     - [Fairy Ball/Masquerade](#fairy-ballmasquerade) [9]
     - []()
     - []()
 
 - Other
-    - [Legion of Dead](#legion-of-dead) [6]
-    - [Otherworld Step](#otherworld-step) [6]
-    - [Summon Angel](#summon-angel) [6]
     - [Incarnate](#incarnate) [7]
     - [Avatar](#avatar)[10]
     - [Undying Realm](#undying-realm) [10]
@@ -4144,26 +4235,32 @@ ___
 
 **Upcast**:
 
-### 
-|Name| []|
-|-|-|
-|Scope||
-|MP Dice||
-|Target(s)||
-|Casting time||
-|Range||
-|Duration||
-|Components||
-|Focus||
-|Material||
-|Limitation||
-|Save||
 
-**Description**:
 
-**Special**:
 
-**Upcast**:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -235,6 +235,10 @@ ___
 ### Spells
 - Add "Summon Beast" as a low level spell.
 - Decrease the initial level for summon fiend, so that it is a level 7 fiend (instead of level 9), because fiends are quite strong.
+- Reduce cast time on Mandate of the Deep.
+- Add "[Flood](08-spell-list.md#flood)" (aquamancy, level 5)
+- Add "[Winter's Grasp](08-spell-list.md#winters-grasp)" (aquamancy, level 5)
+- 
 - 
 - 
 

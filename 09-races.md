@@ -172,6 +172,52 @@ Race boon: (6 points)
 - +10 fly speed.
 
 ___
+### Dragonkin (level-1 template = 8 points)
+Also known in various worlds as "Dragonborn", "Dragonblood" and by any other number of pretentious names. Dragonkin are humanoids with some similarities to true dragons. Sometimes, as they age and gain power, they may become true dragons. Notably they tend to have vestigial wings, reptilian tails, and the ability to breath fire, or a different element. In worlds where dragons are color coded for convenience, the same applies to dragonkin.
+
+- **Size**: Medium (Height: ~6', Weight: ~180lb, wingspan 10ft increasing 24ft with age.)
+- **Size** (Fire): (Str: 0, Dex: 0, Con: +1, Int: 0, Wis: -2, Cha: +2) (1 point)
+- **Size** (Ice): (Str: +2, Dex: -2, Con: +1, Int: 0, Wis: 0, Cha: 0) (1 point)
+- **Size** (Poison): (Str: 0, Dex: -1, Con: +1, Int: +1, Wis: +1, Cha: -1) (1 point)
+- **Size** (Light): (Str: 0, Dex: 0, Con: -1, Int: 0, Wis: +1, Cha: 0)
+- **Size** (Lightning): (Str: 0, Dex: +1, Con: 0, Int: 0, Wis: -1, Cha: 0)
+- **Movement**: Walk 30ft
+- **Sight**: Normal, Keen senses: Smell" (1 point)
+- **Type**: Humanoid (needs to breathe, drink, eat, and sleep). Humans age.
+- **Proficiencies**: One appropriate language and 1 tool (NB: Fire, Ice and Poison ONLY). (1 point ~)
+
+**Extra (5 points) [Fire, Ice, Poison]**:
+- Resistance to one of: (2)
+  - "fire & aphonia",
+  - "ice & grappled",
+  - "poison & diseased",
+Elemental Blast (Flavour: Breath) (3) (Must be same element)
+
+**Extra (7 points) [Lightning, Light]**:
+- Resistance to one of: (4)
+  - "lightning & deafened",
+  - "light & glowing"
+- Elemental Blast (Flavour: Breath) (3) (Must be same element)
+
+**Race boon: (6 points)**
+EITHER:
+- Flight 60ft (poor) OR improvement to fly + 10ft fly speed. (3)
+- "low-light vision" or "heat sense"
+- +1 to a single Stat.
+
+OR [Fire, Ice, Poison]: (6 points)
+- Immunity to their Element and advantage vs:
+  - "Incapacitated" (fire)
+  - "Immobilised" (ice)
+  - "poisoned" (poison)
+- "low-light vision" or "heat sense" or +2 to a single stat.
+
+OR [Lightning, Light]: (6 points)
+- Immunity to their Element and advantage vs:
+  - "paralysed", "immobilised" of "stunned" (lightning)
+  - "catatonic", "frightened" or "blinded" (light)
+
+___
 ## Example Enhanced Template
 
 Below you can find some **enchanced** templates with higher stats and more abilities/skills than the "normal" templates/races. The enhanced templates are intended ONLY for high power games and will probably detract from most games rather than enhancing them. The DM and group should make sure to use templates of the same level for ALL characters in a game, for reasons of balance and mutual enjoyment. 
@@ -235,6 +281,33 @@ Extra (20):
 - Resistance "prone", "restrained", "grappled", "immobilised". (4)
 
 ___
+### Half-Dragon (level-5 template = 40 points)
+
+Half dragons are born of the mixing of dragon and humanoid. They gain much from their draconic blood, but are nevertheless weaker than dragons. Their natural form is some mixture of draconic and human, but they can take on a human form. They can:
+1. Take humanoid form (lesser alternate form).
+2. Fly.
+3. They cannot be harmed by one element.
+4. They generally have magical abilities.
+5. They generally can breathe fire/cold.
+
+- **Size**: Large (Weight: ~1000lb) (Normal form: Dragon, alternate: Human)
+- **Stats**: (Str: +3, Dex: -1, Con: +3, Int: +1, Wis: +1, Cha: +3) (10 points)
+- **Movement**: Walk 30ft, Fly 60ft (rating: poor). (7 point)
+- **Sight**: low light vision, keen smell, keen sight. (5 point)
+- **Type**: Dragon (needs to eat, drink, breath, does not age). (1 points)
+- **Proficiencies**: draconic.
+
+Limitation (-2):
+- Marginally prehensile limbs (cannot use DEX based weapons or tools). -2
+
+Extra (17):
++ Immune: "Fear" (4).
++ Immune: One of "Fire" OR "Cold" (4).
++ Alternate form: Humanoid (4 points).
++ Elemental Blast (3).
++ Natural Attack, Bite, 1d4. (2)
+
+___
 ### Vampire spawn (level-5 template = 40)
 
 This represents a low-grade vampire. Its type is undead, but due to lack of points, it does not have all undead traits, because we can't afford them.
@@ -262,17 +335,17 @@ ___
 ### Watcher (level-10 template = 80 points)
 
 This is a divine being created by gods to watch over some aspect of creation (Couatl in DnD 5e). Its natural form is a winged serpent. They can:
-- Take humanoid form (lesser alternate form).
-- Fly.
-- They cannot be harmed by physical damage or light and resist fire.
-- They generally have magical abilities.
-- The ability to understand all languages and communicate telepathically.
+1. Take humanoid form (lesser alternate form).
+2. Fly.
+3. They cannot be harmed by physical damage or light and resist fire.
+4. They generally have magical abilities.
+5. The ability to understand all languages and communicate telepathically.
 
 - **Size**: Medium (Height: ~5'8", Weight: ~140lb) (Normal form: Winged)
 - **Stats**: (Str: +2, Dex: 0, Con: +2, Int: +4, Wis: +2, Cha: +4) (14 points)
 - **Movement**: Walk 20ft, Fly 70ft (rating: average). (6 point)
 - **Sight**: :True Sight II (60ft), low light vision. (8 point)
-- **Type**: Humanoid (does not need to eat, drink, breath, does not age). (12 points)
+- **Type**: Divine (does not need to eat, drink, breath, does not age). (12 points)
 - **Proficiencies**: One appropriate language.
 
 Restriction:
@@ -285,6 +358,39 @@ Extra (42):
 + Immunity: Bludgeoning, Slashing, Piercing, Shear and Pressure. (20 points)
 + Resistance: Light, Fire, Divine. (8 points)
 + Therefore resistance: "bleeding", "crippled", "prone", "stunned", "frightened", "blinded", "aphonia".
+
+___
+### Lesser Dragon (level-10 template = 80 points)
+
+This represents a dragon at the lower end of the draconic scale of power. Its natural form is a winged serpent. They can:
+1. Take humanoid form (lesser alternate form).
+2. Fly.
+3. They cannot be harmed by one element, and resist physical damage.
+4. They generally have magical abilities.
+5. They generally can breathe fire/cold.
+
+- **Size**: Large (Weight: ~1000lb) (Normal form: Winged)
+- **Stats**: (Str: +4, Dex: 0, Con: +4, Int: +2, Wis: +2, Cha: +4) (16 points)
+- **Movement**: Walk 40ft, Fly 70ft (rating: average). (11 point)
+- **Sight**: :True Sight II (60ft), low light vision, keen smell, keen smell, keen sight. (11 point)
+- **Type**: Dragon (needs to eat, drink, breath, does not age). (1 points)
+- **Proficiencies**: draconic, proficiency "strike" + "grapple". (2)
+
+Extra (42):
++ Immune: "Fear" (4).
++ Immune: One of "Fire" OR "Cold" (4).
++ Alternate form: Humanoid (4 points).
++ Alternate form: Beast (small/medium) (4 points).
++ Resistant: "slashing", "shear", "bludgeoning" (6).
++ Therefore resistance: "grappled", "prone", "deafened".
++ Elemental Blast (Greater, Linear) (6).
++ Natural Attack, Bite (1d10). (10).
++ Spellcasting:Water/Fire (level 1). (2)
+
+Race boon: (6 points)
++ Plus one to level of Spellcasting:Water/Fire OR +1 to Natural attack dice size (2).
++ Plus 10ft fly speed.
++ Plus 2 to any one stat.
 
 ___
 ## Making templates

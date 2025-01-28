@@ -230,7 +230,9 @@ ___
 - 
 
 ### Races
-- 
+- Add "[lesser dragon](09-races.md#lesser-dragon-level-10-template--80-points)".
+- Add "[half-dragon](09-races.md#half-dragon-level-5-template--40-points)" templates.
+- Add "[dragonkind](09-races.md#dragonkin-level-1-template--8-points)" templates.
 
 ### Spells
 - Add "Summon Beast" as a low level spell.

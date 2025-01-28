@@ -23,12 +23,12 @@ Human represents the human race. The human race is the base. Humans have no spec
 - **Type**: Humanoid (needs to breathe, drink, eat, and sleep). Humans age.
 - **Proficiencies**: One appropriate language.
 
-Extra (8 points):
+**Extra (8 points):**
 - A +2 bonus to any stat, and +1 to two other stats.
 - +2 to any one skill. 
 - Any 2 proficiencies.
 
-Race boon: (6 points)
+**Race boon: (6 points)**
 - +2 bonus to any stat.
 - 4 skill points to spend on skills and proficiencies.
 
@@ -43,11 +43,11 @@ This is a race that is closer to the fey, either created when fey spirits took m
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Elves do not age. (1 point)
 - **Proficiencies**: One appropriate language and the Elvish tongues. Bows OR one class of instrument. (2 point)
 
-Extra:
+**Extra:**
 - +1 Observe (1 point)
 - Resistance to "Charmed" (1 point)
 
-Race boon: (6 points)
+**Race boon: (6 points)**
 - Immunity to one of "Charmed", "Blinded", "Stunned" or "Bleeding".
 - +5 to walking speed
 
@@ -62,10 +62,10 @@ This is a race that is closer to the feral side of humanoids. They are stronger 
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
 - **Proficiencies**: One appropriate language. Strikes AND Slings. (2 point)
 
-Extra:
+**Extra:**
 - Resistance to bludgeoning and advantage on saves vs "Prone". (2 points)
 
-Race boon: (6 points)
+**Race boon: (6 points)**
 - Resistance to one of "piercing", "slashing" or "pressure" or "shear".
 - +1 Con, +1 Str.
 
@@ -80,12 +80,12 @@ This represents those who have been touched by dark forces. Perhaps because of a
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
 - **Proficiencies**: One appropriate language.
 
-Extra:
+**Extra:**
 - Resistance to "poison" + "poisoned" (2 points).
 - Resistance to "Bleeding". (1 point)
 - Elemental touch (level 1) (2 points).
 
-Race boon: (6 points)
+**Race boon: (6 points)**
 - Resistance to one of "piercing", "bludgeoning", "slashing" or "pressure" or "shear", "fire" or "ice".
 - +1 Str, +1 Cha.
 - +1 Elemental touch.
@@ -101,11 +101,11 @@ This is a race of humanoid that has various beast like traits, usually cat-like,
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
 - **Proficiencies**: One appropriate language.
 
-Extra:
+**Extra:**
 - +1 Track. (1 Points)
 - +2 to Str or Dex. (2 Points)
 
-Race boon: (6 points)
+**Race boon: (6 points)**
 - +10 to a movement speed of one modality.
 - One of "keen hearing", "keen scent".
 
@@ -120,14 +120,14 @@ This is a race of intelligent beasts that dwells in the deepest wilderness. It i
 - **Type**: Monster (needs to breathe, drink, eat and sleep). Ages.
 - **Proficiencies**: One appropriate language.
 
-Penalties:
+**Penalties:**
 - Beasts of the Green have no prehensile limbs. (-3 points)
 
-Extra:
+**Extra:**
 - Incantation Magic (level 1). (2 point)
 - +2 Navigate.
 
-Race boon: (6 points)
+**Race boon: (6 points)**
 - +5 to movement speed.
 - +2 to one of "Str", "Dex", "Con" or "Wis"
 - 1 level of incantation magic.
@@ -143,12 +143,12 @@ The sea people a race of humanoids that live in and around the islands of the sh
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
 - **Proficiencies**: One appropriate language, Cetacean. (1 point)
 
-Extra:
+**Extra:**
 - Water breathing (2 points)
 - Resistance to "Cold" OR +2 Swim. (2 point)
 - Resistance to "Aphonia".
 
-Race boon: (6 points)
+**Race boon: (6 points)**
 - +5 to swim speed.
 - One of "life sense (1 level)" or "blind sight (1 level)".
 
@@ -163,11 +163,11 @@ This is a race of winged humanoids that live in high and isolated places, as wel
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
 - **Proficiencies**: One appropriate language.
 
-Extra:
+**Extra:**
 + 2 to Fly (2 point)
 + 1 to Observe (1 point)
 
-Race boon: (6 points)
+**Race boon: (6 points)**
 - +1 fly level.
 - +10 fly speed.
 
@@ -234,7 +234,7 @@ This is a template for humans in a game using level-5 templates. It gives some i
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
 - **Proficiencies**: Any 3 appropriate languages. (2 point)
 
-Extra (26 points):
+**Extra (26 points):**
 - A +2 bonus to any 3 stats. (6 points)
 - +2 to any 4 skill. (8 points) 
 - Any 2 proficiencies. (2 point)
@@ -255,7 +255,7 @@ This is a template for elves/fey-touched in a game using level-5 templates. It g
 - **Type**: Humanoid (needs to breathe, drink, eat). Elves do not age. (3 point)
 - **Proficiencies**: One appropriate language and the Elvish tongues. Bows OR one class of instrument. (1 point)
 
-Extra (21):
+**Extra (21):**
 - +2 Observe (2)
 - +1 Navigate (1)
 - +2 Arcana (2)
@@ -274,7 +274,7 @@ Some degenerates want enhanced cat girls for high power games.
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
 - **Proficiencies**: One appropriate language.
 
-Extra (20):
+**Extra (20):**
 - +2 Track, +2 Acrobatics, +2 Athletics. (6)
 - Immune "Surprised" (4)
 - Advantage on Dex saves (6)
@@ -297,10 +297,10 @@ Half dragons are born of the mixing of dragon and humanoid. They gain much from 
 - **Type**: Dragon (needs to eat, drink, breath, does not age). (1 points)
 - **Proficiencies**: draconic.
 
-Limitation (-2):
+**Limitation (-2):**
 - Marginally prehensile limbs (cannot use DEX based weapons or tools). -2
 
-Extra (17):
+**Extra (17):**
 + Immune: "Fear" (4).
 + Immune: One of "Fire" OR "Cold" (4).
 + Alternate form: Humanoid (4 points).
@@ -319,12 +319,12 @@ This represents a low-grade vampire. Its type is undead, but due to lack of poin
 - **Type**: Undead, partial (does not breathe, sleep or age) (8 point)
 - **Proficiencies**: One appropriate language.
 
-Weaknesses (-4)
+**Weaknesses (-4)**
 - Cannot enter home uninvited.
 - Cannot cross running water willingly.
 - Vulnerability to "divine" and "light" damage.
 
-Extra (24)
+**Extra (24)**
 - Resistant to "bludgeoning" + "prone", "piercing" + "bleeding", "slashing" + "crippled". (6)
 - Resistant to "poison", "disease". (2)
 - Immune to "unconscious", "frightened". (10)
@@ -348,10 +348,10 @@ This is a divine being created by gods to watch over some aspect of creation (Co
 - **Type**: Divine (does not need to eat, drink, breath, does not age). (12 points)
 - **Proficiencies**: One appropriate language.
 
-Restriction:
+**Restriction:**
 + A Watcher cannot lie (knowing communicate falsehood). (-2)
 
-Extra (42):
+**Extra (42):**
 + +2 Sense Motive, +1 Deception (3 points)
 + Alternate form: Humanoid (4 points)
 + Telepathy (6 points)
@@ -376,7 +376,7 @@ This represents a dragon at the lower end of the draconic scale of power. Its na
 - **Type**: Dragon (needs to eat, drink, breath, does not age). (1 points)
 - **Proficiencies**: draconic, proficiency "strike" + "grapple". (2)
 
-Extra (42):
+**Extra (42):**
 + Immune: "Fear" (4).
 + Immune: One of "Fire" OR "Cold" (4).
 + Alternate form: Humanoid (4 points).
@@ -387,7 +387,7 @@ Extra (42):
 + Natural Attack, Bite (1d10). (10).
 + Spellcasting:Water/Fire (level 1). (2)
 
-Race boon: (6 points)
+**Race boon: (6 points)**
 + Plus one to level of Spellcasting:Water/Fire OR +1 to Natural attack dice size (2).
 + Plus 10ft fly speed.
 + Plus 2 to any one stat.

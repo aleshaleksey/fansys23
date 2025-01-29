@@ -937,6 +937,8 @@ ___
 
 **Declaration**: Declare "swift spell" before casting the spell.
 
+**Limitation**: If the character casts a "swift spell" in the same turn as casting another spell, and both spells have an MP dice cost of 2 or higher, the character takes 2 points of HP damage.
+
 **Prerequisite**:
 - 6 MP dice total
 - The ability to cast spells.

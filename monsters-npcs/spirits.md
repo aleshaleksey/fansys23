@@ -52,7 +52,7 @@ ___
 |Skills (lvl3)|||Acrobatics +5, Perform +4|
 |Skills (lvl5)|||Acrobatics +8, Perform +7|
 |Special|||A flame sprite not in contact with its element loses its resistance/immunity to physical damage|
-|Ignition|||A flame sprite ignites flammable materials it contacts, making it extremely dangerous|
+|Ignition|Threshold=16/18||A flame sprite ignites flammable materials it contacts, making it extremely dangerous|
 |Illumination|||A flame sprite sheds light like a campfire, providing bright illumination within 20ft, and dim illumination within another 20ft. The light given off by a flame sprite can be seen up to 2 miles away on a clear night|
 |Damage resistance|||"Physical" (becomes immunity at lvl4 and above)|
 |Damage immunity|||"Fire"|

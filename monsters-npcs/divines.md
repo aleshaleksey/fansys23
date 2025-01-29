@@ -91,7 +91,7 @@ Deflection +4
 |Multi-attack I||||
 |Divine Strike|||Spears, 1d6|
 |Elemental Blast|+10|1d4+3 Light|Can upcast up to 7d4+3|
-|Elemental Blast||| Greater (Radial), up to 50ft radius|
+|Elemental Blast|Threshold=23 CON|| Greater (Radial), up to 50ft radius|
 |Foresight|||Add [Wis]/2 to your evasion modifier, on top of [Dex] and [size].|
 |Spellcasting: Incantation VI|Threshold=25||Favourites are: "down", "Least Ward", "Least Heal", "Lesser Veil", "Promise", "Cure", "Least Weather Control", "Pact", "Razor Wind"|
 |[Spellsong II](../06-abilities.md#spellsong-i-iv)||||
@@ -129,7 +129,7 @@ Deflection +6
 |-|-|-|-|-|-|-|
 |Stat|22|14|22|16|21|24|
 |Bonus|+6|+2|+6|+3|+5|+7|
-|Save|+4|+6|+6|+10|+11|+12|
+|Save|+4|+6|+6|+10|+11|+16|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
@@ -145,14 +145,14 @@ Deflection +6
 |Flash Step|||Moves 100ft as a bonus action (1SP)|
 |Divine Strike|||Heavy Blades, 3d6|
 |Elemental Blast|+14|1d4+5 Light|Can upcast up to 9d4+5|
-|Elemental Blast||| Greater (Radial), up to 70ft radius|
+|Elemental Blast|Threshold=27 CON|| Greater (Radial), up to 70ft radius|
 |Energy Affinity|||Light, Fire|
 |Foresight|||Add [Wis]/2 to your evasion modifier, on top of [Dex] and [size].|
 |Evasive||||
 |Counterstrike||||
 |Great-strike||||
-|Spellcasting: Incantation VI|Threshold=19||Favourites are: "down", "Least Ward", "Least Heal", "Lesser Veil", "Promise", "Cure", "Least Weather Control", "Pact", "Razor Wind"|
-|Spellcasting: Fire VII|Threshold=19||Favourites are: "enflame", "least vengeance", "meadow of flame", "melt", "command mortal", "revenant", "forest of flame"|
+|Spellcasting: Incantation VI|Threshold=25||Favourites are: "down", "Least Ward", "Least Heal", "Lesser Veil", "Promise", "Cure", "Least Weather Control", "Pact", "Razor Wind"|
+|Spellcasting: Fire VII|Threshold=27||Favourites are: "enflame", "least vengeance", "meadow of flame", "melt", "command mortal", "revenant", "forest of flame"|
 |[Spellsong III](../06-abilities.md#spellsong-i-iv)||||
 |Still Spell|||Spend 1 MP dice to cast a spell without kinetic components.|
 |Xenophonia|||All|

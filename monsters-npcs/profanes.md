@@ -52,7 +52,7 @@ Large(-1/+1)
 |Combined Manoeuvre I||||
 |Monster Attack I|||The corporeal horror makes one attack with its claws, and one with its bite|
 |Broad Strike|||Claws only|
-|Aura of Nausea|Threshold=19 CON save||All entities that start their turn within 15 feet must make a Threshold=19 CON save or be "incapacitated". An entity can repeat its save at the start of each of its turn. Upon succeeding, it is no longer "incapacitated", and cannot be, for 24 hours.|
+|Aura of Nausea|Threshold=17 CON||All entities that start their turn within 15 feet must make a Threshold=19 CON save or be "incapacitated". An entity can repeat its save at the start of each of its turn. Upon succeeding, it is no longer "incapacitated", and cannot be, for 24 hours.|
 |Scream|Threshold=15 CON save||As a secondary action, the horror can issue a pained shriek (1 SP dice). Any entity within 30ft that hears the shriek must make a Threshold=15 WIS save or become "frightened" of the horror. An entity can repeat its save at the start of each of its turn. Upon succeeding, it is no longer "frightened", and cannot be, for 24 hours.|
 |Vulnerability|||"divine", "light"|
 |Resistant|||"physical" damage except "slashing" and "pressure", "grappled", "restrained"|
@@ -93,7 +93,7 @@ Saves: Wis, Cha
 |["Berserk II"](../06-abilities.md#berserk-i-v)|||A corporeal horror can enter a berserk state, increasing its speed by 10ft, gaining +4 damage on its attacks|
 |Monster Attack I|||The corporeal horror makes one attack with its claws, and one with its bite|
 |Broad Strike|||Claws only|
-|Aura of Nausea|Threshold=22 CON save||All entities that start their turn within 30 feet must make a Threshold=19 CON save or be "incapacitated". An entity can repeat its save at the start of each of its turn. Upon succeeding, it is no longer "incapacitated", and cannot be, for 24 hours.|
+|Aura of Nausea|Threshold=21 CON save||All entities that start their turn within 30 feet must make a Threshold=19 CON save or be "incapacitated". An entity can repeat its save at the start of each of its turn. Upon succeeding, it is no longer "incapacitated", and cannot be, for 24 hours.|
 |Scream|Threshold=18 CON save||As a secondary action, the horror can issue a pained shriek (1 SP dice). Any entity within 60ft that hears the shriek must make a Threshold=15 WIS save or become "frightened" of the horror. An entity can repeat its save at the start of each of its turn. Upon succeeding, it is no longer "frightened", and cannot be, for 24 hours.|
 |Vulnerability|||"divine", "light"|
 |Resistant|||"physical" damage except "slashing" and "pressure", "grappled", "restrained"|
@@ -212,7 +212,7 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Shade's touch|+5|1d4+1|"Profane" damage. Entities touched must succeed a Threshold=18 WIS save or be "catatonic" until they are no longer in line of sight of the shade.|
-|Profane aura|||(Range = 30ft) A shade removes warmth and vital energies from within 30ft. The temperature within the aura drops by one category. All mortals entering or starting their turn in a shade's aura must succeed on a CON save (threshold=18) or have disadvantage on DEX based rolls and take 3 points of supernatural cold damage.|
+|Profane aura|Threshold=16 CON||(Range = 30ft) A shade removes warmth and vital energies from within 30ft. The temperature within the aura drops by one category. All mortals entering or starting their turn in a shade's aura must succeed on a CON save or have disadvantage on DEX based rolls and take 3 points of supernatural cold damage.|
 |Resistant|||"fire", "ice", "lightning" damage|
 |Vulnerability|||"divine", "light"|
 |Immune|||"physical" damage and all combat manoeuvres carried out without "spiritual" properties|
@@ -246,13 +246,13 @@ ___
 |-|-|-|-|
 |Shade's touch|+9|1d4+3|(main action) "Profane" damage. Entities touched must succeed a Threshold=18 WIS save or be "catatonic" until they are no longer in line of sight of the shade.|
 |Shade's gaze|Threshold=23|1d3|(secondary action, range 30ft, 2MP dice) A shade can look into the darker part's of a mortal's soul, draining 1d3 SP dice and the same number of MP dice. (Averting gaze makes one immune, but also makes you blind in respect to the shade)|
-|Profane aura|||(Range = 60ft) A shade removes warmth and vital energies from within 30ft. The temperature within the aura drops by one category. All mortals entering or starting their turn in a shade's aura must succeed on a CON save (threshold=18) or have disadvantage on DEX based rolls and take 3 points of supernatural cold damage.|
+|Profane aura|Threshold=19 CON||(Range = 60ft) A shade removes warmth and vital energies from within 30ft. The temperature within the aura drops by one category. All mortals entering or starting their turn in a shade's aura must succeed on a CON save or have disadvantage on DEX based rolls and take 3 points of supernatural cold damage.|
 |Resistant|||"fire", "ice", "lightning" damage from supernatural sources|
 |Vulnerability|||"divine", "light" from supernatural sources|
 |Immune|||"natural" damage (except "light") and all combat manoeuvres carried out without "spiritual" properties|
 |Immune||||All combat manoeuvres carried by corporeal entities without the "spiritual" property|
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
-|Spellcasting III|||"[Least Curse](../08-spell-list.md#least-curse)"|
+|Spellcasting III|Threshold=20||"[Least Curse](../08-spell-list.md#least-curse)"|
 |Senses|||"low-light vision", "life-sense" 120ft|
 |Horror of the Dark|||The shade has advantage on "stealth" in low-light and darkness. If exposed to direct sunlight, the shade dissipates until low-light conditions are restored|
 
@@ -268,9 +268,9 @@ ___
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|-|12|-|10|8|14|
-|Bonus|-|-1|-|0|-1|+2|
-|Save|-|0|-|+1|0|+3|
+|Stat|-|12|-|10|12|14|
+|Bonus|-|-1|-|0|+1|+2|
+|Save|-|0|-|+1|+2|+3|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
@@ -284,7 +284,7 @@ ___
 |Immune|||"physical" damage and all combat manoeuvres carried out without "spiritual" properties|
 |Immune||||All combat manoeuvres carried by corporeal entities without the "spiritual" property|
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
-|Spellcasting III|||"[Least Curse](../08-spell-list.md#least-curse)"|
+|Spellcasting III|Threshold=17||"[Least Curse](../08-spell-list.md#least-curse)"|
 |Senses|||"low-light vision", "life-sense" 60ft|
 |Horror of the Dark|||The shade has advantage on "stealth" in low-light and darkness. If exposed to direct sunlight, the shade dissipates until low-light conditions are restored|
 
@@ -374,21 +374,21 @@ Here the stat block for vaguely humanoid minor demons of levels 1-5 is presented
 |1|Claw|+4|1d4+2||
 |1|Grapple|+4|||
 |1|Bite|+2|1d8+2||
-|1|Howl|T=15||(1 SP) All entities that do not succeed a CON save within 30ft of a demon's shriek are deafened until they are treated with first aid (Threshold=15). This stops the condition for one hour, as per the ["healing" skill](../05-skills.md#heal). Any ability that heals HP (including a long rest) completely cures the effect.|
+|1|Howl|Threshold=15 CON||(1 SP) All entities that do not succeed a CON save within 30ft of a demon's shriek are deafened until they are treated with first aid (Threshold=15). This stops the condition for one hour, as per the ["healing" skill](../05-skills.md#heal). Any ability that heals HP (including a long rest) completely cures the effect.|
 ||||||
 |3|Skills|||"Fortify:+4", "Intimidate: +2", "Climb:+4"|
 |3|Claw|+5|1d4+2||
 |3|Bite|+3|1d8+2||
 |3|Grapple|+5|||
-|3|Howl|T=16||(1 SP) As per level I, but the Threshold=16|
-|3|Spellcasting: Kinetic I|T=15||Favourites are: "Deafen", "Silent", "Whispers" and "Enflame"|
+|3|Howl|Threshold=16 CON||(1 SP) As per level I, but the Threshold=16|
+|3|Spellcasting: Kinetic I|Threshold=15||Favourites are: "Deafen", "Silent", "Whispers" and "Enflame"|
 |3|Skills|||"Fortify:+6", "Intimidate: +3", "Climb:+6", "Spellcraft:0", "Religion:0"|
 ||||||
 |5|Claw|+5|1d4+2||
 |5|Bite|+3|1d8+2||
 |5|Grapple|+5|||
-|5|Howl|T=17||(1 SP) As per level 1, except the Threshold=17 AND it also causes bleeding.|
-|5|Spellcasting: Kinetic II|T=16||Favourites are: "Deafen", "Silent", "Whispers", "Call Ailment", "Least Transformation"|
+|5|Howl|Threshold=17||(1 SP) As per level 1, except the Threshold=17 AND it also causes bleeding.|
+|5|Spellcasting: Kinetic II|Threshold=16||Favourites are: "Deafen", "Silent", "Whispers", "Call Ailment", "Least Transformation"|
 |5|Skills|||"Fortify:+7", "Intimidate: +3", "Climb:+6", "Spellcraft:3", "Religion:3"|
 
 Minor demons take many forms. The ones described in this stat block resemble, on the material world, the most ugly and wretched of humanoids, although some are capable of supernatural disguise and flight. 
@@ -419,8 +419,8 @@ ___
 |-|-|-|-|
 |Claw|+5|1d4+3||
 |Grapple|+7||A target grappled by a succubus has disadvantage on saves vs its "charm" and "life drain"|
-|Charm|Threshold=23||As a full round action, a succubus can charm a humanoid. The humanoid is charmed for 24h, but gets a repeated save if it is subject to an attack from the succubus. If the humanoid is not attracted to the sex of the form that the succubus is currently in, it has advantage on the save.|
-|Life Drain (1MP dice)|Threshold=23|1d3 SP dice|The succubus' life drain drains 1d3 SP dice from the target's maximum. The actual SP dice is also reduced by that amount. Each time, the succubus gains 2 SP which can take it past its SP maximum. If the target has 0 SP dice, the attack affects HP instead.|
+|Charm|Threshold=23 WIS||As a full round action, a succubus can charm a humanoid. The humanoid is charmed for 24h, but gets a repeated save if it is subject to an attack from the succubus. If the humanoid is not attracted to the sex of the form that the succubus is currently in, it has advantage on the save.|
+|Life Drain (1MP dice)|Threshold=23 CHA|1d3 SP dice|The succubus' life drain drains 1d3 SP dice from the target's maximum. The actual SP dice is also reduced by that amount. Each time, the succubus gains 2 SP which can take it past its SP maximum. If the target has 0 SP dice, the attack affects HP instead.|
 |||||
 |Alternate Form|||A succubus has a true form, and a humanoid form. The humanoid form is generally attractive. It can shift between them as a secondary action. In its humanoid form the succubus loses its claw attack and replaces its movement modalities with those of the humanoid. Its stats, saves, and abilities are unaffected.|
 |||||

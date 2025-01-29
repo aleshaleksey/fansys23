@@ -677,7 +677,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Toxic cloud|(threshold=17)|(cost = 1SP dice)|"secondary action": Releases an airborne toxin that causes non-plant mortals that inhale it within 20ft to be "restrained" if it does not succeed a Con save at the start of its turn. The victim can repeat its save at the start of each turn. If it fails a second time, it is "immobilised", if it fails a third, it is "paralysed". A victim that fails 6 saves in a row is paralysed until it receives treatment.|
+|Toxic cloud|Threshold=15 vs CON|(cost = 1SP dice)|"secondary action": Releases an airborne toxin that causes non-plant mortals that inhale it within 20ft to be "restrained" if it does not succeed a Con save at the start of its turn. The victim can repeat its save at the start of each turn. If it fails a second time, it is "immobilised", if it fails a third, it is "paralysed". A victim that fails 6 saves in a row is paralysed until it receives treatment.|
 |Bite|+5|1d12+2 piercing + 1d6 poison|reach = 15ft, the flytrap makes a grapple with its bite on a hit without expending an SP dice|
 |Alert|||A flytrap cannot be surprised|
 |Resistance|||"prone"|

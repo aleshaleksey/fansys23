@@ -233,7 +233,7 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Bite|+8|4d8+4|Piercing, shear|
-|Great shout|Threshold=23||"secondary action", or stunned until the end of the head's next turn|
+|Great shout|Threshold=20 CHA||"secondary action", or stunned until the end of the head's next turn|
 |Resistant|||"fear", "charm", "catatonic", "stun"|
 |Senses|||"Keen senses", "low light vision"|
 |Skills|||+5 to any 2, +4 to any two (usually knowledge arcana, track, nature)|
@@ -300,7 +300,7 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Piercing Limb|+20|3d12+9|Piercing, shear|
-|Noxious aura|DC26:Con|2d8 Poison[natural]|"main action", 2SP. Every round the aura is active it increases in radius by 20 feet beyond the mudwalker's space to a maximum of 60ft. The poison hangs in the air for 10 minutes in the area where it was active. [Severe](../03-movement-exploration.md#travel-and-getting-lost), or worse, blows away the aura upwind fom the mudwalker.|
+|Noxious aura|Threshold=22 Con|2d8 Poison[natural]|"main action", 2SP. Every round the aura is active it increases in radius by 20 feet beyond the mudwalker's space to a maximum of 60ft. The poison hangs in the air for 10 minutes in the area where it was active. [Severe](../03-movement-exploration.md#travel-and-getting-lost), or worse, blows away the aura upwind fom the mudwalker.|
 |"Monster Attack III"|||Makes 4 "Piercing Limb" attacks per round|
 |Resistant|||"charm", "catatonic", "stun", "piercing"|
 |Senses|||"Tremor Sense IV" 60ft, "Blind sight" 5ft (otherwise blind)|
@@ -337,8 +337,8 @@ Deflection: +2
 |Monster Attack VII|||See below|
 |Throw/Grapple|+23|2d8+12|Range 120ft/20ft, can throw objects/entities weighting up to 3000lb. If the weight is less than 1000lb, the range, but not increment is doubled|
 |Special Grapple|+23||Once an entity weighing less than 3000lb is grappled by the kraken it can use it with a throw attack.|
-|Sonic Blast(Linear)|+13|2d6+4|(Range=240ft, aqueous only), +1d6 per SP dice.|
-|Elemental Touch: Lightning|+13|10d4+2|+2d4 per Mp dice.|
+|Sonic Blast(Linear)|+14|2d6+4|(Range=240ft, aqueous only), +1d6 per SP dice.|
+|Elemental Touch: Lightning|+14|10d4+2|+2d4 per Mp dice.|
 
 A kraken makes 8 attacks with its tentacles. It can attack targets smaller than itself with no more than 4 tentacles. If the target is "medium" or smaller, it can only attack it with 2 tentacles at a time.
 
@@ -428,8 +428,8 @@ ___
 |Offensive Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Grapple, Restrain, Throw, Sunder|+17|||
-|Elemental Blast (fire)|+17|4d6 + 2d6/dice||
-|Elemental Blast, Greater (fire)|Threshold=30|4d6 + 2d6/MP dice|(Linear)|
+|Elemental Blast (fire)|+11|4d6 + 2d6/dice||
+|Elemental Blast, Greater (fire)|Threshold=24|4d6 + 2d6/MP dice|(Linear)|
 - A dragon's elemental blast counts as natural damage.
 - A dragon's elemental blast deals 2d6 damage for every extra MP/SP die added and has a base damage of 4d6. The attack/threshold is constitution based (breath weapon).
 - A dragon may use MP or SP dice (up to 10) to fuel its elemental blast.
@@ -454,9 +454,9 @@ ___
 |Elemental Affinity: Fire||||
 |Draconic Spell|||A dragon may use 2 MP dice to cast a spell of 5 MP dice or less as a secondary action.|
 |Alternate form|||The dragon has a humanoid, animal and true form. It may shift between them as a "main action". Each form is constant (always the same animal, always the same humanoid, always the same dragon)|
-|Spellcasting: Fire VIII|||Favourite: "Forest of Flame", "Greater Cosmic Seal", "Meteoric Flight", "Flame Stride", "Balance of Elements"|
-|Spellcasting: Incantation V|||Favourites: "Pact", "Isolate Essence", "Least Weather Control","Cure", "Trace Secret Path"|
-|Spellcasting: Air III|||Favourites: "Lesser Veil", "Guidance of the Winds"|
+|Spellcasting: Fire VIII|Threshold=26||Favourite: "Forest of Flame", "Greater Cosmic Seal", "Meteoric Flight", "Flame Stride", "Balance of Elements"|
+|Spellcasting: Incantation V|Threshold=27||Favourites: "Pact", "Isolate Essence", "Least Weather Control","Cure", "Trace Secret Path"|
+|Spellcasting: Air III|Threshold=26||Favourites: "Lesser Veil", "Guidance of the Winds"|
 |Spellcasting: Global||||
 |Skills|||Fortify + 20, Athletics +20, Fly +18, Observe +16, Track +16, Appraise +16, Spellcraft + 16, Sense Motive +16, K:Arcana +16, K:History +16, K:Geography +16|
 |Skills|||All others: [Stat bonus]+1|
@@ -510,8 +510,8 @@ ___
 |Offensive Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Grapple, Restrain, Throw, Sunder|+13|||
-|Elemental Blast (fire)|+17|4d6 + 2d6/dice||
-|Elemental Blast, Greater (fire)|Threshold=30|4d6 + 2d6/MP dice|(Linear)|
+|Elemental Blast (fire)|+10|4d6 + 2d6/dice||
+|Elemental Blast, Greater (fire)|Threshold=23|4d6 + 2d6/MP dice|(Linear)|
 - A lesser dragon's elemental blast counts as natural damage.
 - A lesser dragon's elemental blast deals 2d6 damage for every extra MP/SP die added and has a base damage of 3d6. The attack/threshold is constitution based (breath weapon).
 - A dragon may use MP or SP dice (up to 10) to fuel its elemental blast.
@@ -536,9 +536,9 @@ ___
 |Elemental Affinity: Fire||||
 |Draconic Spell|||A dragon may use 2 MP dice to cast a spell of 5 MP dice or less as a secondary action.|
 |Alternate form|||The dragon has a humanoid, animal and true form. It may shift between them as a "main action". Each form is constant (always the same animal, always the same humanoid, always the same dragon)|
-|Spellcasting: Fire VI|||Favourite: "Forest of Flame", "Flame Stride", "Balance of Elements"|
-|Spellcasting: Incantation IV|||Favourites: "Least Weather Control","Cure", "Trace Secret Path"|
-|Spellcasting: Air III|||Favourites: "Lesser Veil", "Guidance of the Winds"|
+|Spellcasting: Fire VI|Threshold=24||Favourite: "Forest of Flame", "Flame Stride", "Balance of Elements"|
+|Spellcasting: Incantation IV|Threshold=22||Favourites: "Least Weather Control","Cure", "Trace Secret Path"|
+|Spellcasting: Air III|Threshold=24||Favourites: "Lesser Veil", "Guidance of the Winds"|
 |Spellcasting: Global||||
 |Skills|||Fortify +16, Athletics +16, Fly +17, Observe +13, Track +13, Appraise +13, Spellcraft +13, Sense Motive +13, K:Arcana +13, K:History +13, K:Geography +13|
 |Skills|||All others: [Stat bonus]+1|
@@ -582,8 +582,8 @@ ___
 |Offensive Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Grapple, Restrain, Throw, Sunder|+16|||
-|Elemental Blast (ice)|+17|4d6 + 2d6/dice||
-|Elemental Blast, Greater (ice)|Threshold=30|4d6 + 2d6/MP dice|(Linear)|
+|Elemental Blast (ice)|+12|4d6 + 2d6/dice||
+|Elemental Blast, Greater (ice)|Threshold=25|4d6 + 2d6/MP dice|(Linear)|
 - A dragon's elemental blast counts as natural damage.
 - A dragon's elemental blast deals 2d6 damage for every extra MP/SP die added and has a base damage of 4d6. The attack/threshold is constitution based (breath weapon).
 - A dragon may use MP or SP dice (up to 10) to fuel its elemental blast.
@@ -656,8 +656,8 @@ ___
 |Offensive Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Grapple, Restrain, Throw, Sunder|+14|||
-|Elemental Blast (ice)|+17|3d6 + 2d6/dice||
-|Elemental Blast, Greater (ice)|Threshold=27|3d6 + 2d6/MP dice|(Linear)|
+|Elemental Blast (ice)|+10|3d6 + 2d6/dice||
+|Elemental Blast, Greater (ice)|Threshold=23|3d6 + 2d6/MP dice|(Linear)|
 - A lesser dragon's elemental blast counts as natural damage.
 - A lesser dragon's elemental blast deals 2d6 damage for every extra MP/SP die added and has a base damage of 3d6. The attack/threshold is constitution based (breath weapon).
 - A lesser dragon may use MP or SP dice (up to 7) to fuel its elemental blast.
@@ -681,8 +681,8 @@ ___
 |Elemental Affinity: Ice||||
 |Draconic Spell|||A dragon may use 2 MP dice to cast a spell of 5 MP dice or less as a secondary action.|
 |Alternate form|||The dragon has a humanoid, animal and true form. It may shift between them as a "main action". Each form is constant (always the same animal, always the same humanoid, always the same dragon)|
-|Spellcasting: Water V|||Favourite: "lesser cosmic seal", "aqueous step", "false aura", "mirage", "scry", "winter's touch"|
-|Spellcasting: Air V|||Favourites: "greater fade", "least storm", "see spell", slumber", "silence", "Trace Secret Path"|
+|Spellcasting: Water V|Threshold=24||Favourite: "lesser cosmic seal", "aqueous step", "false aura", "mirage", "scry", "winter's touch"|
+|Spellcasting: Air V|Threshold=24||Favourites: "greater fade", "least storm", "see spell", slumber", "silence", "Trace Secret Path"|
 |Spellcasting: Global||||
 |Skills|||Fortify +17, Athletics +17, Fly +14, Observe +14, Track +14, Appraise +12, Spellcraft + 12, Sense Motive +14, K:Arcana +12, K:History +12, K:Geography +12|
 |Skills|||All others: [Stat bonus]+1|
@@ -741,8 +741,8 @@ ___
 |Elemental Affinity: Earth||||
 |Draconic Spell|||A dragon may use 2 MP dice to cast a spell of 5 MP dice or less as a secondary action.|
 |Alternate form|||The earthbound dragon has an animal and true form. Unlike other dragons it does not have a humanoid form. It may shift between them as a "main action". Each form is constant (always the same animal, always the same humanoid, always the same dragon)|
-|Spellcasting: Earth IX|||Favourites: "Greater Cosmic Seal", "Greater Domain", "Portal", "Create Secret Path", "False Regrowth", "see spell", slumber", "silence", "Trace Secret Path", "Revenant", "Lesser Cosmic Seal", "Healing Seed", "Balance of Elements", "Animate Golem", "Enchanted Ground", "Guidance of the Earth", "Earth Ward", "Slumber", "Dusk", "Summon Gnome", "Gnomes' Mercy", "Shape Earth", "Sour"|
-|Spellcasting: Nature IV|||Favourites: "Rejuvenate Land" "Growth", "Animate Plant", "Cure", "Harvest", "Call Ailment", "Ensnare", "
+|Spellcasting: Earth IX|Threshold=26||Favourites: "Greater Cosmic Seal", "Greater Domain", "Portal", "Create Secret Path", "False Regrowth", "see spell", slumber", "silence", "Trace Secret Path", "Revenant", "Lesser Cosmic Seal", "Healing Seed", "Balance of Elements", "Animate Golem", "Enchanted Ground", "Guidance of the Earth", "Earth Ward", "Slumber", "Dusk", "Summon Gnome", "Gnomes' Mercy", "Shape Earth", "Sour"|
+|Spellcasting: Nature IV|Threshold=26||Favourites: "Rejuvenate Land" "Growth", "Animate Plant", "Cure", "Harvest", "Call Ailment", "Ensnare", "
 Least Heal"|
 |Spellcasting: Global||||
 |Skills|||Fortify + 22, Athletics +22, Observe +18, Track +18, Appraise +16, Spellcraft + 16, Sense Motive +18, K:Arcana +16, K:History +16, K:Geography +16|
@@ -816,8 +816,8 @@ ___
 |Elemental Affinity: Earth||||
 |Draconic Spell|||A dragon may use 2 MP dice to cast a spell of 5 MP dice or less as a secondary action.|
 |Alternate form|||The earthbound dragon has an animal and true form. Unlike other dragons it does not have a humanoid form. It may shift between them as a "main action". Each form is constant (always the same animal, always the same humanoid, always the same dragon)|
-|Spellcasting: Earth VII|||Favourites: "Portal", "Create Secret Path", "False Regrowth", "see spell", slumber", "silence", "Trace Secret Path", "Revenant", "Lesser Cosmic Seal", "Healing Seed", "Balance of Elements", "Animate Golem", "Enchanted Ground", "Guidance of the Earth", "Earth Ward", "Slumber", "Dusk", "Summon Gnome", "Gnomes' Mercy", "Shape Earth", "Sour"|
-|Spellcasting: Nature III|||Favourites: "Growth", "Animate Plant", "Cure", "Harvest", "Call Ailment", "Ensnare", "
+|Spellcasting: Earth VII|Threshold=23||Favourites: "Portal", "Create Secret Path", "False Regrowth", "see spell", slumber", "silence", "Trace Secret Path", "Revenant", "Lesser Cosmic Seal", "Healing Seed", "Balance of Elements", "Animate Golem", "Enchanted Ground", "Guidance of the Earth", "Earth Ward", "Slumber", "Dusk", "Summon Gnome", "Gnomes' Mercy", "Shape Earth", "Sour"|
+|Spellcasting: Nature III|Threshold=23||Favourites: "Growth", "Animate Plant", "Cure", "Harvest", "Call Ailment", "Ensnare", "
 Least Heal"|
 |Spellcasting: Global||||
 |Skills|||Fortify + 17, Athletics +17, Observe +14, Track +14, Appraise +13, Spellcraft + 12, Sense Motive +13, K:Arcana +11, K:History +11, K:Geography +11|

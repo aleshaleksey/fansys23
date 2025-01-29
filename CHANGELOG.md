@@ -221,6 +221,7 @@ ___
 - Change shield terminology from small/large to light/heavy.
 - Also, if one 12 is rolled, an extra damage dice is rolled for the attack. If D12 is rolled, the number of damage dice is doubled.
 - Use D12, snake eyes as terminology instead of critical hit or miss.
+- Rework monster intrinsic abilities (now use 13+[stat]+[base])
 - 
 
 ### Combat

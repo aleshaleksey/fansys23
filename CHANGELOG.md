@@ -227,6 +227,7 @@ ___
 - Upgrade maces 1d6->1d8, increase its durability.
 - Add flails
 - Add Ballistae as weapons
+- Initiative is now [DEX] or [INT] (experimental)
 - 
 
 ### Races

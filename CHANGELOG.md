@@ -252,3 +252,27 @@ ___
 - Added "[swift spell](06-abilities.md#swift-spell)"
 - 
 - 
+
+___
+## From v0.0.10
+
+### General
+- 
+- 
+
+### Combat
+- 
+- 
+
+### Races
+- 
+- 
+
+### Spells
+- Add [Summon Elemental](#summon-elemental) spell
+- Amend the other summon spells so that the summon appears at the start of next round.
+- 
+
+### Abilities
+- 
+- 

@@ -141,6 +141,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Otherworld Step](#otherworld-step)
 - [Razor Wind](#razor-wind)
 - [Summon Angel](#summon-angel)
+- [Summon Elemental](#summon-elemental)
 
 ### MP 7
 - [Create Secret Path](#create-secret-path)
@@ -848,7 +849,9 @@ ___
 
 **Description**: Summons a [level I beast](monsters-npcs/beasts-and-plants.md#animals) to faithfully serve and fight for you. The beast understands simple gesticulated commands and carries them out to the best of its ability. When the spell ends, the animal, or its remains are returned to its origin.
 
-**Special**: You can only have one summon at any one time.
+**Special**:
+- You can only have one summon at any one time.
+- The summon appears at the start of the caster's *next* turn.
 
 **Limitation**: You cannot summon a beast into an environment where it cannot breath or more (eg, you cannot summon a horse into mid-air, or a fish onto land).
 
@@ -1282,7 +1285,9 @@ ___
 
 **Description**: Summons a [level I flame sprite](monsters-npcs/spirits.md#flame-sprite) to faithfully serve and fight for you. The sprite communicates with its summoner and other fire spirits and is intelligent enough to understand gestures of other mortal entities. The sprite appears at the end of the caster's turn and may act *next round*  on the caster's initiative, before or after the caster's turn. It is not surprised when it appears, and may use reactions.
 
-**Special**: You can only have one summon at any one time.
+**Special**:
+- You can only have one summon at any one time.
+- The summon appears at the start of the caster's *next* turn.
 
 **Limitation**: The summoned sprite must keep hold of the offering it was given. If it does not, it must end its turn in contact with flammable material. If at least one of these conditions is not upheld, then the spell ends at the end of the sprite's turn and it returns to whence it came.
 
@@ -1312,7 +1317,9 @@ ___
 
 **Description**: Summons a [level I earth gnome](monsters-npcs/spirits.md#gnome) to faithfully serve and fight for you. The gnome communicates with its summoner and other earth spirits and is intelligent enough to understand gestures of other mortal entities.
 
-**Special**: You can only have one summon at any one time.
+**Special**:
+- You can only have one summon at any one time.
+- The summon appears at the start of the caster's *next* turn.
 
 **Limitation**: The gnome is "earthbound". It cannot leave, or be detached from, the ground. However, this comes at a cost. In an event where the gnome would otherwise lose contact with the ground (if not for being earthbound), it takes 1 point of ["divine"](10-conditions-types.md#esoteric-damage) damage instead.
 
@@ -1331,14 +1338,16 @@ ___
 |Range|30ft (30ft)|+1
 |Duration|12 min (1 day+)|+3
 |Components|incantation, kinetic|-1
-|Material||
+|Material|A sprinkle of bluestone.|
 |Limitation|The water sprite must end its turn in a body of water, wet ground or in rain or mist|-2
 |Concentration|local|
 |Save|-|
 
 **Description**: Summons a [level I water sprite](monsters-npcs/spirits.md#water-sprite) to faithfully serve and fight for you. The sprite communicates with its summoner and other water spirits and is intelligent enough to understand gestures of other mortal entities.
 
-**Special**: You can only have one summon at any one time.
+**Special**:
+- You can only have one summon at any one time.
+- The summon appears at the start of the caster's *next* turn.
 
 **Limitation**: If a water sprite does not end its turn in contact with a body of water, wet ground, rain, mist or other source of water it returns to whence it came and the spell ends.
 
@@ -1364,7 +1373,9 @@ ___
 
 **Description**: Summons a [level I wind sprite](monsters-npcs/spirits.md#wind-sprite) to faithfully serve and fight for you. The sprite communicates with its summoner and other water spirits and is intelligent enough to understand gestures of other mortal entities.
 
-**Special**: You can only have one summon at any one time.
+**Special**:
+- You can only have one summon at any one time.
+- The summon appears at the start of the caster's *next* turn.
 
 **Limitation**: The Sprite can only be summoned in an area that is not obstructed by either liquid or solid media, weather (and other) effects such as sandstorms and rain do not count towards this limitation. In case of an attempt to summon a wind sprite in forbidden terrain, the spell ends with "catastrophic failure".
 
@@ -1505,7 +1516,8 @@ ___
 **Special**:
 - After 60 minutes the undead is not destroys, but persists, becoming hostile to its creator.
 - There is no limit to the number of undead a caster can control, however legions of dead seldom end well.
-- The type of undead being animated depends on the condition of the corpse(s). A corpse with flesh will become a zombie, a corpse without flesh will become a skeleton. A corpse with flesh but no bones becomes a crawling thing.
+- The type of undead being animated depends on the condition of the corpse(s). A corpse with flesh will become a zombie, a corpse without flesh will become a skeleton. A corpse with flesh but no bones becomes a crawling thing..
+- The undead animates at the start of the caster's *next* turn.
 
 **Upcast**: For every MP dice added above 3 (4MP dice for global), the caster may either animate an extra corpse as a level I undead, assert control over an extra 4 undead, or increase the level of the created or controlled undead by I.
 
@@ -2570,13 +2582,14 @@ ___
 
 **Special**:
 - You can only have one summon at a time.
+- The summon appears at the start of the caster's *next* turn.
 - Optional if using alignment rules: A character that uses this spell gains the "spiritual" alignment. Likewise a character that is unwilling to gain the "spiritual" alignment will fail to cast this spell.
 
 **Limitation**; A spirit summoned by this means cannot enter or leave areas affected by ["warded ground"](#warded-ground) or ["enchanted ground"](#enchanted-ground), or territory protected by similar means. Nor can it cross the border of the material/spiritual realm until the spell is over.
 
 **Upcast**: For every MP dice added above 4 (4MP for global), the spirit gains two levels.
 
-**Global**: The spirit is bound for 1 day for every 4MP dice used summon it (minimum of 8), it *also* gains two levels for every 4 MP dice added. For every day of the contract, the material component must be paid anew.
+**Global**: The spirit is bound for 1 day for every 4MP dice used summon it (minimum of 2 days), it *also* gains two levels for every 4 MP dice added. For every day of the contract, the material component must be paid anew.
 
 ___
 ## MP 5 Spells
@@ -2928,7 +2941,9 @@ ___
 
 **Description**: Summons a fiend of 7th level or lower, that will faithfully serve, or fight for the caster. The caster and fiend are able to communicate through this spell (this is moot as fiends can generally understand the thoughts of humanoids). 
 
-**Special**: You can only have one summon at any one time.
+**Special**:
+- You can only have one summon at any one time.
+- The summon appears at the start of the caster's *next* turn.
 
 **Limitation**: A fiend will not be willingly summoned by an entity aligned to the "divine". In this case a caster makes a contested Cha roll vs the fiend. If the fiend wins, it can chose to refuse the summons or to accept it, although in this case it is in no way under the caster's control and is likely to attack it.
 
@@ -3248,7 +3263,9 @@ ___
 
 **Description**: Summons an [angel](10-conditions-types.md#divine) of 8th level or lower, that will faithfully serve, or fight for the caster. The caster and angel are able to communicate (angels understand all languages anyway). 
 
-**Special**: You can only have one summon at any one time.
+**Special**:
+- You can only have one summon at any one time.
+- The summon appears at the start of the caster's *next* turn.
 
 **Limitation**: An angel cannot be summoned by one who its god does not approve of, and nor by one who acts/stands against the concept it personifies. In this case, the god may decide to send the angel at a time of its choosing anyway, but with the purpose of punishing/opposing the caster who attempted to summon it. In this case, a divine mark of the god appears on the hand or face of the caster, and a threshold=20 ["Knowledge: Religion"](05-skills.md#knowledge) roll is able to identify it as such.
 
@@ -3258,6 +3275,40 @@ ___
 1. Like the "local" casting of the spell, but it lasts for a 1 week.
 2. An angel can be summoned to bear witness to an oath or an event. Since angels are eternal and do not lie, an event that took place under the watch of an angel is considered beyond doubt.
 3. An angel can be called to become the "guardian angel" of a mortal who aligns with a concept or what a god stands for. The angel leaves a divine mark upon said mortal (recognisable with a threshold=24 "Knowledge: Religion" roll) and returns to its realm. The next three times that an attack or other event (other than HP loss caused by the ["dying" or "doomed"](10-conditions-types.md#conditions-in-detail) conditions) would outright kill the "guarded" mortal, it instead reduces their HP to 1.
+
+___
+### Summon Elemental
+|Name|Summon Elemental [Air, Earth, Fire, Water]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|6 (24)|
+|Target(s)||
+|Casting time|"full round action" (6 hours + 1h per 4MP)|-2
+|Range|15ft|+1
+|Duration|12 min (3 days)|+3
+|Components|incantation, kinetic|-1
+|Material|Special (see below)|
+|Limitation|Special (see below)|-4
+|Save|CHA|
+
+**Description**: Summon a level VIII "elemental" of an element corresponding to the element to faithfully serve and fight for you.  The spirit can communicate with its summoner and other entities it would normally be able to communicate with. Elementals are often intelligent enough to understand the gestures and movements of mortals, but not seldom understand their emotions and intentions.
+
+**Limitation**:
+- The elemental summoned corresponds to the spellcasting type, thus if the spell is cast with "Spellcasting: Elemental(Fire)", the elemental will be of type "fire".
+- If the caster is aligned to the element opposite to the element of the elemental, it makes a CHA save vs the caster. On success it breaks free of the caster's control and becomes hostile to the caster and their allies.
+
+**Special**:
+- The material component for the spell is as follows:
+  - Air: A handful of poplar fluff.
+  - Earth: An offering of fine alcohol or 1HP worth of blood.
+  - Fire: A saucer of lamp oil or a lump of coal.
+  - Water: A sprinkle of bluestone.
+- You can only have one summon at any one time.
+- The summon appears at the start of the caster's *next* turn.
+
+**Upcast**: For every MP dice added above 6, the elemental gains two levels.
+
+**Global**: The elemental is bound for 1 day for every 8MP dice used summon it (minimum of 3 days), it *also* ga
 
 ___
 ## MP 7 spells
@@ -4131,28 +4182,32 @@ ___
 ### MP 6
 
 - Nature
-    - [Fairy Feast](#fairy-feast) [6]
+    - [Fairy Feast](#fairy-feast)
+    - [Summon Elemental](#summon-elemental)
     - []()
 - Air
-    - [Razor Wind](#razor-wind) [6]
+    - [Razor Wind](#razor-wind)
+    - [Summon Elemental](#summon-elemental)
     - []()
 - Earth
-    - [False Regrowth](#false-regrowth) [6]
+    - [False Regrowth](#false-regrowth)
+    - [Summon Elemental](#summon-elemental)
     - []()
 - Fire
-    - [Forest of Flame](#forest-of-flame) [6]
-    - [Greater Fire Ward](#greater-fire-ward) [6]
+    - [Forest of Flame](#forest-of-flame)
+    - [Greater Fire Ward](#greater-fire-ward)
+    - [Summon Elemental](#summon-elemental)
     - []()
 - Water
-    - [False Regrowth](#false-regrowth) [6]
-    - [Inner Voice](#inner-voice) [6]
+    - [False Regrowth](#false-regrowth)
+    - [Inner Voice](#inner-voice)
     - []()
 - Incantation
-    - [Fairy Feast](#fairy-feast) [6]
-    - [Razor Wind](#razor-wind) [6]
+    - [Fairy Feast](#fairy-feast)
+    - [Razor Wind](#razor-wind)
     - []()
 - Kinetic
-    - [Inner Voice](#inner-voice) [6]
+    - [Inner Voice](#inner-voice)
     - []()
     - []()
 
@@ -4264,6 +4319,7 @@ ___
 **Special**:
 
 **Upcast**:
+ins two levels for every 4 MP dice added. For every day of the contract, the material component must be paid anew.
 
 
 

@@ -134,7 +134,6 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Fairy Feast](#fairy-feast)
 - [Forest of Flame](#forest-of-flame)
 - [Greater Earth Ward](#greater-earth-ward)
-- [Greater Fire Ward](#greater-fire-ward)
 - [Greater Storm Ward](#greater-storm-ward)
 - [Great Water Ward](#great-water-ward)
 - [Inner Voice](#inner-voice)

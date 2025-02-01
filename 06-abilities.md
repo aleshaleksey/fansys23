@@ -973,6 +973,30 @@ ___
 **Limitation**: 
 - The spell cannot have a descriptor opposite to the "spellcasting type" used to obtain it.
 - Many of these spells may cause a shift in character alignment or have negative mechanistic or narrative consequences. Usually these spells have the "profane" or "spirit" descriptors. This should be kept in mind.
+- The spell cannot have a minimum MP dice cost of 8 or higher. For those, ["High Arcana](#high-arcana)" is used.
+
+___
+#### High Arcana
+
+**Type**: Supernatural (S)
+
+**Description**: Learn 1 spell with a minimum local casting cost of 8 or higher for which you meet the prerequisites.
+
+**Original State**: A character with spellcasting VII can only learn spells of a minimum MP dice cost of 7 or lower.
+
+**Action**: None. The spells are chosen on levelling up, when the ability is chosen.
+
+**Prerequisite**:
+- The character must have "[Spellcasting: Local VII](#spellcasting-local) of the appropriate category" or ("[Spellcasting: Global VII](#spellcasting-global)" AND "Spellcasting: Local I" of the appropriate category)
+- Their [character level / 2] (rounded up) is equal to, or higher than, the minimum MP dice cost of the spell. So for "Realm of Flame" (cost 10), the minimum level is 19. For "[Greater Domain](08-spell-list.md#greater-domain)" (cost 8), the minimum level is 15. See the table below.
+- A character must know at least one spell of the previous MP dice cost level. So to learn "Greater Domain" (cost 8), a character must know at least one spell of a minimum MP dice cost of 7.
+- Spells of minimum dice cost of 8-10 are generally learned with the "[High Arcana](#high-arcana)" ability.
+
+|Minimum MP dice casting cost|Level Prerequisite|
+|-|-|
+|8|15|
+|9|17|
+|10|19|
 
 ___
 #### Spellcasting: Local
@@ -992,6 +1016,12 @@ There are several forms of spellcasting in this category, but they all have simi
 - Each type of local magic also covers some global spells. As long a character has "Spellcasting: Global I" and the requisite level of local spellcasting of the type, they can cast global spells of that type and level.
 - In order to get the next level of a type of local magic, a character must have the previous one. So if a character wishes to learn "Spellcasting: Nature III", they must have "Spellcasting: Nature II", which requires having "Spellcasting: Nature I".
 - A spellcaster can never channel more than 1/3 of their MP dice total into a single "local" spell.
+- A spellcaster can never cast a spell with a minimum local (or local equivalent) MP dice cost higher than half of their level rounded up. So a level 13 character cannot cast a spell with a minimum MP dice cost of 8, 9, or 10.
+- Spells with a minimum local casting cost of more than 7 MP dice exist. A character can learn and cast these spells, if:
+  - They have Spellcasting: Local VII of the appropriate category (eg Spellcasting: Local (Elemental: Fire) for "[Realm of Flame](08-spell-list.md#realm-of-flame)").
+  - Their [character level / 2] (rounded up) is equal to, or higher than, the minimum MP dice cost of the spell. So for "Realm of Flame" (cost 10), the minimum level is 19. For "[Greater Domain](08-spell-list.md#greater-domain)" (cost 8), the minimum level is 15. See the "Minimum levels for higher level spells" table below.
+  - A character must know at least one spell of the previous MP dice cost level. So to learn "Greater Domain" (cost 8), a character must know at least one spell of a minimum MP dice cost of 7.
+  - Spells of minimum dice cost of 8-10 are generally learned with the "[High Arcana](#high-arcana)" ability.
 
 **Local Spellcasting table**:
 
@@ -1003,10 +1033,15 @@ There are several forms of spellcasting in this category, but they all have simi
 |IV|4|12|7|
 |V|5|16|9|
 |VI|6|20|11|
-|VII|7|24|13|
-|VIII|8|28|15|
-|IX|9|32|17|
-|X|10|36|19|
+|VII|7+|24|13|
+
+**Minimum levels for higher level spells**:
+
+|Minimum MP dice casting cost|Level Prerequisite|
+|-|-|
+|8|15|
+|9|17|
+|10|19|
 
 ___
 #### Spellcasting: Global
@@ -1020,6 +1055,8 @@ So for example, to cast global 7th level Nature magic, a character must have eit
 
 **Casting time and cost**: Global spells take at least an hour to cast, but more often the casting time is measured in days or weeks. Thus the MP dice cost is measured in "dice per day".
 
+**Special**: For spells of MP dice cost 8 and above, the same rules as for higher local spells apply. The only change is that the minimum level for using these spells is calculated as [Global casting MP dice cost / 2].
+
 **Global Spellcasting table**:
 
 |Ability level|MP dice casting cost per day of casting|MP dice prerequisite|Level Prerequisite|
@@ -1031,9 +1068,6 @@ So for example, to cast global 7th level Nature magic, a character must have eit
 |V|15|16|9|
 |VI|18|20|11|
 |VII|21|24|13|
-|VIII|24|28|15|
-|IX|27|32|17|
-|X|30|36|19|
 
 ___
 ## Boons

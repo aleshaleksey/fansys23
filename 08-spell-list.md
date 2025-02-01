@@ -133,7 +133,10 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 ### MP 6
 - [Fairy Feast](#fairy-feast)
 - [Forest of Flame](#forest-of-flame)
+- [Greater Earth Ward](#greater-earth-ward)
 - [Greater Fire Ward](#greater-fire-ward)
+- [Greater Storm Ward](#greater-storm-ward)
+- [Great Water Ward](#great-water-ward)
 - [Inner Voice](#inner-voice)
 - [Legion of Dead](#legion-of-dead)
 - [False Regrowth](#false-regrowth)
@@ -1638,7 +1641,7 @@ ___
 |Material|A brass bowl filled with earth, the bowl crumbles when the spell is cast|(3)
 |Save|Cha, harmless|
 
-**Description**: Create a solid, physical barrier of earth with a radius of **up to** 15ft around the target. The barrier gives total cover and total concealment to targets within it. Dealing physical damage to the barrier (HiT=10, HP=10, damage reduction=10) in one turn opens a window big enough for a small size entity to enter freely (or a medium entity to squeeze through). At the end of the turn the barrier resets.
+**Description**: Create a solid, physical barrier of earth with a radius of **up to** 15ft around the target. The barrier gives total cover and total concealment to targets within it. Dealing physical damage to the barrier (HiT=10, HP=10, damage reduction(except "esoteric")=10) in one turn opens a window big enough for a small size entity to enter freely (or a medium entity to squeeze through). At the end of the turn the barrier resets.
 
 **Special**:
 - If the spell is cast as a reaction, it cannot be upcast, and lasts for 1 minute.
@@ -1927,7 +1930,7 @@ ___
 |Material Component|A polished amber sphere which crumbles to ash when the spell ends|(5,5)
 |Save|Cha, harmless|
 
-**Description**: Create a barrier with a radius of **up to** 15ft around the target. All entities within the barrier has resistance to piercing damage from ranged weapons, pressure damage, and lightning damage from outside the barrier. If the barrier's radius is reduced to 5ft, resistance is also gained to those damage types within the barrier.
+**Description**: Create a barrier with a radius of **up to** 15ft around the target. All entities within the barrier has resistance to piercing damage from ranged weapons, pressure damage, and lightning damage from outside the barrier. If the barrier's radius is reduced to 5ft, resistance is also gained to those damage types within the barrier. The spell causes all noxious gases and airborne particles to dissipate, nullifying the their effect in the area of the spell.
 
 **Special**:
 - If the spell is cast as a reaction, it cannot be upcast, and lasts for 1 minute.
@@ -2001,7 +2004,7 @@ ___
 |Material|A glass bowl filled with water, the bowl smashes when the spell is cast|(3)
 |Save|Cha, harmless|
 
-**Description**: Create a barrier with a radius of **up to** 10ft around the target. All entities within the barrier have resistance to piercing, slashing and bludgeoning damage from attacks from outside the barrier, as well as pressure and fire damage from the outside. If the barrier's radius is reduced to 5ft, resistance is also gained to those damage types within the barrier. (2+2+2+2+4-2=10)
+**Description**: Create a barrier with a radius of **up to** 10ft around the target. All entities within the barrier have resistance to piercing, shear, slashing and bludgeoning damage from attacks from outside the barrier, as well as pressure and fire damage from the outside. If the barrier's radius is reduced to 5ft, resistance is also gained to those damage types within the barrier. (2+2+2+2+4-2=10)
 
 **Special**:
 - If the spell is cast as a reaction, it cannot be upcast, and lasts for 1 minute.
@@ -2740,16 +2743,16 @@ ___
 |Damage|3d8+[Sup] Fire|+9(23)
 |Save|Dex/Cha (see below)|
 
-**Description**: The caster calls flame to protect and ward an area and its perimeter is ringed by motes of flame. The barrier gives light concealment to all targets within. Entities inside the barrier have damage reduction of 5 vs non-magical physical or cold/ice attacks, regardless of their origin. The caster specifies "contain", "exclude" or "both". This gives the following effects:
+**Description**: The caster calls flame to protect and ward an area and its perimeter is ringed by motes of flame. The barrier gives light concealment to all targets within. Entities inside the barrier have damage reduction of 10 vs non-magical physical or cold/ice attacks, regardless of their origin. In addition they have advantage against on saves against the effects of fire spells, and those caused by elemental fire. Furthermore, the caster specifies "contain", "exclude" or "both". This gives the following effects:
 - Any entity on the perimeter of the area of effect, or within 5ft of it, when the ward is activated takes 4d8+[Sup] fire damage unless it succeeds a DEX save (for half).
-- Any entity or object that attempts to cross the perimeter takes 4d8+[Sup] fire damage.
+- Any entity or object that attempts to cross (including in making a melee attack/martial manoeuvre) the perimeter takes 4d8+[Sup] fire damage.
   - If the ward was called as "contain", this damage occurs when an entity or object crosses out of the ward.
   - If the ward was called as "exclude", this damage occurs when an entity or object crosses into the ward.
 - Any entities aligned with "water" can only enter (or leave) the area if they succeed a CHA save.
 
 **Limitation**: This spell fails if its area of effect would overlap with the area of effect of a global water/ice spell.
 
-**Upcast**: The spell radius increases by 10ft or the damage increases by 1d8 for every extra MP die above 5 (local).
+**Upcast**: For every extra MP dice above 5 (local) placed into the spell, the spell radius increases by 10ft or the damage increases by 1d8 and the damage reduction increases by 4.
 
 **Global**: The spell lasts for a day and has a radius of 800ft. For every extra 4 MP dice, the radius increases by 200ft, or the damage increases by 1d8. Likewise, the duration increases by 1 day.
 
@@ -3062,6 +3065,112 @@ ___
 **Upcast**: For every extra MP die above 5, increase the radius by 10ft and height by 5ft or increase the damage by 2d8.
 
 **Global**: Creates an inferno, large enough to engulf a small town. For every extra 4MP the radius increases by 200ft and the height increases by 10ft. Elemental lords of fire might use this kind of magic for "amelioration" when visiting the mortal realm.
+
+___
+### Greater Earth Ward
+|Name|Greater Earth Ward [Barrier, Earth]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|6 (24)|
+|Target(s)|50ft (1000ft)|
+|Casting time|"full round"/"reaction"(12h + 6h per 4MP)|-2
+|Range|close|-1
+|Duration|1 hour (1 month)|+12
+|Components|incantation/kinetic|-1
+|Concentration|local|-3
+|Focus|A brass bowl filled with earth, the bowl crumbles when the spell is cast|-1
+|Material|A brass bowl filled with earth, the bowl crumbles when the spell is cast|-2
+|Save|CON,CHA|
+
+**Description**: The spell creates a solid, physical barrier of stone 5ft thick, around the caster with a radius of **up to** x feet. Dealing physical damage to the barrier (HiT=12, HP=20, damage reduction(except "esoteric")=20) in one turn opens a window big enough for a small size entity to enter freely, (or a medium entity to squeeze through). At the end of the turn, the barrier resets. Every time the barrier is damaged, contacted or crossed, the caster is aware of this, as well as the size and type of any entity crossing. Effects caused by area of effect "earth" spells of an equal or lower level that do not require an attack roll are excluded from the spell's area of effect.
+
+In addition, the caster can designate any number of entities as "protected". These can meld through the barrier as a move action. In addition:
+- All "protected" entities in contact with the ground gain +20ft to their movement speed.
+- Any "unprotected" entity that attempts to cross the barrier must succeed a CON save or become "poisoned".
+- Any "unprotected" entity in contact with the ground treats the area within the barrier as "[Difficult Terrain](#difficult-terrain)".
+
+**Special**:
+- If the attack is a rectilinear effect and the barrier crosses its path, the target is affected as if it is inside the barrier.
+- Any entities aligned with "earth" can only enter (or leave) the area if they succeed a CHA save.
+
+**Upcast**: For every extra MP die above 6 placed in the spell, the radius increases by 10ft, or the duration increases by 1h.
+
+**Global**: This is one of the greater barrier spells. Cast globally it extends over a radius of 1200ft, centered on a square/point and lasts for a month. For every 4MP dice above 24, either the duration increases by a week or the radius increases by 300ft.
+
+___
+### Greater Storm Ward
+|Name|Greater Storm Ward [Barrier, Wind]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|6 (24)|
+|Target(s)|60ft radius (1200ft)| (10+7)
+|Casting time|"full round action"/"reaction" (6h + 1h per 4 MP dice)|-2(15)
+|Range|30ft|+1(16)
+|Duration|12 minutes/1 minute (1 month)|+12(28)
+|Components|incantation, kinetic|-1(27)
+|Concentration|local|-3(24)
+|Damage|3d12+ [Nat] Sheer|+9(31)
+|Focus|A paper windmill|-1(30)
+|Material Component|A polished amber sphere which crumbles to ash when the spell ends|-2(28)
+|Save|Str,Cha|
+
+**Description**: The caster calls the spirits of the winds to shroud them in storm. All space within **up to** 60ft of the chosen point is enveloped in violent wind spirits, that bring with them extreme winds.
+
+Ranged weapons attacks against entities inside the spell (including thrown objects and entities) by weapons of size category "medium" and smaller automatically miss. Other ranged weapon attacks attacks are made at disadvantage. Weapon attacks that traverse the area of the spell are affected in the same way. The spell causes all noxious gases and airborne particles to dissipate, nullifying the their effect in the area of the spell.
+
+Furthermore the caster specifies any number of entities as "protected" at the casting of the spell. This determines how other aspects of the spell interact with them.
+- All unprotected targets that try to enter the area of effect of the spell (or are in the area when the spell first activates) must succeed on a STR save or be flung 50ft outwards from the point of contact, and suffer 3d12 sheer damage.
+- All unprotected entities (and structures) in the warded area are at the start of their turn, must succeed on a STR save take 3d12 sheer damage (half on failure).
+- All unprotected entities treat the area as "[Difficult Terrain](#difficult-terrain)", and flying entities are affected as by [extreme wind](#flying-and-turbulence).
+- All protected entities have resistance to damage from ranged weapons, to pressure damage and lighting damage.
+- Effects caused by area of effect "air"/"wind" spells of an equal or lower level that do not require an attack roll are excluded from the spell's area of effect. 
+
+**Special**:
+- If the spell is cast as a reaction, it cannot be upcast, and lasts for 1 minute.
+- If the attack is a rectilinear effect and the barrier crosses its path, the target is affected as if it is inside the barrier.
+- Any entities aligned with "earth" can only enter (or leave) the area if they succeed a CHA save.
+
+**Upcast**: For every extra MP die above 6 placed in the spell, the radius increases by 10ft, or the duration increases by 1h. If the spell is cast as a reaction, it cannot be upcast.
+
+**Global**: This is one of the greater barrier spells. Cast globally it extends over a radius of 1200ft, centered on a square/point and lasts for a month. For every 4MP dice above 24, either the duration increases by a week or the radius increases by 300ft.
+
+___
+### Great Water Ward
+|Name|Great Water Ward [Barrier Water]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|6 (24)|
+|Target(s)|40ft (800ft)|
+|Casting time|"full round" (6h + 3h per 4MP)|-2
+|Range|30ft|+1
+|Duration|12 minutes (1 month)|+6
+|Components|incantation, kinetic|-1
+|Concentration|local|-3
+|Material|A glass bowl filled with water, the bowl smashes when the spell is cast|-2
+|Limitation||
+|Save|CON/CHA|
+
+**Description**: At a point of their choosing within range, the caster creates an aqueous shell with a radius of **up to** 40ft that is criss-crossed by undulating watery tendrils that interact with entities within the barrier. As the spell is cast, the caster specifies any number of entities as "protected".
+
+The spell affects protected entities within its area as follows:
+- All "protected" entities within the barrier have resistance to physical, fire, and necrotic damage.
+- All "protected" entities within the barrier have "light cover".
+- Any "protected" entity that is "poisoned" is cured of the condition.
+- Any "protected" entity that is "diseased"[natural] is cured of the condition if it remains in the area until the spell ends.
+- If a "protected" entity is on fire, the fire is extinguished.
+
+The spell affects unprotected entities within its area as follows:
+- When attempting to enter the area, the entity must succeed a [CON] save or be "immobilised".
+- When in the area, it has disadvantage on attack rolls and treats the area as "[Difficult Terrain](#difficult-terrain)".
+
+**Special**:
+- Any entities aligned with "fire" can only enter (or leave) the area if they succeed a CHA save.
+
+**Upcast**: For every extra MP die above 6 placed in the spell, the radius increases by 10ft, or the duration increases by 1h.
+
+**Global**: This is one of the greater barrier spells. Cast globally it extends over a radius of 800ft, centered on a square/point and lasts for a month. For every 4MP dice above 24, either the duration increases by a week or the radius increases by 200ft.
+
+Unlike the local casting, entities that are "diseased"[natural] that enter the area are cured after remaining there for an hour. Likewise, an entity immobilised by attempting to enter the spell's area is immobilised until the spell ends and does not make repeated saves against the effect (although the effect can be cured).
 
 ___
 ### Inner Voice
@@ -4186,21 +4295,23 @@ ___
     - [Summon Elemental](#summon-elemental)
     - []()
 - Air
+    - [Greater Storm Ward](#greater-storm-ward)
     - [Razor Wind](#razor-wind)
     - [Summon Elemental](#summon-elemental)
     - []()
 - Earth
     - [False Regrowth](#false-regrowth)
+    - [Greater Earth Ward](#greater-earth-ward)
     - [Summon Elemental](#summon-elemental)
     - []()
 - Fire
     - [Forest of Flame](#forest-of-flame)
-    - [Greater Fire Ward](#greater-fire-ward)
     - [Summon Elemental](#summon-elemental)
     - []()
 - Water
     - [False Regrowth](#false-regrowth)
     - [Inner Voice](#inner-voice)
+    - [Great Water Ward](#great-water-ward)
     - []()
 - Incantation
     - [Fairy Feast](#fairy-feast)
@@ -4319,10 +4430,6 @@ ___
 **Special**:
 
 **Upcast**:
-ins two levels for every 4 MP dice added. For every day of the contract, the material component must be paid anew.
-
-
-
 
 
 

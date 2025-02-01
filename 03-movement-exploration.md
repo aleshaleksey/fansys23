@@ -17,6 +17,7 @@ A certain level of freeform RP and common sense are recommended.
 3. [Exploration](#exploration)
     - [Overview](#overview)
     - [Local and Global Movement](#local-and-global-movement-1)
+    - [Flying and Turbulence](#flying-and-turbulence)
     - [Travel rolls and terrain](#travel-rolls-and-terrain)
     - [Travel and getting lost](#travel-and-getting-lost)
     - [Scouting, prospecting and exploration](#scouting-prospecting-and-exploration)
@@ -183,6 +184,8 @@ Travel from A to B can be summarised as follows:
 This is described above in "Local and Global Movement" above, but there are some additional nuances. Tactical movement represents generally bursts of high intensity movement over short time periods and is measured in ft/round, usually limited to a few minutes at a time. On the other hand global movement reflects movement over a long range and is measured in mph. It often abstracts away elements such as winding paths and minor obstacles. Thus, an entity's speed on a local level in ft/round is ten times greater than its speed in mph for overland travel. However, most entities are assumed to be able to travel for 10 hours per day, hence the *total distance* travelled in a day in mph is equal to its speed in ft/round.
 
 For entities and parties that travel via **walk**, **climb**, **dig** or **blink** speed, when travelling between two points that have no defined distance by road (and maybe no road), and only a map distance as the crow flies, the distance travelled is multiplied x2. This represents lack of direct roads, and often meandering routes over off road terrain. For entities using **walk**, **climb** or **dig** speed in **swamp**, **deep forest**, or **mountain** distance as the crow flies is multiplied by x4. Entities with a **cosmic** or **fly** speed do not suffer from this kind of impediment.
+
+#### Flying and Turbulence
 
 Entities that move via a **Fly** speed have the movement speed halved in severe precipitation and wind. If precipitation or wind is extreme, such entities must make a skill roll (usually "fly") against the storm's threshold number or make no progress. An entity may attempt to move at 1/4 speed and take damage every hour equal to 2d6 damage plus 2d6, per size category above medium. An entity failing the roll by more than 5 in extreme precipitation falls to the ground. An entity failing the roll by more than 5 in extreme wind is blown away in the prevailing wind direction at 1/2 the wind speed. If this leads to the collision with some kind of fixed obstacle (mountain, big tree, wall), it suffers damage as if it had fallen 100ft (see [fall damage](#Falling)).
 

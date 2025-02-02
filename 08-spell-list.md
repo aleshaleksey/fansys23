@@ -143,6 +143,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Metamorphosis/Rebirth](#metamorphosisrebirth)
 - [Otherworld Step](#otherworld-step)
 - [Razor Wind](#razor-wind)
+- [Spirit Restoration](#spirit-restoration)
 - [Summon Angel](#summon-angel)
 - [Summon Elemental](#summon-elemental)
 
@@ -3383,6 +3384,29 @@ ___
 **Upcast**: The size of the one increases by 15ft per MP die above 6 or the damage increases by 1d12.
 
 ___
+### Spirit Restoration
+|Name|Spirit Restoration [Incantation, Nature, Spirit]|
+|-|-|
+|Scope|local|(5 x 6 = 30)
+|MP Dice|6(special!)|
+|Target(s)|30ft|+6
+|Casting time|1 full round action|-2
+|Range|close|-1
+|Duration|instantaneous|
+|Components|incantation|-1
+|Limitation|The spell only affects mortals and spirits|-2
+|Save|-|
+
+**Description**: The caster rebalances spiritual energies of willing entities within 30ft of it. The caster can add, or drain, MP dice to, or, from their MP dice pools.
+- The spell can add, or subtract, up to 6 MP dice to, or from, each entity's MP dice pool.
+- The spell conserves the MP dice count between entities (for each die taken away from one entity, one must be added to another). So if the caster, Suzy, moves 6 MP dice to Dave's dice pool, Suzy must lose 6 MP dice.
+- For every MP dice drained, the entity loses 1d4+1 MP. For every MP dice restored, the entity gains 1d4+1 MP.
+
+**Special**: The caster can forgo the MP dice cost of the spell by spending 3 HP instead.
+
+**Upcast**: For every extra MP dice used above 6, the caster can add/subtract an extra MP die per entity.
+
+___
 ### Summon Angel
 |Name|Summon Angel [Divine]|
 |-|-|
@@ -4326,6 +4350,7 @@ ___
 - Nature
     - [Fairy Feast](#fairy-feast)
     - [Summon Elemental](#summon-elemental)
+    - [Spirit Restoration](#spirit-restoration)
     - []()
 - Air
     - [Greater Storm Ward](#greater-storm-ward)
@@ -4350,6 +4375,7 @@ ___
 - Incantation
     - [Fairy Feast](#fairy-feast)
     - [Razor Wind](#razor-wind)
+    - [Spirit Restoration](#spirit-restoration)
     - []()
 - Kinetic
     - [Inner Voice](#inner-voice)

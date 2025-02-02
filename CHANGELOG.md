@@ -269,10 +269,10 @@ ___
 - 
 
 ### Spells
-- Add [Summon Elemental](#summon-elemental) spell
 - Amend the other summon spells so that the summon appears at the start of next round.
-- 
+- Add [Summon Elemental](08-spell-list.md#summon-elemental) spell
+- Add "[Madness](08-spell-list.md#madness)" and "[Spirit Restoration](08-spell-list.md#spirit-restoration)".
 
 ### Abilities
-- 
+- Spellcasting now goes up to Spellcasting: VII, everything else is "High Arcana". This keeps mechanics mostly the same, but reduces the number of useless spells at higher levels while keeping a sane set of mechanics.
 - 

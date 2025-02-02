@@ -3386,7 +3386,7 @@ ___
 
 ___
 ### Summon Elemental
-|Name|Summon Elemental [Air, Earth, Fire, Water]|
+|Name|Summon Elemental [Air, Earth, Fire, Nature, Water]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|6 (24)|
@@ -3404,6 +3404,11 @@ ___
 **Limitation**:
 - The elemental summoned corresponds to the spellcasting type, thus if the spell is cast with "Spellcasting: Elemental(Fire)", the elemental will be of type "fire".
 - If the caster is aligned to the element opposite to the element of the elemental, it makes a CHA save vs the caster. On success it breaks free of the caster's control and becomes hostile to the caster and their allies.
+- This spell can be cast with "Spellcasting: Nature", however, in this case the elemental is level VI instead of level VIII, and one can only summon elementals from their element. More precisely:
+  - For a water elemental the caster needs a stream, pond, lake or sea.
+  - For a fire elemental the caster needs a fire of at least medium size.
+  - For an ear elemental, the caster needs at least 4 squares (10ft x 10ft) unworked earth.
+  - For an air elemental, the cast needs an open sky.
 
 **Special**:
 - The material component for the spell is as follows:

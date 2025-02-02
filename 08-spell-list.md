@@ -139,6 +139,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Inner Voice](#inner-voice)
 - [Legion of Dead](#legion-of-dead)
 - [False Regrowth](#false-regrowth)
+- [Madness](#madness)
 - [Metamorphosis/Rebirth](#metamorphosisrebirth)
 - [Otherworld Step](#otherworld-step)
 - [Razor Wind](#razor-wind)
@@ -3231,6 +3232,34 @@ If the undead are not destroyed by the end of the spell, or the caster loses con
 **Notes**: This spell produces a large number of units, possibly in the thousands. It is recommended that the DM controls the legion and uses it as a single group or AoE rather than individually rolling for each undead.
 
 ___
+### Madness
+|Name|Madness [Curse, Fire, Spirit]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|6 (24)|
+|Target(s)|50ft radius (1000ft radius)|
+|Casting time|1 main action (6 hours + 1 hour per 4 MP dice)|
+|Range|240ft (1200ft)|+4
+|Duration|12 minutes (1 day)|+6
+|Components|Kinetic|
+|Limitation|The targets must be able to see the caster to be affected|-2
+|Concentration|local|-3
+|Save|WIS|
+
+**Description**: The caster inflames the minds of their targets that do not succeed a WIS saving throw. Firstly the target entities are charmed by the caster, secondly they are seized by a fierce madness. At the start of its turn (after rolling the save), the target rolls a d6. This determines its further behaviour as follows:
+
+1. Attack the nearest target (within 60ft of itself) with the intent to kill (if this is the caster, they do nothing instead).
+2. Protect the nearest target (within 60ft of itself) to the best of its ability (using manoeuvres and abilities such as "intercept"/"deflect").
+3. Approach the caster to the best of their ability.
+4. Flee the caster to the best of their ability.
+5. Cast a random spell of the highest level they know, on the nearest valid target (if not a spellcaster, does nothing).
+6. Prostrate themselves while shouting gibberish.
+
+**Upcast**: For every extra MP dice in the spell above 6, the radius increases by 10ft, or the spell lasts for an extra 12 minutes.
+
+**Global**: The spell lasts for 1 day and affects all targets within a radius of 1000ft. For every extra 4 MP dice placed into the spell, the spell either lasts for an extra day or the radius increases by 200ft.
+
+___
 ### Metamorphosis/Rebirth
 |Name|Metamorphosis/Rebirth [Nature, Curse, Divine]|
 |-|-|
@@ -4311,6 +4340,7 @@ ___
 - Fire
     - [Forest of Flame](#forest-of-flame)
     - [Summon Elemental](#summon-elemental)
+    - [Madness](#madness)
     - []()
 - Water
     - [False Regrowth](#false-regrowth)
@@ -4323,7 +4353,7 @@ ___
     - []()
 - Kinetic
     - [Inner Voice](#inner-voice)
-    - []()
+    - [Madness](#madness)
     - []()
 
 - Other
@@ -4434,6 +4464,7 @@ ___
 **Special**:
 
 **Upcast**:
+
 
 
 

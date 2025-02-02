@@ -419,7 +419,7 @@ Any spell created using this guide MUST be checked and validated. In general no 
 |Scope|Local (Global)|
 |MP|3 (12)|
 |Target(s)|1 or more entities|
-|Casting time|"main action" (1h + 20 min per 4MP)|
+|Casting time|"main action" (1h + 20 min per 4MP dice)|
 |Range|close|
 |Duration|12 min+ (1 day+)|+6
 |Components|incantation|+1(7)

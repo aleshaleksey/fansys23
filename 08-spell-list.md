@@ -3397,10 +3397,12 @@ ___
 |Limitation|The spell only affects mortals and spirits|-2
 |Save|-|
 
-**Description**: The caster rebalances spiritual energies of willing entities within 30ft of it. The caster can add, or drain, MP dice to, or, from their MP dice pools.
-- The spell can add, or subtract, up to 6 MP dice to, or from, each entity's MP dice pool.
-- The spell conserves the MP dice count between entities (for each die taken away from one entity, one must be added to another). So if the caster, Suzy, moves 6 MP dice to Dave's dice pool, Suzy must lose 6 MP dice.
-- For every MP dice drained, the entity loses 1d4+1 MP. For every MP dice restored, the entity gains 1d4+1 MP.
+**Description**: The caster rebalances spiritual energies of willing entities within 30ft of it. Within the area of effect:
+- The spell can add, or subtract, up to 6 MP dice to, or from, each willing entity's MP dice pool.
+- The spell conserves the MP dice count between entities (for each die taken away from one entity, one must be added to another).
+  - So if the caster rebalances MP dice between Suzy and Dave, and moves 6 MP dice to Dave's dice pool, Suzy must lose 6 MP dice.
+  - In a bigger example with Suzy, Lucy and Dave, if the caster moves 6 MP dice to Dave's dice pool, she can do it by moving 6 MP dice from either Lucy or Suzy, or by moving (for example) 2 MP dice from her from Suzy's and 4 MP dice from Lucy's dice pools. The caster can also move MP from, or to, their own dice pool.
+- For every MP dice drained, an entity loses 1d4+1 MP. For every MP dice restored, an entity gains 1d4+1 MP.
 
 **Special**: The caster can forgo the MP dice cost of the spell by spending 3 HP instead.
 

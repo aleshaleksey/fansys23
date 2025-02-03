@@ -72,6 +72,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 ### MP 3
 - [Animate Plant](#animate-plant)
 - [Animate Dead](#animatecontrol-dead)
+- [Blade Ward](#blade-ward)
 - [Blessing of the Fates](#blessing-of-the-fates)
 - [Command Mortal](#command-mortal)
 - [Cure](#cure)
@@ -129,6 +130,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Plague](#plague)
 - [Revenant](#revenant)
 - [Rift](#rift)
+- [Stone Ward](#stone-ward)
 - [Summon Fiend](#summon-fiend)
 - [Winter's Grasp](#winters-grasp)
 
@@ -1564,6 +1566,29 @@ ___
 (Summon spell rating is controversial)
 
 ___
+### Blade Ward
+|Name|Stone Skin [Earth, Ward]| 2+2+2+2+2=10
+|-|-|
+|Scope|local (global)|
+|MP Dice|3| 
+|Target(s)|1 entity|
+|Casting time|"1 main action" (3 hours)|
+|Range|close|-1(9)
+|Duration|1 hour (1 day)|5(15)
+|Components|incantation, kinetic|-1(14)
+|Focus|A broken dagger|-1(13)
+|Save|CHA|
+
+**Description**: The caster wards the targets against blade and claw. The target gains:
+- Resistance to: "slashing", "piercing", "sheer" damage.
+- Resistance to "cripple".
+- Immunity to: "bleed"
+
+**Upcast**: For every MP die above 3, the duration increases by 1 hour.
+
+**Global**: The spell lasts for 1 day, with an extra day of duration for every 4 MP dice above 12.
+
+___
 ### Blessing of the Fates
 |Name|Favour of Fate [Divine, Kinetic]|
 |-|-|
@@ -2981,6 +3006,30 @@ The rift can be no more than 50ft wide, 400ft long and 200ft deep, the sides are
 **Global**: The rift can be up to 2 miles long, 200ft wide and 400ft deep.
 
 ___
+### Stone Ward
+|Name|Iron Skin [Earth Ward]|8+1+2+10+1=22
+|-|-|
+|Scope|local (global)|
+|MP Dice|5 (20)|
+|Target(s)|1 entity|
+|Casting time|"1 main action" (3 hours)|
+|Range|close|-1(21)
+|Duration|1 hour (1 day)|5(26)
+|Components|incantation, kinetic|-1(25)
+|Focus|A broken dagger|-1(24)
+|Save|CHA|
+
+**Description**: The caster wards the target, granting it the toughness of stone. The target gains:
+- Immunity to: "slashing", "sheer", "piercing" and "percussive" damage.
+- Resistance to: "pressure" and "poison" damage.
+- Immunity to: "bleed" and "cripple".
+- Resistance to: "poisoned".
+
+**Upcast**: For every MP die above 5, the duration increases by 1 hour.
+
+**Global**: The spell lasts for 1 day, with an extra day of duration for every 4 MP dice above 20.
+
+___
 ### Summon Fiend
 |Name|Summon Fiend [Profane]|
 |-|-|
@@ -4301,6 +4350,7 @@ ___
     - [Mole](#mole)
     - [See Spell](#see-spell)
     - [Slumber](#slumber)
+    - [Blade Ward](#blade-ward)
 - Fire
     - [Command Mortal](#command-mortal)
     - [Fire Ward](#fire-ward)
@@ -4398,6 +4448,7 @@ ___
     - [Lesser Cosmic Seal](#lesser-cosmic-seal)
     - [Revenant](#revenant)
     - [Rift](#rift)
+    - [Stone Ward](#stone-ward)
     - []()
 - Fire
     - [Flame Stride](#flame-stride)
@@ -4552,27 +4603,6 @@ ___
 |Material||
 |Limitation||
 |Save||
-
-### 
-|Name| []|
-|-|-|
-|Scope||
-|MP Dice||
-|Target(s)||
-|Casting time||
-|Range||
-|Duration||
-|Components||
-|Focus||
-|Material||
-|Limitation||
-|Save||
-
-**Description**:
-
-**Special**:
-
-**Upcast**:-
 
 
 

@@ -134,12 +134,15 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 
 - [Blind Sight I-VI](#blind-sight-i-vi)
 - [Blink](#blink)
+- [Condition Immunity](#condition-immunity)
 - [Extra Save](#extra-save)
 - [Fleet](#fleet)
 - [Heat Sense I-VI](#heat-sense-i-v)
 - [Keen Senses I-III](#keen-senses-i-iii)
 - [Life Sense I-VI](#life-sense-i-v)
 - [Low-light Vision](#low-light-vision)
+- [Resist Condition](#resist-condition)
+- [Resist Damage](#resist-damage)
 - [Rider: Quick mount](#quick-mount)
 - [Silent Step (I-III)](#silent-step-i-iii)
 - [Speed](#speed)
@@ -1438,9 +1441,40 @@ ___
 
 **Type**: (Supernatural, Class S)
 
-**Description** Gain a 30ft blink speed.
+**Description**: Gain a 30ft blink speed.
 
 **Prerequisites**: 36 MP dice. Either Elemental[air] or Incantation magic, level 3.
+
+___
+#### Condition Immunity
+
+**Type**: (Natural/Supernatural, Class B-S)
+
+**Description**: Gain resistance to one condition (advantage on saves vs condition, disadvantage on combat manoeuvres vs a character that is resistant).
+
+**Prerequisites**: In addition to other prerequisites, a character must be first be resistant to the condition to gain the immunity.
+
+|Resistance|Base|Dice|Other|
+|-|-|-|-|
+|Poisoned|2|-|-|
+|Diseased|2|-|-|
+|Glowing|2|-|-|
+|Deafened|2|-|-|
+|Aphonia|2|-|-|
+|Grappled|3|-|-|
+|Prone|3|-|-|
+|Frightened|3|-|-|
+|Restrained|3|-|Grappled|
+|Charmed|3|-|-|
+|Blinded|3|-|-|
+|Bleeding|3|-|-|
+|Crippled|3|-|-|
+|Stunned|3|-|-|
+|Incapacitated|3|-|-|
+|Immobilised|4|-|Restrained|
+|Paralysed|4|-|-|
+|Catatonic|4|-|-|
+|Unconscious|4|-|-|
 
 ___
 #### Extra Save
@@ -1546,6 +1580,59 @@ ___
 **Description**: You mount as a "secondary action" and quick-mount as a "non-action". "Dismount" becomes a "minor interaction". Furthermore you can always "take care" when mounting (but not quick-mounting). The thresholds are not affected.
 
 **Prerequisite**: 2 ranks in ride.
+
+___
+#### Resist Condition
+
+**Type**: (Natural/Supernatural, Class B-S)
+
+**Description**: Gain resistance to one condition (advantage on saves vs condition, disadvantage on combat manoeuvres vs a character that is resistant).
+
+**Prerequisites**:
+
+|Resistance|Base|Dice|Other|
+|-|-|-|-|
+|Poisoned|-|10 SP|-|
+|Diseased|-|10 SP|-|
+|Prone|-|8 SP|-|
+|Grappled|-|8 SP|-|
+|Glowing|-|8 MP|-|
+|Deafened|-|8 SP|-|
+|Aphonia|-|8 SP|-|
+|Frightened|2|-|-|
+|Restrained|2|-|Grappled|
+|Charmed|2|-|-|
+|Blinded|2|-|-|
+|Bleeding|2|-|-|
+|Crippled|2|-|-|
+|Stunned|3|-|-|
+|Incapacitated|3|-|-|
+|Immobilised|3|-|Restrained|
+|Paralysed|3|-|-|
+|Catatonic|3|-|Charmed or Frightened|
+|Unconscious|3|-|-|
+
+___
+#### Resist Damage
+
+**Type**: (Natural/Supernatural, Class B-S)
+
+**Description**: Gain resistance to one damage type.
+
+**Prerequisites**:
+
+|Resistance|Base|Dice|
+|-|-|-|
+|Any one "[Physical](10-conditions-types.md#physical-damage)"|10 SP|
+|Poison|-|12 MP or SP|
+|Fire|2|-|
+|Ice|2|-|
+|Necrotic|2|-|
+|Lightning|3|-|
+|Light|3|-|
+|Divine|4|30 MP|
+|Entropic|4|36 MP|
+|Profane|4|-|
 
 ___
 #### Silent Step I-III

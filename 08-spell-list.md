@@ -4526,8 +4526,8 @@ ___
 
 - Nature
     - [Create Secret Path](#create-secret-path) [7]
-    - [Transform Mortal](#transform-mortal) [7]
     - [Greater Weather Control](#greater-weather-control) [7]
+    - [Transform Mortal](#transform-mortal) [7]
     - [Greater Cosmic Seal](#greater-cosmic-seal) [8]
     - [Regrowth](#regrowth) [8]
     - [Fairy Ball/Masquerade](#fairy-ballmasquerade) [9]

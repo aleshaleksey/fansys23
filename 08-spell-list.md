@@ -175,6 +175,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Avatar](#avatar)
 - [Realm of Flame](#realm-of-flame)
 - [Mandate of the Deep](#mandate-of-the-deep)
+- [True Geomancy](#true-geomancy)
 - [Undying realm](#undying-realm)
 
 ___
@@ -4127,7 +4128,7 @@ ____
 |Condition|Heavily concealed, Catatonic|+9(68)
 |Save|Con, Cha|
 
-**Description**: Flames bloom on flammable surfaces all around the caster and rise, tree-like, to a height of 70ft. This has the following effects:
+**Description**: Flames bloom on flammable surfaces all around the caster and rise, tree-like, to a height of 160ft. This has the following effects:
 - Everything within the flames in heavily concealed.
 - All entities that first enter the area or first start their turn in it, must make a Cha save or become catatonic. The entity may retry the save at the end of each turn. Those that succeed are immune to the "catatonic" condition until the end of the spell.
 - When an entity first enters the area on its turn, or starts its turn in the area, it makes a Con save or takes 10d8 fire damage. On a successful save it takes half damage. 
@@ -4140,6 +4141,43 @@ ____
 - Even after the spell has dissipated it leaves echoes behind, "[Meadow of Flame](#meadow-of-flame)" or lesser elementals may spontaneously spring up in the place it was cast for 108 years if it was cast locally and a millennium if it was cast globally.
 
 **Global**: Realises the Realm of Flame onto the caster's current location. The radius is 1 mile. For every extra 4MP the radius increases by 200ft and the height increases by 10ft and the damage increases by 2d8.
+
+____
+ ### True Geomancy
+|Name|True Geomancy [Divine, Earth]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|10 (40)|
+|Target(s)|80ft radius (1600ft radius)|
+|Casting time|"1 full round action" (10 days)|-2
+|Range|close|-1(-3)
+|Duration|12 minutes (2 weeks)|+12(9)
+|Components|incantation, kinetic|-1(8)
+|Damage|3d12 percussive/piercing/pressure|9(17)
+|Conditions|Blinded, Grappled, Restrained, Immobilised|+14(31)
+|Conditions|heavy cover|+4(35)
+|Damage Reduction|20 physical, 10 fire/ice|+8(43)
+|Damage Resistance|Lightning, Light|+12(55)
+|Concentration|local|
+|Focus|A an emerald statuette|-1(54)
+|Material|An offering from the realm of stone|-2(52)
+|Save|STR/DEX, CON|
+
+**Description**: The caster gains brief access to a fragment of the powers of creation that shaped the earth, bending the earth to their will.
+- Any number of entities that the caster designates gain damage reduction from physical damage (20) and damage reduction (10) from fire and cold damage, as the earth reshapes itself to protect them. Likewise, they gain heavy cover.
+- All entities gain resistance to "light" and "lightning" damage.
+- Secondly, as a main action, the caster can reshape up to 4 areas of earth, totalling 1000 (5ft x 5ft x 5ft) cubes of earth or rock as they wish. This can result in entities, falling or being trapped within earth or rock. The shapes created by this effect are always stable and solid. Nor can the thinnest portion be less than 5ft x 5ft.
+  - Any entity on the edge of such a zone is "restrained" unless it succeeds a STR or DEX save (in which case it is pushed to the edge of the zone "grappled" instead).
+  - Any entity entirely in such a zone is "immobilised" unless it succeeds a STR or DEX save (in which case it is pushed to the edge of the zone and grappled instead). Any entity that is thus encased at the start of its turn takes 3d12 pressure damage at the start of each of its turns until it somehow frees itself (it must succeed a fortify roll vs the caster's threshold to move at 5ft, or have a dig speed).
+- Thirdly, the caster can create a single fissure as a secondary action, with an origin within the area of the spell (as per the "[Rift](#rift)" spell).
+- Alternately, as a secondary action, the caster may create a dust cloud with a radius of up to 30ft which causes "total concealment". Any entities in the cloud when it forms must make a CON save or be blinded. The cloud lasts until the end of the caster's next turn.
+
+**Special**: "True Geomancy" is a legendary magic. It is a fragment of the forces that shaped the earth when it was created.
+- All entities aligned to elemental earth are immune to "immobilised" effect of this spell, but not others.
+- The spot where it is cast forever resonates with an aura of [spiritual, earth and divine] energies. Mortals born in those lands might be aligned in some way with elemental earth.
+- Even after the spell has dissipated it leaves echoes behind. Fissures (as caused by the "[Rift](#rift)" spell) may spontaneously spring up. Likewise lesser elements may be drawn to the spot. This can continue for 108 years if it was cast locally and a millennium if it was cast globally.
+
+**Global**: The spell is realised in an area with a radius of 1600ft. For every extra 4MP the radius increases by 200ft or the duration increases by 1 week.
 
 ____
 ### Undying Realm
@@ -4430,8 +4468,6 @@ ___
     - [Mirage](#mirage)
     - [Scry](#scry)
 
-- Other
-
 ### MP 5
 
 - Nature
@@ -4515,64 +4551,70 @@ ___
     - [Inner Voice](#inner-voice)
     - [Madness](#madness)
     - []()
-
 - Other
     - [Legion of Dead](#legion-of-dead) [6]
     - [Otherworld Step](#otherworld-step) [6]
     - [Summon Angel](#summon-angel) [6]
     - []()
 
-### MP 7+
+### MP 7
 
 - Nature
     - [Create Secret Path](#create-secret-path) [7]
     - [Greater Weather Control](#greater-weather-control) [7]
     - [Transform Mortal](#transform-mortal) [7]
+- Air
+    - [Create Secret Path](#create-secret-path) [7]
+    - [Greater Weather Control](#greater-weather-control) [7]
+    - [Meteoric Flight](#meteoric-flight) [7]
+- Earth
+    - [Create Secret Path](#create-secret-path) [7]
+    - [Portal](#portal) [7]
+- Fire
+    - [Create Secret Path](#create-secret-path) [7]
+    - [Meteoric Flight](#meteoric-flight) [7]
+- Water
+    - [Create Secret Path](#create-secret-path) [7]
+    - [Transform Mortal](#transform-mortal) [7]
+- Incantation
+    - [Create Secret Path](#create-secret-path) [7]
+    - [Memory Thief](#memory-thief) [7]
+- Kinetic
+    - [Transform Mortal](#transform-mortal) [7]
+- Other
+    - [Incarnate](#incarnate) [7]
+
+### MP 8+
+
+- Nature
     - [Greater Cosmic Seal](#greater-cosmic-seal) [8]
     - [Regrowth](#regrowth) [8]
     - [Fairy Ball/Masquerade](#fairy-ballmasquerade) [9]
     - []()
 - Air
-    - [Create Secret Path](#create-secret-path) [7]
-    - [Greater Weather Control](#greater-weather-control) [7]
-    - [Meteoric Flight](#meteoric-flight) [7]
     - [Greater Domain](#greater-domain) [8]
     - [Greater Cosmic Seal](#greater-cosmic-seal) [8]
     - []()
 - Earth
-    - [Create Secret Path](#create-secret-path) [7]
-    - [Portal](#portal) [7]
     - [Greater Domain](#greater-domain) [8]
     - [Greater Cosmic Seal](#greater-cosmic-seal) [8]
-    - []()
-    - []()
+    - [True Geomancy](#true-geomancy) [10]
 - Fire
-    - [Create Secret Path](#create-secret-path) [7]
-    - [Meteoric Flight](#meteoric-flight) [7]
     - [Greater Domain](#greater-domain) [8]
     - [Greater Cosmic Seal](#greater-cosmic-seal) [8]
     - [Realm of Flame](#realm-of-flame) [10]
     - []()
 - Water
-    - [Create Secret Path](#create-secret-path) [7]
-    - [Transform Mortal](#transform-mortal) [7]
     - [Greater Domain](#greater-domain) [8]
     - [Greater Cosmic Seal](#greater-cosmic-seal) [8]
     - [Mandate of the Deep](#mandate-of-the-deep) [10]
     - []()
 - Incantation
-    - [Create Secret Path](#create-secret-path) [7]
-    - [Memory Thief](#memory-thief) [7]
     - [Mage's Oath](#mages-oath) [9]
     - []()
 - Kinetic
-    - [Transform Mortal](#transform-mortal) [7]
     - [Fairy Ball/Masquerade](#fairy-ballmasquerade) [9]
-    - []()
-    - []()
-
 - Other
-    - [Incarnate](#incarnate) [7]
     - [Avatar](#avatar)[10]
     - [Undying Realm](#undying-realm) [10]
     - []()
@@ -4603,6 +4645,34 @@ ___
 |Material||
 |Limitation||
 |Save||
+ 
+
+ ###
+|Name| []|
+|-|-|
+|Scope||
+|MP Dice||
+|Target(s)||
+|Casting time||
+|Range||
+|Duration||
+|Components||
+|Focus||
+|Material||
+|Limitation||
+|Save||
+
+**Description**:
+
+**Upcast**:
+
+**Special**:
+
+**Global**:
+
+
+
+
 
 
 

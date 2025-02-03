@@ -105,6 +105,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Greater Xenophonia](#greater-xenophonia)
 - [Healing Seed](#healing-seed)
 - [Lesser Domain](#lesser-domain)
+- [Lesser Freedom](#lesser-freedom)
 - [Least Storm](#least-storm)
 - [Lesser Incarnation](#lesser-incarnation)
 - [Lesser Weather Control](#lesser-weather-control)
@@ -121,6 +122,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Flood](#flood)
 - [Greater Fade](#greater-fade)
 - [Greater Fire Ward](#greater-fire-ward)
+- [Heart Ward](#heart-ward)
 - [Isolate Essence](#isolate-essence)
 - [Lesser Cosmic Seal](#lesser-cosmic-seal)
 - [Pact](#pact)
@@ -134,6 +136,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Fairy Feast](#fairy-feast)
 - [Forest of Flame](#forest-of-flame)
 - [Greater Earth Ward](#greater-earth-ward)
+- [Greater Freedom](#greater-freedom)
 - [Greater Storm Ward](#greater-storm-ward)
 - [Great Water Ward](#great-water-ward)
 - [Inner Voice](#inner-voice)
@@ -567,6 +570,7 @@ ___
 |Duration|12 min|+3
 |Components|incantation, kinetic|-1
 |Focus|A faceted clear crystal|
+|Concentration|yes|
 |Limitation|Entity cannot be immune to "fear" and "charm"|-1
 |Save|Cha|
 
@@ -574,6 +578,8 @@ ___
 - Immunity to charm.
 - Resistance to fear.
 - -10 to movement speed.
+
+**Limitation**: If a target is already "charmed", the effect does not automatically end, although the target does get a new saving throw against the effect. 
 
 **Upcast**: For every MP die above 1 added the spell's radius increases by 5ft (this also affects the caster). OR Increase the duration by 1 minute.
 
@@ -590,6 +596,7 @@ ___
 |Range|30ft|
 |Duration|12 min| +3
 |Components|kinetic|
+|Concentration|yes|
 |Limit|Cannot be applied to entities immune to "fear" and "charm"|
 |Save|Int|
 
@@ -597,6 +604,8 @@ ___
 + Immunity to "fear".
 + Disadvantage vs "charm".
 + It deals an extra +3 to damage with any Str based melee attacks and "supernatural" fire based abilities it has.
+
+**Limitation**: If a target is already "frightened", the effect does not automatically end, although the target does get a new saving throw against the effect.
 
 **Upcast**: Add 1 target for every extra MP die above 1 used.
 
@@ -624,7 +633,7 @@ ___
 
 ___
 ### Fade
-|Name|Fade [Nature, Spirit, Wind]|
+|Name|Fade [Air, Nature, Spirit, Wind]|
 |-|-|
 |Scope|local|
 |MP Dice|1|
@@ -1917,7 +1926,7 @@ ___
 
 ___
 ### Storm Ward
-|Name|Storm Ward [Barrier, Wind]|
+|Name|Storm Ward [Air, Barrier, Wind]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|3 (12)|
@@ -2378,6 +2387,26 @@ When the spell ends, the remaining entities within it find themselves at the poi
 **NB**: The text of the spell has presumed something about the nature of the game world, however it is reasonable to reflavour the spell if the nature of teh game world is not consistent with the description. Furthermore, this spell presumes the existence of other dimensions, planes, realms, or with the possibility of spatial distortions that are otherwise separate from the "real" or "material" world. In games where this is not the case, the group should consider whether it is reasonable and possible to include this spell in the game.
 
 ___
+### Lesser Freedom
+|Name|Freedom [Air, Water, Wind]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|4 (16)|
+|Target(s)|1 entity|
+|Casting time|"1 full round action" (3 hours)|-2(17)
+|Range|close|-1(16)
+|Duration|1 hour (1 day)|6(22)
+|Components|incantation, kinetic|-1(21)
+|Material|Petals of a yellow rose|-2(19)
+|Save|CHA|
+
+**Description**: The target gains immunity to: "grappled", "restrained" and resistance to: "paralysed", "immobilised", "stunned", "catatonic".
+
+**Upcast**: For every MP die above 4, the duration increases by 1 hour.
+
+**Global**: The spell lasts for 1 day, with an extra day of duration for every 4 MP dice above 16.
+
+___
 ### Least Storm
 |Name|Least Storm [Air, Destruction, Nature]|
 |-|-|
@@ -2758,6 +2787,30 @@ ___
 **Global**: The spell lasts for a day and has a radius of 800ft. For every extra 4 MP dice, the radius increases by 200ft, or the damage increases by 1d8. Likewise, the duration increases by 1 day.
 
 ___
+### Heart Ward
+|Name|Heart Ward [Incantation, Fire, Water]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|5 (20)|
+|Target(s)|6 entities|
+|Casting time|"1 main action" (5 hours + 1 hour per 4 MP dice)|
+|Range|30ft|+2
+|Duration|1 hour (1 week)|+6()
+|Components|incantation|
+|Save|CHA|
+
+**Description**: Wards the heart and mind of target entities. The caster selects one condition of "aphonia", "charmed", "frightened", and gives all the targets of the spell immunity to that condition.
+
+**Special**: If the target is already affected by the warded condition, the condition is suppressed for the duration of the spell.
+
+**Upcast**: For every MP die above 5, the spell can either:
+- target an extra 2 entities, or,
+- last for an extra hour, or,
+- grant immunity to an additional condition (from the three listed).
+
+**Global**: The spell last for 1 week. For every 4 MP dice above 20, the spell lasts for an extra week.
+
+___
 ### Isolate Essence
 |Name|Isolate Essence [Curse, Kinetic, Spirit]|
 |-|-|
@@ -3099,8 +3152,29 @@ In addition, the caster can designate any number of entities as "protected". The
 **Global**: This is one of the greater barrier spells. Cast globally it extends over a radius of 1200ft, centered on a square/point and lasts for a month. For every 4MP dice above 24, either the duration increases by a week or the radius increases by 300ft.
 
 ___
+### Greater Freedom
+|Name|Freedom [Air, Water, Wind]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|6 (30)|
+|Target(s)|1 entity|
+|Casting time|"1 full round action" (6 hours)|-2(30)
+|Range|close|-1(29)
+|Duration|1 hour (1 day)|6(34)
+|Components|incantation, kinetic|-1(33)
+|Focus|A raptor's feather|
+|Material|Petals of a yellow rose|-2(31)
+|Save|CHA|
+
+**Description**: The target gains immunity to: "paralysed", "immobilised", "stunned", "catatonic", "grappled", "restrained".
+
+**Upcast**: For every MP die above 6, the duration increases by 1 hour.
+
+**Global**: The spell lasts for 1 day, with an extra day of duration for every 4 MP dice above 16.
+
+___
 ### Greater Storm Ward
-|Name|Greater Storm Ward [Barrier, Wind]|
+|Name|Greater Storm Ward [Air, Barrier, Wind]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|6 (24)|
@@ -4267,6 +4341,7 @@ ___
     - [Rejuvenate Land](#rejuvenate-land)
 - Air
     - [Balance of Elements](#balance-of-elements)
+    - [Lesser Freedom](#lesser-freedom)
     - [Least Storm](#least-storm)
     - [Lesser Domain](#lesser-domain)
     - [Lesser Weather Control](#lesser-weather-control)
@@ -4286,6 +4361,7 @@ ___
     - [Bestial Transformation](#bestial-transformation)
     - [False Aura](#false-aura)
     - [Lesser Domain](#lesser-domain)
+    - [Lesser Freedom](#lesser-freedom)
     - [Lesser Weather Control](#lesser-weather-control)
     - [Mirage](#mirage)
     - [Scry](#scry)
@@ -4326,6 +4402,7 @@ ___
 - Fire
     - [Flame Stride](#flame-stride)
     - [Greater Fire Ward](#greater-fire-ward)
+    - [Heart Ward](#heart-ward)
     - [Lesser Cosmic Seal](#lesser-cosmic-seal)
     - [Revenant](#revenant)
     - []()
@@ -4333,9 +4410,11 @@ ___
     - [Lesser Cosmic Seal](#lesser-cosmic-seal)
     - [Flood](#flood)
     - [Winter's Grasp](#winters-grasp)
+    - [Heart Ward](#heart-ward)
     - []()
 - Incantation
     - [Flawed Transmute](#flawed-transmute)
+    - [Heart Ward](#heart-ward)
     - [Isolate Essence](#isolate-essence)
     - [Pact](#pact)
     - []()
@@ -4355,6 +4434,7 @@ ___
     - [Spirit Restoration](#spirit-restoration)
     - []()
 - Air
+    - [Greater Freedom](#greater-freedom)
     - [Greater Storm Ward](#greater-storm-ward)
     - [Razor Wind](#razor-wind)
     - [Summon Elemental](#summon-elemental)
@@ -4371,6 +4451,7 @@ ___
     - []()
 - Water
     - [False Regrowth](#false-regrowth)
+    - [Greater Freedom](#greater-freedom)
     - [Inner Voice](#inner-voice)
     - [Great Water Ward](#great-water-ward)
     - []()
@@ -4491,7 +4572,20 @@ ___
 
 **Special**:
 
-**Upcast**:
+**Upcast**:-
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

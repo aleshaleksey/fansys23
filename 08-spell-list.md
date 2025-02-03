@@ -3293,7 +3293,7 @@ After 24 hours have passed, the life force from the consumption of the old body 
 
 **Metamorphosis table**: This table determines what one will metamorphose into. If using custom race templates, please replace the standard ones with your own (TODO). Reroll the inner dice on hitting your own race.
 
-|Outer d12|Inner d12|Creature Subkind|Creature|
+|Creature Subkind|Outer d12|Inner d12|Creature|
 |-|-|-|-|
 |Humanoid|1-6|1|Human|
 |Humanoid|1-6|2|Winged|
@@ -3303,6 +3303,7 @@ After 24 hours have passed, the life force from the consumption of the old body 
 |Humanoid|1-6|6|Beast of the green|
 |Humanoid|1-6|8|Fiend-touched|
 |Humanoid|1-6|9|Fey-touched|
+|Humanoid|1-6|10|Dragonkin|
 |Humanoid|1-6|reroll|(or additional races)|
 |Beast|7-10|1|Rat|
 |Beast|7-10|2|Ox|
@@ -3316,9 +3317,8 @@ After 24 hours have passed, the life force from the consumption of the old body 
 |Beast|7-10|10|Rooster|
 |Beast|7-10|11|Dog|
 |Beast|7-10|12|Guinea Pig|
-|Dragon|11-12||???|
-|Dragon|11-12||???|
-|Dragon|11-12||???|
+|Dragon|11||Half-dragon|
+|Dragon|12||Lesser Dragon|
 
 ___
 ### Otherworld Step

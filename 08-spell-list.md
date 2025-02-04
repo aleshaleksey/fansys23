@@ -173,8 +173,9 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 
 ### MP 10 Spells
 - [Avatar](#avatar)
-- [Realm of Flame](#realm-of-flame)
+- [Gift of the Winds](#gift-of-the-winds)
 - [Mandate of the Deep](#mandate-of-the-deep)
+- [Realm of Flame](#realm-of-flame)
 - [True Geomancy](#true-geomancy)
 - [Undying realm](#undying-realm)
 
@@ -4061,6 +4062,40 @@ Furthermore, when the spell ends and/or the deity leaves the avatar the mortal/c
 **Global**: The spell lasts for as long as the vessel inhabited by the deity is not destroyed and the deity wishes to remain in it (but at least a week). Likewise, the avatar only takes the unavoidable damage when it takes a "main action" or "full round action".
 
 ____
+ ### Gift of the Winds
+|Name|Gift of the Winds [Air, Spirit, Travel, Wind]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|10 (40)|
+|Target(s)|8 entities|7
+|Casting time|"1 full round action" (1 day)|-2(5)
+|Range|close|-1(40)
+|Duration|1 day (1 year)|12(16)
+|Components|incantation,kinetic|-1(15)
+|Skills|Acrobatics,Observe,Flight|12(27)
+|Modalities|Flight, Blink|24(51)
+|Immunities|Physical|10(61)
+|Immunities|grapple,restrain,immobilise|12(73)
+|Focus|A wreath of feathers|-1(72)
+|Material|A handful of poplar fluff|-2(70)
+|Limitation|Neither targets nor caster can be earth aligned|-2(68)
+|Save|CHA|
+
+**Description**: Up to eight entities touching the caster gain the blessing of the wind, becoming one with it. Affected entities gain the following for the duration of the spell.
+- Immunity to "[physical](10-conditions-types.md#physical-damage)" damage.
+- Immunity to "grappled", "restrained" and "immobilised".
+- +4 to acrobatics, fly and observe (as well as proficiency in the skills if not already proficient).
+- A perfect fly speed of 120ft, or an increase to their existing fly speed and quality.
+- An ability to blink up to 120ft as a secondary action.
+
+**Special**: Gift of the Winds is a legendary magic. It channels the realm of the winds through those entities affected by the spell.
+- Wind sprites may appear before those once targetted by the spell, or in places where they have stayed for at least 8 hours. These wind sprites are friendly to former targets of the spell.
+- There is 1/6 chance that offspring of former targets of the spell are aligned to elemental air, and a 1/12 chance that instead of a mortal offspring, they will have a wind sprite.
+- When a mortal once targetted by the spell dies, there is a 50% chance of its spirit becoming an air elemental.
+
+**Global**: The spell lasts for a year. Furthermore instead of a "perfect" flight speed of 120ft, the targets obtain a "good" flight speed of 240ft.
+
+____
 ### Mandate of the Deep
 (Spell rules break down here)
 |Name|Mandate of the Deep [Spiritual, Water]|
@@ -4594,7 +4629,7 @@ ___
 - Air
     - [Greater Domain](#greater-domain) [8]
     - [Greater Cosmic Seal](#greater-cosmic-seal) [8]
-    - []()
+    - [Gift of the Winds](#gift-of-the-winds) [10]
 - Earth
     - [Greater Domain](#greater-domain) [8]
     - [Greater Cosmic Seal](#greater-cosmic-seal) [8]
@@ -4669,6 +4704,8 @@ ___
 **Special**:
 
 **Global**:
+ 
+
 
 
 

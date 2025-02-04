@@ -274,7 +274,7 @@ ___
 - Add "[Madness](08-spell-list.md#madness)" and "[Spirit Restoration](08-spell-list.md#spirit-restoration)".
 - Add "[Heart Ward](08-spell-list.md#heart-ward)", "[Greater Freedom](08-spell-list.md#greater-freedom)" and "[Lesser Freedom](#lesser-freedom)"
 - Add "[Stone Ward](08-spell-list.md#stone-ward)" and "[Blade Ward](08-spell-list.md#blade-ward)"
-- Add "[True Geomancy](08-spell-list.md#true-geomancy)".
+- Add "[True Geomancy](08-spell-list.md#true-geomancy)" and "[Gift of the Winds](08-spell-list.md#gift-of-the-winds)"
 
 ### Abilities
 - Spellcasting now goes up to Spellcasting: VII, everything else is "High Arcana". This keeps mechanics mostly the same, but reduces the number of useless spells at higher levels while keeping a sane set of mechanics.

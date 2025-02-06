@@ -170,6 +170,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 ### MP 9 Spells
 - [Fairy Ball/Masquerade](#fairy-ballmasquerade)
 - [Mage's Oath](#mages-oath)
+- [True Storm](#true-storm)
 
 ### MP 10 Spells
 - [Avatar](#avatar)
@@ -4022,6 +4023,41 @@ ___
 **Global**: The effect is permanent until dispelled.
 
 ___
+### True Storm
+|Name|True Storm [Air, Destruction, Wind]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|9 (36)|
+|Target(s)|100ft radius column, height 150ft (2000ft radius, height of 1 mile)|30
+|Casting time|1 full round action (18 hours)|-2(28)
+|Range|240ft (1 mile)|3(31)
+|Duration|1 minute (2 hours)|6(37)
+|Components|incantation,kinetic|-1(36)
+|Focus||-1(35)
+|Material||-2(33)
+|Concentration|local|-3(30)
+|Damage|3d12+[SUP] sheer|9(39)
+|Damage|4d8+[SUP] lightning/ice|12(51)
+|Condition|Aphonia, Deaf, Blind, Prone/Restrained|6(57)
+|Save|STR,CON,DEX|
+
+**Description**: The caster summons a mightly storm that covers an area with a radius of 100ft. Extreme winds within the storm blind and deafen entities within it. The force of the wind likewise deals 3d12+[SUP] sheer damage to everything caught within it.
+
+Ranged weapons attacks against entities inside the spell, those made across the area, or made by entities inside the spell, automatically miss. The spell causes all noxious gases and airborne particles to dissipate, nullifying the their effect in the area of the spell.
+
+In addition the following effects apply inside the spell:
+- All corporeal entities of size "Large" and smaller within the spell automatically count as restrained and are moved up to 50ft within the spell as the caster wishes. Larger entities may make a CON save to avoid the effect. In either case an entity thus affected may attempt a STR save at the start of its turn to break free. When it does, it is flung to outside the nearest edge of the spell, landing prone and taking 50ft sheer damage.
+- All entities move at 1/4 speed within the spell's area of effect and flying entities are affected as by [extreme wind](#flying-and-turbulence).
+- Upon entering the area of effect of the spell, all entities that do not succeed on a CON save are considered aphonic and blind until they leave the area.
+- Every round the caster can choose an area with a column with a radius of 30ft within the spell for one of the following effects:
+  - Lightning bolts strike the area, causing 4d8+[SUP] lightning damage to all entities in the area (DEX save half).
+  - Temperatures plummet in the area, cauing 4d10+[SUP] cold damage to all entities in the area (CON save half).
+
+**Upcast**: For every MP dice above 9, the radius of the spell increases by 50ft, or the lightning/ice damage increases by 3d8.
+
+**Global**: The spell has a radius of 2000ft and a height of 1 mile. It lasts for 2 hours. Adding an extra 4MP dice increases the radius by 1000ft.
+
+___
 ## MP 10 Spells
 3+(2+11)x10/2=3+13x10/2 = 68
 
@@ -4629,6 +4665,7 @@ ___
 - Air
     - [Greater Domain](#greater-domain) [8]
     - [Greater Cosmic Seal](#greater-cosmic-seal) [8]
+    - [True Storm](#true-storm) [9]
     - [Gift of the Winds](#gift-of-the-winds) [10]
 - Earth
     - [Greater Domain](#greater-domain) [8]
@@ -4704,6 +4741,7 @@ ___
 **Special**:
 
 **Global**:
+
  
 
 

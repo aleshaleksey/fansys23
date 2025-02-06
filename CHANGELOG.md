@@ -243,6 +243,8 @@ ___
 - Add "[Flood](08-spell-list.md#flood)" (aquamancy, level 5)
 - Add "[Winter's Grasp](08-spell-list.md#winters-grasp)" (aquamancy, level 5)
 - Add "[Rift](08-spell-list.md#rift)" (geomancy, level 5)
+- Add "[True Storm](08-spell-list.md#true-storm)" (anemancy, level 9)
+- Add "[Gift of the Winds](08-spell-list.md#gift-of-the-winds)" (anemancy, level 10)
 - 
 - 
 - 

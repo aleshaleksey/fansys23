@@ -259,7 +259,7 @@ ___
 ## From v0.0.10
 
 ### General
-- 
+- Add "rebalance" mechanic in order to allow MP and SP to be inconverted (somewhat).
 - 
 
 ### Combat

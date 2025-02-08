@@ -31,6 +31,7 @@
         -  [Mana pool](#mana-pool)
         -  [SP dice pool](#sp-dice-pool)
         -  [Stamina pool](#stamina-pool)
+        -  [Losing MP, SP and Rebalancing](#losing-mp-sp-and-rebalancing)
     -  [Nat and Sup: Attack of the three letter words](#nat-and-sup-attack-of-the-three-letter-words)
     -  [NAP and SAP, NAT and SAT: Attack of the three letter words II](#nap-and-sap-nat-and-sat-attack-of-the-three-letter-words-ii)
     -  [Saving throws](#saving-throws)
@@ -411,6 +412,13 @@ This is a measure of an entity's physical energy, stamina.
 - If a character takes more than **[CON + 2 x SP dice total]** damage from a single natural/physical attack, the remainder is subtracted from HP.
 - When a character rests, it regains **[CON x Base]** SP. (see ["Rest and Recuperation"](04-combat.md#rest-and-recuperation))
   - This is in addition to the SP regained due to regained SP dice. So in total a character regains **[CON x Base + Total SP dice count]** SP.
+
+___
+#### Losing MP, SP and Rebalancing
+
+MP is lost when MP dice are used, or when supernatural attacks damage a character. SP is lost when SP dice are used or when natural attacks damage a character. In some cases this means that a character can end up running out of MP (or SP), while they still have SP (or MP).
+
+Characters of level 5 or higher can therefore "rebalance" as a main action, converting SP into MP or MP into SP, at the cost of 2 to 1. So 2 MP would become 1 SP, or 2 SP would become 1 MP.
 
 ___
 ### Nat and Sup: Attack of the three letter words

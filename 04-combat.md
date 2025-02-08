@@ -8,6 +8,7 @@ This system deals heavily with combat and many of the mechanics are tuned to wor
     - [Attacks and damage bonuses](#attacks-and-damage-bonuses)
 3. [Damage and Death](#damage-and-death)
     - [Death, dying and the relationship between HP, MP and SP](#death-dying-and-the-relationship-between-hp-mp-and-sp)
+      -  [Losing MP, SP and Rebalancing](#losing-mp-sp-and-rebalancing)
     - [Damage resistance](#damage-resistance)
     - [Damage reduction](#damage-reduction)
     - [Damage immunity](#damage-immunity)
@@ -110,6 +111,13 @@ Entities that are immune to "dying" fall unconscious instead until, but are stil
 Of course most offensive abilities must first "eat" through the SP or MP of a target before working away at the HP. "Natural" attacks will first subtract from SP and only when that reaches 0, or if an attack deals massive damage, will HP damage be sustained. Likewise "supernatural" attacks will first subtract from MP.
 
 1. Entities that do not have a CON score may use their CHA score instead.
+
+___
+#### Losing MP, SP and Rebalancing
+
+MP is lost when MP dice are used, or when supernatural attacks damage a character. SP is lost when SP dice are used or when natural attacks damage a character. In some cases this means that a character can end up running out of MP (or SP), while they still have SP (or MP).
+
+Characters of level 5 or higher can therefore "rebalance" as a main action, converting SP into MP or MP into SP, at the cost of 2 to 1. So 2 MP would become 1 SP, or 2 SP would become 1 MP.
 
 ___
 ### Damage resistance

@@ -332,32 +332,25 @@ This represents a low-grade vampire. Its type is undead, but due to lack of poin
 - Lesser Charm. (2)
 
 ___
-### Watcher (level-10 template = 80 points)
+### Werewolf, lesser (level-5 template = 32 + 8 points)
 
-This is a divine being created by gods to watch over some aspect of creation (Couatl in DnD 5e). Its natural form is a winged serpent. They can:
-1. Take humanoid form (lesser alternate form).
-2. Fly.
-3. They cannot be harmed by physical damage or light and resist fire.
-4. They generally have magical abilities.
-5. The ability to understand all languages and communicate telepathically.
+This represents a cursed being: A humanoid that is cursed to become a wolf when the night of the full moon nears. More experienced werewolves do learn to control their transformation. Werewolves are supernaturally strong and swift, have sharp senses and cannot easily be harmed with weapons, with the exception of silvered weapons. Any humanoid can become a werewolf. For this the original template is taken and the werewolf template is applied on top of it.
 
-- **Size**: Medium (Height: ~5'8", Weight: ~140lb) (Normal form: Winged)
-- **Stats**: (Str: +2, Dex: 0, Con: +2, Int: +4, Wis: +2, Cha: +4) (14 points)
-- **Movement**: Walk 20ft, Fly 70ft (rating: average). (6 point)
-- **Sight**: :True Sight II (60ft), low light vision. (8 point)
-- **Type**: Divine (does not need to eat, drink, breath, does not age). (12 points)
+- **Size**: Medium
+- **Stats**: (Str: +6, Dex: +2, Con: +4, Int: 0, Wis: +2, Cha: 0) (14 points)
+- **Movement**: Walk 40ft (2 points)
+- **Sight**: Normal, low-light vision, keen hearing, keen scent. (4 point)
+- **Type**: Monster, breathes, eats, and ages.
 - **Proficiencies**: One appropriate language.
 
-**Restriction:**
-+ A Watcher cannot lie (knowing communicate falsehood). (-2)
+**Weaknesses (-6)**
+- The "piercing" and "slashing" resistances are negated by weapons made of silver..
 
-**Extra (42):**
-+ +2 Sense Motive, +1 Deception (3 points)
-+ Alternate form: Humanoid (4 points)
-+ Telepathy (6 points)
-+ Immunity: Bludgeoning, Slashing, Piercing, Shear and Pressure. (20 points)
-+ Resistance: Light, Fire, Divine. (8 points)
-+ Therefore resistance: "bleeding", "crippled", "prone", "stunned", "frightened", "blinded", "aphonia".
+**Extra (18)**
+- Resistant to "bludgeoning", "piercing", "slashing", "sheer" and "pressure". (10)
+- Resistant to "prone", "bleeding", "crippled", "incapacitated" and "frightened".
+- Resistant to "poison", "disease". (4)
+- Alternate form: Wolf. (4 points)
 
 ___
 ### Lesser Dragon (level-10 template = 80 points)
@@ -391,6 +384,87 @@ This represents a dragon at the lower end of the draconic scale of power. Its na
 + Plus one to level of Spellcasting:Water/Fire OR +1 to Natural attack dice size (2).
 + Plus 10ft fly speed.
 + Plus 2 to any one stat.
+
+___
+### Vampire (level-10 template = 80)
+
+This represents a low-grade vampire. Its type is undead, but due to lack of points, it does not have all undead traits, because we can't afford them.
+
+- **Size**: Medium
+- **Stats**: (Str: +4, Dex: +2, Con: +2, Int: +2, Wis: +2, Cha: +4) (16 points)
+- **Movement**: Walk 40ft + Climb 40ft (4 point)
+- **Sight**: Normal, low-light vision, "heat sense II" (30ft), "life-sense II" keen scent. (10 point)
+- **Type**: Undead, partial (does not breathe, sleep or age) (8 point)
+- **Proficiencies**: One appropriate language.
+
+**Weaknesses (-4)**
+- Cannot enter home uninvited.
+- Cannot cross running water willingly.
+- Vulnerability to "divine" and "light" damage.
+
+**Extra (46)**
+- Resistant to "bludgeoning", "piercing", "slashing", "sheer" and "pressure". (10)
+- Resistant to "prone", "bleeding", "crippled", "incapacitated" and "frightened".
+- Resistant to "poison", "necrotic". (2)
+- Immune to "unconscious", "frightened", "charmed". (14)
+- Alternate form: Bat. (4 points)
+- Lesser Charm. (2)
+- Xenophonia (undead, beasts, monsters). (6)
+- Vampiric Bite: A vampire can make a STR based bite attack dealing 1d4+[STR] damage. If this causes HP damage to а mortal with blood, the vampire regains that number of HP. If the vampire is already at full HP, its STR increases by the number of points of damage dealt to the target's HP for 1 minute. (8)
+
+___
+### Werewolf (level-10 template = 72 + 8 points)
+
+This represents a cursed being: A humanoid that is cursed to become a wolf when the night of the full moon nears. More experienced werewolves do learn to control their transformation. Werewolves are supernaturally strong and swift, have sharp senses and cannot easily be harmed with weapons, with the exception of silvered weapons. Any humanoid can become a werewolf. For this the original template is taken and the werewolf template is applied on top of it.
+
+- **Size**: Medium
+- **Stats**: (Str: +8, Dex: +4, Con: +6, Int: 0, Wis: +4, Cha: 0) (22 points)
+- **Movement**: Walk 50ft, climb speed 30ft. (6 points)
+- **Sight**: Normal, low-light vision, keen hearing, keen scent. (4 point)
+- **Type**: Monster, breathes, eats, and ages.
+- **Proficiencies**: One appropriate language.
+
+**Weaknesses (-2)*
+- The "piercing" and "slashing" resistances are negated by weapons made of silver..
+
+**Extra (42)**
+- +4 to "athletics". (4)
+- "Tracker: Swift". (2)
+- "Terrain Mastery: Forest". (2)
+- Immunity to "bludgeoning", "piercing", "slashing", "sheer" and "pressure". (20)
+- Resistant to "prone", "bleeding", "crippled", "incapacitated" and "frightened".
+- Immune to "poison", "disease". (4)
+- Alternate form: Wolf. (4)
+- Alternate form: Giant Wolf. (6)
+
+
+___
+### Watcher (level-10 template = 80 points)
+
+This is a divine being created by gods to watch over some aspect of creation (Couatl in DnD 5e). Its natural form is a winged serpent. They can:
+1. Take humanoid form (lesser alternate form).
+2. Fly.
+3. They cannot be harmed by physical damage or light and resist fire.
+4. They generally have magical abilities.
+5. The ability to understand all languages and communicate telepathically.
+
+- **Size**: Medium (Height: ~5'8", Weight: ~140lb) (Normal form: Winged)
+- **Stats**: (Str: +2, Dex: 0, Con: +2, Int: +4, Wis: +2, Cha: +4) (14 points)
+- **Movement**: Walk 20ft, Fly 70ft (rating: average). (6 point)
+- **Sight**: :True Sight II (60ft), low light vision. (8 point)
+- **Type**: Divine (does not need to eat, drink, breath, does not age). (12 points)
+- **Proficiencies**: One appropriate language.
+
+**Restriction:**
++ A Watcher cannot lie (knowing communicate falsehood). (-2)
+
+**Extra (42):**
++ +2 Sense Motive, +1 Deception (3 points)
++ Alternate form: Humanoid (4 points)
++ Telepathy (6 points)
++ Immunity: Bludgeoning, Slashing, Piercing, Shear and Pressure. (20 points)
++ Resistance: Light, Fire, Divine. (8 points)
++ Therefore resistance: "bleeding", "crippled", "prone", "stunned", "frightened", "blinded", "aphonia".
 
 ___
 ## Making templates

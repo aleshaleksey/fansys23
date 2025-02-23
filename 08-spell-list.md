@@ -174,6 +174,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 
 ### MP 10 Spells
 - [Avatar](#avatar)
+- [Edict of Life](#edict-of-life)
 - [Gift of the Winds](#gift-of-the-winds)
 - [Mandate of the Deep](#mandate-of-the-deep)
 - [Realm of Flame](#realm-of-flame)
@@ -2567,7 +2568,7 @@ ___
 
 **Description**: This spell has one of the following effects:
 - Cleanse the area of the effect of one curse. If the curse is a higher level than your casting, it get to make an Int save, with a bonus equal to the difference in spell level.
-- Remove the aftereffects of legendary magic. The magic gets to roll an Int save against the cleansing with a bonus equal to the difference in the spell level.
+- Remove the after-effects of legendary magic. The magic gets to roll an Int save against the cleansing with a bonus equal to the difference in the spell level.
 - Cure one disease or poison affecting the land.
 - Double the productivity of the land for the next harvest. Doubling zero is still zero.
 
@@ -4098,6 +4099,47 @@ Furthermore, when the spell ends and/or the deity leaves the avatar the mortal/c
 **Global**: The spell lasts for as long as the vessel inhabited by the deity is not destroyed and the deity wishes to remain in it (but at least a week). Likewise, the avatar only takes the unavoidable damage when it takes a "main action" or "full round action".
 
 ____
+ ### Edict of Life
+|Name|Edict of Life [Curse, Healing, Nature]|
+|-|-|
+|Scope|local(global)|
+|MP Dice|10 (40)|
+|Target(s)|1 (10 mile radius)|
+|Casting time|1 main action (7 days)|
+|Range|120ft (close)|
+|Duration|1 day (instantaneous)|
+|Components|incantation, kinetic|-1
+|Save|CON|
+
+**Description**: The caster channels vital energies positively or negatively into its target.
+- If channelled positively:
+ - The target becomes immune to poison and disease for the duration of the spell.
+ - The target becomes immune to "poisoned", "diseased", "catatonic", "bleeding", "paralysed" and "dying" (it becomes unconscious instead).
+ - Once during the duration of the spell the target can regain all HP, SP and MP as a reaction. If it does this, the spell ends.
+- If channelled negatively:
+  - The target must succeed a CON save or suffer 5d6 entropic damage. In addition its SP and MP drops to zero. It also becomes "catatonic" for the duration of the spell (can make repeated saves at the start of its turn). On a successful save, the target does not not suffer the entropic damage, and loses only half of its SP and MP.
+- Negative and positive channelling is reversed for undead.
+
+**Global**: Globally this spell acts differently.
+- If cast positively:
+  - All mortals within 10 miles regain 6 HP, and are cured of one disease, one poison and one condition of their choice.
+  - Infertile, barren, or contaminated land within range becomes fertile. Fertile land in range yields twice the harvest for the next 10 years.
+  - The after-effects of "[Harvest](#harvest)" on the affected territory ends.
+  - Each curse affecting the natural terrain within the area of effect ends if it was cast with less than 9 MP dice (if local), or 36 MP dice (if global). Likewise, all poisons affecting the land are removed.
+- If cast negatively:
+  - All mortals within 10 miles must make a CON save or lose 6 HP and become poisoned. For simplicity a DM may assume that 96% of level 1, 80% level 2, 36% of level 3, and 4% of level 4 mortals in the area of effect that are not directly relevant to the game die.
+  - All lands territory within 10 miles becomes barren wasteland, incapable of supporting life. Crops wither. Forests begin to wilt and rot. Toxic plankton blooms in waters and wipes out fish stocks. Etc.
+
+**Special**: When cast globally, Edict of Life is a legendary magic. It it either saturates the area of effect with natural energies, or depletes those energies.
+- If cast positively:
+  - An area affected by the spell positively is becomes aligned with "Nature" for the next thousand years. Mortals born in the area may be born with innate nature magic, xenophonia, an affinity for "track", "survival" or "harvest".
+  - Friendly sprites may spontaneously come into existence, and talking animals and plants may be born in the area of effect for the next thousand years.
+- If cast negatively:
+  - An area affected by the spell becomes "cursed" until the curse is removed. Beasts are unwilling to enter this territory.
+  - For the next thousand years beasts, monsters and humanoids born in this territory will be stillborn.
+  - For the next thousand years, "profanes" are attracted to the affected area.
+
+____
  ### Gift of the Winds
 |Name|Gift of the Winds [Air, Spirit, Travel, Wind]|
 |-|-|
@@ -4661,7 +4703,7 @@ ___
     - [Greater Cosmic Seal](#greater-cosmic-seal) [8]
     - [Regrowth](#regrowth) [8]
     - [Fairy Ball/Masquerade](#fairy-ballmasquerade) [9]
-    - []()
+    - [Edict of Life](#edict-of-life) [10]
 - Air
     - [Greater Domain](#greater-domain) [8]
     - [Greater Cosmic Seal](#greater-cosmic-seal) [8]
@@ -4717,6 +4759,7 @@ ___
 |Material||
 |Limitation||
 |Save||
+ 
  
 
  ###

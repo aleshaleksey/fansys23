@@ -168,9 +168,12 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Regrowth](#regrowth)
 
 ### MP 9 Spells
+- [Earthquake](#earthquake)
 - [Fairy Ball/Masquerade](#fairy-ballmasquerade)
 - [Mage's Oath](#mages-oath)
 - [True Storm](#true-storm)
+- []()
+- []()
 
 ### MP 10 Spells
 - [Avatar](#avatar)
@@ -3952,6 +3955,31 @@ ___
 ## MP 9 Spells
 3+(2+10)x9/2=3+12x9/2=3+6x9= 57
 
+ ### Earthquake
+|Name|Earthquake [Destruction, Earth]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|9 (36)|
+|Target(s)|180ft radius around a point on the ground, (3600ft)|36
+|Casting time|"1 full round action" (9 days)|-2(34)
+|Range|240ft (1 mile)|+4(38)
+|Duration|1 minute (1 hour)|+6(44)
+|Components|incantation, kinetic|-1(43)
+|Focus|A stone taken from the proposed area of effect|-2(41)
+|Material|An earthenware vessel, containing the Focus, which is broken when the spell is cast|-2(39)
+|Concentration|local|-3(38)
+|Damage|6d12 pressure damage|
+|Save|STR, DEX|
+
+**Description**: The caster triggers ripples deep with the earth, which bloom into terrible shaking which destroy structures and knock entities off their feet. In addition rifts open somewhat randomly in the area of effect. The effects in the area of effect are as follows:
+- All entities using "walk" modality must succeed a DEX save at the start of their turn or fall prone.
+- All entities using the "dig" modality must succeed a STR save at the start of their turn or take 6d12 damage and be "immobilised" (half damage on successful save).
+- All structures take 6d12 points of damage at the start of the caster's turn, unless they are warded, in which case the caster must succeed on a SAT roll vs the threshold of the ward. Any entity inside a structure that collapses must succeed a DEX save and a STR save. If it fails the DEX save it also takes the 6d12 damag. If it fails the STR save it is "immobilised".
+- 1d4 fissures open at points of the caster's choosing.The fissure's act as per the "[Rift](#rift)" spell, but end at the edge of the spell's area of effect. If the spell lasts for its full duration, the fissures have a 50% chance of closing, in which case any entities inside them must succeed a STR save or take 6d12 damage and be "immobilised" (half damage on successful save).
+
+**Global**: The spell extends for a radius of 3600ft and lasts for an hour. The fissures open once per minute instead of once per round, and their location is random.
+
+___
 ### Fairy Ball/Masquerade
 |Name|Fairy Ball/Masquerade [Nature, Kinetic, Spirit]|
 |-|-|
@@ -4712,6 +4740,7 @@ ___
 - Earth
     - [Greater Domain](#greater-domain) [8]
     - [Greater Cosmic Seal](#greater-cosmic-seal) [8]
+    - [Earthquake](#earthquake) [9]
     - [True Geomancy](#true-geomancy) [10]
 - Fire
     - [Greater Domain](#greater-domain) [8]
@@ -4759,6 +4788,8 @@ ___
 |Material||
 |Limitation||
 |Save||
+ 
+ 
  
  
 

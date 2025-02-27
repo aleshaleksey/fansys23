@@ -172,7 +172,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Fairy Ball/Masquerade](#fairy-ballmasquerade)
 - [Mage's Oath](#mages-oath)
 - [True Storm](#true-storm)
-- []()
+- [Wave](#wave)
 - []()
 
 ### MP 10 Spells
@@ -4087,6 +4087,31 @@ In addition the following effects apply inside the spell:
 **Global**: The spell has a radius of 2000ft and a height of 1 mile. It lasts for 2 hours. Adding an extra 4MP dice increases the radius by 1000ft.
 
 ___
+ ### Wave
+|Name|Wave [Travel, Water]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|9 (36)|
+|Target(s)|250ft x 150ft x 100ft (special)|+30
+|Casting time|"1 full round action" (9 days)|-2(28)
+|Range|240ft (1 mile)|+4(32)
+|Duration|instantaneous (special)|
+|Components|incantation,kinetic|-1(31)
+|Save|STR|
+
+**Description**: The caster summons a great mass of water (1.8 million cubic feet), that appears along a 250ft long straight line in range, rises to a height of 100ft and sweeps forwards 150ft before collapsing. This has the following effects:
+- Objects weighting less than 10000lb are swept away to the end of the wave's range.
+- All corporeal entities in range must succeed on a STR save or be swept 100ft along the path of the wave (to its end). Otherwise they are swept half of the distance. Entities of size large or smaller make the save at disadvantage.
+- Entities that fail the STR [take 2d6 HP damage from suffocation](03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die). Entities that do not breath, or breath water are not affected.
+- All structures take 8d12 pressure damage.
+- At the end of the wave's range, all objects it carry are dropped and suffer 5d8 percussive damage from falling, landing prone unless it succeeds on a DEX save.
+- At the end of the wave's range the water spreads outwards at a speed of 200ft per round for the next 5 rounds. Entities caught in the area must succeed a STR save or be swept 200ft away, landing prone. Objects weighing 2000lb or less are swept away.
+
+**Global**: The spell works in one of two ways.
+- Either it creates a wave with a width of 5000ft, that travels a distance of 3000ft and has a height of 2000ft. This wave travels at a speed of 600ft per round. The STR save is repeated at the start of affected characters' turns. Drowning damage is applied every round when the save is failed. The falling damage at the end of the spell is 36d8.
+- Or the wave has a width of 100ft, a height of 20ft and a length of 150ft. In this case, the wave lasts for 1 month and travels at a pace of up to 200ft per round over water in the direction specified by the caster, or at 40ft per round over land. It can carry objects of up to half of its volume without and causes no damage.
+
+___
 ## MP 10 Spells
 3+(2+11)x10/2=3+13x10/2 = 68
 
@@ -4750,8 +4775,8 @@ ___
 - Water
     - [Greater Domain](#greater-domain) [8]
     - [Greater Cosmic Seal](#greater-cosmic-seal) [8]
+    - [Wave](#wave) [9]
     - [Mandate of the Deep](#mandate-of-the-deep) [10]
-    - []()
 - Incantation
     - [Mage's Oath](#mages-oath) [9]
     - []()
@@ -4789,8 +4814,7 @@ ___
 |Limitation||
 |Save||
  
- 
- 
+
  
 
  ###

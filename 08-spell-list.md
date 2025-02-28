@@ -4817,26 +4817,35 @@ ___
 
  
 
- ###
-|Name| []|
+ ### Ifrit's Gift
+|Name|Ifrit's Gift [Fire, Spirit]|
 |-|-|
-|Scope||
-|MP Dice||
-|Target(s)||
-|Casting time||
-|Range||
-|Duration||
-|Components||
-|Focus||
-|Material||
-|Limitation||
-|Save||
+|Scope|local (global)|
+|MP Dice|9 (36)| 
+|Target(s)|1 entity|
+|Casting time|"1 full round action" (9 days)|-2
+|Range|close|-1(-3)
+|Duration|1 hour (1 week)|+12(9)
+|Components|incantation,kinetic|-1(8)
+|Material|A bowl of fragrant oil which is consumed in flames as the spell is cast|-2(6)
+|Concentration|local|
+|Damage|3d8 fire|9(15)
+|Damage|1d4 entropic|12(27)
+|Limitation|Cannot be cast on a target that is aligned with water. Nor can the target be profane.|-2(25)
+|Save|Cha|
 
-**Description**:
+**Description**: The caster implores the powers of the inner elemental realm of fire to grant its power to a single being. The target of the spell gains a halo of fire and the following properties:
+- Immunity to fire and cold damage and the effects of extreme heat and cold. (8)
+- A blink speed of 60ft. (12)
+- "[Life sense](06-abilities.md#life-sense-i-v)" to 120ft.
+- Any hostile entities that succeed in a basic combat manoeuvre against the target take 3d8 fire damage.
+- Flammable objects within 15ft of the target burst into flame (the target can suppress this effect).
+- The target deals 3d8 fire damage to any entity or object against which it makes a successful basic combat manoeuvre.
+- The target deals 1d4 entropic damage against any entity or object that it makes a successful melee attack against.
+- The target gains "Xenophonia:Spirits" and "Xenophonia:Elementals".
+- The target gains +4 to "Knowledge:Religion" and "Knowledge:Arcana".
 
-**Upcast**:
-
-**Special**:
+**Special**: If the spell is cast in the area of a [Greater Cosmic Seal](#greater-cosmic-seal), the caster must succeed on a CHA save vs the threshold of the seal or lose the spell.
 
 **Global**:
 

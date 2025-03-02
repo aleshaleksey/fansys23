@@ -1864,7 +1864,7 @@ ___
 |Limitation|This spell is defeated by true sight|-2(3)
 |Save|CHA/WIS|
 
-**Description**: The caster grants the target an illusory form of another entity, as long as the size category is within one size category of itself. Thus the target looks, and sounds, like a different entity. The illusion affects all senses An unwilling target can negate the effect with a CHA save.
+**Description**: The caster grants the target an illusory form of another entity, as long as the size category is within one size category of itself. Thus the target looks, and sounds, like a different entity. The illusion affects all senses. An unwilling target can negate the effect with a CHA save.
 
 The spell does not in any way alter the abilities or physical properties of the target. Thus a close examination of the target ("prospect" or "observe" at close range) vs the Threshold of the caster, reveals the illusion. Likewise, every time an observer perceives the target to behaviour in a manner impossible for its appearance, the observer may make a WIS save to break the illusion. An observer that has broken the illusion sees the actual form of the target and no longer perceives the illusory form.
 

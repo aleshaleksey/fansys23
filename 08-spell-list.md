@@ -170,10 +170,10 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 ### MP 9 Spells
 - [Earthquake](#earthquake)
 - [Fairy Ball/Masquerade](#fairy-ballmasquerade)
+- [Ifrit's Gift](#ifrits-gift)
 - [Mage's Oath](#mages-oath)
 - [True Storm](#true-storm)
 - [Wave](#wave)
-- []()
 
 ### MP 10 Spells
 - [Avatar](#avatar)
@@ -4021,6 +4021,39 @@ Fourthly, all willing allies are transformed into "beasts" or "fey" of the caste
 - This spell borders on legendary magic, that forever changes the locale where it is cast. When the 24 hours are over, three of the 8 effects caused by the "local" casting of the spell continue to be active for 108 years. Likewise, mortals born in this area tend to have a "spiritual" alignment and fey traits.
 
 ___
+ ### Ifrit's Gift
+|Name|Ifrit's Gift [Fire, Spirit]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|9 (36)| 
+|Target(s)|1 entity|
+|Casting time|"1 full round action" (9 days)|-2
+|Range|close|-1(-3)
+|Duration|1 hour (1 week)|+12(9)
+|Components|incantation,kinetic|-1(8)
+|Material|A bowl of fragrant oil which is consumed in flames as the spell is cast|-2(6)
+|Concentration|local|
+|Damage|4d8 fire|12(18)
+|Limitation|Cannot be cast on a target that is aligned with water. Nor can the target be profane.|-2(16)
+|Save|Cha|
+
+**Description**: The caster implores the powers of the inner elemental realm of fire to grant its power to a single being. The target of the spell gains a halo of fire and the following properties:
+- Immunity to fire and cold damage and the effects of extreme heat and cold. (8)
+- A blink speed of 60ft.
+- "[Life sense](06-abilities.md#life-sense-i-v)" to 120ft.
+- Any hostile entities that succeed in a basic combat manoeuvre against the target take 3d8 fire damage.
+- Flammable objects within 15ft of the target burst into flame (the target can suppress this effect).
+- Weather conditions within 120ft of the target shift two points in the direction of extreme heat (the target can suppress the effect).
+- The target deals 3d8 fire damage to any entity or object against which it makes a successful basic combat manoeuvre, or when it succeeds on a basic combat manoeuvre against a target.
+- The target gains "Xenophonia:Spirits" and "Xenophonia:Elementals".
+- The target gains +4 to "Knowledge:Religion" and "Knowledge:Arcana".
+- Elementals[fire] will not willingly attack the target of the spell unless they are of level 17 or higher or they are summoned. Summoned elementals[fire] that attempt to attack the target of the spell must succeed on a CHA save vs the caster or lose the attack.
+
+**Special**: If the spell is cast in the area of a [Greater Cosmic Seal](#greater-cosmic-seal), the caster must succeed on a CHA save vs the threshold of the seal or lose the spell.
+
+**Global**: The spell lasts for a week. Furthermore, the radius of the weather effects increases to 2400ft. Lastly, the target of the spell may spend one or more days in prayer and meditation. For every day it does so, it may summon 15 levels of elementals[fire] (no single elemental may be of higher level than 15) that will serve them and fight for them faithfully until the spell ends. Any surviving elementals of level 10 and above turn on the target of the spell when it ends. The rest return to their realm.
+
+___
 ### Mage's Oath
 |Name|Mage's Oath [Incantation, Curse, Divine]|
 |-|-|
@@ -4770,8 +4803,8 @@ ___
 - Fire
     - [Greater Domain](#greater-domain) [8]
     - [Greater Cosmic Seal](#greater-cosmic-seal) [8]
+    - [Ifrit's Gift](#ifrits-gift) [9]
     - [Realm of Flame](#realm-of-flame) [10]
-    - []()
 - Water
     - [Greater Domain](#greater-domain) [8]
     - [Greater Cosmic Seal](#greater-cosmic-seal) [8]
@@ -4814,43 +4847,20 @@ ___
 |Limitation||
 |Save||
  
-
- 
-
- ### Ifrit's Gift
-|Name|Ifrit's Gift [Fire, Spirit]|
+ ###
+|Name| []|
 |-|-|
-|Scope|local (global)|
-|MP Dice|9 (36)| 
-|Target(s)|1 entity|
-|Casting time|"1 full round action" (9 days)|-2
-|Range|close|-1(-3)
-|Duration|1 hour (1 week)|+12(9)
-|Components|incantation,kinetic|-1(8)
-|Material|A bowl of fragrant oil which is consumed in flames as the spell is cast|-2(6)
-|Concentration|local|
-|Damage|3d8 fire|9(15)
-|Damage|1d4 entropic|12(27)
-|Limitation|Cannot be cast on a target that is aligned with water. Nor can the target be profane.|-2(25)
-|Save|Cha|
-
-**Description**: The caster implores the powers of the inner elemental realm of fire to grant its power to a single being. The target of the spell gains a halo of fire and the following properties:
-- Immunity to fire and cold damage and the effects of extreme heat and cold. (8)
-- A blink speed of 60ft. (12)
-- "[Life sense](06-abilities.md#life-sense-i-v)" to 120ft.
-- Any hostile entities that succeed in a basic combat manoeuvre against the target take 3d8 fire damage.
-- Flammable objects within 15ft of the target burst into flame (the target can suppress this effect).
-- The target deals 3d8 fire damage to any entity or object against which it makes a successful basic combat manoeuvre.
-- The target deals 1d4 entropic damage against any entity or object that it makes a successful melee attack against.
-- The target gains "Xenophonia:Spirits" and "Xenophonia:Elementals".
-- The target gains +4 to "Knowledge:Religion" and "Knowledge:Arcana".
-
-**Special**: If the spell is cast in the area of a [Greater Cosmic Seal](#greater-cosmic-seal), the caster must succeed on a CHA save vs the threshold of the seal or lose the spell.
-
-**Global**:
-
- 
-
+|Scope||
+|MP Dice||
+|Target(s)||
+|Casting time||
+|Range||
+|Duration||
+|Components||
+|Focus||
+|Material||
+|Limitation||
+|Save||
 
 
 

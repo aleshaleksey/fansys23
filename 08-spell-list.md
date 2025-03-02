@@ -37,6 +37,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Headwind](#headwind)
 - [Least Flare](#least-flare)
 - [Least Heal](#least-heal)
+- [Lesser Illusory Self](#lessor-illusory-self)
 - [Least Vengeance](#least-vengeance)
 - [Sense Spell](#sense-spell)
 - [Shape Earth](#shape-earth)
@@ -82,6 +83,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Growth](#growth)
 - [Guidance of the Earth](#guidance-of-the-earth)
 - [Guidance of the Winds](#guidance-of-the-winds)
+- [Illusory Self](#illusory-self)
 - [Least Curse](#least-curse)
 - [Melt](#melt)
 - [Mole](#mole)
@@ -763,6 +765,35 @@ ____
 **Special**: Undead must make a Cha save or take 1 point of divine damage. (1+5)=(4+2)
 
 **Upcast**: Target regains an extra HP per extra MP die above 1, to a maximum of 3. No extra effect on undead.
+
+___
+ ### Lessor Illusory Self
+|Name|Lessor Illusory Self [Illusion, Kinetic, Water, Wind]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|1 (4)|
+|Target(s)|1 entity|
+|Casting time|1 main action (1 hour)|
+|Range|close|-1
+|Duration|1 hour (1 week)|(5)
+|Components|kinetic|
+|Focus|A small mirror|-1(4)
+|Limitation|This spell only produces acoustic and visual effects. It is defeated by touch, taste and smell|-2(2)
+|Limitation|This spell is defeated by tremor sense and blind-sight|-2(0)
+|Limitation|This spell is defeated by true sight|-2(-2)
+|Save|CHA/WIS|
+
+**Description**: The caster grants the target an illusory form of another entity, as long as the size category is the same. Thus the target looks, and sounds, like a different entity. The illusion is, however, only visual and auditory, so entities that do not rely on these senses will not be deceived. Likewise, it does not mask tactile stimuli. An unwilling target can negate the effect with a CHA save.
+
+The spell does not in any way alter the abilities or physical properties of the target. Thus a close examination of the target ("prospect" or "perception" at close range) vs the Threshold of the caster, reveals the illusion. Likewise, every time an observer perceives the target to behaviour, smell, or produce tactile stimuli that do not match its appearance, the observer may make a WIS save to break the illusion. An observer that has broken the illusion sees the actual form of the target and no longer perceives the illusory form.
+
+Thus, for example, if the target is disguised as a winged, and the illusory wings "clip" through a physical object, such as a bookshelf, any observers of this make a WIS save. A group may rule that particularly flagrant mismatches between appearances and observed 'behaviour' automatically break the illusion (but this is a slippery slope, and is not recommended).
+
+**Limitations**: Entities with "tremor sense", "blind-sight" and "true sight" automatically disregard the illusion.
+
+**Upcast**: For every extra MP dice above 1, the spell either lasts for an extra hour, or affects an additional target.
+
+**Global**: The spell lasts for a week.
 
 ___
 ### Least Vengeance
@@ -1817,6 +1848,35 @@ ___
 **Special**: This applies only for rolls made above ground/water level and knowledge of things that belong above ground.
 
 **Global**: The caster gives a locus the blessing of the winds. Within 100ft of that spot rolls made by entities that are not hostile to the caster receive this blessing. For every 4MP extra the radius of the spell increases by 100ft or the duration increases by a week.
+
+___
+ ### Illusory Self
+|Name|Illusory Self [Illusion, Kinetic, Water]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|3 (12)|
+|Target(s)|1 entity|
+|Casting time|1 main action (3 hours)|
+|Range|close|-1
+|Duration|1 hour (1 week)|6(5)
+|Components|kinetic|
+|Focus|A small mirror|-1
+|Limitation|This spell is defeated by true sight|-2(3)
+|Save|CHA/WIS|
+
+**Description**: The caster grants the target an illusory form of another entity, as long as the size category is within one size category of itself. Thus the target looks, and sounds, like a different entity. The illusion affects all senses An unwilling target can negate the effect with a CHA save.
+
+The spell does not in any way alter the abilities or physical properties of the target. Thus a close examination of the target ("prospect" or "perception" at close range) vs the Threshold of the caster, reveals the illusion. Likewise, every time an observer perceives the target to behaviour in a manner impossible for its appearance, the observer may make a WIS save to break the illusion. An observer that has broken the illusion sees the actual form of the target and no longer perceives the illusory form.
+
+Thus, for example, if the target is disguised as an orc, but is actually a winged and takes flight, creating strong gusts of wind with their wings, any observers of this make a WIS save. A group may rule that particularly flagrant mismatches between appearances and observed 'behaviour' automatically break the illusion (but this is a slippery slope, and is not recommended).
+
+**Limitations**:
+- Entities with "true sight" automatically disregard the illusion.
+- While the illusion has a tactile component, it does not create actual matter. Thus illusory claws would feel sharp to the touch, but cannot harm you.
+
+**Upcast**: For every extra MP dice above 3, the spell either lasts for an extra hour, or affects an additional target.
+
+**Global**: The spell lasts for a week.
 
 ___
 ### Least Curse
@@ -4488,6 +4548,7 @@ ___
     - [Fade](#fade)
     - [Headwind](#headwind)
     - [Least Flare](#least-flare)
+    - [Lesser Illusory Self](#lessor-illusory-self)
     - [Sense Spell](#sense-spell)
     - [Spirits' Secret](#spirits-secret)
     - [Tailwind](#tailwind)
@@ -4504,6 +4565,7 @@ ___
     - [Sense Spell](#sense-spell)
 - Water
     - [Chill Blood](#chill-blood)
+    - [Lesser Illusory Self](#lessor-illusory-self)
     - [Sense Spell](#sense-spell)
     - [Water Snake](#water-snake)
     - [Winter's Touch](#winters-touch)
@@ -4514,6 +4576,7 @@ ___
     - [Least Vengeance](#least-vengeance)
 - Kinetic
     - [Enflame](#enflame)
+    - [Lesser Illusory Self](#lessor-illusory-self)
     - [Shape Earth](#shape-earth)
     - [Spirits' Secret](#spirits-secret)
     - [Winter's Touch](#winters-touch)
@@ -4595,6 +4658,7 @@ ___
     - [See Spell](#see-spell)
     - [Summer's Blade](#summers-blade)
 - Water
+    - [Illusory Self](#illusory-self)
     - [See Spell](#see-spell)
     - [Slumber](#slumber)
     - [Water Walk](#water-walk)
@@ -4612,6 +4676,7 @@ ___
     - [Animate/Control Dead](#animatecontrol-dead)
     - [Blessing of the Fates](#blessing-of-the-fates)
     - [Fairy Shelter](#fairy-shelter)
+    - [Illusory Self](#illusory-self)
     - [Least Curse](#least-curse)
     - [See Spell](#see-spell)
     - [Summer's Blade](#summers-blade)
@@ -4861,7 +4926,6 @@ ___
 |Material||
 |Limitation||
 |Save||
-
 
 
 

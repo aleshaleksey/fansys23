@@ -5,6 +5,8 @@
 - [Wind Sprite](#wind-sprite)
 - [Undine: Lesser](#undine-lesser)
 - [Undine: Greater](#undine-greater)
+- [Ifrit: Lesser](#ifrit-lesser)
+- [Ifrit: Greater](#ifrit-greater)
 
 ## Spirits: Elementals
 
@@ -322,6 +324,76 @@ Undines are feminine elemental spirits of water, classically associated with spr
 Undines are often bound summoners as guardians or caretakers of specific locales. It is said that an undine can sacrifice its life-force to create a new freshwater spring that will exist for a 108 years..
 
 Greater undines are typically close associates of elemental lords, or guardians of places of power.
+
+___
+### Ifrit: Lesser
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|15/14/15|30|51|12|30|fly (60ft)|
+
+Size:Large
+Deflection:+3
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|16|12|14|13|12|16|
+|Bonus|+3|+2|+2|+1|+1|+3|
+|Save|+7|+4|+4|+3|+3|+5|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|7(2)|8|15|2|3|4|5|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Spear|+9|2d6+4 +2d6[fire]|(reach 5ft, long) An Ifrit's spear is a manifestation of the Ifrit itself. It counts as being "spirit source" for the sake of material rank. An Ifrit's spear that is thrown, reforms in the hand of the Ifrit at the start of its turn.|
+|||||
+|||||
+|||||
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|||||
+|||||
+|||||
+|||||
+
+Ifrits are spirits associated with fire, wrath, rebellion and often malevolence. It is not unheard of them to challenge, harm, or attempt to tempt mortals, only to then punish them if they give in to temptation.
+
+___
+### Ifrit: Greater
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|17/17/17|88|108|21|30|fly (80ft), blink (40ft)|
+
+Size:Huge
+Deflection:+5
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|22|14|16|17|14|18|
+|Bonus|+6|+2|+3|+3|+2|+4|
+|Save|+12|+5|+6|+6|+5|+7|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|14(3)|18|26|3|5|6|8|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Spear|+14|3d6+8 +3d6[fire]|(reach 10ft) An Ifrit's spear is a manifestation of the Ifrit itself. It counts as being "spirit source" for the sake of material rank. An Ifrit's spear that is thrown, reforms in the hand of the Ifrit at the start of its turn.|
+|Multi-attack I|||A greater Ifrit makes 2 attacks.|
+|||||
+|||||
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|||||
+|||||
+|||||
+|||||
+
+Ifrits are spirits associated with fire, wrath, rebellion and often malevolence. It is not unheard of them to challenge, harm, or attempt to tempt mortals, only to then punish them if they give in to temptation.
 
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|

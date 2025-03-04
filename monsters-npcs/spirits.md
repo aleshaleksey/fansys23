@@ -346,7 +346,7 @@ Deflection:+3
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Spear|+9|2d6+4 +2d6[fire]|(reach 5ft, long) An Ifrit's spear is a manifestation of the Ifrit itself. It counts as being "spirit source" for the sake of material rank. An Ifrit's spear that is thrown, reforms in the hand of the Ifrit at the start of its turn.|
+|Scimitar|+9|2d8+4 +2d6[fire]|(reach 5ft, long) An Ifrit's sword is a manifestation of the Ifrit itself. It counts as being "spirit source" for the sake of material rank. An Ifrit's sword that is thrown reforms in the hand of the Ifrit at the start of its turn.|
 |||||
 |||||
 |||||
@@ -381,7 +381,7 @@ Deflection:+5
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Spear|+14|3d6+8 +3d6[fire]|(reach 10ft) An Ifrit's spear is a manifestation of the Ifrit itself. It counts as being "spirit source" for the sake of material rank. An Ifrit's spear that is thrown, reforms in the hand of the Ifrit at the start of its turn.|
+|Scimitar|+14|3d8+8 +3d6[fire]|(reach 10ft) An Ifrit's sword is a manifestation of the Ifrit itself. It counts as being "spirit source" for the sake of material rank. An Ifrit's sword that is thrown reforms in the hand of the Ifrit at the start of its turn.|
 |Multi-attack I|||A greater Ifrit makes 2 attacks.|
 |||||
 |||||

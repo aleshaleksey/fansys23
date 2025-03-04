@@ -2,6 +2,11 @@
 
 Divine entities are a category of supernatural beings that include gods, god-like beings, angels, and anomalies in creation.
 
+- [Angels](#angels)
+- [Lesser Messenger](#lesser-messenger)
+- [Watcher](#watcher)
+- [Seraph](#seraph)
+
 ## Angels
 
 **Angels** are the creations of gods, or manifestations of creation itself. They are generally created as messengers and observers, but also occasionally enforcing the will of their creator. Not all angels have free will (Cha). Not all angels align with the typical human understanding of "good" (especially the messengers of dark gods).

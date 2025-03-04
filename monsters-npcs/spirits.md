@@ -1,3 +1,11 @@
+# Spirits: Index
+- [Spirits: Elementals](#spirits-elementals)
+- [Flame Sprite](#flame-sprite)
+- [Gnome](#gnome)
+- [Wind Sprite](#wind-sprite)
+- [Undine: Lesser](#undine-lesser)
+- [Undine: Greater](#undine-greater)
+
 ## Spirits: Elementals
 
 Elementals are spirits of the four elements. They are generally immune to physical damage (with the exception of some low level elementals) since the physical form they accrue is in no way necessary for their existence. Likewise they are immune to "stunned", "immobilised", "crippled", "bleeding", poisoned" and "paralysed".

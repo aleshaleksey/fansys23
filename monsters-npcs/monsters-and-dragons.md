@@ -1,3 +1,25 @@
+- [Monsters](#monsters)
+    - [Crade Imp](#cradle-imp)
+    - [Mog](#mog)
+    - [Sweet ooze](#sweet-ooze)
+    - [Snatcher's Hands](#snatchers-hands)
+    - [Mudcrawler](#mudcrawler)
+    - [Fell Beast](#fell-beast)
+    - [Troll Head](#troll-head)
+    - [The Worm that Sings](#the-worm-that-sings)
+    - [Mudwalker](#mudwalker)
+    - [Kraken, Lesser](#sea-monster-kraken-lesser)
+- [Lycanthropes](#lycanthropes)
+    - [Werewolf, Lesser](#werewolf-lesser)
+- [Dragons](#dragons)
+    - [Flame Dragon, Normal](#flame-dragon-normal)
+    - [Flame Dragon, Lesser](#fire-dragon-lesser)
+    - [Frost Dragon, Normal](#frost-dragon-normal)
+    - [Frost Dragon, Lesser](#frost-dragon-lesser)
+    - [Earthbound Dragon, Normal](#earthbound-dragon-normal)
+    - [Earthbound Dragon, Lesser](#earthbound-dragon-lesser)
+
+
 ## Monsters
 
 Monsters are mortals. They generally breath, eat, drink and sleep, but not all of them do. They are generally predatory and dangerous to humanoids.
@@ -368,6 +390,20 @@ A kraken makes 8 attacks with its tentacles. It can attack targets smaller than 
 A kraken is essentially a very big and very intelligent cephalopod-like monster. While younger krakens simply wonder the seas in search of prey and meaning, the elder ones generally (and erroneously) come to the conclusion that they are gods.
 
 A kraken has an enormous amount of time to learn magic. It seldom uses it in combat, but it *can*, should it choose. Storms at sea are sometimes attributed to this monster.
+
+___
+## Lycanthropes
+Sometimes humanoids because afflicted by the curse of Lycanthropy. It can be obtained by crossing divine beings associated with the moon, or angering ancient nature spirits, or perhaps from the bites of other lycanthropes. Regardless, a lycanthrope gains incredible fortitude at the expense of losing its mind and humanoid form under the influence of the full moon. In their bestial form and under the influence of their madness, lycanthropes are incredibly dangerous, and take pleasure in violence and suffering. Often this affects those they love the most.
+
+The following is common to lycanthropes:
+- Lycanthropes are immune to "physical" damage.
+- Lycanthropes are at least resistant to "poison" and "disease".
+- Lycanthropes have an alternate form of a beast (though this is never a herbivorous beast). Less powerful lycanthropes have little control over this transformation.
+- Lycanthropes have a weaken against "piercing" and "slashing" resistances are negated by weapons made of silver.
+
+___
+### Werewolf, lesser
+
 
 ___
 ## Dragons

@@ -383,17 +383,38 @@ Deflection:+5
 |-|-|-|-|
 |Scimitar|+14|3d8+8 +3d6[fire]|(reach 10ft) An Ifrit's sword is a manifestation of the Ifrit itself. It counts as being "spirit source" for the sake of material rank. An Ifrit's sword that is thrown reforms in the hand of the Ifrit at the start of its turn.|
 |Multi-attack I|||A greater Ifrit makes 2 attacks.|
-|||||
-|||||
+|[Sunder](../04-combat.md#basic-martial-manoeuvres)|+12|||
+|[Feint](../04-combat.md#basic-martial-manoeuvres)|+12|||
+|Elemental Touch (fire)|+11|3d6+3|(range = "close") +2d6 damage per MP dice up to 15d6|
+|Elemental Blast (fire)|+10|3d6+3|(range = 120ft + 30/MP dice) +1d6 per MP dice up to 9d6|
+|Greater Elemental Blast (fire)|Threshold=23||radius = [MP dice spent] x 10ft up to 60ft|
+
+A Greater Ifrit is can make two basic combat manoeuvres, or an elemental blast/touch as a main action.
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
+|Berserk II||||
+|Debilitating Strike|Threshold=22||Blinded, 1 SP dice|
+|Parry|||A greater Ifrit can add +3 to HiT vs up to 4 attacks by sacrificing its reaction.|
+|[Cursed Blood](../06-abilities.md#cursed-blood)|||A greater Ifrit can invoke curses upon foes that spill its "blood"|
+|[Spelldance III](../06-abilities.md#spelldance-i-iv)|||A greater Ifrit can both obfuscate and alter spells with its dance.|
 |||||
-|||||
-|||||
-|||||
+|Spellcasting: Fire VI|||Favourites: "[Meadow of Flame](../08-spell-list.md#meadow-of-flame)", "[Melt](../08-spell-list.md#melt)", "[Command Mortal](../08-spell-list.md#command-mortal)", "[Speak Through Flame](../08-spell-list.md#speak-through-flame)", "[Flame Stride](../08-spell-list.md#flame-stride)", "[Madness](../08-spell-list.md#madness)", "[Summon Elemental](../08-spell-list.md#summon-elemental)", "[Forest of Flame](../08-spell-list.md#forest-of-flame)"|
+|Spellcasting: Kinetic III|||Favourites: "[Whispers](../08-spell-list.md#whispers)", "[Spirits' Secret](../08-spell-list.md#spirits-secret)", "[Call Ailment](../08-spell-list.md#call-ailment)", "[Illusory Self](../08-spell-list.md#illusory-self)", "[Least Curse](../08-spell-list.md#least-curse)"|
+|Spellcasting: Global I||||
+|Immunity|||"Physical", "Fire"|
+|Immunity|||"Restrained", "Surprised", "Helpless", "Dying", "Stunned", "Immobilised", "crippled", "bleeding", "Paralysed"|
+|Vulnerability||"Light[supernatural]"|
+|Senses|||"Heat Sense"|
+|Skills|||""|
 
 Ifrits are spirits associated with fire, wrath, rebellion and often malevolence. It is not unheard of them to challenge, harm, or attempt to tempt mortals, only to then punish them if they give in to temptation.
+
+Ifrits exist in a highly hierarchical society of spirits. Greater Ifrits stand near the top of this hierarchy and may command a number of lesser Ifrit. Likewise, they themselves must obey the will of Ifrit lords above them.
+
+A greater Ifrit thrives on combat. However, before entering combat with a mortal it will generally attempt to lead its soul astray. Once the mortal shows itself as corruptable, the Ifrit has permission to attack. They seldom attack otherwise. It makes generous use of "Speak through Flame", "Illusory Self" and "Spelldance" in these matters.
+
+In combat, Ifrits will use spells such as "Least Curse" or "Madness" to weaken a mortal. If their sins are judged to be particularly heavy, the Ifrit will attempt to burn up its target with its offensive capability.
 
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|

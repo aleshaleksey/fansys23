@@ -264,7 +264,6 @@ When strong trolls and some giants are killed, they have enough vitality that th
 
 ___
 ### The worm that sings
-___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |15/14/15|56|58|15|30ft|Cosmic*|
@@ -395,6 +394,8 @@ ___
 ## Lycanthropes
 Sometimes humanoids because afflicted by the curse of Lycanthropy. It can be obtained by crossing divine beings associated with the moon, or angering ancient nature spirits, or perhaps from the bites of other lycanthropes. Regardless, a lycanthrope gains incredible fortitude at the expense of losing its mind and humanoid form under the influence of the full moon. In their bestial form and under the influence of their madness, lycanthropes are incredibly dangerous, and take pleasure in violence and suffering. Often this affects those they love the most.
 
+Lycanthropes are classified as "Mortals", "Monsters".
+
 The following is common to lycanthropes:
 - Lycanthropes are immune to "physical" damage.
 - Lycanthropes are at least resistant to "poison" and "disease".
@@ -403,7 +404,26 @@ The following is common to lycanthropes:
 
 ___
 ### Werewolf, lesser
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+||||||
 
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|||||||
+|Bonus|||||||
+|Save|||||||
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+||||||||
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|||||
+|||||
+|||||
+|||||
 
 ___
 ## Dragons

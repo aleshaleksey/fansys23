@@ -357,6 +357,7 @@ A Ifrit is can make two basic combat manoeuvres, or an elemental blast/touch as 
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
+|Flaming form||1d6|Entities within 5ft of a lesser Ifrit at the end of their turn, and those that touch/succeed in a "close" range attack against the greater Ifrit take 1d6 damage.|
 |Berserk II||||
 |Debilitating Strike|Threshold=18||Blinded, 1 SP dice|
 |Parry|||An Ifrit can add +2 to HiT vs up to 4 attacks by sacrificing its reaction.|
@@ -413,6 +414,7 @@ A Greater Ifrit is can make two basic combat manoeuvres, or an elemental blast/t
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
+|Flaming form||2d6|Entities within 5ft of a greater Ifrit at the end of their turn, and those that touch/succeed in a "close" range attack against the greater Ifrit take 2d6 damage.|
 |Berserk II||||
 |Debilitating Strike|Threshold=22||Blinded, 1 SP dice|
 |Parry|||A greater Ifrit can add +3 to HiT vs up to 4 attacks by sacrificing its reaction.|

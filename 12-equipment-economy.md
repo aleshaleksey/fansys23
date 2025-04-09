@@ -165,6 +165,8 @@ Importantly crafting time can be shared between several artisans. Thus if an ite
 
 ___
 ### Weapons
+See the "[weapons properties table](11-weapons-armour.md#weapon-table)" for details on what the weapons do.
+
 |Weapon|Weight (lb)|Cost (sp)|crafting days|"ancient"|"medieval"|"late"|
 |-|-|-|-|-|-|-|
 |Throwing axe|2|10|1|yes|yes|yes|
@@ -186,7 +188,7 @@ ___
 |Greatclub|6|1|0.5|yes|yes|yes|
 |Mace|3|24|1.5|yes|yes|yes|
 |Morning Star|3|24|1.5|rare|yes|yes|
-|Flail|3|56|3|rare|yes|yes|
+|Flail|4|56|3|rare|yes|yes|
 |War hammer|3|48|2.5|rare|rare|yes|
 |Maul|8|96|5|rare|rare|yes|
 |Glaive|4|90|5|yes|yes|yes|
@@ -211,6 +213,7 @@ ___
 |Pistol|1|480|24|no|no|rare/yes|
 |Musket|8|600|30|no|no|rare/yes|
 |Blunderbuss|6|480|24|no|no|rare/yes|
+|Gunblade|2|480|24|no|no|rare|
 
 ___
 ### Ammunition
@@ -224,6 +227,8 @@ ___
 
 ___
 ### Armour
+See the "[armour properties table](11-weapons-armour.md#the-armour-table)" for details on what the armour does.
+
 |Armour Type|Weight (lb)|Cost (sp)|crafting days|"ancient"|"medieval"|"late"|
 |-|-|-|-|-|-|-|
 |Leather Cuirass|10|60|3|yes|yes|yes|
@@ -525,7 +530,7 @@ ___
 |Castle|672K||yes|yes|yes|
 |Fortress|4800K||yes|yes|yes|
 
-*Acre of land*: Land in many kingdoms is not commonly available and cannot be bought and sold without special permission from officials, lords or kings.
+*Acre of land*: Land in many kingdoms is not commonly available and cannot be bought and sold without special permission from officials, lords or kings. In other settings, lands may be sparsely populated and can perhaps be claimed by anyone strong enough to defend it against errant monsters.
 
 *Keep*: A stone keep measures approximately 48 x 48 x 48 feet, has 3-4 stories and walls about 4-6 feet thick. The crafting days can be split between any number of workers and include procurement and transport costs. Even if additional man power is available, medium sized humanoids will not accomplish this task in less than 3 months by conventional means.
 

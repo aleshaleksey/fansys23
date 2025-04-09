@@ -72,13 +72,17 @@ By default, this game uses an anachronistic mix of modern pound (lb) measurement
 |Currency|Weight(lb)|Conversion from obols|Weight (g)|
 |-|-|-|-|
 |Obol|1/600|1|0.76|
-|Drachma|1/100|x10|4.5|
-|Dekadrachma|1/10|x100|45|
+|Drachma|1/100|x6|4.5|
+|Dekadrachma|1/10|x60|45|
 |Silver penny|1/300[1]|x2|1.5|
+|Novgorod Grivna[2]|9/20|x270|204|
+|"silver trade bar"[3]|1/2|x300|228|
 
 1. Remember, we're using modern lb and a "modified" penny and not the measure with 240d/lb.
+2. This was a trade bar used ~10th-15th centuries AD.
+3. This is an approximate Grivna which gives simpler and nicer calculations.
 
-More importantly, the lists will give a cost in "days of labour", which are equivalent to 12 manhours. Often, in a world where everything is made by hand and not always stockpiled, the labour availability is more important than the material or currency cost.
+More importantly, the lists will give a cost in "days of labour", which are equivalent to 12 man-hours. Often, in a world where everything is made by hand and not always stockpiled, the labour availability is more important than the material or currency cost.
 
 ___
 ### Labour costs and crafting times

@@ -265,7 +265,7 @@ ___
 
 ### Combat
 - Change "weapon" damage scaling rules with size
-- 
+- Change size based armour rules, to give a small advantage to small entities.
 
 ### Races
 - 

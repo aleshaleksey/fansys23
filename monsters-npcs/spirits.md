@@ -17,12 +17,12 @@ ___
 ### Flame Sprite
 |Level|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|-|
-|1|12/9/13|4|8|2|40ft|-|
-|2|12/9/13|6|14|3|40ft|-|
-|3|12/9/13|8|20|4|45ft|-|
-|4|15/9/16|14|30|7|45ft|-|
-|5|15/9/16|19|35|8|50ft|-|
-|6|15/9/166|19|42|9|50ft|-|
+|1|13/10/13|4|8|2|40ft|-|
+|2|13/10/13|6|14|3|40ft|-|
+|3|13/10/13|8|20|4|45ft|-|
+|4|16/10/16|14|30|7|45ft|-|
+|5|16/10/16|19|35|8|50ft|-|
+|6|16/10/166|19|42|9|50ft|-|
 
 - Flame sprites are small size.
 
@@ -78,12 +78,12 @@ ___
 ### Gnome
 |Level|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|-|
-|1|12/9/13|4|7|2|Walk (20ft)|Dig (5ft)|
-|2|12/9/13|6|12|3|Walk (25ft)|Dig (5ft)|
-|3|12/9/13|8|17|4|Walk (30ft)|Dig (5ft)|
-|4|16/9/17|14|26|7|Walk (35ft)|Dig (10ft)|
-|5|16/9/17|15|30|8|Walk (40ft)|Dig (10ft)|
-|6|16/9/17|16|38|9|Walk (45ft)|Dig (10ft)|
+|1|13/10/13|4|7|2|Walk (20ft)|Dig (5ft)|
+|2|13/10/13|6|12|3|Walk (25ft)|Dig (5ft)|
+|3|13/10/13|8|17|4|Walk (30ft)|Dig (5ft)|
+|4|17/10/17|14|26|7|Walk (35ft)|Dig (10ft)|
+|5|17/10/17|15|30|8|Walk (40ft)|Dig (10ft)|
+|6|17/10/17|16|38|9|Walk (45ft)|Dig (10ft)|
 
 - Gnomes are small size,
 - Gnomes of level 3 and above can dig even through rock, however, their tiny tunnels collapse immediately after their passage.
@@ -139,12 +139,12 @@ ___
 ### Water Sprite
 |Level|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|-|
-|1|13/9/14|4|7|2|10ft|Swim (50ft)|
-|2|13/9/14|6|12|3|10ft|Swim (50ft)|
-|3|13/9/14|8|17|4|15ft|Swim (50ft)|
-|4|16/9/17|14|26|7|15ft|Swim (60ft)|
-|5|16/9/17|19|30|8|20ft|Swim (60ft)|
-|6|16/9/17|20|38|9|20ft|Swim (60ft)|
+|1|14/10/14|4|7|2|10ft|Swim (50ft)|
+|2|14/10/14|6|12|3|10ft|Swim (50ft)|
+|3|14/10/14|8|17|4|15ft|Swim (50ft)|
+|4|17/10/17|14|26|7|15ft|Swim (60ft)|
+|5|17/10/17|19|30|8|20ft|Swim (60ft)|
+|6|17/10/17|20|38|9|20ft|Swim (60ft)|
 
 - Water sprites are small size.
 
@@ -194,12 +194,12 @@ ___
 ### Wind Sprite
 |Level|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|-|
-|1|13/9/14|4|7|2|-|Fly (50ft)|
-|2|13/9/14|6|12|3|-|Fly (50ft)|
-|3|13/9/14|8|17|4|-|Fly (50ft)|
-|4|16/9/17|14|26|7|-|Fly (60ft)|
-|5|16/9/17|19|30|8|-|Fly (60ft)|
-|6|16/9/17|20|38|9|-|Fly (60ft)|
+|1|14/10/14|4|7|2|-|Fly (50ft)|
+|2|14/10/14|6|12|3|-|Fly (50ft)|
+|3|14/10/14|8|17|4|-|Fly (50ft)|
+|4|17/10/17|14|26|7|-|Fly (60ft)|
+|5|17/10/17|19|30|8|-|Fly (60ft)|
+|6|17/10/17|20|38|9|-|Fly (60ft)|
 
 - Water sprites are small size.
 
@@ -249,7 +249,7 @@ ___
 ### Undine: Lesser
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/9/15|23|51|11|20ft|50ft(swim)|
+|16/10/15|23|51|11|20ft|50ft(swim)|
 
 Size: Small +1/-1
 

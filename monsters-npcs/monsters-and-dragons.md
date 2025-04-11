@@ -28,7 +28,7 @@ ___
 ### Cradle Imp
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|12/8/12|6|6|2|20ft|30ft Fly(poor)|
+|14/10/12|6|6|2|20ft|30ft Fly(poor)|
 
 Tiny(+2/-2)
 
@@ -55,7 +55,7 @@ ___
 ### Mog
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/9/14|8|4|2|10ft|Swim(20ft), fly(60ft)|
+|15/10/14|8|4|2|10ft|Swim(20ft), fly(60ft)|
 
 Size = small
 
@@ -210,7 +210,7 @@ Adult fell beasts have a natural armour of +2, great have a natural armour of +4
 |Bite (young)|+3|1d6+1 [Shear]||
 |Claws (young)|+3|1d4+1[Shear]|Threshold=14 CON or -2 to Str, on 1, paralysed, non lethal.|
 |Bite (adult)|+7|2d6+3[Shear]||
-|Claws (adult)|+7|2d4+3|Threshold=17 CON or -2 to Str, on 1, paralysed, non lethal.|
+|Claws (adult)|+7|1d10+3|Threshold=17 CON or -2 to Str, on 1, paralysed, non lethal.|
 |Stinger (adult)|+7|1d12+3|Threshold=17 CON, repeated 3 times. 1. no effect, 2. restrained, 3.paralysed, saving once stops progression, reverts after next round|
 |Bite (great)|+10|3d6+5[shear]||
 |Claws (great)|+10|3d4+5[shear]|Threshold=19 CON or -2 to Str, on 1, paralysed, non lethal.|

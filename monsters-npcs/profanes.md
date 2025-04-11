@@ -302,9 +302,9 @@ ___
 ### Imp
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|13/8/15|4|8|3|20ft|40ft fly, 20ft climb|
+|15/10/15|4|8|3|20ft|40ft fly, 20ft climb|
 
-Imps are tiny (+2 evasion, -2 armour, +2 DEX save, -2 STR save) 
+Imps are tiny (+2 evasion, +2 DEX save, -2 STR save) 
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|

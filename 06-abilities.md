@@ -1317,8 +1317,8 @@ ___
 |1d4|3|Unarmed Strike I|
 |1d6|6|Unarmed Strike II|
 |1d8|10|Unarmed Strike III|
-|2d4|14|Unarmed Strike IV|
-|1d10|18|Unarmed Strike V|
+|1d10|14|Unarmed Strike IV|
+|1d12|18|Unarmed Strike V|
 |2d6|22|Unarmed Strike VI|
 |2d8|26|Unarmed Strike VII|
 |2d10|30|Unarmed Strike VIII|

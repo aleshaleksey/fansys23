@@ -26,9 +26,9 @@ ___
 ### Lesser Messenger
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/-/12|31|24|9|30ft|Fly, good (100ft)|
+|16/-/15|31|24|9|30ft|Fly, good (100ft)|
 
-Small (+1/-1)
+Small (+1/0)
 Deflection +2
 
 ||Str|Dex|Con|Int|Wis|Cha|

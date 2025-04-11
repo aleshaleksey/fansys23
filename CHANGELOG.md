@@ -264,7 +264,7 @@ ___
 - 
 
 ### Combat
-- 
+- Change "weapon" damage scaling rules with size
 - 
 
 ### Races

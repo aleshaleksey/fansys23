@@ -161,7 +161,7 @@ Damage Key:
 |Hand axe|Axe|1d6|S|1|Str|5|-|-|2|8|
 |War shovel|Axe|1d4|S|1|Str|5|-|-|2|8|
 |War pick|Axe|1d6|P|1|Str|5|-|-|3|10|
-|Battleaxe|Axe|2d4/1d12|S|1+|Str|5|-|-|4|10|
+|Battleaxe|Axe|1d10/2d6|S|1+|Str|5|-|-|4|10|
 |GreatAxe|Axe|2d8|S|2|Str|5|-|-|6|12|
 ||||||||||
 |Dagger|Light blade|1d4|P/S|1|Str/Dex|5|60|10|1|5|
@@ -170,7 +170,7 @@ Damage Key:
 |Small Sword|Light blade|1d6|P|1|Dex|5|-|-|1|4|
 |Scimitar|Light blade|1d8|S|1|Str/Dex|5|-|-|2|5|
 |Rapier|Heavy blade|1d10|P/S|1|Str/Dex|5|-|-|3|8|
-|Falchion|Heavy blade|2d4/1d12|S|1+|Str|5|-|-|3|10|
+|Falchion|Heavy blade|1d8/1d12|S|1+|Str|5|-|-|3|10|
 |Longsword|Heavy blade|1d8/1d12|S/P|1+|Str|5|-|-|4|10|
 |Greatsword|Heavy blade|2d6|S/P/B|2|Str|5|-|-|6|12|
 |||||||||
@@ -180,7 +180,7 @@ Damage Key:
 |Mace|Percussive|1d8|B|1|Str|5|-|-|3|12|
 |Morning Star|Percussive|1d8|B/P|1|Str|5|-|-|3|10|
 |Flail|Percussive|1d8|B/P|1|Str|5|-|-|4|8|
-|War hammer|Percussive|2d4/1d12|B/P|1+|Str|5|-|-|3|10|
+|War hammer|Percussive|1d8/1d12|B/P|1+|Str|5|-|-|3|10|
 |Maul|Percussive|2d6|B/P|2|Str|5|-|-|8|14|
 |||||||||||
 |Glaive|Pole-arm|1d12|S|2|Str|10|-|-|4|6|
@@ -188,13 +188,13 @@ Damage Key:
 |Venetian Hammer|Pole-arm|1d10|B/P|2|Str|10|-|-|5|8|
 |Long axe|Axe|2d8|S|2|Str|10|-|-|8|12|
 |||||||||||
-|Short Spear|Spear|1d6/1d8|P/B|1+|Str/Dex|5|60|20|2|5|
+|Short Spear|Spear|1d6/1d10|P/B|1+|Str/Dex|5|60|20|2|5|
 |Spear|Spear|1d8/1d12|P|1+|Str|10|60|20|4|6|
 |Long Spear|Spear|1d12|P|2|Str|15|-|-|8|10|
 |Javelin|Spear|1d8|P|1|Str|-|120|40|2|4|
 |War dart|Spear|1d4|P|1|Str/Dex|-|240|60|0.5|4|
 ||||||||||||
-|Shortstaff|Staff|1d4/1d8|B|1+|Str/Dex|5|-|-|2|5|
+|Shortstaff|Staff|1d4/1d6|B|1+|Str/Dex|5|-|-|2|5|
 |Quarterstaff|Staff|1d10|B|2|Str|10|-|-|4|6|
 |||||||||
 |Buckler|Shield|1|B/S|1d4|Str/Dex|5|-|-|2|5|
@@ -223,7 +223,7 @@ Damage Key:
 |Gun-blade|Firearm|1d8|piercing/slashing|1|Dex|5|120|20|2|4
 |||||||||||
 |Ballista (bolt)|Mechanical Bow|4d12|piercing|2|Dex|-|1800|300|20|400
-|Ballista (bullet)|Mechanical Bow|6d8|bludgeoning|2|Dex|-|900|120|20|400
+|Ballista (bullet)|Mechanical Bow|4d12|bludgeoning|2|Dex|-|900|120|20|400
 
 ___
 ### Unarmed Combat

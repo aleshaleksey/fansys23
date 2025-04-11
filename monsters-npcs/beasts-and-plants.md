@@ -38,7 +38,7 @@ ___
 ### Eagle (level 2)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|12/9/13|12|10|5|10ft|100ft (flight, average)|
+|13/10/13|12|10|5|10ft|100ft (flight, average)|
 
 Size=Small
 
@@ -64,7 +64,7 @@ ___
 ### Falcon (level 1)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|13/8/14|7|4|1|10ft|90ft (flight, good)|
+|15/10/14|7|4|1|10ft|90ft (flight, good)|
 
 Size=Tiny
 
@@ -92,7 +92,7 @@ ___
 ### Owl (level 1)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|12/9/13|4|6|1|10ft|50ft (flight, average)|
+|13/10/13|4|6|1|10ft|50ft (flight, average)|
 
 Size=Small/Tiny
 
@@ -122,7 +122,7 @@ ___
 ### Raven (level 1)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|12/9/13|3|7|1|10ft|60ft (flight, average)|
+|13/10/13|3|7|1|10ft|60ft (flight, average)|
 
 Size= Small, Raven / Tiny, Crow
 
@@ -152,7 +152,7 @@ ___
 ### Cat
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/8/14|6|6|2|30ft|climb (30ft)|
+|16/10/14|6|6|2|30ft|climb (30ft)|
 
 Size = tiny
 
@@ -183,7 +183,7 @@ ___
 ### Dog
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/9/14|8|4|2|30ft|
+|15/10/14|8|4|2|30ft|
 
 Size = small
 
@@ -383,7 +383,7 @@ ___
 ### Bat
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/8/14|2|4|1|10ft|climb (10ft), fly 40ft (good)|
+|16/10/14|2|4|1|10ft|climb (10ft), fly 40ft (good)|
 
 Size = tiny
 
@@ -429,8 +429,8 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite|+8|1d8+3|Shear damage|
-|Claws|+8|2d4+3|Shear damage|
+|Bite|+8|1d10+3|Shear damage|
+|Claws|+8|1d6+3|Shear damage|
 |Monster attack|||Two claw attacks as a main action and a bite as secondary action|
 |Keen scent|||Advantage on perception rolls based on scent|
 |Low light Vision|||Can see in the "dark", but not pitch black conditions|
@@ -478,7 +478,7 @@ ___
 ### Rat
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/8/14|4|2|1|30ft|climb (30ft)|
+|16/10/14|4|2|1|30ft|climb (30ft)|
 
 Size = tiny
 
@@ -601,7 +601,7 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Claw|+5/+6|1d4+3 (Shear)|The raptor can either attack with its claw or bite, unless it has multi/monster attack|
-|Bite|+5/+6|2d4+3 (Shear)|The raptor can either attack with its claw or bite, unless it has multi/monster attack|
+|Bite|+5/+6|1d10+3 (Shear)|The raptor can either attack with its claw or bite, unless it has multi/monster attack|
 |[Skirmisher](../../06-abilities.md#skirmisher)||||
 |Sprinter|||Run x3, Sprint x3|
 |Tracker: Swift (lvl4)||||

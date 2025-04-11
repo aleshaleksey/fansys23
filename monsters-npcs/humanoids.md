@@ -687,7 +687,7 @@ ___
 ### Winged
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|12/10/12|6|4|1|20ft|60ft fly (average)|
+|13/10/12|6|4|1|20ft|60ft fly (average)|
 
 (+1 from base)
 
@@ -715,7 +715,7 @@ ___
 ### Winged Shepherd
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/12/14|18|14|5|20ft|60ft fly (average)|
+|16/12/14|18|14|5|20ft|60ft fly (average)|
 
 (+1 from base)
 
@@ -751,7 +751,7 @@ ___
 ### Winged Scout
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|17/13/16|42|30|11|20ft|80ft fly (good)|
+|18/13/16|42|30|11|20ft|80ft fly (good)|
 
 (+2 from base)
 
@@ -791,7 +791,7 @@ ___
 ### Winged Wind Mage
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|18/14/17|50|74|16|20ft|70ft fly (good)|
+|19/14/17|50|74|16|20ft|70ft fly (good)|
 
 (+3 from base)
 

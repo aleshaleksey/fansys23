@@ -723,7 +723,7 @@ As this is a human-centric game, probably designed by a human, "medium", the sta
 
 ___
 #### Dice size rules
-This applies mostly to weapon attacks, but may also apply to adjustments to poison based damage based on dose at the group's discretion. *[NB: Poison rules have not yet been written.]
+This applies mostly to weapon attacks, but may also apply to adjustments to poison based damage based on dose at the group's discretion. The increase in damage by larger weapons, and decrease in damage by smaller weapons is reflected by increase and decrease in the size/number of damage dice used.
 
 There are two progressions of dice size/count with weapon size/dose, the D2 and the D3 progression. All standard size-dependant transitions can be found here. Dice combos not in these transitions do not change with weapon size. The transitions upwards look like this:
 
@@ -731,27 +731,29 @@ There are two progressions of dice size/count with weapon size/dose, the D2 and 
 
 **D3:** 1d2[1] <- 1d3[2] -> 1d5[2] -> **1d8** -> **1d12** -> **2d8** -> **2d12** -> 3d12 -> 5d12 -> 7d12
 
-1. This transition is only ever applied downwards from D3.
-2. D3 is a "virtual dice" obtained by dividing the result on a D6 by two. D5 is also a "virtual dice": Divide the result on a D10 by 2.
+1. This transition is only ever applied for the downwards size transition from D3 and never for the size upwards size transition from D2.
+2. D3 and D5 are "virtual dice" obtained by dividing the result on a D6 or D10, respectively, by two.
 
-Downwards transitions are just upwards transitions in reverse.
+Downwards size transitions are just upwards size transitions in reverse with the exception of 1d2 <- 1d3 transition, which is only ever applied downwards (decrease of weapon size). So if a "diminutive" entity deals 1d2 damage, if it is magically grown to "tiny", it will deal "1d4". However, if we know that the weapon it uses is a mace, which uses 1d8 at "medium", and 1d2 at "diminutive" then looking at the size chart, and using downwards size transitions, we can determine that at "tiny" size it should deal "1d3".
 
-For example, Bob the pixie is "tiny" and uses a greatsword (2d6 damage at medium). The first transformation to small from 2d6 gives us 1d10, and then the second from 1d10 gives us 1d6. Thus Bob's greatsword deals 1d6 damage before applying modifiers.
+Typically we derive weapon damage for entities that are not medium from the dice of the medium sized weapon. For example, Bob the pixie is "tiny" and uses a greatsword (2d6 damage at medium). The first size transformation to small from 2d6 gives us 1d10, and then the second from 1d10 gives us 1d6. Thus Bob's greatsword deals 1d6 damage before applying modifiers.
 
-The table: 
+Lastly, only damage from [basic combat manoeuvres](04-combat.md#basic-martial-manoeuvres) scales in this manner. Damage from abilities and spells is not affected by the size of the entity wielding it. Unarmed strikes count as weapons.
 
-|Diminutive|Tiny|Small|**Medium**|Large|Huge|Gargantuan|Colossal|
-|-|-|-|-|-|-|-|-|
-|0|0|0|**1**|1d2|1d4|1d6|1d10|
-|0|1|1d2|**1d4**|1d6|1d10|2d6|2d10|
-|1|1d2|1d4|**1d6**|1d10|2d6|2d10|3d10|
-|1d2|1d3|1d5|**1d8**|1d12|2d8|2d12|3d12|
-|1d2|1d4|1d6|**1d10**|2d6|2d10|3d10|4d12|
-|1d3|1d5|1d8|**1d12**|2d8|2d12|3d12|5d12|
-|1d4|1d6|1d10|**2d6**|2d10|3d10|4d12|6d12|
-|1d5|1d8|1d12|**2d8**|2d12|3d12|5d12|7d12|
-|1d6|1d10|2d6|**2d10**|3d10|4d12|6d12|8d12|
-|1d8|1d12|2d8|**2d12**|3d12|5d12|7d12|9d12|
+__The Dice Size Rules Table:__ The first cell of each row shows the dice used by a weapon at "medium" size. Reading across the row then gives the damage the same weapon would do at each size category.
+
+|Original|Diminutive|Tiny|Small|**Medium**|Large|Huge|Gargantuan|Colossal|
+|-|-|-|-|-|-|-|-|-|
+|"1D1"|0|0|0|**1**|1d2|1d4|1d6|1d10|
+|"1D2"|0|1|1d2|**1d4**|1d6|1d10|2d6|2d10|
+|"1D4"|1|1d2|1d4|**1d6**|1d10|2d6|2d10|3d10|
+|"1D6"|1d2|1d3|1d5|**1d8**|1d12|2d8|2d12|3d12|
+|"1D10"|1d2|1d4|1d6|**1d10**|2d6|2d10|3d10|4d12|
+|"1D12"|1d3|1d5|1d8|**1d12**|2d8|2d12|3d12|5d12|
+|"2D6"|1d4|1d6|1d10|**2d6**|2d10|3d10|4d12|6d12|
+|"2D8"|1d5|1d8|1d12|**2d8**|2d12|3d12|5d12|7d12|
+|"2D10"|1d6|1d10|2d6|**2d10**|3d10|4d12|6d12|8d12|
+|"2D12"|1d8|1d12|2d8|**2d12**|3d12|5d12|7d12|9d12|
 
 NB: There can never be multiple of dice sizes smaller than D6 rolled for weapon damage outside of critical hits.
 

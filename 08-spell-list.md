@@ -3712,7 +3712,7 @@ ___
 
 Alternatively the caster can use the spell to affect only one aspect of the weather and move it in any direction, regardless of climate or season, such as changing extreme heat (even in a desert) into extreme cold.
 
-**Upcast**: The for every extra MP die above 7, the spell lasts for an extra hour or increases in radius by 20ft.
+**Upcast**: For every extra MP die above 7, the spell lasts for an extra hour or increases in radius by 20ft.
 
 **Global**: As local, but with a radius of 1200ft and a duration of 1 month. For every extra 4MP dice, the radius increases by 600ft or the duration increases by 1 month.
 
@@ -3788,7 +3788,7 @@ If the gem is given to another being within an hour of casting, that being becom
 **Limitation**: If the gem is broken, the spell ends.
 - When the spell ends, the memory returns to its original owner, unless they are dead/destroyed.
 - If the original owner of the memory is dead or destroyed, whoever breaks the gem keeps the memory as their own.
-- If the gem is destroyed by a soulless force, the memory settles in the nearest sapient being.
+  - If the gem is destroyed by a soulless force, the memory settles in the nearest sapient being.
 
 ___
 ### Meteoric Flight
@@ -3901,7 +3901,7 @@ ___
 |Save|CHA|
 
 **Description**: The spell functions like "[Lesser Domain](#lesser-domain)", but lasts longer and affects a greater space. It also has the following differences:
-- The greater domain may be populated with ephemeral spirits that take the forms of plants and animals. They are neither hostile nor friendly, and flee the domain if events threaten their existence.
+- The greater domain may be populated with ephemeral spirits that typically take the forms of plants and animals. They are neither hostile nor friendly, and flee the domain if events threaten their existence.
 - The caster can reshape the domain by will alone, changing 10ft x 10ft x 10ft of the domain per round.
 - Spells associated with the element used to cast the spell have their cost decreased by 1 MP dice. This effect never stacks.
 - Uninvited entities have disadvantage on rolls made to find or enter the domain.
@@ -3964,7 +3964,7 @@ ___
 
 **Description**: The caster performs an intricate ritual that binds the fate of a willing, mortal target to a profane being with the purpose of returning the target to life. In return, the profane being gains a grasp on the target's fate.
 
-The spell can either be cast either while the target is alive or within 6 days of its demise.
+The spell can either be cast while the target is alive or within 6 days of its demise.
 
 The spell allows the target to defy the laws of creation and return to life on the 6th day (midnight) after its death. If it had a physical form, then it is restored to how it was immediately before it died (minus the injuries). It returns to life with full HP, MP, SP and dice. However, it is forever changed:
 - The target gains the "profane" alignment, which cannot be removed by any means, furthermore magical means of discerning entity type will detect the resurrected target as "profane[undead]". The resurrected target does not gain any of the traits associated with "profane" or "undead" entities. 
@@ -3979,7 +3979,7 @@ Finally, the resurrected must sacrifice at least 1 level worth of mortals, of th
 - The spell fails if the target has a "divine" alignment.
 - The spell fails if the target is unwilling.
 
-**Special**: The target can break the profane pact with a successful CHA save. In this case it dies, and its soul returns to the afterlife. It can only attempt this spell once. Furthermore, should it fail, it can never attempt the save again.
+**Special**: The target can break the profane pact with a successful CHA save. In this case it dies, and its soul returns to the afterlife. It can only attempt this save once. Furthermore, should it fail, it can never attempt the save again.
 
 ___
 ### Regrowth
@@ -4031,10 +4031,10 @@ ___
 |Damage|6d12 pressure damage|
 |Save|STR, DEX|
 
-**Description**: The caster triggers ripples deep with the earth, which bloom into terrible shaking which destroy structures and knock entities off their feet. In addition rifts open somewhat randomly in the area of effect. The effects in the area of effect are as follows:
+**Description**: The caster triggers ripples deep with the earth, which bloom into terrible shaking which destroys structures and knock entities off their feet. In addition rifts open somewhat randomly in the area of effect. The effects in the area of effect are as follows:
 - All entities using "walk" modality must succeed a DEX save at the start of their turn or fall prone.
 - All entities using the "dig" modality must succeed a STR save at the start of their turn or take 6d12 damage and be "immobilised" (half damage on successful save).
-- All structures take 6d12 points of damage at the start of the caster's turn, unless they are warded, in which case the caster must succeed on a SAT roll vs the threshold of the ward. Any entity inside a structure that collapses must succeed a DEX save and a STR save. If it fails the DEX save it also takes the 6d12 damag. If it fails the STR save it is "immobilised".
+- All structures take 6d12 points of damage at the start of the caster's turn, unless they are warded, in which case the caster must succeed on a SAT roll vs the threshold of the ward. Any entity inside a structure that collapses must succeed a DEX save and a STR save. If it fails the DEX save it also takes the 6d12 damage. If it fails the STR save it is "immobilised".
 - 1d4 fissures open at points of the caster's choosing.The fissure's act as per the "[Rift](#rift)" spell, but end at the edge of the spell's area of effect. If the spell lasts for its full duration, the fissures have a 50% chance of closing, in which case any entities inside them must succeed a STR save or take 6d12 damage and be "immobilised" (half damage on successful save).
 
 **Global**: The spell extends for a radius of 3600ft and lasts for an hour. The fissures open once per minute instead of once per round, and their location is random.
@@ -4135,6 +4135,7 @@ ___
 3. Create a physical law binding one or more participants. However, if the law gives some kind of benefit, it must give an equal drawback, as determined by the DM. Likewise, if some kind of condition is involved, the fulfilment of this condition must be at least somewhat plausible.
   - For example, the oath may be "I will fear nothing while I'm with you", granting immunity to "frightened" in the presence of another participant. This would also imply that the one making the oath would *always* be "frightened" in their absence.
   - "I will not die until I have seen the sunset", may make one immortal, but it will guarantee death once the sunset is seen. Likewise if such an oath is made when seeing the sunset is literally impossible, the universe (read: the DM) MUST contrive an event that makes it instead inevitable, literally or figuratively. In this case, a blind paladin who swears such an oath may miraculously regain her sight in time to see the sunset, or see it in her dreams.
+  - This use of the spell is incapable of changing the nature of the world, but is capable of changing the path its targets walk to their destiny, thus oaths such as "I will never be defeated till the world ends", would not affect when the world ends, but can perhaps carry the one making it to the moment the world ends, or [seal them](#slumber) in such a way that they are incapable of being defeated or attaining victories.
 
 **Special**:
 - All targets of the spell innately know that they are making a mage's oath when the spell is cast, and have the power to refuse to participate if they are willing.
@@ -4169,7 +4170,7 @@ Ranged weapons attacks against entities inside the spell, those made across the 
 
 In addition the following effects apply inside the spell:
 - All corporeal entities of size "Large" and smaller within the spell automatically count as restrained and are moved up to 50ft within the spell as the caster wishes. Larger entities may make a CON save to avoid the effect. In either case an entity thus affected may attempt a STR save at the start of its turn to break free. When it does, it is flung to outside the nearest edge of the spell, landing prone and taking 50ft sheer damage.
-- All entities move at 1/4 speed within the spell's area of effect and flying entities are affected as by [extreme wind](#flying-and-turbulence).
+- All entities that are not restrained move at 1/4 speed within the spell's area of effect and flying entities are affected as by [extreme wind](#flying-and-turbulence).
 - Upon entering the area of effect of the spell, all entities that do not succeed on a CON save are considered aphonic and blind until they leave the area.
 - Every round the caster can choose an area with a column with a radius of 30ft within the spell for one of the following effects:
   - Lightning bolts strike the area, causing 4d8+[SUP] lightning damage to all entities in the area (DEX save half).
@@ -4197,12 +4198,12 @@ ___
 - All corporeal entities in range must succeed on a STR save or be swept 100ft along the path of the wave (to its end). Otherwise they are swept half of the distance. Entities of size large or smaller make the save at disadvantage.
 - Entities that fail the STR [take 2d6 HP damage from suffocation](03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die). Entities that do not breath, or breath water are not affected.
 - All structures take 8d12 pressure damage.
-- At the end of the wave's range, all objects it carry are dropped and suffer 5d8 percussive damage from falling, landing prone unless it succeeds on a DEX save.
+- At the end of the wave's range, all objects it carries are dropped and suffer 5d8 percussive damage from falling, landing prone unless unless they succeed on a DEX save.
 - At the end of the wave's range the water spreads outwards at a speed of 200ft per round for the next 5 rounds. Entities caught in the area must succeed a STR save or be swept 200ft away, landing prone. Objects weighing 2000lb or less are swept away.
 
 **Global**: The spell works in one of two ways.
-- Either it creates a wave with a width of 5000ft, that travels a distance of 3000ft and has a height of 2000ft. This wave travels at a speed of 600ft per round. The STR save is repeated at the start of affected characters' turns. Drowning damage is applied every round when the save is failed. The falling damage at the end of the spell is 36d8.
-- Or the wave has a width of 100ft, a height of 20ft and a length of 150ft. In this case, the wave lasts for 1 month and travels at a pace of up to 200ft per round over water in the direction specified by the caster, or at 40ft per round over land. It can carry objects of up to half of its volume without and causes no damage.
+- It creates a wave with a width of 5000ft, that travels a distance of 3000ft and has a height of 2000ft. This wave travels at a speed of 600ft per round. The STR save is repeated at the start of affected characters' turns. Drowning damage is applied every round when the save is failed. The falling damage at the end of the spell is 36d8.
+- Alternatively, the wave has a width of 100ft, a height of 20ft and a length of 150ft. In this case, the wave lasts for 1 month and travels at a pace of up to 200ft per round over water in the direction specified by the caster, or at 40ft per round over land. It can carry objects of up to half of its volume without and causes no damage.
 
 ___
 ## MP 10 Spells
@@ -4225,7 +4226,7 @@ ____
 |Limitation|See below| -4
 |Save|Special|
 
-**Description**: The caster makes a transient link to a deep layer of divine realms and beseeches a powerful **"divinity"** (god) to descend and inhabit a mortal (or construct) vessel, hence creating an avatar of the deity on the mortal realm. The vessel must be willing. If the vessel is unwilling and unconscious, it must make a Wis save with the threshold = the caster's SAP+Wis threshold. If the target is otherwise unwilling, the spell fails.
+**Description**: The caster makes a transient link to a deep layer of divine realms and beseeches a powerful **"divinity"** (usually a god) to descend and inhabit a mortal (or construct) vessel, hence creating an avatar of the deity on the mortal realm. The vessel must be willing. If the vessel is unwilling and unconscious, it must make a Wis save with the threshold = the caster's SAP+Wis threshold. If the target is otherwise unwilling, the spell fails.
 
 When the ritual is complete, the vessel is invigorated by the divine energy, restoring its MP, MP dice, SP and SP dice to full. At that moment the divinity takes full control of the mortal vessel and controls it fully as if it was its own (although either the DM or the player may control the avatar). The divinity uses its own stats, saves, abilities, skills, and attacks, but uses the HP, MP, SP (and dice) and effective level of the vessel. Thus it is limited, for example, in the number of MP or SP dice it may expend for a single ability or overall and the total MP/SP of the vessel.
 
@@ -4259,9 +4260,9 @@ ____
 
 **Description**: The caster channels vital energies positively or negatively into its target.
 - If channelled positively:
- - The target becomes immune to poison and disease for the duration of the spell.
- - The target becomes immune to "poisoned", "diseased", "catatonic", "bleeding", "paralysed" and "dying" (it becomes unconscious instead).
- - Once during the duration of the spell the target can regain all HP, SP and MP as a reaction. If it does this, the spell ends.
+  - The target becomes immune to poison and disease for the duration of the spell.
+  - The target becomes immune to "poisoned", "diseased", "catatonic", "bleeding", "paralysed" and "dying" (it becomes unconscious instead).
+  - Once during the duration of the spell the target can regain all HP, SP and MP as a reaction. Alternatively, it can forgo regaining the SP and MP and be cured of all conditions affecting it instead. IIn either case, if it does this, the spell ends.
 - If channelled negatively:
   - The target must succeed a CON save or suffer 5d6 entropic damage. In addition its SP and MP drops to zero. It also becomes "catatonic" for the duration of the spell (can make repeated saves at the start of its turn). On a successful save, the target does not not suffer the entropic damage, and loses only half of its SP and MP.
 - Negative and positive channelling is reversed for undead.
@@ -4271,7 +4272,7 @@ ____
   - All mortals within 10 miles regain 6 HP, and are cured of one disease, one poison and one condition of their choice.
   - Infertile, barren, or contaminated land within range becomes fertile. Fertile land in range yields twice the harvest for the next 10 years.
   - The after-effects of "[Harvest](#harvest)" on the affected territory ends.
-  - Each curse affecting the natural terrain within the area of effect ends if it was cast with less than 9 MP dice (if local), or 36 MP dice (if global). Likewise, all poisons affecting the land are removed.
+  - Each curse affecting the natural terrain within the area of effect ends if it was cast with less than 9 MP dice (if local), or 36 MP dice (if global). Likewise, all poisons affecting the land are neutralised.
 - If cast negatively:
   - All mortals within 10 miles must make a CON save or lose 6 HP and become poisoned. For simplicity a DM may assume that 96% of level 1, 80% level 2, 36% of level 3, and 4% of level 4 mortals in the area of effect that are not directly relevant to the game die.
   - All lands territory within 10 miles becomes barren wasteland, incapable of supporting life. Crops wither. Forests begin to wilt and rot. Toxic plankton blooms in waters and wipes out fish stocks. Etc.
@@ -4314,7 +4315,7 @@ ____
 
 **Special**: Gift of the Winds is a legendary magic. It channels the realm of the winds through those entities affected by the spell.
 - Wind sprites may appear before those once targetted by the spell, or in places where they have stayed for at least 8 hours. These wind sprites are friendly to former targets of the spell.
-- There is 1/6 chance that offspring of former targets of the spell are aligned to elemental air, and a 1/12 chance that instead of a mortal offspring, they will have a wind sprite.
+- There is 1/6 chance that offspring of former targets of the spell are aligned to elemental air, and a 1/12 chance that instead of a mortal offspring, they will sire/birth a wind sprite.
 - When a mortal once targetted by the spell dies, there is a 50% chance of its spirit becoming an air elemental.
 
 **Global**: The spell lasts for a year. Furthermore instead of a "perfect" flight speed of 120ft, the targets obtain a "good" flight speed of 240ft.
@@ -4351,7 +4352,7 @@ ____
   - Immunity to "charmed" and "catatonic".
   - Heavy cover from blocks of ice or tendrils of water.
 - As a "secondary action", the caster can freeze or melt any amount of water in the area of effect. Any entity caught in the frozen areas can attempt to break free with a Str save, however, this is often futile, as even if they break free, they may still be surrounded by walls of ice 10-20 feet thick. (This is very useful as a barrier)
-- As an action call watery tendrils to strike any number of targets in the area of effect, dealing 4d12 percussive damage on a failed Dex save. If the caster so choses, the tendrils an throw a target up to 80ft (or move a willing target the same distance).
+- As an action call watery tendrils to strike any number of targets in the area of effect, dealing 4d12 percussive damage on a failed Dex save. If the caster so choses, the tendrils can throw a target up to 80ft (or move a willing target the same distance).
 - As an action, cause (CON save to negate) or cure bleeding in any number of targets.
 - Control the movement of water as a "move action", including:
   - Raising or lowering water levels at will.

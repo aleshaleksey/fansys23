@@ -254,8 +254,8 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite|+8|4d8+4|Piercing, shear|
-|Great shout|Threshold=20 CHA||"secondary action", or stunned until the end of the head's next turn|
+|Bite|+8|2d12+4|Piercing, shear|
+|Great shout|Threshold=20 CHA||Cost: 2 SP dice. Range: 30ft sphere centred on the head. All entities that can hear the shout and fail the charisma save are stunned till the end of the head's next turn.|
 |Resistant|||"fear", "charm", "catatonic", "stun"|
 |Senses|||"Keen senses", "low light vision"|
 |Skills|||+5 to any 2, +4 to any two (usually knowledge arcana, track, nature)|
@@ -299,6 +299,43 @@ ___
 A very dangerous otherworldly monster. The Worm that Sings is has a slender, mushroom-like body with a flat head and towers 15ft as it stands. It wonders remote and sparsely inhabited lands, with no obvious goal, singing a haunting song as it goes, that is capable of ensnaring mortals. Mortals ensnared by the song either stand motionless and allow the worm to implant its eggs in it, which hatch within a month, beginning to devour the victim as they mature. Others become violent and attempt to strike nearby beings, even close friends.
 
 Worms that sing are thought to be capable of spellcasting. Those that encounter them speak of enthralling stories of ages past and ages that are to come, of other places on this world and of other worlds.
+
+___
+### Troll
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|14/16/8|86|22|15|40ft||
+
+(+6 natural armour, Size = Huge)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|22|10|22|6|10|12|
+|Bonus|+6|0|+6|-2|0|+1|
+|Save|+11|+2|+11|0|+2|+3|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|9 (2)|16|11|3|2|5|4|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite|+11|2d12+6|Piercing, shear|
+|Claws|+11|2d6+6|Piercing, shear|
+|Grapple, Restrain|+11||||
+|Combined Manoeuvre: Grapple|||Bite only: Trolls can deal damage with their bite while simultaneously grappling their target (1SP die)|
+|Great shout|Threshold=20 CHA||Cost: 2 SP dice. Range: 30ft sphere centred on the troll. All entities that can hear the shout and fail the charisma save are stunned till the end of the troll's next turn.|
+|Monster attack|||A troll makes two claw attacks. It can also make either a bite attack or a |
+||||||
+|Resistant|||"fear", "charm", "catatonic", "stun"|
+|Extraordinary Vitality|||A troll regains 5 SP and 1 HP at the start of its turn even if it is dead. If it is below 0 HP but not dead, its HP is set to 1. This ability is inactive on turns when the troll has suffered "fire", "divine" or "entropic" damage between the end of its previous turn and the start of this turn. A troll only dies permanently if its HP is 0 or below, and this ability is inactive.|
+|Limited Immunity|||"crippled": A troll that suffers from the "crippled" condition is cured of it at the start of its next turn, as it regenerates. If a troll's "extraordinary vitality" is disabled by any means, this ability likewise ceases to function|
+|Senses|||"Keen senses", "low light vision"|
+|Skills|||+5 to any 2, +4 to any two (usually knowledge arcana, track, nature)|
+
+Trolls are a giant-like monsters with extraordinary vitality and an insatiable lust for humanoid flesh. They stand 10-20ft tall, walk on two legs and have two (or sometimes more) arms that end in sharp, blade-like claws. Their teeth are likewise a vicious weapon. Trolls can use weapons, but seldom do. While they are cunning predators, smart enough to deceive, lure and ambush, they are typically slow witted. Trolls will typically hide and ambush potential prey. They can sometimes be negotiated with, though they seldom value anything more than a good meal.
+
+Trolls have the ability to recover swiftly from even fatal wounds. They have been known to reassemble themselves after having been chopped into mincemeat. They can only truly be killed if the wounds are seared with "fire" or "divine" energies, or if they are disintegrated by "entropic" forces. As a result trolls are seemingly willing to fight to the death against impossible odds. They are quick to reconsider this position upon encountering those who wield energies that are truly capable of destroying them.
 
 ___
 ### Mudwalker
@@ -400,7 +437,7 @@ The following is common to lycanthropes:
 - Lycanthropes are immune to "physical" damage.
 - Lycanthropes are at least resistant to "poison" and "disease".
 - Lycanthropes have an alternate form of a beast (though this is never a herbivorous beast). Less powerful lycanthropes have little control over this transformation.
-- Lycanthropes have a weaken against "piercing" and "slashing" resistances are negated by weapons made of silver.
+- Lycanthropes' "piercing" and "slashing" immunities are negated by weapons made of silver.
 
 ___
 ### Werewolf, lesser
@@ -442,7 +479,7 @@ Dragons, in most worlds, are the apex mortal being. They are typically stronger,
 Aside from hand-waving the question away, there can be a whole number of reasons.
 - Dragons reproduce and grow slowly, so their numbers might not be enough to control whole civilisations the world over.
 - In most settings they spend most of their lives sleeping, probably due the enormous metabolic costs of activity for their enormous forms.
-- They do, they'r just magically disguised as humanoids and so most people, other than those who are kept in a constant state of fear, or discredited as madmen, don't know.
+- They do, they'r just magically disguised as humanoids and so most people, other than those who are kept in a constant state of fear, or discredited as madmen, are not aware of the fact.
 
 Likewise, settings where dragons *do* rule the world are completely plausible.
 

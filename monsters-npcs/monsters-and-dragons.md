@@ -443,24 +443,38 @@ ___
 ### Werewolf, lesser
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-||||||
+|14/12/14|32|22|11|40ft (50ft wolf form)|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|||||||
-|Bonus|||||||
-|Save|||||||
+|Stat|18|14|15|10|13|12|
+|Bonus|+4|+2|+2|0|+1|+1|
+|Save|+6|+6|+6|+2|+3|+3|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-||||||||
+|6(2)|10|8|2|2|4|4|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
+|Club (human form)|+8|1d4+4 bludgeoning|-|
+|Hand axe|+8|1d6+4 slashing|Proficient with any one weapon group, but no armour|
 |||||
+|Proficiencies|||Any two tools or kits|
+|Resistance|||Physical damage, "bleeding", "crippled", "incapacitated", "frightened"|
+|Resistance|||"poison", "disease"|
+|Greater Vitality|||A werewolf restores all SP and MP (but not dice) at the end of a short rest, as well as 1 HP. A werewolf restores HP fully following a long rest.|
+|Anathema: Silver|||Silver negates a werewolf's resistances and "Greater Vitality"|
 |||||
+|Skills|-|-|Usually +8 fortify, +4 to harvest, +1 to any one from the "sense" group|
+|Alternate Form: Wolf|1 MP dice||As a main action, a werewolf can transform into a wolf, or back into its humanoid form. Any equipment, or possessions are not transformed. On nights within 2 nights of the full moon a lesser werewolf must success|
 |||||
-|||||
+|Keen Senses: Hearing, Scent|||A werewolf has advantages on observe rolls that rely on hearing or scent|
+|Low light vision|||A werewolf can see normally in dim light, but not total darkness|
+
+In general, werewolves are humanoids who have been cursed by the gods or blessed by the night. They gain the keep senses and strength of wild beasts and the ability to transform into a wolf. Lesser werewolves are not in complete control of their transformation, and as the full moon nears, so does the chance that the night will choose the moment of their transformation for them.
+
+This stat block reflects a human peasant which is also a werewolf. For other humanoids, take the [werewolf template](../09-races.md#werewolf-lesser-level-5-template--32--8-points), apply it on top of the stat block, and add five levels.
 
 ___
 ## Dragons

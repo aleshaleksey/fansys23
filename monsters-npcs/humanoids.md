@@ -1059,7 +1059,7 @@ There is some debate as to whether giants are humanoids, monsters or an entirely
 |||||
 |[Bard Song II](../06-abilities.md#bard-song-i-iv)|||1 SP dice: A giant's song can be a boon or a bane to a mortal's heart|
 |[Spellsong II](../06-abilities.md#spellsong-i-iv)|||1 MP dice: A giant's song can distort the spells it weaves|
-|Spellcasting: Wind III|Threshold = 21||Favourite spells: "[Least Anemancy](../08-spell-list.md#least-anemancy)", "[Least Blast](../08-spell-list.md#least-blast)", "[Least Flare](../08-spell-list.md#least-flare)", "[Tail Wind](../08-spell-list.md#tailwind)", "[Lesser Xenophonia](../08-spell-list.md#lesser-xenophonia)", "[Wind Step](../08-spell-list.md#wind-step)", "[Storm Ward](../08-spell-list.md#storm-ward)"|
+|Spellcasting: Incantation II|Threshold = 21||Favourite spells: "[Down](../08-spell-list.md#down)", "[Least Pyromancy](../08-spell-list.md#least-pyromancy)", "[Sour](../08-spell-list.md#sour)", "[Least Heal](../08-spell-list.md#least-heal)", "[Least Vengeance](../08-spell-list.md#least-vengeance)", "[Lesser Xenophonia](../08-spell-list.md#lesser-xenophonia)", "[Promise](../08-spell-list.md#promise)"|
 |||||
 |Resistance|||"poisoned" and "diseased" as well as "biological" damage.|
 |Resistance|||"Frightened", "Charmed", "Grappled", "Restrained", "Incapacitated"|
@@ -1113,9 +1113,9 @@ ___
 |||||
 |Foresight|||+1 to Evasion|
 |Blindsight III|||A giant warrior has blindsight out to 15ft|
+|Spellcasting: Wind III|Threshold = 21||Favourite spells: "[Least Anemancy](../08-spell-list.md#least-anemancy)", "[Least Blast](../08-spell-list.md#least-blast)", "[Least Flare](../08-spell-list.md#least-flare)", "[Tail Wind](../08-spell-list.md#tailwind)", "[Lesser Xenophonia](../08-spell-list.md#lesser-xenophonia)", "[Wind Step](../08-spell-list.md#wind-step)", "[Storm Ward](../08-spell-list.md#storm-ward)"|
 |[Bard Song III](../06-abilities.md#bard-song-i-iv)|||1 SP dice: A giant's song can be a boon or a bane to a mortal's heart|
 |[Spellsong II](../06-abilities.md#spellsong-i-iv)|||1 MP dice: A giant's song can distort the spells it weaves|
-|Spellcasting: Incantation II|Threshold = 21||Favourite spells: "[Down](../08-spell-list.md#down)", "[Least Pyromancy](../08-spell-list.md#least-pyromancy)", "[Sour](../08-spell-list.md#sour)", "[Least Heal](../08-spell-list.md#least-heal)", "[Least Vengeance](../08-spell-list.md#least-vengeance)", "[Lesser Xenophonia](../08-spell-list.md#lesser-xenophonia)", "[Promise](../08-spell-list.md#promise)"|
 |||||
 |Immunity|||"Frightened", "Charmed", "Grappled", "Restrained", "Incapacitated"|
 |Resistance|||"Incapacitated", "Stunned", "Paralysed"|

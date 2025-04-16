@@ -1450,7 +1450,7 @@ ___
 
 **Type**: (Natural/Supernatural, Class B-S)
 
-**Description**: Gain resistance to one condition (advantage on saves vs condition, disadvantage on combat manoeuvres vs a character that is resistant).
+**Description**: Gain immunity to one condition.
 
 **Prerequisites**: In addition to other prerequisites, a character must be first be resistant to the condition to gain the immunity.
 

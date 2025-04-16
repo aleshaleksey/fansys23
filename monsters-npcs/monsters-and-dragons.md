@@ -6,6 +6,7 @@
     - [Mudcrawler](#mudcrawler)
     - [Fell Beast](#fell-beast)
     - [Troll Head](#troll-head)
+    - [Troll](#troll)
     - [The Worm that Sings](#the-worm-that-sings)
     - [Mudwalker](#mudwalker)
     - [Kraken, Lesser](#sea-monster-kraken-lesser)
@@ -359,7 +360,7 @@ ___
 |-|-|-|-|
 |Piercing Limb|+20|3d12+9|Piercing, shear|
 |Noxious aura|Threshold=22 Con|2d8 Poison[natural]|"main action", 2SP. Every round the aura is active it increases in radius by 20 feet beyond the mudwalker's space to a maximum of 60ft. The poison hangs in the air for 10 minutes in the area where it was active. [Severe](../03-movement-exploration.md#travel-and-getting-lost), or worse, blows away the aura upwind fom the mudwalker.|
-|"Monster Attack III"|||Makes 4 "Piercing Limb" attacks per round|
+|"Monster Attack III"|||Makes 4 "Piercing Limb" attacks per round, it its target is of "medium" size or smaller, it can only be targetted by a single attack. If it is "large" it can only be targetted by two attacks.|
 |Resistant|||"charm", "catatonic", "stun", "piercing"|
 |Senses|||"Tremor Sense IV" 60ft, "Blind sight" 5ft (otherwise blind)|
 |Skills|||+4 Climb, +7 Stealth, +4|

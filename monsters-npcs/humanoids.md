@@ -4,31 +4,40 @@ This section contains a few NPC stat blocks and notes on their intended use and 
 
 ## List
 
-- [Human Commoner](#human-commoner)
-- [Human Peasant](#human-peasant)
-- [Human Elite](#human-elite)
-- [Human Guard](#human-militia)
-- [Human Warrior](#human-warrior)
-- [Human Knight](#human-knight)
-- [Human Magic Knight](#human-magic-knight)
-- [Human Elemental Knight](#human-magic-knight-variant-elemental-knight)
-- [Elvish Youth](#elvish-youth)
-- [Elf](#elf)
-- [Elvish Elder](#elvish-elder)
-- [Elvish Hunter](#elvish-hunter)
-- [Elvish Mage](#elvish-mage)
+- [Humans](#human)
+    - [Human Commoner](#human-commoner)
+    - [Human Peasant](#human-peasant)
+    - [Human Elite](#human-elite)
+    - [Human Guard](#human-militia)
+    - [Human Warrior](#human-warrior)
+    - [Human Knight](#human-knight)
+    - [Human Magic Knight](#human-magic-knight)
+    - [Human Elemental Knight](#human-magic-knight-variant-elemental-knight)
+- [Elves](#elf)
+    - [Elvish Youth](#elvish-youth)
+    - [Elf](#elf)
+    - [Elvish Elder](#elvish-elder)
+    - [Elvish Hunter](#elvish-hunter)
+    - [Elvish Mage](#elvish-mage)
 - [Orc](#orc)
-- [Orcish Hunter](#orcish-hunter)
-- [Orcish Berserker](#orcish-berserker)
-- [Orcish Geomancer](#orcish-geomancer)
+    - [Orc](#orc-1)
+    - [Orcish Hunter](#orcish-hunter)
+    - [Orcish Berserker](#orcish-berserker)
+    - [Orcish Geomancer](#orcish-geomancer)
 - [Winged](#winged)
-- [Winged Shepherd](#winged-shepherd)
-- [Winged Scout](#winged-scout)
-- [Winged Wind Mage](#winged-wind-mage)
-- [Beast Folk](#beast-folk)
-- [Beast folk traveller](#beast-folk-traveller)
-- [Beast folk warrior](#beast-folk-warrior)
-- [Beast folk mystic warrior](#beast-folk-mystic-warrior)
+    - [Winged](#winged-1)
+    - [Winged Shepherd](#winged-shepherd)
+    - [Winged Scout](#winged-scout)
+    - [Winged Wind Mage](#winged-wind-mage)
+- [Beast folk](#beast-folk)
+    - [Beast Folk](#beast-folk-1)
+    - [Beast folk traveller](#beast-folk-traveller)
+    - [Beast folk warrior](#beast-folk-warrior)
+    - [Beast folk mystic warrior](#beast-folk-mystic-warrior)
+- [Giants](#giant)
+  - [Giant](#giant-1)
+  - [Giant Warrior](#giant-warrior)
+  - [Colossus](#colossus)
 - []()
 
 ## Human
@@ -831,7 +840,7 @@ A wind mage tries to avoid battle. However if it cannot be done, they will attem
 ___
 ## Beast folk
 
-## Beast folk
+### Beast folk
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |12/11/12|10|12|3|35|(climb 30ft)|
@@ -868,7 +877,7 @@ Beast folk often dwell in wilder parts of the world, and much like orcs, tend to
 Common beast folk are often proficient with fighting tooth and claw and one form of ranged weapon. They seldom carry weapons unless they anticipate that they will need it.
 
 ___
-## Beast folk traveller
+### Beast folk traveller
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |14/12/13|18|18|6|35|(climb 30ft)|
@@ -908,7 +917,7 @@ This represents merchants, emissaries, messengers and other experienced wayfarer
 In combat, a beast folk traveller, will attempt to put some distance between themselves and targets and attack from afar. If this seems unlikely to work, they will flurry with tooth and claw, trying to take out their target as quickly as possible.
 
 ___
-## Beast folk warrior
+### Beast folk warrior
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |18/16/14|40|34|11|45ft|(30ft climb)|
@@ -955,7 +964,7 @@ A warrior generally uses brigandine for armour, although might use any medium ar
 A beast folk warrior prefers to approach its foe stealthily and then rush the foe and take it down with multiple strikes of its claws. Otherwise it prefers hit and run tactics before closing in for the kill. Beast folk warriors will retreat if victory is outside their reach, but they will generally die before surrendering to other humanoids.
 
 ___
-## Beast folk mystic warrior
+### Beast folk mystic warrior
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |18/16/14|40|34|11|55ft|(30ft climb)|
@@ -1007,6 +1016,151 @@ A mystic warrior can represent a master of martial arts who has trained for deca
 A mystic warrior might carry a quarter staff or a greatbow, but is usually capable of handling most threats without weapons. Most mystic warriors will generally prefer to get what they want through dialogue, but are not averse to the use of force.
 
 In combat a mystic warrior prefers hit and run tactics, making good use of its combat manoeuvres and "debilitating strike" to disable dangerous opponents. If it has thе opportunity to do so, it will harry enemies with its greatbow before closing in.
+
+___
+## Giant
+There is some debate as to whether giants are humanoids, monsters or an entirely different category of mortals. Regardless, giants are not visually much different from ordinary humanoid, apart from their impossible size. Giants stand at least 10ft tall and can reach be much much bigger. Giants, like mortals, eat, drink, sleep and generally age. They are born, reproduce and occasionally die. Giants often live for hundreds or even thousands of years.
+
+### Giant
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|15/16/7|110|58|20|45ft|
+
+- Size: Huge
+- Natural Armour: Armour +4
+- Saves: Str, Wis
+- Carrying capacity
+  - Light: 332lb
+  - Medium: 664lb
+  - Heavy: 1760lb
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|22|8|18|14|13|14|
+|Bonus|+6|-1|+4|+2|+1|+2|
+|Save|+13|+2|+11|+5|+4|+5|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|12(3)|19|17|4|3|7|6|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Strike|+13|2d6+6 Percussive|Reach=10ft|
+|Giant's Javelin|+13|2d8+6|Range: 360ft, Increment: 120ft|
+|Grapple/Throw|+13|||
+|||||
+|Great Strike|||A giant can sacrifice up to 3 points from its attack bonus, and instead increase damage dealt|
+|Broad Strike|||1SP, a giant can attack all adjacent targets in reach with a single attacks (1SP dice)|
+|Far Throw II|||When a giant throws its target [20ft + 15ft x size advantage]|
+|||||
+|Unarmed Strike II|||A giant's unarmed strike uses 2d6 as the damage dice|
+|Multi-attack I|||A giant makes two basic combat manoeuvres|
+|||||
+|[Bard Song II](../06-abilities.md#bard-song-i-iv)|||1 SP dice: A giant's song can be a boon or a bane to a mortal's heart|
+|[Spellsong II](../06-abilities.md#spellsong-i-iv)|||1 MP dice: A giant's song can distort the spells it weaves|
+|Spellcasting: Wind III|Threshold = 21||Favourite spells: "[Least Anemancy](../08-spell-list.md#least-anemancy)", "[Least Blast](../08-spell-list.md#least-blast)", "[Least Flare](../08-spell-list.md#least-flare)", "[Tail Wind](../08-spell-list.md#tailwind)", "[Lesser Xenophonia](../08-spell-list.md#lesser-xenophonia)", "[Wind Step](../08-spell-list.md#wind-step)", "[Storm Ward](../08-spell-list.md#storm-ward)"|
+|||||
+|Resistance|||"poisoned" and "diseased" as well as "biological" damage.|
+|Resistance|||"Frightened", "Charmed", "Grappled", "Restrained", "Incapacitated"|
+|Resistance|||"piercing" and "percussive" damage. A giant may also be resistant to *one* form of element damage.|
+|Skills|||"Fortify" +15, "Harvest" +12, "Observe" +11, "Knowledge: Geography" +8, "Heal" +7, "Intimidate" +5, "Perform" +5, 1 rank in all other skills (NB: Skill sets may vary between giants)|
+
+Giants are not necessarily particularly fierce. Many know a single elemental or nature magic to at least level II. If inclined to fight, they will use their magic to increase their already formidable strength, and then use their great size and strength to beat down their foe. They will often destroy fortifications made by the smaller races with javelins that strike with the force of a small ballista, which they use to hurl small boulders. A giant's booming voice can be heard for miles, should it choose to project it, and villagers in mountain valleys will often hear their their songs.
+
+Contrary to many myths, most giants are neither foolish, nor slow witted. Over their lifespan, giants often gain many a skill, and a traveller would often be wise to learn from a giant should they encounter one.
+
+___
+### Giant Warrior
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|23/20/12|208|132|31|50ft|
+
+- Size: Huge
+- Natural Armour: Armour +4
+  - + Mithral Chain Mail +7
+- Saves: Str, Wis, Con, Cha
+- Carrying capacity
+  - Light: 600lb
+  - Medium: 1200lb
+  - Heavy: 3600lb
+- Inventory: Huge Mithral "Full Chain" armour (440lb), Huge greatbow + arrows (~48lb + 48lb)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|30|12|24|14|16|18|
+|Bonus|+10|+1|+7|+2|+3|+4|
+|Save|+21|+5|+18|+6|+13|+14|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|20(4)|34|26|7|6|11|10|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Strike|+21|4d12+10 Percussive|Reach=10ft|
+|Giant's Bow|+12|2d10+1|Greatbow: Range: 1800ft, Increment: 360ft|
+|Grapple/Throw/Sunder|+21|||
+|||||
+|Great Strike|||A giant can sacrifice up to 4 points from its attack bonus, and instead increase damage dealt|
+|Broad Strike|||1SP, a giant can attack all adjacent targets in reach with a single attacks (1SP dice)|
+|Far Throw II|||When a giant throws its target [20ft + 15ft x size advantage]|
+|||||
+|[Combined Manoeuvre II](../06-abilities.md#multi-attack-i-iii)|||A giant can combine up to 3 basic combat manoeuvres|
+|Unarmed Strike IX|||A giant's unarmed strike uses 4d12 as the damage dice|
+|Multi-attack II|||A giant makes three basic combat manoeuvres|
+|Flurry|||A giant makes an extra unarmed attack (or combat manoeuvre) as a bonus action, or two if it uses an SP dice|
+|||||
+|Foresight|||+1 to Evasion|
+|Blindsight III|||A giant warrior has blindsight out to 15ft|
+|[Bard Song III](../06-abilities.md#bard-song-i-iv)|||1 SP dice: A giant's song can be a boon or a bane to a mortal's heart|
+|[Spellsong II](../06-abilities.md#spellsong-i-iv)|||1 MP dice: A giant's song can distort the spells it weaves|
+|Spellcasting: Incantation II|Threshold = 21||Favourite spells: "[Down](../08-spell-list.md#down)", "[Least Pyromancy](../08-spell-list.md#least-pyromancy)", "[Sour](../08-spell-list.md#sour)", "[Least Heal](../08-spell-list.md#least-heal)", "[Least Vengeance](../08-spell-list.md#least-vengeance)", "[Lesser Xenophonia](../08-spell-list.md#lesser-xenophonia)", "[Promise](../08-spell-list.md#promise)"|
+|||||
+|Immunity|||"Frightened", "Charmed", "Grappled", "Restrained", "Incapacitated"|
+|Resistance|||"Incapacitated", "Stunned", "Paralysed"|
+|Resistance|||"poisoned" and "diseased" as well as "biological" damage.|
+|Resistance|||"piercing", "slashing" and "percussive" damage. A giant may also be resistant to *one* form of element damage.|
+|Skills|||"Fortify" +20, "Climb" +20, "Athletics" +20, "Swim" +20, "Harvest" +16, "Observe" +14, "Knowledge: Geography" +10, "Heal" +9, "Intimidate" +10, "Perform" +7, 1 rank in all other skills (NB: Skill sets may vary between giants)|
+
+Giants are not necessarily particularly fierce. Giant warriors on the other hand are. These are the giants who have gone out of their way to hone the martial abilities. A giant warrior may be cruel or righteous, but generally takes great pride in its prowess. A giant warrior is an opponent to dragons, demons and some of the other great monsters that roam the world. A single one of these warriors is generally capable single handedly wiping out a small army.
+
+While giant warriors have various tactics, most spend centuries mastering unarmed combat, turning their enormous bodies into the deadliest of weapons.
+
+When facing single opponents a giant warrior will try to close and restrain the target and then beat it into a literal pulp.
+
+When facing multiple opponents, they will generally attempt to identify and disable any mages capable of debuffs, followed by those who are capable of dealing direct damage to it.
+
+When facing armies, they will use protective magics to reduce the effects of projectile weapons, followed by the use of its bow to thin out dangerous units at a distance. Only then does it close. Its aim is generally to break the enemy by inflicting massive casualties to its heaviest units. If it is particularly outnumbered it will attempt to use terrain traps to increase the density of enemy units as much as possible, since its fists become particularly deadly in those cases. Some giant warriors wear lighter armour and carry a long-axe for the occasion. The 15ft foot reach on a giant's long axe allows a giant to devastate dense formations.
+
+___
+### Colossus
+A colossus is to a giant what a giant is to man. It can be as small as 100ft tall, or as tall enough to walk with its head in literal clouds. A colossus in the land of humanoids is worshipped as a god or scorned as a natural disaster. While giants often take interest in the fate of small folks, for a colossus they are often but insects. A colossus is as likely to ignore a lesser mortal as it is to squash it like a bug. A colossus is not a force that ordinary mortals can hope to fight.
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+||||||
+
+- Size: Colossal
+- Natural Armour: Armour +4
+- Saves: Str, Con, Wis, Int, Cha
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|||||||
+|Bonus|||||||
+|Save|||||||
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|37(8)|||||||
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|||||
+|||||
+|||||
+|||||
 
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|

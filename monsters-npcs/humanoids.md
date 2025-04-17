@@ -1135,32 +1135,74 @@ When facing armies, they will use protective magics to reduce the effects of pro
 
 ___
 ### Colossus
-A colossus is to a giant what a giant is to man. It can be as small as 100ft tall, or as tall enough to walk with its head in literal clouds. A colossus in the land of humanoids is worshipped as a god or scorned as a natural disaster. While giants often take interest in the fate of small folks, for a colossus they are often but insects. A colossus is as likely to ignore a lesser mortal as it is to squash it like a bug. A colossus is not a force that ordinary mortals can hope to fight.
+A colossus (or Titan) is to a giant what a giant is to man. It can be as small as 100ft tall, or as tall enough to walk with its head in literal clouds. A colossus in the land of humanoids is worshipped as a god or scorned as a natural disaster. While giants often take interest in the fate of small folks, for a colossus they are often but insects. A colossus is as likely to ignore a lesser mortal as it is to squash it like a bug. A colossus is not a force that ordinary mortals can hope to fight. In most worlds colossi, much like ancient dragons, are either sleeping, sealed or extinct.
+
+What is the purpose of a colossus? What is its goals? What is its nature? That varies from world to world. In some they are the tools the gods used to create the world, in others they are the tools they will use to destroy it. In others still they have a different role entirely.
+
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-||||||
+|16/16/6|510|352|56|80ft|
 
 - Size: Colossal
-- Natural Armour: Armour +4
+- Natural Armour: Armour +10
 - Saves: Str, Con, Wis, Int, Cha
+- Carrying capacity
+  - Light: 2560lb
+  - Medium: 5120lb
+  - Heavy: 12800lb
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|||||||
-|Bonus|||||||
-|Save|||||||
+|Stat|40|10|31|24|19|23|
+|Bonus|+15|0|+10|+7|+4|+6|
+|Save|+33|+8|+28|+25|+22|+24|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|37(8)|||||||
+|37(8)|55|56|10|10|18|18|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|||||
-|||||
-|||||
-|||||
+|Strike|+33|7d12+15|Reach 20ft+ (A colossus makes generous use of great and broad strike)|
+|[Elemental Blast: Fire](../06-abilities.md#elemental-blast)|+22|8d6+7|Range = 120ft + 30ft/MP dice.|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Multi-attack III|||A Titan makes up to 4 basic combat manoeuvres as an attack action.|
+|[Far Throw V](../06-abilities.md#far-throw-i-v)|||A colossus throws its target 35ft +30ft x size advantage|
+|[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||A colossus can combine two basic combat manoeuvres (1 SP dice)|
+|[Great Strike](../06-abilities.md#great-strike)|||A colossus can sacrifice up 15 from its attack bonus to damage (declared before making a strike)|
+|[Broad Strike](../06-abilities.md#broad-strike)|||A colossus can strike all adjacent targets within its reach with a single strike (1SP dice)|
+|[Berserk V](../06-abilities.md#berserk-i-v)||||
+|[Unarmed Strike IX](../06-abilities#unarmed-strike-i-ix)||||
+|[Arcane Interception](../06-abilities#arcane-interception)||||
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|[Cursed Blood](../06-abilities#cursed-blood)||||
+|[Elemental Blast](../06-abilities#elemental-blast)||||
+|[Greate Elemntal Blast: Linear](../06-abilities#elemental-blast-greater-linear)||||
+|[Greate Elemntal Blast: Radial](../06-abilities#elemental-blast-greater-radial)||||
+|[Deflection](../06-abilities#deflection)||||
+|[Esoteric Deflection](../06-abilities#esoteric-deflection)||||
+|[Spellcasting: Incantation VI](../06-abilities.m)|Threshold=37|||
+|[Spellcasting: Global I](../06-abilities.m)||||
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Damage Resistance|||"Entropic", "Divine", "Profane"|
+|Damage Immunity|||"Disease", "Poison"|
+|[Truesight V](../06-abilities.md#truesight-i-v)|||150ft|
+|Skills|||"Spellworking" +27, "Knowledge (all)" +24, "Fortify" +24, "Athletics" +24, "Swim" +24, "Climb" +18. "Observe" +20, other skills 1 rank.|
+
+It is not often that a titan engages in battle. In most cases it does not rush. There is no such thing as an insignificant foe. Insignificant foes are ignored or crushed in an instant. They are sealed or subverted. A combat is only when a foe is significant.
+
+A colossus will prepare the battlefield with "[Lesser Weather Control](../08-spell-list.md#lesser-weather-control)" and "[Balance of Elements](../08-spell-list.md#balance-of-elements)" to disable the long range capabilities of its foes and increase the effectiveness of its own magics. At that point it will attack directly, either using its elemental abilities to decimate collected foes, or its enormous form to physically destroy single strong foes.
+
+When dealing with highly mobile foes that use long ranged attacks that exceed the range of a ~6MP dice elemental blast, a colossus will generally summon air elementals to hunt it down. Otherwise it may use teleportation to close the distance to gain an advantage.
+
+A colossus may surrender or retreat when defeated, or it may simply refuse to believe that the fact.
 
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|

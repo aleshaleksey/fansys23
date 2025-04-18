@@ -7,6 +7,8 @@ These properties make constructs excellent workers and guardians.
 - [Gingerbread Golem, Warrior](#gingerbread-golem-warrior)
 - [Clay Golem, humanoid Lesser](#clay-golem-humanoid-lesser)
 - [Clay Golem, humanoid](#clay-golem-humanoid)
+- [Stone Golem, humanoid](#stone-golem-humanoid)
+- [Jade Golem, beast](#jade-golem-beast)
 
 ___
 ## Robots
@@ -216,7 +218,7 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|11(3)|19|16|4|3|6|5|
+|11(3)|19|16|4|3|7|6|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -245,6 +247,61 @@ ___
 Stone golems are more difficult to construct than clay golems, but they are also more potent. They have a use as guardian golems and war golems, since the effort of constructing them is offset by their increased utility. Its immunity to slashing and piercing weapons makes it especially useful against conventional armies.
 
 A stone golem has a near-human intelligence, but no will of its own and follows its master's instructions to the best of its ability. If given no instructions it continues the last task until it is complete. It will defend its master unless explicitly instructed not to.
+
+
+___
+#### Jade Golem, beast
+Jade golems are sometimes known as "Sage's Horse" or "Sage's Shield". They are not superior to ordinary stone golems in terms of toughness, but the material is more closely associated with supernatural energies, so powerful mages often create them for particular purposes, a common purpose is as a mount.
+___
+**Size category**: Huge (20ft x 20ft)
+- Evade: -2, Armour +2
+- Reach: 10ft
+- [DEX save]: -2, [STR save]: +2
+- Carry capacity: (208lb light, 416lb medium, 1040lb heavy, 1560lb drag)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|21/21/9|104|98|24|70ft||
+
+- Natural Armour: +4 (stone)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|24|14|22|12|17|-|
+|Bonus|+7|+1|+6|+1|+3|-|
+|Save|+13|+4|+9|+5|+7|-|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|11(3)|16|19|3|4|6|7|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite|+13|2d8+7|Sheer|
+|Claws|+13|2d6+7|Percussive|
+|||||
+|Grapple|+13|||
+|Interception|+15|||
+|Monstert Attack II|||A jade golem makes two attacks with its claws and two with its claws as part of an attack action.|
+|Combined Manoeuvre I|||A jade golem can combine any two manoeuvres it is proficient with by expending 1 SP dice.|
+|||||
+|Senses|||Sight, "low-light vision", "blind-sight" 30ft|
+|Limited Telepathy|||A stone golem can implicitly understand its master within 1 mile.|
+|[Arcane Interception](../06-abilities.md#arcane-interception)|||A Jade golem can intercept arcane|
+|[Deflection](../06-abilities.md#deflection)|||A Jade golem can reduce damage from supernatural attacks aimed at it|
+|Proficiencies|||2 languages|
+|Skills|||"Athletics" +13, "Climb" +9, "Observe" +7, "Prospect" +5, Knowledge (any 2) +5|
+|||||
+|Absorb Energy|||"Profane" - Jade golems are immune to profane damage. In addition any damage it would take from poison instead restores the golem's SP by an equal amount.|
+|Immune|||"Lightning", "Necrotic", "Poison", |
+|Immune|||"Physical damage" from weapons with a material level of 2 or less.|
+|Immune|||Spells of MP cost of 3 or lower|
+|Resistant|||"Physical" damage, "Energy"[natural] damage|
+|Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "stunned" "incapacitated", "catatonic" and "dying"|
+
+Bestial Jade golems are often used as mounts by rulers and powerful mages. They are less physically potent than regular stone golem and significantly more difficult to enchant. However, their affinity for the supernatural makes them more suitable for service with those who are particularly likely to encounter supernatural energies. They are particularly valued by those paladins and exorcists who are sufficiently well off or well connected to obtain one.
+
+A jade golem has a near-human intelligence, but no will of its own and follows its master's instructions to the best of its ability. If given no instructions it continues the last task until it is complete. It will defend its master unless explicitly instructed not to.
 
 
 ___

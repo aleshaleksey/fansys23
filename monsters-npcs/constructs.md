@@ -192,6 +192,59 @@ Clay golems are the simplest of golems. They are often used as guardians by jour
 
 A clay golem has a near-human intelligence, but no will of its own and follows its master's instructions to the best of its ability. If given no instructions it continues the last task until it is complete. It will defend its master unless explicitly instructed not to.
 
+___
+#### Stone Golem, humanoid
+Stone Golems can be of any size. This affects various parameters. Golems are usually humanoid in shape, but this is not necessarily so.
+___
+**Size category**: Large (10ft x 10ft)
+- Evade: -1, Armour +1
+- Reach: 5ft (long)
+- [DEX save]: -1, [STR save]: +1
+- Carry capacity: (208lb light, 416lb medium, 1040lb heavy, 1560lb drag)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|21/21/9|104|98|24|40ft||
+
+- Natural Armour: +4 (stone)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|26|8|22|10|14|-|
+|Bonus|+8|-1|+6|0|+2|-|
+|Save|+15|+1|+9|+2|+4|-|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|11(3)|19|16|4|3|6|5|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Strike|+15|2d8+8|bludgeoning|
+|Rock Throw|+15|1d12+8|80ft/240ft, a golem can throw an object (or objects) weighing up to 192lb as projectiles. If the projectile is of a weaker material (or a mortal), than the target, the damage is shared evenly between projectile and target.|
+|Grapple|+15|||
+|Throw|+15|||
+|Interception|+15|||
+|Multiattack I|||A stone golem attacks twice,|
+|Combined Manoeuvre II|||A stone golem can combine any two or three manoeuvres it is proficient with by expending 1 or 2 SP dice respectively.|
+|Flurry|||A stone golem can make a second combat manoeuvre as a secondary action|
+|Greater Manoeuvre I|||A stone golem can apply manoeuvres to targets up the size of "colossal"|
+|||||
+|Senses|||Sight, "low-light vision", "blind-sight" 30ft|
+|Senses|||A stone golem has no sense of smell or touch|
+|Limited Telepathy|||A stone golem can implicitly understand its master within 120ft.|
+|Proficiencies|||1 language and up to 4 kits|
+|Skills|||"Athletics" +13, "Fortify" +12, "Climb" +9, "Harvest" +8, "Observe" +6, "Prospect" +4|
+|||||
+|Absorb Energy|||"Poison" - Stone golems are immune to poison. In addition any damage it would take from poison instead restores the golem's SP by an equal amount.|
+|Immune|||"Lightning", "Necrotic"|
+|Immune|||"Slashing", "Piercing" from weapons with a material level of 2 or less.|
+|Resistant|||"Physical" damage, "Energy"[natural] damage|
+|Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "stunned" "incapacitated", "catatonic" and "dying"|
+
+Stone golems are more difficult to construct than clay golems, but they are also more potent. They have a use as guardian golems and war golems, since the effort of constructing them is offset by their increased utility. Its immunity to slashing and piercing weapons makes it especially useful against conventional armies.
+
+A stone golem has a near-human intelligence, but no will of its own and follows its master's instructions to the best of its ability. If given no instructions it continues the last task until it is complete. It will defend its master unless explicitly instructed not to.
 
 
 ___

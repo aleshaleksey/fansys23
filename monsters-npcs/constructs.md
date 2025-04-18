@@ -3,6 +3,8 @@ Constructs are life-like devices that are capable of movement and are generally 
 
 These properties make constructs excellent workers and guardians.
 
+- [Gingerbread Golem](#gingerbread-golem)
+- [Gingerbread Golem, Warrior](#gingerbread-golem-warrior)
 - [Clay Golem, humanoid Lesser](#clay-golem-humanoid-lesser)
 - [Clay Golem, humanoid](#clay-golem-humanoid)
 
@@ -17,6 +19,79 @@ ___
 **Golems** are "supernatural" constructs. Typically they are created for tasks which mortals cannot accomplish due to the frailness or limited lifespan of mortal beings. Golems typically continue to carry out these tasks long after their creators pass on.
 - Golems are immune to: "Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "stunned" "incapacitated", "catatonic" and "dying".
 - Golems are at least resistant to "physical" damage and all "energy"[Nat] damage.
+
+___
+#### Gingerbread Golem
+Gingerbread golems, also known as gingerbread men are usually small or tiny pastries animated with magic. They are not generally particularly dangerous.
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|18/11/18|15|13|5|60ft|
+**Size category**: Tiny (5/4ft x 5/4ft)
+- Reach: 0ft
+- Carry capacity: (6lb light, 12lb medium, 30lb heavy, 45lb drag)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|6|20|12|13|8|13|
+|Bonus|-2|+5|+1|+1|-1|+1|
+|Save|-3|+9|+2|+2|0|+2|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|3(1)|6|5|1|1|2|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Strike|+7|6|Reach=0ft (a gingerbread golem must enter a target's square to make an attack against it.)|
+|[Weapon Finesse](../06-abilities.md#weapon-finesse)|||A gingerbread golem can use STR or DEX for melee attacks which may be governed by either.|
+|[Evasive](../06-abilities.md#evasive)|||A gingerbread golem avoids attacks of opportunity when moving between threatened squares.|
+|||||
+|[Flash Step](../06-abilities.md#flash-step)|||As a "secondary action" a gingerbread golem can move up to its base speed per SP dice expended.|
+|[Sprinter](../06-abilities.md#sprinter)||A gingerbread golem moves x3 times its base speed when using the "run" action, or x5 when using its "sprint" action.|
+|Skills|||"Acrobatics" +8, "Sleight of Hand" +6, "Stealth" +6, "Athletics" -2|
+|Resistant|||"Physical" damage, "Energy"[natural] damage|
+|Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "stunned" "incapacitated", "catatonic" and "dying"|
+
+Gingerbread golems seldom engage in combat, preferring to avoid violence with their swift and tireless leg (not all gingerbread golems have legs, some roll). However, they are still golems and travellers that underestimate them may not live to regret it.
+
+___
+#### Gingerbread Golem, Warrior
+Gingerbread golems, also known as gingerbread men are usually small or tiny pastries animated with magic. They are not generally particularly dangerous.
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|19/12/19|32|32|10|80ft|
+**Size category**: Tiny (5/4ft x 5/4ft)
+- Reach: 0ft
+- Carry capacity: (7lb light, 14lb medium, 35lb heavy, 52.5lb drag)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|7|20|14|13|8|15|
+|Bonus|-2|+5|+2|+1|-1|+2|
+|Save|0|+11|+3|+3|+1|+4|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|6(2)|10|10|2|2|4|4|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Strike|+9|6|Reach=0ft (a gingerbread golem must enter a target's square to make an attack against it.)|
+|[Multiattack I](../06-abilities.md#multi-attack-i-iii)|||A Gingerbread Golem Warrior can make two basic combat manoeuvres as part of an attack action.|
+|[Flurry](../06-abilities.md#flurry)|||Can make an extra basic combat manoeuvre as a secondary action, or two if it spends 1 SP dice.|
+|||||
+|[Weapon Finesse](../06-abilities.md#weapon-finesse)|||A gingerbread golem can use STR or DEX for melee attacks which may be governed by either.|
+|[Evasive](../06-abilities.md#evasive)|||A gingerbread golem avoids attacks of opportunity when moving between threatened squares.|
+|||||
+|[Flash Step](../06-abilities.md#flash-step)|||As a "secondary action" a gingerbread golem can move up to its base speed per SP dice expended.|
+|[Sprinter](../06-abilities.md#sprinter)||A gingerbread golem moves x3 times its base speed when using the "run" action, or x5 when using its "sprint" action.|
+|Skills|||"Acrobatics" +8, "Sleight of Hand" +6, "Stealth" +6, "Athletics" -2|
+|Resistant|||"Physical" damage, "Energy"[natural] damage|
+|Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "stunned" "incapacitated", "catatonic" and "dying"|
+
+Gingerbread golems seldom engage in combat, preferring to avoid violence with their swift and tireless leg (not all gingerbread golems have legs, some roll). However, sometimes a gingerbread man chooses violence. It then becomes a gingerbread warrior. Ridiculous though they may seem, these golems can easily defeat your average soldier.
 
 ___
 #### Clay Golem, humanoid Lesser

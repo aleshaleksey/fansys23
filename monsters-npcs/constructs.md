@@ -248,7 +248,6 @@ Stone golems are more difficult to construct than clay golems, but they are also
 
 A stone golem has a near-human intelligence, but no will of its own and follows its master's instructions to the best of its ability. If given no instructions it continues the last task until it is complete. It will defend its master unless explicitly instructed not to.
 
-
 ___
 #### Jade Golem, beast
 Jade golems are sometimes known as "Sage's Horse" or "Sage's Shield". They are not superior to ordinary stone golems in terms of toughness, but the material is more closely associated with supernatural energies, so powerful mages often create them for particular purposes, a common purpose is as a mount.
@@ -303,6 +302,116 @@ Bestial Jade golems are often used as mounts by rulers and powerful mages. They 
 
 A jade golem has a near-human intelligence, but no will of its own and follows its master's instructions to the best of its ability. If given no instructions it continues the last task until it is complete. It will defend its master unless explicitly instructed not to.
 
+___
+#### Mithril Golem, humanoid
+Mithril Golems can be of any size. This affects various parameters. Golems are usually humanoid in shape, but this is not necessarily so.
+___
+**Size category**: Huge (20ft x 20ft)
+- Evade: -2, Armour +2
+- Reach: 10ft
+- [DEX save]: -2, [STR save]: +2
+- Carry capacity: (416lb light, 832lb medium, 2080lb heavy, 3120lb drag)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|18/18/9|104|98|24|50ft||
+
+- Natural Armour: +6 (mithril)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|26|12|22|10|14|-|
+|Bonus|+8|+1|+6|0|+2|-|
+|Save|+15|+2|+9|+3|+5|-|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|13(3)|22|19|4|4|7|7|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Strike|+15|2d12+8|bludgeoning|
+|Rock Throw|+15|2d8+8|80ft/240ft, a golem can throw an object (or objects) weighing up to 416lb as projectiles. If the projectile is of a weaker material (or a mortal), than the target, the damage is shared evenly between projectile and target.|
+|[Greater Elemental Blast (Linear): Lighting](../06-abilities.md#elemental-blast-greater-linear)|+9|3d4+1d4/MP dice|(Range=120ft+30ft/MP sice) Mithril golems may use up to 7 MP dice when firing an elemental blast. The width of the beam may be up to 35ft.|
+|Grapple|+15|||
+|Throw|+15|||
+|Interception|+15|||
+|Multiattack I|||A mithril golem attacks twice,|
+|Combined Manoeuvre II|||A mithril golem can combine any two or three manoeuvres it is proficient with by expending 1 or 2 SP dice respectively.|
+|Flurry|||A mithril golem can make a second combat manoeuvre as a secondary action|
+|Greater Manoeuvre I|||A mithril golem can apply manoeuvres to targets up the size of "colossal"|
+|||||
+|Senses|||Sight, "low-light vision", "blind-sight" 30ft|
+|Senses|||A mithril golem has no sense of smell or touch|
+|Limited Telepathy|||A mithril golem can implicitly understand its master within 1 mile.|
+|Proficiencies|||1 language and up to 4 kits|
+|Skills|||"Athletics" +13, "Fortify" +12, "Climb" +9, "Harvest" +8, "Observe" +6, "Prospect" +4|
+|||||
+|Absorb Energy|||"Poison" - Mithril golems are immune to lightning. In addition any damage it would take from lightning instead restores the golem's SP by an equal amount.|
+|Immune|||"Poison", "Necrotic", "Cold"|
+|Immune|||Immune to physical damage from weapons with a material level of 3 or less.|
+|Resistant|||"Physical" damage, "Energy"[natural] damage|
+|Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "stunned" "incapacitated", "catatonic" and "dying"|
+
+Mithril golems are needlessly difficult to craft. However, they are supreme as weapons of war go. Faster and tougher than stone golems, they are almost impossible to destroy without weapons made of the highest grade materials, or powerful magics. In battle Mithril golems are best used to bombard enemy fortifications with huge fortifications with huge boulders, or clean out large swathes of dense formations with its elemental blast. However it can also be used to enter melee and directly destroy enemy manpower. They are also effective in countering lesser golems and monsters which would otherwise be a danger to one's own forces. Smaller golems of this type are occasionally used as honour guard for the rulers of magocracies.
+
+A mithril golem has a near-human intelligence, but no will of its own and follows its master's instructions to the best of its ability. If given no instructions it continues the last task until it is complete. It will defend its master unless explicitly instructed not to.
+
+___
+#### Diamond Golem, humanoid
+Diamond Golems can be of any size, but they are rarely larger than medium, due to scarcity of material and how difficult it is to work with.
+___
+**Size category**: Huge (5ft x 5ft)
+- Reach: 5ft
+- Carry capacity: (104lb light, 208lb medium, 520lb heavy, 760lb drag)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|26/26/12|162|162|40|40ft||
+
+- Natural Armour: +12 (diamond)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|26|14|24|12|16|-|
+|Bonus|+8|+2|+7|+1|+3|-|
+|Save|+17|+6|+16|+4|+7|-|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|16(4)|25|25|5|5|9|9|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Strike|+17|2d8+8|bludgeoning|
+|Rock Throw|+17|1d12+8|40ft/120ft, a golem can throw an object (or objects) weighing up to 104lb as projectiles. If the projectile is of a weaker material (or a mortal), than the target, the damage is shared evenly between projectile and target.|
+|[Greater Elemental Blast (Radial): Light](../06-abilities.md#elemental-blast-greater-radial)|+9|3d4+1d4/MP dice|(Range=120ft+30ft/MP sice) Diamond golems may use up to 8 MP dice when firing an elemental blast. The radius of the beam may be up to 80ft.|
+|Grapple|+15|||
+|Throw|+15|||
+|Interception|+15|||
+|Multiattack II|||A diamond golem makes three attacks.|
+|Combined Manoeuvre II|||A diamond golem can combine any two or three manoeuvres it is proficient with by expending 1 or 2 SP dice respectively.|
+|Flurry|||A diamond golem can make a second combat manoeuvre as a secondary action|
+|Greater Manoeuvre II|||A diamond golem can apply manoeuvres to targets up the size of "colossal"|
+|[Arcane Interception](../06-abilities.md#arcane-interception)|||A diamond golem can intercept arcane|
+|[Deflection](../06-abilities.md#deflection)|||A diamond golem can reduce damage from supernatural attacks aimed at it|
+|[Esoteric Deflection](../06-abilities.md#esoteric-deflection)|||A diamond golem can reduce damage from esoteric attacks aimed at it|
+|||||
+|Senses|||Sight, "low-light vision", "blind-sight" 30ft, "true-sight" 30ft|
+|Senses|||A diamond golem has no sense of smell or touch|
+|Limited Telepathy|||A diamond golem can implicitly understand its master within 1000 miles.|
+|Proficiencies|||1 language and up to 4 kits|
+|Skills|||"Athletics" +20, "Fortify" +20, "Climb" +12, "Harvest" +12, "Observe" +10, "Prospect" +6, 1 rank in all other skills not governed by CHA|
+|||||
+|Absorb Energy|||"Fire", "Light", "Pressure" - Diamond golems are immune to these damage types. In addition any damage of these types it would take instead restores the golem's SP by an equal amount.|
+|Immune|||"Poison", "Necrotic", "Cold"|
+|Immune|||Immune to physical damage from weapons with a material level of 4 or less.|
+|Resistant|||"Physical" damage, "Energy" damage|
+|Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "stunned" "incapacitated", "catatonic" and "dying"|
+
+Simply spoken, diamond golems are the pinnacle of artifice. Incredibly difficult and impractical to create, they are likewise almost impossible to destroy and incredibly rare. When used, it is generally as guardians of sacred sites, otherworldly portals and dangerous seals.
+
+A diamond golem has a human-like intelligence, but no will of its own. It follows its master's instructions to the best of its ability. If given no instructions it continues the last task until it is complete. It will defend its master unless explicitly instructed not to.
 
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|

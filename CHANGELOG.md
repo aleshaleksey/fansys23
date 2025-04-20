@@ -285,3 +285,9 @@ ___
 ### Abilities
 - Spellcasting now goes up to Spellcasting: VII, everything else is "High Arcana". This keeps mechanics mostly the same, but reduces the number of useless spells at higher levels while keeping a sane set of mechanics.
 - Add "[Resist Condition](06-abilities.md#resist-condition)" and "[Resist Damage](06-abilities.md#resist-damage)". Also "[Condition Immunity](06-abilities.md#condition-immunity)"
+
+___
+## From v0.0.11
+
+### Abilities
+- Add [Mighty I](06-abilities.md#mighty-i) and [Mighty II](06-abilities.md#mighty-ii) abilities to increase carrying capacity.

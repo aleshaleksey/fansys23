@@ -35,7 +35,7 @@ A certain level of freeform RP and common sense are recommended.
 
 ___
 ## Load and Carrying Capacity
-How much a character can carry is determined by its Str and its size. As a character approaches its carrying limit, it begins to suffer penalties. The categories are as follows.
+How much a character can carry is determined by its Str and its size. As a character approaches its carrying limit, it begins to suffer penalties. The categories are as follows. These capacities are modified by the "[Mighty I](06-abilities.md#mighty-i)" and "[Mighty II](06-abilities.md#mighty-ii)" boons.
 
 ### Weight limits table
 

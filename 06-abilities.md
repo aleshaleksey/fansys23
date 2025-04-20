@@ -1575,6 +1575,31 @@ ___
 **Special**: "Low-light vision" is a "supernatural" boon when taken with level points, but can be natural as part of a template or monster block.
 
 ___
+#### Mighty I
+
+**Type**: Natural (Class C)
+
+**Description**: Carrying capacity increases by 50%. Thus the new weight limits are calculated as follows (before applying size modifier): |
+
+Load Level|Weight Limit (lb)|
+|-|-|
+|Light|6lb x Str|
+|Medium|12lb x Str|
+|Heavy|30lb x Str|
+|Drag|45lb x Str|
+
+**Prerequisite**: 13 STR + 13 CON.
+
+___
+#### Mighty II
+
+**Type**: Natural (Class C)
+
+**Description**: The penalties that are normally applied when a character carries a weight equal to, or above, its "light load" weight are not applied until the "medium load" weight is reached. The "medium load" penalties are applied as normal (and at the same weight as the new "light load" limit).
+
+**Prerequisite**: Mighty I + 15 STR + 15 CON.
+
+___
 #### Quick Mount
 
 **Description**: You mount as a "secondary action" and quick-mount as a "non-action". "Dismount" becomes a "minor interaction". Furthermore you can always "take care" when mounting (but not quick-mounting). The thresholds are not affected.

@@ -3,27 +3,30 @@ Constructs are life-like devices that are capable of movement and are generally 
 
 These properties make constructs excellent workers and guardians.
 
-- [Gingerbread Golem](#gingerbread-golem)
-- [Gingerbread Golem, Warrior](#gingerbread-golem-warrior)
-- [Clay Golem, humanoid Lesser](#clay-golem-humanoid-lesser)
-- [Clay Golem, humanoid](#clay-golem-humanoid)
-- [Stone Golem, humanoid](#stone-golem-humanoid)
-- [Jade Golem, beast](#jade-golem-beast)
-
-___
-## Robots
-**Robots** are "natural" constructs, typically made by mortals. In the worlds where they exist, they are the height of non-magical artifice. Since they are merely complex machines, robots lack a spirit and thus have no Cha. Robots that are capable of emulating emotion use Int for Cha rolls. A robot that gains a spirit becomes a golem.
-- Robots are immune to: "Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "incapacitated" and "dying".
-- Robots are resistant to "physical" damage.
+- [Golems](#golems)
+    - [Gingerbread Golem](#gingerbread-golem)
+    - [Gingerbread Golem, Warrior](#gingerbread-golem-warrior)
+    - [Clay Golem, humanoid Lesser](#clay-golem-humanoid-lesser)
+    - [Clay Golem, humanoid](#clay-golem-humanoid)
+    - [Stone Golem, humanoid](#stone-golem-humanoid)
+    - [Jade Golem, beast](#jade-golem-beast)
+    - [Mithril Golem, humanoid](#mithril-golem-humanoid)
+    - [Diamond Golem, humanoid](#diamond-golem-humanoid)
+- [Robots](#robots)
+    - [Caretaker Bot, lesser](#caretaker-bot-lesser)
+    - [Caretaker Bot, greater](#caretaker-bot-greater)
+    - [Robotic Steed](#robotic-steed)
+    - [Robotic Soldier](#robotic-soldier)
+    - [Robotic Horror](#robotic-horror)
 
 ___
 ## Golems
-**Golems** are "supernatural" constructs. Typically they are created for tasks which mortals cannot accomplish due to the frailness or limited lifespan of mortal beings. Golems typically continue to carry out these tasks long after their creators pass on.
+**Golems** are "supernatural" constructs. The methods of their construction, like most things supernatural, defy the laws of nature. Typically they are created for tasks which mortals cannot accomplish due to the frailness or limited lifespan of mortal beings. Golems typically continue to carry out these tasks long after their creators pass on.
 - Golems are immune to: "Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "stunned" "incapacitated", "catatonic" and "dying".
 - Golems are at least resistant to "physical" damage and all "energy"[Nat] damage.
 
 ___
-#### Gingerbread Golem
+### Gingerbread Golem
 Gingerbread golems, also known as gingerbread men are usually small or tiny pastries animated with magic. They are not generally particularly dangerous.
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
@@ -58,7 +61,7 @@ Gingerbread golems, also known as gingerbread men are usually small or tiny past
 Gingerbread golems seldom engage in combat, preferring to avoid violence with their swift and tireless leg (not all gingerbread golems have legs, some roll). However, they are still golems and travellers that underestimate them may not live to regret it.
 
 ___
-#### Gingerbread Golem, Warrior
+### Gingerbread Golem, Warrior
 Gingerbread golems, also known as gingerbread men are usually small or tiny pastries animated with magic. They are not generally particularly dangerous.
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
@@ -96,7 +99,7 @@ Gingerbread golems, also known as gingerbread men are usually small or tiny past
 Gingerbread golems seldom engage in combat, preferring to avoid violence with their swift and tireless leg (not all gingerbread golems have legs, some roll). However, sometimes a gingerbread man chooses violence. It then becomes a gingerbread warrior. Ridiculous though they may seem, these golems can easily defeat your average soldier.
 
 ___
-#### Clay Golem, humanoid Lesser
+### Clay Golem, humanoid Lesser
 Clay Golems can be of any size. This affects various parameters. Golems are usually humanoid in shape, but this is not necessarily so.
 ___
 **Size category**: Medium (5ft x 5ft)
@@ -143,7 +146,7 @@ Clay golems are the simplest of golems. They are often used as guardians by jour
 A clay golem has a near-human intelligence, but no will of its own and follows its master's instructions to the best of its ability. If given no instructions it continues the last task until it is complete. It will defend its master unless explicitly instructed not to.
 
 ___
-#### Clay Golem, humanoid
+### Clay Golem, humanoid
 Clay Golems can be of any size. This affects various parameters. Golems are usually humanoid in shape, but this is not necessarily so.
 ___
 **Size category**: Large (10ft x 10ft)
@@ -195,7 +198,7 @@ Clay golems are the simplest of golems. They are often used as guardians by jour
 A clay golem has a near-human intelligence, but no will of its own and follows its master's instructions to the best of its ability. If given no instructions it continues the last task until it is complete. It will defend its master unless explicitly instructed not to.
 
 ___
-#### Stone Golem, humanoid
+### Stone Golem, humanoid
 Stone Golems can be of any size. This affects various parameters. Golems are usually humanoid in shape, but this is not necessarily so.
 ___
 **Size category**: Large (10ft x 10ft)
@@ -249,7 +252,7 @@ Stone golems are more difficult to construct than clay golems, but they are also
 A stone golem has a near-human intelligence, but no will of its own and follows its master's instructions to the best of its ability. If given no instructions it continues the last task until it is complete. It will defend its master unless explicitly instructed not to.
 
 ___
-#### Jade Golem, beast
+### Jade Golem, beast
 Jade golems are sometimes known as "Sage's Horse" or "Sage's Shield". They are not superior to ordinary stone golems in terms of toughness, but the material is more closely associated with supernatural energies, so powerful mages often create them for particular purposes, a common purpose is as a mount.
 ___
 **Size category**: Huge (20ft x 20ft)
@@ -303,7 +306,7 @@ Bestial Jade golems are often used as mounts by rulers and powerful mages. They 
 A jade golem has a near-human intelligence, but no will of its own and follows its master's instructions to the best of its ability. If given no instructions it continues the last task until it is complete. It will defend its master unless explicitly instructed not to.
 
 ___
-#### Mithril Golem, humanoid
+### Mithril Golem, humanoid
 Mithril Golems can be of any size. This affects various parameters. Golems are usually humanoid in shape, but this is not necessarily so.
 ___
 **Size category**: Huge (20ft x 20ft)
@@ -358,10 +361,10 @@ Mithril golems are needlessly difficult to craft. However, they are supreme as w
 A mithril golem has a near-human intelligence, but no will of its own and follows its master's instructions to the best of its ability. If given no instructions it continues the last task until it is complete. It will defend its master unless explicitly instructed not to.
 
 ___
-#### Diamond Golem, humanoid
+### Diamond Golem, humanoid
 Diamond Golems can be of any size, but they are rarely larger than medium, due to scarcity of material and how difficult it is to work with.
 ___
-**Size category**: Huge (5ft x 5ft)
+**Size category**: Medium (5ft x 5ft)
 - Reach: 5ft
 - Carry capacity: (104lb light, 208lb medium, 520lb heavy, 760lb drag)
 
@@ -414,23 +417,217 @@ Simply spoken, diamond golems are the pinnacle of artifice. Incredibly difficult
 A diamond golem has a human-like intelligence, but no will of its own. It follows its master's instructions to the best of its ability. If given no instructions it continues the last task until it is complete. It will defend its master unless explicitly instructed not to.
 
 ___
+## Robots
+**Robots** are "natural" constructs, typically made by mortals. In the worlds where they exist, they are the height of non-magical artifice. Since they are merely complex machines, robots lack a spirit and thus have no CHA. Robots that are capable of emulating emotion use Int for Cha rolls. A robot that gains a spirit becomes a golem. 
+
+In general, robots cannot be created or maintained without advanced technologies which are generally lost in most fantasy settings. In general they were created by lost civilisations.
+- Robots are immune to: "Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "incapacitated" and "dying".
+- Robots are resistant to "physical" damage.
+
+___
+### Caretaker Bot, lesser
+Caretaker bots are created, as the name suggests, to take care of locales or equipment. They are capable of rudimentary repair and cleaning functions, and can generally manipulate small objects. Occasionally they possess defensive functionality along with the instructions for its use. If the object that a caretaker bot is charged with protecting is threatened it will more likely protect it by summoning more capable guards or, if it is small enough, move it to a safer location, than engage the threat directly. Caretaker bots are generally made of long lasting materials that do not require much maintenance. Caretaker bots are seldom humanoid in appearance, as other forms are often more conducive to its function.
+
+As with all robots, they cannot be created or maintained without advanced technologies which are generally lost in most fantasy settings.
+
+___
+**Size category**: Medium (5ft x 5ft)
+- Reach: 5ft
+- Carry capacity: (40lb light, 80lb medium, 200lb heavy, 300lb drag)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-||||||
+|17/17/13|10|6|2|30ft|
+
+- Natural armour: +4 (Bronze)
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|||||||
-|Bonus|||||||
-|Save|||||||
+|Stat|10|14|10|6|12|-|
+|Bonus|0|+2|0|-2|+1|-|
+|Save|+1|+3|+1|-1|+2|-|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-||||||||
+|2(1)|5|3|1|1|2|2|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
+|Electric Shock|+4|2d4+2 lightning[natural]|(Range=5ft, Threshold=13) A caretaker bot can apply an electric shock to its target instead of a basic combat manoeuvre. On a hit the target must succeed a CON save or be stunned at the start of its turn until the end of the bot's next turn. If the target succeeds, it cannot be stunned again by this ability for 24 hours.|
+|Light|||As a bonus action, a caretaker bot can light up a an area with a radius within 10ft of itself with bright light and a further 20ft (total 30ft) with dim light,|
 |||||
+|Senses|||A caretaker bot has no sense of smell|
+|[Low light vision](../06-abilities.md#low-light-vision)|||A caretaker bot can see in dim light almost as well as bright light, but cannot see in complete darkness.|
+|Skills|||"Fortify" +2, "Sleight of Hand" +4, "Tinker" +3, "Appraise" -1, "Prospect" -1, "Observe" +2|
+|Resistant|||Physical damage|
+|Immune|||"Poison" and "disease" damage|
+|Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "incapacitated" and "dying"|
+
+___
+### Caretaker Bot, greater
+Greater caretaker bots are similar in purpose to smaller caretaker bots but they are used for looking after large structures or facilities. Likewise they can be used for agriculture or disaster management. They are able to build and rebuild structures and simple machines. While they are not primarily made for combat, the size of these machines makes them dangerous if their instructions include guarding, or exclude preservation of mortal lives. Caretaker bots are seldom humanoid in appearance, as other forms are often more conducive to its function.
+
+As with all robots, they cannot be created or maintained without advanced technologies which are generally lost in most fantasy settings.
+
+___
+**Size category**: Huge (20ft x 20ft)
+- Evade: -2, Armour +2
+- Reach: 10ft
+- [DEX save]: -2, [STR save]: +2
+- Carry capacity: (448lb light, 896lb medium, 2240lb heavy, 3360lb drag)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|19/19/9|88|84|20|40ft|
+
+- Natural armour: +6 (Bronze)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|28|12|18|6|14|-|
+|Bonus|+9|+1|+4|-2|+2|-|
+|Save|+12|+4|+7|+1|+5|-|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|12(3)|20|18|4|3|7|6|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Strike|+16|2d6+9|(Reach 10ft) A caretaker bot can strike a target with one of its many enormous appendages|
+|Electric Shock|+4|4d4+2 lightning[natural]|(Range=10ft, Threshold=17) A caretaker bot can apply an electric shock to its target instead of a basic combat manoeuvre. On a hit the target must succeed a CON save or be stunned at the start of its turn until the end of the bot's next turn. If the target succeeds, it cannot be stunned again by this ability for 24 hours.|
+|Grapple|+16|||
+|Interception|+16|||
+|Multiattack I|||A greater caretaker bot can make two basic combat manoeuvres as an attack action.|
 |||||
+|Skills|||"Fortify" +18, "Athletics" +11, "Sleight of Hand" +10, "Tinker" +10, "Appraise" +8, "Academics" +6, "Prospect" +4, "Observe" +8|
+|Resistant|||Physical damage|
+|Immune|||"Poison" and "disease" damage|
+|Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "incapacitated" and "dying"|
+
+___
+### Robotic Steed
+Robotic steeds seldom look anything like a living steed, but are fast, loyal and tireless.
+
+As with all robots, they cannot be created or maintained without advanced technologies which are generally lost in most fantasy settings.
+
+___
+**Size category**: Large (10ft x 10ft)
+- Evade: -2, Armour +2
+- Reach: 5ft (long)
+- [DEX save]: -2, [STR save]: +2
+- Carry capacity: (600lb light, 600lb medium, 1500lb heavy, 2250lb drag)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|17/17/12|40|36|12|80ft|
+
+- Natural Armour: +4 (Bronze)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|25|12|16|2|12|-|
+|Bonus|+7|+1|+3|-4|+1|-|
+|Save|+9|+3|+5|-2|+3|-|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|6(2)|11|9|2|2|4|4|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Ram|+11|1d12+7||
+|Interception|+11|||
+|Throw|+11|||
+|Combined Manoeuvre I|||A robotic steed can expend one 1 SP die to throw/shove a target that it has rammed.|
 |||||
+|[Sprinter](../06-abilities.md#sprinter)|||A robotic steed can run x3 times its base movement speed and spring x5 times its movement speed.|
+|[Mighty I](../06-abilities.md#mighty-i)|||The carrying capacity of robotic steeds is abnormally high.|
+|[Mighty II](../06-abilities.md#mighty-ii)|||The carrying capacity of robotic steeds is abnormally high.|
+|Skills|||"Athletics" +12, "Climb": +9, "Acrobatics" +3, "Prospect" +4, "Observe" +6|
+|Resistant|||Physical damage|
+|Immune|||"Poison" and "disease" damage|
+|Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "incapacitated" and "dying"|
+
+___
+### Robotic Soldier
+Some rulers dream of tireless, perfectly loyal troops that feel neither pain nor fear. Some have succeeded in creating them.
+As with all robots, they cannot be created or maintained without advanced technologies which are generally lost in most fantasy settings.
+
+___
+**Size category**: Medium (5ft x 5ft)
+- Reach: 5ft
+- Carry capacity: (72lb light, 144lb medium, 360lb heavy, 540lb drag)
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|18/18/12|47|41|13|35ft|
+
+- Natural Armour: +6 (Steel)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|18|14|17|6|12|-|
+|Bonus|+4|+2|+3|-2|+1|-|
+|Save|+6|+4|+5|0|+3|-|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|7(2)|13|10|2|2|4|4|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Longsword|+8|1d8/1d12+4||
+|Musket|+6|2d6+2|(Range=240ft, Increment=120ft) The musket ignores "armour" component to HiT in the first range increment|
+|Throw|+6|||
+|Multiattack I|||A robotic soldiers can make up to two attacks with its sword, or one with its musket.|
+|Combined Manoeuvre I|||A robot may combine |
+|[Parry](../06-abilities.md#parry)|||A robotic soldier can use its reaction to increase its HiT by +2 vs up to 3 attacks.|
+|[Counterstrike](../06-abilities.md#counterstrike)|||A robotic soldier may take an attack of opportunity against attackers striking it with a melee attack|
+|[Riposte](../06-abilities.md#riposte)|||A robotic solider can immediately make a targeted weapon attack against the attacking foe upon successfully parrying|
+|[Swift Strike](../06-abilities.md#swift-strike)|||A robotic soldier's attacks of opportunity is resolved before the initiating attack.|
 |||||
+|Skills|||"Fortify" +12, "Athletics" +12, "Climb": +9, "Acrobatics" +3, "Prospect" +3, "Observe" +6|
+|Resistant|||Physical damage|
+|Immune|||"Poison" and "disease" damage|
+|Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "incapacitated" and "dying"|
+
+___
+### Robotic Horror
+Sometimes a robotic soldier is not enough. There are records of robotic machines created specifically for killing. Sometimes for killing humanoids, sometimes for killing monsters that its creators could not hope to face. Robotic horrors can no longer be built in most settings, but perhaps can be found in the depths of ancient ruins.
+
+As with all robots, they cannot be created or maintained without advanced technologies which are generally lost in most fantasy settings.
+
+___
+**Size category**: Huge (40ft x 40ft)
+- Evade: -3, Armour +3
+- Reach: 15ft
+- [DEX save]: -3, [STR save]: +3
+- Carry capacity: (600lb light, 600lb medium, 1500lb heavy, 2250lb drag)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|26/26/6|184|180|32|50ft|
+
+- Natural Armour: +12 (Steel)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|28|8|22|6|14|-|
+|Bonus|+9|-1|+6|-2|+2|-|
+|Save|+13|+3|+10|+2|+6|-|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|20(4)|32|30|7|6|11|10|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Claws|+20|2d10+9|(Reach=15ft) A robotic horror makes 4 attacks with its claws.|
+|[Greater Elemental Blast (Linear): Fire](../06-abilities.md#elemental-blast-greater-linear)|+12|4d6 fire[natural]|(Range 120ft+30/MP die) The robotic horror can use up to 10 MP dice in its elemental blast.|
+|Grapple|+20|||
+|Monster Attack III||||
+|||||
+|Skills|||"Fortify" +12, "Athletics" +19, "Climb": +19, "Acrobatics" +3, "Prospect" +3, "Observe" +6|
+|Resistant|||Physical damage|
+|Immune|||"Poison" and "disease" damage|
+|Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "incapacitated" and "dying"|

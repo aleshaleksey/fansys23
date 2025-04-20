@@ -211,6 +211,12 @@ This block can be used for domesticated dogs, jackals and foxes. Large dogs shou
 
 ___
 ### Horse, Light (level 2)
+**Size category**: Large (10ft x 10ft)
+- Evade: -1, Armour +1
+- Reach: 5ft (long)
+- [DEX save]: -1, [STR save]: +1
+- Carry capacity: (128lb light, 256lb medium, 640lb heavy, 960lb drag)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |12/11/11|14|6|4|50|-|
@@ -219,9 +225,9 @@ Size = large
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|14|14|14|2|10|11|
-|Bonus|+2|+2|+2|-4|0|0|
-|Save|+4|+2|+3|-3|+1|+1|
+|Stat|16|14|14|2|10|11|
+|Bonus|+3|+2|+2|-4|0|0|
+|Save|+5|+2|+3|-3|+1|+1|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
@@ -237,6 +243,12 @@ This stat blocks works for normal riding horses. Horses are temperamental creatu
 
 ___
 ### Horse, Heavy (level 3)
+**Size category**: Large (10ft x 10ft)
+- Evade: -1, Armour +1
+- Reach: 5ft (long)
+- [DEX save]: -1, [STR save]: +1
+- Carry capacity: (216lb light, 432lb medium, 1080lb heavy, 1620lb drag)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |11/10/10|23|8|6|40|-|
@@ -256,12 +268,19 @@ Size = large
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Hooves|+6|1d8+4|Don't get kicked by a horse|
+|[Mighty I](../06-abilities.md#mighty-i)||Can carry more weight than your average beast|
 |Skills|||"Observe" +2|
 
 This is used for cart horses and can also be used for oxen
 
 ___
 ### Horse, War (level 4)
+**Size category**: Large (10ft x 10ft)
+- Evade: -1, Armour +1
+- Reach: 5ft (long)
+- [DEX save]: -1, [STR save]: +1
+- Carry capacity: (216lb light, 432lb medium, 1080lb heavy, 1620lb drag)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |12/11/11|30|10|8|50|-|
@@ -282,6 +301,7 @@ Size = large
 |-|-|-|-|
 |Hooves|+7|1d8+4|Don't get hit by a horse|
 |[Sprinter](../06-abilities.md#sprinter)|||Run faster|
+|[Mighty I](../06-abilities.md#mighty-i)||Can carry more weight than your average beast|
 |Skills|||"Observe" +3|
 
 This is used for warhorses. Unlike other horses these are combat trained. War horses can be of higher level. In general a warhorse should be half the level of its rider. Knights often have armour (barding) made for their warhorse.

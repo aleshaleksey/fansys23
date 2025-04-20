@@ -3,9 +3,9 @@
 Divine entities are a category of supernatural beings that include gods, god-like beings, angels, and anomalies in creation.
 
 - [Angels](#angels)
-- [Lesser Messenger](#lesser-messenger)
-- [Watcher](#watcher)
-- [Seraph](#seraph)
+    - [Lesser Messenger](#lesser-messenger)
+    - [Watcher](#watcher)
+    - [Seraph](#seraph)
 
 ## Angels
 

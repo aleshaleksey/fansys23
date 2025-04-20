@@ -568,7 +568,7 @@ A demon will chose the path that leads to the greatest destruction and tragedy a
 
 Demons of different elements will likely have slightly different personalities and preferences. A demon of fire is likely to prefer swift and cataclysmic destruction, while a demon of ice may prefer a slow and inevitable decay.
 
-In combat a demon may use any number of strategies. However it especially delights in using a foes strengths and weaknesses against it. It will not hesitate to use a foe's kindness and mercy against it. Likewise it delights in toying with weaker foes and demonstrating to defeated foes the fruits of their powerlessness. It may even rob defeated foes of that which is precious to them and then let them live to foment hatred and despair.
+In combat a demon may use any number of strategies. However it especially delights in using a foe's strengths and weaknesses against it. It will not hesitate to use a foe's kindness and mercy against it. Likewise it delights in toying with weaker foes and demonstrating to defeated foes the fruits of their powerlessness. It may even rob defeated foes of that which is precious to them and then let them live to foment hatred and despair.
 
 A demon attempts to keep its demonic realm secret and protected, as the demonic realm is its true form. Should the demonic realm be destroyed, the demon likewise perishes.
 

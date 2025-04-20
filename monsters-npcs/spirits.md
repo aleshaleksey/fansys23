@@ -1,12 +1,12 @@
 # Spirits: Index
 - [Spirits: Elementals](#spirits-elementals)
-- [Flame Sprite](#flame-sprite)
-- [Gnome](#gnome)
-- [Wind Sprite](#wind-sprite)
-- [Undine: Lesser](#undine-lesser)
-- [Undine: Greater](#undine-greater)
-- [Ifrit: Lesser](#ifrit-lesser)
-- [Ifrit: Greater](#ifrit-greater)
+    - [Flame Sprite](#flame-sprite)
+    - [Gnome](#gnome)
+    - [Wind Sprite](#wind-sprite)
+    - [Undine: Lesser](#undine-lesser)
+    - [Undine: Greater](#undine-greater)
+    - [Ifrit: Lesser](#ifrit-lesser)
+    - [Ifrit: Greater](#ifrit-greater)
 
 ## Spirits: Elementals
 

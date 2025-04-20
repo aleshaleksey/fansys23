@@ -141,6 +141,8 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Keen Senses I-III](#keen-senses-i-iii)
 - [Life Sense I-VI](#life-sense-i-v)
 - [Low-light Vision](#low-light-vision)
+- [Mighty I](#mighty-i)
+- [Mighty II](#mighty-ii)
 - [Resist Condition](#resist-condition)
 - [Resist Damage](#resist-damage)
 - [Rider: Quick mount](#quick-mount)

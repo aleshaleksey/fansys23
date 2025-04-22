@@ -4,6 +4,7 @@
     - [Sweet ooze](#sweet-ooze)
     - [Snatcher's Hands](#snatchers-hands)
     - [Mudcrawler](#mudcrawler)
+    - [Corpse Stork](#corpse-stork)
     - [Hive Beast](#hive-beast)
     - [Fell Beast](#fell-beast)
     - [Troll Head](#troll-head)
@@ -172,6 +173,40 @@ ___
 A mudcrawler has a crab-like carapace that covers a flattened round body of 1-2ft across. It also has a variable number of multi-hinged, insect-like legs. On the underside of its body it has a single orifice.
 
 Young mud-crawlers hide beneath the soft mud of lake beds and other waterlogged wetlands, and listen for vibrations. When potential prey passes overhead, the death-crawlers emerge from the ground and attack their pray en mass, stabbing it with their claw, and once it stops moving, it attaches and devours it, injecting its digestive juices into the victim. mud crawlers, being creatures prefer humanoid victims. Every so often, a colony of mudcrawler matures.
+
+___
+### Corpse Stork
+**Size category**: Large (10ft x 10ft)
+- Evade: -1, Armour +1
+- Reach: 5ft (long)
+- [DEX save]: -1, [STR save]: +1
+- Carry capacity: (192lb light, 384lb medium, 960lb heavy, 1320lb drag)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|15/13/13|22|19|8|20ft|80ft (flight, average)|
+- Natural armour: +2
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|14|17|15|6|10|12|
+|Bonus|+2|+3|+2|-2|0|+1|
+|Save|+4|+5|+3|-1|+1|+2|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|5(1)|8|7|2|2|3|3|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Beak|+5|1d10+2|Reach=10ft|
+|Claws|+5|1d6+2|Reach=5ft|
+|Poison Quills|+6|1d6+3|(Range=120ft, Increment=30ft) When taking damage from the feathers the target must succeed a Theshold=14 CON save vs poison or take 1d3 points of STR damage (damage persists until cured)|
+|Monster Attack|||A corpse stork makes one beak attack and one claw attack as a main action|
+|Corpse Mimicry|||A corpse stork can, as a secondary action, interact with a humanoid corpse with more or less intact lungs to mimic its voice. To recognise this as an impersonation, a character must succeed an "observe" roll (Threshold=18) at disadvantage. Even if it does not succeed, the observer might be suspicious when they sees the Corpse Stork next to the corpse.|
+|Skills|||"Fly" +6, "Observe" +4, "Perform" +5|
+
+These huge bird-like monsters hunt primarily humanoids. They hunt their prey by poisoning them with their needle-like feathers and one they confirm that they are weakened, descend to finish them off. Once they have at least one corpse, they inflate its chest with its tail, causing it to mimic the voice it had in life. This creates an illusion of the corpse calling for help, which acts to lure more humanoid prey to the Corpse Stork. The Corpse Stork both feasts on the flesh and lays its eggs in it.
 
 ___
 ### Hive Beast

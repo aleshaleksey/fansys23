@@ -4,6 +4,7 @@
     - [Sweet ooze](#sweet-ooze)
     - [Snatcher's Hands](#snatchers-hands)
     - [Mudcrawler](#mudcrawler)
+    - [Hive Beast](#hive-beast)
     - [Fell Beast](#fell-beast)
     - [Troll Head](#troll-head)
     - [Troll](#troll)
@@ -171,6 +172,90 @@ ___
 A mudcrawler has a crab-like carapace that covers a flattened round body of 1-2ft across. It also has a variable number of multi-hinged, insect-like legs. On the underside of its body it has a single orifice.
 
 Young mud-crawlers hide beneath the soft mud of lake beds and other waterlogged wetlands, and listen for vibrations. When potential prey passes overhead, the death-crawlers emerge from the ground and attack their pray en mass, stabbing it with their claw, and once it stops moving, it attaches and devours it, injecting its digestive juices into the victim. mud crawlers, being creatures prefer humanoid victims. Every so often, a colony of mudcrawler matures.
+
+___
+### Hive Beast
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|1 (young:small)|13/10/13|8|5|4|30ft (climb 30ft)|
+|6 (adult:medium)|16/14/12|38|32|10|40ft (climb 30ft)|
+|11 (elder:large)|19/13/16|115|65|18|50ft (swim 30ft)|
+
+|Young|Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|8|16|14|13|9|12|
+|Bonus|-1|+3|+2|+1|-1|+1|
+|Save|-1|+5|+3|+2|0|+2|
+
+|Adult|Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|20|16|16|15|12|14|
+|Bonus|+5|+3|+3|+2|+1|+2|
+|Save|+7|+5|+5|+4|+3|+3|
+
+|Elder|Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|25|14|18|17|14|17|
+|Bonus|+7|+2|+4|+3|+2|+3|
+|Save|+11|+4|+7|+6|+5|+6|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|1(1)|3|2|1|1|2|2|
+|6(2)|10|10|2|2|4|4|
+|11(3)|19|16|4|3|7|6|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|**Young**|-|-|-|
+|Bite|+5|1d6+3|An entity that takes HP damage from a hive beast's bite must succeed a Threshold=14 CON save or be incapacitated (poisoned) at the start of its turn (until successfully cured of poison). An entity that succeeds on this CON save, cannot be affected by Hive Beast venom for 24 hours.|
+|||||
+|[Blindsight](../06-abilities.md#blind-sight-i-vi)|||(Range=5ft)|
+|[Heat Sense I](../06-abilities.md#heat-sense-i-v)|||(Range=15ft)|
+|[Stalker](../06-abilities.md#stalker)||||
+|[Silent step I](../06-abilities.md#silent-step-i-iii)|||Can move at full speed when maintaining stealth without penalty|
+|[Evasive](../06-abilities.md#evasive)|||Avoids attacks of opportunity when moving between threatened squares|
+|Skills|||"Acrobatics" +5, "Athletics" +1, "Climb" +1, "Observe" +1, "Track" +1, "Sense Motive" +1|
+|||||
+|**Adult**|-|-|-|
+|Bite|+9|1d10+5|An entity that takes HP damage from a hive beast's bite must succeed a Threshold=15 CON save or be incapacitated (poisoned) at the start of its turn (until successfully cured of poison). An entity that succeeds on this CON save, cannot be affected by Hive Beast venom for 24 hours.|
+|Claws|+9|1d12+5||
+|Monster Attack|||A hive beast can make one attack with its bite, and one with its claws as a main action|
+|Grapple|+9|||
+|[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||(1 SP dice) A hive beast can apply an additional basic combat manoeuvre when it makes a claw attack|
+|||||
+|[Blindsight](../06-abilities.md#blind-sight-i-vi)|||(Range=10ft)|
+|[Heat Sense II](../06-abilities.md#heat-sense-i-v)|||(Range=30ft)|
+|[Evasive](../06-abilities.md#evasive)|||Avoids attacks of opportunity when moving between threatened squares|
+|[Foresight](../06-abilities.md#foresight)||||
+|[Tracker: Persistent](../06-abilities.md#tracker-persistent)||Repeat track roll one per 4 hours, instead of once per hour|
+|[Tracker: Fast Search](../06-abilities.md#tracker-fast-search)|||Move at full speed when tracking without penalties|
+|Skills|||"Athletics" +10, "Climb" +10, "Acrobatics" +5, "Appraise" +5, "Knowledge: Nature" +5, "Knowledge: Geography" +5, "Observe" +6, "Track" +5, "Sense Motive" +5|
+|||||
+|**Elder**|-|-|-|
+|Bite|+14|2d6+7|An entity that takes HP damage from a hive beast's bite must succeed a Threshold=16 CON save or be incapacitated (poisoned) at the start of its turn (until successfully cured of poison). An entity that succeeds on this CON save, cannot be affected by Hive Beast venom for 24 hours.|
+|Monster Attack|||An elder hive beast can make one attack with its bite, and two with its claws as a main action|
+|Grapple|+14|||
+|[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||(1 SP dice) A hive beast can apply an additional basic combat manoeuvre when it makes a claw attack|
+|||||
+|[Blindsight](../06-abilities.md#blind-sight-i-vi)|||(Range=20ft)|
+|[Heat Sense IV](../06-abilities.md#heat-sense-i-v)|||(Range=60ft)|
+|[Foresight](../06-abilities.md#foresight)||||
+|[Tracker: Persistent](../06-abilities.md#tracker-persistent)||Repeat track roll one per 4 hours, instead of once per hour|
+|[Tracker: Fast Search](../06-abilities.md#tracker-fast-search)|||Move at full speed when tracking without penalties|
+|Skills|||"Athletics" +15, "Climb" +10, "Swim" +10, "Acrobatics" +4, "Appraise" +7, "Knowledge: Nature" +8, "Knowledge: Geography" +8, "Knowledge: History" +8, "Knowledge: Arcana" +8, "Observe" +10, "Track" +9, "Sense Motive" +8, "Persuade" +7|
+|||||
+|**All**|-|-|-|
+|Hive mind|||All hive beasts belonging to the same colony are always connected. They can communicate telepathically at any distance. Furthermore, the hive is aware whether its members are alive or dead. Lastly the hive knows the location of its conscious members.|
+|Telepathy|||(Range=120ft)|
+|Resistance|||"Poison" damage, "poisoned", physical damage|
+
+Hive beasts are highly intelligent telepathic predators that dwell in the dark corners of the world. Undoubtedly, hive beasts are more intelligent than most humanoids, but for some reason never found civilisations as do humanoids. It is likely that the principles under which they operate are too different.
+
+Hive beasts are telepathic, and while they do not found civilisations, they do form colonies. They guard their territory jealously against other hive beasts. When hive beasts fight or hunt, they do so in perfect coordination, as they essentially share a single mind amongst them. Their mental capacity aside, hive beasts have an appropriately monstrous physical prowess. Their claws being particularly vicious.
+
+Hive beasts are dangerous, not because of their individual strength, but because should you encounter one, you will likely have to deal with the whole colony.
+
 
 ___
 ### Fell Beast

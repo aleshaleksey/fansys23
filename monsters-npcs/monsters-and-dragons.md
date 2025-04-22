@@ -175,11 +175,11 @@ Young mud-crawlers hide beneath the soft mud of lake beds and other waterlogged 
 
 ___
 ### Hive Beast
-|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
-|-|-|-|-|-|-|
-|1 (young:small)|13/10/13|8|5|4|30ft (climb 30ft)|
-|6 (adult:medium)|16/14/12|38|32|10|40ft (climb 30ft)|
-|11 (elder:large)|19/13/16|115|65|18|50ft (swim 30ft)|
+|Level (type)|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|-|
+|1 (young:small)|13/10/13|8|5|4|30ft|(climb) 30ft|
+|6 (adult:medium)|16/14/12|38|32|10|40ft|(climb) 30ft|
+|11 (elder:large)|19/13/16|115|65|18|50ft|(swim) 30ft|
 
 |Young|Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|

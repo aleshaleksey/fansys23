@@ -35,6 +35,8 @@ This section contains a few NPC stat blocks and notes on their intended use and 
     - [Beast folk warrior](#beast-folk-warrior)
     - [Beast folk mystic warrior](#beast-folk-mystic-warrior)
 - [Giants](#giant)
+  - [Ogre](#ogre)
+  - [Ogre Mage](#ogre-mage)
   - [Giant](#giant-1)
   - [Giant Warrior](#giant-warrior)
   - [Colossus](#colossus)
@@ -1021,18 +1023,110 @@ ___
 ## Giant
 There is some debate as to whether giants are humanoids, monsters or an entirely different category of mortals. Regardless, giants are not visually much different from ordinary humanoid, apart from their impossible size. Giants stand at least 10ft tall and can reach be much much bigger. Giants, like mortals, eat, drink, sleep and generally age. They are born, reproduce and occasionally die. Giants often live for hundreds or even thousands of years.
 
-### Giant
+### Ogre
+___
+- **Size**: Large
+- **Natural Armour**: Armour +1
+  - Hide Armour +3
+- **Saves**: Con
+- **Carrying capacity**
+  - Light: 152lb
+  - Medium: 304lb
+  - Heavy: 760lb
+- **Inventory**: Large Hide armour (90lb), Large greatclub (18lb)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/16/7|110|58|20|45ft|
+|16/16/12|50|20|11|40ft||
 
-- Size: Huge
-- Natural Armour: Armour +4
-- Saves: Str, Wis
-- Carrying capacity
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|19|12|18|8|10|12|
+|Bonus|+4|+1|+4|-1|0|1|
+|Save|+7|+2|+9|+1|+2|+3|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|6(2)|13|7|3|2|5|4|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Strike|+9|1d2+4|Reach=5ft(long)|
+|Grapple|+9||Reach=5ft(long)|
+|Greatclub|+9|2d6+4|Reach=5ft(long)|
+|[Multiattack I](../06-abilities.md#multi-attack-i-iii)|||An ogre can attempt 2 combat manoeuvres as an attack action (main action)|
+|[Great Strike](../06-abilities.md#great-strike)|||An ogre can take a malus of up to 3 from its attack bonus to grant itself a corresponding bonus to one-handed attacks or twice the bonus to two handed attacks|
+|||||
+|Damage Resistance|||"Percussive", "Slashing", "Piercing"|
+|Keen Smell|||An ogre has advantage on observe rolls dependant on smell|
+|Skills|||"Athletics" +8, "Climb" +7, "Swim" +6, "Fortify" +5, "Prospect" +3, "Track" +2|
+
+Ogres are a typically mean spirited and poor tempered giant. They have near human intelligence, but tend to rely on their strength, forming only rudimentary societies, and seldom developing sophisticated technologies or magics unless guided or integrated into other civilisations. Ogres tend to be gluttonous and lascivious and are seldom shy about obtaining what they wish by force.
+
+Ogres seldom fight unless they are sure of victory. Unfortunately for them, strength and size is the main measure of power. Ogres tend to attack en masse and under the cover of darkness. Ideally they attempt to ambush, surround and charge. Occasionally ogres will attack smaller humanoids when on their own. However, such solitary ogres  will seldom take on well armed groups.
+
+___
+### Ogre Mage
+
+- **Size**: Large
+- **Natural Armour**: Armour +1
+  - + Spirit Source Brigandine +6
+- **Saves**: Wis, Con
+- **Carrying capacity**
+  - Light: 600lb
+  - Medium: 1200lb
+  - Heavy: 3600lb
+- **Inventory**: Large Brigandine (114lb), Large Spear (12lb)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|20/19/14|78|62|18|40ft||
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|21|14|19|15|15|14|
+|Bonus|+5|+2|+4|+2|+2|+2|
+|Save|+9|+4|+10|+5|+9|+5|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|12(3)|15|19|3|4|6|7|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Strike|+11|1d2+5|Reach=5ft(long)|
+|Grapple|+11||Reach=5ft(long)|
+|Spear|+11|1d12/2d8+5|Reach=15ft|
+|[Multiattack I](../06-abilities.md#multi-attack-i-iii)|||An ogre can attempt 2 combat manoeuvres as an attack action (main action)|
+|[Great Strike](../06-abilities.md#great-strike)|||An ogre can take a malus of up to 3 from its attack bonus to grant itself a corresponding bonus to one-handed attacks or twice the bonus to two handed attacks|
+|||||
+|[Elemental Blast: Fire](../06-abilities.md#elemental-blast)|+9|3d6+2|Reach=5ft(long). An ogre mage can apply up to 5 MP dice to its elemental blast.|
+|[Elemental Touch: Fire](../06-abilities.md#elemental-touch)|+9|3d6+2|Reach=5ft(long). An ogre mage can apply up to 5 MP dice to its elemental blast.|
+|[War Mage](../06-abilities.md#war-mage)|||An ogre mage has advantage on concentration saves.|
+|[Spellcasting Local: Incantation V](../06-abilities.md#spellcasting-local)|||Favourite Spells: [Least Pyromancy](../06-abilities.md#least-pyromancy), [Least Vengeance](../06-abilities.md#least-vengeance), [Natural Xenophonia](../06-abilities.md#natural-xenophonia), [Cure](../06-abilities.md#cure), [Least Weather Control](../06-abilities.md#lesser-weather-control), [Isolate Essence](../06-abilities.md#isolate-essence)|
+|[Spellcasting Local: Kinetic V](../06-abilities.md#spellcasting-local)|||Favourite Spells: [Mist](../08-spell-list.md#mist), [Lesser Illusory Self](../08-spell-list.md#lessor-illusory-self), [Call Ailment](../08-spell-list.md#call-ailment), [Least Curse](../08-spell-list.md#least-curse), [Scry](../08-spell-list.md#scry), [Flame Stride](../08-spell-list.md#flame-stride)|
+|||||
+|Damage Resistance|||"Percussive", "Slashing", "Piercing"|
+|Keen Smell|||An ogre has advantage on observe rolls dependant on smell|
+|Skills|||"Athletics" +8, "Climb" +7, "Swim" +6, "Fortify" +5, "Prospect" +3, "Track" +2|
+
+Ogre mages are ogres that have been opened the secrets of the spirit realm, perhaps by birth, gift or through their travels. Occasionally they obtain their magic through pacts with dark powers. Ogre mages are generally motivated by more esoteric questions than lesser ogres, but they do retain their carnal natures. Due to their genuine power, ogre mages tend to lead groups of ogres, or even become warlords of small kingdoms. Ogre mages can be reasoned and bargained with, although one should have some means to enforce the bargain, or risk being crossed by the ogre.
+
+Ogre mages prefer to have others fight for them while they watch from a safe distance, but if necessary they will join a combat. Generally an ogre mage will use weather control magic to cover an area with mist, or wind blown rain, as this reduces the effectiveness of ranged attacks, and makes ambushes easier. They will then support their subordinates with elemental magic. Only as a last resort, or should victory seem inevitable will it engage into melee.
+
+___
+### Giant
+- **Size**: Huge
+- **Natural Armour**: Armour +4
+- **Saves**: Str, Wis
+- **Carrying capacity**
   - Light: 332lb
   - Medium: 664lb
   - Heavy: 1760lb
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|15/16/7|110|58|20|45ft|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -1072,19 +1166,19 @@ Contrary to many myths, most giants are neither foolish, nor slow witted. Over t
 
 ___
 ### Giant Warrior
-|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
-|-|-|-|-|-|-|
-|23/20/12|208|132|31|50ft|
-
-- Size: Huge
-- Natural Armour: Armour +4
+- **Size**: Huge
+- **Natural Armour**: Armour +4
   - + Mithral Chain Mail +7
-- Saves: Str, Wis, Con, Cha
-- Carrying capacity
+- **Saves**: Str, Wis, Con, Cha
+- **Carrying capacity**
   - Light: 600lb
   - Medium: 1200lb
   - Heavy: 3600lb
-- Inventory: Huge Mithral "Full Chain" armour (440lb), Huge greatbow + arrows (~48lb + 48lb)
+- **Inventory**: Huge Mithral "Full Chain" armour (440lb), Huge greatbow + arrows (~48lb + 48lb)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|23/20/12|208|132|31|50ft|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -1139,18 +1233,18 @@ A colossus (or Titan) is to a giant what a giant is to man. It can be as small a
 
 What is the purpose of a colossus? What is its goals? What is its nature? That varies from world to world. In some they are the tools the gods used to create the world, in others they are the tools they will use to destroy it. In others still they have a different role entirely.
 
+___
+- **Size**: Colossal
+- **Natural Armour**: Armour +10
+- **Saves**: Str, Con, Wis, Int, Cha
+- **Carrying capacity**
+  - Light: 2560lb
+  - Medium: 5120lb
+  - Heavy: 12800lb
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |16/16/6|510|352|56|80ft|
-
-- Size: Colossal
-- Natural Armour: Armour +10
-- Saves: Str, Con, Wis, Int, Cha
-- Carrying capacity
-  - Light: 2560lb
-  - Medium: 5120lb
-  - Heavy: 12800lb
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|

@@ -7,6 +7,10 @@
     - [Undine: Greater](#undine-greater)
     - [Ifrit: Lesser](#ifrit-lesser)
     - [Ifrit: Greater](#ifrit-greater)
+    - [Djinn: Lesser](#djinn-lesser)
+    - [Djinn: Greater](#djinn-greater)
+    - [Earth Elemental: Lesser](#earth-elemental-lesser)
+    - [Earth Elemental: Greater](#earth-elemental-greater)
 
 ## Spirits: Elementals
 
@@ -437,6 +441,140 @@ Ifrits exist in a highly hierarchical society of spirits. Greater Ifrits stand n
 A greater Ifrit thrives on combat. However, before entering combat with a mortal it will generally attempt to lead its soul astray. Once the mortal shows itself as corruptable, the Ifrit has permission to attack. They seldom attack otherwise. It makes generous use of "Speak through Flame", "Illusory Self" and "Spelldance" in these matters.
 
 In combat, Ifrits will use spells such as "Least Curse" or "Madness" to weaken a mortal. If their sins are judged to be particularly heavy, the Ifrit will attempt to burn up its target with its offensive capability.
+
+___
+### Djinn, Lesser
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|19/12/19|34|47|12|-|120ft (fly: perfect)|
+
+Size:Medium
+Evasion:+3
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|10|18|14|13|12|16|
+|Bonus|0|+4|+2|+1|+1|+3|
+|Save|+2|+8|+4|+3|+3|+5|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|7(2)|10|13|2|3|4|5|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Blast|+8|1d12+1 Pressure[Supernatural]|Range=60ft. An entity hit by a djinn's blast must succeed a Threshold=20 STR save or be knocked back 15ft|
+|Great Blast|+8|1d12+1|A djinn can expend SP dice to give the blast an area of effect of 10ft/SP die expended (max=3), all entities in range other than the original target must make a Threshold=20 STR save or also suffer the damage AND be knocked back 15ft|
+|||||
+|[Spellcasting Local: Incantation III](../06-abilities.md#spellcasting-local)|||Favourites are: [Sour](../08-spell-list.md#sour), [Least Vengeance](../08-spell-list.md#least-vengeance), [Promise](../08-spell-list.md#promise), [Cure](../08-spell-list.md#cure)|
+|[Spellcasting Local: Air IV](../06-abilities.md#spellcasting-local)|||Favourites: [Least Anemancy](../08-spell-list.md#least-anemancy), [Spirits' Secret](../08-spell-list.md#spirits-secret), [Summon Wind Sprite](../08-spell-list.md#summon-wind-sprite), [See Spell](../08-spell-list.md#see-spell), [Least Storm](../08-spell-list.md#least-storm)|
+|||||
+|Immunity|||"Physical", "Light"|
+|Immunity|||"Restrained", "Surprised", "Helpless", "Dying", "Stunned", "Immobilised", "crippled", "bleeding", "Paralysed"|
+|Vulnerability|||"Lightning[supernatural]"|
+
+___
+### Djinn, Greater
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|23/14/22|66|134|22|-|140ft (fly: perfect)|
+
+Size:Large
+Evasion:+3
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|14|24|14|16|18|22|
+|Bonus|+2|+7|+2|+3|+4|+6|
+|Save|+6|+12|+5|+6|+7|+12|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|14(3)|19|25|4|6|8|9|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Blast|+15|2d8+6 Pressure[Supernatural]|Range=60ft. An entity hit by a djinn's blast must succeed a Threshold=24 STR save or be knocked back 15ft|
+|Great Blast|+15|2d8+6 Pressure[Supernatural]|A djinn can expend SP dice to give the blast an area of effect of 10ft/SP die expended (max=3), all entities in range other than the original target must make a Threshold=24 STR save or also suffer the damage AND be knocked back 15ft|
+|Multi-attack I|||A djinn can make 2 blast attacks.|
+|Call Sprites|||A greater undine use its "communicate action" to call 3d6 water sprites, which appear in 1d4 turns. The sprites are loyal to the undine and remain until dismissed.|
+|||||
+|[Spellcasting Local: Incantation V](../06-abilities.md#spellcasting-local)|||Favourites are: [Sour](../08-spell-list.md#sour), [Least Vengeance](../08-spell-list.md#least-vengeance), [Promise](../08-spell-list.md#promise), [Cure](../08-spell-list.md#cure), [Greater Xenophonia](../08-spell-list.md#cure), [Pact](../08-spell-list.md#pact)|
+|[Spellcasting Local: Air VII](../06-abilities.md#spellcasting-local)|||Favourites: [Least Anemancy](../08-spell-list.md#least-anemancy), [Spirits' Secret](../08-spell-list.md#spirits-secret), [Summon Wind Sprite](../08-spell-list.md#summon-wind-sprite), [See Spell](../08-spell-list.md#see-spell), [Least Storm](../08-spell-list.md#least-storm), [Greater Storm Ward](../08-spell-list.md#greater-storm-ward), [Greater Weather Control](../08-spell-list.md#greater-weather-control)|
+|||||
+|Immunity|||"Physical", "Light"|
+|Immunity|||"Restrained", "Surprised", "Helpless", "Dying", "Stunned", "Immobilised", "crippled", "bleeding", "Paralysed"|
+|Vulnerability|||"Lightning[supernatural]"|
+
+___
+### Earth Elemental, Lesser
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|18/18/12|47|34|12|30ft|20ft (dig)|
+
+Size:Large
+Armour:+5
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|18|12|16|10|16|14|
+|Bonus|+4|+1|+3|0|+3|+2|
+|Save|+10|+2|+5|+2|+5|+4|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|7(2)|13|10|3|2|5|4|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Strike|+10|1d10+4|Reach=5ft|
+|Throw Rock|+10|2d6+4|(Range=120ft, Increment=30ft)|
+|Grapple|+10|||
+|Throw|+10|||
+|[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||An earth elemental can combine two basic combat manoeuvres by expending 1 SP die.|
+|[Multi-attack I](../06-abilities.md#multi-attack-i-iii)|||An earth elemental can attempt two separate attacks/basic combat manoeuvres as an attack action|
+|||||
+|[Spellcasting Local: Kinetic III](../06-abilities.md#spellcasting-local)|||Favourites are: [Mist](../08-spell-list.md#mist), [Spirits' Secret](../08-spell-list.md#spirits-secret), [Silence](../08-spell-list.md#silence), [Blessing of the Fates](../08-spell-list.md#blessing-of-the-fates)|
+|[Spellcasting Local: Earth IV](../06-abilities.md#spellcasting-local)|||Favourites are: [Down](../08-spell-list.md#down), [Shape Earth](../08-spell-list.md#shape-earth), [Warded Ground](../08-spell-list.md#warded-ground), [Earth Ward](../08-spell-list.md#earth-ward), [Animate Golem](../08-spell-list.md#animate-golem)|
+|||||
+|Immunity|||"Physical", "Lightning"|
+|Immunity|||"Restrained", "Surprised", "Helpless", "Dying", "Stunned", "Immobilised", "crippled", "bleeding", "Paralysed"|
+|Vulnerability|||"Necrotic[supernatural]"|
+
+___
+### Earth Elemental, Greater
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|21/22/14|120|80|22|30ft|20ft (dig)|
+
+Size:Huge
+Armour:+7
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|24|12|20|12|20|16|
+|Bonus|+7|+1|+5|+1|+5|+3|
+|Save|+15|+4|+8|+4|+8|+10|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|14(3)|25|19|5|4|8|7|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Strike|+10|1d10+4|Reach=5ft|
+|Throw Rock|+10|2d6+4|(Range=120ft, Increment=30ft)|
+|Grapple|+10|||
+|Throw|+10|||
+|[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||An earth elemental can combine two basic combat manoeuvres by expending 1 SP die.|
+|[Multi-attack II](../06-abilities.md#multi-attack-i-iii)|||An earth elemental can attempt three separate attacks/basic combat manoeuvres as an attack action|
+|||||
+|[Spellcasting Local: Kinetic V](../06-abilities.md#spellcasting-local)|||Favourites are: [Mist](../08-spell-list.md#mist), [Spirits' Secret](../08-spell-list.md#spirits-secret), [Silence](../08-spell-list.md#silence), [Blessing of the Fates](../08-spell-list.md#blessing-of-the-fates), [Gift of the Fates](../08-spell-list.md#gift-of-the-fates), [Plague](../08-spell-list.md#plague)|
+|[Spellcasting Local: Earth VII](../06-abilities.md#spellcasting-local)|||Favourites are: [Down](../08-spell-list.md#down), [Shape Earth](../08-spell-list.md#shape-earth), [Warded Ground](../08-spell-list.md#warded-ground), [Earth Ward](../08-spell-list.md#earth-ward), [Animate Golem](../08-spell-list.md#animate-golem), [False Regrowth](../08-spell-list.md#false-regrowth), [Portal](../08-spell-list.md#portal)|
+|||||
+|Immunity|||"Physical", "Lightning"|
+|Immunity|||"Restrained", "Surprised", "Helpless", "Dying", "Stunned", "Immobilised", "crippled", "bleeding", "Paralysed"|
+|Vulnerability|||"Necrotic[supernatural]"|
 
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|

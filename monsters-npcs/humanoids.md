@@ -34,13 +34,13 @@ This section contains a few NPC stat blocks and notes on their intended use and 
     - [Beast folk traveller](#beast-folk-traveller)
     - [Beast folk warrior](#beast-folk-warrior)
     - [Beast folk mystic warrior](#beast-folk-mystic-warrior)
+- [Goblins](#goblins)
 - [Giants](#giant)
   - [Ogre](#ogre)
   - [Ogre Mage](#ogre-mage)
   - [Giant](#giant-1)
   - [Giant Warrior](#giant-warrior)
   - [Colossus](#colossus)
-- []()
 
 ## Human
 
@@ -1006,7 +1006,7 @@ Wears light cuirass  (+1)
 |"[Speed IV](../06-abilities.md#speed)"|||+20ft to movement speed for a total of 55ft|
 |"[Mage Hunter II](../06-abilities.md#mage-hunter-ii)|||Mystic warriors are strong against mages|
 |"[Silent Step I](../06-abilities.md#silent-step-i-iii)"|||A mystic warrior can stealth even while moving at full speed|
-|"[Life Sense I](../06-abilities.md#life-sense-i-v)"|||A mystic warrior can see the life-force of beings that are not undead within 15ft. The ability is blocked by 6ft of earht or organic material, or 2ft of stone or metal.|
+|"[Life Sense I](../06-abilities.md#life-sense-i-v)"|||A mystic warrior can see the life-force of beings that are not undead within 15ft. The ability is blocked by 6ft of earth or organic material, or 2ft of stone or metal.|
 |"[Mental Fight](../06-abilities.md#mental-fight)"|||A mystic warrior can use MP dice and SAP for flurry, debilitating strike and Flash step if it so chooses.|
 |Spellcasting I|||Some beastfolk warriors are proficient with one kind of elemental magic, usually air.|
 |Senses|||"Low light vision"|
@@ -1018,6 +1018,10 @@ A mystic warrior can represent a master of martial arts who has trained for deca
 A mystic warrior might carry a quarter staff or a greatbow, but is usually capable of handling most threats without weapons. Most mystic warriors will generally prefer to get what they want through dialogue, but are not averse to the use of force.
 
 In combat a mystic warrior prefers hit and run tactics, making good use of its combat manoeuvres and "debilitating strike" to disable dangerous opponents. If it has thе opportunity to do so, it will harry enemies with its greatbow before closing in.
+
+___
+## Goblins
+Goblins are little green humanoids which are cast as villains in many fantasy worlds. They are sly, cowardly and weak, uninventive and petty, greedy and spiteful. Goblin societies are depicted as primitive, unsophisticated and simultaneously unjust and unequal. Goblins are often used in low level adventures as monsters that are easy to defeat even for low level characters. Contrariwise, it is not advisable to use goblins in this way.
 
 ___
 ## Giant

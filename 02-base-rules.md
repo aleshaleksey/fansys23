@@ -118,9 +118,13 @@ This works because the average of 2d12 is 13.
 
 ___
 #### Opposing Rolls vs Thresholds
-Static thresholds are always preferred over opposed rolls in combat. This increases the speed of combat as we do not need to wait for other side to make a roll. This means that hit thresholds, save threshold and skill thresholds based on average rolls ("take care") are used for the defending side.
+A threshold is a number that a roll (with bonuses or maluses) must meet or beat for success. Static thresholds are always preferred over opposed rolls in combat. This increases the speed of combat as we do not need to wait for other side to make a roll. This means that hit thresholds, save threshold and skill thresholds based on average rolls ("take care") are used for the defending side.
 Outside of combat it is up to the group whether opposed rolls or thresholds are used. Opposed rolls make the game more interactive in non time critical sections.
 For many skill rolls the threshold is written as "Opposed vs [skill name]". It is perfectly acceptable to calculate an average ("take care") threshold instead of doing the opposed roll.
+
+___
+#### Turning an opposed roll into a Threshold.
+An opposed roll can be converted into a threshold by taking the bonus or malus and adding 13.
 
 ___
 #### Precedence of Rolls: Thresholds (DC), and opposing rolls

@@ -11,6 +11,9 @@
     - [Djinn: Greater](#djinn-greater)
     - [Earth Elemental: Lesser](#earth-elemental-lesser)
     - [Earth Elemental: Greater](#earth-elemental-greater)
+- [Spirits: Fey](#spirits-fey)
+    - [True Fairy](#true-fairy)
+- [Spirits: Other](#spirits-other)
 
 ## Spirits: Elementals
 
@@ -576,6 +579,127 @@ Armour:+7
 |Immunity|||"Restrained", "Surprised", "Helpless", "Dying", "Stunned", "Immobilised", "crippled", "bleeding", "Paralysed"|
 |Vulnerability|||"Necrotic[supernatural]"|
 
+___
+## Spirits: Fey
+Fey are spiritual beings associated in some way to the natural world. They tend to inhabit the membrane layers between the material and spirit world and travel readily, if not freely, between the two (although not freely). Fey spirits may be malicious of benevolent, but even if whimsical they are bound strictly by their own logic. Fey spirits have the following properties:
+- Fey beings are immune to "physical" damage, as their physical form is either unnecessary or not "real".
+- Fey beings are immune to "stunned", "immobilised", "crippled", "bleeding", "poisoned", "paralysed" as well as "aphonia" and "deafened".
+- All fey have at least one ability that causes "frightened" or "charmed".
+- Most fey have a "blink" speed.
+
+___
+### Faun (fey)
+Not to be mistaken for the humanoid created by the god of revelry, which is a Satyr.
+
+___
+### Changeling
+Changelings are fey beings that make their way onto the mortal realm by way of exchange. That exchange is necessarily with a humanoid child whose place and form they take. A changeling lives out the humanoid's life for them, in humanoid form. When the lifespan of the humanoid they replaced expires, the changeling returns to the fey realm. Should the humanoid they displaced be returned by some means to the mortal realm the changeling is shunted back to the fey realm. Should the humanoid die, so does the changeling.
+
+___
+### Doppelganger
+Doppelgangers are spirits that take the exact form of a living mortal. A doppelganger cannot change its form again while its current "template" is alive. For this reason, doppelgangers frequently seek out and kill their "template" when they tire of a form.
+
+___
+### Pixie
+
+___
+### Brownie
+A brownie is a tiny spirit which associates itself with a humanoid dwelling. Brownies tend to be benevolent and bring blessings to the dwellings they inhabit. Should the dwelling be destroyed, the brownie must find a new dwelling before the full moon or perish.
+
+___
+### Grig
+
+___
+### Dryad
+Dryads are spirits of trees that take a material form. A dryad cannot move beyond the edge of the root system of its tree. For this reason, dryads associated with birches are particularly powerful. A dryad whose tree perishes likewise perishes. A dryad abandon its tree and return to the spirit realm on the first day of winter without perishing. Should it do so, however, its tree perishes.
+
+___
+### Nymph
+Nymphs are similar to undines and are sometimes known as naiads. They are the spirits of natural streams and charm humanoids, sometimes involuntarily. A nymph cannot leave the catchment of its stream. Furthermore, should its stream dry up or be dammed for a full year, the nymph perishes. A nymph can leave its stream and pass to the spirit realm by travelling to its estuary. Should it do so, however, the stream dries up. Only the sacrifice of an undine can restore it.
+
+___
+### Redcap
+
+___
+### Hound (fey)
+
+___
+### Hunter (fey)
+
+___
+### Huntsmaster (fey)
+
+___
+### True Fairy
+At first glance easily mistaken for grigs, pixies or brownies, fairies are the epitome of what it is to be fey and are the materialisation the boundary of the natural and spirit world. Fairies often appear as tiny humanoids with insectoid wings. Fairies can communicate with all mortals and spirits. Fairies possess absurdly powerful magic, but often naive and gullible. For this reason tragedies involving fairies are not uncommon. When a fairy is deceived and killed, it may become a demon if an oak or lilly is not planted at the site of its demise before the next full moon. If a fairy is broken by torment or torture, it becomes a glitch of half of its original level.
+
+**Size category**: Tiny (5/4ft x 5/4ft)
+- Evade: +2, Armour -2
+- Reach: 0ft
+- [DEX save]: +2, [STR save]: -2
+- Carry capacity: (216lb light, 432lb medium, 1080lb heavy, 1620lb drag)
+___
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|28/19/28|92|254|31|20ft|60ft (fly: perfect), 60ft (blink)|
+
+Deflection: +5
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|6|28|14|16|22|28|
+|Bonus|-2|+9|+2|+3|+6|+9|
+|Save|0|+22|+6|+7|+17|+20|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|20(4)|26|37|5|7|9|11|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|[Elemental Touch: Light](../06-abilities.md#elemental-touch)|+14|4d4+3||
+|[Elemental Blast: Light](../06-abilities.md#elemental-blast)|+17|4d4+6||
+|[Greater Elemental Blast (Linear): Light](../06-abilities.md#elemental-blast-greater-linear)|+17|4d4+6||
+|[Greater Elemental Blast (Radial): Light](../06-abilities.md#elemental-blast-greater-radial)|+17|4d4+6||
+|||||
+|Fey Song|Threshold=22||(2 MP die, range=60ft, instantaneous) A fairy's voice is a balm for the spirit. If a fairy expends 1 MP dice as a secondary action when singing, all mortals and spirits must succeed on a CHA save or become charmed for 8 hours. Entities below level 5 automatically fail the save. Entities above level 10 make the save at advantage. The charm is broken if the entity takes damage, receives the kiss of a maiden, or eats a bitter leaf.|
+|||||
+|[Deflection](../06-abilities.md#deflection)||||
+|[Aphonic Spell](../06-abilities.md#aphonic-spell)|||A fairy may spend 1 MP dice to cast a spell without kinetic components|
+|[Still Spell](../06-abilities.md#still-spell)|||A fairy may spend 1 MP dice to cast a spell without kinetic components|
+|[Lingering Spell](../06-abilities.md#lingering-spell)|||A fairy can expend an extra 1 MP die when casting a spell and increase its duration by its base duration.|
+|[Spelldance IV](../06-abilities.md#spelldance-i-iv)||||
+|[Spellsong IV](../06-abilities.md#spellsong-i-iv)||||
+|||||
+|[Spellcasting Global VII](../06-abilities.md#spellcasting-global)||||
+|[Spellcasting Local: Incantation VII](../06-abilities.md#spellcasting-local)|+14|Threshold=27|Favourites Include: [Least Ward](../08-spell-list.md#least-ward), [Least Heal](../08-spell-list.md#least-heal), [Promise](../08-spell-list.md#promise), [Cure](../08-spell-list.md#cure), [Summon Spirit](../08-spell-list.md#summon-spirit), [Isolate Essence](../08-spell-list.md#isolate-essence), [Spirit Restoration](../08-spell-list.md#spirit-restoration), [Memory Thief](../08-spell-list.md#memory-thief)|
+|[Spellcasting Local: Kinetic VII](../06-abilities.md#spellcasting-local)|+14|Threshold=27|Favourites Include: [Hide](../08-spell-list.md#hide), [Spirits' Secret](../08-spell-list.md#spirits-secret), [Silence](../08-spell-list.md#silence), [Sea Spell](../08-spell-list.md#see-spell), [Mirage](../08-spell-list.md#mirage), [Gift of the Fates](../08-spell-list.md#gift-of-the-fates), [Madness](../08-spell-list.md#madness), [Transform Mortal](../08-spell-list.md#transform-mortal)|
+|[Spellcasting Local: Nature VII](../06-abilities.md#spellcasting-local)|+17|Threshold=30|Favourites Include: [Sour](../08-spell-list.md#sour), [Ensnare](../08-spell-list.md#ensnare), [Least Rest](../08-spell-list.md#least-rest), [Animate Plant](../08-spell-list.md#animate-plant), [Rejuvenate Land](../08-spell-list.md#rejuvenate-land), [Greater Fade](../08-spell-list.md#greater-fade), [Fairy Feast](../08-spell-list.md#fairy-feast), [Create Secret Path](../08-spell-list.md#create-secret-path)|
+|[Forbidden Spell](../08-spell-list.md#undying-realm)|+14||Threshold=27|
+|[High Arcana: Mage's Oath](../08-spell-list.md#mages-oath)|+14||Threshold=27|
+|[High Arcana: Greater Cosmic Seal](../08-spell-list.md#greater-cosmic-seal)|||Threshold=30|
+|[High Arcana: Regrowth](../08-spell-list.md#regrowth)|||Threshold=30|
+|[High Arcana: Fairy Ball](../08-spell-list.md#fairy-ballmasquerade)|||Threshold=30|
+|[High Arcana: Edict of Life](../08-spell-list.md#edict-of-life)|||Threshold=30|
+|||||
+|[Low Light Vision](../06-abilities.md#low-light-vision)|||A fairy can see in moonlight, starlight or other weak sources of light as if it was bright daylight.|
+|[Life Sense IV](../06-abilities.md#life-sense-i-v)|||A fairy can sense and pinpoint locations of living beings within 60ft of itself|
+|[Terrain Mastery](../06-abilities.md#terrain-mastery)|||A fairy has terrain mastery over one form of terrain. Usually this is "woodlands", "deep forest" or "swamp", though it can be any form of natural terrain|
+|||||
+|Immunity|||"stunned", "immobilised", "crippled", "bleeding", "poisoned", "paralysed" as well as "aphonia" and "deafened"|
+|Damage Immunity|||All physical Damage|
+|Damage Resistance|||"Divine" damage, "Profane" damage|
+|||||
+|Skills|||"Perform" +23, "Deceive" +18, "Persuade" +18, "Creature Handling" +18, "Acrobatics" +15, "Flight" +15, "Insight" +15, "Heal" +12, "Knowledge: Nature" +12, "Knowledge: Arcana" +10, "Knowledge: History" +8, other skills: 1 rank|
+|||||
+|Fairy's Curse|||When a fairy is deceived and then killed, it rises as a demon in 1d6 months if an oak or lilly is not planted at the site of its demise before the next full moon. If a fairy is broken by torment or torture, it dies and rises as a glitch of half of its original level within 2d12 hours|
+
+___
+### Wisp
+Wisps are spirits associated with swamps. They take the form of glowing orbs and tend to lure travellers off safe paths and to their deaths.
+
+___
+## Spirits: Other
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|

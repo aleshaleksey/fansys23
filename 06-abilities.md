@@ -1777,7 +1777,7 @@ ___
 - Truesight does not allow one to see through solid objects or natural/mundane disguises, nor does it defeat stealth, unless the stealthed entity is using an illusionary feature to hide itself. 
 
 **Prerequisites**:
-|Life Sense level|Range|MP dice prerequisite|Other|
+|Truesight level|Range|MP dice prerequisite|Other|
 |-|-|-|-|
 |I|30ft|15|-|
 |II|60ft|18|Truesight I|

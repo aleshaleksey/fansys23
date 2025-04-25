@@ -631,7 +631,7 @@ ___
 
 ___
 ### True Fairy
-At first glance easily mistaken for grigs, pixies or brownies, fairies are the epitome of what it is to be fey and are the materialisation the boundary of the natural and spirit world. Fairies often appear as tiny humanoids with insectoid wings. Fairies can communicate with all mortals and spirits. Fairies possess absurdly powerful magic, but often naive and gullible. For this reason tragedies involving fairies are not uncommon. When a fairy is deceived and killed, it may become a demon if an oak or lilly is not planted at the site of its demise before the next full moon. If a fairy is broken by torment or torture, it becomes a glitch of half of its original level.
+At first glance easily mistaken for grigs, pixies or brownies, fairies are the epitome of what it is to be fey and are the materialisation the boundary of the natural and spirit world. Fairies often appear as tiny humanoids with insectoid wings. Fairies can communicate with all mortals and spirits. Fairies possess absurdly powerful magic, but often naive and gullible. For this reason tragedies involving fairies are not uncommon. When a fairy is deceived and killed, it may become a [Demon](profanes.md#demon-fire-or-ice) if an oak or lilly is not planted at the site of its demise before the next full moon. If a fairy is broken by torment or torture, it becomes a glitch of half of its original level.
 
 **Size category**: Tiny (5/4ft x 5/4ft)
 - Evade: +2, Armour -2
@@ -692,7 +692,7 @@ Deflection: +5
 |||||
 |Skills|||"Perform" +23, "Deceive" +18, "Persuade" +18, "Creature Handling" +18, "Acrobatics" +15, "Flight" +15, "Insight" +15, "Heal" +12, "Knowledge: Nature" +12, "Knowledge: Arcana" +10, "Knowledge: History" +8, other skills: 1 rank|
 |||||
-|Fairy's Curse|||When a fairy is deceived and then killed, it rises as a demon in 1d6 months if an oak or lilly is not planted at the site of its demise before the next full moon. If a fairy is broken by torment or torture, it dies and rises as a glitch of half of its original level within 2d12 hours|
+|Fairy's Curse|||When a fairy is deceived and then killed, it rises as a [Demon](profanes.md#demon-fire-or-ice) in 1d6 months if an oak or lilly is not planted at the site of its demise before the next full moon. If a fairy is broken by torment or torture, it dies and rises as a glitch of half of its original level within 2d12 hours|
 
 ___
 ### Wisp

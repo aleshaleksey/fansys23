@@ -43,16 +43,15 @@ Of course play will be "clunky" if there isn't at least one person at the table 
 
 The version currently stands at:
 
-**v0.0.11**
+**v0.0.12**
 
-This is the 11th draft. It is is mostly workable, but needs more testing, more monsters, and a better layout for clarity.
+This is the 12th draft. It is is mostly workable, but needs more testing, more monsters, and a better layout for clarity.
 
 ## TODO
 
 - Expand ability list (mainly out of combat abilities).
 - Expand spell list.
-- Finish equipment list (mainly magic items).
+- Add magic items to equipment list.
 - Improve rules for crafting.
 - More monster/NPC stat blocks.
-- List and evaluate all sources of bonuses and penalties for analysis of balance.
 - Playtesting and analysis of balance.

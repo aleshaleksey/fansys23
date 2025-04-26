@@ -124,7 +124,7 @@ For many skill rolls the threshold is written as "Opposed vs [skill name]". It i
 
 ___
 #### Turning an opposed roll into a Threshold.
-An opposed roll can be converted into a threshold by taking the bonus or malus and adding 13.
+An opposed roll can be converted into a threshold by taking the bonus or malus and adding 13 instead of rolling (usually 2d12).
 
 ___
 #### Precedence of Rolls: Thresholds (DC), and opposing rolls
@@ -448,11 +448,13 @@ Attack Potentials and Attack Thresholds are used to determine the potencyPerhaps
 - **SAP = [Base + Sup]**
 - A total bonus for a "supernatural" attack = SAP + Int/Wis
 
-**Natural Attack Threshold** (NAT) is **NAP + 10**. A target of a character's "natural" abilities rolls a save against the character's NAT.
-- The threshold for a character's "natural" abilities = NAT + Str/Dex
+**Natural Attack Threshold** (NT) is **Nat + 13**. A target of a character's "natural" **abilities** rolls a save against the character's NT.
+- The threshold for a character's "natural" abilities = NT + Str/Dex
 
-**Supernatural Attack Threshold** (SAT) is **SAP + 10**. A target of a character's "supernatural" abilities rolls a save against a character's SAT.
-- The threshold for a character's "supernatural" abilities = SAT + Int/Wis
+**Supernatural Attack Threshold** (SA) is **Sup + 13**. A target of a character's "supernatural" **abilities** rolls a save against a character's ST.
+- The threshold for a character's "supernatural" abilities = ST + Int/Wis
+
+It should be noted that for *targetted attacks* (including [basic martial manoeuvres](04-combat.md#basic-martial-manoeuvres)), "Base" is included, while for *ability save thresholds* it is not. This is because improving defences against targetted attacks is easier than improving saves.
 
 ___
 ### Saving throws
@@ -764,4 +766,4 @@ NB: There can never be multiple of dice sizes smaller than D6 rolled for weapon 
 ___
 ## Version
 
-0.0.11
+0.0.12

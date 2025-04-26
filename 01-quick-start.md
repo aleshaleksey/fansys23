@@ -367,7 +367,7 @@ HiT (Hit Threshold) represents how difficult it is to harm a character with targ
 In general, the higher the hit the better (See "[Base Rules: Hit Threshold (HiT)](02-base-rules.md#hit-threshold-(hit)"). A level one character can expect to have HiT 16 when kitted up.
 
 ___
-#### Attack bonuses and thresholds
+#### Attack bonuses and Hit Thresholds
 
 Attacks must overcome HiT to do damage, abilities are opposed by a save. "Natural" attacks are governed by Str and Dex (use [Str] or [Dex] bonus to hit), while "supernatural" attacks are governed by Int and Wis (use [Int] or [Wis] bonus to hit, usually [Wis]).
 
@@ -390,7 +390,19 @@ In short:
     - = [Nat] + [Base] + [Str]
         - = [NAP] + [Str]
 
-Luckily we don't have to calculate the attack potentials outside of leveling up our characters. And even then we can just use the tables in the "[Base Rules: Tables](02-base-rules.md#tables)".
+Luckily we don't have to calculate the attack potentials outside of levelling up our characters. And even then we can just use the tables in the "[Base Rules: Tables](02-base-rules.md#tables)".
+
+___
+#### Spell and Ability Saves
+
+When spells and some abilities are used, the onus on overcoming their effects is on the character who would be affected. In this case, the character who is affected can attempt to roll a "save" against the spell/ability's static "threshold". There are six types of saving throw, one for each stat. A character can either proficient or not proficient with a save. The bonus for the save is as follows:
+- **Not proficient**: [Stat bonus + Base]
+- **Proficient** (Str, Dex, Con): [NAP + Stat bonus]
+- **Proficient** (Int, Wis, Cha): [SAP + Stat bonus]
+
+The "save threshold" is equal to **[13 + [Nat or Sup] + [Stat bonus]]**.
+
+If the roll to save ("save") is equal or higher than Threshold, the character avoids some, or all, of the effects of the spell/ability.
 
 ___
 ### Alignment
@@ -432,9 +444,9 @@ Abilities and boons are special features of a character that allow them to do th
 - Swashbuckler and martial artists would probably both benefit from "[flurry](06-abilities.md#flurry)".
 
 ___
-### Leveling up
+### Levelling up
 
-Leveling up, strangely enough, is quite easy, if not for the agony of choice. Each time a character levels up it gains:
+Levelling up, strangely enough, is quite easy, if not for the agony of choice. Each time a character levels up it gains:
 
 + 1 HP
 + 3 dice points to share between gaining SP dice and MP dice.

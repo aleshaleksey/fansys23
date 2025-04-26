@@ -289,5 +289,8 @@ ___
 ___
 ## From v0.0.11
 
+### General
+- Major recalculation of save thresholds. Save threshold is now 13 + [Sup OR Nat] + [Stat]. (We no longer add base). This makes level based increase to ability thresholds less vicious.
+
 ### Abilities
 - Add [Mighty I](06-abilities.md#mighty-i) and [Mighty II](06-abilities.md#mighty-ii) abilities to increase carrying capacity.

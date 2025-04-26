@@ -67,8 +67,8 @@ All entities have:
 The calculation of these parameters is covered in the base rules. There are three categories of offensive abilities: "targeted attacks", "abilities" and "manoeuvres".
 
 - "Targeted Attacks": The attacker rolls using NAP or SAP against a target's HiT.
-- "Abilities": The target rolls a save vs attacker's NAT (NAP+13) or SAT (SAP+13).
-- "Manoeuvres": The attacker rolls using NAP vs target's NAT (NAP+13).
+- "Abilities": The target rolls a save vs attacker's NT (Nat+13) or ST (Sup+13) plus governing stat.
+- "Manoeuvres": The attacker rolls using NAP vs target's NAP+13 plus governing stat.
 
 The effect is resolved immediately for instantaneous attacks, or at the start of the target's turn for effects that persist for a turn or longer.
 

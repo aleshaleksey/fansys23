@@ -275,7 +275,7 @@ ____
 
 **Action**:
 1. Declare the ability and make the attack.
-2. If you hit, expend the SP dice, target tries to save against your NAP + [Con] at the start of its turn.
+2. If you hit, expend the SP dice, target tries to save against your Nat + [Con] at the start of its turn.
 3. On a fail, the target is affected until the end of its next turn.
 
 **Prerequisites**: There is an SP prerequisite and cost on all debilitating strikes.
@@ -750,11 +750,11 @@ ___
 - Such a beast can be used for combat, scouting, guarding and other menial tasks within its capability.
 
 **Limitations**:
-- You must find a suitable beast and keep it still for long enough to bind it. It can attempt a Cha save vs your [SAP + [Cha]] to not be bound. You cannot attempt to bind the same beast for a month if it succeeds. If it succeeds three times, you can never bind it.
+- You must find a suitable beast and keep it still for long enough to bind it. It can attempt a Cha save vs your [Sup + [Cha]] to not be bound. You cannot attempt to bind the same beast for a month if it succeeds. If it succeeds three times, you can never bind it.
 - If a beast has a higher level than your "Bind Beast" limit, you cannot bind it.
-- If you do something, or order the beast to do something that would normally make it a "nemesis" (see "[Skills: Persuade](05-skills.md#persuade)"), it gets a Cha save vs your [SAP + [Cha]] at advantage to break the binding.
+- If you do something, or order the beast to do something that would normally make it a "nemesis" (see "[Skills: Persuade](05-skills.md#persuade)"), it gets a Cha save vs your [Sup + [Cha]] at advantage to break the binding.
 - You can never have more than one bound beast at a time.
-- You must sacrifice 1HP of your own per 2 levels of "bind beast" to the beast every day to keep it bound (min 1). Sacrificing another's HP transfers the beast to their control for the day: Every day this is done the beast gets a Cha save vs the temporary master's [SAP + [Cha]] to break free.
+- You must sacrifice 1HP of your own per 2 levels of "bind beast" to the beast every day to keep it bound (min 1). Sacrificing another's HP transfers the beast to their control for the day: Every day this is done the beast gets a Cha save vs the temporary master's [Sup + [Cha]] to break free.
 
 **Rules**:
 - If the beast's attack, damage dice, HP, SP or MP are greater than the values displayed on the table, they are reduced to that value.

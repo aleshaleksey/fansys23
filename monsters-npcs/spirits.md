@@ -12,6 +12,11 @@
     - [Earth Elemental: Lesser](#earth-elemental-lesser)
     - [Earth Elemental: Greater](#earth-elemental-greater)
 - [Spirits: Fey](#spirits-fey)
+    - [Browny](#brownie)
+    - [Pixie](#pixie)
+    - [Fey Hound](#hound-fey)
+    - [Fey Hunter](#hunter-fey)
+    - [Fey Huntsmaster](#huntsmaster-fey)
     - [True Fairy](#true-fairy)
 - [Spirits: Other](#spirits-other)
 
@@ -582,7 +587,7 @@ Armour:+7
 ___
 ## Spirits: Fey
 Fey are spiritual beings associated in some way to the natural world. They tend to inhabit the membrane layers between the material and spirit world and travel readily, if not freely, between the two (although not freely). Fey spirits may be malicious of benevolent, but even if whimsical they are bound strictly by their own logic. Fey spirits have the following properties:
-- Fey beings are immune to "physical" damage, as their physical form is either unnecessary or not "real".
+- Fey beings are immune to "physical" damage, as their physical form is either unnecessary or not "real". The immunity to physical damage does not apply to damage caused by weapons made of iron or steel.
 - Fey beings are immune to "stunned", "immobilised", "crippled", "bleeding", "poisoned", "paralysed" as well as "aphonia" and "deafened".
 - All fey have at least one ability that causes "frightened" or "charmed".
 - Most fey have a "blink" speed.
@@ -638,7 +643,7 @@ Deflection: +1
 |[Spellcasting Local: Kinetic I](../06-abilities.md#spellcasting-local)|Threshold=15||Favourite Spells: [Hide](../08-spell-list.md#hide), [Spirits' Secret](../08-spell-list.md#spirits-secret)|
 |||||
 |Immunity|||"stunned", "immobilised", "crippled", "bleeding", "poisoned", "paralysed" as well as "aphonia" and "deafened"|
-|Damage Immunity|||All physical Damage|
+|Damage Immunity|||All physical Damage. The immunity to physical damage does not apply to damage caused by weapons made of iron or steel.|
 |||||
 |Skills|||"Perform" +4, "Appraise" +3, "Fortify" 0, "Prospect" +2, "Flight" +5, "Sleight of Hand" +5 "Heal" +2, "Tinker" +5, "Stealth" +5|
 |||||
@@ -686,13 +691,9 @@ Deflection: +2
 |[Spellcasting Local: Nature III](../06-abilities.md#spellcasting-local)|Threshold=15||Favourite Spells: [Sour](../08-spell-list.md#sour), , [Fade](../08-spell-list.md#fade), [Call Ailment](../08-spell-list.md#call-ailment), [Slumber](../08-spell-list.md#slumber)|
 |||||
 |Immunity|||"stunned", "immobilised", "crippled", "bleeding", "poisoned", "paralysed" as well as "aphonia" and "deafened"|
-|Damage Immunity|||All physical Damage|
+|Damage Immunity|||All physical Damage. The immunity to physical damage does not apply to damage caused by weapons made of iron or steel.|
 |||||
 |Skills|||"Perform" +4, "Appraise" +3, "Fortify" 0, "Prospect" +2, "Flight" +5, "Sleight of Hand" +5 "Heal" +2, "Tinker" +5, "Stealth" +5|
-
-
-___
-### Grig
 
 ___
 ### Dryad
@@ -707,12 +708,140 @@ ___
 
 ___
 ### Hound (fey)
+Fey hounds, occasionally called "ghost hounds", are dark spirits of the hunt that are completely loyal to the hunt masters of the wild hunt. These hounds rejoice in the chase and in tormenting their prey once they close in. It should be noted that whatever their origins, these spirits are much wilier and more dangerous than wolves or dogs. They are particularly dangerous because they seldom lose the scent. In other words as long as the hound has your scent, the wild hunt will find you. And the hound will not lose its scent.
+
+**Size category**: Medium (5ft x 5ft)
+- Reach: 5ft
+- Carry capacity: (56lb light, 112lb medium, 280lb heavy, 420lb drag)
+___
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|14/13/14|24|23|8|60ft|30ft (blink)|
+
+Deflection: +2
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|14|12|14|11|17|13|
+|Bonus|+2|+1|+2|0|+3|+1|
+|Save|+3|+2|+3|+1|+4|+2|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|5(1)|7|9|2|2|3|3|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite|+5|1d6+2 shear damage|Reach=5ft|
+|Grapple|+5|||
+|Trip|+5|||
+|[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||A fey hound can combine two basic combat manoeuvres by expending 1 SP die.|
+|Hypnotic Eyes||Threshold=15|(Range=30ft) Expending 1 MP die a secondary action, a hound can make eye contact with a single target. The target must make a CHA save at the start of its turn, or become incapacitated. It may repeat the save at the start of each of its turns. Once a target succeeds on the save, it cannot be affected by this ability until the next dusk. A blind target is unaffected by the ability. A target that can close its eyes may voluntarily close its eyes as a reaction to avoid the effect (or as a non action on its turn), but is considered blind until the start of the hound's next turn.|
+|||||
+|Keen Senses|||The fey hound has advantage on all observe rolls.|
+|[Low-light Vision](../06-abilities.md#low-light-vision)|||The hound can see in dim light as well as in bright daylight.|
+|[Tracker: Fast Search](../06-abilities.md#tracker-fast-search)|||Looking for tracks is a "main action" for the hound. Following tracks is a non-action.|
+|[Tracker: Persistent](../06-abilities.md#tracker-persistent)|||Once the hound find tracks, it does not need to make another roll for 4 hours, or 4 miles if speed is less than 1mph|
+|[Tracker: Swift](../06-abilities.md#tracker-swift)|||A fey hound can move at full speed when tracking without penalties. It can "run" when tracking, with a +6 to the threshold.|
+|[Terrain Mastery: Deep Forest, Hills, Woods](../06-abilities.md#terrain-mastery)|||+4 to certain skill rolls in these terrains|
+|||||
+|Immunity|||"stunned", "immobilised", "crippled", "bleeding", "poisoned", "paralysed" as well as "aphonia" and "deafened"|
+|Damage Immunity|||All physical Damage. The immunity to physical damage does not apply to damage caused by weapons made of iron or steel.|
+|||||
+|Skills|||"Track" +7, "Observe" +7, "Sense Motive" +5, "Athletics" +5, "Swim" +5, "Stealth" +4, "Acrobatics" +3, "Nature" +3|
 
 ___
 ### Hunter (fey)
+The wild hunt is a phenomenon wherein fey associated with the more predatory side of nature gather under a huntsmaster, and following a ritual declares the prey for this hunt. The hunt will then continue until the prey is caught and sacrificed to the spirits of the primeval wild. While any being may become a hunter, most hunters are wild fey spirits devoted to the hunt. Each hunter generally drives half a dozen hounds. Sometimes hunters compete amongst each other, sometimes they cooperate to bring down the most dangerous of prey.
+
+**Size category**: Medium (5ft x 5ft)
+- Reach: 5ft
+- Carry capacity: (56lb light, 112lb medium, 280lb heavy, 420lb drag)
+___
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|26/20/19|50|54|15|40ft|30ft (blink)|
+
+Deflection: +2
+Hide Armour (fey source): +5
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|12|22|14|12|15|14|
+|Bonus|+1|+6|+2|+1|+2|+2|
+|Save|+4|+13|+5|+4|+8|+5|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|11(3)|19|16|4|3|7|6|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Short Spear (fey source)|+15|1d6/10+7 [piercing/percussive]|Reach=5ft|
+|Composite Bow (fey source)|+15|1d8+7[piercing]|Range=1200ft, Increment=240ft|
+|Multi-attack I||||
+|||||
+|[Spellcasting Local: Nature II](../06-abilities.md#spellcasting-local)|Threshold=18||Favourite Spells: [Compass](../08-spell-list.md#compass), [Hide](../08-spell-list.md#hide), [Least Heal](../08-spell-list.md#least-heal), [Ensnare](../08-spell-list.md#ensnare), [Call Ailment](../08-spell-list.md#call-ailment), [Trace Secret Path](../08-spell-list.md#trace-secret-path)|
+|||||
+|[Xenophonia III](../06-abilities.md#xenophonia-i-xiii)|||A huntsman can communicate with plants, beasts and monsters|
+|[Low-light Vision](../06-abilities.md#low-light-vision)|||The huntsman can see in dim light as well as in bright daylight.|
+|[Tracker: Fast Search](../06-abilities.md#tracker-fast-search)|||Looking for tracks is a "main action" for the hunter. Following tracks is a non-action.|
+|[Tracker: Persistent](../06-abilities.md#tracker-persistent)|||Once the hunter find tracks, it does not need to make another roll for 4 hours, or 4 miles if speed is less than 1mph|
+|[Tracker: Swift](../06-abilities.md#tracker-swift)|||A fey hunter can move at full speed when tracking without penalties. It can "run" when tracking, with a +6 to the threshold.|
+|[Terrain Mastery](../06-abilities.md#terrain-mastery)|||+4 to certain skill rolls in two of "hills", "plains", "woodlands", "deep forests", "fells"|
+|||||
+|Immunity|||"stunned", "immobilised", "crippled", "bleeding", "poisoned", "paralysed" as well as "aphonia" and "deafened"|
+|Damage Immunity|||All physical Damage. The immunity to physical damage does not apply to damage caused by weapons made of iron or steel.|
+|||||
+|Skills|||"Track" +11, "Observe" +11, "Sense Motive" +11, "Athletics" +5, "Swim" +5, "Stealth" +14, "Acrobatics" +3, "Knowledge: Nature" +7, "Knowledge: Geography" +6, "Knowledge: Arcana" +5|
 
 ___
 ### Huntsmaster (fey)
+The wild hunt is a phenomenon wherein fey associated with the more predatory side of nature gather under a huntsmaster, and following a ritual declares the prey for this hunt. The huntsmaster is usually a minor fey lord, or at the very least an ancient fey. The huntsmaster leads the hunt in a ceremonial manner and serves to protect the hunt, be it to protect individual hunters, or to protect the hunt from hunters who have strayed from the strange code of ethics that governs the hunt, or from other beings that would seek to impede the hunt. Huntsmasters are an opponent seldom encountered, and an encounter seldom survived.
+
+**Size category**: Medium (5ft x 5ft)
+- Reach: 5ft
+- Carry capacity: (56lb light, 112lb medium, 280lb heavy, 420lb drag)
+___
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|30/22/25|101|107|23|40ft|60ft (blink), cosmic|
+
+Deflection: +3
+Hide Armour (fey source): +5
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|16|26|17|14|19|17|
+|Bonus|+3|+8|+3|+2|+4|+3|
+|Save|+4|+17|+7|+6|+13|+12|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|17(4)|25|28|5|5|9|9|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Short Spear (fey source)|+19|1d6/10+9 [piercing/percussive]|Reach=5ft|
+|Composite Bow (fey source)|+19|1d8+9[piercing]|Range=1200ft, Increment=240ft|
+|Trip/Throw|+19|||
+|[Precision Attack VI](../06-abilities.md#precision-attack-i-x)||6d8|A huntsmaster can make a single attack as an attack action against a distracted target. On a hit this attack deals an extra 6d8 damage.|
+|Multi-attack II|||A huntsmaster can make 3 basic combat manoeuvres as an attack action|
+|||||
+|[Spellcasting Local: Nature VI](../06-abilities.md#spellcasting-local)|Threshold=18||Favourite Spells: [Compass](../08-spell-list.md#compass), [Hide](../08-spell-list.md#hide), [Least Heal](../08-spell-list.md#least-heal), [Ensnare](../08-spell-list.md#ensnare), [Call Ailment](../08-spell-list.md#call-ailment), [Trace Secret Path](../08-spell-list.md#trace-secret-path), [Cure](../08-spell-list.md#cure), [Slumber](../08-spell-list.md#slumber), [Balance of Nature](../08-spell-list.md#balance-of-nature), [Rejuvenate Land](../08-spell-list.md#rejuvenate-land), [Healing Seed](../08-spell-list.md#healing-seed), [Greater Fade](../08-spell-list.md#greater-fade), [Lesser Cosmic Seal](../08-spell-list.md#greater-fade), [Fairy Feast](../08-spell-list.md#fairy-feast)|
+|||||
+|[Xenophonia VI](../06-abilities.md#xenophonia-i-xiii)|||A huntsmaster can communicate with all mortals and spirits|
+|[Low-light Vision](../06-abilities.md#low-light-vision)|||The huntsmaster can see in dim light as well as in bright daylight.|
+|[True-sight: 60ft](../06-abilities.md#truesight-i-v)|||The huntsmaster can detect living beings within 60ft of it|
+|[Tracker: Fast Search](../06-abilities.md#tracker-fast-search)|||Looking for tracks is a "main action" for the hunter. Following tracks is a non-action.|
+|[Tracker: Persistent](../06-abilities.md#tracker-persistent)|||Once the hunter find tracks, it does not need to make another roll for 4 hours, or 4 miles if speed is less than 1mph|
+|[Tracker: Swift](../06-abilities.md#tracker-swift)|||A fey hunter can move at full speed when tracking without penalties. It can "run" when tracking, with a +6 to the threshold.|
+|[Terrain Mastery](../06-abilities.md#terrain-mastery)|||+4 to certain skill rolls in "hills", "plains", "woodlands", "deep forests" and "fells"|
+|||||
+|Immunity|||"stunned", "immobilised", "crippled", "bleeding", "poisoned", "paralysed" as well as "aphonia" and "deafened"|
+|Damage Immunity|||All physical Damage. The immunity to physical damage does not apply to damage caused by weapons made of iron or steel.|
+|||||
+|Skills|||"Track" +17, "Observe" +17, "Sense Motive" +17, "Athletics" +11, "Swim" +11, "Stealth" +20, "Acrobatics" +10, "Knowledge: Nature" +9, "Knowledge: Geography" +9, "Knowledge: Arcana" +9, other skills 1 rank.|
 
 ___
 ### True Fairy
@@ -773,7 +902,7 @@ Deflection: +5
 |Fairy Step|||A fairy can move between the material realm and [shallow spirit realms](../03-movement-exploration.md#spirit-realm-rules-shallow) using 5ft of movement. However, it can only do so in areas that have a ["spiritual" alignment](../01-quick-start.md#alignment).|
 |||||
 |Immunity|||"stunned", "immobilised", "crippled", "bleeding", "poisoned", "paralysed" as well as "aphonia" and "deafened"|
-|Damage Immunity|||All physical Damage|
+|Damage Immunity|||All physical Damage. The immunity to physical damage does not apply to damage caused by weapons made of iron or steel.|
 |Damage Resistance|||"Divine" damage, "Profane" damage|
 |||||
 |Skills|||"Perform" +23, "Deceive" +18, "Persuade" +18, "Creature Handling" +18, "Acrobatics" +15, "Flight" +15, "Insight" +15, "Heal" +12, "Knowledge: Nature" +12, "Knowledge: Arcana" +10, "Knowledge: History" +8, other skills: 1 rank|

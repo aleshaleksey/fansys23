@@ -12,12 +12,14 @@
     - [Earth Elemental: Lesser](#earth-elemental-lesser)
     - [Earth Elemental: Greater](#earth-elemental-greater)
 - [Spirits: Fey](#spirits-fey)
+    - [Doppelganger](#doppelganger)
     - [Browny](#brownie)
     - [Pixie](#pixie)
     - [Fey Hound](#hound-fey)
     - [Fey Hunter](#hunter-fey)
     - [Fey Huntsmaster](#huntsmaster-fey)
     - [True Fairy](#true-fairy)
+    - [Wisp](#wisp)
 - [Spirits: Other](#spirits-other)
 
 ## Spirits: Elementals
@@ -604,6 +606,42 @@ ___
 ### Doppelganger
 Doppelgangers are spirits that take the exact form of a living mortal. A doppelganger cannot change its form again while its current "template" is alive. For this reason, doppelgangers frequently seek out and kill their "template" when they tire of a form.
 
+**Size category**: Usually medium (5ft x 5ft) (may be small or large depending on its template)
+- Reach: 5ft
+- Carry capacity: (3lb light, 6lb medium, 15lb heavy, 22.5lb drag)
+___
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|14/12/14|26|26|10|40ft|30ft (blink)|
+
+Deflection: +1
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|13|15|13|13|9|13|
+|Bonus|+1|+2|+1|+1|-1|+1|
+|Save|+2||||||
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|8(2)|9|9|2|2|4|4|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Dagger|+6|1d4+2 [piercing/slashing]|Reach=5ft, Range=60ft, Increment=10ft|
+|Shortbow|+6|1d6+2 [piercing]|Range=600ft, Increment=120ft|
+|||||
+|[Assassinate II](../06-abilities.md#assassinate-i-v)|||A doppelganger that declares "assassinate" can make a single weapon attack against an immobilised or unaware target. Should it hit, the damage is done directly to HP.|
+|[Precision Attack IV](../06-abilities.md#precision-attack-i-x)||4d8|A doppelganger that declares "precision attack" can make a single weapon attack against a distracted or unaware target. Should it hit, it deals an extra 4d8 damage.|
+|||||
+|[Low-light Vision](../06-abilities.md#low-light-vision)|||A doppelganger can see in low light conditions as well as in daylight.|
+|[Xenophonia I](../06-abilities.md#xenophonia-i-xiii)|||A doppelganger can communicate with beasts|
+|||||
+|Immunity|||"stunned", "immobilised", "crippled", "bleeding", "poisoned", "paralysed" as well as "aphonia" and "deafened"|
+|Damage Immunity|||All physical Damage. The immunity to physical damage does not apply to damage caused by weapons made of iron or steel.|
+
+This stat block represents a doppelganger who has taken the form of a common human. NB: lower level doppelgangers can, in theory, exist. It should be noted that doppelgangers instinctively try to avoid showing their inhuman abilities in front of the humanoids they dwell with, least their cover is broken. If their cover is broken they will sooner kill or otherwise silence the witness than allow themselves to be discovered.
+
 ___
 ### Brownie
 A brownie is a tiny spirit which associates itself with a humanoid dwelling. Brownies tend to be benevolent and bring blessings to the dwellings they inhabit. Should the dwelling be destroyed, the brownie must find a new dwelling before the full moon or perish.
@@ -704,9 +742,6 @@ ___
 Nymphs are similar to undines and are sometimes known as naiads. They are the spirits of natural streams and charm humanoids, sometimes involuntarily. A nymph cannot leave the catchment of its stream. Furthermore, should its stream dry up or be dammed for a full year, the nymph perishes. A nymph can leave its stream and pass to the spirit realm by travelling to its estuary. Should it do so, however, the stream dries up. Only the sacrifice of an undine can restore it.
 
 ___
-### Redcap
-
-___
 ### Hound (fey)
 Fey hounds, occasionally called "ghost hounds", are dark spirits of the hunt that are completely loyal to the hunt masters of the wild hunt. These hounds rejoice in the chase and in tormenting their prey once they close in. It should be noted that whatever their origins, these spirits are much wilier and more dangerous than wolves or dogs. They are particularly dangerous because they seldom lose the scent. In other words as long as the hound has your scent, the wild hunt will find you. And the hound will not lose its scent.
 
@@ -801,7 +836,7 @@ The wild hunt is a phenomenon wherein fey associated with the more predatory sid
 
 **Size category**: Medium (5ft x 5ft)
 - Reach: 5ft
-- Carry capacity: (56lb light, 112lb medium, 280lb heavy, 420lb drag)
+- Carry capacity: (64lb light, 128lb medium, 320lb heavy, 480lb drag)
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
@@ -912,6 +947,45 @@ Deflection: +5
 ___
 ### Wisp
 Wisps are spirits associated with swamps. They take the form of glowing orbs and tend to lure travellers off safe paths and to their deaths.
+
+**Size category**: Small (5/2ft x 5/2ft)
+- Evade: +1, Armour -1
+- Reach: 5ft
+- [DEX save]: +1, [STR save]: -1
+- Carry capacity: - (incorporeal)
+___
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|//||||-|50ft (fly: perfect), 20ft (blink)|
+
+Deflection: +2
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|-|22|-|14|15|18|
+|Bonus|-|+6|-|+2|+2|+4|
+|Save|-|+8|-|0|+4|+6|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|8(2)|7|19|2|4|4|6|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|[Elemental Touch: Ice](../06-abilities.md#elemental-touch)|+8|2d6+2||
+|[Elemental Touch: Lightning](../06-abilities.md#elemental-blast)|+8|2d4+2||
+|Illuminated|||A wisp sheds a dim light within 20ft, that is visible from 2 miles away.|
+|||||
+|Spirit Drain|Threshold=21||When a wisp causes HP damage to a target, it regains MP equal to the damage dealt. If it is already at full MP, it gains a temporary boost to its INT equal to half of the damage dealt, for 1 minute.|
+|||||
+|Skills|||"Observe" +8, "Fly" +12|
+|||||
+|Incorporeal|||Whisps do not have a physical form, and cannot physically interact with the world. They are immune to any abilities that require a STR or CON save and automatically fail skill rolls governed by STR or CON.|
+|Immunity|||"stunned", "immobilised", "crippled", "bleeding", "poisoned", "paralysed" as well as "aphonia" and "deafened"|
+|Damage Immunity|||All physical Damage.|
+|Damage Immunity|||"Poison", "Biological", "Cold[natural]", "Fire[natural]"|
+|||||
+|Damage Resistance|||"Profane" damage|
 
 ___
 ## Spirits: Other

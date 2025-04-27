@@ -186,7 +186,7 @@ ___
 - Assassinate automatically fails if the target has heavy, or total, concealment, or if it is "invisible" to you. This means that, for example, entities without low light vision, or other special sight, cannot use "assassinate" with ranged attacks in low light conditions or darkness.
 - If "assassinate" is used with a ranged attack, it must be within the first range increment of the weapon. 
 - Since it uses a "main action" it cannot be used as a "reaction".
-- You cannot use "assassinate" when in conjunction wit "Berserk" and similar abilities.
+- You cannot use "assassinate" when in conjunction with "Berserk" and similar abilities.
 
 |Assassinate level|Exploited Condition|Minimum Level|
 |-|-|-|

@@ -245,14 +245,14 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Shade's touch|+9|1d4+3|(main action) "Profane" damage. Entities touched must succeed a Threshold=18 WIS save or be "catatonic" until they are no longer in line of sight of the shade.|
-|Shade's gaze|Threshold=23|1d3|(secondary action, range 30ft, 2MP dice) A shade can look into the darker part's of a mortal's soul, draining 1d3 SP dice and the same number of MP dice. (Averting gaze makes one immune, but also makes you blind in respect to the shade)|
+|Shade's gaze|Threshold=21|1d3|(secondary action, range 30ft, 2MP dice) A shade can look into the darker part's of a mortal's soul, draining 1d3 SP dice and the same number of MP dice. (Averting gaze makes one immune, but also makes you blind in respect to the shade)|
 |Profane aura|Threshold=19 CON||(Range = 60ft) A shade removes warmth and vital energies from within 30ft. The temperature within the aura drops by one category. All mortals entering or starting their turn in a shade's aura must succeed on a CON save or have disadvantage on DEX based rolls and take 3 points of supernatural cold damage.|
 |Resistant|||"fire", "ice", "lightning" damage from supernatural sources|
 |Vulnerability|||"divine", "light" from supernatural sources|
 |Immune|||"natural" damage (except "light") and all combat manoeuvres carried out without "spiritual" properties|
 |Immune||||All combat manoeuvres carried by corporeal entities without the "spiritual" property|
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
-|Spellcasting III|Threshold=20||"[Least Curse](../08-spell-list.md#least-curse)"|
+|Spellcasting III|Threshold=18||"[Least Curse](../08-spell-list.md#least-curse)"|
 |Senses|||"low-light vision", "life-sense" 120ft|
 |Horror of the Dark|||The shade has advantage on "stealth" in low-light and darkness. If exposed to direct sunlight, the shade dissipates until low-light conditions are restored|
 
@@ -284,7 +284,7 @@ ___
 |Immune|||"physical" damage and all combat manoeuvres carried out without "spiritual" properties|
 |Immune||||All combat manoeuvres carried by corporeal entities without the "spiritual" property|
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
-|Spellcasting III|Threshold=17||"[Least Curse](../08-spell-list.md#least-curse)"|
+|Spellcasting III|Threshold=16||"[Least Curse](../08-spell-list.md#least-curse)"|
 |Senses|||"low-light vision", "life-sense" 60ft|
 |Horror of the Dark|||The shade has advantage on "stealth" in low-light and darkness. If exposed to direct sunlight, the shade dissipates until low-light conditions are restored|
 
@@ -419,13 +419,13 @@ ___
 |-|-|-|-|
 |Claw|+5|1d4+3||
 |Grapple|+7||A target grappled by a succubus has disadvantage on saves vs its "charm" and "life drain"|
-|Charm|Threshold=23 WIS||As a full round action, a succubus can charm a humanoid. The humanoid is charmed for 24h, but gets a repeated save if it is subject to an attack from the succubus. If the humanoid is not attracted to the sex of the form that the succubus is currently in, it has advantage on the save.|
-|Life Drain (1MP dice)|Threshold=23 CHA|1d3 SP dice|The succubus' life drain drains 1d3 SP dice from the target's maximum. The actual SP dice is also reduced by that amount. Each time, the succubus gains 2 SP which can take it past its SP maximum. If the target has 0 SP dice, the attack affects HP instead.|
+|Charm|Threshold=21 WIS||As a full round action, a succubus can charm a humanoid. The humanoid is charmed for 24h, but gets a repeated save if it is subject to an attack from the succubus. If the humanoid is not attracted to the sex of the form that the succubus is currently in, it has advantage on the save.|
+|Life Drain (1MP dice)|Threshold=21 CHA|1d3 SP dice|The succubus' life drain drains 1d3 SP dice from the target's maximum. The actual SP dice is also reduced by that amount. Each time, the succubus gains 2 SP which can take it past its SP maximum. If the target has 0 SP dice, the attack affects HP instead.|
 |||||
 |Alternate Form|||A succubus has a true form, and a humanoid form. The humanoid form is generally attractive. It can shift between them as a secondary action. In its humanoid form the succubus loses its claw attack and replaces its movement modalities with those of the humanoid. Its stats, saves, and abilities are unaffected.|
 |||||
 |Senses|||"Low Light Vision", "Heat Sense", "Life Sense"|
-|Spellcasting: Incantation II|Threshold=20||Favourites are: "Down", "Sour", "Least Ward", "Least Vengeance", "Least Veil", "Trace Secret Path"|
+|Spellcasting: Incantation II|Threshold=18||Favourites are: "Down", "Sour", "Least Ward", "Least Vengeance", "Least Veil", "Trace Secret Path"|
 |Skills|||"Deception: +11", "Persuasion:+11", "Sleight of Hand:+9", "Acrobatics:+7", "Ride:+5",  "Insight:+5", "Religion:+5", "Arcana:+4", "Appraise":+3, "Observe": +1, "Athletics":+1|
 |||||
 |Resistant|||"physical" damage, "fire", "ice", "lightning" damage|
@@ -544,8 +544,8 @@ ___
 |||||
 |Xenophonia III|||"Humanoid", "Monster", "Elemental"|
 |Spellcasting: Global I||||
-|Spellcasting: Fire/Water VI|Threshold=28|||
-|Spellcasting: Profane VIII|Threshold=28||Favourites are: "[Dusk](../08-spell-list.md#dusk)", "[Animate Dead](../08-spell-list.md#animatecontrol-dead)", "[Balance of Nature](../08-spell-list.md#balance-of-nature)", "[Summon Fiend](../08-spell-list.md#summon-fiend)", "[Legion of Dead](../08-spell-list.md#legion-of-dead)", "[Profane Resurrection](../08-spell-list.md#profane-resurrection)"|
+|Spellcasting: Fire/Water VI|Threshold=24|||
+|Spellcasting: Profane VIII|Threshold=24||Favourites are: "[Dusk](../08-spell-list.md#dusk)", "[Animate Dead](../08-spell-list.md#animatecontrol-dead)", "[Balance of Nature](../08-spell-list.md#balance-of-nature)", "[Summon Fiend](../08-spell-list.md#summon-fiend)", "[Legion of Dead](../08-spell-list.md#legion-of-dead)", "[Profane Resurrection](../08-spell-list.md#profane-resurrection)"|
 |Alternate Form|||A demon has its true form and a humanoid form. It can shift between them as a secondary action. In its humanoid form the demon loses its claw attack and replaces its movement modalities with those of the humanoid. Its stats, saves, and abilities are unaffected.|
 |||||
 |Deflection||||

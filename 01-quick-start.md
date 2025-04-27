@@ -452,7 +452,9 @@ Levelling up, strangely enough, is quite easy, if not for the agony of choice. E
 + 3 dice points to share between gaining SP dice and MP dice.
 + [3 + Int] skill points to put into skill ranks and proficiencies. 
 + 1 skill to add to background skills
-+ 3 level points, to be used for abilities, or exchanged for skill points (3 skill points per level point).
++ 3 level points, to be used for abilities.
+  - 1 level point per level can be used to increase any stat by 1.
+  - Level points can be expended for skill points (3 skill points per level point).
 
 A character must spend all points when it levels up. It cannot horde unspent points waiting for the next level.
 

@@ -56,10 +56,10 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Fire Magic I (lvl 1)|+3||Threshold=16|
-|Fire Magic II (lvl 3)|+4||||Threshold=17|
+|Fire Magic I (lvl 1)|+3||Threshold=15|
+|Fire Magic II (lvl 3)|+4||||Threshold=16|
 |Foresight (lvl 4)|+4||Greater flame sprites add [Wis] to HiT|
-|Fire Magic III (lvl 5)|+5||Threshold=18|
+|Fire Magic III (lvl 5)|+5||Threshold=17|
 |Elemental Touch (Fire) (lvl1)|+2|1d6 + 1|Fire, supernatural, can upcast|
 |Elemental Touch (Fire) (lvl3)|+3|1d6 + 1||
 |Elemental Touch (Fire) (lvl5)|+4|1d6 + 2||
@@ -358,7 +358,7 @@ Deflection:+3
 |[Feint](../04-combat.md#basic-martial-manoeuvres)|+7|||
 |Elemental Touch (fire)|+6|2d6+1|(range = "close") +2d6 damage per MP dice up to 10d6|
 |Elemental Blast (fire)|+6|2d6+1|(range = 120ft + 30/MP dice) +1d6 per MP dice up to 6d6|
-|Greater Elemental Blast (fire)|Threshold=19||radius = [MP dice spent] x 10ft up to 40ft|
+|Greater Elemental Blast (fire)|Threshold=17||radius = [MP dice spent] x 10ft up to 40ft|
 
 A Ifrit is can make two basic combat manoeuvres, or an elemental blast/touch as a main action.
 
@@ -415,7 +415,7 @@ Deflection:+5
 |[Feint](../04-combat.md#basic-martial-manoeuvres)|+12|||
 |Elemental Touch (fire)|+11|3d6+3|(range = "close") +2d6 damage per MP dice up to 15d6|
 |Elemental Blast (fire)|+10|3d6+3|(range = 120ft + 30/MP dice) +1d6 per MP dice up to 9d6|
-|Greater Elemental Blast (fire)|Threshold=23||radius = [MP dice spent] x 10ft up to 60ft|
+|Greater Elemental Blast (fire)|Threshold=20||radius = [MP dice spent] x 10ft up to 60ft|
 
 A Greater Ifrit is can make two basic combat manoeuvres, or an elemental blast/touch as a main action.
 
@@ -466,8 +466,8 @@ Evasion:+3
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Blast|+8|1d12+1 Pressure[Supernatural]|Range=60ft. An entity hit by a djinn's blast must succeed a Threshold=20 STR save or be knocked back 15ft|
-|Great Blast|+8|1d12+1|A djinn can expend SP dice to give the blast an area of effect of 10ft/SP die expended (max=3), all entities in range other than the original target must make a Threshold=20 STR save or also suffer the damage AND be knocked back 15ft|
+|Blast|+8|1d12+1 Pressure[Supernatural]|Range=60ft. An entity hit by a djinn's blast must succeed a Threshold=18 STR save or be knocked back 15ft|
+|Great Blast|+8|1d12+1|A djinn can expend SP dice to give the blast an area of effect of 10ft/SP die expended (max=3), all entities in range other than the original target must make a Threshold=18 STR save or also suffer the damage AND be knocked back 15ft|
 |||||
 |[Spellcasting Local: Incantation III](../06-abilities.md#spellcasting-local)|||Favourites are: [Sour](../08-spell-list.md#sour), [Least Vengeance](../08-spell-list.md#least-vengeance), [Promise](../08-spell-list.md#promise), [Cure](../08-spell-list.md#cure)|
 |[Spellcasting Local: Air IV](../06-abilities.md#spellcasting-local)|||Favourites: [Least Anemancy](../08-spell-list.md#least-anemancy), [Spirits' Secret](../08-spell-list.md#spirits-secret), [Summon Wind Sprite](../08-spell-list.md#summon-wind-sprite), [See Spell](../08-spell-list.md#see-spell), [Least Storm](../08-spell-list.md#least-storm)|
@@ -497,8 +497,8 @@ Evasion:+3
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Blast|+15|2d8+6 Pressure[Supernatural]|Range=60ft. An entity hit by a djinn's blast must succeed a Threshold=24 STR save or be knocked back 15ft|
-|Great Blast|+15|2d8+6 Pressure[Supernatural]|A djinn can expend SP dice to give the blast an area of effect of 10ft/SP die expended (max=3), all entities in range other than the original target must make a Threshold=24 STR save or also suffer the damage AND be knocked back 15ft|
+|Blast|+15|2d8+6 Pressure[Supernatural]|Range=60ft. An entity hit by a djinn's blast must succeed a Threshold=21 STR save or be knocked back 15ft|
+|Great Blast|+15|2d8+6 Pressure[Supernatural]|A djinn can expend SP dice to give the blast an area of effect of 10ft/SP die expended (max=3), all entities in range other than the original target must make a Threshold=21 STR save or also suffer the damage AND be knocked back 15ft|
 |Multi-attack I|||A djinn can make 2 blast attacks.|
 |Call Sprites|||A greater undine use its "communicate action" to call 3d6 water sprites, which appear in 1d4 turns. The sprites are loyal to the undine and remain until dismissed.|
 |||||
@@ -672,15 +672,15 @@ Deflection: +5
 |[Spellsong IV](../06-abilities.md#spellsong-i-iv)||||
 |||||
 |[Spellcasting Global VII](../06-abilities.md#spellcasting-global)||||
-|[Spellcasting Local: Incantation VII](../06-abilities.md#spellcasting-local)|+14|Threshold=27|Favourites Include: [Least Ward](../08-spell-list.md#least-ward), [Least Heal](../08-spell-list.md#least-heal), [Promise](../08-spell-list.md#promise), [Cure](../08-spell-list.md#cure), [Summon Spirit](../08-spell-list.md#summon-spirit), [Isolate Essence](../08-spell-list.md#isolate-essence), [Spirit Restoration](../08-spell-list.md#spirit-restoration), [Memory Thief](../08-spell-list.md#memory-thief)|
-|[Spellcasting Local: Kinetic VII](../06-abilities.md#spellcasting-local)|+14|Threshold=27|Favourites Include: [Hide](../08-spell-list.md#hide), [Spirits' Secret](../08-spell-list.md#spirits-secret), [Silence](../08-spell-list.md#silence), [Sea Spell](../08-spell-list.md#see-spell), [Mirage](../08-spell-list.md#mirage), [Gift of the Fates](../08-spell-list.md#gift-of-the-fates), [Madness](../08-spell-list.md#madness), [Transform Mortal](../08-spell-list.md#transform-mortal)|
-|[Spellcasting Local: Nature VII](../06-abilities.md#spellcasting-local)|+17|Threshold=30|Favourites Include: [Sour](../08-spell-list.md#sour), [Ensnare](../08-spell-list.md#ensnare), [Least Rest](../08-spell-list.md#least-rest), [Animate Plant](../08-spell-list.md#animate-plant), [Rejuvenate Land](../08-spell-list.md#rejuvenate-land), [Greater Fade](../08-spell-list.md#greater-fade), [Fairy Feast](../08-spell-list.md#fairy-feast), [Create Secret Path](../08-spell-list.md#create-secret-path)|
+|[Spellcasting Local: Incantation VII](../06-abilities.md#spellcasting-local)|+14|Threshold=23|Favourites Include: [Least Ward](../08-spell-list.md#least-ward), [Least Heal](../08-spell-list.md#least-heal), [Promise](../08-spell-list.md#promise), [Cure](../08-spell-list.md#cure), [Summon Spirit](../08-spell-list.md#summon-spirit), [Isolate Essence](../08-spell-list.md#isolate-essence), [Spirit Restoration](../08-spell-list.md#spirit-restoration), [Memory Thief](../08-spell-list.md#memory-thief)|
+|[Spellcasting Local: Kinetic VII](../06-abilities.md#spellcasting-local)|+14|Threshold=23|Favourites Include: [Hide](../08-spell-list.md#hide), [Spirits' Secret](../08-spell-list.md#spirits-secret), [Silence](../08-spell-list.md#silence), [Sea Spell](../08-spell-list.md#see-spell), [Mirage](../08-spell-list.md#mirage), [Gift of the Fates](../08-spell-list.md#gift-of-the-fates), [Madness](../08-spell-list.md#madness), [Transform Mortal](../08-spell-list.md#transform-mortal)|
+|[Spellcasting Local: Nature VII](../06-abilities.md#spellcasting-local)|+17|Threshold=26|Favourites Include: [Sour](../08-spell-list.md#sour), [Ensnare](../08-spell-list.md#ensnare), [Least Rest](../08-spell-list.md#least-rest), [Animate Plant](../08-spell-list.md#animate-plant), [Rejuvenate Land](../08-spell-list.md#rejuvenate-land), [Greater Fade](../08-spell-list.md#greater-fade), [Fairy Feast](../08-spell-list.md#fairy-feast), [Create Secret Path](../08-spell-list.md#create-secret-path)|
 |[Forbidden Spell](../08-spell-list.md#undying-realm)|+14||Threshold=27|
 |[High Arcana: Mage's Oath](../08-spell-list.md#mages-oath)|+14||Threshold=27|
-|[High Arcana: Greater Cosmic Seal](../08-spell-list.md#greater-cosmic-seal)|||Threshold=30|
-|[High Arcana: Regrowth](../08-spell-list.md#regrowth)|||Threshold=30|
-|[High Arcana: Fairy Ball](../08-spell-list.md#fairy-ballmasquerade)|||Threshold=30|
-|[High Arcana: Edict of Life](../08-spell-list.md#edict-of-life)|||Threshold=30|
+|[High Arcana: Greater Cosmic Seal](../08-spell-list.md#greater-cosmic-seal)|||Threshold=27|
+|[High Arcana: Regrowth](../08-spell-list.md#regrowth)|||Threshold=27|
+|[High Arcana: Fairy Ball](../08-spell-list.md#fairy-ballmasquerade)|||Threshold=27|
+|[High Arcana: Edict of Life](../08-spell-list.md#edict-of-life)|||Threshold=27|
 |||||
 |[Low Light Vision](../06-abilities.md#low-light-vision)|||A fairy can see in moonlight, starlight or other weak sources of light as if it was bright daylight.|
 |[Life Sense IV](../06-abilities.md#life-sense-i-v)|||A fairy can sense and pinpoint locations of living beings within 60ft of itself|

@@ -287,7 +287,7 @@ ___
 Every character gets 3 level points at level 1 and at each subsequent level up. These can be spend as follows.
 
 + Exchanged for skill points at the rate of 1 level points = 3 skill points.
-+ Exchanged for an increase to stats at the rate of 1 level point = +1 to a single stat. No stat may exceed 24 for player characters. A character can only add one level point to stats per level.
++ Used to increase any stat at the rate of 1 level point = +1 to a single stat. No stat may exceed 24 for player characters. A character can only add one level point to stats per level.
 + Exchanged for abilities and boons.
 
 ___

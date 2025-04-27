@@ -246,7 +246,7 @@ ___
 |Great Strike||| Up to -4/+4|
 |Broad Strike|||Hit extra targets|
 |Combined Manoeuvre I|||Two manoeuvres in one|
-|Debilitating Strike: Aphonia|||Threshold=20|
+|Debilitating Strike: Aphonia|||Threshold=18|
 |Spellcasting: Incantation I|||"[Least Ward](../08-spell-list.md#least-ward)", "[Ignition](../08-spell-list.md#ignition)", "[Least Heal](../08-spell-list.md#least-heal)"|
 |Skills|||Athletics +11, Ride 9, Acrobatics +5, Climb +7, Creature Handling +8, Sense Motive +4, Observe +4, History +3|
 
@@ -287,14 +287,14 @@ ___
 |[Arcane Interception](../06-abilities.md#arcane-interception)||A magic knight can use "Interception" against supernatural attacks that require a saving throw|
 |[Safe Cast](../06-abilities.md#safe-cast)|||Spells with Kinetic components do not provoke attacks of opportunity|
 |[War Mage](../06-abilities.md#safe-cast)|||Advantage on concentration saves when maintaining spells|
-|Debilitating Strike: Aphonia|||Threshold=19|
+|Debilitating Strike: Aphonia|||Threshold=17|
 |"[Spell strike: Heavy Blade](../06-abilities.md#spell-strike)|+8|||
 |Spellcasting: Incantation VI|||"[Least Ward](../08-spell-list.md#least-ward)", "[Ignition](../08-spell-list.md#ignition)", "[Least Heal](../08-spell-list.md#least-heal)", "[Least Rest](../08-spell-list.md#least-rest)", "[Cure](../08-spell-list.md#cure)", "[Summon Spirit](../08-spell-list.md)"|
 |Spellcasting: Kinetic II|||"[Compass](../08-spell-list.md#compass)", "[Mist](../08-spell-list.md#mist)", "[whispers](../08-spell-list.md#whispers)", "[Winter's Touch](../08-spell-list.md#winters-touch)", "[Earthen Hand](../08-spell-list.md#earthen-hand)"|
 |Spellcasting: Global I||||
 |Skills|||Athletics +9, Spellworking +7, Ride +7, Acrobatics +5, Climb +7, Creature Handling +7, Sense Motive +6, Observe +5, Arcana +5, Stealth +3, Heal +3, History +3|
 
-The spell threshold for a magic knight is Threshold=21 (INT)
+The spell threshold for a magic knight is Threshold=19 (INT)
 
 This represent an elite mystic warrior trained in sword and magic. Paladins, captains of inquisitorial orders, mage-hunters and battle mages all fall within this category. Leaders of nations in tune with the supernatural, religious orders and some cults may also be "magic knights".
 
@@ -311,7 +311,7 @@ An elemental knight works like a Magic Knight with the following differences:
 - Replace "Spell Strike" with "Elemental Blast" (fire or ice).
 - Replace "Incantation" and "kinetic" with two elemental magics of choice.
 
-The spell threshold for a magic knight is Threshold=21 (WIS)
+The spell threshold for a magic knight is Threshold=19 (WIS)
 
 Example, Elemental Knight, fire:
 |Ability|Bonus|Damage|Other|
@@ -1000,7 +1000,7 @@ Wears light cuirass  (+1)
 |"[Flurry](../06-abilities.md#flurry)"|||A mystic warrior makes an extra attack with a light weapon or strike as a bonus action, or two if expending 1 MP dice|
 |"[Parry](../06-abilities.md#parry)"|||Adds +3 to HiT against up to 3 weapon attacks|
 |Deflect Missile|||Spend 1 SP dice to reduce damage from ranged weapon attacks by 1d8+9 on a failed parry|
-|"[Debilitating Strike](../06-abilities.md#debilitating-strike)"|||"Aphonic", "Blinded", "Stunned". Threshold=19|
+|"[Debilitating Strike](../06-abilities.md#debilitating-strike)"|||"Aphonic", "Blinded", "Stunned". Threshold=18|
 |"[Deflection](../06-abilities.md#deflection)"|||An arcane warrior may deflect some damage from supernatural attacks|
 |"[Xenophonia I](../06-abilities.md#xenophonia-i-xiii)" (animal)|||Can speak to animals|
 |"[Speed IV](../06-abilities.md#speed)"|||+20ft to movement speed for a total of 55ft|
@@ -1284,7 +1284,7 @@ ___
 |[Greate Elemntal Blast: Radial](../06-abilities#elemental-blast-greater-radial)||||
 |[Deflection](../06-abilities#deflection)||||
 |[Esoteric Deflection](../06-abilities#esoteric-deflection)||||
-|[Spellcasting: Incantation VI](../06-abilities.m)|Threshold=37|||
+|[Spellcasting: Incantation VI](../06-abilities.m)|Threshold=29|||
 |[Spellcasting: Global I](../06-abilities.m)||||
 
 |Ability|Bonus|Damage|Other|

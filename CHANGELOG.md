@@ -291,6 +291,8 @@ ___
 
 ### General
 - Major recalculation of save thresholds. Save threshold is now 13 + [Sup OR Nat] + [Stat]. (We no longer add base). This makes level based increase to ability thresholds less vicious.
+- Make it even more explicit that characters can only increase stats by 1 point per level.
+- Recalculate monster/NPC saving thresholds with the new rules.
 
 ### Abilities
 - Add [Mighty I](06-abilities.md#mighty-i) and [Mighty II](06-abilities.md#mighty-ii) abilities to increase carrying capacity.

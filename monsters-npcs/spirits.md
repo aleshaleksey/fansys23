@@ -600,11 +600,96 @@ ___
 Doppelgangers are spirits that take the exact form of a living mortal. A doppelganger cannot change its form again while its current "template" is alive. For this reason, doppelgangers frequently seek out and kill their "template" when they tire of a form.
 
 ___
-### Pixie
-
-___
 ### Brownie
 A brownie is a tiny spirit which associates itself with a humanoid dwelling. Brownies tend to be benevolent and bring blessings to the dwellings they inhabit. Should the dwelling be destroyed, the brownie must find a new dwelling before the full moon or perish.
+
+**Size category**: Diminutive (5/8ft x 5/8ft)
+- Evade: +3, Armour -3
+- Reach: 0ft
+- [DEX save]: +3, [STR save]: -3
+- Carry capacity: (3lb light, 6lb medium, 15lb heavy, 22.5lb drag)
+___
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|19/11/19|8|14|5|20ft|30ft (fly:good)|
+
+Deflection: +1
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|6|18|12|12|12|14|
+|Bonus|-2|+4|+1|+1|+1|+2|
+|Save|-4|+8|+2|+2|+2|+4|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|2(1)|3|5|1|1|2|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|[Elemental Touch: Light](../06-abilities.md#elemental-touch)|+3|1d4+1 Light[supernatural]|Reach=0ft|
+|||||
+|[Low-light Vision](../06-abilities.md#low-light-vision)|||A brownie can see even in starlight, and other low light conditions, as if it was daylight.|
+|[Fleet](../06-abilities.md#fleet)|||A brownie can stealth even in light cover.|
+|[Silent Step I](../06-abilities.md#silent-step-i-iii)|||A brownie can move at full speed while stealthed.|
+|[Xenophonia I: Animals](../06-abilities.md#xenophonia-i-xiii)|||A brownie can communicate with beasts.|
+|[Terrain Mastery: Urban](../06-abilities.md#terrain-mastery)|||A brownie has a +4 to certain skills inside and around humanoid dwellings.|
+|[Spellcasting Local: Incantation I](../06-abilities.md#spellcasting-local)|Threshold=15||Favourite Spells: [Least Ward](../08-spell-list.md#least-ward), [Least Heal](../08-spell-list.md#least-heal)|
+|[Spellcasting Local: Kinetic I](../06-abilities.md#spellcasting-local)|Threshold=15||Favourite Spells: [Hide](../08-spell-list.md#hide), [Spirits' Secret](../08-spell-list.md#spirits-secret)|
+|||||
+|Immunity|||"stunned", "immobilised", "crippled", "bleeding", "poisoned", "paralysed" as well as "aphonia" and "deafened"|
+|Damage Immunity|||All physical Damage|
+|||||
+|Skills|||"Perform" +4, "Appraise" +3, "Fortify" 0, "Prospect" +2, "Flight" +5, "Sleight of Hand" +5 "Heal" +2, "Tinker" +5, "Stealth" +5|
+|||||
+|Brownie's Curse|||Should the dwelling the brownie inhabits be destroyed, the brownie must find a new dwelling before the full moon or perish. Should the brownie that inhabits a dwelling be killed, those who sleep within the dwelling gain a curse as if affected by "[Least Curse](../08-spell-list.md#least-curse)" cast globally by third level, if they are not already cursed.|
+
+___
+### Pixie
+Pixies are tiny spirits that dwell in moorland and ruins and seem to endlessly seek amusement. Sometimes their amusement is harmless, or even beneficial to humanoids, while sometimes it is akin to mischief or worse.
+
+**Size category**: Tiny (5/4ft x 5/4ft)
+- Evade: +2, Armour -2
+- Reach: 0ft
+- [DEX save]: +2, [STR save]: -2
+- Carry capacity: (6lb light, 12lb medium, 30lb heavy, 45lb drag)
+___
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|19/11/19|8|14|5|20ft|60ft (fly:good)|
+
+Deflection: +2
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|6|20|12|14|10|14|
+|Bonus|-2|+5|+1|+2|+1|+2|
+|Save|-4|+8|+2|+2|+2|+4|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|5(1)|7|9|2|2|3|3|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|[Elemental Touch: Cold](../06-abilities.md#elemental-touch)|+5|164+2 Cold[supernatural]|Reach=0ft|
+|Pixie Shortbow|+10|1d2+6|(Range=600ft, Increment=120ft) The bow counts as having a fey source material|
+|[Precision Attack I](../06-abilities.md#precision-attack-i-x)|||A pixie deals an extra 1d8 damage with its bow if its target is "surprised: or otherwise unaware, within the first range increment.|
+|||||
+|[Low-light Vision](../06-abilities.md#low-light-vision)|||A pixie can see even in starlight, and other low light conditions, as if it was daylight.|
+|[Fleet](../06-abilities.md#fleet)|||A brownie can stealth even in light cover.|
+|[Silent Step I](../06-abilities.md#silent-step-i-iii)|||A brownie can move at full speed while stealthed.|
+|[Xenophonia I: Animals](../06-abilities.md#xenophonia-i-xiii)|||A brownie can communicate with beasts.|
+|[Terrain Mastery: Urban](../06-abilities.md#terrain-mastery)|||A brownie has a +4 to certain skills inside and around humanoid dwellings.|
+|[Spellcasting Local: Incantation I](../06-abilities.md#spellcasting-local)|Threshold=15||Favourite Spells: [Least Anemancy](../08-spell-list.md#least-anemancy), [Headwind](../08-spell-list.md#least-heal)|
+|[Spellcasting Local: Kinetic II](../06-abilities.md#spellcasting-local)|Threshold=15||Favourite Spells: [Hide](../08-spell-list.md#hide), [Lesser Illusory Self](../08-spell-list.md#lesser-illusory-self), [Least Transformation](../08-spell-list.md#least-transformation)|
+|[Spellcasting Local: Nature III](../06-abilities.md#spellcasting-local)|Threshold=15||Favourite Spells: [Sour](../08-spell-list.md#sour), , [Fade](../08-spell-list.md#fade), [Call Ailment](../08-spell-list.md#call-ailment), [Slumber](../08-spell-list.md#slumber)|
+|||||
+|Immunity|||"stunned", "immobilised", "crippled", "bleeding", "poisoned", "paralysed" as well as "aphonia" and "deafened"|
+|Damage Immunity|||All physical Damage|
+|||||
+|Skills|||"Perform" +4, "Appraise" +3, "Fortify" 0, "Prospect" +2, "Flight" +5, "Sleight of Hand" +5 "Heal" +2, "Tinker" +5, "Stealth" +5|
+
 
 ___
 ### Grig
@@ -637,11 +722,11 @@ At first glance easily mistaken for grigs, pixies or brownies, fairies are the e
 - Evade: +2, Armour -2
 - Reach: 0ft
 - [DEX save]: +2, [STR save]: -2
-- Carry capacity: (216lb light, 432lb medium, 1080lb heavy, 1620lb drag)
+- Carry capacity: (6lb light, 12lb medium, 30lb heavy, 45lb drag)
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|28/19/28|92|254|31|20ft|60ft (fly: perfect), 60ft (blink)|
+|28/19/28|92|254|31|20ft|60ft (fly: perfect), 60ft (blink), cosmic|
 
 Deflection: +5
 
@@ -685,6 +770,7 @@ Deflection: +5
 |[Low Light Vision](../06-abilities.md#low-light-vision)|||A fairy can see in moonlight, starlight or other weak sources of light as if it was bright daylight.|
 |[Life Sense IV](../06-abilities.md#life-sense-i-v)|||A fairy can sense and pinpoint locations of living beings within 60ft of itself|
 |[Terrain Mastery](../06-abilities.md#terrain-mastery)|||A fairy has terrain mastery over one form of terrain. Usually this is "woodlands", "deep forest" or "swamp", though it can be any form of natural terrain|
+|Fairy Step|||A fairy can move between the material realm and [shallow spirit realms](../03-movement-exploration.md#spirit-realm-rules-shallow) using 5ft of movement. However, it can only do so in areas that have a ["spiritual" alignment](../01-quick-start.md#alignment).|
 |||||
 |Immunity|||"stunned", "immobilised", "crippled", "bleeding", "poisoned", "paralysed" as well as "aphonia" and "deafened"|
 |Damage Immunity|||All physical Damage|

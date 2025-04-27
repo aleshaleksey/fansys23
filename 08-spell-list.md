@@ -37,7 +37,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Headwind](#headwind)
 - [Least Flare](#least-flare)
 - [Least Heal](#least-heal)
-- [Lesser Illusory Self](#lessor-illusory-self)
+- [Lesser Illusory Self](#lesser-illusory-self)
 - [Least Vengeance](#least-vengeance)
 - [Sense Spell](#sense-spell)
 - [Shape Earth](#shape-earth)
@@ -767,8 +767,8 @@ ____
 **Upcast**: Target regains an extra HP per extra MP die above 1, to a maximum of 3. No extra effect on undead.
 
 ___
- ### Lessor Illusory Self
-|Name|Lessor Illusory Self [Illusion, Kinetic, Water, Wind]|
+ ### Lesser Illusory Self
+|Name|Lesser Illusory Self [Illusion, Kinetic, Water, Wind]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|1 (4)|
@@ -4549,7 +4549,7 @@ ___
     - [Fade](#fade)
     - [Headwind](#headwind)
     - [Least Flare](#least-flare)
-    - [Lesser Illusory Self](#lessor-illusory-self)
+    - [Lesser Illusory Self](#lesser-illusory-self)
     - [Sense Spell](#sense-spell)
     - [Spirits' Secret](#spirits-secret)
     - [Tailwind](#tailwind)
@@ -4566,7 +4566,7 @@ ___
     - [Sense Spell](#sense-spell)
 - Water
     - [Chill Blood](#chill-blood)
-    - [Lesser Illusory Self](#lessor-illusory-self)
+    - [Lesser Illusory Self](#lesser-illusory-self)
     - [Sense Spell](#sense-spell)
     - [Water Snake](#water-snake)
     - [Winter's Touch](#winters-touch)
@@ -4577,7 +4577,7 @@ ___
     - [Least Vengeance](#least-vengeance)
 - Kinetic
     - [Enflame](#enflame)
-    - [Lesser Illusory Self](#lessor-illusory-self)
+    - [Lesser Illusory Self](#lesser-illusory-self)
     - [Shape Earth](#shape-earth)
     - [Spirits' Secret](#spirits-secret)
     - [Winter's Touch](#winters-touch)

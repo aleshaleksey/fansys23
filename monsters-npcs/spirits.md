@@ -12,10 +12,12 @@
     - [Earth Elemental: Lesser](#earth-elemental-lesser)
     - [Earth Elemental: Greater](#earth-elemental-greater)
 - [Spirits: Fey](#spirits-fey)
+    - [Faun](#faun-fey)
     - [Changeling](#changeling)
     - [Doppelganger](#doppelganger)
     - [Browny](#brownie)
     - [Pixie](#pixie)
+    - [Dryad](#dryad)
     - [Fey Hound](#hound-fey)
     - [Fey Hunter](#hunter-fey)
     - [Fey Huntsmaster](#huntsmaster-fey)
@@ -597,7 +599,50 @@ Fey are spiritual beings associated in some way to the natural world. They tend 
 
 ___
 ### Faun (fey)
-Not to be mistaken for the humanoid created by the god of revelry, which is a Satyr.
+A faun, similar to a satyr, is a fey that takes the material form of a humanoid with a goat's horns and legs. Fauns, more often than not are generally benign, and unlike Satyrs, children of Bacchus, are not easily consumed by revelry. Instead they live out hidden lives in the wilderness. A faun's music is said to exude a strong fey magic and has the property of charming mortals.
+
+**Size category**: Medium (5ft x 5ft)
+- Reach: 5ft
+- Carry capacity: (40lb light, 80lb medium, 200lb heavy, 300lb drag)
+___
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|15/12/15|30|29|10|35ft|20ft (Blink)|
+
+Deflection: +1
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|10|17|14|12|9|17|
+|Bonus|0|+3|+2|+1|-1|+3|
+|Save|+1|+6|+3|+2|0|+4|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|5(1)|10|7|2|2|3|3|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Shortbow|+6|1d6+3|Range=600ft, Increment=120ft|
+|Shortstaff|+6|1d6+3|(Reach=5ft)|
+|Ram|+3|1d4|(Reach=5ft) A faun automatically applies "shove" to its ram attack without expending an SP die.|
+|Grapple|+6||(Reach=5ft)|
+|Shove|+6||(Reach=5ft)|
+|[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||A faun can expend 1 SP die to combine two basic combat manoeuvres|
+|[Greater Manoeuvre I]|||A faun's combat manoeuvres affect entities up to the size of "huge"|
+|||||
+|Fey Song|Threshold=16||(2 MP die, range=60ft, instantaneous) A faun's voice, much like a fairy's, is a balm for the spirit. If a faun expends 2 MP dice as a secondary action when singing, all mortals and spirits must succeed on a CHA save or become charmed for 8 hours. Entities below level 5 automatically fail the save. Entities above level 10 make the save at advantage. The charm is broken if the entity takes damage, receives the kiss of a maiden, or eats a bitter leaf.|
+|||||
+|[Bard Song II](../06-abilities.md#bard-song-i-iv)||||
+|[Bind Beast III](../06-abilities.md#bind-beast-i-x)|||A faun song can bind a single beast to serve it as a loyal companion|
+|[Spellcasting Local: Incantation I]|Threshold=13||Favourite Spells: [Down](../08-spell-list.md#down),  [Sour](../08-spell-list.md#sour),  [Least Heal](../08-spell-list.md#least-heal)|
+|[Xenophonia I](../06-abilities.md#xenophonia-i-xiii)|||A faun can communicate with beasts.|
+|[Fleet](../06-abilities.md#fleet)|||A faun can hide even in light concealment|
+|||||
+|Skills|||"Acrobatics" +5, "Sleight of Hand" +4, "Heal" +4, "Harvest" +3, "Navigate" +3, "Knowledge: Nature" +3 , "Observe" +2, "Track" +2, "Perform" +8, "Creature Handling" +6,  "Deceive" +4|
+|||||
+|Immunity|||"stunned", "immobilised", "crippled", "bleeding", "poisoned", "paralysed" as well as "aphonia" and "deafened"|
+|Damage Immunity|||All physical Damage. The immunity to physical damage does not apply to damage caused by weapons made of iron or steel.|
 
 ___
 ### Changeling
@@ -605,7 +650,7 @@ Changelings are fey beings that make their way onto the mortal realm by way of e
 
 **Size category**: Usually medium (5ft x 5ft) (may be small or large depending on its template)
 - Reach: 5ft
-- Carry capacity: (3lb light, 6lb medium, 15lb heavy, 22.5lb drag)
+- Carry capacity: (40lb light, 80lb medium, 200lb heavy, 300lb drag)
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
@@ -652,7 +697,7 @@ Doppelgangers are spirits that take the exact form of a living mortal. A doppelg
 
 **Size category**: Usually medium (5ft x 5ft) (may be small or large depending on its template)
 - Reach: 5ft
-- Carry capacity: (3lb light, 6lb medium, 15lb heavy, 22.5lb drag)
+- Carry capacity: (52lb light, 104lb medium, 260lb heavy, 390lb drag)
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
@@ -767,10 +812,10 @@ Deflection: +2
 |[Precision Attack I](../06-abilities.md#precision-attack-i-x)|||A pixie deals an extra 1d8 damage with its bow if its target is "surprised: or otherwise unaware, within the first range increment.|
 |||||
 |[Low-light Vision](../06-abilities.md#low-light-vision)|||A pixie can see even in starlight, and other low light conditions, as if it was daylight.|
-|[Fleet](../06-abilities.md#fleet)|||A brownie can stealth even in light cover.|
-|[Silent Step I](../06-abilities.md#silent-step-i-iii)|||A brownie can move at full speed while stealthed.|
-|[Xenophonia I: Animals](../06-abilities.md#xenophonia-i-xiii)|||A brownie can communicate with beasts.|
-|[Terrain Mastery: Urban](../06-abilities.md#terrain-mastery)|||A brownie has a +4 to certain skills inside and around humanoid dwellings.|
+|[Fleet](../06-abilities.md#fleet)|||A pixie can stealth even in light cover.|
+|[Silent Step I](../06-abilities.md#silent-step-i-iii)|||A pixie can move at full speed while stealthed.|
+|[Xenophonia I: Animals](../06-abilities.md#xenophonia-i-xiii)|||A pixie can communicate with beasts.|
+|[Terrain Mastery: Fells](../06-abilities.md#terrain-mastery)|||A pixie has a +4 to certain skills in fells.|
 |[Spellcasting Local: Incantation I](../06-abilities.md#spellcasting-local)|Threshold=15||Favourite Spells: [Least Anemancy](../08-spell-list.md#least-anemancy), [Headwind](../08-spell-list.md#least-heal)|
 |[Spellcasting Local: Kinetic II](../06-abilities.md#spellcasting-local)|Threshold=15||Favourite Spells: [Hide](../08-spell-list.md#hide), [Lesser Illusory Self](../08-spell-list.md#lesser-illusory-self), [Least Transformation](../08-spell-list.md#least-transformation)|
 |[Spellcasting Local: Nature III](../06-abilities.md#spellcasting-local)|Threshold=15||Favourite Spells: [Sour](../08-spell-list.md#sour), , [Fade](../08-spell-list.md#fade), [Call Ailment](../08-spell-list.md#call-ailment), [Slumber](../08-spell-list.md#slumber)|
@@ -782,11 +827,74 @@ Deflection: +2
 
 ___
 ### Dryad
-Dryads are spirits of trees that take a material form. A dryad cannot move beyond the edge of the root system of its tree. For this reason, dryads associated with birches are particularly powerful. A dryad whose tree perishes likewise perishes. A dryad abandon its tree and return to the spirit realm on the first day of winter without perishing. Should it do so, however, its tree perishes.
+Dryads are spirits of trees that take a material form. A dryad cannot move beyond the edge of the root system of its tree. For this reason, dryads associated with birches are particularly powerful. A dryad whose tree perishes likewise perishes. A dryad can abandon its tree and return to the spirit realm on the first day of winter without perishing. Should it do so, however, its tree perishes.
+
+**Size category**: Medium (5ft x 5ft)
+- Reach: 5ft
+- Carry capacity: (6lb light, 12lb medium, 30lb heavy, 45lb drag)
+___
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|18/14/18|51|70|16|25ft|50ft (Blink)|
+
+Deflection: +2
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|8|18|17|10|17|19|
+|Bonus|-1|+4|+3|0|+3|+4|
+|Save|+1|+8|+5|+2|+5|+9|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|9(2)|12|17|2|3|4|5|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Vine Whip|+8|1d6+4 Shear + 2d8 poison|Reach=15ft. A target hit with the dryad's whip must make a Threshold=16 CON save at the start of its next turn or have disadvantage on all WIS based rolls. After a minute it must succeed on a second Threshold=16 CON save or become "blinded". This is a "poisoned" condition which lasts until cured. |
+|||||
+|[Spellcasting Local: Nature V](../06-abilities.md#spellcasting-local)|Threshold=19||Favourite Spells: [Compass](../08-spell-list.md#compass), [Hide](../08-spell-list.md#hide), [Ensnare](../08-spell-list.md#ensnare), [Summon Beast](../08-spell-list.md#summon-beast), [Harvest](../08-spell-list.md#harvest), [Least Rest](../08-spell-list.md#least-rest), [Animate Plant](../08-spell-list.md#animate-plant), [Growth](../08-spell-list.md#growth), [Balance of Nature](../08-spell-list.md#balance-of-nature), [Rejuvenate Land](../08-spell-list.md#rejuvenate-land), [Lesser Cosmic Seal](../08-spell-list.md#lesser-cosmic-seal)|
+|[Spellcasting Global I](../06-abilities.md#spellcasting-global)|Threshold=19|||
+|[Bind Beast: IV](../06-abilities.md#bind-beast-i-x)|||A dryad can, and often will, bind a beast to serve and protect it.|
+|[Deflection]|||Use a reaction and potentially MP dice to reduce damage from "supernatural" ranged attack by [1d4 + SAP + [MP dice expended]d4]|
+|[Terrain Mastery: Woodlands, Deep Forest]|||A dryad gets a +4 bonus to certain skills in "woodlands" and "deep forest"|
+|[Blindsight III](../06-abilities.md#blind-sight-i-vi)|||A dryad can "see" within a radius of 15ft even when "blinded" or effectively "blinded" (eg in thick fog or total darkness).|
+|||||
+|Indwell|||As a bonus action, the dryad can merge its form into its tree. In that case, the tree gains all of its resistances, immunities and vulnerabilities|
+|||||
+|Immunity|||"stunned", "immobilised", "crippled", "bleeding", "poisoned", "paralysed" as well as "aphonia" and "deafened"|
+|Damage Immunity|||All physical Damage. The immunity to physical damage does not apply to damage caused by weapons made of iron or steel.|
+|Damage Resistance||"Cold", "Divine"|
+|Damage Vulnerability|||"Necrotic"|
+|||||
+|Dryad's Curse||| dryad cannot move beyond the edge of the root system of its tree. For this reason, dryads associated with birches are particularly powerful. A dryad whose tree perishes likewise perishes. A dryad can abandon its tree and return to the spirit realm on the first day of winter without perishing. Should it do so, however, its tree perishes.|
+
 
 ___
 ### Nymph
 Nymphs are similar to undines and are sometimes known as naiads. They are the spirits of natural streams and charm humanoids, sometimes involuntarily. A nymph cannot leave the catchment of its stream. Furthermore, should its stream dry up or be dammed for a full year, the nymph perishes. A nymph can leave its stream and pass to the spirit realm by travelling to its estuary. Should it do so, however, the stream dries up. Only the sacrifice of an undine can restore it.
+
+___
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+||||||
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|||||||
+|Bonus|||||||
+|Save|||||||
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+||||||||
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|||||
+|||||
+|||||
+|||||
 
 ___
 ### Hound (fey)
@@ -958,7 +1066,7 @@ Deflection: +5
 |[Greater Elemental Blast (Linear): Light](../06-abilities.md#elemental-blast-greater-linear)|+17|4d4+6||
 |[Greater Elemental Blast (Radial): Light](../06-abilities.md#elemental-blast-greater-radial)|+17|4d4+6||
 |||||
-|Fey Song|Threshold=22||(2 MP die, range=60ft, instantaneous) A fairy's voice is a balm for the spirit. If a fairy expends 1 MP dice as a secondary action when singing, all mortals and spirits must succeed on a CHA save or become charmed for 8 hours. Entities below level 5 automatically fail the save. Entities above level 10 make the save at advantage. The charm is broken if the entity takes damage, receives the kiss of a maiden, or eats a bitter leaf.|
+|Fey Song|Threshold=22||(2 MP die, range=60ft, instantaneous) A fairy's voice is a balm for the spirit. If a fairy expends 2 MP dice as a secondary action when singing, all mortals and spirits must succeed on a CHA save or become charmed for 8 hours. Entities below level 5 automatically fail the save. Entities above level 10 make the save at advantage. The charm is broken if the entity takes damage, receives the kiss of a maiden, or eats a bitter leaf.|
 |||||
 |[Deflection](../06-abilities.md#deflection)||||
 |[Aphonic Spell](../06-abilities.md#aphonic-spell)|||A fairy may spend 1 MP dice to cast a spell without kinetic components|
@@ -1003,7 +1111,7 @@ Wisps are spirits associated with swamps. They take the form of glowing orbs and
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|//||||-|50ft (fly: perfect), 20ft (blink)|
+|20/14/20|50|70|16|-|50ft (fly: perfect), 20ft (blink)|
 
 Deflection: +2
 

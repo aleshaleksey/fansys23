@@ -12,6 +12,7 @@
     - [Earth Elemental: Lesser](#earth-elemental-lesser)
     - [Earth Elemental: Greater](#earth-elemental-greater)
 - [Spirits: Fey](#spirits-fey)
+    - [Changeling](#changeling)
     - [Doppelganger](#doppelganger)
     - [Browny](#brownie)
     - [Pixie](#pixie)
@@ -602,6 +603,49 @@ ___
 ### Changeling
 Changelings are fey beings that make their way onto the mortal realm by way of exchange. That exchange is necessarily with a humanoid child whose place and form they take. A changeling lives out the humanoid's life for them, in humanoid form. When the lifespan of the humanoid they replaced expires, the changeling returns to the fey realm. Should the humanoid they displaced be returned by some means to the mortal realm the changeling is shunted back to the fey realm. Should the humanoid die, so does the changeling.
 
+**Size category**: Usually medium (5ft x 5ft) (may be small or large depending on its template)
+- Reach: 5ft
+- Carry capacity: (3lb light, 6lb medium, 15lb heavy, 22.5lb drag)
+___
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|15/13/15|30|34|10|30ft|30ft (blink)|
+
+Deflection: +1
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|10|15|14|13|12|15|
+|Bonus|0|+2|+2|+1|+1|+2|
+|Save|+2|+6|+4|+3|+3|+4|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|6(2)|9|11|2|2|4|4|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Dagger|+6|1d4+2|Reach=5ft (usually), Range=60ft, Increment=10ft|
+|Scimitar|+6|1d6+2|Reach=5ft (usually)|
+|||||
+|[Parry](../06-abilities.md#parry)|||A changeling can add +2 to HiT against up to two weapon attacks by sacrificing its reaction|
+|[Aphonic Spell](../06-abilities.md#aphonic-spell)|||A changeling can expend 1 MP die to cast a spell that normally has incantation components without them.|
+|||||
+|[Spellcasting Local: Nature III](../06-abilities.md#spellcasting-local)|Threshold=16||Favourite Spells:  [Compass](../08-spell-list.md#compass), [Hide](../08-spell-list.md#hide), [Bear's Claws](../08-spell-list.md#bears-claws), [Summon Beast](../08-spell-list.md#summon-beast), [Call Ailment](../08-spell-list.md#call-ailment), [Trace Secret Path](../08-spell-list.md#trace-secret-path), [Fairy Shelter](../08-spell-list.md#fairy-shelter)|
+|[Spellcasting Local: Kinetic II](../06-abilities.md#spellcasting-local)|Threshold=16||Favourite Spells: [Mist](../08-spell-list.md#mist), [Silent](../08-spell-list.md#silent), [Spirits' Secret](../08-spell-list.md#spirits-secret), [Lesser Illusory Self](../08-spell-list.md#lesser-illusory-self), [Silence](../08-spell-list.md#silence)|
+|[Spellcasting Global I](../06-abilities.md#spellcasting-global)||||
+|||||
+|[Low-light Vision](../06-abilities.md#low-light-vision)|||A doppelganger can see in low light conditions as well as in daylight.|
+|[Xenophonia I](../06-abilities.md#xenophonia-i-xiii)|||A doppelganger can communicate with beasts|
+|Alternate Form: Humanoid|||A doppelganger takes the form of an existing, living humanoid when it enters the material realm. It does not necessarily chose the form. It cannot change form until its original template dies, only then can it change its form. As before it does not necessarily get to chose its final form.|
+|||||
+|Linked Form: Humanoid|||A changeling takes the form of the humanoid it replaces when it enters the mortal realm. If the humanoid is returned to the mortal realm, the changeling is shunted back to the spirit realm. If the humanoid dies while the changeling is on the mortal realm, the changeling dies.|
+|||||
+|Skills|||"Acrobatics" +7, "Sleight of Hand" +7, "Heal" +4, "Navigate" +4, "Knowledge: Religion" +6, "Knowledge: Arcana" +6, "Sense Motive" +5, "Observe" +1, "Deceive" +7, "Perform" +7|
+|||||
+|Immunity|||"stunned", "immobilised", "crippled", "bleeding", "poisoned", "paralysed" as well as "aphonia" and "deafened"|
+|Damage Immunity|||All physical Damage. The immunity to physical damage does not apply to damage caused by weapons made of iron or steel.|
+
 ___
 ### Doppelganger
 Doppelgangers are spirits that take the exact form of a living mortal. A doppelganger cannot change its form again while its current "template" is alive. For this reason, doppelgangers frequently seek out and kill their "template" when they tire of a form.
@@ -612,30 +656,33 @@ Doppelgangers are spirits that take the exact form of a living mortal. A doppelg
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/12/14|26|26|10|40ft|30ft (blink)|
+|14/12/14|34|34|10|40ft|30ft (blink)|
 
 Deflection: +1
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|13|15|13|13|9|13|
-|Bonus|+1|+2|+1|+1|-1|+1|
-|Save|+2||||||
+|Stat|13|17|13|13|9|13|
+|Bonus|+1|+3|+1|+1|-1|+1|
+|Save|+3|+8|+3|+3|+1|+3|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|8(2)|9|9|2|2|4|4|
+|8(2)|13|13|3|3|5|5|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Dagger|+6|1d4+2 [piercing/slashing]|Reach=5ft, Range=60ft, Increment=10ft|
-|Shortbow|+6|1d6+2 [piercing]|Range=600ft, Increment=120ft|
+|Dagger|+8|1d4+3 [piercing/slashing]|Reach=5ft, Range=60ft, Increment=10ft|
+|Shortbow|+8|1d6+3 [piercing]|Range=600ft, Increment=120ft|
 |||||
 |[Assassinate II](../06-abilities.md#assassinate-i-v)|||A doppelganger that declares "assassinate" can make a single weapon attack against an immobilised or unaware target. Should it hit, the damage is done directly to HP.|
 |[Precision Attack IV](../06-abilities.md#precision-attack-i-x)||4d8|A doppelganger that declares "precision attack" can make a single weapon attack against a distracted or unaware target. Should it hit, it deals an extra 4d8 damage.|
 |||||
 |[Low-light Vision](../06-abilities.md#low-light-vision)|||A doppelganger can see in low light conditions as well as in daylight.|
 |[Xenophonia I](../06-abilities.md#xenophonia-i-xiii)|||A doppelganger can communicate with beasts|
+|Alternate Form: Humanoid|||A doppelganger takes the form of an existing, living humanoid when it enters the material realm. It does not necessarily chose the form. It cannot change form until its original template dies, only then can it change its form. As before it does not necessarily get to chose its final form.|
+|||||
+|Skills|||"Stealth" +9, "Acrobatics" +9, "Sleight of Hand" +7, "Ride" +4, "Knowledge:Arcana" +4, "Insight" +5, "Observe" +4, "Deceive" +7, "Perform" +5|
 |||||
 |Immunity|||"stunned", "immobilised", "crippled", "bleeding", "poisoned", "paralysed" as well as "aphonia" and "deafened"|
 |Damage Immunity|||All physical Damage. The immunity to physical damage does not apply to damage caused by weapons made of iron or steel.|

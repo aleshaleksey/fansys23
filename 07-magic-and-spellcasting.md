@@ -107,24 +107,28 @@ ___
 
 **Counter-spelling**: Any spellcaster with at least 9 MP dice total can counter-spell. You can only counter-spell magics from the same or opposite type (see table above). In order to counter-spell, you must be within 10ft x [MP dice] being used to counter-spell of the target caster. Counter-spelling magics of the same type is done at disadvantage. The steps are as follows:
 1. Declare "preparing to counter-spell" on your turn and use your "secondary action" to watch for spellcasters. Declare the number of MP dice you are preparing for this (minimum of 3).
-2. When a spell is being cast, but before its effects take place, identify that it is with a "knowledge:arcana" roll.
+2. When a spell is being cast, but before its effects take place, identify that it is with a "[Knowledge: Arcana](05-skills.md#knowledge)" roll.
 3. If the spell belongs to the same type or opposite type of local magic, use your reaction and declare "counter-spell".
 4. Pay the declared MP dice cost.
 5. Roll a SAP (Sup + Base + Wis) roll vs their SAT (Sup + Base + Wis). You have a bonus (or penalty if it's less) to the roll equal to the difference in MP dice used by the two sides. If it is the same type of magic, your roll is at disadvantage. If it is neither the same or opposite, you cannot counter-spell it.
 6. If you meet or beat the threshold, the spell fails (maybe even catastrophically).
 
 **Dispelling**: Any spellcaster with at least 11 MP dice total can dispel. You can only dispel magics of a type that you are capable of casting. In order to dispel you must be within 10ft x [MP dice being used to dispel the effect] of the effect and you must be able to see it. Thus you must have senses that can detect it (eg using "See Spell" or "See Unseen"). If you cannot "see" the spell you can still dispel magic if you are within its area of effect. The steps for dispelling are as follows:
-1. Identify the spell using "knowledge:arcana".
+1. Identify the spell using "[Knowledge: Arcana](05-skills.md#knowledge)".
 2. Declare "dispel" as a "main action" and how many MP dice you are using to dispel.
 3. Pay the declared MP dice cost.
 4. Roll a SAP (Sup + Base + Wis) roll vs their SAT (Sup + Base + Wis). You have a bonus (or penalty if it's less) to the roll equal to the difference in MP dice used by the two sides. If you are within the area of the spell's effect, or are its target, you have advantage on the roll.
 5. If you succeed on the roll, the spell ends, if you do not, it persists.
 
-**Banishing**: Summoned entities are not dispelled in the same way as spells. There are two ways of dealing with them.
+**Banishing**: Summoned entities are not dispelled in quite the same way as spells. There are two ways of dealing with them.
 1. Dispelling as normal, but only by casters who have spells with the "summon" descriptor or the "Bind Familiar" or "Bind Beast" ability.
-2. By a "spellworking" roll to "disimbue" the summon, but only after the effect has been identified by "knowledge:arcana".
+2. By a "spellworking" roll to "disimbue" the summon, but only after the effect has been identified by "[Knowledge: Arcana](05-skills.md#knowledge)".
 
-**Breaking**: A global spell can be broken by one of two modes: The first is use of "spellworking" by the "disable supernatural trap rules. This is less effective for spells with the "curse" descriptor (disadvantage). "Curses" have a "break condition": A condition under which they lose their power. After this happens 'spellworking" rolls to break curses are made at advantage.
+**Breaking Global Spells**: Global spells can be dispelled by any caster that has at least 11 MP dice. A dispelling character must be inside the area of effect, or adjacent to the area of effect of the spell for the whole duration of breaking in order to break it.
+- Dispelling can be done by the basic "[Spellworking](05-skills.md#spellworking)" rules and in accordance with the time required by the original caster's threshold. In order to do this, a character must first succeed on a "[Knowledge: Arcana](05-skills.md#knowledge)" roll to identify the spell.
+- Alternatively a character can "force" the breaking by forcing their own MP into the spell. In this case, no knowledge roll is required, however, the character expends [[original caster's MP dice used in casting the spell] - [dispelling character's "Knowledge:Arcana" skill bonus]] MP dice when making the attempt. If this leads to their MP dice count reaching 0, the dispelling character must succeed a CHA save or fall unconscious as per the "special" clause of the "[Spellworking](05-skills.md#spellworking)" rules.
+
+**Breaking Curses**: A curse can be broken as a global spell, except the roll is made at disadvantage. Curses also have a "break condition": If the condition is fulfilled they lose their power. Once the condition has been fulfilled rolls to disimbue or disable the curse have advantage.
 
 ___
 ### The catastrophic cascade

@@ -740,7 +740,7 @@ While 'Knowledge:Arcana" deals with theory, this is the practical application of
   - If the item is a single use item and the roll fails by 5 or more, the item is destroyed in the process (unless it is "durable" or "indestructible").
   - For each restriction on the item forbidding the character to use it, the threshold increases by +5.
 - **Special**:
-  - Failure by 5 or more leads to the entity using the skill to expend a number of MP dice equal to the difference between threshold and result. If this leads to the MP dice count reaching 0, the skill user must make a [CHA] save vs the threshold or fall "unconscious" until they receive "first aid" or the status is otherwise lifted by use of natural or supernatural ability.
+  - Failure by 5 or more leads to the entity using the skill to expend a number of MP dice equal to the difference between threshold and result. If this leads to the MP dice count reaching 0, the skill user must make a CHA save vs the threshold or fall "unconscious" until they receive "first aid" or the status is otherwise lifted by use of natural or supernatural ability.
   - You have disadvantage on "spellworking" rolls relating to spells with the "**curse** descriptor until curse's break condition has been fulfilled. Once the condition has been fulfilled rolls to disimbue or disable the curse have advantage.
 - **Take care**: Yes.
 - **Try again**: Yes, although by then it's often too late.

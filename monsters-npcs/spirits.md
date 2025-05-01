@@ -18,6 +18,7 @@
     - [Browny](#brownie)
     - [Pixie](#pixie)
     - [Dryad](#dryad)
+    - [Nymph/Naiad](#nymphnaiad)
     - [Fey Hound](#hound-fey)
     - [Fey Hunter](#hunter-fey)
     - [Fey Huntsmaster](#huntsmaster-fey)
@@ -631,7 +632,7 @@ Deflection: +1
 |[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||A faun can expend 1 SP die to combine two basic combat manoeuvres|
 |[Greater Manoeuvre I]|||A faun's combat manoeuvres affect entities up to the size of "huge"|
 |||||
-|Fey Song|Threshold=16||(2 MP die, range=60ft, instantaneous) A faun's voice, much like a fairy's, is a balm for the spirit. If a faun expends 2 MP dice as a secondary action when singing, all mortals and spirits must succeed on a CHA save or become charmed for 8 hours. Entities below level 5 automatically fail the save. Entities above level 10 make the save at advantage. The charm is broken if the entity takes damage, receives the kiss of a maiden, or eats a bitter leaf.|
+|Fey Song|Threshold=16||(2 MP die, range=60ft, instantaneous) A faun's voice, much like a fairy's, is a balm for the spirit. If a faun expends 2 MP dice as a secondary action when singing, all mortals and spirits must succeed on a CHA save or become charmed for 8 hours. Entities below level 5 automatically fail the save. Entities above level 10 make the save at advantage. The charm is broken if the entity takes damage, receives the kiss of a mortal maiden, or eats a bitter leaf.|
 |||||
 |[Bard Song II](../06-abilities.md#bard-song-i-iv)||||
 |[Bind Beast III](../06-abilities.md#bind-beast-i-x)|||A faun song can bind a single beast to serve it as a loyal companion|
@@ -867,34 +868,60 @@ Deflection: +2
 |Damage Resistance||"Cold", "Divine"|
 |Damage Vulnerability|||"Necrotic"|
 |||||
-|Dryad's Curse||| dryad cannot move beyond the edge of the root system of its tree. For this reason, dryads associated with birches are particularly powerful. A dryad whose tree perishes likewise perishes. A dryad can abandon its tree and return to the spirit realm on the first day of winter without perishing. Should it do so, however, its tree perishes.|
+|Dryad's Curse||| A dryad cannot move beyond the edge of the root system of its tree. For this reason, dryads associated with birches are particularly powerful. A dryad whose tree perishes likewise perishes. A dryad can abandon its tree and return to the spirit realm on the first day of winter without perishing. Should it do so, however, its tree perishes.|
 
 
 ___
-### Nymph
-Nymphs are similar to undines and are sometimes known as naiads. They are the spirits of natural streams and charm humanoids, sometimes involuntarily. A nymph cannot leave the catchment of its stream. Furthermore, should its stream dry up or be dammed for a full year, the nymph perishes. A nymph can leave its stream and pass to the spirit realm by travelling to its estuary. Should it do so, however, the stream dries up. Only the sacrifice of an undine can restore it.
+### Nymph/Naiad
+Nymphs are similar to undines and are sometimes known as naiads. They are the spirits of natural streams and charm humanoids, sometimes involuntarily. Unlike other fey, however, they straddle the boundary between between "spirits" and "divinity", and as such, while generally benevolent, make for dangerous foes. A nymph cannot leave the catchment of its stream. Furthermore, should its stream dry up or be dammed for a full year, the nymph perishes. A nymph can leave its stream and pass to the spirit realm by travelling to its estuary. Should it do so, however, the stream dries up. Only the sacrifice of an undine can restore it.
 
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 ||||||
 
+Deflection: +4
+Foresight: +2
+
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|||||||
-|Bonus|||||||
-|Save|||||||
+|Stat|8|16|14|13|19|27|
+|Bonus|-1|+3|+2|+1|+4|+8|
+|Save|+2|+9|+5|+4|+7|+16|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-||||||||
+|13(3)|17|25|3|5|6|8|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
+|[Elemental Touch: Cold](../06-abilities.md#elemental-touch)|+9|3d6+1|Reach=5ft|
+|[Elemental Blast: Light](../06-abilities.md#elemental-blast)|+12|3d6+1|maximum extra damage dice = 5d4|
+|[Greater Elemental Blast: Radial](../06-abilities.md#elemental-blast-greater-radial)|+12(Threshold=19)|3d6+1|Maximum radius=50ft, maximum extra damage dice = 5d4|
 |||||
+|Fey Song|Threshold=21||(2 MP die, range=60ft, instantaneous) A nymph's/naiad's voice is a balm for the spirit. If a naiaid expends 2 MP dice as a secondary action when singing, all mortals and spirits must succeed on a CHA save or become charmed for 8 hours. Entities below level 5 automatically fail the save. Entities above level 10 make the save at advantage. The charm is broken if the entity takes damage, receives the kiss of a mortal maiden, or eats a bitter leaf.|
+|Naiad's Touch|Threshold=21||Any mortal that touches or makes a melee attack against a naiad/nymph must succeed on a CHA save or become charmed for 8 hours. The charm is broken if the entity takes damage, receives the kiss of a mortal maiden, or eats a bitter leaf.|
 |||||
+|[Foresight](../06-abilities.md#foresight)||||
+|[Bard Song IV](../06-abilities.md#bard-song-i-iv)||||
+|[Spell Song IV](../06-abilities.md#bard-song-i-iv)||||
+|[Divine Strike](../06-abilities.md#divine-strike)||||
+|[Arcane Interception](../06-abilities.md#arcane-interception)||||
+|[Deflection](../06-abilities.md#deflection)||||
+|[Esoteric Deflection](../06-abilities.md#esoteric-deflection)||||
+|[Bind Beast VII](../06-abilities.md#bind-beast-i-x)||||
+|[Still Spell](../06-abilities.md#still-spell)|||A nymph/naiad can use expend an MP die to cast a spell without kinetic components (if it has incantation components)|
+|[Low Light Vision](../06-abilities.md#low-light-vision)|||A nymph/naiad can see in dim light as well as in bright daylight.|
+|[Spellcasting Local: Water VII](../06-abilities.md#spellcasting-local)|Threshold=22||Favourite Spells: [Least Hydromancy](../08-spell-list.md#least-hydromancy), [Mist](../08-spell-list.md#mist), [Water Snake](../08-spell-list.md#water-snake), [Sense Spell](../08-spell-list.md#sense-spell), [Summon Water Sprite](../08-spell-list.md#summon-water-sprite), [Water Ward](../08-spell-list.md#water-ward), [Aqueous Step](../08-spell-list.md#aqueous-step), [Scry](../08-spell-list.md#scry), [Mirage](../08-spell-list.md#mirage), [Flood](../08-spell-list.md#flood), [Heart Ward](../08-spell-list.md#heart-ward), [Inner Voice](../08-spell-list.md#inner-voice), [Transform Mortal](../08-spell-list.md#transform-mortal)|
+|[Spellcasting Local: Water VII](../06-abilities.md#spellcasting-local)|Threshold=22||Favourite Spells: [Hide](../08-spell-list.md#hide), [Ensnare](../08-spell-list.md#ensnare), [Least Heal](../08-spell-list.md#least-heal), [Least Rest](../08-spell-list.md#least-rest), [Natural Xenophonia](../08-spell-list.md#natural-xenophonia), [Cure](../08-spell-list.md#cure), [Slumber](../08-spell-list.md#slumber), [Healing Seed](../08-spell-list.md#healing-seed), [Rejuvenate Land](../08-spell-list.md#rejuvenate-land), [Greater Fade](../08-spell-list.md#greater-fade), [Fairy Feast](../08-spell-list.md#fairy-feast), [Spirit Restoration](../08-spell-list.md#spirit-restoration), [Greater Weather Control](../08-spell-list.md#greater-weather-control), [Transform Mortal](../08-spell-list.md#transform-mortal)|
+|[Spellcasting Global I](../06-abilities.md#spellcasting-global)||||
 |||||
+|Immunity|||"stunned", "immobilised", "crippled", "bleeding", "poisoned", "paralysed" as well as "aphonia" and "deafened"|
+|Damage Immunity|||All physical Damage. The immunity to physical damage does not apply to damage caused by weapons made of iron or steel.|
+|Damage Resistance|||"Cold", "Divine"|
+|Damage Vulnerability|||"Necrotic"|
 |||||
+|Nymph's Curse||| A nymph cannot leave the catchment of its stream. Furthermore, should its stream dry up or be dammed for a full year, the nymph perishes. A nymph can leave its stream and pass to the spirit realm by travelling to its estuary. Should it do so, however, the stream dries up. Only the sacrifice of an undine can restore it.|
 
 ___
 ### Hound (fey)
@@ -1066,7 +1093,7 @@ Deflection: +5
 |[Greater Elemental Blast (Linear): Light](../06-abilities.md#elemental-blast-greater-linear)|+17|4d4+6||
 |[Greater Elemental Blast (Radial): Light](../06-abilities.md#elemental-blast-greater-radial)|+17|4d4+6||
 |||||
-|Fey Song|Threshold=22||(2 MP die, range=60ft, instantaneous) A fairy's voice is a balm for the spirit. If a fairy expends 2 MP dice as a secondary action when singing, all mortals and spirits must succeed on a CHA save or become charmed for 8 hours. Entities below level 5 automatically fail the save. Entities above level 10 make the save at advantage. The charm is broken if the entity takes damage, receives the kiss of a maiden, or eats a bitter leaf.|
+|Fey Song|Threshold=22||(2 MP die, range=60ft, instantaneous) A fairy's voice is a balm for the spirit. If a fairy expends 2 MP dice as a secondary action when singing, all mortals and spirits must succeed on a CHA save or become charmed for 8 hours. Entities below level 5 automatically fail the save. Entities above level 10 make the save at advantage. The charm is broken if the entity takes damage, receives the kiss of a mortal maiden, or eats a bitter leaf.|
 |||||
 |[Deflection](../06-abilities.md#deflection)||||
 |[Aphonic Spell](../06-abilities.md#aphonic-spell)|||A fairy may spend 1 MP dice to cast a spell without kinetic components|

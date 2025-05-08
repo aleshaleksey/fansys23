@@ -433,14 +433,14 @@ ___
 |-|-|
 |Scope|local|
 |MP Dice|0|
-|Target(s)|1 object within a 5ft cube or 1 entity|
+|Target(s)|A 10ft cube|
 |Casting time|"main action"|
 |Range|close|
 |Duration|1 minute| (+1)
 |Components|incantation|(+1)
 |Save|Int, harmless|
 
-**Description**: The target gains light cover from a clearly tangible phenomenon. (+2) (4-4)
+**Description**: A single entity gains light cover from a clearly tangible phenomenon when within the target cube. (+2) (4-4)
 
 **Limitation**: The "Least ward" cannot be moved from the square it was originally cast. If the target leaves the square, the ward remains there.
 
@@ -466,7 +466,7 @@ ___
 |-|-|
 |Scope|local|
 |MP Dice|0|
-|Target(s)|5ft radius centered on a square in range|
+|Target(s)|5ft radius centred on a square in range|
 |Casting time|"main action"|
 |Range|30ft|
 |Duration|1 round|
@@ -474,7 +474,7 @@ ___
 |Conditions|lightly obscured|
 |Save|-|
 
-**Description**: Calls forth a thick, cold mist. Any entity of size "huge" or smaller that is separated from observes by at least 5ft of the mist is lightly obscured.
+**Description**: Calls forth a thick, cold mist. Any entity of size "huge" or smaller that is separated from an observer by at least 5ft mist has light concealment. One that is separated by 15ft of the mist has heavy concealment.
 
 ___
 ### Silent

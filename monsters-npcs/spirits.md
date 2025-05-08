@@ -873,12 +873,16 @@ Deflection: +2
 
 ___
 ### Nymph/Naiad
-Nymphs are similar to undines and are sometimes known as naiads. They are the spirits of natural streams and charm humanoids, sometimes involuntarily. Unlike other fey, however, they straddle the boundary between between "spirits" and "divinity", and as such, while generally benevolent, make for dangerous foes. A nymph cannot leave the catchment of its stream. Furthermore, should its stream dry up or be dammed for a full year, the nymph perishes. A nymph can leave its stream and pass to the spirit realm by travelling to its estuary. Should it do so, however, the stream dries up. Only the sacrifice of an undine can restore it.
+Nymphs are similar to undines and are sometimes known as naiads. They are the spirits of natural streams and charm humanoids, sometimes involuntarily. They generally take the form of attractive female humanoids, but can also take the form of kingfishers and otters. Unlike other fey, however, they straddle the boundary between between "spirits" and "divinity", and as such, while generally benevolent, make for dangerous foes. A nymph cannot leave the catchment of its stream. Furthermore, should its stream dry up or be dammed for a full year, the nymph perishes. A nymph can leave its stream and pass to the spirit realm by travelling to its estuary. Should it do so, however, the stream dries up. Only the sacrifice of an undine can restore it.
+
+**Size category**: Medium (5ft x 5ft)
+- Reach: 5ft
+- Carry capacity: (32lb light, 64lb medium, 240lb heavy, 720lb drag)
 
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-||||||
+|22/17/22|60|76|23|30ft|100ft (swim), 30ft (blink)|
 
 Deflection: +4
 Foresight: +2

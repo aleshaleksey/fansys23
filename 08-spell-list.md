@@ -1716,6 +1716,9 @@ ___
 
 **Description**: Create a solid, physical barrier of earth with a radius of **up to** 15ft around the target. The barrier gives total cover and total concealment to targets within it. Dealing physical damage to the barrier (HiT=10, HP=10, damage reduction(except "esoteric")=10) in one turn opens a window big enough for a small size entity to enter freely (or a medium entity to squeeze through). At the end of the turn the barrier resets.
 
+**Limitation**:
+- If, while the spell is active, the target of the spell moves or was moved since the start of the caster's last turn, the caster must make a Threshold=15 concentration save or lose the spell. This save is eschewed if the spell is cast with at least 5 MP dice.
+
 **Special**:
 - If the spell is cast as a reaction, it cannot be upcast, and lasts for 1 minute.
 - If the attack is a rectilinear effect and the barrier crosses its path, the target is affected as if it is inside the barrier.
@@ -1775,6 +1778,9 @@ ___
 |Save|Cha, harmless|
 
 **Description**: Create a barrier of raging fire **up to** 10ft around the target. The barrier gives light concealment to all targets within. Entities inside the barrier have damage reduction of 5 vs non-magical physical or cold/ice attacks that originate outside of the barrier. In addition, any non-magical weapon (or unarmed entity) attacking or otherwise passing through the barrier takes 3d8+[Sup] fire damage.
+
+**Limitation**:
+- If, while the spell is active, the target of the spell moves or was moved since the start of the caster's last turn, the caster must make a Threshold=15 concentration save or lose the spell. This save is eschewed if the spell is cast with at least 5 MP dice.
 
 **Special**:
 - If the spell is cast as a reaction, it cannot be upcast, and lasts for 1 minute.
@@ -2034,6 +2040,9 @@ ___
 
 **Description**: Create a barrier with a radius of **up to** 15ft around the target. All entities within the barrier has resistance to piercing damage from ranged weapons, pressure damage, and lightning damage from outside the barrier. If the barrier's radius is reduced to 5ft, resistance is also gained to those damage types within the barrier. The spell causes all noxious gases and airborne particles to dissipate, nullifying the their effect in the area of the spell.
 
+**Limitation**:
+- If, while the spell is active, the target of the spell moves or was moved since the start of the caster's last turn, the caster must make a Threshold=15 concentration save or lose the spell. This save is eschewed if the spell is cast with at least 5 MP dice.
+
 **Special**:
 - If the spell is cast as a reaction, it cannot be upcast, and lasts for 1 minute.
 - If the attack is a rectilinear effect and the barrier crosses its path, the target is affected as if it is inside the barrier.
@@ -2107,6 +2116,9 @@ ___
 |Save|Cha, harmless|
 
 **Description**: Create a barrier with a radius of **up to** 10ft around the target. All entities within the barrier have resistance to piercing, shear, slashing and bludgeoning damage from attacks from outside the barrier, as well as pressure and fire damage from the outside. If the barrier's radius is reduced to 5ft, resistance is also gained to those damage types within the barrier. (2+2+2+2+4-2=10)
+
+**Limitation**:
+- If, while the spell is active, the target of the spell moves or was moved since the start of the caster's last turn, the caster must make a Threshold=15 concentration save or lose the spell. This save is eschewed if the spell is cast with at least 5 MP dice.
 
 **Special**:
 - If the spell is cast as a reaction, it cannot be upcast, and lasts for 1 minute.

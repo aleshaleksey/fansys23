@@ -692,6 +692,8 @@ ___
 
 **Description**: Exactly as "Divine Strike", but replace the word "Divine" with "Profane".
 
+**Prerequisites**: Requires "[Unholy Strike](#unholy-strike)" instead of "[Holy Strike](#holy-strike)".
+
 ___
 #### Spell Strike
 

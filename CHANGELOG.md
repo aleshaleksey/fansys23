@@ -310,3 +310,4 @@ ___
 
 ### Abilities
 - Add [Mighty I](06-abilities.md#mighty-i) and [Mighty II](06-abilities.md#mighty-ii) abilities to increase carrying capacity.
+- Add experimentally [Holy Strike](06-abilities.md#holy-strike) and [Unholy Strike](06-abilities.md#unholy-strike) as weaker versions of divine/profane strike.

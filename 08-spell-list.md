@@ -906,7 +906,7 @@ ___
 - You can only have one summon at any one time.
 - The summon appears at the start of the caster's *next* turn.
 
-**Limitation**: You cannot summon a beast into an environment where it cannot breath or more (eg, you cannot summon a horse into mid-air, or a fish onto land).
+**Limitation**: You cannot summon a beast into an environment where it cannot breath or move (eg, you cannot summon a horse into mid-air, or a fish onto land).
 
 **Upcast**: For every MP dice added above 1 (4 MP dice above 4 for global), the beast gains a level.
 

@@ -137,8 +137,9 @@ ___
 |Claws|+4(+6)|1d4+2(+3)||
 |Longsword|+3(+5)|1d8/1d12+1(+2)||
 |Sling|+4(+6)|1d6+2(+3)|range=1600/80|
+|Vulnerability|||"divine", "light"|
 |Resistant|||"physical" damage except "percussive" and "pressure"|
-|Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"
+|Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
 |Senses|||"low-light vision", "life-sense" 60ft|
 
 **Level 5**: Level 5 skeletons have Multi-attack I.
@@ -181,6 +182,7 @@ ___
 |Bite|+5(+7)|1d4+3(+4)|Disease: Zombify Threshold = 16(17)|
 |Strike|+5(+7)|1d4+3(+4)||
 |Longsword|+0(+2)|1d8/1d12+3(+4)||
+|Vulnerability|||"divine", "light"|
 |Resistant|||"physical" damage|
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
 |Senses|||"low-light vision", "life-sense" 60ft|

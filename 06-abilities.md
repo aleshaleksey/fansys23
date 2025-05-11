@@ -80,9 +80,11 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Esoteric Deflection](#esoteric-deflection)
 - [Greater Elemental Blast (Linear)](#elemental-blast-greater-linear)
 - [Greater Elemental Blast (Radial)](#elemental-blast-greater-radial)
+- [Holy Strike](#holy-strike)
 - [Profane Strike](#profane-strike)
 - [Spell Strike](#spell-strike)
 - [Spirit Strike](#spirit-strike)
+- [Unholy Strike](#unholy-strike)
 
 ### Supernatural (General)
 
@@ -527,7 +529,10 @@ ___
 
 **Declaration**: Must be made when the attack is called, however, for MELEE attacks the MP cost is only paid if the attack hits. For ranged and thrown weapon attacks the cost is always paid.
 
-**Limitations**: These are OPTIONAL rules for when playing with alignment:
+**Limitations**:
+- Divine strike, when used with ranged weapons, is applicable only within the first range increment.
+
+These are OPTIONAL rules for when playing with alignment:
 - A character with a "Profane" alignment cannot take this ability.
 - A character who gains this ability gains the "Divine" alignment and loses the ability to use it if they lose the alignment.
 
@@ -535,6 +540,7 @@ ___
 
 **Prerequisites**:
 - Proficiency with the given weapon group.
+- "[Holy Strike](#holy-strike)"
 - 12 SP dice total and 18 MP dice total.
 
 **Table**:
@@ -660,6 +666,26 @@ ___
 **Prerequisite**: "[Deflection](#deflection)" + 17 MP dice total.
 
 ___
+#### Holy Strike
+
+**Type**: B Class
+
+**Description**: Expend MP to infuse a weapon attack with supernatural light, dealing extra damage. This costs 1 MP per 1d4 of light damage. Profane entities hit by this attack must succeed a CHA save (Threshold=13+SUP+[CHA]) or be "blinded" (repeated save applies).
+
+**Declaration**: Must be made when the attack is called, however, for MELEE attacks the MP cost is only paid if the attack hits. For ranged and thrown weapon attacks the cost is always paid.
+
+**Limitations**:
+- Holy Strike, when used with ranged weapons, is applicable only within the first range increment.
+- A character with a "Profane" alignment cannot take this ability. This is an optional rule for when playing with alignment.
+
+**Special**:
+- "Holy Strike" sheds light (visibility 5 miles, illumination: bright/dim 10ft, 20ft).
+
+**Prerequisites**:
+- Proficiency with at least one weapon group.
+- 6 SP dice total and 9 MP dice total.
+
+___
 #### Profane Strike
 
 **Type**: A/S Class
@@ -709,6 +735,23 @@ ___
 - OPTIONAL: If playing with alignment rules, a character who gains "Spirit Strike" should be spiritually aligned, and cannot use this ability if they lose this alignment.
 
 **Prerequisites**: 12 MP dice total and 18 SP dice total.
+
+___
+#### Unholy Strike
+
+**Type**: B Class
+
+**Description**: Expend MP to infuse a weapon attack with decay, dealing extra damage. This costs 1 MP per 1d6 of necrotic damage. Mortals hit by this attack must succeed a CON save (Threshold=13+NAT+[CHA]) or start "bleeding".
+
+**Declaration**: Must be made when the attack is called, however, for MELEE attacks the MP cost is only paid if the attack hits. For ranged and thrown weapon attacks the cost is always paid.
+
+**Limitations**:
+- Unholy Strike, when used with ranged weapons, is applicable only within the first range increment.
+- A character with a "divine" alignment cannot take this ability. This is an optional rule for when playing with alignment.
+
+**Prerequisites**:
+- Proficiency with at least one weapon group.
+- 6 SP dice total and 9 MP dice total.
 
 ___
 ### General Abilities (Supernatural)

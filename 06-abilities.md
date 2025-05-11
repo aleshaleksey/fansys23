@@ -741,7 +741,7 @@ ___
 
 **Type**: B Class
 
-**Description**: Expend MP to infuse a weapon attack with decay, dealing extra damage. This costs 1 MP per 1d6 of necrotic damage. Mortals hit by this attack must succeed a CON save (Threshold=13+NAT+[CHA]) or start "bleeding".
+**Description**: Expend MP to infuse a weapon attack with decay, dealing extra damage. This costs 1 MP per 1d6 of necrotic damage. Mortals hit by this attack must succeed a CON save (Threshold=13+NAT+[CON]) or start "bleeding".
 
 **Declaration**: Must be made when the attack is called, however, for MELEE attacks the MP cost is only paid if the attack hits. For ranged and thrown weapon attacks the cost is always paid.
 

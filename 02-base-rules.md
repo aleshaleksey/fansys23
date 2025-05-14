@@ -381,7 +381,7 @@ ___
 This is the determinant of "MP pool".
 - A character has a capacity of up to [3 MP dice / level] + 1 (min 1).
 - A character uses MP dice to fuel powerful mental/spiritual abilities.
-- A character can expend a single MP die to add 1d6 to any roll governed by INT, WIS or CHA.
+- A character can expend a single MP die to add 1d6 to any roll governed by INT, WIS or CHA (must be declared before the roll is made).
 - A character with 0 MP dice cannot use the more powerful supernatural abilities that require MP.
 - A character regains 1/2 of all MP dice on any "rest" [whatever that may be in duration], and as a result of this 2 MP per dice (see "Mana Pool" below).
 
@@ -403,7 +403,7 @@ ___
 This is the determinant of "SP pool".
 - A character has a capacity of up to [3 SP dice / level] + 1 (min 1).
 - A character uses SP dice to fuel powerful physical/natural abilities.
-- A character can expend a single SP die to add 1d6 to any roll governed by STR, DEX or CON.
+- A character can expend a single SP die to add 1d6 to any roll governed by STR, DEX or CON (must be declared before the roll is made).
 - A character with 0 SP dice cannot use the more powerful supernatural abilities that require SP.
 - A character regains 1/2 of all SP dice on any "rest" [whatever that may be in duration].
 

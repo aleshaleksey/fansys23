@@ -337,7 +337,11 @@ Luckily a character also has mana (or mental) points (MP) and stamina points (SP
 
 1. You do not die if you run out of SP or MP. You do lose the ability to use your more powerful abilities though.
 2. You regain SP and MP a lot faster than HP, and taking damage to SP/MP represents using your combat/magical prowess to shrug off damage at the expense of expending your energy.
-3. SP and MP are used to fuel various powerful abilities. So they are both offensive and defensive. HP just sits there and looks pretty.
+3. SP and MP are used to fuel various powerful abilities. So they are both offensive and defensive. HP just sits there and looks pretty. 
+4. A character may also expend a single MP/SP die to add 1d6 to a roll (must be declared before the roll is made).
+  - An SP die to add 1d6 to a STR, DEX or CON roll.
+  - An MP die to add 1d6 to a INT, WIS or CHA roll.
+
 
 The amount of SP or MP a character has is determined by how many SP dice and MP dice it has. A level one character starts with 1 SP dice and 1 MP and 3 dice points to assign as they wish for additional SP or MP dice.
 

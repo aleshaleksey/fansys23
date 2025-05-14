@@ -381,8 +381,9 @@ ___
 This is the determinant of "MP pool".
 - A character has a capacity of up to [3 MP dice / level] + 1 (min 1).
 - A character uses MP dice to fuel powerful mental/spiritual abilities.
+- A character can expend a single MP die to add 1d6 to any roll governed by INT, WIS or CHA.
 - A character with 0 MP dice cannot use the more powerful supernatural abilities that require MP.
- - A character regains 1/2 of all MP dice on any "rest" [whatever that may be in duration], and as a result of this 2 MP per dice (see "Mana Pool" below).
+- A character regains 1/2 of all MP dice on any "rest" [whatever that may be in duration], and as a result of this 2 MP per dice (see "Mana Pool" below).
 
 ___
 #### Mana pool
@@ -402,6 +403,7 @@ ___
 This is the determinant of "SP pool".
 - A character has a capacity of up to [3 SP dice / level] + 1 (min 1).
 - A character uses SP dice to fuel powerful physical/natural abilities.
+- A character can expend a single SP die to add 1d6 to any roll governed by STR, DEX or CON.
 - A character with 0 SP dice cannot use the more powerful supernatural abilities that require SP.
 - A character regains 1/2 of all SP dice on any "rest" [whatever that may be in duration].
 
@@ -420,9 +422,11 @@ This is a measure of an entity's physical energy, stamina.
 ___
 #### Losing MP, SP and Rebalancing
 
-MP is lost when MP dice are used, or when supernatural attacks damage a character. SP is lost when SP dice are used or when natural attacks damage a character. In some cases this means that a character can end up running out of MP (or SP), while they still have SP (or MP).
+MP is lost when MP dice are used, or when supernatural attacks damage a character. SP is lost when SP dice are used or when natural attacks damage a character. In some cases this means that a character can end up running out of MP (or SP), while they still have SP (or MP). However, mental and physical energy is partially interconvertible. Characters of level 5 or higher can make use of this interconversion as follows:
 
-Characters of level 5 or higher can therefore "rebalance" as a main action, converting SP into MP or MP into SP, at the cost of 2 to 1. So 2 MP would become 1 SP, or 2 SP would become 1 MP.
+- **Rebalance**: As a main action, convert SP into MP or MP into SP, at the cost of 2 to 1. So 2 MP would become 1 SP, or 2 SP would become 1 MP.
+- **Replace SP dice**: If they run out of SP dice, can use MP dice instead, expending 2 MP dice for every SP die they would normally use. This also costs a secondary action.
+- **Replace MP dice**: If they run out of MP dice, they can use SP dice, expending 2 SP dice for every MP die they would normally use. This also costs a secondary action (so it does not work for abilities that require a "[full round action o](04-combat.md#types-of-actions-in-combat)")
 
 ___
 ### Nat and Sup: Attack of the three letter words

@@ -425,8 +425,8 @@ ___
 MP is lost when MP dice are used, or when supernatural attacks damage a character. SP is lost when SP dice are used or when natural attacks damage a character. In some cases this means that a character can end up running out of MP (or SP), while they still have SP (or MP). However, mental and physical energy is partially interconvertible. Characters of level 5 or higher can make use of this interconversion as follows:
 
 - **Rebalance**: As a main action, convert SP into MP or MP into SP, at the cost of 2 to 1. So 2 MP would become 1 SP, or 2 SP would become 1 MP.
-- **Replace SP dice**: If they run out of SP dice, can use MP dice instead, expending 2 MP dice for every SP die they would normally use. This also costs a secondary action.
-- **Replace MP dice**: If they run out of MP dice, they can use SP dice, expending 2 SP dice for every MP die they would normally use. This also costs a secondary action (so it does not work for abilities that require a "[full round action o](04-combat.md#types-of-actions-in-combat)")
+- **Replace SP dice**: If they run out of SP dice, can use MP dice instead, expending 2 MP dice for every SP die they would normally use. This also costs a secondary action (so it does not work for abilities that require a ["full round action" or "secondary action"](04-combat.md#types-of-actions-in-combat)).
+- **Replace MP dice**: If they run out of MP dice, they can use SP dice, expending 2 SP dice for every MP die they would normally use. This also costs a secondary action (so it does not work for abilities that require a ["full round action" or "secondary action"](04-combat.md#types-of-actions-in-combat)).
 
 ___
 ### Nat and Sup: Attack of the three letter words

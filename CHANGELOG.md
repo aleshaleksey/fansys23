@@ -304,6 +304,8 @@ ___
 - Major recalculation of save thresholds. Save threshold is now 13 + [Sup OR Nat] + [Stat]. (We no longer add base). This makes level based increase to ability thresholds less vicious.
 - Make it even more explicit that characters can only increase stats by 1 point per level.
 - Recalculate monster/NPC saving thresholds with the new rules.
+- Expand "[rebalance](02-base-rules.md#losing-mp-sp-and-rebalancing)" rules to allow use of MP/SP dice interchangeably at a price (double cost, secondary action).
+- Add SP/MD dice as 1d6 rules: Expend an SP/MP die to add 1d6 to a roll.
 
 ### Spellcasting
 - Rework spellworking [dispel rules](07-magic-and-spellcasting.md#banishing-breaking-counter-spelling-and-dispelling) to make breaking global spells more costly (either in terms of time or MP dice).

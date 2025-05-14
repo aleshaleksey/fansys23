@@ -38,7 +38,7 @@ ___
 ### Eagle (level 2)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|13/10/13|12|10|5|10ft|100ft (flight, average)|
+|13/10/13|12 (*10*)|10 (*9*)|5|10ft|100ft (flight, average)|
 
 Size=Small
 
@@ -219,7 +219,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|12/11/11|14|6|4|50|-|
+|12/11/11|14 (*8*)|6 (*4*)|4|50|-|
 
 Size = large
 
@@ -251,7 +251,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|11/10/10|23|8|6|40|-|
+|11/10/10|23 (*17*)|8 (*8*)|6|40|-|
 
 Size = large
 
@@ -283,7 +283,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|12/11/11|30|10|8|50|-|
+|12/11/11|30 (*21*)|10 (*10*)|8|50|-|
 
 Size = large
 
@@ -342,7 +342,7 @@ ___
 ### Swarm of Bees
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|13/11/13|18|16|7|10ft|40ft (fly)|
+|13/11/13|18 (*14*)|16 (*12*)|7|10ft|40ft (fly)|
 
 A swarm of bees is medium sized.
 
@@ -354,7 +354,7 @@ A swarm of bees is medium sized.
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|3(1)|6|5|1|1|2|2|
+|3 (1)|6|5|1|1|2|2|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -433,7 +433,7 @@ ___
 ### Bear (level 6)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|13/13/9|44|20|10|40|climb 30ft|
+|13/13/9|44 (*29*)|20 (*15*)|10|40|climb 30ft|
 
 (Natural armour + 3)
 
@@ -466,7 +466,7 @@ ___
 ### Boar (level 4)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|13/13/9|30|14|8|40||
+|13/13/9|30 (*21*)|14 (*11*)|8|40||
 
 (Natural armour + 3)
 Size = Medium
@@ -530,7 +530,7 @@ ___
 ### Wolf
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|12/11/11|14|6|4|40ft||
+|12/11/11|14 (*12*)|6 (*6*)|4|40ft||
 
 (Natural armour + 1)
 
@@ -567,7 +567,7 @@ ___
 ### Hadrosaur (level 7)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|12/14/9|56|23|40ft|(swim) 20ft|
+|12/14/9|56 (*32*)|23 (*17*)|40ft|(swim) 20ft|
 
 (huge, +3 natural)
 
@@ -579,7 +579,7 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|7(2)|14|8|3|2|4|3|
+|7 (2)|14|8|3|2|4|3|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -596,8 +596,8 @@ ___
 ### Raptor (levels 2, 4)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|(level 2) 14/10/11|12|6|3|45|-|
-|(level 4) 14/10/11|26|10|6|50|-|
+|(level 2) 14/10/11|12 (*12*)|6 (*6*)|3|45|-|
+|(level 4) 14/10/11|26 (*20*)|10 (*10*)|6|50|-|
 
 (Large, carrying capacity +3 Natural)
 
@@ -615,8 +615,8 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|2(1)|5|3|1|1|2|2|
-|4(1)|9|5|2|1|3|2|
+|2 (1)|5|3|1|1|2|2|
+|4 (1)|9|5|2|1|3|2|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -681,7 +681,7 @@ ___
 ### Giant Flytrap
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|12/12/9|24|4|4|5ft|-climb (5ft)|
+|12/12/9|24 (*21*)|4 (*4*)|4|5ft|-climb (5ft)|
 
 (Flytrap is large, Natural armour +2)
 
@@ -713,7 +713,7 @@ ___
 ### Orc Eating Tuber
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|8/10/6|38|32|11|10ft|Dig (5ft)|
+|8/10/6|38 (*18*)|32 (*27*)|11|10ft|Dig (5ft)|
 
 Size = Large
 
@@ -751,7 +751,7 @@ ___
 ### Shephard Tree, elder
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|18/22/2|450|290|47|40ft|climb (40ft)|
+|18/22/2|450 (*107*)|290 (*104*)|47|40ft|climb (40ft)|
 
 (Shephard tree is Colossal, Natural armour +10)
 
@@ -790,7 +790,7 @@ ___
 ### Tripede
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|13/12/10|20|32|6|40ft|climb (40ft)|
+|13/12/10|20 (*15*)|32 (*27*)|6|40ft|climb (40ft)|
 
 (Tripede is large, Natural armour +2)
 

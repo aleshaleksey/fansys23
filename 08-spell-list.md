@@ -4226,7 +4226,7 @@ ____
 |Name|Avatar [Divine, Profane]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|10(40)|
+|MP Dice|10 (40)|
 |Target(s)|1 entity|
 |Casting time|2 full round actions (48 hours)|-3
 |Range|close|-1

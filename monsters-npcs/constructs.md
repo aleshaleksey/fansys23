@@ -31,7 +31,7 @@ Gingerbread golems, also known as gingerbread men are usually small or tiny past
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|18/11/18|15|13|5|60ft|
+|18/11/18|15 (*13*)|13 (*11*)|5|60ft|
 **Size category**: Tiny (5/4ft x 5/4ft)
 - Reach: 0ft
 - Carry capacity: (6lb light, 12lb medium, 30lb heavy, 45lb drag)
@@ -44,7 +44,7 @@ Gingerbread golems, also known as gingerbread men are usually small or tiny past
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|3(1)|6|5|1|1|2|2|
+|3 (1)|6|5|1|1|2|2|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -66,7 +66,7 @@ Gingerbread golems, also known as gingerbread men are usually small or tiny past
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|19/12/19|32|32|10|80ft|
+|19/12/19|32 (*22*)|32 (*22*)|10|80ft|
 **Size category**: Tiny (5/4ft x 5/4ft)
 - Reach: 0ft
 - Carry capacity: (7lb light, 14lb medium, 35lb heavy, 52.5lb drag)
@@ -79,7 +79,7 @@ Gingerbread golems, also known as gingerbread men are usually small or tiny past
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|6(2)|10|10|2|2|4|4|
+|6 (2)|10|10|2|2|4|4|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -108,7 +108,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/14/9|34|34|12|30ft||
+|14/14/9|34 (*18*)|34 (*18*)|12|30ft||
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -118,7 +118,7 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|4(1)|7|7|2|2|3|3|
+|4 (1)|7|7|2|2|3|3|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -157,7 +157,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|17/17/9|66|66|18|40ft||
+|17/17/9|66 (*31*)|66 (*31*)|18|40ft||
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -167,7 +167,7 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|8(2)|13|13|3|3|5|5|
+|8 (2)|13|13|3|3|5|5|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -209,7 +209,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|21/21/9|104|98|24|40ft||
+|21/21/9|104 (*44*)|98 (*40*)|24|40ft||
 
 - Natural Armour: +4 (stone)
 
@@ -221,7 +221,7 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|11(3)|19|16|4|3|7|6|
+|11 (3)|19|16|4|3|7|6|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -263,7 +263,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|21/21/9|104|98|24|70ft||
+|21/21/9|104 (*38*)|98 (*44*)|24|70ft||
 
 - Natural Armour: +4 (stone)
 
@@ -275,7 +275,7 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|11(3)|16|19|3|4|6|7|
+|11 (3)|16|19|3|4|6|7|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -317,7 +317,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|18/18/9|104|98|24|50ft||
+|18/18/9|104 (*50*)|98 (*43*)|24|50ft||
 
 - Natural Armour: +6 (mithril)
 
@@ -329,7 +329,7 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|13(3)|22|19|4|4|7|7|
+|13 (3)|22|19|4|4|7|7|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -370,7 +370,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|26/26/12|162|162|40|40ft||
+|26/26/12|162 (*57*)|162 (*57*)|40|40ft||
 
 - Natural Armour: +12 (diamond)
 
@@ -382,7 +382,7 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|16(4)|25|25|5|5|9|9|
+|16 (4)|25|25|5|5|9|9|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -437,7 +437,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|17/17/13|10|6|2|30ft|
+|17/17/13|10 (*10*)|6 (*10*)|2|30ft|
 
 - Natural armour: +4 (Bronze)
 
@@ -449,7 +449,7 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|2(1)|5|3|1|1|2|2|
+|2 (1)|5|3|1|1|2|2|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -478,7 +478,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|19/19/9|88|84|20|40ft|
+|19/19/9|88 (*44*)|84 (*40*)|20|40ft|
 
 - Natural armour: +6 (Bronze)
 
@@ -490,7 +490,7 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|12(3)|20|18|4|3|7|6|
+|12 (3)|20|18|4|3|7|6|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -520,7 +520,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|17/17/12|40|36|12|80ft|
+|17/17/12|40 (*25*)|36 (*21*)|12|80ft|
 
 - Natural Armour: +4 (Bronze)
 
@@ -532,7 +532,7 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|6(2)|11|9|2|2|4|4|
+|6 (2)|11|9|2|2|4|4|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -560,7 +560,7 @@ ___
 - Carry capacity: (72lb light, 144lb medium, 360lb heavy, 540lb drag)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|18/18/12|47|41|13|35ft|
+|18/18/12|47 (*29*)|41 (*23*)|13|35ft|
 
 - Natural Armour: +6 (Steel)
 
@@ -572,7 +572,7 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|7(2)|13|10|2|2|4|4|
+|7 (2)|13|10|2|2|4|4|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -606,7 +606,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|26/26/6|184|180|32|50ft|
+|26/26/6|184 (*70*)|180 (*66*)|32|50ft|
 
 - Natural Armour: +12 (Steel)
 
@@ -618,7 +618,7 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|20(4)|32|30|7|6|11|10|
+|20 (4)|32|30|7|6|11|10|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|

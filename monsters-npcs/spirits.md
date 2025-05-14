@@ -35,12 +35,12 @@ ___
 ### Flame Sprite
 |Level|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|-|
-|1|13/10/13|4|8|2|40ft|-|
-|2|13/10/13|6|14|3|40ft|-|
-|3|13/10/13|8|20|4|45ft|-|
-|4|16/10/16|14|30|7|45ft|-|
-|5|16/10/16|19|35|8|50ft|-|
-|6|16/10/16|19|42|9|50ft|-|
+|1|13/10/13|4 (*4*)|8 (*8*)|2|40ft|-|
+|2|13/10/13|6 (*6*)|14 (*12*)|3|40ft|-|
+|3|13/10/13|8 (*8*)|20 (*16*)|4|45ft|-|
+|4|16/10/16|14 (*11*)|30 (*21*)|7|45ft|-|
+|5|16/10/16|19 (*15*)|35 (*23*)|8|50ft|-|
+|6|16/10/16|19 (*15*)|42 (*26*)|9|50ft|-|
 
 - Flame sprites are small size.
 
@@ -58,12 +58,12 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
-|1(1)|2|3|1|1|2|2|
-|2(1)|3|5|1|1|2|2|
-|3(1)|4|7|1|2|2|3|
-|4(1)|5|9|1|2|2|3|
-|5(1)|7|10|2|2|3|3|
-|6(2)|7|13|2|3|3|4|
+|1 (1)|2|3|1|1|2|2|
+|2 (1)|3|5|1|1|2|2|
+|3 (1)|4|7|1|2|2|3|
+|4 (1)|5|9|1|2|2|3|
+|5 (1)|7|10|2|2|3|3|
+|6 (2)|7|13|2|3|3|4|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -96,12 +96,12 @@ ___
 ### Gnome
 |Level|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|-|
-|1|13/10/13|4|7|2|Walk (20ft)|Dig (5ft)|
-|2|13/10/13|6|12|3|Walk (25ft)|Dig (5ft)|
-|3|13/10/13|8|17|4|Walk (30ft)|Dig (5ft)|
-|4|17/10/17|14|26|7|Walk (35ft)|Dig (10ft)|
-|5|17/10/17|15|30|8|Walk (40ft)|Dig (10ft)|
-|6|17/10/17|16|38|9|Walk (45ft)|Dig (10ft)|
+|1|13/10/13|4 (*4*)|7 (*7*)|2|Walk (20ft)|Dig (5ft)|
+|2|13/10/13|6 (*6*)|12 (*11*)|3|Walk (25ft)|Dig (5ft)|
+|3|13/10/13|8 (*8*)|17 (*15*)|4|Walk (30ft)|Dig (5ft)|
+|4|17/10/17|14 (*11*)|26 (*20*)|7|Walk (35ft)|Dig (10ft)|
+|5|17/10/17|19 (*15*)|30 (*22*)|8|Walk (40ft)|Dig (10ft)|
+|6|17/10/17|20 (*15*)|38 (*28*)|9|Walk (45ft)|Dig (10ft)|
 
 - Gnomes are small size,
 - Gnomes of level 3 and above can dig even through rock, however, their tiny tunnels collapse immediately after their passage.
@@ -122,12 +122,12 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|1(1)|2|3|1|1|2|2|
-|2(1)|3|5|1|1|2|2|
-|3(1)|4|7|1|2|2|3|
-|4(1)|5|9|1|2|2|3|
-|5(1)|7|10|2|2|3|3|
-|6(2)|7|13|2|3|3|4|
+|1 (1)|2|3|1|1|2|2|
+|2 (1)|3|5|1|1|2|2|
+|3 (1)|4|7|1|2|2|3|
+|4 (1)|5|9|1|2|2|3|
+|5 (1)|7|10|2|2|3|3|
+|6 (2)|7|13|2|3|3|4|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -157,12 +157,12 @@ ___
 ### Water Sprite
 |Level|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|-|
-|1|14/10/14|4|7|2|10ft|Swim (50ft)|
-|2|14/10/14|6|12|3|10ft|Swim (50ft)|
-|3|14/10/14|8|17|4|15ft|Swim (50ft)|
-|4|17/10/17|14|26|7|15ft|Swim (60ft)|
-|5|17/10/17|19|30|8|20ft|Swim (60ft)|
-|6|17/10/17|20|38|9|20ft|Swim (60ft)|
+|1|14/10/14|4 (*4*)|7 (*7*)|2|10ft|Swim (50ft)|
+|2|14/10/14|6 (*6*)|12 (*11*)|3|10ft|Swim (50ft)|
+|3|14/10/14|8 (*8*)|17 (*15*)|4|15ft|Swim (50ft)|
+|4|17/10/17|14 (*11*)|26 (*20*)|7|15ft|Swim (60ft)|
+|5|17/10/17|19 (*15*)|30 (*22*)|8|20ft|Swim (60ft)|
+|6|17/10/17|20 (*15*)|38 (*28*)|9|20ft|Swim (60ft)|
 
 - Water sprites are small size.
 
@@ -180,12 +180,12 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|1(1)|2|3|1|1|2|2|
-|2(1)|3|5|1|1|2|2|
-|3(1)|4|7|1|2|2|3|
-|4(1)|5|9|1|2|2|3|
-|5(1)|7|10|2|2|3|3|
-|6(2)|7|13|2|3|3|4|
+|1 (1)|2|3|1|1|2|2|
+|2 (1)|3|5|1|1|2|2|
+|3 (1)|4|7|1|2|2|3|
+|4 (1)|5|9|1|2|2|3|
+|5 (1)|7|10|2|2|3|3|
+|6 (2)|7|13|2|3|3|4|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -212,12 +212,12 @@ ___
 ### Wind Sprite
 |Level|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|-|
-|1|14/10/14|4|7|2|-|Fly (50ft)|
-|2|14/10/14|6|12|3|-|Fly (50ft)|
-|3|14/10/14|8|17|4|-|Fly (50ft)|
-|4|17/10/17|14|26|7|-|Fly (60ft)|
-|5|17/10/17|19|30|8|-|Fly (60ft)|
-|6|17/10/17|20|38|9|-|Fly (60ft)|
+|1|14/10/14|4 (*4*)|7 (*7*)|2|-|Fly (50ft)|
+|2|14/10/14|6 (*6*)|12 (*9*)|3|-|Fly (50ft)|
+|3|14/10/14|8 (*8*)|17 (*13*)|4|-|Fly (50ft)|
+|4|17/10/17|14 (*11*)|26 (*16*)|7|-|Fly (60ft)|
+|5|17/10/17|19 (*15*)|30 (*20*)|8|-|Fly (60ft)|
+|6|17/10/17|20 (*15*)|38 (*22*)|9|-|Fly (60ft)|
 
 - Water sprites are small size.
 
@@ -235,12 +235,12 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|1(1)|2|3|1|1|2|2|
-|2(1)|4|4|1|1|2|2|
-|3(1)|5|6|1|2|2|3|
-|4(1)|7|7|2|2|3|3|
-|5(1)|8|9|2|2|3|3|
-|6(2)|10|10|2|2|3|3|
+|1 (1)|2|3|1|1|2|2|
+|2 (1)|4|4|1|1|2|2|
+|3 (1)|5|6|1|2|2|3|
+|4 (1)|7|7|2|2|3|3|
+|5 (1)|8|9|2|2|3|3|
+|6 (2)|10|10|2|2|3|3|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -267,7 +267,7 @@ ___
 ### Undine: Lesser
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|16/10/15|23|51|11|20ft|50ft(swim)|
+|16/10/15|23 (*17*)|51 (*33*)|11|20ft|50ft(swim)|
 
 Size: Small +1/-1
 
@@ -279,7 +279,7 @@ Size: Small +1/-1
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|7(2)|8|15|2|3|4|5|
+|7 (2)|8|15|2|3|4|5|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -306,7 +306,7 @@ ___
 ### Undine: Greater
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|17/10/17|78|122|22|30ft|100ft(swim)|
+|17/10/17|78 (*39*)|122 (*57*)|22|30ft|100ft(swim)|
 
 Size: Medium
 
@@ -318,7 +318,7 @@ Size: Medium
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|14(3)|18|26|3|5|6|8|
+|14 (3)|18|26|3|5|6|8|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -347,7 +347,7 @@ ___
 ### Ifrit: Lesser
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/14/15|30|51|12|30|fly (60ft)|
+|15/14/15|30 (*18*)|51 (*33*)|12|30|fly (60ft)|
 
 Size:Large
 Deflection:+3
@@ -360,7 +360,7 @@ Deflection:+3
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|7(2)|8|15|2|3|4|5|
+|7 (2)|8|15|2|3|4|5|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -403,7 +403,7 @@ ___
 ### Ifrit: Greater
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|17/17/17|88|108|21|30|fly (80ft), blink (40ft)|
+|17/17/17|88 (*39*)|108 (*56*)|21|30|fly (80ft), blink (40ft)|
 
 Size:Huge
 Deflection:+5
@@ -416,7 +416,7 @@ Deflection:+5
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|14(3)|18|26|3|5|6|8|
+|14 (3)|18|26|3|5|6|8|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -460,7 +460,7 @@ ___
 ### Djinn, Lesser
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|19/12/19|34|47|12|-|120ft (fly: perfect)|
+|19/12/19|34 (*22*)|47 (*29*)|12|-|120ft (fly: perfect)|
 
 Size:Medium
 Evasion:+3
@@ -473,7 +473,7 @@ Evasion:+3
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|7(2)|10|13|2|3|4|5|
+|7 (2)|10|13|2|3|4|5|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -491,7 +491,7 @@ ___
 ### Djinn, Greater
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|23/14/22|66|134|22|-|140ft (fly: perfect)|
+|23/14/22|66 (*40*)|134 (*56*)|22|-|140ft (fly: perfect)|
 
 Size:Large
 Evasion:+3
@@ -504,7 +504,7 @@ Evasion:+3
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|14(3)|19|25|4|6|8|9|
+|14 (3)|19|25|4|6|8|9|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -524,7 +524,7 @@ ___
 ### Earth Elemental, Lesser
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|18/18/12|47|34|12|30ft|20ft (dig)|
+|18/18/12|47 (*39*)|34 (*22*)|12|30ft|20ft (dig)|
 
 Size:Large
 Armour:+5
@@ -537,7 +537,7 @@ Armour:+5
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|7(2)|13|10|3|2|5|4|
+|7 (2)|13|10|3|2|5|4|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -559,7 +559,7 @@ ___
 ### Earth Elemental, Greater
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|21/22/14|120|80|22|30ft|20ft (dig)|
+|21/22/14|120 (*55*)|80 (*41*)|22|30ft|20ft (dig)|
 
 Size:Huge
 Armour:+7
@@ -572,7 +572,7 @@ Armour:+7
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|14(3)|25|19|5|4|8|7|
+|14 (3)|25|19|5|4|8|7|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -608,7 +608,7 @@ A faun, similar to a satyr, is a fey that takes the material form of a humanoid 
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/12/15|30|29|10|35ft|20ft (Blink)|
+|15/12/15|30 (*22*)|29 (*17*)|10|35ft|20ft (Blink)|
 
 Deflection: +1
 
@@ -620,7 +620,7 @@ Deflection: +1
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|5(1)|10|7|2|2|3|3|
+|5 (1)|10|7|2|2|3|3|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -655,7 +655,7 @@ Changelings are fey beings that make their way onto the mortal realm by way of e
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/13/15|30|34|10|30ft|30ft (blink)|
+|15/13/15|30 (*20*)|34 (*24*)|10|30ft|30ft (blink)|
 
 Deflection: +1
 
@@ -667,7 +667,7 @@ Deflection: +1
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|6(2)|9|11|2|2|4|4|
+|6 (2)|9|11|2|2|4|4|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -702,7 +702,7 @@ Doppelgangers are spirits that take the exact form of a living mortal. A doppelg
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/12/14|34|34|10|40ft|30ft (blink)|
+|14/12/14|34 (*27*)|34 (*27*)|10|40ft|30ft (blink)|
 
 Deflection: +1
 
@@ -714,7 +714,7 @@ Deflection: +1
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|8(2)|13|13|3|3|5|5|
+|8 (2)|13|13|3|3|5|5|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -747,7 +747,7 @@ A brownie is a tiny spirit which associates itself with a humanoid dwelling. Bro
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|19/11/19|8|14|5|20ft|30ft (fly:good)|
+|19/11/19|8 (*7*)|14 (*12*)|5|20ft|30ft (fly:good)|
 
 Deflection: +1
 
@@ -759,7 +759,7 @@ Deflection: +1
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|2(1)|3|5|1|1|2|2|
+|2 (1)|3|5|1|1|2|2|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -792,7 +792,7 @@ Pixies are tiny spirits that dwell in moorland and ruins and seem to endlessly s
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|19/11/19|8|14|5|20ft|60ft (fly:good)|
+|19/11/19|19 (*15*)|28 (*20*)|5|20ft|60ft (fly:good)|
 
 Deflection: +2
 
@@ -804,7 +804,7 @@ Deflection: +2
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|5(1)|7|9|2|2|3|3|
+|5 (1)|7|9|2|2|3|3|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -836,7 +836,7 @@ Dryads are spirits of trees that take a material form. A dryad cannot move beyon
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|18/14/18|51|70|16|25ft|50ft (Blink)|
+|18/14/18|51 (*27*)|70 (*38*)|16|25ft|50ft (Blink)|
 
 Deflection: +2
 
@@ -848,7 +848,7 @@ Deflection: +2
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|9(2)|12|17|2|3|4|5|
+|9 (2)|12|17|2|3|4|5|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -882,7 +882,7 @@ Nymphs are similar to undines and are sometimes known as naiads. They are the sp
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|22/17/22|60|76|23|30ft|100ft (swim), 30ft (blink)|
+|22/17/22|60 (*36*)|76 (*58*)|23|30ft|100ft (swim), 30ft (blink)|
 
 Deflection: +4
 Foresight: +2
@@ -895,7 +895,7 @@ Foresight: +2
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|13(3)|17|25|3|5|6|8|
+|13 (3)|17|25|3|5|6|8|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -937,7 +937,7 @@ Fey hounds, occasionally called "ghost hounds", are dark spirits of the hunt tha
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/13/14|24|23|8|60ft|30ft (blink)|
+|14/13/14|24 (*16*)|23 (*19*)|8|60ft|30ft (blink)|
 
 Deflection: +2
 
@@ -949,7 +949,7 @@ Deflection: +2
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|5(1)|7|9|2|2|3|3|
+|5 (1)|7|9|2|2|3|3|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -981,7 +981,7 @@ The wild hunt is a phenomenon wherein fey associated with the more predatory sid
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|26/20/19|50|54|15|40ft|30ft (blink)|
+|26/20/19|50 (*40*)|54 (*34*)|15|40ft|30ft (blink)|
 
 Deflection: +2
 Hide Armour (fey source): +5
@@ -994,7 +994,7 @@ Hide Armour (fey source): +5
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|11(3)|19|16|4|3|7|6|
+|11 (3)|19|16|4|3|7|6|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -1026,7 +1026,7 @@ The wild hunt is a phenomenon wherein fey associated with the more predatory sid
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|30/22/25|101|107|23|40ft|60ft (blink), cosmic|
+|30/22/25|101 (*53*)|107 (*59*)|23|40ft|60ft (blink), cosmic|
 
 Deflection: +3
 Hide Armour (fey source): +5
@@ -1039,7 +1039,7 @@ Hide Armour (fey source): +5
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|17(4)|25|28|5|5|9|9|
+|17 (4)|25|28|5|5|9|9|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -1076,7 +1076,7 @@ At first glance easily mistaken for grigs, pixies or brownies, fairies are the e
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|28/19/28|92|254|31|20ft|60ft (fly: perfect), 60ft (blink), cosmic|
+|28/19/28|92 (*54*)|254 (*83*)|31|20ft|60ft (fly: perfect), 60ft (blink), cosmic|
 
 Deflection: +5
 
@@ -1088,7 +1088,7 @@ Deflection: +5
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|20(4)|26|37|5|7|9|11|
+|20 (4)|26|37|5|7|9|11|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -1142,7 +1142,7 @@ Wisps are spirits associated with swamps. They take the form of glowing orbs and
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|20/14/20|50|70|16|-|50ft (fly: perfect), 20ft (blink)|
+|20/14/20|50 (*18*)|70 (*42*)|16|-|50ft (fly: perfect), 20ft (blink)|
 
 Deflection: +2
 
@@ -1154,7 +1154,7 @@ Deflection: +2
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|8(2)|7|19|2|4|4|6|
+|8 (2)|7|19|2|4|4|6|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|

@@ -79,7 +79,7 @@ ___
 ### Human Peasant
 |HiT|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|11|13|6|3|30ft|-|
+|11|13 (*11*)|6 (*6*)|3|30ft|-|
 
 (+1 from base)
 
@@ -89,9 +89,9 @@ ___
 |Bonus|+1|0|+1|0|0|0|
 |Save|+2|+1|+3|+1|+1|+1|
 
-|Level(base)|MP dice|SP Dice|Nat|Sup|NAP|SAP|
+|Level(base)|SP dice|MP Dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
-|2 (1)|3|5|1|1|2|2|
+|2 (1)|5|3|1|1|2|2|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -111,7 +111,7 @@ ___
 ### Human Elite
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|12/11/12|23|21|7|30|-|
+|12/11/12|23 (*19*)|21 (*17*)|7|30|-|
 
 (+1 from base)
 
@@ -123,9 +123,9 @@ On the battlefield, will often use Cuirass and shield for (HiT: 17/16/11)
 |Bonus|+1|+1|+1|+2|0|+1|
 |Save|+2|+2|+2|+5|+1|+2|
 
-|Level(base)|MP dice|SP Dice|Nat|Sup|NAP|SAP|
+|Level(base)|SP dice|MP Dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
-|5(1)|8|9|2|2|3|3|
+|5 (1)|9|8|2|2|3|3|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -143,7 +143,7 @@ ____
 ### Human Militia
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|16/13/14|20|8|5|30ft|-|
+|16/13/14|20 (*16*)|8 (*8*)|5|30ft|-|
 
 (+1 from base)
 
@@ -155,9 +155,9 @@ The HiT includes +2 from padded armour and +2 from a light shield.
 |Bonus|+2|+1|+2|0|0|0|
 |Save|+3|+1|+5|+1|+1|+1|
 
-|Level(base)|MP dice|SP Dice|Nat|Sup|NAP|SAP|
+|Level(base)|SP dice|MP Dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
-|3 (1)|4|7|2|1|3|2|
+|3 (1)|7|4|2|1|3|2|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -178,7 +178,7 @@ ___
 ### Human Warrior
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|19/16/15|44|20|10|30|-|
+|19/16/15|44 (*29*)|20 (*15*)|10|30|-|
 
 (+2 from base)
 
@@ -190,9 +190,9 @@ ___
 |Bonus|+2|+2|+3|0|+1|+1|
 |Save|+7|+4|+8|+2|+3|+3|
 
-|Level(base)|MP dice|SP Dice|Nat|Sup|NAP|SAP|
+|Level(base)|SP dice|MP Dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
-|6(2)|13|7|3|2|5|4|
+|6 (2)|13|7|3|2|5|4|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -218,7 +218,7 @@ ___
 ### Human Knight
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|24/21/21|65|54|16|30|-|
+|24/21/21|65 (*41*)|54 (*29*)|16|30|-|
 
 (+2 from base)
 
@@ -232,7 +232,7 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
-|10(2)|19|13|4|2|6|4|
+|10 (2)|19|13|4|2|6|4|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -258,7 +258,7 @@ ___
 ### Human Magic Knight
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|22/19/21|44|59|13|30|-|
+|22/19/21|44 (*28*)|59 (*35*)|13|30|-|
 
 (+2 from base)
 
@@ -272,7 +272,7 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
-|9(2)|13|16|3|3|5|5|
+|9 (2)|13|16|3|3|5|5|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -336,9 +336,9 @@ ___
 |Bonus|0|+1|-1|0|0|+1|
 |Save|+1|+3|0|+1|+1|+1|
 
-|Level(base)|MP dice|SP Dice|Nat|Sup|NAP|SAP|
+|Level(base)|SP dice|MP Dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
-|1 (1)|3|2|1|1|2|2|
+|1 (1)|2|3|1|1|2|2|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -359,7 +359,7 @@ ___
 ### Elf
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|13/11/13|16|23|6|30ft|-|
+|13/11/13|16 (*16*)|23 (*19*)|6|30ft|-|
 
 (+1 from base)
 
@@ -371,9 +371,9 @@ ___
 |Bonus|0|+2|0|+1|+1|+1|
 |Save|+1|+5|+1|+2|+4|+2|
 
-|Level(base)|MP dice|SP Dice|Nat|Sup|NAP|SAP|
+|Level(base)|SP dice|MP Dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
-|5 (1)|9|8|2|2|3|3|
+|5 (1)|8|9|2|2|3|3|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -398,7 +398,7 @@ ____
 ### Elvish Elder
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|18/18/18|49|76|15|35ft|-|
+|18/18/18|49 (*33*)|76 (*52*)|15|35ft|-|
 
 (+3 from base)
 
@@ -410,9 +410,9 @@ ____
 |Bonus|+2|+5|+1|+2|+3|+2|
 |Save|+5|+8|+7|+4|+11|+5|
 
-|Level(base)|MP dice|SP Dice|Nat|Sup|NAP|SAP|
+|Level(base)|SP dice|MP Dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
-|13 (3)|25|16|3|5|6|8|
+|13 (3)|16|25|3|5|6|8|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -445,7 +445,7 @@ ___
 ### Elvish Hunter
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|20/20/18|53|39|13|45ft|-|
+|20/20/18|53 (*43*)|39 (*29*)|13|45ft|-|
 
 (+3 from base)
 
@@ -457,9 +457,9 @@ Wears padded armour. When wielding blades increases to 18.
 |Bonus|+2|+5|+1|+1|+1|+1|
 |Save|+6|+12|+8|+4|+7|+4|
 
-|Level(base)|MP dice|SP Dice|Nat|Sup|NAP|SAP|
+|Level(base)|SP dice|MP Dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
-|11 (3)|14|21|4|3|7|6|
+|11 (3)|21|14|4|3|7|6|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -499,7 +499,7 @@ ___
 ### Elvish Mage
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|16/13/15|36|58|15|35ft|-|
+|16/13/15|36 (*27*)|58 (*40*)|15|35ft|-|
 
 (+2 from base)
 
@@ -511,9 +511,9 @@ Wears a light cuirass.
 |Bonus|+2|+3|+1|+2|+4|+2|
 |Save|+4|+5|+3|+8|+10|+4|
 
-|Level(base)|MP dice|SP Dice|Nat|Sup|NAP|SAP|
+|Level(base)|SP dice|MP Dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
-|10 (2)|19|13|3|4|5|6|
+|10 (2)|13|19|3|4|5|6|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -546,7 +546,7 @@ ___
 ### Orc
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|11|14|6|4|30ft|-|
+|11|14 (*12*)|6 (*6*)|4|30ft|-|
 
 (+1 from base)
 
@@ -580,7 +580,7 @@ ___
 ### Orcish Hunter
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|16/15/13|54|28|12|30ft|-|
+|16/15/13|54 (*33*)|28 (*23*)|12|30ft|-|
 
 (+2 from base)
 
@@ -618,7 +618,7 @@ ___
 ### Orcish Berserker
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|17/16/14|75|48|16|30ft|-|
+|17/16/14|75 (*45*)|48 (*28*)|16|30ft|-|
 
 (+3 from base)
 
@@ -660,7 +660,7 @@ ___
 ### Orcish Geomancer
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|17/15/14|34|40|4|12|30ft|-|
+|17/15/14|34 (*23*)|40 (*28*)|12|30ft|-|
 
 (+2 from base)
 
@@ -726,7 +726,7 @@ ___
 ### Winged Shepherd
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|16/12/14|18|14|5|20ft|60ft fly (average)|
+|16/12/14|18 (*15*)|14 (*14*)|5|20ft|60ft fly (average)|
 
 (+1 from base)
 
@@ -762,7 +762,7 @@ ___
 ### Winged Scout
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|18/13/16|42|30|11|20ft|80ft fly (good)|
+|18/13/16|42 (*28*)|30 (*23*)|11|20ft|80ft fly (good)|
 
 (+2 from base)
 
@@ -802,7 +802,7 @@ ___
 ### Winged Wind Mage
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|19/14/17|50|74|16|20ft|70ft fly (good)|
+|19/14/17|50 (*28*)|74 (*52*)|16|20ft|70ft fly (good)|
 
 (+3 from base)
 
@@ -845,7 +845,7 @@ ___
 ### Beast folk
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|12/11/12|10|12|3|35|(climb 30ft)|
+|12/11/12|10 (*8*)|12 (*10*)|3|35|(climb 30ft)|
 
 (+1 from base)
 
@@ -859,7 +859,7 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|2(1)|4|4|1|1|2|2|
+|2 (1)|4|4|1|1|2|2|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -882,7 +882,7 @@ ___
 ### Beast folk traveller
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/12/13|18|18|6|35|(climb 30ft)|
+|14/12/13|18 (*16*)|18 (*15*)|6|35|(climb 30ft)|
 
 (+1 from base)
 
@@ -896,7 +896,7 @@ Assumed wearing light cuirass
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|4(1)|7|7|2|2|3|3|
+|4 (1)|7|7|2|2|3|3|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -922,7 +922,7 @@ ___
 ### Beast folk warrior
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|18/16/14|40|34|11|45ft|(30ft climb)|
+|18/16/14|40 (*28*)|34 (*22*)|11|45ft|(30ft climb)|
 
 (+2 to HiT from "base")
 
@@ -936,7 +936,7 @@ Wears brigandine (+4 HiT, armour)
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|7(2)|13|10|3|2|5|4|
+|7 (2)|13|10|3|2|5|4|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -969,7 +969,7 @@ ___
 ### Beast folk mystic warrior
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|18/16/14|40|34|11|55ft|(30ft climb)|
+|18/16/14|40 (*28*)|34 (*28*)|11|55ft|(30ft climb)|
 
 (+2 to HiT from "base")
 
@@ -983,7 +983,7 @@ Wears light cuirass  (+1)
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|8(2)|13|13|3|3|5|5|
+|8 (2)|13|13|3|3|5|5|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -1041,7 +1041,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|16/16/12|50|20|11|40ft||
+|16/16/12|50 (*30*)|20 (*15*)|11|40ft||
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -1051,7 +1051,7 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|6(2)|13|7|3|2|5|4|
+|6 (2)|13|7|3|2|5|4|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -1084,7 +1084,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|20/19/14|78|62|18|40ft||
+|20/19/14|78 (*34*)|62 (*40*)|18|40ft||
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -1094,7 +1094,7 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|12(3)|15|19|3|4|6|7|
+|12 (3)|15|19|3|4|6|7|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -1130,7 +1130,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/16/7|110|58|20|45ft|
+|15/16/7|110 (*42*)|58 (*36*)|20|45ft|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -1140,7 +1140,7 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|12(3)|19|17|4|3|7|6|
+|12 (3)|19|17|4|3|7|6|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -1182,7 +1182,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|23/20/12|208|132|31|50ft|
+|23/20/12|208 (*75*)|132 (*56*)|31|50ft|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -1192,7 +1192,7 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|20(4)|34|26|7|6|11|10|
+|20 (4)|34|26|7|6|11|10|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -1248,7 +1248,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|16/16/6|510|352|56|80ft|
+|16/16/6|510 (*120*)|352 (*118*)|56|80ft|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -1258,7 +1258,7 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|37(8)|55|56|10|10|18|18|
+|37 (8)||55|56|10|10|18|18|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -1280,8 +1280,8 @@ ___
 |-|-|-|-|
 |[Cursed Blood](../06-abilities#cursed-blood)||||
 |[Elemental Blast](../06-abilities#elemental-blast)||||
-|[Greate Elemntal Blast: Linear](../06-abilities#elemental-blast-greater-linear)||||
-|[Greate Elemntal Blast: Radial](../06-abilities#elemental-blast-greater-radial)||||
+|[Greater Elemental Blast: Linear](../06-abilities#elemental-blast-greater-linear)||||
+|[Greater Elemental Blast: Radial](../06-abilities#elemental-blast-greater-radial)||||
 |[Deflection](../06-abilities#deflection)||||
 |[Esoteric Deflection](../06-abilities#esoteric-deflection)||||
 |[Spellcasting: Incantation VI](../06-abilities.m)|Threshold=29|||

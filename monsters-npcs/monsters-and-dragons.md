@@ -43,7 +43,7 @@ Tiny(+2/-2)
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|1(1)|3|2|1|1|2|2|
+|1 (1)|3|2|1|1|2|2|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -88,7 +88,7 @@ ___
 ### Sweet Ooze
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|12/11/11|10|8|2|20ft|20ft(climb)|
+|12/11/11|10 (*9*)|8 (*8*)|2|20ft|20ft(climb)|
 
 (medium)
 
@@ -100,7 +100,7 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|2(1)|4|4|1|1|2|2|
+|2 (1)|4|4|1|1|2|2|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -120,7 +120,7 @@ ___
 ### Snatchers' Hands
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|12/10/12|19|3|3|20ft|5ft (dig)|
+|12/10/12|19 (*17*)|3 (*3*)|3|20ft|5ft (dig)|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -146,7 +146,7 @@ ___
 ### Mudcrawler
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/11/14|17|3|3|40ft|10ft(dig), 40ft(climb)|
+|15/11/14|17 (*15*)|3 (*3*)|3|40ft|10ft(dig), 40ft(climb)|
 
 (+1 natural armour, Size = medium)
 
@@ -184,7 +184,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/13/13|22|19|8|20ft|80ft (flight, average)|
+|15/13/13|22 (*18*)|19 (*15*)|8|20ft|80ft (flight, average)|
 - Natural armour: +2
 
 ||Str|Dex|Con|Int|Wis|Cha|
@@ -195,7 +195,7 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|5(1)|8|7|2|2|3|3|
+|5 (1)|8|7|2|2|3|3|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -213,8 +213,8 @@ ___
 |Level (type)|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|-|
 |1 (young:small)|13/10/13|8|5|4|30ft|(climb) 30ft|
-|6 (adult:medium)|16/14/12|38|32|10|40ft|(climb) 30ft|
-|11 (elder:large)|19/13/16|115|65|18|50ft|(swim) 30ft|
+|6 (adult:medium)|16/14/12|38 (*23*)|32 (*22*)|10|40ft|(climb) 30ft|
+|11 (elder:large)|19/13/16|115|65 (*42*)|18 (*35*)|50ft|(swim) 30ft|
 
 |Young|Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -236,9 +236,9 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|1(1)|3|2|1|1|2|2|
-|6(2)|10|10|2|2|4|4|
-|11(3)|19|16|4|3|7|6|
+|1 (1)|3|2|1|1|2|2|
+|6 (2)|10|10|2|2|4|4|
+|11 (3)|19|16|4|3|7|6|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -297,8 +297,8 @@ ___
 |Level|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|-|
 |1 (young:medium)|11/9/11|7|4|2|40ft|climb(20ft)|
-|4 (adult:large)|13/13/9|23|11|7|50ft|-|
-|7 (great:huge)|15/16/9|54|21|13|60ft|Swim(30ft)|
+|4 (adult:large)|13/13/9|23 (*17*)|11 (*8*)|7|50ft|-|
+|7 (great:huge)|15/16/9|54 (*30*)|28 (*16*)|13|60ft|Swim(30ft)|
 
 Adult fell beasts have a natural armour of +2, great have a natural armour of +4
 
@@ -317,14 +317,14 @@ Adult fell beasts have a natural armour of +2, great have a natural armour of +4
 |Great|Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
 |Stat|20|10|18|9|15|14|
-|Bonus|+5|0|+4|-1|+2|+1|
-|Save|+7|+2|+6|+1|+4|+3|
+|Bonus|+5|0|+4|-1|+2|+2|
+|Save|+7|+2|+6|+1|+4|+4|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|1(1)|3|2|1|1|2|2|
-|4(1)|7|4|2|1|3|2|
-|7(2)|13|7|3|2|5|4|
+|1 (1)|3|2|1|1|2|2|
+|4 (1)|7|4|2|1|3|2|
+|7 (2)|13|7|3|2|5|4|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -359,7 +359,7 @@ ___
 ### Troll Head
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/15/9|56|18|12|30ft||
+|14/15/9|56 (*32*)|18 (*9*)|12|30ft||
 
 (+4 natural armour, Size = large)
 
@@ -387,7 +387,7 @@ ___
 ### The worm that sings
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/14/15|56|58|15|30ft|Cosmic*|
+|15/14/15|56 (*29*)|58 (*40*)|15|30ft|Cosmic*|
 
 (huge +2/-2, Deflection +4)
 
@@ -399,7 +399,7 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
-|10(2)|13|19|3|4|5|7|
+|10 (2)|13|19|3|4|5|7|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -425,7 +425,7 @@ ___
 ### Troll
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/16/8|86|22|15|40ft||
+|14/16/8|86 (*38*)|22 (*23*)|15|40ft||
 
 (+6 natural armour, Size = Huge)
 
@@ -462,7 +462,7 @@ ___
 ### Mudwalker
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|18/18/0|158|42|23|60ft|40ft(climb)|
+|18/18/0|158 (*79*)|42 (*42*)|23|60ft|40ft(climb)|
 
 (+5 natural armour, Size = gargantuan)
 
@@ -493,7 +493,7 @@ ___
 ### Sea Monster: Kraken, Lesser
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|22/23/21|270|186|34|20|Swim 100ft|
+|22/23/21|270 (*91*)|186 (*71*)|34|20|Swim 100ft|
 
 Size: Gargantuan.
 Natural Armour: +6
@@ -507,7 +507,7 @@ Deflection: +2
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|24(5)|41|33|8|7|13|12|
+|24 (5)|41|33|8|7|13|12|
 
 
 |Attacks|Bonus|Damage|Other|
@@ -564,7 +564,7 @@ ___
 ### Werewolf, lesser
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/12/14|32|22|11|40ft (50ft wolf form)|
+|14/12/14|32 (*22*)|22 (*17*)|11|40ft (50ft wolf form)|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -574,7 +574,7 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|6(2)|10|8|2|2|4|4|
+|6 (2)|10|8|2|2|4|4|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -630,7 +630,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|26/22/12|222|222|35|40ft|100ft (fly, good)|
+|26/22/12|222 (*69*)|222 (*70*)|35|40ft|100ft (fly, good)|
 
 (Natural Armour: 15)
 
@@ -642,7 +642,7 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|20(4)|31|31|6|6|10|10|
+|20 (4)|31|31|6|6|10|10|
 
 |Attacks|Bonus|Damage|Other|
 |-|-|-|-|
@@ -713,7 +713,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|24/24/10|127|125|24|40ft|110ft (fly, good), 50ft swim|
+|24/24/10|127 (*49*)|125 (*47*)|24|40ft|110ft (fly, good), 50ft swim|
 
 (Natural Armour: 13)
 
@@ -725,7 +725,7 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|13(3)|21|20|4|4|7|7|
+|13 (3)|21|20|4|4|7|7|
 
 |Attacks|Bonus|Damage|Other|
 |-|-|-|-|
@@ -785,7 +785,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|28/28/8|222|222|35|40ft|100ft (fly, good), 40ft swim|
+|28/28/8|222 (*70*)|222 (*70*)|35|40ft|100ft (fly, good), 40ft swim|
 
 (Natural Armour: 17)
 
@@ -797,7 +797,7 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|20(4)|31|31|6|6|10|10|
+|20 (4)|31|31|6|6|10|10|
 
 |Attacks|Bonus|Damage|Other|
 |-|-|-|-|
@@ -859,7 +859,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|24/24/10|133|129|24|40ft|110ft (fly, good), 50ft swim|
+|24/24/10|133 (*49*)|129 (*47*)|24|40ft|110ft (fly, good), 50ft swim|
 
 (Natural Armour: 13)
 
@@ -871,7 +871,7 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|13(3)|21|20|4|4|7|7|
+|13 (3)|21|20|4|4|7|7|
 
 |Attacks|Bonus|Damage|Other|
 |-|-|-|-|
@@ -929,7 +929,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|28/28/10|234|170|40ft|Dig 20ft, Climb 40ft|
+|28/28/10|234 (*82*)|170 (*56*)|40ft|Dig 20ft, Climb 40ft|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -939,7 +939,7 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|20(4)|37|25|7|5|11|9|
+|20 (4)|37|25|7|5|11|9|
 
 |Attacks|Bonus|Damage|Other|
 |-|-|-|-|
@@ -1004,7 +1004,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|26/26/12|234|170|40ft|Dig 20ft, Climb 40ft|
+|26/26/12|234 (*51*)|170 (*43*)|40ft|Dig 20ft, Climb 40ft|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -1014,7 +1014,7 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|13(3)|22|19|4|4|7|7|
+|13 (3)|22|19|4|4|7|7|
 
 |Attacks|Bonus|Damage|Other|
 |-|-|-|-|

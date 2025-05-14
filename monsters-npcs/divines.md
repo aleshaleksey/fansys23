@@ -26,7 +26,7 @@ ___
 ### Lesser Messenger
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|16/-/15|31|24|9|30ft|Fly, good (100ft)|
+|16/-/15|31 (*24*)|31 (*24*)|9|30ft|Fly, good (100ft)|
 
 Small (+1/0)
 Deflection +2
@@ -39,7 +39,7 @@ Deflection +2
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|7(2)|11|12|2|2|4|4|
+|7 (2)|11|12|2|2|4|4|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -73,7 +73,7 @@ ___
 ### Watcher
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|19/-/16|63|95|19|30ft|Fly (100ft, good)|
+|19/-/16|63 (*33*)|95 (*43*)|19|30ft|Fly (100ft, good)|
 
 Medium
 Deflection +4
@@ -86,7 +86,7 @@ Deflection +4
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|11(3)|15|20|3|4|6|7|
+|11 (3)|15|20|3|4|6|7|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -125,7 +125,7 @@ ___
 ### Seraph
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|21(22)/-/19(17)|152|175|30|30ft|Fly (100ft, good), cosmic (1 realm per day)|
+|21(22)/-/19(17)|152 (*56*)|175 (*63*)|30|30ft|Fly (100ft, good), cosmic (1 realm per day)|
 
 Large (+1/-1)
 Deflection +6
@@ -138,7 +138,7 @@ Deflection +6
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|17(4)|25|28|5|5|9|9|
+|17 (4)|25|28|5|5|9|9|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|

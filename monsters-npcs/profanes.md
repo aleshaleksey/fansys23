@@ -29,7 +29,7 @@ ___
 ### Corporeal Horror, Lesser
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|10/10/10|40|24|9|30ft|20ft (climb)|
+|10/10/10|40 (*25*)|24 (*19*)|9|30ft|20ft (climb)|
 
 Large(-1/+1)
 
@@ -41,7 +41,7 @@ Large(-1/+1)
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|6(1)|11|9|2|2|4|4|
+|6 (1)|11|9|2|2|4|4|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -65,7 +65,7 @@ ___
 ### Corporeal Horror, Greater
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/13/12|107|79|21|30ft|20ft (climb)|
+|14/13/12|107 (*47*)|79 (*43*)|21|30ft|20ft (climb)|
 
 Huge(-2/+2)
 Natural Armour: +4
@@ -79,7 +79,7 @@ Saves: Wis, Cha
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|13(3)|21|20|3|3|6|6|
+|13 (3)|21|20|3|3|6|6|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -199,7 +199,7 @@ ___
 ### Cursed Shade (lesser)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|11/10/11|-|25|7|40ft|climb 40ft, fly 30ft|
+|11/10/11|-|25 (*22*)|7|40ft|climb 40ft, fly 30ft|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -232,7 +232,7 @@ ___
 ### Cursed Shade
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|11/10/11|-|72|15|40ft|climb 40ft, cosmic(0) 60ft|
+|11/10/11|-|72 (*48*)|15|40ft|climb 40ft, cosmic(0) 60ft|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -266,7 +266,7 @@ ___
 ### Earthbound Shade (lesser)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|11/10/11|-|22|7|40ft|climb 40ft|
+|11/10/11|-|26 (*22*)|7|40ft|climb 40ft|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -316,7 +316,7 @@ Imps are tiny (+2 evasion, +2 DEX save, -2 STR save)
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|1(1)|2|3|1|1|2|2|
+|1 (1)|2|3|1|1|2|2|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -341,9 +341,9 @@ ___
 Here the stat block for vaguely humanoid minor demons of levels 1-5 is presented.
 |Level|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|-|
-|1|10/10/10|2|4|6|30||
-|3|11/11/10|5|14|14|35|Climb 35ft (optional)|
-|5|12/12/10|8|26|18|40|Climb 40ft, Fly 40ft (poor)|
+|1|10/10/10|4|6|2|30||
+|3|11/11/10|14 (*9*)|14 (*14*)|5|35|Climb 35ft (optional)|
+|5|12/12/10|26 (*18*)|23 (*19*)|8|40|Climb 40ft, Fly 40ft (poor)|
 
 (Natural armour accounts for extra HiT)
 
@@ -363,9 +363,9 @@ Here the stat block for vaguely humanoid minor demons of levels 1-5 is presented
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|1(1)|2|3|1|1|2|2|
-|3(1)|4|7|1|2|2|3|
-|5(1)|8|9|2|2|3|3|
+|1 (1)|2|3|1|1|2|2|
+|3 (1)|4|7|1|2|2|3|
+|5 (1)|8|9|2|2|3|3|
 
 |Level|Ability|Bonus|Damage|Other|
 |-|-|-|-|-|
@@ -405,7 +405,7 @@ ___
 ### Succubus/Incubus
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|13/10/13|27|61|13|30ft|fly (60ft, medium)|
+|13/10/13|27 (*21*)|61 (*31*)|13|30ft|fly (60ft, medium)|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -415,7 +415,7 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|7(2)|10|13|2|3|4|5|
+|7 (2)|10|13|2|3|4|5|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -446,7 +446,7 @@ ___
 ### Fiendish Warrior
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|18/16/12|52|48|14|40ft||
+|18/16/12|52 (*31*)|48 (*29*)|14|40ft||
 
 Size: Medium
 Natural Armour: Armour +6
@@ -460,7 +460,7 @@ Saves: Str, Con
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|8(2)|14|12|3|2|5|4|
+|8 (2)|14|12|3|2|5|4|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -501,7 +501,7 @@ ___
 ### Demon (Fire or Ice)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|28/28/16|170|194|32|40ft|Fly 90ft (average), Blink 60ft, Cosmic I|
+|28/28/16|170 (*56*)|194 (*80*)|32|40ft|Fly 90ft (average), Blink 60ft, Cosmic I|
 
 - Size: Large
 - Natural Armour: Armour +12
@@ -516,7 +516,7 @@ ___
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|20(4)|25|37|5|7|9|11|
+|20 (4)|25|37|5|7|9|11|
 
 |Offensive Ability|Bonus|Damage|Other|
 |-|-|-|-|

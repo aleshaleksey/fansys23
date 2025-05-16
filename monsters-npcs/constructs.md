@@ -414,7 +414,7 @@ ___
 
 Simply spoken, diamond golems are the pinnacle of artifice. Incredibly difficult and impractical to create, they are likewise almost impossible to destroy and incredibly rare. When used, it is generally as guardians of sacred sites, otherworldly portals and dangerous seals.
 
-A diamond golem has a human-like intelligence, but no will of its own. It follows its master's instructions to the best of its ability. If given no instructions it continues the last task until it is complete. It will defend its master unless explicitly instructed not to.
+A diamond golem has a human-like intelligence, but no will of its own. It follows its master's instructions to the best of its very considerable ability. If given no instructions it continues the last task until it is complete. Given the intelligence of this golem, this task can be of a very high complexity. It will defend its master unless explicitly instructed not to.
 
 ___
 ## Robots

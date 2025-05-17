@@ -1021,7 +1021,46 @@ In combat a mystic warrior prefers hit and run tactics, making good use of its c
 
 ___
 ## Goblins
-Goblins are little green humanoids which are cast as villains in many fantasy worlds. They are sly, cowardly and weak, uninventive and petty, greedy and spiteful. Goblin societies are depicted as primitive, unsophisticated and simultaneously unjust and unequal. Goblins are often used in low level adventures as monsters that are easy to defeat even for low level characters. Contrariwise, it is not advisable to use goblins in this way.
+Goblins are little green humanoids which are cast as villains in many fantasy worlds. They are sly, cowardly and weak, uninventive and petty, greedy and spiteful. Goblin societies are depicted as primitive, unsophisticated and simultaneously unjust and unequal. In certain settings all goblins are male and reproduce only using females of other races (not recommended for most settings). Goblins are often used in low level adventures as monsters that are easy to defeat even for low level characters.
+
+### Goblin, Common
+___
+- **Size**: Small
+- **Natural Armour**: Armour -1
+  - Hide Armour +3
+- **Evasion**: +1
+- **Carrying capacity**
+  - Light: 16lb
+  - Medium: 32lb
+  - Heavy: 80lb
+- **Inventory**: Small Leather cuirass (5lb), Small spear (2lb), small shortbow (0.5lb)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|13/11/12|6|2|1|30ft|-|
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|8|13|11|12|9|9|
+|Bonus|-1|+1|0|+1|-1|-1|
+|Save|0|+2|+1|+2|0|0|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|1 (1)|3|2|1|1|2|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Spear (two handed)|+2|1d8|Reach=10ft, Range=60ft, Increment=10ft|
+|Spear (thrown)|+2|1d5|Range=60ft, Increment=10ft|
+|Shortbow|+3|1d4+1|Range=600ft, Increment=120ft|
+|||||
+|Keen Sense (smell, hearing)|||A goblin has advantage on "observe" rolls based on smell and hearing.|
+|Low Light Vision|||A goblin can see in dim light, such as starlight, as |
+|Skills|||"Stealth" +3, "Fortify" +1, "Track" +0, "Observe" +0|
+
+Goblins are generally weak and frail, and will use stealth and sneaky tactics that maximise their chances of success. A goblin will use ambush and the longest spear available. If the initial attack does not work, Goblins will usually break and flee. They can be "persuaded" to fight if their fear of death at the hands of their enemy is overcome by their fear of death at the hands of those that lead them.
+
 
 ___
 ## Giant

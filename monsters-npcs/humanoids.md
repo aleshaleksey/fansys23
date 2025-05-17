@@ -35,7 +35,7 @@ This section contains a few NPC stat blocks and notes on their intended use and 
     - [Beast folk warrior](#beast-folk-warrior)
     - [Beast folk mystic warrior](#beast-folk-mystic-warrior)
 - [Goblins](#goblins)
-  -[Goblin, Common](#goblin-common)
+    -[Goblin, Common](#goblin-common)
 - [Giants](#giant)
   - [Ogre](#ogre)
   - [Ogre Mage](#ogre-mage)

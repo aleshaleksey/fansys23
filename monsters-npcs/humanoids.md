@@ -1034,11 +1034,11 @@ ___
   - Light: 16lb
   - Medium: 32lb
   - Heavy: 80lb
-- **Inventory**: Small Leather cuirass (5lb), Small spear (2lb), small shortbow (0.5lb)
+- **Inventory**: Small Hide armour (7.5lb), Small spear (1lb), small shortbow (0.25lb)
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|13/11/12|6|2|1|30ft|-|
+|15/13/12|6|2|1|30ft|-|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -1052,7 +1052,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Spear (two handed)|+2|1d8|Reach=10ft, Range=60ft, Increment=10ft|
+|Spear (two handed)|+2|1d8|Reach=10ft|
 |Spear (thrown)|+2|1d5|Range=60ft, Increment=10ft|
 |Shortbow|+3|1d4+1|Range=600ft, Increment=120ft|
 |||||
@@ -1061,6 +1061,61 @@ ___
 |Skills|||"Stealth" +3, "Fortify" +1, "Track" +0, "Observe" +0|
 
 Goblins are generally weak and frail, and will use stealth and sneaky tactics that maximise their chances of success. A goblin will use ambush and the longest spear available. If the initial attack does not work, Goblins will usually break and flee. They can be "persuaded" to fight if their fear of death at the hands of their enemy is overcome by their fear of death at the hands of those that lead them.
+
+### Goblin, Strategist
+___
+- **Size**: Small
+- **Natural Armour**: Armour -1
+  - Full Leather Armour +3
+- **Evasion**: +1
+- **Saves**: Int, Con
+- **Carrying capacity**
+  - Light: 24lb
+  - Medium: 48lb
+  - Heavy: 120lb
+- **Inventory**: Small Full Leather armour (5lb), Small short spear (0.5lb), small composite bow (0.25lb)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|20/20/17|43|51|13|30ft|-|
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|12|19|13|21|12|12|
+|Bonus|+1|+4|+1|+5|+1|+1|
+|Save|+4|+7|+7|+12|+4|+4|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|11 (3)|16|20|3|4|6|7|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Short Spear (two handed)|+10|1d6+4|Reach=5ft (long)|
+|Short Spear (thrown)|+10|1d4+4|Range=60ft, Increment=20ft|
+|Composite Bow|+10|1d5+4|Range=1200ft, Increment=240ft|
+|||||
+|[Evasive](../06-abilities.md#evasive)|||A goblin strategists avoids AoOs when moving between threatened squares.|
+|[Guarded](../06-abilities.md#guarded)|||A goblin strategist avoids AoOs when standing up, drinking potions and using items.|
+|[Mage Hunter I](../06-abilities.md#mage-hunter-i)|||A goblin strategist can make AoOs against spellcaster casting spells with only incantation component.|
+|[Precision Attack: IV](../06-abilities.md#precision-attack-i-x)|4d8||A goblin strategist can deal an extra 4d8 damage to foes in a vulnerable position|
+|[Parry](../06-abilities.md#parry)|||A goblin strategist can use its reaction to increase its HiT by 6 against up to 3 weapon attacks.|
+|[Deflection](../06-abilities.md#deflection)|||A goblin strategist can use its reaction to reduce damage from supernatural attacks by 1d4+7+1d4/[MP die expended]|
+|||||
+|[Spellcasting Local: Kinetic](../06-abilities.md#spellcasting-local)|Threshold=22||"[Compass](../08-spell-list.md#compass)", "[Mist](../08-spell-list.md#mist)", "[Whispers](../08-spell-list.md#whispers)", "[Spirits' Secret](../08-spell-list.md#spirits-secret)"|
+|[Spellcasting Local: Incantation](../06-abilities.md#spellcasting-local)|Threshold=22||"[Least Anemancy](../08-spell-list.md#least-anemancy)", "[Least Hydromancy](../08-spell-list.md#least-hydromancy)", "[Least Ward](../08-spell-list.md#least-ward)", "[Least Heal](../08-spell-list.md#least-heal)"|
+|[Spellcasting Local: Fire I](../06-abilities.md#spellcasting-local)|Threshold=18||"[Ignition](../08-spell-list.md#ignition)", "[Least Warmth](../08-spell-list.md#least-warmth)", "[Enflame](../08-spell-list.md#enflame)", "[Shape Spell](../08-spell-list.md#sense-spell)"|
+|[Spellcasting Local: Earth I](../06-abilities.md#spellcasting-local)|Threshold=18||"[Down](../08-spell-list.md#down)", "[Least Geomancy](../08-spell-list.md#least-geomancy)", "[Shape Earth](../08-spell-list.md#shape-earth)", "[Gnomes' Mercy](../08-spell-list.md#gnomes-mercy)"|
+|[Spellcasting Global: V](../06-abilities.md)|||"[Warded Ground](../08-spell-list.md#warded-ground)", "[Guidance of the Earth](../08-spell-list.md#guidance-of-the-earth)", "[Fire Ward](../08-spell-list.md#fire-ward)", "[Animate Golem](../08-spell-list.md#animate-golem)", "[Enchanted Ground](../08-spell-list.md#enchanted-ground)", "[Scry](../08-spell-list.md#scry)", "[Greater Fire Ward](../08-spell-list.md#greater-fire-ward)", "[Plague](../08-spell-list.md#plague)", "[Rift](../08-spell-list.md#rift)"|
+|[Bind Beast: VI](../06-abilities.md#bind-beast-i-x)|||A strategist binds a beast to act as its mount and guardian|
+|[Bind Familiar: IV](../06-abilities.md#bind-familiar-i-iv)|||A strategist summons a familiar based on the specific needs|
+|||||
+|Keen Sense (smell, hearing)|||A goblin has advantage on "observe" rolls based on smell and hearing.|
+|Low Light Vision|||A goblin can see in dim light, such as starlight, as |
+|Skills||| "Fortify" +8, "Stealth" +12, "Acrobatics" +8, "Harvest" +5, "Appraise" +7, "Knowledge: History" +13, "Knowledge: Arcana" +9, "Sense Motive" +10, "Observe" +7, "Track" +3, +1 rank to all others.|
+
+Goblins are generally weak and frail, and will use stealth and sneaky tactics that maximise their chances of success. Sometimes bands, tribes and hordes of goblins are directed (but not led) by a strategist. A strategist seldom fights on its own, but when it does it prepares the battlefield with global magic, using its familiar to track approaching foes, and uses other goblins and its bound beast to keep foes at bay as it uses precise attacks to remove threats from the battlefield. A goblin strategist will **mercilessly** remove threats, targeting any damage dealers and soft targets first. It is not above using hostages to control its foes and it will make good on its threats. If spellcasters are present, it will often prefer to neutralise them using counter-spelling and dispelling. A goblin strategists will only fight if its objectives can (and are generally likely to be) achieved. It is hesitant to surrender, but will withdraw if needed.
+
 
 
 ___

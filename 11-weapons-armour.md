@@ -573,7 +573,7 @@ Armour tends to restrict movement, somewhat. This is reflected in several penalt
 - Medium Armour gives a -2 penalty to all [Con] rolls related to endurance.
 - Heavy Armour gives a -4 penalty to all [Con] rolls related to endurance and a -2 penalty to attack rolls.
 
-**Armour and resting**: Likewise, it is armour is not made for long rests and may in some cases prevent its wearer from resting properly (see"[Combat: Resting, amelioration and armour](04-combat.md#resting-amelioration-and-armour)").
+**Armour and resting**: Likewise, armour is not pyjamas and wearing it during long rests may in some cases prevent its wearer from resting properly (see"[Combat: Resting, amelioration and armour](04-combat.md#resting-amelioration-and-armour)").
 
 ___
 ### The Armour Table

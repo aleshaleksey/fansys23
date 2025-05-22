@@ -18,7 +18,7 @@ Of course play will be "clunky" if there isn't at least one person at the table 
 
 ## Index
 
-- [Quick Start](quick-start.md)
+- [Quick Start](01-quick-start.md)
 - [Base Rules](02-base-rules.md)
 - [Movement and Exploration](03-movement-exploration.md)
 - [Combat](04-combat.md)
@@ -30,6 +30,7 @@ Of course play will be "clunky" if there isn't at least one person at the table 
 - [conditions and Types](10-conditions-types.md)
 - [Weapons and Armour](11-weapons-armour.md)
 - [Equipment and Economy](12-equipment-economy.md)
+- [Character Recipes](14-recipes.md)
 - [NPC Stat Blocks](monsters-npcs/humanoids.md)
 - [Beast and Plant Stat Blocks](monsters-npcs/beasts-and-plants.md)
 - [Monster and Dragon Stat Blocks](monsters-npcs/monsters-and-dragons.md)

@@ -487,6 +487,8 @@ ___
 - Flash step cannot be used with "dig" speed, "swim" speed or "cosmic" speed.
 - This ability cannot be used when wearing heavy armour.
 
+**Prerequisites**: 6 SP dice and 4 MP dice total.
+
 ___
 ### Combat Abilities (Supernatural)
 
@@ -516,7 +518,7 @@ ___
 - The ability cannot be used when you are surprised, or otherwise incapable of using reaction.
 
 **Prerequisite**:
-- "Arcane Interception" or "Parry"
+- "[Arcane Interception](#arcane-interception)" or "[Parry](#parry)"
 - "Elemental Blast" or "Elemental Touch" or any "Spellcasting: Local".
 - 7 MP dice total
 

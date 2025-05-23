@@ -428,7 +428,7 @@ ____
 |[Fleet](../06-abilities.md#fleet)|||Hide from light concealment|
 |[Alert](../06-abilities.md#alert)|||Immune to "surprised"|
 |[Aphonic Spell](../06-abilities.md#aphonic-spell)|||Eschew incantation components|
-|[Pointblank Shot I](../06-abilities.md#pointblank-shot-i-iii)|||Use bow and sling in melee|
+|[Pointblank Shot I](../06-abilities.md#point-blank-shot-i-iii)|||Use bow and sling in melee|
 |[Precise Shot I](../06-abilities.md#precise-shot-i-iii)|||Ignore light cover|
 |[Trick Shot I](../06-abilities.md#trick-shot-i-ii)|||Avoid hitting friendlies in melee|
 |[Silent Step II](../06-abilities.md#silent-step-i-iii)|||Move more silently & run silently|

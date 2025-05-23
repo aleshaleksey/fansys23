@@ -60,18 +60,18 @@ The archer is a martial archetype that focuses on long range offence. In close c
 
 |Level (base)|SP dice (Nat)| MP dice (Sup)|NAP|SAP|Abilities|Proficiencies|Notes|
 |-|-|-|-|-|-|-|-|
-|1 (1) | ()| ()|||[](06-abilities.md)|||
-|2 (1) | ()| ()||||||
-|3 (1) | ()| ()||||||
-|4 (1) | ()| ()||||||
-|5 (1) | ()| ()||||||                         
-|6 (2) | ()| ()||||||
-|7 (2) | ()| ()||||||
-|8 (2) | ()| ()||||||
-|9 (2) | ()| ()||||||
-|10 (3)| ()| ()||||||
-|11 (3)| ()| ()||||||
-|12 (3)| ()| ()||||||
+|1 (1) |3  (1)|2  (1)|2|2|[Fleet](06-abilities.md#fleet), [Alert](06-abilities.md#alert), STAT +1|Bows, Spears, Light Blades, Light Armour||
+|2 (1) |5  (1)|3  (1)|2|2|[Weapon Finesse](06-abilities.md#weapon-finesse), [Speed](06-abilities.md#speed), STAT +1|Shields||
+|3 (1) |7  (2)|4  (1)|3|2|[Evasive](06-abilities.md#evasive), [Point blank Shot I](06-abilities.md#point-blank-shot-i-iii), STAT +1|Throws||
+|4 (1) |8  (2)|6  (1)|3|2|[Trick shot I](06-abilities.md#trick-shot-i-ii), [Precise Shot I](06-abilities.md#precise-shot-i-iii), STAT +1|||
+|5 (1) |10 (2)|7  (2)|3|3|[Speed](06-abilities.md#speed), [Point blank Shot II](06-abilities.md#point-blank-shot-i-iii), STAT +1|||                         
+|6 (2) |12 (2)|8  (2)|4|4|[Keen Senses: Sight](06-abilities.md#keen-senses-i-iii), [Trick shot I](06-abilities.md#trick-shot-i-ii), STAT +1|||
+|7 (2) |13 (3)|10 (2)|5|4|[Speed](06-abilities.md#speed), [Parry](06-abilities.md#parry), STAT +1|||
+|8 (2) |15 (3)|11 (2)|5|4|[Multi-attack I](06-abilities.md#multi-attack-i-iii), [Point blank Shot III](06-abilities.md#point-blank-shot-i-iii), STAT +1|||
+|9 (2) |17 (3)|12 (2)|5|4|[Precise Shot II](06-abilities.md#precise-shot-i-iii), STAT +1, ???|||
+|10 (3)|19 (4)|13 (3)|7|6|[Speed](06-abilities.md#speed), [Spirit Strike](06-abilities.md#spirit-strike), STAT +1|||
+|11 (3)|20 (4)|15 (3)|7|6|[Low Light Vision](06-abilities.md#low-light-vision), [Sniper](06-abilities.md#sniper), STAT +1|||
+|12 (3)|22 (4)|16 (3)|7|6|[Precise Shot III](06-abilities.md#precise-shot-i-iii), STAT +1, ???|||
 
 
 ## Ranger

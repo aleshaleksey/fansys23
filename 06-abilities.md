@@ -115,7 +115,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Offhand fighting I-IV](#offhand-fighting-i-iv)
 - [Opportunist](#opportunist)
 - [Parry](#parry)
-- [Pointblank shot (I-III)](#pointblank-shot-i-iii)
+- [Point blank shot (I-III)](#point-blank-shot-i-iii)
 - [Precise shot (I-III)](#precise-shot-i-iii)
 - [Shield master](#shield-master)
 - [Skirmisher](#skirmisher)
@@ -1246,7 +1246,7 @@ ___
 - Drinking potions.
 
 ___
-#### Pointblank shot I-III
+#### Point blank shot I-III
 
 **Type**: (Class B)
 
@@ -1258,9 +1258,9 @@ ___
 
 |SP dice total|Name|Benefits|
 |-|-|-|
-|7|Pointblank shot I|Ranged attacks into melee no longer at disadvantage|
-|10|Pointblank shot II|+1 to damage of ranged attacks within 15ft of target|
-|14|Pointblank shot III|+2 to damage of ranged attacks within 30ft of target|
+|7|Point blank shot I|Ranged attacks into melee no longer at disadvantage|
+|10|Point blank shot II|+1 to damage of ranged attacks within 15ft of target|
+|14|Point blank shot III|+2 to damage of ranged attacks within 30ft of target|
 
 ___
 #### Precise shot I-III
@@ -1312,7 +1312,7 @@ ___
 **Prerequisite**:
 - SP dice total of 10
 - At least 2 ranks in "stealth".
-- Proficiency with at least one ranged/thrown weapon that is not a firearm or seige weapon.
+- Proficiency with at least one ranged/thrown weapon that is not a firearm or siege weapon.
 
 ___
 #### Swift Shield Bash

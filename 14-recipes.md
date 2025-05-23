@@ -41,18 +41,18 @@ The protector is a martial archetype that focuses on defence, both their own and
 
 |Level (base)|SP dice (Nat)| MP dice (Sup)|NAP|SAP|Abilities|Proficiencies|Notes|
 |-|-|-|-|-|-|-|-|
-|1 (1) | ()| ()|||[](06-abilities.md)|||
-|2 (1) | ()| ()||||||
-|3 (1) | ()| ()||||||
-|4 (1) | ()| ()||||||
-|5 (1) | ()| ()||||||                         
-|6 (2) | ()| ()||||||
-|7 (2) | ()| ()||||||
-|8 (2) | ()| ()||||||
-|9 (2) | ()| ()||||||
-|10 (3)| ()| ()||||||
-|11 (3)| ()| ()||||||
-|12 (3)| ()| ()||||||
+|1 (1) |3  (1)|2  (1)|2|2|[Broad Strike](06-abilities.md#broad-strike), [Blind Sight I](06-abilities.md#blind-sight-i-vi), STAT +1|Medium Armour, Shields, Spear, Light Blades, Heavy Blades, Interception||
+|2 (1) |4  (1)|4  (1)|2|2|[Guarded](06-abilities.md), [Offhand Fighting](06-abilities.md#offhand-fighting-i-iv), STAT +1|Heavy Armour||
+|3 (1) |6  (1)|5  (1)|2|2|[Swift Shield Bash](06-abilities.md#swift-shield-bash), [Parry](06-abilities.md#parry), STAT +1|Pole Arm||
+|4 (1) |7  (2)|7  (2)|3|3|[Spellcasting Local: Incantation](06-abilities.md#spellcasting-local), [Extra Save Str/Dex](06-abilities.md), STAT +1|Disarm||
+|5 (1) |9  (2)|8  (2)|3|3|[Shield Master](06-abilities.md#shield-master), [Arcane Interception](06-abilities.md#arcane-interception), STAT +1|Grapple||
+|6 (2) |10 (2)|10 (2)|4|4|[Deflect Missile](06-abilities.md), [Deflection](06-abilities.md#deflection), [Resist Damage: Shear](06-abilities.md#resist-damage)|Throw||
+|7 (2) |12 (2)|11 (2)|4|4|[Counterstrike](06-abilities.md#counterstrike), [Blind Sight II](06-abilities.md#blind-sight-i-vi), STAT +1|Sunder||
+|8 (2) |13 (3)|13 (3)|5|5|[Multi-attack I](06-abilities.md#multi-attack-i-iii), [Extra Save II](06-abilities.md#extra-save), [Resist Damage: Slashing](06-abilities.md#resist-damage)|||
+|9 (2) |15 (3)|14 (3)|5|5|[Swift Strike](06-abilities.md#swift-strike), [Guardian's Counterstrike](06-abilities.md#guardians-counterstrike), STAT +1|||
+|10 (3)|16 (3)|16 (3)|6|6|[Resist Condition: Frightened](06-abilities.md#resist-condition), [Low Light Vision](06-abilities.md#low-light-vision), [Resist Damage: Percussive](06-abilities.md#resist-damage)|||
+|11 (3)|18 (3)|17 (3)|6|6|[Resist Condition: Charmed](06-abilities.md#resist-condition), [Resist Damage: Poison](06-abilities.md#resist-damage), STAT +1|||
+|12 (3)|19 (4)|19 (4)|7|7|[Resist Condition: Incapacitated](06-abilities.md#resist-condition), [Extra Save III](06-abilities.md#extra-save), [Resist Damage: Piercing](06-abilities.md#resist-damage)|||
 
 
 ## Archer
@@ -60,7 +60,7 @@ The archer is a martial archetype that focuses on long range offence. In close c
 
 |Level (base)|SP dice (Nat)| MP dice (Sup)|NAP|SAP|Abilities|Proficiencies|Notes|
 |-|-|-|-|-|-|-|-|
-|1 (1) | ()| ()||||||
+|1 (1) | ()| ()|||[](06-abilities.md)|||
 |2 (1) | ()| ()||||||
 |3 (1) | ()| ()||||||
 |4 (1) | ()| ()||||||

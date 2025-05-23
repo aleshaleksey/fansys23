@@ -295,7 +295,7 @@ ___
 
 **Type**: (Class B)
 
-**Description**: Use 1 SP to use ["parry"](#parry) against ranged weapons attacks.
+**Description**: Use 1 SP when using ["parry"](#parry) against ranged weapons attacks for greater protection.
 
 **Action**: When you use parry to deflect a ranged weapon attack, you may declare "Deflect Missile". Every time you do so, you must use 1 SP. The effect is as follows:
 - If a ranged weapon attack would hit anyway, despite being parried, the *physical* damage is reduced by the roll of your [melee attack damage] + [NAP]. Thus if you hold a greatsword, and your melee damage is 2d6+4 and your NAP is 5, then the damage of that ranged attack is reduced by 2d6+9.
@@ -1697,7 +1697,7 @@ ___
 
 |Resistance|Base|Dice|
 |-|-|-|
-|Any one "[Physical](10-conditions-types.md#physical-damage)"|10 SP|
+|Any one "[Physical](10-conditions-types.md#physical-damage)"|-|10 SP|
 |Poison|-|12 MP or SP|
 |Fire|2|-|
 |Ice|2|-|

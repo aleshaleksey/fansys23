@@ -22,18 +22,18 @@ The vanguard is a martial archetype that focuses on closing quickly with the ene
 
 |Level (base)|SP dice (Nat)| MP dice (Sup)|NAP|SAP|Abilities|Proficiencies|Notes|
 |-|-|-|-|-|-|-|-|
-|1 (1) | ()| ()||||||
-|2 (1) | ()| ()||||||
-|3 (1) | ()| ()||||||
-|4 (1) | ()| ()||||||
-|5 (1) | ()| ()||||||                         
-|6 (2) | ()| ()||||||
-|7 (2) | ()| ()||||||
-|8 (2) | ()| ()||||||
-|9 (2) | ()| ()||||||
-|10 (3)| ()| ()||||||
-|11 (3)| ()| ()||||||
-|12 (3)| ()| ()||||||
+|1 (1) |3  (1)|2  (1)|2|2|[Berserk I](06-abilities.md#berserk-i-v), [Evasive](06-abilities.md#evasive), STAT +1|Medium Armour, Strikes, Throws, Light Blades, Heavy Blades||
+|2 (1) |5  (1)|3  (1)|2|2|[Broad Strike](06-abilities.md), [Opportunist](06-abilities.md#opportunist), STAT +1|Axes||
+|3 (1) |7  (2)|4  (1)|3|2|[Great Strike](06-abilities.md), [Flash Step](06-abilities.md#flash-step), STAT +1|Smith's Tools||
+|4 (1) |8  (2)|6  (1)|3|2|[Resist Condition: Grappled](06-abilities.md#resist-condition), [Counterstrike](06-abilities.md#counterstrike), STAT +1|Light Armour||
+|5 (1) |9  (2)|8  (2)|3|3|[Berserk II](06-abilities.md#berserk-i-v), [Combined Manoeuvre I](06-abilities.md#combined-manoeuvre-i-v), STAT +1|Sunder||                         
+|6 (2) |11 (2)|9  (2)|4|4|[Swift Strike](06-abilities.md#swift-strike), [Extra Save](06-abilities.md#extra-save), STAT +1|Grapple||
+|7 (2) |13 (3)|10 (2)|5|4|[Resist Condition: Restrained](06-abilities.md#resist-condition), [Multi Attack I](06-abilities.md#multi-attack-i-iii), STAT +1|Disarm||
+|8 (2) |14 (3)|12 (2)|5|4|[Resist Condition: Crippled](06-abilities.md#resist-condition), [Speed](06-abilities.md#speed), STAT +1|||
+|9 (2) |16 (3)|13 (3)|5|5|[Resist Damage: Slashing](06-abilities.md#resist-damage), [Skirmisher](06-abilities.md#skirmisher), STAT +1|||
+|10 (3)|18 (3)|14 (3)|6|6|[Berserk III](06-abilities.md#berserk-i-v), [Speed](06-abilities.md#speed), STAT +1|||
+|11 (3)|19 (4)|16 (3)|7|6|[Resist Condition: Immobilised](06-abilities.md#resist-condition), [Resist Damage: Ice/Fire](06-abilities.md#resist-damage#ice), STAT +1|||
+|12 (3)|21 (4)|17 (3)|7|6|[Mage Hunter](06-abilities.md#mage-hunter-i), [Extra Save](06-abilities.md#extra-save), STAT +1|||
 
 
 ## Protector
@@ -41,7 +41,7 @@ The protector is a martial archetype that focuses on defence, both their own and
 
 |Level (base)|SP dice (Nat)| MP dice (Sup)|NAP|SAP|Abilities|Proficiencies|Notes|
 |-|-|-|-|-|-|-|-|
-|1 (1) | ()| ()||||||
+|1 (1) | ()| ()|||[](06-abilities.md)|||
 |2 (1) | ()| ()||||||
 |3 (1) | ()| ()||||||
 |4 (1) | ()| ()||||||

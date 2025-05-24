@@ -20,6 +20,10 @@ ___
 ## Vanguard
 The vanguard is a martial archetype that focuses on closing quickly with the enemy and inflicting massive damage, often sacrificing defence for offence.
 
+The build works best with heavy weapons and medium armour, concentrating on STR for maximum damage, but not neglecting CON and CHA for the minimum durability required to survive long enough to deal that damage.
+
+The "[Flash Step](06-abilities.md#flash-step)" ability is used to close with the target, while "[Berserk I](06-abilities.md#berserk-i-v)", "[Broad Strike](06-abilities.md)", "[Great Strike](06-abilities.md)" and [Multi Attack I](06-abilities.md#multi-attack-i-iii)" are then used to maximise damage. Any additional abilities are there to increase survivability. Proficiency with at least one weapon group that contains heavy weapons (pole arms, axes, heavy blades, percussive) is essential.
+
 |Level (base)|SP dice (Nat)| MP dice (Sup)|NAP|SAP|Abilities|Proficiencies|Notes|
 |-|-|-|-|-|-|-|-|
 |1 (1) |3  (1)|2  (1)|2|2|[Berserk I](06-abilities.md#berserk-i-v), [Evasive](06-abilities.md#evasive), STAT +1|Medium Armour, Strikes, Throws, Light Blades, Heavy Blades||
@@ -38,6 +42,8 @@ ___
 
 ## Protector
 The protector is a martial archetype that focuses on defence, both their own and that of their allies over offence.
+
+This build can be made using DEX, but STR gives better defence. In addition, both CON and CHA are required for survivability. The abilities are balanced between offence (since offence is the best defence), survivability, and battlefield control. Some abilities and stat increases can be replaced with "[Combined Manoeuvre](06-abilities.md#combined-manoeuvre-i-v)", as it is useful, for example, to be able to grapple or throw a target while damaging it. Spellcasting and "[Deflection](06-abilities.md#deflection)"/"[Arcane Interception](06-abilities.md#arcane-interception)" can be discarded for a more martial build, but reduce defence against spellcasters.
 
 |Level (base)|SP dice (Nat)| MP dice (Sup)|NAP|SAP|Abilities|Proficiencies|Notes|
 |-|-|-|-|-|-|-|-|
@@ -58,6 +64,8 @@ ___
 ## Archer
 The archer is a martial archetype that focuses on long range offence. In close combat most archers lose their edge.
 
+This build specialises in long range weapon attacks. It requires proficiency with bows or mechanical bows, as well as "[Point blank Shot I](06-abilities.md#point-blank-shot-i-iii)" and "[Precise Shot](06-abilities.md#precise-shot-i-iii)". "[Spirit Strike](06-abilities.md#spirit-strike)" is very useful at higher levels to fight against foes which are immune to conventional weapons. All other abilities are optional, depending on what character exactly one wishes to build.
+
 |Level (base)|SP dice (Nat)| MP dice (Sup)|NAP|SAP|Abilities|Proficiencies|Notes|
 |-|-|-|-|-|-|-|-|
 |1 (1) |3  (1)|2  (1)|2|2|[Fleet](06-abilities.md#fleet), [Alert](06-abilities.md#alert), STAT +1|Bows, Spears, Light Blades, Light Armour||
@@ -75,7 +83,11 @@ The archer is a martial archetype that focuses on long range offence. In close c
 ___
 
 ## Scout
-The versatile archetype that can scout, heal, and fight in close quarters and melee. Of course it excels at none of these.
+This archetype is used for scouting, tracking and skirmishing.
+
+This scout build focuses not so much on moving quickly, but moving undetected while being able to gather information. Thus abilities like "[Fleet](06-abilities.md#fleet)", "[Silent Step](06-abilities.md#silent-step-i-iii)" and "[Keen Senses](06-abilities.md#keen-senses-i-iii)" are essential. Additionally it is given abilities useful for skirmishing, such as "[Precision Attack](06-abilities.md#precision-attack-i-x)" and "[Evasive](06-abilities.md#evasive)", to make it useful in combat. Lastly it is given defensive boons and abilities.
+
+This build can be given some nature magic to make it into a ranger, or more offensive abilities (such as "[Assassinate](06-abilities.md#assassinate-i-v)") for a rogue or assassin. One can also sacrifice a couple of levels of "[Precision Attack](06-abilities.md#precision-attack-i-x)" and some condition resistances, and instead gain spellcasting and a "[familiar](06-abilities.md#bind-familiar-i-iv)" for communication and scouting particularly dangerous locales.
 
 |Level (base)|SP dice (Nat)| MP dice (Sup)|NAP|SAP|Abilities|Proficiencies|Notes|
 |-|-|-|-|-|-|-|-|
@@ -90,11 +102,17 @@ The versatile archetype that can scout, heal, and fight in close quarters and me
 |9 (2) |15 (3)|14 (3)|5|5|[Precision Attack IV](06-abilities.md#precision-attack-i-x), [Speed](06-abilities.md#multi-attack-i-iii#speed), STAT +1|||
 |10 (3)|17 (3)|15 (3)|6|6|[Silent Step III](06-abilities.md#silent-step-i-iii), [Speed](06-abilities.md#speed), STAT +1|||
 |11 (3)|19 (4)|16 (3)|7|6|[Precision Attack V](06-abilities.md#precision-attack-i-x), [Keen Senses: Sight](06-abilities.md#keen-senses-i-iii), STAT +1|||
-|12 (3)|20 (4)|18 (3)|7|6|[Resist Condition: Restrained](06-abilities.md#resist-condition), [Condiiton Immunity: Charmed](06-abilities.md#condition-immunity), STAT +1 |||
+|12 (3)|20 (4)|18 (3)|7|6|[Resist Condition: Restrained](06-abilities.md#resist-condition), [Condition Immunity: Charmed](06-abilities.md#condition-immunity), STAT +1 |||
 ____
 
 ## Mystic Warrior
 A mystic warrior mixes martial and supernatural abilities to make use of its foes' weaknesses.
+
+This build balances between supernatural and natural abilities, combat capability and the arcane. One could argue that this is an equivalent to "bard" or "red mage" of certain other systems. The general strategy is to buff the party and yourself with "[Bard Song I](06-abilities.md#bard-song-i-iv)" and spells, and then enter combat, using light weapons with "[Flurry](06-abilities.md#flurry)". "[Elemental Blast: Light](06-abilities.md#elemental-blast)" gives additional firepower against supernatural entities, while "[Flash Step](06-abilities.md#flash-step)" is useful for getting in and out of trouble.
+
+[Spellcasting Local: Incantation](06-abilities.md#spellcasting-local)" is useful since these spells can be used safely in melee combat and gives some healing magic and so is recommended. For greater martial prowess it is recommended to take less spellcasting, or less "[Bard Song I](06-abilities.md#bard-song-i-iv)", and focus on either heavy blades or "[Unarmed Strike](06-abilities.md#unarmed-strike-i-ix)".
+
+The mystic warrior does suffer somewhat from "multiple attribute (stat) dependence". It is recommended to focus on DEX (or STR), WIS and CHA. If WIS is 16 or above, it is worth taking the "[foresight](06-abilities.md#foresight)" ability for greater defence.
 
 |Level (base)|SP dice (Nat)| MP dice (Sup)|NAP|SAP|Abilities|Proficiencies|Notes|
 |-|-|-|-|-|-|-|-|
@@ -113,7 +131,15 @@ A mystic warrior mixes martial and supernatural abilities to make use of its foe
 ___
 
 ## Paladin
-A paladin is a holy warrior aligns with higher powers as their long arm in the mortal realm.
+A paladin is a holy warrior that aligns with higher powers as their long arm in the mortal realm.
+
+The build focuses on offensive abilities with additional capabilities for fighting supernatural entities ("[Holy Strike](06-abilities.md#holy-strike)" and "[Divine strike](06-abilities.md)"). "[Bind Beast I](06-abilities.md#bind-beast-i-x)" is recommended as it can be used to gain a more powerful steed. Likewise "[Spellcasting Local: Incantation](06-abilities.md#spellcasting-local)" is a versatile school that gives some access to healing magic.
+
+Medium/Heavy armour, shield and heavy blades/axes/spears are recommended proficiencies. Likewise proficiency with disarm, sunder and grapple are useful for defeating foes without necessarily killing them.
+
+The conventional paladin in shining armour can be made into a guardian of nature by replacing the incantation magic with nature magic, and focusing on medium armour instead of heavy armour. Likewise, there are interesting builds and concepts to be tested in mixing the paladin and [archer](#archer) build.
+
+A paladin should focus on STR, and CHA. If the campaign involves more combat vs mortals or constructs, it is worth focusing more on CON than CHA.
 
 |Level (base)|SP dice (Nat)| MP dice (Sup)|NAP|SAP|Abilities|Proficiencies|Notes|
 |-|-|-|-|-|-|-|-|
@@ -127,12 +153,18 @@ A paladin is a holy warrior aligns with higher powers as their long arm in the m
 |8 (2) |11 (2)|15 (3)|4|5|[Guardian's Counterstrike](06-abilities.md#guardians-counterstrike), [Resist Condition: Charm](06-abilities.md#resist-condition), STAT +1|||
 |9 (2) |13 (3)|16 (3)|5|5|[Spellcasting Local: Incantation IV](06-abilities.md#spellcasting-local), [Bind Beast IV](06-abilities.md#bind-beast-i-x), STAT +1|||
 |10 (3)|14 (3)|18 (3)|6|6|[Multi-attack I](06-abilities.md#multi-attack-i-iii), [Divine strike](06-abilities.md), [Esoteric Deflection](06-abilities.md#esoteric-deflection)|||
-|11 (3)|16 (3)|19 (4)|6|7|[Spellcasting Local: Incantation V](06-abilities.md#spellcasting-local), [Conition Immunity: Charmed](06-abilities.md#condition-immunity), STAT +1|||
+|11 (3)|16 (3)|19 (4)|6|7|[Spellcasting Local: Incantation V](06-abilities.md#spellcasting-local), [Condition Immunity: Charmed](06-abilities.md#condition-immunity), STAT +1|||
 |12 (3)|17 (3)|21 (4)|6|7|[Bind Beast V](06-abilities.md#bind-beast-i-x), [Xenophonia: Spirits](06-abilities.md#xenophonia-i-xiii), STAT +1|||
 ___
 
 ## Summoner
 A summoner is a mage who focuses on calling various other entities to fight on their behalf.
+
+The summoner is a build that can be used for both utility and damage, due to the nature of summons. A summoner should keep out of the frontline. It has three main sources of damage, its [bound beast](06-abilities.md#bind-beast-i-x), entities summoned with spells (such as "[Summon Beast](08-spell-list.md#summon-beast)", "[Summon Fire Sprite](08-spell-list.md#summon-flame-sprite)", "[Summon Spirit](08-spell-list.md#summon-spirit)"), and the few direct damage spells that exist.
+
+[War Mage](06-abilities.md#war-mage) should, perhaps be taken at the earliest possible moment, since losing concentrating of summoned monsters is one of the biggest threats to a summoner. A classical summoner should avoid the frontline, although variants of the build can instead specialise in only one type of magic, and use the remaining ability points to improve its martial abilities and fight along side with its summons. A summoner that concentrates on nature magic instead of elemental magic is a close approximation of a druid.
+
+Summoners are one of the least stat dependent builds, since the attack and defence of their summons does not depend on it. As such it is recommended to focus on the stats that are best compatible with the desired skill set. That said, CON and INT are important for concentration saves, so they should not be neglected.
 
 |Level (base)|SP dice (Nat)| MP dice (Sup)|NAP|SAP|Abilities|Proficiencies|Notes|
 |-|-|-|-|-|-|-|-|
@@ -153,6 +185,10 @@ ___
 ## Pyromancer
 A pyromancer is an offensive caster that makes use especially of elemental fire magic. A similar template can be made for any elemental battle mage.
 
+A pyromancer can be dangerous at range or in melee. This build works well enough with a single elemental spellcasting ability taken to high level, along with [Elemental Blast](06-abilities.md#elemental-blast). A second type of elemental spellcasting (other than fire or water) taken to 3rd level is useful for counter-spelling. As with other spellcasting builds, the other abilities can be exchanged for natural combat or utility abilities for a less conventional build. Medium/heavy armour proficiency can also be taken as a also a valid option for protection.
+
+The primary stat for this build is WIS. If using armour STR is useful, if not, DEX. Likewise, since this is largely a combat focused build, CON and CHA should not be neglected.
+
 |Level (base)|SP dice (Nat)| MP dice (Sup)|NAP|SAP|Abilities|Proficiencies|Notes|
 |-|-|-|-|-|-|-|-|
 |1 (1) |2  (1)|3  (1)|2|2|[Elemental Blast: Fire](06-abilities.md#elemental-blast), [Elemental Touch: Fire](06-abilities.md#elemental-touch), [Spellcasting Local: Fire I](06-abilities.md#spellcasting-local)|Interception, Light Blades, Light Armour||
@@ -170,9 +206,13 @@ A pyromancer is an offensive caster that makes use especially of elemental fire 
 ___
 
 ## Wizard
-Wizards are generalist spellcasters (who can specialise). A wizard's power is typically built upon years or decades of arcane study. This archetype focuses mostly on support and utility, but nothing is stopping it from using summoning and direct damage spells. Wizards is especially effective at counter-spelling, dispelling and spell breaking, since they are proficient in multiple "schools" of magic.
+Wizards are generalist spellcasters (who can specialise). A wizard's power is typically built upon years or decades of arcane study.
+
+This archetype focuses mostly on support and utility, but nothing is stopping it from using summoning and direct damage spells. Wizards are especially effective at counter-spelling, dispelling and spell breaking, since they are proficient in multiple "schools" of magic.
 
 This recipe can be modifying by swapping around the types of spellcasting taken, or taking fewer different spellcasting abilities, and more boons, or elemental blast.
+
+INT and WIS are both primary stats of a wizard. The rest depends on the flavour. Since a wizard should not be in the frontline, CON and CHA are a little bit less important than for other builds, however this does make combat more risky without solid tactics.
 
 |Level (base)|SP dice (Nat)| MP dice (Sup)|NAP|SAP|Abilities|Proficiencies|Notes|
 |-|-|-|-|-|-|-|-|

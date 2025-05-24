@@ -315,3 +315,13 @@ ___
 - Add experimentally [Holy Strike](06-abilities.md#holy-strike) and [Unholy Strike](06-abilities.md#unholy-strike) as weaker versions of divine/profane strike.
 ___
 ## From v0.0.13
+
+### General
+- Add [Recipes](14-recipes.md) chapter with various basic builds.
+
+### Spellcasting
+- 
+
+### Abilities
+- Improve wording on "[Deflect Missile](06-abilities.md#deflect-missile)".
+- Reduce MP dice requirements on "[Holy Strike](06-abilities.md#holy-strike)" and "[Unholy Strike](06-abilities.md#unholy-strike)"

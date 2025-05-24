@@ -755,7 +755,7 @@ ___
 
 **Prerequisites**:
 - Proficiency with at least one weapon group.
-- 6 SP dice total and 9 MP dice total.
+- 6 SP dice total and 7 MP dice total.
 
 ___
 ### General Abilities (Supernatural)

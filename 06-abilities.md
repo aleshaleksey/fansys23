@@ -356,7 +356,7 @@ ___
 
 **Description**: Your counterstrike can be triggered by attacks against any entity in your reach, not just yourself.
 
-**Prerequisite**: 10 SP dice + "Counterstrike".
+**Prerequisite**: 10 SP dice + "[Counterstrike](#counterstrike)".
 
 **Original state**: Counterstrike is triggered only by attacks against yourself.
 
@@ -685,7 +685,7 @@ ___
 
 **Prerequisites**:
 - Proficiency with at least one weapon group.
-- 6 SP dice total and 9 MP dice total.
+- 6 SP dice total and 7 MP dice total.
 
 ___
 #### Profane Strike

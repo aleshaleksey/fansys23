@@ -117,18 +117,18 @@ A paladin is a holy warrior aligns with higher powers as their long arm in the m
 
 |Level (base)|SP dice (Nat)| MP dice (Sup)|NAP|SAP|Abilities|Proficiencies|Notes|
 |-|-|-|-|-|-|-|-|
-|1 (1) | ()| ()|||[](06-abilities.md)|||
-|2 (1) | ()| ()||||||
-|3 (1) | ()| ()||||||
-|4 (1) | ()| ()||||||
-|5 (1) | ()| ()||||||                         
-|6 (2) | ()| ()||||||
-|7 (2) | ()| ()||||||
-|8 (2) | ()| ()||||||
-|9 (2) | ()| ()||||||
-|10 (3)| ()| ()||||||
-|11 (3)| ()| ()||||||
-|12 (3)| ()| ()||||||
+|1 (1) |2  (1)|3  (1)|2|2|[Broad Strike](06-abilities.md#broad-strike), [Great Strike](06-abilities.md#great-strike), [Spellcasting Local: Incantation I](06-abilities.md#spellcasting-local)|Medium Armour, Heavy Armour, Heavy Blades, Spears, Shields, Strikes||
+|2 (1) |4  (1)|4  (1)|2|2|[Bind Beast I](06-abilities.md#bind-beast-i-x), [Debilitating Strike: Aphonia](06-abilities.md#debilitating-strike), STAT +1|Interception||
+|3 (1) |5  (1)|6  (1)|2|2|[Spellcasting Global I](06-abilities.md#spellcasting-global), [Arcane Interception](06-abilities.md#arcane-interception), STAT +1|Grapple||
+|4 (1) |6  (1)|8  (2)|2|3|[Holy Strike](06-abilities.md#holy-strike), [Parry](06-abilities.md#parry), [Counterstrike](06-abilities.md#counterstrike)|Disarm||
+|5 (1) |7  (2)|10 (2)|3|3|[Spellcasting Local: Incantation II](06-abilities.md#spellcasting-local), [Bind Beast II](06-abilities.md#bind-beast-i-x), STAT +1|Sunder||                         
+|6 (2) |8  (2)|12 (2)|4|4|[Deflection](06-abilities.md#deflection), [Resist Condition: Frightened](06-abilities.md#resist-condition), STAT +1|Throw||
+|7 (2) |9  (2)|14 (3)|4|5|[Spellcasting Local: Incantation III](06-abilities.md#spellcasting-local), [Bind Beast III](06-abilities.md#bind-beast-i-x), [Resist Condition: Diseased](06-abilities.md#resist-condition)|||
+|8 (2) |11 (2)|15 (3)|4|5|[Guardian's Counterstrike](06-abilities.md#guardians-counterstrike), [Resist Condition: Charm](06-abilities.md#resist-condition), STAT +1|||
+|9 (2) |13 (3)|16 (3)|5|5|[Spellcasting Local: Incantation IV](06-abilities.md#spellcasting-local), [Bind Beast IV](06-abilities.md#bind-beast-i-x), STAT +1|||
+|10 (3)|14 (3)|18 (3)|6|6|[Multi-attack I](06-abilities.md#multi-attack-i-iii), [Divine strike](06-abilities.md), [Esoteric Deflection](06-abilities.md#esoteric-deflection)|||
+|11 (3)|16 (3)|19 (4)|6|7|[Spellcasting Local: Incantation V](06-abilities.md#spellcasting-local), [Conition Immunity: Charmed](06-abilities.md#condition-immunity), STAT +1|||
+|12 (3)|17 (3)|21 (4)|6|7|[Bind Beast V](06-abilities.md#bind-beast-i-x), [Xenophonia: Spirits](06-abilities.md#xenophonia-i-xiii), STAT +1|||
 ___
 
 ## Summoner
@@ -143,11 +143,11 @@ A summoner is a mage who focuses on calling various other entities to fight on t
 |5 (1) |7  (2)|10 (2)|3|3|[Bind Beast III](06-abilities.md#bind-beast-i-x), [Lingering Spell](06-abilities.md#lingering-spell), STAT +1||                         
 |6 (2) |8  (2)|12 (2)|4|4|[Spellcasting: Element III](06-abilities.md#spellcasting-local), [Spellcasting: Incantation III](06-abilities.md#spellcasting-local), STAT +1|||
 |7 (2) |9  (2)|14 (3)|4|5|[Bind Beast IV](06-abilities.md#bind-beast-i-x), [Bind Familiar III](06-abilities.md#bind-familiar-i-iv), STAT +1||
-|8 (2) |11 (2)|16 (3)|4|5|[Spellcasting: Element IV](06-abilities.md#spellcasting-local), [Spellcasting: Incantation IV](06-abilities.md#spellcasting-local), STAT +1|||
-|9 (2) |13 (3)|17 (3)|5|5|[Bind Beast V](06-abilities.md#bind-beast-i-x), [War Mage](06-abilities.md#war-mage), STAT +1||
-|10 (3)|14 (3)|19 (4)|6|7|[Spellcasting: Element V](06-abilities.md#spellcasting-local), [Spellcasting: Incantation V](06-abilities.md#spellcasting-local), STAT +1|||
-|11 (3)|15 (3)|21 (4)|6|7|[Bind Beast VI](06-abilities.md#bind-beast-i-x), [Bind Familiar IV](06-abilities.md#bind-familiar-i-iv), STAT +1||
-|12 (3)|17 (3)|22 (4)|6|7|[Spellcasting: Element VI](06-abilities.md#spellcasting-local), [Spellcasting: Incantation VI](06-abilities.md#spellcasting-local), STAT +1|||
+|8 (2) |10 (2)|16 (3)|4|5|[Spellcasting: Element IV](06-abilities.md#spellcasting-local), [Spellcasting: Incantation IV](06-abilities.md#spellcasting-local), STAT +1|||
+|9 (2) |12 (2)|17 (3)|4|5|[Bind Beast V](06-abilities.md#bind-beast-i-x), [War Mage](06-abilities.md#war-mage), STAT +1||
+|10 (3)|13 (3)|19 (4)|6|7|[Spellcasting: Element V](06-abilities.md#spellcasting-local), [Spellcasting: Incantation V](06-abilities.md#spellcasting-local), STAT +1|||
+|11 (3)|14 (3)|21 (4)|6|7|[Bind Beast VI](06-abilities.md#bind-beast-i-x), [Bind Familiar IV](06-abilities.md#bind-familiar-i-iv), STAT +1||
+|12 (3)|16 (3)|22 (4)|6|7|[Spellcasting: Element VI](06-abilities.md#spellcasting-local), [Spellcasting: Incantation VI](06-abilities.md#spellcasting-local), STAT +1|||
 ___
 
 ## Pyromancer

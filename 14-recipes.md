@@ -4,7 +4,7 @@ FanSys provides a near infinite amount of choice when building characters. This 
 
 It should be noted that none of these builds account for [race(template)](09-races.md) or [starting stats](01-quick-start.md#stats), so some tweaking may be in order!
 
-Additionally sometimes the template has unfilled proficiencies/abilities in a given column for a level (should be 3 abilities and 1 proficiency, except level 1 which can accommodate 3 proficiencies). Unfilled slots indicate that just about any ability/proficiency would go well there.
+Additionally sometimes the template has unfilled proficiencies/abilities in a given column for a level (should be 3 abilities and 1 proficiency, except level 1 which can accommodate 6 proficiencies). Unfilled slots indicate that just about any ability/proficiency would go well there.
 
 - [Vanguard](#fighter-shock-trooper)
 - [Protector](#fighter-protector)

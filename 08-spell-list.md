@@ -729,7 +729,7 @@ ___
 |Scope|local (global)|
 |MP Dice|1 (4)|
 |Target(s)|1 target no larger than "small"|-1
-|Casting time|"1 main action" (60min + 20min pr 4MP dice)|
+|Casting time|"1 main action" (1 hour + 20min per extra 4MP dice)|
 |Range|close|-1
 |Duration|1 hour (1 week)|+6
 |Components|kinetic, incantation|-1
@@ -841,7 +841,7 @@ ___
 |Scope|local (global)|
 |MP Dice|1 (4)|
 |Target(s)|rock or ground within a 10ft radius of a sq (200ft)| +3
-|Casting time|"main action" (1h + 20min per 4MP)|
+|Casting time|"main action" (1h + 20min per 4MP dice)|
 |Range|120ft| +2
 |Duration|Instantaneous|
 |Components|kinetic| -1
@@ -866,12 +866,12 @@ ___
 |Scope|local (global)|
 |MP Dice|1 (4)|
 |Target(s)|1 entity|
-|Casting time|1 minute (2h + 2h per 4MP dice)|-2
-|Range|240ft (2 miles)|+3
+|Casting time|1 minute (1h + 20 minutes per 4MP dice)|-2
+|Range|480ft + 120ft/MP die (4 miles + 1 mile / MP die)|+3
 |Duration|Instantaneous (Instantaneous)|
 |Components|kinetic|
-|Limitation|Fails if caster and answer to the question are not both in contact with air|
-|Limitation|Fails if the caster and answer to the question are hermetically separated|
+|Limitation|Fails if caster and answer to the question are not both in contact with air|-2
+|Limitation|Fails if the caster and answer to the question are hermetically separated|-2
 |Save|-|
 
 **Description**: The caster attempts to ascertain the location (and rough time, if it was there during the casting of the spell but is no there when the casting ends) of an object, feature or entity described by the caster, by asking low level wind spirits. The spirits will seek out he nearest example of the thing that meets the specification.
@@ -880,9 +880,11 @@ ___
 
 If more than 3 criteria are chosen the lesser spirits will latch on to any three and ignore the rest.
 
-Other users of air magic can use "knowledge:arcana" to recognise that the spell is being cast in the area and use "summon wind sprite" at a higher level to hide their location without breaking the casting.
+Other users of air magic can use "knowledge:arcana" to recognise that the spell is being cast in the area and use "summon wind sprite" at a higher level to hide their location without breaking the casting.\
 
-**Global**: The spell reaches to a range of two miles and gives the caster the location of all objects matching the criteria.
+**Upcast:** For every extra MP die the range of the spell increases by 120ft. When cast globally, this is an extra mile per 4MP dice.
+
+**Global**: The spell reaches to a range of four miles and gives the caster the location of all objects matching the criteria.
 
 ___
 ### Summon Beast
@@ -891,7 +893,7 @@ ___
 |Scope|local (global)|
 |MP Dice|1 (4)|
 |Target(s)|1sq (1sq)|
-|Casting time|"full round action" (2 hours + 20min per 4MP)|-2
+|Casting time|"full round action" (1 hour + 20 minutes per 4MP dice)|-2
 |Range|close|-1
 |Duration|12 min (1 day+)|+3
 |Components|incantation, kinetic|-1
@@ -986,7 +988,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (8)|
 |Target(s)|1 entity (100ft radius)|
-|Casting time|"main action" (2h + 1h per 4MP)|
+|Casting time|"main action" (2h + 20 minutes per 4MP)|
 |Range|15ft|-1
 |Duration|Special: 1h, then permanent (7 days)| + 12
 |Concentration|yes (yes)|-3
@@ -1010,7 +1012,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (8)|
 |Target(s)|1 target no greater than "large"|+1
-|Casting time|1 action (2h + 40min per 4MP dice)|
+|Casting time|1 action (2h + 20 minutes per 4MP dice)|
 |Range|15ft|
 |Duration|Special: 1h, then permanent (7 days)| +6
 |Components|incantation, kinetic|
@@ -1036,7 +1038,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (8)|
 |Target(s)|1sq|
-|Casting time|"main action" (2h + 40min per 4MP dice)|
+|Casting time|"main action" (2h + 20 minutes per 4MP dice)|
 |Range|30ft|
 |Duration|1 min (1 hour)|+6
 |Components|kinetic|
@@ -1069,7 +1071,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (8)|
 |Target(s)|2 entities or an object no bigger than 15 x 15 x 15ft (200ft)|+1
-|Casting time|"main action" or "reaction" (2h + 20min per 8MP)|
+|Casting time|"main action" or "reaction" (2h + 20 minutes per 8MP)|
 |Range|60ft|+1
 |Duration|12min (1 day)|+3
 |Components|kinetic|
@@ -1094,7 +1096,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (8)|
 |Target(s)|5ft radius centered on a sq (100ft)|+1
-|Casting time|"main action" (1h + 20min per 4MP)|
+|Casting time|"main action" (2h + 20 minutes per 4MP)|
 |Range|15ft|-2
 |Duration|instantaneous|
 |Components|incantation, kinetic|-1
@@ -1138,7 +1140,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (8)|
 |Target(s)|1 entity|
-|Casting time|"main action" (2h + 40min per 4MP)|
+|Casting time|"main action" (2h + 20 minutes per 4MP)|
 |Range|close|
 |Duration|1h (1 week)|+6
 |Components|kinetic|-1(5)
@@ -1165,7 +1167,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (8)|
 |Target(s)|1 entity or an object no more than 5x5x5ft (100ft)|
-|Casting time|"main action" (2h + 40min per 4MP dice)|
+|Casting time|"main action" (2h + 20 minutes per 4MP dice)|
 |Range|close|
 |Duration|1h (1 week)|+6
 |Components|incantation|+1
@@ -1189,7 +1191,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (8)|
 |Target(s)|1 entity (120ft)|
-|Casting time|1 full round action (24 hours)|-1
+|Casting time|1 full round action (2 hours + 20 minutes per 4 MP dice)|-1
 |Range|close|
 |Duration|12 minutes (1 day)|+3
 |Components|incantation|+1
@@ -1236,7 +1238,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (8)|
 |Target(s)|1 entity (120ft)|
-|Casting time|1 full round action (24 hours)|-1
+|Casting time|1 full round action (2 hours + 20 minutes per 4MP dice)|-1
 |Range|close|
 |Duration|12 minutes (1 day)|+3
 |Components|incantation|+1
@@ -1262,7 +1264,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (8)|
 |Target(s)|(1 entity)|
-|Casting time|main action (2h + 1h per 4MP)|
+|Casting time|main action (2 hours + 20 minutes per 4MP dice)|
 |Range|close|
 |Duration|1 day (1 month + 1 month per 4MP)|
 |Components|incantation|
@@ -1308,7 +1310,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (8)|
 |Target(s)|1 entity or 5ft radius centered ona square (100ft)|+1
-|Casting time|"main action" (2h + 40min per 4MP dice)|
+|Casting time|"main action" (2 hours + 20 minutes per 4MP dice)|
 |Range|60ft|+1
 |Duration|12min (1 week)|+6
 |Components|kinetic|
@@ -1327,7 +1329,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (8)|
 |Target(s)|1sq (1sq)|
-|Casting time|"full round action" (4h + 40min per 4MP)|-2
+|Casting time|"full round action" (4 hours + 20 minutes per 4MP dice)|-2
 |Range|30ft (30ft)|
 |Duration|12 min (1 day+)|+3
 |Components|incantation, kinetic|-1
@@ -1359,7 +1361,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (8)|
 |Target(s)|1sq (1sq)|
-|Casting time|"full round action" (2 hours + 20min per 4MP)|-2
+|Casting time|"full round action" (4 hours + 20 minutes per 4MP dice)|-2
 |Range|30ft (30ft)|
 |Duration|12 min (1 day+)|+3
 |Components|incantation, kinetic|-1
@@ -1387,7 +1389,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (8)|
 |Target(s)|1sq (1sq)|
-|Casting time|"full round action" (2 hours + 20min per 4MP)|-2
+|Casting time|"full round action" (4 hours + 20 minutes per 4MP dice)|-2
 |Range|30ft (30ft)|+1
 |Duration|12 min (1 day+)|+3
 |Components|incantation, kinetic|-1
@@ -1415,7 +1417,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (8)|
 |Target(s)|1sq (1sq)|
-|Casting time|"full round action" (2 hours + 20min per 4MP)|-2
+|Casting time|"full round action" (4 hours + 20 minutes per 4MP dice)|-2
 |Range|30ft (30ft)|
 |Duration|12 min (1 day+)|+3
 |Components|incantation, kinetic|-1
@@ -1443,7 +1445,7 @@ ____
 |Scope|local (global)|
 |MP Dice|2 (8)|
 |Target(s)|1 entity|
-|Casting time|1 main action (4 hours)|
+|Casting time|1 main action (2 hours + 20 minutes per 4MP dice)|
 |Range|close|
 |Duration|12 min (1 day+)|+3
 |Components|incantation|+1
@@ -1473,7 +1475,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (8)|
 |Target(s)|20ft radius round a square in range (400ft)|+6
-|Casting time|"full round" (4h + 40min per 4MP) |-1
+|Casting time|"full round" (2 hours + 20 minutes per 4MP dice) |-1
 |Range|30ft|
 |Duration|12min (1 day+)|+3
 |Components|kinetic|
@@ -1496,7 +1498,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (8)|
 |Target(s)|30ft (400ft)|+4 (Ground only)
-|Casting time|"1 minute" (24h +2h per 4Mp dice)|-2
+|Casting time|"1 minute" (2 hours + 20 minutes per 4MP dice)|-2
 |Range|close|-2
 |Duration|8 hours (1 month)|+9
 |Components|incantation, kinetic| -1
@@ -1554,7 +1556,7 @@ ___
 |Scope|local (global)|
 |MP Dice|3 (12)|
 |Target(s)|1sq (1sq)|
-|Casting time|"full round action" (4h + 40min per 4MP)|-2
+|Casting time|"full round action" (3 hours + 20 minutes per 4MP dice)|-2
 |Range|30ft (30ft)|
 |Duration|60 min (1 week+)|+6(5)
 |Components|kinetic|(5)
@@ -1585,7 +1587,7 @@ ___
 |Scope|local (global)|
 |MP Dice|3 (8)|
 |Target(s)|1sq (1sq)|
-|Casting time|"full round action" (4h + 40min per 4MP)|-2
+|Casting time|"full round action" (3 hours + 20 minutes per 4MP dice)|-2
 |Range|30ft (30ft)|
 |Duration|60 min (1 week+)|+6
 |Components|incantation, kinetic|-1
@@ -1610,7 +1612,7 @@ ___
 |Scope|local (global)|
 |MP Dice|3| 
 |Target(s)|1 entity|
-|Casting time|"1 main action" (3 hours)|
+|Casting time|"1 main action" (3 hours + 20 minutes per 4MP dice)|
 |Range|close|-1(9)
 |Duration|1 hour (1 day)|5(15)
 |Components|incantation, kinetic|-1(14)
@@ -1705,7 +1707,7 @@ ___
 |Scope|local (global)|
 |MP Dice|3 (12)|
 |Target(s)|1 entity/15ft (200ft)|+6
-|Casting time|"full round"/"reaction"(12h + 6h per 4MP)|(5,10)
+|Casting time|"full round"/"reaction"(3 hours + 20 minutes per 4MP dice)|(5,10)
 |Range|close|(3,8)
 |Duration|1h/1min (1 week)|(9,9)
 |Components|incantation, kinetic|(8,8)
@@ -1737,7 +1739,7 @@ ___
 |Scope|local (global)|
 |MP Dice|3 MP dice (12 MP dice)|
 |Target(s)|Up to 6 entities, no larger than "huge"|+9
-|Casting time|1 full round action (1 hour)|-2
+|Casting time|1 full round action (3 hours + 20 minutes per 4MP dice)|-2
 |Range|close|-1
 |Duration|1 min (4 hours)|+1
 |Components|kinetic|
@@ -1767,7 +1769,7 @@ ___
 |Scope|local (global)|
 |MP Dice|3 (12)|
 |Target(s)|1 entity/10ft (200ft)|+4
-|Casting time|"full round"/"reaction"(12h + 6h per 4MP)|(3,8)
+|Casting time|"full round"/"reaction"(3 hours + 20 minutes per 4MP dice)|(3,8)
 |Range|close|(3,8)
 |Duration|1h/1min (1 week)|(9,9)
 |Components|incantation, kinetic|(8,8)
@@ -1800,7 +1802,7 @@ ___
 |Scope|local (global)|
 |MP Dice|3 (12)|
 |Target(s)|1 entity or an object that fits within a 5ft square (100ft)|
-|Casting time|"main action" (3 hours + 1 h per 4MP)|
+|Casting time|"main action" (3 hours + 20 minutes per 4MP dice)|
 |Range|close|-3
 |Duration|1h (1 week)|+12(9)
 |Components|incantation, kinetic|-1(8)
@@ -1820,7 +1822,7 @@ ___
 |Scope|local (global)|
 |MP Dice|3 (12)|
 |Target(s)|1 entity (100ft)|
-|Casting time|"full round" (12h + 6 per 3MP)|-1
+|Casting time|"full round" (3 hours + 20 minutes per 4MP dice)|-1
 |Range|close|-2(-3)
 |Duration|1h (1 week)|+6(3)
 |Components|incantation, kinetic|-1(2)
@@ -1841,7 +1843,7 @@ ___
 |Scope|local (global)|
 |MP Dice|3 (12)|
 |Target(s)|1 entity (100ft)|
-|Casting time|"full round" (12h + 6 per 3MP)|-1
+|Casting time|"full round" (3 hours + 20 minutes per 4MP dice)|-1
 |Range|close|-2
 |Duration|1h (1 week)|
 |Components|incantation, kinetic|
@@ -1862,7 +1864,7 @@ ___
 |Scope|local (global)|
 |MP Dice|3 (12)|
 |Target(s)|1 entity|
-|Casting time|1 main action (3 hours)|
+|Casting time|1 main action (3 hours + 20 minutes per 4MP dice)|
 |Range|close|-1
 |Duration|1 hour (1 week)|6(5)
 |Components|kinetic|
@@ -1891,7 +1893,7 @@ ___
 |Scope|local (global)|
 |MP Dice|3 (12)|
 |Target(s)|1 entity or item|
-|Casting time|"full round" (6h + 6h per 4MP)|-1
+|Casting time|"full round" (3 hours + 20 minutes per 4MP dice)|-1
 |Range|30ft|
 |Duration|1 day (permanent)|+24(23)
 |Components|kinetic|(21)
@@ -1934,7 +1936,7 @@ ___
 |Scope|local (global)|
 |MP Dice|3 (12)|
 |Target(s)|4 objects occupying no more than a roughly 5ft cube each (50ft radius)|+3
-|Casting time|1 main action (1h + 20min per 4MP)|
+|Casting time|1 main action (3 hours + 20 minutes per 4MP dice)|
 |Range|30ft|+2
 |Duration|1 minute (1 hour)|+6
 |Components|Incantation|
@@ -1960,7 +1962,7 @@ ___
 |Scope|local (global)|
 |MP Dice|3 (12)|
 |Target(s)|1 or more entities|
-|Casting time|"main action" (1h + 20min per 4MP)|
+|Casting time|"main action" (3 hours + 20 minutes per 4MP dice)|
 |Range|close|
 |Duration|12 min+ (1 day+)|+6
 |Components|incantation|+1(7)
@@ -1981,7 +1983,7 @@ ___
 |Scope|local (global)|
 |MP Dice|3 (12)|
 |Target(s)|1 entity (1 locus of origin)|
-|Casting time|1 action (1 hour)|
+|Casting time|1 action (3 hours + 20 minutes per 4MP dice)|
 |Range|close/60ft (close/1200ft)|+2
 |Duration|12 minutes (1 day)|+3
 |Components|kinetic|
@@ -2005,7 +2007,7 @@ ___
 |Scope|local (global)|
 |MP Dice|3 (12)|
 |Target(s)|1 entity|
-|Casting time|"1 full round action" (6 hours)|-1
+|Casting time|"1 full round action" (3 hours + 20 minutes per 4MP dice)|-1
 |Range|120ft (close)|+3
 |Duration|12 minutes|+3
 |Components|incantation, kinetic| -1
@@ -2029,7 +2031,7 @@ ___
 |Scope|local (global)|
 |MP Dice|3 (12)|
 |Target(s)|1 entity/15ft (300ft)|+6
-|Casting time|"full round"/"reaction"(12h + 6h per 4MP)|(5,10)
+|Casting time|"full round"/"reaction"(3 hours + 20 minutes per 4MP dice)|(5,10)
 |Range|15ft|(4,9)
 |Duration|1h/1min (1 week)|(12,12)
 |Components|incantation, kinetic|(11,11)
@@ -2083,7 +2085,7 @@ ___
 |Scope|Local (Global)|
 |MP Dice|3 (12)|
 |Target(s)|3 or more entities(300ft)|+4
-|Casting time|"main action" (6h + 2h per 4MP)|
+|Casting time|"main action" (3 hours + 20 minutes per 4MP dice)|
 |Range|close|-2(2)
 |Duration|8h+ (1 month)|+9(9)
 |Components|kinetic|
@@ -2107,7 +2109,7 @@ ___
 |Scope|local (global)|
 |MP Dice|3 (12)|
 |Target(s)|1 entity/10ft (200ft)|+4
-|Casting time|"full round"/"reaction"(6h + 3h per 4MP)|(3,7)
+|Casting time|"full round"/"reaction"(3 hours + 20 minutes per 4MP dice)|(3,7)
 |Range|15ft|(2,6)
 |Duration|1h/1min (1 week)|(8,9)
 |Components|incantation, kinetic|(7,8)
@@ -2138,7 +2140,7 @@ ___
 |Scope|Local (Global)|
 |MP Dice|3 (12)|
 |Target(s)|1 or more entities|
-|Casting time|"main action" (3h + 1h per 4MP)|
+|Casting time|"main action" (3 hours + 20 minutes per 4MP dice)|
 |Range|close|
 |Duration|12 min+ (1 day+)|+6
 |Components|incantation|+1(7)
@@ -2185,7 +2187,7 @@ ___
 |Scope|local (global)|
 |MP Dice|4 (16)|
 |Target(s)|1sq (1sq)|
-|Casting time|"1 min" (4 days + 1 day per 4MP)|
+|Casting time|"1 min" (4 hours + 20 minutes per 4MP dice)|
 |Range|15ft|-1
 |Duration|1 hour (1 week)|+6(5)
 |Components|incantation, kinetic|-1(4)
@@ -2210,7 +2212,7 @@ ___
 |Scope|local (global)|
 |MP Dice|4 (16)|
 |Target(s)|2 entities* (2 entities*)|+2
-|Casting time|"main action" (4h + 40 min per 4MP dice)|
+|Casting time|"main action" (4 hours + 20 minutes per 4MP dice)|
 |Range|close/540ft (close/180 miles)|+8(10)
 |Duration|instantaneous|
 |Components|kinetic|-1(9)
@@ -2236,7 +2238,7 @@ ___
 |Scope|local (global)|
 |MP Dice|4 (16)|
 |Target(s)|20ft radius (400ft radius)|+8
-|Casting time|"full round action" (8h + 8h per 4MP dice)|-1(7)
+|Casting time|"full round action" (4 hours + 20 minutes per 4MP dice)|-1(7)
 |Range|close|-(5)
 |Duration|12 min (1 day)|+3(8)
 |Focus|A skull|-1(7)
@@ -2267,7 +2269,7 @@ ___
 |Scope|local (global)|
 |MP Dice|4 (16)|
 |Target(s)|20ft radius (400ft radius)|+8
-|Casting time|"full round action" (8h + 8h per 4MP dice)|-1(7)
+|Casting time|"full round action" (4 hours + 20 minutes per 4MP dice)|-1(7)
 |Range|close|-(5)
 |Duration|12 min (1 day)|+3(8)
 |Focus|A skull|-1(7)
@@ -2300,7 +2302,7 @@ ___
 |Scope|local (global)|
 |MP Dice|4 (16)|
 |Target(s)|1 entity|
-|Casting time|"main action" (2h + 40min per 4MP)|
+|Casting time|"main action" (4 hours + 20 minutes per 4MP dice)|
 |Range|close|
 |Duration|1h (1 week)|+6
 |Components|kinetic|(6)
@@ -2324,7 +2326,7 @@ ___
 |Scope|local (global)|
 |MP Dice|4 (16)|
 |Target(s)|40ft radius, 15ft depth (800ft radius, 100ft depth)|+8
-|Casting time|"1 action" (4h + 1h per 4MP dice)|
+|Casting time|"1 action" (4 hours + 20 minutes per 4MP dice)|
 |Range|close|-2(6)
 |Duration|12 minutes (1 day)|+6(12)
 |Concentration|local|-3(9)
@@ -2353,7 +2355,7 @@ ___
 |Scope|local (global)|
 |MP Dice|4 (16)|
 |Target(s)|1 entity (120ft radius)|
-|Casting time|1 full round action (1 day)|-2
+|Casting time|1 full round action (4 hours + 20 minutes per 4MP dice)|-2
 |Range|close|-1
 |Duration|24 hours (4 months)|+9
 |Components|Incantation, Kinetic|-1
@@ -2404,7 +2406,7 @@ ___
 |Scope|local (global)|
 |MP Dice|4 (20)|
 |Target(s)|3 entities (360ft)|
-|Casting time|1 full round action (24 hours)|-1
+|Casting time|1 full round action (4 hours + 20 minutes per 4MP dice)|-1
 |Range|close|
 |Duration|12 minutes (1 day)|+3
 |Components|incantation|+1
@@ -2448,7 +2450,7 @@ ___
 |Scope|local (global)|
 |MP Dice|4 (16)|
 |Target(s)|20ft radius (20ft radius)|+4
-|Casting time|1 full round (4 hours + 1h/4MP dice)|-2
+|Casting time|1 full round (4 hours + 20 minutes per 4MP dice)|-2
 |Range|close (close)|-1
 |Duration|12 minutes (special)|
 |Components|incantation,kinetic|-1
@@ -2497,7 +2499,7 @@ ___
 |Scope|local (global)|
 |MP Dice|4 (16)|
 |Target(s)|1 entity|
-|Casting time|"1 full round action" (3 hours)|-2(17)
+|Casting time|"1 full round action" (4 hours + 20 minutes per 4MP dice)|-2(17)
 |Range|close|-1(16)
 |Duration|1 hour (1 day)|6(22)
 |Components|incantation, kinetic|-1(21)
@@ -2517,7 +2519,7 @@ ___
 |Scope|local (global)|
 |MP Dice|4 (16)|
 |Target(s)|30ft centered on a square (600ft)|+8
-|Casting time|"main action" (4h + 40 min per 4MP dice)|
+|Casting time|"main action" (4 hours + 20 minutes per 4MP dice)|
 |Range|120ft|+2(10)
 |Duration|1 min (1 hour)|+6(16)
 |Concentration|local|
@@ -2541,7 +2543,7 @@ ___
 |Scope|local (global)|
 |MP Dice|4 (16)|
 |Target(s)|30ft (600ft)|+6
-|Casting time|"full round" (8 hours + 8 hours per 4MP)|-1(5)
+|Casting time|"full round" (4 hours + 20 minutes per 4MP dice)|-1(5)
 |Range|close|
 |Duration|12 min (1 day)|+3(8)
 |Focus|A crystal whistle|-1(7)
@@ -2564,7 +2566,7 @@ ___
 |Scope|local (global)|
 |MP Dice|4 (16)|
 |Target(s)|1sq (1sq)|
-|Casting time|"main action" (2 hours + 20 min per 4MP)|
+|Casting time|"main action" (4 hours + 20 minutes per 4MP dice)|
 |Range|close|-1
 |Duration|12 min (2 days)|+3
 |Components|kinetic|
@@ -2605,7 +2607,7 @@ ___
 |Scope|local (global)|
 |MP Dice|4 (16)|
 |Target(s)|20ft radius (400ft)|8
-|Casting time|"main action" (4h +4h per 4MP)|
+|Casting time|"main action" (4 hours + 20 minutes per 4MP dice)|
 |Range|120ft|+2(10)
 |Duration|12 min (1 day)|+3(13)
 |Components|kinetic|
@@ -2635,7 +2637,7 @@ ___
 |Scope|local (global)|
 |MP Dice|4 (16)|
 |Target(s)|30ft radius (600ft)| (+12)
-|Casting time|"1 minute" (4 days + 1 day per 4MP)|-2(10)
+|Casting time|"1 minute" (4 hours + 20 minutes per 4MP dice)|-2(10)
 |Range|close|-2(8)
 |Duration|instantaneous|
 |Components|incantation, kinetic|-1(7)
@@ -2660,7 +2662,7 @@ ___
 |Scope|local (global)|
 |MP Dice|4 (16)|
 |Target(s)|1 entity or object|
-|Casting time|"main action" (4h + 40min per 4MP dice)|
+|Casting time|"main action" (4 hours + 20 minutes per 4MP dice)|
 |Range|720ft (240 miles)|+11
 |Duration|12 min (1 day)|+6(17)
 |Components|kinetic|
@@ -2705,7 +2707,7 @@ ___
 |Scope|local (global)|
 |MP Dice|4 (16)|
 |Target(s)|1sq (1sq)|
-|Casting time|"full round action" (4 hours + 40 min per 4MP)| -2
+|Casting time|"full round action" (4 hours + 20 minutes per 4MP dice)| -2
 |Range|15ft|+1
 |Duration|12 min (2 days)|+3
 |Components|incantation|+1
@@ -2760,7 +2762,7 @@ ___
 |Scope|local (global)|
 |MP Dice|5 (20)|
 |Target(s)|2 entities* (2 entities*)|+2
-|Casting time|"secondary action" (4h + 40 min per 4MP dice)|+2
+|Casting time|"secondary action" (5 hours + 20 minutes per 4MP dice)|+2
 |Range|close/600ft (close/200 miles)|+9(13)
 |Duration|instantaneous|
 |Components|kinetic|-1(12)
@@ -2787,7 +2789,7 @@ ___
 |Scope|local (global)|
 |MP Dice|5 (20)|
 |Target(s)|1 object (medium)|
-|Casting time|1 action (5h + 5h per 5 MP dice)|
+|Casting time|1 action (5 hours + 20 minutes per 4MP dice)|
 |Range|close|
 |Duration|1 day (permanent)|+24
 |Components|incantation|+1(25)
@@ -2814,7 +2816,7 @@ ___
 |Scope|local (global)|
 |MP Dice|5 (20)|
 |Target(s)|50ft radius (or 100ft. 60 degree cone)| 11
-|Casting time|1 full round action (10 hours)| -2 (9)
+|Casting time|1 full round action (2 days + 5 hours per 4MP dice)| -2 (9)
 |Range|120ft (close for cone)| 4 (13)
 |Duration|Instantaneous|
 |Components|kinetic|
@@ -2842,7 +2844,7 @@ ___
 |Scope|local (global)|
 |MP Dice|5 (20)|
 |Target(s)|1 entity (120ft radius)|
-|Casting time|1 full round action (1 day)|-2
+|Casting time|1 full round action (5 hours + 20 minutes per 4MP dice)|-2
 |Range|close|-2 
 |Duration|1 day (1 year)|+12
 |Components|Incantation, Kinetic|-1
@@ -2866,7 +2868,7 @@ ___
 |Scope|local (global)|
 |MP Dice|5 (20)|
 |Target(s)|40ft radius (800ft radius)|+9
-|Casting time|"full round action" (4h + 1h per 4 MP dice)|
+|Casting time|"full round action" (5 hours + 20 minutes per 4MP dice)|
 |Range|30ft|+1(10)
 |Duration|12 minutes (1 day)|+12(22)
 |Components|incantation,kinetic|-1(21)
@@ -2897,7 +2899,7 @@ ___
 |Scope|local (global)|
 |MP Dice|5 (20)|
 |Target(s)|6 entities|
-|Casting time|"1 main action" (5 hours + 1 hour per 4 MP dice)|
+|Casting time|"1 main action" (5 hours + 20 minutes per 4MP dice)|
 |Range|30ft|+2
 |Duration|1 hour (1 week)|+6()
 |Components|incantation|
@@ -2921,7 +2923,7 @@ ___
 |Scope|local (global)|
 |MP Dice|5 (20)|
 |Target(s)|1 entity|
-|Casting time|1 main action (1 day)|
+|Casting time|1 main action (5 hours + 20 minutes per 4MP dice)|
 |Range|60ft|
 |Duration|1 hour (1 month)|
 |Components|Kinetic|
@@ -2949,7 +2951,7 @@ ___
 |-|-|
 |Scope|local (global)|
 |MP Dice|5 (20)|
-|Target(s)|10ft radius (200ft radius)|+2
+|Target(s)|10ft radius (2 days + 5 hours per 4 MP dice)|+2
 |Casting time|"1 main action" or "1 reaction" (4 hours)|+2
 |Range|30ft|+1
 |Duration|1 hour (1 month)|+6
@@ -2968,7 +2970,7 @@ ___
 
 **Upcast**: For every extra MP die above 5 used to cast the spell, the radius increases by 10ft, or the range increases by 30ft.
 
-**Global**: The spell has a radius of 200ft and a duration of 1 month. For every extra 4MP dic used, the duration increases by a month or the radius increases by 200ft.
+**Global**: The spell has a radius of 200ft and a duration of 1 month. For every extra 4MP die used, the duration increases by a month or the radius increases by 200ft.
 
 ___
 ### Pact
@@ -2977,7 +2979,7 @@ ___
 |Scope|local (global)|
 |MP Dice|5 (20)|
 |Target(s)|(2 entities)|+2
-|Casting time|full round action (1 day + 4h per 4 MP dice)|
+|Casting time|full round action (5 hours + 20 minutes per 4MP dice)|
 |Range|close|
 |Duration|1 day (1 year)|+12(14)
 |Components|incantation|+1(15)
@@ -3006,8 +3008,8 @@ ___
 |Scope|local (global)|
 |MP Dice|5 (20)|
 |Target(s)|3 entities (300ft radius)|
-|Casting time|main action|
-|Range|120 feet|
+|Casting time|main action (5 hours + 20 minutes per 4MP dice)|
+|Range|120 feet (300ft)|
 |Duration|1 minute (1 day, special)|
 |Components|kinetic|
 |Focus|-|
@@ -3064,7 +3066,7 @@ ___
 |Scope|local (global)|
 |MP Dice|5 (20)|
 |Target(s)|A spot on the ground, special (see below)|
-|Casting time|1 full round (10 hours + 2 hours per 4MP dice)|-2
+|Casting time|1 full round (2 days + 5 hours per 4MP dice)|-2
 |Range|120ft|+3(1)
 |Duration|Instantaneous|
 |Components|incantation, kinetic|-1(0)
@@ -3091,7 +3093,7 @@ ___
 |Scope|local (global)|
 |MP Dice|5 (20)|
 |Target(s)|1 entity|
-|Casting time|"1 main action" (3 hours)|
+|Casting time|"1 main action" (5 hours + 20 minutes per 4MP dice)|
 |Range|close|-1(21)
 |Duration|1 hour (1 day)|5(26)
 |Components|incantation, kinetic|-1(25)
@@ -3115,7 +3117,7 @@ ___
 |Scope|local (global)|
 |MP Dice|5 (20)|
 |Target(s)|1sq (1sq)|
-|Casting time|"full round action" (5 hours + 1 hour per 4MP)|-2
+|Casting time|"full round action" (5 hours + 20 minutes per 4MP dice)|-2
 |Range|30ft (30ft)|
 |Duration|1 hour (1 week+)|+6
 |Components|incantation, kinetic|-1
@@ -3206,7 +3208,7 @@ ___
 |Scope|local (global)|
 |MP Dice|6 (24)|
 |Target(s)|1 entity|
-|Casting time|1 action (6 days)|
+|Casting time|1 action (3 days + 5 hours per 4 MP dice)|
 |Range|close|
 |Duration|1 hour (1 month)|
 |Limitation|Only affects entities with a physical form|
@@ -3231,7 +3233,7 @@ ___
 |Scope|local (global)|
 |MP Dice|6|
 |Target(s)|40ft radius centered on a square, 60ft height (800ft, 100ft high)|+7
-|Casting time|"main action" (6 hours + 1h per 4MP)|
+|Casting time|"main action" (3 days + 5 hours per 4 MP dice)|
 |Range|close|
 |Duration|1 min (6h)|+4(14)
 |Components|incantation, kinetic|-1(13)
@@ -3255,7 +3257,7 @@ ___
 |Scope|local (global)|
 |MP Dice|6 (24)|
 |Target(s)|50ft (1000ft)|
-|Casting time|"full round"/"reaction"(12h + 6h per 4MP)|-2
+|Casting time|"full round"/"reaction"(3 days + 5 hours per 4 MP dice)|-2
 |Range|close|-1
 |Duration|1 hour (1 month)|+12
 |Components|incantation/kinetic|-1
@@ -3286,7 +3288,7 @@ ___
 |Scope|local (global)|
 |MP Dice|6 (30)|
 |Target(s)|1 entity|
-|Casting time|"1 full round action" (6 hours)|-2(30)
+|Casting time|"1 full round action" (6 hours + 20 minutes per 4MP dice)|-2(30)
 |Range|close|-1(29)
 |Duration|1 hour (1 day)|6(34)
 |Components|incantation, kinetic|-1(33)
@@ -3307,7 +3309,7 @@ ___
 |Scope|local (global)|
 |MP Dice|6 (24)|
 |Target(s)|60ft radius (1200ft)| (10+7)
-|Casting time|"full round action"/"reaction" (6h + 1h per 4 MP dice)|-2(15)
+|Casting time|"full round action"/"reaction" (3 days + 5 hours per 4 MP dice)|-2(15)
 |Range|30ft|+1(16)
 |Duration|12 minutes/1 minute (1 month)|+12(28)
 |Components|incantation, kinetic|-1(27)
@@ -3344,7 +3346,7 @@ ___
 |Scope|local (global)|
 |MP Dice|6 (24)|
 |Target(s)|40ft (800ft)|
-|Casting time|"full round" (6h + 3h per 4MP)|-2
+|Casting time|"full round" (3 days + 5 hours per 4 MP dice)|-2
 |Range|30ft|+1
 |Duration|12 minutes (1 month)|+6
 |Components|incantation, kinetic|-1
@@ -3407,7 +3409,7 @@ ___
 |Scope|local (global)|
 |MP Dice|6 (24)|
 |Target(s)|50ft radius (1000ft)| (+20) 
-|Casting time|"full round action" (12h + 2h per 4MP)|18(-2)
+|Casting time|"full round action" (6 hours + 20 minutes per 4 MP dice)|18(-2)
 |Range|30ft (30ft)|16(-2)
 |Duration|60 min (1 week+)|22(+6)
 |Components|incantation + kinetic|21(-1)
@@ -3430,7 +3432,7 @@ If the undead are not destroyed by the end of the spell, or the caster loses con
 
 **Upcast**: For every MP die above 6 added (4 MP dice for global), the radius of the effect increases by 15ft.
 
-**Global**: The spell has a radius of 1000ft and the duration is 1 week. For every 4 MP dice extra, the casting time increases by 2h, and the radius increases by 300ft. The spell does not require concentration is, **but** the caster cannot cast the spell again as a global spell for a week.
+**Global**: The spell has a radius of 1000ft and the duration is 1 week. For every 4 MP dice extra, the radius increases by 300ft. The spell does not require concentration is, **but** the caster cannot cast the spell again as a global spell for a week.
 
 **Notes**: This spell produces a large number of units, possibly in the thousands. It is recommended that the DM controls the legion and uses it as a single group or AoE rather than individually rolling for each undead.
 
@@ -3441,7 +3443,7 @@ ___
 |Scope|local (global)|
 |MP Dice|6 (24)|
 |Target(s)|50ft radius (1000ft radius)|
-|Casting time|1 main action (6 hours + 1 hour per 4 MP dice)|
+|Casting time|1 main action (6 hours + 20 minutes per 4 MP dice)|
 |Range|240ft (1200ft)|+4
 |Duration|12 minutes (1 day)|+6
 |Components|Kinetic|
@@ -3469,7 +3471,7 @@ ___
 |Scope|local (global)|
 |MP Dice|6 (24)|
 |Target(s)|1 mortal|
-|Casting time|"full round action" (8h)|-2
+|Casting time|"full round action" (6 hours)|-2
 |Range|15ft|
 |Duration|1 day|+12
 |Components|incantation, kinetic|-1
@@ -3529,7 +3531,7 @@ ___
 |Scope|local(global)|
 |MP Dice|6 (24)|
 |Target(s)|7 entities (special)|+7/8/9
-|Casting time|1 full round action (1 day)|-2
+|Casting time|1 full round action (6 hours)|-2
 |Range|close|
 |Duration|Special| +3
 |Components|kinetic OR incantation|
@@ -3617,7 +3619,7 @@ ___
 |Scope|local (global)|
 |MP Dice|6 (24)|
 |Target(s)|1sq (1sq)|
-|Casting time|"full round action" (6 hours + 1 hour per 4MP)|-2
+|Casting time|"full round action" (6 hours + 20 minutes per 4MP)|-2
 |Range|30ft (30ft)|
 |Duration|1 hour (1 week+)|+6
 |Components|incantation, kinetic|-1
@@ -3691,7 +3693,7 @@ ___
 |Scope|global|
 |MP Dice|28|
 |Target(s)|2 points the caster knows|
-|Casting time|8 hours|
+|Casting time|7 hours|
 |Range|The realm|+30
 |Duration|-|
 |Components|incantation|+1
@@ -3713,7 +3715,7 @@ ___
 |Scope|local (global)|
 |MP Dice|7 (28)|
 |Target(s)|60ft (1200ft)|17
-|Casting time|"full round" (14 hours + 7 hours per 4MP)|-1(16)
+|Casting time|"full round" (3 days + 5 hours per 4MP dice)|-1(16)
 |Range|120ft|+(19)
 |Duration|8 hours (1 month)|+9(28)
 |Focus|A crystal whistle|-1(27)
@@ -3840,7 +3842,7 @@ ___
 |Scope|local (global)|
 |MP Dice|7 (28)|
 |Target(s)|20ft radius (20ft radius)|+4
-|Casting time|"main action" (7h + 1h per 4MP dice)|
+|Casting time|"main action" (7 hours + 30 minutes per 4MP dice)|
 |Range|close/2400ft (close/unlimited)|+8
 |Duration|1 minute|
 |Components|kinetic|-1
@@ -3864,7 +3866,7 @@ ___
 |Scope|local (global)|
 |MP Dice|7 (28)|
 |Target(s)|1 entity|
-|Casting time|"main action" (3h + 40min per 4MP)|
+|Casting time|"main action" (7 hours + 20 minutes per 4MP)|
 |Range|15ft|
 |Duration|1h (1 week)|+6
 |Limitation|Target must be a mortal|
@@ -3904,7 +3906,7 @@ ___
 |Scope|local (global)|
 |MP Dice|8 (32)|
 |Target(s)|40ft radius (40ft radius)|+8
-|Casting time|1 full round (1 day)|-2
+|Casting time|1 full round (4 days)|-2
 |Range|close (close)|-1
 |Duration|1 hour (special)|+6
 |Components|incantation,kinetic|-1
@@ -3935,7 +3937,7 @@ ___
 |Scope|local (global)|
 |MP Dice|8 (32)|
 |Target(s)|60ft radius (1200ft)|+16
-|Casting time|"1 main action" or "1 reaction" (8 hours)|+2
+|Casting time|"1 main action" or "1 reaction" (4 days + 5 hours per 4MP dice)|+2
 |Range|60ft|+2
 |Duration|1 day (1 year)|+12
 |Components|incantation, kinetic|-1
@@ -4164,7 +4166,7 @@ ___
 |Scope|local (global)|
 |MP Dice|9 (36)|
 |Target(s)|100ft radius column, height 150ft (2000ft radius, height of 1 mile)|30
-|Casting time|1 full round action (18 hours)|-2(28)
+|Casting time|1 full round action (9 days)|-2(28)
 |Range|240ft (1 mile)|3(31)
 |Duration|1 minute (2 hours)|6(37)
 |Components|incantation,kinetic|-1(36)
@@ -4264,7 +4266,7 @@ ____
 |Scope|local(global)|
 |MP Dice|10 (40)|
 |Target(s)|1 (10 mile radius)|
-|Casting time|1 main action (7 days)|
+|Casting time|1 main action (10 days)|
 |Range|120ft (close)|
 |Duration|1 day (instantaneous)|
 |Components|incantation, kinetic|-1
@@ -4340,7 +4342,7 @@ ____
 |Scope|local (global)|
 |MP Dice|10 (40)|
 |Target(s)|80ft radius, (3/4 mile radius)|+22
-|Casting time|"full round action" (10 days + 1 days per 4MP)|-2(8)
+|Casting time|"full round action" (10 days)|-2(8)
 |Range|close|-1(7)
 |Duration|12 minutes (1 weeks)|+12(19)
 |Components|incantation, kinetic|-1(18)
@@ -4389,7 +4391,7 @@ ____
 |Scope|local (global)|
 |MP Dice|10 (40)|
 |Target(s)|110ft radius centered on a square, 160ft height (1 mile, 600ft high)|+19
-|Casting time|"main action" (10 days + 1 day per 4MP)|
+|Casting time|"main action" (10 days)|
 |Range|close|
 |Duration|12 min (2 days)|+12(31)
 |Components|incantation, kinetic|-1(30)
@@ -4459,7 +4461,7 @@ ____
 |Scope|global|
 |MP Dice|40|
 |Target(s)|1000ft radius centered on a square|+10
-|Casting time|10 days + 1 day per 4MP|
+|Casting time|10 days|
 |Range|close|-1(9)
 |Duration|Permanent|+36(45)
 |Components|incantation, kinetic|-1(44)

@@ -4489,20 +4489,6 @@ ____
 
 ____
 
-___
-
-|||
-|-|-|
-|Name| []|
-|Scope||
-|MP Dice||
-|Target(s)||
-|Casting time||
-|Range||
-|Duration||
-|Components||
-|Save||
-
 ## Spell List by Spellcasting Type
 
 ### MP 0

@@ -807,7 +807,7 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Root|+8|1d10+3 piercing|reach=10ft, a tripede can chose to "grapple" a target hit by its root without expending an SP dice|
-|Barb|+6|1d6+1 piercing + 2d6 poison|cost = 1 SP dice. Range = 120/30ft. An entity that is large or smaller that is hit by the attack and does not succeed a Con save (threshold=19) at the start of its turn becomes "restrained". It may repeat the save at the start of each turn. If it fails a second time, it is "immobilised", if it fails a third, it is "paralysed". If a victim fails its save 6 times it is paralysed until it receives treatment.|
+|Barb|+6|1d6+1 piercing + 2d6 poison|cost = 1 SP dice. Range = 120/30ft. An entity that is large or smaller that is hit by the attack and does not succeed a Con save (Threshold=19) at the start of its turn becomes "restrained". It may repeat the save at the start of each turn. If it fails a second time, it is "immobilised", if it fails a third, it is "paralysed". If a victim fails its save 6 times it is paralysed until it receives treatment.|
 |Resistance|||"prone"|
 |Manoeuvres|||"grapple"|
 |Monster Attack II|||The tripede makes one attack with its barbed dart and two with its roots as a "main action"|

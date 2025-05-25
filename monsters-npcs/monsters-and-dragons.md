@@ -48,7 +48,7 @@ Tiny(+2/-2)
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Bite|+4|1d3+2[Shear]|The imp's bite contains a poison. The target must succeed a Threshold=14 CON save *immediately* when hit. If it fails, then it suffers from "aphonia". The aphonia lasts for an hour. It also becomes "immobilised" *at the end of its turn*. The save is repeated at the start of every turn. Upon success, victim is no longer affected by "immobilised", but the "aphonia" remains.|
-|Mimicry|||A motionless Cradle Imp is nigh indistinguishable from a plus toy. However, the difference is detectable with "Truesight" or a Threshold=17 observe roll, by entities with "Keen Senses: Scent" or "Heat-sense".
+|Mimicry|||A motionless Cradle Imp is nigh indistinguishable from a plush toy. However, the difference is detectable with "Truesight" or a Threshold=17 observe roll, by entities with "Keen Senses: Scent" or "Heat-sense".
 |Skills|||"Stealth: +4", "Deception: +3"|
 |Senses|||"Heat Sense", "Keen senses: Hearing"|
 
@@ -730,7 +730,7 @@ ___
 |Attacks|Bonus|Damage|Other|
 |-|-|-|-|
 |Claws|+16|1d8+8|Reach 5ft (long)|
-|Bite|+16|1d12+8|Poison: Threshold=23 or lose 1 point of DEX|
+|Bite|+16|1d12+8|Poison: Threshold=23 or lose 1d6 point of DEX|
 |Tail|+13|1d6+6|Reach 10ft (long)|
 - A lesser dragon's attack count as having "draconic source" (level 4 material), this is already taken into account for the stat block.
 - A lesser dragon can make 3 attacks as part of "multi-attack II", of these it can use bite and tail only once each.
@@ -802,7 +802,7 @@ ___
 |Attacks|Bonus|Damage|Other|
 |-|-|-|-|
 |Claws|+21|2d8+10||
-|Bite|+21|2d12+10|Poison: Threshold=26 or lose 1 point of DEX|
+|Bite|+21|2d12+10|Poison: Threshold=26 or lose 1d6 point of DEX|
 |Tail|+18|2d6+8|Reach 15ft|
 - A dragon's attack count as having "draconic source" (level 4 material), this is already taken into account for the stat block.
 - A dragon can make 3 attacks as part of "multi-attack II", of these it can use bite and tail only once each.
@@ -876,7 +876,7 @@ ___
 |Attacks|Bonus|Damage|Other|
 |-|-|-|-|
 |Claws|+17|1d8+9|Reach 5ft (long)|
-|Bite|+17|1d12+9|Poison: Threshold=20 or lose 1 point of DEX|
+|Bite|+17|1d12+9|Poison: Threshold=20 or lose 1d6 point of DEX|
 |Tail|+14|1d6+7|Reach 10ft (long)|
 - A lesser dragon's attack count as having "draconic source" (level 4 material), this is already taken into account for the stat block.
 - A lesser dragon can make 3 attacks as part of "multi-attack II", of these it can use bite and tail only once each.
@@ -944,7 +944,7 @@ ___
 |Attacks|Bonus|Damage|Other|
 |-|-|-|-|
 |Claws|+23|2d8+11||
-|Bite|+23|3d8+11|Poison: Threshold=26 or lose 1 point of DEX|
+|Bite|+23|3d8+11|Poison: Threshold=26 or lose 1d6 point of DEX|
 |Tail|+20|2d6+9|Reach 15ft|
 |Grapple, Restrain, Throw, Sunder|+16|||
 - A dragon's attack count as having "draconic source" (level 4 material), this is already taken into account for the stat block.
@@ -1019,7 +1019,7 @@ ___
 |Attacks|Bonus|Damage|Other|
 |-|-|-|-|
 |Claws|+18|1d8+10|Reach 5ft (long)|
-|Bite|+18|2d8+10|Poison: Threshold=23 or lose 1 point of DEX|
+|Bite|+18|2d8+10|Poison: Threshold=23 or lose 1d6 point of DEX|
 |Tail|+15|1d6+8|Reach 10ft (long)|
 |Grapple, Restrain, Throw, Sunder|+16|||
 - A lesser dragon's attack count as having "draconic source" (level 4 material), this is already taken into account for the stat block.

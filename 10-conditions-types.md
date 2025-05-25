@@ -418,7 +418,10 @@ An entity afflicted by conditions that make it unable to engage in physical comb
 - "**Charmed**": A charmed character cannot attack the source of its charm. It has disadvantage against [WIS], [CHA], [INT] saves vs it. In theory it perceives its words and actions in the most favourable manner. In practice players are players.
   - Charmed creatures have disadvantage on deception rolls vs their charmer.
 - "**Frightened**": A frightened character has disadvantage on targeted attacks. It must use its movement to move away from the source of its fear.
-- "**Poisoned**": Afflicted by a poison. This has some core effects and specific effects. I don't know what they are.
+- "**Poisoned**": Afflicted by a poison. This has the following general effects:
+  - A poisoned entity's base speed is halved.
+  - The entity makes all rolls at disadvantage.
+  - The specific poison may also cause additional effects.
 - "**Diseased**": Afflicted by a disease. This has degrees of effect. I don't know what they are.
 - "**Bleeding/Wilting**": A bleeding character loses HP every round. A [CON] save, or appropriate healing can stem this effect.
 - "**Inaudible**": A silent character makes no sound. It can neither make sounds willingly or unwillingly

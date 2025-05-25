@@ -326,3 +326,6 @@ ___
 ### Abilities
 - Improve wording on "[Deflect Missile](06-abilities.md#deflect-missile)".
 - Reduce MP dice requirements on "[Holy Strike](06-abilities.md#holy-strike)" and "[Unholy Strike](06-abilities.md#unholy-strike)"
+
+### Conditions and Types
+- Change definition for "poisoned" condition.

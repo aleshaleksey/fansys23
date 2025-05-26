@@ -30,6 +30,7 @@ Poisons have a several properties that can be described by game mechanics:
 - Threshold
 - Potency
 - Duration
+- Speed
 - Mode of Application
 - Affected system
 - Effect
@@ -42,6 +43,9 @@ This is the magnitude of the effect of the poison. In reality, potency can be in
 
 #### Duration
 By default, the conditions caused by a poison last for a week, while damage persists until it is healed by some means (for example by resting). The effects of some poisons (notably food poisoning) last for a day, while the effects of some particularly vile poisons are permanent.
+
+#### Onset
+Poisons can be fast acting or slow acting. Unless stated otherwise, a poison acts at the start of an entity's next turn, unless its mode of application is ingestion, in which case, the poison acts within an hour. Monster venom is fast acting when unrefined. Purified monster venom can be fast or slow acting. The speed is written as "immediate", or a given duration (eg, "10 minutes"). In this case the duration is the delay after an entity is "poisoned" that the poison takes effect.
 
 #### Mode of Application
 Poisons are generally most effective inside of the body. Some poisons are better at getting inside the body than others. The modes, listed by dominance, are:
@@ -103,31 +107,31 @@ Most poisons, like many substances, have a limited shelf-life. Poisons from beas
 ___
 ### Poison List
 Below is a table of existing poisons in FanSys. Groups are free to add their own poisons.
-|**Name**|**Type**|**Threshold**|**Duration**|**Modality**|**Effect**|
-|-|-|-|-|-|-|
-|Bee Venom|Necrotising|16|1 minute|Wounding|1d4 damage/round for 1 minute or until save is succeeded. Used for treating joint ailments amongst others.|
-|Viper Venom|Necrotising|18|1 minute|Wounding|1d6 damage/round for 1 minute or until save is succeeded. Used for treating joint ailments amongst others.|
-|Cobra Venom|Nerve|18|1 hour|Wounding|"[Paralysis](10-conditions-types.md#conditions-in-detail)" + "[suffocation](03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die)". A character repeats the save vs suffocation at the end of each minute, but the general paralysis last for the full duration.|
-|||||||
-|**Name**|**Type**|**Threshold**|**Duration**|**Modality**|**Effect**|
-|Bracken Extract|Nerve|14|Permanent|Ingestion|"[Blinded](10-conditions-types.md#conditions-in-detail)"|
-|Refined Fly-trap Poison|Nerve|15|1 week|Contact|3 saves (one per round): First fail."[restrained](10-conditions-types.md#conditions-in-detail)". It may repeat the save at the start of each turn. If it fails a second time, it is "[immobilised](10-conditions-types.md#conditions-in-detail)", if it fails a third, it is "[paralysed](10-conditions-types.md#conditions-in-detail)".|
-|Refined Tripede Poison|Nerve|19|1 week|Ingestion|3 saves (one per round): First fail."[restrained](10-conditions-types.md#conditions-in-detail)". It may repeat the save at the start of each turn. If it fails a second time, it is "[immobilised](10-conditions-types.md#conditions-in-detail)", if it fails a third, it is "[paralysed](10-conditions-types.md#conditions-in-detail)".|
-|Refined Tuber Extract|General|19|1 day|Inhalation|"[Charmed](10-conditions-types.md#conditions-in-detail)"|
-|||||||
-|**Name**|**Type**|**Threshold**|**Duration**|**Modality**|**Effect**|
-|Refined Cradle Venom|Nerve|14|1 day|Ingestion|"[Aphonia](10-conditions-types.md#conditions-in-detail)" + "[Immobilised](10-conditions-types.md#conditions-in-detail)"|
-|Concentrated Corpse Stork Venom|General|14|Permanent|Wounding|1d3 STR|
-|Sweet Ooze Extract|General|16|1 hour|Contact|2 saves. First fail: "[restrained](10-conditions-types.md#conditions-in-detail)". It may repeat the save at the start of each turn. If it fails a second time, it is "[immobilised](10-conditions-types.md#conditions-in-detail)".|
-|Hive Beast Venom|General|16|1 week|Ingestion|"[Incapacitated](10-conditions-types.md#conditions-in-detail)"|
-|Refined Mudcrawler Venom|Necrotising|16|Instantaneous|Wounding|1d10 poison damage (SP/MP)|
-|Concentrated Fell Beast Venom|Nerve|17|Permanent|Wounding|1d6 STR damage. On snake eyes "[paralysed](10-conditions-types.md#conditions-in-detail)"|
-|Refined Mudwalker Venom|Necrotising|22|Instantaneous|Contact|6d8 poison damage (SP/MP)|
-|Refined Dragon Venom|Necrotising/Nerve|26|Permanent|Ingested|2d6 DEX damage + 4d12 poison damage (SP/HP)|
-|||||||
-|**Name**|**Type**|**Threshold**|**Duration**|**Modality**|**Effect**|
-|Demon Extract|General|23|Permanent|Ingestion|*This supernatural poison treats poison immunity as if it were resistance.* 2d12+2 damage to MP dice count maximum. The character cannot use "[Holy Strike](06-abilities.md#holy-strike)", "[Spirit Strike](06-abilities.md#spirit-strike)", "[Truesight](06-abilities.md#truesight-i-v)" or "[Divine Strike](06-abilities.md#divine-strike)" or cast spells with a "divine" or "spiritual" descriptor. *Multiple applications do not stack.*|
-|Broken Fairy Poison|General|24|Permanent|Perception|*This supernatural poison treats poison immunity as if it were resistance.* On a failed save, an entity cannot use supernatural abilities until cured. Likewise it takes 2d6 CHA and 2d6 WIS damage. *Multiple applications do not stack.*|
+|**Name**|**Type**|**Threshold**|**Duration**|**Modality**|**Onset**|**Effect**|
+|-|-|-|-|-|-|-|
+|Bee Venom|Necrotising|16|1 minute|Wounding|Immediate|1d4 damage/round for 1 minute or until save is succeeded. Used for treating joint ailments amongst others.|
+|Viper Venom|Necrotising|18|1 minute|Wounding|Immediate|1d6 damage/round for 1 minute or until save is succeeded. Used for treating joint ailments amongst others.|
+|Cobra Venom|Nerve|18|1 hour|Wounding|Immediate|"[Paralysis](10-conditions-types.md#conditions-in-detail)" + "[suffocation](03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die)". A character repeats the save vs suffocation at the end of each minute, but the general paralysis last for the full duration.|
+||||||||
+|**Name**|**Type**|**Threshold**|**Duration**|**Modality**|**Onset**|**Effect**|
+|Bracken Extract|Nerve|14|Permanent|Ingestion|1 hour|"[Blinded](10-conditions-types.md#conditions-in-detail)"|
+|Refined Fly-trap Poison|Nerve|15|1 week|Contact|Ingestion: 10 minutes, Other: Immediate|3 saves (one per round): First fail."[restrained](10-conditions-types.md#conditions-in-detail)". It may repeat the save at the start of each turn. If it fails a second time, it is "[immobilised](10-conditions-types.md#conditions-in-detail)", if it fails a third, it is "[paralysed](10-conditions-types.md#conditions-in-detail)".|
+|Refined Tripede Poison|Nerve|19|1 week|Ingestion|Ingestion: 10 minutes, Wounding: Immediate|3 saves (one per round): First fail."[restrained](10-conditions-types.md#conditions-in-detail)". It may repeat the save at the start of each turn. If it fails a second time, it is "[immobilised](10-conditions-types.md#conditions-in-detail)", if it fails a third, it is "[paralysed](10-conditions-types.md#conditions-in-detail)".|
+|Refined Tuber Extract|General|19|1 day|Inhalation|Ingestion: 10 minute, Other: Immediate|"[Charmed](10-conditions-types.md#conditions-in-detail)"|
+||||||||
+|**Name**|**Type**|**Threshold**|**Duration**|**Modality**|**Onset**|**Effect**|
+|Refined Cradle Venom|Nerve|14|1 day|Ingestion|Immediate|"[Aphonia](10-conditions-types.md#conditions-in-detail)" + "[Immobilised](10-conditions-types.md#conditions-in-detail)"|
+|Concentrated Corpse Stork Venom|General|14|Permanent|Wounding|Immediate|1d3 STR|
+|Sweet Ooze Extract|General|16|1 hour|Contact|ingestion: 1 hour, Other: Immediate|2 saves. First fail: "[restrained](10-conditions-types.md#conditions-in-detail)". It may repeat the save at the start of each turn. If it fails a second time, it is "[immobilised](10-conditions-types.md#conditions-in-detail)".|
+|Hive Beast Venom|General|16|1 week|Ingestion|Ingestion: 1 hour, Other: Immediate|"[Incapacitated](10-conditions-types.md#conditions-in-detail)"|
+|Refined Mudcrawler Venom|Necrotising|16|Instantaneous|Wounding|1 minute|1d10 poison damage (SP/MP)|
+|Concentrated Fell Beast Venom|Nerve|17|Permanent|Wounding|1 minute|1d6 STR damage. On snake eyes "[paralysed](10-conditions-types.md#conditions-in-detail)"|
+|Refined Mudwalker Venom|Necrotising|22|Instantaneous|Contact|Ingestion: 10 minutes, Other: Immediate|6d8 poison damage (SP/MP)|
+|Refined Dragon Venom|Necrotising/Nerve|26|Permanent|Ingested|Immediate|2d6 DEX damage + 4d12 poison damage (SP/HP)|
+||||||||
+|**Name**|**Type**|**Threshold**|**Duration**|**Modality**|**Onset**|**Effect**|
+|Demon Extract|General|23|Permanent|Ingestion|1 day|*This supernatural poison treats poison immunity as if it were resistance.* 2d12+2 damage to MP dice count maximum. The character cannot use "[Holy Strike](06-abilities.md#holy-strike)", "[Spirit Strike](06-abilities.md#spirit-strike)", "[Truesight](06-abilities.md#truesight-i-v)" or "[Divine Strike](06-abilities.md#divine-strike)" or cast spells with a "divine" or "spiritual" descriptor. *Multiple applications do not stack.*|
+|Broken Fairy Poison|General|24|Permanent|Perception|Immediate|*This supernatural poison treats poison immunity as if it were resistance.* On a failed save, an entity cannot use supernatural abilities until cured. Likewise it takes 2d6 CHA and 2d6 WIS damage. *Multiple applications do not stack.*|
 
 In most settings, most poisons are not readily available in civilisation, as the authorities of most kingdoms would quite rightly be weary of poisonings and poisoners. However this does not necessarily mean that they cannot be obtained if characters know where to look. The cost of a poison should be based on how difficult it is to obtain and produce, and how effective it is. Thus dragon venom and demon extract would be extremely expensive, while bee venom and viper venom might even be sold legally as a medical ingredient. Broken fairy poison, if at all obtainable, would likely only be available from vile and powerful profane entities (not only does one need to break a fairy, but also harvest the extremely dangerous poison without being affected).
 

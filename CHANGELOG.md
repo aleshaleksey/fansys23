@@ -328,4 +328,5 @@ ___
 - Reduce MP dice requirements on "[Holy Strike](06-abilities.md#holy-strike)" and "[Unholy Strike](06-abilities.md#unholy-strike)"
 
 ### Conditions and Types
-- Change definition for "poisoned" condition.
+- Change definition for "poisoned" condition and add initial rules for poisons.
+- Change definition for "diseased" condition and add initial rules for diseases. 

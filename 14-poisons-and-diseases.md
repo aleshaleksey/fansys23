@@ -272,39 +272,52 @@ This is a common disease that is characterised by sneezing, coughing and occasio
 - **Mild**: After the incubation period, victim begins to cough and sneeze and feels mild malaise. For the duration the victim has disadvantage to "[stealth](05-skills.md#stealth)" and a -2 to STR, DEX and CON rolls.
 - **Severe**: After the incubation period, victim begins to cough and sneeze, runs a fever and feels malaise. For the duration the victim has disadvantage to "[stealth](05-skills.md#stealth)". In addition, during the second week the victim has a -2 to STR, DEX and CON rolls.
 
+___
 #### Flu
-This is a common disease that is characterised by sneezing, coughing, malaise and high temperature. Superficially it is similar to more severe cold. Beasts can suffer from similar diseases, but they are seldom spread beyond similar species. Most commonly birds can easily become infected and spread it far and wide.
+This is a common disease that is characterised by sneezing, coughing, malaise and high temperature. Superficially it is similar to a more severe cold. Beasts can suffer from similar diseases, but they are seldom spread beyond similar species. Most commonly birds are susceptible to flu and can easily become infected and spread it far and wide.
 - **Mild**: After the incubation period, victim begins to cough and sneeze, runs a fever and feels malaise. For the duration the victim has disadvantage to "[stealth](05-skills.md#stealth)". In addition, after the first week the victim has a -2 to STR, DEX and CON rolls.
 - **Severe**: The victim suffers all the conditions of the mild form. In addition, during the second week. the victim has disadvantage to STR, DEX, WIS and CON rolls and to concentration saves. At the end of the second week, the victim makes a CON save vs Threshold=16. If they fail the save, the disadvantage persists into the third week, in addition, the victim suffers 2d6 CON damage, which recovers at a rate of 1 point per long rest. If this CON damage drops the victim's CON to 0, it dies.
 
+___
 #### Measles
 This is a common and highly contagious disease that humanoids suffer from, characterised by a high fever, cough and a red rash over the whole body.
 - **Mild**: After the incubation period, the victim develops a cough and a high fever. This is accompanied by rash. For the duration the victim has disadvantage on "[observe](05-skills.md#observe") rolls and a -2 to STR, DEX, WIS, and CON rolls.
-- **Severe**: The victim suffers all the conditions of the mild form. In addition, during the second week. the victim has disadvantage to STR, DEX, WIS and CON rolls and to concentration saves. At the end of the second week, the victim makes a CON save vs Threshold=16, on failure the victim suffers 2d6 CON damage, which recovers at a rate of 1 point per long rest. If this CON damage drops the victim's CON to 0, it dies.
+- **Severe**: The victim suffers all the conditions of the mild form. In addition, during the second week, the victim has disadvantage to STR, DEX, WIS and CON rolls and to concentration saves. At the end of the second week, the victim makes a CON save vs Threshold=16, on failure the victim suffers 2d6 CON damage, which recovers at a rate of 1 point per long rest. If this CON damage drops the victim's CON to 0, it dies.
 
+___
 #### Yellow Fever
 This disease is transmitted by insect bites, so the speed of its spread depends on the abundance of biting insects. As the name suggests, yellow fever is generally characterised by high fever and jaundice and generally only affects mortals.
 - **Mild**: After the incubation, the victim develops a high fever, back and muscle aches and nausea. The victim suffers disadvantage to STR, DEX, CON and WIS rolls and its base speed is halved. In addition, at the start of any combat it must succeed a threshold=24 CON save or spend the first round incapacitated with vomiting.
-- **Severe**: The victim suffers all effects of the mild form, as well as developing jaundice and bleeding from its orifices, losing 1d4 from its HP total every day of the duration of the disease (this is recovered at 1 point per long rest after the end of the disease). If the HP total drops to 0, the victim dies.
+- **Severe**: The victim suffers all effects of the mild form, as well as developing jaundice and bleeding from its orifices. It loses 1d4 from its HP total every day of the duration of the disease (this is recovered at 1 point per long rest after the end of the disease). If the HP total drops to 0, the victim dies.
 
-### Plague (bubonic)
+___
+#### Plague (bubonic)
 Plague is a contagious disease that is spread either by the bites of infected fleas (bubonic) or through breathing (pneumonic). Bubonic plague is characterised by severe inflammation of glands, necrosis, and high fever. Any warm blooded mortal can be infected with plague.
 - **Mild**: The victim suffers all the general symptoms, gaining disadvantage on all STR, DEX, CON, WIS and CHA rolls, its base speed is halved, and takes an extra 1 HP damage, every time it takes any damage (SP, MP or HP). At the end of the first week, the victim makes a CON save vs threshold=22 or suffers 1d10 CON damage (which then recovers at the rate of 1 point per long rest). If this damage takes the victim's CON to 0, it dies. 
-- **Severe**: The victim suffers all the effects of the mild form. In addition, the victim is crippled due to necrosis of a random limb and must make a CHA save vs threshold=22 at the start of a combat or be incapacitated with seizures during the first round. At the end of the first week the victim must succeed a CON save vs a threshold=22, or suffer 3d6 CON damage (this is recovered at 1 point per long rest after the end of the disease) as their blood congeals. If the HP total drops to 0, the victim dies.
+- **Severe**: The victim suffers all the effects of the mild form. In addition, the victim is crippled due to necrosis of a random limb and must make a CHA save vs threshold=22 at the start of a combat or be incapacitated with seizures during the first round. At the end of the first week the victim must succeed a CON save vs a threshold=22, or suffer 3d6 CON damage (this is INSTEAD of the 1d10 damage suffered in the mild form; damage is recovered at 1 point per long rest after the end of the disease) as their blood congeals. If the HP total drops to 0, the victim dies.
 
-### Plague (Pneumonic)
+___
+#### Plague (Pneumonic)
 Pneumonic plague is a contagious disease that is spread through breathing 'contaminated' air. It is characterised by coughing up blood, high fever, and chest pains. There is no mild form for this disease and it is lethal without treatment for all but the most resilient of mortals that become infected.
 - **Severe**: The victim suffers all the general symptoms, gaining disadvantage on all STR, DEX, CON, WIS rolls, and its base speed is halved for the duration of the disease. It takes 1d4 damage to its maximum HP every 4 hours. If it survives the disease, it will recover its maximum HP at the rate of 1 point per long rest.
 
-### Smallpox
+___
+#### Smallpox
 This is a disease spread by breathing 'contaminated' air and through contact with an infected entity. It is characterised by fever, vomiting and rash which covers the whole body and eventually turns to blisters.
-- **Mild**: In the first and second week, the victim suffers from fever and nausea, taking disadvantage to STR, CON and WIS rolls, as well as having to succeed a CON save vs threshold=28 at the start of every battle or spend the first round incapacitated with nausea. During the third week rash develops, adding disadvantage to DEX saves. The victim must succeed a CON save vs threshold=28 or suffer 2d6 CON damage (which then recovers at the rate of 1 point per long rest). If this damage takes the victim's CON to 0, it dies. In the fourth weeks the rash turns into a permanent blister, and suffers 1d6 CHA damage.
+- **Mild**: In the first and second week, the victim suffers from fever and nausea, taking disadvantage to STR, CON and WIS rolls, as well as having to succeed a CON save vs threshold=28 at the start of every battle or spend the first round incapacitated with nausea. During the third week rash develops, adding disadvantage to DEX saves. The victim must succeed a CON save vs threshold=28 or suffer 2d6 CON damage (which then recovers at the rate of 1 point per long rest). If this damage takes the victim's CON to 0, it dies. In the fourth weeks the rash turns into a permanent blister, and the victim suffers 1d6 CHA damage.
 - **Severe**: The victim suffers all the effects of the mild disease. In addition, it suffers 1d4 HP damage for every day of the third week. In addition it must succeed a CON save (threshold=28) at the end of the third week or become permanently blind.
 
-### Dryad Touch
+___
+#### Dryad Touch
 This disease affects mortals that return from at least intermediate layers of the spirit realm after having laid eyes on beings with a CHA score that exceeds their own by at least 10. It is characterised by apathy, and gradual loss of will and memories. This is a supernatural disease.
-- **Mild**: In the first month, the victim makes initiative rolls at disadvantage. In the second month it also suffers -2 to all INT, WIS and CHA rolls. In the third month its maximum MP dice count is reduced by 1d4 each week, in addition to previous symptoms (this is regained at the rate of 1 die per long rest at the end of the month). In the fourth month the other effects apart from the initiative penalty end, but the victim loses the ability to make reactions until the end of the month.
+- **Mild**: In the first month, the victim makes initiative rolls at disadvantage. In the second month it also suffers -2 to all INT, WIS and CHA rolls. In the third month its maximum MP dice count is reduced by 1d4 each week, in addition to previous symptoms (this is regained at the rate of 1 die per long rest at the end of the month). In the fourth month the other effects apart from the initiative penalty end, but the victim loses the ability to take reactions until the end of the month.
 - **Severe**: The victim suffers all of the effects of the mild form, however, during the third month it must succeed a CHA save vs threshold=24 every day or lose one of its abilities/boons, starting from the most recently acquired. If it has no abilities left, its maximum HP is reduced by 1d4 instead (this is recovered at 1 point per long rest after the end of the disease). The victim, should it survive the disease, can recover its abilities if it travels to the domain where it became infected and slays the being it laid eyes on.
+
+___
+#### Zombification
+This is a supernatural disease of profane origin that cannot be treated by mundane means. It is spread through the bite of a zombie and is fundamentally simple:
+
+Any mortal bitten once or more by a zombie must make a CON save at midnight. Should they fail, they will die and become a zombie in 6d12 hours. This disease counts as supernatural and can only be cured by supernatural means. It cannot be cured once it has run its course.
 
 ___
 ### Summary Table of Diseases
@@ -318,5 +331,6 @@ ___
 |Plague (Pneumonic)|8|12|32|Breath|1d6+2 days|2 days|95%|2 weeks|
 |Plague|8|12|22|varies|1d6+2|Up to 2 weeks|55%|varies|
 |Smallpox|12|28|28|breath|1d12+6 days|4 weeks|30%|1 week|
-|Dryad Touch|22|16|24|1d6 days|4 months|10%|10%|-|
+|Dryad Touch|22|16|24|Perception|1d6 days|4 months|10%|-|
+|Zombification|8|16|16|Bodily fluids|6d12 hours|-|60%|1 day|
 ||||||||||

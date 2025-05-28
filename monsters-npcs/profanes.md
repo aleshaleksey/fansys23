@@ -193,7 +193,7 @@ Like skeletons, zombies will obey whoever raised them. Otherwise they wonder aro
 
 Zombies are not proficient with anything other than their natural attacks and "grapple". They cannot communicate, but can be commanded by way of dark magics.
 
-**Zombify**: Any mortal bitten once or more by a zombie must make a Con save at midnight. Should they fail, they will become a zombie in 6d12 hours. This disease counts as magic and can only be cured by supernatural means.
+**Zombify**: Any mortal bitten once or more by a zombie must make a CON save at midnight. Should they fail, they will die and become a zombie in 6d12 hours. This disease counts as supernatural and can only be cured by supernatural means. It cannot be cured once it has run its course.
 
 ___
 ### Cursed Shade (lesser)

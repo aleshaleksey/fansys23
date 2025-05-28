@@ -400,14 +400,14 @@ Healing is the use of medical art and science (as opposed to magic) to diagnose 
   - Threshold = 25 if [Supernatural]
 - **Treat poison**. Requires 1 minute - 1h of treatment:
   - Threshold = Threshold of poison.
-- **Treat disease**. Requires 1 minute to 1 hour of treatment. Often requires several successes over consecutive days (see diseases).
-  - Threshold = Threshold of disease.
+- **Treat disease**. Requires at least 1 minute of treatment and as much as several months. Often requires several successes over consecutive days (see diseases).
+  - Threshold = [Treatment Threshold](14-poisons-and-diseases.md#treatment-threshold) of disease.
 - **Long term care**. Duration varies (at least 8h). Double number of HP regained over a long rest.
   - Threshold = 10 + [number of creatures x 2].
 - **Diagnosis**. Diagnose disease, poison or condition.
   - Natural condition: 12
   - Supernatural condition: 20
-  - Disease: Threshold of the disease or poison
+  - Disease: [Diagnosis Threshold](14-poisons-and-diseases.md#diagnosis-threshold) of the disease or poison
   - It is usually fine to rule that once an entity has seen it once, it knows what it is.
 - **Take care**: Yes, for treatment. No for diagnosis.
 - **Try again**: For treatment, yes (although the patient might be dead by then). For "diagnose", yes, but unless you have extra information available you always get the same result.

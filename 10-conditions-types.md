@@ -422,7 +422,7 @@ An entity afflicted by conditions that make it unable to engage in physical comb
   - A poisoned entity's base speed is halved.
   - The entity makes all rolls at disadvantage.
   - The specific poison may also cause additional effects.
-- "**Diseased**": Afflicted by a disease. This has degrees of effect. I don't know what they are.
+- "**Diseased**": Afflicted by a disease. The effect varies with disease (see "[Diseases](14-poisons-and-diseases.md#diseases)").
 - "**Bleeding/Wilting**": A bleeding character loses HP every round. A [CON] save, or appropriate healing can stem this effect.
 - "**Inaudible**": A silent character makes no sound. It can neither make sounds willingly or unwillingly
   - It cannot complete incantations or communicate verbally.

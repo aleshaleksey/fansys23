@@ -242,7 +242,7 @@ This describes how the effects of a disease change from the start to the end of 
 - **Severe**: The victim suffers all of the effects of a disease. Sometimes this includes death.
 
 #### Lethality
-The percentage of infected individuals that dies of a disease if it is untreated, and is determined by the "[course](#course)" and "[spread threshold](#spread-threshold)". This is a property used for storytelling, and is there to help a group determine the magnitude of the damage that the outbreak of this or that disease will have on the world. A group can safely ignore this property and make things up to fit the story.
+The percentage of infected individuals that dies of a disease if it is untreated, and is determined by the "[course](#course)", "[treatment threshold](#treatment-threshold)" and "[spread threshold](#spread-threshold)". This is a property used for storytelling, and is there to help a group determine the magnitude of the damage that the outbreak of this or that disease will have on the world. A group can safely ignore this property and make things up to fit the story.
 
 #### Spread
 The time needed for the number of infected individuals to double. It is determined by the "[spread threshold](#spread-threshold)" and the "[route of transmission](#route-of-transmission)". As with [lethality](#lethality). This is a property used for storytelling, and is there to help a group determine the magnitude of the damage that the outbreak of this or that disease will have on the world. A group can safely ignore this property and make things up to fit the story.
@@ -277,6 +277,12 @@ ___
 This is a common disease that is characterised by sneezing, coughing, malaise and high temperature. Superficially it is similar to a more severe cold. Beasts can suffer from similar diseases, but they are seldom spread beyond similar species. Most commonly birds are susceptible to flu and can easily become infected and spread it far and wide.
 - **Mild**: After the incubation period, victim begins to cough and sneeze, runs a fever and feels malaise. For the duration the victim has disadvantage to "[stealth](05-skills.md#stealth)". In addition, after the first week the victim has a -2 to STR, DEX and CON rolls.
 - **Severe**: The victim suffers all the conditions of the mild form. In addition, during the second week. the victim has disadvantage to STR, DEX, WIS and CON rolls and to concentration saves. At the end of the second week, the victim makes a CON save vs Threshold=16. If they fail the save, the disadvantage persists into the third week, in addition, the victim suffers 2d6 CON damage, which recovers at a rate of 1 point per long rest. If this CON damage drops the victim's CON to 0, it dies.
+
+___
+#### Mudcrawler
+Caused by tiny mudcrawlers burrowing into a flesh of a beast, humanoid or monster, this disease caused causes a maddening itch and distinctive, raised burrows in the skin. It is spread by Mudwalkers as they "inoculate" the humanoids they kill with their spawn. Thus humanoids that survive Mudwalker attacks and those coming into prolonged contact with their deceased victims are likeliest to be infected. The disease can be cured without any heal rolls by dealing 6 HP damage to the infected individual with bee or viper venom within the course of a minute without any healing in between.
+- **Mild**: During the first week the victim suffers intense pain beneath its skin and itching, giving it disadvantage on initiative and WIS rolls. On the second week raised burrows appear in the skin, as the mudcrawlers grow and reproduce. Second through to fifth week the character loses 1d4 CHA and 1 point from its HP maximum each week (both are recovered at a rate of 1 per day after the disease ends). During the 6th week all symptoms cease, however, on the last day the mudcrawlers will burst from the victim's body and disperse, dealing 2d6 shear damage directly to HP.
+- **Severe**: During the first week the victim suffers intense pain beneath its skin and maddening itching, giving it disadvantage on initiative and WIS rolls. It must succeed a threshold=20 CHA save at the start of each combat or spend the first round incapacitated. On the second week raised burrows appear in the skin, as the mudcrawlers grow and reproduce. Second through to fifth week the character loses 1d4 CHA and 2 point from its HP maximum each week (both are recovered at a rate of 1 per day after the disease ends). During the 6th week all symptoms cease, however, on the last day the mudcrawlers will burst from the victim's body and disperse, dealing 4d6 shear damage directly to HP. The tiny mudcrawlers then merge into a fully formed mudcrawler and attempt to devour the body they had burst from.
 
 ___
 #### Measles
@@ -325,6 +331,7 @@ ___
 |-|-|-|-|-|-|-|-|-|
 |Cold|12|16|12|Breath|1d4 days|2 weeks|0|1 week|
 |Flu|12|16|16|Breath|1d4 days|3 weeks|2%|15 days|
+|Mudcrawler|8|20|12|Contact/Special|2 days|6 weeks|5%|1 month|
 |Measles|8|20|16|Breath/Contact|1d4+8 days|1 week|5%|2 days|
 |Yellow Fever|14|16|24|Bodily fluids (indirect)|1d4+2|4 days|10%|varies|
 |Plague (Bubonic)|8|24|22|Bodily fluids (indirect)|1d6+1 days|2 weeks|50%|varies|

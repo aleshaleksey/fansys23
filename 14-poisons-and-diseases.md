@@ -328,6 +328,11 @@ This disease affects mortals that return from at least intermediate layers of th
 - **Severe**: The victim suffers all of the effects of the mild form, however, during the third month it must succeed a CHA save vs threshold=24 every day or lose one of its abilities/boons, starting from the most recently acquired. If it has no abilities left, its maximum HP is reduced by 1d4 instead (this is recovered at 1 point per long rest after the end of the disease). The victim, should it survive the disease, can recover its abilities if it travels to the domain where it became infected and slays the being it laid eyes on.
 
 ___
+#### Pilgrim's Fire (S Class)
+This disease affects humanoids and monsters with at least 5 INT that do not have a "divine" alignment that make contact with the innermost layer of the essence of a Seraph's or that of a divinity associated with righteousness and vengeance and subsuming the its flame. It is characterised by an uplifted, almost exalted state that strives for a higher justice and incapacitating pain when it is not followed. This is a divine disease that can only be treated by specific deeds or supernatural means.
+- **Mild**: Immediately, the victim gains the ability to distinguish [profane beings](10-conditions-types.md#profane) and those of profane alignment by smell, and must make a Threshold=16 CON save or be incapacitated when within 10ft of one. In the second week, the victim can tell spoken trust from falsehood, and takes 1 HP damage (entropic) every time it lies. In the third week, the victim gains a razor sharp sense of justice and advantage at "[sense motive](05-skills.md#sense-motive)" rolls. If they witness an injustice take place they must immediately set about righting (or avenging) it. Else if they recognise a profane being, they must do their utmost to destroy it. If they do, they do not suffer incapacitation due to closeness to profane beings until their next long rest. If they do not, they suffer 1d4 CON and CHA damage (which heals at a rate of 1 point per long rest). The disease is cured if the victim vanquishes profane beings of a higher level than itself, or prevents/rights/avenges injustices to a total count of 12.
+- **Severe**: For the first month the disease progresses as the mild form, except in the fourth week the victim begins to emit a bright light in a 60ft radius and dim light in a 120ft radius (this can be seen 20 miles away on a dark night). If the disease is not cured at the end of the first month, the disease becomes curable only by divine intervention. At the start of the second month the victim suffers terrible visions on following days when they pass by injustice or profane beings without attempting to vanquish them, and must make a threshold=24 CHA roll of fail to gain the benefits of the rest. When the victim has vanquished a total of 12 profane beings more powerful than itself, or prevented/righted/avenged 12 grave injustices, its essence is torn asunder and it emerges as a Seraph under the control an appropriate deity.
+___
 #### Zombification (A Class)
 This is a supernatural disease of profane origin that cannot be treated by mundane means. It is spread through the bite of a zombie and is fundamentally simple:
 
@@ -348,5 +353,6 @@ ___
 |Smallpox|12|28|28|breath|1d12+6 days|4 weeks|30%|1 week|
 |Creeping Amnesia|22|20|-|special|Immediate onset|chronic|0|-|
 |Dryad Touch|22|16|24|Perception|1d6 days|4 months|10%|-|
+|Pilgrim's Fire|24|24 (CHA)|24|special|Immediate onset|chronic|60%|-|
 |Zombification|8|16|16|Bodily fluids|6d12 hours|-|60%|1 day|
 ||||||||||

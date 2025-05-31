@@ -132,6 +132,7 @@ ___
 |Cobra Venom|Nerve|18|1 hour|Wounding|Immediate|
 ||||||||
 |**Name**|**Type**|**Threshold**|**Duration**|**Modality**|**Onset**|
+|Alcohol|General|12|12 hours|Ingestion|10 minutes|
 |Bracken Extract|Nerve|14|Permanent|Ingestion|1 hour|
 |Refined Fly-trap Poison|Nerve|15|1 week|Contact|Ingestion: 10 minutes, Other: Immediate|
 |Refined Tripede Poison|Nerve|19|1 week|Ingestion|Ingestion: 10 minutes, Wounding: Immediate|
@@ -158,6 +159,7 @@ ___
 |Bee Venom|1d4 damage/round for 1 minute or until save is succeeded. Used for treating joint ailments amongst others.|
 |Viper Venom|1d6 damage/round for 1 minute or until save is succeeded. Used for treating joint ailments amongst others.|
 |Cobra Venom|"[Paralysis](10-conditions-types.md#conditions-in-detail)" + "[suffocation](03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die)". A character repeats the save vs suffocation at the end of each minute, but the general paralysis last for the full duration.|
+|Alcohol|1 point of DEX, CON, INT and WIS damage per dose (NB: A single dose is equivalent to 1 lb of ale, 1/4 lb of wine, or 1 shot of spirits). For each additional dose, the threshold increases by 1.|
 |Bracken Extract|"[Blinded](10-conditions-types.md#conditions-in-detail)"|
 |Refined Fly-trap Poison|3 saves (one per round): First fail."[restrained](10-conditions-types.md#conditions-in-detail)". It may repeat the save at the start of each turn. If it fails a second time, it is "[immobilised](10-conditions-types.md#conditions-in-detail)", if it fails a third, it is "[paralysed](10-conditions-types.md#conditions-in-detail)".|
 |Refined Tripede Poison|3 saves (one per round): First fail."[restrained](10-conditions-types.md#conditions-in-detail)". It may repeat the save at the start of each turn. If it fails a second time, it is "[immobilised](10-conditions-types.md#conditions-in-detail)", if it fails a third, it is "[paralysed](10-conditions-types.md#conditions-in-detail)".|

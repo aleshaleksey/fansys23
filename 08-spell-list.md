@@ -4499,7 +4499,6 @@ ____
 - Air
     - [Least Anemancy](#least-anemancy)
     - [Least Blast](#least-blast)
-    - [Least Flare](#least-flare)
     - [Least Shroud](#least-shroud)
     - [Silent](#silent)
     - [Whispers](#whispers)
@@ -4510,7 +4509,6 @@ ____
     - [Least Ward](#least-ward)
 - Fire
     - [Ignition](#ignition)
-    - [Least Flare](#least-flare)
     - [Least Pyromancy](#least-pyromancy)
     - [Least Warmth](#least-warmth)
 - Water

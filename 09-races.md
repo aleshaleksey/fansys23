@@ -60,7 +60,7 @@ This is a race that is closer to the feral side of humanoids. They are stronger 
 - **Movement**: Walk 30ft
 - **Sight**: Normal, "heat sense II" (30ft). (2 point)
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
-- **Proficiencies**: One appropriate language. Strikes AND Slings. (2 point)
+- **Proficiencies**: One appropriate language. Strikes AND Spears. (2 point)
 
 **Extra:**
 - Resistance to bludgeoning and advantage on saves vs "Prone". (2 points)

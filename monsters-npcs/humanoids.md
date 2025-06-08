@@ -568,10 +568,10 @@ ___
 |-|-|-|-|
 |Axe|+5|1d6+2||
 |Strike|+5|3||
-|Sling|+3|1d6||
+|War dart|+5|1d4+2|Range=240ft, Increment=60ft|
 |Resistance|||Bludgeoning|
 |Proficiencies|||Common and if it exists, orcish|
-|Proficiencies|||Axes, strikes, slings, one set of tools, maybe one set of armour|
+|Proficiencies|||Axes, strikes, spears, one set of tools, maybe one set of armour|
 |Skills|||+4 "Athletics", "climb", +2 "track" or +3 "harvest"|
 
 This represents your average orc. This could be a tribesman, hunter, bandit or artisan. Orcs tend to live tough lies in harsh and dangerous parts of the world, which makes them a little tougher than the average human.
@@ -603,13 +603,13 @@ Wears hide armour
 |Axe|+9|1d6+4||
 |"[Long Axe](../11-weapons-armour.md#pole-arms)"|+9|2d8+4|reach = 10ft|
 |Strike|+9|1d6+4||
-|Sling|+6|1d6+1|range = 1600/80ft|
+|War dart|+9|1d4+4|Range=240ft, Increment=60ft|
 |Resistance|||"bludgeoning", "shear"|
 |Unarmed Strike II|||Unarmed strike base damage is 1d6|
 |Multi-attack I|||Makes 2 attacks|
 |"[Stalker](../06-abilities.md#stalker)"|||Hide as secondary action|
 |Proficiencies|||Common and if it exists, orcish|
-|Proficiencies|||Axes, strikes, grapples, slings, , medium armour, one set of tools|
+|Proficiencies|||Axes, strikes, grapples, spears , medium armour, one set of tools|
 |Skills|||+10 "Athletics", "climb", +8 "stealth", +6 "track", +4 "observe", "navigate" +4, "navigate" +4|
 
 This block does not represent an orc who goes hunting, but rather one that has devoted its life to the hunt. This could be a monster hunter or a hunter of men.
@@ -641,7 +641,7 @@ Wears hide armour
 |Axe|+11|1d6+4|Up to 1d6+12 with berserk and great strike|
 |Greataxe|+11|2d8+4|Up to 2d8+12 with berserk and great strike|
 |Strike|+11|1d6+4|Up to 1d6+12 with berserk and great strike|
-|Sling|+8|1d6+1|range = 1600/80ft|
+|War dart|+11|1d4+4|Range=240ft, Increment=60ft|
 |Resistance|||"bludgeoning", "slashing"|
 |Unarmed Strike II|||Unarmed strike base damage is 1d6|
 |Great Strike|||Up to -4/+4 to attack/damage|
@@ -683,11 +683,11 @@ ___
 |[Elemental Touch](../06-abilities.md#elemental-touch)|+9|2d6+2|(fire or ice), +2d6 per MP dice|
 |[Elemental Blast](../06-abilities.md#elemental-blast)|+9|2d4+4|(light or lightning), +1d4 per MP dice, see ability.|
 |Shortstaff|+6|1d6+2||
-|Sling|+6|1d6+2|range = 1600/80ft|
+|War dart|+6|1d4+2|Range=240ft, Increment=60ft|
 |[Cursed Blood](../06-abilities.md#cursed-blood)|||Reaction to cast spells in revenge|
 |Spellcasting: Nature II|||"[Compass](../08-spell-list.md#compass)", "[Hide](../08-spell-list.md#hide)", "[Least Heal](../08-spell-list.md#least-heal)", "[Harvest](../08-spell-list.md#harvest)"|
 |Spellcasting: Earth IV|||"[Down](../08-spell-list.md#down)", "[Least Geomancy](../08-spell-list.md#least-geomancy)", "[Bear's Claws](../08-spell-list.md#bears-claws)", "[Shape Earth](../08-spell-list.md#shape-earth)", "[Summon gnome](../08-spell-list.md#summon-gnome)", "[Guidance of the Earth](../08-spell-list.md#guidance-of-the-earth)", "[Earth Ward](../08-spell-list.md#earth-ward)", "[Enchanted Ground](../08-spell-list.md#enchanted-ground)"|
-|Proficiency|||Common and any 2 languages, |
+|Proficiency|||Common and any 2 languages, axes, spears, strikes, staves|
 |Skills|||"Spellworking" +10, knowledge nature, arcana +8, "observe" +7, "track" + 5, "fortify" +4, "navigate" +4|
 
 Geomancers are mages devoted to nature and earth magic.

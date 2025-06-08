@@ -122,6 +122,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 ### MP 5
 - [Blessing of the Winds](#blessing-of-the-winds)
 - [Flame Stride](#flame-stride)
+- [Flare](#flare)
 - [Flawed Transmute](#flawed-transmute)
 - [Flood](#flood)
 - [Greater Fade](#greater-fade)
@@ -529,7 +530,7 @@ ___
 
 ___
 ### Witch's Candle
-|Name|Witch's Candle [Light, Fire]|
+|Name|Witch's Candle [Light, Fire, Kinetic]|
 |-|-|
 |Scope|local|
 |MP Dice|0|
@@ -749,7 +750,7 @@ ___
 |Range|close|-1
 |Duration|1 hour (1 week)|+6
 |Components|kinetic, incantation|-1
-|Focus|A flower associate with daylight, or a crystal|
+|Focus|A flower associated with daylight, or a crystal|
 |Damage|1d4+[SUP] light|
 |Concentration|local|
 |Save|Cha (avoid effects), Dex (no damage)|
@@ -758,7 +759,7 @@ ___
 
 Incorporeal ["undead"](10-conditions-types.md#profane) and ["fiends"](10-conditions-types.md#profane) have disadvantage on attacks and saves within the radius of the bright light.
 
-As a secondary action the caster may dismiss the flare, causing 1d4+[SUP] damage to a single target within 5ft.
+As a secondary action the caster may dismiss the flare, causing 1d4+[SUP] damage to a single target within 5ft and hence ending the spell.
 
 **Upcast**: For each extra MP die above 1 the spell may last for an extra hour or the radius of bright and dim light increase each by 10ft.
 
@@ -2797,6 +2798,31 @@ ___
 - For every 4 extra MP dice the range increases by 60 miles or the number of passengers increases by 1.
 
 (blink speed = 12+13)
+ 
+ ___
+ ### Flare
+|Name|Flare [Light, Fire, Kinetic]|
+|-|-|
+|Scope|local (Global)|
+|MP Dice|5 (20)|
+|Target(s)|1 target no larger than "gargantuan"|-1
+|Casting time|"1 main action"|
+|Range|30ft|+2
+|Duration|8 hours (1 month)|+9(11)
+|Components|kinetic|
+|Focus|A flower associated with daylight, or a crystal|-1(10)
+|Damage|3d6+[SUP] light|+9(19)
+|Concentration|local|
+|Save|Cha (avoid effects), Dex (half damage)|
+
+**Description**: The caster summons a mote of light and binds it to a valid target, giving it the "glowing" condition. An unwilling target may break the effect with a successful Cha save, thus ending the spell. The mote sheds bright light in 120ft and dim light in total radius of 300ft.
+
+Incorporeal ["undead"](10-conditions-types.md#profane) and ["fiends"](10-conditions-types.md#profane) have disadvantage on attacks and saves within the radius of the bright light.
+
+As a secondary action the caster may dismiss the flare, causing 1d6+[SUP] damage to all targets within 30ft of the mote and hence ending the spell. All entities that take damage from the light must succeed a CON save or be "blinded". The effect is permanent until cured.
+
+**Upcast**:  For each extra MP die above 1 the spell may last for an extra 8 hours or the radius of bright and dim light increase each by 20ft.
+
 
 ___
 ### Flawed Transmute
@@ -4755,42 +4781,37 @@ ____
     - [Greater Fade](#greater-fade)
     - [Lesser Cosmic Seal](#lesser-cosmic-seal)
     - [Plague](#plague)
-    - []()
 - Air
     - [Blessing of the Winds](#blessing-of-the-winds)
     - [Greater Fade](#greater-fade)
     - [Lesser Cosmic Seal](#lesser-cosmic-seal)
-    - []()
 - Earth
     - [Lesser Cosmic Seal](#lesser-cosmic-seal)
     - [Revenant](#revenant)
     - [Rift](#rift)
     - [Stone Ward](#stone-ward)
-    - []()
 - Fire
     - [Flame Stride](#flame-stride)
+    - [Flare](#flare)
     - [Greater Fire Ward](#greater-fire-ward)
     - [Heart Ward](#heart-ward)
     - [Lesser Cosmic Seal](#lesser-cosmic-seal)
     - [Revenant](#revenant)
-    - []()
 - Water
     - [Lesser Cosmic Seal](#lesser-cosmic-seal)
     - [Flood](#flood)
     - [Winter's Grasp](#winters-grasp)
     - [Heart Ward](#heart-ward)
-    - []()
 - Incantation
     - [Flawed Transmute](#flawed-transmute)
     - [Heart Ward](#heart-ward)
     - [Isolate Essence](#isolate-essence)
     - [Pact](#pact)
-    - []()
 - Kinetic
     - [Flame Stride](#flame-stride)
+    - [Flare](#flare)
     - [Plague](#plague)
     - [Flood](#flood)
-    - []()
 - Other
     - [Summon Fiend](#summon-fiend)
 

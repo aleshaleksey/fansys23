@@ -323,6 +323,7 @@ ___
 - Regularise casting time on global spells (now 1h-2h/level at levels 1-4, 1h or 12h for 5-6, 1 day for 7 and above). With a few notable exceptions (profane/forbidden spells generally take a day to cast).
 - Double range on "[Spirits' Secret](08-spell-list.md#spirits-secret)".
 - Add "[Witch's Lantern](08-spell-list.md#witchs-candle)" light spell (it is weak).
+- Add "[Flare](08-spell-list.md#flare)" light/damage spell.
 
 ### Abilities
 - Improve wording on "[Deflect Missile](06-abilities.md#deflect-missile)".

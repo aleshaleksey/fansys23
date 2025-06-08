@@ -24,6 +24,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Silent](#silent)
 - [Sour](#sour)
 - [Whispers](#whispers)
+- [Witch's Candle](#witchs-candle)
 
 ### MP 1
 - [Bear's Claws](#bears-claws)
@@ -525,6 +526,21 @@ ___
 **Description**: Either:
 + Transmit a vocal message (no longer than 12 words) to a single target that you can envision in range. There must be no hermetic barriers between you and the target.
 + Make a sound (can be speech, calls of beast, rustling of leaves, etc) in a square in range which you can see. It is roughly the volume of spoken speech (less than 60 dB), and does not cause damage.
+
+___
+### Witch's Candle
+|Name|Witch's Candle [Light, Fire]|
+|-|-|
+|Scope|local|
+|MP Dice|0|
+|Target(s)|Self|
+|Casting time|"1 main action"|
+|Range|close|-1
+|Duration|12 minutes|+3
+|Components|kinetic|
+|Save|-|
+
+**Description**: The caster creates a harmless flame atop a ghostly candle. The flame produces no heat, but does shed bright light in a 10ft radius and dim light in a further 20ft radius. If the candle is released or passed to another entity the flame stays lit atop it.
 
 ____
 ## MP 1 spells
@@ -4511,6 +4527,7 @@ ____
     - [Ignition](#ignition)
     - [Least Pyromancy](#least-pyromancy)
     - [Least Warmth](#least-warmth)
+    - [Witch's Candle](#witchs-candle)
 - Water
     - [Least Freeze](#least-freeze)
     - [Least Hydromancy](#least-hydromancy)
@@ -4532,6 +4549,7 @@ ____
     - [Mist](#mist)
     - [Silent](#silent)
     - [Whispers](#whispers)
+    - [Witch's Candle](#witchs-candle)
 - Other
 
 ### MP 1
@@ -4925,52 +4943,3 @@ ___
 |Material||
 |Limitation||
 |Save||
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

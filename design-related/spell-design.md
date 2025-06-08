@@ -80,7 +80,7 @@ Any spell created using this guide MUST be checked and validated. In general no 
 - Range (harmless): The realm: +15. All realms +30.
 - Targets +2 per target or +2 per 5ft radius. SPECIAL: Only +1 for the first *N* increases for a spell of cost *N* MP.
 - Material: -2 if material, -1 if focus. -1 if either is rare.
-- Components: Incantation only (+1), Kinetic only (0), Kinetic + Incantation (+1)
+- Components: Incantation only (+1), Kinetic only (0), Kinetic + Incantation (-1)
 - Half on save: All spells whose primary effect is damage and cost MP have a half on save rule. Those that don't have a -6 to cost.
 
 #### Examine "Wind Walk"

@@ -574,7 +574,7 @@ ___
 |Proficiencies|||Axes, strikes, slings, one set of tools, maybe one set of armour|
 |Skills|||+4 "Athletics", "climb", +2 "track" or +3 "harvest"|
 
-This represents your average orc. This could be a tribesman, hunter, bandit or artisan. Orcs tend to live tough lies in harsh and dangerous parts of the world, which makes them a little tougher than the average human human.
+This represents your average orc. This could be a tribesman, hunter, bandit or artisan. Orcs tend to live tough lies in harsh and dangerous parts of the world, which makes them a little tougher than the average human.
 
 An orc might have a lower threshold for violence than an average human, but he will generally not fight a pointless or unwinnable fight. No one wants to die.
 

@@ -314,7 +314,7 @@ ___
 
 ___
 ### Least Freeze
-|Name|Least Freeze [Water, Ice, Destruction]|
+|Name|Least Freeze [Destruction, Water, Winter]|
 |-|-|
 |Scope|local|
 |MP Dice|0|
@@ -351,7 +351,7 @@ ___
 
 ___
 ### Least Hydromancy
-|Name|Least Hydromancy [Water, Spiritual]|
+|Name|Least Hydromancy [Spiritual, Water]|
 |-|-|
 |Scope|local|
 |MP Dice|0|
@@ -464,7 +464,7 @@ ___
 
 ___
 ### Mist
-|Name|Mist [Water, Ice, Winter]|
+|Name|Mist [Water, Winter]|
 |-|-|
 |Scope|local|
 |MP Dice|0|
@@ -588,7 +588,7 @@ ___
 
 ___
 ### Chill Blood
-|Name|Winter's Touch [Ice/Water, Mortal]|
+|Name|Winter's Touch [Mortal, Water, Winter]|
 |-|-|
 |Scope|local|
 |MP Dice|1|
@@ -796,8 +796,7 @@ ___
 |Components|kinetic|
 |Focus|A small mirror|-1(4)
 |Limitation|This spell only produces acoustic and visual effects. It is defeated by touch, taste and smell|-2(2)
-|Limitation|This spell is defeated by tremor sense and blind-sight|-2(0)
-|Limitation|This spell is defeated by true sight|-2(-2)
+|Limitation|This spell is defeated by "true sight", "tremor sense" or "blind-sight"|-4(-2)
 |Save|CHA/WIS|
 
 **Description**: The caster grants the target an illusory form of another entity, as long as the size category is the same. Thus the target looks, and sounds, like a different entity. The illusion is, however, only visual and auditory, so entities that do not rely on these senses will not be deceived. Likewise, it does not mask tactile stimuli. An unwilling target can negate the effect with a CHA save.
@@ -833,7 +832,7 @@ ___
 **Upcast**: Add +1d8 to the damage for every extra MP die above 1.
 ___
 ### Sense Spell
-|Name|Sense Spell [Spirit, Air, Earth, Fire, Water]|
+|Name|Sense Spell [Air, Earth, Fire, Water, Spirit]|
 |-|-|
 |Scope|local|
 |MP Dice|1|
@@ -953,7 +952,7 @@ ___
 
 ___
 ### Water Snake
-|Name|Water Snake [Water/ice, Spiritual]|
+|Name|Water Snake [Spiritual, Water]|
 |-|-|
 |Scope|local|
 |MP Dice|1|
@@ -968,15 +967,17 @@ ___
 |Attack|[SAP]+Int|
 |Save|Cha, spell fails|
 
-**Description**: Collects a water weird and gives control to the target (may be the caster). The weird can also be anchored to a square. The weird travels with the  target (wielder), who may make a single attack with the weird (15ft reach) as a "main action" on the same turn and on subsequent turns. If the weird . The weird may also carry out the "grapple" or "shove"/"throw" combat manoeuvres, or make simple interactions with its environment, similar to a 15ft snake. (-3+3+6=4+2)
+**Description**: Collects a water weird and gives control to the target (may be the caster). The weird travels with the targets, unless the caster specifies that it is anchored to a square, in which case it is stationary. The target may make a single attack with the weird (15ft reach) as a "main action" on the same turn and on subsequent turns. The weird may also carry out the "grapple" or "shove"/"throw" combat manoeuvres, or make simple interactions with its environment, similar to a 15ft snake. The attack roll of the weird always uses the casters stats. (-3+3+6=4+2)
 
-**Special**: If the target is a square of water or ground, the caster retains control of the weird. If the target is an entity it may make a save to reject the spell, in which case the spell fails.
+**Special**:
+- If the target is an entity it may make a save to reject the spell, in which case the spell fails.
+- The weird is considered to have "[Blind Sight](06-abilities.md#blind-sight-i-vi)" for the sake of its attack rolls. However it should be noted that the target of the spell must be aware of the entity being attacked to be able to command the attack.
 
 **Upcast**: Either the damage increases by 1d12, or the reach increases by 5ft for every extra MP die above 1.
 
 ___
 ### Winter's Touch
-|Name|Winter's Touch [Ice/Water, Winter]|
+|Name|Winter's Touch [Water, Winter]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|1 (4)|
@@ -1024,7 +1025,7 @@ ___
 
 ___
 ### Dusk
-|Name|Dusk [Curse, Profane, Earth, Water]|
+|Name|Dusk [Curse, Earth, Profane, Water]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|2 (8)|
@@ -1083,7 +1084,7 @@ ___
 
 ___
 ### Glide
-|Name|Glide [Wind, Travel]|
+|Name|Glide [Travel, Wind]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|2 (8)|
@@ -1272,8 +1273,6 @@ An unwilling target may ignore the effect with a successful CHA save vs the cast
 
 **Global**: As the local casting, but is centered on a point and allows all entities within 120ft to communicate to entities of the chosen subkind. The spell lasts for 24 hours. For every 4 extra MP dice placed in the spell, the radius increases by 120ft or the spell lasts for an extra day.
 
-
-
 ___
 ### Promise
 |Name|Promise [Curse, Global]|
@@ -1401,7 +1400,7 @@ ___
 
 ___
 ### Summon Water Sprite
-|Name|Summon Flame Sprite [water/Ice, Spiritual]|
+|Name|Summon Flame Sprite [water, Spiritual]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|2 (8)|
@@ -1995,7 +1994,7 @@ ___
 
 ___
 ### See Spell
-|Name|See Spell [Spirit, Air, Earth, Fire, Water]|
+|Name|See Spell [Air, Earth, Fire, Water, Spirit]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|3 (12)|
@@ -2173,7 +2172,7 @@ ___
 
 ___
 ### Winter's Blade
-|Name|Winter's Blade [Ice, Destruction, Winter]|
+|Name|Winter's Blade [Destruction, Water, Winter]|
 |-|-|
 |Scope|local|
 |MP Dice|3|
@@ -3184,7 +3183,7 @@ ___
 
 ___
 ### Winter's Grasp
-|Name|Freeze [Curse, Ice, Water]|
+|Name|Freeze [Curse, Water, Winter]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|5 (20)|
@@ -3245,7 +3244,7 @@ Collectively, the fey offer one piece of useful knowledge between them, and shou
 
 ___
 ### False Regrowth
-|Name|False Regrowth [Earth, Ice, Water]|
+|Name|False Regrowth [Earth, Water, Winter]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|6 (24)|
@@ -4203,7 +4202,7 @@ ___
 
 ___
 ### True Storm
-|Name|True Storm [Air, Destruction, Wind]|
+|Name|True Storm [Air, Destruction, Wind, Winter]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|9 (36)|
@@ -4379,7 +4378,7 @@ ____
 ____
 ### Mandate of the Deep
 (Spell rules break down here)
-|Name|Mandate of the Deep [Spiritual, Water]|
+|Name|Mandate of the Deep [Spiritual, Water, Winter]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|10 (40)|

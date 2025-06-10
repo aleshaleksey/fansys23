@@ -52,6 +52,8 @@ There are a number of general rules pertaining to spellcasting.
 2. Spells are never truly permanent in the material realm and can be **broken**, **counterspelled**, and **dispelled**. Entities summoned through spells can be **banished**.
 3. Casting "ranged" spells with kinetic components in melee provokes attacks of opportunity.
 4. Unless otherwise stated, a caster must have line of sight to the target of a spell to cast it, or be capable of making contact with it (close range, aka within "reach").
+  - A caster is also considered to have line of sight to a target if it can detect it with one of ["Heat sense"](06-abilities.md#heat-sense-i-v), ["Life sense"](06-abilities.md#life-sense-i-v), ["tremor sense"](06-abilities.md#tremor-sense-i-v) or ["blind sight"](06-abilities.md#blind-sight-i-vi).
+  - In the above case, if the target is an entity or object, any attack roll is made at disadvantage, and if the spell allows a save, the target has advantage on the roll.
 5. If a spell lasts for a round or longer, affected entities make the initial save at the start of its turn and gets a save at the start of every turn against harmful effects of the spell unless otherwise stated otherwise in its description.
   - For spells with a duration of less than one round, the save is made immediately and no repeated saves are applicable, unless stated otherwise in the spell description.
   - This is in accordance with the ["Damage and effects over time"](04-combat.md#damage-and-effects-over-time).
@@ -180,15 +182,15 @@ Characters learn a few spells every time they gain a level in one of the "Spellc
 
 Notably, for the first time that a character gains a "Spellcasting" ability of a given type, they learn a number of "MP 0" spells in addition to the usual number of spells gained per level of "Spellcasting". The exact number is likewise described in the spellcasting table.
 
-|Spellcasting kind|Spells gained per level of ability|"MP 0" spells gained at ability level 1|
+|Spellcasting kind|"MP 1" ("MP 0") spells at ability level I|Spells (any level) at levels II+|
 |-|-|-|
-|Elemental (Air)|2|2|
-|Elemental (Earth)|2|2|
-|Elemental (Fire)|2|2|
-|Elemental (Ice)|2|2|
-|Incantation|1|3|
-|Kinetic|1|3|
-|Nature|2|2|
+|Elemental (Air)  |2 (2)|2|
+|Elemental (Earth)|2 (2)|2|
+|Elemental (Fire) |2 (2)|2|
+|Elemental (Ice)  |2 (2)|2|
+|Incantation      |1 (3)|2|
+|Kinetic          |1 (3)|2|
+|Nature           |2 (2)|2|
 
 #### learning spells through independent study or from a mentor.
 

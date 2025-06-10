@@ -67,7 +67,7 @@ Dragging a load, or pulling a vehicle, burdens a character somewhat differently 
 
 ### Weight limits and size
 
-For every size above medium, the carrying capacity limits are doubled. For every size below medium, the carrying capacity limits are halved.
+For every size above medium, the carrying capacity limits are doubled. For every size below medium, the carrying capacity limits are halved. See the [weight rules](02-base-rules.md#size-rules-table) for more details.
 
 ___
 ## Local and Global Movement
@@ -198,7 +198,6 @@ All travel rolls are determined by the terrain type, the weather modifier from i
   - Deep Forest, Subterranean, Fells, Swamp, Mountain: 15
   - Inclement Weather: +5 threshold modifier.
   - Homeland: +5 bonus to roll.
-
 
 - Full rules are as follows:
 - **Familiarity bonus:**

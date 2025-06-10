@@ -553,7 +553,6 @@ The base template allows the following:
   - A template may grant only 1 damage resistance or immunity per template level.
 - Immunity to a single B or C Class condition.
   - A template may grant only 2 condition resistances or immunities per template level.
-- A 5ft dig speed. Characters that pick this option have a -10ft speed penalty to their climb, walk and swim speeds.
 - Improve fly speed rating from "average" -> "good".
 - Improve dig speed by 5ft from 10ft or higher.
 - A passive or active (B class) ability with no prerequisites.
@@ -596,8 +595,11 @@ Templates with vulnerabilities and special restrictions gain additional template
     - 1 point in a game that does not go above level 10.
     - 4 points in a game that intends to go above level 10.
 - Restrictions (Not an exhaustive list, but can act as a guide):
-  - Cannot cross flowing water. (2)
-  - No sense of hearing or smell. (1)
   - Blind. (3)
-  - Only one prehensile limb. (1)
   - No prehensile limbs. (3)
+  - Partially prehensile limbs. (2)
+  - Cannot cross flowing water. (2)
+  - Poor Vision. Disadvantage on "Appraise", "Navigate", "Observe", "Prospect", "Sense Motive" rolls that rely on sight. (2)
+  - Dense. Disadvantage on "Climb", "Fly" and "Swim" rolls, as well as skill and ability rolls made for jumping. (2)
+  - Only one prehensile limb. (1)
+  - No sense of hearing or smell. (1)

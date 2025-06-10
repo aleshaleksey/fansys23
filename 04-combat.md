@@ -80,7 +80,7 @@ An attack is any action attempted against an entity that has the potential to re
 ___
 ### Targeted attacks
 
-A targeted attack is an attack made specifically against an entity that involves the attacker making a [NAP] or [SAP] based roll against the target. Usually these do damage, but they can also have other effects, for example the "grapple" manoeuvre.
+A targeted attack is an attack made specifically against an entity that involves the attacker making a [NAP] or [SAP] based roll against the target. Attacks that cause the target to make a save are also targeted attacks if they have a target of "1 entity". Usually these do damage, but they can also have other effects, for example the "grapple" manoeuvre.
 
 ___
 ### Attacks and damage bonuses

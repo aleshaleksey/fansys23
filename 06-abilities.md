@@ -1005,9 +1005,7 @@ ___
 
 Spell casting abilities come in two flavour: Local and Global. Local spellcasting covers spells which take no longer than an hour to cast, have effects that wear off in a month of less and do not reach further than a mile from the point of casting. They are most useful in battle and situations where an immediate effect is needed. Global spellcasting covers everything else and is used in various applications, from near impenetrable barrier on holy sites, to enchantments that bring fertile harvests to whole kingdoms over the centuries.
 
-The rules for use of spells in combat are found in "[Combat: Spells](04-combat.md#spells)".
-
-Other magic rules, including spell lists are found in "[Spells](07-spells.md)"
+The rules for use of spells in combat are found in "[Combat: Spells](04-combat.md#spells)". Other magic rules are found in "[Magic and Spellcasting](07-magic-and-spellcasting.md)". Spell lists are found in "[Spell List](08-spell-list.md)"
 
 ___
 #### Forbidden Spell

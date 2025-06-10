@@ -232,7 +232,7 @@ ___
 |Target(s)|1 entity|
 |Casting time|"main action"|
 |Range|15ft| (+1)
-|Duration|Immediate|
+|Duration|Instantaneous|
 |Components|incantation| (+1)
 |Conditions|prone|
 |Save|Wis|
@@ -301,7 +301,7 @@ ___
 |-|-|
 |Scope|local|
 |MP Dice|0|
-|Target(s)|1ft sq, 1 entity or 1 object in range|
+|Target(s)|1 entity or 1 object in range|
 |Casting time|"main action"|
 |Range|120ft|+2
 |Damage|1d12+[Sup] pressure|+3
@@ -321,7 +321,7 @@ ___
 |Target(s)|1sq|
 |Casting time|"main action"|
 |Range|120ft|+2
-|Duration|immediate|
+|Duration|instantaneous|
 |Damage|1d8+[Sup] Ice|+3
 |Components|incantation, kinetic|-1
 |Save|Con|
@@ -504,7 +504,7 @@ ___
 |Target(s)|5ft radius centered on a square in range| (+2)
 |Casting time|"main action"|
 |Range|Close|
-|Duration|Immediate|
+|Duration|Instantaneous|
 |Components|incantation| (+1)
 |Save|None|
 
@@ -968,7 +968,7 @@ ___
 |Attack|[SAP]+Int|
 |Save|Cha, spell fails|
 
-**Description**: Collects a water weird and give control of it to the target. The caster may make a single attack with the weird (15ft reach) as a "main action" on the same turn and on subsequent turns. The weird may also carry out the "grapple" or "shove"/"throw" combat manoeuvres, or make simple interactions with its environment, similar to a 15ft snake. (-3+3+6=4+2)
+**Description**: Collects a water weird and gives control to the target (may be the caster). The weird can also be anchored to a square. The weird travels with the  target (wielder), who may make a single attack with the weird (15ft reach) as a "main action" on the same turn and on subsequent turns. If the weird . The weird may also carry out the "grapple" or "shove"/"throw" combat manoeuvres, or make simple interactions with its environment, similar to a 15ft snake. (-3+3+6=4+2)
 
 **Special**: If the target is a square of water or ground, the caster retains control of the weird. If the target is an entity it may make a save to reject the spell, in which case the spell fails.
 

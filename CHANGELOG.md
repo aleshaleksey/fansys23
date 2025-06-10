@@ -325,6 +325,8 @@ ___
 - Double range on "[Spirits' Secret](08-spell-list.md#spirits-secret)".
 - Add "[Witch's Lantern](08-spell-list.md#witchs-candle)" light spell (it is weak).
 - Add "[Flare](08-spell-list.md#flare)" light/damage spell.
+- disambiguate water/ice in the spell list.
+- Change the wording on "[Water Snake](08-spell-list.md#water-snake)"
 
 ### Abilities
 - Improve wording on "[Deflect Missile](06-abilities.md#deflect-missile)".

@@ -110,6 +110,41 @@ These humans are often proficient in any two weapon groups, though seldom own ba
 Beware the humble human farmer working his field! He has had a tough life and survived. A peasant will not rush into combat, but will often be more than willing to defend his pride, home and kin. Still they would rather not have to. No one wants to die.
 
 ___
+### Human Scholar
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|11/11/11|11 (*9*)|17 (*15*)|5|30|-|
+
+(+1 from base)
+
+Travelling over dangerous terrain, will use brigandine (HiT: 15/15/11)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|10|11|12|14|13|12|
+|Bonus|0|0|+1|+2|1|+1|
+|Save|+1|+1|+2|+4|+2|+2|
+
+|Level(base)|SP dice|MP Dice|Nat|Sup|NAP|SAP|
+|-|-|-|-|-|-|-|
+|3 (1)|4|7|1|2|2|3|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Dagger|+2|1d4|-|
+|Shortbow|+2|1d6|range: 600/120ft|
+|Spellcasting: Kinetic II|||"[Witch's Candle](../08-spell-list.md#witchs-candle)", "[Least Shroud](../08-spell-list.md#least-shroud)", "[Whispers](../08-spell-list.md#whispers)","[Enflame](../08-spell-list.md#enflame)", "[Spirits' Secret](../08-spell-list.md#spirits-secret), "[Least Transformation](../08-spell-list.md#least-transformation)"|
+|||||
+|Proficiencies|||"Calligraphy" + 2 other kits (or languages), 2 languages, 2 weapons|
+|Skills|||+5 in academics and +4 in 2 knowledge, +3 in other 4, "Observe" +3, 1 rank in another 4|
+
+These are members of human society that have devoted their life to the study or investigation of a particular subject, discipline or art. They can be engineers, scholars, teachers, archivists, bureaucrats or fulfil any other number of roles in human society.
+
+Scholars seldom carry weapons or armour. Although in some societies they may carry a light blade or shortstaff. When travelling they may equip themselves with a shortbow. Some scholars are familiar with [kinetic](../06-abilities.md#spellcasting-local) or [incantation](../06-abilities.md#spellcasting-local) magic to level II.
+
+A scholar will seldom engage in combat if given the choice, although they may fight when cornered, or when defending allies or sworn allies.
+
+___
 ### Human Elite
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
@@ -141,6 +176,7 @@ On the battlefield, will often use Cuirass and shield for (HiT: 17/16/11)
 These are well fed humans who are trained from birth to rule over their societies. They seldom fight, but often send others to fight for them. They will generally surrender once they have ran out of men to throw at their foe, or even before then. No one wants to die.
 
 Elites seldom carry weapons or wear armour beyond a symbolic dagger or smallsword. Although if forced onto the battlefield will take up arms.
+
 ____
 ### Human Militia
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|

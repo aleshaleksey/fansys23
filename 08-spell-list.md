@@ -2818,10 +2818,11 @@ ___
 
 Incorporeal ["undead"](10-conditions-types.md#profane) and ["fiends"](10-conditions-types.md#profane) have disadvantage on attacks and saves within the radius of the bright light.
 
-As a secondary action the caster may dismiss the flare, causing 1d6+[SUP] damage to all targets within 30ft of the mote and hence ending the spell. All entities that take damage from the light must succeed a CON save or be "blinded". The effect is permanent until cured.
+As a secondary action the caster may dismiss the flare, causing 3d6+[SUP] damage to all targets within 30ft of the mote and hence ending the spell. All entities that take damage from the light must succeed a CON save or be "blinded". The effect is permanent until cured.
 
 **Upcast**:  For each extra MP die above 1 the spell may last for an extra 8 hours or the radius of bright and dim light increase each by 20ft.
 
+**Global**: If the spell is cast globally, it must be anchored to a stationary target. If the target is moved from its square(s), the spell ends. Secondly the spell causes no damage if dismissed. The spell lasts for a month and the radius of bright light is 2400ft (or about half a mile). For every extra MP dice, the radius increases by 400ft, and the duration increases by 1 month. 
 
 ___
 ### Flawed Transmute

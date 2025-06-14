@@ -991,7 +991,7 @@ ___
 
 **Description**: A bitter chill binds the target. The target or targets in the area are "immobilised".The target repeats its save at the end of every turn. (+6).
 
-**Special**: The affected area is classed as being one step closer to having the "Extreme temperature: Sever Cold" modifier.
+**Special**: The affected area is classed as being one step closer to having the "Extreme temperature: Severe Cold" modifier.
 
 **Upcast**: For every MP dice added above 2 the spell's radius increases by 5ft (this also affects the caster). OR Increase the duration by 1 minute.
 

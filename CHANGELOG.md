@@ -335,3 +335,6 @@ ___
 ### Conditions and Types
 - Change definition for "poisoned" condition and add initial rules for poisons.
 - Change definition for "diseased" condition and add initial rules for diseases. 
+
+### Skills
+- Added rope as a separate proficiency under Sleight of Hand and climber's kit.

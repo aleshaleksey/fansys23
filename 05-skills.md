@@ -48,7 +48,7 @@ A character gets skill points (ranks) based on level and intelligence. The maxim
 
 Every level a character gains skill points equal to **3 + [INT]**. So at level LVL a character has **[LVL] x (3 + [INT])** skill points (not counting any ranks gained through converting "level points" to skill points).
 
-A skill point can be assigned to either (a) gain a proficiency, or (b) add a rank to a skill. Each level a character can reassign one of the previously assigned skill points to a different proficiency or skill. If a character has **zero** ranks in a skill, any roll of the dice (before modifiers!) in that skill above 12 counts as 12. This reflects lack of specialist knowledge and experience that that character lacks.
+A skill point can be assigned to either (a) gain a proficiency, or (b) add a rank to a skill. Each level a character can reassign one of the previously assigned skill points to a different proficiency or skill. If a character has **zero** ranks in a skill and does not have the skill as a background skill, any roll of the dice (before modifiers!) in that skill above 12 counts as 12. This reflects lack of specialist knowledge and experience that that character lacks.
 
 ___
 ### Base and "background" bonus
@@ -157,11 +157,13 @@ Optionally, for gritty settings language proficiency does not grant a character 
 ___
 ### Tool Proficiencies
 
-Using tools usually requires a roll of an associated skill. Some skills cannot be used for certain purposes unless the character is also proficient with appropriate tools. At the group's discretion it can makes sense for other skills may be associated with a tool (eg woodworking tools being used with **fortify** for making big items like wooden walls). Tools and their properties are further discussed below (in the "[Tools](#kit-and-tool-descriptions)" sections).
+Using tools usually requires a roll of an associated skill. Some skills cannot be used for certain purposes unless the character is also proficient with appropriate tools. More precisely, they lack the specific training to make best use of it, and the dice roll is therefore capped at 12, as described in "[Skill points (ranks)](#skill-points-ranks)".
+
+At the group's discretion it can makes sense for other skills may be associated with a tool (eg woodworking tools being used with **fortify** for making big items like wooden walls). Tools and their properties are further discussed below (in the "[Tools](#kit-and-tool-descriptions)" sections).
 
 - Athletics group based:
   - Diver's tools
-  - Climber's kit
+  - Climber's kit (rope)
 - Fortify based
   - Entrenching tools
   - Mason's tools
@@ -170,6 +172,7 @@ Using tools usually requires a roll of an associated skill. Some skills cannot b
 - Sleight of Hand
   - Calligraphy kit
   - Forgery kit
+  - Rope
 - Tinker
   - Tinkerer's tools
   - Woodworking tools

@@ -308,7 +308,8 @@ At level one a character starts with the following:
 + Any benefits and properties it inherits from its type and race.
 + 1 + [Con] + [Cha] HP, with a minimum of 1
 + 3 dice points + 1 SP dice + 1 MP dice
-+ 6 + [Int] skill points (these can also be used for weapon, armour, language and tool proficiencies)
++ 2 skill points that can ONLY be used for proficiencies (eg weapon, armour, language and tool proficiencies)
++ 6 + [Int] skill points (these can also be used for proficiencies, eg with weapon, armour, languages and tools).
 + 1 background skill
 + 3 level points
 + 1 save in which they are proficient

@@ -272,6 +272,7 @@ At level one a character starts with:
 + 1 template[level 0]
 + 1 + [Con] + [Cha] HP, with a minimum of 1
 + 3 dice points + 1 SP dice + 1 MP dice
++ 2 skill points that can ONLY be used for proficiencies (eg weapon, armour, language and tool proficiencies)
 + 6 + [Int] skill points to put into skill ranks and proficiencies (other than saves).
 + 1 background skill
 + 3 level points

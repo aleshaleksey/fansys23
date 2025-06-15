@@ -319,6 +319,8 @@ ___
 ### General
 - Add [Recipes](14-recipes.md) chapter with various basic builds.
 - "Winged" are now small, as they should be to start off with.
+- Add an extra 2 proficiency points to spend on proficiencies at level 1.
+- Rename save proficiencies to "good saves" and "bad saves".
 
 ### Spellcasting
 - Regularise casting time on global spells (now 1h-2h/level at levels 1-4, 1h or 12h for 5-6, 1 day for 7 and above). With a few notable exceptions (profane/forbidden spells generally take a day to cast).

@@ -308,11 +308,11 @@ At level one a character starts with the following:
 + Any benefits and properties it inherits from its type and race.
 + 1 + [Con] + [Cha] HP, with a minimum of 1
 + 3 dice points + 1 SP dice + 1 MP dice
-+ 2 skill points that can ONLY be used for proficiencies (eg weapon, armour, language and tool proficiencies)
-+ 6 + [Int] skill points (these can also be used for proficiencies, eg with weapon, armour, languages and tools).
++ 2 [proficiencies](05-skills.md#proficiency-lists)
++ 6 + [Int] skill points (these can also be used for additional [proficiencies](05-skills.md#proficiency-lists))
 + 1 background skill
 + 3 level points
-+ 1 save in which they are proficient
++ 1 good save.
 + 1 homeland
 
 #### Skills and proficiencies
@@ -325,7 +325,7 @@ Thirdly, a character also gets to choose a home terrain. This can be anything fr
 
 Fourthly, a character chooses a save with which they are proficient. This will help defend them against some nasty stuff, so choose carefully.
 
-Lastly, a character gains 3 level points. Level points are spent on gaining abilities. These range from extra save proficiencies, to sword arts and spell casting, and much more. A level point can also be exchanged for 3 skill points or a +1 increase to any stat (although no stat can exceed 24 for a character). For a list of abilities see the "[Abilities](06-abilities.md)" chapter.
+Lastly, a character gains 3 level points. Level points are spent on gaining abilities. These range from extra good saves, to sword arts and spell casting, and much more. A level point can also be exchanged for 3 skill points or a +1 increase to any stat (although no stat can exceed 24 for a character). For a list of abilities see the "[Abilities](06-abilities.md)" chapter.
 
 ___
 ### Stamina and Mana dice and HP

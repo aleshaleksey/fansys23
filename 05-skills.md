@@ -83,9 +83,7 @@ ___
 Some skills are similar to each other as to be somewhat transferable. In this case the character may roll a different skill from the same group with a -5 penalty.
 
 ___
-## Skill and Proficiency Lists
-
-### Skills list
+## Skills list
 
 There are 31 skills and a number of proficiencies.
 
@@ -148,6 +146,8 @@ There are 31 skills and a number of proficiencies.
   - [Perform](#perform)
 
 ___
+## Proficiency Lists
+
 ### Language Proficiencies
 
 There are as many language proficiencies as there are languages in your setting. In order to speak, understand, read and write a language a character must be proficient in it.

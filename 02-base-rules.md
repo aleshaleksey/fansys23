@@ -269,15 +269,15 @@ A character must spend all points when it levels up. It cannot horde unspent poi
 
 At level one a character starts with:
 
-+ 1 template[level 0]
++ 1 template
 + 1 + [Con] + [Cha] HP, with a minimum of 1
 + 3 dice points + 1 SP dice + 1 MP dice
-+ 2 skill points that can ONLY be used for proficiencies (eg weapon, armour, language and tool proficiencies)
-+ 6 + [Int] skill points to put into skill ranks and proficiencies (other than saves).
++ 2 [proficiencies](05-skills.md#proficiency-lists)
++ 6 + [Int] skill points (these can also be used for additional [proficiencies](05-skills.md#proficiency-lists))
 + 1 background skill
 + 3 level points
 + Any benefits and properties it inherits from its type and race.
-+ 1 save in which they are proficient
++ 1 good save.
 + 1 homeland.
 
 In addition at level 8 and level 16 a character gets a "race boon" from its race.
@@ -489,11 +489,13 @@ A character has six saving throws, one for each stat. Abilities and effects that
       - Negate a spirit's attempt to devour your essence.
       - Negate possession.
 
-A character can either be proficient, or not proficient with a save. The calculation for the save bonus is as follow:
+A save can either be "good" or "bad" for a character. The calculation for the save bonus is as follow:
 
-- **Not proficient**: [Stat bonus + Base] + [outside factors]
-- **Proficient** (Str, Dex, Con): [NAP + Stat bonus] + [outside factors]
-- **Proficient** (Int, Wis, Cha): [SAP + Stat bonus] + [outside factors]
+- **Bad**: [Stat bonus + Base] + [outside factors]
+- **Good** (Str, Dex, Con): [NAP + Stat bonus] + [outside factors]
+- **Good** (Int, Wis, Cha): [SAP + Stat bonus] + [outside factors]
+
+A character starts with one good save at level 1, and can gain more good saves with the "[Extra Save](06-abilities.md#extra-save)" ability.
 
 ___
 ### Hit Threshold (HiT)

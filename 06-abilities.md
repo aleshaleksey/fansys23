@@ -1528,11 +1528,11 @@ ___
 
 **Type**: (Natural, Class A)
 
-**Description**: Gain proficiency with a saving throw.
+**Description**: Gain an extra "good save".
 
 **Prerequisite Table**: A character can take this boon more than once, but must have a high enough level.
 
-|Level| Max Save proficiencies| Boone Name|
+|Level| Max good saves| Boone Name|
 |-|-|-|
 |1-4|2| Extra Save I|
 |5-8|3| Extra Save II|

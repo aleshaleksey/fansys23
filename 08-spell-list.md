@@ -569,7 +569,7 @@ ___
 |Name|Beast Speech [Nature, Air]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|1 (4)|
+|MP Dice|1 (2)|
 |Target(s)|1 entity (100ft radius)|
 |Casting time|"full round action" (1h + 20min per 4MP)| -2
 |Range|close|
@@ -642,7 +642,7 @@ ___
 |Name|Ensnare [Nature]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|1 (4)|
+|MP Dice|1 (2)|
 |Target(s)|10ft radius centered on a square (200ft)| +3
 |Casting time|"main action" (1h + 20min per 4MP)|
 |Range|60ft|+1
@@ -687,7 +687,7 @@ ___
 |-|-|
 |-|-|
 |Scope|local (global)|
-|MP Dice|1 (4)|
+|MP Dice|1 (2)|
 |Target(s)|5ft radius centered on a sq (100ft)|+1
 |Casting time|"main action" (1h + 20min per 4MP)|
 |Range|120ft| +2
@@ -724,7 +724,7 @@ ___
 |Name|Headwind [Air, Spring]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|1 (4)|
+|MP Dice|1 (2)|
 |Target(s)|20ft, 60 degree cone centered on the caster (100ft sphere)|+1
 |Casting time|"1 main action" (1h + 20min per 4MP dice)|
 |Range|close|
@@ -744,7 +744,7 @@ ___
 |Name|Least Flare [Light, Fire, Air]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|1 (4)|
+|MP Dice|1 (2)|
 |Target(s)|1 target no larger than "small"|-1
 |Casting time|"1 main action" (1 hour + 20min per extra 4MP dice)|
 |Range|close|-1
@@ -788,7 +788,7 @@ ___
 |Name|Lesser Illusory Self [Illusion, Kinetic, Water, Wind]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|1 (4)|
+|MP Dice|1 (2)|
 |Target(s)|1 entity|
 |Casting time|1 main action (1 hour)|
 |Range|close|-1
@@ -855,7 +855,7 @@ ___
 |Name|Shape Earth [Earth, Nature, Travel]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|1 (4)|
+|MP Dice|1 (2)|
 |Target(s)|rock or ground within a 10ft radius of a sq (200ft)| +3
 |Casting time|"main action" (1h + 20min per 4MP dice)|
 |Range|120ft| +2
@@ -880,7 +880,7 @@ ___
 |Name|Spirits' Secret [Air, Spirit]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|1 (4)|
+|MP Dice|1 (2)|
 |Target(s)|1 entity|
 |Casting time|1 minute (1h + 20 minutes per 4MP dice)|-2
 |Range|480ft + 120ft/MP die (4 miles + 1 mile / MP die)|+3
@@ -907,7 +907,7 @@ ___
 |Name|Summon Beast [Beast, Nature]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|1 (4)|
+|MP Dice|1 (2)|
 |Target(s)|1sq (1sq)|
 |Casting time|"full round action" (1 hour + 20 minutes per 4MP dice)|-2
 |Range|close|-1
@@ -935,7 +935,7 @@ ___
 |Name|Tailwind [Air, Spirit, Travel]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|1 (4)|
+|MP Dice|1 (2)|
 |Target(s)|1 entity|
 |Casting time|"1 main action" (1h + 20min per 4MP dice)|
 |Range|close|-2
@@ -980,7 +980,7 @@ ___
 |Name|Winter's Touch [Water, Winter]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|1 (4)|
+|MP Dice|1 (2)|
 |Target(s)|1+ entity/sq (100ft per 4MP)|
 |Casting time|"main action" (1 hour + 20 min/4MP)|
 |Range|close|
@@ -1004,7 +1004,7 @@ ___
 |Name|Call Ailment [Curse, Destruction, Nature]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|2 (8)|
+|MP Dice|2 (4)|
 |Target(s)|1 entity (100ft radius)|
 |Casting time|"main action" (2h + 20 minutes per 4MP)|
 |Range|15ft|-1
@@ -1028,7 +1028,7 @@ ___
 |Name|Dusk [Curse, Earth, Profane, Water]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|2 (8)|
+|MP Dice|2 (4)|
 |Target(s)|1 target no greater than "large"|+1
 |Casting time|1 action (2h + 20 minutes per 4MP dice)|
 |Range|15ft|
@@ -1054,7 +1054,7 @@ ___
 |Name|Earthen Hand [Earth]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|2 (8)|
+|MP Dice|2 (4)|
 |Target(s)|1sq|
 |Casting time|"main action" (2h + 20 minutes per 4MP dice)|
 |Range|30ft|
@@ -1087,7 +1087,7 @@ ___
 |Name|Glide [Travel, Wind]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|2 (8)|
+|MP Dice|2 (4)|
 |Target(s)|2 entities or an object no bigger than 15 x 15 x 15ft (200ft)|+1
 |Casting time|"main action" or "reaction" (2h + 20 minutes per 8MP)|
 |Range|60ft|+1
@@ -1112,7 +1112,7 @@ ___
 |Name|Harvest [Curse, Nature]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|2 (8)|
+|MP Dice|2 (4)|
 |Target(s)|5ft radius centered on a sq (100ft)|+1
 |Casting time|"main action" (2h + 20 minutes per 4MP)|
 |Range|15ft|-2
@@ -1156,7 +1156,7 @@ ___
 |Name| [Curse, Water]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|2 (8)|
+|MP Dice|2 (4)|
 |Target(s)|1 entity|
 |Casting time|"main action" (2h + 20 minutes per 4MP)|
 |Range|close|
@@ -1183,7 +1183,7 @@ ___
 |Name|Veil [Air, Curse]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|2 (8)|
+|MP Dice|2 (4)|
 |Target(s)|1 entity or an object no more than 5x5x5ft (100ft)|
 |Casting time|"main action" (2h + 20 minutes per 4MP dice)|
 |Range|close|
@@ -1207,7 +1207,7 @@ ___
 |Name|Lesser Xenophonia [Air]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|2 (8)|
+|MP Dice|2 (4)|
 |Target(s)|1 entity (120ft)|
 |Casting time|1 full round action (2 hours + 20 minutes per 4 MP dice)|-1
 |Range|close|
@@ -1254,7 +1254,7 @@ ___
 |Name|Natural Xenophonia [Nature]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|2 (8)|
+|MP Dice|2 (4)|
 |Target(s)|1 entity (120ft)|
 |Casting time|1 full round action (2 hours + 20 minutes per 4MP dice)|-1
 |Range|close|
@@ -1278,7 +1278,7 @@ ___
 |Name|Promise [Curse, Global]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|2 (8)|
+|MP Dice|2 (4)|
 |Target(s)|(1 entity)|
 |Casting time|main action (2 hours + 20 minutes per 4MP dice)|
 |Range|close|
@@ -1324,7 +1324,7 @@ ___
 |Name|Silence [Curse, Water]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|2 (8)|
+|MP Dice|2 (4)|
 |Target(s)|1 entity or 5ft radius centered ona square (100ft)|+1
 |Casting time|"main action" (2 hours + 20 minutes per 4MP dice)|
 |Range|60ft|+1
@@ -1343,7 +1343,7 @@ ___
 |Name|Summon Flame Sprite [Fire, Spiritual]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|2 (8)|
+|MP Dice|2 (4)|
 |Target(s)|1sq (1sq)|
 |Casting time|"full round action" (4 hours + 20 minutes per 4MP dice)|-2
 |Range|30ft (30ft)|
@@ -1375,7 +1375,7 @@ ___
 |Name|Summon gnome [Earth, Spiritual]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|2 (8)|
+|MP Dice|2 (4)|
 |Target(s)|1sq (1sq)|
 |Casting time|"full round action" (4 hours + 20 minutes per 4MP dice)|-2
 |Range|30ft (30ft)|
@@ -1403,7 +1403,7 @@ ___
 |Name|Summon Flame Sprite [water, Spiritual]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|2 (8)|
+|MP Dice|2 (4)|
 |Target(s)|1sq (1sq)|
 |Casting time|"full round action" (4 hours + 20 minutes per 4MP dice)|-2
 |Range|30ft (30ft)|+1
@@ -1431,7 +1431,7 @@ ___
 |Name|Summon Flame Sprite [Air, Spiritual]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|2 (8)|
+|MP Dice|2 (4)|
 |Target(s)|1sq (1sq)|
 |Casting time|"full round action" (4 hours + 20 minutes per 4MP dice)|-2
 |Range|30ft (30ft)|
@@ -1459,7 +1459,7 @@ ____
 |Name|Trace Secret Path [Nature, Air, Fire, Water, Earth, Spirit]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|2 (8)|
+|MP Dice|2 (4)|
 |Target(s)|1 entity|
 |Casting time|1 main action (2 hours + 20 minutes per 4MP dice)|
 |Range|close|
@@ -1489,7 +1489,7 @@ ___
 |Name|Warmth [Fire, Travel]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|2 (8)|
+|MP Dice|2 (4)|
 |Target(s)|20ft radius round a square in range (400ft)|+6
 |Casting time|"full round" (2 hours + 20 minutes per 4MP dice) |-1
 |Range|30ft|
@@ -1512,7 +1512,7 @@ ___
 |Name|Warded Ground [Barrier, Earth, Ground]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|2 (8)|
+|MP Dice|2 (4)|
 |Target(s)|30ft (400ft)|+4 (Ground only)
 |Casting time|"1 minute" (2 hours + 20 minutes per 4MP dice)|-2
 |Range|close|-2
@@ -1570,7 +1570,7 @@ ___
 |Name|Animate Dead [Curse, Profane]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|3 (12)|
+|MP Dice|3 (6)|
 |Target(s)|1sq (1sq)|
 |Casting time|"full round action" (3 hours + 20 minutes per 4MP dice)|-2
 |Range|30ft (30ft)|
@@ -1601,7 +1601,7 @@ ___
 |Name|Animate Plant [Mortal, Nature]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|3 (8)|
+|MP Dice|3 (6)|
 |Target(s)|1sq (1sq)|
 |Casting time|"full round action" (3 hours + 20 minutes per 4MP dice)|-2
 |Range|30ft (30ft)|
@@ -1626,7 +1626,7 @@ ___
 |Name|Stone Skin [Earth, Ward]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|3| 
+|MP Dice|3 (6)| 
 |Target(s)|1 entity|
 |Casting time|"1 main action" (3 hours + 20 minutes per 4MP dice)|
 |Range|close|-1(9)
@@ -1721,7 +1721,7 @@ ___
 |Name|Earth Ward [Barrier, Earth]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|3 (12)|
+|MP Dice|3 (6)|
 |Target(s)|1 entity/15ft (200ft)|+6
 |Casting time|"full round"/"reaction"(3 hours + 20 minutes per 4MP dice)|(5,10)
 |Range|close|(3,8)
@@ -1753,7 +1753,7 @@ ___
 |Name|Fairy Feast [Nature, Kinetic, Spirit]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|3 MP dice (12 MP dice)|
+|MP Dice|3 (6)|
 |Target(s)|Up to 6 entities, no larger than "huge"|+9
 |Casting time|1 full round action (3 hours + 20 minutes per 4MP dice)|-2
 |Range|close|-1
@@ -1783,7 +1783,7 @@ ___
 |Name|Fire Ward [Barrier, Fire]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|3 (12)|
+|MP Dice|3 (6)|
 |Target(s)|1 entity/10ft (200ft)|+4
 |Casting time|"full round"/"reaction"(3 hours + 20 minutes per 4MP dice)|(3,8)
 |Range|close|(3,8)
@@ -1816,7 +1816,7 @@ ___
 |Name|Growth [Nature]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|3 (12)|
+|MP Dice|3 (6)|
 |Target(s)|1 entity or an object that fits within a 5ft square (100ft)|
 |Casting time|"main action" (3 hours + 20 minutes per 4MP dice)|
 |Range|close|-3
@@ -1836,7 +1836,7 @@ ___
 |Name|Guidance of the Earth [Earth, Spirit]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|3 (12)|
+|MP Dice|3 (6)|
 |Target(s)|1 entity (100ft)|
 |Casting time|"full round" (3 hours + 20 minutes per 4MP dice)|-1
 |Range|close|-2(-3)
@@ -1857,7 +1857,7 @@ ___
 |Name|Guidance of the Winds [Air, Spirit]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|3 (12)|
+|MP Dice|3 (6)|
 |Target(s)|1 entity (100ft)|
 |Casting time|"full round" (3 hours + 20 minutes per 4MP dice)|-1
 |Range|close|-2
@@ -1878,7 +1878,7 @@ ___
 |Name|Illusory Self [Illusion, Kinetic, Water]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|3 (12)|
+|MP Dice|3 (6)|
 |Target(s)|1 entity|
 |Casting time|1 main action (3 hours + 20 minutes per 4MP dice)|
 |Range|close|-1
@@ -1907,7 +1907,7 @@ ___
 |Name|Least Curse [Curse, Destruction, Spirit]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|3 (12)|
+|MP Dice|3 (6)|
 |Target(s)|1 entity or item|
 |Casting time|"full round" (3 hours + 20 minutes per 4MP dice)|-1
 |Range|30ft|
@@ -1950,7 +1950,7 @@ ___
 |Name|Melt [Fire, Spring, Destruction]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|3 (12)|
+|MP Dice|3 (6)|
 |Target(s)|4 objects occupying no more than a roughly 5ft cube each (50ft radius)|+3
 |Casting time|1 main action (3 hours + 20 minutes per 4MP dice)|
 |Range|30ft|+2
@@ -1976,7 +1976,7 @@ ___
 |Name|Mole [Earth, Nature, Travel]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|3 (12)|
+|MP Dice|3 (6)|
 |Target(s)|1 or more entities|
 |Casting time|"main action" (3 hours + 20 minutes per 4MP dice)|
 |Range|close|
@@ -1997,7 +1997,7 @@ ___
 |Name|See Spell [Air, Earth, Fire, Water, Spirit]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|3 (12)|
+|MP Dice|3 (6)|
 |Target(s)|1 entity (1 locus of origin)|
 |Casting time|1 action (3 hours + 20 minutes per 4MP dice)|
 |Range|close/60ft (close/1200ft)|+2
@@ -2021,7 +2021,7 @@ ___
 |Name|Slumber [Air, Earth, Nature, Water, Spirit]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|3 (12)|
+|MP Dice|3 (6)|
 |Target(s)|1 entity|
 |Casting time|"1 full round action" (3 hours + 20 minutes per 4MP dice)|-1
 |Range|120ft (close)|+3
@@ -2045,7 +2045,7 @@ ___
 |Name|Storm Ward [Air, Barrier, Wind]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|3 (12)|
+|MP Dice|3 (6)|
 |Target(s)|1 entity/15ft (300ft)|+6
 |Casting time|"full round"/"reaction"(3 hours + 20 minutes per 4MP dice)|(5,10)
 |Range|15ft|(4,9)
@@ -2099,7 +2099,7 @@ ___
 |Name|Water Walk [Travel, Water]|
 |-|-|
 |Scope|Local (Global)|
-|MP Dice|3 (12)|
+|MP Dice|3 (6)|
 |Target(s)|3 or more entities(300ft)|+4
 |Casting time|"main action" (3 hours + 20 minutes per 4MP dice)|
 |Range|close|-2(2)
@@ -2123,7 +2123,7 @@ ___
 |Name|Wind Ward [Barrier, Water]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|3 (12)|
+|MP Dice|3 (6)|
 |Target(s)|1 entity/10ft (200ft)|+4
 |Casting time|"full round"/"reaction"(3 hours + 20 minutes per 4MP dice)|(3,7)
 |Range|15ft|(2,6)
@@ -2154,7 +2154,7 @@ ___
 |Name|Wind Walk [Air, Nature, Travel]|
 |-|-|
 |Scope|Local (Global)|
-|MP Dice|3 (12)|
+|MP Dice|3 (6)|
 |Target(s)|1 or more entities|
 |Casting time|"main action" (3 hours + 20 minutes per 4MP dice)|
 |Range|close|
@@ -2201,7 +2201,7 @@ ___
 |Name|Animate Golem [Earth]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|4 (16)|
+|MP Dice|4 (8)|
 |Target(s)|1sq (1sq)|
 |Casting time|"1 min" (4 hours + 20 minutes per 4MP dice)|
 |Range|15ft|-1
@@ -2226,7 +2226,7 @@ ___
 |Name|Aqueous Step [Travel, Water]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|4 (16)|
+|MP Dice|4 (8)|
 |Target(s)|2 entities* (2 entities*)|+2
 |Casting time|"main action" (4 hours + 20 minutes per 4MP dice)|
 |Range|close/540ft (close/180 miles)|+8(10)
@@ -2252,7 +2252,7 @@ ___
 |Name|Balance of Seasons [Air, Earth, Fire, Water]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|4 (16)|
+|MP Dice|4 (8)|
 |Target(s)|20ft radius (400ft radius)|+8
 |Casting time|"full round action" (4 hours + 20 minutes per 4MP dice)|-1(7)
 |Range|close|-(5)
@@ -2283,7 +2283,7 @@ ___
 |Name|Balance of Nature [Divine, Profane, Nature]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|4 (16)|
+|MP Dice|4 (8)|
 |Target(s)|20ft radius (400ft radius)|+8
 |Casting time|"full round action" (4 hours + 20 minutes per 4MP dice)|-1(7)
 |Range|close|-(5)
@@ -2316,7 +2316,7 @@ ___
 |Name|Bestial Transformation [Curse, Mortal, Nature, Water]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|4 (16)|
+|MP Dice|4 (8)|
 |Target(s)|1 entity|
 |Casting time|"main action" (4 hours + 20 minutes per 4MP dice)|
 |Range|close|
@@ -2340,7 +2340,7 @@ ___
 |Name|Enchanted Ground [Earth, Spirit]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|4 (16)|
+|MP Dice|4 (8)|
 |Target(s)|40ft radius, 15ft depth (800ft radius, 100ft depth)|+8
 |Casting time|"1 action" (4 hours + 20 minutes per 4MP dice)|
 |Range|close|-2(6)
@@ -2369,7 +2369,7 @@ ___
 |Name|False Aura [Water, Spirit]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|4 (16)|
+|MP Dice|4 (8)|
 |Target(s)|1 entity (120ft radius)|
 |Casting time|1 full round action (4 hours + 20 minutes per 4MP dice)|-2
 |Range|close|-1
@@ -2420,7 +2420,7 @@ ___
 |Name|Greater Xenophonia [Air]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|4 (20)|
+|MP Dice|4 (8)|
 |Target(s)|3 entities (360ft)|
 |Casting time|1 full round action (4 hours + 20 minutes per 4MP dice)|-1
 |Range|close|
@@ -2464,7 +2464,7 @@ ___
 |Name| Lesser Domain [Air, Fire, Water, Earth, Spirit]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|4 (16)|
+|MP Dice|4 (8)|
 |Target(s)|20ft radius (20ft radius)|+4
 |Casting time|1 full round (4 hours + 20 minutes per 4MP dice)|-2
 |Range|close (close)|-1
@@ -2513,7 +2513,7 @@ ___
 |Name|Freedom [Air, Water, Wind]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|4 (16)|
+|MP Dice|4 (8)|
 |Target(s)|1 entity|
 |Casting time|"1 full round action" (4 hours + 20 minutes per 4MP dice)|-2(17)
 |Range|close|-1(16)
@@ -2533,7 +2533,7 @@ ___
 |Name|Least Storm [Air, Destruction, Nature]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|4 (16)|
+|MP Dice|4 (8)|
 |Target(s)|30ft centered on a square (600ft)|+8
 |Casting time|"main action" (4 hours + 20 minutes per 4MP dice)|
 |Range|120ft|+2(10)
@@ -2557,7 +2557,7 @@ ___
 |Name|Least Weather Control [Air, Nature, Water]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|4 (16)|
+|MP Dice|4 (8)|
 |Target(s)|30ft (600ft)|+6
 |Casting time|"full round" (4 hours + 20 minutes per 4MP dice)|-1(5)
 |Range|close|
@@ -2580,7 +2580,7 @@ ___
 |Name|Lesser Incarnate [Spiritual]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|4 (16)|
+|MP Dice|4 (8)|
 |Target(s)|1sq (1sq)|
 |Casting time|"main action" (4 hours + 20 minutes per 4MP dice)|
 |Range|close|-1
@@ -2621,7 +2621,7 @@ ___
 |Name|Mirage [Spiritual, Water]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|4 (16)|
+|MP Dice|4 (8)|
 |Target(s)|20ft radius (400ft)|8
 |Casting time|"main action" (4 hours + 20 minutes per 4MP dice)|
 |Range|120ft|+2(10)
@@ -2651,7 +2651,7 @@ ___
 |Name|Rejuvenate Land [Healing, Nature]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|4 (16)|
+|MP Dice|4 (8)|
 |Target(s)|30ft radius (600ft)| (+12)
 |Casting time|"1 minute" (4 hours + 20 minutes per 4MP dice)|-2(10)
 |Range|close|-2(8)
@@ -2676,7 +2676,7 @@ ___
 |Name|Scry [Spirit, Water]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|4 (16)|
+|MP Dice|4 (8)|
 |Target(s)|1 entity or object|
 |Casting time|"main action" (4 hours + 20 minutes per 4MP dice)|
 |Range|720ft (240 miles)|+11
@@ -2721,7 +2721,7 @@ ___
 |Name|Summon Spirit [Spiritual]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|4 (16)|
+|MP Dice|4 (8)|
 |Target(s)|1sq (1sq)|
 |Casting time|"full round action" (4 hours + 20 minutes per 4MP dice)| -2
 |Range|15ft|+1
@@ -2776,7 +2776,7 @@ ___
 |Name|Flame Stride [Travel, Fire]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|5 (20)|
+|MP Dice|5 (10)|
 |Target(s)|2 entities* (2 entities*)|+2
 |Casting time|"secondary action" (5 hours + 20 minutes per 4MP dice)|+2
 |Range|close/600ft (close/200 miles)|+9(13)
@@ -2802,10 +2802,10 @@ ___
  ### Flare
 |Name|Flare [Light, Fire, Kinetic]|
 |-|-|
-|Scope|local (Global)|
-|MP Dice|5 (20)|
+|Scope|local (global)|
+|MP Dice|5 (10)|
 |Target(s)|1 target no larger than "gargantuan"|-1
-|Casting time|"1 main action"|
+|Casting time|"1 main action" (5 hours + 20 minutes per 4 MP dice)|
 |Range|30ft|+2
 |Duration|8 hours (1 month)|+9(11)
 |Components|kinetic|
@@ -2829,7 +2829,7 @@ ___
 |Name|Flawed Transmutation [Curse, Incantation]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|5 (20)|
+|MP Dice|5 (10)|
 |Target(s)|1 object (medium)|
 |Casting time|1 action (5 hours + 20 minutes per 4MP dice)|
 |Range|close|
@@ -2884,7 +2884,7 @@ ___
 |Name|Greater Fade [Nature, Spirit, Wind]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|5 (20)|
+|MP Dice|5 (10)|
 |Target(s)|1 entity (120ft radius)|
 |Casting time|1 full round action (5 hours + 20 minutes per 4MP dice)|-2
 |Range|close|-2 
@@ -2908,7 +2908,7 @@ ___
 |Name|Greater Fire Ward [Fire, Barrier]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|5 (20)|
+|MP Dice|5 (10)|
 |Target(s)|40ft radius (800ft radius)|+9
 |Casting time|"full round action" (5 hours + 20 minutes per 4MP dice)|
 |Range|30ft|+1(10)
@@ -2939,7 +2939,7 @@ ___
 |Name|Heart Ward [Incantation, Fire, Water]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|5 (20)|
+|MP Dice|5 (10)|
 |Target(s)|6 entities|
 |Casting time|"1 main action" (5 hours + 20 minutes per 4MP dice)|
 |Range|30ft|+2
@@ -2963,7 +2963,7 @@ ___
 |Name|Isolate Essence [Curse, Kinetic, Spirit]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|5 (20)|
+|MP Dice|5 (10)|
 |Target(s)|1 entity|
 |Casting time|1 main action (5 hours + 20 minutes per 4MP dice)|
 |Range|60ft|
@@ -3019,7 +3019,7 @@ ___
 |Name|Pact [Curse, Global]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|5 (20)|
+|MP Dice|5 (10)|
 |Target(s)|(2 entities)|+2
 |Casting time|full round action (5 hours + 20 minutes per 4MP dice)|
 |Range|close|
@@ -3048,7 +3048,7 @@ ___
 |Name|Plague [Nature, Curse]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|5 (20)|
+|MP Dice|5 (10)|
 |Target(s)|3 entities (300ft radius)|
 |Casting time|main action (5 hours + 20 minutes per 4MP dice)|
 |Range|120 feet (300ft)|
@@ -3133,7 +3133,7 @@ ___
 |Name|Iron Skin [Earth Ward]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|5 (20)|
+|MP Dice|5 (10)|
 |Target(s)|1 entity|
 |Casting time|"1 main action" (5 hours + 20 minutes per 4MP dice)|
 |Range|close|-1(21)
@@ -3157,7 +3157,7 @@ ___
 |Name|Summon Fiend [Profane]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|5 (20)|
+|MP Dice|5 (10)|
 |Target(s)|1sq (1sq)|
 |Casting time|"full round action" (5 hours + 20 minutes per 4MP dice)|-2
 |Range|30ft (30ft)|
@@ -3186,12 +3186,12 @@ ___
 ### Winter's Grasp
 |Name|Freeze [Curse, Water, Winter]|
 |-|-|
-|Scope|local (global)|
-|MP Dice|5 (20)|
+|Scope|local|
+|MP Dice|5|
 |Target(s)|1 entity+10ft radius|
 |Casting time|1 main action|
 |Range|15ft|
-|Duration|1 minute (permanent)|6
+|Duration|1 minute/permanent|6
 |Components|incantation|
 |Damage|3d8 Cold|9(15)
 |Effect|Immobilised|6(21)
@@ -3211,7 +3211,7 @@ ___
 |Name|Fairy Feast [Nature, Incantation, Spirit]|
 |-|-|
 |Scope|global|
-|MP Dice|24 (special)|
+|MP Dice|12 (special)|
 |Target(s)|120ft radius/No more than 101 medium, 47 large entities, or 9 larger entities|+15
 |Casting time|1 hour|+2
 |Range|close|
@@ -3248,7 +3248,7 @@ ___
 |Name|False Regrowth [Earth, Water, Winter]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|6 (24)|
+|MP Dice|6 (12)|
 |Target(s)|1 entity|
 |Casting time|1 action (3 days + 5 hours per 4 MP dice)|
 |Range|close|
@@ -3273,7 +3273,7 @@ ___
 |Name|Forest of Flame [Fire, Destruction]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|6|
+|MP Dice|6 (24)|
 |Target(s)|40ft radius centered on a square, 60ft height (800ft, 100ft high)|+7
 |Casting time|"main action" (3 days + 5 hours per 4 MP dice)|
 |Range|close|
@@ -3449,7 +3449,7 @@ ___
 |Name|Legion of Dead [Curse, Profane]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|6 (24)|
+|MP Dice|6 (12)|
 |Target(s)|50ft radius (1000ft)| (+20) 
 |Casting time|"full round action" (6 hours + 20 minutes per 4 MP dice)|18(-2)
 |Range|30ft (30ft)|16(-2)
@@ -3483,7 +3483,7 @@ ___
 |Name|Madness [Curse, Fire, Spirit]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|6 (24)|
+|MP Dice|6 (12)|
 |Target(s)|50ft radius (1000ft radius)|
 |Casting time|1 main action (6 hours + 20 minutes per 4 MP dice)|
 |Range|240ft (1200ft)|+4
@@ -3511,7 +3511,7 @@ ___
 |Name|Metamorphosis/Rebirth [Nature, Curse, Divine]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|6 (24)|
+|MP Dice|6 (12)|
 |Target(s)|1 mortal|
 |Casting time|"full round action" (6 hours)|-2
 |Range|15ft|
@@ -3571,7 +3571,7 @@ ___
 |Name|Otherworld Step [Travel, Fire, Water, Air, Earth]|
 |-|-|
 |Scope|local(global)|
-|MP Dice|6 (24)|
+|MP Dice|6 (12)|
 |Target(s)|7 entities (special)|+7/8/9
 |Casting time|1 full round action (6 hours)|-2
 |Range|close|
@@ -3659,7 +3659,7 @@ ___
 |Name|Summon Angel [Divine]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|6 (24)|
+|MP Dice|6 (12)|
 |Target(s)|1sq (1sq)|
 |Casting time|"full round action" (6 hours + 20 minutes per 4MP)|-2
 |Range|30ft (30ft)|
@@ -3690,7 +3690,7 @@ ___
 |Name|Summon Elemental [Air, Earth, Fire, Nature, Water]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|6 (24)|
+|MP Dice|6 (12)|
 |Target(s)||
 |Casting time|"full round action" (6 hours + 1h per 4MP)|-2
 |Range|15ft|+1
@@ -3700,7 +3700,7 @@ ___
 |Limitation|Special (see below)|-4
 |Save|CHA|
 
-**Description**: Summon a level VIII "elemental" of an element corresponding to the element to faithfully serve and fight for you.  The spirit can communicate with its summoner and other entities it would normally be able to communicate with. Elementals are often intelligent enough to understand the gestures and movements of mortals, but not seldom understand their emotions and intentions.
+**Description**: Summon a level VIII "elemental" of an element corresponding to the element to faithfully serve and fight for you. The spirit can communicate with its summoner and other entities it would normally be able to communicate with. Elementals are often intelligent enough to understand the gestures and movements of mortals, but seldom understand their emotions and intentions.
 
 **Limitation**:
 - The elemental summoned corresponds to the spellcasting type, thus if the spell is cast with "Spellcasting: Elemental(Fire)", the elemental will be of type "fire".
@@ -3733,7 +3733,7 @@ ___
 |Name|Create Secret Path [Nature, Air, Fire, Water, Earth, Spirit]|
 |-|-|
 |Scope|global|
-|MP Dice|28|
+|MP Dice|14|
 |Target(s)|2 points the caster knows|
 |Casting time|7 hours|
 |Range|The realm|+30
@@ -3778,8 +3778,8 @@ ___
 ### Incarnate
 |Name|Incarnate [Divine, Profane]|
 |-|-|
-|Scope|(global)|
-|MP Dice|28|
+|Scope|global|
+|MP Dice|14|
 |Target(s)|1 entity|
 |Casting time|24 hours|-3
 |Range|close|
@@ -3817,7 +3817,7 @@ ___
 |Name|Memory Thief [Curse, Incantation, Spirit]|
 |-|-|
 |Scope|local|
-|MP Dice||
+|MP Dice|7|
 |Target(s)|1 entity|
 |Casting time|1 full round action|-2
 |Range|Close|
@@ -3851,7 +3851,7 @@ ___
 |Name|Meteoric Flight [Air, Fire, Travel]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|7 (28)|
+|MP Dice|7 (14)|
 |Target(s)|1 entity no larger than huge (20ft)|
 |Casting time|1 main action (7 hours)|
 |Range|close| -1
@@ -3882,7 +3882,7 @@ ___
 |Name|Portal [Travel, Earth]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|7 (28)|
+|MP Dice|7 (14)|
 |Target(s)|20ft radius (20ft radius)|+4
 |Casting time|"main action" (7 hours + 30 minutes per 4MP dice)|
 |Range|close/2400ft (close/unlimited)|+8
@@ -3906,7 +3906,7 @@ ___
 |Name|Transformation Mortal [Curse, Mortal, Nature, Water]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|7 (28)|
+|MP Dice|7 (14)|
 |Target(s)|1 entity|
 |Casting time|"main action" (7 hours + 20 minutes per 4MP)|
 |Range|15ft|

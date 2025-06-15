@@ -329,6 +329,7 @@ ___
 - Add "[Flare](08-spell-list.md#flare)" light/damage spell.
 - disambiguate water/ice in the spell list.
 - Change the wording on "[Water Snake](08-spell-list.md#water-snake)"
+- Reduce MP cost of global spells that take less than a day to cast to twice the local cost. (This make them useable at low levels).
 
 ### Abilities
 - Improve wording on "[Deflect Missile](06-abilities.md#deflect-missile)".

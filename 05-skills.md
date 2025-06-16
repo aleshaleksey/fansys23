@@ -528,6 +528,7 @@ Harvest is the umbrella skill covering the harvesting of natural resources from 
 - **Guideline yields**:
   - Hunt/trap small prey: 1 small creature per day + 1 per 5 points by which the terrain threshold is exceeded.
   - Strip a carcass (small, medium, large, huge, enormous): (30 min, 2h, 4h, 1d, 1 week). Threshold: (6, 9, 12, 18, 24).
+    - NB: If the carcass is unusual, delicate, highly damaged, or if it degrades rapidly and must be stripped hastily (eg to obtain a still beating heart), add a +6 to the threshold, or +10 if more than one of these factors apply.
   - Harvest surface plants/minerals: 5-30 min per 5ft. Threshold: Terrain.
   - Harvest subsurface minerals (mining): 1h-1d per 5ft Threshold: Terrain.
 - **Modifiers and Special**.
@@ -539,6 +540,7 @@ Harvest is the umbrella skill covering the harvesting of natural resources from 
   - "harvest" rolls that involve digging through soft ground are made at disadvantage without a shovel or similar implement.
 - **Take care**: Yes.
 - **Try again**: Yes.
+- **Additional Guidelines**: "Harvest" should be used for hunting/trapping small game and fishing when the prey poses little or no danger to the hunter (eg trapping rabbits, or shooting hares), or when the group wishes to resolve the activity with one or two rolls. A more involved alternative, best for game which *can* pose a threat to the hunter, would be to combine "[Track](#track)" with "[Stealth](#stealth)", followed by a classical combat (eg, hunting down a boar, or a manhunt).
 
 ___
 ### INT Based

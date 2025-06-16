@@ -341,3 +341,10 @@ ___
 
 ### Skills
 - Added rope as a separate proficiency under Sleight of Hand and climber's kit.
+
+___
+## From v0.0.14
+
+
+### Skills
+- Add a few more options to "[Harvest](05-skills.md#harvest)" for modifiers, and an explanation of best use.

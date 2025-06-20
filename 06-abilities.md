@@ -209,7 +209,7 @@ ___
 
 **Special**:
 - Berserk does not have an SP dice cost. However, when the berserker trance is over, you lose a number of HP equal to the level of the Berserk ability (so if you have "Berserk I" you lose 1HP). In addition, the SP gained at the start of berserker trance is lost. If this takes the character into negative SP, it then loses a number of HP equal to half its level rounded down (this is in addition to the standard HP loss).
-- While "berserk", a character may not use Int based skills and has disadvantage on all Wis and Cha based skills while Berserk. It has disadvantage on "Tinker" rolls.
+- While "berserk", a character may not use Int based skills and has disadvantage on all Wis and Cha based skills. It has disadvantage on "Tinker" rolls.
 - While "berserk", a character cannot cast spells with a kinetic component and must roll a 1d6 when trying to cast spells with an incantation, losing the spell on a 3 or lower.
 - While "berserk", a character may not use abilities such as "precision attack".
 
@@ -461,7 +461,9 @@ ___
 
 **Targets**: All allied entities within range that can hear the song.
 
-**Effect**: Each targets within range that can hear the song gain resistance to requisite conditions ("frightened", "catatonic", "incapacitated", "paralysed",depending on bard song level), as well as being able to gain advantage on a single roll per song (see "prerequisite table" below).
+**Effect**: Each targets within range that can hear the song gain resistance to requisite conditions ("frightened", "catatonic", "incapacitated", "paralysed",depending on bard song level). In addition each affected entity in range gains the following benefits:
+- It can add its [base](02-base-rules.md#base) to a single roll.
+- It may gain advantage on a single roll per song (see "prerequisite table" below).
 
 **Limitations**:
 - A character that is "aphonic", "silenced", or otherwise cannot produce sound cannot use "bard song".

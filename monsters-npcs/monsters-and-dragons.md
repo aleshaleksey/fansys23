@@ -8,6 +8,8 @@
     - [Hive Beast](#hive-beast)
     - [Fell Beast](#fell-beast)
     - [Troll Head](#troll-head)
+    - [Demonic Snail](#demonic-snail)
+    - [Demonic Slug](#demonic-slug)
     - [Troll](#troll)
     - [The Worm that Sings](#the-worm-that-sings)
     - [Mudwalker](#mudwalker)

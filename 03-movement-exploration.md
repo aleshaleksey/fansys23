@@ -18,12 +18,13 @@ A certain level of freeform RP and common sense are recommended.
     - [Overview](#overview)
     - [Local and Global Movement](#local-and-global-movement-1)
     - [Flying and Turbulence](#flying-and-turbulence)
+    - [Terrains](#terrains)
+    - [Inclement Weather Hazards](#inclement-weather-hazards)
     - [Travel rolls and terrain](#travel-rolls-and-terrain)
     - [Travel and getting lost](#travel-and-getting-lost)
     - [Scouting, prospecting and exploration](#scouting-prospecting-and-exploration)
     - [Harvesting, Hunting and Mining (very draft)](#harvesting-hunting-and-mining-very-draft)
     - [Camping](#camping)
-    - [Inclement Weather Hazards](#inclement-weather-hazards)
     - [Breaking and Entering](#breaking-and-entering)
       - [Breaking](#breaking)
       - [Object hit point (durability) table](#object-hit-point-durability-table)
@@ -186,15 +187,131 @@ Travel from A to B can be summarised as follows:
 9. Camp (and deal with any night ambushes, encounters and so on).
 10. Repeat (usually from (5)) until a destination is reached or everyone is dead.
 
-
+___
 ### Local and Global Movement
 This is described above in "Local and Global Movement" above, but there are some additional nuances. Tactical movement represents generally bursts of high intensity movement over short time periods and is measured in ft/round, usually limited to a few minutes at a time. On the other hand global movement reflects movement over a long range and is measured in mph. It often abstracts away elements such as winding paths and minor obstacles. Thus, an entity's speed on a local level in ft/round is ten times greater than its speed in mph for overland travel. However, most entities are assumed to be able to travel for 10 hours per day, hence the *total distance* travelled in a day in mph is equal to its speed in ft/round.
 
 For entities and parties that travel via **walk**, **climb**, **dig** or **blink** speed, when travelling between two points that have no defined distance by road (and maybe no road), and only a map distance as the crow flies, the distance travelled is multiplied x2. This represents lack of direct roads, and often meandering routes over off road terrain. For entities using **walk**, **climb** or **dig** speed in **swamp**, **deep forest**, or **mountain** distance as the crow flies is multiplied by x4. Entities with a **cosmic** or **fly** speed do not suffer from this kind of impediment.
 
+___
 #### Flying and Turbulence
-
 Entities that move via a **Fly** speed have the movement speed halved in severe precipitation and wind. If precipitation or wind is extreme, such entities must make a skill roll (usually "fly") against the storm's threshold number or make no progress. An entity may attempt to move at 1/4 speed and take damage every hour equal to 2d6 damage plus 2d6, per size category above medium. An entity failing the roll by more than 5 in extreme precipitation falls to the ground. An entity failing the roll by more than 5 in extreme wind is blown away in the prevailing wind direction at 1/2 the wind speed. If this leads to the collision with some kind of fixed obstacle (mountain, big tree, wall), it suffers damage as if it had fallen 100ft (see [fall damage](#Falling)).
+
+____
+### Terrains
+A character may encounter many an environment on their travels, these are broken down into the following categories.
+
+___
+#### Roads
+Roads are paths that are usually built by humanoids to simplify travel. They can be built over any sort of terrain, are generally easy to travel, and provide sufficient flat, even land to set up camp (although such a camp would definitely be frowned upon!). One is likely to encounter other travellers and bandits along the road.
+
+- **Navigation Threshold:** 5
+- **Camping Threshold:** 5
+- **Global movement cost:** x1
+
+___
+#### Plains
+Plains refers to open grasslands, with occasional bush, hill and small groves. They are generally not difficult to navigate, although due to lack of features can be a nightmare in thick fog, and provide little shelter from ill weather. Plentiful flat land makes it easy to set camp. One can encounter all kind of beasts upon the plains, as well as shepherds, and occasionally, monsters.
+
+- **Navigation Threshold:** 10
+- **Camping Threshold:** 5
+- **Global movement cost:** x1
+
+___
+#### Woodlands
+This refers to lightly forested terrain, with many glades and thin undergrowth. While not easy to navigate, due to lack of horizon, setting camp is seldom troublesome (although may require a small amount of clearing). All kinds of beings can be found in the woods. Usually one can encounter beasts and woodsmen. One occasion one may find monsters or even fey in this terrain.
+
+- **Navigation Threshold:** 15
+- **Camping Threshold:** 5
+- **Global movement cost:** x2
+
+___
+#### Hills
+This refers to uplands with gentle peaks and valleys that can be traversed by humanoids without special equipment. The slopes can be wooded, and the valleys might be swampy. The weather here may be harsher and more changeable than upon the plains. The shorter view-horizon can make navigation tricky, and the sloping and wild terrain provides certain difficulties when setting camp. The people and beasts that dwell here are generally hardy, and one is more likely to stumble upon monsters, outlaws and ruins hidden in the hills.
+
+- **Navigation Threshold:** 10
+- **Camping Threshold:** 10
+- **Global movement cost:** x2
+
+___
+#### Urban/Ruins
+Villages, towns, cities, castles, temples, and their ruins. Environments where (usually!) humanoids have built their societies. They are characterised by regular structures of wood or stone, usually arranged into districts. This makes setting camp fairly simple, but can their sometimes labyrinthine logic and short view-horizon can make them a nightmare to navigate. In a city one is likely to encounter its inhabitants. In a ruin one is likely to encounter monsters and ghosts of bygone days.
+
+- **Navigation Threshold:** 15
+- **Camping Threshold:** 10
+- **Global movement cost:** x2
+
+____
+#### Deep Forest
+This refers to truly wild and ancient forests, largely untouched by the hand of man. The trees here are often ancient, and the forest floor is littered with fallen trunks, covered in undergrowth and criss-crossed by swamps. That said, finding a place to camp in this kind of place is often not difficult as long as it is properly cleared. One might encounter nothing in this quiet wilderness, or one might find great monsters, mysterious beasts, lost tribes, ruins and fey.
+
+- **Navigation Threshold:** 20
+- **Camping Threshold:** 10
+- **Global movement cost:** x4
+
+___
+#### Fells
+This refers to higher, steeper hills, often with many gnarly groves, fast flowing rivers and swampy plateaus. These are generally wild places, inhabited by beasts, monsters and dark spirits.
+
+- **Navigation Threshold:** 15
+- **Camping Threshold:** 15
+- **Global movement cost:** x2
+
+___
+#### Subterranean
+This refers to warrens, burrows and cave networks. This is an inhospitable environment for humanoids, difficult to ameliorate and navigate. There are numerous difficulties here, starting from cave ins, and ending in narrow, impassible tunnels, dead ends, and barren sections where it is impossible to find food or water.
+
+- **Navigation Threshold:** 20
+- **Camping Threshold:** 15
+- **Global movement cost:** x2
+
+___
+#### Desert
+Desert here refers to inhospitable plains, be they of sand or snow. It is not necessarily difficult to navigate in fair weather, but the extremes of heat, shifting terrain, and potentially disastrous storms make setting a proper camp difficult. A traveller is unlikely to encounter many beasts or other travellers in these wastes. However, it would not be out of place to find ancient ruins, complete with undead denizens, to be attacked by great monsters that dwell beneath the snows or sands, or to meet a messenger of the divine.
+
+- **Navigation Threshold:** 10
+- **Camping Threshold:** 20
+- **Global movement cost:** x2
+___
+#### Mountains
+Mountains refers to high and inhospitable peaks, be they of rock or snow. Travel here is slow, and sometimes impossible without proper preparation and equipment. The weather can change quickly and dramatically. The harsh terrain makes finding and ameliorating a safe camping place difficult. Mountains are often a true wilderness. Though one can find a herd of ibex, or a flock of vultures, one can also find lonely hermitages, and on the most isolated of peaks, the lairs of the greatest of mortals- dragons.
+
+- **Navigation Threshold:** 10
+- **Camping Threshold:** 20
+- **Global movement cost:** x4
+
+___
+#### Swamp
+Swamps refers to treacherous wetlands, with little solid ground to set foot on or camp. There are often woodlands and plains of high reeds to be found here, which obstruct navigation, as well as plentiful animal life, and, of course monsters. In addition, it is easy to catch various diseases in these wetlands.
+
+- **Navigation Threshold:** 15
+- **Camping Threshold:** 20
+- **Global movement cost:** x4
+
+___
+### Inclement Weather Hazards 
+
+#### (TODO: Make a full table of all weather and consequences.)
+
+Inclement weather has two severities: **Severe** and **Extreme**. The following inclement weather types exist. Here is a brief overview.
+- **Precipitation.** (Rain, snow, sleet, ash.) This can lead to poor visibility, difficult movement due to boggy ground or accumulation, or even collapse of structures (snow, ash).
+- **Wind.** Can damage structures. Can knock prone smaller entity and impede movement. Dangerous for flying entities. Makes ranged attacks difficult.
+- **Temperature.** Very low or high temperatures. Being in temperatures an entity is not acclimatised to can quickly lead to exhaustion (hypothermia, hyperthermia, dehydration) or even death. It is more difficult to recuperate under these conditions. In particular, trying to recuperate in unameliorated camps may require a roll, or be impossible.
+- **Visibility.** Poor visibility is usually caused be caused by extreme precipitation, fog, murky water, cosmic clouds or darkness. It is easier to hide, and harder to detect, navigate and aim in poor visibility. In zero visibility ranged targeted attacks and those made with reach weapons have a 5/6 miss chance (if you can locate the correct square for your target in the first place!), certain spells cannot be cast. In areas of zero (extreme) visibility all entities are considered for all intents and purposes BOTH **blinded** and **invisible**. **NB:** Visibility can refer to senses other than sight in some exotic cases.
+
+Any given inclement weather phenomenon may cause more than one effect. Here are some suggested ratings.
+- **Fog**/**Mist**: Poor/Zero visibility.
+- **Torrential Rain**: Severe precipitation, poor visibility.
+- **Gale**: Severe wind.
+- **Hurricane**: Extreme wind.
+- **Tornado**: Extreme wind, poor visibility.
+- **Typhoon**: Extreme wind, severe precipitation.
+- **Blizzard**: Severe/Extreme temperature (cold), extreme precipitation(snow), severe visibility, severe wind.
+- **Whiteout**: Zero visibility, severe precipitation(snow).
+- **Sand Storm**: Zero visibility, severe/extreme wind, severe/extreme precipitation (sand).
+- **Ashfall**: Severe precipitation (ash), poor visibility.
+
+Of course groups that operate in exotic settings should not shy away from creating other types of inclement weather using this framework.
 
 ### Travel rolls and terrain
 All travel rolls are determined by the terrain type, the weather modifier from inclement weather (severe or extreme) and the familiarity bonus. They are defined in the following tables. It should be noted that weather modifiers from different categories stack.
@@ -291,31 +408,6 @@ The full rules on resting can be found in [Rest and Recuperation](04-combat.md#r
 ___
 ## Environmental hazards. (TODO)
 Depending on the nature of an environment being explored, it is possible to encounter various hazards. This ranges from weather related hazards like storms, extreme heat and , to terrain dangers such as raging rivers, avalanches and rockfall, to "man"-made dangers such as traps in dungeons.
-
-___
-### Inclement Weather Hazards 
-
-#### (TODO: Make a full table of all weather and consequences.)
-
-Inclement weather has two severities: **Severe** and **Extreme**. The following inclement weather types exist. Here is a brief overview.
-- **Precipitation.** (Rain, snow, sleet, ash.) This can lead to poor visibility, difficult movement due to boggy ground or accumulation, or even collapse of structures (snow, ash).
-- **Wind.** Can damage structures. Can knock prone smaller entity and impede movement. Dangerous for flying entities. Makes ranged attacks difficult.
-- **Temperature.** Very low or high temperatures. Being in temperatures an entity is not acclimatised to can quickly lead to exhaustion (hypothermia, hyperthermia, dehydration) or even death. It is more difficult to recuperate under these conditions. In particular, trying to recuperate in unameliorated camps may require a roll, or be impossible.
-- **Visibility.** Poor visibility is usually caused be caused by extreme precipitation, fog, murky water, cosmic clouds or darkness. It is easier to hide, and harder to detect, navigate and aim in poor visibility. In zero visibility ranged targeted attacks and those made with reach weapons have a 5/6 miss chance (if you can locate the correct square for your target in the first place!), certain spells cannot be cast. In areas of zero (extreme) visibility all entities are considered for all intents and purposes BOTH **blinded** and **invisible**. **NB:** Visibility can refer to senses other than sight in some exotic cases.
-
-Any given inclement weather phenomenon may cause more than one effect. Here are some suggested ratings.
-- **Fog**/**Mist**: Poor/Zero visibility.
-- **Torrential Rain**: Severe precipitation, poor visibility.
-- **Gale**: Severe wind.
-- **Hurricane**: Extreme wind.
-- **Tornado**: Extreme wind, poor visibility.
-- **Typhoon**: Extreme wind, severe precipitation.
-- **Blizzard**: Severe/Extreme temperature (cold), extreme precipitation(snow), severe visibility, severe wind.
-- **Whiteout**: Zero visibility, severe precipitation(snow).
-- **Sand Storm**: Zero visibility, severe/extreme wind, severe/extreme precipitation (sand).
-- **Ashfall**: Severe precipitation (ash), poor visibility.
-
-Of course groups that operate in exotic settings should not shy away from creating other types of inclement weather using this framework.
 
 ___
 ### Breaking and Entering

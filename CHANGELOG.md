@@ -352,6 +352,7 @@ ___
 - Add thresholds for escaping typical restraints.
 - Added initial durability to ships.
 - Added clarifications on bindings and restraints.
+- Add explicit list of terrains to "[Movement and Exploration](03-movement-exploration.md)" section.
 
 ### Skills
 - Add a few more options to "[Harvest](05-skills.md#harvest)" for modifiers, and an explanation of best use.

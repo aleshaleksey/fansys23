@@ -313,7 +313,7 @@ At level one a character starts with the following:
 + 1 background skill
 + 3 level points
 + 1 good save.
-+ 1 homeland
++ 1 homeland (see "[terrains](03-movement-exploration.md#terrains)").
 
 #### Skills and proficiencies
 
@@ -321,7 +321,7 @@ Skills and proficiencies determine how well practiced your character is with cer
 
 Secondly, a character starts with one background skill, where they get to add a small bonus called "Base" (+1 at level 1).
 
-Thirdly, a character also gets to choose a home terrain. This can be anything from "town" or "plains" to "ruins" or "subterranean". The character has a +5 bonus to navigation and camping in that terrain (very useful).
+Thirdly, a character also gets to choose a homeland  (see "[terrain](03-movement-exploration.md#terrains)"). This reflects the landscape of the character's homeland, and can be anything from "town" or "plains" to "ruins" or "subterranean". The character has a +5 bonus to navigation and camping in that terrain (very useful).
 
 Fourthly, a character chooses a save with which they are proficient. This will help defend them against some nasty stuff, so choose carefully.
 

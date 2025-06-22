@@ -243,7 +243,8 @@ Unarmed combat is the use of one's own body to effectively neutralise targets. I
 ___
 ### Light blades
 
-This is something of a misnomer. Light blades refers to smaller one handed bladed weapons that weight no more than 2lb. It also refers to certain thrown weapons whose use is similar to that of bladed weapons. Light blades are typically easily hidden. All light blades can cause "bleeding". Not all light blades have the light properties. All blades give a +1 HiT to proficient wielders who are not "disabled".
+This is something of a misnomer. Light blades refers to smaller one handed bladed weapons that weight no more than 2lb. It also refers to certain thrown weapons whose use is similar to that of bladed weapons. Light blades are typically easily hidden. All light blades can cause "bleeding". Not all light blades have the light properties. All blades give a +1 HiT to proficient wielders who are not "disabled". Wielding two blades gives a +2 total "shield" bonus to HiT if the wielder also has "[Offhand fighting II](06-abilities.md#offhand-fighting-i-iv)".
+
 
 |Weapon|Special Properties|Manoeuvres|
 |-|-|-|
@@ -266,7 +267,7 @@ This is something of a misnomer. Light blades refers to smaller one handed blade
 ___
 ### Heavy blades
 
-These are the legendary blades of legend, and the symbol of a warrior. Heavy blades are fearsome bladed weapons. All items in this category except Falchions are "long". All heavy blades cause "bleeding". All blades give a +1 HiT to proficient wielders who are not "disabled".
+These are the legendary blades of legend, and the symbol of a warrior. Heavy blades are fearsome bladed weapons. All items in this category except Falchions are "long". All heavy blades cause "bleeding". All blades give a +1 "shield" bonus to HiT to proficient wielders who are not "disabled". Wielding two blades gives a +2 total "shield" bonus to HiT if the wielder also has "[Offhand fighting II](06-abilities.md#offhand-fighting-i-iv)".
 
 |Weapon|Special Properties| Manoeuvres|
 |-|-|-|
@@ -600,10 +601,10 @@ Bonus Key:
 |Half Plate|Heavy|A|8|1|60|12|
 |Full Plate|Heavy|A|9|0|65|14|
 |||||||
-|Buckler|Shield|S|1|-|2|5|
-|Light Shield|Shield|S|2|4|6|4|
-|Heavy Shield|Shield|S|3|2|10|6|
-|Tower Shield|Shield|S|4|1|20|8|
+|Buckler|Shield|S|2|-|2|5|
+|Light Shield|Shield|S|3|4|6|4|
+|Heavy Shield|Shield|S|4|2|10|6|
+|Tower Shield|Shield|S|5|1|20|8|
 
 ___
 ### Light Armour
@@ -612,7 +613,7 @@ This refers to basic armours that can be quickly donned and doffed while giving 
 
 **Leather Cuirass:** This refers to any armour made of a light material that protects the chest, abdomen, back and flanks. Often it has some minor protection for groins and upper legs. It is generally cheap and light. It is often worn by scouts, messengers and runners. Lighter linothorax armour belongs in this category.
 
-**Chain shirt:** Armour made of small, interconnected rings of interconnected metal rings. This refers to smaller chain shirts that can be somewhat hidden beneath heavy clothes. this armour offers better protection to the vitals than light cuirasses, but is considerably more expensive to construct and heavier. They are often worn by nobles and merchants who may suspect foul play but still need to appear presentable. 
+**Chain shirt:** Armour made of small, interconnected metal rings. This refers to smaller chain shirts that can be somewhat hidden beneath heavy clothes. this armour offers better protection to the vitals than light cuirasses, but is considerably more expensive to construct and heavier. They are often worn by nobles and merchants who may suspect foul play but still need to appear presentable. 
 
 ___
 ### Medium Armour

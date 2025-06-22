@@ -152,7 +152,7 @@ ___
 
 (+1 from base)
 
-On the battlefield, will often use Cuirass and shield for (HiT: 17/16/11)
+On the battlefield, will often use Cuirass and small shield for (HiT: 20/16/12)
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -181,11 +181,11 @@ ____
 ### Human Militia
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|16/13/14|20 (*16*)|8 (*8*)|5|30ft|-|
+|17/13/12|20 (*16*)|8 (*8*)|5|30ft|-|
 
 (+1 from base)
 
-The HiT includes +2 from padded armour and +2 from a light shield.
+The HiT includes +2 from padded armour and +3 from a light shield.
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -256,7 +256,7 @@ ___
 ### Human Knight
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|24/21/21|65 (*41*)|54 (*29*)|16|30|-|
+|25/21/14|65 (*41*)|54 (*29*)|16|30|-|
 
 (+2 from base)
 
@@ -296,7 +296,7 @@ ___
 ### Human Magic Knight
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|22/19/21|44 (*28*)|59 (*35*)|13|30|-|
+|23/18/13|44 (*28*)|59 (*35*)|13|30|-|
 
 (+2 from base)
 
@@ -964,7 +964,7 @@ ___
 
 (+2 to HiT from "base")
 
-Wears brigandine (+4 HiT, armour)
+Wears brigandine (+4 HiT, armour). If using a light shield, add +3 to HiT.
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -1072,6 +1072,7 @@ ___
   - Medium: 32lb
   - Heavy: 80lb
 - **Inventory**: Small Hide armour (7.5lb), Small spear (1lb), small shortbow (0.25lb)
+- A goblin may use a small shield, increasing its HiT to 18.
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
@@ -1111,6 +1112,7 @@ ___
   - Medium: 48lb
   - Heavy: 120lb
 - **Inventory**: Small Full Leather armour (5lb), Small short spear (0.5lb), small composite bow (0.25lb)
+- A goblin strategist may use a small shield, increasing its HiT to 23.
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|

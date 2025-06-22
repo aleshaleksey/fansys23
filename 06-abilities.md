@@ -1215,7 +1215,7 @@ ___
 
 **Description**: Switch seamlessly between using a buckler offensively and defensively.
 
-**Original state**: A "secondary action" is to be used when switching between offensive and defensive use of aa buckler.
+**Original state**: A "secondary action" is to be used when switching between offensive and defensive use of a buckler.
 
 **Benefits:** Switch between using a buckler as a weapon or a shield without using an action.
 
@@ -1228,7 +1228,9 @@ ___
 
 **Original state**: A character cannot make offhand attacks unless they have "Multi-attack I" or better. A character with "Multi-attack I" or better can make a single offhand attack (regardless of "Multi-attack" level) with a light weapon, but takes a -4 penalty to the attack roll.
 
-**Special**: You can make no more offhand attacks than you made main attacks on a turn.
+**Special**:
+- You can make no more offhand attacks than you made main attacks on a turn.
+- "Offhand fighting II" allows a character to add the shield bonus of a second blade to their HiT for a total of +2.
 
 **Prerequisite table**: This ability can be taken multiple times, each time you get an extra offhand attack.
 |Number of offhand attacks|Prerequisite|Ability name|

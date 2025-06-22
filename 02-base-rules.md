@@ -86,8 +86,8 @@ ___
 #### Version I: 2d12
 The core dice for ability checks/tests, saves and attacks is 2d12. You roll a 2d12 and add a static modifier. If the result equals or exceeds a target value, you succeed. Otherwise you fail.
 - **General Special**: Also, for every 12 you roll, add +2 to the result. For every 1, subtract 2 from the result.
-- **Saves and Attacks**: Also, snake eyes (1,1) always fails (also known as a "critical fail"). D12 (12,12) always succeeds (also known as a "critical success").
-- **Attacks**: Also, if one 12 is rolled, an extra damage dice is rolled for the attack. If D12 is rolled, the number of damage dice is doubled.
+- **Saves and Attacks**: Also, snake eyes (1,1) always fails (also known as a "critical fail"). D12 (12,12) always succeeds (also known as a "critical success"). For every 1 rolled on a save, if failure results in damage, the target takes an additional 1 point of damage directly to HP (no risk of gaining conditions).
+- **Attacks**: Also, for each 12 is rolled, if the attack deals any damage, the target takes an additional 1 point of damage directly to HP (no risk of gaining conditions).
 - **Advantage**: Sometimes circumstances are very favourable. Then you roll 3d12, drop lowest. In extreme cases this can be 4D12DL2.
 - **Disadvantage**: Sometimes circumstances are very unfavourable. Then you roll 3d12, drop highest. In extreme cases this can be 4D12DH2.
 - Advantage and disadvantage, no matter from how many sources, always cancel each other out.
@@ -513,7 +513,7 @@ A character has an armour class/hit threshold, this is a measure of how difficul
 
  In some cases not all components of HiT are used.
 
-  - Some attacks ignore armour (a ghost's touch, a musket bullet at close range, a death ray). In this case **HiT = [10 + Base + Evasion + Deflection + Shield]**.
+  - Some attacks ignore armour (a ghost's touch, a musket bullet at close range, a death ray). In this case **HiT = [10 + Base + Evasion + Deflection]**.
   - Sometimes the character is not in a position to evade of actively deflect an attack. In this case **HiT = [10 + Base + Shield + Armour]**. Conditions where this is so are:
     - "surprised"
     - "restrained"

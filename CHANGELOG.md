@@ -345,6 +345,13 @@ ___
 ___
 ## From v0.0.14
 
+### General
+- Changed critical hits: For each roll of 12 on an attack roll, and for each roll of 1 on a save, if damage is caused, the target suffers 1 point of damage directly to HP. (No logner extra dice).
 
 ### Skills
 - Add a few more options to "[Harvest](05-skills.md#harvest)" for modifiers, and an explanation of best use.
+
+
+### Weapons and Armour
+- Wielding two blades no longer automatically gives a +2 to shield HiT (only does so if a character has "[Offhand fighting II](06-abilities.md#offhand-fighting-i-iv)").
+- Added +1 to the HiT bonus granted by shields.

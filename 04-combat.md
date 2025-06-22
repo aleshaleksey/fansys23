@@ -162,8 +162,8 @@ ___
 Some effects and damage have an immediate or short term effect (eg. being hit over the head with a hammer), others have a longer term effect (eg. being on fire). If the effect allows a save, the save is made before the effect takes place, just as an attack roll is made before damage/manoeuvre outcome might be applied.
 
 - If an effect is immediate or lasts no longer than a round, the save, if any, is made immediately, and the effect/damage is likewise applied immediately unless otherwise stated.
-- If an effect lasts for a turn or longer, the save, if any, is made at the start of a target's turn and the effect is then applied. Unless otherwise stated, the save, if applicable, is repeated at the start of each subsequent turn until the effect ends. In some cases, such as being on fire, the effect is broken by a single successful save.
-- On occasion damage over time is measured in minutes, hours or days. In this case the same rule is applied, (save and effects at the start of each time period).
+- If an effect lasts for a round or longer, the save, if any, is made at the start of a target's turn and the effect is then applied. Unless otherwise stated, the save, if applicable, is repeated at the start of each subsequent turn until the effect ends. In some cases, such as being on fire, the effect is broken by a single successful save.
+- On occasion, damage over time is measured in minutes, hours or days. In this case the same rule is applied, (save and effects at the start of each time period).
 
 The most common damage over time is fire/heat and is summarised in ["Movement and Exploration: Fire damage and being on fire"](03-movement-exploration.md#fire-damage-and-being-on-fire).
 

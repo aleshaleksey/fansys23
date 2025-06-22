@@ -384,6 +384,79 @@ ___
 When strong trolls and some giants are killed, they have enough vitality that the head, filled driven by anger survives and walks away. These monsters are driven by hatred of those that killed them and constant anger. Even so, they are smart enough to avoid obviously suicidal ventures. No one wants to die.
 
 ___
+### Demonic Snail
+- **Size**: Huge
+- **Natural Armour**: Armour +12
+- **Carrying capacity**
+  - Light: 384lb
+  - Medium: 768lb
+  - Heavy: 1920lb
+  - Drag: 2880lb
+___
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|21/23/21|46|23|12|15ft |10ft (climb)|
+
+A snail's shell gives it +12 to armour.
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|24|6|24|3|12|14|
+|Bonus|+6|-2|+6|-4|+1|+2|
+|Save|+8|0|+8|-2|+3|+4|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|7(2)|9|11|2|2|4|4|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Pseudopod|+11|1d8+7 Percussive|Reach=10ft|
+|Teeth|+11|1d4+7 Piercing + 2d12[poison]|Range=240ft, Increment=30ft. If the snail's venomous teeth deal damage to a target, it must succeed a CON save at the start of the next turn, or be restrained. If it fails this save, at the start of its following turn it must succeed a CON save or be paralysed for 24 hours or until cured (no repeated saves). Threshold=19|
+|Retreat|||As a main action, a snail can retreat into, or emerge from, its shell, giving it immunity to physical damage. The shell can be destroyed by supernatural attacks or attacks from weapons of a material grade of 2 or above (the shell acts as an object and has a HP of 18).|
+|||||
+|Resistances|||"Percussive" damage|
+|Skills|||"Observe" +3, "Harvest" +8|
+
+Giant snails are large herbivorous molluscs. Demonic snails are monsters that crawl over the land devouring anything that approaches them. They shoot venomous teeth attached to extensible pseudopods at their prey, causing paralysis. They then devour their prey at their leisure.
+
+Contrary to their name, these monsters are not demons.
+
+___
+### Demonic Slug
+- **Size**: Huge
+- **Carrying capacity**
+  - Light: 384lb
+  - Medium: 768lb
+  - Heavy: 1920lb
+  - Drag: 2880lb
+___
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|9/11/9|46|23|12|15ft |15ft (climb), 5ft (dig)|
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|24|10|24|3|12|14|
+|Bonus|+6|-2|+6|-4|+1|+2|
+|Save|+8|0|+8|-2|+3|+4|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|5(1)|8|9|2|2|3|3|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Pseudopod|+11|1d8+7 Percussive + 2d12[acid]|Reach=10ft|
+|Teeth|+11|1d4+7 Piercing + 2d12[acid]|Range=120ft, Increment=20ft. If the slug's venomous teeth deal damage to a target, it must succeed a CON save at the start of the next turn, or be restrained. If it fails this save, at the start of its following turn it must succeed a CON save or be paralysed for 24 hours or until cured (no repeated saves). Threshold=19|
+|Acid Body|||Weapons of material grade 3 or lower striking the slugs body are dealt 1 point of damage. Furthermore the attacker must succeed a threshold=19 CON save or suffer 2d12 poison damage.|
+|||||
+|Resistances|||"Percussive", "poison", "acid" damage|
+|Skills|||"Observe" +3, "Harvest" +8|
+
+Demonic slugs are, like demonic snails, vicious predators that devour anything that moves. They dwell in deep forest and swamps and subterranean caverns, where their sluggish movement and lack of defences against the things that could hunt them.
+
+___
 ### The worm that sings
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|

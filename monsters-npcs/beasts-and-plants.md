@@ -561,6 +561,79 @@ This block can be used for large domesticated dogs, hyenas and wolves. These are
 Wolves can be advanced to a higher level, but seldom reach above level 5.
 
 ___
+## Animals: Molluscs
+
+___
+### Giant Snail
+- **Size**: Large
+- **Natural Armour**: Armour +10
+- **Carrying capacity**
+  - Light: 176lb
+  - Medium: 352lb
+  - Heavy: 880lb
+  - Drag: 1320lb
+___
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|19/21/19|46|23|12|15ft |10ft (climb)|
+
+A snail's shell gives it +10 to armour.
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|22|6|22|3|8|12|
+|Bonus|+6|-2|+6|-4|-1|+1|
+|Save|+7|-1|+7|-3|0|+2|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|5(1)|8|9|2|2|3|3|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Pseudopod|+9|1d8+6 Percussive|Reach=10ft|
+|Retreat|||As a main action, a snail can retreat into, or emerge from, its shell, giving it immunity to physical damage. The shell can be destroyed by supernatural attacks or attacks from weapons of a material grade of 2 or above (the shell acts as an object and has a HP of 18).|
+|||||
+|Resistances|||"Percussive" damage|
+|Skills|||"Observe" +3, "Harvest" +8|
+
+Giant snails are large herbivorous molluscs. They are usually docile, but can lash out with their pseudopods when attacked, or retreat into their shell, which is their main defence against ranged attacks or predators.
+
+___
+### Giant Slug
+- **Size**: Large
+- **Carrying capacity**
+- **Carrying capacity**
+  - Light: 176lb
+  - Medium: 352lb
+  - Heavy: 880lb
+  - Drag: 1320lb
+___
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|9/11/9|46|23|12|15ft |15ft (climb), 5ft (dig)|
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|22|10|22|3|8|12|
+|Bonus|+6|0|+6|-4|-1|+1|
+|Save|+7|+1|+7|-3|0|+2|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|5(1)|8|9|2|2|3|3|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Pseudopod|+9|1d8+6 Percussive + 1d12[acid]|Reach=10ft|
+|Acid Body|||Weapons of material grade 3 or lower striking the slugs body are dealt 1 point of damage. Furthermore the attacker must succeed a threshold=19 CON save or suffer 1d12 poison damage.|
+|||||
+|Resistances|||"Percussive", "poison", "acid" damage|
+|Skills|||"Observe" +3, "Harvest" +8|
+
+Giant slugs are large, poisonous, herbivorous molluscs. They are usually docile, but can lash out with their pseudopods when attacked. Since they are largely defenceless against stronger monsters and ranged attacks, they dwell in, or near, caverns whether this is not so much of a threat.
+
+___
 ## Animals: Dinosaurs
 
 ___

@@ -351,7 +351,9 @@ ___
 ### Skills
 - Add a few more options to "[Harvest](05-skills.md#harvest)" for modifiers, and an explanation of best use.
 
-
 ### Weapons and Armour
 - Wielding two blades no longer automatically gives a +2 to shield HiT (only does so if a character has "[Offhand fighting II](06-abilities.md#offhand-fighting-i-iv)").
 - Added +1 to the HiT bonus granted by shields.
+
+### Spellcasting
+- Increase the casting time of global summoning spells as follows. Duration 2 days -> 6 hours. Duration 3 days - 1 week -> 1 day.

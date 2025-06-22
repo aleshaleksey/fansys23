@@ -909,7 +909,7 @@ ___
 |Scope|local (global)|
 |MP Dice|1 (2)|
 |Target(s)|1sq (1sq)|
-|Casting time|"full round action" (1 hour + 20 minutes per 4MP dice)|-2
+|Casting time|"full round action" (1 day + 12 hours per 4MP dice)|-2
 |Range|close|-1
 |Duration|12 min (1 day+)|+3
 |Components|incantation, kinetic|-1
@@ -1345,7 +1345,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (4)|
 |Target(s)|1sq (1sq)|
-|Casting time|"full round action" (4 hours + 20 minutes per 4MP dice)|-2
+|Casting time|"full round action" (1 day + 12 hours per 4MP dice)|-2
 |Range|30ft (30ft)|
 |Duration|12 min (1 day+)|+3
 |Components|incantation, kinetic|-1
@@ -1377,7 +1377,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (4)|
 |Target(s)|1sq (1sq)|
-|Casting time|"full round action" (4 hours + 20 minutes per 4MP dice)|-2
+|Casting time|"full round action" (1 day + 12 hours per 4MP dice)|-2
 |Range|30ft (30ft)|
 |Duration|12 min (1 day+)|+3
 |Components|incantation, kinetic|-1
@@ -1405,7 +1405,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (4)|
 |Target(s)|1sq (1sq)|
-|Casting time|"full round action" (4 hours + 20 minutes per 4MP dice)|-2
+|Casting time|"full round action" (1 day + 12 hours per 4MP dice)|-2
 |Range|30ft (30ft)|+1
 |Duration|12 min (1 day+)|+3
 |Components|incantation, kinetic|-1
@@ -1433,7 +1433,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (4)|
 |Target(s)|1sq (1sq)|
-|Casting time|"full round action" (4 hours + 20 minutes per 4MP dice)|-2
+|Casting time|"full round action" (1 day + 12 hours per 4MP dice)|-2
 |Range|30ft (30ft)|
 |Duration|12 min (1 day+)|+3
 |Components|incantation, kinetic|-1
@@ -1603,7 +1603,7 @@ ___
 |Scope|local (global)|
 |MP Dice|3 (6)|
 |Target(s)|1sq (1sq)|
-|Casting time|"full round action" (3 hours + 20 minutes per 4MP dice)|-2
+|Casting time|"full round action" (1 day + 12 hours per 4MP dice)|-2
 |Range|30ft (30ft)|
 |Duration|60 min (1 week+)|+6
 |Components|incantation, kinetic|-1
@@ -1617,7 +1617,7 @@ ___
 
 **Upcast**: For every MP dice added above 3 (12MP dice for global), the sprite gains two levels.
 
-**Global**: The plant is animated for longer (an extra week for every 4MP above 12) and the spell does not require concentration. If at least 36MP is used, the plant is forever animated.
+**Global**: The plant is animated for 1 week (an extra week for every 4MP above 12) and the spell does not require concentration. If at least 36MP is used, the plant is forever animated.
 
 (Summon spell rating is controversial)
 
@@ -2723,7 +2723,7 @@ ___
 |Scope|local (global)|
 |MP Dice|4 (8)|
 |Target(s)|1sq (1sq)|
-|Casting time|"full round action" (4 hours + 20 minutes per 4MP dice)| -2
+|Casting time|"full round action" (6 hours + 6 hours per 4MP dice)| -2
 |Range|15ft|+1
 |Duration|12 min (2 days)|+3
 |Components|incantation|+1
@@ -3159,7 +3159,7 @@ ___
 |Scope|local (global)|
 |MP Dice|5 (10)|
 |Target(s)|1sq (1sq)|
-|Casting time|"full round action" (5 hours + 20 minutes per 4MP dice)|-2
+|Casting time|"full round action" (1 day + 12 hours per 4MP dice)|-2
 |Range|30ft (30ft)|
 |Duration|1 hour (1 week+)|+6
 |Components|incantation, kinetic|-1
@@ -3661,7 +3661,7 @@ ___
 |Scope|local (global)|
 |MP Dice|6 (12)|
 |Target(s)|1sq (1sq)|
-|Casting time|"full round action" (6 hours + 20 minutes per 4MP)|-2
+|Casting time|"full round action" (1 day + 12 hours per 4MP dice)|-2
 |Range|30ft (30ft)|
 |Duration|1 hour (1 week+)|+6
 |Components|incantation, kinetic|-1
@@ -3692,7 +3692,7 @@ ___
 |Scope|local (global)|
 |MP Dice|6 (12)|
 |Target(s)||
-|Casting time|"full round action" (6 hours + 1h per 4MP)|-2
+|Casting time|"full round action" (1 day + 6 hours per 4MP dice)|-2
 |Range|15ft|+1
 |Duration|12 min (3 days)|+3
 |Components|incantation, kinetic|-1

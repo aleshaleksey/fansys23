@@ -458,6 +458,11 @@ Sleight of hand is not just for "hands". It is the skill combining the use of de
   - Add +4 to the threshold if fingers (or other body parts) cannot reach.
 - **"Liberate"**: Slip free of manacles and the like.
   - Threshold is threshold value of manacles (usually 20-36).
+- **Tie rope (requires proficiency with ropes)**: Tie a knot in a rope, or tie a targets into knots using a rope. The action varies, but the threshold to break the binding is equal to the "sleight of hand" roll to tie it. This can be used (amongst other things) to:
+  - Tie two objects together.
+  - Tether a ship/animal to a fixed binding.
+  - Restrain a target/prisoner, preventing its escape.
+  - See "[bindings and restraints](03-movement-exploration.md#bindings-and-restraints)" for more information.
 - **Take care**: Yes.
 - **Try again**: Yes, although for "steal" or "pick pocket" the threshold increases by +10 as any observers are likely to be wary this time.
 

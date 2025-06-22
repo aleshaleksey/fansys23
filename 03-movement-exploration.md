@@ -24,6 +24,10 @@ A certain level of freeform RP and common sense are recommended.
     - [Harvesting, Hunting and Mining (very draft)](#harvesting-hunting-and-mining-very-draft)
     - [Camping](#camping)
     - [Inclement Weather Hazards](#inclement-weather-hazards)
+    - [Breaking and Entering](#breaking-and-entering)
+      - [Breaking](#breaking)
+      - [Object hit point (durability) table](#object-hit-point-durability-table)
+    - [Bindings and Restraints](#bindings-and-restraints)
     - [Terrain Hazards (TODO)](#terrain-hazards-todo)
     - [Falling](#falling)
     - [Fire damage and being on fire](#fire-damage-and-being-on-fire)
@@ -314,13 +318,95 @@ Any given inclement weather phenomenon may cause more than one effect. Here are 
 Of course groups that operate in exotic settings should not shy away from creating other types of inclement weather using this framework.
 
 ___
+### Breaking and Entering
+Quite often characters may need to break objects/structures or enter closed/locked spaces.
+
+#### Breaking
+Objects, buildings and equipment have hit points (sometimes called "durability"). These hit points are a little bit different from the hit points that characters have. Every time an object is hit with an attack, count the number of dice of damage that are rolled: This is the amount of damage dealt to the object. So if an object is hit with 3d4 damage or 3d12 damage, it takes 4 points of damage. 
+
+Furthermore, if the ["material level"](12-equipment-economy.md#material-level) of the weapon is higher, the attacked object takes an extra point of damage for every level of difference. Likewise, if the weapon is of a lower material level, the damage is reduced by one point for every level of difference.
+
+If the object has damage reduction, it also applies.
+
+In order to hit an object and deal damage to it, a character rolls an attack against its wielder's "[Sunder](04-combat.md#basic-martial-manoeuvres)". On a successful hit the damage is applied. If the object is unattended, the attacker rolls with advantage vs a threshold=10 (modified by size using [standard size rules](02-base-rules.md#size-rules-table)).
+
+On occasion, this method of breaking an object is impractical, impossible, or just too slow. For some objects there is a "break threshold". In this case, a character may make an attack roll for the "sunder" manoeuvre, or an "athletics" skill roll, against this threshold. On a success the object is broken. Usually this applies to restraints such as ropes or manacles.
+
+It should be noted that structures, barriers, and entities, created by spells do not use these rules and are treated as normal entities, unless the spell states otherwise.
+
+#### Object hit point (durability) table
+The below table contains durability and recommended breaking threshold for various objects. DMs and groups should tweak these in accordance with various factors. For example, a set of rusty manacles should be easier to break than a set of manacles that has been properly maintained.
+
+NB: For weapon and armour durability see the "[weapons](11-weapons-armour.md#weapon-table)" and "[armour](11-weapons-armour.md#the-armour-table)" tables.
+
+|Item|Durability|Damage Reduction|Break Threshold|
+|-|-|-|-|
+|Door (wood, thin)|2|-||16|
+|Door (wood, solid)|4|1 (physical, except slashing)|24|
+|Door (stone)|6|2 (all, except esoteric and acid)|30|
+|Door (iron)|10|3 (all, except esoteric and acid)|30|
+|Window|1|-|12|
+|Iron Grating (thin)|6|3 (all, except esoteric and acid)|24|
+|Iron Grating (thick)|10|3 (all, except esoteric and acid)|30|
+|||||
+|Wooden Fence|2|-|16|
+|Wall (Wood, 6")|8|1 (physical, except slashing)|36|
+|Wall (Wood, 1ft)|16|1 (physical, except slashing)|40|
+|Wall (Stone, 6")|10|2 (all, except esoteric and acid)|40|
+|Wall (Stone, 1ft)|20|2 (all, except esoteric and acid)|44|
+|Wall (Stone, 3ft)|60|2 (all, except esoteric and acid)|48|
+|Wall (Iron, 2")|10|3 (all, except esoteric and acid)|40|
+|Wall (Iron, 6")|30|3 (all, except esoteric and acid)|44|
+|Wall (Iron, 1ft)|60|3 (all, except esoteric and acid)|50|
+|||||
+|Stockade (wooden)|3|1 (physical, except slashing)|24|
+|Manacles (iron, basic)|4|2 (all, except esoteric and acid)|24|
+|Manacles (iron, solid)|5|2 (all, except esoteric and acid)|28|
+|Manacles (iron, exceptional)|6|2 (all, except esoteric and acid)|32|
+|Rope (washing line)|1|-|20|
+|Rope (hemp, climbing)|2|-|24|
+|Rope (silk, climbing)|2|-|28|
+|Rope (nautical)|4|1 (physical, ice, poison, light)|32|
+|Rope (nautical, thick)|6|1 (physical, ice, poison, light)|36|
+|||||
+|Tent [1]|2|-|["[fortify](05-skills.md#fortify)" roll] - 4|
+|Yurt [2]|8|1 (physical, ice, poison, light)|[fortify](05-skills.md#fortify)" roll|
+
+1. Cutting an opening in the fabric counts as 1 point of damage, collapsing the tent as 2.
+2. Cutting an opening in the yurt counts as 2 points of damage, collapsing the yurt as 8.
+
+___
+### Bindings and Restraints
+Characters may end up being tied up, shackled, manacled, put in a stockade or otherwise restrained. Likewise a character may restrain their foes (or allies). In essence restraints come in two flavours: The kind whose escape threshold depends on the skill of character applying them, and the kind where it doesn't. For example, how well one ties a rope depends on how well well one can tie a rope, while manacles often snap shut, and are locked in place at the turn of a key. Secondly different restraints can apply different conditions. For example a rope can be used to "[restrain](10-conditions-types.md#conditions-in-detail)" or "[immobilise](10-conditions-types.md#conditions-in-detail)" a target, while a stockade only to "[restrain](10-conditions-types.md#conditions-in-detail)".
+
+A target may escape a binding with a successful DEX/acrobatics roll, or break it with a STR/athletics roll (see above). Some entities may escape handcuffs by dislocating their joints, and hence gaining the "crippled" condition.
+
+Below is a table of various restraints.
+
+|Item|Action|Condition/Effect|Escape Threshold|
+|-|-|-|-|
+|Rope|2 full round actions|Restrain|Skill roll|
+|Rope|1 minute|Immobilise|Skill roll|
+|Manacles (handcuffs, iron, basic)|1 full round action|Disadvantage on attacks, STR/DEX saves|24|
+|Manacles (handcuffs, iron, solid)|1 full round action|Disadvantage on attacks, STR/DEX saves|28|
+|Manacles (handcuffs, iron, exceptional)|1 full round action|Disadvantage on attacks, STR/DEX saves|32|
+|Manacles [1] (full, iron, basic)|2 full round action|As handcuffs, but speed also reduced to 5ft|24|
+|Manacles [1] (full, iron, solid)|2 full round action|As handcuffs, but speed also reduced to 5ft|28|
+|Manacles [1] (full, iron, exceptional)|2 full round action|As handcuffs, but speed also reduced to 5ft|32|
+|Rope gag|1 full round action|Aphonia|Skill roll|
+|Ball gag|1 full round action|Aphonia|24|
+
+1. Manacles can be attached to a fixture (wall, ceiling, etc) in order to also grant "grappled", "restrained" or "immobilised" condition.
+
+___
 ### Terrain Hazards (TODO)
 
 ___
 ### Falling
 A typical humanoid has a terminal velocity of about 100mph, or 1000ft per round. In the first round of falling a falling humanoid falls about 360ft. In most cases they land on the same round. In those cases they have only a "reaction" between them and the swift embrace of the Earth Mother. If the distance exceeds 360ft, they may take other actions, although for the sake of casting spells this counts as vigorous motion. One who falls from the back of a dragon, may have several minutes to contemplate their fate and do something about it.
-- Entities of "large" and smaller take 1d8 damage per 10ft fallen. The first 1d8 of damage can be negated with a [SAVE]. This caps at 360ft (36d8), at which point they generally reach terminal velocity.
-- "Huge" and larger entities are hated by gravity and take 1d12 damage for every 10ft they fall. They have a higher terminal velocity and also unfavourable physical properties. Sudden drops are not kind to them. The damage also caps at 360ft at (36d12).
+- Entities between "large" and "small" inclusive take 1d8 damage per 10ft fallen. The first 1d8 of damage can be negated with a [SAVE]. This caps at 360ft (36d8), at which point they generally reach terminal velocity.
+- "Huge" and larger entities are beloved by gravity and take 1d12 damage for every 10ft they fall. They have a higher terminal velocity and also unfavourable physical properties. Sudden drops are not kind to them. The damage also caps at 360ft at (36d12).
+- "Tiny" and smaller entities take 1d4 damage for every 10ft fallen, as they typically have a lower terminal velocity.
 - Damage upon "landing" is Physical[Natural] damage. Entities resistant or immune to Physical[Natural] damage need not fear the ground.
 - Entities that do not have weight (not mass, weight) do not fall.
 

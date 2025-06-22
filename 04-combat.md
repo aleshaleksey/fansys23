@@ -146,6 +146,11 @@ ___
 An item or entity vulnerable to a damage type takes an extra half of the damage it would normally suffer.
 
 ___
+### Damage to objects
+
+Most items and objects can be destroyed by use of force. For the sake of this, most objects, including weapons and armour have a special kind of hit points (sometimes called "durability"). For the specific rules on damaging objects see the "[breaking and entering](03-movement-exploration.md#breaking-and-entering)" rules.
+
+___
 ### HP damage and conditions
 
 When an entity loses HP due to damage, it risks acquiring a condition (see ["Conditions by Damage Type"](10-conditions-types.md#conditions-by-damage-type) table). 

@@ -347,6 +347,11 @@ ___
 
 ### General
 - Changed critical hits: For each roll of 12 on an attack roll, and for each roll of 1 on a save, if damage is caused, the target suffers 1 point of damage directly to HP. (No logner extra dice).
+- Reduce damage for tiny and smaller creatures to use D4s, as this is how gravity works.
+- Add rules for breaking objects (they already existed, but were not well codified).
+- Add thresholds for escaping typical restraints.
+- Added initial durability to ships.
+- Added clarifications on bindings and restraints.
 
 ### Skills
 - Add a few more options to "[Harvest](05-skills.md#harvest)" for modifiers, and an explanation of best use.

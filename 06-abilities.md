@@ -1136,6 +1136,41 @@ ___
 **Prerequisite**: +13 Wis.
 
 ___
+#### Armour Mastery, Heavy
+
+**Type**: (Natural, Class B-C)
+
+**Description**: Reduce the CON save penalty by 2, and remove the attack roll penalty when using heavy armour.
+
+**Original state**: Heavy Armour gives a -4 penalty to all CON rolls related to endurance and a -2 penalty to attack rolls.
+
+**Prerequisite**:
+- Proficiency with Medium armour
+- 6 SP dice.
+
+___
+#### Armour Mastery, Light
+
+**Type**: (Natural, Class B-C)
+
+**Description**: Increase the armour bonus from light armour by 1.
+
+**Prerequisite**: 
+- Proficiency with Light and medium armour.
+- 7 SP dice.
+
+___
+#### Armour Mastery, Medium
+
+**Type**: (Natural, Class B-C)
+
+**Description**: Remove the CON save penalty when using medium armour.
+
+**Original state**: Medium Armour gives a -2 penalty to all CON rolls related to endurance.
+
+**Prerequisite**: Proficiency with Medium armour.
+
+___
 #### Charge
 
 **Type**: (Natural, Class C)
@@ -1386,7 +1421,27 @@ ___
 
 **Original state**:  When using DEX as the governing attribute for a weapon that can be used with either DEX or STR as the governing attribute, there is no bonus to damage from stats.
 
-**Prequisite**: Proficiency with at least one weapon and 4 SP dice.
+**Prerequisite**: Proficiency with at least one weapon and 4 SP dice.
+
+___
+#### Weapon Mastery
+
+**Type**: (Natural, Class B-C)
+
+**Description**: Gain a +1 to attack rolls with one chosen weapon group.
+
+**Prerequisite**: Proficiency with the chosen weapon group. 3 SP dice total.
+
+___
+#### Weapon Specialisation
+
+**Type**: (Natural, Class B)
+
+**Description**: Gain a +1 to attack rolls and +2 damage with the one chosen weapon.
+
+**Prerequisite**:
+- Proficiency with the chosen weapon.
+- 7 SP dice.
 
 ___
 ### Combat Boons (Supernatural)

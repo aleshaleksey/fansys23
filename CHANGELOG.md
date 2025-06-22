@@ -351,6 +351,9 @@ ___
 ### Skills
 - Add a few more options to "[Harvest](05-skills.md#harvest)" for modifiers, and an explanation of best use.
 
+### Abilities
+- Add "[Armour Mastery, Light](06-abilities.md#armour-mastery-light)", "[Armour Mastery, Medium](06-abilities.md#armour-mastery-medium)", "[Armour Mastery, Heavy](06-abilities.md#armour-mastery-heavy)", "[Weapon Mastery](06-abilities.md#weapon-mastery)", "[Weapon Specialization](06-abilities.md#weapon-specialisation)".
+
 ### Weapons and Armour
 - Wielding two blades no longer automatically gives a +2 to shield HiT (only does so if a character has "[Offhand fighting II](06-abilities.md#offhand-fighting-i-iv)").
 - Added +1 to the HiT bonus granted by shields.

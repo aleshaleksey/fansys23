@@ -571,8 +571,8 @@ Armour tends to restrict movement, somewhat. This is reflected in several penalt
 **Dex rating**: A character with a Dex bonus higher than the rating, only applies the "Dex rating" to all rolls, attacks and saves. 
 
 **Weight Penalty**: Medium and heavy armour give a weight penalty.
-- Medium Armour gives a -2 penalty to all [Con] rolls related to endurance.
-- Heavy Armour gives a -4 penalty to all [Con] rolls related to endurance and a -2 penalty to attack rolls.
+- Medium Armour gives a -2 penalty to all CON rolls related to endurance.
+- Heavy Armour gives a -4 penalty to all CON rolls related to endurance and a -2 penalty to attack rolls.
 
 **Armour and resting**: Likewise, armour is not pyjamas and wearing it during long rests may in some cases prevent its wearer from resting properly (see"[Combat: Resting, amelioration and armour](04-combat.md#resting-amelioration-and-armour)").
 

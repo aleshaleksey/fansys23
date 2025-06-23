@@ -105,6 +105,9 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 ### Combat Boons (Natural)
 
 - [Alert](#alert)
+- [Armour Mastery, Light](#armour-mastery-light)
+- [Armour Mastery, Medium](#armour-mastery-medium)
+- [Armour Mastery, Heavy](#armour-mastery-heavy)
 - [Charge](#charge)
 - [Evasive](#evasive)
 - [Foresight](#foresight)
@@ -124,6 +127,8 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Trick shot (I-II)](#trick-shot-i-ii)
 - [Unarmed Strike (I-IX)](#unarmed-strike-i-ix)
 - [Weapon Finesse](#weapon-finesse)
+- [Weapon Mastery](#weapon-mastery)
+- [Weapon Specialization](#weapon-specialisation)
 
 ### Combat Boons (Supernatural)
 

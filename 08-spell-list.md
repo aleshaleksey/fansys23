@@ -873,7 +873,7 @@ ___
 **Global**: If cast globally the area affected is 200ft plus 100ft per extra 4MP. In this case artistic or structurally coherent use is not possible.
 (4+2)
 
-**Upcast**: Target regains an extra HP per extra MP die above 1, to a maximum of 3. No extra effect on undead.
+**Upcast**: The radius increases by 5ft for every extra MP dice used. The depth increases by 5ft (1ft) for every extra 2 MP dice used. If used globally the increase of radius per every extra MP dice is 100ft.
 
 ___
 ### Spirits' Secret

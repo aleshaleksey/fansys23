@@ -56,6 +56,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Deflect Missile](#deflect-missile)
 - [Far Throw (I-V)](#far-throw-i-v)
 - [Flurry](#flurry)
+- [Great Strike](#great-strike)
 - [Greater Manoeuvre (I-V)](#greater-manoeuvre-i-v)
 - [Guardian's Counterstrike](#guardian's-counterstrike)
 - [Precision Attack (I-X)](#precision-attack-i-x)
@@ -403,7 +404,7 @@ ___
 - If "precision attack" is used with a ranged attack, it must be within the first range increment of the weapon. 
 - Since it uses a "main action" it cannot be used as a "reaction".
 
-**Prerequisite table**: Precision attack has 10 levels. The maximum level of precision attack a character may have is [Level / 2]
+**Prerequisite table**: Precision attack has 10 levels. The maximum level of precision attack a character may have is [Level / 2] rounded up (so I at level 1, II at level 3, etc..).
 
 ___
 #### Riposte

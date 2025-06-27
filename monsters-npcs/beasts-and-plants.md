@@ -696,8 +696,8 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Claw|+5/+6|1d4+3 (Shear)|The raptor can either attack with its claw or bite, unless it has multi/monster attack|
-|Bite|+5/+6|1d10+3 (Shear)|The raptor can either attack with its claw or bite, unless it has multi/monster attack|
+|Claw|+5/+6|1d6+3 (Shear)|The raptor can either attack with its claw or bite, unless it has multi/monster attack|
+|Bite|+5/+6|1d8+3 (Shear)|The raptor can either attack with its claw or bite, unless it has multi/monster attack|
 |[Skirmisher](../../06-abilities.md#skirmisher)||||
 |Sprinter|||Run x3, Sprint x3|
 |Tracker: Swift (lvl4)||||
@@ -707,6 +707,8 @@ ___
 |Skills (lvl2)|"Track" +2, "Climb" +4, "Athletics" +5|||
 |Skills (lvl4)|"Track" +3, "Climb" +6, "Athletics" +7|||
 |Loot|||Raptor pelts are valuable for armour and building materials|
+
+Raptors are predatory, bipedal dinosaurs, thought to hunt in packs, and possessing a single wicked claw on each talon-like foot.
 
 This represents a large raptor, such as the ones that could be used as cavalry, and not the small, dog sized creatures which are commonly found in bush and woodlands.
 

@@ -629,7 +629,32 @@ ___
 
 **Limitation**: This extra effect applies to items and entities including the final target. These means that the final target can take the damage twice.
 
-**Prerequisites**: 19 MP dice + "Elemental Blast". 
+**Prerequisites**: 19 MP dice + "Elemental Blast".
+
+___
+#### Elemental Strike
+
+**Type**: B Class
+
+**Description**: Expend MP to infuse a weapon attack with elemental energy. The element can be fire, ice or lighting, and must correspond to the element chosen when acquiring this ability. The attack will deal an extra:
+- 2d6 fire[supernatural] damage.
+- 2d6 ice[supernatural] damage.
+- 2d4 lightning[supernatural] damage.
+
+**Declaration**: Must be made when the attack is called, however, for MELEE attacks the MP cost is only paid if the attack hits. For ranged and thrown weapon attacks the cost is always paid.
+
+**Limitations**:
+- Elemental Strike, when used with ranged weapons, is applicable only within the first range increment.
+
+**Special**:
+- If the element is fire or lightning the attack may ignite flammable materials, and sheds light (visibility 1 mile, illumination: dim 10ft).
+- Elemental strike must be taken separately for each element.
+- Though the necrotic damage is supernatural, the remaining weapon damage will usually still be natural.
+
+**Prerequisites**:
+- Proficiency with at least one weapon group.
+- "[Elemental Blast](#elemental-blast)", "[Elemental Touch](#elemental-touch)", or [Elemental Spellcasting](#spellcasting-local) of the same element.
+- 5 SP dice total and 6 MP dice total.
 
 ___
 #### Elemental Touch
@@ -660,7 +685,8 @@ ___
 
 **Prerequisites**: 3 MP dice total.
 
-**Special**: Elemental touch must be taken separately for each element.
+**Special**:
+- Elemental touch must be taken separately for each element.
 
 ___
 #### Esoteric Deflection
@@ -683,7 +709,7 @@ ___
 
 **Type**: B Class
 
-**Description**: Expend MP to infuse a weapon attack with supernatural light, dealing extra damage. This costs 1 MP per 1d4 of light damage. Profane entities hit by this attack must succeed a CHA save (Threshold=13+SUP+[CHA]) or be "blinded" (repeated save applies).
+**Description**: Expend MP to infuse a weapon attack with supernatural light, dealing extra damage. This costs 1 MP and deals 2d4 of light damage. Profane entities hit by this attack must succeed a CHA save (Threshold=13+SUP+[CHA]) or be "blinded" (repeated save applies).
 
 **Declaration**: Must be made when the attack is called, however, for MELEE attacks the MP cost is only paid if the attack hits. For ranged and thrown weapon attacks the cost is always paid.
 
@@ -693,6 +719,7 @@ ___
 
 **Special**:
 - "Holy Strike" sheds light (visibility 5 miles, illumination: bright/dim 10ft, 20ft).
+- Though the necrotic damage is supernatural, the remaining weapon damage will usually still be natural.
 
 **Prerequisites**:
 - Proficiency with at least one weapon group.
@@ -756,7 +783,7 @@ ___
 
 **Type**: B Class
 
-**Description**: Expend MP to infuse a weapon attack with decay, dealing extra damage. This costs 1 MP per 1d6 of necrotic damage. Mortals hit by this attack must succeed a CON save (Threshold=13+NAT+[CON]) or start "bleeding".
+**Description**: Expend MP to infuse a weapon attack with decay, dealing extra damage. This costs 1 MP and deals 2d6 of necrotic damage. Mortals hit by this attack must succeed a CON save (Threshold=13+NAT+[CON]) or start "bleeding".
 
 **Declaration**: Must be made when the attack is called, however, for MELEE attacks the MP cost is only paid if the attack hits. For ranged and thrown weapon attacks the cost is always paid.
 
@@ -767,6 +794,8 @@ ___
 **Prerequisites**:
 - Proficiency with at least one weapon group.
 - 6 SP dice total and 7 MP dice total.
+
+**Special**: Though the necrotic damage is supernatural, the remaining weapon damage will usually still be natural.
 
 ___
 ### General Abilities (Supernatural)

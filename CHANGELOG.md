@@ -359,6 +359,7 @@ ___
 
 ### Abilities
 - Add "[Armour Mastery, Light](06-abilities.md#armour-mastery-light)", "[Armour Mastery, Medium](06-abilities.md#armour-mastery-medium)", "[Armour Mastery, Heavy](06-abilities.md#armour-mastery-heavy)", "[Weapon Mastery](06-abilities.md#weapon-mastery)", "[Weapon Specialization](06-abilities.md#weapon-specialisation)".
+- Add "[Elemental Strike](06-abilities.md#elemental-strike).
 - [Familiars](06-abilities.md#bind-familiar-i-iv) gained by kinetic spellcasters are now immune (instead of resistant) to "grappled", "restrained", "immobilised".
 - Reduce prerequisites on:
   - [Combined Manoeuvre](06-abilities.md#combined-manoeuvre-i-v)
@@ -376,6 +377,7 @@ ___
   - [Steel Wind Strike](06-abilities.md#steel-wind-strike)
   - [Armour Mastery, Medium](06-abilities.md#armour-mastery-medium)
 - Change [Elemental Blast](06-abilities.md#elemental-blast)/[Touch](06-abilities.md#elemental-touch): Now both use WIS for attack and damage.
+- Increase damage dice on [Holy Strike](06-abilities.md#holy-strike) and [Unholy Strike](06-abilities.md#unholy-strike) by 1.
 
 ### Weapons and Armour
 - Wielding two blades no longer automatically gives a +2 to shield HiT (only does so if a character has "[Offhand fighting II](06-abilities.md#offhand-fighting-i-iv)").

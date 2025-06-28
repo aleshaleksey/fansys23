@@ -885,7 +885,7 @@ ___
 |-|-|-|
 |Elemental|Immunity to given element|"Elemental Touch"|
 |Incantation|Resistance to all "physical"|"Spirit Strike"|
-|Kinetic|Resistance to all "immobilise", "grapple", "restrain"|"Parry"|
+|Kinetic|Immunity to "immobilise", "grapple", "restrain"|"Parry"|
 |Natural|Resistance to all "energy"|"Guide"|
 |Global|Resistance to all conditions|"Least Ward"|
 

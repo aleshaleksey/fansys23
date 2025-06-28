@@ -207,6 +207,7 @@ ___
 |Monster Attack|||A corpse stork makes one beak attack and one claw attack as a main action|
 |Corpse Mimicry|||A corpse stork can, as a secondary action, interact with a humanoid corpse with more or less intact lungs to mimic its voice. To recognise this as an impersonation, a character must succeed an "observe" roll (Threshold=18) at disadvantage. Even if it does not succeed, the observer might be suspicious when they sees the Corpse Stork next to the corpse.|
 |Skills|||"Fly" +6, "Observe" +4, "Perform" +5|
+|Loot|||The quills of corpse storks are particularly valued, but alchemists generally value their innards. The flesh of these monsters, however, is often infested with all kind of parasites.|
 
 These huge bird-like monsters hunt primarily humanoids. They hunt their prey by poisoning them with their needle-like feathers and one they confirm that they are weakened, descend to finish them off. Once they have at least one corpse, they inflate its chest with its tail, causing it to mimic the voice it had in life. This creates an illusion of the corpse calling for help, which acts to lure more humanoid prey to the Corpse Stork. The Corpse Stork both feasts on the flesh and lays its eggs in it.
 
@@ -331,20 +332,28 @@ Adult fell beasts have a natural armour of +2, great have a natural armour of +4
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Bite (young)|+3|1d6+1 [Shear]||
-|Claws (young)|+3|1d4+1[Shear]|Threshold=14 CON or -2 to Str, on 1, paralysed, non lethal.|
-|Bite (adult)|+7|2d6+3[Shear]||
-|Claws (adult)|+7|1d10+3|Threshold=17 CON or -2 to Str, on 1, paralysed, non lethal.|
-|Stinger (adult)|+7|1d12+3|Threshold=17 CON, repeated 3 times. 1. no effect, 2. restrained, 3.paralysed, saving once stops progression, reverts after next round|
-|Bite (great)|+10|3d6+5[shear]||
-|Claws (great)|+10|3d4+5[shear]|Threshold=19 CON or -2 to Str, on 1, paralysed, non lethal.|
-|Stinger (great)|+10|1d12+5|Threshold=19, repeated 3 times. 1. no effect, 2. restrained, 3.paralysed, saving once stops progression, reverts after next roundда.|
-|Monster attack (adult)|||The fell beast makes one attack with its claws, one with its bite, and one with its tail|
-|Monster attack (great)|||The fell beast makes two attacks with its claws, one with its bite, and one with its tail|
+|Claws (young)|+3|1d4+1[Shear]|Threshold=14 CON or -2 to Str, on 1, paralysed, non lethal. The poisoning persists for 24 hours or until cured.|
 |Senses|||Normal, Low-light vision, Keen Smell|
 |Skills (young)|||"Track +2", "Navigate -2", "Climb +2", "Observe +1"|
 |Abilities (young)|||Tracker: Fast Search|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite (adult)|+7|2d6+3[Shear]||
+|Claws (adult)|+7|1d10+3|Threshold=17 CON or -2 to Str, on 1, paralysed, non lethal. The poisoning persists for 24 hours or until cured.|
+|Stinger (adult)|+7|1d12+3|Threshold=17 CON, repeated 3 times. 1. no effect, 2. restrained, 3.paralysed. A single successful save stops the progression of the poison, but does not revert effects that have already been applied. The poisoning persists for 24 hours or until cured.|
+|Monster attack (adult)|||The fell beast makes one attack with its claws, one with its bite, and one with its tail|
+|Senses|||Normal, Low-light vision, Keen Smell|
 |Skills (adult)|||"Track +5", "Navigate 0", "Climb +6", "Fortify: +6", "Observer +3", "Athletics +4"|
 |Abilities (adult)|||Tracker: Persistent Fast Search|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite (great)|+10|3d6+5[shear]||
+|Claws (great)|+10|3d4+5[shear]|Threshold=19 CON or -2 to Str, on 1, paralysed, non lethal. The poisoning persists for 24 hours or until cured.|
+|Stinger (great)|+10|1d12+5|Threshold=19, repeated 3 times. 1. no effect, 2. restrained, 3.paralysed. A single successful save stops the progression of the poison, but does not revert effects that have already been applied. The poisoning persists for 24 hours or until cured.|
+|Monster attack (great)|||The fell beast makes two attacks with its claws, one with its bite, and one with its tail|
+|Senses|||Normal, Low-light vision, Keen Smell|
 |Skills (great)|||"Track +8", "Navigate +5", "Climb +9", "Fortify: +11", "Observer +6", "Athletics +11", "Stealth +8", "Geography +3"|
 |Abilities (great)|||Tracker: Swift, Persistent, Fast Search|
 |Resistances (great)|||Piercing, Shear|

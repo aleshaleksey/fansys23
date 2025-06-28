@@ -359,6 +359,7 @@ ___
 
 ### Abilities
 - Add "[Armour Mastery, Light](06-abilities.md#armour-mastery-light)", "[Armour Mastery, Medium](06-abilities.md#armour-mastery-medium)", "[Armour Mastery, Heavy](06-abilities.md#armour-mastery-heavy)", "[Weapon Mastery](06-abilities.md#weapon-mastery)", "[Weapon Specialization](06-abilities.md#weapon-specialisation)".
+- [Familiars](06-abilities.md#bind-familiar-i-iv) gained by kinetic spellcasters are now immune (instead of resistant) to "grappled", "restrained", "immobilised".
 
 ### Weapons and Armour
 - Wielding two blades no longer automatically gives a +2 to shield HiT (only does so if a character has "[Offhand fighting II](06-abilities.md#offhand-fighting-i-iv)").

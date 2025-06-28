@@ -652,7 +652,7 @@ ___
 |Limitations|There must be plant life (at least "medium") within 120ft|-2 
 |Save|Dex or Str|-1
 
-**Description**: Vigorous plant life sprouts and grasps at all targets in range, causing them to be "grappled" on a failed save, and transforming it to difficult terrain.
+**Description**: Vigorous plant life sprouts and grasps at all targets in range. Entities that start their turn within the area of effect must succeed a DEX or STR save or be "restrained". The area of effect is also transformed into difficult terrain for the duration of the spell.
 
 **Upcast (local)**: Increase the radius by 5ft for every extra 1MP die above 1 of cost paid.
 

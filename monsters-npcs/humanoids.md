@@ -212,6 +212,8 @@ A militiaman seldom carries more than one or two of the weapons listed. A town g
 
 Militiamen will normally perform their combat duty, but will break and flee if the odds are overwhelming. No one wants to die.
 
+**Variant**: A basic cavalryman, substitutes "climb" for "ride" and gains the "[charge](06-abilities.md#charge)" ability.
+
 ___
 ### Human Warrior
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
@@ -252,6 +254,8 @@ This block can also represents guard captains, monster hunters and other humans 
 
 A warrior usually carries one heavy weapon weapon and a sidearm. He may also carry a ranged weapon. He usually has an attendant, or at least a pack animal.
 
+**Variant**: An elite cavalryman, substitutes "climb" for "ride" and gains the "[charge](06-abilities.md#charge)" and "[rider: quick mount](06-abilities.md#quick-mount)" ability.
+
 ___
 ### Human Knight
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
@@ -284,6 +288,8 @@ ___
 |Great Strike||| Up to -4/+4|
 |Broad Strike|||Hit extra targets|
 |Combined Manoeuvre I|||Two manoeuvres in one|
+|[Charge](06-abilities.md#charge)|||A mounted knight can make a single attack if its mount uses the "run" action.|
+|[Quick Mount](06-abilities.md#quick-mount)|||A knight can mount a steed as a "secondary action", or quick-mount as a "non action". A mounted knight dismounts as a "minor interaction".|
 |Debilitating Strike: Aphonia|||Threshold=18|
 |Spellcasting: Incantation I|||"[Least Ward](../08-spell-list.md#least-ward)", "[Ignition](../08-spell-list.md#ignition)", "[Least Heal](../08-spell-list.md#least-heal)"|
 |Skills|||Athletics +11, Ride 9, Acrobatics +5, Climb +7, Creature Handling +8, Sense Motive +4, Observe +4, History +3|

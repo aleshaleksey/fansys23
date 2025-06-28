@@ -259,11 +259,11 @@ ___
 
 |Number of Manoeuvres combined|SP dice total|Ability name|
 |-|-|-|
-|2|6|Combined Manoeuvre I|
-|3|12|Combined Manoeuvre II|
-|4|20|Combined Manoeuvre III|
-|5|30|Combined Manoeuvre IV|
-|6|42|Combined Manoeuvre V|
+|2|4|Combined Manoeuvre I|
+|3|10|Combined Manoeuvre II|
+|4|18|Combined Manoeuvre III|
+|5|28|Combined Manoeuvre IV|
+|6|40|Combined Manoeuvre V|
 
 **Original state**: A character must pick a single manoeuvre when making an attack.
 
@@ -320,11 +320,11 @@ ___
 
 |Throw distance |SP dice total|Ability name|
 |-|-|-|
-|15|6|Far Throw I|
-|20|12|Far Throw II|
-|25|20|Far Throw III|
-|30|30|Far Throw IV|
-|35|42|Far Throw V|
+|15|4|Far Throw I|
+|20|10|Far Throw II|
+|25|18|Far Throw III|
+|30|28|Far Throw IV|
+|35|40|Far Throw V|
 
 **Original state**: The "throw" manoeuvre moves tha target 10ft + 5ft x size advantages.
 
@@ -332,6 +332,8 @@ ___
 #### Flurry
 
 **Description**: As a "secondary action" make an extra attack or combat manoeuvre with a "light" weapon or unarmed strike. If you expend an SP dice, you get to make 2 attack.
+
+**Prerequisite**: Proficiency with "strikes".
 
 ___
 #### Great Strike
@@ -349,11 +351,11 @@ ___
 
 |Size difference|SP dice total|Ability name|
 |-|-|-|
-|3|6|Greater Manoeuvre I|
-|4|12|Greater Manoeuvre II|
-|5|20|Greater Manoeuvre III|
-|6|30|Greater Manoeuvre IV|
-|7|42|Greater Manoeuvre V|
+|3|4|Greater Manoeuvre I|
+|4|10|Greater Manoeuvre II|
+|5|18|Greater Manoeuvre III|
+|6|28|Greater Manoeuvre IV|
+|7|40|Greater Manoeuvre V|
 
 **Original state**: The above manoeuvres do not work on targets more than two categories larger than yourself.
 
@@ -375,7 +377,7 @@ ___
 
 **Action**: Use as your reaction on an enemy's turn vs ONE weapon attack. Alternatively declare on your turn and give up your reaction to make a number of parries up to 2 + your multi-attack level.
 
-**Prerequisite**: SP dice total of 6.
+**Prerequisite**: SP dice total of 4.
 
 **Special**: You must be aware of the attacker and the attack being made in order to use "parry".
 
@@ -448,8 +450,9 @@ ___
 |10|6|Weapon dmg + 10d8|
 
 **Prerequisites**:
-- **SP dice total**: 25.
-- **Other:** At least 3 other martial combat abilities or boons, one of which must be "Swift Strike".
+- **SP dice total**: 16.
+- **MP dice total**: 16.
+- **Other:** At least 3 other martial combat abilities or boons, one of which must be "Swift Strike" or 2 other martial combat abilities and boons and "Flurry".
 
 ___
 ### General Abilities (Natural)
@@ -509,7 +512,7 @@ ___
 
 **Limitations**: The spell must take a "main action" or "secondary action" to cast and must affect only the entity that made the attack.
 
-**Prerequisite**: 6 MP dice total.
+**Prerequisite**: 3 MP dice total + at least one targeted attack spell.
 
 ___
 #### Deflection
@@ -587,10 +590,10 @@ ___
 - Duration: Instantaneous.
 - Action: "main action".
 - Target: Single target.
-- Attack: [SAP + [Wis]]
+- Attack: [SAP + [WIS]]
 - Damage: 
-  - [[Base]d6 + [Int]] (fire or ice).
-  - [[Base]d4 + [Int]] for lightning or light.
+  - [[Base]d6 + [WIS]] (fire or ice).
+  - [[Base]d4 + [WIS]] for lightning or light.
 - Dice: MP (base dice cost = 0).
 - Per dice: 1 extra damage dice / MP dice + 10ft/30ft of range (cone/blast).
 
@@ -641,10 +644,10 @@ ___
 - Duration: Instantaneous.
 - Action: "main action".
 - Target: Single target.
-- Attack: [SAP + [Int]]
+- Attack: [SAP + [WIS]]
 - Damage: 
-  - [[Base]d6 + [Int]] (fire or ice).
-  - [[Base]d4 + [Int]] for lightning or light.
+  - [[Base]d6 + [WIS]] (fire or ice).
+  - [[Base]d4 + [WIS]] for lightning or light.
 - Dice: MP (base dice cost = 0).
 - Per dice: 2 extra damage dice / MP dice.
 
@@ -1174,7 +1177,9 @@ ___
 
 **Original state**: Medium Armour gives a -2 penalty to all CON rolls related to endurance.
 
-**Prerequisite**: Proficiency with Medium armour.
+**Prerequisite**:
+- Proficiency with Medium armour.
+- 5 SP dice
 
 ___
 #### Charge
@@ -1333,7 +1338,7 @@ ___
 
 **Prerequisites:**
 - Proficiency with Shields.
-- Poficiency Dex or Str saves.
+- Proficiency Dex or Str saves.
 - 8 SP dice total and 3 MP dice total.
 
 ___
@@ -1370,7 +1375,7 @@ ___
 - Proficiency with Shields.
 - ["Offhand fighting"](#offhand-fighting-i-iv) ability.
 
-**Special**: A character that makes more than two offhand attacks with a shield in a round loses the bonus to HiT from the shield to the end of their next turn.
+**Special**: A character that uses a shield to make an offhand attack loses the bonus to HiT from the shield to the end of their next turn.
 
 ___
 #### Swift Strike
@@ -1407,14 +1412,14 @@ ___
 |Dice|SP dice total|Ability name|
 |-|-|-|
 |1d4|3|Unarmed Strike I|
-|1d6|6|Unarmed Strike II|
-|1d8|10|Unarmed Strike III|
-|1d10|14|Unarmed Strike IV|
-|1d12|18|Unarmed Strike V|
-|2d6|22|Unarmed Strike VI|
-|2d8|26|Unarmed Strike VII|
-|2d10|30|Unarmed Strike VIII|
-|2d12|34|Unarmed Strike IX|
+|1d6|7|Unarmed Strike II|
+|1d8|12|Unarmed Strike III|
+|1d10|18|Unarmed Strike IV|
+|1d12|22|Unarmed Strike V|
+|2d6|26|Unarmed Strike VI|
+|2d8|30|Unarmed Strike VII|
+|2d10|34|Unarmed Strike VIII|
+|2d12|38|Unarmed Strike IX|
 
 **Warning**: If it is damage you seek, this is not the ideal ability. It does however guarantee the ability to do a good amount of damage even when you don't have your big stick handy.
 
@@ -1427,7 +1432,7 @@ ___
 
 **Original state**:  When using DEX as the governing attribute for a weapon that can be used with either DEX or STR as the governing attribute, there is no bonus to damage from stats.
 
-**Prerequisite**: Proficiency with at least one weapon and 4 SP dice.
+**Prerequisite**: Proficiency with at least one weapon and 3 SP dice.
 
 ___
 #### Weapon Mastery
@@ -1506,7 +1511,7 @@ ___
 
 **Prerequisites**:
 - Proficiency with at least one weapon proficiency group.
-- 4SP dice and 7 MP dice total.
+- 4 SP dice and 7 MP dice total.
 - At least one spellcasting ability.
 
 **Warning**: This boon is best used together with the "mage hunter" boon.
@@ -1707,7 +1712,7 @@ ___
 
 **Type**: Natural (Class C)
 
-**Description**: The penalties that are normally applied when a character carries a weight equal to, or above, its "light load" weight are not applied until the "medium load" weight is reached. The "medium load" penalties are applied as normal (and at the same weight as the new "light load" limit).
+**Description**: The penalties that are normally applied when a character carries a weight equal to, or above, its "light load" weight are not applied until the "medium load" weight limit is reached. The "medium load" penalties are applied as normal (and at the same weight as the NEW "light load" limit).
 
 **Prerequisite**: Mighty I + 15 STR + 15 CON.
 
@@ -1907,19 +1912,23 @@ ___
 
 |Entity sub-type|Level Prerequisite|Other|Nature of Ability
 |-|-|-|-|
-|Animal|4|-|Natural/Supernatural (chose)|
-|Plant|4|Xenophonia I|Natural/Supernatural (chose)|
-|Undead|6|-|Supernatural|
-|Monster|6|Xenophonia I|Supernatural|
+|Animal|1|-|Natural/Supernatural (chose)|
+|Plant|3|Xenophonia I|Natural/Supernatural (chose)|
+|Monster|3|Xenophonia I|Supernatural|
 |Humanoid|6|Xenophonia I|Natural/Supernatural (chose)|
-|Robot|6|-|Natural/Supernatural (chose)|
-|Fey|6|Xenophonia I|Supernatural|
-|Elemental|6|-|Supernatural|
-|Golem|8|Xenophonia I|Supernatural|
-|Spirit|8|-|Supernatural|
 |Dragon|10|Xenophonia II|Supernatural|
+||||
+|Undead|3|-|Supernatural|
+|Fiend|9|Xenophonia III|Supernatural|
+||||
+|Robot|6|-|Natural/Supernatural (chose)|
+|Golem|8|Xenophonia I|Supernatural|
+||||
+|Elemental|4|-|Supernatural|
+|Spirit|6|-|Supernatural|
+|Fey|6|Xenophonia I|Supernatural|
+||||
 |Angel|12|Xenophonia III|Supernatural|
-|Fiend|12|Xenophonia III|Supernatural|
 
 **Special**
 - Even if you can communicate through xenophonia with beings of other types using signals that they understand, the content of your communication may still be incomprehensible to them due to alien minds, incompatible conceptual frameworks or limited intellectual capacity. For example, the concept of death may be alien to certain spirits, while a plant may not have the ability to count, while a hedgehog might not know what a steam train is.

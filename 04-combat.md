@@ -88,13 +88,17 @@ Besides [NAP] and [SAP] an attack is modified by the "governing" stat. A [stat b
 - Attack bonus = [NAP] + [DEX]
 - Damage = 1d10 + [DEX]
 
-For a [greatsword](11-weapons-armour.md#heavy-blades), where STR is the governing stat:
+For a [longsword](11-weapons-armour.md#heavy-blades), where STR is the governing stat:
 - Attack bonus = [NAP] + [STR]
-- Damage = 1d10 + [STR]
+- Damage = 1d8 + [STR]
 
-There is an exception, however for many supernatural attacks, where it is case by case and for weapon attacks with those weapons that can be governed by either STR or DEX, as per the character's choice.
+There are a number of exceptions however.
 
-For this kind of weapon attacks, if the character chooses to govern the weapon attack with STR, they add the [STR] to the damage. However, if the character chooses to govern the attack with DEX, there is no stat bonus added to the damage unless the character has the "[weapon finesse](06-abilities.md#weapon-finesse)" boon.
+Firstly, supernatural attacks, where damage can be governed by [INT], [WIS] or [SUP], independently of governing attribute.
+
+Secondly for melee weapon attacks with those weapons that can be governed by either STR or DEX, as per the character's choice. For this kind of weapon attacks, if the character chooses to govern the weapon attack with STR, they add the [STR] to the damage. However, if the character chooses to govern the attack with DEX, there is no stat bonus added to the damage unless the character has the "[weapon finesse](06-abilities.md#weapon-finesse)" boon.
+
+Thirdly, for melee weapons with the "heavy" property, as well as longbows and greatbows, a character with a [STR] of +2 or higher adds an additional [STR]/2 to the damage dealt (*rounded down* to the nearest whole number) when wielding them with at least two hands.
 
 ___
 ## Damage and death
@@ -429,11 +433,11 @@ A character may ride a mount into combat (and in combat). In this case, for move
 
 - Mounting is a "main action". A quick mount can be attempted as a "secondary action" but this increases the risk of failure.
 - Dismounting is a "secondary action".
-- A mount can be commanded to attack with a "communicate action", although an untrained mount is unlikely to obey.
+- A mount can be commanded to attack with a "communicate action" (threshold=12), although an untrained mount is unlikely to obey (threshold).
 - A mount not trained in combat will likely bolt or freeze ("ride", threshold = 24).
 - A rider with the "charge" ability may make a single attack as a secondary action even if the mount "runs" or "sprints".
 - When an attack of opportunity is triggered it may be made against the mount or the rider.
--  When the mount falls, the rider makes a "ride" or "acrobatics" roll (threshold=16) as a reaction to fall the first 10ft safely and land on their feet. Otherwise they suffer the usual falling rules.
+- When the mount falls, the rider makes a "ride" or "acrobatics" roll (threshold=16) as a reaction to fall the first 10ft safely and land on their feet. Otherwise they suffer the usual falling rules.
 
 ___
 ## Basic combat manoeuvres and tactical movement.

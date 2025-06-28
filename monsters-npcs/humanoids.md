@@ -236,11 +236,11 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Greatsword|+7|2d6+2|heavy|
-|Halberd|+7|1d10+2|heavy|
-|Greataxe|+7|2d8+2|heavy|
+|Greatsword|+7|2d6+3|heavy|
+|Halberd|+7|1d10+3|heavy|
+|Greataxe|+7|2d8+3|heavy|
 |Short sword|+7|1d6+2||
-|Longbow|+7|1d10+2|range = 1200/240ft|
+|Longbow|+7|1d10+3|range = 1200/240ft|
 |Broad Strike|||Attempt to hit all targets in range with melee attack (SP cost)|
 |Parry|||Give up reaction to gain +3 to HiT against up to 4 weapon attacks|
 |Counterstrike|||All melee attacks provoke attacks of opportunity|
@@ -460,7 +460,7 @@ ____
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Longbow|+11|1d10+5 piercing|range = 1200/240ft|
+|Longbow|+11|1d10+6 piercing|range = 1200/240ft|
 |Sling|+11|1d6+5 piercing|range = 1600/80ft|
 |Knife|+11|1d4+5 slashing||
 |Low-light vision||||
@@ -507,7 +507,7 @@ Wears padded armour. When wielding blades increases to 18.
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Longbow|+12|1d10+5 piercing|range = 1200/240ft|
+|Longbow|+12|1d10+6 piercing|range = 1200/240ft|
 |Sling|+12|1d6+5 piercing|range = 1600/80ft|
 |Scimitar|+12|1d8+5 slashing||
 |Knife|+12|1d4+5 slashing||
@@ -643,7 +643,7 @@ Wears hide armour
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Axe|+9|1d6+4||
-|"[Long Axe](../11-weapons-armour.md#pole-arms)"|+9|2d8+4|reach = 10ft|
+|"[Long Axe](../11-weapons-armour.md#pole-arms)"|+9|2d8+6|reach = 10ft|
 |Strike|+9|1d6+4||
 |War dart|+9|1d4+4|Range=240ft, Increment=60ft|
 |Resistance|||"bludgeoning", "shear"|
@@ -681,7 +681,7 @@ Wears hide armour
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Axe|+11|1d6+4|Up to 1d6+12 with berserk and great strike|
-|Greataxe|+11|2d8+4|Up to 2d8+12 with berserk and great strike|
+|Greataxe|+11|2d8+6|Up to 2d8+12 with berserk and great strike|
 |Strike|+11|1d6+4|Up to 1d6+12 with berserk and great strike|
 |War dart|+11|1d4+4|Range=240ft, Increment=60ft|
 |Resistance|||"bludgeoning", "slashing"|
@@ -1159,7 +1159,9 @@ ___
 |Low Light Vision|||A goblin can see in dim light, such as starlight, as |
 |Skills||| "Fortify" +8, "Stealth" +12, "Acrobatics" +8, "Harvest" +5, "Appraise" +7, "Knowledge: History" +13, "Knowledge: Arcana" +9, "Sense Motive" +10, "Observe" +7, "Track" +3, +1 rank to all others.|
 
-Goblins are generally weak and frail, and will use stealth and sneaky tactics that maximise their chances of success. Sometimes bands, tribes and hordes of goblins are directed (but not led) by a strategist. A strategist seldom fights on its own, but when it does it prepares the battlefield with global magic, using its familiar to track approaching foes, and uses other goblins and its bound beast to keep foes at bay as it uses precise attacks to remove threats from the battlefield. A goblin strategist will **mercilessly** remove threats, targeting any damage dealers and soft targets first. It is not above using hostages to control its foes and it will make good on its threats. If spellcasters are present, it will often prefer to neutralise them using counter-spelling and dispelling. A goblin strategists will only fight if its objectives can (and are generally likely to be) achieved. It is hesitant to surrender, but will withdraw if needed.
+Goblins are generally weak and frail, and will use stealth and sneaky tactics that maximise their chances of success. Sometimes bands, tribes and hordes of goblins are directed (but not led) by a strategist. A strategist seldom fights on its own, but when it does it prepares the battlefield with global magic, using its familiar to track approaching foes, and uses other goblins and its bound beast to keep foes at bay as it uses precise attacks to remove threats from the battlefield.
+
+A goblin strategist will **mercilessly** remove threats, targeting any damage dealers and soft targets first. It is not above using hostages to control its foes and it will make good on its threats. If spellcasters are present, it will often prefer to neutralise them using counter-spelling and dispelling. A goblin strategists will only fight if its objectives can (and are generally likely to be) achieved. It is hesitant to surrender, but will withdraw if needed.
 
 
 

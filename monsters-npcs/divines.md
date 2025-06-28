@@ -142,7 +142,7 @@ Deflection +6
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Greatsword|+20|2d6+11|The sword is not real. It is merely a part of divine wrath and overcomes physical damage resistance and immunity. It counts as divine source for the sake of what it is.|
+|Greatsword|+20|2d6+14|The sword is not real. It is merely a part of divine wrath and overcomes physical damage resistance and immunity. It counts as divine source for the sake of what it is.|
 |Disarm|+15|||
 |Combined Manoeuvre I||||
 |Multi-attack II||||

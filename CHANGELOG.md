@@ -369,6 +369,7 @@ ___
   - [Weapon Finesse](06-abilities.md#weapon-finesse)
   - [Xenophonia](06-abilities.md#xenophonia-i-xiii)
 - Add/Increase prerequisites to:
+  - [Foresight](06-abilities.md#foresight)
   - [Flurry](06-abilities.md#flurry)
   - [Unarmed Strike I-IX](06-abilities.md#unarmed-strike-i-ix)
 - Change prerequisites on:
@@ -379,6 +380,7 @@ ___
 ### Weapons and Armour
 - Wielding two blades no longer automatically gives a +2 to shield HiT (only does so if a character has "[Offhand fighting II](06-abilities.md#offhand-fighting-i-iv)").
 - Added +1 to the HiT bonus granted by shields.
+- Added [STR]/2 to damage dealt by heavy weapons.
 
 ### Spellcasting
 - Increase the casting time of global summoning spells as follows. Duration 2 days -> 6 hours. Duration 3 days - 1 week -> 1 day.

@@ -406,7 +406,7 @@ ___
 - If "precision attack" is used with a ranged attack, it must be within the first range increment of the weapon. 
 - Since it uses a "main action" it cannot be used as a "reaction".
 
-**Prerequisite table**: Precision attack has 10 levels. The maximum level of precision attack a character may have is [Level / 2] rounded up (so I at level 1, II at level 3, etc..).
+**Prerequisite table**: Precision attack has 10 levels. The maximum level of precision attack a character may have is [Level / 2] (so I at level 2, II at level 4, etc..).
 
 ___
 #### Riposte
@@ -1277,18 +1277,19 @@ ___
 
 **Uses**: Offence.
 
-**Original state**: A character can make one attack, or use a single manoeuvre with a "main action".
+**Original state**: A character can make one attack, or use a single basic combat manoeuvre with a "main action".
 
 **Special:** A character with "Multi-attack I" or better can make a single offhand attack (regardless of "Multi-attack" level) with a light weapon, but takes a -4 penalty to the attack roll.
 
 **Prerequisite table**: This ability can be taken more than once. Each time, the minimum "base" and SP dice requirements must be met.
 |Number of attacks|Minimum Base|Minimum SP dice|Ability name|
 |-|-|-|-|
-|2|1|13|Multi-attack I|
+|2|1|12|Multi-attack I|
 |3|2|25|Multi-attack II|
-|4|4|39|Multi-attack III|
+|4|4|38|Multi-attack III|
 
-**Limitations**: Multi-attack can NEVER be applied to supernatural abilities or spells.
+**Limitations**: 
+- Multi-attack can NEVER be applied to supernatural abilities or spells, outside of "[Spell Strike](#spell-strike)", "[Spirit Strike](#spirit-strike)", "[Divine Strike](#divine-strike)", "[Profane Strike](#profane-strike)", "[Holy Strike](#holy-strike)", "[Unholy Strike](#holy-strike)" and "[Elemental Strike](#elemental-strike)".
 
 ___
 #### Offensive Buckler
@@ -1340,7 +1341,7 @@ ___
 
 |SP dice total|Name|Benefits|
 |-|-|-|
-|7|Point blank shot I|Ranged attacks into melee no longer at disadvantage|
+|7|Point blank shot I|Ranged attacks while in melee are no longer at disadvantage|
 |10|Point blank shot II|+1 to damage of ranged attacks within 15ft of target|
 |14|Point blank shot III|+2 to damage of ranged attacks within 30ft of target|
 

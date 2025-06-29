@@ -380,6 +380,9 @@ ___
 - Change [Elemental Blast](06-abilities.md#elemental-blast)/[Touch](06-abilities.md#elemental-touch): Now both use WIS for attack and damage.
 - Increase damage dice on [Holy Strike](06-abilities.md#holy-strike) and [Unholy Strike](06-abilities.md#unholy-strike) by 1.
 - Change the "[Charge](06-abilities.md#charge)" manoeuvre to require linear movement before hit. Bonus to some manoeuvres.
+- Change wording on [Point blank shot](06-abilities.md#point-blank-shot-i-iii).
+- Change wording on [Precision Attack](06-abilities.md#precision-attack-i-x).
+- Lower prerequisites on [Multi attack I](06-abilities.md#multi-attack-i-iii) by 1 SP die, to make it reasonable to hit it at level 6.
 
 ### Weapons and Armour
 - Wielding two blades no longer automatically gives a +2 to shield HiT (only does so if a character has "[Offhand fighting II](06-abilities.md#offhand-fighting-i-iv)").

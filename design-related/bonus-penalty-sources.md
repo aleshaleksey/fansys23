@@ -12,6 +12,9 @@ This chapter exists to tabulate bonuses and penalties for the sake of balance.
 |Flanking|n|0|2|(-1)-21|Will occur about half the time|
 |Material Grade|n|0|4|(-1)-25|Will usually be 0-2|
 |Spells|n|-1d6|+1d6|(-7)-31|Not common|
+|Violent movement|n|-2|0||ranged only|
+|Charge|n|0|+2||certain combat manoeuvres only|
+|Weapon props.|n|-2|+2||certain combat manoeuvres only, certain weapons only|
 
 (This is not quite right, as some monsters have much higher bonuses)
 (likewise, nat/sup bonus can go up to +11 will usually be about 1 2/3 of the maximum).

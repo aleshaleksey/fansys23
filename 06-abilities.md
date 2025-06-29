@@ -1215,7 +1215,12 @@ ___
 
 **Type**: (Natural, Class C)
 
-**Description**: If you take the "run" action when mounted, you can make a melee attack as a "secondary action" on the same turn. You can also make a melee attack as part of a "sprint" action if mounted, however, in this case your attack is at disadvantage.
+**Description**: If you take the "run" action when mounted, you can apply a [basic martial manoeuvre](04-combat.md#basic-martial-manoeuvres) as a "secondary action" on the same turn. You can also make this basic combat manoeuvre as part of a "sprint" action if mounted, however, in this case your attack is at disadvantage.
+
+**Special**:
+- If the basic martial manoeuvre is the "throw"/"trip"/"shove", "sunder" or "disarm", it has a +2 on the roll.
+
+**Limitation**: The mount must move at least its base movement speed in a straight line prior to striking its target. Thus, if a mount has a base speed of 60ft, and runs for 100ft, the last 60ft must be in a straight line in order for this manoeuvre to be applicable.
 
 **Prerequisite**: Ride, 2 ranks.
 

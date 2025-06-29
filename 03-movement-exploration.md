@@ -14,6 +14,7 @@ A certain level of freeform RP and common sense are recommended.
     - [Swimming](#swimming)
     - [Digging](#digging)
     - [Flight](#flight)
+    - [Vigorous Motion](#vigorous-motion)
 3. [Exploration](#exploration)
     - [Overview](#overview)
     - [Local and Global Movement](#local-and-global-movement-1)
@@ -159,6 +160,20 @@ __If a group wishes to simplify__ these rules, it is recommended to use "Good" f
 Most terrestrial entities have legs and walk. Some do not. They slither. They are an exception. We ignore them for now. Using small to large animals for reference, quadrupeds have a walking speed of 2-6 miles per hour (mph), a running speed of 8-20mph, and a sprint pace of 16-40mph. There are fewer bipeds, but they are capable of similar speeds (see ostriches). Humanoids are comparatively slow. 3-4mph (~5-6ft/s) is a typical walk. The fastest sprinter reaches about 24mph (100m/9s, 35ft/s), an average human springs at ~16mph (100m/15s, 24ft/s). The speeds we have quoted in the rules are a bit lower as conditions on an adventure are seldom as ideal as on a modern running track. Likewise you will notice that I have used [STR] for sprinting. This is in keeping with sports physiology.
 
 Most natural flying entities of tiny to large sizes are fast. Indeed there are fewer flying entities that can fly slowly than those that can't. Typical cruise speeds of birds are 10-60mph, with maximum speeds being as much as twice as high. On the other hand, flying entities usually need space to change direction and sacrifice sturdiness for the highly energetic activity of flight. Few flying entities in the real world weight much more than 10kg.
+
+### Vigorous Motion
+Vigorous motion is when moving quickly over uneven terrain, when there is significant shaking and difficult to predict bumps. Vigorous motion occurs when:
+- A character (or their mount, if mounted), uses the "run" or "sprint" action.
+  - A character "grappled", "restrained" or "immobilised" by an entity that is in vigorous motion is also considered to be in vigorous motion.
+- A character is on board of a land based vehicle that is travelling off road, or over roads with obstacles.
+- A character is on board of a water/flying vehicle travelling in stormy conditions (this is subjective, but assume at least "severe" wind).
+- A character is falling.
+- Other circumstances where the group determines it to be appropriate. As a guideline, if it is difficult/impossible to drink a half-full cup of tea without spilling it due to motion effects, then one is probably undergoing vigorous motion.
+
+The effects of vigorous motion are as following:
+- Spellcasters casting, or concentrating on, a spell must succeed on a Threshold=12 concentration save or lose the spell (it dissipates).
+- Ranged attacks take a -2 penalty on the attack roll.
+- Disadvantage on "[Fortify](05-skills.md#fortify)", "[Sleight of Hand](05-skills.md#sleight-of-hand)", "[Tinker](05-skills.md#tinker)", "[Heal](05-skills.md#heal)" and "[Spellworking](05-skills.md#spellworking)" rolls.
 
 ---
 ## Exploration

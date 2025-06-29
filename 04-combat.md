@@ -236,7 +236,7 @@ The actions an entity may take might also be restricted by its conditions and ge
   - Activating certain items.
   - Using some skills.
   - Use in combination with "move action" to **run**.
-    - This is considered "vigorous motion" for the sake of spellcasting.
+    - This is considered "[vigorous motion](03-movement-exploration.md#vigorous-motion)" for the sake of spellcasting.
   - Administering a potion.
   - Retrieving/Stowing an item that is in a container in reach.
 
@@ -268,7 +268,7 @@ The actions an entity may take might also be restricted by its conditions and ge
 
 - "**Communicate**": Most entities can communicate in parallel to doing other things. This involves using means of communication (eg Speech) that do not interfere (much!) with other activities. As a guide, a humanoid character can communicate about 1 word per second (6 per round). You cannot use modes of communication that interfere with other actions (eg communicate verbally when chanting an incantation for a spell, using sign-language while wielding a two-handed sword (usually!)).
 - "**Sprint**": Move up to 4x your movement speed in a straight line with no obstructions.
-  - This is considered "vigorous motion" for the sake of spellcasting.
+  - This is considered "[vigorous motion](03-movement-exploration.md#vigorous-motion)" for the sake of spellcasting.
 
 - "**Non-action**": Entities also carry out certain activities autonomously as part of their existence. These do not usually require actions (eg breathing). Concentrating is also a non-action.
 
@@ -435,7 +435,8 @@ A character may ride a mount into combat (and in combat). In this case, for move
 - Dismounting is a "secondary action".
 - A mount can be commanded to attack with a "communicate action" (threshold=12), although an untrained mount is unlikely to obey (threshold).
 - A mount not trained in combat will likely bolt or freeze ("ride", threshold = 24).
-- A rider with the "charge" ability may make a single attack as a secondary action even if the mount "runs" or "sprints".
+- A rider with the "[charge](06-abilities.md#charge)" ability may make a single attack as a secondary action even if the mount "runs" or "sprints".
+- A rider that makes a ranged attack, or casts a spell while their mount "runs" or "sprints" is subject to the usual "[vigorous motion](03-movement-exploration.md#vigorous-motion)" rules (threshold=12 concentration save or lose the spell, -2 to attack bonus of ranged attacks and certain skill rolls).
 - When an attack of opportunity is triggered it may be made against the mount or the rider.
 - When the mount falls, the rider makes a "ride" or "acrobatics" roll (threshold=16) as a reaction to fall the first 10ft safely and land on their feet. Otherwise they suffer the usual falling rules.
 

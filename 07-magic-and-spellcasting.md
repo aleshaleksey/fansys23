@@ -79,7 +79,7 @@ Spells with an active effect (eg summoning) and non-instantaneous duration usual
 3. An "incapacitated" (or so implied) entity cannot concentrate.
 4. A concentration save is a special save calculated as Concentration Bonus = [[Wis]/2 + [Int]/2 + [Nat]]. (A caster's ability to focus depends on mental acuity, connectedness as well as, strangely enough, physical condition and training).
 5. Concentration can be disrupted by taking damage (threshold = 12 or 1/2 damage taken, whichever is higher).
-6. Concentration can be disrupted by violent movement (threshold = 12), violent weather (threshold = 12) or both (threshold = 16).
+6. Concentration can be disrupted by "[vigorous motion](03-movement-exploration.md#vigorous-motion)" (threshold = 12), violent weather (threshold = 12) or both (threshold = 16).
 7. A caster can "hold" an "instantaneous" spell with a release trigger to trigger the effect within a minute of casting. The threshold = 8 +[rounds held]. If the trigger is not met the spell dissipates. The cost of the spell is paid when the spell is cast (always), not when it is triggered.
 
 ___

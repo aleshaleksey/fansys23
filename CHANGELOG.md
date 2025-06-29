@@ -353,6 +353,7 @@ ___
 - Added initial durability to ships.
 - Added clarifications on bindings and restraints.
 - Add explicit list of terrains to "[Movement and Exploration](03-movement-exploration.md)" section.
+- Formalise "[Vigorous Motion](03-movement-exploration.md#vigorous-motion)" rules.
 
 ### Skills
 - Add a few more options to "[Harvest](05-skills.md#harvest)" for modifiers, and an explanation of best use.
@@ -378,6 +379,7 @@ ___
   - [Armour Mastery, Medium](06-abilities.md#armour-mastery-medium)
 - Change [Elemental Blast](06-abilities.md#elemental-blast)/[Touch](06-abilities.md#elemental-touch): Now both use WIS for attack and damage.
 - Increase damage dice on [Holy Strike](06-abilities.md#holy-strike) and [Unholy Strike](06-abilities.md#unholy-strike) by 1.
+- Change the "[Charge](06-abilities.md#charge)" manoeuvre to require linear movement before hit. Bonus to some manoeuvres.
 
 ### Weapons and Armour
 - Wielding two blades no longer automatically gives a +2 to shield HiT (only does so if a character has "[Offhand fighting II](06-abilities.md#offhand-fighting-i-iv)").

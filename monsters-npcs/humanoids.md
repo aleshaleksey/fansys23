@@ -109,74 +109,6 @@ These humans are often proficient in any two weapon groups, though seldom own ba
 
 Beware the humble human farmer working his field! He has had a tough life and survived. A peasant will not rush into combat, but will often be more than willing to defend his pride, home and kin. Still they would rather not have to. No one wants to die.
 
-___
-### Human Scholar
-|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
-|-|-|-|-|-|-|
-|11/11/11|11 (*9*)|17 (*15*)|5|30|-|
-
-(+1 from base)
-
-Travelling over dangerous terrain, will use brigandine (HiT: 15/15/11)
-
-||Str|Dex|Con|Int|Wis|Cha|
-|-|-|-|-|-|-|-|
-|Stat|10|11|12|14|13|12|
-|Bonus|0|0|+1|+2|1|+1|
-|Save|+1|+1|+2|+4|+2|+2|
-
-|Level(base)|SP dice|MP Dice|Nat|Sup|NAP|SAP|
-|-|-|-|-|-|-|-|
-|3 (1)|4|7|1|2|2|3|
-
-|Ability|Bonus|Damage|Other|
-|-|-|-|-|
-|Dagger|+2|1d4|-|
-|Shortbow|+2|1d6|range: 600/120ft|
-|Spellcasting: Kinetic II|||"[Witch's Candle](../08-spell-list.md#witchs-candle)", "[Least Shroud](../08-spell-list.md#least-shroud)", "[Whispers](../08-spell-list.md#whispers)","[Enflame](../08-spell-list.md#enflame)", "[Spirits' Secret](../08-spell-list.md#spirits-secret), "[Least Transformation](../08-spell-list.md#least-transformation)"|
-|||||
-|Proficiencies|||"Calligraphy" + 2 other kits (or languages), 2 languages, 2 weapons|
-|Skills|||+5 in academics and +4 in 2 knowledge, +3 in other 4, "Observe" +3, 1 rank in another 4|
-
-These are members of human society that have devoted their life to the study or investigation of a particular subject, discipline or art. They can be engineers, scholars, teachers, archivists, bureaucrats or fulfil any other number of roles in human society.
-
-Scholars seldom carry weapons or armour. Although in some societies they may carry a light blade or shortstaff. When travelling they may equip themselves with a shortbow. Some scholars are familiar with [kinetic](../06-abilities.md#spellcasting-local) or [incantation](../06-abilities.md#spellcasting-local) magic to level II.
-
-A scholar will seldom engage in combat if given the choice, although they may fight when cornered, or when defending allies or sworn allies.
-
-___
-### Human Elite
-|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
-|-|-|-|-|-|-|
-|12/11/12|23 (*19*)|21 (*17*)|7|30|-|
-
-(+1 from base)
-
-On the battlefield, will often use Cuirass and small shield for (HiT: 20/16/12)
-
-||Str|Dex|Con|Int|Wis|Cha|
-|-|-|-|-|-|-|-|
-|Stat|12|12|12|14|10|12|
-|Bonus|+1|+1|+1|+2|0|+1|
-|Save|+2|+2|+2|+5|+1|+2|
-
-|Level(base)|SP dice|MP Dice|Nat|Sup|NAP|SAP|
-|-|-|-|-|-|-|-|
-|5 (1)|9|8|2|2|3|3|
-
-|Ability|Bonus|Damage|Other|
-|-|-|-|-|
-|Dagger|+4|1d4+1|-|
-|Smallsword|+4|1d6+1||
-|Composite Bow|+4|1d8+1|range: 1200/240ft|
-|Spellcasting: Kinetic II|||"[Least Shroud](../08-spell-list.md#least-shroud)", "[Whispers](../08-spell-list.md#whispers)","[Enflame](../08-spell-list.md#enflame)", "[Winter's Touch](../08-spell-list.md#winters-touch), "[Silence](../08-spell-list.md#silence)"|
-|||||
-|Skills|||Has a +5 in deception, +5 in academics and 2 knowledge, "navigate" +4, +3 in persuade and sense motive|
-
-These are well fed humans who are trained from birth to rule over their societies. They seldom fight, but often send others to fight for them. They will generally surrender once they have ran out of men to throw at their foe, or even before then. No one wants to die.
-
-Elites seldom carry weapons or wear armour beyond a symbolic dagger or smallsword. Although if forced onto the battlefield will take up arms.
-
 ____
 ### Human Militia
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
@@ -363,6 +295,198 @@ Example, Elemental Knight, fire:
 |[Elemental Blast: Fire](../06-abilities.md#elemental-blast)|+8|1d6+1|+1d6 fire damage per MP dice|
 |Spellcasting: Fire IV|||"[Ignition](../08-spell-list.md#ignition)", "[Least Warmth](../08-spell-list.md#least-warmth)", "[Foxfire](../08-spell-list.md#foxfire)", "[Least Vengeance](../08-spell-list.md#least-vengeance)", "[Meadow of Flame](../08-spell-list.md#meadow-of-flame)", "[Warmth](../08-spell-list.md#warmth)", "[Command Mortal](../08-spell-list.md#command-mortal)", "[Fire Ward](../08-spell-list.md#fire-ward)", "[Balance of Elements](../08-spell-list.md#balance-of-elements)", "[Speak Through Flame](../08-spell-list.md#speak-through-flame)"|
 |Spellcasting: Water II|||"[Mist](../08-spell-list.md#mist)", "[Least Freeze](../08-spell-list.md#least-freeze)", "[Sense Spell](../08-spell-list.md#sense-spell)", "[Winter's Touch](../08-spell-list.md#winters-touch)", "[Dusk](../08-spell-list.md#dusk)", "[Trace Secret Path](../08-spell-list.md#trace-secret-path)"|
+
+___
+### Human Mage, Apprentice
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|11/11/11|8 (*7*)|12 (*11*)|4|30|-|
+
+(+1 from base)
+
+Travelling over dangerous terrain, will use padded armour (HiT: 13/13/11)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|10|11|12|14|13|12|
+|Bonus|0|0|+1|+2|1|+1|
+|Save|+1|+1|+2|+4|+2|+2|
+
+|Level(base)|SP dice|MP Dice|Nat|Sup|NAP|SAP|
+|-|-|-|-|-|-|-|
+|2 (1)|3|5|1|1|2|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Dagger|+2|1d4|-|
+|Shortbow|+2|1d6|range: 600/120ft|
+|Spellcasting: Kinetic I|Threshold=16||"[Witch's Candle](../08-spell-list.md#witchs-candle)", "[Least Shroud](../08-spell-list.md#least-shroud)", "[Whispers](../08-spell-list.md#whispers)","[Enflame](../08-spell-list.md#enflame)", "[Spirits' Secret](../08-spell-list.md#spirits-secret), "[Least Transformation](../08-spell-list.md#least-transformation)"|
+|Spellcasting: Incantation I|Threshold=16||[Down](../08-spell-list.md#down), [Least Ward](../06-abilities.md#least-ward), [Least Spike](../08-spell-list.md#least-spike), [Least Vengeance](../08-spell-list.md#least-vengeance)|
+|Spellcasting: Global I||||
+|[Bind Familiar I](../06-abilities.md#bind-familiar-i-iv)||An apprentice may or may not have their own familiar|
+|||||
+|Proficiencies|||"Alchemist's kit" + 1 other kit (or languages), 2 languages, 1 weapon|
+|Skills|||+4 in academics and +3 in 2 knowledge, +2 in other 4, 1 rank in another 3|
+
+These are young humans, sometimes no more than children, who have begun their journey into the arcane.
+
+Apprentices seldom carry weapons or armour. Although in some societies they may carry a light blade or shortstaff or shortbow. Some apprentices might learn "[Least Heal](../08-spell-list.md#least-heal) instead of "Least Vengeance".
+
+Apart from the most hot-headed, apprentice mages are seldom eager to engage in combat, and seldom last long when they do. Although they may fight when cornered, or when defending allies or sworn allies.
+
+___
+### Human Scholar
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|11/11/11|11 (*9*)|17 (*15*)|5|30|-|
+
+(+1 from base)
+
+Travelling over dangerous terrain, will use brigandine (HiT: 15/15/11)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|10|11|12|14|13|12|
+|Bonus|0|0|+1|+2|1|+1|
+|Save|+1|+1|+2|+4|+2|+2|
+
+|Level(base)|SP dice|MP Dice|Nat|Sup|NAP|SAP|
+|-|-|-|-|-|-|-|
+|3 (1)|4|7|1|2|2|3|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Dagger|+2|1d4|-|
+|Shortbow|+2|1d6|range: 600/120ft|
+|Spellcasting: Kinetic II|Threshold=17||"[Witch's Candle](../08-spell-list.md#witchs-candle)", "[Least Shroud](../08-spell-list.md#least-shroud)", "[Whispers](../08-spell-list.md#whispers)","[Enflame](../08-spell-list.md#enflame)", "[Spirits' Secret](../08-spell-list.md#spirits-secret), "[Least Transformation](../08-spell-list.md#least-transformation)"|
+|||||
+|Proficiencies|||"Calligraphy" + 2 other kits (or languages), 2 languages, 2 weapons|
+|Skills|||+5 in academics and +4 in 2 knowledge, +3 in other 4, "Observe" +3, 1 rank in another 4|
+
+These are members of human society that have devoted their life to the study or investigation of a particular subject, discipline or art. They can be engineers, scholars, teachers, archivists, bureaucrats or fulfil any other number of roles in human society.
+
+Scholars seldom carry weapons or armour. Although in some societies they may carry a light blade or shortstaff. When travelling they may equip themselves with a shortbow. Some scholars are familiar with [kinetic](../06-abilities.md#spellcasting-local) or [incantation](../06-abilities.md#spellcasting-local) magic to level II.
+
+A scholar will seldom engage in combat if given the choice, although they may fight when cornered, or when defending allies or sworn allies.
+
+___
+### Human Elite
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|12/11/12|23 (*19*)|21 (*17*)|7|30|-|
+
+(+1 from base)
+
+On the battlefield, will often use Cuirass and small shield for (HiT: 20/16/12)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|12|12|12|14|10|12|
+|Bonus|+1|+1|+1|+2|0|+1|
+|Save|+2|+2|+2|+5|+1|+2|
+
+|Level(base)|SP dice|MP Dice|Nat|Sup|NAP|SAP|
+|-|-|-|-|-|-|-|
+|5 (1)|9|8|2|2|3|3|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Dagger|+4|1d4+1|-|
+|Smallsword|+4|1d6+1||
+|Composite Bow|+4|1d8+1|range: 1200/240ft|
+|Spellcasting: Kinetic II|Threshold=17||"[Least Shroud](../08-spell-list.md#least-shroud)", "[Whispers](../08-spell-list.md#whispers)","[Enflame](../08-spell-list.md#enflame)", "[Winter's Touch](../08-spell-list.md#winters-touch), "[Silence](../08-spell-list.md#silence)"|
+|||||
+|Skills|||Has a +5 in deception, +5 in academics and 2 knowledge, "navigate" +4, +3 in persuade and sense motive|
+
+These are well fed humans who are trained from birth to rule over their societies. They seldom fight, but often send others to fight for them. They will generally surrender once they have ran out of men to throw at their foe, or even before then. No one wants to die.
+
+Elites seldom carry weapons or wear armour beyond a symbolic dagger or smallsword. Although if forced onto the battlefield will take up arms.
+
+___
+### Human Mage
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|11/11/11|20 (*15*)|38 (*28*)|9|30|-|
+
+(+1 from base)
+
+Travelling over dangerous terrain, will use brigandine (HiT: 15/15/11)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|10|12|13|16|14|14|
+|Bonus|0|+1|+1|+3|+2|+2|
+|Save|+2|+3|+4|+9|+4|+4|
+
+|Level(base)|SP dice|MP Dice|Nat|Sup|NAP|SAP|
+|-|-|-|-|-|-|-|
+|6 (2)|7|13|2|3|4|6|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Dagger|+2|1d4|-|
+|[Spellcasting: Kinetic III](../06-abilities.md#spellcasting-local)|Threshold=18||"[Witch's Candle](../08-spell-list.md#witchs-candle)", "[Least Shroud](../08-spell-list.md#least-shroud)", "[Whispers](../08-spell-list.md#whispers)","[Enflame](../08-spell-list.md#enflame)", "[Spirits' Secret](../08-spell-list.md#spirits-secret), "[Least Transformation](../08-spell-list.md#least-transformation)"|
+|[Spellcasting: Incantation III](../06-abilities.md#spellcasting-local)|Threshold=18||[Down](../08-spell-list.md#down), [Least Ward](../06-abilities.md#least-ward), [Least Spike](../08-spell-list.md#least-spike), [Least Vengeance](../08-spell-list.md#least-vengeance), [Promise](../08-spell-list.md#promise), [Lesser Veil](../08-spell-list.md#lesser-veil), [Wind Walk](../08-spell-list.md#wind-walk)|
+|[Spellcasting: Earth II](../06-abilities.md#spellcasting-local)|Threshold=18||[Least Geomancy](../08-spell-list.md#least-geomancy), [Sense Spell](../08-spell-list.md#sense-spell), [Gnome's Mercy](../08-spell-list.md#gnomes-mercy), [Earthern Hand](../08-spell-list.md#earthen-hand), [Warded Ground](../08-spell-list.md#warded-ground), [Summon Gnome](../08-spell-list.md#summon-gnome)|
+|[Spellcasting: Global](../06-abilities.md#spellcasting-global)||||
+|[Bind Familiar I](../06-abilities.md#bind-familiar-i-iv)||||
+|[Deflection](../06-abilities.md#deflection)|||A mage may a reaction and potentially MP dice to reduce damage from "supernatural" ranged attack|
+|[Elemental Blast: Ice](../06-abilities.md#elemental-blast)|+8|2d6+2 Ice[supernatural]|Range=120ft|
+|||||
+|Proficiencies|||"Calligraphy" + 2 other kits (or languages), 2 languages, 2 weapons|
+|Skills|||+5 in academics and +4 in 2 knowledge, +3 in other 4, "Observe" +3, 1 rank in another 4|
+
+Mages in human society are generally those who have studied spellcraft for decades to unearth and fathom its secrets. A witch who lives at the edge of a remote village, or a court wizard in the capital are probably both mages, albeit with somewhat different specialisations. Some mages learn "[Least Heal](../08-spell-list.md#least-heal)" and "[Cure](../08-spell-list.md#cure)" instead of "Lesser Veil" and "Wind Walk". (For a battle mage see the [Magic Knight](#human-magic-knight) stat block)
+
+Mages often prefer to avoid combat and situations that lead to severe injury or death, although magic duels may be a different matter entirely.
+
+In combat, a mage uses their familiar to scout, and then use the appropriate spell for the situation. Often this involves preparing the battlefield and applying the appropriate debuffs before engaging with offensive magic. That said, when fighting multiple weaker foes, mages will often try to eliminate them with area of effect spells. In a magic duel, a mage will usually use their reaction and bonus action to try and counter-spell other mages.
+
+___
+### Human Mage, Arch-mage
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|11/11/11|58 (*36*)|78 (*45*)|18|30|-|
+
+(+1 from base)
+
+Travelling over dangerous terrain, will use brigandine (HiT: 15/15/11)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|10|16|14|20|16|16|
+|Bonus|0|+3|+2|+5|+3|+3|
+|Save|+3|+6|+5|+12|+11|+6|
+
+|Level(base)|SP dice|MP Dice|Nat|Sup|NAP|SAP|
+|-|-|-|-|-|-|-|
+|12 (3)|17|21|3|4|6|7|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Dagger|+9|1d4|-|
+|[Spellcasting: Kinetic VI](../06-abilities.md#spellcasting-local)|Threshold=18||"[Witch's Candle](../08-spell-list.md#witchs-candle)", "[Least Shroud](../08-spell-list.md#least-shroud)", "[Whispers](../08-spell-list.md#whispers)","[Enflame](../08-spell-list.md#enflame)", "[Spirits' Secret](../08-spell-list.md#spirits-secret), "[Least Transformation](../08-spell-list.md#least-transformation)", [Scry](../08-spell-list.md#scry), [Flame Stride](../08-spell-list.md#flame-stride), [Inner Voice](../08-spell-list.md#inner-voice)|
+|[Spellcasting: Incantation VI](../06-abilities.md#spellcasting-local)|Threshold=18||[Down](../08-spell-list.md#down), [Least Ward](../06-abilities.md#least-ward), [Least Spike](../08-spell-list.md#least-spike), [Least Vengeance](../08-spell-list.md#least-vengeance), [Promise](../08-spell-list.md#promise), [Lesser Veil](../08-spell-list.md#lesser-veil), [Wind Walk](../08-spell-list.md#wind-walk), [Summon Spirit](../08-spell-list.md#summon-spirit), [Isolate Essence](../08-spell-list.md#isolate-essence), [Razor Wind](../08-spell-list.md#razor-wind)|
+|[Spellcasting: Earth V](../06-abilities.md#spellcasting-local)|Threshold=18||[Least Geomancy](../08-spell-list.md#least-geomancy), [Sense Spell](../08-spell-list.md#sense-spell), [Gnome's Mercy](../08-spell-list.md#gnomes-mercy), [Earthern Hand](../08-spell-list.md#earthen-hand), [Warded Ground](../08-spell-list.md#warded-ground), [Summon Gnome](../08-spell-list.md#summon-gnome), [](../08-spell-list.md), [Earth Ward](../08-spell-list.md#earth-ward), [See Spell](../08-spell-list.md#see-spell), [**Animate Golem**](../08-spell-list.md#animate-golem), [Enchanted Ground](../08-spell-list.md#enchanted-ground), [Healing Seed](../08-spell-list.md#healing-seed), [Rift](../08-spell-list.md#rift)|
+|[Spellcasting: Global](../06-abilities.md#spellcasting-global)||||
+|[Bind Familiar II](../06-abilities.md#bind-familiar-i-iv)||||
+|[Deflection](../06-abilities.md#deflection)|||A mage may a reaction and potentially MP dice to reduce damage from "supernatural" ranged attack|
+|[Elemental Blast: Ice](../06-abilities.md#elemental-blast)|+10|2d6+3 Ice[supernatural]|Range=120ft, Max damage=9d6+3|
+|[Elemental Blast, Linear: Ice](../06-abilities.md#elemental-blast-greater-linear)|Threshold=20|3d6+3 Ice[supernatural]|Max damage=9d6+3, Max width=35ft|
+|[Arcane Interception](../06-abilities.md#arcane-interception)|||An archmage can use the "interception" manoeuvre to redirect supernatural attacks that require a saving throw at themselves|
+|[Safe cast](../06-abilities.md#safe-cast)|||An arch-mage does not provoke attacks of opportunity when casting spells with kinetic components in melee.|
+|[War mage](../06-abilities.md#war-mage)|||An arch-mage has advantage on concentration saves for maintaining spells|
+|||||
+|[Xenophonia II](../06-abilities.md#xenophonia-i-xiii)|||Arch-mages have learned to communicate with elementals and monsters (although some arch-mages may have slightly different targets for their xenphonia)|
+|[True Sight I](../06-abilities.md#truesight-i-v)|||An arch-mage can see the true form of things within 30ft of itself, if it can see them at all.|
+|Proficiencies|||"Calligraphy" + 2 other kits (or languages), 2 languages, 2 weapons|
+|Skills|||+5 in academics and +4 in 2 knowledge, +3 in other 4, "Observe" +3, 1 rank in another 4|
+
+An arch-mage seldom means that one has learned all there is to learn about magic (although it can do!), but is more often a title given to the most skilled and influential mage in a kingdom or empire. The spell list presented here is an example, and many arch-mages will have learned additional spells through decades of intense study.
+
+Most arch-mages are loathe to engage in combat, unless ordered to do so by the lord of their kingdom, or unless it is necessary to fulfil some personal goal. They will generally prefer to send globally summoned spirits or underlings. In particular arch-mages are fond of golems. The one notable exception is to duel other mages.
+
+In combat an arch-mage will attempt to win the battle before it has begun by using magic, underlings and its familiar to gain the upper hand in situational awareness, perhaps even measuring the strength of its foes and softening them up using underlings or global magic over a period of days or weeks. Only then is it likely to engage in direct battle.
 
 ___
 ## Elf
@@ -1151,7 +1275,7 @@ ___
 |[Spellcasting Local: Incantation](../06-abilities.md#spellcasting-local)|Threshold=22||"[Least Anemancy](../08-spell-list.md#least-anemancy)", "[Least Hydromancy](../08-spell-list.md#least-hydromancy)", "[Least Ward](../08-spell-list.md#least-ward)", "[Least Heal](../08-spell-list.md#least-heal)"|
 |[Spellcasting Local: Fire I](../06-abilities.md#spellcasting-local)|Threshold=18||"[Ignition](../08-spell-list.md#ignition)", "[Least Warmth](../08-spell-list.md#least-warmth)", "[Enflame](../08-spell-list.md#enflame)", "[Shape Spell](../08-spell-list.md#sense-spell)"|
 |[Spellcasting Local: Earth I](../06-abilities.md#spellcasting-local)|Threshold=18||"[Down](../08-spell-list.md#down)", "[Least Geomancy](../08-spell-list.md#least-geomancy)", "[Shape Earth](../08-spell-list.md#shape-earth)", "[Gnomes' Mercy](../08-spell-list.md#gnomes-mercy)"|
-|[Spellcasting Global: V](../06-abilities.md)|||"[Warded Ground](../08-spell-list.md#warded-ground)", "[Guidance of the Earth](../08-spell-list.md#guidance-of-the-earth)", "[Fire Ward](../08-spell-list.md#fire-ward)", "[Animate Golem](../08-spell-list.md#animate-golem)", "[Enchanted Ground](../08-spell-list.md#enchanted-ground)", "[Scry](../08-spell-list.md#scry)", "[Greater Fire Ward](../08-spell-list.md#greater-fire-ward)", "[Plague](../08-spell-list.md#plague)", "[Rift](../08-spell-list.md#rift)"|
+|[Spellcasting Global: V](../08-spell-list.md)|||"[Warded Ground](../08-spell-list.md#warded-ground)", "[Guidance of the Earth](../08-spell-list.md#guidance-of-the-earth)", "[Fire Ward](../08-spell-list.md#fire-ward)", "[Animate Golem](../08-spell-list.md#animate-golem)", "[Enchanted Ground](../08-spell-list.md#enchanted-ground)", "[Scry](../08-spell-list.md#scry)", "[Greater Fire Ward](../08-spell-list.md#greater-fire-ward)", "[Plague](../08-spell-list.md#plague)", "[Rift](../08-spell-list.md#rift)"|
 |[Bind Beast: VI](../06-abilities.md#bind-beast-i-x)|||A strategist binds a beast to act as its mount and guardian|
 |[Bind Familiar: IV](../06-abilities.md#bind-familiar-i-iv)|||A strategist summons a familiar based on the specific needs|
 |||||

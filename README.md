@@ -45,7 +45,7 @@ Of course play will be "clunky" if there isn't at least one person at the table 
 
 The version currently stands at:
 
-**v0.0.14**
+**v0.0.15**
 
 This is the 14th draft. It is is mostly workable, but needs more testing, more monsters, and a better layout for clarity.
 

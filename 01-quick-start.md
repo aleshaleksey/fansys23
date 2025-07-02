@@ -1,6 +1,6 @@
 # FanSys23
 
-This is a fantasy roleplaying system optimised for balance that uses 2d12 for its core roll. It is meant for games with a focus on small group combat and exploration, with an emphasis on the balance between mundane and supernatural, and inhuman characters.
+This is a fantasy roleplaying system optimised for balance that uses 2d12 for its core roll. It is meant for games with a focus on small group combat and exploration, with an emphasis on the balance between mundane and supernatural.
 ___
 
 ### Scope and Pace of the game

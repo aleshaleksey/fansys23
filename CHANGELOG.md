@@ -392,3 +392,9 @@ ___
 ### Spellcasting
 - Increase the casting time of global summoning spells as follows. Duration 2 days -> 6 hours. Duration 3 days - 1 week -> 1 day.
 - [Ensnare](08-spell-list.md#ensnare) cleared up, also now restrains instead of grappling.
+
+____
+## From v0.0.15
+
+### General
+- Fill in some placeholders for [camping](03-movement-exploration.md#camping).

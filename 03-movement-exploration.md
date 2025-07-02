@@ -405,16 +405,16 @@ Harvesting, hunting and mining are essentially all harvesting of different types
 
 ### Camping
 In hostile or wilderness environments characters must often take additions steps before they can safely and effectively rest. These steps are:
-- Find suitable site vs terrain camping threshold + weather scouting modifier. (Skill or special ability). Successful check gives advantage on ameliorate/fortify check.
-- Skill roll to ameliorate/fortify site vs terrain camping threshold + weather camping modifier. (Skill or special ability)
-- Set sentry and watch for hostiles. Successful fortification roll gives the camp cover, and the sentry advantage on rolls to detect ambushes coming for them (Skill or special ability).
-- Resolve possible encounters.
-- Regain resources (HP, SP, MP) if the rest is successful.
+1. Find suitable site (usually a [prospect](05-skills.md#investigateprospect) or [navigate](05-skills.md#investigateprospect) roll vs terrain camping threshold + weather scouting modifier). Successful check gives advantage on ameliorate/fortify check.
+2. Skill roll to [ameliorate/fortify](05-skills.md#fortify) the site vs terrain camping threshold + weather camping modifier.
+3. Optional: Set sentry and watch for trouble. Successful fortification roll gives the camp cover, and the sentry advantage on rolls to detect ambushes coming for them (usually using the "[observe](05-skills.md#observe)" skill).
+4. Resolve possible encounters (See "[Chapter 4: Combat](04-combat.md)").
+5. Regain resources (HP, SP, MP) if the rest is successful (see "[Chapter 4: Combat: Rest and Recuperation](04-combat.md#rest-and-recuperation)").
 
-Failure to ameliorate a suitable site leads to Con save, with the threshold determined by terrain, weather (see tables above) and any bonuses from special abilities and spells.
+Trying to rest on an site which is not ameliorated triggers a CON save, with the threshold determined by terrain, weather (see tables above) and any bonuses from special abilities and spells. A character who fails this CON save does not regain resources from the rest. If they fail by more than 6, they are not able to adequately drink, eat or sleep, which brings them closer to "[starvation](#characters-starvation-and-other-bad-ways-to-die)", if they require drink, food or sleep.
 - In cold weather, a blanket gives +2 to this save, while a bedroll gives +4.
-- A tent gives +2 to ameliorate/fortify, a yurt obviates the need for such a roll. This does not apply in swamps, dense forests or on steep slopes.
-- Wearing medium or heavy armour gives a penalty to this CON save equal to the armour rating (instead of making a separate roll).
+- A tent gives +2 to ameliorate/fortify, a yurt obviates the need for such a roll. This does not apply on terrain where it is not possible to place a tent or yurt, such as in swamps, dense forests or on steep slopes.
+- If a site is not ameliorated, wearing medium or heavy armour gives a penalty to this CON save equal to the armour rating (instead of making a separate roll).
 
 A character wearing medium or heavy armour during a long rest must succeed on a CON save with a Threshold = [10 + Armour rating] to benefit from the long rest, even if the camp is already ameliorated.
 

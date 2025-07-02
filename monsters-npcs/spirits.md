@@ -88,7 +88,7 @@ ___
 |Vulnerability|||"Ice"|
 |Anathema (water)|||Flame sprites take damage when doused with water or sand. For every gallon of water/sand, the flame sprite takes 5 points of natural damage. A flame sprite that is completely submerged in cold water is destroyed after 1 round (if you can somehow submerge a spirit).|
 
-Flame Sprites are the most dangerous of minor elementals. They are playful material spirits associated with fire an consisting of it. Despite their playfulness, their propensity to ignite everything they touch and step on as they dance, makes them extremely dangerous, even when they do not have hostile intent.
+Flame Sprites are the most dangerous of minor elementals. They are playful material spirits associated with fire and consisting of it. Despite their playfulness, their propensity to ignite everything they touch and step on as they dance, makes them extremely dangerous, even when they do not have hostile intent.
 
 In combat, the touch of a Flame Sprite is in itself dangerous, but it prefers to avoid melee and relies on its pyromancy. Flame sprites fight without fear on the material realm. They often toy with mortals with["Least Pyromancy"](../08-spell-list.md#least-pyromancy), ["Enflame"](../08-spell-list.md#enflame) and ["Foxfire"](../08-spell-list.md#foxfire). In combat, however they will harass foes with ["Ignition"](../08-spell-list.md#ignition) and cast ["Meadow of Flame"](../08-spell-list.md#meadow-of-flame) once their foes are within range.
 

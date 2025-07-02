@@ -176,11 +176,12 @@ ___
 Also known in various worlds as "Dragonborn", "Dragonblood" and by any other number of pretentious names. Dragonkin are humanoids with some similarities to true dragons. Sometimes, as they age and gain power, they may become true dragons. Notably they tend to have vestigial wings, reptilian tails, and the ability to breath fire, or a different element. In worlds where dragons are color coded for convenience, the same applies to dragonkin.
 
 - **Size**: Medium (Height: ~6', Weight: ~180lb, wingspan 10ft increasing 24ft with age.)
-- **Size** (Fire): (Str: 0, Dex: 0, Con: +1, Int: 0, Wis: -2, Cha: +2) (1 point)
-- **Size** (Ice): (Str: +2, Dex: -2, Con: +1, Int: 0, Wis: 0, Cha: 0) (1 point)
-- **Size** (Poison): (Str: 0, Dex: -1, Con: +1, Int: +1, Wis: +1, Cha: -1) (1 point)
-- **Size** (Light): (Str: 0, Dex: 0, Con: -1, Int: 0, Wis: +1, Cha: 0)
-- **Size** (Lightning): (Str: 0, Dex: +1, Con: 0, Int: 0, Wis: -1, Cha: 0)
+- **Stats**:
+  - **(Fire)**: (Str: 0, Dex: 0, Con: +1, Int: 0, Wis: -2, Cha: +2) (1 point)
+  - **(Ice)**: (Str: +2, Dex: -2, Con: +1, Int: 0, Wis: 0, Cha: 0) (1 point)
+  - **(Poison)**: (Str: 0, Dex: -1, Con: +1, Int: +1, Wis: +1, Cha: -1) (1 point)
+  - **(Light)**: (Str: 0, Dex: 0, Con: -1, Int: 0, Wis: +1, Cha: 0)
+  - **(Lightning)**: (Str: 0, Dex: +1, Con: 0, Int: 0, Wis: -1, Cha: 0)
 - **Movement**: Walk 30ft
 - **Sight**: Normal, Keen senses: Smell" (1 point)
 - **Type**: Humanoid (needs to breathe, drink, eat, and sleep). Humans age.
@@ -220,7 +221,7 @@ OR [Lightning, Light]: (6 points)
 ___
 ## Example Enhanced Template
 
-Below you can find some **enchanced** templates with higher stats and more abilities/skills than the "normal" templates/races. The enhanced templates are intended ONLY for high power games and will probably detract from most games rather than enhancing them. The DM and group should make sure to use templates of the same level for ALL characters in a game, for reasons of balance and mutual enjoyment. 
+Below you can find some **enhanced** templates with higher stats and more abilities/skills than the "normal" templates/races. The enhanced templates are intended ONLY for high power games and will probably detract from most games rather than enhancing them. The DM and group should make sure to use templates of the same level for ALL characters in a game, for reasons of balance and mutual enjoyment. 
 
 ___
 ### Enhanced Human(level-5 template = 40 points)

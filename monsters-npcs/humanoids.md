@@ -7,12 +7,16 @@ This section contains a few NPC stat blocks and notes on their intended use and 
 - [Humans](#human)
     - [Human Commoner](#human-commoner)
     - [Human Peasant](#human-peasant)
-    - [Human Elite](#human-elite)
     - [Human Guard](#human-militia)
     - [Human Warrior](#human-warrior)
     - [Human Knight](#human-knight)
     - [Human Magic Knight](#human-magic-knight)
     - [Human Elemental Knight](#human-magic-knight-variant-elemental-knight)
+    - [Human Mage, Apprentice](#human-mage-apprentice)
+    - [Human Scholar](#human-scholar)
+    - [Human Elite](#human-elite)
+    - [Human Mage](#human-mage)
+    - [Human Mage, Archmage](#human-mage-arch-mage)
 - [Elves](#elf)
     - [Elvish Youth](#elvish-youth)
     - [Elf](#elf)
@@ -757,7 +761,7 @@ Wears hide armour
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
 |Stat|18|12|16|10|14|12|
-|Bonus|+4|+1|+3|-1|+1|+1|
+|Bonus|+4|+1|+3|0|+1|+1|
 |Save|+9|+1|+8|+1|+3|+3|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
@@ -1145,9 +1149,9 @@ Wears light cuirass  (+1)
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|10|18|14|10|14|14|
-|Bonus|+0|+4|+2|0|+2|+2|
-|Save|+5|+7|+4|+2|+6|+4|
+|Stat|12|18|14|10|14|14|
+|Bonus|+2|+4|+2|0|+2|+2|
+|Save|+7|+7|+4|+2|+6|+4|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
@@ -1157,7 +1161,7 @@ Wears light cuirass  (+1)
 |-|-|-|-|
 |Strike|+8|1d8+3|(Unarmed Strike III)|
 |Shortstaff|+8|1d8+3|Modifier for throw and grapple, disarm increase to +10 when using a staff|
-|Greatbow|+8|1d10+4|1200ft/240ft|
+|Greatbow|+8|1d12+5|1200ft/240ft|
 |Grapple|+8|||
 |Restrain|+8|||
 |Throw|+8|||
@@ -1463,7 +1467,7 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Strike|+21|4d12+10 Percussive|Reach=10ft|
-|Giant's Bow|+12|2d10+1|Greatbow: Range: 1800ft, Increment: 360ft|
+|Giant's Bow|+12|2d12+6|Greatbow: Range: 1800ft, Increment: 360ft|
 |Grapple/Throw/Sunder|+21|||
 |||||
 |Great Strike|||A giant can sacrifice up to 4 points from its attack bonus, and instead increase damage dealt|

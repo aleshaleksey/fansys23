@@ -398,3 +398,6 @@ ____
 
 ### General
 - Fill in some placeholders for [camping](03-movement-exploration.md#camping).
+
+### Weapons and Armour
+- Greatbow increased to 1d12. This isn't going to backfire at all.

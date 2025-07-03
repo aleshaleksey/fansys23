@@ -100,7 +100,7 @@ Weapons come in all shapes and sizes. They can be made of various materials. As 
 
 - **Delicate**: On rolling snake eyes, the weapon takes 1 point of damage.
 - **Unwieldy**: Unwieldy weapons cannot be easily used in small spaces, where any dimension (width or height or length) are 5ft or less, or when mounted. In those conditions these weapons are wielded at disadvantage.
-- **Heavy**: This kind of weapon is "unwieldy". A heavy weapon of the correct size category must be wielded in two hands or it counts as an improvised weapon. In addition they grant a +2 on all basic martial manoeuvres. If a heavy weapon user does not have at least +2 to [STR], it takes -4 to attacks with the weapon. If the weapon is a melee weapon, a character wielding it with at least two hands and possessing at least +2 to [STR] adds an additional [STR]/2 to the damage dealt (*rounded down* to the nearest whole number).
+- **Heavy**: This kind of weapon is "unwieldy". A heavy weapon of the correct size category must be wielded in two hands or it counts as an improvised weapon. In addition they grant a +2 on all basic martial manoeuvres. If a heavy weapon user does not have at least +2 to [STR], it takes -4 to attacks with the weapon. If the weapon is a melee weapon, a character wielding it with at least two hands and possessing at least +2 to [STR] adds an additional [STR]/2 to the damage dealt (*rounded down* to the nearest whole number). Thus a character wielding a 2d6 greatsword with [STR] of +2 would deal 2d6+3 damage, while a character with a [STR] of +3 would deal 2d6+4 damage.
 - **Reach**: This weapon is "unwieldy", but it does have a range of 10ft.
 - **Long**: These weapons are not quite reach weapons, but they are bit longer than usual. A long weapon allows a wielder to use its "secondary action" to lunge and extend its reach to 10ft for a single attack.
 - **Light**: -2 when on the receiving end of "sunder" and "disarm" manoeuvres. Its users have advantage when using stealth to conceal this kind of weapon.
@@ -207,7 +207,7 @@ Damage Key:
 |Shortbow|Bow|1d6|P|2|Dex|-|600|120|1|4|
 |Composite Bow|Bow|1d8|P|2|Dex|-|1200|240|2|3|
 |Longbow|Bow|1d10|P|2|Dex|-|1200|240|3|6|
-|Greatbow|Bow|1d10|P|2|Dex|-|1200|240|3|4|
+|Greatbow|Bow|1d12|P|2|Dex|-|1200|240|3|4|
 |||||||||
 |Hand Crossbow|Mechanical Bow|1d6|P|1|Dex|-|360|60|1|4
 |Crossbow|Mechanical Bow|1d10|piercing|2|Dex|-|800|160|4|6

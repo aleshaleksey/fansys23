@@ -296,7 +296,7 @@ The spell threshold for a magic knight is Threshold=19 (WIS)
 Example, Elemental Knight, fire:
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|[Elemental Blast: Fire](../06-abilities.md#elemental-blast)|+8|1d6+1|+1d6 fire damage per MP dice|
+|[Elemental Blast: Fire](../06-abilities.md#blast-elemental-blast)|+8|1d6+1|+1d6 fire damage per MP dice|
 |Spellcasting: Fire IV|||"[Ignition](../08-spell-list.md#ignition)", "[Least Warmth](../08-spell-list.md#least-warmth)", "[Foxfire](../08-spell-list.md#foxfire)", "[Least Vengeance](../08-spell-list.md#least-vengeance)", "[Meadow of Flame](../08-spell-list.md#meadow-of-flame)", "[Warmth](../08-spell-list.md#warmth)", "[Command Mortal](../08-spell-list.md#command-mortal)", "[Fire Ward](../08-spell-list.md#fire-ward)", "[Balance of Elements](../08-spell-list.md#balance-of-elements)", "[Speak Through Flame](../08-spell-list.md#speak-through-flame)"|
 |Spellcasting: Water II|||"[Mist](../08-spell-list.md#mist)", "[Least Freeze](../08-spell-list.md#least-freeze)", "[Sense Spell](../08-spell-list.md#sense-spell)", "[Winter's Touch](../08-spell-list.md#winters-touch)", "[Dusk](../08-spell-list.md#dusk)", "[Trace Secret Path](../08-spell-list.md#trace-secret-path)"|
 
@@ -435,7 +435,7 @@ Travelling over dangerous terrain, will use brigandine (HiT: 15/15/11)
 |[Spellcasting: Global](../06-abilities.md#spellcasting-global)||||
 |[Bind Familiar I](../06-abilities.md#bind-familiar-i-iv)||||
 |[Deflection](../06-abilities.md#deflection)|||A mage may a reaction and potentially MP dice to reduce damage from "supernatural" ranged attack|
-|[Elemental Blast: Ice](../06-abilities.md#elemental-blast)|+8|2d6+2 Ice[supernatural]|Range=120ft|
+|[Elemental Blast: Ice](../06-abilities.md#blast-elemental-blast)|+8|2d6+2 Ice[supernatural]|Range=120ft|
 |||||
 |Proficiencies|||"Calligraphy" + 2 other kits (or languages), 2 languages, 2 weapons|
 |Skills|||+5 in academics and +4 in 2 knowledge, +3 in other 4, "Observe" +3, 1 rank in another 4|
@@ -475,7 +475,7 @@ Travelling over dangerous terrain, will use brigandine (HiT: 15/15/11)
 |[Spellcasting: Global](../06-abilities.md#spellcasting-global)||||
 |[Bind Familiar II](../06-abilities.md#bind-familiar-i-iv)||||
 |[Deflection](../06-abilities.md#deflection)|||A mage may a reaction and potentially MP dice to reduce damage from "supernatural" ranged attack|
-|[Elemental Blast: Ice](../06-abilities.md#elemental-blast)|+10|2d6+3 Ice[supernatural]|Range=120ft, Max damage=9d6+3|
+|[Elemental Blast: Ice](../06-abilities.md#blast-elemental-blast)|+10|2d6+3 Ice[supernatural]|Range=120ft, Max damage=9d6+3|
 |[Elemental Blast, Linear: Ice](../06-abilities.md#elemental-blast-greater-linear)|Threshold=20|3d6+3 Ice[supernatural]|Max damage=9d6+3, Max width=35ft|
 |[Arcane Interception](../06-abilities.md#arcane-interception)|||An archmage can use the "interception" manoeuvre to redirect supernatural attacks that require a saving throw at themselves|
 |[Safe cast](../06-abilities.md#safe-cast)|||An arch-mage does not provoke attacks of opportunity when casting spells with kinetic components in melee.|
@@ -850,8 +850,8 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|[Elemental Touch](../06-abilities.md#elemental-touch)|+9|2d6+2|(fire or ice), +2d6 per MP dice|
-|[Elemental Blast](../06-abilities.md#elemental-blast)|+9|2d4+4|(light or lightning), +1d4 per MP dice, see ability.|
+|[Elemental Touch](../06-abilities.md#touch-elemental-touch)|+9|2d6+2|(fire or ice), +2d6 per MP dice|
+|[Elemental Blast](../06-abilities.md#blast-elemental-blast)|+9|2d4+4|(light or lightning), +1d4 per MP dice, see ability.|
 |Shortstaff|+6|1d6+2||
 |War dart|+6|1d4+2|Range=240ft, Increment=60ft|
 |[Cursed Blood](../06-abilities.md#cursed-blood)|||Reaction to cast spells in revenge|
@@ -995,8 +995,8 @@ ___
 |-|-|-|-|
 |Size|||Small|
 |Composite Bow|+10|1d8+4|range 1200/240ft|
-|[Elemental Blast](../06-abilities.md#elemental-blast)|+12|2d4+4|(fire), +1d6 per MP dice, see ability.|
-|[Elemental Touch](../06-abilities.md#elemental-touch)|+12|2d4+4|(lightning), +2d4 per MP dice, see ability.|
+|[Elemental Blast](../06-abilities.md#blast-elemental-blast)|+12|2d4+4|(fire), +1d6 per MP dice, see ability.|
+|[Elemental Touch](../06-abilities.md#touch-elemental-touch)|+12|2d4+4|(lightning), +2d4 per MP dice, see ability.|
 |[Alert](../06-abilities.md#alert)|||Immune to surprise|
 |[Evasive](../06-abilities.md#evasive)|||Avoid AoOs|
 |[Sprinter](../06-abilities.md#sprinter)|||Go further|
@@ -1374,8 +1374,8 @@ ___
 |[Multiattack I](../06-abilities.md#multi-attack-i-iii)|||An ogre can attempt 2 combat manoeuvres as an attack action (main action)|
 |[Great Strike](../06-abilities.md#great-strike)|||An ogre can take a malus of up to 3 from its attack bonus to grant itself a corresponding bonus to one-handed attacks or twice the bonus to two handed attacks|
 |||||
-|[Elemental Blast: Fire](../06-abilities.md#elemental-blast)|+9|3d6+2|Reach=5ft(long). An ogre mage can apply up to 5 MP dice to its elemental blast.|
-|[Elemental Touch: Fire](../06-abilities.md#elemental-touch)|+9|3d6+2|Reach=5ft(long). An ogre mage can apply up to 5 MP dice to its elemental blast.|
+|[Elemental Blast: Fire](../06-abilities.md#blast-elemental-blast)|+9|3d6+2|Reach=5ft(long). An ogre mage can apply up to 5 MP dice to its elemental blast.|
+|[Elemental Touch: Fire](../06-abilities.md#touch-elemental-touch)|+9|3d6+2|Reach=5ft(long). An ogre mage can apply up to 5 MP dice to its elemental blast.|
 |[War Mage](../06-abilities.md#war-mage)|||An ogre mage has advantage on concentration saves.|
 |[Spellcasting Local: Incantation V](../06-abilities.md#spellcasting-local)|||Favourite Spells: [Least Pyromancy](../06-abilities.md#least-pyromancy), [Least Vengeance](../06-abilities.md#least-vengeance), [Natural Xenophonia](../06-abilities.md#natural-xenophonia), [Cure](../06-abilities.md#cure), [Least Weather Control](../06-abilities.md#lesser-weather-control), [Isolate Essence](../06-abilities.md#isolate-essence)|
 |[Spellcasting Local: Kinetic V](../06-abilities.md#spellcasting-local)|||Favourite Spells: [Mist](../08-spell-list.md#mist), [Lesser Illusory Self](../08-spell-list.md#lessor-illusory-self), [Call Ailment](../08-spell-list.md#call-ailment), [Least Curse](../08-spell-list.md#least-curse), [Scry](../08-spell-list.md#scry), [Flame Stride](../08-spell-list.md#flame-stride)|
@@ -1533,7 +1533,7 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Strike|+33|7d12+15|Reach 20ft+ (A colossus makes generous use of great and broad strike)|
-|[Elemental Blast: Fire](../06-abilities.md#elemental-blast)|+22|8d6+7|Range = 120ft + 30ft/MP dice.|
+|[Elemental Blast: Fire](../06-abilities.md#blast-elemental-blast)|+22|8d6+7|Range = 120ft + 30ft/MP dice.|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -1549,7 +1549,7 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |[Cursed Blood](../06-abilities#cursed-blood)||||
-|[Elemental Blast](../06-abilities#elemental-blast)||||
+|[Elemental Blast](../06-abilities#blast-elemental-blast)||||
 |[Greater Elemental Blast: Linear](../06-abilities#elemental-blast-greater-linear)||||
 |[Greater Elemental Blast: Radial](../06-abilities#elemental-blast-greater-radial)||||
 |[Deflection](../06-abilities#deflection)||||

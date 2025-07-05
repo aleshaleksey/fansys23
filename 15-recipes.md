@@ -108,7 +108,7 @@ ____
 ## Mystic Warrior
 A mystic warrior mixes martial and supernatural abilities to make use of its foes' weaknesses.
 
-This build balances between supernatural and natural abilities, combat capability and the arcane. One could argue that this is an equivalent to "bard" or "red mage" of certain other systems. The general strategy is to buff the party and yourself with "[Bard Song I](06-abilities.md#bard-song-i-iv)" and spells, and then enter combat, using light weapons with "[Flurry](06-abilities.md#flurry)". "[Elemental Blast: Light](06-abilities.md#elemental-blast)" gives additional firepower against supernatural entities, while "[Flash Step](06-abilities.md#flash-step)" is useful for getting in and out of trouble.
+This build balances between supernatural and natural abilities, combat capability and the arcane. One could argue that this is an equivalent to "bard" or "red mage" of certain other systems. The general strategy is to buff the party and yourself with "[Bard Song I](06-abilities.md#bard-song-i-iv)" and spells, and then enter combat, using light weapons with "[Flurry](06-abilities.md#flurry)". "[Elemental Blast: Light](06-abilities.md#blast-elemental-blast)" gives additional firepower against supernatural entities, while "[Flash Step](06-abilities.md#flash-step)" is useful for getting in and out of trouble.
 
 [Spellcasting Local: Incantation](06-abilities.md#spellcasting-local)" is useful since these spells can be used safely in melee combat and gives some healing magic and so is recommended. For greater martial prowess it is recommended to take less spellcasting, or less "[Bard Song I](06-abilities.md#bard-song-i-iv)", and focus on either heavy blades or "[Unarmed Strike](06-abilities.md#unarmed-strike-i-ix)".
 
@@ -120,10 +120,10 @@ The mystic warrior does suffer somewhat from "multiple attribute (stat) dependen
 |2 (1) |4  (1)|4  (1)|2|2|[Spellcasting: Water I](06-abilities.md#spellcasting-local), [Spellcasting Global I](06-abilities.md#spellcasting-global), STAT +1|Strikes||
 |3 (1) |6  (1)|5  (1)|2|2|[Spellcasting Local: Incantation II](06-abilities.md#spellcasting-local), [Flash Step](06-abilities.md#flash-step), [Parry](06-abilities.md#parry)|Grapple||
 |4 (1) |7  (2)|7  (2)|3|3|[Spellcasting: Water II](06-abilities.md#spellcasting-local), [War Mage](06-abilities.md#war-mage), [Deflection](06-abilities.md#deflection)|Sunder||
-|5 (1) |8  (2)|9  (2)|3|3|[Spellcasting Local: Incantation III](06-abilities.md#spellcasting-local), [Elemental Blast: Light](06-abilities.md#elemental-blast), STAT +1|Interception||                         
+|5 (1) |8  (2)|9  (2)|3|3|[Spellcasting Local: Incantation III](06-abilities.md#spellcasting-local), [Elemental Blast: Light](06-abilities.md#blast-elemental-blast), STAT +1|Interception||                         
 |6 (2) |10 (2)|10 (2)|4|4|[Spellcasting: Water III](06-abilities.md#spellcasting-local), [Bard Song II](06-abilities.md#bard-song-i-iv), [Combined Manoeuvre I](06-abilities.md#combined-manoeuvre-i-v)|||
 |7 (2) |11 (2)|12 (2)|4|4|[Spellcasting Local: Incantation VI](06-abilities.md#spellcasting-local), [Spell Strike](06-abilities.md#spell-strike), STAT +1|||
-|8 (2) |13 (3)|13 (3)|5|5|[Spellcasting: Water IV](06-abilities.md#spellcasting-local), [Greater Elemental Blast Linear: Light](06-abilities.md#elemental-blast), [Combined Manoeuvre II](06-abilities.md#combined-manoeuvre-i-v)|||
+|8 (2) |13 (3)|13 (3)|5|5|[Spellcasting: Water IV](06-abilities.md#spellcasting-local), [Greater Elemental Blast Linear: Light](06-abilities.md#blast-elemental-blast), [Combined Manoeuvre II](06-abilities.md#combined-manoeuvre-i-v)|||
 |9 (2) |14 (3)|15 (3)|5|5|[Spellcasting Local: Incantation V](06-abilities.md#spellcasting-local), [Multi-attack I](06-abilities.md#multi-attack-i-iii), STAT +1|||
 |10 (3)|16 (3)|16 (3)|6|6|[Spellcasting: Water V](06-abilities.md#spellcasting-local), [Bard Song III](06-abilities.md#bard-song-i-iv), [Xenophonia: Animals](06-abilities.md#xenophonia-i-xiii)|||
 |11 (3)|18 (3)|17 (3)|6|6|[Spellcasting Local: Incantation IV](06-abilities.md#spellcasting-local), [Spirit Strike](06-abilities.md#spirit-strike), STAT +1|||
@@ -185,13 +185,13 @@ ___
 ## Pyromancer
 A pyromancer is an offensive caster that makes use especially of elemental fire magic. A similar template can be made for any elemental battle mage.
 
-A pyromancer can be dangerous at range or in melee. This build works well enough with a single elemental spellcasting ability taken to high level, along with [Elemental Blast](06-abilities.md#elemental-blast). A second type of elemental spellcasting (other than fire or water) taken to 3rd level is useful for counter-spelling. As with other spellcasting builds, the other abilities can be exchanged for natural combat or utility abilities for a less conventional build. Medium/heavy armour proficiency can also be taken as a also a valid option for protection.
+A pyromancer can be dangerous at range or in melee. This build works well enough with a single elemental spellcasting ability taken to high level, along with [Elemental Blast](06-abilities.md#blast-elemental-blast). A second type of elemental spellcasting (other than fire or water) taken to 3rd level is useful for counter-spelling. As with other spellcasting builds, the other abilities can be exchanged for natural combat or utility abilities for a less conventional build. Medium/heavy armour proficiency can also be taken as a also a valid option for protection.
 
 The primary stat for this build is WIS. If using armour STR is useful, if not, DEX. Likewise, since this is largely a combat focused build, CON and CHA should not be neglected.
 
 |Level (base)|SP dice (Nat)| MP dice (Sup)|NAP|SAP|Abilities|Proficiencies|Notes|
 |-|-|-|-|-|-|-|-|
-|1 (1) |2  (1)|3  (1)|2|2|[Elemental Blast: Fire](06-abilities.md#elemental-blast), [Elemental Touch: Fire](06-abilities.md#elemental-touch), [Spellcasting Local: Fire I](06-abilities.md#spellcasting-local)|Interception, Light Blades, Light Armour||
+|1 (1) |2  (1)|3  (1)|2|2|[Elemental Blast: Fire](06-abilities.md#blast-elemental-blast), [Elemental Touch: Fire](06-abilities.md#touch-elemental-touch), [Spellcasting Local: Fire I](06-abilities.md#spellcasting-local)|Interception, Light Blades, Light Armour||
 |2 (1) |3  (1)|5  (1)|2|2|[Spellcasting Global I](06-abilities.md#spellcasting-global), [Arcane Interception](06-abilities.md#arcane-interception), STAT +1|||
 |3 (1) |4  (1)|7  (2)|2|3|[Spellcasting Local: Fire II](06-abilities.md#spellcasting-local), [Deflection](06-abilities.md#deflection), [Safe Cast](06-abilities.md#safe-cast)|||
 |4 (1) |6  (1)|8  (2)|2|3|[Still Spell](06-abilities.md#still-spell), [Spellcasting Local: Air I](06-abilities.md#spellcasting-local), STAT +1|||

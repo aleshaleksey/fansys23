@@ -293,12 +293,12 @@ This represents those who have been touched by dark forces. Perhaps because of a
 Extra:
 - Resistance to "poison" + "poisoned" .
 - Resistance to "Bleeding". 
-- Elemental touch (level 1).
+- Elementalism: Elemental Touch.(level 1).
 
 Race boon (level 8 and 16):
 - Resistance to one of "piercing", "bludgeoning", "slashing" or "pressure" or "shear", "fire" or "ice".
 - +1 Str, +1 Cha.
-- +1 Elemental touch.
+- +1 Elementalism: Elemental Touch.
 
 ___
 ### Skills and abilities
@@ -444,7 +444,7 @@ Every character gets 3 level points at level 1. These can be spend as follows.
 
 Abilities and boons are special features of a character that allow them to do things they would not otherwise be able to do, or withstand things they would otherwise not be able to withstand. This also provides some of the flavour to the character. See the ["Abilities and Boons"](06-abilities.md) chapter. As an example:
 
-- An aspiring pyromancer would probably want to take "[elemental touch](06-abilities.md#elemental-touch)" or "[elemental blast](06-abilities.md#elemental-blast)" and "[spellcasting: elemental (fire)](06-abilities.md#spellcasting-elemental)".
+- An aspiring pyromancer would probably want to take "[elemental touch](06-abilities.md#touch-elemental-touch)" or "[elemental blast](06-abilities.md#blast-elemental-blast)" and "[spellcasting: elemental (fire)](06-abilities.md#spellcasting-elemental)".
 - A plucky peasant or mysterious summoner might both wish to travel with a bestial companion and so take "[bind beast](06-abilities.md#bind-beast-i-x)".
 - Swashbuckler and martial artists would probably both benefit from "[flurry](06-abilities.md#flurry)".
 

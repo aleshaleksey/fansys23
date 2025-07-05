@@ -377,7 +377,7 @@ ___
 - Change prerequisites on:
   - [Steel Wind Strike](06-abilities.md#steel-wind-strike)
   - [Armour Mastery, Medium](06-abilities.md#armour-mastery-medium)
-- Change [Elemental Blast](06-abilities.md#elemental-blast)/[Touch](06-abilities.md#elemental-touch): Now both use WIS for attack and damage.
+- Change [Elemental Blast](06-abilities.md#blast-elemental-blast)/[Touch](06-abilities.md#touch-elemental-touch): Now both use WIS for attack and damage.
 - Increase damage dice on [Holy Strike](06-abilities.md#holy-strike) and [Unholy Strike](06-abilities.md#unholy-strike) by 1.
 - Change the "[Charge](06-abilities.md#charge)" manoeuvre to require linear movement before hit. Bonus to some manoeuvres.
 - Change wording on [Point blank shot](06-abilities.md#point-blank-shot-i-iii).
@@ -398,6 +398,9 @@ ____
 
 ### General
 - Fill in some placeholders for [camping](03-movement-exploration.md#camping).
+
+### Abilities
+- Unite Elemental Blast and Touch into the "[Elementalism](06-abilities.md#elementalism-elemental-blast)" group, which gives a more complete ability.
 
 ### Weapons and Armour
 - Greatbow increased to 1d12. This isn't going to backfire at all.

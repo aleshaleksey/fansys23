@@ -763,7 +763,7 @@ Deflection: +1
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|[Elemental Touch: Light](../06-abilities.md#elemental-touch)|+3|1d4+1 Light[supernatural]|Reach=0ft|
+|[Elemental Touch: Light](../06-abilities.md#touch-elemental-touch)|+3|1d4+1 Light[supernatural]|Reach=0ft|
 |||||
 |[Low-light Vision](../06-abilities.md#low-light-vision)|||A brownie can see even in starlight, and other low light conditions, as if it was daylight.|
 |[Fleet](../06-abilities.md#fleet)|||A brownie can stealth even in light cover.|
@@ -808,7 +808,7 @@ Deflection: +2
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|[Elemental Touch: Cold](../06-abilities.md#elemental-touch)|+5|164+2 Cold[supernatural]|Reach=0ft|
+|[Elemental Touch: Cold](../06-abilities.md#touch-elemental-touch)|+5|164+2 Cold[supernatural]|Reach=0ft|
 |Pixie Shortbow|+10|1d2+6|(Range=600ft, Increment=120ft) The bow counts as having a fey source material|
 |[Precision Attack I](../06-abilities.md#precision-attack-i-x)|||A pixie deals an extra 1d8 damage with its bow if its target is "surprised: or otherwise unaware, within the first range increment.|
 |||||
@@ -899,8 +899,8 @@ Foresight: +2
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|[Elemental Touch: Cold](../06-abilities.md#elemental-touch)|+9|3d6+1|Reach=5ft|
-|[Elemental Blast: Light](../06-abilities.md#elemental-blast)|+12|3d6+1|maximum extra damage dice = 5d4|
+|[Elemental Touch: Cold](../06-abilities.md#touch-elemental-touch)|+9|3d6+1|Reach=5ft|
+|[Elemental Blast: Light](../06-abilities.md#blast-elemental-blast)|+12|3d6+1|maximum extra damage dice = 5d4|
 |[Greater Elemental Blast: Radial](../06-abilities.md#elemental-blast-greater-radial)|+12(Threshold=19)|3d6+1|Maximum radius=50ft, maximum extra damage dice = 5d4|
 |||||
 |Fey Song|Threshold=21||(2 MP die, range=60ft, instantaneous) A nymph's/naiad's voice is a balm for the spirit. If a naiaid expends 2 MP dice as a secondary action when singing, all mortals and spirits must succeed on a CHA save or become charmed for 8 hours. Entities below level 5 automatically fail the save. Entities above level 10 make the save at advantage. The charm is broken if the entity takes damage, receives the kiss of a mortal maiden, or eats a bitter leaf.|
@@ -1092,8 +1092,8 @@ Deflection: +5
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|[Elemental Touch: Light](../06-abilities.md#elemental-touch)|+14|4d4+3||
-|[Elemental Blast: Light](../06-abilities.md#elemental-blast)|+17|4d4+6||
+|[Elemental Touch: Light](../06-abilities.md#touch-elemental-touch)|+14|4d4+3||
+|[Elemental Blast: Light](../06-abilities.md#blast-elemental-blast)|+17|4d4+6||
 |[Greater Elemental Blast (Linear): Light](../06-abilities.md#elemental-blast-greater-linear)|+17|4d4+6||
 |[Greater Elemental Blast (Radial): Light](../06-abilities.md#elemental-blast-greater-radial)|+17|4d4+6||
 |||||
@@ -1158,8 +1158,8 @@ Deflection: +2
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|[Elemental Touch: Ice](../06-abilities.md#elemental-touch)|+8|2d6+2||
-|[Elemental Touch: Lightning](../06-abilities.md#elemental-blast)|+8|2d4+2||
+|[Elemental Touch: Ice](../06-abilities.md#touch-elemental-touch)|+8|2d6+2||
+|[Elemental Touch: Lightning](../06-abilities.md#blast-elemental-blast)|+8|2d4+2||
 |Illuminated|||A wisp sheds a dim light within 20ft, that is visible from 2 miles away.|
 |||||
 |Spirit Drain|Threshold=21||When a wisp causes HP damage to a target, it regains MP equal to the damage dealt. If it is already at full MP, it gains a temporary boost to its INT equal to half of the damage dealt, for 1 minute.|

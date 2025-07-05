@@ -83,12 +83,12 @@ This represents those who have been touched by dark forces. Perhaps because of a
 **Extra:**
 - Resistance to "poison" + "poisoned" (2 points).
 - Resistance to "Bleeding". (1 point)
-- Elemental touch (level 1) (2 points).
+- Elementalism: Elemental Touch. (level 1) (2 points).
 
 **Race boon: (6 points)**
 - Resistance to one of "piercing", "bludgeoning", "slashing" or "pressure" or "shear", "fire" or "ice".
 - +1 Str, +1 Cha.
-- +1 Elemental touch.
+- +1 Elementalism: Elemental Touch..
 
 ___
 ### Beast folk (level-1 template = 8 points)

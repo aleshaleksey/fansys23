@@ -901,7 +901,7 @@ Foresight: +2
 |-|-|-|-|
 |[Elemental Touch: Cold](../06-abilities.md#touch-elemental-touch)|+9|3d6+1|Reach=5ft|
 |[Elemental Blast: Light](../06-abilities.md#blast-elemental-blast)|+12|3d6+1|maximum extra damage dice = 5d4|
-|[Greater Elemental Blast: Radial](../06-abilities.md#elemental-blast-greater-radial)|+12(Threshold=19)|3d6+1|Maximum radius=50ft, maximum extra damage dice = 5d4|
+|[Greater Elemental Blast: Radial](../06-abilities.md#circle)|+12(Threshold=19)|3d6+1|Maximum radius=50ft, maximum extra damage dice = 5d4|
 |||||
 |Fey Song|Threshold=21||(2 MP die, range=60ft, instantaneous) A nymph's/naiad's voice is a balm for the spirit. If a naiaid expends 2 MP dice as a secondary action when singing, all mortals and spirits must succeed on a CHA save or become charmed for 8 hours. Entities below level 5 automatically fail the save. Entities above level 10 make the save at advantage. The charm is broken if the entity takes damage, receives the kiss of a mortal maiden, or eats a bitter leaf.|
 |Naiad's Touch|Threshold=21||Any mortal that touches or makes a melee attack against a naiad/nymph must succeed on a CHA save or become charmed for 8 hours. The charm is broken if the entity takes damage, receives the kiss of a mortal maiden, or eats a bitter leaf.|
@@ -1095,7 +1095,7 @@ Deflection: +5
 |[Elemental Touch: Light](../06-abilities.md#touch-elemental-touch)|+14|4d4+3||
 |[Elemental Blast: Light](../06-abilities.md#blast-elemental-blast)|+17|4d4+6||
 |[Greater Elemental Blast (Linear): Light](../06-abilities.md#elemental-blast-greater-linear)|+17|4d4+6||
-|[Greater Elemental Blast (Radial): Light](../06-abilities.md#elemental-blast-greater-radial)|+17|4d4+6||
+|[Greater Elemental Blast (Radial): Light](../06-abilities.md#circle)|+17|4d4+6||
 |||||
 |Fey Song|Threshold=22||(2 MP die, range=60ft, instantaneous) A fairy's voice is a balm for the spirit. If a fairy expends 2 MP dice as a secondary action when singing, all mortals and spirits must succeed on a CHA save or become charmed for 8 hours. Entities below level 5 automatically fail the save. Entities above level 10 make the save at advantage. The charm is broken if the entity takes damage, receives the kiss of a mortal maiden, or eats a bitter leaf.|
 |||||

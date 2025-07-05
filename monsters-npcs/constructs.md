@@ -335,7 +335,7 @@ ___
 |-|-|-|-|
 |Strike|+15|2d12+8|bludgeoning|
 |Rock Throw|+15|2d8+8|80ft/240ft, a golem can throw an object (or objects) weighing up to 416lb as projectiles. If the projectile is of a weaker material (or a mortal), than the target, the damage is shared evenly between projectile and target.|
-|[Greater Elemental Blast (Linear): Lighting](../06-abilities.md#elemental-blast-greater-linear)|+9|3d4+1d4/MP dice|(Range=120ft+30ft/MP sice) Mithril golems may use up to 7 MP dice when firing an elemental blast. The width of the beam may be up to 35ft.|
+|[Greater Elemental Blast (Linear): Lighting](../06-abilities.md#line)|+9|3d4+1d4/MP dice|(Range=120ft+30ft/MP sice) Mithril golems may use up to 7 MP dice when firing an elemental blast. The width of the beam may be up to 35ft.|
 |Grapple|+15|||
 |Throw|+15|||
 |Interception|+15|||
@@ -388,7 +388,7 @@ ___
 |-|-|-|-|
 |Strike|+17|2d8+8|bludgeoning|
 |Rock Throw|+17|1d12+8|40ft/120ft, a golem can throw an object (or objects) weighing up to 104lb as projectiles. If the projectile is of a weaker material (or a mortal), than the target, the damage is shared evenly between projectile and target.|
-|[Greater Elemental Blast (Radial): Light](../06-abilities.md#elemental-blast-greater-radial)|+9|3d4+1d4/MP dice|(Range=120ft+30ft/MP sice) Diamond golems may use up to 8 MP dice when firing an elemental blast. The radius of the beam may be up to 80ft.|
+|[Greater Elemental Blast (Radial): Light](../06-abilities.md#circle)|+9|3d4+1d4/MP dice|(Range=120ft+30ft/MP sice) Diamond golems may use up to 8 MP dice when firing an elemental blast. The radius of the beam may be up to 80ft.|
 |Grapple|+15|||
 |Throw|+15|||
 |Interception|+15|||
@@ -623,7 +623,7 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Claws|+20|2d10+9|(Reach=15ft) A robotic horror makes 4 attacks with its claws.|
-|[Greater Elemental Blast (Linear): Fire](../06-abilities.md#elemental-blast-greater-linear)|+12|4d6 fire[natural]|(Range 120ft+30/MP die) The robotic horror can use up to 10 MP dice in its elemental blast.|
+|[Greater Elemental Blast (Linear): Fire](../06-abilities.md#line)|+12|4d6 fire[natural]|(Range 120ft+30/MP die) The robotic horror can use up to 10 MP dice in its elemental blast.|
 |Grapple|+20|||
 |Monster Attack III||||
 |||||

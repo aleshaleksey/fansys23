@@ -476,7 +476,7 @@ Travelling over dangerous terrain, will use brigandine (HiT: 15/15/11)
 |[Bind Familiar II](../06-abilities.md#bind-familiar-i-iv)||||
 |[Deflection](../06-abilities.md#deflection)|||A mage may a reaction and potentially MP dice to reduce damage from "supernatural" ranged attack|
 |[Elemental Blast: Ice](../06-abilities.md#blast-elemental-blast)|+10|2d6+3 Ice[supernatural]|Range=120ft, Max damage=9d6+3|
-|[Elemental Blast, Linear: Ice](../06-abilities.md#elemental-blast-greater-linear)|Threshold=20|3d6+3 Ice[supernatural]|Max damage=9d6+3, Max width=35ft|
+|[Elemental Blast, Linear: Ice](../06-abilities.md#line)|Threshold=20|3d6+3 Ice[supernatural]|Max damage=9d6+3, Max width=35ft|
 |[Arcane Interception](../06-abilities.md#arcane-interception)|||An archmage can use the "interception" manoeuvre to redirect supernatural attacks that require a saving throw at themselves|
 |[Safe cast](../06-abilities.md#safe-cast)|||An arch-mage does not provoke attacks of opportunity when casting spells with kinetic components in melee.|
 |[War mage](../06-abilities.md#war-mage)|||An arch-mage has advantage on concentration saves for maintaining spells|
@@ -1551,7 +1551,7 @@ ___
 |[Cursed Blood](../06-abilities#cursed-blood)||||
 |[Elemental Blast](../06-abilities#blast-elemental-blast)||||
 |[Greater Elemental Blast: Linear](../06-abilities#elemental-blast-greater-linear)||||
-|[Greater Elemental Blast: Radial](../06-abilities#elemental-blast-greater-radial)||||
+|[Greater Elemental Blast: Radial](../06-abilities#circle)||||
 |[Deflection](../06-abilities#deflection)||||
 |[Esoteric Deflection](../06-abilities#esoteric-deflection)||||
 |[Spellcasting: Incantation VI](../06-abilities.m)|Threshold=29|||

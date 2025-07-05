@@ -185,7 +185,7 @@ ___
 ## Pyromancer
 A pyromancer is an offensive caster that makes use especially of elemental fire magic. A similar template can be made for any elemental battle mage.
 
-A pyromancer can be dangerous at range or in melee. This build works well enough with a single elemental spellcasting ability taken to high level, along with [Elemental Blast](06-abilities.md#blast-elemental-blast). A second type of elemental spellcasting (other than fire or water) taken to 3rd level is useful for counter-spelling. As with other spellcasting builds, the other abilities can be exchanged for natural combat or utility abilities for a less conventional build. Medium/heavy armour proficiency can also be taken as a also a valid option for protection.
+A pyromancer can be dangerous at range or in melee. This build works well enough with a single elemental spellcasting ability taken to high level, along with [Elementalism](06-abilities.md#elementalism-elemental-blast). A second type of elemental spellcasting (other than fire or water) taken to 3rd level is useful for counter-spelling. As with other spellcasting builds, the other abilities can be exchanged for natural combat or utility abilities for a less conventional build. Medium/heavy armour proficiency can also be taken as a also a valid option for protection.
 
 The primary stat for this build is WIS. If using armour STR is useful, if not, DEX. Likewise, since this is largely a combat focused build, CON and CHA should not be neglected.
 
@@ -193,14 +193,14 @@ The primary stat for this build is WIS. If using armour STR is useful, if not, D
 |-|-|-|-|-|-|-|-|
 |1 (1) |2  (1)|3  (1)|2|2|[Elemental Blast: Fire](06-abilities.md#blast-elemental-blast), [Elemental Touch: Fire](06-abilities.md#touch-elemental-touch), [Spellcasting Local: Fire I](06-abilities.md#spellcasting-local)|Interception, Light Blades, Light Armour||
 |2 (1) |3  (1)|5  (1)|2|2|[Spellcasting Global I](06-abilities.md#spellcasting-global), [Arcane Interception](06-abilities.md#arcane-interception), STAT +1|||
-|3 (1) |4  (1)|7  (2)|2|3|[Spellcasting Local: Fire II](06-abilities.md#spellcasting-local), [Deflection](06-abilities.md#deflection), [Safe Cast](06-abilities.md#safe-cast)|||
+|3 (1) |4  (1)|7  (2)|2|3|[Spellcasting Local: Fire II](06-abilities.md#spellcasting-local), [Deflection](06-abilities.md#deflection), [Elemental Aura: Fire](06-abilities.md#aura)|||
 |4 (1) |6  (1)|8  (2)|2|3|[Still Spell](06-abilities.md#still-spell), [Spellcasting Local: Air I](06-abilities.md#spellcasting-local), STAT +1|||
 |5 (1) |8  (2)|9  (2)|3|3|[Spellcasting Local: Fire III](06-abilities.md#spellcasting-local), [Heat Sense I](06-abilities.md#heat-sense-i-v), [Energy Affinity: Fire](06-abilities.md#energy-affinity)|||                         
-|6 (2) |9  (2)|11 (2)|4|4|[Resist Damage: Fire](06-abilities.md#resist-damage), [Aphonic Spell](06-abilities.md#aphonic-spell), STAT +1|||
-|7 (2) |10 (2)|13 (3)|4|5|[Spellcasting Local: Fire IV](06-abilities.md#spellcasting-local),  [Spellcasting Local: Air II](06-abilities.md#spellcasting-local), [Greater Elemental Blast Fire: Linear](06-abilities.md#elemental-blast-greater-linear)|||
-|8 (2) |11 (2)|15 (3)|4|5|[Lingering Spell](06-abilities.md#lingering-spell), [Heat Sense II](06-abilities.md#heat-sense-i-v), STAT +1|||
+|6 (2) |8  (2)|12 (2)|4|4|[Resist Damage: Fire](06-abilities.md#resist-damage), [Elemental Line: Fire](06-abilities.md#line), STAT +1|||
+|7 (2) |10 (2)|13 (3)|4|5|[Spellcasting Local: Fire IV](06-abilities.md#spellcasting-local),  [Spellcasting Local: Air II](06-abilities.md#spellcasting-local), [Aphonic Spell](06-abilities.md#aphonic-spell)|||
+|8 (2) |11 (2)|15 (3)|4|5|[Elemental Circle: Fire](06-abilities.md#circle), [Heat Sense II](06-abilities.md#heat-sense-i-v), STAT +1|||
 |9 (2) |12 (2)|17 (3)|4|5|[Spellcasting Local: Fire V](06-abilities.md#spellcasting-local),  [Spellcasting Local: Air III](06-abilities.md#spellcasting-local), [War Mage](06-abilities.md#war-mage)|||
-|10 (3)|13 (3)|19 (4)|6|7|[Greater Elemental Blast Fire: Radial](06-abilities.md#elemental-blast-greater-radial), [Esoteric Deflection](06-abilities.md#esoteric-deflection), STAT +1|||
+|10 (3)|13 (3)|19 (4)|6|7|[Elemental Arc: Fire](06-abilities.md#arc), [Esoteric Deflection](06-abilities.md#esoteric-deflection), STAT +1|||
 |11 (3)|15 (3)|20 (4)|6|7|[Spellcasting Local: Fire VI](06-abilities.md#spellcasting-local), [Extra Save](06-abilities.md#extra-save), STAT +1|||
 |12 (3)|16 (3)|22 (4)|6|7|[Heat Sense III](06-abilities.md#heat-sense-i-v), [Swift Spell](06-abilities.md#swift-spell), STAT +1||
 ___

@@ -699,9 +699,9 @@ ___
 |Claw|+5/+6|1d6+3 (Shear)|The raptor can either attack with its claw or bite, unless it has multi/monster attack|
 |Bite|+5/+6|1d8+3 (Shear)|The raptor can either attack with its claw or bite, unless it has multi/monster attack|
 |[Skirmisher](../../06-abilities.md#skirmisher)||||
-|Sprinter|||Run x3, Sprint x3|
+|Sprinter|||Run x5, Sprint x3|
 |Tracker: Swift (lvl4)||||
-|Flurry (lvl4)|||A rapter can make multiple claw attacks|
+|Flurry (lvl4)|||A raptor can make multiple claw attacks|
 |Keen Sense|||"Sight"|
 |Prof|||"Grapple","Throw"|
 |Skills (lvl2)|"Track" +2, "Climb" +4, "Athletics" +5|||

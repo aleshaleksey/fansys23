@@ -73,6 +73,21 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Cursed Blood](#cursed-blood)
 - [Deflection](#deflection)
 - [Divine Strike](#divine-strike)
+- [Elementalism (Elemental Blast)](#elementalism-elemental-blast)
+  - [Basics](#basics)
+  - [Elements](#elements)
+  - [Forms](#forms)
+    - [Touch](#touch)
+    - [Touch, Enhanced](#touch-enhanced)
+    - [Sweep](#sweep)
+    - [Aura](#aura)
+    - [Blast](#blast)
+    - [Cone](#cone)
+    - [Line](#line)
+    - [Circle](#circle)
+    - [Chain](#chain)
+    - [Arc](#arc)
+  - [Effects](#effects)
 - [Elemental Blast](#elemental-blast)
 - [Elemental Blast, Greater (Linear)](#elemental-blast-greater-linear)
 - [Elemental Blast, Greateer (Radial)](#elemental-blast-greater-radial)
@@ -578,60 +593,6 @@ ___
 **Special**: Must be taken separately for each element.
 
 ___
-#### Elemental Blast
-
-**Type**: (Class B)
-
-**Description**: Basic elemental attack. Pick an element (fire, ice, lightning or light). Project a bolt or energy or a cone of that element.
-
-**Offence:**
-- Exertion: Yes, if used offensively.
-- Range: 10ft/120ft (cone/blast).
-- Duration: Instantaneous.
-- Action: "main action".
-- Target: Single target.
-- Attack: [SAP + [WIS]]
-- Damage: 
-  - [[Base]d6 + [WIS]] (fire or ice).
-  - [[Base]d4 + [WIS]] for lightning or light.
-- Dice: MP (base dice cost = 0).
-- Per dice: 1 extra damage dice / MP dice + 10ft/30ft of range (cone/blast).
-
-**Prerequisites**: 3 MP dice total.
-
-**Limitations**: The elemental blast originates from the user and travels more or less in a straight line, unaffected by wind or gravity. The blast is affected by cover and concealment. If the blast impacts cover, it may damage, ignite, or have other affects on it (see below).
-
-**Other**: (Also a "main action")
-- Elemental blast "fire" or "lightning" will ignite flammable materials.
-- Elemental blast "fire" or "lighting" shed light (visibility: 1 mile, illumination: dim, 10ft).
-- Elemental blast "light" sheds light (visibility 5 miles, illumination: bright/dim 10ft, 20ft).
-- Elemental blast "ice" will freeze 1 gallon of water, + 1 gallon / MP dice.
-
-**Special**: Elemental blast must be taken separately for each element.
-
-___
-#### Elemental Blast, Greater (Linear)
-
-**Type**: (Class B)
-
-**Description**: Improve elemental blast. The blast affects all items and entities in its path. The blast's path has a path (between user and target) with a width of [MP dice spend] x 5ft. These dice are separate from the dice used to increase the damage caused by the blast. All entities caught in the blast must make a Dex (Fire, Lightning) or Con (Ice, Light) save or suffer the usual elemental blast damage and effects.
-
-**Limitation**: This extra effect applies to items and entities other than the final target.
-
-**Prerequisites**: 13 MP dice + "Elemental Blast".
-
-___
-#### Elemental Blast, Greater (Radial)
-
-**Type**: (Class B)
-
-**Description**: Improve elemental blast. The blast blossoms upon reaching its target. Damaging all entities within a radius of [MP dice spent] x 10ft. These dice are separate from the dice used to increase the damage caused by the blast. All entities caught in the blast must make a Dex (Fire, Lightning) or Con (Ice, Light) save or suffer the usual elemental blast damage and effects.
-
-**Limitation**: This extra effect applies to items and entities including the final target. These means that the final target can take the damage twice.
-
-**Prerequisites**: 19 MP dice + "Elemental Blast".
-
-___
 #### Elemental Strike
 
 **Type**: B Class
@@ -655,38 +616,6 @@ ___
 - Proficiency with at least one weapon group.
 - "[Elemental Blast](#elemental-blast)", "[Elemental Touch](#elemental-touch)", or [Elemental Spellcasting](#spellcasting-local) of the same element.
 - 5 SP dice total and 6 MP dice total.
-
-___
-#### Elemental Touch
-
-**Type**: (Class C)
-
-**Description**: Pick an element (fire, ice, lightning or light). Imbue your touch with this element. This can be used either as an attack or for utility purposes.
-
-**Offence:**
-- Exertion: Yes, if used offensively.
-- Range: Your reach (usually 5ft).
-- Duration: Instantaneous.
-- Action: "main action".
-- Target: Single target.
-- Attack: [SAP + [WIS]]
-- Damage: 
-  - [[Base]d6 + [WIS]] (fire or ice).
-  - [[Base]d4 + [WIS]] for lightning or light.
-- Dice: MP (base dice cost = 0).
-- Per dice: 2 extra damage dice / MP dice.
-
-**Other**: (Also a "main action")
-- Elemental touch fire will heat objects up to 10lb + 10lb / MP dice.
-- Elemental touch "fire" or "lightning" will ignite flammable materials.
-- Elemental touch "fire" or "lighting" shed light (visibility: 1 mile, illumination: dim, 10ft).
-- Elemental touch "light" sheds light (visibility 5 miles, illumination: bright/dim 10ft, 20ft).
-- Elemental touch "ice" will freeze 1 gallon of water, + 1 gallon / MP dice.
-
-**Prerequisites**: 3 MP dice total.
-
-**Special**:
-- Elemental touch must be taken separately for each element.
 
 ___
 #### Esoteric Deflection
@@ -1039,6 +968,169 @@ ___
 **Special**:
 - Must be taken separately for each time of spellcasting.
 - Can be combined with "still spell", "lingering spell", and "aphonic spell".
+
+___
+### Elementalism (Elemental Blast)
+
+Elementalism is the supernatural ability to project the elements violently from one's being, be it fire, ice, or something else. It differs from spellcasting in that it is the barely controlled projection of raw energies, which is generally destructive.
+
+When a character first gains the "elementalism" ability for an element, they choose one of the following 'elements':
+- Air
+- Earth
+- Fire
+- Ice
+- Light (aspects of air and fire)
+- Lightning (aspect of air, water and fire)
+
+A character then picks one of the following two forms:
+- Touch
+- Blast (+ Cone)
+
+Subsequently, when a character gains the "elementalism" ability again, they may may either pick additional "[forms](#forms)" and "[effects](#effects)" for an elementalism they already possess, or begin again with a new [element](#elements). The "elementalism" ability can be taken any number of times, as long as prerequisites are met.
+
+Thus an aspiring elementalist may expend one level point to gain "Elementalism: Air, Blast" and then at a higher level spend another level point to gain the "Prone" effect for it. Then, later still, the same character may spend another level point to take the "Elementalism: Air, Circle". At this point, this elementalist would be able to shoot air blasts targetting a single target, cones of air targetting a small area, or blasts of air that scour wide areas. Lastly this elementalist would be able to modify any of these elemental air blasts to knock affected targets prone.
+
+___
+#### Basics
+
+**Type**: (Class C-S, supernatural)
+
+**Offence:**
+- Exertion: Yes, if used offensively.
+- Range: Special (see).
+- Duration: Instantaneous.
+- Action: "main action".
+- Target: Varies (see below).
+- Attack: [SAP + [WIS]]
+- Damage:
+  - [[Base]d8 + [WIS]] natural percussive/shear (earth).
+  - [[Base]d8 + [WIS]] natural pressure (air).
+  - [[Base]d6 + [WIS]] (fire or ice).
+  - [[Base]d4 + [WIS]] for lightning or light.
+- Dice: MP (base dice cost = 0).
+- Per dice: 1 extra damage die / MP die.
+
+**Special**:
+- Elementalism requires at least one prehensile appendage to function properly. When a character is "crippled" on all arms, "restrained", "immobilised", *wielding* items in both arms, or otherwise does not have prehensile appendages available, the attack for elementalism are at disadvantage. Likewise, in this situation the saving throw against it (if any) is at advantage.
+- On the other hand, if the form is "touch", "sweep" or "aura" and the target is in direct contact with the elementalist (eg grappling or being grappling), the attack is at advantage. Likewise any saving throw against the elementalism is at disadvantage.
+- In areas aligned with the given element, the elementalism gains an additional damage die.
+- In areas aligned with an opposite element, the elementalism loses a damage die.
+- If the elemental form does not require an attack roll, but instead triggers a save there is no damage on a successful save. However, if more than 4 MP dice are expended in total, then, on a successful save, the elementalism still causes half damage.
+
+**Limitations**: Elementalism originates from the user and travels more or less in a straight line, unaffected by wind or gravity. The blast is affected by cover and concealment. If the blast impacts cover, it may damage, ignite, or have other affects on it (see below).
+
+
+___
+#### Elements:
+An elementalism can only have one form, which is selected before any rolls are made.
+|Element|Damage dice|Damage Type|Save Type|Extra Properties|
+|-|-|-|-|-|
+|Air|D8|percussive/shear [natural]|STR|Causes damage to structures and objects affected|
+|Earth|D8|pressure [natural]|STR|See below|
+|Fire|D6|fire [supernatural]|CON|See below|
+|Ice|D6|cold [supernatural]|CON|*Will** freeze 1 gallon of water, + 1 gallon / MP dice.|
+|Light|D4|light [supernatural]|CHA|Sheds light (visibility 5 miles, illumination: bright/dim 10ft, 20ft)|
+|Lightning|D4|lightning [supernatural]|CON|See below|
+- Elementalism "earth" will:
+  - Cause damage to structures and objects affected.
+  - Transform terrain into difficult terrain where touched
+- Elementalism "fire" will:
+  - Heat objects up to 10lb + 10lb / MP dice.
+  - Shed light (visibility: 1 mile, illumination: dim, 10ft).
+  - Ignite flammable materials.
+- Elementalism "lightning" will:
+  - Shed light (visibility: 1 mile, illumination: dim, 10ft).
+  - Ignite flammable materials.
+
+___
+#### Forms
+An elementalism can only have one form, which must be selected before any rolls are made.
+|Form           |Prerequisite           |MP dice cost       |Range|Roll  |Summary|
+|-|-|-|-|-|-|
+|Touch          |3 MP dice              |-                  |close|Attack|close range, single target|
+|Sweep          |Form: Touch, 5 MP dice |+1 per target      |close|Attack|close range, multiple adjacent targets|
+|Aura           |From: Touch, 7 MP dice |+1 per 5ft         |self |Save  |close range, are of effect|
+|Touch, Enhanced|Form: Touch, 7 MP dice |-                  |close|Attack|close range, single target, extra damage die per MP die|
+|||||||
+|Blast          |3 MP dice              |-                  |120ft|Attack|long range, single target|
+|Cone           |Form: Touch or Blast   |+1 per 5ft (length)|10ft |Save  |short range, area of effect|
+|Line           |Form: Blast, 12 MP dice|+1 per 5ft (width) |120ft|Save  |long range, linear, area of effect|
+|Circle         |From: Line: 15 MP dice |+1 per 10ft (rad)  |120ft|Save  |long range, radial, area of effect|
+|Chain          |Form: Line, 17 MP dice |+2 per turn        |120ft|Save  |long range, linear with turns, area of effect|
+|Arc            |From: Line, 19 MP dice |+2 per 30 degrees  |120ft|Save  |long range, linear, area of effect, sweeping|
+
+When speaking of a "form" prerequisite, this means that the character must already have elementalism of the same element with the given form.
+
+___
+#### Touch
+Imbue your touch with this element. This can be used either as an attack or for utility purposes.
+
+**Action**: If attacking, make a single melee attack against the target's HiT. On a hit, damage is dealt, and additional effects can be caused.
+
+___
+#### Touch, Enhanced
+This is an intensification of the usual "touch". For every MP die expended, instead of dealing an extra die of damage, the touch deals an extra 2 die on a hit.
+
+**Special**: The enhancement of "touch" also affects "sweep", "aura" and "cone", although only if the "cone" or "aura" is no more than 20ft in radius.
+
+___
+#### Sweep
+Modify "touch", sweeping an arc out around you with elemental touch. For every additional square affected, expend an extra MP die. Regardless of the number of squares affected, a single attack roll vs the target HiT is rolled.
+
+___
+#### Aura
+Spread the element in a direct radius around the wielder. The bloom damages all entities, objects and structures within a radius of [MP dice spent] x 10ft. These dice are separate from the dice used to increase the damage caused by the blast. All entities caught in the blast must succeed a save (governed by element) or suffer the usual elemental blast damage and effects.
+
+___
+#### Blast
+Project elemental energy at a single target up to 120ft away.
+
+**Action**: Make a single ranged attack against the target's HiT. On a hit, damage is dealt, and additional effects can be caused.
+
+**Special**:
+- For every MP die expended, the range of the blast is increased by 30ft.
+- All characters that can use the Blast Form, can also use the "Cone" form.
+
+___
+#### Cone
+Project elemental energy in a 60 degree cone, emanating from the wielder. The radius of the cone is 10ft + [10ft x MP dice spent]. These dice are separate from the dice used to increase the damage caused by the blast. All entities caught in the blast must succeed a save (governed by element) or suffer the usual elemental blast damage and effects. The blast blooms around corners to cover the whole area of effect, although entities and objects in cover still gain a bonus to the save.
+
+Cone is the simplest area of effect form. All characters that can use "blast" can also use the cone form, as "cone" is simply an unshaped, raw projection of energy is formed from the blast.
+
+___
+#### Line
+
+Projects elemental energy in a straight line, from the wielder, to the target, with a width of 5ft (MP dice cost of 1), affecting all entities and items in its path. The width can be increased by 5ft per MP die. These dice are separate from the dice used to increase the damage caused by the blast. All entities caught in the line must succeed the save (governed by element) or suffer the damage. Unlike a cone or circle, the arc does not bloom or circumvent cover.
+
+**Special**: For every MP die spent, the length of the line increases by 30ft.
+
+___
+#### Circle
+The elemental blast flies from the wielder to the target square. It then blooms, damaging all entities, objects and structures within a radius of [MP dice spent] x 10ft. These dice are separate from the dice used to increase the damage caused by the blast. All entities caught in the blast must succeed a save (governed by element) or suffer the usual elemental blast damage and effects. The blast blooms around corners to cover the whole area of effect, although entities and objects in cover still gain a bonus to the save.
+
+____
+#### Chain
+This is an enhancement of the "line" form. For every 2 extra MP dice (separate from all other dice), the wielder may introduce a bend of no more than 90 degrees into the line.
+
+____
+#### Arc
+This is an enhancement of the "line" form. For every 2 extra MP dice (separate from all other dice), the line may sweep out an arc of up to 30 degree along a plane chosen by the wielder. Unlike a cone or circle, the arc does not bloom or circumvent cover.
+
+____
+#### Effects
+An elementalism for each element can be enhanced with the following effects/conditions. The effect is declared before any rolls are made.
+|Effect       |Element Prerequisite |Other Prerequisites|MP die cost|
+|-|-|-|-|
+|Prone        |Earth or Air         |-                  |1|
+|Shove (10ft) |Earth or Air         |-                  |1|
+|Deafened     |Air or Lightning     |-                  |1|
+|Aphonic      |Air or Lightning     |-                  |1|
+|Restrained   |Ice                  |Base = 2           |2|
+|Incapacitated|Fire or Lightning    |Base = 2           |2|
+|Glowing      |Light                |-                  |1|
+|Catatonic    |Light                |Base = 2           |2|
+
+ The "shove" and "prone" effect are immediate and do not require repeated save. The remaining effects persist for up 1 minute, and allow a save at the end of each of the target's turns.
 
 ___
 ### Spellcasting

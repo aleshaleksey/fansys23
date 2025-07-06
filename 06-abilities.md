@@ -130,9 +130,11 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Parry](#parry)
 - [Point blank shot (I-III)](#point-blank-shot-i-iii)
 - [Precise shot (I-III)](#precise-shot-i-iii)
+- [Rapid Shot](#rapid-shot)
 - [Shield master](#shield-master)
 - [Skirmisher](#skirmisher)
 - [Sniper](#sniper)
+- [Swift shield bash](#swift-shield-bash)
 - [Swift strike](#swift-strike)
 - [Trick shot (I-II)](#trick-shot-i-ii)
 - [Unarmed Strike (I-IX)](#unarmed-strike-i-ix)
@@ -1460,6 +1462,30 @@ ___
 |7|Precise shot I|Ranged attacks ignore light cover|
 |14|Precise shot II|Ranged attacks ignore heavy cover and light concealment|
 |21|Precise shot III|Ranged attacks ignore heavy concealment|
+
+___
+#### Rapid Shot
+
+**Type**: (Natural, Class B)
+
+**Description**: Use a combination of main and secondary action to shoot an extra projectile, at the expense of accuracy.
+
+**Action**: Declare "rapid shot" and expend "main action" and "secondary action" and make the usual number of ranged weapon attacks plus one, all with the appropriate penalty to the attack roll. (See table below)
+
+|Multi-attack level|New number of attacks|Penalty (longbow, greatbow)|Penalty (other weapons)|
+|-|-|-|-|
+|-|2|-4|-3|
+|I|3|-4|-3|
+|II|4|-3|-2|
+|III|5|-2|-1|
+
+**Prerequisites**:
+- Proficiencies with at least one of: Bows, slings, war darts (spears) or shurikens (light blades).
+- 6 SP dice.
+
+**Limitation**: Applicable only to bows, slings, war darts and shurikens.
+
+
 
 ___
 #### Shield Master

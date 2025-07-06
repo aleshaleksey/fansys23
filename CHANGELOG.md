@@ -401,6 +401,7 @@ ____
 
 ### Abilities
 - Unite Elemental Blast and Touch into the "[Elementalism](06-abilities.md#elementalism-elemental-blast)" group, which gives a more complete ability.
+- Add "[Rapid shot](06-abilities.md#rapid-shot)" ability.
 
 ### Weapons and Armour
 - Greatbow increased to 1d12. This isn't going to backfire at all.

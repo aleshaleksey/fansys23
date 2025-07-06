@@ -491,7 +491,7 @@ Size = Medium
 |Keen scent|||Advantage on perception rolls based on scent|
 |Low light Vision|||Can see in the "dark", but not pitch black conditions|
 |[Combined Manoeuvre](../06-abilities.md#combined-manoeuvre-i-v)|||A boar will usually shove when goring (1SP)|
-|[Greater Manoeuvre](../06-abilities.md#greater-manoeuvre-i-v)|||Boars will fiercely tackle very large prey|
+|[Greater Manoeuvre](../06-abilities.md#greater-manoeuvre-i-v)|||Boars will fight fiercely against most foes|
 |Skills|||"Athletics" +4, "Harvest" +6, "Observe" +1|
 |Loot|||A boar can provide a sturdy pelt and more than 100lb of meat.|
 

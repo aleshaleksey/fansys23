@@ -31,15 +31,18 @@ This system deals heavily with combat and many of the mechanics are tuned to wor
 6. [Space in combat](#space-in-combat)
     - [Squares and Hexes](#squares-and-hexes)
     - [Range and reach](#range-and-reach)
+    - [Threatened area](#threatened-area)
     - [Creature sizes, reach and combat](#creature-sizes-reach-and-combat)
     - [Squeezing](#squeezing)
     - [Flanking](#flanking)
-    - [Threatened area and Attacks of Opportunity (AoO)](#threatened-area-and-attacks-of-opportunity-aoo)
-      - [Provoking and Avoiding attacks of opportunity](#provoking-and-avoiding-attacks-of-opportunity)
-    - [Reactions and attacks of opportunity](#reactions-and-attacks-of-opportunity)
-    - [Attacks of Opportunity Table](#attacks-of-opportunity-table)
     - [Cover and Concealment](#cover-and-concealment)
+    - [Reactions and Causality](#reactions-and-causality)
+    - [Attacks of Opportunity](#attacks-of-opportunity)
+      - [Provoking attacks of opportunity](#provoking-attacks-of-opportunity)
+      - [Avoiding attacks of opportunity](#avoiding-attacks-of-opportunity)
+      - [Causality and attacks of opportunity](#causality-and-attacks-of-opportunity)
       - [Concealment and attacks of opportunity](#concealment-and-attacks-of-opportunity)
+      - [Attacks of Opportunity Table](#attacks-of-opportunity-table)
 7. [Mounts and Mounted Combat](#mounts-and-mounted-combat)
 8. [Basic combat manoeuvres and tactical movement.](#basic-combat-manoeuvres-and-tactical-movement)
     - [Basic Martial Manoeuvres](#basic-martial-manoeuvres)
@@ -348,6 +351,11 @@ The normal reach for medium sized creatures is 5ft (aka into the adjacent square
 Ranged weapons fired while you are in melee are made at disadvantage (See "[Ranged Weapons, collateral and melee](11-weapons-armour.md#ranged-weapons-collateral-and-melee)").
 
 ___
+### Threatened area
+
+Any square within the reach of a hostile entity's melee attacks is considered threatened (this usually includes squares that the hostile entity occupies). This includes squares in reach of a "[reach](11-weapons-armour.md#weapon-properties)" weapon, but not squares which can be put in reach of a "long" weapon by expending a secondary action.
+
+___
 ### Creature sizes, reach and combat
 
 Size is, amongst other things, a measure of how much space an entity occupies. This affects various combat parameters and can be seen in the "[Size rules](02-base-rules.md#size-rules)". Tiny and diminutive entities that have a reach of 0ft must occupy the same square as their target to make the attack.
@@ -370,31 +378,71 @@ To simplify, a target entity is flanked if it has combatants that are hostile to
 2. A pair of intersection line can be drawn from opposite sides of squares occupied by one hostile entity to another that both lines of the pair intersect the squares occupied by the target entity.
 
 ___
-### Threatened area and Attacks of Opportunity (AoO)
+### Cover and Concealment
 
-An attack of opportunity is when a combatant exploits an opening left by another, and carries out a "basic martial manoeuvre" against its target.
+Cover and concealment come in three flavours "light" (1/2), "heavy" (3/4) and "full",
 
-Any square within the reach of a hostile entity's melee attacks is considered threatened (this usually includes squares that the hostile entity occupies). 
+**Cover** is when something blocks line of effect between attacker and target. Light cover (as a rule covers no more than half of the entity's body area) provides a -2 penalty to targeted attacks vs a target. Heavy cover (as a rule covers 1/2 to 3/4 of a target's area) provides a -5 penalty to targeted attacks and advantage to Dex saves. A target in full cover cannot be targeted with a targeted attack. Examples of things that can provide cover and concealment includes terrain features, buildings, items, and creatures.
 
-#### Provoking and Avoiding attacks of opportunity
+**Concealment** is when something blocks line of sight between two entities. It can also be something that blocks a different sense, if that is the main sense used by the entity. An entity can attempt to hide ("stealth" skill) if it has heavy concealment or full concealment. In addition light concealment provides a 1/6 miss chance (use a d6). Heavy concealment provides a 2/6 miss chance. Full concealment provides 5/6 miss chance. The miss chance is rolled before or after the attack roll, but obviously before damage.
 
-Targets moving out of a threatened square provoke an attack of opportunity. This may be a single attack or another basic combat manoeuvre.
+___
+### Reactions and Causality
 
+The golden rule for reactions, is that "causality must be preserved".
+
+Unless otherwise stated, a "reaction" must be declared before the provoking action has resolved (narratively a reaction is initiated when the provoking action is still ongoing and has only just started). Thus a combatant does not declare their intent to parry after seeing the enemy's blade pierce their gut. Likewise, one cannot declare "counter-spell" after learning that the target has failed its save. Reactions which are triggered by specific events such as "taking damage" obviously cannot be declared until the provoking event has happened (in this case the damage has been taken).
+
+Likewise, the provoking action resolves before any reactions to it, although there are a few of exceptions to this rule. Firstly, attacks of opportunity can resolve before, or after, the triggering action is completed (See "[Causality and attacks of opportunity](#causality-and-attacks-of-opportunity)"). Secondly, the "[Swift Strike](06-abilities.md#swift-strike)" guarantees that attacks of opportunity always resolve before the action that triggers them. Lastly, when "[counter-spelling](07-magic-and-spellcasting.md#banishing-breaking-counter-spelling-and-dispelling)" the spell is countered after the casting has begun and the MP dice cost has been paid, but before it has a chance to manifest and have an effect.
+
+Lastly, we come back to the golden rule for reactions: "causality must be preserved". Thus if two actions take a similar amount of time to complete, the action that is started first, resolves first. Thus, a reaction, which starts *after* the action that triggers it (by definition!), also tends to be completed second.
+
+That said, some actions are faster than others and will resolve faster. For example if the provoking action is a "full round action", "sprint", or takes the whole of a turn or more to complete, the reaction will resolve first (if the reaction is to *begin* an activity that takes at least as long as the provoking action, then the activity begins immediately, but resolves after the action that provokes it).
+
+In some cases (usually with attacks of opportunity) reactions resolving after the triggering action would break causality. For example an AoO that is triggered by a target moving out of a threatened square resolves before the first 5ft of movement is complete. This is explained by melee attacks generally being very fast, but usually needing an opening, which requires a little bit of manoeuvring to set up, which is what takes most of the time. However, when the target turns to move, it provides that opening, allowing for an immediate attack to be made.
+
+___
+### Attacks of Opportunity
+
+An attack of opportunity is when a combatant exploits an opening left by another, and carries out a "basic martial manoeuvre" against its target. An attack of opportunity uses a character's reaction to make a single melee weapon attack or other basic combat manoeuvre, but not ranged weapon attack, spell, or other ability.
+
+#### Provoking attacks of opportunity
+
+Targets moving out of a threatened square, or undertaking certain other actions that may leave an opening, such as standing up, or drinking a potion, provoke an attack of opportunity. This is detailed in the table below (see "[Attacks of Opportunity Table](#attacks-of-opportunity-table)")
+
+___
+#### Avoiding attacks of opportunity
 A target moving out of one threatened square into another threatened square may avoid AoOs by declaring "careful movement" and halving their movement speed for the rest of the turn. Likewise a combatant may make a roll ["acrobatic"](05-skills.md#acrobatics) to try and avoid attacks of opportunity when moving through a contiguous set of threatened squares (threshold = [attack bonus of hostile] + 13), on a failure by 5 or more, the one making the acrobatics roll falls prone.
 
 A character can avoid attacks of opportunity when moving out of a threatened square (into a square that is not threatened) by using their "main action" to withdraw. As in the previous case, an "acrobatics" roll can be used to ameliorate the situation. In this case a successful roll vs [attack bonus of hostile] + 13 allows one to withdraw as a bonus action, as usual, on a failure by 5 or more, the one making the acrobatics roll falls prone.
 
 As a rule, characters only provoke attacks of opportunity when moving through/out of threatened squares if they move under their own power. For example if a character is "shoved" out of a threatened space of an enemy, it does not provoke an attack of opportunity.
 
+A character with the "[Guarded](06-abilities.md#guarded)" ability does not provoke attacks of opportunity when drinking potions or standing up.
+
 ___
-### Reactions and attacks of opportunity
+#### Causality and attacks of opportunity.
 
-Unless otherwise stated, a "reaction" must be declared before the provoking action has resolved (narratively a reaction is initiated when the provoking action is still ongoing and has only just started). Thus a combatant does not declare their intent to parry after seeing the enemy's blade pierce their gut. Likewise, one cannot declare "counter-spell" after learning that the target has failed its save. Reactions which are triggered by specific events such as "taking damage" obviously cannot be declared until the provoking event has happened (in this case the damage has been taken).
+The attack of opportunity is made after the provoking action. It begins before the provoking action is resolved, but, as a rule, resolves after the provoking action. There are exceptions to this rule:
+- If the target is moving out of a threatened square, the attack is resolved before the movement is completed (think of it as being hit by an attack that is in progress).
+- If the character completing the attack of opportunity has the "[Swift Strike](06-abilities.md#swift-strike)" (their attacks are so fast that the target has no time to finish its own action).
 
-Likewise, the provoking action resolves before any reactions to it, although there can be exceptions to this rule. Exceptions include attacks of opportunity with "Counterstrike II", or "counter-spelling". Likewise, common sense applies, so for example a target that provokes an AoO when moving out of reach (moving out of threatened square) and gets grappled does not leave the attacker's reach. Likewise, if the provoking action is a "full round action", "sprint", or takes the whole of a turn or more to complete, the reaction will resolve first (if the reaction is to *begin* an activity that takes at least as long as the provoking action, then the activity begins immediately, but resolves after the action that provokes it).
+So for example, when attacking a target that is standing up, the attack is made as if the target is still prone (so usually at advantage), but the damage is applied after the target has stood up. Usually this is of no consequence.
 
-Either way, the golden rule with resolving reactions is that they must not break causality.
+If the provoking action is drinking a potion, the effect of the potion, if immediate, kicks in before the damage dealt by the attack.
 
+If the provoking action is an attack with a weapon the the provoking character is not proficient with, any damage caused by the provoking character is applied first. If this means that the provoking character was attacking a comrade of the character making the AoO, the comrade would take damage from the provoking attack and only then does the provoking character take damage from the AoO. This is reversed by "swift strike".
+
+If a character is running away, provokes an attack of opportunity when leaving its threatened area, and is grappled (or otherwise attacked) by the ogre, the grapple (or other attack) starts, and is resolved before the provoking character has left its original square.
+
+As always with reactions, "causality must be preserved".
+
+___
+#### Concealment and attacks of opportunity
+
+Attacks of opportunity require careful observation of the target. One cannot make an attack of opportunity against a target which is "invisible" to you or otherwise has three quarters concealment or full concealment.
+
+___
 #### Attacks of Opportunity Table
 |Action|Provokes AoO|
 |-|-|
@@ -412,19 +460,6 @@ Either way, the golden rule with resolving reactions is that they must not break
 |Drink Potion|Yes|
 |Use item|No, usually|
 |Drop item|No|
-
-___
-### Cover and Concealment
-
-Cover and concealment come in three flavours "light" (1/2), "heavy" (3/4) and "full",
-
-**Cover** is when something blocks line of effect between attacker and target. Light cover (as a rule covers no more than half of the entity's body area) provides a -2 penalty to targeted attacks vs a target. Heavy cover (as a rule covers 1/2 to 3/4 of a target's area) provides a -5 penalty to targeted attacks and advantage to Dex saves. A target in full cover cannot be targeted with a targeted attack. Examples of things that can provide cover and concealment includes terrain features, buildings, items, and creatures.
-
-**Concealment** is when something blocks line of sight between two entities. It can also be something that blocks a different sense, if that is the main sense used by the entity. An entity can attempt to hide ("stealth" skill) if it has heavy concealment or full concealment. In addition light concealment provides a 1/6 miss chance (use a d6). Heavy concealment provides a 2/6 miss chance. Full concealment provides 5/6 miss chance. The miss chance is rolled before or after the attack roll, but obviously before damage.
-
-#### Concealment and attacks of opportunity
-
-Attacks of opportunity require careful observation of the target. One cannot make an attack of opportunity against a target which is "invisible" to you or otherwise has full concealment.
 
 ___
 ## Mounts and Mounted Combat

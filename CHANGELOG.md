@@ -399,6 +399,9 @@ ____
 ### General
 - Fill in some placeholders for [camping](03-movement-exploration.md#camping).
 
+### Combat
+- Attacks of opportunity reworded and better explained. Attacks of opportunity can now only be made with up to half concealment (1/6), any more and it fails.
+
 ### Abilities
 - Unite Elemental Blast and Touch into the "[Elementalism](06-abilities.md#elementalism-elemental-blast)" group, which gives a more complete ability.
 - Add "[Rapid shot](06-abilities.md#rapid-shot)" ability.

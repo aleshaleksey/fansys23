@@ -314,7 +314,7 @@ The skill is used for building structures, fortifying positions (dungeon corrido
   - For every size category above medium the total time taken is halved.
   - Multiple entities can participate in the process, in which case the time taken is divided by the number of entities taking part. For each size category above medium, an entity counts as twice as many entities of the next category down. So a large entity counts as 2 medium entities, but a huge entity counts as 4 medium entities.
   - An entity can do a "rush job" and take half the time: -5 penalty.
-- **Special**: A character with terrain mastery has a +4 to "fortify" in that terrain.
+- **Special**: A character with terrain mastery has a +2 to "fortify" in that terrain.
   - A pick is necessary to use "fortify" rolls that involve digging through rocky terrain.
   - "fortify" rolls that involve digging through soft ground are made at disadvantage without a shovel or similar implement.
   - A tent gives +2 to "fortify" when ameliorating a camp, a yurt obviates the need for such a roll. This does not apply in swamps, dense forests or on steep slopes. 
@@ -486,7 +486,7 @@ Stealth is the art and technique of hiding your presence and remaining, and movi
   - The "[fleet](06-abilities.md#fleet)" allows an entity to hide in light concealment.
   - Anything that grants you the "invisible" status or observers the "blind" status allows the 'observed' entity to stealth.
   - The use of "[deceive](#deceive)" to distract allows one to use stealth in plain sight or "light cover" at disadvantage.
-  - A character with terrain mastery has a +4 to "stealth" in that terrain.
+  - A character with terrain mastery has a +2 to "stealth" in that terrain.
 - **Take care**: No. This is essentially random.
 - **Try again**: Yes. Although it maybe too late by then.
 
@@ -541,7 +541,7 @@ Harvest is the umbrella skill covering the harvesting of natural resources from 
   - If the resource cannot be found in the terrain, then the time is spent and the harvest fails.
   - The duration of the "harvesting" and the magnitude of success determine the yield of the harvest. Failure with snake eyes results in the damage to the tools used (or HP loss or injury if the tool was the character's body or spirit).
   - Exceeding the threshold by 5 allows to double the yield or half the time. Exceeding by 10 or more, allows both.
-- **Special**: A character with terrain mastery has a +4 to "harvest" in that terrain.
+- **Special**: A character with terrain mastery has a +2 to "harvest" in that terrain.
   - "harvest" rolls that involve digging through soft ground are made at disadvantage without a shovel or similar implement.
 - **Take care**: Yes.
 - **Try again**: Yes.
@@ -603,7 +603,7 @@ This is a wide range of skills and methods that are used to reveal hidden detail
   - When evidence gets to a certain age, any further deterioration can make it impossible to date. Therefore the DM should use common sense (eg "This blood is exactly 129381 years, 4 days and 3 minutes old!" is silly).
 - **Detect Tampering**: Determine that something has been tampered with or if there is something that is missing.
   - Threshold = Threshold of roll used to tamper.
-- **Special**: A character with terrain mastery has a +4 to "prospect" in that terrain.
+- **Special**: A character with terrain mastery has a +2 to "prospect" in that terrain.
   - A pick is necessary to use "prospect" rolls that involve digging through rocky terrain.
   - "prospect" rolls that involve digging through soft ground are made at disadvantage without a shovel or similar implement.
 - **Take care**: Yes.
@@ -666,7 +666,7 @@ Navigation allows a character to orientate themselves in space, find the best ro
   - **Action**: 1 hour / day of route. 2 hours / day if logistics are included.
   - **Threshold**: [Terrain threshold] + [1 / 5 entities in the group] + [1 per vehicle in the group].
 - **Forecast**: Predict weather up to 24h ahead. The threshold = [terrain with weather modifier].
-- **Special**: A character with terrain mastery has a +4 to "navigate" in that terrain.
+- **Special**: A character with terrain mastery has a +2 to "navigate" in that terrain.
 - **Take care**: Yes.
 - **Try again**: Yes. If the situation changes, or extra data is gathered. Otherwise the result is the same.
 
@@ -780,7 +780,7 @@ Tracking is used to follow entities based on disturbances they leave in their en
   - "[Tracker: Fast Search](06-abilities.md#tracker-fast-search)" makes finding tracks a "main action" and following it a non-action.
   - "[Tracker: Persistent](06-abilities.md#tracker-persistent)" allows to make the track check once per 4h or 4 miles.
   - "[Tracker: Swift](06-abilities.md#tracker-swift)" removes the penalty for moving at full speed when tracking.
-  - A character with terrain mastery has a +4 to "track" in that terrain.
+  - A character with terrain mastery has a +2 to "track" in that terrain.
 - **Take care**: Yes.
 - **Try again**: Yes. (Although you probably won't catch it if you take 20)
 
@@ -815,7 +815,7 @@ Train a non-sapient entity or order/direct it to act. Training usually takes day
     - -4 to threshold if you trained it.
     - +8 if it is not trained for this command.
     - +12 if it is an untamed entity.
-- **Special**: A character with terrain mastery has a +4 to "creature handling" in that terrain.
+- **Special**: A character with terrain mastery has a +2 to "creature handling" in that terrain.
 - **Take care**: Yes.
 - **Try again**: Sometimes, but at disadvantage. Raising cannot be repeated, because it already grew up.
 

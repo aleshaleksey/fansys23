@@ -278,7 +278,7 @@ At level one a character starts with:
 + 3 level points
 + Any benefits and properties it inherits from its type and race.
 + 1 good save.
-+ 1 homeland (see "[terrains](03-movement-exploration.md#terrains)").
++ A homeland (see "[terrains](03-movement-exploration.md#terrains)").
 
 In addition at level 8 and level 16 a character gets a "race boon" from its race.
 

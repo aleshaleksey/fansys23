@@ -769,7 +769,7 @@ Deflection: +1
 |[Fleet](../06-abilities.md#fleet)|||A brownie can stealth even in light cover.|
 |[Silent Step I](../06-abilities.md#silent-step-i-iii)|||A brownie can move at full speed while stealthed.|
 |[Xenophonia I: Animals](../06-abilities.md#xenophonia-i-xiii)|||A brownie can communicate with beasts.|
-|[Terrain Mastery: Urban](../06-abilities.md#terrain-mastery)|||A brownie has a +4 to certain skills inside and around humanoid dwellings.|
+|[Terrain Mastery: Urban](../06-abilities.md#terrain-mastery)|||A brownie has a +2 to certain skills inside and around humanoid dwellings.|
 |[Spellcasting Local: Incantation I](../06-abilities.md#spellcasting-local)|Threshold=15||Favourite Spells: [Least Ward](../08-spell-list.md#least-ward), [Least Heal](../08-spell-list.md#least-heal)|
 |[Spellcasting Local: Kinetic I](../06-abilities.md#spellcasting-local)|Threshold=15||Favourite Spells: [Hide](../08-spell-list.md#hide), [Spirits' Secret](../08-spell-list.md#spirits-secret)|
 |||||
@@ -816,7 +816,7 @@ Deflection: +2
 |[Fleet](../06-abilities.md#fleet)|||A pixie can stealth even in light cover.|
 |[Silent Step I](../06-abilities.md#silent-step-i-iii)|||A pixie can move at full speed while stealthed.|
 |[Xenophonia I: Animals](../06-abilities.md#xenophonia-i-xiii)|||A pixie can communicate with beasts.|
-|[Terrain Mastery: Fells](../06-abilities.md#terrain-mastery)|||A pixie has a +4 to certain skills in fells.|
+|[Terrain Mastery: Fells](../06-abilities.md#terrain-mastery)|||A pixie has a +2 to certain skills in fells.|
 |[Spellcasting Local: Incantation I](../06-abilities.md#spellcasting-local)|Threshold=15||Favourite Spells: [Least Anemancy](../08-spell-list.md#least-anemancy), [Headwind](../08-spell-list.md#least-heal)|
 |[Spellcasting Local: Kinetic II](../06-abilities.md#spellcasting-local)|Threshold=15||Favourite Spells: [Hide](../08-spell-list.md#hide), [Lesser Illusory Self](../08-spell-list.md#lesser-illusory-self), [Least Transformation](../08-spell-list.md#least-transformation)|
 |[Spellcasting Local: Nature III](../06-abilities.md#spellcasting-local)|Threshold=15||Favourite Spells: [Sour](../08-spell-list.md#sour), , [Fade](../08-spell-list.md#fade), [Call Ailment](../08-spell-list.md#call-ailment), [Slumber](../08-spell-list.md#slumber)|
@@ -858,7 +858,7 @@ Deflection: +2
 |[Spellcasting Global I](../06-abilities.md#spellcasting-global)|Threshold=19|||
 |[Bind Beast: IV](../06-abilities.md#bind-beast-i-x)|||A dryad can, and often will, bind a beast to serve and protect it.|
 |[Deflection]|||Use a reaction and potentially MP dice to reduce damage from "supernatural" ranged attack by [1d4 + SAP + [MP dice expended]d4]|
-|[Terrain Mastery: Woodlands, Deep Forest]|||A dryad gets a +4 bonus to certain skills in "woodlands" and "deep forest"|
+|[Terrain Mastery: Woodlands, Deep Forest]|||A dryad gets a +2 bonus to certain skills in "woodlands" and "deep forest"|
 |[Blindsight III](../06-abilities.md#blind-sight-i-vi)|||A dryad can "see" within a radius of 15ft even when "blinded" or effectively "blinded" (eg in thick fog or total darkness).|
 |||||
 |Indwell|||As a bonus action, the dryad can merge its form into its tree. In that case, the tree gains all of its resistances, immunities and vulnerabilities|
@@ -964,7 +964,7 @@ Deflection: +2
 |[Tracker: Fast Search](../06-abilities.md#tracker-fast-search)|||Looking for tracks is a "main action" for the hound. Following tracks is a non-action.|
 |[Tracker: Persistent](../06-abilities.md#tracker-persistent)|||Once the hound find tracks, it does not need to make another roll for 4 hours, or 4 miles if speed is less than 1mph|
 |[Tracker: Swift](../06-abilities.md#tracker-swift)|||A fey hound can move at full speed when tracking without penalties. It can "run" when tracking, with a +6 to the threshold.|
-|[Terrain Mastery: Deep Forest, Hills, Woods](../06-abilities.md#terrain-mastery)|||+4 to certain skill rolls in these terrains|
+|[Terrain Mastery: Deep Forest, Hills, Woods](../06-abilities.md#terrain-mastery)|||+2 to certain skill rolls in these terrains|
 |||||
 |Immunity|||"stunned", "immobilised", "crippled", "bleeding", "poisoned", "paralysed" as well as "aphonia" and "deafened"|
 |Damage Immunity|||All physical Damage. The immunity to physical damage does not apply to damage caused by weapons made of iron or steel.|
@@ -1009,7 +1009,7 @@ Hide Armour (fey source): +5
 |[Tracker: Fast Search](../06-abilities.md#tracker-fast-search)|||Looking for tracks is a "main action" for the hunter. Following tracks is a non-action.|
 |[Tracker: Persistent](../06-abilities.md#tracker-persistent)|||Once the hunter find tracks, it does not need to make another roll for 4 hours, or 4 miles if speed is less than 1mph|
 |[Tracker: Swift](../06-abilities.md#tracker-swift)|||A fey hunter can move at full speed when tracking without penalties. It can "run" when tracking, with a +6 to the threshold.|
-|[Terrain Mastery](../06-abilities.md#terrain-mastery)|||+4 to certain skill rolls in two of "hills", "plains", "woodlands", "deep forests", "fells"|
+|[Terrain Mastery](../06-abilities.md#terrain-mastery)|||+2 to certain skill rolls in two of "hills", "plains", "woodlands", "deep forests", "fells"|
 |||||
 |Immunity|||"stunned", "immobilised", "crippled", "bleeding", "poisoned", "paralysed" as well as "aphonia" and "deafened"|
 |Damage Immunity|||All physical Damage. The immunity to physical damage does not apply to damage caused by weapons made of iron or steel.|
@@ -1057,7 +1057,7 @@ Hide Armour (fey source): +5
 |[Tracker: Fast Search](../06-abilities.md#tracker-fast-search)|||Looking for tracks is a "main action" for the hunter. Following tracks is a non-action.|
 |[Tracker: Persistent](../06-abilities.md#tracker-persistent)|||Once the hunter find tracks, it does not need to make another roll for 4 hours, or 4 miles if speed is less than 1mph|
 |[Tracker: Swift](../06-abilities.md#tracker-swift)|||A fey hunter can move at full speed when tracking without penalties. It can "run" when tracking, with a +6 to the threshold.|
-|[Terrain Mastery](../06-abilities.md#terrain-mastery)|||+4 to certain skill rolls in "hills", "plains", "woodlands", "deep forests" and "fells"|
+|[Terrain Mastery](../06-abilities.md#terrain-mastery)|||+2 to certain skill rolls in "hills", "plains", "woodlands", "deep forests" and "fells"|
 |||||
 |Immunity|||"stunned", "immobilised", "crippled", "bleeding", "poisoned", "paralysed" as well as "aphonia" and "deafened"|
 |Damage Immunity|||All physical Damage. The immunity to physical damage does not apply to damage caused by weapons made of iron or steel.|

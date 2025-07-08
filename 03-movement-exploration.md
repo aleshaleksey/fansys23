@@ -336,12 +336,12 @@ All travel rolls are determined by the terrain type, the weather modifier from i
   - Roads, Plains, Woodlands, Ruin, Hill: 5
   - Deep Forest, Subterranean, Fells, Swamp, Mountain: 15
   - Inclement Weather: +5 threshold modifier.
-  - Homeland: +5 bonus to roll.
+  - Homeland: +2 bonus to roll.
 
 - Full rules are as follows:
 - **Familiarity bonus:**
   - Familiar (has been here before a few times): +2
-  - Homeland: +5.
+  - Homeland: +2.
 - **Weather modifier navigation/scouting:** NB: Modifiers from different categories stack.
   - Visibility modifier: Poor (severe) visibility: + 2
   - Visibility modifier: No (extreme) visibility: + 5

@@ -398,6 +398,7 @@ ____
 
 ### General
 - Fill in some placeholders for [camping](03-movement-exploration.md#camping).
+- Likewise reduce homeland bonus from +5 to +2.
 
 ### Combat
 - Attacks of opportunity reworded and better explained. Attacks of opportunity can now only be made with up to half concealment (1/6), any more and it fails.
@@ -405,6 +406,7 @@ ____
 ### Abilities
 - Unite Elemental Blast and Touch into the "[Elementalism](06-abilities.md#elementalism-elemental-blast)" group, which gives a more complete ability.
 - Add "[Rapid shot](06-abilities.md#rapid-shot)" ability.
+- Reduce the bonus given by [terrain mastery](06-abilities.md#terrain-mastery) from +4 to +2.
 
 ### Weapons and Armour
 - Greatbow increased to 1d12. This isn't going to backfire at all.

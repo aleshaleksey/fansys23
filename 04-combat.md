@@ -36,6 +36,7 @@ This system deals heavily with combat and many of the mechanics are tuned to wor
     - [Squeezing](#squeezing)
     - [Flanking](#flanking)
     - [Cover and Concealment](#cover-and-concealment)
+      - [Intervening Targets](#intervening-targets)
     - [Reactions and Causality](#reactions-and-causality)
     - [Attacks of Opportunity](#attacks-of-opportunity)
       - [Provoking attacks of opportunity](#provoking-attacks-of-opportunity)
@@ -385,6 +386,11 @@ Cover and concealment come in three flavours "light" (1/2), "heavy" (3/4) and "f
 **Cover** is when something blocks line of effect between attacker and target. Light cover (as a rule covers no more than half of the entity's body area) provides a -2 penalty to targeted attacks vs a target. Heavy cover (as a rule covers 1/2 to 3/4 of a target's area) provides a -5 penalty to targeted attacks and advantage to Dex saves. A target in full cover cannot be targeted with a targeted attack. Examples of things that can provide cover and concealment includes terrain features, buildings, items, and creatures.
 
 **Concealment** is when something blocks line of sight between two entities. It can also be something that blocks a different sense, if that is the main sense used by the entity. An entity can attempt to hide ("stealth" skill) if it has heavy concealment or full concealment. In addition light concealment provides a 1/6 miss chance (use a d6). Heavy concealment provides a 2/6 miss chance. Full concealment provides 5/6 miss chance. The miss chance is rolled before or after the attack roll, but obviously before damage.
+
+#### Intervening targets
+An entity that is on the line of attack (the intervening target's hex/square is intersected by the line from the center of your square to the center of your target's square) between a character and their target acts as concealment. If they're in the same size category or smaller the intervening entity acts as light concealment, otherwise it acts as heavy concealment.
+
+For the sake of targeted attacks, this acts like ordinary concealment, with one exception: if the roll of the D6 (1 for light cover, 1-2 for heavy cover) results in a miss, the attack instead targets the intervening entity. If there are several intervening targets, roll the concealment separately for each one until you either run out of intervening targets, or hit one of them.
 
 ___
 ### Reactions and Causality

@@ -12,6 +12,7 @@ This section contains a few NPC stat blocks and notes on their intended use and 
     - [Human Knight](#human-knight)
     - [Human Magic Knight](#human-magic-knight)
     - [Human Elemental Knight](#human-magic-knight-variant-elemental-knight)
+    - [Human Scout](#human-scout)
     - [Human Mage, Apprentice](#human-mage-apprentice)
     - [Human Scholar](#human-scholar)
     - [Human Elite](#human-elite)
@@ -299,6 +300,50 @@ Example, Elemental Knight, fire:
 |[Elemental Blast: Fire](../06-abilities.md#blast-elemental-blast)|+8|1d6+1|+1d6 fire damage per MP dice|
 |Spellcasting: Fire IV|||"[Ignition](../08-spell-list.md#ignition)", "[Least Warmth](../08-spell-list.md#least-warmth)", "[Foxfire](../08-spell-list.md#foxfire)", "[Least Vengeance](../08-spell-list.md#least-vengeance)", "[Meadow of Flame](../08-spell-list.md#meadow-of-flame)", "[Warmth](../08-spell-list.md#warmth)", "[Command Mortal](../08-spell-list.md#command-mortal)", "[Fire Ward](../08-spell-list.md#fire-ward)", "[Balance of Elements](../08-spell-list.md#balance-of-elements)", "[Speak Through Flame](../08-spell-list.md#speak-through-flame)"|
 |Spellcasting: Water II|||"[Mist](../08-spell-list.md#mist)", "[Least Freeze](../08-spell-list.md#least-freeze)", "[Sense Spell](../08-spell-list.md#sense-spell)", "[Winter's Touch](../08-spell-list.md#winters-touch)", "[Dusk](../08-spell-list.md#dusk)", "[Trace Secret Path](../08-spell-list.md#trace-secret-path)"|
+
+___
+### Human Scout
+|HiT|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|15/12/14|23 (*19*)|19 (*15*)|7|35ft|-|
+
+(+1 from base, includes +1 from leather cuirass)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|12|16|12|10|12|13|
+|Bonus|+1|+3|+1|0|+1|+1|
+|Save|+2|+6|+2|+1|+2|+2|
+
+|Level(base)|SP dice|MP Dice|Nat|Sup|NAP|SAP|
+|-|-|-|-|-|-|-|
+|5 (1)|9|7|2|2|3|3|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Dagger|+6|1d4+3 Slashing/piercing|Reach=5ft, Range=60ft, Increment=10ft|
+|Shuriken|+6|1d4+3 slashing/piercing|Range=60ft, Increment=20ft|
+|Shortbow|+6|1d6+3 piercing|Range=600ft, Increment=120ft|
+|Light crossbow|+6|1d10+3 piercing||
+|||||
+|[Precision Attack II](../06-abilities.md#precision-attack-i-x)|2d8||A scout can deal extra damage to targets that are unaware of it|
+|[Stalker](../06-abilities.md#stalker)|||A scout can use stealth as a secondary action|
+|[Fleet](../06-abilities.md#fleet)|||A scout can hide even in light concealment|
+|[Opportunist](../06-abilities.md#opportunist)|||A scout can take advantage of the smallest openings|
+|[Sniper](../06-abilities.md#sniper)|||A scout maintains stealth if they attack from hiding and miss.|
+|[Silent Step I](../06-abilities.md#silent-step-i-iii)|||A scout can maintain stealth while moving at full base speed.|
+|||||
+|Proficiencies|||"Light Blades","Light Armour","Bows","Mechanical Bows","Spears","Staves","Disguise Kit","Healer's Kit","Lock-picks","Forgery Kit"|
+|Skills|-|-|Usually +4 climb, +3 athletics, +2 fortify, +7 stealth, +5 acrobatics, +5 sleight of hand, +2 prospect, +3 history, +5 observe, +4 sense motive, +4 deception|
+|Loot|||Usually the tools of their trade, and clothes on their back.|
+
+This represents experienced scouts, saboteurs, snipers, marksmen and well trained assassins.
+
+A scout attempts to avoid being seen when performing their duty, or to "hide in plain sight". Under certain circumstances they will take extreme measures to eliminate those that have witnessed their activities.
+
+A scout generally prefers not to engage in combat if their mission can be accomplished without doing so. If they must engage in combat, they would rather attack from their target while it is unaware and quickly finish the task. A scout that realises the impossibility of defeating their foe will usually flee. They may surrender to incidental foes, but will very seldom surrender to their mark, or those working with them, as the value of information they carry means that o capture their fate is usually grim.
+
+Scouts are proficient with light blades, light armour, bows and sometimes mechanical bows, spears and staves. On missions where discretion is important they will use only equipment that is easily hidden. Since training a skilled scout is a lengthy and expensive process, they are generally few in number and, in most cases, they are used carefully by their taskmasters.
 
 ___
 ### Human Mage, Apprentice

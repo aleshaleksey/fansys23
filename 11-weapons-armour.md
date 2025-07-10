@@ -77,7 +77,9 @@ ___
 
 Ranged weapons fired while you are in melee are made at disadvantage.
 
-Ranged attacks may hit other targets on the same line. If an entity's hex/square is intersected by the line from the center of your square to the center of your target's square, and your attack meets the entity's [HiT + 5], it takes the damage instead.
+Ranged attacks may also hit other targets on the same line (the intervening target's hex/square is intersected by the line from the center of your square to the center of your target's square). This follows the [intervening target rules](04-combat.md#intervening-targets).
+
+**OPTIONAL RULE**: It can be argued that projectiles generally follow a ballistic trajectory beyond the first range increment, and therefore do not risk hitting intervening targets more than a range increment away from either attacker or final target (although they still provide concealment). For example, if a target is 4 range increments from the attacker, intervening targets within the 2nd and 3rd range increment would not be at risk of being hit, but those in the 1st and 4th range increment would.
 
 ___
 ### Range increments

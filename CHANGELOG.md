@@ -399,6 +399,7 @@ ____
 ### General
 - Fill in some placeholders for [camping](03-movement-exploration.md#camping).
 - Likewise reduce homeland bonus from +5 to +2.
+- Revamped prices for equipment (clothing and stuff is now less brutal).
 
 ### Combat
 - Attacks of opportunity reworded and better explained. Attacks of opportunity can now only be made with up to half concealment (1/6), any more and it fails.

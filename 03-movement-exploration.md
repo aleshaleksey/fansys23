@@ -20,8 +20,14 @@ A certain level of freeform RP and common sense are recommended.
     - [Local and Global Movement](#local-and-global-movement-1)
     - [Flying and Turbulence](#flying-and-turbulence)
     - [Terrains](#terrains)
-    - [Inclement Weather Hazards](#inclement-weather-hazards)
-    - [Travel rolls and terrain](#travel-rolls-and-terrain)
+    - [Classification of Inclement Weather Hazards](#classification-of-inclement-weather-hazards)
+      - [Fair Weather](#fair-weather)
+      - [Precipitation](#precipitation)
+      - [Wind](#wind)
+      - [Visibility](#visibility)
+      - [Temperature](#temperature)
+    - [Weather conditions and associated hazards](#weather-conditions-and-associated-hazards)
+    - [Travel rolls and terrain (summary)](#travel-rolls-and-terrain-summary)
     - [Travel and getting lost](#travel-and-getting-lost)
     - [Scouting, prospecting and exploration](#scouting-prospecting-and-exploration)
     - [Harvesting, Hunting and Mining (very draft)](#harvesting-hunting-and-mining-very-draft)
@@ -83,7 +89,7 @@ ___
 Here basic movement is described. It is based, where possible on observations. The main forms of movement are walk, climb, swim, flight and dig. Each one has its place and its pace. There are also two exotic types of movement which are not covered yet because we can live without it. Movement is measured in feet per round (ft), or miles per hour (mph). A very rough translation is 1mph = 10ft/round. This is known as the "global movement speed".
 
 ### Global Movement, Pushing and Fatigue
-Typically, an experienced traveller can continue their journey for 10 hours per day at a reasonable pace (equal to their global movement speed). If a traveller has a fly speed with limitations on fly duration, the time in flight counts against this total journey time of 10 hours. Thus, if a character has a flight time of 2 hours, and they spend those 2 hours on the wing, not only do they expend their flight time, but also they have only 8 hours of journey time remaining. During any rest, 5 hours of journey time is regained, with all 10 hours being regained during a long rest.
+Typically, an experienced traveller can continue their journey for 10 hours per day at a reasonable pace (equal to their global movement speed). If a traveller has a fly speed with limitations on fly duration, the time in flight counts against this total journey time of 10 hours. Thus, if a character has a flight time of 2 hours, and they spend those 2 hours on the wing, not only do they expend their flight time, but also they have only 8 hours of journey time remaining. During any rest, 2 hours of journey time is regained, with all 10 hours being regained during a long rest.
 
 A character may "push" beyond that time, but for every hour of "pushing" themselves in this way, the character expends 1 SP dice (and hence 2 SP). A character who has ran out of SP or SP dice, can continue to push, at the cost of 1HP per hour, however, in this case they immediately gain the "crippled" condition.
 
@@ -210,7 +216,7 @@ For entities and parties that travel via **walk**, **climb**, **dig** or **blink
 
 ___
 #### Flying and Turbulence
-Entities that move via a **Fly** speed have the movement speed halved in severe precipitation and wind. If precipitation or wind is extreme, such entities must make a skill roll (usually "fly") against the storm's threshold number or make no progress. An entity may attempt to move at 1/4 speed and take damage every hour equal to 2d6 damage plus 2d6, per size category above medium. An entity failing the roll by more than 5 in extreme precipitation falls to the ground. An entity failing the roll by more than 5 in extreme wind is blown away in the prevailing wind direction at 1/2 the wind speed. If this leads to the collision with some kind of fixed obstacle (mountain, big tree, wall), it suffers damage as if it had fallen 100ft (see [fall damage](#Falling)).
+Entities that move via a **Fly** speed have their base movement speed halved in severe precipitation and wind. If precipitation or wind is extreme, such entities must make a skill roll (usually "fly") against the storm's threshold number or make no progress. An entity may attempt to move at 1/4 speed and take damage every hour equal to 2d6 damage plus 2d6 per size category above medium. An entity failing the roll by more than 5 in extreme precipitation falls to the ground. An entity failing the roll by more than 5 in extreme wind is blown away in the prevailing wind direction at 1/2 the wind speed. If this leads to the collision with some kind of fixed obstacle (mountain, big tree, wall), it suffers damage as if it had fallen 100ft (see [fall damage](#Falling)).
 
 ____
 ### Terrains
@@ -304,17 +310,71 @@ Swamps refers to treacherous wetlands, with little solid ground to set foot on o
 - **Global movement cost:** x4
 
 ___
-### Inclement Weather Hazards 
+### Classification of Inclement Weather Hazards
 
-#### (TODO: Make a full table of all weather and consequences.)
+Inclement weather has two severities: **Severe** and **Extreme**. This is a simplification of (usually!) real weather which is made to make the rules more manageable. Groups that desire more granularity are free too be more liberal with their sliding scale. As expected, "extreme" weather usually has a stronger effect than "severe" weather. There are four general types of weather hazard, and it is possible to find more than one in any given situation. In some cases a clever group may find ways of using weather hazards to its advantage.
 
-Inclement weather has two severities: **Severe** and **Extreme**. The following inclement weather types exist. Here is a brief overview.
-- **Precipitation.** (Rain, snow, sleet, ash.) This can lead to poor visibility, difficult movement due to boggy ground or accumulation, or even collapse of structures (snow, ash).
-- **Wind.** Can damage structures. Can knock prone smaller entity and impede movement. Dangerous for flying entities. Makes ranged attacks difficult.
-- **Temperature.** Very low or high temperatures. Being in temperatures an entity is not acclimatised to can quickly lead to exhaustion (hypothermia, hyperthermia, dehydration) or even death. It is more difficult to recuperate under these conditions. In particular, trying to recuperate in unameliorated camps may require a roll, or be impossible.
-- **Visibility.** Poor visibility is usually caused be caused by extreme precipitation, fog, murky water, cosmic clouds or darkness. It is easier to hide, and harder to detect, navigate and aim in poor visibility. In zero visibility ranged targeted attacks and those made with reach weapons have a 5/6 miss chance (if you can locate the correct square for your target in the first place!), certain spells cannot be cast. In areas of zero (extreme) visibility all entities are considered for all intents and purposes BOTH **blinded** and **invisible**. **NB:** Visibility can refer to senses other than sight in some exotic cases.
+#### Fair weather
+Characters may be so lucky as to find themselves travelling in fair weather that brings no direct hazards with it. In such weather it is not to cold or too hot, the wind is not strong enough to cause much of a problem, even for long ranged attacks, precipitation is, at worst, not much stronger than a drizzle, and visibility is good enough to see for miles. The main danger of this kind of weather, if anything, is that it probably does not cause problems for your foes either!
 
-Any given inclement weather phenomenon may cause more than one effect. Here are some suggested ratings.
+#### Precipitation
+This can be rain, snow, sleet, or even ashfall. This can lead to poor visibility, difficult movement due to boggy ground or accumulation, or even collapse of structures (snow, ash).
+- **Severe**:
+  - +2 to thresholds for scouting (navigation and observe).
+  - +2 to thresholds to set camp (fortify, CON saves).
+  - Base movement speed of flying entities is [halved](#flying-and-turbulence).
+- **Extreme**: As severe plus:
+  - Grants "light concealment" to targets more than 20ft away, and heavy concealment for entities beyond that. Characters that rely on sight, heat or vibrations are effectively blind beyond 600ft.
+  - Ranged weapon attacks are treated as being made at 1 range increment further away.
+  - Flying characters must make a "[fly](05-skills.md#fly)" roll, or risk falling, even if they succeed, they move at 1/4 speed and take damage (see "[flying and turbulence](#flying-and-turbulence)).
+  - A character exposed to extreme precipitation must succeed a CON save (threshold=[16 + hours exposed]) every hour, or lose 1 SP die. When all SP dice are lost, it loses 1 HP instead.
+
+#### Wind
+Wind can damage structures, knock prone smaller entity and impede ranged attacks and movement. It is particularly dangerous for flying entities.
+- **Severe**: Gale force winds of 38 mph or higher.
+  - +2 to thresholds to set camp (fortify, CON saves).
+  - Targets are considered to be 2 range increment further out than they are (this reduces the maximum range of the ranged weapon).
+  - Characters moving against the wind (walking, climbing) move at half speed if they are medium or smaller.
+  - Base movement speed of flying entities is [halved](#flying-and-turbulence).
+- **Extreme**: Hurricane force winds of 74 mph or higher.
+  - +2 to thresholds for scouting (navigation and observe).
+  - +5 to thresholds to set camp (fortify, CON saves).
+  - Targets of ranged weapon attacks are considered to be 4 range increment further out than they are (this reduces the maximum range of the ranged weapon, potentially making it useless).
+  - Characters moving against the wind (walking, climbing) move at half speed if they are large or larger, and at 1/4 speed if they are medium or smaller.
+  - Characters of size category medium or smaller must succeed on a STR save (threshold=20) at the start of each turn or be blown back by 20ft for every size category smaller than large and land prone. If a small or smaller character fails the save by 6 or more, they are blown away.
+  - Flying characters must make a "[fly](05-skills.md#fly)" roll, or risk falling. Even if they succeed, they move at 1/4 speed and take damage (see "[flying and turbulence](#flying-and-turbulence)).
+
+#### Visibility
+Poor visibility is usually caused be caused by extreme precipitation, fog, murky water, cosmic clouds or darkness. It is easier to hide, and harder to detect, navigate and aim in poor visibility. The game here defines visibility ranges for poor and zero visibility, although the there will be times when these ranges can be a little lower, or a little higher, since weather, unsurprisingly, varies.
+- **Severe (poor)**:
+  - +2 to thresholds for scouting (navigation and observe).
+  - Characters have light concealment from entities beyond 20ft away, heavy concealment from entities beyond 60ft away (although the GM may rule that this distance is greater or lesser). With respect to targets beyond 300ft, characters that rely on sight are effectively "[blinded](10-conditions-types.md#conditions-in-detail)".
+- **Extreme (zero)**: 
+  - +2 to thresholds for camping (fortify, CON saves).
+  - +5 to thresholds for scouting (navigation and observe).
+  - Characters have light concealment beyond 5ft and heavy concealment beyond 10ft. Beyond 20ft characters that rely on sight are effectively "[blinded](10-conditions-types.md#conditions-in-detail). NB: There are times when zero visibility is truly zero visibility and a character is considered blinded beyond their fingertips, although this is rare.
+
+#### Temperature
+ Very low or high temperatures. Exposure to temperatures that an entity is not acclimatised to can quickly lead to exhaustion (hypothermia, hyperthermia, dehydration) or even death. It is more difficult to recuperate under these conditions. In particular, trying to recuperate in unameliorated camps may require a roll, or be impossible. Unlike the other weather hazards, temperature has a third category: *lethal*. This represents extremes of heat/cold that will kill entities that are not resistant in a manner of minutes.
+ 
+ Some effects of the cold can be mitigated by wearing cold weather garments. Mitigating the effects of heat is, unfortunately, more difficult.
+ - **Severe**: This represents temperatures of more than 30 degrees below, or 20 degrees above ideal conditions for a character (+40/-10 degrees celsius for a human).
+   - +2 to thresholds for camping (fortify, CON saves).
+   - A character exposed to severe temperature must succeed a CON save (threshold=[12 + hours exposed]) every hour, or lose 1 SP die. When all SP dice are lost, it loses 1 HP instead.
+ - **Extreme**: This represents temperatures of more than 50 degrees below, or 30 degrees above ideal conditions for a character (+50/-30 degrees celsius for a human).
+   - +5 to thresholds for camping (fortify, CON saves).
+   - A character exposed to extreme temperature must succeed a CON save (threshold=[16 + hours exposed]) every hour, or lose 2 SP die and 1 MP die. When all MP and SP dice are lost, it loses 2 HP instead.
+ - **Lethal**: This represents temperatures of more than 80 degrees below, or 45 degrees above ideal conditions for a character (+65/-60 degrees celsius for a human).
+   - Impossible to camp or rest successfully without special abilities, equipment, or magic.
+   - [Total journey time per day ](#global-movement-pushing-and-fatigue) is reduced to 2 hours. Short rests no longer recover journey time.
+   - A character exposed to lethal temperature must succeed a CON save (threshold=20) every *minute*, or lose 1 SP die and 1 MP die. When all MP and SP dice are lost, it loses 2 HP instead.
+
+___
+### Weather conditions and associated hazards
+
+Any given inclement weather phenomenon may contain one or more hazards. Here are some suggested ratings.
+- **Fair weather**: None.
+- **Fair weather, night time**: Poor visibility (entities without low light vision only).
 - **Fog**/**Mist**: Poor/Zero visibility.
 - **Torrential Rain**: Severe precipitation, poor visibility.
 - **Gale**: Severe wind.
@@ -328,7 +388,8 @@ Any given inclement weather phenomenon may cause more than one effect. Here are 
 
 Of course groups that operate in exotic settings should not shy away from creating other types of inclement weather using this framework.
 
-### Travel rolls and terrain
+___
+### Travel rolls and terrain (summary)
 All travel rolls are determined by the terrain type, the weather modifier from inclement weather (severe or extreme) and the familiarity bonus. They are defined in the following tables. It should be noted that weather modifiers from different categories stack.
 - In groups where travel rolls are seen as a burden they can be dropped, but please keep in mind that this will affect the value of certain skills and abilities.
 - There is a simplified table provided if the full rule is deemed burdensome.
@@ -369,6 +430,7 @@ All travel rolls are determined by the terrain type, the weather modifier from i
 
 It should be noted that the simplified table has generally lower thresholds. This is because it is considered likely that a group that is not using the detailed tables is probably not as excited about the challenges of travel and exploration, so the challenge should be lower to occupy less of their time. The group is of course free to modify the tables as it sees fit, if they wish to adjust the challenge.
 
+___
 ### Travel and getting lost
 When travelling on unfamiliar terrain there is generally a chance of getting lost. Likewise sabotage or illusion can facilitate this. This works as follows:
 - At the start of a stage of travel (usually start of the day or start of the journey) the navigator makes a navigation roll (Or uses a spell or ability).
@@ -378,6 +440,7 @@ When travelling on unfamiliar terrain there is generally a chance of getting los
 
 Generally one does not get lost on familiar terrain. Likewise if one has a guide who knows the area, or if it is expedient for the gaming group this kind of roll can be eschewed.
 
+___
 ### Scouting, prospecting and exploration
 Characters and groups that enter new or unfamiliar terrain will often need to explore it in some way to learn useful (or occasionally useless) information about it, this includes:
 - General topography and characteristics. (exploration)
@@ -390,7 +453,8 @@ Different skills are used for each one. In general the thresholds for success ar
 - Detailed exploration takes between 10 minutes and 1h per 100sq-feet of terrain depending on how much "stuff" there is to explore.
 - For detailed exploration it is recommended that the locale is described by the DM and the players prompted to focus on a certain part of it. At this point the threshold should probably be determined by the general difficulty table.
 
-### Harvesting, Hunting and Mining (very draft)
+___
+### Harvesting, Hunting and Mining
 Harvesting, hunting and mining are essentially all harvesting of different types of resources from the environment. Sometimes these activities can be an adventure in and of themselves, so this refers to "mundane" harvesting, mining and hunting of resources that will not fight back.
 - After a successful "prospecting"/"scouting" roll a character can make a harvesting roll.
 - The duration of the "harvesting" and the magnitude of success determine the yield of the harvest. Failure with snake eyes results in the damage to the tools used (or HP loss or injury if the tool was the character's body or spirit).
@@ -403,6 +467,7 @@ Harvesting, hunting and mining are essentially all harvesting of different types
 - If the resource is rare, or exotic increase the threshold by +5 or +10.
 - If the resource cannot be found in the terrain, then the time is spent and the harvest fails.
 
+___
 ### Camping
 In hostile or wilderness environments characters must often take additions steps before they can safely and effectively rest. These steps are:
 1. Find suitable site (usually a [prospect](05-skills.md#investigateprospect) or [navigate](05-skills.md#investigateprospect) roll vs terrain camping threshold + weather scouting modifier). Successful check gives advantage on ameliorate/fortify check.
@@ -435,7 +500,7 @@ Furthermore, if the ["material level"](12-equipment-economy.md#material-level) o
 
 If the object has damage reduction, it also applies.
 
-In order to hit an object and deal damage to it, a character rolls an attack against its wielder's "[Sunder](04-combat.md#basic-martial-manoeuvres)". On a successful hit the damage is applied. If the object is unattended, the attacker rolls with advantage vs a threshold=10 (modified by size using [standard size rules](02-base-rules.md#size-rules-table)).
+In order to hit an object and deal damage to it, a character rolls an attack against its wielder's "[Sunder](04-combat.md#basic-martial-manoeuvres)". On a successful hit the damage is applied. If the object is unattended, the attacker rolls with advantage vs a threshold=10 (modified by size using [standard size rules](02-base-rules.md#size-rules-table)). The attack should be assumed to automatically hit in narrative time if there are no circumstances in play where missing can have a tangible effects on the outcome (eg a chase where every second lost can make a difference).
 
 On occasion, this method of breaking an object is impractical, impossible, or just too slow. For some objects there is a "break threshold". In this case, a character may make an attack roll for the "sunder" manoeuvre, or an "athletics" skill roll, against this threshold. On a success the object is broken. Usually this applies to restraints such as ropes or manacles.
 
@@ -445,6 +510,8 @@ It should be noted that structures, barriers, and entities, created by spells do
 The below table contains durability and recommended breaking threshold for various objects. DMs and groups should tweak these in accordance with various factors. For example, a set of rusty manacles should be easier to break than a set of manacles that has been properly maintained.
 
 NB: For weapon and armour durability see the "[weapons](11-weapons-armour.md#weapon-table)" and "[armour](11-weapons-armour.md#the-armour-table)" tables.
+
+NB2: All these items are immune to poison damage.
 
 |Item|Durability|Damage Reduction|Break Threshold|
 |-|-|-|-|
@@ -473,11 +540,11 @@ NB: For weapon and armour durability see the "[weapons](11-weapons-armour.md#wea
 |Rope (washing line)|1|-|20|
 |Rope (hemp, climbing)|2|-|24|
 |Rope (silk, climbing)|2|-|28|
-|Rope (nautical)|4|1 (physical, ice, poison, light)|32|
-|Rope (nautical, thick)|6|1 (physical, ice, poison, light)|36|
+|Rope (nautical)|4|1 (physical, ice, light)|32|
+|Rope (nautical, thick)|6|1 (physical, ice, light)|36|
 |||||
 |Tent [1]|2|-|["[fortify](05-skills.md#fortify)" roll] - 4|
-|Yurt [2]|8|1 (physical, ice, poison, light)|[fortify](05-skills.md#fortify)" roll|
+|Yurt [2]|8|1 (physical (except slashing), ice, light)|[fortify](05-skills.md#fortify)" roll|
 
 1. Cutting an opening in the fabric counts as 1 point of damage, collapsing the tent as 2.
 2. Cutting an opening in the yurt counts as 2 points of damage, collapsing the yurt as 8.
@@ -534,9 +601,9 @@ Damage from fire is usually determined by size (as per the table below), but can
 
 |'radius' of Fire|Damage|Save threshold|
 |-|-|-|
-|5 ft|1d8|13|
-|10 ft|2d8|16|
-|20 ft|3d8|20|
+|5 ft or less    |1d8   |13|
+|10-20 ft        |2d8   |16|
+|20 ft or more   |3d8   |20|
 
 #### Being on fire
 
@@ -564,10 +631,10 @@ Most characters are morals and therefore require **sustenance** and suffer from 
 
 |Sustenance Kind|starvation name|duration before starvation|refractory period|
 |-|-|-|-|
-| **Air**|suffocation|[CON] minutes|[10 minutes - CON]|
-|**Water**|dehydration|[CON -1] days|[2 days]|
-|**Food**|starvation|[CON x 3] days|[starvation x 2 - CON] days|
-|**Sleep**|insomnia|[1 day + CHA] hours|[7 - CHA] days|
+| **Air**|suffocation|[CON] minutes|[10 minutes - [CON]]|
+|**Water**|dehydration|[CON] days|[2 days]|
+|**Food**|starvation|[[CON] x 3] days|[10 - [CON]] days|
+|**Sleep**|insomnia|[1 + [CHA]] days|[8 - [CHA]] days|
 
 |Starvation name|effect|restoration time|
 |-|-|-|

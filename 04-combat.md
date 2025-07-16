@@ -181,6 +181,11 @@ Some effects and damage have an immediate or short term effect (eg. being hit ov
 The most common damage over time is fire/heat and is summarised in ["Movement and Exploration: Fire damage and being on fire"](03-movement-exploration.md#fire-damage-and-being-on-fire).
 
 ___
+### Weather and Combat
+
+The weather can sway, and has swayed, the course of many a battle. Poor visibility is a benefit for those who wish to remain unseen. High winds is particularly troublesome to archers and small characters. Precipitation is a hindrance to mobile units, while extremes of temperature can reduce the combat effectiveness of heavily armoured units, as well as mages and other units with lower endurance. The effect of weather on morale and logistics in long term campaigns should also not be underestimated. For a detailed breakdown of the weather rules, see "[Classification of Inclement Weather Hazards](03-movement-exploration.md#classification-of-inclement-weather-hazards)".
+
+___
 ## Actions in combat
 
 ___
@@ -646,7 +651,7 @@ Armour, while suitable for combat, makes for an uncomfortable rest and makes pro
 
 A character wearing medium or heavy armour during a long rest must succeed on a CON save with a Threshold = [10 + Armour rating] to benefit from the long rest, even if the camp is already ameliorated.
 
-Characters taking a long rest (or longer) on terrain that is not "[ameliorated](03-movement-exploration.md#camping)", must make a CON save with a threshold determined by [terrain and weather](03-movement-exploration.md#travel-rolls-and-terrain). A character who fails this CON save does not regain resources from the rest. If they fail by more than 6, they are not able to adequately drink, eat or sleep, which brings them closer to "[starvation](03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die)", if they require drink, food or sleep.
+Characters taking a long rest (or longer) on terrain that is not "[ameliorated](03-movement-exploration.md#camping)", must make a CON save with a threshold determined by [terrain and weather](03-movement-exploration.md#travel-rolls-and-terrain-summary). A character who fails this CON save does not regain resources from the rest. If they fail by more than 6, they are not able to adequately drink, eat or sleep, which brings them closer to "[starvation](03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die)", if they require drink, food or sleep.
 - In cold weather, a blanket gives +2 to this save, while a bedroll gives +4.
 - A tent gives +2 to ameliorate/fortify, a yurt obviates the need for such a roll. This does not apply on terrain where it is not possible to place a tent or yurt, such as in swamps, dense forests or on steep slopes.
 - If a site is not ameliorated, wearing medium or heavy armour gives a penalty to this CON save equal to the armour rating (instead of making a separate roll).

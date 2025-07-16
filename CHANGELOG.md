@@ -399,7 +399,15 @@ ____
 ### General
 - Fill in some placeholders for [camping](03-movement-exploration.md#camping).
 - Likewise reduce homeland bonus from +5 to +2.
-- Revamped prices for equipment (clothing and stuff is now less brutal).
+- Revamped prices for equipment (clothing and stuff is now less brutal). These are now based on the cost of materials and labour instead of averaged out prices.
+
+### Movement and Exploration
+- Added the obvious note that items are immune to poison damage.
+- Clearer definition of [fire damage by size of fire](03-movement-exploration.md#places-that-are-on-fire).
+- Simplified [time to starvation](03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die).
+- Fully classified [inclement weather hazards](03-movement-exploration.md#classification-of-inclement-weather-hazards).
+- Added clarification to [breaking and entering](03-movement-exploration.md#breaking) that attack rolls against objects against objects should only be made when missing can make a difference to the outcome.
+- Decreased journey time regained to 2 hours per short rest instead of 5 hours.
 
 ### Combat
 - Attacks of opportunity reworded and better explained. Attacks of opportunity can now only be made with up to half concealment (1/6), any more and it fails.

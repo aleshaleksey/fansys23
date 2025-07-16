@@ -760,6 +760,8 @@ ___
 **Benefits**: A bound beast may not disobey you and acts as a loyal servant, this does not mean, however that it necessarily likes it.
 - A bound beast understands your commands and can be commanded in and out of battle with a "communicate" action. No "creature handling" check is required.
 - Such a beast can be used for combat, scouting, guarding and other menial tasks within its capability.
+- Once a command has been issued, the beast will continue to perform the action until it completes the instructions. Thus if it is commanded "attack the bandit" it will continue to do so until called off, while if it is commanded to "give the bandit a bite", it will continue until it has succeeded in biting the bandit once.
+- If a command is physically or conceptually impossible for it, it may either do nothing, or do something similar to the best of its interpretation (which might cause problems).
 
 **Limitations**:
 - You must find a suitable beast and keep it still for long enough to bind it. It can attempt a Cha save vs your [Sup + [Cha]] to not be bound. You cannot attempt to bind the same beast for a month if it succeeds. If it succeeds three times, you can never bind it.

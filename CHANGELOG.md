@@ -417,6 +417,7 @@ ____
 - Unite Elemental Blast and Touch into the "[Elementalism](06-abilities.md#elementalism-elemental-blast)" group, which gives a more complete ability.
 - Add "[Rapid shot](06-abilities.md#rapid-shot)" ability.
 - Reduce the bonus given by [terrain mastery](06-abilities.md#terrain-mastery) from +4 to +2.
+- Elaborate on commanding the beast for [bind beast](06-abilities.md#bind-beast-i-x).
 
 ### Weapons and Armour
 - Greatbow increased to 1d12. This isn't going to backfire at all.

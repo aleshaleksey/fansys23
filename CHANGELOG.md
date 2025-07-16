@@ -408,6 +408,7 @@ ____
 - Fully classified [inclement weather hazards](03-movement-exploration.md#classification-of-inclement-weather-hazards).
 - Added clarification to [breaking and entering](03-movement-exploration.md#breaking) that attack rolls against objects against objects should only be made when missing can make a difference to the outcome.
 - Decreased journey time regained to 2 hours per short rest instead of 5 hours.
+- Fixed [Falling rules](03-movement-exploration.md#falling) wording to use acrobatics roll instead of dex.
 
 ### Combat
 - Attacks of opportunity reworded and better explained. Attacks of opportunity can now only be made with up to half concealment (1/6), any more and it fails.

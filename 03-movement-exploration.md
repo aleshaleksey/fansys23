@@ -28,6 +28,8 @@ A certain level of freeform RP and common sense are recommended.
       - [Temperature](#temperature)
     - [Weather conditions and associated hazards](#weather-conditions-and-associated-hazards)
     - [Travel rolls and terrain (summary)](#travel-rolls-and-terrain-summary)
+      - [Summary of Simplified Travel Rules](#summary-of-simplified-travel-rules-camping-and-navigation-combined)
+      - [Summary of Full Travel Rules](#summary-of-full-travel-rules)
     - [Travel and getting lost](#travel-and-getting-lost)
     - [Scouting, prospecting and exploration](#scouting-prospecting-and-exploration)
     - [Harvesting, Hunting and Mining (very draft)](#harvesting-hunting-and-mining-very-draft)
@@ -326,7 +328,7 @@ This can be rain, snow, sleet, or even ashfall. This can lead to poor visibility
 - **Extreme**: As severe plus:
   - Grants "light concealment" to targets more than 20ft away, and heavy concealment for entities beyond that. Characters that rely on sight, heat or vibrations are effectively blind beyond 600ft.
   - Ranged weapon attacks are treated as being made at 1 range increment further away.
-  - Flying characters must make a "[fly](05-skills.md#fly)" roll, or risk falling, even if they succeed, they move at 1/4 speed and take damage (see "[flying and turbulence](#flying-and-turbulence)).
+  - Flying characters must make a "[fly](05-skills.md#fly)" roll, or risk falling. Even if they succeed, they move at 1/4 speed and take damage (see "[flying and turbulence](#flying-and-turbulence)).
   - A character exposed to extreme precipitation must succeed a CON save (threshold=[16 + hours exposed]) every hour, or lose 1 SP die. When all SP dice are lost, it loses 1 HP instead.
 
 #### Wind
@@ -392,43 +394,50 @@ ___
 ### Travel rolls and terrain (summary)
 All travel rolls are determined by the terrain type, the weather modifier from inclement weather (severe or extreme) and the familiarity bonus. They are defined in the following tables. It should be noted that weather modifiers from different categories stack.
 - In groups where travel rolls are seen as a burden they can be dropped, but please keep in mind that this will affect the value of certain skills and abilities.
-- There is a simplified table provided if the full rule is deemed burdensome.
-- **Simplified Table (Camping and navigation combined):**
-  - Roads, Plains, Woodlands, Ruin, Hill: 5
-  - Deep Forest, Subterranean, Fells, Swamp, Mountain: 15
-  - Inclement Weather: +5 threshold modifier.
-  - Homeland: +2 bonus to roll.
+- There is also a simplified table provided if the full rule is deemed burdensome.
 
-- Full rules are as follows:
-- **Familiarity bonus:**
-  - Familiar (has been here before a few times): +2
-  - Homeland: +2.
-- **Weather modifier navigation/scouting:** NB: Modifiers from different categories stack.
-  - Visibility modifier: Poor (severe) visibility: + 2
-  - Visibility modifier: No (extreme) visibility: + 5
-  - Precipitation: Heavy precipitation (severe or extreme): +2
-  - Wind: Extreme (hurricane, tornado, typhoon): + 2.
-- **Terrain difficulty table nav/scouting:** NB, Visibility penality for plains, deserts, swamps and fells are doubled.
-  - Roads: 5
-  - Plains, Deserts, Hills, Mountains: 10
-  - Ruins, Fells, Swamps, Woodlands: 15
-  - Deep Forest, Subterranean: 20
-- **Weather modifier camping:** NB: Modifiers from different categories stack.
-  - Visibility modifier: No visibility: + 2
-  - Precipitation: Severe/Extreme: +2
-  - Wind: Severe: + 2
-  - Wind: Extreme (Hurricane, tornado, typhoon): + 5
-  - Extreme temperature: Severe (+40/-10): + 2.
-  - Extreme temperature: Extreme (+50/-30): + 5.
-  - Extreme temperature: Lethal Impossible to camp successfully without special abilities or magic.
-- **Terrain difficulty camping:** NB: Wind penality is doubled in deserts and mountains. Precipitation penalty is doubled in swamps.
-  - Roads, Plains, Woodlands: 5
-  - Ruins, Hills, Deep Forest: 10
-  - Subterranean, Fells: 15
-  - Desert, Swamp, Mountain: 20
+#### Summary of Simplified Travel Rules (Camping and navigation combined)
+|Terrains                                         |Threshold            |
+|-------------------------------------------------|---------------------|
+|Hill, Plains, Roads, Ruin, Woodlands             |5                    |
+|Deep Forest, Fells, Mountain, Subterranean, Swamp|15                   |
+|Severe/Extreme Weather                           |+5 threshold modifier|
+|Homeland/"Terrain Mastery"                       |+2 bonus to roll     |
 
+In the simplified rules, the thresholds for navigation and camping are the same. All inclement severe/extreme weather adds +5 to the threshold, this modifier stacks, so high winds and heavy precipitation would add +10. Characters receive a bonus from homeland and terrain mastery as usual (homeland bonus stacks with terrain mastery).
 
 It should be noted that the simplified table has generally lower thresholds. This is because it is considered likely that a group that is not using the detailed tables is probably not as excited about the challenges of travel and exploration, so the challenge should be lower to occupy less of their time. The group is of course free to modify the tables as it sees fit, if they wish to adjust the challenge.
+
+#### Summary of Full Travel Rules
+
+_Summary table for navigation:_
+|Terrains (navigation)            |Threshold       |Additional Effects|
+|---------------------------------|----------------|------------------|
+|Roads                            |5               |                  |
+|Deserts, Hills, Mountains, Plains|10              |                  |
+|Fells, Ruins, Swamps, Woodlands  |15              |                  |
+|Deep Forest, Subterranean        |20              |                  |
+|Poor (Severe) visibility         |+2 to threshold |[See "visibility"](#visibility)|
+|Zero (Extreme) visibility        |+5 to threshold |[See "visibility"](#visibility)|
+|Severe/Extreme precipitation     |+2 to threshold |[See "precipitation"](#precipitation)|
+|Extreme Wind                     |+2 to threshold |[See "wind"](#wind)|
+|Homeland/"Terrain Mastery"       |+2 bonus to roll|                  |
+
+_Summary table for camping:_
+|Terrains (camping)            |Threshold         |Additional Effects|
+|------------------------------|------------------|------------------|
+|Plains, Roads, Woodlands      |5                 |                  |
+|Deep Forest, Hills, Ruins     |10                |                  |
+|Fells, Subterranean           |15                |                  |
+|Desert, Mountain, Swamp       |20                |                  |
+|Visibility: Zero (Extreme)    |+2 to threshold   |[See "visibility"](#visibility)|
+|Precipitation: Severe/Extreme |+2 to threshold   |[See "precipitation"](#precipitation)|
+|Wind: Severe                  |+2 to threshold   |[See "wind"](#wind)|
+|Wind: Extreme                 |+5 to threshold   |[See "wind"](#wind)|
+|Temperature: Severe (+40/-10) |+2 to threshold   |[See "temperature"](#temperature)|
+|Temperature: Extreme (+50/-30)|+5 to threshold   |[See "temperature"](#temperature)|
+|Temperature: Lethal (+65/-60) |camping impossible|[See "temperature"](#temperature)|
+|Homeland/"Terrain Mastery"    |+2 bonus to roll  |                  |
 
 ___
 ### Travel and getting lost
@@ -600,7 +609,7 @@ When entering an area that is on fire or making contact with a fire a character 
 Damage from fire is usually determined by size (as per the table below), but can be vary, especially for supernatural fire, or specific types of fire (for example the flames in a blast furnace would be hotter and hence more damaging that a bonfire of the same size).
 
 |'radius' of Fire|Damage|Save threshold|
-|-|-|-|
+|----------------|------|--------------|
 |5 ft or less    |1d8   |13|
 |10-20 ft        |2d8   |16|
 |20 ft or more   |3d8   |20|
@@ -629,19 +638,19 @@ Most characters are morals and therefore require **sustenance** and suffer from 
 - A mortal that is deteriorating without sustenance stops deteriorating when sustenance is returned. However if sustenance is withdrawn within a given time period, the deterioration begins immediately.
 - The time periods can be modified by various factors. Usually environmental factors.
 
-|Sustenance Kind|starvation name|duration before starvation|refractory period|
-|-|-|-|-|
-| **Air**|suffocation|[CON] minutes|[10 minutes - [CON]]|
-|**Water**|dehydration|[CON] days|[2 days]|
-|**Food**|starvation|[[CON] x 3] days|[10 - [CON]] days|
-|**Sleep**|insomnia|[1 + [CHA]] days|[8 - [CHA]] days|
+|Sustenance Kind|starvation name|duration before starvation|refractory period   |
+|---------------|---------------|--------------------------|--------------------|
+| **Air**       |suffocation    |[CON] minutes             |[10 minutes - [CON]]|
+|**Water**      |dehydration    |[CON] days                |[2 days]            |
+|**Food**       |starvation     |[[CON] x 3] days          |[10 - [CON]] days   |
+|**Sleep**      |insomnia       |[1 + [CHA]] days          |[8 - [CHA]] days    |
 
-|Starvation name|effect|restoration time|
-|-|-|-|
-|**Suffocation**| Lose 2d6 HP every minute.|short rest|
-|**Dehydration**|Lose 1 SP dice per hour from your maximum.|long rest|
-|**Starvation**|Lose 1 SP dice per day from your maximum.|full rest|
-|**Insomnia**|Lose 3 SP AND 3 MP dice per day from your maximum.|full rest|
+|Starvation name|effect                                            |restoration time|
+|---------------|--------------------------------------------------|----------------|
+|**Suffocation**|Lose 2d6 HP every minute.                         |short rest      |
+|**Dehydration**|Lose 1 SP dice per hour from your maximum.        |long rest       |
+|**Starvation** |Lose 1 SP dice per day from your maximum.         |full rest       |
+|**Insomnia**   |Lose 3 SP AND 3 MP dice per day from your maximum.|full rest       |
 
 If an entity's SP/MP dice maximum reaches zero through any form of privation, it will lose HP at the same rate.
 

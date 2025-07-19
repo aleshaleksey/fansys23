@@ -781,17 +781,17 @@ ___
 **Prerequisite**: You must have at least one level of "global" or "incantation" or "nature" magic to gain this ability.
 
 |Ability Level|Min Level|Dmg. dice|Attack bonus|HP|SP|MP|Permitted class|Modalities|
-|-|-|-|-|-|-|-|-|-|
-|I|1|1d4|+4|3|8|4|C|walk,climb,swim|
-|II|3|1d4|+5|4|16|8|C|walk,climb,swim|
-|III|5|1d6|+6|5|24|12|B|walk,climb,swim,dig|
-|IV|7|1d8|+7|6|32|16|B|walk,climb,swim,dig|
-|V|9|1d10|+8|7|40|20|B|walk,climb,swim,dig,fly|
-|VI|11|1d12|+9|8|48|24|B|walk,climb,swim,dig,fly|
-|VII|13|2d6|+10|9|56|28|A|walk,climb,swim,dig,fly,blink|
-|VIII|15|2d8|+11|10|64|32|A|walk,climb,swim,dig,fly,blink|
-|IX|17|2d10|+12|11|72|36|A|all|
-|X|19|2d12|+13|12|80|40|S|all|
+|-------------|---------|---------|------------|--|--|--|---------------|----------|
+|I            |1        |1d4      |+4          |3 |8 |4 |C              |walk,climb,swim|
+|II           |3        |1d4      |+5          |4 |16|8 |C              |walk,climb,swim|
+|III          |5        |1d6      |+6          |5 |24|12|B              |walk,climb,swim,dig|
+|IV           |7        |1d8      |+7          |6 |32|16|B              |walk,climb,swim,dig|
+|V            |9        |1d10     |+8          |7 |40|20|B              |walk,climb,swim,dig,fly|
+|VI           |11       |1d12     |+9          |8 |48|24|B              |walk,climb,swim,dig,fly|
+|VII          |13       |2d6      |+10         |9 |56|28|A              |walk,climb,swim,dig,fly,blink|
+|VIII         |15       |2d8      |+11         |10|64|32|A              |walk,climb,swim,dig,fly,blink|
+|IX           |17       |2d10     |+12         |11|72|36|A              |all|
+|X            |19       |2d12     |+13         |12|80|40|S              |all|
 
 ___
 #### Bind Familiar I-IV

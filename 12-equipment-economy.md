@@ -77,7 +77,7 @@ By default, this game uses an anachronistic mix of modern pound (lb) measurement
 
 
 | Currency              | Weight(lb) | Conversion from obols | Weight (g) |
-| ----------------------- | ------------ | ----------------------- | ------------ |
+| --------------------- | ---------- | --------------------- | ---------- |
 | Obol                  | 1/600      | 1                     | 0.76       |
 | Drachma               | 1/100      | x6                    | 4.5        |
 | Dekadrachma           | 1/10       | x60                   | 45         |
@@ -126,7 +126,7 @@ Availability, crafting time and price of higher level materials may be lower in 
 
 
 | Level | Attack bonus | Damage bonus | Armour bonus | Shield bonus | Typical cost | Crafting time |
-| ------- | -------------- | -------------- | -------------- | -------------- | -------------- | --------------- |
+| ------| ------------ | ------------ | ------------ | ------------ | ------------ | ------------- |
 | 1     | 0            | 0            | 0            | 0            | x1           | x1            |
 | 2     | +1           | +1           | +1           | +1           | x4           | x2            |
 | 3     | +2           | +1           | +2           | +1           | x27          | x4            |
@@ -139,7 +139,7 @@ This table contains a basic list of materials. This can, and should, be expanded
 
 
 | Absolute rank | Material               | Level | Type            | Notes                                                                            |
-| --------------- | ------------------------ | ------- | ----------------- | ---------------------------------------------------------------------------------- |
+| ------------- | ---------------------- | ----- | --------------- | -------------------------------------------------------------------------------- |
 | 0             | Divine Source          | 5     | Any             | Endows divine alignment, indestructible by lower rank materials except "profane" |
 | 1             | Adamantium             | 4     | Metal           | Weight x2 of base weight, indestructible by lower rank materials                 |
 | 2             | Dragon Source          | 4     | Hide/Bone/Ivory | gives advantage to intimidate animals and monsters                               |
@@ -184,7 +184,7 @@ See the "[weapons properties table](11-weapons-armour.md#weapon-table)" for deta
 
 
 | Weapon          | Weight (lb) | Cost (sp) | Material  Cost (sp) | crafting days | "ancient" | "medieval" | "late"   |
-| ----------------- | ------------- | ----------- | --------------------- | --------------- | ----------- | ------------ | ---------- |
+| --------------- | ----------- | --------- | ------------------- | ------------- | --------- | ---------- | -------- |
 | Throwing axe    | 2           | 30        | 15                  | 1             | yes       | yes        | yes      |
 | Hand axe        | 2           | 30        | 15                  | 1             | yes       | yes        | yes      |
 | War shovel      | 2           | 30        | 15                  | 1             | no        | no         | yes      |
@@ -237,7 +237,7 @@ See the "[weapons properties table](11-weapons-armour.md#weapon-table)" for deta
 
 
 | Weapon                            | Weight (lb) | Cost (sp) | crafting days | "ancient" | "medieval" | "late" |
-| ----------------------------------- | ------------- | ----------- | --------------- | ----------- | ------------ | -------- |
+| --------------------------------- | ----------- | --------- | ------------- | --------- | ---------- | ------ |
 | Arrow for short/composite bow(24) | 2.4         | 5         | 0.5           | yes       | yes        | yes    |
 | Arrow for long/great bow(24)      | 4.8         | 5         | 0.5           | yes       | yes        | yes    |
 | Crossbow bolt(24)                 | 4.8         | 5         | 0.5           | rare      | yes        | yes    |
@@ -252,7 +252,7 @@ See the "[armour properties table](11-weapons-armour.md#the-armour-table)" for d
 
 
 | Armour Type     | Weight (lb) | Cost (sp) | Material Cost (sp) | crafting days | "ancient" | "medieval" | "late"   |
-| ----------------- | ------------- | ----------- | -------------------- | --------------- | ----------- | ------------ | ---------- |
+| --------------- | ----------- | --------- | ------------------ | ------------- | --------- | ---------- | -------- |
 | Leather Cuirass | 10          | 75        | 50                 | 3             | yes       | yes        | yes      |
 | Chain Shirt     | 20          | 280       | 200                | 5             | no        | yes        | yes      |
 | Full Padded     | 10          | 55        | 50                 | 1             | yes       | yes        | yes      |
@@ -277,7 +277,7 @@ Labour costs are given in silver (sp) per day (10-12 hours). Labour that does no
 
 
 | Labour type                   | ancient | medieval | late    |
-| ------------------------------- | --------- | ---------- | --------- |
+| ----------------------------- | --------| -------- | ------- |
 | Unskilled                     | 0       | 1        | 2       |
 | Trained                       | 0       | 2        | ~5      |
 | Artisan (mason)               | 0-4     | 8        | 20      |
@@ -320,7 +320,7 @@ This table is for medium sized humanoids. For every increase in size category, u
 
 
 | Item                   | ancient | medieval | late |
-| ------------------------ | --------- | ---------- | ------ |
+| ---------------------- | ------- | -------- | ---- |
 | Unskilled              | 0.5     | 1        | 2    |
 | Trained                | 0.5     | 2        | 4    |
 | Artisan (mason)        | 1       | 2        | 10   |
@@ -339,7 +339,7 @@ This table provides some numbers for how much of a resource one can expect to ha
 
 
 | Item   | Yield ancient | Yield medieval | Yield late |
-| -------- | --------------- | ---------------- | ------------ |
+| ------ | ------------- | -------------- | ---------- |
 | Wheat  | 320lb         | 320lb          | 800lb      |
 | Apple  | 4000lb        | 4000lb         | 8000lb     |
 | Lumber |               |                |            |
@@ -354,7 +354,7 @@ This table provides some numbers for how much of a resource one can expect to ha
 
 
 | Item                  | weight (lb) | Cost (sp) | Notes |
-| ----------------------- | ------------- | ----------- | ------- |
+| --------------------- | ----------- | --------- | ----- |
 | Ale, poor (gallon)    | 10          | 1         |       |
 | Ale, good (gallon)    | 10          | 4         |       |
 | Cider, poor (gallon)  | 10          | 4         |       |
@@ -381,7 +381,7 @@ This table provides some numbers for how much of a resource one can expect to ha
 
 
 | Item          | weight (lb) | Cost (sp) | Notes                                                    |
-| --------------- | ------------- | ----------- | ---------------------------------------------------------- |
+| ------------- | ----------- | --------- | -------------------------------------------------------- |
 | Fleece        | 4           | 0.5       |                                                          |
 | Common furs   | 10          | -         | level I material                                         |
 | Rare furs     | 100         | -         | level I material (rare)                                  |
@@ -408,7 +408,7 @@ This table provides some numbers for how much of a resource one can expect to ha
 
 
 | Item                          | Weight (lb) | Cost (sp) | Material cost (sp) | crafting days |
-| ------------------------------- | ------------- | ----------- | -------------------- | --------------- |
+| ----------------------------- | ----------- | --------- | ------------------ | ------------- |
 | Robes                         | 6           | 60        | 45                 | 4             |
 | Cloak                         | 3           | 20        | 15                 | 2             |
 | Woollen Garments              | 4           | 45        | 30                 | 4             |
@@ -490,7 +490,7 @@ This table provides some numbers for how much of a resource one can expect to ha
 
 
 | Item                   | Cost (sp)  | crafting/rearing days | "ancient" | "medieval" | "late" |
-| ------------------------ | ------------ | ----------------------- | ----------- | ------------ | -------- |
+| ---------------------- | ---------- | --------------------- | --------- | ---------- | ------ |
 | Riding                 | 480        | -                     | yes       | yes        | yes    |
 | Draught horse          | 60         | -                     | yes       | yes        | yes    |
 | Warhorse               | 4000-80000 | -                     | yes       | yes        | yes    |
@@ -532,7 +532,7 @@ This table provides some numbers for how much of a resource one can expect to ha
 
 
 | Item                             | Cost (sp)  | crafting/rearing days       | "ancient" | "medieval" | "late" |
-| ---------------------------------- | ------------ | ----------------------------- | ----------- | ------------ | -------- |
+| -------------------------------- | ---------- | --------------------------- | --------- | ---------- | ------ |
 | 8 chickens                       | 1          | 5 months                    | rare      | yes        | yes    |
 | Sheep                            | 12         | 6 months                    | yes       | yes        | yes    |
 | Goat                             | 12         | 15 months                   | yes       | yes        | yes    |
@@ -587,7 +587,7 @@ This table provides some numbers for how much of a resource one can expect to ha
 
 
 | Item               | Cost (sp) | crafting/rearing days | "ancient" | "medieval" | "late" |
-| -------------------- | ----------- | ----------------------- | ----------- | ------------ | -------- |
+| ------------------ | --------- | --------------------- | --------- | ---------- | ------ |
 | Small house (rent) | 6/month   |                       | yes       | yes        | yes    |
 | House (rent)       | 24/month  |                       | yes       | yes        | yes    |
 | Small Manor (rent) | 90/month  |                       | yes       | yes        | yes    |
@@ -609,7 +609,7 @@ This table provides some numbers for how much of a resource one can expect to ha
 
 
 | Item                           | Cost (sp) | crafting days | "ancient" | "medieval" | "late" |
-| -------------------------------- | ----------- | --------------- | ----------- | ------------ | -------- |
+| ------------------------------ | --------- | ------------- | --------- | ---------- | ------ |
 | Diver's kit                    |           |               | no        | rare       | yes    |
 | Climber's kit                  |           |               |           |            |        |
 | Entrenching tools              | 30        |               | yes       | yes        | yes    |

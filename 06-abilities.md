@@ -101,6 +101,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Aphonic Spell](#aphonic-spell)
 - [Bind Beast (I-X)](#bind-beast-i-x)
 - [Bind Familiar (I-IV)](#bind-familiar-i-iv)
+- [Charm I-IV](#charm-i-iv)
 - [Forbidden Spell](#forbidden-spell)
 - [Lingering Spell](#lingering-spell)
 - [Still Spell](#still-spell)
@@ -847,6 +848,39 @@ ___
 |Kinetic|Immunity to "immobilise", "grapple", "restrain"|"Parry"|
 |Natural|Resistance to all "energy"|"Guide"|
 |Global|Resistance to all conditions|"Least Ward"|
+
+___
+#### Charm I-IV
+
+**Type**: (Class B-S)
+
+**Description**: Expend MP dice to attempt to "[charm](10-conditions-types.md#charmed)" one or more targets as a "main action".
+
+**Action**: Declare "charm" and your target as a main action and expend the requisite number of MP dice. The target must succeed a WIS save vs your INT threshold. If it fails it is charmed for the full duration.
+
+**Exertion**: Yes.
+
+**Limitation**:
+- You must have line of sight to your target and your target must be aware of you.
+- The effect ends if the you or an entity perceived by the target as your ally attacks (or applies a harmful effect) the target. Likewise the spell ends if the target is commanded to attack or apply a harmful effect to itself, unless it is already inclined to do so.
+- The target is not necessarily aware that it has been charmed, unless it succeeds a "knowledge:arcana" roll to identify the effect.
+- On a failed save, a target that has successfully identified the source of the effect with a successful "knowledge:arcana" roll (and only one that has successfully identified the source of the effect) may choose to deal HP damage to itself to end the effect (if it has the capacity to do so). The damage dealt must be equal or greater than your level.
+- "Divine" or "entropic" damage dealt to the target immediately ends the effect, regardless to whether it is aware that it is charmed or not.
+
+**Special**:
+- Charm I: If the target succeeds its save by 6 or more, you are charmed by the target.
+- Charm II: If the target succeeds by 12 or more, you are charmed by the target.
+- A mortal attempting to charm a "[divine](10-conditions-types.md#divine), must make a CHA save vs the target's threshold, or be charmed instead.
+- You can extend the effect as a non-action, however, the target does get to roll a new CHA save. Every time the effect is extended in this way, the target gains a +1 bonus to the save. If the effect is allowed to expire, and you attempt to charm the same target again, the bonus to the save is reset.
+- You are treated as "concentrating" on a spell for maintaining the effect, although you can add targets up to the maximum allowed without breaking the effect.
+
+**Table**:
+|Charm Level|Prerequisites         |MP dice cost      |Range|Maximum duration|Maximum number of targets|
+|-----------|----------------------|------------------|-----|----------------|-------------------------|
+|I          |6 MP dice             |2 per target      |Close|1 hour          |1                        |
+|II         |12 MP dice + Charm I  |2 per target      |30ft |2 hours         |2                        |
+|III        |18 MP dice + Charm II |1 per target      |60ft |3 hours         |4                        |
+|IV         |24 MP dice + Charm III|1 per target      |120ft|1 day           |unlimited                |
 
 ___
 #### Lingering Spell

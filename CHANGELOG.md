@@ -421,6 +421,7 @@ ____
 - Add "[Rapid shot](06-abilities.md#rapid-shot)" ability.
 - Reduce the bonus given by [terrain mastery](06-abilities.md#terrain-mastery) from +4 to +2.
 - Elaborate on commanding the beast for [bind beast](06-abilities.md#bind-beast-i-x).
+- Added [Charm](06-abilities.md#charm-i-iv).
 
 ### Spells
 - Amended [command mortal](08-spell-list.md#command-mortal) to account for self harming.

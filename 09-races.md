@@ -409,7 +409,7 @@ This represents a low-grade vampire. Its type is undead, but due to lack of poin
 - Resistant to "poison", "necrotic". (2)
 - Immune to "unconscious", "frightened", "charmed". (14)
 - Alternate form: Bat. (4 points)
-- Lesser Charm. (2)
+- Charm I. (2)
 - Xenophonia (undead, beasts, monsters). (6)
 - Vampiric Bite: A vampire can make a STR based bite attack dealing 1d4+[STR] damage. If this causes HP damage to а mortal with blood, the vampire regains that number of HP. If the vampire is already at full HP, its STR increases by the number of points of damage dealt to the target's HP for 1 minute. (8)
 

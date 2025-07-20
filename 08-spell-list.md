@@ -121,6 +121,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 
 ### MP 5
 - [Blessing of the Winds](#blessing-of-the-winds)
+- [Dominate Mortal](#dominate-mortal)
 - [Flame Stride](#flame-stride)
 - [Flare](#flare)
 - [Flawed Transmute](#flawed-transmute)
@@ -1687,7 +1688,7 @@ ___
 **Description**: The target is "charmed". In addition it will follow your up to 3 commands as if it was "allied". After the completion of each command it may make a Wis save to end the spell.
 
 **Special**:
-+ The spell ends if the caster or an entity perceived by the target as the caster's ally attacks (or applies a harmful effect) the target.
++ The spell ends if the caster or an entity perceived by the target as the caster's ally attacks (or applies a harmful effect) the target. Likewise the spell ends if the target is commanded to attack or apply a harmful effect to itself, unless it is already inclined to do so.
 + The target is not necessarily aware that it has been charmed, unless it succeeds a "knowledge:arcana" roll to identify the spell.
 + If the command involves harming an entity with which its relationship is "sworn", or helping an entity with which its relationship is "nemesis" it gets an additional save against the spell.
 
@@ -2070,7 +2071,7 @@ ___
 - If the spell is cast as a reaction, it cannot be upcast.
 - At 5MP and higher the spell is no longer concentration.
 
-**Global:** This is one of the lesser barrier spells. Cast globally it extends over a radius of 300ft centered on a square/point and lasts for a week. For every 4MP extra either the duration increases by a week or the radius increases by 300ft.
+**Global:** This is one of the lesser barrier spells. Cast globally it extends over a radius of 300ft centered on a square/point and lasts for a week. For every 4 MP dice extra either the duration increases by a week or the radius increases by 300ft.
 
 ___
 ### Summer's Blade
@@ -2770,6 +2771,34 @@ ___
 - The target has advantage of acrobatics and fly rolls, as well as DEX saves. It can sacrifice this affect until the start of its next turn to instead apply an extra "[basic combat manoeuvre](04-combat.md#basic-martial-manoeuvres)" if it is using its main action to attack.
 
 **Upcast**: For every extra MP dice above 5, the target's movement speed increases by 20ft, or an extra target can be affected.
+
+___
+### Dominate Mortal
+|Name|Dominate Mortal [Curse]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|5 (10)|
+|Target(s)|1 entity|
+|Casting time|1 action (5 hours + 1 hour per MP die)|
+|Range|30ft|
+|Duration|1 hour (1 week+)|
+|Components|incantation, kinetic|
+|Concentration|local|
+|Limitation|Only affects mortals|
+|Save|WIS/CHA|
+
+**Description**: The caster attempts to dominate the mind of a mortal, triggering a WIS save at the start of the target's next turn. If the target fails the save, it is "[dominated](10-conditions-types.md#dominated)" by the caster until the end of the spell. The target does not get repeated saves against the effect unless certain conditions are met (see below).
+
+When dominated the target takes no action or reactions (other than movement or communication). Secondly the caster can use any of its own actions through the dominated target. This happens on the caster's turn (although reactions can obviously occur at any time).
+
+**Special**:
++ Actions taken through the target by the caster use the target's stats, skills, proficiencies, abilities, movement speed and modalities, but the caster's [actions](04-combat.md#actions-in-combat).
++ The target is aware that it is not in control of its body. It can identity the origin of the effect by succeeding a "knowledge:arcana" roll.
++ The target retains all memories of its actions while dominated. If it recognises who dominated it, it also retains this memory.
++ If a command involves harming itself, or an entity with which its relationship is "sworn", or helping an entity with which its relationship is "nemesis" it gets an additional save against the spell at advantage. The save is a CHA save.
++ If the target receives "divine" or "entropic" damage while under effect of the spell, the spell ends.
+
+**Global**: The spell lasts for a week, and is not concentration. For every 4 MP dice extra, the spell lasts for an extra day.
 
 ___
 ### Flame Stride
@@ -4814,6 +4843,7 @@ ____
     - [Flood](#flood)
 - Other
     - [Summon Fiend](#summon-fiend)
+    - [Dominate Mortal](#dominate-mortal)
 
 ### MP 6
 
@@ -4964,3 +4994,6 @@ ___
 |Material||
 |Limitation||
 |Save||
+ 
+
+

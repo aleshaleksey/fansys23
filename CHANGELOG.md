@@ -400,6 +400,7 @@ ____
 - Fill in some placeholders for [camping](03-movement-exploration.md#camping).
 - Likewise reduce homeland bonus from +5 to +2.
 - Revamped prices for equipment (clothing and stuff is now less brutal). These are now based on the cost of materials and labour instead of averaged out prices.
+- Added [possession](10-conditions-types.md#possessed) and [domination](10-conditions-types.md#dominated) mechanics for testing.
 
 ### Movement and Exploration
 - Added the obvious note that items are immune to poison damage.
@@ -409,6 +410,7 @@ ____
 - Added clarification to [breaking and entering](03-movement-exploration.md#breaking) that attack rolls against objects against objects should only be made when missing can make a difference to the outcome.
 - Decreased journey time regained to 2 hours per short rest instead of 5 hours.
 - Fixed [Falling rules](03-movement-exploration.md#falling) wording to use acrobatics roll instead of dex.
+- Reformatted summary table of scouting and camping table.
 
 ### Combat
 - Attacks of opportunity reworded and better explained. Attacks of opportunity can now only be made with up to half concealment (1/6), any more and it fails.
@@ -418,6 +420,10 @@ ____
 - Add "[Rapid shot](06-abilities.md#rapid-shot)" ability.
 - Reduce the bonus given by [terrain mastery](06-abilities.md#terrain-mastery) from +4 to +2.
 - Elaborate on commanding the beast for [bind beast](06-abilities.md#bind-beast-i-x).
+
+### Spells
+- Amended [command mortal](08-spell-list.md#command-mortal) to account for self harming.
+- Added [dominate mortal](08-spell-list.md#dominate-mortal) for testing.
 
 ### Weapons and Armour
 - Greatbow increased to 1d12. This isn't going to backfire at all.

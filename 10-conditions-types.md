@@ -315,9 +315,11 @@ Profane beings are those that have been cursed by creation and whose nature driv
 Entities can be affected by a number of conditions, most of them bad. For now these include (and all are badly defined!). Conditions are classified in S to C class based on how much trouble an entity is in if it is afflicted by it. This starts from deadly peril (S) to mildly inconvenient (C). Of course classification is not always absolute.
 
 - "**Doomed**": S++ Class
+- "**Dominated**": S Class
 - "**Dying**": S Class
 - "**Helpless**": S Class
 - "**Paralysed**": S Class
+- "**Possessed**": S Class
 - "**Unconscious**": S Class
 - "**Catatonic**": A Class
 - "**Crippled**": A Class
@@ -342,8 +344,10 @@ Entities can be affected by a number of conditions, most of them bad. For now th
 
 An entity afflicted by conditions that make it unable to engage in physical combat or other activities is considered **"disabled"**. This is a useful catch all. These conditions are: "dying", "helpless", "paralysed", "unconscious", "catatonic", "immobilised", "stunned" or "surprised".
 
+___
 ### Conditions in detail
-- "**Doomed**": This entity is doomed to die. It takes 1 HP per round that cannot be prevented by ANY means. The following applies:
+#### Doomed
+This entity is doomed to die. It takes 1 HP per round that cannot be prevented by ANY means. The following applies:
   - It has disadvantage on all skill and stat rolls.
   - It has advantage to all saving throws.
   - It has advantage to all attack rolls.
@@ -352,16 +356,23 @@ An entity afflicted by conditions that make it unable to engage in physical comb
   - Every time it takes a "move", "main" or "secondary" action it loses 1 HP.
   - Every time it takes a "run", "sprint" or "full round action" it loses 2 HP.
   - As a "dying" entity, a doomed entity dies when it reaches minus its total HP (or, if higher, CON score).
-- "**Dying**": This entity cannot do anything other than make CON saves (threshold = 20) or lose 1 HP per round. It usually suffers from most of the detriments of "Unconscious". If they reach their minus their HP total, or minus their CON (CHA for incorporeal beings) if it is higher than their HP, they die. If they succeed before that, or heal at least 1 HP, they stop losing HP and become "Unconscious".
+
+___
+#### Dying
+This entity cannot do anything other than make CON saves (threshold = 20) or lose 1 HP per round. It usually suffers from most of the detriments of "Unconscious". If they reach their minus their HP total, or minus their CON (CHA for incorporeal beings) if it is higher than their HP, they die. If they succeed before that, or heal at least 1 HP, they stop losing HP and become "Unconscious".
   - **Special**: When an entity gains the dying condition, it may choose to instead take the "**Doomed**" status, although this is usually ill advised.
-- "**Unconscious**": An unconscious character can make CON and CHA saves, and communicate telepathically under certain circumstances. It can take no other actions. In addition it has the following problems:
+
+#### Unconscious
+An unconscious character can make CON and CHA saves, and communicate telepathically under certain circumstances. It can take no other actions. In addition it has the following problems:
   - It does not gain [STATS] to AC.
   - It it can fall prone, it falls prone.
   - All melee attacks against it are at super-advantage.
   - All damage bypasses SP and MP.
   - It cannot cast or concentrate on spells or take any actions.
   - It cannot perceive the outside world or think rationally.
-- "**Helpless**": A helpless character is in a condition where they cannot protect themselves. Usually they are otherwise compromised.
+
+#### Helpless
+A helpless character is in a condition where they cannot protect themselves. Usually they are otherwise compromised.
   - It does not gain [STATS] to AC.
   - It it can fall prone, it falls prone.
   - All melee attacks are at super-advantage.
@@ -369,7 +380,9 @@ An entity afflicted by conditions that make it unable to engage in physical comb
   - It cannot make saves other than CON, CHA and WIS.
   - It cannot move or take take actions other than [WIS] based skill checks.
   - If it can communicate, it cannot do so "loudly" enough to gain attention from afar without a [SKILL] check from the recipient.
-- "**Paralysed**": A paralysed character cannot take physical actions:
+
+#### Paralysed
+A paralysed character cannot take physical actions:
   - This means it cannot move.
   - It does not gain physical [STATS] to AC.
   - Physical melee attacks against it have super-advantage.
@@ -378,25 +391,117 @@ An entity afflicted by conditions that make it unable to engage in physical comb
   - Natural damage bypasses SP.
   - It cannot make [STR] or [DEX] saves.
   - It cannot use [SKILLS], attacks or cast spells that require the use of its body (including "incantations" and "kinetic components").
-- "**Crippled**": This character cannot use one or more limbs.
+
+#### Possessed
+A possessed character has an indwelling spirit that is not its own, that may subsume control of their body.
+  - Only a character with a body can be possessed.
+  - A body can be possessed by any number of spirits, but if the total level of the spirits exceeds twice the character's level, the character loses one SP dice per hour (and subsequently 1 HP per hour), until the body dies.
+  - A possessed body acts normally, but is entirely under control of the currently active spirit and uses only the skills, abilities and CHA score of the currently active spirit.
+
+#### Dominated
+The mind of a dominated character is wholly under the control of an external force.
+  - A dominated character has disadvantage on all CHA rolls.
+  - While the dominating character is not actively controlling their charge, they are considered incapacitated.
+  - When the dominating character is in active control, they may act through the dominated character, using abilities, proficiencies, skills and stats of the dominated character.
+  - When a dominated character is commanded to perform a task that is against their nature, they gain a chance to save against the domination. They also have a chance to save when they receive "divine" or "entropic" damage.
+
+___
+#### Catatonic
+A catatonic character loses the will to act and cannot take actions.
+  - It cannot make attacks, use physical abilities or cast spells.
+  - It cannot use skills other than those that are involved in perceiving the world.
+  - It cannot move.
+  - It has disadvantage on all saves.
+
+#### Crippled
+This character cannot use one or more limbs.
   - Creatures crippled in movement related limbs cannot "run", "sprint" and move at half pace (or "crawl").
   - Creatures crippled in prehensile limbs cannot hold weapons or manipulate objects. They have problems completing "kinetic" components.
-- "**Incapacitated**": This creature cannot take actions (other than movement or communication) or reactions in combat.
-  - Attacks against it have advantage.
-- "**Immobilised**": An immobilised character is in trouble.
+
+#### Immobilised
+An immobilised character is in trouble.
   - It has a movement speed of 0ft.
   - It cannot make [DEX] or [STR] saves, attacks.
   - It cannot cast spells with kinetic components.
   - Attacks against it have advantage.
-  - It cannot use [DEX] and [STR] based skills or abilities except some escape related skills, and even then at super-disadvantage.
-- "**Restrained**": A restrained character has problems. It has a movement speed of 0ft and suffers from one or more of the following:
+  - It cannot use [DEX] and [STR] based skills or abilities except some escape related skills, and even then at super-disadvantage. 
+
+#### Incapacitated
+This creature cannot take actions (other than movement or communication) or reactions in combat.
+  - Attacks against it have advantage.
+
+#### Stunned
+A stunned character briefly loses control of their body and mind. Stun is a short term effect and ALWAYS provides a [SAVE] every round.
+  - It does not gain physical[STATS] to AC.
+  - It it can fall prone, it falls prone.
+  - Physical attacks against it have advantage (unless the attack is ranged and the character is prone).
+  - It cannot make [STR], [DEX] or [CHA] saves.
+  - It cannot use [SKILLS], attacks or cast spells that require the use of its body (including "incantations" and "kinetic" components).
+
+___
+#### Bleeding/Wilting
+A bleeding character loses HP every round. A [CON] save, or appropriate healing can stem this effect.
+
+#### Blinded
+A blinded character cannot perceive visual input:
+  - It cannot use [WIS] based skills based on sight.
+  - It had disadvantage on [DEX] based skills.
+  - All targets have full concealment (5/6 miss chance) from you for the sake of targeted attacks. Ranged attacks beyond 60ft are also at disadvantage.
+  - It has disadvantage on [WIS] and [DEX] based saves.
+
+#### Charmed
+A charmed character cannot attack the source of its charm. It has disadvantage against [WIS], [CHA], [INT] saves vs it. In theory it perceives its words and actions in the most favourable manner. In practice players are players.
+  - Charmed creatures have disadvantage on deception rolls vs their charmer.
+  - When a charmed character is requested/commanded to perform a task that is against their nature, they gain a chance to save against the charm.
+
+#### Frightened
+A frightened character has disadvantage on targeted attacks. It must use its movement to move away from the source of its fear.
+
+#### Restrained
+A restrained character has problems. It has a movement speed of 0ft and suffers from one or more of the following:
   - It cannot make kinetic components for spells.
   - It has disadvantage on physical attacks and [DEX] saves.
   - Attacks against it have advantage.
-- "**Grappled**": A grappled character has a movement speed of 0ft.
-- "**Glowing**": An glowing character cannot stealth and is never invisible.
+
+#### Surprised
+A surprised character dropped the ball. It cannot take any actions. This condition seldom exists outside of the first round of combat.
+  - It does not gain [STATS] to AC.
+
+___
+#### Aphonic
+An aphonic character cannot communicate vocally (or verbally).
+  - This means that skills and abilities requiring speech automatically fail.
+  - Incantations ALWAYS fail.
+  - The character cannot scream, even if they must.
+
+#### Deafened
+A deafened character cannot perceive sound. It cannot hear. It can speak only stutteringly. It must make an [INT] save to complete Incantations (unless it is deaf for longer than month).
+#### Diseased
+Afflicted by a disease. The effect varies with disease (see "[Diseases](14-poisons-and-diseases.md#diseases)").
+
+#### Glowing
+An glowing character cannot stealth and is never invisible.
   - Attacks by entities whose main sense is sight against a glowing character have advantage.
-- "**Prone**": A prone character is intimate with the ground.
+
+#### Grappled
+A grappled character has a movement speed of 0ft.
+
+#### Inaudible
+A silent character makes no sound. It can neither make sounds willingly or unwillingly
+  - It cannot complete incantations or communicate verbally.
+  - Rolls to detect the character based on sound ALWAYS fail.
+
+#### Invisible
+This character cannot be directly detected by visual means (aka sight). Characters are considered "blinded" in relation to invisible creatures.
+
+#### Poisoned
+Afflicted by a poison. This has the following general effects:
+  - A poisoned entity's base speed is halved.
+  - The entity makes all rolls at disadvantage.
+  - The specific poison may also cause additional effects (see "[Poisons](14-poisons-and-diseases.md#poisons)").
+
+#### Prone
+A prone character is intimate with the ground.
   - It can only move at a crawl.
   - Melee attacks have advantage against it.
   - Ranged attacks have disadvantage against it.
@@ -404,43 +509,11 @@ An entity afflicted by conditions that make it unable to engage in physical comb
   - It has disadvantage at [STR] and [DEX] saves.
   - It has advantage at skills used in hiding, but may suffer penalties to perception.
   -  Flying entities that are knocked prone, drops a distance equal to its speed and can only move at half speed on its next turn. If this drop causes it to hit the ground, it suffers all of the consequences of falling (see "[Falling](03-movement-exploration.md#Falling)" section).
-- "**Catatonic**": A catatonic character loses the will to act and cannot take actions.
-  - It cannot make attacks, use physical abilities or cast spells.
-  - It cannot use skills other than those that are involved in perceiving the world.
-  - It cannot move.
-  - It has disadvantage on all saves.
-- "**Stunned**": A stunned character briefly loses control of their body and mind. Stun is a short term effect and ALWAYS provides a [SAVE] every round.
-  - It does not gain physical[STATS] to AC.
-  - It it can fall prone, it falls prone.
-  - Physical attacks against it have advantage (unless the attack is ranged and the character is prone).
-  - It cannot make [STR], [DEX] or [CHA] saves.
-  - It cannot use [SKILLS], attacks or cast spells that require the use of its body (including "incantations" and "kinetic" components).
-- "**Charmed**": A charmed character cannot attack the source of its charm. It has disadvantage against [WIS], [CHA], [INT] saves vs it. In theory it perceives its words and actions in the most favourable manner. In practice players are players.
-  - Charmed creatures have disadvantage on deception rolls vs their charmer.
-- "**Frightened**": A frightened character has disadvantage on targeted attacks. It must use its movement to move away from the source of its fear.
-- "**Poisoned**": Afflicted by a poison. This has the following general effects:
-  - A poisoned entity's base speed is halved.
-  - The entity makes all rolls at disadvantage.
-  - The specific poison may also cause additional effects.
-- "**Diseased**": Afflicted by a disease. The effect varies with disease (see "[Diseases](14-poisons-and-diseases.md#diseases)").
-- "**Bleeding/Wilting**": A bleeding character loses HP every round. A [CON] save, or appropriate healing can stem this effect.
-- "**Inaudible**": A silent character makes no sound. It can neither make sounds willingly or unwillingly
-  - It cannot complete incantations or communicate verbally.
-  - Rolls to detect the character based on sound ALWAYS fail.
-- "**Aphonic**": An aphonic character cannot communicate vocally (or verbally).
-  - This means that skills and abilities requiring speech automatically fail.
-  - Incantations ALWAYS fail.
-  - The character cannot scream, even if they must.
-- "**Blinded**": A blinded character cannot perceive visual input:
-  - It cannot use [WIS] based skills based on sight.
-  - It had disadvantage on [DEX] based skills.
-  - All targets have full concealment (5/6 miss chance) from you for the sake of targeted attacks. Ranged attacks beyond 60ft are also at disadvantage.
-  - It has disadvantage on [WIS] and [DEX] based saves.
-- "**Invisible**": This character cannot be directly detected by visual means (aka sight). Characters are considered "blinded" in relation to invisible creatures.
-- "**Deafened**": A deafened character cannot perceive sound. It cannot hear. It can speak only stutteringly. It must make an [INT] save to complete Incantations (unless it is deaf for longer than month).
-- "**Surprised**": A surprised character dropped the ball. It cannot take any actions. This condition seldom exists outside of the first round of combat.
-  - It does not gain [STATS] to AC.
 
+
+
+
+___
 ### Conditions by Damage Type
 
 When an entity loses HP (but *NOT* MP or SP) due to a named damage type, it may gain one of the following damage types. If it meets the condition, it rolls a d6, and the condition is determined by the roll

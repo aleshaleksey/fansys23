@@ -394,16 +394,16 @@ A paralysed character cannot take physical actions:
 
 #### Possessed
 A possessed character has an indwelling spirit that is not its own, that may subsume control of their body.
-  - Only a character with a body can be possessed.
-  - A body can be possessed by any number of spirits, but if the total level of the spirits exceeds twice the character's level, the character loses one SP dice per hour (and subsequently 1 HP per hour), until the body dies.
+  - Only an entity  with a body can be possessed.
+  - A body can be possessed by any number of spirits, but if the total level of the spirits exceeds twice the entity's level, the entity loses one SP dice per hour (and subsequently 1 HP per hour), until the body dies.
   - A possessed body acts normally, but is entirely under control of the currently active spirit and uses only the skills, abilities and CHA score of the currently active spirit.
   - When a possessing entity uses the possessed body to perform an action that is against the possessed entity's nature, the possessed entity gains a chance to save against the domination. They also have a chance to save when they receive "light"[supernatural], "divine" or "entropic" damage.
 
 #### Dominated
 The mind of a dominated character is wholly under the control of an external force.
   - A dominated entity has disadvantage on all CHA rolls.
-  - While the dominating character is not actively controlling their charge, the dominated entity is considered incapacitated.
-  - When the dominating character is in active control, they may act through the dominated entity, using abilities, proficiencies, skills and stats of the dominated entity.
+  - While the dominating entity is not actively controlling their charge, the dominated entity is considered incapacitated.
+  - When the dominating entity is in active control, they may act through the dominated entity, using abilities, proficiencies, skills and stats of the dominated entity.
   - When a dominated entity is commanded to perform a task that is against their nature, they gain a chance to save against the domination. They also have a chance to save when they receive "divine" or "entropic" damage.
 
 ___

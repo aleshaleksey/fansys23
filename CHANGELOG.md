@@ -401,6 +401,7 @@ ____
 - Likewise reduce homeland bonus from +5 to +2.
 - Revamped prices for equipment (clothing and stuff is now less brutal). These are now based on the cost of materials and labour instead of averaged out prices.
 - Added [possession](10-conditions-types.md#possessed) and [domination](10-conditions-types.md#dominated) mechanics for testing.
+- Added [notes on the use of charm](15-charm-etc.md).
 
 ### Movement and Exploration
 - Added the obvious note that items are immune to poison damage.
@@ -424,6 +425,7 @@ ____
 ### Spells
 - Amended [command mortal](08-spell-list.md#command-mortal) to account for self harming.
 - Added [dominate mortal](08-spell-list.md#dominate-mortal) for testing.
+- Added [forced possession](08-spell-list.md#forced-possession) for testing.
 
 ### Weapons and Armour
 - Greatbow increased to 1d12. This isn't going to backfire at all.

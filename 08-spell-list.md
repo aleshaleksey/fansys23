@@ -141,6 +141,8 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 
 ### MP 6
 - [Fairy Feast](#fairy-feast)
+- [False Regrowth](#false-regrowth)
+- [Forced Possession](#forced-possession)
 - [Forest of Flame](#forest-of-flame)
 - [Greater Earth Ward](#greater-earth-ward)
 - [Greater Freedom](#greater-freedom)
@@ -148,7 +150,6 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Great Water Ward](#great-water-ward)
 - [Inner Voice](#inner-voice)
 - [Legion of Dead](#legion-of-dead)
-- [False Regrowth](#false-regrowth)
 - [Madness](#madness)
 - [Metamorphosis/Rebirth](#metamorphosisrebirth)
 - [Otherworld Step](#otherworld-step)
@@ -3295,7 +3296,37 @@ When the spell ends, the body part crumbles to dust or melts into a puddle.
 - Only affects entities with a physical form.
 - The spell has no effect on "profane" entities or those aligned with "air" or "fire".
 
-**Upcast**: For every extra MP die above 6, an extra body part can be restored.
+**Upcast**: For every extra MP die above 6, an extra body part can be restored. 
+
+___
+### Forced Possession
+|Name|Forced Possession [Curse]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|6 (12)|
+|Target(s)|1 entity|
+|Casting time|1 action|
+|Range|60ft|
+|Duration|1 hour (permanent)|
+|Components|incantation, kinetic|
+|Concentration|local|
+|Material|A red thread|
+|Limitation|The caster must have a soul|
+|Limitation|The target must be a corporeal mortal or construct|
+|Condition|[Possessed](10-conditions-types.md#possessed)|
+|Save|WIS + CHA|
+
+**Description**: The caster projects their soul into another vessel and forcefully take [possession](10-conditions-types.md#possessed) of it. The target must succeed a WIS save, or the caster's soul leaves its body and enters the host. The caster falls unconscious. The target must then succeed a CHA save at the start of their turn or be possessed by the caster, with the caster's soul as the active soul in the target's body. If this save succeeds, the caster can choose whether their soul returns to their body, ending the spell, or whether it lingers in the target's body as an inactive soul. If the target has no soul, the caster automatically takes possession of the body as the active soul.
+
+On successfully assuming control, the caster may immediately choose to send the target's soul back into their own body, hence causing the caster's body to be possessed by the target's soul (essentially this is a forced exchange of souls).
+
+**Special**:
+- If the level of foreign souls possessing the target's body exceeds twice the target's, the target loses 1 SP die at the start of each hour. If it has 0 SP dice, it instead takes 1 HP damage.
+- If the possessed entity's soul is still in its body and the possessing soul aids the possessed's "nemesis", harms the possessed's "sworn ally", or harms the possessed, the possessed may make a CHA save at advantage to break the spell.
+- Dealing "light[supernatural]", "divine" or "entropic" damage to the possessed body drives out the foreign souls, but does not return the original soul if it has left.
+- The possessed body uses its own physical stats ([STR], [DEX], [CON]) and natural movement modalities and speed, but the possessing entity's mental stats ([INT], [WIS], [CHA]), abilities, skills and proficiencies.
+
+**Global**: The spell does not require concentration and is essentially permanent. However, the target may make a CHA save at the end of each week to attempt to regain control of its body. The possession can still be ended using normal means.
 
 ___
 ### Forest of Flame
@@ -3838,6 +3869,7 @@ When the spell ends one of the following things can happen (the final decision i
 - The entity is not beholden to the caster and it is not obliged to obey the caster, although it may if it is so inclined.
 - The target entity is aware of who is trying return it and may attempt to resist. In this case the caster may disengage fom the ritual or try to force it. If the caster tries to force the issue, the target and caster make an opposed SAP roll. If the caster wins the ritual succeeds (although the caster may wish that it hadn't). If the ritual fails, the spell fails [catastrophically](07-magic-and-spellcasting.md#the-catastrophic-cascade) as if the spell was countered on the caster's location.
 - The spell can NEVER be cast on the same target more than once.
+- Unlike ordinary possession, "light[supernatural]", "divine" or "entropic" damage do nothing to drive the possessing soul out of the body.
 
 **Upcast**: For each 8MP dice put into the spell, the target stays in the mortal realm for an extra week.
 
@@ -4327,6 +4359,7 @@ Furthermore, when the spell ends and/or the deity leaves the avatar the mortal/c
 **Limitations**:
 - Divinities are often picky about who will serve as their vessel. A dark god often prefers a vessel that is innocent and "pure" that it may best damage and corrupt it, or it may prefer a powerful vessel that can be best used complete its schemes. A kind god may prefer a vessel on the brink of destruction, or one that has endured great hardships, or it may prefer a champion of its cause (This is usually for the DM to decide). A deity that is not satisfied by the offered vessel may decide to ignore the call or punish the one who calls it.
 - The divinity is aware of who is calling upon it and decide to ignore the summons. In this case the caster may disengage fom the spell or try to force it. If the caster tries to force the issue, the target and caster make an opposed SAP roll. If the caster wins the spell succeeds (although the caster will likely wish that it hadn't). If the spell fails, it fails [catastrophically](07-magic-and-spellcasting.md#the-catastrophic-cascade) as if the spell was countered on the caster's location.
+- Unlike ordinary possession, "light[supernatural]", "divine" or "entropic" damage do nothing to drive the possessing being out of the body offered up to it.
 
 **Global**: The spell lasts for as long as the vessel inhabited by the deity is not destroyed and the deity wishes to remain in it (but at least a week). Likewise, the avatar only takes the unavoidable damage when it takes a "main action" or "full round action".
 
@@ -4884,10 +4917,10 @@ ____
     - [Madness](#madness)
     - []()
 - Other
-    - [Legion of Dead](#legion-of-dead) [6]
-    - [Otherworld Step](#otherworld-step) [6]
-    - [Summon Angel](#summon-angel) [6]
-    - []()
+    - [Forced Possession](#forced-possession)
+    - [Legion of Dead](#legion-of-dead)
+    - [Otherworld Step](#otherworld-step)
+    - [Summon Angel](#summon-angel)
 
 ### MP 7
 
@@ -4954,31 +4987,6 @@ ____
     - []()
 
 ___
-
-|Name| []|
-|-|-|
-|Scope||
-|MP Dice||
-|Target(s)||
-|Casting time||
-|Range||
-|Duration||
-|Components||
-|Save||
- 
-|Name| []|
-|-|-|
-|Scope||
-|MP Dice||
-|Target(s)||
-|Casting time||
-|Range||
-|Duration||
-|Components||
-|Focus||
-|Material||
-|Limitation||
-|Save||
  
  ###
 |Name| []|
@@ -4995,5 +5003,4 @@ ___
 |Limitation||
 |Save||
  
-
 

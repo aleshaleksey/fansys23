@@ -400,10 +400,10 @@ A possessed character has an indwelling spirit that is not its own, that may sub
 
 #### Dominated
 The mind of a dominated character is wholly under the control of an external force.
-  - A dominated character has disadvantage on all CHA rolls.
-  - While the dominating character is not actively controlling their charge, they are considered incapacitated.
-  - When the dominating character is in active control, they may act through the dominated character, using abilities, proficiencies, skills and stats of the dominated character.
-  - When a dominated character is commanded to perform a task that is against their nature, they gain a chance to save against the domination. They also have a chance to save when they receive "divine" or "entropic" damage.
+  - A dominated entity has disadvantage on all CHA rolls.
+  - While the dominating character is not actively controlling their charge, the dominated entity is considered incapacitated.
+  - When the dominating character is in active control, they may act through the dominated entity, using abilities, proficiencies, skills and stats of the dominated entity.
+  - When a dominated entity is commanded to perform a task that is against their nature, they gain a chance to save against the domination. They also have a chance to save when they receive "divine" or "entropic" damage.
 
 ___
 #### Catatonic

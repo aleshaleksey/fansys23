@@ -373,7 +373,7 @@ An unconscious character can make CON and CHA saves, and communicate telepathica
 
 #### Helpless
 A helpless character is in a condition where they cannot protect themselves. Usually they are otherwise compromised.
-  - It does not gain [STATS] to AC.
+  - It does not gain [STATS] to HiT.
   - It it can fall prone, it falls prone.
   - All melee attacks are at super-advantage.
   - All damage bypasses SP and MP.
@@ -384,7 +384,7 @@ A helpless character is in a condition where they cannot protect themselves. Usu
 #### Paralysed
 A paralysed character cannot take physical actions:
   - This means it cannot move.
-  - It does not gain physical [STATS] to AC.
+  - It does not gain physical [STATS] to HiT.
   - Physical melee attacks against it have super-advantage.
   - It it can fall prone, it falls prone.
   - Physical ranged attacks against it have advantage (if it is prone this cancels out).
@@ -397,6 +397,7 @@ A possessed character has an indwelling spirit that is not its own, that may sub
   - Only a character with a body can be possessed.
   - A body can be possessed by any number of spirits, but if the total level of the spirits exceeds twice the character's level, the character loses one SP dice per hour (and subsequently 1 HP per hour), until the body dies.
   - A possessed body acts normally, but is entirely under control of the currently active spirit and uses only the skills, abilities and CHA score of the currently active spirit.
+  - When a possessing entity uses the possessed body to perform an action that is against the possessed entity's nature, the possessed entity gains a chance to save against the domination. They also have a chance to save when they receive "light"[supernatural], "divine" or "entropic" damage.
 
 #### Dominated
 The mind of a dominated character is wholly under the control of an external force.
@@ -432,7 +433,7 @@ This creature cannot take actions (other than movement or communication) or reac
 
 #### Stunned
 A stunned character briefly loses control of their body and mind. Stun is a short term effect and ALWAYS provides a [SAVE] every round.
-  - It does not gain physical[STATS] to AC.
+  - It does not gain physical[STATS] to HiT.
   - It it can fall prone, it falls prone.
   - Physical attacks against it have advantage (unless the attack is ranged and the character is prone).
   - It cannot make [STR], [DEX] or [CHA] saves.
@@ -452,7 +453,7 @@ A blinded character cannot perceive visual input:
 #### Charmed
 A charmed character cannot attack the source of its charm. It has disadvantage against [WIS], [CHA], [INT] saves vs it. In theory it perceives its words and actions in the most favourable manner. In practice players are players.
   - Charmed creatures have disadvantage on deception rolls vs their charmer.
-  - When a charmed character is requested/commanded to perform a task that is against their nature, they gain a chance to save against the charm.
+  - When a charmed character is requested/commanded to perform a task that is against their nature, they gain a chance to save against the charm. They also have a chance to save when they take "divine" or "entropic" damage.
 
 #### Frightened
 A frightened character has disadvantage on targeted attacks. It must use its movement to move away from the source of its fear.
@@ -509,9 +510,6 @@ A prone character is intimate with the ground.
   - It has disadvantage at [STR] and [DEX] saves.
   - It has advantage at skills used in hiding, but may suffer penalties to perception.
   -  Flying entities that are knocked prone, drops a distance equal to its speed and can only move at half speed on its next turn. If this drop causes it to hit the ground, it suffers all of the consequences of falling (see "[Falling](03-movement-exploration.md#Falling)" section).
-
-
-
 
 ___
 ### Conditions by Damage Type

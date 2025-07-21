@@ -369,7 +369,7 @@ An unconscious character can make CON and CHA saves, and communicate telepathica
   - All melee attacks against it are at super-advantage.
   - All damage bypasses SP and MP.
   - It cannot cast or concentrate on spells or take any actions.
-  - It cannot perceive the outside world or think rationally.
+  - If it is unconscious because it is asleep, it has -10 on "[observe](05-skills.md#observe)" rolls. If it is unconscious for any other reason, then it cannot properly perceive the outside world or think rationally. 
 
 #### Helpless
 A helpless character is in a condition where they cannot protect themselves. Usually they are otherwise compromised.

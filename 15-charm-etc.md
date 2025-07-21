@@ -15,7 +15,7 @@ ___
 To charm, in this context, implies to influence the mind of an entity so that it perceives the one that charms in an exceedingly favourable manner. It should be viewed as delicate alteration to the target's perception of reality than full on mind control. The nature of this favourable view is determined specifically by the nature of the charmed entity. For example:
 - A previously hostile dogs might perceive its charmer as its master's friend.
 - A dragon might perceive its charmer as one to whom it owes a heavy debt of gratitude.
-- An elderly human might look upon its charmer as a long lost child, an adult, as a friend, comrade in arms or lover, a child as a parent or aunt/uncle.
+- An elderly human might look upon its charmer as a long lost child. An adult may see them, as a friend, comrade in arms or lover. A child as a parent, aunt/uncle or trusted teacher.
 
 Of course how a charmed entity sees its charmer is not limited to the above examples and the exact way that the mind of a charmed entity justifies the charm is up to the DM for entities charmed by player characters, and to the player for when their character is charmed.
 

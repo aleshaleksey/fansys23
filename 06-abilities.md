@@ -166,6 +166,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Resist Condition](#resist-condition)
 - [Resist Damage](#resist-damage)
 - [Rider: Quick mount](#quick-mount)
+- [Second Soul](#second-soul)
 - [Silent Step (I-III)](#silent-step-i-iii)
 - [Speed](#speed)
 - [Sprinter](#sprinter)
@@ -904,16 +905,16 @@ ___
 
 **Description**: Mingle dance and spell to produce modifications to the spells cast. This ability mirrors "spellsong" (below).
 
-**Action**: Declare "spelldance" when casting a spell that has a cast time of an "action" or "secondary action" and expend an extra 1 MP. This uses your "move action", although you may move up to half of its movement speed/distance during this time if it is otherwise possible. Declare which modifications apply to the spell (see "effects" and "Spellsong table" below).
+**Action**: Declare "spelldance" when casting a spell that has a cast time of an "action" or "secondary action" and expend an extra 1 MP. This uses your "move action", although you may move up to half of its movement speed/distance during this time if it would otherwise be possible. Declare which modifications apply to the spell (see "effects" and "Spelldance table" below).
 
-**Duration**: Similarly to "bard song", the dancer must use their "move action" on each subsequent turn to maintain the "spelldance" and its effect, if the spell has a duration. The signer can continue a song for a number of rounds equal to its Con score.
+**Duration**: Similarly to "bard song", the dancer must use their "move action" on each subsequent turn to maintain the "spelldance" and its effect, if the spell has a duration. The dancer can continue a dance for a number of rounds equal to their CON score.
 
 **Effect**: Spelldance allows the spellcaster to produce one of the following effects:
-- Modify the shape of an area of affect spell slightly, including or excluding a number of 5ft squares equal to twice the level of the spelldance. For global spells this is a number of 200ft squares equal to twice the level of the spelldance.
+- Modify the shape of an area of affect spell slightly, including or excluding a number of 5ft squares equal to twice the level of the spelldance. For global spells this is a number of 100ft squares equal to twice the level of the spelldance.
 - Modify the damage type of the spell within certain subgroups (see below).
 - Obfuscate the spell if it has only kinetic components. In this case, make a ["perform"](05-skills.md#perform) roll. Any target observing the casting that does not succeed on an opposed ["Knowledge: Arcana"](05-skills.md#knowledge) roll does not recognise that a spell is being cast and cannot identify (although it can recognise that a spell has been cast from the effects after the fact). This is useful in situations where subtlety is required, and to obstruct counter-spelling.
 
-**Damage Group Conversions**: For the sake of spelldance, damage is grouped by themes, thus conversion is possible between thematically similar damage types. All damage types within the group ar mutually convertible by spelldance. On the other hand damage types *between* groups, or outside of them cannot be converted.
+**Damage Group Conversions**: For the sake of spelldance, damage is grouped by themes, thus conversion is possible between thematically similar damage types. All damage types within the group are mutually convertible by spelldance. On the other hand damage types *between* groups, or outside of them cannot be converted.
 
 |Group Name|Damage Types|
 |-|-|
@@ -921,9 +922,9 @@ ___
 |Poison|Poison, Necrotic, Cold|
 |Warmth|Fire, Light, Lightning|
 |Light|Light, Cold, Divine|
-|Destruction|Necrotic, Atrophic|
+|Destruction|Necrotic, Entropic|
 
-**Special**: Conversions to "divine" or "atrophic" damage types increase the cost of the spell by 3 MP dice (instead of 1), and deal half of the damage to the caster as backlash for impinging on the domain of the gods.
+**Special**: Conversions to "divine" or "entropic" damage types increase the cost of the spell by 3 MP dice (instead of 1), and deal half of the damage to the caster as backlash for impinging on the domain of the gods.
 
 **Limitations**:
 - Only spells with kinetic components can be modified with spellsong.
@@ -946,9 +947,11 @@ ___
 
 **Action**: Declare "spellsong" when casting a spell that has a cast time of an "action" or "secondary action" and expend an extra 1 MP. The spell will now cost a "full round action". Declare which condition to apply or to cure (see "Spellsong table" below).
 
-**Duration**: As with "bard song", the singer must use a "secondary action" on each subsequent turn to maintain the spellsong and its effect. The signer can continue a song for a number of rounds equal to its Con score.
+**Duration**: As with "bard song", the singer must use a "secondary action" on each subsequent turn to maintain the spellsong and its effect. The signer can continue a song for a number of rounds equal to its CON score.
 
-**Effect**: The targets of the spell must succeed an additional Wis save (at the start of its turn) or be affected by the declared condition or cured of it. An entity affected by spellsong, makes a Wis save at the start of its turn as usual to end the effect on itself.
+**Effect**: The targets of the spell must succeed an additional WIS save (at the start of its turn) or be affected by the declared condition or cured of it. An entity affected by spellsong, makes a WIS save at the start of its turn as usual to end the effect on itself.
+
+ALTERNATIVELY, instead of picking a condition, the singer may elect to restore [base]d4 SP and MP to a single entity that can hear the song.
 
 ALTERNATIVELY, instead of picking a condition, if the spell has ONLY incantation components, make a ["perform"](05-skills.md#perform) roll. Any target observing the casting that does not succeed on an opposed ["Knowledge: Arcana"](05-skills.md#knowledge) roll does not recognise that a spell is being cast and cannot identify (although it can recognise that a spell has been cast from the effects after the fact). This is useful in situations where subtlety is required, and to obstruct counter-spelling.
 
@@ -961,9 +964,9 @@ ALTERNATIVELY, instead of picking a condition, if the spell has ONLY incantation
 |Spellsong Level|Perform Ranks|Minimum Spell MP dice cost|[Conditions](10-conditions-types.md#conditions-in-detail)|Cured Only
 |-|-|-|-|-|
 |I|1|1|"Deafened", "Aphonic"|"Frightened"|
-|II|3|2|"Charmed", "Frightened"|"Catatonic"|
-|III|5|3|"Bleeding", "Catatonic"|"Incapacitated"|
-|IV|7|4|"Incapacitated", "Immobilised"|"Paralysed"|
+|II|3|2|"Charmed", "Frightened"|"Incapacitated"|
+|III|5|3|"Bleeding", "Catatonic"|"Dominated"|
+|IV|7|4|"Stunned", "Immobilised"|"Paralysed", "Possessed"|
 
 ___
 #### Still Spell
@@ -1971,6 +1974,25 @@ ___
 |Divine|4|30 MP|
 |Entropic|4|36 MP|
 |Profane|4|-|
+
+___
+#### Second Soul
+
+**Type**: (Supernatural, Class A, cost = 2 points)
+
+**Description**: A second nascent soul dwells within the character's body, bringing benefits and drawbacks.
+
+**Prerequisites**: The character must have a physical body and soul. None of its stats can be blank (-).
+
+**Benefits**: 
+- You have resistance to [possessed](10-conditions-types.md#possessed), and thus advantage on saves against a spirit entering their body, and taking control of their body.
+- You can make "[observe](05-skills.md)" rolls at a -5 penalty when asleep (instead of a -10 penalty).
+
+**Special (drawbacks)**:
+- The second soul is considered to be same level as the character's and counts against the limit of foreign souls for the sake of [losing SP dice due possession](10-conditions-types.md#possessed).
+- When you fall unconscious for a reason other than poisoning or HP total falling to zero, you must succeed a CHA save against your INT based threshold, else you regain consciousness with the second soul in control of the body. The DM determines the desires and goals of this second soul. On short or long rests subsequent to this event the character only regains half of the resources they would normally.
+
+**Limitations**: This "boon" is somewhat niche and has serious ramifications on how a character is played. It should therefore be treated with extreme care.
 
 ___
 #### Silent Step I-III

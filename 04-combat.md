@@ -125,7 +125,9 @@ ___
 
 MP is lost when MP dice are used, or when supernatural attacks damage a character. SP is lost when SP dice are used or when natural attacks damage a character. In some cases this means that a character can end up running out of MP (or SP), while they still have SP (or MP).
 
-Characters of level 5 or higher can therefore "rebalance" as a main action, converting SP into MP or MP into SP, at the cost of 2 to 1. So 2 MP would become 1 SP, or 2 SP would become 1 MP.
+Characters can therefore "rebalance" as a main action, converting SP into MP or MP into SP, at the cost of 2 to 1. So 2 MP would become 1 SP, or 2 SP would become 1 MP.
+
+For example, a mage with 39/47 SP and 0/60 MP might wish to cast a MP 1 (or higher) spell, but due to having 0 MP, lack the ability to do so. They might therefore convert 8 SP to MP, and end up with 31/47 SP and 4/60 MP. Enough to get that last spell off. Likewise the same mage, having just faced a few hive beasts [adult hive beast](monsters-npcs/monsters-and-dragons.md#hive-beast) in an ancient ruin, might have ended up with 10/47 SP but 52/60 MP, and may wish to convert 40 MP to SP, and end up with 30/47 SP but only 12/60 MP in the hopes that this will increase their chances of getting back to the surface alive.
 
 ___
 ### Damage resistance

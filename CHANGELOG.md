@@ -402,6 +402,7 @@ ____
 - Revamped prices for equipment (clothing and stuff is now less brutal). These are now based on the cost of materials and labour instead of averaged out prices.
 - Added [possession](10-conditions-types.md#possessed) and [domination](10-conditions-types.md#dominated) mechanics for testing.
 - Added [notes on the use of charm](15-charm-etc.md).
+- Better explain [rebalancing](04-combat#losing-mp-sp-and-rebalancing) and remove the level 5 limit (since it does not improve gameplay).
 
 ### Movement and Exploration
 - Added the obvious note that items are immune to poison damage.
@@ -422,6 +423,8 @@ ____
 - Reduce the bonus given by [terrain mastery](06-abilities.md#terrain-mastery) from +4 to +2.
 - Elaborate on commanding the beast for [bind beast](06-abilities.md#bind-beast-i-x).
 - Added [Charm](06-abilities.md#charm-i-iv).
+- Tweaked [Spellsong](06-abilities.md#spellsong-i-iv) to be a bit more useful (added option to restore SP/MP) and [Spelldance](06-abilities.md#spelldance-i-iv).
+- Added [Second Soul](06-abilities.md#second-soul) boon, for those poor, haunted edgelords.
 
 ### Spells
 - Amended [command mortal](08-spell-list.md#command-mortal) to account for self harming.

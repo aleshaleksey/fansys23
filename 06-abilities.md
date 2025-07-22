@@ -73,6 +73,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Cursed Blood](#cursed-blood)
 - [Deflection](#deflection)
 - [Divine Strike](#divine-strike)
+- [Elemental Strike](#elemental-strike)
 - [Elementalism (Elemental Blast)](#elementalism-elemental-blast)
   - [Basics](#basics)
   - [Elements](#elements)
@@ -595,7 +596,7 @@ ___
 
 **Type**: B Class
 
-**Description**: Expend MP to infuse a weapon attack with elemental energy. The element can be fire, ice or lighting, and must correspond to the element chosen when acquiring this ability. The attack will deal an extra:
+**Description**: Expend an MP die to infuse a weapon attack with elemental energy. The element can be fire, ice or lighting, and must correspond to the element chosen when acquiring this ability. The attack will deal an extra:
 - 2d6 fire[supernatural] damage.
 - 2d6 ice[supernatural] damage.
 - 2d4 lightning[supernatural] damage.

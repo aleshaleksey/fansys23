@@ -264,6 +264,10 @@ ___
 |Great Strike||| Up to -3/+3|
 |[Interception](../04-combat.md#basic-martial-manoeuvres)||||
 |Combined Manoeuvre I|||Two manoeuvres in one|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|[Holy Strike](../06-abilities.md#holy-strike)|+8|+2d4 Light per MP die|A magic knight can expend up to 5 MP dice for a single strike (10d4)|
 |[Deflection](../06-abilities.md#deflection)|||A magic knight can reduce damage from ranged supernatural attacks by 1d4+5+([MP dice]d4)|
 |[Arcane Interception](../06-abilities.md#arcane-interception)||A magic knight can use "Interception" against supernatural attacks that require a saving throw|
 |[Safe Cast](../06-abilities.md#safe-cast)|||Spells with Kinetic components do not provoke attacks of opportunity|
@@ -290,6 +294,7 @@ An elemental knight works like a Magic Knight with the following differences:
 - INT=12
 - WIS=16
 - Replace "Spell Strike" with "Elemental Blast" (fire or ice).
+- Replace "Holy Strike" for "Elemental Strike" (fire or ice).
 - Replace "Incantation" and "kinetic" with two elemental magics of choice.
 
 The spell threshold for a magic knight is Threshold=19 (WIS)
@@ -297,6 +302,7 @@ The spell threshold for a magic knight is Threshold=19 (WIS)
 Example, Elemental Knight, fire:
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
+|[Elemental Strike](../06-abilities.md#elemental-strike)|+8|+2d6 fire (or ice) per MP die|An elemental knight can expend up to 5 MP dice for a single strike (10d6)|
 |[Elemental Blast: Fire](../06-abilities.md#blast-elemental-blast)|+8|1d6+1|+1d6 fire damage per MP dice|
 |Spellcasting: Fire IV|||"[Ignition](../08-spell-list.md#ignition)", "[Least Warmth](../08-spell-list.md#least-warmth)", "[Foxfire](../08-spell-list.md#foxfire)", "[Least Vengeance](../08-spell-list.md#least-vengeance)", "[Meadow of Flame](../08-spell-list.md#meadow-of-flame)", "[Warmth](../08-spell-list.md#warmth)", "[Command Mortal](../08-spell-list.md#command-mortal)", "[Fire Ward](../08-spell-list.md#fire-ward)", "[Balance of Elements](../08-spell-list.md#balance-of-elements)", "[Speak Through Flame](../08-spell-list.md#speak-through-flame)"|
 |Spellcasting: Water II|||"[Mist](../08-spell-list.md#mist)", "[Least Freeze](../08-spell-list.md#least-freeze)", "[Sense Spell](../08-spell-list.md#sense-spell)", "[Winter's Touch](../08-spell-list.md#winters-touch)", "[Dusk](../08-spell-list.md#dusk)", "[Trace Secret Path](../08-spell-list.md#trace-secret-path)"|

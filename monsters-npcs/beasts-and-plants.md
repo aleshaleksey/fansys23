@@ -21,9 +21,15 @@ Animals are common entities in the material world. They have a physical form, li
     - [Boar](#boar-level-4)
     - [Rat](#rat)
     - [Wolf](#wolf)
-- [Animals: Mollusc](#animals-molluscs)
+- [Giant Animals](#giant-animals)
     - [Giant Snail](#giant-snail)
     - [Giant Slug](#giant-slug)
+    - [Giant Eagle](#giant-eagle-level-6)
+    - [Giant Owl](#giant-owl-level-4)
+    - [Giant Swan](#giant-swan-level-5)
+    - [Giant Sheep](#giant-sheep-level-6)
+    - [Giant Boar](#giant-boar-level-8)
+    - [Giant Bear](#giant-bear-level-10)
 - [Animals: Dinosaurs](#animals-dinosaurs)
     - [Hadrosaur](#hadrosaur-level-7)
     - [Raptor](#raptor-levels-2-4)
@@ -58,6 +64,7 @@ Size=Small
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Claws|+4|1d6+2|Shear damage|
+|Mighty|||An eagle can carry off much larger prey its size might suggest|
 |Keen Senses: Sight|||Advantage on perception rolls based on sight|
 |Skills|||"Fly" +4, "Observe" +4|
 
@@ -147,6 +154,32 @@ Size= Small, Raven / Tiny, Crow
 |Skills|||"Sleight of Hand" +4, "Observe" +3|
 
 Ravens are omnivorous, typically black, birds that are primarily scavengers. This stat block can also be used for crows.
+
+___
+### Swan (level 2)
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|12/10/12|10(*9*)|12(*10*)|5|10ft|60ft (flight, average)|
+
+Size= Small
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|10|13|12|2|12|14|
+|Bonus|0|+1|+1|-4|+1|+2|
+|Save|+1|+2|+2|-3|+2|+3|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|2 (1)|4|4|1|1|2|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Wings|+2|1d6|Percussive damage|
+|Resistant|||"Fear", "Charm"|
+|Skills|||"Intimidate" +4, "Observe" +3|
+
+Swans are relatively large, herbivorous waterbirds that guard their nests and young aggressively. They are often associated with royalty and nobility in cultures that value such things.
 
 ___
 ## Animals: Domestic
@@ -564,7 +597,7 @@ This block can be used for large domesticated dogs, hyenas and wolves. These are
 Wolves can be advanced to a higher level, but seldom reach above level 5.
 
 ___
-## Animals: Molluscs
+## Giant Animals
 
 ___
 ### Giant Snail
@@ -635,6 +668,234 @@ ___
 |Skills|||"Observe" +3, "Harvest" +8|
 
 Giant slugs are large, poisonous, herbivorous molluscs. They are usually docile, but can lash out with their pseudopods when attacked. Since they are largely defenceless against stronger monsters and ranged attacks, they dwell in, or near, caverns whether this is not so much of a threat.
+
+___
+### Giant Eagle (level 6)
+- **Size**: Large
+- **Carrying capacity**
+  - Light: 384lb
+  - Medium: 384lb
+  - Heavy: 640lb
+  - Drag: 960lb
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|14/13/11|38 (*28*)|26 (*16*)|10|10ft|100ft (flight, average)|
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|16|14|14|5|13|14|
+|Bonus|+3|+2|+2|-3|+1|+2|
+|Save|+6|+3|+4|-1|+3|+4|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|6 (2)|13|7|3|2|5|4|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Claws|+8|2d6+2|Shear damage|
+|Beak|+8|2d6+2|Sheer damage|
+|Grapple|+8||Claws only|
+|[Combined Manoeuvre](../06-abilities.md#combined-manoeuvre-i-v)|+8||A giant eagle can expend one SP die when making a claw attack and also grapple its target|
+|[Mighty II](../06-abilities.md#mighty-ii)|||An eagle can carry off much larger prey its size might suggest|
+|Keen Senses: Sight|||Advantage on perception rolls based on sight|
+|Skills|||"Fly" +6, "Observe" +6|
+
+Eagles are large raptors that typically hunt ground animals, but can also hunt birds. Giant eagles are particularly intelligent and strong enough to carry off a small horse. Some civilisations have used them as war mounts, but they are notoriously difficult to train.
+
+___
+### Giant Owl (level 4)
+- **Size**: Large
+- **Carrying capacity**
+  - Light: 1128lb
+  - Medium: 256lb
+  - Heavy: 640lb
+  - Drag: 960lb
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|13/11/12|18 (*15*)|18 (*15*)|6|10ft|50ft (flight, average)|
+
+Size=Large
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|16|16|12|5|14|12|
+|Bonus|+2|+3|+1|-3|+2|+1|
+|Save|+4|+4|+3|-1|+4|+3|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|4 (1)|7|7|2|2|3|3|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Claws|+6|1d10+3|Shear damage|
+|Grapple|+6|||
+|[Combined Manoeuvre](../06-abilities.md#combined-manoeuvre-i-v)|+8||A giant owl can expend one SP die when making a claw attack and also grapple its target|
+|Keen Senses|||Advantage on perception rolls|
+|Low light Vision|||Can see in the "dark", but not pitch black conditions|
+|[Evasive](../06-abilities.md#evasive)|||Avoid AoOs|
+|[Silent Step I](../06-abilities.md#silent-step-i-iii)|||An owl can fly at full speed maintaining stealth without penalty|
+|[Stalker](../06-abilities.md#stalker)|||Hides really quickly|
+|Skills|||"Stealth" +7, "Observe" +7|
+
+Owls are nocturnal raptors that hunt ground based animals. Their feathers are adapted for silent flight, as a result of which they are weaker (but quieter) fliers than hawks or eagles. Giant owls are particularly dangerous predators, though they seldom attack humanoids.
+
+___
+### Giant Swan (level 5)
+- **Size**: Large
+- **Carrying capacity**
+  - Light: 144lb
+  - Medium: 288lb
+  - Heavy: 720lb
+  - Drag: 1080lb
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|13/12/11|26 (*18*)|33 (*21*)|10|10ft|80ft (flight, average)|
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|18|14|14|5|12|16|
+|Bonus|+3|+2|+2|-|+1|+3|
+|Save|+1|+2|+2|-3|+2|+3|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|5 (1)|8|9|2|2|3|3|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Wings|+7|2d6+4|Percussive damage|
+|Throw|+7||A giant swan can easily knock down a similarly sized being with the beating of its wings|
+|[Combined Manoeuvre](../06-abilities.md#combined-manoeuvre-i-v)|+8||A giant swan can expend one SP die when making a wing attack and also knock down its target|
+|Resistant|||"Fear", "Charm"|
+|Skills|||"Intimidate" +7, "Observe" +5|
+
+Swans are relatively large, herbivorous waterbirds that guard their nests and young aggressively. They are often associated with royalty and nobility in cultures that value such things.
+
+___
+### Giant Sheep (level 6)
+- **Size**: Huge
+- **Carrying capacity**
+  - Light: 352lb
+  - Medium: 704lb
+  - Heavy: 1760lb
+  - Drag: 1980lb
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|14/14/10|52 (*28*)|24 (*19*)|13|45ft|-|
+
+(+3 armour from fleece)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|22|8|17|2|10|13|
+|Bonus|+6|-1|+3|-4|0|+1|
+|Save|+10|-1|+4|-2|+2|+3|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|6 (2)|11|9|2|2|4|4|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Ram|+10|1d10+6|percussive|
+|Shove/Throw|+10|||
+|[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||A giant sheep can knock prone that which it rams (1SP)|
+|[Far Throw I](../06-abilities.md#far-throw-i-v)|||The giant sheep throws its target 15ft + [5ft x size advantage]|
+|Resistant|||Cold: Sheep have a thick fleece which allow them to resist the cold|
+|Skills|||"Harvest" +6, "Climb" +10, "Observe" +2|
+|Loot|||A single giant sheep can provide up to 2400lb of meat, the equivalent of 16 fleece (level 2) and 800lb of bones|
+
+Sheep stand at 3-4 feet at the withers. Giant sheep are often 3 times as tall, and not always domestic. An annoyed giant sheep are as dangerous as a charging elephant. In the wild, giant sheep often dwell on the steep slopes of inaccessible valleys, which they traverse with ease.
+- Optional: For __capybara__ replace the cold resistance with a 30ft swim speed, and the "climb" skill with the "swim" skill.
+- Optional: For __goat__ replace the cold resistance with a 20ft climb speed.
+
+___
+### Giant Boar (level 8)
+- **Size**: Large
+- **Carrying capacity**
+  - Light: 368lb
+  - Medium: 756lb
+  - Heavy: 1840lb
+  - Drag: 2760lb
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|15/16/9|64 (*32*)|36 (*22*)|8|40||
+
+(Natural armour +6)
+Size = Large
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|23|10|19|2|10|15|
+|Bonus|+6|0|+4|-4|0|+2|
+|Save|+8|+2|+6|-2|+2|+4|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|8 (2)|16|10|3|2|5|4|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Gore|+11|2d12+6|Shear damage|
+|Shove|+11|||
+|Keen scent|||Advantage on perception rolls based on scent|
+|Low light Vision|||Can see in the "dark", but not pitch black conditions|
+|[Combined Manoeuvre](../06-abilities.md#combined-manoeuvre-i-v)|||A boar will usually shove when goring (1SP)|
+|[Greater Manoeuvre](../06-abilities.md#greater-manoeuvre-i-v)|||Boars will fight fiercely against most foes|
+|Skills|||"Athletics" +9, "Harvest" +8, "Intimidate" +4,"Observe" +2|
+|Loot|||A giant boar can provide a sturdy pelt (enough for 4 suits of hide/leather armour) and more than 800lb of meat, as well tusks|
+
+This block is used for aggressive, wild pigs (boars) of unusual size. Boars are aggressive omnivores that typically dwell in woodlands, hills, and sometimes swamps.
+
+___
+### Giant Bear (level 10)
+- **Size**: Huge
+- **Carrying capacity**
+  - Light: 1248lb
+  - Medium: 1248lb
+  - Heavy: 6240lb
+  - Drag: 9360lb
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|17/20/9|72 (*36*)|52 (*34*)|16|45|climb 30ft|
+
+(Natural armour +6)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|26|8|19|5|10|15|
+|Bonus|+8|-1|+4|-3|0|+2|
+|Save|+10|+1|+6|-1|+2|+4|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|10 (2)|16|16|3|3|5|5|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite|+13|2d10+8|(Reach=10ft)Shear damage|
+|Claws|+13|2d6+8|Shear damage|
+|Monster attack|||Two claw attacks as a main action and a bite as secondary action|
+|Keen scent|||Advantage on perception rolls based on scent|
+|Low light Vision|||Can see in the "dark", but not pitch black conditions|
+|[Mighty II](../06-abilities.md#mighty-ii)||||
+|[Combined Manoeuvre](../06-abilities.md#combined-manoeuvre-i-v)|||A bear will usually grapple when biting|
+|[Greater Manoeuvre](../06-abilities.md#greater-manoeuvre-i-v)|||It is thought that giant bears might be able to hold a titan, albeit briefly.|
+|Prof|||"Grapple", "Sunder"|
+|Skills|||"Swim", "climb", "Track" +2|
+|Loot|||Bear pelts are valuable and make hide armour, their meat is marginally edible to humanoids. A giant bear can provide up to ~4000lb of meat and enough hide for 4 suits of hide armour (level 2 hide)|
+
+Giant bears are generally docile, but can be incredibly aggressive when hungry or defending their cubs. They are omnivorous, and fond of berries, tubers (including [Orc Eating Tubers](#orc-eating-tuber)), but are not against supplementing it with the meat of slow moving monsters and other giant animals if they have a good chance of taking them down (they are a natural predator of giant snails).
+
+Giant bears can climb trees, but most trees will not support the weight of a fully grown giant bear.
 
 ___
 ## Animals: Dinosaurs

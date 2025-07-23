@@ -534,7 +534,7 @@ ___
 ### Rat
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|16/10/14|4|2|1|30ft|climb (30ft)|
+|14/10/15|4|2|1|30ft|climb (30ft)|
 
 Size = tiny
 
@@ -558,9 +558,139 @@ Size = tiny
 |[Stalker](../06-abilities.md#stalker)|||Hides really quickly|
 |Skills|||"Stealth" +4, "Observe" +2|
 |Resistant|||"Disease", "Poison"|
-|Loot|||Rat meat is edible to humanoids|
+|Loot|||Rat meat is edible to humanoids, but you should probably cook it thoroughly.|
 
-This block can be used for domestic cats or a wildcat. These predators are often co-exist successfully with humanoids and certain monsters. Rats often carry diseases.
+This block can be used for any small rodent. Rats are resilient and prolific, eating just about anything. With small modifications, this block can be used for rabbits, guinea-pigs and similar creatures.
+
+___
+### Snake, Grass
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|15/12/14|6|4|1|30ft|swim (20ft)|
+
+Size = small
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|4|16|10|2|10|10|
+|Bonus|-3|+2|0|-4|0|0|
+|Save|-4|+6|+1|-3|+1|+1|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|1 (1)|3|2|1|1|2|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite|+5|4|Shear damage|
+|Grapple|+5|||
+|[Combined Manoeuvre]|+5||A snake can bite and grapple in almost the same movement|
+|Keen Smell|||Advantage on perception rolls based on smell|
+|[Heat Sense](../06-abilities.md#heat-sense-i-v)|||A grass snake can detect warm blooded creatures within 30ft of itself|
+|[Fleet](../06-abilities.md#fleet)|||A snake has a low profile and can hide in light concealment|
+|Skills|||"Stealth" +5, "Observe" +2|
+|Resistant|||"Piercing"|
+|Loot|||Snake meat is edible to humanoids, the skin can be used for leather (0.25lb of meat, 0.1lb of hide)|
+
+This block represents a grass snake: A small, non-venomous snake that dwells in the plains and in wetlands, and hunts mainly small rodents.
+
+___
+### Snake, Constrictor
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|15/12/14|6|4|1|30ft|climb (30ft), swim (20ft)|
+
+Size = medium
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|14|14|12|2|10|13|
+|Bonus|+2|+2|+1|-4|0|+1|
+|Save|+2|+4|+2|-3|+1|+2|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|3 (1)|6|5|1|1|2|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite|+4|1d4+2|Shear damage|
+|Constrict|Threshold=17 STR|1d6+3 pressure|A python can constrict prey that it has grappled as a secondary action. The grappled entity must succeed on a STR save or take 1d6+3 pressure damage. It is also considered "[suffocating](../03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die)".|
+|Grapple|+5|||
+|[Combined Manoeuvre]|+5||A snake can bite and grapple in almost the same movement|
+|Keen Smell|||Advantage on perception rolls based on smell|
+|[Heat Sense](../06-abilities.md#heat-sense-i-v)|||A grass snake can detect warm blooded creatures within 30ft of itself|
+|[Fleet](../06-abilities.md#fleet)|||A snake has a low profile and can hide in light concealment|
+|Skills|||"Stealth" +4, "Observe" +2|
+|Resistant|||"Piercing"|
+|Loot|||Snake meat is edible to humanoids, the skin can be used for leather (~40lb of meat, ~10lb of hide)|
+
+This block represents an average sized constrictor snake, such as a python (3-8m in length, 60-120lb): A small, non-venomous snake that dwells in the plains and in wetlands, and hunts mainly small rodents.
+
+___
+### Snake, Viper
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|15/12/14|6|4|1|30ft|climb (30ft)|
+
+Size = small
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|4|14|10|2|10|10|
+|Bonus|-3|+2|0|-4|0|0|
+|Save|-4|+6|+1|-3|+1|+1|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|1 (1)|3|2|1|1|2|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite|+4|3 Piercing||
+|Venom|Threshold=18 CON||As a secondary action, a viper can expend 1 SP die and inject a dose of its venom into its victim. At the start of each turn the entity must succeed a CON save, or take 1d6 necrotic[natural] damage. The venom persists for a minute, or until the victim succeeds the save.|
+|Keen Smell|||Advantage on perception rolls based on smell|
+|[Heat Sense](../06-abilities.md#heat-sense-i-v)|||A grass snake can detect warm blooded creatures within 30ft of itself|
+|[Fleet](../06-abilities.md#fleet)|||A snake has a low profile and can hide in light concealment|
+|Skills|||"Stealth" +5, "Observe" +2|
+|Resistant|||"Piercing"|
+|Loot|||Snake meat is edible to humanoids, the skin can be used for leather (0.25lb of meat, 0.1lb of hide)|
+
+This block represents a venomous viper. Vipers mainly hunt rodents and other small animals. They bite them once and then wait for the venom to skill them and partially digest them before eating them. Vipers also bite larger animals in perceived self defence.
+
+___
+### Snake, Cobra
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|14/12/13|18 (*15*)|16 (*13*)|6|30ft|climb (30ft), swim (20ft)|
+
+Size = medium
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|8|16|12|2|10|13|
+|Bonus|-1|+3|+1|-4|0|+1|
+|Save|0|+5|+2|-3|+1|+2|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|4 (1)|7|6|2|1|3|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite|+6|1d4+3 Piercing||
+|Hypnotise|Threshold=15 WIS||(Range=40ft) As an action, a cobra can attempt to hypnotise one target in range, reducing its speed to 0 until the end of its turn.|
+|Venom|Threshold=18 CON||As a secondary action, a cobra can expend 1 SP die and inject a dose of its venom into its victim. At the start of its turn, the target must succeed a CON save or become paralysed at the end of its turn. Each turn the entity must succeed a CON save, or take 1d6 necrotic[natural] damage. The paralysis persists for an hour, however the [suffocation](../03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die) ends on a successful save.|
+|Keen Smell|||Advantage on perception rolls based on smell|
+|[Heat Sense](../06-abilities.md#heat-sense-i-v)|||A grass snake can detect warm blooded creatures within 30ft of itself|
+|[Fleet](../06-abilities.md#fleet)|||A snake has a low profile and can hide in light concealment|
+|Skills|||"Stealth" +5, "Observe" +2|
+|Resistant|||"Piercing"|
+|Loot|||Snake meat is edible to humanoids, the skin can be used for leather (5lb of meat, 1lb of hide)|
+
+This block represents a venomous cobra. Cobra mainly hunt rodents and other small animals. They use their hypnotic hood to fascinate their prey, and then bite them once and wait for the venom to paralyse the hapless rodent before eating them. Cobras act aggressively in self defence, often pre-emptively killing humanoids they encounter just in case.
+
+Cobra venom makes these snakes extremely dangerous. Especially to solitary travellers which it may leave defenceless for long enough for something else to finish it off.
 
 ___
 ### Wolf
@@ -668,6 +798,39 @@ ___
 |Skills|||"Observe" +3, "Harvest" +8|
 
 Giant slugs are large, poisonous, herbivorous molluscs. They are usually docile, but can lash out with their pseudopods when attacked. Since they are largely defenceless against stronger monsters and ranged attacks, they dwell in, or near, caverns whether this is not so much of a threat.
+
+___
+### Giant Snake, Constrictor
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|16/17/11|47 (*29*)|34 (*22*)|12|30ft|Swim (30ft)|
+
+Size = Huge
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|21|13|17|2|13|14|
+|Bonus|+5|+1|+3|-4|+1|+2|
+|Save|+7|+3|+5|-2|+3|+4|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|7 (2)|13|10|3|2|5|4|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite|+10|1d10+5|Shear damage|
+|Constrict|Threshold=20 STR|2d6+5 pressure|A python can constrict prey that it has grappled as a secondary action. The grappled entity must succeed on a STR save or take 2d6+5 pressure damage. It is also considered "[suffocating](../03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die)".|
+|Grapple|+10|||
+|[Combined Manoeuvre]|||A snake can bite and grapple in almost the same movement|
+|Keen Smell|||Advantage on perception rolls based on smell|
+|[Heat Sense](../06-abilities.md#heat-sense-i-v)|||A grass snake can detect warm blooded creatures within 30ft of itself|
+|[Fleet](../06-abilities.md#fleet)|||A snake has a low profile and can hide in light concealment|
+|Skills|||"Stealth" +5, "Observe" +3|
+|Resistant|||"Piercing", "Slashing"|
+|Loot|||Snake meat is edible to humanoids, the skin can be used for leather (~1280lb of meat, ~320lb of hide (level 2))|
+
+Where there are giant animals, there are also giant snakes that eat them. Giant constrictors prefer swamps and deep forest.
 
 ___
 ### Giant Eagle (level 6)

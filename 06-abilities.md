@@ -870,8 +870,7 @@ ___
 - "Divine" or "entropic" damage dealt to the target immediately ends the effect, regardless to whether it is aware that it is charmed or not.
 
 **Special**:
-- Charm I: If the target succeeds its save by 6 or more, you are charmed by the target.
-- Charm II: If the target succeeds by 12 or more, you are charmed by the target.
+- Charm I and II: If the target succeeds its save by 12 or more, you are charmed by the target.
 - A mortal attempting to charm a "[divine](10-conditions-types.md#divine), must make a CHA save vs the target's threshold, or be charmed instead.
 - You can extend the effect as a non-action, however, the target does get to roll a new CHA save. Every time the effect is extended in this way, the target gains a +1 bonus to the save. If the effect is allowed to expire, and you attempt to charm the same target again, the bonus to the save is reset.
 - You are treated as "concentrating" on a spell for maintaining the effect, although you can add targets up to the maximum allowed without breaking the effect.
@@ -1107,7 +1106,7 @@ An elementalism must have a form and only ever one form, which must be selected 
 |Blast          |3 MP dice              |-                  |120ft|Ranged Attack|
 |Cone           |Form: Touch or Blast   |+1 per 10ft length |10ft |Save         |
 |Line           |Form: Blast, 12 MP dice|+1 per 5ft  width  |120ft|Save         |
-|Circle         |From: Line: 15 MP dice |+1 per 10ft (rad)  |120ft|Save         |
+|Circle         |From: Blast, 15 MP dice|+1 per 10ft (rad)  |120ft|Save         |
 |Chain          |Form: Line, 17 MP dice |+2 per turn        |120ft|Save         |
 |Arc            |From: Line, 19 MP dice |+2 per 30 degrees  |120ft|Save         |
 

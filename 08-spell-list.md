@@ -227,7 +227,7 @@ ___
 
 ___
 ### Down
-|Name|Down [Earth]|
+|Name|Down [Autumn, Earth]|
 |-|-|
 |Scope|local|
 |MP Dice|0|
@@ -260,7 +260,7 @@ ___
 
 ___
 ### Ignition
-|Name|Ignition [Fire, Destruction]|
+|Name|Ignition [Fire, Destruction, Summer]|
 |-|-|
 |Scope|local|
 |MP Dice|0|
@@ -324,7 +324,7 @@ ___
 |Casting time|"main action"|
 |Range|120ft|+2
 |Duration|instantaneous|
-|Damage|1d8+[Sup] Ice|+3
+|Damage|1d8+[Sup] Cold|+3
 |Components|incantation, kinetic|-1
 |Save|Con|
 
@@ -332,7 +332,7 @@ ___
 
 ___
 ### Least Geomancy
-|Name|Least Geomancy [Earth, Spiritual]|
+|Name|Least Geomancy [Autumn, Earth, Spiritual]|
 |-|-|
 |Scope|local|
 |MP Dice|0|
@@ -353,7 +353,7 @@ ___
 
 ___
 ### Least Hydromancy
-|Name|Least Hydromancy [Spiritual, Water]|
+|Name|Least Hydromancy [Spiritual, Water, Winter]|
 |-|-|
 |Scope|local|
 |MP Dice|0|
@@ -416,7 +416,7 @@ ___
 
 ___
 ### Least Spike
-|Name|Least Spike [Earth, Destruction]|
+|Name|Least Spike [Destruction, Earth]|
 |-|-|
 |Scope|local|
 |MP Dice|0|
@@ -550,7 +550,7 @@ ____
 
 ___
 ### Bear's Claws
-|Name| Bear's Claws [Earth, Nature, Travel]|
+|Name| Bear's Claws [Autumn, Earth, Nature, Travel]|
 |-|-|
 |Scope|local|
 |MP Dice|1+|
@@ -617,7 +617,7 @@ If the MP dice total is 3 or higher, the weird's attack is carried out as a "sec
 
 ___
 ### Enflame
-|Name|Enflame [Fire, Mortal]|
+|Name|Enflame [Fire, Mortal, Summer]|
 |-|-|
 |Scope|local|
 |MP Dice|1|
@@ -663,7 +663,7 @@ ___
 
 ___
 ### Fade
-|Name|Fade [Air, Nature, Spirit, Wind]|
+|Name|Fade [Air, Nature, Spirit]|
 |-|-|
 |Scope|local|
 |MP Dice|1|
@@ -685,7 +685,7 @@ If the detection magic is cast at a higher MP dice cost level (higher MP dice co
 
 ___
 ### Foxfire
-|Name|Foxfire [Fire, Spirit]|
+|Name|Foxfire [Fire, Spirit, Summer]|
 |-|-|
 |-|-|
 |Scope|local (global)|
@@ -705,7 +705,7 @@ ___
 
 ___
 ### Gnomes' Mercy
-|Name|Gnomes' Mercy [Earth, Spirit, Travel]|
+|Name|Gnomes' Mercy [Autumn, Earth, Spirit, Travel]|
 |-|-|
 |Scope|local|
 |MP Dice|1|
@@ -743,7 +743,7 @@ ___
 
 ___
 ### Least Flare
-|Name|Least Flare [Light, Fire, Air]|
+|Name|Least Flare [Air, Light, Fire, Spring, Summer]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|1 (2)|
@@ -787,7 +787,7 @@ ____
 
 ___
  ### Lesser Illusory Self
-|Name|Lesser Illusory Self [Illusion, Kinetic, Water, Wind]|
+|Name|Lesser Illusory Self [Air, Illusion, Kinetic, Spring, Water, Winter]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|1 (2)|
@@ -815,7 +815,7 @@ Thus, for example, if the target is disguised as a winged, and the illusory wing
 
 ___
 ### Least Vengeance
-|Name|Least Vengeance [Curse, Destruction, Fire]|
+|Name|Least Vengeance [Curse, Destruction, Fire, Summer]|
 |-|-|
 |Scope|local|
 |MP Dice|1|
@@ -854,7 +854,7 @@ ___
 
 ___
 ### Shape Earth
-|Name|Shape Earth [Earth, Nature, Travel]|
+|Name|Shape Earth [Autumn, Earth, Nature, Travel]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|1 (2)|
@@ -954,7 +954,7 @@ ___
 
 ___
 ### Water Snake
-|Name|Water Snake [Spiritual, Water]|
+|Name|Water Snake [Spiritual, Water, Winter]|
 |-|-|
 |Scope|local|
 |MP Dice|1|
@@ -1027,7 +1027,7 @@ ___
 
 ___
 ### Dusk
-|Name|Dusk [Curse, Earth, Profane, Water]|
+|Name|Dusk [Autumn, Curse, Earth, Profane, Water, Winter]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|2 (4)|
@@ -1053,7 +1053,7 @@ As a secondary action the caster may command the shade to reach out and touch a 
 
 ___
 ### Earthen Hand
-|Name|Earthen Hand [Earth]|
+|Name|Earthen Hand [Autumn, Earth]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|2 (4)|
@@ -1086,7 +1086,7 @@ ___
 
 ___
 ### Glide
-|Name|Glide [Travel, Wind]|
+|Name|Glide [Air, Travel]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|2 (4)|
@@ -1155,7 +1155,7 @@ ___
 
 ___
 ### Least Transformation
-|Name| [Curse, Water]|
+|Name| [Curse, Water, Winter]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|2 (4)|
@@ -1229,7 +1229,7 @@ An unwilling target may ignore the effect with a successful CHA save vs the cast
 
 ___
 ### Meadow of Flame
-|Name|Meadow of Flame [Fire, Destruction]|
+|Name|Meadow of Flame [Fire, Destruction, Summer]|
 |-|-|
 |Scope|local|
 |MP Dice|2|
@@ -1323,7 +1323,7 @@ The condition counts as having a "supernatural" origin.
 
 ___
 ### Silence
-|Name|Silence [Curse, Water]|
+|Name|Silence [Curse, Water, Winter]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|2 (4)|
@@ -1342,7 +1342,7 @@ ___
 
 ___
 ### Summon Flame Sprite
-|Name|Summon Flame Sprite [Fire, Spiritual]|
+|Name|Summon Flame Sprite [Fire, Spiritual, Summer]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|2 (4)|
@@ -1374,7 +1374,7 @@ Flammable material includes wood, turf, the corporeal forms of mortals, wax, etc
 
 ___
 ### Summon Gnome
-|Name|Summon gnome [Earth, Spiritual]|
+|Name|Summon gnome [Autumn, Earth, Spiritual]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|2 (4)|
@@ -1488,7 +1488,7 @@ ____
 
 ___
 ### Warmth
-|Name|Warmth [Fire, Travel]|
+|Name|Warmth [Fire, Summer, Travel]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|2 (4)|
@@ -1625,7 +1625,7 @@ ___
 
 ___
 ### Blade Ward
-|Name|Stone Skin [Earth, Ward]|
+|Name|Stone Skin [Autumn, Earth, Barrier]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|3 (6)| 
@@ -1782,7 +1782,7 @@ Access to the fey's realm is by a "secret path". The spell give the targets know
 
 ___
 ### Fire Ward
-|Name|Fire Ward [Barrier, Fire]|
+|Name|Fire Ward [Barrier, Fire, Summer]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|3 (6)|
@@ -1835,7 +1835,7 @@ ___
 
 ___
 ### Guidance of the Earth
-|Name|Guidance of the Earth [Earth, Spirit]|
+|Name|Guidance of the Earth [Autumn, Earth, Spirit]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|3 (6)|
@@ -1877,7 +1877,7 @@ ___
 
 ___
  ### Illusory Self
-|Name|Illusory Self [Illusion, Kinetic, Water]|
+|Name|Illusory Self [Illusion, Kinetic, Water, Winter]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|3 (6)|
@@ -1949,7 +1949,7 @@ ___
 
 ___
 ### Melt
-|Name|Melt [Fire, Spring, Destruction]|
+|Name|Melt [Fire, Spring, Summer, Destruction]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|3 (6)|
@@ -1975,7 +1975,7 @@ If the target object/material is in contact with an entity at the start of its t
 
 ___
 ### Mole
-|Name|Mole [Earth, Nature, Travel]|
+|Name|Mole [Autumn, Earth, Nature, Travel]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|3 (6)|
@@ -2044,7 +2044,7 @@ ___
 
 ___
 ### Storm Ward
-|Name|Storm Ward [Air, Barrier, Wind]|
+|Name|Storm Ward [Air, Barrier, Spring]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|3 (6)|
@@ -2098,7 +2098,7 @@ ___
 
 ___
 ### Water Walk
-|Name|Water Walk [Travel, Water]|
+|Name|Water Walk [Travel, Water, Winter]|
 |-|-|
 |Scope|Local (Global)|
 |MP Dice|3 (6)|
@@ -2122,7 +2122,7 @@ ___
 
 ___
 ### Water Ward
-|Name|Wind Ward [Barrier, Water]|
+|Name|Wind Ward [Barrier, Water, Winter]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|3 (6)|
@@ -2200,7 +2200,7 @@ ___
 
 ___
 ### Animate Golem
-|Name|Animate Golem [Earth]|
+|Name|Animate Golem [Autumn, Earth]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|4 (8)|
@@ -2225,7 +2225,7 @@ ___
 
 ___
 ### Aqueous Step
-|Name|Aqueous Step [Travel, Water]|
+|Name|Aqueous Step [Travel, Water, Winter]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|4 (8)|
@@ -2339,7 +2339,7 @@ ___
 
 ___
 ### Enchanted Ground
-|Name|Enchanted Ground [Earth, Spirit]|
+|Name|Enchanted Ground [Autumn, Earth, Spirit]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|4 (8)|
@@ -2440,7 +2440,7 @@ ___
 
 ___
 ### Healing Seed
-|Name|Greater Heal [Earth, Life, Nature]|
+|Name|Greater Heal [Earth, Life, Nature, Spring]|
 |-|-|
 |Scope|local|
 |MP Dice|4|
@@ -2512,7 +2512,7 @@ When the spell ends, the remaining entities within it find themselves at the poi
 
 ___
 ### Lesser Freedom
-|Name|Freedom [Air, Water, Wind]|
+|Name|Freedom [Air, Spring, Water]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|4 (8)|
@@ -2620,7 +2620,7 @@ ___
 
 ___
 ### Mirage
-|Name|Mirage [Spiritual, Water]|
+|Name|Mirage [Spiritual, Water, Winter]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|4 (8)|
@@ -2675,7 +2675,7 @@ ___
 
 ___
 ### Scry
-|Name|Scry [Spirit, Water]|
+|Name|Scry [Spirit, Water, Winter]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|4 (8)|
@@ -2754,7 +2754,7 @@ ___
 
 ___
 ### Blessing of the Winds
-|Name|Blessing of the Winds [Air, Kinetic, Wind]|
+|Name|Blessing of the Winds [Air, Kinetic, Spring]|
 |-|-|
 |Scope|local|
 |MP Dice|5|
@@ -2803,7 +2803,7 @@ When dominated the target takes no action or reactions (other than movement or c
 
 ___
 ### Flame Stride
-|Name|Flame Stride [Travel, Fire]|
+|Name|Flame Stride [Fire, Summer, Travel]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|5 (10)|
@@ -2830,7 +2830,7 @@ ___
  
  ___
  ### Flare
-|Name|Flare [Light, Fire, Kinetic]|
+|Name|Flare [Light, Fire, Kinetic, Summer]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|5 (10)|
@@ -2883,7 +2883,7 @@ ___
 
 ___
 ### Flood
-|Name|Lesser Flood [Autumn, Destruction, Nature, Water]|
+|Name|Lesser Flood [Autumn, Destruction, Nature, Water, Winter]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|5 (20)|
@@ -2911,7 +2911,7 @@ Any entity within the area of effect that does not succeed a STR save suffers 3d
 
 ___
 ### Greater Fade
-|Name|Greater Fade [Nature, Spirit, Wind]|
+|Name|Greater Fade [Air, Nature, Spirit]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|5 (10)|
@@ -2935,7 +2935,7 @@ If the level of the detection magic is higher, or if detection is by an "S class
 
 ___
 ### Greater Fire Ward
-|Name|Greater Fire Ward [Fire, Barrier]|
+|Name|Greater Fire Ward [Barrier, Fire, Summer]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|5 (10)|
@@ -2966,7 +2966,7 @@ ___
 
 ___
 ### Heart Ward
-|Name|Heart Ward [Incantation, Fire, Water]|
+|Name|Heart Ward [Autumn, Incantation, Fire, Water]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|5 (10)|
@@ -3160,7 +3160,7 @@ The rift can be no more than 50ft wide, 400ft long and 200ft deep, the sides are
 
 ___
 ### Stone Ward
-|Name|Iron Skin [Earth Ward]|
+|Name|Iron Skin [Autumn, Barrier, Earth]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|5 (10)|
@@ -3275,7 +3275,7 @@ Collectively, the fey offer one piece of useful knowledge between them, and shou
 
 ___
 ### False Regrowth
-|Name|False Regrowth [Earth, Water, Winter]|
+|Name|False Regrowth [Autumn, Earth, Water, Winter]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|6 (12)|
@@ -3330,7 +3330,7 @@ On successfully assuming control, the caster may immediately choose to send the 
 
 ___
 ### Forest of Flame
-|Name|Forest of Flame [Fire, Destruction]|
+|Name|Forest of Flame [Destruction, Fire, Summer]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|6 (24)|
@@ -3385,7 +3385,7 @@ In addition, the caster can designate any number of entities as "protected". The
 
 ___
 ### Greater Freedom
-|Name|Freedom [Air, Water, Wind]|
+|Name|Freedom [Air, Spring, Water]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|6 (30)|
@@ -3406,7 +3406,7 @@ ___
 
 ___
 ### Greater Storm Ward
-|Name|Greater Storm Ward [Air, Barrier, Wind]|
+|Name|Greater Storm Ward [Air, Barrier, Spring]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|6 (24)|
@@ -3443,7 +3443,7 @@ Furthermore the caster specifies any number of entities as "protected" at the ca
 
 ___
 ### Great Water Ward
-|Name|Great Water Ward [Barrier Water]|
+|Name|Great Water Ward [Barrier, Water, Winter]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|6 (24)|
@@ -3540,7 +3540,7 @@ If the undead are not destroyed by the end of the spell, or the caster loses con
 
 ___
 ### Madness
-|Name|Madness [Curse, Fire, Spirit]|
+|Name|Madness [Curse, Fire, Spirit, Summer]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|6 (12)|
@@ -3672,7 +3672,7 @@ For the sake of mechanics, this is a "cosmic speed" effect.
 
 ___
 ### Razor Wind
-|Name|Razor Wind [Wind, Destruction]|
+|Name|Razor Wind [Air, Destruction]|
 |-|-|
 |Scope|local|
 |MP Dice|6|
@@ -4199,7 +4199,7 @@ Fourthly, all willing allies are transformed into "beasts" or "fey" of the caste
 
 ___
  ### Ifrit's Gift
-|Name|Ifrit's Gift [Fire, Spirit]|
+|Name|Ifrit's Gift [Fire, Spirit, Summer]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|9 (36)| 
@@ -4264,7 +4264,7 @@ ___
 
 ___
 ### True Storm
-|Name|True Storm [Air, Destruction, Wind, Winter]|
+|Name|True Storm [Air, Destruction, Spring, Winter]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|9 (36)|
@@ -4299,7 +4299,7 @@ In addition the following effects apply inside the spell:
 
 ___
  ### Wave
-|Name|Wave [Travel, Water]|
+|Name|Wave [Spring, Travel, Water, Winter]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|9 (36)|
@@ -4406,7 +4406,7 @@ ____
 
 ____
  ### Gift of the Winds
-|Name|Gift of the Winds [Air, Spirit, Travel, Wind]|
+|Name|Gift of the Winds [Air, Spirit, Travel]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|10 (40)|
@@ -4490,7 +4490,7 @@ ____
 
 ____
 ### Realm of Flame
-|Name|Realm of Flame [Spiritual, Fire, Destruction]|
+|Name|Realm of Flame [Destruction, Fire, Spiritual, Summer]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|10 (40)|

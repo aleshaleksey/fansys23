@@ -1120,11 +1120,17 @@ Imbue your touch with a given element. This can be used either as an attack or f
 
 ___
 #### Touch, Enhanced
-This is an intensification of the usual "touch". For every MP die expended, instead of dealing an extra die of damage, the touch deals an extra 2 die on a hit.
+This is an intensification of the usual "touch". The dice size used for your [elemental touch](#touch-elemental-touch) increase by two sizes.
+
+|Original Size|New size|Elements Affected|
+|-|-|-|
+|D4|D8|Light, Lightning|
+|D6|D10|Fire, Ice|
+|D8|D12|Air, Earth|
 
 **Action**: As elemental touch.
 
-**Special**: The enhancement of "touch" also affects "sweep", "aura" and "cone", although only if the "cone" or "aura" is no more than 20ft in radius.
+**Special**: The enhancement of "touch" also affects "sweep", but not "aura" or "cone".
 
 ___
 #### Sweep

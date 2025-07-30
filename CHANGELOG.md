@@ -425,11 +425,13 @@ ____
 - Added [Charm](06-abilities.md#charm-i-iv).
 - Tweaked [Spellsong](06-abilities.md#spellsong-i-iv) to be a bit more useful (added option to restore SP/MP) and [Spelldance](06-abilities.md#spelldance-i-iv).
 - Added [Second Soul](06-abilities.md#second-soul) boon, for those poor, haunted edgelords.
+- Reduced the power boost granted by [Enhanced Elemental Touch](06-abilities.md#touch-enhanced), since it was a bit too strong.
 
 ### Spells
 - Amended [command mortal](08-spell-list.md#command-mortal) to account for self harming.
 - Added [dominate mortal](08-spell-list.md#dominate-mortal) for testing.
 - Added [forced possession](08-spell-list.md#forced-possession) for testing.
+- Clean up parameters on spells.
 
 ### Weapons and Armour
 - Greatbow increased to 1d12. This isn't going to backfire at all.

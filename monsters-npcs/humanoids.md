@@ -5,43 +5,43 @@ This section contains a few NPC stat blocks and notes on their intended use and 
 ## List
 
 - [Humans](#human)
-    - [Human Commoner](#human-commoner)
-    - [Human Peasant](#human-peasant)
-    - [Human Guard](#human-militia)
-    - [Human Warrior](#human-warrior)
-    - [Human Knight](#human-knight)
-    - [Human Magic Knight](#human-magic-knight)
-    - [Human Elemental Knight](#human-magic-knight-variant-elemental-knight)
-    - [Human Scout](#human-scout)
-    - [Human Mage, Apprentice](#human-mage-apprentice)
-    - [Human Scholar](#human-scholar)
-    - [Human Elite](#human-elite)
-    - [Human Mage](#human-mage)
-    - [Human Mage, Archmage](#human-mage-arch-mage)
+    - [Human Commoner (level 1)](#human-commoner-level-1)
+    - [Human Peasant (level 2)](#human-peasant-level-2)
+    - [Human Guard (level 3)](#human-militia-level-3)
+    - [Human Warrior (level 6)](#human-warrior-level-6)
+    - [Human Knight (level 10)](#human-knight-level-10)
+    - [Human Magic Knight (level 9)](#human-magic-knight-level-9)
+    - [Human Elemental Knight (level 9)](#human-magic-knight-variant-elemental-knight-level-9)
+    - [Human Scout (level 5)](#human-scout-level-5)
+    - [Human Mage, Apprentice (level 2)](#human-mage-apprentice-level-2)
+    - [Human Scholar (level 3)](#human-scholar-level-3)
+    - [Human Elite (level 5)](#human-elite-level-5)
+    - [Human Mage (level 6)](#human-mage-level-6)
+    - [Human Mage, Archmage (level 6)](#human-mage-arch-mage-level-12)
 - [Elves](#elf)
-    - [Elvish Youth](#elvish-youth)
-    - [Elf](#elf)
-    - [Elvish Elder](#elvish-elder)
-    - [Elvish Hunter](#elvish-hunter)
-    - [Elvish Mage](#elvish-mage)
+    - [Elvish Youth (level 1)](#elvish-youth-level-1)
+    - [Elf (level 5)](#elf-level-5)
+    - [Elvish Elder (level 13)](#elvish-elder-level-13)
+    - [Elvish Hunter (level 11)](#elvish-hunter-level-11)
+    - [Elvish Mage (level 10)](#elvish-mage-level-10)
 - [Orc](#orc)
-    - [Orc](#orc-1)
-    - [Orcish Hunter](#orcish-hunter)
-    - [Orcish Berserker](#orcish-berserker)
-    - [Orcish Geomancer](#orcish-geomancer)
+    - [Orc (level 2)](#orc-level-2)
+    - [Orcish Hunter (level 8)](#orcish-hunter-level-8)
+    - [Orcish Berserker (level 11)](#orcish-berserker-level-11)
+    - [Orcish Geomancer (level 7)](#orcish-geomancer-level-7)
 - [Winged](#winged)
-    - [Winged](#winged-1)
-    - [Winged Shepherd](#winged-shepherd)
-    - [Winged Scout](#winged-scout)
-    - [Winged Wind Mage](#winged-wind-mage)
+    - [Winged (level 1)](#winged-level-1)
+    - [Winged Shepherd (level 4)](#winged-shepherd-level-4)
+    - [Winged Scout (level 8)](#winged-scout-level-8)
+    - [Winged Wind Mage (level 12)](#winged-wind-mage-level-12)
 - [Beast folk](#beast-folk)
-    - [Beast Folk](#beast-folk-1)
-    - [Beast folk traveller](#beast-folk-traveller)
-    - [Beast folk warrior](#beast-folk-warrior)
-    - [Beast folk mystic warrior](#beast-folk-mystic-warrior)
+    - [Beast Folk (level 2)](#beast-folk-level-2)
+    - [Beast folk traveller (level 4)](#beast-folk-traveller-level-4)
+    - [Beast folk warrior (level 7)](#beast-folk-warrior-level-7)
+    - [Beast folk mystic warrior (level 8)](#beast-folk-mystic-warrior-level-8)
 - [Goblins](#goblins)
-    - [Goblin, Common](#goblin-common)
-    - [Goblin Strategist](#goblin-strategist)
+    - [Goblin, Common (level 1)](#goblin-common-level-1)
+    - [Goblin Strategist (level 11)](#goblin-strategist-level-11)
 - [Giants](#giant)
     - [Ogre](#ogre)
     - [Ogre Mage](#ogre-mage)
@@ -51,7 +51,7 @@ This section contains a few NPC stat blocks and notes on their intended use and 
 
 ## Human
 
-### Human Commoner
+### Human Commoner (level 1)
 |HiT|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |10|6|4|1|30ft|-|
@@ -83,7 +83,7 @@ These humans seldom own weapon or armour, although some are proficient in a sing
 These humans generally prefer to get on with their lives and avoid trouble, but often lack the knowledge of what that trouble looks like. They will usually sooner surrender and beg for their lives than fight overwhelming foes. No one wants to die.
 
 ___
-### Human Peasant
+### Human Peasant (level 2)
 |HiT|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |11|13 (*11*)|6 (*6*)|3|30ft|-|
@@ -115,7 +115,7 @@ These humans are often proficient in any two weapon groups, though seldom own ba
 Beware the humble human farmer working his field! He has had a tough life and survived. A peasant will not rush into combat, but will often be more than willing to defend his pride, home and kin. Still they would rather not have to. No one wants to die.
 
 ____
-### Human Militia
+### Human Militia (level 3)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |17/13/12|20 (*16*)|8 (*8*)|5|30ft|-|
@@ -152,7 +152,7 @@ Militiamen will normally perform their combat duty, but will break and flee if t
 **Variant**: A basic cavalryman, substitutes "climb" for "ride" and gains the "[charge](06-abilities.md#charge)" ability.
 
 ___
-### Human Warrior
+### Human Warrior (level 6)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |19/16/15|44 (*29*)|20 (*15*)|10|30|-|
@@ -194,7 +194,7 @@ A warrior usually carries one heavy weapon weapon and a sidearm. He may also car
 **Variant**: An elite cavalryman, substitutes "climb" for "ride" and gains the "[charge](06-abilities.md#charge)" and "[rider: quick mount](06-abilities.md#quick-mount)" ability.
 
 ___
-### Human Knight
+### Human Knight (level 10)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |25/21/14|65 (*41*)|54 (*29*)|16|30|-|
@@ -236,7 +236,7 @@ A knight is an elite warrior, trained from birth to fight and rule. This block c
 A knight usually has a warhorse, squire and attendants. Like a warrior, he will carry a main weapon and shield into battle and carry a side arm. Knights seldom carry ranged weapons, trusting their heavy armour to protect and squire (stat as [militiaman](#human-militia)) to back them up.
 
 ___
-### Human Magic Knight
+### Human Magic Knight (level 9)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |23/18/13|44 (*28*)|59 (*35*)|13|30|-|
@@ -288,7 +288,7 @@ A magic knight will usually have an apprentice and servant. They may have a warh
 In combat a magic knight will attack its foes perceived weakness. A magic knight will fight to the death if their goal necessitates it, but will otherwise retreat if overwhelmed. Magic knights are generally loath to surrender.
 
 ___
-### Human Magic Knight Variant: Elemental Knight
+### Human Magic Knight Variant: Elemental Knight (level 9)
 
 An elemental knight works like a Magic Knight with the following differences:
 - INT=12
@@ -308,7 +308,7 @@ Example, Elemental Knight, fire:
 |Spellcasting: Water II|||"[Mist](../08-spell-list.md#mist)", "[Least Freeze](../08-spell-list.md#least-freeze)", "[Sense Spell](../08-spell-list.md#sense-spell)", "[Winter's Touch](../08-spell-list.md#winters-touch)", "[Dusk](../08-spell-list.md#dusk)", "[Trace Secret Path](../08-spell-list.md#trace-secret-path)"|
 
 ___
-### Human Scout
+### Human Scout (level 5)
 |HiT|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |15/12/14|23 (*19*)|19 (*15*)|7|35ft|-|
@@ -352,7 +352,7 @@ A scout generally prefers not to engage in combat if their mission can be accomp
 Scouts are proficient with light blades, light armour, bows and sometimes mechanical bows, spears and staves. On missions where discretion is important they will use only equipment that is easily hidden. Since training a skilled scout is a lengthy and expensive process, they are generally few in number and, in most cases, they are used carefully by their taskmasters.
 
 ___
-### Human Mage, Apprentice
+### Human Mage, Apprentice (level 2)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |11/11/11|8 (*7*)|12 (*11*)|4|30|-|
@@ -390,7 +390,7 @@ Apprentices seldom carry weapons or armour. Although in some societies they may 
 Apart from the most hot-headed, apprentice mages are seldom eager to engage in combat, and seldom last long when they do. Although they may fight when cornered, or when defending allies or sworn allies.
 
 ___
-### Human Scholar
+### Human Scholar (level 3)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |11/11/11|11 (*9*)|17 (*15*)|5|30|-|
@@ -425,7 +425,7 @@ Scholars seldom carry weapons or armour. Although in some societies they may car
 A scholar will seldom engage in combat if given the choice, although they may fight when cornered, or when defending allies or sworn allies.
 
 ___
-### Human Elite
+### Human Elite (level 5)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |12/11/12|23 (*19*)|21 (*17*)|7|30|-|
@@ -458,7 +458,7 @@ These are well fed humans who are trained from birth to rule over their societie
 Elites seldom carry weapons or wear armour beyond a symbolic dagger or smallsword. Although if forced onto the battlefield will take up arms.
 
 ___
-### Human Mage
+### Human Mage (level 6)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |11/11/11|20 (*15*)|38 (*28*)|9|30|-|
@@ -498,7 +498,7 @@ Mages often prefer to avoid combat and situations that lead to severe injury or 
 In combat, a mage uses their familiar to scout, and then use the appropriate spell for the situation. Often this involves preparing the battlefield and applying the appropriate debuffs before engaging with offensive magic. That said, when fighting multiple weaker foes, mages will often try to eliminate them with area of effect spells. In a magic duel, a mage will usually use their reaction and bonus action to try and counter-spell other mages.
 
 ___
-### Human Mage, Arch-mage
+### Human Mage, Arch-mage (level 12)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |11/11/11|58 (*36*)|78 (*45*)|18|30|-|
@@ -546,7 +546,7 @@ In combat an arch-mage will attempt to win the battle before it has begun by usi
 ___
 ## Elf
 
-### Elvish Youth
+### Elvish Youth (level 1)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |12/11/12|3|7|1|30ft|-|
@@ -579,7 +579,7 @@ Elves live for a ridiculously long time. This stat block represents an elf that 
 An ordinary elf will seldom carry weapons beyond a dagger for no reason. These elves will seldom try to start a fight, preferring to hide and observe. If threatened they prefer to accept the terms and obtain revenge later if there is any risk. No one wants to die.
 
 ___
-### Elf
+### Elf (level 5)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |13/11/13|16 (*16*)|23 (*19*)|6|30ft|-|
@@ -618,7 +618,7 @@ The average elf has lived for centuries and has had time to learn an incredible 
 An average elf will carry a sling and knife for self defense, knowing that the world is more dangerous than it appears. They seldom enter combat unless there is a strict necessity for it. No one wants to die.
 
 ____
-### Elvish Elder
+### Elvish Elder (level 13)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |18/18/18|49 (*33*)|76 (*52*)|15|35ft|-|
@@ -665,7 +665,7 @@ This represents a millennia old elf. They have likely seen civilisations rise an
 Elvish elders seldom carry much on their journeys. They will almost never engage in combat (how else does one live this long). However, should an inevitable threat appear, they will attempt to eradicate it in the most effective manner. They will not fight fair or put themselves in danger unless absolutely necessary. No one wants to die.
 
 ___
-### Elvish Hunter
+### Elvish Hunter (level 11)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |20/20/18|53 (*43*)|39 (*29*)|13|45ft|-|
@@ -719,7 +719,7 @@ A hunter carries only what they need to exist autonomously and hunt down their p
 **NB**: Do not use this stat block unless you intend to kill the party, or know that they have a very good capacity when it comes to detecting hidden foes.
 
 ___
-### Elvish Mage
+### Elvish Mage (level 10)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |16/13/15|36 (*27*)|58 (*40*)|15|35ft|-|
@@ -766,7 +766,7 @@ An elvish mage will generally leave the scene as soon as it senses that a fight 
 ___
 ## Orc
 
-### Orc
+### Orc (level 2)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |11|14 (*12*)|6 (*6*)|4|30ft|-|
@@ -800,7 +800,7 @@ This represents your average orc. This could be a tribesman, hunter, bandit or a
 An orc might have a lower threshold for violence than an average human, but he will generally not fight a pointless or unwinnable fight. No one wants to die.
 
 ___
-### Orcish Hunter
+### Orcish Hunter (level 8)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |16/15/13|54 (*33*)|28 (*23*)|12|30ft|-|
@@ -838,7 +838,7 @@ This block does not represent an orc who goes hunting, but rather one that has d
 An orcish hunter generally runs down its pray, herding it into traps and finishing it off with blows of its fists. When taking down dangerous pray much larger than itself, it will rely on massive axes to neutralise the size advantage.
 
 ___
-### Orcish Berserker
+### Orcish Berserker (level 11)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |17/16/14|75 (*45*)|48 (*28*)|16|30ft|-|
@@ -880,7 +880,7 @@ A berserker longs for battle and bloodshed. It will usually fight to the death.
 NB: Be careful when throwing this block at the party.
 
 ___
-### Orcish Geomancer
+### Orcish Geomancer (level 7)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |17/15/14|34 (*23*)|40 (*28*)|12|30ft|-|
@@ -918,7 +918,7 @@ An orcish geomancer will not fight unless necessary, but takes great joy in dest
 ___
 ## Winged
 
-### Winged
+### Winged (level 1)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |13/10/12|6|4|1|20ft|60ft fly (average)|
@@ -946,7 +946,7 @@ ___
 This represents an averaged Winged. They are fairly harmless and will flee rather than fight. About 1/6 winged are capable of elementary wind magic, and know 2 or the three spells listed above.
 
 ___
-### Winged Shepherd
+### Winged Shepherd (level 4)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |16/12/14|18 (*15*)|14 (*14*)|5|20ft|60ft fly (average)|
@@ -982,7 +982,7 @@ This block also represents militia, patrol, and the tougher Winged travellers th
 
 Winged Shepherds prefer to avoid conflict. When they fight, they fight to delay their enemies for long enough to make an escape. No one wants to die.
 ___
-### Winged Scout
+### Winged Scout (level 8)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |18/13/16|42 (*28*)|30 (*23*)|11|20ft|80ft fly (good)|
@@ -1022,7 +1022,7 @@ The task of a scout is to fly and observe. A scout may be there to find those Wi
 Winged scouts will sooner flee than fight, unless there is something that must be defended. Even then when the objective has been defended, the Winged will usually disengage.
 
 ___
-### Winged Wind Mage
+### Winged Wind Mage (level 12)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |19/14/17|50 (*28*)|74 (*52*)|16|20ft|70ft fly (good)|
@@ -1065,7 +1065,7 @@ A wind mage tries to avoid battle. However if it cannot be done, they will attem
 ___
 ## Beast folk
 
-### Beast folk
+### Beast folk (level 2)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |12/11/12|10 (*8*)|12 (*10*)|3|35|(climb 30ft)|
@@ -1102,7 +1102,7 @@ Beast folk often dwell in wilder parts of the world, and much like orcs, tend to
 Common beast folk are often proficient with fighting tooth and claw and one form of ranged weapon. They seldom carry weapons unless they anticipate that they will need it.
 
 ___
-### Beast folk traveller
+### Beast folk traveller (level 4)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |14/12/13|18 (*16*)|18 (*15*)|6|35|(climb 30ft)|
@@ -1142,7 +1142,7 @@ This represents merchants, emissaries, messengers and other experienced wayfarer
 In combat, a beast folk traveller, will attempt to put some distance between themselves and targets and attack from afar. If this seems unlikely to work, they will flurry with tooth and claw, trying to take out their target as quickly as possible.
 
 ___
-### Beast folk warrior
+### Beast folk warrior (level 7)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |18/16/14|40 (*28*)|34 (*22*)|11|45ft|(30ft climb)|
@@ -1189,7 +1189,7 @@ A warrior generally uses brigandine for armour, although might use any medium ar
 A beast folk warrior prefers to approach its foe stealthily and then rush the foe and take it down with multiple strikes of its claws. Otherwise it prefers hit and run tactics before closing in for the kill. Beast folk warriors will retreat if victory is outside their reach, but they will generally die before surrendering to other humanoids.
 
 ___
-### Beast folk mystic warrior
+### Beast folk mystic warrior (level 8)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |18/16/14|40 (*28*)|34 (*28*)|11|55ft|(30ft climb)|
@@ -1246,7 +1246,7 @@ ___
 ## Goblins
 Goblins are little green humanoids which are cast as villains in many fantasy worlds. They are sly, cowardly and weak, uninventive and petty, greedy and spiteful. Goblin societies are depicted as primitive, unsophisticated and simultaneously unjust and unequal. In certain settings all goblins are male and reproduce only using females of other races (not recommended for most settings). Goblins are often used in low level adventures as monsters that are easy to defeat even for low level characters.
 
-### Goblin, Common
+### Goblin, Common (level 1)
 ___
 - **Size**: Small
 - **Natural Armour**: Armour -1
@@ -1285,7 +1285,7 @@ ___
 
 Goblins are generally weak and frail, and will use stealth and sneaky tactics that maximise their chances of success. A goblin will use ambush and the longest spear available. If the initial attack does not work, Goblins will usually break and flee. They can be "persuaded" to fight if their fear of death at the hands of their enemy is overcome by their fear of death at the hands of those that lead them.
 
-### Goblin, Strategist
+### Goblin, Strategist (level 11)
 ___
 - **Size**: Small
 - **Natural Armour**: Armour -1

@@ -8,6 +8,9 @@ A certain level of freeform RP and common sense are recommended.
 1. [Load and Carrying Capacity](#load-and-carrying-capacity)
 2. [Local and Global Movement](#local-and-global-movement)
     - [Global Movement, Pushing and Fatigue](#global-movement-pushing-and-fatigue)
+      - [Running and Fatigue](#running-and-fatigue)
+      - [Sprinting and Fatigue](#sprinting-and-fatigue)
+      - [Fatigue Table](#fatigue-table)
     - [Difficult Terrain](#difficult-terrain)
     - [Walking](#walking)
     - [Climb](#climb)
@@ -93,13 +96,36 @@ Here basic movement is described. It is based, where possible on observations. T
 ### Global Movement, Pushing and Fatigue
 Typically, an experienced traveller can continue their journey for 10 hours per day at a reasonable pace (equal to their global movement speed). If a traveller has a fly speed with limitations on fly duration, the time in flight counts against this total journey time of 10 hours. Thus, if a character has a flight time of 2 hours, and they spend those 2 hours on the wing, not only do they expend their flight time, but also they have only 8 hours of journey time remaining. During any rest, 2 hours of journey time is regained, with all 10 hours being regained during a long rest.
 
-A character may "push" beyond that time, but for every hour of "pushing" themselves in this way, the character expends 1 SP dice (and hence 2 SP). A character who has ran out of SP or SP dice, can continue to push, at the cost of 1HP per hour, however, in this case they immediately gain the "crippled" condition.
+A character may "push" beyond that time, but for every hour of "pushing" themselves in this way, the character expends 1 SP die (and hence 2 SP). A character who has ran out of SP or SP dice, can continue to push, at the cost of 1HP per hour, however, in this case they immediately gain the "crippled" condition.
 
 In addition, a traveller can move faster than their global movement speed (see "[Walking](#walking)" below), however the SP dice/ HP cost is applied at shorter intervals.
 
+#### Running and Fatigue
+[Running](04-combat.md#actions-in-combat) and [sprinting](04-combat.md#actions-in-combat) cause most characters to tire more quickly than moving at their base speed. Any time spent "running" or "sprinting" is subtracted from global journey time as usual.
+- For "[walk](#walking)", "[swim](#swimming)" and "[climb](#climb)" modalities a character can **run** for [CON] hours without fatiguing. Thereafter, for every 10 minutes of running the character must succeed a [CON] save (Threshold=[16 + number of previous saves]) or expend 1 SP die. If it has no SP die, it loses 1 HP instead and gains the crippled condition in one of the limbs that it uses for running. This limit is not reset when a character stops running. After a character takes a "[short rest](04-combat.md#short-rest)", it regains 1 hour of run time. After a "[long rest](04-combat#long-rest)" it regains all of its run time.
+- For the "[flight](#flight)" modality, a character can run for [CON] x 10 minutes without fatiguing. Thereafter, for every 10 minutes of running the character must succeed a [CON] save (Threshold=[16 + number of previous saves]) or expend 1 SP die. If it has no SP die, it loses 1 HP instead and gains the crippled condition in one of its limbs that it uses for running. This limit is not reset when a character stops running. After a character takes a "[short rest](04-combat.md#short-rest)", it regains 10 minutes of run time. After a "[long rest](04-combat#long-rest)" it regains all of its run time.
+- Run time is shared between all movement modalities. Thus, a character that has +3 [CON] and has flown (at run speed) for 30 minutes, has no flight run time left, and 2 hours 30 minutes for the other modalities. If the same character had instead ran (walking modality, run speed) for 1 hour, it has no run time left for its flight.
+- For other modalities, running is not possible.
+
+#### Sprinting and Fatigue
+[sprinting](04-combat.md#actions-in-combat) is explosive movement and causes fatigue much more quickly than running. Any time spent "sprinting" is subtracted from global journey time as usual.
+- For "[walk](#walking)" and "[swim](#swimming)" modalities a character can **sprint** for [STR] [rounds](04-combat.md#flow-of-combat) (6 seconds per round) without fatiguing. Thereafter, for every round of sprinting the character must succeed a [CON] save (Threshold=[16 + number of previous saves]) or expend 1 SP die. If it has no SP die, it loses 1 HP instead and gains the crippled condition in one of its limbs, if it hasn't already. This limit is not reset when a character stops sprinting, but resets at the end of a "[short rest](04-combat.md#short-rest)". A character can also reset its sprint limit by not moving faster than "walk" (1x base speed) for at least 1 minute and expending an SP die.
+- For other modalities sprinting is not possible.
+
+#### Fatigue Table
+The table below summarises the 
+|Speed |Modalities       |Limit             |Push period|On short Rest    |On long rest|Other|
+|------|-----------------|------------------|-----------|-----------------|------------|-----|
+|Walk  |All except Fly   |10 hours          |1 hour     |regain 2 hour    |regain full |-    |
+|Walk  |Fly              |See fly rating    |1 hour     |regain 2 hour    |regain full |-    |
+|Run   |Walk, Swim, Climb|[CON] hours       |10 minutes |regain 1 hour    |regain full |-    |
+|Run   |Fly              |10 x [CON] minutes|10 minutes |regain 10 minutes|regain full |-    |
+|Sprint|Walk, Swim       |[STR] rounds      |1 round    |regain full      |regain full |regain full limit for 1 minute rest + 1 SP die|
+___
 ### Difficult Terrain
 It is common when adventuring to find less than ideal terrain. Loose, rocky ground or turbulent waters are typical examples. Movement speed is halved over this kind of terrain. Most entities cannot "sprint" in these conditions and if they try to run, must make a Threshold=12 "[Acrobatics](05-skills.md#acrobatics)" check or fail to progress (failure with snake eyes means falling prone).
 
+___
 ### Walking
 Most entities with a "walk" speed can:
 - **Crawl (5ft/round)**: Crawling is movement when prone, dragging one's torso along the ground. It makes one harder to spot or hit with ranged attacks, but is laborious and slow. Entities without a "walk" speed can only crawl overland.
@@ -109,24 +135,27 @@ Most entities with a "walk" speed can:
 - **Difficult terrain:** Some rocky, overgrown, sloping, slippery terrain is classed as "difficult". Narrow passages also count as difficult terrain.
 - **Dragging objects:** See the "[dragging](#dragging)" rules above.
 
+___
 ### Climb
 Climbing is upwards or downwards movement over steep or near vertical terrain. Entities with a "climb" speed can move along this kind of surfaces at their stated speed. Entities with a climb speed must still succeed a "climb" roll when climbing, but they can always choose to take care on this roll.
 - **Non climbers:** Entities without a climb speed move at 1/4 their base speed (usually "walk"). They cannot "run" or "dash" without succeeding a "climb" roll at a -5 penalty In addition they must succeed on "[climb](05-skills.md#climb)" rolls to stay attached to make progress or even stay attached to the surface.
 - **Prone and falling**: A climbing entity that falls prone or is knocked prone is considered prone and is subject to the falling rules (which means it accelerates downwards and then comes to a violent halt).
 
+___
 ### Swimming
 Entities with a swim speed are often well adapted to their liquid medium, but are either incapable of moving on land or very clumsy. Entities with a swim speed typically have speeds of 60-120ft and can perform "walk", "run" and "sprint" actions in their liquid medium (usually water).
 - **Not Swimmers:** Entities without a swim speed either do not swim at all (they sink), or are poor swimmers and can only move at 1/2 base speed (no "run" or "sprint" possible) and must make a [SKILL] or [ABILITY] check or start drowning/sinking if conditions are not ideal.
 - **Difficult terrain**: Turbulent waters or strong currents, kelp beds and thick syrup are examples of difficult terrain.
 - **Load**: An entity with a medium load or more have their swim speed reduced to 0. Entities that exceed their heavy load threshold when swimming sink. 
 
-
+___
 ### Digging
 Moving through solid earth is a slow and difficult process. Moving through rock is often impossible even for diggers. Entities with a dig speed are not slowed by narrow passages. Natural speeds are 5-10ft. Unless otherwise stated Digging entities cannot dig through solid rock (natural or worked), or metal.
 - **Non-diggers**: entities that cannot move through earth, sand, or rock.
 - **Run, Sprint**: Digging entities cannot run or sprint when digging.
 - **Load**: Digging entities cannot dig with more than a medium load.
 
+___
 ### Flight
 Flight is an intriguing and liberating mode of movements. To terrestrial entities a flying being seems to have the freedom of the wind. Natural flying entities move between 80-240ft per round.
 - **Non-flyers**: Entities without a fly speed cannot fly. But they can jump.
@@ -164,11 +193,13 @@ Most birds are "average" flyers, though most fowl are "poor" and small raptors a
 
 __If a group wishes to simplify__ these rules, it is recommended to use "Good" flight for natural fliers and "Perfect" flight for magical flight. Using "perfect" flight for all fliers is the simplest rule of course, but makes flying monsters, mounts and characters a lot more powerful. Beware!
 
+___
 ### Walk and Flight Logic
 Most terrestrial entities have legs and walk. Some do not. They slither. They are an exception. We ignore them for now. Using small to large animals for reference, quadrupeds have a walking speed of 2-6 miles per hour (mph), a running speed of 8-20mph, and a sprint pace of 16-40mph. There are fewer bipeds, but they are capable of similar speeds (see ostriches). Humanoids are comparatively slow. 3-4mph (~5-6ft/s) is a typical walk. The fastest sprinter reaches about 24mph (100m/9s, 35ft/s), an average human springs at ~16mph (100m/15s, 24ft/s). The speeds we have quoted in the rules are a bit lower as conditions on an adventure are seldom as ideal as on a modern running track. Likewise you will notice that I have used [STR] for sprinting. This is in keeping with sports physiology.
 
 Most natural flying entities of tiny to large sizes are fast. Indeed there are fewer flying entities that can fly slowly than those that can't. Typical cruise speeds of birds are 10-60mph, with maximum speeds being as much as twice as high. On the other hand, flying entities usually need space to change direction and sacrifice sturdiness for the highly energetic activity of flight. Few flying entities in the real world weight much more than 10kg.
 
+___
 ### Vigorous Motion
 Vigorous motion is when moving quickly over uneven terrain, when there is significant shaking and difficult to predict bumps. Vigorous motion occurs when:
 - A character (or their mount, if mounted), uses the "run" or "sprint" action.

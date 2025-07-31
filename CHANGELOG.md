@@ -413,6 +413,7 @@ ____
 - Decreased journey time regained to 2 hours per short rest instead of 5 hours.
 - Fixed [Falling rules](03-movement-exploration.md#falling) wording to use acrobatics roll instead of dex.
 - Reformatted summary table of scouting and camping table.
+- Clarified [fatigue rules for running and sprinting](03-movement-exploration.md#global-movement-pushing-and-fatigue).
 
 ### Combat
 - Attacks of opportunity reworded and better explained. Attacks of opportunity can now only be made with up to half concealment (1/6), any more and it fails.

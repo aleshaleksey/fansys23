@@ -224,7 +224,7 @@ ___
 This is a race of winged humanoids that live in high and isolated places, as well as loci associated with elemental air. They are small of stature, sharp sighted, and often shy of other races.
 - **Size**: Small (Height: ~3'3", Weight: ~32lb, Wingspan: ~11ft.)
 - **Stats**: (Str: -2, Dex: +2, Con: 0, Int: 0, Wis: 0, Cha: 0)
-- **Movement**: Walk 20ft, Fly 60ft (rating: average).
+- **Movement**: Walk 20ft, Fly 60ft (rating: average, endurance: 2 hours).
 - **Sight**: Normal.
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
 - **Proficiencies**: One appropriate language.

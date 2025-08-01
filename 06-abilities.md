@@ -156,6 +156,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Blind Sight I-VI](#blind-sight-i-vi)
 - [Blink](#blink)
 - [Condition Immunity](#condition-immunity)
+- [Enduring Flight](#enduring-flight)
 - [Extra Save](#extra-save)
 - [Fleet](#fleet)
 - [Heat Sense I-VI](#heat-sense-i-v)
@@ -169,6 +170,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Rider: Quick mount](#quick-mount)
 - [Second Soul](#second-soul)
 - [Silent Step (I-III)](#silent-step-i-iii)
+- [Sleep on the Wing](#sleep-on-the-wing)
 - [Speed](#speed)
 - [Sprinter](#sprinter)
 - [Stalker](#stalker)
@@ -1816,6 +1818,19 @@ ___
 |17-20|6| Extra Save V|
 
 ___
+#### Enduring Flight
+
+**Type**: (Natural, Class B)
+
+**Description**: Gain 1 extra hour of flight endurance.
+
+**Limitations**:
+- A character can only take this boon once per level.
+- A character cannot increase its flight endurance with this boon to beyond its [journey time](03-movement-exploration.md#global-movement-pushing-and-fatigue) (10 hours).
+
+**Prerequisites**: CON of at least 15.
+
+___
 #### Fleet
 
 **Type**: (Either, Class B)
@@ -2012,6 +2027,22 @@ ___
 |I|1|You can move up to your movement speed without penalties to maintain stealth|
 |II|2|You can run while stealthed (no stealth penalty), as long as you have some concealment|
 |III|3|You can sprint wile stealthed (no stealth penalty), as long as you have some concealment|
+
+___
+#### Sleep on the Wing
+
+**Type**: (Natural, Class B, cost = 2 points)
+
+**Description**: This character can fly continuously without ever landing.
+
+**Prerequisites**:
+- Flight time of 10 hours.
+- "[Second Soul](#second-soul)" or "[Alert](#alert)" boons, OR 19+ to CHA or WIS.
+  - This prerequisite is waived for entities that do not sleep.
+
+**Limitations**:
+- After expanding its normal flight time, the character can ONLY fly at half of its base movement speed until it completes a rest.
+- During such flight, it does not regain SP dice, MP dice, SP, MP or HP from resting, however it does regain journey time and can sleep if it so chooses.
 
 ___
 #### Speed

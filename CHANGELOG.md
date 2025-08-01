@@ -436,3 +436,12 @@ ____
 
 ### Weapons and Armour
 - Greatbow increased to 1d12. This isn't going to backfire at all.
+
+____
+## From v0.0.16
+
+### Movement and Exploration
+- Change flight rules to support different [flight endurance](03-movement-exploration.md#flight-parameters) independently of flight rating (Also added modification to racial flight rules).
+
+### Abilities
+- Added [Sleep on the Wind](06-abilities.md#sleep-on-the-wing) and [Enduring Flight](06-abilities.md#enduring-flight).

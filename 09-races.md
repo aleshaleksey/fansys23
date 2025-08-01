@@ -158,7 +158,7 @@ ___
 This is a race of winged humanoids that live in high and isolated places, as well as loci associated with elemental air. They are small of stature, sharp sighted, and often shy of other races.
 - **Size**: Small (Height: ~3'3", Weight: ~32lb, Wingspan: ~11ft.)
 - **Stats**: (Str: -2, Dex: +2, Con: 0, Int: 0, Wis: 0, Cha: 0)
-- **Movement**: Walk 20ft, Fly 60ft (rating: average). (5 point)
+- **Movement**: Walk 20ft, Fly 60ft (rating: average, endurance: 2 hours). (5 point)
 - **Sight**: Normal.
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
 - **Proficiencies**: One appropriate language.
@@ -169,7 +169,7 @@ This is a race of winged humanoids that live in high and isolated places, as wel
 
 **Race boon: (6 points)**
 - +1 fly level.
-- +10 fly speed.
+- +10 fly speed or +1 hour to flight endurance.
 
 ___
 ### Dragonkin (level-1 template = 8 points)
@@ -520,6 +520,7 @@ The base template allows the following:
   - A template may only grant +2 to the same stat ONCE per template level.
 - Speed increase to climb, walk, or swim speed by 5ft.
   - A single template level can increase climb, walk or swim speeds by no more than 15ft.
+- Increase flight endurance by 1 hour (up to the limit of 4 hours).
 - Remove the "ageing" necessity.
 - Gain one of the following senses: "Keen senses: Smell", "Keen senses: Hearing".
 
@@ -533,6 +534,7 @@ The base template allows the following:
 - Increase fly speed by 10ft OR Increase cosmic speed by 20ft.
   - A single template level can increase fly or cosmic speed by no more than 20ft or 40ft respectively.
 - Improve fly speed rating from "poor" -> "average".
+- Increase flight endurance by 1 hour (beyond the limit of 4 hours).
 - A passive or active (C class) ability with no prerequisites (eg water breathing).
 - Gain one of the following senses: "Low-light vision", "heat-sense", "keen-senses: Sight".
   - When this enhancement is a graded ability (eg "[Heat Sense](06-abilities.md#heat-sense-i-v)"), it is always taken at 2nd level (eg "Heat Sense II"). In this case increasing it by a further level costs a single point.
@@ -543,7 +545,7 @@ The base template allows the following:
   - A template may grant only 2 condition resistances or immunities per template level.
 - A passive or active (B class) ability with no prerequisites.
 - Remove a necessity (drink or eat).
-- A 60ft (rating: poor) fly speed. Characters that pick this option have a -10ft speed penalty to their climb, walk and swim speeds.
+- A 60ft (rating: poor, endurance: 2 hours) fly speed. Characters that pick this option have a -10ft speed penalty to their climb, walk and swim speeds.
 - A 5ft dig speed. Characters that pick this option have a -10ft speed penalty to their climb, walk and swim speeds.
 - Improve dig speed by 5ft from 5f->10ft.
 
@@ -557,6 +559,7 @@ The base template allows the following:
 - Improve fly speed rating from "average" -> "good".
 - Improve dig speed by 5ft from 10ft or higher.
 - A passive or active (B class) ability with no prerequisites.
+- Gain "[Sleep on the Wing](06-abilities.md#sleep-on-the-wing)" (can only gained if the race template already has 10 hours of flight endurance).
 - Gain one of the following senses: "Tremor Sense", "Blindsight".
   - When this enhancement is a graded ability (eg "[Tremor Sense](06-abilities.md#tremor-sense-i-v")), it is always taken at 2nd level (eg "Tremor Sense II"). In this case increasing it by a further level costs a single point.
 

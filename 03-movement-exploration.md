@@ -17,6 +17,9 @@ A certain level of freeform RP and common sense are recommended.
     - [Swimming](#swimming)
     - [Digging](#digging)
     - [Flight](#flight)
+      - [Limitations of Flight](#limitations-of-flight)
+      - [Flight Parameters](#flight-parameters)
+      - [Notes on Flight](#notes-on-flight)
     - [Vigorous Motion](#vigorous-motion)
 3. [Exploration](#exploration)
     - [Overview](#overview)
@@ -162,6 +165,7 @@ Flight is an intriguing and liberating mode of movements. To terrestrial entitie
 - **Sprint**: Flying entities do not sprint.
 - **Difficult terrain and falling prone**: Turbulent skies, precipitation and high altitude count as difficult terrain. A flying entity that falls prone is welcomed by the firm embrace of mother earth (it falls).
 
+#### Limitations of Flight
 However this comes with limitations:
 - An entity with natural flight can only fly when carrying a light load and at most light armour.
 - They cannot use a shield or "unwieldy"/"heavy" weapon. (But they can use a buckler)
@@ -169,23 +173,27 @@ However this comes with limitations:
 - If they slow to lower than 1/2 their speed in a given terrain, they must land or fall.
 - A flying entity that is knocked **"prone"**, or tripped, drops a distance equal to its speed and can only move at half speed on its next turn. If this drop causes it to hit the ground, it suffers all of the consequences of falling (see "[Falling](#Falling)" section).
 
-Not all flying entities are equal in flight. In fact there are four categories (ratings):
-- **Poor**:
-  - These entities climb at 1/2 speed, cannot "run", cannot ascend/descend at more than 45 degrees.
-  -  Their turn radius is equal to 3/2x their fly speed.
-  -  They cannot fly for more than [10 minutes x CON] without fatigue.
-- **Average**:
-  - These entities climb at 1/2 speed and cannot ascend at more than 45 degrees.
-  - Their turning circle is equal to their fly speed.
-  - They cannot fly more than [1 hour x CON] without fatigue.
-- **Good:**
-  - These entities climb at 1/2 speed.
-  - Their turn circle is equal to 1/2x their fly speed.
-  - They cannot fly more than [2 hours x CON] without fatigue.
-- **Perfect:** These entities have none of the typical limits of the other three categories. In addition:
-  - They can hover without falling.
+#### Flight Parameters
+Not all flying entities are equal in flight. There are three parameters by which flying ability is assessed.
+- **Speed**: Usually this is 80-240ft per round, but can be lower.
+- **Endurance**: A flying entity can fly at least 1 hour per long rest, but no longer than 10 hours (the normal overland journey time). A character that has exhausted their flight time for a given long rest may expend 1 SP die (or 1 HP is they have no SP/ SP dice remaining) to gain 1 minute of flight time. 
+  - Characters with a flight speed can increase their flight endurance with the "[Enduring Flight](06-abilities.md#enduring-flight)" boon.
+  - Rarely, a flying entity can "[sleep on the wing](06-abilities.md#sleep-on-the-wing)". In this case, it can continue flying at half speed after the journey time has elapsed. However, in this case it does not regain SP dice, MP dice, SP, MP or HP from resting (although it can sleep).
+- **Manoeuvrability (rating)**: 
+  - **Poor**:
+    - These entities climb at 1/2 speed, cannot "run", cannot ascend/descend at more than 45 degrees.
+    - Their turn radius is equal to 3/2x their fly speed.
+  - **Average**:
+    - These entities climb at 1/2 speed and cannot ascend at more than 45 degrees.
+    - Their turning circle is equal to their fly speed.
+  - **Good:**
+    - These entities climb at 1/2 speed.
+    - Their turn circle is equal to 1/2x their fly speed.
+  - **Perfect:** These entities have none of the typical limits of the other three categories. In addition:
+    - They can hover without falling.
 
-**NB**: Flight "time" is fully regained at the end of a ["long rest"](04-combat.md#long-rest). Likewise, half of an entity's flight time is regained at the end of a ["short rest"](04-combat.md#short-rest).
+#### Notes on Flight
+**NB**: Flight "time" is fully regained at the end of a ["long rest"](04-combat.md#long-rest). Likewise, half of an entity's flight time (but no more than 2 hours) is regained at the end of a ["short rest"](04-combat.md#short-rest).
 
 A character with flight may "[push](#global-movement-pushing-and-fatigue)" beyond their allocated fly time, however the penalty is applied every 10 minutes, instead of every hour.
 

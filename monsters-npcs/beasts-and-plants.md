@@ -19,11 +19,19 @@ Animals are common entities in the material world. They have a physical form, li
     - [Bat](#bat)
     - [Bear](#bear-level-6)
     - [Boar](#boar-level-4)
+    - [Crocodile](#crocodile)
+    - [Crocodile, Caiman](#crocodile-caiman)
     - [Rat](#rat)
+    - [Snake, Grass](#snake-grass)
+    - [Snake, Constrictor](#snake-constrictor)
+    - [Snake, Viper](#snake-viper)
+    - [Snake, Cobra](#snake-cobra)
     - [Wolf](#wolf)
 - [Giant Animals](#giant-animals)
     - [Giant Snail](#giant-snail)
     - [Giant Slug](#giant-slug)
+    - [Giant Crocodile](#giant-crocodile)
+    - [Giant Snake, Constrictor](#giant-snake-constrictor)
     - [Giant Eagle](#giant-eagle-level-6)
     - [Giant Owl](#giant-owl-level-4)
     - [Giant Swan](#giant-swan-level-5)
@@ -531,6 +539,73 @@ Size = Medium
 This block is used for aggressive, wild pigs (boars). Boars are aggressive omnivores that typically dwell in woodlands, hills, and sometimes swamps.
 
 ___
+### Crocodile
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|16/17/11|38 (*23*)|26 (*21*)|10|30|swim (40ft)|
+
+(Natural armour + 4)
+
+Size = Large
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|16|10|16|2|12|12|
+|Bonus|+3|0|+3|-4|+1|+1|
+|Save|+6|+1|+8|-2|+3|+3|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|6 (2)|10|10|2|2|4|4|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite|+7|2d8+3|Shear damage|
+|Grapple|+7|||
+|[Combined Manoeuvre](../06-abilities.md#combined-manoeuvre-i-v)|||(1 SP die) A crocodile can, and usually does, grapple the creatures it bites, to drag them down into the murky water it inhabits.|
+|[Silent Step I](../06-abilities.md#silent-step-i-iii)|||A crocodile swims silently and at full speed when stalking its prey|
+|Keen scent|||Advantage on perception rolls based on scent|
+|Low light Vision|||Can see in the "dark", but not pitch black conditions|
+|Skills|||"Stealth" +5, "Track" +5, "Observe" +5|
+|Loot|||A crocodile can provide a sturdy pelt for two suits of leather/hide armour and more than 300lb of meat.|
+
+Crocodiles are an ancient, semi-aquatic predator that dwells in warm rivers, swamps, lakes and sometimes even coastal waters. They often spend time on the shore, sunbathing. They prefer murky waters where they can easily ambush birds and mammals that enter the water or loiter within the distance of a lunge. A crocodile will attempt to drag its prey into the water, where it cannot fight back effectively, and might easily drown. On the other hand they are likely to release prey that fights back vigorously.
+
+___
+### Crocodile, Caiman
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|15/15/12|26 (*17*)|18 (*15*)|8|25|swim (50ft)|
+
+(Natural armour + 3)
+
+Size = Medium
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|14|14|16|2|12|12|
+|Bonus|+2|+2|+3|-4|+1|+1|
+|Save|+3|+3|+8|-3|+2|+2|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|4 (1)|7|7|2|2|3|3|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite|+5|1d8+2|Shear damage|
+|Grapple|+5|||
+|[Combined Manoeuvre](../06-abilities.md#combined-manoeuvre-i-v)|||(1 SP die) A caiman can, and usually does, grapple the creatures it bites, to drag them down into the murky water it inhabits.|
+|[Silent Step I](../06-abilities.md#silent-step-i-iii)|||A caiman, much like its larger cousin, swims silently and at full speed when stalking its prey|
+|Keen scent|||Advantage on perception rolls based on scent|
+|Low light Vision|||Can see in the "dark", but not pitch black conditions|
+|Skills|||"Stealth" +5, "Track" +2, "Observe" +4|
+
+|Loot|||A caiman can provide a sturdy pelt and more than 100lb of meat.|
+
+Caymans are the smaller cousins of crocodiles. They better adapted for hunting fish, but will equally consume any beast smaller than themselves.
+
+___
 ### Rat
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
@@ -798,6 +873,39 @@ ___
 |Skills|||"Observe" +3, "Harvest" +8|
 
 Giant slugs are large, poisonous, herbivorous molluscs. They are usually docile, but can lash out with their pseudopods when attacked. Since they are largely defenceless against stronger monsters and ranged attacks, they dwell in, or near, caverns whether this is not so much of a threat.
+
+___
+### Giant Crocodile
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|17/21/11|38 (*42*)|54 (*34*)|17|40|swim (50ft)|
+
+(Natural armour +6)
+
+Size = Huge
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|20|10|18|4|13|14|
+|Bonus|+5|0|+4|-3|+1|+2|
+|Save|+10|+1|+11|0|+4|+5|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|11 (3)|19|16|4|3|7|6|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite|+12|2d12+5|Shear damage|
+|Grapple|+12|||
+|[Combined Manoeuvre](../06-abilities.md#combined-manoeuvre-i-v)|||(1 SP die) A giant crocodile can, and usually does, grapple the creatures it bites, to drag them down into the murky water it inhabits.|
+|[Silent Step I](../06-abilities.md#silent-step-i-iii)|||Despite its size, a giant crocodile swims silently and at full speed when stalking its prey|
+|Keen scent|||Advantage on perception rolls based on scent|
+|Low light Vision|||Can see in the "dark", but not pitch black conditions|
+|Skills|||"Stealth" +8, "Track" +6, "Observe" +6|
+|Loot|||A giant crocodile can provide a sturdy pelt for four suits of leather/hide armour (material level 2) and more than 1200lb of meat. The problem is taking one down.|
+
+Giant crocodiles are an apex predator that will hunt just about anything that enters the estuaries, lakes, and rivers where it makes its home. They can live for centuries, sleeping for months, or even years, through times of scarcity. Giant crocodiles are sometimes mistaken for [earthbound dragons](monsters-and-dragons.md#earthbound-dragon-lesser), however they possess non of the intelligence or supernatural abilities.
 
 ___
 ### Giant Snake, Constrictor

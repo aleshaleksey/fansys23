@@ -27,6 +27,13 @@ Animals are common entities in the material world. They have a physical form, li
     - [Snake, Viper](#snake-viper)
     - [Snake, Cobra](#snake-cobra)
     - [Wolf](#wolf)
+- [Animals: Aquatic](#animals-aquatic)
+    - [Fish, Medium](#fish-medium)
+    - [Octopus](#octopus)
+    - [Octopus, Giant](#octopus-giant)
+    - [Seal](#seal)
+    - [Shark, Reef](#shark-reef)
+    - [Shark, Greater](#shark-greater)
 - [Giant Animals](#giant-animals)
     - [Giant Snail](#giant-snail)
     - [Giant Slug](#giant-slug)
@@ -800,6 +807,203 @@ ___
 This block can be used for large domesticated dogs, hyenas and wolves. These are intelligent predators that hunt as a pack. They prefer to attack manageable prey, but when hungry or desperate can become incredibly bold.
 
 Wolves can be advanced to a higher level, but seldom reach above level 5.
+
+___
+## Animals: Aquatic
+
+___
+### Fish, Medium
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|13/12/12|12 (*11*)|6 (*6*)|3|-|swim (50ft)|
+
+Size: Medium
+
+Natural armour +1
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|12|13|13|2|11|11|
+|Bonus|+1|+1|+1|-4|0|0|
+|Save|+2|+2|+2|-3|+1|+1|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|2 (1)|5|3|1|1|2|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite|+3|1d4+1 [shear]|Reach=5ft|
+|Slam|+3|1d6+1 [bludgeoning]|Reach=5ft|
+|||||
+|Skills|||"observe" +2, "swim" +3|
+
+This stat block can be used for any medium sized fish (which is actually quite big), freshwater or salt water. Most fish are predatory or omnivorous, but generally eat creatures much smaller than themselves.
+
+___
+### Octopus
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|11/11/11|7 (*7*)|4 (*4*)|2|-|swim (40ft)|
+
+Size: Small
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|8|14|12|5|11|11|
+|Bonus|-1|+2|+1|-3|0|0|
+|Save|0|+3|+2|-2|+1|+1|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|1 (1)|3|2|1|1|2|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite|+4|1d4+1 [shear]|Reach=5ft: An octopus can bite with its beak|
+|Grapple|+4||(Reach=10ft) An octopus can grapple up to 8 targets|
+|Squeeze|Threshold=13||As a secondary action an octopus may attempt to squeeze all targets that it has grappled with its tentacles, causing a STR save. On failure the victim is dealt 1d4 damage.|
+|Monster attack|||An octopus can grapple twice with its tentacle and make a beak attack in the same attack action|
+|Ink|||(1 SP die) An octopus can release an ink cloud that spreads in a radius of 20ft as a secondary action. This is often done as a means of escape. The cloud dissipates within an hour.|
+|||||
+|Skills|||"observe" +1, "stealth" +3, "sleight of hand" +4|
+
+Octopuses are marine invertebrates with a high degree of intelligence and 8 limbs. They generally eat molluscs which they grapple with their arms and crack with their beak. They prefer complex terrain, since they are adept at squeezing through tight spaces.
+
+___
+### Octopus, Giant
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|14/14/12|56 (*35*)|33 (*25*)|2|-|swim (40ft)|
+
+Size: Huge
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|21|16|17|5|15|12|
+|Bonus|5|+3|+3|-3|+2|+1|
+|Save|+9|+3|+5|-1|+4|+3|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|9 (2)|16|12|3|2|5|4|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite|+10|1d10+5 [shear]|Reach=10ft: An octopus can bite with its beak|
+|Grapple|+10||(Reach=15ft) An octopus can grapple up to 8 targets|
+|Squeeze|Threshold=21||As a secondary action an octopus may attempt to squeeze all targets that it has grappled with its tentacles, causing a STR save. On failure the victim is dealt 1d10 damage.|
+|Monster attack|||An octopus can grapple four times with its tentacle and make a beak attack in the same attack action|
+|Ink|||(1 SP die) An octopus can release an ink cloud that spreads in a radius of 40ft as a secondary action. This is often done as a means of escape. The cloud dissipates within an hour.|
+|||||
+|Skills|||"observe" +1, "swim" +0, "sleight of hand" +4|
+
+Giant octopuses inhabit reefs, shipwrecks and the depths.
+
+___
+### Seal
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|11/11/11|22 (*16*)|18 (*15*)|3|-|swim (50ft)|
+
+Size: Large
+
+Natural armour +1
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|16|12|15|4|11|13|
+|Bonus|+3|+1|+2|-3|0|+1|
+|Save|+4|+2|+2|-3|+1|+1|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|4 (1)|7|7|1|1|2|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite|+5|1d6+3 [shear]|Reach=5ft|
+|Slam|+5|1d10+3 [bludgeoning]|Reach=5ft|
+|Grapple|+5|||
+|||||
+|Skills|||"observe" +2, "swim" +3|
+|Loot|||A seal can provide enough hide for 1-2 suits of armour and 100-300lb of meat.|
+
+Seals are mammals that dwell on the coast and spend most of their time  in the water, hunting fish, and occasionally other marine life. Seals seldom attack larger animals, but a seal's size and strength is somewhat comparable to that of a bear so they are capable of doing so.
+
+Seals are pack animals, and are both intelligent and inquisitive. This stat block can be used for seals, sea lions and, tentatively, walruses.
+
+___
+### Shark, Reef
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|15/13/13|12 (*11*)|6 (*6*)|6|-|swim (60ft)|
+
+Size: Medium
+
+Natural armour +2
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|12|14|13|3|13|11|
+|Bonus|+1|+2|+1|-4|+1|0|
+|Save|+2|+3|+2|-3|+2|+1|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|4 (1)|7|7|2|2|3|3|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite|+5|1d8+2 [shear]|Reach=5ft|
+|Slam|+3|1d6+1 [bludgeoning]|Reach=5ft|
+|||||
+|Rough hide|||Entities that physically "grapple", "restrain" or "immobilise" (or attempt to) sharks must succeed a DEX save or take 1d4 shear damage at the end of their turn.|
+|[Berserk I](../06-abilities.md#berserk-i-v)|||Sharks can go berserk at the smell of blood and |
+|Keen Smell|||Sharks have advantage of observe rolls based on scent|
+|[Life Sense IV](../06-abilities.md#life-sense-i-v)|||Smaller sharks can sense other living beings at a range of 60ft|
+|Skills|||"observe" +2, "swim" +3|
+|Loot|||A reef shark can provide up to about 100lb of meat.|
+
+Reef sharks are "smaller" sharks that hunt in the complex terrain of reefs and other shallow waters. They prefer smaller prey, but in large numbers may attack prey larger than themselves. Sharks possess a sense that allows them to feel the electric fields of other living beings, which is invaluable for hunting in murky waters.
+
+___
+### Shark, Greater
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|17/19/12|28 (*16*)|21 (*15*)|11|-|swim (80ft)|
+
+Size: Huge
+
+Natural armour +3
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|18|14|15|3|15|13|
+|Bonus|+4|+2|+2|-4|+2|+1|
+|Save|+8|+2|+4|-1|+4|+3|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|7 (2)|12|11|2|2|4|4|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite|+8|2d8+4 [shear]|Reach=5ft. A shark's bite always causes "bleeding" on 12, if a it deals HP damage to the target.|
+|Slam|+8|2d6+4 [bludgeoning]|Reach=5ft|
+|||||
+|Rough hide|||Entities that physically "grapple", "restrain" or "immobilise" (or attempt to) sharks must succeed a DEX save or take 1d4 shear damage at the end of their turn.|
+|[Berserk I](../06-abilities.md#berserk-i-v)|||Sharks can go berserk at the smell of blood and |
+|Keen Smell|||Sharks have advantage of observe rolls based on scent|
+|[Life Sense V](../06-abilities.md#life-sense-i-v)|||Smaller sharks can sense other living beings at a range of 120ft|
+|Skills|||"observe" +8, "swim" +10, "track" +5|
+|Loot|||A reef shark can provide up to about 2000lb of meat.|
+
+Greater sharks are the larger sharks that prowl the oceanic expanse (although some also hunt in the shallows). 
+
+They take both smaller and larger prey, but often prefer mammals, such as seals, that swim near the surface and are outlined by the light from the surface. Greater sharks usually attack by charging up from the depth and delivering a vicious bite. It then circles, waiting for its prey to bleed out. As with smaller sharks, they occasionally congregate in packs to hunt larger prey.
+
+Sharks possess a sense that allows them to feel the electric fields of other living beings, which is invaluable for hunting in murky waters.If 
 
 ___
 ## Giant Animals

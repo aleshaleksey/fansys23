@@ -234,7 +234,7 @@ ___
 
 **Special**:
 - Berserk does not have an SP dice cost. However, when the berserker trance is over, you lose a number of HP equal to the level of the Berserk ability (so for "Berserk I" you lose 1HP: see table below).
-- At the end of the trance the SP gained at the start of the berserker trance is lost. If this would leave the character with negative SP, the character's SP drops to zero, and the character instead loses a number of HP equal to its [base]. For example, a character with [base]=2 (levels 6-10) would lose 2 HP in this case. This HP loss is IN ADDITION to the normal HP loss that occurs regardless at the end of the trance.
+- At the end of the trance you lose the SP that was gained at the start of the berserker trance. If this would leave the character with negative SP, the character's SP drops to zero, and the character instead loses a number of HP equal to its [base]. For example, a character with [base]=2 (levels 6-10) would lose 2 HP in this case. This HP loss is IN ADDITION to the normal HP loss that occurs regardless at the end of the trance.
 - While "berserk", a character may not use INT based skills and has disadvantage on all WIS and CHA based skills with the exception of "[Observe](05-skills.md#observe)". It has disadvantage on "[Tinker](05-skills.md#tinker)" rolls.
 - While "berserk", a character cannot cast spells with a kinetic component and must roll a 1d6 when trying to cast spells with an incantation component, losing the spell on a 3 or lower.
 - While "berserk", a character may not use abilities such as "precision attack".

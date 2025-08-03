@@ -50,6 +50,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Assassinate I-V](#assassinate-i-v)
 - [Berserk I-V](#berserk-i-v)
 - [Broad Strike](#broad-strike)
+- [Broad Strike, Greater](#broad-strike-greater)
 - [Combined Manoeuvre (I-V)](#combined-manoeuvre-i-v)
 - [Counterstrike](#counterstrike)
 - [Debilitating Strike](#debilitating-strike)

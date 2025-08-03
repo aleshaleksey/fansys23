@@ -447,6 +447,7 @@ ____
 ### Abilities
 - Added [Sleep on the Wind](06-abilities.md#sleep-on-the-wing) and [Enduring Flight](06-abilities.md#enduring-flight).
 - Add heavy armour proficiency prerequisite to [heavy armour mastery](06-abilities.md#armour-mastery-heavy).
+- Add "[Greater Broad Strike](06-abilities.md#broad-strike-greater)".
 
 ### Weapons and Armour
 - Mauls, axes and siege weapons [ignore some damage reduction](11-weapons-armour.md) of certain materials.

@@ -1331,7 +1331,7 @@ ___
 **Original state**: Heavy Armour gives a -4 penalty to all CON rolls related to endurance and a -2 penalty to attack rolls.
 
 **Prerequisite**:
-- Proficiency with Medium armour
+- Proficiency with Heavy and Medium armour. 
 - 6 SP dice.
 
 ___

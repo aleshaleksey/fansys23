@@ -597,6 +597,12 @@ NB2: All these items are immune to poison damage.
 1. Cutting an opening in the fabric counts as 1 point of damage, collapsing the tent as 2.
 2. Cutting an opening in the yurt counts as 2 points of damage, collapsing the yurt as 8.
 
+Certain tools and weapons overcome the damage resistance of objects. These are as follows:
+- A miner's pick overcomes the damage resistance of wooden, bone and stone objects, (dealing 1 die of damage to wooden objects, and 2 dice of damage to stone objects per hit).
+- A maul ignores 1 point of damage resistance of wooden, bone, stone and metal objects.
+- Ballistas that use "bullets" as projectiles, catapults and canons, ignore 1 point of damage resistance of wooden, bone, stone and metal objects. 
+- Axes ignore the damage reduction of wooden objects.
+
 ___
 ### Bindings and Restraints
 Characters may end up being tied up, shackled, manacled, put in a stockade or otherwise restrained. Likewise a character may restrain their foes (or allies). In essence restraints come in two flavours: The kind whose escape threshold depends on the skill of character applying them, and the kind where it doesn't. For example, how well one ties a rope depends on how well well one can tie a rope, while manacles often snap shut, and are locked in place at the turn of a key. Secondly different restraints can apply different conditions. For example a rope can be used to "[restrain](10-conditions-types.md#conditions-in-detail)" or "[immobilise](10-conditions-types.md#conditions-in-detail)" a target, while a stockade only to "[restrain](10-conditions-types.md#conditions-in-detail)".

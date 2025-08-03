@@ -228,7 +228,7 @@ Size = tiny
 |Skills|||"Stealth" +4, "Observe" +2|
 |Loot|||Cat meat is edible to humanoids|
 
-This block can be used for domestic cats or a wildcat. These predators are often co-exist successfully with humanoids and certain monsters.
+This block can be used for domestic cats or a wildcat. These predators often co-exist successfully with humanoids and certain monsters.
 
 ___
 ### Dog

@@ -151,7 +151,7 @@ Damage Key:
 - Slashing: S
 - Piercing: P
 
-|Weapon|Proficiency|Damage dice|Damage type|Handedness|Governed by|Reach (ft)|Range (ft)|Increment (ft)|Weight (lb)|Durability|
+|Weapon|Proficiency|Damage dice|Type|Hands|Governed by|Reach (ft)|Range (ft)|Increment (ft)|Weight (lb)|Durability|
 |-|-|-|-|-|-|-|-|-|-|-|
 |Strike|Strike|1|B/Sh|1+|Str/Dex|5|-|-|-|-|
 |Throws|Throw|-|-|1+|Str/Dex|5|-|-|-|-|
@@ -176,7 +176,7 @@ Damage Key:
 |Longsword|Heavy blade|1d8/1d12|S/P|1+|Str|5|-|-|4|10|
 |Greatsword|Heavy blade|2d6|S/P/B|2|Str|5|-|-|6|12|
 |||||||||
-|Weapon|Proficiency|Damage dice|Damage type|Handedness|Governed by|Reach (ft)|Range (ft)|Increment (ft)|Weight (lb)|Durability|
+|Weapon|Proficiency|Damage dice|Type|Hands|Governed by|Reach (ft)|Range (ft)|Increment (ft)|Weight (lb)|Durability|
 |Club|Percussive|1d4|B|1|Str|5|-|-|2|6|
 |Greatclub|Percussive|1d10|B|2|Str|5|-|-|6|8|
 |Mace|Percussive|1d8|B|1|Str|5|-|-|3|12|
@@ -204,7 +204,7 @@ Damage Key:
 |Heavy Shield|Shield|1d6|B|1|Str|5|-|-|10|6|
 |Tower Shield|Shield|1d6|B|1|Str|5|-|-|20|8|
 |||||||||
-|Weapon|Proficiency|Damage dice|Damage type|Handedness|Governed by|Reach (ft)|Range (ft)|Increment (ft)|Weight (lb)|Durability|
+|Weapon|Proficiency|Damage dice|Type|Hands|Governed by|Reach (ft)|Range (ft)|Increment (ft)|Weight (lb)|Durability|
 |Sling|Sling|1d6|B|1|Dex|-|1600|80|1|2|
 |Shortbow|Bow|1d6|P|2|Dex|-|600|120|1|4|
 |Composite Bow|Bow|1d8|P|2|Dex|-|1200|240|2|3|
@@ -219,13 +219,13 @@ Damage Key:
 |Blowgun|Blowgun|1d4|P/B|2|Dex/Con|240|60|1|4|
 |Long Blowgun|Blowgun|1d6|P/B|2|Dex/Con|600|200|2|5|
 |||||||||||
-|Pistol|Firearm|1d8|piercing|1|Dex|-|120|40|1|4
-|Musket|Firearm|2d6|piercing|2|Dex|-|240|120|8|6
-|Blunderbuss|Firearm|2d12|piercing|2|Dex|-|120|40|6|6
-|Gun-blade|Firearm|1d8|piercing/slashing|1|Dex|5|120|20|2|4
+|Pistol|Firearm|1d8|P|1|Dex|-|120|40|1|4
+|Musket|Firearm|2d6|P|2|Dex|-|240|120|8|6
+|Blunderbuss|Firearm|2d12|P|2|Dex|-|120|40|6|6
+|Gun-blade|Firearm|1d8|P/S|1|Dex|5|120|20|2|4
 |||||||||||
-|Ballista (bolt)|Mechanical Bow|4d12|piercing|2|Dex|-|1800|300|20|400
-|Ballista (bullet)|Mechanical Bow|4d12|bludgeoning|2|Dex|-|900|120|20|400
+|Ballista (bolt)|Mechanical Bow|4d12|P|2|Dex|-|1800|300|20|400
+|Ballista (bullet)|Mechanical Bow|4d12|B|2|Dex|-|900|120|20|400
 
 ___
 ### Unarmed Combat
@@ -289,15 +289,15 @@ These are the legendary blades of legend, and the symbol of a warrior. Heavy bla
 ___
 ### Axes
 
-A hefted weapon with a sharp, protruding head that is used for chopping. While also a tool used for carpentry and fortification, most axes specialised for combat are not suited for any purpose other that chopping foes and wood. All axes have the "grapple" and "cripple" property.
+A hefted weapon with a sharp, protruding head that is used for chopping. While also a tool used for carpentry and fortification, most axes specialised for combat are not suited for any purpose other that chopping foes and wood. All axes have the "grapple" and "cripple" property. All axes, except the war pick ignore the damage reduction of [wooden objects](03-movement-exploration.md#object-hit-point-durability-table).
 
 |Weapon|Special Properties| Manoeuvres|
 |-|-|-|
 |Hand axe|cripple, bleeding, "Tool:Carpentry, fortification, forestry"|grapple|
 |War shovel|cripple, bleeding, "Tool: Fortification, agriculture"|grapple|
 |War pick|cripple|grapple, sunder|
-|War axe|cripple, bleeding, "Tool: Forestry"|grapple|
-|Greataxe|cripple, bleeding, heavy|grapple|
+|War axe|cripple, bleeding, "Tool: Forestry"||
+|Greataxe|cripple, bleeding, heavy||
 
 
 **Hand Axe**: Any well balanced, one handed axe with a sturdy construction is considered a hand axe. Cavalry axes are usually also considered hand axes. Hand axes have of the "bleeding", "Tool:Carpentry", "Tool:Fortification" and "Tool: Forestry" properties.
@@ -323,7 +323,7 @@ Percussive weapons like clubs, maces and hammer are in their essence a weight at
 |Morning stars|cripple, bleeding||
 |Flail|cripple, special|grapple, trip|
 |War hammers|cripple|sunder|
-|Mauls|cripple, heavy, prone|sunder|
+|Mauls|cripple, heavy, prone, special|sunder|
 
 **Clubs** can include police batons, bats, and heavy branches and have been made from just about any material. As long as humanoids have existed they have used clubs. A basic club is extremely easy to make and use. Clubs do NOT require proficiency to use. 
 
@@ -337,7 +337,9 @@ Percussive weapons like clubs, maces and hammer are in their essence a weight at
 
 **War hammers** are a family of mace-like weapons with an asymmetrical head: One end is blunt, the other end is sharp, for piercing armour. War hammers have the "sunder" property, and "sunder" vs armour and unattended items is at advantage when using a war hammer. **NB** long hefted war hammers in the style of venetian war hammers are considered pole-arms for for the sake of proficiency.
 
-**Mauls**: Any exceptionally big and heavy war hammer -like weapons that requires hands to use is considered a maul here. Mauls are always "heavy" and can cause the "prone" condition.
+**Mauls**: Any exceptionally big and heavy war hammer -like weapons that requires hands to use is considered a maul here. Mauls are always "heavy" and can cause the "cripple" and "prone" condition. In addition, the weight of a maul means that it:
+- Deals an extra die of damage when used with the "sunder" manoeuvre. For example, a medium sized maul, when used to sunder a shield, despite dealing 2d6 damage, deals 3 dice of damage instead of 2.
+- When used attack inanimate object (doors, windows, walls, manacles, etc), ignores one point of damage reduction.
 
 ___
 ### Spears
@@ -497,9 +499,9 @@ These are heavy weapons that are designed for destroying fortifications, large m
 |Weapon|Special Properties|Manoeuvres|
 |-|-|-|
 |Ballista (bolt)|bleeding, delicate||
-|Ballista (bullet)|bleeding, delicate||
+|Ballista (bullet)|bleeding, delicate, Special||
 
-**Ballista**: A tension device, similar to a very large crossbow, that can be used to launch javelin-like bolts, which weight 6lb each, or stones/bullets weighting 60lb, over great distances with a high measure of precision. It requires 2 full-round actions to load a ballista, an additional move action to aim, and a standard action to fire. __Aiming and firing cannot be done on the same round as loading__.
+**Ballista**: A tension device, similar to a very large crossbow, that can be used to launch javelin-like bolts, which weight 6lb each, or stones/bullets weighting 60lb, over great distances with a high measure of precision. It requires 2 full-round actions to load a ballista, an additional move action to aim, and a standard action to fire. __Aiming and firing cannot be done on the same round as loading__. Ballistas, when firing bullets, ignore the [damage reduction of inanimate objects](03-movement-exploration.md#object-hit-point-durability-table).
 
 A ballista typically weights about 400lb, and requires a space of 10ft x 10ft to operate.
 

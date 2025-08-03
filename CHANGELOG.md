@@ -442,6 +442,13 @@ ____
 
 ### Movement and Exploration
 - Change flight rules to support different [flight endurance](03-movement-exploration.md#flight-parameters) independently of flight rating (Also added modification to racial flight rules).
+- Some weapons ignore part of the [damage reduction of objects](03-movement-exploration.md#object-hit-point-durability-table).
 
 ### Abilities
 - Added [Sleep on the Wind](06-abilities.md#sleep-on-the-wing) and [Enduring Flight](06-abilities.md#enduring-flight).
+- Add heavy armour proficiency prerequisite to [heavy armour mastery](06-abilities.md#armour-mastery-heavy).
+
+### Weapons and Armour
+- Mauls, axes and siege weapons [ignore some damage reduction](11-weapons-armour.md) of certain materials.
+- [Mauls](11-weapons-armour.md#percussive) deal an extra die of damage when sundering.
+- [Axes](11-weapons-armour.md#axes) (war and great) no longer grant the grapple manoeuvre.

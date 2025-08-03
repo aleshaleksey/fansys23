@@ -227,34 +227,55 @@ ___
 
 **Action**: Declare berserk as a "secondary action".
 
-**Effect**: A Berserk character can remain in the trance for [SP dice count] rounds. However, if the character does not take damage or attack from the the end of the start of their turn one round to their next turn, the trance ends. The character gains a number of SP equal to their SP Dice maximum. In addition the character has a bonus to walk, climb, swim and fly speed, weapon damage, and may have advantage on attacks.
+**Effect**: A character enters a berserker trance.
+- A character can remain in the trance for a number of rounds equal to its SP dice total, or 6 rounds, whichever is greater. The character can leave the trance voluntarily as a secondary action.
+- The character gains a number of SP equal to their SP dice maximum. In addition the character has a bonus to walk, climb, swim and fly speed, weapon damage, and may have advantage on attacks (See the berserker table).
 
 **Special**:
-- Berserk does not have an SP dice cost. However, when the berserker trance is over, you lose a number of HP equal to the level of the Berserk ability (so if you have "Berserk I" you lose 1HP). In addition, the SP gained at the start of berserker trance is lost. If this takes the character into negative SP, it then loses a number of HP equal to half its level rounded down (this is in addition to the standard HP loss).
-- While "berserk", a character may not use Int based skills and has disadvantage on all Wis and Cha based skills. It has disadvantage on "Tinker" rolls.
-- While "berserk", a character cannot cast spells with a kinetic component and must roll a 1d6 when trying to cast spells with an incantation, losing the spell on a 3 or lower.
+- Berserk does not have an SP dice cost. However, when the berserker trance is over, you lose a number of HP equal to the level of the Berserk ability (so for "Berserk I" you lose 1HP: see table below).
+- At the end of the trance the SP gained at the start of the berserker trance is lost. If this would leave the character with negative SP, the character's SP drops to zero, and the character instead loses a number of HP equal to its [base]. For example, a character with [base]=2 (levels 6-10) would lose 2 HP in this case. This HP loss is IN ADDITION to the normal HP loss that occurs regardless at the end of the trance.
+- While "berserk", a character may not use INT based skills and has disadvantage on all WIS and CHA based skills with the exception of "[Observe](05-skills.md#observe)". It has disadvantage on "[Tinker](05-skills.md#tinker)" rolls.
+- While "berserk", a character cannot cast spells with a kinetic component and must roll a 1d6 when trying to cast spells with an incantation component, losing the spell on a 3 or lower.
 - While "berserk", a character may not use abilities such as "precision attack".
 
 **Berserk Table**:
 
-|Berserk level|SP dice prerequisite|Speed boost|Attack|Damage|Extra
-|-|-|-|-|-|-|
-|I|3|-|normal|2|-|
-|II|9|5|normal|3|Advantage vs "frightened"|
-|III|18|10|normal|4|Advantage vs "grappled" & "restrained"|
-|IV|30|15|advantage|5|Advantage vs vs "Charmed"|
-|V|45|20|advantage|6|Advantage vs "stunned" & "incapacitated"|
+|Level|SP dice prerequisite|Speed|Attack   |Damage|HP loss on end|Extra|
+|-----|--------------------|-----|---------|------|--------------|-----|
+|I    |3                   |-    |normal   |+2    |1             |-    |
+|II   |9                   |+5   |normal   |+3    |2             |Advantage vs "frightened"|
+|III  |18                  |+10  |normal   |+4    |3             |Advantage vs "grappled" & "restrained"|
+|IV   |28                  |+15  |advantage|+5    |4             |Advantage vs vs "Charmed"|
+|V    |40                  |+20  |advantage|+6    |5             |Advantage vs "stunned" & "incapacitated"|
 
 ___
 #### Broad Strike
 
-**Description**: Expend an SP dice and strike multiple foes adjacent to each other and in reach in one melee attack.
+**Description**: Expend an SP die and strike multiple foes adjacent to each other and in reach in one melee attack.
 
 **Action**: Roll attack once. Roll damage once. All targets whose HiT is met are hit.
 
 **Cost**: 1 SP dice is expended.
 
 **Original state**: A single melee attack can only strike one target.
+
+___
+#### Broad Strike, Greater
+
+**Description**: Expend 2 SP dice and strike all foes in your melee reach.
+
+**Action**: As a main action declare "Greater Broad Strike". Choose a melee weapon you are wielding. Roll attack once. Roll damage once. All targets within reach that are hit take the damage.
+
+**Cost**: [1 SP die + 1 SP die per 5ft of reach of the weapon] are expended. Thus for a weapon with 5ft reach, the cost is 2 SP dice, for a weapon with 10ft reach the cost is 3 SP dice, etc.
+
+**Original state**: Ordinary broad strike only hits adjacent targets.
+
+**Prerequisites**:
+- 21 SP dice
+- STR or DEX of 17
+- "Broad Strike"
+
+**Special**: Unlike broad strike, this ability uses a main action rather than a single attack.
 
 ___
 #### Combined Manoeuvre I-V

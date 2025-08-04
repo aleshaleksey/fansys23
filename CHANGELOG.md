@@ -449,6 +449,10 @@ ____
 - Add heavy armour proficiency prerequisite to [heavy armour mastery](06-abilities.md#armour-mastery-heavy).
 - Add "[Greater Broad Strike](06-abilities.md#broad-strike-greater)".
 
+### Spell list
+- Tidy up spell costs for global spells and upcasting terminology.
+- Add more uses for [Spirits' Secret](08-spell-list.md#spirits-secret)
+
 ### Weapons and Armour
 - Mauls, axes and siege weapons [ignore some damage reduction](11-weapons-armour.md) of certain materials.
 - [Mauls](11-weapons-armour.md#percussive) deal an extra die of damage when sundering.

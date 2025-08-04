@@ -573,7 +573,7 @@ ___
 |Scope|local (global)|
 |MP Dice|1 (2)|
 |Target(s)|1 entity (100ft radius)|
-|Casting time|"full round action" (1h + 20min per 4MP)| -2
+|Casting time|"full round action" (1h + 20min per 2MP)| -2
 |Range|close|
 |Duration|1 hour (1 week+)|+6
 |Components|incantation,kinetic|
@@ -584,7 +584,7 @@ ___
 
 **Upcast (local)**: Add an extra target for every 1MP die above 1 of cost paid.
 
-**Global**: Creates a zone with a 100ft radius where all entities can communicate with animals (Cha save on entry negates). For every 4MP, the duration increases by 1 week.
+**Global**: Creates a zone with a 100ft radius where all entities can communicate with animals (Cha save on entry negates). For every 2MP dice above 2, the duration increases by 1 week.
 
 (-2+6+2)=(4+2)
 
@@ -646,7 +646,7 @@ ___
 |Scope|local (global)|
 |MP Dice|1 (2)|
 |Target(s)|10ft radius centered on a square (200ft)| +3
-|Casting time|"main action" (1h + 20min per 4MP)|
+|Casting time|"main action" (1h + 20min per 2MP)|
 |Range|60ft|+1
 |Duration|1 min (1 hour+)|+3
 |Components|incantation, kinetic|-1
@@ -658,7 +658,7 @@ ___
 
 **Upcast (local)**: Increase the radius by 5ft for every extra 1MP die above 1 of cost paid.
 
-**Global**: Create a zone of 200ft with the same properties. For every 4MP add either 100ft of radius or 1 hour of duration.
+**Global**: Create a zone of 200ft with the same properties. For every 2MP dice above 2, add either 100ft of radius, or 1 hour of duration.
 (4+1+3+2-4)=(4+2)
 
 ___
@@ -691,7 +691,7 @@ ___
 |Scope|local (global)|
 |MP Dice|1 (2)|
 |Target(s)|5ft radius centered on a sq (100ft)|+1
-|Casting time|"main action" (1h + 20min per 4MP)|
+|Casting time|"main action" (1h + 20min per 2MP dice)|
 |Range|120ft| +2
 |Duration|1 min (1 hour)| +3
 |Components|incantation, kinetic| -1
@@ -701,7 +701,7 @@ ___
 
 **Description**: Harmless, supernatural flames spring forth in the area and persist, providing a dim illumination and potentially adhering to entities in the area. All targets that do not succeed a Cha save are "glowing" until the end of the spell. The target does not repeat the save at the end of its turn.
 
-**Global**: When cast globally the spell illuminates an area with a radius of 100ft and lasts for 1h plus 20 min for each extra 4MP. This use is popular at festivals and parties.
+**Global**: When cast globally the spell illuminates an area with a radius of 100ft and lasts for 1h plus 20 min for each 2MP dice above 2. This use is popular at festivals and parties.
 
 ___
 ### Gnomes' Mercy
@@ -728,7 +728,7 @@ ___
 |Scope|local (global)|
 |MP Dice|1 (2)|
 |Target(s)|20ft, 60 degree cone centered on the caster (100ft sphere)|+1
-|Casting time|"1 main action" (1h + 20min per 4MP dice)|
+|Casting time|"1 main action" (1h + 20min per 2MP dice)|
 |Range|close|
 |Duration|1min+ (1 hour+)|+3
 |Components|incantation|+1
@@ -739,7 +739,7 @@ ___
 
 **Upcast**: Increase the radius of the cone by 5ft for each extra MP die above 1.
 
-**Global**: The wind strength remains the same, but the spell creates a whirlwind with a 100ft radius. The duration increases to an hour. For every 4MP extra the duration increases by an hour or the radius increases by 50ft.
+**Global**: The wind strength remains the same, but the spell creates a whirlwind with a 100ft radius. The duration increases to an hour. For every 2MP dice above 4 the duration increases by an hour, or the radius increases by 50ft.
 
 ___
 ### Least Flare
@@ -748,7 +748,7 @@ ___
 |Scope|local (global)|
 |MP Dice|1 (2)|
 |Target(s)|1 target no larger than "small"|-1
-|Casting time|"1 main action" (1 hour + 20min per extra 4MP dice)|
+|Casting time|"1 main action" (1 hour + 20min per extra 2MP dice)|
 |Range|close|-1
 |Duration|1 hour (1 week)|+6
 |Components|kinetic, incantation|-1
@@ -859,7 +859,7 @@ ___
 |Scope|local (global)|
 |MP Dice|1 (2)|
 |Target(s)|rock or ground within a 10ft radius of a sq (200ft)| +3
-|Casting time|"main action" (1h + 20min per 4MP dice)|
+|Casting time|"main action" (1h + 20min per 2MP dice)|
 |Range|120ft| +2
 |Duration|Instantaneous|
 |Components|kinetic| -1
@@ -872,7 +872,7 @@ ___
 + If the shape will not be structurally sound it collapses.
 + If you are attempting to make something artistic or structurally sound, you must make a "Tinker" or "Fortify" roll at disadvantage.
 
-**Global**: If cast globally the area affected is 200ft plus 100ft per extra 4MP. In this case artistic or structurally coherent use is not possible.
+**Global**: If cast globally the area affected is 200ft plus 100ft per 2MP above 4. In this case artistic or structurally coherent use is not possible.
 (4+2)
 
 **Upcast**: The radius increases by 5ft for every extra MP dice used. The depth increases by 5ft (1ft) for every extra 2 MP dice used. If used globally the increase of radius per every extra MP dice is 100ft.
@@ -884,7 +884,7 @@ ___
 |Scope|local (global)|
 |MP Dice|1 (2)|
 |Target(s)|1 entity|
-|Casting time|1 minute (1h + 20 minutes per 4MP dice)|-2
+|Casting time|1 minute (1h + 20 minutes per 2MP dice)|-2
 |Range|480ft + 120ft/MP die (4 miles + 1 mile / MP die)|+3
 |Duration|Instantaneous (Instantaneous)|
 |Components|kinetic|
@@ -900,7 +900,16 @@ If more than 3 criteria are chosen the lesser spirits will latch on to any three
 
 Other users of air magic can use "knowledge:arcana" to recognise that the spell is being cast in the area and use "summon wind sprite" at a higher level to hide their location without breaking the casting.\
 
-**Upcast:** For every extra MP die the range of the spell increases by 120ft. When cast globally, this is an extra mile per 4MP dice.
+**Upcast:** For every extra MP die the range of the spell increases by 120ft. When cast globally, this is an extra mile per 2MP dice. Likewise, for each extra MP die the spirits will yield an additional piece of information out of the following options:
+- Last know heading of the nearest entity that fits the description, if in range of the spell.
+- Last known activity of the nearest entity that fits the description, if in range of the spell.
+- Location of all entities that that fit the description (other answers still apply only to the nearest entity).
+- The spirits' attitude towards the entity:
+  - positive if alignment is "spiritual", "divine" or "elemental: air".
+  - negative if alignment is "profane" or "elemental: earth".
+  - neutral for "elemental: fire", "elemental: water" or "material".
+- The last known position of an entity that fits the description if it was ever in range of the spell.
+- The last time when an entity that fit the description left the range of the spell if it was ever in range of the spell.
 
 **Global**: The spell reaches to a range of four miles and gives the caster the location of all objects matching the criteria.
 
@@ -911,7 +920,7 @@ ___
 |Scope|local (global)|
 |MP Dice|1 (2)|
 |Target(s)|1sq (1sq)|
-|Casting time|"full round action" (1 day + 12 hours per 4MP dice)|-2
+|Casting time|"full round action" (1 day + 12 hours per 2MP dice)|-2
 |Range|close|-1
 |Duration|12 min (1 day+)|+3
 |Components|incantation, kinetic|-1
@@ -928,9 +937,9 @@ ___
 
 **Limitation**: You cannot summon a beast into an environment where it cannot breath or move (eg, you cannot summon a horse into mid-air, or a fish onto land).
 
-**Upcast**: For every MP dice added above 1 (4 MP dice above 4 for global), the beast gains a level.
+**Upcast**: For every MP dice added above 1 (2 MP dice above 2 for global), the beast gains a level.
 
-**Global**: The beast is bound by a longer contract (an extra day for every 4MP above 4) and the spell does not require concentration.
+**Global**: The beast is bound by a longer contract (an extra day for every 2MP above 2) and the spell does not require concentration.
 
 ___
 ### Tailwind
@@ -939,7 +948,7 @@ ___
 |Scope|local (global)|
 |MP Dice|1 (2)|
 |Target(s)|1 entity|
-|Casting time|"1 main action" (1h + 20min per 4MP dice)|
+|Casting time|"1 main action" (1h + 20min per 2MP dice)|
 |Range|close|-2
 |Duration|1h+ (1 day+)|+6
 |Components|incantation, kinetic|-1
@@ -950,7 +959,7 @@ ___
 
 **Upcast**: Increase the duration by an hour or add an additional target for each extra MP die above 1.
 
-**Global**: The duration increases to a day. The wind affects up to 4 creatures within 20ft of the caster. For every 4MP extra the duration increases by a day, or the number of targets increases by 4.
+**Global**: The duration increases to a day. The wind affects up to 4 creatures within 20ft of the caster. For every 2MP above 2 the duration increases by a day, or the number of targets increases by 4.
 
 ___
 ### Water Snake
@@ -983,8 +992,8 @@ ___
 |-|-|
 |Scope|local (global)|
 |MP Dice|1 (2)|
-|Target(s)|1+ entity/sq (100ft per 4MP)|
-|Casting time|"main action" (1 hour + 20 min/4MP)|
+|Target(s)|1+ entity/sq (100ft per 3MP)|
+|Casting time|"main action" (1 hour + 20 min/2MP)|
 |Range|close|
 |Duration|1 min (24 h)|(+1)
 |Components|kinetic|
@@ -997,7 +1006,7 @@ ___
 
 **Upcast**: For every MP dice added above 2 the spell's radius increases by 5ft (this also affects the caster). OR Increase the duration by 1 minute.
 
-**Global**: The spell's range is 100ft per 4 MP, centered on you (you are not affected) and lasts for a day. For every 4 MP either the radius increases by 100ft, or the duration increase by a day.
+**Global**: The spell's range is 100ft per 2 MP dice, centered on you (you are not affected) and lasts for a day. For every 2 MP above 2, either the radius increases by 100ft, or the duration increase by a day.
 
 ___
 ## MP 2 spells
@@ -1008,7 +1017,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (4)|
 |Target(s)|1 entity (100ft radius)|
-|Casting time|"main action" (2h + 20 minutes per 4MP)|
+|Casting time|"main action" (2h + 20 minutes per 2MP)|
 |Range|15ft|-1
 |Duration|Special: 1h, then permanent (7 days)| + 12
 |Concentration|yes (yes)|-3
@@ -1023,7 +1032,7 @@ ___
 - If the caster concentrates on the spell to the end of the duration, the target has a second save, and then the spell becomes permanent.
 - The spell can also be lifted with any ability that curses diseases.
 
-**Global**: The spell has an affect with a 100ft radius, centered on the spot where it was cast and affects all entities within it. For every 4MP extra, the spell's radius is increased by 100ft or the duration is increased by 7 days.
+**Global**: The spell has an affect with a 100ft radius, centered on the spot where it was cast and affects all entities within it. For every 2MP extra above 2, the spell's radius is increased by 100ft or the duration is increased by 7 days.
 
 ___
 ### Dusk
@@ -1032,7 +1041,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (4)|
 |Target(s)|1 target no greater than "large"|+1
-|Casting time|1 action (2h + 20 minutes per 4MP dice)|
+|Casting time|1 action (2h + 20 minutes per 2MP dice)|
 |Range|15ft|
 |Duration|Special: 1h, then permanent (7 days)| +6
 |Components|incantation, kinetic|
@@ -1049,7 +1058,7 @@ As a secondary action the caster may command the shade to reach out and touch a 
 
 **Upcast**: For each extra MP dice above 2 the spell may last for an extra hour.
 
-**Global**: The spell lasts for 7 days per 8MP dice. In addition its target must be static location directly connected to the earth.
+**Global**: The spell lasts for 7 days per 4MP dice. In addition its target must be static location directly connected to the earth.
 
 ___
 ### Earthen Hand
@@ -1058,7 +1067,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (4)|
 |Target(s)|1sq|
-|Casting time|"main action" (2h + 20 minutes per 4MP dice)|
+|Casting time|"main action" (2h + 20 minutes per 2MP dice)|
 |Range|30ft|
 |Duration|1 min (1 hour)|+6
 |Components|kinetic|
@@ -1082,7 +1091,7 @@ ___
 
 **Upcast**: For every extra MP dice used above 2 the damage increases by 1d12 or duration increases by 1 minute. If the MP dice total is 3 or higher for a local casting, working the hand becomes a "secondary action".
 
-**Global**: As local. However, the hand may not move further than 100ft from the point it was called. For every extra 4 MP dice the hand persists for an extra hour.
+**Global**: As local. However, the hand may not move further than 100ft from the point it was called. For every extra 2 MP dice the hand persists for an extra hour.
 
 ___
 ### Glide
@@ -1091,7 +1100,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (4)|
 |Target(s)|2 entities or an object no bigger than 15 x 15 x 15ft (200ft)|+1
-|Casting time|"main action" or "reaction" (2h + 20 minutes per 8MP)|
+|Casting time|"main action" or "reaction" (2h + 20 minutes per 2MP)|
 |Range|60ft|+1
 |Duration|12min (1 day)|+3
 |Components|kinetic|
@@ -1107,7 +1116,7 @@ ___
 
 **Special**: The spell can be cast as a reaction when a target begins to fall. If cast as a reaction, the target descends at ~60ft per round. If cast as a main action on a target that is already falling, it begins to decelerate. This does nothing if the fall distance is less than ~360ft. Otherwise, if the fall is long, for every round the spell effects the target it decelerates 20ft per round (from 360ft), decreasing fall damage by 2d12 per round of falling, to an eventual safe speed of 60ft.
 
-**Global**: When cast globally the spell creates a spherical zone centered on the caster where this effect acts. For every 8 extra MP dice added the zone is expanded by 200ft or the duration increased by a day. Every entity that enters the area and does not succeed a Wis save is affected by the spell.
+**Global**: When cast globally the spell creates a spherical zone centered on the caster where this effect acts. For every 2 extra MP dice added above 4, the zone is expanded by 200ft or the duration increased by a day. Every entity that enters the area and does not succeed a Wis save is affected by the spell.
 
 ___
 ### Harvest
@@ -1116,7 +1125,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (4)|
 |Target(s)|5ft radius centered on a sq (100ft)|+1
-|Casting time|"main action" (2h + 20 minutes per 4MP)|
+|Casting time|"main action" (2h + 20 minutes per 2MP)|
 |Range|15ft|-2
 |Duration|instantaneous|
 |Components|incantation, kinetic|-1
@@ -1131,7 +1140,7 @@ ___
 - If the land is marginally fertile (eg fells, swamp, mountains) the harvest is 1/4 of the usual.
 - If the land is infertile (eg ruins, city, subterranean, desert), the MP is expended and the harvest fails.
 
-**Global**: The radius increases to 100ft per 8MP dice. The amount of sustenance obtained is enough for 200 large (800 medium) mortals per 8MP.
+**Global**: The radius increases to 100ft per 2MP dice. The amount of sustenance obtained is enough for 200 large (800 medium) mortals per 4MP.
 
 ___
 ### Least Rest
@@ -1160,7 +1169,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (4)|
 |Target(s)|1 entity|
-|Casting time|"main action" (2h + 20 minutes per 4MP)|
+|Casting time|"main action" (2h + 20 minutes per 2MP)|
 |Range|close|
 |Duration|1h (1 week)|+6
 |Components|kinetic|-1(5)
@@ -1178,7 +1187,7 @@ ___
 
 **Upcast**: For every extra MP dice above 2 spent, the spell lasts for an extra hour, or you can target an extra entity.
 
-**Global**: The spell lasts for a week, with an extra week for every 4MP. It cannot be cancelled voluntarily.
+**Global**: The spell lasts for a week, with a week per 4MP used when casting it. It cannot be cancelled voluntarily.
 
 ___
 ### Lesser Veil
@@ -1187,7 +1196,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (4)|
 |Target(s)|1 entity or an object no more than 5x5x5ft (100ft)|
-|Casting time|"main action" (2h + 20 minutes per 4MP dice)|
+|Casting time|"main action" (2h + 20 minutes per 2MP dice)|
 |Range|close|
 |Duration|1h (1 week)|+6
 |Components|incantation|+1
@@ -1202,7 +1211,7 @@ ___
 
 **Warning**: "Invisibility" does not hide the sounds a target makes, or the aroma it exudes.
 
-**Global**: Hides surface features from sight, eg. a camp, with all people and objects in it. It does not hide inherent terrain features, eg mountains and lakes. All valid targets in a radius of 100ft are "invisible" for a week. For every 4MP, the radius increases by 100ft, or the duration increases by a week.
+**Global**: Hides surface features from sight, eg. a camp, with all people and objects in it. It does not hide inherent terrain features, eg mountains and lakes. All valid targets in a radius of 100ft are "invisible" for a week. For every 2MP, the radius increases by 100ft, or the duration increases by a week.
 
 ___
 ### Lesser Xenophonia
@@ -1211,7 +1220,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (4)|
 |Target(s)|1 entity (120ft)|
-|Casting time|1 full round action (2 hours + 20 minutes per 4 MP dice)|-1
+|Casting time|1 full round action (2 hours + 20 minutes per 2 MP dice)|-1
 |Range|close|
 |Duration|12 minutes (1 day)|+3
 |Components|incantation|+1
@@ -1225,7 +1234,7 @@ An unwilling target may ignore the effect with a successful CHA save vs the cast
 
 **Upcast**: For every extra MP dice above 2, the spell lasts for an extra 12 minutes or affects an extra target.
 
-**Global**: As the local casting, but is centered on a point and allows all entities within 120ft to communicate to entities of the chosen subkind. The spell lasts for 24 hours. For every 4 extra MP dice placed in the spell, the radius increases by 120ft or the spell lasts for an extra day.
+**Global**: As the local casting, but is centered on a point and allows all entities within 120ft to communicate to entities of the chosen subkind. The spell lasts for 24 hours. For every 2 extra MP dice above 4 placed in the spell, the radius increases by 120ft or the spell lasts for an extra day.
 
 ___
 ### Meadow of Flame
@@ -1258,7 +1267,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (4)|
 |Target(s)|1 entity (120ft)|
-|Casting time|1 full round action (2 hours + 20 minutes per 4MP dice)|-1
+|Casting time|1 full round action (2 hours + 20 minutes per 2MP dice)|-1
 |Range|close|
 |Duration|12 minutes (1 day)|+3
 |Components|incantation|+1
@@ -1273,7 +1282,7 @@ An unwilling target may ignore the effect with a successful CHA save vs the cast
 
 **Upcast**: For every extra MP dice above 2, the spell lasts for an extra 12 minutes or affects an extra target.
 
-**Global**: As the local casting, but is centered on a point and allows all entities within 120ft to communicate to entities of the chosen subkind. The spell lasts for 24 hours. For every 4 extra MP dice placed in the spell, the radius increases by 120ft or the spell lasts for an extra day.
+**Global**: As the local casting, but is centered on a point and allows all entities within 120ft to communicate to entities of the chosen subkind. The spell lasts for 24 hours. For every 2 extra MP dice above 4 placed in the spell the radius increases by 120ft, or the spell lasts for an extra day.
 
 ___
 ### Promise
@@ -1282,9 +1291,9 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (4)|
 |Target(s)|(1 entity)|
-|Casting time|main action (2 hours + 20 minutes per 4MP dice)|
+|Casting time|main action (2 hours + 20 minutes per 2MP dice)|
 |Range|close|
-|Duration|1 day (1 month + 1 month per 4MP)|
+|Duration|1 day (1 month + 1 month per 2MP)|
 |Components|incantation|
 |Limitation|The caster must be in contact with the target for the whole duration that the spell is being cast.|
 |Limitation|Global: The spell is weakened if the target is not willing.|
@@ -1319,7 +1328,7 @@ The condition counts as having a "supernatural" origin.
 
 **Global**: The spell lasts for a month.
 
-**Upcast (Global only)**: The spell lasts for an extra month per 4 MP dice placed in it. In addition, at 12 MP dice, an A class condition may be selected, and at 16 MP dice, an S Class conditions may be selected.
+**Upcast (Global only)**: The spell lasts for an extra month per 2 MP dice above 4 placed in it. In addition, at 8 MP dice, an A class condition may be selected, and at 12 MP dice, an S Class conditions may be selected.
 
 ___
 ### Silence
@@ -1328,7 +1337,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (4)|
 |Target(s)|1 entity or 5ft radius centered ona square (100ft)|+1
-|Casting time|"main action" (2 hours + 20 minutes per 4MP dice)|
+|Casting time|"main action" (2 hours + 20 minutes per 2MP dice)|
 |Range|60ft|+1
 |Duration|12min (1 week)|+6
 |Components|kinetic|
@@ -1338,7 +1347,7 @@ ___
 
 **Description**: You render a single target or a small, fixed area "inaudible".
 
-**Global**: The spell affects an area with a radius of 100ft and lasts for a week. For every 4 extra MP dice used the radius increases by 100ft, or the duration increases by a week.
+**Global**: The spell affects an area with a radius of 100ft and lasts for a week. For every 2 extra MP dice used the radius increases by 100ft, or the duration increases by a week.
 
 ___
 ### Summon Flame Sprite
@@ -1347,7 +1356,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (4)|
 |Target(s)|1sq (1sq)|
-|Casting time|"full round action" (1 day + 12 hours per 4MP dice)|-2
+|Casting time|"full round action" (1 day + 12 hours per 2MP dice)|-2
 |Range|30ft (30ft)|
 |Duration|12 min (1 day+)|+3
 |Components|incantation, kinetic|-1
@@ -1366,9 +1375,9 @@ ___
 
 Flammable material includes wood, turf, the corporeal forms of mortals, wax, etc, but does not include most minerals, metals, water, air. The DM and group are advised to use common sense.
 
-**Upcast**: For every MP dice added above 2 (12MP dice for global), the sprite gains two levels.
+**Upcast**: For every MP dice added above 2 (2MP dice above 4 for global), the sprite gains two levels.
 
-**Global**: The sprite is bound by a longer contract (an extra day for every 8MP above 8) and the spell does not require concentration. For every day of the contract the material component must be paid anew.
+**Global**: The sprite is bound by a longer contract (an extra day for every 2MP above 4) and the spell does not require concentration. For every day of the contract the material component must be paid anew.
 
 (Summon spell rating is controversial)
 
@@ -1379,7 +1388,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (4)|
 |Target(s)|1sq (1sq)|
-|Casting time|"full round action" (1 day + 12 hours per 4MP dice)|-2
+|Casting time|"full round action" (1 day + 12 hours per 2MP dice)|-2
 |Range|30ft (30ft)|
 |Duration|12 min (1 day+)|+3
 |Components|incantation, kinetic|-1
@@ -1396,9 +1405,9 @@ ___
 
 **Limitation**: The gnome is "earthbound". It cannot leave, or be detached from, the ground. However, this comes at a cost. In an event where the gnome would otherwise lose contact with the ground (if not for being earthbound), it takes 1 point of ["divine"](10-conditions-types.md#esoteric-damage) damage instead.
 
-**Upcast**: For every MP dice added above 2 (4MP dice for global), the gnome gains two levels.
+**Upcast**: For every MP dice added above 2 (2MP dice above 4 for global), the gnome gains two levels.
 
-**Global**: The gnome is bound by a longer contract (an extra day for every 8MP above 8) and the spell does not require concentration. For every day of the contract the material component must be paid anew.
+**Global**: The gnome is bound by a longer contract (an extra day for every 2MP dice above 4) and the spell does not require concentration. For every day of the contract the material component must be paid anew.
 
 ___
 ### Summon Water Sprite
@@ -1407,7 +1416,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (4)|
 |Target(s)|1sq (1sq)|
-|Casting time|"full round action" (1 day + 12 hours per 4MP dice)|-2
+|Casting time|"full round action" (1 day + 12 hours per 2MP dice)|-2
 |Range|30ft (30ft)|+1
 |Duration|12 min (1 day+)|+3
 |Components|incantation, kinetic|-1
@@ -1424,9 +1433,9 @@ ___
 
 **Limitation**: If a water sprite does not end its turn in contact with a body of water, wet ground, rain, mist or other source of water it returns to whence it came and the spell ends.
 
-**Upcast**: For every MP dice added above 2 (12MP dice for global), the sprite gains two levels.
+**Upcast**: For every MP dice added above 2 (2MP dice above 4 for global), the sprite gains two levels.
 
-**Global**: The sprite is bound by a longer contract (an extra day for every 8MP above 8) and the spell does not require concentration. For every day of the contract the material component must be paid anew.
+**Global**: The sprite is bound by a longer contract (an extra day for every 2MP dice above 4) and the spell does not require concentration. For every day of the contract the material component must be paid anew.
 
 ___
 ### Summon Wind Sprite
@@ -1435,7 +1444,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (4)|
 |Target(s)|1sq (1sq)|
-|Casting time|"full round action" (1 day + 12 hours per 4MP dice)|-2
+|Casting time|"full round action" (1 day + 12 hours per 2MP dice)|-2
 |Range|30ft (30ft)|
 |Duration|12 min (1 day+)|+3
 |Components|incantation, kinetic|-1
@@ -1452,9 +1461,9 @@ ___
 
 **Limitation**: The Sprite can only be summoned in an area that is not obstructed by either liquid or solid media, weather (and other) effects such as sandstorms and rain do not count towards this limitation. In case of an attempt to summon a wind sprite in forbidden terrain, the spell ends with "catastrophic failure".
 
-**Upcast**: For every MP dice added above 2 (12MP dice for global), the sprite gains two levels.
+**Upcast**: For every MP dice added above 2 (2MP dice above 4 for global), the sprite gains two levels.
 
-**Global**: The sprite is bound by a longer contract (an extra day for every 8MP above 8) and the spell does not require concentration. For every day of the contract the material component must be paid anew.
+**Global**: The sprite is bound by a longer contract (an extra day for every 2MP dice above 4) and the spell does not require concentration. For every day of the contract the material component must be paid anew.
 
 ____
 ### Trace Secret Path
@@ -1463,7 +1472,7 @@ ____
 |Scope|local (global)|
 |MP Dice|2 (4)|
 |Target(s)|1 entity|
-|Casting time|1 main action (2 hours + 20 minutes per 4MP dice)|
+|Casting time|1 main action (2 hours + 20 minutes per 2MP dice)|
 |Range|close|
 |Duration|12 min (1 day+)|+3
 |Components|incantation|+1
@@ -1483,7 +1492,7 @@ ____
 **Upcast**: For every extra MP dice above 2 spent, the spell lasts for an extra 12 minutes.
 
 **Global**:
-- The spell lasts for 1 day (plus 1 day per extra 4MP dice).
+- The spell lasts for 1 day (plus 1 day per 2MP dice above 4).
 - The secret path exists for a number of months equal to the caster's character level. However, every month there is a 1/6 chance that the path shifts and the location and route are no longer known to the caster. Other entities might find, use and inhabit the paths created by this spell.
 
 ___
@@ -1493,7 +1502,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (4)|
 |Target(s)|20ft radius round a square in range (400ft)|+6
-|Casting time|"full round" (2 hours + 20 minutes per 4MP dice) |-1
+|Casting time|"full round" (2 hours + 20 minutes per 2MP dice) |-1
 |Range|30ft|
 |Duration|12min (1 day+)|+3
 |Components|kinetic|
@@ -1503,7 +1512,7 @@ ___
 
 **Upcast**: For every extra MP dice above 2, the duration increase by 6 min or the radius increases by 5ft.
 
-**Global**: The spell affects a much larger area and and lasts longer. For every extra 4MP the radius increases by 200ft or the duration increases by a day. These long durations begin to have significant effects on the surroundings as follows:
+**Global**: The spell affects a much larger area and and lasts longer. For every extra 2MP above 4 the radius increases by 200ft, or the duration increases by a day. These long durations begin to have significant effects on the surroundings as follows:
 - 1h: Per hour: 2' of snow cover melts.
 - 1h: Temperature in bodies of water smaller than 10x10x10 ft equilibrates.
 - 2h: Per 2 hour: 1' of snow ice melts.
@@ -1516,7 +1525,7 @@ ___
 |Scope|local (global)|
 |MP Dice|2 (4)|
 |Target(s)|30ft (400ft)|+4 (Ground only)
-|Casting time|"1 minute" (2 hours + 20 minutes per 4MP dice)|-2
+|Casting time|"1 minute" (2 hours + 20 minutes per 2MP dice)|-2
 |Range|close|-2
 |Duration|8 hours (1 month)|+9
 |Components|incantation, kinetic| -1
@@ -1532,7 +1541,7 @@ ___
 
 **Upcast**: For every extra MP dice above 2, either, increase the duration by 8 hours, the area by 5ft, or add an extra entity type.
 
-**Global**: The spell radius is 400ft. It lasts for a month. For every 4MP extra either the duration increases by a month or the radius extends by 100ft. An extra entity type is automatically added for every 4MP extra. 
+**Global**: The spell radius is 400ft. It lasts for a month. For every 2MP above 4, either the duration increases by a month or the radius extends by 100ft. An extra entity type is automatically added for every 2MP extra. 
 
 ___
 ### Wind Step
@@ -1574,7 +1583,7 @@ ___
 |Scope|local (global)|
 |MP Dice|3 (6)|
 |Target(s)|1sq (1sq)|
-|Casting time|"full round action" (3 hours + 20 minutes per 4MP dice)|-2
+|Casting time|"full round action" (3 hours + 20 minutes per 2MP dice)|-2
 |Range|30ft (30ft)|
 |Duration|60 min (1 week+)|+6(5)
 |Components|kinetic|(5)
@@ -1592,9 +1601,9 @@ ___
 - The type of undead being animated depends on the condition of the corpse(s). A corpse with flesh will become a zombie, a corpse without flesh will become a skeleton. A corpse with flesh but no bones becomes a crawling thing..
 - The undead animates at the start of the caster's *next* turn.
 
-**Upcast**: For every MP dice added above 3 (4MP dice for global), the caster may either animate an extra corpse as a level I undead, assert control over an extra 4 undead, or increase the level of the created or controlled undead by I.
+**Upcast**: For every MP dice added above 3 (2MP dice above 6 for global), the caster may either animate an extra corpse as a level I undead, assert control over an extra 4 undead, or increase the level of the created or controlled undead by I.
 
-**Global**: Undead created are level II. Furthermore, the undead are under the caster's control for 1 week, after which time they have a "neutral" attitude towards it. For every 4MP dice above 12, the caster may create an extra level II undead, assert control over 4 undead, or increase the level of a created or controlled undead by 1.
+**Global**: Undead created are level II. Furthermore, the undead are under the caster's control for 1 week, after which time they have a "neutral" attitude towards it. For every 2MP dice above 6, the caster may create an extra level II undead, assert control over 4 undead, or increase the level of a created or controlled undead by 1.
 
 (Summon spell rating is controversial)
 
@@ -1605,7 +1614,7 @@ ___
 |Scope|local (global)|
 |MP Dice|3 (6)|
 |Target(s)|1sq (1sq)|
-|Casting time|"full round action" (1 day + 12 hours per 4MP dice)|-2
+|Casting time|"full round action" (1 day + 12 hours per 2MP dice)|-2
 |Range|30ft (30ft)|
 |Duration|60 min (1 week+)|+6
 |Components|incantation, kinetic|-1
@@ -1619,7 +1628,7 @@ ___
 
 **Upcast**: For every MP dice added above 3 (12MP dice for global), the sprite gains two levels.
 
-**Global**: The plant is animated for 1 week (an extra week for every 4MP above 12) and the spell does not require concentration. If at least 36MP is used, the plant is forever animated.
+**Global**: The plant is animated for 1 week (an extra week for every 2MP above 6) and the spell does not require concentration. If at least 12MP is used, the plant is forever animated.
 
 (Summon spell rating is controversial)
 
@@ -1630,7 +1639,7 @@ ___
 |Scope|local (global)|
 |MP Dice|3 (6)| 
 |Target(s)|1 entity|
-|Casting time|"1 main action" (3 hours + 20 minutes per 4MP dice)|
+|Casting time|"1 main action" (3 hours + 20 minutes per 2MP dice)|
 |Range|close|-1(9)
 |Duration|1 hour (1 day)|5(15)
 |Components|incantation, kinetic|-1(14)
@@ -1644,7 +1653,7 @@ ___
 
 **Upcast**: For every MP die above 3, the duration increases by 1 hour.
 
-**Global**: The spell lasts for 1 day, with an extra day of duration for every 4 MP dice above 12.
+**Global**: The spell lasts for 1 day, with an extra day of duration for every 2 MP dice above 6.
 
 ___
 ### Blessing of the Fates
@@ -1725,7 +1734,7 @@ ___
 |Scope|local (global)|
 |MP Dice|3 (6)|
 |Target(s)|1 entity/15ft (200ft)|+6
-|Casting time|"full round"/"reaction"(3 hours + 20 minutes per 4MP dice)|(5,10)
+|Casting time|"full round"/"reaction"(3 hours + 20 minutes per 2MP dice)|(5,10)
 |Range|close|(3,8)
 |Duration|1h/1min (1 week)|(9,9)
 |Components|incantation, kinetic|(8,8)
@@ -1748,7 +1757,7 @@ ___
 - If the spell is cast as a reaction, it cannot be upcast.
 - At 5MP and higher the spell is no longer concentration.
 
-**Global:** This is one of the lesser barrier spells. Cast globally it extends over a radius of 300ft centered on a square/point and lasts for a week. For every 4MP extra either the duration increases by a week or the radius increases by 200ft.
+**Global:** This is one of the lesser barrier spells. Cast globally it extends over a radius of 300ft centered on a square/point and lasts for a week. For every 2MP dice above 6 either the duration increases by a week, or the radius increases by 200ft.
 
 ___
 ### Fairy Shelter
@@ -1757,7 +1766,7 @@ ___
 |Scope|local (global)|
 |MP Dice|3 (6)|
 |Target(s)|Up to 6 entities, no larger than "huge"|+9
-|Casting time|1 full round action (3 hours + 20 minutes per 4MP dice)|-2
+|Casting time|1 full round action (3 hours + 20 minutes per 2MP dice)|-2
 |Range|close|-1
 |Duration|1 min (4 hours)|+1
 |Components|kinetic|
@@ -1787,7 +1796,7 @@ ___
 |Scope|local (global)|
 |MP Dice|3 (6)|
 |Target(s)|1 entity/10ft (200ft)|+4
-|Casting time|"full round"/"reaction"(3 hours + 20 minutes per 4MP dice)|(3,8)
+|Casting time|"full round"/"reaction"(3 hours + 20 minutes per 2MP dice)|(3,8)
 |Range|close|(3,8)
 |Duration|1h/1min (1 week)|(9,9)
 |Components|incantation, kinetic|(8,8)
@@ -1811,7 +1820,7 @@ ___
 - If the spell is cast as a reaction, it cannot be upcast.
 - At 5MP and higher the spell is no longer concentration.
 
-**Global:** This is one of the lesser barrier spells. Cast globally it extends over a radius of 200ft centered on a square/point and lasts for a week. For every 4MP extra either the duration increases by a week or the radius increases by 200ft.
+**Global:** This is one of the lesser barrier spells. Cast globally it extends over a radius of 200ft centered on a square/point and lasts for a week. For every 2MP dice above 6 either the duration increases by a week, or the radius increases by 200ft.
 
 ___
 ### Growth
@@ -1820,7 +1829,7 @@ ___
 |Scope|local (global)|
 |MP Dice|3 (6)|
 |Target(s)|1 entity or an object that fits within a 5ft square (100ft)|
-|Casting time|"main action" (3 hours + 20 minutes per 4MP dice)|
+|Casting time|"main action" (3 hours + 20 minutes per 2MP dice)|
 |Range|close|-3
 |Duration|1h (1 week)|+12(9)
 |Components|incantation, kinetic|-1(8)
@@ -1831,7 +1840,7 @@ ___
 
 **Upcast:** For every MP dice above 3 added the duration increases by an hour, or the size change increases by a category
 
-**Global**: The spell acts over an area with a radius of 100ft for a week. All entities that enter the area that do not succeed a Wis save are affected by the size change. For every 4 extra MP dice, the radius increases by 4 or the size category change increases by 1.
+**Global**: The spell acts over an area with a radius of 100ft for a week. All entities that enter the area that do not succeed a Wis save are affected by the size change. For every 2 MP dice above 6 the radius increases by 4, or the size category change increases by 1.
 
 ___
 ### Guidance of the Earth
@@ -1840,7 +1849,7 @@ ___
 |Scope|local (global)|
 |MP Dice|3 (6)|
 |Target(s)|1 entity (100ft)|
-|Casting time|"full round" (3 hours + 20 minutes per 4MP dice)|-1
+|Casting time|"full round" (3 hours + 20 minutes per 2MP dice)|-1
 |Range|close|-2(-3)
 |Duration|1h (1 week)|+6(3)
 |Components|incantation, kinetic|-1(2)
@@ -1852,7 +1861,7 @@ ___
 
 **Special**: This applies only for rolls made when touching the ground, or below ground level and for knowledge of things that belong on and below the ground.
 
-**Global**: The caster gives a locus the blessing of the earth. Within 100ft of that spot rolls made by entities that are not hostile to the caster receive this blessing. For every 4MP extra the radius of the spell increases by 100ft or the duration increases by a week.
+**Global**: The caster gives a locus the blessing of the earth. Within 100ft of that spot rolls made by entities that are not hostile to the caster receive this blessing. For every 2MP dice above 6 the radius of the spell increases by 100ft, or the duration increases by a week.
 
 ___
 ### Guidance of the Winds
@@ -1861,7 +1870,7 @@ ___
 |Scope|local (global)|
 |MP Dice|3 (6)|
 |Target(s)|1 entity (100ft)|
-|Casting time|"full round" (3 hours + 20 minutes per 4MP dice)|-1
+|Casting time|"full round" (3 hours + 20 minutes per 2MP dice)|-1
 |Range|close|-2
 |Duration|1h (1 week)|
 |Components|incantation, kinetic|
@@ -1873,7 +1882,7 @@ ___
 
 **Special**: This applies only for rolls made above ground/water level and knowledge of things that belong above ground.
 
-**Global**: The caster gives a locus the blessing of the winds. Within 100ft of that spot rolls made by entities that are not hostile to the caster receive this blessing. For every 4MP extra the radius of the spell increases by 100ft or the duration increases by a week.
+**Global**: The caster gives a locus the blessing of the winds. Within 100ft of that spot rolls made by entities that are not hostile to the caster receive this blessing. For every 2MP dice above 6 the radius of the spell increases by 100ft, or the duration increases by a week.
 
 ___
  ### Illusory Self
@@ -1882,7 +1891,7 @@ ___
 |Scope|local (global)|
 |MP Dice|3 (6)|
 |Target(s)|1 entity|
-|Casting time|1 main action (3 hours + 20 minutes per 4MP dice)|
+|Casting time|1 main action (3 hours + 20 minutes per 2MP dice)|
 |Range|close|-1
 |Duration|1 hour (1 week)|6(5)
 |Components|kinetic|
@@ -1911,7 +1920,7 @@ ___
 |Scope|local (global)|
 |MP Dice|3 (6)|
 |Target(s)|1 entity or item|
-|Casting time|"full round" (3 hours + 20 minutes per 4MP dice)|-1
+|Casting time|"full round" (3 hours + 20 minutes per 2MP dice)|-1
 |Range|30ft|
 |Duration|1 day (permanent)|+24(23)
 |Components|kinetic|(21)
@@ -1945,7 +1954,7 @@ ___
 
 **Upcast(local)**: If upcast to 5 MP dice, the caster may choose three C class, two B class or 1 A curses. If upcast to 7 MP dice, the caster may choose 4 C class, three B class, 2 A class or 1 S class curses.
 
-**Global**: The curse is permanent. If upcast to cost 20 MP dice the caster may choose three C Class, two B class or 1 A class condition.
+**Global**: The curse is permanent. If upcast to cost 10 MP dice the caster may choose three C Class, two B class or 1 A class condition.
 
 ___
 ### Melt
@@ -1954,7 +1963,7 @@ ___
 |Scope|local (global)|
 |MP Dice|3 (6)|
 |Target(s)|4 objects occupying no more than a roughly 5ft cube each (50ft radius)|+3
-|Casting time|1 main action (3 hours + 20 minutes per 4MP dice)|
+|Casting time|1 main action (3 hours + 20 minutes per 2MP dice)|
 |Range|30ft|+2
 |Duration|1 minute (1 hour)|+6
 |Components|Incantation|
@@ -1968,7 +1977,7 @@ ___
 
 If the target object/material is in contact with an entity at the start of its turn, then the entity must succeed on a Con save or take 2d8 + [Sup] fire damage.
 
-**Upcast**: At 4 MP dice the spell affects level III materials. At 7 MP dice, the spell affects level IV materials.
+**Upcast (local only)**: At 4 MP dice the spell affects level III materials. At 7 MP dice, the spell affects level IV materials.
 
 **Global**: The spell targets all materials/objects (of material level II or lower) in a 50ft radius and lasts for 1 hour.
 
@@ -1980,7 +1989,7 @@ ___
 |Scope|local (global)|
 |MP Dice|3 (6)|
 |Target(s)|1 or more entities|
-|Casting time|"main action" (3 hours + 20 minutes per 4MP dice)|
+|Casting time|"main action" (3 hours + 20 minutes per 2MP dice)|
 |Range|close|
 |Duration|12 min+ (1 day+)|+6
 |Components|incantation|+1(7)
@@ -1992,7 +2001,7 @@ ___
 
 **Upcast**: For every extra MP die above 3 placed in the spell you can add either add an extra target or an extra 6 minutes of dig speed.
 
-**Global**: The spell has a duration of 1 day + 6h per extra 4MP or gives flight to an additional target.
+**Global**: The spell has a duration of 1 day + 6h per 2MP above 6, or gives flight to an additional target.
 
 ___
 ### See Spell
@@ -2001,7 +2010,7 @@ ___
 |Scope|local (global)|
 |MP Dice|3 (6)|
 |Target(s)|1 entity (1 locus of origin)|
-|Casting time|1 action (3 hours + 20 minutes per 4MP dice)|
+|Casting time|1 action (3 hours + 20 minutes per 2MP dice)|
 |Range|close/60ft (close/1200ft)|+2
 |Duration|12 minutes (1 day)|+3
 |Components|kinetic|
@@ -2025,7 +2034,7 @@ ___
 |Scope|local (global)|
 |MP Dice|3 (6)|
 |Target(s)|1 entity|
-|Casting time|"1 full round action" (3 hours + 20 minutes per 4MP dice)|-1
+|Casting time|"1 full round action" (3 hours + 20 minutes per 2MP dice)|-1
 |Range|120ft (close)|+3
 |Duration|12 minutes|+3
 |Components|incantation, kinetic| -1
@@ -2049,7 +2058,7 @@ ___
 |Scope|local (global)|
 |MP Dice|3 (6)|
 |Target(s)|1 entity/15ft (300ft)|+6
-|Casting time|"full round"/"reaction"(3 hours + 20 minutes per 4MP dice)|(5,10)
+|Casting time|"full round"/"reaction"(3 hours + 20 minutes per 2MP dice)|(5,10)
 |Range|15ft|(4,9)
 |Duration|1h/1min (1 week)|(12,12)
 |Components|incantation, kinetic|(11,11)
@@ -2072,7 +2081,7 @@ ___
 - If the spell is cast as a reaction, it cannot be upcast.
 - At 5MP and higher the spell is no longer concentration.
 
-**Global:** This is one of the lesser barrier spells. Cast globally it extends over a radius of 300ft centered on a square/point and lasts for a week. For every 4 MP dice extra either the duration increases by a week or the radius increases by 300ft.
+**Global:** This is one of the lesser barrier spells. Cast globally it extends over a radius of 300ft centered on a square/point and lasts for a week. For every 2 MP dice above 6 either the duration increases by a week, or the radius increases by 300ft.
 
 ___
 ### Summer's Blade
@@ -2094,7 +2103,7 @@ ___
 
 **Special**: Alternatively it can affect up to 13 pieces of ammunition.
 
-**Upcast**: For every extra MP die above 3, the spell lasts for an extra 12 minutes or affect an extra 13 pieces of ammunition. Alternatively for every extra 2MP dice placed in the spell, it will deal an extra 1d8 damage.
+**Upcast**: For every extra MP die above 3, the spell lasts for an extra 12 minutes or affect an extra 13 pieces of ammunition. Alternatively for every 2MP above 6 dice placed in the spell, it will deal an extra 1d8 damage.
 
 ___
 ### Water Walk
@@ -2103,7 +2112,7 @@ ___
 |Scope|Local (Global)|
 |MP Dice|3 (6)|
 |Target(s)|3 or more entities(300ft)|+4
-|Casting time|"main action" (3 hours + 20 minutes per 4MP dice)|
+|Casting time|"main action" (3 hours + 20 minutes per 2MP dice)|
 |Range|close|-2(2)
 |Duration|8h+ (1 month)|+9(9)
 |Components|kinetic|
@@ -2118,7 +2127,7 @@ ___
 
 **Upcast**: For every extra MP die above 3 placed in the spell you can add either an extra target or increase the duration by 8 hours.
 
-**Global**: The spell is cast upon a square/point on the ground or water adjacent to the caster. All water within 300ft of that spot can be crossed on foot. If extra MP dice are used for the casting of the spell, the range increases by 300ft per extra MP dice.
+**Global**: The spell is cast upon a square/point on the ground or water adjacent to the caster. All water within 300ft of that spot can be crossed on foot. If extra MP dice are used for the casting of the spell, the range increases by 300ft per 2 MP dice above 6.
 
 ___
 ### Water Ward
@@ -2127,7 +2136,7 @@ ___
 |Scope|local (global)|
 |MP Dice|3 (6)|
 |Target(s)|1 entity/10ft (200ft)|+4
-|Casting time|"full round"/"reaction"(3 hours + 20 minutes per 4MP dice)|(3,7)
+|Casting time|"full round"/"reaction"(3 hours + 20 minutes per 2MP dice)|(3,7)
 |Range|15ft|(2,6)
 |Duration|1h/1min (1 week)|(8,9)
 |Components|incantation, kinetic|(7,8)
@@ -2149,7 +2158,7 @@ ___
 - If the spell is cast as a reaction, it cannot be upcast.
 - At 5MP and higher the spell is no longer concentration.
 
-**Global:** This is one of the lesser barrier spells. Cast globally it extends over a radius of 300ft centered on a square/point and lasts for a week. For every 4MP extra either the duration increases by a week or the radius increases by 200ft.
+**Global:** This is one of the lesser barrier spells. Cast globally it extends over a radius of 300ft centered on a square/point and lasts for a week. For every 2MP dice above 6 either the duration increases by a week, or the radius increases by 200ft.
 
 ___
 ### Wind Walk
@@ -2158,7 +2167,7 @@ ___
 |Scope|Local (Global)|
 |MP Dice|3 (6)|
 |Target(s)|1 or more entities|
-|Casting time|"main action" (3 hours + 20 minutes per 4MP dice)|
+|Casting time|"main action" (3 hours + 20 minutes per 2MP dice)|
 |Range|close|
 |Duration|12 min+ (1 day+)|+6
 |Components|incantation|+1(7)
@@ -2170,7 +2179,7 @@ ___
 
 **Upcast**: For every extra MP die above 3 (4, if casting globally) placed in the spell you can add either: 1. An extra target, 2. an extra 6 minutes of effect.
 
-**Global**: The spell has a duration of 1 day + 6h per extra 4MP or gives flight to an additional target, but the fly speed is only equal to your walking speed.
+**Global**: The spell has a duration of 1 day + 6h per 2MP dice above, or gives flight to an additional target, but the fly speed is only equal to your walking speed.
 
 ___
 ### Winter's Blade
@@ -2205,7 +2214,7 @@ ___
 |Scope|local (global)|
 |MP Dice|4 (8)|
 |Target(s)|1sq (1sq)|
-|Casting time|"1 min" (4 hours + 20 minutes per 4MP dice)|
+|Casting time|"1 min" (4 hours + 20 minutes per 2MP dice)|
 |Range|15ft|-1
 |Duration|1 hour (1 week)|+6(5)
 |Components|incantation, kinetic|-1(4)
@@ -2220,8 +2229,8 @@ ___
 
 **Upcast**: For every extra MP die above 4 used when casting this spell, the golem can either function for an extra hour or gains two levels.
 
-**Global**: The golem functions for longer and concentration is not required. However, it must be given a simple set of instructions that cannot be changed afterwards. A caster need not concentrate on golems created this way. For every extra 4MP dice the golem either functions for an extra week or gains 2 levels.
-- If 40MP dice or more are used and the golem has no more than 10 levels, the golem does not run out of energy.
+**Global**: The golem functions for longer and concentration is not required. However, it must be given a simple set of instructions that cannot be changed afterwards. A caster need not concentrate on golems created this way. For every 2MP dice above 8 the golem either functions for an extra week, or gains 2 levels.
+- If 20MP dice or more are used and the golem has no more than 10 levels, the golem does not run out of energy.
 
 ___
 ### Aqueous Step
@@ -2230,7 +2239,7 @@ ___
 |Scope|local (global)|
 |MP Dice|4 (8)|
 |Target(s)|2 entities* (2 entities*)|+2
-|Casting time|"main action" (4 hours + 20 minutes per 4MP dice)|
+|Casting time|"main action" (4 hours + 20 minutes per 2MP dice)|
 |Range|close/540ft (close/180 miles)|+8(10)
 |Duration|instantaneous|
 |Components|kinetic|-1(9)
@@ -2245,7 +2254,7 @@ ___
 **Upcast**: For every extra MP die above 4 the range increases by 60ft or the number of passengers increases by 1.
 
 **Global**: Enter a body of water deep enough to submerge in and step out of another within range (180 miles). The caster must have visited the pool to successfully travel. If the pool does not exist the travellers emerge in the nearest pool in range to the destination. If the caster has not visited the destination pool before, the DM rolls randomly for where, within 180 miles of the destination the travellers end up.
-- For every 4 extra MP dice the range increases by 60 miles or the number of passengers increases by 1.
+- For every 2 MP dice above 8 the range increases by 60 miles, or the number of passengers increases by 1.
 
 (blink speed = 12+7)
 
@@ -2256,7 +2265,7 @@ ___
 |Scope|local (global)|
 |MP Dice|4 (8)|
 |Target(s)|20ft radius (400ft radius)|+8
-|Casting time|"full round action" (4 hours + 20 minutes per 4MP dice)|-1(7)
+|Casting time|"full round action" (4 hours + 20 minutes per 2MP dice)|-1(7)
 |Range|close|-(5)
 |Duration|12 min (1 day)|+3(8)
 |Focus|A skull|-1(7)
@@ -2277,8 +2286,8 @@ ___
 - If the spell is cast twice in opposite elements, where the two spells overlap, they cancel out if the level is equal. If one has more MP dice input than the other, it overpowers the weaker casting where they overlap.
 
 **Global**: When the spell is cast globally it covers a radius of 400ft and lasts for a day. In addition to the normal effects, all elementals aligned to the opposite element, or entities aligned to the opposite season have their base movement speed halved in the area.
-- For every extra 4MP added to the spell it lasts for an extra day or the radius increases by 400ft.
-- If the spell is cast with at least 40MP and an intended duration of at least 1 week, the effect is permanent.
+- For every 2MP dice above 8 added to the spell, it lasts for an extra day, or the radius increases by 400ft.
+- If the spell is cast with at least 20MP and an intended duration of at least 1 week, the effect is permanent.
 
 ___
 ### Balance of Nature
@@ -2287,7 +2296,7 @@ ___
 |Scope|local (global)|
 |MP Dice|4 (8)|
 |Target(s)|20ft radius (400ft radius)|+8
-|Casting time|"full round action" (4 hours + 20 minutes per 4MP dice)|-1(7)
+|Casting time|"full round action" (4 hours + 20 minutes per 2MP dice)|-1(7)
 |Range|close|-(5)
 |Duration|12 min (1 day)|+3(8)
 |Focus|A skull|-1(7)
@@ -2310,7 +2319,7 @@ ___
 - If the spell is cast twice in opposite modalities, where the two spells overlap, they cancel out if the level is equal. If one has more MP dice input than the other, it overpowers the weaker casting where they overlap.
 
 **Global**: When the spell is cast globally it covers a radius of 400ft and lasts for a day. In addition to the normal effects, if it is cast in the [Destruction] modality, "profane" entities gain +1 to all saves in the area, and "divine" entities a -1 penalty to all saves. If the spell is cast in the [Healing] modality this is reversed.
-- For every extra 4MP added to the spell it lasts for an extra day or the radius increases by 400ft.
+- For every  2MP dice above 8 added to the spell, it lasts for an extra day, or the radius increases by 400ft.
 - If the spell is cast with at least 40MP and an intended duration of at least 1 week, the effect is permanent.
 
 ___
@@ -2320,7 +2329,7 @@ ___
 |Scope|local (global)|
 |MP Dice|4 (8)|
 |Target(s)|1 entity|
-|Casting time|"main action" (4 hours + 20 minutes per 4MP dice)|
+|Casting time|"main action" (4 hours + 20 minutes per 2MP dice)|
 |Range|close|
 |Duration|1h (1 week)|+6
 |Components|kinetic|(6)
@@ -2335,7 +2344,7 @@ ___
 
 **Upcast**: For every extra MP die above 4 spend, the caster can either extend the spell by an extra hour, select an additional target, or increase the maximum level of the resulting animal/plant by 1.
 
-**Global**: The spell lasts for a week. For every 4MP the spell lasts an extra week and the maximum level of the resulting animal/plant increases by 1. It cannot be cancelled voluntarily.
+**Global**: The spell lasts for a week. For every 2MP dice above 8 the spell lasts an extra week, and the maximum level of the resulting animal/plant increases by 1. It cannot be cancelled voluntarily.
 
 ___
 ### Enchanted Ground
@@ -2344,7 +2353,7 @@ ___
 |Scope|local (global)|
 |MP Dice|4 (8)|
 |Target(s)|40ft radius, 15ft depth (800ft radius, 100ft depth)|+8
-|Casting time|"1 action" (4 hours + 20 minutes per 4MP dice)|
+|Casting time|"1 action" (4 hours + 20 minutes per 2MP dice)|
 |Range|close|-2(6)
 |Duration|12 minutes (1 day)|+6(12)
 |Concentration|local|-3(9)
@@ -2364,7 +2373,7 @@ ___
 
 **Upcast**: The for every extra MP die above 4 used, the spell's radius increases by 5ft or the damage increases by 1d12, or the duration increases by 12 min.
 
-**Global**: The spell lasts for a day and has a great radius. It deals the damage only during the first minute of the spell and can also affect structures. In addition friendly entities have advantage on fortification and harvesting rolls in the area. For every 4MP dice extra the duration increases by a day, or the radius increases by 800ft.
+**Global**: The spell lasts for a day and has a great radius. It deals the damage only during the first minute of the spell and can also affect structures. In addition friendly entities have advantage on fortification and harvesting rolls in the area. For every 2MP dice above 8 the duration increases by a day, or the radius increases by 800ft.
 
 ___
 ### False Aura
@@ -2373,7 +2382,7 @@ ___
 |Scope|local (global)|
 |MP Dice|4 (8)|
 |Target(s)|1 entity (120ft radius)|
-|Casting time|1 full round action (4 hours + 20 minutes per 4MP dice)|-2
+|Casting time|1 full round action (4 hours + 20 minutes per 2MP dice)|-2
 |Range|close|-1
 |Duration|24 hours (4 months)|+9
 |Components|Incantation, Kinetic|-1
@@ -2396,7 +2405,7 @@ If the detection spell is cast at a higher MP dice cost (level) than "False Aura
 
 **Upcast**: For every extra die above 4 expended when casting the spell, the spell lasts for an extra 8 hours, or affects an extra target. Secondly the spell is automatically effective against spells cast up to that "spell level" (INT save is no longer needed).
 
-**Global**: The spell instead affects a volume with a radius of 120ft, centered on a point on the ground or a stationary object. Likewise it lasts for 4 months. For every 4 extra MP dice, either the radius increases by 120ft, or the duration increases by 4 months.
+**Global**: The spell instead affects a volume with a radius of 120ft, centered on a point on the ground or a stationary object. Likewise it lasts for 4 months. For every 2 MP dice above 8, either the radius increases by 120ft, or the duration increases by 4 months.
 
 ___
 ### Gift of the Fates
@@ -2424,7 +2433,7 @@ ___
 |Scope|local (global)|
 |MP Dice|4 (8)|
 |Target(s)|3 entities (360ft)|
-|Casting time|1 full round action (4 hours + 20 minutes per 4MP dice)|-1
+|Casting time|1 full round action (4 hours + 20 minutes per 2MP dice)|-1
 |Range|close|
 |Duration|12 minutes (1 day)|+3
 |Components|incantation|+1
@@ -2436,7 +2445,7 @@ ___
 
 **Upcast**: For every extra MP die above 4, the spell lasts for an extra 12 minutes or affects an extra target.
 
-**Global**: As the local casting, but is centered on a point and allows all entities within 120ft to communicate to entities of the chosen subkind. The spell lasts for 24 hours. For every 4 extra MP dice placed in the spell, the radius increases by 360ft or the spell lasts for an extra day.
+**Global**: As the local casting, but is centered on a point and allows all entities within 120ft to communicate to entities of the chosen subkind. The spell lasts for 24 hours. For every 2 MP dice above 8 placed in the spell, the radius increases by 360ft or the spell lasts for an extra day.
 
 ___
 ### Healing Seed
@@ -2468,7 +2477,7 @@ ___
 |Scope|local (global)|
 |MP Dice|4 (8)|
 |Target(s)|20ft radius (20ft radius)|+4
-|Casting time|1 full round (4 hours + 20 minutes per 4MP dice)|-2
+|Casting time|1 full round (4 hours + 20 minutes per 2MP dice)|-2
 |Range|close (close)|-1
 |Duration|12 minutes (special)|
 |Components|incantation,kinetic|-1
@@ -2502,7 +2511,7 @@ When the spell ends, the remaining entities within it find themselves at the poi
 
 **Limitation**: A caster must have at least 1 level in all 4 elemental spellcasting abilities in order to be able to use this spell safely. If the caster does not know all the elements, there is a chance of instead creating a shadow space inhabited by 2d8 hostile [Cursed Shades](monsters-npcs/profanes.md#cursed-shade-lesser). The probability is as follow: For 3 elements known, 25%. For 2, 50%. For 1, 75%.
 
-**Upcast**: For every extra MP die above 4, the spell lasts for an extra 12 minutes.
+**Upcast (local only)**: For every extra MP die above 4, the spell lasts for an extra 12 minutes.
 
 **Special**: A caster can only ever have ONE domain. If the spell is recast, the previous domain disappears.
 
@@ -2517,7 +2526,7 @@ ___
 |Scope|local (global)|
 |MP Dice|4 (8)|
 |Target(s)|1 entity|
-|Casting time|"1 full round action" (4 hours + 20 minutes per 4MP dice)|-2(17)
+|Casting time|"1 full round action" (4 hours + 20 minutes per 2MP dice)|-2(17)
 |Range|close|-1(16)
 |Duration|1 hour (1 day)|6(22)
 |Components|incantation, kinetic|-1(21)
@@ -2528,7 +2537,7 @@ ___
 
 **Upcast**: For every MP die above 4, the duration increases by 1 hour.
 
-**Global**: The spell lasts for 1 day, with an extra day of duration for every 4 MP dice above 16.
+**Global**: The spell lasts for 1 day, with an extra day of duration for every 2 MP dice above 8.
 
 ___
 ### Least Storm
@@ -2537,7 +2546,7 @@ ___
 |Scope|local (global)|
 |MP Dice|4 (8)|
 |Target(s)|30ft centered on a square (600ft)|+8
-|Casting time|"main action" (4 hours + 20 minutes per 4MP dice)|
+|Casting time|"main action" (4 hours + 20 minutes per 2MP dice)|
 |Range|120ft|+2(10)
 |Duration|1 min (1 hour)|+6(16)
 |Concentration|local|
@@ -2552,7 +2561,7 @@ ___
 
 **Upcast**: For every extra MP die above 4, either the radius of the storm increases by 5ft, the duration increases by 1 min or the lightning damage increases by 1d8.
 
-**Global**: The spell affects a large area and lasts for an hour. The winds are classed as "severe". For every extra 4MP dice, either the area increases by 100ft, or the duration increases by 1h. If at least 24MP dice are used in the casting, the wind effects are "extreme".
+**Global**: The spell affects a large area and lasts for an hour. The winds are classed as "severe". For every 2MP dice above 8, either the area increases by 100ft, or the duration increases by 1h. If at least 12MP dice are used in the casting, the wind effects are "extreme".
 
 ___
 ### Lesser Weather Control
@@ -2561,7 +2570,7 @@ ___
 |Scope|local (global)|
 |MP Dice|4 (8)|
 |Target(s)|30ft (600ft)|+6
-|Casting time|"full round" (4 hours + 20 minutes per 4MP dice)|-1(5)
+|Casting time|"full round" (4 hours + 20 minutes per 2MP dice)|-1(5)
 |Range|close|
 |Duration|12 min (1 day)|+3(8)
 |Focus|A crystal whistle|-1(7)
@@ -2575,7 +2584,7 @@ ___
 
 **Upcast**: The for every extra MP die above 4, the spell lasts for an extra 6 minutes or increases in radius by 5ft. If 7 or more MP dice are used, the caster can shift the weather by two points in any direction.
 
-**Global**: As local, but with a radius of 600ft and a duration of 1 day. For every extra 4MP dice, the radius increases by 400ft or the duration increases by 1 day. If 7 or more MP dice are used the weather can be shifted by two points in any direction.
+**Global**: As local, but with a radius of 600ft and a duration of 1 day. For every 2MP dice above 8, the radius increases by 400ft or the duration increases by 1 day. If 14 or more MP dice are used the weather can be shifted by two points in any direction.
 
 ___
 ### Lesser Incarnation
@@ -2584,7 +2593,7 @@ ___
 |Scope|local (global)|
 |MP Dice|4 (8)|
 |Target(s)|1sq (1sq)|
-|Casting time|"main action" (4 hours + 20 minutes per 4MP dice)|
+|Casting time|"main action" (4 hours + 20 minutes per 2MP dice)|
 |Range|close|-1
 |Duration|12 min (2 days)|+3
 |Components|kinetic|
@@ -2625,7 +2634,7 @@ ___
 |Scope|local (global)|
 |MP Dice|4 (8)|
 |Target(s)|20ft radius (400ft)|8
-|Casting time|"main action" (4 hours + 20 minutes per 4MP dice)|
+|Casting time|"main action" (4 hours + 20 minutes per 2MP dice)|
 |Range|120ft|+2(10)
 |Duration|12 min (1 day)|+3(13)
 |Components|kinetic|
@@ -2646,7 +2655,7 @@ An illusion can be broken in the following manner:
 
 **Upcast**: For every extra MP die above 4, the duration increases by 12 min or the radius increases by 5ft.
 
-**Global**: The mirage lasts for a day and has a radius of 400ft. For every 4 extra MP the mirage lasts for an extra day or its radius increases by 400ft.
+**Global**: The mirage lasts for a day and has a radius of 400ft. For every 2 MP dice above 8 the mirage lasts for an extra day, or its radius increases by 400ft.
 
 ___
 ### Rejuvenate Land
@@ -2655,7 +2664,7 @@ ___
 |Scope|local (global)|
 |MP Dice|4 (8)|
 |Target(s)|30ft radius (600ft)| (+12)
-|Casting time|"1 minute" (4 hours + 20 minutes per 4MP dice)|-2(10)
+|Casting time|"1 minute" (4 hours + 20 minutes per 2MP dice)|-2(10)
 |Range|close|-2(8)
 |Duration|instantaneous|
 |Components|incantation, kinetic|-1(7)
@@ -2671,7 +2680,7 @@ ___
 - Increase the radius by 5ft.
 - Increase the level of the spell by 1 for the sake of determining its level for breaking curses and aftereffects.
 
-**Global**: The same, but with a 600ft radius. For every extra 4MP increase the radius by 600ft, alternatively the level increases for the sake of breaking curses or aftereffects.
+**Global**: The same, but with a 600ft radius. For every 2MP dice above 8 increase the radius by 600ft. Alternatively the level increases by 1 for the sake of breaking curses or aftereffects.
 
 ___
 ### Scry
@@ -2680,7 +2689,7 @@ ___
 |Scope|local (global)|
 |MP Dice|4 (8)|
 |Target(s)|1 entity or object|
-|Casting time|"main action" (4 hours + 20 minutes per 4MP dice)|
+|Casting time|"main action" (4 hours + 20 minutes per 2MP dice)|
 |Range|720ft (240 miles)|+11
 |Duration|12 min (1 day)|+6(17)
 |Components|kinetic|
@@ -2692,7 +2701,7 @@ ___
 
 **Upcast**: For every extra MP die above 4, the target range increases by 60ft and the view distance increases by 5ft. Alternatively the duration increases by 12 min.
 
-**Global**: The spell has a range or 240 miles and lasts for a day. The view distance is 120ft. For every 4MP the range increases by 60 miles or the duration increases by a day.
+**Global**: The spell has a range or 240 miles and lasts for a day. The view distance is 120ft. For every 2MP dice above 8 the range increases by 60 miles, or the duration increases by a day.
 
 ___
 ### Speak Through Flame
@@ -2725,7 +2734,7 @@ ___
 |Scope|local (global)|
 |MP Dice|4 (8)|
 |Target(s)|1sq (1sq)|
-|Casting time|"full round action" (6 hours + 6 hours per 4MP dice)| -2
+|Casting time|"full round action" (6 hours + 6 hours per 2MP dice)| -2
 |Range|15ft|+1
 |Duration|12 min (2 days)|+3
 |Components|incantation|+1
@@ -2744,9 +2753,9 @@ ___
 
 **Limitation**; A spirit summoned by this means cannot enter or leave areas affected by ["warded ground"](#warded-ground) or ["enchanted ground"](#enchanted-ground), or territory protected by similar means. Nor can it cross the border of the material/spiritual realm until the spell is over.
 
-**Upcast**: For every MP dice added above 4 (4MP for global), the spirit gains two levels.
+**Upcast**: For every MP dice added above 4 (2MP dice above 8 for global), the spirit gains two levels.
 
-**Global**: The spirit is bound for 1 day for every 4MP dice used summon it (minimum of 2 days), it *also* gains two levels for every 4 MP dice added. For every day of the contract, the material component must be paid anew.
+**Global**: The spirit is bound for 1 day for every 2MP dice used summon it (minimum of 4 days), it *also* gains two levels for every 2 MP dice added. For every day of the contract, the material component must be paid anew.
 
 ___
 ## MP 5 Spells
@@ -2780,7 +2789,7 @@ ___
 |Scope|local (global)|
 |MP Dice|5 (10)|
 |Target(s)|1 entity|
-|Casting time|1 action (5 hours + 1 hour per MP die)|
+|Casting time|1 action (5 hours + 1 hour per 2MP dice)|
 |Range|30ft|
 |Duration|1 hour (1 week+)|
 |Components|incantation, kinetic|
@@ -2799,7 +2808,7 @@ When dominated the target takes no action or reactions (other than movement or c
 + If a command involves harming itself, or an entity with which its relationship is "sworn", or helping an entity with which its relationship is "nemesis" it gets an additional save against the spell at advantage. The save is a CHA save.
 + If the target receives "divine" or "entropic" damage while under effect of the spell, the spell ends.
 
-**Global**: The spell lasts for a week, and is not concentration. For every 4 MP dice extra, the spell lasts for an extra day.
+**Global**: The spell lasts for a week, and is not concentration. For every 2 MP dice above 10, the spell lasts for an extra day.
 
 ___
 ### Flame Stride
@@ -2808,7 +2817,7 @@ ___
 |Scope|local (global)|
 |MP Dice|5 (10)|
 |Target(s)|2 entities* (2 entities*)|+2
-|Casting time|"secondary action" (5 hours + 20 minutes per 4MP dice)|+2
+|Casting time|"secondary action" (5 hours + 20 minutes per 2MP dice)|+2
 |Range|close/600ft (close/200 miles)|+9(13)
 |Duration|instantaneous|
 |Components|kinetic|-1(12)
@@ -2824,7 +2833,7 @@ ___
 **Upcast**: For every extra MP die above 5 the range increases by 60ft or the number of passengers increases by 1.
 
 **Global**: Enter a bonfire large enough to engulf the caster and emerge from another of their choice in range (200 miles). The caster is aware of all valid fires in range.
-- For every 4 extra MP dice the range increases by 60 miles or the number of passengers increases by 1.
+- For every 2 MP dice above 10 the range increases by 60 miles, or the number of passengers increases by 1.
 
 (blink speed = 12+13)
  
@@ -2835,7 +2844,7 @@ ___
 |Scope|local (global)|
 |MP Dice|5 (10)|
 |Target(s)|1 target no larger than "gargantuan"|-1
-|Casting time|"1 main action" (5 hours + 20 minutes per 4 MP dice)|
+|Casting time|"1 main action" (5 hours + 20 minutes per 2 MP dice)|
 |Range|30ft|+2
 |Duration|8 hours (1 month)|+9(11)
 |Components|kinetic|
@@ -2852,7 +2861,7 @@ As a secondary action the caster may dismiss the flare, causing 3d6+[SUP] damage
 
 **Upcast**:  For each extra MP die above 1 the spell may last for an extra 8 hours or the radius of bright and dim light increase each by 20ft.
 
-**Global**: If the spell is cast globally, it must be anchored to a stationary target. If the target is moved from its square(s), the spell ends. Secondly the spell causes no damage if dismissed. The spell lasts for a month and the radius of bright light is 2400ft (or about half a mile). For every extra MP dice, the radius increases by 400ft, and the duration increases by 1 month. 
+**Global**: If the spell is cast globally, it must be anchored to a stationary target. If the target is moved from its square(s), the spell ends. Secondly the spell causes no damage if dismissed. The spell lasts for a month and the radius of bright light is 2400ft (or about half a mile). For every extra MP dice above 10, the radius increases by 400ft, and the duration increases by 1 month. 
 
 ___
 ### Flawed Transmute
@@ -2861,7 +2870,7 @@ ___
 |Scope|local (global)|
 |MP Dice|5 (10)|
 |Target(s)|1 object (medium)|
-|Casting time|1 action (5 hours + 20 minutes per 4MP dice)|
+|Casting time|1 action (5 hours + 20 minutes per 2MP dice)|
 |Range|close|
 |Duration|1 day (permanent)|+24
 |Components|incantation|+1(25)
@@ -2879,7 +2888,7 @@ ___
 
 **Upcast**: For every addition MP die above 5 used in the casting, either add an extra object or increase its size by one category. If at least 7 MP dice are used the maximum material level can be 3. If 9 MP dice are used the maximum material level can be 4.
 
-**Global**: The spell is permanent. If at least 28 MP dice are used the maximum material level can be 3. If 36 MP dice are used the maximum material level can be 4.
+**Global**: The spell is permanent. If at least 14 MP dice are used the maximum material level can be 3. If 18 MP dice are used the maximum material level can be 4.
 
 ___
 ### Flood
@@ -2916,7 +2925,7 @@ ___
 |Scope|local (global)|
 |MP Dice|5 (10)|
 |Target(s)|1 entity (120ft radius)|
-|Casting time|1 full round action (5 hours + 20 minutes per 4MP dice)|-2
+|Casting time|1 full round action (5 hours + 20 minutes per 2MP dice)|-2
 |Range|close|-2 
 |Duration|1 day (1 year)|+12
 |Components|Incantation, Kinetic|-1
@@ -2931,7 +2940,7 @@ If the level of the detection magic is higher, or if detection is by an "S class
 
 **Upcast**: For every extra die above 5 expended when casting the spell, the spell lasts for an extra day, or affects an extra target. Secondly the spell is automatically effective against spells cast up to that "spell level" (INT save is no longer needed).
 
-**Global**: The spell instead affects a volume with a radius of 120ft, centered on a point on the ground or a stationary object. Likewise it lasts 1 year. For every 4 extra MP dice, either the radius increases by 120ft, or the duration increases by 4 months.
+**Global**: The spell instead affects a volume with a radius of 120ft, centered on a point on the ground or a stationary object. Likewise it lasts 1 year. For every 2 MP dice above 10, either the radius increases by 120ft, or the duration increases by 4 months.
 
 ___
 ### Greater Fire Ward
@@ -2940,7 +2949,7 @@ ___
 |Scope|local (global)|
 |MP Dice|5 (10)|
 |Target(s)|40ft radius (800ft radius)|+9
-|Casting time|"full round action" (5 hours + 20 minutes per 4MP dice)|
+|Casting time|"full round action" (5 hours + 20 minutes per 2MP dice)|
 |Range|30ft|+1(10)
 |Duration|12 minutes (1 day)|+12(22)
 |Components|incantation,kinetic|-1(21)
@@ -2962,7 +2971,7 @@ ___
 
 **Upcast**: For every extra MP dice above 5 (local) placed into the spell, the spell radius increases by 10ft or the damage increases by 1d8 and the damage reduction increases by 4.
 
-**Global**: The spell lasts for a day and has a radius of 800ft. For every extra 4 MP dice, the radius increases by 200ft, or the damage increases by 1d8. Likewise, the duration increases by 1 day.
+**Global**: The spell lasts for a day and has a radius of 800ft. For every extra 2 MP dice, the radius increases by 200ft, or the damage increases by 1d8. Likewise, the duration increases by 1 day.
 
 ___
 ### Heart Ward
@@ -2971,7 +2980,7 @@ ___
 |Scope|local (global)|
 |MP Dice|5 (10)|
 |Target(s)|6 entities|
-|Casting time|"1 main action" (5 hours + 20 minutes per 4MP dice)|
+|Casting time|"1 main action" (5 hours + 20 minutes per 2MP dice)|
 |Range|30ft|+2
 |Duration|1 hour (1 week)|+6()
 |Components|incantation|
@@ -2986,7 +2995,7 @@ ___
 - last for an extra hour, or,
 - grant immunity to an additional condition (from the three listed).
 
-**Global**: The spell last for 1 week. For every 4 MP dice above 20, the spell lasts for an extra week.
+**Global**: The spell last for 1 week. For every 2 MP dice above 10, the spell lasts for an extra week.
 
 ___
 ### Isolate Essence
@@ -2995,7 +3004,7 @@ ___
 |Scope|local (global)|
 |MP Dice|5 (10)|
 |Target(s)|1 entity|
-|Casting time|1 main action (5 hours + 20 minutes per 4MP dice)|
+|Casting time|1 main action (5 hours + 20 minutes per 2MP dice)|
 |Range|60ft|
 |Duration|1 hour (1 month)|
 |Components|Kinetic|
@@ -3015,7 +3024,7 @@ ___
 
 **Upcast**: For every extra MP dice above 5, the spell can target an extra ability/skill (or the same one again) or last for an extra hour.
 
-**Global**: The spell spell lasts for 1 month. For every 4 MP dice above 20 it lasts for an extra month or seals an extra level of the same ability.
+**Global**: The spell spell lasts for 1 month. For every 2 MP dice above 10 it lasts for an extra month or seals an extra level of the same ability.
 
 ___
 ### Lesser Cosmic Seal
@@ -3042,7 +3051,7 @@ ___
 
 **Upcast**: For every extra MP die above 5 used to cast the spell, the radius increases by 10ft, or the range increases by 30ft.
 
-**Global**: The spell has a radius of 200ft and a duration of 1 month. For every extra 4MP die used, the duration increases by a month or the radius increases by 200ft.
+**Global**: The spell has a radius of 200ft and a duration of 1 month. For every 4MP dice above 20 used, the duration increases by a month, or the radius increases by 200ft.
 
 ___
 ### Pact
@@ -3051,7 +3060,7 @@ ___
 |Scope|local (global)|
 |MP Dice|5 (10)|
 |Target(s)|(2 entities)|+2
-|Casting time|full round action (5 hours + 20 minutes per 4MP dice)|
+|Casting time|full round action (5 hours + 20 minutes per 2MP dice)|
 |Range|close|
 |Duration|1 day (1 year)|+12(14)
 |Components|incantation|+1(15)
@@ -3071,7 +3080,7 @@ ___
 
 **Global**: The spell lasts for a year. Likewise, it is possible to form a pact with an unwilling target, although in this case it may break the pact with a successful Wis save.
 
-**Upcast (Global only)**: For every 4 MP dice above 20, the spell lasts an extra year. Alternatively you may select an extra attribute. If the spell is cast with 32 MP dice or more, and only one attribute is taken, it becomes permanent.
+**Upcast (Global only)**: For every 2 MP dice above 10, the spell lasts an extra year. Alternatively you may select an extra attribute. If the spell is cast with 16 MP dice or more, and only one attribute is taken, it becomes permanent.
 
 ___
 ### Plague
@@ -3080,7 +3089,7 @@ ___
 |Scope|local (global)|
 |MP Dice|5 (10)|
 |Target(s)|3 entities (300ft radius)|
-|Casting time|main action (5 hours + 20 minutes per 4MP dice)|
+|Casting time|main action (5 hours + 20 minutes per 2MP dice)|
 |Range|120 feet (300ft)|
 |Duration|1 minute (1 day, special)|
 |Components|kinetic|
@@ -3154,7 +3163,7 @@ The rift can be no more than 50ft wide, 400ft long and 200ft deep, the sides are
 - Climbing the sides of the rift requires a climb roll of Threshold=20.
 - The caster can specify the dimensions of the rift as long as it is 
 
-**Upcast**: For every extra MP dice over 5, the rift can be 80ft longer.
+**Upcast (local only)**: For every extra MP dice over 5, the rift can be 80ft longer.
 
 **Global**: The rift can be up to 2 miles long, 200ft wide and 400ft deep.
 
@@ -3165,7 +3174,7 @@ ___
 |Scope|local (global)|
 |MP Dice|5 (10)|
 |Target(s)|1 entity|
-|Casting time|"1 main action" (5 hours + 20 minutes per 4MP dice)|
+|Casting time|"1 main action" (5 hours + 20 minutes per 2MP dice)|
 |Range|close|-1(21)
 |Duration|1 hour (1 day)|5(26)
 |Components|incantation, kinetic|-1(25)
@@ -3180,7 +3189,7 @@ ___
 
 **Upcast**: For every MP die above 5, the duration increases by 1 hour.
 
-**Global**: The spell lasts for 1 day, with an extra day of duration for every 4 MP dice above 20.
+**Global**: The spell lasts for 1 day, with an extra day of duration for every 2 MP dice above 10.
 
 ___
 ### Summon Fiend
@@ -3189,7 +3198,7 @@ ___
 |Scope|local (global)|
 |MP Dice|5 (10)|
 |Target(s)|1sq (1sq)|
-|Casting time|"full round action" (1 day + 12 hours per 4MP dice)|-2
+|Casting time|"full round action" (1 day + 12 hours per 2MP dice)|-2
 |Range|30ft (30ft)|
 |Duration|1 hour (1 week+)|+6
 |Components|incantation, kinetic|-1
@@ -3206,7 +3215,7 @@ ___
 
 **Limitation**: A fiend will not be willingly summoned by an entity aligned to the "divine". In this case a caster makes a contested Cha roll vs the fiend. If the fiend wins, it can chose to refuse the summons or to accept it, although in this case it is in no way under the caster's control and is likely to attack it.
 
-**Upcast**: For every MP die above 5 added (4MP dice for global), the fiend's level can be increased by two.
+**Upcast**: For every MP die above 5 added (2MP dice for global), the fiend's level can be increased by two.
 
 **Global**: The spell does not require concentration. Furthermore the spell can be cast in two ways globally:
 1. Like the "local" casting of the spell, but it lasts for a 1 week.
@@ -3280,7 +3289,7 @@ ___
 |Scope|local (global)|
 |MP Dice|6 (12)|
 |Target(s)|1 entity|
-|Casting time|1 action (3 days + 5 hours per 4 MP dice)|
+|Casting time|1 action (3 days + 5 hours per 2 MP dice)|
 |Range|close|
 |Duration|1 hour (1 month)|
 |Limitation|Only affects entities with a physical form|
@@ -3388,7 +3397,7 @@ ___
 |Name|Freedom [Air, Spring, Water]|
 |-|-|
 |Scope|local (global)|
-|MP Dice|6 (30)|
+|MP Dice|6 (24)|
 |Target(s)|1 entity|
 |Casting time|"1 full round action" (6 hours + 20 minutes per 4MP dice)|-2(30)
 |Range|close|-1(29)
@@ -3511,7 +3520,7 @@ ___
 |Scope|local (global)|
 |MP Dice|6 (12)|
 |Target(s)|50ft radius (1000ft)| (+20) 
-|Casting time|"full round action" (6 hours + 20 minutes per 4 MP dice)|18(-2)
+|Casting time|"full round action" (6 hours + 20 minutes per 2 MP dice)|18(-2)
 |Range|30ft (30ft)|16(-2)
 |Duration|60 min (1 week+)|22(+6)
 |Components|incantation + kinetic|21(-1)
@@ -3532,9 +3541,9 @@ If the undead are not destroyed by the end of the spell, or the caster loses con
 - The offering must include firstly, something of symbolic significance to the dead (eg, their favourite dolfie, the banner of their religion, etc). If dead of multiple allegiances are present in the radius, only those that find the offering significant will be raised.
 - If a command is given that would go against this, the caster loses control of all the dead animated by this spell. For example, animating a group of holy knights with this spell and ordering one of them to burn down their old shrine will not only lead to the command not being followed, but to the loss of control over all the dead animated in this way.
 
-**Upcast**: For every MP die above 6 added (4 MP dice for global), the radius of the effect increases by 15ft.
+**Upcast**: For every MP die above 6 added (2 MP dice for global), the radius of the effect increases by 15ft.
 
-**Global**: The spell has a radius of 1000ft and the duration is 1 week. For every 4 MP dice extra, the radius increases by 300ft. The spell does not require concentration is, **but** the caster cannot cast the spell again as a global spell for a week.
+**Global**: The spell has a radius of 1000ft and the duration is 1 week. For every 2 MP dice extra, the radius increases by 300ft. The spell does not require concentration is, **but** the caster cannot cast the spell again as a global spell for a week.
 
 **Notes**: This spell produces a large number of units, possibly in the thousands. It is recommended that the DM controls the legion and uses it as a single group or AoE rather than individually rolling for each undead.
 
@@ -3545,7 +3554,7 @@ ___
 |Scope|local (global)|
 |MP Dice|6 (12)|
 |Target(s)|50ft radius (1000ft radius)|
-|Casting time|1 main action (6 hours + 20 minutes per 4 MP dice)|
+|Casting time|1 main action (6 hours + 20 minutes per 2 MP dice)|
 |Range|240ft (1200ft)|+4
 |Duration|12 minutes (1 day)|+6
 |Components|Kinetic|
@@ -3564,7 +3573,7 @@ ___
 
 **Upcast**: For every extra MP dice in the spell above 6, the radius increases by 10ft, or the spell lasts for an extra 12 minutes.
 
-**Global**: The spell lasts for 1 day and affects all targets within a radius of 1000ft. For every extra 4 MP dice placed into the spell, the spell either lasts for an extra day or the radius increases by 200ft.
+**Global**: The spell lasts for 1 day and affects all targets within a radius of 1000ft. For every extra 2 MP dice placed into the spell, the spell either lasts for an extra day or the radius increases by 200ft.
 
 ___
 ### Metamorphosis/Rebirth
@@ -3660,9 +3669,9 @@ For the sake of mechanics, this is a "cosmic speed" effect.
   - "Spellcasting: Incantation", it can be used to travel to realms associated with sound and never to silent realms.
   - "Spellcasting: Kinetic", it can be used to travel to realms associated with motion and never to still realms.
 
-**Upcast**: Add one more target per MP die above 6.
+**Upcast**: Add one more target per MP die above 6 (per 2 MP dice above 12 if cast globally).
 
-**Global**: Move everything, including all entities, within a 120ft radius to the realm of choice (picking from a valid adjacent otherworld). For every 4MP dice above the usual, the radius increases by 40ft.
+**Global**: Move everything, including all entities, within a 120ft radius to the realm of choice (picking from a valid adjacent otherworld). For every 2MP dice above 12, the radius increases by 40ft.
 
 **Extra Notes:** The term "nearest otherworlds" only has meaning in cosmologies where other realms, planes and worlds can be sorted by distance from the "main", "home" or "material" world. For example:
 - If the game world has star systems, then perhaps this spell might only allow travel to the nearest planets.
@@ -3721,7 +3730,7 @@ ___
 |Scope|local (global)|
 |MP Dice|6 (12)|
 |Target(s)|1sq (1sq)|
-|Casting time|"full round action" (1 day + 12 hours per 4MP dice)|-2
+|Casting time|"full round action" (1 day + 12 hours per 2MP dice)|-2
 |Range|30ft (30ft)|
 |Duration|1 hour (1 week+)|+6
 |Components|incantation, kinetic|-1
@@ -3738,7 +3747,7 @@ ___
 
 **Limitation**: An angel cannot be summoned by one who its god does not approve of, and nor by one who acts/stands against the concept it personifies. In this case, the god may decide to send the angel at a time of its choosing anyway, but with the purpose of punishing/opposing the caster who attempted to summon it. In this case, a divine mark of the god appears on the hand or face of the caster, and a threshold=20 ["Knowledge: Religion"](05-skills.md#knowledge) roll is able to identify it as such.
 
-**Upcast**: For every MP die above 6 (4MP dice for global), the angel's level can be increased by two.
+**Upcast**: For every MP die above 6 (2MP dice for global), the angel's level can be increased by two.
 
 **Global**: The spell does not require concentration. Furthermore the spell can be cast in three ways globally:
 1. Like the "local" casting of the spell, but it lasts for a 1 week.
@@ -3752,7 +3761,7 @@ ___
 |Scope|local (global)|
 |MP Dice|6 (12)|
 |Target(s)||
-|Casting time|"full round action" (1 day + 6 hours per 4MP dice)|-2
+|Casting time|"full round action" (1 day + 6 hours per 2MP dice)|-2
 |Range|15ft|+1
 |Duration|12 min (3 days)|+3
 |Components|incantation, kinetic|-1
@@ -3780,9 +3789,9 @@ ___
 - You can only have one summon at any one time.
 - The summon appears at the start of the caster's *next* turn.
 
-**Upcast**: For every MP dice added above 6, the elemental gains two levels.
+**Upcast**: For every MP dice added above 6 (2 MP dice above 12 if cast globally), the elemental gains two levels.
 
-**Global**: The elemental is bound for 1 day for every 8MP dice used summon it (minimum of 3 days), it *also* ga
+**Global**: The elemental is bound for 1 day for every 8MP dice used summon it (minimum of 3 days).
 
 ___
 ## MP 7 spells
@@ -3945,7 +3954,7 @@ ___
 |Scope|local (global)|
 |MP Dice|7 (14)|
 |Target(s)|20ft radius (20ft radius)|+4
-|Casting time|"main action" (7 hours + 30 minutes per 4MP dice)|
+|Casting time|"main action" (7 hours + 30 minutes per 2MP dice)|
 |Range|close/2400ft (close/unlimited)|+8
 |Duration|1 minute|
 |Components|kinetic|-1
@@ -3969,7 +3978,7 @@ ___
 |Scope|local (global)|
 |MP Dice|7 (14)|
 |Target(s)|1 entity|
-|Casting time|"main action" (7 hours + 20 minutes per 4MP)|
+|Casting time|"main action" (7 hours + 20 minutes per 2MP)|
 |Range|15ft|
 |Duration|1h (1 week)|+6
 |Limitation|Target must be a mortal|
@@ -3997,7 +4006,7 @@ Thus when this spell is used, the DM and player (but mostly the DM) pick out an 
 
 **Upcast**: For every extra MP die above 7 spend, the caster can either extend the spell by an extra hour, select an additional target, or increase the maximum level of the resulting mortal by 1.
 
-**Global**: The spell lasts for a week. For every 4MP the spell lasts an extra week and the maximum level of the resulting mortal increases by 1. It cannot be cancelled voluntarily.
+**Global**: The spell lasts for a week. For every 2MP above 14 the spell lasts an extra week and the maximum level of the resulting mortal increases by 1. It cannot be cancelled voluntarily.
 
 ___
 ## MP 8 Spells

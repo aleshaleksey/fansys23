@@ -5,11 +5,11 @@ ___
 
 ### Scope and Pace of the game
 
-The rules of FanSys mostly mostly concern small group combat in a fantasy setting, but also exploration and some aspects of general interactions with the environment, including supernatural locales. It is suited to classic high and low fantasy and sword and sorcery games. The distinction between HP damage (mortal injury) and MP/SP damage (bumps and bruises, spiritual exhaustion) gives groups a tool to balance between grittier and light hearted games.
+The rules of FanSys mostly concern small group combat in a fantasy setting, but also exploration and some aspects of general interactions with the environment, including supernatural locales. It works with various fantasy settings, both low and high. The distinction between HP damage (mortal injury) and MP/SP damage (bumps and bruises, spiritual exhaustion), is a particular feature of the game that allows groups to distinguish between mortal dangers and less perilous predicaments. The game has levels for a progression of power, but is also class-free which allows almost limitless flexibility of character creation (with some perils of its own).
 
-FanSys can be played in a high-action, fast-paced fashion, where not a day passes without the party crossing swords with their foes. As a fantasy TTRPG system that is best equipped for combat and exploration it is well equipped for this style of game play. Nevertheless, it was designed for a slower pace of play. 
+FanSys was designed for a slower and more thoughtful pace of play than those high-action, fast-paced games, where not a day passes without the party crossing swords with their foes. That is not to say that it can't be used in this way. In fact it is equally well equipped for fast paced games. Nevertheless, it was designed for a slower pace of play. 
 
-This is the reason for features such as the expense of healing magic, slow healing of HP and stat damage, [short, long and full rests](04-combat.md#rest-and-recuperation) and the [slow learning of spells](07-magic-and-spellcasting.md#learning-spells-through-independent-study-or-from-a-mentor). The slow healing especially encourages players to think twice before engaging in mortal combat and to appreciate the respite afterwards. Downtime, recovery, time taken to find and craft the arms needed to defeat dangerous foes, or to learn the magics needed to overcome them are emphasised.
+This is the reason for features such as the expense of healing magic, slow healing of HP and stat damage, [short, long and full rests](04-combat.md#rest-and-recuperation), the [global spellcasting](07-magic-and-spellcasting.md#global-and-local-spells) system, and the [slow learning of spells](07-magic-and-spellcasting.md#learning-spells-through-independent-study-or-from-a-mentor). The slow healing especially encourages players to think twice before engaging in mortal combat and to appreciate the respite afterwards. Downtime, recovery, time taken to find and craft the arms needed to defeat dangerous foes, or to learn the magics needed to overcome them, are emphasised.
 
 After all, when reaching a village after a harrowing journey through the necromancer's forest, the weary old knight might need a week of rest to recover his strength, while giving the local younglings a few lessons in sword-play. The ambitious peasant might have realised that unless he gets the monster hides made into some kind of armour, the next leg of the journey might be his last. And that traveller with no sense of direction? She might just follow a moonbeam over the stream and [disappear](03-movement-exploration.md#secret-paths) for a while, only to return a little closer to understanding a magic that she has been having trouble with for a while now. And maybe, just maybe, during their stay in this friendly village, the three will learn a little of what links it to the necromancer who defiled the forest they travelled through not a week ago...
 ___
@@ -24,7 +24,7 @@ The game is played like any of the number of table top roleplaying games that ex
 4. Make characters.
 5. Play.
 
-Below the rules for making a character is briefly described.
+Below, one can find the rules for making a character.
 ____
 
 ## Making a character

@@ -85,7 +85,7 @@ Size = small
 |Skills|||"Stealth" +3, "Observe" +2|
 |Loot|||Dog meat is edible to humanoids|
 
-A mog is a small vicious flying creature that resembles a dog, with sharp jaws and flippers. They live on coastlines and and rocky islands.
+Mogs are small vicious flying creatures that resemble dogs, with sharp jaws and flippers. They live on coastlines and rocky islands.
 
 ___
 ### Sweet Ooze

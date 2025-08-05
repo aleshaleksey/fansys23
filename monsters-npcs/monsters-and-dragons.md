@@ -16,6 +16,7 @@
     - [Kraken, Lesser](#sea-monster-kraken-lesser)
 - [Lycanthropes](#lycanthropes)
     - [Werewolf, Lesser](#werewolf-lesser)
+    - [Werewolf, Greater](#werewolf-greater)
 - [Dragons](#dragons)
     - [Flame Dragon, Normal](#flame-dragon-normal)
     - [Flame Dragon, Lesser](#fire-dragon-lesser)
@@ -680,6 +681,47 @@ ___
 In general, werewolves are humanoids who have been cursed by the gods or blessed by the night. They gain the keep senses and strength of wild beasts and the ability to transform into a wolf. Lesser werewolves are not in complete control of their transformation, and as the full moon nears, so does the chance that the night will choose the moment of their transformation for them.
 
 This stat block reflects a human peasant which is also a werewolf. For other humanoids, take the [werewolf template](../09-races.md#werewolf-lesser-level-5-template--32--8-points), apply it on top of the stat block, and add five levels.
+
+___
+### Werewolf, Greater
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|18/12/14|106 (*46*)|41 (*31*)|17|40ft (50ft wolf form)|
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|22|18|22|10|16|12|
+|Bonus|+6|+4|+6|0|+3|+1|
+|Save|+9|+7|+6|+3|+6|+4|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|11 (3)|20|15|4|3|7|6|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Club (human form)|+13|1d4+6 bludgeoning|-|
+|Longsword|+13|1d8/1d12+6 slashing||
+|||||
+|Proficiencies|||Any two tools or kits|
+|Resistance|||"bleeding", "crippled", "incapacitated", "frightened"|
+|Immunity|||Physical damage", "poison", "disease"|
+|Greater Vitality|||A werewolf restores all SP and MP (but not dice) at the end of a short rest, as well as 1 HP. A werewolf restores HP fully following a long rest.|
+|Anathema: Silver|||Silver negates a werewolf's resistances and "Greater Vitality"|
+|Alternate Form: Wolf, Giant Wolf|1 MP dice||As a main action, a werewolf can transform into a wolf, or back into its humanoid form. Any equipment, or possessions are not transformed. On nights within 2 nights of the full moon a lesser werewolf must success|
+|"[Tracker: Swift](../06-abilities.md#tracker-swift)"|||A greater werewolf can track while moving at full speed.|
+|"[Terrain Mastery: Forest](../06-abilities.md#terrain-mastery)"|||A greater werewolf gains +2 to "fortify", "stealth", "harvest", "track", "navigate", "prospect" and "creature handling" in forests.|
+|||||
+|Skills|-|-|Usually "athletics" +11, "fortify" +9, "swim" +8, "harvest" +8, +9 "observe", +5 "sense motive"|
+|||||
+|Keen Senses: Hearing, Scent|||A werewolf has advantages on observe rolls that rely on hearing or scent|
+|Low light vision|||A werewolf can see normally in dim light, but not total darkness|
+
+In general, werewolves are humanoids who have been cursed by the gods or blessed by the night. They gain the keep senses and strength of wild beasts and the ability to transform into a wolf. Lesser werewolves are not in complete control of their transformation, and as the full moon nears, so does the chance that the night will choose the moment of their transformation for them.
+
+A greater werewolf is a terrible foe, if it is indeed a foe that possesses all the powers and hunting instincts of its lupine form, combined with the human intellect. Greater werewolves can be alphas of werewolf packs or lone creatures. They can lords, or they can be servants of yet greater powers.
+
+This stat block reflects a human warrior which is also a werewolf. For other humanoids, take the [werewolf template](../09-races.md#werewolf-level-10-template--72--8-points), apply it on top of the stat block, and add five levels.
 
 ___
 ## Dragons

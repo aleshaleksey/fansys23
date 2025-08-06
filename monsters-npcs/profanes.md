@@ -329,9 +329,9 @@ ___
 - **Natural Armour**: Armour +4, an ancient vampire may also be wearing armour.
 - **Saves**: STR, INT, WIS
 - **Carrying capacity**
-  - Light: 60lb
-  - Medium: 120lb
-  - Heavy: 300lb
+  - Light: 130lb
+  - Medium: 260lb
+  - Heavy: 520lb
 - **Inventory**: Usually carry some coin, and items of once sentimental value. Sometimes a weapon they were familiar with in life. A vampire who was a warrior might wear its armour and carry its weapons. A vampire that once was a mage might not.
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
@@ -372,8 +372,8 @@ ___
 |Immune|||"fear", "unconscious", "charm"|
 |Vulnerability|||"divine", "light"|
 |[Charm III](../06-abilities.md#charm-i-iv)|Threshold=21||(Cost = 1 MP die) A vampire can charm its victim. If it has imbibed its victim's blood, then the victim has disadvantage on the save.|
-|[Spellcasting: Incantation VI](../06-abilities.md#spellcasting-local)|Threshold=18||Favourite Spells: "[Least Ward](../08-spell-list.md#least-ward)", "[Down](../08-spell-list.md#down)", "[Least Pyromancy](../08-spell-list.md#least-pyromancy)", "[Least Vengeance](../08-spell-list.md#least-vengeance)", "[Promise](../08-spell-list.md#promise)", "[Wind Walk](../08-spell-list.md#wind-walk)", "[Lesser Weather Control](../08-spell-list.md#lesser-weather-control)", "[Summon Spirit](../08-spell-list.md#summon-spirit)", "[Pact](../08-spell-list.md#pact)", "[Spirit Restoration](../08-spell-list.md#spirit-restoration)"|
-|[Spellcasting: Kinetic VI](../06-abilities.md#spellcasting-local)|Threshold=18||Favourite Spells: "[Mist](../08-spell-list.md#mist)", "[Silent](../08-spell-list.md#silent)", "[Whispers](../08-spell-list.md#whispers)", "[Lesser Spirits' Secret](../08-spell-list.md#spirits-secret)", "[Least Transformation](../08-spell-list.md#least-transformation)", "[Least Curse](../08-spell-list.md#least-curse)", "[Scry](../08-spell-list.md#scry)", "[Plague](../08-spell-list.md#plague)", "[Madness](../08-spell-list.md#madness)"|
+|[Spellcasting: Incantation VI](../06-abilities.md#spellcasting-local)|Threshold=21||Favourite Spells: "[Least Ward](../08-spell-list.md#least-ward)", "[Down](../08-spell-list.md#down)", "[Least Pyromancy](../08-spell-list.md#least-pyromancy)", "[Least Vengeance](../08-spell-list.md#least-vengeance)", "[Promise](../08-spell-list.md#promise)", "[Wind Walk](../08-spell-list.md#wind-walk)", "[Lesser Weather Control](../08-spell-list.md#lesser-weather-control)", "[Summon Spirit](../08-spell-list.md#summon-spirit)", "[Pact](../08-spell-list.md#pact)", "[Spirit Restoration](../08-spell-list.md#spirit-restoration)"|
+|[Spellcasting: Kinetic VI](../06-abilities.md#spellcasting-local)|Threshold=21||Favourite Spells: "[Mist](../08-spell-list.md#mist)", "[Silent](../08-spell-list.md#silent)", "[Whispers](../08-spell-list.md#whispers)", "[Lesser Spirits' Secret](../08-spell-list.md#spirits-secret)", "[Least Transformation](../08-spell-list.md#least-transformation)", "[Least Curse](../08-spell-list.md#least-curse)", "[Scry](../08-spell-list.md#scry)", "[Plague](../08-spell-list.md#plague)", "[Madness](../08-spell-list.md#madness)"|
 |[Forbidden Spell](../06-abilities.md#forbidden-spell)|||"[Forced Possession](../08-spell-list.md#forced-possession)", "[Dominate Mortal](../08-spell-list.md#dominate-mortal)", "[Summon Fiend](../08-spell-list.md#summon-fiend)", "[Legion of Dead](../08-spell-list.md#legion-of-dead)"|
 |[Spellcasting: Global](../06-abilities.md#spellcasting-global)||||
 |||||

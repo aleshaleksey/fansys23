@@ -58,35 +58,36 @@ A certain level of freeform RP and common sense are recommended.
 
 ___
 ## Load and Carrying Capacity
-How much a character can carry is determined by its Str and its size. As a character approaches its carrying limit, it begins to suffer penalties. The categories are as follows. These capacities are modified by the "[Mighty I](06-abilities.md#mighty-i)" and "[Mighty II](06-abilities.md#mighty-ii)" boons.
+How much a character can carry is determined by its STR and its size. As a character approaches its carrying limit, it begins to suffer penalties. The categories are as follows. These capacities are modified by the "[Mighty I](06-abilities.md#mighty-i)" and "[Mighty II](06-abilities.md#mighty-ii)" boons.
 
 ### Weight limits table
 
-|Load Level|Weight Limit (lb)|Special|
-|-|-|-|
-|Light|4lb x Str|Entities with a [natural] fly speed cannot fly when carrying more than a light load|
-|Medium|8lb x Str|Entities with a dig speed cannot dig with more than a medium load|
-|Heavy|20lb x Str|A character can lift and carry no more than its heavy load|
-|Drag|30lb x Str|A character can drag twice as much if there is low friction (or when pulling a cart), if the surface is very rough, the drag limit is halved.|
+|Load Level|Weight Limit (lb)   |Special|
+|----------|--------------------|-------|
+|Light     |(0lb to 4lb) x Str  |Entities with a [natural] fly speed cannot fly when carrying more than a light load|
+|Medium    |(4lb+ to 8lb) x Str |Entities with a dig speed cannot dig with more than a medium load|
+|Heavy     |(8lb+ to 20lb) x Str|A character can lift and carry no more than its heavy load|
+|Drag      |Up to 30lb x Str    |A character can drag twice as much if there is low friction (or when pulling a cart), if the surface is very rough, the drag limit is halved.|
 
 ### Weight penalties
 
-- Light load or lighter loads give no penalty.
-- Light to Medium loads give the following penalties.
+- Light loads give no penalty.
+- Medium loads give the following penalties.
   - Walk, dig speed: -5ft. Climb speed: -10ft, Swim speed: -15ft.
   - All Str, Con, Dex based rolls, attacks and saves: -2
-- Medium to Heavy load give the following penalties.
+- Heavy load give the following penalties.
   - Walk, climb are halved.
   - Dig and swim speed is reduced to 0.
   - All Str, Con, Dex based rolls, attacks and saves: -6
   - Maximum durations for walking (marching), running and sprinting before Con saves have to be made, is halved.
+- Characters cannot carry loads heavier than the heavy load limit, but they may be able to drag such a load (see below).
 
 ### Dragging
 
 Dragging a load, or pulling a vehicle, burdens a character somewhat differently to carrying the same load.
-- Characters dragging objects below "light load" can move at full speed, unless on difficult terrain. This limit is doubled for slick surface, or pulling vehicles.
-- When dragging objects weighing between "light load" and "heavy load", characters move at half of their walk (or dig speed if digging) and cannot sprint. This limit is likewise doubled for slick surfaces and pulling vehicles.
-- When dragging objects weighing higher than "heavy load", characters move at half of their walk speed and no faster than 10ft. In addition they cannot dig.
+- Characters dragging objects below the "light load" limit can move at full speed, unless on difficult terrain. This limit is doubled for slick surface, or pulling vehicles.
+- When dragging a "medium" or "heavy" load, a character's base speed is halved and they cannot sprint. This limit is likewise doubled for slick surfaces and pulling vehicles.
+- When dragging objects heavier than their "heavy load" limit, characters move at half of their walk speed and no faster than 10ft. In addition they cannot dig.
 
 ### Weight limits and size
 
@@ -149,14 +150,14 @@ ___
 Entities with a swim speed are often well adapted to their liquid medium, but are either incapable of moving on land or very clumsy. Entities with a swim speed typically have speeds of 60-120ft and can perform "walk", "run" and "sprint" actions in their liquid medium (usually water).
 - **Not Swimmers:** Entities without a swim speed either do not swim at all (they sink), or are poor swimmers and can only move at 1/2 base speed (no "run" or "sprint" possible) and must make a [SKILL] or [ABILITY] check or start drowning/sinking if conditions are not ideal.
 - **Difficult terrain**: Turbulent waters or strong currents, kelp beds and thick syrup are examples of difficult terrain.
-- **Load**: An entity with a medium load or more have their swim speed reduced to 0. Entities that exceed their heavy load threshold when swimming sink. 
+- **Load**: An entity with a medium load or more have their swim speed reduced to 0. Entities that exceed their heavy load limit when swimming sink. 
 
 ___
 ### Digging
 Moving through solid earth is a slow and difficult process. Moving through rock is often impossible even for diggers. Entities with a dig speed are not slowed by narrow passages. Natural speeds are 5-10ft. Unless otherwise stated Digging entities cannot dig through solid rock (natural or worked), or metal.
 - **Non-diggers**: entities that cannot move through earth, sand, or rock.
 - **Run, Sprint**: Digging entities cannot run or sprint when digging.
-- **Load**: Digging entities cannot dig with more than a medium load.
+- **Load**: Digging entities cannot dig with a heavy, or heavier, load.
 
 ___
 ### Flight

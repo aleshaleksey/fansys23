@@ -446,11 +446,13 @@ ____
 ### Movement and Exploration
 - Change flight rules to support different [flight endurance](03-movement-exploration.md#flight-parameters) independently of flight rating (Also added modification to racial flight rules).
 - Some weapons ignore part of the [damage reduction of objects](03-movement-exploration.md#object-hit-point-durability-table).
+- Reword "[Load and Carrying Capacity](03-movement-exploration.md#load-and-carrying-capacity)" for readability.
 
 ### Abilities
 - Added [Sleep on the Wind](06-abilities.md#sleep-on-the-wing) and [Enduring Flight](06-abilities.md#enduring-flight).
 - Add heavy armour proficiency prerequisite to [heavy armour mastery](06-abilities.md#armour-mastery-heavy).
 - Add "[Greater Broad Strike](06-abilities.md#broad-strike-greater)".
+- Change the wording on "[Mighty II](06-abilities.md#mighty-ii)" to make it understandable by mortals.
 
 ### Spell list
 - Tidy up spell costs for global spells and upcasting terminology.

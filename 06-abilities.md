@@ -1938,14 +1938,14 @@ ___
 
 **Type**: Natural (Class C)
 
-**Description**: Carrying capacity increases by 50%. Thus the new weight limits are calculated as follows (before applying size modifier): |
+**Description**: Carrying capacity increases by 50%. Thus the new weight limits are calculated as follows (before applying size modifier):
 
-Load Level|Weight Limit (lb)|
-|-|-|
-|Light|6lb x Str|
-|Medium|12lb x Str|
-|Heavy|30lb x Str|
-|Drag|45lb x Str|
+|Load Level|Weight Limit (lb)    |
+|----------|---------------------|
+|Light     |(0lb to 6lb) x Str   |
+|Medium    |(6lb+ to 12lb) x Str |
+|Heavy     |(12lb+ to 30lb) x Str|
+|Drag      |Up to 45lb x Str     |
 
 **Prerequisite**: 13 STR + 13 CON.
 
@@ -1954,7 +1954,14 @@ ___
 
 **Type**: Natural (Class C)
 
-**Description**: The penalties that are normally applied when a character carries a weight equal to, or above, its "light load" weight are not applied until the "medium load" weight limit is reached. The "medium load" penalties are applied as normal (and at the same weight as the NEW "light load" limit).
+**Description**: The upper limit for "light load" increases to [12lb x STR].  Penalties from the "heavy load" category apply immediately above [12lb x STR]. The limits from the "[Weight limits table](03-movement-exploration.md#weight-limits-table)" then look like this:
+
+|Load Level|Weight Limit (lb)    |
+|----------|---------------------|
+|Light     |(0lb to 12lb) x Str  |
+|Heavy     |(12lb+ to 30lb) x Str|
+|Drag      |Up to 45lb x Str     |
+
 
 **Prerequisite**: Mighty I + 15 STR + 15 CON.
 

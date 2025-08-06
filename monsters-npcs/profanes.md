@@ -1,29 +1,36 @@
 ## Index
-**Corporeal Undead**
-- [Corporeal Horror, Lesser](#corporeal-horror-lesser)
-- [Corporeal Horror, Greater](#corporeal-horror-greater)
-- [Skeleton, Humanoid](#skeleton-humanoid-levels-1-5)
-- [Zombie, Humanoid](#zombie-humanoid-levels-1-5)
-- []()
 
-**Incorporeal Undead**
-- [Shade, Cursed, Lesser](#cursed-shade-lesser)
-- [Shade, Cursed](#cursed-shade)
-- [Shade, Earthbound, Lesser](#earthbound-shade-lesser)
-- []()
+- [Undead](#profane-undead)
+- [Undead: Corporeal](#undead-corporeal)
+  - [Corporeal Horror, Lesser](#corporeal-horror-lesser)
+  - [Corporeal Horror, Greater](#corporeal-horror-greater)
+  - [Skeleton, Humanoid](#skeleton-humanoid-levels-1-5)
+  - [Zombie, Humanoid](#zombie-humanoid-levels-1-5)
+- [Vampires](#vampires)
+  - [Vampire Spawn](#vampire-spawn)
+  - [Vampire](#vampire)
+  - [Vampire Lord](#vampire-lord)
+- [Undead: Incorporeal](#undead-incorporeal)
+  - [Shade, Cursed, Lesser](#cursed-shade-lesser)
+  - [Shade, Cursed](#cursed-shade)
+  - [Shade, Earthbound, Lesser](#earthbound-shade-lesser)
 
 **Fiends**
+- [Imp](#imp)
 - [Minor Demons](#minor-demon)
 - [Succubus](#succubusincubus)
 - [Fiendish Warrior](#fiendish-warrior)
 - [Demon](#demon-fire-or-ice)
 - []()
 
-## Profane: Undead
+## Undead
 
 Undead are mortals that died but failed to move on. They are cursed by creation and driven to destroy or oppose it in some way. Undead do not breath, sleep. They are vulnerable to "divine" damage. However they are immune to "disease", "unconscious", "dying", "stunned", "charmed", "frightened" and "paralysed" and "resistant" to "physical" damage.
 
 As all profane entities, undead do not sleep or breath, and most do not age, eat or drink.
+
+## Undead: Corporeal
+This section covers undead beings that have a physical body. They may be resistant to some forms of physical damage, but seldom immune. Once the body is destroyed, they usually perish.
 
 ___
 ### Corporeal Horror, Lesser
@@ -194,6 +201,198 @@ Like skeletons, zombies will obey whoever raised them. Otherwise they wonder aro
 Zombies are not proficient with anything other than their natural attacks and "grapple". They cannot communicate, but can be commanded by way of dark magics.
 
 **Zombify**: Any mortal bitten once or more by a zombie must make a CON save at midnight. Should they fail, they will die and become a zombie in 6d12 hours. This disease counts as supernatural and can only be cured by supernatural means. It cannot be cured once it has run its course.
+
+___
+## Vampires
+
+Vampires are undead that still have blood in their veins. A vampire is cursed by the sun and requires blood in order to remain active. Thus most vampires are active at night. Vampires cannot cross running water or enter another's dwelling without an invitation. All vampires have vulnerability to "divine" and "light" damage. Furthermore, a vampire that is out in daylight, cannot use any abilities that require the expenditure of SP dice or MP dice. A vampire that is exposed to direct sunlight takes 1 HP damage at the start of its turn. Unlike living beings, a vampire that is starved of blood does not die. Instead it becomes dormant, until it has been fed.
+
+In most settings vampires are beings of intense hunger, both for sustenance (blood) and for carnal pleasures.
+
+___
+### Vampire Spawn
+- **Size**: Medium
+- **Natural Armour**: Armour +2
+- **Saves**: STR, INT, WIS
+- **Carrying capacity**
+  - Light: 60lb
+  - Medium: 120lb
+  - Heavy: 300lb
+- **Inventory**: Usually carry some coin, and items of once sentimental value. Sometimes a weapon they were familiar with in life.
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|15/13/13|28 (*20*)|26 (*18*)|9|30ft|Climb (30ft)|
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|15|14|15|10|13|14|
+|Bonus|+2|+2|+2|0|+1|+2|
+|Save|+5|+3|+3|+4|+5|+3|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|5(1)|9|8|2|2|3|3|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Claws|+5|1d4+2||
+|Short sword|+5|1d6+2||
+|Grapple|+5|||
+|Vampiric Bite|+5|1d4+2|If a vampire's bite causes HP damage to а mortal with blood, the vampire regains that number of HP. If the vampire is already at full HP, its STR increases by the number of points of damage dealt to the target's HP for 1 minute.|
+|||||
+|[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||(1SP die) A vampire spawn can grapple when making a claw attack.|
+|Alternate Form: Bat|||A vampire can turn into a bat, or back, as a secondary action. It takes the bat's physical stats, saves, size, HiT, and movement modalities, but is otherwise still a vampire|
+|Resistant|||"physical" damage, "disease", "poison"|
+|Resistant|||"prone", "bleeding", "crippled", "incapacitated", "frightened", "poisoned", "diseased"|
+|Immune|||"fear", "unconscious"|
+|Vulnerability|||"divine", "light"|
+|[Charm I](../06-abilities.md#charm-i-iv)|Threshold=15||(Cost = 1 MP die) A lesser vampire can charm its victim. If it has imbibed its victim's blood, then the victim has disadvantage on the save.|
+|||||
+|[Low-light vision](../06-abilities.md#low-light-vision)|||A vampire can see in dim light as if it was daylight|
+|[Heat sense (30ft)](../06-abilities.md#heat-sense-i-v)|||A vampire can detect the body heat of warm blooded beings, as well as other sources of heat.|
+|[Keen scent](../06-abilities.md#keen-senses-i-iii)|||A vampire has advantage on observe and prospect rolls based on scent.|
+|||||
+|Skills|||"Observe" +5, "Harvest" +6, "Athletics"+4, "Climb" +4, "Acrobatics" +4, "Sense Motive" +3, "Deception" +4, "Persuasion" +3, +1 rank for 4 other skills.|
+
+This represents an average humanoid that has become a lesser vampire. Potentially the thrall of a greater vampire. In most settings, vampire spawn (lesser vampires) are not truly free and are bound to the existence of their sire.
+
+Vampire spawn tend to retain part of the personality and most of the memories they had in life, but their original sense of values and priorities is seldom preserved.
+
+___
+### Vampire
+- **Size**: Medium
+- **Natural Armour**: Armour +2. A vampire may or may not be proficient and wearing armour.
+- **Saves**: STR, INT, WIS
+- **Carrying capacity**
+  - Light: 76lb
+  - Medium: 152lb
+  - Heavy: 380lb
+- **Inventory**: Usually carry some coin, and items of once sentimental value. Sometimes a weapon they were familiar with in life. A vampire who was a warrior might wear its armour and carry its weapons. A vampire that once was a mage might not.
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|17/15/15|57 (*37*)|55 (*35*)|17|40ft|Climb (40ft)|
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|19|16|17|14|15|17|
+|Bonus|+4|+3|+3|+2|+2|+3|
+|Save|+10|+3|+3|+8|+8|+3|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|11(3)|17|16|3|3|6|6|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Claws|+10|1d4+4||
+|Rapier (Steel)|+12|1d10+5|(Reach=5ft long)|
+|Dagger|+12|1d4+5|(Reach=5ft long)|
+|Grapple, Disarm|+10|||
+|Vampiric Bite|+10|1d4+4|If a vampire's bite causes HP damage to а mortal with blood, the vampire regains that number of HP. If the vampire is already at full HP, its STR increases by the number of points of damage dealt to the target's HP for 1 minute.|
+|||||
+|[Steel Wind Strike](../06-abilities.md#steel-wind-strike)|+12|Weapon damage + 1d8 per SP die|A vampire can use up to 6 SP die when executing a steel wind strike.|
+|[Debilitating Strike: Blinded](../06-abilities.md#debilitating-strike)|||(Cost = 1 SP die) A vampire can make an attack as a main action that temporarily blind its target.|
+|[Debilitating Strike: Aphonia](../06-abilities.md#debilitating-strike)|||(Cost = 1 SP die) A vampire can make an attack as a main action that temporarily mutes its target.|
+|[Flurry](../06-abilities.md#flurry)|||(Cost = 1 SP die) A vampire can once or twice with its dagger as a secondary action.|
+|[Parry](../06-abilities.md#parry)|||A vampire can gain +3 to HiT against up to 3 attacks.|
+|[Multi-attack I](../06-abilities.md#multi-attack-i-iii)|||A vampire can make two basic combat manoeuvres as part of its attack.|
+|[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||(1SP die) A vampire can make a conventional combined manoeuvre|
+|||||
+|Alternate Form: Bat|||A vampire can turn into a bat, or back, as a secondary action. It takes the bat's physical stats, saves, size, HiT, and movement modalities, but is otherwise still a vampire|
+|Resistant|||"physical" damage, "disease", "poison", necrotic"|
+|Resistant|||"prone", "bleeding", "crippled", "incapacitated", "frightened", "poisoned", "diseased"|
+|Immune|||"fear", "unconscious"|
+|Vulnerability|||"divine", "light"|
+|[Charm II](../06-abilities.md#charm-i-iv)|Threshold=18||(Cost = 1 MP die) A vampire can charm its victim. If it has imbibed its victim's blood, then the victim has disadvantage on the save.|
+|[Spellcasting: Incantation III](../06-abilities.md#spellcasting-local)|Threshold=18||Favourite Spells: "[Least Ward](../08-spell-list.md#least-ward)", "[Down](../08-spell-list.md#down)", "[Least Pyromancy](../08-spell-list.md#least-pyromancy)", "[Least Vengeance](../08-spell-list.md#least-vengeance)", "[Promise](../08-spell-list.md#promise)", "[Wind Walk](../08-spell-list.md#wind-walk)"|
+|[Spellcasting: Kinetic III](../06-abilities.md#spellcasting-local)|Threshold=18||Favourite Spells: "[Mist](../08-spell-list.md#mist)", "[Silent](../08-spell-list.md#silent)", "[Whispers](../08-spell-list.md#whispers)", "[Lesser Spirits' Secret](../08-spell-list.md#spirits-secret)", "[Least Transformation](../08-spell-list.md#least-transformation)", "[Least Curse](../08-spell-list.md#least-curse)"|
+|[Spellcasting: Global](../06-abilities.md#spellcasting-global)||||
+|||||
+|[Low-light vision](../06-abilities.md#low-light-vision)|||A vampire can see in dim light as if it was daylight|
+|[Heat sense (30ft)](../06-abilities.md#heat-sense-i-v)|||A vampire can detect the body heat of warm blooded beings, as well as other sources of heat.|
+|[Life Sense (30ft)](../06-abilities.md#life-sense-i-v)|||A vampire can detect the presence of living beings withn 30ft of itself.|
+|[Keen scent](../06-abilities.md#keen-senses-i-iii)|||A vampire has advantage on observe and prospect rolls based on scent.|
+|||||
+|Skills|||"Observe" +7, "Harvest" +6, "Athletics"+6, "Climb" +6, "Acrobatics" +6, "Sense Motive" +7, "Deception" +8, "Persuasion" +7, +1 rank for 6 other skills.|
+
+This represents a full vampire, or perhaps a vampire spawn that has existed for long enough to become a full vampire. This kind of vampire is a dangerous adversary. Vampires can have different sets of abilities. This stat block models a vampire who may have been a noble in a 15-18th style society.
+
+Vampires tend to retain part of the personality and most of the memories they had in life, but their original sense of values and priorities is seldom preserved.
+
+A vampire does not always prefer to choose to attain its goals through violence, but when it does, it will usually first assess its target carefully. It will use charm and deception to strip away allies and resources, before using its own minions to wear down remaining foes. Thereafter, if there is still a need, it will enter combat itself. A vampire may use might, magic, or a combination of both. The personality of vampires varies, but most enjoy humiliating their foes when they are weak and will only fight themselves when they are confident of victory, or have no other choice.
+
+___
+### Vampire Lord
+- **Size**: Medium
+- **Natural Armour**: Armour +4, an ancient vampire may also be wearing armour.
+- **Saves**: STR, INT, WIS
+- **Carrying capacity**
+  - Light: 60lb
+  - Medium: 120lb
+  - Heavy: 300lb
+- **Inventory**: Usually carry some coin, and items of once sentimental value. Sometimes a weapon they were familiar with in life. A vampire who was a warrior might wear its armour and carry its weapons. A vampire that once was a mage might not.
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|21/21/18|139 (*59*)|181 (*59*)|29|50ft|Climb (50ft)|
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|26|16|21|17|21|24|
+|Bonus|+7|+3|+5|+3|+5|+7|
+|Save|+16|+7|+9|+12|+14|+11|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|17(4)|27|26|5|5|9|9|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Claws|+16|1d8+7||
+|Great Axe (Iron)|+17|2d8+7|(Reach=5ft long)|
+|Grapple, Disarm, Throw, Sunder|+16|||
+|Vampiric Bite|+16|1d4+7|If a vampire's bite causes HP damage to а mortal with blood, the vampire regains that number of HP. If the vampire is already at full HP, its STR increases by the number of points of damage dealt to the target's HP for 1 minute.|
+|||||
+|[Berserk III](../06-abilities.md#berserk-i-v)|||An ancient vampire can enter a blood frenzy as it cuts down its foes.|
+|[Broad Strike](../06-abilities.md#broad-strike)||(Cost = 1SP die) An ancient vampire can strike all adjacent targets within its reach.|
+|[Steel Wind Strike](../06-abilities.md#steel-wind-strike)|+12|Weapon damage + 1d8 per SP die|A vampire can use up to 9 SP die when executing a steel wind strike and attack up to 6 targets.|
+|[Debilitating Strike: Blinded](../06-abilities.md#debilitating-strike)|||(Cost = 1 SP die) A vampire can make an attack as a main action that temporarily blind its target.|
+|[Debilitating Strike: Aphonia](../06-abilities.md#debilitating-strike)|||(Cost = 1 SP die) A vampire can make an attack as a main action that temporarily mutes its target.|
+|[Parry](../06-abilities.md#parry)|||A vampire can gain +5 to HiT against up to 4 attacks.|
+|[Multi-attack II](../06-abilities.md#multi-attack-i-iii)|||An ancient vampire can make 3 basic combat manoeuvres as part of its attack.|
+|[Combined Manoeuvre II](../06-abilities.md#combined-manoeuvre-i-v)|||(1SP die) An ancient vampire can make a conventional combined manoeuvre to combine up to 3 basic combat manoeuvres.|
+|[Flash Step](../06-abilities.md#flash-step)|||A vampire can move great distances as a secondary action.|
+|||||
+|[Alert](../06-abilities.md#alert)|||An ancient vampire cannot be surprised.|
+|Alternate Form: Bat|||A vampire can turn into a bat, or back, as a secondary action. It takes the bat's physical stats, saves, size, HiT, and movement modalities, but is otherwise still a vampire|
+|Resistant|||"physical" damage, "disease", "poison", necrotic"|
+|Resistant|||"prone", "bleeding", "crippled", "incapacitated", "frightened", "poisoned", "diseased"|
+|Immune|||"fear", "unconscious", "charm"|
+|Vulnerability|||"divine", "light"|
+|[Charm III](../06-abilities.md#charm-i-iv)|Threshold=21||(Cost = 1 MP die) A vampire can charm its victim. If it has imbibed its victim's blood, then the victim has disadvantage on the save.|
+|[Spellcasting: Incantation VI](../06-abilities.md#spellcasting-local)|Threshold=18||Favourite Spells: "[Least Ward](../08-spell-list.md#least-ward)", "[Down](../08-spell-list.md#down)", "[Least Pyromancy](../08-spell-list.md#least-pyromancy)", "[Least Vengeance](../08-spell-list.md#least-vengeance)", "[Promise](../08-spell-list.md#promise)", "[Wind Walk](../08-spell-list.md#wind-walk)", "[Lesser Weather Control](../08-spell-list.md#lesser-weather-control)", "[Summon Spirit](../08-spell-list.md#summon-spirit)", "[Pact](../08-spell-list.md#pact)", "[Spirit Restoration](../08-spell-list.md#spirit-restoration)"|
+|[Spellcasting: Kinetic VI](../06-abilities.md#spellcasting-local)|Threshold=18||Favourite Spells: "[Mist](../08-spell-list.md#mist)", "[Silent](../08-spell-list.md#silent)", "[Whispers](../08-spell-list.md#whispers)", "[Lesser Spirits' Secret](../08-spell-list.md#spirits-secret)", "[Least Transformation](../08-spell-list.md#least-transformation)", "[Least Curse](../08-spell-list.md#least-curse)", "[Scry](../08-spell-list.md#scry)", "[Plague](../08-spell-list.md#plague)", "[Madness](../08-spell-list.md#madness)"|
+|[Forbidden Spell](../06-abilities.md#forbidden-spell)|||"[Forced Possession](../08-spell-list.md#forced-possession)", "[Dominate Mortal](../08-spell-list.md#dominate-mortal)", "[Summon Fiend](../08-spell-list.md#summon-fiend)", "[Legion of Dead](../08-spell-list.md#legion-of-dead)"|
+|[Spellcasting: Global](../06-abilities.md#spellcasting-global)||||
+|||||
+|[Low-light vision](../06-abilities.md#low-light-vision)|||A vampire can see in dim light as if it was daylight|
+|[Heat sense (60ft)](../06-abilities.md#heat-sense-i-v)|||A vampire can detect the body heat of warm blooded beings, as well as other sources of heat.|
+|[Life Sense (30ft)](../06-abilities.md#life-sense-i-v)|||A vampire can detect the presence of living beings withn 30ft of itself.|
+|[Keen scent](../06-abilities.md#keen-senses-i-iii)|||A vampire has advantage on observe and prospect rolls based on scent.|
+|||||
+|Skills|||"Observe" +17, "Harvest" +10, "Athletics" +12, "Climb" +12, "Acrobatics" +9, "Sense Motive" +13, "Deception" +8, "Persuasion" +7, "Knowledge:Religion" +11, "Knowledge:Arcana: +11, +2 ranks for all other skills.|
+
+This represents a lord of vampires, or an ancient vampire that has fed on humanoids for millennia. Either case, this is a legendary monster.
+
+Vampires tend to retain part of the personality and most of the memories they had in life, but their original sense of values and priorities is seldom preserved. That said, an ancient vampire that has existed for this long and gained this much power is likely to have moved so far beyond its humanity that it is unrecognisable by any human standard.
+
+A vampire does not always prefer to choose to attain its goals through violence, but when it does, it will usually first assess its target carefully. It will use charm and deception to strip away allies and resources, before using its own minions to wear down remaining foes. Thereafter, if there is still a need, it will enter combat itself. A vampire may use might, magic, or a combination of both. The personality of vampires varies, but most enjoy humiliating their foes when they are weak and will only fight themselves when they are confident of victory, or have no other choice. Alternatively, a vampire lord may just step in directly without any preparation to toy with its victims out of sheer boredom, or any other reason for that mater.
+
+___
+## Undead: Incorporeal
+This category comprises mostly ghosts, phantoms, shades and other malicious spirits of once living mortals. They are generally invulnerable to physical damage, and even if they are, they cannot be destroyed permanently by the application of physical force. Their attacks are particularly dangerous since they often drain the vitality, which is much more difficult to protect against than conventional attacks.
 
 ___
 ### Cursed Shade (lesser)

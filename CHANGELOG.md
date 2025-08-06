@@ -440,6 +440,9 @@ ____
 ____
 ## From v0.0.16
 
+### General
+- Slightly reword some parts of the intro chapter.
+
 ### Movement and Exploration
 - Change flight rules to support different [flight endurance](03-movement-exploration.md#flight-parameters) independently of flight rating (Also added modification to racial flight rules).
 - Some weapons ignore part of the [damage reduction of objects](03-movement-exploration.md#object-hit-point-durability-table).

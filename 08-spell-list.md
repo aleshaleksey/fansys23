@@ -4997,7 +4997,7 @@ ____
 
 ___
  
- ###
+ ### Innocence
 |Name| []|
 |-|-|
 |Scope||
@@ -5013,3 +5013,41 @@ ___
 |Save||
  
 
+ ### Ignorance
+|Name| []|
+|-|-|
+|Scope||
+|MP Dice||
+|Target(s)|1 entity or an object no larger than 20x20x20ft|
+|Casting time||
+|Range||
+|Duration||
+|Components||
+|Focus||
+|Material||
+|Limitation||
+|Save|CHA|
+ 
+ **Description**: The caster temporarily warps a target, allowing it to ignore one aspect of reality.
+
+ **Limitation**:
+ - This spell can never increase the amount of damage a character or object does.
+ - While the spell allows a character to ignore reality, it does not allow them to ignore the consequences of ignoring reality. Thus for example, a character might be able to ignore gravity and jump infinitely high for a brief period. It does not, however, mean that the same character will land safely when the spell is over if they jumped too high.
+
+
+ 
+ ###
+|Name| []|
+|-|-|
+|Scope||
+|MP Dice||
+|Target(s)||
+|Casting time||
+|Range||
+|Duration||
+|Components||
+|Focus||
+|Material||
+|Limitation||
+|Save||
+ 

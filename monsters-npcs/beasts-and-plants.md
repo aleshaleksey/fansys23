@@ -62,7 +62,7 @@ ___
 ### Eagle (level 2)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|13/10/13|12 (*10*)|10 (*9*)|5|10ft|100ft (flight, average)|
+|13/10/13|12 (*10*)|10 (*9*)|5|10ft|100ft (flight, average, endurance = 8 hours)|
 
 Size=Small
 
@@ -89,7 +89,7 @@ ___
 ### Falcon (level 1)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/10/14|7|4|1|10ft|90ft (flight, good)|
+|15/10/14|7|4|1|10ft|90ft (flight, good, endurance = 6 hours)|
 
 Size=Tiny
 
@@ -117,7 +117,7 @@ ___
 ### Owl (level 1)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|13/10/13|4|6|1|10ft|50ft (flight, average)|
+|13/10/13|4|6|1|10ft|50ft (flight, average, endurance = 4 hours)|
 
 Size=Small/Tiny
 
@@ -147,7 +147,7 @@ ___
 ### Raven (level 1)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|13/10/13|3|7|1|10ft|60ft (flight, average)|
+|13/10/13|3|7|1|10ft|60ft (flight, average, endurance = 4 hours)|
 
 Size= Small, Raven / Tiny, Crow
 
@@ -174,7 +174,7 @@ ___
 ### Swan (level 2)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|12/10/12|10(*9*)|12(*10*)|5|10ft|60ft (flight, average)|
+|12/10/12|10(*9*)|12(*10*)|5|10ft|60ft (flight, average, endurance = 10 hours)|
 
 Size= Small
 
@@ -454,7 +454,7 @@ ___
 ### Bat
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|16/10/14|2|4|1|10ft|climb (10ft), fly 40ft (good)|
+|16/10/14|2|4|1|10ft|climb (10ft), fly 40ft (good, endurance = 2 hours)|
 
 Size = tiny
 
@@ -1155,7 +1155,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/13/11|38 (*28*)|26 (*16*)|10|10ft|100ft (flight, average)|
+|14/13/11|38 (*28*)|26 (*16*)|10|10ft|100ft (flight, average, endurance = 10 hours)|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -1190,7 +1190,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|13/11/12|18 (*15*)|18 (*15*)|6|10ft|50ft (flight, average)|
+|13/11/12|18 (*15*)|18 (*15*)|6|10ft|50ft (flight, average, endurance = 4 hours)|
 
 Size=Large
 
@@ -1229,7 +1229,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|13/12/11|26 (*18*)|33 (*21*)|10|10ft|80ft (flight, average)|
+|13/12/11|26 (*18*)|33 (*21*)|10|10ft|80ft (flight, average, endurance = 8 hours)|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|

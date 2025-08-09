@@ -14,6 +14,11 @@
     - [The Worm that Sings](#the-worm-that-sings)
     - [Mudwalker](#mudwalker)
     - [Kraken, Lesser](#sea-monster-kraken-lesser)
+- [Griffons and Other Chimeras](#griffons-and-other-chimeras)
+    - [Griffon](#griffon)
+    - [Griffon, Hippogriff](#griffon-hippogriff)
+    - [Griffon, Owl-griff](#griffon-owl-griff)
+    - [Griffon, Sparrow-griff](#griffon-sparrow-griff)
 - [Lycanthropes](#lycanthropes)
     - [Werewolf, Lesser](#werewolf-lesser)
     - [Werewolf, Greater](#werewolf-greater)
@@ -632,6 +637,170 @@ A kraken makes 8 attacks with its tentacles. It can attack targets smaller than 
 A kraken is essentially a very big and very intelligent cephalopod-like monster. While younger krakens simply wonder the seas in search of prey and meaning, the elder ones generally (and erroneously) come to the conclusion that they are gods.
 
 A kraken has an enormous amount of time to learn magic. It seldom uses it in combat, but it *can*, should it choose. Storms at sea are sometimes attributed to this monster.
+
+___
+## Griffons and Other Chimeras
+
+
+
+___
+### Griffon
+**Size category**: Large (10ft x 10ft)
+- Evade: -1, Armour +1
+- Reach: 5ft (long)
+- [DEX save]: -1, [STR save]: +1
+- Carry capacity: (0 - 648lb light, 648 - 1080lb heavy, 1620lb drag)
+___
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|14/12/13|47 (*29*)|34 (*22*)|12|40ft|100ft (flight, average, endurance = 4 hours)|
+
+|     |Str|Dex|Con|Int|Wis|Cha|
+|-----|---|---|---|---|---|---|
+|Stat |18 |14 |16 |5  |13 |14 |
+|Bonus|+4 |+2 |+3 |-3 |+1 |+2 |
+|Save |+6 |+4 |+5 |-1 |+3 |+4 |
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-----------|-------|-------|---|---|---|---|
+|7 (2)      |13     |10     |3  |2  |5  |4  |
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Beak|+9|1d12+4|Reach=5ft(long)|
+|Claws|+9|1d8+4|Reach=5ft(long)|
+|Grapple|+9|||
+|Monster Attack I|||A griffon can attack once with its claws and once with its beak|
+|||||
+|[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||(cost = 1SP dice) A griffon can grapple targets when it makes a claw attack.|
+|[Counterstrike](../06-abilities.md#counterstrike)|||A griffon may make an attack of opportunity against an attacker striking it with a melee attack|
+|[Mighty II](../06-abilities.md#mighty-ii)|||A griffon can carry much more than a monster of its strength ordinarily might|
+|"[Sprinter](../06-abilities.md#sprinter)"|||A griffon can run at x3 its base speed, and sprint at x5 of its base walking speed.|
+|||||
+|Resistant|||"Fear", "Charm"|
+|Keen Senses: Sight, Hearing|||A griffon has advantage of observe, rolls based on sight and hearing.|
+|Skills|||"Observe" +5, "Fly" +6, "Climb" +5, "Athletics" +5, "Swim" +5, "Nature" +2|
+
+A griffon has the head and wings of a giant eagle of a lion. It is a proud and intelligent predator. Sometimes humanoids steal their eggs to raise them as mounts, but breeding and training griffons is extremely difficult and lengthy, so it is rare for griffons to be used as mounts.
+
+Griffons hunt by diving down onto its prey and breaking its back. If it's prey is not killed by the initial attack, the griffon carries it up into the air and drops it from a height before repeating the process. Griffons are fiercely territorial and attempt to drive off interlopers. If they cannot do so with warning displays, they will generally do so by tearing apart the intruders. Griffons will even attack much larger and stronger prey, but will only fight to the death in such a case if they are defending offspring.
+
+___
+### Griffon, Hippogriff
+**Size category**: Large (10ft x 10ft)
+- Evade: -1, Armour +1
+- Reach: 5ft (long)
+- [DEX save]: -1, [STR save]: +1
+- Carry capacity: (0 - 648lb light, 648 - 1080lb heavy, 1620lb drag)
+___
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|14/12/13|40 (*25*)|30 (*20*)|11|50ft|80ft (flight, average, endurance = 4 hours)|
+
+|     |Str|Dex|Con|Int|Wis|Cha|
+|-----|---|---|---|---|---|---|
+|Stat |18 |14 |16 |3  |11 |14 |
+|Bonus|+4 |+2 |+3 |-4 |0  |+2 |
+|Save |+6 |+4 |+5 |-2 |+2 |+4 |
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-----------|-------|-------|---|---|---|---|
+|6 (2)      |11     |9      |2  |2  |4  |4  |
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Beak|+8|1d12+4|Reach=5ft(long)|
+|Hooves|+8|1d8+4|Reach=5ft(long)|
+|Monster Attack I|||A hippogriff can attack once with its hoofs, and one with its claws.|
+|||||
+|[Counterstrike](../06-abilities.md#counterstrike)|||A hippogriff may make an attack of opportunity against an attacker striking it with a melee attack|
+|[Mighty II](../06-abilities.md#mighty-ii)|||A hippogriff can carry much more than a monster of its strength ordinarily might|
+|"[Sprinter](../06-abilities.md#sprinter)"|||A hippogriff can run at x3 its base speed, and sprint at x5 of its base walking speed.|
+|||||
+|Resistant|||"Fear", "Charm"|
+|Keen Senses: Sight, Hearing|||A griffon has advantage of observe, rolls based on sight and hearing.|
+|Skills|||"Observe" +4, "Fly" +5, "Athletics" +5|
+
+A hippogriff is a griffon is a being with the front of an eagle, and the back of a horse. In this sense, it is much like a griffon. Unlike griffons, they are somewhat weaker fliers, but stronger runners.
+
+Hippogriffs are seldom natural beings, but result in the breeding of a male griffon with a mare. Like griffons, they are difficult to raise and train.
+
+___
+### Griffon, Owl-griff
+**Size category**: Huge (20ft x 20ft)
+- Evade: -2, Armour +2 (+2 natural armour)
+- Reach: 10ft
+- [DEX save]: -2, [STR save]: +2
+- Carry capacity: (0 - 1056lb light, 1056 - 2640 lb heavy, 3960lb drag)
+___
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|16/14/14|98 (*41*)|40 (*22*)|14|40ft|80ft (flight, poor, endurance = 1 hours)|
+
+|     |Str|Dex|Con|Int|Wis|Cha|
+|-----|---|---|---|---|---|---|
+|Stat |22 |14 |16 |5  |13 |14 |
+|Bonus|+6 |+2 |+3 |-3 |+1 |+2 |
+|Save |+8 |+4 |+5 |-1 |+3 |+4 |
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-----------|-------|-------|---|---|---|---|
+|9 (2)      |19     |10     |4  |2  |6  |4  |
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Beak|+12|2d8+6|Reach=10ft|
+|Claws|+12|1d12+6|Reach=10ft|
+|Grapple|+12|||
+|Monster Attack II|||An owl-griff can attack twice with its claws and once with its beak|
+|||||
+|[Berserker II](../06-abilities.md#berserk-i-v)|||An owl-griff can enter a blood friendly.|
+|[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||(cost = 1SP dice) An owl-griff can grapple targets when it makes a claw attack.|
+|[Counterstrike](../06-abilities.md#counterstrike)|||An owl-griff may make an attack of opportunity against an attacker striking it with a melee attack|
+|[Mighty II](../06-abilities.md#mighty-ii)|||An owl-griff can carry much more than a monster of its strength ordinarily might|
+|"[Sprinter](../06-abilities.md#sprinter)"|||An owl-griff can run at x3 its base speed, and sprint at x5 of its base walking speed.|
+|||||
+|Resistant|||"Fear", "Charm"|
+|Keen Senses: Sight, Hearing|||An owl-griff has advantage of observe, rolls based on sight and hearing.|
+|Skills|||"Observe" +6, "Fly" +6, "Climb" +7, "Athletics" +8, "Swim" +7|
+
+The owl-griff is homage to the "owl-bear" of DnD fame. It is usually a vicious monster created by magic, with the front of an owl, and the rear end of a bear.
+
+These monsters are violent and difficult to escape as they can run, fly, climb and swim.
+
+___
+### Griffon, Sparrow-griff
+**Size category**: Large (10ft x 10ft)
+- Evade: +2, Armour 0
+- Reach: 0ft (tiny)
+- [DEX save]: +2, [STR save]: -2
+- Carry capacity: (0 - 6lb light, 6 - 12lb medium, 12-30lb heavy)
+___
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|15/11/15|10 (*9*)|10 (*9*)|4|20ft|50ft (good, endurance=2h)|
+
+|     |Str|Dex|Con|Int|Wis|Cha|
+|-----|---|---|---|---|---|---|
+|Stat |6  |14 |12 |3  |11 |13 |
+|Bonus|-2 |+2 |+1 |-4 |0  |+1 |
+|Save |-3 |+5 |+2 |-3 |+1 |+2 |
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-----------|-------|-------|---|---|---|---|
+|2 (1)      |4      |4      |1  |1  |2  |2  |
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Beak|+4|3|(reach=0ft)|
+|"[Sprinter](../06-abilities.md#sprinter)"|||A sparrow-griff can run at x3 its base speed, and sprint at x5 of its base walking speed.|
+|[Fleet](../06-abilities.md#fleet)|||A sparrow-griff can hide even in light concealment|
+|[Stalker](../06-abilities.md#stalker)|||A sparrow-griff can hide as a secondary action|
+|||||
+|Keen Senses: Sight, Hearing|||A sparrow-griff has advantage of observe, rolls based on sight and hearing.|
+|Skills|||"Observe" +1, "Fly" +4, "Stealth" +4|
+
+A sparrow-griff is a tiny pest with the front of a sparrow and the hind-side of a mouse. It dwells around farmsteads, and wizard's towers, eats any supplies it can get its paws on, and leaves a mess behind it. Some mages use them as familiars.
 
 ___
 ## Lycanthropes

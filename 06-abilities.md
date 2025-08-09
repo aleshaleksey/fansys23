@@ -897,7 +897,6 @@ ___
 - Charm I and II: If the target succeeds its save by 12 or more, you are charmed by the target.
 - A mortal attempting to charm a "[divine](10-conditions-types.md#divine), must make a CHA save vs the target's threshold, or be charmed instead.
 - You can extend the effect as a non-action, however, the target does get to roll a new CHA save. Every time the effect is extended in this way, the target gains a +1 bonus to the save. If the effect is allowed to expire, and you attempt to charm the same target again, the bonus to the save is reset.
-- You are treated as "concentrating" on a spell for maintaining the effect, although you can add targets up to the maximum allowed without breaking the effect.
 
 **Table**:
 |Charm Level|Prerequisites         |MP dice cost      |Range|Maximum duration|Maximum number of targets|

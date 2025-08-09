@@ -830,7 +830,7 @@ ___
 - Range: Your reach (usually 5ft).
 - Duration: Instantaneous.
 - Action: 1 hour ritual.
-- Target: A single tiny animal that must remain within arm's reach for the whole duration of the ritual.
+- Target: A single tiny animal ("beast") that must remain within arm's reach for the whole duration of the ritual. At "bind familiar II" and above, one may bind a "monster" or "beast", although the size and level restrictions still apply.
 - Attack: None
 - Damage: None
 - Cost: 3 MP dice

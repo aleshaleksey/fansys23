@@ -1,27 +1,27 @@
 ## Index
 
 - [Undead](#profane-undead)
-- [Undead: Corporeal](#undead-corporeal)
-  - [Corporeal Horror, Lesser](#corporeal-horror-lesser)
-  - [Corporeal Horror, Greater](#corporeal-horror-greater)
-  - [Skeleton, Humanoid](#skeleton-humanoid-levels-1-5)
-  - [Zombie, Humanoid](#zombie-humanoid-levels-1-5)
-- [Vampires](#vampires)
-  - [Vampire Spawn](#vampire-spawn)
-  - [Vampire](#vampire)
-  - [Vampire Lord](#vampire-lord)
-- [Undead: Incorporeal](#undead-incorporeal)
-  - [Shade, Cursed, Lesser](#cursed-shade-lesser)
-  - [Shade, Cursed](#cursed-shade)
-  - [Shade, Earthbound, Lesser](#earthbound-shade-lesser)
-
-**Fiends**
-- [Imp](#imp)
-- [Minor Demons](#minor-demon)
-- [Succubus](#succubusincubus)
-- [Fiendish Warrior](#fiendish-warrior)
-- [Demon](#demon-fire-or-ice)
-- []()
+  - [Undead: Corporeal](#undead-corporeal)
+    - [Corporeal Horror, Lesser](#corporeal-horror-lesser)
+    - [Corporeal Horror, Greater](#corporeal-horror-greater)
+    - [Skeleton, Humanoid](#skeleton-humanoid-levels-1-5)
+    - [Zombie, Humanoid](#zombie-humanoid-levels-1-5)
+  - [Vampires](#vampires)
+    - [Vampire Spawn](#vampire-spawn)
+    - [Vampire](#vampire)
+    - [Vampire Lord](#vampire-lord)
+  - [Undead: Incorporeal](#undead-incorporeal)
+    - [Shade, Cursed, Lesser](#cursed-shade-lesser)
+    - [Shade, Cursed](#cursed-shade)
+    - [Shade, Earthbound, Lesser](#earthbound-shade-lesser)
+- [Fiends](#fiends)
+  - [Imp](#imp)
+  - [Minor Demons](#minor-demon)
+  - [Succubus](#succubusincubus)
+  - [Fiendish Warrior](#fiendish-warrior)
+  - [Demon](#demon-fire-or-ice)
+  - [Unicorn, Black](#unicorn-black)
+  - []()
 
 ## Undead
 
@@ -236,7 +236,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Claws|+5|1d4+2||
+|Claws|+5|1d6+2||
 |Short sword|+5|1d6+2||
 |Grapple|+5|||
 |Vampiric Bite|+5|1d4+2|If a vampire's bite causes HP damage to а mortal with blood, the vampire regains that number of HP. If the vampire is already at full HP, its STR increases by the number of points of damage dealt to the target's HP for 1 minute.|
@@ -286,7 +286,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Claws|+10|1d4+4||
+|Claws|+10|1d6+4||
 |Rapier (Steel)|+12|1d10+5|(Reach=5ft long)|
 |Dagger|+12|1d4+5|(Reach=5ft long)|
 |Grapple, Disarm|+10|||
@@ -350,7 +350,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Claws|+16|1d8+7||
+|Claws|+16|1d12+7||
 |Great Axe (Iron)|+17|2d8+7|(Reach=5ft long)|
 |Grapple, Disarm, Throw, Sunder|+16|||
 |Vampiric Bite|+16|1d4+7|If a vampire's bite causes HP damage to а mortal with blood, the vampire regains that number of HP. If the vampire is already at full HP, its STR increases by the number of points of damage dealt to the target's HP for 1 minute.|
@@ -772,6 +772,70 @@ Demons of different elements will likely have slightly different personalities a
 In combat a demon may use any number of strategies. However it especially delights in using a foe's strengths and weaknesses against it. It will not hesitate to use a foe's kindness and mercy against it. Likewise it delights in toying with weaker foes and demonstrating to defeated foes the fruits of their powerlessness. It may even rob defeated foes of that which is precious to them and then let them live to foment hatred and despair.
 
 A demon attempts to keep its demonic realm secret and protected, as the demonic realm is its true form. Should the demonic realm be destroyed, the demon likewise perishes.
+
+___
+### Unicorn, Black
+**Size category**: Large (10ft x 10ft)
+- Evade: -1, Armour +1, Deflection +6
+- Reach: 5ft (long)
+- Saves: DEX, INT, WIS, CHA
+- [DEX save]: -1, [STR save]: +1
+- Carry capacity: (216lb light, 432lb medium, 1080lb heavy, 1620lb drag)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|21/21/21|86 (*42*)|98 (*43*)|21|60ft|Blink (40ft)|
+
+|     |Str|Dex|Con|Int|Wis|Cha|
+|-----|---|---|---|---|---|---|
+|Stat |22 |17 |19 |15 |15 |21 |
+|Bonus|+6 |+3 |+4 |+2 |+2 |+5 |
+|Save |+9 |+10|+7 |+9 |+9 |+12|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-----------|-------|-------|---|---|---|---|
+|12 (3)     |19     |19     |4  |4  |7  |7  |
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Hooves|+15|1d8+7|(Reach=5ft, long) fiend source|
+|Horn|+15|1d12+7|(Reach=5ft, long) fiend source|
+|[Profane Strike](../06-abilities.md#profane-strike)||1d6|A black unicorn can channel profane energies through its horn. It can expend **1 MP die** to cause 1d6 profane damage when it strikes a foe with its horn.|
+|[Unholy Strike](../06-abilities.md#unholy-strike)||2d6|A black unicorn can channel dark energies through its hooves. It can expend 1 MP ide to cause 2d6 necrotic damage when it strikes a foe with its hooves. Mortals hit by this attack must succeed a CON save (Threshold=13+NAT+[CON]) or start "bleeding".|
+|||||
+|Sunder|+13||A unicorn can destroy the weapons and armour of its foes|
+|Throw|+13||A unicorn can knock down its foes|
+|[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||(1SP die) A unicorn can combine any two basic combat manoeuvres that it is proficient with.|
+|Monster Attack I|||A unicorn makes one attack with its horns and one with its hooves.|
+|||||
+|[Alert](../06-abilities.md#alert)|||A unicorn cannot be surprised.|
+|[Swift Spell](../06-abilities.md#swift-spell)|||A unicorn can spend 2 MP dice to cast a spell as a secondary action instead of a main action|
+|[Deflection](../06-abilities.md#deflection)|||A unicorn can can reduce damage from ranged supernatural attacks by 1d4+7+([MP dice]d4) as a reaction.|
+|[Esoteric Deflection](../06-abilities.md#esoteric-deflection)|||A unicorn can, as a reaction, reduce the damage from a "esoteric" ranged attack by [1d6 + [2 x MP dice expended]]|
+|Shield of Malice|||A unicorn is surrounded by a malicious force that grants it +6 to HiT|
+|[Spellcasting: Incantation VI](../06-abilities.md#spellcasting-local)|Threshold=19||Favourite Spells: "[Least Spike](../08-spell-list.md#least-spike)", "[Sour](../08-spell-list.md#sour)", "[Least Heal](../08-spell-list.md#least-heal)", "[Least Vengeance](../08-spell-list.md#least-vengeance)", "[Meadow of Flame](../08-spell-list.md#meadow-of-flame)", "[Wind Walk](../08-spell-list.md#wind-walk)", "[Cure](../08-spell-list.md#cure)", "[Greater Xenophonia](../08-spell-list.md#greater-xenophonia)", "[Isolate Essence](../08-spell-list.md#isolate-essence)", "[Pact](../08-spell-list.md#pact)", "[Spirit Restoration](../08-spell-list.md#spirit-restoration)", "[Razor Wind](../08-spell-list.md#razor-wind)", "[Otherworld Step](../08-spell-list.md#otherworld-step)"|
+|[Sprinter](../06-abilities.md#sprinter)|||A unicorn can run at x3 its base speed, and sprint x5 its base speed.|
+|[Mighty I](../06-abilities.md#mighty-i)|||Can carry more weight than your average beast|
+|||||
+|Resistant|||"physical" damage, "fire", "ice", "lightning" damage|
+|Immune|||"disease", "poison", "dying"|
+|Vulnerability|||"divine" damage|
+|||||
+|[Low Light Vision](../06-abilities.md#low-light-vision)|||A unicorn can see in dim light as well as in sunlight.|
+|[Life Sense (60ft)](../06-abilities.md#life-sense-i-v)|||A unicorn can sense living beings within 60ft of it.|
+|Loot|||While a black unicorn does not provide edible flesh, its horn, hair and blood are valuable to mages.|
+
+|Skills|||"Athletics" +12, "Observe" +7, "Sense Motive" +7, "Spellcraft" +7, "Knowledge: Nature" +5, "Knowledge: Arcana" +6, "Knowledge: Religion" +10|
+
+A black unicorn is not necessarily black of coat, but black of heart.
+
+A unicorn is a horse-like being with a single straight horn upon its head. Unicorns have a special affinity to virgins. Black unicorns particularly enjoy the taste of flesh of humanoid virgins. It also enjoys the taste of their despair.
+
+These fiends whisper promises of adventure and romance, only to whisk away their victims to fare away, secluded places, and devour them.
+
+Despite their fierce appearance, black unicorns are somewhat cowardly. They will lord over weaker foes that cannot harm them (perhaps even sparing their lives so that they can spread the word of their splendour). When it comes to truly powerful foes, a black unicorn is as likely to flee as it is to fight back.
+
+It should be noted that black unicorns share many healing spells and abilities with the true unicorn. They differ it the fact that they use these abilities for evil.
 
 ___
 ### ???

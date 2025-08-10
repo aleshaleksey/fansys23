@@ -3,9 +3,12 @@
 Divine entities are a category of supernatural beings that include gods, god-like beings, angels, and anomalies in creation.
 
 - [Angels](#angels)
-    - [Lesser Messenger](#lesser-messenger)
-    - [Watcher](#watcher)
-    - [Seraph](#seraph)
+  - [Lesser Messenger](#lesser-messenger)
+  - [Watcher](#watcher)
+  - [Seraph](#seraph)
+- [Glitches](#glitches)
+- [Divinities](#divinities)
+  - [Unicorn, True](#unicorn-true)
 
 ## Angels
 
@@ -182,6 +185,78 @@ On missions of prophecy, a seraph generally appears in its true form. On mission
 In combat with a single target, a seraph will often make liberal use fo its divine strike to destroy its foe. On missions of destruction, it will generally rain flaming destruction on a wide area, either using its holy light, or by global ["forest of flame"](../08-spell-list.md#forest-of-flame). Unlike most angels, it will punish those that interfere with its mission, whether their interference is capable of disrupting it or not.
 
 A seraph likely has some degree of free will. Sages believe that this is an element of divine judgement.
+
+___
+## Glitches
+
+
+___
+## Divinities
+
+___
+### Unicorn, True
+**Size category**: Large (10ft x 10ft)
+- Evade: -1, Armour +1, Deflection +6
+- Reach: 5ft (long)
+- Saves: DEX, INT, WIS, CHA
+- [DEX save]: -1, [STR save]: +1
+- Carry capacity: (176lb light, 352lb medium, 880lb heavy, 1320lb drag)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|22/22/22|102 (*48*)|142 (*51*)|25|60ft|Blink (60ft), Cosmic (1 realm)|
+
+|     |Str|Dex|Con|Int|Wis|Cha|
+|-----|---|---|---|---|---|---|
+|Stat |22 |17 |19 |17 |19 |26 |
+|Bonus|+6 |+3 |+4 |+3 |+4 |+7 |
+|Save |+9 |+10|+7 |+10|+11|+14|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-----------|-------|-------|---|---|---|---|
+|14 (3)     |22     |22     |4  |4  |7  |7  |
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Hooves|+15|1d8+8|(Reach=5ft, long) divine source|
+|Horn|+15|1d12+8|(Reach=5ft, long) divine source|
+|[Divine Strike](../06-abilities.md#divine-strike)||1d6|A true unicorn can channel divine energies through its horn. It can expend **1 MP die** to cause 1d6 divine damage when it strikes a foe with its horn, or 2 MP dice to cause 2d6 divine damage..|
+|[Holy Strike](../06-abilities.md#holy-strike)||2d6|A true unicorn can expend MP to infuse its hooves with supernatural light, dealing extra damage. It may expend 1 MP and deal 2d4 of light damage. Profane entities hit by this attack must succeed a CHA save (Threshold=13+SUP+[CHA]) or be "blinded" (repeated save applies).|
+|||||
+|Sunder|+13||A unicorn can destroy the weapons and armour of its foes|
+|Throw|+13||A unicorn can knock down its foes|
+|[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||(1SP die) A unicorn can combine any two basic combat manoeuvres that it is proficient with.|
+|Monster Attack I|||A unicorn makes one attack with its horns and one with its hooves.|
+|||||
+|[Alert](../06-abilities.md#alert)|||A unicorn cannot be surprised.|
+|[Swift Spell](../06-abilities.md#swift-spell)|||A unicorn can spend 2 MP dice to cast a spell as a secondary action instead of a main action|
+|[Deflection](../06-abilities.md#deflection)|||A unicorn can can reduce damage from ranged supernatural attacks by 1d4+7+([MP dice]d4) as a reaction.|
+|[Esoteric Deflection](../06-abilities.md#esoteric-deflection)|||A unicorn can, as a reaction, reduce the damage from a "esoteric" ranged attack by [1d6 + [2 x MP dice expended]]|
+|Radiant deflection|HiT: +6||A radiant power surrounds a unicorn, protecting them from harm|
+|[Spellcasting: Incantation VII](../06-abilities.md#spellcasting-local)|Threshold=19||Favourite Spells: "[Least Spike](../08-spell-list.md#least-spike)", "[Sour](../08-spell-list.md#sour)", "[Least Heal](../08-spell-list.md#least-heal)", "[Least Vengeance](../08-spell-list.md#least-vengeance)", "[Meadow of Flame](../08-spell-list.md#meadow-of-flame)", "[Wind Walk](../08-spell-list.md#wind-walk)", "[Cure](../08-spell-list.md#cure)", "[Greater Xenophonia](../08-spell-list.md#greater-xenophonia)", "[Isolate Essence](../08-spell-list.md#isolate-essence)", "[Pact](../08-spell-list.md#pact)", [Heart Ward](../08-spell-list.md#heart-ward)", "[Spirit Restoration](../08-spell-list.md#spirit-restoration)", "[Razor Wind](../08-spell-list.md#razor-wind)", "[Otherworld Step](../08-spell-list.md#otherworld-step)", "[Memory Thief](../08-spell-list.md#memory-thief)"|
+|[Divine Arcana: Regrowth](../08-spell-list.md#regrowth)|||A true unicorn can cast "[Regrowth](../08-spell-list.md#regrowth)" despite not meeting the prerequisites.|
+|[Divine Arcana: Summon Angel](../08-spell-list.md#summon-angel)|||A true unicorn can cast "[Summon Angel](../08-spell-list.md#summon-angel)" despite not meeting the prerequisites.|
+|[Spellsong IV](../06-abilities.md#spellsong-i-iv)|||A unicorn's song can alter the nature of magic around it|
+|[Sprinter](../06-abilities.md#sprinter)|||A unicorn can run at x3 its base speed, and sprint x5 its base speed.|
+||||||
+|Immunity|||All "natural" damage, "divine" damage, "light" damage|
+|Immunity|||"aphonic", "blinded", "charmed", "deafened", "dying", "frightened", "prone", "stunned", "surprised"||
+|Vulnerability|||A true unicorn is vulnerable to "entropic" damage.|
+|True-speech|||A true unicorn cannot lie|
+|||||
+|[True Sight (120ft)](../06-abilities.md#truesight-i-v)|||A true unicorn can see the true shape of reality|
+|[Low Light Vision](../06-abilities.md#low-light-vision)|||A unicorn can see in dim light as well as in sunlight.|
+|[Life Sense (60ft)](../06-abilities.md#life-sense-i-v)|||A unicorn can sense living beings within 60ft of it.|
+|Skills|||"Athletics" +12, "Observe" +13, "Sense Motive" +7, "Spellcraft" +9, "Knowledge: Nature" +5, "Knowledge: Arcana" +7, "Knowledge: Religion" +11|
+|Loot|||A true unicorn is not a physical being, and thus once it is destroyed it may leave nothing behind. However, it may yield its horn to a mortal it deems worthy, hence ceasing to exist.|
+
+A true unicorn is not a physical being, but a divine being and manifestation of innocence. It takes the form of a white horse with a shining mane and tail with a straight horn upon its head.
+
+A true unicorn will not willingly appear before beings that lack innocence.
+
+A true unicorn has considerable healing abilities, but will not use them on beings that it does not consider worthy. On the other hand, it will use them freely and liberally on beings that it *does* consider worthy.
+
+While it prefers not to engage in battle, when facing beings that spread corruption a true unicorn will fight fiercely and mercilessly. Depending on the strength and kind of its foes its strategy will vary. Often it will first summon a "[Lesser Messenger](#lesser-messenger)" of purity, and command it create weather such that it would be unfavourable to their foes. It would then charge, using either "Razor Wind", or its considerable physical abilities to destroy its foes.
 
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|

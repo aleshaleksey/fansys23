@@ -15,6 +15,7 @@
     - [Mudwalker](#mudwalker)
     - [Kraken, Lesser](#sea-monster-kraken-lesser)
 - [Griffons and Other Chimeras](#griffons-and-other-chimeras)
+    - [Chimera](#chimera)
     - [Griffon](#griffon)
     - [Griffon, Hippogriff](#griffon-hippogriff)
     - [Griffon, Owl-griff](#griffon-owl-griff)
@@ -39,7 +40,7 @@ ___
 ### Cradle Imp
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/10/12|6|6|2|20ft|30ft Fly(poor)|
+|14/10/12|6|6|2|20ft|Fly (30ft, poor, endurance = 1 hour)|
 
 Tiny(+2/-2)
 
@@ -66,7 +67,7 @@ ___
 ### Mog
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/10/14|8|4|2|10ft|Swim(20ft), fly(60ft)|
+|15/10/14|8|4|2|10ft|Swim (20ft), fly (60ft, average, endurance = 2 hours)|
 
 Size = small
 
@@ -192,7 +193,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/13/13|22 (*18*)|19 (*15*)|8|20ft|80ft (flight, average)|
+|15/13/13|22 (*18*)|19 (*15*)|8|20ft|flight (80ft, average, endurance = 4h)|
 - Natural armour: +2
 
 ||Str|Dex|Con|Int|Wis|Cha|
@@ -640,8 +641,51 @@ A kraken has an enormous amount of time to learn magic. It seldom uses it in com
 
 ___
 ## Griffons and Other Chimeras
+Chimeras are monsters that combine the traits or parts of several different beasts, plants or monsters. They include classical chimeras, griffons, pegasi, and others.
 
+___
+### Chimera
+**Size category**: Huge (20ft x 20ft)
+- Evade: -2, Armour +2 (Natural armour +4)
+- Reach: 10ft
+- [DEX save]: -2, [STR save]: +2
+- Carry capacity: (0 - 648lb light, 648 - 1080lb heavy, 1620lb drag)
+___
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|19/19/13|107 (*47*)|86 (*46*)|22|40ft|80ft (flight, poor, endurance = 1 hour)|
 
+|     |Str|Dex|Con|Int|Wis|Cha|
+|-----|---|---|---|---|---|---|
+|Stat |25 |14 |21 |11 |15 |19 |
+|Bonus|+7 |+2 |+5 |0  |+2 |+4 |
+|Save |+10|+5 |+5 |+3 |+5 |+7 |
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-----------|-------|-------|---|---|---|---|
+|13 (3)      |21    |21     |4  |4  |7  |7  |
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite (Dragon)|+14|1d12+7|Reach=15ft (Poison: Threshold=20 or lose 1 point of STR)|
+|Bite (Lion)|+14|2d8+7|Reach=10ft|
+|Ram (Goat)|+14|1d10+7|Reach=10ft|
+|Claws|+14|2d6+7|Reach=10ft|
+|Tail (snake)|+14|1d6+7|Reach=15ft (Poison: As a secondary action, the chimera can expend 1 SP die and inject a dose of its venom into its victim. At the start of each turn the entity must succeed a CON save (Threshold = 20), or take 2d6 necrotic[natural] damage. The venom persists for a minute, or until the victim succeeds the save.)|
+|Grapple|+14||A chimera can grapple with its claws, or the lion/dragon head.|
+|Monster Attack IV|||A chimera can attack once with each head, once with its tail, and once with its claws. C chimera cannot attack an entity of size medium or smaller with more than one attack of its heads in a single turn.|
+|||||
+|Flaming Blast|Threshold=22|3d6+2 [Fire]|Range=20ft. The chimera's dragon head can blast fire in a 20ft cone. If it uses an MP die, the blast deals an extra 1d6 damage and the range is extended by 10ft. The chimera can expend up to 7 MP dice for a single blast. (NB: This acts like the "[Elemental Blast](../06-abilities.md#blast-elemental-blast)" in the cone form.)|
+|||||
+|[Alert](../06-abilities.md#alert)|||A chimera cannot be surprised|
+|[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||(cost = 1SP dice) A chimera can grapple targets when it makes a claw attack, or one with its dragon or lion head..|
+|[Counterstrike](../06-abilities.md#counterstrike)|||A chimera may make an attack of opportunity against an attacker striking it with a melee attack|
+|||||
+|Three heads|||A chimera's heads are almost independent. Whenever the chimera is subject to one of the following conditions: ("Fear", "Charm", "unconsciousness", "paralysis", "stun", "catatonic"), it loses the use of one of its heads instead, until the condition is cured.|
+|||||
+|Resistant||||
+|Keen Senses: Sight, Hearing|||A chimera has advantage of observe, rolls based on sight and hearing.|
+|Skills|||"Observe" +9, "Fly" +6, "Climb" +8, "Athletics" +8, "Swim" +8, "Nature" +2|
 
 ___
 ### Griffon

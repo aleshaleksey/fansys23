@@ -58,8 +58,6 @@ This section contains a few NPC stat blocks and notes on their intended use and 
 |-|-|-|-|-|-|
 |10|6|4|1|30ft|-|
 
-(+1 from base)
-
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
 |Stat|11|10|11|10|10|11|
@@ -90,8 +88,6 @@ ___
 |-|-|-|-|-|-|
 |11|13 (*11*)|6 (*6*)|3|30ft|-|
 
-(+1 from base)
-
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
 |Stat|12|10|12|10|10|11|
@@ -121,8 +117,6 @@ ____
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |17/13/12|20 (*16*)|8 (*8*)|5|30ft|-|
-
-(+1 from base)
 
 The HiT includes +2 from padded armour and +3 from a light shield.
 
@@ -158,8 +152,6 @@ ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |19/16/15|44 (*29*)|20 (*15*)|10|30|-|
-
-(+2 from base)
 
 (wears brigandine, Greatsword grants a +1 to shield HIT)
 
@@ -201,8 +193,6 @@ ___
 |-|-|-|-|-|-|
 |25/21/14|65 (*41*)|54 (*29*)|16|30|-|
 
-(+2 from base)
-
 (Stat block assumes Longsword, Heavy Shield, Half-plate)
 
 ||Str|Dex|Con|Int|Wis|Cha|
@@ -242,8 +232,6 @@ ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |23/18/13|44 (*28*)|59 (*35*)|13|30|-|
-
-(+2 from base)
 
 (Stat block assumes Longsword, Heavy Shield, Cuirass)
 
@@ -315,7 +303,7 @@ ___
 |-|-|-|-|-|-|
 |15/12/14|23 (*19*)|19 (*15*)|7|35ft|-|
 
-(+1 from base, includes +1 from leather cuirass)
+(includes +1 from leather cuirass)
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -359,8 +347,6 @@ ___
 |-|-|-|-|-|-|
 |11/11/11|8 (*7*)|12 (*11*)|4|30|-|
 
-(+1 from base)
-
 Travelling over dangerous terrain, will use padded armour (HiT: 13/13/11)
 
 ||Str|Dex|Con|Int|Wis|Cha|
@@ -397,8 +383,6 @@ ___
 |-|-|-|-|-|-|
 |11/11/11|11 (*9*)|17 (*15*)|5|30|-|
 
-(+1 from base)
-
 Travelling over dangerous terrain, will use brigandine (HiT: 15/15/11)
 
 ||Str|Dex|Con|Int|Wis|Cha|
@@ -432,8 +416,6 @@ ___
 |-|-|-|-|-|-|
 |12/11/12|23 (*19*)|21 (*17*)|7|30|-|
 
-(+1 from base)
-
 On the battlefield, will often use Cuirass and small shield for (HiT: 20/16/12)
 
 ||Str|Dex|Con|Int|Wis|Cha|
@@ -463,9 +445,7 @@ ___
 ### Human Mage (level 6)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|11/11/11|20 (*15*)|38 (*28*)|9|30|-|
-
-(+1 from base)
+|12/12/12|20 (*15*)|38 (*28*)|9|30|-|
 
 Travelling over dangerous terrain, will use brigandine (HiT: 15/15/11)
 
@@ -546,8 +526,6 @@ ___
 |-|-|-|-|-|-|
 |11/11/11|58 (*36*)|78 (*45*)|18|30|-|
 
-(+1 from base)
-
 Travelling over dangerous terrain, will use brigandine (HiT: 15/15/11)
 
 ||Str|Dex|Con|Int|Wis|Cha|
@@ -594,8 +572,6 @@ ___
 |-|-|-|-|-|-|
 |12/11/12|3|7|1|30ft|-|
 
-(+1 from base)
-
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
 |Stat|10|13|8|11|10|12|
@@ -626,8 +602,6 @@ ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |13/11/13|16 (*16*)|23 (*19*)|6|30ft|-|
-
-(+1 from base)
 
 (HiT (14/12/14) if wearing a light cuirass)
 
@@ -665,8 +639,6 @@ ____
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |18/18/18|49 (*33*)|76 (*52*)|15|35ft|-|
-
-(+3 from base)
 
 (HiT (19/19/19) if wearing a light cuirass)
 
@@ -712,8 +684,6 @@ ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |20/20/18|53 (*43*)|39 (*29*)|13|45ft|-|
-
-(+3 from base)
 
 Wears padded armour. When wielding blades increases to 18.
 
@@ -767,8 +737,6 @@ ___
 |-|-|-|-|-|-|
 |16/13/15|36 (*27*)|58 (*40*)|15|35ft|-|
 
-(+2 from base)
-
 Wears a light cuirass.
 
 ||Str|Dex|Con|Int|Wis|Cha|
@@ -814,8 +782,6 @@ ___
 |-|-|-|-|-|-|
 |11|14 (*12*)|6 (*6*)|4|30ft|-|
 
-(+1 from base)
-
 (HiT (13/13/10) if wearing hide armour)
 
 ||Str|Dex|Con|Int|Wis|Cha|
@@ -847,8 +813,6 @@ ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |16/15/13|54 (*33*)|28 (*23*)|12|30ft|-|
-
-(+2 from base)
 
 Wears hide armour
 
@@ -885,8 +849,6 @@ ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |17/16/14|75 (*45*)|48 (*28*)|16|30ft|-|
-
-(+3 from base)
 
 Wears hide armour
 
@@ -928,8 +890,6 @@ ___
 |-|-|-|-|-|-|
 |17/15/14|34 (*23*)|40 (*28*)|12|30ft|-|
 
-(+2 from base)
-
 (wears hide armour)
 
 ||Str|Dex|Con|Int|Wis|Cha|
@@ -963,8 +923,6 @@ ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |17/15/14|39 (*25*)|46 (*32*)|13|30ft|-|
-
-(+2 from base)
 
 (wears hide armour)
 
@@ -1005,8 +963,6 @@ ___
 |-|-|-|-|-|-|
 |13/10/12|6|4|1|20ft|Flight (60ft, average, endurance = 2 hours)|
 
-(+1 from base)
-
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
 |Stat|8|12|11|10|12|10|
@@ -1032,8 +988,6 @@ ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |16/12/14|18 (*15*)|14 (*14*)|5|20ft|Flight (60ft, average, endurance = 6 hours)|
-
-(+1 from base)
 
 (Assumed to wear a light cuirass)
 
@@ -1069,8 +1023,6 @@ ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |18/13/16|42 (*28*)|30 (*23*)|11|20ft|Flight (80ft, good, endurance = unlimited)|
-
-(+2 from base)
 
 (Assumed to wear a light cuirass)
 
@@ -1111,8 +1063,6 @@ ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |19/14/17|50 (*28*)|74 (*52*)|16|20ft|Flight (70ft, good, endurance = 8 hours)|
-
-(+3 from base)
 
 (Assumed to wear a light cuirass)
 
@@ -1156,8 +1106,6 @@ ___
 |-|-|-|-|-|-|
 |12/11/12|10 (*8*)|12 (*10*)|3|35|Climb (30ft)|
 
-(+1 from base)
-
 (Optionally proficient with hide armour for +3 armour)
 
 ||Str|Dex|Con|Int|Wis|Cha|
@@ -1192,8 +1140,6 @@ ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |14/12/13|18 (*16*)|18 (*15*)|6|35|Climb (30ft)|
-
-(+1 from base)
 
 Assumed wearing light cuirass
 
@@ -1232,8 +1178,6 @@ ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |18/16/14|40 (*28*)|34 (*22*)|11|45ft|Climb (30ft)|
-
-(+2 to HiT from "base")
 
 Wears brigandine (+4 HiT, armour). If using a light shield, add +3 to HiT.
 
@@ -1279,8 +1223,6 @@ ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |18/16/14|40 (*28*)|34 (*28*)|11|55ft|Climb (30ft)|
-
-(+2 to HiT from "base")
 
 Wears light cuirass  (+1)
 

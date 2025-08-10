@@ -620,8 +620,8 @@ ___
 |-|-|-|-|
 |Claw|+5|1d4+3||
 |Grapple|+7||A target grappled by a succubus has disadvantage on saves vs its "charm" and "life drain"|
-|Charm|Threshold=21 WIS||As a full round action, a succubus can charm a humanoid. The humanoid is charmed for 24h, but gets a repeated save if it is subject to an attack from the succubus. If the humanoid is not attracted to the sex of the form that the succubus is currently in, it has advantage on the save.|
-|Life Drain (1MP dice)|Threshold=21 CHA|1d3 SP dice|The succubus' life drain drains 1d3 SP dice from the target's maximum. The actual SP dice is also reduced by that amount. Each time, the succubus gains 2 SP which can take it past its SP maximum. If the target has 0 SP dice, the attack affects HP instead.|
+|Charm|Threshold=21 WIS||(Cost = 1MP die) As a full round action, a succubus can charm a humanoid. The humanoid is charmed for 24h, but gets a repeated save if it is subject to an attack from the succubus. If the humanoid is not attracted to the sex of the form that the succubus is currently in, it has advantage on the save.|
+|Life Drain (1MP die)|Threshold=21 CHA|1d3 SP dice|The succubus' life drain drains 1d3 SP dice from the target's maximum. The actual SP dice is also reduced by that amount. Each time, the succubus gains 2 SP which can take it past its SP maximum. If the target has 0 SP dice, the attack affects HP instead.|
 |||||
 |Alternate Form|||A succubus has a true form, and a humanoid form. The humanoid form is generally attractive. It can shift between them as a secondary action. In its humanoid form the succubus loses its claw attack and replaces its movement modalities with those of the humanoid. Its stats, saves, and abilities are unaffected.|
 |||||

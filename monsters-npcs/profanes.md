@@ -36,7 +36,7 @@ ___
 ### Corporeal Horror, Lesser
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|10/10/10|40 (*25*)|24 (*19*)|9|30ft|20ft (climb)|
+|10/10/10|40 (*25*)|24 (*19*)|9|30ft|Climb (20ft)|
 
 Large(-1/+1)
 
@@ -72,7 +72,7 @@ ___
 ### Corporeal Horror, Greater
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/13/12|107 (*47*)|79 (*43*)|21|30ft|20ft (climb)|
+|14/13/12|107 (*47*)|79 (*43*)|21|30ft|Climb (20ft)|
 
 Huge(-2/+2)
 Natural Armour: +4
@@ -398,7 +398,7 @@ ___
 ### Cursed Shade (lesser)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|11/10/11|-|25 (*22*)|7|40ft|climb 40ft, fly 30ft|
+|11/10/11|-|25 (*22*)|7|40ft|Climb (40ft), Fly (30ft, perfect, endurance = unlimited)|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -431,7 +431,7 @@ ___
 ### Cursed Shade
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|11/10/11|-|72 (*48*)|15|40ft|climb 40ft, cosmic(0) 60ft|
+|11/10/11|-|72 (*48*)|15|40ft|Climb (40ft), cosmic (1 realm)|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -465,7 +465,7 @@ ___
 ### Earthbound Shade (lesser)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|11/10/11|-|26 (*22*)|7|40ft|climb 40ft|
+|11/10/11|-|26 (*22*)|7|40ft|Climb (40ft)|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -503,7 +503,7 @@ ___
 ### Imp
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/10/15|4|8|3|20ft|40ft fly, 20ft climb|
+|15/10/15|4|8|3|20ft|Flu (40ft, good, endurance = 4 hours), Climb (20ft)|
 
 Imps are tiny (+2 evasion, +2 DEX save, -2 STR save) 
 
@@ -604,7 +604,7 @@ ___
 ### Succubus/Incubus
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|13/10/13|27 (*21*)|61 (*31*)|13|30ft|fly (60ft, medium)|
+|13/10/13|27 (*21*)|61 (*31*)|13|30ft|fly (60ft, medium, endurance = 4 hours)|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -700,7 +700,7 @@ ___
 ### Demon (Fire or Ice)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|28/28/16|170 (*56*)|194 (*80*)|32|40ft|Fly 90ft (average), Blink 60ft, Cosmic I|
+|28/28/16|170 (*56*)|194 (*80*)|32|40ft|Fly 90ft (average, endurance = unlimited), Blink 60ft, Cosmic I|
 
 - Size: Large
 - Natural Armour: Armour +12

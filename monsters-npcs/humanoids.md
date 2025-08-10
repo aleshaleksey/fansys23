@@ -921,7 +921,7 @@ ___
 ### Winged (level 1)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|13/10/12|6|4|1|20ft|60ft fly (average)|
+|13/10/12|6|4|1|20ft|Flight (60ft, average, endurance = 2 hours)|
 
 (+1 from base)
 
@@ -949,7 +949,7 @@ ___
 ### Winged Shepherd (level 4)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|16/12/14|18 (*15*)|14 (*14*)|5|20ft|60ft fly (average)|
+|16/12/14|18 (*15*)|14 (*14*)|5|20ft|Flight (60ft, average, endurance = 6 hours)|
 
 (+1 from base)
 
@@ -972,6 +972,7 @@ ___
 |Shortstaff|+6|1d8+3|Two handed|
 |Shortbow|+6|1d6+3|range 600/120ft|
 |Alert|||Immune to surprise|
+|[Enduring Flight IV](../06-abilities.md#enduring-flight)|||A winged shephard can remain on the wing for 6 hours per day.|
 |Spellcasting: Air II|||"[Least Anemancy](../08-spell-list.md#least-anemancy)", "[Whispers](../08-spell-list.md#whispers)", "[Least Blast](../08-spell-list.md#least-blast)", "[Spirits Secret](../08-spell-list.md#spirits-secret)", "[Tailwind](../08-spell-list.md#tailwind)", "[Summon Wind Sprite](../08-spell-list.md#summon-wind-sprite)"|
 |Proficiency|||Common, Bird, 1 set of tools or a trade|
 |Skills|||"Fly" +8, "Observe" +5, "Navigate" +4, "perform" +4|
@@ -985,7 +986,7 @@ ___
 ### Winged Scout (level 8)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|18/13/16|42 (*28*)|30 (*23*)|11|20ft|80ft fly (good)|
+|18/13/16|42 (*28*)|30 (*23*)|11|20ft|Flight (80ft, good, endurance = unlimited)|
 
 (+2 from base)
 
@@ -1012,6 +1013,8 @@ ___
 |[Skirmisher](../06-abilities.md#skirmisher)|||Avoid AoOs|
 |[Sprinter](../06-abilities.md#sprinter)|||Go further|
 |[Speed II](../06-abilities.md#speed)|||Go faster|
+|[Enduring Flight VIII](../06-abilities.md#enduring-flight)||||
+|[Sleep on the Wing](../06-abilities.md#sleep-on-the-wing)|||A winged scout can remain airborne to sleep. They do need to land to rest properly, however.|
 |[Fleet](../06-abilities.md#fleet)|||Hide in the mist|
 |Spellcasting: Air II|||"[Least Anemancy](../08-spell-list.md#least-anemancy)", "[Whispers](../08-spell-list.md#whispers)", "[Least Blast](../08-spell-list.md#least-blast)", "[Spirits Secret](../08-spell-list.md#spirits-secret)", "[Tailwind](../08-spell-list.md#tailwind)", "[Summon Wind Sprite](../08-spell-list.md#summon-wind-sprite)", "[Lesser Veil](../08-spell-list.md#lesser-veil)"|
 |Proficiency|||Common, Bird, 1 set of tools or a trade|
@@ -1025,7 +1028,7 @@ ___
 ### Winged Wind Mage (level 12)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|19/14/17|50 (*28*)|74 (*52*)|16|20ft|70ft fly (good)|
+|19/14/17|50 (*28*)|74 (*52*)|16|20ft|Flight (70ft, good, endurance = 8 hours)|
 
 (+3 from base)
 
@@ -1052,6 +1055,7 @@ ___
 |[Evasive](../06-abilities.md#evasive)|||Avoid AoOs|
 |[Sprinter](../06-abilities.md#sprinter)|||Go further|
 |[Fleet](../06-abilities.md#fleet)|||Hide in the mist|
+|[Enduring Flight VI](../06-abilities.md#enduring-flight)|||A winged mage can remain on the wing for 8 hours per day.|
 |Spellcasting: Air VI|||"[Least Anemancy](../08-spell-list.md#least-anemancy)", "[Whispers](../08-spell-list.md#whispers)", "[Least Blast](../08-spell-list.md#least-blast)", "[Spirits Secret](../08-spell-list.md#spirits-secret)", "[Tailwind](../08-spell-list.md#tailwind)", "[Summon Wind Sprite](../08-spell-list.md#summon-wind-sprite)", "[Lesser Veil](../08-spell-list.md#lesser-veil)"|
 |Spellcasting: Fire III|||"[Least Pyromancy](../08-spell-list.md#least-pyromancy)", "[Ignition](../08-spell-list.md#ignition)", "[Least Vengeance](../08-spell-list.md#least-vengeance)", "[Foxfire](../08-spell-list.md#foxfire)", "[Warmth](../08-spell-list.md#warmth)", "[Summon Flame Sprite](../08-spell-list.md#summon-flame-sprite)", "[Meadow of Flame](../08-spell-list.md#meadow-of-flame)", "[Command Mortal](../08-spell-list.md#command-mortal)"|
 |Spellcasting: Nature III|||"[Compass](../08-spell-list.md#compass)", "[Sour](../08-spell-list.md#sour)", "[Least Heal](../08-spell-list.md#least-heal)", "[Beast Speech](../08-spell-list.md#beast-speech)", "[Least Rest](../08-spell-list.md#least-rest)", "[Harvest](../08-spell-list.md#harvest)", "[Cure](../08-spell-list.md#cure)", "[Growth](../08-spell-list.md#growth)"||
@@ -1068,7 +1072,7 @@ ___
 ### Beast folk (level 2)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|12/11/12|10 (*8*)|12 (*10*)|3|35|(climb 30ft)|
+|12/11/12|10 (*8*)|12 (*10*)|3|35|Climb (30ft)|
 
 (+1 from base)
 
@@ -1105,7 +1109,7 @@ ___
 ### Beast folk traveller (level 4)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/12/13|18 (*16*)|18 (*15*)|6|35|(climb 30ft)|
+|14/12/13|18 (*16*)|18 (*15*)|6|35|Climb (30ft)|
 
 (+1 from base)
 
@@ -1145,7 +1149,7 @@ ___
 ### Beast folk warrior (level 7)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|18/16/14|40 (*28*)|34 (*22*)|11|45ft|(30ft climb)|
+|18/16/14|40 (*28*)|34 (*22*)|11|45ft|Climb (30ft)|
 
 (+2 to HiT from "base")
 
@@ -1192,7 +1196,7 @@ ___
 ### Beast folk mystic warrior (level 8)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|18/16/14|40 (*28*)|34 (*28*)|11|55ft|(30ft climb)|
+|18/16/14|40 (*28*)|34 (*28*)|11|55ft|Climb (30ft)|
 
 (+2 to HiT from "base")
 

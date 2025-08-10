@@ -29,7 +29,7 @@ ___
 ### Lesser Messenger
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|16/-/15|31 (*24*)|31 (*24*)|9|30ft|Fly, good (100ft)|
+|16/-/15|31 (*24*)|31 (*24*)|9|30ft|Fly, (100ft, good, endurance = unlimited)|
 
 Small (+1/0)
 Deflection +2
@@ -76,7 +76,7 @@ ___
 ### Watcher
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|19/-/16|63 (*33*)|95 (*43*)|19|30ft|Fly (100ft, good)|
+|19/-/16|63 (*33*)|95 (*43*)|19|30ft|Fly (100ft, good, endurance = unlimited)|
 
 Medium
 Deflection +4
@@ -128,7 +128,7 @@ ___
 ### Seraph
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|21(22)/-/19(17)|152 (*56*)|175 (*63*)|30|30ft|Fly (100ft, good), cosmic (1 realm per day)|
+|21(22)/-/19(17)|152 (*56*)|175 (*63*)|30|30ft|Fly (100ft, good, endurance = unlimited), cosmic (1 realm per day)|
 
 Large (+1/-1)
 Deflection +6

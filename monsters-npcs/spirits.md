@@ -212,14 +212,14 @@ ___
 ### Wind Sprite
 |Level|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|-|
-|1|14/10/14|4 (*4*)|7 (*7*)|2|-|Fly (50ft)|
-|2|14/10/14|6 (*6*)|12 (*9*)|3|-|Fly (50ft)|
-|3|14/10/14|8 (*8*)|17 (*13*)|4|-|Fly (50ft)|
-|4|17/10/17|14 (*11*)|26 (*16*)|7|-|Fly (60ft)|
-|5|17/10/17|19 (*15*)|30 (*20*)|8|-|Fly (60ft)|
-|6|17/10/17|20 (*15*)|38 (*22*)|9|-|Fly (60ft)|
+|1|14/10/14|4 (*4*)|7 (*7*)|2|-|Fly (50ft, perfect, endurance = unlimited)|
+|2|14/10/14|6 (*6*)|12 (*9*)|3|-|Fly (50ft, perfect, endurance = unlimited)|
+|3|14/10/14|8 (*8*)|17 (*13*)|4|-|Fly (50ft, perfect, endurance = unlimited)|
+|4|17/10/17|14 (*11*)|26 (*16*)|7|-|Fly (60ft, perfect, endurance = unlimited)|
+|5|17/10/17|19 (*15*)|30 (*20*)|8|-|Fly (60ft, perfect, endurance = unlimited)|
+|6|17/10/17|20 (*15*)|38 (*22*)|9|-|Fly (60ft, perfect, endurance = unlimited)|
 
-- Water sprites are small size.
+- Wind sprites are small size.
 
 |Level 1-3|Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -306,7 +306,7 @@ ___
 ### Undine: Greater
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|17/10/17|78 (*39*)|122 (*57*)|22|30ft|100ft(swim)|
+|17/10/17|78 (*39*)|122 (*57*)|22|30ft|Swim (100ft)|
 
 Size: Medium
 
@@ -347,7 +347,7 @@ ___
 ### Ifrit: Lesser
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/14/15|30 (*18*)|51 (*33*)|12|30|fly (60ft)|
+|15/14/15|30 (*18*)|51 (*33*)|12|30|Flight (60ft)|
 
 Size:Large
 Deflection:+3
@@ -403,7 +403,7 @@ ___
 ### Ifrit: Greater
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|17/17/17|88 (*39*)|108 (*56*)|21|30|fly (80ft), blink (40ft)|
+|17/17/17|88 (*39*)|108 (*56*)|21|30|Flight (80ft, good, endurance = 8 hours), Blink (40ft)|
 
 Size:Huge
 Deflection:+5
@@ -460,7 +460,7 @@ ___
 ### Djinn, Lesser
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|19/12/19|34 (*22*)|47 (*29*)|12|-|120ft (fly: perfect)|
+|19/12/19|34 (*22*)|47 (*29*)|12|-|Flight (120ft, perfect, endurance = unlimited)|
 
 Size:Medium
 Evasion:+3
@@ -491,7 +491,7 @@ ___
 ### Djinn, Greater
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|23/14/22|66 (*40*)|134 (*56*)|22|-|140ft (fly: perfect)|
+|23/14/22|66 (*40*)|134 (*56*)|22|-|Flight (140ft, perfect, endurance = unlimited)|
 
 Size:Large
 Evasion:+3
@@ -524,7 +524,7 @@ ___
 ### Earth Elemental, Lesser
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|18/18/12|47 (*39*)|34 (*22*)|12|30ft|20ft (dig)|
+|18/18/12|47 (*39*)|34 (*22*)|12|30ft|Dig (20ft)|
 
 Size:Large
 Armour:+5
@@ -559,7 +559,7 @@ ___
 ### Earth Elemental, Greater
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|21/22/14|120 (*55*)|80 (*41*)|22|30ft|20ft (dig)|
+|21/22/14|120 (*55*)|80 (*41*)|22|30ft|Dig (20ft)|
 
 Size:Huge
 Armour:+7
@@ -608,7 +608,7 @@ A faun, similar to a satyr, is a fey that takes the material form of a humanoid 
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/12/15|30 (*22*)|29 (*17*)|10|35ft|20ft (Blink)|
+|15/12/15|30 (*22*)|29 (*17*)|10|35ft|Blink (20ft)|
 
 Deflection: +1
 
@@ -655,7 +655,7 @@ Changelings are fey beings that make their way onto the mortal realm by way of e
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/13/15|30 (*20*)|34 (*24*)|10|30ft|30ft (blink)|
+|15/13/15|30 (*20*)|34 (*24*)|10|30ft|Blink (30ft)|
 
 Deflection: +1
 
@@ -702,7 +702,7 @@ Doppelgangers are spirits that take the exact form of a living mortal. A doppelg
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/12/14|34 (*27*)|34 (*27*)|10|40ft|30ft (blink)|
+|14/12/14|34 (*27*)|34 (*27*)|10|40ft|Blink (30ft)|
 
 Deflection: +1
 
@@ -747,7 +747,7 @@ A brownie is a tiny spirit which associates itself with a humanoid dwelling. Bro
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|19/11/19|8 (*7*)|14 (*12*)|5|20ft|30ft (fly:good)|
+|19/11/19|8 (*7*)|14 (*12*)|5|20ft|Flight (30ft, good, endurance = 2 hours)|
 
 Deflection: +1
 
@@ -792,7 +792,7 @@ Pixies are tiny spirits that dwell in moorland and ruins and seem to endlessly s
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|19/11/19|19 (*15*)|28 (*20*)|5|20ft|60ft (fly:good)|
+|19/11/19|19 (*15*)|28 (*20*)|5|20ft|Flight (60ft, good, endurance = 4 hours)|
 
 Deflection: +2
 
@@ -836,7 +836,7 @@ Dryads are spirits of trees that take a material form. A dryad cannot move beyon
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|18/14/18|51 (*27*)|70 (*38*)|16|25ft|50ft (Blink)|
+|18/14/18|51 (*27*)|70 (*38*)|16|25ft|Blink (50ft)|
 
 Deflection: +2
 
@@ -882,7 +882,7 @@ Nymphs are similar to undines and are sometimes known as naiads. They are the sp
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|22/17/22|60 (*36*)|76 (*58*)|23|30ft|100ft (swim), 30ft (blink)|
+|22/17/22|60 (*36*)|76 (*58*)|23|30ft|Swim (100ft), Blink (30ft)|
 
 Deflection: +4
 Foresight: +2
@@ -937,7 +937,7 @@ Fey hounds, occasionally called "ghost hounds", are dark spirits of the hunt tha
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/13/14|24 (*16*)|23 (*19*)|8|60ft|30ft (blink)|
+|14/13/14|24 (*16*)|23 (*19*)|8|60ft|Blink (30ft)|
 
 Deflection: +2
 
@@ -981,7 +981,7 @@ The wild hunt is a phenomenon wherein fey associated with the more predatory sid
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|26/20/19|50 (*40*)|54 (*34*)|15|40ft|30ft (blink)|
+|26/20/19|50 (*40*)|54 (*34*)|15|40ft|Blink (30ft)|
 
 Deflection: +2
 Hide Armour (fey source): +5
@@ -1026,7 +1026,7 @@ The wild hunt is a phenomenon wherein fey associated with the more predatory sid
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|30/22/25|101 (*53*)|107 (*59*)|23|40ft|60ft (blink), cosmic|
+|30/22/25|101 (*53*)|107 (*59*)|23|40ft|Blink (60ft), cosmic (1 realm)|
 
 Deflection: +3
 Hide Armour (fey source): +5
@@ -1076,7 +1076,7 @@ At first glance easily mistaken for grigs, pixies or brownies, fairies are the e
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|28/19/28|92 (*54*)|254 (*83*)|31|20ft|60ft (fly: perfect), 60ft (blink), cosmic|
+|28/19/28|92 (*54*)|254 (*83*)|31|20ft|Flight (60ft, perfect, endurance = unlimited), Blink (60ft), cosmic (1 realm)|
 
 Deflection: +5
 
@@ -1142,7 +1142,7 @@ Wisps are spirits associated with swamps. They take the form of glowing orbs and
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|20/14/20|50 (*18*)|70 (*42*)|16|-|50ft (fly: perfect), 20ft (blink)|
+|20/14/20|50 (*18*)|70 (*42*)|16|-|Flight (50ft, perfect, endurance = unlimited), Blink (20ft)|
 
 Deflection: +2
 

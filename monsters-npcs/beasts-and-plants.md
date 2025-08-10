@@ -62,7 +62,7 @@ ___
 ### Eagle (level 2)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|13/10/13|12 (*10*)|10 (*9*)|5|10ft|100ft (flight, average, endurance = 8 hours)|
+|13/10/13|12 (*10*)|10 (*9*)|5|10ft|Flight (100ft, average, endurance = 8 hours)|
 
 Size=Small
 
@@ -89,7 +89,7 @@ ___
 ### Falcon (level 1)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/10/14|7|4|1|10ft|90ft (flight, good, endurance = 6 hours)|
+|15/10/14|7|4|1|10ft|Flight (90ft, good, endurance = 6 hours)|
 
 Size=Tiny
 
@@ -117,7 +117,7 @@ ___
 ### Owl (level 1)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|13/10/13|4|6|1|10ft|50ft (flight, average, endurance = 4 hours)|
+|13/10/13|4|6|1|10ft|Flight (50ft, average, endurance = 4 hours)|
 
 Size=Small/Tiny
 
@@ -147,7 +147,7 @@ ___
 ### Raven (level 1)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|13/10/13|3|7|1|10ft|60ft (flight, average, endurance = 4 hours)|
+|13/10/13|3|7|1|10ft|Flight (60ft, average, endurance = 4 hours)|
 
 Size= Small, Raven / Tiny, Crow
 
@@ -174,7 +174,7 @@ ___
 ### Swan (level 2)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|12/10/12|10(*9*)|12(*10*)|5|10ft|60ft (flight, average, endurance = 10 hours)|
+|12/10/12|10(*9*)|12(*10*)|5|10ft|Flight (60ft, average, endurance = 10 hours)|
 
 Size= Small
 
@@ -203,7 +203,7 @@ ___
 ### Cat
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|16/10/14|6|6|2|30ft|climb (30ft)|
+|16/10/14|6|6|2|30ft|Climb (30ft)|
 
 Size = tiny
 
@@ -393,7 +393,7 @@ ___
 ### Swarm of Bees
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|13/11/13|18 (*14*)|16 (*12*)|7|10ft|40ft (fly)|
+|13/11/13|18 (*14*)|16 (*12*)|7|10ft|Flight (40ft, perfect, 6 hours)|
 
 A swarm of bees is medium sized.
 
@@ -549,7 +549,7 @@ ___
 ### Crocodile
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|16/17/11|38 (*23*)|26 (*21*)|10|30|swim (40ft)|
+|16/17/11|38 (*23*)|26 (*21*)|10|30|Swim (40ft)|
 
 (Natural armour + 4)
 
@@ -582,7 +582,7 @@ ___
 ### Crocodile, Caiman
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/15/12|26 (*17*)|18 (*15*)|8|25|swim (50ft)|
+|15/15/12|26 (*17*)|18 (*15*)|8|25|Swim (50ft)|
 
 (Natural armour + 3)
 
@@ -616,7 +616,7 @@ ___
 ### Rat
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/10/15|4|2|1|30ft|climb (30ft)|
+|14/10/15|4|2|1|30ft|Climb (30ft)|
 
 Size = tiny
 
@@ -648,7 +648,7 @@ ___
 ### Snake, Grass
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/12/14|6|4|1|30ft|swim (20ft)|
+|15/12/14|6|4|1|30ft|Swim (20ft)|
 
 Size = small
 
@@ -680,7 +680,7 @@ ___
 ### Snake, Constrictor
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/12/14|6|4|1|30ft|climb (30ft), swim (20ft)|
+|15/12/14|6|4|1|30ft|Climb (30ft), Swim (20ft)|
 
 Size = medium
 
@@ -713,7 +713,7 @@ ___
 ### Snake, Viper
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/12/14|6|4|1|30ft|climb (30ft)|
+|15/12/14|6|4|1|30ft|Climb (30ft)|
 
 Size = small
 
@@ -744,7 +744,7 @@ ___
 ### Snake, Cobra
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/12/13|18 (*15*)|16 (*13*)|6|30ft|climb (30ft), swim (20ft)|
+|14/12/13|18 (*15*)|16 (*13*)|6|30ft|Climb (30ft), Swim (20ft)|
 
 Size = medium
 
@@ -815,7 +815,7 @@ ___
 ### Fish, Medium
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|13/12/12|12 (*11*)|6 (*6*)|3|-|swim (50ft)|
+|13/12/12|12 (*11*)|6 (*6*)|3|-|Swim (50ft)|
 
 Size: Medium
 
@@ -844,7 +844,7 @@ ___
 ### Octopus
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|11/11/11|7 (*7*)|4 (*4*)|2|-|swim (40ft)|
+|11/11/11|7 (*7*)|4 (*4*)|2|-|Swim (40ft)|
 
 Size: Small
 
@@ -874,7 +874,7 @@ ___
 ### Octopus, Giant
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/14/12|56 (*35*)|33 (*25*)|2|-|swim (40ft)|
+|14/14/12|56 (*35*)|33 (*25*)|2|-|Swim (40ft)|
 
 Size: Huge
 
@@ -904,7 +904,7 @@ ___
 ### Seal
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|11/11/11|22 (*16*)|18 (*15*)|3|-|swim (50ft)|
+|11/11/11|22 (*16*)|18 (*15*)|3|-|Swim (50ft)|
 
 Size: Large
 
@@ -937,7 +937,7 @@ ___
 ### Shark, Reef
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/13/13|12 (*11*)|6 (*6*)|6|-|swim (60ft)|
+|15/13/13|12 (*11*)|6 (*6*)|6|-|Swim (60ft)|
 
 Size: Medium
 
@@ -971,7 +971,7 @@ ___
 ### Shark, Greater
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|17/19/12|28 (*16*)|21 (*15*)|11|-|swim (80ft)|
+|17/19/12|28 (*16*)|21 (*15*)|11|-|Swim (80ft)|
 
 Size: Huge
 
@@ -1020,7 +1020,7 @@ ___
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|19/21/19|46|23|12|15ft |10ft (climb)|
+|19/21/19|46|23|12|15ft |Climb (10ft)|
 
 A snail's shell gives it +10 to armour.
 
@@ -1056,7 +1056,7 @@ ___
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|9/11/9|46|23|12|15ft |15ft (climb), 5ft (dig)|
+|9/11/9|46|23|12|15ft |Climb (15ft), Dig (5ft)|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -1082,7 +1082,7 @@ ___
 ### Giant Crocodile
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|17/21/11|38 (*42*)|54 (*34*)|17|40|swim (50ft)|
+|17/21/11|38 (*42*)|54 (*34*)|17|40|Swim (50ft)|
 
 (Natural armour +6)
 
@@ -1155,7 +1155,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/13/11|38 (*28*)|26 (*16*)|10|10ft|100ft (flight, average, endurance = 10 hours)|
+|14/13/11|38 (*28*)|26 (*16*)|10|10ft|Flight (100ft, average, endurance = 10 hours)|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -1190,7 +1190,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|13/11/12|18 (*15*)|18 (*15*)|6|10ft|50ft (flight, average, endurance = 4 hours)|
+|13/11/12|18 (*15*)|18 (*15*)|6|10ft|Flight (50ft, average, endurance = 4 hours)|
 
 Size=Large
 
@@ -1229,7 +1229,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|13/12/11|26 (*18*)|33 (*21*)|10|10ft|80ft (flight, average, endurance = 8 hours)|
+|13/12/11|26 (*18*)|33 (*21*)|10|10ft|Flight (80ft, average, endurance = 8 hours)|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -1340,7 +1340,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|17/20/9|72 (*36*)|52 (*34*)|16|45|climb 30ft|
+|17/20/9|72 (*36*)|52 (*34*)|16|45|Climb (30ft)|
 
 (Natural armour +6)
 
@@ -1379,7 +1379,7 @@ ___
 ### Hadrosaur (level 7)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|12/14/9|56 (*32*)|23 (*17*)|40ft|(swim) 20ft|
+|12/14/9|56 (*32*)|23 (*17*)|40ft|Swim (20ft)|
 
 (huge, +3 natural)
 
@@ -1461,7 +1461,7 @@ ___
 ### Dark Cabbage
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|10/10/11|5|7|3|10ft|climb (10ft)|
+|10/10/11|5|7|3|10ft|Climb (10ft)|
 
 (Dark cabbages are small Evade +1, Natural Armour -1)
 
@@ -1495,7 +1495,7 @@ ___
 ### Giant Flytrap
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|12/12/9|24 (*21*)|4 (*4*)|4|5ft|-climb (5ft)|
+|12/12/9|24 (*21*)|4 (*4*)|4|5ft|Climb (5ft)|
 
 (Flytrap is large, Natural armour +2)
 
@@ -1565,7 +1565,7 @@ ___
 ### Shephard Tree, elder
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|18/22/2|450 (*107*)|290 (*104*)|47|40ft|climb (40ft)|
+|18/22/2|450 (*107*)|290 (*104*)|47|40ft|Climb (40ft)|
 
 (Shephard tree is Colossal, Natural armour +10)
 
@@ -1604,7 +1604,7 @@ ___
 ### Tripede
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|13/12/10|20 (*15*)|32 (*27*)|6|40ft|climb (40ft)|
+|13/12/10|20 (*15*)|32 (*27*)|6|40ft|Climb (40ft)|
 
 (Tripede is large, Natural armour +2)
 

@@ -69,7 +69,7 @@ ___
 ### Mog
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/10/14|8|4|2|10ft|Swim (20ft), fly (60ft, average, endurance = 2 hours)|
+|15/10/14|8|4|2|10ft|Swim (20ft), Fly (60ft, average, endurance = 2 hours)|
 
 Size = small
 
@@ -99,7 +99,7 @@ ___
 ### Sweet Ooze
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|12/11/11|10 (*9*)|8 (*8*)|2|20ft|20ft(climb)|
+|12/11/11|10 (*9*)|8 (*8*)|2|20ft|Climb (20ft)|
 
 (medium)
 
@@ -131,7 +131,7 @@ ___
 ### Snatchers' Hands
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|12/10/12|19 (*17*)|3 (*3*)|3|20ft|5ft (dig)|
+|12/10/12|19 (*17*)|3 (*3*)|3|20ft|Dig (5ft)|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -157,7 +157,7 @@ ___
 ### Mudcrawler
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/11/14|17 (*15*)|3 (*3*)|3|40ft|10ft(dig), 40ft(climb)|
+|15/11/14|17 (*15*)|3 (*3*)|3|40ft|Dig (10ft), Climb (40ft)|
 
 (+1 natural armour, Size = medium)
 
@@ -195,7 +195,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/13/13|22 (*18*)|19 (*15*)|8|20ft|flight (80ft, average, endurance = 4h)|
+|15/13/13|22 (*18*)|19 (*15*)|8|20ft|Flight (80ft, average, endurance = 4h)|
 - Natural armour: +2
 
 ||Str|Dex|Con|Int|Wis|Cha|
@@ -225,8 +225,8 @@ ___
 |Level (type)|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|-|
 |1 (young:small)|13/10/13|8|5|4|30ft|(climb) 30ft|
-|6 (adult:medium)|16/14/12|38 (*23*)|32 (*22*)|10|40ft|(climb) 30ft|
-|11 (elder:large)|19/13/16|115|65 (*42*)|18 (*35*)|50ft|(swim) 30ft|
+|6 (adult:medium)|16/14/12|38 (*23*)|32 (*22*)|10|40ft|Climb (30ft)|
+|11 (elder:large)|19/13/16|115|65 (*42*)|18 (*35*)|50ft|Swim (30ft)|
 
 |Young|Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -310,7 +310,7 @@ ___
 |-|-|-|-|-|-|-|
 |1 (young:medium)|11/9/11|7|4|2|40ft|climb(20ft)|
 |4 (adult:large)|13/13/9|23 (*17*)|11 (*8*)|7|50ft|-|
-|7 (great:huge)|15/16/9|54 (*30*)|28 (*16*)|13|60ft|Swim(30ft)|
+|7 (great:huge)|15/16/9|54 (*30*)|28 (*16*)|13|60ft|Swim (30ft)|
 
 Adult fell beasts have a natural armour of +2, great have a natural armour of +4
 
@@ -415,7 +415,7 @@ ___
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|21/23/21|46|23|12|15ft |10ft (climb)|
+|21/23/21|46|23|12|15ft |Climb (10ft)|
 
 A snail's shell gives it +12 to armour.
 
@@ -453,7 +453,7 @@ ___
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|9/11/9|46|23|12|15ft |15ft (climb), 5ft (dig)|
+|9/11/9|46|23|12|15ft |Climb (15ft), dig (5ft)|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -555,7 +555,7 @@ ___
 ### Mudwalker
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|18/18/0|158 (*79*)|42 (*42*)|23|60ft|40ft(climb)|
+|18/18/0|158 (*79*)|42 (*42*)|23|60ft|Climb (40ft)|
 
 (+5 natural armour, Size = gargantuan)
 
@@ -654,7 +654,7 @@ ___
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|19/19/13|107 (*47*)|86 (*46*)|22|40ft|80ft (flight, poor, endurance = 1 hour)|
+|19/19/13|107 (*47*)|86 (*46*)|22|40ft|Flight (80ft, poor, endurance = 1 hour)|
 
 |     |Str|Dex|Con|Int|Wis|Cha|
 |-----|---|---|---|---|---|---|
@@ -698,7 +698,7 @@ ___
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/12/13|47 (*29*)|34 (*22*)|12|40ft|100ft (flight, average, endurance = 4 hours)|
+|14/12/13|47 (*29*)|34 (*22*)|12|40ft|Flight (100ft, average, endurance = 4 hours)|
 
 |     |Str|Dex|Con|Int|Wis|Cha|
 |-----|---|---|---|---|---|---|
@@ -740,7 +740,7 @@ ___
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/12/13|40 (*25*)|30 (*20*)|11|50ft|80ft (flight, average, endurance = 4 hours)|
+|14/12/13|40 (*25*)|30 (*20*)|11|50ft|Flight (80ft, average, endurance = 4 hours)|
 
 |     |Str|Dex|Con|Int|Wis|Cha|
 |-----|---|---|---|---|---|---|
@@ -780,7 +780,7 @@ ___
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|16/14/14|98 (*41*)|40 (*22*)|14|40ft|80ft (flight, poor, endurance = 1 hours)|
+|16/14/14|98 (*41*)|40 (*22*)|14|40ft|Flight (80ft, poor, endurance = 1 hours)|
 
 |     |Str|Dex|Con|Int|Wis|Cha|
 |-----|---|---|---|---|---|---|
@@ -823,7 +823,7 @@ ___
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/11/15|10 (*9*)|10 (*9*)|4|20ft|50ft (good, endurance=2h)|
+|15/11/15|10 (*9*)|10 (*9*)|4|20ft|Flight (50ft, good, endurance=2h)|
 
 |     |Str|Dex|Con|Int|Wis|Cha|
 |-----|---|---|---|---|---|---|
@@ -1063,7 +1063,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|26/22/12|222 (*69*)|222 (*70*)|35|40ft|100ft (fly, good)|
+|26/22/12|222 (*69*)|222 (*70*)|35|40ft|Flight (100ft, good, endurance = 8 hours)|
 
 (Natural Armour: 15)
 
@@ -1146,7 +1146,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|24/24/10|127 (*49*)|125 (*47*)|24|40ft|110ft (fly, good), 50ft swim|
+|24/24/10|127 (*49*)|125 (*47*)|24|40ft|Flight(110ft, good, endurance = 8 hours), Swim (50ft)|
 
 (Natural Armour: 13)
 
@@ -1218,7 +1218,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|28/28/8|222 (*70*)|222 (*70*)|35|40ft|100ft (fly, good), 40ft swim|
+|28/28/8|222 (*70*)|222 (*70*)|35|40ft|Flight (100ft, good, endurance = 8 hours), Swim (40ft)|
 
 (Natural Armour: 17)
 
@@ -1292,7 +1292,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|24/24/10|133 (*49*)|129 (*47*)|24|40ft|110ft (fly, good), 50ft swim|
+|24/24/10|133 (*49*)|129 (*47*)|24|40ft|Flight (110ft, good, endurance = 8 hours), Swim (50ft)|
 
 (Natural Armour: 13)
 
@@ -1362,7 +1362,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|28/28/10|234 (*82*)|170 (*56*)|40ft|Dig 20ft, Climb 40ft|
+|28/28/10|234 (*82*)|170 (*56*)|40ft|Dig (20ft), Climb (40ft)|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -1437,7 +1437,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|26/26/12|234 (*51*)|170 (*43*)|40ft|Dig 20ft, Climb 40ft|
+|26/26/12|234 (*51*)|170 (*43*)|40ft|Dig (20ft), Climb (40ft)|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|

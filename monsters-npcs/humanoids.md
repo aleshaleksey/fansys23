@@ -17,6 +17,7 @@ This section contains a few NPC stat blocks and notes on their intended use and 
     - [Human Scholar (level 3)](#human-scholar-level-3)
     - [Human Elite (level 5)](#human-elite-level-5)
     - [Human Mage (level 6)](#human-mage-level-6)
+    - [Human Warlock (level 7)](#human-warlock-level-7)
     - [Human Mage, Archmage (level 6)](#human-mage-arch-mage-level-12)
 - [Elves](#elf)
     - [Elvish Youth (level 1)](#elvish-youth-level-1)
@@ -29,6 +30,7 @@ This section contains a few NPC stat blocks and notes on their intended use and 
     - [Orcish Hunter (level 8)](#orcish-hunter-level-8)
     - [Orcish Berserker (level 11)](#orcish-berserker-level-11)
     - [Orcish Geomancer (level 7)](#orcish-geomancer-level-7)
+    - [Orcish Warlock (level 8)](#orcish-warlock-level-8)
 - [Winged](#winged)
     - [Winged (level 1)](#winged-level-1)
     - [Winged Shepherd (level 4)](#winged-shepherd-level-4)
@@ -489,13 +491,54 @@ Travelling over dangerous terrain, will use brigandine (HiT: 15/15/11)
 |[Elemental Blast: Ice](../06-abilities.md#blast-elemental-blast)|+8|2d6+2 Ice[supernatural]|Range=120ft|
 |||||
 |Proficiencies|||"Calligraphy" + 2 other kits (or languages), 2 languages, 2 weapons|
-|Skills|||+5 in academics and +4 in 2 knowledge, +3 in other 4, "Observe" +3, 1 rank in another 4|
+|Skills|||"Spellworking" +5, "academics" +5 and +4 in 2 knowledge, +3 in other 4, "Observe" +3, 1 rank in another 4|
 
 Mages in human society are generally those who have studied spellcraft for decades to unearth and fathom its secrets. A witch who lives at the edge of a remote village, or a court wizard in the capital are probably both mages, albeit with somewhat different specialisations. Some mages learn "[Least Heal](../08-spell-list.md#least-heal)" and "[Cure](../08-spell-list.md#cure)" instead of "Lesser Veil" and "Wind Walk". (For a battle mage see the [Magic Knight](#human-magic-knight) stat block)
 
 Mages often prefer to avoid combat and situations that lead to severe injury or death, although magic duels may be a different matter entirely.
 
 In combat, a mage uses their familiar to scout, and then use the appropriate spell for the situation. Often this involves preparing the battlefield and applying the appropriate debuffs before engaging with offensive magic. That said, when fighting multiple weaker foes, mages will often try to eliminate them with area of effect spells. In a magic duel, a mage will usually use their reaction and bonus action to try and counter-spell other mages.
+
+___
+### Human Warlock (level 7)
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|18/16/16|34 (*22*)|40 (*28*)|11|30|-|
+
+Travelling over dangerous terrain, will use brigandine and a buckler (HiT: 15/15/11)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|10|14|14|12|16|14|
+|Bonus|0|+2|+2|+1|+3|+2|
+|Save|+2|+4|+4|+7|+5|+4|
+
+|Level(base)|SP dice|MP Dice|Nat|Sup|NAP|SAP|
+|-|-|-|-|-|-|-|
+|7 (2)|10|13|2|3|4|6|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Dagger|+6|1d4|-|
+|Short sword|+6|1d6|-|
+|[Spellcasting: Kinetic I](../06-abilities.md#spellcasting-local)|Threshold=18||"[Witch's Candle](../08-spell-list.md#witchs-candle)", "[Least Shroud](../08-spell-list.md#least-shroud)", "[Whispers](../08-spell-list.md#whispers)","[Enflame](../08-spell-list.md#enflame)", "[Spirits' Secret](../08-spell-list.md#spirits-secret)|
+|[Spellcasting: Incantation III](../06-abilities.md#spellcasting-local)|Threshold=18||[Down](../08-spell-list.md#down), [Least Ward](../06-abilities.md#least-ward), [Least Spike](../08-spell-list.md#least-spike), [Least Vengeance](../08-spell-list.md#least-vengeance), [Promise](../08-spell-list.md#promise), [Lesser Veil](../08-spell-list.md#lesser-veil), [Wind Walk](../08-spell-list.md#wind-walk)|
+|[Spellcasting: Global](../06-abilities.md#spellcasting-global)||||
+|[Bind Familiar I](../06-abilities.md#bind-familiar-i-iv)||||
+|[Deflection](../06-abilities.md#deflection)|||A mage may a reaction and potentially MP dice to reduce damage from "supernatural" ranged attack|
+|[Elemental Blast: Ice](../06-abilities.md#blast-elemental-blast)|+9|2d6+2 Ice[supernatural]|Range=120ft|
+|[Elemental Blast (Line): Ice](../06-abilities.md#line)|Threshold=16|2d6+2 Ice[supernatural]|Range=120ft|
+|[Elemental Touch: Ice](../06-abilities.md#touch-elemental-touch)|+9|2d6+2 Ice[supernatural]|Reach=5ft|
+|[Elemental Sweep: Ice](../06-abilities.md#sweep)|+9|2d6+2 Ice[supernatural]|Reach=5ft|
+|||||
+|Proficiencies|||"Calligraphy" + 2 other kits (or languages), 2 languages, 2 weapons|
+|Skills|||+5 in academics and +4 in 2 knowledge, +3 in other 4, "Observe" +3, 1 rank in another 4|
+
+A warlock is a wielder of supernatural force who specialises in their application for combat.
+
+Warlocks are feared, respected, or both, depending on the society they belong to. They are used as enforces and leaders of cults and secret societies, as well as battle-mages in societies whose armed forces embrace the supernatural.
+
+In combat, a warlock will use stealth (invisibility) to approach close enough to their foe, to engage in elemental attacks, which they will generally unleash at full power. Warlocks are also capable of using more subtle tactics to achieve their goals.
 
 ___
 ### Human Mage, Arch-mage (level 12)
@@ -901,7 +944,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|[Elemental Touch](../06-abilities.md#touch-elemental-touch)|+9|2d6+2|(fire or ice), +2d6 per MP dice|
+|[Elemental Touch](../06-abilities.md#touch-elemental-touch)|+9|2d6+2|(fire or ice), +1d6 per MP dice|
 |[Elemental Blast](../06-abilities.md#blast-elemental-blast)|+9|2d4+4|(light or lightning), +1d4 per MP dice, see ability.|
 |Shortstaff|+6|1d6+2||
 |War dart|+6|1d4+2|Range=240ft, Increment=60ft|
@@ -914,6 +957,45 @@ ___
 Geomancers are mages devoted to nature and earth magic.
 
 An orcish geomancer will not fight unless necessary, but takes great joy in destroying its foes if it does fight. That said, a geomancer will usually surrender if it sees that it is defeated.
+
+___
+### Orcish Warlock (level 8)
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|17/15/14|39 (*25*)|46 (*32*)|13|30ft|-|
+
+(+2 from base)
+
+(wears hide armour)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|12|14|16|12|18|14|
+|Bonus|+1|+2|+3|+1|+4|+2|
+|Save|+3|+4|+7|+6|+6|+4|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
+|-|-|-|-|-|-|-|
+|8 (2)|11|15|2|3|4|5|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|[Elemental Touch, Enhanced](../06-abilities.md#touch-elemental-touch)|+9|2d8+4|(light), +1d8 per MP dice|
+|[Elemental Aura](../06-abilities.md#aura)|Threshold=18|2d4+4|(light), +1d4 per MP dice|
+|[Elemental Blast](../06-abilities.md#blast-elemental-blast)|+9|2d4+4|(light or lightning), +1d4 per MP dice, see ability.|
+|[Elemental Blast: Line](../06-abilities.md#line)|Threshold=18|2d4+4|(light or lightning), +1d4 per MP dice, see ability.|
+|[Elemental Blast: Sphere](../06-abilities.md#circle)|Threshold=18|2d4+4|(light or lightning), +1d4 per MP dice, see ability.|
+|Shortstaff|+6|1d6+2||
+|War dart|+6|1d4+2|Range=240ft, Increment=60ft|
+|[Cursed Blood](../06-abilities.md#cursed-blood)|||Reaction to cast spells in revenge|
+|Spellcasting: Nature I|||"[Compass](../08-spell-list.md#compass)", "[Hide](../08-spell-list.md#hide)", "[Least Heal](../08-spell-list.md#least-heal)"|
+|Spellcasting: Earth III|||"[Down](../08-spell-list.md#down)", "[Least Geomancy](../08-spell-list.md#least-geomancy)", "[Bear's Claws](../08-spell-list.md#bears-claws)", "[Shape Earth](../08-spell-list.md#shape-earth)", "[Summon gnome](../08-spell-list.md#summon-gnome)", "[Guidance of the Earth](../08-spell-list.md#guidance-of-the-earth)", "[Earth Ward](../08-spell-list.md#earth-ward)"|
+|Proficiency|||Common and any 2 languages, axes, spears, strikes, staves|
+|Skills|||"Spellworking" +10, knowledge nature, arcana +8, "observe" +7, "track" + 5, "fortify" +4, "navigate" +4|
+
+Orcs use warlocks to fight against supernatural foes who cannot be fought by conventional means.
+
+An orcish warlock despises combat against living, flesh and blood foes that can be vanquished by the sword, but will nevertheless fight them if necessary.
 
 ___
 ## Winged

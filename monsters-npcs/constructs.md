@@ -32,6 +32,7 @@ Gingerbread golems, also known as gingerbread men are usually small or tiny past
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |18/11/18|15 (*13*)|13 (*11*)|5|60ft|
+
 **Size category**: Tiny (5/4ft x 5/4ft)
 - Reach: 0ft
 - Carry capacity: (6lb light, 12lb medium, 30lb heavy, 45lb drag)
@@ -67,6 +68,7 @@ Gingerbread golems, also known as gingerbread men are usually small or tiny past
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |19/12/19|32 (*22*)|32 (*22*)|10|80ft|
+
 **Size category**: Tiny (5/4ft x 5/4ft)
 - Reach: 0ft
 - Carry capacity: (7lb light, 14lb medium, 35lb heavy, 52.5lb drag)

@@ -319,7 +319,7 @@ Size = large
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Hooves|+6|1d8+4|Don't get kicked by a horse|
-|[Mighty I](../06-abilities.md#mighty-i)||Can carry more weight than your average beast|
+|[Mighty I](../06-abilities.md#mighty-i)|||Can carry more weight than your average beast|
 |Skills|||"Observe" +2|
 
 This is used for cart horses and can also be used for oxen
@@ -352,7 +352,7 @@ Size = large
 |-|-|-|-|
 |Hooves|+7|1d8+4|Don't get hit by a horse|
 |[Sprinter](../06-abilities.md#sprinter)|||Run faster|
-|[Mighty I](../06-abilities.md#mighty-i)||Can carry more weight than your average beast|
+|[Mighty I](../06-abilities.md#mighty-i)|||Can carry more weight than your average beast|
 |Skills|||"Observe" +3|
 
 This is used for warhorses. Unlike other horses these are combat trained. War horses can be of higher level. In general a warhorse should be half the level of its rider. Knights often have armour (barding) made for their warhorse.

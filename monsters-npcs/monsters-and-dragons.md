@@ -20,6 +20,8 @@
     - [Griffon, Hippogriff](#griffon-hippogriff)
     - [Griffon, Owl-griff](#griffon-owl-griff)
     - [Griffon, Sparrow-griff](#griffon-sparrow-griff)
+    - [Pegasus](#pegasus)
+    - [Unicorn, White](#unicorn-white)
 - [Lycanthropes](#lycanthropes)
     - [Werewolf, Lesser](#werewolf-lesser)
     - [Werewolf, Greater](#werewolf-greater)
@@ -612,7 +614,6 @@ Deflection: +2
 
 A kraken makes 8 attacks with its tentacles. It can attack targets smaller than itself with no more than 4 tentacles. If the target is "medium" or smaller, it can only attack it with 2 tentacles at a time.
 
-
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Combined Manoeuvre 1|||A kraken can combine up to two basic combat manoeuvres for 1 SP dice.|
@@ -845,6 +846,99 @@ ___
 |Skills|||"Observe" +1, "Fly" +4, "Stealth" +4|
 
 A sparrow-griff is a tiny pest with the front of a sparrow and the hind-side of a mouse. It dwells around farmsteads, and wizard's towers, eats any supplies it can get its paws on, and leaves a mess behind it. Some mages use them as familiars.
+
+___
+### Pegasus
+**Size category**: Large (10ft x 10ft)
+- Evade: -1, Armour +1
+- Reach: 5ft (long)
+- [DEX save]: -1, [STR save]: +1
+- Carry capacity: (0 - 480lb light, 480-1200lb heavy, 1800 drag)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|12/11/11|30 (*21*)|10 (*10*)|8|50ft|Flight (80ft, average, endurance = 4 hours)|
+
+|     |Str|Dex|Con|Int|Wis|Cha|
+|-----|---|---|---|---|---|---|
+|Stat |20 |14 |16 |8  |12 |17 |
+|Bonus|+5 |+2 |+3 |0  |+1 |+3 |
+|Save |+8 |+2 |+5 |+2 |+3 |+5 |
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-----------|-------|-------|---|---|---|---|
+|6 (2)      |10     |10     |2  |2  |4  |4  |
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Hooves|+9|1d8+5|Don't get hit by a horse, or a pegasus for that matter|
+|[Sprinter](../06-abilities.md#sprinter)|||Run faster|
+|[Mighty II](../06-abilities.md#mighty-i)|||Can carry more weight than your average beast|
+|Skills|||"Observe" +5, "Fly" +6, "Athletics" +8|
+
+A pegasus is flying horse with almost human-like intelligence that are capable of soaring flight. Wild pegasi are incredibly difficult to catch, tame, breed and train. Together this makes them extraordinarily desirable as mounts, and humanoid elite will stop at little to obtain a steed such as this.
+___
+### Unicorn, White
+**Size category**: Large (10ft x 10ft)
+- Evade: -1, Armour +1, Deflection +4
+- Reach: 5ft (long)
+- Saves: DEX, INT, WIS, CHA
+- [DEX save]: -1, [STR save]: +1
+- Carry capacity: (216lb light, 432lb medium, 1080lb heavy, 1620lb drag)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|19/19/19|76 (*36*)|93 (*43*)|20|60ft|Blink (40ft)|
+
+|     |Str|Dex|Con|Int|Wis|Cha|
+|-----|---|---|---|---|---|---|
+|Stat |22 |17 |19 |15 |15 |21 |
+|Bonus|+6 |+3 |+4 |+2 |+2 |+5 |
+|Save |+9 |+9 |+7 |+9 |+9 |+12|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-----------|-------|-------|---|---|---|---|
+|11 (3)     |16     |19     |3  |4  |6  |7  |
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Hooves|+12|1d8+6|(Reach=5ft, long)|
+|Horn|+12|1d12+6|(Reach=5ft, long)|
+|[Holy Strike](../06-abilities.md#holy-strike)||2d6|A true unicorn can expend MP to infuse its hooves or horn with supernatural light, dealing extra damage. It may expend 1 MP and deal 2d4 of light damage. Profane entities hit by this attack must succeed a CHA save (Threshold=13+SUP+[CHA]) or be "blinded" (repeated save applies).|
+|||||
+|Sunder|+12||A unicorn can destroy the weapons and armour of its foes|
+|Throw|+12||A unicorn can knock down its foes|
+|[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||(1SP die) A unicorn can combine any two basic combat manoeuvres that it is proficient with.|
+|Monster Attack I|||A unicorn makes one attack with its horns and one with its hooves.|
+|||||
+|[Alert](../06-abilities.md#alert)|||A unicorn cannot be surprised.|
+|[Swift Spell](../06-abilities.md#swift-spell)|||A unicorn can spend 2 MP dice to cast a spell as a secondary action instead of a main action|
+|[Deflection](../06-abilities.md#deflection)|||A unicorn can can reduce damage from ranged supernatural attacks by 1d4+7+([MP dice]d4) as a reaction.|
+|[Esoteric Deflection](../06-abilities.md#esoteric-deflection)|||A unicorn can, as a reaction, reduce the damage from a "esoteric" ranged attack by [1d6 + [2 x MP dice expended]]|
+|Radiant deflection|HiT: +4||A radiant power surrounds a unicorn, protecting them from harm|
+|[Spellcasting: Incantation VI](../06-abilities.md#spellcasting-local)|Threshold=19||Favourite Spells: "[Least Spike](../08-spell-list.md#least-spike)", "[Sour](../08-spell-list.md#sour)", "[Least Heal](../08-spell-list.md#least-heal)", "[Least Vengeance](../08-spell-list.md#least-vengeance)", "[Meadow of Flame](../08-spell-list.md#meadow-of-flame)", "[Wind Walk](../08-spell-list.md#wind-walk)", "[Cure](../08-spell-list.md#cure)", "[Greater Xenophonia](../08-spell-list.md#greater-xenophonia)", "[Isolate Essence](../08-spell-list.md#isolate-essence)", "[Pact](../08-spell-list.md#pact)", [Heart Ward](../08-spell-list.md#heart-ward)", "[Spirit Restoration](../08-spell-list.md#spirit-restoration)", "[Razor Wind](../08-spell-list.md#razor-wind)", "[Otherworld Step](../08-spell-list.md#otherworld-step)"|
+|[Spellsong III](../06-abilities.md#spellsong-i-iv)|||A unicorn's song can alter the nature of magic around it|
+|[Sprinter](../06-abilities.md#sprinter)|||A unicorn can run at x3 its base speed, and sprint x5 its base speed.|
+|[Mighty I](../06-abilities.md#mighty-i)|||Can carry more weight than your average beast|
+||||||
+|Immunity|||"aphonic", "blinded", "charmed", "deafened", "frightened"||
+|Vulnerability|||"poison", "necrotic", "profane" damage.|
+|True-speech|||A true unicorn cannot lie|
+|||||
+|[Low Light Vision](../06-abilities.md#low-light-vision)|||A unicorn can see in dim light as well as in sunlight.|
+|[Life Sense (60ft)](../06-abilities.md#life-sense-i-v)|||A unicorn can sense living beings within 60ft of it.|
+|Skills|||"Athletics" +11, "Observe" +7, "Sense Motive" +7, "Spellcraft" +7, "Knowledge: Nature" +5, "Knowledge: Arcana" +6, "Knowledge: Religion" +10|
+|Loot|||A unicorn's body, especially its heart, blood and horn, are valued for the magic and rarity of the creature. Whether it retains it or not, is another matter. A unicorn yields enough hide for two suits of medium sized armour and up to 400lb of meat.|
+
+A unicorn is a horse-like being with a single straight horn upon its forehead. It runs faster than a horse, and unlike a horse has human-like intelligence and potent magic.
+
+Unicorns dislike humanoids and may either flee or attack them on sight. They make an exception for those humanoids they consider innocent and pure, and may even heal such humanoids or allow them onto their back.
+
+A unicorn prefers to avoid combat, but should it be sufficiently provoked, it will use its significant arcane potential to annihilate its foes. It is particularly merciless against fiends.
+
+OPTIONAL:
+- When a unicorn is killed for its horn or hunted for pleasure, it is reborn as a [Black Unicorn](profanes.md#unicorn-black) within the year.
+- Every 7th unicorn that sacrifices itself in the defence of innocence, is reborn as a [True Unicorn](divines.md#unicorn-true) within the year.
 
 ___
 ## Lycanthropes

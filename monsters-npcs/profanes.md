@@ -784,7 +784,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|21/21/21|86 (*42*)|98 (*43*)|21|60ft|Blink (40ft)|
+|21/21/21|86 (*42*)|98 (*43*)|21|60ft|Blink (80ft)|
 
 |     |Str|Dex|Con|Int|Wis|Cha|
 |-----|---|---|---|---|---|---|

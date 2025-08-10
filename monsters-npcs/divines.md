@@ -204,7 +204,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|22/22/22|102 (*48*)|142 (*51*)|25|60ft|Blink (60ft), Cosmic (1 realm)|
+|22/22/22|102 (*48*)|142 (*51*)|25|60ft|Blink (80ft), Cosmic (1 realm)|
 
 |     |Str|Dex|Con|Int|Wis|Cha|
 |-----|---|---|---|---|---|---|

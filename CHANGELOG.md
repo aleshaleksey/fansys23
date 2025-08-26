@@ -442,6 +442,7 @@ ____
 
 ### General
 - Slightly reword some parts of the intro chapter.
+- Make the 
 
 ### Movement and Exploration
 - Change flight rules to support different [flight endurance](03-movement-exploration.md#flight-parameters) independently of flight rating (Also added modification to racial flight rules).
@@ -453,6 +454,9 @@ ____
 - Add heavy armour proficiency prerequisite to [heavy armour mastery](06-abilities.md#armour-mastery-heavy).
 - Add "[Greater Broad Strike](06-abilities.md#broad-strike-greater)".
 - Change the wording on "[Mighty II](06-abilities.md#mighty-ii)" to make it understandable by mortals.
+- Double the cost of [flash step](06-abilities.md#flash-step) when wearing certain medium armours.
+- Allow two targets by default for [elemental sweep](06-abilities.md#sweep).
+- Empower [Bard Song](06-abilities.md#bard-song-i-iv) a bit more.
 
 ### Spell list
 - Tidy up spell costs for global spells and upcasting terminology.

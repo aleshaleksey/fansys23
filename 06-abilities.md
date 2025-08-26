@@ -509,7 +509,7 @@ ___
 **Targets**: All allied entities within range that can hear the song.
 
 **Effect**: Each targets within range that can hear the song gain resistance to requisite conditions ("frightened", "catatonic", "incapacitated", "paralysed",depending on bard song level). In addition each affected entity in range gains the following benefits:
-- It can add its [base](02-base-rules.md#base) to a single roll.
+- It can add its [base](02-base-rules.md#base) to a single roll per round while it can hear the song.
 - It may gain advantage on a single roll per song (see "prerequisite table" below).
 
 **Limitations**:
@@ -534,7 +534,10 @@ ___
 **Special**:
 - This ability must be taken separately for each movement modality.
 - Flash step cannot be used with "dig" speed, "swim" speed or "cosmic" speed.
-- This ability cannot be used when wearing heavy armour.
+
+**Limitation**:
+- Flash Step cannot be used when wearing heavy armour.
+- The SP dice cost of Flash Step is doubled when wearing medium armour other than "Full Padded" and "Full Leather" armour.
 
 **Prerequisites**: 6 SP dice and 4 MP dice total.
 
@@ -1159,7 +1162,9 @@ ___
 #### Sweep
 The elemental sweep modifies an elemental touch, striking additional targets adjacent to the wielder as they sweep out an arc.
 
-**Action**: As for elemental touch, but also declare additional adjacent squares. For every additional square affected, expend an extra MP die. Regardless of the number of squares affected, a single attack roll vs the target HiT is rolled.
+**Action**: As for elemental touch, but also declare additional adjacent squares. For every additional square affected beyond 2, expend an extra MP die. Regardless of the number of squares affected, a single attack roll vs the target HiT is rolled.
+
+**Limitation**: The damage dice size increase from "[Touch, enhanced](#touch-enhanced)" only applies to one of the targets of elemental sweep.
 
 ___
 #### Aura

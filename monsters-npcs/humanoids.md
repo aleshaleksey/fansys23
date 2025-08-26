@@ -13,6 +13,7 @@ This section contains a few NPC stat blocks and notes on their intended use and 
     - [Human Magic Knight (level 9)](#human-magic-knight-level-9)
     - [Human Elemental Knight (level 9)](#human-magic-knight-variant-elemental-knight-level-9)
     - [Human Scout (level 5)](#human-scout-level-5)
+    - [Human Assassin (level 7)](#human-assassin-level-7)
     - [Human Mage, Apprentice (level 2)](#human-mage-apprentice-level-2)
     - [Human Scholar (level 3)](#human-scholar-level-3)
     - [Human Elite (level 5)](#human-elite-level-5)
@@ -322,7 +323,8 @@ ___
 |Shortbow|+6|1d6+3 piercing|Range=600ft, Increment=120ft|
 |Light crossbow|+6|1d10+3 piercing||
 |||||
-|[Precision Attack II](../06-abilities.md#precision-attack-i-x)|2d8||A scout can deal extra damage to targets that are unaware of it|
+|[Precision Attack I](../06-abilities.md#precision-attack-i-x)|1d8||A scout can deal extra damage to targets that are unaware of it|
+|[Parry](../06-abilities.md#parry)|||A scout can add +2 to HiT vs up to 3 melee attacks.|
 |[Stalker](../06-abilities.md#stalker)|||A scout can use stealth as a secondary action|
 |[Fleet](../06-abilities.md#fleet)|||A scout can hide even in light concealment|
 |[Opportunist](../06-abilities.md#opportunist)|||A scout can take advantage of the smallest openings|
@@ -333,13 +335,60 @@ ___
 |Skills|-|-|Usually +4 climb, +3 athletics, +2 fortify, +7 stealth, +5 acrobatics, +5 sleight of hand, +2 prospect, +3 history, +5 observe, +4 sense motive, +4 deception|
 |Loot|||Usually the tools of their trade, and clothes on their back.|
 
-This represents experienced scouts, saboteurs, snipers, marksmen and well trained assassins.
+This represents experienced scouts, saboteurs, snipers, marksmen, low rank assassins or even general swashbucklers.
 
 A scout attempts to avoid being seen when performing their duty, or to "hide in plain sight". Under certain circumstances they will take extreme measures to eliminate those that have witnessed their activities.
 
 A scout generally prefers not to engage in combat if their mission can be accomplished without doing so. If they must engage in combat, they would rather attack from their target while it is unaware and quickly finish the task. A scout that realises the impossibility of defeating their foe will usually flee. They may surrender to incidental foes, but will very seldom surrender to their mark, or those working with them, as the value of information they carry means that o capture their fate is usually grim.
 
 Scouts are proficient with light blades, light armour, bows and sometimes mechanical bows, spears and staves. On missions where discretion is important they will use only equipment that is easily hidden. Since training a skilled scout is a lengthy and expensive process, they are generally few in number and, in most cases, they are used carefully by their taskmasters.
+
+___
+### Human Assassin (level 7)
+|HiT|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|17/14/15|33 (*27*)|26 (*19*)|9|35ft|-|
+
+(includes +1 from leather cuirass)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|12|18|12|12|14|13|
+|Bonus|+1|+4|+1+1|+2|+1|
+|Save|+3|+8|+3|+3|+4|+3|
+
+|Level(base)|SP dice|MP Dice|Nat|Sup|NAP|SAP|
+|-|-|-|-|-|-|-|
+|7 (2)|13|9|3|2|5|4|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Dagger|+8|1d4+4 Slashing/piercing|Reach=5ft, Range=60ft, Increment=10ft|
+|Shuriken|+8|1d4+4 slashing/piercing|Range=60ft, Increment=20ft|
+|Composite Bow|+8|1d6+4 piercing|Range=600ft, Increment=120ft|
+|Hand Crossbow|+8|1d6+4 piercing|Range=360ft, Increment=60ft|
+|||||
+|[Precision Attack III](../06-abilities.md#precision-attack-i-x)|3d8||An assassin can deal extra damage to targets that are not aware of it.|
+|[Assassinate I](../06-abilities.md#assassinate-i-v)|||An assassin can deal damage directly to the HP of an [immobilised](../10-conditions-types.md#immobilised) target.|
+|[Parry](../06-abilities.md#parry)|||A scout can add +2 to HiT vs up to 3 melee attacks.|
+|[Stalker](../06-abilities.md#stalker)|||A scout can use stealth as a secondary action|
+|[Fleet](../06-abilities.md#fleet)|||A scout can hide even in light concealment|
+|[Opportunist](../06-abilities.md#opportunist)|||A scout can take advantage of the smallest openings|
+|[Sniper](../06-abilities.md#sniper)|||A scout maintains stealth if they attack from hiding and miss.|
+|[Silent Step II](../06-abilities.md#silent-step-i-iii)|||An assassin can maintain stealth even while running.|
+|||||
+|||||
+|Proficiencies|||"Light Blades","Light Armour","Bows","Mechanical Bows","Spears","Staves","Grapple","Throw","Disguise Kit","Healer's Kit","Lock-picks","Forgery Kit", "Poisoner's Kit"|
+|Skills|-|-|Usually +5 climb, +3 athletics, +2 fortify, +9 stealth, +6 acrobatics, +6 sleight of hand, +2 prospect, +3 history, +5 observe, +3 academics, +4 sense motive, +4 deception|
+|Loot|||Usually the tools of their trade, and clothes on their back.|
+
+This represents well trained assassins, ninjas, and similar units.
+
+Assassins have a task of disposing of high value targets, usually discreetly. They are generally used by those at the top of human society to dispose of those who might stand against, but are also used in wartime to kill high value targets.
+
+Assassins often spend a long time observing their mark before deciding on the best means to dispose of them safely. An assassin generally prefers to accomplish their task without drawing attention to themselves and will use any means to do so. They will generally strike when their target is most vulnerable. Assassins generally retreat when their predicament becomes particularly dangerous. That said, there are examples that prove the rule.
+
+DMs should be careful with this NPC, since they can easily kill multiple members of the party.
 
 ___
 ### Human Mage, Apprentice (level 2)

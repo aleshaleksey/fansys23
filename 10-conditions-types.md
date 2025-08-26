@@ -486,6 +486,7 @@ An glowing character cannot stealth and is never invisible.
 
 #### Grappled
 A grappled character has a movement speed of 0ft.
+- A grappled character that is in full concealment is considered to have only 3/4 concealment vs the grappling creature.
 
 #### Inaudible
 A silent character makes no sound. It can neither make sounds willingly or unwillingly

@@ -396,7 +396,7 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Bite|+8|2d12+4|Piercing, shear|
-|Great shout|Threshold=20 CHA||Cost: 2 SP dice. Range: 30ft sphere centred on the head. All entities that can hear the shout and fail the charisma save are stunned till the end of the head's next turn.|
+|Great shout|Threshold=20 CHA||Cost: 2 SP dice. Range: 30ft sphere centred on the head. All entities that can hear the shout and fail the charisma save are [incapacitated](../10-conditions-types.md#incapacitated) till the end of the head's next turn.|
 |Resistant|||"fear", "charm", "catatonic", "stun"|
 |Senses|||"Keen senses", "low light vision"|
 |Skills|||+5 to any 2, +4 to any two (usually knowledge arcana, track, nature)|
@@ -538,7 +538,7 @@ ___
 |Claws|+11|2d6+6|Piercing, shear|
 |Grapple, Restrain|+11||||
 |Combined Manoeuvre: Grapple|||Bite only: Trolls can deal damage with their bite while simultaneously grappling their target (1SP die)|
-|Great shout|Threshold=20 CHA||Cost: 2 SP dice. Range: 30ft sphere centred on the troll. All entities that can hear the shout and fail the charisma save are stunned till the end of the troll's next turn.|
+|Great shout|Threshold=20 CHA||Cost: 2 SP dice. Range: 30ft sphere centred on the troll. All entities that can hear the shout and fail the charisma save are [incapacitated](../10-conditions-types.md#incapacitated) till the end of the troll's next turn.|
 |Monster attack|||A troll makes two claw attacks. It can also make either a bite attack or a |
 ||||||
 |Resistant|||"fear", "charm", "catatonic", "stun"|

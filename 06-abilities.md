@@ -537,7 +537,7 @@ ___
 
 **Limitation**:
 - Flash Step cannot be used when wearing heavy armour.
-- The SP dice cost of Flash Step is doubled when wearing medium armour other than "Full Padded" and "Full Leather" armour.
+- The SP dice cost of Flash Step is doubled when wearing medium armour.
 
 **Prerequisites**: 6 SP dice and 4 MP dice total.
 
@@ -1080,7 +1080,6 @@ ___
 
 **Limitations**: Elementalism originates from the user and travels more or less in a straight line, unaffected by wind or gravity. The blast is affected by cover and concealment. If the blast impacts cover, it may damage, ignite, or have other affects on it (see below).
 
-
 ___
 #### Elements:
 An elementalism can only have one form, which is selected before any rolls are made. An elementalism must have an element.
@@ -1558,8 +1557,6 @@ ___
 
 **Limitation**: Applicable only to bows, slings, war darts and shurikens.
 
-
-
 ___
 #### Shield Master
 
@@ -1760,7 +1757,6 @@ ___
 - Proficiency with at least one weapon proficiency group.
 - 4 SP dice and 7 MP dice total.
 - At least one spellcasting ability.
-
 
 ___
 ### General Boons
@@ -1965,7 +1961,6 @@ ___
 |Light     |(0lb to 12lb) x Str  |
 |Heavy     |(12lb+ to 30lb) x Str|
 |Drag      |Up to 45lb x Str     |
-
 
 **Prerequisite**: Mighty I + 15 STR + 15 CON.
 

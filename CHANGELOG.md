@@ -454,7 +454,7 @@ ____
 - Add heavy armour proficiency prerequisite to [heavy armour mastery](06-abilities.md#armour-mastery-heavy).
 - Add "[Greater Broad Strike](06-abilities.md#broad-strike-greater)".
 - Change the wording on "[Mighty II](06-abilities.md#mighty-ii)" to make it understandable by mortals.
-- Double the cost of [flash step](06-abilities.md#flash-step) when wearing certain medium armours.
+- Double the cost of [flash step](06-abilities.md#flash-step) when wearing medium armours.
 - Allow two targets by default for [elemental sweep](06-abilities.md#sweep).
 - Empower [Bard Song](06-abilities.md#bard-song-i-iv) a bit more.
 

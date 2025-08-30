@@ -100,6 +100,9 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 
 ### Supernatural (General)
 
+- [Alternate Form I-IV](#alternate-form-i-iv)
+- [Alternate Form: Swift Transformation](#alternate-form-swift-transformation)
+- [Alternate Form: Sequester](#alternate-form-sequester)
 - [Aphonic Spell](#aphonic-spell)
 - [Bind Beast (I-X)](#bind-beast-i-x)
 - [Bind Familiar (I-IV)](#bind-familiar-i-iv)
@@ -755,6 +758,71 @@ ___
 ___
 ### General Abilities (Supernatural)
 
+#### Alternate Form I-IV
+
+**Type**: (Class C-A, Supernatural)
+
+**Description**: The character has a second physical form and can change between its first form and its other form as a main action. The exact form is chosen when taking the ability and can be changed upon reaching levels 6, 11 and 16, or at other level ups with consensus of the group.
+
+**Action**: Declare "alternate form" and use a main action to transform.
+
+**Prerequisites**:
+- At least one level of [spellcasting](07-magic-and-spellcasting.md#the-7-types-of-magic) belonging to any the categories of  "air", "nature" or "water".
+- 7 MP dice.
+
+**Table**:
+|Ability Level|Min Base|Max Size  |Permitted Types       |Allowed Modalities|
+|-------------|--------|----------|----------------------|------------------|
+|I            |1       |Medium    |Beast, Humanoid       |Walk, Swim, Climb |
+|II           |2       |Large     |As I + Plant, Monster |As I + Fly, Dig   |
+|III          |3       |Huge      |As II + Elemental, Fey|As II             |
+|IV           |4       |Gargantuan|As III + Fiend, Angel |As III + Blink    |
+
+**Special**:
+- The alternate form is always the same. For example, if a character transforms into a cat, it is always the same cat.
+- A character with alternate form can ignore the transformative effects of spells such as "[Least Transformation](08-spell-list.md#least-transformation)" and "[Bestial Transformation](08-spell-list.md#bestial-transformation)" by using their main action to transform back into one of their forms.
+- If some abilities/properties of a chosen form is sealed at a lower level of alternate form, they become unlocked upon reaching the correct level of "alternate form".
+- When a character transforms, its physical stats, movement modalities, and properties that depend on the physical form of the new form are replaced (this includes resistances and senses). Mental stats and supernatural abilities are not affected. SP dice, MP, MP dice, and HP are not affected.
+- A character returns to its original form when it dies, but not necessarily when it is merely unconscious.
+- A character can *be returned* to its original form by dispelling the alternate form, [as per the dispelling rules](07-magic-and-spellcasting.md#banishing-breaking-counter-spelling-and-dispelling). If the alternate form is dispelled, the character cannot use "Alternate Form" for a number of turns equal to the difference between the dispel roll and threshold. For example, if the Threshold=18, and the dispelling character rolls a 23, the shapeshifter cannot return to its alternate form for 5 rounds.
+
+**Limitations**:
+- If the difference in CON between the two forms would increase, or decrease, the SP maximum, SP changes by the difference. For example if a character has +2 [CON], but its alternate form has +3 [CON] and the character has 6 SP dice and a level of 3, its main form would have 18 SP, and its alternate form would have 21 SP. Thus if a character fights in its alternate form and is reduced to 9/21 SP, when it returns to the main form, it would have 6/18 SP. If it has 2/21 SP it will return to 0/18 and take 1 HP damage.
+- Switching between forms does not use SP or MP dice. However, when a character has 0 MP or 0 MP dice, it cannot switch between forms.
+- Switching between forms does not in any way affect equipment or items carried by the character. Equipment that is incompatible with the character's may be shed or damaged.
+
+This ability is potentially broken and should only be included in a game by consensus within the group.
+
+___
+#### Alternate Form: Swift Transformation
+
+**Type**: (Class B, Supernatural)
+
+**Description**: A character with alternate form can transform as a "secondary action" instead of as a "main action". 
+
+**Original state**: Transformation requires a "main action".
+
+**Prerequisite**: [Alternate Form I](#alternate-form-i-iv)
+
+___
+#### Alternate Form: Sequester
+
+**Type**: (Class A, Supernatural)
+
+**Description**: A character with alternate form can choose whether their equipment and carried items are affected by their transformation or not.
+
+**Original state**: Equipment is not affected by the transformation of "alternate form". Equipment that is incompatible with the character's may be shed, damaged.
+
+**Prerequisite**: [Alternate Form II](#alternate-form-i-iv)
+
+**Special**:
+- All of a character's equipment is affected in the same way.
+- A character may chose whether equipment:
+  - Is sequestered inside them (it still counts against carrying capacity).
+  - Changes size to fit the size of the new form, this also changes its weight as per the [size table](02-base-rules.md#size-rules-table). This is useful when switching between similar forms of the same size.
+  - Is not affected by the transformation, and may be shed or in worst case scenarios, damaged.
+
+___
 #### Aphonic Spell
 
 **Type**: (Class B)

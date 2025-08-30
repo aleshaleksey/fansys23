@@ -457,10 +457,11 @@ ____
 - Double the cost of [flash step](06-abilities.md#flash-step) when wearing medium armours.
 - Allow two targets by default for [elemental sweep](06-abilities.md#sweep).
 - Empower [Bard Song](06-abilities.md#bard-song-i-iv) a bit more.
+- Add [Alternate Form](06-abilities.md) and []
 
 ### Spell list
 - Tidy up spell costs for global spells and upcasting terminology.
-- Add more uses for [Spirits' Secret](08-spell-list.md#spirits-secret)
+- Add more uses for [Alternate Form I-IV](06-abilities.md#alternate-form-i-iv), [Alternate Form: Sequester](06-abilities.md#alternate-form-sequester) and [Alternate Form: Swift Transformation](06-abilities.md#alternate-form-swift-transformation).
 
 ### Weapons and Armour
 - Mauls, axes and siege weapons [ignore some damage reduction](11-weapons-armour.md) of certain materials.

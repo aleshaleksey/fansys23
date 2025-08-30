@@ -1182,7 +1182,7 @@ ___
 - The same entity type and subtype as your own.
 
 **Special**:
-- Shapeshifters can ignore the effects of this spell.
+- Shapeshifters can ignore the effects of this spell by using the appropriate action to return to one of their own forms.
 - The target, if it does not succeed the initial save, does not get another chance to save.
 
 **Upcast**: For every extra MP dice above 2 spent, the spell lasts for an extra hour, or you can target an extra entity.
@@ -2338,7 +2338,7 @@ ___
 **Description**: The target becomes an "animal" or "plant" of level 8 or lower, but no higher than its own level + 1 for the duration of the spell. It replaces its character sheet with that of the entity it transforms into. (12)
 
 **Special**:
-- Shapeshifters can ignore the effects of this spell.
+- Shapeshifters can ignore the effects of this spell by using the appropriate action to return to one of their own forms.
 - The target, if it fails the initial save, does not get another chance to save.
 - If the target is not at full HP/SP/MP/SP dice/MP dice, subtract the missing amount from the maximum value of the new form. If the starting total for HP/SP/MP/SP dice/MP dice is below 1, it is set to 1 instead.
 
@@ -3988,7 +3988,7 @@ ___
 **Description**: The target transforms into any ["mortal"](10-conditions-types.md#mortals) of its own level or lower. It replaces its character sheet with that of the entity it transforms into, although it retains its own equipment and memories. An unwilling target can attempt a WIS save to negate the effects of the spell. On a success the spell does not occur.
 
 **Special**:
-- Shapeshifters can ignore the effects of this spell.
+- Shapeshifters can ignore the effects of this spell by using the appropriate action to return to one of their own forms.
 - The target, if it fails the initial save, does not get another chance to save.
 - If the target is not at full HP/SP/MP/SP dice/MP dice, subtract the missing amount from the maximum value of the new form. If the starting total for HP/SP/MP/SP dice/MP dice is below 1, it is set to 1 instead.
 

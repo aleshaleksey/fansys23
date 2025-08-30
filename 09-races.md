@@ -418,7 +418,7 @@ This represents a low-grade vampire. Its type is undead, but due to lack of poin
 - **Size**: Medium
 - **Stats**: (Str: +4, Dex: +2, Con: +2, Int: +2, Wis: +2, Cha: +4) (16 points)
 - **Movement**: Walk 40ft + Climb 40ft (4 point)
-- **Sight**: Normal, low-light vision, "heat sense II" (30ft), "life-sense II" keen scent. (10 point)
+- **Sight**: Normal, low-light vision, "heat sense II" (30ft), "life-sense II", "keen scent". (10 point)
 - **Type**: Undead, partial (does not breathe, sleep or age) (8 point)
 - **Proficiencies**: One appropriate language.
 

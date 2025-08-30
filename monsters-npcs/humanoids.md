@@ -2,6 +2,10 @@
 
 This section contains a few NPC stat blocks and notes on their intended use and typical examples of social roles.
 
+It should be immediately apparent that there are far more human stat blocks than stat blocks for other races/templates. It should also be apparent that separate kinds of stat blocks have been made for different races/templates.
+
+The reason for different races having different kinds of stat blocks was to reflect the that different races are not just humans with different colour skin and ears of different length, but rather completely different beings with a different mind and body, and subsequently a social structure that is potentially incompatible with humanity's. However, this is not necessarily the case in all fantasy worlds. For this reason, a short guide on converting the human stat blocks to other races/templates is provided at the [end of the chapter](#converting-human-npcs).
+
 ## List
 
 - [Humans](#human)
@@ -1699,6 +1703,92 @@ A colossus will prepare the battlefield with "[Lesser Weather Control](../08-spe
 When dealing with highly mobile foes that use long ranged attacks that exceed the range of a ~6MP dice elemental blast, a colossus will generally summon air elementals to hunt it down. Otherwise it may use teleportation to close the distance to gain an advantage.
 
 A colossus may surrender or retreat when defeated, or it may simply refuse to believe that the fact.
+
+___
+## Converting Human NPCs
+
+In general converting NPCs is not difficult, especially if we ignore minor details (eg potentially going over weight limits or no longer meeting the prerequisites of abilities). It is encouraged to ignore minor details if converting human NPCs to other races/templates, as pre-made NPC stat blocks exist to save the DM time and do not abide too strictly by the rules anyway, so spending too long converting them is probably counterproductive.
+
+There are some races which should probably not be given additional stat blocks. Namely, these are the [Winged](../09-races.md#the-winged-level-1-template--8-points) and [Sea People](../09-races.md#the-sea-people-level-1-template--8-points). This is because their mechanics and hence environment and lifestyle would inevitably be quite inhuman, and thus many of the existing stat blocks would either not be relevant (anything with medium or heavy armour) or become grotesquely bizarre. This would also apply to other highly inhuman templates. With that in mind, here are the conversion guides.
+
+(It should be noted that the initial bonuses that are granted by human are not subtracted in this conversion, but of course, the DM is free to do so.)
+
+___
+### Elf/Fey touched.
+
+- Add +2 to DEX, +1 to CHA.
+- Subtract -2 from CON.
+- Add low light vision.
+- Add proficiency with bows and change out crossbows (except hand crossbows) for longbows.
+
+___
+### Orc
+
+- Add +2 to STR, +2 to CON.
+- Subtract -2 from INT.
+- Add "[heat sense II](../06-abilities.md#heat-sense-i-v)", proficiency with spears and strikes, resistance to bludgeoning damage and "[prone](../10-conditions-types.md#prone)".
+- If the NPC is equipped with crossbow, change to war dart instead.
+
+___
+### Fiend Touched
+
+- Add +1 to CHA.
+- Add low light vision.
+- Add resistance to poison, poisoned, bleeding.
+- Add "[Elementalism: Elemental Touch](../06-abilities.md#touch-elemental-touch)" of an element of your chice.
+
+___
+### Beast folk
+
+- Add +2 to STR or DEX (use whichever stat is highest in the first place.)
+- Add +5 to walking speed. Add climbing speed 30ft.
+- Add low light vision.
+- Add +1 to track.
+
+___
+### Dragonkin
+
+For all:
+- Add "Keen Senses: Smell".
+- Add proficiency with 1 tool.
+
+For the Fire subkind.
+- Add +1 CON, +2 CHA.
+- Subtract -2 from WIS.
+- Resistance to fire damage and "[aphonia](../10-conditions-types.md#aphonic)".
+- "[Elemental Blast: Fire](../06-abilities.md#elementalism-elemental-blast)".
+
+For the Ice subkind.
+- Add +1 CON, +2 STR.
+- Subtract -2 from DEX.
+- Resistance to cold damage and "[grappled](../10-conditions-types.md#grappled)".
+- "[Elemental Blast: Ice](../06-abilities.md#elementalism-elemental-blast)".
+
+___
+### Half-Dragon (Fire)
+
+- Add +3 STR, +3 CON, +3 CHA, +1 INT, +1 WIS.
+- Subtract -1 DEX.
+- Add "low light vision", "keen smell", "keen sight".
+- [Alternate form II](../06-abilities.md#alternate-form-i-iv): Lesser Dragon (Fire), regardless of prerequisites.
+- Add Immunities: Fear, Fire.
+- Add "[Elemental Blast: Fire](../06-abilities.md#elementalism-elemental-blast)".
+- Add a 1d4 natural bite or claw attack in humanoid form.
+
+___
+### Vampire
+
+- Add +4 STR, +2 DEX, +2 CON, +2 INT, +2 WIS, +4 CHA
+- Add +10 to walk speed, +10 climb speed.
+- Add "low light vision", "heat sense II", "life sense II", "keen sense".
+- Remove requirement to breathe, sleep or age.
+- Add immunity to "unconscious", "frightened", "charmed".
+- Add resistance to "physical", "poison" and "necrotic" damage.
+- [Alternate form I](../06-abilities.md#alternate-form-i-iv): Bat.
+- Add [Charm I](../06-abilities.md#charm-i-iv)
+- Add [Xenophonia III](../06-abilities.md#xenophonia-i-xiii): Beasts, Monsters, Undead.
+- Add [Vampiric bite](../09-races.md#vampire-level-10-template--80).
+- Add [vampire restrictions](../09-races.md#vampire-level-10-template--80).
 
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|

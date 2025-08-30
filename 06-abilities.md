@@ -8,17 +8,17 @@
 6. [Combat Abilities (Natural)](#combat-abilities-natural)
 7. [General Abilities (Natural)](#general-abilities-natural)
 8. [Combat Abilities (Supernatural)](#combat-abilities-supernatural)
-8. [General Abilities (Supernatural)](#general-abilities-supernatural)
-8. [Spellcasting](#spellcasting)
-8. [Combat Boons (Natural)](#combat-boons-natural)
-8. [Combat Boons (Supernatural)](#combat-boons-supernatural)
-8. [General Boons](#general-boons)
+9. [General Abilities (Supernatural)](#general-abilities-supernatural)
+10. [Spellcasting](#spellcasting)
+11. [Combat Boons (Natural)](#combat-boons-natural)
+12. [Combat Boons (Supernatural)](#combat-boons-supernatural)
+13. [General Boons](#general-boons)
 
 **Abilities** are special actions that a character can take outside of the core actions available to all characters (covered in "Combat", "Movement and Exploration", and "Skills"). Abilities are often more potent than the core actions, but these also come at a cost of consuming SP dice and MP dice, so use them with care. Importantly, magic is covered at the end of this chapter.
 
 **Boons** are traits that enhance a character beyond what it would otherwise be. For example, a boon might grant resistance to "bludgeoning" damage, or allow a character to move faster, or breath under water, or attack more than once during a "main action".
 
-The line between "boons" and "abilities" is a fine one, but in general "abilities" are something that is actively used, (eg, "I use elemental touch", "I use far throw"), while a boon is something that is used passively (eg "I have skirmisher so I move behind the enemy where I am flanking and you don't get an attack of opportunity."). 
+The line between "boons" and "abilities" is a fine one, but in general "abilities" are something that is actively used, (eg, "I use elemental touch", "I use far throw"), while a boon is something that is used passively (eg "I have skirmisher so I move behind the enemy where I am flanking and you don't get an attack of opportunity.").
 
 Each category is split up into "combat", "exploration" or "general". The categories are not perfect but they cover most bases relatively well.
 
@@ -157,6 +157,8 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 
 ### General Boons
 
+- [Alternate Form: Swift Transformation](#alternate-form-swift-transformation)
+- [Alternate Form: Sequester](#alternate-form-sequester)
 - [Blind Sight I-VI](#blind-sight-i-vi)
 - [Blink](#blink)
 - [Condition Immunity](#condition-immunity)
@@ -787,6 +789,7 @@ ___
 - A character can *be returned* to its original form by dispelling the alternate form, [as per the dispelling rules](07-magic-and-spellcasting.md#banishing-breaking-counter-spelling-and-dispelling). If the alternate form is dispelled, the character cannot use "Alternate Form" for a number of turns equal to the difference between the dispel roll and threshold. For example, if the Threshold=18, and the dispelling character rolls a 23, the shapeshifter cannot return to its alternate form for 5 rounds.
 
 **Limitations**:
+- The alternate form chosen cannot be a higher level than the initial character. Thus a level 6 character with "Alternate Form II" cannot chose the form of a dragon, as it is a higher level.
 - If the difference in CON between the two forms would increase, or decrease, the SP maximum, SP changes by the difference. For example if a character has +2 [CON], but its alternate form has +3 [CON] and the character has 6 SP dice and a level of 3, its main form would have 18 SP, and its alternate form would have 21 SP. Thus if a character fights in its alternate form and is reduced to 9/21 SP, when it returns to the main form, it would have 6/18 SP. If it has 2/21 SP it will return to 0/18 and take 1 HP damage.
 - Switching between forms does not use SP or MP dice. However, when a character has 0 MP or 0 MP dice, it cannot switch between forms.
 - Switching between forms does not in any way affect equipment or items carried by the character. Equipment that is incompatible with the character's may be shed or damaged.
@@ -822,6 +825,8 @@ ___
   - Changes size to fit the size of the new form, this also changes its weight as per the [size table](02-base-rules.md#size-rules-table). This is useful when switching between similar forms of the same size.
   - Is not affected by the transformation, and may be shed or in worst case scenarios, damaged.
 
+(Technically this is a boon)
+
 ___
 #### Aphonic Spell
 
@@ -837,6 +842,8 @@ ___
 - Must be taken separately for each time of spellcasting.
 - Can be combined with "still spell" and "lingering spell".
 - This allows casting of spells with incantations when under the effects of "aphonia" or "inaudible".
+
+(Technically this is a boon)
 
 ___
 #### Bind Beast I-X

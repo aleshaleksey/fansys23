@@ -496,7 +496,7 @@ This is a collection of unsorted rules related to basic physical combat.
 - Standing can be done as part of a "move" action and costs 1/2 your movement speed rounded down.
 - Moving out of the threatened area of a foe without precautions provokes an attack of opportunity.
 - Moving through a threatened area provokes attacks of opportunity unless the movement is declared as being "cautious", ie at half speed.
-- Melee attacks can be made "non lethal" at no penalty with "bludgeoning" weapons, and at a penalty with other weapons.
+- Melee attacks can be made "non lethal" at no penalty with "percussive" weapons, and at a penalty with other weapons.
 - Ranged attacks cannot be made non-lethal (usually).
 - Supernatural attacks are either non-lethal or not. The caster does not chose (usually).
 - In place of a melee attack, a combatant may execute a martial manoeuvre.

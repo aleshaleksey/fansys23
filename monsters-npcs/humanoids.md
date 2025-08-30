@@ -75,7 +75,7 @@ The reason for different races having different kinds of stat blocks was to refl
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Club|+2|1d4 bludgeoning|-|
+|Club|+2|1d4 percussive|-|
 |Knife|-5|1d4 slashing|Not proficient|
 |Proficiencies|||Any two tools or kits|
 |Skills|-|-|Usually +2 to tinker, appraise or fortify and +1 to insight or a knowledge|
@@ -105,7 +105,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Club|+3|1d4+1 bludgeoning|-|
+|Club|+3|1d4+1 percussive|-|
 |Hand axe|+3|1d6+1 slashing|Proficient with any one weapon group, but no armour|
 |Proficiencies|||Any two tools or kits|
 |Skills|-|-|Usually +3 fortify, +2 to harvest, +1 to any one from the "sense" group|
@@ -137,7 +137,7 @@ The HiT includes +2 from padded armour and +3 from a light shield.
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Mace|+5|1d6+2 bludgeoning|-|
+|Mace|+5|1d6+2 percussive|-|
 |Short spear|+5|1d6+2 Piercing|-|
 |Shortbow|+4|1d6+1 piercing|-|
 |Crossbow|+4|1d10+1 piercing|-|
@@ -852,7 +852,7 @@ ___
 |Axe|+5|1d6+2||
 |Strike|+5|3||
 |War dart|+5|1d4+2|Range=240ft, Increment=60ft|
-|Resistance|||Bludgeoning|
+|Resistance|||Percussive|
 |Proficiencies|||Common and if it exists, orcish|
 |Proficiencies|||Axes, strikes, spears, one set of tools, maybe one set of armour|
 |Skills|||+4 "Athletics", "climb", +2 "track" or +3 "harvest"|
@@ -885,7 +885,7 @@ Wears hide armour
 |"[Long Axe](../11-weapons-armour.md#pole-arms)"|+9|2d8+6|reach = 10ft|
 |Strike|+9|1d6+4||
 |War dart|+9|1d4+4|Range=240ft, Increment=60ft|
-|Resistance|||"bludgeoning", "shear"|
+|Resistance|||"percussive", "shear"|
 |Unarmed Strike II|||Unarmed strike base damage is 1d6|
 |Multi-attack I|||Makes 2 attacks|
 |"[Stalker](../06-abilities.md#stalker)"|||Hide as secondary action|
@@ -921,7 +921,7 @@ Wears hide armour
 |Greataxe|+11|2d8+6|Up to 2d8+12 with berserk and great strike|
 |Strike|+11|1d6+4|Up to 1d6+12 with berserk and great strike|
 |War dart|+11|1d4+4|Range=240ft, Increment=60ft|
-|Resistance|||"bludgeoning", "slashing"|
+|Resistance|||"percussive", "slashing"|
 |Unarmed Strike II|||Unarmed strike base damage is 1d6|
 |Great Strike|||Up to -4/+4 to attack/damage|
 |Broad Strike|||Hit extra targets|
@@ -1726,7 +1726,7 @@ ___
 
 - Add +2 to STR, +2 to CON.
 - Subtract -2 from INT.
-- Add "[heat sense II](../06-abilities.md#heat-sense-i-v)", proficiency with spears and strikes, resistance to bludgeoning damage and "[prone](../10-conditions-types.md#prone)".
+- Add "[heat sense II](../06-abilities.md#heat-sense-i-v)", proficiency with spears and strikes, resistance to percussive damage and "[prone](../10-conditions-types.md#prone)".
 - If the NPC is equipped with crossbow, change to war dart instead.
 
 ___

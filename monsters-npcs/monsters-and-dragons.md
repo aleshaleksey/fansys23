@@ -970,7 +970,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Club (human form)|+8|1d4+4 bludgeoning|-|
+|Club (human form)|+8|1d4+4 percussive|-|
 |Hand axe|+8|1d6+4 slashing|Proficient with any one weapon group, but no armour|
 |||||
 |Proficiencies|||Any two tools or kits|
@@ -1007,7 +1007,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Club (human form)|+13|1d4+6 bludgeoning|-|
+|Club (human form)|+13|1d4+6 percussive|-|
 |Longsword|+13|1d8/1d12+6 slashing||
 |||||
 |Proficiencies|||Any two tools or kits|
@@ -1039,7 +1039,7 @@ Dragons typically look like reptiles, but are not. Dragons are supernatural enti
 - Dragons need sleep.
 - Dragons are an apex lifeform and as such are immune to fear.
 - Dragons are immune to one element.
-- Dragons are resistant to "slashing", "shear" and "bludgeoning" damage.
+- Dragons are resistant to "slashing", "shear" and "percussive" damage.
 - Some, but not all, dragons are shapeshifters, capable of taking on the forms of animals or humanoids.
 
 Dragons, in most worlds, are the apex mortal being. They are typically stronger, more robust and more intelligent than most other mortals. In addition they possess a whole array of potent supernatural abilities. Most dragons are spellcasters. As such this raises the very valid question of why do dragons not rule all the worlds where they are present?
@@ -1106,7 +1106,7 @@ ___
 |Keen senses|||Sight, Smell|
 |Low-light vision||||
 |Immunity|||Fire, Fear|
-|Resistance|||Slashing, Shear, Bludgeoning|
+|Resistance|||Slashing, Shear, Percussive|
 |Parry||||
 |Deflect Missile||||
 |Deflection||||
@@ -1188,7 +1188,7 @@ ___
 |Keen senses|||Sight, Smell|
 |Low-light vision||||
 |Immunity|||Fire, Fear|
-|Resistance|||Slashing, Shear, Bludgeoning|
+|Resistance|||Slashing, Shear, Percussive|
 |Parry||||
 |Deflect Missile||||
 |Deflection||||
@@ -1260,7 +1260,7 @@ ___
 |Keen senses|||Sight, Smell|
 |Low-light vision||||
 |Immunity|||Ice, Fear|
-|Resistance|||Slashing, Shear, Bludgeoning|
+|Resistance|||Slashing, Shear, Percussive|
 |Arcane Interception||||
 |Deflection||||
 |Aphonic spell||||
@@ -1334,7 +1334,7 @@ ___
 |Keen senses|||Sight, Smell|
 |Low-light vision||||
 |Immunity|||Ice, Fear|
-|Resistance|||Slashing, Shear, Bludgeoning|
+|Resistance|||Slashing, Shear, Percussive|
 |Arcane Interception||||
 |Deflection||||
 |Aphonic spell||||
@@ -1394,7 +1394,7 @@ ___
 |Keen senses|||Sight, Smell|
 |Low-light vision||||
 |Immunity|||Ice, Fear|
-|Resistance|||Slashing, Shear, Bludgeoning|
+|Resistance|||Slashing, Shear, Percussive|
 |Arcane Interception||||
 |Deflection||||
 |Aphonic spell||||
@@ -1469,7 +1469,7 @@ ___
 |Keen senses|||Sight, Smell|
 |Low-light vision||||
 |Immunity|||Ice, Fear|
-|Resistance|||Slashing, Shear, Bludgeoning|
+|Resistance|||Slashing, Shear, Percussive|
 |Arcane Interception||||
 |Deflection||||
 |Aphonic spell||||

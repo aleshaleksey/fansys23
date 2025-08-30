@@ -1073,7 +1073,7 @@ ___
 |Components|kinetic|
 |Concentration|yes|-3
 |Limitation|Can only be summoned on surfaces of earth or stone (including worked stone)|-2
-|Damage|2d12+[Sup] bludgeoning|+6 (+2 for being able to do manoeuvres and skills)
+|Damage|2d12+[Sup] percussive|+6 (+2 for being able to do manoeuvres and skills)
 |Attack/Manoeuvre|SAP+[Wis]|
 |Save|-|
 
@@ -2144,7 +2144,7 @@ ___
 |Material|A glass bowl filled with water, the bowl smashes when the spell is cast|(3)
 |Save|Cha, harmless|
 
-**Description**: Create a barrier with a radius of **up to** 10ft around the target. All entities within the barrier have resistance to piercing, shear, slashing and bludgeoning damage from attacks from outside the barrier, as well as pressure and fire damage from the outside. If the barrier's radius is reduced to 5ft, resistance is also gained to those damage types within the barrier. (2+2+2+2+4-2=10)
+**Description**: Create a barrier with a radius of **up to** 10ft around the target. All entities within the barrier have resistance to piercing, shear, slashing and percussive damage from attacks from outside the barrier, as well as pressure and fire damage from the outside. If the barrier's radius is reduced to 5ft, resistance is also gained to those damage types within the barrier. (2+2+2+2+4-2=10)
 
 **Limitation**:
 - If, while the spell is active, the target of the spell moves or was moved since the start of the caster's last turn, the caster must make a Threshold=15 concentration save or lose the spell. This save is eschewed if the spell is cast with at least 5 MP dice.
@@ -2365,7 +2365,7 @@ ___
 
 **Description**: The caster enchants the ground around them. The ground has the following properties:
 - It is difficult terrain for all hostile entities.+2(11)
-- At the start of their turn, all hostile entities must make a Dex save or take 1d12+[Sup] bludgeoning damage and become "grappled".
+- At the start of their turn, all hostile entities must make a Dex save or take 1d12+[Sup] percussive damage and become "grappled".
 - All friendly entities have a +10 to movement speed and light cover.+4(15)
 - Furthermore, as an action, the caster the caster can move or sculpt 10ftx10ftx10ft of earth of stone as if using the "[Shape Earth](#shape-earth)" spell, expect the spell can affect ground and natural rock all through the affected zone.+3(18)
 

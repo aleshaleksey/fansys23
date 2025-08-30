@@ -16,7 +16,7 @@
 
 **Abilities** are special actions that a character can take outside of the core actions available to all characters (covered in "Combat", "Movement and Exploration", and "Skills"). Abilities are often more potent than the core actions, but these also come at a cost of consuming SP dice and MP dice, so use them with care. Importantly, magic is covered at the end of this chapter.
 
-**Boons** are traits that enhance a character beyond what it would otherwise be. For example, a boon might grant resistance to "bludgeoning" damage, or allow a character to move faster, or breath under water, or attack more than once during a "main action".
+**Boons** are traits that enhance a character beyond what it would otherwise be. For example, a boon might grant resistance to "percussive" damage, or allow a character to move faster, or breath under water, or attack more than once during a "main action".
 
 The line between "boons" and "abilities" is a fine one, but in general "abilities" are something that is actively used, (eg, "I use elemental touch", "I use far throw"), while a boon is something that is used passively (eg "I have skirmisher so I move behind the enemy where I am flanking and you don't get an attack of opportunity.").
 

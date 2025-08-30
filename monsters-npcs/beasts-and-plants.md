@@ -414,7 +414,7 @@ A swarm of bees is medium sized.
 |Home Territory|||A swarm always succeeds on navigation rolls on home terrain|
 |Skills|||"Navigate" -2, "Harvest" +4|
 |Scattered Cover|||The swarm is considered to have "[heavy cover](../04-combat.md#cover-and-concealment)" for the sake of targeted attacks made against it.|
-|Resistant|||"Bludgeoning, ""Piercing", "Shear", "Slashing"|
+|Resistant|||"Percussive, ""Piercing", "Shear", "Slashing"|
 |Resistant|||"Fear","Charm"|
 |Immune|||"Grappled","Bleeding","Grappled","Restrained","Crippled","Paralysed"|
 
@@ -834,7 +834,7 @@ Natural armour +1
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Bite|+3|1d4+1 [shear]|Reach=5ft|
-|Slam|+3|1d6+1 [bludgeoning]|Reach=5ft|
+|Slam|+3|1d6+1 [percussive]|Reach=5ft|
 |||||
 |Skills|||"observe" +2, "swim" +3|
 
@@ -923,7 +923,7 @@ Natural armour +1
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Bite|+5|1d6+3 [shear]|Reach=5ft|
-|Slam|+5|1d10+3 [bludgeoning]|Reach=5ft|
+|Slam|+5|1d10+3 [percussive]|Reach=5ft|
 |Grapple|+5|||
 |||||
 |Skills|||"observe" +2, "swim" +3|
@@ -956,7 +956,7 @@ Natural armour +2
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Bite|+5|1d8+2 [shear]|Reach=5ft|
-|Slam|+3|1d6+1 [bludgeoning]|Reach=5ft|
+|Slam|+3|1d6+1 [percussive]|Reach=5ft|
 |||||
 |Rough hide|||Entities that physically "grapple", "restrain" or "immobilise" (or attempt to) sharks must succeed a DEX save or take 1d4 shear damage at the end of their turn.|
 |[Berserk I](../06-abilities.md#berserk-i-v)|||Sharks can go berserk at the smell of blood and |
@@ -990,7 +990,7 @@ Natural armour +3
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Bite|+8|2d8+4 [shear]|Reach=5ft. A shark's bite always causes "bleeding" on 12, if a it deals HP damage to the target.|
-|Slam|+8|2d6+4 [bludgeoning]|Reach=5ft|
+|Slam|+8|2d6+4 [percussive]|Reach=5ft|
 |||||
 |Rough hide|||Entities that physically "grapple", "restrain" or "immobilise" (or attempt to) sharks must succeed a DEX save or take 1d4 shear damage at the end of their turn.|
 |[Berserk I](../06-abilities.md#berserk-i-v)|||Sharks can go berserk at the smell of blood and |
@@ -1582,7 +1582,7 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Root|+27|5d8+11 piercing|reach=15ft|
-|Branch|+27|5d6+11 bludgeoning|reach=30ft|
+|Branch|+27|5d6+11 percussive|reach=30ft|
 |Throw boulder|+15|6d12-2|range=1600/400ft|
 |Manoeuvres|||All|
 |Alert|||The elder tree is not surprised by your antics.|

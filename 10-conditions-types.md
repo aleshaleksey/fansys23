@@ -88,7 +88,7 @@ ___
 - **Physical** (Nat)
   - Slashing
   - Piercing
-  - Bludgeoning
+  - Percussive
   - Shear
   - Pressure
 - **Biological** (Nat or Sup)
@@ -116,11 +116,11 @@ Physical damage, is generally considered "natural", even if it is caused by most
 
 **Slashing** damage is typically caused by bladed weapons or sharp claws. It involves the physical splitting of two parts of a target by application of concentrated force along a plane (a cut). Soft targets are particularly susceptible to slashing damage. Slashing damage typically causes the "bleeding" or "crippled" condition.
 
-**Bludgeoning** damage is typically caused by heavy objects with a lot of momentum. It involves the rapid transfer of physical force over a large area, causing brittle materials to break, and pressure sensitive materials to rupture. Targets of a brittle material are particularly susceptible to this damage type. This kind of damage can cause a target to be knocked "prone" or "cripple" it.
+**Percussive** damage is typically caused by heavy objects with a lot of momentum. It involves the rapid transfer of physical force over a large area, causing brittle materials to break, and pressure sensitive materials to rupture. Targets of a brittle material are particularly susceptible to this damage type. This kind of damage can cause a target to be knocked "prone" or "cripple" it.
 
 **Shear** damage is caused when a target is torn apart, for example by a bear's claws. Targets of low tensile materials, such as humanoids and animals are particularly susceptible to this damage type. It typically causes the "crippled" condition.
 
-**Pressure** damaged is usually caused by shock waves and special techniques designed to transfer force deep into a target. Much like bludgeoning damage it ruptures pressure sensitive internal structures and can fracture very brittle materials. Targets with internal organs are particularly susceptible to this form of damage. This dangerous form of damage typically causes the "stunned", "frightened", "prone" or "incapacitated"  condition.
+**Pressure** damaged is usually caused by shock waves and special techniques designed to transfer force deep into a target. Much like percussive damage it ruptures pressure sensitive internal structures and can fracture very brittle materials. Targets with internal organs are particularly susceptible to this form of damage. This dangerous form of damage typically causes the "stunned", "frightened", "prone" or "incapacitated"  condition.
 
 ___
 #### Biological damage
@@ -173,7 +173,7 @@ Not all damage types were created equal. This is intentional. easily "obtained" 
 - Necrotic (B Class)
 - Poison (B Class)
 - Pressure (B Class)
-- Bludgeoning (C Class)
+- Percussive (C Class)
 - Piercing (C Class)
 - Shear (C Class)
 - Slashing (C Class)
@@ -236,7 +236,7 @@ Mortals are the most common entities in the material world. Mortals have a physi
 - Dragons need sleep.
 - Dragons are an apex lifeform and as such are immune to fear.
 - Dragons are immune to one element.
-- Dragons are resistant to "slashing", "shear" and "bludgeoning" damage.
+- Dragons are resistant to "slashing", "shear" and "percussive" damage.
 
 **Monsters** are mortals that do not fit in other categories. Some resemble animals, but are far more intelligent. Some resemble humanoids, but are not. Many are supernatural. They have no unifying trait, but tend to be dangerous to humanoids.
 
@@ -521,7 +521,7 @@ When an entity loses HP (but *NOT* MP or SP) due to a named damage type, it may 
 |-|-|-|-|-|-|-|
 |Piercing|Bleeding||Bleeding||Bleeding||
 |Slashing|Bleeding|Crippled|Bleeding|Crippled|Bleeding|Crippled|
-|Bludgeoning|Prone|Crippled|Prone|Crippled|Prone|Crippled|
+|Percussive|Prone|Crippled|Prone|Crippled|Prone|Crippled|
 |Shear||Crippled||Crippled||Crippled|
 |Pressure|Stunned|Frightened|Prone|Incapacitated|Stunned|Frightened|
 |||||||||||||

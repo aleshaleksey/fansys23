@@ -284,7 +284,7 @@ Size: Small +1/-1
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Water bullet|+9|1d4+5|Piercing|
-|Tendril|+9|1d6+5|Bludgeoning|
+|Tendril|+9|1d6+5|Percussive|
 |Grapple|+9|||
 |Combined Maneuver I||||
 |Monster Attack I|||A lesser undine can make 2 attacks with "water bullet"|
@@ -322,7 +322,7 @@ Size: Medium
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Tendril|+13|2d6+7|Bludgeoning|
+|Tendril|+13|2d6+7|Percussive|
 |Grapple|+13|||
 |Water bullet|+13|2d4+7|Piercing|
 |Combined Manoeuvre I||||

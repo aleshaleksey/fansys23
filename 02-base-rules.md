@@ -232,7 +232,7 @@ Most player characters will be "Mortal: humanoid", or "Mortal: monster".
 
 ___
 #### Template/Race
-Template is a set of attributes, usually attributed to race or species, that is applied to characters on creation. It usually gives some penalties/bonuses to stats and skills, additional movement modalities, and abilities. In addition it affects the size category and appearance of a character. For example, an "orc" template gives a bonus to STR and CON, a penalty to INT, "heat sense, proficiency with "strikes" and "slings", as well as resistance to "bludgeoning".
+Template is a set of attributes, usually attributed to race or species, that is applied to characters on creation. It usually gives some penalties/bonuses to stats and skills, additional movement modalities, and abilities. In addition it affects the size category and appearance of a character. For example, an "orc" template gives a bonus to STR and CON, a penalty to INT, "heat sense, proficiency with "strikes" and "slings", as well as resistance to "percussive".
 
 ___
 #### Size category

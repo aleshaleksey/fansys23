@@ -65,7 +65,7 @@ This is a race that is closer to the feral side of humanoids. They are stronger 
 - **Proficiencies**: One appropriate language. Strikes AND Spears. (2 point)
 
 **Extra:**
-- Resistance to bludgeoning and advantage on saves vs "Prone". (2 points)
+- Resistance to percussive and advantage on saves vs "Prone". (2 points)
 
 **Race boon (level 8 and 16): (6 points)**
 - Resistance to one of "piercing", "slashing" or "pressure" or "shear".
@@ -88,7 +88,7 @@ This represents those who have been touched by dark forces. Perhaps because of a
 - Elementalism: Elemental Touch. (level 1) (2 points).
 
 **Race boon (level 8 and 16): (6 points)**
-- Resistance to one of "piercing", "bludgeoning", "slashing" or "pressure" or "shear", "fire" or "ice".
+- Resistance to one of "piercing", "percussive", "slashing" or "pressure" or "shear", "fire" or "ice".
 - +1 Str, +1 Cha.
 - +1 Elementalism: Elemental Touch..
 
@@ -346,7 +346,7 @@ This represents a low-grade vampire. Its type is undead, but due to lack of poin
 - Vulnerability to "divine" and "light" damage.
 
 **Extra (24)**
-- Resistant to "bludgeoning" + "prone", "piercing" + "bleeding", "slashing" + "crippled". (6)
+- Resistant to "percussive" + "prone", "piercing" + "bleeding", "slashing" + "crippled". (6)
 - Resistant to "poison", "disease". (2)
 - Immune to "unconscious", "frightened". (10)
 - Alternate form: Bat. (4 points)
@@ -370,7 +370,7 @@ This represents a cursed being: A humanoid that is cursed to become a wolf when 
 - The "piercing" and "slashing" resistances are negated by weapons made of silver..
 
 **Extra (18)**
-- Resistant to "bludgeoning", "piercing", "slashing", "sheer" and "pressure". (10)
+- Resistant to "percussive", "piercing", "slashing", "sheer" and "pressure". (10)
 - Resistant to "prone", "bleeding", "crippled", "incapacitated" and "frightened".
 - Resistant to "poison", "disease". (4)
 - Alternate form: Wolf. (4 points)
@@ -399,7 +399,7 @@ This represents a dragon at the lower end of the draconic scale of power. Its na
 + Immune: One of "Fire" OR "Cold" (4).
 + Alternate form: Humanoid (4 points).
 + Alternate form: Beast (small/medium) (4 points).
-+ Resistant: "slashing", "shear", "bludgeoning" (6).
++ Resistant: "slashing", "shear", "percussive" (6).
 + Therefore resistance: "grappled", "prone", "deafened".
 + Elemental Blast (Greater, Linear) (6).
 + Natural Attack, Bite (1d10). (10).
@@ -428,7 +428,7 @@ This represents a low-grade vampire. Its type is undead, but due to lack of poin
 - Vulnerability to "divine" and "light" damage.
 
 **Extra (46)**
-- Resistant to "bludgeoning", "piercing", "slashing", "sheer" and "pressure". (10)
+- Resistant to "percussive", "piercing", "slashing", "sheer" and "pressure". (10)
 - Resistant to "prone", "bleeding", "crippled", "incapacitated" and "frightened".
 - Resistant to "poison", "necrotic". (2)
 - Immune to "unconscious", "frightened", "charmed". (14)
@@ -458,7 +458,7 @@ This represents a cursed being: A humanoid that is cursed to become a wolf when 
 - +4 to "athletics". (4)
 - "Tracker: Swift". (2)
 - "Terrain Mastery: Forest". (2)
-- Immunity to "bludgeoning", "piercing", "slashing", "sheer" and "pressure". (20)
+- Immunity to "percussive", "piercing", "slashing", "sheer" and "pressure". (20)
 - Resistant to "prone", "bleeding", "crippled", "incapacitated" and "frightened".
 - Immune to "poison", "disease". (4)
 - Alternate form: Wolf. (4)
@@ -490,7 +490,7 @@ This is a divine being created by gods to watch over some aspect of creation (Co
 + +2 Sense Motive (2 points)
 + Alternate form: Humanoid (4 points)
 + Telepathy (6 points)
-+ Immunity: Bludgeoning, Slashing, Piercing, Shear and Pressure. (20 points)
++ Immunity: Percussive, Slashing, Piercing, Shear and Pressure. (20 points)
 + Resistance: Light, Fire, Divine. (8 points)
 + Therefore resistance: "bleeding", "crippled", "prone", "stunned", "frightened", "blinded", "aphonia".
 

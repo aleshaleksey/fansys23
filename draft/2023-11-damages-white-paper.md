@@ -22,7 +22,7 @@ There are four points here. Points 1-3 are the basis of a system. Point 4 is sta
  - A damage type that is not easily accessible is also not be common by definition, and should have fewer things that are resistant to. Perhaps abilities that cause this kind of damage are higher level or have a higher cost, or there are fewer creatures that cause them (eg, Hellfire (heat[supernatural]) is rare because there are not many devils in the material realm. Because of this few creatures have resistance, and countermeasures are not common.).
  
 5. We need not use exactly the same types as DnD 5e or Pathfinder (in fact for copyright reasons we had better not). Partially because they had some redundant [read: stupid] damage types.
- - eg. "thunder" (damage due to a pressure wave) and "force" (all physical damage is force, so this is just "physical damage) should either be merged into "percussive"/"explosive", or eschewed entirely as in both cases, in terms of the physics, this is very similar to bludgeoning damage.
+ - eg. "thunder" (damage due to a pressure wave) and "force" (all physical damage is force, so this is just "physical damage) should either be merged into "percussive"/"explosive", or eschewed entirely as in both cases, in terms of the physics, this is very similar to percussive damage.
  - eg. There is no clear damage type for cosmic rays, lasers, radiation and the like in DnD/pathfinder (people argue radiant, necrotic, fire, lightning, force and everything in between), so we can add it (even if we seldom get to use it).
 
 6. Damage types should have a short list of possible associated conditions. Associated conditions should not necessarily be unique per damage type, but should follow common sense, game balance and verisimilitude (where reasonably possible). This will make a lot of downstream work simpler and avoid a lot of "specific" rules.
@@ -38,7 +38,7 @@ __Disadvantage__
 
 __Damage types in 5e__
 - Types:
- - Physical: Slashing, Piercing, Bludgeoning
+ - Physical: Slashing, Piercing, Percussive
  - Elemental: Fire, Cold, Lightning, Acid, Thunder.
  - Divine: Radiant, Necrotic.
  - Rare: Force, Psychic.
@@ -51,7 +51,7 @@ __Damage types in 5e__
 
 __Damage types in Pathfinder__
 - Types:
- - Slashing, Piercing, Bludgeoning.
+ - Slashing, Piercing, Percussive.
  - Fire, Cold, Electricity, Acid, Sonic
  - Positive Energy Negative Energy
  - Force, Psychic
@@ -74,7 +74,7 @@ I would like to "type" damage by the way in which destruction is caused.
 - Physical: (Can only be [natural])
  - Slashing.
  - Piercing.
- - Bludgeoning.
+ - Percussive.
  - Explosive (pressure).
 
 - Energy: (Can be [natural] or [supernatural])

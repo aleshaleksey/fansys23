@@ -130,7 +130,7 @@ Weapon attacks are generally targeted attacks that rely on NAP and are "[governe
 ___
 ### Improvised Weapons
 
-Items that are not designed to be used as weapons can also be used for this purpose, although they are generally les effective. A character using an improvised weapon makes attack rolls as if it is not proficient (-5 penalty). The size of an improvised weapon affects how much damage it does, and its form affects the damage. For example a character wielding a vase might do bludgeoning damage, while one wielding a fork might do [a small amount of] piercing damage.
+Items that are not designed to be used as weapons can also be used for this purpose, although they are generally les effective. A character using an improvised weapon makes attack rolls as if it is not proficient (-5 penalty). The size of an improvised weapon affects how much damage it does, and its form affects the damage. For example a character wielding a vase might do percussive damage, while one wielding a fork might do [a small amount of] piercing damage.
 |Category|Guideline Weight|Damage|
 |-|-|-|
 |Light|1lb|1|
@@ -146,7 +146,7 @@ This table gives a quick overview of weapons. For details on each weapon, see th
 **NB**: Since specific properties are an important part of how a weapon is used, it is advisable to read over the description of weapons the reader is thinking of using for their character. Sometimes a weapon listed in the table represents several functionally similar historical weapons. Therefore if you do find your beloved katana, please check the entry for "falchion".
 
 Damage Key:
-- Bludgeoning: B
+- Percussive: B
 - Shear: Sh
 - Slashing: S
 - Piercing: P
@@ -236,7 +236,7 @@ Unarmed combat is the use of one's own body to effectively neutralise targets. I
 
 **Grapple** is the act of restricting the movement of your foe using your body or held items. It covers the "grapple" and "restrain" manoeuvres and follows the "[Basic Martial Manoeuvres](04-combat.md#basic-martial-manoeuvres)" rules.
 
-**Strikes** are the use of appendages or protruding body parts to deal bludgeoning or piercing damage to a target.
+**Strikes** are the use of appendages or protruding body parts to deal percussive or piercing damage to a target.
 
 **Throw** is the act of moving your foe around the battlefield or throwing them down. It follows the "Basic Martial Manoeuvres" rules. It also gives proficiency with "shove" and "trip" manoeuvres.
 
@@ -313,7 +313,7 @@ A hefted weapon with a sharp, protruding head that is used for chopping. While a
 ___
 ### Percussive
 
-Percussive weapons like clubs, maces and hammer are in their essence a weight at the end of a handle and rely on blunt force trauma (bludgeoning). All percussive weapons can cause "cripple".
+Percussive weapons like clubs, maces and hammer are in their essence a weight at the end of a handle and rely on blunt force trauma (percussive). All percussive weapons can cause "cripple".
 
 |Weapon|Special Properties| Manoeuvres|
 |-|-|-|
@@ -386,7 +386,7 @@ ___
 ___
 ### Staves
 
-Staves are round poles with a length between 4-8ft. Staves are bludgeoning weapons that can also be used for support when "crippled" or on difficult terrain. They particularly useful for non-lethal combat. Staves can cause "cripple" and "prone".
+Staves are round poles with a length between 4-8ft. Staves are percussive weapons that can also be used for support when "crippled" or on difficult terrain. They particularly useful for non-lethal combat. Staves can cause "cripple" and "prone".
 
 |Weapon|Special Properties| Manoeuvres|
 |-|-|-|

@@ -124,7 +124,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Strike|+8|1d8+5|bludgeoning|
+|Strike|+8|1d8+5|percussive|
 |Rock Throw|+8|1d10+5|40ft/120ft, a golem can throw an object (or objects) weighing up to 80lb as projectiles. If the projectile is of a weaker material (or a mortal), than the target, the damage is shared evenly between projectile and target.|
 |Grapple|+8|||
 |Throw|+8|||
@@ -173,7 +173,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Strike|+12|2d8+7|bludgeoning|
+|Strike|+12|2d8+7|percussive|
 |Rock Throw|+12|1d12+7|60ft/180ft, a golem can throw an object (or objects) weighing up to 192lb as projectiles. If the projectile is of a weaker material (or a mortal), than the target, the damage is shared evenly between projectile and target.|
 |Grapple|+12|||
 |Throw|+12|||
@@ -227,7 +227,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Strike|+15|2d8+8|bludgeoning|
+|Strike|+15|2d8+8|percussive|
 |Rock Throw|+15|1d12+8|80ft/240ft, a golem can throw an object (or objects) weighing up to 192lb as projectiles. If the projectile is of a weaker material (or a mortal), than the target, the damage is shared evenly between projectile and target.|
 |Grapple|+15|||
 |Throw|+15|||
@@ -335,7 +335,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Strike|+15|2d12+8|bludgeoning|
+|Strike|+15|2d12+8|percussive|
 |Rock Throw|+15|2d8+8|80ft/240ft, a golem can throw an object (or objects) weighing up to 416lb as projectiles. If the projectile is of a weaker material (or a mortal), than the target, the damage is shared evenly between projectile and target.|
 |[Greater Elemental Blast (Linear): Lighting](../06-abilities.md#line)|+9|3d4+1d4/MP dice|(Range=120ft+30ft/MP sice) Mithril golems may use up to 7 MP dice when firing an elemental blast. The width of the beam may be up to 35ft.|
 |Grapple|+15|||
@@ -388,7 +388,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Strike|+17|2d8+8|bludgeoning|
+|Strike|+17|2d8+8|percussive|
 |Rock Throw|+17|1d12+8|40ft/120ft, a golem can throw an object (or objects) weighing up to 104lb as projectiles. If the projectile is of a weaker material (or a mortal), than the target, the damage is shared evenly between projectile and target.|
 |[Greater Elemental Blast (Radial): Light](../06-abilities.md#circle)|+9|3d4+1d4/MP dice|(Range=120ft+30ft/MP sice) Diamond golems may use up to 8 MP dice when firing an elemental blast. The radius of the beam may be up to 80ft.|
 |Grapple|+15|||

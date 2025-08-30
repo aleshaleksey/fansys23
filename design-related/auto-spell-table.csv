@@ -18,7 +18,7 @@ Deafen ;Curse;local;0;1 entity;30ft;main action;1 minute;false;true;The spell en
 Down ;Earth;local;0;1 entity;15ft;main action;Immediate;true;false;Wis;prone;;;;;;;
 Dusk ;Curse, Profane, Earth, Water;local (global);2 (8);"1 target no greater than ""large""";15ft;1 action (2h + 40min per 4MP dice);Special: 1h, then permanent (7 days);true;true;A black pearl;-;Cha (avoid effects), Wis(avoid condition);Catatonic;;;;;
 Earth Ward ;Barrier, Earth;local (global);3 (12);1 entity/15ft (200ft);close;"""full round""/""reaction""(12h + 6h per 4MP)";1h/1min (1 week);true;true;A brass bowl filled with earth, the bowl crumbles when the spell is cast;A brass bowl filled with earth, the bowl crumbles when the spell is cast;Cha, harmless;local;;;;;
-Earthen Hand ;Earth;local (global);2 (8);1sq;30ft;"""main action"" (2h + 40min per 4MP dice)";1 min (1 hour);false;true;Can only be summoned on surfaces of earth or stone (including worked stone);-;2d12+;Sup; bludgeoning;yes;;;
+Earthen Hand ;Earth;local (global);2 (8);1sq;30ft;"""main action"" (2h + 40min per 4MP dice)";1 min (1 hour);false;true;Can only be summoned on surfaces of earth or stone (including worked stone);-;2d12+;Sup; percussive;yes;;;
 Enchanted Ground ;Earth, Spirit;local (global);4 (16);40ft radius, 15ft depth (800ft radius, 100ft depth);close;"1 action"" (4h + 1h per 4MP dice);12 minutes (1 day);true;true;;;;Dex;1d12+[Sup];;""grappled";local;;;;;;;;;;;
 Enflame ;Fire, Mortal;local;1;1 entity;30ft;main action;12 min;false;true;Int;;;;;;;;
 Ensnare ;Nature;local (global);1 (4);10ft radius centered on a square (200ft);60ft;"""main action"" (1h + 20min per 4MP)";1 min (1 hour+);true;true;"There must be plant life (at least ""medium"") within 120ft";Dex or Str;Grappled;;;;;;

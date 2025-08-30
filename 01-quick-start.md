@@ -192,7 +192,7 @@ This is a race that is closer to the feral side of humanoids. They are stronger 
 - **Proficiencies**: One appropriate language. Strikes AND Spears.
 
 Extra:
-- Resistance to bludgeoning and advantage on saves vs "Prone".
+- Resistance to percussive and advantage on saves vs "Prone".
 
 Race boon (level 8 and 16):
 - Resistance to one of "piercing", "slashing" or "pressure" or "shear".
@@ -296,7 +296,7 @@ Extra:
 - Elementalism: Elemental Touch.(level 1).
 
 Race boon (level 8 and 16):
-- Resistance to one of "piercing", "bludgeoning", "slashing" or "pressure" or "shear", "fire" or "ice".
+- Resistance to one of "piercing", "percussive", "slashing" or "pressure" or "shear", "fire" or "ice".
 - +1 Str, +1 Cha.
 - +1 Elementalism: Elemental Touch.
 

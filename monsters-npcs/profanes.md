@@ -414,7 +414,7 @@ ___
 |-|-|-|-|
 |Shade's touch|+5|1d4+1|"Profane" damage. Entities touched must succeed a Threshold=18 WIS save or be "catatonic" until they are no longer in line of sight of the shade.|
 |Profane aura|Threshold=16 CON||(Range = 30ft) A shade removes warmth and vital energies from within 30ft. The temperature within the aura drops by one category. All mortals entering or starting their turn in a shade's aura must succeed on a CON save or have disadvantage on DEX based rolls and take 3 points of supernatural cold damage.|
-|Resistant|||"fire", "ice", "lightning" damage|
+|Resistant|||"fire", "ice" damage|
 |Vulnerability|||"divine", "light"|
 |Immune|||"physical" damage and all combat manoeuvres carried out without "spiritual" properties|
 |Immune||||All combat manoeuvres carried by corporeal entities without the "spiritual" property|
@@ -448,7 +448,7 @@ ___
 |Shade's touch|+9|1d4+3|(main action) "Profane" damage. Entities touched must succeed a Threshold=18 WIS save or be "catatonic" until they are no longer in line of sight of the shade.|
 |Shade's gaze|Threshold=21|1d3|(secondary action, range 30ft, 2MP dice) A shade can look into the darker part's of a mortal's soul, draining 1d3 SP dice and the same number of MP dice. (Averting gaze makes one immune, but also makes you blind in respect to the shade)|
 |Profane aura|Threshold=19 CON||(Range = 60ft) A shade removes warmth and vital energies from within 30ft. The temperature within the aura drops by one category. All mortals entering or starting their turn in a shade's aura must succeed on a CON save or have disadvantage on DEX based rolls and take 3 points of supernatural cold damage.|
-|Resistant|||"fire", "ice", "lightning" damage from supernatural sources|
+|Resistant|||"fire", "ice" damage from supernatural sources|
 |Vulnerability|||"divine", "light" from supernatural sources|
 |Immune|||"natural" damage (except "light") and all combat manoeuvres carried out without "spiritual" properties|
 |Immune||||All combat manoeuvres carried by corporeal entities without the "spiritual" property|
@@ -480,7 +480,7 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Shade's touch|+4|2d6+1|The damage counts as simultaneously cold and necrotic, entities touched must succeed a Threshold=17 WIS save or be "frightened" of the shade until they are no longer in line of sight of the shade.|
-|Resistant|||"fire", "ice", "lightning" damage|
+|Resistant|||"fire", "ice" damage|
 |Vulnerability|||"divine", "light"|
 |Immune|||"physical" damage and all combat manoeuvres carried out without "spiritual" properties|
 |Immune||||All combat manoeuvres carried by corporeal entities without the "spiritual" property|
@@ -525,9 +525,9 @@ Imps are tiny (+2 evasion, +2 DEX save, -2 STR save)
 |Skills|||"deception" +4, "flight" +5|
 |Senses|||"low-light vision", "heat sense" 30ft|
 |||||
-|Resistant|||"physical" damage, "fire", "ice", "lightning" damage|
+|Resistant|||"physical" damage, "fire", "ice" damage|
 |Immune|||"disease", "poison", "dying"|
-|Vulnerability|||"divine" damage|
+|Vulnerability|||"divine", "light: supernatural" damage|
 
 Imps are tiny fiends. Their potential for evil and destruction is limited only by their limited capability.
 
@@ -568,8 +568,8 @@ Here the stat block for vaguely humanoid minor demons of levels 1-5 is presented
 
 |Level|Ability|Bonus|Damage|Other|
 |-|-|-|-|-|
-||Vulnerability|||"divine"|
-||Resistant|||"physical" damage, "energy" damage|
+||Vulnerability|||"divine", "light: supernatural"|
+||Resistant|||"physical" damage, "fire" and "ice" damage|
 ||Immune|||"disease", "unconscious", "dying"|
 ||Senses|||"low-light vision", "heat sense" 30ft|
 |1|Claw|+4|1d4+2||
@@ -629,9 +629,9 @@ ___
 |Spellcasting: Incantation II|Threshold=18||Favourites are: "Down", "Sour", "Least Ward", "Least Vengeance", "Least Veil", "Trace Secret Path"|
 |Skills|||"Deception: +11", "Persuasion:+11", "Sleight of Hand:+9", "Acrobatics:+7", "Ride:+5",  "Insight:+5", "Religion:+5", "Arcana:+4", "Appraise":+3, "Observe": +1, "Athletics":+1|
 |||||
-|Resistant|||"physical" damage, "fire", "ice", "lightning" damage|
+|Resistant|||"physical" damage, "fire", "ice" damage|
 |Immune|||"disease", "poison", "dying"|
-|Vulnerability|||"divine" damage|
+|Vulnerability|||"divine" damage, "light: supernatural" damage|
 
 Succubi are fiends that prey on the carnal desires of humanoids in order to drain them of life-force or otherwise corrupt them. They usually take on the form of a desirable mate.
 
@@ -680,9 +680,9 @@ Saves: Str, Con
 |Senses|||"Low Light Vision", "Tremor Sense"|
 |Skills|||"Athletics":+12, "Fortify": +10", "Climb:+8", "Swim:+7", "Ride:+7", "Intimidation":+7,"Deception":+6, "Acrobatics:+5", "Stealth:+5", "Observe":+3, "Sense Motive": +3, "Religion:+1", "Arcana:+1"|
 |||||
-|Resistant|||"physical" damage, "fire", "ice", "lightning" damage|
+|Resistant|||"physical" damage, "fire", "ice" damage|
 |Immune|||"disease", "poison", "dying"|
-|Vulnerability|||"divine" damage|
+|Vulnerability|||"divine", "light: supernatural" damage|
 
 A fiendish warrior is a being of violence. It relishes violence. It exists to increase the amount of bloodshed and violence in the world, usually by its own hands. It will seek out combat and is drawn to locales with a blood-stained history. Where there is none, it will work to create it. A fiendish warrior is at least as happy slaughtering and tormenting innocents and those who cannot fight back, as it is destroying strong foes.
 
@@ -756,9 +756,9 @@ ___
 |Senses|||"Blind-sight: 30ft", "Life Sense: 30ft", "Low Light Vision", "Tremor Sense: 60ft"|
 |Skills|||"Athletics":+20, "Fortify": +20", "Climb:+20", "Swim:+11", "Ride:+7", "Intimidation":+16,"Deception":+16, "Acrobatics:+5", "Stealth:+10", "Observe":+14, "Sense Motive": +13, "Spellworking:+11", "Religion:+11", "Academics:+6"|
 |||||
-|Resistant|||"physical" damage, "fire", "ice", "lightning" damage|
+|Resistant|||"physical" damage, "fire", "ice" damage|
 |Immune|||"disease", "poison", "dying", "profane"|
-|Vulnerability|||"divine" damage|
+|Vulnerability|||"divine", "light: supernatural" damage|
 |||||
 |Demonic Realm|||Each demon has its own demonic realm which is found at least in the intermediate depths of the spirit realm. This acts as a "[Greater Domain](../08-spell-list.md#greater-domain) with a radius of at least 40ft (and with no upper limit), with the exception that its alignment is "profane" and is located deeper in the spirit realm. If the domain is destroyed, the demon is likewise destroyed.|
 |Demonic Restoration|||A demon can only be permanently destroyed by "divine" damage or if its demonic realm is destroyed. A demon which is destroyed by other means will be reborn in its domain after an arbitrary amount of time (recommended 13d12 years).|
@@ -817,9 +817,9 @@ ___
 |[Sprinter](../06-abilities.md#sprinter)|||A unicorn can run at x3 its base speed, and sprint x5 its base speed.|
 |[Mighty I](../06-abilities.md#mighty-i)|||Can carry more weight than your average beast|
 |||||
-|Resistant|||"physical" damage, "fire", "ice", "lightning" damage|
+|Resistant|||"physical" damage, "fire", "ice" damage|
 |Immune|||"disease", "poison", "dying"|
-|Vulnerability|||"divine" damage|
+|Vulnerability|||"divine", "light: supernatural" damage|
 |||||
 |[Low Light Vision](../06-abilities.md#low-light-vision)|||A unicorn can see in dim light as well as in sunlight.|
 |[Life Sense (60ft)](../06-abilities.md#life-sense-i-v)|||A unicorn can sense living beings within 60ft of it.|

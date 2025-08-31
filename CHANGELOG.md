@@ -444,6 +444,7 @@ ____
 - Slightly reword some parts of the intro chapter.
 - Conversion table from human NPCs to other humanoids.
 - Beautify [damage chapter](10-conditions-types.md#damage-types) and "improve" [lightning](10-conditions-types.md#electricity-lightning)/[light](10-conditions-types.md#light) damage.
+- Remove lightning resistance for profane beings and add light vulnerability where missing.
 
 ### Movement and Exploration
 - Change flight rules to support different [flight endurance](03-movement-exploration.md#flight-parameters) independently of flight rating (Also added modification to racial flight rules).

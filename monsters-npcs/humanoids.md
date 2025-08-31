@@ -339,11 +339,11 @@ ___
 |Skills|-|-|Usually +4 climb, +3 athletics, +2 fortify, +7 stealth, +5 acrobatics, +5 sleight of hand, +2 prospect, +3 history, +5 observe, +4 sense motive, +4 deception|
 |Loot|||Usually the tools of their trade, and clothes on their back.|
 
-This represents experienced scouts, saboteurs, snipers, marksmen, low rank assassins or even general swashbucklers.
+This represents experienced scouts, saboteurs, snipers, marksmen, low rank assassins or even, at a stretch, swashbucklers.
 
 A scout attempts to avoid being seen when performing their duty, or to "hide in plain sight". Under certain circumstances they will take extreme measures to eliminate those that have witnessed their activities.
 
-A scout generally prefers not to engage in combat if their mission can be accomplished without doing so. If they must engage in combat, they would rather attack from their target while it is unaware and quickly finish the task. A scout that realises the impossibility of defeating their foe will usually flee. They may surrender to incidental foes, but will very seldom surrender to their mark, or those working with them, as the value of information they carry means that o capture their fate is usually grim.
+A scout generally prefers not to engage in combat if their mission can be accomplished without doing so. If they must engage in combat, they would rather attack from their target while it is unaware and quickly finish the task. A scout that realises the impossibility of defeating their foe will usually flee. They may surrender to incidental foes, but will very seldom surrender to their mark, or those working with them, as the value of information they carry means that on capture their fate is usually grim.
 
 Scouts are proficient with light blades, light armour, bows and sometimes mechanical bows, spears and staves. On missions where discretion is important they will use only equipment that is easily hidden. Since training a skilled scout is a lengthy and expensive process, they are generally few in number and, in most cases, they are used carefully by their taskmasters.
 
@@ -391,6 +391,8 @@ This represents well trained assassins, ninjas, and similar units.
 Assassins have a task of disposing of high value targets, usually discreetly. They are generally used by those at the top of human society to dispose of those who might stand against, but are also used in wartime to kill high value targets.
 
 Assassins often spend a long time observing their mark before deciding on the best means to dispose of them safely. An assassin generally prefers to accomplish their task without drawing attention to themselves and will use any means to do so. They will generally strike when their target is most vulnerable. Assassins generally retreat when their predicament becomes particularly dangerous. That said, there are examples that prove the rule.
+
+As with [scouts](#human-scout-level-5), training assassins is a lengthy and expensive process, so their masters will generally be careful in the use of this asset.
 
 DMs should be careful with this NPC, since they can easily kill multiple members of the party.
 
@@ -685,7 +687,7 @@ ___
 
 The average elf has lived for centuries and has had time to learn an incredible range of skills. This thus represents your average elf.
 
-An average elf will carry a sling and knife for self defense, knowing that the world is more dangerous than it appears. They seldom enter combat unless there is a strict necessity for it. No one wants to die.
+An average elf will carry a sling and knife for self defence, knowing that the world is more dangerous than it appears. They seldom enter combat unless there is a strict necessity for it. No one wants to die.
 
 ____
 ### Elvish Elder (level 13)
@@ -780,7 +782,7 @@ Wears padded armour. When wielding blades increases to 18.
 
 This block represents an elite warrior/scout who hunts down evil creatures and enemies of elven-kind, be they monsters that hunt people, or people who hunt elves.
 
-A hunter carries only what they need to exist autonomously and hunt down their pray. A hunter prefers to remain hidden and kill from afar, if necessary using magic to deceive, mislead and otherwise gain the upper hand. A hunter makes maximum use of "sniper" and "aphonic spell" to avoid detection. They will use "silence" to shut down enemy spellcasters. Killing prey when it sleeps or is otherwise weak is most preferable. However, if they must they will fight up close using their superior speed to inflict a death by a thousand cuts.
+A hunter carries only what they need to exist autonomously and hunt down their pray. A hunter prefers to remain hidden and kill from afar, if necessary using magic to deceive, mislead and otherwise gain the upper hand. A hunter makes maximum use of "sniper" and "aphonic spell" to avoid detection. They will use "silence" to shut down enemy spellcasters. Killing prey when it sleeps or is otherwise weak is most preferable. However, if they must, they will fight up close using their superior speed to inflict a death by a thousand cuts.
 
 **NB**: Do not use this stat block unless you intend to kill the party, or know that they have a very good capacity when it comes to detecting hidden foes.
 
@@ -895,7 +897,7 @@ Wears hide armour
 
 This block does not represent an orc who goes hunting, but rather one that has devoted its life to the hunt. This could be a monster hunter or a hunter of men.
 
-An orcish hunter generally runs down its pray, herding it into traps and finishing it off with blows of its fists. When taking down dangerous pray much larger than itself, it will rely on massive axes to neutralise the size advantage.
+An orcish hunter generally runs down its pray, herding it into traps and finishing it off with blows of its fists. When taking down dangerous prey much larger than itself, it will rely on massive axes to neutralise the size advantage.
 
 ___
 ### Orcish Berserker (level 11)
@@ -1034,7 +1036,7 @@ ___
 |Proficiency|||Common, Bird, 1 tool|
 |Skills|||"Fly" +5, "Observe" +3, "perform" +1|
 
-This represents an averaged Winged. They are fairly harmless and will flee rather than fight. About 1/6 winged are capable of elementary wind magic, and know 2 or the three spells listed above.
+This represents an averaged Winged. They are fairly harmless and will flee rather than fight. About 1/6 winged are capable of elementary wind magic, and know 2 of the three spells listed above.
 
 ___
 ### Winged Shepherd (level 4)
@@ -1071,6 +1073,7 @@ The winged have long since guided flocks of birds on their migration routes. Som
 This block also represents militia, patrol, and the tougher Winged travellers that one may find on the "road".
 
 Winged Shepherds prefer to avoid conflict. When they fight, they fight to delay their enemies for long enough to make an escape. No one wants to die.
+
 ___
 ### Winged Scout (level 8)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
@@ -1224,7 +1227,7 @@ Assumed wearing light cuirass
 
 This represents merchants, emissaries, messengers and other experienced wayfarers. They prefer to solve their problems through dialogue, though will fight if the situation necessitates it. If they face death, they will usually surrender.
 
-In combat, a beast folk traveller, will attempt to put some distance between themselves and targets and attack from afar. If this seems unlikely to work, they will flurry with tooth and claw, trying to take out their target as quickly as possible.
+In combat, a beast folk traveller will attempt to put some distance between themselves and targets and attack from afar. If this seems unlikely to work, they will flurry with tooth and claw, trying to take out their target as quickly as possible.
 
 ___
 ### Beast folk warrior (level 7)
@@ -1422,8 +1425,6 @@ ___
 Goblins are generally weak and frail, and will use stealth and sneaky tactics that maximise their chances of success. Sometimes bands, tribes and hordes of goblins are directed (but not led) by a strategist. A strategist seldom fights on its own, but when it does it prepares the battlefield with global magic, using its familiar to track approaching foes, and uses other goblins and its bound beast to keep foes at bay as it uses precise attacks to remove threats from the battlefield.
 
 A goblin strategist will **mercilessly** remove threats, targeting any damage dealers and soft targets first. It is not above using hostages to control its foes and it will make good on its threats. If spellcasters are present, it will often prefer to neutralise them using counter-spelling and dispelling. A goblin strategists will only fight if its objectives can (and are generally likely to be) achieved. It is hesitant to surrender, but will withdraw if needed.
-
-
 
 ___
 ## Giant
@@ -1707,6 +1708,8 @@ A colossus may surrender or retreat when defeated, or it may simply refuse to be
 ___
 ## Converting Human NPCs
 
+Before attempting to convert human NPCs to other races/templates, it is recommended to first confirm that existing stat blocks of other races are not sufficient to fulfil the desired role.
+
 In general converting NPCs is not difficult, especially if we ignore minor details (eg potentially going over weight limits or no longer meeting the prerequisites of abilities). It is encouraged to ignore minor details if converting human NPCs to other races/templates, as pre-made NPC stat blocks exist to save the DM time and do not abide too strictly by the rules anyway, so spending too long converting them is probably counterproductive.
 
 There are some races which should probably not be given additional stat blocks. Namely, these are the [Winged](../09-races.md#the-winged-level-1-template--8-points) and [Sea People](../09-races.md#the-sea-people-level-1-template--8-points). This is because their mechanics and hence environment and lifestyle would inevitably be quite inhuman, and thus many of the existing stat blocks would either not be relevant (anything with medium or heavy armour) or become grotesquely bizarre. This would also apply to other highly inhuman templates. With that in mind, here are the conversion guides.
@@ -1735,7 +1738,7 @@ ___
 - Add +1 to CHA.
 - Add low light vision.
 - Add resistance to poison, poisoned, bleeding.
-- Add "[Elementalism: Elemental Touch](../06-abilities.md#touch-elemental-touch)" of an element of your chice.
+- Add "[Elementalism: Elemental Touch](../06-abilities.md#touch-elemental-touch)" of an element of your choice.
 
 ___
 ### Beast folk

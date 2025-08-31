@@ -549,7 +549,7 @@ ___
 ### Crocodile
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|16/17/11|38 (*23*)|26 (*21*)|10|30|Swim (40ft)|
+|16/17/11|33 (*21*)|21 (*17*)|9|30|Swim (40ft)|
 
 (Natural armour + 4)
 
@@ -559,11 +559,11 @@ Size = Large
 |-|-|-|-|-|-|-|
 |Stat|16|10|16|2|12|12|
 |Bonus|+3|0|+3|-4|+1|+1|
-|Save|+6|+1|+8|-2|+3|+3|
+|Save|+5|+1|+7|-3|+2|+2|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|6 (2)|10|10|2|2|4|4|
+|5 (1)|9|8|2|2|3|3|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|

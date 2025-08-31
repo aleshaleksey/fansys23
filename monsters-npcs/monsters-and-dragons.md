@@ -524,9 +524,9 @@ ___
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|22|10|22|6|10|12|
-|Bonus|+6|0|+6|-2|0|+1|
-|Save|+11|+2|+11|0|+2|+3|
+|Stat|21|10|22|6|10|12|
+|Bonus|+5|0|+6|-2|0|+1|
+|Save|+10|+2|+11|0|+2|+3|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
@@ -534,9 +534,9 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite|+11|2d12+6|Piercing, shear|
-|Claws|+11|2d6+6|Piercing, shear|
-|Grapple, Restrain|+11||||
+|Bite|+10|2d12+5|Piercing, shear|
+|Claws|+10|2d6+5|Piercing, shear|
+|Grapple, Restrain|+10||||
 |Combined Manoeuvre: Grapple|||Bite only: Trolls can deal damage with their bite while simultaneously grappling their target (1SP die)|
 |Great shout|Threshold=20 CHA||Cost: 2 SP dice. Range: 30ft sphere centred on the troll. All entities that can hear the shout and fail the charisma save are [incapacitated](../10-conditions-types.md#incapacitated) till the end of the troll's next turn.|
 |Monster attack|||A troll makes two claw attacks. It can also make either a bite attack or a |
@@ -561,9 +561,9 @@ ___
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|28|16|20|4|16|10|
-|Bonus|+9|+3|+5|-3|+3|0|
-|Save|+13|+7|+9|+1|+7|+4|
+|Stat|27|16|20|4|16|10|
+|Bonus|+8|+3|+5|-3|+3|0|
+|Save|+12|+7|+9|+1|+7|+4|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
@@ -571,7 +571,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Piercing Limb|+20|3d12+9|Piercing, shear|
+|Piercing Limb|+19|3d12+8|Piercing, shear|
 |Noxious aura|Threshold=22 Con|2d8 Poison[natural]|"main action", 2SP. Every round the aura is active it increases in radius by 20 feet beyond the mudwalker's space to a maximum of 60ft. The poison hangs in the air for 10 minutes in the area where it was active. [Severe](../03-movement-exploration.md#travel-and-getting-lost), or worse, blows away the aura upwind fom the mudwalker.|
 |"Monster Attack III"|||Makes 4 "Piercing Limb" attacks per round, it its target is of "medium" size or smaller, it can only be targetted by a single attack. If it is "large" it can only be targetted by two attacks.|
 |Resistant|||"charm", "catatonic", "stun", "piercing"|
@@ -594,9 +594,9 @@ Deflection: +2
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|34|8|28|14|18|20|
-|Bonus|+12|-1|+9|+2|+4|+5|
-|Save|+20|+7|+17|+9|+11|+12|
+|Stat|33|8|28|14|18|20|
+|Bonus|+11|-1|+9|+2|+4|+5|
+|Save|+19|+7|+17|+9|+11|+12|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
@@ -605,10 +605,10 @@ Deflection: +2
 
 |Attacks|Bonus|Damage|Other|
 |-|-|-|-|
-|Tentacle|+23|4d8+12|(Reach=15ft)|
+|Tentacle|+22|4d8+11|(Reach=15ft)|
 |Monster Attack VII|||See below|
-|Throw/Grapple|+23|2d8+12|Range 120ft/20ft, can throw objects/entities weighting up to 3000lb. If the weight is less than 1000lb, the range, but not increment is doubled|
-|Special Grapple|+23||Once an entity weighing less than 3000lb is grappled by the kraken it can use it with a throw attack.|
+|Throw/Grapple|+22|2d8+11|Range 120ft/20ft, can throw objects/entities weighting up to 3000lb. If the weight is less than 1000lb, the range, but not increment is doubled|
+|Special Grapple|+22||Once an entity weighing less than 3000lb is grappled by the kraken it can use it with a throw attack.|
 |Sonic Blast(Linear)|+14|2d6+4|(Range=240ft, aqueous only), +1d6 per SP dice.|
 |Elemental Touch: Lightning|+14|10d4+2|+2d4 per Mp dice.|
 
@@ -632,7 +632,7 @@ A kraken makes 8 attacks with its tentacles. It can attack targets smaller than 
 |Resistance|||"Restrained", "Immobilised", "Stunned", "Paralysed"|
 |Immune|||"Fear", "Disease", "Catatonic", "Charmed"|
 |||||
-|Skills|||"Swim" +29, "Observe" +14, "Geography" +13, "Sense Motive" +13, "Nature" +12, "Spellworking" +11, "History" +8, "Knowledge, other" +4.|
+|Skills|||"Swim" +28, "Observe" +14, "Geography" +13, "Sense Motive" +13, "Nature" +12, "Spellworking" +11, "History" +8, "Knowledge, other" +4.|
 |||||
 |Senses|||"Tremor Sense" 600ft, "Blind Sense" 60ft, "Low light vision"|
 
@@ -776,7 +776,7 @@ ___
 - Evade: -2, Armour +2 (+2 natural armour)
 - Reach: 10ft
 - [DEX save]: -2, [STR save]: +2
-- Carry capacity: (0 - 1056lb light, 1056 - 2640 lb heavy, 3960lb drag)
+- Carry capacity: (0 - 1008lb light, 1008 - 2520 lb heavy, 3780 drag)
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
@@ -784,9 +784,9 @@ ___
 
 |     |Str|Dex|Con|Int|Wis|Cha|
 |-----|---|---|---|---|---|---|
-|Stat |22 |14 |16 |5  |13 |14 |
-|Bonus|+6 |+2 |+3 |-3 |+1 |+2 |
-|Save |+8 |+4 |+5 |-1 |+3 |+4 |
+|Stat |21 |14 |16 |5  |13 |14 |
+|Bonus|+5 |+2 |+3 |-3 |+1 |+2 |
+|Save |+7 |+4 |+5 |-1 |+3 |+4 |
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-----------|-------|-------|---|---|---|---|
@@ -794,9 +794,9 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Beak|+12|2d8+6|Reach=10ft|
-|Claws|+12|1d12+6|Reach=10ft|
-|Grapple|+12|||
+|Beak|+11|2d8+5|Reach=10ft|
+|Claws|+11|1d12+5|Reach=10ft|
+|Grapple|+11|||
 |Monster Attack II|||An owl-griff can attack twice with its claws and once with its beak|
 |||||
 |[Berserker II](../06-abilities.md#berserk-i-v)|||An owl-griff can enter a blood friendly.|

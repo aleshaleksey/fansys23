@@ -773,12 +773,12 @@ ___
 - 7 MP dice.
 
 **Table**:
-|Ability Level|Min Base|Max Size  |Permitted Types       |Allowed Modalities|
-|-------------|--------|----------|----------------------|------------------|
-|I            |1       |Medium    |Beast, Humanoid       |Walk, Swim, Climb |
-|II           |2       |Large     |As I + Plant, Monster |As I + Fly, Dig   |
-|III          |3       |Huge      |As II + Elemental, Fey|As II             |
-|IV           |4       |Gargantuan|As III + Fiend, Angel |As III + Blink    |
+|Ability Level|Min Base|Max Size  |Permitted Types               |Allowed Modalities|
+|-------------|--------|----------|------------------------------|------------------|
+|I            |1       |Medium    |Beast, Humanoid               |Walk, Swim, Climb |
+|II           |2       |Large     |As I + Plant, Monster         |As I + Fly, Dig   |
+|III          |3       |Huge      |As II + Dragon, Elemental, Fey|As II             |
+|IV           |4       |Gargantuan|As III + Fiend, Angel         |As III + Blink    |
 
 **Special**:
 - The alternate form is always the same. For example, if a character transforms into a cat, it is always the same cat.
@@ -789,7 +789,7 @@ ___
 - A character can *be returned* to its original form by dispelling the alternate form, [as per the dispelling rules](07-magic-and-spellcasting.md#banishing-breaking-counter-spelling-and-dispelling). If the alternate form is dispelled, the character cannot use "Alternate Form" for a number of turns equal to the difference between the dispel roll and threshold. For example, if the Threshold=18, and the dispelling character rolls a 23, the shapeshifter cannot return to its alternate form for 5 rounds.
 
 **Limitations**:
-- The alternate form chosen cannot be a higher level than the initial character. Thus a level 6 character with "Alternate Form II" cannot chose the form of a dragon, as it is a higher level.
+- The alternate form chosen cannot be a higher level than the initial character. Thus a level 6 character with "Alternate Form II" cannot chose the form of a [kraken](monsters-npcs/monsters-and-dragons.md#sea-monster-kraken-lesser), as it is a higher level.
 - If the difference in CON between the two forms would increase, or decrease, the SP maximum, SP changes by the difference. For example if a character has +2 [CON], but its alternate form has +3 [CON] and the character has 6 SP dice and a level of 3, its main form would have 18 SP, and its alternate form would have 21 SP. Thus if a character fights in its alternate form and is reduced to 9/21 SP, when it returns to the main form, it would have 6/18 SP. If it has 2/21 SP it will return to 0/18 and take 1 HP damage.
 - Switching between forms does not use SP or MP dice. However, when a character has 0 MP or 0 MP dice, it cannot switch between forms.
 - Switching between forms does not in any way affect equipment or items carried by the character. Equipment that is incompatible with the character's may be shed or damaged.
@@ -973,7 +973,7 @@ ___
 
 **Special**:
 - Charm I and II: If the target succeeds its save by 12 or more, you are charmed by the target.
-- A mortal attempting to charm a "[divine](10-conditions-types.md#divine), must make a CHA save vs the target's threshold, or be charmed instead.
+- A mortal attempting to charm a "[divine](10-conditions-types.md#divine-1), must make a CHA save vs the target's threshold, or be charmed instead.
 - You can extend the effect as a non-action, however, the target does get to roll a new CHA save. Every time the effect is extended in this way, the target gains a +1 bonus to the save. If the effect is allowed to expire, and you attempt to charm the same target again, the bonus to the save is reset.
 
 **Table**:

@@ -759,7 +759,7 @@ ___
 
 **Description**: The caster summons a mote of light and binds it to a valid target, giving it the "glowing" condition. An unwilling target may break the effect with a successful Cha save, thus ending the spell. The mote sheds bright light in 40ft and dim light in total radius of 100ft.
 
-Incorporeal ["undead"](10-conditions-types.md#profane) and ["fiends"](10-conditions-types.md#profane) have disadvantage on attacks and saves within the radius of the bright light.
+Incorporeal ["undead"](10-conditions-types.md#profane-1) and ["fiends"](10-conditions-types.md#profane-1) have disadvantage on attacks and saves within the radius of the bright light.
 
 As a secondary action the caster may dismiss the flare, causing 1d4+[SUP] damage to a single target within 5ft and hence ending the spell.
 
@@ -1052,7 +1052,7 @@ ___
 
 **Description**: Much like a shadow of ["Least Flare"](#least-flare), the caster summons a shade and binds it to a valid target, giving it the "blinded" condition. An unwilling target may break the effect with a successful Cha save, thus ending the spell. The shade reaches out and extinguishes bright light within 40ft and dim light within a total radius of 100ft. This creates an area of darkness where [ordinary vision and low-light vision](02-base-rules.md#sight) are unable to penetrate, and entities that rely on this kind of vision are effectively ["blind"](10-conditions-types.md#conditions-in-detail). Other senses are not affected. 
 
-[angels](10-conditions-types.md#divine) within 40ft of the shade have disadvantage on attacks and saves.
+[angels](10-conditions-types.md#divine-1) within 40ft of the shade have disadvantage on attacks and saves.
 
 As a secondary action the caster may command the shade to reach out and touch a target within 10ft. Doing this ends the darkness effect of "Dusk". The target must make a Wis save or be ["Catatonic"](10-conditions-types.md#conditions-in-detail) for a minute (repeated saves apply).
 
@@ -2855,7 +2855,7 @@ ___
 
 **Description**: The caster summons a mote of light and binds it to a valid target, giving it the "glowing" condition. An unwilling target may break the effect with a successful Cha save, thus ending the spell. The mote sheds bright light in 120ft and dim light in total radius of 300ft.
 
-Incorporeal ["undead"](10-conditions-types.md#profane) and ["fiends"](10-conditions-types.md#profane) have disadvantage on attacks and saves within the radius of the bright light.
+Incorporeal ["undead"](10-conditions-types.md#profane-1) and ["fiends"](10-conditions-types.md#profane-1) have disadvantage on attacks and saves within the radius of the bright light.
 
 As a secondary action the caster may dismiss the flare, causing 3d6+[SUP] damage to all targets within 30ft of the mote and hence ending the spell. All entities that take damage from the light must succeed a CON save or be "blinded". The effect is permanent until cured.
 
@@ -3739,7 +3739,7 @@ ___
 |Concentration|local|
 |Save|-|
 
-**Description**: Summons an [angel](10-conditions-types.md#divine) of 8th level or lower, that will faithfully serve, or fight for the caster. The caster and angel are able to communicate (angels understand all languages anyway). 
+**Description**: Summons an [angel](10-conditions-types.md#divine-1) of 8th level or lower, that will faithfully serve, or fight for the caster. The caster and angel are able to communicate (angels understand all languages anyway). 
 
 **Special**:
 - You can only have one summon at any one time.
@@ -4189,7 +4189,7 @@ Firstly, all targets of the caster's choice regain 4d4+[Sup] MP and SP, if they 
 
 Secondly all targets of the caster's choice are cured of up to 4 conditions of their choice, if they are in the spell's area of effect when it is cast.
 
-Thirdly, all hostile entities and all "[profane](10-conditions-types.md#profane)" must make a WIS save vs the caster's threshold, or gain the "glowing" condition, and be either "frightened" of, or "charmed" by, the caster and their allies for the duration of the spell (repeated saves apply). This effect occurs to entities if they are in the spell's area of effect when it is cast, or when they first enter the area of effect.
+Thirdly, all hostile entities and all "[profane](10-conditions-types.md#profane-1)" must make a WIS save vs the caster's threshold, or gain the "glowing" condition, and be either "frightened" of, or "charmed" by, the caster and their allies for the duration of the spell (repeated saves apply). This effect occurs to entities if they are in the spell's area of effect when it is cast, or when they first enter the area of effect.
 
 Fourthly, all willing allies are transformed into "beasts" or "fey" of the caster's choice, as if by the "[Transform Mortal](#transform-mortal)" spell. This effect occurs to entities if they are in the spell's area of effect when it is cast, or when they first enter the area of effect.
 
@@ -4598,7 +4598,7 @@ ____
 - For every time a caster casts the spell, it gains the grudge of the gods. When "dying" or "doomed", the amount of HP it loses increases by 1 per round. (-2 per round after one casting, -3 after two castings, etc).
 - The spell is permanent, but even if the spell is dispelled, the place it is cast forever resonates with an aura of [Curse, Divine, Profane, Spiritual] energies. Mortals born nearby may be cursed or blessed by the gods, or have otherworldly affinities or resistances.
 - After the spell is dispelled, the area is still affected as if by a permanent ["Rejuvenate Land"](#rejuvenate-land), likewise, entities that rest here roll a 1d6. On a 1, they gain a curse (as if affected by ["Curse"](#least-curse) cast with 3 MP dice). On a 6 they are healed (as if affected by ["Cure"](#cure) cast with 3 MP dice).
-- The caster gains the grudge of a divine entity, and the favour of a [glitch](10-conditions-types.md#divine), the later seldom being a good thing.
+- The caster gains the grudge of a divine entity, and the favour of a [glitch](10-conditions-types.md#divine-1), the later seldom being a good thing.
 
 ____
 

@@ -464,6 +464,7 @@ ____
 ### Spell list
 - Tidy up spell costs for global spells and upcasting terminology.
 - Add more uses for [Alternate Form I-IV](06-abilities.md#alternate-form-i-iv), [Alternate Form: Sequester](06-abilities.md#alternate-form-sequester) and [Alternate Form: Swift Transformation](06-abilities.md#alternate-form-swift-transformation).
+- Balance [Metamorphosis/Rebirth](08-spell-list.md#metamorphosisrebirth) to reduce the chance of dragons.
 
 ### Weapons and Armour
 - Mauls, axes and siege weapons [ignore some damage reduction](11-weapons-armour.md) of certain materials.

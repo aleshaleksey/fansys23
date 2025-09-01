@@ -3620,20 +3620,21 @@ After 24 hours have passed, the life force from the consumption of the old body 
 |Humanoid|1-6|9|Fey-touched|
 |Humanoid|1-6|10|Dragonkin|
 |Humanoid|1-6|reroll|(or additional races)|
-|Beast|7-10|1|Rat|
-|Beast|7-10|2|Ox|
-|Beast|7-10|3|Tiger|
-|Beast|7-10|4|Rabbit|
-|Beast|7-10|5|Go to Dragons|
-|Beast|7-10|6|Snake|
-|Beast|7-10|7|Horse|
-|Beast|7-10|8|Goat|
-|Beast|7-10|9|Monkey|
-|Beast|7-10|10|Rooster|
-|Beast|7-10|11|Dog|
-|Beast|7-10|12|Guinea Pig|
-|Dragon|11||Half-dragon|
-|Dragon|12||Lesser Dragon|
+|Beast|7-11|1|Rat|
+|Beast|7-11|2|Ox|
+|Beast|7-11|3|Tiger|
+|Beast|7-11|4|Rabbit|
+|Beast|7-11|5|Go to Dragons|
+|Beast|7-11|6|Snake|
+|Beast|7-11|7|Horse|
+|Beast|7-11|8|Goat|
+|Beast|7-11|9|Monkey|
+|Beast|7-11|10|Rooster|
+|Beast|7-11|11|Dog|
+|Beast|7-11|12|Guinea Pig|
+|Dragon|12|1-4|Half-dragon|
+|Dragon|12|5-8|Lesser Dragon|
+|Dragon|12|9-12|Player's Choice|
 
 ___
 ### Otherworld Step

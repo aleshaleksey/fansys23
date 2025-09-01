@@ -613,6 +613,47 @@ Size = Medium
 Caymans are the smaller cousins of crocodiles. They better adapted for hunting fish, but will equally consume any beast smaller than themselves.
 
 ___
+### Elephant (level 7)
+- **Size**: Huge
+- **Carrying capacity**
+  - Light: 1056lb
+  - Heavy: 1760lb
+  - Drag: 2640lb
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|14/14/10|47 (*29*)|34 (*22*)|12|45ft|-|
+
+(+3 armour from hide)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|22|8|17|5|14|15|
+|Bonus|+6|-1|+3|-4|+2|+2|
+|Save|+10|+1|+5|-2|+4|+4|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|7 (2)|13|10|2|2|4|4|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Gore|+11|2d8+6|percussive|
+|Shove/Throw/Grapple|+11|||
+|[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||An elephant can knock over its foes as it charges them tusks first (1SP)|
+|[Broad Strike](../06-abilities.md#broad-strike)|||(1 SP die) An elephant can attack multiple adjacent targets with its tusks|
+|[Far Throw I](../06-abilities.md#far-throw-i-v)|||An elephant throws its target 15ft + [5ft x size advantage]|
+|[Run](../06-abilities.md#sprinter)|||An elephant can run at x3 its base speed, and sprint at x5 its base speed.|
+|[Mighty II](../06-abilities.md#mighty-ii)|||An elephant can carry significantly more than even its mighty frame suggests.|
+|Resistant|||Prone|
+|Skills|||"Harvest" +6, "Climb" +10, "Observe" +4|
+|Loot|||A single elephant can provide up to 6000lb of meat, 100lb of ivory, and 800lb of bones|
+
+Elephants are heavy herbivorous mammals that stand about 10ft tall and often weight over 10,000lb. They have prehensile snouts (trunks) and an intelligence which is not far below that of humanoids.
+
+Elephants dwell in herds and range widely. They are not necessarily aggressive (except males in heat), although they do defend their young fiercely. In combat they generally take one of two strategies. Either they form a defensive ring around their young, to ward off predators, or form a wide line and charge as a single front, hoping to trample their foes underfoot.
+
+___
 ### Rat
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|

@@ -848,6 +848,52 @@ ___
 A sparrow-griff is a tiny pest with the front of a sparrow and the hind-side of a mouse. It dwells around farmsteads, and wizard's towers, eats any supplies it can get its paws on, and leaves a mess behind it. Some mages use them as familiars.
 
 ___
+### Minotaur
+**Size category**: Large (10ft x 10ft)
+- Evade: -1, Armour +1
+- Reach: 5ft (long)
+- [DEX save]: -1, [STR save]: +1
+- Carry capacity: (0 - 480lb light, 480-1200lb heavy, 1800 drag)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|16/15/13|59 (*35*)|44 (*28*)|14|35ft|-|
+
+Hide Armour: +3
+
+|     |Str|Dex|Con|Int|Wis|Cha|
+|-----|---|---|---|---|---|---|
+|Stat |20 |14 |16 |8  |12 |15 |
+|Bonus|+5 |+2 |+3 |-1 |+1 |+2 |
+|Save |+8 |+3 |+5 |+1 |+3 |+4 |
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-----------|-------|-------|---|---|---|---|
+|9 (2)      |16     |13     |3  |3  |5  |5  |
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Great Axe|+10|2d8+5|Reach=5ft, long|
+|Horns|+10|1d10+5|Reach=5ft, long|
+|Grapple/Sunder|+10|||
+|[Multi-attack I](../06-abilities.md#multi-attack-i-iii)|||A minotaur make two basic combat manoeuvres in one attack action.|
+|[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||(1 SP die) A minotaur can combine 2 different basic combat manoeuvres|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|[Stalker](../06-abilities.md#stalker)||||
+|[Tracker:Swift](../06-abilities.md#tracker-swift)|||A minotaur can track at full speed without penalty.|
+|[Tracker: Persistent](../06-abilities.md#tracker-persistent)|||A minotaur makes a track roll every 4 hours when tracking.|
+|[Terrain Mastery: Ruins](../06-abilities.md#terrain-mastery)|||+2 to various rolls in ruins.|
+|[Sprinter](../06-abilities.md#sprinter)|||Run x3 base speed, and sprints x5 base speed.|
+|[Mighty I](../06-abilities.md#mighty-i)|||Can carry more weight than your average beast|
+|Skills|||"Athletics" +11, "Swim" +7, "Navigate" +6, "Observe" +7, "Intimidate" +7|
+
+A minotaur, half-bull half man, is said to be the product of the insatiable lust of humankind. A minotaur is traditionally found in a dark labyrinth where it makes its home and enjoys the taste of human flesh, though perhaps there are other interpretation.
+
+In combat a minotaur's tactics are simple: Charge. That said, before attacking it may stalk its foes through its labyrinth until it is exhausted, or drops its guard.
+
+___
 ### Pegasus
 **Size category**: Large (10ft x 10ft)
 - Evade: -1, Armour +1

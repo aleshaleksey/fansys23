@@ -504,7 +504,9 @@ This is a collection of unsorted rules related to basic physical combat.
 #### Basic Martial Manoeuvres
 Any adventurer may attempt a martial manoeuvre. If an untrained combatant attempts this however, they risk attacks of opportunity and other penalties. Many monsters can carry out these manoeuvres without penalties or meeting the prerequisites. Special abilities and weapons/tools can reduce or remove penalties for manoeuvres or increase their effectiveness. Most manoeuvres are made as an attack within the attack action.
 
-The "Grapple", "Restrain", "Shove", "Throw" and "Trip" manoeuvres can only be used against targets no more than two size categories larger than self. The penalty for using a manoeuvre or attack without proficiency, if there is one is -5 to the roll.
+- The penalty for using a manoeuvre or attack without proficiency, if there is one, is -5 to the roll.
+- **Size dependent**: For some manoeuvres, if the target is larger than the attacker, there is a -2 penalty for every size category by which they differ. If the attacker is more than 2 size categories larger than the attacker, the manoeuvre cannot be applied. Lastly, for these manoeuvres, the attacker gains a +2 bonus for every size category by which it is larger than the target.
+  - "Grapple", "Restrain", "Shove", "Throw" and "Trip" are size dependant.
 
 - **Attack**: This is not really a manoeuvre, and is available to all characters.
   - Effect: Deal damage to a target.
@@ -517,11 +519,13 @@ The "Grapple", "Restrain", "Shove", "Throw" and "Trip" manoeuvres can only be us
   - Requires attack roll vs target's NAT+[Str or Dex].
   - Penalty if not proficient with **grapples**.
   - Attack of opportunity on failure.
+  - Size dependent.
 - **Restrain**: This is the use of grapple on a prone or grappled target.
   - Effect: The target gains the "[restrained or aphonic](10-conditions-types.md#conditions-in-detail)" conditions.
   - Prerequisite: Foe must be prone or grappled.
   - Requires attack roll vs target's NAT+[Str or Dex].
   - Penalty if not proficient with **grapples**.
+  - Size dependent.
   - The one executing this manoeuvre declares one of the desired outcomes:
    - "Aphonia": Prevent foe from completing incantations.
    - "Restrain": Prevent a foe from casting spells with kinetic components and give penalties to weapon attacks.
@@ -529,12 +533,15 @@ The "Grapple", "Restrain", "Shove", "Throw" and "Trip" manoeuvres can only be us
   - Effect: Moves a foe away from you by up to 10ft.
   - Requires attack roll vs target's NAT+[Str or Dex].
   - Penalty if not proficient with **throws**.
+  - Size dependent.
   - Special: For every size category that you are larger than your target, increase the maximum distance by 5ft.
 - **Throw**: A different flavour of shove and uses the same proficiency.
+  - Size dependent.
 - **Trip**: This is also a different flavour of "shove" and uses the same proficiency.
   - Effect: Knock a foe prone.
   - Requires attack roll vs target's NAT+[Dex].
   - Penalty if not proficient with **throws**.
+  - Size dependent.
   - On failure provokes attack of Opportunity if the foe is holding a weapon you are not proficient with AND you are not proficient with **throws**.
 - **Disarm**:
   - Effect: Liberate a foe of a weapon or item held.

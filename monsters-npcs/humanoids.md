@@ -500,9 +500,9 @@ ___
 ### Human Mage (level 6)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|12/12/12|20 (*15*)|38 (*28*)|9|30|-|
+|13/12/13|20 (*15*)|38 (*28*)|9|30|-|
 
-Travelling over dangerous terrain, will use brigandine (HiT: 15/15/11)
+Travelling over dangerous terrain, will use brigandine (HiT: 17/16/13)
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -538,9 +538,11 @@ ___
 ### Human Warlock (level 7)
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|18/16/16|34 (*22*)|40 (*28*)|11|30|-|
+|20/16/16|34 (*22*)|40 (*28*)|11|30|-|
 
-Travelling over dangerous terrain, will use brigandine and a buckler (HiT: 15/15/11)
+- The usual HiT includes brigandine and buckler (combat).
+- A warlock will probably not equip their buckler outside of combat (HiT: 18/16/14).
+- Unarmoured the HiT is: 14/12/14.
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -562,7 +564,7 @@ Travelling over dangerous terrain, will use brigandine and a buckler (HiT: 15/15
 |[Bind Familiar I](../06-abilities.md#bind-familiar-i-iv)||||
 |[Deflection](../06-abilities.md#deflection)|||A mage may a reaction and potentially MP dice to reduce damage from "supernatural" ranged attack|
 |[Elemental Blast: Ice](../06-abilities.md#blast-elemental-blast)|+9|2d6+2 Ice[supernatural]|Range=120ft|
-|[Elemental Blast (Line): Ice](../06-abilities.md#line)|Threshold=16|2d6+2 Ice[supernatural]|Range=120ft|
+|[Elemental Blast (Line): Ice](../06-abilities.md#line)|Threshold=19|2d6+2 Ice[supernatural]|Range=120ft|
 |[Elemental Touch: Ice](../06-abilities.md#touch-elemental-touch)|+9|2d6+2 Ice[supernatural]|Reach=5ft|
 |[Elemental Sweep: Ice](../06-abilities.md#sweep)|+9|2d6+2 Ice[supernatural]|Reach=5ft|
 |||||

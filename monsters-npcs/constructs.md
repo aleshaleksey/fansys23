@@ -130,7 +130,7 @@ ___
 |Throw|+8|||
 |Interception|+8|||
 |Combined Manoeuvre I|||A clay golem can combine any two manoeuvres it is proficient with by expending 1SP dice.|
-|Flurry|||A clay golem can make a second combat manoeuvre as a secondary action|
+|Flurry|||A clay golem can make a *single* combat manoeuvre as a secondary action if it used its main action to attack.|
 |||||
 |Senses|||Sight, "low-light vision", "blind-sight" 30ft|
 |Senses|||A clay golem has no sense of smell or touch|
@@ -180,7 +180,7 @@ ___
 |Interception|+12|||
 |Multiattack I|||A clay golem attacks twice,|
 |Combined Manoeuvre I|||A clay golem can combine any two manoeuvres it is proficient with by expending 1SP dice.|
-|Flurry|||A clay golem can make a second combat manoeuvre as a secondary action|
+|Flurry|||A clay golem can make a *single* combat manoeuvre as a secondary action if it used its main action to attack.|
 |||||
 |||||
 |||||
@@ -234,7 +234,7 @@ ___
 |Interception|+15|||
 |Multiattack I|||A stone golem attacks twice,|
 |Combined Manoeuvre II|||A stone golem can combine any two or three manoeuvres it is proficient with by expending 1 or 2 SP dice respectively.|
-|Flurry|||A stone golem can make a second combat manoeuvre as a secondary action|
+|Flurry|||A stone golem can make a *single* combat manoeuvre as a secondary action if it used its main action to attack.|
 |Greater Manoeuvre I|||A stone golem can apply manoeuvres to targets up the size of "colossal"|
 |||||
 |Senses|||Sight, "low-light vision", "blind-sight" 30ft|
@@ -343,7 +343,7 @@ ___
 |Interception|+15|||
 |Multiattack I|||A mithril golem attacks twice,|
 |Combined Manoeuvre II|||A mithril golem can combine any two or three manoeuvres it is proficient with by expending 1 or 2 SP dice respectively.|
-|Flurry|||A mithril golem can make a second combat manoeuvre as a secondary action|
+|Flurry|||A mithril golem can make a *single* combat manoeuvre as a secondary action if it used its main action to attack.|
 |Greater Manoeuvre I|||A mithril golem can apply manoeuvres to targets up the size of "colossal"|
 |||||
 |Senses|||Sight, "low-light vision", "blind-sight" 30ft|
@@ -396,7 +396,7 @@ ___
 |Interception|+15|||
 |Multiattack II|||A diamond golem makes three attacks.|
 |Combined Manoeuvre II|||A diamond golem can combine any two or three manoeuvres it is proficient with by expending 1 or 2 SP dice respectively.|
-|Flurry|||A diamond golem can make a second combat manoeuvre as a secondary action|
+|Flurry|||A diamond golem can make a *single* combat manoeuvre as a secondary action if it used its main action to attack.|
 |Greater Manoeuvre II|||A diamond golem can apply manoeuvres to targets up the size of "colossal"|
 |[Arcane Interception](../06-abilities.md#arcane-interception)|||A diamond golem can intercept arcane|
 |[Deflection](../06-abilities.md#deflection)|||A diamond golem can reduce damage from supernatural attacks aimed at it|
@@ -560,9 +560,10 @@ ___
 **Size category**: Medium (5ft x 5ft)
 - Reach: 5ft
 - Carry capacity: (72lb light, 144lb medium, 360lb heavy, 540lb drag)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|18/18/12|47 (*29*)|41 (*23*)|13|35ft|
+|18/18/12|47 (*29*)|41 (*23*)|13|35ft|-|
 
 - Natural Armour: +6 (Steel)
 

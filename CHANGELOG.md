@@ -446,6 +446,9 @@ ____
 - Beautify [damage chapter](10-conditions-types.md#damage-types) and "improve" [lightning](10-conditions-types.md#electricity-lightning)/[light](10-conditions-types.md#light) damage.
 - Remove lightning resistance for profane beings and add light vulnerability where missing.
 
+### Combat
+- Fix size dependence of [basic martial manoeuvres](04-combat.md#basic-martial-manoeuvres) (+/-2 per size categories to size dependent manoeuvres).
+
 ### Movement and Exploration
 - Change flight rules to support different [flight endurance](03-movement-exploration.md#flight-parameters) independently of flight rating (Also added modification to racial flight rules).
 - Some weapons ignore part of the [damage reduction of objects](03-movement-exploration.md#object-hit-point-durability-table).

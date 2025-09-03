@@ -735,6 +735,7 @@ As this is a human-centric game, probably designed by a human, "medium", the sta
 
 1. Applies the "long" property to all weapons of "large" size category it wields. All "large" size category that already have the "long" property lose it and instead are treated as having a reach of 10ft. (See ["Combat: Range and Reach"](04-combat.md#range-and-reach))
 2. The armour penalty on entities of size "small" and smaller applies only the armour of entities that have armour. It can never take the natural armour bonus to HiT below zero.
+3. Some basic combat manoeuvres also suffer bonuses or penalties based on size difference (see "[Basic Martial Manoeuvres](04-combat.md#basic-martial-manoeuvres)").
 
 ___
 #### Dice size rules

@@ -319,13 +319,13 @@ At level one a character starts with the following:
 
 Skills and proficiencies determine how well practiced your character is with certain routine or esoteric arts, skills or sciences, as well as which tools, weapons and armours they know how to use. A character essentially starts with between 5 and 11 skill points. It is recommended that you take at least one weapon proficiency and one armour proficiency, and maybe more for martial characters. For more information see the "[Skills](05-skills.md)" and "[Weapons and Armour](11-weapons-armour.md)" chapters.
 
-Secondly, a character starts with one background skill, where they get to add a small bonus called "Base" (+1 at level 1).
+Secondly, a character starts with one background skill, where they get to add a small bonus (+2 at level 1 - this is [base + 1]).
 
 Thirdly, a character also gets to choose a homeland  (see "[terrain](03-movement-exploration.md#terrains)"). This reflects the landscape of the character's homeland, and can be anything from "town" or "plains" to "ruins" or "subterranean". The character has a +2 bonus to [fortify](05-skills.md#fortify) and [navigation](05-skills.md#navigate) in that terrain (very useful).
 
 Fourthly, a character chooses a save with which they are proficient. This will help defend them against some nasty stuff, so choose carefully.
 
-Lastly, a character gains 3 level points. Level points are spent on gaining abilities. These range from extra good saves, to sword arts and spell casting, and much more. A level point can also be exchanged for 3 skill points or a +1 increase to any stat (although no stat can exceed 24 for a character). For a list of abilities see the "[Abilities](06-abilities.md)" chapter.
+Lastly, a character gains 3 level points. Level points are spent on gaining abilities. These range from extra good saves, to sword arts and spell casting, and much more. A level point can also be exchanged for 4 skill points or a +1 increase to any stat (although no stat can exceed 24 for a character). For a list of abilities see the "[Abilities](06-abilities.md)" chapter.
 
 ___
 ### Stamina and Mana dice and HP
@@ -438,7 +438,7 @@ ___
 
 Every character gets 3 level points at level 1. These can be spend as follows.
 
-+ Exchanged for skill points at the rate of 1 level points = 3 skill points.
++ Exchanged for skill points at the rate of 1 level points = 4 skill points.
 + Exchanged for an increase to stats at the rate of 1 level point = +1 to a single stat. No stat may exceed 24 for player characters. A character can only add one level point to stats per level.
 + Exchanged for abilities and boons.
 
@@ -455,11 +455,11 @@ Levelling up, strangely enough, is quite easy, if not for the agony of choice. E
 
 + 1 HP
 + 3 dice points to share between gaining SP dice and MP dice.
-+ [3 + Int] skill points to put into skill ranks and proficiencies. 
-+ 1 skill to add to background skills
 + 3 level points, to be used for abilities.
   - 1 level point per level can be used to increase any stat by 1.
-  - Level points can be expended for skill points (3 skill points per level point).
+  - Level points can be expended for skill points (4 skill points per level point).
++ [4 + Int] skill points to put into skill ranks and proficiencies.
++ Every ODD level: 1 skill to add to background skills
 
 A character must spend all points when it levels up. It cannot horde unspent points waiting for the next level.
 

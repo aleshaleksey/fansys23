@@ -618,7 +618,7 @@ ___
 A character cannot rest if:
 - They are experiencing violent motion (eg on a galloping horse).
 - They are exerting themselves (eg casting spells or doing labour).
-- They are experiencing any extreme weather effect.
+- They are experiencing any extreme weather effect without some kind of [shelter, fortification or amelioration](03-movement-exploration.md#camping).
 
 In addition, certain types of rest have additional requirements:
 - For a long rest or longer a character must have access to sleep, food and water (if they sleep eat or drink respectively).

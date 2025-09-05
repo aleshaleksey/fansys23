@@ -531,9 +531,9 @@ Different armours exist, each with advantages and disadvantages. Each of the fou
   - Leather Cuirass
   - Chain Shirt
 - **Medium armours** (armour bonus)
-  - Full Padded
+  - Full Padded [1]
   - Hide armour
-  - Full Leather
+  - Full Leather [1]
   - Brigandine
   - Metal Cuirass
 - **Heavy Armour** (armour bonus)
@@ -547,12 +547,16 @@ Different armours exist, each with advantages and disadvantages. Each of the fou
   - Heavy/Kite Shield
   - Tower Shield
 
+1. *Full Padded and Leather armour can be used without penalty by characters proficient with "light armour". However, they are still governed by "medium armour" rules in all other ways (eg, resting, fatigue, penalties, donning/doffing, etc).*
+
 ### Armour Proficiencies
 
 Any entity whose body fits a suit of armour can wear the armour. As such it will get the normal benefit to the hit threshold.
 
 - When an entity dons or doffs an armour it is not proficient with, it takes twice as long to don and doff the armour as normal.
-- While an entity is wearing an armour it is not proficient with it takes a -5 penalty to all [DEX] and [STR] based rolls it makes, in addition to any other penalties normally associated with the armour.
+- While an entity is wearing an armour it is not proficient with:
+  - If it is a medium or heavy armour: It takes a -5 penalty to all [DEX] and [STR] based rolls it makes.
+  - If it is a light armour: It takes a -2 penalty and gains only half of the armour bonus (rounded down). to HiT.
 
 ### Donning and Doffing armour
 
@@ -594,9 +598,9 @@ Bonus Key:
 |Leather Cuirass|Light|A|1|-|10|4|
 |Chain Shirt|Light|A|2|6|20|6|
 ||||||||
-|Full Padded|Medium|A|2|6|10|2|
+|Full Padded[1]|Medium|A|2|6|10|2|
 |Hide Armour|Medium|A|3|3|30|4|
-|Full Leather|Medium|A|3|4|20|6|
+|Full Leather[2]|Medium|A|3|4|20|6|
 |Brigandine|Medium|A|4|3|38|6|
 |Full Chain|Medium|A|5|3|55|8|
 |Cuirass|Medium|A|5|2|46|8|
@@ -617,7 +621,7 @@ This refers to basic armours that can be quickly donned and doffed while giving 
 
 **Leather Cuirass:** This refers to any armour made of a light material that protects the chest, abdomen, back and flanks. Often it has some minor protection for groins and upper legs. It is generally cheap and light. It is often worn by scouts, messengers and runners. Lighter linothorax armour belongs in this category.
 
-**Chain shirt:** Armour made of small, interconnected metal rings. This refers to smaller chain shirts that can be somewhat hidden beneath heavy clothes. this armour offers better protection to the vitals than light cuirasses, but is considerably more expensive to construct and heavier. They are often worn by nobles and merchants who may suspect foul play but still need to appear presentable. 
+**Chain shirt:** Armour made of small, interconnected metal rings. This refers to smaller chain shirts that can be somewhat hidden beneath heavy clothes. This armour offers better protection to the vitals than light cuirasses, but is considerably more expensive to construct, and it is heavier. Chain shirts are often worn by nobles and merchants who may suspect foul play but still need to appear presentable. 
 
 ___
 ### Medium Armour

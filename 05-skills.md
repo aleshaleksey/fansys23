@@ -37,7 +37,7 @@ ___
 
 Skills and proficiencies are usually acquired at level up by either assigning skill points or adding a skill to "background skills". This reflects time spent honing skills through use on adventure and picking up new skills and techniques by training. Certain special abilities also grant additional skills and proficiencies.
 
-It is NOT advisable to allow a character to gain additional skill points outside of this unless it is necessary for party balance or plot reasons. Even then it should not be taken lightly. As an optional rule, a character may spend a solid month of training to gain 1 skill point. Even so, the total number of points (ranks) in a skill cannot exceed [LVL]/2. Certain supernatural abilities can also transfer a skill from one entity to another, but no entity should use them lightly.
+It is NOT advisable to allow a character to gain additional skill points outside of this unless it is necessary for party balance or plot reasons. Even then it should not be taken lightly. As an optional rule, a character may spend a solid month of training to gain 1 skill point. Even so, the total number of points (ranks) in a skill cannot exceed [LVL]/2 (rounded up). Certain supernatural abilities can also transfer a skill from one entity to another, but no entity should use them lightly.
 
 ___
 ### Skill points (ranks)
@@ -46,19 +46,19 @@ A character gets skill points (ranks) based on level and intelligence. The maxim
 
 - **[LEVEL / 2] rounded up**.
 
-Every level a character gains skill points equal to **3 + [INT]**. So at level LVL a character has **[LVL] x (3 + [INT])** skill points (not counting any ranks gained through converting "level points" to skill points).
+Every level a character gains skill points equal to **4 + [INT]** (With essentially 4 extra skill points at level 1). So at level LVL a character has **4 + [LVL] x (4 + [INT])** skill points (not counting any ranks gained through converting "level points" to skill points).
 
-A skill point can be assigned to either (a) gain a proficiency, or (b) add a rank to a skill. Each level a character can reassign one of the previously assigned skill points to a different proficiency or skill. If a character has **zero** ranks in a skill and does not have the skill as a background skill, any roll of the dice (before modifiers!) in that skill above 12 counts as 12. This reflects lack of specialist knowledge and experience that that character lacks.
+A skill point can be assigned to either (a) gain a proficiency, or (b) add a rank to a skill. Each level a character can reassign one of the previously assigned skill points to a different proficiency or skill. If a character has **zero** ranks in a skill and does not have the skill as a background skill, any roll of the dice (before modifiers!) in that skill above 13 counts as 13. This reflects lack of specialist knowledge and experience that that character lacks. A character can circumvent this by using a different skill in the same "[skill group](#skill-groups)", however, in this case they take a -5 penalty to the roll instead.
 
 ___
 ### Base and "background" bonus
 
-Every level a character adds a "background" skill to add its **base** to. This cannot be reassigned later. At level N a character has N skills which are assigned as background skills (eg: 3 at level 3). This reflects knowledge in untrained skills that a character has picked up over their adventures, travels and other lifetime experience without actual training.
+Every ODD level a character adds a "background" skill to add its **base + 1** to. This cannot be reassigned later. At level N a character has N/2 (rounded up) skills which are assigned as background skills (eg: 3 at level 6, 5 at level 9). This reflects knowledge in untrained skills that a character has picked up over their adventures, travels and other lifetime experience without formal training.
 
 ___
 ### Total Skill bonus
 
-A character has a skill bonus of **[Base (optional)] + [ranks] + [ability bonus]**. So a character with INT = +2, and 2 ranks in "swim" has a +4 to swim. If they have assigned "swim" as a background skill, and their base is +1, the total bonus is +5.
+A character has a skill bonus of **[Base + 1(optional)] + [ranks] + [ability bonus]**. So a character with INT = +2, and 2 ranks in "swim" has a +4 to swim. If they have assigned "swim" as a background skill, and their base is +1, the total bonus is +6.
 
 ___
 ### Circumstance bonus
@@ -71,7 +71,7 @@ A character may gain a +2 circumstance bonus on a skill or ability roll if *anot
 
 In this case the assisting character may also make the skill/ability roll (with skills/tools the assistant must be proficient). On a total of 12 or higher, the initiating character gains a +2 on the roll.
 
-This bonus stacks, however, the number of assistants can be no higher than [base] of the initiating character.
+This bonus stacks. However, the number of assistants can be no higher than [base] of the initiating character. So a level 5 character can benefit from no more than 1 assistant. A level 12 character can benefit from no more than 3 assistants.
 
 Some skills cannot be assisted.
 
@@ -203,7 +203,9 @@ ___
 Any entity whose body fits a suit of armour can wear the armour. As such it will get the normal benefit to the hit threshold.
 
 - When an entity dons or doffs an armour it is not proficient with, it takes twice as long to don and doff the armour as normal.
-- While an entity is wearing an armour it is not proficient with it takes a -5 penalty to all [DEX] and [STR] based rolls it makes.
+- While an entity is wearing an armour it is not proficient with:
+  - If it is a medium or heavy armour: It takes a -5 penalty to all [DEX] and [STR] based rolls it makes.
+  - If it is a light armour: It takes a -2 penalty and gains only half of the armour bonus (rounded down). to HiT.
 
 Armour and its properties are further discussed in the "[Weapons and Armour Section](11-weapons-armour.md)".
 
@@ -212,9 +214,11 @@ There are three armour proficiencies that each cover several groups of armour.
 |Armour Category|Armour types|
 |-|-|
 |Light armour|Leather cuirass, Chain shirt|
-|Medium armour|Full padded, Hide, Full leather, Brigandine, Full chain, Cuirass|
+|Medium armour|Full padded[1], Hide, Full leather[1], Brigandine, Full chain, Cuirass|
 |Heavy armour|Segmented mail, Half-plate, Full-plate|
 |Shields|Buckler, Light shield, Heavy shield, Tower shield|
+
+1. Full Padded and Leather armour can be used without penalty by characters proficient with light armour. However, they are still governed by "medium armour" rules in all other ways (eg, resting, fatigue, penalties, donning/doffing, etc).
 
 ___
 ### Weapon Proficiencies

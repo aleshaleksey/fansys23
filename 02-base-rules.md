@@ -261,9 +261,11 @@ Every time a character levels up it gains:
 
 + 1 HP
 + 3 dice points to share between gaining SP dice and MP dice.
-+ [3 + Int] skill points to put into skill ranks and proficiencies (other than saves). 
-+ 1 skill to add to background skills
-+ 3 level points, to be used for stats, abilities, or exchanged for skill points (3 skill points per level point).
++ 3 level points, to be used for abilities.
+  - 1 level point per level can be used to increase any stat by 1.
+  - Level points can be expended for skill points (4 skill points per level point).
++ [4 + Int] skill points to put into skill ranks and proficiencies.
++ Every ODD level: 1 skill to add to background skills
 
 A character must spend all points when it levels up. It cannot horde unspent points waiting for the next level.
 
@@ -287,7 +289,7 @@ ___
 
 Every character gets 3 level points at level 1 and at each subsequent level up. These can be spend as follows.
 
-+ Exchanged for skill points at the rate of 1 level points = 3 skill points.
++ Exchanged for skill points at the rate of 1 level points = 4 skill points.
 + Used to increase any stat at the rate of 1 level point = +1 to a single stat. No stat may exceed 24 for player characters. A character can only add one level point to stats per level.
 + Exchanged for abilities and boons.
 
@@ -544,7 +546,7 @@ A character has skills and proficiencies. They generally represent the mundane a
 The number of skill points a character can have in a single skill is capped to:
 
 - **[LEVEL / 2]** (rounded up)
-- A skill bonus for a given skill is: **[Base (optional)] + [ranks] + [ability bonus]** (see "[Skills](05-skills.md)" chapter)
+- A skill bonus for a given skill is: **[Base + 1 (optional)] + [ranks] + [ability bonus]** (see "[Skills](05-skills.md)" chapter)
 
 ___
 ### Abilities

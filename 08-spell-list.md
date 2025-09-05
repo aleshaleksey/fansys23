@@ -1000,13 +1000,15 @@ ___
 |Conditions|Immobilised|
 |Save|Cha|
 
-**Description**: A bitter chill binds the target. The target or targets in the area are "immobilised".The target repeats its save at the end of every turn. (+6).
+**Description**: A bitter chill binds the target. The target and other entities in the area of effect must succeed a CHA save at the start of their turn or be "immobilised". The target repeats its save at the start of every turn. Targets that succeed the save instead have their base movement speed halved, and make [STR] and [DEX] saves at disadvantage for the next two turns. At the start of its 3rd turn after succeeding the save (or when the duration expires), the target is completely free of the spell. (+6)
 
-**Special**: The affected area is classed as being one step closer to having the "Extreme temperature: Severe Cold" modifier.
+**Special**:
+- The affected area is classed as being one step closer to having the "Extreme temperature: Severe Cold" modifier.
+- The caster, if caught in the area of effect, is not affected by the spell unless they so choose.
 
 **Upcast**: For every MP dice added above 2 the spell's radius increases by 5ft (this also affects the caster). OR Increase the duration by 1 minute.
 
-**Global**: The spell's range is 100ft per 2 MP dice, centered on you (you are not affected) and lasts for a day. For every 2 MP above 2, either the radius increases by 100ft, or the duration increase by a day.
+**Global**: The spell's range is 100ft per 2 MP dice, centered on you (you are not affected) and lasts for a day. For every 2 MP above 2, either the radius increases by 100ft, or the duration increase by a day. In this case, the target only makes its save at the start of each hour.
 
 ___
 ## MP 2 spells
@@ -3236,7 +3238,9 @@ ___
 |Effect|Immobilised|6(21)
 |Save|CON|
 
-**Description**: Chill the target, freezing it. The target takes 3d8 damage at the start of each turn and is "immobilised". This is negated by a successful CON save, which ends the spell. Furthermore, water within 10ft of the target freezes, and the temperature in the area of effect falls to "Extreme Temperature: Cold".
+**Description**: Chill the target, freezing it. The target takes 3d8 damage at the start of each turn and is "immobilised". This is negated by a successful CON save. Targets that succeed the save instead have their base movement speed halved, and make [STR] and [DEX] saves at disadvantage for the next two turns. At the start of its 3rd turn after succeeding the save (or when the duration expires), the target is completely free of the spell. Furthermore, water within 10ft of the target freezes, and the temperature in the area of effect falls to "Extreme Temperature: Cold".
+
+**Special**: The caster, if caught in the AoE, is not affected by the spell unless they so choose.
 
 **Upcast**: The spell is permanent. Furthermore, when the target's HP reaches 0, the spell does not deal further damage.
 

@@ -445,6 +445,8 @@ ____
 - Conversion table from human NPCs to other humanoids.
 - Beautify [damage chapter](10-conditions-types.md#damage-types) and "improve" [lightning](10-conditions-types.md#electricity-lightning)/[light](10-conditions-types.md#light) damage.
 - Remove lightning resistance for profane beings and add light vulnerability where missing.
+- Skill formula is now 4+[INT] instead of 3+[INT]
+- Background skills are halved (1 for every ODD level), but the bonus is increased by 1.
 
 ### Combat
 - Fix size dependence of [basic martial manoeuvres](04-combat.md#basic-martial-manoeuvres) (+/-2 per size categories to size dependent manoeuvres).
@@ -468,8 +470,11 @@ ____
 - Tidy up spell costs for global spells and upcasting terminology.
 - Add more uses for [Alternate Form I-IV](06-abilities.md#alternate-form-i-iv), [Alternate Form: Sequester](06-abilities.md#alternate-form-sequester) and [Alternate Form: Swift Transformation](06-abilities.md#alternate-form-swift-transformation).
 - Balance [Metamorphosis/Rebirth](08-spell-list.md#metamorphosisrebirth) to reduce the chance of dragons.
+- Balance [Winter's Touch](08-spell-list.md#winters-touch) and [Winter's Grasp](08-spell-list.md#winters-grasp) a touch.
 
 ### Weapons and Armour
 - Mauls, axes and siege weapons [ignore some damage reduction](11-weapons-armour.md) of certain materials.
 - [Mauls](11-weapons-armour.md#percussive) deal an extra die of damage when sundering.
 - [Axes](11-weapons-armour.md#axes) (war and great) no longer grant the grapple manoeuvre.
+- [Non-proficiency penalty](05-skills.md#armour-proficiencies) for light armour is modified (the penalty is reduced to -2, but the armour bonus gained from the armour is halved).
+- [Padded armour and leather armour](05-skills.md#armour-proficiencies) can be used through either light or medium armour proficiency, but otherwise still counts as medium armour.

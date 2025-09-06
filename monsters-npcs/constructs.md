@@ -106,7 +106,7 @@ Clay Golems can be of any size. This affects various parameters. Golems are usua
 ___
 **Size category**: Medium (5ft x 5ft)
 - Reach: 5ft
-- Carry capacity: (80lb light, 160lb medium, 400lb heavy, 600lb drag)
+- Carry capacity: (126lb light, 252lb medium, 630lb heavy, 945lb drag)
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
@@ -114,7 +114,7 @@ ___
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|20|8|18|8|12|-|
+|Stat|21|8|18|8|12|-|
 |Bonus|+5|-1|+4|-1|+1|-|
 |Save|+10|0|+5|0|+2|-|
 
@@ -125,12 +125,13 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Strike|+8|1d8+5|percussive|
-|Rock Throw|+8|1d10+5|40ft/120ft, a golem can throw an object (or objects) weighing up to 80lb as projectiles. If the projectile is of a weaker material (or a mortal), than the target, the damage is shared evenly between projectile and target.|
+|Rock Throw|+8|1d10+5|40ft/120ft, a golem can throw an object (or objects) weighing up to 126lb as projectiles. If the projectile is of a weaker material (or a mortal), than the target, the damage is shared evenly between projectile and target.|
 |Grapple|+8|||
 |Throw|+8|||
 |Interception|+8|||
 |Combined Manoeuvre I|||A clay golem can combine any two manoeuvres it is proficient with by expending 1SP dice.|
 |Flurry|||A clay golem can make a *single* combat manoeuvre as a secondary action if it used its main action to attack.|
+|[Mighty I](../06-abilities.md#mighty-i)|||A clay golem can lift and carry more than it seems.|
 |||||
 |Senses|||Sight, "low-light vision", "blind-sight" 30ft|
 |Senses|||A clay golem has no sense of smell or touch|
@@ -155,7 +156,7 @@ ___
 - Evade: -1, Armour +1
 - Reach: 5ft (long)
 - [DEX save]: -1, [STR save]: +1
-- Carry capacity: (192lb light, 384lb medium, 960lb heavy, 1320lb drag)
+- Carry capacity: (272lb light, 552lb medium, 1380lb heavy, 2070lb drag)
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
@@ -163,9 +164,9 @@ ___
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|24|8|20|10|14|-|
-|Bonus|+7|-1|+5|0|+2|-|
-|Save|+12|+1|+7|+2|+4|-|
+|Stat|23|8|20|10|14|-|
+|Bonus|+6|-1|+5|0|+2|-|
+|Save|+11|+1|+7|+2|+4|-|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
@@ -173,16 +174,15 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Strike|+12|2d8+7|percussive|
-|Rock Throw|+12|1d12+7|60ft/180ft, a golem can throw an object (or objects) weighing up to 192lb as projectiles. If the projectile is of a weaker material (or a mortal), than the target, the damage is shared evenly between projectile and target.|
-|Grapple|+12|||
-|Throw|+12|||
-|Interception|+12|||
+|Strike|+11|2d8+6|percussive|
+|Rock Throw|+11|1d12+6|60ft/180ft, a golem can throw an object (or objects) weighing up to 272lb as projectiles. If the projectile is of a weaker material (or a mortal), than the target, the damage is shared evenly between projectile and target.|
+|Grapple|+11|||
+|Throw|+11|||
+|Interception|+11|||
 |Multiattack I|||A clay golem attacks twice,|
 |Combined Manoeuvre I|||A clay golem can combine any two manoeuvres it is proficient with by expending 1SP dice.|
 |Flurry|||A clay golem can make a *single* combat manoeuvre as a secondary action if it used its main action to attack.|
-|||||
-|||||
+|[Mighty I](../06-abilities.md#mighty-i)|||A clay golem can lift and carry more than it seems.|
 |||||
 |Senses|||Sight, "low-light vision", "blind-sight" 30ft|
 |Senses|||A clay golem has no sense of smell or touch|
@@ -207,7 +207,7 @@ ___
 - Evade: -1, Armour +1
 - Reach: 5ft (long)
 - [DEX save]: -1, [STR save]: +1
-- Carry capacity: (208lb light, 416lb medium, 1040lb heavy, 1560lb drag)
+- Carry capacity: (300lb light, 600lb medium, 1500lb heavy, 2250lb drag)
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
@@ -217,8 +217,8 @@ ___
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|26|8|22|10|14|-|
-|Bonus|+8|-1|+6|0|+2|-|
+|Stat|25|8|22|10|14|-|
+|Bonus|+7|-1|+6|0|+2|-|
 |Save|+15|+1|+9|+2|+4|-|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
@@ -227,15 +227,16 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Strike|+15|2d8+8|percussive|
-|Rock Throw|+15|1d12+8|80ft/240ft, a golem can throw an object (or objects) weighing up to 192lb as projectiles. If the projectile is of a weaker material (or a mortal), than the target, the damage is shared evenly between projectile and target.|
-|Grapple|+15|||
-|Throw|+15|||
-|Interception|+15|||
+|Strike|+14|2d8+7|percussive|
+|Rock Throw|+14|1d12+7|80ft/240ft, a golem can throw an object (or objects) weighing up to 300lb as projectiles. If the projectile is of a weaker material (or a mortal), than the target, the damage is shared evenly between projectile and target.|
+|Grapple|+14|||
+|Throw|+14|||
+|Interception|+14|||
 |Multiattack I|||A stone golem attacks twice,|
 |Combined Manoeuvre II|||A stone golem can combine any two or three manoeuvres it is proficient with by expending 1 or 2 SP dice respectively.|
 |Flurry|||A stone golem can make a *single* combat manoeuvre as a secondary action if it used its main action to attack.|
 |Greater Manoeuvre I|||A stone golem can apply manoeuvres to targets up the size of "colossal"|
+|[Mighty I](../06-abilities.md#mighty-i)|||A stone golem can lift and carry more than it seems.|
 |||||
 |Senses|||Sight, "low-light vision", "blind-sight" 30ft|
 |Senses|||A stone golem has no sense of smell or touch|
@@ -261,7 +262,7 @@ ___
 - Evade: -2, Armour +2
 - Reach: 10ft
 - [DEX save]: -2, [STR save]: +2
-- Carry capacity: (208lb light, 416lb medium, 1040lb heavy, 1560lb drag)
+- Carry capacity: (288lb light, 576lb medium, 1440lb heavy, 2160lb drag)
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
@@ -288,6 +289,7 @@ ___
 |Interception|+15|||
 |Monstert Attack II|||A jade golem makes two attacks with its claws and two with its claws as part of an attack action.|
 |Combined Manoeuvre I|||A jade golem can combine any two manoeuvres it is proficient with by expending 1 SP dice.|
+|[Mighty I](../06-abilities.md#mighty-i)|||A jade golem can lift and carry more than it seems.|
 |||||
 |Senses|||Sight, "low-light vision", "blind-sight" 30ft|
 |Limited Telepathy|||A stone golem can implicitly understand its master within 1 mile.|
@@ -315,7 +317,7 @@ ___
 - Evade: -2, Armour +2
 - Reach: 10ft
 - [DEX save]: -2, [STR save]: +2
-- Carry capacity: (416lb light, 832lb medium, 2080lb heavy, 3120lb drag)
+- Carry capacity: (600lb light, 1200lb medium, 3000lb heavy, 4500lb drag)
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
@@ -325,9 +327,9 @@ ___
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|26|12|22|10|14|-|
-|Bonus|+8|+1|+6|0|+2|-|
-|Save|+15|+2|+9|+3|+5|-|
+|Stat|25|12|22|10|14|-|
+|Bonus|+7|+1|+6|0|+2|-|
+|Save|+14|+2|+9|+3|+5|-|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
@@ -335,16 +337,17 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Strike|+15|2d12+8|percussive|
-|Rock Throw|+15|2d8+8|80ft/240ft, a golem can throw an object (or objects) weighing up to 416lb as projectiles. If the projectile is of a weaker material (or a mortal), than the target, the damage is shared evenly between projectile and target.|
+|Strike|+14|2d12+7|percussive|
+|Rock Throw|+14|2d8+7|80ft/240ft, a golem can throw an object (or objects) weighing up to 416lb as projectiles. If the projectile is of a weaker material (or a mortal), than the target, the damage is shared evenly between projectile and target.|
 |[Greater Elemental Blast (Linear): Lighting](../06-abilities.md#line)|+9|3d4+1d4/MP dice|(Range=120ft+30ft/MP sice) Mithril golems may use up to 7 MP dice when firing an elemental blast. The width of the beam may be up to 35ft.|
-|Grapple|+15|||
-|Throw|+15|||
-|Interception|+15|||
+|Grapple|+14|||
+|Throw|+14|||
+|Interception|+14|||
 |Multiattack I|||A mithril golem attacks twice,|
 |Combined Manoeuvre II|||A mithril golem can combine any two or three manoeuvres it is proficient with by expending 1 or 2 SP dice respectively.|
 |Flurry|||A mithril golem can make a *single* combat manoeuvre as a secondary action if it used its main action to attack.|
 |Greater Manoeuvre I|||A mithril golem can apply manoeuvres to targets up the size of "colossal"|
+|[Mighty I](../06-abilities.md#mighty-i)|||A mithral golem can lift and carry more than it seems.|
 |||||
 |Senses|||Sight, "low-light vision", "blind-sight" 30ft|
 |Senses|||A mithril golem has no sense of smell or touch|

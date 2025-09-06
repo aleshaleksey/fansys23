@@ -478,3 +478,15 @@ ____
 - [Axes](11-weapons-armour.md#axes) (war and great) no longer grant the grapple manoeuvre.
 - [Non-proficiency penalty](05-skills.md#armour-proficiencies) for light armour is modified (the penalty is reduced to -2, but the armour bonus gained from the armour is halved).
 - [Padded armour and leather armour](05-skills.md#armour-proficiencies) can be used through either light or medium armour proficiency, but otherwise still counts as medium armour.
+
+___
+## From v0.0.17
+
+### Abilities
+- Fix [deflect missiles](06-abilities.md#deflect-missile):
+  - It only affects a single attack per round.
+  - It does not require use of SP dice.
+
+
+### Monsters and NPCs
+- Reduce the STR of some [golems](monsters-npcs/constructs.md) a little bit.

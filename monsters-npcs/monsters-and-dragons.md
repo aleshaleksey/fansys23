@@ -8,6 +8,7 @@
     - [Hive Beast](#hive-beast)
     - [Fell Beast](#fell-beast)
     - [Troll Head](#troll-head)
+    - [Tunnel Hound](#tunnel-hound)
     - [Demonic Snail](#demonic-snail)
     - [Demonic Slug](#demonic-slug)
     - [Troll](#troll)
@@ -402,6 +403,53 @@ ___
 |Skills|||+5 to any 2, +4 to any two (usually knowledge arcana, track, nature)|
 
 When strong trolls and some giants are killed, they have enough vitality that the head, filled driven by anger survives and walks away. These monsters are driven by hatred of those that killed them and constant anger. Even so, they are smart enough to avoid obviously suicidal ventures. No one wants to die.
+
+___
+### Tunnel Hound
+- **Size**: Large
+- **Natural Armour**: Armour +3
+- **Carrying capacity**
+  - Light: 134lb
+  - Medium: 268lb
+  - Heavy: 540lb
+  - Drag: 810lb
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|16/16/12|57 (*33*)|46 (*30*)|15|40ft|Dig (10ft)|
+
+- A tunnel hound in a 5ft wide corridor is always considered to have half cover.
+- When using a tactical map, a tunnel hound should take up 3 side-adjacent 5ft squares/hexes.
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|17|13|18|6|15|14|
+|Bonus|+3|+1|+4|-2|+2|+2|
+|Save|+5|+3|+6|0|+4|+4|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|9(2)|15|14|3|3|5|5|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite|+8|2d12+3|Reach=5ft (long)|
+|Claws|+8|1d12+3|Reach=5ft|
+|Grapple/Trip|+8||Reach=5ft (long)|
+|[Combined Manoeuvre](../06-abilities.md#combined-manoeuvre-i-v)|||(1 SP)|
+|Monster Attack I|||A tunnel hound makes one attack with its bite, and one with its claws.|
+|||||
+|Limited Resistance: Physical|||The front and rear end of a tunnel hound are particularly tough. A tunnel hound is [resistant to physical damage](../04-combat.md#damage-resistance) while in a 5ft wide tunnel.|
+|Limited Immunity: Prone|||A tunnel hound cannot be [knocked prone](../10-conditions-types.md#prone) while in a 5ft wide tunnel.|
+|||||
+|[Keen Senses: Smell + Hearing](../06-abilities.md#keen-senses-i-iii)|||A tunnel hound has advantage on observe/prospect rolls based on smell or hearing.|
+|[Blind Sight: 10ft](../06-abilities.md#blind-sight-i-vi)|||A tunnel hound can accurately map the space within 10ft of it through its sensitive whiskers.|
+|[Heat Sense: 30ft](../06-abilities.md#heat-sense-i-v)|||A tunnel hound can detect the body heat of nearby creatures.|
+|Skills|||"Fortify" +11, "Prospect" +3, "Track" +8, "Observe" +7|
+
+A tunnel hound is a 15ft long monster with short legs, a flexible back, and sharp teeth, that is about 6ft tall and 6ft wide. Typically they wander the corridors of catacombs or natural caves in search of prey. On occasion, creative generals release them into enemy fortresses through breaches in the outer walls, where they wreck havoc on the inhabitants with minimal losses for the attacking army.
+
+A tunnel hound's age can be determined by its length. Beware of long tunnel hounds.
 
 ___
 ### Demonic Snail
@@ -1557,23 +1605,3 @@ ___
 |||||
 
 ___
-|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
-|-|-|-|-|-|-|
-||||||
-
-||Str|Dex|Con|Int|Wis|Cha|
-|-|-|-|-|-|-|-|
-|Stat|||||||
-|Bonus|||||||
-|Save|||||||
-
-|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
-|-|-|-|-|-|-|-|
-||||||||
-
-|Ability|Bonus|Damage|Other|
-|-|-|-|-|
-|||||
-|||||
-|||||
-|||||

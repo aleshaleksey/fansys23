@@ -128,7 +128,7 @@ This is an approximation which assumes that most of the cost of any item is the 
 
 ___
 ### Crafting Costs
-Crafting items for a character is generally cheaper than purchasing ready made items, as it means one can eliminate labour cost completely, however, if the tools are particularly expensive and mst be procured, it an also be more expensive. Likewise, the crafting time, is a major immaterial cost.
+Crafting items for a character is generally cheaper than purchasing ready made items, as it means one can eliminate labour cost completely, however, if the tools are particularly expensive and must be procured, it an also be more expensive. Likewise, the crafting time, is a major immaterial cost.
 
 This leaves the main variable crafting cost, the material used to make the item, and the material expended in the crafting. For example when smithing a sword, not only does one use the iron for the blade, leather and other materials for the grip, but also, for example, the coal used in the forge.
 
@@ -151,7 +151,7 @@ The cost of a material generally depends on the ["material level"](12-equipment-
 |-|-|-|-|-|
 |1|2sp|x1|1|bronze (the raw ores), hide, softwood*|
 |2|4sp|x4|2|iron, hardwood|
-|3|20sp|x27|4|Steel, Mithral, Ironwood|
+|3|20sp|x27|4|Steel, Mithril, Ironwood|
 |4|130sp|x256|12|Demon Teeth, Dragon Hide, Adamantium|
 |5|1250sp|x3125|108|???|
 
@@ -175,7 +175,7 @@ In reality, some seemingly simple items, like bows took a very long time to make
 ___
 ## Enchanting and Imbuing
 
-Enchantment is placing spells upon objects, structures andd locales. The item is quite literally under a spell. A heavy blade can be enchanted with magic that makes it lighter, a cloak with magic that makes it warmer, or sets it on fire under certain conditions. A house may be enchanted in a way that its walls bleed on moonlit nights. A rag-doll may be enchanted to dance and sing.
+Enchantment is placing spells upon objects, structures and locales. The item is quite literally under a spell. A heavy blade can be enchanted with magic that makes it lighter, a cloak with magic that makes it warmer, or sets it on fire under certain conditions. A house may be enchanted in a way that its walls bleed on moonlit nights. A rag-doll may be enchanted to dance and sing.
 
 Imbuing is placing supernatural powers so deep within an object, structure or locale, that it itself becomes a source of supernatural power. The words written in a tome of an ancient mage could be imbued with the power to become real spells when read aloud. A pendant found in an forsaken manor could be imbued with the ability to curse those who wear or wield it. A ring bequeathed by an elemental lord of fire, may grant the rightful wearer a fraction of its creator's power.
 
@@ -203,7 +203,7 @@ The magic in items can be:
 - Single use (or useable N times). Not rechargeable.
 - Rechargeable (useable N times and then needs to be recharged).
 - Constant (always on).
-- At will (useable an unlimited amount of times, usually without a "cooldown").
+- At will (useable an unlimited amount of times, usually without a "cool-down").
 
 Furthermore the magic in items can be triggered by:
 - A successful attack/roll/skill roll.

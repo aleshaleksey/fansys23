@@ -290,7 +290,7 @@ This is a skill specific to scaling steep or vertical surfaces, trees, ropes and
 - Modifiers:
   - Surface is wet: -5 Penalty.
   - Surface is loose: -5 Penalty.
-  - Entity climbs at 1/2 speed or dash: -5 penalty.
+  - Entity climbs at 1/2 base speed: -5 penalty.
   - Entity spends one hour studying the climb: Advantage.
 - Special:
   - Entities with a climb speed can always "take care" to climb.

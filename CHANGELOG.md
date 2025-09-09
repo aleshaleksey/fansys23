@@ -487,6 +487,9 @@ ___
   - It only affects a single attack per round.
   - It does not require use of SP dice.
 
-
 ### Monsters and NPCs
 - Reduce the STR of some [golems](monsters-npcs/constructs.md) a little bit.
+
+### Spells
+- Add [Least Weather Control](08-spell-list.md#least-weather-control), for your small, personal rain clouds.
+- Modify [Least Rest](08-spell-list.md#least-rest) to make it less useless. It is no longer in the INCANTATION spell list!

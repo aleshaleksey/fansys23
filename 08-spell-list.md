@@ -38,6 +38,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Headwind](#headwind)
 - [Least Flare](#least-flare)
 - [Least Heal](#least-heal)
+- [Least Weather Control](#least-weather-control)
 - [Lesser Illusory Self](#lesser-illusory-self)
 - [Least Vengeance](#least-vengeance)
 - [Sense Spell](#sense-spell)
@@ -832,6 +833,29 @@ ___
 **Description**: Invoke fiery vengeance on a target that dealt damage, or otherwise attacked you since the end of your last turn.
 
 **Upcast**: Add +1d8 to the damage for every extra MP die above 1.
+
+___
+### Least Weather Control
+|Name|Least Weather Control [Air, Nature, Water]|
+|-|-|
+|Scope|local|
+|MP Dice|1|
+|Target(s)|20ft|+4
+|Casting time|"full round"|-1(3)
+|Range|close|
+|Duration|12 min|+3(6)
+|Material|A butterfly's Wings|-1(5)
+|Focus|A crystal whistle|-1(4)
+|Components|incantation, kinetic|
+|Limitation|The weather cannot completely contradict the season|-1(3)
+|Save||
+
+**Description**: The caster affects the weather, shifting one of visibility, precipitation, wind and temperature locally by two points in either direction. For example if it is an average spring day with severe wind and no rain and good visibility, the caster can locally change the weather to "extreme wind" or "no wind", or cause extreme rain, or create a small fog bank with no visibility.
+
+**Limitation**: The weather cannot completely contradict the season and climate. For example, the spell cannot cause a snowstorm on a summer's day where snowstorms do not, as a rule, occur in summer.
+
+**Upcast**: The for every extra MP die above 1, the spell lasts for an extra 6 minutes or increases in radius by 5ft.
+
 ___
 ### Sense Spell
 |Name|Sense Spell [Air, Earth, Fire, Water, Spirit]|
@@ -1146,7 +1170,7 @@ ___
 
 ___
 ### Least Rest
-|Name|Least Rest [Divine, Healing, Nature, Winter]|
+|Name|Least Rest [Divine, Earth, Healing, Nature, Winter]|
 |-|-|
 |Scope|local|
 |MP Dice|2|
@@ -1154,15 +1178,17 @@ ___
 |Casting time|"main action"|
 |Range|close|
 |Duration|instantaneous|
-|Components|incantation|+1
+|Components|incantation, kinetic|
 |Save|Cha, harmless, usually|
-|Healing|1d4+[Sup] SP + 1SP dice (Total 1d4+2+[Sup] SP)|
+|Healing|3d4 (SP or MP) + [SUP] SP|
 
-**Description**: You channel your mental energies into restoring the physical energies of the target.
+**Description**: The caster channels their mental energies into restoring the physical or mental energies of the target. The target regains a number of SP equal to the caster's [SUP]. Then the caster rolls 3d4, declaring beforehand, how many go to the target's MP, and how many to its SP. The target's SP and MP are restored by the total rolled for each dice group.
 
-**Special**: Undead must make a Cha save or take 2 points of divine damage.
+Thus if the caster declares 2d4 to SP and 1d4 to MP, the target will regain 2d4+[SUP] SP, and 1d4 MP.
 
-**Upcast**: Target regains an extra 1d4 SP and an extra SP dice per extra MP dice used above 2, to a maximum of 4MP dice used. No extra effect on undead.
+**Special**: Undead must make a Cha save or take 3 points of divine damage.
+
+**Upcast**: Target regains an extra 2d4 SP or MP per SP die used.
 
 ___
 ### Least Transformation
@@ -2567,7 +2593,7 @@ ___
 
 ___
 ### Lesser Weather Control
-|Name|Least Weather Control [Air, Nature, Water]|
+|Name|Lesser Weather Control [Air, Nature, Water]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|4 (8)|
@@ -4662,11 +4688,13 @@ ____
     - [Ensnare](#ensnare)
     - [Fade](#fade)
     - [Least Heal](#least-heal)
+    - [Least Weather Control](#least-weather-control)
     - [Summon Beast](#summon-beast)
 - Air
     - [Fade](#fade)
     - [Headwind](#headwind)
     - [Least Flare](#least-flare)
+    - [Least Weather Control](#least-weather-control)
     - [Lesser Illusory Self](#lesser-illusory-self)
     - [Sense Spell](#sense-spell)
     - [Spirits' Secret](#spirits-secret)
@@ -4684,6 +4712,7 @@ ____
     - [Sense Spell](#sense-spell)
 - Water
     - [Chill Blood](#chill-blood)
+    - [Least Weather Control](#least-weather-control)
     - [Lesser Illusory Self](#lesser-illusory-self)
     - [Sense Spell](#sense-spell)
     - [Water Snake](#water-snake)
@@ -4719,6 +4748,7 @@ ____
 - Earth
     - [Dusk](#dusk)
     - [Earthen Hand](#earthen-hand)
+    - [Least Rest](#least-rest)
     - [Summon Gnome](#summon-gnome)
     - [Trace Secret Path](#trace-secret-path)
     - [Warded Ground](#warded-ground)
@@ -4733,7 +4763,6 @@ ____
     - [Summon Water Sprite](#summon-water-sprite)
     - [Trace Secret Path](#trace-secret-path)
 - Incantation
-    - [Least Rest](#least-rest)
     - [Lesser Veil](#lesser-veil)
     - [Lesser Xenophonia](#lesser-xenophonia)
     - [Meadow of Flame](#meadow-of-flame)
@@ -4840,7 +4869,7 @@ ____
     - [Balance of Elements](#balance-of-elements)
     - [Balance of Nature](#balance-of-nature)
     - [Greater Xenophonia](#greater-xenophonia)
-    - [Least Weather Control](#lesser-weather-control)
+    - [Lesser Weather Control](#lesser-weather-control)
     - [Speak Through Flame](#speak-through-flame)
     - [Summon Spirit](#summon-spirit)
 - Kinetic

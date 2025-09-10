@@ -206,8 +206,8 @@ The magic in items can be:
 - At will (useable an unlimited amount of times, usually without a "cool-down").
 
 Furthermore the magic in items can be triggered by:
-- A successful attack/roll/skill roll.
-- Triggered by words or gestures (kinetic or incantation components).
+- A successful attack, save or skill roll.
+- Triggered by words or gestures (incantation or kinetic components).
 - Triggered by thoughts.
 - Triggered by a change in condition of the wielder.
 - Triggered by a programmed contingency.
@@ -309,11 +309,11 @@ ___
 |Constant|From lvl 2|+12||
 |At Will|Up to lvl 2|+10||
 |At Will|From lvl 2|+20||
-|"kinetic" component||-2||
-|"incantation" component||-2||
-|"thought" component||+4||
-|"on condition"||+4||
-|"programmed contingency"||+4||
-|Ritual in a place of power||-4||
-|Ritual in aligned location||-4||
+|Use activated, no "kinetic" component||+2||
+|Use activated, no "incantation" component||+2||
+|Use activated, no components||+4|Activated by thought or will|
+|Activated on change of state of wielder||+4||
+|Activated on programmed contingency||+4||
+|Enchanted/imbued in a place of power||-4||
+|Enchanted/imbued in aligned location||-4||
 |For each assistant||-1|Max of 7 (-7)|

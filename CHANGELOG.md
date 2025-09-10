@@ -493,3 +493,8 @@ ___
 ### Spells
 - Add [Least Weather Control](08-spell-list.md#least-weather-control), for your small, personal rain clouds.
 - Modify [Least Rest](08-spell-list.md#least-rest) to make it less useless. It is no longer in the INCANTATION spell list!
+- Upgrade [Animate/Control Dead](08-spell-list.md#animatecontrol-dead). Now animates a level III undead.
+- Upgrade upcasted [Blade Ward](08-spell-list.md#blade-ward) to give immunity at 7 MP dice instead.
+- Slightly weaken upcasted [Growth](08-spell-list.md#growth).
+- [Melt](08-spell-list.md#melt) now does half damage on successful save.
+- Go through the [Spell List](08-spell-list.md) and touch up everything.

@@ -421,7 +421,7 @@ ___
 |-|-|
 |Scope|local|
 |MP Dice|0|
-|Target(s)|5ft radius, centered on caster|+2
+|Target(s)|5ft radius, centred on caster|+2
 |Casting time|"main action"|
 |Range|close|
 |Duration|instantaneous|
@@ -504,7 +504,7 @@ ___
 |-|-|
 |Scope|Local|
 |MP Dice|0|
-|Target(s)|5ft radius centered on a square in range| (+2)
+|Target(s)|5ft radius centred on a square in range| (+2)
 |Casting time|"main action"|
 |Range|Close|
 |Duration|Instantaneous|
@@ -646,7 +646,7 @@ ___
 |-|-|
 |Scope|local (global)|
 |MP Dice|1 (2)|
-|Target(s)|10ft radius centered on a square (200ft)| +3
+|Target(s)|10ft radius centred on a square (200ft)| +3
 |Casting time|"main action" (1h + 20min per 2MP)|
 |Range|60ft|+1
 |Duration|1 min (1 hour+)|+3
@@ -691,7 +691,7 @@ ___
 |-|-|
 |Scope|local (global)|
 |MP Dice|1 (2)|
-|Target(s)|5ft radius centered on a sq (100ft)|+1
+|Target(s)|5ft radius centred on a sq (100ft)|+1
 |Casting time|"main action" (1h + 20min per 2MP dice)|
 |Range|120ft| +2
 |Duration|1 min (1 hour)| +3
@@ -728,7 +728,7 @@ ___
 |-|-|
 |Scope|local (global)|
 |MP Dice|1 (2)|
-|Target(s)|20ft, 60 degree cone centered on the caster (100ft sphere)|+1
+|Target(s)|20ft, 60 degree cone centred on the caster (100ft sphere)|+1
 |Casting time|"1 main action" (1h + 20min per 2MP dice)|
 |Range|close|
 |Duration|1min+ (1 hour+)|+3
@@ -916,16 +916,16 @@ ___
 |Limitation|Fails if the caster and answer to the question are hermetically separated|-2
 |Save|-|
 
-**Description**: The caster attempts to ascertain the location (and rough time, if it was there during the casting of the spell but is no there when the casting ends) of an object, feature or entity described by the caster, by asking low level wind spirits. The spirits will seek out he nearest example of the thing that meets the specification.
+**Description**: The caster attempts to ascertain the location (and rough time, if it was there during the casting of the spell but is no longer present when the casting ends) of an object, feature or entity described by the caster, by asking low level wind spirits. The spirits will seek out the nearest example of the thing that meets the specification.
 
 **Special**: The low level spirits answer truthfully and faithfully, but are limited to 3 physically discernable criteria in the description and do not understand many human concepts (eg belonging, names, age). Eg *"A half-elf woman in a red cloak"*, or *"an elvish woman around who the word 'Illusi' is spoken"* are valid, but *"A half-elf woman by the name of 'Illusi'"* or *"My favourite backpack"* are not.
 
 If more than 3 criteria are chosen the lesser spirits will latch on to any three and ignore the rest.
 
-Other users of air magic can use "knowledge:arcana" to recognise that the spell is being cast in the area and use "summon wind sprite" at a higher level to hide their location without breaking the casting.\
+Other users of air magic can use "knowledge:arcana" to recognise that the spell is being cast in the area and use "summon wind sprite" at a higher level to hide their location without breaking the casting.
 
 **Upcast:** For every extra MP die the range of the spell increases by 120ft. When cast globally, this is an extra mile per 2MP dice. Likewise, for each extra MP die the spirits will yield an additional piece of information out of the following options:
-- Last know heading of the nearest entity that fits the description, if in range of the spell.
+- Last known heading of the nearest entity that fits the description, if in range of the spell.
 - Last known activity of the nearest entity that fits the description, if in range of the spell.
 - Location of all entities that that fit the description (other answers still apply only to the nearest entity).
 - The spirits' attitude towards the entity:
@@ -953,7 +953,7 @@ ___
 |Concentration|local|
 |Save|-|
 
-**Description**: Summons a [level I beast](monsters-npcs/beasts-and-plants.md#animals) to faithfully serve and fight for you. The beast understands simple gesticulated commands and carries them out to the best of its ability. When the spell ends, the animal, or its remains are returned to its origin.
+**Description**: Summons a [level I beast](monsters-npcs/beasts-and-plants.md#animals) to faithfully serve and fight for you. The beast understands simple gesticulated commands and carries them out to the best of its ability. When the spell ends the animal, or its remains, are returned to its origin.
 
 **Special**:
 - You can only have one summon at any one time.
@@ -1032,7 +1032,7 @@ ___
 
 **Upcast**: For every MP dice added above 2 the spell's radius increases by 5ft (this also affects the caster). OR Increase the duration by 1 minute.
 
-**Global**: The spell's range is 100ft per 2 MP dice, centered on you (you are not affected) and lasts for a day. For every 2 MP above 2, either the radius increases by 100ft, or the duration increase by a day. In this case, the target only makes its save at the start of each hour.
+**Global**: The spell's range is 100ft per 2 MP dice, centred on you (you are not affected) and lasts for a day. For every 2 MP above 2, either the radius increases by 100ft, or the duration increase by a day. In this case, the target only makes its save at the start of each hour.
 
 ___
 ## MP 2 spells
@@ -1058,7 +1058,7 @@ ___
 - If the caster concentrates on the spell to the end of the duration, the target has a second save, and then the spell becomes permanent.
 - The spell can also be lifted with any ability that curses diseases.
 
-**Global**: The spell has an affect with a 100ft radius, centered on the spot where it was cast and affects all entities within it. For every 2MP extra above 2, the spell's radius is increased by 100ft or the duration is increased by 7 days.
+**Global**: The spell has an affect with a 100ft radius, centred on the spot where it was cast and affects all entities within it. For every 2MP extra above 2, the spell's radius is increased by 100ft or the duration is increased by 7 days.
 
 ___
 ### Dusk
@@ -1135,14 +1135,14 @@ ___
 |Save|Wis|
 
 **Description**: The target is no longer attracted to the earth. This has the following effect:
-- Its jump distance is by x4 the base distance of the roll (after that it slows down and stops).
+- Its jump distance is multiplied by x4 the base distance of the roll (after that it slows down and stops).
 - When jumping upwards it will hang at the maximum height instead of returning to earth.
 - When moving at more than than half its speed, the target must make a threshold=20 acrobatics roll or end up hanging mid-air at an altitude of a few feet.
 - When airborne as a result of this spell, a target is carried by the wind at half of the wind's speed.
 
 **Special**: The spell can be cast as a reaction when a target begins to fall. If cast as a reaction, the target descends at ~60ft per round. If cast as a main action on a target that is already falling, it begins to decelerate. This does nothing if the fall distance is less than ~360ft. Otherwise, if the fall is long, for every round the spell effects the target it decelerates 20ft per round (from 360ft), decreasing fall damage by 2d12 per round of falling, to an eventual safe speed of 60ft.
 
-**Global**: When cast globally the spell creates a spherical zone centered on the caster where this effect acts. For every 2 extra MP dice added above 4, the zone is expanded by 200ft or the duration increased by a day. Every entity that enters the area and does not succeed a Wis save is affected by the spell.
+**Global**: When cast globally the spell creates a spherical zone centred on the caster where this effect acts. For every 2 extra MP dice added above 4, the zone is expanded by 200ft or the duration increased by a day. Every entity that enters the area and does not succeed a Wis save is affected by the spell.
 
 ___
 ### Harvest
@@ -1150,7 +1150,7 @@ ___
 |-|-|
 |Scope|local (global)|
 |MP Dice|2 (4)|
-|Target(s)|5ft radius centered on a sq (100ft)|+1
+|Target(s)|5ft radius centred on a sq (100ft)|+1
 |Casting time|"main action" (2h + 20 minutes per 2MP)|
 |Range|15ft|-2
 |Duration|instantaneous|
@@ -1162,7 +1162,7 @@ ___
 
 **Upcast**: The amount harvested increases by 1 large mortal's worth of food and water for every extra MP dice above 2. The radius increases by 5ft for every extra 2MP dice above 2.
 
-**Special**: Harvester mages are often used by marching or retreating armies for logistics and scorched earth. There would likely be ramifications to using this magic, especially on inhabited or claimed lands.
+**Special**: Harvester mages are often used by marching or retreating armies for logistics and scorched earth tactics. There would likely be social and legal ramifications to using this magic, especially on inhabited or claimed lands.
 - If the land is marginally fertile (eg fells, swamp, mountains) the harvest is 1/4 of the usual.
 - If the land is infertile (eg ruins, city, subterranean, desert), the MP is expended and the harvest fails.
 
@@ -1205,15 +1205,15 @@ ___
 |Limitation|You must be familiar with the entity kind that you're transforming into|-1(3)
 |Save|Wis|
 
-**Description**: The target transforms into another entity of its type and subtype. It loses its template and instead gain the template of any valid entity that has both (see "[example templates](09-races.md#example-template)"): (6)
-- The same template level as your own or a template whose level is lower than your own.
-- The same entity type and subtype as your own.
+**Description**: The target transforms into another entity of its type and subtype. It loses its template and instead gains the template of any valid entity that has both (see "[example templates](09-races.md#example-template)"): (6)
+- The same template level as its own own or a template whose level is lower than its own.
+- The same entity type and subtype as its own.
 
 **Special**:
 - Shapeshifters can ignore the effects of this spell by using the appropriate action to return to one of their own forms.
 - The target, if it does not succeed the initial save, does not get another chance to save.
 
-**Upcast**: For every extra MP dice above 2 spent, the spell lasts for an extra hour, or you can target an extra entity.
+**Upcast**: For every extra MP dice above 2 spent, the spell lasts for an extra hour, or can target an extra entity.
 
 **Global**: The spell lasts for a week, with a week per 4MP used when casting it. It cannot be cancelled voluntarily.
 
@@ -1233,7 +1233,7 @@ ___
 |Limitations|If the target casts a spell above MP 0, the spell breaks| -2
 |Save|Cha, harmless|
 
-**Description**: Make a target "invisible" for the duration. (6+6+1-2-2=4+2+3)
+**Description**: Make a target "invisible" for the duration.
 
 **Upcast**: For every extra MP used above 2, the duration increases by an hour or the number of targets increases by one.
 
@@ -1262,7 +1262,7 @@ An unwilling target may ignore the effect with a successful CHA save vs the cast
 
 **Upcast**: For every extra MP dice above 2, the spell lasts for an extra 12 minutes or affects an extra target.
 
-**Global**: As the local casting, but is centered on a point and allows all entities within 120ft to communicate to entities of the chosen subkind. The spell lasts for 24 hours. For every 2 extra MP dice above 4 placed in the spell, the radius increases by 120ft or the spell lasts for an extra day.
+**Global**: As the local casting, but is centred on a point and allows all entities within 120ft to communicate to entities of the chosen subkind. The spell lasts for 24 hours. For every 2 extra MP dice above 4 placed in the spell, the radius increases by 120ft or the spell lasts for an extra day.
 
 ___
 ### Meadow of Flame
@@ -1270,7 +1270,7 @@ ___
 |-|-|
 |Scope|local|
 |MP Dice|2|
-|Target(s)|25ft radius centered on a square, 10ft height|+4
+|Target(s)|25ft radius centred on a square, 10ft height|+4
 |Casting time|"main action"|
 |Range|close (excludes own square)|
 |Duration|1 min|+4
@@ -1310,7 +1310,7 @@ An unwilling target may ignore the effect with a successful CHA save vs the cast
 
 **Upcast**: For every extra MP dice above 2, the spell lasts for an extra 12 minutes or affects an extra target.
 
-**Global**: As the local casting, but is centered on a point and allows all entities within 120ft to communicate to entities of the chosen subkind. The spell lasts for 24 hours. For every 2 extra MP dice above 4 placed in the spell the radius increases by 120ft, or the spell lasts for an extra day.
+**Global**: As the local casting, but is centred on a point and allows all entities within 120ft to communicate to entities of the chosen subkind. The spell lasts for 24 hours. For every 2 extra MP dice above 4 placed in the spell the radius increases by 120ft, or the spell lasts for an extra day.
 
 ___
 ### Promise
@@ -1330,7 +1330,7 @@ ___
 
 **Description**: The caster makes a target's promise hold real power. Chose a condition no higher than "B Class" from the table below. The spell then takes one of the following forms:
 1. The target makes a promise and must fulfil it before the spell ends or suffers the condition permanently. (eg, "I will slay the ogre that terrorises the village."). The condition can still be dispelled as if it was the "Promise" spell cast with the same number of MP dice.
-2. The target makes a promise and must either keep fulfilling it for the duration of the spell. (eg, "I promise not to deceive you."). If the target breaks the promise, it suffers the condition for the full duration of the spell (as if it was cast when the target broke the promise).
+2. The target makes a promise and must keep fulfilling it for the duration of the spell. (eg, "I promise not to deceive you."). If the target breaks the promise, it suffers the condition for the full duration of the spell (as if it was cast when the target broke the promise).
 
 The condition counts as having a "supernatural" origin.
 
@@ -1364,7 +1364,7 @@ ___
 |-|-|
 |Scope|local (global)|
 |MP Dice|2 (4)|
-|Target(s)|1 entity or 5ft radius centered ona square (100ft)|+1
+|Target(s)|1 entity or 5ft radius centred ona square (100ft)|+1
 |Casting time|"main action" (2 hours + 20 minutes per 2MP dice)|
 |Range|60ft|+1
 |Duration|12min (1 week)|+6
@@ -1593,7 +1593,7 @@ ___
 - In line of sight of the caster.
 - Not hermetically isolated from the caster.
 - Not aligned with "earth" (NB: Ordinary ground is not considered earth aligned under normal circumstances)
-- If an unwilling target is moved to a point which requires a movement modality different to the it is currently using to move (eg ground to 30ft up in the air, or onto the surface of a lake), or a point where it would suffer damage or be subject to a condition (eg into a fire if it is not immune to fire, into a cloud of gas that causes paralysis if it is not immune to it) has advantage on the save.
+- If an unwilling target is moved to a point which requires a movement modality different to the one it is currently using to move (eg ground to 30ft up in the air, or onto the surface of a lake), or a point where it would suffer damage or be subject to a condition has advantage on the save (eg into a fire if it is not immune to fire, into a cloud of gas that causes paralysis if it is not immune to it).
 - An unwilling target CAN never be moved more than 30ft by this spell.
 
 **Upcast**: For every extra MP dice above 2 MP dice, the caster may either:
@@ -1621,17 +1621,17 @@ ___
 |Concentration|No|
 |Save|-|
 
-**Description**: Animate a corpse of medium size "medium", to become a level I corporeal undead. The undead serves and fights faithfully for the caster. The undead is capable of performing any reflexive or rote task it knew in life if its body still supports that functionality. Alternatively the spell can be cast to gain control of 5 non-intelligent level I undead for 6 hours.
+**Description**: Animate a corpse of medium size "medium", to become a level III corporeal undead. The undead serves and fights faithfully for the caster. The undead is capable of performing any reflexive or rote task it knew in life if its body still supports that functionality. Alternatively the spell can be cast to gain control of 6 levels of non-intelligent undead for 6 hours.
 
 **Special**:
-- After 60 minutes the undead is not destroys, but persists, becoming hostile to its creator.
+- After 60 minutes the undead is not destroyed, but persists, becoming hostile to its creator.
 - There is no limit to the number of undead a caster can control, however legions of dead seldom end well.
 - The type of undead being animated depends on the condition of the corpse(s). A corpse with flesh will become a zombie, a corpse without flesh will become a skeleton. A corpse with flesh but no bones becomes a crawling thing..
 - The undead animates at the start of the caster's *next* turn.
 
-**Upcast**: For every MP dice added above 3 (2MP dice above 6 for global), the caster may either animate an extra corpse as a level I undead, assert control over an extra 4 undead, or increase the level of the created or controlled undead by I.
+**Upcast**: For every MP dice added above 3 (2MP dice above 6 for global), the caster may either animate an extra corpse as a level I undead, assert control over an extra 6 levels of undead, or increase the level of the created or controlled undead by I.
 
-**Global**: Undead created are level II. Furthermore, the undead are under the caster's control for 1 week, after which time they have a "neutral" attitude towards it. For every 2MP dice above 6, the caster may create an extra level II undead, assert control over 4 undead, or increase the level of a created or controlled undead by 1.
+**Global**: The undead are under the caster's control for 1 week, after which time they have a "neutral" attitude towards it. For every 2MP dice above 6, the caster may create an extra level III undead, assert control over 6 levels of undead, or increase the level of a created or controlled undead by 1.
 
 (Summon spell rating is controversial)
 
@@ -1650,7 +1650,7 @@ ___
 |Concentration|local|+3
 |Save|-|
 
-**Description**: Animate a plant with at least a size "medium", the plant serves and fights faithfully for the one who animated it. The plant becomes a "level III plant" and can communicate with its summoner and other sentient plants. At the end of the spell, the plant becomes a normal plant again.
+**Description**: Animate a plant with at least a size "medium", the plant serves and fights faithfully for the one who animated it. The plant becomes a level III plant and can communicate with its summoner and other sentient plants. At the end of the spell, the plant becomes a normal plant again.
 
 **Special**: You can only have one summon at any one time.
 
@@ -1677,9 +1677,10 @@ ___
 **Description**: The caster wards the targets against blade and claw. The target gains:
 - Resistance to: "slashing", "piercing", "sheer" damage.
 - Resistance to "cripple".
-- Immunity to: "bleed"
+- Immunity to: "bleed".
 
 **Upcast**: For every MP die above 3, the duration increases by 1 hour.
+- If at least 7 MP dice are used, the target gains immunity to "slashing", "piercing" and "sheer" damage from materials of material level of 3 and lower.
 
 **Global**: The spell lasts for 1 day, with an extra day of duration for every 2 MP dice above 6.
 
@@ -1774,18 +1775,18 @@ ___
 **Description**: Create a solid, physical barrier of earth with a radius of **up to** 15ft around the target. The barrier gives total cover and total concealment to targets within it. Dealing physical damage to the barrier (HiT=10, HP=10, damage reduction(except "esoteric")=10) in one turn opens a window big enough for a small size entity to enter freely (or a medium entity to squeeze through). At the end of the turn the barrier resets.
 
 **Limitation**:
-- If, while the spell is active, the target of the spell moves or was moved since the start of the caster's last turn, the caster must make a Threshold=15 concentration save or lose the spell. This save is eschewed if the spell is cast with at least 5 MP dice.
+- If, while the spell is active, the target of the spell moves or was moved since the start of the caster's last turn, the caster must make a Threshold=15 concentration save or lose the spell. The caster does not need to make the save if the spell is cast with at least 5 MP dice.
 
 **Special**:
 - If the spell is cast as a reaction, it cannot be upcast, and lasts for 1 minute.
 - If the attack is a rectilinear effect and the barrier crosses its path, the target is affected as if it is inside the barrier.
-- Effects caused by area of effect "earth" spells of an equal or lower level that do not require an attack roll are excluded from the spell's area of effect. 
+- The barrier completely negates effects caused by area of effect "earth" spells of an equal or lower level than the "earth ward" that do not require an attack roll. 
 
 **Upcast**: For every extra MP dice above 3 placed in the spell, the radius extends by 5ft, or the duration increases by 1h.
 - If the spell is cast as a reaction, it cannot be upcast.
 - At 5MP and higher the spell is no longer concentration.
 
-**Global:** This is one of the lesser barrier spells. Cast globally it extends over a radius of 300ft centered on a square/point and lasts for a week. For every 2MP dice above 6 either the duration increases by a week, or the radius increases by 200ft.
+**Global:** This is one of the lesser barrier spells. Cast globally it extends over a radius of 300ft centred on a square/point and lasts for a week. For every 2MP dice above 6 either the duration increases by a week, or the radius increases by 200ft.
 
 ___
 ### Fairy Shelter
@@ -1801,7 +1802,7 @@ ___
 |Focus|A sprig of holy or branch of fern|-1
 |Material (global)|Special|-2
 |Limitation|"Profane" entities cannot enter the fairy shelter|-1
-|Limitation|If any visiter takes anything from the shelter, the spell instantly ends|-2
+|Limitation|If any visitor removes anything from the shelter, the spell instantly ends|-2
 |Save|N/A|
 
 **Description**: Beseech a fey to allow several beings to shelter in its realm. The entities follow a hidden path (takes 1 round regardless of speed) to enter the fey's realm. The realm is habitable for all beings.
@@ -1837,18 +1838,18 @@ ___
 **Description**: Create a barrier of raging fire **up to** 10ft around the target. The barrier gives light concealment to all targets within. Entities inside the barrier have damage reduction of 5 vs non-magical physical or cold/ice attacks that originate outside of the barrier. In addition, any non-magical weapon (or unarmed entity) attacking or otherwise passing through the barrier takes 3d8+[Sup] fire damage.
 
 **Limitation**:
-- If, while the spell is active, the target of the spell moves or was moved since the start of the caster's last turn, the caster must make a Threshold=15 concentration save or lose the spell. This save is eschewed if the spell is cast with at least 5 MP dice.
+- If, while the spell is active, the target of the spell moves or was moved since the start of the caster's last turn, the caster must make a Threshold=15 concentration save or lose the spell. The caster need not make the save if "fire ward" was cast with at least 5 MP dice.
 
 **Special**:
 - If the spell is cast as a reaction, it cannot be upcast, and lasts for 1 minute.
 - If the attack is a rectilinear effect and the barrier crosses its path, the target is affected as if it is inside the barrier.
-- Effects caused by area of effect "fire" spells of an equal or lower level that do not require an attack roll are excluded from the spell's area of effect. 
+- The barrier negates effects caused by area of effect "fire" spells of an equal or lower level than the "earth ward" that do not require an attack roll. 
 
 **Upcast**: For every extra MP dice above 3 placed into the spell, the radius extends by 5ft, or the duration increases by 1h. Alternatively the damage increases by 1d8 and damage reduction increases by 2.
 - If the spell is cast as a reaction, it cannot be upcast.
 - At 5MP and higher the spell is no longer concentration.
 
-**Global:** This is one of the lesser barrier spells. Cast globally it extends over a radius of 200ft centered on a square/point and lasts for a week. For every 2MP dice above 6 either the duration increases by a week, or the radius increases by 200ft.
+**Global:** This is one of the lesser barrier spells. Cast globally it extends over a radius of 200ft centred on a square/point and lasts for a week. For every 2MP dice above 6 either the duration increases by a week, or the radius increases by 200ft.
 
 ___
 ### Growth
@@ -1866,7 +1867,7 @@ ___
 
 **Description**: Change the target entity's size by up two categories up or down. When the spell ends the target's size returns to what it used to be. The same applies for objects.
 
-**Upcast:** For every MP dice above 3 added the duration increases by an hour, or the size change increases by a category
+**Upcast:** For every 1 MP dice above 3 added the duration increases by an hour. For every 2 MP dice above 3, the maximum size change increases by a category.
 
 **Global**: The spell acts over an area with a radius of 100ft for a week. All entities that enter the area that do not succeed a Wis save are affected by the size change. For every 2 MP dice above 6 the radius increases by 4, or the size category change increases by 1.
 
@@ -1887,7 +1888,7 @@ ___
 - Dex saves and attack rolls with melee weapons and basic combat manoeuvres.
 - The following skills: Athletics group, tinker, heal, stealth, academics, search group, knowledge, detect and diplomacy groups.
 
-**Special**: This applies only for rolls made when touching the ground, or below ground level and for knowledge of things that belong on and below the ground.
+**Special**: This applies only for rolls made when touching the ground, or below ground level. As well as for knowledge of things that belong on and below the ground.
 
 **Global**: The caster gives a locus the blessing of the earth. Within 100ft of that spot rolls made by entities that are not hostile to the caster receive this blessing. For every 2MP dice above 6 the radius of the spell increases by 100ft, or the duration increases by a week.
 
@@ -2001,9 +2002,9 @@ ___
 |Damage|2d8+[Sup] Fire|
 |Save|Con|
 
-**Description**: The caster chooses up to 4 objects, each no larger than "medium", or materials occupying a volume of no more than 4 contiguous 5ft cubes. The targets heat up rapidly and if the [material is of level II](12-equipment-economy.md#material-level) or lower, take 1 point of damage (that bypasses damage reduction) every round as they melt (and potentially catch fire, or set fire to materials they are in contact with).
+**Description**: The caster chooses up to 4 objects, each no larger than "medium", or materials occupying a volume of no more than 4 contiguous 5ft cubes. The targets heat up rapidly and if the [material is of level II](12-equipment-economy.md#material-level) or lower, take 1 dice of damage (that bypasses damage reduction) every round as they melt (and potentially catch fire, or set fire to materials they are in contact with).
 
-If the target object/material is in contact with an entity at the start of its turn, then the entity must succeed on a Con save or take 2d8 + [Sup] fire damage.
+If the target object/material is in contact with an entity at the start of its turn, then the entity must succeed on a Con save or take 2d8 + [Sup] fire damage (half on successful save).
 
 **Upcast (local only)**: At 4 MP dice the spell affects level III materials. At 7 MP dice, the spell affects level IV materials.
 
@@ -2053,7 +2054,7 @@ ___
 
 **Upcast**: The range of the spell increases by 30ft for every extra MP die above 3 in the spell.
 
-**Global**: The spell is cast on a locus, (centered on a square). All spells within 1200ft of this locus are visible to all entities in range of the spell (as long as they have sight).
+**Global**: The spell is cast on a locus, (centred on a square). All spells within 1200ft of this locus are visible to all entities in range of the spell (as long as they have sight).
 
 ___
 ### Slumber
@@ -2098,18 +2099,18 @@ ___
 **Description**: Create a barrier with a radius of **up to** 15ft around the target. All entities within the barrier has resistance to piercing damage from ranged weapons, pressure damage, and lightning damage from outside the barrier. If the barrier's radius is reduced to 5ft, resistance is also gained to those damage types within the barrier. The spell causes all noxious gases and airborne particles to dissipate, nullifying the their effect in the area of the spell.
 
 **Limitation**:
-- If, while the spell is active, the target of the spell moves or was moved since the start of the caster's last turn, the caster must make a Threshold=15 concentration save or lose the spell. This save is eschewed if the spell is cast with at least 5 MP dice.
+- If, while the spell is active, the target of the spell moves or was moved since the start of the caster's last turn, the caster must make a Threshold=15 concentration save or lose the spell. This caster need not make this save if "storm ward" is cast with at least 5 MP dice.
 
 **Special**:
 - If the spell is cast as a reaction, it cannot be upcast, and lasts for 1 minute.
 - If the attack is a rectilinear effect and the barrier crosses its path, the target is affected as if it is inside the barrier.
-- Effects caused by area of effect "air"/"wind" spells of an equal or lower level that do not require an attack roll are excluded from the spell's area of effect. 
+- The barrier negates the effects caused by area of effect "air"/"wind" spells of an equal or lower level than itself, that do not require an attack roll. 
 
 **Upcast**: For every extra MP die above 3 placed in the spell, the radius extends by 5ft, or the duration increases by 1h.
 - If the spell is cast as a reaction, it cannot be upcast.
 - At 5MP and higher the spell is no longer concentration.
 
-**Global:** This is one of the lesser barrier spells. Cast globally it extends over a radius of 300ft centered on a square/point and lasts for a week. For every 2 MP dice above 6 either the duration increases by a week, or the radius increases by 300ft.
+**Global:** This is one of the lesser barrier spells. Cast globally it extends over a radius of 300ft centred on a square/point and lasts for a week. For every 2 MP dice above 6 either the duration increases by a week, or the radius increases by 300ft.
 
 ___
 ### Summer's Blade
@@ -2175,18 +2176,18 @@ ___
 **Description**: Create a barrier with a radius of **up to** 10ft around the target. All entities within the barrier have resistance to piercing, shear, slashing and percussive damage from attacks from outside the barrier, as well as pressure and fire damage from the outside. If the barrier's radius is reduced to 5ft, resistance is also gained to those damage types within the barrier. (2+2+2+2+4-2=10)
 
 **Limitation**:
-- If, while the spell is active, the target of the spell moves or was moved since the start of the caster's last turn, the caster must make a Threshold=15 concentration save or lose the spell. This save is eschewed if the spell is cast with at least 5 MP dice.
+- If, while the spell is active, the target of the spell moves or was moved since the start of the caster's last turn, the caster must make a Threshold=15 concentration save or lose the spell. This caster need not make this save if "water ward" is cast with at least 5 MP dice.
 
 **Special**:
 - If the spell is cast as a reaction, it cannot be upcast, and lasts for 1 minute.
 - If the attack is a rectilinear effect and the barrier crosses its path, the target is affected as if it is inside the barrier.
-- Effects caused by area of effect "ice"/"water" spells of an equal or lower level that do not require an attack roll are excluded from the spell's area of effect. 
+- The barrier negates all effects caused by area of effect "ice"/"water" spells of an equal or lower level than itself that do not require an attack roll. 
 
 **Upcast**: For every extra MP die above 3 placed in the spell, the radius extends by 5ft, or the duration increases by 1h.
 - If the spell is cast as a reaction, it cannot be upcast.
 - At 5MP and higher the spell is no longer concentration.
 
-**Global:** This is one of the lesser barrier spells. Cast globally it extends over a radius of 300ft centered on a square/point and lasts for a week. For every 2MP dice above 6 either the duration increases by a week, or the radius increases by 200ft.
+**Global:** This is one of the lesser barrier spells. Cast globally it extends over a radius of 300ft centred on a square/point and lasts for a week. For every 2MP dice above 6 either the duration increases by a week, or the radius increases by 200ft.
 
 ___
 ### Wind Walk
@@ -2222,7 +2223,7 @@ ___
 |Components|kinetic|
 |Material|petals of snowdrops and quartz dust|-2(7)
 |Limitation|Does not affect entities aligned with "fire"|-2(5)
-|Damage|1d8+[Sup] ice|+3(8) defacto more.
+|Damage|1d8+[Sup] ice|+3(8) de facto more.
 |Save|Con|
 
 **Description**: Aligns a weapon or entity with elemental ice/water. The weapon (or if cast on the entity, its touch/strike) deals an extra 1d8+[caster's Sup] damage. The first time an entity is hit by such a weapon, it must make a Con save or be immobilised to the end of its next turn.
@@ -2427,13 +2428,13 @@ If the detection spell is cast at a higher MP dice cost (level) than "False Aura
 
 **Special (local only)**: If the target is willing, the caster and target can exchange "auras" instead. Hence the target will appear to be the caster to supernatural/magical senses and spells, while the caster will appear to be the target.
 
-**Special**: If the target is disguised as a specific being (eg, 'I disguise my aura as Fana Luine's") or place, is observed by an observer familiar with the new aura, the must make an INT save (at advantage), even for lower level spells or abilities. If the spell is of a higher "level" than the casting of "False Aura", the INT save is made at disadvantage.
+**Special**: If the target is disguised as a specific being or place (eg, 'I disguise my aura as Fana Luine's"), and is observed by an observer familiar with the new aura, the observer can see through the disguise if they succeed an INT save rolled at advantage. If the spell is of a higher "level" than the casting of "False Aura", the INT save is made at disadvantage.
 
-**Limitation**: Beings with "[Truesight](06-abilities.md#truesight-i-v) are not affected by the deception of this spell. 
+**Limitation**: Beings with "[Truesight](06-abilities.md#truesight-i-v) are not affected by the deception produced by this spell. 
 
 **Upcast**: For every extra die above 4 expended when casting the spell, the spell lasts for an extra 8 hours, or affects an extra target. Secondly the spell is automatically effective against spells cast up to that "spell level" (INT save is no longer needed).
 
-**Global**: The spell instead affects a volume with a radius of 120ft, centered on a point on the ground or a stationary object. Likewise it lasts for 4 months. For every 2 MP dice above 8, either the radius increases by 120ft, or the duration increases by 4 months.
+**Global**: The spell instead affects a volume with a radius of 120ft, centred on a point on the ground or a stationary object. Likewise it lasts for 4 months. For every 2 MP dice above 8, either the radius increases by 120ft, or the duration increases by 4 months.
 
 ___
 ### Gift of the Fates
@@ -2467,13 +2468,13 @@ ___
 |Components|incantation|+1
 |Save|CHA|
 
-**Description**: The caster imbues up to 3 target entities with the ability to communicate vocally with all entity within a single subkind. The caster may choose any entity subkind. An unwilling target may ignore the effect with a successful CHA save vs the caster's threshold.
+**Description**: The caster imbues up to 3 target entities with the ability to communicate vocally with all entities within a single subkind. The caster may choose any entity subkind. An unwilling target may ignore the effect with a successful CHA save vs the caster's threshold.
 
 **Special**: Glitches and divines may make themselves incomprehensible at will, despite the magic of this spell.
 
 **Upcast**: For every extra MP die above 4, the spell lasts for an extra 12 minutes or affects an extra target.
 
-**Global**: As the local casting, but is centered on a point and allows all entities within 120ft to communicate to entities of the chosen subkind. The spell lasts for 24 hours. For every 2 MP dice above 8 placed in the spell, the radius increases by 360ft or the spell lasts for an extra day.
+**Global**: As the local casting, but is centred on a point and allows all entities within 120ft to communicate to entities of the chosen subkind. The spell lasts for 24 hours. For every 2 MP dice above 8 placed in the spell, the radius increases by 360ft or the spell lasts for an extra day.
 
 ___
 ### Healing Seed
@@ -2573,7 +2574,7 @@ ___
 |-|-|
 |Scope|local (global)|
 |MP Dice|4 (8)|
-|Target(s)|30ft centered on a square (600ft)|+8
+|Target(s)|30ft centred on a square (600ft)|+8
 |Casting time|"main action" (4 hours + 20 minutes per 2MP dice)|
 |Range|120ft|+2(10)
 |Duration|1 min (1 hour)|+6(16)
@@ -2968,7 +2969,7 @@ If the level of the detection magic is higher, or if detection is by an "S class
 
 **Upcast**: For every extra die above 5 expended when casting the spell, the spell lasts for an extra day, or affects an extra target. Secondly the spell is automatically effective against spells cast up to that "spell level" (INT save is no longer needed).
 
-**Global**: The spell instead affects a volume with a radius of 120ft, centered on a point on the ground or a stationary object. Likewise it lasts 1 year. For every 2 MP dice above 10, either the radius increases by 120ft, or the duration increases by 4 months.
+**Global**: The spell instead affects a volume with a radius of 120ft, centred on a point on the ground or a stationary object. Likewise it lasts 1 year. For every 2 MP dice above 10, either the radius increases by 120ft, or the duration increases by 4 months.
 
 ___
 ### Greater Fire Ward
@@ -3373,7 +3374,7 @@ ___
 |-|-|
 |Scope|local (global)|
 |MP Dice|6 (24)|
-|Target(s)|40ft radius centered on a square, 60ft height (800ft, 100ft high)|+7
+|Target(s)|40ft radius centred on a square, 60ft height (800ft, 100ft high)|+7
 |Casting time|"main action" (3 days + 5 hours per 4 MP dice)|
 |Range|close|
 |Duration|1 min (6h)|+4(14)
@@ -3420,7 +3421,7 @@ In addition, the caster can designate any number of entities as "protected". The
 
 **Upcast**: For every extra MP die above 6 placed in the spell, the radius increases by 10ft, or the duration increases by 1h.
 
-**Global**: This is one of the greater barrier spells. Cast globally it extends over a radius of 1200ft, centered on a square/point and lasts for a month. For every 4MP dice above 24, either the duration increases by a week or the radius increases by 300ft.
+**Global**: This is one of the greater barrier spells. Cast globally it extends over a radius of 1200ft, centred on a square/point and lasts for a month. For every 4MP dice above 24, either the duration increases by a week or the radius increases by 300ft.
 
 ___
 ### Greater Freedom
@@ -3478,7 +3479,7 @@ Furthermore the caster specifies any number of entities as "protected" at the ca
 
 **Upcast**: For every extra MP die above 6 placed in the spell, the radius increases by 10ft, or the duration increases by 1h. If the spell is cast as a reaction, it cannot be upcast.
 
-**Global**: This is one of the greater barrier spells. Cast globally it extends over a radius of 1200ft, centered on a square/point and lasts for a month. For every 4MP dice above 24, either the duration increases by a week or the radius increases by 300ft.
+**Global**: This is one of the greater barrier spells. Cast globally it extends over a radius of 1200ft, centred on a square/point and lasts for a month. For every 4MP dice above 24, either the duration increases by a week or the radius increases by 300ft.
 
 ___
 ### Great Water Ward
@@ -3514,7 +3515,7 @@ The spell affects unprotected entities within its area as follows:
 
 **Upcast**: For every extra MP die above 6 placed in the spell, the radius increases by 10ft, or the duration increases by 1h.
 
-**Global**: This is one of the greater barrier spells. Cast globally it extends over a radius of 800ft, centered on a square/point and lasts for a month. For every 4MP dice above 24, either the duration increases by a week or the radius increases by 200ft.
+**Global**: This is one of the greater barrier spells. Cast globally it extends over a radius of 800ft, centred on a square/point and lasts for a month. For every 4MP dice above 24, either the duration increases by a week or the radius increases by 200ft.
 
 Unlike the local casting, entities that are "diseased"[natural] that enter the area are cured after remaining there for an hour. Likewise, an entity immobilised by attempting to enter the spell's area is immobilised until the spell ends and does not make repeated saves against the effect (although the effect can be cured).
 
@@ -3621,14 +3622,14 @@ ___
 |Limitation|Special (See below)|
 |Save|Wis|
 
-**Description**: The caster plants the seeds of change in the body and soul of a dying or doomed mortal, or one that has died less than 7 rounds ago. If the entity dies before healing any HP, or if it is already dead, the spell consumes its remains and it is revived as a mortal of a race other than the one it was previously. This is determined at random by rolling 2d12 and comparing the result with the "Metamorphosis Table" (see below).
+**Description**: The caster plants the seeds of change in the body and soul of a dying or doomed mortal, or one that has died less than 7 rounds ago. If the entity dies before healing any HP, or if it is already dead, the spell consumes its remains and it is revived as a mortal of a race, usually other than the one it was previously. This is determined at random by rolling 2d12 and comparing the result with the "Metamorphosis Table" (see below).
 
 Regardless of the state of the target when it died, it begins with half of its HP, half of its SP, half of its MP and half of the corresponding dice.
 
 After 24 hours have passed, the life force from the consumption of the old body runs out and the target dies for good.
 
 **Special**:
-- A target never revives as a plant or monster. Because we do not want a repeat of treeridice.
+- A target never revives as a plant, or monster.
 - If the target is unwilling, it may attempt a WIS save vs the caster. Upon success it is not subject to the spell. More precisely the spell ends in a catastrophic [cascade centred](07-magic-and-spellcasting.md#the-catastrophic-cascade) on the target's body.
 - The target retains its level after metamorphosing. Thus if a normal level 5 humanoid character is metamorphosed into a dragon, it will be a level 5 dragon (ie little more than a hatchling). If the spell is made permanent, it is recommended that player and DM discuss and come to an agreement as to how many levels of the new creature and how mny of its old levels are retained.
 
@@ -3636,7 +3637,7 @@ After 24 hours have passed, the life force from the consumption of the old body 
 - On a mortal that has been subject to a local casting of Metamorphosis, but has not yet wilted. This removes the time limit to their rebirth and they are considered "properly" alive as if they were a *bona fide* mortal of their new race. Thereafter the effect is not considered a spell and cannot be removed, although, of course, they can still die again. When the spell is used in this way, the target of the spell loses 1 ability for very 2 levels (minimum of 1) and 2 proficiencies from their ordeal. This cannot be regained in any way, save divine intervention.
 - Grant a mortal deceased within the last 7 days the gift of true rebirth. They will be reborn in the next seven days as a newborn of their own race, and will mature at the normal rate for a member of that race. They retain the memories and 1 rank in 3 skills of their choice, but nothing else. They do, however, have the chance to live their life again.
 
-**Metamorphosis table**: This table determines what one will metamorphose into. If using custom race templates, please replace the standard ones with your own (TODO). Reroll the inner dice on hitting your own race.
+**Metamorphosis table**: This table determines what one will metamorphose into. If using custom race templates, please replace the standard ones with your own.
 
 |Creature Subkind|Outer d12|Inner d12|Creature|
 |-|-|-|-|
@@ -3680,7 +3681,7 @@ ___
 |Limitation|see below|
 |Save|Wis|
 
-**Description**: Grants up to 7 entities the ability to travel the voids and barriers that exist between realms, and reach the nearest otherworlds. Be they the nearest stars or the closest layers of the immaterial world (spirit realms, elemental planes, etc). An unwilling target may make a Wis save vs the caster's Threshold to end the spell upon themselves (hence negating the effects).
+**Description**: Grants up to 7 entities the ability to travel the voids and barriers that exist between realms, and reach the nearest otherworlds. These might be the nearest stars or the closest layers of the immaterial world (spirit realms, elemental planes, etc). An unwilling target may make a Wis save vs the caster's Threshold to end the spell upon themselves (hence negating the effects).
 
 To travel, the target must move 5ft with a destination in mind. If the traveller moves 5ft with no destination in mind, they are transported to the nearest valid destination. If the traveller is unable to move 5ft, then the spell activates the moment they do and remains active until that moment. Any attempt to travel by any modality will result in an otherworld step being made.
 
@@ -3689,7 +3690,6 @@ No time is seen to pass from the perspective of the traveller during their journ
 The destination point on the otherworld is the equivalent point to the point you set off from. If you are travelling between planets this might be the same coordinate. If you are travelling between parallel worlds, it might be the same point. If you are travelling between metaphysical/spirit realms, it might be the point with the most similar meaning, purpose or significance.
 
 For the sake of mechanics, this is a "cosmic speed" effect.
-
 
 **Special**:
   - This spell may be taken with any type of spellcasting other than nature, however the kind of realm that the traveller may visit is limited by he school. Thus if taken with:
@@ -3716,7 +3716,7 @@ ___
 |-|-|
 |Scope|local|
 |MP Dice|6|
-|Target(s)|60ft, 90 degree cone, centered on caster|+10
+|Target(s)|60ft, 90 degree cone, centred on caster|+10
 |Casting time|"secondary action"|+2
 |Range|close|
 |Duration|Instantaneous|
@@ -3725,7 +3725,7 @@ ___
 |Components|"incantation"|+1
 |Save|Dex+|+2
 
-**Description**: You summon a sharp burst of hurricane like wind that cuts through an area, dealing 5d12+[Sup] damage to all entities, objects and structures within it. Entities can avoid the damage with a successful Dex save. Even in this case all entities and objects of "huge" and smaller are blown back 20ft (for "medium").
+**Description**: You summon a sharp burst of hurricane-like wind that cuts through an area, dealing 5d12+[Sup] damage to all entities, objects and structures within it. Entities can avoid the damage with a successful Dex save. Even in this case all entities and objects of "huge" and smaller are blown back 20ft (for "medium").
 
 **Upcast**: The size of the one increases by 15ft per MP die above 6 or the damage increases by 1d12.
 
@@ -3747,7 +3747,7 @@ ___
 - The spell can add, or subtract, up to 6 MP dice to, or from, each willing entity's MP dice pool.
 - The spell conserves the MP dice count between entities (for each die taken away from one entity, one must be added to another).
   - So if the caster rebalances MP dice between Suzy and Dave, and moves 6 MP dice to Dave's dice pool, Suzy must lose 6 MP dice.
-  - In a bigger example with Suzy, Lucy and Dave, if the caster moves 6 MP dice to Dave's dice pool, she can do it by moving 6 MP dice from either Lucy or Suzy, or by moving (for example) 2 MP dice from her from Suzy's and 4 MP dice from Lucy's dice pools. The caster can also move MP from, or to, their own dice pool.
+  - In a bigger example with Suzy, Lucy and Dave, if the caster moves 6 MP dice to Dave's dice pool, she can do it by moving 6 MP dice from either Lucy or Suzy, or by moving (for example) 2 MP dice from Suzy's and 4 MP dice from Lucy's dice pools. The caster can also move MP from, or to, their own dice pool.
 - For every MP dice drained, an entity loses 1d4+1 MP. For every MP dice restored, an entity gains 1d4+1 MP.
 
 **Special**: The caster can forgo the MP dice cost of the spell by spending 3 HP instead.
@@ -3908,7 +3908,7 @@ When the spell ends one of the following things can happen (the final decision i
 - The entity must have a dice total (MP + SP) no more than three times the dice total of the caster.
 - The entity is not beholden to the caster and it is not obliged to obey the caster, although it may if it is so inclined.
 - The target entity is aware of who is trying return it and may attempt to resist. In this case the caster may disengage fom the ritual or try to force it. If the caster tries to force the issue, the target and caster make an opposed SAP roll. If the caster wins the ritual succeeds (although the caster may wish that it hadn't). If the ritual fails, the spell fails [catastrophically](07-magic-and-spellcasting.md#the-catastrophic-cascade) as if the spell was countered on the caster's location.
-- The spell can NEVER be cast on the same target more than once.
+- The spell can NEVER be cast on the same target more than once by the same caster.
 - Unlike ordinary possession, "light[supernatural]", "divine" or "entropic" damage do nothing to drive the possessing soul out of the body.
 
 **Upcast**: For each 8MP dice put into the spell, the target stays in the mortal realm for an extra week.
@@ -3931,7 +3931,7 @@ ___
 
 **Description**: The caster speaks an ancient word of power and attempts to steal a memory, skill, spell, or proficiency from a target, robbing them of the ability to use it and taking it for themselves.
 
-The target must make 2 intelligence saves. One immediately, and one after ten rounds (1 minute). If it succeeds the first save, the spell fails. Otherwise the memory is in limbo between the caster of the spell and the target and they both share it and have simultaneous access to it. If the target fails the second spell, the memory is stolen permanently.
+The target must make 2 intelligence saves. One immediately, and one after ten rounds (1 minute). If it succeeds the first save, the spell fails. Otherwise the memory is in limbo between the caster of the spell and the target and they both share it and have simultaneous access to it. If the target fails the second save, the memory is stolen permanently.
 
 If the gem is given to another being within an hour of casting, that being becomes the recipient of the memory, instead of the caster.
 
@@ -4023,7 +4023,7 @@ ___
 - The target, if it fails the initial save, does not get another chance to save.
 - If the target is not at full HP/SP/MP/SP dice/MP dice, subtract the missing amount from the maximum value of the new form. If the starting total for HP/SP/MP/SP dice/MP dice is below 1, it is set to 1 instead.
 
-**Limitation**: The caster can specify the appearance of what the target transforms into, but cannot specify a specific individual of a certain race. For example the following three are valid (assuming that you are familiar with them):
+**Limitation**: The caster can specify the appearance of what the target transforms into, but cannot specify a specific individual of a certain race. For example the following three are all valid (assuming that you are familiar with them):
 - "I transform into a ginger tabby cat with purple eyes".
 - "I transform into an elf that looks exactly like Mallos Nuora."
 - 'I transform into a red dragon."
@@ -4154,9 +4154,9 @@ ___
 |Save|CHA|
 
 **Description**: The caster grants immense vitality. For the duration of the spell, every round as a secondary action, the target can either:
-- Regain 1 HP if its current HP is below half of its HP total.
-- Reconnect a severed body part, or restored a crippled (but not missing) body part.
-- Cure "blinded", "deafened", "diseased", "poisoned", "bleeding", "paralysed" on itself, if the condition is caused by a damaged body part.
+- Regain 1 HP, if its current HP is below half of its HP total.
+- Reconnect a severed body part, or restore a crippled (but not missing) body part.
+- Cure "blinded", "deafened", "diseased", "poisoned", "bleeding", "paralysed" on itself, if the condition is caused by a physical body part (eg, disease such as liver failure, or blindness due to missing or damaged eyes can be fixed, blindness caused directly by a curse, cannot).
 
 In addition the target can forgo these effects for a minute to regrow a body part.
 
@@ -4192,7 +4192,7 @@ ___
 - All entities using "walk" modality must succeed a DEX save at the start of their turn or fall prone.
 - All entities using the "dig" modality must succeed a STR save at the start of their turn or take 6d12 damage and be "immobilised" (half damage on successful save).
 - All structures take 6d12 points of damage at the start of the caster's turn, unless they are warded, in which case the caster must succeed on a SAT roll vs the threshold of the ward. Any entity inside a structure that collapses must succeed a DEX save and a STR save. If it fails the DEX save it also takes the 6d12 damage. If it fails the STR save it is "immobilised".
-- 1d4 fissures open at points of the caster's choosing.The fissure's act as per the "[Rift](#rift)" spell, but end at the edge of the spell's area of effect. If the spell lasts for its full duration, the fissures have a 50% chance of closing, in which case any entities inside them must succeed a STR save or take 6d12 damage and be "immobilised" (half damage on successful save).
+- 1d4 fissures open at points of the caster's choosing. The fissure's act as per the "[Rift](#rift)" spell, but end at the edge of the spell's area of effect. At the end of the spell the fissures have a 50% chance of closing, in which case any entities inside them must succeed a STR save or take 6d12 damage and be "immobilised" (half damage on successful save).
 
 **Global**: The spell extends for a radius of 3600ft and lasts for an hour. The fissures open once per minute instead of once per round, and their location is random.
 
@@ -4226,14 +4226,19 @@ Fourthly, all willing allies are transformed into "beasts" or "fey" of the caste
 
 **Special**: If the caster sacrifices a precious memory, in the form of permanently losing one of their abilities, the MP dice cost of the spell becomes zero. In addition the following effects occur:
 - The area of the spell is cut off from the material world (or other realms), and it is only possible to enter or leave via a secret path that the caster knows, or with a ["navigate"](05-skills.md#navigate) roll equal to the caster's threshold.
-- Fey spirits take the form of entities of the caster's choice. These provide a ["deceive"](05-skills.md#deceive) roll equal to the caster's spell threshold, for the sake of targeting and identifying the caster for other purposes. If a successful "observe"/"sense motive" roll, or ["truesight"](06-abilities.md#truesight-i-v) (or a similar ability) do not reveal the true target, this counts as ["full concealment"](04-combat.md#cover-and-concealment).
-- All spells with a spirit/spiritual/nature descriptor cost 1 MP dice less to cast (this does not stack), and gain +1 to their threshold. 
+- Fey spirits take the form of entities of the caster's choice. To distinguish these disguised fey, from the being they are disguised as, the observer must make a successful "observe"/"sense motive" roll with a threshold of the caster's WIS threshold, or use ["truesight"](06-abilities.md#truesight-i-v). If the observer cannot reveal the disguised fey for what they are, they can either deceive the observer, or provide ["full concealment"](04-combat.md#cover-and-concealment) to the being they are disguised as (if it is present).
+- All spells with a spirit/spiritual/nature descriptor cost 1 MP dice less to cast (this does not stack), and gain +1 to their threshold.
+- If the spell is cast in the area of a [Greater Cosmic Seal](#greater-cosmic-seal), the caster must succeed on a CHA save vs the threshold of the seal or lose the spell.
 
 **Upcast**: For every extra MP die above 9, the spell radius increases by 20ft or the duration increases by 1 minute.
 
 **Global**: The spell lasts for 24 hours and covers a radius of 1200ft. If the caster sacrifices a precious memory (and permanently loses an ability) there are a couple of extra effects (on top of the aforementioned special boons):
-- All allies heal all conditions 1 hour after the start of the spell, all MP and SP 2 hours after the start of the spell, starvation, thirst and insomnia 3 hours after the start of the spell, and all HP at the end of the spell. SP and MP dice are not restored.
-- Additional semi-illusionary changes to local terrain may occur.
+- All allies heal:
+  - All conditions 1 hour after the start of the spell.
+  - All MP and SP 2 hours after the start of the spell.
+  - Starvation, thirst and insomnia 3 hours after the start of the spell.
+  - All HP at the end of the spell. SP and MP *dice* are not restored.
+- Semi-illusionary changes to local terrain may occur.
 - The fey will be willing to offer the caster up to one piece of secret information (either plot related, or secret knowledge (knowledge threshold=36)). Alternatively a fey being may be offered as a bride or groom to the caster by the ruler of the fey realm (although unions between mortals and spirits seldom end well..).
 - This spell borders on legendary magic, that forever changes the locale where it is cast. When the 24 hours are over, three of the 8 effects caused by the "local" casting of the spell continue to be active for 108 years. Likewise, mortals born in this area tend to have a "spiritual" alignment and fey traits.
 
@@ -4321,7 +4326,7 @@ ___
 |Condition|Aphonia, Deaf, Blind, Prone/Restrained|6(57)
 |Save|STR,CON,DEX|
 
-**Description**: The caster summons a mightly storm that covers an area with a radius of 100ft. Extreme winds within the storm blind and deafen entities within it. The force of the wind likewise deals 3d12+[SUP] sheer damage to everything caught within it.
+**Description**: The caster gathers a mighty storm that covers an area with a radius of 100ft. Extreme winds within the storm blind and deafen entities within it. The force of the wind likewise deals 3d12+[SUP] sheer damage to everything caught within it.
 
 Ranged weapons attacks against entities inside the spell, those made across the area, or made by entities inside the spell, automatically miss. The spell causes all noxious gases and airborne particles to dissipate, nullifying the their effect in the area of the spell.
 
@@ -4331,7 +4336,7 @@ In addition the following effects apply inside the spell:
 - Upon entering the area of effect of the spell, all entities that do not succeed on a CON save are considered aphonic and blind until they leave the area.
 - Every round the caster can choose an area with a column with a radius of 30ft within the spell for one of the following effects:
   - Lightning bolts strike the area, causing 4d8+[SUP] lightning damage to all entities in the area (DEX save half).
-  - Temperatures plummet in the area, cauing 4d10+[SUP] cold damage to all entities in the area (CON save half).
+  - Temperatures plummet in the area, causing 4d10+[SUP] cold damage to all entities in the area (CON save half).
 
 **Upcast**: For every MP dice above 9, the radius of the spell increases by 50ft, or the lightning/ice damage increases by 3d8.
 
@@ -4352,11 +4357,13 @@ ___
 
 **Description**: The caster summons a great mass of water (1.8 million cubic feet), that appears along a 250ft long straight line in range, rises to a height of 100ft and sweeps forwards 150ft before collapsing. This has the following effects:
 - Objects weighting less than 10000lb are swept away to the end of the wave's range.
-- All corporeal entities in range must succeed on a STR save or be swept 100ft along the path of the wave (to its end). Otherwise they are swept half of the distance. Entities of size large or smaller make the save at disadvantage.
-- Entities that fail the STR [take 2d6 HP damage from suffocation](03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die). Entities that do not breath, or breath water are not affected.
+- All corporeal entities in the area of effect must succeed on a STR save or be swept 100ft along the path of the wave (to its end). Otherwise they are swept half of the distance. Entities of size large or smaller make the save at disadvantage.
+- Entities that fail the STR save [take 2d6 HP damage from suffocation](03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die). Entities that do not breath, or breath water are not affected.
 - All structures take 8d12 pressure damage.
 - At the end of the wave's range, all objects it carries are dropped and suffer 5d8 percussive damage from falling, landing prone unless unless they succeed on a DEX save.
 - At the end of the wave's range the water spreads outwards at a speed of 200ft per round for the next 5 rounds. Entities caught in the area must succeed a STR save or be swept 200ft away, landing prone. Objects weighing 2000lb or less are swept away.
+
+**Special**: If the spell is cast in the area of a [Greater Cosmic Seal](#greater-cosmic-seal), the caster must succeed on a CHA save vs the threshold of the seal or lose the spell.
 
 **Global**: The spell works in one of two ways.
 - It creates a wave with a width of 5000ft, that travels a distance of 3000ft and has a height of 2000ft. This wave travels at a speed of 600ft per round. The STR save is repeated at the start of affected characters' turns. Drowning damage is applied every round when the save is failed. The falling damage at the end of the spell is 36d8.
@@ -4534,7 +4541,7 @@ ____
 |-|-|
 |Scope|local (global)|
 |MP Dice|10 (40)|
-|Target(s)|110ft radius centered on a square, 160ft height (1 mile, 600ft high)|+19
+|Target(s)|110ft radius centred on a square, 160ft height (1 mile, 600ft high)|+19
 |Casting time|"main action" (10 days)|
 |Range|close|
 |Duration|12 min (2 days)|+12(31)
@@ -4604,7 +4611,7 @@ ____
 |Name|Undying Realm [Curse, Divine, Profane, Spiritual]|
 |Scope|global|
 |MP Dice|40|
-|Target(s)|1000ft radius centered on a square|+10
+|Target(s)|1000ft radius centred on a square|+10
 |Casting time|10 days|
 |Range|close|-1(9)
 |Duration|Permanent|+36(45)

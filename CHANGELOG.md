@@ -482,6 +482,9 @@ ____
 ___
 ## From v0.0.17
 
+### General
+- Add [lizard folk](09-races.md#lizard-folk-level-1-template--8-points)
+
 ### Abilities
 - Fix [deflect missiles](06-abilities.md#deflect-missile):
   - It only affects a single attack per round.

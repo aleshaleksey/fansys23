@@ -135,6 +135,38 @@ This is a race of intelligent beasts that dwells in the deepest wilderness. It i
 - 1 level of incantation magic.
 
 ___
+### Lizard Folk (level-1 template = 8 points)
+
+Lizard folk are superficially similar to [Dragonkin](#dragonkin-level-1-template--8-points). In most worlds where they are found, they are bipedal, carnivorous lizards, and are strong swimmers. Usually, though not always, they are portrayed as socially and technologically primitive.
+- **Size**: Medium (Height: ~6'8", Weight: ~220lb)
+- **Stats**: (Str: 2, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: 0) (2 points)
+- **Movement**: Walk 30ft, Swim 30ft. (2 point)
+- **Sight**: Normal, "keen scent", "heat sense II" (30ft). (3 points)
+- **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
+- **Proficiencies**: One appropriate language.
+
+**Weaknesses (-3)**
+- Slow swim speed (30ft)
+- Disadvantage to endurance based rolls in severe and extreme cold.
+
+**Extra: (+6)**
+- Resistance to "Shear" damage and "crippled". (2 points)
+- Resistance to "disease" and "diseased". (4 points)
+
+**Race boon (level 8 and 16): (6 points)**
+- +1 to "[heat sense](06-abilities.md#heat-sense-i-v)" level.
+
+AND EITHER:
+- Resistance to "piercing" and "slashing" damage and "bleeding.
+
+OR:
+- Resistance to "poison" damage and poisoned.
+
+OR:
+- +2 to one of WIS, CON or STR.
+- +5 ft walking or swim speed.
+
+___
 ### The Sea People (level-1 template = 8 points)
 
 The sea people a race of humanoids that live in and around the islands of the shallow seas, and in the marshes and great lakes. They often disguise themselves as humans, for various reasons.

@@ -214,7 +214,7 @@ Extra:
 - Resistance to "Cold" OR +2 Swim.
 - Resistance to "Aphonia".
 
-Race boon: (6 points)
+Race boon (level 8 and 16): (6 points)
 - +5 to swim speed.
 - One of "life sense (1 level)" or "blind sight (1 level)".
 

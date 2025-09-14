@@ -350,7 +350,7 @@ ___
 |Use activated, no components||+4|Activated by thought or will|
 |Activated on change of state of wielder||+4||
 |Activated on programmed contingency||+4||
-|Exceptional Magic||+10||
+|Exceptional Magic||+12||
 |Enchanted/imbued in a place of power||-4||
 |Enchanted/imbued in aligned location||-4||
 |For each assistant||-1|Max of 7 (-7)|

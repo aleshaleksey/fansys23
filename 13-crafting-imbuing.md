@@ -15,6 +15,7 @@
   - [Types of Enchanted and Imbued Items](#types-of-enchanted-and-imbued-items)
     - [Types of magic in items by use](#types-of-magic-in-items-by-use)
     - [Types of magic in items by activation](#types-of-magic-in-items-by-activation)
+  - [Equivalence between abilities and spells](#equivalence-between-abilities-and-spells)
   - [Threshold for Enchanting or Imbuing](#threshold-for-enchanting-or-imbuing)
   - [Permanency and "Enchantment Quality Items"](#permanency-and-enchantment-quality-items)
   - [Places of Power](#places-of-power)
@@ -22,6 +23,8 @@
   - [Multiple Effects](#multiple-effects)
   - [Costs of enchantment and Imbuing](#costs-of-enchantment-and-imbuing)
   - [Time taken for Enchanting/Imbuing](#time-taken-for-enchantingimbuing)
+  - [Exceptional Magic](#exceptional-magic)
+  - [Alchemy](#alchemy)
   - [Threshold Table](#threshold-table)
 
 
@@ -188,14 +191,25 @@ ___
 - **Constant**: The magical effect or power is exhibited constantly and does not reduce with time.
 - **At Will**: There are no limits to the number of times an item's power can be activated (although usually this still requires an action of some kind).
 
-Unless an item is made to be of enchantment quality, the magic will eventually leave the item and it will once again become mundane. The exception is items of supernatural origin, which were never mundane to start off with.
+Unless an item is made to be of enchantment quality, the magic will eventually leave the item and it will once again become mundane. Items of supernatural origin are an exception: They were never mundane to start off with and thus the magic will never wear off.
 
 ___
 ### The Process of Enchanting
 1. Decide what item you wish to enchant/imbue, and the magic you wish to place within it.
-2. Gather the requisite materials, find a suitable place, make sure you have the magic available.
-3. Spend the requisite amount of time enchanting/imbuing the item and expend any material component.
-4. Roll spellcraft, with appropriate modifiers. On success the item is enchanted/imbued. On a failure it is not, and the time is wasted. Upon catastrophic failure bad things happen.
+2. Gather the requisite materials, find a suitable place, find assistants (optional).
+3. Find a character with the ability/spell to be enchanted/imbued into the item.
+4. Find a character proficient in [spellworking](05-skills.md#spellworking), who has sufficient MP dice to perform the deed.
+5. Expend resources in the following order:
+   - Expend the requisite material cost for each day of work.
+   - Expend the time.
+   - Expend MP dice and potentially HP.
+6. Roll spellcraft, with appropriate modifiers. On success the item is enchanted/imbued. On a failure it is not, and the time is wasted. Upon catastrophic failure bad things happen.
+
+The spellcraft roll must be performed by a character proficient in spellworking, who has sufficient MP dice to perform the deed. The assistants must also be proficient in spellworking. The character providing the spell/ability to be enchanted/imbued into the item need not be the main enchanter, nor do they need to be one of the assistants, nor do they even need to be proficient in spellworking.
+
+As with crafting, the time need not be spent in one block. A working day is considered to be 10 hours and can be broken up into any configuration of 2 hour blocks that the group deems appropriate.
+
+It is possible to "[take care](02-base-rules.md#taking-24-taking-13-auto-failure-and-voluntary-failure)" on the spellworking roll if this would exceed the threshold to successfully enchant/imbue the item. As always, one can only take care if there is no imminent danger, or unusual and unpredictable variables at play.
 
 ___
 ### Types of Enchanted and Imbued Items
@@ -221,7 +235,7 @@ ____
 
 **Rechargeable**: The magic in these items can be activated once (or up to seven times if it holds enough magic). When the magic runs out, it can be recharged. Depending on the item, the conditions of recharge are different. The Threshold for imbuing/enchanting rechargeable weapons, staves and wands is reduced by 4.
 
-**Constant**: The magic in these items is always active, and unless the item is dis-enchanted or otherwise loses its powers, will continue to be active while the item exists. The threshold for imbuing/enchanting jewellery and purely sentimental items with "constant" activation is -4.
+**Constant**: The magic in these items is always active, and unless the item is dis-enchanted or otherwise loses its powers, will continue to be active while the item exists. The threshold for imbuing/enchanting jewellery and purely sentimental items with "constant" activation is reduced by 4.
 
 **At will**: The number and frequency of uses of the magic in these items is not limited.
 
@@ -236,6 +250,16 @@ ____
 
 **On fulfilled contingency**: Some insidious magic items are activated when a condition is fulfilled. The condition can be incredibly complex, but must be tangible. For example "when next the sword is bathed in the light of the full moon", "when the talisman passes through the gates of Dudariarch".
 
+___
+### Equivalence between abilities and spells
+An ability is considered to be equivalent to a spell for imbuing and enchanting. For the sake of determining costs, durations and thresholds, they are translated as follows:
+
+|Class of Ability|Equivalent Spell Level|
+|-|-|
+|C|3|
+|B|4|
+|A|6|
+|S|9|
 
 ___
 ### Threshold for Enchanting or Imbuing
@@ -247,15 +271,7 @@ The base threshold (spellcraft) for imbuing an item (single use) with a spell, o
 
 **[10 + (2 x level of the spell)]**
 
-The base threshold for imbuing an item with an ability (single use) is:
-|Class of Ability|Base threshold|
-|-|-|
-|C|16|
-|B|20|
-|A|24|
-|S|28|
-
-Furthermore, the threshold is increased by +4 if the item recharges, or by +8 if the magic is "at will" or "constant".
+Furthermore, the base threshold is modified by various factors, such as the kind of item being made (see the [threshold table](#threshold-table) below).
 
 ___
 ### Permanency and "Enchantment Quality Items"
@@ -271,31 +287,51 @@ ___
 ### Re-enchanting/Re-imbuing
 If a magical item loses its magic (generally, expending the charge or disenchantment), it can be enchanted again, however, in this case, its durability decreases by 1, and the threshold to successfully enchant/imbue it increases by +2.
 
+Unlike the initial enchanting or imbuing, re-enchanting/re-imbuing does not require the enchanter to possess the spell/ability that the item is being enchanted/imbued with.
+
 ___
 ### Multiple Effects
-An item can be imbued or enchanted with multiple spells, however, in this case the threshold, material cost, and time spend are additive.
+An item can be imbued or enchanted with multiple spells, however, in this case the threshold (above base threshold), material cost, and time spend are additive.
 
 ___
 ### Costs of enchantment and Imbuing
 Apart from material components, where appropriate, this process has no material costs. However, there are other costs.
 
-When enchanting an item, the enchanter must expend a number of MP dice that is a multiple of what one would expend when casting the spell of that level as a global spell. (See enchantment table below).
+When enchanting or imbuing an item, the enchanter must expend a number of MP dice equal to: **[spell level] x 4**.
 
-When imbuing an item, the cost is much higher and one must usually pay with the ability or spell that is being imbued. Thus, for example, if imbuing a ring with a single use of "[Summon Spirit](08-spell-list.md#summon-spirit)", a fifth level spell, the caster loses the ability to cast that spell for five days. (See imbuing table below).
+This cost is paid at the end of the process, just before the spellworking roll is made. If the enchanter is unable to expend the requisite number of MP dice, they are not able to imbue the item in question.
+
+When imbuing an item, in addition to the MP dice cost one also pays with the spell/ability being imbued. When imbuing a single use item, the enchanter  (or assistant providing the spell/ability) loses the spell/ability for a number of days equal to the level of the spell.
+
+This time is counted from when the process of imbuing is completed. Furthermore, the duration of ability loss is modified by various factors (see the [threshold table](#threshold-table)).
 
 ___
 ### Time taken for Enchanting/Imbuing
 The time taken for the ritual to imbue or enchant an item is: **[Spell level] x [Spell level] days**
 
-For supernatural abilities the time is:
-|Ability Class|Time taken (days)|
-|-|-|
-|C|4|
-|B|16|
-|A|36|
-|S|64|
-
 If the item is single use, the time taken to imbue it is halved. The minimum time is 1 day, except for single use items, where it is 4 hours.
+
+___
+### Exceptional Magic
+Not all magic is equal. Some forms of magic are harder to enchant/imbue into items than others. For such magics, all thresholds for successful imbuing/enchantment are increased by +12. 
+
+Likewise, for every level of the spell, the enchanter must expend HP.
+- If the item is single use, the cost is **[spell level]** HP.
+- If it is rechargeable, constant, or at will, the cost is **12 + 2 x [spell level]** HP.
+
+As with MP, this price is paid when the process is complete, and just before the spellworking roll is made.
+
+As it stands exceptional magic includes:
+- ANY magic that restores HP to an entity.
+- ANY magic that restores MP, SP, SP dice or MP dice to an entity.
+
+A group may add other spells/supernatural abilities to this list if they decide that it works better for them.
+
+___
+### Alchemy
+When creating supernatural potions, powders, salves and similar, a character may use [academics](05-skills.md#academics) (if they are proficient with Alchemist's Tools) instead of "spellworking" for the skill roll.
+
+In this case, the item produced cannot be rechargeable, "constant" or "at will". It is always considered non-rechargeable, although it may contain multiple changes (doses).
 
 ___
 ### Threshold Table
@@ -314,6 +350,7 @@ ___
 |Use activated, no components||+4|Activated by thought or will|
 |Activated on change of state of wielder||+4||
 |Activated on programmed contingency||+4||
+|Exceptional Magic||+10||
 |Enchanted/imbued in a place of power||-4||
 |Enchanted/imbued in aligned location||-4||
 |For each assistant||-1|Max of 7 (-7)|

@@ -761,17 +761,17 @@ Lastly, only damage from [basic combat manoeuvres](04-combat.md#basic-martial-ma
 __The Dice Size Rules Table:__ The first cell of each row shows the dice used by a weapon at "medium" size. Reading across the row then gives the damage the same weapon would do at each size category.
 
 |Original|Diminutive|Tiny|Small|**Medium**|Large|Huge|Gargantuan|Colossal|
-|-|-|-|-|-|-|-|-|-|
-|"1D1"|0|0|0|**1**|1d2|1d4|1d6|1d10|
-|"1D2"|0|1|1d2|**1d4**|1d6|1d10|2d6|2d10|
-|"1D4"|1|1d2|1d4|**1d6**|1d10|2d6|2d10|3d10|
-|"1D6"|1d2|1d3|1d5|**1d8**|1d12|2d8|2d12|3d12|
-|"1D10"|1d2|1d4|1d6|**1d10**|2d6|2d10|3d10|4d12|
-|"1D12"|1d3|1d5|1d8|**1d12**|2d8|2d12|3d12|5d12|
-|"2D6"|1d4|1d6|1d10|**2d6**|2d10|3d10|4d12|6d12|
-|"2D8"|1d5|1d8|1d12|**2d8**|2d12|3d12|5d12|7d12|
-|"2D10"|1d6|1d10|2d6|**2d10**|3d10|4d12|6d12|8d12|
-|"2D12"|1d8|1d12|2d8|**2d12**|3d12|5d12|7d12|9d12|
+|--------|----------|----|-----|----------|-----|----|----------|--------|
+|"1D1"   |0         |0   |0    |**1**     |1d2  |1d4 |1d6       |1d10    |
+|"1D4"   |0         |1   |1d2  |**1d4**   |1d6  |1d10|2d6       |2d10    |
+|"1D6"   |1         |1d2 |1d4  |**1d6**   |1d10 |2d6 |2d10      |3d10    |
+|"1D8"   |1d2       |1d3 |1d5  |**1d8**   |1d12 |2d8 |2d12      |3d12    |
+|"1D10"  |1d2       |1d4 |1d6  |**1d10**  |2d6  |2d10|3d10      |4d12    |
+|"1D12"  |1d3       |1d5 |1d8  |**1d12**  |2d8  |2d12|3d12      |5d12    |
+|"2D6"   |1d4       |1d6 |1d10 |**2d6**   |2d10 |3d10|4d12      |6d12    |
+|"2D8"   |1d5       |1d8 |1d12 |**2d8**   |2d12 |3d12|5d12      |7d12    |
+|"2D10"  |1d6       |1d10|2d6  |**2d10**  |3d10 |4d12|6d12      |8d12    |
+|"2D12"  |1d8       |1d12|2d8  |**2d12**  |3d12 |5d12|7d12      |9d12    |
 
 NB: There can never be multiple of dice sizes smaller than D6 rolled for weapon damage outside of critical hits.
 

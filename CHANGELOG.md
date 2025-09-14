@@ -484,6 +484,10 @@ ___
 
 ### General
 - Add [lizard folk](09-races.md#lizard-folk-level-1-template--8-points)
+- Clean up [crafting and enchanting](13-crafitng-imbuing.md):
+  - Clarify procedure.
+  - Add alchemy.
+  - Fix healing and related magic.
 
 ### Abilities
 - Fix [deflect missiles](06-abilities.md#deflect-missile):

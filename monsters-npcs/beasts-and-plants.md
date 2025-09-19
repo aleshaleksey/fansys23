@@ -1224,7 +1224,7 @@ ___
 ### Giant Owl (level 4)
 - **Size**: Large
 - **Carrying capacity**
-  - Light: 1128lb
+  - Light: 128lb
   - Medium: 256lb
   - Heavy: 640lb
   - Drag: 960lb
@@ -1584,14 +1584,14 @@ Size = Large
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Charm Pollen|Threshold=19 vs WIS|Charmed|(secondary action) 60ft Cone, 45 degree angle, main action, 1 minute|
-|Noxious Spores|Threshold=19 vs CON||(secondary action) 15ft Cone, 90 degree angle, main action. A mortal "hit" by the Tuber's spores must succeed a CON save or become incapacitated at the start of its turn. At the start of its next turn it must succeed a second CON save. If it succeeds this save it takes 2d6 necrotic[NAT] damage and is cured of the effect. Otherwise it falls unconscious 1 hour (no repeated save)|
+|Charm Pollen|Threshold=19 vs WIS|Charmed|(main action) 60ft Cone, 45 degree angle, 1 minute|
+|Noxious Spores|Threshold=19 vs CON||(main action) 15ft Cone, 90 degree angle. A mortal "hit" by the Tuber's spores must succeed a CON save or become incapacitated at the start of its turn. At the start of its next turn it must succeed a second CON save. If it succeeds this save it takes 2d6 necrotic[NAT] damage and is cured of the effect. Otherwise it falls unconscious 1 hour (no repeated save)|
 |Engulf|||(main action) An orc eating tuber can enter the space of an unconscious mortal of a size no larger than "medium" and begin engulfing it. It engulfs the volume of a small entity per main action. This means that it takes 8 rounds to engulf a medium sized entity. An entity at least half engulfed by the tuber is considered "[immobilised](../10-conditions-types.md#conditions-in-detail)".|
 |Absorb|Threshold=19 CON|2d6+4 necrotic[NAT]|An entity at least half engulfed by the tuber must make a CON save at the start of its turn or take damage. On success it takes half. A target unconscious due to the noxious spores can then wake up if it succeeds on a save vs the spores.|
 |||||
 |Alert|||An orc eating tuber cannot be surprised.|
 |Immunity|||"frightened", "blinded", "prone" "stunned", "catatonic" and "paralysed"|
-|Camouflage|||The Giant flytrap has advantage to hide in natural foliage.|
+|Camouflage|||The Orc Eating Tuber has advantage to hide in natural foliage.|
 |Skill|||"Observe" +7, "Stealth" +3|
 |Sense|||A tuber has touch and sight|
 |Senses|||Low light vision, Heat sense (30ft), Tremor sense (20ft)|
@@ -1633,7 +1633,7 @@ ___
 |Immunity|||"prone", "frightened", "blinded", "stunned", "catatonic" and "paralysed"|
 |Resistant|||"charmed", "physical damage", "light", "profane", "entropic"|
 |Camouflage|||The Shephard Tree is indistinguishable from a normal tree at first glance|
-|Skill|||"Observe" +6, "Stealth" +6|
+|Skill|||"Knowledge: All" +21, "Observe" +22, "Stealth" +6, +1 rank in all other skills|
 |Sense|||The Shephard tree has the senses of sight, smell and hearing|
 |Senses|||Low light vision, Heat sense (300ft), Life sense (600ft), Tremor sense (1 mile)|
 

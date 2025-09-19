@@ -824,7 +824,6 @@ ___
 |[Low Light Vision](../06-abilities.md#low-light-vision)|||A unicorn can see in dim light as well as in sunlight.|
 |[Life Sense (60ft)](../06-abilities.md#life-sense-i-v)|||A unicorn can sense living beings within 60ft of it.|
 |Loot|||While a black unicorn does not provide edible flesh, its horn, hair and blood are valuable to mages.|
-
 |Skills|||"Athletics" +12, "Observe" +7, "Sense Motive" +7, "Spellcraft" +7, "Knowledge: Nature" +5, "Knowledge: Arcana" +6, "Knowledge: Religion" +10|
 
 A black unicorn is not necessarily black of coat, but black of heart.

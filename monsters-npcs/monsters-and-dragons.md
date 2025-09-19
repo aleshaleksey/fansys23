@@ -118,8 +118,8 @@ ___
 |-|-|-|-|
 |Touch (attack)|+3|1d4+1|Immobilisation poison: End of first turn the target must succeed threshold=16 Con save or be restrained. If it fails the first save, it must make a second Con save (threshold=16) at the end of its subsequent turn or be immobilised for 10 minutes. The condition can be removed with a (threshold=16) heal roll.|
 |Dissolve|+3|1d10+1 (necrotic)|The ooze can use its action to enter an immobilised entity's orifices and dissolve it from the inside|
-|Amorphous|||The ooze is liquid and can fit into spaces as 1 inch across.|
-|Skills|"Climb" +2, "Stealth" +4, "Observe" + |||
+|Amorphous|||The ooze is liquid and can fit into spaces as narrow as 1 inch across.|
+|Skills|"Climb" +2, "Stealth" +4, "Observe" +2 |||
 |Heat sense|||The ooze is blind but can accurately sense heat up to 10ft|
 |Tremor sense|||Th ooze is blind but can sense vibrations within 60ft|
 |Resistance|||"Physical"|
@@ -847,7 +847,7 @@ ___
 |Grapple|+11|||
 |Monster Attack II|||An owl-griff can attack twice with its claws and once with its beak|
 |||||
-|[Berserker II](../06-abilities.md#berserk-i-v)|||An owl-griff can enter a blood friendly.|
+|[Berserker II](../06-abilities.md#berserk-i-v)|||An owl-griff can enter a blood frenzy.|
 |[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||(cost = 1SP dice) An owl-griff can grapple targets when it makes a claw attack.|
 |[Counterstrike](../06-abilities.md#counterstrike)|||An owl-griff may make an attack of opportunity against an attacker striking it with a melee attack|
 |[Mighty II](../06-abilities.md#mighty-ii)|||An owl-griff can carry much more than a monster of its strength ordinarily might|
@@ -863,7 +863,7 @@ These monsters are violent and difficult to escape as they can run, fly, climb a
 
 ___
 ### Griffon, Sparrow-griff
-**Size category**: Large (10ft x 10ft)
+**Size category**: Tiny (10ft x 10ft)
 - Evade: +2, Armour 0
 - Reach: 0ft (tiny)
 - [DEX save]: +2, [STR save]: -2

@@ -17,6 +17,7 @@
 - [Fiends](#fiends)
   - [Imp](#imp)
   - [Minor Demons](#minor-demon)
+  - [Shadow Flesh Fiend, Human](#shadow-flesh-fiend-human)
   - [Succubus](#succubusincubus)
   - [Fiendish Warrior](#fiendish-warrior)
   - [Demon](#demon-fire-or-ice)
@@ -599,6 +600,55 @@ Regardless, they all share the following characteristics: They are almost always
 Invariably minor demons despise creation and are generally sadistic beyond the potential of of most mortals. It is only their powerlessness that prevents them from bing truly dangerous.
 
 Minor demons may be proficient with one or more weapon. In this case they will use the weapon if it increases their lethality.
+
+___
+
+### Shadow Flesh Fiend, Human
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|19/16/15|38 (*28*)|28 (*14*)|11|30ft|Climb (30ft)|
+
+A shadow Flesh Fiend has a +4 armour bonus from the profane flesh.
+
+|     |Str|Dex|Con|Int|Wis|Cha|
+|-----|---|---|---|---|---|---|
+|Stat | 14| 17| 15| 11| 15| 14|
+|Bonus| +2| +3| +2|  0| +2| +2|
+|Save | +4| +5| +4| +2| +7| +7|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-----------|-------|-------|---|---|---|---|
+|6 (2)      |     13|      8|  3|  2|  5|  4|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Shadow Touch|+7|2 [Profane]|Reach=10ft. On a successful hit, the target must succeed a Threshold=17 CON save or lose 1d4+2 SP dice. If it has no SP dice left, it instead loses 2 HP.|
+|Short Sword|+8|1d6+3|Reach=10ft, the shadow flesh distorts the fiend's form, giving it an unusually long reach.|
+|Grapple|+8||Reach=10ft. A target grappled by a Shadow Flesh Fiend must succeed a Threshold=17 CON save at the start of its turn or lose 1d4+2 SP dice. If it has no SP dice left, it instead loses 2 HP.|
+|Profane Blast||||
+|Spellcasting|Threshold=17||"[Dusk](../08-spell-list.md#dusk)", "[Curse](../08-spell-list.md#least-curse)", "[Animate Dead](../08-spell-list.md#animatecontrol-dead)"|
+|[Cursed Blood](../06-abilities.md#cursed-blood)|||A Shadow Flesh Fiend can use its reaction to cast a pell|
+|||||
+|[Guarded](../06-abilities.md#guarded)|||A Shadow Flesh Fiend does not provoke attacks of opportunity when standing up or drinking potions.|
+|"[Low Light Vision](../06-abilities.md#low-light-vision)"|||Shadow Flesh fiends can see in dim light, for example a starry night, as if it were daylight.|
+|"[Life Sense: 60ft](../06-abilities.md#low-light-vision)"|||A shadow flesh fiend can detect living beings within 60ft of it if there are no significant intervening barriers.|
+|Telltale Heart|||A Shadow Flesh Fiend ALWAYS knows the direction to its lost parts and the ones who took them.|
+|||||
+|Skills|||"Athletics: +7", "Acrobatics:+6", "Sleight of Hand:+5", "Religion:+4", "Fortify:+5",  "Insight:+4"|
+|||||
+|Resistant|||"physical" damage, "fire", "ice" damage|
+|Immune|||"[biological damage](../10-conditions-types.md#biological-damage)", diseased", "poisoned", "dying"|
+|Vulnerability|||"divine" damage, "light: supernatural" damage|
+
+When a sentient mortal  has a part of their body wilfully taken from them by another entity, occasionally the attachment and resentment transforms the mortal into a fiend, rematerialising the lost part.
+
+The Shadow flesh fiend seeks to avenge its loss, pursuing its lost body part and the ones who took it relentlessly. It will then return to the place it became a fiend and guard it relentlessly.
+
+A Shadow flesh who has taken its revenge and regained its lost parts ceases to exist, and depending on the world, its soul is able to rest or ceases to exist.
+
+A Shadow Flesh Fiend appears similar to the being it once were, but the profane flesh enhances all of its abilities. Its profane touch drains the vitality of beings it contacts with. In addition, beings slain by the Shadow Flesh Fiend are raised as zombies.
+
+When a shadow flesh fiend is created by removing parts from a being of a being with a spiritual or divine alignment, it may instead become a "[an abyssal blade]".
 
 ___
 ### Succubus/Incubus

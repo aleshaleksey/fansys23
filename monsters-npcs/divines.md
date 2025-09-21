@@ -7,6 +7,7 @@ Divine entities are a category of supernatural beings that include gods, god-lik
   - [Watcher](#watcher)
   - [Seraph](#seraph)
 - [Glitches](#glitches)
+  - [Abyssal Blade](#abyssal-blade)
 - [Divinities](#divinities)
   - [Unicorn, True](#unicorn-true)
 
@@ -188,7 +189,54 @@ A seraph likely has some degree of free will. Sages believe that this is an elem
 
 ___
 ## Glitches
+Glitches are aberrant divine beings born of flaws in creation made manifest. The abilities that glitches possess often break fundamental laws and premises of creation and sometimes even logic. They are extremely dangerous, even to other divine beings.
+- Glitches are divine entities, and as such are immune to all "natural" damage and resistant to "divine" damage.
+- They are immune to "surprised", "charmed", "frightened", "stunned" and "dying".
+- Glitches are immune to "divine" damage and resistant to "profane" damage.
+- Glitches heal 1HP when they are hit with an attack or ability that deals "divine" damage.
+- Glitches have at least one ability that causes "entropic" damage.
 
+___
+
+### Abyssal Blade
+|HiT/Surprised/Touch|SP       |MP       |HP|Speed (walk)|Speed (other)|
+|-------------------|---------|---------|--|------------|-------------|
+|23/18/23           |46 (*30*)|64 (*32*)|11|30ft        |Climb (30ft) |
+
+An Abyssal Blade has a +6 deflection bonus, and a +2 shield bonus from its blades.
+
+|     |Str|Dex|Con|Int|Wis|Cha|
+|-----|---|---|---|---|---|---|
+|Stat | 19| 17| 15| 13| 17| 19|
+|Bonus| +4| +3| +2| +1| +3| +4|
+|Save | +6| +5| +4| +3| +8| +9|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-----------|-------|-------|---|---|---|---|
+|9 (2)      |     14|     14|  3|  3|  5|  5|
+
+|Ability|Bonus|Damage|Other|
+|-------|-----|------|-----|
+|Entropic Touch|+9|1d4+3[Entropic]|Reach=10ft. On a successful hit, the target must succeed a Threshold=19 CON save or lose 1d4+2 SP dice. If it has no SP dice left, it instead loses 2 HP.|
+|Swords|+9|1d8+3[Entropic]|Reach=10ft, the shadow flesh distorts the fiend's form, giving it an unusually long reach.|
+|Spellcasting|Threshold=18||"[Dusk](../08-spell-list.md#dusk)", "[Curse](../08-spell-list.md#least-curse)", "[Animate Dead](../08-spell-list.md#animatecontrol-dead)"|
+|[Cursed Blood](../06-abilities.md#cursed-blood)|||An Abyssal Blade can use its reaction to cast a pell|
+|||||
+|[Guarded](../06-abilities.md#guarded)|||An Abyssal Blade does not provoke attacks of opportunity when standing up or drinking potions.|
+|"[Low Light Vision](../06-abilities.md#low-light-vision)"|||Abyssal Blades can see in dim light, for example a starry night, as if it were daylight.|
+|"[Life Sense: 60ft](../06-abilities.md#low-light-vision)"|||An Abyssal Blade can detect living beings within 60ft of it if there are no significant intervening barriers.|
+|"[True Sight: 60ft](../06-abilities.md#truesight-i-v)"|||An Abyssal Blade can detect living beings within 60ft of it if there are no significant intervening barriers.|
+|Telltale Heart|||An Abyssal Blade ALWAYS knows the direction to its lost parts and the ones who took them.|
+|||||
+|Skills|||"Athletics: +9", "Acrobatics:+8", "Sleight of Hand:+7", "Religion:+6", "Fortify:+7",  "Insight:+6"|
+|||||
+|Immune|||"[Natural Damage](../10-conditions-types.md#natural-and-supernatural-damage-and-abilities)", "[Divine Damage](../10-conditions-types.md#divine)"|
+|Aberrant healing||When a glitch would take divine damage (were it not immune), it is instead healed for that number of hit-points.|
+|Immune|||"[Surprised](../10-conditions-types.md#surprised)", "[Charmed](../10-conditions-types.md#charmed)", "[Frightened](../10-conditions-types.md#frightened)", "[Stunned](../10-conditions-types.md#stunned)", "[Dying](../10-conditions-types.md#dying)"|
+
+When a [Abyssal Blade](profanes.md#shadow-flesh-fiend-human) is created by removing parts from a being of a being with a spiritual or divine alignment, it may instead become a "an abyssal blade".
+
+Unlike Abyssal Blades, an abyssal blade transcends its resentment. Instead it wanders the world, spending its time destroying the parts it is missing.
 
 ___
 ## Divinities
@@ -257,7 +305,6 @@ A true unicorn will not willingly appear before beings that lack innocence.
 A true unicorn has considerable healing abilities, but will not use them on beings that it does not consider worthy. On the other hand, it will use them freely and liberally on beings that it *does* consider worthy.
 
 While it prefers not to engage in battle, when facing beings that spread corruption a true unicorn will fight fiercely and mercilessly. Depending on the strength and kind of its foes its strategy will vary. Often it will first summon a "[Lesser Messenger](#lesser-messenger)" of purity, and command it create weather such that it would be unfavourable to their foes. It would then charge, using either "Razor Wind", or its considerable physical abilities to destroy its foes.
-
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|

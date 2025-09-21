@@ -4075,7 +4075,7 @@ The caster may instead *join* a domain onto an existing domain, hence expanding 
 
 ___
 ### Greater Cosmic Seal
-|Name|Greater cosmic Seal [Air, Earth, Fire, Nature, Water, Barrier]|12+8+15+16=51
+|Name|Greater cosmic Seal [Air, Earth, Fire, Nature, Water, Barrier]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|8 (32)|

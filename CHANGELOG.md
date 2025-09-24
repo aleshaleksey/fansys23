@@ -493,6 +493,7 @@ ___
 - Fix [deflect missiles](06-abilities.md#deflect-missile):
   - It only affects a single attack per round.
   - It does not require use of SP dice.
+- Change around the requirements for [assassinate](06-abilities.md#assassinate-i-v) II and III.
 
 ### Monsters and NPCs
 - Reduce the STR of some [golems](monsters-npcs/constructs.md) a little bit.
@@ -505,3 +506,4 @@ ___
 - Slightly weaken upcasted [Growth](08-spell-list.md#growth).
 - [Melt](08-spell-list.md#melt) now does half damage on successful save.
 - Go through the [Spell List](08-spell-list.md) and touch up everything.
+- [[Double prepared spell limit](07-magic-and-spellcasting.md#spells-known-and-spells-ready).

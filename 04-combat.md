@@ -497,15 +497,14 @@ This is a collection of unsorted rules related to basic physical combat.
 - Moving out of the threatened area of a foe without precautions provokes an attack of opportunity.
 - Moving through a threatened area provokes attacks of opportunity unless the movement is declared as being "cautious", ie at half speed.
 - Melee attacks can be made "non lethal" at no penalty with "percussive" weapons, and at a penalty with other weapons.
-- Ranged attacks cannot be made non-lethal (usually).
-- Supernatural attacks are either non-lethal or not. The caster does not chose (usually).
-- In place of a melee attack, a combatant may execute a martial manoeuvre.
+- Ranged attacks cannot be made non-lethal unless otherwise stated in for a specific type of ranged attack.
+- Supernatural attacks are generally lethal, unless otherwise stated for the specific attack. Optionally, a group may rule that it may be made non-lethal with a [spellworking](05-skills.md#spellworking) roll (Threshold = **20 + [MP dice used]**).
 
 #### Basic Martial Manoeuvres
-Any adventurer may attempt a martial manoeuvre. If an untrained combatant attempts this however, they risk attacks of opportunity and other penalties. Many monsters can carry out these manoeuvres without penalties or meeting the prerequisites. Special abilities and weapons/tools can reduce or remove penalties for manoeuvres or increase their effectiveness. Most manoeuvres are made as an attack within the attack action.
+Any adventurer may attempt a martial manoeuvre. If a combatant is not proficient in a given manoeuvre, they take a -5 penalty to the attack roll. They might also risk attacks of opportunity and other penalties. All combatants are considered proficient in the "attack" manoeuvre (but not necessarily with the weapons used to make an attack). Many monsters can carry out these manoeuvres without penalties or meeting the prerequisites. Special abilities and weapons/tools can reduce or remove penalties for manoeuvres or increase their effectiveness. Most manoeuvres are made as an attack within the attack action.
 
 - The penalty for using a manoeuvre or attack without proficiency, if there is one, is -5 to the roll.
-- **Size dependent**: For some manoeuvres, if the target is larger than the attacker, there is a -2 penalty for every size category by which they differ. If the attacker is more than 2 size categories larger than the attacker, the manoeuvre cannot be applied. Lastly, for these manoeuvres, the attacker gains a +2 bonus for every size category by which it is larger than the target.
+- **Size dependent**: For some manoeuvres, if the target is larger than the attacker, there is a -2 penalty for every size category by which they differ. If the attacker is more than 2 size categories larger than the attacker, the manoeuvre cannot be applied. Lastly, for these manoeuvres, the attacker gains a +4 bonus for every size category by which it is larger than the target.
   - "Grapple", "Restrain", "Shove", "Throw" and "Trip" are size dependant.
 
 - **Attack**: This is not really a manoeuvre, and is available to all characters.

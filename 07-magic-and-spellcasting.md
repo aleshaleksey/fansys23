@@ -166,6 +166,7 @@ Spells can either be "local" or "global" in scope. This helps distinguish spells
 - Their range can be hundreds of miles (but is often much shorter).
 - Their effect radius can be hundreds of miles, but is more often localised (eg a Mage's Sanctum).
 - They take at least 3 MP dice per day to cast, with the usual cost being ~20 dice per day.
+- If the spell takes multiple days to cast, the MP dice cost is split as evenly as possible between the days, with each day's dice being expended at the end of the casting day.
 
 Many "local" spells can also be cast as global spells. In this case the parameters of the global casting are are indicated in brackets after the parameters of the local casting.
 
@@ -174,7 +175,7 @@ ___
 
 #### Spells known and spells ready
 
-A character can know any number of spells. However, a character can only have a limited number of spells ready. A character decides last thing before sleeping which spells to bring ready for the next day. The number of spells a character can ready [Int + [MP dice total] / 2] spells at any one time. The first ten "MP 0 spells" do not count against this limit.
+A character can know any number of spells. However, a character can only have a limited number of spells ready. A character decides last thing before sleeping which spells to bring ready for the next day. The number of spells a character can ready [Int + [MP dice total]] spells at any one time. The first ten "MP 0 spells" do not count against this limit.
 
 #### Spells gained from levels in "spellcasting" ability
 
@@ -200,7 +201,7 @@ The more common way to learn spells is to learn from an entity that already has 
 
 #### Spell transfer
 
-Certain spells, such as "[Pact](08-spell-list.md#pact)", "[Mage's Oath](08-spell-list.md#mages-oath)", "[Isolate Essence](08-spell-list.md#isolate-essence)" and "[Memory Thief](08-spell-list.md#memory-thief)" allow knowledge, skills and spells to be almost instantaneously between entities. However these spells carry a high cost. More importantly, the entity imparting the spell loses it from their spells known, and there are few who would agree to such a transfer without substantial recompense.
+Certain spells, such as "[Pact](08-spell-list.md#pact)", "[Mage's Oath](08-spell-list.md#mages-oath)", "[Isolate Essence](08-spell-list.md#isolate-essence)" and "[Memory Thief](08-spell-list.md#memory-thief)" allow knowledge, skills and spells to be exchanged almost instantaneously between entities. However these spells carry a high cost. More importantly, the entity imparting the spell loses it from their spells known, and there are few who would agree to such a transfer without substantial recompense.
 
 #### MP 0 spells
 

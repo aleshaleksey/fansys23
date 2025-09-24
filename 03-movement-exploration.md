@@ -601,7 +601,7 @@ NB2: All these items are immune to poison damage.
 Certain tools and weapons overcome the damage resistance of objects. These are as follows:
 - A miner's pick overcomes the damage resistance of wooden, bone and stone objects, (dealing 1 die of damage to wooden objects, and 2 dice of damage to stone objects per hit).
 - A maul ignores 1 point of damage resistance of wooden, bone, stone and metal objects.
-- Ballistas that use "bullets" as projectiles, catapults and canons, ignore 1 point of damage resistance of wooden, bone, stone and metal objects. 
+- Ballistas that use "bullets" as projectiles, catapults and canons ignore 1 point of damage resistance of wooden, bone, stone and metal objects. 
 - Axes ignore the damage reduction of wooden objects.
 
 ___

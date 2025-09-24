@@ -221,8 +221,8 @@ ___
 |Assassinate level|Exploited Condition|Minimum Level|
 |-|-|-|
 |I|Immobilised|4 (5)|
-|II|+Surprised (or unaware)|8|
-|III|+Stunned|12|
+|II|+Stunned|8|
+|III|+Surprised (or unaware)|12|
 |IV|+Incapacitated|16|
 |V|+Restrained/Blinded|20|
 
@@ -390,7 +390,7 @@ ___
 ___
 #### Greater Manoeuvre I-V
 
-**Description**: Increase size gap where "Grapple", "Restrain", "Shove", "Throw" and "Trip" still work by 1.
+**Description**: Increase size gap where "Grapple", "Restrain", "Shove", "Throw" and "Trip" still work by 1. In addition characters with this ability have a smaller threshold increase per size category difference for size dependant manoeuvres: +2 instead of +4.
 
 **Prerequisites**: For every extra size category, this ability must be taken again.
 

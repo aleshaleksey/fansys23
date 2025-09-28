@@ -494,6 +494,7 @@ ___
   - It only affects a single attack per round.
   - It does not require use of SP dice.
 - Change around the requirements for [assassinate](06-abilities.md#assassinate-i-v) II and III.
+- Add [Foreign Forms](06-abilities.md#foreign-forms) for elementalism, as a test rule.
 
 ### Monsters and NPCs
 - Reduce the STR of some [golems](monsters-npcs/constructs.md) a little bit.

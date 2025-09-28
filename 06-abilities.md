@@ -80,6 +80,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
   - [Elements](#elements)
   - [Effects](#effects)
   - [Forms](#forms)
+    - [Foreign Forms](#foreign-forms)
     - [Touch (Elemental Touch)](#touch-elemental-touch)
     - [Touch, Enhanced](#touch-enhanced)
     - [Sweep](#sweep)
@@ -1182,24 +1183,33 @@ An elementalism can only have one form, which is selected before any rolls are m
 ____
 #### Effects
 An elementalism for each element can be enhanced with the following effects/conditions. The effect is declared before any rolls are made. An elementalism does not require an effect, and many elementalists prefer simpler elementalisms with only an element and form.
+
 |Effect       |Element Prerequisite |Other Prerequisites|MP die cost|
-|-|-|-|-|
-|Prone        |Air or Earth         |-                  |1|
-|Shove (10ft) |Air or Earth         |-                  |1|
-|Aphonic      |Air or Lightning     |-                  |1|
-|Deafened     |Air or Lightning     |-                  |1|
-|Glowing      |Light                |-                  |1|
-|Incapacitated|Fire or Lightning    |Base = 2           |2|
-|Restrained   |Ice                  |Base = 2           |2|
-|Catatonic    |Light                |Base = 2           |2|
+|-------------|---------------------|-------------------|-----------|
+|Prone        |Air or Earth         |-                  |1          |
+|Shove (10ft) |Air or Earth         |-                  |1          |
+|Aphonic      |Air or Lightning     |-                  |1          |
+|Deafened     |Air or Lightning     |-                  |1          |
+|Glowing      |Light                |-                  |1          |
+|Incapacitated|Fire or Lightning    |Base = 2           |2          |
+|Restrained   |Ice                  |Base = 2           |2          |
+|Catatonic    |Light                |Base = 2           |2          |
 
 The "shove" and "prone" effect are immediate and do not require repeated save. The remaining effects persist for up 1 minute, and allow a save at the end of each of the target's turns.
 
 ___
 #### Forms
-An elementalism must have a form and only ever one form, which must be selected before any rolls are made.
+An elementalism must have a form and only ever one form, which must be selected before any rolls are made. There are two primary forms "Touch" and "Blast" (Cone is automatically available with a given element if a character knows blast). Other forms are derived as follows:
+
+- Primary: Touch.
+  - Derived: Sweep, Aura
+- Primary: Blast.
+  - Derived: Line, Circle, Chain, Arc.
+
+The forms are summarised as follows:
+
 |Form           |Prerequisite           |MP dice cost       |Range|Roll         |
-|-|-|-|-|-|
+|---------------|-----------------------|-------------------|-----|-------------|
 |Touch          |3 MP dice              |-                  |close|Melee Attack |
 |Sweep          |Form: Touch, 5 MP dice |+1 per target      |close|Melee Attack |
 |Aura           |From: Touch, 7 MP dice |+1 per 10ft        |self |Save         |
@@ -1212,7 +1222,15 @@ An elementalism must have a form and only ever one form, which must be selected 
 |Chain          |Form: Line, 17 MP dice |+2 per turn        |120ft|Save         |
 |Arc            |From: Line, 19 MP dice |+2 per 30 degrees  |120ft|Save         |
 
-When a "form" prerequisite is present, a character must already have an elementalism of the same element with the given form to be able to acquire the new form for that element.
+When a "form" prerequisite is present, a character must already have an elementalism of the same element with the given prerequisite form to be able to acquire the new form for that element.
+
+___
+#### Foreign Forms
+Normally a character with multiple elements takes forms independently for each element. However they may still use the "foreign forms" rule to borrow forms known for one element with other elements:
+
+If a character knows the same "primary form" for multiple elements, they may use any of its "derived form" for any of those elements, at a cost. In order to use a foreign form, the character must expend an MP die. Furthermore, in this case, the number of damage dice dealt is equal to the number of MP dice expended.
+
+For example, if a level 8 character has "Elementalism: Blast" and "Elementalism: Line" for fire, and "Elementalism: Blast" for lightning, they can use "Elementalism: Line" for lightning IF they expend at least one MP die doing so, *however*, the damage with the borrowed "Elementalism: Line (Lightning)" will be **[[MP dice expended]d4 + [WIS]]**, instead of **[[MP dice expended + 2]d4 + [WIS]]**.
 
 ___
 #### Touch (Elemental Touch)

@@ -488,6 +488,7 @@ ___
   - Clarify procedure.
   - Add alchemy.
   - Fix healing and related magic.
+  - Added "[usual](10-conditions-types.md#condition-table)" duration for conditions.
 
 ### Abilities
 - Fix [deflect missiles](06-abilities.md#deflect-missile):

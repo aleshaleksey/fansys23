@@ -32,6 +32,7 @@
     - [Divine](#divine-1)
     - [Profane](#profane-1)
 5. [Conditions and states](#conditions-and-states)
+    - [Condition Table](#condition-table)
     - [Conditions in detail](#conditions-in-detail)
 
 
@@ -405,35 +406,41 @@ Profane beings are those that have been cursed by creation and whose nature driv
 ## Conditions and states
 Entities can be affected by a number of conditions, most of them bad. For now these include (and all are badly defined!). Conditions are classified in S to C class based on how much trouble an entity is in if it is afflicted by it. This starts from deadly peril (S) to mildly inconvenient (C). Of course classification is not always absolute.
 
-- "**Doomed**": S++ Class
-- "**Dominated**": S Class
-- "**Dying**": S Class
-- "**Helpless**": S Class
-- "**Paralysed**": S Class
-- "**Possessed**": S Class
-- "**Unconscious**": S Class
-- "**Catatonic**": A Class
-- "**Crippled**": A Class
-- "**Immobilised**": A Class
-- "**Incapacitated**": A Class
-- "**Stunned**": A Class
-- "**Bleeding/Wilting**": B Class
-- "**Blinded**": B Class
-- "**Charmed**": B Class
-- "**Restrained**": B Class
-- "**Surprised**": B Class
-- "**Frightened**": B Class
-- "**Aphonia**": B/C Class
-- "**Deafened**": C Class
-- "**Glowing**": C Class
-- "**Grappled**": C Class
-- "**Inaudible**": C Class
-- "**Invisible**": C Class
-- "**Prone**": C Class
-- "**Diseased**": S-C Class
-- "**Poisoned**": S-C Class
-
 An entity afflicted by conditions that make it unable to engage in physical combat or other activities is considered **"disabled"**. This is a useful catch all. These conditions are: "dying", "helpless", "paralysed", "unconscious", "catatonic", "immobilised", "stunned" or "surprised".
+
+In addition a condition affects a being for a given duration, which is usually determined by the skill, ability, poison, disease, or phenomenon that causes it. If the rules do not explicitly state the duration of a condition, it is assumed to apply for the "usual" duration, which is defined in the table below.
+
+___
+### Condition Table
+
+|Condition    |Rank|Usual Duration           |
+|-------------|----|-------------------------|
+|Doomed       |S   |Until dead               |
+|Dominated    |S   |1 hour                   |
+|Dying        |S   |Until dead or stabilised |
+|Helpless     |S   |Until changed            |
+|Paralysed    |S   |1 month                  |
+|Possessed    |S   |Permanent                |
+|Catatonic    |A   |1 hour                   |
+|Immobilised  |A   |Until freed              |
+|Incapacitated|A   |1 hour                   |
+|Stunned      |A   |1 round                  |
+|Bleeding     |B   |1 hour                   |
+|Blinded      |B   |1 day                    |
+|Crippled     |B   |1 month                  |
+|Charmed      |B   |1 hour                   |
+|Restrained   |B   |Until freed              |
+|Surprised    |B   |Until start of next round|
+|Frightened   |B   |1 minute                 |
+|Aphonic      |C   |1 day                    |
+|Deafened     |C   |1 day                    |
+|Glowing      |C   |1 minute                 |
+|Grappled     |C   |Until freed              |
+|Inaudible    |C   |1 minute                 |
+|Invisible    |C   |1 minute                 |
+|Prone        |C   |Until it stands          |
+|Diseased     |C   |1 week                   |
+|Poisoned     |C   |1 day                    |
 
 ___
 ### Conditions in detail
@@ -606,7 +613,7 @@ A prone character is intimate with the ground.
 ___
 ### Conditions by Damage Type
 
-When an entity loses HP (but *NOT* MP or SP) due to a named damage type, it may gain one of the following damage types. If it meets the condition, it rolls a d6, and the condition is determined by the roll
+When an entity loses HP (but *NOT* MP or SP) due to a named damage type, it may gain one of the following damage types. If it meets the condition, it rolls a d6, and the condition is determined by the roll. The condition is applied for the "usual" duration defined in the "[Condition Table](#condition-table)" above.
 
 ||1|2|3|4|5|6|
 |-|-|-|-|-|-|-|

@@ -489,6 +489,8 @@ ___
   - Add alchemy.
   - Fix healing and related magic.
   - Added "[usual](10-conditions-types.md#condition-table)" duration for conditions.
+- CHANGE [FULL CONCEALMENT](04-combat.md#cover-and-concealment): Now for melee/close, it only gives a 4/6 miss chance.
+- Remove references to "super advantage/disadvantage" and 4D12dl2/4D12dh2 rolls.
 
 ### Abilities
 - Fix [deflect missiles](06-abilities.md#deflect-missile):

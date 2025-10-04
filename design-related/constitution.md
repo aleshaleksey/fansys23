@@ -3,7 +3,7 @@
 This document describes RAI, and sets out base rules and principles behind the system. Any rule in the system that does not conform to this constitution needs to be modified to make sure that it does (potentially more than one will need to be modified).
 
 ## Points
-1. The system is designed for fantasy roleplaying.
+1. The system is designed for fantasy role-playing.
 2. The system focuses on balance and flexibility.
 3. The system uses the sum of a dice roll and static bonus as the core roll.
 4. The core roll should ensure that both the bonus and the roll have a statistically meaningful effect on the outcome in most cases.

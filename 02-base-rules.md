@@ -88,11 +88,11 @@ The core dice for ability checks/tests, saves and attacks is 2d12. You roll a 2d
 - **General Special**: Also, for every 12 you roll, add +2 to the result. For every 1, subtract 2 from the result.
 - **Saves and Attacks**: Also, snake eyes (1,1) always fails (also known as a "critical fail"). D12 (12,12) always succeeds (also known as a "critical success"). For every 1 rolled on a save, if failure results in damage, the target takes an additional 1 point of damage directly to HP (no risk of gaining conditions).
 - **Attacks**: Also, for each 12 is rolled, if the attack deals any damage, the target takes an additional 1 point of damage directly to HP (no risk of gaining conditions).
-- **Advantage**: Sometimes circumstances are very favourable. Then you roll 3d12, drop lowest. In extreme cases this can be 4D12DL2.
-- **Disadvantage**: Sometimes circumstances are very unfavourable. Then you roll 3d12, drop highest. In extreme cases this can be 4D12DH2.
+- **Advantage**: Sometimes circumstances are very favourable. Then you roll 3d12, drop lowest.
+- **Disadvantage**: Sometimes circumstances are very unfavourable. Then you roll 3d12, drop highest.
 - Advantage and disadvantage, no matter from how many sources, always cancel each other out.
 
-2d12 is chosen as a core roll firstly because d12 are nice dice to roll, secondly because this solves the "high modifier - low modifier" problem, and thirdly because the "triangular" probability distribution simulates life more closely than the 1d20 "uniform" distribution and this then allows us to eschew opposed rolls in time sensitive sections of the game (like combat) while preserving a similar probability distribution of success and failure.
+2d12 is chosen as a core roll firstly because d12 are nice dice to roll, secondly because this solves the "high modifier - low modifier" problem, and thirdly because the "triangular" binomial probability distribution simulates life more closely than the 1d20 "uniform" distribution and this then allows us to eschew opposed rolls in time sensitive sections of the game (like combat) while preserving a similar probability distribution of success and failure.
 
 ___
 #### Taking 24, taking 13, auto-failure and voluntary failure
@@ -633,7 +633,7 @@ Normal "sight" and any special sense with the word "sight" in it is considered s
 
 ["Heat sense"](06-abilities.md#heat-sense-i-v), ["Life sense"](06-abilities.md#life-sense-i-v), ["tremor sense"](06-abilities.md#tremor-sense-i-v) and ["blind sight"](06-abilities.md#blind-sight-i-vi) negate some aspects of blindness, each under specific circumstances (see the specific sections for details).
 
-"[Concealment](04-combat.md#cover-and-concealment)" gives entities a chance to hide from ordinary sight, but usually not a guarantee. Likewise, light concealment grants a 1/6 miss chance, while heavy concealment provides a 2/6 miss chance. Full concealment gives a 5/6 miss chance (blindness/invisibility gives full concealment).
+"[Concealment](04-combat.md#cover-and-concealment)" gives entities a chance to hide from ordinary sight, but usually not a guarantee. Likewise, light concealment grants a 1/6 miss chance, while heavy concealment provides a 2/6 miss chance. Full concealment gives a 4/6 miss chance for close (melee) attacks and 5/6 miss chance for ranged attacks (blindness/invisibility gives full concealment).
 
 ___
 #### Hearing

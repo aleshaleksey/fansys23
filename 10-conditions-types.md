@@ -464,7 +464,7 @@ This entity cannot do anything other than make CON saves (threshold = 20) or los
 An unconscious character can make CON and CHA saves, and communicate telepathically under certain circumstances. It can take no other actions. In addition it has the following problems:
   - It does not gain [STATS] to AC.
   - It it can fall prone, it falls prone.
-  - All melee attacks against it are at super-advantage.
+  - All melee attacks against it are at advantage.
   - All damage bypasses SP and MP.
   - It cannot cast or concentrate on spells or take any actions.
   - If it is unconscious because it is asleep, it has -10 on "[observe](05-skills.md#observe)" rolls. If it is unconscious for any other reason, then it cannot properly perceive the outside world or think rationally. 
@@ -473,7 +473,7 @@ An unconscious character can make CON and CHA saves, and communicate telepathica
 A helpless character is in a condition where they cannot protect themselves. Usually they are otherwise compromised.
   - It does not gain [STATS] to HiT.
   - It it can fall prone, it falls prone.
-  - All melee attacks are at super-advantage.
+  - All melee attacks are at advantage.
   - All damage bypasses SP and MP.
   - It cannot make saves other than CON, CHA and WIS.
   - It cannot move or take take actions other than [WIS] based skill checks.
@@ -483,7 +483,7 @@ A helpless character is in a condition where they cannot protect themselves. Usu
 A paralysed character cannot take physical actions:
   - This means it cannot move.
   - It does not gain physical [STATS] to HiT.
-  - Physical melee attacks against it have super-advantage.
+  - Physical melee attacks against it have advantage.
   - It it can fall prone, it falls prone.
   - Physical ranged attacks against it have advantage (if it is prone this cancels out).
   - Natural damage bypasses SP.
@@ -523,7 +523,7 @@ An immobilised character is in trouble.
   - It cannot make [DEX] or [STR] saves, attacks.
   - It cannot cast spells with kinetic components.
   - Attacks against it have advantage.
-  - It cannot use [DEX] and [STR] based skills or abilities except some escape related skills, and even then at super-disadvantage. 
+  - It cannot use [DEX] and [STR] based skills or abilities except some escape related skills, and even then at disadvantage. 
 
 #### Incapacitated
 This creature cannot take actions (other than movement or communication) or reactions in combat.
@@ -545,7 +545,7 @@ A bleeding character loses HP every round. A [CON] save, or appropriate healing 
 A blinded character cannot perceive visual input:
   - It cannot use [WIS] based skills based on sight.
   - It had disadvantage on [DEX] based skills.
-  - All targets have full concealment (5/6 miss chance) from you for the sake of targeted attacks. Ranged attacks beyond 60ft are also at disadvantage.
+  - All targets have full concealment (4/6 miss chance for close (melee) and 5/6 miss chance for ranged) from you for the sake of targeted attacks. Ranged attacks beyond 60ft are also at disadvantage.
   - It has disadvantage on [WIS] and [DEX] based saves.
 
 #### Charmed

@@ -392,7 +392,7 @@ Cover and concealment come in three flavours "light" (1/2), "heavy" (3/4) and "f
 
 **Cover** is when something blocks line of effect between attacker and target. Light cover (as a rule covers no more than half of the entity's body area) provides a -2 penalty to targeted attacks vs a target. Heavy cover (as a rule covers 1/2 to 3/4 of a target's area) provides a -5 penalty to targeted attacks and advantage to Dex saves. A target in full cover cannot be targeted with a targeted attack. Examples of things that can provide cover and concealment includes terrain features, buildings, items, and creatures.
 
-**Concealment** is when something blocks line of sight between two entities. It can also be something that blocks a different sense, if that is the main sense used by the entity. An entity can attempt to hide ("stealth" skill) if it has heavy concealment or full concealment. In addition light concealment provides a 1/6 miss chance (use a d6). Heavy concealment provides a 2/6 miss chance. Full concealment provides 5/6 miss chance. The miss chance is rolled before or after the attack roll, but obviously before damage.
+**Concealment** is when something blocks line of sight between two entities. It can also be something that blocks a different sense, if that is the main sense used by the entity. An entity can attempt to hide ("stealth" skill) if it has heavy concealment or full concealment. In addition light concealment provides a 1/6 miss chance (use a d6). Heavy concealment provides a 2/6 miss chance. Full concealment provides a 4/6 miss chance for close (melee) attacks, and a 5/6 miss chance for ranged attacks. The miss chance is rolled before or after the attack roll, but obviously before damage.
 
 #### Intervening targets
 An entity that is on the line of attack (the intervening target's hex/square is intersected by the line from the center of your square to the center of your target's square) between a character and their target acts as concealment. If they're in the same size category or smaller the intervening entity acts as light concealment, otherwise it acts as heavy concealment.
@@ -515,14 +515,14 @@ Any adventurer may attempt a martial manoeuvre. If a combatant is not proficient
   - Special: Attacking with a weapon you are not proficient with provokes an attack of opportunity as you leave more openings than a proficient combatant.
 - **Grapple**:
   - Effect: The target gains the "[grappled](10-conditions-types.md#conditions-in-detail)" condition: It's move speed is zero.
-  - Requires attack roll vs target's NAT+[Str or Dex].
+  - Requires attack roll vs target's NAT+[STR or DEX].
   - Penalty if not proficient with **grapples**.
   - Attack of opportunity on failure.
   - Size dependent.
 - **Restrain**: This is the use of grapple on a prone or grappled target.
   - Effect: The target gains the "[restrained or aphonic](10-conditions-types.md#conditions-in-detail)" conditions.
   - Prerequisite: Foe must be prone or grappled.
-  - Requires attack roll vs target's NAT+[Str or Dex].
+  - Requires attack roll vs target's NAT+[STR or DEX].
   - Penalty if not proficient with **grapples**.
   - Size dependent.
   - The one executing this manoeuvre declares one of the desired outcomes:
@@ -530,7 +530,7 @@ Any adventurer may attempt a martial manoeuvre. If a combatant is not proficient
    - "Restrain": Prevent a foe from casting spells with kinetic components and give penalties to weapon attacks.
 - **Shove**:
   - Effect: Moves a foe away from you by up to 10ft.
-  - Requires attack roll vs target's NAT+[Str or Dex].
+  - Requires attack roll vs target's NAT+[STR or DEX].
   - Penalty if not proficient with **throws**.
   - Size dependent.
   - Special: For every size category that you are larger than your target, increase the maximum distance by 5ft.
@@ -544,13 +544,13 @@ Any adventurer may attempt a martial manoeuvre. If a combatant is not proficient
   - On failure provokes attack of Opportunity if the foe is holding a weapon you are not proficient with AND you are not proficient with **throws**.
 - **Disarm**:
   - Effect: Liberate a foe of a weapon or item held.
-  - Requires attack roll vs target's NAT+[Str or Dex].
+  - Requires attack roll vs target's NAT+[STR or DEX].
   - Penalty if not proficient with **disarm**.
   - Provokes a penalty and attack of Opportunity if the foe is holding a weapon you are not proficient with AND you are not proficient with **disarm**.
   - If the weapon is light, the target has a -2 on the roll. If it is heavy, it has +2 on the roll.
 - **Feint**:
   - Effect: Give advantage to next attack against a target (you do not have to be the one to make the next attack).
-  - Requires attack roll (Cha based [Nat] roll) vs target's NAT.
+  - Requires attack roll (Cha based [Nat] roll) vs target's NAT + [STR or DEX].
 - **Interception**:
   - Effect: Redirect a target's attacks against you, or redirect attacks against a target at you.
   - Requires attack roll.
@@ -561,7 +561,7 @@ Any adventurer may attempt a martial manoeuvre. If a combatant is not proficient
     - On success, the item takes 1 point of damage for every dice of damage that the weapon normally deals, if the materials are of "equal" quality.
     - If the weapon used in the attack is made of "higher" materials, the amount of damage is 2 per damage dice of the attacking weapon.
     - If the weapon used in the attack is made of a "lower" material, the total amount of damage is reduced by 1, and conversely the weapon making the attack takes 1 point of damage.
-  - Requires attack roll vs target's NAT+[Str or Dex].
+  - Requires attack roll vs target's NAT+[STR or DEX].
   - Penalty if not proficient with **sunder**.
   - Provokes a penalty and attack of Opportunity if the foe is holding a weapon you are not proficient with AND you are not proficient with **sunder**.
 

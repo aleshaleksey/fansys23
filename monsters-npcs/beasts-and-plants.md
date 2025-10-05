@@ -1231,7 +1231,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|13/11/12|18 (*15*)|18 (*15*)|6|10ft|Flight (50ft, average, endurance = 4 hours)|
+|13/11/12|18 (*15*)|18 (*15*)|6|10ft|Flight (70ft, average, endurance = 4 hours)|
 
 Size=Large
 

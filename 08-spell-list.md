@@ -656,7 +656,7 @@ ___
 |Limitations|There must be plant life (at least "medium") within 120ft|-2 
 |Save|Dex or Str|-1
 
-**Description**: Vigorous plant life sprouts and grasps at all targets in range. Entities that start their turn within the area of effect must succeed a DEX or STR save or be "restrained". The area of effect is also transformed into difficult terrain for the duration of the spell.
+**Description**: Vigorous plant life sprouts and grasps at all targets in range. Entities that start their turn within the area of effect must succeed a DEX or STR save or be "restrained". The save is repeated every turn that an entity is in the area of effect. The area of effect is also transformed into difficult terrain for the duration of the spell.
 
 **Upcast (local)**: Increase the radius by 5ft for every extra 1MP die above 1 of cost paid.
 
@@ -841,9 +841,9 @@ ___
 |-|-|
 |Scope|local|
 |MP Dice|1|
-|Target(s)|20ft|+4
+|Target(s)|20ft radius|+4
 |Casting time|"full round"|-1(3)
-|Range|close|
+|Range|15ft|
 |Duration|12 min|+3(6)
 |Material|A butterfly's Wings|-1(5)
 |Focus|A crystal whistle|-1(4)
@@ -855,7 +855,7 @@ ___
 
 **Limitation**: The weather cannot completely contradict the season and climate. For example, the spell cannot cause a snowstorm on a summer's day where snowstorms do not, as a rule, occur in summer.
 
-**Upcast**: The for every extra MP die above 1, the spell lasts for an extra 6 minutes or increases in radius by 5ft.
+**Upcast**: For every extra MP die above 1, the spell lasts for an extra 6 minutes or increases in radius by 5ft.
 
 ___
 ### Sense Spell
@@ -962,7 +962,9 @@ ___
 
 **Limitation**: You cannot summon a beast into an environment where it cannot breath or move (eg, you cannot summon a horse into mid-air, or a fish onto land).
 
-**Upcast**: For every MP dice added above 1 (2 MP dice above 2 for global), the beast gains a level.
+**Upcast**: 
+- When 2 MP dice (4 MP dice globally) are used for the casting, the beast summoned is level 2.
+- For every MP dice added above 2 (2 MP dice above 4 for global), the beast gains 2 levels.
 
 **Global**: The beast is bound by a longer contract (an extra day for every 2MP above 2) and the spell does not require concentration.
 

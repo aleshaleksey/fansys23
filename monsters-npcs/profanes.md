@@ -60,7 +60,7 @@ Large(-1/+1)
 |Combined Manoeuvre I||||
 |Monster Attack I|||The corporeal horror makes one attack with its claws, and one with its bite|
 |Broad Strike|||Claws only|
-|Aura of Nausea|Threshold=17 CON||All entities that start their turn within 15 feet must make a Threshold=19 CON save or be "incapacitated". An entity can repeat its save at the start of each of its turn. Upon succeeding, it is no longer "incapacitated", and cannot be, for 24 hours.|
+|Aura of Nausea|Threshold=17 CON||All entities that start their turn within 15 feet must make a Threshold=17 CON save or be "incapacitated". An entity can repeat its save at the start of each of its turn. Upon succeeding, it is no longer "incapacitated", and cannot be, for 24 hours.|
 |Scream|Threshold=15 CON save||As a secondary action, the horror can issue a pained shriek (1 SP dice). Any entity within 30ft that hears the shriek must make a Threshold=15 WIS save or become "frightened" of the horror. An entity can repeat its save at the start of each of its turn. Upon succeeding, it is no longer "frightened", and cannot be, for 24 hours.|
 |Vulnerability|||"divine", "light"|
 |Resistant|||"physical" damage except "slashing" and "pressure", "grappled", "restrained"|
@@ -101,8 +101,8 @@ Saves: Wis, Cha
 |["Berserk II"](../06-abilities.md#berserk-i-v)|||A corporeal horror can enter a berserk state, increasing its speed by 10ft, gaining +4 damage on its attacks|
 |Monster Attack I|||The corporeal horror makes one attack with its claws, and one with its bite|
 |Broad Strike|||Claws only|
-|Aura of Nausea|Threshold=21 CON save||All entities that start their turn within 30 feet must make a Threshold=19 CON save or be "incapacitated". An entity can repeat its save at the start of each of its turn. Upon succeeding, it is no longer "incapacitated", and cannot be, for 24 hours.|
-|Scream|Threshold=18 CON save||As a secondary action, the horror can issue a pained shriek (1 SP dice). Any entity within 60ft that hears the shriek must make a Threshold=15 WIS save or become "frightened" of the horror. An entity can repeat its save at the start of each of its turn. Upon succeeding, it is no longer "frightened", and cannot be, for 24 hours.|
+|Aura of Nausea|Threshold=19 CON save||All entities that start their turn within 30 feet must make a Threshold=19 CON save or be "incapacitated". An entity can repeat its save at the start of each of its turn. Upon succeeding, it is no longer "incapacitated", and cannot be, for 24 hours.|
+|Scream|Threshold=18 CON save||As a secondary action, the horror can issue a pained shriek (1 SP dice). Any entity within 60ft that hears the shriek must make a Threshold=18 WIS save or become "frightened" of the horror. An entity can repeat its save at the start of each of its turn. Upon succeeding, it is no longer "frightened", and cannot be, for 24 hours.|
 |Vulnerability|||"divine", "light"|
 |Resistant|||"physical" damage except "slashing" and "pressure", "grappled", "restrained"|
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
@@ -201,7 +201,7 @@ Like skeletons, zombies will obey whoever raised them. Otherwise they wonder aro
 
 Zombies are not proficient with anything other than their natural attacks and "grapple". They cannot communicate, but can be commanded by way of dark magics.
 
-**Zombify**: Any mortal bitten once or more by a zombie must make a CON save at midnight. Should they fail, they will die and become a zombie in 6d12 hours. This disease counts as supernatural and can only be cured by supernatural means. It cannot be cured once it has run its course.
+**Zombify**: Any mortal bitten once or more by a zombie must make a CON save at midnight. Should they fail, they will die and become a zombie in 6d12 hours. This disease counts as supernatural and can only be cured by supernatural means. It cannot be cured once it has run its course. The threshold for diagnosis is 14 within the first 2 hours after infection. More than 2 hours after infection, the threshold is reduced to 8.
 
 ___
 ## Vampires

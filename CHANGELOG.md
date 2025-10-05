@@ -512,4 +512,5 @@ ___
 - Go through the [Spell List](08-spell-list.md) and touch up everything.
 - [Double prepared spell limit](07-magic-and-spellcasting.md#spells-known-and-spells-ready).
 - Fix wording on [Greater Earth Ward](08-spell-list.md#greater-earth-ward.)
-- Add [Forbiddance](#forbiddance) spell (needed a more absolute barrier spell).
+- Add [Forbiddance](08-spell-list.md#forbiddance) spell (needed a more absolute barrier spell).
+- Modify [Summon Beast](08-spell-list.md#summon-beast) to be level beasts up faster after 2 MP (it is otherwise useless).

@@ -644,7 +644,7 @@ ___
 **Special**:
 - If the element is fire or lightning the attack may ignite flammable materials, and sheds light (visibility 1 mile, illumination: dim 10ft).
 - Elemental strike must be taken separately for each element.
-- Though the necrotic damage is supernatural, the remaining weapon damage will usually still be natural.
+- Though the elemental damage is supernatural, the remaining weapon damage will usually still be natural.
 
 **Prerequisites**:
 - Proficiency with at least one weapon group.
@@ -682,7 +682,7 @@ ___
 
 **Special**:
 - "Holy Strike" sheds light (visibility 5 miles, illumination: bright/dim 10ft, 20ft).
-- Though the necrotic damage is supernatural, the remaining weapon damage will usually still be natural.
+- Though the light damage is supernatural, the remaining weapon damage will usually still be natural.
 
 **Prerequisites**:
 - Proficiency with at least one weapon group.

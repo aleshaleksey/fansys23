@@ -510,4 +510,6 @@ ___
 - Slightly weaken upcasted [Growth](08-spell-list.md#growth).
 - [Melt](08-spell-list.md#melt) now does half damage on successful save.
 - Go through the [Spell List](08-spell-list.md) and touch up everything.
-- [[Double prepared spell limit](07-magic-and-spellcasting.md#spells-known-and-spells-ready).
+- [Double prepared spell limit](07-magic-and-spellcasting.md#spells-known-and-spells-ready).
+- Fix wording on [Greater Earth Ward](08-spell-list.md#greater-earth-ward.)
+- Add [Forbiddance](#forbiddance) spell (needed a more absolute barrier spell).

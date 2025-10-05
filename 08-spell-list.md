@@ -106,6 +106,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Bestial Transformation](#bestial-transformation)
 - [Enchanted Ground](#enchanted-ground)
 - [False Aura](#false-aura)
+- [Forbiddance](#forbiddance)
 - [Gift of the Fates](#gift-of-the-fates)
 - [Greater Xenophonia](#greater-xenophonia)
 - [Healing Seed](#healing-seed)
@@ -2436,6 +2437,38 @@ If the detection spell is cast at a higher MP dice cost (level) than "False Aura
 
 **Global**: The spell instead affects a volume with a radius of 120ft, centred on a point on the ground or a stationary object. Likewise it lasts for 4 months. For every 2 MP dice above 8, either the radius increases by 120ft, or the duration increases by 4 months.
 
+ ___
+ ### Forbiddance
+|Name|Forbiddance [Barrier, Kinetic]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|4 (8)|
+|Target(s)|20ft radius (400ft radius)| +4
+|Casting time|"full round" (4 hours + 1 hour/MP die)| -2
+|Range|60ft| +2
+|Duration|1 hour (1 week)| +12
+|Components|kinetic|
+|Concentration|no|
+|Focus|A holy or unholy symbol| -1
+|Limitation|Does not affect "cosmic" speed|-2
+|Save|CHA|
+
+**Description**: The caster protects an area of up to 20ft radius around a point in range. The point can be anchored to the ground, a building or static object (eg a tree). The point can also be on an moving object, as long as all parts of the protected area are contained within, or on the surface of the object (eg a ship whose length and width are both greater than 40ft).
+
+The caster also defines a single criterion when casting the spell (for example "profanes", "carrying a sword" or even "with blue eyes"). Entities that fulfil that criterion cannot cross the perimeter of the area by any means other than cosmic speed without succeeding a CHA save vs the caster's threshold. Even if an affected entity succeeds the save their base movement is halved while they are within the protected area.
+
+The caster can also invert the criterion to allow only entities that fulfil the criteria to be allowed entry.
+
+**Special**: For the local casting, the entity may attempt to repeat its save once per turn, but every time it does, it must expend an MP die.
+
+**Limitations** Entities can still cross the perimeter the area by "cosmic" speed without needing to succeed the save. Their base speed, however, will still be halved for their other movement modalities.
+
+**Upcast**: For every extra MP die above X, the the radius of the spell is increased by 5ft (100ft fot global), or the caster can add an extra criterion, or it's duration increases by 1 hour (1 week for global).
+
+If the spell is cast with more than 7 MP die, its perimeter cannot be crossed by means of "cosmic" speed.
+
+**Global**: The spell's radius increases to 400ft, and its duration is 1 week.
+
 ___
 ### Gift of the Fates
 |Name|Favour of Fate [Divine, Kinetic]|
@@ -3408,7 +3441,7 @@ ___
 |Material|A brass bowl filled with earth, the bowl crumbles when the spell is cast|-2
 |Save|CON,CHA|
 
-**Description**: The spell creates a solid, physical barrier of stone 5ft thick, around the caster with a radius of **up to** x feet. Dealing physical damage to the barrier (HiT=12, HP=20, damage reduction(except "esoteric")=20) in one turn opens a window big enough for a small size entity to enter freely, (or a medium entity to squeeze through). At the end of the turn, the barrier resets. Every time the barrier is damaged, contacted or crossed, the caster is aware of this, as well as the size and type of any entity crossing. Effects caused by area of effect "earth" spells of an equal or lower level that do not require an attack roll are excluded from the spell's area of effect.
+**Description**: The spell creates a solid, physical barrier of stone 5ft thick, around the caster with a radius of **up to** 50 feet. Dealing physical damage to the barrier (HiT=12, HP=20, damage reduction(except "esoteric")=20) in one turn opens a window big enough for a small size entity to enter freely, (or a medium entity to squeeze through). At the end of the turn, the barrier resets. Every time the barrier is damaged, contacted or crossed, the caster is aware of this, as well as the size and type of any entity crossing. Effects caused by area of effect "earth" spells of an equal or lower level that do not require an attack roll are excluded from the spell's area of effect.
 
 In addition, the caster can designate any number of entities as "protected". These can meld through the barrier as a move action. In addition:
 - All "protected" entities in contact with the ground gain +20ft to their movement speed.
@@ -3419,7 +3452,7 @@ In addition, the caster can designate any number of entities as "protected". The
 - If the attack is a rectilinear effect and the barrier crosses its path, the target is affected as if it is inside the barrier.
 - Any entities aligned with "earth" can only enter (or leave) the area if they succeed a CHA save.
 
-**Upcast**: For every extra MP die above 6 placed in the spell, the radius increases by 10ft, or the duration increases by 1h.
+**Upcast**: For every extra MP die above 6 placed in the spell, the radius increases by up to 10ft, or the duration increases by 1h.
 
 **Global**: This is one of the greater barrier spells. Cast globally it extends over a radius of 1200ft, centred on a square/point and lasts for a month. For every 4MP dice above 24, either the duration increases by a week or the radius increases by 300ft.
 
@@ -3463,11 +3496,11 @@ ___
 
 **Description**: The caster calls the spirits of the winds to shroud them in storm. All space within **up to** 60ft of the chosen point is enveloped in violent wind spirits, that bring with them extreme winds.
 
-Ranged weapons attacks against entities inside the spell (including thrown objects and entities) by weapons of size category "medium" and smaller automatically miss. Other ranged weapon attacks attacks are made at disadvantage. Weapon attacks that traverse the area of the spell are affected in the same way. The spell causes all noxious gases and airborne particles to dissipate, nullifying the their effect in the area of the spell.
+Ranged weapons attacks against entities inside the spell (including thrown objects and entities) by weapons of size category "medium" and smaller automatically miss. Other ranged weapon attacks attacks are made at disadvantage. Weapon attacks that traverse the area of the spell are affected in the same way. The spell causes all noxious gases and airborne particles to dissipate, nullifying their effect in the area of the spell.
 
 Furthermore the caster specifies any number of entities as "protected" at the casting of the spell. This determines how other aspects of the spell interact with them.
 - All unprotected targets that try to enter the area of effect of the spell (or are in the area when the spell first activates) must succeed on a STR save or be flung 50ft outwards from the point of contact, and suffer 3d12 sheer damage.
-- All unprotected entities (and structures) in the warded area are at the start of their turn, must succeed on a STR save take 3d12 sheer damage (half on failure).
+- All unprotected entities (and structures) which are in the warded area at the start of their turn must succeed on a STR save take 3d12 sheer damage (half on failure).
 - All unprotected entities treat the area as "[Difficult Terrain](#difficult-terrain)", and flying entities are affected as by [extreme wind](#flying-and-turbulence).
 - All protected entities have resistance to damage from ranged weapons, to pressure damage and lighting damage.
 - Effects caused by area of effect "air"/"wind" spells of an equal or lower level that do not require an attack roll are excluded from the spell's area of effect. 
@@ -3536,9 +3569,9 @@ ___
 **Description**: The caster bestows telepathy upon a target, allowing them to communicate clearly through thought alone with any sentient entity within 120ft. The target can also attempt to read surface thoughts of nearby entities, taking a full round action for one target with a successful observe roll of 20 or above. An entity can identify the effect with a spellcraft roll equal to the caster's threshold, in which case they can chose to block the reading of surface thoughts.
 
 **Special**: 
-- Trying to communicate in this way with entities with an INT score 12 points or more higher than their own triggers an INT save vs the INT based threshold  of the entity. On a failure the one under the effect of "Inner Voice" becomes catatonic for the duration of the spell.
-- Trying to communicate in this way with entities with a CHA score 12 points or more higher than their own triggers a CHA save vs the CHA based threshold of the entity. On a failure the one under the effect of "Inner Voice" becomes "charmed" by the entity for the duration of the spell.
-- All non-divine entities trying to communicate with **Glitches** or **Divines** in this matter are affected by both clauses. 
+- Trying to communicate in this way with entities with an INT score of at least 12 points higher than their own triggers an INT save vs the INT based threshold  of the entity. On a failure the one under the effect of "Inner Voice" becomes catatonic for the duration of the spell.
+- Trying to communicate in this way with entities with a CHA score of at least 12 points higher than their own triggers a CHA save vs the CHA based threshold of the entity. On a failure the one under the effect of "Inner Voice" becomes "charmed" by the entity for the duration of the spell.
+- All non-divine entities trying to communicate with **Glitches** or **Divines** in this matter are affected by both clauses.
 
 **Limitation**: The reading of surface thoughts for an entity takes a full round action. However, surface thoughts can change quickly from moment to moment, so it is be necessary to continuously read during a conversation to get anything other than snippets for most entities.
 
@@ -4100,9 +4133,10 @@ ___
 
 **Upcast**: For every extra MP die above 8 used in casting the spell, the duration increases by 8 hours, or the radius increases by 20ft.
 
-**Global**: This is one of the great barrier spells used by great mages as part of a great defensive weave, be it to keep great calamities sealed through the ages, or protect places and being precious to them.
+**Global**: This is one of the great barrier spells used by great mages as part of a great defensive weave, be it to keep great calamities sealed through the ages, or protect places and beings precious to them.
 
 The spell covers an area of 1200ft and lasts for a year. For every extra 4 MP dice used, the radius increases by 400ft, or the duration increases by a year.
+
 ___
 ### Profane Resurrection
 |Name|Profane Resurrection [Curse, Profane]|
@@ -4882,6 +4916,7 @@ ____
 - Kinetic
     - [Aqueous Step](#aqueous-step)
     - [Bestial Transformation](#bestial-transformation)
+    - [Forbiddance](#forbiddance)
     - [Gift of the Fates](#gift-of-the-fates)
     - [Lesser Incarnation](#lesser-incarnation)
     - [Mirage](#mirage)
@@ -5074,7 +5109,7 @@ ___
  **Limitation**:
  - This spell can never increase the amount of damage a character or object does.
  - While the spell allows a character to ignore reality, it does not allow them to ignore the consequences of ignoring reality. Thus for example, a character might be able to ignore gravity and jump infinitely high for a brief period. It does not, however, mean that the same character will land safely when the spell is over if they jumped too high.
-
+ 
 
  
  ###

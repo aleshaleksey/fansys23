@@ -2,17 +2,23 @@
 
 This system deals heavily with combat and many of the mechanics are tuned to work smoothly in combat.
 
-1. [Prelude](#prelude)
+1. [Prelude: Common Combat Parameters](#prelude-common-combat-parameters)
+    - [Attack Bonuses](#attack-bonuses)
+    - [Save thresholds](#save-thresholds)
+    - [HiT (Hit Threshold)](#hit-hit-threshold)
+    - [Save Bonuses, one for each stat](#save-bonuses-one-for-each-stat)
 2. [Attacks](#attacks)
     - [Targeted attacks](#targeted-attacks)
+    - [Area of effect attacks](#area-of-effect-attacks)
+    - [Attacks of influence](#attacks-of-influence)
     - [Attacks and damage bonuses](#attacks-and-damage-bonuses)
 3. [Damage and Death](#damage-and-death)
     - [Death, dying and the relationship between HP, MP and SP](#death-dying-and-the-relationship-between-hp-mp-and-sp)
       -  [Losing MP, SP and Rebalancing](#losing-mp-sp-and-rebalancing)
     - [Damage resistance](#damage-resistance)
+    - [Damage vulnerability](#damage-vulnerability)
     - [Damage reduction](#damage-reduction)
     - [Damage immunity](#damage-immunity)
-    - [Damage Vulnerability](#damage-vulnerability)
     - [HP damage and conditions](#hp-damage-and-conditions)
     - [Damage and effects over time](#damage-and-effects-over-time)
 4. [Actions in combat](#flow-of-combat)
@@ -60,31 +66,59 @@ This system deals heavily with combat and many of the mechanics are tuned to wor
     - [Actions by action category (what they do)](#actions-by-action-category-what-they-do)
 
 ___
-## Prelude
+## Prelude: Common Combat Parameters
 
-All entities have:
-- HiT (Hit Threshold): Representing how difficult it is to cause it damage with a targeted attack.
-- 6 Saves, one for each stat: Representing how well a target resists targeted effects and area of effect attacks.
-- NAP (Natural Attack Potential): How effectively an entity overcomes defences with Nat targeted attacks and the threshold for its Nat abilities and area of effect attacks. NAP is determined by base and SP dice count, and adds [Dex] or [Str]. See the [NAP/SAP rules](02-base-rules.md#nap-and-sap-nat-and-sat-attack-of-the-three-letter-words-ii), [NAP/SAP table](02-base-rules.md#nap-from-base-and-nat) and [NAT/SUP table](02-base-rules.md#nat-vs-sp-dice-and-sup-vs-mp-dice).
-- SAP (Supernatural Attack Potential): How effectively an entity overcomes defences with Sup targeted attacks and the threshold for its Sup abilities and area of effect attacks. SAP is determined by base and MP dice count and adds [Int] or [Wis]. See the [NAP/SAP rules](02-base-rules.md#nap-and-sap-nat-and-sat-attack-of-the-three-letter-words-ii), [NAP/SAP table](02-base-rules.md#nap-from-base-and-nat) and [NAT/SUP table](02-base-rules.md#nat-vs-sp-dice-and-sup-vs-mp-dice).
+There are parameters that most, or all, beings/entities have, that denote how successfully it attacks and defends against attacks. it should be noted that in each case only one of the sides (attacker or defender) needs to make a roll. The calculations are covered in the base rules.
 
-The calculation of these parameters is covered in the base rules. There are three categories of offensive abilities: "targeted attacks", "abilities" and "manoeuvres".
+#### Attack Bonuses
+An entity has 4 attack bonuses (STR, DEX, INT, WIS) that represent how likely its targeted attacks are to be effective. An entity rolls an attack against a target's HiT (if the attack causes damage), or against one of its 4 save thresholds (for all combat manoeuvres other than the attack manoeuvre).
 
-- "Targeted Attacks": The attacker rolls using NAP or SAP against a target's HiT.
-- "Abilities": The target rolls a save vs attacker's NT (Nat+13) or ST (Sup+13) plus governing stat.
-- "Manoeuvres": The attacker rolls using NAP vs target's NAP+13 plus governing stat.
-
-The effect is resolved immediately for instantaneous attacks, or at the start of the target's turn for effects that persist for a turn or longer.
+The calculations for attack bonuses are found in "[Base Rules: NAP and SAP, NAT and SAT](02-base-rules.md#nap-and-sap-nat-and-sat-attack-of-the-three-letter-words-ii)".
 
 ___
-## Attacks
+#### Save thresholds
+An entity has 4 save thresholds (STR, DEX, INT, WIS) that represent:
+1. How likely it is to successfully defend against non-damaging combat manoeuvres. In this case, the attacker rolls an attack with an attack bonus against the target save threshold.
+2. How successful its area of effect and 'special' attacks are (such as spells). In this case, the target rolls a saving throw with the relevant bonus against the attacker's save threshold.
 
-An attack is any action attempted against an entity that has the potential to reduce its combat potential, be it by direct damage, inducing a condition, or otherwise. For example, slashing an entity with a sword, trying to shove or disarming it, throwing dynamite at a spot where the explosion will catch it, casting a spell that charms, paralyses or blinds it, or dropping a piano on an entity all count as attacks, as do many other actions.
+The calculations for attack thresholds are found in "[Base Rules: NAP and SAP, NAT and SAT](02-base-rules.md#nap-and-sap-nat-and-sat-attack-of-the-three-letter-words-ii)".
+
+___
+#### HiT (Hit Threshold)
+Representing how difficult it is to cause it damage with a targeted attack that causes damage. Attackers roll an attack with an attack bonus against the HiT.
+
+The calculations for attack thresholds are found in "[Base Rules: Hit Threshold (HiT)](02-base-rules.md#hit-threshold-hit)".
+
+___
+#### Save Bonuses, one for each stat
+An entity has 6 saving throws, one for each stat[1]. Representing how well a target resists targeted effects and area of effect attacks. A target rolls a save with a save bonus against an attacker's save threshold.
+
+The calculations for saves are found in "[Base Rules: Saving throws](02-base-rules.md#saving-throws)".
+1. Some entities do not have all 6 stats. In that case they automatically fail saves for the stats that are missing.
+
+___
+### Attacks
+
+An attack is any action attempted against an entity that has the potential to reduce its combat potential, be it by direct damage, inducing a condition, or otherwise. For example, slashing an entity with a sword, trying to shove or disarming it, throwing dynamite at a spot where the explosion will catch it, casting a spell that charms, paralyses or blinds it, or dropping a piano on an entity all count as attacks, as do many other actions. There three common forms of attacks
+
+- Targeted attacks
+- Area of effect attacks
+- Attacks of Influence
 
 ___
 ### Targeted attacks
 
-A targeted attack is an attack made specifically against an entity that involves the attacker making a [NAP] or [SAP] based roll against the target. Attacks that cause the target to make a save are also targeted attacks if they have a target of "1 entity". Usually these do damage, but they can also have other effects, for example the "grapple" manoeuvre.
+A targeted attack is an attack made specifically against an entity and involves the attacker and involves making a [NAP] or [SAP] based attack roll against the target. Usually these do damage, but they can also have other effects, for example the "grapple" manoeuvre. Targeted attacks can target more than one entity (eg "[Broad Strike](06-abilities.md#broad-strike)"), as long as they are specifically attacking those entities and not the general area.
+
+___
+### Area of effect attacks
+Area of effect attacks are made against a given area and generally effect all, or most of the entities and potentially objects within that area. A "[Elemental Cone](06-abilities.md#cone)" or "[Forest of Flame](08-spell-list.md#forest-of-flame)" are examples of area of effect attacks, although an avalanche or a tsunami can also be seen as area of effect attack. Entities caught within an area of effect attack must succeed on a [saving throw](02-base-rules.md#saving-throws) vs the attack's save threshold or suffer the full effects of the attack. Sometimes, upon a successful save it still suffers some of the effects. It is possible for an area of effect attack to only target the square occupied by a single entity.
+
+It should be noted that in real life armour does protect against some of the effects of are of effect attacks (eg shrapnel from a grenade). This aspect of realism is largely eschewed in our simplified system.
+
+___
+### Attacks of influence
+Some attacks, especially supernatural attacks, adversely influence a target, targets, or area. In this case it is treated like an area of effect attack (saving throw vs save threshold). An example would the "[Charm](06-abilities.md#charm-i-iv)" ability, or the "[Winter's Touch](08-spell-list.md#winters-touch)" spell. [Diseases and poisons](14-poisons-and-diseases.md) can also be considered attacks of influence, although on occasion they might be used as area of effect attacks, so it should be noted that there is often a fine line between the two.
 
 ___
 ### Attacks and damage bonuses
@@ -95,6 +129,10 @@ Besides [NAP] and [SAP] an attack is modified by the "governing" stat. A [stat b
 For a [longsword](11-weapons-armour.md#heavy-blades), where STR is the governing stat:
 - Attack bonus = [NAP] + [STR]
 - Damage = 1d8 + [STR]
+
+For an [Elemental Touch: Fire](06-abilities.md#elementalism-elemental-blast), where WIS is the governing stat:
+- Attack bonus = [SAP] + [WIS]
+- Damage = 1d6 + [WIS] (At low levels at least)
 
 There are a number of exceptions however.
 
@@ -118,6 +156,10 @@ Entities that are immune to "dying" fall unconscious instead until, but are stil
 
 Of course most offensive abilities must first "eat" through the SP or MP of a target before working away at the HP. "Natural" attacks will first subtract from SP and only when that reaches 0, or if an attack deals massive damage, will HP damage be sustained. Likewise "supernatural" attacks will first subtract from MP.
 
+Some damage types ignore SP and MP:
+- "[Esoteric damage types](10-conditions-types.md#esoteric-damage)" subtract directly from HP, making these damage types extremely dangerous.
+- "[Light](10-conditions-types.md#light)" and "[Lightning](10-conditions-types.md#electricity-lightning)" will deal 1 point of damage directly to HP for every 2 dice of damage dealt. For example if an attack deals 2d4 or 3d4 of light damage to MP, it will cause 1 point of damage to HP, if it deals 4d4 or 5d4 light damage to MP, it will cause 2 points of damage to HP.
+
 1. Entities that do not have a CON score may use their CHA score instead.
 
 ___
@@ -127,33 +169,35 @@ MP is lost when MP dice are used, or when supernatural attacks damage a characte
 
 Characters can therefore "rebalance" as a main action, converting SP into MP or MP into SP, at the cost of 2 to 1. So 2 MP would become 1 SP, or 2 SP would become 1 MP.
 
-For example, a mage with 39/47 SP and 0/60 MP might wish to cast a MP 1 (or higher) spell, but due to having 0 MP, lack the ability to do so. They might therefore convert 8 SP to MP, and end up with 31/47 SP and 4/60 MP. Enough to get that last spell off. Likewise the same mage, having just faced a few hive beasts [adult hive beast](monsters-npcs/monsters-and-dragons.md#hive-beast) in an ancient ruin, might have ended up with 10/47 SP but 52/60 MP, and may wish to convert 40 MP to SP, and end up with 30/47 SP but only 12/60 MP in the hopes that this will increase their chances of getting back to the surface alive.
+For example, a mage with 39/47 SP and 0/60 MP might wish to cast a MP 1 (or higher) spell, but due to having 0 MP, lack the ability to do so. They might therefore convert 8 SP to MP, and end up with 31/47 SP and 4/60 MP. Enough to get that last spell off. Likewise the same mage, having just faced a few [hive beasts](monsters-npcs/monsters-and-dragons.md#hive-beast) in an ancient ruin, might have ended up with 10/47 SP but 52/60 MP, and may wish to convert 40 MP to SP, and end up with 30/47 SP but only 12/60 MP in the hopes that this will increase their chances of getting back to the surface alive.
 
 ___
 ### Damage resistance
 
 An item or entity with damage resistance to a damage type is not as strongly affected by the given damage type. An item or entity with resistance to a damage type takes half damage from that type of damage. Damage is ALWAYS rounded down when divided by 2.
 
-So if an entity with resistance fire[natural] is hit for 21 points of natural fire damage, it only takes 10.
+So if an entity with resistance fire[natural] is hit for 21 points of natural fire damage, it only takes 10 points of damage.
+
+___
+### Damage vulnerability
+
+An item or entity vulnerable to a damage type takes an extra half of the damage it would normally suffer.
+
+For example, if an entity with vulnerability fire[nature] is hit for 21 points of natural fire damage, it takes 31 points of damage.
 
 ___
 ### Damage reduction
 
-Entities seldom hav damage reduction, so this rule mostly applies for objects and structures.
+Entities seldom have damage reduction, so this rule mostly applies for objects and structures.
 
 An item or material with damage reduction is not affected by weak attacks and ignores the first few points of damage of the type. For example, if you hit a rock with a pick, you will not chip or break it unless you hit it hard enough, and hitting the same rock with a dagger will probably never do anything (compare to hitting a warrior in armour). Damage reduction is never used for entities.
 
-So if an entity with damage reduction=10 physical is hit for 9 points of physical damage, it takes no damage, but if it is hit for 17 points of physical damage it takes 7.
+So if a [barrier](08-spell-list.md#earth-ward) with damage reduction=10 physical is hit for 9 points of physical damage, it takes no damage, but if it is hit for 17 points of physical damage it takes 7.
 
 ___
 ### Damage immunity
 
 An item or entity with immunity to a damage type does not take damage from that damage type. For example, a fire elemental might never take damage from fire[natural].
-
-___
-### Damage Vulnerability
-
-An item or entity vulnerable to a damage type takes an extra half of the damage it would normally suffer.
 
 ___
 ### Damage to objects
@@ -165,9 +209,9 @@ ___
 
 When an entity loses HP due to damage, it risks acquiring a condition (see ["Conditions by Damage Type"](10-conditions-types.md#conditions-by-damage-type) table). 
 
-If the damage is due to a targeted attack, for every "12" on the attack roll, it gains one associated condition (likewise see extra conditions by weapon).
+If there is HP damage caused by a targeted attack (before taking the first 12 on the 2d12 into account), for every "12" on the attack roll, it gains one associated condition (likewise see extra conditions by weapon).
 
-If the damage is due to an effect that allows a save, it instead gains one associated condition for every "1" it rolls on the save.
+If the damage is due to an effect that allows a save (before taking the first 1 on the 2d12 into account), it instead gains one associated condition for every "1" it rolls on the save.
 
 If the damage is from a source that has neither attack roll or save, it automatically gains the condition.
 

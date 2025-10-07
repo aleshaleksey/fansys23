@@ -5,7 +5,7 @@
 3. [Rolling Dice](#rolling-dice)
     -  [Rounding up and down](#rounding-up-and-down)
     -  [Core Rolls](#core-rolls)
-    -  [Version I: 2d12](#version-i-2d12)
+    -  [The 2d12 roll](#the-2d12-roll)
     -  [Taking 24, taking 13, auto-failure and voluntary failure](#taking-24-taking-13-auto-failure-and-voluntary-failure)
     -  [Opposing Rolls vs Thresholds](#opposing-rolls-vs-thresholds)
     -  [Precedence of Rolls: Thresholds (DC), and opposing rolls](#precedence-of-rolls-thresholds-dc-and-opposing-rolls)
@@ -83,7 +83,7 @@ There are three (and a half) types of base roll.
 - An targeted attack.
 
 ___
-#### Version I: 2d12
+#### The 2d12 roll
 The core dice for ability checks/tests, saves and attacks is 2d12. You roll a 2d12 and add a static modifier. If the result equals or exceeds a target value, you succeed. Otherwise you fail.
 - **General Special**: Also, for every 12 you roll, add +2 to the result. For every 1, subtract 2 from the result.
 - **Saves and Attacks**: Also, snake eyes (1,1) always fails (also known as a "critical fail"). D12 (12,12) always succeeds (also known as a "critical success"). For every 1 rolled on a save, if failure results in damage, the target takes an additional 1 point of damage directly to HP (no risk of gaining conditions).
@@ -500,7 +500,7 @@ A save can either be "good" or "bad" for a character. The calculation for the sa
 A character starts with one good save at level 1, and can gain more good saves with the "[Extra Save](06-abilities.md#extra-save)" ability.
 
 ___
-### Hit Threshold (HiT)
+### HiT Threshold (HiT)
 
 A character has an armour class/hit threshold, this is a measure of how difficult its physical (or spiritual) form is to damage using targeted attacks. It can represent any combination of armour and evasive ability and is something of an abstraction of how hard a character is to damage with a targeted attack: A targeted attack either penetrates defences, with the potential of doing damage, (hit) or it does not (miss). This is an abstraction with the following components:
 

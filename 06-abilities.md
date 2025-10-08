@@ -876,30 +876,36 @@ ___
 - If a beast has a higher level than your "Bind Beast" limit, you cannot bind it.
 - If you do something, or order the beast to do something that would normally make it a "nemesis" (see "[Skills: Persuade](05-skills.md#persuade)"), it gets a Cha save vs your [Sup + [Cha]] at advantage to break the binding.
 - You can never have more than one bound beast at a time.
-- You must sacrifice 1HP of your own per 2 levels of "bind beast" to the beast every day to keep it bound (min 1). Sacrificing another's HP transfers the beast to their control for the day: Every day this is done the beast gets a Cha save vs the temporary master's [Sup + [Cha]] to break free.
+- You must sacrifice 1HP of your own to the beast every day to keep it bound. Sacrificing another character's HP transfers the beast to their control for the day: Every day this is done the beast gets a Cha save vs the temporary master's [Sup + [Cha]] to break free.
 
 **Rules**:
 - If the beast's attack, damage dice, HP, SP or MP are greater than the values displayed on the table, they are reduced to that value.
-- If the beast's attack, damage dice, HP, SP or MP are lower than 3/4 of the values displayed on the table, they are increased to 3/4 of the value.
+- If the beast's attack, damage dice, HP, SP or MP are lower than the values displayed on the table, they are increased to the value.
 - If its movement modalities are too high, it looses them until your "Bind Beast" level reaches a point where it is high enough. If the beast does not have these modalities, it does NOT gain them.
 - The beast retains its HiT and uses your base save bonuses.
 - The beast loses all abilities that exceed the max permitted class.
 - The beast may serve as a mount if it can carry you.
+- If the beast is of a *lower* level than the bind beast ability level, it can be levelled up to the bind beast level. This is done as follows:
+  1. Assign 2 SP and 1 MP dice per level gained. Do not change HP, MP, SP, as this is determined by the table below.
+  2. Pick 2 natural boons or abilities from this chapter for which the beast meets the prerequisites.
+  - Alternatively, if the beast has a stat block for more than one level, upgrade the beast to the highest available stat block (eg [velociraptors](monsters-npcs/beasts-and-plants.md#raptor-levels-2-4) have a stat block for levels 2 and 4).
 
 **Prerequisite**: You must have at least one level of "global" or "incantation" or "nature" magic to gain this ability.
 
-|Ability Level|Min Level|Dmg. dice|Attack bonus|HP|SP|MP|Permitted class|Modalities|
-|-------------|---------|---------|------------|--|--|--|---------------|----------|
+|Ability Level|Min Level|Dmg. dice|Attack bonus|HP|SP|MP|Permitted class|Modalities[1]|
+|-------------|---------|---------|------------|--|--|--|---------------|-------------|
 |I            |1        |1d4      |+4          |3 |8 |4 |C              |walk,climb,swim|
-|II           |3        |1d4      |+5          |4 |16|8 |C              |walk,climb,swim|
-|III          |5        |1d6      |+6          |5 |24|12|B              |walk,climb,swim,dig|
-|IV           |7        |1d8      |+7          |6 |32|16|B              |walk,climb,swim,dig|
+|II           |3        |1d4      |+5          |4 |16|8 |C              |walk,climb,swim,dig|
+|III          |5        |1d6      |+6          |5 |24|12|B              |walk,climb,swim,dig,fly|
+|IV           |7        |1d8      |+7          |6 |32|16|B              |walk,climb,swim,dig,fly|
 |V            |9        |1d10     |+8          |7 |40|20|B              |walk,climb,swim,dig,fly|
-|VI           |11       |1d12     |+9          |8 |48|24|B              |walk,climb,swim,dig,fly|
+|VI           |11       |1d12     |+9          |8 |48|24|B              |walk,climb,swim,dig,fly,blink|
 |VII          |13       |2d6      |+10         |9 |56|28|A              |walk,climb,swim,dig,fly,blink|
 |VIII         |15       |2d8      |+11         |10|64|32|A              |walk,climb,swim,dig,fly,blink|
 |IX           |17       |2d10     |+12         |11|72|36|A              |all|
 |X            |19       |2d12     |+13         |12|80|40|S              |all|
+
+1. A beast may use dig and fly modalities even at Bind Beast I and II, if its size category is no larger than small, and also no larger than the character that bound it.
 
 ___
 #### Bind Familiar I-IV

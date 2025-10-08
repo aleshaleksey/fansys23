@@ -491,6 +491,7 @@ ___
   - Added "[usual](10-conditions-types.md#condition-table)" duration for conditions.
 - CHANGE [FULL CONCEALMENT](04-combat.md#cover-and-concealment): Now for melee/close, it only gives a 4/6 miss chance.
 - Remove references to "super advantage/disadvantage" and 4D12dl2/4D12dh2 rolls.
+- Improve descriptions in [Chapter 4: Combat](04-combat.md).
 
 ### Abilities
 - Fix [deflect missiles](06-abilities.md#deflect-missile):
@@ -498,6 +499,7 @@ ___
   - It does not require use of SP dice.
 - Change around the requirements for [assassinate](06-abilities.md#assassinate-i-v) II and III.
 - Add [Foreign Forms](06-abilities.md#foreign-forms) for elementalism, as a test rule.
+- Tweak [Bind Beast](06-abilities.md#bind-beast-i-x), to make it more workable (allow levelling up of beasts, always has the HP, etc in the table, allow smaller beasts to fly and dig even at low levels).
 
 ### Monsters and NPCs
 - Reduce the STR of some [golems](monsters-npcs/constructs.md) a little bit.

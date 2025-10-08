@@ -42,6 +42,8 @@ This system deals heavily with combat and many of the mechanics are tuned to wor
     - [Squeezing](#squeezing)
     - [Flanking](#flanking)
     - [Cover and Concealment](#cover-and-concealment)
+      - [Cover](#cover)
+      - [Concealment](#concealment)
       - [Intervening Targets](#intervening-targets)
     - [Reactions and Causality](#reactions-and-causality)
     - [Attacks of Opportunity](#attacks-of-opportunity)
@@ -237,11 +239,11 @@ ___
 ___
 ### Flow of Combat
 
-Combat is chaotic and combatants do what they can when they can. However this is not tenable when we come to play games like this one as it usually devolves into a shouting match. As such we use a turn-based combat system and during combat we enter something called "combat-time" where all actions take place in orderly turns.
+Combat is chaotic and combatants do what they can when they can. However this is not a tenable approach for games like this one, as it usually devolves into some form of chaos. As such we use a turn-based combat system and during combat we enter something called "combat-time" where all actions take place in orderly turns.
 
 All characters take their turn one at a time. This is is a poor reflection of reality, but helps keep the game flowing smoothly. We can interpret this abstraction in several ways, but generally a good way of doing so is to imagine that all actions take place at the same time, but some characters start moving a split second before others.
 
-Combat-time starts as soon as one or both sides are capable and willing of fighting. It ends when there is only one side remaining that is capable and willing.
+Combat-time starts as soon as one or both sides are capable of fighting and willing. It ends when there is at most one side remaining that is capable and willing.
 - At the start of combat all parties make an initiative roll [(see "initiative")](02-base-rules.md#initiative). Entities act in order of initiative (highest to lowest).
 - Combat takes place in "rounds" (~6s) and "turns". Once each combatant has had a "turn", top initiative to bottom, a "round" passes.
 - Any entities that are not aware of of the other side at the start of combat, or are not aware that combat has started, are "surprised" for the duration of the first round.
@@ -282,7 +284,7 @@ ___
 The actions an entity may take might also be restricted by its conditions and general limitations. For example, if you have two hands and both are holding swords, you cannot pick up another item with your hand. The following actions exist in combat.
 
 - "**Move**": Move from A to B via a route that its modality of movement permits up to its stated movement speed.
-  - A mounted character using their "move" action, but their mount's movement speed and movement modalities.
+  - A mounted character uses their own "move" action, but their mount's movement speed and movement modalities.
   - Movement distance in combat is summarised in the "[Movement summary](#movement-summary)" section.
 
 - "**Main Action**": This is some generalised activity that takes no longer than 6 seconds and does not interfere with general "movement". Actions include:
@@ -304,7 +306,7 @@ The actions an entity may take might also be restricted by its conditions and ge
   - Picking up, or setting down an item in reach that is not in a container.
 
 
-- "**Minor interaction**": The minor interaction exists to allow characters to perform an action which is usually time consuming and substantial on its own, but will only add a small overhead as part of a different action. For example, unsheathing a sword is generally a secondary action in and of itself, but it is a minor interaction as part of a strike. If an "action" involves using an object, you may carry out an activity associated with that item that involves the part of your form that is interacting it. The creature can also drop ONE item IN ADDITION to this. This need not be the same item. Otherwise minor interactions include:
+- "**Minor interaction**": The minor interaction exists to allow characters to perform an action which is usually time consuming and substantial on its own, but will only add a small overhead as part of a different action. For example, unsheathing a sword is generally a secondary action in and of itself, but it is a minor interaction as part of a strike. If an "action" involves using an object, you may carry out an activity associated with that item that involves the part of your form that is interacting with it. The creature can also drop ONE item IN ADDITION to this. This need not be the same item. Otherwise minor interactions include:
   - Drawing/picking up a sword you are about to attack with.
   - Uncorking a vial before administering the content.
 
@@ -312,8 +314,8 @@ The actions an entity may take might also be restricted by its conditions and ge
 - "**Reaction/Immediate action**": An action that can be taken at any time as long as some trigger condition is fulfilled (usually this requires the entity to be aware that the trigger happens). These actions are generally very quick and can be executed almost reflexively. Eg:
   - Attacking once with a melee weapon or using certain abilities when a creature in range drops their guard (Attack of Opportunity).
   - Cast certain spells or use certain abilities (counter-spelling, parrying, some defensive spells).
-  - Dropping to the ground (eg in reaction to the casting of a powerful spell).
-  - Dropping an item.
+  - Dropping to the ground outside of your turn (eg in reaction to the casting of a powerful spell).
+  - Dropping an item outside of your turn.
 
 
 - "**Full round actions**": Certain activities involve using the whole of your turn and cannot fit into an action. They are resolved at the start of the next turn (or a subsequent turn) when they are completed. These include:
@@ -335,7 +337,7 @@ ___
 |Run|2x speed|"move action" + "main action"|3x with "sprinter" ability|[CON] hours|
 |Sprint|4x speed|"sprint action" (1)|5x with "sprinter" ability|[STR] rounds|
 
-1. A character that sprints must move in a straight line with no obstacles and can take no other action on its round.
+1. A character that sprints must move in a straight line with no obstacles and can take no other action on its turn.
 
 For more information on movement, see "[Movement and Exploration](03-movement-exploration.md)". In addition, there are more movement rules below.
 
@@ -364,12 +366,12 @@ As mentioned above, any combatants who are not aware of the other side, or that 
 ___
 ### Intentionally Hidden Enemies
 
-Either all entities on one side make a "stealth" roll (spontaneously hiding), or a "fortification" roll from the group is used (ambush from a pre-prepared position). If this meets or exceeds the ["Observe" + 13] threshold of entities on the other side, they are surprised.
+This applies if one group takes active measures to hide from others. Generally all entities on one side make a "[stealth](05-skills.md#stealth)" roll to represent all members of the ambush quickly getting out sight. An alternative is for a single entity in the group to make a "[fortify](05-skills.md#fortify)" roll for the group, which represents the preparation of a hidden, pre-prepared position for an ambush. The former usually takes one "main action", while the latter can take minutes or even hours. If this meets or exceeds the ["Observe" + 13] threshold of entities on the other side, they are surprised.
 
 ___
 ### Unintentionally Hidden Enemies
 
-Sometimes some combatants are hidden by virtue of coincidence (eg round a corner, or bending over behind a crate, tying their shoelaces) when combat starts. If they are aware of the other side, they are treated as ambushers in the "Intentionally Hidden Enemies" section.
+Sometimes some combatants are hidden by virtue of coincidence when combat starts. For example being round a corner, or bending over behind a crate, tying their shoelaces. If such a combatant is aware of the other side, they are treated as ambushers in the "Intentionally Hidden Enemies" section.
 
 ___
 ### Enemies Hiding their Intent
@@ -384,7 +386,7 @@ If both parties are unaware of each other (eg bandits meet guards round the corn
 ___
 ## Space in combat
 
-Combat can take place purely in imaginary space (ie. theatre of the mind), on paper, crafted terrain, ora virtual desktop. In either case most combatants take up space and move through space. Many manoeuvres, spells and other abilities deal with manipulating friend and foe in this space. The game can be played completely ignoring space, but it does change the balance quite severely. On the other hand, there are times when an exact map is not needed. For example, combat is taking place in a small room where all targets are within hand's reach. Alternatively if there is a chase or shoot-out with 600ft of space between combatants, mapping can be equally impractical.
+Combat can take place purely in imaginary space (ie. theatre of the mind), on paper, crafted terrain, or a virtual desktop. In either case most combatants take up space and move through space. Many manoeuvres, spells and other abilities deal with manipulating friend and foe in this space. The game can be played completely ignoring space, but it does change the balance quite severely. On the other hand, there are times when an exact map is not needed. For example, combat is taking place in a small room where all targets are within hand's reach. Alternatively if there is a chase or shoot-out with 600ft of space between combatants, mapping can be equally impractical.
 
 ___
 ### Squares and Hexes
@@ -398,9 +400,9 @@ Attacks have a range and reach. Range and reach is measured in 5ft increments fo
 
 Melee attacks and manoeuvres have a reach between 0ft-30ft. Ranged attacks have a range of up to a few miles (but usually 60-600ft). The range of a melee attack or ability is called its "reach".
 
-The normal reach for medium sized creatures is 5ft (aka into the adjacent square or one square). Sometimes a reach can be described as "long". This means that an entity may use a "secondary action", to extend a single targeted attack by 5ft. A reach of 10ft will reach two squares, a reach of 15ft will reach 3 squares and so on. If a creature with a reach of "long" uses a weapon with a range of "long", the long descriptors cancel out, and the range is increased by 5ft.
+The normal reach for medium sized creatures is 5ft (aka into the adjacent square or one square). Sometimes a reach can be described as "long". This means that an entity may use a "secondary action", to extend a single targeted attack by 5ft. A reach of 10ft will reach two squares, a reach of 15ft will reach 3 squares and so on. If a creature with a reach of "long" uses a weapon with a range of "long", the long descriptors stack, and the reach is increased by 5ft. Thus a large creature wielding a longsword is considered to have a reach of 10ft when attacking with said longsword (for the reach of entities of different sizes, see "[Base Rules: Size rules table](02-base-rules.md#size-rules-table)").
 
-Ranged weapons fired while you are in melee are made at disadvantage (See "[Ranged Weapons, collateral and melee](11-weapons-armour.md#ranged-weapons-collateral-and-melee)").
+Ranged weapons fired by combatants in melee are generally made at disadvantage (See "[Ranged Weapons, collateral and melee](11-weapons-armour.md#ranged-weapons-collateral-and-melee)").
 
 ___
 ### Threatened area
@@ -417,29 +419,36 @@ Likewise entities that are separated by at least two categories (eg Diminutive a
 ___
 ### Squeezing
 
-An entity can move through spaces less than its size. In general this is up to half the space it occupies, rounded down, so 2ft for a medium sized entity and 5ft for a large entity. However, in this case it loses any DEX and SHIElD bonus to armour and has disadvantage to DEX and STR saves. Movement through smaller spaces may be possible with an acrobatics roll, but the gap should never be lower than what is physically possible. For example, a human cannot fit through a gap smaller than the diameter of its head, or the width of its hips (approximately 1ft x 1ft for an adult human).
+An entity can move through spaces less than its size. In general this is up to half the space it occupies, rounded down, so 2ft for a medium sized entity and 5ft for a large entity. However, in this case it loses any DEX and SHIElD bonus to armour and has disadvantage to DEX and STR saves. Movement through smaller spaces may be possible with an acrobatics roll, but the gap should never be lower than what is physically possible. For example, a human cannot fit through a gap smaller than the diameter of its head, or the width of its hips (approximately 1ft x 2ft for an adult human).
 
 ___
 ### Flanking
 
-Conceptually speaking, when a target entity has to split its attention in combat in a way that it can no longer adequately defend itself from attacks from different sides it is considered flanked. When an entity is flanked all basic combat manoeuvres and close range spells against it gain a +2 on their attack roll.
+Conceptually speaking, when a target entity has to split its attention in combat in a way that it can no longer adequately defend itself from attacks from different sides it is considered flanked. When an entity is flanked, all basic combat manoeuvres and close range spells, or abilities, against it gain a +2 on their attack roll.
 
-To simplify, a target entity is flanked if it has combatants that are hostile to it on opposite sides of it. Formally speaking, both of the following conditions are met:
+To simplify, a target entity is flanked if it has combatants that are hostile to it on opposite sides of it (neither of flanking combatants are [disabled](10-conditions-types.md#conditions-and-states)). Formally speaking, both of the following conditions are met:
 
 1. The target entity is in the threatened area of two or more combatants that are hostile to it.
-2. A pair of intersection line can be drawn from opposite sides of squares occupied by one hostile entity to another that both lines of the pair intersect the squares occupied by the target entity.
+2. The line connecting the centers of each of the two hostile combatants' squares intersect the target's square. Importantly, the line is not considered intersecting if it is merely touching a corner or side of the target's square.
 
 ___
 ### Cover and Concealment
 
-Cover and concealment come in three flavours "light" (1/2), "heavy" (3/4) and "full",
+Cover and concealment come in three flavours "light" (1/2), "heavy" (3/4) and "full". Typically terrain, trees, buildings, and objects provide cover, while foliage, fog, clouds, rain and darkness provide concealment. Other entities act as concealment and intervening targets (if they're unlucky).
 
-**Cover** is when something blocks line of effect between attacker and target. Light cover (as a rule covers no more than half of the entity's body area) provides a -2 penalty to targeted attacks vs a target. Heavy cover (as a rule covers 1/2 to 3/4 of a target's area) provides a -5 penalty to targeted attacks and advantage to Dex saves. A target in full cover cannot be targeted with a targeted attack. Examples of things that can provide cover and concealment includes terrain features, buildings, items, and creatures.
+___
+#### Cover
+Cover is when something blocks line of effect between attacker and target. Light cover (as a rule covers no more than half of the entity's body area) provides a -2 penalty to targeted attacks vs a target. Heavy cover (as a rule covers 1/2 to 3/4 of a target's area) provides a -5 penalty to targeted attacks and advantage to Dex saves. A target in full cover cannot be targeted with a targeted attack. If an effect is not stated to explicitly spread around obstacles/corners, full cover automatically blocks it. If the effect does spread around corners and obstacles, the target is affected but has advantage on the save.
 
-**Concealment** is when something blocks line of sight between two entities. It can also be something that blocks a different sense, if that is the main sense used by the entity. An entity can attempt to hide ("stealth" skill) if it has heavy concealment or full concealment. In addition light concealment provides a 1/6 miss chance (use a d6). Heavy concealment provides a 2/6 miss chance. Full concealment provides a 4/6 miss chance for close (melee) attacks, and a 5/6 miss chance for ranged attacks. The miss chance is rolled before or after the attack roll, but obviously before damage.
+___
+#### Concealment
+Concealment is when something blocks line of sight between two entities. It can also be something that blocks a different sense, if that is the main sense used by the entity. An entity can attempt to hide ("stealth" skill) if it has heavy concealment or full concealment. In addition light concealment provides a 1/6 miss chance (use a d6). Heavy concealment provides a 2/6 miss chance. Full concealment provides a 4/6 miss chance for close (melee) attacks, and a 5/6 miss chance for ranged attacks. The miss chance is rolled before or after the attack roll, but obviously before damage.
 
+___
 #### Intervening targets
-An entity that is on the line of attack (the intervening target's hex/square is intersected by the line from the center of your square to the center of your target's square) between a character and their target acts as concealment. If they're in the same size category or smaller the intervening entity acts as light concealment, otherwise it acts as heavy concealment.
+An entity that is on the line of attack between a character and their target acts as concealment and risks becoming an intervening target for ranged attacks.
+
+An entity is on the line of attack and becomes an intervening target if its hex/square is intersected by the line from the center of the attacker's square to the center of the intended target's square. If the intended target in the same size category as, or larger than, the intervening entity, it gains heavy concealment, otherwise it gains light concealment.
 
 For the sake of targeted attacks, this acts like ordinary concealment, with one exception: if the roll of the D6 (1 for light cover, 1-2 for heavy cover) results in a miss, the attack instead targets the intervening entity. If there are several intervening targets, roll the concealment separately for each one until you either run out of intervening targets, or hit one of them.
 
@@ -450,18 +459,18 @@ The golden rule for reactions, is that "causality must be preserved".
 
 Unless otherwise stated, a "reaction" must be declared before the provoking action has resolved (narratively a reaction is initiated when the provoking action is still ongoing and has only just started). Thus a combatant does not declare their intent to parry after seeing the enemy's blade pierce their gut. Likewise, one cannot declare "counter-spell" after learning that the target has failed its save. Reactions which are triggered by specific events such as "taking damage" obviously cannot be declared until the provoking event has happened (in this case the damage has been taken).
 
-Likewise, the provoking action resolves before any reactions to it, although there are a few of exceptions to this rule. Firstly, attacks of opportunity can resolve before, or after, the triggering action is completed (See "[Causality and attacks of opportunity](#causality-and-attacks-of-opportunity)"). Secondly, the "[Swift Strike](06-abilities.md#swift-strike)" guarantees that attacks of opportunity always resolve before the action that triggers them. Lastly, when "[counter-spelling](07-magic-and-spellcasting.md#banishing-breaking-counter-spelling-and-dispelling)" the spell is countered after the casting has begun and the MP dice cost has been paid, but before it has a chance to manifest and have an effect.
+Likewise, the provoking action generally resolves before any reactions to it. That said, there are a few exceptions to this rule. Firstly, attacks of opportunity can resolve before, or after, the triggering action is completed (See "[Causality and attacks of opportunity](#causality-and-attacks-of-opportunity)"). Secondly, "[Swift Strike](06-abilities.md#swift-strike)" allows attacks of opportunity to resolve before the action that triggers them. Lastly, when "[counter-spelling](07-magic-and-spellcasting.md#banishing-breaking-counter-spelling-and-dispelling)" the spell is countered after the casting has begun and the MP dice cost has been paid, but before it has a chance to manifest and have an effect.
 
 Lastly, we come back to the golden rule for reactions: "causality must be preserved". Thus if two actions take a similar amount of time to complete, the action that is started first, resolves first. Thus, a reaction, which starts *after* the action that triggers it (by definition!), also tends to be completed second.
 
 That said, some actions are faster than others and will resolve faster. For example if the provoking action is a "full round action", "sprint", or takes the whole of a turn or more to complete, the reaction will resolve first (if the reaction is to *begin* an activity that takes at least as long as the provoking action, then the activity begins immediately, but resolves after the action that provokes it).
 
-In some cases (usually with attacks of opportunity) reactions resolving after the triggering action would break causality. For example an AoO that is triggered by a target moving out of a threatened square resolves before the first 5ft of movement is complete. This is explained by melee attacks generally being very fast, but usually needing an opening, which requires a little bit of manoeuvring to set up, which is what takes most of the time. However, when the target turns to move, it provides that opening, allowing for an immediate attack to be made.
+In some cases (usually with attacks of opportunity) reactions resolving after the triggering action would break causality. For example an attack of opportunity that is triggered by a target moving out of a threatened square resolves before the first 5ft of movement is complete. This is explained by melee attacks generally being very fast, but usually needing an opening, which requires a little bit of manoeuvring to set up, which is what takes most of the time. However, when the target turns to move, it provides that opening, allowing for an immediate attack to be made.
 
 ___
 ### Attacks of Opportunity
 
-An attack of opportunity is when a combatant exploits an opening left by another, and carries out a "basic martial manoeuvre" against its target. An attack of opportunity uses a character's reaction to make a single melee weapon attack or other basic combat manoeuvre, but not ranged weapon attack, spell, or other ability.
+An attack of opportunity is when a combatant exploits an opening left by another, and carries out a "[basic martial manoeuvre](#basic-martial-manoeuvres)" against its target. An attack of opportunity uses a character's reaction to make a single melee weapon attack or other basic combat manoeuvre. In general a character cannot apply an ability or spell instead of a basic combat manoeuvre, unless it is explicitly stated that the spell/ability is to be used with a "basic martial manoeuvre", eg one can use "[Elemental Strike](06-abilities.md#elemental-strike) when applying the "attack" manoeuvre as one's attack of opportunity.
 
 #### Provoking attacks of opportunity
 
@@ -469,7 +478,7 @@ Targets moving out of a threatened square, or undertaking certain other actions 
 
 ___
 #### Avoiding attacks of opportunity
-A target moving out of one threatened square into another threatened square may avoid AoOs by declaring "careful movement" and halving their movement speed for the rest of the turn. Likewise a combatant may make a roll ["acrobatic"](05-skills.md#acrobatics) to try and avoid attacks of opportunity when moving through a contiguous set of threatened squares (threshold = [attack bonus of hostile] + 13), on a failure by 5 or more, the one making the acrobatics roll falls prone.
+A target moving out of one threatened square into another threatened square may avoid AoOs by declaring "careful movement" and halving their movement speed for the rest of the turn. Likewise a combatant may roll ["acrobatic"](05-skills.md#acrobatics) to try and avoid attacks of opportunity when moving through a contiguous set of threatened squares (threshold = [attack bonus of hostile] + 13), on a failure by 5 or more, the one making the acrobatics roll falls prone.
 
 A character can avoid attacks of opportunity when moving out of a threatened square (into a square that is not threatened) by using their "main action" to withdraw. As in the previous case, an "acrobatics" roll can be used to ameliorate the situation. In this case a successful roll vs [attack bonus of hostile] + 13 allows one to withdraw as a bonus action, as usual, on a failure by 5 or more, the one making the acrobatics roll falls prone.
 
@@ -545,7 +554,7 @@ This is a collection of unsorted rules related to basic physical combat.
 - Supernatural attacks are generally lethal, unless otherwise stated for the specific attack. Optionally, a group may rule that it may be made non-lethal with a [spellworking](05-skills.md#spellworking) roll (Threshold = **20 + [MP dice used]**).
 
 #### Basic Martial Manoeuvres
-Any adventurer may attempt a martial manoeuvre. If a combatant is not proficient in a given manoeuvre, they take a -5 penalty to the attack roll. They might also risk attacks of opportunity and other penalties. All combatants are considered proficient in the "attack" manoeuvre (but not necessarily with the weapons used to make an attack). Many monsters can carry out these manoeuvres without penalties or meeting the prerequisites. Special abilities and weapons/tools can reduce or remove penalties for manoeuvres or increase their effectiveness. Most manoeuvres are made as an attack within the attack action.
+Any combatant may attempt a martial manoeuvre. If a combatant is not proficient in a given manoeuvre, they take a -5 penalty to the attack roll. They might also risk attacks of opportunity and other penalties. All combatants are considered proficient in the "attack" manoeuvre (but not necessarily with the weapons used to make an attack). Many monsters can carry out these manoeuvres without penalties or meeting the prerequisites. Special abilities and weapons/tools can reduce or remove penalties for manoeuvres or increase their effectiveness. Most manoeuvres are made as an attack within the attack action.
 
 - The penalty for using a manoeuvre or attack without proficiency, if there is one, is -5 to the roll.
 - **Size dependent**: For some manoeuvres, if the target is larger than the attacker, there is a -2 penalty for every size category by which they differ. If the attacker is more than 2 size categories larger than the attacker, the manoeuvre cannot be applied. Lastly, for these manoeuvres, the attacker gains a +4 bonus for every size category by which it is larger than the target.

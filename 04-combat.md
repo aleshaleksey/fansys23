@@ -568,14 +568,14 @@ Any combatant may attempt a martial manoeuvre. If a combatant is not proficient 
   - Special: Attacking with a weapon you are not proficient with provokes an attack of opportunity as you leave more openings than a proficient combatant.
 - **Grapple**:
   - Effect: The target gains the "[grappled](10-conditions-types.md#conditions-in-detail)" condition: It's move speed is zero.
-  - Requires attack roll vs target's NAT+[STR or DEX].
+  - Requires attack roll vs target's STR or DEX threshold.
   - Penalty if not proficient with **grapples**.
   - Attack of opportunity on failure.
   - Size dependent.
 - **Restrain**: This is the use of grapple on a prone or grappled target.
   - Effect: The target gains the "[restrained or aphonic](10-conditions-types.md#conditions-in-detail)" conditions.
   - Prerequisite: Foe must be prone or grappled.
-  - Requires attack roll vs target's NAT+[STR or DEX].
+  - Requires attack roll vs target's STR or DEX threshold.
   - Penalty if not proficient with **grapples**.
   - Size dependent.
   - The one executing this manoeuvre declares one of the desired outcomes:
@@ -583,7 +583,7 @@ Any combatant may attempt a martial manoeuvre. If a combatant is not proficient 
    - "Restrain": Prevent a foe from casting spells with kinetic components and give penalties to weapon attacks.
 - **Shove**:
   - Effect: Moves a foe away from you by up to 10ft.
-  - Requires attack roll vs target's NAT+[STR or DEX].
+  - Requires attack roll vs target's STR or DEX threshold.
   - Penalty if not proficient with **throws**.
   - Size dependent.
   - Special: For every size category that you are larger than your target, increase the maximum distance by 5ft.
@@ -591,19 +591,19 @@ Any combatant may attempt a martial manoeuvre. If a combatant is not proficient 
   - Size dependent.
 - **Trip**: This is also a different flavour of "shove" and uses the same proficiency.
   - Effect: Knock a foe prone.
-  - Requires attack roll vs target's NAT+[Dex].
+  - Requires attack roll vs target's STR or DEX threshold.
   - Penalty if not proficient with **throws**.
   - Size dependent.
   - On failure provokes attack of Opportunity if the foe is holding a weapon you are not proficient with AND you are not proficient with **throws**.
 - **Disarm**:
   - Effect: Liberate a foe of a weapon or item held.
-  - Requires attack roll vs target's NAT+[STR or DEX].
+  - Requires attack roll vs target's STR or DEX threshold.
   - Penalty if not proficient with **disarm**.
   - Provokes a penalty and attack of Opportunity if the foe is holding a weapon you are not proficient with AND you are not proficient with **disarm**.
   - If the weapon is light, the target has a -2 on the roll. If it is heavy, it has +2 on the roll.
 - **Feint**:
   - Effect: Give advantage to next attack against a target (you do not have to be the one to make the next attack).
-  - Requires attack roll (Cha based [Nat] roll) vs target's NAT + [STR or DEX].
+  - Requires attack roll (attack roll governed by INT) vs target's STR or DEX threshold.
 - **Interception**:
   - Effect: Redirect a target's attacks against you, or redirect attacks against a target at you.
   - Requires attack roll.
@@ -614,7 +614,7 @@ Any combatant may attempt a martial manoeuvre. If a combatant is not proficient 
     - On success, the item takes 1 point of damage for every dice of damage that the weapon normally deals, if the materials are of "equal" quality.
     - If the weapon used in the attack is made of "higher" materials, the amount of damage is 2 per damage dice of the attacking weapon.
     - If the weapon used in the attack is made of a "lower" material, the total amount of damage is reduced by 1, and conversely the weapon making the attack takes 1 point of damage.
-  - Requires attack roll vs target's NAT+[STR or DEX].
+  - Requires attack roll vs target's STR or DEX threshold.
   - Penalty if not proficient with **sunder**.
   - Provokes a penalty and attack of Opportunity if the foe is holding a weapon you are not proficient with AND you are not proficient with **sunder**.
 
@@ -630,39 +630,26 @@ ___
 ___
 ### Spells
 
-Spells are a subset of supernatural powers that mortals have learned to channel by following certain procedures. Entities that cast spells are referred to here as "**casters**". Spells can be either "**local**" or "**global**". "Global" spells can be useful, and indeed devastating in combat, but most combat spells are "local". "Local" spells have the following properties:
+Spellcasting is covered in detail in "[Chapter 7: Spells](07-magic-and-spellcasting.md)". Spells are a subset of supernatural powers that mortals have learned to channel by following certain procedures. Entities that cast spells are referred to here as "**casters**". Spells can be either "**local**" or "**global**". "Global" spells can be useful, and indeed devastating in combat, but most combat spells are "local". "Local" spells have the following properties:
 
 - They generally take between a couple of seconds to a dozen minutes to cast ("minor action" to "10 minutes"), but generally take a "main action".
 - Their effect is either immediate, or lasts no longer than a few days.
 - Their effect has a range of no more than a mile of a caster.
 - Their effect has a radius of no more than a mile (eg. search spells) or 108ft (eg. explosion magic).
-- They take 1-9 MP dice to cast.
+- They typically take 1-10 MP dice to cast.
 
-Spells involve a combination of one or more of the following:
+Casting spells involve a combination of one or more of the following components:
 
-  1. **Kinetic Components**: A set of defined, obvious gestures or movements. An "immobilised" or "restrained" caster cannot perform these. (conditions that imply "immobilised" fall under this category). Spells with kinetic components provoke attacks of opportunity.
-  2. **Incantation components**: A set of defined, well enunciated words or sounds. A "[aphonic](10-conditions-types.md#conditions-in-detail)" or "[inaudible](10-conditions-types.md#conditions-in-detail)" caster cannot perform these. (conditions that imply inability to produce defined sound fall under this category).
+  1. **Kinetic Components**: A set of defined, obvious gestures or movements. A character that cannot move its body cannot perform these. Likewise spells with kinetic components provoke attacks of opportunity. Spells with kinetic components tend to have a longer range.
+  2. **Incantation components**: A set of defined, well enunciated words or sounds. A character that cannot clearly enunciate sounds cannot cast spells with incantation components. Spells with only incantation components are well suited to close range combat as they do not provoke attacks of opportunity.
   3. **Ritual components**: A ritual is a procedure involving defined movement and positioning of objects or entities, or the creation of defined patterns. Disruption of this procedure ruins the ritual. Rituals typically apply to global spells.
 
-Spell ranges are designated as "**close**" or "**ranged**".
-
-1. A "**close**" spell, like a melee attack must requires direct contact between caster and target. Its range is the caster's reach and includes the caster.
-2. A "**ranged**" spell can have a range of 5ft or higher. It is designated as eg "ranged[60ft]". The base distances are 15ft, 30ft, 60ft, 120ft, 240ft.
-- An entity can only cast ONE spell at a time. If it attempts to cast a second, either both spells dissipate, or the casting ends in spectacular failure.
-- Spells can be **counterspelled** and **dispelled**. (See "[Spells](07-spells.md#banishing-breaking-counter-spelling-and-dispelling)")
-- Casting spells with kinetic components provokes attacks of opportunity unless the "[mage hunter](06-abilities.md#mage-hunter-i)" boon is involved.
-- Spells with an active effect (eg summoning) and non-instantaneous duration usually require the caster to maintain their existence by "**concentrating**" on them. This has the following rules:
-  1. A caster can NEVER concentrate on more than one spell.
-  2. If concentration is broken, the spell dissipates or fails spectacularly.
-  3. An "incapacitated" (or so implied) entity cannot concentrate.
-  4. Concentration can be disrupted by taking damage (Threshold = 12 or 1/2 damage taken, whichever is higher).
-  5. Concentration can be disrupted by violent/vigorous movement (Threshold = 12), violent weather (Threshold = 12) or both (Threshold = 18).
-  6. A caster can "hold" an "instantaneous" spell with a release trigger to trigger the effect within a minute of casting. The Threshold=[10+[rounds held]]. If the trigger is not met the spell dissipates. The cost of the spell is paid when the spell is cast (always), not when it is triggered.
+While some combat spells do cause direct damage (usually supernatural in nature), most spells have effects which induce conditions or change the state of the battlefield, hence tipping the balance on the battlefield. 
 
 ___
 ## Rest and Recuperation
 
-After expending resource or sustaining injury in combat or otherwise, a character requires time of rest and healing to restore their strength. A character needs a certain level of comfort to rest effectively. Furthermore there are three types of rest: Short rest, long rest and full rest. Depending on how harsh and "gritty" the game you are in is, the time period that such a rest covers may vary. We recommend the "high action" times for most groups. "Harsh" rules are recommended for more gritty games, or games where violence is meant as the exception and not the rule.
+After expending resource or sustaining injury in combat or otherwise, a character needs time for recuperation and recovery. However, a certain level of comfort is needed to rest effectively. One does not simply rest in the middle of a dungeon. Furthermore there are three types of rest: Short rest, long rest and full rest. Depending on how harsh and "gritty" the game you are in is, the time period that such a rest covers may vary. We recommend the "high action" times for most groups. "Harsh" rules are recommended for more gritty games, or games where violence is meant as the exception and not the rule.
 
 ___
 ### Preconditions for resting
@@ -674,8 +661,8 @@ A character cannot rest if:
 
 In addition, certain types of rest have additional requirements:
 - For a long rest or longer a character must have access to sleep, food and water (if they sleep eat or drink respectively).
-- For a long rest or longer a character must be in an "ameliorated" area or make a Con save against the [terrain + weather] threshold in order to rest successfully (see [Camping](03-movement-exploration.md#camping)).
-- In addition for a full rest a character must have access to medical care and not be subject to severe weather conditions for longer than 4h at a time (or they must make a Con save against the [terrain + weather] threshold or have to restart the rest).
+- For a long rest or longer a character must be in an "ameliorated" area or make a CON save against the [terrain + weather] threshold in order to rest successfully (see [Camping](03-movement-exploration.md#camping)).
+- In addition for a full rest a character must have access to medical care and not be subject to severe weather conditions for longer than 4h at a time (or they must make a CON save against the [terrain + weather] threshold or have to restart the rest).
 - In addition for a full rest a character must not suffer any effects that cause it to lose hit points.
 
 ___
@@ -687,7 +674,7 @@ The recommended duration for a short rest is 1h in a high-action game and 4h in 
 - [Base x CHA + Total MP dice count] MP.
 - [Base x CON + Total SP dice count] SP.
 
-A character can benefit from number of short rests per long rest no higher than its [Base]. So a level 4 character can benefit from only 1 short rest per long rest, while a level 16 character can benefit from 4 short rests per long rest. This represents a higher level character having a deeper well of reserves to draw from. 
+A character can benefit from number of short rests per long rest no higher than its [Base]. So a level 3 character can benefit from only 1 short rest per long rest, while a level 16 character can benefit from 4 short rests per long rest. This represents a higher level character having a deeper well of reserves to draw from. 
 
 ___
 ### Long Rest
@@ -701,7 +688,7 @@ A character can benefit from no more than one long rest per 24h. In addition a c
 ___
 ### Full Rest
 
-A full rest is a week of downtime in a high action game and two weeks of downtime with constant long term medical care (see [Heal](05-skills.md#heal)) in a harsh game. During this time a character regains all SP dice, MP dice, MP, SP and HP.
+A full rest is a week of downtime in a high action game, or two weeks of downtime with constant long term medical care (see [Heal](05-skills.md#heal)) in a harsh game. During this time a character regains all SP dice, MP dice, MP, SP and HP.
 
 It is recommended that a character should have to take a full rest in order to level up, which represents the time needed to internalise and "own" the experience gained in previous adventures.
 
@@ -715,7 +702,7 @@ A character wearing medium or heavy armour during a long rest must succeed on a 
 Characters taking a long rest (or longer) on terrain that is not "[ameliorated](03-movement-exploration.md#camping)", must make a CON save with a threshold determined by [terrain and weather](03-movement-exploration.md#travel-rolls-and-terrain-summary). A character who fails this CON save does not regain resources from the rest. If they fail by more than 6, they are not able to adequately drink, eat or sleep, which brings them closer to "[starvation](03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die)", if they require drink, food or sleep.
 - In cold weather, a blanket gives +2 to this save, while a bedroll gives +4.
 - A tent gives +2 to ameliorate/fortify, a yurt obviates the need for such a roll. This does not apply on terrain where it is not possible to place a tent or yurt, such as in swamps, dense forests or on steep slopes.
-- If a site is not ameliorated, wearing medium or heavy armour gives a penalty to this CON save equal to the armour rating (instead of making a separate roll).
+- Wearing medium or heavy armour gives a penalty to this CON save equal to the armour rating (instead of making a separate roll).
 
 ___
 ## Tables

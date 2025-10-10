@@ -704,6 +704,8 @@ Characters taking a long rest (or longer) on terrain that is not "[ameliorated](
 - A tent gives +2 to ameliorate/fortify, a yurt obviates the need for such a roll. This does not apply on terrain where it is not possible to place a tent or yurt, such as in swamps, dense forests or on steep slopes.
 - Wearing medium or heavy armour gives a penalty to this CON save equal to the armour rating (instead of making a separate roll).
 
+Thus a character taking a long rest in armour on unameliorated terrain must make two separate CON saves to rest successfully.
+
 ___
 ## Tables
 

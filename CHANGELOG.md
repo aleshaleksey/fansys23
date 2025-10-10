@@ -491,7 +491,11 @@ ___
   - Added "[usual](10-conditions-types.md#condition-table)" duration for conditions.
 - CHANGE [FULL CONCEALMENT](04-combat.md#cover-and-concealment): Now for melee/close, it only gives a 4/6 miss chance.
 - Remove references to "super advantage/disadvantage" and 4D12dl2/4D12dh2 rolls.
+
+### Combat
 - Improve descriptions in [Chapter 4: Combat](04-combat.md).
+- Add forgotten penalties for not having [shield proficiency](11-weapons-armour.md#armour-proficiencies) but still using a shield.
+
 
 ### Abilities
 - Fix [deflect missiles](06-abilities.md#deflect-missile):

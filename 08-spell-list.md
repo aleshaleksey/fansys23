@@ -958,7 +958,7 @@ ___
 
 **Special**:
 - You can only have one summon at any one time.
-- The summon appears at the start of the caster's *next* turn.
+- The summon appears either at the end of the caster's turn, or the start of the caster's next turn. However it cannot act until the start of the caster's next turn.
 
 **Limitation**: You cannot summon a beast into an environment where it cannot breath or move (eg, you cannot summon a horse into mid-air, or a fish onto land).
 
@@ -1400,7 +1400,7 @@ ___
 
 **Special**:
 - You can only have one summon at any one time.
-- The summon appears at the start of the caster's *next* turn.
+- The summon appears either at the end of the caster's turn, or the start of the caster's next turn. However it cannot act until the start of the caster's next turn.
 
 **Limitation**: The summoned sprite must keep hold of the offering it was given. If it does not, it must end its turn in contact with flammable material. If at least one of these conditions is not upheld, then the spell ends at the end of the sprite's turn and it returns to whence it came.
 
@@ -1432,7 +1432,7 @@ ___
 
 **Special**:
 - You can only have one summon at any one time.
-- The summon appears at the start of the caster's *next* turn.
+- The summon appears either at the end of the caster's turn, or the start of the caster's next turn. However it cannot act until the start of the caster's next turn.
 
 **Limitation**: The gnome is "earthbound". It cannot leave, or be detached from, the ground. However, this comes at a cost. In an event where the gnome would otherwise lose contact with the ground (if not for being earthbound), it takes 1 point of ["divine"](10-conditions-types.md#esoteric-damage) damage instead.
 
@@ -1460,7 +1460,7 @@ ___
 
 **Special**:
 - You can only have one summon at any one time.
-- The summon appears at the start of the caster's *next* turn.
+- The summon appears either at the end of the caster's turn, or the start of the caster's next turn. However it cannot act until the start of the caster's next turn.
 
 **Limitation**: If a water sprite does not end its turn in contact with a body of water, wet ground, rain, mist or other source of water it returns to whence it came and the spell ends.
 
@@ -1488,7 +1488,7 @@ ___
 
 **Special**:
 - You can only have one summon at any one time.
-- The summon appears at the start of the caster's *next* turn.
+- The summon appears either at the end of the caster's turn, or the start of the caster's next turn. However it cannot act until the start of the caster's next turn.
 
 **Limitation**: The Sprite can only be summoned in an area that is not obstructed by either liquid or solid media, weather (and other) effects such as sandstorms and rain do not count towards this limitation. In case of an attempt to summon a wind sprite in forbidden terrain, the spell ends with "catastrophic failure".
 
@@ -2099,7 +2099,7 @@ ___
 |Material Component|A polished amber sphere which crumbles to ash when the spell ends|(5,5)
 |Save|Cha, harmless|
 
-**Description**: Create a barrier with a radius of **up to** 15ft around the target. All entities within the barrier has resistance to piercing damage from ranged weapons, pressure damage, and lightning damage from outside the barrier. If the barrier's radius is reduced to 5ft, resistance is also gained to those damage types within the barrier. The spell causes all noxious gases and airborne particles to dissipate, nullifying the their effect in the area of the spell.
+**Description**: Create a barrier with a radius of **up to** 15ft around the target. All entities within the barrier have resistance to piercing damage from ranged weapons, pressure damage, and lightning damage from outside the barrier. If the barrier's radius is reduced to 5ft, resistance is also gained to those damage types within the barrier. The spell causes all noxious gases and airborne particles to dissipate, nullifying the their effect in the area of the spell.
 
 **Limitation**:
 - If, while the spell is active, the target of the spell moves or was moved since the start of the caster's last turn, the caster must make a Threshold=15 concentration save or lose the spell. This caster need not make this save if "storm ward" is cast with at least 5 MP dice.
@@ -2812,7 +2812,7 @@ ___
 
 **Special**:
 - You can only have one summon at a time.
-- The summon appears at the start of the caster's *next* turn.
+- The summon appears either at the end of the caster's turn, or the start of the caster's next turn. However it cannot act until the start of the caster's next turn.
 - Optional if using alignment rules: A character that uses this spell gains the "spiritual" alignment. Likewise a character that is unwilling to gain the "spiritual" alignment will fail to cast this spell.
 
 **Limitation**; A spirit summoned by this means cannot enter or leave areas affected by ["warded ground"](#warded-ground) or ["enchanted ground"](#enchanted-ground), or territory protected by similar means. Nor can it cross the border of the material/spiritual realm until the spell is over.
@@ -3275,7 +3275,7 @@ ___
 
 **Special**:
 - You can only have one summon at any one time.
-- The summon appears at the start of the caster's *next* turn.
+- The summon appears either at the end of the caster's turn, or the start of the caster's next turn. However it cannot act until the start of the caster's next turn.
 
 **Limitation**: A fiend will not be willingly summoned by an entity aligned to the "divine". In this case a caster makes a contested Cha roll vs the fiend. If the fiend wins, it can chose to refuse the summons or to accept it, although in this case it is in no way under the caster's control and is likely to attack it.
 
@@ -3809,7 +3809,7 @@ ___
 
 **Special**:
 - You can only have one summon at any one time.
-- The summon appears at the start of the caster's *next* turn.
+- The summon appears either at the end of the caster's turn, or the start of the caster's next turn. However it cannot act until the start of the caster's next turn.
 
 **Limitation**: An angel cannot be summoned by one who its god does not approve of, and nor by one who acts/stands against the concept it personifies. In this case, the god may decide to send the angel at a time of its choosing anyway, but with the purpose of punishing/opposing the caster who attempted to summon it. In this case, a divine mark of the god appears on the hand or face of the caster, and a threshold=20 ["Knowledge: Religion"](05-skills.md#knowledge) roll is able to identify it as such.
 
@@ -3853,7 +3853,7 @@ ___
   - Fire: A saucer of lamp oil or a lump of coal.
   - Water: A sprinkle of bluestone.
 - You can only have one summon at any one time.
-- The summon appears at the start of the caster's *next* turn.
+- The summon appears either at the end of the caster's turn, or the start of the caster's next turn. However it cannot act until the start of the caster's next turn.
 
 **Upcast**: For every MP dice added above 6 (2 MP dice above 12 if cast globally), the elemental gains two levels.
 

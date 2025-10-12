@@ -380,7 +380,7 @@ ___
 ### Troll Head
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/15/9|56 (*32*)|18 (*9*)|12|30ft||
+|15/15/10|56 (*32*)|18 (*9*)|12|30ft||
 
 (+4 natural armour, Size = large)
 
@@ -528,7 +528,7 @@ ___
 ### The worm that sings
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/14/15|56 (*29*)|58 (*40*)|15|30ft|Cosmic*|
+|17/16/18|56 (*29*)|58 (*40*)|15|30ft|Cosmic*|
 
 (huge +2/-2, Deflection +4)
 
@@ -566,7 +566,7 @@ ___
 ### Troll
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/16/8|86 (*38*)|22 (*23*)|15|40ft||
+|18/18/10|86 (*38*)|22 (*23*)|15|40ft||
 
 (+6 natural armour, Size = Huge)
 
@@ -603,7 +603,7 @@ ___
 ### Mudwalker
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|18/18/0|158 (*79*)|42 (*42*)|23|60ft|Climb (40ft)|
+|22/19/17|158 (*79*)|42 (*42*)|23|60ft|Climb (40ft)|
 
 (+5 natural armour, Size = gargantuan)
 
@@ -634,7 +634,7 @@ ___
 ### Sea Monster: Kraken, Lesser
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|22/23/21|270 (*91*)|186 (*71*)|34|20|Swim 100ft|
+|22/23/11|270 (*91*)|186 (*71*)|34|20|Swim 100ft|
 
 Size: Gargantuan.
 Natural Armour: +6

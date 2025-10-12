@@ -32,6 +32,7 @@
     - [Divine](#divine-1)
     - [Profane](#profane-1)
 5. [Conditions and states](#conditions-and-states)
+    - [Disabled States](#disabled-states)
     - [Condition Table](#condition-table)
     - [Conditions in detail](#conditions-in-detail)
 
@@ -406,9 +407,11 @@ Profane beings are those that have been cursed by creation and whose nature driv
 ## Conditions and states
 Entities can be affected by a number of conditions, most of them bad. For now these include (and all are badly defined!). Conditions are classified in S to C class based on how much trouble an entity is in if it is afflicted by it. This starts from deadly peril (S) to mildly inconvenient (C). Of course classification is not always absolute.
 
-An entity afflicted by conditions that make it unable to engage in physical combat or other activities is considered **"disabled"**. This is a useful catch all. These conditions are: "dying", "helpless", "paralysed", "unconscious", "catatonic", "immobilised", "stunned" or "surprised".
-
 In addition a condition affects a being for a given duration, which is usually determined by the skill, ability, poison, disease, or phenomenon that causes it. If the rules do not explicitly state the duration of a condition, it is assumed to apply for the "usual" duration, which is defined in the table below.
+
+___
+### Disabled states
+An entity afflicted by conditions that make it unable to engage in physical combat or other activities is considered **"disabled"**. This is a useful catch all. These conditions are: "dying", "helpless", "paralysed", "unconscious", "catatonic", "immobilised" or "stunned".
 
 ___
 ### Condition Table
@@ -565,6 +568,7 @@ A restrained character has problems. It has a movement speed of 0ft and suffers 
 #### Surprised
 A surprised character dropped the ball. It cannot take any actions. This condition seldom exists outside of the first round of combat.
   - It does not gain [STATS] to AC.
+  - It cannot take any actions except reactions and the communicate action.
 
 ___
 #### Aphonic

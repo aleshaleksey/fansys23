@@ -76,7 +76,7 @@ ___
 Spells with an active effect (eg summoning) and non-instantaneous duration usually require the caster to maintain their existence by "**concentrating**" on them. Usually this refers to "local" spells, but some "global" spells also require concentration. This mechanic exists mainly to reduce some of the unbalanced nonsense found in certain other systems. Concentration has the following rules:
 1. A caster can NEVER concentrate on more than one spell.
 2. If concentration is broken, the spell dissipates or fails spectacularly. Either way its effects end.
-3. An "incapacitated" (or so implied) entity cannot concentrate.
+3. A "[disabled](10-conditions-types.md#disab)" (or so implied) entity cannot concentrate.
 4. A concentration save is a special save calculated as Concentration Bonus = [[Wis]/2 + [Int]/2 + [Nat]]. (A caster's ability to focus depends on mental acuity, connectedness as well as, strangely enough, physical condition and training).
 5. Concentration can be disrupted by taking damage (threshold = 12 or 1/2 damage taken, whichever is higher).
 6. Concentration can be disrupted by "[vigorous motion](03-movement-exploration.md#vigorous-motion)" (threshold = 12), violent weather (threshold = 12) or both (threshold = 16).

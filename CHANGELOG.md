@@ -491,6 +491,8 @@ ___
   - Added "[usual](10-conditions-types.md#condition-table)" duration for conditions.
 - CHANGE [FULL CONCEALMENT](04-combat.md#cover-and-concealment): Now for melee/close, it only gives a 4/6 miss chance.
 - Remove references to "super advantage/disadvantage" and 4D12dl2/4D12dh2 rolls.
+- Changed [surprised](10-conditions-types.md#surprised) to allow reactions to be taken. This is potentially a breaking change.
+- Changed [concentration](07-magic-and-spellcasting.md#concentration) so that DISABLED (rather than incapacitated) spellcasters cannot concentrate.
 
 ### Combat
 - Improve descriptions in [Chapter 4: Combat](04-combat.md).
@@ -520,3 +522,4 @@ ___
 - Fix wording on [Greater Earth Ward](08-spell-list.md#greater-earth-ward.)
 - Add [Forbiddance](08-spell-list.md#forbiddance) spell (needed a more absolute barrier spell).
 - Modify [Summon Beast](08-spell-list.md#summon-beast) to be level beasts up faster after 2 MP (it is otherwise useless).
+- Modify all summoning spells to allow summons to appear either at the end of this turn or the start of next turn, but they still can't act until the next turn.

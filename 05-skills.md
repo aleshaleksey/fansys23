@@ -473,7 +473,7 @@ Sleight of hand is not just for "hands". It is the skill combining the use of de
 ___
 #### Stealth
 
-Stealth is the art and technique of hiding your presence and remaining, and moving, unseen and unheard. It is a skill valued by hunters, scouts, saboteurs and scum. It is commonly opposed by observe.
+Stealth is the art and technique of hiding your presence and remaining, and moving, unseen and unheard.  It is a skill valued by hunters, scouts, saboteurs and scum. It is commonly opposed by observe. If an entity uses stealth successfully, others will be unaware of it unless they succeed an observe roll to detect it. This means that they lose track of the entity and are not able to localise it with their senses. They might successfully deduce its location by luck and logic, but this does not allow targeted attacks to be used.
 
 - **Action**: "Main action".
 - **Threshold**: Stealth roll vs "observe" threshold. (Can be opposed roll out of combat).
@@ -684,12 +684,12 @@ The skill of observation is used to notice hidden/camouflaged details, entities 
 - **Observe hidden entity**:
   - **Modifiers on observed entity**:
     - Medium item in plain sight: Threshold = 0
-    - Per size category larger: - 5
-    - Per size category smaller: + 5
-    - Poor Visibility: + 5
-    - Light concealment: + 2
-    - heavy concealment: + 5
-    - Per 20ft of distance: + 1
+    - Per size category larger: -2
+    - Per size category smaller: +2
+    - Poor Visibility: usually grants "concealment" (see below)
+    - Heavy concealment: +2
+    - Full concealment: +5
+    - Per 20ft of distance: +1 (+2 in more than light concealment or poor visibility)
     - Per additional entity: -1
     - Through solid object (eg wall): Disadvantage (auto fail for some senses like sight)
   - **Modifiers on perceiving entity**:

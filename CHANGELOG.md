@@ -497,7 +497,10 @@ ___
 ### Combat
 - Improve descriptions in [Chapter 4: Combat](04-combat.md).
 - Add forgotten penalties for not having [shield proficiency](11-weapons-armour.md#armour-proficiencies) but still using a shield.
+- Define how concealment interacts with stealth and losing track of targets. (This is important to avoid "I'm blind, but I know exactly where they are" lunacy).
 
+### Skills
+- Modify [Observe](05-skills.md#observe) to have smaller bonus/penalties due to size. Increase due to concealment. 
 
 ### Abilities
 - Fix [deflect missiles](06-abilities.md#deflect-missile):

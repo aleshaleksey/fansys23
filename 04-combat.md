@@ -45,6 +45,7 @@ This system deals heavily with combat and many of the mechanics are tuned to wor
       - [Cover](#cover)
       - [Concealment](#concealment)
       - [Intervening Targets](#intervening-targets)
+      - [Concealed targets and stealth](#concealed-targets-and-stealth)
     - [Reactions and Causality](#reactions-and-causality)
     - [Attacks of Opportunity](#attacks-of-opportunity)
       - [Provoking attacks of opportunity](#provoking-attacks-of-opportunity)
@@ -451,6 +452,16 @@ An entity that is on the line of attack between a character and their target act
 An entity is on the line of attack and becomes an intervening target if its hex/square is intersected by the line from the center of the attacker's square to the center of the intended target's square. If the intended target in the same size category as, or larger than, the intervening entity, it gains heavy concealment, otherwise it gains light concealment.
 
 For the sake of targeted attacks, this acts like ordinary concealment, with one exception: if the roll of the D6 (1 for light cover, 1-2 for heavy cover) results in a miss, the attack instead targets the intervening entity. If there are several intervening targets, roll the concealment separately for each one until you either run out of intervening targets, or hit one of them.
+
+___
+#### Concealed targets and stealth
+Targeted attacks cannot be made against a target with full cover (they always target the cover instead). However, they can be made against targets in full concealment, despite the high miss chance.
+
+On the other hand, an entity that has rolled stealth and exceeded an attacker's observe threshold (13 + [observe bonus]) cannot be subject to targeted attacks by that attacker. Likewise, the attacker fails to keep track of the stealthed entity's location with its senses and is considered unaware of it. The attacker can still try to use luck and logic to guess the target's location.
+
+An entity in full concealment is not automatically stealthed. An attacker may be able to localise the position of a target with its senses, either automatically if the observe threshold is below its own (13 + [observe bonus]), or by making an observe roll as an action.
+
+Usually, at close range this will successfully localise the target in full concealment. However, circumstances, such as distance and poor visibility may thwart the attempt. See the "[Observe](05-skills.md#observe)" skill for more details on how the threshold is determined.
 
 ___
 ### Reactions and Causality

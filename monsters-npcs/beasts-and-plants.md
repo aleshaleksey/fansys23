@@ -1233,13 +1233,11 @@ ___
 |-|-|-|-|-|-|
 |13/11/12|18 (*15*)|18 (*15*)|6|10ft|Flight (70ft, average, endurance = 4 hours)|
 
-Size=Large
-
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
 |Stat|16|16|12|5|14|12|
-|Bonus|+2|+3|+1|-3|+2|+1|
-|Save|+4|+4|+3|-1|+4|+3|
+|Bonus|+3|+3|+1|-3|+2|+1|
+|Save|+5|+3|+3|-1|+4|+3|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|

@@ -1,4 +1,4 @@
-typ/
-*.pdf
-*/*.pdf
+typ/*-temp.typ
 .*
+*.pdf
+

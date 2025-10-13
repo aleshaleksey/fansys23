@@ -197,6 +197,7 @@ ___
 
 ___
 ### Compass
+
 |Name|Compass [Nature, Travel]|
 |-|-|
 |Scope|local|
@@ -212,6 +213,7 @@ ___
 
 ___
 ### Deafen
+
 |Name|Deafen [Curse]|
 |-|-|
 |Scope|local|
@@ -229,6 +231,7 @@ ___
 
 ___
 ### Down
+
 |Name|Down [Autumn, Earth]|
 |-|-|
 |Scope|local|
@@ -245,6 +248,7 @@ ___
 
 ___
 ### Hide
+
 |Name|Hide [Nature, Air]|
 |-|-|
 |Scope|local|
@@ -262,6 +266,7 @@ ___
 
 ___
 ### Ignition
+
 |Name|Ignition [Fire, Destruction, Summer]|
 |-|-|
 |Scope|local|
@@ -278,6 +283,7 @@ ___
 
 ___
 ### Least Anemancy
+
 |Name|Least Anemancy [Air, Spiritual]|
 |-|-|
 |Scope|local|
@@ -301,6 +307,7 @@ ___
 
 ___
 ### Least Blast
+
 |Name|Least Blast [Air, Destruction]|
 |-|-|
 |Scope|local|
@@ -318,6 +325,7 @@ ___
 
 ___
 ### Least Freeze
+
 |Name|Least Freeze [Destruction, Water, Winter]|
 |-|-|
 |Scope|local|
@@ -334,6 +342,7 @@ ___
 
 ___
 ### Least Geomancy
+
 |Name|Least Geomancy [Autumn, Earth, Spiritual]|
 |-|-|
 |Scope|local|
@@ -355,6 +364,7 @@ ___
 
 ___
 ### Least Hydromancy
+
 |Name|Least Hydromancy [Spiritual, Water, Winter]|
 |-|-|
 |Scope|local|
@@ -376,6 +386,7 @@ ___
 
 ___
 ### Least Pyromancy
+
 |Name|Least Pyromancy [Fire, Summer, Spiritual]|
 |-|-|
 |Scope|local|
@@ -399,6 +410,7 @@ ___
 
 ___
 ### Least Shroud
+
 |Name|Least Shroud [Air, Light, Nature, Spirit, Travel]|
 |-|-|
 |Scope|local|
@@ -418,6 +430,7 @@ ___
 
 ___
 ### Least Spike
+
 |Name|Least Spike [Destruction, Earth]|
 |-|-|
 |Scope|local|
@@ -435,6 +448,7 @@ ___
 
 ___
 ### Least Ward
+
 |Name|Least Ward [Barrier, Divine, Earth, Mortal, Nature, Spiritual]|
 |-|-|
 |Scope|local|
@@ -452,6 +466,7 @@ ___
 
 ___
 ### Least Warmth
+
 |Name|Least Warmth [Fire, Travel, Summer]|
 |-|-|
 |Scope|local|
@@ -468,6 +483,7 @@ ___
 
 ___
 ### Mist
+
 |Name|Mist [Water, Winter]|
 |-|-|
 |Scope|local|
@@ -484,6 +500,7 @@ ___
 
 ___
 ### Silent
+
 |Name|Silent [Nature, Air]|
 |-|-|
 |Scope|local|
@@ -501,6 +518,7 @@ ___
 ___
 
 ### Sour
+
 |Name|Sour [Nature]|
 |-|-|
 |Scope|Local|
@@ -517,6 +535,7 @@ ___
 
 ___
 ### Whispers
+
 |Name|Message [Air, Spring, Spirit]|
 |-|-|
 |Scope|local|
@@ -534,6 +553,7 @@ ___
 
 ___
 ### Witch's Candle
+
 |Name|Witch's Candle [Light, Fire, Kinetic]|
 |-|-|
 |Scope|local|
@@ -552,6 +572,7 @@ ____
 
 ___
 ### Bear's Claws
+
 |Name| Bear's Claws [Autumn, Earth, Nature, Travel]|
 |-|-|
 |Scope|local|
@@ -570,6 +591,7 @@ ___
 
 ___
 ### Beast Speech
+
 |Name|Beast Speech [Nature, Air]|
 |-|-|
 |Scope|local (global)|
@@ -592,6 +614,7 @@ ___
 
 ___
 ### Chill Blood
+
 |Name|Winter's Touch [Mortal, Water, Winter]|
 |-|-|
 |Scope|local|
@@ -619,6 +642,7 @@ If the MP dice total is 3 or higher, the weird's attack is carried out as a "sec
 
 ___
 ### Enflame
+
 |Name|Enflame [Fire, Mortal, Summer]|
 |-|-|
 |Scope|local|
@@ -643,6 +667,7 @@ ___
 
 ___
 ### Ensnare
+
 |Name|Ensnare [Nature]|
 |-|-|
 |Scope|local (global)|
@@ -665,6 +690,7 @@ ___
 
 ___
 ### Fade
+
 |Name|Fade [Air, Nature, Spirit]|
 |-|-|
 |Scope|local|
@@ -687,6 +713,7 @@ If the detection magic is cast at a higher MP dice cost level (higher MP dice co
 
 ___
 ### Foxfire
+
 |Name|Foxfire [Fire, Spirit, Summer]|
 |-|-|
 |-|-|
@@ -707,6 +734,7 @@ ___
 
 ___
 ### Gnomes' Mercy
+
 |Name|Gnomes' Mercy [Autumn, Earth, Spirit, Travel]|
 |-|-|
 |Scope|local|
@@ -725,6 +753,7 @@ ___
 
 ___
 ### Headwind
+
 |Name|Headwind [Air, Spring]|
 |-|-|
 |Scope|local (global)|
@@ -745,6 +774,7 @@ ___
 
 ___
 ### Least Flare
+
 |Name|Least Flare [Air, Light, Fire, Spring, Summer]|
 |-|-|
 |Scope|local (global)|
@@ -769,6 +799,7 @@ As a secondary action the caster may dismiss the flare, causing 1d4+[SUP] damage
 
 ____
 ### Least Heal
+
 |Name|Least Heal [Divine, Healing, Nature, Spring]|
 |-|-|
 |Scope|local|
@@ -789,6 +820,7 @@ ____
 
 ___
  ### Lesser Illusory Self
+
 |Name|Lesser Illusory Self [Air, Illusion, Kinetic, Spring, Water, Winter]|
 |-|-|
 |Scope|local (global)|
@@ -817,6 +849,7 @@ Thus, for example, if the target is disguised as a winged, and the illusory wing
 
 ___
 ### Least Vengeance
+
 |Name|Least Vengeance [Curse, Destruction, Fire, Summer]|
 |-|-|
 |Scope|local|
@@ -837,6 +870,7 @@ ___
 
 ___
 ### Least Weather Control
+
 |Name|Least Weather Control [Air, Nature, Water]|
 |-|-|
 |Scope|local|
@@ -859,6 +893,7 @@ ___
 
 ___
 ### Sense Spell
+
 |Name|Sense Spell [Air, Earth, Fire, Water, Spirit]|
 |-|-|
 |Scope|local|
@@ -879,6 +914,7 @@ ___
 
 ___
 ### Shape Earth
+
 |Name|Shape Earth [Autumn, Earth, Nature, Travel]|
 |-|-|
 |Scope|local (global)|
@@ -904,6 +940,7 @@ ___
 
 ___
 ### Spirits' Secret
+
 |Name|Spirits' Secret [Air, Spirit]|
 |-|-|
 |Scope|local (global)|
@@ -940,6 +977,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 
 ___
 ### Summon Beast
+
 |Name|Summon Beast [Beast, Nature]|
 |-|-|
 |Scope|local (global)|
@@ -970,6 +1008,7 @@ ___
 
 ___
 ### Tailwind
+
 |Name|Tailwind [Air, Spirit, Travel]|
 |-|-|
 |Scope|local (global)|
@@ -990,6 +1029,7 @@ ___
 
 ___
 ### Water Snake
+
 |Name|Water Snake [Spiritual, Water, Winter]|
 |-|-|
 |Scope|local|
@@ -1015,6 +1055,7 @@ ___
 
 ___
 ### Winter's Touch
+
 |Name|Winter's Touch [Water, Winter]|
 |-|-|
 |Scope|local (global)|
@@ -1041,6 +1082,7 @@ ___
 ## MP 2 spells
 
 ### Call Ailment
+
 |Name|Call Ailment [Curse, Destruction, Nature]|
 |-|-|
 |Scope|local (global)|
@@ -1065,6 +1107,7 @@ ___
 
 ___
 ### Dusk
+
 |Name|Dusk [Autumn, Curse, Earth, Profane, Water, Winter]|
 |-|-|
 |Scope|local (global)|
@@ -1091,6 +1134,7 @@ As a secondary action the caster may command the shade to reach out and touch a 
 
 ___
 ### Earthen Hand
+
 |Name|Earthen Hand [Autumn, Earth]|
 |-|-|
 |Scope|local (global)|
@@ -1124,6 +1168,7 @@ ___
 
 ___
 ### Glide
+
 |Name|Glide [Air, Travel]|
 |-|-|
 |Scope|local (global)|
@@ -1149,6 +1194,7 @@ ___
 
 ___
 ### Harvest
+
 |Name|Harvest [Curse, Nature]|
 |-|-|
 |Scope|local (global)|
@@ -1173,6 +1219,7 @@ ___
 
 ___
 ### Least Rest
+
 |Name|Least Rest [Divine, Earth, Healing, Nature, Winter]|
 |-|-|
 |Scope|local|
@@ -1195,6 +1242,7 @@ Thus if the caster declares 2d4 to SP and 1d4 to MP, the target will regain 2d4+
 
 ___
 ### Least Transformation
+
 |Name| [Curse, Water, Winter]|
 |-|-|
 |Scope|local (global)|
@@ -1222,6 +1270,7 @@ ___
 
 ___
 ### Lesser Veil
+
 |Name|Veil [Air, Curse]|
 |-|-|
 |Scope|local (global)|
@@ -1246,6 +1295,7 @@ ___
 
 ___
 ### Lesser Xenophonia
+
 |Name|Lesser Xenophonia [Air]|
 |-|-|
 |Scope|local (global)|
@@ -1269,6 +1319,7 @@ An unwilling target may ignore the effect with a successful CHA save vs the cast
 
 ___
 ### Meadow of Flame
+
 |Name|Meadow of Flame [Fire, Destruction, Summer]|
 |-|-|
 |Scope|local|
@@ -1293,6 +1344,7 @@ ___
 
 ___
 ### Natural Xenophonia
+
 |Name|Natural Xenophonia [Nature]|
 |-|-|
 |Scope|local (global)|
@@ -1317,6 +1369,7 @@ An unwilling target may ignore the effect with a successful CHA save vs the cast
 
 ___
 ### Promise
+
 |Name|Promise [Curse, Global]|
 |-|-|
 |Scope|local (global)|
@@ -1363,6 +1416,7 @@ The condition counts as having a "supernatural" origin.
 
 ___
 ### Silence
+
 |Name|Silence [Curse, Water, Winter]|
 |-|-|
 |Scope|local (global)|
@@ -1382,6 +1436,7 @@ ___
 
 ___
 ### Summon Flame Sprite
+
 |Name|Summon Flame Sprite [Fire, Spiritual, Summer]|
 |-|-|
 |Scope|local (global)|
@@ -1414,6 +1469,7 @@ Flammable material includes wood, turf, the corporeal forms of mortals, wax, etc
 
 ___
 ### Summon Gnome
+
 |Name|Summon gnome [Autumn, Earth, Spiritual]|
 |-|-|
 |Scope|local (global)|
@@ -1442,6 +1498,7 @@ ___
 
 ___
 ### Summon Water Sprite
+
 |Name|Summon Flame Sprite [water, Spiritual]|
 |-|-|
 |Scope|local (global)|
@@ -1470,6 +1527,7 @@ ___
 
 ___
 ### Summon Wind Sprite
+
 |Name|Summon Flame Sprite [Air, Spiritual]|
 |-|-|
 |Scope|local (global)|
@@ -1498,6 +1556,7 @@ ___
 
 ____
 ### Trace Secret Path
+
 |Name|Trace Secret Path [Nature, Air, Fire, Water, Earth, Spirit]|
 |-|-|
 |Scope|local (global)|
@@ -1528,6 +1587,7 @@ ____
 
 ___
 ### Warmth
+
 |Name|Warmth [Fire, Summer, Travel]|
 |-|-|
 |Scope|local (global)|
@@ -1551,6 +1611,7 @@ ___
 
 ___
 ### Warded Ground
+
 |Name|Warded Ground [Barrier, Earth, Ground]|
 |-|-|
 |Scope|local (global)|
@@ -1576,6 +1637,7 @@ ___
 
 ___
 ### Wind Step
+
 |Name|Wind Step [Air, Travel]|
 |-|-|
 |Scope|Local|
@@ -1640,6 +1702,7 @@ ___
 
 ___
 ### Animate Plant
+
 |Name|Animate Plant [Mortal, Nature]|
 |-|-|
 |Scope|local (global)|
@@ -1665,6 +1728,7 @@ ___
 
 ___
 ### Blade Ward
+
 |Name|Stone Skin [Autumn, Earth, Barrier]|
 |-|-|
 |Scope|local (global)|
@@ -1689,6 +1753,7 @@ ___
 
 ___
 ### Blessing of the Fates
+
 |Name|Favour of Fate [Divine, Kinetic]|
 |-|-|
 |Scope|local|
@@ -1714,6 +1779,7 @@ In the case that an AoE is being redirected, if it is caused by an entity with a
 
 ___
 ### Command Mortal
+
 |Name|Charm Mortal [mortal, fire]|
 |-|-|
 |Scope|local|
@@ -1741,6 +1807,7 @@ ___
 
 ___
 ### Cure
+
 |Name|Cure [Divine, Healing, Nature]|
 |-|-|
 |Scope|local|
@@ -1761,6 +1828,7 @@ ___
 
 ___
 ### Earth Ward
+
 |Name|Earth Ward [Barrier, Earth]|
 |-|-|
 |Scope|local (global)|
@@ -1793,6 +1861,7 @@ ___
 
 ___
 ### Fairy Shelter
+
 |Name|Fairy Feast [Nature, Kinetic, Spirit]|
 |-|-|
 |Scope|local (global)|
@@ -1823,6 +1892,7 @@ Access to the fey's realm is by a "secret path". The spell give the targets know
 
 ___
 ### Fire Ward
+
 |Name|Fire Ward [Barrier, Fire, Summer]|
 |-|-|
 |Scope|local (global)|
@@ -1856,6 +1926,7 @@ ___
 
 ___
 ### Growth
+
 |Name|Growth [Nature]|
 |-|-|
 |Scope|local (global)|
@@ -1876,6 +1947,7 @@ ___
 
 ___
 ### Guidance of the Earth
+
 |Name|Guidance of the Earth [Autumn, Earth, Spirit]|
 |-|-|
 |Scope|local (global)|
@@ -1897,6 +1969,7 @@ ___
 
 ___
 ### Guidance of the Winds
+
 |Name|Guidance of the Winds [Air, Spirit]|
 |-|-|
 |Scope|local (global)|
@@ -1918,6 +1991,7 @@ ___
 
 ___
  ### Illusory Self
+
 |Name|Illusory Self [Illusion, Kinetic, Water, Winter]|
 |-|-|
 |Scope|local (global)|
@@ -1947,6 +2021,7 @@ Thus, for example, if the target is disguised as an orc, but is actually a winge
 
 ___
 ### Least Curse
+
 |Name|Least Curse [Curse, Destruction, Spirit]|
 |-|-|
 |Scope|local (global)|
@@ -1990,6 +2065,7 @@ ___
 
 ___
 ### Melt
+
 |Name|Melt [Fire, Spring, Summer, Destruction]|
 |-|-|
 |Scope|local (global)|
@@ -2016,6 +2092,7 @@ If the target object/material is in contact with an entity at the start of its t
 
 ___
 ### Mole
+
 |Name|Mole [Autumn, Earth, Nature, Travel]|
 |-|-|
 |Scope|local (global)|
@@ -2037,6 +2114,7 @@ ___
 
 ___
 ### See Spell
+
 |Name|See Spell [Air, Earth, Fire, Water, Spirit]|
 |-|-|
 |Scope|local (global)|
@@ -2061,6 +2139,7 @@ ___
 
 ___
 ### Slumber
+
 |Name|Slumber [Air, Earth, Nature, Water, Spirit]|
 |-|-|
 |Scope|local (global)|
@@ -2085,6 +2164,7 @@ ___
 
 ___
 ### Storm Ward
+
 |Name|Storm Ward [Air, Barrier, Spring]|
 |-|-|
 |Scope|local (global)|
@@ -2117,6 +2197,7 @@ ___
 
 ___
 ### Summer's Blade
+
 |Name|Summer's Blade [Destruction, Fire, Summer]|
 |-|-|
 |Scope|local|
@@ -2139,6 +2220,7 @@ ___
 
 ___
 ### Water Walk
+
 |Name|Water Walk [Travel, Water, Winter]|
 |-|-|
 |Scope|Local (Global)|
@@ -2163,6 +2245,7 @@ ___
 
 ___
 ### Water Ward
+
 |Name|Wind Ward [Barrier, Water, Winter]|
 |-|-|
 |Scope|local (global)|
@@ -2194,6 +2277,7 @@ ___
 
 ___
 ### Wind Walk
+
 |Name|Wind Walk [Air, Nature, Travel]|
 |-|-|
 |Scope|Local (Global)|
@@ -2215,6 +2299,7 @@ ___
 
 ___
 ### Winter's Blade
+
 |Name|Winter's Blade [Destruction, Water, Winter]|
 |-|-|
 |Scope|local|
@@ -2241,6 +2326,7 @@ ___
 
 ___
 ### Animate Golem
+
 |Name|Animate Golem [Autumn, Earth]|
 |-|-|
 |Scope|local (global)|
@@ -2266,6 +2352,7 @@ ___
 
 ___
 ### Aqueous Step
+
 |Name|Aqueous Step [Travel, Water, Winter]|
 |-|-|
 |Scope|local (global)|
@@ -2292,6 +2379,7 @@ ___
 
 ___
 ### Balance of Elements
+
 |Name|Balance of Seasons [Air, Earth, Fire, Water]|
 |-|-|
 |Scope|local (global)|
@@ -2323,6 +2411,7 @@ ___
 
 ___
 ### Balance of Nature
+
 |Name|Balance of Nature [Divine, Profane, Nature]|
 |-|-|
 |Scope|local (global)|
@@ -2356,6 +2445,7 @@ ___
 
 ___
 ### Bestial Transformation
+
 |Name|Bestial Transformation [Curse, Mortal, Nature, Water]|
 |-|-|
 |Scope|local (global)|
@@ -2380,6 +2470,7 @@ ___
 
 ___
 ### Enchanted Ground
+
 |Name|Enchanted Ground [Autumn, Earth, Spirit]|
 |-|-|
 |Scope|local (global)|
@@ -2409,6 +2500,7 @@ ___
 
 ___
 ### False Aura
+
 |Name|False Aura [Water, Spirit]|
 |-|-|
 |Scope|local (global)|
@@ -2441,6 +2533,7 @@ If the detection spell is cast at a higher MP dice cost (level) than "False Aura
 
  ___
  ### Forbiddance
+
 |Name|Forbiddance [Barrier, Kinetic]|
 |-|-|
 |Scope|local (global)|
@@ -2473,6 +2566,7 @@ If the spell is cast with more than 7 MP die, its perimeter cannot be crossed by
 
 ___
 ### Gift of the Fates
+
 |Name|Favour of Fate [Divine, Kinetic]|
 |-|-|
 |Scope|local|
@@ -2492,6 +2586,7 @@ ___
 
 ___
 ### Greater Xenophonia
+
 |Name|Greater Xenophonia [Air]|
 |-|-|
 |Scope|local (global)|
@@ -2513,6 +2608,7 @@ ___
 
 ___
 ### Healing Seed
+
 |Name|Greater Heal [Earth, Life, Nature, Spring]|
 |-|-|
 |Scope|local|
@@ -2536,6 +2632,7 @@ ___
 
 ___
 ### Lesser Domain
+
 |Name| Lesser Domain [Air, Fire, Water, Earth, Spirit]|
 |-|-|
 |Scope|local (global)|
@@ -2585,6 +2682,7 @@ When the spell ends, the remaining entities within it find themselves at the poi
 
 ___
 ### Lesser Freedom
+
 |Name|Freedom [Air, Spring, Water]|
 |-|-|
 |Scope|local (global)|
@@ -2605,6 +2703,7 @@ ___
 
 ___
 ### Least Storm
+
 |Name|Least Storm [Air, Destruction, Nature]|
 |-|-|
 |Scope|local (global)|
@@ -2629,6 +2728,7 @@ ___
 
 ___
 ### Lesser Weather Control
+
 |Name|Lesser Weather Control [Air, Nature, Water]|
 |-|-|
 |Scope|local (global)|
@@ -2652,6 +2752,7 @@ ___
 
 ___
 ### Lesser Incarnation
+
 |Name|Lesser Incarnate [Spiritual]|
 |-|-|
 |Scope|local (global)|
@@ -2693,6 +2794,7 @@ ___
 
 ___
 ### Mirage
+
 |Name|Mirage [Spiritual, Water, Winter]|
 |-|-|
 |Scope|local (global)|
@@ -2723,6 +2825,7 @@ An illusion can be broken in the following manner:
 
 ___
 ### Rejuvenate Land
+
 |Name|Rejuvenate Land [Healing, Nature]|
 |-|-|
 |Scope|local (global)|
@@ -2748,6 +2851,7 @@ ___
 
 ___
 ### Scry
+
 |Name|Scry [Spirit, Water, Winter]|
 |-|-|
 |Scope|local (global)|
@@ -2769,6 +2873,7 @@ ___
 
 ___
 ### Speak Through Flame
+
 |Name|Speak Through Flame [Fire, Spirit]|
 |-|-|
 |Scope|local|
@@ -2793,6 +2898,7 @@ ___
 
 ___
 ### Summon Spirit
+
 |Name|Summon Spirit [Spiritual]|
 |-|-|
 |Scope|local (global)|
@@ -2827,6 +2933,7 @@ ___
 
 ___
 ### Blessing of the Winds
+
 |Name|Blessing of the Winds [Air, Kinetic, Spring]|
 |-|-|
 |Scope|local|
@@ -2848,6 +2955,7 @@ ___
 
 ___
 ### Dominate Mortal
+
 |Name|Dominate Mortal [Curse]|
 |-|-|
 |Scope|local (global)|
@@ -2876,6 +2984,7 @@ When dominated the target takes no action or reactions (other than movement or c
 
 ___
 ### Flame Stride
+
 |Name|Flame Stride [Fire, Summer, Travel]|
 |-|-|
 |Scope|local (global)|
@@ -2903,6 +3012,7 @@ ___
  
  ___
  ### Flare
+
 |Name|Flare [Light, Fire, Kinetic, Summer]|
 |-|-|
 |Scope|local (global)|
@@ -2929,6 +3039,7 @@ As a secondary action the caster may dismiss the flare, causing 3d6+[SUP] damage
 
 ___
 ### Flawed Transmute
+
 |Name|Flawed Transmutation [Curse, Incantation]|
 |-|-|
 |Scope|local (global)|
@@ -2956,6 +3067,7 @@ ___
 
 ___
 ### Flood
+
 |Name|Lesser Flood [Autumn, Destruction, Nature, Water, Winter]|
 |-|-|
 |Scope|local (global)|
@@ -2984,6 +3096,7 @@ Any entity within the area of effect that does not succeed a STR save suffers 3d
 
 ___
 ### Greater Fade
+
 |Name|Greater Fade [Air, Nature, Spirit]|
 |-|-|
 |Scope|local (global)|
@@ -3008,6 +3121,7 @@ If the level of the detection magic is higher, or if detection is by an "S class
 
 ___
 ### Greater Fire Ward
+
 |Name|Greater Fire Ward [Barrier, Fire, Summer]|
 |-|-|
 |Scope|local (global)|
@@ -3039,6 +3153,7 @@ ___
 
 ___
 ### Heart Ward
+
 |Name|Heart Ward [Autumn, Incantation, Fire, Water]|
 |-|-|
 |Scope|local (global)|
@@ -3063,6 +3178,7 @@ ___
 
 ___
 ### Isolate Essence
+
 |Name|Isolate Essence [Curse, Kinetic, Spirit]|
 |-|-|
 |Scope|local (global)|
@@ -3092,6 +3208,7 @@ ___
 
 ___
 ### Lesser Cosmic Seal
+
 |Name|Cosmic Seal [Air, Earth, Nature, Water, Barrier]|
 |-|-|
 |Scope|local (global)|
@@ -3119,6 +3236,7 @@ ___
 
 ___
 ### Pact
+
 |Name|Pact [Curse, Global]|
 |-|-|
 |Scope|local (global)|
@@ -3148,6 +3266,7 @@ ___
 
 ___
 ### Plague
+
 |Name|Plague [Nature, Curse]|
 |-|-|
 |Scope|local (global)|
@@ -3173,6 +3292,7 @@ The zone of pestilence can be detected with a [Heal](05-skills.md#heal) roll or 
 
 ___
 ### Revenant
+
 |Name|Revenant [Divine, Curse, Earth, Fire]|
 |-|-|
 |Scope|(global)|
@@ -3206,6 +3326,7 @@ The target returns with all of its SP and MP and up to 12 HP.
 
 ___
 ### Rift
+
 |Name|Rift [Destruction, Earth]|
 |-|-|
 |Scope|local (global)|
@@ -3233,6 +3354,7 @@ The rift can be no more than 50ft wide, 400ft long and 200ft deep, the sides are
 
 ___
 ### Stone Ward
+
 |Name|Iron Skin [Autumn, Barrier, Earth]|
 |-|-|
 |Scope|local (global)|
@@ -3257,6 +3379,7 @@ ___
 
 ___
 ### Summon Fiend
+
 |Name|Summon Fiend [Profane]|
 |-|-|
 |Scope|local (global)|
@@ -3287,6 +3410,7 @@ ___
 
 ___
 ### Winter's Grasp
+
 |Name|Freeze [Curse, Water, Winter]|
 |-|-|
 |Scope|local|
@@ -3313,6 +3437,7 @@ ___
 
 ___
 ### Fairy Feast
+
 |Name|Fairy Feast [Nature, Incantation, Spirit]|
 |-|-|
 |Scope|global|
@@ -3350,6 +3475,7 @@ Collectively, the fey offer one piece of useful knowledge between them, and shou
 
 ___
 ### False Regrowth
+
 |Name|False Regrowth [Autumn, Earth, Water, Winter]|
 |-|-|
 |Scope|local (global)|
@@ -3375,6 +3501,7 @@ When the spell ends, the body part crumbles to dust or melts into a puddle.
 
 ___
 ### Forced Possession
+
 |Name|Forced Possession [Curse]|
 |-|-|
 |Scope|local (global)|
@@ -3405,6 +3532,7 @@ On successfully assuming control, the caster may immediately choose to send the 
 
 ___
 ### Forest of Flame
+
 |Name|Forest of Flame [Destruction, Fire, Summer]|
 |-|-|
 |Scope|local (global)|
@@ -3429,6 +3557,7 @@ ___
 
 ___
 ### Greater Earth Ward
+
 |Name|Greater Earth Ward [Barrier, Earth]|
 |-|-|
 |Scope|local (global)|
@@ -3460,6 +3589,7 @@ In addition, the caster can designate any number of entities as "protected". The
 
 ___
 ### Greater Freedom
+
 |Name|Freedom [Air, Spring, Water]|
 |-|-|
 |Scope|local (global)|
@@ -3481,6 +3611,7 @@ ___
 
 ___
 ### Greater Storm Ward
+
 |Name|Greater Storm Ward [Air, Barrier, Spring]|
 |-|-|
 |Scope|local (global)|
@@ -3518,6 +3649,7 @@ Furthermore the caster specifies any number of entities as "protected" at the ca
 
 ___
 ### Great Water Ward
+
 |Name|Great Water Ward [Barrier, Water, Winter]|
 |-|-|
 |Scope|local (global)|
@@ -3556,6 +3688,7 @@ Unlike the local casting, entities that are "diseased"[natural] that enter the a
 
 ___
 ### Inner Voice
+
 |Name|Inner Voice [Water, Spirit]|
 |-|-|
 |Scope|local|
@@ -3581,6 +3714,7 @@ ___
 
 ___
 ### Legion of Dead
+
 |Name|Legion of Dead [Curse, Profane]|
 |-|-|
 |Scope|local (global)|
@@ -3615,6 +3749,7 @@ If the undead are not destroyed by the end of the spell, or the caster loses con
 
 ___
 ### Madness
+
 |Name|Madness [Curse, Fire, Spirit, Summer]|
 |-|-|
 |Scope|local (global)|
@@ -3704,6 +3839,7 @@ After 24 hours have passed, the life force from the consumption of the old body 
 
 ___
 ### Otherworld Step
+
 |Name|Otherworld Step [Travel, Fire, Water, Air, Earth]|
 |-|-|
 |Scope|local(global)|
@@ -3747,6 +3883,7 @@ For the sake of mechanics, this is a "cosmic speed" effect.
 
 ___
 ### Razor Wind
+
 |Name|Razor Wind [Air, Destruction]|
 |-|-|
 |Scope|local|
@@ -3766,6 +3903,7 @@ ___
 
 ___
 ### Spirit Restoration
+
 |Name|Spirit Restoration [Incantation, Nature, Spirit]|
 |-|-|
 |Scope|local|(5 x 6 = 30)
@@ -3791,6 +3929,7 @@ ___
 
 ___
 ### Summon Angel
+
 |Name|Summon Angel [Divine]|
 |-|-|
 |Scope|local (global)|
@@ -3822,6 +3961,7 @@ ___
 
 ___
 ### Summon Elemental
+
 |Name|Summon Elemental [Air, Earth, Fire, Nature, Water]|
 |-|-|
 |Scope|local (global)|
@@ -3865,6 +4005,7 @@ ___
 
 ___
 ### Create Secret Path
+
 |Name|Create Secret Path [Nature, Air, Fire, Water, Earth, Spirit]|
 |-|-|
 |Scope|global|
@@ -3887,6 +4028,7 @@ ___
 
 ___
 ### Greater Weather Control
+
 |Name|Least Weather Control [Air, Nature]|
 |-|-|
 |Scope|local (global)|
@@ -3911,6 +4053,7 @@ Cast globally this is greater magic that can bring calamity to a land where it i
 
 ___
 ### Incarnate
+
 |Name|Incarnate [Divine, Profane]|
 |-|-|
 |Scope|global|
@@ -3950,6 +4093,7 @@ When the spell ends one of the following things can happen (the final decision i
 
 ___
 ### Memory Thief
+
 |Name|Memory Thief [Curse, Incantation, Spirit]|
 |-|-|
 |Scope|local|
@@ -3984,6 +4128,7 @@ If the gem is given to another being within an hour of casting, that being becom
 
 ___
 ### Meteoric Flight
+
 |Name|Meteoric Flight [Air, Fire, Travel]|
 |-|-|
 |Scope|local (global)|
@@ -4015,6 +4160,7 @@ The target cannot be restrained or immobilised by any means other than a higher 
 
 ___
 ### Portal
+
 |Name|Portal [Travel, Earth]|
 |-|-|
 |Scope|local (global)|
@@ -4039,6 +4185,7 @@ For the sake of mechanics, this is a "blink speed" effect.
 
 ___
 ### Transform Mortal
+
 |Name|Transformation Mortal [Curse, Mortal, Nature, Water]|
 |-|-|
 |Scope|local (global)|
@@ -4079,6 +4226,7 @@ ___
 3+4x(2+9) = 47
 
 ### Greater Domain
+
 |Name| Greater Domain [Air, Fire, Water, Earth, Spirit]|
 |-|-|
 |Scope|local (global)|
@@ -4110,6 +4258,7 @@ The caster may instead *join* a domain onto an existing domain, hence expanding 
 
 ___
 ### Greater Cosmic Seal
+
 |Name|Greater cosmic Seal [Air, Earth, Fire, Nature, Water, Barrier]|
 |-|-|
 |Scope|local (global)|
@@ -4141,6 +4290,7 @@ The spell covers an area of 1200ft and lasts for a year. For every extra 4 MP di
 
 ___
 ### Profane Resurrection
+
 |Name|Profane Resurrection [Curse, Profane]|
 |-|-|
 |Scope|global|
@@ -4152,7 +4302,7 @@ ___
 |Components|incantation, kinetic|-1
 |Focus|A symbol of a profane being or concept|-1
 |Material|An item or mortal precious to the target|-2
-|Limitation|spell fails if the target has a "divine" alignment| (-12)
+|Limitation|spell fails if the target has a "divine" alignment|-12
 |Save|Cha (special)|
 
 **Description**: The caster performs an intricate ritual that binds the fate of a willing, mortal target to a profane being with the purpose of returning the target to life. In return, the profane being gains a grasp on the target's fate.
@@ -4176,6 +4326,7 @@ Finally, the resurrected must sacrifice at least 1 level worth of mortals, of th
 
 ___
 ### Regrowth
+
 |Name|Regrowth [Life, Nature]|
 |-|-|
 |Scope|local|
@@ -4209,6 +4360,7 @@ ___
 3+(2+10)x9/2=3+12x9/2=3+6x9= 57
 
  ### Earthquake
+
 |Name|Earthquake [Destruction, Earth]|
 |-|-|
 |Scope|local (global)|
@@ -4279,7 +4431,8 @@ Fourthly, all willing allies are transformed into "beasts" or "fey" of the caste
 - This spell borders on legendary magic, that forever changes the locale where it is cast. When the 24 hours are over, three of the 8 effects caused by the "local" casting of the spell continue to be active for 108 years. Likewise, mortals born in this area tend to have a "spiritual" alignment and fey traits.
 
 ___
- ### Ifrit's Gift
+### Ifrit's Gift
+
 |Name|Ifrit's Gift [Fire, Spirit, Summer]|
 |-|-|
 |Scope|local (global)|
@@ -4313,6 +4466,7 @@ ___
 
 ___
 ### Mage's Oath
+
 |Name|Mage's Oath [Incantation, Curse, Divine]|
 |-|-|
 |Scope|local (global)|
@@ -4345,6 +4499,7 @@ ___
 
 ___
 ### True Storm
+
 |Name|True Storm [Air, Destruction, Spring, Winter]|
 |-|-|
 |Scope|local (global)|
@@ -4380,6 +4535,7 @@ In addition the following effects apply inside the spell:
 
 ___
  ### Wave
+
 |Name|Wave [Spring, Travel, Water, Winter]|
 |-|-|
 |Scope|local (global)|
@@ -4411,6 +4567,7 @@ ___
 
 ____
 ### Avatar
+
 |Name|Avatar [Divine, Profane]|
 |-|-|
 |Scope|local (global)|
@@ -4448,6 +4605,7 @@ Furthermore, when the spell ends and/or the deity leaves the avatar the mortal/c
 
 ____
  ### Edict of Life
+
 |Name|Edict of Life [Curse, Healing, Nature]|
 |-|-|
 |Scope|local(global)|
@@ -4489,6 +4647,7 @@ ____
 
 ____
  ### Gift of the Winds
+
 |Name|Gift of the Winds [Air, Spirit, Travel]|
 |-|-|
 |Scope|local (global)|
@@ -4573,6 +4732,7 @@ ____
 
 ____
 ### Realm of Flame
+
 |Name|Realm of Flame [Destruction, Fire, Spiritual, Summer]|
 |-|-|
 |Scope|local (global)|
@@ -4605,6 +4765,7 @@ ____
 
 ____
  ### True Geomancy
+
 |Name|True Geomancy [Divine, Earth]|
 |-|-|
 |Scope|local (global)|
@@ -4642,6 +4803,7 @@ ____
 
 ____
 ### Undying Realm
+
 |||
 |-|-|
 |Name|Undying Realm [Curse, Divine, Profane, Spiritual]|
@@ -5076,6 +5238,7 @@ ____
 ___
  
  ### Innocence
+
 |Name| []|
 |-|-|
 |Scope||
@@ -5092,6 +5255,7 @@ ___
  
 
  ### Ignorance
+
 |Name| []|
 |-|-|
 |Scope||

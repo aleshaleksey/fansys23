@@ -21,12 +21,14 @@ These properties make constructs excellent workers and guardians.
 
 ___
 ## Golems
+
 **Golems** are "supernatural" constructs. The methods of their construction, like most things supernatural, defy the laws of nature. Typically they are created for tasks which mortals cannot accomplish due to the frailness or limited lifespan of mortal beings. Golems typically continue to carry out these tasks long after their creators pass on.
 - Golems are immune to: "Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "stunned" "incapacitated", "catatonic" and "dying".
 - Golems are at least resistant to "physical" damage and all "energy"[Nat] damage.
 
 ___
 ### Gingerbread Golem
+
 Gingerbread golems, also known as gingerbread men are usually small or tiny pastries animated with magic. They are not generally particularly dangerous.
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
@@ -63,6 +65,7 @@ Gingerbread golems seldom engage in combat, preferring to avoid violence with th
 
 ___
 ### Gingerbread Golem, Warrior
+
 Gingerbread golems, also known as gingerbread men are usually small or tiny pastries animated with magic. They are not generally particularly dangerous.
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
@@ -102,6 +105,7 @@ Gingerbread golems seldom engage in combat, preferring to avoid violence with th
 
 ___
 ### Clay Golem, humanoid Lesser
+
 Clay Golems can be of any size. This affects various parameters. Golems are usually humanoid in shape, but this is not necessarily so.
 ___
 **Size category**: Medium (5ft x 5ft)
@@ -150,6 +154,7 @@ A clay golem has a near-human intelligence, but no will of its own and follows i
 
 ___
 ### Clay Golem, humanoid
+
 Clay Golems can be of any size. This affects various parameters. Golems are usually humanoid in shape, but this is not necessarily so.
 ___
 **Size category**: Large (10ft x 10ft)
@@ -201,6 +206,7 @@ A clay golem has a near-human intelligence, but no will of its own and follows i
 
 ___
 ### Stone Golem, humanoid
+
 Stone Golems can be of any size. This affects various parameters. Golems are usually humanoid in shape, but this is not necessarily so.
 ___
 **Size category**: Large (10ft x 10ft)
@@ -256,6 +262,7 @@ A stone golem has a near-human intelligence, but no will of its own and follows 
 
 ___
 ### Jade Golem, beast
+
 Jade golems are sometimes known as "Sage's Horse" or "Sage's Shield". They are not superior to ordinary stone golems in terms of toughness, but the material is more closely associated with supernatural energies, so powerful mages often create them for particular purposes, a common purpose is as a mount.
 ___
 **Size category**: Huge (20ft x 20ft)
@@ -311,6 +318,7 @@ A jade golem has a near-human intelligence, but no will of its own and follows i
 
 ___
 ### Mithril Golem, humanoid
+
 Mithril Golems can be of any size. This affects various parameters. Golems are usually humanoid in shape, but this is not necessarily so.
 ___
 **Size category**: Huge (20ft x 20ft)
@@ -367,6 +375,7 @@ A mithril golem has a near-human intelligence, but no will of its own and follow
 
 ___
 ### Diamond Golem, humanoid
+
 Diamond Golems can be of any size, but they are rarely larger than medium, due to scarcity of material and how difficult it is to work with.
 ___
 **Size category**: Medium (5ft x 5ft)
@@ -423,6 +432,7 @@ A diamond golem has a human-like intelligence, but no will of its own. It follow
 
 ___
 ## Robots
+
 **Robots** are "natural" constructs, typically made by mortals. In the worlds where they exist, they are the height of non-magical artifice. Since they are merely complex machines, robots lack a spirit and thus have no CHA. Robots that are capable of emulating emotion use Int for Cha rolls. A robot that gains a spirit becomes a golem. 
 
 In general, robots cannot be created or maintained without advanced technologies which are generally lost in most fantasy settings. In general they were created by lost civilisations.
@@ -431,6 +441,7 @@ In general, robots cannot be created or maintained without advanced technologies
 
 ___
 ### Caretaker Bot, lesser
+
 Caretaker bots are created, as the name suggests, to take care of locales or equipment. They are capable of rudimentary repair and cleaning functions, and can generally manipulate small objects. Occasionally they possess defensive functionality along with the instructions for its use. If the object that a caretaker bot is charged with protecting is threatened it will more likely protect it by summoning more capable guards or, if it is small enough, move it to a safer location, than engage the threat directly. Caretaker bots are generally made of long lasting materials that do not require much maintenance. Caretaker bots are seldom humanoid in appearance, as other forms are often more conducive to its function.
 
 As with all robots, they cannot be created or maintained without advanced technologies which are generally lost in most fantasy settings.
@@ -470,6 +481,7 @@ ___
 
 ___
 ### Caretaker Bot, greater
+
 Greater caretaker bots are similar in purpose to smaller caretaker bots but they are used for looking after large structures or facilities. Likewise they can be used for agriculture or disaster management. They are able to build and rebuild structures and simple machines. While they are not primarily made for combat, the size of these machines makes them dangerous if their instructions include guarding, or exclude preservation of mortal lives. Caretaker bots are seldom humanoid in appearance, as other forms are often more conducive to its function.
 
 As with all robots, they cannot be created or maintained without advanced technologies which are generally lost in most fantasy settings.
@@ -512,6 +524,7 @@ ___
 
 ___
 ### Robotic Steed
+
 Robotic steeds seldom look anything like a living steed, but are fast, loyal and tireless.
 
 As with all robots, they cannot be created or maintained without advanced technologies which are generally lost in most fantasy settings.
@@ -556,6 +569,7 @@ ___
 
 ___
 ### Robotic Soldier
+
 Some rulers dream of tireless, perfectly loyal troops that feel neither pain nor fear. Some have succeeded in creating them.
 As with all robots, they cannot be created or maintained without advanced technologies which are generally lost in most fantasy settings.
 
@@ -599,6 +613,7 @@ ___
 
 ___
 ### Robotic Horror
+
 Sometimes a robotic soldier is not enough. There are records of robotic machines created specifically for killing. Sometimes for killing humanoids, sometimes for killing monsters that its creators could not hope to face. Robotic horrors can no longer be built in most settings, but perhaps can be found in the depths of ancient ruins.
 
 As with all robots, they cannot be created or maintained without advanced technologies which are generally lost in most fantasy settings.

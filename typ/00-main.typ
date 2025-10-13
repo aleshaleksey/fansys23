@@ -7,7 +7,7 @@
   ),
   // header: align(right)[_Fantasy Comittee | FS_],
   header: context {
-    let page = here().page();
+    let page = here().page()
     // Get chapters and subchapters
     let subchapters = query(heading.where(level: 2))
     let chapters = query(heading.where(level: 1))
@@ -26,17 +26,17 @@
           break
         }
       }
-      if undone1==false { break }
+      if undone1 == false { break }
     }
     for n in range(page, 0, step: -1) {
       for c in subchapters {
         if c.location().page() == n {
-          subchapter = text(size: 11pt, weight: "thin", style:  "italic", c.body)
+          subchapter = text(size: 11pt, weight: "thin", style: "italic", c.body)
           undone2 = false
           break
         }
       }
-      if (undone2==false) { break }
+      if (undone2 == false) { break }
     }
     let location = chapter + emph(": ") + subchapter
     align(right)[#location]
@@ -53,7 +53,7 @@
 #set par(
   justify: true,
   leading: 0.72em,
-  spacing: 1.4em
+  spacing: 1.4em,
 )
 #set text(
   font: "New Computer Modern",
@@ -70,10 +70,54 @@
 #place(top + center, float: true, scope: "parent")[== A New System for Fantasy Worlds]
 #pagebreak()
 
-#include "01-quick-temp.typ"
+#include "01-quick-start.typ"
 #pagebreak()
-#include "03-movement-temp.typ"
+// #include "03-movement-exploration.typ"
+// #pagebreak()
+// #include "04-combat.typ"
+// #pagebreak()
+// #include "05-skills.typ"
+// #pagebreak()
+// #include "06-abilities.typ"
+// #pagebreak()
+// #include "07-magic-and-spellcasting.typ"
+// #pagebreak()
+// #include "09-races.typ"
+// #pagebreak()
+// #include "10-conditions-types.typ"
+// #pagebreak()
+// #include "11-weapons-armour.typ"
+// #pagebreak()
+// #include "12-equipment-economy.typ"
+// #pagebreak()
+// #include "13-crafting-imbuing.typ"
+// #pagebreak()
+// #include "14-poisons-and-diseases.typ"
+// #pagebreak()
+// #include "15-charm-etc.typ"
+// #pagebreak()
+// #include "16-recipes.typ"
+// #pagebreak()
+// #include "08-spell-list.typ"
+// #pagebreak()
+#include "02-base-rules.typ"
 #pagebreak()
-#include "04-combat-temp.typ"
-#pagebreak()
-#include "02-base-r-temp.typ"
+// #include "monsters-npcs/beasts-and-plants.typ"
+// #pagebreak()
+// #include "monsters-npcs/constructs.typ"
+// #pagebreak()
+// #include "monsters-npcs/divines.typ"
+// #pagebreak()
+// #include "monsters-npcs/humanoids.typ"
+// #pagebreak()
+// #include "monsters-npcs/monsters-and-dragons.typ"
+// #pagebreak()
+// #include "monsters-npcs/profanes.typ"
+// #pagebreak()
+// #include "monsters-npcs/spirits.typ"
+// #pagebreak()
+
+#let link2(url, body) = context {
+  let loc = locate(url).page()
+  link(url)[#body] + " (page " + [#loc] + ")"
+}

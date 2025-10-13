@@ -59,6 +59,7 @@ The reason for different races having different kinds of stat blocks was to refl
 ## Human
 
 ### Human Commoner (level 1)
+
 |HiT|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |10|6|4|1|30ft|-|
@@ -89,6 +90,7 @@ These humans generally prefer to get on with their lives and avoid trouble, but 
 
 ___
 ### Human Peasant (level 2)
+
 |HiT|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |11|13 (*11*)|6 (*6*)|3|30ft|-|
@@ -119,6 +121,7 @@ Beware the humble human farmer working his field! He has had a tough life and su
 
 ____
 ### Human Militia (level 3)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |17/13/12|20 (*16*)|8 (*8*)|5|30ft|-|
@@ -154,6 +157,7 @@ Militiamen will normally perform their combat duty, but will break and flee if t
 
 ___
 ### Human Warrior (level 6)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |19/16/15|44 (*29*)|20 (*15*)|10|30|-|
@@ -194,6 +198,7 @@ A warrior usually carries one heavy weapon weapon and a sidearm. He may also car
 
 ___
 ### Human Knight (level 10)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |25/21/14|65 (*41*)|54 (*29*)|16|30|-|
@@ -234,6 +239,7 @@ A knight usually has a warhorse, squire and attendants. Like a warrior, he will 
 
 ___
 ### Human Magic Knight (level 9)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |23/18/13|44 (*28*)|59 (*35*)|13|30|-|
@@ -304,6 +310,7 @@ Example, Elemental Knight, fire:
 
 ___
 ### Human Scout (level 5)
+
 |HiT|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |15/12/14|23 (*19*)|19 (*15*)|7|35ft|-|
@@ -349,6 +356,7 @@ Scouts are proficient with light blades, light armour, bows and sometimes mechan
 
 ___
 ### Human Assassin (level 7)
+
 |HiT|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |17/14/15|33 (*27*)|26 (*19*)|9|35ft|-|
@@ -398,6 +406,7 @@ DMs should be careful with this NPC, since they can easily kill multiple members
 
 ___
 ### Human Mage, Apprentice (level 2)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |11/11/11|8 (*7*)|12 (*11*)|4|30|-|
@@ -434,6 +443,7 @@ Apart from the most hot-headed, apprentice mages are seldom eager to engage in c
 
 ___
 ### Human Scholar (level 3)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |11/11/11|11 (*9*)|17 (*15*)|5|30|-|
@@ -467,6 +477,7 @@ A scholar will seldom engage in combat if given the choice, although they may fi
 
 ___
 ### Human Elite (level 5)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |12/11/12|23 (*19*)|21 (*17*)|7|30|-|
@@ -498,6 +509,7 @@ Elites seldom carry weapons or wear armour beyond a symbolic dagger or smallswor
 
 ___
 ### Human Mage (level 6)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |13/12/13|20 (*15*)|38 (*28*)|9|30|-|
@@ -536,6 +548,7 @@ In combat, a mage uses their familiar to scout, and then use the appropriate spe
 
 ___
 ### Human Warlock (level 7)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |20/16/16|34 (*22*)|40 (*28*)|11|30|-|
@@ -625,6 +638,7 @@ ___
 ## Elf
 
 ### Elvish Youth (level 1)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |12/11/12|3|7|1|30ft|-|
@@ -656,6 +670,7 @@ An ordinary elf will seldom carry weapons beyond a dagger for no reason. These e
 
 ___
 ### Elf (level 5)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |13/11/13|16 (*16*)|23 (*19*)|6|30ft|-|
@@ -693,6 +708,7 @@ An average elf will carry a sling and knife for self defence, knowing that the w
 
 ____
 ### Elvish Elder (level 13)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |18/18/18|49 (*33*)|76 (*52*)|15|35ft|-|
@@ -738,6 +754,7 @@ Elvish elders seldom carry much on their journeys. They will almost never engage
 
 ___
 ### Elvish Hunter (level 11)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |20/20/18|53 (*43*)|39 (*29*)|13|45ft|-|
@@ -790,6 +807,7 @@ A hunter carries only what they need to exist autonomously and hunt down their p
 
 ___
 ### Elvish Mage (level 10)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |16/13/15|36 (*27*)|58 (*40*)|15|35ft|-|
@@ -835,6 +853,7 @@ ___
 ## Orc
 
 ### Orc (level 2)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |11|14 (*12*)|6 (*6*)|4|30ft|-|
@@ -867,6 +886,7 @@ An orc might have a lower threshold for violence than an average human, but he w
 
 ___
 ### Orcish Hunter (level 8)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |16/15/13|54 (*33*)|28 (*23*)|12|30ft|-|
@@ -903,6 +923,7 @@ An orcish hunter generally runs down its pray, herding it into traps and finishi
 
 ___
 ### Orcish Berserker (level 11)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |17/16/14|75 (*45*)|48 (*28*)|16|30ft|-|
@@ -943,6 +964,7 @@ NB: Be careful when throwing this block at the party.
 
 ___
 ### Orcish Geomancer (level 7)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |17/15/14|34 (*23*)|40 (*28*)|12|30ft|-|
@@ -977,6 +999,7 @@ An orcish geomancer will not fight unless necessary, but takes great joy in dest
 
 ___
 ### Orcish Warlock (level 8)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |17/15/14|39 (*25*)|46 (*32*)|13|30ft|-|
@@ -1016,6 +1039,7 @@ ___
 ## Winged
 
 ### Winged (level 1)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |13/10/12|6|4|1|20ft|Flight (60ft, average, endurance = 2 hours)|
@@ -1042,6 +1066,7 @@ This represents an averaged Winged. They are fairly harmless and will flee rathe
 
 ___
 ### Winged Shepherd (level 4)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |16/12/14|18 (*15*)|14 (*14*)|5|20ft|Flight (60ft, average, endurance = 6 hours)|
@@ -1078,6 +1103,7 @@ Winged Shepherds prefer to avoid conflict. When they fight, they fight to delay 
 
 ___
 ### Winged Scout (level 8)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |18/13/16|42 (*28*)|30 (*23*)|11|20ft|Flight (80ft, good, endurance = unlimited)|
@@ -1118,6 +1144,7 @@ Winged scouts will sooner flee than fight, unless there is something that must b
 
 ___
 ### Winged Wind Mage (level 12)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |19/14/17|50 (*28*)|74 (*52*)|16|20ft|Flight (70ft, good, endurance = 8 hours)|
@@ -1160,6 +1187,7 @@ ___
 ## Beast folk
 
 ### Beast folk (level 2)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |12/11/12|10 (*8*)|12 (*10*)|3|35|Climb (30ft)|
@@ -1195,6 +1223,7 @@ Common beast folk are often proficient with fighting tooth and claw and one form
 
 ___
 ### Beast folk traveller (level 4)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |14/12/13|18 (*16*)|18 (*15*)|6|35|Climb (30ft)|
@@ -1233,6 +1262,7 @@ In combat, a beast folk traveller will attempt to put some distance between them
 
 ___
 ### Beast folk warrior (level 7)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |18/16/14|40 (*28*)|34 (*22*)|11|45ft|Climb (30ft)|
@@ -1278,6 +1308,7 @@ A beast folk warrior prefers to approach its foe stealthily and then rush the fo
 
 ___
 ### Beast folk mystic warrior (level 8)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |18/16/14|40 (*28*)|34 (*28*)|11|55ft|Climb (30ft)|

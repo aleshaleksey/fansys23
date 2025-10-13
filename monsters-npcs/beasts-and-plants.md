@@ -60,6 +60,7 @@ ___
 
 ___
 ### Eagle (level 2)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |13/10/13|12 (*10*)|10 (*9*)|5|10ft|Flight (100ft, average, endurance = 8 hours)|
@@ -87,6 +88,7 @@ Eagles are large raptors that typically hunt ground animals, but can also hunt b
 
 ___
 ### Falcon (level 1)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |15/10/14|7|4|1|10ft|Flight (90ft, good, endurance = 6 hours)|
@@ -115,6 +117,7 @@ Falcons are small (tiny) raptors that hunt other flying creatures.
 
 ___
 ### Owl (level 1)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |13/10/13|4|6|1|10ft|Flight (50ft, average, endurance = 4 hours)|
@@ -145,6 +148,7 @@ Owls are nocturnal raptors that hunt ground based animals. Their feathers are ad
 
 ___
 ### Raven (level 1)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |13/10/13|3|7|1|10ft|Flight (60ft, average, endurance = 4 hours)|
@@ -172,6 +176,7 @@ Ravens are omnivorous, typically black, birds that are primarily scavengers. Thi
 
 ___
 ### Swan (level 2)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |12/10/12|10(*9*)|12(*10*)|5|10ft|Flight (60ft, average, endurance = 10 hours)|
@@ -201,6 +206,7 @@ ___
 
 ___
 ### Cat
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |16/10/14|6|6|2|30ft|Climb (30ft)|
@@ -232,6 +238,7 @@ This block can be used for domestic cats or a wildcat. These predators often co-
 
 ___
 ### Dog
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |15/10/14|8|4|2|30ft|
@@ -262,6 +269,7 @@ This block can be used for domesticated dogs, jackals and foxes. Large dogs shou
 
 ___
 ### Horse, Light (level 2)
+
 **Size category**: Large (10ft x 10ft)
 - Evade: -1, Armour +1
 - Reach: 5ft (long)
@@ -294,6 +302,7 @@ This stat blocks works for normal riding horses. Horses are temperamental creatu
 
 ___
 ### Horse, Heavy (level 3)
+
 **Size category**: Large (10ft x 10ft)
 - Evade: -1, Armour +1
 - Reach: 5ft (long)
@@ -326,6 +335,7 @@ This is used for cart horses and can also be used for oxen
 
 ___
 ### Horse, War (level 4)
+
 **Size category**: Large (10ft x 10ft)
 - Evade: -1, Armour +1
 - Reach: 5ft (long)
@@ -359,6 +369,7 @@ This is used for warhorses. Unlike other horses these are combat trained. War ho
 
 ___
 ### Sheep (level 1)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |12/11/11|8|6|3|40|-|
@@ -391,6 +402,7 @@ A sheep is a domestic quadrupedal hoofed ruminant that stands about 3-4 feet tal
 
 ___
 ### Swarm of Bees
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |13/11/13|18 (*14*)|16 (*12*)|7|10ft|Flight (40ft, perfect, 6 hours)|
@@ -425,6 +437,7 @@ ___
 
 ___
 ### Deer/Antelope (level 1)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |12/11/11|7|4|2|50ft|-|
@@ -452,6 +465,7 @@ This stat block can be used for deer or antelopes. For reindeer use [Horse, ligh
 
 ___
 ### Bat
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |16/10/14|2|4|1|10ft|climb (10ft), fly 40ft (good, endurance = 2 hours)|
@@ -482,6 +496,7 @@ This block can be used for bats. These are nocturnal flying mammals that general
 
 ___
 ### Bear (level 6)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |13/13/9|44 (*29*)|20 (*15*)|10|40|climb 30ft|
@@ -515,6 +530,7 @@ This block can be used for brown or polar bear. It is possible for bears to be o
 
 ___
 ### Boar (level 4)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |13/13/9|30 (*21*)|14 (*11*)|8|40||
@@ -547,6 +563,7 @@ This block is used for aggressive, wild pigs (boars). Boars are aggressive omniv
 
 ___
 ### Crocodile
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |16/17/11|33 (*21*)|21 (*17*)|9|30|Swim (40ft)|
@@ -580,6 +597,7 @@ Crocodiles are an ancient, semi-aquatic predator that dwells in warm rivers, swa
 
 ___
 ### Crocodile, Caiman
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |15/15/12|26 (*17*)|18 (*15*)|8|25|Swim (50ft)|
@@ -614,6 +632,7 @@ Caymans are the smaller cousins of crocodiles. They better adapted for hunting f
 
 ___
 ### Elephant (level 7)
+
 - **Size**: Huge
 - **Carrying capacity**
   - Light: 1056lb
@@ -655,6 +674,7 @@ Elephants dwell in herds and range widely. They are not necessarily aggressive (
 
 ___
 ### Rat
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |14/10/15|4|2|1|30ft|Climb (30ft)|
@@ -687,6 +707,7 @@ This block can be used for any small rodent. Rats are resilient and prolific, ea
 
 ___
 ### Snake, Grass
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |15/12/14|6|4|1|30ft|Swim (20ft)|
@@ -719,6 +740,7 @@ This block represents a grass snake: A small, non-venomous snake that dwells in 
 
 ___
 ### Snake, Constrictor
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |15/12/14|6|4|1|30ft|Climb (30ft), Swim (20ft)|
@@ -752,6 +774,7 @@ This block represents an average sized constrictor snake, such as a python (3-8m
 
 ___
 ### Snake, Viper
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |15/12/14|6|4|1|30ft|Climb (30ft)|
@@ -783,6 +806,7 @@ This block represents a venomous viper. Vipers mainly hunt rodents and other sma
 
 ___
 ### Snake, Cobra
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |14/12/13|18 (*15*)|16 (*13*)|6|30ft|Climb (30ft), Swim (20ft)|
@@ -817,6 +841,7 @@ Cobra venom makes these snakes extremely dangerous. Especially to solitary trave
 
 ___
 ### Wolf
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |12/11/11|14 (*12*)|6 (*6*)|4|40ft||
@@ -854,6 +879,7 @@ ___
 
 ___
 ### Fish, Medium
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |13/12/12|12 (*11*)|6 (*6*)|3|-|Swim (50ft)|
@@ -883,6 +909,7 @@ This stat block can be used for any medium sized fish (which is actually quite b
 
 ___
 ### Octopus
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |11/11/11|7 (*7*)|4 (*4*)|2|-|Swim (40ft)|
@@ -913,6 +940,7 @@ Octopuses are marine invertebrates with a high degree of intelligence and 8 limb
 
 ___
 ### Octopus, Giant
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |14/14/12|56 (*35*)|33 (*25*)|2|-|Swim (40ft)|
@@ -943,6 +971,7 @@ Giant octopuses inhabit reefs, shipwrecks and the depths.
 
 ___
 ### Seal
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |11/11/11|22 (*16*)|18 (*15*)|3|-|Swim (50ft)|
@@ -976,6 +1005,7 @@ Seals are pack animals, and are both intelligent and inquisitive. This stat bloc
 
 ___
 ### Shark, Reef
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |15/13/13|12 (*11*)|6 (*6*)|6|-|Swim (60ft)|
@@ -1010,6 +1040,7 @@ Reef sharks are "smaller" sharks that hunt in the complex terrain of reefs and o
 
 ___
 ### Shark, Greater
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |17/19/12|28 (*16*)|21 (*15*)|11|-|Swim (80ft)|
@@ -1051,6 +1082,7 @@ ___
 
 ___
 ### Giant Snail
+
 - **Size**: Large
 - **Natural Armour**: Armour +10
 - **Carrying capacity**
@@ -1087,6 +1119,7 @@ Giant snails are large herbivorous molluscs. They are usually docile, but can la
 
 ___
 ### Giant Slug
+
 - **Size**: Large
 - **Carrying capacity**
 - **Carrying capacity**
@@ -1121,6 +1154,7 @@ Giant slugs are large, poisonous, herbivorous molluscs. They are usually docile,
 
 ___
 ### Giant Crocodile
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |17/21/11|38 (*42*)|54 (*34*)|17|40|Swim (50ft)|
@@ -1154,6 +1188,7 @@ Giant crocodiles are an apex predator that will hunt just about anything that en
 
 ___
 ### Giant Snake, Constrictor
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |16/17/11|47 (*29*)|34 (*22*)|12|30ft|Swim (30ft)|
@@ -1187,6 +1222,7 @@ Where there are giant animals, there are also giant snakes that eat them. Giant 
 
 ___
 ### Giant Eagle (level 6)
+
 - **Size**: Large
 - **Carrying capacity**
   - Light: 384lb
@@ -1222,6 +1258,7 @@ Eagles are large raptors that typically hunt ground animals, but can also hunt b
 
 ___
 ### Giant Owl (level 4)
+
 - **Size**: Large
 - **Carrying capacity**
   - Light: 128lb
@@ -1259,6 +1296,7 @@ Owls are nocturnal raptors that hunt ground based animals. Their feathers are ad
 
 ___
 ### Giant Swan (level 5)
+
 - **Size**: Large
 - **Carrying capacity**
   - Light: 144lb
@@ -1292,6 +1330,7 @@ Swans are relatively large, herbivorous waterbirds that guard their nests and yo
 
 ___
 ### Giant Sheep (level 6)
+
 - **Size**: Huge
 - **Carrying capacity**
   - Light: 352lb
@@ -1331,6 +1370,7 @@ Sheep stand at 3-4 feet at the withers. Giant sheep are often 3 times as tall, a
 
 ___
 ### Giant Boar (level 8)
+
 - **Size**: Large
 - **Carrying capacity**
   - Light: 368lb
@@ -1370,6 +1410,7 @@ This block is used for aggressive, wild pigs (boars) of unusual size. Boars are 
 
 ___
 ### Giant Bear (level 10)
+
 - **Size**: Huge
 - **Carrying capacity**
   - Light: 1248lb
@@ -1416,6 +1457,7 @@ ___
 
 ___
 ### Hadrosaur (level 7)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |12/14/9|56 (*32*)|23 (*17*)|40ft|Swim (20ft)|
@@ -1445,6 +1487,7 @@ This is a large, herbivorous dinosaur, that dwells mostly in marsh and wetland t
 
 ___
 ### Raptor (levels 2, 4)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |(level 2) 14/10/11|12 (*12*)|6 (*6*)|3|45|-|
@@ -1498,6 +1541,7 @@ Plants mostly produce nourishment from air, water, minerals and sunlight. Some, 
 
 ___
 ### Dark Cabbage
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |10/10/11|5|7|3|10ft|Climb (10ft)|
@@ -1532,6 +1576,7 @@ A single dark cabbage is no danger to a seasoned warrior, but a field of dark ca
 
 ___
 ### Giant Flytrap
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |12/12/9|24 (*21*)|4 (*4*)|4|5ft|Climb (5ft)|
@@ -1564,6 +1609,7 @@ Flytraps stalk their prey in deep undergrowth. When a flytrap detects unsuspecti
 
 ___
 ### Orc Eating Tuber
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |8/10/6|38 (*18*)|32 (*27*)|11|10ft|Dig (5ft)|
@@ -1602,6 +1648,7 @@ Orc Eating Tubers are quite intelligent, despite appearance.
 
 ___
 ### Shephard Tree, elder
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |18/22/2|450 (*107*)|290 (*104*)|47|40ft|Climb (40ft)|
@@ -1641,6 +1688,7 @@ Shephard Trees are highly intelligent, but generally benign. That said some will
 
 ___
 ### Tripede
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |13/12/10|20 (*15*)|32 (*27*)|6|40ft|Climb (40ft)|

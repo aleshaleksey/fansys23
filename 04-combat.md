@@ -521,6 +521,7 @@ Attacks of opportunity require careful observation of the target. One cannot mak
 
 ___
 #### Attacks of Opportunity Table
+
 |Action|Provokes AoO|
 |-|-|
 |Move out of threatened square|Yes|
@@ -553,7 +554,7 @@ A character may ride a mount into combat (and in combat). In this case, for move
 - When the mount falls, the rider makes a "ride" or "acrobatics" roll (threshold=16) as a reaction to fall the first 10ft safely and land on their feet. Otherwise they suffer the usual falling rules.
 
 ___
-## Basic combat manoeuvres and tactical movement.
+## Basic combat manoeuvres and tactical movement
 
 This is a collection of unsorted rules related to basic physical combat.
 - Dropping/falling "prone" does not cost movement.

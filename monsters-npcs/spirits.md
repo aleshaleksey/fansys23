@@ -33,6 +33,7 @@ Elementals are spirits of the four elements. They are generally immune to physic
 
 ___
 ### Flame Sprite
+
 |Level|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|-|
 |1|13/10/13|4 (*4*)|8 (*8*)|2|40ft|-|
@@ -94,6 +95,7 @@ In combat, the touch of a Flame Sprite is in itself dangerous, but it prefers to
 
 ___
 ### Gnome
+
 |Level|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|-|
 |1|13/10/13|4 (*4*)|7 (*7*)|2|Walk (20ft)|Dig (5ft)|
@@ -155,6 +157,7 @@ In combat they prefer to use "[Down](../08-spell-list.md#down)" and "[Shape Eart
 
 ___
 ### Water Sprite
+
 |Level|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|-|
 |1|14/10/14|4 (*4*)|7 (*7*)|2|10ft|Swim (50ft)|
@@ -210,6 +213,7 @@ These sprites inhabit aquifers and bodies of water, but they are most noticeable
 
 ___
 ### Wind Sprite
+
 |Level|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|-|
 |1|14/10/14|4 (*4*)|7 (*7*)|2|-|Fly (50ft, perfect, endurance = unlimited)|
@@ -265,6 +269,7 @@ Wind sprites hate lightning and vacate an area when they sense a storm brewing.
 
 ___
 ### Undine: Lesser
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |16/10/15|23 (*17*)|51 (*33*)|11|20ft|50ft(swim)|
@@ -304,6 +309,7 @@ Undines are often bound summoners as guardians or caretakers of specific locales
 
 ___
 ### Undine: Greater
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |17/10/17|78 (*39*)|122 (*57*)|22|30ft|Swim (100ft)|
@@ -345,6 +351,7 @@ Greater undines are typically close associates of elemental lords, or guardians 
 
 ___
 ### Ifrit: Lesser
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |15/14/15|30 (*18*)|51 (*33*)|12|30|Flight (60ft)|
@@ -401,6 +408,7 @@ In combat, Ifrits will use spells such as "Least Curse" to weaken a mortal. If t
 
 ___
 ### Ifrit: Greater
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |17/17/17|88 (*39*)|108 (*56*)|21|30|Flight (80ft, good, endurance = 8 hours), Blink (40ft)|
@@ -458,6 +466,7 @@ In combat, Ifrits will use spells such as "Least Curse" or "Madness" to weaken a
 
 ___
 ### Djinn, Lesser
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |19/12/19|34 (*22*)|47 (*29*)|12|-|Flight (120ft, perfect, endurance = unlimited)|
@@ -489,6 +498,7 @@ Evasion:+3
 
 ___
 ### Djinn, Greater
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |23/14/22|66 (*40*)|134 (*56*)|22|-|Flight (140ft, perfect, endurance = unlimited)|
@@ -522,6 +532,7 @@ Evasion:+3
 
 ___
 ### Earth Elemental, Lesser
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |18/18/12|47 (*39*)|34 (*22*)|12|30ft|Dig (20ft)|
@@ -557,6 +568,7 @@ Armour:+5
 
 ___
 ### Earth Elemental, Greater
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |21/22/14|120 (*55*)|80 (*41*)|22|30ft|Dig (20ft)|
@@ -592,6 +604,7 @@ Armour:+7
 
 ___
 ## Spirits: Fey
+
 Fey are spiritual beings associated in some way to the natural world. They tend to inhabit the membrane layers between the material and spirit world and travel readily, if not freely, between the two (although not freely). Fey spirits may be malicious of benevolent, but even if whimsical they are bound strictly by their own logic. Fey spirits have the following properties:
 - Fey beings are immune to "physical" damage, as their physical form is either unnecessary or not "real". The immunity to physical damage does not apply to damage caused by weapons made of iron or steel.
 - Fey beings are immune to "stunned", "immobilised", "crippled", "bleeding", "poisoned", "paralysed" as well as "aphonia" and "deafened".
@@ -600,12 +613,14 @@ Fey are spiritual beings associated in some way to the natural world. They tend 
 
 ___
 ### Faun (fey)
+
 A faun, similar to a satyr, is a fey that takes the material form of a humanoid with a goat's horns and legs. Fauns, more often than not are generally benign, and unlike Satyrs, children of Bacchus, are not easily consumed by revelry. Instead they live out hidden lives in the wilderness. A faun's music is said to exude a strong fey magic and has the property of charming mortals.
 
 **Size category**: Medium (5ft x 5ft)
 - Reach: 5ft
 - Carry capacity: (40lb light, 80lb medium, 200lb heavy, 300lb drag)
 ___
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |15/12/15|30 (*22*)|29 (*17*)|10|35ft|Blink (20ft)|
@@ -647,12 +662,14 @@ Deflection: +1
 
 ___
 ### Changeling
+
 Changelings are fey beings that make their way onto the mortal realm by way of exchange. That exchange is necessarily with a humanoid child whose place and form they take. A changeling lives out the humanoid's life for them, in humanoid form. When the lifespan of the humanoid they replaced expires, the changeling returns to the fey realm. Should the humanoid they displaced be returned by some means to the mortal realm the changeling is shunted back to the fey realm. Should the humanoid die, so does the changeling.
 
 **Size category**: Usually medium (5ft x 5ft) (may be small or large depending on its template)
 - Reach: 5ft
 - Carry capacity: (40lb light, 80lb medium, 200lb heavy, 300lb drag)
 ___
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |15/13/15|30 (*20*)|34 (*24*)|10|30ft|Blink (30ft)|
@@ -693,6 +710,7 @@ Deflection: +1
 |Damage Immunity|||All physical Damage. The immunity to physical damage does not apply to damage caused by weapons made of iron or steel.|
 
 ___
+
 ### Doppelganger
 Doppelgangers are spirits that take the exact form of a living mortal. A doppelganger cannot change its form again while its current "template" is alive. For this reason, doppelgangers frequently seek out and kill their "template" when they tire of a form.
 
@@ -700,6 +718,7 @@ Doppelgangers are spirits that take the exact form of a living mortal. A doppelg
 - Reach: 5ft
 - Carry capacity: (52lb light, 104lb medium, 260lb heavy, 390lb drag)
 ___
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |14/12/14|34 (*27*)|34 (*27*)|10|40ft|Blink (30ft)|
@@ -737,6 +756,7 @@ This stat block represents a doppelganger who has taken the form of a common hum
 
 ___
 ### Brownie
+
 A brownie is a tiny spirit which associates itself with a humanoid dwelling. Brownies tend to be benevolent and bring blessings to the dwellings they inhabit. Should the dwelling be destroyed, the brownie must find a new dwelling before the full moon or perish.
 
 **Size category**: Diminutive (5/8ft x 5/8ft)
@@ -745,6 +765,7 @@ A brownie is a tiny spirit which associates itself with a humanoid dwelling. Bro
 - [DEX save]: +3, [STR save]: -3
 - Carry capacity: (3lb light, 6lb medium, 15lb heavy, 22.5lb drag)
 ___
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |19/11/19|8 (*7*)|14 (*12*)|5|20ft|Flight (30ft, good, endurance = 2 hours)|
@@ -782,6 +803,7 @@ Deflection: +1
 
 ___
 ### Pixie
+
 Pixies are tiny spirits that dwell in moorland and ruins and seem to endlessly seek amusement. Sometimes their amusement is harmless, or even beneficial to humanoids, while sometimes it is akin to mischief or worse.
 
 **Size category**: Tiny (5/4ft x 5/4ft)
@@ -790,6 +812,7 @@ Pixies are tiny spirits that dwell in moorland and ruins and seem to endlessly s
 - [DEX save]: +2, [STR save]: -2
 - Carry capacity: (6lb light, 12lb medium, 30lb heavy, 45lb drag)
 ___
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |19/11/19|19 (*15*)|28 (*20*)|5|20ft|Flight (60ft, good, endurance = 4 hours)|
@@ -828,12 +851,14 @@ Deflection: +2
 
 ___
 ### Dryad
+
 Dryads are spirits of trees that take a material form. A dryad cannot move beyond the edge of the root system of its tree. For this reason, dryads associated with birches are particularly powerful. A dryad whose tree perishes likewise perishes. A dryad can abandon its tree and return to the spirit realm on the first day of winter without perishing. Should it do so, however, its tree perishes.
 
 **Size category**: Medium (5ft x 5ft)
 - Reach: 5ft
 - Carry capacity: (6lb light, 12lb medium, 30lb heavy, 45lb drag)
 ___
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |18/14/18|51 (*27*)|70 (*38*)|16|25ft|Blink (50ft)|
@@ -873,6 +898,7 @@ Deflection: +2
 
 ___
 ### Nymph/Naiad
+
 Nymphs are similar to undines and are sometimes known as naiads. They are the spirits of natural streams and charm humanoids, sometimes involuntarily. They generally take the form of attractive female humanoids, but can also take the form of kingfishers and otters. Unlike other fey, however, they straddle the boundary between between "spirits" and "divinity", and as such, while generally benevolent, make for dangerous foes. A nymph cannot leave the catchment of its stream. Furthermore, should its stream dry up or be dammed for a full year, the nymph perishes. A nymph can leave its stream and pass to the spirit realm by travelling to its estuary. Should it do so, however, the stream dries up. Only the sacrifice of an undine can restore it.
 
 **Size category**: Medium (5ft x 5ft)
@@ -880,6 +906,7 @@ Nymphs are similar to undines and are sometimes known as naiads. They are the sp
 - Carry capacity: (32lb light, 64lb medium, 240lb heavy, 720lb drag)
 
 ___
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |22/17/22|60 (*36*)|76 (*58*)|23|30ft|Swim (100ft), Blink (30ft)|
@@ -929,12 +956,14 @@ Foresight: +2
 
 ___
 ### Hound (fey)
+
 Fey hounds, occasionally called "ghost hounds", are dark spirits of the hunt that are completely loyal to the hunt masters of the wild hunt. These hounds rejoice in the chase and in tormenting their prey once they close in. It should be noted that whatever their origins, these spirits are much wilier and more dangerous than wolves or dogs. They are particularly dangerous because they seldom lose the scent. In other words as long as the hound has your scent, the wild hunt will find you. And the hound will not lose its scent.
 
 **Size category**: Medium (5ft x 5ft)
 - Reach: 5ft
 - Carry capacity: (56lb light, 112lb medium, 280lb heavy, 420lb drag)
 ___
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |14/13/14|24 (*16*)|23 (*19*)|8|60ft|Blink (30ft)|
@@ -973,12 +1002,14 @@ Deflection: +2
 
 ___
 ### Hunter (fey)
+
 The wild hunt is a phenomenon wherein fey associated with the more predatory side of nature gather under a huntsmaster, and following a ritual declares the prey for this hunt. The hunt will then continue until the prey is caught and sacrificed to the spirits of the primeval wild. While any being may become a hunter, most hunters are wild fey spirits devoted to the hunt. Each hunter generally drives half a dozen hounds. Sometimes hunters compete amongst each other, sometimes they cooperate to bring down the most dangerous of prey.
 
 **Size category**: Medium (5ft x 5ft)
 - Reach: 5ft
 - Carry capacity: (56lb light, 112lb medium, 280lb heavy, 420lb drag)
 ___
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |26/20/19|50 (*40*)|54 (*34*)|15|40ft|Blink (30ft)|
@@ -1018,12 +1049,14 @@ Hide Armour (fey source): +5
 
 ___
 ### Huntsmaster (fey)
+
 The wild hunt is a phenomenon wherein fey associated with the more predatory side of nature gather under a huntsmaster, and following a ritual declares the prey for this hunt. The huntsmaster is usually a minor fey lord, or at the very least an ancient fey. The huntsmaster leads the hunt in a ceremonial manner and serves to protect the hunt, be it to protect individual hunters, or to protect the hunt from hunters who have strayed from the strange code of ethics that governs the hunt, or from other beings that would seek to impede the hunt. Huntsmasters are an opponent seldom encountered, and an encounter seldom survived.
 
 **Size category**: Medium (5ft x 5ft)
 - Reach: 5ft
 - Carry capacity: (64lb light, 128lb medium, 320lb heavy, 480lb drag)
 ___
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |30/22/25|101 (*53*)|107 (*59*)|23|40ft|Blink (60ft), cosmic (1 realm)|
@@ -1066,6 +1099,7 @@ Hide Armour (fey source): +5
 
 ___
 ### True Fairy
+
 At first glance easily mistaken for grigs, pixies or brownies, fairies are the epitome of what it is to be fey and are the materialisation the boundary of the natural and spirit world. Fairies often appear as tiny humanoids with insectoid wings. Fairies can communicate with all mortals and spirits. Fairies possess absurdly powerful magic, but often naive and gullible. For this reason tragedies involving fairies are not uncommon. When a fairy is deceived and killed, it may become a [Demon](profanes.md#demon-fire-or-ice) if an oak or lilly is not planted at the site of its demise before the next full moon. If a fairy is broken by torment or torture, it becomes a glitch of half of its original level.
 
 **Size category**: Tiny (5/4ft x 5/4ft)
@@ -1074,6 +1108,7 @@ At first glance easily mistaken for grigs, pixies or brownies, fairies are the e
 - [DEX save]: +2, [STR save]: -2
 - Carry capacity: (6lb light, 12lb medium, 30lb heavy, 45lb drag)
 ___
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |28/19/28|92 (*54*)|254 (*83*)|31|20ft|Flight (60ft, perfect, endurance = unlimited), Blink (60ft), cosmic (1 realm)|
@@ -1132,6 +1167,7 @@ Deflection: +5
 
 ___
 ### Wisp
+
 Wisps are spirits associated with swamps. They take the form of glowing orbs and tend to lure travellers off safe paths and to their deaths.
 
 **Size category**: Small (5/2ft x 5/2ft)
@@ -1140,6 +1176,7 @@ Wisps are spirits associated with swamps. They take the form of glowing orbs and
 - [DEX save]: +1, [STR save]: -1
 - Carry capacity: - (incorporeal)
 ___
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |20/14/20|50 (*18*)|70 (*42*)|16|-|Flight (50ft, perfect, endurance = unlimited), Blink (20ft)|

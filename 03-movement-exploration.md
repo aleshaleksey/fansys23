@@ -223,7 +223,7 @@ The effects of vigorous motion are as following:
 - Ranged attacks take a -2 penalty on the attack roll.
 - Disadvantage on "[Fortify](05-skills.md#fortify)", "[Sleight of Hand](05-skills.md#sleight-of-hand)", "[Tinker](05-skills.md#tinker)", "[Heal](05-skills.md#heal)" and "[Spellworking](05-skills.md#spellworking)" rolls.
 
----
+___
 ## Exploration
 Exploration and travel are some of the main activities outside of combat and social interactions. When exploring and travelling characters and rules deal with:
 - Navigation and getting lost.
@@ -437,6 +437,7 @@ All travel rolls are determined by the terrain type, the weather modifier from i
 - There is also a simplified table provided if the full rule is deemed burdensome.
 
 #### Summary of Simplified Travel Rules (Camping and navigation combined)
+
 |Terrains                                         |Threshold            |
 |-------------------------------------------------|---------------------|
 |Hill, Plains, Roads, Ruin, Woodlands             |5                    |
@@ -451,6 +452,7 @@ It should be noted that the simplified table has generally lower thresholds. Thi
 #### Summary of Full Travel Rules
 
 _Summary table for navigation:_
+
 |Terrains (navigation)            |Threshold       |Additional Effects|
 |---------------------------------|----------------|------------------|
 |Roads                            |5               |                  |
@@ -464,6 +466,7 @@ _Summary table for navigation:_
 |Homeland/"Terrain Mastery"       |+2 bonus to roll|                  |
 
 _Summary table for camping:_
+
 |Terrains (camping)            |Threshold         |Additional Effects|
 |------------------------------|------------------|------------------|
 |Plains, Roads, Woodlands      |5                 |                  |
@@ -535,7 +538,7 @@ A character wearing medium or heavy armour during a long rest must succeed on a 
 The full rules on resting can be found in [Rest and Recuperation](04-combat.md#rest-and-recuperation).
 
 ___
-## Environmental hazards. (TODO)
+## Environmental hazards
 Depending on the nature of an environment being explored, it is possible to encounter various hazards. This ranges from weather related hazards like storms, extreme heat and , to terrain dangers such as raging rivers, avalanches and rockfall, to "man"-made dangers such as traps in dungeons.
 
 ___
@@ -703,7 +706,7 @@ If an entity's SP/MP dice maximum reaches zero through any form of privation, it
 The loss of dice due to suffocation, dehydration, starvation and insomnia is considered "temporary". A suitable period of rest (see above) restores the dice total and any lost dice.
 
 ___
-## Supernatural Terrain.
+## Supernatural Terrain
 Not all terrain is natural or "worked" (ie "man made"). It is not that rare, in a fantastic world, to find supernatural terrain.
 
 This can be labyrinths and lands where distances to not follow the normal laws of physics and geometry (non euclidean spaces). For example the enchanted forest where walking in a straight line will return you to your starting point, but walking in a circle will still get you to a different point altogether.
@@ -749,7 +752,7 @@ The explanation given for the difficulties surrounding afterlives, is that the g
 
 Where an afterlife is part of the Spirit Realm, it is found in the "deep" layers, hence all the hazards of the deep layer of the spirit realm exists there.
 
-#### General Afterlife rules.
+#### General Afterlife rules
 - All rests take twice as long as usually (so a long rest might last 16 hours (or two days) instead of 8 hours (or 1 day)).
 - Spells and supernatural abilities that heal HP, SP and MP damage, as well as those that cure conditions, do not function.
 - Undead lose 1 HP for every round spent in an afterlife realm (aka, they graduate to full dead and are released).

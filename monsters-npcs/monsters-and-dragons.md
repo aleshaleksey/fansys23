@@ -41,6 +41,7 @@ Monsters are mortals. They generally breath, eat, drink and sleep, but not all o
 
 ___
 ### Cradle Imp
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |14/10/12|6|6|2|20ft|Fly (30ft, poor, endurance = 1 hour)|
@@ -68,6 +69,7 @@ Cradle Imps are small predatory monsters that are nigh indistinguishable from pl
 
 ___
 ### Mog
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |15/10/14|8|4|2|10ft|Swim (20ft), Fly (60ft, average, endurance = 2 hours)|
@@ -98,6 +100,7 @@ Mogs are small vicious flying creatures that resemble dogs, with sharp jaws and 
 
 ___
 ### Sweet Ooze
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |12/11/11|10 (*9*)|8 (*8*)|2|20ft|Climb (20ft)|
@@ -130,6 +133,7 @@ This monster dwells in cracks in dry rocks and exudes a sweet smell to attract p
 These oozes are themselves devoured by some kinds of fungus, and as such they prefer dry climates.
 ___
 ### Snatchers' Hands
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |12/10/12|19 (*17*)|3 (*3*)|3|20ft|Dig (5ft)|
@@ -156,6 +160,7 @@ These are monster that live in soft ground and swamps. They have a small body an
 
 ___
 ### Mudcrawler
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |15/11/14|17 (*15*)|3 (*3*)|3|40ft|Dig (10ft), Climb (40ft)|
@@ -223,6 +228,7 @@ These huge bird-like monsters hunt primarily humanoids. They hunt their prey by 
 
 ___
 ### Hive Beast
+
 |Level (type)|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|-|
 |1 (young:small)|13/10/13|8|5|4|30ft|(climb) 30ft|
@@ -307,6 +313,7 @@ Hive beasts are dangerous, not because of their individual strength, but because
 
 ___
 ### Fell Beast
+
 |Level|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|-|
 |1 (young:medium)|11/9/11|7|4|2|40ft|climb(20ft)|
@@ -378,6 +385,7 @@ Fell beasts easily navigate complex terrain and have been known to track their p
 
 ___
 ### Troll Head
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |15/15/10|56 (*32*)|18 (*9*)|12|30ft||
@@ -526,6 +534,7 @@ Demonic slugs are, like demonic snails, vicious predators that devour anything t
 
 ___
 ### The worm that sings
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |17/16/18|56 (*29*)|58 (*40*)|15|30ft|Cosmic*|
@@ -564,6 +573,7 @@ Worms that sing are thought to be capable of spellcasting. Those that encounter 
 
 ___
 ### Troll
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |18/18/10|86 (*38*)|22 (*23*)|15|40ft||
@@ -601,6 +611,7 @@ Trolls have the ability to recover swiftly from even fatal wounds. They have bee
 
 ___
 ### Mudwalker
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |22/19/17|158 (*79*)|42 (*42*)|23|60ft|Climb (40ft)|

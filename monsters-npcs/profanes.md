@@ -35,6 +35,7 @@ This section covers undead beings that have a physical body. They may be resista
 
 ___
 ### Corporeal Horror, Lesser
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |10/10/10|40 (*25*)|24 (*19*)|9|30ft|Climb (20ft)|
@@ -71,6 +72,7 @@ A corporeal horror is produced when incomplete remains are animated together, pr
 
 ___
 ### Corporeal Horror, Greater
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |14/13/12|107 (*47*)|79 (*43*)|21|30ft|Climb (20ft)|
@@ -113,6 +115,7 @@ A corporeal horror is produced when incomplete remains are animated together, pr
 
 ___
 ### Skeleton, humanoid (levels 1-5)
+
 |Level|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|-|
 |1|15/13/12|-|-|9|30|-|
@@ -158,6 +161,7 @@ Skeletons are proficient with any tools, weapons and armours they knew in life. 
 
 ___
 ### Zombie, humanoid (levels 1-5)
+
 |Level|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|-|
 |1|9/10/9|-|-|16|20|-|
@@ -212,6 +216,7 @@ In most settings vampires are beings of intense hunger, both for sustenance (blo
 
 ___
 ### Vampire Spawn
+
 - **Size**: Medium
 - **Natural Armour**: Armour +2
 - **Saves**: STR, INT, WIS
@@ -262,6 +267,7 @@ Vampire spawn tend to retain part of the personality and most of the memories th
 
 ___
 ### Vampire
+
 - **Size**: Medium
 - **Natural Armour**: Armour +2. A vampire may or may not be proficient and wearing armour.
 - **Saves**: STR, INT, WIS
@@ -326,6 +332,7 @@ A vampire does not always prefer to choose to attain its goals through violence,
 
 ___
 ### Vampire Lord
+
 - **Size**: Medium
 - **Natural Armour**: Armour +4, an ancient vampire may also be wearing armour.
 - **Saves**: STR, INT, WIS
@@ -393,10 +400,12 @@ A vampire does not always prefer to choose to attain its goals through violence,
 
 ___
 ## Undead: Incorporeal
+
 This category comprises mostly ghosts, phantoms, shades and other malicious spirits of once living mortals. They are generally invulnerable to physical damage, and even if they are, they cannot be destroyed permanently by the application of physical force. Their attacks are particularly dangerous since they often drain the vitality, which is much more difficult to protect against than conventional attacks.
 
 ___
 ### Cursed Shade (lesser)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |11/10/11|-|25 (*22*)|7|40ft|Climb (40ft), Fly (30ft, perfect, endurance = unlimited)|
@@ -430,6 +439,7 @@ NB: Cursed Shades are extremely dangerous as profane damage attacks HP directly.
 
 ___
 ### Cursed Shade
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |11/10/11|-|72 (*48*)|15|40ft|Climb (40ft), cosmic (1 realm)|
@@ -464,6 +474,7 @@ NB: Cursed Shades are extremely dangerous as profane damage attacks HP directly.
 
 ___
 ### Earthbound Shade (lesser)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |11/10/11|-|26 (*22*)|7|40ft|Climb (40ft)|
@@ -496,12 +507,14 @@ NB: Shades are dangerous since they cannot be harmed by most weapons and are hig
 
 ___
 ## Fiends
+
 **Fiends** are entities opposed to creation or mortal-kind. In realms where they exist, devils and demons are fiends. Sometimes divine entities fall and become fiends. Fiends that do not reach minus their total HP from "divine" damage will be reborn elsewhere, at another time (hence cycles of dark lord and heroes).
 
 Fiends do not breath, sleep or age, but some eat/drink. Fiends are vulnerable to "divine" damage, and are resistant to "physical", "fire", "ice", "lightning" and "light" damage. They are immune to "disease" and "poison" as well as "unconscious" and "dying".
 
 ___
 ### Imp
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |15/10/15|4|8|3|20ft|Flu (40ft, good, endurance = 4 hours), Climb (20ft)|
@@ -538,7 +551,9 @@ In combat an imp attempts to sneak up on its target and burn it with its flames.
 
 ___
 ### Minor Demon
+
 Here the stat block for vaguely humanoid minor demons of levels 1-5 is presented.
+
 |Level|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|-|
 |1|10/10/10|4|6|2|30||
@@ -604,6 +619,7 @@ Minor demons may be proficient with one or more weapon. In this case they will u
 ___
 
 ### Shadow Flesh Fiend, Human
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |19/16/15|38 (*28*)|28 (*14*)|11|30ft|Climb (30ft)|
@@ -652,6 +668,7 @@ When a shadow flesh fiend is created by removing parts from a being of a being w
 
 ___
 ### Succubus/Incubus
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |13/10/13|27 (*21*)|61 (*31*)|13|30ft|fly (60ft, medium, endurance = 4 hours)|
@@ -693,6 +710,7 @@ If a succubus must fight, it will use magic to charm the most combat capable opp
 
 ___
 ### Fiendish Warrior
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |18/16/12|52 (*31*)|48 (*29*)|14|40ft||
@@ -748,6 +766,7 @@ Some fiendish warriors have wings and can fly at 50ft.
 
 ___
 ### Demon (Fire or Ice)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |28/28/16|170 (*56*)|194 (*80*)|32|40ft|Fly 90ft (average, endurance = unlimited), Blink 60ft, Cosmic I|
@@ -825,6 +844,7 @@ A demon attempts to keep its demonic realm secret and protected, as the demonic 
 
 ___
 ### Unicorn, Black
+
 **Size category**: Large (10ft x 10ft)
 - Evade: -1, Armour +1, Deflection +6
 - Reach: 5ft (long)

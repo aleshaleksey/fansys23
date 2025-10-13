@@ -28,6 +28,7 @@ The abilities and knowledge an angel is endowed with depends on the purpose it w
 
 ___
 ### Lesser Messenger
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |16/-/15|31 (*24*)|31 (*24*)|9|30ft|Fly, (100ft, good, endurance = unlimited)|
@@ -75,6 +76,7 @@ Lesser messengers prefer to avoid combat and will not retaliate against attacks 
 
 ___
 ### Watcher
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |19/-/16|63 (*33*)|95 (*43*)|19|30ft|Fly (100ft, good, endurance = unlimited)|
@@ -127,6 +129,7 @@ Watchers have free will. Some sages believe that belies the true purpose of thei
 
 ___
 ### Seraph
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |21(22)/-/19(17)|152 (*56*)|175 (*63*)|30|30ft|Fly (100ft, good, endurance = unlimited), cosmic (1 realm per day)|
@@ -189,6 +192,7 @@ A seraph likely has some degree of free will. Sages believe that this is an elem
 
 ___
 ## Glitches
+
 Glitches are aberrant divine beings born of flaws in creation made manifest. The abilities that glitches possess often break fundamental laws and premises of creation and sometimes even logic. They are extremely dangerous, even to other divine beings.
 - Glitches are divine entities, and as such are immune to all "natural" damage and resistant to "divine" damage.
 - They are immune to "surprised", "charmed", "frightened", "stunned" and "dying".
@@ -199,6 +203,7 @@ Glitches are aberrant divine beings born of flaws in creation made manifest. The
 ___
 
 ### Abyssal Blade
+
 |HiT/Surprised/Touch|SP       |MP       |HP|Speed (walk)|Speed (other)|
 |-------------------|---------|---------|--|------------|-------------|
 |23/18/23           |46 (*30*)|64 (*32*)|11|30ft        |Climb (30ft) |
@@ -243,6 +248,7 @@ ___
 
 ___
 ### Unicorn, True
+
 **Size category**: Large (10ft x 10ft)
 - Evade: -1, Armour +1, Deflection +6
 - Reach: 5ft (long)

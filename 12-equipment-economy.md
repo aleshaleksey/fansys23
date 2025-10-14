@@ -180,7 +180,7 @@ Importantly crafting time can be shared between several artisans. Thus if an ite
 
 ### Weapons
 
-See the "[weapons properties table](11-weapons-armour.md#weapon-table)" for details on what the weapons do.
+See the ["weapons properties table"](11-weapons-armour.md#weapon-table) for details on what the weapons do.
 
 
 | Weapon          | Weight (lb) | Cost (sp) | Material  Cost (sp) | crafting days | "ancient" | "medieval" | "late"   |
@@ -248,7 +248,7 @@ See the "[weapons properties table](11-weapons-armour.md#weapon-table)" for deta
 
 ### Armour
 
-See the "[armour properties table](11-weapons-armour.md#the-armour-table)" for details on what the armour does.
+See the ["armour properties table"](11-weapons-armour.md#the-armour-table) for details on what the armour does.
 
 
 | Armour Type     | Weight (lb) | Cost (sp) | Material Cost (sp) | crafting days | "ancient" | "medieval" | "late"   |
@@ -575,9 +575,9 @@ This table provides some numbers for how much of a resource one can expect to ha
 
 **Horses**: Horses are hoofed ruminants, prized for their speed, strength and endurance. They are used for mounts and to tow vehicles.
 
-- A riding horse (use "[light horse](monsters-npcs/beasts-and-plants.md#horse-light-level-2)") weighs between 500-1500lb and is trained to carry a rider or pulling a vehicle, but is not combat trained.
-- A draught horse weighs between 1500-2500lb and is trained for pulling a vehicle, but not riding or combat. Use "[heavy horse](monsters-npcs/beasts-and-plants.md#horse-heavy-level-3)".
-- A war horse weighs between 1000-2000lb and is trained for either riding or pulling, but is trained for combat. Use "[war horse](monsters-npcs/beasts-and-plants.md#horse-war-level-4)".
+- A riding horse (use ["light horse"](monsters-npcs/beasts-and-plants.md#horse-light-level-2)) weighs between 500-1500lb and is trained to carry a rider or pulling a vehicle, but is not combat trained.
+- A draught horse weighs between 1500-2500lb and is trained for pulling a vehicle, but not riding or combat. Use ["heavy horse"](monsters-npcs/beasts-and-plants.md#horse-heavy-level-3).
+- A war horse weighs between 1000-2000lb and is trained for either riding or pulling, but is trained for combat. Use ["war horse"](monsters-npcs/beasts-and-plants.md#horse-war-level-4).
 
 **Humanoid Slave**: Humanoid slaves are used as servants, for menial labour, or as gladiators (amongst other roles). Slaves must be properly trained and indoctrinated to prevent them escaping. A mistreated slave may attempt to kill its master and/or escape. High-magic society may use supernatural means to bind more dangerous or valuable slaves. Societies that use slaves generally obtain them either by breeding or raiding and capturing. Some societies may sentence certain criminals, or defeated political rivals to a life of slavery. In such societies slaves are usually not particularly expensive, because of high availability and the omnivorous nature of most humanoids (you can feed them almost anything and they will survive). *Since slavery is often a contentious topic, it should be approached sensibly by players and game masters alike.*
 

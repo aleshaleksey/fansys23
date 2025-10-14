@@ -684,8 +684,8 @@ A kraken makes 8 attacks with its tentacles. It can attack targets smaller than 
 |Deflection||| Reduce the damage from a ranged supernatural attack by [1d4 + SAP + [MP dice expended]d4] as long as it is not esoteric as a reaction|
 |Esoteric Deflection||| Reduce the damage from a "esoteric" ranged attack by [1d6 + [2 x MP dice expended]], as a reaction to taking esoteric damage|
 |||||
-|"[Spellcasting: Global](../06-abilities.md#spellcasting-global)"||||
-|"[Spellcasting: Water VII](../06-abilities.md#spellcasting-local)" |Threshold=24||Prefers: "[Transform Mortal](../08-spell-list.md#transform-mortal)", "[Create Secret Path](../08-spell-list.md#create-secret-path)", "[Inner Voice](../08-spell-list.md#inner-voice)", "[Lesser Cosmic Seal](../08-spell-list.md#lesser-cosmic-seal)", "[Mirage](../08-spell-list.md#mirage)", "[Balance of Elements](../08-spell-list.md#balance-of-elements)", "[See Spell](../08-spell-list.md#see-spell)", "[Water Ward](../08-spell-list.md#water-ward)", "[Dusk](../08-spell-list.md#dusk)", "[Winter's Touch](../08-spell-list.md)"|
+|["Spellcasting: Global"](../06-abilities.md#spellcasting-global)||||
+|["Spellcasting: Water VII"](../06-abilities.md#spellcasting-local) |Threshold=24||Prefers: ["Transform Mortal"](../08-spell-list.md#transform-mortal), ["Create Secret Path"](../08-spell-list.md#create-secret-path), ["Inner Voice"](../08-spell-list.md#inner-voice), ["Lesser Cosmic Seal"](../08-spell-list.md#lesser-cosmic-seal), ["Mirage"](../08-spell-list.md#mirage), ["Balance of Elements"](../08-spell-list.md#balance-of-elements), ["See Spell"](../08-spell-list.md#see-spell), ["Water Ward"](../08-spell-list.md#water-ward), ["Dusk"](../08-spell-list.md#dusk), ["Winter's Touch"](../08-spell-list.md)|
 |||||
 |Resistance|||"Poison", "Cold", "Necrotic", "Percussive", "Pressure"|
 |Resistance|||"Restrained", "Immobilised", "Stunned", "Paralysed"|
@@ -735,7 +735,7 @@ ___
 |Grapple|+14||A chimera can grapple with its claws, or the lion/dragon head.|
 |Monster Attack IV|||A chimera can attack once with each head, once with its tail, and once with its claws. C chimera cannot attack an entity of size medium or smaller with more than one attack of its heads in a single turn.|
 |||||
-|Flaming Blast|Threshold=22|3d6+2 [Fire]|Range=20ft. The chimera's dragon head can blast fire in a 20ft cone. If it uses an MP die, the blast deals an extra 1d6 damage and the range is extended by 10ft. The chimera can expend up to 7 MP dice for a single blast. (NB: This acts like the "[Elemental Blast](../06-abilities.md#blast-elemental-blast)" in the cone form.)|
+|Flaming Blast|Threshold=22|3d6+2 [Fire]|Range=20ft. The chimera's dragon head can blast fire in a 20ft cone. If it uses an MP die, the blast deals an extra 1d6 damage and the range is extended by 10ft. The chimera can expend up to 7 MP dice for a single blast. (NB: This acts like the ["Elemental Blast"](../06-abilities.md#blast-elemental-blast) in the cone form.)|
 |||||
 |[Alert](../06-abilities.md#alert)|||A chimera cannot be surprised|
 |[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||(cost = 1SP dice) A chimera can grapple targets when it makes a claw attack, or one with its dragon or lion head..|
@@ -779,7 +779,7 @@ ___
 |[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||(cost = 1SP dice) A griffon can grapple targets when it makes a claw attack.|
 |[Counterstrike](../06-abilities.md#counterstrike)|||A griffon may make an attack of opportunity against an attacker striking it with a melee attack|
 |[Mighty II](../06-abilities.md#mighty-ii)|||A griffon can carry much more than a monster of its strength ordinarily might|
-|"[Sprinter](../06-abilities.md#sprinter)"|||A griffon can run at x3 its base speed, and sprint at x5 of its base walking speed.|
+|["Sprinter"](../06-abilities.md#sprinter)|||A griffon can run at x3 its base speed, and sprint at x5 of its base walking speed.|
 |||||
 |Resistant|||"Fear", "Charm"|
 |Keen Senses: Sight, Hearing|||A griffon has advantage of observe, rolls based on sight and hearing.|
@@ -819,7 +819,7 @@ ___
 |||||
 |[Counterstrike](../06-abilities.md#counterstrike)|||A hippogriff may make an attack of opportunity against an attacker striking it with a melee attack|
 |[Mighty II](../06-abilities.md#mighty-ii)|||A hippogriff can carry much more than a monster of its strength ordinarily might|
-|"[Sprinter](../06-abilities.md#sprinter)"|||A hippogriff can run at x3 its base speed, and sprint at x5 of its base walking speed.|
+|["Sprinter"](../06-abilities.md#sprinter)|||A hippogriff can run at x3 its base speed, and sprint at x5 of its base walking speed.|
 |||||
 |Resistant|||"Fear", "Charm"|
 |Keen Senses: Sight, Hearing|||A griffon has advantage of observe, rolls based on sight and hearing.|
@@ -862,7 +862,7 @@ ___
 |[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||(cost = 1SP dice) An owl-griff can grapple targets when it makes a claw attack.|
 |[Counterstrike](../06-abilities.md#counterstrike)|||An owl-griff may make an attack of opportunity against an attacker striking it with a melee attack|
 |[Mighty II](../06-abilities.md#mighty-ii)|||An owl-griff can carry much more than a monster of its strength ordinarily might|
-|"[Sprinter](../06-abilities.md#sprinter)"|||An owl-griff can run at x3 its base speed, and sprint at x5 of its base walking speed.|
+|["Sprinter"](../06-abilities.md#sprinter)|||An owl-griff can run at x3 its base speed, and sprint at x5 of its base walking speed.|
 |||||
 |Resistant|||"Fear", "Charm"|
 |Keen Senses: Sight, Hearing|||An owl-griff has advantage of observe, rolls based on sight and hearing.|
@@ -897,7 +897,7 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Beak|+4|3|(reach=0ft)|
-|"[Sprinter](../06-abilities.md#sprinter)"|||A sparrow-griff can run at x3 its base speed, and sprint at x5 of its base walking speed.|
+|["Sprinter"](../06-abilities.md#sprinter)|||A sparrow-griff can run at x3 its base speed, and sprint at x5 of its base walking speed.|
 |[Fleet](../06-abilities.md#fleet)|||A sparrow-griff can hide even in light concealment|
 |[Stalker](../06-abilities.md#stalker)|||A sparrow-griff can hide as a secondary action|
 |||||
@@ -1021,7 +1021,7 @@ ___
 |[Deflection](../06-abilities.md#deflection)|||A unicorn can can reduce damage from ranged supernatural attacks by 1d4+7+([MP dice]d4) as a reaction.|
 |[Esoteric Deflection](../06-abilities.md#esoteric-deflection)|||A unicorn can, as a reaction, reduce the damage from a "esoteric" ranged attack by [1d6 + [2 x MP dice expended]]|
 |Radiant deflection|HiT: +4||A radiant power surrounds a unicorn, protecting them from harm|
-|[Spellcasting: Incantation VI](../06-abilities.md#spellcasting-local)|Threshold=19||Favourite Spells: "[Least Spike](../08-spell-list.md#least-spike)", "[Sour](../08-spell-list.md#sour)", "[Least Heal](../08-spell-list.md#least-heal)", "[Least Vengeance](../08-spell-list.md#least-vengeance)", "[Meadow of Flame](../08-spell-list.md#meadow-of-flame)", "[Wind Walk](../08-spell-list.md#wind-walk)", "[Cure](../08-spell-list.md#cure)", "[Greater Xenophonia](../08-spell-list.md#greater-xenophonia)", "[Isolate Essence](../08-spell-list.md#isolate-essence)", "[Pact](../08-spell-list.md#pact)", [Heart Ward](../08-spell-list.md#heart-ward)", "[Spirit Restoration](../08-spell-list.md#spirit-restoration)", "[Razor Wind](../08-spell-list.md#razor-wind)", "[Otherworld Step](../08-spell-list.md#otherworld-step)"|
+|[Spellcasting: Incantation VI](../06-abilities.md#spellcasting-local)|Threshold=19||Favourite Spells: ["Least Spike"](../08-spell-list.md#least-spike), ["Sour"](../08-spell-list.md#sour), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Vengeance"](../08-spell-list.md#least-vengeance), ["Meadow of Flame"](../08-spell-list.md#meadow-of-flame), ["Wind Walk"](../08-spell-list.md#wind-walk), ["Cure"](../08-spell-list.md#cure), ["Greater Xenophonia"](../08-spell-list.md#greater-xenophonia), ["Isolate Essence"](../08-spell-list.md#isolate-essence), ["Pact"](../08-spell-list.md#pact), [Heart Ward](../08-spell-list.md#heart-ward)", ["Spirit Restoration"](../08-spell-list.md#spirit-restoration), ["Razor Wind"](../08-spell-list.md#razor-wind), ["Otherworld Step"](../08-spell-list.md#otherworld-step)|
 |[Spellsong III](../06-abilities.md#spellsong-i-iv)|||A unicorn's song can alter the nature of magic around it|
 |[Sprinter](../06-abilities.md#sprinter)|||A unicorn can run at x3 its base speed, and sprint x5 its base speed.|
 |[Mighty I](../06-abilities.md#mighty-i)|||Can carry more weight than your average beast|
@@ -1121,8 +1121,8 @@ ___
 |Greater Vitality|||A werewolf restores all SP and MP (but not dice) at the end of a short rest, as well as 1 HP. A werewolf restores HP fully following a long rest.|
 |Anathema: Silver|||Silver negates a werewolf's resistances and "Greater Vitality"|
 |Alternate Form: Wolf, Giant Wolf|1 MP dice||As a main action, a werewolf can transform into a wolf, or back into its humanoid form. Any equipment, or possessions are not transformed. On nights within 2 nights of the full moon a lesser werewolf must success|
-|"[Tracker: Swift](../06-abilities.md#tracker-swift)"|||A greater werewolf can track while moving at full speed.|
-|"[Terrain Mastery: Forest](../06-abilities.md#terrain-mastery)"|||A greater werewolf gains +2 to "fortify", "stealth", "harvest", "track", "navigate", "prospect" and "creature handling" in forests.|
+|["Tracker: Swift"](../06-abilities.md#tracker-swift)|||A greater werewolf can track while moving at full speed.|
+|["Terrain Mastery: Forest"](../06-abilities.md#terrain-mastery)|||A greater werewolf gains +2 to "fortify", "stealth", "harvest", "track", "navigate", "prospect" and "creature handling" in forests.|
 |||||
 |Skills|-|-|Usually "athletics" +11, "fortify" +9, "swim" +8, "harvest" +8, +9 "observe", +5 "sense motive"|
 |||||
@@ -1520,7 +1520,7 @@ An earthbound dragon may be a guardian of the elemental nodes of earth or territ
 
 Whatever its motives, a dragon pursues its goals and objectives with the mindset of a being that has millennia at its disposal, and will seldom move quickly, unless its hand is forced. It may choose to deal with mortals if it suits its goals or fancy.
 
-Earthbound dragons are formidable opponents, even though they lack flight and the usual dragon breath. It will use its considerable intelligence and centuries of experience to the best of its ability. It will use gnomes and earth elementals in order to keep it appraised of potential threats and dispatch golems to neutralise them if appropriate. Its lairs are guarded by "[Greater Cosmic Seal](../08-spell-list.md#greater-cosmic-seal)" and "[Greater Domain](../08-spell-list.md#greater-domain)" as well as lesser spells. If combat is inevitable, it will prepare with "[False Regrowth](../08-spell-list.md#false-regrowth)" before engaging.
+Earthbound dragons are formidable opponents, even though they lack flight and the usual dragon breath. It will use its considerable intelligence and centuries of experience to the best of its ability. It will use gnomes and earth elementals in order to keep it appraised of potential threats and dispatch golems to neutralise them if appropriate. Its lairs are guarded by ["Greater Cosmic Seal"](../08-spell-list.md#greater-cosmic-seal) and ["Greater Domain"](../08-spell-list.md#greater-domain) as well as lesser spells. If combat is inevitable, it will prepare with ["False Regrowth"](../08-spell-list.md#false-regrowth) before engaging.
 
 In combat an earthbound dragon studies its opponents and strikes quickly and mercilessly.
 - It will use spells such as "slumber" and "dusk" to its advantage.

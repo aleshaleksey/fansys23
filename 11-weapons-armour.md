@@ -124,9 +124,9 @@ Proficiency with a weapon type eliminates both the penalty and the damage to sel
 ___
 ### Weapons, damage and governing stats
 
-Weapon damage is almost always natural physical damage (see "[damage type](10-conditions-types.md#damage-types)"). However, certain abilities like "[spirit strike](06-abilities.md#spirit-strike)" can change this. Weapons deal damage based on the damage dice which are specific to each weapon (see the [weapon table](#weapon-table) below) plus the bonus based on its governing stat (as well as material bonus and potentially other bonuses). For example a hand axe has an attack bonus of [[NAP] + [STR]] and deals [1d6 + [STR]] damage.
+Weapon damage is almost always natural physical damage (see ["damage type"](10-conditions-types.md#damage-types)). However, certain abilities like ["spirit strike"](06-abilities.md#spirit-strike) can change this. Weapons deal damage based on the damage dice which are specific to each weapon (see the [weapon table](#weapon-table) below) plus the bonus based on its governing stat (as well as material bonus and potentially other bonuses). For example a hand axe has an attack bonus of [[NAP] + [STR]] and deals [1d6 + [STR]] damage.
 
-Weapon attacks are generally targeted attacks that rely on NAP and are "[governed](04-combat.md#attacks-and-damage-bonuses)" by one of STR or DEX. For example a hand axe is always governed by STR, a bow is always governed by DEX. However, some, mostly melee, weapons can be governed by either (STR/DEX) as per character choice. If a weapon that that can be governed by either is used with DEX, then [DEX] is added to the attack bonus, but there is no stat bonus added to the damage unless the character has the "[weapon finesse](06-abilities.md#weapon-finesse)" boon.
+Weapon attacks are generally targeted attacks that rely on NAP and are ["governed"](04-combat.md#attacks-and-damage-bonuses) by one of STR or DEX. For example a hand axe is always governed by STR, a bow is always governed by DEX. However, some, mostly melee, weapons can be governed by either (STR/DEX) as per character choice. If a weapon that that can be governed by either is used with DEX, then [DEX] is added to the attack bonus, but there is no stat bonus added to the damage unless the character has the ["weapon finesse"](06-abilities.md#weapon-finesse) boon.
 ___
 ### Improvised Weapons
 
@@ -234,7 +234,7 @@ Unarmed combat is the use of one's own body to effectively neutralise targets. I
 
 **Disarming** is the act of liberating a foe of their weapon. Also grants proficiency with "sunder". Ranged weapons cannot be used for disarming or sundering. It follows the rules set out in "Basic Martial Manoeuvres".
 
-**Grapple** is the act of restricting the movement of your foe using your body or held items. It covers the "grapple" and "restrain" manoeuvres and follows the "[Basic Martial Manoeuvres](04-combat.md#basic-martial-manoeuvres)" rules.
+**Grapple** is the act of restricting the movement of your foe using your body or held items. It covers the "grapple" and "restrain" manoeuvres and follows the ["Basic Martial Manoeuvres"](04-combat.md#basic-martial-manoeuvres) rules.
 
 **Strikes** are the use of appendages or protruding body parts to deal percussive or piercing damage to a target.
 
@@ -245,7 +245,7 @@ Unarmed combat is the use of one's own body to effectively neutralise targets. I
 ___
 ### Light blades
 
-This is something of a misnomer. Light blades refers to smaller one handed bladed weapons that weight no more than 2lb. It also refers to certain thrown weapons whose use is similar to that of bladed weapons. Light blades are typically easily hidden. All light blades can cause "bleeding". Not all light blades have the light properties. All blades give a +1 HiT to proficient wielders who are not "disabled". Wielding two blades gives a +2 total "shield" bonus to HiT if the wielder also has "[Offhand fighting II](06-abilities.md#offhand-fighting-i-iv)".
+This is something of a misnomer. Light blades refers to smaller one handed bladed weapons that weight no more than 2lb. It also refers to certain thrown weapons whose use is similar to that of bladed weapons. Light blades are typically easily hidden. All light blades can cause "bleeding". Not all light blades have the light properties. All blades give a +1 HiT to proficient wielders who are not "disabled". Wielding two blades gives a +2 total "shield" bonus to HiT if the wielder also has ["Offhand fighting II"](06-abilities.md#offhand-fighting-i-iv).
 
 
 |Weapon|Special Properties|Manoeuvres|
@@ -269,7 +269,7 @@ This is something of a misnomer. Light blades refers to smaller one handed blade
 ___
 ### Heavy blades
 
-These are the legendary blades of legend, and the symbol of a warrior. Heavy blades are fearsome bladed weapons. All items in this category except Falchions are "long". All heavy blades cause "bleeding". All blades give a +1 "shield" bonus to HiT to proficient wielders who are not "disabled". Wielding two blades gives a +2 total "shield" bonus to HiT if the wielder also has "[Offhand fighting II](06-abilities.md#offhand-fighting-i-iv)".
+These are the legendary blades of legend, and the symbol of a warrior. Heavy blades are fearsome bladed weapons. All items in this category except Falchions are "long". All heavy blades cause "bleeding". All blades give a +1 "shield" bonus to HiT to proficient wielders who are not "disabled". Wielding two blades gives a +2 total "shield" bonus to HiT if the wielder also has ["Offhand fighting II"](06-abilities.md#offhand-fighting-i-iv).
 
 |Weapon|Special Properties| Manoeuvres|
 |-|-|-|
@@ -512,7 +512,7 @@ ___
 
 ### Armour and its relationship with [HiT]
 
-Targeted attacks are rolled against "[HiT](02-base-rules.md#hit-threshold-hit)". [HiT] represents how effective/powerful/precise a target attack has to be to harm the target. It is made of the following components, all of which stack:
+Targeted attacks are rolled against ["HiT"](02-base-rules.md#hit-threshold-hit). [HiT] represents how effective/powerful/precise a target attack has to be to harm the target. It is made of the following components, all of which stack:
 
 - Initial Hit (ALWAYS 10).
 - Base (general experience bleeding through to various aspects of defense).
@@ -583,7 +583,7 @@ Armour tends to restrict movement, somewhat. This is reflected in several penalt
 - Medium Armour gives a -2 penalty to all CON rolls related to endurance.
 - Heavy Armour gives a -4 penalty to all CON rolls related to endurance and a -2 penalty to attack rolls.
 
-**Armour and resting**: Likewise, armour is not pyjamas and wearing it during long rests may in some cases prevent its wearer from resting properly (see"[Combat: Resting, amelioration and armour](04-combat.md#resting-amelioration-and-armour)").
+**Armour and resting**: Likewise, armour is not pyjamas and wearing it during long rests may in some cases prevent its wearer from resting properly (see["Combat: Resting, amelioration and armour"](04-combat.md#resting-amelioration-and-armour)).
 
 ___
 ### The Armour Table

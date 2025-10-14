@@ -241,7 +241,7 @@ ___
 **Special**:
 - Berserk does not have an SP dice cost. However, when the berserker trance is over, you lose a number of HP equal to the level of the Berserk ability (so for "Berserk I" you lose 1HP: see table below).
 - At the end of the trance you lose the SP that was gained at the start of the berserker trance. If this would leave the character with negative SP, the character's SP drops to zero, and the character instead loses a number of HP equal to its [base]. For example, a character with [base]=2 (levels 6-10) would lose 2 HP in this case. This HP loss is IN ADDITION to the normal HP loss that occurs regardless at the end of the trance.
-- While "berserk", a character may not use INT based skills and has disadvantage on all WIS and CHA based skills with the exception of "[Observe](05-skills.md#observe)". It has disadvantage on "[Tinker](05-skills.md#tinker)" rolls.
+- While "berserk", a character may not use INT based skills and has disadvantage on all WIS and CHA based skills with the exception of ["Observe"](05-skills.md#observe). It has disadvantage on ["Tinker"](05-skills.md#tinker) rolls.
 - While "berserk", a character cannot cast spells with a kinetic component and must roll a 1d6 when trying to cast spells with an incantation component, losing the spell on a 3 or lower.
 - While "berserk", a character may not use abilities such as "precision attack".
 
@@ -386,7 +386,7 @@ ___
 
 **Description**: Sacrifice precision for power when making melee attacks. (Swing like a helicopter).
 
-**Action**: When making an attack with a melee weapon that is governed by STR, take a penalty up to your [Nat] to your attack roll and take the same number as a bonus to your damage if you hit. If the weapon is a two-handed "[heavy weapon](11-weapons-armour.md#weapon-properties)", the bonus to damage is doubled.
+**Action**: When making an attack with a melee weapon that is governed by STR, take a penalty up to your [Nat] to your attack roll and take the same number as a bonus to your damage if you hit. If the weapon is a two-handed ["heavy weapon"](11-weapons-armour.md#weapon-properties), the bonus to damage is doubled.
 
 ___
 #### Greater Manoeuvre I-V
@@ -410,7 +410,7 @@ ___
 
 **Description**: Your counterstrike can be triggered by attacks against any entity in your reach, not just yourself.
 
-**Prerequisite**: 10 SP dice + "[Counterstrike](#counterstrike)".
+**Prerequisite**: 10 SP dice + ["Counterstrike"](#counterstrike).
 
 **Original state**: Counterstrike is triggered only by attacks against yourself.
 
@@ -570,7 +570,7 @@ ___
 
 **Description**: Use a reaction and potentially MP dice to reduce damage from "supernatural" ranged attack.
 
-**Effect**: Reduce the damage from a ranged supernatural attack by [1d4 + SAP + [MP dice expended]d4], as long as the damage type does NOT fall into the "[esoteric](10-conditions-types.md#esoteric-damage)" category. 
+**Effect**: Reduce the damage from a ranged supernatural attack by [1d4 + SAP + [MP dice expended]d4], as long as the damage type does NOT fall into the ["esoteric"](10-conditions-types.md#esoteric-damage) category. 
 
 **Action**: As a reaction to being hit by a ranged "supernatural" attack, declare "deflection".
 
@@ -578,7 +578,7 @@ ___
 - The ability cannot be used when you are surprised, or otherwise incapable of using reaction.
 
 **Prerequisite**:
-- "[Arcane Interception](#arcane-interception)" or "[Parry](#parry)"
+- ["Arcane Interception"](#arcane-interception) or ["Parry"](#parry)
 - "Elementalism" or any "Spellcasting: Local".
 - 7 MP dice total
 
@@ -602,7 +602,7 @@ These are OPTIONAL rules for when playing with alignment:
 
 **Prerequisites**:
 - Proficiency with the given weapon group.
-- "[Holy Strike](#holy-strike)"
+- ["Holy Strike"](#holy-strike)
 - 12 SP dice total and 18 MP dice total.
 
 **Table**:
@@ -648,7 +648,7 @@ ___
 
 **Prerequisites**:
 - Proficiency with at least one weapon group.
-- Any "[Elementalism](#elementalism-elemental-blast)" or [Elemental Spellcasting](#spellcasting-local) of the same element.
+- Any ["Elementalism"](#elementalism-elemental-blast) or [Elemental Spellcasting](#spellcasting-local) of the same element.
 - 5 SP dice total and 6 MP dice total.
 
 ___
@@ -656,7 +656,7 @@ ___
 
 **Type**: (Class S)
 
-**Description**: Use a reaction and MP to reduce damage from "[esoteric](10-conditions-types.md#esoteric-damage)" ranged attack.
+**Description**: Use a reaction and MP to reduce damage from ["esoteric"](10-conditions-types.md#esoteric-damage) ranged attack.
 
 **Effect**: Reduce the damage from a "esoteric" ranged attack by [1d6 + [2 x MP dice expended]].
 
@@ -665,7 +665,7 @@ ___
 **Limitations**:
 - The ability cannot be used when you are surprised, or otherwise incapable of using reactions.
 
-**Prerequisite**: "[Deflection](#deflection)" + 17 MP dice total.
+**Prerequisite**: ["Deflection"](#deflection) + 17 MP dice total.
 
 ___
 #### Holy Strike
@@ -695,7 +695,7 @@ ___
 
 **Description**: Exactly as "Divine Strike", but replace the word "Divine" with "Profane".
 
-**Prerequisites**: Requires "[Unholy Strike](#unholy-strike)" instead of "[Holy Strike](#holy-strike)".
+**Prerequisites**: Requires ["Unholy Strike"](#unholy-strike) instead of ["Holy Strike"](#holy-strike).
 
 ___
 #### Spell Strike
@@ -736,7 +736,7 @@ ___
 
 **Description**: Spend 1 MP dice to deal "supernatural" damage with a "natural" weapon attack.
 
-**Limitation**: This must be an attack as defined in "[Basic Martial Manoeuvres](04-combat.md#basic-martial-manoeuvres)". It cannot be used in combination with abilities (other than "Multi-attack").
+**Limitation**: This must be an attack as defined in ["Basic Martial Manoeuvres"](04-combat.md#basic-martial-manoeuvres). It cannot be used in combination with abilities (other than "Multi-attack").
 - OPTIONAL: If playing with alignment rules, a character who gains "Spirit Strike" should be spiritually aligned, and cannot use this ability if they lose this alignment.
 
 **Prerequisites**: 12 MP dice total and 18 SP dice total.
@@ -785,7 +785,7 @@ ___
 
 **Special**:
 - The alternate form is always the same. For example, if a character transforms into a cat, it is always the same cat.
-- A character with alternate form can ignore the transformative effects of spells such as "[Least Transformation](08-spell-list.md#least-transformation)" and "[Bestial Transformation](08-spell-list.md#bestial-transformation)" by using their main action to transform back into one of their forms.
+- A character with alternate form can ignore the transformative effects of spells such as ["Least Transformation"](08-spell-list.md#least-transformation) and ["Bestial Transformation"](08-spell-list.md#bestial-transformation) by using their main action to transform back into one of their forms.
 - If some abilities/properties of a chosen form is sealed at a lower level of alternate form, they become unlocked upon reaching the correct level of "alternate form".
 - When a character transforms, its physical stats, movement modalities, and properties that depend on the physical form of the new form are replaced (this includes resistances and senses). Mental stats and supernatural abilities are not affected. SP dice, MP, MP dice, and HP are not affected.
 - A character returns to its original form when it dies, but not necessarily when it is merely unconscious.
@@ -874,7 +874,7 @@ ___
 **Limitations**:
 - You must find a suitable beast and keep it still for long enough to bind it. It can attempt a Cha save vs your [Sup + [Cha]] to not be bound. You cannot attempt to bind the same beast for a month if it succeeds. If it succeeds three times, you can never bind it.
 - If a beast has a higher level than your "Bind Beast" limit, you cannot bind it.
-- If you do something, or order the beast to do something that would normally make it a "nemesis" (see "[Skills: Persuade](05-skills.md#persuade)"), it gets a Cha save vs your [Sup + [Cha]] at advantage to break the binding.
+- If you do something, or order the beast to do something that would normally make it a "nemesis" (see ["Skills: Persuade"](05-skills.md#persuade)), it gets a Cha save vs your [Sup + [Cha]] at advantage to break the binding.
 - You can never have more than one bound beast at a time.
 - You must sacrifice 1HP of your own to the beast every day to keep it bound. Sacrificing another character's HP transfers the beast to their control for the day: Every day this is done the beast gets a Cha save vs the temporary master's [Sup + [Cha]] to break free.
 
@@ -956,7 +956,7 @@ ___
 
 |Spellcasting type|Resistance|Ability|
 |-|-|-|
-|Elemental|Immunity to given element|"[Elemental Touch](#touch-elemental-touch)"|
+|Elemental|Immunity to given element|["Elemental Touch"](#touch-elemental-touch)|
 |Incantation|Resistance to all "physical"|"Spirit Strike"|
 |Kinetic|Immunity to "immobilise", "grapple", "restrain"|"Parry"|
 |Natural|Resistance to all "energy"|"Guide"|
@@ -967,7 +967,7 @@ ___
 
 **Type**: (Class B-S)
 
-**Description**: Expend MP dice to attempt to "[charm](10-conditions-types.md#charmed)" one or more targets as a "main action".
+**Description**: Expend MP dice to attempt to ["charm"](10-conditions-types.md#charmed) one or more targets as a "main action".
 
 **Action**: Declare "charm" and your target as a main action and expend the requisite number of MP dice. The target must succeed a WIS save vs your INT threshold. If it fails it is charmed for the full duration.
 
@@ -1131,7 +1131,7 @@ A character then picks one of the following two forms:
 - Touch
 - Blast (+ Cone)
 
-Subsequently, when a character gains the "elementalism" ability again, they may may either pick additional "[forms](#forms)" and "[effects](#effects)" for an elementalism they already possess, or begin again with a new [element](#elements). The "elementalism" ability can be taken any number of times, as long as prerequisites are met.
+Subsequently, when a character gains the "elementalism" ability again, they may may either pick additional ["forms"](#forms) and ["effects"](#effects) for an elementalism they already possess, or begin again with a new [element](#elements). The "elementalism" ability can be taken any number of times, as long as prerequisites are met.
 
 Thus an aspiring elementalist may expend one level point to gain "Elementalism: Air, Blast" and then at a higher level spend another level point to gain the "Prone" effect for it. Then, later still, the same character may spend another level point to take the "Elementalism: Air, Circle". At this point, this elementalist would be able to shoot air blasts targetting a single target, cones of air targetting a small area, or blasts of air that scour wide areas. Lastly this elementalist would be able to modify any of these elemental air blasts to knock affected targets prone.
 
@@ -1271,7 +1271,7 @@ The elemental sweep modifies an elemental touch, striking additional targets adj
 
 **Action**: As for elemental touch, but also declare additional adjacent squares. For every additional square affected beyond 2, expend an extra MP die. Regardless of the number of squares affected, a single attack roll vs the target HiT is rolled.
 
-**Limitation**: The damage dice size increase from "[Touch, enhanced](#touch-enhanced)" only applies to one of the targets of elemental sweep.
+**Limitation**: The damage dice size increase from ["Touch, enhanced"](#touch-enhanced) only applies to one of the targets of elemental sweep.
 
 ___
 #### Aura
@@ -1333,7 +1333,7 @@ ___
 
 Spell casting abilities come in two flavour: Local and Global. Local spellcasting covers spells which take no longer than an hour to cast, have effects that wear off in a month of less and do not reach further than a mile from the point of casting. They are most useful in battle and situations where an immediate effect is needed. Global spellcasting covers everything else and is used in various applications, from near impenetrable barrier on holy sites, to enchantments that bring fertile harvests to whole kingdoms over the centuries.
 
-The rules for use of spells in combat are found in "[Combat: Spells](04-combat.md#spells)". Other magic rules are found in "[Magic and Spellcasting](07-magic-and-spellcasting.md)". Spell lists are found in "[Spell List](08-spell-list.md)"
+The rules for use of spells in combat are found in ["Combat: Spells"](04-combat.md#spells). Other magic rules are found in ["Magic and Spellcasting"](07-magic-and-spellcasting.md). Spell lists are found in ["Spell List"](08-spell-list.md)
 
 ___
 #### Forbidden Spell
@@ -1365,10 +1365,10 @@ ___
 **Action**: None. The spells are chosen on levelling up, when the ability is chosen.
 
 **Prerequisite**:
-- The character must have "[Spellcasting: Local VII](#spellcasting-local) of the appropriate category" or ("[Spellcasting: Global VII](#spellcasting-global)" AND "Spellcasting: Local I" of the appropriate category)
-- Their [character level / 2] (rounded up) is equal to, or higher than, the minimum MP dice cost of the spell. So for "Realm of Flame" (cost 10), the minimum level is 19. For "[Greater Domain](08-spell-list.md#greater-domain)" (cost 8), the minimum level is 15. See the table below.
+- The character must have "[Spellcasting: Local VII](#spellcasting-local) of the appropriate category" or (["Spellcasting: Global VII"](#spellcasting-global) AND "Spellcasting: Local I" of the appropriate category)
+- Their [character level / 2] (rounded up) is equal to, or higher than, the minimum MP dice cost of the spell. So for "Realm of Flame" (cost 10), the minimum level is 19. For ["Greater Domain"](08-spell-list.md#greater-domain) (cost 8), the minimum level is 15. See the table below.
 - A character must know at least one spell of the previous MP dice cost level. So to learn "Greater Domain" (cost 8), a character must know at least one spell of a minimum MP dice cost of 7.
-- Spells of minimum dice cost of 8-10 are generally learned with the "[High Arcana](#high-arcana)" ability.
+- Spells of minimum dice cost of 8-10 are generally learned with the ["High Arcana"](#high-arcana) ability.
 
 |Minimum MP dice casting cost|Level Prerequisite|
 |-|-|
@@ -1396,10 +1396,10 @@ There are several forms of spellcasting in this category, but they all have simi
 - A spellcaster can never channel more than 1/3 of their MP dice total into a single "local" spell.
 - A spellcaster can never cast a spell with a minimum local (or local equivalent) MP dice cost higher than half of their level rounded up. So a level 13 character cannot cast a spell with a minimum MP dice cost of 8, 9, or 10.
 - Spells with a minimum local casting cost of more than 7 MP dice exist. A character can learn and cast these spells, if:
-  - They have Spellcasting: Local VII of the appropriate category (eg Spellcasting: Local (Elemental: Fire) for "[Realm of Flame](08-spell-list.md#realm-of-flame)").
-  - Their [character level / 2] (rounded up) is equal to, or higher than, the minimum MP dice cost of the spell. So for "Realm of Flame" (cost 10), the minimum level is 19. For "[Greater Domain](08-spell-list.md#greater-domain)" (cost 8), the minimum level is 15. See the "Minimum levels for higher level spells" table below.
+  - They have Spellcasting: Local VII of the appropriate category (eg Spellcasting: Local (Elemental: Fire) for ["Realm of Flame"](08-spell-list.md#realm-of-flame)).
+  - Their [character level / 2] (rounded up) is equal to, or higher than, the minimum MP dice cost of the spell. So for "Realm of Flame" (cost 10), the minimum level is 19. For ["Greater Domain"](08-spell-list.md#greater-domain) (cost 8), the minimum level is 15. See the "Minimum levels for higher level spells" table below.
   - A character must know at least one spell of the previous MP dice cost level. So to learn "Greater Domain" (cost 8), a character must know at least one spell of a minimum MP dice cost of 7.
-  - Spells of minimum dice cost of 8-10 are generally learned with the "[High Arcana](#high-arcana)" ability.
+  - Spells of minimum dice cost of 8-10 are generally learned with the ["High Arcana"](#high-arcana) ability.
 
 **Local Spellcasting table**:
 
@@ -1577,7 +1577,7 @@ ___
 |4|4|38|Multi-attack III|
 
 **Limitations**: 
-- Multi-attack can NEVER be applied to supernatural abilities or spells, outside of "[Spell Strike](#spell-strike)", "[Spirit Strike](#spirit-strike)", "[Divine Strike](#divine-strike)", "[Profane Strike](#profane-strike)", "[Holy Strike](#holy-strike)", "[Unholy Strike](#holy-strike)" and "[Elemental Strike](#elemental-strike)".
+- Multi-attack can NEVER be applied to supernatural abilities or spells, outside of ["Spell Strike"](#spell-strike), ["Spirit Strike"](#spirit-strike), ["Divine Strike"](#divine-strike), ["Profane Strike"](#profane-strike), ["Holy Strike"](#holy-strike), ["Unholy Strike"](#holy-strike) and ["Elemental Strike"](#elemental-strike).
 
 ___
 #### Offensive Buckler
@@ -1623,7 +1623,7 @@ ___
 
 **Description**: Remove penalties with ranged weapons in melee.
 
-**Original state**: Ranged weapons fired while you are in melee are made at disadvantage (See "[Ranged Weapons, collateral and melee](11-weapons-armour.md#ranged-weapons-collateral-and-melee)").
+**Original state**: Ranged weapons fired while you are in melee are made at disadvantage (See ["Ranged Weapons, collateral and melee"](11-weapons-armour.md#ranged-weapons-collateral-and-melee)).
 
 **Prerequisites and benefits**:
 
@@ -1736,7 +1736,7 @@ ___
 
 **Description**: Calculate and execute attacks with ranged weapons that have unlikely trajectories.
 
-**Original state**: Ranged weapons shoot mostly in a straight line, often hitting the first thing that gets in the way (See "[Ranged Weapons, collateral and melee](11-weapons-armour.md#ranged-weapons-collateral-and-melee)").
+**Original state**: Ranged weapons shoot mostly in a straight line, often hitting the first thing that gets in the way (See ["Ranged Weapons, collateral and melee"](11-weapons-armour.md#ranged-weapons-collateral-and-melee)).
 
 **Prerequisites and benefits**:
 
@@ -2069,7 +2069,7 @@ ___
 
 **Type**: Natural (Class C)
 
-**Description**: The upper limit for "light load" increases to [12lb x STR].  Penalties from the "heavy load" category apply immediately above [12lb x STR]. The limits from the "[Weight limits table](03-movement-exploration.md#weight-limits-table)" then look like this:
+**Description**: The upper limit for "light load" increases to [12lb x STR].  Penalties from the "heavy load" category apply immediately above [12lb x STR]. The limits from the ["Weight limits table"](03-movement-exploration.md#weight-limits-table) then look like this:
 
 |Load Level|Weight Limit (lb)    |
 |----------|---------------------|
@@ -2128,7 +2128,7 @@ ___
 
 |Resistance|Base|Dice|
 |-|-|-|
-|Any one "[Physical](10-conditions-types.md#physical-damage)"|-|10 SP|
+|Any one ["Physical"](10-conditions-types.md#physical-damage)|-|10 SP|
 |Poison|-|12 MP or SP|
 |Fire|2|-|
 |Ice|2|-|
@@ -2150,7 +2150,7 @@ ___
 
 **Benefits**: 
 - You have resistance to [possessed](10-conditions-types.md#possessed), and thus advantage on saves against a spirit entering their body, and taking control of their body.
-- You can make "[observe](05-skills.md)" rolls at a -5 penalty when asleep (instead of a -10 penalty).
+- You can make ["observe"](05-skills.md) rolls at a -5 penalty when asleep (instead of a -10 penalty).
 
 **Special (drawbacks)**:
 - The second soul is considered to be same level as the character's and counts against the limit of foreign souls for the sake of [losing SP dice due possession](10-conditions-types.md#possessed).
@@ -2180,7 +2180,7 @@ ___
 
 **Prerequisites**:
 - Flight time of 10 hours.
-- "[Second Soul](#second-soul)" or "[Alert](#alert)" boons, OR 19+ to CHA or WIS.
+- ["Second Soul"](#second-soul) or ["Alert"](#alert) boons, OR 19+ to CHA or WIS.
   - This prerequisite is waived for entities that do not sleep.
 
 **Limitations**:

@@ -57,18 +57,18 @@ There are a number of general rules pertaining to spellcasting.
 5. If a spell lasts for a round or longer, affected entities make the initial save at the start of its turn and gets a save at the start of every turn against harmful effects of the spell unless otherwise stated otherwise in its description.
   - For spells with a duration of less than one round, the save is made immediately and no repeated saves are applicable, unless stated otherwise in the spell description.
   - This is in accordance with the ["Damage and effects over time"](04-combat.md#damage-and-effects-over-time).
-6. All damage caused by spells, unless otherwise stated, counts as "supernatural". The major exception is "[physical damage](10-conditions-types.md#physical-damage)" (percussive, shear, piercing, pressure, slashing), which is always "natural", unless stated otherwise in the spell.
+6. All damage caused by spells, unless otherwise stated, counts as "supernatural". The major exception is ["physical damage"](10-conditions-types.md#physical-damage) (percussive, shear, piercing, pressure, slashing), which is always "natural", unless stated otherwise in the spell.
 
 ___
 ### Spells, Limitations and Alignment
 
 Certain spells have "limitations": factors which constrain a spell's workings outside of range, etc. These are conditions under which the spell either does not function or, on the contrary, conditions that the spell requires to function.
 
-For example, a spell might only work on "mortals" (eg "[Revenant](08-spell-list.md#revenant)") or "spirits", or require certain rare reagents as a prerequisite to its casting (eg "[Undying Realm](08-spell-list.md#undying-realm)").
+For example, a spell might only work on "mortals" (eg ["Revenant"](08-spell-list.md#revenant)) or "spirits", or require certain rare reagents as a prerequisite to its casting (eg ["Undying Realm"](08-spell-list.md#undying-realm)).
 
-A common limitation, mainly of elemental spells, is that a spell does not function on entities and in locales with a given "[alignment](01-quick-start.md#alignment)". Thus a spell that creates undead or summons fiends might not function in areas with a "divine" alignment, while an elemental "wind"/"air" spell might not work in a locale aligned to "earth" (e.g. "[Wind Step](08-spell-list.md#wind-step)").
+A common limitation, mainly of elemental spells, is that a spell does not function on entities and in locales with a given ["alignment"](01-quick-start.md#alignment). Thus a spell that creates undead or summons fiends might not function in areas with a "divine" alignment, while an elemental "wind"/"air" spell might not work in a locale aligned to "earth" (e.g. ["Wind Step"](08-spell-list.md#wind-step)).
 
-It should be noted, especially in the later case that most places and entities in the material world are unaligned, and generally become aligned due to the influence of spells, abilities, supernatural entities, or extreme occurrences. Thus the ground, the floor, the earth beneath the characters' feet is generally unaligned, but might become earth aligned, for a time, after a casting of "[Balance of Elements](08-spell-list.md#balance-of-elements)" using Elemental (Earth) spellcasting.
+It should be noted, especially in the later case that most places and entities in the material world are unaligned, and generally become aligned due to the influence of spells, abilities, supernatural entities, or extreme occurrences. Thus the ground, the floor, the earth beneath the characters' feet is generally unaligned, but might become earth aligned, for a time, after a casting of ["Balance of Elements"](08-spell-list.md#balance-of-elements) using Elemental (Earth) spellcasting.
 
 ___
 ### Concentration
@@ -76,10 +76,10 @@ ___
 Spells with an active effect (eg summoning) and non-instantaneous duration usually require the caster to maintain their existence by "**concentrating**" on them. Usually this refers to "local" spells, but some "global" spells also require concentration. This mechanic exists mainly to reduce some of the unbalanced nonsense found in certain other systems. Concentration has the following rules:
 1. A caster can NEVER concentrate on more than one spell.
 2. If concentration is broken, the spell dissipates or fails spectacularly. Either way its effects end.
-3. A "[disabled](10-conditions-types.md#disab)" (or so implied) entity cannot concentrate.
+3. A ["disabled"](10-conditions-types.md#disab) (or so implied) entity cannot concentrate.
 4. A concentration save is a special save calculated as Concentration Bonus = [[Wis]/2 + [Int]/2 + [Nat]]. (A caster's ability to focus depends on mental acuity, connectedness as well as, strangely enough, physical condition and training).
 5. Concentration can be disrupted by taking damage (threshold = 12 or 1/2 damage taken, whichever is higher).
-6. Concentration can be disrupted by "[vigorous motion](03-movement-exploration.md#vigorous-motion)" (threshold = 12), violent weather (threshold = 12) or both (threshold = 16).
+6. Concentration can be disrupted by ["vigorous motion"](03-movement-exploration.md#vigorous-motion) (threshold = 12), violent weather (threshold = 12) or both (threshold = 16).
 7. A caster can "hold" an "instantaneous" spell with a release trigger to trigger the effect within a minute of casting. The threshold = 8 +[rounds held]. If the trigger is not met the spell dissipates. The cost of the spell is paid when the spell is cast (always), not when it is triggered.
 
 ___
@@ -95,12 +95,12 @@ ___
 |Kinetic|Incantation|Int|
 |Nature|Nature|Wis|
 
- Spells obtained from a given spellcasting type, use the corresponding ability for determining thresholds and attack bonus. Thus, if a character obtained "[Least Shroud](08-spell-list.md#least-shroud)" through Spellcasting: Kinetic, then the threshold would be Int based. If the same spell was obtained through Spellcasting: Air, the threshold would be Wis based.
+ Spells obtained from a given spellcasting type, use the corresponding ability for determining thresholds and attack bonus. Thus, if a character obtained ["Least Shroud"](08-spell-list.md#least-shroud) through Spellcasting: Kinetic, then the threshold would be Int based. If the same spell was obtained through Spellcasting: Air, the threshold would be Wis based.
 
 ___
 ### Identifying and Manipulating spells
 
-Spells can be identified while they are being cast by the "[Knowledge:Arcana](05-skills.md#knowledge)" skill. This is usually a non-action. "[Spellworking](05-skills.md#spellworking)" is used for interfacing with spells, magical effects, and devices. This generally takes between 1 minute and 1 week.
+Spells can be identified while they are being cast by the ["Knowledge:Arcana"](05-skills.md#knowledge) skill. This is usually a non-action. ["Spellworking"](05-skills.md#spellworking) is used for interfacing with spells, magical effects, and devices. This generally takes between 1 minute and 1 week.
 
 ___
 ### Banishing, Breaking, Counter-spelling and Dispelling
@@ -109,14 +109,14 @@ ___
 
 **Counter-spelling**: Any spellcaster with at least 9 MP dice total can counter-spell. You can only counter-spell magics from the same or opposite type (see table above). In order to counter-spell, you must be within 10ft x [MP dice] being used to counter-spell of the target caster. Counter-spelling magics of the same type is done at disadvantage. The steps are as follows:
 1. Declare "preparing to counter-spell" on your turn and use your "secondary action" to watch for spellcasters. Declare the number of MP dice you are preparing for this (minimum of 3).
-2. When a spell is being cast, but before its effects take place, identify that it is with a "[Knowledge: Arcana](05-skills.md#knowledge)" roll.
+2. When a spell is being cast, but before its effects take place, identify that it is with a ["Knowledge: Arcana"](05-skills.md#knowledge) roll.
 3. If the spell belongs to the same type or opposite type of local magic, use your reaction and declare "counter-spell".
 4. Pay the declared MP dice cost.
 5. Roll a SAP (Sup + Base + Wis) roll vs their SAT (Sup + Base + Wis). You have a bonus (or penalty if it's less) to the roll equal to the difference in MP dice used by the two sides. If it is the same type of magic, your roll is at disadvantage. If it is neither the same or opposite, you cannot counter-spell it.
 6. If you meet or beat the threshold, the spell fails (maybe even catastrophically).
 
 **Dispelling**: Any spellcaster with at least 11 MP dice total can dispel. You can only dispel magics of a type that you are capable of casting. In order to dispel you must be within 10ft x [MP dice being used to dispel the effect] of the effect and you must be able to see it. Thus you must have senses that can detect it (eg using "See Spell" or "See Unseen"). If you cannot "see" the spell you can still dispel magic if you are within its area of effect. The steps for dispelling are as follows:
-1. Identify the spell using "[Knowledge: Arcana](05-skills.md#knowledge)".
+1. Identify the spell using ["Knowledge: Arcana"](05-skills.md#knowledge).
 2. Declare "dispel" as a "main action" and how many MP dice you are using to dispel.
 3. Pay the declared MP dice cost.
 4. Roll a SAP (Sup + Base + Wis) roll vs their SAT (Sup + Base + Wis). You have a bonus (or penalty if it's less) to the roll equal to the difference in MP dice used by the two sides. If you are within the area of the spell's effect, or are its target, you have advantage on the roll.
@@ -124,11 +124,11 @@ ___
 
 **Banishing**: Summoned entities are not dispelled in quite the same way as spells. There are two ways of dealing with them.
 1. Dispelling as normal, but only by casters who have spells with the "summon" descriptor or the "Bind Familiar" or "Bind Beast" ability.
-2. By a "spellworking" roll to "disimbue" the summon, but only after the effect has been identified by "[Knowledge: Arcana](05-skills.md#knowledge)".
+2. By a "spellworking" roll to "disimbue" the summon, but only after the effect has been identified by ["Knowledge: Arcana"](05-skills.md#knowledge).
 
 **Breaking Global Spells**: Global spells can be dispelled by any caster that has at least 11 MP dice. A dispelling character must be inside the area of effect, or adjacent to the area of effect of the spell for the whole duration of breaking in order to break it.
-- Dispelling can be done by the basic "[Spellworking](05-skills.md#spellworking)" rules and in accordance with the time required by the original caster's threshold. In order to do this, a character must first succeed on a "[Knowledge: Arcana](05-skills.md#knowledge)" roll to identify the spell.
-- Alternatively a character can "force" the breaking by forcing their own MP into the spell. In this case, no knowledge roll is required, however, the character expends [[original caster's MP dice used in casting the spell] - [dispelling character's "Knowledge:Arcana" skill bonus]] MP dice when making the attempt. If this leads to their MP dice count reaching 0, the dispelling character must succeed a CHA save or fall unconscious as per the "special" clause of the "[Spellworking](05-skills.md#spellworking)" rules.
+- Dispelling can be done by the basic ["Spellworking"](05-skills.md#spellworking) rules and in accordance with the time required by the original caster's threshold. In order to do this, a character must first succeed on a ["Knowledge: Arcana"](05-skills.md#knowledge) roll to identify the spell.
+- Alternatively a character can "force" the breaking by forcing their own MP into the spell. In this case, no knowledge roll is required, however, the character expends [[original caster's MP dice used in casting the spell] - [dispelling character's "Knowledge:Arcana" skill bonus]] MP dice when making the attempt. If this leads to their MP dice count reaching 0, the dispelling character must succeed a CHA save or fall unconscious as per the "special" clause of the ["Spellworking"](05-skills.md#spellworking) rules.
 
 **Breaking Curses**: A curse can be broken as a global spell, except the roll is made at disadvantage. Curses also have a "break condition": If the condition is fulfilled they lose their power. Once the condition has been fulfilled rolls to disimbue or disable the curse have advantage.
 
@@ -143,7 +143,7 @@ Sometimes, when interaction with a spell or magical effect, it fails. Under cert
 
 **Catastrophic cascade on counter-spelling**: If a counter-speller's counter-spell roll exactly equals a caster's [SAT] (Nat + Base + Wis + 13), and the number of MP dice expended for the spell and counter-spell are equal a catastrophic cascade is triggered. All entities and structures within 10ft of the half-way point between the two casters take [the combined MP dice used] x d6 of "pressure" damage. The threshold = 18. Beware of exploding mages.
 
-**Other modes of spectacular failure**: Failing a "spellworking" roll when interacting with powerful magics, especially when disimbuing, can lead to spectacular failure. Further information is found in the "[spellworking](05-skills.md#spellworking)" rules. 
+**Other modes of spectacular failure**: Failing a "spellworking" roll when interacting with powerful magics, especially when disimbuing, can lead to spectacular failure. Further information is found in the ["spellworking"](05-skills.md#spellworking) rules. 
 
 ___
  
@@ -195,13 +195,13 @@ Notably, for the first time that a character gains a "Spellcasting" ability of a
 
 #### learning spells through independent study or from a mentor.
 
-The base time to learn a spell through personal research is 108 days per MP dice cost of a spell (for global spells this is the "per day" cost). A character with access to suitable environment and resources may use academics to reduce the time (see "[Academics](05-skills.md#academics)"). The rate per MP dice become (108 - ["academics" roll]) to a minimum of 64 days per MP dice. For higher level spells, independent research is incredibly time consuming, and a sage might have spent a lifetime to uncover a single new global spell.
+The base time to learn a spell through personal research is 108 days per MP dice cost of a spell (for global spells this is the "per day" cost). A character with access to suitable environment and resources may use academics to reduce the time (see ["Academics"](05-skills.md#academics)). The rate per MP dice become (108 - ["academics" roll]) to a minimum of 64 days per MP dice. For higher level spells, independent research is incredibly time consuming, and a sage might have spent a lifetime to uncover a single new global spell.
 
 The more common way to learn spells is to learn from an entity that already has the spell, a mentor so to speak. If you are learning from a mentor, the process is a lot faster, as you are transferring skills and knowledge that already exists, as opposed to unearthing new spells. For elemental and nature spells the base rate is 108 hours per MP dice cost of a spell. For incantation and kinetic spells the base rate is 64 hours. This time can be reduced with a "academics" roll from the "apprentice" and a "knowledge:arcana" roll from the mentor. The final time cost per MP dice cost is [base rate - ["academics" roll] - ["arcana" roll]]. Regardless of the result, this cost cannot be reduced to lower than 20 hours (aka 2 days) per MP dice cost for elemental and nature magic, or 10 hours (aka 1 day) per 2 MP dice cost for incantation and kinetic magic.
 
 #### Spell transfer
 
-Certain spells, such as "[Pact](08-spell-list.md#pact)", "[Mage's Oath](08-spell-list.md#mages-oath)", "[Isolate Essence](08-spell-list.md#isolate-essence)" and "[Memory Thief](08-spell-list.md#memory-thief)" allow knowledge, skills and spells to be exchanged almost instantaneously between entities. However these spells carry a high cost. More importantly, the entity imparting the spell loses it from their spells known, and there are few who would agree to such a transfer without substantial recompense.
+Certain spells, such as ["Pact"](08-spell-list.md#pact), ["Mage's Oath"](08-spell-list.md#mages-oath), ["Isolate Essence"](08-spell-list.md#isolate-essence) and ["Memory Thief"](08-spell-list.md#memory-thief) allow knowledge, skills and spells to be exchanged almost instantaneously between entities. However these spells carry a high cost. More importantly, the entity imparting the spell loses it from their spells known, and there are few who would agree to such a transfer without substantial recompense.
 
 #### MP 0 spells
 

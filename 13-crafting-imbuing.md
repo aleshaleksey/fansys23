@@ -83,7 +83,7 @@ A crafting roll, with the appropriate skill is made when half the time needed ha
 
 The base Threshold is:  **12 + 4 x [Material level]**
 
-Characters can "[take care](02-base-rules.md#taking-24-taking-13-auto-failure-and-voluntary-failure)" on this roll.
+Characters can ["take care"](02-base-rules.md#taking-24-taking-13-auto-failure-and-voluntary-failure) on this roll.
 
 If the roll succeeds, the material is consumed and the crafting succeeds at the end of the allotted time. If the roll fails by 4 or less, the character has used up half of the material, but is immediately aware of their failure and does not use the other half of the material or time. If the roll fails by more than 4, the character uses all of the material and only realises that they ruined it at the end of the crafting period, hence also losing all of the time.
 
@@ -209,7 +209,7 @@ The spellcraft roll must be performed by a character proficient in spellworking,
 
 As with crafting, the time need not be spent in one block. A working day is considered to be 10 hours and can be broken up into any configuration of 2 hour blocks that the group deems appropriate.
 
-It is possible to "[take care](02-base-rules.md#taking-24-taking-13-auto-failure-and-voluntary-failure)" on the spellworking roll if this would exceed the threshold to successfully enchant/imbue the item. As always, one can only take care if there is no imminent danger, or unusual and unpredictable variables at play.
+It is possible to ["take care"](02-base-rules.md#taking-24-taking-13-auto-failure-and-voluntary-failure) on the spellworking roll if this would exceed the threshold to successfully enchant/imbue the item. As always, one can only take care if there is no imminent danger, or unusual and unpredictable variables at play.
 
 ___
 ### Types of Enchanted and Imbued Items
@@ -275,7 +275,7 @@ Furthermore, the base threshold is modified by various factors, such as the kind
 
 ___
 ### Permanency and "Enchantment Quality Items"
-Enchantments on enchantment quality items (see "[Crafting for Enchantment](#crafting-for-enchantment)"), and items made of materials of supernatural origin, are permanent. That is to say that as long as the item is not destroyed, disenchanted, or the charges are not expended, the item retains its magic indefinitely.
+Enchantments on enchantment quality items (see ["Crafting for Enchantment"](#crafting-for-enchantment)), and items made of materials of supernatural origin, are permanent. That is to say that as long as the item is not destroyed, disenchanted, or the charges are not expended, the item retains its magic indefinitely.
 
 Enchantments on other items fade. The magic lingers for: **[Spellcraft roll] x [spell level] x [spell level] days**
 

@@ -425,7 +425,7 @@ A swarm of bees is medium sized.
 |Grapple/Infiltrate|+6||A swarm that enters the space of another entity can attempt to land and find exposed areas on a target as a main action. A bee swarm that has successfully grappled/infiltrated its target automatically hits with its sting if it stings on subsequent rounds.|
 |Home Territory|||A swarm always succeeds on navigation rolls on home terrain|
 |Skills|||"Navigate" -2, "Harvest" +4|
-|Scattered Cover|||The swarm is considered to have "[heavy cover](../04-combat.md#cover-and-concealment)" for the sake of targeted attacks made against it.|
+|Scattered Cover|||The swarm is considered to have ["heavy cover"](../04-combat.md#cover-and-concealment) for the sake of targeted attacks made against it.|
 |Resistant|||"Percussive, ""Piercing", "Shear", "Slashing"|
 |Resistant|||"Fear","Charm"|
 |Immune|||"Grappled","Bleeding","Grappled","Restrained","Crippled","Paralysed"|
@@ -760,7 +760,7 @@ Size = medium
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Bite|+4|1d4+2|Shear damage|
-|Constrict|Threshold=17 STR|1d6+3 pressure|A python can constrict prey that it has grappled as a secondary action. The grappled entity must succeed on a STR save or take 1d6+3 pressure damage. It is also considered "[suffocating](../03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die)".|
+|Constrict|Threshold=17 STR|1d6+3 pressure|A python can constrict prey that it has grappled as a secondary action. The grappled entity must succeed on a STR save or take 1d6+3 pressure damage. It is also considered ["suffocating"](../03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die).|
 |Grapple|+5|||
 |[Combined Manoeuvre]|+5||A snake can bite and grapple in almost the same movement|
 |Keen Smell|||Advantage on perception rolls based on smell|
@@ -1208,7 +1208,7 @@ Size = Huge
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Bite|+10|1d10+5|Shear damage|
-|Constrict|Threshold=20 STR|2d6+5 pressure|A python can constrict prey that it has grappled as a secondary action. The grappled entity must succeed on a STR save or take 2d6+5 pressure damage. It is also considered "[suffocating](../03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die)".|
+|Constrict|Threshold=20 STR|2d6+5 pressure|A python can constrict prey that it has grappled as a secondary action. The grappled entity must succeed on a STR save or take 2d6+5 pressure damage. It is also considered ["suffocating"](../03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die).|
 |Grapple|+10|||
 |[Combined Manoeuvre]|||A snake can bite and grapple in almost the same movement|
 |Keen Smell|||Advantage on perception rolls based on smell|
@@ -1561,7 +1561,7 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Dark Aura|||Any mortal within 15ft of a dark cabbage at the start of its turn loses 1MP. In addition the light level within 15ft of a dark cabbage is lowered by one level. This is an 1 MP dice equivalent effect.|
-|"[Greater Manoeuvre I](../06-abilities.md#greater-manoeuvre-i-v)"|||A dark cabbage can grapple/restrain entities up to huge in size with its roots|
+|["Greater Manoeuvre I"](../06-abilities.md#greater-manoeuvre-i-v)|||A dark cabbage can grapple/restrain entities up to huge in size with its roots|
 |Root|+2||(main action) reach = 20ft, any entity hit by the root attack is "restrained" (unless immune)|
 |Parasitise|Threshold=16|1d8 necrotic[SUP] + 1d4 CON|main action, reach = 5ft. If a target restrained by the roots of a Dark Cabbage is adjacent to it (5ft), the dark cabbage can attempt to drain its life essence. If the CON score of a target drained by this attack reaches zero, it dies.|
 |Alert|||A dark cabbage cannot be surprised|
@@ -1630,7 +1630,7 @@ Size = Large
 |-|-|-|-|
 |Charm Pollen|Threshold=19 vs WIS|Charmed|(main action) 60ft Cone, 45 degree angle, 1 minute|
 |Noxious Spores|Threshold=19 vs CON||(main action) 15ft Cone, 90 degree angle. A mortal "hit" by the Tuber's spores must succeed a CON save or become incapacitated at the start of its turn. At the start of its next turn it must succeed a second CON save. If it succeeds this save it takes 2d6 necrotic[NAT] damage and is cured of the effect. Otherwise it falls unconscious 1 hour (no repeated save)|
-|Engulf|||(main action) An orc eating tuber can enter the space of an unconscious mortal of a size no larger than "medium" and begin engulfing it. It engulfs the volume of a small entity per main action. This means that it takes 8 rounds to engulf a medium sized entity. An entity at least half engulfed by the tuber is considered "[immobilised](../10-conditions-types.md#conditions-in-detail)".|
+|Engulf|||(main action) An orc eating tuber can enter the space of an unconscious mortal of a size no larger than "medium" and begin engulfing it. It engulfs the volume of a small entity per main action. This means that it takes 8 rounds to engulf a medium sized entity. An entity at least half engulfed by the tuber is considered ["immobilised"](../10-conditions-types.md#conditions-in-detail).|
 |Absorb|Threshold=19 CON|2d6+4 necrotic[NAT]|An entity at least half engulfed by the tuber must make a CON save at the start of its turn or take damage. On success it takes half. A target unconscious due to the noxious spores can then wake up if it succeeds on a save vs the spores.|
 |||||
 |Alert|||An orc eating tuber cannot be surprised.|

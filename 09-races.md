@@ -154,7 +154,7 @@ Lizard folk are superficially similar to [Dragonkin](#dragonkin-level-1-template
 - Resistance to "disease" and "diseased". (4 points)
 
 **Race boon (level 8 and 16): (6 points)**
-- +1 to "[heat sense](06-abilities.md#heat-sense-i-v)" level.
+- +1 to ["heat sense"](06-abilities.md#heat-sense-i-v) level.
 
 AND EITHER:
 - Resistance to "piercing" and "slashing" damage and "bleeding.
@@ -605,7 +605,7 @@ The base template allows the following:
 - Increase flight endurance by 1 hour (beyond the limit of 4 hours).
 - A passive or active (C class) ability with no prerequisites (eg water breathing).
 - Gain one of the following senses: "Low-light vision", "heat-sense", "keen-senses: Sight".
-  - When this enhancement is a graded ability (eg "[Heat Sense](06-abilities.md#heat-sense-i-v)"), it is always taken at 2nd level (eg "Heat Sense II"). In this case increasing it by a further level costs a single point.
+  - When this enhancement is a graded ability (eg ["Heat Sense"](06-abilities.md#heat-sense-i-v)), it is always taken at 2nd level (eg "Heat Sense II"). In this case increasing it by a further level costs a single point.
 - Remove the "sleep" necessity.
 
 #### Three template points:
@@ -626,7 +626,7 @@ The base template allows the following:
 - Improve fly speed rating from "average" -> "good".
 - Improve dig speed by 5ft from 10ft or higher.
 - A passive or active (B class) ability with no prerequisites.
-- Gain "[Sleep on the Wing](06-abilities.md#sleep-on-the-wing)" (can only gained if the race template already has 10 hours of flight endurance).
+- Gain ["Sleep on the Wing"](06-abilities.md#sleep-on-the-wing) (can only gained if the race template already has 10 hours of flight endurance).
 - Gain one of the following senses: "Tremor Sense", "Blindsight".
   - When this enhancement is a graded ability (eg "[Tremor Sense](06-abilities.md#tremor-sense-i-v")), it is always taken at 2nd level (eg "Tremor Sense II"). In this case increasing it by a further level costs a single point.
 
@@ -650,7 +650,7 @@ The base template allows the following:
 - Improve fly speed rating from "good" -> "perfect".
 - Gain one of the following senses: "Life-sense", "Truesight".
   - A template must be at least level 5 to have one of these sense.
-  - When this enhancement is a graded ability (eg "[Truesight](06-abilities.md#truesight-i-v)"), it is always taken at 2nd level (eg "Heat Sense II"). In this case increasing it by a further level costs a single point.
+  - When this enhancement is a graded ability (eg ["Truesight"](06-abilities.md#truesight-i-v)), it is always taken at 2nd level (eg "Heat Sense II"). In this case increasing it by a further level costs a single point.
 
 #### Eight Template points:
 - Immunity to an S class damage type and advantage vs one associated condition.

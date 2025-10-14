@@ -48,7 +48,7 @@ A character gets skill points (ranks) based on level and intelligence. The maxim
 
 Every level a character gains skill points equal to **4 + [INT]** (With essentially 4 extra skill points at level 1). So at level LVL a character has **4 + [LVL] x (4 + [INT])** skill points (not counting any ranks gained through converting "level points" to skill points).
 
-A skill point can be assigned to either (a) gain a proficiency, or (b) add a rank to a skill. Each level a character can reassign one of the previously assigned skill points to a different proficiency or skill. If a character has **zero** ranks in a skill and does not have the skill as a background skill, any roll of the dice (before modifiers!) in that skill above 13 counts as 13. This reflects lack of specialist knowledge and experience that that character lacks. A character can circumvent this by using a different skill in the same "[skill group](#skill-groups)", however, in this case they take a -5 penalty to the roll instead.
+A skill point can be assigned to either (a) gain a proficiency, or (b) add a rank to a skill. Each level a character can reassign one of the previously assigned skill points to a different proficiency or skill. If a character has **zero** ranks in a skill and does not have the skill as a background skill, any roll of the dice (before modifiers!) in that skill above 13 counts as 13. This reflects lack of specialist knowledge and experience that that character lacks. A character can circumvent this by using a different skill in the same ["skill group"](#skill-groups), however, in this case they take a -5 penalty to the roll instead.
 
 ___
 ### Base and "background" bonus
@@ -75,7 +75,7 @@ This bonus stacks. However, the number of assistants can be no higher than [base
 
 Some skills cannot be assisted.
 
-**Optional rule**: If it makes sense that a different skill should be able to help (for example assisting a "Spellworking" roll with a "Knowledge: Arcana" roll, or assisting a "Tinker" roll with an "Academics" roll, or assisting a "Harvest") in a given situation, the alternate skill can also be used for assisting. This rule can be problematic since, firstly it slows down the game as players may go into unnecessary long justifications, and secondly, adds a lot more to DM whimsy. On the other hand, this can also encourage creative role-play. An "[Optional Suggested Assisting Skills](#optional-suggested-assisting-skills)" table is provided below.
+**Optional rule**: If it makes sense that a different skill should be able to help (for example assisting a "Spellworking" roll with a "Knowledge: Arcana" roll, or assisting a "Tinker" roll with an "Academics" roll, or assisting a "Harvest") in a given situation, the alternate skill can also be used for assisting. This rule can be problematic since, firstly it slows down the game as players may go into unnecessary long justifications, and secondly, adds a lot more to DM whimsy. On the other hand, this can also encourage creative role-play. An ["Optional Suggested Assisting Skills"](#optional-suggested-assisting-skills) table is provided below.
 
 ___
 ### Skill groups
@@ -157,9 +157,9 @@ Optionally, for gritty settings language proficiency does not grant a character 
 ___
 ### Tool Proficiencies
 
-Using tools usually requires a roll of an associated skill. Some skills cannot be used for certain purposes unless the character is also proficient with appropriate tools. More precisely, they lack the specific training to make best use of it, and the dice roll is therefore capped at 12, as described in "[Skill points (ranks)](#skill-points-ranks)".
+Using tools usually requires a roll of an associated skill. Some skills cannot be used for certain purposes unless the character is also proficient with appropriate tools. More precisely, they lack the specific training to make best use of it, and the dice roll is therefore capped at 12, as described in ["Skill points (ranks)"](#skill-points-ranks).
 
-At the group's discretion it can makes sense for other skills may be associated with a tool (eg woodworking tools being used with **fortify** for making big items like wooden walls). Tools and their properties are further discussed below (in the "[Tools](#kit-and-tool-descriptions)" sections).
+At the group's discretion it can makes sense for other skills may be associated with a tool (eg woodworking tools being used with **fortify** for making big items like wooden walls). Tools and their properties are further discussed below (in the ["Tools"](#kit-and-tool-descriptions) sections).
 
 - Athletics group based:
   - Diver's tools
@@ -207,7 +207,7 @@ Any entity whose body fits a suit of armour can wear the armour. As such it will
   - If it is a medium or heavy armour: It takes a -5 penalty to all [DEX] and [STR] based rolls it makes.
   - If it is a light armour: It takes a -2 penalty and gains only half of the armour bonus (rounded down). to HiT.
 
-Armour and its properties are further discussed in the "[Weapons and Armour Section](11-weapons-armour.md)".
+Armour and its properties are further discussed in the ["Weapons and Armour Section"](11-weapons-armour.md).
 
 There are three armour proficiencies that each cover several groups of armour.
 
@@ -223,7 +223,7 @@ There are three armour proficiencies that each cover several groups of armour.
 ___
 ### Weapon Proficiencies
 
-Weapons are tools that increase an entity's lethality in combat. For the sake of this definition, this does not include martial or supernatural abilities. Weapons and their properties are further discussed in the "[Weapons and Armour Section](11-weapons-armour.md)".
+Weapons are tools that increase an entity's lethality in combat. For the sake of this definition, this does not include martial or supernatural abilities. Weapons and their properties are further discussed in the ["Weapons and Armour Section"](11-weapons-armour.md).
 
 Any entity may wield a weapon it is physically capably of wielding. If it is not proficient, it makes attacks with a -5 penalty. On snake eyes it damages itself, rolling the same damage dice it would as if it had hit the intended target. In addition it provokes attacks of opportunity when it attacks, since poor technique leaves openings.
 
@@ -245,7 +245,7 @@ ___
 Each skill has a number of described uses. However, the list is generally not exhaustive and additional uses should be discussed within the group. For each skill there are two important questions:
 
 1. Can an entity try the roll again, and what are the consequences? If the answer is not "yes", then one cannot "take 20" or "take 24" in that skill.
-2. Can an entity "take care" in that skill or not under appropriate circumstances (see  "[Take Care](02-base-rules.md#taking-24)")?
+2. Can an entity "take care" in that skill or not under appropriate circumstances (see  ["Take Care"](02-base-rules.md#taking-24))?
 
 ___
 ### STR Based
@@ -269,7 +269,7 @@ Athletics is used for most land based physical activities including:
 - Throwing items and creatures beyond a normal distance.
   - More data needed.
 - Outrunning creatures with the same base speed in short overland chases (opposed roll rules).
-- Entertaining others with a feats of physical prowess (see "[Difficulties and recommended thresholds](02-base-rules.md#difficulties-and-recommended-thresholds)").
+- Entertaining others with a feats of physical prowess (see ["Difficulties and recommended thresholds"](02-base-rules.md#difficulties-and-recommended-thresholds)).
 - **Take care**: Yes.
 - **Try again**: Yes, although the DM may rule that failure on a retry results in the "crippled" condition.
 
@@ -375,7 +375,7 @@ Acrobatics is used for complex dynamic movement and manoeuvres. Unless otherwise
   - Slippery or Frictionless surface: +5 or +10.
   - Violent (eg ship in a storm) or extreme movement (eg earthquake or collapse): +5 or +10.
   - Slope (30-45 deg), Steep slope (45+): +2 or +5.
-- Entertaining others with a feats of acrobatics or gymnastics (see "[Difficulties and recommended thresholds](02-base-rules.md#difficulties-and-recommended-thresholds)"). This generally represents at least one minute of performance.
+- Entertaining others with a feats of acrobatics or gymnastics (see ["Difficulties and recommended thresholds"](02-base-rules.md#difficulties-and-recommended-thresholds)). This generally represents at least one minute of performance.
 - Failure of an acrobatics roll by 5 or more may result in falling. Failure by a lesser margin generally results in lack of progress.
 - **Take care**: Yes.
 - **Try again**: Yes, although the potential of falling often makes it meaningless.
@@ -466,7 +466,7 @@ Sleight of hand is not just for "hands". It is the skill combining the use of de
   - Tie two objects together.
   - Tether a ship/animal to a fixed binding.
   - Restrain a target/prisoner, preventing its escape.
-  - See "[bindings and restraints](03-movement-exploration.md#bindings-and-restraints)" for more information.
+  - See ["bindings and restraints"](03-movement-exploration.md#bindings-and-restraints) for more information.
 - **Take care**: Yes.
 - **Try again**: Yes, although for "steal" or "pick pocket" the threshold increases by +10 as any observers are likely to be wary this time.
 
@@ -483,13 +483,13 @@ Stealth is the art and technique of hiding your presence and remaining, and movi
   - An entity that has "stealthed" and makes a targeted attack or basic combat manoeuvre "breaks" stealth and reveals itself. 
 - **Modifiers**: Most of the modifiers are on the observing side. However there are a couple:
   - Armour penalty (Dex rating) affects all Dex based skills, but is especially pertinent here.
-  - Size modifier to "Evasion" also applies to stealth rolls (see "[Size rules](02-base-rules.md#size-rules)").
+  - Size modifier to "Evasion" also applies to stealth rolls (see ["Size rules"](02-base-rules.md#size-rules)).
   - Moving at full speed when trying to maintain stealth forces a reroll of the stealth with disadvantage.
 - **Special**: 
   - An entity usually needs at least "heavy" concealment to use the stealth skill (otherwise the roll automatically fails).
-  - The "[fleet](06-abilities.md#fleet)" allows an entity to hide in light concealment.
+  - The ["fleet"](06-abilities.md#fleet) allows an entity to hide in light concealment.
   - Anything that grants you the "invisible" status or observers the "blind" status allows the 'observed' entity to stealth.
-  - The use of "[deceive](#deceive)" to distract allows one to use stealth in plain sight or "light cover" at disadvantage.
+  - The use of ["deceive"](#deceive) to distract allows one to use stealth in plain sight or "light cover" at disadvantage.
   - A character with terrain mastery has a +2 to "stealth" in that terrain.
 - **Take care**: No. This is essentially random.
 - **Try again**: Yes. Although it maybe too late by then.
@@ -549,7 +549,7 @@ Harvest is the umbrella skill covering the harvesting of natural resources from 
   - "harvest" rolls that involve digging through soft ground are made at disadvantage without a shovel or similar implement.
 - **Take care**: Yes.
 - **Try again**: Yes.
-- **Additional Guidelines**: "Harvest" should be used for hunting/trapping small game and fishing when the prey poses little or no danger to the hunter (eg trapping rabbits, or shooting hares), or when the group wishes to resolve the activity with one or two rolls. A more involved alternative, best for game which *can* pose a threat to the hunter, would be to combine "[Track](#track)" with "[Stealth](#stealth)", followed by a classical combat (eg, hunting down a boar, or a manhunt).
+- **Additional Guidelines**: "Harvest" should be used for hunting/trapping small game and fishing when the prey poses little or no danger to the hunter (eg trapping rabbits, or shooting hares), or when the group wishes to resolve the activity with one or two rolls. A more involved alternative, best for game which *can* pose a threat to the hunter, would be to combine ["Track"](#track) with ["Stealth"](#stealth), followed by a classical combat (eg, hunting down a boar, or a manhunt).
 
 ___
 ### INT Based
@@ -560,7 +560,7 @@ Academics are fundamentals of knowledge. It starts with literacy and ends in hig
 
 - **Create/Decipher** secret meaning: Create or solve a cipher. Leave or discern a secret message.
   - **Time taken**: 1 minute if threshold 12 or below. 1 hour if threshold is 20 or below. 1 day if 32 or below. Longer if higher.
-  - **Threshold**: Depends. See "[Difficulties and recommended thresholds](02-base-rules.md#difficulties-and-recommended-thresholds)".
+  - **Threshold**: Depends. See ["Difficulties and recommended thresholds"](02-base-rules.md#difficulties-and-recommended-thresholds).
 - **Show off**: A character may attempt an opposed academics roll to "persuade" or "bluff" under certain circumstances. Alternatively this can be used to attempt to explain certain theories to others. This can make things better or worse. Can substitute for "Perform" in academic audiences.
 - **Discern logic:** Use of cold analysis to discern a logical inconsistency in words or actions of entities. This is a full round action.
   - Threshold: Opposed roll if deception is performed. Threshold should be equal to at least 15 otherwise.
@@ -639,7 +639,7 @@ There are 6 knowledge skills in the game. Each represents various subsets of kno
     - Identify monstrous creature or construct: [4 + Total dice / 2]
       - Special: for every 4 points over the identification threshold, the character gains an extra piece of information about the creature.
     - Identify hazard: [terrain + weather] or [threshold of creation].
-    - Identify material/dweomer in such a zone: See "[Appraise](#Appraise)".
+    - Identify material/dweomer in such a zone: See ["Appraise"](#Appraise).
     - Identify structure of zone: [terrain + weather] + 5.
   - **Geography**: Geography and geology. Including, know geography and geology of a region. Identify landmarks. Identify regional belonging of an entity from its outwards traits and behaviour.
   - **History**: Know the history of a region, item or civilisation. Know obscure historical events of significance. Know power structure of a country and know details of past and present rulers. Remember what you did two sessions ago if you forgot to make notes.
@@ -647,7 +647,7 @@ There are 6 knowledge skills in the game. Each represents various subsets of kno
     - Identify natural entity: [4 + total dice / 2]
       - Special: for every 4 points over the identification threshold, the character gains an extra piece of information about the creature.
     - Identify phenomenon, hazard or cycle: [terrain + weather bonus]
-    - Identify natural materials: See "[appraise](#Appraise)".
+    - Identify natural materials: See ["appraise"](#Appraise).
   - Religion: Know about gods, supernatural beings and religious practices.
     - Identify supernatural being: [4 + Total dice / 2].
 - **Special**: Identifying beings by setting thresholds based on "Total dice" can get silly. Most people would know a dragon when they see one. As such general knowledge threshold can be used instead.
@@ -781,9 +781,9 @@ Tracking is used to follow entities based on disturbances they leave in their en
 - **Special**
   - "Prospect" or "observe" may be used to find tracks but not follow them.
   - If a group tried to mislead the tracker, the threshold may increase by [roll - 15].
-  - "[Tracker: Fast Search](06-abilities.md#tracker-fast-search)" makes finding tracks a "main action" and following it a non-action.
-  - "[Tracker: Persistent](06-abilities.md#tracker-persistent)" allows to make the track check once per 4h or 4 miles.
-  - "[Tracker: Swift](06-abilities.md#tracker-swift)" removes the penalty for moving at full speed when tracking.
+  - ["Tracker: Fast Search"](06-abilities.md#tracker-fast-search) makes finding tracks a "main action" and following it a non-action.
+  - ["Tracker: Persistent"](06-abilities.md#tracker-persistent) allows to make the track check once per 4h or 4 miles.
+  - ["Tracker: Swift"](06-abilities.md#tracker-swift) removes the penalty for moving at full speed when tracking.
   - A character with terrain mastery has a +2 to "track" in that terrain.
 - **Take care**: Yes.
 - **Try again**: Yes. (Although you probably won't catch it if you take 20)
@@ -920,7 +920,7 @@ Empty.
 
 ___
 ## Optional Suggested Assisting Skills
-This table is for the optional alternative assisting rule for "[Assisting and Circumstance bonuses](#assisting-and-circumstance-bonuses)". This table is not exhaustive.
+This table is for the optional alternative assisting rule for ["Assisting and Circumstance bonuses"](#assisting-and-circumstance-bonuses). This table is not exhaustive.
 
 |Skill Used|Suggested Assisting Skills|
 |-|-|

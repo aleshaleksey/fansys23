@@ -49,9 +49,9 @@ Most characters are fundamentally "natural", but possesses some "supernatural" a
 ___
 ### Natural and Supernatural damage and abilities
 
-Damage can be either Nat or Sup. Nat damage first affects the target's SP, being at least partially absorbed, before before affecting HP. It generally affects the physical form. Sup damage is first buffered, at least in part, by an entity's MP, before affecting HP. It affects an entity's essence or spirit. Thus if an entity takes 10 "fire"[Sup] damage, the first, say, 7 points may be absorbed by MP, with the remaining 3 points doing HP damage. The exact calculation for maximum Nat damage absorbed by SP is [CON + 2 x SP dice total], and is symmetrical for MP and Sup (see "[Resource Pools](02-base-rules.md#resource-pools)" section).
+Damage can be either Nat or Sup. Nat damage first affects the target's SP, being at least partially absorbed, before before affecting HP. It generally affects the physical form. Sup damage is first buffered, at least in part, by an entity's MP, before affecting HP. It affects an entity's essence or spirit. Thus if an entity takes 10 "fire"[Sup] damage, the first, say, 7 points may be absorbed by MP, with the remaining 3 points doing HP damage. The exact calculation for maximum Nat damage absorbed by SP is [CON + 2 x SP dice total], and is symmetrical for MP and Sup (see ["Resource Pools"](02-base-rules.md#resource-pools) section).
 
-Damage caused by mundane or martial abilities is Nat, unless the ability is very powerful, at which it may become Sup. Damage caused by magic, spells and other supernatural abilities is usually Sup, but may also be Nat on occasion (most notably "[physical](10-conditions-types.md#physical-damage)" damage from spellsis considered Natural).
+Damage caused by mundane or martial abilities is Nat, unless the ability is very powerful, at which it may become Sup. Damage caused by magic, spells and other supernatural abilities is usually Sup, but may also be Nat on occasion (most notably ["physical"](10-conditions-types.md#physical-damage) damage from spellsis considered Natural).
 
 Some types of damage bypass both MP and SP, and attack HP directly. Entities that possess abilities that inflict these types of damage are extremely dangerous.
 
@@ -60,7 +60,7 @@ Nat abilities are fueled by SP dice. Sup damage is fueled by MP dice.
 ___
 ### Resistance to damage and conditions
 
-This is covered in depth in "[Combat: Damage and Death](04-combat.md#damage-and-death)". In short, resistance to a type of damage means an entity takes half the damage from that type. Damage vulnerability means it takes the full damage and then takes half the damage again (in short x1.5).
+This is covered in depth in ["Combat: Damage and Death"](04-combat.md#damage-and-death). In short, resistance to a type of damage means an entity takes half the damage from that type. Damage vulnerability means it takes the full damage and then takes half the damage again (in short x1.5).
 
 Resistance to a condition means the entity has advantage on the saves vs a condition. vulnerability means it has disadvantage.
 
@@ -132,31 +132,31 @@ ___
 #### Piercing
 Piercing damage is typically caused by teeth and pointy weapons and projectiles. It involves the concentration of force at a small point (pressure), which results in deep penetration of the target along a line. Soft targets with and without a hard shell are typically susceptible to this kind of damage.
 
-**Associated Conditions:** "[bleeding](#bleedingwilting)".
+**Associated Conditions:** ["bleeding"](#bleedingwilting).
 
 ___
 #### Slashing
 Slashing damage is typically caused by bladed weapons or sharp claws. It involves the physical splitting of two parts of a target by application of concentrated force along a plane (a cut). Soft targets are particularly susceptible to slashing damage.
 
-**Associated Conditions:** "[bleeding](#bleedingwilting)" "[crippled](#crippled)".
+**Associated Conditions:** ["bleeding"](#bleedingwilting) ["crippled"](#crippled).
 
 ___
 #### Percussive
 Percussive damage is typically caused by heavy objects with a lot of momentum. It involves the rapid transfer of physical force over a large area, causing brittle materials to break, and pressure sensitive materials to rupture. Targets of a brittle material are particularly susceptible to this damage type.
 
-**Associated Conditions:** "[crippled](#crippled)", "[prone](#prone)".
+**Associated Conditions:** ["crippled"](#crippled), ["prone"](#prone).
 
 ___
 #### Shear
 Shear damage is caused when a target is torn apart, for example by a bear's claws. Targets of low tensile materials, such as humanoids and animals are particularly susceptible to this damage type.
 
-**Associated Conditions:** "[crippled](#crippled)".
+**Associated Conditions:** ["crippled"](#crippled).
 
 ___
 #### Pressure
 Pressure damaged is usually caused by shock waves and special techniques designed to transfer force deep into a target. Much like percussive damage it ruptures pressure sensitive internal structures and can fracture very brittle materials. Targets with internal organs are particularly susceptible to this form of damage.
 
-**Associated Conditions:** "[stunned](#stunned)", "[frightened](#frightened)", "[prone](#prone)", "[incapacitated](#incapacitated)".
+**Associated Conditions:** ["stunned"](#stunned), ["frightened"](#frightened), ["prone"](#prone), ["incapacitated"](#incapacitated).
 
 ___
 ### Biological damage
@@ -167,13 +167,13 @@ ___
 #### Poison
 Poison damage is caused by substances and energies that directly interfere with biological function, often with grizzly and devastating effects. Poisons always cause the "poisoned" condition, but can also cause any S class condition, and most other conditions. Outside of esoteric damage, it is the single most dangerous form of damage to humanoids and animals (just ask the giant scorpion).
 
-**Associated Conditions:** "[Poisoned](#poisoned)".
+**Associated Conditions:** ["Poisoned"](#poisoned).
 
 ___
 #### Necrotic
 Necrotic damage is caused by substances and energies that destroy biological structures, often causing grizzly conditions. This damage type can affect corporeal undead since they have a biological body.
 
-**Associated Conditions:** "[bleeding](#bleedingwilting)", "[diseased](#diseased)", "[blinded](#blinded)", "[crippled](#crippled)"
+**Associated Conditions:** ["bleeding"](#bleedingwilting), ["diseased"](#diseased), ["blinded"](#blinded), ["crippled"](#crippled)
 
 ___
 ### Energy/elemental damage
@@ -184,23 +184,23 @@ ___
 #### Heat (fire)
 Fire damage is caused by the heating of a material, and its subsequent oxidation, which causes it to become too frail to maintain its form and function (at least "natural" fire does). "Supernatural" fire burns away the essence. This damage is particularly effective against biological and flammable targets. Heat also tends to travel "upwards" and should not be underestimated! Being on fire and fire damage over time is detailed in ["Movement and Exploration: Fire damage and being on fire"](03-movement-exploration.md#fire-damage-and-being-on-fire).
 
-**Associated Conditions:** "[incapacitated](#incapacitated)" (pain), "[blinded](#blinded)" (permanent).
+**Associated Conditions:** ["incapacitated"](#incapacitated) (pain), ["blinded"](#blinded) (permanent).
 
 **Special**: Flammable materials ignite[1] when dealt at least 2 damage dice of heat damage. Highly flammable materials ignite when dealt any heat damage
 
-1. An entity that is on fire takes fire damage at the start of each of its turns unless it takes immediate measures to ameliorate its situation. Usually this is 1d8 damage per round, but can be more for larger entities (see "[Movement and Exploration: Being on fire](03-movement-exploration.md#being-on-fire)").
+1. An entity that is on fire takes fire damage at the start of each of its turns unless it takes immediate measures to ameliorate its situation. Usually this is 1d8 damage per round, but can be more for larger entities (see ["Movement and Exploration: Being on fire"](03-movement-exploration.md#being-on-fire)).
 
 ___
 #### Cold (ice)
 Cold damage is caused a reduction of energy level in the substance of the target, often causing it to lose physical function, become brittle, or even freeze.
 
-**Associated Conditions:** "[immobilised](#immobilised)" (frozen), "[incapacitated](#incapacitated)" (hypothermia).
+**Associated Conditions:** ["immobilised"](#immobilised) (frozen), ["incapacitated"](#incapacitated) (hypothermia).
 
 ___
 #### Electricity (lightning)
 Lightning damage is caused by a rapid flow of charge through a target which generally causes internal heat-like damage and particularly damages nerves and control systems. Supernatural lightning is often used by divine beings. Lightning is particularly effective against mortals and constructs. Lightning can set fire to flammable materials. For every two damage dice of lightning damage taken, 
 
-**Associated Conditions:** "[paralysed](#paralysed)", "[immobilised](#immobilised)", "[incapacitated](#incapacitated)", "[stunned](#stunned)".
+**Associated Conditions:** ["paralysed"](#paralysed), ["immobilised"](#immobilised), ["incapacitated"](#incapacitated), ["stunned"](#stunned).
 
 
 **Special**:
@@ -211,7 +211,7 @@ ___
 #### Light
 Light damage can be caused by intense light, which can ablate both surface and deep layers of an entity. Natural light is often effective against monsters and undead. Supernatural light is particularly effective against spiritual and profane beings.
 
-**Associated Conditions:** "[frightened](#frightened)", "[blinded](#blinded)", "[catatonic](#catatonic)", "[incapacitated](#incapacitated)".
+**Associated Conditions:** ["frightened"](#frightened), ["blinded"](#blinded), ["catatonic"](#catatonic), ["incapacitated"](#incapacitated).
 
 **Special**: Profane beings and spirits take one point of HP damage for every 2 dice of light damage taken.
 
@@ -224,7 +224,7 @@ ___
 #### Divine
 Divine damage directly eliminates a target's spiritual essence. Targets without spirit (mainly objects) are not affected by this damage type. Profane beings and mortals are particularly vulnerable to it. Beware the wrath of the gods.
 
-**Associated Conditions:** "[catatonic](#catatonic)", "[immobilised](#immobilised)", "[incapacitated](#incapacitated)", "[aphonia](#aphonic)", "[blinded](#blinded)", "[frightened](#frightened)".
+**Associated Conditions:** ["catatonic"](#catatonic), ["immobilised"](#immobilised), ["incapacitated"](#incapacitated), ["aphonia"](#aphonic), ["blinded"](#blinded), ["frightened"](#frightened).
 
 **Special**:
 - As with other Esoteric damage, divine damage ignores SP and MP of entities other than divine entities.
@@ -234,7 +234,7 @@ ___
 #### Entropic
 Entropic damage prevents the laws of creation from functioning, causing physical targets to disintegrate or mutate horribly, while spiritual targets are rendered down to pure chaos.
 
-**Associated Conditions:** "[crippled](#crippled)", "[incapacitated](#incapacitated)", "[bleeding](#bleedingwilting)".
+**Associated Conditions:** ["crippled"](#crippled), ["incapacitated"](#incapacitated), ["bleeding"](#bleedingwilting).
 
 **Special**: 
 - Entropic damage ignores SP and MP of ALL entities.
@@ -244,7 +244,7 @@ ___
 #### Profane
 Profane damage is caused **exclusively** by profane entities. It is the destruction of goodness and vital energies, as well as the draining of spiritual energy.
 
-**Associated Conditions:** "[bleeding"](#bleedingwilting)", "[immobilised](#immobilised)", "[restrained](#restrained)", "[aphonia](#aphonic)", "[frightened](#frightened)", "[charmed](#charmed)".
+**Associated Conditions:** ["bleeding""](#bleedingwilting), ["immobilised"](#immobilised), ["restrained"](#restrained), ["aphonia"](#aphonic), ["frightened"](#frightened), ["charmed"](#charmed).
 
 **Special**: 
 - Profane damage ignores SP and MP of all entities except profane entities, divinities and constructs.
@@ -470,7 +470,7 @@ An unconscious character can make CON and CHA saves, and communicate telepathica
   - All melee attacks against it are at advantage.
   - All damage bypasses SP and MP.
   - It cannot cast or concentrate on spells or take any actions.
-  - If it is unconscious because it is asleep, it has -10 on "[observe](05-skills.md#observe)" rolls. If it is unconscious for any other reason, then it cannot properly perceive the outside world or think rationally. 
+  - If it is unconscious because it is asleep, it has -10 on ["observe"](05-skills.md#observe) rolls. If it is unconscious for any other reason, then it cannot properly perceive the outside world or think rationally. 
 
 #### Helpless
 A helpless character is in a condition where they cannot protect themselves. Usually they are otherwise compromised.
@@ -580,7 +580,7 @@ An aphonic character cannot communicate vocally (or verbally).
 #### Deafened
 A deafened character cannot perceive sound. It cannot hear. It can speak only stutteringly. It must make an [INT] save to complete Incantations (unless it is deaf for longer than month).
 #### Diseased
-Afflicted by a disease. The effect varies with disease (see "[Diseases](14-poisons-and-diseases.md#diseases)").
+Afflicted by a disease. The effect varies with disease (see ["Diseases"](14-poisons-and-diseases.md#diseases)).
 
 #### Glowing
 An glowing character cannot stealth and is never invisible.
@@ -602,7 +602,7 @@ This character cannot be directly detected by visual means (aka sight). Characte
 Afflicted by a poison. This has the following general effects:
   - A poisoned entity's base speed is halved.
   - The entity makes all rolls at disadvantage.
-  - The specific poison may also cause additional effects (see "[Poisons](14-poisons-and-diseases.md#poisons)").
+  - The specific poison may also cause additional effects (see ["Poisons"](14-poisons-and-diseases.md#poisons)).
 
 #### Prone
 A prone character is intimate with the ground.
@@ -612,12 +612,12 @@ A prone character is intimate with the ground.
   - It has disadvantage on melee attacks.
   - It has disadvantage at [STR] and [DEX] saves.
   - It has advantage at skills used in hiding, but may suffer penalties to perception.
-  -  Flying entities that are knocked prone, drops a distance equal to its speed and can only move at half speed on its next turn. If this drop causes it to hit the ground, it suffers all of the consequences of falling (see "[Falling](03-movement-exploration.md#Falling)" section).
+  -  Flying entities that are knocked prone, drops a distance equal to its speed and can only move at half speed on its next turn. If this drop causes it to hit the ground, it suffers all of the consequences of falling (see ["Falling"](03-movement-exploration.md#Falling) section).
 
 ___
 ### Conditions by Damage Type
 
-When an entity loses HP (but *NOT* MP or SP) due to a named damage type, it may gain one of the following damage types. If it meets the condition, it rolls a d6, and the condition is determined by the roll. The condition is applied for the "usual" duration defined in the "[Condition Table](#condition-table)" above.
+When an entity loses HP (but *NOT* MP or SP) due to a named damage type, it may gain one of the following damage types. If it meets the condition, it rolls a d6, and the condition is determined by the roll. The condition is applied for the "usual" duration defined in the ["Condition Table"](#condition-table) above.
 
 ||1|2|3|4|5|6|
 |-|-|-|-|-|-|-|

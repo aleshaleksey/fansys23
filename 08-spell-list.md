@@ -703,7 +703,7 @@ ___
 |Focus|A talisman made of material from a hidden valley, or a pouch of nettle leaves|
 |Save|WIS/INT|
 
-**Description**: The target of the spell may attempt to go unnoticed in areas watched by various scrying magics or within wards such as "[Warded Ground](#warded-ground)". An unwilling target may negate the effect with a successful WIS save.
+**Description**: The target of the spell may attempt to go unnoticed in areas watched by various scrying magics or within wards such as ["Warded Ground"](#warded-ground). An unwilling target may negate the effect with a successful WIS save.
 
 In order to do so, the target of "Fade" must succeed an INT save vs the Threshold of the one who cast the detection magic the first time that the magic would normally detect it. On a successful save, the detection magic does not detect the target or any objects on its person (within its carrying capacity) or supernatural effects that are affecting it. Repeated saves are not necessary.
 
@@ -1049,7 +1049,7 @@ ___
 
 **Special**:
 - If the target is an entity it may make a save to reject the spell, in which case the spell fails.
-- The weird is considered to have "[Blind Sight](06-abilities.md#blind-sight-i-vi)" for the sake of its attack rolls. However it should be noted that the target of the spell must be aware of the entity being attacked to be able to command the attack.
+- The weird is considered to have ["Blind Sight"](06-abilities.md#blind-sight-i-vi) for the sake of its attack rolls. However it should be noted that the target of the spell must be aware of the entity being attacked to be able to command the attack.
 
 **Upcast**: Either the damage increases by 1d12, or the reach increases by 5ft for every extra MP die above 1.
 
@@ -1256,7 +1256,7 @@ ___
 |Limitation|You must be familiar with the entity kind that you're transforming into|-1(3)
 |Save|Wis|
 
-**Description**: The target transforms into another entity of its type and subtype. It loses its template and instead gains the template of any valid entity that has both (see "[example templates](09-races.md#example-template)"): (6)
+**Description**: The target transforms into another entity of its type and subtype. It loses its template and instead gains the template of any valid entity that has both (see ["example templates"](09-races.md#example-template)): (6)
 - The same template level as its own own or a template whose level is lower than its own.
 - The same entity type and subtype as its own.
 
@@ -1569,7 +1569,7 @@ ____
 |Focus|An item from the location the spell was cast|-1
 |Limitation|Special|-6
 
-**Description**: The caster imbues one target with the ability to trace out a "[secret path](03-movement-exploration.md#secret-paths)". The path is traced between the place where the spell is cast, and where the spell ends. The spell can be completed prematurely by speaking a pre-agreed completion word. The target of the spell knows the secret path and can find and follow it. They can share this information with other entities they can communicate with. Travelling this secret path takes one round per 12 minutes of duration of the spell.
+**Description**: The caster imbues one target with the ability to trace out a ["secret path"](03-movement-exploration.md#secret-paths). The path is traced between the place where the spell is cast, and where the spell ends. The spell can be completed prematurely by speaking a pre-agreed completion word. The target of the spell knows the secret path and can find and follow it. They can share this information with other entities they can communicate with. Travelling this secret path takes one round per 12 minutes of duration of the spell.
 
 **Special**: The secret path exists for a number of days equal to the caster's character level. However, other entities may end up finding and using or inhabiting this path.
 
@@ -1577,7 +1577,7 @@ ____
 - If "Secret Path" is learned through "air", "earth", "fire" or "water" magic, it can only be cast if at least one of the locations it connects is associated with the element, or its season. 
 - If "Secret Path" is cast through "nature" magic, it cannot connect two locales created through artifice (eg, cities, castles, houses, ships, etc).
 - The secret path MUST be between two areas in the same realm, or between adjacent realms (eg, one can trace a path between the material realm and a shallow layer of the spirit realm, or a shallow and intermediate layer of the spirit realm, but not between material realm and intermediate or deep layer of the spirit realm).
-- The spell ends if the target attempts to travel via "cosmic speed", or through other supernatural means such as "[Fairy Shelter](#fairy-shelter)", "[Aqueous Step](#aqueous-step)", "[Flame Stride](#flame-stride)", "[Fairy Feast](#fairy-feast)", "[Portal](#portal)", although it does function with "[Otherworld Step](#otherworld-step)" and "[Fairy Ball/Masquerade](#fairy-ballmasquerade)".
+- The spell ends if the target attempts to travel via "cosmic speed", or through other supernatural means such as ["Fairy Shelter"](#fairy-shelter), ["Aqueous Step"](#aqueous-step), ["Flame Stride"](#flame-stride), ["Fairy Feast"](#fairy-feast), ["Portal"](#portal), although it does function with ["Otherworld Step"](#otherworld-step) and ["Fairy Ball/Masquerade"](#fairy-ballmasquerade).
 
 **Upcast**: For every extra MP dice above 2 spent, the spell lasts for an extra 12 minutes.
 
@@ -2156,7 +2156,7 @@ ___
 
 **Description**: The caster causes the target entity to fall asleep (unconscious) on a failed INT save. The target repeats the save at the start of each turn, awakening on a successful save (if it lives long enough).
 
-**Special**: A target, if it fails the save, may instead choose to to take SP damage equal to the SP of the caster, plus 1 point of HP damage, and hence avoid the effect of the spell. In order to make use of this possibility the target must be proficient with "[Knowledge: Arcana](05-skills.md#knowledge)" and successfully identify the spell (Threshold of at least 15). (The mechanistic reason for this, is because unconsciousness, in this system, is extremely dangerous, so players are given the option of avoiding the effect, for a heavy, heavy toll.)
+**Special**: A target, if it fails the save, may instead choose to to take SP damage equal to the SP of the caster, plus 1 point of HP damage, and hence avoid the effect of the spell. In order to make use of this possibility the target must be proficient with ["Knowledge: Arcana"](05-skills.md#knowledge) and successfully identify the spell (Threshold of at least 15). (The mechanistic reason for this, is because unconsciousness, in this system, is extremely dangerous, so players are given the option of avoiding the effect, for a heavy, heavy toll.)
 
 **Upcast**: The spell affects an additional target for each extra MP die above 3.
 
@@ -2490,7 +2490,7 @@ ___
 - It is difficult terrain for all hostile entities.+2(11)
 - At the start of their turn, all hostile entities must make a Dex save or take 1d12+[Sup] percussive damage and become "grappled".
 - All friendly entities have a +10 to movement speed and light cover.+4(15)
-- Furthermore, as an action, the caster the caster can move or sculpt 10ftx10ftx10ft of earth of stone as if using the "[Shape Earth](#shape-earth)" spell, expect the spell can affect ground and natural rock all through the affected zone.+3(18)
+- Furthermore, as an action, the caster the caster can move or sculpt 10ftx10ftx10ft of earth of stone as if using the ["Shape Earth"](#shape-earth) spell, expect the spell can affect ground and natural rock all through the affected zone.+3(18)
 
 **Special**: The spell does not affect entities that are at least 5ft above the ground.
 
@@ -2515,7 +2515,7 @@ ___
 |Limitation|Does not affect True-sight|-2
 |Save|WIS/INT|
 
-**Description**: The caster touches the aura of a target being, making the target appear as if it was another being or object to supernatural senses, magics and spells. Thus, for example the caster can make a child appear to be a dragon for the sake of a spell such as "[Scry](#scry)" or "[Spirits' Secret](#spirits-secret)", or make themselves appear to be an entirely different individual. This does not affect the target's appearance for the sake of natural senses such as normal sight or scent.
+**Description**: The caster touches the aura of a target being, making the target appear as if it was another being or object to supernatural senses, magics and spells. Thus, for example the caster can make a child appear to be a dragon for the sake of a spell such as ["Scry"](#scry) or ["Spirits' Secret"](#spirits-secret), or make themselves appear to be an entirely different individual. This does not affect the target's appearance for the sake of natural senses such as normal sight or scent.
 
 An unwilling target can negate the effect with a successful WIS save vs the caster's threshold. The save is not repeated.
 
@@ -2655,7 +2655,7 @@ If the spell is cast using the element of "earth" or "water" it is unlit and com
 
 The space is cut off from reality and imperceptible from the material world. Likewise, outside realms are imperceptible and inaccessible from the domain (with a few exceptions). The caster is aware of the presence and count of other entities in their domain, though their location and nature is not revealed.
 
-This space can only be accessed by either a secret path, by using "[Otherworld Step](#otherworld-step)", or by entities with a cosmic speed.
+This space can only be accessed by either a secret path, by using ["Otherworld Step"](#otherworld-step), or by entities with a cosmic speed.
 - The caster knows and can follow the secret path to enter this realm (takes 2 rounds regardless of move speed). Entities that follow the caster may make a "navigate" roll vs the caster's threshold in order to learn the secret path.
 - Only entities that know the location of the domain can enter it via "Otherworld Step".
 - Entities with a cosmic speed can find the domain with a Threshold=30 ["navigate"](05-skills.md#navigate) roll.
@@ -2949,7 +2949,7 @@ ___
 **Description**: The caster imbues the blessing of the winds unto the target. This has the following effects.
 - The target's walk and fly speeds increase by 50ft/round.
 - If the target has a fly speed, it improves by one step. If it does not, it gains an "average" fly speed equal to its walking speed, but only during its turn (it falls at the end of the turn if it is still airborne).
-- The target has advantage of acrobatics and fly rolls, as well as DEX saves. It can sacrifice this affect until the start of its next turn to instead apply an extra "[basic combat manoeuvre](04-combat.md#basic-martial-manoeuvres)" if it is using its main action to attack.
+- The target has advantage of acrobatics and fly rolls, as well as DEX saves. It can sacrifice this affect until the start of its next turn to instead apply an extra ["basic combat manoeuvre"](04-combat.md#basic-martial-manoeuvres) if it is using its main action to attack.
 
 **Upcast**: For every extra MP dice above 5, the target's movement speed increases by 20ft, or an extra target can be affected.
 
@@ -2969,7 +2969,7 @@ ___
 |Limitation|Only affects mortals|
 |Save|WIS/CHA|
 
-**Description**: The caster attempts to dominate the mind of a mortal, triggering a WIS save at the start of the target's next turn. If the target fails the save, it is "[dominated](10-conditions-types.md#dominated)" by the caster until the end of the spell. The target does not get repeated saves against the effect unless certain conditions are met (see below).
+**Description**: The caster attempts to dominate the mind of a mortal, triggering a WIS save at the start of the target's next turn. If the target fails the save, it is ["dominated"](10-conditions-types.md#dominated) by the caster until the end of the spell. The target does not get repeated saves against the effect unless certain conditions are met (see below).
 
 When dominated the target takes no action or reactions (other than movement or communication). Secondly the caster can use any of its own actions through the dominated target. This happens on the caster's turn (although reactions can obviously occur at any time).
 
@@ -3084,7 +3084,7 @@ ___
 
 **Description**: Violently summons 65,000 cubic feet of water (enough to fill 520 5ft cubes) which spreads in a catastrophic deluge that spreads to the full radius of effect of the spell. Thereafter the water remains and spreads naturally as naturally occurring water would without causing further damage, but may sweep away small objects to an extent.
 
-Any entity within the area of effect that does not succeed a STR save suffers 3d12 natural pressure damage, and is moved to the edge of the spell's range of effect (this is a "grapple" effect) and falls prone. In addition any entity within 25ft of the origin of the spell must succeed a DEX save or immediately begin "[suffocating](03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die)" (NB: since the spell is instantaneous they do not take any damage, however refractory period is immediately triggered).
+Any entity within the area of effect that does not succeed a STR save suffers 3d12 natural pressure damage, and is moved to the edge of the spell's range of effect (this is a "grapple" effect) and falls prone. In addition any entity within 25ft of the origin of the spell must succeed a DEX save or immediately begin ["suffocating"](03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die) (NB: since the spell is instantaneous they do not take any damage, however refractory period is immediately triggered).
 
 **Limitation**: If the spell is cast through "NATURE" magic, it can only be cast if there are at least 5 5ft cubes of water or if it is raining or snowing in the proposed area of effect.
 
@@ -3109,7 +3109,7 @@ ___
 |Focus|A talisman made of material from a hidden valley|-1
 |Save|WIS/INT|
 
-**Description**: The target of the spell may attempt to go unnoticed in areas watched by various scrying magics or within wards such as "[Warded Ground](#warded-ground)". An unwilling target may negate the effect with a successful WIS save.
+**Description**: The target of the spell may attempt to go unnoticed in areas watched by various scrying magics or within wards such as ["Warded Ground"](#warded-ground). An unwilling target may negate the effect with a successful WIS save.
 
 If the level (MP dice cost of the local spell) of the detection magic is equal to, or lower than that at which "Greater Fade" is cast, the detection magic fails to detect the target. The same applies if detection is by a supernatural ability of "A class" or lower.
 
@@ -3224,7 +3224,7 @@ ___
 |Save|CHA|
 
 **Description**: The spell creates a seal within a 10ft radius of a point warding it against cosmic forces. This barrier has three effects within its area of effect while it is active:
-- Everything in the AoE has resistance to "[entropic damage](10-conditions-types.md#esoteric-damage)".
+- Everything in the AoE has resistance to ["entropic damage"](10-conditions-types.md#esoteric-damage).
 - All secret paths that start or end in the area of effect are unusable.
 - An entity that wishes to enter or leave the area by "cosmic" or "blink" speed, or through the use of a spell or supernatural ability must succeed on a CHA sav vs the caster's Threshold, or fail.
 
@@ -3253,8 +3253,8 @@ ___
 |Save|Special: Wis|
 
 **Description**: The caster allows a supernatural pact to be sealed between two targets (supplicant and patron). The caster may be one of the targets. "Pact" may work in the following manner:
-1. Replicate the effect of "[Promise](#promise)", with a year long duration. Furthermore, the patron knows if the promise has been broken.
-2. Chose a one of the patrons attributes: a stat, save, resource pool, ability, skill, or proficiency. A number of times a day equal to the supplicant's [Base], the supplicant may use that attribute (in place of their own as appropriate). *In return* the patron must demand that the supplicant make a promise (as in "[Promise](#promise)") or alternatively the patron may issue a single command to the supplicant on any day that the patron's power is borrowed.
+1. Replicate the effect of ["Promise"](#promise), with a year long duration. Furthermore, the patron knows if the promise has been broken.
+2. Chose a one of the patrons attributes: a stat, save, resource pool, ability, skill, or proficiency. A number of times a day equal to the supplicant's [Base], the supplicant may use that attribute (in place of their own as appropriate). *In return* the patron must demand that the supplicant make a promise (as in ["Promise"](#promise)) or alternatively the patron may issue a single command to the supplicant on any day that the patron's power is borrowed.
 
 **Special**:
 - A supplicant can have a pact with no more than one patron.
@@ -3577,7 +3577,7 @@ ___
 In addition, the caster can designate any number of entities as "protected". These can meld through the barrier as a move action. In addition:
 - All "protected" entities in contact with the ground gain +20ft to their movement speed.
 - Any "unprotected" entity that attempts to cross the barrier must succeed a CON save or become "poisoned".
-- Any "unprotected" entity in contact with the ground treats the area within the barrier as "[Difficult Terrain](#difficult-terrain)".
+- Any "unprotected" entity in contact with the ground treats the area within the barrier as ["Difficult Terrain"](#difficult-terrain).
 
 **Special**:
 - If the attack is a rectilinear effect and the barrier crosses its path, the target is affected as if it is inside the barrier.
@@ -3634,7 +3634,7 @@ Ranged weapons attacks against entities inside the spell (including thrown objec
 Furthermore the caster specifies any number of entities as "protected" at the casting of the spell. This determines how other aspects of the spell interact with them.
 - All unprotected targets that try to enter the area of effect of the spell (or are in the area when the spell first activates) must succeed on a STR save or be flung 50ft outwards from the point of contact, and suffer 3d12 sheer damage.
 - All unprotected entities (and structures) which are in the warded area at the start of their turn must succeed on a STR save take 3d12 sheer damage (half on failure).
-- All unprotected entities treat the area as "[Difficult Terrain](#difficult-terrain)", and flying entities are affected as by [extreme wind](#flying-and-turbulence).
+- All unprotected entities treat the area as ["Difficult Terrain"](#difficult-terrain), and flying entities are affected as by [extreme wind](#flying-and-turbulence).
 - All protected entities have resistance to damage from ranged weapons, to pressure damage and lighting damage.
 - Effects caused by area of effect "air"/"wind" spells of an equal or lower level that do not require an attack roll are excluded from the spell's area of effect. 
 
@@ -3675,7 +3675,7 @@ The spell affects protected entities within its area as follows:
 
 The spell affects unprotected entities within its area as follows:
 - When attempting to enter the area, the entity must succeed a [CON] save or be "immobilised".
-- When in the area, it has disadvantage on attack rolls and treats the area as "[Difficult Terrain](#difficult-terrain)".
+- When in the area, it has disadvantage on attack rolls and treats the area as ["Difficult Terrain"](#difficult-terrain).
 
 **Special**:
 - Any entities aligned with "fire" can only enter (or leave) the area if they succeed a CHA save.
@@ -4017,7 +4017,7 @@ ___
 |Components|incantation|+1
 |Limitation|Special|-6
 
-**Description**: The caster instantly creates a "[secret path](03-movement-exploration.md#secret-paths)" between the current location and another location in this realm or an adjacent realm. The path's destination must be one that the caster has previously visited. The caster knows the secret path and can find and follow it. They can share this information with other entities they can communicate with. Travelling this secret path takes 6 rounds.
+**Description**: The caster instantly creates a ["secret path"](03-movement-exploration.md#secret-paths) between the current location and another location in this realm or an adjacent realm. The path's destination must be one that the caster has previously visited. The caster knows the secret path and can find and follow it. They can share this information with other entities they can communicate with. Travelling this secret path takes 6 rounds.
 
 **Special**: The secret path exists for a number of years equal to the caster's character level. However, other entities may end up finding and using or inhabiting this path. Every year there is a 1/6 chance that the path will shift and its location and route are no longer known to the caster.
 
@@ -4240,7 +4240,7 @@ ___
 |Material|- (1HP worth of the creator's blood)|-2
 |Save|CHA|
 
-**Description**: The spell functions like "[Lesser Domain](#lesser-domain)", but lasts longer and affects a greater space. It also has the following differences:
+**Description**: The spell functions like ["Lesser Domain"](#lesser-domain), but lasts longer and affects a greater space. It also has the following differences:
 - The greater domain may be populated with ephemeral spirits that typically take the forms of plants and animals. They are neither hostile nor friendly, and flee the domain if events threaten their existence.
 - The caster can reshape the domain by will alone, changing 10ft x 10ft x 10ft of the domain per round.
 - Spells associated with the element used to cast the spell have their cost decreased by 1 MP dice. This effect never stacks.
@@ -4254,7 +4254,7 @@ ___
 
 **Global**: The spell lasts for 1 week. At the end of the week, the caster may decide at the end of this period whether to make the domain permanent.
 
-The caster may instead *join* a domain onto an existing domain, hence expanding it. The domain must belong to the caster, or the creator of the other domain must permit it. In the case where the spell is used to expand a domain, the caster must make a "[Spellworking](05-skills.md#spellworking)" roll with a Threshold=[own threshold + 1 for every expansion that the domain has undergone]. Upon failure the spell ends in catastrophic failure.
+The caster may instead *join* a domain onto an existing domain, hence expanding it. The domain must belong to the caster, or the creator of the other domain must permit it. In the case where the spell is used to expand a domain, the caster must make a ["Spellworking"](05-skills.md#spellworking) roll with a Threshold=[own threshold + 1 for every expansion that the domain has undergone]. Upon failure the spell ends in catastrophic failure.
 
 ___
 ### Greater Cosmic Seal
@@ -4274,7 +4274,7 @@ ___
 |Save|CHA|
 
 **Description**: The spell creates a grand seal within a 60ft radius of a point warding it against cosmic forces. This barrier has three effects within its area of effect while it is active:
-- Everything in the AoE is immune to "[entropic damage](10-conditions-types.md#esoteric-damage)".
+- Everything in the AoE is immune to ["entropic damage"](10-conditions-types.md#esoteric-damage).
 - All secret paths that start or end in the area of effect are unusable.
 - An entity that wishes to enter or leave the area by "cosmic" or "blink" speed, or through the use of a spell or supernatural ability must succeed on a CHA sav vs the caster's Threshold, or fail. The save cannot be repeated.
 
@@ -4380,7 +4380,7 @@ ___
 - All entities using "walk" modality must succeed a DEX save at the start of their turn or fall prone.
 - All entities using the "dig" modality must succeed a STR save at the start of their turn or take 6d12 damage and be "immobilised" (half damage on successful save).
 - All structures take 6d12 points of damage at the start of the caster's turn, unless they are warded, in which case the caster must succeed on a SAT roll vs the threshold of the ward. Any entity inside a structure that collapses must succeed a DEX save and a STR save. If it fails the DEX save it also takes the 6d12 damage. If it fails the STR save it is "immobilised".
-- 1d4 fissures open at points of the caster's choosing. The fissure's act as per the "[Rift](#rift)" spell, but end at the edge of the spell's area of effect. At the end of the spell the fissures have a 50% chance of closing, in which case any entities inside them must succeed a STR save or take 6d12 damage and be "immobilised" (half damage on successful save).
+- 1d4 fissures open at points of the caster's choosing. The fissure's act as per the ["Rift"](#rift) spell, but end at the edge of the spell's area of effect. At the end of the spell the fissures have a 50% chance of closing, in which case any entities inside them must succeed a STR save or take 6d12 damage and be "immobilised" (half damage on successful save).
 
 **Global**: The spell extends for a radius of 3600ft and lasts for an hour. The fissures open once per minute instead of once per round, and their location is random.
 
@@ -4408,9 +4408,9 @@ Firstly, all targets of the caster's choice regain 4d4+[Sup] MP and SP, if they 
 
 Secondly all targets of the caster's choice are cured of up to 4 conditions of their choice, if they are in the spell's area of effect when it is cast.
 
-Thirdly, all hostile entities and all "[profane](10-conditions-types.md#profane-1)" must make a WIS save vs the caster's threshold, or gain the "glowing" condition, and be either "frightened" of, or "charmed" by, the caster and their allies for the duration of the spell (repeated saves apply). This effect occurs to entities if they are in the spell's area of effect when it is cast, or when they first enter the area of effect.
+Thirdly, all hostile entities and all ["profane"](10-conditions-types.md#profane-1) must make a WIS save vs the caster's threshold, or gain the "glowing" condition, and be either "frightened" of, or "charmed" by, the caster and their allies for the duration of the spell (repeated saves apply). This effect occurs to entities if they are in the spell's area of effect when it is cast, or when they first enter the area of effect.
 
-Fourthly, all willing allies are transformed into "beasts" or "fey" of the caster's choice, as if by the "[Transform Mortal](#transform-mortal)" spell. This effect occurs to entities if they are in the spell's area of effect when it is cast, or when they first enter the area of effect.
+Fourthly, all willing allies are transformed into "beasts" or "fey" of the caster's choice, as if by the ["Transform Mortal"](#transform-mortal) spell. This effect occurs to entities if they are in the spell's area of effect when it is cast, or when they first enter the area of effect.
 
 **Special**: If the caster sacrifices a precious memory, in the form of permanently losing one of their abilities, the MP dice cost of the spell becomes zero. In addition the following effects occur:
 - The area of the spell is cut off from the material world (or other realms), and it is only possible to enter or leave via a secret path that the caster knows, or with a ["navigate"](05-skills.md#navigate) roll equal to the caster's threshold.
@@ -4451,7 +4451,7 @@ ___
 **Description**: The caster implores the powers of the inner elemental realm of fire to grant its power to a single being. The target of the spell gains a halo of fire and the following properties:
 - Immunity to fire and cold damage and the effects of extreme heat and cold. (8)
 - A blink speed of 60ft.
-- "[Life sense](06-abilities.md#life-sense-i-v)" to 120ft.
+- ["Life sense"](06-abilities.md#life-sense-i-v) to 120ft.
 - Any hostile entities that succeed in a basic combat manoeuvre against the target take 3d8 fire damage.
 - Flammable objects within 15ft of the target burst into flame (the target can suppress this effect).
 - Weather conditions within 120ft of the target shift two points in the direction of extreme heat (the target can suppress the effect).
@@ -4630,7 +4630,7 @@ ____
 - If cast positively:
   - All mortals within 10 miles regain 6 HP, and are cured of one disease, one poison and one condition of their choice.
   - Infertile, barren, or contaminated land within range becomes fertile. Fertile land in range yields twice the harvest for the next 10 years.
-  - The after-effects of "[Harvest](#harvest)" on the affected territory ends.
+  - The after-effects of ["Harvest"](#harvest) on the affected territory ends.
   - Each curse affecting the natural terrain within the area of effect ends if it was cast with less than 9 MP dice (if local), or 36 MP dice (if global). Likewise, all poisons affecting the land are neutralised.
 - If cast negatively:
   - All mortals within 10 miles must make a CON save or lose 6 HP and become poisoned. For simplicity a DM may assume that 96% of level 1, 80% level 2, 36% of level 3, and 4% of level 4 mortals in the area of effect that are not directly relevant to the game die.
@@ -4667,7 +4667,7 @@ ____
 |Save|CHA|
 
 **Description**: Up to eight entities touching the caster gain the blessing of the wind, becoming one with it. Affected entities gain the following for the duration of the spell.
-- Immunity to "[physical](10-conditions-types.md#physical-damage)" damage.
+- Immunity to ["physical"](10-conditions-types.md#physical-damage) damage.
 - Immunity to "grappled", "restrained" and "immobilised".
 - +4 to acrobatics, fly and observe (as well as proficiency in the skills if not already proficient).
 - A perfect fly speed of 120ft, or an increase to their existing fly speed and quality.
@@ -4759,7 +4759,7 @@ ____
 **Special**: The realm of flame is a legendary magic. It is the embodiment of flaming destruction.
 - All entities aligned or immune to "fire" are immune to the "catatonic" effect caused by the spell.
 - The spot where it is cast forever resonates with an aura of [spiritual, fire and destructive] energies. Mortals born in those lands might be aligned in some way with elemental flame.
-- Even after the spell has dissipated it leaves echoes behind, "[Meadow of Flame](#meadow-of-flame)" or lesser elementals may spontaneously spring up in the place it was cast for 108 years if it was cast locally and a millennium if it was cast globally.
+- Even after the spell has dissipated it leaves echoes behind, ["Meadow of Flame"](#meadow-of-flame) or lesser elementals may spontaneously spring up in the place it was cast for 108 years if it was cast locally and a millennium if it was cast globally.
 
 **Global**: Realises the Realm of Flame onto the caster's current location. The radius is 1 mile. For every extra 4MP the radius increases by 200ft and the height increases by 10ft and the damage increases by 2d8.
 
@@ -4791,13 +4791,13 @@ ____
 - Secondly, as a main action, the caster can reshape up to 4 areas of earth, totalling 1000 (5ft x 5ft x 5ft) cubes of earth or rock as they wish. This can result in entities, falling or being trapped within earth or rock. The shapes created by this effect are always stable and solid. Nor can the thinnest portion be less than 5ft x 5ft.
   - Any entity on the edge of such a zone is "restrained" unless it succeeds a STR or DEX save (in which case it is pushed to the edge of the zone "grappled" instead).
   - Any entity entirely in such a zone is "immobilised" unless it succeeds a STR or DEX save (in which case it is pushed to the edge of the zone and grappled instead). Any entity that is thus encased at the start of its turn takes 3d12 pressure damage at the start of each of its turns until it somehow frees itself (it must succeed a fortify roll vs the caster's threshold to move at 5ft, or have a dig speed).
-- Thirdly, the caster can create a single fissure as a secondary action, with an origin within the area of the spell (as per the "[Rift](#rift)" spell).
+- Thirdly, the caster can create a single fissure as a secondary action, with an origin within the area of the spell (as per the ["Rift"](#rift) spell).
 - Alternately, as a secondary action, the caster may create a dust cloud with a radius of up to 30ft which causes "total concealment". Any entities in the cloud when it forms must make a CON save or be blinded. The cloud lasts until the end of the caster's next turn.
 
 **Special**: "True Geomancy" is a legendary magic. It is a fragment of the forces that shaped the earth when it was created.
 - All entities aligned to elemental earth are immune to "immobilised" effect of this spell, but not others.
 - The spot where it is cast forever resonates with an aura of [spiritual, earth and divine] energies. Mortals born in those lands might be aligned in some way with elemental earth.
-- Even after the spell has dissipated it leaves echoes behind. Fissures (as caused by the "[Rift](#rift)" spell) may spontaneously spring up. Likewise lesser elements may be drawn to the spot. This can continue for 108 years if it was cast locally and a millennium if it was cast globally.
+- Even after the spell has dissipated it leaves echoes behind. Fissures (as caused by the ["Rift"](#rift) spell) may spontaneously spring up. Likewise lesser elements may be drawn to the spot. This can continue for 108 years if it was cast locally and a millennium if it was cast globally.
 
 **Global**: The spell is realised in an area with a radius of 1600ft. For every extra 4MP the radius increases by 200ft or the duration increases by 1 week.
 

@@ -133,11 +133,11 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Earth Magic I (lvl 1)|||"[Down](../08-spell-list.md#down)", "[Least Spike](../08-spell-list.md#least-spike)", "[Gnome's Mercy](../08-spell-list.md#gnomes-mercy)"|
+|Earth Magic I (lvl 1)|||["Down"](../08-spell-list.md#down), ["Least Spike"](../08-spell-list.md#least-spike), ["Gnome's Mercy"](../08-spell-list.md#gnomes-mercy)|
 |Precision Attack I (lvl 2)|||Gnomes Add 1d8 to surprise attacks if they attack with a weapon|
-|Earth Magic II (lvl 3)|||"[Least Ward](../08-spell-list.md#least-geomancy)", "[Least Geomancy](../08-spell-list.md#least-geomancy)", "[Warded Ground](../08-spell-list.md#warded-ground)"|
+|Earth Magic II (lvl 3)|||["Least Ward"](../08-spell-list.md#least-geomancy), ["Least Geomancy"](../08-spell-list.md#least-geomancy), ["Warded Ground"](../08-spell-list.md#warded-ground)|
 |Foresight (lvl 4)|||Greater gnomes add [Wis] to HiT|
-|Earth Magic III (lvl 5)|||"[Shape Earth](../08-spell-list.md#shape-earth)", "[Earth Ward](../08-spell-list.md#earth-ward)"|
+|Earth Magic III (lvl 5)|||["Shape Earth"](../08-spell-list.md#shape-earth), ["Earth Ward"](../08-spell-list.md#earth-ward)|
 |Senses|||Gnomes are blind, but have other senses|
 |Senses|||Heat sense (60ft, 120ft at lvl 4), Tremor sense (60ft, 120ft at lvl 4) - ignores prerequisites|
 |Skills (lvl 1)|||Fortify +4, Harvest +1|
@@ -153,7 +153,7 @@ Gnomes are minor earth spirits that manifest as tiny humanoids made of dirt. In 
 
 Gnomes tend to be reclusive and benign. On the other hand they tend to be curious and hospitable to mortals they take a liking to.
 
-In combat they prefer to use "[Down](../08-spell-list.md#down)" and "[Shape Earth](../08-spell-list.md#shape-earth)" to keep their to immobilise foes and flee to "[Warded Ground](../08-spell-list.md#warded-ground)". However when they must hold their ground, they will use "[Least Spike](../08-spell-list.md#least-spike)" as a weapon.
+In combat they prefer to use ["Down"](../08-spell-list.md#down) and ["Shape Earth"](../08-spell-list.md#shape-earth) to keep their to immobilise foes and flee to ["Warded Ground"](../08-spell-list.md#warded-ground). However when they must hold their ground, they will use ["Least Spike"](../08-spell-list.md#least-spike) as a weapon.
 
 ___
 ### Water Sprite
@@ -389,8 +389,8 @@ A Ifrit is can make two basic combat manoeuvres, or an elemental blast/touch as 
 |[Cursed Blood](../06-abilities.md#cursed-blood)|||An Ifrit can invoke curses upon foes that spill its "blood"|
 |[Spelldance II](../06-abilities.md#spelldance-i-iv)|||An Ifrit can both obfuscate and alter spells with its dance.|
 |||||
-|Spellcasting: Fire IV|||Favourites: "[Meadow of Flame](../08-spell-list.md#meadow-of-flame)", "[Melt](../08-spell-list.md#melt)", "[Command Mortal](../08-spell-list.md#command-mortal)", "[Speak Through Flame](../08-spell-list.md#speak-through-flame)", "[Flame Stride](../08-spell-list.md#flame-stride)"|
-|Spellcasting: Kinetic III|||Favourites: "[Whispers](../08-spell-list.md#whispers)", "[Spirits' Secret](../08-spell-list.md#spirits-secret)", "[Call Ailment](../08-spell-list.md#call-ailment)", "[Illusory Self](../08-spell-list.md#illusory-self)", "[Least Curse](../08-spell-list.md#least-curse)"|
+|Spellcasting: Fire IV|||Favourites: ["Meadow of Flame"](../08-spell-list.md#meadow-of-flame), ["Melt"](../08-spell-list.md#melt), ["Command Mortal"](../08-spell-list.md#command-mortal), ["Speak Through Flame"](../08-spell-list.md#speak-through-flame), ["Flame Stride"](../08-spell-list.md#flame-stride)|
+|Spellcasting: Kinetic III|||Favourites: ["Whispers"](../08-spell-list.md#whispers), ["Spirits' Secret"](../08-spell-list.md#spirits-secret), ["Call Ailment"](../08-spell-list.md#call-ailment), ["Illusory Self"](../08-spell-list.md#illusory-self), ["Least Curse"](../08-spell-list.md#least-curse)|
 |Spellcasting: Global I||||
 |Immunity|||"Physical", "Fire"|
 |Immunity|||"Restrained", "Surprised", "Helpless", "Dying", "Stunned", "Immobilised", "crippled", "bleeding", "Paralysed"|
@@ -447,8 +447,8 @@ A Greater Ifrit is can make two basic combat manoeuvres, or an elemental blast/t
 |[Cursed Blood](../06-abilities.md#cursed-blood)|||A greater Ifrit can invoke curses upon foes that spill its "blood"|
 |[Spelldance III](../06-abilities.md#spelldance-i-iv)|||A greater Ifrit can both obfuscate and alter spells with its dance.|
 |||||
-|Spellcasting: Fire VI|||Favourites: "[Meadow of Flame](../08-spell-list.md#meadow-of-flame)", "[Melt](../08-spell-list.md#melt)", "[Command Mortal](../08-spell-list.md#command-mortal)", "[Speak Through Flame](../08-spell-list.md#speak-through-flame)", "[Flame Stride](../08-spell-list.md#flame-stride)", "[Madness](../08-spell-list.md#madness)", "[Summon Elemental](../08-spell-list.md#summon-elemental)", "[Forest of Flame](../08-spell-list.md#forest-of-flame)"|
-|Spellcasting: Kinetic III|||Favourites: "[Whispers](../08-spell-list.md#whispers)", "[Spirits' Secret](../08-spell-list.md#spirits-secret)", "[Call Ailment](../08-spell-list.md#call-ailment)", "[Illusory Self](../08-spell-list.md#illusory-self)", "[Least Curse](../08-spell-list.md#least-curse)"|
+|Spellcasting: Fire VI|||Favourites: ["Meadow of Flame"](../08-spell-list.md#meadow-of-flame), ["Melt"](../08-spell-list.md#melt), ["Command Mortal"](../08-spell-list.md#command-mortal), ["Speak Through Flame"](../08-spell-list.md#speak-through-flame), ["Flame Stride"](../08-spell-list.md#flame-stride), ["Madness"](../08-spell-list.md#madness), ["Summon Elemental"](../08-spell-list.md#summon-elemental), ["Forest of Flame"](../08-spell-list.md#forest-of-flame)|
+|Spellcasting: Kinetic III|||Favourites: ["Whispers"](../08-spell-list.md#whispers), ["Spirits' Secret"](../08-spell-list.md#spirits-secret), ["Call Ailment"](../08-spell-list.md#call-ailment), ["Illusory Self"](../08-spell-list.md#illusory-self), ["Least Curse"](../08-spell-list.md#least-curse)|
 |Spellcasting: Global I||||
 |Immunity|||"Physical", "Fire"|
 |Immunity|||"Restrained", "Surprised", "Helpless", "Dying", "Stunned", "Immobilised", "crippled", "bleeding", "Paralysed"|
@@ -799,7 +799,7 @@ Deflection: +1
 |||||
 |Skills|||"Perform" +4, "Appraise" +3, "Fortify" 0, "Prospect" +2, "Flight" +5, "Sleight of Hand" +5 "Heal" +2, "Tinker" +5, "Stealth" +5|
 |||||
-|Brownie's Curse|||Should the dwelling the brownie inhabits be destroyed, the brownie must find a new dwelling before the full moon or perish. Should the brownie that inhabits a dwelling be killed, those who sleep within the dwelling gain a curse as if affected by "[Least Curse](../08-spell-list.md#least-curse)" cast globally by third level, if they are not already cursed.|
+|Brownie's Curse|||Should the dwelling the brownie inhabits be destroyed, the brownie must find a new dwelling before the full moon or perish. Should the brownie that inhabits a dwelling be killed, those who sleep within the dwelling gain a curse as if affected by ["Least Curse"](../08-spell-list.md#least-curse) cast globally by third level, if they are not already cursed.|
 
 ___
 ### Pixie

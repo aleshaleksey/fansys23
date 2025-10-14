@@ -232,26 +232,26 @@ ___
 - 
 
 ### Races
-- Add "[lesser dragon](09-races.md#lesser-dragon-level-10-template--80-points)".
-- Add "[half-dragon](09-races.md#half-dragon-level-5-template--40-points)" templates.
-- Add "[dragonkind](09-races.md#dragonkin-level-1-template--8-points)" templates.
+- Add ["lesser dragon"](09-races.md#lesser-dragon-level-10-template--80-points).
+- Add ["half-dragon"](09-races.md#half-dragon-level-5-template--40-points) templates.
+- Add ["dragonkind"](09-races.md#dragonkin-level-1-template--8-points) templates.
 
 ### Spells
 - Add "Summon Beast" as a low level spell.
 - Decrease the initial level for summon fiend, so that it is a level 7 fiend (instead of level 9), because fiends are quite strong.
 - Reduce cast time on Mandate of the Deep.
-- Add "[Flood](08-spell-list.md#flood)" (aquamancy, level 5)
-- Add "[Winter's Grasp](08-spell-list.md#winters-grasp)" (aquamancy, level 5)
-- Add "[Rift](08-spell-list.md#rift)" (geomancy, level 5)
-- Add "[True Storm](08-spell-list.md#true-storm)" (anemancy, level 9)
-- Add "[Gift of the Winds](08-spell-list.md#gift-of-the-winds)" (anemancy, level 10)
+- Add ["Flood"](08-spell-list.md#flood) (aquamancy, level 5)
+- Add ["Winter's Grasp"](08-spell-list.md#winters-grasp) (aquamancy, level 5)
+- Add ["Rift"](08-spell-list.md#rift) (geomancy, level 5)
+- Add ["True Storm"](08-spell-list.md#true-storm) (anemancy, level 9)
+- Add ["Gift of the Winds"](08-spell-list.md#gift-of-the-winds) (anemancy, level 10)
 - 
 - 
 - 
 
 ### Abilities
-- Added "[forbidden spell](06-abilities.md#forbidden-spell)"
-- Added "[swift spell](06-abilities.md#swift-spell)"
+- Added ["forbidden spell"](06-abilities.md#forbidden-spell)
+- Added ["swift spell"](06-abilities.md#swift-spell)
 - 
 - 
 
@@ -274,17 +274,17 @@ ___
 ### Spells
 - Amend the other summon spells so that the summon appears at the start of next round.
 - Add [Summon Elemental](08-spell-list.md#summon-elemental) spell
-- Add "[Madness](08-spell-list.md#madness)" and "[Spirit Restoration](08-spell-list.md#spirit-restoration)".
-- Add "[Heart Ward](08-spell-list.md#heart-ward)", "[Greater Freedom](08-spell-list.md#greater-freedom)" and "[Lesser Freedom](#lesser-freedom)"
-- Add "[Stone Ward](08-spell-list.md#stone-ward)" and "[Blade Ward](08-spell-list.md#blade-ward)"
-- Add "[True Geomancy](08-spell-list.md#true-geomancy)" and "[Gift of the Winds](08-spell-list.md#gift-of-the-winds)"
-- Add "[Edict of Life](08-spell-list.md#edict-of-life)".
-- Add "[Ifrit's Gift](08-spell-list.md#ifrits-gift)", "[Earthquake](08-spell-list.md#earthquake)" and "[Wave](08-spell-list.md#wave)" spells.
-- Add "[Lesser Illusory Self](08-spell-list.md#lessor-illusory-self)" and "[Illusory Self](08-spell-list.md#illusory-self)".
+- Add ["Madness"](08-spell-list.md#madness) and ["Spirit Restoration"](08-spell-list.md#spirit-restoration).
+- Add ["Heart Ward"](08-spell-list.md#heart-ward), ["Greater Freedom"](08-spell-list.md#greater-freedom) and ["Lesser Freedom"](#lesser-freedom)
+- Add ["Stone Ward"](08-spell-list.md#stone-ward) and ["Blade Ward"](08-spell-list.md#blade-ward)
+- Add ["True Geomancy"](08-spell-list.md#true-geomancy) and ["Gift of the Winds"](08-spell-list.md#gift-of-the-winds)
+- Add ["Edict of Life"](08-spell-list.md#edict-of-life).
+- Add ["Ifrit's Gift"](08-spell-list.md#ifrits-gift), ["Earthquake"](08-spell-list.md#earthquake) and ["Wave"](08-spell-list.md#wave) spells.
+- Add ["Lesser Illusory Self"](08-spell-list.md#lessor-illusory-self) and ["Illusory Self"](08-spell-list.md#illusory-self).
 
 ### Abilities
 - Spellcasting now goes up to Spellcasting: VII, everything else is "High Arcana". This keeps mechanics mostly the same, but reduces the number of useless spells at higher levels while keeping a sane set of mechanics.
-- Add "[Resist Condition](06-abilities.md#resist-condition)" and "[Resist Damage](06-abilities.md#resist-damage)". Also "[Condition Immunity](06-abilities.md#condition-immunity)"
+- Add ["Resist Condition"](06-abilities.md#resist-condition) and ["Resist Damage"](06-abilities.md#resist-damage). Also ["Condition Immunity"](06-abilities.md#condition-immunity)
 
 ___
 ## From v0.0.11
@@ -304,7 +304,7 @@ ___
 - Major recalculation of save thresholds. Save threshold is now 13 + [Sup OR Nat] + [Stat]. (We no longer add base). This makes level based increase to ability thresholds less vicious.
 - Make it even more explicit that characters can only increase stats by 1 point per level.
 - Recalculate monster/NPC saving thresholds with the new rules.
-- Expand "[rebalance](02-base-rules.md#losing-mp-sp-and-rebalancing)" rules to allow use of MP/SP dice interchangeably at a price (double cost, secondary action).
+- Expand ["rebalance"](02-base-rules.md#losing-mp-sp-and-rebalancing) rules to allow use of MP/SP dice interchangeably at a price (double cost, secondary action).
 - Add SP/MD dice as 1d6 rules: Expend an SP/MP die to add 1d6 to a roll.
 
 ### Spellcasting
@@ -324,16 +324,16 @@ ___
 
 ### Spellcasting
 - Regularise casting time on global spells (now 1h-2h/level at levels 1-4, 1h or 12h for 5-6, 1 day for 7 and above). With a few notable exceptions (profane/forbidden spells generally take a day to cast).
-- Double range on "[Spirits' Secret](08-spell-list.md#spirits-secret)".
-- Add "[Witch's Lantern](08-spell-list.md#witchs-candle)" light spell (it is weak).
-- Add "[Flare](08-spell-list.md#flare)" light/damage spell.
+- Double range on ["Spirits' Secret"](08-spell-list.md#spirits-secret).
+- Add ["Witch's Lantern"](08-spell-list.md#witchs-candle) light spell (it is weak).
+- Add ["Flare"](08-spell-list.md#flare) light/damage spell.
 - disambiguate water/ice in the spell list.
-- Change the wording on "[Water Snake](08-spell-list.md#water-snake)"
+- Change the wording on ["Water Snake"](08-spell-list.md#water-snake)
 - Reduce MP cost of global spells that take less than a day to cast to twice the local cost. (This make them useable at low levels).
 
 ### Abilities
-- Improve wording on "[Deflect Missile](06-abilities.md#deflect-missile)".
-- Reduce MP dice requirements on "[Holy Strike](06-abilities.md#holy-strike)" and "[Unholy Strike](06-abilities.md#unholy-strike)"
+- Improve wording on ["Deflect Missile"](06-abilities.md#deflect-missile).
+- Reduce MP dice requirements on ["Holy Strike"](06-abilities.md#holy-strike) and ["Unholy Strike"](06-abilities.md#unholy-strike)
 
 ### Conditions and Types
 - Change definition for "poisoned" condition and add initial rules for poisons.
@@ -352,14 +352,14 @@ ___
 - Add thresholds for escaping typical restraints.
 - Added initial durability to ships.
 - Added clarifications on bindings and restraints.
-- Add explicit list of terrains to "[Movement and Exploration](03-movement-exploration.md)" section.
-- Formalise "[Vigorous Motion](03-movement-exploration.md#vigorous-motion)" rules.
+- Add explicit list of terrains to ["Movement and Exploration"](03-movement-exploration.md) section.
+- Formalise ["Vigorous Motion"](03-movement-exploration.md#vigorous-motion) rules.
 
 ### Skills
-- Add a few more options to "[Harvest](05-skills.md#harvest)" for modifiers, and an explanation of best use.
+- Add a few more options to ["Harvest"](05-skills.md#harvest) for modifiers, and an explanation of best use.
 
 ### Abilities
-- Add "[Armour Mastery, Light](06-abilities.md#armour-mastery-light)", "[Armour Mastery, Medium](06-abilities.md#armour-mastery-medium)", "[Armour Mastery, Heavy](06-abilities.md#armour-mastery-heavy)", "[Weapon Mastery](06-abilities.md#weapon-mastery)", "[Weapon Specialization](06-abilities.md#weapon-specialisation)".
+- Add ["Armour Mastery, Light"](06-abilities.md#armour-mastery-light), ["Armour Mastery, Medium"](06-abilities.md#armour-mastery-medium), ["Armour Mastery, Heavy"](06-abilities.md#armour-mastery-heavy), ["Weapon Mastery"](06-abilities.md#weapon-mastery), ["Weapon Specialization"](06-abilities.md#weapon-specialisation).
 - Add "[Elemental Strike](06-abilities.md#elemental-strike).
 - [Familiars](06-abilities.md#bind-familiar-i-iv) gained by kinetic spellcasters are now immune (instead of resistant) to "grappled", "restrained", "immobilised".
 - Reduce prerequisites on:
@@ -379,13 +379,13 @@ ___
   - [Armour Mastery, Medium](06-abilities.md#armour-mastery-medium)
 - Change [Elemental Blast](06-abilities.md#blast-elemental-blast)/[Touch](06-abilities.md#touch-elemental-touch): Now both use WIS for attack and damage.
 - Increase damage dice on [Holy Strike](06-abilities.md#holy-strike) and [Unholy Strike](06-abilities.md#unholy-strike) by 1.
-- Change the "[Charge](06-abilities.md#charge)" manoeuvre to require linear movement before hit. Bonus to some manoeuvres.
+- Change the ["Charge"](06-abilities.md#charge) manoeuvre to require linear movement before hit. Bonus to some manoeuvres.
 - Change wording on [Point blank shot](06-abilities.md#point-blank-shot-i-iii).
 - Change wording on [Precision Attack](06-abilities.md#precision-attack-i-x).
 - Lower prerequisites on [Multi attack I](06-abilities.md#multi-attack-i-iii) by 1 SP die, to make it reasonable to hit it at level 6.
 
 ### Weapons and Armour
-- Wielding two blades no longer automatically gives a +2 to shield HiT (only does so if a character has "[Offhand fighting II](06-abilities.md#offhand-fighting-i-iv)").
+- Wielding two blades no longer automatically gives a +2 to shield HiT (only does so if a character has ["Offhand fighting II"](06-abilities.md#offhand-fighting-i-iv)).
 - Added +1 to the HiT bonus granted by shields.
 - Added [STR]/2 to damage dealt by heavy weapons.
 
@@ -419,8 +419,8 @@ ____
 - Attacks of opportunity reworded and better explained. Attacks of opportunity can now only be made with up to half concealment (1/6), any more and it fails.
 
 ### Abilities
-- Unite Elemental Blast and Touch into the "[Elementalism](06-abilities.md#elementalism-elemental-blast)" group, which gives a more complete ability.
-- Add "[Rapid shot](06-abilities.md#rapid-shot)" ability.
+- Unite Elemental Blast and Touch into the ["Elementalism"](06-abilities.md#elementalism-elemental-blast) group, which gives a more complete ability.
+- Add ["Rapid shot"](06-abilities.md#rapid-shot) ability.
 - Reduce the bonus given by [terrain mastery](06-abilities.md#terrain-mastery) from +4 to +2.
 - Elaborate on commanding the beast for [bind beast](06-abilities.md#bind-beast-i-x).
 - Added [Charm](06-abilities.md#charm-i-iv).
@@ -454,13 +454,13 @@ ____
 ### Movement and Exploration
 - Change flight rules to support different [flight endurance](03-movement-exploration.md#flight-parameters) independently of flight rating (Also added modification to racial flight rules).
 - Some weapons ignore part of the [damage reduction of objects](03-movement-exploration.md#object-hit-point-durability-table).
-- Reword "[Load and Carrying Capacity](03-movement-exploration.md#load-and-carrying-capacity)" for readability.
+- Reword ["Load and Carrying Capacity"](03-movement-exploration.md#load-and-carrying-capacity) for readability.
 
 ### Abilities
 - Added [Sleep on the Wind](06-abilities.md#sleep-on-the-wing) and [Enduring Flight](06-abilities.md#enduring-flight).
 - Add heavy armour proficiency prerequisite to [heavy armour mastery](06-abilities.md#armour-mastery-heavy).
-- Add "[Greater Broad Strike](06-abilities.md#broad-strike-greater)".
-- Change the wording on "[Mighty II](06-abilities.md#mighty-ii)" to make it understandable by mortals.
+- Add ["Greater Broad Strike"](06-abilities.md#broad-strike-greater).
+- Change the wording on ["Mighty II"](06-abilities.md#mighty-ii) to make it understandable by mortals.
 - Double the cost of [flash step](06-abilities.md#flash-step) when wearing medium armours.
 - Allow two targets by default for [elemental sweep](06-abilities.md#sweep).
 - Empower [Bard Song](06-abilities.md#bard-song-i-iv) a bit more.
@@ -488,7 +488,7 @@ ___
   - Clarify procedure.
   - Add alchemy.
   - Fix healing and related magic.
-  - Added "[usual](10-conditions-types.md#condition-table)" duration for conditions.
+  - Added ["usual"](10-conditions-types.md#condition-table) duration for conditions.
 - CHANGE [FULL CONCEALMENT](04-combat.md#cover-and-concealment): Now for melee/close, it only gives a 4/6 miss chance.
 - Remove references to "super advantage/disadvantage" and 4D12dl2/4D12dh2 rolls.
 - Changed [surprised](10-conditions-types.md#surprised) to allow reactions to be taken. This is potentially a breaking change.

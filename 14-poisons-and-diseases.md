@@ -97,7 +97,7 @@ These poisons generally cause various systems in the body to fail, and can have 
 These poisons affect those parts of a being that interact with, or are, supernatural. They affect MP, MP dice, and the ability to use supernatural abilities. In the worst case they can sever an entity entirely from the supernatural or detach the soul from the body. Such poisons are used by certain fey, fiends and divines.
 
 ### Being Poisoned and Cured.
-An entity affected by a poison is considered "[poisoned](10-conditions-types.md#conditions-in-detail)" and may suffer additional effects. 
+An entity affected by a poison is considered ["poisoned"](10-conditions-types.md#conditions-in-detail) and may suffer additional effects. 
 
 When an entity is attacked by poison, it must succeed a CON save vs the poison's threshold, or become poisoned. Entities without a CON score cannot be poisoned.
 
@@ -106,12 +106,12 @@ When an entity recovers from poison, or is otherwise cured, the "poisoned" condi
 An entity can be cured of poison under one of four conditions:
 - The time of action of the poison ends. Unless otherwise stated, a poison's effect lasts for 1 week. After this the poisoned condition is removed, as well as secondary conditions, but not other effects, unless otherwise stated.
 - The poisoned entity succeeds on a CON save vs the poisons threshold. Generally this can be repeated once per day. Again, the poisoned condition is removed, as well as secondary conditions, but not other effects, unless otherwise stated.
-- Mundane poison can be cured with a "[Heal](05-skills.md#heal)" roll equal to the poison's threshold. Unless otherwise stated, the treatment takes 1 minute and the "poisoned" condition is removed after an hour (as the organism recovers). Unless otherwise stated secondary conditions are also cured, but damage is not.
-- Spells such as the "[Cure](08-spell-list.md#cure)" immediately cure the poison, and poisoned condition, but never the secondary affects.
+- Mundane poison can be cured with a ["Heal"](05-skills.md#heal) roll equal to the poison's threshold. Unless otherwise stated, the treatment takes 1 minute and the "poisoned" condition is removed after an hour (as the organism recovers). Unless otherwise stated secondary conditions are also cured, but damage is not.
+- Spells such as the ["Cure"](08-spell-list.md#cure) immediately cure the poison, and poisoned condition, but never the secondary affects.
 
 ___
 ### Using Poison
-While most venomous/poisonous monsters are naturally (or supernaturally) endowed with poison, characters and NPC must usually obtain this poison and put it to use manually. To prepare a poison for use (apply to a weapon, mix into a meal/drink, burn in an incense burner, etc) a character must succeed on an [academics](05-skills.md#academics) roll using poisoner's tools vs the poison's threshold. This can take between a round and a minute depending on the poison, but is "[1 full round action](04-combat.md#types-of-actions-in-combat)" for wounding poisons, or ingestion poisons in drinks, and 1 minute for all other poisons, unless otherwise stated for a particular poison. The roll is made at disadvantage if the character is not using a poisoner's kit or is not proficient with its use. Furthermore, if a character fails the roll by 6 or more, or with snake-eyes, the one applying the poison, poisons themselves.
+While most venomous/poisonous monsters are naturally (or supernaturally) endowed with poison, characters and NPC must usually obtain this poison and put it to use manually. To prepare a poison for use (apply to a weapon, mix into a meal/drink, burn in an incense burner, etc) a character must succeed on an [academics](05-skills.md#academics) roll using poisoner's tools vs the poison's threshold. This can take between a round and a minute depending on the poison, but is ["1 full round action"](04-combat.md#types-of-actions-in-combat) for wounding poisons, or ingestion poisons in drinks, and 1 minute for all other poisons, unless otherwise stated for a particular poison. The roll is made at disadvantage if the character is not using a poisoner's kit or is not proficient with its use. Furthermore, if a character fails the roll by 6 or more, or with snake-eyes, the one applying the poison, poisons themselves.
 
 #### Applying poisons to weapons
 The above rules apply when applying poisons to weapons. It is therefore advisable to apply poisons to weapons before combat to avoid using the first round applying poison. A single application of poison is enough for 20 pieces of ammunition or for 10 **hits** with a melee weapon.
@@ -144,12 +144,12 @@ ___
 |Sweet Ooze Extract|General|16|1 hour|Contact|ingestion: 1 hour, Other: Immediate|
 |Hive Beast Venom|General|16|1 week|Ingestion|Ingestion: 1 hour, Other: Immediate|
 |Refined Mudcrawler Venom|Necrotising|16|Instantaneous|Wounding|1 minute|1d10 poison damage (SP/MP)|
-|Fell Beast Venom|Nerve|17|Permanent|Wounding|1 minute|1d6 STR damage. On snake eyes "[paralysed](10-conditions-types.md#conditions-in-detail)"|
+|Fell Beast Venom|Nerve|17|Permanent|Wounding|1 minute|1d6 STR damage. On snake eyes ["paralysed"](10-conditions-types.md#conditions-in-detail)|
 |Refined Mudwalker Venom|Necrotising|22|Instantaneous|Contact|Ingestion: 10 minutes, Other: Immediate|6d8 poison damage (SP/MP)|
 |Refined Dragon Venom|Necrotising/Nerve|26|Permanent|Ingested|Immediate|2d6 DEX damage + 4d12 poison damage (SP/HP)|
 ||||||||
 |**Name**|**Type**|**Threshold**|**Duration**|**Modality**|**Onset**|
-|Demon Extract|General|23|Permanent|Ingestion|1 day|*This supernatural poison treats poison immunity as if it were resistance.* 2d12+2 damage to MP dice count maximum. The character cannot use "[Holy Strike](06-abilities.md#holy-strike)", "[Spirit Strike](06-abilities.md#spirit-strike)", "[Truesight](06-abilities.md#truesight-i-v)" or "[Divine Strike](06-abilities.md#divine-strike)" or cast spells with a "divine" or "spiritual" descriptor. *Multiple applications do not stack.*|
+|Demon Extract|General|23|Permanent|Ingestion|1 day|*This supernatural poison treats poison immunity as if it were resistance.* 2d12+2 damage to MP dice count maximum. The character cannot use ["Holy Strike"](06-abilities.md#holy-strike), ["Spirit Strike"](06-abilities.md#spirit-strike), ["Truesight"](06-abilities.md#truesight-i-v) or ["Divine Strike"](06-abilities.md#divine-strike) or cast spells with a "divine" or "spiritual" descriptor. *Multiple applications do not stack.*|
 |Broken Fairy Poison|General|24|Permanent|Perception|Immediate|*This supernatural poison treats poison immunity as if it were resistance.* On a failed save, an entity cannot use supernatural abilities until cured. Likewise it takes 2d6 CHA and 2d6 WIS damage. *Multiple applications do not stack.*|
 
 ___
@@ -158,21 +158,21 @@ ___
 |-|-|
 |Bee Venom|1d4 damage/round for 1 minute or until save is succeeded. Used for treating joint ailments amongst others.|
 |Viper Venom|1d6 damage/round for 1 minute or until save is succeeded. Used for treating joint ailments amongst others.|
-|Cobra Venom|"[Paralysis](10-conditions-types.md#conditions-in-detail)" + "[suffocation](03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die)". A character repeats the save vs suffocation at the end of each minute, but the general paralysis last for the full duration.|
+|Cobra Venom|["Paralysis"](10-conditions-types.md#conditions-in-detail) + ["suffocation"](03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die). A character repeats the save vs suffocation at the end of each minute, but the general paralysis last for the full duration.|
 |Alcohol|1 point of DEX, CON, INT and WIS damage per dose (NB: A single dose is equivalent to 1 lb of ale, 1/4 lb of wine, or 1 shot of spirits). For each additional dose, the threshold increases by 1.|
-|Bracken Extract|"[Blinded](10-conditions-types.md#conditions-in-detail)"|
-|Refined Fly-trap Poison|3 saves (one per round): First fail."[restrained](10-conditions-types.md#conditions-in-detail)". It may repeat the save at the start of each turn. If it fails a second time, it is "[immobilised](10-conditions-types.md#conditions-in-detail)", if it fails a third, it is "[paralysed](10-conditions-types.md#conditions-in-detail)".|
-|Refined Tripede Poison|3 saves (one per round): First fail."[restrained](10-conditions-types.md#conditions-in-detail)". It may repeat the save at the start of each turn. If it fails a second time, it is "[immobilised](10-conditions-types.md#conditions-in-detail)", if it fails a third, it is "[paralysed](10-conditions-types.md#conditions-in-detail)".|
-|Refined Tuber Extract|"[Charmed](10-conditions-types.md#conditions-in-detail)"|
-|Refined Cradle Venom|"[Aphonia](10-conditions-types.md#conditions-in-detail)" + "[Immobilised](10-conditions-types.md#conditions-in-detail)"|
+|Bracken Extract|["Blinded"](10-conditions-types.md#conditions-in-detail)|
+|Refined Fly-trap Poison|3 saves (one per round): First fail.["restrained"](10-conditions-types.md#conditions-in-detail). It may repeat the save at the start of each turn. If it fails a second time, it is ["immobilised"](10-conditions-types.md#conditions-in-detail), if it fails a third, it is ["paralysed"](10-conditions-types.md#conditions-in-detail).|
+|Refined Tripede Poison|3 saves (one per round): First fail.["restrained"](10-conditions-types.md#conditions-in-detail). It may repeat the save at the start of each turn. If it fails a second time, it is ["immobilised"](10-conditions-types.md#conditions-in-detail), if it fails a third, it is ["paralysed"](10-conditions-types.md#conditions-in-detail).|
+|Refined Tuber Extract|["Charmed"](10-conditions-types.md#conditions-in-detail)|
+|Refined Cradle Venom|["Aphonia"](10-conditions-types.md#conditions-in-detail) + ["Immobilised"](10-conditions-types.md#conditions-in-detail)|
 |Corpse Stork Venom|1d3 STR|
-|Sweet Ooze Extract|2 saves. First fail: "[restrained](10-conditions-types.md#conditions-in-detail)". It may repeat the save at the start of each turn. If it fails a second time, it is "[immobilised](10-conditions-types.md#conditions-in-detail)".|
-|Hive Beast Venom|"[Incapacitated](10-conditions-types.md#conditions-in-detail)"|
+|Sweet Ooze Extract|2 saves. First fail: ["restrained"](10-conditions-types.md#conditions-in-detail). It may repeat the save at the start of each turn. If it fails a second time, it is ["immobilised"](10-conditions-types.md#conditions-in-detail).|
+|Hive Beast Venom|["Incapacitated"](10-conditions-types.md#conditions-in-detail)|
 |Refined Mudcrawler Venom|1d10 poison damage (SP/MP)|
-|Fell Beast Venom|1d6 STR damage. On snake eyes "[paralysed](10-conditions-types.md#conditions-in-detail)"|
+|Fell Beast Venom|1d6 STR damage. On snake eyes ["paralysed"](10-conditions-types.md#conditions-in-detail)|
 |Refined Mudwalker Venom|6d8 poison damage (SP/MP)|
 |Refined Dragon Venom|2d6 DEX damage + 4d12 poison damage (SP/HP)|
-|Demon Extract|*This supernatural poison treats poison immunity as if it were resistance.* 2d12+2 damage to MP dice count maximum. The character cannot use "[Holy Strike](06-abilities.md#holy-strike)", "[Spirit Strike](06-abilities.md#spirit-strike)", "[Truesight](06-abilities.md#truesight-i-v)" or "[Divine Strike](06-abilities.md#divine-strike)" or cast spells with a "divine" or "spiritual" descriptor. *Multiple applications do not stack.*|
+|Demon Extract|*This supernatural poison treats poison immunity as if it were resistance.* 2d12+2 damage to MP dice count maximum. The character cannot use ["Holy Strike"](06-abilities.md#holy-strike), ["Spirit Strike"](06-abilities.md#spirit-strike), ["Truesight"](06-abilities.md#truesight-i-v) or ["Divine Strike"](06-abilities.md#divine-strike) or cast spells with a "divine" or "spiritual" descriptor. *Multiple applications do not stack.*|
 |Broken Fairy Poison|*This supernatural poison treats poison immunity as if it were resistance.* On a failed save, an entity cannot use supernatural abilities until cured. Likewise it takes 2d6 CHA and 2d6 WIS damage. *Multiple applications do not stack.*|
 
 In most settings, most poisons are not readily available in civilisation, as the authorities of most kingdoms would quite rightly be weary of poisonings and poisoners. However this does not necessarily mean that they cannot be obtained if characters know where to look. The cost of a poison should be based on how difficult it is to obtain and produce, and how effective it is. Thus dragon venom and demon extract would be extremely expensive, while bee venom and viper venom might even be sold legally as a medical ingredient. Broken fairy poison, if at all obtainable, would likely only be available from vile and powerful profane entities (not only does one need to break a fairy, but also harvest the extremely dangerous poison without being affected).
@@ -204,13 +204,13 @@ Diseases have several properties which define them.
 Most diseases can only affect certain species/races/types of entity, others are less selective. For example flu effects humanoids and certain birds, while plague affects mammals in general.
 
 #### Diagnosis Threshold
-How difficult it is to diagnose a disease. Some diseases are easy to diagnose (Threshold as low as 8), or particularly difficult (Threshold of over 30). Diagnosing a disease requires a "[Heal](05-skills.md#heal)" roll governed by WIS.
+How difficult it is to diagnose a disease. Some diseases are easy to diagnose (Threshold as low as 8), or particularly difficult (Threshold of over 30). Diagnosing a disease requires a ["Heal"](05-skills.md#heal) roll governed by WIS.
 
 #### Spread Threshold
 How easily a disease spreads. This is the threshold against which an entity must make a CON save to avoid being infected.
 
 #### Treatment Threshold
-How difficult it is to treat a disease. Often independent of the difficulty of diagnosis. Treatment a disease requires a "[Heal](05-skills.md#heal)" roll governed by DEX or WIS (usually DEX, but can be ruled otherwise by the DM, especially for diseases of the brain, mind and spirit).
+How difficult it is to treat a disease. Often independent of the difficulty of diagnosis. Treatment a disease requires a ["Heal"](05-skills.md#heal) roll governed by DEX or WIS (usually DEX, but can be ruled otherwise by the DM, especially for diseases of the brain, mind and spirit).
 
 #### Route of Transmission
 How the disease is transmitted. Unlike poisons, the route of transmission is specific. If a disease is transmitted by multiple routes, they must all be listed. This can be:
@@ -244,14 +244,14 @@ This describes how the effects of a disease change from the start to the end of 
 - **Severe**: The victim suffers all of the effects of a disease. Sometimes this includes death.
 
 #### Lethality
-The percentage of infected individuals that dies of a disease if it is untreated, and is determined by the "[course](#course)", "[treatment threshold](#treatment-threshold)" and "[spread threshold](#spread-threshold)". This is a property used for storytelling, and is there to help a group determine the magnitude of the damage that the outbreak of this or that disease will have on the world. A group can safely ignore this property and make things up to fit the story.
+The percentage of infected individuals that dies of a disease if it is untreated, and is determined by the ["course"](#course), ["treatment threshold"](#treatment-threshold) and ["spread threshold"](#spread-threshold). This is a property used for storytelling, and is there to help a group determine the magnitude of the damage that the outbreak of this or that disease will have on the world. A group can safely ignore this property and make things up to fit the story.
 
 #### Spread
-The time needed for the number of infected individuals to double. It is determined by the "[spread threshold](#spread-threshold)" and the "[route of transmission](#route-of-transmission)". As with [lethality](#lethality). This is a property used for storytelling, and is there to help a group determine the magnitude of the damage that the outbreak of this or that disease will have on the world. A group can safely ignore this property and make things up to fit the story.
+The time needed for the number of infected individuals to double. It is determined by the ["spread threshold"](#spread-threshold) and the ["route of transmission"](#route-of-transmission). As with [lethality](#lethality). This is a property used for storytelling, and is there to help a group determine the magnitude of the damage that the outbreak of this or that disease will have on the world. A group can safely ignore this property and make things up to fit the story.
 
 ____
 ### Catching, Spreading and Curing Diseases
-A disease can either be spread magically, (eg the "[Plague](08-spell-list.md#plague)" spell), or by mundane means.
+A disease can either be spread magically, (eg the ["Plague"](08-spell-list.md#plague) spell), or by mundane means.
 
 Catching a disease through a spell or supernatural ability is as simple as failing the CON save against the caster's threshold.
 
@@ -266,20 +266,20 @@ An infected character might then be able to spread a disease.
 
 To cure a disease, it must be first diagnosed successfully, and then treated.The disease can be cured with a successful heal roll. If the heal roll fails by less than 6, the disease then takes the mild route for the remainder of the duration instead. In this case the victim may attempt a CON save vs the [Treatment Threshold](#treatment-threshold), on a success it is cured.
 
-In addition diseases can be cured by spells such as "[Cure](08-spell-list.md#cure)". It should be noted, for cure in particular, that "S" class diseases can only cured casting the spell at 5 MP dice or above. Lastly, some diseases, notably supernatural diseases such as "[Zombification](#zombification-b-class)" and "[Dryad's Touch](#dryad-touch-s-class) can only be cured by supernatural means.
+In addition diseases can be cured by spells such as ["Cure"](08-spell-list.md#cure). It should be noted, for cure in particular, that "S" class diseases can only cured casting the spell at 5 MP dice or above. Lastly, some diseases, notably supernatural diseases such as ["Zombification"](#zombification-b-class) and "[Dryad's Touch](#dryad-touch-s-class) can only be cured by supernatural means.
 
 ____
 ### List of Diseases
 
 #### Cold (C class)
 This is a common disease that is characterised by sneezing, coughing and occasional fever. It is spread through breathing (inhalation). It is spread between humanoids. Beasts can suffer from similar diseases, but they are seldom spread beyond similar species.
-- **Mild**: After the incubation period, victim begins to cough and sneeze and feels mild malaise. For the duration the victim has disadvantage to "[stealth](05-skills.md#stealth)" and a -2 to STR, DEX and CON rolls.
-- **Severe**: After the incubation period, victim begins to cough and sneeze, runs a fever and feels malaise. For the duration the victim has disadvantage to "[stealth](05-skills.md#stealth)". In addition, during the second week the victim has a -2 to STR, DEX and CON rolls.
+- **Mild**: After the incubation period, victim begins to cough and sneeze and feels mild malaise. For the duration the victim has disadvantage to ["stealth"](05-skills.md#stealth) and a -2 to STR, DEX and CON rolls.
+- **Severe**: After the incubation period, victim begins to cough and sneeze, runs a fever and feels malaise. For the duration the victim has disadvantage to ["stealth"](05-skills.md#stealth). In addition, during the second week the victim has a -2 to STR, DEX and CON rolls.
 
 ___
 #### Flu (C Class)
 This is a common disease that is characterised by sneezing, coughing, malaise and high temperature. Superficially it is similar to a more severe cold. Beasts can suffer from similar diseases, but they are seldom spread beyond similar species. Most commonly birds are susceptible to flu and can easily become infected and spread it far and wide.
-- **Mild**: After the incubation period, victim begins to cough and sneeze, runs a fever and feels malaise. For the duration the victim has disadvantage to "[stealth](05-skills.md#stealth)". In addition, after the first week the victim has a -2 to STR, DEX and CON rolls.
+- **Mild**: After the incubation period, victim begins to cough and sneeze, runs a fever and feels malaise. For the duration the victim has disadvantage to ["stealth"](05-skills.md#stealth). In addition, after the first week the victim has a -2 to STR, DEX and CON rolls.
 - **Severe**: The victim suffers all the conditions of the mild form. In addition, during the second week. the victim has disadvantage to STR, DEX, WIS and CON rolls and to concentration saves. At the end of the second week, the victim makes a CON save vs Threshold=16. If they fail the save, the disadvantage persists into the third week, in addition, the victim suffers 2d6 CON damage, which recovers at a rate of 1 point per long rest. If this CON damage drops the victim's CON to 0, it dies.
 
 ___
@@ -321,7 +321,7 @@ ___
 #### Creeping Amnesia (A Class)
 This is a progressive disease of the mind, characterised by gradual loss of memories. It cannot be healed by mundane means. While not dangerous in kingdoms with strong schools of magic and temples to gods of healing, it is problematic in places healers are rare. Creeping Amnesia lies half way between curse and disease, and can be caught by treading on cursed ground, from drinking the waters that originate in [afterlife realms](03-movement-exploration.md#afterlives), or after receiving the kiss of a spirit of oblivion.
 - **Mild**: Each month, a character must make a CON save vs threshold=18 or lose 1 INT and one skill point from the skill they have the most ranks in (skill of their choice). If the disease is cured, INT is regained at a rate of 1 point per month, and skills ranks at a rate of 1 per week.
-- **Severe**: The disease runs its course as per the "mild" form. However, neither the skills nor the INT damage can be recovered by any means short of "[Fairy Ball](08-spell-list.md#fairy-ballmasquerade)" or "[Edict of Life](08-spell-list.md#edict-of-life)", although one can still use "[Pact](08-spell-list.md#pact)" and "[Mage's Oath](08-spell-list.md#mages-oath)" to swap the damage/skill loss with another.
+- **Severe**: The disease runs its course as per the "mild" form. However, neither the skills nor the INT damage can be recovered by any means short of ["Fairy Ball"](08-spell-list.md#fairy-ballmasquerade) or ["Edict of Life"](08-spell-list.md#edict-of-life), although one can still use ["Pact"](08-spell-list.md#pact) and ["Mage's Oath"](08-spell-list.md#mages-oath) to swap the damage/skill loss with another.
 
 ___
 #### Dryad Touch (S Class)
@@ -332,7 +332,7 @@ This disease affects mortals that return from at least intermediate layers of th
 ___
 #### Pilgrim's Fire (S Class)
 This disease affects humanoids and monsters with at least 5 INT that do not have a "divine" alignment that subsume the flame of a Seraph or that of a divinity associated with righteousness and vengeance. It is characterised by an uplifted, almost exalted state that strives for a higher justice and incapacitating pain when it is not followed. This is a divine disease that can only be treated by specific deeds or supernatural means.
-- **Mild**: Immediately, the victim gains the ability to distinguish [profane beings](10-conditions-types.md#profane-1) and those of profane alignment by smell, and must make a Threshold=16 CON save or be incapacitated when within 10ft of one. In the second week, the victim can tell spoken trust from falsehood, and takes 1 HP damage (entropic) every time it lies. In the third week, the victim gains a razor sharp sense of justice and advantage at "[sense motive](05-skills.md#sense-motive)" rolls. If they witness an injustice take place they must immediately set about righting (or avenging) it. Else if they recognise a profane being, they must do their utmost to destroy it. If they do, they do not suffer incapacitation due to closeness to profane beings until their next long rest. If they do not, they suffer 1d4 CON and CHA damage (which heals at a rate of 1 point per long rest). The disease is cured if the victim vanquishes profane beings of a higher level than itself, or prevents/rights/avenges injustices to a total count of 12.
+- **Mild**: Immediately, the victim gains the ability to distinguish [profane beings](10-conditions-types.md#profane-1) and those of profane alignment by smell, and must make a Threshold=16 CON save or be incapacitated when within 10ft of one. In the second week, the victim can tell spoken trust from falsehood, and takes 1 HP damage (entropic) every time it lies. In the third week, the victim gains a razor sharp sense of justice and advantage at ["sense motive"](05-skills.md#sense-motive) rolls. If they witness an injustice take place they must immediately set about righting (or avenging) it. Else if they recognise a profane being, they must do their utmost to destroy it. If they do, they do not suffer incapacitation due to closeness to profane beings until their next long rest. If they do not, they suffer 1d4 CON and CHA damage (which heals at a rate of 1 point per long rest). The disease is cured if the victim vanquishes profane beings of a higher level than itself, or prevents/rights/avenges injustices to a total count of 12.
 - **Severe**: For the first month the disease progresses as the mild form, except in the fourth week the victim begins to emit a bright light in a 60ft radius and dim light in a 120ft radius (this can be seen 20 miles away on a dark night). If the disease is not cured at the end of the first month, the disease becomes curable only by divine intervention. At the start of the second month the victim suffers terrible visions on following days when they pass by injustice or profane beings without attempting to vanquish them, and must make a threshold=24 CHA roll of fail to gain the benefits of the rest. When the victim has vanquished a total of 12 profane beings more powerful than itself, or prevented/righted/avenged 12 grave injustices, its essence is torn asunder and it emerges as a Seraph under the control an appropriate deity.
 
 ___

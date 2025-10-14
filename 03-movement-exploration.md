@@ -58,7 +58,7 @@ A certain level of freeform RP and common sense are recommended.
 
 ___
 ## Load and Carrying Capacity
-How much a character can carry is determined by its STR and its size. As a character approaches its carrying limit, it begins to suffer penalties. The categories are as follows. These capacities are modified by the "[Mighty I](06-abilities.md#mighty-i)" and "[Mighty II](06-abilities.md#mighty-ii)" boons.
+How much a character can carry is determined by its STR and its size. As a character approaches its carrying limit, it begins to suffer penalties. The categories are as follows. These capacities are modified by the ["Mighty I"](06-abilities.md#mighty-i) and ["Mighty II"](06-abilities.md#mighty-ii) boons.
 
 ### Weight limits table
 
@@ -102,18 +102,18 @@ Typically, an experienced traveller can continue their journey for 10 hours per 
 
 A character may "push" beyond that time, but for every hour of "pushing" themselves in this way, the character expends 1 SP die (and hence 2 SP). A character who has ran out of SP or SP dice, can continue to push, at the cost of 1HP per hour, however, in this case they immediately gain the "crippled" condition.
 
-In addition, a traveller can move faster than their global movement speed (see "[Walking](#walking)" below), however the SP dice/ HP cost is applied at shorter intervals.
+In addition, a traveller can move faster than their global movement speed (see ["Walking"](#walking) below), however the SP dice/ HP cost is applied at shorter intervals.
 
 #### Running and Fatigue
 [Running](04-combat.md#actions-in-combat) and [sprinting](04-combat.md#actions-in-combat) cause most characters to tire more quickly than moving at their base speed. Any time spent "running" or "sprinting" is subtracted from global journey time as usual.
-- For "[walk](#walking)", "[swim](#swimming)" and "[climb](#climb)" modalities a character can **run** for [CON] hours without fatiguing. Thereafter, for every 10 minutes of running the character must succeed a [CON] save (Threshold=[16 + number of previous saves]) or expend 1 SP die. If it has no SP die, it loses 1 HP instead and gains the crippled condition in one of the limbs that it uses for running. This limit is not reset when a character stops running. After a character takes a "[short rest](04-combat.md#short-rest)", it regains 1 hour of run time. After a "[long rest](04-combat#long-rest)" it regains all of its run time.
-- For the "[flight](#flight)" modality, a character can run for [CON] x 10 minutes without fatiguing. Thereafter, for every 10 minutes of running the character must succeed a [CON] save (Threshold=[16 + number of previous saves]) or expend 1 SP die. If it has no SP die, it loses 1 HP instead and gains the crippled condition in one of its limbs that it uses for running. This limit is not reset when a character stops running. After a character takes a "[short rest](04-combat.md#short-rest)", it regains 10 minutes of run time. After a "[long rest](04-combat#long-rest)" it regains all of its run time.
+- For ["walk"](#walking), ["swim"](#swimming) and ["climb"](#climb) modalities a character can **run** for [CON] hours without fatiguing. Thereafter, for every 10 minutes of running the character must succeed a [CON] save (Threshold=[16 + number of previous saves]) or expend 1 SP die. If it has no SP die, it loses 1 HP instead and gains the crippled condition in one of the limbs that it uses for running. This limit is not reset when a character stops running. After a character takes a ["short rest"](04-combat.md#short-rest), it regains 1 hour of run time. After a ["long rest"](04-combat#long-rest) it regains all of its run time.
+- For the ["flight"](#flight) modality, a character can run for [CON] x 10 minutes without fatiguing. Thereafter, for every 10 minutes of running the character must succeed a [CON] save (Threshold=[16 + number of previous saves]) or expend 1 SP die. If it has no SP die, it loses 1 HP instead and gains the crippled condition in one of its limbs that it uses for running. This limit is not reset when a character stops running. After a character takes a ["short rest"](04-combat.md#short-rest), it regains 10 minutes of run time. After a ["long rest"](04-combat#long-rest) it regains all of its run time.
 - Run time is shared between all movement modalities. Thus, a character that has +3 [CON] and has flown (at run speed) for 30 minutes, has no flight run time left, and 2 hours 30 minutes for the other modalities. If the same character had instead ran (walking modality, run speed) for 1 hour, it has no run time left for its flight.
 - For other modalities, running is not possible.
 
 #### Sprinting and Fatigue
 [sprinting](04-combat.md#actions-in-combat) is explosive movement and causes fatigue much more quickly than running. Any time spent "sprinting" is subtracted from global journey time as usual.
-- For "[walk](#walking)" and "[swim](#swimming)" modalities a character can **sprint** for [STR] [rounds](04-combat.md#flow-of-combat) (6 seconds per round) without fatiguing. Thereafter, for every round of sprinting the character must succeed a [CON] save (Threshold=[16 + number of previous saves]) or expend 1 SP die. If it has no SP die, it loses 1 HP instead and gains the crippled condition in one of its limbs, if it hasn't already. This limit is not reset when a character stops sprinting, but resets at the end of a "[short rest](04-combat.md#short-rest)". A character can also reset its sprint limit by not moving faster than "walk" (1x base speed) for at least 1 minute and expending an SP die.
+- For ["walk"](#walking) and ["swim"](#swimming) modalities a character can **sprint** for [STR] [rounds](04-combat.md#flow-of-combat) (6 seconds per round) without fatiguing. Thereafter, for every round of sprinting the character must succeed a [CON] save (Threshold=[16 + number of previous saves]) or expend 1 SP die. If it has no SP die, it loses 1 HP instead and gains the crippled condition in one of its limbs, if it hasn't already. This limit is not reset when a character stops sprinting, but resets at the end of a ["short rest"](04-combat.md#short-rest). A character can also reset its sprint limit by not moving faster than "walk" (1x base speed) for at least 1 minute and expending an SP die.
 - For other modalities sprinting is not possible.
 
 #### Fatigue Table
@@ -127,7 +127,7 @@ The table below summarises the
 |Sprint|Walk, Swim       |[STR] rounds      |1 round    |regain full      |regain full |regain full limit for 1 minute rest + 1 SP die|
 ___
 ### Difficult Terrain
-It is common when adventuring to find less than ideal terrain. Loose, rocky ground or turbulent waters are typical examples. Movement speed is halved over this kind of terrain. Most entities cannot "sprint" in these conditions and if they try to run, must make a Threshold=12 "[Acrobatics](05-skills.md#acrobatics)" check or fail to progress (failure with snake eyes means falling prone).
+It is common when adventuring to find less than ideal terrain. Loose, rocky ground or turbulent waters are typical examples. Movement speed is halved over this kind of terrain. Most entities cannot "sprint" in these conditions and if they try to run, must make a Threshold=12 ["Acrobatics"](05-skills.md#acrobatics) check or fail to progress (failure with snake eyes means falling prone).
 
 ___
 ### Walking
@@ -137,12 +137,12 @@ Most entities with a "walk" speed can:
 - **Run (2 x base speed)**: This represents a steady jog, a very brisk walk, or rapid movement with obstacles and changes of direction. Typically a humanoid can run for [CON] hours before fatiguing, and the penalty is subsequently applied every 10 minutes. For a base human this is 60ft or 6mph.
 - **Sprint (4 x base speed)**: This represents movement at maximum pace in a fairly straight line, over unbroken terrain free from obstacles. A typical human can sprint for [STR] rounds before becoming fatigued and the penalty is subsequently applied every round. For a base human this is 120ft or 12mph.
 - **Difficult terrain:** Some rocky, overgrown, sloping, slippery terrain is classed as "difficult". Narrow passages also count as difficult terrain.
-- **Dragging objects:** See the "[dragging](#dragging)" rules above.
+- **Dragging objects:** See the ["dragging"](#dragging) rules above.
 
 ___
 ### Climb
 Climbing is upwards or downwards movement over steep or near vertical terrain. Entities with a "climb" speed can move along this kind of surfaces at their stated speed. Entities with a climb speed must still succeed a "climb" roll when climbing, but they can always choose to take care on this roll.
-- **Non climbers:** Entities without a climb speed move at 1/4 their base speed (usually "walk"). They cannot "run" or "dash" without succeeding a "climb" roll at a -5 penalty In addition they must succeed on "[climb](05-skills.md#climb)" rolls to stay attached to make progress or even stay attached to the surface.
+- **Non climbers:** Entities without a climb speed move at 1/4 their base speed (usually "walk"). They cannot "run" or "dash" without succeeding a "climb" roll at a -5 penalty In addition they must succeed on ["climb"](05-skills.md#climb) rolls to stay attached to make progress or even stay attached to the surface.
 - **Prone and falling**: A climbing entity that falls prone or is knocked prone is considered prone and is subject to the falling rules (which means it accelerates downwards and then comes to a violent halt).
 
 ___
@@ -172,14 +172,14 @@ However this comes with limitations:
 - They cannot use a shield or "unwieldy"/"heavy" weapon. (But they can use a buckler)
 - They must have a wing span of at least 1ft per [3lb / Size] of weight. (with size=[1, 2, 3, 4] for ["small", "medium", "large", "huge"] entities respectively). This has general penalties and in particular this causes penalties on [DEX] and [STR] saves when not in flight. Furthermore, naturally entities cannot dig and have a penalty to swim and walk speeds.
 - If they slow to lower than 1/2 their speed in a given terrain, they must land or fall.
-- A flying entity that is knocked **"prone"**, or tripped, drops a distance equal to its speed and can only move at half speed on its next turn. If this drop causes it to hit the ground, it suffers all of the consequences of falling (see "[Falling](#Falling)" section).
+- A flying entity that is knocked **"prone"**, or tripped, drops a distance equal to its speed and can only move at half speed on its next turn. If this drop causes it to hit the ground, it suffers all of the consequences of falling (see ["Falling"](#Falling) section).
 
 #### Flight Parameters
 Not all flying entities are equal in flight. There are three parameters by which flying ability is assessed.
 - **Speed**: Usually this is 80-240ft per round, but can be lower.
 - **Endurance**: A flying entity can fly at least 1 hour per long rest, but no longer than 10 hours (the normal overland journey time). A character that has exhausted their flight time for a given long rest may expend 1 SP die (or 1 HP is they have no SP/ SP dice remaining) to gain 1 minute of flight time. 
-  - Characters with a flight speed can increase their flight endurance with the "[Enduring Flight](06-abilities.md#enduring-flight)" boon.
-  - Rarely, a flying entity can "[sleep on the wing](06-abilities.md#sleep-on-the-wing)". In this case, it can continue flying at half speed after the journey time has elapsed. However, in this case it does not regain SP dice, MP dice, SP, MP or HP from resting (although it can sleep).
+  - Characters with a flight speed can increase their flight endurance with the ["Enduring Flight"](06-abilities.md#enduring-flight) boon.
+  - Rarely, a flying entity can ["sleep on the wing"](06-abilities.md#sleep-on-the-wing). In this case, it can continue flying at half speed after the journey time has elapsed. However, in this case it does not regain SP dice, MP dice, SP, MP or HP from resting (although it can sleep).
 - **Manoeuvrability (rating)**: 
   - **Poor**:
     - These entities climb at 1/2 speed, cannot "run", cannot ascend/descend at more than 45 degrees.
@@ -196,7 +196,7 @@ Not all flying entities are equal in flight. There are three parameters by which
 #### Notes on Flight
 **NB**: Flight "time" is fully regained at the end of a ["long rest"](04-combat.md#long-rest). Likewise, half of an entity's flight time (but no more than 2 hours) is regained at the end of a ["short rest"](04-combat.md#short-rest).
 
-A character with flight may "[push](#global-movement-pushing-and-fatigue)" beyond their allocated fly time, however the penalty is applied every 10 minutes, instead of every hour.
+A character with flight may ["push"](#global-movement-pushing-and-fatigue) beyond their allocated fly time, however the penalty is applied every 10 minutes, instead of every hour.
 
 Most birds are "average" flyers, though most fowl are "poor" and small raptors are usually "good". Flies, on the other hand have "perfect flight". Humanoids seldom have natural flight. Those that do, are usually poor. Those races with "average" flight pay a high price for it.
 
@@ -221,7 +221,7 @@ Vigorous motion is when moving quickly over uneven terrain, when there is signif
 The effects of vigorous motion are as following:
 - Spellcasters casting, or concentrating on, a spell must succeed on a Threshold=12 concentration save or lose the spell (it dissipates).
 - Ranged attacks take a -2 penalty on the attack roll.
-- Disadvantage on "[Fortify](05-skills.md#fortify)", "[Sleight of Hand](05-skills.md#sleight-of-hand)", "[Tinker](05-skills.md#tinker)", "[Heal](05-skills.md#heal)" and "[Spellworking](05-skills.md#spellworking)" rolls.
+- Disadvantage on ["Fortify"](05-skills.md#fortify), ["Sleight of Hand"](05-skills.md#sleight-of-hand), ["Tinker"](05-skills.md#tinker), ["Heal"](05-skills.md#heal) and ["Spellworking"](05-skills.md#spellworking) rolls.
 
 ___
 ## Exploration
@@ -368,7 +368,7 @@ This can be rain, snow, sleet, or even ashfall. This can lead to poor visibility
 - **Extreme**: As severe plus:
   - Grants "light concealment" to targets more than 20ft away, and heavy concealment for entities beyond that. Characters that rely on sight, heat or vibrations are effectively blind beyond 600ft.
   - Ranged weapon attacks are treated as being made at 1 range increment further away.
-  - Flying characters must make a "[fly](05-skills.md#fly)" roll, or risk falling. Even if they succeed, they move at 1/4 speed and take damage (see "[flying and turbulence](#flying-and-turbulence)).
+  - Flying characters must make a ["fly"](05-skills.md#fly) roll, or risk falling. Even if they succeed, they move at 1/4 speed and take damage (see "[flying and turbulence](#flying-and-turbulence)).
   - A character exposed to extreme precipitation must succeed a CON save (threshold=[16 + hours exposed]) every hour, or lose 1 SP die. When all SP dice are lost, it loses 1 HP instead.
 
 #### Wind
@@ -384,13 +384,13 @@ Wind can damage structures, knock prone smaller entity and impede ranged attacks
   - Targets of ranged weapon attacks are considered to be 4 range increment further out than they are (this reduces the maximum range of the ranged weapon, potentially making it useless).
   - Characters moving against the wind (walking, climbing) move at half speed if they are large or larger, and at 1/4 speed if they are medium or smaller.
   - Characters of size category medium or smaller must succeed on a STR save (threshold=20) at the start of each turn or be blown back by 20ft for every size category smaller than large and land prone. If a small or smaller character fails the save by 6 or more, they are blown away.
-  - Flying characters must make a "[fly](05-skills.md#fly)" roll, or risk falling. Even if they succeed, they move at 1/4 speed and take damage (see "[flying and turbulence](#flying-and-turbulence)).
+  - Flying characters must make a ["fly"](05-skills.md#fly) roll, or risk falling. Even if they succeed, they move at 1/4 speed and take damage (see "[flying and turbulence](#flying-and-turbulence)).
 
 #### Visibility
 Poor visibility is usually caused be caused by extreme precipitation, fog, murky water, cosmic clouds or darkness. It is easier to hide, and harder to detect, navigate and aim in poor visibility. The game here defines visibility ranges for poor and zero visibility, although the there will be times when these ranges can be a little lower, or a little higher, since weather, unsurprisingly, varies.
 - **Severe (poor)**:
   - +2 to thresholds for scouting (navigation and observe).
-  - Characters have light concealment from entities beyond 20ft away, heavy concealment from entities beyond 60ft away (although the GM may rule that this distance is greater or lesser). With respect to targets beyond 300ft, characters that rely on sight are effectively "[blinded](10-conditions-types.md#conditions-in-detail)".
+  - Characters have light concealment from entities beyond 20ft away, heavy concealment from entities beyond 60ft away (although the GM may rule that this distance is greater or lesser). With respect to targets beyond 300ft, characters that rely on sight are effectively ["blinded"](10-conditions-types.md#conditions-in-detail).
 - **Extreme (zero)**: 
   - +2 to thresholds for camping (fortify, CON saves).
   - +5 to thresholds for scouting (navigation and observe).
@@ -524,11 +524,11 @@ ___
 In hostile or wilderness environments characters must often take additions steps before they can safely and effectively rest. These steps are:
 1. Find suitable site (usually a [prospect](05-skills.md#investigateprospect) or [navigate](05-skills.md#investigateprospect) roll vs terrain camping threshold + weather scouting modifier). Successful check gives advantage on ameliorate/fortify check.
 2. Skill roll to [ameliorate/fortify](05-skills.md#fortify) the site vs terrain camping threshold + weather camping modifier.
-3. Optional: Set sentry and watch for trouble. Successful fortification roll gives the camp cover, and the sentry advantage on rolls to detect ambushes coming for them (usually using the "[observe](05-skills.md#observe)" skill).
-4. Resolve possible encounters (See "[Chapter 4: Combat](04-combat.md)").
-5. Regain resources (HP, SP, MP) if the rest is successful (see "[Chapter 4: Combat: Rest and Recuperation](04-combat.md#rest-and-recuperation)").
+3. Optional: Set sentry and watch for trouble. Successful fortification roll gives the camp cover, and the sentry advantage on rolls to detect ambushes coming for them (usually using the ["observe"](05-skills.md#observe) skill).
+4. Resolve possible encounters (See ["Chapter 4: Combat"](04-combat.md)).
+5. Regain resources (HP, SP, MP) if the rest is successful (see ["Chapter 4: Combat: Rest and Recuperation"](04-combat.md#rest-and-recuperation)).
 
-Trying to rest on an site which is not ameliorated triggers a CON save, with the threshold determined by terrain, weather (see tables above) and any bonuses from special abilities and spells. A character who fails this CON save does not regain resources from the rest. If they fail by more than 6, they are not able to adequately drink, eat or sleep, which brings them closer to "[starvation](#characters-starvation-and-other-bad-ways-to-die)", if they require drink, food or sleep.
+Trying to rest on an site which is not ameliorated triggers a CON save, with the threshold determined by terrain, weather (see tables above) and any bonuses from special abilities and spells. A character who fails this CON save does not regain resources from the rest. If they fail by more than 6, they are not able to adequately drink, eat or sleep, which brings them closer to ["starvation"](#characters-starvation-and-other-bad-ways-to-die), if they require drink, food or sleep.
 - In cold weather, a blanket gives +2 to this save, while a bedroll gives +4.
 - A tent gives +2 to ameliorate/fortify, a yurt obviates the need for such a roll. This does not apply on terrain where it is not possible to place a tent or yurt, such as in swamps, dense forests or on steep slopes.
 - If a site is not ameliorated, wearing medium or heavy armour gives a penalty to this CON save equal to the armour rating (instead of making a separate roll).
@@ -552,7 +552,7 @@ Furthermore, if the ["material level"](12-equipment-economy.md#material-level) o
 
 If the object has damage reduction, it also applies.
 
-In order to hit an object and deal damage to it, a character rolls an attack against its wielder's "[Sunder](04-combat.md#basic-martial-manoeuvres)". On a successful hit the damage is applied. If the object is unattended, the attacker rolls with advantage vs a threshold=10 (modified by size using [standard size rules](02-base-rules.md#size-rules-table)). The attack should be assumed to automatically hit in narrative time if there are no circumstances in play where missing can have a tangible effects on the outcome (eg a chase where every second lost can make a difference).
+In order to hit an object and deal damage to it, a character rolls an attack against its wielder's ["Sunder"](04-combat.md#basic-martial-manoeuvres). On a successful hit the damage is applied. If the object is unattended, the attacker rolls with advantage vs a threshold=10 (modified by size using [standard size rules](02-base-rules.md#size-rules-table)). The attack should be assumed to automatically hit in narrative time if there are no circumstances in play where missing can have a tangible effects on the outcome (eg a chase where every second lost can make a difference).
 
 On occasion, this method of breaking an object is impractical, impossible, or just too slow. For some objects there is a "break threshold". In this case, a character may make an attack roll for the "sunder" manoeuvre, or an "athletics" skill roll, against this threshold. On a success the object is broken. Usually this applies to restraints such as ropes or manacles.
 
@@ -561,7 +561,7 @@ It should be noted that structures, barriers, and entities, created by spells do
 #### Object hit point (durability) table
 The below table contains durability and recommended breaking threshold for various objects. DMs and groups should tweak these in accordance with various factors. For example, a set of rusty manacles should be easier to break than a set of manacles that has been properly maintained.
 
-NB: For weapon and armour durability see the "[weapons](11-weapons-armour.md#weapon-table)" and "[armour](11-weapons-armour.md#the-armour-table)" tables.
+NB: For weapon and armour durability see the ["weapons"](11-weapons-armour.md#weapon-table) and ["armour"](11-weapons-armour.md#the-armour-table) tables.
 
 NB2: All these items are immune to poison damage.
 
@@ -595,7 +595,7 @@ NB2: All these items are immune to poison damage.
 |Rope (nautical)|4|1 (physical, ice, light)|32|
 |Rope (nautical, thick)|6|1 (physical, ice, light)|36|
 |||||
-|Tent [1]|2|-|["[fortify](05-skills.md#fortify)" roll] - 4|
+|Tent [1]|2|-|[["fortify"](05-skills.md#fortify) roll] - 4|
 |Yurt [2]|8|1 (physical (except slashing), ice, light)|[fortify](05-skills.md#fortify)" roll|
 
 1. Cutting an opening in the fabric counts as 1 point of damage, collapsing the tent as 2.
@@ -609,7 +609,7 @@ Certain tools and weapons overcome the damage resistance of objects. These are a
 
 ___
 ### Bindings and Restraints
-Characters may end up being tied up, shackled, manacled, put in a stockade or otherwise restrained. Likewise a character may restrain their foes (or allies). In essence restraints come in two flavours: The kind whose escape threshold depends on the skill of character applying them, and the kind where it doesn't. For example, how well one ties a rope depends on how well well one can tie a rope, while manacles often snap shut, and are locked in place at the turn of a key. Secondly different restraints can apply different conditions. For example a rope can be used to "[restrain](10-conditions-types.md#conditions-in-detail)" or "[immobilise](10-conditions-types.md#conditions-in-detail)" a target, while a stockade only to "[restrain](10-conditions-types.md#conditions-in-detail)".
+Characters may end up being tied up, shackled, manacled, put in a stockade or otherwise restrained. Likewise a character may restrain their foes (or allies). In essence restraints come in two flavours: The kind whose escape threshold depends on the skill of character applying them, and the kind where it doesn't. For example, how well one ties a rope depends on how well well one can tie a rope, while manacles often snap shut, and are locked in place at the turn of a key. Secondly different restraints can apply different conditions. For example a rope can be used to ["restrain"](10-conditions-types.md#conditions-in-detail) or ["immobilise"](10-conditions-types.md#conditions-in-detail) a target, while a stockade only to ["restrain"](10-conditions-types.md#conditions-in-detail).
 
 A target may escape a binding with a successful DEX/acrobatics roll, or break it with a STR/athletics roll (see above). Some entities may escape handcuffs by dislocating their joints, and hence gaining the "crippled" condition.
 
@@ -636,7 +636,7 @@ ___
 ___
 ### Falling
 A typical humanoid has a terminal velocity of about 100mph, or 1000ft per round. In the first round of falling a falling humanoid falls about 360ft. In most cases they land on the same round. In those cases they have only a "reaction" between them and the swift embrace of the Earth Mother. If the distance exceeds 360ft, they may take other actions, although for the sake of casting spells this counts as vigorous motion. One who falls from the back of a dragon, may have several minutes to contemplate their fate and do something about it.
-- Entities between "large" and "small" inclusive take 1d8 damage per 10ft fallen. The first 1d8 of damage can be negated with an "[acrobatics](05-skills.md#acrobatics)" roll. The threshold=12 if the fall is planned and 16 if the fall is not planned. This caps at 360ft (36d8), at which point they generally reach terminal velocity.
+- Entities between "large" and "small" inclusive take 1d8 damage per 10ft fallen. The first 1d8 of damage can be negated with an ["acrobatics"](05-skills.md#acrobatics) roll. The threshold=12 if the fall is planned and 16 if the fall is not planned. This caps at 360ft (36d8), at which point they generally reach terminal velocity.
 - "Huge" and larger entities are beloved by gravity and take 1d12 damage for every 10ft they fall. They have a higher terminal velocity and also unfavourable physical properties. Sudden drops are not kind to them. The damage also caps at 360ft at (36d12).
 - "Tiny" and smaller entities take 1d4 damage for every 10ft fallen, as they typically have a lower terminal velocity.
 - Damage upon "landing" is Physical[Natural] damage. Entities resistant or immune to Physical[Natural] damage need not fear the ground.

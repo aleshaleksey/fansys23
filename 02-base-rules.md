@@ -240,7 +240,7 @@ Size categories [diminutive, tiny, small, medium, large, huge, gargantuan, colos
 
 ___
 #### Movement modalities
-Movement modalities are usually determined by race and special abilities. A creature WITH a movement modality may (or may not!) be able to move over other terrain with an ability check. this is covered in "[movement](03-movement-exploration.md#local-and-global-movement)" rules:
+Movement modalities are usually determined by race and special abilities. A creature WITH a movement modality may (or may not!) be able to move over other terrain with an ability check. this is covered in ["movement"](03-movement-exploration.md#local-and-global-movement) rules:
 - **walk speed**: ground movement over horizontal-ish terrain.
 - **climb speed**: ground movement over vertical-ish terrain.
 - **flight speed**: Areal movement. Movement through the air.
@@ -280,7 +280,7 @@ At level one a character starts with:
 + 3 level points
 + Any benefits and properties it inherits from its type and race.
 + 1 good save.
-+ A homeland (see "[terrains](03-movement-exploration.md#terrains)").
++ A homeland (see ["terrains"](03-movement-exploration.md#terrains)).
 
 In addition at level 8 and level 16 a character gets a "race boon" from its race.
 
@@ -300,7 +300,7 @@ A character's **Base** is a measure of global experience that permeates into mos
 
 **Base = [LEVEL / 5]** (rounded up)
 
-The values can also be found in the "[Level parameters](#level-parameters)" table.
+The values can also be found in the ["Level parameters"](#level-parameters) table.
 
 ___
 ### Stats
@@ -371,7 +371,7 @@ ___
  This represents your health or life force. Loss of HP represents physical/spiritual damage/degradation.
 
 - A character has maximum HP = [CON+CHA+LEVEL].
-- Every time an entity loses 1 or more HP, it must make a save or risk gaining a condition (see "[Damage types](10-conditions-types.md#damage-types)").
+- Every time an entity loses 1 or more HP, it must make a save or risk gaining a condition (see ["Damage types"](10-conditions-types.md#damage-types)).
 - An entity at 0 HP is disabled and cannot act.
 - An entity at the negative of their HP total is destroyed.
 - A character regains a single point of HP per long rest (usually a day). If a character receives long term medical care this becomes 2HP. (see ["Rest and Recuperation"](04-combat.md#rest-and-recuperation))
@@ -497,7 +497,7 @@ A save can either be "good" or "bad" for a character. The calculation for the sa
 - **Good** (Str, Dex, Con): [NAP + Stat bonus] + [outside factors]
 - **Good** (Int, Wis, Cha): [SAP + Stat bonus] + [outside factors]
 
-A character starts with one good save at level 1, and can gain more good saves with the "[Extra Save](06-abilities.md#extra-save)" ability.
+A character starts with one good save at level 1, and can gain more good saves with the ["Extra Save"](06-abilities.md#extra-save) ability.
 
 ___
 ### HiT Threshold (HiT)
@@ -546,12 +546,12 @@ A character has skills and proficiencies. They generally represent the mundane a
 The number of skill points a character can have in a single skill is capped to:
 
 - **[LEVEL / 2]** (rounded up)
-- A skill bonus for a given skill is: **[Base + 1 (optional)] + [ranks] + [ability bonus]** (see "[Skills](05-skills.md)" chapter)
+- A skill bonus for a given skill is: **[Base + 1 (optional)] + [ranks] + [ability bonus]** (see ["Skills"](05-skills.md) chapter)
 
 ___
 ### Abilities
 
-These are the really cool abilities that a character has, like throwing fire balls, healing otherwise lethal walls, or being able to chop a giant rock in half (or carry said rock). In short extra "things" that a character can do that it might not be able to do, or the ability to withstand things it might not be able to withstand otherwise. A character can gain abilities in exchange for level points. Abilities are covered in the "[Abilities](06-abilities.md)" chapter.
+These are the really cool abilities that a character has, like throwing fire balls, healing otherwise lethal walls, or being able to chop a giant rock in half (or carry said rock). In short extra "things" that a character can do that it might not be able to do, or the ability to withstand things it might not be able to withstand otherwise. A character can gain abilities in exchange for level points. Abilities are covered in the ["Abilities"](06-abilities.md) chapter.
 
 ___
 ### Size
@@ -623,26 +623,26 @@ ___
 
 Sight is the ability to see. An entity with sight can detect and distinguish shapes that it can draw a straight line to that is not blocked by opaque objects (line of sight). In addition it can often distinguish considerable details such as colour (if it has colour vision) or texture. This ability can only be used if there is a considerable amount of light, eg outside in daytime, or in a well lit indoor space.
 
-Entities with sight may then make an "[observe](05-skills.md#observe)" roll to gain additional visual information.
+Entities with sight may then make an ["observe"](05-skills.md#observe) roll to gain additional visual information.
 
-If light levels are low, eg. on a starlit/moonlit night, in a candle-lit hideout, these rolls are made at disadvantage, likewise, all targets of ranged "targeted attacks" and melee attacks beyond the entity's normal reach are considered to be "heavily obscured". In addition "[Prospect](05-skills.md#investigateprospect)", "[Navigate](05-skills.md#navigate)" and "[Track](05-skills.md#track)" rolls are made at disadvantage in low light conditions or darkness unless the entity making them is adapted to rely on other sense or has a special sense which is applicable in that situation. All of the drawbacks of low light levels (but not complete darkness) are negated by "low light vision". Furthermore a character with low-light vision treats the area within twice the "dim light" radius of a light source as if it were dim light (if it is not otherwise illuminated). Thus if the "dim light" radius of a torch ends within 40ft, a character with "low-light vision" would see within 40ft of the torch as if it were in bright light, and between 40-80ft as if it were in dim light.
+If light levels are low, eg. on a starlit/moonlit night, in a candle-lit hideout, these rolls are made at disadvantage, likewise, all targets of ranged "targeted attacks" and melee attacks beyond the entity's normal reach are considered to be "heavily obscured". In addition ["Prospect"](05-skills.md#investigateprospect), ["Navigate"](05-skills.md#navigate) and ["Track"](05-skills.md#track) rolls are made at disadvantage in low light conditions or darkness unless the entity making them is adapted to rely on other sense or has a special sense which is applicable in that situation. All of the drawbacks of low light levels (but not complete darkness) are negated by "low light vision". Furthermore a character with low-light vision treats the area within twice the "dim light" radius of a light source as if it were dim light (if it is not otherwise illuminated). Thus if the "dim light" radius of a torch ends within 40ft, a character with "low-light vision" would see within 40ft of the torch as if it were in bright light, and between 40-80ft as if it were in dim light.
 
-In total or near total darkness, eg in an unlit cave or catacomb, or on a moonless, cloudy night (barring torchlight), an entity with ordinary sight or even "low light vision" is ["blind"](10-conditions-types.md#conditions-in-detail). Similarly an "invisible" entity cannot be detected by ordinary sight, but the tracks it leaves might be visually detectable with a "[track](05-skills.md#track)" roll, following the normal rules for the skill.
+In total or near total darkness, eg in an unlit cave or catacomb, or on a moonless, cloudy night (barring torchlight), an entity with ordinary sight or even "low light vision" is ["blind"](10-conditions-types.md#conditions-in-detail). Similarly an "invisible" entity cannot be detected by ordinary sight, but the tracks it leaves might be visually detectable with a ["track"](05-skills.md#track) roll, following the normal rules for the skill.
 
 Normal "sight" and any special sense with the word "sight" in it is considered sight. Other senses are not.
 
 ["Heat sense"](06-abilities.md#heat-sense-i-v), ["Life sense"](06-abilities.md#life-sense-i-v), ["tremor sense"](06-abilities.md#tremor-sense-i-v) and ["blind sight"](06-abilities.md#blind-sight-i-vi) negate some aspects of blindness, each under specific circumstances (see the specific sections for details).
 
-"[Concealment](04-combat.md#cover-and-concealment)" gives entities a chance to hide from ordinary sight, but usually not a guarantee. Likewise, light concealment grants a 1/6 miss chance, while heavy concealment provides a 2/6 miss chance. Full concealment gives a 4/6 miss chance for close (melee) attacks and 5/6 miss chance for ranged attacks (blindness/invisibility gives full concealment).
+["Concealment"](04-combat.md#cover-and-concealment) gives entities a chance to hide from ordinary sight, but usually not a guarantee. Likewise, light concealment grants a 1/6 miss chance, while heavy concealment provides a 2/6 miss chance. Full concealment gives a 4/6 miss chance for close (melee) attacks and 5/6 miss chance for ranged attacks (blindness/invisibility gives full concealment).
 
 ___
 #### Hearing
 
 Hearing is the ability to hear. An entity with hearing can detect certain vibrations (sound) and interpret them to gain information about the approximate of things and entities and gain some information about their properties. Hearing does not require a straight, unimpeded line between the entity and the source of the sound, however it does require the source to be located in contiguous gaseous, liquid or solid medium. Sound does not travel in a vacuum. 
 
-Hearing can be used, with an "[observe](skills#observe)" roll, to locate the square where the source of the sound is located if it is within 100ft, otherwise, the direction can be determined, but the distance can only be determined to "less than 200ft", "less than 300ft", etc. 
+Hearing can be used, with an ["observe"](skills#observe) roll, to locate the square where the source of the sound is located if it is within 100ft, otherwise, the direction can be determined, but the distance can only be determined to "less than 200ft", "less than 300ft", etc. 
 
-Terrestrial and flying entities have disadvantage on hearing based "[Observe](05-skills.md#observe)" and "[Track](05-skills.md#track)" rolls in water. Aquatic entities have disadvantage on these rolls out of water. Likewise, an intervening solid barrier between the entity and source of sound, causes these rolls to be made at disadvantage.
+Terrestrial and flying entities have disadvantage on hearing based ["Observe"](05-skills.md#observe) and ["Track"](05-skills.md#track) rolls in water. Aquatic entities have disadvantage on these rolls out of water. Likewise, an intervening solid barrier between the entity and source of sound, causes these rolls to be made at disadvantage.
 
 ___
 #### Smell
@@ -737,7 +737,7 @@ As this is a human-centric game, probably designed by a human, "medium", the sta
 
 1. Applies the "long" property to all weapons of "large" size category it wields. All "large" size category that already have the "long" property lose it and instead are treated as having a reach of 10ft. (See ["Combat: Range and Reach"](04-combat.md#range-and-reach))
 2. The armour penalty on entities of size "small" and smaller applies only the armour of entities that have armour. It can never take the natural armour bonus to HiT below zero.
-3. Some basic combat manoeuvres also suffer bonuses or penalties based on size difference (see "[Basic Martial Manoeuvres](04-combat.md#basic-martial-manoeuvres)").
+3. Some basic combat manoeuvres also suffer bonuses or penalties based on size difference (see ["Basic Martial Manoeuvres"](04-combat.md#basic-martial-manoeuvres)).
 
 ___
 #### Dice size rules

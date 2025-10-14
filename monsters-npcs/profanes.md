@@ -313,8 +313,8 @@ ___
 |Immune|||"fear", "unconscious"|
 |Vulnerability|||"divine", "light"|
 |[Charm II](../06-abilities.md#charm-i-iv)|Threshold=18||(Cost = 1 MP die) A vampire can charm its victim. If it has imbibed its victim's blood, then the victim has disadvantage on the save.|
-|[Spellcasting: Incantation III](../06-abilities.md#spellcasting-local)|Threshold=18||Favourite Spells: "[Least Ward](../08-spell-list.md#least-ward)", "[Down](../08-spell-list.md#down)", "[Least Pyromancy](../08-spell-list.md#least-pyromancy)", "[Least Vengeance](../08-spell-list.md#least-vengeance)", "[Promise](../08-spell-list.md#promise)", "[Wind Walk](../08-spell-list.md#wind-walk)"|
-|[Spellcasting: Kinetic III](../06-abilities.md#spellcasting-local)|Threshold=18||Favourite Spells: "[Mist](../08-spell-list.md#mist)", "[Silent](../08-spell-list.md#silent)", "[Whispers](../08-spell-list.md#whispers)", "[Lesser Spirits' Secret](../08-spell-list.md#spirits-secret)", "[Least Transformation](../08-spell-list.md#least-transformation)", "[Least Curse](../08-spell-list.md#least-curse)"|
+|[Spellcasting: Incantation III](../06-abilities.md#spellcasting-local)|Threshold=18||Favourite Spells: ["Least Ward"](../08-spell-list.md#least-ward), ["Down"](../08-spell-list.md#down), ["Least Pyromancy"](../08-spell-list.md#least-pyromancy), ["Least Vengeance"](../08-spell-list.md#least-vengeance), ["Promise"](../08-spell-list.md#promise), ["Wind Walk"](../08-spell-list.md#wind-walk)|
+|[Spellcasting: Kinetic III](../06-abilities.md#spellcasting-local)|Threshold=18||Favourite Spells: ["Mist"](../08-spell-list.md#mist), ["Silent"](../08-spell-list.md#silent), ["Whispers"](../08-spell-list.md#whispers), ["Lesser Spirits' Secret"](../08-spell-list.md#spirits-secret), ["Least Transformation"](../08-spell-list.md#least-transformation), ["Least Curse"](../08-spell-list.md#least-curse)|
 |[Spellcasting: Global](../06-abilities.md#spellcasting-global)||||
 |||||
 |[Low-light vision](../06-abilities.md#low-light-vision)|||A vampire can see in dim light as if it was daylight|
@@ -380,9 +380,9 @@ ___
 |Immune|||"fear", "unconscious", "charm"|
 |Vulnerability|||"divine", "light"|
 |[Charm III](../06-abilities.md#charm-i-iv)|Threshold=21||(Cost = 1 MP die) A vampire can charm its victim. If it has imbibed its victim's blood, then the victim has disadvantage on the save.|
-|[Spellcasting: Incantation VI](../06-abilities.md#spellcasting-local)|Threshold=21||Favourite Spells: "[Least Ward](../08-spell-list.md#least-ward)", "[Down](../08-spell-list.md#down)", "[Least Pyromancy](../08-spell-list.md#least-pyromancy)", "[Least Vengeance](../08-spell-list.md#least-vengeance)", "[Promise](../08-spell-list.md#promise)", "[Wind Walk](../08-spell-list.md#wind-walk)", "[Lesser Weather Control](../08-spell-list.md#lesser-weather-control)", "[Summon Spirit](../08-spell-list.md#summon-spirit)", "[Pact](../08-spell-list.md#pact)", "[Spirit Restoration](../08-spell-list.md#spirit-restoration)"|
-|[Spellcasting: Kinetic VI](../06-abilities.md#spellcasting-local)|Threshold=21||Favourite Spells: "[Mist](../08-spell-list.md#mist)", "[Silent](../08-spell-list.md#silent)", "[Whispers](../08-spell-list.md#whispers)", "[Lesser Spirits' Secret](../08-spell-list.md#spirits-secret)", "[Least Transformation](../08-spell-list.md#least-transformation)", "[Least Curse](../08-spell-list.md#least-curse)", "[Scry](../08-spell-list.md#scry)", "[Plague](../08-spell-list.md#plague)", "[Madness](../08-spell-list.md#madness)"|
-|[Forbidden Spell](../06-abilities.md#forbidden-spell)|||"[Forced Possession](../08-spell-list.md#forced-possession)", "[Dominate Mortal](../08-spell-list.md#dominate-mortal)", "[Summon Fiend](../08-spell-list.md#summon-fiend)", "[Legion of Dead](../08-spell-list.md#legion-of-dead)"|
+|[Spellcasting: Incantation VI](../06-abilities.md#spellcasting-local)|Threshold=21||Favourite Spells: ["Least Ward"](../08-spell-list.md#least-ward), ["Down"](../08-spell-list.md#down), ["Least Pyromancy"](../08-spell-list.md#least-pyromancy), ["Least Vengeance"](../08-spell-list.md#least-vengeance), ["Promise"](../08-spell-list.md#promise), ["Wind Walk"](../08-spell-list.md#wind-walk), ["Lesser Weather Control"](../08-spell-list.md#lesser-weather-control), ["Summon Spirit"](../08-spell-list.md#summon-spirit), ["Pact"](../08-spell-list.md#pact), ["Spirit Restoration"](../08-spell-list.md#spirit-restoration)|
+|[Spellcasting: Kinetic VI](../06-abilities.md#spellcasting-local)|Threshold=21||Favourite Spells: ["Mist"](../08-spell-list.md#mist), ["Silent"](../08-spell-list.md#silent), ["Whispers"](../08-spell-list.md#whispers), ["Lesser Spirits' Secret"](../08-spell-list.md#spirits-secret), ["Least Transformation"](../08-spell-list.md#least-transformation), ["Least Curse"](../08-spell-list.md#least-curse), ["Scry"](../08-spell-list.md#scry), ["Plague"](../08-spell-list.md#plague), ["Madness"](../08-spell-list.md#madness)|
+|[Forbidden Spell](../06-abilities.md#forbidden-spell)|||["Forced Possession"](../08-spell-list.md#forced-possession), ["Dominate Mortal"](../08-spell-list.md#dominate-mortal), ["Summon Fiend"](../08-spell-list.md#summon-fiend), ["Legion of Dead"](../08-spell-list.md#legion-of-dead)|
 |[Spellcasting: Global](../06-abilities.md#spellcasting-global)||||
 |||||
 |[Low-light vision](../06-abilities.md#low-light-vision)|||A vampire can see in dim light as if it was daylight|
@@ -429,7 +429,7 @@ ___
 |Immune|||"physical" damage and all combat manoeuvres carried out without "spiritual" properties|
 |Immune||||All combat manoeuvres carried by corporeal entities without the "spiritual" property|
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
-|Spellcasting III|||"[Least Curse](../08-spell-list.md#least-curse)"|
+|Spellcasting III|||["Least Curse"](../08-spell-list.md#least-curse)|
 |Senses|||"low-light vision", "life-sense" 60ft|
 |Horror of the Dark|||The shade has advantage on "stealth" in low-light and darkness. If exposed to direct sunlight, the shade dissipates until low-light conditions are restored|
 
@@ -464,7 +464,7 @@ ___
 |Immune|||"natural" damage (except "light") and all combat manoeuvres carried out without "spiritual" properties|
 |Immune||||All combat manoeuvres carried by corporeal entities without the "spiritual" property|
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
-|Spellcasting III|Threshold=18||"[Least Curse](../08-spell-list.md#least-curse)"|
+|Spellcasting III|Threshold=18||["Least Curse"](../08-spell-list.md#least-curse)|
 |Senses|||"low-light vision", "life-sense" 120ft|
 |Horror of the Dark|||The shade has advantage on "stealth" in low-light and darkness. If exposed to direct sunlight, the shade dissipates until low-light conditions are restored|
 
@@ -497,7 +497,7 @@ ___
 |Immune|||"physical" damage and all combat manoeuvres carried out without "spiritual" properties|
 |Immune||||All combat manoeuvres carried by corporeal entities without the "spiritual" property|
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
-|Spellcasting III|Threshold=16||"[Least Curse](../08-spell-list.md#least-curse)"|
+|Spellcasting III|Threshold=16||["Least Curse"](../08-spell-list.md#least-curse)|
 |Senses|||"low-light vision", "life-sense" 60ft|
 |Horror of the Dark|||The shade has advantage on "stealth" in low-light and darkness. If exposed to direct sunlight, the shade dissipates until low-light conditions are restored|
 
@@ -642,18 +642,18 @@ A shadow Flesh Fiend has a +4 armour bonus from the profane flesh.
 |Short Sword|+8|1d6+3|Reach=10ft, the shadow flesh distorts the fiend's form, giving it an unusually long reach.|
 |Grapple|+8||Reach=10ft. A target grappled by a Shadow Flesh Fiend must succeed a Threshold=17 CON save at the start of its turn or lose 1d4+2 SP dice. If it has no SP dice left, it instead loses 2 HP.|
 |Profane Blast||||
-|Spellcasting|Threshold=17||"[Dusk](../08-spell-list.md#dusk)", "[Curse](../08-spell-list.md#least-curse)", "[Animate Dead](../08-spell-list.md#animatecontrol-dead)"|
+|Spellcasting|Threshold=17||["Dusk"](../08-spell-list.md#dusk), ["Curse"](../08-spell-list.md#least-curse), ["Animate Dead"](../08-spell-list.md#animatecontrol-dead)|
 |[Cursed Blood](../06-abilities.md#cursed-blood)|||A Shadow Flesh Fiend can use its reaction to cast a pell|
 |||||
 |[Guarded](../06-abilities.md#guarded)|||A Shadow Flesh Fiend does not provoke attacks of opportunity when standing up or drinking potions.|
-|"[Low Light Vision](../06-abilities.md#low-light-vision)"|||Shadow Flesh fiends can see in dim light, for example a starry night, as if it were daylight.|
-|"[Life Sense: 60ft](../06-abilities.md#low-light-vision)"|||A shadow flesh fiend can detect living beings within 60ft of it if there are no significant intervening barriers.|
+|["Low Light Vision"](../06-abilities.md#low-light-vision)|||Shadow Flesh fiends can see in dim light, for example a starry night, as if it were daylight.|
+|["Life Sense: 60ft"](../06-abilities.md#low-light-vision)|||A shadow flesh fiend can detect living beings within 60ft of it if there are no significant intervening barriers.|
 |Telltale Heart|||A Shadow Flesh Fiend ALWAYS knows the direction to its lost parts and the ones who took them.|
 |||||
 |Skills|||"Athletics: +7", "Acrobatics:+6", "Sleight of Hand:+5", "Religion:+4", "Fortify:+5",  "Insight:+4"|
 |||||
 |Resistant|||"physical" damage, "fire", "ice" damage|
-|Immune|||"[biological damage](../10-conditions-types.md#biological-damage)", diseased", "poisoned", "dying"|
+|Immune|||["biological damage"](../10-conditions-types.md#biological-damage), diseased", "poisoned", "dying"|
 |Vulnerability|||"divine" damage, "light: supernatural" damage|
 
 When a sentient mortal  has a part of their body wilfully taken from them by another entity, occasionally the attachment and resentment transforms the mortal into a fiend, rematerialising the lost part.
@@ -704,7 +704,7 @@ Succubi are fiends that prey on the carnal desires of humanoids in order to drai
 
 Succubi avoid fighting if possible. They study their target and then use secret paths to approach their targets in a moment of weakness. Potentially during their sleep. A succubus may use their innate charms to succumb a victim, or if this seems unlikely, they will attempt to enchant them. If it requires sustenance it will then use its life drain.
 
-If this strategy appears to be failing, the succubus will generally retreat, using "[Dusk](../08-spell-list.md#dusk)" or "[Lesser Veil](../08-spell-list.md)", or pre-prepared secret paths.
+If this strategy appears to be failing, the succubus will generally retreat, using ["Dusk"](../08-spell-list.md#dusk) or ["Lesser Veil"](../08-spell-list.md), or pre-prepared secret paths.
 
 If a succubus must fight, it will use magic to charm the most combat capable opponent, then obfuscate the battle field and attempt to use its life-drain if it can while using its thrall to protect it.
 
@@ -740,7 +740,7 @@ Saves: Str, Con
 |Combined Manoeuvre II|||A fiendish warrior can combine up to 3 basic combat manoeuvres|
 |Parry|||A fiendish warrior adds +3 to HiT for up to 5 attacks.|
 |Opportunist|||Can make attacks of opportunity vs entities that are standing up or drinking potions|
-|"[Charge](../06-abilities.md#charge)"|||Can attack when running/sprinting when mounted|
+|["Charge"](../06-abilities.md#charge)|||Can attack when running/sprinting when mounted|
 |Counterstrike|||Can take an attack of opportunity against a foe that hits it in melee|
 |Elemental Blast II (one of fire or ice)|+5|2d6|Up to 4d6 (an extra 1d6 per 1MP dice)|
 |Elemental Touch II (one of fire or ice)|+4|2d6|Up to 6d6 (an extra 2d6 per 1MP dice)|
@@ -805,17 +805,17 @@ ___
 |Parry|||A greater fiend adds +4 to HiT for up to 5 attacks.|
 |Great Strike|||A greater fiend adds +4 to HiT for up to 5 attacks.|
 |Opportunist|||Can make attacks of opportunity vs entities that are standing up or drinking potions|
-|"[Charge](../06-abilities.md#charge)"|||Can attack when running/sprinting when mounted|
+|["Charge"](../06-abilities.md#charge)|||Can attack when running/sprinting when mounted|
 |Counterstrike|||Can take an attack of opportunity against a foe that hits it in melee|
-|"[Broad Strike](../06-abilities.md#broad-strike)"|||A demon may strike all targets adjacent to its target for the cost of 1 SP dice.|
-|"[Great Strike](../06-abilities.md#great-strike)"|||A demon may sacrifice up to 5 from its attack bonus to deal extra melee damage|
-|"[Spell Strike](../06-abilities.md#spell-strike)"|||A demon may deliver spells through targetted attacks with its claws or flail for 1 MP die.|
-|"[Profane Strike](../06-abilities.md#profane-strike)"|||A demon may add 1d6 profane damage per MP dice expended to damage up to a maximum of 4|
+|["Broad Strike"](../06-abilities.md#broad-strike)|||A demon may strike all targets adjacent to its target for the cost of 1 SP dice.|
+|["Great Strike"](../06-abilities.md#great-strike)|||A demon may sacrifice up to 5 from its attack bonus to deal extra melee damage|
+|["Spell Strike"](../06-abilities.md#spell-strike)|||A demon may deliver spells through targetted attacks with its claws or flail for 1 MP die.|
+|["Profane Strike"](../06-abilities.md#profane-strike)|||A demon may add 1d6 profane damage per MP dice expended to damage up to a maximum of 4|
 |||||
 |Xenophonia III|||"Humanoid", "Monster", "Elemental"|
 |Spellcasting: Global I||||
 |Spellcasting: Fire/Water VI|Threshold=24|||
-|Spellcasting: Profane VIII|Threshold=24||Favourites are: "[Dusk](../08-spell-list.md#dusk)", "[Animate Dead](../08-spell-list.md#animatecontrol-dead)", "[Balance of Nature](../08-spell-list.md#balance-of-nature)", "[Summon Fiend](../08-spell-list.md#summon-fiend)", "[Legion of Dead](../08-spell-list.md#legion-of-dead)", "[Profane Resurrection](../08-spell-list.md#profane-resurrection)"|
+|Spellcasting: Profane VIII|Threshold=24||Favourites are: ["Dusk"](../08-spell-list.md#dusk), ["Animate Dead"](../08-spell-list.md#animatecontrol-dead), ["Balance of Nature"](../08-spell-list.md#balance-of-nature), ["Summon Fiend"](../08-spell-list.md#summon-fiend), ["Legion of Dead"](../08-spell-list.md#legion-of-dead), ["Profane Resurrection"](../08-spell-list.md#profane-resurrection)|
 |Alternate Form|||A demon has its true form and a humanoid form. It can shift between them as a secondary action. In its humanoid form the demon loses its claw attack and replaces its movement modalities with those of the humanoid. Its stats, saves, and abilities are unaffected.|
 |||||
 |Deflection||||
@@ -883,7 +883,7 @@ ___
 |[Deflection](../06-abilities.md#deflection)|||A unicorn can can reduce damage from ranged supernatural attacks by 1d4+7+([MP dice]d4) as a reaction.|
 |[Esoteric Deflection](../06-abilities.md#esoteric-deflection)|||A unicorn can, as a reaction, reduce the damage from a "esoteric" ranged attack by [1d6 + [2 x MP dice expended]]|
 |Shield of Malice|||A unicorn is surrounded by a malicious force that grants it +6 to HiT|
-|[Spellcasting: Incantation VI](../06-abilities.md#spellcasting-local)|Threshold=19||Favourite Spells: "[Least Spike](../08-spell-list.md#least-spike)", "[Sour](../08-spell-list.md#sour)", "[Least Heal](../08-spell-list.md#least-heal)", "[Least Vengeance](../08-spell-list.md#least-vengeance)", "[Meadow of Flame](../08-spell-list.md#meadow-of-flame)", "[Wind Walk](../08-spell-list.md#wind-walk)", "[Cure](../08-spell-list.md#cure)", "[Greater Xenophonia](../08-spell-list.md#greater-xenophonia)", "[Isolate Essence](../08-spell-list.md#isolate-essence)", "[Pact](../08-spell-list.md#pact)", "[Spirit Restoration](../08-spell-list.md#spirit-restoration)", "[Razor Wind](../08-spell-list.md#razor-wind)", "[Otherworld Step](../08-spell-list.md#otherworld-step)"|
+|[Spellcasting: Incantation VI](../06-abilities.md#spellcasting-local)|Threshold=19||Favourite Spells: ["Least Spike"](../08-spell-list.md#least-spike), ["Sour"](../08-spell-list.md#sour), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Vengeance"](../08-spell-list.md#least-vengeance), ["Meadow of Flame"](../08-spell-list.md#meadow-of-flame), ["Wind Walk"](../08-spell-list.md#wind-walk), ["Cure"](../08-spell-list.md#cure), ["Greater Xenophonia"](../08-spell-list.md#greater-xenophonia), ["Isolate Essence"](../08-spell-list.md#isolate-essence), ["Pact"](../08-spell-list.md#pact), ["Spirit Restoration"](../08-spell-list.md#spirit-restoration), ["Razor Wind"](../08-spell-list.md#razor-wind), ["Otherworld Step"](../08-spell-list.md#otherworld-step)|
 |[Sprinter](../06-abilities.md#sprinter)|||A unicorn can run at x3 its base speed, and sprint x5 its base speed.|
 |[Mighty I](../06-abilities.md#mighty-i)|||Can carry more weight than your average beast|
 |||||

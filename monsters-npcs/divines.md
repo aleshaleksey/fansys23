@@ -224,20 +224,20 @@ An Abyssal Blade has a +6 deflection bonus, and a +2 shield bonus from its blade
 |-------|-----|------|-----|
 |Entropic Touch|+9|1d4+3[Entropic]|Reach=10ft. On a successful hit, the target must succeed a Threshold=19 CON save or lose 1d4+2 SP dice. If it has no SP dice left, it instead loses 2 HP.|
 |Swords|+9|1d8+3[Entropic]|Reach=10ft, the shadow flesh distorts the fiend's form, giving it an unusually long reach.|
-|Spellcasting|Threshold=18||"[Dusk](../08-spell-list.md#dusk)", "[Curse](../08-spell-list.md#least-curse)", "[Animate Dead](../08-spell-list.md#animatecontrol-dead)"|
+|Spellcasting|Threshold=18||["Dusk"](../08-spell-list.md#dusk), ["Curse"](../08-spell-list.md#least-curse), ["Animate Dead"](../08-spell-list.md#animatecontrol-dead)|
 |[Cursed Blood](../06-abilities.md#cursed-blood)|||An Abyssal Blade can use its reaction to cast a pell|
 |||||
 |[Guarded](../06-abilities.md#guarded)|||An Abyssal Blade does not provoke attacks of opportunity when standing up or drinking potions.|
-|"[Low Light Vision](../06-abilities.md#low-light-vision)"|||Abyssal Blades can see in dim light, for example a starry night, as if it were daylight.|
-|"[Life Sense: 60ft](../06-abilities.md#low-light-vision)"|||An Abyssal Blade can detect living beings within 60ft of it if there are no significant intervening barriers.|
-|"[True Sight: 60ft](../06-abilities.md#truesight-i-v)"|||An Abyssal Blade can detect living beings within 60ft of it if there are no significant intervening barriers.|
+|["Low Light Vision"](../06-abilities.md#low-light-vision)|||Abyssal Blades can see in dim light, for example a starry night, as if it were daylight.|
+|["Life Sense: 60ft"](../06-abilities.md#low-light-vision)|||An Abyssal Blade can detect living beings within 60ft of it if there are no significant intervening barriers.|
+|["True Sight: 60ft"](../06-abilities.md#truesight-i-v)|||An Abyssal Blade can detect living beings within 60ft of it if there are no significant intervening barriers.|
 |Telltale Heart|||An Abyssal Blade ALWAYS knows the direction to its lost parts and the ones who took them.|
 |||||
 |Skills|||"Athletics: +9", "Acrobatics:+8", "Sleight of Hand:+7", "Religion:+6", "Fortify:+7",  "Insight:+6"|
 |||||
-|Immune|||"[Natural Damage](../10-conditions-types.md#natural-and-supernatural-damage-and-abilities)", "[Divine Damage](../10-conditions-types.md#divine)"|
+|Immune|||["Natural Damage"](../10-conditions-types.md#natural-and-supernatural-damage-and-abilities), ["Divine Damage"](../10-conditions-types.md#divine)|
 |Aberrant healing||When a glitch would take divine damage (were it not immune), it is instead healed for that number of hit-points.|
-|Immune|||"[Surprised](../10-conditions-types.md#surprised)", "[Charmed](../10-conditions-types.md#charmed)", "[Frightened](../10-conditions-types.md#frightened)", "[Stunned](../10-conditions-types.md#stunned)", "[Dying](../10-conditions-types.md#dying)"|
+|Immune|||["Surprised"](../10-conditions-types.md#surprised), ["Charmed"](../10-conditions-types.md#charmed), ["Frightened"](../10-conditions-types.md#frightened), ["Stunned"](../10-conditions-types.md#stunned), ["Dying"](../10-conditions-types.md#dying)|
 
 When a [Abyssal Blade](profanes.md#shadow-flesh-fiend-human) is created by removing parts from a being of a being with a spiritual or divine alignment, it may instead become a "an abyssal blade".
 
@@ -287,9 +287,9 @@ ___
 |[Deflection](../06-abilities.md#deflection)|||A unicorn can can reduce damage from ranged supernatural attacks by 1d4+7+([MP dice]d4) as a reaction.|
 |[Esoteric Deflection](../06-abilities.md#esoteric-deflection)|||A unicorn can, as a reaction, reduce the damage from a "esoteric" ranged attack by [1d6 + [2 x MP dice expended]]|
 |Radiant deflection|HiT: +6||A radiant power surrounds a unicorn, protecting them from harm|
-|[Spellcasting: Incantation VII](../06-abilities.md#spellcasting-local)|Threshold=19||Favourite Spells: "[Least Spike](../08-spell-list.md#least-spike)", "[Sour](../08-spell-list.md#sour)", "[Least Heal](../08-spell-list.md#least-heal)", "[Least Vengeance](../08-spell-list.md#least-vengeance)", "[Meadow of Flame](../08-spell-list.md#meadow-of-flame)", "[Wind Walk](../08-spell-list.md#wind-walk)", "[Cure](../08-spell-list.md#cure)", "[Greater Xenophonia](../08-spell-list.md#greater-xenophonia)", "[Isolate Essence](../08-spell-list.md#isolate-essence)", "[Pact](../08-spell-list.md#pact)", [Heart Ward](../08-spell-list.md#heart-ward)", "[Spirit Restoration](../08-spell-list.md#spirit-restoration)", "[Razor Wind](../08-spell-list.md#razor-wind)", "[Otherworld Step](../08-spell-list.md#otherworld-step)", "[Memory Thief](../08-spell-list.md#memory-thief)"|
-|[Divine Arcana: Regrowth](../08-spell-list.md#regrowth)|||A true unicorn can cast "[Regrowth](../08-spell-list.md#regrowth)" despite not meeting the prerequisites.|
-|[Divine Arcana: Summon Angel](../08-spell-list.md#summon-angel)|||A true unicorn can cast "[Summon Angel](../08-spell-list.md#summon-angel)" despite not meeting the prerequisites.|
+|[Spellcasting: Incantation VII](../06-abilities.md#spellcasting-local)|Threshold=19||Favourite Spells: ["Least Spike"](../08-spell-list.md#least-spike), ["Sour"](../08-spell-list.md#sour), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Vengeance"](../08-spell-list.md#least-vengeance), ["Meadow of Flame"](../08-spell-list.md#meadow-of-flame), ["Wind Walk"](../08-spell-list.md#wind-walk), ["Cure"](../08-spell-list.md#cure), ["Greater Xenophonia"](../08-spell-list.md#greater-xenophonia), ["Isolate Essence"](../08-spell-list.md#isolate-essence), ["Pact"](../08-spell-list.md#pact), [Heart Ward](../08-spell-list.md#heart-ward)", ["Spirit Restoration"](../08-spell-list.md#spirit-restoration), ["Razor Wind"](../08-spell-list.md#razor-wind), ["Otherworld Step"](../08-spell-list.md#otherworld-step), ["Memory Thief"](../08-spell-list.md#memory-thief)|
+|[Divine Arcana: Regrowth](../08-spell-list.md#regrowth)|||A true unicorn can cast ["Regrowth"](../08-spell-list.md#regrowth) despite not meeting the prerequisites.|
+|[Divine Arcana: Summon Angel](../08-spell-list.md#summon-angel)|||A true unicorn can cast ["Summon Angel"](../08-spell-list.md#summon-angel) despite not meeting the prerequisites.|
 |[Spellsong IV](../06-abilities.md#spellsong-i-iv)|||A unicorn's song can alter the nature of magic around it|
 |[Sprinter](../06-abilities.md#sprinter)|||A unicorn can run at x3 its base speed, and sprint x5 its base speed.|
 ||||||
@@ -310,7 +310,7 @@ A true unicorn will not willingly appear before beings that lack innocence.
 
 A true unicorn has considerable healing abilities, but will not use them on beings that it does not consider worthy. On the other hand, it will use them freely and liberally on beings that it *does* consider worthy.
 
-While it prefers not to engage in battle, when facing beings that spread corruption a true unicorn will fight fiercely and mercilessly. Depending on the strength and kind of its foes its strategy will vary. Often it will first summon a "[Lesser Messenger](#lesser-messenger)" of purity, and command it create weather such that it would be unfavourable to their foes. It would then charge, using either "Razor Wind", or its considerable physical abilities to destroy its foes.
+While it prefers not to engage in battle, when facing beings that spread corruption a true unicorn will fight fiercely and mercilessly. Depending on the strength and kind of its foes its strategy will vary. Often it will first summon a ["Lesser Messenger"](#lesser-messenger) of purity, and command it create weather such that it would be unfavourable to their foes. It would then charge, using either "Razor Wind", or its considerable physical abilities to destroy its foes.
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|

@@ -498,6 +498,7 @@ ___
 - Improve descriptions in [Chapter 4: Combat](04-combat.md).
 - Add forgotten penalties for not having [shield proficiency](11-weapons-armour.md#armour-proficiencies) but still using a shield.
 - Define how concealment interacts with stealth and losing track of targets. (This is important to avoid "I'm blind, but I know exactly where they are" lunacy).
+- The concept of [hostile squares](04-combat.md#occupied-area-and-hostile-squares).
 
 ### Skills
 - Modify [Observe](05-skills.md#observe) to have smaller bonus/penalties due to size. Increase due to concealment. 

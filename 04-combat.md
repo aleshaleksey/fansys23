@@ -38,8 +38,9 @@ This system deals heavily with combat and many of the mechanics are tuned to wor
     - [Squares and Hexes](#squares-and-hexes)
     - [Range and reach](#range-and-reach)
     - [Threatened area](#threatened-area)
-    - [Creature sizes, reach and combat](#creature-sizes-reach-and-combat)
+    - [Occupied area and hostile squares](#occupied-area-and-hostile-squares)
     - [Squeezing](#squeezing)
+    - [Creature sizes, reach and combat](#creature-sizes-reach-and-combat)
     - [Flanking](#flanking)
     - [Cover and Concealment](#cover-and-concealment)
       - [Cover](#cover)
@@ -411,16 +412,28 @@ ___
 Any square within the reach of a hostile entity's melee attacks is considered threatened (this usually includes squares that the hostile entity occupies). This includes squares in reach of a "[reach](11-weapons-armour.md#weapon-properties)" weapon, but not squares which can be put in reach of a "long" weapon by expending a secondary action.
 
 ___
-### Creature sizes, reach and combat
+### Occupied area and hostile squares
 
-Size is, amongst other things, a measure of how much space an entity occupies. This affects various combat parameters and can be seen in the "[Size rules](02-base-rules.md#size-rules)". Tiny and diminutive entities that have a reach of 0ft must occupy the same square as their target to make the attack.
+Characters of different sizes take up a different number of squares (see the [Size rules table](02-base-rules.md#size-rules)). For example, a medium sized character occupies 1 square (5 x 5 feet). Moving through an occupied square counts as squeezing (see below).
 
-Likewise entities that are separated by at least two categories (eg Diminutive and medium, medium and gargantuan, large and colossal, small and colossal) can usually occupy the same space without penalty. Although the DM may ask for Dex saves from the smaller entity (threshold=NAT+Str of the bigger entity) on the turn of the bigger entity, lest the smaller entity be knocked "prone".
+An squares occupied by a hostile entity are known as **hostile squares**. In combat a character cannot freely move through hostile squares unless the entity occupying them is [disabled](10-conditions-types.md#disabled-states). The character may move through hostile squares by one of the following methods:
+
+- A successful acrobatics roll, with a **Threshold = [Attack bonus of hostile entity + 13]** as part of its move action.
+- A successful "feint", "grapple" or "shove" [manoeuvre](#basic-martial-manoeuvres) as a bonus action.
+
+Upon failure the character cannot progress through the occupied area. Whether it succeeds or fails, the character making such an attempt is subject to attacks of opportunity.
 
 ___
 ### Squeezing
 
 An entity can move through spaces less than its size. In general this is up to half the space it occupies, rounded down, so 2ft for a medium sized entity and 5ft for a large entity. However, in this case it loses any DEX and SHIElD bonus to armour and has disadvantage to DEX and STR saves. Movement through smaller spaces may be possible with an acrobatics roll, but the gap should never be lower than what is physically possible. For example, a human cannot fit through a gap smaller than the diameter of its head, or the width of its hips (approximately 1ft x 2ft for an adult human).
+
+___
+### Creature sizes, reach and combat
+
+Size is, amongst other things, a measure of how much space an entity occupies. This affects various combat parameters and can be seen in the [Size rules table](02-base-rules.md#size-rules). Tiny and diminutive entities that have a reach of 0ft must occupy the same square as their target to make the attack.
+
+Likewise entities that are separated by at least two categories (eg Diminutive and medium, medium and gargantuan, large and colossal, small and colossal) can usually occupy the same space without penalty. Although the DM may ask for Dex saves from the smaller entity (threshold=NAT+Str of the bigger entity) on the turn of the bigger entity, lest the smaller entity be knocked "prone".
 
 ___
 ### Flanking

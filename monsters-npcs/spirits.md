@@ -1,4 +1,5 @@
 # Spirits: Index
+
 - [Spirits: Elementals](#spirits-elementals)
     - [Flame Sprite](#flame-sprite)
     - [Gnome](#gnome)

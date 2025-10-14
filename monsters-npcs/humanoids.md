@@ -235,7 +235,7 @@ ___
 
 A knight is an elite warrior, trained from birth to fight and rule. This block can also represent generals and kings who lived their life on the battlefield.
 
-A knight usually has a warhorse, squire and attendants. Like a warrior, he will carry a main weapon and shield into battle and carry a side arm. Knights seldom carry ranged weapons, trusting their heavy armour to protect and squire (stat as [militiaman](#human-militia)) to back them up.
+A knight usually has a warhorse, squire and attendants. Like a warrior, he will carry a main weapon and shield into battle and carry a side arm. Knights seldom carry ranged weapons, trusting their heavy armour to protect and squire (stat as [militiaman](#human-militia-level-3)) to back them up.
 
 ___
 ### Human Magic Knight (level 9)
@@ -540,7 +540,7 @@ Travelling over dangerous terrain, will use brigandine (HiT: 17/16/13)
 |Proficiencies|||"Calligraphy" + 2 other kits (or languages), 2 languages, 2 weapons|
 |Skills|||"Spellworking" +5, "academics" +5 and +4 in 2 knowledge, +3 in other 4, "Observe" +3, 1 rank in another 4|
 
-Mages in human society are generally those who have studied spellcraft for decades to unearth and fathom its secrets. A witch who lives at the edge of a remote village, or a court wizard in the capital are probably both mages, albeit with somewhat different specialisations. Some mages learn ["Least Heal"](../08-spell-list.md#least-heal) and ["Cure"](../08-spell-list.md#cure) instead of "Lesser Veil" and "Wind Walk". (For a battle mage see the [Magic Knight](#human-magic-knight) stat block)
+Mages in human society are generally those who have studied spellcraft for decades to unearth and fathom its secrets. A witch who lives at the edge of a remote village, or a court wizard in the capital are probably both mages, albeit with somewhat different specialisations. Some mages learn ["Least Heal"](../08-spell-list.md#least-heal) and ["Cure"](../08-spell-list.md#cure) instead of "Lesser Veil" and "Wind Walk". (For a battle mage see the [Magic Knight](#human-magic-knight-level-9) stat block)
 
 Mages often prefer to avoid combat and situations that lead to severe injury or death, although magic duels may be a different matter entirely.
 
@@ -592,6 +592,7 @@ In combat, a warlock will use stealth (invisibility) to approach close enough to
 
 ___
 ### Human Mage, Arch-mage (level 12)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |11/11/11|58 (*36*)|78 (*45*)|18|30|-|
@@ -1361,6 +1362,7 @@ In combat a mystic warrior prefers hit and run tactics, making good use of its c
 
 ___
 ## Goblins
+
 Goblins are little green humanoids which are cast as villains in many fantasy worlds. They are sly, cowardly and weak, uninventive and petty, greedy and spiteful. Goblin societies are depicted as primitive, unsophisticated and simultaneously unjust and unequal. In certain settings all goblins are male and reproduce only using females of other races (not recommended for most settings). Goblins are often used in low level adventures as monsters that are easy to defeat even for low level characters.
 
 ### Goblin, Common (level 1)
@@ -1464,6 +1466,7 @@ ___
 There is some debate as to whether giants are humanoids, monsters or an entirely different category of mortals. Regardless, giants are not visually much different from ordinary humanoid, apart from their impossible size. Giants stand at least 10ft tall and can reach be much much bigger. Giants, like mortals, eat, drink, sleep and generally age. They are born, reproduce and occasionally die. Giants often live for hundreds or even thousands of years.
 
 ### Ogre
+
 ___
 - **Size**: Large
 - **Natural Armour**: Armour +1
@@ -1556,6 +1559,7 @@ Ogre mages prefer to have others fight for them while they watch from a safe dis
 
 ___
 ### Giant
+
 - **Size**: Huge
 - **Natural Armour**: Armour +4
 - **Saves**: Str, Wis
@@ -1606,6 +1610,7 @@ Contrary to many myths, most giants are neither foolish, nor slow witted. Over t
 
 ___
 ### Giant Warrior
+
 - **Size**: Huge
 - **Natural Armour**: Armour +4
   - + Mithral Chain Mail +7
@@ -1669,6 +1674,7 @@ When facing armies, they will use protective magics to reduce the effects of pro
 
 ___
 ### Colossus
+
 A colossus (or Titan) is to a giant what a giant is to man. It can be as small as 100ft tall, or as tall enough to walk with its head in literal clouds. A colossus in the land of humanoids is worshipped as a god or scorned as a natural disaster. While giants often take interest in the fate of small folks, for a colossus they are often but insects. A colossus is as likely to ignore a lesser mortal as it is to squash it like a bug. A colossus is not a force that ordinary mortals can hope to fight. In most worlds colossi, much like ancient dragons, are either sleeping, sealed or extinct.
 
 What is the purpose of a colossus? What is its goals? What is its nature? That varies from world to world. In some they are the tools the gods used to create the world, in others they are the tools they will use to destroy it. In others still they have a different role entirely.

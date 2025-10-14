@@ -41,6 +41,7 @@ ___
 ### Spell ranges
 
 Spell ranges are designated as "**close**" or "**ranged**".
+
 1. A "**close**" spell, like a melee attack requires direct contact between caster and target. Its range is the caster's reach.
 2. A "**ranged**" spell can have a range of 5ft or higher. It is designated as eg "ranged[60ft]". The base distances are 15ft, 30ft, 60ft, 120ft, 240ft, although spells with greater ranges, especially in the "global" category exist. Global spell ranges can be hundreds of miles or more.
 
@@ -48,6 +49,7 @@ ___
 ### General casting rules
 
 There are a number of general rules pertaining to spellcasting.
+
 1. An entity can only cast ONE spell at a time. If it attempts to cast a second, either both spells dissipate, or the casting ends in spectacular failure. For example trying to cast "Fire Shield" (local) while casting "Resurrection" (global), will result in failure. 
 2. Spells are never truly permanent in the material realm and can be **broken**, **counterspelled**, and **dispelled**. Entities summoned through spells can be **banished**.
 3. Casting "ranged" spells with kinetic components in melee provokes attacks of opportunity.
@@ -74,9 +76,10 @@ ___
 ### Concentration
 
 Spells with an active effect (eg summoning) and non-instantaneous duration usually require the caster to maintain their existence by "**concentrating**" on them. Usually this refers to "local" spells, but some "global" spells also require concentration. This mechanic exists mainly to reduce some of the unbalanced nonsense found in certain other systems. Concentration has the following rules:
+
 1. A caster can NEVER concentrate on more than one spell.
 2. If concentration is broken, the spell dissipates or fails spectacularly. Either way its effects end.
-3. A ["disabled"](10-conditions-types.md#disab) (or so implied) entity cannot concentrate.
+3. A ["disabled"](10-conditions-types.md#disabled-states) (or so implied) entity cannot concentrate.
 4. A concentration save is a special save calculated as Concentration Bonus = [[Wis]/2 + [Int]/2 + [Nat]]. (A caster's ability to focus depends on mental acuity, connectedness as well as, strangely enough, physical condition and training).
 5. Concentration can be disrupted by taking damage (threshold = 12 or 1/2 damage taken, whichever is higher).
 6. Concentration can be disrupted by ["vigorous motion"](03-movement-exploration.md#vigorous-motion) (threshold = 12), violent weather (threshold = 12) or both (threshold = 16).
@@ -108,6 +111,7 @@ ___
 "**Counter-spelling**" is interfering with the casting of a local spell through magical means, hence causing it fail. "**Dispelling**" is the permanent removal of a local spell through magical means. "**Banishing**" is the dismissal of summoned entities to whence they came. "**Breaking**" is the permanent removal of a global spell either by meeting its ending condition, use of spellworking or exceptionally powerful local magic.
 
 **Counter-spelling**: Any spellcaster with at least 9 MP dice total can counter-spell. You can only counter-spell magics from the same or opposite type (see table above). In order to counter-spell, you must be within 10ft x [MP dice] being used to counter-spell of the target caster. Counter-spelling magics of the same type is done at disadvantage. The steps are as follows:
+
 1. Declare "preparing to counter-spell" on your turn and use your "secondary action" to watch for spellcasters. Declare the number of MP dice you are preparing for this (minimum of 3).
 2. When a spell is being cast, but before its effects take place, identify that it is with a ["Knowledge: Arcana"](05-skills.md#knowledge) roll.
 3. If the spell belongs to the same type or opposite type of local magic, use your reaction and declare "counter-spell".
@@ -116,6 +120,7 @@ ___
 6. If you meet or beat the threshold, the spell fails (maybe even catastrophically).
 
 **Dispelling**: Any spellcaster with at least 11 MP dice total can dispel. You can only dispel magics of a type that you are capable of casting. In order to dispel you must be within 10ft x [MP dice being used to dispel the effect] of the effect and you must be able to see it. Thus you must have senses that can detect it (eg using "See Spell" or "See Unseen"). If you cannot "see" the spell you can still dispel magic if you are within its area of effect. The steps for dispelling are as follows:
+
 1. Identify the spell using ["Knowledge: Arcana"](05-skills.md#knowledge).
 2. Declare "dispel" as a "main action" and how many MP dice you are using to dispel.
 3. Pay the declared MP dice cost.
@@ -123,10 +128,12 @@ ___
 5. If you succeed on the roll, the spell ends, if you do not, it persists.
 
 **Banishing**: Summoned entities are not dispelled in quite the same way as spells. There are two ways of dealing with them.
+
 1. Dispelling as normal, but only by casters who have spells with the "summon" descriptor or the "Bind Familiar" or "Bind Beast" ability.
 2. By a "spellworking" roll to "disimbue" the summon, but only after the effect has been identified by ["Knowledge: Arcana"](05-skills.md#knowledge).
 
 **Breaking Global Spells**: Global spells can be dispelled by any caster that has at least 11 MP dice. A dispelling character must be inside the area of effect, or adjacent to the area of effect of the spell for the whole duration of breaking in order to break it.
+
 - Dispelling can be done by the basic ["Spellworking"](05-skills.md#spellworking) rules and in accordance with the time required by the original caster's threshold. In order to do this, a character must first succeed on a ["Knowledge: Arcana"](05-skills.md#knowledge) roll to identify the spell.
 - Alternatively a character can "force" the breaking by forcing their own MP into the spell. In this case, no knowledge roll is required, however, the character expends [[original caster's MP dice used in casting the spell] - [dispelling character's "Knowledge:Arcana" skill bonus]] MP dice when making the attempt. If this leads to their MP dice count reaching 0, the dispelling character must succeed a CHA save or fall unconscious as per the "special" clause of the ["Spellworking"](05-skills.md#spellworking) rules.
 
@@ -177,6 +184,7 @@ ___
 
 A character can know any number of spells. However, a character can only have a limited number of spells ready. A character decides last thing before sleeping which spells to bring ready for the next day. The number of spells a character can ready [Int + [MP dice total]] spells at any one time. The first ten "MP 0 spells" do not count against this limit.
 
+___
 #### Spells gained from levels in "spellcasting" ability
 
 Characters learn a few spells every time they gain a level in one of the "Spellcasting" abilities. A character can also learn spells by independent study, apprenticeship or gifting. As a rule, elemental and natural spellcasting grant more spells on learning the ability, but are harder to learn outside of that. On the other hand kinetic and incantation spellcasting grants fewer spells, but allows extra spells to be learned more easily. This is described in th table below and in the ["7 types of magic"](07-magic-and-spellcasting.md#the-7-types-of-magic) subchapter.
@@ -193,16 +201,19 @@ Notably, for the first time that a character gains a "Spellcasting" ability of a
 |Kinetic          |1 (3)|2|
 |Nature           |2 (2)|2|
 
-#### learning spells through independent study or from a mentor.
+___
+#### learning spells through independent study or from a mentor
 
 The base time to learn a spell through personal research is 108 days per MP dice cost of a spell (for global spells this is the "per day" cost). A character with access to suitable environment and resources may use academics to reduce the time (see ["Academics"](05-skills.md#academics)). The rate per MP dice become (108 - ["academics" roll]) to a minimum of 64 days per MP dice. For higher level spells, independent research is incredibly time consuming, and a sage might have spent a lifetime to uncover a single new global spell.
 
 The more common way to learn spells is to learn from an entity that already has the spell, a mentor so to speak. If you are learning from a mentor, the process is a lot faster, as you are transferring skills and knowledge that already exists, as opposed to unearthing new spells. For elemental and nature spells the base rate is 108 hours per MP dice cost of a spell. For incantation and kinetic spells the base rate is 64 hours. This time can be reduced with a "academics" roll from the "apprentice" and a "knowledge:arcana" roll from the mentor. The final time cost per MP dice cost is [base rate - ["academics" roll] - ["arcana" roll]]. Regardless of the result, this cost cannot be reduced to lower than 20 hours (aka 2 days) per MP dice cost for elemental and nature magic, or 10 hours (aka 1 day) per 2 MP dice cost for incantation and kinetic magic.
 
+___
 #### Spell transfer
 
 Certain spells, such as ["Pact"](08-spell-list.md#pact), ["Mage's Oath"](08-spell-list.md#mages-oath), ["Isolate Essence"](08-spell-list.md#isolate-essence) and ["Memory Thief"](08-spell-list.md#memory-thief) allow knowledge, skills and spells to be exchanged almost instantaneously between entities. However these spells carry a high cost. More importantly, the entity imparting the spell loses it from their spells known, and there are few who would agree to such a transfer without substantial recompense.
 
+___
 #### MP 0 spells
 
 These spells use so little energy to cast, that they do not use MP. Casting them does not cause exertion. For the sake learning spells they count as taking half as long as spells that cost 1 MP dice. These spells are so simple that the first ten of these do not count against readied spell limit. MP 0 spells ALWAYS have a base casting time of "main action".
@@ -222,42 +233,49 @@ Beyond "local" and "global" spells are divided into 7 types:
 
 Element and nature magic is "domain" based, and the the spells that fall into these magics are associated with a domain. Incantation and kinetic magic is "method" based, and are distinguished by how a spell is cast. A specialist spellcaster often learns between two and four types of magic to some level of proficiency. Spell-swords on the other hand will often get away with one or two.
 
+___
 ### Elemental (Air)
 
 Spells of this type are associated with elemental air. All and any spells with the "air" descriptor are on this spell list. They are associated with the "shear" and "lighting" damage types and "paralysed", "stunned", "prone" and "crippled" conditions.They are often used for travel, gathering information and controlling weather, but also have combat uses.
 
 For every level of Spellcasting: Elemental(Air), a character learns 2 compatible spells. On taking Elemental(Air) I a character also gains 2 MP zero spells of the "air" descriptor.
 
+___
 ### Elemental (Earth)
 
 Spells of this type are associated with elemental earth. All and any spells with the "earth" descriptor are on this spell list. They are associated with all physical damage types and the "restrained", "grappled", "prone", "crippled", and "bleeding" conditions. It is generally used for fortification and agriculture. At the first level it learns 3 zero-level spells.
 
 For every level of Spellcasting: Elemental(Air), a character learns 2 compatible spells. On taking Elemental(Earth) I a character also gains 2 MP zero spells of the "earth" descriptor.
 
+___
 ### Elemental (Fire)
 
 Spells of this type are associated with elemental fire. All and any spells with the "fire" descriptor are on this spell list. They are associate with "fire" damage and the "incapacitated", "catatonic", "frightened" and "blinded". It is often used in cooking, smelting and similar disciplines, as well as  and of course warfare.
 
 For every level of Spellcasting: Elemental(Fire), a character learns 2 compatible spells. On taking Elemental(Fire) I a character also gains 2 MP zero spells of the "fire" descriptor.
 
+___
 ### Elemental (Ice)
 
 Spells of this type are associated with elemental water and ice. All and any spells with the "water" and "ice" descriptors are on this spell list. They are associated with "ice", "piercing" and "pressure" damage. It is typically used in seaborne travel and agriculture.
 
 For every level of Spellcasting: Elemental(Ice), a character learns 2 compatible spells.  On taking Elemental(Ice) I a character also gains 2 MP zero spells of the "ice" descriptor.
 
+___
 ### Incantation
 
 Incantation magic covers a wide range of spells whose effects are activated by song or chant. Incantation magic covers all spells with no "kinetic" component. Spells cast through incantation spellcasting cannot be affect by "aphonic spell". Typically summoning spells and close combat spells are compatible with incantation magic.
 
 For every level of Spellcasting: Incantation, a character learns 1 compatible spells. On taking Incantation I a character also gains 3 compatible MP zero spells.
 
+___
 ### Kinetic
 
 Kinetic magic covers a wide range of spells whose effects are activated by a precise and well defined series of motions. Kinetic magic covers all spells with no "incantation" component. Spells cast through kinetic spellcasting cannot be affected by "stilled spell". Kinetic components seem to increase the potency of a spell, therefore spells which are not constrained by other considerations (eg close combat spells), tend to use kinetic components and be compatible with this type of magic.
 
 For every level of Spellcasting: Kinetic, a character learns 1 compatible spell. On taking Kinetic I a character also gains 3 compatible MP zero spells.
 
+___
 ### Nature
 
 Nature magic covers all nature related spells. All spells of "winter", "spring", "summer", "autumn" and "seasonal" fall within this category. They are not associated with any particular damage type or condition. It is used in any sphere associated with nature. Unlike other types of spellcasting, nature magic does not have an opposite spell type. 

@@ -21,7 +21,8 @@
         - [Size category](#size-category)
         - [Movement modalities](#movement-modalities)
     -  [Character level and Base](#character-level-and-base)
-        - [Leveling up](#leveling-up)
+        - [Levelling up](#levelling-up)
+        - [Level points and abilities](#level-points-and-abilities)
         - [Base](#base)
     -  [Stats](#stats)
         -  [Stat assignment](#stat-assignment)
@@ -236,7 +237,7 @@ Template is a set of attributes, usually attributed to race or species, that is 
 
 ___
 #### Size category
-Size categories [diminutive, tiny, small, medium, large, huge, gargantuan, colossal] affect how much space an entity takes up on (and off) a battlefield, its reach, its AC, and potentially other things. Size rules are described in the ["Size Rules"](#size-rules) section below.
+Size categories [diminutive, tiny, small, medium, large, huge, gargantuan, colossal] affect how much space an entity takes up on (and off) a battlefield, its reach, its AC, and potentially other things. Size rules are described in the ["Size Rules"](#size-rules-table) section below.
 
 ___
 #### Movement modalities

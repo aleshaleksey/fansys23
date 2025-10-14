@@ -10,8 +10,8 @@ This section covers which skills exist and how they are used.
     - [Circumstance bonus](#circumstance-bonus)
     - [Assisting and Circumstance bonuses](#assisting-and-circumstance-bonuses)
     - [Skill groups](#skill-groups)
-2. [Skill and Proficiency Lists](#skill-and-proficiency-lists)
-    - [Skills list](#skills-list)
+2. [Skills list](#skills-list)
+3. [Proficiency Lists](#proficiency-lists)
     - [Language Proficiencies](#language-proficiencies)
     - [Tool Proficiencies](#tool-proficiencies)
     - [Armour Proficiencies](#armour-proficiencies)
@@ -24,6 +24,7 @@ This section covers which skills exist and how they are used.
     - [WIS Based](#wis-based)
     - [CHA Based](#cha-based)
 4. [Optional Suggested Assisting Skills](#optional-suggested-assisting-skills)
+
 ___
 ## Skills and Proficiencies
 
@@ -245,7 +246,7 @@ ___
 Each skill has a number of described uses. However, the list is generally not exhaustive and additional uses should be discussed within the group. For each skill there are two important questions:
 
 1. Can an entity try the roll again, and what are the consequences? If the answer is not "yes", then one cannot "take 20" or "take 24" in that skill.
-2. Can an entity "take care" in that skill or not under appropriate circumstances (see  ["Take Care"](02-base-rules.md#taking-24))?
+2. Can an entity "take care" in that skill or not under appropriate circumstances (see  ["Take Care"](02-base-rules.md#taking-24-taking-13-auto-failure-and-voluntary-failure))?
 
 ___
 ### STR Based
@@ -483,7 +484,7 @@ Stealth is the art and technique of hiding your presence and remaining, and movi
   - An entity that has "stealthed" and makes a targeted attack or basic combat manoeuvre "breaks" stealth and reveals itself. 
 - **Modifiers**: Most of the modifiers are on the observing side. However there are a couple:
   - Armour penalty (Dex rating) affects all Dex based skills, but is especially pertinent here.
-  - Size modifier to "Evasion" also applies to stealth rolls (see ["Size rules"](02-base-rules.md#size-rules)).
+  - Size modifier to "Evasion" also applies to stealth rolls (see ["Size rules"](02-base-rules.md#size-rules-table)).
   - Moving at full speed when trying to maintain stealth forces a reroll of the stealth with disadvantage.
 - **Special**: 
   - An entity usually needs at least "heavy" concealment to use the stealth skill (otherwise the roll automatically fails).
@@ -639,7 +640,7 @@ There are 6 knowledge skills in the game. Each represents various subsets of kno
     - Identify monstrous creature or construct: [4 + Total dice / 2]
       - Special: for every 4 points over the identification threshold, the character gains an extra piece of information about the creature.
     - Identify hazard: [terrain + weather] or [threshold of creation].
-    - Identify material/dweomer in such a zone: See ["Appraise"](#Appraise).
+    - Identify material/dweomer in such a zone: See ["Appraise"](#appraise).
     - Identify structure of zone: [terrain + weather] + 5.
   - **Geography**: Geography and geology. Including, know geography and geology of a region. Identify landmarks. Identify regional belonging of an entity from its outwards traits and behaviour.
   - **History**: Know the history of a region, item or civilisation. Know obscure historical events of significance. Know power structure of a country and know details of past and present rulers. Remember what you did two sessions ago if you forgot to make notes.
@@ -647,7 +648,7 @@ There are 6 knowledge skills in the game. Each represents various subsets of kno
     - Identify natural entity: [4 + total dice / 2]
       - Special: for every 4 points over the identification threshold, the character gains an extra piece of information about the creature.
     - Identify phenomenon, hazard or cycle: [terrain + weather bonus]
-    - Identify natural materials: See ["appraise"](#Appraise).
+    - Identify natural materials: See ["appraise"](#appraise).
   - Religion: Know about gods, supernatural beings and religious practices.
     - Identify supernatural being: [4 + Total dice / 2].
 - **Special**: Identifying beings by setting thresholds based on "Total dice" can get silly. Most people would know a dragon when they see one. As such general knowledge threshold can be used instead.

@@ -819,7 +819,7 @@ ____
 **Upcast**: Target regains an extra HP per extra MP die above 1, to a maximum of 3. No extra effect on undead.
 
 ___
- ### Lesser Illusory Self
+### Lesser Illusory Self
 
 |Name|Lesser Illusory Self [Air, Illusion, Kinetic, Spring, Water, Winter]|
 |-|-|
@@ -1990,7 +1990,7 @@ ___
 **Global**: The caster gives a locus the blessing of the winds. Within 100ft of that spot rolls made by entities that are not hostile to the caster receive this blessing. For every 2MP dice above 6 the radius of the spell increases by 100ft, or the duration increases by a week.
 
 ___
- ### Illusory Self
+### Illusory Self
 
 |Name|Illusory Self [Illusion, Kinetic, Water, Winter]|
 |-|-|
@@ -2532,7 +2532,7 @@ If the detection spell is cast at a higher MP dice cost (level) than "False Aura
 **Global**: The spell instead affects a volume with a radius of 120ft, centred on a point on the ground or a stationary object. Likewise it lasts for 4 months. For every 2 MP dice above 8, either the radius increases by 120ft, or the duration increases by 4 months.
 
  ___
- ### Forbiddance
+### Forbiddance
 
 |Name|Forbiddance [Barrier, Kinetic]|
 |-|-|
@@ -3011,7 +3011,7 @@ ___
 (blink speed = 12+13)
  
  ___
- ### Flare
+### Flare
 
 |Name|Flare [Light, Fire, Kinetic, Summer]|
 |-|-|
@@ -3577,7 +3577,7 @@ ___
 In addition, the caster can designate any number of entities as "protected". These can meld through the barrier as a move action. In addition:
 - All "protected" entities in contact with the ground gain +20ft to their movement speed.
 - Any "unprotected" entity that attempts to cross the barrier must succeed a CON save or become "poisoned".
-- Any "unprotected" entity in contact with the ground treats the area within the barrier as ["Difficult Terrain"](#difficult-terrain).
+- Any "unprotected" entity in contact with the ground treats the area within the barrier as ["Difficult Terrain"](03-movement-exploration.md#difficult-terrain).
 
 **Special**:
 - If the attack is a rectilinear effect and the barrier crosses its path, the target is affected as if it is inside the barrier.
@@ -3634,7 +3634,7 @@ Ranged weapons attacks against entities inside the spell (including thrown objec
 Furthermore the caster specifies any number of entities as "protected" at the casting of the spell. This determines how other aspects of the spell interact with them.
 - All unprotected targets that try to enter the area of effect of the spell (or are in the area when the spell first activates) must succeed on a STR save or be flung 50ft outwards from the point of contact, and suffer 3d12 sheer damage.
 - All unprotected entities (and structures) which are in the warded area at the start of their turn must succeed on a STR save take 3d12 sheer damage (half on failure).
-- All unprotected entities treat the area as ["Difficult Terrain"](#difficult-terrain), and flying entities are affected as by [extreme wind](#flying-and-turbulence).
+- All unprotected entities treat the area as ["Difficult Terrain"](03-movement-exploration.md#difficult-terrain), and flying entities are affected as by [extreme wind](03-movement-exploration.md#flying-and-turbulence)).
 - All protected entities have resistance to damage from ranged weapons, to pressure damage and lighting damage.
 - Effects caused by area of effect "air"/"wind" spells of an equal or lower level that do not require an attack roll are excluded from the spell's area of effect. 
 
@@ -3675,7 +3675,7 @@ The spell affects protected entities within its area as follows:
 
 The spell affects unprotected entities within its area as follows:
 - When attempting to enter the area, the entity must succeed a [CON] save or be "immobilised".
-- When in the area, it has disadvantage on attack rolls and treats the area as ["Difficult Terrain"](#difficult-terrain).
+- When in the area, it has disadvantage on attack rolls and treats the area as ["Difficult Terrain"](03-movement-exploration.md#difficult-terrain).
 
 **Special**:
 - Any entities aligned with "fire" can only enter (or leave) the area if they succeed a CHA save.
@@ -4359,7 +4359,7 @@ ___
 ## MP 9 Spells
 3+(2+10)x9/2=3+12x9/2=3+6x9= 57
 
- ### Earthquake
+### Earthquake
 
 |Name|Earthquake [Destruction, Earth]|
 |-|-|
@@ -4523,7 +4523,7 @@ Ranged weapons attacks against entities inside the spell, those made across the 
 
 In addition the following effects apply inside the spell:
 - All corporeal entities of size "Large" and smaller within the spell automatically count as restrained and are moved up to 50ft within the spell as the caster wishes. Larger entities may make a CON save to avoid the effect. In either case an entity thus affected may attempt a STR save at the start of its turn to break free. When it does, it is flung to outside the nearest edge of the spell, landing prone and taking 50ft sheer damage.
-- All entities that are not restrained move at 1/4 speed within the spell's area of effect and flying entities are affected as by [extreme wind](#flying-and-turbulence).
+- All entities that are not restrained move at 1/4 speed within the spell's area of effect and flying entities are affected as by [extreme wind](03-movement-exploration.md#flying-and-turbulence)).
 - Upon entering the area of effect of the spell, all entities that do not succeed on a CON save are considered aphonic and blind until they leave the area.
 - Every round the caster can choose an area with a column with a radius of 30ft within the spell for one of the following effects:
   - Lightning bolts strike the area, causing 4d8+[SUP] lightning damage to all entities in the area (DEX save half).
@@ -4534,7 +4534,7 @@ In addition the following effects apply inside the spell:
 **Global**: The spell has a radius of 2000ft and a height of 1 mile. It lasts for 2 hours. Adding an extra 4MP dice increases the radius by 1000ft.
 
 ___
- ### Wave
+### Wave
 
 |Name|Wave [Spring, Travel, Water, Winter]|
 |-|-|
@@ -4604,7 +4604,7 @@ Furthermore, when the spell ends and/or the deity leaves the avatar the mortal/c
 **Global**: The spell lasts for as long as the vessel inhabited by the deity is not destroyed and the deity wishes to remain in it (but at least a week). Likewise, the avatar only takes the unavoidable damage when it takes a "main action" or "full round action".
 
 ____
- ### Edict of Life
+### Edict of Life
 
 |Name|Edict of Life [Curse, Healing, Nature]|
 |-|-|
@@ -4646,7 +4646,7 @@ ____
   - For the next thousand years, "profanes" are attracted to the affected area.
 
 ____
- ### Gift of the Winds
+### Gift of the Winds
 
 |Name|Gift of the Winds [Air, Spirit, Travel]|
 |-|-|
@@ -4764,7 +4764,7 @@ ____
 **Global**: Realises the Realm of Flame onto the caster's current location. The radius is 1 mile. For every extra 4MP the radius increases by 200ft and the height increases by 10ft and the damage increases by 2d8.
 
 ____
- ### True Geomancy
+### True Geomancy
 
 |Name|True Geomancy [Divine, Earth]|
 |-|-|
@@ -5133,38 +5133,31 @@ ____
     - [Fairy Feast](#fairy-feast)
     - [Summon Elemental](#summon-elemental)
     - [Spirit Restoration](#spirit-restoration)
-    - []()
 - Air
     - [Greater Freedom](#greater-freedom)
     - [Greater Storm Ward](#greater-storm-ward)
     - [Razor Wind](#razor-wind)
     - [Summon Elemental](#summon-elemental)
-    - []()
 - Earth
     - [False Regrowth](#false-regrowth)
     - [Greater Earth Ward](#greater-earth-ward)
     - [Summon Elemental](#summon-elemental)
-    - []()
 - Fire
     - [Forest of Flame](#forest-of-flame)
     - [Summon Elemental](#summon-elemental)
     - [Madness](#madness)
-    - []()
 - Water
     - [False Regrowth](#false-regrowth)
     - [Greater Freedom](#greater-freedom)
     - [Inner Voice](#inner-voice)
     - [Great Water Ward](#great-water-ward)
-    - []()
 - Incantation
     - [Fairy Feast](#fairy-feast)
     - [Razor Wind](#razor-wind)
     - [Spirit Restoration](#spirit-restoration)
-    - []()
 - Kinetic
     - [Inner Voice](#inner-voice)
     - [Madness](#madness)
-    - []()
 - Other
     - [Forced Possession](#forced-possession)
     - [Legion of Dead](#legion-of-dead)
@@ -5227,17 +5220,15 @@ ____
     - [Mandate of the Deep](#mandate-of-the-deep) [10]
 - Incantation
     - [Mage's Oath](#mages-oath) [9]
-    - []()
 - Kinetic
     - [Fairy Ball/Masquerade](#fairy-ballmasquerade) [9]
 - Other
     - [Avatar](#avatar)[10]
     - [Undying Realm](#undying-realm) [10]
-    - []()
 
 ___
  
- ### Innocence
+### Innocence
 
 |Name| []|
 |-|-|
@@ -5254,7 +5245,7 @@ ___
 |Save||
  
 
- ### Ignorance
+### Ignorance
 
 |Name| []|
 |-|-|
@@ -5278,7 +5269,7 @@ ___
  
 
  
- ###
+###
 |Name| []|
 |-|-|
 |Scope||

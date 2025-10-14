@@ -59,7 +59,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Flurry](#flurry)
 - [Great Strike](#great-strike)
 - [Greater Manoeuvre (I-V)](#greater-manoeuvre-i-v)
-- [Guardian's Counterstrike](#guardian's-counterstrike)
+- [Guardian's Counterstrike](#guardians-counterstrike)
 - [Precision Attack (I-X)](#precision-attack-i-x)
 - [Steel Wind Strike](#steel-wind-strike)
 - [Swift Shield Bash](#swift-shield-bash)
@@ -2150,7 +2150,7 @@ ___
 
 **Benefits**: 
 - You have resistance to [possessed](10-conditions-types.md#possessed), and thus advantage on saves against a spirit entering their body, and taking control of their body.
-- You can make ["observe"](05-skills.md) rolls at a -5 penalty when asleep (instead of a -10 penalty).
+- You can make ["observe"](05-skills.md#observe) rolls at a -5 penalty when asleep (instead of a -10 penalty).
 
 **Special (drawbacks)**:
 - The second soul is considered to be same level as the character's and counts against the limit of foreign souls for the sake of [losing SP dice due possession](10-conditions-types.md#possessed).

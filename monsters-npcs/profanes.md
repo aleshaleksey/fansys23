@@ -1,6 +1,6 @@
-## Index
+# Profanes
 
-- [Undead](#profane-undead)
+- [Undead](#undead)
   - [Undead: Corporeal](#undead-corporeal)
     - [Corporeal Horror, Lesser](#corporeal-horror-lesser)
     - [Corporeal Horror, Greater](#corporeal-horror-greater)
@@ -22,8 +22,8 @@
   - [Fiendish Warrior](#fiendish-warrior)
   - [Demon](#demon-fire-or-ice)
   - [Unicorn, Black](#unicorn-black)
-  - []()
 
+___
 ## Undead
 
 Undead are mortals that died but failed to move on. They are cursed by creation and driven to destroy or oppose it in some way. Undead do not breath, sleep. They are vulnerable to "divine" damage. However they are immune to "disease", "unconscious", "dying", "stunned", "charmed", "frightened" and "paralysed" and "resistant" to "physical" damage.

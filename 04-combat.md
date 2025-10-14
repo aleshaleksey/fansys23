@@ -414,7 +414,7 @@ Any square within the reach of a hostile entity's melee attacks is considered th
 ___
 ### Occupied area and hostile squares
 
-Characters of different sizes take up a different number of squares (see the [Size rules table](02-base-rules.md#size-rules)). For example, a medium sized character occupies 1 square (5 x 5 feet). Moving through an occupied square counts as squeezing (see below).
+Characters of different sizes take up a different number of squares (see the [Size rules table](02-base-rules.md#size-rules-table)). For example, a medium sized character occupies 1 square (5 x 5 feet). Moving through an occupied square counts as squeezing (see below).
 
 An squares occupied by a hostile entity are known as **hostile squares**. In combat a character cannot freely move through hostile squares unless the entity occupying them is [disabled](10-conditions-types.md#disabled-states). The character may move through hostile squares by one of the following methods:
 
@@ -431,7 +431,7 @@ An entity can move through spaces less than its size. In general this is up to h
 ___
 ### Creature sizes, reach and combat
 
-Size is, amongst other things, a measure of how much space an entity occupies. This affects various combat parameters and can be seen in the [Size rules table](02-base-rules.md#size-rules). Tiny and diminutive entities that have a reach of 0ft must occupy the same square as their target to make the attack.
+Size is, amongst other things, a measure of how much space an entity occupies. This affects various combat parameters and can be seen in the [Size rules table](02-base-rules.md#size-rules-table). Tiny and diminutive entities that have a reach of 0ft must occupy the same square as their target to make the attack.
 
 Likewise entities that are separated by at least two categories (eg Diminutive and medium, medium and gargantuan, large and colossal, small and colossal) can usually occupy the same space without penalty. Although the DM may ask for Dex saves from the smaller entity (threshold=NAT+Str of the bigger entity) on the turn of the bigger entity, lest the smaller entity be knocked "prone".
 
@@ -511,7 +511,7 @@ As a rule, characters only provoke attacks of opportunity when moving through/ou
 A character with the ["Guarded"](06-abilities.md#guarded) ability does not provoke attacks of opportunity when drinking potions or standing up.
 
 ___
-#### Causality and attacks of opportunity.
+#### Causality and attacks of opportunity
 
 The attack of opportunity is made after the provoking action. It begins before the provoking action is resolved, but, as a rule, resolves after the provoking action. There are exceptions to this rule:
 - If the target is moving out of a threatened square, the attack is resolved before the movement is completed (think of it as being hit by an attack that is in progress).
@@ -578,7 +578,9 @@ This is a collection of unsorted rules related to basic physical combat.
 - Ranged attacks cannot be made non-lethal unless otherwise stated in for a specific type of ranged attack.
 - Supernatural attacks are generally lethal, unless otherwise stated for the specific attack. Optionally, a group may rule that it may be made non-lethal with a [spellworking](05-skills.md#spellworking) roll (Threshold = **20 + [MP dice used]**).
 
+___
 #### Basic Martial Manoeuvres
+
 Any combatant may attempt a martial manoeuvre. If a combatant is not proficient in a given manoeuvre, they take a -5 penalty to the attack roll. They might also risk attacks of opportunity and other penalties. All combatants are considered proficient in the "attack" manoeuvre (but not necessarily with the weapons used to make an attack). Many monsters can carry out these manoeuvres without penalties or meeting the prerequisites. Special abilities and weapons/tools can reduce or remove penalties for manoeuvres or increase their effectiveness. Most manoeuvres are made as an attack within the attack action.
 
 - The penalty for using a manoeuvre or attack without proficiency, if there is one, is -5 to the roll.
@@ -647,6 +649,7 @@ A creature that is "grappled" or "restrained" can make an opposing roll in place
 
 ___
 ## Spellcasting and Supernatural abilities
+
 - Abilities and phenomena that would not exist in a mundane world, that cannot be explained adequately by "scientific" means are supernatural, otherwise called magical.
 - The supernatural can be caused by divine, profane or spiritual sources.
 - Supernatural abilities target MP, are fueled by MP dice.

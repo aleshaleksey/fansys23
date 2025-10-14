@@ -29,7 +29,7 @@
 
 This chapter discusses resources, basic fantasy economy and item/equipment prices. Most "adventurers" need equipment, weapons and supplies in some shape and form, so they are covered here.
 
----
+___
 
 ## Economy and economies
 
@@ -37,25 +37,25 @@ We assume that the settings that will be used with this system might range from 
 
 Of course if a group has its own setting, then why not have your own list?
 
----
+___
 
 ### Ancient Setting
 
 In this kind of setting some sorts of knowledge may well be very well developed (Rome, Egypt, China are good examples of this), but population densities are generally are quite low, working of iron is limited and poorly developed. On the other hand slavery is generally widespread, so labour costs can be minimal for manual labour. Weapons and armour are somewhat "simple" although arguably this is more related to suitability rather than lack of ability to make something more complex. The world is not mapped, and much of it is ruled by monsters, spirits and other strange forces. Gods and demons might walk the world. At the same time there might be few ruins of previous civilisations.
 
----
+___
 
 ### Early Medieval and Dark ages
 
 This is a classical dark adventuring setting. Many fields of knowledge, sciences for example, are lost. There many ruins of fallen empire. The population density is low. Possibly much of the population is bound in serfdom, keeping labour costs low. On the hand iron-work develops to a higher level, so heavy armour and weapons designed to overcome it begin to develop. Much of the world is not mapped and there are many ruins of civilisations that have been lost to time. Monsters and spirits are still rampant.
 
----
+___
 
 ### Late, renaissance and industrial age
 
 This is the usual "adventuring guilds" settings. All kinds of weapons and armours are available. Some have become obsolete (under some situations). Firearms become available. Techniques of extracting resources and crafting become very efficient, and all kinds of sciences flourish. Labour costs are high, but productivity of labour also increases due to advanced techniques and industrialisation. Population densities are generally high. Most of the world has been at least crudely mapped. Most ruins have been found and at least some are explored. It is possible that monsters and other "inhuman" forces have retreated (but who knows?).
 
----
+___
 
 ### The Supernatural Economy
 
@@ -65,7 +65,7 @@ As an example, a society with many nature mages would likely see the cost of agr
 
 The tables here do not take this into account, and assume that users of supernatural abilities are not common enough to affect prices and availability of most goods. That said, there are no mechanistic limitations on how common this kind people are in a game world, and a gaming group should keep this in mind when creating a fantasy world.
 
----
+___
 
 ### Currency
 
@@ -91,7 +91,7 @@ By default, this game uses an anachronistic mix of modern pound (lb) measurement
 
 More importantly, the lists will give a cost in "days of labour", which are equivalent to 12 man-hours. Often, in a world where everything is made by hand and not always stockpiled, the labour availability is more important than the material or currency cost.
 
----
+___
 
 ### Labour costs and crafting times
 
@@ -99,7 +99,7 @@ Crafting costs are a sum of the labour cost and the material costs. Labour costs
 
 See [below](#labour-costs) for the actual labour cost table.
 
----
+___
 
 ### Materials
 
@@ -109,6 +109,7 @@ Materials come in a hierarchy of hardness/quality. Materials higher on the scale
 
 Materials have an absolute rank. Absolute rank is important for the "sunder" manoeuvre rules. The highest rank is 0. If the weapon used when performing the "sunder" manoeuvre is made of a "lower ranking material, the total amount of damage is reduced by 1, and the weapon making the attack takes 1 point of damage. If the weapon used in the attack is made of "higher" materials, the amount of damage is 2 per damage dice of the attacking weapon instead of 1.
 
+___
 #### Material types
 
 As a rule, each item of equipment can be made of materials of the same kind, but of different grades and maintain effectiveness. For example, metal swords (tungsten/adamantium, titanium/mithral, steel, iron, bronze) will all be effective to an extent, but a wooden sword is likely to be as effective as a glorified club. The types of material are classified as: cloth, hide, bone, ivory, wood, resin, ceramic, stone and metal. For simplicity, the following categories can be sensibly unified.
@@ -118,6 +119,7 @@ As a rule, each item of equipment can be made of materials of the same kind, but
 - **Hard**: Ivory, ceramic, stone.
 - **Metallic**: Metals.
 
+___
 #### Material level
 
 Material level is classified from one I to V. Level I materials make equipment that performs and costs as per base statics. Higher level material give a higher durability, give a higher attack/damage/armour/shield bonus, but also take longer to craft and are generally more expensive or simply unobtainable in some situations. Some higher grade materials can have other benefits or even disadvantage.
@@ -162,7 +164,7 @@ This table contains a basic list of materials. This can, and should, be expanded
 | 19            | Cotton                 | 2     | Soft: Cloth     |                                                                                  |
 | 20            | Wool                   | 1     | Soft: Cloth     |                                                                                  |
 
----
+___
 
 ## The lists
 
@@ -176,7 +178,7 @@ If the time is "ancient", crafting times for mostly metal items is x2 the base t
 
 Importantly crafting time can be shared between several artisans. Thus if an item has a listed crafting time of "100 days", then ten artisans can usually craft it in 10 days.
 
----
+___
 
 ### Weapons
 
@@ -231,7 +233,7 @@ See the ["weapons properties table"](11-weapons-armour.md#weapon-table) for deta
 | Blunderbuss     | 6           | 440       | 60                  | 24            | no        | no         | rare/yes |
 | Gunblade        | 2           | 400       | 20                  | 24            | no        | no         | rare     |
 
----
+___
 
 ### Ammunition
 
@@ -244,7 +246,7 @@ See the ["weapons properties table"](11-weapons-armour.md#weapon-table) for deta
 | Sling Bullet(24)                  | 2.4         | 1         | 0.5           | yes       | yes        | rare   |
 | Bullets & Powder(20)              | ?           |           |               | no        | no/rare    | yes    |
 
----
+___
 
 ### Armour
 
@@ -269,7 +271,7 @@ See the ["armour properties table"](11-weapons-armour.md#the-armour-table) for d
 | Heavy Shield    | 10          | 90        | 50                 | 5             | yes       | yes        | rare     |
 | Tower Shield    | 20          | 150       | 100                | 6             | yes       | yes        | rare     |
 
----
+___
 
 ### Labour Costs
 
@@ -310,7 +312,7 @@ Labour costs are given in silver (sp) per day (10-12 hours). Labour that does no
 
 **Mage**: This refers to any spell caster that has level 3 or higher spellcasting. Mages can often be persuaded to perform services, usually in ritual casting, if they believe it is worth their while. The cost is generally high, and more often than not, it is not paid in gold or silver. Most mages are loathe to enter combat, but are not necessarily adverse to exploration.
 
----
+___
 
 ### Upkeep
 
@@ -331,7 +333,7 @@ This table is for medium sized humanoids. For every increase in size category, u
 | scribe/priest          | 4       | 6        | 10   |
 | magistrate             | 6       | 6        | 20   |
 
----
+___
 
 ### Resources
 
@@ -348,9 +350,9 @@ This table provides some numbers for how much of a resource one can expect to ha
 
 **Wheat**: Yield is per acre. Usually 1g of seeds was sown for 12-100g of harvest. Lower yield in earlier ages were associated with higher yields of straw which is also an important material. You need about half a dozen peasants for 10 acres.
 
----
+___
 
-### Common Consumeables
+### Common Goods
 
 
 | Item                  | weight (lb) | Cost (sp) | Notes |
@@ -402,7 +404,7 @@ This table provides some numbers for how much of a resource one can expect to ha
 
 **NB**: The prices for fantastic materials are *especially* speculative. Especially in connection with the difficulty of obtaining rare, high level materials, it is more common for adventurers to obtain them by prospecting/harvesting them from the source, as rewards for great quests, or through dubious means. It should not be surprising that materials sourced from legendary creatures, or the realm of the gods would be more than worth their weight in gold. It also makes ownership of arms and armour made of such materials extremely dangerous for those who cannot handle themselves, or afford sufficient protection, as it paints an instant target on their backs.
 
----
+___
 
 ### Adventuring Gear
 
@@ -484,7 +486,7 @@ This table provides some numbers for how much of a resource one can expect to ha
 
 **Yurt**: A portable dwelling construction of hides, cloth, wood and bone favoured by nomadic peoples. It counts as a dwelling and obviates the need for an ameliorate/fortify roll for camping (although it is still better to make one to fortify one's camp). A yurt takes up 15x15ft and takes 3 hours to assemble.
 
----
+___
 
 ### Transport
 
@@ -526,7 +528,7 @@ This table provides some numbers for how much of a resource one can expect to ha
 
 **Carrack**: Carracks are sailing ships with 3 masts and a high rear castle. They have mix of square and triangular sails. They can generally handle long oceanic journeys, but are seldom made to carry large amounts of cargo. They tend to be 60ft-100ft long, and have a displacement of 100-1000 tons. A carrack can be equipped with up to 10 canons per 100 tons of displacement. This is the classic "sailing ship" of the earth colonial era. The cost is quoted for a 200 ton carrack, equipped with 10 canons (or ballistae), which is a typical tonnage for the class. A carrack needs a crew of about 10, but prefers ~40, and can transport 100-500 soldiers over short distances. A carrack has a speed of 120ft (240 miles per day) in good winds and 40ft (80 miles per day) in poor winds. A carrack has a durability of 40 and a damage resistance of 2 against physical and cold and physical damage. It begins to sink once it has lost 30 durability. The sails have an extra 12 durability with no damage resistance and once they are destroyed the ship is at the mercy of the waves.
 
----
+___
 
 ### Beasts and Slaves
 
@@ -581,7 +583,7 @@ This table provides some numbers for how much of a resource one can expect to ha
 
 **Humanoid Slave**: Humanoid slaves are used as servants, for menial labour, or as gladiators (amongst other roles). Slaves must be properly trained and indoctrinated to prevent them escaping. A mistreated slave may attempt to kill its master and/or escape. High-magic society may use supernatural means to bind more dangerous or valuable slaves. Societies that use slaves generally obtain them either by breeding or raiding and capturing. Some societies may sentence certain criminals, or defeated political rivals to a life of slavery. In such societies slaves are usually not particularly expensive, because of high availability and the omnivorous nature of most humanoids (you can feed them almost anything and they will survive). *Since slavery is often a contentious topic, it should be approached sensibly by players and game masters alike.*
 
----
+___
 
 ### Property
 
@@ -603,7 +605,7 @@ This table provides some numbers for how much of a resource one can expect to ha
 
 *Keep*: A stone keep measures approximately 48 x 48 x 48 feet, has 3-4 stories and walls about 4-6 feet thick. The crafting days can be split between any number of workers and include procurement and transport costs. Even if additional man power is available, medium sized humanoids will not accomplish this task in less than 3 months by conventional means.
 
----
+___
 
 ### Tools and Kits
 
@@ -659,7 +661,7 @@ This table provides some numbers for how much of a resource one can expect to ha
 
 **Musical instrument (exquisite)**: This includes things like pianos, church organs and other large, complex instruments. They are generally nor easily transported.
 
----
+___
 
 # Notes
 

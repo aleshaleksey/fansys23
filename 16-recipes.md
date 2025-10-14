@@ -6,8 +6,8 @@ It should be noted that none of these builds account for [race(template)](09-rac
 
 Additionally sometimes the template has unfilled proficiencies/abilities in a given column for a level (should be 3 abilities and 1 proficiency, except level 1 which can accommodate 6 proficiencies). Unfilled slots indicate that just about any ability/proficiency would go well there.
 
-- [Vanguard](#fighter-shock-trooper)
-- [Protector](#fighter-protector)
+- [Vanguard](#vanguard)
+- [Protector](#protector)
 - [Archer](#archer)
 - [Scout](#scout)
 - [Mystic Warrior](#mystic-warrior)
@@ -36,7 +36,7 @@ The ["Flash Step"](06-abilities.md#flash-step) ability is used to close with the
 |8 (2) |14 (3)|12 (2)|5|4|[Resist Condition: Crippled](06-abilities.md#resist-condition), [Speed](06-abilities.md#speed), STAT +1|||
 |9 (2) |16 (3)|13 (3)|5|5|[Resist Damage: Slashing](06-abilities.md#resist-damage), [Skirmisher](06-abilities.md#skirmisher), STAT +1|||
 |10 (3)|18 (3)|14 (3)|6|6|[Berserk III](06-abilities.md#berserk-i-v), [Speed](06-abilities.md#speed), STAT +1|||
-|11 (3)|19 (4)|16 (3)|7|6|[Resist Condition: Immobilised](06-abilities.md#resist-condition), [Resist Damage: Ice/Fire](06-abilities.md#resist-damage#ice), STAT +1|||
+|11 (3)|19 (4)|16 (3)|7|6|[Resist Condition: Immobilised](06-abilities.md#resist-condition), [Resist Damage: Ice/Fire](06-abilities.md#resist-damage), STAT +1|||
 |12 (3)|21 (4)|17 (3)|7|6|[Mage Hunter](06-abilities.md#mage-hunter-i), [Extra Save](06-abilities.md#extra-save), STAT +1|||
 ___
 
@@ -99,7 +99,7 @@ This build can be given some nature magic to make it into a ranger, or more offe
 |6 (2) |11 (2)|9  (2)|4|4|[Silent Step II](06-abilities.md#silent-step-i-iii), [Skirmisher](06-abilities.md#skirmisher), STAT +1|||
 |7 (2) |13 (3)|10 (2)|5|4|[Precision Attack III](06-abilities.md#precision-attack-i-x), [Parry](06-abilities.md#parry), STAT +1|||
 |8 (2) |14 (3)|12 (2)|5|4|[Resist Condition: Grappled](06-abilities.md#resist-condition), [Resist Condition: Charmed](06-abilities.md#resist-condition), STAT +1|||
-|9 (2) |15 (3)|14 (3)|5|5|[Precision Attack IV](06-abilities.md#precision-attack-i-x), [Speed](06-abilities.md#multi-attack-i-iii#speed), STAT +1|||
+|9 (2) |15 (3)|14 (3)|5|5|[Precision Attack IV](06-abilities.md#precision-attack-i-x), [Speed](06-abilities.md#speed), STAT +1|||
 |10 (3)|17 (3)|15 (3)|6|6|[Silent Step III](06-abilities.md#silent-step-i-iii), [Speed](06-abilities.md#speed), STAT +1|||
 |11 (3)|19 (4)|16 (3)|7|6|[Precision Attack V](06-abilities.md#precision-attack-i-x), [Keen Senses: Sight](06-abilities.md#keen-senses-i-iii), STAT +1|||
 |12 (3)|20 (4)|18 (3)|7|6|[Resist Condition: Restrained](06-abilities.md#resist-condition), [Condition Immunity: Charmed](06-abilities.md#condition-immunity), STAT +1 |||
@@ -171,7 +171,7 @@ Summoners are one of the least stat dependent builds, since the attack and defen
 |1 (1) |2  (1)|3  (1)|2|2|[Bind Beast I](06-abilities.md#bind-beast-i-x), [Bind Familiar I](06-abilities.md#bind-familiar-i-iv), [Spellcasting: Nature I](06-abilities.md#spellcasting-local)|Light Blades, Light Armour, Shields||
 |2 (1) |3  (1)|5  (1)|2|2|[Spellcasting: Element I](06-abilities.md#spellcasting-local), [Spellcasting: Incantation I](06-abilities.md#spellcasting-local), [Spellcasting: Global I](06-abilities.md#spellcasting-global)|||
 |3 (1) |4  (1)|7  (2)|2|3|[Bind Beast II](06-abilities.md#bind-beast-i-x), [Bind Familiar II](06-abilities.md#bind-familiar-i-iv), [](06-abilities.md), STAT +1|||
-|4 (1) |6  (1)|8  (2)|2|3|[Spellcasting: Element II](06-abilities.md#spellcasting-local), [Spellcasting: Incantation II](06-abilities.md#spellcasting-incantation), STAT +1|||
+|4 (1) |6  (1)|8  (2)|2|3|[Spellcasting: Element II](06-abilities.md#spellcasting-local), [Spellcasting: Incantation II](06-abilities.md#spellcasting-local), STAT +1|||
 |5 (1) |7  (2)|10 (2)|3|3|[Bind Beast III](06-abilities.md#bind-beast-i-x), [Lingering Spell](06-abilities.md#lingering-spell), STAT +1||                         
 |6 (2) |8  (2)|12 (2)|4|4|[Spellcasting: Element III](06-abilities.md#spellcasting-local), [Spellcasting: Incantation III](06-abilities.md#spellcasting-local), STAT +1|||
 |7 (2) |9  (2)|14 (3)|4|5|[Bind Beast IV](06-abilities.md#bind-beast-i-x), [Bind Familiar III](06-abilities.md#bind-familiar-i-iv), STAT +1||
@@ -218,7 +218,7 @@ INT and WIS are both primary stats of a wizard. The rest depends on the flavour.
 |-|-|-|-|-|-|-|-|
 |1 (1) |2  (1)|3  (1)|2|2|[Spellcasting: Kinetic/Incantation I](06-abilities.md#spellcasting-local), [Spellcasting: Air I](06-abilities.md#spellcasting-local), [Spellcasting: Water I](06-abilities.md#spellcasting-local)|Herbalist's Kit, Staves, Light Blades||
 |2 (1) |3  (1)|5  (1)|2|2|[Spellcasting: Fire I](06-abilities.md#spellcasting-local), [Spellcasting: Earth I](06-abilities.md#spellcasting-local), [Spellcasting: Global I](06-abilities.md#spellcasting-global)|Alchemist's Tools||
-|3 (1) |4  (1)|7  (2)|2|3|[Spellcasting: Kinetic/Incantation II](06-abilities.md#spellcasting-local), [Spellcasting: Air II](06-abilities.md#spellcasting-local), [Spellcasting: Water II](06-abilities.md#spellcast)|Healer's Kit/Bows||
+|3 (1) |4  (1)|7  (2)|2|3|[Spellcasting: Kinetic/Incantation II](06-abilities.md#spellcasting-local), [Spellcasting: Air II](06-abilities.md#spellcasting-local), [Spellcasting: Water II](06-abilities.md#spellcasting-local)|Healer's Kit/Bows||
 |4 (1) |6  (1)|8  (2)|2|3|[Spellcasting: Global II](06-abilities.md#spellcasting-global), [Bind Familiar I](06-abilities.md#bind-familiar-i-iv), STAT +1|Calligraphy Kit/Light Armour||
 |5 (1) |7  (2)|10 (2)|3|3|[Spellcasting: Kinetic/Incantation III](06-abilities.md#spellcasting-local), [Spellcasting: Air III](06-abilities.md#spellcasting-local), [Spellcasting: Water III](06-abilities.md#spellcasting-local)|Glassblowers' Tools||                         
 |6 (2) |9  (2)|11 (2)|4|4|[Spellcasting: Global III](06-abilities.md#spellcasting-global), [Bind Familiar II](06-abilities.md#bind-familiar-i-iv), STAT +1|Healer's Kit/Bows||

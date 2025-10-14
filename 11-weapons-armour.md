@@ -36,9 +36,11 @@ Weapons and armour an essential part of any combat heavy table top RPG system. W
     - [Medium Armour](#medium-armour)
     - [Heavy Armour](#heavy-armour)
     - [Shields](#shields)
+
 ___
 ## Weapons
-Weapons are tools that increase the lethality of martial combatants. For the sake of most abilities other than "sunder", unarmed techniques count as weapons. Each type of weapon requires its own proficiency. Weight and size of weapons scales as with all equipment sizes (see ["Base Rules: Size Rules"](02-base-rules.md#size-rules)). In all, there 5 categories and 18 types. The following categories and types of weapons exist:
+
+Weapons are tools that increase the lethality of martial combatants. For the sake of most abilities other than "sunder", unarmed techniques count as weapons. Each type of weapon requires its own proficiency. Weight and size of weapons scales as with all equipment sizes (see ["Base Rules: Size Rules"](02-base-rules.md#size-rules-table)). In all, there 5 categories and 18 types. The following categories and types of weapons exist:
 
 - **Unarmed combat**
   - Strikes
@@ -127,6 +129,7 @@ ___
 Weapon damage is almost always natural physical damage (see ["damage type"](10-conditions-types.md#damage-types)). However, certain abilities like ["spirit strike"](06-abilities.md#spirit-strike) can change this. Weapons deal damage based on the damage dice which are specific to each weapon (see the [weapon table](#weapon-table) below) plus the bonus based on its governing stat (as well as material bonus and potentially other bonuses). For example a hand axe has an attack bonus of [[NAP] + [STR]] and deals [1d6 + [STR]] damage.
 
 Weapon attacks are generally targeted attacks that rely on NAP and are ["governed"](04-combat.md#attacks-and-damage-bonuses) by one of STR or DEX. For example a hand axe is always governed by STR, a bow is always governed by DEX. However, some, mostly melee, weapons can be governed by either (STR/DEX) as per character choice. If a weapon that that can be governed by either is used with DEX, then [DEX] is added to the attack bonus, but there is no stat bonus added to the damage unless the character has the ["weapon finesse"](06-abilities.md#weapon-finesse) boon.
+
 ___
 ### Improvised Weapons
 
@@ -343,6 +346,7 @@ Percussive weapons like clubs, maces and hammer are in their essence a weight at
 
 ___
 ### Spears
+
  The venerable spear is the unsung defender of humanoids throughout the realms and ages. Any weapon with a long heft ending in a simple head with a sharp point is considered a spear. Longer spears have the "unwieldy" property and warriors who use spears as a primary weapon often carry a light weapon in reserve. All spears have the "bleeding" property.
 
 |Weapon|Special Properties| Manoeuvres|
@@ -364,7 +368,7 @@ ___
  **War dart:** A smaller javelin-like throwing weapon, typically around 2ft long. This includes weapons like the plumbata.
 
 ___
- ### Pole-arms
+### Pole-arms
 
  Here pole-arm refers to long hefted weapons with something other than a simple sharp point at the end. Historically these were mostly used as weapons of war, although some had other uses. All pole-arms have the "unwieldy" property.
 
@@ -396,6 +400,7 @@ Staves are round poles with a length between 4-8ft. Staves are percussive weapon
 **Quarterstaff**: This is a two handed weapon between 6-8ft long.
 
 **Shortstaff**: This is a short staff between 4-6ft long. The shortened length allows a great deal of manoeuvres to be executed with this weapon.
+
 ___
 ### Shields (as weapons)
 
@@ -508,7 +513,7 @@ A ballista typically weights about 400lb, and requires a space of 10ft x 10ft to
 ___
 ## Armour
 
- Armour covers worn equipment that offers passive protection against targeted attacks when correctly equipped. Usually this is because armour dissipates the force of the attack, making it less lethal, or completely negating it. Shields offer protection in a similar manner, although they are generally strapped to a character's appendage, meaning that active use of the appendage is required to make use of a shield.  Weight and size of shields scales as with all equipment sizes (see ["Base Rules: Size Rules"](02-base-rules.md#size-rules)).
+ Armour covers worn equipment that offers passive protection against targeted attacks when correctly equipped. Usually this is because armour dissipates the force of the attack, making it less lethal, or completely negating it. Shields offer protection in a similar manner, although they are generally strapped to a character's appendage, meaning that active use of the appendage is required to make use of a shield.  Weight and size of shields scales as with all equipment sizes (see ["Base Rules: Size Rules"](02-base-rules.md#size-rules-table)).
 
 ### Armour and its relationship with [HiT]
 

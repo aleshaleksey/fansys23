@@ -18,6 +18,7 @@ Each template specifies modifiers to to size, stats, movement, sight (and other 
 ### Human (level-1 template = 8 points)
 
 Human represents the human race. The human race is the base. Humans have no special senses, resistances, movement modalities or spooky abilities. To compensate this, they adapt quickly to new environments, and learn appropriate skills quickly as soon as they are old enough to walk. Humans have a lifespan that does not exceed a century, reach a breeding age in their teens and can produce up to two dozen offspring in their lifetime.
+
 - **Size**: Medium (Height: ~5'8", Weight: ~140lb)
 - **Stats**: (Str: 0, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: 0)
 - **Movement**: Walk 30ft
@@ -26,11 +27,13 @@ Human represents the human race. The human race is the base. Humans have no spec
 - **Proficiencies**: One appropriate language.
 
 **Extra (8 points):**
+
 - A +2 bonus to any stat, and +1 to two other stats.
 - +2 to any one skill. 
 - Any 2 proficiencies.
 
 **Race boon (level 8 and 16): (6 points)**
+
 - +2 bonus to any stat.
 - 4 skill points to spend on skills and proficiencies.
 
@@ -38,6 +41,7 @@ ___
 ### Elf/(Fey touched) (level-1 template = 8 points)
 
 This is a race that is closer to the fey, either created when fey spirits took material form in exchange for something, or when they mingled with humankind, or bestowed their "gifts" upon humans long ago. Elves/Fey touched live ridiculously long lives. Compared to humans they have slender, wiry bodies and longer ears. They are known as sometimes known as the "fair folk" and see well in twilight hours.
+
 - **Size**: Medium (Height: ~5'8", Weight: ~115lb)
 - **Stats**: (Str: 0, Dex: +2, Con: -2, Int: 0, Wis: 0, Cha: +1) (1 points)
 - **Movement**: Walk 30ft
@@ -46,10 +50,12 @@ This is a race that is closer to the fey, either created when fey spirits took m
 - **Proficiencies**: One appropriate language and the Elvish tongues. Bows OR one class of instrument. (2 point)
 
 **Extra:**
+
 - +1 Observe (1 point)
 - Resistance to "Charmed" (1 point)
 
 **Race boon (level 8 and 16): (6 points)**
+
 - Immunity to one of "Charmed", "Blinded", "Stunned" or "Bleeding".
 - +5 to walking speed
 
@@ -57,6 +63,7 @@ ___
 ### Orc (level-1 template = 8 points)
 
 This is a race that is closer to the feral side of humanoids. They are stronger and sturdier than humans, are apt hunters, but tend to lack aptitude for the academic. Orcs lead shorter lives than humans and reproduce even faster.
+
 - **Size**: Medium (Height: ~6'0", Weight: ~185lb)
 - **Stats**: (Str: +2, Dex: 0, Con: +2, Int: -2, Wis: 0, Cha: 0) (2 points)
 - **Movement**: Walk 30ft
@@ -65,9 +72,11 @@ This is a race that is closer to the feral side of humanoids. They are stronger 
 - **Proficiencies**: One appropriate language. Strikes AND Spears. (2 point)
 
 **Extra:**
+
 - Resistance to percussive and advantage on saves vs "Prone". (2 points)
 
 **Race boon (level 8 and 16): (6 points)**
+
 - Resistance to one of "piercing", "slashing" or "pressure" or "shear".
 - +1 Con, +1 Str.
 
@@ -75,6 +84,7 @@ ___
 ### Fiend-touched (level-1 template = 8 points)
 
 This represents those who have been touched by dark forces. Perhaps because of a pact, perhaps because of a dark ritual, perhaps because of whimsical evil. Or perhaps it's a bona fide race.
+
 - **Size**: Medium (Height: ~5'10", Weight: ~160lb)
 - **Stats**: (Str: 0, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: +1) (1 points)
 - **Movement**: Walk 30ft
@@ -83,11 +93,13 @@ This represents those who have been touched by dark forces. Perhaps because of a
 - **Proficiencies**: One appropriate language.
 
 **Extra:**
+
 - Resistance to "poison" + "poisoned" (2 points).
 - Resistance to "Bleeding". (1 point)
 - Elementalism: Elemental Touch. (level 1) (2 points).
 
 **Race boon (level 8 and 16): (6 points)**
+
 - Resistance to one of "piercing", "percussive", "slashing" or "pressure" or "shear", "fire" or "ice".
 - +1 Str, +1 Cha.
 - +1 Elementalism: Elemental Touch..
@@ -96,6 +108,7 @@ ___
 ### Beast folk (level-1 template = 8 points)
 
 This is a race of humanoid that has various beast like traits, usually cat-like, or dog-like. This race is loved by degenerates.
+
 - **Size**: Medium (Height: ~5'8", Weight: ~140lb)
 - **Stats**: (Str: 0, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: 0)
 - **Movement**: Walk 35ft + Climb 30ft. (3 point)
@@ -104,10 +117,12 @@ This is a race of humanoid that has various beast like traits, usually cat-like,
 - **Proficiencies**: One appropriate language.
 
 **Extra:**
+
 - +1 Track. (1 Points)
 - +2 to Str or Dex. (2 Points)
 
 **Race boon (level 8 and 16): (6 points)**
+
 - +10 to a movement speed of one modality.
 - One of "keen hearing", "keen scent".
 
@@ -115,6 +130,7 @@ ___
 ### Beasts of the Green (level-1 template = 8 points)
 
 This is a race of intelligent beasts that dwells in the deepest wilderness. It is thought that they are guardians of the wild, created ancient guardians of those places. Outwardly they take many forms.
+
 - **Size**: Large (Height: ~6', Weight: ~600lb)
 - **Stats**: (Str: +2, Dex: 0, Con: 0, Int: 0, Wis: +2, Cha: 0) (4 points)
 - **Movement**: Walk 40ft. (2 Points)
@@ -123,13 +139,16 @@ This is a race of intelligent beasts that dwells in the deepest wilderness. It i
 - **Proficiencies**: One appropriate language.
 
 **Penalties:**
+
 - Beasts of the Green have no prehensile limbs. (-3 points)
 
 **Extra:**
+
 - Incantation Magic (level 1). (2 point)
 - +2 Navigate.
 
 **Race boon (level 8 and 16): (6 points)**
+
 - +5 to movement speed.
 - +2 to one of "Str", "Dex", "Con" or "Wis"
 - 1 level of incantation magic.
@@ -138,6 +157,7 @@ ___
 ### Lizard Folk (level-1 template = 8 points)
 
 Lizard folk are superficially similar to [Dragonkin](#dragonkin-level-1-template--8-points). In most worlds where they are found, they are bipedal, carnivorous lizards, and are strong swimmers. Usually, though not always, they are portrayed as socially and technologically primitive.
+
 - **Size**: Medium (Height: ~6'8", Weight: ~220lb)
 - **Stats**: (Str: 2, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: 0) (2 points)
 - **Movement**: Walk 30ft, Swim 30ft. (2 point)
@@ -146,23 +166,29 @@ Lizard folk are superficially similar to [Dragonkin](#dragonkin-level-1-template
 - **Proficiencies**: One appropriate language.
 
 **Weaknesses (-3)**
+
 - Slow swim speed (30ft)
 - Disadvantage to endurance based rolls in severe and extreme cold.
 
 **Extra: (+6)**
+
 - Resistance to "Shear" damage and "crippled". (2 points)
 - Resistance to "disease" and "diseased". (4 points)
 
 **Race boon (level 8 and 16): (6 points)**
+
 - +1 to ["heat sense"](06-abilities.md#heat-sense-i-v) level.
 
 AND EITHER:
+
 - Resistance to "piercing" and "slashing" damage and "bleeding.
 
 OR:
+
 - Resistance to "poison" damage and poisoned.
 
 OR:
+
 - +2 to one of WIS, CON or STR.
 - +5 ft walking or swim speed.
 
@@ -170,6 +196,7 @@ ___
 ### The Sea People (level-1 template = 8 points)
 
 The sea people a race of humanoids that live in and around the islands of the shallow seas, and in the marshes and great lakes. They often disguise themselves as humans, for various reasons.
+
 - **Size**: Medium (Height: ~5'8", Weight: ~140lb)
 - **Stats**: (Str: 0, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: 0)
 - **Movement**: Walk 30ft, Swim 40ft. (2 point)
@@ -178,11 +205,13 @@ The sea people a race of humanoids that live in and around the islands of the sh
 - **Proficiencies**: One appropriate language, Cetacean. (1 point)
 
 **Extra:**
+
 - Water breathing (2 points)
 - Resistance to "Cold" OR +2 Swim. (2 point)
 - Resistance to "Aphonia".
 
 **Race boon (level 8 and 16): (6 points)**
+
 - +5 to swim speed.
 - One of "life sense (1 level)" or "blind sight (1 level)".
 
@@ -190,6 +219,7 @@ ___
 ### The Winged (level-1 template = 8 points)
 
 This is a race of winged humanoids that live in high and isolated places, as well as loci associated with elemental air. They are small of stature, sharp sighted, and often shy of other races.
+
 - **Size**: Small (Height: ~3'3", Weight: ~32lb, Wingspan: ~11ft.)
 - **Stats**: (Str: -2, Dex: +2, Con: 0, Int: 0, Wis: 0, Cha: 0)
 - **Movement**: Walk 20ft, Fly 60ft (rating: average, endurance: 2 hours). (5 point)
@@ -198,10 +228,12 @@ This is a race of winged humanoids that live in high and isolated places, as wel
 - **Proficiencies**: One appropriate language.
 
 **Extra:**
+
 + 2 to Fly (2 point)
 + 1 to Observe (1 point)
 
 **Race boon: (6 points)**
+
 - +1 fly level.
 - +10 fly speed or +1 hour to flight endurance.
 
@@ -222,13 +254,16 @@ Also known in various worlds as "Dragonborn", "Dragonblood" and by any other num
 - **Proficiencies**: One appropriate language and 1 tool (NB: Fire, Ice and Poison ONLY). (1 point ~)
 
 **Extra (5 points) [Fire, Ice, Poison]**:
+
 - Resistance to one of: (2)
   - "fire & aphonia",
   - "ice & grappled",
   - "poison & diseased",
+
 Elemental Blast (Flavour: Breath) (3) (Must be same element)
 
 **Extra (7 points) [Lightning, Light]**:
+
 - Resistance to one of: (4)
   - "lightning & deafened",
   - "light & glowing"
@@ -236,11 +271,13 @@ Elemental Blast (Flavour: Breath) (3) (Must be same element)
 
 **Race boon (level 8 and 16): (6 points)**
 EITHER:
+
 - Flight 60ft (poor) OR improvement to fly + 10ft fly speed. (3)
 - "low-light vision" or "heat sense"
 - +1 to a single Stat.
 
 OR [Fire, Ice, Poison]: (6 points)
+
 - Immunity to their Element and advantage vs:
   - "Incapacitated" (fire)
   - "Immobilised" (ice)
@@ -248,6 +285,7 @@ OR [Fire, Ice, Poison]: (6 points)
 - "low-light vision" or "heat sense" or +2 to a single stat.
 
 OR [Lightning, Light]: (6 points)
+
 - Immunity to their Element and advantage vs:
   - "paralysed", "immobilised" of "stunned" (lightning)
   - "catatonic", "frightened" or "blinded" (light)
@@ -270,6 +308,7 @@ This is a template for humans in a game using level-5 templates. It gives some i
 - **Proficiencies**: Any 3 appropriate languages. (2 point)
 
 **Extra (26 points):**
+
 - A +2 bonus to any 3 stats. (6 points)
 - +2 to any 4 skill. (8 points) 
 - Any 2 proficiencies. (2 point)
@@ -279,6 +318,7 @@ This is a template for humans in a game using level-5 templates. It gives some i
 - Resistance to "fire" or "ice" + one associated condition. (2 points)
 
 **Race boon (level 8 and 16): (6 points)**
+
 - +2 bonus to any stat.
 - 4 skill points to spend on skills and proficiencies.
 
@@ -295,6 +335,7 @@ This is a template for elves/fey-touched in a game using level-5 templates. It g
 - **Proficiencies**: One appropriate language and the Elvish tongues. Bows OR one class of instrument. (1 point)
 
 **Extra (21):**
+
 - +2 Observe (2)
 - +1 Navigate (1)
 - +2 Arcana (2)
@@ -302,6 +343,7 @@ This is a template for elves/fey-touched in a game using level-5 templates. It g
 - Immunity to "Charmed" and "Paralysed". (11)
 
 **Race boon (level 8 and 16): (6 points)**
+
 - Immunity to one of "Catatonic", "Blinded", "Stunned" or "Bleeding".
 - +5 to walking speed
 
@@ -318,12 +360,14 @@ Some degenerates want enhanced cat girls for high power games.
 - **Proficiencies**: One appropriate language.
 
 **Extra (20):**
+
 - +2 Track, +2 Acrobatics, +2 Athletics. (6)
 - Immune "Surprised" (4)
 - Advantage on Dex saves (6)
 - Resistance "prone", "restrained", "grappled", "immobilised". (4)
 
 **Race boon (level 8 and 16): (6 points)**
+
 - +10 to a movement speed of one modality.
 - Gain "Keen senses: Sight" or Xenophonia (animals or spirits).
 - Resistance to one of type of physical damage.
@@ -332,6 +376,7 @@ ___
 ### Half-Dragon (level-5 template = 40 points)
 
 Half dragons are born of the mixing of dragon and humanoid. They gain much from their draconic blood, but are nevertheless weaker than dragons. Their natural form is some mixture of draconic and human, but they can take on a human form. They can:
+
 1. Take humanoid form (lesser alternate form).
 2. Fly.
 3. They cannot be harmed by one element.
@@ -346,9 +391,11 @@ Half dragons are born of the mixing of dragon and humanoid. They gain much from 
 - **Proficiencies**: draconic.
 
 **Weaknesses (-2):**
+
 - Marginally prehensile limbs (cannot use DEX based weapons or tools). -2
 
 **Extra (17):**
+
 + Immune: "Fear" (4).
 + Immune: One of "Fire" OR "Cold" (4).
 + Alternate form: Humanoid (4 points).
@@ -356,6 +403,7 @@ Half dragons are born of the mixing of dragon and humanoid. They gain much from 
 + Natural Attack, Bite, 1d4. (2)
 
 **Race boon (level 8 and 16): (6 points)**
+
 + Plus one to level of Spellcasting:Water/Fire OR +1 to Natural attack dice size (2).
 + Plus 10ft fly speed.
 + Plus 2 to any one stat.
@@ -373,11 +421,13 @@ This represents a low-grade vampire. Its type is undead, but due to lack of poin
 - **Proficiencies**: One appropriate language.
 
 **Weaknesses (-4)**
+
 - Cannot enter home uninvited.
 - Cannot cross running water willingly.
 - Vulnerability to "divine" and "light" damage.
 
 **Extra (24)**
+
 - Resistant to "percussive" + "prone", "piercing" + "bleeding", "slashing" + "crippled". (6)
 - Resistant to "poison", "disease". (2)
 - Immune to "unconscious", "frightened". (10)
@@ -399,9 +449,11 @@ This represents a cursed being: A humanoid that is cursed to become a wolf when 
 - **Proficiencies**: One appropriate language.
 
 **Weaknesses (-6)**
+
 - The "piercing" and "slashing" resistances are negated by weapons made of silver..
 
 **Extra (18)**
+
 - Resistant to "percussive", "piercing", "slashing", "sheer" and "pressure". (10)
 - Resistant to "prone", "bleeding", "crippled", "incapacitated" and "frightened".
 - Resistant to "poison", "disease". (4)
@@ -413,6 +465,7 @@ ___
 ### Lesser Dragon (level-10 template = 80 points)
 
 This represents a dragon at the lower end of the draconic scale of power. Its natural form is a winged serpent. They can:
+
 1. Take humanoid form (lesser alternate form).
 2. Fly.
 3. They cannot be harmed by one element, and resist physical damage.
@@ -427,6 +480,7 @@ This represents a dragon at the lower end of the draconic scale of power. Its na
 - **Proficiencies**: draconic, proficiency "strike" + "grapple". (2)
 
 **Extra (42):**
+
 + Immune: "Fear" (4).
 + Immune: One of "Fire" OR "Cold" (4).
 + Alternate form: Humanoid (4 points).
@@ -438,6 +492,7 @@ This represents a dragon at the lower end of the draconic scale of power. Its na
 + Spellcasting:Water/Fire (level 1). (2)
 
 **Race boon (level 8 and 16): (6 points)**
+
 + Plus one to level of Spellcasting:Water/Fire OR +1 to Natural attack dice size (2).
 + Plus 10ft fly speed.
 + Plus 2 to any one stat.
@@ -455,11 +510,13 @@ This represents a low-grade vampire. Its type is undead, but due to lack of poin
 - **Proficiencies**: One appropriate language.
 
 **Weaknesses (-4)**
+
 - Cannot enter home uninvited.
 - Cannot cross running water willingly.
 - Vulnerability to "divine" and "light" damage.
 
 **Extra (46)**
+
 - Resistant to "percussive", "piercing", "slashing", "sheer" and "pressure". (10)
 - Resistant to "prone", "bleeding", "crippled", "incapacitated" and "frightened".
 - Resistant to "poison", "necrotic". (2)
@@ -484,9 +541,11 @@ This represents a cursed being: A humanoid that is cursed to become a wolf when 
 - **Proficiencies**: One appropriate language.
 
 **Weaknesses (-2)**
+
 - The "piercing" and "slashing" resistances are negated by weapons made of silver..
 
 **Extra (42)**
+
 - +4 to "athletics". (4)
 - "Tracker: Swift". (2)
 - "Terrain Mastery: Forest". (2)
@@ -502,6 +561,7 @@ ___
 ### Watcher (level-10 template = 80 points)
 
 This is a divine being created by gods to watch over some aspect of creation (Couatl in DnD 5e). Its natural form is a winged serpent. They can:
+
 1. Take humanoid form (lesser alternate form).
 2. Fly.
 3. They cannot be harmed by physical damage or light and resist fire.
@@ -516,9 +576,11 @@ This is a divine being created by gods to watch over some aspect of creation (Co
 - **Proficiencies**: One appropriate language.
 
 **Restriction:**
+
 + A Watcher cannot lie (knowing communicate falsehood). (-2)
 
 **Extra (42):**
+
 + +2 Sense Motive (2 points)
 + Alternate form: Humanoid (4 points)
 + Telepathy (6 points)
@@ -527,7 +589,9 @@ This is a divine being created by gods to watch over some aspect of creation (Co
 + Therefore resistance: "bleeding", "crippled", "prone", "stunned", "frightened", "blinded", "aphonia".
 
 **Race boon (level 8 and 16): (6 points)**
+
 EITHER:
+
 + Blink speed (30ft) OR cosmic speed (1 layer) OR +II to "truesight".
 
 OR:
@@ -557,6 +621,7 @@ ___
 ### The base character without templates
 
 A level 1 character, before being build, has:
+
 - **Size**: Medium
 - **Stats**: No modifier to any stats.
 - **Movement**: A walking speed of 30ft and no other movement modalities
@@ -578,6 +643,7 @@ The base template allows the following:
 **Template points**: A template gains **8 template points**. Template points may be spent in a packet, or one by one.
 
 #### One template point:
+
 - Advantage on saves vs one B or C class conditions.
   - A template may grant only 2 condition resistances or immunities per template level.
 - A single proficiency.
@@ -594,6 +660,7 @@ The base template allows the following:
 
 
 #### Two template points:
+
 - Resistance to a C or B Class damage type + advantage vs one C class condition.
   - A template may grant only 1 damage resistance or immunity per template level.
 - A permanent +2 bonus to a single skill.
@@ -609,6 +676,7 @@ The base template allows the following:
 - Remove the "sleep" necessity.
 
 #### Three template points:
+
 - Advantage on saves vs one A or S class conditions.
   - A template may grant only 2 condition resistances or immunities per template level.
 - Remove a necessity (drink or eat).
@@ -617,6 +685,7 @@ The base template allows the following:
 - Improve dig speed by 5ft from 5f->10ft.
 
 #### Four template points:
+
 - Resistance to an A or S class damage type + advantage vs one B or C class condition.
   - A template may grant only 1 damage resistance or immunity per template level.
 - Immunity to a C or B class damage type and advantage vs one associated damage type.
@@ -632,12 +701,14 @@ The base template allows the following:
 
 
 #### Five Template points:
+
 - Remove a necessity (breathe).
 - Immunity to a single A Class condition.
   - A template may grant only 2 condition resistances or immunities per template level.
 
 
 #### Six Template points:
+
 - Immunity to an A class damage type and advantage vs one associated condition.
   - A template may grant only 1 damage resistance or immunity per template level.
 - Immunity to a single S Class condition (this does more harm than good sometimes).
@@ -653,10 +724,12 @@ The base template allows the following:
   - When this enhancement is a graded ability (eg ["Truesight"](06-abilities.md#truesight-i-v)), it is always taken at 2nd level (eg "Heat Sense II"). In this case increasing it by a further level costs a single point.
 
 #### Eight Template points:
+
 - Immunity to an S class damage type and advantage vs one associated condition.
   - A template may grant only 1 damage resistance or immunity per template level.
 
 #### Vulnerabilities and Restrictions
+
 Templates with vulnerabilities and special restrictions gain additional template points as follows.
 
 - Vulnerabilities:

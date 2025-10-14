@@ -136,7 +136,7 @@ Piercing damage is typically caused by teeth and pointy weapons and projectiles.
 
 ___
 #### Slashing
-Slashing damage is typically caused by bladed weapons or sharp claws. It involves the physical splitting of two parts of a target by application of concentrated force along a plane (a cut). Soft targets are particularly susceptible to slashing damage.
+Slashing damage is typically caused by bladed weapons or sharp claws. It involves the physical splitting of two parts of a target by application of conce ntrated force along a plane (a cut). Soft targets are particularly susceptible to slashing damage.
 
 **Associated Conditions:** ["bleeding"](#bleedingwilting) ["crippled"](#crippled).
 
@@ -579,6 +579,7 @@ An aphonic character cannot communicate vocally (or verbally).
 
 #### Deafened
 A deafened character cannot perceive sound. It cannot hear. It can speak only stutteringly. It must make an [INT] save to complete Incantations (unless it is deaf for longer than month).
+
 #### Diseased
 Afflicted by a disease. The effect varies with disease (see ["Diseases"](14-poisons-and-diseases.md#diseases)).
 
@@ -612,7 +613,7 @@ A prone character is intimate with the ground.
   - It has disadvantage on melee attacks.
   - It has disadvantage at [STR] and [DEX] saves.
   - It has advantage at skills used in hiding, but may suffer penalties to perception.
-  -  Flying entities that are knocked prone, drops a distance equal to its speed and can only move at half speed on its next turn. If this drop causes it to hit the ground, it suffers all of the consequences of falling (see ["Falling"](03-movement-exploration.md#Falling) section).
+  -  Flying entities that are knocked prone, drops a distance equal to its speed and can only move at half speed on its next turn. If this drop causes it to hit the ground, it suffers all of the consequences of falling (see ["Falling"](03-movement-exploration.md#falling) section).
 
 ___
 ### Conditions by Damage Type

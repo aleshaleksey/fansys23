@@ -1,3 +1,5 @@
+#import "fansys-core.typ": chapterindex, link2
+
 #set page(
   paper: "a4",
   margin: (
@@ -68,56 +70,53 @@
 
 #place(top + center, float: true, scope: "parent")[= FanSys 23]
 #place(top + center, float: true, scope: "parent")[== A New System for Fantasy Worlds]
-#pagebreak()
 
-#include "01-quick-start.typ"
 #pagebreak()
-// #include "03-movement-exploration.typ"
-// #pagebreak()
-// #include "04-combat.typ"
-// #pagebreak()
-// #include "05-skills.typ"
-// #pagebreak()
-// #include "06-abilities.typ"
-// #pagebreak()
-// #include "07-magic-and-spellcasting.typ"
-// #pagebreak()
-// #include "09-races.typ"
-// #pagebreak()
-// #include "10-conditions-types.typ"
-// #pagebreak()
-// #include "11-weapons-armour.typ"
-// #pagebreak()
-// #include "12-equipment-economy.typ"
-// #pagebreak()
-// #include "13-crafting-imbuing.typ"
-// #pagebreak()
-// #include "14-poisons-and-diseases.typ"
-// #pagebreak()
-// #include "15-charm-etc.typ"
-// #pagebreak()
-// #include "16-recipes.typ"
-// #pagebreak()
-// #include "08-spell-list.typ"
-// #pagebreak()
-#include "02-base-rules.typ"
-#pagebreak()
-// #include "monsters-npcs/beasts-and-plants.typ"
-// #pagebreak()
-// #include "monsters-npcs/constructs.typ"
-// #pagebreak()
-// #include "monsters-npcs/divines.typ"
-// #pagebreak()
-// #include "monsters-npcs/humanoids.typ"
-// #pagebreak()
-// #include "monsters-npcs/monsters-and-dragons.typ"
-// #pagebreak()
-// #include "monsters-npcs/profanes.typ"
-// #pagebreak()
-// #include "monsters-npcs/spirits.typ"
-// #pagebreak()
+#outline(target: heading.where(level: 1))
 
-#let link2(url, body) = context {
-  let loc = locate(url).page()
-  link(url)[#body] + " (page " + [#loc] + ")"
-}
+#include "build/01-quick-start.typ"
+#pagebreak()
+#include "build/03-movement-exploration.typ"
+#pagebreak()
+#include "build/04-combat.typ"
+#pagebreak()
+#include "build/05-skills.typ"
+#pagebreak()
+#include "build/06-abilities.typ"
+#pagebreak()
+#include "build/07-magic-and-spellcasting.typ"
+#pagebreak()
+#include "build/09-races.typ"
+#pagebreak()
+#include "build/10-conditions-types.typ"
+#pagebreak()
+#include "build/11-weapons-armour.typ"
+#pagebreak()
+#include "build/12-equipment-economy.typ"
+#pagebreak()
+#include "build/13-crafting-imbuing.typ"
+#pagebreak()
+#include "build/14-poisons-and-diseases.typ"
+#pagebreak()
+#include "build/15-charm-etc.typ"
+#pagebreak()
+#include "build/16-recipes.typ"
+#pagebreak()
+#include "build/08-spell-list.typ"
+#pagebreak()
+#include "build/02-base-rules.typ"
+#pagebreak()
+#include "build/beasts-and-plants.typ"
+#pagebreak()
+#include "build/constructs.typ"
+#pagebreak()
+#include "build/divines.typ"
+#pagebreak()
+#include "build/humanoids.typ"
+#pagebreak()
+#include "build/monsters-and-dragons.typ"
+#pagebreak()
+#include "build/profanes.typ"
+#pagebreak()
+#include "build/spirits.typ"
+#pagebreak()

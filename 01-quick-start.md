@@ -1,9 +1,10 @@
 # FanSys23
 
+## Forwards
 This is a fantasy roleplaying system optimised for balance that uses 2d12 for its core roll. It is meant for games with a focus on small group combat and exploration, with an emphasis on the balance between mundane and supernatural.
 ___
 
-### Scope and Pace of the game
+## Scope and Pace of the game
 
 The rules of FanSys mostly concern small group combat in a fantasy setting, but also exploration and some aspects of general interactions with the environment, including supernatural locales. It works with various fantasy settings, both low and high. The distinction between HP damage (mortal injury) and MP/SP damage (bumps and bruises, spiritual exhaustion), is a particular feature of the game that allows groups to distinguish between mortal dangers and less perilous predicaments. The game has levels for a progression of power, but is also class-free which allows almost limitless flexibility of character creation (with some perils of its own).
 
@@ -131,7 +132,7 @@ Templates generally give some small bonuses, a few nice features, some of which 
 1. Read over the template.
 2. Apply the creature size to your character, adjust heights and weights within 20% as desired.
 3. Apply stat bonuses and penalties.
-4. Apply [size modifiers](02-base-rules.md#size-rules).
+4. Apply [size modifiers](02-base-rules.md#size-rules-table).
 5. Apply movement speed, special senses and type.
 6. Add proficiencies and skill bonuses.
 7. Add special abilities, resistances and vulnerabilities.
@@ -145,6 +146,7 @@ ___
 #### Human (level-1 template = 8 points)
 
 Human represents the human race. The human race is the base. Humans have no special senses, resistances, movement modalities or spooky abilities. To compensate this, they adapt quickly to new environments, and begin learning the skills needed to survive in their homeland as soon as they are old enough to walk. Humans have a lifespan that does not exceed a century, reach a breeding age in their teens and can produce up to two dozen offspring in their lifetime.
+
 - **Size**: Medium (Height: ~5'8", Weight: ~140lb)
 - **Stats**: (Str: 0, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: 0)
 - **Movement**: Walk 30ft
@@ -153,11 +155,13 @@ Human represents the human race. The human race is the base. Humans have no spec
 - **Proficiencies**: One appropriate language.
 
 Extra:
+
 - A +2 bonus to any stat, and +1 to two other stats.
 - +2 to any one skill. 
 - Any 2 proficiencies.
 
 Race boon (level 8 and 16):
+
 - +2 bonus to any stat.
 - 4 skill points to spend on skills and proficiencies.
 
@@ -165,6 +169,7 @@ ___
 #### Elf/(Fey touched) (level-1 template = 8 points)
 
 This is a race that is closer to the fey, either created when fey spirits took material form in exchange for something, or when they mingled with humankind, or bestowed their "gifts" upon humans long ago. Elves/Fey touched live ridiculously long lives. Compared to humans they have slender, wiry bodies and longer ears. They are known as sometimes known as the "fair folk" and see well in twilight hours.
+
 - **Size**: Medium (Height: ~5'8", Weight: ~115lb)
 - **Stats**: (Str: 0, Dex: +2, Con: -2, Int: 0, Wis: 0, Cha: +1)
 - **Movement**: Walk 30ft
@@ -173,10 +178,12 @@ This is a race that is closer to the fey, either created when fey spirits took m
 - **Proficiencies**: One appropriate language and the Elvish tongues. Bows OR one class of instrument.
 
 Extra:
+
 - +1 Observe
 - Resistance to "Charmed"
 
 Race boon (level 8 and 16):
+
 - Immunity to one of "Charmed", "Blinded", "Stunned" or "Bleeding".
 - +5 to walking speed
 
@@ -184,6 +191,7 @@ ___
 #### Orc (level-1 template = 8 points)
 
 This is a race that is closer to the feral side of humanoids. They are stronger and sturdier than humans, are apt hunters, but tend to lack aptitude for the academic. Orcs lead shorter lives than humans and reproduce even faster.
+
 - **Size**: Medium (Height: ~6'0", Weight: ~185lb)
 - **Stats**: (Str: +2, Dex: 0, Con: +2, Int: -2, Wis: 0, Cha: 0)
 - **Movement**: Walk 30ft
@@ -192,9 +200,11 @@ This is a race that is closer to the feral side of humanoids. They are stronger 
 - **Proficiencies**: One appropriate language. Strikes AND Spears.
 
 Extra:
+
 - Resistance to percussive and advantage on saves vs "Prone".
 
 Race boon (level 8 and 16):
+
 - Resistance to one of "piercing", "slashing" or "pressure" or "shear".
 - +1 Con, +1 Str.
 
@@ -202,6 +212,7 @@ ___
 ### The Sea People (level-1 template = 8 points)
 
 The sea people a race of humanoids that live in and around the islands of the shallow seas, and in the marshes and great lakes. They often disguise themselves as humans, for various reasons.
+
 - **Size**: Medium (Height: ~5'8", Weight: ~140lb)
 - **Stats**: (Str: 0, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: 0)
 - **Movement**: Walk 30ft, Swim 40ft.
@@ -210,11 +221,13 @@ The sea people a race of humanoids that live in and around the islands of the sh
 - **Proficiencies**: One appropriate language, Cetacean.
 
 Extra:
+
 - Water breathing
 - Resistance to "Cold" OR +2 Swim.
 - Resistance to "Aphonia".
 
 Race boon (level 8 and 16): (6 points)
+
 - +5 to swim speed.
 - One of "life sense (1 level)" or "blind sight (1 level)".
 
@@ -222,6 +235,7 @@ ___
 ### The Winged (level-1 template = 8 points)
 
 This is a race of winged humanoids that live in high and isolated places, as well as loci associated with elemental air. They are small of stature, sharp sighted, and often shy of other races.
+
 - **Size**: Small (Height: ~3'3", Weight: ~32lb, Wingspan: ~11ft.)
 - **Stats**: (Str: -2, Dex: +2, Con: 0, Int: 0, Wis: 0, Cha: 0)
 - **Movement**: Walk 20ft, Fly 60ft (rating: average, endurance: 2 hours).
@@ -230,10 +244,12 @@ This is a race of winged humanoids that live in high and isolated places, as wel
 - **Proficiencies**: One appropriate language.
 
 Extra:
+
 + 2 to Fly.
 + 1 to Observe.
 
 Race boon (level 8 and 16):
+
 - +1 fly level.
 - +10 fly speed.
 
@@ -241,6 +257,7 @@ ___
 #### Beasts of the Green (level-1 template = 8 points)
 
 This is a race of intelligent beasts that dwells in the deepest wilderness. It is thought that they are guardians of the wild, created by ancient forces. Outwardly they take many forms.
+
 - **Size**: Large (Height: ~6', Weight: ~600lb)
 - **Stats**: (Str: +2, Dex: 0, Con: 0, Int: 0, Wis: +2, Cha: 0)
 - **Movement**: Walk 40ft.
@@ -249,13 +266,16 @@ This is a race of intelligent beasts that dwells in the deepest wilderness. It i
 - **Proficiencies**: One appropriate language.
 
 Penalties:
+
 - Beasts of the Green have no prehensile limbs.
 
 Extra:
+
 - Incantation Magic (level 1).
 - +2 Navigate.
 
 Race boon (level 8 and 16):
+
 - +5 to movement speed.
 - +2 to one of "Str", "Dex", "Con" or "Wis"
 - 1 level of incantation magic.
@@ -264,6 +284,7 @@ ___
 ### Beast folk (level-1 template = 8 points)
 
 This is a race of humanoid that has various beast like traits, usually cat-like, or dog-like. This race is loved by degenerates.
+
 - **Size**: Medium (Height: ~5'8", Weight: ~140lb)
 - **Stats**: (Str: 0, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: 0)
 - **Movement**: Walk 35ft + Climb 30ft.
@@ -272,10 +293,12 @@ This is a race of humanoid that has various beast like traits, usually cat-like,
 - **Proficiencies**: One appropriate language.
 
 Extra:
+
 - +1 Track.
 - +2 to Str or Dex.
 
 Race boon (level 8 and 16):
+
 - +10 to a movement speed of one modality.
 - One of "keen hearing", "keen scent".
 
@@ -283,6 +306,7 @@ ___
 ### Fiend-touched (level-1 template = 8 points)
 
 This represents those who have been touched by dark forces. Perhaps because of a pact, perhaps because of a dark ritual, perhaps because of whimsical evil. Or perhaps it's a bona fide race.
+
 - **Size**: Medium (Height: ~5'10", Weight: ~160lb)
 - **Stats**: (Str: 0, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: +1)
 - **Movement**: Walk 30ft
@@ -291,11 +315,13 @@ This represents those who have been touched by dark forces. Perhaps because of a
 - **Proficiencies**: One appropriate language.
 
 Extra:
+
 - Resistance to "poison" + "poisoned" .
 - Resistance to "Bleeding". 
 - Elementalism: Elemental Touch.(level 1).
 
 Race boon (level 8 and 16):
+
 - Resistance to one of "piercing", "percussive", "slashing" or "pressure" or "shear", "fire" or "ice".
 - +1 Str, +1 Cha.
 - +1 Elementalism: Elemental Touch.
@@ -391,9 +417,10 @@ With the above [Nat] and [Sup] values (1), at level one (when [Base] = 1), our e
 Now if the character has +2 [Str] and 0 [Int], for Str based attacks, such as cutting with an axe, it will have a bonus of 2 + 2 = 4. On the other hand for Int based attacks, such as casting an incantation, it will be 2 + 0 = 2. Clearly this character is better off using an axe!
 
 In short:
+
 - Str based attack bonus = [SP dice total] / 6 + [Base] + [Str]
-    - = [Nat] + [Base] + [Str]
-        - = [NAP] + [Str]
+    - ([Nat] + [Base]) + [Str]
+        - [NAP] + [Str]
 
 Luckily we don't have to calculate the attack potentials outside of levelling up our characters. And even then we can just use the tables in the ["Base Rules: Tables"](02-base-rules.md#tables).
 
@@ -401,6 +428,7 @@ ___
 #### Spell and Ability Saves
 
 When spells and some abilities are used, the onus on overcoming their effects is on the character who would be affected. In this case, the character who is affected can attempt to roll a "save" against the spell/ability's static "threshold". There are six types of saving throw, one for each stat. A character can either proficient or not proficient with a save. The bonus for the save is as follows:
+
 - **Not proficient**: [Stat bonus + Base]
 - **Proficient** (Str, Dex, Con): [NAP + Stat bonus]
 - **Proficient** (Int, Wis, Cha): [SAP + Stat bonus]
@@ -444,7 +472,7 @@ Every character gets 3 level points at level 1. These can be spend as follows.
 
 Abilities and boons are special features of a character that allow them to do things they would not otherwise be able to do, or withstand things they would otherwise not be able to withstand. This also provides some of the flavour to the character. See the ["Abilities and Boons"](06-abilities.md) chapter. As an example:
 
-- An aspiring pyromancer would probably want to take ["elemental touch"](06-abilities.md#touch-elemental-touch) or ["elemental blast"](06-abilities.md#blast-elemental-blast) and ["spellcasting: elemental (fire)"](06-abilities.md#spellcasting-elemental).
+- An aspiring pyromancer would probably want to take ["elemental touch"](06-abilities.md#touch-elemental-touch) or ["elemental blast"](06-abilities.md#blast-elemental-blast) and ["spellcasting: elemental (fire)"](06-abilities.md#spellcasting-local).
 - A plucky peasant or mysterious summoner might both wish to travel with a bestial companion and so take ["bind beast"](06-abilities.md#bind-beast-i-x).
 - Swashbuckler and martial artists would probably both benefit from ["flurry"](06-abilities.md#flurry).
 

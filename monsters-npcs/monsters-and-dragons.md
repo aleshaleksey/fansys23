@@ -1,3 +1,5 @@
+# Monsters and Dragons
+
 - [Monsters](#monsters)
     - [Crade Imp](#cradle-imp)
     - [Mog](#mog)
@@ -131,6 +133,7 @@ ___
 This monster dwells in cracks in dry rocks and exudes a sweet smell to attract prey. When beasts or humanoids approach it oozes out of the cracks and attempts to make contact with its prey, subduing it with its poisonous touch before dissolving it.
 
 These oozes are themselves devoured by some kinds of fungus, and as such they prefer dry climates.
+
 ___
 ### Snatchers' Hands
 
@@ -193,6 +196,7 @@ Young mud-crawlers hide beneath the soft mud of lake beds and other waterlogged 
 
 ___
 ### Corpse Stork
+
 **Size category**: Large (10ft x 10ft)
 - Evade: -1, Armour +1
 - Reach: 5ft (long)
@@ -705,6 +709,7 @@ Chimeras are monsters that combine the traits or parts of several different beas
 
 ___
 ### Chimera
+
 **Size category**: Huge (20ft x 20ft)
 - Evade: -2, Armour +2 (Natural armour +4)
 - Reach: 10ft
@@ -749,6 +754,7 @@ ___
 
 ___
 ### Griffon
+
 **Size category**: Large (10ft x 10ft)
 - Evade: -1, Armour +1
 - Reach: 5ft (long)
@@ -791,6 +797,7 @@ Griffons hunt by diving down onto its prey and breaking its back. If it's prey i
 
 ___
 ### Griffon, Hippogriff
+
 **Size category**: Large (10ft x 10ft)
 - Evade: -1, Armour +1
 - Reach: 5ft (long)
@@ -831,7 +838,9 @@ Hippogriffs are seldom natural beings, but result in the breeding of a male grif
 
 ___
 ### Griffon, Owl-griff
+
 **Size category**: Huge (20ft x 20ft)
+
 - Evade: -2, Armour +2 (+2 natural armour)
 - Reach: 10ft
 - [DEX save]: -2, [STR save]: +2
@@ -874,7 +883,9 @@ These monsters are violent and difficult to escape as they can run, fly, climb a
 
 ___
 ### Griffon, Sparrow-griff
+
 **Size category**: Tiny (10ft x 10ft)
+
 - Evade: +2, Armour 0
 - Reach: 0ft (tiny)
 - [DEX save]: +2, [STR save]: -2
@@ -908,7 +919,9 @@ A sparrow-griff is a tiny pest with the front of a sparrow and the hind-side of 
 
 ___
 ### Minotaur
+
 **Size category**: Large (10ft x 10ft)
+
 - Evade: -1, Armour +1
 - Reach: 5ft (long)
 - [DEX save]: -1, [STR save]: +1
@@ -954,7 +967,9 @@ In combat a minotaur's tactics are simple: Charge. That said, before attacking i
 
 ___
 ### Pegasus
+
 **Size category**: Large (10ft x 10ft)
+
 - Evade: -1, Armour +1
 - Reach: 5ft (long)
 - [DEX save]: -1, [STR save]: +1
@@ -982,9 +997,12 @@ ___
 |Skills|||"Observe" +5, "Fly" +6, "Athletics" +8|
 
 A pegasus is flying horse with almost human-like intelligence that are capable of soaring flight. Wild pegasi are incredibly difficult to catch, tame, breed and train. Together this makes them extraordinarily desirable as mounts, and humanoid elite will stop at little to obtain a steed such as this.
+
 ___
 ### Unicorn, White
+
 **Size category**: Large (10ft x 10ft)
+
 - Evade: -1, Armour +1, Deflection +4
 - Reach: 5ft (long)
 - Saves: DEX, INT, WIS, CHA
@@ -1047,11 +1065,13 @@ OPTIONAL:
 
 ___
 ## Lycanthropes
+
 Sometimes humanoids because afflicted by the curse of Lycanthropy. It can be obtained by crossing divine beings associated with the moon, or angering ancient nature spirits, or perhaps from the bites of other lycanthropes. Regardless, a lycanthrope gains incredible fortitude at the expense of losing its mind and humanoid form under the influence of the full moon. In their bestial form and under the influence of their madness, lycanthropes are incredibly dangerous, and take pleasure in violence and suffering. Often this affects those they love the most.
 
 Lycanthropes are classified as "Mortals", "Monsters".
 
 The following is common to lycanthropes:
+
 - Lycanthropes are immune to "physical" damage.
 - Lycanthropes are at least resistant to "poison" and "disease".
 - Lycanthropes have an alternate form of a beast (though this is never a herbivorous beast). Less powerful lycanthropes have little control over this transformation.
@@ -1059,6 +1079,7 @@ The following is common to lycanthropes:
 
 ___
 ### Werewolf, lesser
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |14/12/14|32 (*22*)|22 (*17*)|11|40ft (50ft wolf form)|
@@ -1096,6 +1117,7 @@ This stat block reflects a human peasant which is also a werewolf. For other hum
 
 ___
 ### Werewolf, Greater
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |18/12/14|106 (*46*)|41 (*31*)|17|40ft (50ft wolf form)|
@@ -1137,7 +1159,9 @@ This stat block reflects a human warrior which is also a werewolf. For other hum
 
 ___
 ## Dragons
+
 Dragons typically look like reptiles, but are not. Dragons are supernatural entities with 6 or more limbs (of which 2 or more typically wings) and scales. They have an Int of at least 10. Dragons typically have obscenely long lifespans and possess the following characteristic features:
+
 - Like most mortals, dragons breathe, drink and eat.
 - A dragon's eye can see through illusions.
 - Dragons have an "elemental" organ, which allows them to exhale energy, typically fire.
@@ -1150,6 +1174,7 @@ Dragons typically look like reptiles, but are not. Dragons are supernatural enti
 Dragons, in most worlds, are the apex mortal being. They are typically stronger, more robust and more intelligent than most other mortals. In addition they possess a whole array of potent supernatural abilities. Most dragons are spellcasters. As such this raises the very valid question of why do dragons not rule all the worlds where they are present?
 
 Aside from hand-waving the question away, there can be a whole number of reasons.
+
 - Dragons reproduce and grow slowly, so their numbers might not be enough to control whole civilisations the world over.
 - In most settings they spend most of their lives sleeping, probably due the enormous metabolic costs of activity for their enormous forms.
 - They do, they'r just magically disguised as humanoids and so most people, other than those who are kept in a constant state of fear, or discredited as madmen, are not aware of the fact.
@@ -1160,7 +1185,9 @@ When using dragons, one should take into account their intelligence and vast exp
 
 ___
 ### Flame Dragon, Normal
+
 **Size category**: Huge (15ft x 15ft)
+
 - Evade: -2, Armour +2
 - Reach: 10ft, 15ft (tail)
 - [DEX save]: -2, [STR save]: +2
@@ -1196,6 +1223,7 @@ ___
 |Grapple, Restrain, Throw, Sunder|+17|||
 |Elemental Blast (fire)|+11|4d6 + 2d6/dice||
 |Elemental Blast, Greater (fire)|Threshold=20|4d6 + 2d6/MP dice|(Linear)|
+
 - A dragon's elemental blast counts as natural damage.
 - A dragon's elemental blast deals 2d6 damage for every extra MP/SP die added and has a base damage of 4d6. The attack/threshold is constitution based (breath weapon).
 - A dragon may use MP or SP dice (up to 10) to fuel its elemental blast.
@@ -1234,6 +1262,7 @@ Regardless of world, a flame dragon is a formidable entity. If it wishes to avoi
 If it knows that a combat is inevitable, it will likely prepare the ground with "Balance of Element", or "Forest of Flame". It will almost certainly prepare a secret path for a potential escape route if appropriate.
 
 Alternatively it may strike first, and depending on its aim and opponent, employ varying strategies.
+
 - A dragon does not fight on the ground, or in small spaces, unless there is a very good reason to do so, as this negates many of the advantages its flight gives it.
 - If the purpose is intimidation or domination, it will generally attack from above, devastating its opponents with its fire breath and pyromancy, and only descend and finish the fight in a demonstrative melee, making liberal use of "broad strike" if it faces multiple foes.
 - If a dragon truly wishes to destroy or obtain something it will usually infiltrate through a secret path, or "travel by flame", or in one of its alternate forms. In most cases, it will open up with "Forest of Flame" or a breath attack. If its opponent has particularly dangerous abilities, it will use "Isolate Essence" to seal them before proceeding.
@@ -1243,7 +1272,9 @@ Alternatively it may strike first, and depending on its aim and opponent, employ
 
 ___
 ### Fire Dragon, Lesser
+
 **Size category**: Large (10ft x 10ft)
+
 - Evade: -1, Armour +1
 - Reach: 5ft (long), 10ft tail
 - [DEX save]: -1, [STR save]: +1
@@ -1270,6 +1301,7 @@ ___
 |Claws|+16|1d8+8|Reach 5ft (long)|
 |Bite|+16|1d12+8|Poison: Threshold=23 or lose 1d6 point of DEX|
 |Tail|+13|1d6+6|Reach 10ft (long)|
+
 - A lesser dragon's attack count as having "draconic source" (level 4 material), this is already taken into account for the stat block.
 - A lesser dragon can make 3 attacks as part of "multi-attack II", of these it can use bite and tail only once each.
 
@@ -1278,6 +1310,7 @@ ___
 |Grapple, Restrain, Throw, Sunder|+13|||
 |Elemental Blast (fire)|+10|4d6 + 2d6/dice||
 |Elemental Blast, Greater (fire)|Threshold=20|4d6 + 2d6/MP dice|(Linear)|
+
 - A lesser dragon's elemental blast counts as natural damage.
 - A lesser dragon's elemental blast deals 2d6 damage for every extra MP/SP die added and has a base damage of 3d6. The attack/threshold is constitution based (breath weapon).
 - A dragon may use MP or SP dice (up to 10) to fuel its elemental blast.
@@ -1315,7 +1348,9 @@ A lesser dragon is significantly weaker in melee than its more powerful brethren
 
 ___
 ### Frost Dragon, Normal
+
 **Size category**: Huge (15ft x 15ft)
+
 - Evade: -2, Armour +2
 - Reach: 10ft, 15ft (tail)
 - [DEX save]: -2, [STR save]: +2
@@ -1342,6 +1377,7 @@ ___
 |Claws|+21|2d8+10||
 |Bite|+21|2d12+10|Poison: Threshold=26 or lose 1d6 point of DEX|
 |Tail|+18|2d6+8|Reach 15ft|
+
 - A dragon's attack count as having "draconic source" (level 4 material), this is already taken into account for the stat block.
 - A dragon can make 3 attacks as part of "multi-attack II", of these it can use bite and tail only once each.
 
@@ -1350,6 +1386,7 @@ ___
 |Grapple, Restrain, Throw, Sunder|+16|||
 |Elemental Blast (ice)|+12|4d6 + 2d6/dice||
 |Elemental Blast, Greater (ice)|Threshold=21|4d6 + 2d6/MP dice|(Linear)|
+
 - A dragon's elemental blast counts as natural damage.
 - A dragon's elemental blast deals 2d6 damage for every extra MP/SP die added and has a base damage of 4d6. The attack/threshold is constitution based (breath weapon).
 - A dragon may use MP or SP dice (up to 10) to fuel its elemental blast.
@@ -1389,7 +1426,9 @@ Its mastery of water magic grants it the ability to [scry](../08-spell-list.md#s
 
 ___
 ### Frost Dragon, Lesser
+
 **Size category**: Large (10ft x 10ft)
+
 - Evade: -1, Armour +1
 - Reach: 5ft (long), 10ft tail
 - [DEX save]: -1, [STR save]: +1
@@ -1416,6 +1455,7 @@ ___
 |Claws|+17|1d8+9|Reach 5ft (long)|
 |Bite|+17|1d12+9|Poison: Threshold=20 or lose 1d6 point of DEX|
 |Tail|+14|1d6+7|Reach 10ft (long)|
+
 - A lesser dragon's attack count as having "draconic source" (level 4 material), this is already taken into account for the stat block.
 - A lesser dragon can make 3 attacks as part of "multi-attack II", of these it can use bite and tail only once each.
 
@@ -1424,6 +1464,7 @@ ___
 |Grapple, Restrain, Throw, Sunder|+14|||
 |Elemental Blast (ice)|+10|3d6 + 2d6/dice||
 |Elemental Blast, Greater (ice)|Threshold=20|3d6 + 2d6/MP dice|(Linear)|
+
 - A lesser dragon's elemental blast counts as natural damage.
 - A lesser dragon's elemental blast deals 2d6 damage for every extra MP/SP die added and has a base damage of 3d6. The attack/threshold is constitution based (breath weapon).
 - A lesser dragon may use MP or SP dice (up to 7) to fuel its elemental blast.
@@ -1459,7 +1500,9 @@ A lesser dragon is significantly weaker in melee than its more powerful brethren
 
 ___
 ### Earthbound Dragon, Normal
+
 **Size category**: Huge (15ft x 15ft)
+
 - Evade: -2, Armour +2
 - Reach: 10ft, 15ft (tail)
 - [DEX save]: -2, [STR save]: +2
@@ -1485,6 +1528,7 @@ ___
 |Bite|+23|3d8+11|Poison: Threshold=26 or lose 1d6 point of DEX|
 |Tail|+20|2d6+9|Reach 15ft|
 |Grapple, Restrain, Throw, Sunder|+16|||
+
 - A dragon's attack count as having "draconic source" (level 4 material), this is already taken into account for the stat block.
 - A dragon can make 3 attacks as part of "multi-attack II", of these it can use bite and tail only once each.
 
@@ -1523,6 +1567,7 @@ Whatever its motives, a dragon pursues its goals and objectives with the mindset
 Earthbound dragons are formidable opponents, even though they lack flight and the usual dragon breath. It will use its considerable intelligence and centuries of experience to the best of its ability. It will use gnomes and earth elementals in order to keep it appraised of potential threats and dispatch golems to neutralise them if appropriate. Its lairs are guarded by ["Greater Cosmic Seal"](../08-spell-list.md#greater-cosmic-seal) and ["Greater Domain"](../08-spell-list.md#greater-domain) as well as lesser spells. If combat is inevitable, it will prepare with ["False Regrowth"](../08-spell-list.md#false-regrowth) before engaging.
 
 In combat an earthbound dragon studies its opponents and strikes quickly and mercilessly.
+
 - It will use spells such as "slumber" and "dusk" to its advantage.
 - It will use narrow spaces together with its dig speed to strike foes from below. It will not fight in wide open spaces, or beneath the open sky unless it must.
 - It will use spells such as down to knock down flying opponents, and is quite capable of attacking it with boulders, thrown with the force of a trebuchet.
@@ -1534,7 +1579,9 @@ In combat an earthbound dragon studies its opponents and strikes quickly and mer
 
 ___
 ### Earthbound Dragon, Lesser
+
 **Size category**: Large (10ft x 10ft)
+
 - Evade: -1, Armour +1
 - Reach: 5ft (long), 10ft tail
 - [DEX save]: -1, [STR save]: +1
@@ -1560,6 +1607,7 @@ ___
 |Bite|+18|2d8+10|Poison: Threshold=23 or lose 1d6 point of DEX|
 |Tail|+15|1d6+8|Reach 10ft (long)|
 |Grapple, Restrain, Throw, Sunder|+16|||
+
 - A lesser dragon's attack count as having "draconic source" (level 4 material), this is already taken into account for the stat block.
 - A lesser dragon can make 3 attacks as part of "multi-attack II", of these it can use bite and tail only once each.
 

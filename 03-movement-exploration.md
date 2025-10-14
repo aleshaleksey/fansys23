@@ -38,7 +38,7 @@ A certain level of freeform RP and common sense are recommended.
       - [Summary of Full Travel Rules](#summary-of-full-travel-rules)
     - [Travel and getting lost](#travel-and-getting-lost)
     - [Scouting, prospecting and exploration](#scouting-prospecting-and-exploration)
-    - [Harvesting, Hunting and Mining (very draft)](#harvesting-hunting-and-mining-very-draft)
+    - [Harvesting, Hunting and Mining (very draft)](#harvesting-hunting-and-mining)
     - [Camping](#camping)
     - [Breaking and Entering](#breaking-and-entering)
       - [Breaking](#breaking)
@@ -58,6 +58,7 @@ A certain level of freeform RP and common sense are recommended.
 
 ___
 ## Load and Carrying Capacity
+
 How much a character can carry is determined by its STR and its size. As a character approaches its carrying limit, it begins to suffer penalties. The categories are as follows. These capacities are modified by the ["Mighty I"](06-abilities.md#mighty-i) and ["Mighty II"](06-abilities.md#mighty-ii) boons.
 
 ### Weight limits table
@@ -85,6 +86,7 @@ How much a character can carry is determined by its STR and its size. As a chara
 ### Dragging
 
 Dragging a load, or pulling a vehicle, burdens a character somewhat differently to carrying the same load.
+
 - Characters dragging objects below the "light load" limit can move at full speed, unless on difficult terrain. This limit is doubled for slick surface, or pulling vehicles.
 - When dragging a "medium" or "heavy" load, a character's base speed is halved and they cannot sprint. This limit is likewise doubled for slick surfaces and pulling vehicles.
 - When dragging objects heavier than their "heavy load" limit, characters move at half of their walk speed and no faster than 10ft. In addition they cannot dig.
@@ -95,9 +97,11 @@ For every size above medium, the carrying capacity limits are doubled. For every
 
 ___
 ## Local and Global Movement
+
 Here basic movement is described. It is based, where possible on observations. The main forms of movement are walk, climb, swim, flight and dig. Each one has its place and its pace. There are also two exotic types of movement which are not covered yet because we can live without it. Movement is measured in feet per round (ft), or miles per hour (mph). A very rough translation is 1mph = 10ft/round. This is known as the "global movement speed".
 
 ### Global Movement, Pushing and Fatigue
+
 Typically, an experienced traveller can continue their journey for 10 hours per day at a reasonable pace (equal to their global movement speed). If a traveller has a fly speed with limitations on fly duration, the time in flight counts against this total journey time of 10 hours. Thus, if a character has a flight time of 2 hours, and they spend those 2 hours on the wing, not only do they expend their flight time, but also they have only 8 hours of journey time remaining. During any rest, 2 hours of journey time is regained, with all 10 hours being regained during a long rest.
 
 A character may "push" beyond that time, but for every hour of "pushing" themselves in this way, the character expends 1 SP die (and hence 2 SP). A character who has ran out of SP or SP dice, can continue to push, at the cost of 1HP per hour, however, in this case they immediately gain the "crippled" condition.
@@ -105,19 +109,25 @@ A character may "push" beyond that time, but for every hour of "pushing" themsel
 In addition, a traveller can move faster than their global movement speed (see ["Walking"](#walking) below), however the SP dice/ HP cost is applied at shorter intervals.
 
 #### Running and Fatigue
+
 [Running](04-combat.md#actions-in-combat) and [sprinting](04-combat.md#actions-in-combat) cause most characters to tire more quickly than moving at their base speed. Any time spent "running" or "sprinting" is subtracted from global journey time as usual.
+
 - For ["walk"](#walking), ["swim"](#swimming) and ["climb"](#climb) modalities a character can **run** for [CON] hours without fatiguing. Thereafter, for every 10 minutes of running the character must succeed a [CON] save (Threshold=[16 + number of previous saves]) or expend 1 SP die. If it has no SP die, it loses 1 HP instead and gains the crippled condition in one of the limbs that it uses for running. This limit is not reset when a character stops running. After a character takes a ["short rest"](04-combat.md#short-rest), it regains 1 hour of run time. After a ["long rest"](04-combat#long-rest) it regains all of its run time.
 - For the ["flight"](#flight) modality, a character can run for [CON] x 10 minutes without fatiguing. Thereafter, for every 10 minutes of running the character must succeed a [CON] save (Threshold=[16 + number of previous saves]) or expend 1 SP die. If it has no SP die, it loses 1 HP instead and gains the crippled condition in one of its limbs that it uses for running. This limit is not reset when a character stops running. After a character takes a ["short rest"](04-combat.md#short-rest), it regains 10 minutes of run time. After a ["long rest"](04-combat#long-rest) it regains all of its run time.
 - Run time is shared between all movement modalities. Thus, a character that has +3 [CON] and has flown (at run speed) for 30 minutes, has no flight run time left, and 2 hours 30 minutes for the other modalities. If the same character had instead ran (walking modality, run speed) for 1 hour, it has no run time left for its flight.
 - For other modalities, running is not possible.
 
 #### Sprinting and Fatigue
+
 [sprinting](04-combat.md#actions-in-combat) is explosive movement and causes fatigue much more quickly than running. Any time spent "sprinting" is subtracted from global journey time as usual.
+
 - For ["walk"](#walking) and ["swim"](#swimming) modalities a character can **sprint** for [STR] [rounds](04-combat.md#flow-of-combat) (6 seconds per round) without fatiguing. Thereafter, for every round of sprinting the character must succeed a [CON] save (Threshold=[16 + number of previous saves]) or expend 1 SP die. If it has no SP die, it loses 1 HP instead and gains the crippled condition in one of its limbs, if it hasn't already. This limit is not reset when a character stops sprinting, but resets at the end of a ["short rest"](04-combat.md#short-rest). A character can also reset its sprint limit by not moving faster than "walk" (1x base speed) for at least 1 minute and expending an SP die.
 - For other modalities sprinting is not possible.
 
 #### Fatigue Table
+
 The table below summarises the 
+
 |Speed |Modalities       |Limit             |Push period|On short Rest    |On long rest|Other|
 |------|-----------------|------------------|-----------|-----------------|------------|-----|
 |Walk  |All except Fly   |10 hours          |1 hour     |regain 2 hour    |regain full |-    |
@@ -127,11 +137,14 @@ The table below summarises the
 |Sprint|Walk, Swim       |[STR] rounds      |1 round    |regain full      |regain full |regain full limit for 1 minute rest + 1 SP die|
 ___
 ### Difficult Terrain
+
 It is common when adventuring to find less than ideal terrain. Loose, rocky ground or turbulent waters are typical examples. Movement speed is halved over this kind of terrain. Most entities cannot "sprint" in these conditions and if they try to run, must make a Threshold=12 ["Acrobatics"](05-skills.md#acrobatics) check or fail to progress (failure with snake eyes means falling prone).
 
 ___
 ### Walking
+
 Most entities with a "walk" speed can:
+
 - **Crawl (5ft/round)**: Crawling is movement when prone, dragging one's torso along the ground. It makes one harder to spot or hit with ranged attacks, but is laborious and slow. Entities without a "walk" speed can only crawl overland.
 - **Walk (1x base speed)**: This either represents ordinary walking, or bursts of rapid movements with pauses and changes of direction. Typically a fit humanoid can walk for hours without suffering ill effects. For a base human this is 30ft or 3mph.
 - **Run (2 x base speed)**: This represents a steady jog, a very brisk walk, or rapid movement with obstacles and changes of direction. Typically a humanoid can run for [CON] hours before fatiguing, and the penalty is subsequently applied every 10 minutes. For a base human this is 60ft or 6mph.
@@ -141,41 +154,53 @@ Most entities with a "walk" speed can:
 
 ___
 ### Climb
+
 Climbing is upwards or downwards movement over steep or near vertical terrain. Entities with a "climb" speed can move along this kind of surfaces at their stated speed. Entities with a climb speed must still succeed a "climb" roll when climbing, but they can always choose to take care on this roll.
+
 - **Non climbers:** Entities without a climb speed move at 1/4 their base speed (usually "walk"). They cannot "run" or "dash" without succeeding a "climb" roll at a -5 penalty In addition they must succeed on ["climb"](05-skills.md#climb) rolls to stay attached to make progress or even stay attached to the surface.
 - **Prone and falling**: A climbing entity that falls prone or is knocked prone is considered prone and is subject to the falling rules (which means it accelerates downwards and then comes to a violent halt).
 
 ___
 ### Swimming
+
 Entities with a swim speed are often well adapted to their liquid medium, but are either incapable of moving on land or very clumsy. Entities with a swim speed typically have speeds of 60-120ft and can perform "walk", "run" and "sprint" actions in their liquid medium (usually water).
+
 - **Not Swimmers:** Entities without a swim speed either do not swim at all (they sink), or are poor swimmers and can only move at 1/2 base speed (no "run" or "sprint" possible) and must make a [SKILL] or [ABILITY] check or start drowning/sinking if conditions are not ideal.
 - **Difficult terrain**: Turbulent waters or strong currents, kelp beds and thick syrup are examples of difficult terrain.
 - **Load**: An entity with a medium load or more have their swim speed reduced to 0. Entities that exceed their heavy load limit when swimming sink. 
 
 ___
 ### Digging
+
 Moving through solid earth is a slow and difficult process. Moving through rock is often impossible even for diggers. Entities with a dig speed are not slowed by narrow passages. Natural speeds are 5-10ft. Unless otherwise stated Digging entities cannot dig through solid rock (natural or worked), or metal.
+
 - **Non-diggers**: entities that cannot move through earth, sand, or rock.
 - **Run, Sprint**: Digging entities cannot run or sprint when digging.
 - **Load**: Digging entities cannot dig with a heavy, or heavier, load.
 
 ___
 ### Flight
+
 Flight is an intriguing and liberating mode of movements. To terrestrial entities a flying being seems to have the freedom of the wind. Natural flying entities move between 80-240ft per round.
+
 - **Non-flyers**: Entities without a fly speed cannot fly. But they can jump.
 - **Sprint**: Flying entities do not sprint.
 - **Difficult terrain and falling prone**: Turbulent skies, precipitation and high altitude count as difficult terrain. A flying entity that falls prone is welcomed by the firm embrace of mother earth (it falls).
 
 #### Limitations of Flight
+
 However this comes with limitations:
+
 - An entity with natural flight can only fly when carrying a light load and at most light armour.
 - They cannot use a shield or "unwieldy"/"heavy" weapon. (But they can use a buckler)
 - They must have a wing span of at least 1ft per [3lb / Size] of weight. (with size=[1, 2, 3, 4] for ["small", "medium", "large", "huge"] entities respectively). This has general penalties and in particular this causes penalties on [DEX] and [STR] saves when not in flight. Furthermore, naturally entities cannot dig and have a penalty to swim and walk speeds.
 - If they slow to lower than 1/2 their speed in a given terrain, they must land or fall.
-- A flying entity that is knocked **"prone"**, or tripped, drops a distance equal to its speed and can only move at half speed on its next turn. If this drop causes it to hit the ground, it suffers all of the consequences of falling (see ["Falling"](#Falling) section).
+- A flying entity that is knocked **"prone"**, or tripped, drops a distance equal to its speed and can only move at half speed on its next turn. If this drop causes it to hit the ground, it suffers all of the consequences of falling (see ["Falling"](#falling) section).
 
 #### Flight Parameters
+
 Not all flying entities are equal in flight. There are three parameters by which flying ability is assessed.
+
 - **Speed**: Usually this is 80-240ft per round, but can be lower.
 - **Endurance**: A flying entity can fly at least 1 hour per long rest, but no longer than 10 hours (the normal overland journey time). A character that has exhausted their flight time for a given long rest may expend 1 SP die (or 1 HP is they have no SP/ SP dice remaining) to gain 1 minute of flight time. 
   - Characters with a flight speed can increase their flight endurance with the ["Enduring Flight"](06-abilities.md#enduring-flight) boon.
@@ -194,6 +219,7 @@ Not all flying entities are equal in flight. There are three parameters by which
     - They can hover without falling.
 
 #### Notes on Flight
+
 **NB**: Flight "time" is fully regained at the end of a ["long rest"](04-combat.md#long-rest). Likewise, half of an entity's flight time (but no more than 2 hours) is regained at the end of a ["short rest"](04-combat.md#short-rest).
 
 A character with flight may ["push"](#global-movement-pushing-and-fatigue) beyond their allocated fly time, however the penalty is applied every 10 minutes, instead of every hour.
@@ -204,13 +230,16 @@ __If a group wishes to simplify__ these rules, it is recommended to use "Good" f
 
 ___
 ### Walk and Flight Logic
+
 Most terrestrial entities have legs and walk. Some do not. They slither. They are an exception. We ignore them for now. Using small to large animals for reference, quadrupeds have a walking speed of 2-6 miles per hour (mph), a running speed of 8-20mph, and a sprint pace of 16-40mph. There are fewer bipeds, but they are capable of similar speeds (see ostriches). Humanoids are comparatively slow. 3-4mph (~5-6ft/s) is a typical walk. The fastest sprinter reaches about 24mph (100m/9s, 35ft/s), an average human springs at ~16mph (100m/15s, 24ft/s). The speeds we have quoted in the rules are a bit lower as conditions on an adventure are seldom as ideal as on a modern running track. Likewise you will notice that I have used [STR] for sprinting. This is in keeping with sports physiology.
 
 Most natural flying entities of tiny to large sizes are fast. Indeed there are fewer flying entities that can fly slowly than those that can't. Typical cruise speeds of birds are 10-60mph, with maximum speeds being as much as twice as high. On the other hand, flying entities usually need space to change direction and sacrifice sturdiness for the highly energetic activity of flight. Few flying entities in the real world weight much more than 10kg.
 
 ___
 ### Vigorous Motion
+
 Vigorous motion is when moving quickly over uneven terrain, when there is significant shaking and difficult to predict bumps. Vigorous motion occurs when:
+
 - A character (or their mount, if mounted), uses the "run" or "sprint" action.
   - A character "grappled", "restrained" or "immobilised" by an entity that is in vigorous motion is also considered to be in vigorous motion.
 - A character is on board of a land based vehicle that is travelling off road, or over roads with obstacles.
@@ -219,13 +248,16 @@ Vigorous motion is when moving quickly over uneven terrain, when there is signif
 - Other circumstances where the group determines it to be appropriate. As a guideline, if it is difficult/impossible to drink a half-full cup of tea without spilling it due to motion effects, then one is probably undergoing vigorous motion.
 
 The effects of vigorous motion are as following:
+
 - Spellcasters casting, or concentrating on, a spell must succeed on a Threshold=12 concentration save or lose the spell (it dissipates).
 - Ranged attacks take a -2 penalty on the attack roll.
 - Disadvantage on ["Fortify"](05-skills.md#fortify), ["Sleight of Hand"](05-skills.md#sleight-of-hand), ["Tinker"](05-skills.md#tinker), ["Heal"](05-skills.md#heal) and ["Spellworking"](05-skills.md#spellworking) rolls.
 
 ___
 ## Exploration
+
 Exploration and travel are some of the main activities outside of combat and social interactions. When exploring and travelling characters and rules deal with:
+
 - Navigation and getting lost.
 - Dealing with environmental hazards.
 - Dealing with hazards from other entities and parties.
@@ -238,7 +270,9 @@ The rules should accommodate to all of these activities without trivialising the
 In many games where events move at the speed of plot, travel and exploration rules can be eschewed. However in some games, where exploration, strategy or time sensitive chase-like quests are present, they add an extra layer of depth.
 
 ### Overview
+
 Travel from A to B can be summarised as follows:
+
 1. Choose destination.
 2. Choose the desired modality (foot, mount, vehicle, magic, etc).
 3. Calculate distance, time and resources needed (can be done by game master at the party's own risk!).
@@ -252,20 +286,24 @@ Travel from A to B can be summarised as follows:
 
 ___
 ### Local and Global Movement
+
 This is described above in "Local and Global Movement" above, but there are some additional nuances. Tactical movement represents generally bursts of high intensity movement over short time periods and is measured in ft/round, usually limited to a few minutes at a time. On the other hand global movement reflects movement over a long range and is measured in mph. It often abstracts away elements such as winding paths and minor obstacles. Thus, an entity's speed on a local level in ft/round is ten times greater than its speed in mph for overland travel. However, most entities are assumed to be able to travel for 10 hours per day, hence the *total distance* travelled in a day in mph is equal to its speed in ft/round.
 
 For entities and parties that travel via **walk**, **climb**, **dig** or **blink** speed, when travelling between two points that have no defined distance by road (and maybe no road), and only a map distance as the crow flies, the distance travelled is multiplied x2. This represents lack of direct roads, and often meandering routes over off road terrain. For entities using **walk**, **climb** or **dig** speed in **swamp**, **deep forest**, or **mountain** distance as the crow flies is multiplied by x4. Entities with a **cosmic** or **fly** speed do not suffer from this kind of impediment.
 
 ___
 #### Flying and Turbulence
-Entities that move via a **Fly** speed have their base movement speed halved in severe precipitation and wind. If precipitation or wind is extreme, such entities must make a skill roll (usually "fly") against the storm's threshold number or make no progress. An entity may attempt to move at 1/4 speed and take damage every hour equal to 2d6 damage plus 2d6 per size category above medium. An entity failing the roll by more than 5 in extreme precipitation falls to the ground. An entity failing the roll by more than 5 in extreme wind is blown away in the prevailing wind direction at 1/2 the wind speed. If this leads to the collision with some kind of fixed obstacle (mountain, big tree, wall), it suffers damage as if it had fallen 100ft (see [fall damage](#Falling)).
+
+Entities that move via a **Fly** speed have their base movement speed halved in severe precipitation and wind. If precipitation or wind is extreme, such entities must make a skill roll (usually "fly") against the storm's threshold number or make no progress. An entity may attempt to move at 1/4 speed and take damage every hour equal to 2d6 damage plus 2d6 per size category above medium. An entity failing the roll by more than 5 in extreme precipitation falls to the ground. An entity failing the roll by more than 5 in extreme wind is blown away in the prevailing wind direction at 1/2 the wind speed. If this leads to the collision with some kind of fixed obstacle (mountain, big tree, wall), it suffers damage as if it had fallen 100ft (see [fall damage](#falling)).
 
 ____
 ### Terrains
+
 A character may encounter many an environment on their travels, these are broken down into the following categories.
 
 ___
 #### Roads
+
 Roads are paths that are usually built by humanoids to simplify travel. They can be built over any sort of terrain, are generally easy to travel, and provide sufficient flat, even land to set up camp (although such a camp would definitely be frowned upon!). One is likely to encounter other travellers and bandits along the road.
 
 - **Navigation Threshold:** 5
@@ -274,6 +312,7 @@ Roads are paths that are usually built by humanoids to simplify travel. They can
 
 ___
 #### Plains
+
 Plains refers to open grasslands, with occasional bush, hill and small groves. They are generally not difficult to navigate, although due to lack of features can be a nightmare in thick fog, and provide little shelter from ill weather. Plentiful flat land makes it easy to set camp. One can encounter all kind of beasts upon the plains, as well as shepherds, and occasionally, monsters.
 
 - **Navigation Threshold:** 10
@@ -282,6 +321,7 @@ Plains refers to open grasslands, with occasional bush, hill and small groves. T
 
 ___
 #### Woodlands
+
 This refers to lightly forested terrain, with many glades and thin undergrowth. While not easy to navigate, due to lack of horizon, setting camp is seldom troublesome (although may require a small amount of clearing). All kinds of beings can be found in the woods. Usually one can encounter beasts and woodsmen. One occasion one may find monsters or even fey in this terrain.
 
 - **Navigation Threshold:** 15
@@ -290,6 +330,7 @@ This refers to lightly forested terrain, with many glades and thin undergrowth. 
 
 ___
 #### Hills
+
 This refers to uplands with gentle peaks and valleys that can be traversed by humanoids without special equipment. The slopes can be wooded, and the valleys might be swampy. The weather here may be harsher and more changeable than upon the plains. The shorter view-horizon can make navigation tricky, and the sloping and wild terrain provides certain difficulties when setting camp. The people and beasts that dwell here are generally hardy, and one is more likely to stumble upon monsters, outlaws and ruins hidden in the hills.
 
 - **Navigation Threshold:** 10
@@ -298,6 +339,7 @@ This refers to uplands with gentle peaks and valleys that can be traversed by hu
 
 ___
 #### Urban/Ruins
+
 Villages, towns, cities, castles, temples, and their ruins. Environments where (usually!) humanoids have built their societies. They are characterised by regular structures of wood or stone, usually arranged into districts. This makes setting camp fairly simple, but can their sometimes labyrinthine logic and short view-horizon can make them a nightmare to navigate. In a city one is likely to encounter its inhabitants. In a ruin one is likely to encounter monsters and ghosts of bygone days.
 
 - **Navigation Threshold:** 15
@@ -306,6 +348,7 @@ Villages, towns, cities, castles, temples, and their ruins. Environments where (
 
 ____
 #### Deep Forest
+
 This refers to truly wild and ancient forests, largely untouched by the hand of man. The trees here are often ancient, and the forest floor is littered with fallen trunks, covered in undergrowth and criss-crossed by swamps. That said, finding a place to camp in this kind of place is often not difficult as long as it is properly cleared. One might encounter nothing in this quiet wilderness, or one might find great monsters, mysterious beasts, lost tribes, ruins and fey.
 
 - **Navigation Threshold:** 20
@@ -314,6 +357,7 @@ This refers to truly wild and ancient forests, largely untouched by the hand of 
 
 ___
 #### Fells
+
 This refers to higher, steeper hills, often with many gnarly groves, fast flowing rivers and swampy plateaus. These are generally wild places, inhabited by beasts, monsters and dark spirits.
 
 - **Navigation Threshold:** 15
@@ -322,6 +366,7 @@ This refers to higher, steeper hills, often with many gnarly groves, fast flowin
 
 ___
 #### Subterranean
+
 This refers to warrens, burrows and cave networks. This is an inhospitable environment for humanoids, difficult to ameliorate and navigate. There are numerous difficulties here, starting from cave ins, and ending in narrow, impassible tunnels, dead ends, and barren sections where it is impossible to find food or water.
 
 - **Navigation Threshold:** 20
@@ -330,6 +375,7 @@ This refers to warrens, burrows and cave networks. This is an inhospitable envir
 
 ___
 #### Desert
+
 Desert here refers to inhospitable plains, be they of sand or snow. It is not necessarily difficult to navigate in fair weather, but the extremes of heat, shifting terrain, and potentially disastrous storms make setting a proper camp difficult. A traveller is unlikely to encounter many beasts or other travellers in these wastes. However, it would not be out of place to find ancient ruins, complete with undead denizens, to be attacked by great monsters that dwell beneath the snows or sands, or to meet a messenger of the divine.
 
 - **Navigation Threshold:** 10
@@ -337,6 +383,7 @@ Desert here refers to inhospitable plains, be they of sand or snow. It is not ne
 - **Global movement cost:** x2
 ___
 #### Mountains
+
 Mountains refers to high and inhospitable peaks, be they of rock or snow. Travel here is slow, and sometimes impossible without proper preparation and equipment. The weather can change quickly and dramatically. The harsh terrain makes finding and ameliorating a safe camping place difficult. Mountains are often a true wilderness. Though one can find a herd of ibex, or a flock of vultures, one can also find lonely hermitages, and on the most isolated of peaks, the lairs of the greatest of mortals- dragons.
 
 - **Navigation Threshold:** 10
@@ -345,6 +392,7 @@ Mountains refers to high and inhospitable peaks, be they of rock or snow. Travel
 
 ___
 #### Swamp
+
 Swamps refers to treacherous wetlands, with little solid ground to set foot on or camp. There are often woodlands and plains of high reeds to be found here, which obstruct navigation, as well as plentiful animal life, and, of course monsters. In addition, it is easy to catch various diseases in these wetlands.
 
 - **Navigation Threshold:** 15
@@ -357,10 +405,13 @@ ___
 Inclement weather has two severities: **Severe** and **Extreme**. This is a simplification of (usually!) real weather which is made to make the rules more manageable. Groups that desire more granularity are free too be more liberal with their sliding scale. As expected, "extreme" weather usually has a stronger effect than "severe" weather. There are four general types of weather hazard, and it is possible to find more than one in any given situation. In some cases a clever group may find ways of using weather hazards to its advantage.
 
 #### Fair weather
+
 Characters may be so lucky as to find themselves travelling in fair weather that brings no direct hazards with it. In such weather it is not to cold or too hot, the wind is not strong enough to cause much of a problem, even for long ranged attacks, precipitation is, at worst, not much stronger than a drizzle, and visibility is good enough to see for miles. The main danger of this kind of weather, if anything, is that it probably does not cause problems for your foes either!
 
 #### Precipitation
+
 This can be rain, snow, sleet, or even ashfall. This can lead to poor visibility, difficult movement due to boggy ground or accumulation, or even collapse of structures (snow, ash).
+
 - **Severe**:
   - +2 to thresholds for scouting (navigation and observe).
   - +2 to thresholds to set camp (fortify, CON saves).
@@ -372,7 +423,9 @@ This can be rain, snow, sleet, or even ashfall. This can lead to poor visibility
   - A character exposed to extreme precipitation must succeed a CON save (threshold=[16 + hours exposed]) every hour, or lose 1 SP die. When all SP dice are lost, it loses 1 HP instead.
 
 #### Wind
+
 Wind can damage structures, knock prone smaller entity and impede ranged attacks and movement. It is particularly dangerous for flying entities.
+
 - **Severe**: Gale force winds of 38 mph or higher.
   - +2 to thresholds to set camp (fortify, CON saves).
   - Targets are considered to be 2 range increment further out than they are (this reduces the maximum range of the ranged weapon).
@@ -387,7 +440,9 @@ Wind can damage structures, knock prone smaller entity and impede ranged attacks
   - Flying characters must make a ["fly"](05-skills.md#fly) roll, or risk falling. Even if they succeed, they move at 1/4 speed and take damage (see "[flying and turbulence](#flying-and-turbulence)).
 
 #### Visibility
+
 Poor visibility is usually caused be caused by extreme precipitation, fog, murky water, cosmic clouds or darkness. It is easier to hide, and harder to detect, navigate and aim in poor visibility. The game here defines visibility ranges for poor and zero visibility, although the there will be times when these ranges can be a little lower, or a little higher, since weather, unsurprisingly, varies.
+
 - **Severe (poor)**:
   - +2 to thresholds for scouting (navigation and observe).
   - Characters have light concealment from entities beyond 20ft away, heavy concealment from entities beyond 60ft away (although the GM may rule that this distance is greater or lesser). With respect to targets beyond 300ft, characters that rely on sight are effectively ["blinded"](10-conditions-types.md#conditions-in-detail).
@@ -397,9 +452,11 @@ Poor visibility is usually caused be caused by extreme precipitation, fog, murky
   - Characters have light concealment beyond 5ft and heavy concealment beyond 10ft. Beyond 20ft characters that rely on sight are effectively "[blinded](10-conditions-types.md#conditions-in-detail). NB: There are times when zero visibility is truly zero visibility and a character is considered blinded beyond their fingertips, although this is rare.
 
 #### Temperature
+
  Very low or high temperatures. Exposure to temperatures that an entity is not acclimatised to can quickly lead to exhaustion (hypothermia, hyperthermia, dehydration) or even death. It is more difficult to recuperate under these conditions. In particular, trying to recuperate in unameliorated camps may require a roll, or be impossible. Unlike the other weather hazards, temperature has a third category: *lethal*. This represents extremes of heat/cold that will kill entities that are not resistant in a manner of minutes.
  
  Some effects of the cold can be mitigated by wearing cold weather garments. Mitigating the effects of heat is, unfortunately, more difficult.
+
  - **Severe**: This represents temperatures of more than 30 degrees below, or 20 degrees above ideal conditions for a character (+40/-10 degrees celsius for a human).
    - +2 to thresholds for camping (fortify, CON saves).
    - A character exposed to severe temperature must succeed a CON save (threshold=[12 + hours exposed]) every hour, or lose 1 SP die. When all SP dice are lost, it loses 1 HP instead.
@@ -432,7 +489,9 @@ Of course groups that operate in exotic settings should not shy away from creati
 
 ___
 ### Travel rolls and terrain (summary)
+
 All travel rolls are determined by the terrain type, the weather modifier from inclement weather (severe or extreme) and the familiarity bonus. They are defined in the following tables. It should be noted that weather modifiers from different categories stack.
+
 - In groups where travel rolls are seen as a burden they can be dropped, but please keep in mind that this will affect the value of certain skills and abilities.
 - There is also a simplified table provided if the full rule is deemed burdensome.
 
@@ -484,7 +543,9 @@ _Summary table for camping:_
 
 ___
 ### Travel and getting lost
+
 When travelling on unfamiliar terrain there is generally a chance of getting lost. Likewise sabotage or illusion can facilitate this. This works as follows:
+
 - At the start of a stage of travel (usually start of the day or start of the journey) the navigator makes a navigation roll (Or uses a spell or ability).
 - On a success travel proceeds as normal. For every 5 points above the threshold, the journey time is reduced by 10% (maximum 30%).
 - On a failure, the DM rolls a D8 to determine the direction the party gets lost in, or makes something up in the direction of plot.
@@ -495,19 +556,23 @@ Generally one does not get lost on familiar terrain. Likewise if one has a guide
 ___
 ### Scouting, prospecting and exploration
 Characters and groups that enter new or unfamiliar terrain will often need to explore it in some way to learn useful (or occasionally useless) information about it, this includes:
+
 - General topography and characteristics. (exploration)
 - Flora, fauna and monsters. (exploration or scouting)
 - Presence of populated centres and ruins. (exploration)
 - Presence and prevalence of resources. (Prospecting)
 
 Different skills are used for each one. In general the thresholds for success are determined by the terrain table (see above), but in some cases skills, abilities and magics used for obfuscating and misleading can substitute the threshold value. In general exploration can be detailed (exploring a haunted house for clues to a murder), or cursory (exploring the mountainside for signs of marmots).
+
 - Cursory exploration takes 4 hours per square mile of threshold 5 & 10 terrain, and a full day for threshold 15 & 20 terrain.
 - Detailed exploration takes between 10 minutes and 1h per 100sq-feet of terrain depending on how much "stuff" there is to explore.
 - For detailed exploration it is recommended that the locale is described by the DM and the players prompted to focus on a certain part of it. At this point the threshold should probably be determined by the general difficulty table.
 
 ___
 ### Harvesting, Hunting and Mining
+
 Harvesting, hunting and mining are essentially all harvesting of different types of resources from the environment. Sometimes these activities can be an adventure in and of themselves, so this refers to "mundane" harvesting, mining and hunting of resources that will not fight back.
+
 - After a successful "prospecting"/"scouting" roll a character can make a harvesting roll.
 - The duration of the "harvesting" and the magnitude of success determine the yield of the harvest. Failure with snake eyes results in the damage to the tools used (or HP loss or injury if the tool was the character's body or spirit).
 - Exceeding the threshold by 5 allows to double the yield or half the time. Exceeding by 10 or more, allows both.
@@ -521,7 +586,9 @@ Harvesting, hunting and mining are essentially all harvesting of different types
 
 ___
 ### Camping
+
 In hostile or wilderness environments characters must often take additions steps before they can safely and effectively rest. These steps are:
+
 1. Find suitable site (usually a [prospect](05-skills.md#investigateprospect) or [navigate](05-skills.md#investigateprospect) roll vs terrain camping threshold + weather scouting modifier). Successful check gives advantage on ameliorate/fortify check.
 2. Skill roll to [ameliorate/fortify](05-skills.md#fortify) the site vs terrain camping threshold + weather camping modifier.
 3. Optional: Set sentry and watch for trouble. Successful fortification roll gives the camp cover, and the sentry advantage on rolls to detect ambushes coming for them (usually using the ["observe"](05-skills.md#observe) skill).
@@ -529,6 +596,7 @@ In hostile or wilderness environments characters must often take additions steps
 5. Regain resources (HP, SP, MP) if the rest is successful (see ["Chapter 4: Combat: Rest and Recuperation"](04-combat.md#rest-and-recuperation)).
 
 Trying to rest on an site which is not ameliorated triggers a CON save, with the threshold determined by terrain, weather (see tables above) and any bonuses from special abilities and spells. A character who fails this CON save does not regain resources from the rest. If they fail by more than 6, they are not able to adequately drink, eat or sleep, which brings them closer to ["starvation"](#characters-starvation-and-other-bad-ways-to-die), if they require drink, food or sleep.
+
 - In cold weather, a blanket gives +2 to this save, while a bedroll gives +4.
 - A tent gives +2 to ameliorate/fortify, a yurt obviates the need for such a roll. This does not apply on terrain where it is not possible to place a tent or yurt, such as in swamps, dense forests or on steep slopes.
 - If a site is not ameliorated, wearing medium or heavy armour gives a penalty to this CON save equal to the armour rating (instead of making a separate roll).
@@ -539,13 +607,16 @@ The full rules on resting can be found in [Rest and Recuperation](04-combat.md#r
 
 ___
 ## Environmental hazards
+
 Depending on the nature of an environment being explored, it is possible to encounter various hazards. This ranges from weather related hazards like storms, extreme heat and , to terrain dangers such as raging rivers, avalanches and rockfall, to "man"-made dangers such as traps in dungeons.
 
 ___
 ### Breaking and Entering
+
 Quite often characters may need to break objects/structures or enter closed/locked spaces.
 
 #### Breaking
+
 Objects, buildings and equipment have hit points (sometimes called "durability"). These hit points are a little bit different from the hit points that characters have. Every time an object is hit with an attack, count the number of dice of damage that are rolled: This is the amount of damage dealt to the object. So if an object is hit with 3d4 damage or 3d12 damage, it takes 4 points of damage. 
 
 Furthermore, if the ["material level"](12-equipment-economy.md#material-level) of the weapon is higher, the attacked object takes an extra point of damage for every level of difference. Likewise, if the weapon is of a lower material level, the damage is reduced by one point for every level of difference.
@@ -559,6 +630,7 @@ On occasion, this method of breaking an object is impractical, impossible, or ju
 It should be noted that structures, barriers, and entities, created by spells do not use these rules and are treated as normal entities, unless the spell states otherwise.
 
 #### Object hit point (durability) table
+
 The below table contains durability and recommended breaking threshold for various objects. DMs and groups should tweak these in accordance with various factors. For example, a set of rusty manacles should be easier to break than a set of manacles that has been properly maintained.
 
 NB: For weapon and armour durability see the ["weapons"](11-weapons-armour.md#weapon-table) and ["armour"](11-weapons-armour.md#the-armour-table) tables.
@@ -602,12 +674,14 @@ NB2: All these items are immune to poison damage.
 2. Cutting an opening in the yurt counts as 2 points of damage, collapsing the yurt as 8.
 
 Certain tools and weapons overcome the damage resistance of objects. These are as follows:
+
 - A miner's pick overcomes the damage resistance of wooden, bone and stone objects, (dealing 1 die of damage to wooden objects, and 2 dice of damage to stone objects per hit).
 - A maul ignores 1 point of damage resistance of wooden, bone, stone and metal objects.
 - Ballistas that use "bullets" as projectiles, catapults and canons ignore 1 point of damage resistance of wooden, bone, stone and metal objects. 
 - Axes ignore the damage reduction of wooden objects.
 
 ___
+
 ### Bindings and Restraints
 Characters may end up being tied up, shackled, manacled, put in a stockade or otherwise restrained. Likewise a character may restrain their foes (or allies). In essence restraints come in two flavours: The kind whose escape threshold depends on the skill of character applying them, and the kind where it doesn't. For example, how well one ties a rope depends on how well well one can tie a rope, while manacles often snap shut, and are locked in place at the turn of a key. Secondly different restraints can apply different conditions. For example a rope can be used to ["restrain"](10-conditions-types.md#conditions-in-detail) or ["immobilise"](10-conditions-types.md#conditions-in-detail) a target, while a stockade only to ["restrain"](10-conditions-types.md#conditions-in-detail).
 
@@ -634,8 +708,10 @@ ___
 ### Terrain Hazards (TODO)
 
 ___
+
 ### Falling
 A typical humanoid has a terminal velocity of about 100mph, or 1000ft per round. In the first round of falling a falling humanoid falls about 360ft. In most cases they land on the same round. In those cases they have only a "reaction" between them and the swift embrace of the Earth Mother. If the distance exceeds 360ft, they may take other actions, although for the sake of casting spells this counts as vigorous motion. One who falls from the back of a dragon, may have several minutes to contemplate their fate and do something about it.
+
 - Entities between "large" and "small" inclusive take 1d8 damage per 10ft fallen. The first 1d8 of damage can be negated with an ["acrobatics"](05-skills.md#acrobatics) roll. The threshold=12 if the fall is planned and 16 if the fall is not planned. This caps at 360ft (36d8), at which point they generally reach terminal velocity.
 - "Huge" and larger entities are beloved by gravity and take 1d12 damage for every 10ft they fall. They have a higher terminal velocity and also unfavourable physical properties. Sudden drops are not kind to them. The damage also caps at 360ft at (36d12).
 - "Tiny" and smaller entities take 1d4 damage for every 10ft fallen, as they typically have a lower terminal velocity.
@@ -651,6 +727,7 @@ Most entities that come into contact with fire, suffer heat/fire damage. Fire da
 
 When entering a fire, the damage is dependant on both the heat of a fire. When being on fire, the amount of damage depends on the size of the affected entity.
 
+___
 #### Places that are on fire
 
 When entering an area that is on fire or making contact with a fire a character must succeed a CON or CHA save (natural or supernatural fire) or take damage. The save and damage is repeated at the start of each turn. Once the character has failed at least one such save, they take damage automatically each turn until they leave the area that is on fire (or are otherwise no longer in contact with it). Once a character is no longer in or in contact with the fire, they suffer no further consequences unless they took damage after failing one of the CON or CHA saves. Otherwise the character is "on fire" (See below).
@@ -663,9 +740,11 @@ Damage from fire is usually determined by size (as per the table below), but can
 |10-20 ft        |2d8   |16|
 |20 ft or more   |3d8   |20|
 
+___
 #### Being on fire
 
 An entity that is on fire takes fire damage at the start of each of its turns, in a manner determined by its size. An entity may put out the fire by:
+
 - Dropping prone and then use its "move action" to roll and hence attempt a DEX save at the start of its turn.
   - The save may instead be made at any other point during its turn, but in that case it still suffers the damage at the start of its turn.
 - The entity may also use a "full round action" to attempt a "Fortify" skill check to do the same. Since "Fortify" roll uses a "full round action" the entity cannot also attempt the DEX save, which would use its "move action".
@@ -682,7 +761,9 @@ An entity that is on fire takes fire damage at the start of each of its turns, i
 
 ___
 ### Characters, starvation, and other bad ways to die
+
 Most characters are morals and therefore require **sustenance** and suffer from **conditions**. This can cause certain problems in the great outdoors and other hazardous locales. While starvation is deterioration and death from hunger, all this section uses an umbrella term "starvation" for all four forms of deprivation classified here.
+
 - A mortal that goes without sustenance for a given period of time begins to deteriorate and eventually die.
 - A mortal that is deteriorating without sustenance stops deteriorating when sustenance is returned. However if sustenance is withdrawn within a given time period, the deterioration begins immediately.
 - The time periods can be modified by various factors. Usually environmental factors.
@@ -707,6 +788,7 @@ The loss of dice due to suffocation, dehydration, starvation and insomnia is con
 
 ___
 ## Supernatural Terrain
+
 Not all terrain is natural or "worked" (ie "man made"). It is not that rare, in a fantastic world, to find supernatural terrain.
 
 This can be labyrinths and lands where distances to not follow the normal laws of physics and geometry (non euclidean spaces). For example the enchanted forest where walking in a straight line will return you to your starting point, but walking in a circle will still get you to a different point altogether.
@@ -723,6 +805,7 @@ This game defines rules for some kinds of supernatural terrain, but due to the v
 
 ___
 ### Spirit Realms
+
 A spirit realm is generally, but not necessarily, a metaphorical layer of reality, which exists overlaid onto the material realm. In various practices and game systems, it is often referred to as the "astral plane", "astral realm", "otherside" or "otherworld". It is characterised as having shallow and deeper layers, which are increasingly difficult to access for material beings and are inhabited by increasing "inhuman" spiritual beings and concepts. Perhaps even gods. Depending on the fantasy world being built, this might be the only major "otherworld", or it might be one of many. It should be noted that a journey to a spirit realm is not necessarily literal, and may be interpreted as the journey of the traveller's essence. The hazards of travelling to and from the spirit realm can also be thought of as resulting from the stresses and contradictions of travelling between worlds where the laws of existence are not necessarily compatible. The system assumes that a spirit realm of some kind exists, although the game can function without it.
 
 **Shallow** layers of the spirit realm are adjacent to the material realm and are often easy to wonder in an out of unintentionally. Often they are inhabited by [fey](10-conditions-types.md#spiritual), monsters and minor spirits. The laws governing these layers are often quite similar to the material world, with only subtle differences. Mortals can dive into shallow layers of the spirit realm, and return, without consequences.
@@ -733,12 +816,15 @@ A spirit realm is generally, but not necessarily, a metaphorical layer of realit
 
 ___
 #### Spirit Realm Rules: Shallow
+
 There are no general hazards in the shallows of the Spirit Realm. However, upon leaving, the traveller must make an INT save (Threshold=16) or be disoriented by the passage between realms. An entity that fails this save has disadvantage on "navigate" rolls for the next 24 hours. If the traveller rolls snake eyes, they forget the way to that spirit realm. If they entered via a secret path, they forget that path and must find it anew. If they used a different modality, they cannot use it again unless (to enter that realm) they are taught it again by the ruler of that realm.
 
 #### Spirit Realm Rules: Intermediate
+
 Firstly, all the hazards of the "shallow" realms apply. Secondly, the DM should keep track of the number of short rests (long rests count as 2, full rests count as 7) took in the intermediate layers. Upon returning to a shallower layer of the spirit world or to the material world, the traveller must make an INT save vs a Threshold=[16 + number of short rests]. Upon failure it expends a number of SP and MP dice (each) equal to the number of short rests it spent in the intermediate realms. In addition the traveller suffers from one or more of "catatonic", "glowing", "charmed", "aphonic", "blinded" and/or "blinded". If the traveller succeeds on the save, it does not suffer from the conditions, but expends half of the SP and MP dice it would on a fail.
 
 #### Spirit Realm Rules: Deep
+
 - **Firstly**, all the hazards of travelling to shallower realms apply.
 - **Secondly**, upon entering the deep layer, a traveller must succeed a CHA save vs a Threshold=20 or be "charmed" by the realm and unable to leave willingly. The traveller succeeds the save automatically if they are in possession of an item or symbol associated with a being or place from the material realm that is precious to them.
 - **Thirdly**, for every long rest or longer that the traveller spends in the realm, they must succeed a CON save Threshold=[20 + number of rests] or gain a characteristic or physical change associated with the realm. This may be purely cosmetic or it may be functional. The change remains upon returning to the mortal realm.
@@ -746,6 +832,7 @@ Firstly, all the hazards of the "shallow" realms apply. Secondly, the DM should 
 
 ___
 ### Afterlives
+
 Afterlives take many forms, but share one common property: A soul that has reached its afterlife cannot return to the mortal realm without significant limitations and consequence. Often, it is for a brief interval of time, often but a day (see ["Revenant"](08-spell-list.md#revenant)). In other case, one, or more often *many*, souls must be exchanged in order to keep it in the material realm (see ["Profane Resurrection"](08-spell-list.md#profane-resurrection)). Some spells *bring the afterlife into the material realm* (see ["Undying realm"](08-spell-list.md#undying-realm)). Afterlives are often "spirit realms", but creative groups may have their own vision. Travel to an afterlife is much more often than not, a one way journey.
 
 The explanation given for the difficulties surrounding afterlives, is that the gods that govern death and the dead guard their realms and subjects jealously, and are loath to let them go. Others reason that the laws of creation allot only a fixed time to each mortal in the material realm, and extending that time is breaking, or at the very least bending, the laws of creation themselves. Others still, explain it with the finality of death: Death cannot be reversed, and turning it back is merely recreating an ephemeral simulacrum of those who once lived.
@@ -753,6 +840,7 @@ The explanation given for the difficulties surrounding afterlives, is that the g
 Where an afterlife is part of the Spirit Realm, it is found in the "deep" layers, hence all the hazards of the deep layer of the spirit realm exists there.
 
 #### General Afterlife rules
+
 - All rests take twice as long as usually (so a long rest might last 16 hours (or two days) instead of 8 hours (or 1 day)).
 - Spells and supernatural abilities that heal HP, SP and MP damage, as well as those that cure conditions, do not function.
 - Undead lose 1 HP for every round spent in an afterlife realm (aka, they graduate to full dead and are released).
@@ -764,11 +852,13 @@ Where an afterlife is part of the Spirit Realm, it is found in the "deep" layers
 
 ___
 ### Secret Paths
+
 A secret path is a hidden, supernatural path or route that connects two locations. These can be natural or supernatural locations, but more often than not, one end is a natural location, while the other is supernatural. The secret path itself is ALWAYS supernatural. Secret paths are created by mages and supernatural beings, sometimes for their own purposes, and sometimes inadvertently.
 
 A secret path can be obviously supernatural to those who walk it (eg, a moonbeam leading over water into the light, or a bridge of skull-like stepping stones through a mire or blood), or it can be indistinguishable from the natural terrain where it starts (a forest path unseen to all those not walking it, but leading to a place completely different than where one would expect it to lead by physical laws).
 
 #### Rules of Secret Paths
+
 - A secret path cannot be seen or located unconditionally without "true sight", or if it was created by an active spell, "spell sight"
 - A secret path can be found without special senses via a ["Knowledge: Arcana"](05-skills.md#knowledge) roll to identify its start (equal to the creator's threshold + 6). Ordinary "observe" does nothing here.
 - A secret path that has been found can be followed with a ["Navigate"](05-skills.md#navigate) roll equal to the creator's threshold.

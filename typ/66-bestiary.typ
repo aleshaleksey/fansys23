@@ -1,11 +1,11 @@
 #import "fansys-core.typ": chapterindex, link2
 
 #set page(
-  paper: "a4",
+  paper: "a5",
   margin: (
     x: 40pt,
-    bottom: 50pt,
-    top: 50pt,
+    bottom: 45pt,
+    top: 45pt,
   ),
   // header: align(right)[_Fantasy Comittee | FS_],
   header: context {
@@ -50,7 +50,7 @@
     line(length: 60%, start: (20%, 0%), stroke: 0.7pt + luma(140))
     align(center)[-- #number --]
   },
-  columns: 2,
+  columns: 1,
 )
 #set par(
   justify: true,
@@ -80,43 +80,11 @@
 }
 
 #place(top + center, float: true, scope: "parent")[= FanSys 23]
-#place(top + center, float: true, scope: "parent")[== A New System for Fantasy Worlds]
+#place(top + center, float: true, scope: "parent")[== A Bestiary for Fantasy Worlds]
 
 #pagebreak()
 #outline(target: heading.where(level: 1))
 
-#include "build/01-quick-start.typ"
-#pagebreak()
-#include "build/03-movement-exploration.typ"
-#pagebreak()
-#include "build/04-combat.typ"
-#pagebreak()
-#include "build/05-skills.typ"
-#pagebreak()
-#include "build/06-abilities.typ"
-#pagebreak()
-#include "build/07-magic-and-spellcasting.typ"
-#pagebreak()
-#include "build/09-races.typ"
-#pagebreak()
-#include "build/10-conditions-types.typ"
-#pagebreak()
-#include "build/11-weapons-armour.typ"
-#pagebreak()
-#include "build/12-equipment-economy.typ"
-#pagebreak()
-#include "build/13-crafting-imbuing.typ"
-#pagebreak()
-#include "build/14-poisons-and-diseases.typ"
-#pagebreak()
-#include "build/15-charm-etc.typ"
-#pagebreak()
-#include "build/16-recipes.typ"
-#pagebreak()
-#include "build/08-spell-list.typ"
-#pagebreak()
-#include "build/02-base-rules.typ"
-#pagebreak()
 #include "build/beasts-and-plants.typ"
 #pagebreak()
 #include "build/constructs.typ"

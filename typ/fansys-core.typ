@@ -30,3 +30,29 @@
     .after(inclusive: true, here())
   outline(title: none, target: t)
 }
+
+#let spellindex() = context {
+  // Get first level chapters
+  let chapters = query(
+    heading.where(level: 2),
+  )
+
+  // Get start variables
+  let start = here().page()
+  let last = query(heading).last().location()
+  let not_last = false
+  // Get next chapter page
+  for c in chapters {
+    let p = c.location().page()
+    if p > start {
+      last = c.location()
+      not_last = true
+      break
+    }
+  }
+  let t = heading
+    .where(level: 3)
+    .before(inclusive: true, last)
+    .after(inclusive: true, here())
+  outline(title: none, target: t)
+}

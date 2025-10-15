@@ -113,21 +113,4 @@
 #pagebreak()
 #include "build/16-recipes.typ"
 #pagebreak()
-#include "build/08-spell-list.typ"
-#pagebreak()
 #include "build/02-base-rules.typ"
-#pagebreak()
-#include "build/beasts-and-plants.typ"
-#pagebreak()
-#include "build/constructs.typ"
-#pagebreak()
-#include "build/divines.typ"
-#pagebreak()
-#include "build/humanoids.typ"
-#pagebreak()
-#include "build/monsters-and-dragons.typ"
-#pagebreak()
-#include "build/profanes.typ"
-#pagebreak()
-#include "build/spirits.typ"
-#pagebreak()

@@ -527,3 +527,11 @@ ___
 - Add [Forbiddance](08-spell-list.md#forbiddance) spell (needed a more absolute barrier spell).
 - Modify [Summon Beast](08-spell-list.md#summon-beast) to be level beasts up faster after 2 MP (it is otherwise useless).
 - Modify all summoning spells to allow summons to appear either at the end of this turn or the start of next turn, but they still can't act until the next turn.
+- Make [Winter's Touch](08-spell-list.md#winters-touch) a bit less horific.
+- Modify [Bear's Claws](08-spell-list.md#bears-claws) to scale with level a bit more.
+- Decrease the minimum distance for 1 round falls on [Glide](08-spell-list.md#glide).
+- Allow upcast [cure](08-spell-list.md#cure) to increase damage to undead.
+- Global [fairy shelter](08-spell-list.md#fairy-shelter) now last 8 hours (long enough to sleep or rest).
+- Adjust[Least curse](08-spell-list.md#least-curse), to be a touch less dangerous to the caster.
+- Add STR save for [storm ward](08-spell-list.md#storm-ward).
+

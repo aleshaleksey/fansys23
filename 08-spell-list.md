@@ -225,7 +225,7 @@ ___
 |Components|kinetic|
 |Conditions|deafened|
 |Limitation|The spell ends if you or an ally attacks the target in any way|(-1)
-|Save|Wis, repeated end of turn|
+|Save|WIS, repeated end of turn|
 
 **Description**: The target is "deafened" (+2). (4-4)
 
@@ -242,7 +242,7 @@ ___
 |Duration|Instantaneous|
 |Components|incantation| (+1)
 |Conditions|prone|
-|Save|Wis|
+|Save|WIS|
 
 **Description**: The earth attracts the target and it falls prone. (4-4)
 
@@ -260,7 +260,7 @@ ___
 |Components|kinetic|
 |Conditions|invisible*|
 |Limitation|The spell ends if you or an ally attacks the target in any way|(-1)
-|Save|Int|
+|Save|INT|
 
 **Description**: You become "invisible" to 1 target (+2).
 
@@ -277,7 +277,7 @@ ___
 |Duration|Instantaneous|
 |Damage|1d8+[Sup] Fire|+3
 |Components|incantation, kinetic| -1
-|Save|Cha|
+|Save|CHA|
 
 **Description**: Call forth flames at a spot. Ignite flammable material in one square, violently if desired. If cast violently, the flames do damage to any entity in the square. (4-4)
 
@@ -296,9 +296,9 @@ ___
 |Focus|A lump of clay|-1
 |Conditions|"charmed"|+4
 |Limitation|No effect on entities other than elementals[air]|-2
-|Save|Wis|
+|Save|WIS|
 
-**Description**: If used on an elemental[air], or enchanted wind it must make a Wis save, else it is charmed for one round. Natural, air and wind can be manipulated as follows:
+**Description**: If used on an elemental[air], or enchanted wind it must make a WIS save, else it is charmed for one round. Natural, air and wind can be manipulated as follows:
 
 + Create or erase severe wind effect within a 5ft radius of the square. This disperses airborne effects (eg mist, poison, dust, etc).
 + Blow out or kindle a small fire (size "small" or smaller).
@@ -320,7 +320,7 @@ ___
 |Duration|instantaneous|
 |Components|incantation, kinetic| -1
 |Limitation|Target must be in air (ie not submerged in a liquid or buried in earth)|
-|Save|Str|
+|Save|STR|
 
 **Description**: Call for a violent burst of wind to strike a target. The effect is a very small explosion. The explosion is typically audible from 300ft away.
 
@@ -337,7 +337,7 @@ ___
 |Duration|instantaneous|
 |Damage|1d8+[Sup] Cold|+3
 |Components|incantation, kinetic|-1
-|Save|Con|
+|Save|CON|
 
 **Description**: Still the movement inside of water. Freeze a volume of water, or a material or creature containing water, violently if desired. If cast violently the rapid cooling damages any entity on the square. (4-4)
 
@@ -356,9 +356,9 @@ ___
 |Focus|A lump of clay|-1
 |Conditions|"charmed"|+4
 |Limitation|No effect on entities other than elementals[earth]|-2
-|Save|Wis|
+|Save|WIS|
 
-**Description**: If used on an elemental[earth], or enchanted ground it must make a Wis save, else it is charmed for one round. Natural, unworked earth (but not solid rock) can be manipulated as follows:
+**Description**: If used on an elemental[earth], or enchanted ground it must make a WIS save, else it is charmed for one round. Natural, unworked earth (but not solid rock) can be manipulated as follows:
 
 + Move earth up to 10ft, as long as there is an open conduit of earth for it and space in the destination square (ie, you cannot float the earth through air, water and other medium).
 + Cause the square to become difficult terrain, or difficult terrain caused by earth features to become freely passable.
@@ -379,9 +379,9 @@ ___
 |Focus|A block of ice or a handful of water|-1
 |Conditions|"charmed"|+4
 |Limitation|No effect on entities other than elementals[water]|-2
-|Save|Wis|
+|Save|WIS|
 
-**Description**: If used against an elemental[water], or an enchanted body of water or ice it must make a Wis save, else it is charmed for one round. Natural water and ice can be manipulated as follows:
+**Description**: If used against an elemental[water], or an enchanted body of water or ice it must make a WIS save, else it is charmed for one round. Natural water and ice can be manipulated as follows:
 
 + Move water up to 20ft, as long as it can flow along a surface (ie it cannot pass through solid objects (or similar) or float through the air or vacuum).
 + Melt ice or freeze water up to a volume of 1 cubic ft (the ice does not melt at the end of the round, but melts naturally).
@@ -402,7 +402,7 @@ ___
 |Focus|A lit candle or torch|-1
 |Conditions|"charmed"|+4
 |Limitation|No effect on entities other than elementals[fire]|-2
-|Save|Wis|
+|Save|WIS|
 
 **Description**: If used on a magical flame or fire elemental, it has a save, else it is charmed for one round. Natural fire can be manipulated as follows:
 
@@ -444,7 +444,7 @@ ___
 |Range|close|
 |Duration|instantaneous|
 |Components|incantation|
-|Attack|SAP+[Wis]|
+|Attack|SAP+[WIS]|
 |Damage|1d8+[Sup] Piercing| + 3
 |Limitation|Caster must be touching the ground| -1
 
@@ -481,7 +481,7 @@ ___
 |Duration|1 minute| +1
 |Components|incantation, kinetic| -1
 |Conditions|-|
-|Save|Cha|
+|Save|CHA|
 
 **Description**: Attempts to warm an area and anything in it to body temperature. If the area is affected by any "Extreme temperature: Cold" category, it is considered as being one step milder.
 
@@ -587,12 +587,11 @@ ___
 |Range|close|
 |Duration|12 minutes|+3
 |Components|incantation|+1
-|Save|Wis|
+|Save|WIS|
 
-**Description**: The target grows sturdy claws on all appendages, potentially damaging footwear. The target gains a climb speed (30ft). The claws can also be used as a weapon with a Str/Dex based attack, dealing [1d4 + [Str/Dex]] damage and using "strike"/"light blade" proficiency group.
+**Description**: The target grows sturdy claws on all appendages, potentially damaging footwear. The target gains a climb speed (30ft). The claws can also be used as a weapon with a STR/DEX based attack, dealing [1d4 + [STR/DEX]] damage and using "strike"/"light blade" proficiency group.
 
-**Upcast**: Increase the duration by 12 minute for each extra MP die above 1.
-(~)
+**Upcast**: Increase the duration by 12 minute for each extra MP die above 1. For every 2 MP dice above 1, the dice size category of the claws increases by one for the sake of damage dealt (see ["Dice size rules"](02-base-rules.md#dice-size-rules))
 
 ___
 ### Beast Speech
@@ -607,15 +606,13 @@ ___
 |Duration|1 hour (1 week+)|+6
 |Components|incantation,kinetic|
 |Material|A tuft of fur, a feather and a few scales|
-|Save|Cha|
+|Save|CHA|
 
 **Description**: Grants the target the ability to communicate with animals within a reasonable range (about 30ft, may be larger or smaller depending on the form of communication). The communication can be vocal, tactile, or visual.
 
 **Upcast (local)**: Add an extra target for every 1MP die above 1 of cost paid.
 
-**Global**: Creates a zone with a 100ft radius where all entities can communicate with animals (Cha save on entry negates). For every 2MP dice above 2, the duration increases by 1 week.
-
-(-2+6+2)=(4+2)
+**Global**: Creates a zone with a 100ft radius where all entities can communicate with animals (CHA save on entry negates). For every 2MP dice above 2, the duration increases by 1 week.
 
 ___
 ### Chill Blood
@@ -632,7 +629,7 @@ ___
 |Focus|A faceted clear crystal|
 |Concentration|yes|
 |Limitation|Entity cannot be immune to "fear" and "charm"|-1
-|Save|Cha|
+|Save|CHA|
 
 **Description**: Cool the target's passions, granting the following:
 
@@ -666,7 +663,7 @@ ___
 
 + Immunity to "fear".
 + Disadvantage vs "charm".
-+ It deals an extra +3 to damage with any Str based melee attacks and "supernatural" fire based abilities it has.
++ It deals an extra +3 to damage with any STR based melee attacks and "supernatural" fire based abilities it has.
 
 **Limitation**: If a target is already "frightened", the effect does not automatically end, although the target does get a new saving throw against the effect.
 
@@ -686,7 +683,7 @@ ___
 |Components|incantation, kinetic|-1
 |Conditions|Grappled|+2
 |Limitations|There must be plant life (at least "medium") within 120ft|-2 
-|Save|Dex or Str|-1
+|Save|DEX or STR|-1
 
 **Description**: Vigorous plant life sprouts and grasps at all targets in range. Entities that start their turn within the area of effect must succeed a DEX or STR save or be "restrained". The save is repeated every turn that an entity is in the area of effect. The area of effect is also transformed into difficult terrain for the duration of the spell.
 
@@ -712,9 +709,7 @@ ___
 
 **Description**: The target of the spell may attempt to go unnoticed in areas watched by various scrying magics or within wards such as ["Warded Ground"](#warded-ground). An unwilling target may negate the effect with a successful WIS save.
 
-In order to do so, the target of "Fade" must succeed an INT save vs the Threshold of the one who cast the detection magic the first time that the magic would normally detect it. On a successful save, the detection magic does not detect the target or any objects on its person (within its carrying capacity) or supernatural effects that are affecting it. Repeated saves are not necessary.
-
-If the detection magic is cast at a higher MP dice cost level (higher MP dice cost of local casting) than "Fade", or if detection is by a supernatural ability of "class B" or higher, then the target of "Fade" makes its save at disadvantage.
+If the detection magic has the same MP dice cost as the casting of "Fade", the detection is automatically thwarted. If the detection magic is of a higher level, or by a supernatural ability of class B or higher which is not a spell, the target of "Fade" must succeed an INT save vs the Threshold of the one who cast the detection magic the first time that the magic would normally detect it. On a successful save, the detection magic does not detect the target or any objects on its person (within its carrying capacity) or supernatural effects that are affecting it. Repeated saves are not necessary.
 
 **Upcast**: Firstly, the spell lasts for an extra 12 minutes for every extra MP die above 1 used to cast it. Secondly the spell becomes effective against spells that were cast at the same "spell level" (disadvantage no longer applies).
 
@@ -733,9 +728,9 @@ ___
 |Components|incantation, kinetic| -1
 |Conditions|glowing|+2
 |Concentration|yes|-3
-|Save|Cha|
+|Save|CHA|
 
-**Description**: Harmless, supernatural flames spring forth in the area and persist, providing a dim illumination and potentially adhering to entities in the area. All targets that do not succeed a Cha save are "glowing" until the end of the spell. The target does not repeat the save at the end of its turn.
+**Description**: Harmless, supernatural flames spring forth in the area and persist, providing a dim illumination and potentially adhering to entities in the area. All targets that do not succeed a CHA save are "glowing" until the end of the spell. The target does not repeat the save at the end of its turn.
 
 **Global**: When cast globally the spell illuminates an area with a radius of 100ft and lasts for 1h plus 20 min for each 2MP dice above 2. This use is popular at festivals and parties.
 
@@ -752,7 +747,7 @@ ___
 |Duration|1 min|+1
 |Components|incantation, kinetic|-1
 |Limitation|No effect on air aligned entities, damage from falls only|-3
-|Save|Int|
+|Save|INT|
 
 **Description**: You call upon earth spirits to be gentle to whoever falls upon them, making the target resistant to damage taken when falling. In addition the damage it takes when hitting the ground is reduced by 1d12+[Sup] points. (+5)
 
@@ -771,9 +766,9 @@ ___
 |Duration|1min+ (1 hour+)|+3
 |Components|incantation|+1
 |Concentration|true (false)|
-|Save|Str|
+|Save|STR|
 
-**Description**: An extreme wind emanates from you. It is more than strong enough break small branches and drop fruit from trees, or blow away unattended objects in range that weight less than 50lb. Any entity that starts its turn in the area that does not succeed a Str Save is blown back 10ft and lands prone.
+**Description**: An extreme wind emanates from you. It is more than strong enough break small branches and drop fruit from trees, or blow away unattended objects in range that weight less than 50lb. Any entity that starts its turn in the area that does not succeed a STR Save is blown back 10ft and lands prone.
 
 **Upcast**: Increase the radius of the cone by 5ft for each extra MP die above 1.
 
@@ -794,9 +789,9 @@ ___
 |Focus|A flower associated with daylight, or a crystal|
 |Damage|1d4+[SUP] light|
 |Concentration|local|
-|Save|Cha (avoid effects), Dex (no damage)|
+|Save|CHA (avoid effects), DEX (no damage)|
 
-**Description**: The caster summons a mote of light and binds it to a valid target, giving it the "glowing" condition. An unwilling target may break the effect with a successful Cha save, thus ending the spell. The mote sheds bright light in 40ft and dim light in total radius of 100ft.
+**Description**: The caster summons a mote of light and binds it to a valid target, giving it the "glowing" condition. An unwilling target may break the effect with a successful CHA save, thus ending the spell. The mote sheds bright light in 40ft and dim light in total radius of 100ft.
 
 Incorporeal ["undead"](10-conditions-types.md#profane-1) and ["fiends"](10-conditions-types.md#profane-1) have disadvantage on attacks and saves within the radius of the bright light.
 
@@ -816,12 +811,12 @@ ____
 |Range|close|
 |Duration|instantaneous|
 |Components|incantation|(+1)
-|Save|Cha, harmless, usually|
+|Save|CHA, harmless, usually|
 |Healing| 1HP|(+5)
 
 **Description**: Restore 1HP to a target.
 
-**Special**: Undead must make a Cha save or take 1 point of divine damage. (1+5)=(4+2)
+**Special**: Undead must make a CHA save or take 1 point of divine damage. (1+5)=(4+2)
 
 **Upcast**: Target regains an extra HP per extra MP die above 1, to a maximum of 3. No extra effect on undead.
 
@@ -869,7 +864,7 @@ ___
 |Limitation|The target MUST have dealt damage to you, or directly caused a harmful effect to you since the end of your last turn.|-2
 |Damage (if reaction)|1d8+[Sup], fire|
 |Damage (if "secondary action")|2d8+[Sup], fire|
-|Save|Dex|
+|Save|DEX|
 
 **Description**: Invoke fiery vengeance on a target that dealt damage, or otherwise attacked you since the end of your last turn.
 
@@ -933,11 +928,11 @@ ___
 |Components|kinetic| -1
 |Conditions|Difficult terrain| +2
 |Limitations|Target is ground or rock attached to the ground|-2
-|Save|Dex|
+|Save|DEX|
 
 **Description**: Over the course of the round you gradually shape the surface layer of earth or natural, unworked stone, manipulating material to a depth of 5ft (if earth) or 1ft if rock.
 
-+ If this would encapsulate or otherwise trap an entity, it has enough time to use its reaction and escape the effect or do so by making a Dex save at advantage.
++ If this would encapsulate or otherwise trap an entity, it has enough time to use its reaction and escape the effect or do so by making a DEX save at advantage.
 + If the shape will not be structurally sound it collapses.
 + If you are attempting to make something artistic or structurally sound, you must make a "Tinker" or "Fortify" roll at disadvantage.
 
@@ -1030,7 +1025,7 @@ ___
 |Duration|1h+ (1 day+)|+6
 |Components|incantation, kinetic|-1
 |Limitation|Cover is only against targeted ranged weapon attacks|-1
-|Save|Cha|
+|Save|CHA|
 
 **Description**: A friendly wind blows around the target, giving it light cover against ranged weapons and +10 to movement speed.
 
@@ -1053,8 +1048,8 @@ ___
 |Components|incantation, kinetic|-1
 |Limitation|Target cannot be fire aligned to, or on fire|-1
 |Damage|1d12+[Sup]|+3
-|Attack|[SAP]+Int|
-|Save|Cha, spell fails|
+|Attack|[SAP]+[Int]|
+|Save|CHA, spell fails|
 
 **Description**: Collects a water weird and gives control to the target (may be the caster). The weird travels with the targets, unless the caster specifies that it is anchored to a square, in which case it is stationary. The target may make a single attack with the weird (15ft reach) as a "main action" on the same turn and on subsequent turns. The weird may also carry out the "grapple" or "shove"/"throw" combat manoeuvres, or make simple interactions with its environment, similar to a 15ft snake. The attack roll of the weird always uses the casters stats. (-3+3+6=4+2)
 
@@ -1078,7 +1073,7 @@ ___
 |Duration|1 min (24 h)|(+1)
 |Components|kinetic|
 |Conditions|Immobilised|
-|Save|Cha|
+|Save|CHA|
 
 **Description**: A bitter chill binds the target. The target and other entities in the area of effect must succeed a CHA save at the start of their turn or be "immobilised". The target repeats its save at the start of every turn. Targets that succeed the save instead have their base movement speed halved, and make [STR] and [DEX] saves at disadvantage for the next two turns. At the start of its 3rd turn after succeeding the save (or when the duration expires), the target is completely free of the spell. (+6)
 
@@ -1107,7 +1102,7 @@ ___
 |Concentration|yes (yes)|-3
 |Components|kinetic|
 |Focus|A wilted leaf of a dead spider|-1
-|Save|Con|
+|Save|CON|
 
 **Description**: Call a class C "disease" to afflict the target. Alternatively chose a single stat: The target has disadvantage with all attacks, rolls and saves governed by that stat.
 
@@ -1134,13 +1129,13 @@ ___
 |Focus|A black pearl|
 |Material|-|
 |Condition|Catatonic|
-|Save|Cha (avoid effects), Wis(avoid condition)|
+|Save|CHA (avoid effects), WIS(avoid condition)|
 
-**Description**: Much like a shadow of ["Least Flare"](#least-flare), the caster summons a shade and binds it to a valid target, giving it the "blinded" condition. An unwilling target may break the effect with a successful Cha save, thus ending the spell. The shade reaches out and extinguishes bright light within 40ft and dim light within a total radius of 100ft. This creates an area of darkness where [ordinary vision and low-light vision](02-base-rules.md#sight) are unable to penetrate, and entities that rely on this kind of vision are effectively ["blind"](10-conditions-types.md#conditions-in-detail). Other senses are not affected. 
+**Description**: Much like a shadow of ["Least Flare"](#least-flare), the caster summons a shade and binds it to a valid target, giving it the "blinded" condition. An unwilling target may break the effect with a successful CHA save, thus ending the spell. The shade reaches out and extinguishes bright light within 40ft and dim light within a total radius of 100ft. This creates an area of darkness where [ordinary vision and low-light vision](02-base-rules.md#sight) are unable to penetrate, and entities that rely on this kind of vision are effectively ["blind"](10-conditions-types.md#conditions-in-detail). Other senses are not affected. 
 
 [angels](10-conditions-types.md#divine-1) within 40ft of the shade have disadvantage on attacks and saves.
 
-As a secondary action the caster may command the shade to reach out and touch a target within 10ft. Doing this ends the darkness effect of "Dusk". The target must make a Wis save or be ["Catatonic"](10-conditions-types.md#conditions-in-detail) for a minute (repeated saves apply).
+As a secondary action the caster may command the shade to reach out and touch a target within 10ft. Doing this ends the darkness effect of "Dusk". The target must make a WIS save or be ["Catatonic"](10-conditions-types.md#conditions-in-detail) for a minute (repeated saves apply).
 
 **Upcast**: For each extra MP dice above 2 the spell may last for an extra hour.
 
@@ -1161,14 +1156,14 @@ ___
 |Concentration|yes|-3
 |Limitation|Can only be summoned on surfaces of earth or stone (including worked stone)|-2
 |Damage|2d12+[Sup] percussive|+6 (+2 for being able to do manoeuvres and skills)
-|Attack/Manoeuvre|SAP+[Wis]|
+|Attack/Manoeuvre|SAP+[WIS]|
 |Save|-|
 
 **Description**: Gather a "medium" sized hand out of the earth or chipped rock at the target square. The hand is manipulated as your own. It is considered proficient with any tools and attacks/manoeuvres you are proficient in. Including on the turn it is called, you may use your main action to move the hand 20ft and carry out one of the following actions:
 
-+ Grapple a target (SAP+[Wis]).
-+ Shove/Throw a target (SAP+[Wis]).
-+ Make a targeted melee attack (SAP+[Wis]).
++ Grapple a target (SAP+[WIS]).
++ Shove/Throw a target (SAP+[WIS]).
++ Make a targeted melee attack (SAP+[WIS]).
 + Make any manipulation you can with your own hand, but at disadvantage.
 + The hand provides heavy cover for any medium sized or smaller entity behind it.
 
@@ -1196,7 +1191,7 @@ ___
 |Components|kinetic|
 |Concentration|local|-3
 |Limit|The target has no control over its fly direction or speed|-2 
-|Save|Wis|
+|Save|WIS|
 
 **Description**: The target is no longer attracted to the earth. This has the following effect:
 
@@ -1207,7 +1202,7 @@ ___
 
 **Special**: The spell can be cast as a reaction when a target begins to fall. If cast as a reaction, the target descends at ~60ft per round. If cast as a main action on a target that is already falling, it begins to decelerate. This does nothing if the fall distance is less than ~360ft. Otherwise, if the fall is long, for every round the spell effects the target it decelerates 20ft per round (from 360ft), decreasing fall damage by 2d12 per round of falling, to an eventual safe speed of 60ft.
 
-**Global**: When cast globally the spell creates a spherical zone centred on the caster where this effect acts. For every 2 extra MP dice added above 4, the zone is expanded by 200ft or the duration increased by a day. Every entity that enters the area and does not succeed a Wis save is affected by the spell.
+**Global**: When cast globally the spell creates a spherical zone centred on the caster where this effect acts. For every 2 extra MP dice added above 4, the zone is expanded by 200ft or the duration increased by a day. Every entity that enters the area and does not succeed a WIS save is affected by the spell.
 
 ___
 ### Harvest
@@ -1222,7 +1217,7 @@ ___
 |Duration|instantaneous|
 |Components|incantation, kinetic|-1
 |Limitation|The point the spell is cast on must be at least somewhat fertile ground|-1
-|Save|Cha, harmless|
+|Save|CHA, harmless|
 
 **Description**: Obtain a day's worth of *unprepared* food and water for a large mortal of your choice (or 4 medium). In doing so the vitality of the ground in the casting area is depleted until the end of the next harvest season. (+2+8)
 
@@ -1247,14 +1242,14 @@ ___
 |Range|close|
 |Duration|instantaneous|
 |Components|incantation, kinetic|
-|Save|Cha, harmless, usually|
+|Save|CHA, harmless, usually|
 |Healing|3d4 (SP or MP) + [SUP] SP|
 
 **Description**: The caster channels their mental energies into restoring the physical or mental energies of the target. The target regains a number of SP equal to the caster's [SUP]. Then the caster rolls 3d4, declaring beforehand, how many go to the target's MP, and how many to its SP. The target's SP and MP are restored by the total rolled for each dice group.
 
 Thus if the caster declares 2d4 to SP and 1d4 to MP, the target will regain 2d4+[SUP] SP, and 1d4 MP.
 
-**Special**: Undead must make a Cha save or take 3 points of divine damage.
+**Special**: Undead must make a CHA save or take 3 points of divine damage.
 
 **Upcast**: Target regains an extra 2d4 SP or MP per SP die used.
 
@@ -1272,7 +1267,7 @@ ___
 |Components|kinetic|-1(5)
 |Focus|A handful of target's hair, and result creature's hair|-1(4)
 |Limitation|You must be familiar with the entity kind that you're transforming into|-1(3)
-|Save|Wis|
+|Save|WIS|
 
 **Description**: The target transforms into another entity of its type and subtype. It loses its template and instead gains the template of any valid entity that has both (see ["example templates"](09-races.md#example-template)):
 
@@ -1303,7 +1298,7 @@ ___
 |Condition|Invisible|+6
 |Limitations|If the target attempts to cause damage or a condition (ability, attack, manoeuvre, etc)| -2
 |Limitations|If the target casts a spell above MP 0, the spell breaks| -2
-|Save|Cha, harmless|
+|Save|CHA, harmless|
 
 **Description**: Make a target "invisible" for the duration.
 
@@ -1355,7 +1350,7 @@ ___
 |Concentration|yes|
 |Damage|1d8+[Sup] fire|+3
 |Condition|Lightly concealed|+2
-|Save|Con|
+|Save|CON|
 
 **Description**: Flames bloom on surfaces all around you, to a height of 10ft. Everything within the flames in lightly concealed.
 
@@ -1404,7 +1399,7 @@ ___
 |Limitation|The caster must be in contact with the target for the whole duration that the spell is being cast.|
 |Limitation|Global: The spell is weakened if the target is not willing.|
 |Limitation|Local: The target must be willing.|
-|Save|Special: Wis|
+|Save|Special: WIS|
 
 **Description**: The caster makes a target's promise hold real power. Chose a condition no higher than "B Class" from the table below. The spell then takes one of the following forms:
 
@@ -1431,7 +1426,7 @@ The condition counts as having a "supernatural" origin.
 |A|The target has vulnerability to one damage type|
 |S|The target is "immobilised" at the end of each of its turns, it may make a grapple roll as an attack action to attempt to break it at the start of it turn|
 
-**Special**: If the target is not aware that it is being bound, or makes the promise against its will, it may attempt a Wis save if it ever brakes the promise. On a success it avoids the effects of the spell.
+**Special**: If the target is not aware that it is being bound, or makes the promise against its will, it may attempt a WIS save if it ever brakes the promise. On a success it avoids the effects of the spell.
 
 **Global**: The spell lasts for a month.
 
@@ -1451,7 +1446,7 @@ ___
 |Components|kinetic|
 |Focus|A wind chime|
 |Condition|Inaudible|+2
-|Save|Wis|
+|Save|WIS|
 
 **Description**: You render a single target or a small, fixed area "inaudible".
 
@@ -1626,7 +1621,7 @@ ___
 |Range|30ft|
 |Duration|12min (1 day+)|+3
 |Components|kinetic|
-|Save|Cha, if the area is already enchanted|
+|Save|CHA, if the area is already enchanted|
 
 **Description**: Attempts to warm an area and anything in it to up to Heat: Severe (a little above body temperature). If the area is affected by any "Extreme temperature: Cold" category, it is considered as being one step milder.
 
@@ -1828,9 +1823,9 @@ ___
 |Components|incantation, kinetic|(10)
 |Focus|A small blade|-1(9)
 |Material|Honey|-2(7)
-|Save|Wis|
+|Save|WIS|
 
-**Description**: The target is "charmed". In addition it will follow your up to 3 commands as if it was "allied". After the completion of each command it may make a Wis save to end the spell.
+**Description**: The target is "charmed". In addition it will follow your up to 3 commands as if it was "allied". After the completion of each command it may make a WIS save to end the spell.
 
 **Special**:
 
@@ -1857,7 +1852,7 @@ ___
 |Duration|instantaneous|
 |Limitation|This spell does not cure conditions caused by missing/destroyed body parts|
 |Components|incantation|+1
-|Save|Cha, usually harmless|
+|Save|CHA, usually harmless|
 
 **Description**: Remove up to 3 C class conditions, 2 B/C class condition, or one A class condition from the target.
 
@@ -1880,7 +1875,7 @@ ___
 |Concentration|local|(5,5)
 |Focus|A brass bowl filled with earth, the bowl crumbles when the spell is cast|(3)
 |Material|A brass bowl filled with earth, the bowl crumbles when the spell is cast|(3)
-|Save|Cha, harmless|
+|Save|CHA, harmless|
 
 **Description**: Create a solid, physical barrier of earth with a radius of **up to** 15ft around the target. The barrier gives total cover and total concealment to targets within it. Dealing physical damage to the barrier (HiT=10, HP=10, damage reduction(except "esoteric")=10) in one turn opens a window big enough for a small size entity to enter freely (or a medium entity to squeeze through). At the end of the turn the barrier resets.
 
@@ -1949,7 +1944,7 @@ ___
 |Limitation|If cast on an entity, the entity must remain stationary or the spell breaks|(1)
 |Material|A candle which spontaneously combusts when the spell expires|(-1)
 |Damage|3d8+[Sup] fire|(8)
-|Save|Cha, harmless|
+|Save|CHA, harmless|
 
 **Description**: Create a barrier of raging fire **up to** 10ft around the target. The barrier gives light concealment to all targets within. Entities inside the barrier have damage reduction of 5 vs non-magical physical or cold/ice attacks that originate outside of the barrier. In addition, any non-magical weapon (or unarmed entity) attacking or otherwise passing through the barrier takes 3d8+[Sup] fire damage.
 
@@ -1983,13 +1978,13 @@ ___
 |Duration|1h (1 week)|+12(9)
 |Components|incantation, kinetic|-1(8)
 |Focus|A crystal shard|-1 (7)
-|Save|Wis|
+|Save|WIS|
 
 **Description**: Change the target entity's size by up two categories up or down. When the spell ends the target's size returns to what it used to be. The same applies for objects.
 
 **Upcast:** For every 1 MP dice above 3 added the duration increases by an hour. For every 2 MP dice above 3, the maximum size change increases by a category.
 
-**Global**: The spell acts over an area with a radius of 100ft for a week. All entities that enter the area that do not succeed a Wis save are affected by the size change. For every 2 MP dice above 6 the radius increases by 4, or the size category change increases by 1.
+**Global**: The spell acts over an area with a radius of 100ft for a week. All entities that enter the area that do not succeed a WIS save are affected by the size change. For every 2 MP dice above 6 the radius increases by 4, or the size category change increases by 1.
 
 ___
 ### Guidance of the Earth
@@ -2003,11 +1998,11 @@ ___
 |Range|close|-2(-3)
 |Duration|1h (1 week)|+6(3)
 |Components|incantation, kinetic|-1(2)
-|Save|Cha, harmless|
+|Save|CHA, harmless|
 
 **Description**: The target rolls adds 1d6 to all:
 
-- Dex saves and attack rolls with melee weapons and basic combat manoeuvres.
+- DEX saves and attack rolls with melee weapons and basic combat manoeuvres.
 - The following skills: Athletics group, tinker, heal, stealth, academics, search group, knowledge, detect and diplomacy groups.
 
 **Special**: This applies only for rolls made when touching the ground, or below ground level. As well as for knowledge of things that belong on and below the ground.
@@ -2026,11 +2021,11 @@ ___
 |Range|close|-2
 |Duration|1h (1 week)|
 |Components|incantation, kinetic|
-|Save|Cha, harmless|
+|Save|CHA, harmless|
 
 **Description**: The target rolls adds 1d6 to all:
 
-- Dex saves and attack rolls with bows, slings and thrown weapons.
+- DEX saves and attack rolls with bows, slings and thrown weapons.
 - The following skills: Acrobatics, Athletics, sleight of hand, heal, ride group, stealth, appraise, search group, knowledge, detect and perform groups.
 
 **Special**: This applies only for rolls made above ground/water level and knowledge of things that belong above ground.
@@ -2080,7 +2075,7 @@ ___
 |Range|30ft|
 |Duration|1 day (permanent)|+24(23)
 |Components|kinetic|(21)
-|Save|Cha, on success the curse bounces to the caster|x0.5((22+4)/2=14)
+|Save|CHA, on success the curse bounces to the caster|x0.5((22+4)/2=14)
 
 **Description**: Curse the target with two "C" class curses from the table below or one "B" class curse from the table below.
 
@@ -2129,11 +2124,11 @@ ___
 |Material||
 |Limitation||
 |Damage|2d8+[Sup] Fire|
-|Save|Con|
+|Save|CON|
 
 **Description**: The caster chooses up to 4 objects, each no larger than "medium", or materials occupying a volume of no more than 4 contiguous 5ft cubes. The targets heat up rapidly and if the [material is of level II](12-equipment-economy.md#material-level) or lower, take 1 dice of damage (that bypasses damage reduction) every round as they melt (and potentially catch fire, or set fire to materials they are in contact with).
 
-If the target object/material is in contact with an entity at the start of its turn, then the entity must succeed on a Con save or take 2d8 + [Sup] fire damage (half on successful save).
+If the target object/material is in contact with an entity at the start of its turn, then the entity must succeed on a CON save or take 2d8 + [Sup] fire damage (half on successful save).
 
 **Upcast (local only)**: At 4 MP dice the spell affects level III materials. At 7 MP dice, the spell affects level IV materials.
 
@@ -2154,7 +2149,7 @@ ___
 |Components|incantation|+1(7)
 |Materials|None (12 earthworms or centipedes)|-2(5)
 |Limitation|target cannot be air aligned|-1(4)
-|Save|Wis (harmless), no effect|
+|Save|WIS (harmless), no effect|
 
 **Description**: The target gains a dig speed equal to 10ft, as if swimming through earth. It leaves a passage large enough for an entity of its size to walk through as "difficult terrain", or for an entity one or more sizes smaller to move through freely. The spell does not give the target to move through stone. When the spell ends, the target loses this movement modality immediately.
 
@@ -2227,7 +2222,7 @@ ___
 |Concentration|local|(8,8)
 |Focus|A paper windmill|(7,7)
 |Material Component|A polished amber sphere which crumbles to ash when the spell ends|(5,5)
-|Save|Cha, harmless|
+|Save|CHA, harmless|
 
 **Description**: Create a barrier with a radius of **up to** 15ft around the target. All entities within the barrier have resistance to piercing damage from ranged weapons, pressure damage, and lightning damage from outside the barrier. If the barrier's radius is reduced to 5ft, resistance is also gained to those damage types within the barrier. The spell causes all noxious gases and airborne particles to dissipate, nullifying the their effect in the area of the spell.
 
@@ -2263,9 +2258,9 @@ ___
 |Material|Ashes of a mortal that died in a fire|-2(7)
 |Limitation|Does not affect entities aligned with water/ice|-2(5)
 |Damage|1d8+[Sup] fire|+3(8) defacto more.
-|Save|Dex|
+|Save|DEX|
 
-**Description**: Aligns a weapon or entity with elemental fire. The weapon (or if cast on the entity, its touch/strike) deals an extra 1d8+[caster's Sup] damage. The first time an entity is hit by such a weapon, it must make a Dex save or be be set ablaze and become "incapacitated".
+**Description**: Aligns a weapon or entity with elemental fire. The weapon (or if cast on the entity, its touch/strike) deals an extra 1d8+[caster's Sup] damage. The first time an entity is hit by such a weapon, it must make a DEX save or be be set ablaze and become "incapacitated".
 
 **Special**: Alternatively it can affect up to 13 pieces of ammunition.
 
@@ -2284,7 +2279,7 @@ ___
 |Duration|8h+ (1 month)|+9(9)
 |Components|kinetic|
 |Limitation|target cannot be fire aligned|-2(7)
-|Save|Wis (harmless), no effect|
+|Save|WIS (harmless), no effect|
 
 **Description**: The target gains the ability to walk over the surface of water (eg ponds, swamps, rivers, lakes, seas) to its walking speed or interact with it otherwise as if it was a soft solid surface capable of holding its weight, like a meadow. When the spell ends the ability is lost immediately (+6)(12)
 
@@ -2311,7 +2306,7 @@ ___
 |Components|incantation, kinetic|(7,8)
 |Concentration|local|(4,5)
 |Material|A glass bowl filled with water, the bowl smashes when the spell is cast|(3)
-|Save|Cha, harmless|
+|Save|CHA, harmless|
 
 **Description**: Create a barrier with a radius of **up to** 10ft around the target. All entities within the barrier have resistance to piercing, shear, slashing and percussive damage from attacks from outside the barrier, as well as pressure and fire damage from the outside. If the barrier's radius is reduced to 5ft, resistance is also gained to those damage types within the barrier. (2+2+2+2+4-2=10)
 
@@ -2346,7 +2341,7 @@ ___
 |Components|incantation|+1(7)
 |Materials|None (12 dandelion heads)|-2(5)
 |Limitation|target cannot be earth aligned|-2(3)
-|Save|Wis (harmless), no effect|
+|Save|WIS (harmless), no effect|
 
 **Description**: The target gains a good fly speed equal to your walking speed + 10ft, as if walking upon the air. When the spell ends, the target loses this movement modality immediately.
 
@@ -2369,9 +2364,9 @@ ___
 |Material|petals of snowdrops and quartz dust|-2(7)
 |Limitation|Does not affect entities aligned with "fire"|-2(5)
 |Damage|1d8+[Sup] ice|+3(8) de facto more.
-|Save|Con|
+|Save|CON|
 
-**Description**: Aligns a weapon or entity with elemental ice/water. The weapon (or if cast on the entity, its touch/strike) deals an extra 1d8+[caster's Sup] damage. The first time an entity is hit by such a weapon, it must make a Con save or be immobilised to the end of its next turn.
+**Description**: Aligns a weapon or entity with elemental ice/water. The weapon (or if cast on the entity, its touch/strike) deals an extra 1d8+[caster's Sup] damage. The first time an entity is hit by such a weapon, it must make a CON save or be immobilised to the end of its next turn.
 
 **Special**: Alternatively it can affect up to 13 pieces of ammunition.
 
@@ -2424,9 +2419,9 @@ ___
 |Limitation (global)|The start and end location must be bodies of water|-1(7)
 |Material|A flask of water, poured on the travellers' head|
 |Limitation|The caster and any entities teleported are always wet at the end of the spell|-1(6)
-|Save|Cha|
+|Save|CHA|
 
-**Description**: The caster blinks to a chosen location that is not inside a solid object. The caster may take up to 2 other entities with it. An unwilling passenger does not travel if it succeeds a Cha save.
+**Description**: The caster blinks to a chosen location that is not inside a solid object. The caster may take up to 2 other entities with it. An unwilling passenger does not travel if it succeeds a CHA save.
 
 **Upcast**: For every extra MP die above 4 the range increases by 60ft or the number of passengers increases by 1.
 
@@ -2520,7 +2515,7 @@ ___
 |Range|close|
 |Duration|1h (1 week)|+6
 |Components|kinetic|(6)
-|Save|Wis|
+|Save|WIS|
 
 **Description**: The target becomes an "animal" or "plant" of level 8 or lower, but no higher than its own level + 1 for the duration of the spell. It replaces its character sheet with that of the entity it transforms into. (12)
 
@@ -2550,12 +2545,12 @@ ___
 |Material||-2(6)
 |Damage|1d12+[Sup]|+3(9)
 |Condition|"grappled"|
-|Save|Dex|
+|Save|DEX|
 
 **Description**: The caster enchants the ground around them. The ground has the following properties:
 
 - It is difficult terrain for all hostile entities.+2(11)
-- At the start of their turn, all hostile entities must make a Dex save or take 1d12+[Sup] percussive damage and become "grappled".
+- At the start of their turn, all hostile entities must make a DEX save or take 1d12+[Sup] percussive damage and become "grappled".
 - All friendly entities have a +10 to movement speed and light cover.+4(15)
 - Furthermore, as an action, the caster the caster can move or sculpt 10ftx10ftx10ft of earth of stone as if using the ["Shape Earth"](#shape-earth) spell, expect the spell can affect ground and natural rock all through the affected zone.+3(18)
 
@@ -2787,9 +2782,9 @@ ___
 |Damage|1d8+[Nat] lightning|(17)
 |Conditions|Prone, Deafened|+4(21)
 |Limitations|Must be outdoors, or under an open sky|-2(19)
-|Save|Dex for no damage, Str to avoid prone|-1(18)
+|Save|DEX for no damage, STR to avoid prone|-1(18)
 
-**Description**: Calls upon the wind spirits to create a localised storm. When first entering, or starting a turn in the storm, all entities must make a Str save to avoid being blown prone by the winds and a Dex save to avoid lightning strikes (no damage on successful save). In addition the high winds make vocal communication impossible, making the entity essentially "deaf". The winds are classed as "extreme".
+**Description**: Calls upon the wind spirits to create a localised storm. When first entering, or starting a turn in the storm, all entities must make a STR save to avoid being blown prone by the winds and a DEX save to avoid lightning strikes (no damage on successful save). In addition the high winds make vocal communication impossible, making the entity essentially "deaf". The winds are classed as "extreme".
 
 **Upcast**: For every extra MP die above 4, either the radius of the storm increases by 5ft, the duration increases by 1 min or the lightning damage increases by 1d8.
 
@@ -2877,7 +2872,7 @@ ___
 |Components|kinetic|
 |Focus||-1(12)
 |Limitations||-2(10)
-|Save|Wis|
+|Save|WIS|
 
 **Description**: The caster creates an illusionary scene which mimics the real scene to all senses except touch and pain. It can do no damage. The scene realistically mimics a real scene, at first glance, but has no material substance. For example:
 
@@ -2886,10 +2881,10 @@ ___
 
 An illusion can be broken in the following manner:
 
-- At a distance, when interacting with the illusion from outside of it, an entity may attempt to disbelieve, and roll a Wis save at disadvantage against the caster's threshold.
-- When interacting with the "mirage" from inside it, it may attempt disbelieve it and roll a Wis save against the caster's threshold.
-- When an entity interacts with the "mirage" in such a way that the "mirage" seems implausible or suspicious (eg a bonfire failing to melt a block of ice, or the target falling through the bridge), it may roll a Wis save at advantage.
-- If the entity has some magic sense, it makes a Wis save against the "mirage" as soon as it detects it.
+- At a distance, when interacting with the illusion from outside of it, an entity may attempt to disbelieve, and roll a WIS save at disadvantage against the caster's threshold.
+- When interacting with the "mirage" from inside it, it may attempt disbelieve it and roll a WIS save against the caster's threshold.
+- When an entity interacts with the "mirage" in such a way that the "mirage" seems implausible or suspicious (eg a bonfire failing to melt a block of ice, or the target falling through the bridge), it may roll a WIS save at advantage.
+- If the entity has some magic sense, it makes a WIS save against the "mirage" as soon as it detects it.
 - If the entity has "true seeing" it automatically sees through the "mirage"
 
 **Upcast**: For every extra MP die above 4, the duration increases by 12 min or the radius increases by 5ft.
@@ -2908,12 +2903,12 @@ ___
 |Range|close|-2(8)
 |Duration|instantaneous|
 |Components|incantation, kinetic|-1(7)
-|Save|Int|
+|Save|INT|
 
 **Description**: This spell has one of the following effects:
 
-- Cleanse the area of the effect of one curse. If the curse is a higher level than your casting, it get to make an Int save, with a bonus equal to the difference in spell level.
-- Remove the after-effects of legendary magic. The magic gets to roll an Int save against the cleansing with a bonus equal to the difference in the spell level.
+- Cleanse the area of the effect of one curse. If the curse is a higher level than your casting, it get to make an INT save, with a bonus equal to the difference in spell level.
+- Remove the after-effects of legendary magic. The magic gets to roll an INT save against the cleansing with a bonus equal to the difference in the spell level.
 - Cure one disease or poison affecting the land.
 - Double the productivity of the land for the next harvest. Doubling zero is still zero.
 
@@ -2938,9 +2933,9 @@ ___
 |Components|kinetic|
 |Focus|A pool of clean water at least 5ft across|-1(16)
 |Concentration|local|-3(13)
-|Save|Wis|
+|Save|WIS|
 
-**Description**: The caster chooses a target (entity or object). If the target is within range and does not succeed a Wis save, the caster can see and hear the target and its surroundings out to 60ft (view distance). In addition the caster may use one more sense (natural or supernatural) through the spell. If the target is out of range or succeeds its Wis save, the caster gains no information.
+**Description**: The caster chooses a target (entity or object). If the target is within range and does not succeed a WIS save, the caster can see and hear the target and its surroundings out to 60ft (view distance). In addition the caster may use one more sense (natural or supernatural) through the spell. If the target is out of range or succeeds its WIS save, the caster gains no information.
 
 **Upcast**: For every extra MP die above 4, the target range increases by 60ft and the view distance increases by 5ft. Alternatively the duration increases by 12 min.
 
@@ -3021,7 +3016,7 @@ ___
 |Duration|12 minutes| 6 (8)
 |Components|incantation, kinetic|-1 (7)
 |Limitation|Does not affect earth elementals|-1(6)
-|Save|Cha|
+|Save|CHA|
 
 **Description**: The caster imbues the blessing of the winds unto the target. This has the following effects.
 
@@ -3077,10 +3072,10 @@ ___
 |Limitation (global)|The start and end location must be bodies of water|-1(10)
 |Focus|A fire at least 1ft x 1ft x 1ft|-1(9)
 |Limitation|The caster and any entities teleported are always on fire at the end of the spell though this does not harm them or equipped items. It does, however, set other flammable objects on fire. The fire extinguishes itself after 1 minute.|-2(7)
-|Save|Cha|
+|Save|CHA|
 |Damage|2d8+[Nat] fire|+6(13)
 
-**Description**: The caster blinks to a chosen location that is not inside a solid object. The caster may take up to 2 other entities with it. An unwilling passenger does not travel if it succeeds a Cha save. Any entity that travelled this way deals 2d8+[Sup] fire damage on its next attack.
+**Description**: The caster blinks to a chosen location that is not inside a solid object. The caster may take up to 2 other entities with it. An unwilling passenger does not travel if it succeeds a CHA save. Any entity that travelled this way deals 2d8+[Sup] fire damage on its next attack.
 
 **Upcast**: For every extra MP die above 5 the range increases by 60ft or the number of passengers increases by 1.
 
@@ -3105,9 +3100,9 @@ ___
 |Focus|A flower associated with daylight, or a crystal|-1(10)
 |Damage|3d6+[SUP] light|+9(19)
 |Concentration|local|
-|Save|Cha (avoid effects), Dex (half damage)|
+|Save|CHA (avoid effects), DEX (half damage)|
 
-**Description**: The caster summons a mote of light and binds it to a valid target, giving it the "glowing" condition. An unwilling target may break the effect with a successful Cha save, thus ending the spell. The mote sheds bright light in 120ft and dim light in total radius of 300ft.
+**Description**: The caster summons a mote of light and binds it to a valid target, giving it the "glowing" condition. An unwilling target may break the effect with a successful CHA save, thus ending the spell. The mote sheds bright light in 120ft and dim light in total radius of 300ft.
 
 Incorporeal ["undead"](10-conditions-types.md#profane-1) and ["fiends"](10-conditions-types.md#profane-1) have disadvantage on attacks and saves within the radius of the bright light.
 
@@ -3216,7 +3211,7 @@ ___
 |Limitation|Cannot be used if the area of effect overlaps with global water magic|-2(17)
 |Concentration|local|-3(14)
 |Damage|3d8+[Sup] Fire|+9(23)
-|Save|Dex/Cha (see below)|
+|Save|DEX/CHA (see below)|
 
 **Description**: The caster calls flame to protect and ward an area and its perimeter is ringed by motes of flame. The barrier gives light concealment to all targets within. Entities inside the barrier have damage reduction of 10 vs non-magical physical or cold/ice attacks, regardless of their origin. In addition they have advantage against on saves against the effects of fire spells, and those caused by elemental fire. Furthermore, the caster specifies "contain", "exclude" or "both". This gives the following effects:
 
@@ -3336,7 +3331,7 @@ ___
 |Material|An item that is precious to the supplicant, which is consumed when the pact is sealed.|-2(12)
 |Limitation|Global: The spell is weakened if the target is not willing.|-1(11)
 |Limitation|Local: The target must be willing.|-1(11)
-|Save|Special: Wis|
+|Save|Special: WIS|
 
 **Description**: The caster allows a supernatural pact to be sealed between two targets (supplicant and patron). The caster may be one of the targets. "Pact" may work in the following manner:
 
@@ -3346,9 +3341,9 @@ ___
 **Special**:
 
 - A supplicant can have a pact with no more than one patron.
-- If a supplicant makes a pact under duress or unwittingly, they may make a Wis save whenever the patron issues a command or if the promise is broken.
+- If a supplicant makes a pact under duress or unwittingly, they may make a WIS save whenever the patron issues a command or if the promise is broken.
 
-**Global**: The spell lasts for a year. Likewise, it is possible to form a pact with an unwilling target, although in this case it may break the pact with a successful Wis save.
+**Global**: The spell lasts for a year. Likewise, it is possible to form a pact with an unwilling target, although in this case it may break the pact with a successful WIS save.
 
 **Upcast (Global only)**: For every 2 MP dice above 10, the spell lasts an extra year. Alternatively you may select an extra attribute. If the spell is cast with 16 MP dice or more, and only one attribute is taken, it becomes permanent.
 
@@ -3430,13 +3425,13 @@ ___
 
 **Description**: The caster shatters the earth, opening one linear rift on the ground. The spell affects worked and unworked ground, rock and structures.
 
-The rift can be no more than 50ft wide, 400ft long and 200ft deep, the sides are jagged and uneven. Any entity in the area of the rift when it opens, falls if it does not succeed on a DEX saving throw. If the rift is wider than the entity, the entity falls into the rift. For every point the entity fails its DEX saving throw by, it will fall 10ft into the rift. So if it fails the save by 6, it will fall 60ft and takes the corresponding damage.
+The rift can be no more than 50ft wide, 400ft long and 200ft deep, the sides are jagged and uneven. Any entity in the area of the rift when it opens falls if it does not succeed on a DEX saving throw. If the rift is wider than the entity, the entity falls into the rift. For every point the entity fails its DEX saving throw by, it will fall 10ft into the rift. So if it fails the save by 6, it will fall 60ft and takes the corresponding damage.
 
 **Special**:
 
 - Structures that straddle the rift are destroyed, and terrain is permanently altered. The rift remains after the spell is cast.
 - Climbing the sides of the rift requires a climb roll of Threshold=20.
-- The caster can specify the dimensions of the rift as long as it is 
+- The caster can specify the dimensions of the rift as long as it is no larger than what is allowed by the spell.
 
 **Upcast (local only)**: For every extra MP dice over 5, the rift can be 80ft longer.
 
@@ -3492,7 +3487,7 @@ ___
 - You can only have one summon at any one time.
 - The summon appears either at the end of the caster's turn, or the start of the caster's next turn. However it cannot act until the start of the caster's next turn.
 
-**Limitation**: A fiend will not be willingly summoned by an entity aligned to the "divine". In this case a caster makes a contested Cha roll vs the fiend. If the fiend wins, it can chose to refuse the summons or to accept it, although in this case it is in no way under the caster's control and is likely to attack it.
+**Limitation**: A fiend will not be willingly summoned by an entity aligned to the "divine". In this case a caster makes a contested CHA roll vs the fiend. If the fiend wins, it can chose to refuse the summons or to accept it, although in this case it is in no way under the caster's control and is likely to attack it.
 
 **Upcast**: For every MP die above 5 added (2MP dice for global), the fiend's level can be increased by two.
 
@@ -3511,9 +3506,10 @@ ___
 |Target(s)|1 entity+10ft radius|
 |Casting time|1 main action|
 |Range|15ft|
-|Duration|1 minute/permanent|6
+|Duration|1 minute+|6
 |Components|incantation|
 |Damage|3d8 Cold|9(15)
+|Concentration|yes|
 |Effect|Immobilised|6(21)
 |Save|CON|
 
@@ -3521,7 +3517,7 @@ ___
 
 **Special**: The caster, if caught in the AoE, is not affected by the spell unless they so choose.
 
-**Upcast**: The spell is permanent. Furthermore, when the target's HP reaches 0, the spell does not deal further damage.
+**Upcast**: For every MP die above 5, the spell lasts for an extra target, or lasts for a minute longer.
 
 ___
 ## MP 6 spells
@@ -3545,7 +3541,7 @@ ___
 |Limitation|"Profane" entities cannot partake in the feast|-2
 |Limitation|The feast cannot be summoned in urban areas, on worked land, or on vehicles|-2
 |Limitation|An entity can be under the effect of only one "fairy feast" at a time|-2
-|Save|Wis|
+|Save|WIS|
 
 **Description**: The caster invites a host of fey for a feast.
 
@@ -3602,7 +3598,7 @@ ___
 |Scope|local (global)|
 |MP Dice|6 (12)|
 |Target(s)|1 entity|
-|Casting time|1 action|
+|Casting time|1 action (6 hours)|
 |Range|60ft|
 |Duration|1 hour (permanent)|
 |Components|incantation, kinetic|
@@ -3643,7 +3639,7 @@ ___
 |Concentration|yes|
 |Damage|5d8+[Sup] fire|+15(24)
 |Condition|Heavily concealed|+2(26)
-|Save|Con|
+|Save|CON|
 
 **Description**: Flames bloom on flammable surfaces all around the caster and rise, tree-like, to a height of 70ft. Everything within the flames in heavily concealed. The caster is immune to the damage caused by these flames.
 
@@ -3723,7 +3719,7 @@ ___
 |Damage|3d12+ [Nat] Sheer|+9(31)
 |Focus|A paper windmill|-1(30)
 |Material Component|A polished amber sphere which crumbles to ash when the spell ends|-2(28)
-|Save|Str,Cha|
+|Save|STR,CHA|
 
 **Description**: The caster calls the spirits of the winds to shroud them in storm. All space within **up to** 60ft of the chosen point is enveloped in violent wind spirits, that bring with them extreme winds.
 
@@ -3802,7 +3798,7 @@ ___
 |Duration|12 minutes|+3
 |Components|kinetic|
 |Focus|A crystal of fluorite or quartz|
-|Save|Wis|
+|Save|WIS|
 
 **Description**: The caster bestows telepathy upon a target, allowing them to communicate clearly through thought alone with any sentient entity within 120ft. The target can also attempt to read surface thoughts of nearby entities, taking a full round action for one target with a successful observe roll of 20 or above. An entity can identify the effect with a spellcraft roll equal to the caster's threshold, in which case they can chose to block the reading of surface thoughts.
 
@@ -3895,7 +3891,7 @@ ___
 |Focus|Ouroboros or an empty cocoon|
 |Material|The body of the target|
 |Limitation|Special (See below)|
-|Save|Wis|
+|Save|WIS|
 
 **Description**: The caster plants the seeds of change in the body and soul of a dying or doomed mortal, or one that has died less than 7 rounds ago. If the entity dies before healing any HP, or if it is already dead, the spell consumes its remains and it is revived as a mortal of a race, usually other than the one it was previously. This is determined at random by rolling 2d12 and comparing the result with the "Metamorphosis Table" (see below).
 
@@ -3907,7 +3903,7 @@ After 24 hours have passed, the life force from the consumption of the old body 
 
 - A target never revives as a plant, or monster.
 - If the target is unwilling, it may attempt a WIS save vs the caster. Upon success it is not subject to the spell. More precisely the spell ends in a catastrophic [cascade centred](07-magic-and-spellcasting.md#the-catastrophic-cascade) on the target's body.
-- The target retains its level after metamorphosing. Thus if a normal level 5 humanoid character is metamorphosed into a dragon, it will be a level 5 dragon (ie little more than a hatchling). If the spell is made permanent, it is recommended that player and DM discuss and come to an agreement as to how many levels of the new creature and how mny of its old levels are retained.
+- The target retains its level after metamorphosing. Thus if a normal level 5 humanoid character is metamorphosed into a dragon, it will be a level 5 dragon (ie little more than a hatchling). If the spell is made permanent, it is recommended that player and DM discuss and come to an agreement as to how many levels of the new creature and how many of its old levels are retained.
 
 **Global**: The spell can be cast globally in one of two modes.
 
@@ -3957,9 +3953,9 @@ ___
 |Duration|Special| +3
 |Components|kinetic OR incantation|
 |Limitation|see below|
-|Save|Wis|
+|Save|WIS|
 
-**Description**: Grants up to 7 entities the ability to travel the voids and barriers that exist between realms, and reach the nearest otherworlds. These might be the nearest stars or the closest layers of the immaterial world (spirit realms, elemental planes, etc). An unwilling target may make a Wis save vs the caster's Threshold to end the spell upon themselves (hence negating the effects).
+**Description**: Grants up to 7 entities the ability to travel the voids and barriers that exist between realms, and reach the nearest otherworlds. These might be the nearest stars or the closest layers of the immaterial world (spirit realms, elemental planes, etc). An unwilling target may make a WIS save vs the caster's Threshold to end the spell upon themselves (hence negating the effects).
 
 To travel, the target must move 5ft with a destination in mind. If the traveller moves 5ft with no destination in mind, they are transported to the nearest valid destination. If the traveller is unable to move 5ft, then the spell activates the moment they do and remains active until that moment. Any attempt to travel by any modality will result in an otherworld step being made.
 
@@ -4004,9 +4000,9 @@ ___
 |Damage|5d12+[Sup] pressure|+15
 |Condition|Prone|
 |Components|"incantation"|+1
-|Save|Dex+|+2
+|Save|DEX+|+2
 
-**Description**: You summon a sharp burst of hurricane-like wind that cuts through an area, dealing 5d12+[Sup] damage to all entities, objects and structures within it. Entities can avoid the damage with a successful Dex save. Even in this case all entities and objects of "huge" and smaller are blown back 20ft (for "medium").
+**Description**: You summon a sharp burst of hurricane-like wind that cuts through an area, dealing 5d12+[Sup] damage to all entities, objects and structures within it. Entities can avoid the damage with a successful DEX save. Even in this case all entities and objects of "huge" and smaller are blown back 20ft (for "medium").
 
 **Upcast**: The size of the one increases by 15ft per MP die above 6 or the damage increases by 1d12.
 
@@ -4261,7 +4257,7 @@ ___
 |Limitation|The turning circle|-1
 |Limitation|Must use movement|-1
 |Damage|2d8/4d8+[Sup] pressure|+6
-|Save|WIS (harmless), Dex|
+|Save|WIS (harmless), DEX|
 
 **Description**: The target gains a flight speed (poor) of its walking speed + 360ft (spell can be negated with a successful WIS save). During this time it MUST take at a "move" or "run" action every round. When the target lands, it deals 2d8+[Sup] damage to everything within 20ft, or 4d8+[Sup] if took the "run" action on the turn it landed. The target takes half of this damage. This damage is halved on a successful DEX save (the target of the spell does not get a save).
 
@@ -4293,7 +4289,7 @@ ___
 |Limitation (global)|The start and end location must be touching the earth|-1
 |Material|A lodestone|
 |Concentration|local|
-|Save|Cha|
+|Save|CHA|
 
 **Description**: The caster causes a gaping portal, 40ft across to rise out of the earth. The portal connects to any point upon the same world that is on the same contiguous landmass (this includes landmasses connected under a body water) and within the range of the spell. For the duration of the spell, entities and objects can pass through the portals and instantly appear on the other end.
 
@@ -4316,7 +4312,7 @@ ___
 |Duration|1h (1 week)|+6
 |Limitation|Target must be a mortal|
 |Components|kinetic|(6)
-|Save|Wis|
+|Save|WIS|
 
 **Description**: The target transforms into any ["mortal"](10-conditions-types.md#mortals) of its own level or lower. It replaces its character sheet with that of the entity it transforms into, although it retains its own equipment and memories. An unwilling target can attempt a WIS save to negate the effects of the spell. On a success the spell does not occur.
 
@@ -4428,7 +4424,7 @@ ___
 |Focus|A symbol of a profane being or concept|-1
 |Material|An item or mortal precious to the target|-2
 |Limitation|spell fails if the target has a "divine" alignment|-12
-|Save|Cha (special)|
+|Save|CHA (special)|
 
 **Description**: The caster performs an intricate ritual that binds the fate of a willing, mortal target to a profane being with the purpose of returning the target to life. In return, the profane being gains a grasp on the target's fate.
 
@@ -4578,7 +4574,7 @@ ___
 |Concentration|local|
 |Damage|4d8 fire|12(18)
 |Limitation|Cannot be cast on a target that is aligned with water. Nor can the target be profane.|-2(16)
-|Save|Cha|
+|Save|CHA|
 
 **Description**: The caster implores the powers of the inner elemental realm of fire to grant its power to a single being. The target of the spell gains a halo of fire and the following properties:
 
@@ -4721,17 +4717,17 @@ ____
 |Limitation|See below| -4
 |Save|Special|
 
-**Description**: The caster makes a transient link to a deep layer of divine realms and beseeches a powerful **"divinity"** (usually a god) to descend and inhabit a mortal (or construct) vessel, hence creating an avatar of the deity on the mortal realm. The vessel must be willing. If the vessel is unwilling and unconscious, it must make a Wis save with the threshold = the caster's SAP+Wis threshold. If the target is otherwise unwilling, the spell fails.
+**Description**: The caster makes a transient link to a deep layer of divine realms and beseeches a powerful **"divinity"** (usually a god) to descend and inhabit a mortal (or construct) vessel, hence creating an avatar of the deity on the mortal realm. The vessel must be willing. If the vessel is unwilling and unconscious, it must make a WIS save with the threshold = the caster's SAP+WIS threshold. If the target is otherwise unwilling, the spell fails.
 
 When the ritual is complete, the vessel is invigorated by the divine energy, restoring its MP, MP dice, SP and SP dice to full. At that moment the divinity takes full control of the mortal vessel and controls it fully as if it was its own (although either the DM or the player may control the avatar). The divinity uses its own stats, saves, abilities, skills, and attacks, but uses the HP, MP, SP (and dice) and effective level of the vessel. Thus it is limited, for example, in the number of MP or SP dice it may expend for a single ability or overall and the total MP/SP of the vessel.
 
-The divinity is in no way beholden to the caster, but may be inclined to reward them or assist them. Likewise, the divinity can make a contested Cha roll vs the host and leave the avatar at any point it wishes, hence ending the spell.
+The divinity is in no way beholden to the caster, but may be inclined to reward them or assist them. Likewise, the divinity can make a contested CHA roll vs the host and leave the avatar at any point it wishes, hence ending the spell.
 
 No material form, mortal or construct, can withstand the stress of being a divine vessel. At the start of each of its turns, and every time the avatar takes a "main action" or "full round action", it loses 1HP of untyped damage. This damage cannot be reduced, negated or avoided in any way.
 
 Furthermore, when the spell ends and/or the deity leaves the avatar the mortal/construct host must make a CON and WIS save against the **divinity's CHA based save threshold**.
 
-- If it fails the CON save, each of its six stats (Str, Dex, Con, Int, Wis, Cha) are reduced by 2 permanently.
+- If it fails the CON save, each of its six stats (STR, DEX, CON, INT, WIS, CHA) are reduced by 2 permanently.
 - If it fails the WIS save, it loses 9 proficiency points from up to 4 skills (chosen by dice roll, counting down from the first skill till the number of ranks is 0, and then moving to the next randomly chosen skill if it has lost less than 9 points in total so far). It also forgets 7 abilities.
 
 
@@ -4846,7 +4842,7 @@ ____
 |Proficiency|Water|+1(53)
 |Proficiency|Water breathing|+1(54)
 |Concentration|local|-3(51+12=63)
-|Save|Str,Dex,Con (Else no damage from tendrils)| -3(60)
+|Save|STR,DEX,CON (Else no damage from tendrils)| -3(60)
 
 **Description**: A crown of ice appears upon the caster's head(s) (if it has one or more). The caster takes control of all water within an 80ft radius with the following effects:
 
@@ -4857,8 +4853,8 @@ ____
   - Water breathing and the ability to communicate with all entities aligned to [water]
   - Immunity to "charmed" and "catatonic".
   - Heavy cover from blocks of ice or tendrils of water.
-- As a "secondary action", the caster can freeze or melt any amount of water in the area of effect. Any entity caught in the frozen areas can attempt to break free with a Str save, however, this is often futile, as even if they break free, they may still be surrounded by walls of ice 10-20 feet thick. (This is very useful as a barrier)
-- As an action call watery tendrils to strike any number of targets in the area of effect, dealing 4d12 percussive damage on a failed Dex save. If the caster so choses, the tendrils can throw a target up to 80ft (or move a willing target the same distance).
+- As a "secondary action", the caster can freeze or melt any amount of water in the area of effect. Any entity caught in the frozen areas can attempt to break free with a STR save, however, this is often futile, as even if they break free, they may still be surrounded by walls of ice 10-20 feet thick. (This is very useful as a barrier)
+- As an action call watery tendrils to strike any number of targets in the area of effect, dealing 4d12 percussive damage on a failed DEX save. If the caster so choses, the tendrils can throw a target up to 80ft (or move a willing target the same distance).
 - As an action, cause (CON save to negate) or cure bleeding in any number of targets.
 - Control the movement of water as a "move action", including:
   - Raising or lowering water levels at will.
@@ -4894,13 +4890,13 @@ ____
 |Concentration|local|-3(24)
 |Damage|12d8+[Sup] fire|+39(63)
 |Condition|Heavily concealed, Catatonic|+9(68)
-|Save|Con, Cha|
+|Save|CON, CHA|
 
 **Description**: Flames bloom on flammable surfaces all around the caster and rise, tree-like, to a height of 160ft. This has the following effects:
 
 - Everything within the flames in heavily concealed.
-- All entities that first enter the area or first start their turn in it, must make a Cha save or become catatonic. The entity may retry the save at the end of each turn. Those that succeed are immune to the "catatonic" condition until the end of the spell.
-- When an entity first enters the area on its turn, or starts its turn in the area, it makes a Con save or takes 10d8 fire damage. On a successful save it takes half damage. 
+- All entities that first enter the area or first start their turn in it, must make a CHA save or become catatonic. The entity may retry the save at the end of each turn. Those that succeed are immune to the "catatonic" condition until the end of the spell.
+- When an entity first enters the area on its turn, or starts its turn in the area, it makes a CON save or takes 10d8 fire damage. On a successful save it takes half damage. 
 
 **Upcast**: For every extra MP die above 10, increase the radius by 10ft and height by 5ft or increase the damage by 2d8.
 
@@ -4967,7 +4963,7 @@ ____
 |Focus|A part of a fey, divine or fiend|-1(43)
 |Material|Water from the land of the dead, a seed of the tree of life|-2(41)
 |Concentration|-|
-|Save|Cha|
+|Save|CHA|
 
 **Description**: Infuse an area with the aura of the tree of life and banish death. The concept of mortality no longer exists in this zone. The remains of mortals brought to this zone, and mortals that die within this zone, return to life at dawn if diurnal (or after the sun has set if nocturnal). They regain all of its SP and MP and up to 12 HP. The possessions of the entity are not returned, unless they were an intrinsic part of its being.
 
@@ -4976,7 +4972,7 @@ ____
 - The entity must be a mortal.
 - The entity must have a dice total (MP + SP) no more than twice the dice total of the caster.
 - The entity is not beholden to the caster and it is not obliged to obey the caster, although it may if it is so inclined.
-- The entity may attempt to continue resting (ie not be resurrected) with a Cha save.
+- The entity may attempt to continue resting (ie not be resurrected) with a CHA save.
 - Any entities brought back by this spell die the instant they leave the radius of effect of the Undying Realm, or if the spell ends for whatever reason.
 
 **Upcast**: For every 8MP dice put into the spell, the radius increases by 200ft.

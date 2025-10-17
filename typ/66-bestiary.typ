@@ -1,7 +1,7 @@
 #import "fansys-core.typ": chapterindex, link2
 
 #set page(
-  paper: "a5",
+  paper: "a4",
   margin: (
     x: 40pt,
     bottom: 45pt,

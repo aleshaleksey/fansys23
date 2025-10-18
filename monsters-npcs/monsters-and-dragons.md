@@ -1,5 +1,25 @@
 # Monsters and Dragons
 
+Certain abbreviations are used in the bestiary.
+
+|Abbreviation|Words    |
+|------------|---------|
+|Thr         |Threshold|
+|Pi         |Piercing (damage)|
+|Pe         |Percussive (damage)|
+|Pr         |Pressure (damage)|
+|Sh         |Shear (damage)|
+|Sl         |Slashing (damage)|
+|Poi         |Poison (damage)|
+|Nec         |Necrotic (damage)|
+|Fir         |Fire (damage)|
+|Ice         |Ice (damage)|
+|Lit         |Light (damage)|
+|Lig         |Lighting (damage)|
+|Div         |Divine (damage)|
+|Pro         |Profane (damage)|
+|Ent         |Entropic (damage)|
+
 - [Monsters](#monsters)
     - [Crade Imp](#cradle-imp)
     - [Mog](#mog)
@@ -62,8 +82,8 @@ Tiny(+2/-2)
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite|+4|1d3+2[Shear]|The imp's bite contains a poison. The target must succeed a Threshold=14 CON save *immediately* when hit. If it fails, then it suffers from "aphonia". The aphonia lasts for an hour. It also becomes "immobilised" *at the end of its turn*. The save is repeated at the start of every turn. Upon success, victim is no longer affected by "immobilised", but the "aphonia" remains.|
-|Mimicry|||A motionless Cradle Imp is nigh indistinguishable from a plush toy. However, the difference is detectable with "Truesight" or a Threshold=17 observe roll, by entities with "Keen Senses: Scent" or "Heat-sense".
+|Bite|+4|1d3+2[Sh]|The imp's bite contains a poison. The target must succeed a Thr=14 CON save *immediately* when hit. If it fails, then it suffers from "aphonia". The aphonia lasts for an hour. It also becomes "immobilised" *at the end of its turn*. The save is repeated at the start of every turn. Upon success, victim is no longer affected by "immobilised", but the "aphonia" remains.|
+|Mimicry|||A motionless Cradle Imp is nigh indistinguishable from a plush toy. However, the difference is detectable with "Truesight" or a Thr=17 observe roll, by entities with "Keen Senses: Scent" or "Heat-sense".
 |Skills|||"Stealth: +4", "Deception: +3"|
 |Senses|||"Heat Sense", "Keen senses: Hearing"|
 
@@ -90,7 +110,7 @@ Size = small
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite|+3|1d4+1|Shear damage|
+|Bite|+3|1d4+1|Sh damage|
 |Keen Senses|||Advantage on perception rolls based on and hearing|
 |Low light Vision|||Can see in the "dark", but not pitch black conditions|
 |[Sprint](../06-abilities.md#sprinter)|||x3 move, x5 sprint|
@@ -121,8 +141,8 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Touch (attack)|+3|1d4+1|Immobilisation poison: End of first turn the target must succeed threshold=16 Con save or be restrained. If it fails the first save, it must make a second Con save (threshold=16) at the end of its subsequent turn or be immobilised for 10 minutes. The condition can be removed with a (threshold=16) heal roll.|
-|Dissolve|+3|1d10+1 (necrotic)|The ooze can use its action to enter an immobilised entity's orifices and dissolve it from the inside|
+|Touch (attack)|+3|1d4+1|Immobilisation poison: End of first turn the target must succeed Thr=16 Con save or be restrained. If it fails the first save, it must make a second Con save (Thr=16) at the end of its subsequent turn or be immobilised for 10 minutes. The condition can be removed with a (Thr=16) heal roll.|
+|Dissolve|+3|1d10+1 (Nec)|The ooze can use its action to enter an immobilised entity's orifices and dissolve it from the inside|
 |Amorphous|||The ooze is liquid and can fit into spaces as narrow as 1 inch across.|
 |Skills|"Climb" +2, "Stealth" +4, "Observe" +2 |||
 |Heat sense|||The ooze is blind but can accurately sense heat up to 10ft|
@@ -182,11 +202,11 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Piercing limb|+6|1d4+3|Piercing, shear|
-|Bite|+6|1d6+3 + 1d10 acid|Piercing, shear (can only be used against a target it is grappling)|
+|Pi limb|+6|1d4+3|Pi, Sh|
+|Bite|+6|1d6+3 + 1d10 acid|Pi, Sh (can only be used against a target it is grappling)|
 |Grapple|+6||Can only grapple when not biting|
 |abilities|||"Combined Manoeuvre"|
-|Resistant|||"charm", "catatonic", "stun", "piercing"|
+|Resistant|||"charm", "catatonic", "stun", "Pi"|
 |Senses|||"Tremor Sense IV" 60ft, "Blind sight" 5ft (otherwise blind)|
 |Skills|||+4 Climb, +7 Stealth, +4|
 
@@ -224,7 +244,7 @@ ___
 |Claws|+5|1d6+2|Reach=5ft|
 |Poison Quills|+6|1d6+3|(Range=120ft, Increment=30ft) When taking damage from the feathers the target must succeed a Theshold=14 CON save vs poison or take 1d3 points of STR damage (damage persists until cured)|
 |Monster Attack|||A corpse stork makes one beak attack and one claw attack as a main action|
-|Corpse Mimicry|||A corpse stork can, as a secondary action, interact with a humanoid corpse with more or less intact lungs to mimic its voice. To recognise this as an impersonation, a character must succeed an "observe" roll (Threshold=18) at disadvantage. Even if it does not succeed, the observer might be suspicious when they sees the Corpse Stork next to the corpse.|
+|Corpse Mimicry|||A corpse stork can, as a secondary action, interact with a humanoid corpse with more or less intact lungs to mimic its voice. To recognise this as an impersonation, a character must succeed an "observe" roll (Thr=18) at disadvantage. Even if it does not succeed, the observer might be suspicious when they sees the Corpse Stork next to the corpse.|
 |Skills|||"Fly" +6, "Observe" +4, "Perform" +5|
 |Loot|||The quills of corpse storks are particularly valued, but alchemists generally value their innards. The flesh of these monsters, however, is often infested with all kind of parasites.|
 
@@ -266,7 +286,7 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |**Young**|-|-|-|
-|Bite|+5|1d6+3|An entity that takes HP damage from a hive beast's bite must succeed a Threshold=14 CON save or be incapacitated (poisoned) at the start of its turn (until successfully cured of poison). An entity that succeeds on this CON save, cannot be affected by Hive Beast venom for 24 hours.|
+|Bite|+5|1d6+3|An entity that takes HP damage from a hive beast's bite must succeed a Thr=14 CON save or be incapacitated (poisoned) at the start of its turn (until successfully cured of poison). An entity that succeeds on this CON save, cannot be affected by Hive Beast venom for 24 hours.|
 |||||
 |[Blindsight](../06-abilities.md#blind-sight-i-vi)|||(Range=5ft)|
 |[Heat Sense I](../06-abilities.md#heat-sense-i-v)|||(Range=15ft)|
@@ -276,7 +296,7 @@ ___
 |Skills|||"Acrobatics" +5, "Athletics" +1, "Climb" +1, "Observe" +1, "Track" +1, "Sense Motive" +1|
 |||||
 |**Adult**|-|-|-|
-|Bite|+9|1d10+5|An entity that takes HP damage from a hive beast's bite must succeed a Threshold=15 CON save or be incapacitated (poisoned) at the start of its turn (until successfully cured of poison). An entity that succeeds on this CON save, cannot be affected by Hive Beast venom for 24 hours.|
+|Bite|+9|1d10+5|An entity that takes HP damage from a hive beast's bite must succeed a Thr=15 CON save or be incapacitated (poisoned) at the start of its turn (until successfully cured of poison). An entity that succeeds on this CON save, cannot be affected by Hive Beast venom for 24 hours.|
 |Claws|+9|1d12+5||
 |Monster Attack|||A hive beast can make one attack with its bite, and one with its claws as a main action|
 |Grapple|+9|||
@@ -291,7 +311,7 @@ ___
 |Skills|||"Athletics" +10, "Climb" +10, "Acrobatics" +5, "Appraise" +5, "Knowledge: Nature" +5, "Knowledge: Geography" +5, "Observe" +6, "Track" +5, "Sense Motive" +5|
 |||||
 |**Elder**|-|-|-|
-|Bite|+14|2d6+7|An entity that takes HP damage from a hive beast's bite must succeed a Threshold=16 CON save or be incapacitated (poisoned) at the start of its turn (until successfully cured of poison). An entity that succeeds on this CON save, cannot be affected by Hive Beast venom for 24 hours.|
+|Bite|+14|2d6+7|An entity that takes HP damage from a hive beast's bite must succeed a Thr=16 CON save or be incapacitated (poisoned) at the start of its turn (until successfully cured of poison). An entity that succeeds on this CON save, cannot be affected by Hive Beast venom for 24 hours.|
 |Monster Attack|||An elder hive beast can make one attack with its bite, and two with its claws as a main action|
 |Grapple|+14|||
 |[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||(1 SP dice) A hive beast can apply an additional basic combat manoeuvre when it makes a claw attack|
@@ -306,7 +326,7 @@ ___
 |**All**|-|-|-|
 |Hive mind|||All hive beasts belonging to the same colony are always connected. They can communicate telepathically at any distance. Furthermore, the hive is aware whether its members are alive or dead. Lastly the hive knows the location of its conscious members.|
 |Telepathy|||(Range=120ft)|
-|Resistance|||"Poison" damage, "poisoned", physical damage|
+|Resistance|||"Poi" damage, "poisoned", physical damage|
 
 Hive beasts are highly intelligent telepathic predators that dwell in the dark corners of the world. Undoubtedly, hive beasts are more intelligent than most humanoids, but for some reason never found civilisations as do humanoids. It is likely that the principles under which they operate are too different.
 
@@ -352,17 +372,17 @@ Adult fell beasts have a natural armour of +2, great have a natural armour of +4
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite (young)|+3|1d6+1 [Shear]||
-|Claws (young)|+3|1d4+1[Shear]|Threshold=14 CON or -2 to Str, on 1, paralysed, non lethal. The poisoning persists for 24 hours or until cured.|
+|Bite (young)|+3|1d6+1 [Sh]||
+|Claws (young)|+3|1d4+1[Sh]|Thr=14 CON or -2 to Str, on 1, paralysed, non lethal. The poisoning persists for 24 hours or until cured.|
 |Senses|||Normal, Low-light vision, Keen Smell|
 |Skills (young)|||"Track +2", "Navigate -2", "Climb +2", "Observe +1"|
 |Abilities (young)|||Tracker: Fast Search|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite (adult)|+7|2d6+3[Shear]||
-|Claws (adult)|+7|1d10+3|Threshold=17 CON or -2 to Str, on 1, paralysed, non lethal. The poisoning persists for 24 hours or until cured.|
-|Stinger (adult)|+7|1d12+3|Threshold=17 CON, repeated 3 times. 1. no effect, 2. restrained, 3.paralysed. A single successful save stops the progression of the poison, but does not revert effects that have already been applied. The poisoning persists for 24 hours or until cured.|
+|Bite (adult)|+7|2d6+3[Sh]||
+|Claws (adult)|+7|1d10+3|Thr=17 CON or -2 to Str, on 1, paralysed, non lethal. The poisoning persists for 24 hours or until cured.|
+|Stinger (adult)|+7|1d12+3|Thr=17 CON, repeated 3 times. 1. no effect, 2. restrained, 3.paralysed. A single successful save stops the progression of the poison, but does not revert effects that have already been applied. The poisoning persists for 24 hours or until cured.|
 |Monster attack (adult)|||The fell beast makes one attack with its claws, one with its bite, and one with its tail|
 |Senses|||Normal, Low-light vision, Keen Smell|
 |Skills (adult)|||"Track +5", "Navigate 0", "Climb +6", "Fortify: +6", "Observer +3", "Athletics +4"|
@@ -370,14 +390,14 @@ Adult fell beasts have a natural armour of +2, great have a natural armour of +4
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite (great)|+10|3d6+5[shear]||
-|Claws (great)|+10|3d4+5[shear]|Threshold=19 CON or -2 to Str, on 1, paralysed, non lethal. The poisoning persists for 24 hours or until cured.|
-|Stinger (great)|+10|1d12+5|Threshold=19, repeated 3 times. 1. no effect, 2. restrained, 3.paralysed. A single successful save stops the progression of the poison, but does not revert effects that have already been applied. The poisoning persists for 24 hours or until cured.|
+|Bite (great)|+10|3d6+5[Sh]||
+|Claws (great)|+10|3d4+5[Sh]|Thr=19 CON or -2 to Str, on 1, paralysed, non lethal. The poisoning persists for 24 hours or until cured.|
+|Stinger (great)|+10|1d12+5|Thr=19, repeated 3 times. 1. no effect, 2. restrained, 3.paralysed. A single successful save stops the progression of the poison, but does not revert effects that have already been applied. The poisoning persists for 24 hours or until cured.|
 |Monster attack (great)|||The fell beast makes two attacks with its claws, one with its bite, and one with its tail|
 |Senses|||Normal, Low-light vision, Keen Smell|
 |Skills (great)|||"Track +8", "Navigate +5", "Climb +9", "Fortify: +11", "Observer +6", "Athletics +11", "Stealth +8", "Geography +3"|
 |Abilities (great)|||Tracker: Swift, Persistent, Fast Search|
-|Resistances (great)|||Piercing, Shear|
+|Resistances (great)|||Pi, Sh|
 
 Fell beasts are predatory monsters that roam hilly and mountainous terrain. They prefer humanoid flesh, but will settle with animals, and in poor times even plants and other monsters.
 
@@ -408,8 +428,8 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite|+8|2d12+4|Piercing, shear|
-|Great shout|Threshold=20 CHA||Cost: 2 SP dice. Range: 30ft sphere centred on the head. All entities that can hear the shout and fail the charisma save are [incapacitated](../10-conditions-types.md#incapacitated) till the end of the head's next turn.|
+|Bite|+8|2d12+4|Pi, Sh|
+|Great shout|Thr=20 CHA||Cost: 2 SP dice. Range: 30ft sphere centred on the head. All entities that can hear the shout and fail the charisma save are [incapacitated](../10-conditions-types.md#incapacitated) till the end of the head's next turn.|
 |Resistant|||"fear", "charm", "catatonic", "stun"|
 |Senses|||"Keen senses", "low light vision"|
 |Skills|||+5 to any 2, +4 to any two (usually knowledge arcana, track, nature)|
@@ -491,11 +511,11 @@ A snail's shell gives it +12 to armour.
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Pseudopod|+11|1d8+7 Percussive|Reach=10ft|
-|Teeth|+11|1d4+7 Piercing + 2d12[poison]|Range=240ft, Increment=30ft. If the snail's venomous teeth deal damage to a target, it must succeed a CON save at the start of the next turn, or be restrained. If it fails this save, at the start of its following turn it must succeed a CON save or be paralysed for 24 hours or until cured (no repeated saves). Threshold=19|
+|Pseudopod|+11|1d8+7 Pe|Reach=10ft|
+|Teeth|+11|1d4+7 Pi + 2d12[Poi]|Range=240ft, Increment=30ft. If the snail's venomous teeth deal damage to a target, it must succeed a CON save at the start of the next turn, or be restrained. If it fails this save, at the start of its following turn it must succeed a CON save or be paralysed for 24 hours or until cured (no repeated saves). Thr=19|
 |Retreat|||As a main action, a snail can retreat into, or emerge from, its shell, giving it immunity to physical damage. The shell can be destroyed by supernatural attacks or attacks from weapons of a material grade of 2 or above (the shell acts as an object and has a HP of 18).|
 |||||
-|Resistances|||"Percussive" damage|
+|Resistances|||"Pe" damage|
 |Skills|||"Observe" +3, "Harvest" +8|
 
 Giant snails are large herbivorous molluscs. Demonic snails are monsters that crawl over the land devouring anything that approaches them. They shoot venomous teeth attached to extensible pseudopods at their prey, causing paralysis. They then devour their prey at their leisure.
@@ -527,11 +547,11 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Pseudopod|+11|1d8+7 Percussive + 2d12[acid]|Reach=10ft|
-|Teeth|+11|1d4+7 Piercing + 2d12[acid]|Range=120ft, Increment=20ft. If the slug's venomous teeth deal damage to a target, it must succeed a CON save at the start of the next turn, or be restrained. If it fails this save, at the start of its following turn it must succeed a CON save or be paralysed for 24 hours or until cured (no repeated saves). Threshold=19|
-|Acid Body|||Weapons of material grade 3 or lower striking the slugs body are dealt 1 point of damage. Furthermore the attacker must succeed a threshold=19 CON save or suffer 2d12 poison damage.|
+|Pseudopod|+11|1d8+7 Pe + 2d12[acid]|Reach=10ft|
+|Teeth|+11|1d4+7 Pi + 2d12[acid]|Range=120ft, Increment=20ft. If the slug's venomous teeth deal damage to a target, it must succeed a CON save at the start of the next turn, or be restrained. If it fails this save, at the start of its following turn it must succeed a CON save or be paralysed for 24 hours or until cured (no repeated saves). Thr=19|
+|Acid Body|||Weapons of material grade 3 or lower striking the slugs body are dealt 1 point of damage. Furthermore the attacker must succeed a Thr=19 CON save or suffer 2d12 poison damage.|
 |||||
-|Resistances|||"Percussive", "poison", "acid" damage|
+|Resistances|||"Pe", "Poi", "acid" damage|
 |Skills|||"Observe" +3, "Harvest" +8|
 
 Demonic slugs are, like demonic snails, vicious predators that devour anything that moves. They dwell in deep forest and swamps and subterranean caverns, where their sluggish movement and lack of defences against the things that could hunt them.
@@ -557,19 +577,19 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Elemental Blast|+9|2d4+4|Lightning|
-|Elemental Touch|+9|2d4+2|Lightning|
+|Elemental Blast|+9|2d4+4|Lig|
+|Elemental Touch|+9|2d4+2|Lig|
 |Spore touch|||The worm uses its action to touch one willing mortal. The mortal becomes infected with its spores. It must make 3 Con saves, one at the end of the day, one after 7 days, one after 30 days. After failing a save, the target loses 1 Con (can be cured by a complete rest with medical treatment) and gains +1 to Int. If the target fails all three saves it becomes a young worm.|
-|Spellcasting:Incantation V|||Threshold=22, Always knows "command mortal"|
-|Spellcasting: Air III|||Threshold=20|
-|Spellcasting: Nature II|||Threshold=20|
+|Spellcasting:Incantation V|||Thr=22, Always knows "command mortal"|
+|Spellcasting: Air III|||Thr=20|
+|Spellcasting: Nature II|||Thr=20|
 |Abnormal Spellcasting|||A worm that sings knows a single MP 7 spell, and can cast it globally.|
 |Xenophonia|||Humanoid, Animal, Plant, Monster, Undead, Spirit||
 |Senses|||Normal + Life sense (60ft)|
 |Senses|||Keen Hearing|
 |Skills|||"Perform" +9, "Deception" + 9, "Spellworking" +11, "Knowledge:Arcane, Nature, Geography" +11, "Knowledge: History": +8, "Navigate" +8, "Observe" +8, "Prospect" +9, "Sense Motive" +6, "Track" +6, "Creature Handling" +6|
-|Resistance|||"percussive", "pressure", "light", "ice", "necrotic"|
-|Vulnerability|||"entropic"|
+|Resistance|||"Pe", "Pr", "light", "ice", "Nec"|
+|Vulnerability|||"Ent"|
 
 A very dangerous otherworldly monster. The Worm that Sings is has a slender, mushroom-like body with a flat head and towers 15ft as it stands. It wonders remote and sparsely inhabited lands, with no obvious goal, singing a haunting song as it goes, that is capable of ensnaring mortals. Mortals ensnared by the song either stand motionless and allow the worm to implant its eggs in it, which hatch within a month, beginning to devour the victim as they mature. Others become violent and attempt to strike nearby beings, even close friends.
 
@@ -596,15 +616,15 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite|+10|2d12+5|Piercing, shear|
-|Claws|+10|2d6+5|Piercing, shear|
+|Bite|+10|2d12+5|Pi, Sh|
+|Claws|+10|2d6+5|Pi, Sh|
 |Grapple, Restrain|+10||||
 |Combined Manoeuvre: Grapple|||Bite only: Trolls can deal damage with their bite while simultaneously grappling their target (1SP die)|
-|Great shout|Threshold=20 CHA||Cost: 2 SP dice. Range: 30ft sphere centred on the troll. All entities that can hear the shout and fail the charisma save are [incapacitated](../10-conditions-types.md#incapacitated) till the end of the troll's next turn.|
+|Great shout|Thr=20 CHA||Cost: 2 SP dice. Range: 30ft sphere centred on the troll. All entities that can hear the shout and fail the charisma save are [incapacitated](../10-conditions-types.md#incapacitated) till the end of the troll's next turn.|
 |Monster attack|||A troll makes two claw attacks. It can also make either a bite attack or a |
 ||||||
 |Resistant|||"fear", "charm", "catatonic", "stun"|
-|Extraordinary Vitality|||A troll regains 5 SP and 1 HP at the start of its turn even if it is dead. If it is below 0 HP but not dead, its HP is set to 1. This ability is inactive on turns when the troll has suffered "fire", "divine" or "entropic" damage between the end of its previous turn and the start of this turn. A troll only dies permanently if its HP is 0 or below, and this ability is inactive.|
+|Extraordinary Vitality|||A troll regains 5 SP and 1 HP at the start of its turn even if it is dead. If it is below 0 HP but not dead, its HP is set to 1. This ability is inactive on turns when the troll has suffered "Fir", "divine" or "entropic" damage between the end of its previous turn and the start of this turn. A troll only dies permanently if its HP is 0 or below, and this ability is inactive.|
 |Limited Immunity|||"crippled": A troll that suffers from the "crippled" condition is cured of it at the start of its next turn, as it regenerates. If a troll's "extraordinary vitality" is disabled by any means, this ability likewise ceases to function|
 |Senses|||"Keen senses", "low light vision"|
 |Skills|||+5 to any 2, +4 to any two (usually knowledge arcana, track, nature)|
@@ -634,10 +654,10 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Piercing Limb|+19|3d12+8|Piercing, shear|
-|Noxious aura|Threshold=22 Con|2d8 Poison[natural]|"main action", 2SP. Every round the aura is active it increases in radius by 20 feet beyond the mudwalker's space to a maximum of 60ft. The poison hangs in the air for 10 minutes in the area where it was active. [Severe](../03-movement-exploration.md#travel-and-getting-lost), or worse, blows away the aura upwind fom the mudwalker.|
-|"Monster Attack III"|||Makes 4 "Piercing Limb" attacks per round, it its target is of "medium" size or smaller, it can only be targetted by a single attack. If it is "large" it can only be targetted by two attacks.|
-|Resistant|||"charm", "catatonic", "stun", "piercing"|
+|Pi Limb|+19|3d12+8|Pi, Sh|
+|Noxious aura|Thr=22 Con|2d8 Poi[nat]|"main action", 2SP. Every round the aura is active it increases in radius by 20 feet beyond the mudwalker's space to a maximum of 60ft. The poison hangs in the air for 10 minutes in the area where it was active. [Severe](../03-movement-exploration.md#travel-and-getting-lost), or worse, blows away the aura upwind fom the mudwalker.|
+|"Monster Attack III"|||Makes 4 "Pi Limb" attacks per round, it its target is of "medium" size or smaller, it can only be targetted by a single attack. If it is "large" it can only be targetted by two attacks.|
+|Resistant|||"charm", "catatonic", "stun", "Pi"|
 |Senses|||"Tremor Sense IV" 60ft, "Blind sight" 5ft (otherwise blind)|
 |Skills|||+4 Climb, +7 Stealth, +4|
 
@@ -689,9 +709,9 @@ A kraken makes 8 attacks with its tentacles. It can attack targets smaller than 
 |Esoteric Deflection||| Reduce the damage from a "esoteric" ranged attack by [1d6 + [2 x MP dice expended]], as a reaction to taking esoteric damage|
 |||||
 |["Spellcasting: Global"](../06-abilities.md#spellcasting-global)||||
-|["Spellcasting: Water VII"](../06-abilities.md#spellcasting-local) |Threshold=24||Prefers: ["Transform Mortal"](../08-spell-list.md#transform-mortal), ["Create Secret Path"](../08-spell-list.md#create-secret-path), ["Inner Voice"](../08-spell-list.md#inner-voice), ["Lesser Cosmic Seal"](../08-spell-list.md#lesser-cosmic-seal), ["Mirage"](../08-spell-list.md#mirage), ["Balance of Elements"](../08-spell-list.md#balance-of-elements), ["See Spell"](../08-spell-list.md#see-spell), ["Water Ward"](../08-spell-list.md#water-ward), ["Dusk"](../08-spell-list.md#dusk), ["Winter's Touch"](../08-spell-list.md)|
+|["Spellcasting: Water VII"](../06-abilities.md#spellcasting-local) |Thr=24||Prefers: ["Transform Mortal"](../08-spell-list.md#transform-mortal), ["Create Secret Path"](../08-spell-list.md#create-secret-path), ["Inner Voice"](../08-spell-list.md#inner-voice), ["Lesser Cosmic Seal"](../08-spell-list.md#lesser-cosmic-seal), ["Mirage"](../08-spell-list.md#mirage), ["Balance of Elements"](../08-spell-list.md#balance-of-elements), ["See Spell"](../08-spell-list.md#see-spell), ["Water Ward"](../08-spell-list.md#water-ward), ["Dusk"](../08-spell-list.md#dusk), ["Winter's Touch"](../08-spell-list.md)|
 |||||
-|Resistance|||"Poison", "Cold", "Necrotic", "Percussive", "Pressure"|
+|Resistance|||"Poi", "Ice", "Nec", "Pe", "Pr"|
 |Resistance|||"Restrained", "Immobilised", "Stunned", "Paralysed"|
 |Immune|||"Fear", "Disease", "Catatonic", "Charmed"|
 |||||
@@ -732,15 +752,15 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite (Dragon)|+14|1d12+7|Reach=15ft (Poison: Threshold=20 or lose 1 point of STR)|
+|Bite (Dragon)|+14|1d12+7|Reach=15ft (Poison: Thr=20 or lose 1 point of STR)|
 |Bite (Lion)|+14|2d8+7|Reach=10ft|
 |Ram (Goat)|+14|1d10+7|Reach=10ft|
 |Claws|+14|2d6+7|Reach=10ft|
-|Tail (snake)|+14|1d6+7|Reach=15ft (Poison: As a secondary action, the chimera can expend 1 SP die and inject a dose of its venom into its victim. At the start of each turn the entity must succeed a CON save (Threshold = 20), or take 2d6 necrotic[natural] damage. The venom persists for a minute, or until the victim succeeds the save.)|
+|Tail (snake)|+14|1d6+7|Reach=15ft (Poison: As a secondary action, the chimera can expend 1 SP die and inject a dose of its venom into its victim. At the start of each turn the entity must succeed a CON save (Threshold = 20), or take 2d6 necrotic[nat] damage. The venom persists for a minute, or until the victim succeeds the save.)|
 |Grapple|+14||A chimera can grapple with its claws, or the lion/dragon head.|
 |Monster Attack IV|||A chimera can attack once with each head, once with its tail, and once with its claws. C chimera cannot attack an entity of size medium or smaller with more than one attack of its heads in a single turn.|
 |||||
-|Flaming Blast|Threshold=22|3d6+2 [Fire]|Range=20ft. The chimera's dragon head can blast fire in a 20ft cone. If it uses an MP die, the blast deals an extra 1d6 damage and the range is extended by 10ft. The chimera can expend up to 7 MP dice for a single blast. (NB: This acts like the ["Elemental Blast"](../06-abilities.md#blast-elemental-blast) in the cone form.)|
+|Flaming Blast|Thr=22|3d6+2 [Fire]|Range=20ft. The chimera's dragon head can blast fire in a 20ft cone. If it uses an MP die, the blast deals an extra 1d6 damage and the range is extended by 10ft. The chimera can expend up to 7 MP dice for a single blast. (NB: This acts like the ["Elemental Blast"](../06-abilities.md#blast-elemental-blast) in the cone form.)|
 |||||
 |[Alert](../06-abilities.md#alert)|||A chimera cannot be surprised|
 |[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||(cost = 1SP dice) A chimera can grapple targets when it makes a claw attack, or one with its dragon or lion head..|
@@ -1027,7 +1047,7 @@ ___
 |-|-|-|-|
 |Hooves|+12|1d8+6|(Reach=5ft, long)|
 |Horn|+12|1d12+6|(Reach=5ft, long)|
-|[Holy Strike](../06-abilities.md#holy-strike)||2d6|A true unicorn can expend MP to infuse its hooves or horn with supernatural light, dealing extra damage. It may expend 1 MP and deal 2d4 of light damage. Profane entities hit by this attack must succeed a CHA save (Threshold=13+SUP+[CHA]) or be "blinded" (repeated save applies).|
+|[Holy Strike](../06-abilities.md#holy-strike)||2d6|A true unicorn can expend MP to infuse its hooves or horn with supernatural light, dealing extra damage. It may expend 1 MP and deal 2d4 of light damage. Profane entities hit by this attack must succeed a CHA save (Thr=13+SUP+[CHA]) or be "blinded" (repeated save applies).|
 |||||
 |Sunder|+12||A unicorn can destroy the weapons and armour of its foes|
 |Throw|+12||A unicorn can knock down its foes|
@@ -1039,13 +1059,13 @@ ___
 |[Deflection](../06-abilities.md#deflection)|||A unicorn can can reduce damage from ranged supernatural attacks by 1d4+7+([MP dice]d4) as a reaction.|
 |[Esoteric Deflection](../06-abilities.md#esoteric-deflection)|||A unicorn can, as a reaction, reduce the damage from a "esoteric" ranged attack by [1d6 + [2 x MP dice expended]]|
 |Radiant deflection|HiT: +4||A radiant power surrounds a unicorn, protecting them from harm|
-|[Spellcasting: Incantation VI](../06-abilities.md#spellcasting-local)|Threshold=19||Favourite Spells: ["Least Spike"](../08-spell-list.md#least-spike), ["Sour"](../08-spell-list.md#sour), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Vengeance"](../08-spell-list.md#least-vengeance), ["Meadow of Flame"](../08-spell-list.md#meadow-of-flame), ["Wind Walk"](../08-spell-list.md#wind-walk), ["Cure"](../08-spell-list.md#cure), ["Greater Xenophonia"](../08-spell-list.md#greater-xenophonia), ["Isolate Essence"](../08-spell-list.md#isolate-essence), ["Pact"](../08-spell-list.md#pact), [Heart Ward](../08-spell-list.md#heart-ward)", ["Spirit Restoration"](../08-spell-list.md#spirit-restoration), ["Razor Wind"](../08-spell-list.md#razor-wind), ["Otherworld Step"](../08-spell-list.md#otherworld-step)|
+|[Spellcasting: Incantation VI](../06-abilities.md#spellcasting-local)|Thr=19||Favourite Spells: ["Least Spike"](../08-spell-list.md#least-spike), ["Sour"](../08-spell-list.md#sour), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Vengeance"](../08-spell-list.md#least-vengeance), ["Meadow of Flame"](../08-spell-list.md#meadow-of-flame), ["Wind Walk"](../08-spell-list.md#wind-walk), ["Cure"](../08-spell-list.md#cure), ["Greater Xenophonia"](../08-spell-list.md#greater-xenophonia), ["Isolate Essence"](../08-spell-list.md#isolate-essence), ["Pact"](../08-spell-list.md#pact), [Heart Ward](../08-spell-list.md#heart-ward)", ["Spirit Restoration"](../08-spell-list.md#spirit-restoration), ["Razor Wind"](../08-spell-list.md#razor-wind), ["Otherworld Step"](../08-spell-list.md#otherworld-step)|
 |[Spellsong III](../06-abilities.md#spellsong-i-iv)|||A unicorn's song can alter the nature of magic around it|
 |[Sprinter](../06-abilities.md#sprinter)|||A unicorn can run at x3 its base speed, and sprint x5 its base speed.|
 |[Mighty I](../06-abilities.md#mighty-i)|||Can carry more weight than your average beast|
 ||||||
 |Immunity|||"aphonic", "blinded", "charmed", "deafened", "frightened"||
-|Vulnerability|||"poison", "necrotic", "profane" damage.|
+|Vulnerability|||"Poi", "Nec", "Pro" damage.|
 |True-speech|||A true unicorn cannot lie|
 |||||
 |[Low Light Vision](../06-abilities.md#low-light-vision)|||A unicorn can see in dim light as well as in sunlight.|
@@ -1073,9 +1093,9 @@ Lycanthropes are classified as "Mortals", "Monsters".
 The following is common to lycanthropes:
 
 - Lycanthropes are immune to "physical" damage.
-- Lycanthropes are at least resistant to "poison" and "disease".
+- Lycanthropes are at least resistant to "Poi" and "disease".
 - Lycanthropes have an alternate form of a beast (though this is never a herbivorous beast). Less powerful lycanthropes have little control over this transformation.
-- Lycanthropes' "piercing" and "slashing" immunities are negated by weapons made of silver.
+- Lycanthropes' "Pi" and "Sl" immunities are negated by weapons made of silver.
 
 ___
 ### Werewolf, lesser
@@ -1096,12 +1116,12 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Club (human form)|+8|1d4+4 percussive|-|
-|Hand axe|+8|1d6+4 slashing|Proficient with any one weapon group, but no armour|
+|Club (human form)|+8|1d4+4 Pe|-|
+|Hand axe|+8|1d6+4 Sl|Proficient with any one weapon group, but no armour|
 |||||
 |Proficiencies|||Any two tools or kits|
 |Resistance|||Physical damage, "bleeding", "crippled", "incapacitated", "frightened"|
-|Resistance|||"poison", "disease"|
+|Resistance|||"Poi", "disease"|
 |Greater Vitality|||A werewolf restores all SP and MP (but not dice) at the end of a short rest, as well as 1 HP. A werewolf restores HP fully following a long rest.|
 |Anathema: Silver|||Silver negates a werewolf's resistances and "Greater Vitality"|
 |||||
@@ -1134,12 +1154,12 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Club (human form)|+13|1d4+6 percussive|-|
-|Longsword|+13|1d8/1d12+6 slashing||
+|Club (human form)|+13|1d4+6 Pe|-|
+|Longsword|+13|1d8/1d12+6 Sl||
 |||||
 |Proficiencies|||Any two tools or kits|
 |Resistance|||"bleeding", "crippled", "incapacitated", "frightened"|
-|Immunity|||Physical damage", "poison", "disease"|
+|Immunity|||Physical damage", "Poi", "disease"|
 |Greater Vitality|||A werewolf restores all SP and MP (but not dice) at the end of a short rest, as well as 1 HP. A werewolf restores HP fully following a long rest.|
 |Anathema: Silver|||Silver negates a werewolf's resistances and "Greater Vitality"|
 |Alternate Form: Wolf, Giant Wolf|1 MP dice||As a main action, a werewolf can transform into a wolf, or back into its humanoid form. Any equipment, or possessions are not transformed. On nights within 2 nights of the full moon a lesser werewolf must success|
@@ -1168,7 +1188,7 @@ Dragons typically look like reptiles, but are not. Dragons are supernatural enti
 - Dragons need sleep.
 - Dragons are an apex lifeform and as such are immune to fear.
 - Dragons are immune to one element.
-- Dragons are resistant to "slashing", "shear" and "percussive" damage.
+- Dragons are resistant to "slashing", "Sh" and "Pe" damage.
 - Some, but not all, dragons are shapeshifters, capable of taking on the forms of animals or humanoids.
 
 Dragons, in most worlds, are the apex mortal being. They are typically stronger, more robust and more intelligent than most other mortals. In addition they possess a whole array of potent supernatural abilities. Most dragons are spellcasters. As such this raises the very valid question of why do dragons not rule all the worlds where they are present?
@@ -1212,7 +1232,7 @@ ___
 |Attacks|Bonus|Damage|Other|
 |-|-|-|-|
 |Claws|+19|2d8+9||
-|Bite|+19|2d12+9|Poison: Threshold=26 or lose 1 point of STR|
+|Bite|+19|2d12+9|Poison: Thr=26 or lose 1 point of STR|
 |Tail|+17|2d6+7|Reach 15ft|
 
 - A dragon's attack count as having "draconic source" (level 4 material), this is already taken into account for the stat block.
@@ -1222,7 +1242,7 @@ ___
 |-|-|-|-|
 |Grapple, Restrain, Throw, Sunder|+17|||
 |Elemental Blast (fire)|+11|4d6 + 2d6/dice||
-|Elemental Blast, Greater (fire)|Threshold=20|4d6 + 2d6/MP dice|(Linear)|
+|Elemental Blast, Greater (fire)|Thr=20|4d6 + 2d6/MP dice|(Linear)|
 
 - A dragon's elemental blast counts as natural damage.
 - A dragon's elemental blast deals 2d6 damage for every extra MP/SP die added and has a base damage of 4d6. The attack/threshold is constitution based (breath weapon).
@@ -1239,7 +1259,7 @@ ___
 |Keen senses|||Sight, Smell|
 |Low-light vision||||
 |Immunity|||Fire, Fear|
-|Resistance|||Slashing, Shear, Percussive|
+|Resistance|||Sl, Sh, Pe|
 |Parry||||
 |Deflect Missile||||
 |Deflection||||
@@ -1248,9 +1268,9 @@ ___
 |Elemental Affinity: Fire||||
 |Draconic Spell|||A dragon may use 2 MP dice to cast a spell of 5 MP dice or less as a secondary action.|
 |Alternate form|||The dragon has a humanoid, animal and true form. It may shift between them as a "main action". Each form is constant (always the same animal, always the same humanoid, always the same dragon)|
-|Spellcasting: Fire VIII|Threshold=22||Favourite: "Forest of Flame", "Greater Cosmic Seal", "Meteoric Flight", "Flame Stride", "Balance of Elements"|
-|Spellcasting: Incantation V|Threshold=23||Favourites: "Pact", "Isolate Essence", "Least Weather Control","Cure", "Trace Secret Path"|
-|Spellcasting: Air III|Threshold=22||Favourites: "Lesser Veil", "Guidance of the Winds"|
+|Spellcasting: Fire VIII|Thr=22||Favourite: "Forest of Flame", "Greater Cosmic Seal", "Meteoric Flight", "Flame Stride", "Balance of Elements"|
+|Spellcasting: Incantation V|Thr=23||Favourites: "Pact", "Isolate Essence", "Least Weather Control","Cure", "Trace Secret Path"|
+|Spellcasting: Air III|Thr=22||Favourites: "Lesser Veil", "Guidance of the Winds"|
 |Spellcasting: Global||||
 |Skills|||Fortify + 20, Athletics +20, Fly +18, Observe +16, Track +16, Appraise +16, Spellcraft + 16, Sense Motive +16, K:Arcana +16, K:History +16, K:Geography +16|
 |Skills|||All others: [Stat bonus]+1|
@@ -1299,7 +1319,7 @@ ___
 |Attacks|Bonus|Damage|Other|
 |-|-|-|-|
 |Claws|+16|1d8+8|Reach 5ft (long)|
-|Bite|+16|1d12+8|Poison: Threshold=23 or lose 1d6 point of DEX|
+|Bite|+16|1d12+8|Poison: Thr=23 or lose 1d6 point of DEX|
 |Tail|+13|1d6+6|Reach 10ft (long)|
 
 - A lesser dragon's attack count as having "draconic source" (level 4 material), this is already taken into account for the stat block.
@@ -1309,7 +1329,7 @@ ___
 |-|-|-|-|
 |Grapple, Restrain, Throw, Sunder|+13|||
 |Elemental Blast (fire)|+10|4d6 + 2d6/dice||
-|Elemental Blast, Greater (fire)|Threshold=20|4d6 + 2d6/MP dice|(Linear)|
+|Elemental Blast, Greater (fire)|Thr=20|4d6 + 2d6/MP dice|(Linear)|
 
 - A lesser dragon's elemental blast counts as natural damage.
 - A lesser dragon's elemental blast deals 2d6 damage for every extra MP/SP die added and has a base damage of 3d6. The attack/threshold is constitution based (breath weapon).
@@ -1326,7 +1346,7 @@ ___
 |Keen senses|||Sight, Smell|
 |Low-light vision||||
 |Immunity|||Fire, Fear|
-|Resistance|||Slashing, Shear, Percussive|
+|Resistance|||Sl, Sh, Pe|
 |Parry||||
 |Deflect Missile||||
 |Deflection||||
@@ -1335,9 +1355,9 @@ ___
 |Elemental Affinity: Fire||||
 |Draconic Spell|||A dragon may use 2 MP dice to cast a spell of 5 MP dice or less as a secondary action.|
 |Alternate form|||The dragon has a humanoid, animal and true form. It may shift between them as a "main action". Each form is constant (always the same animal, always the same humanoid, always the same dragon)|
-|Spellcasting: Fire VI|Threshold=21||Favourite: "Forest of Flame", "Flame Stride", "Balance of Elements"|
-|Spellcasting: Incantation IV|Threshold=19||Favourites: "Least Weather Control","Cure", "Trace Secret Path"|
-|Spellcasting: Air III|Threshold=21||Favourites: "Lesser Veil", "Guidance of the Winds"|
+|Spellcasting: Fire VI|Thr=21||Favourite: "Forest of Flame", "Flame Stride", "Balance of Elements"|
+|Spellcasting: Incantation IV|Thr=19||Favourites: "Least Weather Control","Cure", "Trace Secret Path"|
+|Spellcasting: Air III|Thr=21||Favourites: "Lesser Veil", "Guidance of the Winds"|
 |Spellcasting: Global||||
 |Skills|||Fortify +16, Athletics +16, Fly +17, Observe +13, Track +13, Appraise +13, Spellcraft +13, Sense Motive +13, K:Arcana +13, K:History +13, K:Geography +13|
 |Skills|||All others: [Stat bonus]+1|
@@ -1375,7 +1395,7 @@ ___
 |Attacks|Bonus|Damage|Other|
 |-|-|-|-|
 |Claws|+21|2d8+10||
-|Bite|+21|2d12+10|Poison: Threshold=26 or lose 1d6 point of DEX|
+|Bite|+21|2d12+10|Poison: Thr=26 or lose 1d6 point of DEX|
 |Tail|+18|2d6+8|Reach 15ft|
 
 - A dragon's attack count as having "draconic source" (level 4 material), this is already taken into account for the stat block.
@@ -1385,7 +1405,7 @@ ___
 |-|-|-|-|
 |Grapple, Restrain, Throw, Sunder|+16|||
 |Elemental Blast (ice)|+12|4d6 + 2d6/dice||
-|Elemental Blast, Greater (ice)|Threshold=21|4d6 + 2d6/MP dice|(Linear)|
+|Elemental Blast, Greater (ice)|Thr=21|4d6 + 2d6/MP dice|(Linear)|
 
 - A dragon's elemental blast counts as natural damage.
 - A dragon's elemental blast deals 2d6 damage for every extra MP/SP die added and has a base damage of 4d6. The attack/threshold is constitution based (breath weapon).
@@ -1402,7 +1422,7 @@ ___
 |Keen senses|||Sight, Smell|
 |Low-light vision||||
 |Immunity|||Ice, Fear|
-|Resistance|||Slashing, Shear, Percussive|
+|Resistance|||Sl, Sh, Pe|
 |Arcane Interception||||
 |Deflection||||
 |Aphonic spell||||
@@ -1410,8 +1430,8 @@ ___
 |Elemental Affinity: Ice||||
 |Draconic Spell|||A dragon may use 2 MP dice to cast a spell of 5 MP dice or less as a secondary action.|
 |Alternate form|||The dragon has a humanoid, animal and true form. It may shift between them as a "main action". Each form is constant (always the same animal, always the same humanoid, always the same dragon)|
-|Spellcasting: Water VII|Threshold=24||Favourite: "Transform mortal, "inner voice", "lesser cosmic seal", "aqueous step", "false aura", "mirage", "scry", "winter's touch"|
-|Spellcasting: Air VII|Threshold=24||Favourites: "Greater Weather control", "razor wind", "greater fade", "least storm", "see spell", slumber", "silence", "Trace Secret Path"|
+|Spellcasting: Water VII|Thr=24||Favourite: "Transform mortal, "inner voice", "lesser cosmic seal", "aqueous step", "false aura", "mirage", "scry", "winter's touch"|
+|Spellcasting: Air VII|Thr=24||Favourites: "Greater Weather control", "razor wind", "greater fade", "least storm", "see spell", slumber", "silence", "Trace Secret Path"|
 |Spellcasting: Global||||
 |Skills|||Fortify + 21, Athletics +21, Fly +16, Observe +18, Track +18, Appraise +16, Spellcraft + 16, Sense Motive +18, K:Arcana +16, K:History +16, K:Geography +16|
 |Skills|||All others: [Stat bonus]+1|
@@ -1453,7 +1473,7 @@ ___
 |Attacks|Bonus|Damage|Other|
 |-|-|-|-|
 |Claws|+17|1d8+9|Reach 5ft (long)|
-|Bite|+17|1d12+9|Poison: Threshold=20 or lose 1d6 point of DEX|
+|Bite|+17|1d12+9|Poison: Thr=20 or lose 1d6 point of DEX|
 |Tail|+14|1d6+7|Reach 10ft (long)|
 
 - A lesser dragon's attack count as having "draconic source" (level 4 material), this is already taken into account for the stat block.
@@ -1463,7 +1483,7 @@ ___
 |-|-|-|-|
 |Grapple, Restrain, Throw, Sunder|+14|||
 |Elemental Blast (ice)|+10|3d6 + 2d6/dice||
-|Elemental Blast, Greater (ice)|Threshold=20|3d6 + 2d6/MP dice|(Linear)|
+|Elemental Blast, Greater (ice)|Thr=20|3d6 + 2d6/MP dice|(Linear)|
 
 - A lesser dragon's elemental blast counts as natural damage.
 - A lesser dragon's elemental blast deals 2d6 damage for every extra MP/SP die added and has a base damage of 3d6. The attack/threshold is constitution based (breath weapon).
@@ -1480,7 +1500,7 @@ ___
 |Keen senses|||Sight, Smell|
 |Low-light vision||||
 |Immunity|||Ice, Fear|
-|Resistance|||Slashing, Shear, Percussive|
+|Resistance|||Sl, Sh, Pe|
 |Arcane Interception||||
 |Deflection||||
 |Aphonic spell||||
@@ -1488,8 +1508,8 @@ ___
 |Elemental Affinity: Ice||||
 |Draconic Spell|||A dragon may use 2 MP dice to cast a spell of 5 MP dice or less as a secondary action.|
 |Alternate form|||The dragon has a humanoid, animal and true form. It may shift between them as a "main action". Each form is constant (always the same animal, always the same humanoid, always the same dragon)|
-|Spellcasting: Water V|Threshold=21||Favourite: "lesser cosmic seal", "aqueous step", "false aura", "mirage", "scry", "winter's touch"|
-|Spellcasting: Air V|Threshold=21||Favourites: "greater fade", "least storm", "see spell", slumber", "silence", "Trace Secret Path"|
+|Spellcasting: Water V|Thr=21||Favourite: "lesser cosmic seal", "aqueous step", "false aura", "mirage", "scry", "winter's touch"|
+|Spellcasting: Air V|Thr=21||Favourites: "greater fade", "least storm", "see spell", slumber", "silence", "Trace Secret Path"|
 |Spellcasting: Global||||
 |Skills|||Fortify +17, Athletics +17, Fly +14, Observe +14, Track +14, Appraise +12, Spellcraft + 12, Sense Motive +14, K:Arcana +12, K:History +12, K:Geography +12|
 |Skills|||All others: [Stat bonus]+1|
@@ -1525,7 +1545,7 @@ ___
 |Attacks|Bonus|Damage|Other|
 |-|-|-|-|
 |Claws|+23|2d8+11||
-|Bite|+23|3d8+11|Poison: Threshold=26 or lose 1d6 point of DEX|
+|Bite|+23|3d8+11|Poison: Thr=26 or lose 1d6 point of DEX|
 |Tail|+20|2d6+9|Reach 15ft|
 |Grapple, Restrain, Throw, Sunder|+16|||
 
@@ -1543,7 +1563,7 @@ ___
 |Keen senses|||Sight, Smell|
 |Low-light vision||||
 |Immunity|||Ice, Fear|
-|Resistance|||Slashing, Shear, Percussive|
+|Resistance|||Sl, Sh, Pe|
 |Arcane Interception||||
 |Deflection||||
 |Aphonic spell||||
@@ -1551,8 +1571,8 @@ ___
 |Elemental Affinity: Earth||||
 |Draconic Spell|||A dragon may use 2 MP dice to cast a spell of 5 MP dice or less as a secondary action.|
 |Alternate form|||The earthbound dragon has an animal and true form. Unlike other dragons it does not have a humanoid form. It may shift between them as a "main action". Each form is constant (always the same animal, always the same humanoid, always the same dragon)|
-|Spellcasting: Earth IX|Threshold=22||Favourites: "Greater Cosmic Seal", "Greater Domain", "Portal", "Create Secret Path", "False Regrowth", "see spell", slumber", "silence", "Trace Secret Path", "Revenant", "Lesser Cosmic Seal", "Healing Seed", "Balance of Elements", "Animate Golem", "Enchanted Ground", "Guidance of the Earth", "Earth Ward", "Slumber", "Dusk", "Summon Gnome", "Gnomes' Mercy", "Shape Earth", "Sour"|
-|Spellcasting: Nature IV|Threshold=22||Favourites: "Rejuvenate Land" "Growth", "Animate Plant", "Cure", "Harvest", "Call Ailment", "Ensnare", "
+|Spellcasting: Earth IX|Thr=22||Favourites: "Greater Cosmic Seal", "Greater Domain", "Portal", "Create Secret Path", "False Regrowth", "see spell", slumber", "silence", "Trace Secret Path", "Revenant", "Lesser Cosmic Seal", "Healing Seed", "Balance of Elements", "Animate Golem", "Enchanted Ground", "Guidance of the Earth", "Earth Ward", "Slumber", "Dusk", "Summon Gnome", "Gnomes' Mercy", "Shape Earth", "Sour"|
+|Spellcasting: Nature IV|Thr=22||Favourites: "Rejuvenate Land" "Growth", "Animate Plant", "Cure", "Harvest", "Call Ailment", "Ensnare", "
 Least Heal"|
 |Spellcasting: Global||||
 |Skills|||Fortify + 22, Athletics +22, Observe +18, Track +18, Appraise +16, Spellcraft + 16, Sense Motive +18, K:Arcana +16, K:History +16, K:Geography +16|
@@ -1604,7 +1624,7 @@ ___
 |Attacks|Bonus|Damage|Other|
 |-|-|-|-|
 |Claws|+18|1d8+10|Reach 5ft (long)|
-|Bite|+18|2d8+10|Poison: Threshold=23 or lose 1d6 point of DEX|
+|Bite|+18|2d8+10|Poison: Thr=23 or lose 1d6 point of DEX|
 |Tail|+15|1d6+8|Reach 10ft (long)|
 |Grapple, Restrain, Throw, Sunder|+16|||
 
@@ -1622,7 +1642,7 @@ ___
 |Keen senses|||Sight, Smell|
 |Low-light vision||||
 |Immunity|||Ice, Fear|
-|Resistance|||Slashing, Shear, Percussive|
+|Resistance|||Sl, Sh, Pe|
 |Arcane Interception||||
 |Deflection||||
 |Aphonic spell||||
@@ -1630,8 +1650,8 @@ ___
 |Elemental Affinity: Earth||||
 |Draconic Spell|||A dragon may use 2 MP dice to cast a spell of 5 MP dice or less as a secondary action.|
 |Alternate form|||The earthbound dragon has an animal and true form. Unlike other dragons it does not have a humanoid form. It may shift between them as a "main action". Each form is constant (always the same animal, always the same humanoid, always the same dragon)|
-|Spellcasting: Earth VII|Threshold=20||Favourites: "Portal", "Create Secret Path", "False Regrowth", "see spell", slumber", "silence", "Trace Secret Path", "Revenant", "Lesser Cosmic Seal", "Healing Seed", "Balance of Elements", "Animate Golem", "Enchanted Ground", "Guidance of the Earth", "Earth Ward", "Slumber", "Dusk", "Summon Gnome", "Gnomes' Mercy", "Shape Earth", "Sour"|
-|Spellcasting: Nature III|Threshold=20||Favourites: "Growth", "Animate Plant", "Cure", "Harvest", "Call Ailment", "Ensnare", "
+|Spellcasting: Earth VII|Thr=20||Favourites: "Portal", "Create Secret Path", "False Regrowth", "see spell", slumber", "silence", "Trace Secret Path", "Revenant", "Lesser Cosmic Seal", "Healing Seed", "Balance of Elements", "Animate Golem", "Enchanted Ground", "Guidance of the Earth", "Earth Ward", "Slumber", "Dusk", "Summon Gnome", "Gnomes' Mercy", "Shape Earth", "Sour"|
+|Spellcasting: Nature III|Thr=20||Favourites: "Growth", "Animate Plant", "Cure", "Harvest", "Call Ailment", "Ensnare", "
 Least Heal"|
 |Spellcasting: Global||||
 |Skills|||Fortify + 17, Athletics +17, Observe +14, Track +14, Appraise +13, Spellcraft + 12, Sense Motive +13, K:Arcana +11, K:History +11, K:Geography +11|

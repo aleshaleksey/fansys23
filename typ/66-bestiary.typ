@@ -63,7 +63,9 @@
   spacing: 120%,
   size: 11pt,
 )
+// #set figure(align: horizon + start)
 #set table(
+  align: horizon + start,
   stroke: (x, y) => {
     (
       top: if y < 2 { black + 1.2pt } else { luma(90) + 0.7pt },

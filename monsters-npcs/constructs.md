@@ -1,5 +1,25 @@
 # Constructs
 
+Certain abbreviations are used in the bestiary.
+
+|Abbreviation|Words    |
+|------------|---------|
+|Thr         |Threshold|
+|Pi         |Piercing (damage)|
+|Pe         |Percussive (damage)|
+|Pr         |Pressure (damage)|
+|Sh         |Shear (damage)|
+|Sl         |Slashing (damage)|
+|Poi         |Poison (damage)|
+|Nec         |Necrotic (damage)|
+|Fir         |Fire (damage)|
+|Ice         |Ice (damage)|
+|Lit         |Light (damage)|
+|Lig         |Lighting (damage)|
+|Div         |Divine (damage)|
+|Pro         |Profane (damage)|
+|Ent         |Entropic (damage)|
+
 Constructs are life-like devices that are capable of movement and are generally made of minerals or metals. They are sometimes called "living dolls", although this term is not strictly correct. Constructs do not reproduce, breathe, drink, eat, sleep or age (unless they are made from mortals).
 
 These properties make constructs excellent workers and guardians.
@@ -24,6 +44,7 @@ ___
 ## Golems
 
 **Golems** are "supernatural" constructs. The methods of their construction, like most things supernatural, defy the laws of nature. Typically they are created for tasks which mortals cannot accomplish due to the frailness or limited lifespan of mortal beings. Golems typically continue to carry out these tasks long after their creators pass on.
+
 - Golems are immune to: "Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "stunned" "incapacitated", "catatonic" and "dying".
 - Golems are at least resistant to "physical" damage and all "energy"[Nat] damage.
 
@@ -37,6 +58,7 @@ Gingerbread golems, also known as gingerbread men are usually small or tiny past
 |18/11/18|15 (*13*)|13 (*11*)|5|60ft|
 
 **Size category**: Tiny (5/4ft x 5/4ft)
+
 - Reach: 0ft
 - Carry capacity: (6lb light, 12lb medium, 30lb heavy, 45lb drag)
 
@@ -59,7 +81,7 @@ Gingerbread golems, also known as gingerbread men are usually small or tiny past
 |[Flash Step](../06-abilities.md#flash-step)|||As a "secondary action" a gingerbread golem can move up to its base speed per SP dice expended.|
 |[Sprinter](../06-abilities.md#sprinter)||A gingerbread golem moves x3 times its base speed when using the "run" action, or x5 when using its "sprint" action.|
 |Skills|||"Acrobatics" +8, "Sleight of Hand" +6, "Stealth" +6, "Athletics" -2|
-|Resistant|||"Physical" damage, "Energy"[natural] damage|
+|Resistant|||"Physical" damage, "Energy"[nat] damage|
 |Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "stunned" "incapacitated", "catatonic" and "dying"|
 
 Gingerbread golems seldom engage in combat, preferring to avoid violence with their swift and tireless leg (not all gingerbread golems have legs, some roll). However, they are still golems and travellers that underestimate them may not live to regret it.
@@ -74,6 +96,7 @@ Gingerbread golems, also known as gingerbread men are usually small or tiny past
 |19/12/19|32 (*22*)|32 (*22*)|10|80ft|
 
 **Size category**: Tiny (5/4ft x 5/4ft)
+
 - Reach: 0ft
 - Carry capacity: (7lb light, 14lb medium, 35lb heavy, 52.5lb drag)
 
@@ -99,7 +122,7 @@ Gingerbread golems, also known as gingerbread men are usually small or tiny past
 |[Flash Step](../06-abilities.md#flash-step)|||As a "secondary action" a gingerbread golem can move up to its base speed per SP dice expended.|
 |[Sprinter](../06-abilities.md#sprinter)||A gingerbread golem moves x3 times its base speed when using the "run" action, or x5 when using its "sprint" action.|
 |Skills|||"Acrobatics" +8, "Sleight of Hand" +6, "Stealth" +6, "Athletics" -2|
-|Resistant|||"Physical" damage, "Energy"[natural] damage|
+|Resistant|||"Physical" damage, "Energy"[nat] damage|
 |Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "stunned" "incapacitated", "catatonic" and "dying"|
 
 Gingerbread golems seldom engage in combat, preferring to avoid violence with their swift and tireless leg (not all gingerbread golems have legs, some roll). However, sometimes a gingerbread man chooses violence. It then becomes a gingerbread warrior. Ridiculous though they may seem, these golems can easily defeat your average soldier.
@@ -110,6 +133,7 @@ ___
 Clay Golems can be of any size. This affects various parameters. Golems are usually humanoid in shape, but this is not necessarily so.
 ___
 **Size category**: Medium (5ft x 5ft)
+
 - Reach: 5ft
 - Carry capacity: (126lb light, 252lb medium, 630lb heavy, 945lb drag)
 
@@ -129,7 +153,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Strike|+8|1d8+5|percussive|
+|Strike|+8|1d8+5|Pe|
 |Rock Throw|+8|1d10+5|40ft/120ft, a golem can throw an object (or objects) weighing up to 126lb as projectiles. If the projectile is of a weaker material (or a mortal), than the target, the damage is shared evenly between projectile and target.|
 |Grapple|+8|||
 |Throw|+8|||
@@ -145,8 +169,8 @@ ___
 |Skills|||"Athletics" +7, "Harvest" +6, "Fortify" +7, "Observe" +2, "Prospect" +1|
 |||||
 |Absorb Energy|||"Poison" - Clay golems are immune to poison. In addition any damage it would take from poison instead restores the golem's SP by an equal amount.|
-|Immune|||"Lightning"|
-|Resistant|||"Physical" damage, "Energy"[natural] damage|
+|Immune|||"Lig"|
+|Resistant|||"Physical" damage, "Energy"[nat] damage|
 |Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "stunned" "incapacitated", "catatonic" and "dying"|
 
 Clay golems are the simplest of golems. They are often used as guardians by journeyman mages, more often as workers than guardians, although they can also fulfil that function.
@@ -159,6 +183,7 @@ ___
 Clay Golems can be of any size. This affects various parameters. Golems are usually humanoid in shape, but this is not necessarily so.
 ___
 **Size category**: Large (10ft x 10ft)
+
 - Evade: -1, Armour +1
 - Reach: 5ft (long)
 - [DEX save]: -1, [STR save]: +1
@@ -180,7 +205,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Strike|+11|2d8+6|percussive|
+|Strike|+11|2d8+6|Pe|
 |Rock Throw|+11|1d12+6|60ft/180ft, a golem can throw an object (or objects) weighing up to 272lb as projectiles. If the projectile is of a weaker material (or a mortal), than the target, the damage is shared evenly between projectile and target.|
 |Grapple|+11|||
 |Throw|+11|||
@@ -197,8 +222,8 @@ ___
 |Skills|||"Athletics" +10, "Harvest" +6, "Fortify" +10, "Observe" +4, "Prospect" +2|
 |||||
 |Absorb Energy|||"Poison" - Clay golems are immune to poison. In addition any damage it would take from poison instead restores the golem's SP by an equal amount.|
-|Immune|||"Lightning"|
-|Resistant|||"Physical" damage, "Energy"[natural] damage|
+|Immune|||"Lig"|
+|Resistant|||"Physical" damage, "Energy"[nat] damage|
 |Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "stunned" "incapacitated", "catatonic" and "dying"|
 
 Clay golems are the simplest of golems. They are often used as guardians by journeyman mages, more often as workers than guardians, although they can also fulfil that function.
@@ -211,6 +236,7 @@ ___
 Stone Golems can be of any size. This affects various parameters. Golems are usually humanoid in shape, but this is not necessarily so.
 ___
 **Size category**: Large (10ft x 10ft)
+
 - Evade: -1, Armour +1
 - Reach: 5ft (long)
 - [DEX save]: -1, [STR save]: +1
@@ -234,7 +260,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Strike|+14|2d8+7|percussive|
+|Strike|+14|2d8+7|Pe|
 |Rock Throw|+14|1d12+7|80ft/240ft, a golem can throw an object (or objects) weighing up to 300lb as projectiles. If the projectile is of a weaker material (or a mortal), than the target, the damage is shared evenly between projectile and target.|
 |Grapple|+14|||
 |Throw|+14|||
@@ -252,12 +278,12 @@ ___
 |Skills|||"Athletics" +13, "Fortify" +12, "Climb" +9, "Harvest" +8, "Observe" +6, "Prospect" +4|
 |||||
 |Absorb Energy|||"Poison" - Stone golems are immune to poison. In addition any damage it would take from poison instead restores the golem's SP by an equal amount.|
-|Immune|||"Lightning", "Necrotic"|
-|Immune|||"Slashing", "Piercing" from weapons with a material level of 2 or less.|
-|Resistant|||"Physical" damage, "Energy"[natural] damage|
+|Immune|||"Lig", "Nec"|
+|Immune|||"Sl", "Pi" from weapons with a material level of 2 or less.|
+|Resistant|||"Physical" damage, "Energy"[nat] damage|
 |Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "stunned" "incapacitated", "catatonic" and "dying"|
 
-Stone golems are more difficult to construct than clay golems, but they are also more potent. They have a use as guardian golems and war golems, since the effort of constructing them is offset by their increased utility. Its immunity to slashing and piercing weapons makes it especially useful against conventional armies.
+Stone golems are more difficult to construct than clay golems, but they are also more potent. They have a use as guardian golems and war golems, since the effort of constructing them is offset by their increased utility. Its immunity to slashing and Pi weapons makes it especially useful against conventional armies.
 
 A stone golem has a near-human intelligence, but no will of its own and follows its master's instructions to the best of its ability. If given no instructions it continues the last task until it is complete. It will defend its master unless explicitly instructed not to.
 
@@ -267,6 +293,7 @@ ___
 Jade golems are sometimes known as "Sage's Horse" or "Sage's Shield". They are not superior to ordinary stone golems in terms of toughness, but the material is more closely associated with supernatural energies, so powerful mages often create them for particular purposes, a common purpose is as a mount.
 ___
 **Size category**: Huge (20ft x 20ft)
+
 - Evade: -2, Armour +2
 - Reach: 10ft
 - [DEX save]: -2, [STR save]: +2
@@ -290,8 +317,8 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite|+13|2d8+7|Sheer|
-|Claws|+13|2d6+7|Percussive|
+|Bite|+13|2d8+7|Sh|
+|Claws|+13|2d6+7|Pe|
 |||||
 |Grapple|+13|||
 |Interception|+15|||
@@ -307,10 +334,10 @@ ___
 |Skills|||"Athletics" +13, "Climb" +9, "Observe" +7, "Prospect" +5, Knowledge (any 2) +5|
 |||||
 |Absorb Energy|||"Profane" - Jade golems are immune to profane damage. In addition any damage it would take from poison instead restores the golem's SP by an equal amount.|
-|Immune|||"Lightning", "Necrotic", "Poison", |
+|Immune|||"Lig", "Nec", "Poi", |
 |Immune|||"Physical damage" from weapons with a material level of 2 or less.|
 |Immune|||Spells of MP cost of 3 or lower|
-|Resistant|||"Physical" damage, "Energy"[natural] damage|
+|Resistant|||"Physical" damage, "Energy"[nat] damage|
 |Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "stunned" "incapacitated", "catatonic" and "dying"|
 
 Bestial Jade golems are often used as mounts by rulers and powerful mages. They are less physically potent than regular stone golem and significantly more difficult to enchant. However, their affinity for the supernatural makes them more suitable for service with those who are particularly likely to encounter supernatural energies. They are particularly valued by those paladins and exorcists who are sufficiently well off or well connected to obtain one.
@@ -323,6 +350,7 @@ ___
 Mithril Golems can be of any size. This affects various parameters. Golems are usually humanoid in shape, but this is not necessarily so.
 ___
 **Size category**: Huge (20ft x 20ft)
+
 - Evade: -2, Armour +2
 - Reach: 10ft
 - [DEX save]: -2, [STR save]: +2
@@ -346,7 +374,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Strike|+14|2d12+7|percussive|
+|Strike|+14|2d12+7|Pe|
 |Rock Throw|+14|2d8+7|80ft/240ft, a golem can throw an object (or objects) weighing up to 416lb as projectiles. If the projectile is of a weaker material (or a mortal), than the target, the damage is shared evenly between projectile and target.|
 |[Greater Elemental Blast (Linear): Lighting](../06-abilities.md#line)|+9|3d4+1d4/MP dice|(Range=120ft+30ft/MP sice) Mithril golems may use up to 7 MP dice when firing an elemental blast. The width of the beam may be up to 35ft.|
 |Grapple|+14|||
@@ -365,9 +393,9 @@ ___
 |Skills|||"Athletics" +13, "Fortify" +12, "Climb" +9, "Harvest" +8, "Observe" +6, "Prospect" +4|
 |||||
 |Absorb Energy|||"Poison" - Mithril golems are immune to lightning. In addition any damage it would take from lightning instead restores the golem's SP by an equal amount.|
-|Immune|||"Poison", "Necrotic", "Cold"|
+|Immune|||"Poi", "Nec", "Ice"|
 |Immune|||Immune to physical damage from weapons with a material level of 3 or less.|
-|Resistant|||"Physical" damage, "Energy"[natural] damage|
+|Resistant|||"Physical" damage, "Energy"[nat] damage|
 |Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "stunned" "incapacitated", "catatonic" and "dying"|
 
 Mithril golems are needlessly difficult to craft. However, they are supreme as weapons of war go. Faster and tougher than stone golems, they are almost impossible to destroy without weapons made of the highest grade materials, or powerful magics. In battle Mithril golems are best used to bombard enemy fortifications with huge fortifications with huge boulders, or clean out large swathes of dense formations with its elemental blast. However it can also be used to enter melee and directly destroy enemy manpower. They are also effective in countering lesser golems and monsters which would otherwise be a danger to one's own forces. Smaller golems of this type are occasionally used as honour guard for the rulers of magocracies.
@@ -380,6 +408,7 @@ ___
 Diamond Golems can be of any size, but they are rarely larger than medium, due to scarcity of material and how difficult it is to work with.
 ___
 **Size category**: Medium (5ft x 5ft)
+
 - Reach: 5ft
 - Carry capacity: (104lb light, 208lb medium, 520lb heavy, 760lb drag)
 
@@ -401,7 +430,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Strike|+17|2d8+8|percussive|
+|Strike|+17|2d8+8|Pe|
 |Rock Throw|+17|1d12+8|40ft/120ft, a golem can throw an object (or objects) weighing up to 104lb as projectiles. If the projectile is of a weaker material (or a mortal), than the target, the damage is shared evenly between projectile and target.|
 |[Greater Elemental Blast (Radial): Light](../06-abilities.md#circle)|+9|3d4+1d4/MP dice|(Range=120ft+30ft/MP sice) Diamond golems may use up to 8 MP dice when firing an elemental blast. The radius of the beam may be up to 80ft.|
 |Grapple|+15|||
@@ -421,8 +450,8 @@ ___
 |Proficiencies|||1 language and up to 4 kits|
 |Skills|||"Athletics" +20, "Fortify" +20, "Climb" +12, "Harvest" +12, "Observe" +10, "Prospect" +6, 1 rank in all other skills not governed by CHA|
 |||||
-|Absorb Energy|||"Fire", "Light", "Pressure" - Diamond golems are immune to these damage types. In addition any damage of these types it would take instead restores the golem's SP by an equal amount.|
-|Immune|||"Poison", "Necrotic", "Cold"|
+|Absorb Energy|||"Fire", "Light", "Pr" - Diamond golems are immune to these damage types. In addition any damage of these types it would take instead restores the golem's SP by an equal amount.|
+|Immune|||"Poi", "Nec", "Ice"|
 |Immune|||Immune to physical damage from weapons with a material level of 4 or less.|
 |Resistant|||"Physical" damage, "Energy" damage|
 |Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "stunned" "incapacitated", "catatonic" and "dying"|
@@ -437,6 +466,7 @@ ___
 **Robots** are "natural" constructs, typically made by mortals. In the worlds where they exist, they are the height of non-magical artifice. Since they are merely complex machines, robots lack a spirit and thus have no CHA. Robots that are capable of emulating emotion use Int for Cha rolls. A robot that gains a spirit becomes a golem. 
 
 In general, robots cannot be created or maintained without advanced technologies which are generally lost in most fantasy settings. In general they were created by lost civilisations.
+
 - Robots are immune to: "Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "incapacitated" and "dying".
 - Robots are resistant to "physical" damage.
 
@@ -449,6 +479,7 @@ As with all robots, they cannot be created or maintained without advanced techno
 
 ___
 **Size category**: Medium (5ft x 5ft)
+
 - Reach: 5ft
 - Carry capacity: (40lb light, 80lb medium, 200lb heavy, 300lb drag)
 
@@ -470,14 +501,14 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Electric Shock|+4|2d4+2 lightning[natural]|(Range=5ft, Threshold=13) A caretaker bot can apply an electric shock to its target instead of a basic combat manoeuvre. On a hit the target must succeed a CON save or be stunned at the start of its turn until the end of the bot's next turn. If the target succeeds, it cannot be stunned again by this ability for 24 hours.|
+|Electric Shock|+4|2d4+2 Lig[nat]|(Range=5ft, Thr=13) A caretaker bot can apply an electric shock to its target instead of a basic combat manoeuvre. On a hit the target must succeed a CON save or be stunned at the start of its turn until the end of the bot's next turn. If the target succeeds, it cannot be stunned again by this ability for 24 hours.|
 |Light|||As a bonus action, a caretaker bot can light up a an area with a radius within 10ft of itself with bright light and a further 20ft (total 30ft) with dim light,|
 |||||
 |Senses|||A caretaker bot has no sense of smell|
 |[Low light vision](../06-abilities.md#low-light-vision)|||A caretaker bot can see in dim light almost as well as bright light, but cannot see in complete darkness.|
 |Skills|||"Fortify" +2, "Sleight of Hand" +4, "Tinker" +3, "Appraise" -1, "Prospect" -1, "Observe" +2|
 |Resistant|||Physical damage|
-|Immune|||"Poison" and "disease" damage|
+|Immune|||"Poi" and "disease" damage|
 |Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "incapacitated" and "dying"|
 
 ___
@@ -489,6 +520,7 @@ As with all robots, they cannot be created or maintained without advanced techno
 
 ___
 **Size category**: Huge (20ft x 20ft)
+
 - Evade: -2, Armour +2
 - Reach: 10ft
 - [DEX save]: -2, [STR save]: +2
@@ -513,14 +545,14 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Strike|+16|2d6+9|(Reach 10ft) A caretaker bot can strike a target with one of its many enormous appendages|
-|Electric Shock|+4|4d4+2 lightning[natural]|(Range=10ft, Threshold=17) A caretaker bot can apply an electric shock to its target instead of a basic combat manoeuvre. On a hit the target must succeed a CON save or be stunned at the start of its turn until the end of the bot's next turn. If the target succeeds, it cannot be stunned again by this ability for 24 hours.|
+|Electric Shock|+4|4d4+2 Lig[nat]|(Range=10ft, Thr=17) A caretaker bot can apply an electric shock to its target instead of a basic combat manoeuvre. On a hit the target must succeed a CON save or be stunned at the start of its turn until the end of the bot's next turn. If the target succeeds, it cannot be stunned again by this ability for 24 hours.|
 |Grapple|+16|||
 |Interception|+16|||
 |Multiattack I|||A greater caretaker bot can make two basic combat manoeuvres as an attack action.|
 |||||
 |Skills|||"Fortify" +18, "Athletics" +11, "Sleight of Hand" +10, "Tinker" +10, "Appraise" +8, "Academics" +6, "Prospect" +4, "Observe" +8|
 |Resistant|||Physical damage|
-|Immune|||"Poison" and "disease" damage|
+|Immune|||"Poi" and "disease" damage|
 |Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "incapacitated" and "dying"|
 
 ___
@@ -532,6 +564,7 @@ As with all robots, they cannot be created or maintained without advanced techno
 
 ___
 **Size category**: Large (10ft x 10ft)
+
 - Evade: -2, Armour +2
 - Reach: 5ft (long)
 - [DEX save]: -2, [STR save]: +2
@@ -565,7 +598,7 @@ ___
 |[Mighty II](../06-abilities.md#mighty-ii)|||The carrying capacity of robotic steeds is abnormally high.|
 |Skills|||"Athletics" +12, "Climb": +9, "Acrobatics" +3, "Prospect" +4, "Observe" +6|
 |Resistant|||Physical damage|
-|Immune|||"Poison" and "disease" damage|
+|Immune|||"Poi" and "disease" damage|
 |Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "incapacitated" and "dying"|
 
 ___
@@ -576,6 +609,7 @@ As with all robots, they cannot be created or maintained without advanced techno
 
 ___
 **Size category**: Medium (5ft x 5ft)
+
 - Reach: 5ft
 - Carry capacity: (72lb light, 144lb medium, 360lb heavy, 540lb drag)
 
@@ -609,7 +643,7 @@ ___
 |||||
 |Skills|||"Fortify" +12, "Athletics" +12, "Climb": +9, "Acrobatics" +3, "Prospect" +3, "Observe" +6|
 |Resistant|||Physical damage|
-|Immune|||"Poison" and "disease" damage|
+|Immune|||"Poi" and "disease" damage|
 |Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "incapacitated" and "dying"|
 
 ___
@@ -621,6 +655,7 @@ As with all robots, they cannot be created or maintained without advanced techno
 
 ___
 **Size category**: Huge (40ft x 40ft)
+
 - Evade: -3, Armour +3
 - Reach: 15ft
 - [DEX save]: -3, [STR save]: +3
@@ -645,11 +680,11 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Claws|+20|2d10+9|(Reach=15ft) A robotic horror makes 4 attacks with its claws.|
-|[Greater Elemental Blast (Linear): Fire](../06-abilities.md#line)|+12|4d6 fire[natural]|(Range 120ft+30/MP die) The robotic horror can use up to 10 MP dice in its elemental blast.|
+|[Greater Elemental Blast (Linear): Fire](../06-abilities.md#line)|+12|4d6 fire[nat]|(Range 120ft+30/MP die) The robotic horror can use up to 10 MP dice in its elemental blast.|
 |Grapple|+20|||
 |Monster Attack III||||
 |||||
 |Skills|||"Fortify" +12, "Athletics" +19, "Climb": +19, "Acrobatics" +3, "Prospect" +3, "Observe" +6|
 |Resistant|||Physical damage|
-|Immune|||"Poison" and "disease" damage|
+|Immune|||"Poi" and "disease" damage|
 |Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "incapacitated" and "dying"|

@@ -112,13 +112,11 @@ An attack is any action attempted against an entity that has the potential to re
 ___
 ### Targeted attacks
 
-A targeted attack is an attack made specifically against an entity and involves the attacker and involves making a [NAP] or [SAP] based attack roll against the target. Usually these do damage, but they can also have other effects, for example the "grapple" manoeuvre. Targeted attacks can target more than one entity (eg ["Broad Strike"](06-abilities.md#broad-strike)), as long as they are specifically attacking those entities and not the general area.
+A targeted attack is an attack made specifically against an entity and involves the attacker making a [NAP] or [SAP] based attack roll against the target. Usually targeted attacks do damage, but they can also have other effects, for example the "grapple" manoeuvre. Targeted attacks can target more than one entity (eg ["Broad Strike"](06-abilities.md#broad-strike)), as long as they are specifically attacking those entities and not the general area.
 
 ___
 ### Area of effect attacks
-Area of effect attacks are made against a given area and generally effect all, or most of the entities and potentially objects within that area. A ["Elemental Cone"](06-abilities.md#cone) or ["Forest of Flame"](08-spell-list.md#forest-of-flame) are examples of area of effect attacks, although an avalanche or a tsunami can also be seen as area of effect attack. Entities caught within an area of effect attack must succeed on a [saving throw](02-base-rules.md#saving-throws) vs the attack's save threshold or suffer the full effects of the attack. Sometimes, upon a successful save it still suffers some of the effects. It is possible for an area of effect attack to only target the square occupied by a single entity.
-
-It should be noted that in real life armour does protect against some of the effects of are of effect attacks (eg shrapnel from a grenade). This aspect of realism is largely eschewed in our simplified system.
+Area of effect attacks are made against a given area and generally affect all, or most of the entities and potentially objects within that area. A ["Elemental Cone"](06-abilities.md#cone) or ["Forest of Flame"](08-spell-list.md#forest-of-flame) are examples of area of effect attacks, although an avalanche or a tsunami can also be seen as area of effect attack. Entities caught within an area of effect attack must succeed on a [saving throw](02-base-rules.md#saving-throws) vs the attack's save threshold or suffer the full effects of the attack. Sometimes, upon a successful save it still suffers some of the effects. It is possible for an area of effect attack to only target the square occupied by a single entity.
 
 ___
 ### Attacks of influence
@@ -140,23 +138,23 @@ For an [Elemental Touch: Fire](06-abilities.md#elementalism-elemental-blast), wh
 
 There are a number of exceptions however.
 
-Firstly, supernatural attacks, where damage can be governed by [INT], [WIS] or [SUP], independently of governing attribute.
+The first is supernatural attacks, where damage can be governed by [INT], [WIS] or [SUP], independently of governing attribute.
 
-Secondly for melee weapon attacks with those weapons that can be governed by either STR or DEX, as per the character's choice. For this kind of weapon attacks, if the character chooses to govern the weapon attack with STR, they add the [STR] to the damage. However, if the character chooses to govern the attack with DEX, there is no stat bonus added to the damage unless the character has the ["weapon finesse"](06-abilities.md#weapon-finesse) boon.
+The second is melee weapon attacks with weapons that can be governed by either STR or DEX, as per the character's choice. For this kind of weapon attacks, if the character chooses to govern the weapon attack with STR, they add the [STR] to the damage. However, if the character chooses to govern the attack with DEX, there is no stat bonus added to the damage unless the character has the ["weapon finesse"](06-abilities.md#weapon-finesse) boon.
 
-Thirdly, for melee weapons with the "heavy" property, as well as longbows and greatbows, a character with a [STR] of +2 or higher adds an additional [STR]/2 to the damage dealt (*rounded down* to the nearest whole number) when wielding them with at least two hands.
+The third is for melee weapons with the "heavy" property, as well as longbows and greatbows: a character with a [STR] of +2 or higher adds an additional [STR]/2 to the damage dealt (*rounded down* to the nearest whole number) when wielding them with at least two hands.
 
 ___
 ## Damage and death
 
-Attacks and various harmful effects cause injury and death to combatants and destruction of structures and equipment (amongst other things). A semi-abstract measurement, damage, is used to quantify this.
+Attacks and various harmful effects cause injury and death to combatants, or destruction of structures and equipment (amongst other things). A semi-abstract measurement, damage, is used to quantify this.
 
 ___
 ### Death, dying and the relationship between HP, MP and SP
 
 A target is considered ["dying"](10-conditions-types.md#conditions-in-detail) when it reaches 0 HP. It is destroyed or killed when it reaches minus its HP total, or CON score[1] if it is higher. An entity that is dying is "unconscious" and can take no actions. At the start of each turn when an entity is "dying" it attempts a CON (CHA) save (threshold=20). On failure it loses 1 HP, on success it stabilises and becomes ["unconscious"](10-conditions-types.md#conditions-in-detail).
 
-Entities that are immune to "dying" fall unconscious instead until, but are still destroyed when they reach the negative of their total HP. Some entities, like undead, are instantly destroyed upon reaching 0 HP. Likewise, a group may decide that monsters and NPCs simply die at 0 HP for the sake of simplicity. This kind of house rule should be made explicitly clear at the start of a game.
+Entities that are immune to "dying" fall unconscious instead until their HP reaches 0. These entities are still destroyed when they reach the negative of their total HP. Some entities, like undead, are instantly destroyed upon reaching 0 HP. Likewise, a group may decide that monsters and NPCs simply die at 0 HP for the sake of simplicity. This kind of house rule should be made explicitly clear at the start of a game.
 
 Of course most offensive abilities must first "eat" through the SP or MP of a target before working away at the HP. "Natural" attacks will first subtract from SP and only when that reaches 0, or if an attack deals massive damage, will HP damage be sustained. Likewise "supernatural" attacks will first subtract from MP.
 
@@ -173,7 +171,7 @@ MP is lost when MP dice are used, or when supernatural attacks damage a characte
 
 Characters can therefore "rebalance" as a main action, converting SP into MP or MP into SP, at the cost of 2 to 1. So 2 MP would become 1 SP, or 2 SP would become 1 MP.
 
-For example, a mage with 39/47 SP and 0/60 MP might wish to cast a MP 1 (or higher) spell, but due to having 0 MP, lack the ability to do so. They might therefore convert 8 SP to MP, and end up with 31/47 SP and 4/60 MP. Enough to get that last spell off. Likewise the same mage, having just faced a few [hive beasts](monsters-npcs/monsters-and-dragons.md#hive-beast) in an ancient ruin, might have ended up with 10/47 SP but 52/60 MP, and may wish to convert 40 MP to SP, and end up with 30/47 SP but only 12/60 MP in the hopes that this will increase their chances of getting back to the surface alive.
+For example, a mage with 39/47 SP and 0/60 MP might wish to cast a MP 1 (or higher) spell, but due to having 0 MP, lack the ability to do so. They might therefore convert 4 SP to MP, and end up with 33/47 SP and 2/60 MP. Enough to get that last spell off. Likewise the same mage, having just faced a few [hive beasts](monsters-npcs/monsters-and-dragons.md#hive-beast) in an ancient ruin, might have ended up with 10/47 SP but 52/60 MP, and may wish to convert 40 MP to SP, and end up with 30/47 SP but only 12/60 MP in the hopes that this will increase their chances of getting back to the surface alive.
 
 ___
 ### Damage resistance
@@ -645,7 +643,7 @@ Any combatant may attempt a martial manoeuvre. If a combatant is not proficient 
   - Penalty if not proficient with **sunder**.
   - Provokes a penalty and attack of Opportunity if the foe is holding a weapon you are not proficient with AND you are not proficient with **sunder**.
 
-A creature that is "grappled" or "restrained" can make an opposing roll in place of its attack action to try to break free or move its assailant.
+A character that is "grappled", "restrained" can make an opposing "grapple" manoeuvre on its turn to try to break free or move its assailant. A character that is immobilised must use a full round action to make the "grapple" manoeuvre at disadvantage to break free and become "restrained" instead.
 
 ___
 ## Spellcasting and Supernatural abilities

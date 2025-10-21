@@ -526,7 +526,8 @@ An immobilised character is in trouble.
   - It cannot make [DEX] or [STR] saves, attacks.
   - It cannot cast spells with kinetic components.
   - Attacks against it have advantage.
-  - It cannot use [DEX] and [STR] based skills or abilities except some escape related skills, and even then at disadvantage. 
+  - It cannot use [DEX] and [STR] based skills or abilities except some escape related skills, and even then at disadvantage.
+  - If an entity is immobilised due to successive successful ["grapple"](04-combat.md#basic-martial-manoeuvres) manoeuvres, it may attempt to "grapple" at disadvantage to free itself and become "restrained" instead.
 
 #### Incapacitated
 This creature cannot take actions (other than movement or communication) or reactions in combat.

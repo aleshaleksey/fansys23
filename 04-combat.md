@@ -82,6 +82,7 @@ The calculations for attack bonuses are found in ["Base Rules: NAP and SAP, NAT 
 ___
 #### Save thresholds
 An entity has 4 save thresholds (STR, DEX, INT, WIS) that represent:
+
 1. How likely it is to successfully defend against non-damaging combat manoeuvres. In this case, the attacker rolls an attack with an attack bonus against the target save threshold.
 2. How successful its area of effect and 'special' attacks are (such as spells). In this case, the target rolls a saving throw with the relevant bonus against the attacker's save threshold.
 
@@ -98,6 +99,7 @@ ___
 An entity has 6 saving throws, one for each stat[1]. Representing how well a target resists targeted effects and area of effect attacks. A target rolls a save with a save bonus against an attacker's save threshold.
 
 The calculations for saves are found in ["Base Rules: Saving throws"](02-base-rules.md#saving-throws).
+
 1. Some entities do not have all 6 stats. In that case they automatically fail saves for the stats that are missing.
 
 ___
@@ -125,14 +127,17 @@ Some attacks, especially supernatural attacks, adversely influence a target, tar
 ___
 ### Attacks and damage bonuses
 Besides [NAP] and [SAP] an attack is modified by the "governing" stat. A [stat bonus] is also added to the damage in most cases. When it is added it is usually the same stat as the governing stat for the attack. Thus for an attack with a [crossbow](11-weapons-armour.md#mechanical-bows) (1d10 damage), where DEX is the governing stat, so:
+
 - Attack bonus = [NAP] + [DEX]
 - Damage = 1d10 + [DEX]
 
 For a [longsword](11-weapons-armour.md#heavy-blades), where STR is the governing stat:
+
 - Attack bonus = [NAP] + [STR]
 - Damage = 1d8 + [STR]
 
 For an [Elemental Touch: Fire](06-abilities.md#elementalism-elemental-blast), where WIS is the governing stat:
+
 - Attack bonus = [SAP] + [WIS]
 - Damage = 1d6 + [WIS] (At low levels at least)
 
@@ -159,6 +164,7 @@ Entities that are immune to "dying" fall unconscious instead until their HP reac
 Of course most offensive abilities must first "eat" through the SP or MP of a target before working away at the HP. "Natural" attacks will first subtract from SP and only when that reaches 0, or if an attack deals massive damage, will HP damage be sustained. Likewise "supernatural" attacks will first subtract from MP.
 
 Some damage types ignore SP and MP:
+
 - ["Esoteric damage types"](10-conditions-types.md#esoteric-damage) subtract directly from HP, making these damage types extremely dangerous.
 - ["Light"](10-conditions-types.md#light) and ["Lightning"](10-conditions-types.md#electricity-lightning) will deal 1 point of damage directly to HP for every 2 dice of damage dealt. For example if an attack deals 2d4 or 3d4 of light damage to MP, it will cause 1 point of damage to HP, if it deals 4d4 or 5d4 light damage to MP, it will cause 2 points of damage to HP.
 
@@ -244,6 +250,7 @@ Combat is chaotic and combatants do what they can when they can. However this is
 All characters take their turn one at a time. This is is a poor reflection of reality, but helps keep the game flowing smoothly. We can interpret this abstraction in several ways, but generally a good way of doing so is to imagine that all actions take place at the same time, but some characters start moving a split second before others.
 
 Combat-time starts as soon as one or both sides are capable of fighting and willing. It ends when there is at most one side remaining that is capable and willing.
+
 - At the start of combat all parties make an initiative roll [(see "initiative")](02-base-rules.md#initiative). Entities act in order of initiative (highest to lowest).
 - Combat takes place in "rounds" (~6s) and "turns". Once each combatant has had a "turn", top initiative to bottom, a "round" passes.
 - Any entities that are not aware of of the other side at the start of combat, or are not aware that combat has started, are "surprised" for the duration of the first round.
@@ -251,6 +258,7 @@ Combat-time starts as soon as one or both sides are capable of fighting and will
 
 ___
 #### The Turn and actions
+
 - The following (9) actions exist:
   - "**move**"
   - "**main action**"
@@ -512,6 +520,7 @@ ___
 #### Causality and attacks of opportunity
 
 The attack of opportunity is made after the provoking action. It begins before the provoking action is resolved, but, as a rule, resolves after the provoking action. There are exceptions to this rule:
+
 - If the target is moving out of a threatened square, the attack is resolved before the movement is completed (think of it as being hit by an attack that is in progress).
 - If the character completing the attack of opportunity has the ["Swift Strike"](06-abilities.md#swift-strike) (their attacks are so fast that the target has no time to finish its own action).
 
@@ -568,6 +577,7 @@ ___
 ## Basic combat manoeuvres and tactical movement
 
 This is a collection of unsorted rules related to basic physical combat.
+
 - Dropping/falling "prone" does not cost movement.
 - Standing can be done as part of a "move" action and costs 1/2 your movement speed rounded down.
 - Moving out of the threatened area of a foe without precautions provokes an attack of opportunity.
@@ -575,6 +585,8 @@ This is a collection of unsorted rules related to basic physical combat.
 - Melee attacks can be made "non lethal" at no penalty with "percussive" weapons, and at a penalty with other weapons.
 - Ranged attacks cannot be made non-lethal unless otherwise stated in for a specific type of ranged attack.
 - Supernatural attacks are generally lethal, unless otherwise stated for the specific attack. Optionally, a group may rule that it may be made non-lethal with a [spellworking](05-skills.md#spellworking) roll (Threshold = **20 + [MP dice used]**).
+
+
 
 ___
 #### Basic Martial Manoeuvres
@@ -681,11 +693,13 @@ ___
 ### Preconditions for resting
 
 A character cannot rest if:
+
 - They are experiencing violent motion (eg on a galloping horse).
 - They are exerting themselves (eg casting spells or doing labour).
 - They are experiencing any extreme weather effect without some kind of [shelter, fortification or amelioration](03-movement-exploration.md#camping).
 
 In addition, certain types of rest have additional requirements:
+
 - For a long rest or longer a character must have access to sleep, food and water (if they sleep eat or drink respectively).
 - For a long rest or longer a character must be in an "ameliorated" area or make a CON save against the [terrain + weather] threshold in order to rest successfully (see [Camping](03-movement-exploration.md#camping)).
 - In addition for a full rest a character must have access to medical care and not be subject to severe weather conditions for longer than 4h at a time (or they must make a CON save against the [terrain + weather] threshold or have to restart the rest).
@@ -695,6 +709,7 @@ ___
 ### Short Rest
 
 The recommended duration for a short rest is 1h in a high-action game and 4h in a harsh game. During a short rest a character regains:
+
 - 1/2 (rounded up) of their MP dice.
 - 1/2 (rounded up) of their SP dice.
 - [Base x CHA + Total MP dice count] MP.
@@ -706,6 +721,7 @@ ___
 ### Long Rest
 
 The recommended duration for long rest is 8h in a high action game and 1 day in a harsh game. During a long rest a character gains all of the benefits of a short rest, as well as:
+
 - Resetting the short rest counter.
 - Regaining exactly 1 HP. (This can be increased to 2 HP with the long term care use of the [Heal skill](05-skills.md#heal)).
 
@@ -726,6 +742,7 @@ Armour, while suitable for combat, makes for an uncomfortable rest and makes pro
 A character wearing medium or heavy armour during a long rest must succeed on a CON save with a Threshold = [10 + Armour rating] to benefit from the long rest, even if the camp is already ameliorated.
 
 Characters taking a long rest (or longer) on terrain that is not ["ameliorated"](03-movement-exploration.md#camping), must make a CON save with a threshold determined by [terrain and weather](03-movement-exploration.md#travel-rolls-and-terrain-summary). A character who fails this CON save does not regain resources from the rest. If they fail by more than 6, they are not able to adequately drink, eat or sleep, which brings them closer to ["starvation"](03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die), if they require drink, food or sleep.
+
 - In cold weather, a blanket gives +2 to this save, while a bedroll gives +4.
 - A tent gives +2 to ameliorate/fortify, a yurt obviates the need for such a roll. This does not apply on terrain where it is not possible to place a tent or yurt, such as in swamps, dense forests or on steep slopes.
 - Wearing medium or heavy armour gives a penalty to this CON save equal to the armour rating (instead of making a separate roll).

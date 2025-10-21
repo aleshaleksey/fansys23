@@ -1016,7 +1016,7 @@ Deflection: +2
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite|+5|1d6+2 Sh damage|Reach=5ft|
+|Bite|+5|1d6+2 Sh|Reach=5ft|
 |Grapple|+5|||
 |Trip|+5|||
 |Hypnotic Eyes|Thr=15||(Range=30ft) Expending 1 MP die a secondary action, a hound can make eye contact with a single target. The target must make a CHA save at the start of its turn, or become incapacitated. It may repeat the save at the start of each of its turns. Once a target succeeds on the save, it cannot be affected by this ability until the next dusk. A blind target is unaffected by the ability. A target that can close its eyes may voluntarily close its eyes as a reaction to avoid the effect (or as a non action on its turn), but is considered blind until the start of the hound's next turn.|

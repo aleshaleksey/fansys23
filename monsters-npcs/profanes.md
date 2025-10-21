@@ -78,11 +78,14 @@ Large(-1/+1)
 |Bite|+10|1d6+6|Sh|
 |Grapple|+10|||
 |Shove|+10|||
+|||||
+|Aura of Nausea|Thr=17 CON||All entities that start their turn within 15 feet must make a Thr=17 CON save or be "incapacitated". An entity can repeat its save at the start of each of its turn. Upon succeeding, it is no longer "incapacitated", and cannot be, for 24 hours.|
+|Scream|Thr=15 CON save||As a secondary action, the horror can issue a pained shriek (1 SP dice). Any entity within 30ft that hears the shriek must make a Thr=15 WIS save or become "frightened" of the horror. An entity can repeat its save at the start of each of its turn. Upon succeeding, it is no longer "frightened", and cannot be, for 24 hours.|
+|||||
 |Combined Manoeuvre I||||
 |Monster Attack I|||The corporeal horror makes one attack with its claws, and one with its bite|
 |Broad Strike|||Claws only|
-|Aura of Nausea|Thr=17 CON||All entities that start their turn within 15 feet must make a Thr=17 CON save or be "incapacitated". An entity can repeat its save at the start of each of its turn. Upon succeeding, it is no longer "incapacitated", and cannot be, for 24 hours.|
-|Scream|Thr=15 CON save||As a secondary action, the horror can issue a pained shriek (1 SP dice). Any entity within 30ft that hears the shriek must make a Thr=15 WIS save or become "frightened" of the horror. An entity can repeat its save at the start of each of its turn. Upon succeeding, it is no longer "frightened", and cannot be, for 24 hours.|
+|||||
 |Vulnerability|||"Div", "light"|
 |Resistant|||"physical" damage except "Sl" and "Pr", "grappled", "restrained"|
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
@@ -117,14 +120,17 @@ Saves: Wis, Cha
 |Bite|+14|2d6+8|Sh|
 |Grapple|+14|||
 |Shove|+14|||
+|||||
+|Aura of Nausea|Thr=19 CON save||All entities that start their turn within 30 feet must make a Thr=19 CON save or be "incapacitated". An entity can repeat its save at the start of each of its turn. Upon succeeding, it is no longer "incapacitated", and cannot be, for 24 hours.|
+|Scream|Thr=18 CON save||As a secondary action, the horror can issue a pained shriek (1 SP dice). Any entity within 60ft that hears the shriek must make a Thr=18 WIS save or become "frightened" of the horror. An entity can repeat its save at the start of each of its turn. Upon succeeding, it is no longer "frightened", and cannot be, for 24 hours.|
+|||||
 |Combined Manoeuvre I||||
 |Reshape (move action)|||A greater corporeal horror can reconfigure the grotesque mass of corpses that compose it into any shape as a move action, as long as it takes up the same number of 5ft cubes. The central most cube cannot be moved during such a transformation. The cubes must remain connected by one or more sides.|
 |Counterstrike|||A corporeal horror can use a basic combat manoeuvre as a manoeuvre against an entity that hits it with a melee attack|
 |["Berserk II"](../06-abilities.md#berserk-i-v)|||A corporeal horror can enter a berserk state, increasing its speed by 10ft, gaining +4 damage on its attacks|
 |Monster Attack I|||The corporeal horror makes one attack with its claws, and one with its bite|
 |Broad Strike|||Claws only|
-|Aura of Nausea|Thr=19 CON save||All entities that start their turn within 30 feet must make a Thr=19 CON save or be "incapacitated". An entity can repeat its save at the start of each of its turn. Upon succeeding, it is no longer "incapacitated", and cannot be, for 24 hours.|
-|Scream|Thr=18 CON save||As a secondary action, the horror can issue a pained shriek (1 SP dice). Any entity within 60ft that hears the shriek must make a Thr=18 WIS save or become "frightened" of the horror. An entity can repeat its save at the start of each of its turn. Upon succeeding, it is no longer "frightened", and cannot be, for 24 hours.|
+|||||
 |Vulnerability|||"Div", "light"|
 |Resistant|||"physical" damage except "Sl" and "Pr", "grappled", "restrained"|
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
@@ -267,13 +273,14 @@ ___
 |Grapple|+5|||
 |Vampiric Bite|+5|1d4+2|If a vampire's bite causes HP damage to а mortal with blood, the vampire regains that number of HP. If the vampire is already at full HP, its STR increases by the number of points of damage dealt to the target's HP for 1 minute.|
 |||||
+|[Charm I](../06-abilities.md#charm-i-iv)|Thr=15||(Cost = 1 MP die) A lesser vampire can charm its victim. If it has imbibed its victim's blood, then the victim has disadvantage on the save.|
+|||||
 |[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||(1SP die) A vampire spawn can grapple when making a claw attack.|
 |Alternate Form: Bat|||A vampire can turn into a bat, or back, as a secondary action. It takes the bat's physical stats, saves, size, HiT, and movement modalities, but is otherwise still a vampire|
 |Resistant|||"physical" damage, "disease", "Poi"|
 |Resistant|||"prone", "bleeding", "crippled", "incapacitated", "frightened", "poisoned", "diseased"|
 |Immune|||"fear", "unconscious"|
 |Vulnerability|||"Div", "light"|
-|[Charm I](../06-abilities.md#charm-i-iv)|Thr=15||(Cost = 1 MP die) A lesser vampire can charm its victim. If it has imbibed its victim's blood, then the victim has disadvantage on the save.|
 |||||
 |[Low-light vision](../06-abilities.md#low-light-vision)|||A vampire can see in dim light as if it was daylight|
 |[Heat sense (30ft)](../06-abilities.md#heat-sense-i-v)|||A vampire can detect the body heat of warm blooded beings, as well as other sources of heat.|
@@ -316,10 +323,14 @@ ___
 |Claws|+10|1d6+4||
 |Rapier (Steel)|+12|1d10+5|(Reach=5ft long)|
 |Dagger|+12|1d4+5|(Reach=5ft long)|
-|Grapple, Disarm|+10|||
 |Vampiric Bite|+10|1d4+4|If a vampire's bite causes HP damage to а mortal with blood, the vampire regains that number of HP. If the vampire is already at full HP, its STR increases by the number of points of damage dealt to the target's HP for 1 minute.|
+|[Steel Wind Strike](../06-abilities.md#steel-wind-strike)|+12|+1d8/SP die|A vampire can use up to 4 SP die when executing a steel wind strike.|
+|Grapple, Disarm|+10|||
 |||||
-|[Steel Wind Strike](../06-abilities.md#steel-wind-strike)|+12|Weapon damage + 1d8 per SP die|A vampire can use up to 6 SP die when executing a steel wind strike.|
+|[Charm II](../06-abilities.md#charm-i-iv)|Thr=18||(Cost = 1 MP die) A vampire can charm its victim. If it has imbibed its victim's blood, then the victim has disadvantage on the save.|
+|[Spellcasting: Incantation III](../06-abilities.md#spellcasting-local)|Thr=18||Favourite Spells: ["Least Ward"](../08-spell-list.md#least-ward), ["Down"](../08-spell-list.md#down), ["Least Pyromancy"](../08-spell-list.md#least-pyromancy), ["Least Vengeance"](../08-spell-list.md#least-vengeance), ["Promise"](../08-spell-list.md#promise), ["Wind Walk"](../08-spell-list.md#wind-walk)|
+|[Spellcasting: Kinetic III](../06-abilities.md#spellcasting-local)|Thr=18||Favourite Spells: ["Mist"](../08-spell-list.md#mist), ["Silent"](../08-spell-list.md#silent), ["Whispers"](../08-spell-list.md#whispers), ["Lesser Spirits' Secret"](../08-spell-list.md#spirits-secret), ["Least Transformation"](../08-spell-list.md#least-transformation), ["Least Curse"](../08-spell-list.md#least-curse)|
+|||||
 |[Debilitating Strike: Blinded](../06-abilities.md#debilitating-strike)|||(Cost = 1 SP die) A vampire can make an attack as a main action that temporarily blind its target.|
 |[Debilitating Strike: Aphonia](../06-abilities.md#debilitating-strike)|||(Cost = 1 SP die) A vampire can make an attack as a main action that temporarily mutes its target.|
 |[Flurry](../06-abilities.md#flurry)|||(Cost = 1 SP die) A vampire can once or twice with its dagger as a secondary action.|
@@ -332,9 +343,6 @@ ___
 |Resistant|||"prone", "bleeding", "crippled", "incapacitated", "frightened", "poisoned", "diseased"|
 |Immune|||"fear", "unconscious"|
 |Vulnerability|||"Div", "light"|
-|[Charm II](../06-abilities.md#charm-i-iv)|Thr=18||(Cost = 1 MP die) A vampire can charm its victim. If it has imbibed its victim's blood, then the victim has disadvantage on the save.|
-|[Spellcasting: Incantation III](../06-abilities.md#spellcasting-local)|Thr=18||Favourite Spells: ["Least Ward"](../08-spell-list.md#least-ward), ["Down"](../08-spell-list.md#down), ["Least Pyromancy"](../08-spell-list.md#least-pyromancy), ["Least Vengeance"](../08-spell-list.md#least-vengeance), ["Promise"](../08-spell-list.md#promise), ["Wind Walk"](../08-spell-list.md#wind-walk)|
-|[Spellcasting: Kinetic III](../06-abilities.md#spellcasting-local)|Thr=18||Favourite Spells: ["Mist"](../08-spell-list.md#mist), ["Silent"](../08-spell-list.md#silent), ["Whispers"](../08-spell-list.md#whispers), ["Lesser Spirits' Secret"](../08-spell-list.md#spirits-secret), ["Least Transformation"](../08-spell-list.md#least-transformation), ["Least Curse"](../08-spell-list.md#least-curse)|
 |[Spellcasting: Global](../06-abilities.md#spellcasting-global)||||
 |||||
 |[Low-light vision](../06-abilities.md#low-light-vision)|||A vampire can see in dim light as if it was daylight|
@@ -383,9 +391,15 @@ ___
 |Grapple, Disarm, Throw, Sunder|+16|||
 |Vampiric Bite|+16|1d4+7|If a vampire's bite causes HP damage to а mortal with blood, the vampire regains that number of HP. If the vampire is already at full HP, its STR increases by the number of points of damage dealt to the target's HP for 1 minute.|
 |||||
+|[Steel Wind Strike](../06-abilities.md#steel-wind-strike)|+12|+1d8/SP die|A vampire can use up to 9 SP die when executing a steel wind strike and attack up to 6 targets.|
+|||||
+|[Charm III](../06-abilities.md#charm-i-iv)|Thr=21||(Cost = 1 MP die) A vampire can charm its victim. If it has imbibed its victim's blood, then the victim has disadvantage on the save.|
+|[Spellcasting: Incantation VI](../06-abilities.md#spellcasting-local)|Thr=21||Favourite Spells: ["Least Ward"](../08-spell-list.md#least-ward), ["Down"](../08-spell-list.md#down), ["Least Pyromancy"](../08-spell-list.md#least-pyromancy), ["Least Vengeance"](../08-spell-list.md#least-vengeance), ["Promise"](../08-spell-list.md#promise), ["Wind Walk"](../08-spell-list.md#wind-walk), ["Lesser Weather Control"](../08-spell-list.md#lesser-weather-control), ["Summon Spirit"](../08-spell-list.md#summon-spirit), ["Pact"](../08-spell-list.md#pact), ["Spirit Restoration"](../08-spell-list.md#spirit-restoration)|
+|[Spellcasting: Kinetic VI](../06-abilities.md#spellcasting-local)|Thr=21||Favourite Spells: ["Mist"](../08-spell-list.md#mist), ["Silent"](../08-spell-list.md#silent), ["Whispers"](../08-spell-list.md#whispers), ["Lesser Spirits' Secret"](../08-spell-list.md#spirits-secret), ["Least Transformation"](../08-spell-list.md#least-transformation), ["Least Curse"](../08-spell-list.md#least-curse), ["Scry"](../08-spell-list.md#scry), ["Plague"](../08-spell-list.md#plague), ["Madness"](../08-spell-list.md#madness)|
+|||||
+|[Broad Strike](../06-abilities.md#broad-strike)|||(Cost = 1SP die) An ancient vampire can strike all adjacent targets within its reach.|
 |[Berserk III](../06-abilities.md#berserk-i-v)|||An ancient vampire can enter a blood frenzy as it cuts down its foes.|
-|[Broad Strike](../06-abilities.md#broad-strike)||(Cost = 1SP die) An ancient vampire can strike all adjacent targets within its reach.|
-|[Steel Wind Strike](../06-abilities.md#steel-wind-strike)|+12|Weapon damage + 1d8 per SP die|A vampire can use up to 9 SP die when executing a steel wind strike and attack up to 6 targets.|
+|||||
 |[Debilitating Strike: Blinded](../06-abilities.md#debilitating-strike)|||(Cost = 1 SP die) A vampire can make an attack as a main action that temporarily blind its target.|
 |[Debilitating Strike: Aphonia](../06-abilities.md#debilitating-strike)|||(Cost = 1 SP die) A vampire can make an attack as a main action that temporarily mutes its target.|
 |[Parry](../06-abilities.md#parry)|||A vampire can gain +5 to HiT against up to 4 attacks.|
@@ -399,9 +413,6 @@ ___
 |Resistant|||"prone", "bleeding", "crippled", "incapacitated", "frightened", "poisoned", "diseased"|
 |Immune|||"fear", "unconscious", "charm"|
 |Vulnerability|||"Div", "light"|
-|[Charm III](../06-abilities.md#charm-i-iv)|Thr=21||(Cost = 1 MP die) A vampire can charm its victim. If it has imbibed its victim's blood, then the victim has disadvantage on the save.|
-|[Spellcasting: Incantation VI](../06-abilities.md#spellcasting-local)|Thr=21||Favourite Spells: ["Least Ward"](../08-spell-list.md#least-ward), ["Down"](../08-spell-list.md#down), ["Least Pyromancy"](../08-spell-list.md#least-pyromancy), ["Least Vengeance"](../08-spell-list.md#least-vengeance), ["Promise"](../08-spell-list.md#promise), ["Wind Walk"](../08-spell-list.md#wind-walk), ["Lesser Weather Control"](../08-spell-list.md#lesser-weather-control), ["Summon Spirit"](../08-spell-list.md#summon-spirit), ["Pact"](../08-spell-list.md#pact), ["Spirit Restoration"](../08-spell-list.md#spirit-restoration)|
-|[Spellcasting: Kinetic VI](../06-abilities.md#spellcasting-local)|Thr=21||Favourite Spells: ["Mist"](../08-spell-list.md#mist), ["Silent"](../08-spell-list.md#silent), ["Whispers"](../08-spell-list.md#whispers), ["Lesser Spirits' Secret"](../08-spell-list.md#spirits-secret), ["Least Transformation"](../08-spell-list.md#least-transformation), ["Least Curse"](../08-spell-list.md#least-curse), ["Scry"](../08-spell-list.md#scry), ["Plague"](../08-spell-list.md#plague), ["Madness"](../08-spell-list.md#madness)|
 |[Forbidden Spell](../06-abilities.md#forbidden-spell)|||["Forced Possession"](../08-spell-list.md#forced-possession), ["Dominate Mortal"](../08-spell-list.md#dominate-mortal), ["Summon Fiend"](../08-spell-list.md#summon-fiend), ["Legion of Dead"](../08-spell-list.md#legion-of-dead)|
 |[Spellcasting: Global](../06-abilities.md#spellcasting-global)||||
 |||||
@@ -444,12 +455,13 @@ ___
 |-|-|-|-|
 |Shade's touch|+5|1d4+1|"Profane" damage. Entities touched must succeed a Thr=18 WIS save or be "catatonic" until they are no longer in line of sight of the shade.|
 |Profane aura|Thr=16 CON||(Range = 30ft) A shade removes warmth and vital energies from within 30ft. The temperature within the aura drops by one category. All mortals entering or starting their turn in a shade's aura must succeed on a CON save or have disadvantage on DEX based rolls and take 3 points of supernatural cold damage.|
+|Spellcasting III|Thr=18||["Least Curse"](../08-spell-list.md#least-curse)|
+|||||
 |Resistant|||"Fir", "ice" damage|
 |Vulnerability|||"Div", "light"|
 |Immune|||"physical" damage and all combat manoeuvres carried out without "spiritual" properties|
 |Immune||||All combat manoeuvres carried by corporeal entities without the "spiritual" property|
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
-|Spellcasting III|||["Least Curse"](../08-spell-list.md#least-curse)|
 |Senses|||"low-light vision", "life-sense" 60ft|
 |Horror of the Dark|||The shade has advantage on "stealth" in low-light and darkness. If exposed to direct sunlight, the shade dissipates until low-light conditions are restored|
 
@@ -479,12 +491,13 @@ ___
 |Shade's touch|+9|1d4+3|(main action) "Profane" damage. Entities touched must succeed a Thr=18 WIS save or be "catatonic" until they are no longer in line of sight of the shade.|
 |Shade's gaze|Thr=21|1d3|(secondary action, range 30ft, 2MP dice) A shade can look into the darker part's of a mortal's soul, draining 1d3 SP dice and the same number of MP dice. (Averting gaze makes one immune, but also makes you blind in respect to the shade)|
 |Profane aura|Thr=19 CON||(Range = 60ft) A shade removes warmth and vital energies from within 30ft. The temperature within the aura drops by one category. All mortals entering or starting their turn in a shade's aura must succeed on a CON save or have disadvantage on DEX based rolls and take 3 points of supernatural cold damage.|
+|Spellcasting III|Thr=18||["Least Curse"](../08-spell-list.md#least-curse)|
+|||||
 |Resistant|||"Fir", "ice" damage from supernatural sources|
 |Vulnerability|||"Div", "light" from supernatural sources|
 |Immune|||"natural" damage (except "light") and all combat manoeuvres carried out without "spiritual" properties|
-|Immune||||All combat manoeuvres carried by corporeal entities without the "spiritual" property|
+|Immune|||All combat manoeuvres carried by corporeal entities without the "spiritual" property|
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
-|Spellcasting III|Thr=18||["Least Curse"](../08-spell-list.md#least-curse)|
 |Senses|||"low-light vision", "life-sense" 120ft|
 |Horror of the Dark|||The shade has advantage on "stealth" in low-light and darkness. If exposed to direct sunlight, the shade dissipates until low-light conditions are restored|
 
@@ -512,12 +525,13 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Shade's touch|+4|2d6+1|The damage counts as simultaneously cold and necrotic, entities touched must succeed a Thr=17 WIS save or be "frightened" of the shade until they are no longer in line of sight of the shade.|
+|Spellcasting III|Thr=16||["Least Curse"](../08-spell-list.md#least-curse)|
+|||||
 |Resistant|||"Fir", "ice" damage|
 |Vulnerability|||"Div", "light"|
 |Immune|||"physical" damage and all combat manoeuvres carried out without "spiritual" properties|
 |Immune||||All combat manoeuvres carried by corporeal entities without the "spiritual" property|
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
-|Spellcasting III|Thr=16||["Least Curse"](../08-spell-list.md#least-curse)|
 |Senses|||"low-light vision", "life-sense" 60ft|
 |Horror of the Dark|||The shade has advantage on "stealth" in low-light and darkness. If exposed to direct sunlight, the shade dissipates until low-light conditions are restored|
 
@@ -587,11 +601,15 @@ Here the stat block for vaguely humanoid minor demons of levels 1-5 is presented
 |1|Stat|14|10|12|8|8|10|
 |1|Bonus|+2|0|+1|-1|-1|0|
 |1|Save|+3|+1|+2|0|0|+1|
-|||||||||
+
+|Level||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|-|
 |3|Stat|16|10|14|10|8|10|
 |3|Bonus|+3|0|+2|0|-1|0|
 |3|Save|+4|+1|+3|+1|0|+1|
-|||||||||
+
+|Level||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|-|
 |5|Stat|16|10|14|12|8|12|
 |5|Bonus|+3|0|+2|+1|-1|+1|
 |5|Save|+4|+1|+3|+2|0|+2|
@@ -604,29 +622,31 @@ Here the stat block for vaguely humanoid minor demons of levels 1-5 is presented
 
 |Level|Ability|Bonus|Damage|Other|
 |-|-|-|-|-|
-||Vulnerability|||"Div", "light: supernatural"|
-||Resistant|||"physical" damage, "Fir" and "ice" damage|
-||Immune|||"disease", "unconscious", "dying"|
-||Senses|||"low-light vision", "heat sense" 30ft|
 |1|Claw|+4|1d4+2||
 |1|Grapple|+4|||
 |1|Bite|+2|1d8+2||
 |1|Howl|Thr=15 CON||(1 SP) All entities that do not succeed a CON save within 30ft of a demon's shriek are deafened until they are treated with first aid (Thr=15). This stops the condition for one hour, as per the ["healing" skill](../05-skills.md#heal). Any ability that heals HP (including a long rest) completely cures the effect.|
 ||||||
-|3|Skills|||"Fortify:+4", "Intimidate: +2", "Climb:+4"|
 |3|Claw|+5|1d4+2||
 |3|Bite|+3|1d8+2||
 |3|Grapple|+5|||
 |3|Howl|Thr=16 CON||(1 SP) As per level I, but the Thr=16|
-|3|Spellcasting: Kinetic I|Thr=15||Favourites are: "Deafen", "Silent", "Whispers" and "Enflame"|
-|3|Skills|||"Fortify:+6", "Intimidate: +3", "Climb:+6", "Spellcraft:0", "Religion:0"|
+|3|SC: Kinetic I|Thr=15||Favourites are: "Deafen", "Silent", "Whispers" and "Enflame"|
 ||||||
 |5|Claw|+5|1d4+2||
 |5|Bite|+3|1d8+2||
 |5|Grapple|+5|||
 |5|Howl|Thr=17||(1 SP) As per level 1, except the Thr=17 AND it also causes bleeding.|
-|5|Spellcasting: Kinetic II|Thr=16||Favourites are: "Deafen", "Silent", "Whispers", "Call Ailment", "Least Transformation"|
+|5|SC: Kinetic II|Thr=16||Favourites are: "Deafen", "Silent", "Whispers", "Call Ailment", "Least Transformation"|
+||||||
+|1|Skills|||"Fortify:+4", "Intimidate: +2", "Climb:+4"|
+|3|Skills|||"Fortify:+6", "Intimidate: +3", "Climb:+6", "Spellcraft:0", "Religion:0"|
 |5|Skills|||"Fortify:+7", "Intimidate: +3", "Climb:+6", "Spellcraft:3", "Religion:3"|
+||||||
+||Vulnerability|||"Div", "light: supernatural"|
+||Resistant|||"physical" damage, "Fir" and "ice" damage|
+||Immune|||"disease", "unconscious", "dying"|
+||Senses|||"low-light vision", "heat sense" 30ft|
 
 Minor demons take many forms. The ones described in this stat block resemble, on the material world, the most ugly and wretched of humanoids, although some are capable of supernatural disguise and flight. 
 
@@ -661,8 +681,9 @@ A shadow Flesh Fiend has a +4 armour bonus from the profane flesh.
 |Shadow Touch|+7|2 [Pro]|Reach=10ft. On a successful hit, the target must succeed a Thr=17 CON save or lose 1d4+2 SP dice. If it has no SP dice left, it instead loses 2 HP.|
 |Short Sword|+8|1d6+3|Reach=10ft, the shadow flesh distorts the fiend's form, giving it an unusually long reach.|
 |Grapple|+8||Reach=10ft. A target grappled by a Shadow Flesh Fiend must succeed a Thr=17 CON save at the start of its turn or lose 1d4+2 SP dice. If it has no SP dice left, it instead loses 2 HP.|
-|Profane Blast||||
 |Spellcasting|Thr=17||["Dusk"](../08-spell-list.md#dusk), ["Curse"](../08-spell-list.md#least-curse), ["Animate Dead"](../08-spell-list.md#animatecontrol-dead)|
+|||||
+|Profane Blast||||
 |[Cursed Blood](../06-abilities.md#cursed-blood)|||A Shadow Flesh Fiend can use its reaction to cast a pell|
 |||||
 |[Guarded](../06-abilities.md#guarded)|||A Shadow Flesh Fiend does not provoke attacks of opportunity when standing up or drinking potions.|
@@ -707,13 +728,13 @@ ___
 |-|-|-|-|
 |Claw|+5|1d4+3||
 |Grapple|+7||A target grappled by a succubus has disadvantage on saves vs its "charm" and "life drain"|
+|Life Drain|Thr=21 CHA|1d3 SP dice|(Cost = 1MP die) The succubus' life drain drains 1d3 SP dice from the target's maximum. The actual SP dice is also reduced by that amount. Each time, the succubus gains 2 SP which can take it past its SP maximum. If the target has 0 SP dice, the attack affects HP instead.|
 |Charm|Thr=21 WIS||(Cost = 1MP die) As a full round action, a succubus can charm a humanoid. The humanoid is charmed for 24h, but gets a repeated save if it is subject to an attack from the succubus. If the humanoid is not attracted to the sex of the form that the succubus is currently in, it has advantage on the save.|
-|Life Drain (1MP die)|Thr=21 CHA|1d3 SP dice|The succubus' life drain drains 1d3 SP dice from the target's maximum. The actual SP dice is also reduced by that amount. Each time, the succubus gains 2 SP which can take it past its SP maximum. If the target has 0 SP dice, the attack affects HP instead.|
+|Sc: Incantation II|Thr=18||Favourites are: "Down", "Sour", "Least Ward", "Least Vengeance", "Least Veil", "Trace Secret Path"|
 |||||
 |Alternate Form|||A succubus has a true form, and a humanoid form. The humanoid form is generally attractive. It can shift between them as a secondary action. In its humanoid form the succubus loses its claw attack and replaces its movement modalities with those of the humanoid. Its stats, saves, and abilities are unaffected.|
 |||||
 |Senses|||"Low Light Vision", "Heat Sense", "Life Sense"|
-|Spellcasting: Incantation II|Thr=18||Favourites are: "Down", "Sour", "Least Ward", "Least Vengeance", "Least Veil", "Trace Secret Path"|
 |Skills|||"Deception: +11", "Persuasion:+11", "Sleight of Hand:+9", "Acrobatics:+7", "Ride:+5",  "Insight:+5", "Religion:+5", "Arcana:+4", "Appraise":+3, "Observe": +1, "Athletics":+1|
 |||||
 |Resistant|||"physical" damage, "Fir", "ice" damage|
@@ -755,15 +776,15 @@ Saves: Str, Con
 |||||
 |Flail(Or demonic flail)|+11(+13)|1d8+6||
 |Claw|+11|1d6+6||
-|Monster Attack III|||A fiendish warrior makes 4 attacks/combat manoeuvres|
+|Elemental Blast II (one of fire or ice)|+5|2d6|Up to 4d6 (an extra 1d6 per 1MP dice)|
+|Elemental Touch II (one of fire or ice)|+4|2d6|Up to 6d6 (an extra 2d6 per 1MP dice)|
 |Grapple/Throw/Disarm/Sunder|+11|||
+|Monster Attack III|||A fiendish warrior makes 4 attacks/combat manoeuvres|
 |Combined Manoeuvre II|||A fiendish warrior can combine up to 3 basic combat manoeuvres|
 |Parry|||A fiendish warrior adds +3 to HiT for up to 5 attacks.|
 |Opportunist|||Can make attacks of opportunity vs entities that are standing up or drinking potions|
 |["Charge"](../06-abilities.md#charge)|||Can attack when running/sprinting when mounted|
 |Counterstrike|||Can take an attack of opportunity against a foe that hits it in melee|
-|Elemental Blast II (one of fire or ice)|+5|2d6|Up to 4d6 (an extra 1d6 per 1MP dice)|
-|Elemental Touch II (one of fire or ice)|+4|2d6|Up to 6d6 (an extra 2d6 per 1MP dice)|
 |||||
 |Senses|||"Low Light Vision", "Tremor Sense"|
 |Skills|||"Athletics":+12, "Fortify": +10", "Climb:+8", "Swim:+7", "Ride:+7", "Intimidation":+7,"Deception":+6, "Acrobatics:+5", "Stealth:+5", "Observe":+3, "Sense Motive": +3, "Religion:+1", "Arcana:+1"|
@@ -818,6 +839,8 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Aura of Destruction|Thr=23|||
+|Sc: Fire/Water VI|Thr=24|||
+|Sc: Profane VIII|Thr=24||Favourites are: ["Dusk"](../08-spell-list.md#dusk), ["Animate Dead"](../08-spell-list.md#animatecontrol-dead), ["Balance of Nature"](../08-spell-list.md#balance-of-nature), ["Summon Fiend"](../08-spell-list.md#summon-fiend), ["Legion of Dead"](../08-spell-list.md#legion-of-dead), ["Profane Resurrection"](../08-spell-list.md#profane-resurrection)|
 |||||
 |Monster Attack III|||A greater fiend makes 4 attacks/combat manoeuvres|
 |Combined Manoeuvre II|||A greater fiend can combine up to 3 basic combat manoeuvres|
@@ -833,9 +856,7 @@ ___
 |["Profane Strike"](../06-abilities.md#profane-strike)|||A demon may add 1d6 profane damage per MP dice expended to damage up to a maximum of 4|
 |||||
 |Xenophonia III|||"Humanoid", "Monster", "Elemental"|
-|Spellcasting: Global I||||
-|Spellcasting: Fire/Water VI|Thr=24|||
-|Spellcasting: Profane VIII|Thr=24||Favourites are: ["Dusk"](../08-spell-list.md#dusk), ["Animate Dead"](../08-spell-list.md#animatecontrol-dead), ["Balance of Nature"](../08-spell-list.md#balance-of-nature), ["Summon Fiend"](../08-spell-list.md#summon-fiend), ["Legion of Dead"](../08-spell-list.md#legion-of-dead), ["Profane Resurrection"](../08-spell-list.md#profane-resurrection)|
+|Sc: Global I||||
 |Alternate Form|||A demon has its true form and a humanoid form. It can shift between them as a secondary action. In its humanoid form the demon loses its claw attack and replaces its movement modalities with those of the humanoid. Its stats, saves, and abilities are unaffected.|
 |||||
 |Deflection||||
@@ -866,6 +887,7 @@ ___
 ### Unicorn, Black
 
 **Size category**: Large (10ft x 10ft)
+
 - Evade: -1, Armour +1, Deflection +6
 - Reach: 5ft (long)
 - Saves: DEX, INT, WIS, CHA
@@ -895,6 +917,8 @@ ___
 |||||
 |Sunder|+13||A unicorn can destroy the weapons and armour of its foes|
 |Throw|+13||A unicorn can knock down its foes|
+|[Spellcasting: Incantation VI](../06-abilities.md#spellcasting-local)|Thr=19||Favourite Spells: ["Least Spike"](../08-spell-list.md#least-spike), ["Sour"](../08-spell-list.md#sour), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Vengeance"](../08-spell-list.md#least-vengeance), ["Meadow of Flame"](../08-spell-list.md#meadow-of-flame), ["Wind Walk"](../08-spell-list.md#wind-walk), ["Cure"](../08-spell-list.md#cure), ["Greater Xenophonia"](../08-spell-list.md#greater-xenophonia), ["Isolate Essence"](../08-spell-list.md#isolate-essence), ["Pact"](../08-spell-list.md#pact), ["Spirit Restoration"](../08-spell-list.md#spirit-restoration), ["Razor Wind"](../08-spell-list.md#razor-wind), ["Otherworld Step"](../08-spell-list.md#otherworld-step)|
+|||||
 |[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||(1SP die) A unicorn can combine any two basic combat manoeuvres that it is proficient with.|
 |Monster Attack I|||A unicorn makes one attack with its horns and one with its hooves.|
 |||||
@@ -903,7 +927,6 @@ ___
 |[Deflection](../06-abilities.md#deflection)|||A unicorn can can reduce damage from ranged supernatural attacks by 1d4+7+([MP dice]d4) as a reaction.|
 |[Esoteric Deflection](../06-abilities.md#esoteric-deflection)|||A unicorn can, as a reaction, reduce the damage from a "esoteric" ranged attack by [1d6 + [2 x MP dice expended]]|
 |Shield of Malice|||A unicorn is surrounded by a malicious force that grants it +6 to HiT|
-|[Spellcasting: Incantation VI](../06-abilities.md#spellcasting-local)|Thr=19||Favourite Spells: ["Least Spike"](../08-spell-list.md#least-spike), ["Sour"](../08-spell-list.md#sour), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Vengeance"](../08-spell-list.md#least-vengeance), ["Meadow of Flame"](../08-spell-list.md#meadow-of-flame), ["Wind Walk"](../08-spell-list.md#wind-walk), ["Cure"](../08-spell-list.md#cure), ["Greater Xenophonia"](../08-spell-list.md#greater-xenophonia), ["Isolate Essence"](../08-spell-list.md#isolate-essence), ["Pact"](../08-spell-list.md#pact), ["Spirit Restoration"](../08-spell-list.md#spirit-restoration), ["Razor Wind"](../08-spell-list.md#razor-wind), ["Otherworld Step"](../08-spell-list.md#otherworld-step)|
 |[Sprinter](../06-abilities.md#sprinter)|||A unicorn can run at x3 its base speed, and sprint x5 its base speed.|
 |[Mighty I](../06-abilities.md#mighty-i)|||Can carry more weight than your average beast|
 |||||

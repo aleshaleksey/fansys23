@@ -527,7 +527,7 @@ ___
 - Add [Forbiddance](08-spell-list.md#forbiddance) spell (needed a more absolute barrier spell).
 - Modify [Summon Beast](08-spell-list.md#summon-beast) to be level beasts up faster after 2 MP (it is otherwise useless).
 - Modify all summoning spells to allow summons to appear either at the end of this turn or the start of next turn, but they still can't act until the next turn.
-- Make [Winter's Touch](08-spell-list.md#winters-touch) a bit less horific.
+- Make [Winter's Touch](08-spell-list.md#winters-touch) a bit less horrific.
 - Modify [Bear's Claws](08-spell-list.md#bears-claws) to scale with level a bit more.
 - Decrease the minimum distance for 1 round falls on [Glide](08-spell-list.md#glide).
 - Allow upcast [cure](08-spell-list.md#cure) to increase damage to undead.

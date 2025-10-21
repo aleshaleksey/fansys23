@@ -549,10 +549,10 @@ Travelling over dangerous terrain, will use brigandine (HiT: 17/16/13)
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Dagger|+2|1d4|-|
+|Dagger|+6|1d4|-|
 |[Spellcasting: Kinetic III](../06-abilities.md#spellcasting-local)|Thr=18||["Witch's Candle"](../08-spell-list.md#witchs-candle), ["Least Shroud"](../08-spell-list.md#least-shroud), ["Whispers"](../08-spell-list.md#whispers),["Enflame"](../08-spell-list.md#enflame), "[Spirits' Secret](../08-spell-list.md#spirits-secret), ["Least Transformation"](../08-spell-list.md#least-transformation)|
 |[Spellcasting: Incantation III](../06-abilities.md#spellcasting-local)|Thr=18||[Down](../08-spell-list.md#down), [Least Ward](../06-abilities.md#least-ward), [Least Spike](../08-spell-list.md#least-spike), [Least Vengeance](../08-spell-list.md#least-vengeance), [Promise](../08-spell-list.md#promise), [Lesser Veil](../08-spell-list.md#lesser-veil), [Wind Walk](../08-spell-list.md#wind-walk)|
-|[Spellcasting: Earth II](../06-abilities.md#spellcasting-local)|Thr=18||[Least Geomancy](../08-spell-list.md#least-geomancy), [Sense Spell](../08-spell-list.md#sense-spell), [Gnome's Mercy](../08-spell-list.md#gnomes-mercy), [Earthern Hand](../08-spell-list.md#earthen-hand), [Warded Ground](../08-spell-list.md#warded-ground), [Summon Gnome](../08-spell-list.md#summon-gnome)|
+|[Spellcasting: Earth II](../06-abilities.md#spellcasting-local)|Thr=18||[Least Geomancy](../08-spell-list.md#least-geomancy), [Sense Spell](../08-spell-list.md#sense-spell), [Gnome's Mercy](../08-spell-list.md#gnomes-mercy), [Earthen Hand](../08-spell-list.md#earthen-hand), [Warded Ground](../08-spell-list.md#warded-ground), [Summon Gnome](../08-spell-list.md#summon-gnome)|
 |[Spellcasting: Global](../06-abilities.md#spellcasting-global)||||
 |[Bind Familiar I](../06-abilities.md#bind-familiar-i-iv)||||
 |[Deflection](../06-abilities.md#deflection)|||A mage may a reaction and potentially MP dice to reduce damage from "supernatural" ranged attack|

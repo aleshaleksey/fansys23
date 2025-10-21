@@ -313,6 +313,7 @@ ___
 |**Elder**|-|-|-|
 |Bite|+14|2d6+7|An entity that takes HP damage from a hive beast's bite must succeed a Thr=16 CON save or be incapacitated (poisoned) at the start of its turn (until successfully cured of poison). An entity that succeeds on this CON save, cannot be affected by Hive Beast venom for 24 hours.|
 |Monster Attack|||An elder hive beast can make one attack with its bite, and two with its claws as a main action|
+|Claws|+14|2d8+7||
 |Grapple|+14|||
 |[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||(1 SP dice) A hive beast can apply an additional basic combat manoeuvre when it makes a claw attack|
 |||||

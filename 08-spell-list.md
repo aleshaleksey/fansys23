@@ -2260,7 +2260,7 @@ ___
 
 **Special**: Alternatively it can affect up to 13 pieces of ammunition.
 
-**Upcast**: For every extra MP die above 3, the spell lasts for an extra 12 minutes or affect an extra 13 pieces of ammunition. Alternatively for every 2MP above 6 dice placed in the spell, it will deal an extra 1d8 damage.
+**Upcast**: For every extra MP die above 3, the spell lasts for an extra 12 minutes or affect an extra 13 pieces of ammunition. Alternatively for every 2MP above 3 dice placed in the spell, it will deal an extra 1d8 damage.
 
 ___
 ### Water Walk
@@ -2366,7 +2366,7 @@ ___
 
 **Special**: Alternatively it can affect up to 13 pieces of ammunition.
 
-**Upcast**: For every extra MP die above 3, the spell lasts for an extra 12 minutes or affect an extra 13 pieces of ammunition. Alternatively for every extra 2MP dice placed in the spell, it will deal an extra 1d8 damage.
+**Upcast**: For every extra MP die above 3, the spell lasts for an extra 12 minutes or affect an extra 13 pieces of ammunition. Alternatively for every extra 2MP dice above 3 placed in the spell, it will deal an extra 1d8 damage.
 
 ___
 ## MP 4 spells

@@ -98,13 +98,13 @@ ___
 |Elemental Touch (Fire) (lvl1)|+2|1d6 + 1|Fire, supernatural, can upcast|
 |Elemental Touch (Fire) (lvl3)|+3|1d6 + 1||
 |Elemental Touch (Fire) (lvl5)|+4|1d6 + 2||
+|Ignition|Thr=16/18||A flame sprite ignites flammable materials it contacts, making it extremely dangerous|
 |Senses|||flame sprites are blind, but have keen smell|
 |Senses|||Heat sense (90ft, 180ft at lvl 4) - ignores prerequisites|
 |Skills (lvl1)|||Perform +3|
 |Skills (lvl3)|||Acrobatics +5, Perform +4|
 |Skills (lvl5)|||Acrobatics +8, Perform +7|
 |Special|||A flame sprite not in contact with its element loses its resistance/immunity to physical damage|
-|Ignition|Thr=16/18||A flame sprite ignites flammable materials it contacts, making it extremely dangerous|
 |Illumination|||A flame sprite sheds light like a campfire, providing bright illumination within 20ft, and dim illumination within another 20ft. The light given off by a flame sprite can be seen up to 2 miles away on a clear night|
 |Damage resistance|||"Physical" (becomes immunity at lvl4 and above)|
 |Damage immunity|||"Fire"|
@@ -156,11 +156,11 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Earth Magic I (lvl 1)|||["Down"](../08-spell-list.md#down), ["Least Spike"](../08-spell-list.md#least-spike), ["Gnome's Mercy"](../08-spell-list.md#gnomes-mercy)|
+|Earth Magic I (lvl 1)|Thr=18||["Down"](../08-spell-list.md#down), ["Least Spike"](../08-spell-list.md#least-spike), ["Gnome's Mercy"](../08-spell-list.md#gnomes-mercy)|
+|Earth Magic II (lvl 3)|Thr=19||["Least Ward"](../08-spell-list.md#least-geomancy), ["Least Geomancy"](../08-spell-list.md#least-geomancy), ["Warded Ground"](../08-spell-list.md#warded-ground)|
+|Earth Magic III (lvl 5)|Thr=19||["Shape Earth"](../08-spell-list.md#shape-earth), ["Earth Ward"](../08-spell-list.md#earth-ward)|
 |Precision Attack I (lvl 2)|||Gnomes Add 1d8 to surprise attacks if they attack with a weapon|
-|Earth Magic II (lvl 3)|||["Least Ward"](../08-spell-list.md#least-geomancy), ["Least Geomancy"](../08-spell-list.md#least-geomancy), ["Warded Ground"](../08-spell-list.md#warded-ground)|
 |Foresight (lvl 4)|||Greater gnomes add [Wis] to HiT|
-|Earth Magic III (lvl 5)|||["Shape Earth"](../08-spell-list.md#shape-earth), ["Earth Ward"](../08-spell-list.md#earth-ward)|
 |Senses|||Gnomes are blind, but have other senses|
 |Senses|||Heat sense (60ft, 120ft at lvl 4), Tremor sense (60ft, 120ft at lvl 4) - ignores prerequisites|
 |Skills (lvl 1)|||Fortify +4, Harvest +1|
@@ -273,8 +273,8 @@ ___
 |-|-|-|-|
 |Wind Magic I (lvl 1)||||
 |Wind Magic II (lvl 3)||||||
-|Foresight (lvl 4)|||Greater water sprites add [Wis] to HiT|
 |Wind Magic III (lvl 5)||||
+|Foresight (lvl 4)|||Greater water sprites add [Wis] to HiT|
 |Senses|||Wind sprites are blind but have keen hearing|
 |Senses|||Blind Sight (15ft, 30ft at lvl 4) - ignores prerequisites|
 |Skills (lvl1)|||Fly +5, Navigate +1|
@@ -352,8 +352,8 @@ Size: Medium
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Tendril|+13|2d6+7|Pe|
-|Grapple|+13|||
 |Water bullet|+13|2d4+7|Pi|
+|Grapple|+13|||
 |Combined Manoeuvre I||||
 |Monster Attack (II)|||The greater undine makes up to 3 attacks with tendrils or water bullet|
 |Call Sprites|||A greater undine use its "communicate action" to call 3d6 water sprites, which appear in 1d4 turns. The sprites are loyal to the undine and remain until dismissed.|
@@ -395,11 +395,11 @@ Deflection:+3
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Scimitar|+9|2d8+4 +2d6[Fir]|(reach 5ft, long) An Ifrit's sword is a manifestation of the Ifrit itself. It counts as being "spirit source" for the sake of material rank. An Ifrit's sword that is thrown reforms in the hand of the Ifrit at the start of its turn.|
-|Multi-attack I|||A greater Ifrit makes 2 attacks.|
-|[Feint](../04-combat.md#basic-martial-manoeuvres)|+7|||
 |Elemental Touch (fire)|+6|2d6+1|(range = "close") +2d6 damage per MP dice up to 10d6|
 |Elemental Blast (fire)|+6|2d6+1|(range = 120ft + 30/MP dice) +1d6 per MP dice up to 6d6|
 |Greater Elemental Blast (fire)|Thr=17||radius = [MP dice spent] x 10ft up to 40ft|
+|[Feint](../04-combat.md#basic-martial-manoeuvres)|+7|||
+|Multi-attack I|||A greater Ifrit makes 2 attacks.|
 
 A Ifrit is can make two basic combat manoeuvres, or an elemental blast/touch as a main action.
 
@@ -452,20 +452,20 @@ Deflection:+5
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Scimitar|+14|3d8+8 +3d6[Fir]|(reach 10ft) An Ifrit's sword is a manifestation of the Ifrit itself. It counts as being "spirit source" for the sake of material rank. An Ifrit's sword that is thrown reforms in the hand of the Ifrit at the start of its turn.|
-|Multi-attack I|||A greater Ifrit makes 2 attacks.|
-|[Sunder](../04-combat.md#basic-martial-manoeuvres)|+12|||
-|[Feint](../04-combat.md#basic-martial-manoeuvres)|+12|||
 |Elemental Touch (fire)|+11|3d6+3|(range = "close") +2d6 damage per MP dice up to 15d6|
 |Elemental Blast (fire)|+10|3d6+3|(range = 120ft + 30/MP dice) +1d6 per MP dice up to 9d6|
 |Greater Elemental Blast (fire)|Thr=20||radius = [MP dice spent] x 10ft up to 60ft|
+|[Sunder](../04-combat.md#basic-martial-manoeuvres)|+12|||
+|[Feint](../04-combat.md#basic-martial-manoeuvres)|+12|||
+|Multi-attack I|||A greater Ifrit makes 2 attacks.|
 
 A Greater Ifrit is can make two basic combat manoeuvres, or an elemental blast/touch as a main action.
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Flaming form||2d6|Entities within 5ft of a greater Ifrit at the end of their turn, and those that touch/succeed in a "close" range attack against the greater Ifrit take 2d6 damage.|
-|Berserk II||||
 |Debilitating Strike|Thr=22||Blinded, 1 SP dice|
+|Berserk II||||
 |Parry|||A greater Ifrit can add +3 to HiT vs up to 4 attacks by sacrificing its reaction.|
 |[Cursed Blood](../06-abilities.md#cursed-blood)|||A greater Ifrit can invoke curses upon foes that spill its "blood"|
 |[Spelldance III](../06-abilities.md#spelldance-i-iv)|||A greater Ifrit can both obfuscate and alter spells with its dance.|
@@ -629,6 +629,7 @@ ___
 ## Spirits: Fey
 
 Fey are spiritual beings associated in some way to the natural world. They tend to inhabit the membrane layers between the material and spirit world and travel readily, if not freely, between the two (although not freely). Fey spirits may be malicious of benevolent, but even if whimsical they are bound strictly by their own logic. Fey spirits have the following properties:
+
 - Fey beings are immune to "physical" damage, as their physical form is either unnecessary or not "real". The immunity to physical damage does not apply to damage caused by weapons made of iron or steel.
 - Fey beings are immune to "stunned", "immobilised", "crippled", "bleeding", "poisoned", "paralysed" as well as "aphonia" and "deafened".
 - All fey have at least one ability that causes "frightened" or "charmed".
@@ -640,6 +641,7 @@ ___
 A faun, similar to a satyr, is a fey that takes the material form of a humanoid with a goat's horns and legs. Fauns, more often than not are generally benign, and unlike Satyrs, children of Bacchus, are not easily consumed by revelry. Instead they live out hidden lives in the wilderness. A faun's music is said to exude a strong fey magic and has the property of charming mortals.
 
 **Size category**: Medium (5ft x 5ft)
+
 - Reach: 5ft
 - Carry capacity: (40lb light, 80lb medium, 200lb heavy, 300lb drag)
 ___
@@ -667,14 +669,15 @@ Deflection: +1
 |Ram|+3|1d4|(Reach=5ft) A faun automatically applies "shove" to its ram attack without expending an SP die.|
 |Grapple|+6||(Reach=5ft)|
 |Shove|+6||(Reach=5ft)|
-|[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||A faun can expend 1 SP die to combine two basic combat manoeuvres|
-|[Greater Manoeuvre I]|||A faun's combat manoeuvres affect entities up to the size of "huge"|
 |||||
 |Fey Song|Thr=16||(2 MP die, range=60ft, instantaneous) A faun's voice, much like a fairy's, is a balm for the spirit. If a faun expends 2 MP dice as a secondary action when singing, all mortals and spirits must succeed on a CHA save or become charmed for 8 hours. Entities below level 5 automatically fail the save. Entities above level 10 make the save at advantage. The charm is broken if the entity takes damage, receives the kiss of a mortal maiden, or eats a bitter leaf.|
 |||||
+|Spellcasting Local: Incantation I|Thr=19||Favourite Spells: [Down](../08-spell-list.md#down),  [Sour](../08-spell-list.md#sour),  [Least Heal](../08-spell-list.md#least-heal)|
+|[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||A faun can expend 1 SP die to combine two basic combat manoeuvres|
+|[Greater Manoeuvre I](../06-abilities.md#greater-manoeuvre-i-v)|||A faun's combat manoeuvres affect entities up to the size of "huge"|
+|||||
 |[Bard Song II](../06-abilities.md#bard-song-i-iv)||||
 |[Bind Beast III](../06-abilities.md#bind-beast-i-x)|||A faun song can bind a single beast to serve it as a loyal companion|
-|[Spellcasting Local: Incantation I]|Thr=13||Favourite Spells: [Down](../08-spell-list.md#down),  [Sour](../08-spell-list.md#sour),  [Least Heal](../08-spell-list.md#least-heal)|
 |[Xenophonia I](../06-abilities.md#xenophonia-i-xiii)|||A faun can communicate with beasts.|
 |[Fleet](../06-abilities.md#fleet)|||A faun can hide even in light concealment|
 |||||
@@ -689,6 +692,7 @@ ___
 Changelings are fey beings that make their way onto the mortal realm by way of exchange. That exchange is necessarily with a humanoid child whose place and form they take. A changeling lives out the humanoid's life for them, in humanoid form. When the lifespan of the humanoid they replaced expires, the changeling returns to the fey realm. Should the humanoid they displaced be returned by some means to the mortal realm the changeling is shunted back to the fey realm. Should the humanoid die, so does the changeling.
 
 **Size category**: Usually medium (5ft x 5ft) (may be small or large depending on its template)
+
 - Reach: 5ft
 - Carry capacity: (40lb light, 80lb medium, 200lb heavy, 300lb drag)
 ___
@@ -714,12 +718,12 @@ Deflection: +1
 |Dagger|+6|1d4+2|Reach=5ft (usually), Range=60ft, Increment=10ft|
 |Scimitar|+6|1d6+2|Reach=5ft (usually)|
 |||||
-|[Parry](../06-abilities.md#parry)|||A changeling can add +2 to HiT against up to two weapon attacks by sacrificing its reaction|
-|[Aphonic Spell](../06-abilities.md#aphonic-spell)|||A changeling can expend 1 MP die to cast a spell that normally has incantation components without them.|
-|||||
 |[Spellcasting Local: Nature III](../06-abilities.md#spellcasting-local)|Thr=16||Favourite Spells:  [Compass](../08-spell-list.md#compass), [Hide](../08-spell-list.md#hide), [Bear's Claws](../08-spell-list.md#bears-claws), [Summon Beast](../08-spell-list.md#summon-beast), [Call Ailment](../08-spell-list.md#call-ailment), [Trace Secret Path](../08-spell-list.md#trace-secret-path), [Fairy Shelter](../08-spell-list.md#fairy-shelter)|
 |[Spellcasting Local: Kinetic II](../06-abilities.md#spellcasting-local)|Thr=16||Favourite Spells: [Mist](../08-spell-list.md#mist), [Silent](../08-spell-list.md#silent), [Spirits' Secret](../08-spell-list.md#spirits-secret), [Lesser Illusory Self](../08-spell-list.md#lesser-illusory-self), [Silence](../08-spell-list.md#silence)|
 |[Spellcasting Global I](../06-abilities.md#spellcasting-global)||||
+|||||
+|[Parry](../06-abilities.md#parry)|||A changeling can add +2 to HiT against up to two weapon attacks by sacrificing its reaction|
+|[Aphonic Spell](../06-abilities.md#aphonic-spell)|||A changeling can expend 1 MP die to cast a spell that normally has incantation components without them.|
 |||||
 |[Low-light Vision](../06-abilities.md#low-light-vision)|||A doppelganger can see in low light conditions as well as in daylight.|
 |[Xenophonia I](../06-abilities.md#xenophonia-i-xiii)|||A doppelganger can communicate with beasts|
@@ -738,6 +742,7 @@ ___
 Doppelgangers are spirits that take the exact form of a living mortal. A doppelganger cannot change its form again while its current "template" is alive. For this reason, doppelgangers frequently seek out and kill their "template" when they tire of a form.
 
 **Size category**: Usually medium (5ft x 5ft) (may be small or large depending on its template)
+
 - Reach: 5ft
 - Carry capacity: (52lb light, 104lb medium, 260lb heavy, 390lb drag)
 ___
@@ -763,8 +768,8 @@ Deflection: +1
 |Dagger|+8|1d4+3 [Pi/Sl]|Reach=5ft, Range=60ft, Increment=10ft|
 |Shortbow|+8|1d6+3 [Pi]|Range=600ft, Increment=120ft|
 |||||
-|[Assassinate II](../06-abilities.md#assassinate-i-v)|||A doppelganger that declares "assassinate" can make a single weapon attack against an immobilised or unaware target. Should it hit, the damage is done directly to HP.|
 |[Precision Attack IV](../06-abilities.md#precision-attack-i-x)||4d8|A doppelganger that declares "precision attack" can make a single weapon attack against a distracted or unaware target. Should it hit, it deals an extra 4d8 damage.|
+|[Assassinate II](../06-abilities.md#assassinate-i-v)|||A doppelganger that declares "assassinate" can make a single weapon attack against an immobilised or unaware target. Should it hit, the damage is done directly to HP.|
 |||||
 |[Low-light Vision](../06-abilities.md#low-light-vision)|||A doppelganger can see in low light conditions as well as in daylight.|
 |[Xenophonia I](../06-abilities.md#xenophonia-i-xiii)|||A doppelganger can communicate with beasts|
@@ -783,6 +788,7 @@ ___
 A brownie is a tiny spirit which associates itself with a humanoid dwelling. Brownies tend to be benevolent and bring blessings to the dwellings they inhabit. Should the dwelling be destroyed, the brownie must find a new dwelling before the full moon or perish.
 
 **Size category**: Diminutive (5/8ft x 5/8ft)
+
 - Evade: +3, Armour -3
 - Reach: 0ft
 - [DEX save]: +3, [STR save]: -3
@@ -808,14 +814,14 @@ Deflection: +1
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |[Elemental Touch: Light](../06-abilities.md#touch-elemental-touch)|+3|1d4+1 Lit[sup]|Reach=0ft|
+|[Spellcasting Local: Incantation I](../06-abilities.md#spellcasting-local)|Thr=15||Favourite Spells: [Least Ward](../08-spell-list.md#least-ward), [Least Heal](../08-spell-list.md#least-heal)|
+|[Spellcasting Local: Kinetic I](../06-abilities.md#spellcasting-local)|Thr=15||Favourite Spells: [Hide](../08-spell-list.md#hide), [Spirits' Secret](../08-spell-list.md#spirits-secret)|
 |||||
 |[Low-light Vision](../06-abilities.md#low-light-vision)|||A brownie can see even in starlight, and other low light conditions, as if it was daylight.|
 |[Fleet](../06-abilities.md#fleet)|||A brownie can stealth even in light cover.|
 |[Silent Step I](../06-abilities.md#silent-step-i-iii)|||A brownie can move at full speed while stealthed.|
 |[Xenophonia I: Animals](../06-abilities.md#xenophonia-i-xiii)|||A brownie can communicate with beasts.|
 |[Terrain Mastery: Urban](../06-abilities.md#terrain-mastery)|||A brownie has a +2 to certain skills inside and around humanoid dwellings.|
-|[Spellcasting Local: Incantation I](../06-abilities.md#spellcasting-local)|Thr=15||Favourite Spells: [Least Ward](../08-spell-list.md#least-ward), [Least Heal](../08-spell-list.md#least-heal)|
-|[Spellcasting Local: Kinetic I](../06-abilities.md#spellcasting-local)|Thr=15||Favourite Spells: [Hide](../08-spell-list.md#hide), [Spirits' Secret](../08-spell-list.md#spirits-secret)|
 |||||
 |Immunity|||"stunned", "immobilised", "crippled", "bleeding", "poisoned", "paralysed" as well as "aphonia" and "deafened"|
 |Damage Immunity|||All physical Damage. The immunity to physical damage does not apply to damage caused by weapons made of iron or steel.|
@@ -830,6 +836,7 @@ ___
 Pixies are tiny spirits that dwell in moorland and ruins and seem to endlessly seek amusement. Sometimes their amusement is harmless, or even beneficial to humanoids, while sometimes it is akin to mischief or worse.
 
 **Size category**: Tiny (5/4ft x 5/4ft)
+
 - Evade: +2, Armour -2
 - Reach: 0ft
 - [DEX save]: +2, [STR save]: -2
@@ -854,18 +861,19 @@ Deflection: +2
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|[Elemental Touch: Ice](../06-abilities.md#touch-elemental-touch)|+5|164+2 Ice[sup]|Reach=0ft|
+|[Elemental Touch: Ice](../06-abilities.md#touch-elemental-touch)|+5|1d4+2 Ice[sup]|Reach=0ft|
 |Pixie Shortbow|+10|1d2+6|(Range=600ft, Increment=120ft) The bow counts as having a fey source material|
-|[Precision Attack I](../06-abilities.md#precision-attack-i-x)|||A pixie deals an extra 1d8 damage with its bow if its target is "surprised: or otherwise unaware, within the first range increment.|
+|[Precision Attack I](../06-abilities.md#precision-attack-i-x)|+5||A pixie deals an extra 1d8 damage with its bow if its target is "surprised: or otherwise unaware, within the first range increment.|
+|||||
+|[Spellcasting Local: Incantation I](../06-abilities.md#spellcasting-local)|Thr=15||Favourite Spells: [Least Anemancy](../08-spell-list.md#least-anemancy), [Headwind](../08-spell-list.md#least-heal)|
+|[Spellcasting Local: Kinetic II](../06-abilities.md#spellcasting-local)|Thr=15||Favourite Spells: [Hide](../08-spell-list.md#hide), [Lesser Illusory Self](../08-spell-list.md#lesser-illusory-self), [Least Transformation](../08-spell-list.md#least-transformation)|
+|[Spellcasting Local: Nature III](../06-abilities.md#spellcasting-local)|Thr=15||Favourite Spells: [Sour](../08-spell-list.md#sour), , [Fade](../08-spell-list.md#fade), [Call Ailment](../08-spell-list.md#call-ailment), [Slumber](../08-spell-list.md#slumber)|
 |||||
 |[Low-light Vision](../06-abilities.md#low-light-vision)|||A pixie can see even in starlight, and other low light conditions, as if it was daylight.|
 |[Fleet](../06-abilities.md#fleet)|||A pixie can stealth even in light cover.|
 |[Silent Step I](../06-abilities.md#silent-step-i-iii)|||A pixie can move at full speed while stealthed.|
 |[Xenophonia I: Animals](../06-abilities.md#xenophonia-i-xiii)|||A pixie can communicate with beasts.|
 |[Terrain Mastery: Fells](../06-abilities.md#terrain-mastery)|||A pixie has a +2 to certain skills in fells.|
-|[Spellcasting Local: Incantation I](../06-abilities.md#spellcasting-local)|Thr=15||Favourite Spells: [Least Anemancy](../08-spell-list.md#least-anemancy), [Headwind](../08-spell-list.md#least-heal)|
-|[Spellcasting Local: Kinetic II](../06-abilities.md#spellcasting-local)|Thr=15||Favourite Spells: [Hide](../08-spell-list.md#hide), [Lesser Illusory Self](../08-spell-list.md#lesser-illusory-self), [Least Transformation](../08-spell-list.md#least-transformation)|
-|[Spellcasting Local: Nature III](../06-abilities.md#spellcasting-local)|Thr=15||Favourite Spells: [Sour](../08-spell-list.md#sour), , [Fade](../08-spell-list.md#fade), [Call Ailment](../08-spell-list.md#call-ailment), [Slumber](../08-spell-list.md#slumber)|
 |||||
 |Immunity|||"stunned", "immobilised", "crippled", "bleeding", "poisoned", "paralysed" as well as "aphonia" and "deafened"|
 |Damage Immunity|||All physical Damage. The immunity to physical damage does not apply to damage caused by weapons made of iron or steel.|
@@ -878,6 +886,7 @@ ___
 Dryads are spirits of trees that take a material form. A dryad cannot move beyond the edge of the root system of its tree. For this reason, dryads associated with birches are particularly powerful. A dryad whose tree perishes likewise perishes. A dryad can abandon its tree and return to the spirit realm on the first day of winter without perishing. Should it do so, however, its tree perishes.
 
 **Size category**: Medium (5ft x 5ft)
+
 - Reach: 5ft
 - Carry capacity: (6lb light, 12lb medium, 30lb heavy, 45lb drag)
 ___
@@ -900,7 +909,7 @@ Deflection: +2
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Vine Whip|+8|1d6+4 Sh + 2d8 Poi|Reach=15ft. A target hit with the dryad's whip must make a Thr=16 CON save at the start of its next turn or have disadvantage on all WIS based rolls. After a minute it must succeed on a second Thr=16 CON save or become "blinded". This is a "poisoned" condition which lasts until cured. |
+|Vine Whip|+8|1d6+4[Sh] + 2d8[Poi]|Reach=15ft. A target hit with the dryad's whip must make a Thr=16 CON save at the start of its next turn or have disadvantage on all WIS based rolls. After a minute it must succeed on a second Thr=16 CON save or become "blinded". This is a "poisoned" condition which lasts until cured. |
 |||||
 |[Spellcasting Local: Nature V](../06-abilities.md#spellcasting-local)|Thr=19||Favourite Spells: [Compass](../08-spell-list.md#compass), [Hide](../08-spell-list.md#hide), [Ensnare](../08-spell-list.md#ensnare), [Summon Beast](../08-spell-list.md#summon-beast), [Harvest](../08-spell-list.md#harvest), [Least Rest](../08-spell-list.md#least-rest), [Animate Plant](../08-spell-list.md#animate-plant), [Growth](../08-spell-list.md#growth), [Balance of Nature](../08-spell-list.md#balance-of-nature), [Rejuvenate Land](../08-spell-list.md#rejuvenate-land), [Lesser Cosmic Seal](../08-spell-list.md#lesser-cosmic-seal)|
 |[Spellcasting Global I](../06-abilities.md#spellcasting-global)|Thr=19|||
@@ -913,7 +922,7 @@ Deflection: +2
 |||||
 |Immunity|||"stunned", "immobilised", "crippled", "bleeding", "poisoned", "paralysed" as well as "aphonia" and "deafened"|
 |Damage Immunity|||All physical Damage. The immunity to physical damage does not apply to damage caused by weapons made of iron or steel.|
-|Damage Resistance||"Ice", "Div"|
+|Damage Resistance|||"Ice", "Div"|
 |Damage Vulnerability|||"Nec"|
 |||||
 |Dryad's Curse||| A dryad cannot move beyond the edge of the root system of its tree. For this reason, dryads associated with birches are particularly powerful. A dryad whose tree perishes likewise perishes. A dryad can abandon its tree and return to the spirit realm on the first day of winter without perishing. Should it do so, however, its tree perishes.|
@@ -925,6 +934,7 @@ ___
 Nymphs are similar to undines and are sometimes known as naiads. They are the spirits of natural streams and charm humanoids, sometimes involuntarily. They generally take the form of attractive female humanoids, but can also take the form of kingfishers and otters. Unlike other fey, however, they straddle the boundary between between "spirits" and "divinity", and as such, while generally benevolent, make for dangerous foes. A nymph cannot leave the catchment of its stream. Furthermore, should its stream dry up or be dammed for a full year, the nymph perishes. A nymph can leave its stream and pass to the spirit realm by travelling to its estuary. Should it do so, however, the stream dries up. Only the sacrifice of an undine can restore it.
 
 **Size category**: Medium (5ft x 5ft)
+
 - Reach: 5ft
 - Carry capacity: (32lb light, 64lb medium, 240lb heavy, 720lb drag)
 
@@ -951,10 +961,14 @@ Foresight: +2
 |-|-|-|-|
 |[Elemental Touch: Ice](../06-abilities.md#touch-elemental-touch)|+9|3d6+1|Reach=5ft|
 |[Elemental Blast: Light](../06-abilities.md#blast-elemental-blast)|+12|3d6+1|maximum extra damage dice = 5d4|
-|[Greater Elemental Blast: Radial](../06-abilities.md#circle)|+12(Thr=19)|3d6+1|Maximum radius=50ft, maximum extra damage dice = 5d4|
+|[Greater EB: Radial](../06-abilities.md#circle)|+12(Thr=19)|3d6+1|Maximum radius=50ft, maximum extra damage dice = 5d4|
 |||||
 |Fey Song|Thr=21||(2 MP die, range=60ft, instantaneous) A nymph's/naiad's voice is a balm for the spirit. If a naiaid expends 2 MP dice as a secondary action when singing, all mortals and spirits must succeed on a CHA save or become charmed for 8 hours. Entities below level 5 automatically fail the save. Entities above level 10 make the save at advantage. The charm is broken if the entity takes damage, receives the kiss of a mortal maiden, or eats a bitter leaf.|
 |Naiad's Touch|Thr=21||Any mortal that touches or makes a melee attack against a naiad/nymph must succeed on a CHA save or become charmed for 8 hours. The charm is broken if the entity takes damage, receives the kiss of a mortal maiden, or eats a bitter leaf.|
+|||||
+|[Spellcasting Local: Water VII](../06-abilities.md#spellcasting-local)|Thr=22||Favourite Spells: [Least Hydromancy](../08-spell-list.md#least-hydromancy), [Mist](../08-spell-list.md#mist), [Water Snake](../08-spell-list.md#water-snake), [Sense Spell](../08-spell-list.md#sense-spell), [Summon Water Sprite](../08-spell-list.md#summon-water-sprite), [Water Ward](../08-spell-list.md#water-ward), [Aqueous Step](../08-spell-list.md#aqueous-step), [Scry](../08-spell-list.md#scry), [Mirage](../08-spell-list.md#mirage), [Flood](../08-spell-list.md#flood), [Heart Ward](../08-spell-list.md#heart-ward), [Inner Voice](../08-spell-list.md#inner-voice), [Transform Mortal](../08-spell-list.md#transform-mortal)|
+|[Spellcasting Local: Nature VII](../06-abilities.md#spellcasting-local)|Thr=22||Favourite Spells: [Hide](../08-spell-list.md#hide), [Ensnare](../08-spell-list.md#ensnare), [Least Heal](../08-spell-list.md#least-heal), [Least Rest](../08-spell-list.md#least-rest), [Natural Xenophonia](../08-spell-list.md#natural-xenophonia), [Cure](../08-spell-list.md#cure), [Slumber](../08-spell-list.md#slumber), [Healing Seed](../08-spell-list.md#healing-seed), [Rejuvenate Land](../08-spell-list.md#rejuvenate-land), [Greater Fade](../08-spell-list.md#greater-fade), [Fairy Feast](../08-spell-list.md#fairy-feast), [Spirit Restoration](../08-spell-list.md#spirit-restoration), [Greater Weather Control](../08-spell-list.md#greater-weather-control), [Transform Mortal](../08-spell-list.md#transform-mortal)|
+|[Spellcasting Global I](../06-abilities.md#spellcasting-global)||||
 |||||
 |[Foresight](../06-abilities.md#foresight)||||
 |[Bard Song IV](../06-abilities.md#bard-song-i-iv)||||
@@ -966,10 +980,6 @@ Foresight: +2
 |[Bind Beast VII](../06-abilities.md#bind-beast-i-x)||||
 |[Still Spell](../06-abilities.md#still-spell)|||A nymph/naiad can expend an MP die to cast a spell without kinetic components (if it has incantation components)|
 |[Low Light Vision](../06-abilities.md#low-light-vision)|||A nymph/naiad can see in dim light as well as in bright daylight.|
-|[Spellcasting Local: Water VII](../06-abilities.md#spellcasting-local)|Thr=22||Favourite Spells: [Least Hydromancy](../08-spell-list.md#least-hydromancy), [Mist](../08-spell-list.md#mist), [Water Snake](../08-spell-list.md#water-snake), [Sense Spell](../08-spell-list.md#sense-spell), [Summon Water Sprite](../08-spell-list.md#summon-water-sprite), [Water Ward](../08-spell-list.md#water-ward), [Aqueous Step](../08-spell-list.md#aqueous-step), [Scry](../08-spell-list.md#scry), [Mirage](../08-spell-list.md#mirage), [Flood](../08-spell-list.md#flood), [Heart Ward](../08-spell-list.md#heart-ward), [Inner Voice](../08-spell-list.md#inner-voice), [Transform Mortal](../08-spell-list.md#transform-mortal)|
-|[Spellcasting Local: Water VII](../06-abilities.md#spellcasting-local)|Thr=22||Favourite Spells: [Hide](../08-spell-list.md#hide), [Ensnare](../08-spell-list.md#ensnare), [Least Heal](../08-spell-list.md#least-heal), [Least Rest](../08-spell-list.md#least-rest), [Natural Xenophonia](../08-spell-list.md#natural-xenophonia), [Cure](../08-spell-list.md#cure), [Slumber](../08-spell-list.md#slumber), [Healing Seed](../08-spell-list.md#healing-seed), [Rejuvenate Land](../08-spell-list.md#rejuvenate-land), [Greater Fade](../08-spell-list.md#greater-fade), [Fairy Feast](../08-spell-list.md#fairy-feast), [Spirit Restoration](../08-spell-list.md#spirit-restoration), [Greater Weather Control](../08-spell-list.md#greater-weather-control), [Transform Mortal](../08-spell-list.md#transform-mortal)|
-|[Spellcasting Global I](../06-abilities.md#spellcasting-global)||||
-|||||
 |Immunity|||"stunned", "immobilised", "crippled", "bleeding", "poisoned", "paralysed" as well as "aphonia" and "deafened"|
 |Damage Immunity|||All physical Damage. The immunity to physical damage does not apply to damage caused by weapons made of iron or steel.|
 |Damage Resistance|||"Ice", "Div"|
@@ -983,6 +993,7 @@ ___
 Fey hounds, occasionally called "ghost hounds", are dark spirits of the hunt that are completely loyal to the hunt masters of the wild hunt. These hounds rejoice in the chase and in tormenting their prey once they close in. It should be noted that whatever their origins, these spirits are much wilier and more dangerous than wolves or dogs. They are particularly dangerous because they seldom lose the scent. In other words as long as the hound has your scent, the wild hunt will find you. And the hound will not lose its scent.
 
 **Size category**: Medium (5ft x 5ft)
+
 - Reach: 5ft
 - Carry capacity: (56lb light, 112lb medium, 280lb heavy, 420lb drag)
 ___
@@ -1008,8 +1019,8 @@ Deflection: +2
 |Bite|+5|1d6+2 Sh damage|Reach=5ft|
 |Grapple|+5|||
 |Trip|+5|||
+|Hypnotic Eyes|Thr=15||(Range=30ft) Expending 1 MP die a secondary action, a hound can make eye contact with a single target. The target must make a CHA save at the start of its turn, or become incapacitated. It may repeat the save at the start of each of its turns. Once a target succeeds on the save, it cannot be affected by this ability until the next dusk. A blind target is unaffected by the ability. A target that can close its eyes may voluntarily close its eyes as a reaction to avoid the effect (or as a non action on its turn), but is considered blind until the start of the hound's next turn.|
 |[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||A fey hound can combine two basic combat manoeuvres by expending 1 SP die.|
-|Hypnotic Eyes||Thr=15|(Range=30ft) Expending 1 MP die a secondary action, a hound can make eye contact with a single target. The target must make a CHA save at the start of its turn, or become incapacitated. It may repeat the save at the start of each of its turns. Once a target succeeds on the save, it cannot be affected by this ability until the next dusk. A blind target is unaffected by the ability. A target that can close its eyes may voluntarily close its eyes as a reaction to avoid the effect (or as a non action on its turn), but is considered blind until the start of the hound's next turn.|
 |||||
 |Keen Senses|||The fey hound has advantage on all observe rolls.|
 |[Low-light Vision](../06-abilities.md#low-light-vision)|||The hound can see in dim light as well as in bright daylight.|
@@ -1029,6 +1040,7 @@ ___
 The wild hunt is a phenomenon wherein fey associated with the more predatory side of nature gather under a huntsmaster, and following a ritual declares the prey for this hunt. The hunt will then continue until the prey is caught and sacrificed to the spirits of the primeval wild. While any being may become a hunter, most hunters are wild fey spirits devoted to the hunt. Each hunter generally drives half a dozen hounds. Sometimes hunters compete amongst each other, sometimes they cooperate to bring down the most dangerous of prey.
 
 **Size category**: Medium (5ft x 5ft)
+
 - Reach: 5ft
 - Carry capacity: (56lb light, 112lb medium, 280lb heavy, 420lb drag)
 ___
@@ -1076,6 +1088,7 @@ ___
 The wild hunt is a phenomenon wherein fey associated with the more predatory side of nature gather under a huntsmaster, and following a ritual declares the prey for this hunt. The huntsmaster is usually a minor fey lord, or at the very least an ancient fey. The huntsmaster leads the hunt in a ceremonial manner and serves to protect the hunt, be it to protect individual hunters, or to protect the hunt from hunters who have strayed from the strange code of ethics that governs the hunt, or from other beings that would seek to impede the hunt. Huntsmasters are an opponent seldom encountered, and an encounter seldom survived.
 
 **Size category**: Medium (5ft x 5ft)
+
 - Reach: 5ft
 - Carry capacity: (64lb light, 128lb medium, 320lb heavy, 480lb drag)
 ___
@@ -1101,10 +1114,12 @@ Hide Armour (fey source): +5
 |-|-|-|-|
 |Short Spear (fey source)|+19|1d6/10+9 [Pi/Pe]|Reach=5ft|
 |Composite Bow (fey source)|+19|1d8+9[Pi]|Range=1200ft, Increment=240ft|
+|[Precision Attack VI](../06-abilities.md#precision-attack-i-x)|+19|6d8|A huntsmaster can make a single attack as an attack action against a distracted target. On a hit this attack deals an extra 6d8 damage.|
 |Trip/Throw|+19|||
-|[Precision Attack VI](../06-abilities.md#precision-attack-i-x)||6d8|A huntsmaster can make a single attack as an attack action against a distracted target. On a hit this attack deals an extra 6d8 damage.|
 |Multi-attack II|||A huntsmaster can make 3 basic combat manoeuvres as an attack action|
-|||||
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
 |[Spellcasting Local: Nature VI](../06-abilities.md#spellcasting-local)|Thr=18||Favourite Spells: [Compass](../08-spell-list.md#compass), [Hide](../08-spell-list.md#hide), [Least Heal](../08-spell-list.md#least-heal), [Ensnare](../08-spell-list.md#ensnare), [Call Ailment](../08-spell-list.md#call-ailment), [Trace Secret Path](../08-spell-list.md#trace-secret-path), [Cure](../08-spell-list.md#cure), [Slumber](../08-spell-list.md#slumber), [Balance of Nature](../08-spell-list.md#balance-of-nature), [Rejuvenate Land](../08-spell-list.md#rejuvenate-land), [Healing Seed](../08-spell-list.md#healing-seed), [Greater Fade](../08-spell-list.md#greater-fade), [Lesser Cosmic Seal](../08-spell-list.md#greater-fade), [Fairy Feast](../08-spell-list.md#fairy-feast)|
 |||||
 |[Xenophonia VI](../06-abilities.md#xenophonia-i-xiii)|||A huntsmaster can communicate with all mortals and spirits|
@@ -1126,6 +1141,7 @@ ___
 At first glance easily mistaken for grigs, pixies or brownies, fairies are the epitome of what it is to be fey and are the materialisation the boundary of the natural and spirit world. Fairies often appear as tiny humanoids with insectoid wings. Fairies can communicate with all mortals and spirits. Fairies possess absurdly powerful magic, but often naive and gullible. For this reason tragedies involving fairies are not uncommon. When a fairy is deceived and killed, it may become a [Demon](profanes.md#demon-fire-or-ice) if an oak or lilly is not planted at the site of its demise before the next full moon. If a fairy is broken by torment or torture, it becomes a glitch of half of its original level.
 
 **Size category**: Tiny (5/4ft x 5/4ft)
+
 - Evade: +2, Armour -2
 - Reach: 0ft
 - [DEX save]: +2, [STR save]: -2
@@ -1152,28 +1168,28 @@ Deflection: +5
 |-|-|-|-|
 |[Elemental Touch: Light](../06-abilities.md#touch-elemental-touch)|+14|4d4+3||
 |[Elemental Blast: Light](../06-abilities.md#blast-elemental-blast)|+17|4d4+6||
-|[Greater Elemental Blast (Linear): Light](../06-abilities.md#elemental-blast-greater-linear)|+17|4d4+6||
-|[Greater Elemental Blast (Radial): Light](../06-abilities.md#circle)|+17|4d4+6||
+|[Elemental Blast (Linear): Light](../06-abilities.md#elemental-blast-greater-linear)|+17|4d4+6||
+|[Elemental Blast (Radial): Light](../06-abilities.md#circle)|+17|4d4+6||
 |||||
-|Fey Song|Thr=22||(2 MP die, range=60ft, instantaneous) A fairy's voice is a balm for the spirit. If a fairy expends 2 MP dice as a secondary action when singing, all mortals and spirits must succeed on a CHA save or become charmed for 8 hours. Entities below level 5 automatically fail the save. Entities above level 10 make the save at advantage. The charm is broken if the entity takes damage, receives the kiss of a mortal maiden, or eats a bitter leaf.|
-|||||
-|[Deflection](../06-abilities.md#deflection)||||
-|[Aphonic Spell](../06-abilities.md#aphonic-spell)|||A fairy may spend 1 MP dice to cast a spell without kinetic components|
-|[Still Spell](../06-abilities.md#still-spell)|||A fairy may spend 1 MP dice to cast a spell without kinetic components|
-|[Lingering Spell](../06-abilities.md#lingering-spell)|||A fairy can expend an extra 1 MP die when casting a spell and increase its duration by its base duration.|
-|[Spelldance IV](../06-abilities.md#spelldance-i-iv)||||
-|[Spellsong IV](../06-abilities.md#spellsong-i-iv)||||
-|||||
-|[Spellcasting Global VII](../06-abilities.md#spellcasting-global)||||
-|[Spellcasting Local: Incantation VII](../06-abilities.md#spellcasting-local)|+14|Thr=23|Favourites Include: [Least Ward](../08-spell-list.md#least-ward), [Least Heal](../08-spell-list.md#least-heal), [Promise](../08-spell-list.md#promise), [Cure](../08-spell-list.md#cure), [Summon Spirit](../08-spell-list.md#summon-spirit), [Isolate Essence](../08-spell-list.md#isolate-essence), [Spirit Restoration](../08-spell-list.md#spirit-restoration), [Memory Thief](../08-spell-list.md#memory-thief)|
-|[Spellcasting Local: Kinetic VII](../06-abilities.md#spellcasting-local)|+14|Thr=23|Favourites Include: [Hide](../08-spell-list.md#hide), [Spirits' Secret](../08-spell-list.md#spirits-secret), [Silence](../08-spell-list.md#silence), [Sea Spell](../08-spell-list.md#see-spell), [Mirage](../08-spell-list.md#mirage), [Gift of the Fates](../08-spell-list.md#gift-of-the-fates), [Madness](../08-spell-list.md#madness), [Transform Mortal](../08-spell-list.md#transform-mortal)|
-|[Spellcasting Local: Nature VII](../06-abilities.md#spellcasting-local)|+17|Thr=26|Favourites Include: [Sour](../08-spell-list.md#sour), [Ensnare](../08-spell-list.md#ensnare), [Least Rest](../08-spell-list.md#least-rest), [Animate Plant](../08-spell-list.md#animate-plant), [Rejuvenate Land](../08-spell-list.md#rejuvenate-land), [Greater Fade](../08-spell-list.md#greater-fade), [Fairy Feast](../08-spell-list.md#fairy-feast), [Create Secret Path](../08-spell-list.md#create-secret-path)|
+|[Spellcasting: Incantation VII](../06-abilities.md#spellcasting-local)|+14|Thr=23|Favourites Include: [Least Ward](../08-spell-list.md#least-ward), [Least Heal](../08-spell-list.md#least-heal), [Promise](../08-spell-list.md#promise), [Cure](../08-spell-list.md#cure), [Summon Spirit](../08-spell-list.md#summon-spirit), [Isolate Essence](../08-spell-list.md#isolate-essence), [Spirit Restoration](../08-spell-list.md#spirit-restoration), [Memory Thief](../08-spell-list.md#memory-thief)|
+|[Spellcasting: Kinetic VII](../06-abilities.md#spellcasting-local)|+14|Thr=23|Favourites Include: [Hide](../08-spell-list.md#hide), [Spirits' Secret](../08-spell-list.md#spirits-secret), [Silence](../08-spell-list.md#silence), [Sea Spell](../08-spell-list.md#see-spell), [Mirage](../08-spell-list.md#mirage), [Gift of the Fates](../08-spell-list.md#gift-of-the-fates), [Madness](../08-spell-list.md#madness), [Transform Mortal](../08-spell-list.md#transform-mortal)|
+|[Spellcasting: Nature VII](../06-abilities.md#spellcasting-local)|+17|Thr=26|Favourites Include: [Sour](../08-spell-list.md#sour), [Ensnare](../08-spell-list.md#ensnare), [Least Rest](../08-spell-list.md#least-rest), [Animate Plant](../08-spell-list.md#animate-plant), [Rejuvenate Land](../08-spell-list.md#rejuvenate-land), [Greater Fade](../08-spell-list.md#greater-fade), [Fairy Feast](../08-spell-list.md#fairy-feast), [Create Secret Path](../08-spell-list.md#create-secret-path)|
 |[Forbidden Spell](../08-spell-list.md#undying-realm)|+14||Thr=27|
 |[High Arcana: Mage's Oath](../08-spell-list.md#mages-oath)|+14||Thr=27|
 |[High Arcana: Greater Cosmic Seal](../08-spell-list.md#greater-cosmic-seal)|||Thr=27|
 |[High Arcana: Regrowth](../08-spell-list.md#regrowth)|||Thr=27|
 |[High Arcana: Fairy Ball](../08-spell-list.md#fairy-ballmasquerade)|||Thr=27|
 |[High Arcana: Edict of Life](../08-spell-list.md#edict-of-life)|||Thr=27|
+|||||
+|Fey Song|Thr=22||(2 MP die, range=60ft, instantaneous) A fairy's voice is a balm for the spirit. If a fairy expends 2 MP dice as a secondary action when singing, all mortals and spirits must succeed on a CHA save or become charmed for 8 hours. Entities below level 5 automatically fail the save. Entities above level 10 make the save at advantage. The charm is broken if the entity takes damage, receives the kiss of a mortal maiden, or eats a bitter leaf.|
+|||||
+|[Spellcasting Global VII](../06-abilities.md#spellcasting-global)||||
+|[Deflection](../06-abilities.md#deflection)||||
+|[Aphonic Spell](../06-abilities.md#aphonic-spell)|||A fairy may spend 1 MP dice to cast a spell without kinetic components|
+|[Still Spell](../06-abilities.md#still-spell)|||A fairy may spend 1 MP dice to cast a spell without kinetic components|
+|[Lingering Spell](../06-abilities.md#lingering-spell)|||A fairy can expend an extra 1 MP die when casting a spell and increase its duration by its base duration.|
+|[Spelldance IV](../06-abilities.md#spelldance-i-iv)||||
+|[Spellsong IV](../06-abilities.md#spellsong-i-iv)||||
 |||||
 |[Low Light Vision](../06-abilities.md#low-light-vision)|||A fairy can see in moonlight, starlight or other weak sources of light as if it was bright daylight.|
 |[Life Sense IV](../06-abilities.md#life-sense-i-v)|||A fairy can sense and pinpoint locations of living beings within 60ft of itself|
@@ -1194,6 +1210,7 @@ ___
 Wisps are spirits associated with swamps. They take the form of glowing orbs and tend to lure travellers off safe paths and to their deaths.
 
 **Size category**: Small (5/2ft x 5/2ft)
+
 - Evade: +1, Armour -1
 - Reach: 5ft
 - [DEX save]: +1, [STR save]: -1
@@ -1220,9 +1237,9 @@ Deflection: +2
 |-|-|-|-|
 |[Elemental Touch: Ice](../06-abilities.md#touch-elemental-touch)|+8|2d6+2||
 |[Elemental Touch: Lightning](../06-abilities.md#blast-elemental-blast)|+8|2d4+2||
-|Illuminated|||A wisp sheds a dim light within 20ft, that is visible from 2 miles away.|
 |||||
 |Spirit Drain|Thr=21||When a wisp causes HP damage to a target, it regains MP equal to the damage dealt. If it is already at full MP, it gains a temporary boost to its INT equal to half of the damage dealt, for 1 minute.|
+|Illuminated|||A wisp sheds a dim light within 20ft, that is visible from 2 miles away.|
 |||||
 |Skills|||"Observe" +8, "Fly" +12|
 |||||

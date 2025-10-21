@@ -52,6 +52,7 @@
   },
   columns: 1,
 )
+#set align(left)
 #set par(
   justify: true,
   leading: 0.72em,
@@ -65,7 +66,7 @@
 )
 // #set figure(align: horizon + start)
 #set table(
-  align: horizon + start,
+  align: start,
   stroke: (x, y) => {
     (
       top: if y < 2 { black + 1.2pt } else { luma(90) + 0.7pt },
@@ -76,6 +77,15 @@
   },
 )
 #show table.cell.where(y: 0): strong
+
+#show figure: set block(breakable: true)
+#show figure: it => align(left)[
+  #it.body
+  // #v(10pt, weak: true)
+  // if #it.caption {
+  // #emph[#it.supplement #it.counter.display(it.numbering)]: #it.caption
+  // }
+]
 
 #show link: content => {
   underline(text(blue, content))

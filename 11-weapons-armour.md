@@ -7,6 +7,9 @@ Weapons and armour an essential part of any combat heavy table top RPG system. W
     - [Ranged Weapons, collateral and melee](#ranged-weapons-collateral-and-melee)
     - [Range increments](#range-increments)
     - [High ground and weapon ranges](#high-ground-and-weapon-ranges)
+    - [Two handed and two weapon fighting](#two-handed-and-two-weapon-fighting)
+      - [Two handed weapons](#two-handed-weapons)
+      - [Offhand fighting](#offhand-fighting)
     - [Weapon properties](#weapon-properties)
     - [Weapon proficiencies](#weapon-proficiencies)
     - [Improvised weapons](#improvised-weapons)
@@ -96,6 +99,29 @@ When using melee weapons, attacking from high ground gives advantage, attacking 
 When using ranged weapons, attacking upwards more than 45 degrees halves the range increment and multiplies total range by 3/4. Attacking downwards more than 45 degrees doubles the range increment, however does not increase effective range (an arrow dropped from a plane will hit the ground, but is almost impossible to aim accurately).
 
 As an **optional** rule: Weapons fired downwards beyond the weapon range are aimed at a square (HiT = 10 + number of range increments). If the attack hits the square, the target makes a Dex save vs the attackers NAT (not NAP, NAT) without modifiers. On a successful save, the attack does damage.
+
+___
+### Two handed and two weapon fighting
+
+Weapons that are wielded in one hand are called "one-handed" weapons. Weapons that are made to be wielded in two or more hands (or other prehensile limbs) are called "two-handed" weapons. This kind of weapon is usually larger, heavier, harder to conceal and does more damage. Weapons that can be wielded with one or two hands are not considered to be two-handed (eg longswords, battle axes, spears and staves), but do use a bigger damage die when wielded with two hands. To use a weapon with two or more hands, a character must have the requisite number of available hands.
+
+___
+#### Two handed weapons
+
+Two-handed weapons must be wielded with two or more hands to be used effectively. Attacks made with a two-handed weapon using only one hand are made at a -4 penalty. Attacks made with a two-handed weapon with the "heavy" property, longbows and greatbows, deal an additional [STR]/2 damage (rounded down) when wielded with two hands by a character with STR of at least 14.
+
+A character can switch from a two-handed grip to a one-handed grip on a weapon as a free action. However, switching back to a two-handed grip is a ["minor interaction"](04-combat.md#actions-in-combat).
+
+___
+#### Offhand fighting
+
+A character with two hands can hold a one-handed weapon in each hand. If the character has made an attack as a "main action" with one weapon, it can may be able to make an additional "offhand attack" as a "secondary action".
+
+- The character can normally make a single "offhand attack" with a "light" weapon at a -4 penalty to attack and no stat bonus ([DEX] or [STR]) to damage.
+- If the character has the ["multi-attack"](06-abilities.md#multi-attack-i-iii) ability, then it can add its stat bonus to the offhand attack.
+- It the character has ["offhand fighting"](06-abilities.md#offhand-fighting-i-iv) ability, it adds its stat bonus to the damage, and does not take the penalty to the attack roll when making an offhand attack with a "light" weapon. It can instead use a weapon without the "light" property to make the attack, in which case it does take a -4 to the attack roll. Furthermore, it can make a number of attacks with the offhand weapon equal to its "offhand fighting" ability level as its offhand attack.
+
+An entity with more than two hands might be able to hold more than two weapons. In this case, all but the main weapon are considered to be offhand weapons. In this case the number of offhand or other attacks does not increase. However, if it has multiple offhand attacks, it can distribute them between its offhand weapons as it sees fit.
 
 ___
 ### Weapon properties

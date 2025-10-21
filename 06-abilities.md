@@ -1567,7 +1567,7 @@ ___
 
 **Original state**: A character can make one attack, or use a single basic combat manoeuvre with a "main action".
 
-**Special:** A character with "Multi-attack I" or better can make a single offhand attack (regardless of "Multi-attack" level) with a light weapon, but takes a -4 penalty to the attack roll.
+**Special:** In addition to increasing the number of attacks they make as an "attack" action, a character with "Multi-attack I" or better can add the governing stat bonus to damage when making an [offhand attack](11-weapons-armour.md#offhand-fighting), even if they do not have "Offhand fighting". They still make such an attack with a -4 penalty to the attack roll.
 
 **Prerequisite table**: This ability can be taken more than once. Each time, the minimum "base" and SP dice requirements must be met.
 |Number of attacks|Minimum Base|Minimum SP dice|Ability name|
@@ -1593,9 +1593,9 @@ ___
 ___
 #### Offhand fighting I-IV
 
-**Description**: Make one or more addition attacks with an offhand weapon with the "light" property as a "secondary" action when you make one or more attacks as a "basic martial manoeuvre: attack" with a one handed weapon as your "main action".
+**Description**: Make one or more additional attacks with an offhand weapon with the "light" property as a "secondary" action when making one or more attacks as a "basic martial manoeuvre: attack" with a one handed weapon (as your "main action"). You can also make offhand attacks with a weapon that isn't "light", but you take a -4 penalty to the attack roll.
 
-**Original state**: A character cannot make offhand attacks unless they have "Multi-attack I" or better. A character with "Multi-attack I" or better can make a single offhand attack (regardless of "Multi-attack" level) with a light weapon, but takes a -4 penalty to the attack roll.
+**Original state**: A character can make a single offhand attack with a light weapon as a "secondary action". Even so it takes a -4 penalty to the attack and does not add the governing stat modifier to the damage. A character with "Multi-attack I" has the same limitations, but adds its governing stat modifier to the damage.
 
 **Special**:
 - You can make no more offhand attacks than you made main attacks on a turn.

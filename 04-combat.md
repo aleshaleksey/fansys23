@@ -586,12 +586,12 @@ This is a collection of unsorted rules related to basic physical combat.
 - Ranged attacks cannot be made non-lethal unless otherwise stated in for a specific type of ranged attack.
 - Supernatural attacks are generally lethal, unless otherwise stated for the specific attack. Optionally, a group may rule that it may be made non-lethal with a [spellworking](05-skills.md#spellworking) roll (Threshold = **20 + [MP dice used]**).
 
-
-
 ___
 #### Basic Martial Manoeuvres
 
-Any combatant may attempt a martial manoeuvre. If a combatant is not proficient in a given manoeuvre, they take a -5 penalty to the attack roll. They might also risk attacks of opportunity and other penalties. All combatants are considered proficient in the "attack" manoeuvre (but not necessarily with the weapons used to make an attack). Many monsters can carry out these manoeuvres without penalties or meeting the prerequisites. Special abilities and weapons/tools can reduce or remove penalties for manoeuvres or increase their effectiveness. Most manoeuvres are made as an attack within the attack action.
+Any combatant may attempt a martial manoeuvre. If a combatant is not proficient in a given manoeuvre, they take a -5 penalty to the attack roll. They might also risk attacks of opportunity and other penalties. All combatants are considered proficient in the "attack" manoeuvre (but not necessarily with the weapons used to make an attack). Many monsters can carry out these manoeuvres without penalties or meeting the prerequisites.
+
+Special abilities and weapons/tools can reduce or remove penalties for manoeuvres or increase their effectiveness. Most manoeuvres are made as an attack within the attack action, which is fundamentally a "main action". However, they can also be carried out as part of an attack of opportunity ("reaction"), or as an offhand attack when making an attack action (which also consumed one's "secondary action"). For more more information see the "Weapons and armour: ["Weapons"](11-weapons-armour.md#weapons)" and ["Two handed and two weapon fighting"](11-weapons-armour.md#weapons#two-handed-and-two-weapon-fighting) sections of ["Weapons and armour"](11-weapons-armour.md).
 
 - The penalty for using a manoeuvre or attack without proficiency, if there is one, is -5 to the roll.
 - **Size dependent**: For some manoeuvres, if the target is larger than the attacker, there is a -2 penalty for every size category by which they differ. If the attacker is more than 2 size categories larger than the attacker, the manoeuvre cannot be applied. Lastly, for these manoeuvres, the attacker gains a +4 bonus for every size category by which it is larger than the target.

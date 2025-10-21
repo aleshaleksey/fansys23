@@ -317,8 +317,8 @@ Size: Small +1/-1
 |Combined Maneuver I||||
 |Monster Attack I|||A lesser undine can make 2 attacks with "water bullet"|
 |||||
-|Spellcasting: Incantation III|||Favourites are: "Least Heal", "Lesser Veil", "Cure"|
-|Spellcasting: Water IV|||Favourites are: "Balance of Elements", "Water Ward", "Least Transformation", "Summon Water sprite", "Water Snake", "Mist"|
+|Sc: Incantation III|||Favourites are: "Least Heal", "Lesser Veil", "Cure"|
+|Sc: Water IV|||Favourites are: "Balance of Elements", "Water Ward", "Least Transformation", "Summon Water sprite", "Water Snake", "Mist"|
 |Skills|||"Creature Handling" +9, "Spellworking" +7, "Observe" + 7, "K: Arcana" +6, "Heal" +5, "Swim" +6, "K:History" +5, "K:Nature" +4|
 |Resistance|||"Ice"|
 |Immunity|||"Physical"|
@@ -357,8 +357,8 @@ Size: Medium
 |Combined Manoeuvre I||||
 |Monster Attack (II)|||The greater undine makes up to 3 attacks with tendrils or water bullet|
 |Call Sprites|||A greater undine use its "communicate action" to call 3d6 water sprites, which appear in 1d4 turns. The sprites are loyal to the undine and remain until dismissed.|
-|Spellcasting: Incantation V|||Favourites are: "Least Heal", "Lesser Veil", "Cure", "Balance of Elements", "Summon spirit" and "Pact"|
-|Spellcasting: Water VII|||Favourites are: "Balance of Elements", "Water Ward", "Least Transformation", "Summon Water sprite", "Water Snake", "Mist", "Transform Mortal"|
+|Sc: Incantation V|||Favourites are: "Least Heal", "Lesser Veil", "Cure", "Balance of Elements", "Summon spirit" and "Pact"|
+|Sc: Water VII|||Favourites are: "Balance of Elements", "Water Ward", "Least Transformation", "Summon Water sprite", "Water Snake", "Mist", "Transform Mortal"|
 |Skills|||"Creature Handling" +14, "Spellworking" +12, "Observe" +12, "K: Arcana" +11, "Heal" +10, "Swim" +10, "K:History" +9, "K:Nature" +9, "K:Religion +9", "Sense Motive: +8", "Perform: +13"|
 |Resistance|||"Ice"|
 |Immunity|||"Physical"|
@@ -406,15 +406,15 @@ A Ifrit is can make two basic combat manoeuvres, or an elemental blast/touch as 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Flaming form||1d6|Entities within 5ft of a lesser Ifrit at the end of their turn, and those that touch/succeed in a "close" range attack against the greater Ifrit take 1d6 damage.|
-|Berserk II||||
 |Debilitating Strike|Thr=18||Blinded, 1 SP dice|
+|Berserk II||||
 |Parry|||An Ifrit can add +2 to HiT vs up to 4 attacks by sacrificing its reaction.|
 |[Cursed Blood](../06-abilities.md#cursed-blood)|||An Ifrit can invoke curses upon foes that spill its "blood"|
 |[Spelldance II](../06-abilities.md#spelldance-i-iv)|||An Ifrit can both obfuscate and alter spells with its dance.|
 |||||
-|Spellcasting: Fire IV|||Favourites: ["Meadow of Flame"](../08-spell-list.md#meadow-of-flame), ["Melt"](../08-spell-list.md#melt), ["Command Mortal"](../08-spell-list.md#command-mortal), ["Speak Through Flame"](../08-spell-list.md#speak-through-flame), ["Flame Stride"](../08-spell-list.md#flame-stride)|
-|Spellcasting: Kinetic III|||Favourites: ["Whispers"](../08-spell-list.md#whispers), ["Spirits' Secret"](../08-spell-list.md#spirits-secret), ["Call Ailment"](../08-spell-list.md#call-ailment), ["Illusory Self"](../08-spell-list.md#illusory-self), ["Least Curse"](../08-spell-list.md#least-curse)|
-|Spellcasting: Global I||||
+|Sc: Fire IV|||Favourites: ["Meadow of Flame"](../08-spell-list.md#meadow-of-flame), ["Melt"](../08-spell-list.md#melt), ["Command Mortal"](../08-spell-list.md#command-mortal), ["Speak Through Flame"](../08-spell-list.md#speak-through-flame), ["Flame Stride"](../08-spell-list.md#flame-stride)|
+|Sc: Kinetic III|||Favourites: ["Whispers"](../08-spell-list.md#whispers), ["Spirits' Secret"](../08-spell-list.md#spirits-secret), ["Call Ailment"](../08-spell-list.md#call-ailment), ["Illusory Self"](../08-spell-list.md#illusory-self), ["Least Curse"](../08-spell-list.md#least-curse)|
+|Sc: Global I||||
 |Immunity|||"Physical", "Fir"|
 |Immunity|||"Restrained", "Surprised", "Helpless", "Dying", "Stunned", "Immobilised", "crippled", "bleeding", "Paralysed"|
 |Vulnerability|||"Lit[sup]"|
@@ -470,9 +470,9 @@ A Greater Ifrit is can make two basic combat manoeuvres, or an elemental blast/t
 |[Cursed Blood](../06-abilities.md#cursed-blood)|||A greater Ifrit can invoke curses upon foes that spill its "blood"|
 |[Spelldance III](../06-abilities.md#spelldance-i-iv)|||A greater Ifrit can both obfuscate and alter spells with its dance.|
 |||||
-|Spellcasting: Fire VI|||Favourites: ["Meadow of Flame"](../08-spell-list.md#meadow-of-flame), ["Melt"](../08-spell-list.md#melt), ["Command Mortal"](../08-spell-list.md#command-mortal), ["Speak Through Flame"](../08-spell-list.md#speak-through-flame), ["Flame Stride"](../08-spell-list.md#flame-stride), ["Madness"](../08-spell-list.md#madness), ["Summon Elemental"](../08-spell-list.md#summon-elemental), ["Forest of Flame"](../08-spell-list.md#forest-of-flame)|
-|Spellcasting: Kinetic III|||Favourites: ["Whispers"](../08-spell-list.md#whispers), ["Spirits' Secret"](../08-spell-list.md#spirits-secret), ["Call Ailment"](../08-spell-list.md#call-ailment), ["Illusory Self"](../08-spell-list.md#illusory-self), ["Least Curse"](../08-spell-list.md#least-curse)|
-|Spellcasting: Global I||||
+|Sc: Fire VI|||Favourites: ["Meadow of Flame"](../08-spell-list.md#meadow-of-flame), ["Melt"](../08-spell-list.md#melt), ["Command Mortal"](../08-spell-list.md#command-mortal), ["Speak Through Flame"](../08-spell-list.md#speak-through-flame), ["Flame Stride"](../08-spell-list.md#flame-stride), ["Madness"](../08-spell-list.md#madness), ["Summon Elemental"](../08-spell-list.md#summon-elemental), ["Forest of Flame"](../08-spell-list.md#forest-of-flame)|
+|Sc: Kinetic III|||Favourites: ["Whispers"](../08-spell-list.md#whispers), ["Spirits' Secret"](../08-spell-list.md#spirits-secret), ["Call Ailment"](../08-spell-list.md#call-ailment), ["Illusory Self"](../08-spell-list.md#illusory-self), ["Least Curse"](../08-spell-list.md#least-curse)|
+|Sc: Global I||||
 |Immunity|||"Physical", "Fir"|
 |Immunity|||"Restrained", "Surprised", "Helpless", "Dying", "Stunned", "Immobilised", "crippled", "bleeding", "Paralysed"|
 |Vulnerability|||"Lit[sup]"|
@@ -512,8 +512,8 @@ Evasion:+3
 |Blast|+8|1d12+1 Pr[sup]|Range=60ft. An entity hit by a djinn's blast must succeed a Thr=18 STR save or be knocked back 15ft|
 |Great Blast|+8|1d12+1|A djinn can expend SP dice to give the blast an area of effect of 10ft/SP die expended (max=3), all entities in range other than the original target must make a Thr=18 STR save or also suffer the damage AND be knocked back 15ft|
 |||||
-|[Spellcasting Local: Incantation III](../06-abilities.md#spellcasting-local)|||Favourites are: [Sour](../08-spell-list.md#sour), [Least Vengeance](../08-spell-list.md#least-vengeance), [Promise](../08-spell-list.md#promise), [Cure](../08-spell-list.md#cure)|
-|[Spellcasting Local: Air IV](../06-abilities.md#spellcasting-local)|||Favourites: [Least Anemancy](../08-spell-list.md#least-anemancy), [Spirits' Secret](../08-spell-list.md#spirits-secret), [Summon Wind Sprite](../08-spell-list.md#summon-wind-sprite), [See Spell](../08-spell-list.md#see-spell), [Least Storm](../08-spell-list.md#least-storm)|
+|[Sc: Incantation III](../06-abilities.md#spellcasting-local)|||Favourites are: [Sour](../08-spell-list.md#sour), [Least Vengeance](../08-spell-list.md#least-vengeance), [Promise](../08-spell-list.md#promise), [Cure](../08-spell-list.md#cure)|
+|[Sc: Air IV](../06-abilities.md#spellcasting-local)|||Favourites: [Least Anemancy](../08-spell-list.md#least-anemancy), [Spirits' Secret](../08-spell-list.md#spirits-secret), [Summon Wind Sprite](../08-spell-list.md#summon-wind-sprite), [See Spell](../08-spell-list.md#see-spell), [Least Storm](../08-spell-list.md#least-storm)|
 |||||
 |Immunity|||"Physical", "Lit"|
 |Immunity|||"Restrained", "Surprised", "Helpless", "Dying", "Stunned", "Immobilised", "crippled", "bleeding", "Paralysed"|
@@ -546,8 +546,8 @@ Evasion:+3
 |Multi-attack I|||A djinn can make 2 blast attacks.|
 |Call Sprites|||A greater undine use its "communicate action" to call 3d6 water sprites, which appear in 1d4 turns. The sprites are loyal to the undine and remain until dismissed.|
 |||||
-|[Spellcasting Local: Incantation V](../06-abilities.md#spellcasting-local)|||Favourites are: [Sour](../08-spell-list.md#sour), [Least Vengeance](../08-spell-list.md#least-vengeance), [Promise](../08-spell-list.md#promise), [Cure](../08-spell-list.md#cure), [Greater Xenophonia](../08-spell-list.md#cure), [Pact](../08-spell-list.md#pact)|
-|[Spellcasting Local: Air VII](../06-abilities.md#spellcasting-local)|||Favourites: [Least Anemancy](../08-spell-list.md#least-anemancy), [Spirits' Secret](../08-spell-list.md#spirits-secret), [Summon Wind Sprite](../08-spell-list.md#summon-wind-sprite), [See Spell](../08-spell-list.md#see-spell), [Least Storm](../08-spell-list.md#least-storm), [Greater Storm Ward](../08-spell-list.md#greater-storm-ward), [Greater Weather Control](../08-spell-list.md#greater-weather-control)|
+|[Sc: Incantation V](../06-abilities.md#spellcasting-local)|||Favourites are: [Sour](../08-spell-list.md#sour), [Least Vengeance](../08-spell-list.md#least-vengeance), [Promise](../08-spell-list.md#promise), [Cure](../08-spell-list.md#cure), [Greater Xenophonia](../08-spell-list.md#cure), [Pact](../08-spell-list.md#pact)|
+|[Sc: Air VII](../06-abilities.md#spellcasting-local)|||Favourites: [Least Anemancy](../08-spell-list.md#least-anemancy), [Spirits' Secret](../08-spell-list.md#spirits-secret), [Summon Wind Sprite](../08-spell-list.md#summon-wind-sprite), [See Spell](../08-spell-list.md#see-spell), [Least Storm](../08-spell-list.md#least-storm), [Greater Storm Ward](../08-spell-list.md#greater-storm-ward), [Greater Weather Control](../08-spell-list.md#greater-weather-control)|
 |||||
 |Immunity|||"Physical", "Lit"|
 |Immunity|||"Restrained", "Surprised", "Helpless", "Dying", "Stunned", "Immobilised", "crippled", "bleeding", "Paralysed"|
@@ -582,8 +582,8 @@ Armour:+5
 |[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||An earth elemental can combine two basic combat manoeuvres by expending 1 SP die.|
 |[Multi-attack I](../06-abilities.md#multi-attack-i-iii)|||An earth elemental can attempt two separate attacks/basic combat manoeuvres as an attack action|
 |||||
-|[Spellcasting Local: Kinetic III](../06-abilities.md#spellcasting-local)|||Favourites are: [Mist](../08-spell-list.md#mist), [Spirits' Secret](../08-spell-list.md#spirits-secret), [Silence](../08-spell-list.md#silence), [Blessing of the Fates](../08-spell-list.md#blessing-of-the-fates)|
-|[Spellcasting Local: Earth IV](../06-abilities.md#spellcasting-local)|||Favourites are: [Down](../08-spell-list.md#down), [Shape Earth](../08-spell-list.md#shape-earth), [Warded Ground](../08-spell-list.md#warded-ground), [Earth Ward](../08-spell-list.md#earth-ward), [Animate Golem](../08-spell-list.md#animate-golem)|
+|[Sc: Kinetic III](../06-abilities.md#spellcasting-local)|||Favourites are: [Mist](../08-spell-list.md#mist), [Spirits' Secret](../08-spell-list.md#spirits-secret), [Silence](../08-spell-list.md#silence), [Blessing of the Fates](../08-spell-list.md#blessing-of-the-fates)|
+|[Sc: Earth IV](../06-abilities.md#spellcasting-local)|||Favourites are: [Down](../08-spell-list.md#down), [Shape Earth](../08-spell-list.md#shape-earth), [Warded Ground](../08-spell-list.md#warded-ground), [Earth Ward](../08-spell-list.md#earth-ward), [Animate Golem](../08-spell-list.md#animate-golem)|
 |||||
 |Immunity|||"Physical", "Lig"|
 |Immunity|||"Restrained", "Surprised", "Helpless", "Dying", "Stunned", "Immobilised", "crippled", "bleeding", "Paralysed"|
@@ -618,8 +618,8 @@ Armour:+7
 |[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||An earth elemental can combine two basic combat manoeuvres by expending 1 SP die.|
 |[Multi-attack II](../06-abilities.md#multi-attack-i-iii)|||An earth elemental can attempt three separate attacks/basic combat manoeuvres as an attack action|
 |||||
-|[Spellcasting Local: Kinetic V](../06-abilities.md#spellcasting-local)|||Favourites are: [Mist](../08-spell-list.md#mist), [Spirits' Secret](../08-spell-list.md#spirits-secret), [Silence](../08-spell-list.md#silence), [Blessing of the Fates](../08-spell-list.md#blessing-of-the-fates), [Gift of the Fates](../08-spell-list.md#gift-of-the-fates), [Plague](../08-spell-list.md#plague)|
-|[Spellcasting Local: Earth VII](../06-abilities.md#spellcasting-local)|||Favourites are: [Down](../08-spell-list.md#down), [Shape Earth](../08-spell-list.md#shape-earth), [Warded Ground](../08-spell-list.md#warded-ground), [Earth Ward](../08-spell-list.md#earth-ward), [Animate Golem](../08-spell-list.md#animate-golem), [False Regrowth](../08-spell-list.md#false-regrowth), [Portal](../08-spell-list.md#portal)|
+|[Sc: Kinetic V](../06-abilities.md#spellcasting-local)|||Favourites are: [Mist](../08-spell-list.md#mist), [Spirits' Secret](../08-spell-list.md#spirits-secret), [Silence](../08-spell-list.md#silence), [Blessing of the Fates](../08-spell-list.md#blessing-of-the-fates), [Gift of the Fates](../08-spell-list.md#gift-of-the-fates), [Plague](../08-spell-list.md#plague)|
+|[Sc: Earth VII](../06-abilities.md#spellcasting-local)|||Favourites are: [Down](../08-spell-list.md#down), [Shape Earth](../08-spell-list.md#shape-earth), [Warded Ground](../08-spell-list.md#warded-ground), [Earth Ward](../08-spell-list.md#earth-ward), [Animate Golem](../08-spell-list.md#animate-golem), [False Regrowth](../08-spell-list.md#false-regrowth), [Portal](../08-spell-list.md#portal)|
 |||||
 |Immunity|||"Physical", "Lig"|
 |Immunity|||"Restrained", "Surprised", "Helpless", "Dying", "Stunned", "Immobilised", "crippled", "bleeding", "Paralysed"|
@@ -672,7 +672,7 @@ Deflection: +1
 |||||
 |Fey Song|Thr=16||(2 MP die, range=60ft, instantaneous) A faun's voice, much like a fairy's, is a balm for the spirit. If a faun expends 2 MP dice as a secondary action when singing, all mortals and spirits must succeed on a CHA save or become charmed for 8 hours. Entities below level 5 automatically fail the save. Entities above level 10 make the save at advantage. The charm is broken if the entity takes damage, receives the kiss of a mortal maiden, or eats a bitter leaf.|
 |||||
-|Spellcasting Local: Incantation I|Thr=19||Favourite Spells: [Down](../08-spell-list.md#down),  [Sour](../08-spell-list.md#sour),  [Least Heal](../08-spell-list.md#least-heal)|
+|Sc: Incantation I|Thr=19||Favourite Spells: [Down](../08-spell-list.md#down),  [Sour](../08-spell-list.md#sour),  [Least Heal](../08-spell-list.md#least-heal)|
 |[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||A faun can expend 1 SP die to combine two basic combat manoeuvres|
 |[Greater Manoeuvre I](../06-abilities.md#greater-manoeuvre-i-v)|||A faun's combat manoeuvres affect entities up to the size of "huge"|
 |||||
@@ -718,8 +718,8 @@ Deflection: +1
 |Dagger|+6|1d4+2|Reach=5ft (usually), Range=60ft, Increment=10ft|
 |Scimitar|+6|1d6+2|Reach=5ft (usually)|
 |||||
-|[Spellcasting Local: Nature III](../06-abilities.md#spellcasting-local)|Thr=16||Favourite Spells:  [Compass](../08-spell-list.md#compass), [Hide](../08-spell-list.md#hide), [Bear's Claws](../08-spell-list.md#bears-claws), [Summon Beast](../08-spell-list.md#summon-beast), [Call Ailment](../08-spell-list.md#call-ailment), [Trace Secret Path](../08-spell-list.md#trace-secret-path), [Fairy Shelter](../08-spell-list.md#fairy-shelter)|
-|[Spellcasting Local: Kinetic II](../06-abilities.md#spellcasting-local)|Thr=16||Favourite Spells: [Mist](../08-spell-list.md#mist), [Silent](../08-spell-list.md#silent), [Spirits' Secret](../08-spell-list.md#spirits-secret), [Lesser Illusory Self](../08-spell-list.md#lesser-illusory-self), [Silence](../08-spell-list.md#silence)|
+|[Sc: Nature III](../06-abilities.md#spellcasting-local)|Thr=16||Favourite Spells:  [Compass](../08-spell-list.md#compass), [Hide](../08-spell-list.md#hide), [Bear's Claws](../08-spell-list.md#bears-claws), [Summon Beast](../08-spell-list.md#summon-beast), [Call Ailment](../08-spell-list.md#call-ailment), [Trace Secret Path](../08-spell-list.md#trace-secret-path), [Fairy Shelter](../08-spell-list.md#fairy-shelter)|
+|[Sc: Kinetic II](../06-abilities.md#spellcasting-local)|Thr=16||Favourite Spells: [Mist](../08-spell-list.md#mist), [Silent](../08-spell-list.md#silent), [Spirits' Secret](../08-spell-list.md#spirits-secret), [Lesser Illusory Self](../08-spell-list.md#lesser-illusory-self), [Silence](../08-spell-list.md#silence)|
 |[Spellcasting Global I](../06-abilities.md#spellcasting-global)||||
 |||||
 |[Parry](../06-abilities.md#parry)|||A changeling can add +2 to HiT against up to two weapon attacks by sacrificing its reaction|
@@ -814,8 +814,8 @@ Deflection: +1
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |[Elemental Touch: Light](../06-abilities.md#touch-elemental-touch)|+3|1d4+1 Lit[sup]|Reach=0ft|
-|[Spellcasting Local: Incantation I](../06-abilities.md#spellcasting-local)|Thr=15||Favourite Spells: [Least Ward](../08-spell-list.md#least-ward), [Least Heal](../08-spell-list.md#least-heal)|
-|[Spellcasting Local: Kinetic I](../06-abilities.md#spellcasting-local)|Thr=15||Favourite Spells: [Hide](../08-spell-list.md#hide), [Spirits' Secret](../08-spell-list.md#spirits-secret)|
+|[Sc: Incantation I](../06-abilities.md#spellcasting-local)|Thr=15||Favourite Spells: [Least Ward](../08-spell-list.md#least-ward), [Least Heal](../08-spell-list.md#least-heal)|
+|[Sc: Kinetic I](../06-abilities.md#spellcasting-local)|Thr=15||Favourite Spells: [Hide](../08-spell-list.md#hide), [Spirits' Secret](../08-spell-list.md#spirits-secret)|
 |||||
 |[Low-light Vision](../06-abilities.md#low-light-vision)|||A brownie can see even in starlight, and other low light conditions, as if it was daylight.|
 |[Fleet](../06-abilities.md#fleet)|||A brownie can stealth even in light cover.|
@@ -865,9 +865,9 @@ Deflection: +2
 |Pixie Shortbow|+10|1d2+6|(Range=600ft, Increment=120ft) The bow counts as having a fey source material|
 |[Precision Attack I](../06-abilities.md#precision-attack-i-x)|+5||A pixie deals an extra 1d8 damage with its bow if its target is "surprised: or otherwise unaware, within the first range increment.|
 |||||
-|[Spellcasting Local: Incantation I](../06-abilities.md#spellcasting-local)|Thr=15||Favourite Spells: [Least Anemancy](../08-spell-list.md#least-anemancy), [Headwind](../08-spell-list.md#least-heal)|
-|[Spellcasting Local: Kinetic II](../06-abilities.md#spellcasting-local)|Thr=15||Favourite Spells: [Hide](../08-spell-list.md#hide), [Lesser Illusory Self](../08-spell-list.md#lesser-illusory-self), [Least Transformation](../08-spell-list.md#least-transformation)|
-|[Spellcasting Local: Nature III](../06-abilities.md#spellcasting-local)|Thr=15||Favourite Spells: [Sour](../08-spell-list.md#sour), , [Fade](../08-spell-list.md#fade), [Call Ailment](../08-spell-list.md#call-ailment), [Slumber](../08-spell-list.md#slumber)|
+|[Sc: Incantation I](../06-abilities.md#spellcasting-local)|Thr=15||Favourite Spells: [Least Anemancy](../08-spell-list.md#least-anemancy), [Headwind](../08-spell-list.md#least-heal)|
+|[Sc: Kinetic II](../06-abilities.md#spellcasting-local)|Thr=15||Favourite Spells: [Hide](../08-spell-list.md#hide), [Lesser Illusory Self](../08-spell-list.md#lesser-illusory-self), [Least Transformation](../08-spell-list.md#least-transformation)|
+|[Sc: Nature III](../06-abilities.md#spellcasting-local)|Thr=15||Favourite Spells: [Sour](../08-spell-list.md#sour), , [Fade](../08-spell-list.md#fade), [Call Ailment](../08-spell-list.md#call-ailment), [Slumber](../08-spell-list.md#slumber)|
 |||||
 |[Low-light Vision](../06-abilities.md#low-light-vision)|||A pixie can see even in starlight, and other low light conditions, as if it was daylight.|
 |[Fleet](../06-abilities.md#fleet)|||A pixie can stealth even in light cover.|
@@ -911,7 +911,7 @@ Deflection: +2
 |-|-|-|-|
 |Vine Whip|+8|1d6+4[Sh] + 2d8[Poi]|Reach=15ft. A target hit with the dryad's whip must make a Thr=16 CON save at the start of its next turn or have disadvantage on all WIS based rolls. After a minute it must succeed on a second Thr=16 CON save or become "blinded". This is a "poisoned" condition which lasts until cured. |
 |||||
-|[Spellcasting Local: Nature V](../06-abilities.md#spellcasting-local)|Thr=19||Favourite Spells: [Compass](../08-spell-list.md#compass), [Hide](../08-spell-list.md#hide), [Ensnare](../08-spell-list.md#ensnare), [Summon Beast](../08-spell-list.md#summon-beast), [Harvest](../08-spell-list.md#harvest), [Least Rest](../08-spell-list.md#least-rest), [Animate Plant](../08-spell-list.md#animate-plant), [Growth](../08-spell-list.md#growth), [Balance of Nature](../08-spell-list.md#balance-of-nature), [Rejuvenate Land](../08-spell-list.md#rejuvenate-land), [Lesser Cosmic Seal](../08-spell-list.md#lesser-cosmic-seal)|
+|[Sc: Nature V](../06-abilities.md#spellcasting-local)|Thr=19||Favourite Spells: [Compass](../08-spell-list.md#compass), [Hide](../08-spell-list.md#hide), [Ensnare](../08-spell-list.md#ensnare), [Summon Beast](../08-spell-list.md#summon-beast), [Harvest](../08-spell-list.md#harvest), [Least Rest](../08-spell-list.md#least-rest), [Animate Plant](../08-spell-list.md#animate-plant), [Growth](../08-spell-list.md#growth), [Balance of Nature](../08-spell-list.md#balance-of-nature), [Rejuvenate Land](../08-spell-list.md#rejuvenate-land), [Lesser Cosmic Seal](../08-spell-list.md#lesser-cosmic-seal)|
 |[Spellcasting Global I](../06-abilities.md#spellcasting-global)|Thr=19|||
 |[Bind Beast: IV](../06-abilities.md#bind-beast-i-x)|||A dryad can, and often will, bind a beast to serve and protect it.|
 |[Deflection]|||Use a reaction and potentially MP dice to reduce damage from "supernatural" ranged attack by [1d4 + SAP + [MP dice expended]d4]|
@@ -966,8 +966,8 @@ Foresight: +2
 |Fey Song|Thr=21||(2 MP die, range=60ft, instantaneous) A nymph's/naiad's voice is a balm for the spirit. If a naiaid expends 2 MP dice as a secondary action when singing, all mortals and spirits must succeed on a CHA save or become charmed for 8 hours. Entities below level 5 automatically fail the save. Entities above level 10 make the save at advantage. The charm is broken if the entity takes damage, receives the kiss of a mortal maiden, or eats a bitter leaf.|
 |Naiad's Touch|Thr=21||Any mortal that touches or makes a melee attack against a naiad/nymph must succeed on a CHA save or become charmed for 8 hours. The charm is broken if the entity takes damage, receives the kiss of a mortal maiden, or eats a bitter leaf.|
 |||||
-|[Spellcasting Local: Water VII](../06-abilities.md#spellcasting-local)|Thr=22||Favourite Spells: [Least Hydromancy](../08-spell-list.md#least-hydromancy), [Mist](../08-spell-list.md#mist), [Water Snake](../08-spell-list.md#water-snake), [Sense Spell](../08-spell-list.md#sense-spell), [Summon Water Sprite](../08-spell-list.md#summon-water-sprite), [Water Ward](../08-spell-list.md#water-ward), [Aqueous Step](../08-spell-list.md#aqueous-step), [Scry](../08-spell-list.md#scry), [Mirage](../08-spell-list.md#mirage), [Flood](../08-spell-list.md#flood), [Heart Ward](../08-spell-list.md#heart-ward), [Inner Voice](../08-spell-list.md#inner-voice), [Transform Mortal](../08-spell-list.md#transform-mortal)|
-|[Spellcasting Local: Nature VII](../06-abilities.md#spellcasting-local)|Thr=22||Favourite Spells: [Hide](../08-spell-list.md#hide), [Ensnare](../08-spell-list.md#ensnare), [Least Heal](../08-spell-list.md#least-heal), [Least Rest](../08-spell-list.md#least-rest), [Natural Xenophonia](../08-spell-list.md#natural-xenophonia), [Cure](../08-spell-list.md#cure), [Slumber](../08-spell-list.md#slumber), [Healing Seed](../08-spell-list.md#healing-seed), [Rejuvenate Land](../08-spell-list.md#rejuvenate-land), [Greater Fade](../08-spell-list.md#greater-fade), [Fairy Feast](../08-spell-list.md#fairy-feast), [Spirit Restoration](../08-spell-list.md#spirit-restoration), [Greater Weather Control](../08-spell-list.md#greater-weather-control), [Transform Mortal](../08-spell-list.md#transform-mortal)|
+|[Sc: Water VII](../06-abilities.md#spellcasting-local)|Thr=22||Favourite Spells: [Least Hydromancy](../08-spell-list.md#least-hydromancy), [Mist](../08-spell-list.md#mist), [Water Snake](../08-spell-list.md#water-snake), [Sense Spell](../08-spell-list.md#sense-spell), [Summon Water Sprite](../08-spell-list.md#summon-water-sprite), [Water Ward](../08-spell-list.md#water-ward), [Aqueous Step](../08-spell-list.md#aqueous-step), [Scry](../08-spell-list.md#scry), [Mirage](../08-spell-list.md#mirage), [Flood](../08-spell-list.md#flood), [Heart Ward](../08-spell-list.md#heart-ward), [Inner Voice](../08-spell-list.md#inner-voice), [Transform Mortal](../08-spell-list.md#transform-mortal)|
+|[Sc: Nature VII](../06-abilities.md#spellcasting-local)|Thr=22||Favourite Spells: [Hide](../08-spell-list.md#hide), [Ensnare](../08-spell-list.md#ensnare), [Least Heal](../08-spell-list.md#least-heal), [Least Rest](../08-spell-list.md#least-rest), [Natural Xenophonia](../08-spell-list.md#natural-xenophonia), [Cure](../08-spell-list.md#cure), [Slumber](../08-spell-list.md#slumber), [Healing Seed](../08-spell-list.md#healing-seed), [Rejuvenate Land](../08-spell-list.md#rejuvenate-land), [Greater Fade](../08-spell-list.md#greater-fade), [Fairy Feast](../08-spell-list.md#fairy-feast), [Spirit Restoration](../08-spell-list.md#spirit-restoration), [Greater Weather Control](../08-spell-list.md#greater-weather-control), [Transform Mortal](../08-spell-list.md#transform-mortal)|
 |[Spellcasting Global I](../06-abilities.md#spellcasting-global)||||
 |||||
 |[Foresight](../06-abilities.md#foresight)||||
@@ -1027,7 +1027,7 @@ Deflection: +2
 |[Tracker: Fast Search](../06-abilities.md#tracker-fast-search)|||Looking for tracks is a "main action" for the hound. Following tracks is a non-action.|
 |[Tracker: Persistent](../06-abilities.md#tracker-persistent)|||Once the hound find tracks, it does not need to make another roll for 4 hours, or 4 miles if speed is less than 1mph|
 |[Tracker: Swift](../06-abilities.md#tracker-swift)|||A fey hound can move at full speed when tracking without penalties. It can "run" when tracking, with a +6 to the threshold.|
-|[Terrain Mastery: Deep Forest, Hills, Woods](../06-abilities.md#terrain-mastery)|||+2 to certain skill rolls in these terrains|
+|[Terrain Mastery](../06-abilities.md#terrain-mastery)|||+2 to certain skill rolls in: Deep Forest, Hills and Woods|
 |||||
 |Immunity|||"stunned", "immobilised", "crippled", "bleeding", "poisoned", "paralysed" as well as "aphonia" and "deafened"|
 |Damage Immunity|||All physical Damage. The immunity to physical damage does not apply to damage caused by weapons made of iron or steel.|
@@ -1068,7 +1068,7 @@ Hide Armour (fey source): +5
 |Composite Bow (fey source)|+15|1d8+7[Pi]|Range=1200ft, Increment=240ft|
 |Multi-attack I||||
 |||||
-|[Spellcasting Local: Nature II](../06-abilities.md#spellcasting-local)|Thr=18||Favourite Spells: [Compass](../08-spell-list.md#compass), [Hide](../08-spell-list.md#hide), [Least Heal](../08-spell-list.md#least-heal), [Ensnare](../08-spell-list.md#ensnare), [Call Ailment](../08-spell-list.md#call-ailment), [Trace Secret Path](../08-spell-list.md#trace-secret-path)|
+|[Sc: Nature II](../06-abilities.md#spellcasting-local)|Thr=18||Favourite Spells: [Compass](../08-spell-list.md#compass), [Hide](../08-spell-list.md#hide), [Least Heal](../08-spell-list.md#least-heal), [Ensnare](../08-spell-list.md#ensnare), [Call Ailment](../08-spell-list.md#call-ailment), [Trace Secret Path](../08-spell-list.md#trace-secret-path)|
 |||||
 |[Xenophonia III](../06-abilities.md#xenophonia-i-xiii)|||A huntsman can communicate with plants, beasts and monsters|
 |[Low-light Vision](../06-abilities.md#low-light-vision)|||The huntsman can see in dim light as well as in bright daylight.|
@@ -1120,7 +1120,7 @@ Hide Armour (fey source): +5
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|[Spellcasting Local: Nature VI](../06-abilities.md#spellcasting-local)|Thr=18||Favourite Spells: [Compass](../08-spell-list.md#compass), [Hide](../08-spell-list.md#hide), [Least Heal](../08-spell-list.md#least-heal), [Ensnare](../08-spell-list.md#ensnare), [Call Ailment](../08-spell-list.md#call-ailment), [Trace Secret Path](../08-spell-list.md#trace-secret-path), [Cure](../08-spell-list.md#cure), [Slumber](../08-spell-list.md#slumber), [Balance of Nature](../08-spell-list.md#balance-of-nature), [Rejuvenate Land](../08-spell-list.md#rejuvenate-land), [Healing Seed](../08-spell-list.md#healing-seed), [Greater Fade](../08-spell-list.md#greater-fade), [Lesser Cosmic Seal](../08-spell-list.md#greater-fade), [Fairy Feast](../08-spell-list.md#fairy-feast)|
+|[Sc: Nature VI](../06-abilities.md#spellcasting-local)|Thr=18||Favourite Spells: [Compass](../08-spell-list.md#compass), [Hide](../08-spell-list.md#hide), [Least Heal](../08-spell-list.md#least-heal), [Ensnare](../08-spell-list.md#ensnare), [Call Ailment](../08-spell-list.md#call-ailment), [Trace Secret Path](../08-spell-list.md#trace-secret-path), [Cure](../08-spell-list.md#cure), [Slumber](../08-spell-list.md#slumber), [Balance of Nature](../08-spell-list.md#balance-of-nature), [Rejuvenate Land](../08-spell-list.md#rejuvenate-land), [Healing Seed](../08-spell-list.md#healing-seed), [Greater Fade](../08-spell-list.md#greater-fade), [Lesser Cosmic Seal](../08-spell-list.md#greater-fade), [Fairy Feast](../08-spell-list.md#fairy-feast)|
 |||||
 |[Xenophonia VI](../06-abilities.md#xenophonia-i-xiii)|||A huntsmaster can communicate with all mortals and spirits|
 |[Low-light Vision](../06-abilities.md#low-light-vision)|||The huntsmaster can see in dim light as well as in bright daylight.|
@@ -1171,11 +1171,11 @@ Deflection: +5
 |[Elemental Blast (Linear): Light](../06-abilities.md#elemental-blast-greater-linear)|+17|4d4+6||
 |[Elemental Blast (Radial): Light](../06-abilities.md#circle)|+17|4d4+6||
 |||||
-|[Spellcasting: Incantation VII](../06-abilities.md#spellcasting-local)|+14|Thr=23|Favourites Include: [Least Ward](../08-spell-list.md#least-ward), [Least Heal](../08-spell-list.md#least-heal), [Promise](../08-spell-list.md#promise), [Cure](../08-spell-list.md#cure), [Summon Spirit](../08-spell-list.md#summon-spirit), [Isolate Essence](../08-spell-list.md#isolate-essence), [Spirit Restoration](../08-spell-list.md#spirit-restoration), [Memory Thief](../08-spell-list.md#memory-thief)|
-|[Spellcasting: Kinetic VII](../06-abilities.md#spellcasting-local)|+14|Thr=23|Favourites Include: [Hide](../08-spell-list.md#hide), [Spirits' Secret](../08-spell-list.md#spirits-secret), [Silence](../08-spell-list.md#silence), [Sea Spell](../08-spell-list.md#see-spell), [Mirage](../08-spell-list.md#mirage), [Gift of the Fates](../08-spell-list.md#gift-of-the-fates), [Madness](../08-spell-list.md#madness), [Transform Mortal](../08-spell-list.md#transform-mortal)|
-|[Spellcasting: Nature VII](../06-abilities.md#spellcasting-local)|+17|Thr=26|Favourites Include: [Sour](../08-spell-list.md#sour), [Ensnare](../08-spell-list.md#ensnare), [Least Rest](../08-spell-list.md#least-rest), [Animate Plant](../08-spell-list.md#animate-plant), [Rejuvenate Land](../08-spell-list.md#rejuvenate-land), [Greater Fade](../08-spell-list.md#greater-fade), [Fairy Feast](../08-spell-list.md#fairy-feast), [Create Secret Path](../08-spell-list.md#create-secret-path)|
+|[Sc: Incantation VII](../06-abilities.md#spellcasting-local)|+14|Thr=23|Favourites Include: [Least Ward](../08-spell-list.md#least-ward), [Least Heal](../08-spell-list.md#least-heal), [Promise](../08-spell-list.md#promise), [Cure](../08-spell-list.md#cure), [Summon Spirit](../08-spell-list.md#summon-spirit), [Isolate Essence](../08-spell-list.md#isolate-essence), [Spirit Restoration](../08-spell-list.md#spirit-restoration), [Memory Thief](../08-spell-list.md#memory-thief)|
+|[Sc: Kinetic VII](../06-abilities.md#spellcasting-local)|+14|Thr=23|Favourites Include: [Hide](../08-spell-list.md#hide), [Spirits' Secret](../08-spell-list.md#spirits-secret), [Silence](../08-spell-list.md#silence), [Sea Spell](../08-spell-list.md#see-spell), [Mirage](../08-spell-list.md#mirage), [Gift of the Fates](../08-spell-list.md#gift-of-the-fates), [Madness](../08-spell-list.md#madness), [Transform Mortal](../08-spell-list.md#transform-mortal)|
+|[Sc: Nature VII](../06-abilities.md#spellcasting-local)|+17|Thr=26|Favourites Include: [Sour](../08-spell-list.md#sour), [Ensnare](../08-spell-list.md#ensnare), [Least Rest](../08-spell-list.md#least-rest), [Animate Plant](../08-spell-list.md#animate-plant), [Rejuvenate Land](../08-spell-list.md#rejuvenate-land), [Greater Fade](../08-spell-list.md#greater-fade), [Fairy Feast](../08-spell-list.md#fairy-feast), [Create Secret Path](../08-spell-list.md#create-secret-path)|
 |[Forbidden Spell](../08-spell-list.md#undying-realm)|+14||Thr=27|
-|[High Arcana: Mage's Oath](../08-spell-list.md#mages-oath)|+14||Thr=27|
+|[High Arcana: Mage's Oath](../08-spell-list.md#mages-oath)|||Thr=27|
 |[High Arcana: Greater Cosmic Seal](../08-spell-list.md#greater-cosmic-seal)|||Thr=27|
 |[High Arcana: Regrowth](../08-spell-list.md#regrowth)|||Thr=27|
 |[High Arcana: Fairy Ball](../08-spell-list.md#fairy-ballmasquerade)|||Thr=27|

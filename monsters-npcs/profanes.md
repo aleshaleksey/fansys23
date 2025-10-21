@@ -328,8 +328,8 @@ ___
 |Grapple, Disarm|+10|||
 |||||
 |[Charm II](../06-abilities.md#charm-i-iv)|Thr=18||(Cost = 1 MP die) A vampire can charm its victim. If it has imbibed its victim's blood, then the victim has disadvantage on the save.|
-|[Spellcasting: Incantation III](../06-abilities.md#spellcasting-local)|Thr=18||Favourite Spells: ["Least Ward"](../08-spell-list.md#least-ward), ["Down"](../08-spell-list.md#down), ["Least Pyromancy"](../08-spell-list.md#least-pyromancy), ["Least Vengeance"](../08-spell-list.md#least-vengeance), ["Promise"](../08-spell-list.md#promise), ["Wind Walk"](../08-spell-list.md#wind-walk)|
-|[Spellcasting: Kinetic III](../06-abilities.md#spellcasting-local)|Thr=18||Favourite Spells: ["Mist"](../08-spell-list.md#mist), ["Silent"](../08-spell-list.md#silent), ["Whispers"](../08-spell-list.md#whispers), ["Lesser Spirits' Secret"](../08-spell-list.md#spirits-secret), ["Least Transformation"](../08-spell-list.md#least-transformation), ["Least Curse"](../08-spell-list.md#least-curse)|
+|[Sc: Incantation III](../06-abilities.md#spellcasting-local)|Thr=18||Favourite Spells: ["Least Ward"](../08-spell-list.md#least-ward), ["Down"](../08-spell-list.md#down), ["Least Pyromancy"](../08-spell-list.md#least-pyromancy), ["Least Vengeance"](../08-spell-list.md#least-vengeance), ["Promise"](../08-spell-list.md#promise), ["Wind Walk"](../08-spell-list.md#wind-walk)|
+|[Sc: Kinetic III](../06-abilities.md#spellcasting-local)|Thr=18||Favourite Spells: ["Mist"](../08-spell-list.md#mist), ["Silent"](../08-spell-list.md#silent), ["Whispers"](../08-spell-list.md#whispers), ["Lesser Spirits' Secret"](../08-spell-list.md#spirits-secret), ["Least Transformation"](../08-spell-list.md#least-transformation), ["Least Curse"](../08-spell-list.md#least-curse)|
 |||||
 |[Debilitating Strike: Blinded](../06-abilities.md#debilitating-strike)|||(Cost = 1 SP die) A vampire can make an attack as a main action that temporarily blind its target.|
 |[Debilitating Strike: Aphonia](../06-abilities.md#debilitating-strike)|||(Cost = 1 SP die) A vampire can make an attack as a main action that temporarily mutes its target.|
@@ -343,7 +343,7 @@ ___
 |Resistant|||"prone", "bleeding", "crippled", "incapacitated", "frightened", "poisoned", "diseased"|
 |Immune|||"fear", "unconscious"|
 |Vulnerability|||"Div", "light"|
-|[Spellcasting: Global](../06-abilities.md#spellcasting-global)||||
+|[Sc: Global](../06-abilities.md#spellcasting-global)||||
 |||||
 |[Low-light vision](../06-abilities.md#low-light-vision)|||A vampire can see in dim light as if it was daylight|
 |[Heat sense (30ft)](../06-abilities.md#heat-sense-i-v)|||A vampire can detect the body heat of warm blooded beings, as well as other sources of heat.|
@@ -388,14 +388,17 @@ ___
 |-|-|-|-|
 |Claws|+16|1d12+7||
 |Great Axe (Iron)|+17|2d8+7|(Reach=5ft long)|
-|Grapple, Disarm, Throw, Sunder|+16|||
+|Grapple|+16|||
+|Disarm|+16|||
+|Throw|+16|||
+|Sunder|+16|||
 |Vampiric Bite|+16|1d4+7|If a vampire's bite causes HP damage to а mortal with blood, the vampire regains that number of HP. If the vampire is already at full HP, its STR increases by the number of points of damage dealt to the target's HP for 1 minute.|
 |||||
 |[Steel Wind Strike](../06-abilities.md#steel-wind-strike)|+12|+1d8/SP die|A vampire can use up to 9 SP die when executing a steel wind strike and attack up to 6 targets.|
 |||||
 |[Charm III](../06-abilities.md#charm-i-iv)|Thr=21||(Cost = 1 MP die) A vampire can charm its victim. If it has imbibed its victim's blood, then the victim has disadvantage on the save.|
-|[Spellcasting: Incantation VI](../06-abilities.md#spellcasting-local)|Thr=21||Favourite Spells: ["Least Ward"](../08-spell-list.md#least-ward), ["Down"](../08-spell-list.md#down), ["Least Pyromancy"](../08-spell-list.md#least-pyromancy), ["Least Vengeance"](../08-spell-list.md#least-vengeance), ["Promise"](../08-spell-list.md#promise), ["Wind Walk"](../08-spell-list.md#wind-walk), ["Lesser Weather Control"](../08-spell-list.md#lesser-weather-control), ["Summon Spirit"](../08-spell-list.md#summon-spirit), ["Pact"](../08-spell-list.md#pact), ["Spirit Restoration"](../08-spell-list.md#spirit-restoration)|
-|[Spellcasting: Kinetic VI](../06-abilities.md#spellcasting-local)|Thr=21||Favourite Spells: ["Mist"](../08-spell-list.md#mist), ["Silent"](../08-spell-list.md#silent), ["Whispers"](../08-spell-list.md#whispers), ["Lesser Spirits' Secret"](../08-spell-list.md#spirits-secret), ["Least Transformation"](../08-spell-list.md#least-transformation), ["Least Curse"](../08-spell-list.md#least-curse), ["Scry"](../08-spell-list.md#scry), ["Plague"](../08-spell-list.md#plague), ["Madness"](../08-spell-list.md#madness)|
+|[Sc: Incantation VI](../06-abilities.md#spellcasting-local)|Thr=21||Favourite Spells: ["Least Ward"](../08-spell-list.md#least-ward), ["Down"](../08-spell-list.md#down), ["Least Pyromancy"](../08-spell-list.md#least-pyromancy), ["Least Vengeance"](../08-spell-list.md#least-vengeance), ["Promise"](../08-spell-list.md#promise), ["Wind Walk"](../08-spell-list.md#wind-walk), ["Lesser Weather Control"](../08-spell-list.md#lesser-weather-control), ["Summon Spirit"](../08-spell-list.md#summon-spirit), ["Pact"](../08-spell-list.md#pact), ["Spirit Restoration"](../08-spell-list.md#spirit-restoration)|
+|[Sc: Kinetic VI](../06-abilities.md#spellcasting-local)|Thr=21||Favourite Spells: ["Mist"](../08-spell-list.md#mist), ["Silent"](../08-spell-list.md#silent), ["Whispers"](../08-spell-list.md#whispers), ["Lesser Spirits' Secret"](../08-spell-list.md#spirits-secret), ["Least Transformation"](../08-spell-list.md#least-transformation), ["Least Curse"](../08-spell-list.md#least-curse), ["Scry"](../08-spell-list.md#scry), ["Plague"](../08-spell-list.md#plague), ["Madness"](../08-spell-list.md#madness)|
 |||||
 |[Broad Strike](../06-abilities.md#broad-strike)|||(Cost = 1SP die) An ancient vampire can strike all adjacent targets within its reach.|
 |[Berserk III](../06-abilities.md#berserk-i-v)|||An ancient vampire can enter a blood frenzy as it cuts down its foes.|
@@ -414,7 +417,7 @@ ___
 |Immune|||"fear", "unconscious", "charm"|
 |Vulnerability|||"Div", "light"|
 |[Forbidden Spell](../06-abilities.md#forbidden-spell)|||["Forced Possession"](../08-spell-list.md#forced-possession), ["Dominate Mortal"](../08-spell-list.md#dominate-mortal), ["Summon Fiend"](../08-spell-list.md#summon-fiend), ["Legion of Dead"](../08-spell-list.md#legion-of-dead)|
-|[Spellcasting: Global](../06-abilities.md#spellcasting-global)||||
+|[Sc: Global](../06-abilities.md#spellcasting-global)||||
 |||||
 |[Low-light vision](../06-abilities.md#low-light-vision)|||A vampire can see in dim light as if it was daylight|
 |[Heat sense (60ft)](../06-abilities.md#heat-sense-i-v)|||A vampire can detect the body heat of warm blooded beings, as well as other sources of heat.|
@@ -917,7 +920,7 @@ ___
 |||||
 |Sunder|+13||A unicorn can destroy the weapons and armour of its foes|
 |Throw|+13||A unicorn can knock down its foes|
-|[Spellcasting: Incantation VI](../06-abilities.md#spellcasting-local)|Thr=19||Favourite Spells: ["Least Spike"](../08-spell-list.md#least-spike), ["Sour"](../08-spell-list.md#sour), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Vengeance"](../08-spell-list.md#least-vengeance), ["Meadow of Flame"](../08-spell-list.md#meadow-of-flame), ["Wind Walk"](../08-spell-list.md#wind-walk), ["Cure"](../08-spell-list.md#cure), ["Greater Xenophonia"](../08-spell-list.md#greater-xenophonia), ["Isolate Essence"](../08-spell-list.md#isolate-essence), ["Pact"](../08-spell-list.md#pact), ["Spirit Restoration"](../08-spell-list.md#spirit-restoration), ["Razor Wind"](../08-spell-list.md#razor-wind), ["Otherworld Step"](../08-spell-list.md#otherworld-step)|
+|[Sc: Incantation VI](../06-abilities.md#spellcasting-local)|Thr=19||Favourite Spells: ["Least Spike"](../08-spell-list.md#least-spike), ["Sour"](../08-spell-list.md#sour), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Vengeance"](../08-spell-list.md#least-vengeance), ["Meadow of Flame"](../08-spell-list.md#meadow-of-flame), ["Wind Walk"](../08-spell-list.md#wind-walk), ["Cure"](../08-spell-list.md#cure), ["Greater Xenophonia"](../08-spell-list.md#greater-xenophonia), ["Isolate Essence"](../08-spell-list.md#isolate-essence), ["Pact"](../08-spell-list.md#pact), ["Spirit Restoration"](../08-spell-list.md#spirit-restoration), ["Razor Wind"](../08-spell-list.md#razor-wind), ["Otherworld Step"](../08-spell-list.md#otherworld-step)|
 |||||
 |[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||(1SP die) A unicorn can combine any two basic combat manoeuvres that it is proficient with.|
 |Monster Attack I|||A unicorn makes one attack with its horns and one with its hooves.|

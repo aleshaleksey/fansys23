@@ -71,15 +71,18 @@ Deflection +2
 |-|-|-|-|
 |Short-spear|+7|1d3+3[Pi]+1d6[Lit]|The spear is not real, but a manifestation of the angel.|
 |Disarm|+7|||
+|Elemental Blast|+7|1d4+3 Lit|Can upcast up to 5d4+3|
+|Elemental Blast|Thr=20|| Greater (Radial), up to 30ft radius|
+|Sc: Incantation IV|Thr=17||Favourites are: "down", "Least Ward", "Least Heal", "Lesser Veil", "Promise", "Cure", "Least Weather Control"|
+|Radiant deflection|AC: +2||A radiant power surrounds an angel, protecting them from harm|
+|||||
 |Combined Manoeuvre I||||
 |Multiattack I||||
-|Elemental Blast|+7|1d4+3 Lit|Can upcast up to 5d4+3|
-|Elemental Blast||| Greater (Radial), up to 30ft radius|
-|Spellcasting: Incantation IV|Thr=17||Favourites are: "down", "Least Ward", "Least Heal", "Lesser Veil", "Promise", "Cure", "Least Weather Control"|
 |[Spellsong I](../06-abilities.md#spellsong-i-iv)||||
-|Radiant deflection|AC: +2||A radiant power surrounds an angel, protecting them from harm|
+|[Bard Song I](../06-abilities.md#bard-song-i-iv)||||
 |Xenophonia|||Mortals, Spirits, Constructs|
 |Illuminated|||A lesser messenger emits bright light within 10ft and dim light in 20ft. This glow can be seen 3 miles away on a dark night.|
+|||||
 |Proficiencies|||Spears, Bow|
 |Skills|||"Sense Motive: +9", "Perform: +9", "Fly: +9", "Persuade: +6", "Creature Handling: +6", "K:Religion: +8", "SpellWorking: +8"|
 |Senses|||Truesight (120ft), Lifesense (15ft)|
@@ -118,21 +121,26 @@ Deflection +4
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Short-spear|+10|1d6+3[Pi]+1d6[Lit]|The spear is not real, but a manifestation of the angel.|
-|Disarm|+10|||
-|Combined Manoeuvre I||||
-|Multi-attack I||||
-|Divine Strike|||Spears, 1d6|
 |Elemental Blast|+10|1d4+3 Lit|Can upcast up to 7d4+3|
 |Elemental Blast|Thr=20 CON|| Greater (Radial), up to 50ft radius|
-|Foresight|||Add [Wis]/2 to your evasion modifier, on top of [Dex] and [size].|
-|Spellcasting: Incantation VI|Thr=22||Favourites are: "down", "Least Ward", "Least Heal", "Lesser Veil", "Promise", "Cure", "Least Weather Control", "Pact", "Razor Wind"|
-|[Spellsong II](../06-abilities.md#spellsong-i-iv)||||
-|Xenophonia|||All|
+|Sc: Incantation VI|Thr=22||Favourites are: "down", "Least Ward", "Least Heal", "Lesser Veil", "Promise", "Cure", "Least Weather Control", "Pact", "Razor Wind"|
+|Disarm|+10|||
 |Radiant deflection|AC: +4||A radiant power surrounds an angel, protecting them from harm|
+|Divine Strike||+1d6 Div|Spears|
+|||||
+|[Spellsong II](../06-abilities.md#spellsong-i-iv)||||
+|[Bard Song II](../06-abilities.md#bard-song-i-iv)||||
+|||||
+|Foresight|||Add [Wis]/2 to your evasion modifier, on top of [Dex] and [size].|
+|Combined Manoeuvre I||||
+|Multi-attack I||||
+|Xenophonia|||All|
 |Illuminated|||A watcher *in its true form* emits bright light within 30ft and dim light in 60ft. This glow can be seen 10 miles away on a dark night.|
 |Alternate form II|||Watchers usually have two alternate forms, one humanoid, one of a small or medium beast, a watcher can shift between forms as a "secondary action"|
+|||||
 |Proficiencies|||Spears, Bow|
 |Skills|||"Sense Motive: +11", "Observe: +11", "Stealth: +11", "Perform: +11", "Fly: +11", "Persuade: +11", "SpellWorking: +10", "K:Religion: +10", "Creature Handling: +6", "Track: +6"|
+|||||
 |Senses|||Truesight (120ft), Life-sense (30ft)|
 |Resistance(damage)|||"Div"|
 |Immunity(damage)|||all "Natural" damage, "Lit"|
@@ -172,26 +180,31 @@ Deflection +6
 |-|-|-|-|
 |Greatsword|+20|2d6+14|The sword is not real. It is merely a part of divine wrath and overcomes physical damage resistance and immunity. It counts as divine source for the sake of what it is.|
 |Disarm|+15|||
-|Combined Manoeuvre I||||
-|Multi-attack II||||
-|Broad Strike|||Strikes multiple adjacent enemies with its sword (1SP)|
-|Flash Step|||Moves 100ft as a bonus action (1SP)|
-|Divine Strike|||Heavy Blades, 3d6|
+|||||
 |Elemental Blast|+14|1d4+5 Lit|Can upcast up to 9d4+5|
 |Elemental Blast|Thr=23 CON|| Greater (Radial), up to 70ft radius|
+|Divine Strike||3d6 Div|Heavy Blades|
+|Radiant deflection|AC: +6||A radiant power surrounds an angel, protecting them from harm|
+|||||
+|Sc: Incantation VI|Thr=21||Favourites are: "down", "Least Ward", "Least Heal", "Lesser Veil", "Promise", "Cure", "Least Weather Control", "Pact", "Razor Wind"|
+|Sc: Fire VII|Thr=23||Favourites are: "enflame", "least vengeance", "meadow of flame", "melt", "command mortal", "revenant", "forest of flame"|
+|||||
+|Broad Strike|||Strikes multiple adjacent enemies with its sword (1SP)|
+|Flash Step|||Moves 100ft as a bonus action (1SP)|
 |Energy Affinity|||Light, Fire|
 |Foresight|||Add [Wis]/2 to your evasion modifier, on top of [Dex] and [size].|
+|Combined Manoeuvre I||||
+|Multi-attack II||||
 |Evasive||||
 |Counterstrike||||
 |Great-strike||||
-|Spellcasting: Incantation VI|Thr=21||Favourites are: "down", "Least Ward", "Least Heal", "Lesser Veil", "Promise", "Cure", "Least Weather Control", "Pact", "Razor Wind"|
-|Spellcasting: Fire VII|Thr=23||Favourites are: "enflame", "least vengeance", "meadow of flame", "melt", "command mortal", "revenant", "forest of flame"|
 |[Spellsong III](../06-abilities.md#spellsong-i-iv)||||
+|[Bard song III](../06-abilities.md#bard-song-i-iv)||||
 |Still Spell|||Spend 1 MP dice to cast a spell without kinetic components.|
 |Xenophonia|||All|
-|Radiant deflection|AC: +6||A radiant power surrounds an angel, protecting them from harm|
 |Illuminated|||A seraph *in its true form* emits bright light within 60ft and dim light in 120ft. This glow can be seen 20 miles away on a dark night.|
 |Alternate form|||Seraph are known to take on alternate forms of noble beasts|
+|||||
 |Proficiencies|||Spears, Bow|
 |Skills|||"Sense Motive: +11", "Observe: +11", "Stealth: +11", "Perform: +11", "Fly: +11", "Persuade: +11", "SpellWorking: +10", "K:Religion: +10", "Creature Handling: +6", "Track: +6"|
 |Senses|||Truesight (180ft), Life-sense (45ft)|
@@ -258,10 +271,10 @@ An Abyssal Blade has a +6 deflection bonus, and a +2 shield bonus from its blade
 |Skills|||"Athletics: +9", "Acrobatics:+8", "Sleight of Hand:+7", "Religion:+6", "Fortify:+7",  "Insight:+6"|
 |||||
 |Immune|||["Natural Damage"](../10-conditions-types.md#natural-and-supernatural-damage-and-abilities), ["Divine Damage"](../10-conditions-types.md#divine)|
-|Aberrant healing||When a glitch would take divine damage (were it not immune), it is instead healed for that number of hit-points.|
+|Aberrant healing|||When a glitch would take divine damage (were it not immune), it is instead healed for that number of hit-points.|
 |Immune|||["Surprised"](../10-conditions-types.md#surprised), ["Charmed"](../10-conditions-types.md#charmed), ["Frightened"](../10-conditions-types.md#frightened), ["Stunned"](../10-conditions-types.md#stunned), ["Dying"](../10-conditions-types.md#dying)|
 
-When a [Abyssal Blade](profanes.md#shadow-flesh-fiend-human) is created by removing parts from a being of a being with a spiritual or divine alignment, it may instead become a "an abyssal blade".
+When a [shadow flesh fiend](profanes.md#shadow-flesh-fiend-human) is created by removing parts from a being of a being with a spiritual or divine alignment, it may instead become a "an abyssal blade".
 
 Unlike Abyssal Blades, an abyssal blade transcends its resentment. Instead it wanders the world, spending its time destroying the parts it is missing.
 
@@ -297,11 +310,15 @@ ___
 |-|-|-|-|
 |Hooves|+15|1d8+8|(Reach=5ft, long) divine source|
 |Horn|+15|1d12+8|(Reach=5ft, long) divine source|
-|[Divine Strike](../06-abilities.md#divine-strike)||1d6|A true unicorn can channel divine energies through its horn. It can expend **1 MP die** to cause 1d6 divine damage when it strikes a foe with its horn, or 2 MP dice to cause 2d6 divine damage..|
-|[Holy Strike](../06-abilities.md#holy-strike)||2d6|A true unicorn can expend MP to infuse its hooves with supernatural light, dealing extra damage. It may expend 1 MP and deal 2d4 of light damage. Profane entities hit by this attack must succeed a CHA save (Thr=13+SUP+[CHA]) or be "blinded" (repeated save applies).|
 |||||
 |Sunder|+13||A unicorn can destroy the weapons and armour of its foes|
 |Throw|+13||A unicorn can knock down its foes|
+|||||
+|Radiant deflection|HiT: +6||A radiant power surrounds a unicorn, protecting them from harm|
+|[Sc: Incantation VII](../06-abilities.md#spellcasting-local)|Thr=19||Favourite Spells: ["Least Spike"](../08-spell-list.md#least-spike), ["Sour"](../08-spell-list.md#sour), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Vengeance"](../08-spell-list.md#least-vengeance), ["Meadow of Flame"](../08-spell-list.md#meadow-of-flame), ["Wind Walk"](../08-spell-list.md#wind-walk), ["Cure"](../08-spell-list.md#cure), ["Greater Xenophonia"](../08-spell-list.md#greater-xenophonia), ["Isolate Essence"](../08-spell-list.md#isolate-essence), ["Pact"](../08-spell-list.md#pact), [Heart Ward](../08-spell-list.md#heart-ward)", ["Spirit Restoration"](../08-spell-list.md#spirit-restoration), ["Razor Wind"](../08-spell-list.md#razor-wind), ["Otherworld Step"](../08-spell-list.md#otherworld-step), ["Memory Thief"](../08-spell-list.md#memory-thief)|
+|[Divine Strike](../06-abilities.md#divine-strike)||1d6|A true unicorn can channel divine energies through its horn. It can expend **1 MP die** to cause 1d6 divine damage when it strikes a foe with its horn, or 2 MP dice to cause 2d6 divine damage..|
+|[Holy Strike](../06-abilities.md#holy-strike)||2d6|A true unicorn can expend MP to infuse its hooves with supernatural light, dealing extra damage. It may expend 1 MP and deal 2d4 of light damage. Profane entities hit by this attack must succeed a CHA save (Thr=13+SUP+[CHA]) or be "blinded" (repeated save applies).|
+|||||
 |[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||(1SP die) A unicorn can combine any two basic combat manoeuvres that it is proficient with.|
 |Monster Attack I|||A unicorn makes one attack with its horns and one with its hooves.|
 |||||
@@ -309,8 +326,6 @@ ___
 |[Swift Spell](../06-abilities.md#swift-spell)|||A unicorn can spend 2 MP dice to cast a spell as a secondary action instead of a main action|
 |[Deflection](../06-abilities.md#deflection)|||A unicorn can can reduce damage from ranged supernatural attacks by 1d4+7+([MP dice]d4) as a reaction.|
 |[Esoteric Deflection](../06-abilities.md#esoteric-deflection)|||A unicorn can, as a reaction, reduce the damage from a "esoteric" ranged attack by [1d6 + [2 x MP dice expended]]|
-|Radiant deflection|HiT: +6||A radiant power surrounds a unicorn, protecting them from harm|
-|[Spellcasting: Incantation VII](../06-abilities.md#spellcasting-local)|Thr=19||Favourite Spells: ["Least Spike"](../08-spell-list.md#least-spike), ["Sour"](../08-spell-list.md#sour), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Vengeance"](../08-spell-list.md#least-vengeance), ["Meadow of Flame"](../08-spell-list.md#meadow-of-flame), ["Wind Walk"](../08-spell-list.md#wind-walk), ["Cure"](../08-spell-list.md#cure), ["Greater Xenophonia"](../08-spell-list.md#greater-xenophonia), ["Isolate Essence"](../08-spell-list.md#isolate-essence), ["Pact"](../08-spell-list.md#pact), [Heart Ward](../08-spell-list.md#heart-ward)", ["Spirit Restoration"](../08-spell-list.md#spirit-restoration), ["Razor Wind"](../08-spell-list.md#razor-wind), ["Otherworld Step"](../08-spell-list.md#otherworld-step), ["Memory Thief"](../08-spell-list.md#memory-thief)|
 |[Divine Arcana: Regrowth](../08-spell-list.md#regrowth)|||A true unicorn can cast ["Regrowth"](../08-spell-list.md#regrowth) despite not meeting the prerequisites.|
 |[Divine Arcana: Summon Angel](../08-spell-list.md#summon-angel)|||A true unicorn can cast ["Summon Angel"](../08-spell-list.md#summon-angel) despite not meeting the prerequisites.|
 |[Spellsong IV](../06-abilities.md#spellsong-i-iv)|||A unicorn's song can alter the nature of magic around it|

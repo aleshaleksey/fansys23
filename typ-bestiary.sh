@@ -15,8 +15,10 @@ for X in $(ls typ/build | grep "^[^0-9]"); do
     # stupid malformed columns
     sed --in-place 's@columns: (50%, 50%),@columns: 2,@g' typ/build/$X
     sed --in-place 's@columns: (25%, 25%, 25%, 25%),@columns: 4,@g' typ/build/$X
+    sed --in-place 's@columns: (16.67%, 16.67%, 16.67%, 16.67%, 16.67%, 16.67%),@columns: 6,@g' typ/build/$X
     sed -E --in-place 's@align\(center\)\[\#table@align\(left\)\[\#table@g' typ/build/$X
     sed -E --in-place 's@^[ ]*\[(.+)\], \[\], \[\], \[@\[\1], table.cell(colspan:3)\[@g' typ/build/$X
+    sed -E --in-place 's@^[ ]*\[\], \[\], \[\], \[\],@@g' typ/build/$X
 done;
 
 echo "Compiling Bestiary.."

@@ -515,6 +515,8 @@ ___
 - Reduce the STR of some [golems](monsters-npcs/constructs.md) a little bit.
 
 ### Spells
+- Remove limit for spells memorised, because it sucks.
+- Add concept of "domain" and "method" magic.
 - Add [Least Weather Control](08-spell-list.md#least-weather-control), for your small, personal rain clouds.
 - Modify [Least Rest](08-spell-list.md#least-rest) to make it less useless. It is no longer in the INCANTATION spell list!
 - Upgrade [Animate/Control Dead](08-spell-list.md#animatecontrol-dead). Now animates a level III undead.

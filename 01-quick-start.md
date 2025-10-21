@@ -92,19 +92,22 @@ The point cost for point buy is as follows:
 |18|+4|14|
 
 But which stats are important? Simply put:
-- If you want your character to be plucky and tough, pump Cha and Con.
-- Cha also helps with mental resilience, which Con helps with physical stamina.
-- If you want your character to be agile and precise, pump Dex.
-- If you want them to be athletic and strong, pump Str.
-- If you want your character to be smart and wiley, pump Int or Wis.
 
-Beware there are stats and stat bonuses. Bonuses are added to rolls, stats are just "there". When we speak about stat bonuses we write eg [Str]. When we talk about a stat we write eg Str.
+- If you want your character to be plucky, persuasive and strong of character, focus on CHA.
+- If you want your character to be tough and resilient, focus on CON.
+- If you want your character to be agile, precise and good with ranged weaponry, focus on DEX.
+- If you want them to be athletic, strong and good in melee, focus on STR.
+- If you want your character to be discerning, sensitive and a capable elemental mage, focus on WIS.
+- If you want your character to be smart, skilled and a capable methodic mage, focus on INT.
+- If you want a good all-round character, then balance your stats carefully.
+
+Beware there are stats and stat bonuses. Bonuses are added to rolls, stats are just "there". When we speak about stat bonuses we write eg [STR] (with square brackets). When we talk about a stat we write eg STR (without square brackets).
 
 For more information on stats see ["Base Rules: Stats"](02-base-rules.md#stats).
 
 # Types, Races, Species and Templates
 
-Some roleplaying fantasy species support different playable races (eg humans, elves, dwarves, etc) and some do not. Systems like DnD and Pathfinder have "baked in" races. Other systems like "Ryuutama" allow only humans. This system supports races from different creature types, as this can add an enormous amount of flavour to a game, and a good amount of mechanical complexity, but does not consider them a necessary core rule, as this is considered to be setting specific.
+Some role playing fantasy species support different playable races (eg humans, elves, dwarves, etc) and some do not. Systems like DnD and Pathfinder have "baked in" races. Other systems like "Ryuutama" allow only humans. This system supports races from different creature types, as this can add an enormous amount of flavour to a game, and a good amount of mechanical complexity, but does not consider them a necessary core rule, as this is considered to be setting specific.
 
 ## Races and Species
 

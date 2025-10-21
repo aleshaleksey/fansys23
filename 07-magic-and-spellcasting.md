@@ -10,8 +10,7 @@
 8. [Banishing, Breaking, Counter-spelling and Dispelling](#banishing-breaking-counter-spelling-and-dispelling)
 9. [The catastrophic cascade](#the-catastrophic-cascade)
 10. [Global and local spells](#global-and-local-spells)
-11. [Learning spells and mental capacity](#learning-spells-and-mental-capacity)
-12. [The 7 types of magic](#the-7-types-of-magic)
+11. [The 7 types of magic](#the-7-types-of-magic)
     - [Elemental (Air)](#elemental-air)
     - [Elemental (Earth)](#elemental-earth)
     - [Elemental (Fire)](#elemental-fire)
@@ -19,6 +18,7 @@
     - [Incantation](#incantation)
     - [Kinetic](#kinetic)
     - [Nature](#nature)
+12. [Learning spells and mental capacity](#learning-spells-and-mental-capacity)
 13. [Spell Descriptors](#spell-descriptors)
 14. [Spell cards](#spell-cards)
 
@@ -178,47 +178,6 @@ Spells can either be "local" or "global" in scope. This helps distinguish spells
 Many "local" spells can also be cast as global spells. In this case the parameters of the global casting are are indicated in brackets after the parameters of the local casting.
 
 ___
-### Learning spells and mental capacity
-
-#### Spells known and spells ready
-
-A character can know any number of spells. However, a character can only have a limited number of spells ready. A character decides last thing before sleeping which spells to bring ready for the next day. The number of spells a character can ready [Int + [MP dice total]] spells at any one time. The first ten "MP 0 spells" do not count against this limit.
-
-___
-#### Spells gained from levels in "spellcasting" ability
-
-Characters learn a few spells every time they gain a level in one of the "Spellcasting" abilities. A character can also learn spells by independent study, apprenticeship or gifting. As a rule, elemental and natural spellcasting grant more spells on learning the ability, but are harder to learn outside of that. On the other hand kinetic and incantation spellcasting grants fewer spells, but allows extra spells to be learned more easily. This is described in th table below and in the ["7 types of magic"](07-magic-and-spellcasting.md#the-7-types-of-magic) subchapter.
-
-Notably, for the first time that a character gains a "Spellcasting" ability of a given type, they learn a number of "MP 0" spells in addition to the usual number of spells gained per level of "Spellcasting". The exact number is likewise described in the spellcasting table.
-
-|Spellcasting kind|"MP 1" ("MP 0") spells at ability level I|Spells (any level) at levels II+|
-|-|-|-|
-|Elemental (Air)  |2 (2)|2|
-|Elemental (Earth)|2 (2)|2|
-|Elemental (Fire) |2 (2)|2|
-|Elemental (Ice)  |2 (2)|2|
-|Incantation      |1 (3)|2|
-|Kinetic          |1 (3)|2|
-|Nature           |2 (2)|2|
-
-___
-#### learning spells through independent study or from a mentor
-
-The base time to learn a spell through personal research is 108 days per MP dice cost of a spell (for global spells this is the "per day" cost). A character with access to suitable environment and resources may use academics to reduce the time (see ["Academics"](05-skills.md#academics)). The rate per MP dice become (108 - ["academics" roll]) to a minimum of 64 days per MP dice. For higher level spells, independent research is incredibly time consuming, and a sage might have spent a lifetime to uncover a single new global spell.
-
-The more common way to learn spells is to learn from an entity that already has the spell, a mentor so to speak. If you are learning from a mentor, the process is a lot faster, as you are transferring skills and knowledge that already exists, as opposed to unearthing new spells. For elemental and nature spells the base rate is 108 hours per MP dice cost of a spell. For incantation and kinetic spells the base rate is 64 hours. This time can be reduced with a "academics" roll from the "apprentice" and a "knowledge:arcana" roll from the mentor. The final time cost per MP dice cost is [base rate - ["academics" roll] - ["arcana" roll]]. Regardless of the result, this cost cannot be reduced to lower than 20 hours (aka 2 days) per MP dice cost for elemental and nature magic, or 10 hours (aka 1 day) per 2 MP dice cost for incantation and kinetic magic.
-
-___
-#### Spell transfer
-
-Certain spells, such as ["Pact"](08-spell-list.md#pact), ["Mage's Oath"](08-spell-list.md#mages-oath), ["Isolate Essence"](08-spell-list.md#isolate-essence) and ["Memory Thief"](08-spell-list.md#memory-thief) allow knowledge, skills and spells to be exchanged almost instantaneously between entities. However these spells carry a high cost. More importantly, the entity imparting the spell loses it from their spells known, and there are few who would agree to such a transfer without substantial recompense.
-
-___
-#### MP 0 spells
-
-These spells use so little energy to cast, that they do not use MP. Casting them does not cause exertion. For the sake learning spells they count as taking half as long as spells that cost 1 MP dice. These spells are so simple that the first ten of these do not count against readied spell limit. MP 0 spells ALWAYS have a base casting time of "main action".
-
-___
 ## The 7 types of magic
 
 Beyond "local" and "global" spells are divided into 7 types:
@@ -231,7 +190,11 @@ Beyond "local" and "global" spells are divided into 7 types:
 + Kinetic
 + Nature
 
-Element and nature magic is "domain" based, and the the spells that fall into these magics are associated with a domain. Incantation and kinetic magic is "method" based, and are distinguished by how a spell is cast. A specialist spellcaster often learns between two and four types of magic to some level of proficiency. Spell-swords on the other hand will often get away with one or two.
+Element and nature magic is known as "domain" magic, and the the spells that fall into these magics are associated with a domain. "Domain" spellcasting is governed by WIS.
+
+Incantation and kinetic magic is known as "methodic" magic, and are identified by how a spell is cast. "Methodic" spellcasting is governed by INT
+
+ A specialist spellcaster often learns between two and four types of magic to some level of proficiency. Spell-swords on the other hand will often get away with one or two.
 
 ___
 ### Elemental (Air)
@@ -281,6 +244,47 @@ ___
 Nature magic covers all nature related spells. All spells of "winter", "spring", "summer", "autumn" and "seasonal" fall within this category. They are not associated with any particular damage type or condition. It is used in any sphere associated with nature. Unlike other types of spellcasting, nature magic does not have an opposite spell type. 
 
 For every level of Spellcasting: Nature, a character learns 2 compatible spell. On taking Nature I a character also gains 2 compatible MP zero spells.
+
+___
+### Learning spells and mental capacity
+
+#### Spells known and spells ready
+
+A character can know any number of spells. A character can make use of any of the spells that they know, and which they are able to cast (enough MP dice, not suffering from conditions that prevent completion of the spell, etc).
+
+___
+#### Spells gained from levels in "spellcasting" ability
+
+Characters learn a few spells every time they gain a level in one of the "Spellcasting" abilities. A character can also learn spells by independent study, apprenticeship or gifting. As a rule, "domain" spellcasting grants more spells on learning the ability, but "domain" magic is harder to learn outside of that. On the other hand "methodic" spellcasting grants fewer spells, but allows extra spells to be learned more easily. This is described in th table below and in the ["7 types of magic"](07-magic-and-spellcasting.md#the-7-types-of-magic) subchapter.
+
+Notably, for the first time that a character gains a "Spellcasting" ability of a given type, they learn a number of "MP 0" spells in addition to the usual number of spells gained per level of "Spellcasting". The exact number is likewise described in the spellcasting table.
+
+|Spellcasting kind|"MP 1" ("MP 0") spells at ability level I|Spells (any level) at levels II+|
+|-|-|-|
+|Elemental (Air)  |2 (2)|2|
+|Elemental (Earth)|2 (2)|2|
+|Elemental (Fire) |2 (2)|2|
+|Elemental (Ice)  |2 (2)|2|
+|Incantation      |1 (3)|2|
+|Kinetic          |1 (3)|2|
+|Nature           |2 (2)|2|
+
+___
+#### learning spells through independent study or from a mentor
+
+The base time to learn a spell through personal research is 108 days per MP dice cost of a spell (for global spells this is the "per day" cost). A character with access to suitable environment and resources may use academics to reduce the time (see ["Academics"](05-skills.md#academics)). The rate per MP dice become (108 - ["academics" roll]) to a minimum of 64 days per MP dice. For higher level spells, independent research is incredibly time consuming, and a sage might have spent a lifetime to uncover a single new global spell.
+
+The more common way to learn spells is to learn from an entity that already has the spell, a mentor so to speak. If you are learning from a mentor, the process is a lot faster, as you are transferring skills and knowledge that already exists, as opposed to unearthing new spells. For "domain" spells the base rate is 108 hours per MP die cost of a spell. For "methodic" spells the base rate is 64 hours per MP die. This time can be reduced with a "academics" roll from the "apprentice" and a "knowledge:arcana" roll from the mentor. The final time cost per MP dice cost is [base rate - ["academics" roll] - ["arcana" roll]]. Regardless of the result, this cost cannot be reduced to lower than 20 hours (aka 2 days) per MP dice cost for "domain" magic, or 10 hours (aka 1 day) per 2 MP dice cost for "methodic" magic.
+
+___
+#### Spell transfer
+
+Certain spells, such as ["Pact"](08-spell-list.md#pact), ["Mage's Oath"](08-spell-list.md#mages-oath), ["Isolate Essence"](08-spell-list.md#isolate-essence) and ["Memory Thief"](08-spell-list.md#memory-thief) allow knowledge, skills and spells to be exchanged almost instantaneously between entities. However these spells carry a high cost. More importantly, the entity imparting the spell loses it from their spells known, and there are few who would agree to such a transfer without substantial recompense.
+
+___
+#### MP 0 spells
+
+These spells use so little energy to cast, that they do not use MP. Casting them does not cause exertion. For the sake learning spells they count as taking half as long as spells that cost 1 MP dice. MP 0 spells ALWAYS have a base casting time of "main action".
 
 ___
 ## Spell Descriptors

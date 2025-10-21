@@ -449,7 +449,7 @@ Conceptually speaking, when a target entity has to split its attention in combat
 To simplify, a target entity is flanked if it has combatants that are hostile to it on opposite sides of it (neither of flanking combatants are [disabled](10-conditions-types.md#conditions-and-states)). Formally speaking, both of the following conditions are met:
 
 1. The target entity is in the threatened area of two or more combatants that are hostile to it.
-2. The line connecting the centers of each of the two hostile combatants' squares intersect the target's square. Importantly, the line is not considered intersecting if it is merely touching a corner or side of the target's square.
+2. The half-way point of the line connecting the centers of each of the two hostile combatants' squares is inside the target's square. Importantly, the line is not considered intersecting if it is merely touching a corner or side of the target's square.
 
 ___
 ### Cover and Concealment

@@ -79,7 +79,7 @@ The reason for different races having different kinds of stat blocks was to refl
 |Club|+2|1d4 Pe|-|
 |Knife|-5|1d4 Sl|Not proficient|
 |Proficiencies|||Any two tools or kits|
-|Skills|-|-|Usually +2 to tinker, appraise or fortify and +1 to insight or a knowledge|
+|Skills|||Usually +2 to tinker, appraise or fortify and +1 to insight or a knowledge|
 |Loot|||Usually 1-4sp and the clothes on their back|
 
 The human commoner block represents the average civilian townfolk found in urban environments, as well as peasants and slaves whose roles in society do not involve much hard labour.
@@ -110,7 +110,7 @@ ___
 |Club|+3|1d4+1 Pe|-|
 |Hand axe|+3|1d6+1 Sl|Proficient with any one weapon group, but no armour|
 |Proficiencies|||Any two tools or kits|
-|Skills|-|-|Usually +3 fortify, +2 to harvest, +1 to any one from the "sense" group|
+|Skills|||Usually +3 fortify, +2 to harvest, +1 to any one from the "sense" group|
 |Loot|||Usually the tools of their trade, and clothes on their back.|
 
 This represents any human that works in hard manual labour as well as frontier-dwellers such as farmers, trackers and bandits.
@@ -145,7 +145,7 @@ The HiT includes +2 from padded armour and +3 from a light shield.
 |Shortbow|+4|1d6+1 Pi|-|
 |Crossbow|+4|1d10+1 Pi|-|
 |Proficiencies|||Two melee, one ranged, shield, medium armour|
-|Skills|-|-|Usually +5 Athletics, +3 climb, fortify, +2 to any two from the "sense" group, "navigate" +2|
+|Skills|||Usually +5 Athletics, +3 climb, fortify, +2 to any two from the "sense" group, "navigate" +2|
 
 Militia block can be used for town guard or town militia, although frontier hunters and bandits also use this block. Ordinary soldiers, such as hoplites, levied for a campaign should use this stat block.
 
@@ -220,6 +220,8 @@ ___
 |Longsword|+10|1d8/1d12+4||
 |Spear|+10|1d6/1d8+4||
 |Dagger|+10|1d4+4||
+|Sc: Incantation I|Thr=14||["Least Ward"](../08-spell-list.md#least-ward), ["Ignition"](../08-spell-list.md#ignition), ["Least Heal"](../08-spell-list.md#least-heal)|
+|||||
 |Multi-attack I|||Makes 2 attacks|
 |Counterstrike|||Attack of opportunity vs melee attackers|
 |Guardian's Counterstrike|||Attack of opportunity vs melee attackers on others|
@@ -230,7 +232,6 @@ ___
 |[Charge](06-abilities.md#charge)|||A mounted knight can make a single attack if its mount uses the "run" action.|
 |[Quick Mount](06-abilities.md#quick-mount)|||A knight can mount a steed as a "secondary action", or quick-mount as a "non action". A mounted knight dismounts as a "minor interaction".|
 |Debilitating Strike: Aphonia|||Thr=18|
-|Spellcasting: Incantation I|||["Least Ward"](../08-spell-list.md#least-ward), ["Ignition"](../08-spell-list.md#ignition), ["Least Heal"](../08-spell-list.md#least-heal)|
 |Skills|||Athletics +11, Ride 9, Acrobatics +5, Climb +7, Creature Handling +8, Sense Motive +4, Observe +4, History +3|
 
 A knight is an elite warrior, trained from birth to fight and rule. This block can also represent generals and kings who lived their life on the battlefield.
@@ -268,19 +269,17 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|[Holy Strike](../06-abilities.md#holy-strike)|+8|+2d4 Lit per MP die|A magic knight can expend up to 5 MP dice for a single strike (10d4)|
+|[Holy Strike](../06-abilities.md#holy-strike)|+8|+2d4 Lit / MP die|A magic knight can expend up to 3 MP dice for a single strike (6d4)|
+|"[Spell strike: Heavy Blade](../06-abilities.md#spell-strike)|+8|||
+|Debilitating Strike: Aphonia|Thr=17||||
+Sc: Incantation VI|Thr=19||["Least Ward"](../08-spell-list.md#least-ward), ["Ignition"](../08-spell-list.md#ignition), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Rest"](../08-spell-list.md#least-rest), ["Cure"](../08-spell-list.md#cure), ["Summon Spirit"](../08-spell-list.md)|
+|Sc: Kinetic II|Thr=19||["Compass"](../08-spell-list.md#compass), ["Mist"](../08-spell-list.md#mist), ["whispers"](../08-spell-list.md#whispers), ["Winter's Touch"](../08-spell-list.md#winters-touch), ["Earthen Hand"](../08-spell-list.md#earthen-hand)|
+|Sc: Global I||||
 |[Deflection](../06-abilities.md#deflection)|||A magic knight can reduce damage from ranged supernatural attacks by 1d4+5+([MP dice]d4)|
-|[Arcane Interception](../06-abilities.md#arcane-interception)||A magic knight can use "Interception" against supernatural attacks that require a saving throw|
+|[Arcane Interception](../06-abilities.md#arcane-interception)|||A magic knight can use "Interception" against supernatural attacks that require a saving throw|
 |[Safe Cast](../06-abilities.md#safe-cast)|||Spells with Kinetic components do not provoke attacks of opportunity|
 |[War Mage](../06-abilities.md#safe-cast)|||Advantage on concentration saves when maintaining spells|
-|Debilitating Strike: Aphonia|||Thr=17|
-|"[Spell strike: Heavy Blade](../06-abilities.md#spell-strike)|+8|||
-|Spellcasting: Incantation VI|||["Least Ward"](../08-spell-list.md#least-ward), ["Ignition"](../08-spell-list.md#ignition), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Rest"](../08-spell-list.md#least-rest), ["Cure"](../08-spell-list.md#cure), ["Summon Spirit"](../08-spell-list.md)|
-|Spellcasting: Kinetic II|||["Compass"](../08-spell-list.md#compass), ["Mist"](../08-spell-list.md#mist), ["whispers"](../08-spell-list.md#whispers), ["Winter's Touch"](../08-spell-list.md#winters-touch), ["Earthen Hand"](../08-spell-list.md#earthen-hand)|
-|Spellcasting: Global I||||
 |Skills|||Athletics +9, Spellworking +7, Ride +7, Acrobatics +5, Climb +7, Creature Handling +7, Sense Motive +6, Observe +5, Arcana +5, Stealth +3, Heal +3, History +3|
-
-The spell threshold for a magic knight is Thr=19 (INT)
 
 This represent an elite mystic warrior trained in sword and magic. Paladins, captains of inquisitorial orders, mage-hunters and battle mages all fall within this category. Leaders of nations in tune with the supernatural, religious orders and some cults may also be "magic knights".
 
@@ -302,12 +301,13 @@ An elemental knight works like a Magic Knight with the following differences:
 The spell threshold for a magic knight is Thr=19 (WIS)
 
 Example, Elemental Knight, fire:
+
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|[Elemental Strike](../06-abilities.md#elemental-strike)|+8|+2d6 fire (or ice) per MP die|An elemental knight can expend up to 5 MP dice for a single strike (10d6)|
-|[Elemental Blast: Fire](../06-abilities.md#blast-elemental-blast)|+8|1d6+1|+1d6 fire damage per MP dice|
-|Spellcasting: Fire IV|||["Ignition"](../08-spell-list.md#ignition), ["Least Warmth"](../08-spell-list.md#least-warmth), ["Foxfire"](../08-spell-list.md#foxfire), ["Least Vengeance"](../08-spell-list.md#least-vengeance), ["Meadow of Flame"](../08-spell-list.md#meadow-of-flame), ["Warmth"](../08-spell-list.md#warmth), ["Command Mortal"](../08-spell-list.md#command-mortal), ["Fire Ward"](../08-spell-list.md#fire-ward), ["Balance of Elements"](../08-spell-list.md#balance-of-elements), ["Speak Through Flame"](../08-spell-list.md#speak-through-flame)|
-|Spellcasting: Water II|||["Mist"](../08-spell-list.md#mist), ["Least Freeze"](../08-spell-list.md#least-freeze), ["Sense Spell"](../08-spell-list.md#sense-spell), ["Winter's Touch"](../08-spell-list.md#winters-touch), ["Dusk"](../08-spell-list.md#dusk), ["Trace Secret Path"](../08-spell-list.md#trace-secret-path)|
+|[Elemental Strike](../06-abilities.md#elemental-strike)|+8|+2d6 / [MP die]|An elemental knight can expend up to 3 MP dice for a single strike (6d6)|
+|[Elemental Blast](../06-abilities.md#blast-elemental-blast)|+8|1d6+1|+1d6 fire damage per MP dice|
+|Sc: Fire IV|Thr=19||["Ignition"](../08-spell-list.md#ignition), ["Least Warmth"](../08-spell-list.md#least-warmth), ["Foxfire"](../08-spell-list.md#foxfire), ["Least Vengeance"](../08-spell-list.md#least-vengeance), ["Meadow of Flame"](../08-spell-list.md#meadow-of-flame), ["Warmth"](../08-spell-list.md#warmth), ["Command Mortal"](../08-spell-list.md#command-mortal), ["Fire Ward"](../08-spell-list.md#fire-ward), ["Balance of Elements"](../08-spell-list.md#balance-of-elements), ["Speak Through Flame"](../08-spell-list.md#speak-through-flame)|
+|Sc: Water II|Thr=19||["Mist"](../08-spell-list.md#mist), ["Least Freeze"](../08-spell-list.md#least-freeze), ["Sense Spell"](../08-spell-list.md#sense-spell), ["Winter's Touch"](../08-spell-list.md#winters-touch), ["Dusk"](../08-spell-list.md#dusk), ["Trace Secret Path"](../08-spell-list.md#trace-secret-path)|
 
 ___
 ### Human Scout (level 5)
@@ -335,7 +335,7 @@ ___
 |Shortbow|+6|1d6+3 Pi|Range=600ft, Increment=120ft|
 |Light crossbow|+6|1d10+3 Pi||
 |||||
-|[Precision Attack I](../06-abilities.md#precision-attack-i-x)|1d8||A scout can deal extra damage to targets that are unaware of it|
+|[Precision Attack I](../06-abilities.md#precision-attack-i-x)||+1d8|A scout can deal extra damage to targets that are unaware of it|
 |[Parry](../06-abilities.md#parry)|||A scout can add +2 to HiT vs up to 3 melee attacks.|
 |[Stalker](../06-abilities.md#stalker)|||A scout can use stealth as a secondary action|
 |[Fleet](../06-abilities.md#fleet)|||A scout can hide even in light concealment|
@@ -344,7 +344,7 @@ ___
 |[Silent Step I](../06-abilities.md#silent-step-i-iii)|||A scout can maintain stealth while moving at full base speed.|
 |||||
 |Proficiencies|||"Light Blades","Light Armour","Bows","Mechanical Bows","Spears","Staves","Disguise Kit","Healer's Kit","Lock-picks","Forgery Kit"|
-|Skills|-|-|Usually +4 climb, +3 athletics, +2 fortify, +7 stealth, +5 acrobatics, +5 sleight of hand, +2 prospect, +3 history, +5 observe, +4 sense motive, +4 deception|
+|Skills|||Usually +4 climb, +3 athletics, +2 fortify, +7 stealth, +5 acrobatics, +5 sleight of hand, +2 prospect, +3 history, +5 observe, +4 sense motive, +4 deception|
 |Loot|||Usually the tools of their trade, and clothes on their back.|
 
 This represents experienced scouts, saboteurs, snipers, marksmen, low rank assassins or even, at a stretch, swashbucklers.
@@ -381,7 +381,7 @@ ___
 |Composite Bow|+8|1d6+4 Pi|Range=600ft, Increment=120ft|
 |Hand Crossbow|+8|1d6+4 Pi|Range=360ft, Increment=60ft|
 |||||
-|[Precision Attack III](../06-abilities.md#precision-attack-i-x)|3d8||An assassin can deal extra damage to targets that are not aware of it.|
+|[Precision Attack III](../06-abilities.md#precision-attack-i-x)||+3d8|An assassin can deal extra damage to targets that are not aware of it.|
 |[Assassinate I](../06-abilities.md#assassinate-i-v)|||An assassin can deal damage directly to the HP of an [immobilised](../10-conditions-types.md#immobilised) target.|
 |[Parry](../06-abilities.md#parry)|||A scout can add +2 to HiT vs up to 3 melee attacks.|
 |[Stalker](../06-abilities.md#stalker)|||A scout can use stealth as a secondary action|
@@ -391,8 +391,8 @@ ___
 |[Silent Step II](../06-abilities.md#silent-step-i-iii)|||An assassin can maintain stealth even while running.|
 |||||
 |||||
-|Proficiencies|||"Light Blades","Light Armour","Bows","Mechanical Bows","Spears","Staves","Grapple","Throw","Disguise Kit","Healer's Kit","Lock-picks","Forgery Kit", "Poisoner's Kit"|
-|Skills|-|-|Usually +5 climb, +3 athletics, +2 fortify, +9 stealth, +6 acrobatics, +6 sleight of hand, +2 prospect, +3 history, +5 observe, +3 academics, +4 sense motive, +4 deception|
+|Proficiencies|||"Light Blades", "Light Armour", "Bows", "Mechanical Bows", "Spears", "Staves", "Grapple", "Throw", "Disguise Kit", "Healer's Kit", "Lock-picks", "Forgery Kit", "Poisoner's Kit"|
+|Skills|||Usually +5 climb, +3 athletics, +2 fortify, +9 stealth, +6 acrobatics, +6 sleight of hand, +2 prospect, +3 history, +5 observe, +3 academics, +4 sense motive, +4 deception|
 |Loot|||Usually the tools of their trade, and clothes on their back.|
 
 This represents well trained assassins, ninjas, and similar units.
@@ -428,10 +428,10 @@ Travelling over dangerous terrain, will use padded armour (HiT: 13/13/11)
 |-|-|-|-|
 |Dagger|+2|1d4|-|
 |Shortbow|+2|1d6|range: 600/120ft|
-|Spellcasting: Kinetic I|Thr=16||["Witch's Candle"](../08-spell-list.md#witchs-candle), ["Least Shroud"](../08-spell-list.md#least-shroud), ["Whispers"](../08-spell-list.md#whispers),["Enflame"](../08-spell-list.md#enflame), "[Spirits' Secret](../08-spell-list.md#spirits-secret), ["Least Transformation"](../08-spell-list.md#least-transformation)|
-|Spellcasting: Incantation I|Thr=16||[Down](../08-spell-list.md#down), [Least Ward](../06-abilities.md#least-ward), [Least Spike](../08-spell-list.md#least-spike), [Least Vengeance](../08-spell-list.md#least-vengeance)|
-|Spellcasting: Global I||||
-|[Bind Familiar I](../06-abilities.md#bind-familiar-i-iv)||An apprentice may or may not have their own familiar|
+|Sc: Kinetic I|Thr=16||["Witch's Candle"](../08-spell-list.md#witchs-candle), ["Least Shroud"](../08-spell-list.md#least-shroud), ["Whispers"](../08-spell-list.md#whispers),["Enflame"](../08-spell-list.md#enflame), "[Spirits' Secret](../08-spell-list.md#spirits-secret), ["Least Transformation"](../08-spell-list.md#least-transformation)|
+|Sc: Incantation I|Thr=16||[Down](../08-spell-list.md#down), [Least Ward](../06-abilities.md#least-ward), [Least Spike](../08-spell-list.md#least-spike), [Least Vengeance](../08-spell-list.md#least-vengeance)|
+|[Bind Familiar I](../06-abilities.md#bind-familiar-i-iv)|||An apprentice may or may not have their own familiar|
+|Sc: Global I||||
 |||||
 |Proficiencies|||"Alchemist's kit" + 1 other kit (or languages), 2 languages, 1 weapon|
 |Skills|||+4 in academics and +3 in 2 knowledge, +2 in other 4, 1 rank in another 3|
@@ -465,7 +465,8 @@ Travelling over dangerous terrain, will use brigandine (HiT: 15/15/11)
 |-|-|-|-|
 |Dagger|+2|1d4|-|
 |Shortbow|+2|1d6|range: 600/120ft|
-|Spellcasting: Kinetic II|Thr=17||["Witch's Candle"](../08-spell-list.md#witchs-candle), ["Least Shroud"](../08-spell-list.md#least-shroud), ["Whispers"](../08-spell-list.md#whispers),["Enflame"](../08-spell-list.md#enflame), "[Spirits' Secret](../08-spell-list.md#spirits-secret), ["Least Transformation"](../08-spell-list.md#least-transformation)|
+|Sc: Kinetic II|Thr=17||["Witch's Candle"](../08-spell-list.md#witchs-candle), ["Least Shroud"](../08-spell-list.md#least-shroud), ["Whispers"](../08-spell-list.md#whispers),["Enflame"](../08-spell-list.md#enflame), "[Spirits' Secret](../08-spell-list.md#spirits-secret), ["Least Transformation"](../08-spell-list.md#least-transformation)|
+|Sc: Global I||||
 |||||
 |Proficiencies|||"Calligraphy" + 2 other kits (or languages), 2 languages, 2 weapons|
 |Skills|||+5 in academics and +4 in 2 knowledge, +3 in other 4, "Observe" +3, 1 rank in another 4|
@@ -500,7 +501,7 @@ On the battlefield, will often use Cuirass and small shield for (HiT: 20/16/12)
 |Dagger|+4|1d4+1|-|
 |Smallsword|+4|1d6+1||
 |Composite Bow|+4|1d8+1|range: 1200/240ft|
-|Spellcasting: Kinetic II|Thr=17||["Least Shroud"](../08-spell-list.md#least-shroud), ["Whispers"](../08-spell-list.md#whispers),["Enflame"](../08-spell-list.md#enflame), "[Winter's Touch](../08-spell-list.md#winters-touch), ["Silence"](../08-spell-list.md#silence)|
+|Sc: Kinetic II|Thr=17||["Least Shroud"](../08-spell-list.md#least-shroud), ["Whispers"](../08-spell-list.md#whispers),["Enflame"](../08-spell-list.md#enflame), "[Winter's Touch](../08-spell-list.md#winters-touch), ["Silence"](../08-spell-list.md#silence)|
 |||||
 |Skills|||Has a +5 in deception, +5 in academics and 2 knowledge, "navigate" +4, +3 in persuade and sense motive|
 
@@ -530,13 +531,14 @@ Travelling over dangerous terrain, will use brigandine (HiT: 17/16/13)
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Dagger|+6|1d4|-|
-|[Spellcasting: Kinetic III](../06-abilities.md#spellcasting-local)|Thr=18||["Witch's Candle"](../08-spell-list.md#witchs-candle), ["Least Shroud"](../08-spell-list.md#least-shroud), ["Whispers"](../08-spell-list.md#whispers),["Enflame"](../08-spell-list.md#enflame), "[Spirits' Secret](../08-spell-list.md#spirits-secret), ["Least Transformation"](../08-spell-list.md#least-transformation)|
-|[Spellcasting: Incantation III](../06-abilities.md#spellcasting-local)|Thr=18||[Down](../08-spell-list.md#down), [Least Ward](../06-abilities.md#least-ward), [Least Spike](../08-spell-list.md#least-spike), [Least Vengeance](../08-spell-list.md#least-vengeance), [Promise](../08-spell-list.md#promise), [Lesser Veil](../08-spell-list.md#lesser-veil), [Wind Walk](../08-spell-list.md#wind-walk)|
-|[Spellcasting: Earth II](../06-abilities.md#spellcasting-local)|Thr=18||[Least Geomancy](../08-spell-list.md#least-geomancy), [Sense Spell](../08-spell-list.md#sense-spell), [Gnome's Mercy](../08-spell-list.md#gnomes-mercy), [Earthen Hand](../08-spell-list.md#earthen-hand), [Warded Ground](../08-spell-list.md#warded-ground), [Summon Gnome](../08-spell-list.md#summon-gnome)|
-|[Spellcasting: Global](../06-abilities.md#spellcasting-global)||||
+|[Elemental Blast: Ice](../06-abilities.md#blast-elemental-blast)|+8|2d6+2 Ice[sup]|Range=120ft|
+|||||
+|[Sc: Kinetic III](../06-abilities.md#spellcasting-local)|Thr=18||["Witch's Candle"](../08-spell-list.md#witchs-candle), ["Least Shroud"](../08-spell-list.md#least-shroud), ["Whispers"](../08-spell-list.md#whispers),["Enflame"](../08-spell-list.md#enflame), "[Spirits' Secret](../08-spell-list.md#spirits-secret), ["Least Transformation"](../08-spell-list.md#least-transformation)|
+|[Sc: Incantation III](../06-abilities.md#spellcasting-local)|Thr=18||[Down](../08-spell-list.md#down), [Least Ward](../06-abilities.md#least-ward), [Least Spike](../08-spell-list.md#least-spike), [Least Vengeance](../08-spell-list.md#least-vengeance), [Promise](../08-spell-list.md#promise), [Lesser Veil](../08-spell-list.md#lesser-veil), [Wind Walk](../08-spell-list.md#wind-walk)|
+|[Sc: Earth II](../06-abilities.md#spellcasting-local)|Thr=18||[Least Geomancy](../08-spell-list.md#least-geomancy), [Sense Spell](../08-spell-list.md#sense-spell), [Gnome's Mercy](../08-spell-list.md#gnomes-mercy), [Earthen Hand](../08-spell-list.md#earthen-hand), [Warded Ground](../08-spell-list.md#warded-ground), [Summon Gnome](../08-spell-list.md#summon-gnome)|
+|[Sc: Global](../06-abilities.md#spellcasting-global)||||
 |[Bind Familiar I](../06-abilities.md#bind-familiar-i-iv)||||
 |[Deflection](../06-abilities.md#deflection)|||A mage may a reaction and potentially MP dice to reduce damage from "supernatural" ranged attack|
-|[Elemental Blast: Ice](../06-abilities.md#blast-elemental-blast)|+8|2d6+2 Ice[sup]|Range=120ft|
 |||||
 |Proficiencies|||"Calligraphy" + 2 other kits (or languages), 2 languages, 2 weapons|
 |Skills|||"Spellworking" +5, "academics" +5 and +4 in 2 knowledge, +3 in other 4, "Observe" +3, 1 rank in another 4|
@@ -572,15 +574,16 @@ ___
 |-|-|-|-|
 |Dagger|+6|1d4|-|
 |Short sword|+6|1d6|-|
-|[Spellcasting: Kinetic I](../06-abilities.md#spellcasting-local)|Thr=18||["Witch's Candle"](../08-spell-list.md#witchs-candle), ["Least Shroud"](../08-spell-list.md#least-shroud), ["Whispers"](../08-spell-list.md#whispers),["Enflame"](../08-spell-list.md#enflame), "[Spirits' Secret](../08-spell-list.md#spirits-secret)|
-|[Spellcasting: Incantation III](../06-abilities.md#spellcasting-local)|Thr=18||[Down](../08-spell-list.md#down), [Least Ward](../06-abilities.md#least-ward), [Least Spike](../08-spell-list.md#least-spike), [Least Vengeance](../08-spell-list.md#least-vengeance), [Promise](../08-spell-list.md#promise), [Lesser Veil](../08-spell-list.md#lesser-veil), [Wind Walk](../08-spell-list.md#wind-walk)|
-|[Spellcasting: Global](../06-abilities.md#spellcasting-global)||||
-|[Bind Familiar I](../06-abilities.md#bind-familiar-i-iv)||||
-|[Deflection](../06-abilities.md#deflection)|||A mage may a reaction and potentially MP dice to reduce damage from "supernatural" ranged attack|
 |[Elemental Blast: Ice](../06-abilities.md#blast-elemental-blast)|+9|2d6+2 Ice[sup]|Range=120ft|
-|[Elemental Blast (Line): Ice](../06-abilities.md#line)|Thr=19|2d6+2 Ice[sup]|Range=120ft|
+|[Elemental Blast: Ice](../06-abilities.md#line)|Thr=19|2d6+2 Ice[sup]|Range=120ft (Linear form)|
 |[Elemental Touch: Ice](../06-abilities.md#touch-elemental-touch)|+9|2d6+2 Ice[sup]|Reach=5ft|
 |[Elemental Sweep: Ice](../06-abilities.md#sweep)|+9|2d6+2 Ice[sup]|Reach=5ft|
+|||||
+|[Sc: Kinetic I](../06-abilities.md#spellcasting-local)|Thr=18||["Witch's Candle"](../08-spell-list.md#witchs-candle), ["Least Shroud"](../08-spell-list.md#least-shroud), ["Whispers"](../08-spell-list.md#whispers),["Enflame"](../08-spell-list.md#enflame), "[Spirits' Secret](../08-spell-list.md#spirits-secret)|
+|[Sc: Incantation III](../06-abilities.md#spellcasting-local)|Thr=18||[Down](../08-spell-list.md#down), [Least Ward](../06-abilities.md#least-ward), [Least Spike](../08-spell-list.md#least-spike), [Least Vengeance](../08-spell-list.md#least-vengeance), [Promise](../08-spell-list.md#promise), [Lesser Veil](../08-spell-list.md#lesser-veil), [Wind Walk](../08-spell-list.md#wind-walk)|
+|[Sc: Global](../06-abilities.md#spellcasting-global)||||
+|[Bind Familiar I](../06-abilities.md#bind-familiar-i-iv)||||
+|[Deflection](../06-abilities.md#deflection)|||A mage may a reaction and potentially MP dice to reduce damage from "supernatural" ranged attack|
 |||||
 |Proficiencies|||"Calligraphy" + 2 other kits (or languages), 2 languages, 2 weapons|
 |Skills|||+5 in academics and +4 in 2 knowledge, +3 in other 4, "Observe" +3, 1 rank in another 4|
@@ -596,9 +599,9 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|11/11/11|58 (*36*)|78 (*45*)|18|30|-|
+|15/12/15|58 (*36*)|78 (*45*)|18|30|-|
 
-Travelling over dangerous terrain, will use brigandine (HiT: 15/15/11)
+Travelling over dangerous terrain, will use brigandine (HiT: 19/16/15)
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -613,14 +616,14 @@ Travelling over dangerous terrain, will use brigandine (HiT: 15/15/11)
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Dagger|+9|1d4|-|
-|[Spellcasting: Kinetic VI](../06-abilities.md#spellcasting-local)|Thr=18||["Witch's Candle"](../08-spell-list.md#witchs-candle), ["Least Shroud"](../08-spell-list.md#least-shroud), ["Whispers"](../08-spell-list.md#whispers),["Enflame"](../08-spell-list.md#enflame), "[Spirits' Secret](../08-spell-list.md#spirits-secret), ["Least Transformation"](../08-spell-list.md#least-transformation), [Scry](../08-spell-list.md#scry), [Flame Stride](../08-spell-list.md#flame-stride), [Inner Voice](../08-spell-list.md#inner-voice)|
-|[Spellcasting: Incantation VI](../06-abilities.md#spellcasting-local)|Thr=18||[Down](../08-spell-list.md#down), [Least Ward](../06-abilities.md#least-ward), [Least Spike](../08-spell-list.md#least-spike), [Least Vengeance](../08-spell-list.md#least-vengeance), [Promise](../08-spell-list.md#promise), [Lesser Veil](../08-spell-list.md#lesser-veil), [Wind Walk](../08-spell-list.md#wind-walk), [Summon Spirit](../08-spell-list.md#summon-spirit), [Isolate Essence](../08-spell-list.md#isolate-essence), [Razor Wind](../08-spell-list.md#razor-wind)|
-|[Spellcasting: Earth V](../06-abilities.md#spellcasting-local)|Thr=18||[Least Geomancy](../08-spell-list.md#least-geomancy), [Sense Spell](../08-spell-list.md#sense-spell), [Gnome's Mercy](../08-spell-list.md#gnomes-mercy), [Earthern Hand](../08-spell-list.md#earthen-hand), [Warded Ground](../08-spell-list.md#warded-ground), [Summon Gnome](../08-spell-list.md#summon-gnome), [](../08-spell-list.md), [Earth Ward](../08-spell-list.md#earth-ward), [See Spell](../08-spell-list.md#see-spell), [**Animate Golem**](../08-spell-list.md#animate-golem), [Enchanted Ground](../08-spell-list.md#enchanted-ground), [Healing Seed](../08-spell-list.md#healing-seed), [Rift](../08-spell-list.md#rift)|
-|[Spellcasting: Global](../06-abilities.md#spellcasting-global)||||
-|[Bind Familiar II](../06-abilities.md#bind-familiar-i-iv)||||
-|[Deflection](../06-abilities.md#deflection)|||A mage may a reaction and potentially MP dice to reduce damage from "supernatural" ranged attack|
 |[Elemental Blast: Ice](../06-abilities.md#blast-elemental-blast)|+10|2d6+3 Ice[sup]|Range=120ft, Max damage=9d6+3|
 |[Elemental Blast, Linear: Ice](../06-abilities.md#line)|Thr=20|3d6+3 Ice[sup]|Max damage=9d6+3, Max width=35ft|
+|[Sc: Kinetic VI](../06-abilities.md#spellcasting-local)|Thr=22||["Witch's Candle"](../08-spell-list.md#witchs-candle), ["Least Shroud"](../08-spell-list.md#least-shroud), ["Whispers"](../08-spell-list.md#whispers),["Enflame"](../08-spell-list.md#enflame), "[Spirits' Secret](../08-spell-list.md#spirits-secret), ["Least Transformation"](../08-spell-list.md#least-transformation), [Scry](../08-spell-list.md#scry), [Flame Stride](../08-spell-list.md#flame-stride), [Inner Voice](../08-spell-list.md#inner-voice)|
+|[Sc: Incantation VI](../06-abilities.md#spellcasting-local)|Thr=22||[Down](../08-spell-list.md#down), [Least Ward](../06-abilities.md#least-ward), [Least Spike](../08-spell-list.md#least-spike), [Least Vengeance](../08-spell-list.md#least-vengeance), [Promise](../08-spell-list.md#promise), [Lesser Veil](../08-spell-list.md#lesser-veil), [Wind Walk](../08-spell-list.md#wind-walk), [Summon Spirit](../08-spell-list.md#summon-spirit), [Isolate Essence](../08-spell-list.md#isolate-essence), [Razor Wind](../08-spell-list.md#razor-wind)|
+|[Sc: Earth V](../06-abilities.md#spellcasting-local)|Thr=20||[Least Geomancy](../08-spell-list.md#least-geomancy), [Sense Spell](../08-spell-list.md#sense-spell), [Gnome's Mercy](../08-spell-list.md#gnomes-mercy), [Earthern Hand](../08-spell-list.md#earthen-hand), [Warded Ground](../08-spell-list.md#warded-ground), [Summon Gnome](../08-spell-list.md#summon-gnome), [](../08-spell-list.md), [Earth Ward](../08-spell-list.md#earth-ward), [See Spell](../08-spell-list.md#see-spell), [**Animate Golem**](../08-spell-list.md#animate-golem), [Enchanted Ground](../08-spell-list.md#enchanted-ground), [Healing Seed](../08-spell-list.md#healing-seed), [Rift](../08-spell-list.md#rift)|
+|[Sc: Global](../06-abilities.md#spellcasting-global)||||
+|[Bind Familiar IV](../06-abilities.md#bind-familiar-i-iv)||||
+|[Deflection](../06-abilities.md#deflection)|||A mage may a reaction and potentially MP dice to reduce damage from "supernatural" ranged attack|
 |[Arcane Interception](../06-abilities.md#arcane-interception)|||An archmage can use the "interception" manoeuvre to redirect supernatural attacks that require a saving throw at themselves|
 |[Safe cast](../06-abilities.md#safe-cast)|||An arch-mage does not provoke attacks of opportunity when casting spells with kinetic components in melee.|
 |[War mage](../06-abilities.md#war-mage)|||An arch-mage has advantage on concentration saves for maintaining spells|
@@ -632,9 +635,9 @@ Travelling over dangerous terrain, will use brigandine (HiT: 15/15/11)
 
 An arch-mage seldom means that one has learned all there is to learn about magic (although it can do!), but is more often a title given to the most skilled and influential mage in a kingdom or empire. The spell list presented here is an example, and many arch-mages will have learned additional spells through decades of intense study.
 
-Most arch-mages are loathe to engage in combat, unless ordered to do so by the lord of their kingdom, or unless it is necessary to fulfil some personal goal. They will generally prefer to send globally summoned spirits or underlings. In particular arch-mages are fond of golems. The one notable exception is to duel other mages.
+Most arch-mages are loathe to engage in combat, unless ordered to do so by the lord of their kingdom, or unless it is necessary to fulfil some personal goal. The one notable exception is to duel other mages. They will generally prefer to send globally summoned spirits or underlings. In particular arch-mages are fond of golems.
 
-In combat an arch-mage will attempt to win the battle before it has begun by using magic, underlings and its familiar to gain the upper hand in situational awareness, perhaps even measuring the strength of its foes and softening them up using underlings or global magic over a period of days or weeks. Only then is it likely to engage in direct battle.
+In combat an arch-mage will attempt to win the battle before it has begun by using magic, underlings and its familiar to gain the upper hand in situational awareness. They will, when possible measure the strength of their foes by up using underlings or global magic over a period of days or weeks. This also serves to soften up their mark. Only then is an arch-mage likely to engage in direct battle.
 
 ___
 ## Elf
@@ -659,11 +662,11 @@ ___
 |-|-|-|-|
 |Shortbow|+3|1d6+1 Pi|range = 600/120ft|
 |Knife|+3|1d4+1 Sl||
+|Sc: Nature I|Thr=14||["Sour"](../08-spell-list.md#silent), ["Hide"](../08-spell-list.md#hide), ["Beast Speech"](../08-spell-list.md#beast-speech)|
 |Low-light vision||||
 |Resistance|||"charmed"|
-|Spellcasting: Nature I|||["Sour"](../08-spell-list.md#silent), ["Hide"](../08-spell-list.md#hide), ["Beast Speech"](../08-spell-list.md#beast-speech)|
 |Proficiencies|||One musical instrument, elvish, common|
-|Skills|-|-|Usually +3 to "perform", +1 to one knowledge, +2 to "acrobatics" or +1 to "stealth"|
+|Skills|||Usually +3 to "perform", +1 to one knowledge, +2 to "acrobatics" or +1 to "stealth"|
 |Loot|||Usually some small trinket of sentimental value and the clothes on their back|
 
 Elves live for a ridiculously long time. This stat block represents an elf that has lived for 100 years or less.
@@ -694,14 +697,16 @@ ___
 |Shortbow|+5|1d6+2 Pi|range = 600/120ft|
 |Sling|+5|1d6+2 Pi|range = 1600/80ft|
 |Knife|+5|1d4+2 Sl||
-|Low-light vision||||
-|Resistance|||"charmed"|
+|||||
+|Sc: Nature III|Thr=16||["Sour"](../08-spell-list.md#silent), ["Hide"](../08-spell-list.md#hide), ["Beast Speech"](../08-spell-list.md#beast-speech), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Rest"](../08-spell-list.md#least-rest), ["Animate Plant"](../08-spell-list.md#animate-plant)|
+|Sc: Water I|Thr=16||["Least Hydromancy"](../08-spell-list.md#least-hydromancy), ["Mist"](../08-spell-list.md#mist), ["Chill Blood"](../08-spell-list.md#chill-blood)|
+|||||
 |[Fleet](../06-abilities.md#fleet)|||Hide from light concealment|
 |[Silent Step I](../06-abilities.md#silent-step-i-iii)|||Move more silently|
-|Spellcasting: Nature III|||["Sour"](../08-spell-list.md#silent), ["Hide"](../08-spell-list.md#hide), ["Beast Speech"](../08-spell-list.md#beast-speech), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Rest"](../08-spell-list.md#least-rest), ["Animate Plant"](../08-spell-list.md#animate-plant)|
-|Spellcasting: Water I|||["Least Hydromancy"](../08-spell-list.md#least-hydromancy), ["Mist"](../08-spell-list.md#mist), ["Chill Blood"](../08-spell-list.md#chill-blood)|
+|Low-light vision||||
+|Resistance|||"charmed"|
 |Proficiencies|||One musical instrument, elvish, common and at least 2 other languages|
-|Skills|-|-|Usually +5 to "perform", +3 to three knowledges, +4 to "acrobatics" and +4 to "stealth", "navigate" +4|
+|Skills|||Usually +5 to "perform", +3 to three knowledges, +4 to "acrobatics" and +4 to "stealth", "navigate" +4|
 |Loot|||Usually some small trinket of sentimental value and the clothes on their back|
 
 The average elf has lived for centuries and has had time to learn an incredible range of skills. This thus represents your average elf.
@@ -732,9 +737,12 @@ ____
 |Longbow|+11|1d10+6 Pi|range = 1200/240ft|
 |Sling|+11|1d6+5 Pi|range = 1600/80ft|
 |Knife|+11|1d4+5 Sl||
+|||||
+|Sc: Nature VII|Thr=21||["Sour"](../08-spell-list.md#silent), ["Hide"](../08-spell-list.md#hide), ["Beast Speech"](../08-spell-list.md#beast-speech), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Rest"](../08-spell-list.md#least-rest), ["Animate Plant"](../08-spell-list.md#animate-plant),["Cure"](../08-spell-list.md#cure), ["Bestial Transformation"](../08-spell-list.md#bestial-transformation), ["Rejuvenate Land"](../08-spell-list.md#rejuvenate-land)|
+|Sc: Water III|Thr=21||["Least Hydromancy"](../08-spell-list.md#least-hydromancy), ["Mist"](../08-spell-list.md#mist), ["Chill Blood"](../08-spell-list.md#chill-blood), ["Winter's Touch"](../08-spell-list.md#winters-touch), ["Summon Water Sprite"](../08-spell-list.md#summon-water-sprite), ["Water Ward"](../08-spell-list.md#water-ward)|
+|Sc: Global I||||
+|||||
 |Low-light vision||||
-|Resistance|||"charmed"|
-|Resistance|||"stunned"|
 |[Multi-attack I](../06-abilities.md#multi-attack-i-iii)|||Make 2 attacks per turn|
 |[Fleet](../06-abilities.md#fleet)|||Hide from light concealment|
 |[Alert](../06-abilities.md#alert)|||Immune to "surprised"|
@@ -743,11 +751,10 @@ ____
 |[Precise Shot I](../06-abilities.md#precise-shot-i-iii)|||Ignore light cover|
 |[Trick Shot I](../06-abilities.md#trick-shot-i-ii)|||Avoid hitting friendlies in melee|
 |[Silent Step II](../06-abilities.md#silent-step-i-iii)|||Move more silently & run silently|
-|Spellcasting: Nature VII|||["Sour"](../08-spell-list.md#silent), ["Hide"](../08-spell-list.md#hide), ["Beast Speech"](../08-spell-list.md#beast-speech), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Rest"](../08-spell-list.md#least-rest), ["Animate Plant"](../08-spell-list.md#animate-plant),["Cure"](../08-spell-list.md#cure), ["Bestial Transformation"](../08-spell-list.md#bestial-transformation), ["Rejuvenate Land"](../08-spell-list.md#rejuvenate-land)|
-|Spellcasting: Water III|||["Least Hydromancy"](../08-spell-list.md#least-hydromancy), ["Mist"](../08-spell-list.md#mist), ["Chill Blood"](../08-spell-list.md#chill-blood), ["Winter's Touch"](../08-spell-list.md#winters-touch), ["Summon Water Sprite"](../08-spell-list.md#summon-water-sprite), ["Water Ward"](../08-spell-list.md#water-ward)|
 |[Cursed Blood](../06-abilities.md#cursed-blood)|||Reaction to cast spells in revenge|
+|Resistance|||"charmed", "stunned"|
 |Proficiencies|||One musical instrument, elvish, common and at least 2 other languages|
-|Skills|-|-|Usually +12 to "perform", +9 to four knowledges, +6 to the rest, +7 to "spellworking", +7 to "acrobatics" and +8 to "stealth", "navigate" +8|
+|Skills|||Usually +12 to "perform", +9 to four knowledges, +6 to the rest, +7 to "spellworking", +7 to "acrobatics" and +8 to "stealth", "navigate" +8|
 |Loot|||Usually some small trinket of sentimental value and the clothes on their back|
 
 This represents a millennia old elf. They have likely seen civilisations rise and fall. If they ever had friends amongst shorter lived mortals, then they have likely passed on long ago. This entity has a terrifying wealth of experience. This block can represent an elvish king, or some traveller who has wondered the earth for longer than he can remember. Either way, this is an extremely dangerous opponent.
@@ -779,9 +786,11 @@ Wears padded armour. When wielding blades increases to 18.
 |Sling|+12|1d6+5 Pi|range = 1600/80ft|
 |Scimitar|+12|1d8+5 Sl||
 |Knife|+12|1d4+5 Sl||
+|||||
+|Sc: Nature IV|Thr=18||["Sour"](../08-spell-list.md#silent), ["Hide"](../08-spell-list.md#hide), ["Beast Speech"](../08-spell-list.md#beast-speech), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Rest"](../08-spell-list.md#least-rest), ["Cure"](../08-spell-list.md#cure), ["Bestial Transformation"](../08-spell-list.md#bestial-transformation)|
+|Sc: Air II|Thr=18||["Least Anemancy"](../08-spell-list.md#least-anemancy), ["Least Blast"](../08-spell-list.md#least-blast), ["Spirits' Secrets"](../08-spell-list.md#spirits-secret), ["Silence"](../08-spell-list.md#silence), ["Glide"](../08-spell-list.md#glide)|
+|||||
 |Low-light vision||||
-|Resistance|||"charmed"|
-|Resistance|||"bleeding"|
 |["Stalker"](../06-abilities.md#stalker)|||Hide as secondary action|
 |[Multi-attack II](../06-abilities.md#multi-attack-i-iii)|||Make 3 attacks per turn|
 |[Offhand fighting II](../06-abilities.md#multi-attack-i-iii)|||Make 2 offhand attacks per turn|
@@ -795,10 +804,9 @@ Wears padded armour. When wielding blades increases to 18.
 |[Precise Shot I](../06-abilities.md#precise-shot-i-iii)|||Ignore light cover|
 |[Trick Shot I](../06-abilities.md#trick-shot-i-ii)|||Avoid hitting friendlies in melee|
 |[Silent Step III](../06-abilities.md#silent-step-i-iii)|||Move really silently|
-|Spellcasting: Nature IV|||["Sour"](../08-spell-list.md#silent), ["Hide"](../08-spell-list.md#hide), ["Beast Speech"](../08-spell-list.md#beast-speech), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Rest"](../08-spell-list.md#least-rest), ["Cure"](../08-spell-list.md#cure), ["Bestial Transformation"](../08-spell-list.md#bestial-transformation)|
-|Spellcasting: Air II|||["Least Anemancy"](../08-spell-list.md#least-anemancy), ["Least Blast"](../08-spell-list.md#least-blast), ["Spirits' Secrets"](../08-spell-list.md#spirits-secret), ["Silence"](../08-spell-list.md#silence), ["Glide"](../08-spell-list.md#glide)|
+|Resistance|||"charmed", "bleeding"|
 |Proficiencies|||One musical instrument, elvish, common|
-|Skills|-|-|+13 stealth, +13 Acrobatics, +8 Athletics, Climb, Swim, +8 Track, Observe, +5 Sense motive, knowledge: nature, geography, "navigate" +5|
+|Skills|||+13 stealth, +13 Acrobatics, +8 Athletics, Climb, Swim, +8 Track, Observe, +5 Sense motive, knowledge: nature, geography, "navigate" +5|
 |Loot|||Usually some small trinket of sentimental value and the clothes on their back|
 
 This block represents an elite warrior/scout who hunts down evil creatures and enemies of elven-kind, be they monsters that hunt people, or people who hunt elves.
@@ -828,23 +836,25 @@ Wears a light cuirass.
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Sling|+8|1d6+3 Pi|range = 600/120ft|
+|Sling|+8|1d6+3 Pi|range = 1600/80ft|
 |Shortstaff|+8|1d6+3 Pi||
 |Knife|+8|1d4+3 Sl||
-|Low-light vision||||
-|Immunity|||"charmed"|
+|||||
+|Sc: Nature V|Thr=21||["Sour"](../08-spell-list.md#silent), ["Hide"](../08-spell-list.md#hide), ["Beast Speech"](../08-spell-list.md#beast-speech), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Rest"](../08-spell-list.md#least-rest), ["Animate Plant"](../08-spell-list.md#animate-plant),["Cure"](../08-spell-list.md#cure), ["Bestial Transformation"](../08-spell-list.md#bestial-transformation), ["Rejuvenate Land"](../08-spell-list.md#rejuvenate-land)|
+|Sc: Water V|Thr=21||["Least Hydromancy"](../08-spell-list.md#least-hydromancy), ["Mist"](../08-spell-list.md#mist), ["Chill Blood"](../08-spell-list.md#chill-blood), ["Winter's Touch"](../08-spell-list.md#winters-touch), ["Summon Water Sprite"](../08-spell-list.md#summon-water-sprite), ["Water Ward"](../08-spell-list.md#water-ward), "[](../08-spell-list.md)"|
+|Sc: Air III|Thr=21||["Least Anemancy"](../08-spell-list.md#least-anemancy), ["Least Blast"](../08-spell-list.md#least-blast), ["Spirits' Secrets"](../08-spell-list.md#spirits-secret), ["Silence"](../08-spell-list.md#silence), ["Glide"](../08-spell-list.md#glide), ["Wind Walk"](../08-spell-list.md#wind-walk), ["Guidance of the Winds"](../08-spell-list.md#guidance-of-the-winds)|
+|||||
 |[Fleet](../06-abilities.md#fleet)|||Hide from light concealment|
 |[Alert](../06-abilities.md#alert)|||Immune to "surprised"|
 |[Aphonic Spell](../06-abilities.md#aphonic-spell)|||Eschew incantation components|
 |[Lingering Spell](../06-abilities.md#lingering-spell)|||Spells last longer|
 |[Safe Cast](../06-abilities.md#safe-cast)|||Eschew incantation components|
 |[Silent Step II](../06-abilities.md#silent-step-i-iii)|||Move more silently & run silently|
-|Spellcasting: Nature V|||["Sour"](../08-spell-list.md#silent), ["Hide"](../08-spell-list.md#hide), ["Beast Speech"](../08-spell-list.md#beast-speech), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Rest"](../08-spell-list.md#least-rest), ["Animate Plant"](../08-spell-list.md#animate-plant),["Cure"](../08-spell-list.md#cure), ["Bestial Transformation"](../08-spell-list.md#bestial-transformation), ["Rejuvenate Land"](../08-spell-list.md#rejuvenate-land)|
-|Spellcasting: Water V|||["Least Hydromancy"](../08-spell-list.md#least-hydromancy), ["Mist"](../08-spell-list.md#mist), ["Chill Blood"](../08-spell-list.md#chill-blood), ["Winter's Touch"](../08-spell-list.md#winters-touch), ["Summon Water Sprite"](../08-spell-list.md#summon-water-sprite), ["Water Ward"](../08-spell-list.md#water-ward), "[](../08-spell-list.md)"|
-|Spellcasting: Air III|||["Least Anemancy"](../08-spell-list.md#least-anemancy), ["Least Blast"](../08-spell-list.md#least-blast), ["Spirits' Secrets"](../08-spell-list.md#spirits-secret), ["Silence"](../08-spell-list.md#silence), ["Glide"](../08-spell-list.md#glide), ["Wind Walk"](../08-spell-list.md#wind-walk), ["Guidance of the Winds"](../08-spell-list.md#guidance-of-the-winds)|
 |[Cursed Blood](../06-abilities.md#cursed-blood)|||Reaction to cast spells in revenge|
+|Low-light vision||||
+|Immunity|||"charmed"|
 |Proficiencies|||One musical instrument, elvish, common and at least 2 other languages|
-|Skills|-|-|Usually +5 to "perform", +7 to three knowledges, +9 to "spellworking", +4 to "acrobatics" and +8 to "stealth", "navigate" +5|
+|Skills|||Usually +5 to "perform", +7 to three knowledges, +9 to "spellworking", +4 to "acrobatics" and +8 to "stealth", "navigate" +5|
 |Loot|||Usually some small trinket of sentimental value and the clothes on their back|
 
 This represents an elf who has devoted several centuries to learning spellcraft.
@@ -985,13 +995,14 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|[Elemental Touch](../06-abilities.md#touch-elemental-touch)|+9|2d6+2|(fire or ice), +1d6 per MP dice|
-|[Elemental Blast](../06-abilities.md#blast-elemental-blast)|+9|2d4+4|(light or lightning), +1d4 per MP dice, see ability.|
 |Shortstaff|+6|1d6+2||
 |War dart|+6|1d4+2|Range=240ft, Increment=60ft|
+|[Elemental Touch](../06-abilities.md#touch-elemental-touch)|+9|2d6+2|(fire or ice), +1d6 per MP dice|
+|[Elemental Blast](../06-abilities.md#blast-elemental-blast)|+9|2d4+4|(light or lightning), +1d4 per MP dice, see ability.|
+|Sc: Nature II|Thr=20||["Compass"](../08-spell-list.md#compass), ["Hide"](../08-spell-list.md#hide), ["Least Heal"](../08-spell-list.md#least-heal), ["Harvest"](../08-spell-list.md#harvest)|
+|Sc: Earth IV|Thr=20||["Down"](../08-spell-list.md#down), ["Least Geomancy"](../08-spell-list.md#least-geomancy), ["Bear's Claws"](../08-spell-list.md#bears-claws), ["Shape Earth"](../08-spell-list.md#shape-earth), ["Summon gnome"](../08-spell-list.md#summon-gnome), ["Guidance of the Earth"](../08-spell-list.md#guidance-of-the-earth), ["Earth Ward"](../08-spell-list.md#earth-ward), ["Enchanted Ground"](../08-spell-list.md#enchanted-ground)|
+|||||
 |[Cursed Blood](../06-abilities.md#cursed-blood)|||Reaction to cast spells in revenge|
-|Spellcasting: Nature II|||["Compass"](../08-spell-list.md#compass), ["Hide"](../08-spell-list.md#hide), ["Least Heal"](../08-spell-list.md#least-heal), ["Harvest"](../08-spell-list.md#harvest)|
-|Spellcasting: Earth IV|||["Down"](../08-spell-list.md#down), ["Least Geomancy"](../08-spell-list.md#least-geomancy), ["Bear's Claws"](../08-spell-list.md#bears-claws), ["Shape Earth"](../08-spell-list.md#shape-earth), ["Summon gnome"](../08-spell-list.md#summon-gnome), ["Guidance of the Earth"](../08-spell-list.md#guidance-of-the-earth), ["Earth Ward"](../08-spell-list.md#earth-ward), ["Enchanted Ground"](../08-spell-list.md#enchanted-ground)|
 |Proficiency|||Common and any 2 languages, axes, spears, strikes, staves|
 |Skills|||"Spellworking" +10, knowledge nature, arcana +8, "observe" +7, "track" + 5, "fortify" +4, "navigate" +4|
 
@@ -1020,16 +1031,18 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|[Elemental Touch, Enhanced](../06-abilities.md#touch-elemental-touch)|+9|2d8+4|(light), +1d8 per MP dice|
-|[Elemental Aura](../06-abilities.md#aura)|Thr=18|2d4+4|(light), +1d4 per MP dice|
-|[Elemental Blast](../06-abilities.md#blast-elemental-blast)|+9|2d4+4|(light or lightning), +1d4 per MP dice, see ability.|
-|[Elemental Blast: Line](../06-abilities.md#line)|Thr=18|2d4+4|(light or lightning), +1d4 per MP dice, see ability.|
-|[Elemental Blast: Sphere](../06-abilities.md#circle)|Thr=18|2d4+4|(light or lightning), +1d4 per MP dice, see ability.|
 |Shortstaff|+6|1d6+2||
 |War dart|+6|1d4+2|Range=240ft, Increment=60ft|
+|||||
+|[Elemental Touch, Enhanced](../06-abilities.md#touch-elemental-touch)|+9|2d8+4|(light), +1d8 per MP dice|
+|[Elemental Aura](../06-abilities.md#aura)|Thr=20|2d4+4|(light), +1d4 per MP dice|
+|[Elemental Blast](../06-abilities.md#blast-elemental-blast)|+9|2d4+4|(light or lightning), +1d4 per MP dice, see ability.|
+|[Elemental Blast: Line](../06-abilities.md#line)|Thr=20|2d4+4|(light or lightning), +1d4 per MP dice, see ability.|
+|[Elemental Blast: Sphere](../06-abilities.md#circle)|Thr=20|2d4+4|(light or lightning), +1d4 per MP dice, see ability.|
+|Sc: Nature I|Thr=20||["Compass"](../08-spell-list.md#compass), ["Hide"](../08-spell-list.md#hide), ["Least Heal"](../08-spell-list.md#least-heal)|
+|Sc: Earth III|Thr=20||["Down"](../08-spell-list.md#down), ["Least Geomancy"](../08-spell-list.md#least-geomancy), ["Bear's Claws"](../08-spell-list.md#bears-claws), ["Shape Earth"](../08-spell-list.md#shape-earth), ["Summon gnome"](../08-spell-list.md#summon-gnome), ["Guidance of the Earth"](../08-spell-list.md#guidance-of-the-earth), ["Earth Ward"](../08-spell-list.md#earth-ward)|
+|||||
 |[Cursed Blood](../06-abilities.md#cursed-blood)|||Reaction to cast spells in revenge|
-|Spellcasting: Nature I|||["Compass"](../08-spell-list.md#compass), ["Hide"](../08-spell-list.md#hide), ["Least Heal"](../08-spell-list.md#least-heal)|
-|Spellcasting: Earth III|||["Down"](../08-spell-list.md#down), ["Least Geomancy"](../08-spell-list.md#least-geomancy), ["Bear's Claws"](../08-spell-list.md#bears-claws), ["Shape Earth"](../08-spell-list.md#shape-earth), ["Summon gnome"](../08-spell-list.md#summon-gnome), ["Guidance of the Earth"](../08-spell-list.md#guidance-of-the-earth), ["Earth Ward"](../08-spell-list.md#earth-ward)|
 |Proficiency|||Common and any 2 languages, axes, spears, strikes, staves|
 |Skills|||"Spellworking" +10, knowledge nature, arcana +8, "observe" +7, "track" + 5, "fortify" +4, "navigate" +4|
 
@@ -1039,6 +1052,8 @@ An orcish warlock despises combat against living, flesh and blood foes that can 
 
 ___
 ## Winged
+
+**Size**: Small
 
 ### Winged (level 1)
 
@@ -1059,15 +1074,17 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Size|||Small|
-|(Optional) Spellcasting: Air|||["Least Anemancy"](../08-spell-list.md#least-anemancy), ["Whispers"](../08-spell-list.md#whispers), ["Least Blast"](../08-spell-list.md#least-blast)|
+|Shortbow|+3|1d4+1|(Range=600ft, Increment=120ft)|
+|(Optional) Sc: Air|Thr=15||["Least Anemancy"](../08-spell-list.md#least-anemancy), ["Whispers"](../08-spell-list.md#whispers), ["Least Blast"](../08-spell-list.md#least-blast)|
 |Proficiency|||Common, Bird, 1 tool|
 |Skills|||"Fly" +5, "Observe" +3, "perform" +1|
 
-This represents an averaged Winged. They are fairly harmless and will flee rather than fight. About 1/6 winged are capable of elementary wind magic, and know 2 of the three spells listed above.
+This represents an averaged Winged. They are fairly harmless and will flee rather than fight. About 1/6 winged are capable of elementary wind magic, and know 2 of the three spells listed above. Some are proficient with bows, in which case they might carry a shortbow and half a dozen arrows.
 
 ___
 ### Winged Shepherd (level 4)
+
+**Size**: Small
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
@@ -1091,9 +1108,10 @@ ___
 |Size|||Small|
 |Shortstaff|+6|1d8+3|Two handed|
 |Shortbow|+6|1d6+3|range 600/120ft|
+|Sc: Air II|Thr=17||["Least Anemancy"](../08-spell-list.md#least-anemancy), ["Whispers"](../08-spell-list.md#whispers), ["Least Blast"](../08-spell-list.md#least-blast), ["Spirits Secret"](../08-spell-list.md#spirits-secret), ["Tailwind"](../08-spell-list.md#tailwind), ["Summon Wind Sprite"](../08-spell-list.md#summon-wind-sprite)|
+|||||
 |Alert|||Immune to surprise|
 |[Enduring Flight IV](../06-abilities.md#enduring-flight)|||A winged shephard can remain on the wing for 6 hours per day.|
-|Spellcasting: Air II|||["Least Anemancy"](../08-spell-list.md#least-anemancy), ["Whispers"](../08-spell-list.md#whispers), ["Least Blast"](../08-spell-list.md#least-blast), ["Spirits Secret"](../08-spell-list.md#spirits-secret), ["Tailwind"](../08-spell-list.md#tailwind), ["Summon Wind Sprite"](../08-spell-list.md#summon-wind-sprite)|
 |Proficiency|||Common, Bird, 1 set of tools or a trade|
 |Skills|||"Fly" +8, "Observe" +5, "Navigate" +4, "perform" +4|
 
@@ -1105,6 +1123,8 @@ Winged Shepherds prefer to avoid conflict. When they fight, they fight to delay 
 
 ___
 ### Winged Scout (level 8)
+
+**Size**: Small
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
@@ -1125,9 +1145,10 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Size|||Small|
 |Scimitar|+9|1d8+4||
 |Composite Bow|+9|1d8+4|range 1200/240ft|
+|Sc: Air II|Thr=17||["Least Anemancy"](../08-spell-list.md#least-anemancy), ["Whispers"](../08-spell-list.md#whispers), ["Least Blast"](../08-spell-list.md#least-blast), ["Spirits Secret"](../08-spell-list.md#spirits-secret), ["Tailwind"](../08-spell-list.md#tailwind), ["Summon Wind Sprite"](../08-spell-list.md#summon-wind-sprite), ["Lesser Veil"](../08-spell-list.md#lesser-veil)|
+|||||
 |[Alert](../06-abilities.md#alert)|||Immune to surprise|
 |[Evasive](../06-abilities.md#evasive)|||Avoid AoOs|
 |[Skirmisher](../06-abilities.md#skirmisher)|||Avoid AoOs|
@@ -1136,7 +1157,6 @@ ___
 |[Enduring Flight VIII](../06-abilities.md#enduring-flight)||||
 |[Sleep on the Wing](../06-abilities.md#sleep-on-the-wing)|||A winged scout can remain airborne to sleep. They do need to land to rest properly, however.|
 |[Fleet](../06-abilities.md#fleet)|||Hide in the mist|
-|Spellcasting: Air II|||["Least Anemancy"](../08-spell-list.md#least-anemancy), ["Whispers"](../08-spell-list.md#whispers), ["Least Blast"](../08-spell-list.md#least-blast), ["Spirits Secret"](../08-spell-list.md#spirits-secret), ["Tailwind"](../08-spell-list.md#tailwind), ["Summon Wind Sprite"](../08-spell-list.md#summon-wind-sprite), ["Lesser Veil"](../08-spell-list.md#lesser-veil)|
 |Proficiency|||Common, Bird, 1 set of tools or a trade|
 |Skills|||"Fly" +10, "Observe" +8, "Stealth" +7, "Navigate" +6, "Perform" +4|
 
@@ -1147,6 +1167,8 @@ Winged scouts will sooner flee than fight, unless there is something that must b
 ___
 ### Winged Wind Mage (level 12)
 
+**Size**: Small
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |19/14/17|50 (*28*)|74 (*52*)|16|20ft|Flight (70ft, good, endurance = 8 hours)|
@@ -1156,8 +1178,8 @@ ___
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
 |Stat|10|18|14|14|18|14|
-|Bonus|-1|+4|+2|0|+2|+2|
-|Save|+2|+10|+5|+8|+5|+5|
+|Bonus|-1|+4|+2|0|+4|+2|
+|Save|+2|+10|+5|+8|+7|+5|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
@@ -1166,18 +1188,18 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Size|||Small|
 |Composite Bow|+10|1d8+4|range 1200/240ft|
 |[Elemental Blast](../06-abilities.md#blast-elemental-blast)|+12|2d4+4|(fire), +1d6 per MP dice, see ability.|
 |[Elemental Touch](../06-abilities.md#touch-elemental-touch)|+12|2d4+4|(lightning), +2d4 per MP dice, see ability.|
+|Sc: Air VI|Thr=22||["Least Anemancy"](../08-spell-list.md#least-anemancy), ["Whispers"](../08-spell-list.md#whispers), ["Least Blast"](../08-spell-list.md#least-blast), ["Spirits Secret"](../08-spell-list.md#spirits-secret), ["Tailwind"](../08-spell-list.md#tailwind), ["Summon Wind Sprite"](../08-spell-list.md#summon-wind-sprite), ["Lesser Veil"](../08-spell-list.md#lesser-veil)|
+|Sc: Fire III|Thr=22||["Least Pyromancy"](../08-spell-list.md#least-pyromancy), ["Ignition"](../08-spell-list.md#ignition), ["Least Vengeance"](../08-spell-list.md#least-vengeance), ["Foxfire"](../08-spell-list.md#foxfire), ["Warmth"](../08-spell-list.md#warmth), ["Summon Flame Sprite"](../08-spell-list.md#summon-flame-sprite), ["Meadow of Flame"](../08-spell-list.md#meadow-of-flame), ["Command Mortal"](../08-spell-list.md#command-mortal)|
+|Sc: Nature III|Thr=22||["Compass"](../08-spell-list.md#compass), ["Sour"](../08-spell-list.md#sour), ["Least Heal"](../08-spell-list.md#least-heal), ["Beast Speech"](../08-spell-list.md#beast-speech), ["Least Rest"](../08-spell-list.md#least-rest), ["Harvest"](../08-spell-list.md#harvest), ["Cure"](../08-spell-list.md#cure), ["Growth"](../08-spell-list.md#growth)||
+|||||
 |[Alert](../06-abilities.md#alert)|||Immune to surprise|
 |[Evasive](../06-abilities.md#evasive)|||Avoid AoOs|
 |[Sprinter](../06-abilities.md#sprinter)|||Go further|
 |[Fleet](../06-abilities.md#fleet)|||Hide in the mist|
 |[Enduring Flight VI](../06-abilities.md#enduring-flight)|||A winged mage can remain on the wing for 8 hours per day.|
-|Spellcasting: Air VI|||["Least Anemancy"](../08-spell-list.md#least-anemancy), ["Whispers"](../08-spell-list.md#whispers), ["Least Blast"](../08-spell-list.md#least-blast), ["Spirits Secret"](../08-spell-list.md#spirits-secret), ["Tailwind"](../08-spell-list.md#tailwind), ["Summon Wind Sprite"](../08-spell-list.md#summon-wind-sprite), ["Lesser Veil"](../08-spell-list.md#lesser-veil)|
-|Spellcasting: Fire III|||["Least Pyromancy"](../08-spell-list.md#least-pyromancy), ["Ignition"](../08-spell-list.md#ignition), ["Least Vengeance"](../08-spell-list.md#least-vengeance), ["Foxfire"](../08-spell-list.md#foxfire), ["Warmth"](../08-spell-list.md#warmth), ["Summon Flame Sprite"](../08-spell-list.md#summon-flame-sprite), ["Meadow of Flame"](../08-spell-list.md#meadow-of-flame), ["Command Mortal"](../08-spell-list.md#command-mortal)|
-|Spellcasting: Nature III|||["Compass"](../08-spell-list.md#compass), ["Sour"](../08-spell-list.md#sour), ["Least Heal"](../08-spell-list.md#least-heal), ["Beast Speech"](../08-spell-list.md#beast-speech), ["Least Rest"](../08-spell-list.md#least-rest), ["Harvest"](../08-spell-list.md#harvest), ["Cure"](../08-spell-list.md#cure), ["Growth"](../08-spell-list.md#growth)||
 |Proficiency|||Common, Bird, herbalist's kit, calligraphy kits|
 |Skills|||"Fly" +8, "Knowledge: arcana" + 7, "Knowledge: geography" +5, "Academics" +5, "Observe" +6, "Stealth" +6, "Navigate" +6, "Perform" +4|
 
@@ -1209,10 +1231,10 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Strike|+3|1d4+1||
-|Grapple|+3|||
 |Spear|+3|1d12+1|60ft/20ft (optionally proficient)|
 |Shortbow|+2|1d6|600ft/120ft (optionally proficient)|
-|Abilities|||"Xenophonia I" animal|
+|Grapple|+3|||
+|["Xenophonia I"](../06-abilities.md#xenophonia-i-xiii)|||A beast folk can speak to beasts.|
 |Senses|||"Low light vision"|
 |Skills|||"Harvest" +2, "Track" +2, "Athletics" +2, "Climb" +2, "Swim" +2, "Prospect" +1, "Observe" +1, "Intimidate" +2, "Creature Handling" +2, "Fortify" +2|
 |Loot|||The clothes on their back,  0-20sp, whatever everyday item they might carry.|
@@ -1247,12 +1269,12 @@ Assumed wearing light cuirass
 |Strike|+5|1d6+2 (+1d8)|(Unarmed Strike II)|
 |Grapple|+5|||
 |Shortbow|+5|1d6+2 (+1d8)|600ft/120ft|
-|["Weapon Finesse"](../06-abilities.md#weapon-finesse)|||Add damage to dex based attacks|
-|["Terrain Mastery"](../06-abilities.md#terrain-mastery) (any 1)|||bonuses to skills on one type of terrain, usually hill or woodlands|
-|["Xenophonia I"](../06-abilities.md#xenophonia-i-xiii) (animal)|||Can speak to animals|
-|["Flurry"](../06-abilities.md#flurry)|||Makes an extra attack with their unarmed attack|
-|["Parry"](../06-abilities.md#parry)|||Adds +2 to HiT against up to 2 weapon attacks|
-|["Precision Attack I"](../06-abilities.md#precision-attack-i-x)|||Do extra damage against a foe as a main action|
+|["Weapon Finesse"](../06-abilities.md#weapon-finesse)|||Add damage to dex based attacks.|
+|["Terrain Mastery"](../06-abilities.md#terrain-mastery)|||bonuses to skills on one type of terrain, usually hill or woodlands.|
+|["Xenophonia I"](../06-abilities.md#xenophonia-i-xiii)|||Can speak to beasts.|
+|["Flurry"](../06-abilities.md#flurry)|||Makes an extra attack with their unarmed attack.|
+|["Parry"](../06-abilities.md#parry)|||Adds +2 to HiT against up to 2 weapon attacks.|
+|["Precision Attack I"](../06-abilities.md#precision-attack-i-x)|||Do extra damage against a foe as a main action.|
 |Spellcasting I|||Some beastfolk travellers are proficient with one kind of elemental magic, usually water.|
 |Senses|||"Low light vision"|
 |Skills|||"Fortify" +4, "Navigate" +3, "Sense Motive" +4, "Athletics" +2, "Climb" +2, "Swim" +2, "Observe" +2, "Intimidate" +2, "Creature Handling" +2, "Harvest" +1, "Prospect" +1, "Track" +1|
@@ -1291,12 +1313,12 @@ Wears brigandine (+4 HiT, armour). If using a light shield, add +3 to HiT.
 |Spear|+8|1d12+3|60ft/20ft|
 |["Combined manoeuvre I"](../06-abilities.md#combined-manoeuvre-i-v)|||Combine two manoeuvres, expending 1 SP dice.|
 |["Counterstrike"](../06-abilities.md#counterstrike)|||The warrior can make one attack of opportunity against a melee attack as a reaction.|
-|["Multi attack I"](../06-abilities.md#multi-attack-i-iii)|||The warrior attacks twice|
-|["Flurry"](../06-abilities.md#flurry)|||Makes an extra attack with their unarmed attack|
-|["Parry"](../06-abilities.md#parry)|||Adds +3 to HiT against up to 3 weapon attacks|
-|["Terrain Mastery"](../06-abilities.md#terrain-mastery) (any 1)|||bonuses to skills on one type of terrain, usually hill or woodlands|
-|["Speed II"](../06-abilities.md#speed)|||+10ft to movement speed for a total of 45ft|
-|["Xenophonia I"](../06-abilities.md#xenophonia-i-xiii) (animal)|||Can speak to animals|
+|["Multi attack I"](../06-abilities.md#multi-attack-i-iii)|||The warrior attacks twice.|
+|["Flurry"](../06-abilities.md#flurry)|||Makes an extra attack with their unarmed attack.|
+|["Parry"](../06-abilities.md#parry)|||Adds +3 to HiT against up to 3 weapon attacks.|
+|["Terrain Mastery"](../06-abilities.md#terrain-mastery)|||bonuses to skills on one type of terrain, usually hill or woodlands.|
+|["Speed II"](../06-abilities.md#speed)|||+10ft to movement speed for a total of 45ft.|
+|["Xenophonia I"](../06-abilities.md#xenophonia-i-xiii)|||Can speak to beasts.|
 |Spellcasting I|||Some beastfolk warriors are proficient with one kind of elemental magic, usually fire.|
 |Senses|||"Low light vision"|
 |Skills|||"Fortify" +9, "Climb" +9, "Athletics" +9, "Swim" +5, "Stealth" +5, "Navigate" +3, "Sense Motive" +4, "Observe" +4, "Intimidate" +2, "Creature Handling" +2, "Harvest" +1, "Prospect" +1, "Track" +1|
@@ -1336,18 +1358,18 @@ Wears light cuirass  (+1)
 |Restrain|+8|||
 |Throw|+8|||
 |Disarm|+8|||
-|["Multi attack I"](../06-abilities.md#multi-attack-i-iii)|||The warrior attacks twice|
+|["Multi attack I"](../06-abilities.md#multi-attack-i-iii)|||The warrior attacks twice.|
 |["Combined manoeuvre II"](../06-abilities.md#combined-manoeuvre-i-v)|||A mystic warrior can combine 3 manoeuvres (expends 1SP dice per combination)|
 |Foresight|||A mystic warrior adds +1 to HiT from WIS|
-|["Flurry"](../06-abilities.md#flurry)|||A mystic warrior makes an extra attack with a light weapon or strike as a bonus action, or two if expending 1 MP dice|
-|["Parry"](../06-abilities.md#parry)|||Adds +3 to HiT against up to 3 weapon attacks|
-|Deflect Missile|||Spend 1 SP dice to reduce damage from ranged weapon attacks by 1d8+9 on a failed parry|
+|["Flurry"](../06-abilities.md#flurry)|||A mystic warrior makes an extra attack with a light weapon or strike as a bonus action, or two if expending 1 MP dice.|
+|["Parry"](../06-abilities.md#parry)|||Adds +3 to HiT against up to 3 weapon attacks.|
+|Deflect Missile|||Spend 1 SP dice to reduce damage from ranged weapon attacks by 1d8+9 on a failed parry.|
 |["Debilitating Strike"](../06-abilities.md#debilitating-strike)|||"Aphonic", "Blinded", "Stunned". Thr=18|
-|["Deflection"](../06-abilities.md#deflection)|||An arcane warrior may deflect some damage from supernatural attacks|
-|["Xenophonia I"](../06-abilities.md#xenophonia-i-xiii) (animal)|||Can speak to animals|
-|["Speed IV"](../06-abilities.md#speed)|||+20ft to movement speed for a total of 55ft|
-|"[Mage Hunter II](../06-abilities.md#mage-hunter-ii)|||Mystic warriors are strong against mages|
-|["Silent Step I"](../06-abilities.md#silent-step-i-iii)|||A mystic warrior can stealth even while moving at full speed|
+|["Deflection"](../06-abilities.md#deflection)|||An arcane warrior may deflect some damage from supernatural attacks.|
+|["Xenophonia I"](../06-abilities.md#xenophonia-i-xiii)|||Can speak to beasts.|
+|["Speed IV"](../06-abilities.md#speed)|||+20ft to movement speed for a total of 55ft.|
+|"[Mage Hunter II](../06-abilities.md#mage-hunter-ii)|||Mystic warriors are strong against mages.|
+|["Silent Step I"](../06-abilities.md#silent-step-i-iii)|||A mystic warrior can stealth even while moving at full speed.|
 |["Life Sense I"](../06-abilities.md#life-sense-i-v)|||A mystic warrior can see the life-force of beings that are not undead within 15ft. The ability is blocked by 6ft of earth or organic material, or 2ft of stone or metal.|
 |["Mental Fight"](../06-abilities.md#mental-fight)|||A mystic warrior can use MP dice and SAP for flurry, debilitating strike and Flash step if it so chooses.|
 |Spellcasting I|||Some beastfolk warriors are proficient with one kind of elemental magic, usually air.|
@@ -1439,18 +1461,19 @@ Goblins are generally weak and frail, and will use stealth and sneaky tactics th
 |Short Spear (thrown)|+10|1d4+4|Range=60ft, Increment=20ft|
 |Composite Bow|+10|1d5+4|Range=1200ft, Increment=240ft|
 |||||
+|[Precision Attack: IV](../06-abilities.md#precision-attack-i-x)|4d8||A goblin strategist can deal an extra 4d8 damage to foes in a vulnerable position|
+|[Sc: Kinetic](../06-abilities.md#spellcasting-local)|Thr=22||["Compass"](../08-spell-list.md#compass), ["Mist"](../08-spell-list.md#mist), ["Whispers"](../08-spell-list.md#whispers), ["Spirits' Secret"](../08-spell-list.md#spirits-secret)|
+|[Sc: Incantation](../06-abilities.md#spellcasting-local)|Thr=22||["Least Anemancy"](../08-spell-list.md#least-anemancy), ["Least Hydromancy"](../08-spell-list.md#least-hydromancy), ["Least Ward"](../08-spell-list.md#least-ward), ["Least Heal"](../08-spell-list.md#least-heal)|
+|[Sc: Fire I](../06-abilities.md#spellcasting-local)|Thr=18||["Ignition"](../08-spell-list.md#ignition), ["Least Warmth"](../08-spell-list.md#least-warmth), ["Enflame"](../08-spell-list.md#enflame), ["Shape Spell"](../08-spell-list.md#sense-spell)|
+|[Sc: Earth I](../06-abilities.md#spellcasting-local)|Thr=18||["Down"](../08-spell-list.md#down), ["Least Geomancy"](../08-spell-list.md#least-geomancy), ["Shape Earth"](../08-spell-list.md#shape-earth), ["Gnomes' Mercy"](../08-spell-list.md#gnomes-mercy)|
+|[Spellcasting Global: V](../08-spell-list.md)|||["Warded Ground"](../08-spell-list.md#warded-ground), ["Guidance of the Earth"](../08-spell-list.md#guidance-of-the-earth), ["Fire Ward"](../08-spell-list.md#fire-ward), ["Animate Golem"](../08-spell-list.md#animate-golem), ["Enchanted Ground"](../08-spell-list.md#enchanted-ground), ["Scry"](../08-spell-list.md#scry), ["Greater Fire Ward"](../08-spell-list.md#greater-fire-ward), ["Plague"](../08-spell-list.md#plague), ["Rift"](../08-spell-list.md#rift)|
+|||||
 |[Evasive](../06-abilities.md#evasive)|||A goblin strategists avoids AoOs when moving between threatened squares.|
 |[Guarded](../06-abilities.md#guarded)|||A goblin strategist avoids AoOs when standing up, drinking potions and using items.|
 |[Mage Hunter I](../06-abilities.md#mage-hunter-i)|||A goblin strategist can make AoOs against spellcaster casting spells with only incantation component.|
-|[Precision Attack: IV](../06-abilities.md#precision-attack-i-x)|4d8||A goblin strategist can deal an extra 4d8 damage to foes in a vulnerable position|
 |[Parry](../06-abilities.md#parry)|||A goblin strategist can use its reaction to increase its HiT by 6 against up to 3 weapon attacks.|
 |[Deflection](../06-abilities.md#deflection)|||A goblin strategist can use its reaction to reduce damage from supernatural attacks by 1d4+7+1d4/[MP die expended]|
 |||||
-|[Spellcasting Local: Kinetic](../06-abilities.md#spellcasting-local)|Thr=22||["Compass"](../08-spell-list.md#compass), ["Mist"](../08-spell-list.md#mist), ["Whispers"](../08-spell-list.md#whispers), ["Spirits' Secret"](../08-spell-list.md#spirits-secret)|
-|[Spellcasting Local: Incantation](../06-abilities.md#spellcasting-local)|Thr=22||["Least Anemancy"](../08-spell-list.md#least-anemancy), ["Least Hydromancy"](../08-spell-list.md#least-hydromancy), ["Least Ward"](../08-spell-list.md#least-ward), ["Least Heal"](../08-spell-list.md#least-heal)|
-|[Spellcasting Local: Fire I](../06-abilities.md#spellcasting-local)|Thr=18||["Ignition"](../08-spell-list.md#ignition), ["Least Warmth"](../08-spell-list.md#least-warmth), ["Enflame"](../08-spell-list.md#enflame), ["Shape Spell"](../08-spell-list.md#sense-spell)|
-|[Spellcasting Local: Earth I](../06-abilities.md#spellcasting-local)|Thr=18||["Down"](../08-spell-list.md#down), ["Least Geomancy"](../08-spell-list.md#least-geomancy), ["Shape Earth"](../08-spell-list.md#shape-earth), ["Gnomes' Mercy"](../08-spell-list.md#gnomes-mercy)|
-|[Spellcasting Global: V](../08-spell-list.md)|||["Warded Ground"](../08-spell-list.md#warded-ground), ["Guidance of the Earth"](../08-spell-list.md#guidance-of-the-earth), ["Fire Ward"](../08-spell-list.md#fire-ward), ["Animate Golem"](../08-spell-list.md#animate-golem), ["Enchanted Ground"](../08-spell-list.md#enchanted-ground), ["Scry"](../08-spell-list.md#scry), ["Greater Fire Ward"](../08-spell-list.md#greater-fire-ward), ["Plague"](../08-spell-list.md#plague), ["Rift"](../08-spell-list.md#rift)|
 |[Bind Beast: VI](../06-abilities.md#bind-beast-i-x)|||A strategist binds a beast to act as its mount and guardian|
 |[Bind Familiar: IV](../06-abilities.md#bind-familiar-i-iv)|||A strategist summons a familiar based on the specific needs|
 |||||
@@ -1540,14 +1563,15 @@ ___
 |Strike|+11|1d2+5|Reach=5ft(long)|
 |Grapple|+11||Reach=5ft(long)|
 |Spear|+11|1d12/2d8+5|Reach=15ft|
-|[Multiattack I](../06-abilities.md#multi-attack-i-iii)|||An ogre can attempt 2 combat manoeuvres as an attack action (main action)|
-|[Great Strike](../06-abilities.md#great-strike)|||An ogre can take a malus of up to 3 from its attack bonus to grant itself a corresponding bonus to one-handed attacks or twice the bonus to two handed attacks|
 |||||
 |[Elemental Blast: Fire](../06-abilities.md#blast-elemental-blast)|+9|3d6+2|Reach=5ft(long). An ogre mage can apply up to 5 MP dice to its elemental blast.|
 |[Elemental Touch: Fire](../06-abilities.md#touch-elemental-touch)|+9|3d6+2|Reach=5ft(long). An ogre mage can apply up to 5 MP dice to its elemental blast.|
+|[Sc: Incantation V](../06-abilities.md#spellcasting-local)|||Favourite Spells: [Least Pyromancy](../06-abilities.md#least-pyromancy), [Least Vengeance](../06-abilities.md#least-vengeance), [Natural Xenophonia](../06-abilities.md#natural-xenophonia), [Cure](../06-abilities.md#cure), [Least Weather Control](../06-abilities.md#lesser-weather-control), [Isolate Essence](../06-abilities.md#isolate-essence)|
+|[Sc: Kinetic V](../06-abilities.md#spellcasting-local)|||Favourite Spells: [Mist](../08-spell-list.md#mist), [Lesser Illusory Self](../08-spell-list.md#lessor-illusory-self), [Call Ailment](../08-spell-list.md#call-ailment), [Least Curse](../08-spell-list.md#least-curse), [Scry](../08-spell-list.md#scry), [Flame Stride](../08-spell-list.md#flame-stride)|
 |[War Mage](../06-abilities.md#war-mage)|||An ogre mage has advantage on concentration saves.|
-|[Spellcasting Local: Incantation V](../06-abilities.md#spellcasting-local)|||Favourite Spells: [Least Pyromancy](../06-abilities.md#least-pyromancy), [Least Vengeance](../06-abilities.md#least-vengeance), [Natural Xenophonia](../06-abilities.md#natural-xenophonia), [Cure](../06-abilities.md#cure), [Least Weather Control](../06-abilities.md#lesser-weather-control), [Isolate Essence](../06-abilities.md#isolate-essence)|
-|[Spellcasting Local: Kinetic V](../06-abilities.md#spellcasting-local)|||Favourite Spells: [Mist](../08-spell-list.md#mist), [Lesser Illusory Self](../08-spell-list.md#lessor-illusory-self), [Call Ailment](../08-spell-list.md#call-ailment), [Least Curse](../08-spell-list.md#least-curse), [Scry](../08-spell-list.md#scry), [Flame Stride](../08-spell-list.md#flame-stride)|
+|||||
+|[Multiattack I](../06-abilities.md#multi-attack-i-iii)|||An ogre can attempt 2 combat manoeuvres as an attack action (main action)|
+|[Great Strike](../06-abilities.md#great-strike)|||An ogre can take a malus of up to 3 from its attack bonus to grant itself a corresponding bonus to one-handed attacks or twice the bonus to two handed attacks|
 |||||
 |Damage Resistance|||"Pe", "Sl", "Pi"|
 |Keen Smell|||An ogre has advantage on observe rolls dependant on smell|
@@ -1588,16 +1612,15 @@ ___
 |Giant's Javelin|+13|2d8+6|Range: 360ft, Increment: 120ft|
 |Grapple/Throw|+13|||
 |||||
+|Sc: Incantation II|Threshold = 21||Favourite spells: ["Down"](../08-spell-list.md#down), ["Least Pyromancy"](../08-spell-list.md#least-pyromancy), ["Sour"](../08-spell-list.md#sour), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Vengeance"](../08-spell-list.md#least-vengeance), ["Lesser Xenophonia"](../08-spell-list.md#lesser-xenophonia), ["Promise"](../08-spell-list.md#promise)|
+|[Spellsong II](../06-abilities.md#spellsong-i-iv)|||1 MP dice: A giant's song can distort the spells it weaves|
+|[Bard Song II](../06-abilities.md#bard-song-i-iv)|||1 SP dice: A giant's song can be a boon or a bane to a mortal's heart|
+|||||
 |Great Strike|||A giant can sacrifice up to 3 points from its attack bonus, and instead increase damage dealt|
 |Broad Strike|||1SP, a giant can attack all adjacent targets in reach with a single attacks (1SP dice)|
 |Far Throw II|||When a giant throws its target [20ft + 15ft x size advantage]|
-|||||
 |Unarmed Strike II|||A giant's unarmed strike uses 2d6 as the damage dice|
 |Multi-attack I|||A giant makes two basic combat manoeuvres|
-|||||
-|[Bard Song II](../06-abilities.md#bard-song-i-iv)|||1 SP dice: A giant's song can be a boon or a bane to a mortal's heart|
-|[Spellsong II](../06-abilities.md#spellsong-i-iv)|||1 MP dice: A giant's song can distort the spells it weaves|
-|Spellcasting: Incantation II|Threshold = 21||Favourite spells: ["Down"](../08-spell-list.md#down), ["Least Pyromancy"](../08-spell-list.md#least-pyromancy), ["Sour"](../08-spell-list.md#sour), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Vengeance"](../08-spell-list.md#least-vengeance), ["Lesser Xenophonia"](../08-spell-list.md#lesser-xenophonia), ["Promise"](../08-spell-list.md#promise)|
 |||||
 |Resistance|||"poisoned" and "diseased" as well as "biological" damage.|
 |Resistance|||"Frightened", "Charmed", "Grappled", "Restrained", "Incapacitated"|
@@ -1641,7 +1664,9 @@ ___
 |Giant's Bow|+12|2d12+6|Greatbow: Range: 1800ft, Increment: 360ft|
 |Grapple/Throw/Sunder|+21|||
 |||||
-|Great Strike|||A giant can sacrifice up to 4 points from its attack bonus, and instead increase damage dealt|
+|Sc: Wind III|Threshold = 21||Favourite spells: ["Least Anemancy"](../08-spell-list.md#least-anemancy), ["Least Blast"](../08-spell-list.md#least-blast), ["Least Flare"](../08-spell-list.md#least-flare), ["Tail Wind"](../08-spell-list.md#tailwind), ["Lesser Xenophonia"](../08-spell-list.md#lesser-xenophonia), ["Wind Step"](../08-spell-list.md#wind-step), ["Storm Ward"](../08-spell-list.md#storm-ward)|
+|||||
+|Great Strike|||A giant can sacrifice up to 7 points from its attack bonus, and instead increase damage dealt|
 |Broad Strike|||1SP, a giant can attack all adjacent targets in reach with a single attacks (1SP dice)|
 |Far Throw II|||When a giant throws its target [20ft + 15ft x size advantage]|
 |||||
@@ -1652,7 +1677,6 @@ ___
 |||||
 |Foresight|||+1 to Evasion|
 |Blindsight III|||A giant warrior has blindsight out to 15ft|
-|Spellcasting: Wind III|Threshold = 21||Favourite spells: ["Least Anemancy"](../08-spell-list.md#least-anemancy), ["Least Blast"](../08-spell-list.md#least-blast), ["Least Flare"](../08-spell-list.md#least-flare), ["Tail Wind"](../08-spell-list.md#tailwind), ["Lesser Xenophonia"](../08-spell-list.md#lesser-xenophonia), ["Wind Step"](../08-spell-list.md#wind-step), ["Storm Ward"](../08-spell-list.md#storm-ward)|
 |[Bard Song III](../06-abilities.md#bard-song-i-iv)|||1 SP dice: A giant's song can be a boon or a bane to a mortal's heart|
 |[Spellsong II](../06-abilities.md#spellsong-i-iv)|||1 MP dice: A giant's song can distort the spells it weaves|
 |||||
@@ -1683,13 +1707,12 @@ What is the purpose of a colossus? What is its goals? What is its nature? That v
 - **Natural Armour**: Armour +10
 - **Saves**: Str, Con, Wis, Int, Cha
 - **Carrying capacity**
-  - Light: 2560lb
-  - Medium: 5120lb
-  - Heavy: 12800lb
+  - Light/Medium: 7680lb
+  - Heavy: 19200lb
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|16/16/6|510 (*120*)|352 (*118*)|56|80ft|
+|24/24/14|510 (*120*)|352 (*118*)|56|80ft|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -1719,17 +1742,18 @@ What is the purpose of a colossus? What is its goals? What is its nature? That v
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
+|[Sc: Incantation VI](../06-abilities.m)|Thr=29|||
+|[Sc: Global I](../06-abilities.m)||||
 |[Cursed Blood](../06-abilities#cursed-blood)||||
 |[Elemental Blast](../06-abilities#blast-elemental-blast)||||
 |[Greater Elemental Blast: Linear](../06-abilities#elemental-blast-greater-linear)||||
 |[Greater Elemental Blast: Radial](../06-abilities#circle)||||
 |[Deflection](../06-abilities#deflection)||||
 |[Esoteric Deflection](../06-abilities#esoteric-deflection)||||
-|[Spellcasting: Incantation VI](../06-abilities.m)|Thr=29|||
-|[Spellcasting: Global I](../06-abilities.m)||||
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
+|[Mighty II](../06-abilities.md#mighty-ii)||||
 |Damage Resistance|||"Ent", "Div", "Pro"|
 |Damage Immunity|||"Disease", "Poi"|
 |[Truesight V](../06-abilities.md#truesight-i-v)|||150ft|

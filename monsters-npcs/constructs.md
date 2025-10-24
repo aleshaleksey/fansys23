@@ -59,7 +59,7 @@ Gingerbread golems, also known as gingerbread men are usually small or tiny past
 |[Evasive](../06-abilities.md#evasive)|||A gingerbread golem avoids attacks of opportunity when moving between threatened squares.|
 |||||
 |[Flash Step](../06-abilities.md#flash-step)|||As a "secondary action" a gingerbread golem can move up to its base speed per SP dice expended.|
-|[Sprinter](../06-abilities.md#sprinter)||A gingerbread golem moves x3 times its base speed when using the "run" action, or x5 when using its "sprint" action.|
+|[Sprinter](../06-abilities.md#sprinter)|||A gingerbread golem moves x3 times its base speed when using the "run" action, or x5 when using its "sprint" action.|
 |Skills|||"Acrobatics" +8, "Sleight of Hand" +6, "Stealth" +6, "Athletics" -2|
 |Resistant|||"Physical" damage, "Energy"[nat] damage|
 |Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "stunned" "incapacitated", "catatonic" and "dying"|
@@ -100,7 +100,7 @@ Gingerbread golems, also known as gingerbread men are usually small or tiny past
 |[Evasive](../06-abilities.md#evasive)|||A gingerbread golem avoids attacks of opportunity when moving between threatened squares.|
 |||||
 |[Flash Step](../06-abilities.md#flash-step)|||As a "secondary action" a gingerbread golem can move up to its base speed per SP dice expended.|
-|[Sprinter](../06-abilities.md#sprinter)||A gingerbread golem moves x3 times its base speed when using the "run" action, or x5 when using its "sprint" action.|
+|[Sprinter](../06-abilities.md#sprinter)|||A gingerbread golem moves x3 times its base speed when using the "run" action, or x5 when using its "sprint" action.|
 |Skills|||"Acrobatics" +8, "Sleight of Hand" +6, "Stealth" +6, "Athletics" -2|
 |Resistant|||"Physical" damage, "Energy"[nat] damage|
 |Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "stunned" "incapacitated", "catatonic" and "dying"|

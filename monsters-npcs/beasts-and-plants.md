@@ -47,6 +47,7 @@ Animals are common entities in the material world. They have a physical form, li
     - [Giant Swan](#giant-swan-level-5)
     - [Giant Sheep](#giant-sheep-level-6)
     - [Giant Boar](#giant-boar-level-8)
+    - [Giant Wolf](#giant-wolf-level-9)
     - [Giant Bear](#giant-bear-level-10)
 - [Animals: Dinosaurs](#animals-dinosaurs)
     - [Hadrosaur](#hadrosaur-level-7)
@@ -1414,6 +1415,46 @@ Size = Large
 |Loot|||A giant boar can provide a sturdy pelt (enough for 4 suits of hide/leather armour) and more than 800lb of meat, as well tusks|
 
 This block is used for aggressive, wild pigs (boars) of unusual size. Boars are aggressive omnivores that typically dwell in woodlands, hills, and sometimes swamps.
+___
+
+### Giant Wolf (level 9)
+
+- **Size**: Large
+- **Hit**: -1 [Evasion], +3 [Armour]
+- **Carrying capacity**
+  - Light: 164lb
+  - Medium: 328lb
+  - Heavy:  840lb
+  - Drag: 1260lb
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|12/12/12|74 (*42*)|38 (*22*)|15|50ft||
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|21|16|18|5|15|14|
+|Bonus|+5|+3|+4|-3|+2|+2|
+|Save|+3|+4|+6|-1|+4|+4|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|9 (2)|19|10|4|2|6|4|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite|+11|1d10+6|Sh damage: The giant wolf's bite counts as a two-handed weapon.|
+|[Great Strike](../06-abilities.md#great-strike)|||A giant wolf can sacrifice up to 4 points fro its attack for damage|
+|Keen Senses|||Advantage on perception rolls based on scent and hearing|
+|Low light Vision|||Can see in the "dark", but not pitch black conditions|
+|[Sprint](../06-abilities.md#sprinter)|||x3 move, x5 sprint|
+|[Combined Manoeuvre](../06-abilities.md#combined-manoeuvre-i-v)|||A wolf will usually grapple when biting|
+|[Greater Manoeuvre](../06-abilities.md#greater-manoeuvre-i-v)|||Wolves can take down very large prey|
+|Prof|||"Grapple", "Interception", "Shove"|
+|Skills|||"Stealth" +3, "Track" +3, "Observe" +2|
+|Loot|||Wolf pelts are valuable, their meat is edible to humanoids|
+
+Giant wolves are not your ordinary wolf. It may be a separate species, or an individual specimen that was born or raised in a territory overflowing with vital energies. Giant wolves may lead wolf packs or form packs of their own. They seldom bother with lone humans, since they provide little nutrients, and prefer to hunt larger prey, but caravans and groups travelling through their territory are tempting prey. In times of hunger they are more than capable of ransacking farming communities, though as with caravans, cattle are the preferred prey.
 
 ___
 ### Giant Bear (level 10)

@@ -115,7 +115,7 @@ A character can switch from a two-handed grip to a one-handed grip on a weapon a
 ___
 #### Offhand fighting
 
-A character with two hands can hold a one-handed weapon in each hand. If the character has made an attack as a "main action" with one weapon, it can may be able to make an additional "offhand attack" as a "secondary action".
+A character with two hands can hold a one-handed weapon in each hand. If the character has made an attack as a "main action" with one weapon, then in some cases it can also make an additional "offhand attack" with the other weapon as a "secondary action".
 
 - The character can normally make a single "offhand attack" with a "light" weapon at a -4 penalty to attack and no stat bonus ([DEX] or [STR]) to damage.
 - If the character has the ["multi-attack"](06-abilities.md#multi-attack-i-iii) ability, then it can add its stat bonus to the offhand attack.

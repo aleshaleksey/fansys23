@@ -1,25 +1,5 @@
 # Spirits
 
-Certain abbreviations are used in the bestiary.
-
-|Abbreviation|Words    |
-|------------|---------|
-|Thr         |Threshold|
-|Pi         |Piercing (damage)|
-|Pe         |Percussive (damage)|
-|Pr         |Pressure (damage)|
-|Sh         |Shear (damage)|
-|Sl         |Slashing (damage)|
-|Poi         |Poison (damage)|
-|Nec         |Necrotic (damage)|
-|Fir         |Fire (damage)|
-|Ice         |Ice (damage)|
-|Lit         |Light (damage)|
-|Lig         |Lighting (damage)|
-|Div         |Divine (damage)|
-|Pro         |Profane (damage)|
-|Ent         |Entropic (damage)|
-
 ## Index
 
 - [Spirits: Elementals](#spirits-elementals)

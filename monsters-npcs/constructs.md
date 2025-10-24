@@ -1,25 +1,5 @@
 # Constructs
 
-Certain abbreviations are used in the bestiary.
-
-|Abbreviation|Words    |
-|------------|---------|
-|Thr         |Threshold|
-|Pi         |Piercing (damage)|
-|Pe         |Percussive (damage)|
-|Pr         |Pressure (damage)|
-|Sh         |Shear (damage)|
-|Sl         |Slashing (damage)|
-|Poi         |Poison (damage)|
-|Nec         |Necrotic (damage)|
-|Fir         |Fire (damage)|
-|Ice         |Ice (damage)|
-|Lit         |Light (damage)|
-|Lig         |Lighting (damage)|
-|Div         |Divine (damage)|
-|Pro         |Profane (damage)|
-|Ent         |Entropic (damage)|
-
 Constructs are life-like devices that are capable of movement and are generally made of minerals or metals. They are sometimes called "living dolls", although this term is not strictly correct. Constructs do not reproduce, breathe, drink, eat, sleep or age (unless they are made from mortals).
 
 These properties make constructs excellent workers and guardians.

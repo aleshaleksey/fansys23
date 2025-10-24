@@ -1,25 +1,5 @@
 # NPC stat blocks
 
-Certain abbreviations are used in the bestiary.
-
-|Abbreviation|Words    |
-|------------|---------|
-|Thr         |Threshold|
-|Pi         |Piercing (damage)|
-|Pe         |Percussive (damage)|
-|Pr         |Pressure (damage)|
-|Sh         |Shear (damage)|
-|Sl         |Slashing (damage)|
-|Poi         |Poison (damage)|
-|Nec         |Necrotic (damage)|
-|Fir         |Fire (damage)|
-|Ice         |Ice (damage)|
-|Lit         |Light (damage)|
-|Lig         |Lighting (damage)|
-|Div         |Divine (damage)|
-|Pro         |Profane (damage)|
-|Ent         |Entropic (damage)|
-
 This section contains a few NPC stat blocks and notes on their intended use and typical examples of social roles.
 
 It should be immediately apparent that there are far more human stat blocks than stat blocks for other races/templates. It should also be apparent that separate kinds of stat blocks have been made for different races/templates.

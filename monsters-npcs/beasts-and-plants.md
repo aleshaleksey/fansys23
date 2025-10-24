@@ -1,25 +1,5 @@
 # Beasts and Plants
 
-Certain abbreviations are used in the bestiary.
-
-|Abbreviation|Words    |
-|------------|---------|
-|Thr         |Threshold|
-|Pi         |Piercing (damage)|
-|Pe         |Percussive (damage)|
-|Pr         |Pressure (damage)|
-|Sh         |Shear (damage)|
-|Sl         |Slashing (damage)|
-|Poi         |Poison (damage)|
-|Nec         |Necrotic (damage)|
-|Fir         |Fire (damage)|
-|Ice         |Ice (damage)|
-|Lit         |Light (damage)|
-|Lig         |Lighting (damage)|
-|Div         |Divine (damage)|
-|Pro         |Profane (damage)|
-|Ent         |Entropic (damage)|
-
 ## Animals
 
 Animals are common entities in the material world. They have a physical form, limited lifespan and age by necessity. They need to sleep, breathe, drink, eat. They devour other mortals to survive and have an intelligence below 5.

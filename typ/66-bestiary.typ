@@ -97,6 +97,8 @@
 #pagebreak()
 #outline(target: heading.where(level: 1))
 
+#include "build/forwards.typ"
+
 #include "build/beasts-and-plants.typ"
 #pagebreak()
 #include "build/constructs.typ"

@@ -1,5 +1,31 @@
 #!/bin/bash
 
 # Carry out basic sweep
-./mdtotyp.sh
+bash -c "./mdtotyp.sh"
 
+echo "Adjusting link format for Rulebook..."
+
+for X in $(ls typ/build); do
+    echo "Final adjustments to ${X}"
+    # The simpler one is here since the complex one doesn't catch everything.
+    # all of this replaces references
+    sed -E --in-place "s@\#link[2]?\(<08-[^>]+>\)\[([ :\"'\.\,[:alnum:]]+)\]@\1@g" typ/build/$X
+    # sed -E --in-place "s@\#link[2]?\(\"[^\)]+\"\)\[([\)\( :\"'\.\,[:alnum:]]+)\]@\1@g" typ/build/$X
+    # sed -E --in-place 's@(^[=]{3}[ [:alnum:]]+)@\#pagebreak()\n\1@g' typ/build/$X
+    # # stupid malformed columns
+    # sed --in-place 's@columns: (50%, 50%),@columns: 2,@g' typ/build/$X
+    # sed --in-place 's@columns: (25%, 25%, 25%, 25%),@columns: 4,@g' typ/build/$X
+    # sed --in-place 's@columns: (30.43%, 21.74%, 26.09%, 21.74%),@columns: 4,@g' typ/build/$X
+    # sed --in-place 's@columns: (20%, 20%, 20%, 20%, 20%),@columns: 5,@g' typ/build/$X
+    # sed --in-place 's@columns: (16.67%, 16.67%, 16.67%, 16.67%, 16.67%, 16.67%),@columns: 6,@g' typ/build/$X
+    sed --in-place 's@columns: (14.29%, 14.29%, 14.29%, 14.29%, 14.29%, 14.29%, 14.29%),@columns: 7,@g' typ/build/$X
+    sed --in-place 's@columns: (12.5%, 12.5%, 12.5%, 12.5%, 12.5%, 12.5%, 12.5%, 12.5%),@columns: 8,@g' typ/build/$X
+    sed -E --in-place 's@align\(center\)\[\#table@align\(left\)\[\#table@g' typ/build/$X
+    # sed -E --in-place 's@^[ ]+\[\], \[\], \[\], \[\], \[\],@@g' typ/build/$X
+    # sed -E --in-place 's@^[ ]+\[\], \[\], \[\], \[\],@@g' typ/build/$X
+    # sed -E --in-place 's@^[ ]+\[(.+)\], \[\], \[\], \[@\[\1], table.cell(colspan:3)\[@g' typ/build/$X
+done;
+
+echo "Compiling Rulebook.."
+typst compile typ/11-system.typ fansys-rules.pdf
+echo "The Fansys Rulebook is ready."

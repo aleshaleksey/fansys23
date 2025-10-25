@@ -55,6 +55,7 @@ This is a FIRST DRAFT of some general rules. They are over-ruled by more specifi
 ___
 ## Purpose of the system
 The system codifies the rules for a fantasy roleplaying game that focuses on combat and exploration. It aims to build on what I perceive as strength of existing systems and address their weaknesses:
+
 - Keep a well codified rulebook (PF).
 - Create a relatively deep character creation system (PF).
 - Build on the streamlined flow of combat and general play (DnD 5e).
@@ -79,6 +80,7 @@ Whenever a roll (or other number) is divided (eg half damage, jump distances, bo
 ___
 #### Core Rolls
 There are three (and a half) types of base roll.
+
 - An ability/skill roll.
 - A save.
 - An targeted attack.
@@ -86,6 +88,7 @@ There are three (and a half) types of base roll.
 ___
 #### The 2d12 roll
 The core dice for ability checks/tests, saves and attacks is 2d12. You roll a 2d12 and add a static modifier. If the result equals or exceeds a target value, you succeed. Otherwise you fail.
+
 - **General Special**: Also, for every 12 you roll, add +2 to the result. For every 1, subtract 2 from the result.
 - **Saves and Attacks**: Also, snake eyes (1,1) always fails (also known as a "critical fail"). D12 (12,12) always succeeds (also known as a "critical success"). For every 1 rolled on a save, if failure results in damage, the target takes an additional 1 point of damage directly to HP (no risk of gaining conditions).
 - **Attacks**: Also, for each 12 is rolled, if the attack deals any damage, the target takes an additional 1 point of damage directly to HP (no risk of gaining conditions).
@@ -100,6 +103,7 @@ ___
 Sometimes rolls of the core dice can be skipped.
 
 **Taking 24:** Add 24 to the modifier and take this as the result. This represents trying something until you get the best possible result. You can do this is if:
+
  1. You are in a safe environment.
  2. You have 100 times more time and material resources available available (which are consumed).
 
@@ -108,6 +112,7 @@ This relies on the property of statistics that if you roll 2d12 enough times, yo
 These numbers are a little bit different from what we see in systems like "Pathfinder" and "Dungeons and Dragons", because (a) we use different dice and (b) we use proper maths.
 
 **Taking care:** Also referred to as "take 13". Add 13 to the modifier and take this as the result. this represents using a systematic, familiar approach to solve a problem. It explains why for example a craftsman doesn't destroy 25% of the shoes he makes despite having only +5 as his modifier while making a shoe having a threshold of 10, or why we don't fall down the stairs every few weeks. One can "take care" if:
+
  1. You are in a relatively safe environment, free of distractions and threats.
  2. You are performing a routine, autonomous or habitual task (eg biological functions, general movement, performing a profession or skill in which you have at least one skill point).
 
@@ -119,21 +124,26 @@ This works because the average of 2d12 is 13.
 
 ___
 #### Opposing Rolls vs Thresholds
+
 A threshold is a number that a roll (with bonuses or maluses) must meet or beat for success. Static thresholds are always preferred over opposed rolls in combat. This increases the speed of combat as we do not need to wait for other side to make a roll. This means that hit thresholds, save threshold and skill thresholds based on average rolls ("take care") are used for the defending side.
 Outside of combat it is up to the group whether opposed rolls or thresholds are used. Opposed rolls make the game more interactive in non time critical sections.
 For many skill rolls the threshold is written as "Opposed vs [skill name]". It is perfectly acceptable to calculate an average ("take care") threshold instead of doing the opposed roll.
 
 ___
 #### Turning an opposed roll into a Threshold.
+
 An opposed roll can be converted into a threshold by taking the bonus or malus and adding 13 instead of rolling (usually 2d12).
 
 ___
 #### Precedence of Rolls: Thresholds (DC), and opposing rolls
+
 Meeting (equalling) the target number of a roll beats it. The target number can be static or dynamic. Static thresholds are when a dice is rolled and the result compared to a predefined number. Dynamic thresholds are what you get when you have two or more opposing rolls.
+
 - eg **static**: "HiT" (Hit Threshold) of a monster, eg 18. Save threshold for a spell. Ability threshold for jumping over a gap of 15 feet.
 - eg **dynamic**: Perceiving a monster in hiding (which rolled 2d12+4).
 
 For dynamic thresholds, it can be difficult to tell, which of the opposing rolls becomes the threshold, and which is the opposing roll. In this case the roll that is trying to preserve the status quo becomes the threshold, and the one that is trying to change it is the opposed roll. Eg:
+
 - A hidden entity is trying to stay hidden: It's stealth roll is the threshold, and the perception roll is the opposing roll. NB: The hidden creature is always preserving the status quo because you cannot hide when being observed.
 - An observed entity is trying create a distraction so it can hide: The perception roll becomes the threshold, and the distraction/deception roll becomes the opposing roll.
 - Anne tries to throw Bob onto his back. Bob wishes to stay on his feet. Bob's grapple roll is the threshold, and Anne's roll is the opposing roll.
@@ -142,7 +152,9 @@ This rule is a refinement and codification of "meets it beats it" and "defender 
 
 ___
 #### Difficulties and recommended thresholds
+
 The numbers on thresholds and rolls are abstractions of how difficult a task is to accomplish and how well it was performed respectively. As a rough guide, assuming that an average person is a level 1 character with 11 in most base stats and hence a +1 in skills they are not familiar with and + 3 in skills that they are familiar in, the table is as follows:
+
 - 4: Almost impossible to fail. (An infant can do better.)
 - 8: Quite easy. (Amateurish)
 - 12: Fairly tough, your average person will fail half the time, if they're not careful. (Average well done)
@@ -154,6 +166,7 @@ The numbers on thresholds and rolls are abstractions of how difficult a task is 
 
 ___
 #### Modifiers vs Advantage/Disadvantage
+
 A mix of game balance and simulationism guide our understanding on what they represent and how they should be applied.
 
 Advantage represents factors that mitigate some potential of failure, but do not improve the best result. For example a sharp knife makes it easier to gut a rabbit, but does not increase the amount of meat one can harvest (a rabbit only has a rabbit worth of meat).
@@ -172,7 +185,9 @@ Modifiers from "supernatural" sources never stack with modifiers from other supe
 
 ___
 #### Sources of Modifiers
+
 Because stacking modifiers can easily "break" a game or lead to situations where the outcome is decided early on in a scenario, it is desirable to avoid this. As a result the following rule is used with modifiers:
+
 - Modifiers can come from circumstances or equipment.
 - Modifiers can come from passive abilities.
 - Modifiers from templates and size ALWAYS stack with other modifiers.
@@ -227,21 +242,26 @@ A character has certain attributes that are inherent to it and are not easily ch
 
 ___
 #### Entity Type
+
 This defines the base possibilities of a character (a plant does not require sleep, but usually requires water, air and "sustenance", it does "see" things. A spirit does not have a corporeal form and cannot be "touched" normally, a humanoid (animal) has a movement speed, and a corporeal form, usually with one head, one torso, two arms and two legs, requires air, water, sustenance, sleep and ages). It also defines base resistances, vulnerabilities and resistances. More information can be found in the ["Entity Types"](10-conditions-types.md#entity-types) chapter.
 
 Most player characters will be "Mortal: humanoid", or "Mortal: monster".
 
 ___
 #### Template/Race
+
 Template is a set of attributes, usually attributed to race or species, that is applied to characters on creation. It usually gives some penalties/bonuses to stats and skills, additional movement modalities, and abilities. In addition it affects the size category and appearance of a character. For example, an "orc" template gives a bonus to STR and CON, a penalty to INT, "heat sense, proficiency with "strikes" and "slings", as well as resistance to "percussive".
 
 ___
 #### Size category
+
 Size categories [diminutive, tiny, small, medium, large, huge, gargantuan, colossal] affect how much space an entity takes up on (and off) a battlefield, its reach, its AC, and potentially other things. Size rules are described in the ["Size Rules"](#size-rules-table) section below.
 
 ___
 #### Movement modalities
+
 Movement modalities are usually determined by race and special abilities. A creature WITH a movement modality may (or may not!) be able to move over other terrain with an ability check. this is covered in ["movement"](03-movement-exploration.md#local-and-global-movement) rules:
+
 - **walk speed**: ground movement over horizontal-ish terrain.
 - **climb speed**: ground movement over vertical-ish terrain.
 - **flight speed**: Areal movement. Movement through the air.
@@ -383,6 +403,7 @@ ___
 #### MP dice pool
 
 This is the determinant of "MP pool".
+
 - A character has a capacity of up to [3 MP dice / level] + 1 (min 1).
 - A character uses MP dice to fuel powerful mental/spiritual abilities.
 - A character can expend a single MP die to add 1d6 to any roll governed by INT, WIS or CHA (must be declared before the roll is made).
@@ -393,6 +414,7 @@ ___
 #### Mana pool
 
 This is a measure of an entities' mental/spiritual energy.
+
 - A character has maximum **MP = CHA x LEVEL + [MP dice count] x 2**.
 - When a character uses an MP dice, it loses 2 MP.
 - When a character regains an MP dice, it regains 2 MP.
@@ -405,6 +427,7 @@ ___
 #### SP dice pool
 
 This is the determinant of "SP pool".
+
 - A character has a capacity of up to [3 SP dice / level] + 1 (min 1).
 - A character uses SP dice to fuel powerful physical/natural abilities.
 - A character can expend a single SP die to add 1d6 to any roll governed by STR, DEX or CON (must be declared before the roll is made).
@@ -415,6 +438,7 @@ ___
 #### Stamina pool
 
 This is a measure of an entity's physical energy, stamina.
+
 - A character has maximum **SP = CON x LEVEL + [SP dice count] x 2**.
 - When a character uses an SP dice, it loses 2 SP.
 - When a character regains an SP dice, it regains 2 SP.
@@ -449,17 +473,21 @@ ___
 Attack Potentials and Attack Thresholds are used to determine the potencyPerhaps, or more accurately, the success rate of a character's offensive abilities. They are bonus added to all targeted attack rolls a character makes. NAP is used for natural attacks, SAP is used for supernatural attacks.
 
 **Natural Attack Potential** (NAP) is the bonus used for all of a character's "natural" attacks.
+
 - **NAP = [Base + Nat]**
 - A total bonus for an "natural" attack = NAP + Str/Dex
 
 **Supernatural Attack Potential** (SAP) is the bonus used for all of a character's "supernatural" attacks.
+
 - **SAP = [Base + Sup]**
 - A total bonus for a "supernatural" attack = SAP + Int/Wis
 
 **Natural Attack Threshold** (NT) is **Nat + 13**. A target of a character's "natural" **abilities** rolls a save against the character's NT.
+
 - The threshold for a character's "natural" abilities = NT + Str/Dex
 
 **Supernatural Attack Threshold** (SA) is **Sup + 13**. A target of a character's "supernatural" **abilities** rolls a save against a character's ST.
+
 - The threshold for a character's "supernatural" abilities = ST + Int/Wis
 
 It should be noted that for *targetted attacks* (including [basic martial manoeuvres](04-combat.md#basic-martial-manoeuvres)), "Base" is included, while for *ability save thresholds* it is not. This is because improving defences against targetted attacks is easier than improving saves.
@@ -470,6 +498,7 @@ ___
 Some harmful effects can be negated or mitigated with a "**save**". A character rolls [2d12 + save bonus] vs some threshold. If the save succeeds (meets it beats it), the brunt of a harmful effect can be avoided.
 
 A character has six saving throws, one for each stat. Abilities and effects that force a save usually specify one or two valid save types:
+
   1. **Str**: Use of strength to resist or redirect an effect. This can be voluntarily failed. A "**helpless**" being cannot succeed STR saves. Examples:
       - Use STR to resist being knocked prone by a charging guinea pig.
       - Use STR hang on to a ship's mast when a storm wave washes over a ship.
@@ -558,6 +587,7 @@ ___
 ### Size
 
 Entities can have different physical sizes. These are categorised into 8 categories:
+
 - diminutive (smallest),
 - tiny,
 - small,
@@ -607,6 +637,7 @@ ___
 An entity is assumed by default to have the senses of sight and hearing. Other basic, natural senses include smell, touch and taste, but not all entities possess these senses. For example an incorporeal entity might not have touch, a an undead skeleton might not have taste. In general [mortals](10-conditions-types.md#mortals) have all five senses unless stated otherwise.
 
 In addition an entity might have the following "special" senses that act like sight in many ways but detect something other than normally visible light:
+
 - [Heat Sense](06-abilities.md#heat-sense-i-v)
 - [Life Sense](06-abilities.md#life-sense-i-v)
 - [Truesight](06-abilities.md#truesight-i-v)
@@ -614,9 +645,11 @@ In addition an entity might have the following "special" senses that act like si
 - [Blind Sight](06-abilities.md#blind-sight-i-vi)
 
 In addition the following ability improves specifically the sense of sight.
+
 - [Low Light Vision](06-abilities.md#low-light-vision)
 
 In addition the following ability improves hearing, sight or smell (optionally it may be used for taste or touch, but this is not considered to be of advantage in any normal game).
+
 - [Keen Senses](06-abilities.md#keen-senses-i-iii)
 
 ___

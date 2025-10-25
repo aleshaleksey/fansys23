@@ -6,6 +6,8 @@ It should be noted that none of these builds account for [race(template)](09-rac
 
 Additionally sometimes the template has unfilled proficiencies/abilities in a given column for a level (should be 3 abilities and 1 proficiency, except level 1 which can accommodate 6 proficiencies). Unfilled slots indicate that just about any ability/proficiency would go well there.
 
+The recipes are presented with tables which show the number of SP dice, MP dice, abilities and proficiencies at each level. [Base](02-base-rules.md#base) is written in brackets together with level. In the same way [Nat](02-base-rules.md#nat-and-sup-attack-of-the-three-letter-words) and [Sup](02-base-rules.md#nat-and-sup-attack-of-the-three-letter-words) are written in brackets in the "SP dice" and "MP dice" columns respectively.
+
 - [Vanguard](#vanguard)
 - [Protector](#protector)
 - [Archer](#archer)
@@ -24,8 +26,8 @@ The build works best with heavy weapons and medium armour, concentrating on STR 
 
 The ["Flash Step"](06-abilities.md#flash-step) ability is used to close with the target, while ["Berserk I"](06-abilities.md#berserk-i-v), ["Broad Strike"](06-abilities.md), ["Great Strike"](06-abilities.md) and [Multi Attack I](06-abilities.md#multi-attack-i-iii)" are then used to maximise damage. Any additional abilities are there to increase survivability. Proficiency with at least one weapon group that contains heavy weapons (pole arms, axes, heavy blades, percussive) is essential.
 
-|Level (base)|SP dice (Nat)| MP dice (Sup)|NAP|SAP|Abilities|Proficiencies|Notes|
-|-|-|-|-|-|-|-|-|
+|Level|SP dice|MP dice|NAP|SAP|Abilities|Proficiencies|
+|-|-|-|-|-|-|-|
 |1 (1) |3  (1)|2  (1)|2|2|[Berserk I](06-abilities.md#berserk-i-v), [Evasive](06-abilities.md#evasive), STAT +1|Medium Armour, Strikes, Throws, Light Blades, Heavy Blades||
 |2 (1) |5  (1)|3  (1)|2|2|[Broad Strike](06-abilities.md), [Opportunist](06-abilities.md#opportunist), STAT +1|Axes||
 |3 (1) |7  (2)|4  (1)|3|2|[Great Strike](06-abilities.md), [Flash Step](06-abilities.md#flash-step), STAT +1|Smith's Tools||
@@ -45,8 +47,8 @@ The protector is a martial archetype that focuses on defence, both their own and
 
 This build can be made using DEX, but STR gives better defence. In addition, both CON and CHA are required for survivability. The abilities are balanced between offence (since offence is the best defence), survivability, and battlefield control. Some abilities and stat increases can be replaced with ["Combined Manoeuvre"](06-abilities.md#combined-manoeuvre-i-v), as it is useful, for example, to be able to grapple or throw a target while damaging it. Spellcasting and ["Deflection"](06-abilities.md#deflection)/["Arcane Interception"](06-abilities.md#arcane-interception) can be discarded for a more martial build, but reduce defence against spellcasters.
 
-|Level (base)|SP dice (Nat)| MP dice (Sup)|NAP|SAP|Abilities|Proficiencies|Notes|
-|-|-|-|-|-|-|-|-|
+|Level|SP dice|MP dice|NAP|SAP|Abilities|Proficiencies|
+|-|-|-|-|-|-|-|
 |1 (1) |3  (1)|2  (1)|2|2|[Broad Strike](06-abilities.md#broad-strike), [Blind Sight I](06-abilities.md#blind-sight-i-vi), STAT +1|Medium Armour, Shields, Spear, Light Blades, Heavy Blades, Interception||
 |2 (1) |4  (1)|4  (1)|2|2|[Guarded](06-abilities.md), [Offhand Fighting](06-abilities.md#offhand-fighting-i-iv), STAT +1|Heavy Armour||
 |3 (1) |6  (1)|5  (1)|2|2|[Swift Shield Bash](06-abilities.md#swift-shield-bash), [Parry](06-abilities.md#parry), STAT +1|Pole Arm||
@@ -66,8 +68,8 @@ The archer is a martial archetype that focuses on long range offence. In close c
 
 This build specialises in long range weapon attacks. It requires proficiency with bows or mechanical bows, as well as ["Point blank Shot I"](06-abilities.md#point-blank-shot-i-iii) and ["Precise Shot"](06-abilities.md#precise-shot-i-iii). ["Spirit Strike"](06-abilities.md#spirit-strike) is very useful at higher levels to fight against foes which are immune to conventional weapons. All other abilities are optional, depending on what character exactly one wishes to build.
 
-|Level (base)|SP dice (Nat)| MP dice (Sup)|NAP|SAP|Abilities|Proficiencies|Notes|
-|-|-|-|-|-|-|-|-|
+|Level|SP dice|MP dice|NAP|SAP|Abilities|Proficiencies|
+|-|-|-|-|-|-|-|
 |1 (1) |3  (1)|2  (1)|2|2|[Fleet](06-abilities.md#fleet), [Alert](06-abilities.md#alert), STAT +1|Bows, Spears, Light Blades, Light Armour||
 |2 (1) |5  (1)|3  (1)|2|2|[Weapon Finesse](06-abilities.md#weapon-finesse), [Speed](06-abilities.md#speed), STAT +1|Shields||
 |3 (1) |7  (2)|4  (1)|3|2|[Evasive](06-abilities.md#evasive), [Point blank Shot I](06-abilities.md#point-blank-shot-i-iii), STAT +1|Throws||
@@ -89,8 +91,8 @@ This scout build focuses not so much on moving quickly, but moving undetected wh
 
 This build can be given some nature magic to make it into a ranger, or more offensive abilities (such as ["Assassinate"](06-abilities.md#assassinate-i-v)) for a rogue or assassin. One can also sacrifice a couple of levels of ["Precision Attack"](06-abilities.md#precision-attack-i-x) and some condition resistances, and instead gain spellcasting and a ["familiar"](06-abilities.md#bind-familiar-i-iv) for communication and scouting particularly dangerous locales.
 
-|Level (base)|SP dice (Nat)| MP dice (Sup)|NAP|SAP|Abilities|Proficiencies|Notes|
-|-|-|-|-|-|-|-|-|
+|Level|SP dice|MP dice|NAP|SAP|Abilities|Proficiencies|
+|-|-|-|-|-|-|-|
 |1 (1) |3  (1)|2  (1)|2|2|[Fleet](06-abilities.md#fleet), [Silent Step I](06-abilities.md#silent-step-i-iii), [Unarmed Strike I](06-abilities.md#unarmed-strike-i-ix), STAT +1|Light Armour, Light Blades, Bows, Strikes, Grapples||
 |2 (1) |5  (1)|3  (1)|2|2|[Stalker](06-abilities.md#stalker), [Precision Attack I](06-abilities.md#precision-attack-i-x), STAT +1|Throws||
 |3 (1) |7  (2)|4  (1)|3|2|[Sprinter](06-abilities.md#sprinter), [Evasive](06-abilities.md#evasive), STAT +1|Spears||
@@ -114,8 +116,8 @@ This build balances between supernatural and natural abilities, combat capabilit
 
 The mystic warrior does suffer somewhat from "multiple attribute (stat) dependence". It is recommended to focus on DEX (or STR), WIS and CHA. If WIS is 16 or above, it is worth taking the ["foresight"](06-abilities.md#foresight) ability for greater defence.
 
-|Level (base)|SP dice (Nat)| MP dice (Sup)|NAP|SAP|Abilities|Proficiencies|Notes|
-|-|-|-|-|-|-|-|-|
+|Level|SP dice|MP dice|NAP|SAP|Abilities|Proficiencies|
+|-|-|-|-|-|-|-|
 |1 (1) |2  (1)|3  (1)|2|2|[Spellcasting Local: Incantation I](06-abilities.md#spellcasting-local), [Bard Song I](06-abilities.md#bard-song-i-iv), [Flurry](06-abilities.md#flurry)|Light Blades, Light Armour, Shields, Spear, Throws, Disarm||
 |2 (1) |4  (1)|4  (1)|2|2|[Spellcasting: Water I](06-abilities.md#spellcasting-local), [Spellcasting Global I](06-abilities.md#spellcasting-global), STAT +1|Strikes||
 |3 (1) |6  (1)|5  (1)|2|2|[Spellcasting Local: Incantation II](06-abilities.md#spellcasting-local), [Flash Step](06-abilities.md#flash-step), [Parry](06-abilities.md#parry)|Grapple||
@@ -141,8 +143,8 @@ The conventional paladin in shining armour can be made into a guardian of nature
 
 A paladin should focus on STR, and CHA. If the campaign involves more combat vs mortals or constructs, it is worth focusing more on CON than CHA.
 
-|Level (base)|SP dice (Nat)| MP dice (Sup)|NAP|SAP|Abilities|Proficiencies|Notes|
-|-|-|-|-|-|-|-|-|
+|Level|SP dice|MP dice|NAP|SAP|Abilities|Proficiencies|
+|-|-|-|-|-|-|-|
 |1 (1) |2  (1)|3  (1)|2|2|[Broad Strike](06-abilities.md#broad-strike), [Great Strike](06-abilities.md#great-strike), [Spellcasting Local: Incantation I](06-abilities.md#spellcasting-local)|Medium Armour, Heavy Armour, Heavy Blades, Spears, Shields, Strikes||
 |2 (1) |4  (1)|4  (1)|2|2|[Bind Beast I](06-abilities.md#bind-beast-i-x), [Debilitating Strike: Aphonia](06-abilities.md#debilitating-strike), STAT +1|Interception||
 |3 (1) |5  (1)|6  (1)|2|2|[Spellcasting Global I](06-abilities.md#spellcasting-global), [Arcane Interception](06-abilities.md#arcane-interception), STAT +1|Grapple||
@@ -166,8 +168,8 @@ The summoner is a build that can be used for both utility and damage, due to the
 
 Summoners are one of the least stat dependent builds, since the attack and defence of their summons does not depend on it. As such it is recommended to focus on the stats that are best compatible with the desired skill set. That said, CON and INT are important for concentration saves, so they should not be neglected.
 
-|Level (base)|SP dice (Nat)| MP dice (Sup)|NAP|SAP|Abilities|Proficiencies|Notes|
-|-|-|-|-|-|-|-|-|
+|Level|SP dice|MP dice|NAP|SAP|Abilities|Proficiencies|
+|-|-|-|-|-|-|-|
 |1 (1) |2  (1)|3  (1)|2|2|[Bind Beast I](06-abilities.md#bind-beast-i-x), [Bind Familiar I](06-abilities.md#bind-familiar-i-iv), [Spellcasting: Nature I](06-abilities.md#spellcasting-local)|Light Blades, Light Armour, Shields||
 |2 (1) |3  (1)|5  (1)|2|2|[Spellcasting: Element I](06-abilities.md#spellcasting-local), [Spellcasting: Incantation I](06-abilities.md#spellcasting-local), [Spellcasting: Global I](06-abilities.md#spellcasting-global)|||
 |3 (1) |4  (1)|7  (2)|2|3|[Bind Beast II](06-abilities.md#bind-beast-i-x), [Bind Familiar II](06-abilities.md#bind-familiar-i-iv), [](06-abilities.md), STAT +1|||
@@ -189,8 +191,8 @@ A pyromancer can be dangerous at range or in melee. This build works well enough
 
 The primary stat for this build is WIS. If using armour STR is useful, if not, DEX. Likewise, since this is largely a combat focused build, CON and CHA should not be neglected.
 
-|Level (base)|SP dice (Nat)| MP dice (Sup)|NAP|SAP|Abilities|Proficiencies|Notes|
-|-|-|-|-|-|-|-|-|
+|Level|SP dice|MP dice|NAP|SAP|Abilities|Proficiencies|
+|-|-|-|-|-|-|-|
 |1 (1) |2  (1)|3  (1)|2|2|[Elemental Blast: Fire](06-abilities.md#blast-elemental-blast), [Elemental Touch: Fire](06-abilities.md#touch-elemental-touch), [Spellcasting Local: Fire I](06-abilities.md#spellcasting-local)|Interception, Light Blades, Light Armour||
 |2 (1) |3  (1)|5  (1)|2|2|[Spellcasting Global I](06-abilities.md#spellcasting-global), [Arcane Interception](06-abilities.md#arcane-interception), STAT +1|||
 |3 (1) |4  (1)|7  (2)|2|3|[Spellcasting Local: Fire II](06-abilities.md#spellcasting-local), [Deflection](06-abilities.md#deflection), [Elemental Aura: Fire](06-abilities.md#aura)|||
@@ -214,17 +216,17 @@ This recipe can be modifying by swapping around the types of spellcasting taken,
 
 INT and WIS are both primary stats of a wizard. The rest depends on the flavour. Since a wizard should not be in the frontline, CON and CHA are a little bit less important than for other builds, however this does make combat more risky without solid tactics.
 
-|Level (base)|SP dice (Nat)| MP dice (Sup)|NAP|SAP|Abilities|Proficiencies|Notes|
-|-|-|-|-|-|-|-|-|
-|1 (1) |2  (1)|3  (1)|2|2|[Spellcasting: Kinetic/Incantation I](06-abilities.md#spellcasting-local), [Spellcasting: Air I](06-abilities.md#spellcasting-local), [Spellcasting: Water I](06-abilities.md#spellcasting-local)|Herbalist's Kit, Staves, Light Blades||
-|2 (1) |3  (1)|5  (1)|2|2|[Spellcasting: Fire I](06-abilities.md#spellcasting-local), [Spellcasting: Earth I](06-abilities.md#spellcasting-local), [Spellcasting: Global I](06-abilities.md#spellcasting-global)|Alchemist's Tools||
-|3 (1) |4  (1)|7  (2)|2|3|[Spellcasting: Kinetic/Incantation II](06-abilities.md#spellcasting-local), [Spellcasting: Air II](06-abilities.md#spellcasting-local), [Spellcasting: Water II](06-abilities.md#spellcasting-local)|Healer's Kit/Bows||
-|4 (1) |6  (1)|8  (2)|2|3|[Spellcasting: Global II](06-abilities.md#spellcasting-global), [Bind Familiar I](06-abilities.md#bind-familiar-i-iv), STAT +1|Calligraphy Kit/Light Armour||
-|5 (1) |7  (2)|10 (2)|3|3|[Spellcasting: Kinetic/Incantation III](06-abilities.md#spellcasting-local), [Spellcasting: Air III](06-abilities.md#spellcasting-local), [Spellcasting: Water III](06-abilities.md#spellcasting-local)|Glassblowers' Tools||                         
-|6 (2) |9  (2)|11 (2)|4|4|[Spellcasting: Global III](06-abilities.md#spellcasting-global), [Bind Familiar II](06-abilities.md#bind-familiar-i-iv), STAT +1|Healer's Kit/Bows||
-|7 (2) |10 (2)|13 (3)|4|5|[Spellcasting: Kinetic/Incantation IV](06-abilities.md#spellcasting-local), [Spellcasting: Air IV](06-abilities.md#spellcasting-local), [Spellcasting: Water IV](06-abilities.md#spellcasting-local)|Calligraphy Kit/Light Armour||
-|8 (2) |11 (2)|15 (3)|4|5|[Spellcasting: Global IV](06-abilities.md#spellcasting-global), [Bind Familiar III](06-abilities.md#bind-familiar-i-iv), STAT +1|Shields||
-|9 (2) |12 (2)|17 (3)|4|5|[Spellcasting: Kinetic/Incantation V](06-abilities.md#spellcasting-local), [Spellcasting: Air V](06-abilities.md#spellcasting-local), [Spellcasting: Water V](06-abilities.md#spellcasting-local)|||
-|10 (3)|13 (3)|19 (4)|6|7|[Spellcasting: Global V](06-abilities.md#spellcasting-global), [Spellcasting: Fire/Earth II](06-abilities.md#spellcasting-local), STAT +1|||
-|11 (3)|15 (3)|20 (4)|6|7|[Spellcasting: Kinetic/Incantation VI](06-abilities.md#spellcasting-local), [Spellcasting: Air VI](06-abilities.md#spellcasting-local), [Spellcasting: Water VI](06-abilities.md#spellcasting-local)|||
-|12 (3)|17 (3)|21 (4)|6|7|[Spellcasting: Global VI](06-abilities.md#spellcasting-global), [Bind Familiar IV](06-abilities.md#bind-familiar-i-iv), STAT +1|||
+|Level|SP dice|MP dice|NAP|SAP|Abilities|Proficiencies|
+|-|-|-|-|-|-|-|
+|1 (1) |2  (1)|3  (1)|2|2|[Spellcasting: Kinetic/Incantation I](06-abilities.md#spellcasting-local), [Spellcasting: Air I](06-abilities.md#spellcasting-local), [Spellcasting: Water I](06-abilities.md#spellcasting-local)|Herbalist's Kit, Staves, Light Blades|
+|2 (1) |3  (1)|5  (1)|2|2|[Spellcasting: Fire I](06-abilities.md#spellcasting-local), [Spellcasting: Earth I](06-abilities.md#spellcasting-local), [Spellcasting: Global I](06-abilities.md#spellcasting-global)|Alchemist's Tools|
+|3 (1) |4  (1)|7  (2)|2|3|[Spellcasting: Kinetic/Incantation II](06-abilities.md#spellcasting-local), [Spellcasting: Air II](06-abilities.md#spellcasting-local), [Spellcasting: Water II](06-abilities.md#spellcasting-local)|Healer's Kit/Bows|
+|4 (1) |6  (1)|8  (2)|2|3|[Spellcasting: Global II](06-abilities.md#spellcasting-global), [Bind Familiar I](06-abilities.md#bind-familiar-i-iv), STAT +1|Calligraphy Kit/Light Armour|
+|5 (1) |7  (2)|10 (2)|3|3|[Spellcasting: Kinetic/Incantation III](06-abilities.md#spellcasting-local), [Spellcasting: Air III](06-abilities.md#spellcasting-local), [Spellcasting: Water III](06-abilities.md#spellcasting-local)|Glassblowers' Tools|
+|6 (2) |9  (2)|11 (2)|4|4|[Spellcasting: Global III](06-abilities.md#spellcasting-global), [Bind Familiar II](06-abilities.md#bind-familiar-i-iv), STAT +1|Healer's Kit/Bows|
+|7 (2) |10 (2)|13 (3)|4|5|[Spellcasting: Kinetic/Incantation IV](06-abilities.md#spellcasting-local), [Spellcasting: Air IV](06-abilities.md#spellcasting-local), [Spellcasting: Water IV](06-abilities.md#spellcasting-local)|Calligraphy Kit/Light Armour|
+|8 (2) |11 (2)|15 (3)|4|5|[Spellcasting: Global IV](06-abilities.md#spellcasting-global), [Bind Familiar III](06-abilities.md#bind-familiar-i-iv), STAT +1|Shields|
+|9 (2) |12 (2)|17 (3)|4|5|[Spellcasting: Kinetic/Incantation V](06-abilities.md#spellcasting-local), [Spellcasting: Air V](06-abilities.md#spellcasting-local), [Spellcasting: Water V](06-abilities.md#spellcasting-local)||
+|10 (3)|13 (3)|19 (4)|6|7|[Spellcasting: Global V](06-abilities.md#spellcasting-global), [Spellcasting: Fire/Earth II](06-abilities.md#spellcasting-local), STAT +1||
+|11 (3)|15 (3)|20 (4)|6|7|[Spellcasting: Kinetic/Incantation VI](06-abilities.md#spellcasting-local), [Spellcasting: Air VI](06-abilities.md#spellcasting-local), [Spellcasting: Water VI](06-abilities.md#spellcasting-local)||
+|12 (3)|17 (3)|21 (4)|6|7|[Spellcasting: Global VI](06-abilities.md#spellcasting-global), [Bind Familiar IV](06-abilities.md#bind-familiar-i-iv), STAT +1||

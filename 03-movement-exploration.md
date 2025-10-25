@@ -218,6 +218,7 @@ Not all flying entities are equal in flight. There are three parameters by which
   - **Perfect:** These entities have none of the typical limits of the other three categories. In addition:
     - They can hover without falling.
 
+___
 #### Notes on Flight
 
 **NB**: Flight "time" is fully regained at the end of a ["long rest"](04-combat.md#long-rest). Likewise, half of an entity's flight time (but no more than 2 hours) is regained at the end of a ["short rest"](04-combat.md#short-rest).
@@ -269,6 +270,7 @@ The rules should accommodate to all of these activities without trivialising the
 
 In many games where events move at the speed of plot, travel and exploration rules can be eschewed. However in some games, where exploration, strategy or time sensitive chase-like quests are present, they add an extra layer of depth.
 
+___
 ### Overview
 
 Travel from A to B can be summarised as follows:
@@ -381,6 +383,7 @@ Desert here refers to inhospitable plains, be they of sand or snow. It is not ne
 - **Navigation Threshold:** 10
 - **Camping Threshold:** 20
 - **Global movement cost:** x2
+
 ___
 #### Mountains
 
@@ -408,6 +411,7 @@ Inclement weather has two severities: **Severe** and **Extreme**. This is a simp
 
 Characters may be so lucky as to find themselves travelling in fair weather that brings no direct hazards with it. In such weather it is not to cold or too hot, the wind is not strong enough to cause much of a problem, even for long ranged attacks, precipitation is, at worst, not much stronger than a drizzle, and visibility is good enough to see for miles. The main danger of this kind of weather, if anything, is that it probably does not cause problems for your foes either!
 
+___
 #### Precipitation
 
 This can be rain, snow, sleet, or even ashfall. This can lead to poor visibility, difficult movement due to boggy ground or accumulation, or even collapse of structures (snow, ash).
@@ -422,6 +426,7 @@ This can be rain, snow, sleet, or even ashfall. This can lead to poor visibility
   - Flying characters must make a ["fly"](05-skills.md#fly) roll, or risk falling. Even if they succeed, they move at 1/4 speed and take damage (see "[flying and turbulence](#flying-and-turbulence)).
   - A character exposed to extreme precipitation must succeed a CON save (threshold=[16 + hours exposed]) every hour, or lose 1 SP die. When all SP dice are lost, it loses 1 HP instead.
 
+___
 #### Wind
 
 Wind can damage structures, knock prone smaller entity and impede ranged attacks and movement. It is particularly dangerous for flying entities.
@@ -439,6 +444,7 @@ Wind can damage structures, knock prone smaller entity and impede ranged attacks
   - Characters of size category medium or smaller must succeed on a STR save (threshold=20) at the start of each turn or be blown back by 20ft for every size category smaller than large and land prone. If a small or smaller character fails the save by 6 or more, they are blown away.
   - Flying characters must make a ["fly"](05-skills.md#fly) roll, or risk falling. Even if they succeed, they move at 1/4 speed and take damage (see "[flying and turbulence](#flying-and-turbulence)).
 
+___
 #### Visibility
 
 Poor visibility is usually caused be caused by extreme precipitation, fog, murky water, cosmic clouds or darkness. It is easier to hide, and harder to detect, navigate and aim in poor visibility. The game here defines visibility ranges for poor and zero visibility, although the there will be times when these ranges can be a little lower, or a little higher, since weather, unsurprisingly, varies.
@@ -451,6 +457,7 @@ Poor visibility is usually caused be caused by extreme precipitation, fog, murky
   - +5 to thresholds for scouting (navigation and observe).
   - Characters have light concealment beyond 5ft and heavy concealment beyond 10ft. Beyond 20ft characters that rely on sight are effectively "[blinded](10-conditions-types.md#conditions-in-detail). NB: There are times when zero visibility is truly zero visibility and a character is considered blinded beyond their fingertips, although this is rare.
 
+___
 #### Temperature
 
  Very low or high temperatures. Exposure to temperatures that an entity is not acclimatised to can quickly lead to exhaustion (hypothermia, hyperthermia, dehydration) or even death. It is more difficult to recuperate under these conditions. In particular, trying to recuperate in unameliorated camps may require a roll, or be impossible. Unlike the other weather hazards, temperature has a third category: *lethal*. This represents extremes of heat/cold that will kill entities that are not resistant in a manner of minutes.
@@ -495,6 +502,7 @@ All travel rolls are determined by the terrain type, the weather modifier from i
 - In groups where travel rolls are seen as a burden they can be dropped, but please keep in mind that this will affect the value of certain skills and abilities.
 - There is also a simplified table provided if the full rule is deemed burdensome.
 
+___
 #### Summary of Simplified Travel Rules (Camping and navigation combined)
 
 |Terrains                                         |Threshold            |
@@ -508,6 +516,7 @@ In the simplified rules, the thresholds for navigation and camping are the same.
 
 It should be noted that the simplified table has generally lower thresholds. This is because it is considered likely that a group that is not using the detailed tables is probably not as excited about the challenges of travel and exploration, so the challenge should be lower to occupy less of their time. The group is of course free to modify the tables as it sees fit, if they wish to adjust the challenge.
 
+___
 #### Summary of Full Travel Rules
 
 _Summary table for navigation:_
@@ -821,7 +830,7 @@ There are no general hazards in the shallows of the Spirit Realm. However, upon 
 
 #### Spirit Realm Rules: Intermediate
 
-Firstly, all the hazards of the "shallow" realms apply. Secondly, the DM should keep track of the number of short rests (long rests count as 2, full rests count as 7) took in the intermediate layers. Upon returning to a shallower layer of the spirit world or to the material world, the traveller must make an INT save vs a Threshold=[16 + number of short rests]. Upon failure it expends a number of SP and MP dice (each) equal to the number of short rests it spent in the intermediate realms. In addition the traveller suffers from one or more of "catatonic", "glowing", "charmed", "aphonic", "blinded" and/or "blinded". If the traveller succeeds on the save, it does not suffer from the conditions, but expends half of the SP and MP dice it would on a fail.
+Firstly, all the hazards of the "shallow" realms apply. Secondly, the DM should keep track of the number of short rests (long rests count as 2, full rests count as 7) taken in the intermediate layers. Upon returning to a shallower layer of the spirit world or to the material world, the traveller must make an INT save vs a Threshold=[16 + number of short rests]. Upon failure it expends a number of SP and MP dice (each) equal to the number of short rests it spent in the intermediate realms. In addition the traveller suffers from one or more of "catatonic", "glowing", "charmed", "aphonic", "blinded" and/or "blinded". If the traveller succeeds on the save, it does not suffer from the conditions, but expends half of the SP and MP dice it would on a fail.
 
 #### Spirit Realm Rules: Deep
 

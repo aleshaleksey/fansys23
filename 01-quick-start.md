@@ -1,4 +1,4 @@
-# FanSys23
+# FanSys23 Quick-start
 
 ## Forwards
 This is a fantasy roleplaying system optimised for balance that uses 2d12 for its core roll. It is meant for games with a focus on small group combat and exploration, with an emphasis on the balance between mundane and supernatural.
@@ -105,15 +105,17 @@ Beware there are stats and stat bonuses. Bonuses are added to rolls, stats are j
 
 For more information on stats see ["Base Rules: Stats"](02-base-rules.md#stats).
 
-# Types, Races, Species and Templates
+___
+## Types, Races, Species and Templates
 
 Some role playing fantasy species support different playable races (eg humans, elves, dwarves, etc) and some do not. Systems like DnD and Pathfinder have "baked in" races. Other systems like "Ryuutama" allow only humans. This system supports races from different creature types, as this can add an enormous amount of flavour to a game, and a good amount of mechanical complexity, but does not consider them a necessary core rule, as this is considered to be setting specific.
 
-## Races and Species
+### Races and Species
 
 The system does not debate whether different races are different species or not. This is a setting specific decision.
 
-## Templates
+___
+### Templates
 
 All characters start with a template. A template is a set of abilities, traits and properties. Usually it is associated with a race or creature type. Not all templates are equal. Some templates (eg dragon, angel) are blatantly more powerful than others. In order to offset this, templates have levels. Templates exist for level 0, level 4 and level 9. They can also be created for other levels. For a start, level 0 templates should be considered the standard.
 
@@ -128,6 +130,7 @@ In either case, the unique characteristics of these beings are represented by "t
 
 Depending on the power level of the game one can pick a basic race or a "level-4" or "level-9" template. It is is essential that it is pre-agreed beforehand what level template everyone picks. I guarantee that unless the group is extremely chilled you will fall out if you do not. Advanced templates, as well as rules on how to make new ones are found in the ["Races"](09-races.md) chapter. When introducing new templates or races to a setting make sure to discuss your ideas with the rest of the agree.
 
+___
 #### How to apply a race/template
 
 Templates generally give some small bonuses, a few nice features, some of which cannot be gained by other means. Some also give your character penalties. These can be both a pain and a roleplaying crutch. To apply a template:
@@ -157,13 +160,13 @@ Human represents the human race. The human race is the base. Humans have no spec
 - **Type**: Humanoid (needs to breathe, drink, eat, and sleep). Humans age.
 - **Proficiencies**: One appropriate language.
 
-Extra:
+**Extra**:
 
 - A +2 bonus to any stat, and +1 to two other stats.
 - +2 to any one skill. 
 - Any 2 proficiencies.
 
-Race boon (level 8 and 16):
+**Race boon (level 8 and 16)**:
 
 - +2 bonus to any stat.
 - 4 skill points to spend on skills and proficiencies.
@@ -180,12 +183,12 @@ This is a race that is closer to the fey, either created when fey spirits took m
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Elves do not age.
 - **Proficiencies**: One appropriate language and the Elvish tongues. Bows OR one class of instrument.
 
-Extra:
+**Extra**:
 
 - +1 Observe
 - Resistance to "Charmed"
 
-Race boon (level 8 and 16):
+**Race boon (level 8 and 16)**:
 
 - Immunity to one of "Charmed", "Blinded", "Stunned" or "Bleeding".
 - +5 to walking speed
@@ -202,11 +205,11 @@ This is a race that is closer to the feral side of humanoids. They are stronger 
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
 - **Proficiencies**: One appropriate language. Strikes AND Spears.
 
-Extra:
+**Extra**:
 
 - Resistance to percussive and advantage on saves vs "Prone".
 
-Race boon (level 8 and 16):
+**Race boon (level 8 and 16)**:
 
 - Resistance to one of "piercing", "slashing" or "pressure" or "shear".
 - +1 Con, +1 Str.
@@ -223,13 +226,13 @@ The sea people a race of humanoids that live in and around the islands of the sh
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
 - **Proficiencies**: One appropriate language, Cetacean.
 
-Extra:
+**Extra**:
 
 - Water breathing
 - Resistance to "Cold" OR +2 Swim.
 - Resistance to "Aphonia".
 
-Race boon (level 8 and 16): (6 points)
+**Race boon (level 8 and 16)**:
 
 - +5 to swim speed.
 - One of "life sense (1 level)" or "blind sight (1 level)".
@@ -246,12 +249,12 @@ This is a race of winged humanoids that live in high and isolated places, as wel
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
 - **Proficiencies**: One appropriate language.
 
-Extra:
+**Extra**:
 
 + 2 to Fly.
 + 1 to Observe.
 
-Race boon (level 8 and 16):
+**Race boon (level 8 and 16)**:
 
 - +1 fly level.
 - +10 fly speed.
@@ -268,16 +271,16 @@ This is a race of intelligent beasts that dwells in the deepest wilderness. It i
 - **Type**: Monster (needs to breathe, drink, eat and sleep). Ages.
 - **Proficiencies**: One appropriate language.
 
-Penalties:
+**Penalties**:
 
 - Beasts of the Green have no prehensile limbs.
 
-Extra:
+**Extra**:
 
 - Incantation Magic (level 1).
 - +2 Navigate.
 
-Race boon (level 8 and 16):
+**Race boon (level 8 and 16)**:
 
 - +5 to movement speed.
 - +2 to one of "Str", "Dex", "Con" or "Wis"
@@ -295,12 +298,12 @@ This is a race of humanoid that has various beast like traits, usually cat-like,
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
 - **Proficiencies**: One appropriate language.
 
-Extra:
+**Extra**:
 
 - +1 Track.
 - +2 to Str or Dex.
 
-Race boon (level 8 and 16):
+**Race boon (level 8 and 16)**:
 
 - +10 to a movement speed of one modality.
 - One of "keen hearing", "keen scent".
@@ -317,13 +320,13 @@ This represents those who have been touched by dark forces. Perhaps because of a
 - **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
 - **Proficiencies**: One appropriate language.
 
-Extra:
+**Extra**:
 
 - Resistance to "poison" + "poisoned" .
 - Resistance to "Bleeding". 
 - Elementalism: Elemental Touch.(level 1).
 
-Race boon (level 8 and 16):
+**Race boon (level 8 and 16)**:
 
 - Resistance to one of "piercing", "percussive", "slashing" or "pressure" or "shear", "fire" or "ice".
 - +1 Str, +1 Cha.
@@ -361,7 +364,9 @@ ___
 
 HP represents a character's vitality, physical body or life force. Importantly, losing HP represents taking actual damage and often has consequences, such as losing limbs, bleeding and death. A character loses HP by taking damage from attacks and indirect effects (like a fireball or an avalanche). Try not to lose too much HP too often.
 
-A character's HP is equal to [Level + [Con] + [Cha]]. So for a level one character with +3 [Con] and +1 [Cha], the HP total is 5. This is not a lot. If at the end of the calculation you start off with 0 HP, then your HP total is set to 1.
+A character's HP is equal to: **[Level + [Con] + [Cha]]**.
+
+Thus for a level one character with +3 [Con] and +1 [Cha], the HP total is 5. This is not a lot. If at the end of the calculation you start off with 0 HP, then your HP total is set to 1.
 
 Luckily a character also has mana (or mental) points (MP) and stamina points (SP). When a character is hit with a mundane ("natural") attack, the damage is first subtracted from SP, and only if it is massive damage, or if the character runs out of SP, does the damage actually affect HP. This works in the same way of MP and supernatural attacks. SP and MP are different from HP in three ways.
 
@@ -375,8 +380,8 @@ Luckily a character also has mana (or mental) points (MP) and stamina points (SP
 
 The amount of SP or MP a character has is determined by how many SP dice and MP dice it has. A level one character starts with 1 SP dice and 1 MP and 3 dice points to assign as they wish for additional SP or MP dice.
 
-The total MP = [Level x [Cha] + 2 x [MP dice]]
-The total SP = [Level x [Con] + 2 x [SP dice]]
+- The total MP = **[Level x [Cha] + 2 x [MP dice]]**
+- The total SP = **[Level x [Con] + 2 x [SP dice]]**
 
 So if a character starts with 3 SP dice and 2 MP dice, and has +3 [Con] and +1 [Cha] then,
 
@@ -407,8 +412,8 @@ Attacks must overcome HiT to do damage, abilities are opposed by a save. "Natura
 
 The Attack Potential of a character's ability is determined by the total number of SP dice it has divided by 6 (for "natural" attacks) or the total number of MP dice it has divided by 6 (for "supernatural" attacks). These bonuses are called the "Nat" and "Sup" respectively, and are used a lot! Overall the total attack bonus is generally given by:
 
-+ For "natural" abilities, attack potential (NAP) = [Nat] + [Base]
-+ For "supernatural" abilities, attack potential (SAP) = [Sup] + [Base]
++ For "natural" abilities, attack potential **(NAP) = [Nat] + [Base]**
++ For "supernatural" abilities, attack potential **(SAP) = [Sup] + [Base]**
 
 So for our example level one character who had 3 SP dice and 2 MP dice:
 
@@ -432,9 +437,9 @@ ___
 
 When spells and some abilities are used, the onus on overcoming their effects is on the character who would be affected. In this case, the character who is affected can attempt to roll a "save" against the spell/ability's static "threshold". There are six types of saving throw, one for each stat. A character can either proficient or not proficient with a save. The bonus for the save is as follows:
 
-- **Not proficient**: [Stat bonus + Base]
-- **Proficient** (Str, Dex, Con): [NAP + Stat bonus]
-- **Proficient** (Int, Wis, Cha): [SAP + Stat bonus]
+- **Not proficient**: **[Stat bonus + Base]**
+- **Proficient** (Str, Dex, Con): **[NAP + Stat bonus]**
+- **Proficient** (Int, Wis, Cha): **[SAP + Stat bonus]**
 
 The "save threshold" is equal to **[13 + [Nat or Sup] + [Stat bonus]]**.
 
@@ -443,9 +448,9 @@ If the roll to save ("save") is equal or higher than Threshold, the character av
 ___
 ### Alignment
 
-This is OPTIONAL.
+Alignment is an OPTIONAL rule.
 
-Some systems have an alignment system, usually along the order/chaos axis or the good/evil axis. There is no such system here. Rather we fully embrace orange/blue morality.
+Some systems have an alignment system, usually along the order/chaos axis or the good/evil axis. The alignment referred to here does not directly intersect with morality.
 
 A character does not have to be aligned with or to anything. Not even magnetic north. A character CAN, however, be "aligned" with various types of forces if they chose. This is not necessarily guided by behaviour or moral code of a character. It is however important for certain abilities and may influence how certain entities perceive the character.
 
@@ -453,8 +458,8 @@ Alignment is usually: "None", "Spiritual", "Divine" and "Profane".
 
 + None: The normal state of being for a mortal.
 + Spiritual: Implies priority of the immaterial world over the material world.
-+ Divine: Implies homage to the forces that created and maintain the world.
-+ Profane: Implies homage to the forces that oppose creation.
++ Divine: Implies deep homage to the forces that created and maintain the world.
++ Profane: Implies deep homage to the forces that oppose creation.
 + One cannot be aligned to "Divine" and "Profane" simultaneously as those forces oppose each other.
 + A character or locale can also become aligned with various elements. This affects how other elements interact with the character.
 

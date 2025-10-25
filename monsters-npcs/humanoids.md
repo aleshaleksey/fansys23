@@ -390,7 +390,6 @@ ___
 |[Sniper](../06-abilities.md#sniper)|||A scout maintains stealth if they attack from hiding and miss.|
 |[Silent Step II](../06-abilities.md#silent-step-i-iii)|||An assassin can maintain stealth even while running.|
 |||||
-|||||
 |Proficiencies|||"Light Blades", "Light Armour", "Bows", "Mechanical Bows", "Spears", "Staves", "Grapple", "Throw", "Disguise Kit", "Healer's Kit", "Lock-picks", "Forgery Kit", "Poisoner's Kit"|
 |Skills|||Usually +5 climb, +3 athletics, +2 fortify, +9 stealth, +6 acrobatics, +6 sleight of hand, +2 prospect, +3 history, +5 observe, +3 academics, +4 sense motive, +4 deception|
 |Loot|||Usually the tools of their trade, and clothes on their back.|

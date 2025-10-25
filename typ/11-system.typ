@@ -75,6 +75,11 @@
 )
 #show table.cell.where(y: 0): strong
 
+#show figure: set block(breakable: true)
+#show figure: it => align(left)[
+  #it.body
+]
+
 #show link: content => {
   underline(text(blue, content))
 }
@@ -111,6 +116,10 @@
 #pagebreak()
 #include "build/15-charm-etc.typ"
 #pagebreak()
+
+#set page(columns: 1)
 #include "build/16-recipes.typ"
 #pagebreak()
+
+#set page(columns: 2)
 #include "build/02-base-rules.typ"

@@ -81,10 +81,6 @@
 #show figure: set block(breakable: true)
 #show figure: it => align(left)[
   #it.body
-  // #v(10pt, weak: true)
-  // if #it.caption {
-  // #emph[#it.supplement #it.counter.display(it.numbering)]: #it.caption
-  // }
 ]
 
 #show link: content => {

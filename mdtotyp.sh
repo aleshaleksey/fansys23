@@ -21,12 +21,12 @@ for X in $(ls typ/build | grep \\\.typ); do
     # The simpler one is here since the complex one doesn't catch everything.
     # all of this replaces references
     sed -E --in-place "s@<([-[:alnum:]]+)>@<${y}-\1>@g" typ/build/$X
-    sed -E --in-place "s@<([-[:alnum:]]+).md#([^>]+)>@<\1-\2>@g" typ/build/$X
-    sed -E --in-place 's@\("([-[:alnum:]]+).md#([^\"]+)"\)@\(<\1-\2>\)@g' typ/build/$X
+    sed -E --in-place "s@<([-[:alnum:]]+).md\#([^>]+)>@<\1-\2>@g" typ/build/$X
+    sed -E --in-place 's@\("([-[:alnum:]]+).md\#([^\"]+)"\)@\(<\1-\2>\)@g' typ/build/$X
     # Make horizontal lines.
     sed -E --in-place 's@[\_]{3,}@\n#line(length: 100%, stroke: 2pt + gray)@g' typ/build/$X
     # Add proper indexes
-    sed -E --in-place 's@(^[=]{1} [^\n]+)@\#import "../fansys-core.typ": chapterindex, link2\n\#pagebreak()\n\1\n\#chapterindex()@g' typ/build/$X
+    sed -E --in-place 's@(^[=]{1} [^\n]+)@\#import "../fansys-core.typ": chapterindex, link2\n\#page(columns: 1)[\1\n#chapterindex()]@g' typ/build/$X
     # Replace links with page bound links
     sed -E --in-place 's@\#link\(<@\#link2\(<@g' typ/build/$X
     # Proper page breaks

@@ -198,6 +198,7 @@ ___
 **Action:** Declare "assassinate" and make the attack.
 
 **Offence**:
+
 - Exertion: Yes.
 - Range: Weapon range, but no more than 30ft + 5ft/[assassinate level]
 - Duration: Instantaneous.
@@ -208,10 +209,12 @@ ___
 - Dice: None.
 
 **Prerequisites**:
+
 - Precision attack III.
 - Character level of at least [Assassinate level] x 4
 
 **Special**:
+
 - You can only make one attack as your main action when using "assassinate".
 - The target must affected by at least one of the conditions that your assassinate level qualifies you for. For example at "Assassinate I", it must be "immobilised", at "Assassinate 3" it must be "immobilised", or "surprised" or "stunned".
 - Assassinate automatically fails if the target has heavy, or total, concealment, or if it is "invisible" to you. This means that, for example, entities without low light vision, or other special sight, cannot use "assassinate" with ranged attacks in low light conditions or darkness.
@@ -235,10 +238,12 @@ ___
 **Action**: Declare berserk as a "secondary action".
 
 **Effect**: A character enters a berserker trance.
+
 - A character can remain in the trance for a number of rounds equal to its SP dice total, or 6 rounds, whichever is greater. The character can leave the trance voluntarily as a secondary action.
 - The character gains a number of SP equal to their SP dice maximum. In addition the character has a bonus to walk, climb, swim and fly speed, weapon damage, and may have advantage on attacks (See the berserker table).
 
 **Special**:
+
 - Berserk does not have an SP dice cost. However, when the berserker trance is over, you lose a number of HP equal to the level of the Berserk ability (so for "Berserk I" you lose 1HP: see table below).
 - At the end of the trance you lose the SP that was gained at the start of the berserker trance. If this would leave the character with negative SP, the character's SP drops to zero, and the character instead loses a number of HP equal to its [base]. For example, a character with [base]=2 (levels 6-10) would lose 2 HP in this case. This HP loss is IN ADDITION to the normal HP loss that occurs regardless at the end of the trance.
 - While "berserk", a character may not use INT based skills and has disadvantage on all WIS and CHA based skills with the exception of ["Observe"](05-skills.md#observe). It has disadvantage on ["Tinker"](05-skills.md#tinker) rolls.
@@ -278,6 +283,7 @@ ___
 **Original state**: Ordinary broad strike only hits adjacent targets.
 
 **Prerequisites**:
+
 - 21 SP dice
 - STR or DEX of 17
 - "Broad Strike"
@@ -326,6 +332,7 @@ ____
 **Description**: Expend 1-3 SP dice to induce a condition when making an unarmed strike or a melee attack with a "light" weapon. For each new condition the ability must be taken again.
 
 **Action**:
+
 1. Declare the ability and make the attack.
 2. If you hit, expend the SP dice, target tries to save against your Nat + [Con] at the start of its turn.
 3. On a fail, the target is affected until the end of its next turn.
@@ -348,6 +355,7 @@ ___
 **Description**: Reduce damage from ranged attacks that do hit when you use ["parry"](#parry).
 
 **Action**: When you use parry to deflect a ranged weapon attack, and the attack hits and does damage, you may declare "Deflect Missile". The effect is as follows:
+
 - If a ranged weapon attack would hit anyway, despite being parried, the *physical* damage is reduced by the roll of your [melee attack damage] + [NAP]. Thus if you hold a greatsword, and your melee damage is 2d6+4 and your NAP is 5, then the damage of that ranged attack is reduced by 2d6+9.
 - If you fail a DEX save to evade a natural projectile (eg rockfall, or an arrow trap) when your declaration of parry is in effect, you can chose to deflect it, with the same effect as if you were deflecting a ranged weapon attack.
 
@@ -435,6 +443,7 @@ ___
 **Action**: Declare "precision attack" and make the attack.
 
 **Offence**:
+
 - Exertion: Yes.
 - Range: Weapon range.
 - Duration: Instantaneous.
@@ -445,6 +454,7 @@ ___
 - Dice: None.
 
 **Special**:
+
 - Precision attack can only be made with a Dex based weapon on a Dex based attack roll.
 - You can only make one weapon attack when using "precision attack".
 - The target must be unaware of you, "surprised", or be in melee range of another entity hostile to it. OR you must have advantage on your attack.
@@ -471,11 +481,13 @@ ___
 **Description**: Strike several targets within 30ft of you with a melee weapon that deals piercing or slashing damage and end your movement within 10ft of any of those targets.
 
 **Action**: 
+
 1. Select number of SP dice to expend (4-10) and up to 6 targets (one per SP dice).
 2. Roll attack against each target. On hit deals damage (see below).
 3. Select ending location.
 
 **Offence**:
+
 - Exertion: Yes.
 - Range: 30ft.
 - Duration: Instantaneous.
@@ -496,6 +508,7 @@ ___
 |10|6|Weapon dmg + 10d8|
 
 **Prerequisites**:
+
 - **SP dice total**: 16.
 - **MP dice total**: 16.
 - **Other:** At least 3 other martial combat abilities or boons, one of which must be "Swift Strike" or 2 other martial combat abilities and boons and "Flurry".
@@ -517,16 +530,19 @@ ___
 **Targets**: All allied entities within range that can hear the song.
 
 **Effect**: Each targets within range that can hear the song gain resistance to requisite conditions ("frightened", "catatonic", "incapacitated", "paralysed",depending on bard song level). In addition each affected entity in range gains the following benefits:
+
 - It can add its [base](02-base-rules.md#base) to a single roll per round while it can hear the song.
 - It may gain advantage on a single roll per song (see "prerequisite table" below).
 
 **Limitations**:
+
 - A character that is "aphonic", "silenced", or otherwise cannot produce sound cannot use "bard song".
 - A character that is "deafened" or otherwise cannot perceive sound cannot be affected by "bard song".
 
 **Special**: On a perform roll of 24 or higher, a resistance of the performer's choice becomes an immunity for the duration of the song.
 
 **Prerequisites table**:
+
 |Bard Song Level|Perform Ranks|Resistance|Advantage|
 |-|-|-|-|
 |I|1|"frightened"|-|
@@ -540,10 +556,12 @@ ___
 **Description**: As a "secondary action" move up to your base speed per SP dice expended. This movement does not provoke attacks of opportunity. While moving like this your jump distance is increased by 10ft per SP dice spent and you are not affected by difficult terrain.
 
 **Special**:
+
 - This ability must be taken separately for each movement modality.
 - Flash step cannot be used with "dig" speed, "swim" speed or "cosmic" speed.
 
 **Limitation**:
+
 - Flash Step cannot be used when wearing heavy armour.
 - The SP dice cost of Flash Step is doubled when wearing medium armour.
 
@@ -575,9 +593,11 @@ ___
 **Action**: As a reaction to being hit by a ranged "supernatural" attack, declare "deflection".
 
 **Limitations**:
+
 - The ability cannot be used when you are surprised, or otherwise incapable of using reaction.
 
 **Prerequisite**:
+
 - ["Arcane Interception"](#arcane-interception) or ["Parry"](#parry)
 - "Elementalism" or any "Spellcasting: Local".
 - 7 MP dice total
@@ -592,15 +612,18 @@ ___
 **Declaration**: Must be made when the attack is called, however, for MELEE attacks the MP cost is only paid if the attack hits. For ranged and thrown weapon attacks the cost is always paid.
 
 **Limitations**:
+
 - Divine strike, when used with ranged weapons, is applicable only within the first range increment.
 
 These are OPTIONAL rules for when playing with alignment:
+
 - A character with a "Profane" alignment cannot take this ability.
 - A character who gains this ability gains the "Divine" alignment and loses the ability to use it if they lose the alignment.
 
 **Special**: Must be taken separately for each weapon proficiency group.
 
 **Prerequisites**:
+
 - Proficiency with the given weapon group.
 - ["Holy Strike"](#holy-strike)
 - 12 SP dice total and 18 MP dice total.
@@ -632,6 +655,7 @@ ___
 **Type**: B Class
 
 **Description**: Expend an MP die to infuse a weapon attack with elemental energy. The element can be fire, ice or lighting, and must correspond to the element chosen when acquiring this ability. The attack will deal an extra:
+
 - 2d6 fire[supernatural] damage.
 - 2d6 ice[supernatural] damage.
 - 2d4 lightning[supernatural] damage.
@@ -639,14 +663,17 @@ ___
 **Declaration**: Must be made when the attack is called, however, for MELEE attacks the MP cost is only paid if the attack hits. For ranged and thrown weapon attacks the cost is always paid.
 
 **Limitations**:
+
 - Elemental Strike, when used with ranged weapons, is applicable only within the first range increment.
 
 **Special**:
+
 - If the element is fire or lightning the attack may ignite flammable materials, and sheds light (visibility 1 mile, illumination: dim 10ft).
 - Elemental strike must be taken separately for each element.
 - Though the elemental damage is supernatural, the remaining weapon damage will usually still be natural.
 
 **Prerequisites**:
+
 - Proficiency with at least one weapon group.
 - Any ["Elementalism"](#elementalism-elemental-blast) or [Elemental Spellcasting](#spellcasting-local) of the same element.
 - 5 SP dice total and 6 MP dice total.
@@ -663,6 +690,7 @@ ___
 **Action**: As a reaction to being hit by a ranged "esoteric" attack, declare "esoteric deflection".
 
 **Limitations**:
+
 - The ability cannot be used when you are surprised, or otherwise incapable of using reactions.
 
 **Prerequisite**: ["Deflection"](#deflection) + 17 MP dice total.
@@ -677,14 +705,17 @@ ___
 **Declaration**: Must be made when the attack is called, however, for MELEE attacks the MP cost is only paid if the attack hits. For ranged and thrown weapon attacks the cost is always paid.
 
 **Limitations**:
+
 - Holy Strike, when used with ranged weapons, is applicable only within the first range increment.
 - A character with a "Profane" alignment cannot take this ability. This is an optional rule for when playing with alignment.
 
 **Special**:
+
 - "Holy Strike" sheds light (visibility 5 miles, illumination: bright/dim 10ft, 20ft).
 - Though the light damage is supernatural, the remaining weapon damage will usually still be natural.
 
 **Prerequisites**:
+
 - Proficiency with at least one weapon group.
 - 6 SP dice total and 7 MP dice total.
 
@@ -709,6 +740,7 @@ ___
 **Special**: When you miss with a "spell strike" when already concentrating on a spell, the double concentration rule resolves itself in the usual way (either you chose to drop on spell, or they both end, be it quietly or loudly).
 
 **Prerequisites**:
+
 - Must be proficient in the given weapon group.
 - SP dice total of 7.
 - At least one spellcasting ability.
@@ -737,6 +769,7 @@ ___
 **Description**: Spend 1 MP dice to deal "supernatural" damage with a "natural" weapon attack.
 
 **Limitation**: This must be an attack as defined in ["Basic Martial Manoeuvres"](04-combat.md#basic-martial-manoeuvres). It cannot be used in combination with abilities (other than "Multi-attack").
+
 - OPTIONAL: If playing with alignment rules, a character who gains "Spirit Strike" should be spiritually aligned, and cannot use this ability if they lose this alignment.
 
 **Prerequisites**: 12 MP dice total and 18 SP dice total.
@@ -751,10 +784,12 @@ ___
 **Declaration**: Must be made when the attack is called, however, for MELEE attacks the MP cost is only paid if the attack hits. For ranged and thrown weapon attacks the cost is always paid.
 
 **Limitations**:
+
 - Unholy Strike, when used with ranged weapons, is applicable only within the first range increment.
 - A character with a "divine" alignment cannot take this ability. This is an optional rule for when playing with alignment.
 
 **Prerequisites**:
+
 - Proficiency with at least one weapon group.
 - 6 SP dice total and 7 MP dice total.
 
@@ -772,10 +807,12 @@ ___
 **Action**: Declare "alternate form" and use a main action to transform.
 
 **Prerequisites**:
+
 - At least one level of [spellcasting](07-magic-and-spellcasting.md#the-7-types-of-magic) belonging to any the categories of  "air", "nature" or "water".
 - 7 MP dice.
 
 **Table**:
+
 |Ability Level|Min Base|Max Size  |Permitted Types               |Allowed Modalities|
 |-------------|--------|----------|------------------------------|------------------|
 |I            |1       |Medium    |Beast, Humanoid               |Walk, Swim, Climb |
@@ -784,6 +821,7 @@ ___
 |IV           |4       |Gargantuan|As III + Fiend, Angel         |As III + Blink    |
 
 **Special**:
+
 - The alternate form is always the same. For example, if a character transforms into a cat, it is always the same cat.
 - A character with alternate form can ignore the transformative effects of spells such as ["Least Transformation"](08-spell-list.md#least-transformation) and ["Bestial Transformation"](08-spell-list.md#bestial-transformation) by using their main action to transform back into one of their forms.
 - If some abilities/properties of a chosen form is sealed at a lower level of alternate form, they become unlocked upon reaching the correct level of "alternate form".
@@ -792,6 +830,7 @@ ___
 - A character can *be returned* to its original form by dispelling the alternate form, [as per the dispelling rules](07-magic-and-spellcasting.md#banishing-breaking-counter-spelling-and-dispelling). If the alternate form is dispelled, the character cannot use "Alternate Form" for a number of turns equal to the difference between the dispel roll and threshold. For example, if the Threshold=18, and the dispelling character rolls a 23, the shapeshifter cannot return to its alternate form for 5 rounds.
 
 **Limitations**:
+
 - The alternate form chosen cannot be a higher level than the initial character. Thus a level 6 character with "Alternate Form II" cannot chose the form of a [kraken](monsters-npcs/monsters-and-dragons.md#sea-monster-kraken-lesser), as it is a higher level.
 - If the difference in CON between the two forms would increase, or decrease, the SP maximum, SP changes by the difference. For example if a character has +2 [CON], but its alternate form has +3 [CON] and the character has 6 SP dice and a level of 3, its main form would have 18 SP, and its alternate form would have 21 SP. Thus if a character fights in its alternate form and is reduced to 9/21 SP, when it returns to the main form, it would have 6/18 SP. If it has 2/21 SP it will return to 0/18 and take 1 HP damage.
 - Switching between forms does not use SP or MP dice. However, when a character has 0 MP or 0 MP dice, it cannot switch between forms.
@@ -822,6 +861,7 @@ ___
 **Prerequisite**: [Alternate Form II](#alternate-form-i-iv)
 
 **Special**:
+
 - All of a character's equipment is affected in the same way.
 - A character may chose whether equipment:
   - Is sequestered inside them (it still counts against carrying capacity).
@@ -842,6 +882,7 @@ ___
 **Prerequisite**: 6 MP dice total + the ability to cast spells.
 
 **Special**: 
+
 - Must be taken separately for each time of spellcasting.
 - Can be combined with "still spell" and "lingering spell".
 - This allows casting of spells with incantations when under the effects of "aphonia" or "inaudible".
@@ -856,6 +897,7 @@ ___
 **Description**: Bind an "animal" or "monster" to accompany and serve you. Mystics often use bound monsters as guardians.
 
 **Action:**
+
 - Exertion: Yes.
 - Range: 30ft.
 - Duration: Instantaneous.
@@ -866,12 +908,14 @@ ___
 - Cost: 1 MP dice per level of beast.
 
 **Benefits**: A bound beast may not disobey you and acts as a loyal servant, this does not mean, however that it necessarily likes it.
+
 - A bound beast understands your commands and can be commanded in and out of battle with a "communicate" action. No "creature handling" check is required.
 - Such a beast can be used for combat, scouting, guarding and other menial tasks within its capability.
 - Once a command has been issued, the beast will continue to perform the action until it completes the instructions. Thus if it is commanded "attack the bandit" it will continue to do so until called off, while if it is commanded to "give the bandit a bite", it will continue until it has succeeded in biting the bandit once.
 - If a command is physically or conceptually impossible for it, it may either do nothing, or do something similar to the best of its interpretation (which might cause problems).
 
 **Limitations**:
+
 - You must find a suitable beast and keep it still for long enough to bind it. It can attempt a Cha save vs your [Sup + [Cha]] to not be bound. You cannot attempt to bind the same beast for a month if it succeeds. If it succeeds three times, you can never bind it.
 - If a beast has a higher level than your "Bind Beast" limit, you cannot bind it.
 - If you do something, or order the beast to do something that would normally make it a "nemesis" (see ["Skills: Persuade"](05-skills.md#persuade)), it gets a Cha save vs your [Sup + [Cha]] at advantage to break the binding.
@@ -879,6 +923,7 @@ ___
 - You must sacrifice 1HP of your own to the beast every day to keep it bound. Sacrificing another character's HP transfers the beast to their control for the day: Every day this is done the beast gets a Cha save vs the temporary master's [Sup + [Cha]] to break free.
 
 **Rules**:
+
 - If the beast's attack, damage dice, HP, SP or MP are greater than the values displayed on the table, they are reduced to that value.
 - If the beast's attack, damage dice, HP, SP or MP are lower than the values displayed on the table, they are increased to the value.
 - If its movement modalities are too high, it looses them until your "Bind Beast" level reaches a point where it is high enough. If the beast does not have these modalities, it does NOT gain them.
@@ -913,6 +958,7 @@ ___
 **Description**: Bind a minor spirit into a tiny animal to serve you. Spellcasters often use familiars for the most mundane and ridiculous of tasks.
 
 **Action:**
+
 - Exertion: Yes.
 - Range: Your reach (usually 5ft).
 - Duration: Instantaneous.
@@ -923,6 +969,7 @@ ___
 - Cost: 3 MP dice
 
 **Benefits**: A familiar allows a spellcaster several benefits:
+
 - A familiar can give advise (although it is often bad advise!).
 - A familiar gives a "supernatural" bonus equal to the "Bind Familiar" level (must be chosen when the familiar is first bound) when the familiar is within 10ft of the binder, to one of the following:
   - "spellworking" rolls when working with global spells and to your threshold for global spells 
@@ -933,11 +980,13 @@ ___
 - A familiar (at higher levels) can also use "basic martial manoeuvres".
 
 **Limitations**: A familiar has certain limitations.
+
 - A familiar's vessel must be an animal of size "tiny" or "small".
 - If a familiar's vessel is killed, it cannot be given a new vessel till the next day.
 - A character can ONLY have one familiar.
 
 **Rules**:
+
 - A familiar has an intelligence of 5 + [Bind Familiar level] x 2.
 - A familiar has HP, MP, and SP dependant on the "Bind Familiar" level.
 - A familiar retains the HiT of its base creature but uses your saves, has resistance to damage based on the spellcasting that was used as a prerequisite to bind it.
@@ -974,6 +1023,7 @@ ___
 **Exertion**: Yes.
 
 **Limitation**:
+
 - You must have line of sight to your target and your target must be aware of you.
 - The effect ends if the you or an entity perceived by the target as your ally attacks (or applies a harmful effect) the target. Likewise the spell ends if the target is commanded to attack or apply a harmful effect to itself, unless it is already inclined to do so.
 - The target is not necessarily aware that it has been charmed, unless it succeeds a "knowledge:arcana" roll to identify the effect.
@@ -981,11 +1031,13 @@ ___
 - "Divine" or "entropic" damage dealt to the target immediately ends the effect, regardless to whether it is aware that it is charmed or not.
 
 **Special**:
+
 - Charm I and II: If the target succeeds its save by 12 or more, you are charmed by the target.
 - A mortal attempting to charm a "[divine](10-conditions-types.md#divine-1), must make a CHA save vs the target's threshold, or be charmed instead.
 - You can extend the effect as a non-action, however, the target does get to roll a new CHA save. Every time the effect is extended in this way, the target gains a +1 bonus to the save. If the effect is allowed to expire, and you attempt to charm the same target again, the bonus to the save is reset.
 
 **Table**:
+
 |Charm Level|Prerequisites         |MP dice cost      |Range|Maximum duration|Maximum number of targets|
 |-----------|----------------------|------------------|-----|----------------|-------------------------|
 |I          |6 MP dice             |2 per target      |Close|1 hour          |1                        |
@@ -1005,6 +1057,7 @@ ___
 **Prerequisite**: 6 MP dice total + the ability to cast spells.
 
 **Special**:
+
 - Must be taken separately for each time of spellcasting.
 - Can be combined with "still spell" and "aphonic spell".
 
@@ -1020,6 +1073,7 @@ ___
 **Duration**: Similarly to "bard song", the dancer must use their "move action" on each subsequent turn to maintain the "spelldance" and its effect, if the spell has a duration. The dancer can continue a dance for a number of rounds equal to their CON score.
 
 **Effect**: Spelldance allows the spellcaster to produce one of the following effects:
+
 - Modify the shape of an area of affect spell slightly, including or excluding a number of 5ft squares equal to twice the level of the spelldance. For global spells this is a number of 100ft squares equal to twice the level of the spelldance.
 - Modify the damage type of the spell within certain subgroups (see below).
 - Obfuscate the spell if it has only kinetic components. In this case, make a ["perform"](05-skills.md#perform) roll. Any target observing the casting that does not succeed on an opposed ["Knowledge: Arcana"](05-skills.md#knowledge) roll does not recognise that a spell is being cast and cannot identify (although it can recognise that a spell has been cast from the effects after the fact). This is useful in situations where subtlety is required, and to obstruct counter-spelling.
@@ -1037,10 +1091,12 @@ ___
 **Special**: Conversions to "divine" or "entropic" damage types increase the cost of the spell by 3 MP dice (instead of 1), and deal half of the damage to the caster as backlash for impinging on the domain of the gods.
 
 **Limitations**:
+
 - Only spells with kinetic components can be modified with spellsong.
 - A character that is "restrained", "immobilised", or is otherwise unable to move cannot use "spelldance".
 
 **Spelldance table**:
+
 |Spelldance Level|Perform Ranks|Minimum Spell MP dice cost|5ft Squares Moved|Damage Groups Conversions|
 |-|-|-|-|-|
 |I|1|1|2|-|
@@ -1066,11 +1122,13 @@ ALTERNATIVELY, instead of picking a condition, the singer may elect to restore [
 ALTERNATIVELY, instead of picking a condition, if the spell has ONLY incantation components, make a ["perform"](05-skills.md#perform) roll. Any target observing the casting that does not succeed on an opposed ["Knowledge: Arcana"](05-skills.md#knowledge) roll does not recognise that a spell is being cast and cannot identify (although it can recognise that a spell has been cast from the effects after the fact). This is useful in situations where subtlety is required, and to obstruct counter-spelling.
 
 **Limitations**:
+
 - Only spells with incantation components can be modified with spellsong.
 - A character that is "aphonic", "silenced", or otherwise cannot produce sound cannot use "spellsong".
 - A character that is "deafened" or otherwise cannot perceive sound cannot be affected by "spellsong".
 
 **Spellsong table**: It should be noted that conditions from the "conditions" column can be applied or cured with spellsong, but conditions from the "cured only" column can be cured, but not applied, at that level of spellsong.
+
 |Spellsong Level|Perform Ranks|Minimum Spell MP dice cost|[Conditions](10-conditions-types.md#conditions-in-detail)|Cured Only
 |-|-|-|-|-|
 |I|1|1|"Deafened", "Aphonic"|"Frightened"|
@@ -1090,6 +1148,7 @@ ___
 **Prerequisite**: 6 MP dice total + the ability to cast spells.
 
 **Special**:
+
 - Must be taken separately for each time of spellcasting.
 - Can be combined with "aphonic spell", "lingering spell" and "swift spell".
 - This allows spellcasting when "immobilised" or "restrained".
@@ -1106,11 +1165,13 @@ ___
 **Limitation**: If the character casts a "swift spell" in the same turn as casting another spell, and both spells have an MP dice cost of 2 or higher, the character takes 2 points of HP damage.
 
 **Prerequisite**:
+
 - 6 MP dice total
 - The ability to cast spells.
 - +13 DEX or +13 INT.
 
 **Special**:
+
 - Must be taken separately for each time of spellcasting.
 - Can be combined with "still spell", "lingering spell", and "aphonic spell".
 
@@ -1120,6 +1181,7 @@ ___
 Elementalism is the supernatural ability to project the elements violently from one's being, be it fire, ice, or something else. It differs from spellcasting in that it is the barely controlled projection of raw energies, which is generally destructive.
 
 When a character first gains the "elementalism" ability for an element, they choose one of the following 'elements':
+
 - Air
 - Earth
 - Fire
@@ -1128,6 +1190,7 @@ When a character first gains the "elementalism" ability for an element, they cho
 - Lightning (aspect of air, water and fire)
 
 A character then picks one of the following two forms:
+
 - Touch
 - Blast (+ Cone)
 
@@ -1141,6 +1204,7 @@ ___
 **Type**: (Class C-S, supernatural)
 
 **Offence:**
+
 - Exertion: Yes, if used offensively.
 - Range: Special (see).
 - Duration: Instantaneous.
@@ -1156,6 +1220,7 @@ ___
 - Per dice: 1 extra damage die / MP die.
 
 **Special**:
+
 - Elementalism requires at least one prehensile appendage to function properly. When a character is "crippled" on all arms, "restrained", "immobilised", *wielding* items in both arms, or otherwise does not have prehensile appendages available, the attack for elementalism are at disadvantage. Likewise, in this situation the saving throw against it (if any) is at advantage.
 - On the other hand, if the form is "touch", "sweep" or "aura" and the target is in direct contact with the elementalist (eg grappling or being grappling), the attack is at advantage. Likewise any saving throw against the elementalism is at disadvantage.
 - In areas aligned with the given element, the elementalism gains an additional damage die.
@@ -1168,6 +1233,7 @@ ___
 #### Elements
 
 An elementalism can only have one form, which is selected before any rolls are made. An elementalism must have an element.
+
 |Element|Damage dice|Damage Type|Save Type|Extra Properties|
 |-|-|-|-|-|
 |Air|D8|percussive/shear [natural]|STR|Causes damage to structures and objects affected|
@@ -1176,6 +1242,7 @@ An elementalism can only have one form, which is selected before any rolls are m
 |Ice|D6|cold [supernatural]|CON|*Will** freeze 1 gallon of water, + 1 gallon / MP dice.|
 |Light|D4|light [supernatural]|CHA|Sheds light (visibility 5 miles, illumination: bright/dim 10ft, 20ft)|
 |Lightning|D4|lightning [supernatural]|CON|See below|
+
 - Elementalism "earth" will:
   - Cause damage to structures and objects affected.
   - Transform terrain into difficult terrain where touched
@@ -1288,6 +1355,7 @@ Project elemental energy at a single target up to 120ft away.
 **Action**: Make a single ranged attack against the target's HiT. On a hit, damage is dealt, and additional effects can be caused.
 
 **Special**:
+
 - For every MP die expended, the range of the blast is increased by 30ft.
 - All characters that can use the Blast Form, can also use the "Cone" form.
 
@@ -1349,6 +1417,7 @@ ___
 **Prerequisite**: The character must have a level of spellcasting of one of the elemental [spellcasting types](#spellcasting-local) that is at least as high as the level of the spells chosen with this ability.
 
 **Limitation**: 
+
 - The spell cannot have a descriptor opposite to the "spellcasting type" used to obtain it.
 - Many of these spells may cause a shift in character alignment or have negative mechanistic or narrative consequences. Usually these spells have the "profane" or "spirit" descriptors. This should be kept in mind.
 - The spell cannot have a minimum MP dice cost of 8 or higher. For those, ["High Arcana](#high-arcana)" is used.
@@ -1365,6 +1434,7 @@ ___
 **Action**: None. The spells are chosen on levelling up, when the ability is chosen.
 
 **Prerequisite**:
+
 - The character must have "[Spellcasting: Local VII](#spellcasting-local) of the appropriate category" or (["Spellcasting: Global VII"](#spellcasting-global) AND "Spellcasting: Local I" of the appropriate category)
 - Their [character level / 2] (rounded up) is equal to, or higher than, the minimum MP dice cost of the spell. So for "Realm of Flame" (cost 10), the minimum level is 19. For ["Greater Domain"](08-spell-list.md#greater-domain) (cost 8), the minimum level is 15. See the table below.
 - A character must know at least one spell of the previous MP dice cost level. So to learn "Greater Domain" (cost 8), a character must know at least one spell of a minimum MP dice cost of 7.
@@ -1390,6 +1460,7 @@ There are several forms of spellcasting in this category, but they all have simi
 - Nature
 
 **Special**:
+
 - Each time a character wishes to learn the new category of local magic, they must take it as a separate ability.
 - Each type of local magic also covers some global spells. As long a character has "Spellcasting: Global I" and the requisite level of local spellcasting of the type, they can cast global spells of that type and level.
 - In order to get the next level of a type of local magic, a character must have the previous one. So if a character wishes to learn "Spellcasting: Nature III", they must have "Spellcasting: Nature II", which requires having "Spellcasting: Nature I".
@@ -1471,6 +1542,7 @@ ___
 **Original state**: Heavy Armour gives a -4 penalty to all CON rolls related to endurance and a -2 penalty to attack rolls.
 
 **Prerequisite**:
+
 - Proficiency with Heavy and Medium armour. 
 - 6 SP dice.
 
@@ -1482,6 +1554,7 @@ ___
 **Description**: Increase the armour bonus from light armour by 1.
 
 **Prerequisite**: 
+
 - Proficiency with Light and medium armour.
 - 7 SP dice.
 
@@ -1495,6 +1568,7 @@ ___
 **Original state**: Medium Armour gives a -2 penalty to all CON rolls related to endurance.
 
 **Prerequisite**:
+
 - Proficiency with Medium armour.
 - 5 SP dice
 
@@ -1506,6 +1580,7 @@ ___
 **Description**: If you take the "run" action when mounted, you can apply a [basic martial manoeuvre](04-combat.md#basic-martial-manoeuvres) as a "secondary action" on the same turn. You can also make this basic combat manoeuvre as part of a "sprint" action if mounted, however, in this case your attack is at disadvantage.
 
 **Special**:
+
 - If the basic martial manoeuvre is the "throw"/"trip"/"shove", "sunder" or "disarm", it has a +2 on the roll.
 
 **Limitation**: The mount must move at least its base movement speed in a straight line prior to striking its target. Thus, if a mount has a base speed of 60ft, and runs for 100ft, the last 60ft must be in a straight line in order for this manoeuvre to be applicable.
@@ -1529,6 +1604,7 @@ ___
 **Description**: Add [Wis]/2 to your evasion modifier, on top of [Dex] and [size].
 
 **Prerequisite**: 
+
   - MP dice total of 4 or above.
   - At least one "natural" (combat) ability.
   - Dex of 13+ and Wis of 13+.
@@ -1570,6 +1646,7 @@ ___
 **Special:** In addition to increasing the number of attacks they make as an "attack" action, a character with "Multi-attack I" or better can add the governing stat bonus to damage when making an [offhand attack](11-weapons-armour.md#offhand-fighting), even if they do not have "Offhand fighting". They still make such an attack with a -4 penalty to the attack roll.
 
 **Prerequisite table**: This ability can be taken more than once. Each time, the minimum "base" and SP dice requirements must be met.
+
 |Number of attacks|Minimum Base|Minimum SP dice|Ability name|
 |-|-|-|-|
 |2|1|12|Multi-attack I|
@@ -1577,6 +1654,7 @@ ___
 |4|4|38|Multi-attack III|
 
 **Limitations**: 
+
 - Multi-attack can NEVER be applied to supernatural abilities or spells, outside of ["Spell Strike"](#spell-strike), ["Spirit Strike"](#spirit-strike), ["Divine Strike"](#divine-strike), ["Profane Strike"](#profane-strike), ["Holy Strike"](#holy-strike), ["Unholy Strike"](#holy-strike) and ["Elemental Strike"](#elemental-strike).
 
 ___
@@ -1598,10 +1676,12 @@ ___
 **Original state**: A character can make a single offhand attack with a light weapon as a "secondary action". Even so it takes a -4 penalty to the attack and does not add the governing stat modifier to the damage. A character with "Multi-attack I" has the same limitations, but adds its governing stat modifier to the damage.
 
 **Special**:
+
 - You can make no more offhand attacks than you made main attacks on a turn.
 - "Offhand fighting II" allows a character to add the shield bonus of a second blade to their HiT for a total of +2.
 
 **Prerequisite table**: This ability can be taken multiple times, each time you get an extra offhand attack.
+
 |Number of offhand attacks|Prerequisite|Ability name|
 |-|-|-|
 |1|-|Offhand fighting I|
@@ -1613,6 +1693,7 @@ ___
 #### Opportunist
 
 **Description**: You may make attacks of opportunity against entities that are:
+
 - Standing up.
 - Drinking potions.
 
@@ -1667,6 +1748,7 @@ ___
 |III|5|-2|-1|
 
 **Prerequisites**:
+
 - Proficiencies with at least one of: Bows, slings, war darts (spears) or shurikens (light blades).
 - 6 SP dice.
 
@@ -1682,6 +1764,7 @@ ___
 **Benefits:** Gain a bonus to Dex and Str saves equal to the HiT bonus of a shield when using a small, large, or tower shield.
 
 **Prerequisites:**
+
 - Proficiency with Shields.
 - Proficiency Dex or Str saves.
 - 8 SP dice total and 3 MP dice total.
@@ -1703,6 +1786,7 @@ ___
 **Description**: When you are "stealthed" and make a ranged attack from concealment, and the attack misses the target, it does not reveal your position to the target.
 
 **Prerequisite**:
+
 - SP dice total of 10
 - At least 2 ranks in "stealth".
 - Proficiency with at least one ranged/thrown weapon that is not a firearm or siege weapon.
@@ -1717,6 +1801,7 @@ ___
 **Benefits:** A character can use a buckler, "light shield" or "heavy shield" as a shield (i.e. benefit from bonus to HiT and other benefits that it may bring), and still use it to make offhand attacks as a secondary action.
 
 **Prerequisites:**
+
 - Proficiency with Shields.
 - ["Offhand fighting"](#offhand-fighting-i-iv) ability.
 
@@ -1796,6 +1881,7 @@ ___
 **Description**: Gain a +1 to attack rolls and +2 damage with the one chosen weapon.
 
 **Prerequisite**:
+
 - Proficiency with the chosen weapon.
 - 7 SP dice.
 
@@ -1812,6 +1898,7 @@ ___
 **Original state**: "Intercept" manoeuvre can only be used to intercept attacks that require an attack roll (targeted attacks).
 
 **Action**: As a "main action":
+
 - Declare a target to protect. You must be within reach of your mark, or the direct line between the attacker and target must pass through your square.
 - When a supernatural attack that requires a saving throw is made against your mark before the start of your next turn, it is automatically redirected at you, and you make the save and/or potentially suffer the effect.
 
@@ -1820,6 +1907,7 @@ As a "reaction": This works in the same way as the "main action" mode, however y
 **Limitation**: You can only protect a single target against area of effect attacks, or attacks that would affect multiple targets.
 
 **Prerequisites**:
+
 - Proficiency with the "interception" manoeuvre.
 - At least one rank in any of: "Knowledge: Arcana", "Knowledge: Religion", or "Spellworking".
 - At least one level of any "local" [spellcasting](#spellcasting-local) ability.
@@ -1830,12 +1918,14 @@ ___
 **Type**: (Supernatural)
 
 **Description**: The following abilities are "supernatural" and go off MP dice and SAP (instead of SP dice and NAP):
+
 + Flurry
 + Unarmed Strike I-IX
 + Debilitating Strike
 + Flash Step
 
 **Prerequisites**:
+
 + SP dice total of at least 7.
 + MP dice total of at least 7.
 + Any 3 of "Flurry", "Unarmed Strike", "Debilitating Strike" and "Flash Step".
@@ -1850,11 +1940,13 @@ ___
 **Type**: (Class B)
 
 **Description**: Your spellcasting no longer provokes attacks of opportunity.
+
 + This means that spells with kinetic components do not provoke attacks of opportunity.
 
 **Limitations**: Entities with the "mage hunter" boon can still make attacks of opportunity against your spells UNLESS you also have the "mage hunter" boon.
 
 **Prerequisites**:
+
 - Proficiency with at least one weapon proficiency group.
 - 4 SP dice and 7 MP dice total.
 - At least one spellcasting ability.
@@ -1869,6 +1961,7 @@ ___
 **Description**: Gain advantage on concentration saves when maintaining spells.
 
 **Prerequisites**:
+
 - Proficiency with at least one weapon proficiency group.
 - 4 SP dice and 7 MP dice total.
 - At least one spellcasting ability.
@@ -1886,6 +1979,7 @@ ___
 **Description**: Gain the ability to see things even when "blinded" or effectively "blinded". Every time you take this, the range increases by 5ft.
 
 **Prerequisites**:
+
 |Blind Sight level|Range|MP/SP dice prerequisite|Other|
 |-|-|-|-|
 |I|5ft|5|-|
@@ -1962,6 +2056,7 @@ ___
 **Description**: Gain 1 extra hour of flight endurance.
 
 **Limitations**:
+
 - A character can only take this boon once per level.
 - A character cannot increase its flight endurance with this boon to beyond its [journey time](03-movement-exploration.md#global-movement-pushing-and-fatigue) (10 hours).
 
@@ -1984,10 +2079,12 @@ ___
 **Description**: Your vision can detect differences in temperature with pitch black (extreme cold) to blinding white (a blazing fire). You can see warm blooded creatures and other sources of heat even in complete darkness.
 
 **Special**: This ability is blocked as follows:
+
 - At levels I-III: By any solid material thicker than about an inch or by 3ft of water or other liquid.
 - At levels IV-V: By 3ft of earth, wood or organic material, or 1ft of stone or metal. It is also blocked by 10ft of water or other liquid.
 
 **Prerequisites**:
+
 |Heat Sense level|Range|MP dice prerequisite|Other|
 |-|-|-|-|
 |I|15ft|9|-|
@@ -2007,6 +2104,7 @@ ___
 **Description**: Select either sight, smell or hearing. You gain advantage on all "observe" rolls based on this sense.
 
 **Prerequisites**:
+
 |Keen Senses level|MP dice prerequisite|Base prerequisite|Other|
 |-|-|-|-|
 |I|8|2|-|
@@ -2023,11 +2121,13 @@ ___
 **Description**: You gain the ability to see the life-force of other entities within the range of your "life sense". This sense does not detect "constructs" or "undead".
 
 **Special**:
+
 - This ability is blocked by 6ft of earth, wood or organic material, or 2ft of stone or metal.
 - An entity with life-sense automatically detects living beings in range unless they have full cover as described above, or are concealed or veiled *from this sense* by supernatural means.
 - Optionally, with a perception roll you can distinguish an entity's type, subtype and race/template/kind (threshold, 12, 16, 24), although a separate knowledge roll may be required to identify this if you are unfamiliar with the type, subtype or template.
 
 **Prerequisites**:
+
 |Life Sense level|Range|MP dice prerequisite|Other|
 |-|-|-|-|
 |I|15ft|12|-|
@@ -2149,10 +2249,12 @@ ___
 **Prerequisites**: The character must have a physical body and soul. None of its stats can be blank (-).
 
 **Benefits**: 
+
 - You have resistance to [possessed](10-conditions-types.md#possessed), and thus advantage on saves against a spirit entering their body, and taking control of their body.
 - You can make ["observe"](05-skills.md#observe) rolls at a -5 penalty when asleep (instead of a -10 penalty).
 
 **Special (drawbacks)**:
+
 - The second soul is considered to be same level as the character's and counts against the limit of foreign souls for the sake of [losing SP dice due possession](10-conditions-types.md#possessed).
 - When you fall unconscious for a reason other than poisoning or HP total falling to zero, you must succeed a CHA save against your INT based threshold, else you regain consciousness with the second soul in control of the body. The DM determines the desires and goals of this second soul. On short or long rests subsequent to this event the character only regains half of the resources they would normally.
 
@@ -2179,11 +2281,13 @@ ___
 **Description**: This character can fly continuously without ever landing.
 
 **Prerequisites**:
+
 - Flight time of 10 hours.
 - ["Second Soul"](#second-soul) or ["Alert"](#alert) boons, OR 19+ to CHA or WIS.
   - This prerequisite is waived for entities that do not sleep.
 
 **Limitations**:
+
 - After expanding its normal flight time, the character can ONLY fly at half of its base movement speed until it completes a rest.
 - During such flight, it does not regain SP dice, MP dice, SP, MP or HP from resting, however it does regain journey time and can sleep if it so chooses.
 
@@ -2206,6 +2310,7 @@ ___
 **Description**: Move at x3 times base movement when taking the "run" action and x5 when taking the "sprint" action.
 
 **Special**:
+
 - Must be taken separately for each movement modality.
 - Does not affect movement modalities where "run" or "sprint" are not valid actions.
 
@@ -2226,6 +2331,7 @@ ___
 **Description**: Choose a terrain. You gain a +2 bonus to "Fortify", "Stealth", "Harvest", "Track", "Navigate", "Prospect" and "Creature Handling" on a given terrain.
 
 **Special**:
+
 - A character can take this boon once per point of base it has. Each time it must apply to a different type of terrain.
 - When a character gains a point of base, they can change a terrain mastery for a different terrain. This reflects the gradual gain and loss of knowledge and skill with time.
 
@@ -2264,6 +2370,7 @@ ___
 **Description**: You gain the ability to determine the location of an entity based on vibrations transmitted through the ground or liquid you and the entity are both in contact with.
 
 **Prerequisites**:
+
 |Tremor Sense level|Range|MP/SP dice prerequisite|Other|
 |-|-|-|-|
 |I|15ft|5|-|
@@ -2274,6 +2381,7 @@ ___
 |VI|120ft|35|Tremor Sense V|
 
 **Special**:
+
 - "Tremor Sense" can be natural or supernatural.
 - "Tremor Sense" allows you to localise an entity, however, for the sake of targeted ranged attacks you still have disadvantage.
 - "Tremor Sense" bypasses conventional concealment, making eg. hiding behind a crate useless, but is almost useless against flying entities or those with no path shorter than the ability's range that can be drawn through solid/liquid medium.
@@ -2286,10 +2394,12 @@ ___
 **Description**: You gain the ability to see through illusions and to see the true form of that which has been supernaturally transformed.
 
 **Special**:
+
 - Truesight is applied on top of of any other "sight", but does not apply to vision abilities ending with "sense" eg. "Tremor Sense"
 - Truesight does not allow one to see through solid objects or natural/mundane disguises, nor does it defeat stealth, unless the stealthed entity is using an illusionary feature to hide itself. 
 
 **Prerequisites**:
+
 |Truesight level|Range|MP dice prerequisite|Other|
 |-|-|-|-|
 |I|30ft|15|-|
@@ -2329,6 +2439,7 @@ ___
 |Angel|12|Xenophonia III|Supernatural|
 
 **Special**
+
 - Even if you can communicate through xenophonia with beings of other types using signals that they understand, the content of your communication may still be incomprehensible to them due to alien minds, incompatible conceptual frameworks or limited intellectual capacity. For example, the concept of death may be alien to certain spirits, while a plant may not have the ability to count, while a hedgehog might not know what a steam train is.
 - Characters with "xenophonia" can never use the ability to understand "glitches" and "divines".
 - A character may only take one type of "xenophonia" per level.

@@ -414,17 +414,19 @@ ___
 This represents a low-grade vampire. Its type is undead, but due to lack of points, it does not have all undead traits, because we can't afford them.
 
 - **Size**: Medium
-- **Stats**: (Str: +2, Dex: +2, Con: +2, Int: 0, Wis: 0, Cha: +2) (8 points)
+- **Stats**: (Str: +4, Dex: +2, Con: +2, Int: 0, Wis: +2, Cha: +2) (12 points)
 - **Movement**: Walk 30ft + Climb 30ft (1 point)
 - **Sight**: Normal, low-light vision, "heat sense II" (30ft), keen scent. (4 point)
 - **Type**: Undead, partial (does not breathe, sleep or age) (8 point)
 - **Proficiencies**: One appropriate language.
 
-**Weaknesses (-4)**
+**Weaknesses (-12)**
 
 - Cannot enter home uninvited.
 - Cannot cross running water willingly.
 - Vulnerability to "divine" and "light" damage.
+- Anathema Sunlight: Takes 1 HP damage (light) if exposed to _direct_ sunlight.
+- Creature of the Night: Disadvantage to to attack rolls, saves and WIS based rolls when outdoors in daylight.
 
 **Extra (24)**
 
@@ -432,7 +434,7 @@ This represents a low-grade vampire. Its type is undead, but due to lack of poin
 - Resistant to "poison", "disease". (2)
 - Immune to "unconscious", "frightened". (10)
 - Alternate form: Bat. (4 points)
-- Lesser Charm. (2)
+- Charm I. (2)
 
 **Race boon (level 8 and 16): (6 points)** As per the base race/template.
 
@@ -455,6 +457,7 @@ This represents a cursed being: A humanoid that is cursed to become a wolf when 
 **Extra (18)**
 
 - Resistant to "percussive", "piercing", "slashing", "sheer" and "pressure". (10)
+- Resistant to "cold" and "immobilised" (4).
 - Resistant to "prone", "bleeding", "crippled", "incapacitated" and "frightened".
 - Resistant to "poison", "disease". (4)
 - Alternate form: Wolf. (4 points)
@@ -509,20 +512,23 @@ This represents a low-grade vampire. Its type is undead, but due to lack of poin
 - **Type**: Undead, partial (does not breathe, sleep or age) (8 point)
 - **Proficiencies**: One appropriate language.
 
-**Weaknesses (-4)**
+**Weaknesses (-12)**
 
 - Cannot enter home uninvited.
 - Cannot cross running water willingly.
 - Vulnerability to "divine" and "light" damage.
+- Anathema Sunlight: Takes 1 HP damage (light) if exposed to _direct_ sunlight.
+- Creature of the Night: Disadvantage to to attack rolls, saves and WIS based rolls when outdoors in daylight.
 
-**Extra (46)**
+**Extra (54)**
 
 - Resistant to "percussive", "piercing", "slashing", "sheer" and "pressure". (10)
 - Resistant to "prone", "bleeding", "crippled", "incapacitated" and "frightened".
+- Resistant to "cold" and "immobilised" (4).
 - Resistant to "poison", "necrotic". (2)
 - Immune to "unconscious", "frightened", "charmed". (14)
 - Alternate form: Bat. (4 points)
-- Charm I. (2)
+- Charm II. (6)
 - Xenophonia (undead, beasts, monsters). (6)
 - Vampiric Bite: A vampire can make a STR based bite attack dealing 1d4+[STR] damage. If this causes HP damage to а mortal with blood, the vampire regains that number of HP. If the vampire is already at full HP, its STR increases by the number of points of damage dealt to the target's HP for 1 minute. (8)
 

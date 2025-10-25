@@ -270,6 +270,9 @@ Athletics is used for most land based physical activities including:
 - Throwing items and creatures beyond a normal distance.
   - More data needed.
 - Outrunning creatures with the same base speed in short overland chases (opposed roll rules).
+- Bull-rushing through [hostile squares](04-combat.md#occupied-area-and-hostile-squares): A successful athletics roll vs the STR threshold of the hostile entity. On success the hostile entity is also moved one square in a direction of your choice, as long as it is not the square you have come from.
+  - The attempt is at disadvantage if you have not moved at least 10ft during your current turn.
+  - There is a +1 bonus for every 10ft above 30ft that your character has moved in a straight line during your turn.
 - Entertaining others with a feats of physical prowess (see ["Difficulties and recommended thresholds"](02-base-rules.md#difficulties-and-recommended-thresholds)).
 - **Take care**: Yes.
 - **Try again**: Yes, although the DM may rule that failure on a retry results in the "crippled" condition.

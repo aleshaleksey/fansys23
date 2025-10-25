@@ -425,6 +425,9 @@ Characters of different sizes take up a different number of squares (see the [Si
 An squares occupied by a hostile entity are known as **hostile squares**. In combat a character cannot freely move through hostile squares unless the entity occupying them is [disabled](10-conditions-types.md#disabled-states). The character may move through hostile squares by one of the following methods:
 
 - A successful acrobatics roll, with a **Threshold = [Attack bonus of hostile entity + 13]** as part of its move action.
+- A successful athletics roll vs the STR threshold of the hostile entity. On success the hostile entity is also moved one square in a direction of your choice, as long as it is not the square you have come from.
+  - The attempt is at disadvantage if you have not moved at least 10ft during your current turn.
+  - There is a +1 bonus for every 10ft above 30ft that your character has moved in a straight line during your turn.
 - A successful "feint", "grapple" or "shove" [manoeuvre](#basic-martial-manoeuvres) as a bonus action.
 
 Upon failure the character cannot progress through the occupied area. Whether it succeeds or fails, the character making such an attempt is subject to attacks of opportunity.

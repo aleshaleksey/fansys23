@@ -493,6 +493,7 @@ ___
 - Remove references to "super advantage/disadvantage" and 4D12dl2/4D12dh2 rolls.
 - Changed [surprised](10-conditions-types.md#surprised) to allow reactions to be taken. This is potentially a breaking change.
 - Changed [concentration](07-magic-and-spellcasting.md#concentration) so that DISABLED (rather than incapacitated) spellcasters cannot concentrate.
+- Adjust [Vampire](09-races.md#vampire-level-10-template--80) and [Vampire Spawn](09-races.md#vampire-spawn-level-5-template--40) template blocks.
 
 ### Combat
 - Improve descriptions in [Chapter 4: Combat](04-combat.md).

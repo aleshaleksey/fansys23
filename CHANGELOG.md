@@ -499,7 +499,7 @@ ___
 - Improve descriptions in [Chapter 4: Combat](04-combat.md).
 - Add forgotten penalties for not having [shield proficiency](11-weapons-armour.md#armour-proficiencies) but still using a shield.
 - Define how concealment interacts with stealth and losing track of targets. (This is important to avoid "I'm blind, but I know exactly where they are" lunacy).
-- The concept of [hostile squares](04-combat.md#occupied-area-and-hostile-squares) and how to get through them (acrobatics, bullrush, feint).
+- The concept of [hostile squares](04-combat.md#occupied-area-and-hostile-squares) and how to get through them (acrobatics, bull rush, feint).
 
 ### Skills
 - Modify [Observe](05-skills.md#observe) to have smaller bonus/penalties due to size. Increase due to concealment. 
@@ -512,6 +512,8 @@ ___
 - Add [Foreign Forms](06-abilities.md#foreign-forms) for elementalism, as a test rule.
 - Tweak [Bind Beast](06-abilities.md#bind-beast-i-x), to make it more workable (allow levelling up of beasts, always has the HP, etc in the table, allow smaller beasts to fly and dig even at low levels).
 - Change [debilitating strike](06-abilities.md#debilitating-strike) to go off INT/WIS based threshold.
+- Wording of [Life Sense](06-abilities.md#life-sense-i-v) and [Tremor Sense](06-abilities.md#tremor-sense-i-v).
+- Split [blink](06-abilities.md#blink-i) into Blink I and Blink II.
 
 ### Monsters and NPCs
 - Reduce the STR of some [golems](monsters-npcs/constructs.md) a little bit.

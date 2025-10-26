@@ -1993,13 +1993,22 @@ ___
 **Special**: "Blind Sight" can be either natural or supernatural.
 
 ___
-#### Blink
+#### Blink I
 
 **Type**: (Supernatural, Class S)
 
-**Description**: Gain a 30ft blink speed.
+**Description**: Expend 1 MP die to gain a blink speed equal to either 30ft or your walk speed (whichever is greater) for the rest of your turn.
 
-**Prerequisites**: 36 MP dice. Either Elemental[air] or Incantation magic, level 3.
+**Prerequisites**: 18 MP dice and either Elemental[air] or Incantation magic, level 3.
+
+___
+#### Blink II
+
+**Type**: (Supernatural, Class S)
+
+**Description**: Gain a blink speed equal to either 30ft or your walk speed (whichever is greater).
+
+**Prerequisites**: Blink I + 36 MP dice.
 
 ___
 #### Condition Immunity
@@ -2123,9 +2132,11 @@ ___
 
 **Special**:
 
-- This ability is blocked by 6ft of earth, wood or organic material, or 2ft of stone or metal.
-- An entity with life-sense automatically detects living beings in range unless they have full cover as described above, or are concealed or veiled *from this sense* by supernatural means.
+- Living beings detected by life sense normally do not benefit from concealment vis-a-vis the character with life sense that detected them.
+- An entity with life-sense automatically detects living beings in range unless they have full cover as described above, or are concealed or veiled *from this sense* by supernatural means. Additionally, an entity may attempt to hide from life sense amongst/behind *other* living beings.
 - Optionally, with a perception roll you can distinguish an entity's type, subtype and race/template/kind (threshold, 12, 16, 24), although a separate knowledge roll may be required to identify this if you are unfamiliar with the type, subtype or template.
+- At levels I-III, this ability is blocked by 3ft of earth, wood or organic material, or 1ft of stone or metal.
+- At levels IV-VI, this ability is blocked by 6ft of earth, wood or organic material, or 2ft of stone or metal.
 
 **Prerequisites**:
 
@@ -2384,8 +2395,10 @@ ___
 **Special**:
 
 - "Tremor Sense" can be natural or supernatural.
-- "Tremor Sense" allows you to localise an entity, however, for the sake of targeted ranged attacks you still have disadvantage.
-- "Tremor Sense" bypasses conventional concealment, making eg. hiding behind a crate useless, but is almost useless against flying entities or those with no path shorter than the ability's range that can be drawn through solid/liquid medium.
+- Beings can be detected by a character with tremor sense if they are in range and not wholly separated by air or vacuum. Thus tremor sense does not help one to detect flying entities.
+- Beings detected by tremor sense normally do not benefit from concealment vis-a-vis the detecting character.
+- "Tremor Sense" allows a character to localise an entity based on vibration, however, for the sake of targeted ranged attacks the detecting character still has disadvantage.
+- It is still possible to gain concealment against tremor sense in environments with a lot of background vibrations, for example a site of heavy construction or industry, or a seismically active zone.
 
 ___
 #### Truesight I-V

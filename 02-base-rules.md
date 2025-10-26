@@ -639,9 +639,9 @@ An entity is assumed by default to have the senses of sight and hearing. Other b
 In addition an entity might have the following "special" senses that act like sight in many ways but detect something other than normally visible light:
 
 - [Heat Sense](06-abilities.md#heat-sense-i-v)
-- [Life Sense](06-abilities.md#life-sense-i-v)
-- [Truesight](06-abilities.md#truesight-i-v)
-- [Tremor Sense](06-abilities.md#tremor-sense-i-v)
+- [Life Sense](06-abilities.md#life-sense-i-vi)
+- [Truesight](06-abilities.md#truesight-i-vi)
+- [Tremor Sense](06-abilities.md#tremor-sense-i-vi)
 - [Blind Sight](06-abilities.md#blind-sight-i-vi)
 
 In addition the following ability improves specifically the sense of sight.
@@ -665,7 +665,7 @@ In total or near total darkness, eg in an unlit cave or catacomb, or on a moonle
 
 Normal "sight" and any special sense with the word "sight" in it is considered sight. Other senses are not.
 
-["Heat sense"](06-abilities.md#heat-sense-i-v), ["Life sense"](06-abilities.md#life-sense-i-v), ["tremor sense"](06-abilities.md#tremor-sense-i-v) and ["blind sight"](06-abilities.md#blind-sight-i-vi) negate some aspects of blindness, each under specific circumstances (see the specific sections for details).
+["Heat sense"](06-abilities.md#heat-sense-i-v), ["Life sense"](06-abilities.md#life-sense-i-vi), ["tremor sense"](06-abilities.md#tremor-sense-i-vi) and ["blind sight"](06-abilities.md#blind-sight-i-vi) negate some aspects of blindness, each under specific circumstances (see the specific sections for details).
 
 ["Concealment"](04-combat.md#cover-and-concealment) gives entities a chance to hide from ordinary sight, but usually not a guarantee. Likewise, light concealment grants a 1/6 miss chance, while heavy concealment provides a 2/6 miss chance. Full concealment gives a 4/6 miss chance for close (melee) attacks and 5/6 miss chance for ranged attacks (blindness/invisibility gives full concealment).
 

@@ -1104,7 +1104,7 @@ Hide Armour (fey source): +5
 |||||
 |[Xenophonia VI](../06-abilities.md#xenophonia-i-xiii)|||A huntsmaster can communicate with all mortals and spirits|
 |[Low-light Vision](../06-abilities.md#low-light-vision)|||The huntsmaster can see in dim light as well as in bright daylight.|
-|[True-sight: 60ft](../06-abilities.md#truesight-i-v)|||The huntsmaster can detect living beings within 60ft of it|
+|[True-sight: 60ft](../06-abilities.md#truesight-i-vi)|||The huntsmaster can detect living beings within 60ft of it|
 |[Tracker: Fast Search](../06-abilities.md#tracker-fast-search)|||Looking for tracks is a "main action" for the hunter. Following tracks is a non-action.|
 |[Tracker: Persistent](../06-abilities.md#tracker-persistent)|||Once the hunter find tracks, it does not need to make another roll for 4 hours, or 4 miles if speed is less than 1mph|
 |[Tracker: Swift](../06-abilities.md#tracker-swift)|||A fey hunter can move at full speed when tracking without penalties. It can "run" when tracking, with a +6 to the threshold.|
@@ -1172,7 +1172,7 @@ Deflection: +5
 |[Spellsong IV](../06-abilities.md#spellsong-i-iv)||||
 |||||
 |[Low Light Vision](../06-abilities.md#low-light-vision)|||A fairy can see in moonlight, starlight or other weak sources of light as if it was bright daylight.|
-|[Life Sense IV](../06-abilities.md#life-sense-i-v)|||A fairy can sense and pinpoint locations of living beings within 60ft of itself|
+|[Life Sense IV](../06-abilities.md#life-sense-i-vi)|||A fairy can sense and pinpoint locations of living beings within 60ft of itself|
 |[Terrain Mastery](../06-abilities.md#terrain-mastery)|||A fairy has terrain mastery over one form of terrain. Usually this is "woodlands", "deep forest" or "swamp", though it can be any form of natural terrain|
 |Fairy Step|||A fairy can move between the material realm and [shallow spirit realms](../03-movement-exploration.md#spirit-realm-rules-shallow) using 5ft of movement. However, it can only do so in areas that have a ["spiritual" alignment](../01-quick-start.md#alignment).|
 |||||

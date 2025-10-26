@@ -2582,7 +2582,7 @@ If the detection spell is cast at a higher MP dice cost (level) than "False Aura
 
 **Special**: If the target is disguised as a specific being or place (eg, 'I disguise my aura as Fana Luine's"), and is observed by an observer familiar with the new aura, the observer can see through the disguise if they succeed an INT save rolled at advantage. If the spell is of a higher "level" than the casting of "False Aura", the INT save is made at disadvantage.
 
-**Limitation**: Beings with "[Truesight](06-abilities.md#truesight-i-v) are not affected by the deception produced by this spell. 
+**Limitation**: Beings with "[Truesight](06-abilities.md#truesight-i-vi) are not affected by the deception produced by this spell. 
 
 **Upcast**: For every extra die above 4 expended when casting the spell, the spell lasts for an extra 8 hours, or affects an extra target. Secondly the spell is automatically effective against spells cast up to that "spell level" (INT save is no longer needed).
 
@@ -4536,7 +4536,7 @@ Fourthly, all willing allies are transformed into "beasts" or "fey" of the caste
 **Special**: If the caster sacrifices a precious memory, in the form of permanently losing one of their abilities, the MP dice cost of the spell becomes zero. In addition the following effects occur:
 
 - The area of the spell is cut off from the material world (or other realms), and it is only possible to enter or leave via a secret path that the caster knows, or with a ["navigate"](05-skills.md#navigate) roll equal to the caster's threshold.
-- Fey spirits take the form of entities of the caster's choice. To distinguish these disguised fey, from the being they are disguised as, the observer must make a successful "observe"/"sense motive" roll with a threshold of the caster's WIS threshold, or use ["truesight"](06-abilities.md#truesight-i-v). If the observer cannot reveal the disguised fey for what they are, they can either deceive the observer, or provide ["full concealment"](04-combat.md#cover-and-concealment) to the being they are disguised as (if it is present).
+- Fey spirits take the form of entities of the caster's choice. To distinguish these disguised fey, from the being they are disguised as, the observer must make a successful "observe"/"sense motive" roll with a threshold of the caster's WIS threshold, or use ["truesight"](06-abilities.md#truesight-i-vi). If the observer cannot reveal the disguised fey for what they are, they can either deceive the observer, or provide ["full concealment"](04-combat.md#cover-and-concealment) to the being they are disguised as (if it is present).
 - All spells with a spirit/spiritual/nature descriptor cost 1 MP dice less to cast (this does not stack), and gain +1 to their threshold.
 - If the spell is cast in the area of a [Greater Cosmic Seal](#greater-cosmic-seal), the caster must succeed on a CHA save vs the threshold of the seal or lose the spell.
 
@@ -4575,7 +4575,7 @@ ___
 
 - Immunity to fire and cold damage and the effects of extreme heat and cold. (8)
 - A blink speed of 60ft.
-- ["Life sense"](06-abilities.md#life-sense-i-v) to 120ft.
+- ["Life sense"](06-abilities.md#life-sense-i-vi) to 120ft.
 - Any hostile entities that succeed in a basic combat manoeuvre against the target take 3d8 fire damage.
 - Flammable objects within 15ft of the target burst into flame (the target can suppress this effect).
 - Weather conditions within 120ft of the target shift two points in the direction of extreme heat (the target can suppress the effect).

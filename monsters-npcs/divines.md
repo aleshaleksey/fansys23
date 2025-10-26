@@ -245,7 +245,7 @@ An Abyssal Blade has a +6 deflection bonus, and a +2 shield bonus from its blade
 |[Guarded](../06-abilities.md#guarded)|||An Abyssal Blade does not provoke attacks of opportunity when standing up or drinking potions.|
 |["Low Light Vision"](../06-abilities.md#low-light-vision)|||Abyssal Blades can see in dim light, for example a starry night, as if it were daylight.|
 |["Life Sense: 60ft"](../06-abilities.md#low-light-vision)|||An Abyssal Blade can detect living beings within 60ft of it if there are no significant intervening barriers.|
-|["True Sight: 60ft"](../06-abilities.md#truesight-i-v)|||An Abyssal Blade can detect living beings within 60ft of it if there are no significant intervening barriers.|
+|["True Sight: 60ft"](../06-abilities.md#truesight-i-vi)|||An Abyssal Blade can detect living beings within 60ft of it if there are no significant intervening barriers.|
 |Telltale Heart|||An Abyssal Blade ALWAYS knows the direction to its lost parts and the ones who took them.|
 |||||
 |Skills|||"Athletics: +9", "Acrobatics:+8", "Sleight of Hand:+7", "Religion:+6", "Fortify:+7",  "Insight:+6"|
@@ -316,9 +316,9 @@ ___
 |Vulnerability|||A true unicorn is vulnerable to "entropic" damage.|
 |True-speech|||A true unicorn cannot lie|
 |||||
-|[True Sight (120ft)](../06-abilities.md#truesight-i-v)|||A true unicorn can see the true shape of reality|
+|[True Sight (120ft)](../06-abilities.md#truesight-i-vi)|||A true unicorn can see the true shape of reality|
 |[Low Light Vision](../06-abilities.md#low-light-vision)|||A unicorn can see in dim light as well as in sunlight.|
-|[Life Sense (60ft)](../06-abilities.md#life-sense-i-v)|||A unicorn can sense living beings within 60ft of it.|
+|[Life Sense (60ft)](../06-abilities.md#life-sense-i-vi)|||A unicorn can sense living beings within 60ft of it.|
 |Skills|||"Athletics" +12, "Observe" +13, "Sense Motive" +7, "Spellcraft" +9, "Knowledge: Nature" +5, "Knowledge: Arcana" +7, "Knowledge: Religion" +11|
 |Loot|||A true unicorn is not a physical being, and thus once it is destroyed it may leave nothing behind. However, it may yield its horn to a mortal it deems worthy, hence ceasing to exist.|
 

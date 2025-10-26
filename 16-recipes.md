@@ -129,7 +129,7 @@ The mystic warrior does suffer somewhat from "multiple attribute (stat) dependen
 |9 (2) |14 (3)|15 (3)|5|5|[Spellcasting Local: Incantation V](06-abilities.md#spellcasting-local), [Multi-attack I](06-abilities.md#multi-attack-i-iii), STAT +1|||
 |10 (3)|16 (3)|16 (3)|6|6|[Spellcasting: Water V](06-abilities.md#spellcasting-local), [Bard Song III](06-abilities.md#bard-song-i-iv), [Xenophonia: Animals](06-abilities.md#xenophonia-i-xiii)|||
 |11 (3)|18 (3)|17 (3)|6|6|[Spellcasting Local: Incantation IV](06-abilities.md#spellcasting-local), [Spirit Strike](06-abilities.md#spirit-strike), STAT +1|||
-|12 (3)|19 (4)|19 (4)|7|7|[Spellcasting: Water VI](06-abilities.md#spellcasting-local), [Xenophonia: Spirits](06-abilities.md#xenophonia-i-xiii), [Life Sense I](06-abilities.md#life-sense-i-v)|||
+|12 (3)|19 (4)|19 (4)|7|7|[Spellcasting: Water VI](06-abilities.md#spellcasting-local), [Xenophonia: Spirits](06-abilities.md#xenophonia-i-xiii), [Life Sense I](06-abilities.md#life-sense-i-vi)|||
 ___
 
 ## Paladin

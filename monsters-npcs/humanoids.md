@@ -628,7 +628,7 @@ Travelling over dangerous terrain, will use brigandine (HiT: 19/16/15)
 |[War mage](../06-abilities.md#war-mage)|||An arch-mage has advantage on concentration saves for maintaining spells|
 |||||
 |[Xenophonia II](../06-abilities.md#xenophonia-i-xiii)|||Arch-mages have learned to communicate with elementals and monsters (although some arch-mages may have slightly different targets for their xenphonia)|
-|[True Sight I](../06-abilities.md#truesight-i-v)|||An arch-mage can see the true form of things within 30ft of itself, if it can see them at all.|
+|[True Sight I](../06-abilities.md#truesight-i-vi)|||An arch-mage can see the true form of things within 30ft of itself, if it can see them at all.|
 |Proficiencies|||"Calligraphy" + 2 other kits (or languages), 2 languages, 2 weapons|
 |Skills|||+5 in academics and +4 in 2 knowledge, +3 in other 4, "Observe" +3, 1 rank in another 4|
 
@@ -1369,7 +1369,7 @@ Wears light cuirass  (+1)
 |["Speed IV"](../06-abilities.md#speed)|||+20ft to movement speed for a total of 55ft.|
 |"[Mage Hunter II](../06-abilities.md#mage-hunter-ii)|||Mystic warriors are strong against mages.|
 |["Silent Step I"](../06-abilities.md#silent-step-i-iii)|||A mystic warrior can stealth even while moving at full speed.|
-|["Life Sense I"](../06-abilities.md#life-sense-i-v)|||A mystic warrior can see the life-force of beings that are not undead within 15ft. The ability is blocked by 6ft of earth or organic material, or 2ft of stone or metal.|
+|["Life Sense I"](../06-abilities.md#life-sense-i-vi)|||A mystic warrior can see the life-force of beings that are not undead within 15ft. The ability is blocked by 6ft of earth or organic material, or 2ft of stone or metal.|
 |["Mental Fight"](../06-abilities.md#mental-fight)|||A mystic warrior can use MP dice and SAP for flurry, debilitating strike and Flash step if it so chooses.|
 |Spellcasting I|||Some beastfolk warriors are proficient with one kind of elemental magic, usually air.|
 |Senses|||"Low light vision"|
@@ -1755,7 +1755,7 @@ What is the purpose of a colossus? What is its goals? What is its nature? That v
 |[Mighty II](../06-abilities.md#mighty-ii)||||
 |Damage Resistance|||"Ent", "Div", "Pro"|
 |Damage Immunity|||"Disease", "Poi"|
-|[Truesight V](../06-abilities.md#truesight-i-v)|||150ft|
+|[Truesight V](../06-abilities.md#truesight-i-vi)|||150ft|
 |Skills|||"Spellworking" +27, "Knowledge (all)" +24, "Fortify" +24, "Athletics" +24, "Swim" +24, "Climb" +18. "Observe" +20, other skills 1 rank.|
 
 It is not often that a titan engages in battle. In most cases it does not rush. There is no such thing as an insignificant foe. Insignificant foes are ignored or crushed in an instant. They are sealed or subverted. A combat is only when a foe is significant.

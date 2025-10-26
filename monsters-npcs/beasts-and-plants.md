@@ -1040,7 +1040,7 @@ Natural armour +2
 |Rough hide|||Entities that physically "grapple", "restrain" or "immobilise" (or attempt to) sharks must succeed a DEX save or take 1d4 Sh damage at the end of their turn.|
 |[Berserk I](../06-abilities.md#berserk-i-v)|||Sharks can go berserk at the smell of blood and |
 |Keen Smell|||Sharks have advantage of observe rolls based on scent|
-|[Life Sense IV](../06-abilities.md#life-sense-i-v)|||Smaller sharks can sense other living beings at a range of 60ft|
+|[Life Sense IV](../06-abilities.md#life-sense-i-vi)|||Smaller sharks can sense other living beings at a range of 60ft|
 |Skills|||"observe" +2, "swim" +3|
 |Loot|||A reef shark can provide up to about 100lb of meat.|
 
@@ -1075,7 +1075,7 @@ Natural armour +3
 |Rough hide|||Entities that physically "grapple", "restrain" or "immobilise" (or attempt to) sharks must succeed a DEX save or take 1d4 Sh damage at the end of their turn.|
 |[Berserk I](../06-abilities.md#berserk-i-v)|||Sharks can go berserk at the smell of blood and |
 |Keen Smell|||Sharks have advantage of observe rolls based on scent|
-|[Life Sense V](../06-abilities.md#life-sense-i-v)|||Smaller sharks can sense other living beings at a range of 120ft|
+|[Life Sense V](../06-abilities.md#life-sense-i-vi)|||Smaller sharks can sense other living beings at a range of 120ft|
 |Skills|||"observe" +8, "swim" +10, "track" +5|
 |Loot|||A reef shark can provide up to about 2000lb of meat.|
 

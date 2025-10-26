@@ -54,7 +54,7 @@ There are a number of general rules pertaining to spellcasting.
 2. Spells are never truly permanent in the material realm and can be **broken**, **counterspelled**, and **dispelled**. Entities summoned through spells can be **banished**.
 3. Casting "ranged" spells with kinetic components in melee provokes attacks of opportunity.
 4. Unless otherwise stated, a caster must have line of sight to the target of a spell to cast it, or be capable of making contact with it (close range, aka within "reach").
-  - A caster is also considered to have line of sight to a target if it can detect it with one of ["Heat sense"](06-abilities.md#heat-sense-i-v), ["Life sense"](06-abilities.md#life-sense-i-v), ["tremor sense"](06-abilities.md#tremor-sense-i-v) or ["blind sight"](06-abilities.md#blind-sight-i-vi).
+  - A caster is also considered to have line of sight to a target if it can detect it with one of ["Heat sense"](06-abilities.md#heat-sense-i-v), ["Life sense"](06-abilities.md#life-sense-i-vi), ["tremor sense"](06-abilities.md#tremor-sense-i-vi) or ["blind sight"](06-abilities.md#blind-sight-i-vi).
   - In the above case, if the target is an entity or object, any attack roll is made at disadvantage, and if the spell allows a save, the target has advantage on the roll.
 5. If a spell lasts for a round or longer, affected entities make the initial save at the start of its turn and gets a save at the start of every turn against harmful effects of the spell unless otherwise stated otherwise in its description.
   - For spells with a duration of less than one round, the save is made immediately and no repeated saves are applicable, unless stated otherwise in the spell description.

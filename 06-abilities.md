@@ -5,14 +5,11 @@
 3. [Rating](#rating)
 4. [Abilities](#abilities)
 5. [Ability List](#ability-list)
-6. [Combat Abilities (Natural)](#combat-abilities-natural)
-7. [General Abilities (Natural)](#general-abilities-natural)
-8. [Combat Abilities (Supernatural)](#combat-abilities-supernatural)
-9. [General Abilities (Supernatural)](#general-abilities-supernatural)
+6. [Active Abilities (Natural)](#active-abilities-natural)
+7. [Active Abilities (Supernatural)](#active-abilities-supernatural)
+8. [Boons (Natural)](#boons-natural)
+9. [Boons (Supernatural)](#boons-supernatural)
 10. [Spellcasting](#spellcasting)
-11. [Combat Boons (Natural)](#combat-boons-natural)
-12. [Combat Boons (Supernatural)](#combat-boons-supernatural)
-13. [General Boons](#general-boons)
 
 **Abilities** are special actions that a character can take outside of the core actions available to all characters (covered in "Combat", "Movement and Exploration", and "Skills"). Abilities are often more potent than the core actions, but these also come at a cost of consuming SP dice and MP dice, so use them with care. Importantly, magic is covered at the end of this chapter.
 
@@ -42,12 +39,12 @@ All abilities and boons are rated "C" through "S" class. "C" is considered 'weak
 
 Unless otherwise stated an ability must be declared and any cost paid upfront before any rolls are made.
 
-
 ## Ability List
 
-### Natural (Combat)
+### Natural Abilities
 
 - [Assassinate I-V](#assassinate-i-v)
+- [Bard Song I-IV](#bard-song-i-iv)
 - [Berserk I-V](#berserk-i-v)
 - [Broad Strike](#broad-strike)
 - [Broad Strike, Greater](#broad-strike-greater)
@@ -56,25 +53,37 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [Debilitating Strike](#debilitating-strike)
 - [Deflect Missile](#deflect-missile)
 - [Far Throw (I-V)](#far-throw-i-v)
+- [Flash Step](#flash-step)
 - [Flurry](#flurry)
 - [Great Strike](#great-strike)
 - [Greater Manoeuvre (I-V)](#greater-manoeuvre-i-v)
 - [Guardian's Counterstrike](#guardians-counterstrike)
+- [Parry](#parry)
 - [Precision Attack (I-X)](#precision-attack-i-x)
+- [Rapid Shot](#rapid-shot)
+- [Riposte](#riposte)
 - [Steel Wind Strike](#steel-wind-strike)
-- [Swift Shield Bash](#swift-shield-bash)
 
-### Natural (General)
+### Supernatural Abilities
 
-- [Bard Song I-IV](#bard-song-i-iv)
-- [Flash Step](#flash-step)
-
-### Supernatural (Combat)
-
+- [Alternate Form I-IV](#alternate-form-i-iv)
+- [Alternate Form: Swift Transformation](#alternate-form-swift-transformation)
+- [Alternate Form: Sequester](#alternate-form-sequester)
+- [Arcane Interception](#arcane-interception)
+- [Bind Beast (I-X)](#bind-beast-i-x)
+- [Bind Familiar (I-IV)](#bind-familiar-i-iv)
+- [Blink I](#blink-i)
+- [Charm I-IV](#charm-i-iv)
 - [Cursed Blood](#cursed-blood)
 - [Deflection](#deflection)
 - [Divine Strike](#divine-strike)
 - [Elemental Strike](#elemental-strike)
+- [Esoteric Deflection](#esoteric-deflection)
+- [Holy Strike](#holy-strike)
+- [Profane Strike](#profane-strike)
+- [Spell Strike](#spell-strike)
+- [Spirit Strike](#spirit-strike)
+- [Unholy Strike](#unholy-strike)
 - [Elementalism (Elemental Blast)](#elementalism-elemental-blast)
   - [Basics](#basics)
   - [Elements](#elements)
@@ -91,105 +100,94 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
     - [Circle](#circle)
     - [Chain](#chain)
     - [Arc](#arc)
-- [Energy Affinity](#energy-affinity)
-- [Esoteric Deflection](#esoteric-deflection)
-- [Holy Strike](#holy-strike)
-- [Profane Strike](#profane-strike)
-- [Spell Strike](#spell-strike)
-- [Spirit Strike](#spirit-strike)
-- [Unholy Strike](#unholy-strike)
 
-### Supernatural (General)
-
-- [Alternate Form I-IV](#alternate-form-i-iv)
-- [Alternate Form: Swift Transformation](#alternate-form-swift-transformation)
-- [Alternate Form: Sequester](#alternate-form-sequester)
-- [Aphonic Spell](#aphonic-spell)
-- [Bind Beast (I-X)](#bind-beast-i-x)
-- [Bind Familiar (I-IV)](#bind-familiar-i-iv)
-- [Charm I-IV](#charm-i-iv)
-- [Forbidden Spell](#forbidden-spell)
-- [Lingering Spell](#lingering-spell)
-- [Still Spell](#still-spell)
-- [Swift Spell](#swift-spell)
-- [Spellcasting: Local](#spellcasting-local)
-- [Spellcasting: Global](#spellcasting-global)
-- [Spelldance I-IV](#spelldance-i-iv)
-- [Spellsong I-IV](#spellsong-i-iv)
-
-## Boon List
-
-### Combat Boons (Natural)
+### Natural Boons
 
 - [Alert](#alert)
+- [Armour Mastery, Heavy](#armour-mastery-heavy)
 - [Armour Mastery, Light](#armour-mastery-light)
 - [Armour Mastery, Medium](#armour-mastery-medium)
-- [Armour Mastery, Heavy](#armour-mastery-heavy)
+- [Blind Sight I-VI](#blind-sight-i-vi)
 - [Charge](#charge)
+- [Condition Immunity*](#condition-immunity)
+- [Enduring Flight](#enduring-flight)
 - [Evasive](#evasive)
+- [Extra Save*](#extra-save)
+- [Fleet](#fleet)
 - [Foresight](#foresight)
 - [Guarded](#guarded)
-- [Mage Hunter](#mage-hunter-i)
+- [Keen Senses I-III*](#keen-senses-i-iii)
+- [Low-light Vision*](#low-light-vision)
+- [Mage Hunter I](#mage-hunter-i)
+- [Mage Hunter II](#mage-hunter-ii)
+- [Mighty I](#mighty-i)
+- [Mighty II](#mighty-ii)
 - [Multi-attack (I-III)](#multi-attack-i-iii)
 - [Offensive buckler](#offensive-buckler)
 - [Offhand fighting I-IV](#offhand-fighting-i-iv)
 - [Opportunist](#opportunist)
-- [Parry](#parry)
 - [Point blank shot (I-III)](#point-blank-shot-i-iii)
 - [Precise shot (I-III)](#precise-shot-i-iii)
-- [Rapid Shot](#rapid-shot)
+- [Rider: Quick mount](#quick-mount)
 - [Shield master](#shield-master)
+- [Silent Step (I-III)](#silent-step-i-iii)
 - [Skirmisher](#skirmisher)
+- [Sleep on the Wing](#sleep-on-the-wing)
 - [Sniper](#sniper)
+- [Speed](#speed)
+- [Sprinter](#sprinter)
+- [Stalker](#stalker)
 - [Swift shield bash](#swift-shield-bash)
 - [Swift strike](#swift-strike)
+- [Terrain Mastery](#terrain-mastery)
+- [Tracker: Fast Search](#tracker-fast-search)
+- [Tracker: Persistent](#tracker-persistent)
+- [Tracker: Swift](#tracker-swift)
+- [Tremor Sense I-VI](#tremor-sense-i-vi)
 - [Trick shot (I-II)](#trick-shot-i-ii)
 - [Unarmed Strike (I-IX)](#unarmed-strike-i-ix)
 - [Weapon Finesse](#weapon-finesse)
 - [Weapon Mastery](#weapon-mastery)
 - [Weapon Specialization](#weapon-specialisation)
 
-### Combat Boons (Supernatural)
+### Supernatural Boons
 
-- [Arcane Interception](#arcane-interception)
-- [Mental Fight](#mental-fight)
-- [Safe Cast](#safe-cast)
-- [War Mage](#war-mage)
-
-### General Boons
-
-- [Alternate Form: Swift Transformation](#alternate-form-swift-transformation)
-- [Alternate Form: Sequester](#alternate-form-sequester)
 - [Blind Sight I-VI](#blind-sight-i-vi)
-- [Blink](#blink)
+- [Blink II](#blink-ii)
 - [Condition Immunity](#condition-immunity)
-- [Enduring Flight](#enduring-flight)
+- [Energy Affinity](#energy-affinity)
 - [Extra Save](#extra-save)
-- [Fleet](#fleet)
 - [Heat Sense I-VI](#heat-sense-i-v)
 - [Keen Senses I-III](#keen-senses-i-iii)
-- [Life Sense I-VI](#life-sense-i-v)
+- [Life Sense I-VI](#life-sense-i-vi)
 - [Low-light Vision](#low-light-vision)
-- [Mighty I](#mighty-i)
-- [Mighty II](#mighty-ii)
+- [Mental Fight](#mental-fight)
 - [Resist Condition](#resist-condition)
 - [Resist Damage](#resist-damage)
-- [Rider: Quick mount](#quick-mount)
 - [Second Soul](#second-soul)
-- [Silent Step (I-III)](#silent-step-i-iii)
-- [Sleep on the Wing](#sleep-on-the-wing)
-- [Speed](#speed)
-- [Sprinter](#sprinter)
-- [Stalker](#stalker)
-- [Tracker: Fast Search](#tracker-fast-search)
-- [Tracker: Persistent](#tracker-persistent)
-- [Tracker: Swift](#tracker-swift)
-- [Terrain Mastery](#terrain-mastery)
-- [Tremor Sense I-VI](#tremor-sense-i-v)
-- [Truesight](#truesight-i-v)
+- [Tremor Sense I-VI](#tremor-sense-i-vi)
+- [Truesight](#truesight-i-vi)
 - [Xenophonia](#xenophonia-i-xiii)
 
-### Combat Abilities (Natural)
+### Spellcasting and Related
+- [Aphonic Spell](#aphonic-spell)
+- [Forbidden Spell](#forbidden-spell)
+- [High Arcana](#high-arcana)
+- [Lingering Spell](#lingering-spell)
+- [Safe Cast](#safe-cast)
+- [Spellcasting: Local](#spellcasting-local)
+- [Spellcasting: Global](#spellcasting-global)
+- [Spelldance I-IV](#spelldance-i-iv)
+- [Spellsong I-IV](#spellsong-i-iv)
+- [Still Spell](#still-spell)
+- [Swift Spell](#swift-spell)
+- [War Mage](#war-mage)
+
+___
+### Active Abilities (Natural)
+
+This list contains the active abilities which are not supernatural, though some may appear so to the untrained eye. In order to use these abilities the player (or DM) must make a declaration, and usually use some kind of action.
+
 ___
 #### Assassinate I-V
 
@@ -229,6 +227,40 @@ ___
 |III|+Surprised (or unaware)|12|
 |IV|+Incapacitated|16|
 |V|+Restrained/Blinded|20|
+
+___
+#### Bard Song I-IV
+
+**Type**: C-A, natural.
+
+**Description**: Use song, oratory or instrumental skills to strongly influence emotions of listeners, hence providing a boon, such as warding off negative conditions (resistance), and, at higher levels of the ability, gaining advantage on a single roll.
+
+**Action**: Declare bard song as a "secondary action" and expend 1 SP dice, make a ["perform"](05-skills.md#perform) roll to determine range (see below). Each subsequent turn use a "secondary action" to maintain bard song and reroll "perform" (no additional expenditure of SP is required). The song can be maintained for a number of rounds equal to your Con score.
+
+**Range**: ["perform" roll result] x 5ft.
+
+**Targets**: All allied entities within range that can hear the song.
+
+**Effect**: Each targets within range that can hear the song gain resistance to requisite conditions ("frightened", "catatonic", "incapacitated", "paralysed",depending on bard song level). In addition each affected entity in range gains the following benefits:
+
+- It can add its [base](02-base-rules.md#base) to a single roll per round while it can hear the song.
+- It may gain advantage on a single roll per song (see "prerequisite table" below).
+
+**Limitations**:
+
+- A character that is "aphonic", "silenced", or otherwise cannot produce sound cannot use "bard song".
+- A character that is "deafened" or otherwise cannot perceive sound cannot be affected by "bard song".
+
+**Special**: On a perform roll of 24 or higher, a resistance of the performer's choice becomes an immunity for the duration of the song.
+
+**Prerequisites table**:
+
+|Bard Song Level|Perform Ranks|Resistance|Advantage|
+|-|-|-|-|
+|I|1|"frightened"|-|
+|II|3|"catatonic"|1 skill roll per song|
+|III|5|"incapacitated"|1 skill roll or save per song|
+|IV|7|"paralysed"|1 skill roll or save or attack roll per song|
 
 ___
 #### Berserk I-V
@@ -384,6 +416,23 @@ ___
 **Original state**: The "throw" manoeuvre moves tha target 10ft + 5ft x size advantages.
 
 ___
+#### Flash Step
+
+**Description**: As a "secondary action" move up to your base speed per SP dice expended. This movement does not provoke attacks of opportunity. While moving like this your jump distance is increased by 10ft per SP dice spent and you are not affected by difficult terrain.
+
+**Special**:
+
+- This ability must be taken separately for each movement modality.
+- Flash step cannot be used with "dig" speed, "swim" speed or "cosmic" speed.
+
+**Limitation**:
+
+- Flash Step cannot be used when wearing heavy armour.
+- The SP dice cost of Flash Step is doubled when wearing medium armour.
+
+**Prerequisites**: 6 SP dice and 4 MP dice total.
+
+___
 #### Flurry
 
 **Description**: As a "secondary action" make an extra attack or combat manoeuvre with a "light" weapon or unarmed strike. If you expend an SP dice, you get to make 2 attack.
@@ -466,6 +515,29 @@ ___
 **Prerequisite table**: Precision attack has 10 levels. The maximum level of precision attack a character may have is [Level / 2] (so I at level 2, II at level 4, etc..).
 
 ___
+#### Rapid Shot
+
+**Type**: (Natural, Class B)
+
+**Description**: Use a combination of main and secondary action to shoot an extra projectile, at the expense of accuracy.
+
+**Action**: Declare "rapid shot" and expend "main action" and "secondary action" and make the usual number of ranged weapon attacks plus one, all with the appropriate penalty to the attack roll. (See table below)
+
+|Multi-attack level|New number of attacks|Penalty (longbow, greatbow)|Penalty (other weapons)|
+|-|-|-|-|
+|-|2|-4|-3|
+|I|3|-4|-3|
+|II|4|-3|-2|
+|III|5|-2|-1|
+
+**Prerequisites**:
+
+- Proficiencies with at least one of: Bows, slings, war darts (spears) or shurikens (light blades).
+- 6 SP dice.
+
+**Limitation**: Applicable only to bows, slings, war darts and shurikens.
+
+___
 #### Riposte
 
 **Type**: (Class A)
@@ -514,291 +586,13 @@ ___
 - **MP dice total**: 16.
 - **Other:** At least 3 other martial combat abilities or boons, one of which must be "Swift Strike" or 2 other martial combat abilities and boons and "Flurry".
 
-___
-### General Abilities (Natural)
 
 ___
-#### Bard Song I-IV
+### Active Abilities (Supernatural)
 
-**Type**: C-A, natural.
-
-**Description**: Use song, oratory or instrumental skills to strongly influence emotions of listeners, hence providing a boon, such as warding off negative conditions (resistance), and, at higher levels of the ability, gaining advantage on a single roll.
-
-**Action**: Declare bard song as a "secondary action" and expend 1 SP dice, make a ["perform"](05-skills.md#perform) roll to determine range (see below). Each subsequent turn use a "secondary action" to maintain bard song and reroll "perform" (no additional expenditure of SP is required). The song can be maintained for a number of rounds equal to your Con score.
-
-**Range**: ["perform" roll result] x 5ft.
-
-**Targets**: All allied entities within range that can hear the song.
-
-**Effect**: Each targets within range that can hear the song gain resistance to requisite conditions ("frightened", "catatonic", "incapacitated", "paralysed",depending on bard song level). In addition each affected entity in range gains the following benefits:
-
-- It can add its [base](02-base-rules.md#base) to a single roll per round while it can hear the song.
-- It may gain advantage on a single roll per song (see "prerequisite table" below).
-
-**Limitations**:
-
-- A character that is "aphonic", "silenced", or otherwise cannot produce sound cannot use "bard song".
-- A character that is "deafened" or otherwise cannot perceive sound cannot be affected by "bard song".
-
-**Special**: On a perform roll of 24 or higher, a resistance of the performer's choice becomes an immunity for the duration of the song.
-
-**Prerequisites table**:
-
-|Bard Song Level|Perform Ranks|Resistance|Advantage|
-|-|-|-|-|
-|I|1|"frightened"|-|
-|II|3|"catatonic"|1 skill roll per song|
-|III|5|"incapacitated"|1 skill roll or save per song|
-|IV|7|"paralysed"|1 skill roll or save or attack roll per song|
+This section contains a listing of active abilities which are supernatural in nature. The use of these abilities generally requires a declaration by the player (or the DM) who control the character.
 
 ___
-#### Flash Step
-
-**Description**: As a "secondary action" move up to your base speed per SP dice expended. This movement does not provoke attacks of opportunity. While moving like this your jump distance is increased by 10ft per SP dice spent and you are not affected by difficult terrain.
-
-**Special**:
-
-- This ability must be taken separately for each movement modality.
-- Flash step cannot be used with "dig" speed, "swim" speed or "cosmic" speed.
-
-**Limitation**:
-
-- Flash Step cannot be used when wearing heavy armour.
-- The SP dice cost of Flash Step is doubled when wearing medium armour.
-
-**Prerequisites**: 6 SP dice and 4 MP dice total.
-
-___
-### Combat Abilities (Supernatural)
-
-___
-#### Cursed Blood
-
-**Type**: (Class A)
-
-**Description**: When a "natural" or "weapon" attack deals HP damage to you or an adjacent entity, you may may use your "reaction" to cast a targeted attack spell at the entity which made the attack.
-
-**Limitations**: The spell must take a "main action" or "secondary action" to cast and must affect only the entity that made the attack.
-
-**Prerequisite**: 3 MP dice total + at least one targeted attack spell.
-
-___
-#### Deflection
-
-**Type**: (Class B)
-
-**Description**: Use a reaction and potentially MP dice to reduce damage from "supernatural" ranged attack.
-
-**Effect**: Reduce the damage from a ranged supernatural attack by [1d4 + SAP + [MP dice expended]d4], as long as the damage type does NOT fall into the ["esoteric"](10-conditions-types.md#esoteric-damage) category. 
-
-**Action**: As a reaction to being hit by a ranged "supernatural" attack, declare "deflection".
-
-**Limitations**:
-
-- The ability cannot be used when you are surprised, or otherwise incapable of using reaction.
-
-**Prerequisite**:
-
-- ["Arcane Interception"](#arcane-interception) or ["Parry"](#parry)
-- "Elementalism" or any "Spellcasting: Local".
-- 7 MP dice total
-
-___
-#### Divine Strike
-
-**Type**: A/S Class
-
-**Description**: Expend MP to infuse a weapon attack with divine energy, dealing extra damage. This costs 2 MP per 1d6 of divine damage.
-
-**Declaration**: Must be made when the attack is called, however, for MELEE attacks the MP cost is only paid if the attack hits. For ranged and thrown weapon attacks the cost is always paid.
-
-**Limitations**:
-
-- Divine strike, when used with ranged weapons, is applicable only within the first range increment.
-
-These are OPTIONAL rules for when playing with alignment:
-
-- A character with a "Profane" alignment cannot take this ability.
-- A character who gains this ability gains the "Divine" alignment and loses the ability to use it if they lose the alignment.
-
-**Special**: Must be taken separately for each weapon proficiency group.
-
-**Prerequisites**:
-
-- Proficiency with the given weapon group.
-- ["Holy Strike"](#holy-strike)
-- 12 SP dice total and 18 MP dice total.
-
-**Table**:
-
-|Level|Max Divine Damage|
-|-|-|
-|10-13|1d6|
-|14-16|2d6|
-|17-20|3d6|
-
-___
-#### Energy Affinity
-
-**Type**: (Class A)
-
-**Description**: Spend 1 MP dice to overcome damage resistance when dealing elemental/energy damage.
-
-**Declaration**: Declare and pay the price before calling the ability/attack/spell.
-
-**Prerequisites**: At least one "supernatural" ability that utilises the element.
-
-**Special**: Must be taken separately for each element.
-
-___
-#### Elemental Strike
-
-**Type**: B Class
-
-**Description**: Expend an MP die to infuse a weapon attack with elemental energy. The element can be fire, ice or lighting, and must correspond to the element chosen when acquiring this ability. The attack will deal an extra:
-
-- 2d6 fire[supernatural] damage.
-- 2d6 ice[supernatural] damage.
-- 2d4 lightning[supernatural] damage.
-
-**Declaration**: Must be made when the attack is called, however, for MELEE attacks the MP cost is only paid if the attack hits. For ranged and thrown weapon attacks the cost is always paid.
-
-**Limitations**:
-
-- Elemental Strike, when used with ranged weapons, is applicable only within the first range increment.
-
-**Special**:
-
-- If the element is fire or lightning the attack may ignite flammable materials, and sheds light (visibility 1 mile, illumination: dim 10ft).
-- Elemental strike must be taken separately for each element.
-- Though the elemental damage is supernatural, the remaining weapon damage will usually still be natural.
-
-**Prerequisites**:
-
-- Proficiency with at least one weapon group.
-- Any ["Elementalism"](#elementalism-elemental-blast) or [Elemental Spellcasting](#spellcasting-local) of the same element.
-- 5 SP dice total and 6 MP dice total.
-
-___
-#### Esoteric Deflection
-
-**Type**: (Class S)
-
-**Description**: Use a reaction and MP to reduce damage from ["esoteric"](10-conditions-types.md#esoteric-damage) ranged attack.
-
-**Effect**: Reduce the damage from a "esoteric" ranged attack by [1d6 + [2 x MP dice expended]].
-
-**Action**: As a reaction to being hit by a ranged "esoteric" attack, declare "esoteric deflection".
-
-**Limitations**:
-
-- The ability cannot be used when you are surprised, or otherwise incapable of using reactions.
-
-**Prerequisite**: ["Deflection"](#deflection) + 17 MP dice total.
-
-___
-#### Holy Strike
-
-**Type**: B Class
-
-**Description**: Expend MP to infuse a weapon attack with supernatural light, dealing extra damage. This costs 1 MP and deals 2d4 of light damage. Profane entities hit by this attack must succeed a CHA save (Threshold=13+SUP+[CHA]) or be "blinded" (repeated save applies).
-
-**Declaration**: Must be made when the attack is called, however, for MELEE attacks the MP cost is only paid if the attack hits. For ranged and thrown weapon attacks the cost is always paid.
-
-**Limitations**:
-
-- Holy Strike, when used with ranged weapons, is applicable only within the first range increment.
-- A character with a "Profane" alignment cannot take this ability. This is an optional rule for when playing with alignment.
-
-**Special**:
-
-- "Holy Strike" sheds light (visibility 5 miles, illumination: bright/dim 10ft, 20ft).
-- Though the light damage is supernatural, the remaining weapon damage will usually still be natural.
-
-**Prerequisites**:
-
-- Proficiency with at least one weapon group.
-- 6 SP dice total and 7 MP dice total.
-
-___
-#### Profane Strike
-
-**Type**: A/S Class
-
-**Description**: Exactly as "Divine Strike", but replace the word "Divine" with "Profane".
-
-**Prerequisites**: Requires ["Unholy Strike"](#unholy-strike) instead of ["Holy Strike"](#holy-strike).
-
-___
-#### Spell Strike
-
-**Type**: Class B (melee), Class S (ranged)
-
-**Description**: Choose a weapon proficiency group. You can now declare spell strike when wielding a weapon in that group and deliver spells (cost 1MP dice).
-
-- When delivering a spell that takes an action to cast, or releasing a spell that takes an action/reaction to release (held spell), make a weapon attack. If the attack hits, you deal the normal damage and discharge the spell through the weapon. If the attack misses, the spell is "held".
-
-**Special**: When you miss with a "spell strike" when already concentrating on a spell, the double concentration rule resolves itself in the usual way (either you chose to drop on spell, or they both end, be it quietly or loudly).
-
-**Prerequisites**:
-
-- Must be proficient in the given weapon group.
-- SP dice total of 7.
-- At least one spellcasting ability.
-- Depending on weapon category there are different MP dice total prerequisites.
-
-|Weapon Group|MP dice total prerequisite|
-|-|-|
-|Unarmed|6|
-|Light blades|6|
-|Staves|9|
-|Axes|9|
-|Percussive|9|
-|Heavy blades|9|
-|Pole-arms|12|
-|Spears|12|
-|Blowguns|16|
-|Thrown|16|
-|Ranged|19|
-|Seige|22|
-
-___
-#### Spirit Strike
-
-**Type**: (Class A)
-
-**Description**: Spend 1 MP dice to deal "supernatural" damage with a "natural" weapon attack.
-
-**Limitation**: This must be an attack as defined in ["Basic Martial Manoeuvres"](04-combat.md#basic-martial-manoeuvres). It cannot be used in combination with abilities (other than "Multi-attack").
-
-- OPTIONAL: If playing with alignment rules, a character who gains "Spirit Strike" should be spiritually aligned, and cannot use this ability if they lose this alignment.
-
-**Prerequisites**: 12 MP dice total and 18 SP dice total.
-
-___
-#### Unholy Strike
-
-**Type**: B Class
-
-**Description**: Expend MP to infuse a weapon attack with decay, dealing extra damage. This costs 1 MP and deals 2d6 of necrotic damage. Mortals hit by this attack must succeed a CON save (Threshold=13+NAT+[CON]) or start "bleeding".
-
-**Declaration**: Must be made when the attack is called, however, for MELEE attacks the MP cost is only paid if the attack hits. For ranged and thrown weapon attacks the cost is always paid.
-
-**Limitations**:
-
-- Unholy Strike, when used with ranged weapons, is applicable only within the first range increment.
-- A character with a "divine" alignment cannot take this ability. This is an optional rule for when playing with alignment.
-
-**Prerequisites**:
-
-- Proficiency with at least one weapon group.
-- 6 SP dice total and 7 MP dice total.
-
-**Special**: Though the necrotic damage is supernatural, the remaining weapon damage will usually still be natural.
-
-___
-### General Abilities (Supernatural)
-
 #### Alternate Form I-IV
 
 **Type**: (Class C-A, Supernatural)
@@ -872,23 +666,28 @@ ___
 (Technically this is a boon)
 
 ___
-#### Aphonic Spell
+#### Arcane Interception
 
-**Type**: (Class B)
+**Type**: (Supernatural, A)
 
-**Description**: Spend 1 MP dice to cast a spell without uttering the incantation.
+**Description**: You can use the "interception" manoeuvre to redirect supernatural attacks that require a saving throw at yourself.
 
-**Declaration**: Declare "aphonic spell" before casting the spell.
+**Original state**: "Intercept" manoeuvre can only be used to intercept attacks that require an attack roll (targeted attacks).
 
-**Prerequisite**: 6 MP dice total + the ability to cast spells.
+**Action**: As a "main action":
 
-**Special**: 
+- Declare a target to protect. You must be within reach of your mark, or the direct line between the attacker and target must pass through your square.
+- When a supernatural attack that requires a saving throw is made against your mark before the start of your next turn, it is automatically redirected at you, and you make the save and/or potentially suffer the effect.
 
-- Must be taken separately for each time of spellcasting.
-- Can be combined with "still spell" and "lingering spell".
-- This allows casting of spells with incantations when under the effects of "aphonia" or "inaudible".
+As a "reaction": This works in the same way as the "main action" mode, however you can only defend your target against one such attack.
 
-(Technically this is a boon)
+**Limitation**: You can only protect a single target against area of effect attacks, or attacks that would affect multiple targets.
+
+**Prerequisites**:
+
+- Proficiency with the "interception" manoeuvre.
+- At least one rank in any of: "Knowledge: Arcana", "Knowledge: Religion", or "Spellworking".
+- At least one level of any "local" [spellcasting](#spellcasting-local) ability.
 
 ___
 #### Bind Beast I-X
@@ -1013,6 +812,15 @@ ___
 |Global|Resistance to all conditions|"Least Ward"|
 
 ___
+#### Blink I
+
+**Type**: (Supernatural, Class S)
+
+**Description**: Expend 1 MP die to gain a blink speed equal to either 30ft or your walk speed (whichever is greater) for the rest of your turn.
+
+**Prerequisites**: 18 MP dice and either Elemental[air] or Incantation magic, level 3.
+
+___
 #### Charm I-IV
 
 **Type**: (Class B-S)
@@ -1047,134 +855,216 @@ ___
 |IV         |24 MP dice + Charm III|1 per target      |120ft|1 day           |unlimited                |
 
 ___
-#### Lingering Spell
+#### Cursed Blood
 
 **Type**: (Class A)
 
-**Description**: Spend 1 MP dice to add the base duration of the spell to its total duration for non-global spell with a duration of at least one round.
+**Description**: When a "natural" or "weapon" attack deals HP damage to you or an adjacent entity, you may may use your "reaction" to cast a targeted attack spell at the entity which made the attack.
 
-**Declaration**: Declare "lingering spell" before casting the spell.
+**Limitations**: The spell must take a "main action" or "secondary action" to cast and must affect only the entity that made the attack.
 
-**Prerequisite**: 6 MP dice total + the ability to cast spells.
-
-**Special**:
-
-- Must be taken separately for each time of spellcasting.
-- Can be combined with "still spell" and "aphonic spell".
+**Prerequisite**: 3 MP dice total + at least one targeted attack spell.
 
 ___
-#### Spelldance I-IV
+#### Deflection
 
-**Type**: Supernatural (C-A) 
+**Type**: (Class B)
 
-**Description**: Mingle dance and spell to produce modifications to the spells cast. This ability mirrors "spellsong" (below).
+**Description**: Use a reaction and potentially MP dice to reduce damage from "supernatural" ranged attack.
 
-**Action**: Declare "spelldance" when casting a spell that has a cast time of an "action" or "secondary action" and expend an extra 1 MP. This uses your "move action", although you may move up to half of its movement speed/distance during this time if it would otherwise be possible. Declare which modifications apply to the spell (see "effects" and "Spelldance table" below).
+**Effect**: Reduce the damage from a ranged supernatural attack by [1d4 + SAP + [MP dice expended]d4], as long as the damage type does NOT fall into the ["esoteric"](10-conditions-types.md#esoteric-damage) category. 
 
-**Duration**: Similarly to "bard song", the dancer must use their "move action" on each subsequent turn to maintain the "spelldance" and its effect, if the spell has a duration. The dancer can continue a dance for a number of rounds equal to their CON score.
-
-**Effect**: Spelldance allows the spellcaster to produce one of the following effects:
-
-- Modify the shape of an area of affect spell slightly, including or excluding a number of 5ft squares equal to twice the level of the spelldance. For global spells this is a number of 100ft squares equal to twice the level of the spelldance.
-- Modify the damage type of the spell within certain subgroups (see below).
-- Obfuscate the spell if it has only kinetic components. In this case, make a ["perform"](05-skills.md#perform) roll. Any target observing the casting that does not succeed on an opposed ["Knowledge: Arcana"](05-skills.md#knowledge) roll does not recognise that a spell is being cast and cannot identify (although it can recognise that a spell has been cast from the effects after the fact). This is useful in situations where subtlety is required, and to obstruct counter-spelling.
-
-**Damage Group Conversions**: For the sake of spelldance, damage is grouped by themes, thus conversion is possible between thematically similar damage types. All damage types within the group are mutually convertible by spelldance. On the other hand damage types *between* groups, or outside of them cannot be converted.
-
-|Group Name|Damage Types|
-|-|-|
-|Strength|All physical|
-|Poison|Poison, Necrotic, Cold|
-|Warmth|Fire, Light, Lightning|
-|Light|Light, Cold, Divine|
-|Destruction|Necrotic, Entropic|
-
-**Special**: Conversions to "divine" or "entropic" damage types increase the cost of the spell by 3 MP dice (instead of 1), and deal half of the damage to the caster as backlash for impinging on the domain of the gods.
+**Action**: As a reaction to being hit by a ranged "supernatural" attack, declare "deflection".
 
 **Limitations**:
 
-- Only spells with kinetic components can be modified with spellsong.
-- A character that is "restrained", "immobilised", or is otherwise unable to move cannot use "spelldance".
-
-**Spelldance table**:
-
-|Spelldance Level|Perform Ranks|Minimum Spell MP dice cost|5ft Squares Moved|Damage Groups Conversions|
-|-|-|-|-|-|
-|I|1|1|2|-|
-|II|3|2|4|"Strength"|
-|III|5|3|6|"Poison", "Warmth"|
-|IV|7|4|8|"Light", "Destruction"|
-
-___
-#### Spellsong I-IV
-
-**Type**: Supernatural (C-A) 
-
-**Description**: Mingle song and spell to produce subtle modifications to the spells cast.
-
-**Action**: Declare "spellsong" when casting a spell that has a cast time of an "action" or "secondary action" and expend an extra 1 MP. The spell will now cost a "full round action". Declare which condition to apply or to cure (see "Spellsong table" below).
-
-**Duration**: As with "bard song", the singer must use a "secondary action" on each subsequent turn to maintain the spellsong and its effect. The signer can continue a song for a number of rounds equal to its CON score.
-
-**Effect**: The targets of the spell must succeed an additional WIS save (at the start of its turn) or be affected by the declared condition or cured of it. An entity affected by spellsong, makes a WIS save at the start of its turn as usual to end the effect on itself.
-
-ALTERNATIVELY, instead of picking a condition, the singer may elect to restore [base]d4 SP and MP to a single entity that can hear the song.
-
-ALTERNATIVELY, instead of picking a condition, if the spell has ONLY incantation components, make a ["perform"](05-skills.md#perform) roll. Any target observing the casting that does not succeed on an opposed ["Knowledge: Arcana"](05-skills.md#knowledge) roll does not recognise that a spell is being cast and cannot identify (although it can recognise that a spell has been cast from the effects after the fact). This is useful in situations where subtlety is required, and to obstruct counter-spelling.
-
-**Limitations**:
-
-- Only spells with incantation components can be modified with spellsong.
-- A character that is "aphonic", "silenced", or otherwise cannot produce sound cannot use "spellsong".
-- A character that is "deafened" or otherwise cannot perceive sound cannot be affected by "spellsong".
-
-**Spellsong table**: It should be noted that conditions from the "conditions" column can be applied or cured with spellsong, but conditions from the "cured only" column can be cured, but not applied, at that level of spellsong.
-
-|Spellsong Level|Perform Ranks|Minimum Spell MP dice cost|[Conditions](10-conditions-types.md#conditions-in-detail)|Cured Only
-|-|-|-|-|-|
-|I|1|1|"Deafened", "Aphonic"|"Frightened"|
-|II|3|2|"Charmed", "Frightened"|"Incapacitated"|
-|III|5|3|"Bleeding", "Catatonic"|"Dominated"|
-|IV|7|4|"Stunned", "Immobilised"|"Paralysed", "Possessed"|
-
-___
-#### Still Spell
-
-**Type**: (Class A)
-
-**Description**: Spend 1 MP dice to cast a spell without kinetic components.
-
-**Declaration**: Declare "still spell" before casting the spell.
-
-**Prerequisite**: 6 MP dice total + the ability to cast spells.
-
-**Special**:
-
-- Must be taken separately for each time of spellcasting.
-- Can be combined with "aphonic spell", "lingering spell" and "swift spell".
-- This allows spellcasting when "immobilised" or "restrained".
-
-___
-#### Swift Spell
-
-**Type**: (Class A)
-
-**Description**: Spend 2 MP dice to reduce the casting time of a spell from "main action" to "secondary action", or from "full round action" to "main actin".
-
-**Declaration**: Declare "swift spell" before casting the spell.
-
-**Limitation**: If the character casts a "swift spell" in the same turn as casting another spell, and both spells have an MP dice cost of 2 or higher, the character takes 2 points of HP damage.
+- The ability cannot be used when you are surprised, or otherwise incapable of using reaction.
 
 **Prerequisite**:
 
-- 6 MP dice total
-- The ability to cast spells.
-- +13 DEX or +13 INT.
+- ["Arcane Interception"](#arcane-interception) or ["Parry"](#parry)
+- "Elementalism" or any "Spellcasting: Local".
+- 7 MP dice total
+
+___
+#### Divine Strike
+
+**Type**: A/S Class
+
+**Description**: Expend MP to infuse a weapon attack with divine energy, dealing extra damage. This costs 2 MP per 1d6 of divine damage.
+
+**Declaration**: Must be made when the attack is called, however, for MELEE attacks the MP cost is only paid if the attack hits. For ranged and thrown weapon attacks the cost is always paid.
+
+**Limitations**:
+
+- Divine strike, when used with ranged weapons, is applicable only within the first range increment.
+
+These are OPTIONAL rules for when playing with alignment:
+
+- A character with a "Profane" alignment cannot take this ability.
+- A character who gains this ability gains the "Divine" alignment and loses the ability to use it if they lose the alignment.
+
+**Special**: Must be taken separately for each weapon proficiency group.
+
+**Prerequisites**:
+
+- Proficiency with the given weapon group.
+- ["Holy Strike"](#holy-strike)
+- 12 SP dice total and 18 MP dice total.
+
+**Table**:
+
+|Level|Max Divine Damage|
+|-|-|
+|10-13|1d6|
+|14-16|2d6|
+|17-20|3d6|
+
+___
+#### Elemental Strike
+
+**Type**: B Class
+
+**Description**: Expend an MP die to infuse a weapon attack with elemental energy. The element can be fire, ice or lighting, and must correspond to the element chosen when acquiring this ability. The attack will deal an extra:
+
+- 2d6 fire[supernatural] damage.
+- 2d6 ice[supernatural] damage.
+- 2d4 lightning[supernatural] damage.
+
+**Declaration**: Must be made when the attack is called, however, for MELEE attacks the MP cost is only paid if the attack hits. For ranged and thrown weapon attacks the cost is always paid.
+
+**Limitations**:
+
+- Elemental Strike, when used with ranged weapons, is applicable only within the first range increment.
 
 **Special**:
 
-- Must be taken separately for each time of spellcasting.
-- Can be combined with "still spell", "lingering spell", and "aphonic spell".
+- If the element is fire or lightning the attack may ignite flammable materials, and sheds light (visibility 1 mile, illumination: dim 10ft).
+- Elemental strike must be taken separately for each element.
+- Though the elemental damage is supernatural, the remaining weapon damage will usually still be natural.
+
+**Prerequisites**:
+
+- Proficiency with at least one weapon group.
+- Any ["Elementalism"](#elementalism-elemental-blast) or [Elemental Spellcasting](#spellcasting-local) of the same element.
+- 5 SP dice total and 6 MP dice total.
+
+___
+#### Esoteric Deflection
+
+**Type**: (Class S)
+
+**Description**: Use a reaction and MP to reduce damage from ["esoteric"](10-conditions-types.md#esoteric-damage) ranged attack.
+
+**Effect**: Reduce the damage from a "esoteric" ranged attack by [1d6 + [2 x MP dice expended]].
+
+**Action**: As a reaction to being hit by a ranged "esoteric" attack, declare "esoteric deflection".
+
+**Limitations**:
+
+- The ability cannot be used when you are surprised, or otherwise incapable of using reactions.
+
+**Prerequisite**: ["Deflection"](#deflection) + 17 MP dice total.
+
+___
+#### Holy Strike
+
+**Type**: B Class
+
+**Description**: Expend MP to infuse a weapon attack with supernatural light, dealing extra damage. This costs 1 MP and deals 2d4 of light damage. Profane entities hit by this attack must succeed a CHA save (Threshold=13+SUP+[CHA]) or be "blinded" (repeated save applies).
+
+**Declaration**: Must be made when the attack is called, however, for MELEE attacks the MP cost is only paid if the attack hits. For ranged and thrown weapon attacks the cost is always paid.
+
+**Limitations**:
+
+- Holy Strike, when used with ranged weapons, is applicable only within the first range increment.
+- A character with a "Profane" alignment cannot take this ability. This is an optional rule for when playing with alignment.
+
+**Special**:
+
+- "Holy Strike" sheds light (visibility 5 miles, illumination: bright/dim 10ft, 20ft).
+- Though the light damage is supernatural, the remaining weapon damage will usually still be natural.
+
+**Prerequisites**:
+
+- Proficiency with at least one weapon group.
+- 6 SP dice total and 7 MP dice total.
+
+___
+#### Profane Strike
+
+**Type**: A/S Class
+
+**Description**: Exactly as "Divine Strike", but replace the word "Divine" with "Profane".
+
+**Prerequisites**: Requires ["Unholy Strike"](#unholy-strike) instead of ["Holy Strike"](#holy-strike).
+
+___
+#### Spell Strike
+
+**Type**: Class B (melee), Class S (ranged)
+
+**Description**: Choose a weapon proficiency group. You can now declare spell strike when wielding a weapon in that group and deliver spells (cost 1MP dice).
+
+- When delivering a spell that takes an action to cast, or releasing a spell that takes an action/reaction to release (held spell), make a weapon attack. If the attack hits, you deal the normal damage and discharge the spell through the weapon. If the attack misses, the spell is "held".
+
+**Special**: When you miss with a "spell strike" when already concentrating on a spell, the double concentration rule resolves itself in the usual way (either you chose to drop on spell, or they both end, be it quietly or loudly).
+
+**Prerequisites**:
+
+- Must be proficient in the given weapon group.
+- SP dice total of 7.
+- At least one spellcasting ability.
+- Depending on weapon category there are different MP dice total prerequisites.
+
+|Weapon Group|MP dice total prerequisite|
+|-|-|
+|Unarmed|6|
+|Light blades|6|
+|Staves|9|
+|Axes|9|
+|Percussive|9|
+|Heavy blades|9|
+|Pole-arms|12|
+|Spears|12|
+|Blowguns|16|
+|Thrown|16|
+|Ranged|19|
+|Siege|22|
+
+___
+#### Spirit Strike
+
+**Type**: (Class A)
+
+**Description**: Spend 1 MP dice to deal "supernatural" damage with a "natural" weapon attack.
+
+**Limitation**: This must be an attack as defined in ["Basic Martial Manoeuvres"](04-combat.md#basic-martial-manoeuvres). It cannot be used in combination with abilities (other than "Multi-attack").
+
+- OPTIONAL: If playing with alignment rules, a character who gains "Spirit Strike" should be spiritually aligned, and cannot use this ability if they lose this alignment.
+
+**Prerequisites**: 12 MP dice total and 18 SP dice total.
+
+___
+#### Unholy Strike
+
+**Type**: B Class
+
+**Description**: Expend MP to infuse a weapon attack with decay, dealing extra damage. This costs 1 MP and deals 2d6 of necrotic damage. Mortals hit by this attack must succeed a CON save (Threshold=13+NAT+[CON]) or start "bleeding".
+
+**Declaration**: Must be made when the attack is called, however, for MELEE attacks the MP cost is only paid if the attack hits. For ranged and thrown weapon attacks the cost is always paid.
+
+**Limitations**:
+
+- Unholy Strike, when used with ranged weapons, is applicable only within the first range increment.
+- A character with a "divine" alignment cannot take this ability. This is an optional rule for when playing with alignment.
+
+**Prerequisites**:
+
+- Proficiency with at least one weapon group.
+- 6 SP dice total and 7 MP dice total.
+
+**Special**: Though the necrotic damage is supernatural, the remaining weapon damage will usually still be natural.
 
 ___
 ### Elementalism (Elemental Blast)
@@ -1397,134 +1287,13 @@ This is an enhancement of the "line" form that sweeps out a wide area.
 
 **Action**: Declare "elemental arc". This works like elemental line, except one also chooses an sweep angle and direction. For every 2 extra MP dice (separate from all other dice), the line may sweep out an arc of up to 30 degree along a plane chosen by the wielder. Unlike a cone or circle, the arc does not bloom or circumvent cover.
 
-___
-### Spellcasting
 
-Spell casting abilities come in two flavour: Local and Global. Local spellcasting covers spells which take no longer than an hour to cast, have effects that wear off in a month of less and do not reach further than a mile from the point of casting. They are most useful in battle and situations where an immediate effect is needed. Global spellcasting covers everything else and is used in various applications, from near impenetrable barrier on holy sites, to enchantments that bring fertile harvests to whole kingdoms over the centuries.
+____
+### Boons (Natural)
 
-The rules for use of spells in combat are found in ["Combat: Spells"](04-combat.md#spells). Other magic rules are found in ["Magic and Spellcasting"](07-magic-and-spellcasting.md). Spell lists are found in ["Spell List"](08-spell-list.md)
-
-___
-#### Forbidden Spell
-
-**Type**: Supernatural (C-A)
-
-**Description**: Learn 2 spells that are not covered by any ordinary type of spellcasting.
-
-**Original State**: A character with spellcasting can only learn spells with descriptors associated with that spellcasting type (nature and elemental spellcasting), or only the allowed components (incantation and kinetic spellcasting).
-
-**Action**: None. The spells are chosen on levelling up, when the ability is chosen.
-
-**Prerequisite**: The character must have a level of spellcasting of one of the elemental [spellcasting types](#spellcasting-local) that is at least as high as the level of the spells chosen with this ability.
-
-**Limitation**: 
-
-- The spell cannot have a descriptor opposite to the "spellcasting type" used to obtain it.
-- Many of these spells may cause a shift in character alignment or have negative mechanistic or narrative consequences. Usually these spells have the "profane" or "spirit" descriptors. This should be kept in mind.
-- The spell cannot have a minimum MP dice cost of 8 or higher. For those, ["High Arcana](#high-arcana)" is used.
+This section lists passive abilities (boons) which are not supernatural in nature, although some may seem that way to the untrained eye. These abilities are always in play, and the player (and DM) needs to be aware if a situation is affected by a boon possessed by the character.
 
 ___
-#### High Arcana
-
-**Type**: Supernatural (S)
-
-**Description**: Learn 1 spell with a minimum local casting cost of 8 or higher for which you meet the prerequisites.
-
-**Original State**: A character with spellcasting VII can only learn spells of a minimum MP dice cost of 7 or lower.
-
-**Action**: None. The spells are chosen on levelling up, when the ability is chosen.
-
-**Prerequisite**:
-
-- The character must have "[Spellcasting: Local VII](#spellcasting-local) of the appropriate category" or (["Spellcasting: Global VII"](#spellcasting-global) AND "Spellcasting: Local I" of the appropriate category)
-- Their [character level / 2] (rounded up) is equal to, or higher than, the minimum MP dice cost of the spell. So for "Realm of Flame" (cost 10), the minimum level is 19. For ["Greater Domain"](08-spell-list.md#greater-domain) (cost 8), the minimum level is 15. See the table below.
-- A character must know at least one spell of the previous MP dice cost level. So to learn "Greater Domain" (cost 8), a character must know at least one spell of a minimum MP dice cost of 7.
-- Spells of minimum dice cost of 8-10 are generally learned with the ["High Arcana"](#high-arcana) ability.
-
-|Minimum MP dice casting cost|Level Prerequisite|
-|-|-|
-|8|15|
-|9|17|
-|10|19|
-
-___
-#### Spellcasting: Local
-
-There are several forms of spellcasting in this category, but they all have similar mechanics and have the same prerequisites. The casting types in this category are:
-
-- Elemental: Air
-- Elemental: Earth
-- Elemental: Fire
-- Elemental: Ice
-- Incantation
-- Kinetic
-- Nature
-
-**Special**:
-
-- Each time a character wishes to learn the new category of local magic, they must take it as a separate ability.
-- Each type of local magic also covers some global spells. As long a character has "Spellcasting: Global I" and the requisite level of local spellcasting of the type, they can cast global spells of that type and level.
-- In order to get the next level of a type of local magic, a character must have the previous one. So if a character wishes to learn "Spellcasting: Nature III", they must have "Spellcasting: Nature II", which requires having "Spellcasting: Nature I".
-- A spellcaster can never channel more than 1/3 of their MP dice total into a single "local" spell.
-- A spellcaster can never cast a spell with a minimum local (or local equivalent) MP dice cost higher than half of their level rounded up. So a level 13 character cannot cast a spell with a minimum MP dice cost of 8, 9, or 10.
-- Spells with a minimum local casting cost of more than 7 MP dice exist. A character can learn and cast these spells, if:
-  - They have Spellcasting: Local VII of the appropriate category (eg Spellcasting: Local (Elemental: Fire) for ["Realm of Flame"](08-spell-list.md#realm-of-flame)).
-  - Their [character level / 2] (rounded up) is equal to, or higher than, the minimum MP dice cost of the spell. So for "Realm of Flame" (cost 10), the minimum level is 19. For ["Greater Domain"](08-spell-list.md#greater-domain) (cost 8), the minimum level is 15. See the "Minimum levels for higher level spells" table below.
-  - A character must know at least one spell of the previous MP dice cost level. So to learn "Greater Domain" (cost 8), a character must know at least one spell of a minimum MP dice cost of 7.
-  - Spells of minimum dice cost of 8-10 are generally learned with the ["High Arcana"](#high-arcana) ability.
-
-**Local Spellcasting table**:
-
-|Ability level|MP dice casting cost|MP dice prerequisite|Level Prerequisite|
-|-|-|-|-|
-|I|1|3|1|
-|II|2|6|3|
-|III|3|9|5|
-|IV|4|12|7|
-|V|5|16|9|
-|VI|6|20|11|
-|VII|7+|24|13|
-
-**Minimum levels for higher level spells**:
-
-|Minimum MP dice casting cost|Level Prerequisite|
-|-|-|
-|8|15|
-|9|17|
-|10|19|
-
-___
-#### Spellcasting: Global
-
-Global magic covers the casting of all global spells. In order to access and cast global spells of a certain type and level a character must have either of:
-
-1. The requisite level in that type of local magic and 1 level of global magic.
-2. The requisite level of global magic and 1 level in that type of local magic.
-
-So for example, to cast global 7th level Nature magic, a character must have either "Spellcasting: Nature VII" and "Spellcasting: Global I", or "Spellcasting: Global VII" and "Spellcasting: Nature I".
-
-**Casting time and cost**: Global spells take at least an hour to cast, but more often the casting time is measured in days or weeks. Thus the MP dice cost is measured in "dice per day".
-
-**Special**: For spells of MP dice cost 8 and above, the same rules as for higher local spells apply. The only change is that the minimum level for using these spells is calculated as [Global casting MP dice cost / 2].
-
-**Global Spellcasting table**:
-
-|Ability level|MP dice casting cost per day of casting|MP dice prerequisite|Level Prerequisite|
-|-|-|-|-|
-|I|3|3|1|
-|II|6|6|3|
-|III|9|9|5|
-|IV|12|12|7|
-|V|15|16|9|
-|VI|18|20|11|
-|VII|21|24|13|
-
-___
-## Boons
-
-___
-### Combat Boons (Natural)
-
 #### Alert
 
 **Type**: (Natural, cost = 2 points)
@@ -1589,6 +1358,20 @@ ___
 **Prerequisite**: Ride, 2 ranks.
 
 ___
+#### Enduring Flight
+
+**Type**: (Natural, Class B)
+
+**Description**: Gain 1 extra hour of flight endurance.
+
+**Limitations**:
+
+- A character can only take this boon once per level.
+- A character cannot increase its flight endurance with this boon to beyond its [journey time](03-movement-exploration.md#global-movement-pushing-and-fatigue) (10 hours).
+
+**Prerequisites**: CON of at least 15.
+
+___
 #### Evasive
 
 **Type**: (Natural, Class B)
@@ -1596,6 +1379,15 @@ ___
 **Description**: Avoid attacks of opportunities when moving between threatened squares. If using "cautious movement" avoid attacks of opportunity when leaving threatened squares.
 
 **Original state**: Characters moving out of threatened squares provoke attacks of opportunity. Attacks of opportunity when moving between threatened squares can be avoided using "cautious movement".
+
+___
+#### Fleet
+
+**Type**: (Either, Class B)
+
+**Description**: You can try to stealth from "light concealment".
+
+**Prerequisite**: At least one rank or "base" in "stealth".
 
 ___
 #### Foresight
@@ -1634,6 +1426,37 @@ ___
 **Description**: A spellcaster concentrating on a spell makes the save at disadvantage when it takes damage from one of your weapon attacks.
 
 **Prerequisite**: Mage Hunter I + 7 SP dice total and 7 MP dice total.
+
+___
+#### Mighty I
+
+**Type**: Natural (Class C)
+
+**Description**: Carrying capacity increases by 50%. Thus the new weight limits are calculated as follows (before applying size modifier):
+
+|Load Level|Weight Limit (lb)    |
+|----------|---------------------|
+|Light     |(0lb to 6lb) x Str   |
+|Medium    |(6lb+ to 12lb) x Str |
+|Heavy     |(12lb+ to 30lb) x Str|
+|Drag      |Up to 45lb x Str     |
+
+**Prerequisite**: 13 STR + 13 CON.
+
+___
+#### Mighty II
+
+**Type**: Natural (Class C)
+
+**Description**: The upper limit for "light load" increases to [12lb x STR].  Penalties from the "heavy load" category apply immediately above [12lb x STR]. The limits from the ["Weight limits table"](03-movement-exploration.md#weight-limits-table) then look like this:
+
+|Load Level|Weight Limit (lb)    |
+|----------|---------------------|
+|Light     |(0lb to 12lb) x Str  |
+|Heavy     |(12lb+ to 30lb) x Str|
+|Drag      |Up to 45lb x Str     |
+
+**Prerequisite**: Mighty I + 15 STR + 15 CON.
 
 ___
 #### Multi-attack I-III
@@ -1733,27 +1556,11 @@ ___
 |21|Precise shot III|Ranged attacks ignore heavy concealment|
 
 ___
-#### Rapid Shot
+#### Quick Mount
 
-**Type**: (Natural, Class B)
+**Description**: You mount as a "secondary action" and quick-mount as a "non-action". "Dismount" becomes a "minor interaction". Furthermore you can always "take care" when mounting (but not quick-mounting). The thresholds are not affected.
 
-**Description**: Use a combination of main and secondary action to shoot an extra projectile, at the expense of accuracy.
-
-**Action**: Declare "rapid shot" and expend "main action" and "secondary action" and make the usual number of ranged weapon attacks plus one, all with the appropriate penalty to the attack roll. (See table below)
-
-|Multi-attack level|New number of attacks|Penalty (longbow, greatbow)|Penalty (other weapons)|
-|-|-|-|-|
-|-|2|-4|-3|
-|I|3|-4|-3|
-|II|4|-3|-2|
-|III|5|-2|-1|
-
-**Prerequisites**:
-
-- Proficiencies with at least one of: Bows, slings, war darts (spears) or shurikens (light blades).
-- 6 SP dice.
-
-**Limitation**: Applicable only to bows, slings, war darts and shurikens.
+**Prerequisite**: 2 ranks in ride.
 
 ___
 #### Shield Master
@@ -1771,6 +1578,19 @@ ___
 - 8 SP dice total and 3 MP dice total.
 
 ___
+#### Silent Step I-III
+
+**Type**: (Natural, Class B)
+
+**Description**: You can move faster while stealthed.
+
+|Boon level|Prerequisite (Base)|Boon|
+|-|-|-|
+|I|1|You can move up to your movement speed without penalties to maintain stealth|
+|II|2|You can run while stealthed (no stealth penalty), as long as you have some concealment|
+|III|3|You can sprint wile stealthed (no stealth penalty), as long as you have some concealment|
+
+___
 #### Skirmisher
 
 **Type**: (Natural, Class B)
@@ -1778,6 +1598,24 @@ ___
 **Description**: Avoid all attacks of opportunity from a target that you have made a melee attack against for the rest of your turn.
 
 **Original state**: Characters moving out of threatened squares provoke attacks of opportunity. Attacks of opportunity when moving between threatened squares can be avoided using "cautious movement".
+
+___
+#### Sleep on the Wing
+
+**Type**: (Natural, Class B, cost = 2 points)
+
+**Description**: This character can fly continuously without ever landing.
+
+**Prerequisites**:
+
+- Flight time of 10 hours.
+- ["Second Soul"](#second-soul) or ["Alert"](#alert) boons, OR 19+ to CHA or WIS.
+  - This prerequisite is waived for entities that do not sleep.
+
+**Limitations**:
+
+- After expanding its normal flight time, the character can ONLY fly at half of its base movement speed until it completes a rest.
+- During such flight, it does not regain SP dice, MP dice, SP, MP or HP from resting, however it does regain journey time and can sleep if it so chooses.
 
 ___
 #### Sniper
@@ -1791,6 +1629,38 @@ ___
 - SP dice total of 10
 - At least 2 ranks in "stealth".
 - Proficiency with at least one ranged/thrown weapon that is not a firearm or siege weapon.
+
+___
+#### Speed
+
+**Type**: (Natural, Class C)
+
+**Description**: Gain +5ft to a movement modality (other than "dig", "blink" or "cosmic").
+
+**Prerequisite**: A character can take this boon once per level, and cannot take it retroactively.
+
+**Warning**: Increasing fly speed also increases turn radius, which is not usually desirable.
+
+___
+#### Sprinter
+
+**Type**: (Natural, Class B)
+
+**Description**: Move at x3 times base movement when taking the "run" action and x5 when taking the "sprint" action.
+
+**Special**:
+
+- Must be taken separately for each movement modality.
+- Does not affect movement modalities where "run" or "sprint" are not valid actions.
+
+___
+#### Stalker
+
+**Type**: (Natural, Class B)
+
+**Description**: You can use "stealth" as a "secondary action".
+
+**Prerequisites**: SP dice total of 5. At least 1 rank in "stealth".
 
 ___
 #### Swift Shield Bash
@@ -1816,6 +1686,45 @@ ___
 **Prerequisite**: 10 SP dice.
 
 **Original state**: A reaction resolves after the action that provoked it.
+
+___
+#### Terrain Mastery
+
+**Type**: (Natural, Class B)
+
+**Description**: Choose a terrain. You gain a +2 bonus to "Fortify", "Stealth", "Harvest", "Track", "Navigate", "Prospect" and "Creature Handling" on a given terrain.
+
+**Special**:
+
+- A character can take this boon once per point of base it has. Each time it must apply to a different type of terrain.
+- When a character gains a point of base, they can change a terrain mastery for a different terrain. This reflects the gradual gain and loss of knowledge and skill with time.
+
+___
+#### Tracker: Fast Search
+
+**Type**: (Natural, Class B)
+
+**Description**: Looking for tracks is a "main action" for you. Following tracks is a non-action.
+
+**Prerequisite**: 1 ranks in "Track".
+
+___
+#### Tracker: Persistent
+
+**Type**: (Natural, Class B)
+
+**Description**: Once you find tracks, you do not need to make another roll for 4 hours, or 4 miles if speed is less than 1mph.
+
+**Prerequisite**: 2 ranks in "Track".
+
+___
+#### Tracker: Swift
+
+**Type**: (Natural, Class A)
+
+**Description**: You can move at full speed when tracking without penalties. You can "run" when tracking, with a +6 to the threshold.
+
+**Prerequisite**: 2 ranks in "Track".
 
 ___
 #### Trick shot I-II
@@ -1886,91 +1795,11 @@ ___
 - Proficiency with the chosen weapon.
 - 7 SP dice.
 
-___
-### Combat Boons (Supernatural)
 
 ___
-#### Arcane Interception
+### Boons (Supernatural)
 
-**Type**: (Supernatural, A)
-
-**Description**: You can use the "interception" manoeuvre to redirect supernatural attacks that require a saving throw at yourself.
-
-**Original state**: "Intercept" manoeuvre can only be used to intercept attacks that require an attack roll (targeted attacks).
-
-**Action**: As a "main action":
-
-- Declare a target to protect. You must be within reach of your mark, or the direct line between the attacker and target must pass through your square.
-- When a supernatural attack that requires a saving throw is made against your mark before the start of your next turn, it is automatically redirected at you, and you make the save and/or potentially suffer the effect.
-
-As a "reaction": This works in the same way as the "main action" mode, however you can only defend your target against one such attack.
-
-**Limitation**: You can only protect a single target against area of effect attacks, or attacks that would affect multiple targets.
-
-**Prerequisites**:
-
-- Proficiency with the "interception" manoeuvre.
-- At least one rank in any of: "Knowledge: Arcana", "Knowledge: Religion", or "Spellworking".
-- At least one level of any "local" [spellcasting](#spellcasting-local) ability.
-
-___
-#### Mental Fight
-
-**Type**: (Supernatural)
-
-**Description**: The following abilities are "supernatural" and go off MP dice and SAP (instead of SP dice and NAP):
-
-+ Flurry
-+ Unarmed Strike I-IX
-+ Debilitating Strike
-+ Flash Step
-
-**Prerequisites**:
-
-+ SP dice total of at least 7.
-+ MP dice total of at least 7.
-+ Any 3 of "Flurry", "Unarmed Strike", "Debilitating Strike" and "Flash Step".
-
-**Special**: Prerequisites for further improvements of these abilities are also transferred to MP dice total. You still use Str/Dex to make the attack (SAP + [Dex]/[Str]).
-
-**Warning**: This is a bit niche and build dependant. It is here as homage to the belief that these abilities can be either "natural" or "supernatural". It does not necessarily improve the build.
-
-___
-#### Safe Cast
-
-**Type**: (Class B)
-
-**Description**: Your spellcasting no longer provokes attacks of opportunity.
-
-+ This means that spells with kinetic components do not provoke attacks of opportunity.
-
-**Limitations**: Entities with the "mage hunter" boon can still make attacks of opportunity against your spells UNLESS you also have the "mage hunter" boon.
-
-**Prerequisites**:
-
-- Proficiency with at least one weapon proficiency group.
-- 4 SP dice and 7 MP dice total.
-- At least one spellcasting ability.
-
-**Warning**: This boon is best used together with the "mage hunter" boon.
-
-___
-#### War Mage
-
-**Type**: (Class B)
-
-**Description**: Gain advantage on concentration saves when maintaining spells.
-
-**Prerequisites**:
-
-- Proficiency with at least one weapon proficiency group.
-- 4 SP dice and 7 MP dice total.
-- At least one spellcasting ability.
-
-___
-### General Boons
-
-General boons are those that can come in handy in and out of combat.
+This section lists passive abilities (boons) which are supernatural in nature.
 
 ___
 #### Blind Sight I-VI
@@ -1991,15 +1820,6 @@ ___
 |VI|30ft|35|Blind Sight V|
 
 **Special**: "Blind Sight" can be either natural or supernatural.
-
-___
-#### Blink I
-
-**Type**: (Supernatural, Class S)
-
-**Description**: Expend 1 MP die to gain a blink speed equal to either 30ft or your walk speed (whichever is greater) for the rest of your turn.
-
-**Prerequisites**: 18 MP dice and either Elemental[air] or Incantation magic, level 3.
 
 ___
 #### Blink II
@@ -2042,6 +1862,19 @@ ___
 |Unconscious|4|-|-|
 
 ___
+#### Energy Affinity
+
+**Type**: (Class A)
+
+**Description**: Spend 1 MP dice to overcome damage resistance when dealing elemental/energy damage.
+
+**Declaration**: Declare and pay the price before calling the ability/attack/spell.
+
+**Prerequisites**: At least one "supernatural" ability that utilises the element.
+
+**Special**: Must be taken separately for each element.
+
+___
 #### Extra Save
 
 **Type**: (Natural, Class A)
@@ -2057,29 +1890,6 @@ ___
 |9-12|4| Extra Save III|
 |13-16|5| Extra Save IV|
 |17-20|6| Extra Save V|
-
-___
-#### Enduring Flight
-
-**Type**: (Natural, Class B)
-
-**Description**: Gain 1 extra hour of flight endurance.
-
-**Limitations**:
-
-- A character can only take this boon once per level.
-- A character cannot increase its flight endurance with this boon to beyond its [journey time](03-movement-exploration.md#global-movement-pushing-and-fatigue) (10 hours).
-
-**Prerequisites**: CON of at least 15.
-
-___
-#### Fleet
-
-**Type**: (Either, Class B)
-
-**Description**: You can try to stealth from "light concealment".
-
-**Prerequisite**: At least one rank or "base" in "stealth".
 
 ___
 #### Heat Sense I-V
@@ -2124,7 +1934,7 @@ ___
 **Special**: "Keen senses" is a "supernatural" boon when taken with level points, but can be natural as part of a template or monster block.
 
 ___
-#### Life Sense I-V
+#### Life Sense I-VI
 
 **Type**: (Supernatural, Class S)
 
@@ -2161,42 +1971,26 @@ ___
 **Special**: "Low-light vision" is a "supernatural" boon when taken with level points, but can be natural as part of a template or monster block.
 
 ___
-#### Mighty I
+#### Mental Fight
 
-**Type**: Natural (Class C)
+**Type**: (Supernatural)
 
-**Description**: Carrying capacity increases by 50%. Thus the new weight limits are calculated as follows (before applying size modifier):
+**Description**: The following abilities are "supernatural" and go off MP dice and SAP (instead of SP dice and NAP):
 
-|Load Level|Weight Limit (lb)    |
-|----------|---------------------|
-|Light     |(0lb to 6lb) x Str   |
-|Medium    |(6lb+ to 12lb) x Str |
-|Heavy     |(12lb+ to 30lb) x Str|
-|Drag      |Up to 45lb x Str     |
++ Flurry
++ Unarmed Strike I-IX
++ Debilitating Strike
++ Flash Step
 
-**Prerequisite**: 13 STR + 13 CON.
+**Prerequisites**:
 
-___
-#### Mighty II
++ SP dice total of at least 7.
++ MP dice total of at least 7.
++ Any 3 of "Flurry", "Unarmed Strike", "Debilitating Strike" and "Flash Step".
 
-**Type**: Natural (Class C)
+**Special**: Prerequisites for further improvements of these abilities are also transferred to MP dice total. You still use Str/Dex to make the attack (SAP + [Dex]/[Str]).
 
-**Description**: The upper limit for "light load" increases to [12lb x STR].  Penalties from the "heavy load" category apply immediately above [12lb x STR]. The limits from the ["Weight limits table"](03-movement-exploration.md#weight-limits-table) then look like this:
-
-|Load Level|Weight Limit (lb)    |
-|----------|---------------------|
-|Light     |(0lb to 12lb) x Str  |
-|Heavy     |(12lb+ to 30lb) x Str|
-|Drag      |Up to 45lb x Str     |
-
-**Prerequisite**: Mighty I + 15 STR + 15 CON.
-
-___
-#### Quick Mount
-
-**Description**: You mount as a "secondary action" and quick-mount as a "non-action". "Dismount" becomes a "minor interaction". Furthermore you can always "take care" when mounting (but not quick-mounting). The thresholds are not affected.
-
-**Prerequisite**: 2 ranks in ride.
+**Warning**: This is a bit niche and build dependant. It is here as homage to the belief that these abilities can be either "natural" or "supernatural". It does not necessarily improve the build.
 
 ___
 #### Resist Condition
@@ -2273,109 +2067,7 @@ ___
 **Limitations**: This "boon" is somewhat niche and has serious ramifications on how a character is played. It should therefore be treated with extreme care.
 
 ___
-#### Silent Step I-III
-
-**Type**: (Natural, Class B)
-
-**Description**: You can move faster while stealthed.
-
-|Boon level|Prerequisite (Base)|Boon|
-|-|-|-|
-|I|1|You can move up to your movement speed without penalties to maintain stealth|
-|II|2|You can run while stealthed (no stealth penalty), as long as you have some concealment|
-|III|3|You can sprint wile stealthed (no stealth penalty), as long as you have some concealment|
-
-___
-#### Sleep on the Wing
-
-**Type**: (Natural, Class B, cost = 2 points)
-
-**Description**: This character can fly continuously without ever landing.
-
-**Prerequisites**:
-
-- Flight time of 10 hours.
-- ["Second Soul"](#second-soul) or ["Alert"](#alert) boons, OR 19+ to CHA or WIS.
-  - This prerequisite is waived for entities that do not sleep.
-
-**Limitations**:
-
-- After expanding its normal flight time, the character can ONLY fly at half of its base movement speed until it completes a rest.
-- During such flight, it does not regain SP dice, MP dice, SP, MP or HP from resting, however it does regain journey time and can sleep if it so chooses.
-
-___
-#### Speed
-
-**Type**: (Natural, Class C)
-
-**Description**: Gain +5ft to a movement modality (other than "dig", "blink" or "cosmic").
-
-**Prerequisite**: A character can take this boon once per level, and cannot take it retroactively.
-
-**Warning**: Increasing fly speed also increases turn radius, which is not usually desirable.
-
-___
-#### Sprinter
-
-**Type**: (Natural, Class B)
-
-**Description**: Move at x3 times base movement when taking the "run" action and x5 when taking the "sprint" action.
-
-**Special**:
-
-- Must be taken separately for each movement modality.
-- Does not affect movement modalities where "run" or "sprint" are not valid actions.
-
-___
-#### Stalker
-
-**Type**: (Natural, Class B)
-
-**Description**: You can use "stealth" as a "secondary action".
-
-**Prerequisites**: SP dice total of 5. At least 1 rank in "stealth".
-
-___
-#### Terrain Mastery
-
-**Type**: (Natural, Class B)
-
-**Description**: Choose a terrain. You gain a +2 bonus to "Fortify", "Stealth", "Harvest", "Track", "Navigate", "Prospect" and "Creature Handling" on a given terrain.
-
-**Special**:
-
-- A character can take this boon once per point of base it has. Each time it must apply to a different type of terrain.
-- When a character gains a point of base, they can change a terrain mastery for a different terrain. This reflects the gradual gain and loss of knowledge and skill with time.
-
-___
-#### Tracker: Fast Search
-
-**Type**: (Natural, Class B)
-
-**Description**: Looking for tracks is a "main action" for you. Following tracks is a non-action.
-
-**Prerequisite**: 1 ranks in "Track".
-
-___
-#### Tracker: Persistent
-
-**Type**: (Natural, Class B)
-
-**Description**: Once you find tracks, you do not need to make another roll for 4 hours, or 4 miles if speed is less than 1mph.
-
-**Prerequisite**: 2 ranks in "Track".
-
-___
-#### Tracker: Swift
-
-**Type**: (Natural, Class A)
-
-**Description**: You can move at full speed when tracking without penalties. You can "run" when tracking, with a +6 to the threshold.
-
-**Prerequisite**: 2 ranks in "Track".
-
-___
-#### Tremor Sense I-V
+#### Tremor Sense I-VI
 
 **Type**: (Natural/Supernatural, Class A)
 
@@ -2401,7 +2093,7 @@ ___
 - It is still possible to gain concealment against tremor sense in environments with a lot of background vibrations, for example a site of heavy construction or industry, or a seismically active zone.
 
 ___
-#### Truesight I-V
+#### Truesight I-VI
 
 **Type**: (Supernatural, Class S)
 
@@ -2457,3 +2149,307 @@ ___
 - Even if you can communicate through xenophonia with beings of other types using signals that they understand, the content of your communication may still be incomprehensible to them due to alien minds, incompatible conceptual frameworks or limited intellectual capacity. For example, the concept of death may be alien to certain spirits, while a plant may not have the ability to count, while a hedgehog might not know what a steam train is.
 - Characters with "xenophonia" can never use the ability to understand "glitches" and "divines".
 - A character may only take one type of "xenophonia" per level.
+
+
+___
+### Spellcasting
+
+Spell casting abilities come in two flavour: Local and Global. Local spellcasting covers spells which take no longer than an hour to cast, have effects that wear off in a month of less and do not reach further than a mile from the point of casting. They are most useful in battle and situations where an immediate effect is needed. Global spellcasting covers everything else and is used in various applications, from near impenetrable barrier on holy sites, to enchantments that bring fertile harvests to whole kingdoms over the centuries.
+
+The rules for use of spells in combat are found in ["Combat: Spells"](04-combat.md#spells). Other magic rules are found in ["Magic and Spellcasting"](07-magic-and-spellcasting.md). Spell lists are found in ["Spell List"](08-spell-list.md)
+
+___
+#### Aphonic Spell
+
+**Type**: (Class B)
+
+**Description**: Spend 1 MP dice to cast a spell without uttering the incantation.
+
+**Declaration**: Declare "aphonic spell" before casting the spell.
+
+**Prerequisite**: 6 MP dice total + the ability to cast spells.
+
+**Special**: 
+
+- Must be taken separately for each time of spellcasting.
+- Can be combined with "still spell" and "lingering spell".
+- This allows casting of spells with incantations when under the effects of "aphonia" or "inaudible".
+
+(Technically this is a boon)
+
+___
+#### Forbidden Spell
+
+**Type**: Supernatural (C-A)
+
+**Description**: Learn 2 spells that are not covered by any ordinary type of spellcasting.
+
+**Original State**: A character with spellcasting can only learn spells with descriptors associated with that spellcasting type (nature and elemental spellcasting), or only the allowed components (incantation and kinetic spellcasting).
+
+**Action**: None. The spells are chosen on levelling up, when the ability is chosen.
+
+**Prerequisite**: The character must have a level of spellcasting of one of the elemental [spellcasting types](#spellcasting-local) that is at least as high as the level of the spells chosen with this ability.
+
+**Limitation**: 
+
+- The spell cannot have a descriptor opposite to the "spellcasting type" used to obtain it.
+- Many of these spells may cause a shift in character alignment or have negative mechanistic or narrative consequences. Usually these spells have the "profane" or "spirit" descriptors. This should be kept in mind.
+- The spell cannot have a minimum MP dice cost of 8 or higher. For those, ["High Arcana](#high-arcana)" is used.
+
+___
+#### High Arcana
+
+**Type**: Supernatural (S)
+
+**Description**: Learn 1 spell with a minimum local casting cost of 8 or higher for which you meet the prerequisites.
+
+**Original State**: A character with spellcasting VII can only learn spells of a minimum MP dice cost of 7 or lower.
+
+**Action**: None. The spells are chosen on levelling up, when the ability is chosen.
+
+**Prerequisite**:
+
+- The character must have "[Spellcasting: Local VII](#spellcasting-local) of the appropriate category" or (["Spellcasting: Global VII"](#spellcasting-global) AND "Spellcasting: Local I" of the appropriate category)
+- Their [character level / 2] (rounded up) is equal to, or higher than, the minimum MP dice cost of the spell. So for "Realm of Flame" (cost 10), the minimum level is 19. For ["Greater Domain"](08-spell-list.md#greater-domain) (cost 8), the minimum level is 15. See the table below.
+- A character must know at least one spell of the previous MP dice cost level. So to learn "Greater Domain" (cost 8), a character must know at least one spell of a minimum MP dice cost of 7.
+- Spells of minimum dice cost of 8-10 are generally learned with the ["High Arcana"](#high-arcana) ability.
+
+|Minimum MP dice casting cost|Level Prerequisite|
+|-|-|
+|8|15|
+|9|17|
+|10|19|
+
+___
+#### Lingering Spell
+
+**Type**: (Class A)
+
+**Description**: Spend 1 MP dice to add the base duration of the spell to its total duration for non-global spell with a duration of at least one round.
+
+**Declaration**: Declare "lingering spell" before casting the spell.
+
+**Prerequisite**: 6 MP dice total + the ability to cast spells.
+
+**Special**:
+
+- Must be taken separately for each time of spellcasting.
+- Can be combined with "still spell" and "aphonic spell".
+
+___
+#### Safe Cast
+
+**Type**: (Class B)
+
+**Description**: Your spellcasting no longer provokes attacks of opportunity.
+
++ This means that spells with kinetic components do not provoke attacks of opportunity.
+
+**Limitations**: Entities with the "mage hunter" boon can still make attacks of opportunity against your spells UNLESS you also have the "mage hunter" boon.
+
+**Prerequisites**:
+
+- Proficiency with at least one weapon proficiency group.
+- 4 SP dice and 7 MP dice total.
+- At least one spellcasting ability.
+
+**Warning**: This boon is best used together with the "mage hunter" boon.
+
+___
+#### Spellcasting: Local
+
+There are several forms of spellcasting in this category, but they all have similar mechanics and have the same prerequisites. The casting types in this category are:
+
+- Elemental: Air
+- Elemental: Earth
+- Elemental: Fire
+- Elemental: Ice
+- Incantation
+- Kinetic
+- Nature
+
+**Special**:
+
+- Each time a character wishes to learn the new category of local magic, they must take it as a separate ability.
+- Each type of local magic also covers some global spells. As long a character has "Spellcasting: Global I" and the requisite level of local spellcasting of the type, they can cast global spells of that type and level.
+- In order to get the next level of a type of local magic, a character must have the previous one. So if a character wishes to learn "Spellcasting: Nature III", they must have "Spellcasting: Nature II", which requires having "Spellcasting: Nature I".
+- A spellcaster can never channel more than 1/3 of their MP dice total into a single "local" spell.
+- A spellcaster can never cast a spell with a minimum local (or local equivalent) MP dice cost higher than half of their level rounded up. So a level 13 character cannot cast a spell with a minimum MP dice cost of 8, 9, or 10.
+- Spells with a minimum local casting cost of more than 7 MP dice exist. A character can learn and cast these spells, if:
+  - They have Spellcasting: Local VII of the appropriate category (eg Spellcasting: Local (Elemental: Fire) for ["Realm of Flame"](08-spell-list.md#realm-of-flame)).
+  - Their [character level / 2] (rounded up) is equal to, or higher than, the minimum MP dice cost of the spell. So for "Realm of Flame" (cost 10), the minimum level is 19. For ["Greater Domain"](08-spell-list.md#greater-domain) (cost 8), the minimum level is 15. See the "Minimum levels for higher level spells" table below.
+  - A character must know at least one spell of the previous MP dice cost level. So to learn "Greater Domain" (cost 8), a character must know at least one spell of a minimum MP dice cost of 7.
+  - Spells of minimum dice cost of 8-10 are generally learned with the ["High Arcana"](#high-arcana) ability.
+
+**Local Spellcasting table**:
+
+|Ability level|MP dice casting cost|MP dice prerequisite|Level Prerequisite|
+|-|-|-|-|
+|I|1|3|1|
+|II|2|6|3|
+|III|3|9|5|
+|IV|4|12|7|
+|V|5|16|9|
+|VI|6|20|11|
+|VII|7+|24|13|
+
+**Minimum levels for higher level spells**:
+
+|Minimum MP dice casting cost|Level Prerequisite|
+|-|-|
+|8|15|
+|9|17|
+|10|19|
+
+___
+#### Spellcasting: Global
+
+Global magic covers the casting of all global spells. In order to access and cast global spells of a certain type and level a character must have either of:
+
+1. The requisite level in that type of local magic and 1 level of global magic.
+2. The requisite level of global magic and 1 level in that type of local magic.
+
+So for example, to cast global 7th level Nature magic, a character must have either "Spellcasting: Nature VII" and "Spellcasting: Global I", or "Spellcasting: Global VII" and "Spellcasting: Nature I".
+
+**Casting time and cost**: Global spells take at least an hour to cast, but more often the casting time is measured in days or weeks. Thus the MP dice cost is measured in "dice per day".
+
+**Special**: For spells of MP dice cost 8 and above, the same rules as for higher local spells apply. The only change is that the minimum level for using these spells is calculated as [Global casting MP dice cost / 2].
+
+**Global Spellcasting table**:
+
+|Ability level|MP dice casting cost per day of casting|MP dice prerequisite|Level Prerequisite|
+|-|-|-|-|
+|I|3|3|1|
+|II|6|6|3|
+|III|9|9|5|
+|IV|12|12|7|
+|V|15|16|9|
+|VI|18|20|11|
+|VII|21|24|13|
+
+___
+#### Spelldance I-IV
+
+**Type**: Supernatural (C-A) 
+
+**Description**: Mingle dance and spell to produce modifications to the spells cast. This ability mirrors "spellsong" (below).
+
+**Action**: Declare "spelldance" when casting a spell that has a cast time of an "action" or "secondary action" and expend an extra 1 MP. This uses your "move action", although you may move up to half of its movement speed/distance during this time if it would otherwise be possible. Declare which modifications apply to the spell (see "effects" and "Spelldance table" below).
+
+**Duration**: Similarly to "bard song", the dancer must use their "move action" on each subsequent turn to maintain the "spelldance" and its effect, if the spell has a duration. The dancer can continue a dance for a number of rounds equal to their CON score.
+
+**Effect**: Spelldance allows the spellcaster to produce one of the following effects:
+
+- Modify the shape of an area of affect spell slightly, including or excluding a number of 5ft squares equal to twice the level of the spelldance. For global spells this is a number of 100ft squares equal to twice the level of the spelldance.
+- Modify the damage type of the spell within certain subgroups (see below).
+- Obfuscate the spell if it has only kinetic components. In this case, make a ["perform"](05-skills.md#perform) roll. Any target observing the casting that does not succeed on an opposed ["Knowledge: Arcana"](05-skills.md#knowledge) roll does not recognise that a spell is being cast and cannot identify (although it can recognise that a spell has been cast from the effects after the fact). This is useful in situations where subtlety is required, and to obstruct counter-spelling.
+
+**Damage Group Conversions**: For the sake of spelldance, damage is grouped by themes, thus conversion is possible between thematically similar damage types. All damage types within the group are mutually convertible by spelldance. On the other hand damage types *between* groups, or outside of them cannot be converted.
+
+|Group Name|Damage Types|
+|-|-|
+|Strength|All physical|
+|Poison|Poison, Necrotic, Cold|
+|Warmth|Fire, Light, Lightning|
+|Light|Light, Cold, Divine|
+|Destruction|Necrotic, Entropic|
+
+**Special**: Conversions to "divine" or "entropic" damage types increase the cost of the spell by 3 MP dice (instead of 1), and deal half of the damage to the caster as backlash for impinging on the domain of the gods.
+
+**Limitations**:
+
+- Only spells with kinetic components can be modified with spellsong.
+- A character that is "restrained", "immobilised", or is otherwise unable to move cannot use "spelldance".
+
+**Spelldance table**:
+
+|Spelldance Level|Perform Ranks|Minimum Spell MP dice cost|5ft Squares Moved|Damage Groups Conversions|
+|-|-|-|-|-|
+|I|1|1|2|-|
+|II|3|2|4|"Strength"|
+|III|5|3|6|"Poison", "Warmth"|
+|IV|7|4|8|"Light", "Destruction"|
+
+___
+#### Spellsong I-IV
+
+**Type**: Supernatural (C-A) 
+
+**Description**: Mingle song and spell to produce subtle modifications to the spells cast.
+
+**Action**: Declare "spellsong" when casting a spell that has a cast time of an "action" or "secondary action" and expend an extra 1 MP. The spell will now cost a "full round action". Declare which condition to apply or to cure (see "Spellsong table" below).
+
+**Duration**: As with "bard song", the singer must use a "secondary action" on each subsequent turn to maintain the spellsong and its effect. The signer can continue a song for a number of rounds equal to its CON score.
+
+**Effect**: The targets of the spell must succeed an additional WIS save (at the start of its turn) or be affected by the declared condition or cured of it. An entity affected by spellsong, makes a WIS save at the start of its turn as usual to end the effect on itself.
+
+ALTERNATIVELY, instead of picking a condition, the singer may elect to restore [base]d4 SP and MP to a single entity that can hear the song.
+
+ALTERNATIVELY, instead of picking a condition, if the spell has ONLY incantation components, make a ["perform"](05-skills.md#perform) roll. Any target observing the casting that does not succeed on an opposed ["Knowledge: Arcana"](05-skills.md#knowledge) roll does not recognise that a spell is being cast and cannot identify (although it can recognise that a spell has been cast from the effects after the fact). This is useful in situations where subtlety is required, and to obstruct counter-spelling.
+
+**Limitations**:
+
+- Only spells with incantation components can be modified with spellsong.
+- A character that is "aphonic", "silenced", or otherwise cannot produce sound cannot use "spellsong".
+- A character that is "deafened" or otherwise cannot perceive sound cannot be affected by "spellsong".
+
+**Spellsong table**: It should be noted that conditions from the "conditions" column can be applied or cured with spellsong, but conditions from the "cured only" column can be cured, but not applied, at that level of spellsong.
+
+|Spellsong Level|Perform Ranks|Minimum Spell MP dice cost|[Conditions](10-conditions-types.md#conditions-in-detail)|Cured Only
+|-|-|-|-|-|
+|I|1|1|"Deafened", "Aphonic"|"Frightened"|
+|II|3|2|"Charmed", "Frightened"|"Incapacitated"|
+|III|5|3|"Bleeding", "Catatonic"|"Dominated"|
+|IV|7|4|"Stunned", "Immobilised"|"Paralysed", "Possessed"|
+
+___
+#### Still Spell
+
+**Type**: (Class A)
+
+**Description**: Spend 1 MP dice to cast a spell without kinetic components.
+
+**Declaration**: Declare "still spell" before casting the spell.
+
+**Prerequisite**: 6 MP dice total + the ability to cast spells.
+
+**Special**:
+
+- Must be taken separately for each time of spellcasting.
+- Can be combined with "aphonic spell", "lingering spell" and "swift spell".
+- This allows spellcasting when "immobilised" or "restrained".
+
+___
+#### Swift Spell
+
+**Type**: (Class A)
+
+**Description**: Spend 2 MP dice to reduce the casting time of a spell from "main action" to "secondary action", or from "full round action" to "main actin".
+
+**Declaration**: Declare "swift spell" before casting the spell.
+
+**Limitation**: If the character casts a "swift spell" in the same turn as casting another spell, and both spells have an MP dice cost of 2 or higher, the character takes 2 points of HP damage.
+
+**Prerequisite**:
+
+- 6 MP dice total
+- The ability to cast spells.
+- +13 DEX or +13 INT.
+
+**Special**:
+
+- Must be taken separately for each time of spellcasting.
+- Can be combined with "still spell", "lingering spell", and "aphonic spell".
+
+___
+#### War Mage
+
+**Type**: (Class B)
+
+**Description**: Gain advantage on concentration saves when maintaining spells.
+
+**Prerequisites**:
+
+- Proficiency with at least one weapon proficiency group.
+- 4 SP dice and 7 MP dice total.
+- At least one spellcasting ability.

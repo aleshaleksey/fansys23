@@ -512,8 +512,9 @@ ___
 - Add [Foreign Forms](06-abilities.md#foreign-forms) for elementalism, as a test rule.
 - Tweak [Bind Beast](06-abilities.md#bind-beast-i-x), to make it more workable (allow levelling up of beasts, always has the HP, etc in the table, allow smaller beasts to fly and dig even at low levels).
 - Change [debilitating strike](06-abilities.md#debilitating-strike) to go off INT/WIS based threshold.
-- Wording of [Life Sense](06-abilities.md#life-sense-i-v) and [Tremor Sense](06-abilities.md#tremor-sense-i-v).
+- Wording of [Life Sense](06-abilities.md#life-sense-i-vi) and [Tremor Sense](06-abilities.md#tremor-sense-i-vi).
 - Split [blink](06-abilities.md#blink-i) into Blink I and Blink II.
+- Rearrange ability list.
 
 ### Monsters and NPCs
 - Reduce the STR of some [golems](monsters-npcs/constructs.md) a little bit.

@@ -1061,7 +1061,7 @@ ___
 |True-speech|||A true unicorn cannot lie|
 |||||
 |[Low Light Vision](../06-abilities.md#low-light-vision)|||A unicorn can see in dim light as well as in sunlight.|
-|[Life Sense (60ft)](../06-abilities.md#life-sense-i-v)|||A unicorn can sense living beings within 60ft of it.|
+|[Life Sense (60ft)](../06-abilities.md#life-sense-i-vi)|||A unicorn can sense living beings within 60ft of it.|
 |Skills|||"Athletics" +11, "Observe" +7, "Sense Motive" +7, "Spellcraft" +7, "Knowledge: Nature" +5, "Knowledge: Arcana" +6, "Knowledge: Religion" +10|
 |Loot|||A unicorn's body, especially its heart, blood and horn, are valued for the magic and rarity of the creature. Whether it retains it or not, is another matter. A unicorn yields enough hide for two suits of medium sized armour and up to 400lb of meat.|
 

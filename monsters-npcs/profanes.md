@@ -327,7 +327,7 @@ ___
 |||||
 |[Low-light vision](../06-abilities.md#low-light-vision)|||A vampire can see in dim light as if it was daylight|
 |[Heat sense (30ft)](../06-abilities.md#heat-sense-i-v)|||A vampire can detect the body heat of warm blooded beings, as well as other sources of heat.|
-|[Life Sense (30ft)](../06-abilities.md#life-sense-i-v)|||A vampire can detect the presence of living beings withn 30ft of itself.|
+|[Life Sense (30ft)](../06-abilities.md#life-sense-i-vi)|||A vampire can detect the presence of living beings withn 30ft of itself.|
 |[Keen scent](../06-abilities.md#keen-senses-i-iii)|||A vampire has advantage on observe and prospect rolls based on scent.|
 |||||
 |Skills|||"Observe" +7, "Harvest" +6, "Athletics"+6, "Climb" +6, "Acrobatics" +6, "Sense Motive" +7, "Deception" +8, "Persuasion" +7, +1 rank for 6 other skills.|
@@ -401,7 +401,7 @@ ___
 |||||
 |[Low-light vision](../06-abilities.md#low-light-vision)|||A vampire can see in dim light as if it was daylight|
 |[Heat sense (60ft)](../06-abilities.md#heat-sense-i-v)|||A vampire can detect the body heat of warm blooded beings, as well as other sources of heat.|
-|[Life Sense (30ft)](../06-abilities.md#life-sense-i-v)|||A vampire can detect the presence of living beings withn 30ft of itself.|
+|[Life Sense (30ft)](../06-abilities.md#life-sense-i-vi)|||A vampire can detect the presence of living beings withn 30ft of itself.|
 |[Keen scent](../06-abilities.md#keen-senses-i-iii)|||A vampire has advantage on observe and prospect rolls based on scent.|
 |||||
 |Skills|||"Observe" +17, "Harvest" +10, "Athletics" +12, "Climb" +12, "Acrobatics" +9, "Sense Motive" +13, "Deception" +8, "Persuasion" +7, "Knowledge:Religion" +11, "Knowledge:Arcana: +11, +2 ranks for all other skills.|
@@ -918,7 +918,7 @@ ___
 |Vulnerability|||"Div", "Lit: supernatural" damage|
 |||||
 |[Low Light Vision](../06-abilities.md#low-light-vision)|||A unicorn can see in dim light as well as in sunlight.|
-|[Life Sense (60ft)](../06-abilities.md#life-sense-i-v)|||A unicorn can sense living beings within 60ft of it.|
+|[Life Sense (60ft)](../06-abilities.md#life-sense-i-vi)|||A unicorn can sense living beings within 60ft of it.|
 |Loot|||While a black unicorn does not provide edible flesh, its horn, hair and blood are valuable to mages.|
 |Skills|||"Athletics" +12, "Observe" +7, "Sense Motive" +7, "Spellcraft" +7, "Knowledge: Nature" +5, "Knowledge: Arcana" +6, "Knowledge: Religion" +10|
 

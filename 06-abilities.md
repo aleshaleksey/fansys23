@@ -814,7 +814,7 @@ ___
 ___
 #### Blink I
 
-**Type**: (Supernatural, Class S)
+**Type**: (Supernatural, Class B/A)
 
 **Description**: Expend 1 MP die to gain a blink speed equal to either 30ft or your walk speed (whichever is greater) for the rest of your turn.
 

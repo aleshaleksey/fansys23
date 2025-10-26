@@ -4,6 +4,7 @@
   - [Undead: Corporeal](#undead-corporeal)
     - [Corporeal Horror, Lesser](#corporeal-horror-lesser)
     - [Corporeal Horror, Greater](#corporeal-horror-greater)
+    - [Lich](#lich)
     - [Skeleton, Humanoid](#skeleton-humanoid-levels-1-5)
     - [Skeletal Dragon](#skeletal-dragon)
     - [Zombie, Humanoid](#zombie-humanoid-levels-1-5)
@@ -49,7 +50,7 @@ Large(-1/+1)
 |Bonus|+6|0|+3|-2|+2|+1|
 |Save|+7|+1|+4|-1|+3|+2|
 
-|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
 |6 (1)|11|9|2|2|4|4|
 
@@ -91,7 +92,7 @@ Saves: Wis, Cha
 |Bonus|+8|-1|+5|-1|+2|+3|
 |Save|+11|+2|+8|+2|+8|+9|
 
-|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
 |13 (3)|21|20|3|3|6|6|
 
@@ -121,6 +122,63 @@ Saves: Wis, Cha
 A corporeal horror is produced when incomplete remains are animated together, producing a single whole. These undead often retain the vestiges of the memories of the mortals they comprise of. However, it is rare for them to show true intelligence. Due to the processes involved, a corporeal horror can take seemingly contradictory actions as it is driven simultaneously by a desire for release and the desire for others to meet a fate worse than its own.
 
 ___
+### Lich
+
+|Level|HiT/Surprised/Touch|SP |MP |HP |Speed (walk)|Speed (other)|
+|-----|-------------------|---|---|---|------------|-------------|
+|17   |20/16/18           |145|93 |25 |40          |-            |
+
+|     |Str|Dex|Con|Int|Wis|Cha|
+|-----|---|---|---|---|---|---|
+|Stat |12 |18 |14 |22 |24 |18 |
+|Bonus|+1 |+4 |+2 |+6 |+7 |+4 |
+|Save |+5 |+8 |+6 |+10|+11|+15|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
+|-----------|-------|-------|---|---|---|---|
+|17 (4)     |21     |33     |4  |7  |8  |11 |
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Profane Short sword|+14|1d6+6|Reach=5ft|
+|Shortstaff|+12|1d6+4|Reach=5ft|
+|[Unholy Strike](../06-abilities.md#unholy-strike)||+2d6[Nec]|(Cost=1 MP dice) on hit with sword or staff|
+|[Profane Strike](../06-abilities.md#profane-strike)||+1d6[Pro]|(Cost=2 MP dice) on hit with sword or staff|
+|[Elementalism: Blast](../06-abilities.md#elementalism-elemental-blast)|+18 (Thr=27)|4d10+7[Fir]|(Range=120ft + 30ft/MP die)|
+|[Elementalism: Touch](../06-abilities.md#elementalism-elemental-blast)|+18 (Thr=27)|4d6+7[Fir]||
+|Elementalism Forms|||Touch, Touch Enhanced, Aura, Sweep, Blast, Line, Sphere, Arc|
+|Multi-attack I|||A lich can make two weapon attacks|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Sc: Fire VII|Thr=27||[Ignition](../08-spell-list.md#ignition), [Least Pyromancy](../08-spell-list.md#least-pyromancy), [Witch's Candle](../08-spell-list.md#witchs-candle), [Enflame](../08-spell-list.md#enflame), [Foxfire](../08-spell-list.md#foxfire), [Meadow of Flame](../08-spell-list.md#meadow-of-flame), [Trace Secret Path](../08-spell-list.md#trace-secret-path), [Fire Ward](../08-spell-list.md#fire-ward), [See Spell](../08-spell-list.md#see-spell), [Balance of Elements](../08-spell-list.md#balance-of-elements), [Speak through Flame](../08-spell-list.md#speak-through-flame), [Flame Stride](../08-spell-list.md#flame-stride), [Revenant](../08-spell-list.md#revenant) [Forest of Flame](../08-spell-list.md#forest-of-flame), [Madness](../08-spell-list.md#madness), [Meteoric Flight](../08-spell-list.md#meteoric-flight)|
+|Sc: Earth VII|Thr=27||[Down](../08-spell-list.md#down), [Least Geomancy](../08-spell-list.md#least-geomancy), [Sense Spell](../08-spell-list.md#sense-spell), [Shape Earth](../08-spell-list.md#shape-earth), [Dusk](../08-spell-list.md#dusk), [Warded Ground](../08-spell-list.md#warded-ground), [Earth Ward](../08-spell-list.md#earth-ward), [Blade Ward](../08-spell-list.md#blade-ward), [Animate Golem](../08-spell-list.md#animate-golem), [Enchanted Ground](../08-spell-list.md#enchanted-ground), [Rift](../08-spell-list.md#rift), [Stone Ward](../08-spell-list.md#stone-ward), [Greater Earth Ward](../08-spell-list.md#greater-earth-ward), [False Regrowth](../08-spell-list.md#false-regrowth), [Portal](../08-spell-list.md#portal)|
+|Sc: Incantation VII|Thr=26||[Least Spike](../08-spell-list.md#least-spike), [Least Ward](../08-spell-list.md#least-ward), [Least Heal](../08-spell-list.md#least-heal), [Promise](../08-spell-list.md#promise), [Melt](../08-spell-list.md#melt), [Summon Spirit](../08-spell-list.md#summon-spirit), [Isolate Essence](../08-spell-list.md#isolate-essence), [Spirit Restoration](../08-spell-list.md#spirit-restoration), [Create Secret Path](../08-spell-list.md#create-secret-path)|
+|Sc: Kinetic III|Thr=26||[Whispers](../08-spell-list.md#whispers), [Silent](../08-spell-list.md#silent), [Lesser Illusory Self](../08-spell-list.md#lesser-illusory-self), [Glide](../08-spell-list.md#glide), [Animate Dead](../08-spell-list.md#animatecontrol-dead)|
+|[Forbidden Spell](../06-abilities.md#forbidden-spell)|Thr=27||[Summon Fiend](../08-spell-list.md#summon-fiend), [Dominate Mortal](../08-spell-list.md#dominate-mortal), [Legion of Dead](../08-spell-list.md#legion-of-dead), [Forced Possession](../08-spell-list.md#forced-possession), [Otherworld Step](../08-spell-list.md#otherworld-step), [Incarnate](../08-spell-list.md#incarnate)|
+|[High Arcana](../06-abilities.md#high-arcana)|Thr=27||[Greater Domain](../08-spell-list.md#greater-domain), [Greater Cosmic Seal](../08-spell-list.md#greater-cosmic-seal), [Earthquake](../08-spell-list.md#earthquake), [Ifrit's Gift](../08-spell-list.md#ifrits-gift)|
+|||||
+|[Safe Cast](../06-abilities.md#safe-cast)||||
+|[War Mage](../06-abilities.md#war-mage)||||
+|[Still Spell](../06-abilities.md#still-spell)||||
+|[Aphonic Spell](../06-abilities.md#aphonic-spell)||||
+|[Swift Spell](../06-abilities.md#swift-spell)||||
+|[Xenophonia](../06-abilities.md#xenophonia-i-xiii)|||Undead, Monsters, Spirits, Fiends|
+|||||
+|||||
+|Vulnerability|||"Div", "light"|
+|Resistant|||"physical" damage except "Pe" and "Pr", "fire", "ice", "profane" damages|
+|Immune|||"necrotic", "poison" damage|
+|Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
+|Senses|||"low-light vision", "life-sense" 60ft|
+|||||
+|Skills|||"Spellworking" +20, "Knowledge: Arcana" +19, "Knowledge: Religion" +19, All other knowledge: +15, "Appraise" +12, "Academics" +12, "Prospect" +12, "Observe" +12, "Sense Motive" +10, All other skills +1 rank.|
+
+A lich is mage who attains a form of immortality in undeath. Since maintaining this form usually requires the consecration of numerous souls the realms of dark gods, these mages are generally malevolently unscrupulous and powerful.
+
+A lich that is not dormant will normally have a well protected and ameliorated lair/base/castle. It will surround itself with undead minions, golems and traps. It will also use various spells to disguise and protect its dwelling.
+
+___
 ### Skeleton, humanoid (levels 1-5)
 
 |Level|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
@@ -144,7 +202,7 @@ ___
 |Bonus|+2|+3|+1|-|+1|-|
 |Save|+3|+5|+2|-|+2|-|
 
-|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
 |1 (1)|3|2|1|1|2|2|
 |3 (1)|6|5|1|1|2|2|
@@ -186,7 +244,7 @@ ___
 |Bonus|+7 |+3 |+5 |0  |+1 |+3 |
 |Save |+11 |+7|+9 |+4 |+5 |+7 |
 
-|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
 |-----------|-------|-------|---|---|---|---|
 |17 (4)     |30     |21     |6  |4  |10 |8  |
 
@@ -236,7 +294,7 @@ ___
 |Save|+6|0|+3|-|0|-|
 
 
-|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
 |1 (1)|3|2|1|1|2|2|
 |3 (1)|6|5|1|1|2|2|
@@ -289,7 +347,7 @@ ___
 |Bonus|+2|+2|+2|0|+1|+2|
 |Save|+5|+3|+3|+4|+5|+3|
 
-|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
 |5(1)|9|8|2|2|3|3|
 
@@ -341,7 +399,7 @@ ___
 |Bonus|+4|+3|+3|+2|+2|+3|
 |Save|+10|+3|+3|+8|+8|+3|
 
-|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
 |11(3)|17|16|3|3|6|6|
 
@@ -407,7 +465,7 @@ ___
 |Bonus|+7|+3|+5|+3|+5|+7|
 |Save|+16|+7|+9|+12|+14|+11|
 
-|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
 |17(4)|27|26|5|5|9|9|
 
@@ -477,7 +535,7 @@ ___
 |Bonus|-|+1|-|0|-1|+2|
 |Save|-|0|-|+1|0|+3|
 
-|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
 |3 (1)|1|10|1|2|2|3|
 
@@ -512,7 +570,7 @@ ___
 |Bonus|-|+3|-|0|+1|+4|
 |Save|-|+6|-|+4|+3|+6|
 
-|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
 |7 (2)|1|22|1|4|3|6|
 
@@ -548,7 +606,7 @@ ___
 |Bonus|-|-1|-|0|+1|+2|
 |Save|-|0|-|+1|+2|+3|
 
-|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
 |3 (1)|1|10|1|2|2|3|
 
@@ -591,7 +649,7 @@ Imps are tiny (+2 evasion, +2 DEX save, -2 STR save)
 |Bonus|-3|+3|0|+2|0|+2|
 |Save|-4|+5|+1|+3|+1|+3|
 
-|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
 |1 (1)|2|3|1|1|2|2|
 
@@ -644,7 +702,7 @@ Here the stat block for vaguely humanoid minor demons of levels 1-5 is presented
 |5|Bonus|+3|0|+2|+1|-1|+1|
 |5|Save|+4|+1|+3|+2|0|+2|
 
-|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
 |1 (1)|2|3|1|1|2|2|
 |3 (1)|4|7|1|2|2|3|
@@ -702,7 +760,7 @@ A shadow Flesh Fiend has a +4 armour bonus from the profane flesh.
 |Bonus| +2| +3| +2|  0| +2| +2|
 |Save | +4| +5| +4| +2| +7| +7|
 
-|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
 |-----------|-------|-------|---|---|---|---|
 |6 (2)      |     13|      8|  3|  2|  5|  4|
 
@@ -750,7 +808,7 @@ ___
 |Bonus|0|+3|+1|+2|0|+5|
 |Save|||||||
 
-|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
 |7 (2)|10|13|2|3|4|5|
 
@@ -796,7 +854,7 @@ Saves: Str, Con
 |Bonus|+6|+2|+3|0|+1|+3|
 |Save|+11|+5|+8|+2|+3|+5|
 
-|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
 |8 (2)|14|12|3|2|5|4|
 
@@ -853,7 +911,7 @@ ___
 |Bonus|+10|+2|+6|+2|+4|+6|
 |Save|+11|+6|+15|+6|+15|+21|
 
-|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
 |20 (4)|25|37|5|7|9|11|
 
@@ -934,7 +992,7 @@ ___
 |Bonus|+6 |+3 |+4 |+2 |+2 |+5 |
 |Save |+9 |+10|+7 |+9 |+9 |+12|
 
-|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
 |-----------|-------|-------|---|---|---|---|
 |12 (3)     |19     |19     |4  |4  |7  |7  |
 
@@ -991,7 +1049,7 @@ ___
 |Bonus|||||||
 |Save|||||||
 
-|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
 ||||||||
 
@@ -1002,25 +1060,3 @@ ___
 |||||
 |||||
 
-
-___
-|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
-|-|-|-|-|-|-|
-||||||
-
-||Str|Dex|Con|Int|Wis|Cha|
-|-|-|-|-|-|-|-|
-|Stat|||||||
-|Bonus|||||||
-|Save|||||||
-
-|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
-|-|-|-|-|-|-|-|
-||||||||
-
-|Ability|Bonus|Damage|Other|
-|-|-|-|-|
-|||||
-|||||
-|||||
-|||||

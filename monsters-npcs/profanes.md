@@ -5,6 +5,7 @@
     - [Corporeal Horror, Lesser](#corporeal-horror-lesser)
     - [Corporeal Horror, Greater](#corporeal-horror-greater)
     - [Skeleton, Humanoid](#skeleton-humanoid-levels-1-5)
+    - [Skeletal Dragon](#skeletal-dragon)
     - [Zombie, Humanoid](#zombie-humanoid-levels-1-5)
   - [Vampires](#vampires)
     - [Vampire Spawn](#vampire-spawn)
@@ -164,6 +165,52 @@ ___
 Skeletons generally obey the will of whoever raised them. Otherwise they take no action unless they notice another mortal, which they will generally attempt to kill. It is thus that skeletons end up spreading from the place that they were raised.
 
 Skeletons are proficient with any tools, weapons and armours they knew in life. They cannot communicate, but can be commanded by way of dark magics.
+
+___
+### Skeletal Dragon
+
+**Size category**: Huge (15ft x 15ft)
+
+- Evade: -2, Armour +2 (+6)
+- Reach: 10ft, 15ft (tail)
+- [DEX save]: -2, [STR save]: +2
+- Carry capacity: (384lb light, 768lb medium, 1920lb heavy, 2880lb drag)
+
+|Level|HiT/Surprised/Touch|SP |MP |HP |Speed (walk)|Speed (other)|
+|-----|-------------------|---|---|---|------------|-------------|
+|17   |23/20/17           |145|93 |25 |40          |-            |
+
+|     |Str|Dex|Con|Int|Wis|Cha|
+|-----|---|---|---|---|---|---|
+|Stat |24 |16 |20 |10 |16 |16 |
+|Bonus|+7 |+3 |+5 |0  |+1 |+3 |
+|Save |+11 |+7|+9 |+4 |+5 |+7 |
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-----------|-------|-------|---|---|---|---|
+|17 (4)     |30     |21     |6  |4  |10 |8  |
+
+|Attacks|Bonus|Damage|Other|
+|-|-|-|-|
+|Claws|+19|2d8+9||
+|Bite|+19|2d12+9|Malevolence: Thr=20 or take 1d4 Profane damage|
+|Tail|+17|2d6+7|Reach 15ft|
+|Throw|+17|2d8+7|(Range=180ft, Increment=60ft) A skeletal dragon can throw objects and entities weighing up to 384lb as a projectile|
+|Manoeuvres|+16||(Grapple, Restrain, Throw, Sunder)|
+|Monster Attack|||The skeletal dragons make 3 attacks: 1 bite, 1 claws, 1 tail (must be a different target)|
+|Broad strike|||(1 SP die) useable only with tail attack|
+|Combined Manoeuvre I|||(1 SP die) usable only with claw attack (except grapple)|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Vulnerability|||"Div", "light"|
+|Resistant|||"physical" damage except "Pe" and "Pr"|
+|Immune|||"fire" or "ice"|
+|Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
+|Senses|||"low-light vision", "tremor-sense" 60ft, "life-sense" 60ft|
+
+
+Sometimes the skeletons of dragons are brought back to life. Unlike most entities that leave a skeleton behind, a dragon's skeleton retains some of the will and memories it had in life. It seldom retains its flight or any benevolence it may have had.
 
 ___
 ### Zombie, humanoid (levels 1-5)

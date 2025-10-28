@@ -1723,9 +1723,9 @@ ___
 - The type of undead being animated depends on the condition of the corpse(s). A corpse with flesh will become a zombie, a corpse without flesh will become a skeleton. A corpse with flesh but no bones becomes a crawling thing..
 - The undead animates at the start of the caster's *next* turn.
 
-**Upcast**: For every MP dice added above 3 (2MP dice above 6 for global), the caster may either animate an extra corpse as a level I undead, assert control over an extra 6 levels of undead, or increase the level of the created or controlled undead by I.
+**Upcast**: For every MP dice added above 3 (2MP dice above 6 for global), the caster may either animate an extra corpse as a level III undead, assert control over an extra 6 levels of undead, or increase the level of the created undead by 2, or of the controlled undead by 4.
 
-**Global**: The undead are under the caster's control for 1 week, after which time they have a "neutral" attitude towards it. For every 2MP dice above 6, the caster may create an extra level III undead, assert control over 6 levels of undead, or increase the level of a created or controlled undead by 1.
+**Global**: The undead are under the caster's control for 1 week, after which time they have a "neutral" attitude towards it. For every 2MP dice above 6, the caster may create an extra level III undead, assert control over 6 levels of undead, or increase the level of a created undead by 2 or controlled undead by 4.
 
 (Summon spell rating is controversial)
 
@@ -2547,7 +2547,7 @@ ___
 - It is difficult terrain for all hostile entities.+2(11)
 - At the start of their turn, all hostile entities must make a DEX save or take 1d12+[Sup] percussive damage and become "grappled".
 - All friendly entities have a +10 to movement speed and light cover.+4(15)
-- Furthermore, as an action, the caster the caster can move or sculpt 10ftx10ftx10ft of earth of stone as if using the ["Shape Earth"](#shape-earth) spell, expect the spell can affect ground and natural rock all through the affected zone.+3(18)
+- Furthermore, as an action, the caster can move or sculpt 10ftx10ftx10ft of earth of stone as if using the ["Shape Earth"](#shape-earth) spell, expect the spell can affect ground and natural rock all through the affected zone.+3(18)
 
 **Special**: The spell does not affect entities that are at least 5ft above the ground.
 

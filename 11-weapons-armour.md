@@ -160,6 +160,7 @@ ___
 ### Improvised Weapons
 
 Items that are not designed to be used as weapons can also be used for this purpose, although they are generally les effective. A character using an improvised weapon makes attack rolls as if it is not proficient (-5 penalty). The size of an improvised weapon affects how much damage it does, and its form affects the damage. For example a character wielding a vase might do percussive damage, while one wielding a fork might do [a small amount of] piercing damage.
+
 |Category|Guideline Weight|Damage|
 |-|-|-|
 |Light|1lb|1|
@@ -253,8 +254,8 @@ Damage Key:
 |Blunderbuss|Firearm|2d12|P|2|Dex|-|120|40|6|6
 |Gun-blade|Firearm|1d8|P/S|1|Dex|5|120|20|2|4
 |||||||||||
-|Ballista (bolt)|Mechanical Bow|4d12|P|2|Dex|-|1800|300|20|400
-|Ballista (bullet)|Mechanical Bow|4d12|B|2|Dex|-|900|120|20|400
+|Ballista (bolt)|Mechanical Bow|4d12|P|2|Dex|-|1800|300|400|20
+|Ballista (bullet)|Mechanical Bow|4d12|B|2|Dex|-|900|120|400|20
 
 ___
 ### Unarmed Combat

@@ -52,16 +52,21 @@
   },
   columns: 2,
 )
+#set columns(gutter: 6%)
 #set par(
   justify: true,
-  leading: 0.72em,
-  spacing: 1.4em,
+  leading: 0.69em,
+  spacing: 1.6em,
+  justification-limits: (spacing: (min: 66% + 0pt, max: 124% + 0pt)),
+  linebreaks: "optimized",
 )
 #set text(
   font: "New Computer Modern",
-  tracking: 0.1pt,
-  spacing: 120%,
-  size: 11pt,
+  // tracking: -0.1pt,
+  spacing: 115%,
+  size: 10.6pt,
+  overhang: true,
+  fractions: true,
 )
 #set table(
   stroke: (x, y) => {
@@ -76,9 +81,25 @@
 #show table.cell.where(y: 0): strong
 
 #show figure: set block(breakable: true)
-#show figure: it => align(left)[
-  #it.body
-]
+// #show figure: it => align(left)[
+//   #it.body
+// ]
+#show figure.where(kind: table): it => context {
+  let colw = measure(layout(width => width)).width
+  let colh = colw * 2.9 // This is a hack.
+  let tab = measure(it.body)
+  if colw < tab.width and colh < tab.height {
+    context [
+      #set page(columns: 1)
+      #align(left)[#it.body]
+    ]
+  } else if colw < tab.width {
+    place(auto, float: true, scope: "parent")[#align(left)[#it.body]]
+  } else {
+    align(center)[#it.body]
+  }
+}
+
 
 #show link: content => {
   underline(text(blue, content))
@@ -87,8 +108,10 @@
 #place(top + center, float: true, scope: "parent")[= FanSys 23]
 #place(top + center, float: true, scope: "parent")[== A New System for Fantasy Worlds]
 
-#pagebreak()
+
+#set page(columns: 1)
 #outline(target: heading.where(level: 1))
+#set page(columns: 2)
 
 #include "build/01-quick-start.typ"
 #pagebreak()

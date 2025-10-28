@@ -182,7 +182,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Pi limb|+6|1d4+3|Pi, Sh|
+|Piercing limb|+6|1d4+3|Pi, Sh|
 |Bite|+6|1d6+3 + 1d10 acid|Pi, Sh (can only be used against a target it is grappling)|
 |Grapple|+6||Can only grapple when not biting|
 |abilities|||"Combined Manoeuvre"|
@@ -639,9 +639,9 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Pi Limb|+19|3d12+8|Pi, Sh|
+|Piercing Limb|+19|3d12+8|Pi, Sh|
 |Noxious aura|Thr=22 Con|2d8 Poi[nat]|"main action", 2SP. Every round the aura is active it increases in radius by 20 feet beyond the mudwalker's space to a maximum of 60ft. The poison hangs in the air for 10 minutes in the area where it was active. [Severe](../03-movement-exploration.md#travel-and-getting-lost), or worse, blows away the aura upwind fom the mudwalker.|
-|"Monster Attack III"|||Makes 4 "Pi Limb" attacks per round, it its target is of "medium" size or smaller, it can only be targetted by a single attack. If it is "large" it can only be targetted by two attacks.|
+|"Monster Attack III"|||Makes 4 "Piercing Limb" attacks per round, it its target is of "medium" size or smaller, it can only be targetted by a single attack. If it is "large" it can only be targetted by two attacks.|
 |Resistant|||"charm", "catatonic", "stun", "Pi"|
 |Senses|||"Tremor Sense IV" 60ft, "Blind sight" 5ft (otherwise blind)|
 |Skills|||+4 Climb, +7 Stealth, +4|

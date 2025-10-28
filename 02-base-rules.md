@@ -327,6 +327,7 @@ ___
 ### Stats
 
 A character has six **base attributes**. Each one represents how "strong" some aspect of the character is. In general the higher the value, the stronger that aspect of the character.
+
 1. **Str**: Physical strength. Upstream of most weapon attack, damage. Upstream of abilities linked to affecting the surroundings by physical force. 
     - An entity with zero Str cannot physically affect the outside world, or move itself.
     - An entity without a material form has no Str.
@@ -470,7 +471,7 @@ This is the "natural" (Nat) and "supernatural" (Sup) component of many bonuses. 
 ___
 ### NAP and SAP, NAT and SAT: Attack of the three letter words II
 
-Attack Potentials and Attack Thresholds are used to determine the potencyPerhaps, or more accurately, the success rate of a character's offensive abilities. They are bonus added to all targeted attack rolls a character makes. NAP is used for natural attacks, SAP is used for supernatural attacks.
+Attack Potentials and Attack Thresholds are used to determine the potency, or more accurately, the success rate of a character's offensive abilities. They are bonus added to all targeted attack rolls a character makes. NAP is used for natural attacks, SAP is used for supernatural attacks.
 
 **Natural Attack Potential** (NAP) is the bonus used for all of a character's "natural" attacks.
 
@@ -812,4 +813,4 @@ NB: There can never be multiple of dice sizes smaller than D6 rolled for weapon 
 ___
 ## Version
 
-0.0.17
+0.0.18

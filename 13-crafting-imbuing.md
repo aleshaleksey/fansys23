@@ -1,4 +1,5 @@
 # Crafting and Imbuing
+
 - [Crafting](#crafting)
   - [The Crafting Process](#the-crafting-process)
   - [Skills Used](#skills-used)
@@ -40,6 +41,7 @@ ___
 ## Crafting
 
 ### The Crafting Process
+
 1. Decide what you want craft.
 2. Work out what the material, equipment, skill and time requirements are.
 2. Acquire the materials and equipment for it.
@@ -49,6 +51,7 @@ ___
 
 ___
 ### Skills Used
+
 Depending on what is being created different skills are used. Sometimes multiple skills are needed. For example, building a castle may require masonry and carpentry for the structure, engineering for the design, tinkering for traps and so on. Thus common sense should be applied. In cases where multiple skills are needed, each skill roll must succeed for the crafting to succeed. A roll is not necessarily required. For example, it can be assumed that a hundred workers will eventually build a castle, and the poor rolls of some will merely cancel out the brilliant rolls of others.
 
 As usual, other skills in the same skill group can substitute the main skill with a penalty. However, tool proficiencies cannot be eschewed for crafting.
@@ -79,6 +82,7 @@ If multiple skills or tool proficiencies are required, they can be supplied by d
 
 ___
 ### The Crafting Roll and Thresholds
+
 A crafting roll, with the appropriate skill is made when half the time needed has been spent. The roll should be made in secret by the DM, but this is not always necessary.
 
 The base Threshold is:  **12 + 4 x [Material level]**
@@ -92,6 +96,7 @@ Beating the threshold by 6 or more creates an item which has +1 to durability fo
 The rules for crafting complex devices are similar, to those here, but the thresholds are defined in the ["Skills:Tinker" section](05-skills.md#tinker).
 
 #### Special
+
 - A D12 when making an item causes it to be inhabited by a minor spirit, giving it a random level one enchantment.
 - Snake eyes on making items means the tools take 1 point of damage.
 - Snake eyes on making an alchemical produce, causes it to explode (Dex save, Threshold=16) in a 10 ft radius causing 1d8 of fire damage for every "material level" of the ingredients.
@@ -100,6 +105,7 @@ The rules for crafting complex devices are similar, to those here, but the thres
 ___
 ### Crafting, equipment, environment and other modifiers
 A character generally requires a suitable workspace and equipment. Particularly good or poor working conditions and environment affect the outcome. Likewise, a character can do a rush job, or take it slow, as needed. The following table summarises the modifiers that this brings. Modifiers from different categories stack, thus you can do a rush job in a poor workspace, under poor conditions for a -16 to the roll. Ouch:
+
 |Factor|Effect|Example|
 |-|-|-|
 |Poor Workspace|-6|Alchemy in the middle of a forest|
@@ -119,6 +125,7 @@ A character generally requires a suitable workspace and equipment. Particularly 
 
 ___
 ### Crafting Time
+
 For simplicity, the crafting time of an item in days (10 hour working day) is equal to: **[Material coefficient] x [Base price (in sp)] / 20**
 
 Alternatively, it can be measured in hours: **[Material coefficient] x [Base price (in sp)] / 2**
@@ -131,6 +138,7 @@ This is an approximation which assumes that most of the cost of any item is the 
 
 ___
 ### Crafting Costs
+
 Crafting items for a character is generally cheaper than purchasing ready made items, as it means one can eliminate labour cost completely, however, if the tools are particularly expensive and must be procured, it an also be more expensive. Likewise, the crafting time, is a major immaterial cost.
 
 This leaves the main variable crafting cost, the material used to make the item, and the material expended in the crafting. For example when smithing a sword, not only does one use the iron for the blade, leather and other materials for the grip, but also, for example, the coal used in the forge.
@@ -148,6 +156,7 @@ It should be noted that the costs are not set in stone. For example, the table o
 
 ___
 ### Material Coefficients (quality mods) for items
+
 The cost of a material generally depends on the ["material level"](12-equipment-economy.md#material-level). This is not set in stone, but the recommended costs for non precious materials are:
 
 |Material level|Cost per lb|Included Quality mod|Material Coefficient|Examples|
@@ -169,10 +178,12 @@ Lastly, groups should remember that acquiring high quality and rare materials is
 
 ___
 ### Crafting for Enchantment
+
 All items can be enchanted, but only specially prepared and crafted items will hold their magic permanently. This may involve engraving special ritual circles, or symbols on parts of the item, or performing length rituals to cleanse and purify, or perhaps despoil the material. Regardless, this increases the crafting time by a factor of x1.5, with a minimum of 1 day.
 
 ___
 ### Eschewing Reality
+
 In reality, some seemingly simple items, like bows took a very long time to make, since drying and processing the wood, and other materials when talking about composite bows, took months. Understandably, we eschew these requirements for most crafting processes in the game, assuming that "processed" materials that do not require these very long maturation processes are available. However, if a more gritty style fits the group, then this is something to consider. 
 
 ___
@@ -186,6 +197,7 @@ They are not interchangeable.
 
 ___
 ### Types of Enchantments
+
 - **Single Charge**: The power activates once and then dissipates for good. Imbued scrolls are a good example of this.
 - **Recharge**: A power or effect can be used once, or a few times, after which the magic becomes dormant until either sufficient time has passed, or some other condition has been met.
 - **Constant**: The magical effect or power is exhibited constantly and does not reduce with time.
@@ -195,6 +207,7 @@ Unless an item is made to be of enchantment quality, the magic will eventually l
 
 ___
 ### The Process of Enchanting
+
 1. Decide what item you wish to enchant/imbue, and the magic you wish to place within it.
 2. Gather the requisite materials, find a suitable place, find assistants (optional).
 3. Find a character with the ability/spell to be enchanted/imbued into the item.
@@ -213,13 +226,16 @@ It is possible to ["take care"](02-base-rules.md#taking-24-taking-13-auto-failur
 
 ___
 ### Types of Enchanted and Imbued Items
+
 The magic in items can be:
+
 - Single use (or useable N times). Not rechargeable.
 - Rechargeable (useable N times and then needs to be recharged).
 - Constant (always on).
 - At will (useable an unlimited amount of times, usually without a "cool-down").
 
 Furthermore the magic in items can be triggered by:
+
 - A successful attack, save or skill roll.
 - Triggered by words or gestures (incantation or kinetic components).
 - Triggered by thoughts.
@@ -335,6 +351,7 @@ In this case, the item produced cannot be rechargeable, "constant" or "at will".
 
 ___
 ### Threshold Table
+
 |Modifying Circumstance|Group|Modifier|extra|Note|
 |-|-|-|-|-|
 |Extra charge on single use/recharge item|Up to lvl 2|+1|Max of 7 (+6)|

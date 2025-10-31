@@ -40,21 +40,22 @@ Of course play will be "clunky" if there isn't at least one person at the table 
 - [Spirit Stat Blocks](monsters-npcs/spirits.md)
 - [Divine Stat Blocks](monsters-npcs/divines.md)
 - [Profane Stat Blocks](monsters-npcs/profanes.md)
-- Crafting
+- [Crafting](13-crafting-imbuing.md)
+- [Poisons and Diseases](14-poisons-and-diseases.md)
+- [A Note on Charm](15-charm-etc.md)
+- [Character Recipes](16-recipes.md)
 
 ## Version
 
 The version currently stands at:
 
-**v0.0.17**
+**v0.0.18**
 
-This is the 17th draft. It is is mostly workable, but needs more testing, more monsters, and a better layout for clarity.
+This is the 18th draft. It is is mostly workable, but needs more testing, more monsters, and a better layout for clarity.
 
 ## TODO
 
-- Expand ability list (a little bit - mainly out of combat abilities).
-- Expand spell list (a little bit).
+- Test the abilities and spells more thoroughly.
 - Add magic items to equipment list.
-- Improve rules for crafting.
 - More monster/NPC stat blocks.
 - Playtesting and analysis of balance.

@@ -1,15 +1,25 @@
 # Abilities and Boons
 
-1. [Prerequisites](#prerequisites)
-2. [Max dice per level](#max-dice-per-level)
-3. [Rating](#rating)
-4. [Abilities](#abilities)
-5. [Ability List](#ability-list)
+1. [Ability Basics](#ability-basics)
+  - [Prerequisites](#prerequisites)
+  - [Max dice per level](#max-dice-per-level)
+  - [Rating](#rating)
+  - [Recursive Abilities](#recursive-abilities)
+  - [Declaration](#declaration)
+5. [Ability Lists](#ability-lists)
+  - [Natural Abilities](#natural-abilities)
+  - [Supernatural Abilities](#supernatural-abilities)
+  - [Natural Boons](#natural-boons)
+  - [Supernatural Boons](#supernatural-boons)
+  - [Spellcasting and Related](#spellcasting-and-related)
 6. [Active Abilities (Natural)](#active-abilities-natural)
 7. [Active Abilities (Supernatural)](#active-abilities-supernatural)
 8. [Boons (Natural)](#boons-natural)
 9. [Boons (Supernatural)](#boons-supernatural)
 10. [Spellcasting](#spellcasting)
+
+___
+## Ability Basics
 
 **Abilities** are special actions that a character can take outside of the core actions available to all characters (covered in "Combat", "Movement and Exploration", and "Skills"). Abilities are often more potent than the core actions, but these also come at a cost of consuming SP dice and MP dice, so use them with care. Importantly, magic is covered at the end of this chapter.
 
@@ -19,27 +29,35 @@ The line between "boons" and "abilities" is a fine one, but in general "abilitie
 
 Each category is split up into "combat", "exploration" or "general". The categories are not perfect but they cover most bases relatively well.
 
-## Prerequisites
+___
+### Prerequisites
 
 Some abilities and boons have prerequisites. These are there to balance the game, but also to make sense: How does one learn an advanced ability when one does not know the basics? A character that loses a prerequisite for an ability or boon cannot use the ability or boon until that prerequisite is restored.
 
 The most common prerequisites are a minimum [Base], a minimum level, or a minimum total of SP or MP dice.
 
-## Max dice per level
+___
+### Max dice per level
 
 For combat and general abilities the number of dice used per single ability is equal to half the character's level rounded up. For global magic there is no limit.
 
-## Rating
+___
+### Rating
 
 All abilities and boons are rated "C" through "S" class. "C" is considered 'weakest', while 'S' is considered strongest (although this does not necessarily determine general usefulness). This is used mostly for the creation of templates, but also as a guideline for determining prerequisites.
 
-## Abilities
+___
+### Recursive Abilities
 
+If an ability or boon somehow grants the character that possesses it more uses, or additional forms of the same ability, then these additional forms or uses are not gained. Usually this a supernatural ability like [Alternate Form](#alternate-form-i-iv) or [Spellcasting](#spellcasting). Thus if a spell gives you more 
+
+___
 ### Declaration
 
 Unless otherwise stated an ability must be declared and any cost paid upfront before any rolls are made.
 
-## Ability List
+___
+## Ability Lists
 
 ### Natural Abilities
 
@@ -184,7 +202,7 @@ Unless otherwise stated an ability must be declared and any cost paid upfront be
 - [War Mage](#war-mage)
 
 ___
-### Active Abilities (Natural)
+## Active Abilities (Natural)
 
 This list contains the active abilities which are not supernatural, though some may appear so to the untrained eye. In order to use these abilities the player (or DM) must make a declaration, and usually use some kind of action.
 
@@ -630,6 +648,7 @@ ___
 - If the difference in CON between the two forms would increase, or decrease, the SP maximum, SP changes by the difference. For example if a character has +2 [CON], but its alternate form has +3 [CON] and the character has 6 SP dice and a level of 3, its main form would have 18 SP, and its alternate form would have 21 SP. Thus if a character fights in its alternate form and is reduced to 9/21 SP, when it returns to the main form, it would have 6/18 SP. If it has 2/21 SP it will return to 0/18 and take 1 HP damage.
 - Switching between forms does not use SP or MP dice. However, when a character has 0 MP or 0 MP dice, it cannot switch between forms.
 - Switching between forms does not in any way affect equipment or items carried by the character. Equipment that is incompatible with the character's may be shed or damaged.
+- If the entity that is chosen as the alternate form *itself* has the "Alternate Form" ability, then this ability is not inherited.
 
 This ability is potentially broken and should only be included in a game by consensus within the group.
 
@@ -2146,7 +2165,9 @@ ___
 ||||
 |Angel|12|Xenophonia III|Supernatural|
 
-**Special**
+**Limitations**: A character can never gain xenophonia of their own original entity subtype. Thus a humanoid, or a humanoid that has become undead, can never gain "xenophonia: humanoid". Likewise, a spirit, even if it posses a mortal, would never be able to gain "xenophonia: spirits".
+
+**Special**:
 
 - Even if you can communicate through xenophonia with beings of other types using signals that they understand, the content of your communication may still be incomprehensible to them due to alien minds, incompatible conceptual frameworks or limited intellectual capacity. For example, the concept of death may be alien to certain spirits, while a plant may not have the ability to count, while a hedgehog might not know what a steam train is.
 - Characters with "xenophonia" can never use the ability to understand "glitches" and "divines".

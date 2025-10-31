@@ -428,6 +428,7 @@ An squares occupied by a hostile entity are known as **hostile squares**. In com
 - A successful athletics roll vs the STR threshold of the hostile entity. On success the hostile entity is also moved one square in a direction of your choice, as long as it is not the square you have come from.
   - The attempt is at disadvantage if you have not moved at least 10ft during your current turn.
   - There is a +1 bonus for every 10ft above 30ft that your character has moved in a straight line during your turn.
+  - This follows the size dependence rules of [basic martial manoeuvres](#basic-martial-manoeuvres).
 - A successful "feint", "grapple" or "shove" [manoeuvre](#basic-martial-manoeuvres) as a bonus action.
 
 Upon failure the character cannot progress through the occupied area. Whether it succeeds or fails, the character making such an attempt is subject to attacks of opportunity.

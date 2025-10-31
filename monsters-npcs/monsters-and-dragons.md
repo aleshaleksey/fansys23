@@ -1242,7 +1242,7 @@ ___
 |Elemental Blast|+11|4d6 + 2d6/dice|Fire|
 |Elemental Blast|Thr=20|4d6 + 2d6/MP dice|Fire (Linear)|
 
-- A dragon's elemental blast counts as natural damage.
+- A dragon's elemental blast (dragon breath) counts as natural damage.
 - A dragon's elemental blast deals 2d6 damage for every extra MP/SP die added and has a base damage of 4d6. The attack/threshold is constitution based (breath weapon).
 - A dragon may use MP or SP dice (up to 10) to fuel its elemental blast.
 
@@ -1329,7 +1329,7 @@ ___
 |Elemental Blast|+10|4d6 + 2d6/dice|Fire|
 |Elemental Blast|Thr=20|4d6 + 2d6/MP dice|Fire (Linear)|
 
-- A lesser dragon's elemental blast counts as natural damage.
+- A lesser dragon's elemental blast (dragon breath) counts as natural damage.
 - A lesser dragon's elemental blast deals 2d6 damage for every extra MP/SP die added and has a base damage of 3d6. The attack/threshold is constitution based (breath weapon).
 - A dragon may use MP or SP dice (up to 10) to fuel its elemental blast.
 
@@ -1405,7 +1405,7 @@ ___
 |Elemental Blast|+12|4d6 + 2d6/dice|Ice|
 |Elemental Blast|Thr=21|4d6 + 2d6/MP dice|Ice (Linear)|
 
-- A dragon's elemental blast counts as natural damage.
+- A dragon's elemental blast (dragon breath) counts as natural damage.
 - A dragon's elemental blast deals 2d6 damage for every extra MP/SP die added and has a base damage of 4d6. The attack/threshold is constitution based (breath weapon).
 - A dragon may use MP or SP dice (up to 10) to fuel its elemental blast.
 
@@ -1483,7 +1483,7 @@ ___
 |Elemental Blast|+10|3d6 + 2d6/dice|Ice|
 |Elemental Blast|Thr=20|3d6 + 2d6/MP dice|Ice (Linear)|
 
-- A lesser dragon's elemental blast counts as natural damage.
+- A lesser dragon's elemental blast (dragon breath) counts as natural damage.
 - A lesser dragon's elemental blast deals 2d6 damage for every extra MP/SP die added and has a base damage of 3d6. The attack/threshold is constitution based (breath weapon).
 - A lesser dragon may use MP or SP dice (up to 7) to fuel its elemental blast.
 

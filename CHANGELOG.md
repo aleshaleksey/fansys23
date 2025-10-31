@@ -515,6 +515,7 @@ ___
 - Wording of [Life Sense](06-abilities.md#life-sense-i-vi) and [Tremor Sense](06-abilities.md#tremor-sense-i-vi).
 - Split [blink](06-abilities.md#blink-i) into Blink I and Blink II.
 - Rearrange ability list.
+- Prevent recursive dragons (modify [Alternate Form](06-abilities.md#alternate-form-i-iv)).
 
 ### Monsters and NPCs
 - Reduce the STR of some [golems](monsters-npcs/constructs.md) a little bit.

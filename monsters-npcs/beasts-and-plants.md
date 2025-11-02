@@ -1677,7 +1677,7 @@ Size = Large
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Charm Pollen|Thr=19 vs WIS|Charmed|(main action) 60ft Cone, 45 degree angle, 1 minute|
-|Noxious Spores|Thr=19 vs CON||(main action) 15ft Cone, 90 degree angle. A mortal "hit" by the Tuber's spores must succeed a CON save or become incapacitated at the start of its turn. At the start of its next turn it must succeed a second CON save. If it succeeds this save it takes 2d6 fanerotic[NAT] damage and is cured of the effect. Otherwise it falls unconscious 1 hour (no repeated save)|
+|Noxious Spores|Thr=19 vs CON||(main action) 15ft Cone, 90 degree angle. A mortal "hit" by the Tuber's spores must succeed a CON save or become incapacitated at the start of its turn. At the start of its next turn it must succeed a second CON save. If it succeeds this save it takes 2d6 necrotic[NAT] damage and is cured of the effect. Otherwise it falls unconscious 1 hour (no repeated save)|
 |Absorb|Thr=19 CON|2d6+4 Nec[NAT]|An entity at least half engulfed by the tuber must make a CON save at the start of its turn or take damage. On success it takes half. A target unconscious due to the noxious spores can then wake up if it succeeds on a save vs the spores.|
 |Engulf|||(main action) An orc eating tuber can enter the space of an unconscious mortal of a size no larger than "medium" and begin engulfing it. It engulfs the volume of a small entity per main action. This means that it takes 8 rounds to engulf a medium sized entity. An entity at least half engulfed by the tuber is considered ["immobilised"](../10-conditions-types.md#conditions-in-detail).|
 |||||

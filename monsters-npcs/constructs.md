@@ -134,7 +134,7 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Strike|+8|1d8+5|Pe|
-|Rock Throw|+8|1d10+5|40ft/120ft, a golem can throw an object (or objects) weighing up to 126lb as projectiles. If the projectile is of a weaker material (or a mortal), than the target, the damage is shared evenly between projectile and target.|
+|Rock Throw|+8|1d10+5|40ft/120ft, a golem can throw an object (or objects) weighing up to 126lb as projectiles. If the projectile is of a weaker material (or a mortal) than the target, the damage is shared evenly between projectile and target.|
 |Grapple|+8|||
 |Throw|+8|||
 |Interception|+8|||
@@ -186,7 +186,7 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Strike|+11|2d8+6|Pe|
-|Rock Throw|+11|1d12+6|60ft/180ft, a golem can throw an object (or objects) weighing up to 272lb as projectiles. If the projectile is of a weaker material (or a mortal), than the target, the damage is shared evenly between projectile and target.|
+|Rock Throw|+11|1d12+6|60ft/180ft, a golem can throw an object (or objects) weighing up to 272lb as projectiles. If the projectile is of a weaker material (or a mortal) than the target, the damage is shared evenly between projectile and target.|
 |Grapple|+11|||
 |Throw|+11|||
 |Interception|+11|||
@@ -241,7 +241,7 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Strike|+14|2d8+7|Pe|
-|Rock Throw|+14|1d12+7|80ft/240ft, a golem can throw an object (or objects) weighing up to 300lb as projectiles. If the projectile is of a weaker material (or a mortal), than the target, the damage is shared evenly between projectile and target.|
+|Rock Throw|+14|1d12+7|80ft/240ft, a golem can throw an object (or objects) weighing up to 300lb as projectiles. If the projectile is of a weaker material (or a mortal) than the target, the damage is shared evenly between projectile and target.|
 |Grapple|+14|||
 |Throw|+14|||
 |Interception|+14|||
@@ -302,13 +302,13 @@ ___
 |||||
 |Grapple|+13|||
 |Interception|+15|||
-|Monstert Attack II|||A jade golem makes two attacks with its claws and two with its claws as part of an attack action.|
+|Monstert Attack II|||A jade golem makes two attacks with its claws and one with its bite as part of an attack action.|
 |Combined Manoeuvre I|||A jade golem can combine any two manoeuvres it is proficient with by expending 1 SP dice.|
 |[Mighty I](../06-abilities.md#mighty-i)|||A jade golem can lift and carry more than it seems.|
 |||||
 |Senses|||Sight, "low-light vision", "blind-sight" 30ft|
 |Limited Telepathy|||A stone golem can implicitly understand its master within 1 mile.|
-|[Arcane Interception](../06-abilities.md#arcane-interception)|||A Jade golem can intercept arcane|
+|[Arcane Interception](../06-abilities.md#arcane-interception)|||A Jade golem can use interception for non targetted attacks.|
 |[Deflection](../06-abilities.md#deflection)|||A Jade golem can reduce damage from supernatural attacks aimed at it|
 |Proficiencies|||2 languages|
 |Skills|||"Athletics" +13, "Climb" +9, "Observe" +7, "Prospect" +5, Knowledge (any 2) +5|
@@ -355,12 +355,12 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Strike|+14|2d12+7|Pe|
-|Rock Throw|+14|2d8+7|80ft/240ft, a golem can throw an object (or objects) weighing up to 416lb as projectiles. If the projectile is of a weaker material (or a mortal), than the target, the damage is shared evenly between projectile and target.|
+|Rock Throw|+14|2d8+7|80ft/240ft, a golem can throw an object (or objects) weighing up to 416lb as projectiles. If the projectile is of a weaker material (or a mortal) than the target, the damage is shared evenly between projectile and target.|
 |[Greater Elemental Blast (Linear): Lighting](../06-abilities.md#line)|+9|3d4+1d4/MP dice|(Range=120ft+30ft/MP sice) Mithril golems may use up to 7 MP dice when firing an elemental blast. The width of the beam may be up to 35ft.|
 |Grapple|+14|||
 |Throw|+14|||
 |Interception|+14|||
-|Multiattack I|||A mithril golem attacks twice,|
+|Multiattack I|||A mithril golem attacks twice.|
 |Combined Manoeuvre II|||A mithril golem can combine any two or three manoeuvres it is proficient with by expending 1 or 2 SP dice respectively.|
 |Flurry|||A mithril golem can make a *single* combat manoeuvre as a secondary action if it used its main action to attack.|
 |Greater Manoeuvre I|||A mithril golem can apply manoeuvres to targets up the size of "colossal"|
@@ -411,7 +411,7 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Strike|+17|2d8+8|Pe|
-|Rock Throw|+17|1d12+8|40ft/120ft, a golem can throw an object (or objects) weighing up to 104lb as projectiles. If the projectile is of a weaker material (or a mortal), than the target, the damage is shared evenly between projectile and target.|
+|Rock Throw|+17|1d12+8|40ft/120ft, a golem can throw an object (or objects) weighing up to 104lb as projectiles. If the projectile is of a weaker material (or a mortal) than the target, the damage is shared evenly between projectile and target.|
 |[Greater Elemental Blast (Radial): Light](../06-abilities.md#circle)|+9|3d4+1d4/MP dice|(Range=120ft+30ft/MP sice) Diamond golems may use up to 8 MP dice when firing an elemental blast. The radius of the beam may be up to 80ft.|
 |Grapple|+15|||
 |Throw|+15|||
@@ -420,7 +420,7 @@ ___
 |Combined Manoeuvre II|||A diamond golem can combine any two or three manoeuvres it is proficient with by expending 1 or 2 SP dice respectively.|
 |Flurry|||A diamond golem can make a *single* combat manoeuvre as a secondary action if it used its main action to attack.|
 |Greater Manoeuvre II|||A diamond golem can apply manoeuvres to targets up the size of "colossal"|
-|[Arcane Interception](../06-abilities.md#arcane-interception)|||A diamond golem can intercept arcane|
+|[Arcane Interception](../06-abilities.md#arcane-interception)|||A diamond golem can use interception for non targetted attacks.|
 |[Deflection](../06-abilities.md#deflection)|||A diamond golem can reduce damage from supernatural attacks aimed at it|
 |[Esoteric Deflection](../06-abilities.md#esoteric-deflection)|||A diamond golem can reduce damage from esoteric attacks aimed at it|
 |||||

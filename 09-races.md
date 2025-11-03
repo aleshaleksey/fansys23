@@ -425,7 +425,7 @@ This represents a low-grade vampire. Its type is undead, but due to lack of poin
 - Cannot enter home uninvited.
 - Cannot cross running water willingly.
 - Vulnerability to "divine" and "light" damage.
-- Anathema Sunlight: Takes 1 HP damage (light) if exposed to _direct_ sunlight.
+- Anathema Sunlight: Takes 1 HP damage (light) per turn if exposed to _direct_ sunlight.
 - Creature of the Night: Disadvantage to to attack rolls, saves and WIS based rolls when outdoors in daylight.
 
 **Extra (24)**
@@ -456,7 +456,7 @@ This represents a cursed being: A humanoid that is cursed to become a wolf when 
 
 **Extra (18)**
 
-- Resistant to "percussive", "piercing", "slashing", "sheer" and "pressure". (10)
+- Resistant to "percussive", "piercing", "slashing", "shear" and "pressure". (10)
 - Resistant to "cold" and "immobilised" (4).
 - Resistant to "prone", "bleeding", "crippled", "incapacitated" and "frightened".
 - Resistant to "poison", "disease". (4)
@@ -522,7 +522,7 @@ This represents a low-grade vampire. Its type is undead, but due to lack of poin
 
 **Extra (54)**
 
-- Resistant to "percussive", "piercing", "slashing", "sheer" and "pressure". (10)
+- Resistant to "percussive", "piercing", "slashing", "shear" and "pressure". (10)
 - Resistant to "prone", "bleeding", "crippled", "incapacitated" and "frightened".
 - Resistant to "cold" and "immobilised" (4).
 - Resistant to "poison", "necrotic". (2)
@@ -555,7 +555,7 @@ This represents a cursed being: A humanoid that is cursed to become a wolf when 
 - +4 to "athletics". (4)
 - "Tracker: Swift". (2)
 - "Terrain Mastery: Forest". (2)
-- Immunity to "percussive", "piercing", "slashing", "sheer" and "pressure". (20)
+- Immunity to "percussive", "piercing", "slashing", "shear" and "pressure". (20)
 - Resistant to "prone", "bleeding", "crippled", "incapacitated" and "frightened".
 - Immune to "poison", "disease". (4)
 - Alternate form: Wolf. (4)

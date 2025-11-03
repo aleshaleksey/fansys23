@@ -1772,13 +1772,13 @@ ___
 
 **Description**: The caster wards the targets against blade and claw. The target gains:
 
-- Resistance to: "slashing", "piercing", "sheer" damage.
+- Resistance to: "slashing", "piercing", "shear" damage.
 - Resistance to "cripple".
 - Immunity to: "bleed".
 
 **Upcast**: For every MP die above 3, the duration increases by 1 hour.
 
-- If at least 7 MP dice are used, the target gains immunity to "slashing", "piercing" and "sheer" damage from materials of material level of 3 and lower.
+- If at least 7 MP dice are used, the target gains immunity to "slashing", "piercing" and "shear" damage from materials of material level of 3 and lower.
 
 **Global**: The spell lasts for 1 day, with an extra day of duration for every 2 MP dice above 6.
 
@@ -3449,7 +3449,7 @@ ___
 
 **Description**: The caster wards the target, granting it the toughness of stone. The target gains:
 
-- Immunity to: "slashing", "sheer", "piercing" and "percussive" damage.
+- Immunity to: "slashing", "shear", "piercing" and "percussive" damage.
 - Resistance to: "pressure" and "poison" damage.
 - Immunity to: "bleed" and "cripple".
 - Resistance to: "poisoned".
@@ -3711,7 +3711,7 @@ ___
 |Duration|12 minutes/1 minute (1 month)|+12(28)
 |Components|incantation, kinetic|-1(27)
 |Concentration|local|-3(24)
-|Damage|3d12+ [Nat] Sheer|+9(31)
+|Damage|3d12+ [Nat] shear|+9(31)
 |Focus|A paper windmill|-1(30)
 |Material Component|A polished amber sphere which crumbles to ash when the spell ends|-2(28)
 |Save|STR,CHA|
@@ -3722,8 +3722,8 @@ Ranged weapons attacks against entities inside the spell (including thrown objec
 
 Furthermore the caster specifies any number of entities as "protected" at the casting of the spell. This determines how other aspects of the spell interact with them.
 
-- All unprotected targets that try to enter the area of effect of the spell (or are in the area when the spell first activates) must succeed on a STR save or be flung 50ft outwards from the point of contact, and suffer 3d12 sheer damage.
-- All unprotected entities (and structures) which are in the warded area at the start of their turn must succeed on a STR save take 3d12 sheer damage (half on failure).
+- All unprotected targets that try to enter the area of effect of the spell (or are in the area when the spell first activates) must succeed on a STR save or be flung 50ft outwards from the point of contact, and suffer 3d12 shear damage.
+- All unprotected entities (and structures) which are in the warded area at the start of their turn must succeed on a STR save take 3d12 shear damage (half on failure).
 - All unprotected entities treat the area as ["Difficult Terrain"](03-movement-exploration.md#difficult-terrain), and flying entities are affected as by [extreme wind](03-movement-exploration.md#flying-and-turbulence)).
 - All protected entities have resistance to damage from ranged weapons, to pressure damage and lighting damage.
 - Effects caused by area of effect "air"/"wind" spells of an equal or lower level that do not require an attack roll are excluded from the spell's area of effect. 
@@ -4638,18 +4638,18 @@ ___
 |Focus||-1(35)
 |Material||-2(33)
 |Concentration|local|-3(30)
-|Damage|3d12+[SUP] sheer|9(39)
+|Damage|3d12+[SUP] shear|9(39)
 |Damage|4d8+[SUP] lightning/ice|12(51)
 |Condition|Aphonia, Deaf, Blind, Prone/Restrained|6(57)
 |Save|STR,CON,DEX|
 
-**Description**: The caster gathers a mighty storm that covers an area with a radius of 100ft. Extreme winds within the storm blind and deafen entities within it. The force of the wind likewise deals 3d12+[SUP] sheer damage to everything caught within it.
+**Description**: The caster gathers a mighty storm that covers an area with a radius of 100ft. Extreme winds within the storm blind and deafen entities within it. The force of the wind likewise deals 3d12+[SUP] shear damage to everything caught within it.
 
 Ranged weapons attacks against entities inside the spell, those made across the area, or made by entities inside the spell, automatically miss. The spell causes all noxious gases and airborne particles to dissipate, nullifying the their effect in the area of the spell.
 
 In addition the following effects apply inside the spell:
 
-- All corporeal entities of size "Large" and smaller within the spell automatically count as restrained and are moved up to 50ft within the spell as the caster wishes. Larger entities may make a CON save to avoid the effect. In either case an entity thus affected may attempt a STR save at the start of its turn to break free. When it does, it is flung to outside the nearest edge of the spell, landing prone and taking 50ft sheer damage.
+- All corporeal entities of size "Large" and smaller within the spell automatically count as restrained and are moved up to 50ft within the spell as the caster wishes. Larger entities may make a CON save to avoid the effect. In either case an entity thus affected may attempt a STR save at the start of its turn to break free. When it does, it is flung to outside the nearest edge of the spell, landing prone and taking 50ft shear damage.
 - All entities that are not restrained move at 1/4 speed within the spell's area of effect and flying entities are affected as by [extreme wind](03-movement-exploration.md#flying-and-turbulence)).
 - Upon entering the area of effect of the spell, all entities that do not succeed on a CON save are considered aphonic and blind until they leave the area.
 - Every round the caster can choose an area with a column with a radius of 30ft within the spell for one of the following effects:

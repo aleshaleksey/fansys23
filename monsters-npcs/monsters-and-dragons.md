@@ -1512,6 +1512,170 @@ ___
 Lesser dragons are weaker and smaller than their brethren, and yet they are still dragons. Depending on setting, they may be "lesser" due to age, or for some other setting specific reason.
 
 A lesser dragon is significantly weaker in melee than its more powerful brethren, and thus must be craftier and more careful when engaging. It is more likely to use trickery, or use harrying attacks and magic to first wear down potential foes.
+___
+### Storm Dragon, Normal
+
+**Size category**: Huge (15ft x 15ft)
+
+- Evade: -2, Armour +2
+- Reach: 10ft, 15ft (tail)
+- [DEX save]: -2, [STR save]: +2
+- Carry capacity: (388lb light, 776lb medium, 1920lb heavy, 2880lb drag)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|26/22/12|222 (*69*)|182 (*68*)|35|40ft|Flight (110ft, good, endurance = 8 hours)|
+
+(Natural Armour: 15)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|24|14|22|18|16|26|
+|Bonus|+7|+2|+7|+4|+3|+8|
+|Save|+19|+4|+17|+8|+13|+18|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|20 (4)|31|31|6|6|10|10|
+
+|Attacks|Bonus|Damage|Other|
+|-|-|-|-|
+|Claws|+19|2d8+9||
+|Bite|+19|2d12+9|Poison: Thr=26 or lose 1 point of STR|
+|Tail|+17|2d6+7|Reach 15ft|
+|Multi-attack II||||
+|Broad strike|||(1 SP die) useable only with tail attack|
+|Combined Manoeuvre I|||(1 SP die) usable only with claw attack (except grapple)|
+
+- A dragon's attack count as having "draconic source" (level 4 material), this is already taken into account for the stat block.
+- A dragon can make 3 attacks as part of "multi-attack II", of these it can use bite and tail only once each.
+
+|Offensive Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Grapple, Restrain, Throw, Sunder|+17|||
+|Elemental Blast|+11|4d4 + 2d4/dice|Lightning|
+|Elemental Blast|Thr=20|4d4 + 2d4/MP dice|Lightning (Linear)|
+
+- A dragon's elemental blast (dragon breath) counts as natural damage.
+- A dragon's elemental blast deals 2d6 damage for every extra MP/SP die added and has a base damage of 4d6. The attack/threshold is constitution based (breath weapon).
+- A dragon may use MP or SP dice (up to 10) to fuel its elemental blast.
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Sc: Air VIII|Thr=22||Favourite: ["Spirits Secret"](../08-spell-list.md#spirits-secret),  ["Least Flare"](../08-spell-list.md#least-flare),  ["Glide"](../08-spell-list.md#glide),  ["Wind Step"](../08-spell-list.md#wind-step),  ["Guidance of the Winds"](../08-spell-list.md#guidance-of-the-winds),  ["See Spell"](../08-spell-list.md#see-spell),  ["Balance of Elements"](../08-spell-list.md#balance-of-elements),  ["Least Storm"](../08-spell-list.md),  ["Blessing of the Winds"](../08-spell-list.md#blessing-of-the-winds),  ["Greater Fade"](../08-spell-list.md#greater-fade),  ["Greater Freedom"](../08-spell-list.md#greater-freedom),  ["Greater Storm Ward"](../08-spell-list.md#greater-storm-ward),  ["Create Secret Path"](../08-spell-list.md#create-secret-path),  ["Greater Weather Control"](../08-spell-list.md#greater-weather-control),  ["Greater Cosmic Seal"](../08-spell-list.md#greater-cosmic-seal),  ["Greater Domain"](../08-spell-list.md#greater-domain)|
+|Sc: Incantation V|Thr=23||Favourites: ["Pact"](../08-spell-list.md#pact), ["Isolate Essence"](../08-spell-list.md#isolate-essence), ["Least Weather Control"](../08-spell-list.md#least-weather-control), ["Cure"](../08-spell-list.md#cure), ["Trace Secret Path"](../08-spell-list.md#trace-secret-path)|
+|Sc: Water III|Thr=22||Favourites:  ["Winter's Touch"](../08-spell-list.md#winters-touch),  ["Least Weather Control"](../08-spell-list.md#least-weather-control),  ["Dusk"](../08-spell-list.md#dusk),  ["Slumber"](../08-spell-list.md#slumber),  ["Water Ward"](../08-spell-list.md#water-ward),  ["Winter's Blade"](../08-spell-list.md#winters-blade)|
+|Storm Bringer|||A storm dragon ignores the "[Flying and Turbulence](../03-movement-exploration.md#flying-and-turbulence)" rules: Its flight is not affected by inclement weather conditions, although flying with (or against) the wind still increases (or decreases) its flight speed, respectively.|
+|Sc: Global||||
+|Aphonic spell||||
+|Still Spell||||
+|Elemental Affinity: Fire||||
+|Draconic Spell|||A dragon may use 2 MP dice to cast a spell of 5 MP dice or less as a secondary action.|
+|Alert||||
+|Foresight||||
+|Truesight (120ft)||||
+|Keen senses|||Sight, Smell|
+|Low-light vision||||
+|Immunity|||Lightning, Fear|
+|Resistance|||Sl, Sh, Pe, Pr|
+|Parry||||
+|Deflect Missile||||
+|Deflection||||
+|Alternate form|||The dragon has a humanoid, animal and true form. It may shift between them as a "main action". Each form is constant (always the same animal, always the same humanoid, always the same dragon)|
+|Skills|||Fortify + 20, Athletics +20, Fly +18, Observe +16, Track +16, Appraise +16, Spellcraft + 16, Sense Motive +16, K:Arcana +16, K:History +16, K:Geography +16|
+|Skills|||All others: [Stat bonus]+1|
+
+Depending on world, a storm dragon can either be a harbinger of terrible storms: the forces of nature incarnate, a hermit that dwells in the most turbulent skies at the edges of the world, or a proud monster that brings destruction upon lesser beings as it pleases. A dragon pursues its goals and objectives with the mindset of a being that has millennia at its disposal, and will seldom move quickly, unless its hand is forced. It may choose to deal with mortals if it suits its goals or fancy.
+
+Regardless of world, a storm dragon is a formidable entity. If it wishes to avoid an encounter it has a number of spells, starting from "Lesser Veil" and ending in "Greater Cosmic Seal" to do so. Its lair is likely to be a cave at the top of the highest peak, or on the stormiest and most inaccessible of islands. It will likely be guarded by bound air elementals, and hidden at the end of a secret path.
+
+If it knows that a combat is inevitable, it will likely prepare the ground with "Balance of Element", or "Greater Weather Control". It will almost certainly prepare a secret path for a potential escape route if appropriate. It will then use the storm, that renders enemy flying and ranged units useless to rain decimate remaining enemy forces, or alternatively completely bypass hostile forces to reach its goal.
+
+Alternatively it may strike first, and depending on its aim and opponent, employ varying strategies.
+
+- A dragon does not fight on the ground, or in small spaces, unless there is a very good reason to do so, as this negates many of the advantages its flight gives it.
+- If the purpose is intimidation or domination, it will generally attack from above, emerging from the storm it has created and rains lightning down where it would cause the most destruction.
+- If a dragon truly wishes to destroy or obtain something it will usually infiltrate through a secret path, or in one of its alternate forms. In most cases, it will open up with "Greater Weather Control" or a breath attack. If its opponent has particularly dangerous abilities, it will use "Isolate Essence" to seal them before proceeding.
+- A storm dragon that wishes to protect something, will prefer to sequester it and place numerous magical seals upon it.
+- Dragons generally prefer using force over a negotiated solution (due to their overwhelming power and nature), but they can be reasoned with, and will occasionally make bargains when it suits them.
+- A dragon will seldom fight to the death, but when it realises that it faces a life threatening situation, it will use its abilities to deadly effect. A dragon will occasionally surrender or accept defeat, but never at the expense of its pride and never if it means domination/enslavement by another being.
+
+___
+### Storm Dragon, Lesser
+
+**Size category**: Large (10ft x 10ft)
+
+- Evade: -1, Armour +1
+- Reach: 5ft (long), 10ft tail
+- [DEX save]: -1, [STR save]: +1
+- Carry capacity: (176lb light, 352lb medium, 880lb heavy, 1320lb drag)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|24/24/10|101 (*47*)|125 (*47*)|24|40ft|Flight(120ft, good, endurance = 8 hours), Swim (60ft)|
+
+(Natural Armour: 13)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|22|12|20|14|18|24|
+|Bonus|+6|+1|+7|+2|+4|+7|
+|Save|+14|+3|+14|+5|+11|+14|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|13 (3)|21|20|4|4|7|7|
+
+|Attacks|Bonus|Damage|Other|
+|-|-|-|-|
+|Claws|+16|1d8+8|Reach 5ft (long)|
+|Bite|+16|1d12+8|Poison: Thr=23 or lose 1d6 point of DEX|
+|Tail|+13|1d6+6|Reach 10ft (long)|
+|Grapple, Restrain, Throw, Sunder|+13|||
+|Multi-attack II||||
+|Broad strike|||(1 SP die) useable only with tail attack|
+|Combined Manoeuvre I|||(1 SP die) usable only with claw attack (except grapple)|
+
+- A lesser dragon's attack count as having "draconic source" (level 4 material), this is already taken into account for the stat block.
+- A lesser dragon can make 3 attacks as part of "multi-attack II", of these it can use bite and tail only once each.
+
+|Offensive Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Elemental Blast|+10|4d4 + 2d4/dice|Lightning|
+|Elemental Blast|Thr=20|4d4 + 2d4/MP dice|Lightning (Linear)|
+
+- A lesser dragon's elemental blast (dragon breath) counts as natural damage.
+- A lesser dragon's elemental blast deals 2d6 damage for every extra MP/SP die added and has a base damage of 3d6. The attack/threshold is constitution based (breath weapon).
+- A dragon may use MP or SP dice (up to 10) to fuel its elemental blast.
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Sc: Air VI|Thr=21|||Favourite: ["Spirits Secret"](../08-spell-list.md#spirits-secret),  ["Least Flare"](../08-spell-list.md#least-flare),  ["Glide"](../08-spell-list.md#glide),  ["Wind Step"](../08-spell-list.md#wind-step),  ["Guidance of the Winds"](../08-spell-list.md#guidance-of-the-winds),  ["See Spell"](../08-spell-list.md#see-spell),  ["Balance of Elements"](../08-spell-list.md#balance-of-elements),  ["Least Storm"](../08-spell-list.md)|
+|Sc: Incantation IV|Thr=19||Favourites: ["Pact"](../08-spell-list.md#pact), ["Isolate Essence"](../08-spell-list.md#isolate-essence), ["Least Weather Control"](../08-spell-list.md#least-weather-control), ["Cure"](../08-spell-list.md#cure)|
+|Sc: Water III|Thr=21||Favourites:  ["Winter's Touch"](../08-spell-list.md#winters-touch),  ["Least Weather Control"](../08-spell-list.md#least-weather-control),  ["Dusk"](../08-spell-list.md#dusk),  ["Slumber"](../08-spell-list.md#slumber),  ["Water Ward"](../08-spell-list.md#water-ward),  ["Winter's Blade"](../08-spell-list.md#winters-blade)|
+|Storm Bringer|||A storm dragon ignores the "[Flying and Turbulence](../03-movement-exploration.md#flying-and-turbulence)" rules: Its flight is not affected by inclement weather conditions, although flying with (or against) the wind still increases (or decreases) its flight speed, respectively.|
+|Sc: Global||||
+|Aphonic spell||||
+|Still Spell||||
+|Elemental Affinity: Fire||||
+|Alert||||
+|Foresight||||
+|Truesight (90ft)||||
+|Keen senses|||Sight, Smell|
+|Low-light vision||||
+|Immunity|||Lightning, Fear|
+|Resistance|||Sl, Sh, Pe, Pr|
+|Parry||||
+|Deflect Missile||||
+|Deflection||||
+|Draconic Spell|||A dragon may use 2 MP dice to cast a spell of 5 MP dice or less as a secondary action.|
+|Alternate form|||The dragon has a humanoid, animal and true form. It may shift between them as a "main action". Each form is constant (always the same animal, always the same humanoid, always the same dragon)|
+|Skills|||Fortify +16, Athletics +16, Fly +17, Observe +13, Track +13, Appraise +13, Spellcraft +13, Sense Motive +13, K:Arcana +13, K:History +13, K:Geography +13|
+|Skills|||All others: [Stat bonus]+1|
+
+Lesser dragons are weaker and smaller than their brethren, and yet they are still dragons. Depending on setting, they may be "lesser" due to age, or for some other setting specific reason.
+
+A lesser dragon is significantly weaker in melee than its more powerful brethren, and thus must be craftier and more careful when engaging. It is more likely to use trickery, or use harrying attacks and magic to first wear down potential foes.
 
 ___
 ### Earthbound Dragon, Normal

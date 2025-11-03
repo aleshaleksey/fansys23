@@ -33,6 +33,8 @@
     - [Flame Dragon, Lesser](#fire-dragon-lesser)
     - [Frost Dragon, Normal](#frost-dragon-normal)
     - [Frost Dragon, Lesser](#frost-dragon-lesser)
+    - [Storm Dragon, Normal](#storm-dragon-normal)
+    - [Storm Dragon, Lesser](#storm-dragon-lesser)
     - [Earthbound Dragon, Normal](#earthbound-dragon-normal)
     - [Earthbound Dragon, Lesser](#earthbound-dragon-lesser)
 

@@ -1559,7 +1559,7 @@ ___
 |Elemental Blast|Thr=20|4d4 + 2d4/MP dice|Lightning (Linear)|
 
 - A dragon's elemental blast (dragon breath) counts as natural damage.
-- A dragon's elemental blast deals 2d6 damage for every extra MP/SP die added and has a base damage of 4d6. The attack/threshold is constitution based (breath weapon).
+- A storm dragon's elemental blast deals 2d4 damage for every extra MP/SP die added and has a base damage of 4d4. The attack/threshold is constitution based (breath weapon).
 - A dragon may use MP or SP dice (up to 10) to fuel its elemental blast.
 
 |Ability|Bonus|Damage|Other|
@@ -1647,7 +1647,7 @@ ___
 |Elemental Blast|Thr=20|4d4 + 2d4/MP dice|Lightning (Linear)|
 
 - A lesser dragon's elemental blast (dragon breath) counts as natural damage.
-- A lesser dragon's elemental blast deals 2d6 damage for every extra MP/SP die added and has a base damage of 3d6. The attack/threshold is constitution based (breath weapon).
+- A lesser storm dragon's elemental blast deals 2d4 damage for every extra MP/SP die added and has a base damage of 3d4. The attack/threshold is constitution based (breath weapon).
 - A dragon may use MP or SP dice (up to 10) to fuel its elemental blast.
 
 |Ability|Bonus|Damage|Other|

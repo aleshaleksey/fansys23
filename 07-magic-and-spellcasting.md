@@ -268,6 +268,7 @@ Notably, for the first time that a character gains a "Spellcasting" ability of a
 |Incantation      |1 (3)|2|
 |Kinetic          |1 (3)|2|
 |Nature           |2 (2)|2|
+|Global           |2 (0)|2|
 
 ___
 #### learning spells through independent study or from a mentor

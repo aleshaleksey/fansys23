@@ -2334,9 +2334,9 @@ Global magic covers the casting of all global spells. In order to access and cas
 
 So for example, to cast global 7th level Nature magic, a character must have either "Spellcasting: Nature VII" and "Spellcasting: Global I", or "Spellcasting: Global VII" and "Spellcasting: Nature I".
 
-**Casting time and cost**: Global spells take at least an hour to cast, but more often the casting time is measured in days or weeks. Thus the MP dice cost is measured in "dice per day".
+**Casting time and cost**: Global spells take at least an hour to cast, but more often the casting time is measured in days or weeks. Thus the MP dice cost is measured in "dice per day". A global casting of a spell can either cost x2 or x4 the number of MP dice of the local spell.
 
-**Special**: For spells of MP dice cost 8 and above, the same rules as for higher local spells apply. The only change is that the minimum level for using these spells is calculated as [Global casting MP dice cost / 2].
+**Special**: For spells of MP dice cost 8 and above, the same rules as for higher local spells apply. The only change is that the minimum level for using these spells is calculated in accordance to the theoretical local casting cost of the spell (even if it cannot be cast locally).
 
 **Global Spellcasting table**:
 

@@ -936,7 +936,7 @@ ___
 + If the shape will not be structurally sound it collapses.
 + If you are attempting to make something artistic or structurally sound, you must make a "Tinker" or "Fortify" roll at disadvantage.
 
-**Global**: If cast globally the area affected is 200ft plus 100ft per 2MP above 4. In this case artistic or structurally coherent use is not possible.
+**Global**: If cast globally the area affected is 200ft plus 100ft per 2MP above 4. In this case artistic or structurally coherent use is not possible unless at least 6 MP dice are expended in the casting of the spell.
 (4+2)
 
 **Upcast**: The radius increases by 5ft for every extra MP die used. The depth increases by 5ft (1ft) for every extra 2 MP dice used. If used globally the increase of radius per every extra MP dice is 100ft.
@@ -3411,7 +3411,7 @@ ___
 |Scope|local (global)|
 |MP Dice|5 (20)|
 |Target(s)|A spot on the ground, special (see below)|
-|Casting time|1 full round (2 days + 5 hours per 4MP dice)|-2
+|Casting time|1 full round (2 days)|-2
 |Range|120ft|+3(1)
 |Duration|Instantaneous|
 |Components|incantation, kinetic|-1(0)

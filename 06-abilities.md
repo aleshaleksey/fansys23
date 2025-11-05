@@ -1207,8 +1207,8 @@ The forms are summarised as follows:
 |Cone           |Form: Touch or Blast   |+1 per 10ft length |10ft |Save         |
 |Line           |Form: Blast, 12 MP dice|+1 per 5ft  width  |120ft|Save         |
 |Circle         |From: Blast, 15 MP dice|+1 per 10ft (rad)  |120ft|Save         |
-|Chain          |Form: Line, 17 MP dice |+2 per turn        |120ft|Save         |
-|Arc            |From: Line, 19 MP dice |+2 per 30 degrees  |120ft|Save         |
+|Chain          |Form: Line, 17 MP dice |+1 per turn above 1|120ft|Save         |
+|Arc            |From: Line, 19 MP dice |+1 per 30 degrees  |120ft|Save         |
 
 When a "form" prerequisite is present, a character must already have an elementalism of the same element with the given prerequisite form to be able to acquire the new form for that element.
 
@@ -1297,16 +1297,16 @@ The elemental circle is an elemental blast that blooms into a sphere-like area o
 ____
 #### Chain
 
-An elemental chain is an elemental line which which has at least one bend in it, allowing it to strike targets off the line are avoid targets on the original line.
+An elemental chain is an elemental line which which has at least one bend in it, allowing it to strike targets off the line, or avoid targets on the original line.
 
-**Action**: Declare "elemental chain". This works as "elemental line", with the addition that for every 2 extra MP dice (separate from all other dice), the wielder may introduce a bend of no more than 90 degrees into the line.
+**Action**: Declare "elemental chain". This works as "elemental line", except the wielder may introduce one bend of no more than 90 degrees into the line. For every extra MP die (separate from all other dice), the wielder may add one more bend.
 
 ____
 #### Arc
 
 This is an enhancement of the "line" form that sweeps out a wide area.
 
-**Action**: Declare "elemental arc". This works like elemental line, except one also chooses an sweep angle and direction. For every 2 extra MP dice (separate from all other dice), the line may sweep out an arc of up to 30 degree along a plane chosen by the wielder. Unlike a cone or circle, the arc does not bloom or circumvent cover.
+**Action**: Declare "elemental arc". This works like elemental line, except one also chooses an sweep angle and direction. The line sweeps out a 30 degree arc along a plane chosen by the wielder. For every MP die (separate from all other dice), the line may sweep out an extra 30 degrees. Unlike a cone or circle, the arc does not bloom or circumvent cover.
 
 
 ____

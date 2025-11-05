@@ -543,3 +543,8 @@ ___
 - Adjust[Least curse](08-spell-list.md#least-curse), to be a touch less dangerous to the caster.
 - Add STR save for [storm ward](08-spell-list.md#storm-ward).
 
+___
+## From v0.0.18
+
+### Abilities
+- Reduce prohibitive costs of Elementalism ([Chain](06-abilities.md#chain) and [Arc](06-abilities.md#chain)). First bend/30degrees are free. Afterwards reduce to 1 MP die cost.

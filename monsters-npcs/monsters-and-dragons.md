@@ -1514,6 +1514,7 @@ ___
 Lesser dragons are weaker and smaller than their brethren, and yet they are still dragons. Depending on setting, they may be "lesser" due to age, or for some other setting specific reason.
 
 A lesser dragon is significantly weaker in melee than its more powerful brethren, and thus must be craftier and more careful when engaging. It is more likely to use trickery, or use harrying attacks and magic to first wear down potential foes.
+
 ___
 ### Storm Dragon, Normal
 

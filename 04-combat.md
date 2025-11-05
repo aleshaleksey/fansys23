@@ -21,7 +21,7 @@ This system deals heavily with combat and many of the mechanics are tuned to wor
     - [Damage immunity](#damage-immunity)
     - [HP damage and conditions](#hp-damage-and-conditions)
     - [Damage and effects over time](#damage-and-effects-over-time)
-    - [Voluntary HP damage](#voluntary-hp-damage)
+    - [Dropping defences and voluntary HP damage](#dropping-defences-and-voluntary-hp-damage)
 4. [Actions in combat](#flow-of-combat)
     - [Flow of Combat](#flow-of-combat)
       - [The Turn and actions](#the-turn-and-actions)
@@ -225,9 +225,11 @@ If the damage is due to an effect that allows a save (before taking the first 1 
 If the damage is from a source that has neither attack roll or save, it automatically gains the condition.
 
 ___
-### Voluntary HP damage
+### Dropping defences and voluntary HP damage
 
 An entity can chose not to defend itself when it takes damage, or even to directly harm itself (eg cut itself, shoot itself, swallow a fireball). In those cases it can chose damage to be dealt directly to its own HP (bypassing MP and SP).
+
+If dropping defences in combat, the target uses a reaction/minor interaction. It will lose its "shield" and "evasion" bonus to HiT and can fail saves which can be [failed voluntarily](02-base-rules.md#taking-24-taking-13-auto-failure-and-voluntary-failure). Out of combat time, there is usually time to line up an attack and auto-hit.
 
 OPTIONAL RULE: Harming oneself, or dropping one's defences often takes a considerable amount of willpower. Therefore a group may rule that a character from a race that has survival instincts must succeed a Threshold=20 CHA save before it can drop its defences or harm itself.
 
@@ -325,6 +327,7 @@ The actions an entity may take might also be restricted by its conditions and ge
 - "**Minor interaction**": The minor interaction exists to allow characters to perform an action which is usually time consuming and substantial on its own, but will only add a small overhead as part of a different action. For example, unsheathing a sword is generally a secondary action in and of itself, but it is a minor interaction as part of a strike. If an "action" involves using an object, you may carry out an activity associated with that item that involves the part of your form that is interacting with it. The creature can also drop ONE item IN ADDITION to this. This need not be the same item. Otherwise minor interactions include:
   - Drawing/picking up a sword you are about to attack with.
   - Uncorking a vial before administering the content.
+  - Dropping defences on your turn.
 
 
 - "**Reaction/Immediate action**": An action that can be taken at any time as long as some trigger condition is fulfilled (usually this requires the entity to be aware that the trigger happens). These actions are generally very quick and can be executed almost reflexively. Eg:
@@ -332,6 +335,7 @@ The actions an entity may take might also be restricted by its conditions and ge
   - Cast certain spells or use certain abilities (counter-spelling, parrying, some defensive spells).
   - Dropping to the ground outside of your turn (eg in reaction to the casting of a powerful spell).
   - Dropping an item outside of your turn.
+  - Dropping defences outside of your turn.
 
 
 - "**Full round actions**": Certain activities involve using the whole of your turn and cannot fit into an action. They are resolved at the start of the next turn (or a subsequent turn) when they are completed. These include:
@@ -570,6 +574,7 @@ ___
 |Drink Potion|Yes|
 |Use item|No, usually|
 |Drop item|No|
+|Dropping Defences|Yes|
 
 ___
 ## Mounts and Mounted Combat
@@ -790,7 +795,8 @@ This table covers the typical action economy costs of various actions. It should
 |Speak up to ~6 words|"communicate action"|
 |||
 |Un-sheath a when making an attack|"minor interaction"|
-|Uncork a vial before using/administering th content|"minor interaction"|
+|Uncork a vial before using/administering the content|"minor interaction"|
+|Dropping defences on your turn|"minor interaction"|
 |||
 |Extend your reach by 5ft for one attack when using a "long" weapon|"secondary action"|
 |"Observe" to locate hidden target|"secondary action"|
@@ -826,6 +832,7 @@ This table covers the typical action economy costs of various actions. It should
 |"Navigate" to orientate oneself|"full round action"|
 |"Persuade" to call for parley|"full round action"|
 |||
+|Dropping defences outside of your turn|"minor interaction"|
 |Taking some action in response to a stimulus|Usually "reaction"|
 |Making a single melee attack or using a combat manoeuvre in response to a stimulus|"reaction"|
 |Dropping to the ground voluntarily|"reaction"|
@@ -884,6 +891,7 @@ This table covers the typical action economy costs of various actions. It should
 |Dropping to the ground voluntarily outside of your turn|"reaction"|
 |||
 |Un-sheath a weapon when making an attack|"minor interaction"|
+|Dropping defences on your turn|"minor interaction"/"reaction"|
 |Extend your reach by 5ft for one attack when using a "long" weapon|"secondary action"|
 |Make an attack with an offhand weapon, or use "Flurry"|"secondary action"|
 |Use "offhand attack" to make one or more attacks when it is allowed|"secondary action"|
@@ -895,7 +903,7 @@ This table covers the typical action economy costs of various actions. It should
 |"full defence: dodge"|"main action" + secondary action" + "reaction"|
 |"full defence: shield"|"main action" + secondary action" + "reaction"|
 |||
-|Uncork a vial before using/administering th content|"minor interaction"|
+|Uncork a vial before using/administering the content|"minor interaction"|
 |Drink a potion yourself|"secondary action"|
 |Administer a potion to another|"main action"|
 |Dropping concentration, an item or dropping to the ground on your turn|non-action, once per round|

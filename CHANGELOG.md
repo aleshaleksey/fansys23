@@ -547,7 +547,15 @@ ___
 ## From v0.0.18
 
 ### General
-- Suicide and [voluntary damage](04-combat.md#voluntary-hp-damage) now has rules.
+- Suicide and [voluntary damage](04-combat.md#dropping-defences-and-voluntary-hp-damage) now has rules.
+- Formally change [HiT rules](02-base-rules.md#hit-threshold-hit) to rule that shields and parrying are active, but deflection is passive.
+- Redefine some [conditions](10-conditions-types.md#conditions-in-detail) that are affected by changes to HiT rules:
+  - [Surprised](10-conditions-types.md#surprised)
+  - [Immobilised](10-conditions-types.md#immobilised)
+  - [Catatonic](10-conditions-types.md#catatonic)
+  - [Paralysed](10-conditions-types.md#paralysed)
+  - [Helpless](10-conditions-types.md#helpless)
+  - [Unconscious](10-conditions-types.md#unconscious)
 
 ### Abilities
 - Reduce prohibitive costs of Elementalism ([Chain](06-abilities.md#chain) and [Arc](06-abilities.md#chain)). First bend/30degrees are free. Afterwards reduce to 1 MP die cost.

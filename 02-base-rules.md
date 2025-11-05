@@ -538,8 +538,8 @@ A character has an armour class/hit threshold, this is a measure of how difficul
   - Initial HiT (ALWAYS 10).
   - **Base**: A character always adds [Base] to HiT. This reflects the general experience of the character bleeding through to defensive capabilities.
   - **Evasion** (avoiding the brunt of the attack, eg dodging). In general this is equal to the Dex (stat) bonus.
-  - **Deflection** (deflecting the brunt of the attack through active means, eg parrying)
-  - **Shield** (deflecting the brunt of the attack through passive means, eg shields)
+  - **Deflection** (deflecting the brunt of the attack through passive means, eg protective barriers, cover)
+  - **Shield** (deflecting the brunt of the attack through active means, eg shields, parrying)
   - **Armour** (absorbing/nullifying the brunt of the attack through, eg a breast plate or dragon's scales)
 
  Thus the final HiT is **[10 + Base + Evasion + Deflection + Shield + Armour]**
@@ -547,7 +547,7 @@ A character has an armour class/hit threshold, this is a measure of how difficul
  In some cases not all components of HiT are used.
 
   - Some attacks ignore armour (a ghost's touch, a musket bullet at close range, a death ray). In this case **HiT = [10 + Base + Evasion + Deflection]**.
-  - Sometimes the character is not in a position to evade of actively deflect an attack. In this case **HiT = [10 + Base + Shield + Armour]**. Conditions where this is so are:
+  - Sometimes the character is not in a position to evade of actively deflect an attack. In this case **HiT = [10 + Base + Deflection + Armour]**. Conditions where this is so are:
     - "surprised"
     - "restrained"
     - "immobilised"
@@ -558,6 +558,11 @@ A character has an armour class/hit threshold, this is a measure of how difficul
     - "dying"
 
 For each component (eg Armour), the Sup and Nat aspect stack. However for each aspect only the highest bonus applies. Eg: If a character wears a full plate on top of padded armour, only the bonus for the full plate applies. Also your character's gonna be really hot and sweaty.
+
+___
+### HiT and Dropping Defences
+
+An entity can voluntarily [drop defences](04-combat.md#dropping-defences-and-voluntary-hp-damage) as a reaction/minor interaction. In this case it does not add "evasion" or "shield" to its HiT.
 
 ___
 ### Initiative

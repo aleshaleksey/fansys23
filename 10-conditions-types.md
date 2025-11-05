@@ -468,6 +468,7 @@ An unconscious character can make CON and CHA saves, and communicate telepathica
   - It does not gain [STATS] to AC.
   - It it can fall prone, it falls prone.
   - All melee attacks against it are at advantage.
+  - It loses "evasion" and "shield" bonus to HiT.
   - All damage bypasses SP and MP.
   - It cannot cast or concentrate on spells or take any actions.
   - If it is unconscious because it is asleep, it has -10 on ["observe"](05-skills.md#observe) rolls. If it is unconscious for any other reason, then it cannot properly perceive the outside world or think rationally. 
@@ -477,6 +478,7 @@ A helpless character is in a condition where they cannot protect themselves. Usu
   - It does not gain [STATS] to HiT.
   - It it can fall prone, it falls prone.
   - All melee attacks are at advantage.
+  - It loses "evasion" and "shield" bonus to HiT.
   - All damage bypasses SP and MP.
   - It cannot make saves other than CON, CHA and WIS.
   - It cannot move or take take actions other than [WIS] based skill checks.
@@ -487,6 +489,7 @@ A paralysed character cannot take physical actions:
   - This means it cannot move.
   - It does not gain physical [STATS] to HiT.
   - Physical melee attacks against it have advantage.
+  - It loses "evasion" and "shield" bonus to HiT.
   - It it can fall prone, it falls prone.
   - Physical ranged attacks against it have advantage (if it is prone this cancels out).
   - Natural damage bypasses SP.
@@ -511,8 +514,9 @@ ___
 #### Catatonic
 A catatonic character loses the will to act and cannot take actions.
   - It cannot make attacks, use physical abilities or cast spells.
+  - It loses "evasion" and "shield" bonus to HiT.
   - It cannot use skills other than those that are involved in perceiving the world.
-  - It cannot move.
+  - It cannot make "move actions".
   - It has disadvantage on all saves.
 
 #### Crippled
@@ -524,6 +528,7 @@ This character cannot use one or more limbs.
 An immobilised character is in trouble.
   - It has a movement speed of 0ft.
   - It cannot make [DEX] or [STR] saves, attacks.
+  - It loses "evasion" and "shield" bonus to HiT.
   - It cannot cast spells with kinetic components.
   - Attacks against it have advantage.
   - It cannot use [DEX] and [STR] based skills or abilities except some escape related skills, and even then at disadvantage.
@@ -568,7 +573,7 @@ A restrained character has problems. It has a movement speed of 0ft and suffers 
 
 #### Surprised
 A surprised character dropped the ball. It cannot take any actions. This condition seldom exists outside of the first round of combat.
-  - It does not gain [STATS] to AC.
+  - Attacks against it have advantage.
   - It cannot take any actions except reactions and the communicate action.
 
 ___

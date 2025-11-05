@@ -21,6 +21,7 @@ This system deals heavily with combat and many of the mechanics are tuned to wor
     - [Damage immunity](#damage-immunity)
     - [HP damage and conditions](#hp-damage-and-conditions)
     - [Damage and effects over time](#damage-and-effects-over-time)
+    - [Voluntary HP damage](#voluntary-hp-damage)
 4. [Actions in combat](#flow-of-combat)
     - [Flow of Combat](#flow-of-combat)
       - [The Turn and actions](#the-turn-and-actions)
@@ -222,6 +223,13 @@ If there is HP damage caused by a targeted attack (before taking the first 12 on
 If the damage is due to an effect that allows a save (before taking the first 1 on the 2d12 into account), it instead gains one associated condition for every "1" it rolls on the save.
 
 If the damage is from a source that has neither attack roll or save, it automatically gains the condition.
+
+___
+### Voluntary HP damage
+
+An entity can chose not to defend itself when it takes damage, or even to directly harm itself (eg cut itself, shoot itself, swallow a fireball). In those cases it can chose damage to be dealt directly to its own HP (bypassing MP and SP).
+
+OPTIONAL RULE: Harming oneself, or dropping one's defences often takes a considerable amount of willpower. Therefore a group may rule that a character from a race that has survival instincts must succeed a Threshold=20 CHA save before it can drop its defences or harm itself.
 
 ___
 ### Damage and effects over time

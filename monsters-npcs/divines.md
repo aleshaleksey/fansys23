@@ -8,6 +8,7 @@ Divine entities are a category of supernatural beings that include gods, god-lik
   - [Seraph](#seraph)
 - [Glitches](#glitches)
   - [Abyssal Blade](#abyssal-blade)
+  - [Unbound Gnome](#unbound-gnome)
 - [Divinities](#divinities)
   - [Unicorn, True](#unicorn-true)
 
@@ -259,6 +260,45 @@ When a [shadow flesh fiend](profanes.md#shadow-flesh-fiend-human) is created by 
 Unlike Abyssal Blades, an abyssal blade transcends its resentment. Instead it wanders the world, spending its time destroying the parts it is missing.
 
 ___
+### Unbound Gnome
+
+|HiT/Surprised/Touch|SP       |MP       |HP|Speed (walk)|Speed (other)|
+|-------------------|---------|---------|--|------------|-------------|
+|17/10/17           |20 (*15*)|38 (*28*)|9 |Walk (45ft) |Dig (10ft), Fly (speed=100ft, perfect, endurance=unlimited)|
+
+An unbound gnome has a +6 deflection bonus.
+
+|     |Str|Dex|Con|Int|Wis|Cha|
+|-----|---|---|---|---|---|---|
+|Stat | 16| 21| 12|  8| 16| 21|
+|Bonus| +3| +5| +2| +1| +3| +5|
+|Save | +4| +8| +4| +3| +8|+11|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-----------|-------|-------|---|---|---|---|
+|6 (2)      |     14|     14|  3|  3|  5|  5|
+
+|Ability|Bonus|Damage|Other|
+|-------|-----|------|-----|
+|Strike|+12|1d6+6[Per]|(Reach 5ft)|
+|Elemental Touch|+8|2d8+3[Per] + 1d8/MP die|(Reach=5ft) earth, MP die maximum=3|
+|Elemental Touch|+8|2d8+3[Pre] + 1d8/MP die|(Reach=5ft) air, MP die maximum=3|
+|||||
+|Sc: Earth III|Thr=18||["Down"](../08-spell-list.md#down), ["Least Spike"](../08-spell-list.md#least-spike), ["Gnome's Mercy"](../08-spell-list.md#gnomes-mercy), ["Least Geomancy"](../08-spell-list.md#least-geomancy), ["Warded Ground"](../08-spell-list.md#warded-ground), ["Shape Earth"](../08-spell-list.md#shape-earth), ["Earth Ward"](../08-spell-list.md#earth-ward)|
+|Sc: Air III|Thr=18||[Glide](../08-spell-list.md#glide), [Headwind](../08-spell-list.md#headwind), [Wind Step](../08-spell-list.md#wind-step), [Wind Walk](../08-spell-list.md#wind-walk)|
+|||||
+|Immune|||["Natural Damage"](../10-conditions-types.md#natural-and-supernatural-damage-and-abilities), ["Divine Damage"](../10-conditions-types.md#divine)|
+|[Precision Attack II](../06-abilities.md#precision-attack-i-x)|||Gnomes Add 2d8 to surprise attacks if they attack with a weapon|
+|Aberrant healing|||When a glitch would take divine damage (were it not immune), it is instead healed for that number of hit-points.|
+|Immune|||["Surprised"](../10-conditions-types.md#surprised), ["Charmed"](../10-conditions-types.md#charmed), ["Frightened"](../10-conditions-types.md#frightened), ["Stunned"](../10-conditions-types.md#stunned), ["Dying"](../10-conditions-types.md#dying)|
+
+An unbound gnome is created whenever a gnome is detached from the ground despite this being impossible under ordinary circumstances. Unbound gnomes seek to free flightless beings from the shackles of mother earth. This seldom ends well.
+
+If a flightless entity captures the fancy of an unbound gnome, it will attempt to "teach" it to fly. If there is a nearby cliff, it will push it off a cliff. If there isn't, it will cast either "wind step" or "glide" or "wind walk" on it. The unbound gnome will guide its "friend" as high as it can, and then watch it fall as its spell runs out. An unbound gnome has no concept, nor care for, mortality.
+
+In actual combat it will use "glide" in combination with "headwind" to blow away its enemies, or simply use its elemental abilities, to destroy it.
+
+___
 ## Divinities
 
 ___
@@ -297,7 +337,7 @@ ___
 |Radiant deflection|HiT: +6||A radiant power surrounds a unicorn, protecting them from harm|
 |[Sc: Incantation VII](../06-abilities.md#spellcasting-local)|Thr=19||Favourite Spells: ["Least Spike"](../08-spell-list.md#least-spike), ["Sour"](../08-spell-list.md#sour), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Vengeance"](../08-spell-list.md#least-vengeance), ["Meadow of Flame"](../08-spell-list.md#meadow-of-flame), ["Wind Walk"](../08-spell-list.md#wind-walk), ["Cure"](../08-spell-list.md#cure), ["Greater Xenophonia"](../08-spell-list.md#greater-xenophonia), ["Isolate Essence"](../08-spell-list.md#isolate-essence), ["Pact"](../08-spell-list.md#pact), [Heart Ward](../08-spell-list.md#heart-ward)", ["Spirit Restoration"](../08-spell-list.md#spirit-restoration), ["Razor Wind"](../08-spell-list.md#razor-wind), ["Otherworld Step"](../08-spell-list.md#otherworld-step), ["Memory Thief"](../08-spell-list.md#memory-thief)|
 |[Divine Strike](../06-abilities.md#divine-strike)||1d6|A true unicorn can channel divine energies through its horn. It can expend **1 MP die** to cause 1d6 divine damage when it strikes a foe with its horn, or 2 MP dice to cause 2d6 divine damage..|
-|[Holy Strike](../06-abilities.md#holy-strike)||2d6|A true unicorn can expend MP to infuse its hooves with supernatural light, dealing extra damage. It may expend 1 MP and deal 2d4 of light damage. Profane entities hit by this attack must succeed a CHA save (Thr=13+SUP+[CHA]) or be "blinded" (repeated save applies).|
+|[Holy Strike](../06-abilities.md#holy-strike)||2d4|A true unicorn can expend MP to infuse its hooves with supernatural light, dealing extra damage. It may expend 1 MP and deal 2d4 of light damage. Profane entities hit by this attack must succeed a CHA save (Thr=13+SUP+[CHA]) or be "blinded" (repeated save applies).|
 |||||
 |[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||(1SP die) A unicorn can combine any two basic combat manoeuvres that it is proficient with.|
 |Monster Attack I|||A unicorn makes one attack with its horns and one with its hooves.|
@@ -322,7 +362,7 @@ ___
 |Skills|||"Athletics" +12, "Observe" +13, "Sense Motive" +7, "Spellcraft" +9, "Knowledge: Nature" +5, "Knowledge: Arcana" +7, "Knowledge: Religion" +11|
 |Loot|||A true unicorn is not a physical being, and thus once it is destroyed it may leave nothing behind. However, it may yield its horn to a mortal it deems worthy, hence ceasing to exist.|
 
-A true unicorn is not a physical being, but a divine being and manifestation of innocence. It takes the form of a white horse with a shining mane and tail with a straight horn upon its head.
+A true unicorn is not a physical being, but a divine being and manifestation of innocence. It takes the form of a white horse with a shining mane and tail. It has a single, straight horn upon its head.
 
 A true unicorn will not willingly appear before beings that lack innocence.
 

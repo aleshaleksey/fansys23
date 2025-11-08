@@ -2615,7 +2615,7 @@ The caster can also invert the criterion to allow only entities that fulfil the 
 
 **Limitations** Entities can still cross the perimeter the area by "cosmic" speed without needing to succeed the save. Their base speed, however, will still be halved for their other movement modalities.
 
-**Upcast**: For every extra MP die above X, the the radius of the spell is increased by 5ft (100ft fot global), or the caster can add an extra criterion, or it's duration increases by 1 hour (1 week for global).
+**Upcast**: For every extra MP die above X, the the radius of the spell is increased by 5ft (100ft for global), or the caster can add an extra criterion, or it's duration increases by 1 hour (1 week for global).
 
 If the spell is cast with more than 7 MP die, its perimeter cannot be crossed by means of "cosmic" speed.
 

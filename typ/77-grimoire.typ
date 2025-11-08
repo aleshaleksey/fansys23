@@ -83,4 +83,5 @@
 #place(top + center, float: true, scope: "parent")[== A Grimoire for Fantasy Worlds]
 
 #pagebreak()
-#include "build/08-spell-list-adjusted.typ"
+#include "build/08-spell-list.typ"
+// #include "build/08-spell-list-adjusted.typ"

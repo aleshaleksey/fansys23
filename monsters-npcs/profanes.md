@@ -860,13 +860,13 @@ Saves: Str, Con
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Aura of Destruction|Thr=18|||
-|||||
 |Flail(Or demonic flail)|+11(+13)|1d8+6||
 |Claw|+11|1d6+6||
 |Elemental Blast II (one of fire or ice)|+5|2d6|Up to 4d6 (an extra 1d6 per 1MP dice)|
 |Elemental Touch II (one of fire or ice)|+4|2d6|Up to 6d6 (an extra 2d6 per 1MP dice)|
 |Grapple/Throw/Disarm/Sunder|+11|||
+|Aura of Destruction|Thr=18||(Range=30ft) Objects and man-made structures (made of materials of material level 2 or lower) within 60ft of the herald suffer one dice of damage at the start of each of the herald's turn unless they succeed the Thr=20 CON save. Unattended structures and items automatically fail the save.|
+|||||
 |Monster Attack III|||A fiendish warrior makes 4 attacks/combat manoeuvres|
 |Combined Manoeuvre II|||A fiendish warrior can combine up to 3 basic combat manoeuvres|
 |Parry|||A fiendish warrior adds +3 to HiT for up to 5 attacks.|
@@ -892,6 +892,74 @@ Fiendish warriors are formidable foes. They usually prefer to fight weakened foe
 A fiendish warrior will unleash will close in and unleash their destructive aura. Once they do, they will engage in melee.
 
 Some fiendish warriors have wings and can fly at 50ft.
+
+___
+### Herald of the Abyss
+
+**Size category**: Large (10ft x 10ft)
+
+- Evade: -1, Armour +1
+- Other HiT: (Natural Armour: +3, Deflection: +4)
+- Reach: 5ft (long)
+- [DEX save]: -1, [STR save]: +1
+- Saves: Wis, Int.
+- Carry capacity: (176lb light, 352lb medium, 880lb heavy, 1320lb drag)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|19/17/13|74 (*41*)|86 (*42*)|19|30ft|Flight (80ft, good, endurance=unlimited)|
+
+|     |Str|Dex|Con|Int|Wis|Cha|
+|-----|---|---|---|---|---|---|
+|Stat |22 |12 |16 |13 |18 |19 |
+|Bonus|+6 |+1 |+3 |+1 |+4 |+4 |
+|Save |+10|+3 |+6 |+8 |+11|+7 |
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
+|-|-|-|-|-|-|-|
+|12 (3)|19|19|4|4|7|7|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|||||
+|Claw|+15|1d12+6[She] + 1d10[Poi]|(Reach 5ft, long) An entity that takes damage from the claws of a herald of the abyss must succeed a CON save (Thr=19) or take 1 point of CON damage.|
+|Necrotic blast|+11|3d6+4|(Range = 120ft + 30ft/MP die) The herald can project a blast of necrotic energies. This works exactly like [Elemental Blast](../06-abilities.md#elementalism-elemental-blast). For every MP die expended the blast deals an additional 2d6 damage. The maximum number of MP die expended is 4.|
+|Necrotic sphere|Thr=21|3d6+4|(Cost = 1MP die or more, Range = 120ft + 30ft/MP die, radius= 10ft/MP die) The herald can project a blast of necrotic energies in an expanding sphere. This works exactly like [Elementalism: Circle](../06-abilities.md#circle). For every MP die expended the blast deals an additional 2d6 damage or increases in radius by 10ft. The maximum number of MP die expended is 4.|
+|Touch of the Abyss||1d6[Pro]|(Reach 5ft, long, Cost=2MP dice) The herald of the abyss can channel profane energies when it attacks with its claws, for an extra 1d6 profane damage on a hit.|
+|Grapple/Throw/Disarm/Sunder|+13|||
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Aura of Destruction|Thr=20||(Range=60ft) Objects and man-made structures (made of materials of material level 2 or lower) within 60ft of the herald suffer one dice of damage at the start of each of the herald's turn unless they succeed the Thr=20 CON save. Unattended structures and items automatically fail the save.|
+|[Sc: Incantation III](../06-abilities.md#spellcasting-local)|Thr=17||Favourite Spells: [Least Vengeance](../08-spell-list.md#least-vengeance), [Promise](../08-spell-list.md#promise), [Melt](../08-spell-list.md#melt)|
+|[Sc: Nature V](../06-abilities.md#spellcasting-local)|Thr=20||Favourite Spells: [Fade](../08-spell-list.md#fade), [Least Weather Control](../08-spell-list.md#least-weather-control), [Call Ailment](../08-spell-list.md#call-ailment), [Harvest](../08-spell-list.md#harvest), [Slumber](../08-spell-list.md#slumber), [Cure](../08-spell-list.md#cure), [Balance of Nature (destruction only)](../08-spell-list.md#balance-of-nature), [Plague](../08-spell-list.md#plague), [Lesser Cosmic Seal](../08-spell-list.md#lesser-cosmic-seal)|
+|[Forbidden Spell](../06-abilities.md#forbidden-spell)|Thr=20||[Summon Fiend](../08-spell-list.md#summon-fiend), [Dominate Mortal](../08-spell-list.md#dominate-mortal)|
+|||||
+|Monster Attack I|||A herald of the Abyss makes 2 attacks/combat manoeuvres|
+|||||
+|Combined Manoeuvre II|||A fiendish warrior can combine up to 3 basic combat manoeuvres|
+|Parry|||A fiendish warrior adds +3 to HiT for up to 5 attacks.|
+|Opportunist|||Can make attacks of opportunity vs entities that are standing up or drinking potions|
+|Counterstrike|||Can take an attack of opportunity against a foe that hits it in melee|
+|||||
+|Xenophonia: Mortals|||The herald can communicate freely with Mortals.|
+|Call of the Abyss|||The herald of the abyss always knows the quickest route to the nearest profane aligned realm|
+|Senses|||"Low Light Vision", "Life Sense: 120ft", "Tremor Sense"|
+|Skills|||"Athletics":+12, "Fortify": +10", "Climb:+8", "Swim:+7", "Ride:+7", "Intimidation":+7,"Deception":+6, "Acrobatics:+5", "Stealth:+5", "Observe":+3, "Sense Motive": +3, "Religion:+1", "Arcana:+1"|
+|||||
+|Resistant|||"physical" damage, "Fire", "ice" damage|
+|Immune|||"disease", "poison", "dying", "fear"|
+|Vulnerability|||"Div", "Lit: supernatural" damage|
+
+A Herald of the Abyss is a greater fiend in its own right, however, as the name suggests, its appearance often foreshadows calamity of some kind.
+
+Heralds of the abyss do not necessarily engage directly in combat, rather visibly preceding catastrophes, but may engage in seemingly random acts of violence destruction, as long as such acts might decrease the morale of mortals in the vicinity.
+
+A herald of the abyss has no instinct of self-preservation. It does not necessarily fight to the bitter end, or ignore danger, but it does not value its own existence beyond instilling despair into the souls of mortals.
+
+In combat, this kind of herald prefer to target the most trustworthy looking target magically, and subsequently puppeteer the dominated foe into destroying its former allies. Failing this it will use its necrotic blast to obliterate multiple foes at once. Foes that approach within melee, are then treated to its venomous claws. If the one who engages it melee is particularly dangerous, it will channel profane energies with its "Touch of the Abyss" to destroy it as quickly as possible.
+
+A herald is also capable of summoning additional fiends to do its bidding, as well as using its magic in other ways.
 
 ___
 ### Demon (Fire or Ice)

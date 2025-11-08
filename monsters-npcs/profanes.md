@@ -22,6 +22,7 @@
   - [Shadow Flesh Fiend, Human](#shadow-flesh-fiend-human)
   - [Succubus](#succubusincubus)
   - [Fiendish Warrior](#fiendish-warrior)
+  - [Herald of the Abyss](#herald-of-the-abyss)
   - [Demon](#demon-fire-or-ice)
   - [Unicorn, Black](#unicorn-black)
 

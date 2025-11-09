@@ -89,7 +89,7 @@ By default, this game uses an anachronistic mix of modern pound (lb) measurement
 2. This was a trade bar used ~10th-15th centuries AD.
 3. This is an approximate Grivna which gives simpler and nicer calculations.
 
-More importantly, the lists will give a cost in "days of labour", which are equivalent to 12 man-hours. Often, in a world where everything is made by hand and not always stockpiled, the labour availability is more important than the material or currency cost.
+More importantly, the lists will give a cost in "days of labour", which are equivalent to 12 man-hours, as availability of labour to convert stockpiled raw material into the final useable goods is a more important factor.
 
 ___
 
@@ -140,35 +140,35 @@ Availability, crafting time and price of higher level materials may be lower in 
 This table contains a basic list of materials. This can, and should, be expanded with setting-specific materials.
 
 
-| Absolute rank | Material               | Level | Type            | Notes                                                                            |
-| ------------- | ---------------------- | ----- | --------------- | -------------------------------------------------------------------------------- |
+| Absolute rank | Material               | Level | Type            | Notes|
+| ------------- | ---------------------- | ----- | --------------- | ---- |
 | 0             | Divine Source          | 5     | Any             | Endows divine alignment, indestructible by lower rank materials except "profane" |
 | 1             | Adamantium             | 4     | Metal           | Weight x2 of base weight, indestructible by lower rank materials                 |
-| 2             | Dragon Source          | 4     | Hide/Bone/Ivory | gives advantage to intimidate animals and monsters                               |
-| 3             | True Gems              | 4     | Hard: Stone     | Indestructable by level 2 and lower materials, cost x128 base cost               |
-| 4             | Semi-precious Gems     | 3     | Hard: Stone     |                                                                                  |
-| 5             | Mithral                | 3     | Metal           | weight x1/2 of base weight, does not corrode                                     |
-| 6             | Fiend Source           | 4     | Any             | Endows profane alignment                                                         |
-| 7             | Steel                  | 3     | Metal           |                                                                                  |
-| 8             | Ironwood               | 3     | Medium: Wood    | Not flammable                                                                    |
-| 9             | Superior Ceramic       | 2     | Hard: Ceramic   |                                                                                  |
-| 10            | Iron                   | 2     | Metal           |                                                                                  |
-| 11            | Animal Ivory           | 1     | Hard: Ivory     |                                                                                  |
-| 12            | Bronze                 | 1     | Metal           |                                                                                  |
-| 13            | Hardwood               | 2     | Medium: Wood    |                                                                                  |
-| 14            | Glass/Ordinary Ceramic | 1     | Hard: Ceramic   |                                                                                  |
-| 15            | Animal Bone            | 1     | Medium: Bone    |                                                                                  |
-| 16            | Softwood               | 1     | Medium: Wood    |                                                                                  |
-| 17            | Animal Silk            | 3     | Soft: Cloth     |                                                                                  |
-| 18            | Animal Hide            | 1     | Soft: Hide      |                                                                                  |
-| 19            | Cotton                 | 2     | Soft: Cloth     |                                                                                  |
-| 20            | Wool                   | 1     | Soft: Cloth     |                                                                                  |
+| 2             | Dragon Source          | 4     | Hide/Bone/Ivory | gives advantage to intimidate animals and monsters|
+| 3             | True Gems              | 4     | Hard: Stone     | Indestructible by level 2 and lower materials, cost x128 base cost               |
+| 4             | Semi-precious Gems     | 3     | Hard: Stone     ||
+| 5             | Mithral                | 3     | Metal           | weight x1/2 of base weight, does not corrode|
+| 6             | Fiend Source           | 4     | Any             | Endows profane alignment|
+| 7             | Steel                  | 3     | Metal           ||
+| 8             | Ironwood               | 3     | Medium: Wood    |Not flammable|
+| 9             | Superior Ceramic       | 2     | Hard: Ceramic   ||
+| 10            | Iron                   | 2     | Metal           ||
+| 11            | Ivory (Beast)          | 1     | Hard: Ivory     ||
+| 12            | Bronze                 | 1     | Metal           ||
+| 13            | Hardwood               | 2     | Medium: Wood    ||
+| 14            | Glass/Ordinary Ceramic | 1     | Hard: Ceramic   ||
+| 15            | Bone (Beast)           | 1     | Medium: Bone    ||
+| 16            | Softwood               | 1     | Medium: Wood    ||
+| 17            | Silk (Beast)           | 2     | Soft: Cloth     ||
+| 18            | Hide/Leather (Animal)  | 1     | Soft: Hide      ||
+| 19            | Cotton                 | 1     | Soft: Cloth     ||
+| 20            | Wool                   | 1     | Soft: Cloth     ||
 
 ___
 
 ## The lists
 
-The lists a monetary cost, a labour cost and an availability table. The availability should be taken with a large pinch of salt and is meant as a guide for settings. If availability is "no" the weapon is not generally available or the technology or technique to make it does not exist. "Rare" means it was available at some point of the age, but were not commonly used.
+The lists a monetary cost, a labour cost and an availability table. The availability should be taken with a large pinch of salt and is meant as a guide for settings. If availability is "no" the weapon is not generally available or the technology or technique to make it does not exist. "Rare" means it was available at some point of the age, but not commonly used.
 
 If availability is "no" the item cannot be made, but may be bought from specialist suppliers at x10 the price.
 
@@ -176,7 +176,7 @@ If availability is "rare", the item cost is x2 and the crafting time is x2.
 
 If the time is "ancient", crafting times for mostly metal items is x2 the base time. If the time is "late", the crafting cost is 1/2 the base time.
 
-Importantly crafting time can be shared between several artisans. Thus if an item has a listed crafting time of "100 days", then ten artisans can usually craft it in 10 days.
+Importantly crafting time can be shared between several artisans. Thus if an item has a listed crafting time of "100 days", then ten artisans can usually craft it in 10 days, although this is not always the case (eg, you cannot have ten different artisans working on one glove for an adult human, unless, perhaps, the artisans might be as small as pixies).
 
 ___
 

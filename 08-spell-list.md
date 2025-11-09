@@ -3441,8 +3441,9 @@ ___
 |MP Dice|5 (10)|
 |Target(s)|1 entity|
 |Casting time|"1 main action" (5 hours + 20 minutes per 2MP dice)|
-|Range|close|-1(21)
+|Range|30фт|+1(21)
 |Duration|1 hour (1 day)|5(26)
+|Limitation|Immunity is resistance for weapons of material level 3+|
 |Components|incantation, kinetic|-1(25)
 |Focus|A broken dagger|-1(24)
 |Save|CHA|
@@ -3454,7 +3455,9 @@ ___
 - Immunity to: "bleed" and "cripple".
 - Resistance to: "poisoned".
 
-**Upcast**: For every MP die above 5, the duration increases by 1 hour.
+**Limit**: If damage is caused by weapons of material level 3 or higher, the immunity is instead resistance.
+
+**Upcast**: For every MP die above 5, the duration increases by 1 hour. If 7 MP dice are spent, the spell also functions against weapons of material level 3. If 9 MP dice are spent, it also functions against weapons of material level 4.
 
 **Global**: The spell lasts for 1 day, with an extra day of duration for every 2 MP dice above 10.
 

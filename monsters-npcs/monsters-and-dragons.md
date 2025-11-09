@@ -326,8 +326,8 @@ ___
 |Level|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|-|
 |1 (young:medium)|11/9/11|7|4|2|40ft|climb(20ft)|
-|4 (adult:large)|13/13/9|23 (*17*)|11 (*8*)|7|50ft|-|
-|7 (great:huge)|15/16/9|54 (*30*)|28 (*16*)|13|60ft|Swim (30ft)|
+|4 (adult:large)|13/13/9|29 (*20*)|13 (*11*)|7|50ft|-|
+|7 (great:huge)|15/16/9|58 (*34*)|30 (*18*)|13|60ft|Swim (30ft)|
 
 Adult fell beasts have a natural armour of +2, great have a natural armour of +4
 
@@ -340,7 +340,7 @@ Adult fell beasts have a natural armour of +2, great have a natural armour of +4
 |Adult|Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
 |Stat|16|10|16|7|12|12|
-|Bonus|+3|0|+3|-2|+1|0|
+|Bonus|+3|0|+3|-2|+1|+1|
 |Save|+4|+1|+4|-1|+2|+1|
 
 |Great|Str|Dex|Con|Int|Wis|Cha|
@@ -352,8 +352,8 @@ Adult fell beasts have a natural armour of +2, great have a natural armour of +4
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
 |1 (1)|3|2|1|1|2|2|
-|4 (1)|7|4|2|1|3|2|
-|7 (2)|13|7|3|2|5|4|
+|4 (1)|9|5|2|1|3|2|
+|7 (2)|15|8|3|2|5|4|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|

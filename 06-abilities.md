@@ -1492,11 +1492,11 @@ ___
 
 **Prerequisite table**: This ability can be taken more than once. Each time, the minimum "base" and SP dice requirements must be met.
 
-|Number of attacks|Minimum Base|Minimum SP dice|Ability name|
-|-|-|-|-|
-|2|1|12|Multi-attack I|
-|3|2|25|Multi-attack II|
-|4|4|38|Multi-attack III|
+|Ability name    |Minimum Base|Minimum SP dice|Number of attacks|
+|----------------|------------|---------------|-----------------|
+|Multi-attack I  |2           |1              |12               |
+|Multi-attack II |3           |2              |25               |
+|Multi-attack III|4           |4              |38               |
 
 **Limitations**: 
 

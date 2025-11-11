@@ -866,7 +866,7 @@ Saves: Str, Con
 |Elemental Blast II (one of fire or ice)|+5|2d6|Up to 4d6 (an extra 1d6 per 1MP dice)|
 |Elemental Touch II (one of fire or ice)|+4|2d6|Up to 6d6 (an extra 2d6 per 1MP dice)|
 |Grapple/Throw/Disarm/Sunder|+11|||
-|Aura of Destruction|Thr=18||(Range=30ft) Objects and man-made structures (made of materials of material level 2 or lower) within 60ft of the herald suffer one dice of damage at the start of each of the herald's turn unless they succeed the Thr=20 CON save. Unattended structures and items automatically fail the save.|
+|Aura of Destruction|Thr=18||(Range=30ft) Objects and man-made structures (made of materials of material level 2 or lower) within 30ft of the warrior suffer one dice of damage at the start of each of the herald's turn unless they succeed the Thr=18 CON save. Unattended structures and items automatically fail the save.|
 |||||
 |Monster Attack III|||A fiendish warrior makes 4 attacks/combat manoeuvres|
 |Combined Manoeuvre II|||A fiendish warrior can combine up to 3 basic combat manoeuvres|

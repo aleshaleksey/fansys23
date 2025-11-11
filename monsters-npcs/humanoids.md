@@ -1050,6 +1050,54 @@ Orcs use warlocks to fight against supernatural foes who cannot be fought by con
 An orcish warlock despises combat against living, flesh and blood foes that can be vanquished by the sword, but will nevertheless fight them if necessary.
 
 ___
+### Orcish Shaman/Elder (level 11)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|18/16/15|63 (*33*)|62 (*42*)|15|30ft|-|
+
+(wears hide armour)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|17|14|16|14|18|15|
+|Bonus|+3|+2|+3|+2|+4|+2|
+|Save|+6|+5|+9|+9|+7|+5|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
+|-|-|-|-|-|-|-|
+|8 (3)|15|20|3|4|6|7|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Shortstaff|+9|1d6/1d10+3||
+|War dart|+9|1d4+3|Range=240ft, Increment=60ft|
+|||||
+|[Elemental Touch](../06-abilities.md#touch-elemental-touch)|+9|3d4+4|(light), +1d4 per MP dice|
+|[Elemental Aura](../06-abilities.md#aura)|Thr=20|2d4+4|(light), +1d4 per MP dice|
+|[Elemental Blast](../06-abilities.md#blast-elemental-blast)|+9|2d4+4|(light or lightning), +1d4 per MP dice, see ability.|
+|[Elemental Blast: Line](../06-abilities.md#line)|Thr=20|2d4+4|(light or lightning), +1d4 per MP dice, see ability.|
+|[Elemental Blast: Sphere](../06-abilities.md#circle)|Thr=20|2d4+4|(light or lightning), +1d4 per MP dice, see ability.|
+|Sc: Nature VI|Thr=20||["Compass"](../08-spell-list.md#compass), ["Hide"](../08-spell-list.md#hide), ["Least Heal"](../08-spell-list.md#least-heal), [Beast Speech](../08-spell-list.md#beast-speech), [Cure](../08-spell-list.md#cure), [Growth](../08-spell-list.md#growth), [Healing Seed](../08-spell-list.md#healing-seed), [Rejuvenate Land](../08-spell-list.md#rejuvenate-land), [Greater Fade](../08-spell-list.md#greater-fade), [Lesser Cosmic Seal](../08-spell-list.md#lesser-cosmic-seal), [Spirit Restoration](../08-spell-list.md#spirit-restoration), [Fairy Feast](../08-spell-list.md#fairy-feast)|
+|Sc: Earth III|Thr=20||["Down"](../08-spell-list.md#down), ["Least Geomancy"](../08-spell-list.md#least-geomancy), ["Bear's Claws"](../08-spell-list.md#bears-claws), ["Shape Earth"](../08-spell-list.md#shape-earth), ["Summon gnome"](../08-spell-list.md#summon-gnome), ["Trace Secret Path"](../08-spell-list.md#trace-secret-path), ["Mole"](../08-spell-list.md#mole), ["Guidance of the Earth"](../08-spell-list.md#guidance-of-the-earth), ["Earth Ward"](../08-spell-list.md#earth-ward)|
+|[Sc: Global I](../06-abilities.md#spellcasting-global)||||
+|||||
+|[Multi-attack I](../06-abilities.md#multi-attack-i-iii)|||A shaman can attack twice|
+|[Alternate Form: I](../06-abilities.md#alternate-form-i-iv)|||The shaman can transform into one beast of no higher than 6th level|
+|[Alternate Form: II](../06-abilities.md#alternate-form-i-iv)|||The shaman can transform into one monster of no higher than 11th level|
+|[Alternate Form: Sequester](../06-abilities.md#alternate-form-sequester)|||The shaman can chose to meld their equipment with their alternate form|
+|||||
+|[Cursed Blood](../06-abilities.md#cursed-blood)|||Reaction to cast spells in revenge|
+|Proficiency|||Common and any 2 languages, axes, spears, strikes, staves|
+|Skills|||"Spellworking" +12, knowledge nature, arcana +10, "observe" +12, "track" + 5, "fortify" +4, "navigate" +6, "sense motive" +6|
+
+Some orcs specialise in communion with nature and otherworlds. If they live long enough in dedication to their craft these eventually become shamans. Shamans are held in high regard, usually being chieftains or their advisors. It should be noted that this stat block should only be used for the most accomplished of shamans. Lesser shamans should use the ["geomancer"](#orcish-geomancer-level-7) stat block.
+
+Shamans seldom step onto the battlefield, generally acting in an advisory or leadership role. However, they are a difficult foe to deal with. They will use their alternate form, together with their ability to dig using the "mole" spell, and "trace secret path", to scout and deliver hunters into the back lines and logistic routes of their foes. If this is successful, they may enter the battle directly, using elementalism to pick off dangerous foes capable of turning the tide of the battle, or aiding their own troops with various enchantment.
+
+That said, a shaman's main purpose is not on the battlefield, but leading and guiding their people, and just as often the spirits that could aid or harm them.
+
+___
 ## Winged
 
 **Size**: Small

@@ -891,11 +891,11 @@ ___
 
 **Type**: (Class B)
 
-**Description**: Use a reaction and potentially MP dice to reduce damage from "supernatural" ranged attack.
+**Description**: Use a reaction and potentially MP dice to reduce damage from a "supernatural" attack.
 
-**Effect**: Reduce the damage from a ranged supernatural attack by [1d4 + SAP + [MP dice expended]d4], as long as the damage type does NOT fall into the ["esoteric"](10-conditions-types.md#esoteric-damage) category. 
+**Effect**: Reduce the damage from a supernatural attack by [1d4 + SAP + [MP dice expended]d4], as long as the damage type does NOT fall into the ["esoteric"](10-conditions-types.md#esoteric-damage) category. 
 
-**Action**: As a reaction to being hit by a ranged "supernatural" attack, declare "deflection".
+**Action**: As a reaction to being hit by a "supernatural" attack, declare "deflection".
 
 **Limitations**:
 
@@ -975,11 +975,11 @@ ___
 
 **Type**: (Class S)
 
-**Description**: Use a reaction and MP to reduce damage from ["esoteric"](10-conditions-types.md#esoteric-damage) ranged attack.
+**Description**: Use a reaction and MP to reduce damage from ["esoteric"](10-conditions-types.md#esoteric-damage) attack.
 
-**Effect**: Reduce the damage from a "esoteric" ranged attack by [1d6 + [2 x MP dice expended]].
+**Effect**: Reduce the damage from a "esoteric" attack by [1d6 + [2 x MP dice expended]].
 
-**Action**: As a reaction to being hit by a ranged "esoteric" attack, declare "esoteric deflection".
+**Action**: As a reaction to being hit by a "esoteric" attack, declare "esoteric deflection".
 
 **Limitations**:
 
@@ -1171,16 +1171,18 @@ ____
 
 An elementalism for each element can be enhanced with the following effects/conditions. The effect is declared before any rolls are made. An elementalism does not require an effect, and many elementalists prefer simpler elementalisms with only an element and form.
 
-|Effect       |Element Prerequisite |Other Prerequisites|MP die cost|
-|-------------|---------------------|-------------------|-----------|
-|Prone        |Air or Earth         |-                  |1          |
-|Shove (10ft) |Air or Earth         |-                  |1          |
-|Aphonic      |Air or Lightning     |-                  |1          |
-|Deafened     |Air or Lightning     |-                  |1          |
-|Glowing      |Light                |-                  |1          |
-|Incapacitated|Fire or Lightning    |Base = 2           |2          |
-|Restrained   |Ice                  |Base = 2           |2          |
-|Catatonic    |Light                |Base = 2           |2          |
+|Effect       |Element Prerequisite  |Other Prerequisites|MP die cost|
+|-------------|----------------------|-------------------|-----------|
+|Prone        |Air or Earth          |-                  |1          |
+|Shove (10ft) |Air or Earth          |-                  |1          |
+|Aphonic      |Air or Lightning      |-                  |1          |
+|Deafened     |Air or Lightning      |-                  |1          |
+|Glowing      |Light                 |-                  |1          |
+|Frightened   |Fire or Lightning     |Base = 2           |1          |
+|Blinded      |Fire, Light, Lightning|Base = 2           |2          |
+|Incapacitated|Fire or Lightning     |Base = 2           |2          |
+|Restrained   |Ice or Earth          |Base = 2           |2          |
+|Catatonic    |Light or Fire         |Base = 2           |2          |
 
 The "shove" and "prone" effect are immediate and do not require repeated save. The remaining effects persist for up 1 minute, and allow a save at the end of each of the target's turns.
 
@@ -2194,7 +2196,7 @@ ___
 
 **Special**: 
 
-- Must be taken separately for each time of spellcasting.
+- Must be taken separately for each type of spellcasting.
 - Can be combined with "still spell" and "lingering spell".
 - This allows casting of spells with incantations when under the effects of "aphonia" or "inaudible".
 
@@ -2256,7 +2258,7 @@ ___
 
 **Special**:
 
-- Must be taken separately for each time of spellcasting.
+- Must be taken separately for each type of spellcasting.
 - Can be combined with "still spell" and "aphonic spell".
 
 ___
@@ -2438,7 +2440,7 @@ ___
 
 **Special**:
 
-- Must be taken separately for each time of spellcasting.
+- Must be taken separately for each type of spellcasting.
 - Can be combined with "aphonic spell", "lingering spell" and "swift spell".
 - This allows spellcasting when "immobilised" or "restrained".
 
@@ -2461,7 +2463,7 @@ ___
 
 **Special**:
 
-- Must be taken separately for each time of spellcasting.
+- Must be taken separately for each type of spellcasting.
 - Can be combined with "still spell", "lingering spell", and "aphonic spell".
 
 ___

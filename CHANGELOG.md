@@ -559,6 +559,8 @@ ___
 
 ### Abilities
 - Reduce prohibitive costs of Elementalism ([Chain](06-abilities.md#chain) and [Arc](06-abilities.md#chain)). First bend/30degrees are free. Afterwards reduce to 1 MP die cost.
+- Allow [deflection](06-abilities.md#deflection) and [esoteric deflection](06-abilities.md#esoteric-deflection) to be effective against ALL supernatural attacks.
+- Added "Blinded" and "Frightened", and modified the "Restrained" effect to [elementalism: effects](06-abilities.md#effects).
 
 ### Spells
 - Weaken [Stone Ward](08-spell-list.md#stone-ward), to take into account material levels of weapons.

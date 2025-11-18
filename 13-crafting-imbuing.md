@@ -332,12 +332,14 @@ ___
 Not all magic is equal. Some forms of magic are harder to enchant/imbue into items than others. For such magics, all thresholds for successful imbuing/enchantment are increased by +12. 
 
 Likewise, for every level of the spell, the enchanter must expend HP.
+
 - If the item is single use, the cost is **[spell level]** HP.
 - If it is rechargeable, constant, or at will, the cost is **12 + 2 x [spell level]** HP.
 
 As with MP, this price is paid when the process is complete, and just before the spellworking roll is made.
 
 As it stands exceptional magic includes:
+
 - ANY magic that restores HP to an entity.
 - ANY magic that restores MP, SP, SP dice or MP dice to an entity.
 
@@ -345,9 +347,31 @@ A group may add other spells/supernatural abilities to this list if they decide 
 
 ___
 ### Alchemy
-When creating supernatural potions, powders, salves and similar, a character may use [academics](05-skills.md#academics) (if they are proficient with Alchemist's Tools) instead of "spellworking" for the skill roll.
 
-In this case, the item produced cannot be rechargeable, "constant" or "at will". It is always considered non-rechargeable, although it may contain multiple changes (doses).
+As an alternative for (or addition to) imbuing or enchanting, a character may engage in alchemy to create potions, powders, salves and similar produce. In order to do so, a character uses [academics](05-skills.md#academics) and alchemist's tools in place of spellworking. At least one ranks in "academics" and proficiency with "alchemist's tools" are required.
+
+An alchemical product cannot be rechargeable, "constant" or "at will". It is always considered non-rechargeable, although it may contain multiple charges/doses (eg a jar of curative salve with 6 doses).
+
+Alchemical produce may be natural or supernatural. If creating alchemical produce, the same general rules are used as for other imbuing or enchanting, although there is a small but important difference between them.
+
+___
+#### Supernatural Alchemical Produce
+
+Supernatural alchemical produce require a source of the effect much like other imbuing or enchanting. The difference is, the source may be the freshly [harvested](05-skills.md#harvest) parts of an entity possessing the supernatural ability. There are two conditions for this kind of harvest:
+
+- The reagents are considered "exotic", thus increasing the threshold for the "harvest" roll by +10.
+- The entity must still possess enough SP dice to use the ability, or at least 1 (whichever is higher) when the part is harvested.
+- The amount of raw material needed is x10 greater than final alchemical produce. In general, at least 1lb of reagents are required per dose, although this is not always the case.
+
+___
+#### Natural Alchemical Produce
+
+Natural alchemical products can also be made and mostly follow the standard rules for alchemy, imbuing and enchanting. However, one does not place spells or abilities into such a produce. A character can instead create:
+
+- Produce that cause or cure a [condition](10-conditions-types.md#condition-table), except "dying", "doomed", "poisoned" or "diseased". The difficulty and time taken is determined by the class of the condition (C, B, A, S) in the same way as [class of abilities](#equivalence-between-abilities-and-spells) affects these paraments. If the condition is caused, it is caused for the "default" duration.
+- Produce that cause [poisoning](14-poisons-and-diseases.md#poison-list) or [disease](14-poisons-and-diseases.md#list-of-diseases), or cause a character to roll an additional save against them prematurely. As with conditions, the class of the poison/disease determines the difficulty and time taken. Likewise a source of the poison/disease is needed to extract and concentrate the final concoction.
+- Synthesise/extract various mundane produce such as oils, waxes, perfumes, black powder, or items like paper, torches and the like.
+- Create various miscellaneous items from the list (to do).
 
 ___
 ### Threshold Table
@@ -358,10 +382,9 @@ ___
 |Extra charge on single use/recharge item|From lvl 2|+2|Max of 7 (+12)|
 |Recharging (up to 3 charges)|Up to lvl 2|+1/charge|Max of 3 (+3)|
 |Recharging (up to 3 charges)|From lvl 2|+2/charge|Max of 3 (+6)|
-|Constant|Up to lvl 2|+8||
-|Constant|From lvl 2|+12||
-|At Will|Up to lvl 2|+10||
-|At Will|From lvl 2|+20||
+|Constant||+6 + [2 x spell level]||
+|At Will|Up to lvl 2|+10 + [2 x spell level]||
+|At Will|From lvl 3|+16 + [2 x spell level]||
 |Use activated, no "kinetic" component||+2||
 |Use activated, no "incantation" component||+2||
 |Use activated, no components||+4|Activated by thought or will|

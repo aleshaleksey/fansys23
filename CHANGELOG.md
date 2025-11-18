@@ -564,3 +564,7 @@ ___
 
 ### Spells
 - Weaken [Stone Ward](08-spell-list.md#stone-ward), to take into account material levels of weapons.
+
+### Crafting and Imbuing
+- Adjust the threshold modifiers [in the table](13-crafting-imbuing.md#threshold-table). 
+- Updated and expanded [alchemy rules](13-crafting-imbuing.md#alchemy).

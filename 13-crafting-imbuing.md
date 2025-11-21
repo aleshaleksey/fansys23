@@ -10,18 +10,19 @@
   - [Material Coefficients (quality mods) for items](#material-coefficients-quality-mods-for-items)
   - [Crafting for Enchantment](#crafting-for-enchantment)
   - [Eschewing Reality](#eschewing-reality)
-- [Enchanting and Imbuing](#enchanting-and-imbuing)
+- [Enchanting, Imbuing and Alchemy](#enchanting-imbuing-and-alchemy)
   - [Types of Enchantments](#types-of-enchantments)
   - [The Process of Enchanting](#the-process-of-enchanting)
-  - [Types of Enchanted and Imbued Items](#types-of-enchanted-and-imbued-items)
+  - [Types of magic items](#types-of-magic-items)
     - [Types of magic in items by use](#types-of-magic-in-items-by-use)
     - [Types of magic in items by activation](#types-of-magic-in-items-by-activation)
   - [Equivalence between abilities and spells](#equivalence-between-abilities-and-spells)
-  - [Threshold for Enchanting or Imbuing](#threshold-for-enchanting-or-imbuing)
+  - [Threshold for Enchanting, Imbuing and Alchemy](#threshold-for-enchanting-imbuing-and-alchemy)
   - [Permanency and "Enchantment Quality Items"](#permanency-and-enchantment-quality-items)
   - [Places of Power](#places-of-power)
   - [Re-enchanting/Re-imbuing](#re-enchantingre-imbuing)
   - [Multiple Effects](#multiple-effects)
+  - [Modified Effects and Source Spells/Abilities](#modified-effects-and-source-spellsabilities)
   - [Costs of enchantment and Imbuing](#costs-of-enchantment-and-imbuing)
   - [Time taken for Enchanting/Imbuing](#time-taken-for-enchantingimbuing)
   - [Exceptional Magic](#exceptional-magic)
@@ -187,13 +188,15 @@ ___
 In reality, some seemingly simple items, like bows took a very long time to make, since drying and processing the wood, and other materials when talking about composite bows, took months. Understandably, we eschew these requirements for most crafting processes in the game, assuming that "processed" materials that do not require these very long maturation processes are available. However, if a more gritty style fits the group, then this is something to consider. 
 
 ___
-## Enchanting and Imbuing
+## Enchanting, Imbuing and Alchemy
 
 Enchantment is placing spells upon objects, structures and locales. The item is quite literally under a spell. A heavy blade can be enchanted with magic that makes it lighter, a cloak with magic that makes it warmer, or sets it on fire under certain conditions. A house may be enchanted in a way that its walls bleed on moonlit nights. A rag-doll may be enchanted to dance and sing.
 
 Imbuing is placing supernatural powers so deep within an object, structure or locale, that it itself becomes a source of supernatural power. The words written in a tome of an ancient mage could be imbued with the power to become real spells when read aloud. A pendant found in an forsaken manor could be imbued with the ability to curse those who wear or wield it. A ring bequeathed by an elemental lord of fire, may grant the rightful wearer a fraction of its creator's power.
 
-They are not interchangeable.
+Alchemy is the process of using arcane knowledge to purify, synthesise or transmute raw ingredients into refined produce with special, and potentially supernatural properties. Often this involves infusing them with the alchemists mana, or using ingredients from beings which are intrinsically supernatural. A potion made by a spiteful witch might have the power to submerge the one who drinks it into an eternal, restless sleep, filled with endless nightmares. A salve made by the hermit who dwells in the hidden valley between two sacred peaks might transform the one to whom it is applied into a mythical beast, or heal the most grievous of wounds.
+
+Although the term "enchantment" or "magic item" can refer to any of the three processes, they are not, strictly speaking, interchangeable. Nevertheless the rules that govern them are similar enough to be covered jointly in the sections below.
 
 ___
 ### Types of Enchantments
@@ -225,7 +228,7 @@ As with crafting, the time need not be spent in one block. A working day is cons
 It is possible to ["take care"](02-base-rules.md#taking-24-taking-13-auto-failure-and-voluntary-failure) on the spellworking roll if this would exceed the threshold to successfully enchant/imbue the item. As always, one can only take care if there is no imminent danger, or unusual and unpredictable variables at play.
 
 ___
-### Types of Enchanted and Imbued Items
+### Types of magic items
 
 The magic in items can be:
 
@@ -278,7 +281,7 @@ An ability is considered to be equivalent to a spell for imbuing and enchanting.
 |S|9|
 
 ___
-### Threshold for Enchanting or Imbuing
+### Threshold for Enchanting, Imbuing and Alchemy
 The base threshold (spellcraft) for enchanting an item (single use) with a spell, or an individual effect within a spell is:
 
 **[8 + (2 x level of the spell)]**
@@ -286,6 +289,8 @@ The base threshold (spellcraft) for enchanting an item (single use) with a spell
 The base threshold (spellcraft) for imbuing an item (single use) with a spell, or an individual effect within a spell is:
 
 **[10 + (2 x level of the spell)]**
+
+The threshold for creating alchemical produce is the same as for imbuing an equivalent item.
 
 Furthermore, the base threshold is modified by various factors, such as the kind of item being made (see the [threshold table](#threshold-table) below).
 
@@ -308,6 +313,16 @@ Unlike the initial enchanting or imbuing, re-enchanting/re-imbuing does not requ
 ___
 ### Multiple Effects
 An item can be imbued or enchanted with multiple spells, however, in this case the threshold (above base threshold), material cost, and time spend are additive.
+
+___
+### Modified Effects and Source Spells/Abilities
+When a supernatural effect is placed in an item, some of its parameters may differ from the source spell or ability. Namely:
+  - An enchanter may change the form of an area of effect spell/ability (cube, plane, cone, circle, line, single target, etc). However, neither the area of effect, nor the range can exceed that of the original spell.
+  - An enchanter usually need not apply all of the effects of the spell to the item being enchanted if the spell or ability:
+    - causes damage or a conditions.
+    - directly restores HP, SP or MP.
+    - grants cover or concealment.
+    - For more complex spells/abilities all the effects must be applied in the enchantment. 
 
 ___
 ### Costs of enchantment and Imbuing

@@ -568,3 +568,5 @@ ___
 ### Crafting and Imbuing
 - Adjust the threshold modifiers [in the table](13-crafting-imbuing.md#threshold-table). 
 - Updated and expanded [alchemy rules](13-crafting-imbuing.md#alchemy).
+- Reword enchantment [introduction](13-crafting-imbuing.md#enchanting-imbuing-and-alchemy).
+- Add section on [modifying effects](13-crafting-imbuing.md#modified-effects-and-source-spellsabilities).

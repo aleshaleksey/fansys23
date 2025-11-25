@@ -1945,7 +1945,7 @@ ___
 |Damage|3d8+[Sup] fire|(8)
 |Save|CHA, harmless|
 
-**Description**: Create a barrier of raging fire **up to** 10ft around the target. The barrier gives light concealment to all targets within. Entities inside the barrier have damage reduction of 5 vs non-magical physical or cold/ice attacks that originate outside of the barrier. In addition, any non-magical weapon (or unarmed entity) attacking or otherwise passing through the barrier takes 3d8+[Sup] fire damage.
+**Description**: Create a barrier of raging fire **up to** 10ft around the target. The barrier gives light concealment to all targets within. Entities inside the barrier have damage reduction of 5 vs non-magical physical and resistance to cold/ice attacks that originate outside of the barrier. In addition, any non-magical weapon (or unarmed entity) attacking or otherwise passing through the barrier takes 3d8+[Sup] fire damage. This damage can only be taken once per turn.
 
 **Limitation**:
 
@@ -2126,7 +2126,7 @@ ___
 
 If the target object/material is in contact with an entity at the start of its turn, then the entity must succeed on a CON save or take 2d8 + [Sup] fire damage (half on successful save).
 
-**Upcast (local only)**: At 4 MP dice the spell affects level III materials. At 7 MP dice, the spell affects level IV materials.
+**Upcast (local only)**: At 4 MP dice the spell affects level III materials. At 7 MP dice, the spell affects level IV materials. In addition for every MP die above 3rd, the objects and materials that are affected take an extra die of damage per round, while entities take an additional 1d8 of damage per round.
 
 **Global**: The spell targets all materials/objects (of material level II or lower) in a 50ft radius and lasts for 1 hour.
 

@@ -3302,7 +3302,7 @@ ___
 
 - Everything in the AoE has resistance to ["entropic damage"](10-conditions-types.md#esoteric-damage).
 - All secret paths that start or end in the area of effect are unusable.
-- An entity that wishes to enter or leave the area by "cosmic" or "blink" speed, or through the use of a spell or supernatural ability must succeed on a CHA sav vs the caster's Threshold, or fail.
+- An entity that wishes to enter or leave the area by "cosmic" or "blink" speed, or through the use of a spell or supernatural ability must succeed on a CHA save vs the caster's Threshold, or fail.
 
 **Special**: If the spell is cast as a reaction, it has a duration of 1 minute and cannot be upcast.
 

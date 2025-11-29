@@ -626,6 +626,9 @@ Special abilities and weapons/tools can reduce or remove penalties for manoeuvre
   - Penalty if not proficient with **grapples**.
   - Attack of opportunity on failure.
   - Size dependent.
+  - A character that successfully grapples a target must use part of its body (usually a limb or an object held by that limb) to maintain the grapple. Regardless, the limb (or other body part) cannot be used for kinetic components of spells, or other combat manoeuvres.
+    - The same applies when "restraining" a target.
+    - A character that that has "immobilised" its target is considered to have used at least two limbs.
 - **Restrain**: This is the use of grapple on a prone or grappled target.
   - Effect: The target gains the ["restrained or aphonic"](10-conditions-types.md#conditions-in-detail) conditions.
   - Prerequisite: Foe must be prone or grappled.
@@ -635,6 +638,12 @@ Special abilities and weapons/tools can reduce or remove penalties for manoeuvre
   - The one executing this manoeuvre declares one of the desired outcomes:
    - "Aphonia": Prevent foe from completing incantations.
    - "Restrain": Prevent a foe from casting spells with kinetic components and give penalties to weapon attacks.
+- **Immobilise**: A character may use "grapple" on a "restrained" target, using its whole attack action to immobilise it.
+  - Effect: The target gains the ["immobilised"](10-conditions-types.md#immobilised) condition.
+  - The character that successfully immobilises its target is considered "grappled" unless it is at least two sizes larger than the target that it has immobilised. It is also uses at least two limbs (or objects held by these limbs) to keep the target immobilised.
+  - Requires attack roll vs target's STR or DEX threshold.
+  - Penalty if not proficient with **grapples**.
+  - Size dependent.
 - **Shove**:
   - Effect: Moves a foe away from you by up to 10ft.
   - Requires attack roll vs target's STR or DEX threshold.
@@ -672,7 +681,7 @@ Special abilities and weapons/tools can reduce or remove penalties for manoeuvre
   - Penalty if not proficient with **sunder**.
   - Provokes a penalty and attack of Opportunity if the foe is holding a weapon you are not proficient with AND you are not proficient with **sunder**.
 
-A character that is "grappled", "restrained" can make an opposing "grapple" manoeuvre on its turn to try to break free or move its assailant. A character that is immobilised must use a full round action to make the "grapple" manoeuvre at disadvantage to break free and become "restrained" instead.
+A character that is "grappled", "restrained" can make an opposing "grapple" manoeuvre on its turn to try to break free or move its assailant. A character that is immobilised can likewise us the "grapple" manoeuvre at disadvantage to break free and become "restrained" instead.
 
 ___
 ## Spellcasting and Supernatural abilities

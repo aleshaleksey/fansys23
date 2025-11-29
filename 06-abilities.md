@@ -562,7 +562,7 @@ ___
 
 **Description**: Make a targeted weapon attack against the attacking foe upon successfully parrying (once per round).
 
-**Action**: Once per round, when use of parry successfully causes an enemy's attack to miss, you may immediately make a single weapon attack (or other basic combat manoeuvre) against this enemy. The riposte is considered to be part of your parry for the sake of action economy and is essentially a "non-action".
+**Action**: Once per round, when your character uses "[parry](#parry)" and a melee attack is made against them and does not meet their HiT, the character may immediately make a single weapon attack (or other basic combat manoeuvre) against the attacking entity. The riposte is considered to be part of your parry for the sake of action economy and is essentially a "non-action".
 
 **Prerequisites**: 11 SP dice + "Counterstrike" + "Parry"
 

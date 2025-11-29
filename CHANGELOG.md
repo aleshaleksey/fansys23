@@ -556,6 +556,10 @@ ___
   - [Paralysed](10-conditions-types.md#paralysed)
   - [Helpless](10-conditions-types.md#helpless)
   - [Unconscious](10-conditions-types.md#unconscious)
+- Improve and fix monsters here and there.
+
+### Combat
+- Better describe how ["grapple"](04-combat.md#basic-martial-manoeuvres) can be used to get from "restrained" to "immobilised" and the cost of maintaining a grapple.
 
 ### Abilities
 - Reduce prohibitive costs of Elementalism ([Chain](06-abilities.md#chain) and [Arc](06-abilities.md#chain)). First bend/30degrees are free. Afterwards reduce to 1 MP die cost.

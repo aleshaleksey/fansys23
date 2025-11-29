@@ -1160,6 +1160,7 @@ ___
 |Greater Vitality|||A werewolf restores all SP and MP (but not dice) at the end of a short rest, as well as 1 HP. A werewolf restores HP fully following a long rest.|
 |Anathema: Silver|||Silver negates a werewolf's resistances and "Greater Vitality"|
 |Alternate Form|||As a main action, a werewolf can transform into a wolf, or back into its humanoid form. Any equipment, or possessions are not transformed. ([Wolf](beasts-and-plants.md#wolf), [Giant Wolf](beasts-and-plants.md#giant-wolf-level-9))|
+|[Alternate Form: Swift Transformation](../06-abilities.md#alternate-form-swift-transformation)|||A greater werewolf can shift between forms as a "secondary action".|
 |["Tracker: Swift"](../06-abilities.md#tracker-swift)|||A greater werewolf can track while moving at full speed.|
 |["Terrain Mastery: Forest"](../06-abilities.md#terrain-mastery)|||A greater werewolf gains +2 to "fortify", "stealth", "harvest", "track", "navigate", "prospect" and "creature handling" in forests.|
 |||||

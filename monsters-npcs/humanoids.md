@@ -578,7 +578,7 @@ ___
 |[Elemental Touch: Ice](../06-abilities.md#touch-elemental-touch)|+9|2d6+2 Ice[sup]|Reach=5ft|
 |[Elemental Sweep: Ice](../06-abilities.md#sweep)|+9|2d6+2 Ice[sup]|Reach=5ft|
 |||||
-|[Sc: Kinetic I](../06-abilities.md#spellcasting-local)|Thr=18||["Witch's Candle"](../08-spell-list.md#witchs-candle), ["Least Shroud"](../08-spell-list.md#least-shroud), ["Whispers"](../08-spell-list.md#whispers),["Enflame"](../08-spell-list.md#enflame), "[Spirits' Secret](../08-spell-list.md#spirits-secret)|
+|[Sc: Kinetic I](../06-abilities.md#spellcasting-local)|Thr=18||["Witch's Candle"](../08-spell-list.md#witchs-candle), ["Least Shroud"](../08-spell-list.md#least-shroud), ["Whispers"](../08-spell-list.md#whispers),["Enflame"](../08-spell-list.md#enflame), ["Spirits' Secret"](../08-spell-list.md#spirits-secret)|
 |[Sc: Incantation III](../06-abilities.md#spellcasting-local)|Thr=18||[Down](../08-spell-list.md#down), [Least Ward](../06-abilities.md#least-ward), [Least Spike](../08-spell-list.md#least-spike), [Least Vengeance](../08-spell-list.md#least-vengeance), [Promise](../08-spell-list.md#promise), [Lesser Veil](../08-spell-list.md#lesser-veil), [Wind Walk](../08-spell-list.md#wind-walk)|
 |[Sc: Global](../06-abilities.md#spellcasting-global)||||
 |[Bind Familiar I](../06-abilities.md#bind-familiar-i-iv)||||
@@ -723,9 +723,9 @@ ____
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|14|20|12|14|16|14|
-|Bonus|+2|+5|+1|+2|+3|+2|
-|Save|+5|+8|+7|+4|+11|+5|
+|Stat|14|20|12|14|18|14|
+|Bonus|+2|+5|+1|+2|+4|+2|
+|Save|+5|+8|+7|+5|+15|+5|
 
 |Level(base)|SP dice|MP Dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
@@ -733,12 +733,15 @@ ____
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Longbow|+11|1d10+6 Pi|range = 1200/240ft|
-|Sling|+11|1d6+5 Pi|range = 1600/80ft|
-|Knife|+11|1d4+5 Sl||
+|Longbow|+13|1d10+6 Pi|range = 1200/240ft|
+|Sling|+13|1d6+5 Pi|range = 1600/80ft|
+|Knife|+13|1d4+5 Sl||
 |||||
-|Sc: Nature VII|Thr=21||["Sour"](../08-spell-list.md#silent), ["Hide"](../08-spell-list.md#hide), ["Beast Speech"](../08-spell-list.md#beast-speech), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Rest"](../08-spell-list.md#least-rest), ["Animate Plant"](../08-spell-list.md#animate-plant),["Cure"](../08-spell-list.md#cure), ["Bestial Transformation"](../08-spell-list.md#bestial-transformation), ["Rejuvenate Land"](../08-spell-list.md#rejuvenate-land), ["Greater Fade"](../08-spell-list.md#greater-fade), ["Lesser Cosmic Seal"](../08-spell-list.md#lesser-cosmic-seal), ["Fairy Feast"](../08-spell-list.md#fairy-feast), ["Summon Elemental"](../08-spell-list.md#summon-elemental), ["Create Secret Path"](../08-spell-list.md#create-secret-path), ["Greater Weather Control"](../08-spell-list.md#greater-weather-control)|
-|Sc: Water III|Thr=21||["Least Hydromancy"](../08-spell-list.md#least-hydromancy), ["Mist"](../08-spell-list.md#mist), ["Chill Blood"](../08-spell-list.md#chill-blood), ["Winter's Touch"](../08-spell-list.md#winters-touch), ["Summon Water Sprite"](../08-spell-list.md#summon-water-sprite), ["Least Transformation"](../08-spell-list.md#least-transformation), ["See Spell"](../08-spell-list.md#see-spell), ["Water Ward"](../08-spell-list.md#water-ward)|
+|Elementalism: Light (Blast)|+15|3d4+4 Lig|(Range=120ft+30ft/MP die), maximum of 7 dice (10d4+4)|
+|Elementalism: Light (Circle)|Thr=24|3d4+4 Lig|(Range=120ft+30ft/MP die), maximum of 7 dice (10d4+4), maximum radius of 70ft (10ft/MP die).|
+|||||
+|Sc: Nature VII|Thr=24||["Sour"](../08-spell-list.md#silent), ["Hide"](../08-spell-list.md#hide), ["Beast Speech"](../08-spell-list.md#beast-speech), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Rest"](../08-spell-list.md#least-rest), ["Animate Plant"](../08-spell-list.md#animate-plant),["Cure"](../08-spell-list.md#cure), ["Bestial Transformation"](../08-spell-list.md#bestial-transformation), ["Rejuvenate Land"](../08-spell-list.md#rejuvenate-land), ["Greater Fade"](../08-spell-list.md#greater-fade), ["Lesser Cosmic Seal"](../08-spell-list.md#lesser-cosmic-seal), ["Fairy Feast"](../08-spell-list.md#fairy-feast), ["Summon Elemental"](../08-spell-list.md#summon-elemental), ["Create Secret Path"](../08-spell-list.md#create-secret-path), ["Greater Weather Control"](../08-spell-list.md#greater-weather-control)|
+|Sc: Water III|Thr=24||["Least Hydromancy"](../08-spell-list.md#least-hydromancy), ["Mist"](../08-spell-list.md#mist), ["Chill Blood"](../08-spell-list.md#chill-blood), ["Winter's Touch"](../08-spell-list.md#winters-touch), ["Summon Water Sprite"](../08-spell-list.md#summon-water-sprite), ["Least Transformation"](../08-spell-list.md#least-transformation), ["See Spell"](../08-spell-list.md#see-spell), ["Water Ward"](../08-spell-list.md#water-ward)|
 |Sc: Global I||||
 |||||
 |Low-light vision||||
@@ -804,6 +807,7 @@ Wears padded armour. When wielding blades increases to 18.
 |[Precise Shot I](../06-abilities.md#precise-shot-i-iii)|||Ignore light cover|
 |[Trick Shot I](../06-abilities.md#trick-shot-i-ii)|||Avoid hitting friendlies in melee|
 |[Silent Step III](../06-abilities.md#silent-step-i-iii)|||Move really silently|
+|[Spirit Strike](../06-abilities.md#spirit-strike)|||A hunter can expend an SP die to strike at the target's spirit (MP), hence allowing it to damage incorporeal targets, or those that are otherwise immune to physical damage.|
 |Resistance|||"charmed", "bleeding"|
 |Proficiencies|||One musical instrument, elvish, common|
 |Skills|||+13 stealth, +13 Acrobatics, +8 Athletics, Climb, Swim, +8 Track, Observe, +5 Sense motive, knowledge: nature, geography, "navigate" +5|
@@ -839,6 +843,9 @@ Wears a light cuirass.
 |Sling|+8|1d6+3 Pi|range = 1600/80ft|
 |Shortstaff|+8|1d6+3 Pi||
 |Knife|+8|1d4+3 Sl||
+|||||
+|Elementalism: Light (Blast)|+10|2d4+4 Lig|(Range=120ft+30ft/MP die), maximum of 5 dice (7d4+4)|
+|Elementalism: Light (Circle)|Thr=21|2d4+4 Lig|(Range=120ft+30ft/MP die), maximum of 5 dice (7d4+4), maximum radius of 50ft (10ft/MP die).|
 |||||
 |Sc: Nature V|Thr=21||["Sour"](../08-spell-list.md#silent), ["Hide"](../08-spell-list.md#hide), ["Beast Speech"](../08-spell-list.md#beast-speech), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Rest"](../08-spell-list.md#least-rest), ["Animate Plant"](../08-spell-list.md#animate-plant),["Cure"](../08-spell-list.md#cure), ["Bestial Transformation"](../08-spell-list.md#bestial-transformation), ["Rejuvenate Land"](../08-spell-list.md#rejuvenate-land)|
 |Sc: Water V|Thr=21||["Least Hydromancy"](../08-spell-list.md#least-hydromancy), ["Mist"](../08-spell-list.md#mist), ["Chill Blood"](../08-spell-list.md#chill-blood), ["Winter's Touch"](../08-spell-list.md#winters-touch), ["Summon Water Sprite"](../08-spell-list.md#summon-water-sprite), ["Water Ward"](../08-spell-list.md#water-ward), "[](../08-spell-list.md)"|

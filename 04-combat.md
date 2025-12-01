@@ -448,7 +448,7 @@ Upon failure the character cannot progress through the occupied area. Whether it
 ___
 ### Squeezing
 
-An entity can move through spaces less than its size. In general this is up to half the space it occupies, rounded down, so 2ft for a medium sized entity and 5ft for a large entity. However, in this case it loses any DEX and SHIElD bonus to armour and has disadvantage to DEX and STR saves. Movement through smaller spaces may be possible with an acrobatics roll, but the gap should never be lower than what is physically possible. For example, a human cannot fit through a gap smaller than the diameter of its head, or the width of its hips (approximately 1ft x 2ft for an adult human).
+An entity can move through spaces less than its size. In general this is up to half the space it occupies, rounded down, so 2ft for a medium sized entity and 5ft for a large entity. However, in this case it loses any DEX and SHIELD bonus to armour and has disadvantage to DEX and STR saves. Movement through smaller spaces may be possible with an acrobatics roll, but the gap should never be lower than what is physically possible. For example, a human cannot fit through a gap smaller than the diameter of its head, or the width of its hips (approximately 1ft x 2ft for an adult human).
 
 ___
 ### Creature sizes, reach and combat
@@ -484,7 +484,7 @@ ___
 #### Intervening targets
 An entity that is on the line of attack between a character and their target acts as concealment and risks becoming an intervening target for ranged attacks.
 
-An entity is on the line of attack and becomes an intervening target if its hex/square is intersected by the line from the center of the attacker's square to the center of the intended target's square. If the intended target in the same size category as, or larger than, the intervening entity, it gains heavy concealment, otherwise it gains light concealment.
+An entity is on the line of attack and becomes an intervening target if its hex/square is intersected by the line from the center of the attacker's square to the center of the intended target's square. If the intended target is in the same size category as, or larger than, the intervening entity, it gains heavy concealment, otherwise it gains light concealment.
 
 For the sake of targeted attacks, this acts like ordinary concealment, with one exception: if the roll of the D6 (1 for light cover, 1-2 for heavy cover) results in a miss, the attack instead targets the intervening entity. If there are several intervening targets, roll the concealment separately for each one until you either run out of intervening targets, or hit one of them.
 
@@ -524,7 +524,7 @@ Targets moving out of a threatened square, or undertaking certain other actions 
 
 ___
 #### Avoiding attacks of opportunity
-A target moving out of one threatened square into another threatened square may avoid AoOs by declaring "careful movement" and halving their movement speed for the rest of the turn. Likewise a combatant may roll ["acrobatic"](05-skills.md#acrobatics) to try and avoid attacks of opportunity when moving through a contiguous set of threatened squares (threshold = [attack bonus of hostile] + 13), on a failure by 5 or more, the one making the acrobatics roll falls prone.
+A target moving out of one threatened square into another threatened square may avoid AoOs by declaring "careful movement" and halving their movement speed for the rest of the turn. Likewise a combatant may roll ["acrobatics"](05-skills.md#acrobatics) to try and avoid attacks of opportunity when moving through a contiguous set of threatened squares (threshold = [attack bonus of hostile] + 13), on a failure by 5 or more, the one making the acrobatics roll falls prone.
 
 A character can avoid attacks of opportunity when moving out of a threatened square (into a square that is not threatened) by using their "main action" to withdraw. As in the previous case, an "acrobatics" roll can be used to ameliorate the situation. In this case a successful roll vs [attack bonus of hostile] + 13 allows one to withdraw as a bonus action, as usual, on a failure by 5 or more, the one making the acrobatics roll falls prone.
 
@@ -538,13 +538,13 @@ ___
 The attack of opportunity is made after the provoking action. It begins before the provoking action is resolved, but, as a rule, resolves after the provoking action. There are exceptions to this rule:
 
 - If the target is moving out of a threatened square, the attack is resolved before the movement is completed (think of it as being hit by an attack that is in progress).
-- If the character completing the attack of opportunity has the ["Swift Strike"](06-abilities.md#swift-strike) (their attacks are so fast that the target has no time to finish its own action).
+- If the character completing the attack of opportunity has the ["Swift Strike"](06-abilities.md#swift-strike) ability (their attacks are so fast that the target has no time to finish its own action).
 
 So for example, when attacking a target that is standing up, the attack is made as if the target is still prone (so usually at advantage), but the damage is applied after the target has stood up. Usually this is of no consequence.
 
 If the provoking action is drinking a potion, the effect of the potion, if immediate, kicks in before the damage dealt by the attack.
 
-If the provoking action is an attack with a weapon the the provoking character is not proficient with, any damage caused by the provoking character is applied first. If this means that the provoking character was attacking a comrade of the character making the AoO, the comrade would take damage from the provoking attack and only then does the provoking character take damage from the AoO. This is reversed by "swift strike".
+If the provoking action is an attack with a weapon the provoking character is not proficient with, any damage caused by the provoking character is applied first. If this means that the provoking character was attacking a comrade of the character making the AoO, the comrade would take damage from the provoking attack and only then does the provoking character take damage from the AoO. This is reversed by "swift strike".
 
 If a character is running away, provokes an attack of opportunity when leaving its threatened area, and is grappled (or otherwise attacked) by the ogre, the grapple (or other attack) starts, and is resolved before the provoking character has left its original square.
 
@@ -583,8 +583,8 @@ A character may ride a mount into combat (and in combat). In this case, for move
 
 - Mounting is a "main action". A quick mount can be attempted as a "secondary action" but this increases the risk of failure.
 - Dismounting is a "secondary action".
-- A mount can be commanded to attack with a "communicate action" (threshold=12), although an untrained mount is unlikely to obey (threshold).
-- A mount not trained in combat will likely bolt or freeze ("ride", threshold = 24).
+- A mount can be commanded to attack with a "communicate action" (threshold=12), although an untrained mount is unlikely to obey (threshold=24).
+- A mount not trained in combat will likely bolt or freeze ("ride", threshold=24).
 - A rider with the ["charge"](06-abilities.md#charge) ability may make a single attack as a secondary action even if the mount "runs" or "sprints".
 - A rider that makes a ranged attack, or casts a spell while their mount "runs" or "sprints" is subject to the usual ["vigorous motion"](03-movement-exploration.md#vigorous-motion) rules (threshold=12 concentration save or lose the spell, -2 to attack bonus of ranged attacks and certain skill rolls).
 - When an attack of opportunity is triggered it may be made against the mount or the rider.
@@ -618,7 +618,7 @@ Special abilities and weapons/tools can reduce or remove penalties for manoeuvre
   - Effect: Deal damage to a target.
   - Requires attack roll vs target's HiT.
   - Penalty if not proficient with the weapon.
-  - Effect: If attack succeeds damage is dealt to the target in accordance to the damage rules.
+  - Effect: If attack succeeds damage is dealt to the target in accordance twith the damage rules.
   - Special: Attacking with a weapon you are not proficient with provokes an attack of opportunity as you leave more openings than a proficient combatant.
 - **Grapple**:
   - Effect: The target gains the ["grappled"](10-conditions-types.md#conditions-in-detail) condition: It's move speed is zero.
@@ -626,7 +626,7 @@ Special abilities and weapons/tools can reduce or remove penalties for manoeuvre
   - Penalty if not proficient with **grapples**.
   - Attack of opportunity on failure.
   - Size dependent.
-  - A character that successfully grapples a target must use part of its body (usually a limb or an object held by that limb) to maintain the grapple. Regardless, the limb (or other body part) cannot be used for kinetic components of spells, or other combat manoeuvres.
+  - A character that successfully grapples a target must use part of its body (usually a limb or an object held by that limb) to maintain the grapple. Regardless, the limb (or other body part) cannot be used for kinetic components of spells, movement, or for other combat manoeuvres.
     - The same applies when "restraining" a target.
     - A character that that has "immobilised" its target is considered to have used at least two limbs.
 - **Restrain**: This is the use of grapple on a prone or grappled target.
@@ -638,9 +638,10 @@ Special abilities and weapons/tools can reduce or remove penalties for manoeuvre
   - The one executing this manoeuvre declares one of the desired outcomes:
    - "Aphonia": Prevent foe from completing incantations.
    - "Restrain": Prevent a foe from casting spells with kinetic components and give penalties to weapon attacks.
+  - Keeping a target restrains requires at least one limb, hence precluding its use for movement, attacking or spellcasting.
 - **Immobilise**: A character may use "grapple" on a "restrained" target, using its whole attack action to immobilise it.
   - Effect: The target gains the ["immobilised"](10-conditions-types.md#immobilised) condition.
-  - The character that successfully immobilises its target is considered "grappled" unless it is at least two sizes larger than the target that it has immobilised. It is also uses at least two limbs (or objects held by these limbs) to keep the target immobilised.
+  - The character that successfully immobilises its target is considered "grappled" unless it is at least two sizes larger than the target that it has immobilised. Immobilise also requires at least two limbs (or objects held by these limbs) to keep the target immobilised, hence precluding their use for movement, spellcasting or for other combat manoeuvres.
   - Requires attack roll vs target's STR or DEX threshold.
   - Penalty if not proficient with **grapples**.
   - Size dependent.
@@ -681,7 +682,7 @@ Special abilities and weapons/tools can reduce or remove penalties for manoeuvre
   - Penalty if not proficient with **sunder**.
   - Provokes a penalty and attack of Opportunity if the foe is holding a weapon you are not proficient with AND you are not proficient with **sunder**.
 
-A character that is "grappled", "restrained" can make an opposing "grapple" manoeuvre on its turn to try to break free or move its assailant. A character that is immobilised can likewise us the "grapple" manoeuvre at disadvantage to break free and become "restrained" instead.
+A character that is "grappled", "restrained" can make an opposing "grapple" manoeuvre on its turn to try to break free or move its assailant. A character that is immobilised can likewise use the "grapple" manoeuvre at disadvantage to break free and become "restrained" instead.
 
 ___
 ## Spellcasting and Supernatural abilities
@@ -698,8 +699,8 @@ Spellcasting is covered in detail in ["Chapter 7: Spells"](07-magic-and-spellcas
 
 - They generally take between a couple of seconds to a dozen minutes to cast ("minor action" to "10 minutes"), but generally take a "main action".
 - Their effect is either immediate, or lasts no longer than a few days.
-- Their effect has a range of no more than a mile of a caster.
-- Their effect has a radius of no more than a mile (eg. search spells) or 108ft (eg. explosion magic).
+- Their range is generally no more than a mile.
+- Their effect has a radius of no more than a mile for utility spells (eg. search spells) or about 120ft for offensive spells (eg. explosion magic).
 - They typically take 1-10 MP dice to cast.
 
 Casting spells involve a combination of one or more of the following components:
@@ -741,7 +742,7 @@ The recommended duration for a short rest is 1h in a high-action game and 4h in 
 - [Base x CHA + Total MP dice count] MP.
 - [Base x CON + Total SP dice count] SP.
 
-A character can benefit from number of short rests per long rest no higher than its [Base]. So a level 3 character can benefit from only 1 short rest per long rest, while a level 16 character can benefit from 4 short rests per long rest. This represents a higher level character having a deeper well of reserves to draw from. 
+A character can benefit from number of short rests per long rest no higher than its [Base]. So a level 3 character can benefit from only 1 short rest per long rest, while a level 16 character can benefit from 4 short rests per long rest. This represents a higher level character having a deeper reserves to draw upon. 
 
 ___
 ### Long Rest

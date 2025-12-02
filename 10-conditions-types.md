@@ -25,7 +25,7 @@
       - [Profane](#profane)
     - [Damage rankings](#damage-rankings)
 3. [Entity types](#entity-types)
-4. [Detailed Entity descriptions](#detailed-entity-descriptions)
+4. [Detailed entity descriptions](#detailed-entity-descriptions)
     - [Mortals](#mortals)
     - [Constructs](#constructs)
     - [Spiritual](#spiritual)
@@ -40,29 +40,29 @@
 ___
 ## Natural and supernatural origins
 
-Most entities and phenomena in the game are classified as **natural**/**mundane** (Nat) or **supernatural** (Sup). "Natural" implies that it generally obeys the laws of logic, mathematics, physics and other natural laws. "Supernatural" implies the fantastic that it does not (although it must obey game mechanics, so it clearly obeys some form of logic). A normal house is "natural"/"mundane", but a house possessed by a hungry demon is most certainly "supernatural" (at least until someone gets rid of the demon). The "supernatural" includes gods, spirits, magic and much more.
+Most entities and phenomena in the game are classified as **natural**/**mundane** (Nat) or **supernatural** (Sup). "Natural" implies that it generally obeys the laws of logic, mathematics, physics and other natural laws. "Supernatural" implies the fantastic, which might not obey those laws (although it must obey game mechanics, so it clearly obeys some form of logic). A normal house is "natural"/"mundane", but a house possessed by a hungry demon is most certainly "supernatural" (at least until someone gets rid of the demon). The "supernatural" includes gods, spirits, magic and more.
 
-Often supernatural entities are not effected by "natural" attacks, or have a resistance to them and have abilities that defy reason and bypass mundane, "natural" defences.
+Often supernatural entities are not affected by "natural" attacks, or have a resistance to them and have abilities that defy reason and bypass mundane, "natural" defences.
 
 Most characters are fundamentally "natural", but possesses some "supernatural" abilities and traits. This is an important factor both in building a character and playing it.
 
 ___
 ### Natural and Supernatural damage and abilities
 
-Damage can be either Nat or Sup. Nat damage first affects the target's SP, being at least partially absorbed, before before affecting HP. It generally affects the physical form. Sup damage is first buffered, at least in part, by an entity's MP, before affecting HP. It affects an entity's essence or spirit. Thus if an entity takes 10 "fire"[Sup] damage, the first, say, 7 points may be absorbed by MP, with the remaining 3 points doing HP damage. The exact calculation for maximum Nat damage absorbed by SP is [CON + 2 x SP dice total], and is symmetrical for MP and Sup (see ["Resource Pools"](02-base-rules.md#resource-pools) section).
+Damage can be either Nat or Sup. Nat damage first affects the target's SP, being at least partially absorbed, before affecting HP. It generally affects the physical form. Sup damage is first buffered, at least in part, by an entity's MP, before affecting HP. It affects an entity's essence or spirit. Thus if an entity takes 10 "fire"[Sup] damage, the first, say, 7 points may be absorbed by MP, with the remaining 3 points doing HP damage. The exact calculation for maximum Nat damage absorbed by SP is [CON + 2 x SP dice total], and is symmetrical for MP and Sup (see ["Resource Pools"](02-base-rules.md#resource-pools) section).
 
-Damage caused by mundane or martial abilities is Nat, unless the ability is very powerful, at which it may become Sup. Damage caused by magic, spells and other supernatural abilities is usually Sup, but may also be Nat on occasion (most notably ["physical"](10-conditions-types.md#physical-damage) damage from spellsis considered Natural).
+Damage caused by mundane or martial abilities is Nat, unless the ability is very powerful, at which point it may become Sup. Damage caused by magic, spells and other supernatural abilities is usually Sup, but may also be Nat on occasion (most notably ["physical"](10-conditions-types.md#physical-damage) damage from spells is considered Natural).
 
 Some types of damage bypass both MP and SP, and attack HP directly. Entities that possess abilities that inflict these types of damage are extremely dangerous.
 
-Nat abilities are fueled by SP dice. Sup damage is fueled by MP dice.
+Nat abilities are fuelled by SP dice. Sup damage is fuelled by MP dice.
 
 ___
 ### Resistance to damage and conditions
 
-This is covered in depth in ["Combat: Damage and Death"](04-combat.md#damage-and-death). In short, resistance to a type of damage means an entity takes half the damage from that type. Damage vulnerability means it takes the full damage and then takes half the damage again (in short x1.5).
+This is covered in depth in ["Combat: Damage and Death"](04-combat.md#damage-and-death). In short, resistance to a type of damage means an entity takes half the damage from that type (rounded down). Damage vulnerability means it takes the full damage and then takes half the damage again (in short x1.5).
 
-Resistance to a condition means the entity has advantage on the saves vs a condition. vulnerability means it has disadvantage.
+Resistance to a condition means the entity has advantage on the saves vs a condition. Vulnerability means it has disadvantage.
 
 Immunity to a damage type or condition means the entity is not affected by it.
 
@@ -87,14 +87,15 @@ ___
 ### Mundane, magical and spiritual weapons
 
 Weapons can be mundane, magical or spiritual.
+
 - A mundane weapon deals "physical"[Nat] damage, attacking SP and then HP.
-- A magical weapon deals "physical"[Nat] damage, attacking SP and then HP, but overcomes resistance, but not immunity to physical damage. These weapons are useful for fighting monsters and dragons and should be rare and expensive in any sane setting.
+- A magical weapon deals "physical"[Nat] damage, attacking SP and then HP. It might, on occasion, overcome resistance, but not immunity to physical damage. These weapons are useful for fighting monsters and dragons and should be rare and expensive in any sane setting.
 - A spiritual weapon may (or may not) appear ordinary, but deals "divine"[Sup] damage. As an exception to normal "divine" damage rules, these weapons attack MP and then HP. Spiritual weapons should be exceptionally rare.
 
 ___
 ## Damage types
 
-All damage is deduced from current HP. HP are protected from Nat damage by SP and by MP against Sup damage. An entity's MP/SP can absorb a certain amount of damage and deducing from current MP/SP total, with any excess damage counting against HP. When an entity reaches 0 HP it is "dying". Some damage types ignore MP/SP. They are particularly dangerous.
+All damage is deduced from current HP. HP are protected from Nat damage by SP, and from Sup damage by MP. An entity's MP/SP can absorb a certain amount of damage, which is then deduced from current MP/SP total. Excess damage over that limit is deduced from current HP (see ["Resource pools"](02-base-rules.md#resource-pools) for more details on these limits). When an entity reaches 0 HP it is "dying". Some damage types ignore MP/SP. They are particularly dangerous.
 
 All damage types have associated conditions. If an entity takes HP damage, it risks acquiring such a condition (see above "HP damage and conditions").
 
@@ -136,13 +137,13 @@ Piercing damage is typically caused by teeth and pointy weapons and projectiles.
 
 ___
 #### Slashing
-Slashing damage is typically caused by bladed weapons or sharp claws. It involves the physical splitting of two parts of a target by application of conce ntrated force along a plane (a cut). Soft targets are particularly susceptible to slashing damage.
+Slashing damage is typically caused by bladed weapons or sharp claws. It involves the physical splitting of two parts of a target by application of concentrated force along a plane (a cut). Soft targets are particularly susceptible to slashing damage.
 
 **Associated Conditions:** ["bleeding"](#bleedingwilting) ["crippled"](#crippled).
 
 ___
 #### Percussive
-Percussive damage is typically caused by heavy objects with a lot of momentum. It involves the rapid transfer of physical force over a large area, causing brittle materials to break, and pressure sensitive materials to rupture. Targets of a brittle material are particularly susceptible to this damage type.
+Percussive damage is typically caused by heavy objects with a lot of momentum. It involves the rapid transfer of physical force over a large area, causing brittle materials to break, and pressure-sensitive materials to rupture. Targets of a brittle material are particularly susceptible to this damage type.
 
 **Associated Conditions:** ["crippled"](#crippled), ["prone"](#prone).
 
@@ -192,18 +193,19 @@ Fire damage is caused by the heating of a material, and its subsequent oxidation
 
 ___
 #### Cold (ice)
-Cold damage is caused a reduction of energy level in the substance of the target, often causing it to lose physical function, become brittle, or even freeze.
+Cold damage is caused by cooling (often rapid) of the target, often causing it to lose physical function, become brittle, freeze and potentially break. It is particularly dangerous to constructs and mortals, while being less damaging to structures than fire or lighting, thus being a favourite of mages in most civilisations.
 
 **Associated Conditions:** ["immobilised"](#immobilised) (frozen), ["incapacitated"](#incapacitated) (hypothermia).
 
 ___
 #### Electricity (lightning)
-Lightning damage is caused by a rapid flow of charge through a target which generally causes internal heat-like damage and particularly damages nerves and control systems. Supernatural lightning is often used by divine beings. Lightning is particularly effective against mortals and constructs. Lightning can set fire to flammable materials. For every two damage dice of lightning damage taken, 
+Lightning damage is caused by a rapid flow of charge through a target which generally causes internal heat-like damage and particularly damages nerves and control systems. Supernatural lightning is often used by divine beings. Lightning is particularly effective against mortals and constructs. Lightning can set fire to flammable materials.
 
 **Associated Conditions:** ["paralysed"](#paralysed), ["immobilised"](#immobilised), ["incapacitated"](#incapacitated), ["stunned"](#stunned).
 
 
 **Special**:
+
 - Flammable materials ignite when dealt at least 3 damage dice of lightning damage. Highly flammable materials ignite when dealt any heat damage.
 - For every 2 dice of lightning damage taken, mortals and robots take one point of HP damage.
 
@@ -218,7 +220,7 @@ Light damage can be caused by intense light, which can ablate both surface and d
 ___
 ### Esoteric damage 
 
-Esoteric damage is caused by, typically powerful, supernatural beings. It typically affects either the spirit or essence of an entity. Esoteric damage cannot exist in a world without the "supernatural". These three damage types are particularly dangerous because they ignore the SP and MP of entities that are not divine.
+Esoteric damage is usually caused by supernatural beings of considerable power, usually divine beings. It typically affects either the spirit or essence of an entity. Esoteric damage cannot exist in a world without the "supernatural". These three damage types are particularly dangerous because they ignore the SP and MP of entities that are not divine.
 
 ___
 #### Divine
@@ -227,6 +229,7 @@ Divine damage directly eliminates a target's spiritual essence. Targets without 
 **Associated Conditions:** ["catatonic"](#catatonic), ["immobilised"](#immobilised), ["incapacitated"](#incapacitated), ["aphonia"](#aphonic), ["blinded"](#blinded), ["frightened"](#frightened).
 
 **Special**:
+
 - As with other Esoteric damage, divine damage ignores SP and MP of entities other than divine entities.
 - Divine damage is caused only by high level abilities and powerful entities. Healing spells also cause divine damage, but only to undead.
 
@@ -236,7 +239,8 @@ Entropic damage prevents the laws of creation from functioning, causing physical
 
 **Associated Conditions:** ["crippled"](#crippled), ["incapacitated"](#incapacitated), ["bleeding"](#bleedingwilting).
 
-**Special**: 
+**Special**:
+
 - Entropic damage ignores SP and MP of ALL entities.
 - Entropic damage is caused only by high level abilities and powerful entities.
 
@@ -247,6 +251,7 @@ Profane damage is caused **exclusively** by profane entities. It is the destruct
 **Associated Conditions:** ["bleeding""](#bleedingwilting), ["immobilised"](#immobilised), ["restrained"](#restrained), ["aphonia"](#aphonic), ["frightened"](#frightened), ["charmed"](#charmed).
 
 **Special**: 
+
 - Profane damage ignores SP and MP of all entities except profane entities, divinities and constructs.
 - Profane damage is caused only by high level abilities and powerful entities.
 
@@ -307,23 +312,27 @@ ___
     - **undead** (Sup)
 
 ___
-## Detailed Entity descriptions
+## Detailed entity descriptions
 
 ### Mortals
 
 Mortals are the most common entities in the material world. Mortals have a physical form, limited lifespan and age by necessity. They need to breathe, drink, eat.
 
 **Plants** are the the most common mortals. Plants are generally stationary (no movement speed) and generate organic mass by using water and minerals from the earth they grow in, and energy from sunlight. Some plants, however prey on other creatures.
+
 - Plants do not sleep.
 - Immunities: "frightened", "blinded", "stunned", "catatonic" and "paralysed".
 
 **Animals** are mobile mortals with an Int below 5. They consume other mortals to live.
+
 - Animals need to sleep.
 
 **Humanoids** are bipedal animals with an Int of 5 and above.
+
 - Humanoids need to sleep.
 
 **Dragons** look like reptiles but are not. These are supernatural entities with 6 or more limbs (of which 2 or more typically wings) and scales. They have an Int of at least 10. Dragons typically have obscenely long lifespans and possess the following characteristic features:
+
 - A dragon's eye can see through illusions.
 - Dragons have an "elemental" organ, which allows them to exhale energy, typically fire.
 - Dragons need sleep.
@@ -339,10 +348,12 @@ ___
 Constructs are life-like devices that are capable of movement and are generally made of minerals or metals. They are sometimes called "living dolls", although this term is not strictly correct. Constructs do not reproduce, breathe, drink, eat, sleep or age (unless they are made from mortals).
 
 **Robots** are "natural" constructs, typically made by mortals. In the worlds where they exist, they are the height of non-magical artifice. Since they are merely complex machines, robots lack a spirit and thus have no Cha. Robots that are capable of emulating emotion use Int for Cha rolls. A robot that gains a spirit becomes a golem.
+
 - Robots are immune to: "Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "incapacitated" and "dying".
 - Robots are resistant to "physical" damage.
 
 **Golems** are "supernatural" constructs. Typically they are created for tasks which mortals cannot accomplish because of frailness or limited lifespan. Golems typically continue to carry out these tasks long after their creators pass on.
+
 - Golems are immune to: "Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "stunned" "incapacitated", "catatonic" and "dying".
 - Golems are at least resistant to "physical" damage and all "energy"[Nat] damage.
 
@@ -350,14 +361,17 @@ ___
 ### Spiritual
 
 Spiritual entities are those for which the spirit is the main form and the physical form is a decoration rather than a necessity. Spiritual entities do not sleep or age, although they may need to breathe, drink and eat.
+
 - Spiritual entities are immune to "physical" damage, as their physical form is either unnecessary or not "real".
 - Spiritual beings are immune to "stunned", "immobilised", "crippled", "bleeding", "poisoned", and "paralysed".
 
 **Elementals** are spirits of metaphysical elements of "air", "water", "fire", "earth" (although others might exist). Elementals attract the material of their element to them, giving the appearance of a physical form. However, the elemental does not require this  "body", and attacking it does not damage the elemental. In many worlds they are thought to be part of the mechanisms of creation. Elementals do not breathe, drink or eat.
+
 - An elemental in its element regenerates a number of MP and SP dice equal to at least its "base" (and often more).
 - An elemental is immune to "restrained", "surprised", "helpless" and "dying" in its element.
 
 **Fey** are spirits paradoxically associated with the natural world. Most move between the material world and whatever immaterial realms may be adjacent to it.
+
 - Fey are immune to "charm", "aphonia" and "deafened".
 - All fey have at least one ability that causes "frightened" or "charmed".
 - Most fey have a "blink" speed.
@@ -368,23 +382,27 @@ ___
 ### Divine
 
 Divine entities are those that are involved in some way in the creation of maintenance of creation, or are a manifestation of a law, concept or process of creation. Divine entities are typically incredibly powerful by the standards of mortals, and some are worshipped as gods. Divine entities do not need to breath, drink, eat, or sleep, but are often capable of doing so. They do not age.
+
 - Divine entities are immune to all "natural" damage and resistant to "divine" damage.
 - They are immune to "surprised", "charmed", "frightened", "stunned" and "dying".
 
 **Angels** are the creations of gods, or manifestations of creation itself. They are generally created as messengers and observers, but also occasionally enforcing the will of their creator. Not all angels have free will (Cha). Not all angels align with the typical human understanding of "good" (especially the messengers of dark gods).
-- All angels have true sight, can discern truth from lie.
+
+- All angels have ["Truesight"](06-abilities.md#truesight-i-vi), and can discern truth from lies.
 - Angels takes 1HP damage whenever they lie. Some are incapable of lying.
 - Angels are immune to "light" damage and vulnerable to "profane" damage.
 - Angels have advantage on attacks against "Profanes".
 
 **Glitches** or aberrations, are flaws or inconsistencies in creation made manifest.
+
 - Glitches are immune to "divine" damage and resistant to "profane" damage.
 - Glitches heal 1HP when they are hit with an attack or ability that deals "divine" damage.
 - Glitches have at least one ability that causes "entropic" damage.
 - Glitches generally take on a form which is biologically, and often physically impossible.
 
 Other **divines** are often gods or manifestations of creation. Divines can only be destroyed by "entropic" damage. A divine that reaches minus its HP total from any other type of damage dissipates and reforms somewhere else at another time (possible "here" and "now" if it happens to be sufficiently powerful).
-- All divines have true sight, can discern truth from lie.
+
+- All divines have "Truesight", and can discern truth from lies.
 - Divines are immune to "divine" damage and vulnerable to "entropic" damage.
 - Divines are immune to "prone", "stunned", "blinded", "deafened" and "aphonic".
 
@@ -392,20 +410,23 @@ ___
 ### Profane
 
 Profane beings are those that have been cursed by creation and whose nature drives them to destroy or oppose it. Profane beings do not breath, sleep or age, although some eat and drink.
+
 - Profane entities have vulnerability to "divine" damage and immunity to "disease" and "poison".
 - Profane entities have resistance to "physical" damage.
 - They also have immunity to "dying".
 
 **Fiends** are entities opposed to creation or mortal-kind. In realms where they exist, devils and demons are fiends. Sometimes divine entities fall and become fiends. Fiends that do not reach minus their total HP from "divine" damage will be reborn elsewhere, at another time (hence cycles of dark lord and heroes).
+
 - Fiends are resistant to "fire", "ice" and are vulnerable to supernatural light.
 
 **Undead** are the bodies or souls of deceased mortals that refuse to rest.
+
 - Undead are immune to "stunned", "charmed", "frightened" and "paralysed".
 - Undead are vulnerable to supernatural light.
 
 ---
 ## Conditions and states
-Entities can be affected by a number of conditions, most of them bad. For now these include (and all are badly defined!). Conditions are classified in S to C class based on how much trouble an entity is in if it is afflicted by it. This starts from deadly peril (S) to mildly inconvenient (C). Of course classification is not always absolute.
+Entities can be affected by a number of conditions, most of them bad. Conditions are classified in S to C class based on how much trouble an entity is in if it is afflicted by it. This starts from deadly peril (S) to mildly inconvenient (C). Of course classification is not always absolute.
 
 In addition a condition affects a being for a given duration, which is usually determined by the skill, ability, poison, disease, or phenomenon that causes it. If the rules do not explicitly state the duration of a condition, it is assumed to apply for the "usual" duration, which is defined in the table below.
 
@@ -448,103 +469,117 @@ ___
 ___
 ### Conditions in detail
 #### Doomed
-This entity is doomed to die. It takes 1 HP per round that cannot be prevented by ANY means. The following applies:
-  - It has disadvantage on all skill and stat rolls.
-  - It has advantage to all saving throws.
-  - It has advantage to all attack rolls.
-  - Its base movement speed is halved.
-  - It cannot take reactions.
-  - Every time it takes a "move", "main" or "secondary" action it loses 1 HP.
-  - Every time it takes a "run", "sprint" or "full round action" it loses 2 HP.
-  - As a "dying" entity, a doomed entity dies when it reaches minus its total HP (or, if higher, CON score).
+This entity is doomed to die. It looses 1 HP per round and this cannot be prevented by ANY means. The following applies also applies:
+
+- It has disadvantage on all skill and stat rolls.
+- It has advantage to all saving throws.
+- It has advantage to all attack rolls.
+- Its base movement speed is halved.
+- It cannot take reactions.
+- Every time it takes a "move", "main" or "secondary" action it loses 1 HP.
+- Every time it takes a "run", "sprint" or "full round action" it loses 2 HP.
+- As a "dying" entity, a doomed entity dies when it reaches minus its total HP (or, if higher, CON score).
 
 ___
 #### Dying
 This entity cannot do anything other than make CON saves (threshold = 20) or lose 1 HP per round. It usually suffers from most of the detriments of "Unconscious". If they reach their minus their HP total, or minus their CON (CHA for incorporeal beings) if it is higher than their HP, they die. If they succeed before that, or heal at least 1 HP, they stop losing HP and become "Unconscious".
-  - **Special**: When an entity gains the dying condition, it may choose to instead take the "**Doomed**" status, although this is usually ill advised.
+
+- **Special**: When an entity gains the dying condition, it may choose to instead take the "**Doomed**" status, although this is usually ill advised.
 
 #### Unconscious
 An unconscious character can make CON and CHA saves, and communicate telepathically under certain circumstances. It can take no other actions. In addition it has the following problems:
-  - It does not gain [STATS] to AC.
-  - It it can fall prone, it falls prone.
-  - All melee attacks against it are at advantage.
-  - It loses "evasion" and "shield" bonus to HiT.
-  - All damage bypasses SP and MP.
-  - It cannot cast or concentrate on spells or take any actions.
-  - If it is unconscious because it is asleep, it has -10 on ["observe"](05-skills.md#observe) rolls. If it is unconscious for any other reason, then it cannot properly perceive the outside world or think rationally. 
+
+- It does not gain [STATS] to AC.
+- It it can fall prone, it falls prone.
+- All melee attacks against it are at advantage.
+- It loses "evasion" and "shield" bonus to HiT.
+- All damage bypasses SP and MP.
+- It cannot cast or concentrate on spells or take any actions.
+- If it is unconscious because it is asleep, it has -10 on ["observe"](05-skills.md#observe) rolls. If it is unconscious for any other reason, then it cannot properly perceive the outside world or think rationally. 
 
 #### Helpless
 A helpless character is in a condition where they cannot protect themselves. Usually they are otherwise compromised.
-  - It does not gain [STATS] to HiT.
-  - It it can fall prone, it falls prone.
-  - All melee attacks are at advantage.
+
+  - It does not ga[in [STATS] to HiT.
+  - If it can fall prone, it falls prone.
+  - All melee attacks against it are made at advantage.
   - It loses "evasion" and "shield" bonus to HiT.
   - All damage bypasses SP and MP.
   - It cannot make saves other than CON, CHA and WIS.
   - It cannot move or take take actions other than [WIS] based skill checks.
-  - If it can communicate, it cannot do so "loudly" enough to gain attention from afar without a [SKILL] check from the recipient.
+  - If it can communicate, it cannot do so "loudly" enough to gain attention from afar without a [SKILL] check from the ]recipient.
 
 #### Paralysed
 A paralysed character cannot take physical actions:
-  - This means it cannot move.
-  - It does not gain physical [STATS] to HiT.
-  - Physical melee attacks against it have advantage.
-  - It loses "evasion" and "shield" bonus to HiT.
-  - It it can fall prone, it falls prone.
-  - Physical ranged attacks against it have advantage (if it is prone this cancels out).
-  - Natural damage bypasses SP.
-  - It cannot make [STR] or [DEX] saves.
-  - It cannot use [SKILLS], attacks or cast spells that require the use of its body (including "incantations" and "kinetic components").
+
+- This means it cannot move.
+- It does not gain physical [STATS] to HiT.
+- Physical melee attacks against it have advantage.
+- It loses "evasion" and "shield" bonus to HiT.
+- It it can fall prone, it falls prone.
+- Physical ranged attacks against it have advantage (if it is prone this cancels out).
+- Natural damage bypasses SP.
+- It cannot make [STR] or [DEX] saves.
+- It cannot use [SKILLS], attacks or cast spells that require the use of its body (including "incantations" and "kinetic components").
 
 #### Possessed
 A possessed character has an indwelling spirit that is not its own, that may subsume control of their body.
-  - Only an entity  with a body can be possessed.
-  - A body can be possessed by any number of spirits, but if the total level of the spirits exceeds twice the entity's level, the entity loses one SP dice per hour (and subsequently 1 HP per hour), until the body dies.
-  - A possessed body acts normally, but is entirely under control of the currently active spirit and uses only the skills, abilities and CHA score of the currently active spirit.
-  - When a possessing entity uses the possessed body to perform an action that is against the possessed entity's nature, the possessed entity gains a chance to save against the domination. They also have a chance to save when they receive "light"[supernatural], "divine" or "entropic" damage.
+
+- Only an entity  with a body can be possessed.
+- A body can be possessed by any number of spirits, but if the total level of the spirits exceeds twice the entity's level, the entity loses one SP die per hour (and subsequently 1 HP per hour), until the body dies.
+- A possessed body acts normally, but is entirely under control of the currently active spirit and uses only the skills, abilities and CHA score of the currently active spirit.
+- When a possessing entity uses the possessed body to perform an action that is against the possessed entity's nature, the possessed entity gains a chance to save against the domination. They also have a chance to save when they receive "light"[supernatural], "divine" or "entropic" damage.
 
 #### Dominated
 The mind of a dominated character is wholly under the control of an external force.
-  - A dominated entity has disadvantage on all CHA rolls.
-  - While the dominating entity is not actively controlling their charge, the dominated entity is considered incapacitated.
-  - When the dominating entity is in active control, they may act through the dominated entity, using abilities, proficiencies, skills and stats of the dominated entity.
-  - When a dominated entity is commanded to perform a task that is against their nature, they gain a chance to save against the domination. They also have a chance to save when they receive "divine" or "entropic" damage.
+
+- A dominated entity has disadvantage on all CHA rolls.
+- While the dominating entity is not actively controlling their charge, the dominated entity is considered incapacitated.
+- When the dominating entity is in active control, they may act through the dominated entity, using abilities, proficiencies, skills and stats of the dominated entity.
+- When a dominated entity is commanded to perform a task that is against their nature, they gain a chance to save against the domination. They also have a chance to save when they receive "divine" or "entropic" damage.
 
 ___
 #### Catatonic
 A catatonic character loses the will to act and cannot take actions.
-  - It cannot make attacks, use physical abilities or cast spells.
-  - It loses "evasion" and "shield" bonus to HiT.
-  - It cannot use skills other than those that are involved in perceiving the world.
-  - It cannot make "move actions".
-  - It has disadvantage on all saves.
+
+- It cannot make attacks, use physical abilities or cast spells.
+- It loses "evasion" and "shield" bonus to HiT.
+- It cannot use skills other than those that are involved in perceiving the world.
+- It cannot make "move actions".
+- It has disadvantage on all saves.
 
 #### Crippled
 This character cannot use one or more limbs.
-  - Creatures crippled in movement related limbs cannot "run", "sprint" and move at half pace (or "crawl").
-  - Creatures crippled in prehensile limbs cannot hold weapons or manipulate objects. They have problems completing "kinetic" components.
+
+- Entities with at least one crippled limb that is used for a given mode of movement cannot "run" or "sprint", and moves at half pace. DEX saves are made at disadvantage.
+  - If more than half of the limbs used for a given mode of locomotion are crippled (usually 2 for bipeds and birds, and at least 3 for quadrupeds) it cannot use that movement modality, however, even if it loses all of its movement modalities it can still "crawl" at 5ft per round.
+- A crippled prehensile limbs cannot be used to hold or manipulate tools, weapons or objects and cannot be used (eg for making an attack). DEX based skill and stat rolls are made at disadvantage.
+  - An entity that has all of its prehensile limbs crippled cannot make DEX based skill and stat roles or complete "kinetic" components for spells.
 
 #### Immobilised
 An immobilised character is in trouble.
-  - It has a movement speed of 0ft.
-  - It cannot make [DEX] or [STR] saves, attacks.
-  - It loses "evasion" and "shield" bonus to HiT.
-  - It cannot cast spells with kinetic components.
-  - Attacks against it have advantage.
-  - It cannot use [DEX] and [STR] based skills or abilities except some escape related skills, and even then at disadvantage.
-  - If an entity is immobilised due to successive successful ["grapple"](04-combat.md#basic-martial-manoeuvres) manoeuvres, it may attempt to "grapple" at disadvantage to free itself and become "restrained" instead.
+
+- It has a movement speed of 0ft.
+- It cannot make [DEX] or [STR] saves, attacks.
+- It loses "evasion" and "shield" bonus to HiT.
+- It cannot cast spells with kinetic components.
+- Attacks against it have advantage.
+- It cannot use [DEX] and [STR] based skills or abilities except some escape related skills, and even then at disadvantage.
+- If an entity is immobilised due to successive successful ["grapple"](04-combat.md#basic-martial-manoeuvres) manoeuvres, it may attempt to "grapple" at disadvantage to free itself and become "restrained" instead.
 
 #### Incapacitated
 This creature cannot take actions (other than movement or communication) or reactions in combat.
-  - Attacks against it have advantage.
+
+- Attacks against it have advantage.
 
 #### Stunned
 A stunned character briefly loses control of their body and mind. Stun is a short term effect and ALWAYS provides a [SAVE] every round.
-  - It does not gain physical[STATS] to HiT.
-  - It it can fall prone, it falls prone.
-  - Physical attacks against it have advantage (unless the attack is ranged and the character is prone).
-  - It cannot make [STR], [DEX] or [CHA] saves.
-  - It cannot use [SKILLS], attacks or cast spells that require the use of its body (including "incantations" and "kinetic" components).
+
+- It does not gain "evasion" or "shield" bonus to HiT.
+- If it can fall prone, it falls prone.
+- Physical attacks against it have advantage (unless the attack is ranged and the character is prone).
+- It cannot make [STR], [DEX] or [CHA] saves.
+- It cannot use [SKILLS], attacks or cast spells that require the use of its body (including "incantations" and "kinetic" components).
 
 ___
 #### Bleeding/Wilting
@@ -552,36 +587,41 @@ A bleeding character loses HP every round. A [CON] save, or appropriate healing 
 
 #### Blinded
 A blinded character cannot perceive visual input:
-  - It cannot use [WIS] based skills based on sight.
-  - It had disadvantage on [DEX] based skills.
-  - All targets have full concealment (4/6 miss chance for close (melee) and 5/6 miss chance for ranged) from you for the sake of targeted attacks. Ranged attacks beyond 60ft are also at disadvantage.
-  - It has disadvantage on [WIS] and [DEX] based saves.
+
+- It cannot use [WIS] based skills based on sight.
+- It has disadvantage on [DEX] based skills.
+- All targets have full concealment (4/6 miss chance for close (melee) and 5/6 miss chance for ranged) from it for the sake of targeted attacks. Ranged attacks beyond 60ft are also at disadvantage.
+- It has disadvantage on [WIS] and [DEX] based saves.
 
 #### Charmed
 A charmed character cannot attack the source of its charm. It has disadvantage against [WIS], [CHA], [INT] saves vs it. In theory it perceives its words and actions in the most favourable manner. In practice players are players.
-  - Charmed creatures have disadvantage on deception rolls vs their charmer.
-  - When a charmed character is requested/commanded to perform a task that is against their nature, they gain a chance to save against the charm. They also have a chance to save when they take "divine" or "entropic" damage.
+
+- Charmed creatures have disadvantage on deception rolls vs their charmer.
+- When a charmed character is requested/commanded to perform a task that is against their nature, they gain a chance to save against the charm. They also have a chance to save when they take "divine" or "entropic" damage.
 
 #### Frightened
-A frightened character has disadvantage on targeted attacks. It must use its movement to move away from the source of its fear.
+A frightened character has disadvantage on targeted attacks. It must use its movement to move away from the source of its fear if it can do so without provoking an attack of opportunity or taking damage from other hazards (eg falling). In either case it cannot approach the source of its fear.
 
 #### Restrained
 A restrained character has problems. It has a movement speed of 0ft and suffers from one or more of the following:
-  - It cannot make kinetic components for spells.
-  - It has disadvantage on physical attacks and [DEX] saves.
-  - Attacks against it have advantage.
+
+- It cannot make kinetic components for spells.
+- It has disadvantage on physical attacks and [DEX] saves.
+- Attacks against it have advantage.
 
 #### Surprised
 A surprised character dropped the ball. It cannot take any actions. This condition seldom exists outside of the first round of combat.
-  - Attacks against it have advantage.
-  - It cannot take any actions except reactions and the communicate action.
+
+- It does not gain "evasion" or "shield" bonus to HiT.
+- It cannot take any actions except reactions and the communicate action.
 
 ___
 #### Aphonic
 An aphonic character cannot communicate vocally (or verbally).
-  - This means that skills and abilities requiring speech automatically fail.
-  - Incantations ALWAYS fail.
-  - The character cannot scream, even if they must.
+
+- This means that skills and abilities requiring speech automatically fail.
+- Incantations ALWAYS fail.
+- The character cannot scream, even if they must.
 
 #### Deafened
 A deafened character cannot perceive sound. It cannot hear. It can speak only stutteringly. It must make an [INT] save to complete Incantations (unless it is deaf for longer than month).
@@ -591,35 +631,41 @@ Afflicted by a disease. The effect varies with disease (see ["Diseases"](14-pois
 
 #### Glowing
 An glowing character cannot stealth and is never invisible.
-  - Attacks by entities whose main sense is sight against a glowing character have advantage.
+
+- Attacks by entities whose main sense is sight against a glowing character have advantage.
 
 #### Grappled
 A grappled character has a movement speed of 0ft.
+
 - A grappled character that is in full concealment is considered to have only 3/4 concealment vs the grappling creature.
 
 #### Inaudible
-A silent character makes no sound. It can neither make sounds willingly or unwillingly
-  - It cannot complete incantations or communicate verbally.
-  - Rolls to detect the character based on sound ALWAYS fail.
+A silent character makes no sound. It can neither make sounds willingly or unwillingly.
+
+- It cannot complete incantations or communicate verbally.
+- Rolls to detect the character based on sound ALWAYS fail.
 
 #### Invisible
 This character cannot be directly detected by visual means (aka sight). Characters are considered "blinded" in relation to invisible creatures.
 
 #### Poisoned
 Afflicted by a poison. This has the following general effects:
+
+- The specific poison causes the effects listed in the poison table or in the description of the attack (see ["Poisons"](14-poisons-and-diseases.md#poisons)).
+- If the effect of the poison is not specified in either of these places then its effect is as follows:
   - A poisoned entity's base speed is halved.
   - The entity makes all rolls at disadvantage.
-  - The specific poison may also cause additional effects (see ["Poisons"](14-poisons-and-diseases.md#poisons)).
 
 #### Prone
 A prone character is intimate with the ground.
-  - It can only move at a crawl.
-  - Melee attacks have advantage against it.
-  - Ranged attacks have disadvantage against it.
-  - It has disadvantage on melee attacks.
-  - It has disadvantage at [STR] and [DEX] saves.
-  - It has advantage at skills used in hiding, but may suffer penalties to perception.
-  -  Flying entities that are knocked prone, drops a distance equal to its speed and can only move at half speed on its next turn. If this drop causes it to hit the ground, it suffers all of the consequences of falling (see ["Falling"](03-movement-exploration.md#falling) section).
+
+- It can only move at a crawl.
+- Melee attacks have advantage against it.
+- Ranged attacks have disadvantage against it.
+- It has disadvantage on melee attacks.
+- It has disadvantage at [STR] and [DEX] saves.
+- It has advantage at skills used in hiding, but may suffer penalties to perception.
+- A flying entity that is knocked prone, drops a distance equal to its flight speed and can only move at half speed on its next turn. If this drop causes it to hit the ground, it suffers all of the consequences of falling (see ["Falling"](03-movement-exploration.md#falling) section).
 
 ___
 ### Conditions by Damage Type

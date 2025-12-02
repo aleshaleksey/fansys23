@@ -549,7 +549,7 @@ ___
 ### General
 - Suicide and [voluntary damage](04-combat.md#dropping-defences-and-voluntary-hp-damage) now has rules.
 - Formally change [HiT rules](02-base-rules.md#hit-threshold-hit) to rule that shields and parrying are active, but deflection is passive.
-- Redefine some [conditions](10-conditions-types.md#conditions-in-detail) that are affected by changes to HiT rules:
+- Redefine some [conditions](10-conditions-types.md#conditions-in-detail) that are affected by changes to HiT rules (and other changes to conditions, notably surprised, poisoned and diseased- crippled is also better defined):
   - [Surprised](10-conditions-types.md#surprised)
   - [Immobilised](10-conditions-types.md#immobilised)
   - [Catatonic](10-conditions-types.md#catatonic)

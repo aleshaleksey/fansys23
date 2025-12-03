@@ -1,6 +1,6 @@
 # Weapons and armour
 
-Weapons and armour an essential part of any combat heavy table top RPG system. Weapon rules here are inspired primarily by DnD 3.5, and Pathfinder weapons rules.
+Weapons and armour are an essential part of any combat heavy table top RPG system. Weapon rules here are inspired primarily by DnD 3.5, and Pathfinder weapons rules.
 
 1. [Weapons](#weapons)
     - [Weapon durability](#weapon-durability)
@@ -98,7 +98,7 @@ When using melee weapons, attacking from high ground gives advantage, attacking 
 
 When using ranged weapons, attacking upwards more than 45 degrees halves the range increment and multiplies total range by 3/4. Attacking downwards more than 45 degrees doubles the range increment, however does not increase effective range (an arrow dropped from a plane will hit the ground, but is almost impossible to aim accurately).
 
-As an **optional** rule: Weapons fired downwards beyond the weapon range are aimed at a square (HiT = 10 + number of range increments). If the attack hits the square, the target makes a Dex save vs the attackers NAT (not NAP, NAT) without modifiers. On a successful save, the attack does damage.
+**OPTIONAL RULE**: Weapons fired downwards beyond the weapon range are aimed at a square (HiT = 10 + number of range increments). If the attack hits the square, the target makes a Dex save vs the attackers NAT threshold (not NAP, NAT) without modifiers. On a failed save, the target takes damage.
 
 ___
 ### Two handed and two weapon fighting
@@ -108,7 +108,7 @@ Weapons that are wielded in one hand are called "one-handed" weapons. Weapons th
 ___
 #### Two handed weapons
 
-Two-handed weapons must be wielded with two or more hands to be used effectively. Attacks made with a two-handed weapon using only one hand are made at a -4 penalty. Attacks made with a two-handed weapon with the "heavy" property, longbows and greatbows, deal an additional [STR]/2 damage (rounded down) when wielded with two hands by a character with STR of at least 14.
+Two-handed weapons must be wielded with two or more hands to be used effectively. Attacks made with a two-handed weapon using only one hand are made at a -4 penalty. Attacks made with a two-handed weapon with the "heavy" property, longbows and greatbows deal an additional [STR]/2 damage (rounded down) when wielded with two hands by a character with STR of at least 14.
 
 A character can switch from a two-handed grip to a one-handed grip on a weapon as a free action. However, switching back to a two-handed grip is a ["minor interaction"](04-combat.md#actions-in-combat).
 
@@ -130,7 +130,7 @@ Weapons come in all shapes and sizes. They can be made of various materials. As 
 
 - **Delicate**: On rolling snake eyes, the weapon takes 1 point of damage.
 - **Unwieldy**: Unwieldy weapons cannot be easily used in small spaces, where any dimension (width or height or length) are 5ft or less, or when mounted. In those conditions these weapons are wielded at disadvantage.
-- **Heavy**: This kind of weapon is "unwieldy". A heavy weapon of the correct size category must be wielded in two hands or it counts as an improvised weapon. In addition they grant a +2 on all basic martial manoeuvres. If a heavy weapon user does not have at least +2 to [STR], it takes -4 to attacks with the weapon. If the weapon is a melee weapon, a character wielding it with at least two hands and possessing at least +2 to [STR] adds an additional [STR]/2 to the damage dealt (*rounded down* to the nearest whole number). Thus a character wielding a 2d6 greatsword with [STR] of +2 would deal 2d6+3 damage, while a character with a [STR] of +3 would deal 2d6+4 damage.
+- **Heavy**: This kind of weapon is "unwieldy". A heavy weapon of the correct size category must be wielded in two hands or it counts as an improvised weapon. In addition they grant a +2 on all basic martial manoeuvres (except "attack"). If a heavy weapon user does not have at least +2 to [STR], it takes -4 to attacks with the weapon. If the weapon is a melee weapon, a character wielding it with at least two hands and possessing at least +2 to [STR] adds an additional [STR]/2 to the damage dealt (*rounded down* to the nearest whole number). Thus a character wielding a 2d6 greatsword with [STR] of +2 would deal 2d6+3 damage, while a character with a [STR] of +3 would deal 2d6+4 damage.
 - **Reach**: This weapon is "unwieldy", but it does have a range of 10ft.
 - **Long**: These weapons are not quite reach weapons, but they are bit longer than usual. A long weapon allows a wielder to use its "secondary action" to lunge and extend its reach to 10ft for a single attack.
 - **Light**: -2 when on the receiving end of "sunder" and "disarm" manoeuvres. Its users have advantage when using stealth to conceal this kind of weapon.

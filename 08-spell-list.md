@@ -969,7 +969,7 @@ Other users of air magic can use "knowledge:arcana" to recognise that the spell 
 
 - Last known heading of the nearest entity that fits the description, if in range of the spell.
 - Last known activity of the nearest entity that fits the description, if in range of the spell.
-- Location of all entities that that fit the description (other answers still apply only to the nearest entity).
+- Location of all entities that fit the description (other answers still apply only to the nearest entity).
 - The spirits' attitude towards the entity:
   - positive if alignment is "spiritual", "divine" or "elemental: air".
   - negative if alignment is "profane" or "elemental: earth".

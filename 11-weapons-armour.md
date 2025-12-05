@@ -154,12 +154,12 @@ ___
 
 Weapon damage is almost always natural physical damage (see ["damage type"](10-conditions-types.md#damage-types)). However, certain abilities like ["spirit strike"](06-abilities.md#spirit-strike) can change this. Weapons deal damage based on the damage dice which are specific to each weapon (see the [weapon table](#weapon-table) below) plus the bonus based on its governing stat (as well as material bonus and potentially other bonuses). For example a hand axe has an attack bonus of [[NAP] + [STR]] and deals [1d6 + [STR]] damage.
 
-Weapon attacks are generally targeted attacks that rely on NAP and are ["governed"](04-combat.md#attacks-and-damage-bonuses) by one of STR or DEX. For example a hand axe is always governed by STR, a bow is always governed by DEX. However, some, mostly melee, weapons can be governed by either (STR/DEX) as per character choice. If a weapon that that can be governed by either is used with DEX, then [DEX] is added to the attack bonus, but there is no stat bonus added to the damage unless the character has the ["weapon finesse"](06-abilities.md#weapon-finesse) boon.
+Weapon attacks are generally targeted attacks that rely on NAP and are ["governed"](04-combat.md#attacks-and-damage-bonuses) by one of STR or DEX. For example a hand axe is always governed by STR, a bow is always governed by DEX. However, some, mostly melee, weapons can be governed by either (STR/DEX) as per character choice. If a weapon that can be governed by either is used with DEX, then [DEX] is added to the attack bonus, but there is no stat bonus added to the damage unless the character has the ["weapon finesse"](06-abilities.md#weapon-finesse) boon.
 
 ___
 ### Improvised Weapons
 
-Items that are not designed to be used as weapons can also be used for this purpose, although they are generally les effective. A character using an improvised weapon makes attack rolls as if it is not proficient (-5 penalty). The size of an improvised weapon affects how much damage it does, and its form affects the damage. For example a character wielding a vase might do percussive damage, while one wielding a fork might do [a small amount of] piercing damage.
+Items that are not designed to be used as weapons can also be used for this purpose, although they are generally less effective. A character using an improvised weapon makes attack rolls as if it is not proficient (-5 penalty). The size of an improvised weapon affects how much damage it does, and its form affects the damage. For example a character wielding a vase might do percussive damage, while one wielding a fork might do [a small amount of] piercing damage.
 
 |Category|Guideline Weight|Damage|
 |-|-|-|
@@ -173,7 +173,7 @@ ___
 
 This table gives a quick overview of weapons. For details on each weapon, see the weapon description. The damage dice of weapons follow the general ["Dice size rules"](02-base-rules.md#dice-size-rules). For suggested costs and availability see [the weapons table](12-equipment-economy.md#weapons) in the [Equipment and Economy](12-equipment-economy.md) chapter.
 
-**NB**: Since specific properties are an important part of how a weapon is used, it is advisable to read over the description of weapons the reader is thinking of using for their character. Sometimes a weapon listed in the table represents several functionally similar historical weapons. Therefore if you do find your beloved katana, please check the entry for "falchion".
+**NB**: Since specific properties are an important part of how a weapon is used, it is advisable to read over the description of weapons the reader is thinking of using for their character. Sometimes a weapon listed in the table represents several functionally similar historical weapons. Therefore if you do not find your beloved katana, please check the entry for "falchion".
 
 Damage Key:
 - Percussive: B
@@ -260,17 +260,19 @@ Damage Key:
 ___
 ### Unarmed Combat
 
-Unarmed combat is the use of one's own body to effectively neutralise targets. In a mundane world this is not particularly effective on the battle field, but can be used effectively in offensively and defensively in other situations, especially when weapons are not available. In a world where the supernatural exists, unarmed combat has additional uses. Attacking with techniques from this category without proficiency provokes attacks of opportunity from trained combatants. Proficiency with an unarmed combat technique allows the use that technique with no penalty even when wielding weapons not specifically designed for it or when wielding no weapon at all.
+Unarmed combat is the use of one's own body to effectively neutralise targets. Contrary to what one might think, unarmed combat techniques are effective on and off the battle field. The heavy armour of a knight can be penetrated so much more easily once its wearer is restrained, to give an example.
+
+Attacking with techniques from this category without proficiency provokes attacks of opportunity from trained combatants. Proficiency with an unarmed combat technique allows the use of that technique with no penalty even when wielding weapons not specifically designed for it or when wielding no weapon at all.
 
 **Disarming** is the act of liberating a foe of their weapon. Also grants proficiency with "sunder". Ranged weapons cannot be used for disarming or sundering. It follows the rules set out in "Basic Martial Manoeuvres".
 
 **Grapple** is the act of restricting the movement of your foe using your body or held items. It covers the "grapple" and "restrain" manoeuvres and follows the ["Basic Martial Manoeuvres"](04-combat.md#basic-martial-manoeuvres) rules.
 
-**Strikes** are the use of appendages or protruding body parts to deal percussive or piercing damage to a target.
+**Strikes** are the use of appendages or protruding body parts to deal percussive or shear damage to a target.
 
 **Throw** is the act of moving your foe around the battlefield or throwing them down. It follows the "Basic Martial Manoeuvres" rules. It also gives proficiency with "shove" and "trip" manoeuvres.
 
-**Interception** is the art of intercepting a target's attacks as effectively at the lowest cost to yourself. It is used when you need to defend one or more squishy allies from harm, or when you are trying to get your character killed.
+**Interception** is the art of intercepting a target's attacks as effectively as possible at the lowest cost to yourself. It is used when you need to defend one or more squishy allies from harm, or when you are trying to get your character killed.
 
 ___
 ### Light blades
@@ -288,7 +290,7 @@ This is something of a misnomer. Light blades refers to smaller one handed blade
 
 **Daggers** include kitchen knives, hunting knives, daggers and similar blades. They are often somewhat throwable. Daggers have the "light" property.
 
-**Scimitars** are curved blades designed for cutting and chopping. Scimitars, sabres, kodachi, kukri and machetes all fall in this category. They can cause the "crippled" condition.
+**Scimitars** are curved blades designed for cutting and chopping. Scimitars, sabres, kodachi, kukri and machetes all fall into this category. They can cause the "crippled" condition.
 
 **Short Swords** are short straight blades designed primarily for stabbing. They are simple, sturdy blades. The gladius is a typical short sword.
 
@@ -332,18 +334,18 @@ A hefted weapon with a sharp, protruding head that is used for chopping. While a
 
 **Hand Axe**: Any well balanced, one handed axe with a sturdy construction is considered a hand axe. Cavalry axes are usually also considered hand axes. Hand axes have of the "bleeding", "Tool:Carpentry", "Tool:Fortification" and "Tool: Forestry" properties.
 
-**War shovel**: Shovels can be a deadly weapon. Noticing this, many armies and rebel groups keep a stock of well balanced shovels. War shovels have the "bleeding", "Tool:fortification" and "Tool:agriculture". **NB:** This weapon is most appropriate for late renaissance pre WWI settings.
+**War shovel**: Shovels can be a deadly weapon. Noticing this, many armies and rebel groups keep a stock of well balanced shovels. War shovels have the "bleeding", "Tool:fortification" and "Tool:agriculture". **NB:** This weapon is most appropriate for late renaissance pre-WWI settings.
 
 **War pick**: Hefted picks, including kamas and european war-picks can be considered "war picks" for the sake of proficiency. War picks have the "sunder" property, and "sunder" vs armour is at advantage when using a war pick.
 
-**War axe**: Axes specifically made for combat. This generally refers to large single headed axes, but on occasion can include two headed axes. War axes have the "bleeding" and "Tool: Forestry" property.
+**War axe**: Axes specifically made for combat. This generally refers to large, single headed axes, but on occasion can include two headed axes. War axes have the "bleeding" and "Tool: Forestry" property.
 
 **Greataxe**: This category contains any large axes, including shorter Danish axes that require two hands to use. It has the "bleeding" and "heavy" properties.
 
 ___
 ### Percussive
 
-Percussive weapons like clubs, maces and hammer are in their essence a weight at the end of a handle and rely on blunt force trauma (percussive). All percussive weapons can cause "cripple".
+Percussive weapons like clubs, maces and hammers are in their essence a weight at the end of a handle and rely on blunt force trauma (percussive). All percussive weapons can cause "cripple".
 
 |Weapon|Special Properties| Manoeuvres|
 |-|-|-|
@@ -355,19 +357,20 @@ Percussive weapons like clubs, maces and hammer are in their essence a weight at
 |War hammers|cripple|sunder|
 |Mauls|cripple, heavy, prone, special|sunder|
 
-**Clubs** can include police batons, bats, and heavy branches and have been made from just about any material. As long as humanoids have existed they have used clubs. A basic club is extremely easy to make and use. Clubs do NOT require proficiency to use. 
+**Clubs** can include police batons, bats, and heavy branches and have been made from just about any material. As long as humanoids have existed they have used clubs. A basic club is easy to make and use. Clubs do NOT require proficiency to use. 
 
-**Greatclub**: A big club that needs two hands to wield. A greatclub is extremely easy to make and use, however it is heavy. Greatclubs are "heavy" weapons that do NOT require proficiency to use. However, if a greatclub user does not have at least +2 to Str, it takes -4 to attacks. Greatclub can cause "prone".
+**Greatclub**: A big club that needs two hands to wield. A greatclub is easy to make and use, however it is heavy. Greatclubs are "heavy" weapons that do NOT require proficiency to use. However, if a greatclub user does not have at least +2 to Str, it takes -4 to attacks. Greatclub can cause "prone".
 
-**Mace**: A flail consist of a wooden haft joined to one or more metal heads via chains. Essentially this is a "ball and chain on a stick". The chain linking the haft and head not only makes the flail a difficult to read weapon, but also makes it useful for grappling.
+**Mace**: A mace consists of a heavy, worked head of stone or metal on a wooden shaft. Often the head is flanged to make it more effective at breaking both objects and bone.
+
+**Flail**: A flail consist of a wooden haft joined to one or more metal heads via chains. Essentially this is a "ball and chain on a stick". The chain linking the haft and head not only makes the flail a difficult to read weapon, but also makes it useful for grappling.
 
 **Morning stars** are essentially spiked maces. This allows it to also deal piercing damage. Morning star can cause can cause "bleeding".
 
-**Flail** ball on a chain with a handle. On Snake eyes, a flail deals its normal (not critical) damage to its wielder.
-
 **War hammers** are a family of mace-like weapons with an asymmetrical head: One end is blunt, the other end is sharp, for piercing armour. War hammers have the "sunder" property, and "sunder" vs armour and unattended items is at advantage when using a war hammer. **NB** long hefted war hammers in the style of venetian war hammers are considered pole-arms for for the sake of proficiency.
 
-**Mauls**: Any exceptionally big and heavy war hammer -like weapons that requires hands to use is considered a maul here. Mauls are always "heavy" and can cause the "cripple" and "prone" condition. In addition, the weight of a maul means that it:
+**Mauls**: A particularly big and heavy war hammer-like weapons that requires two hands to use is considered a maul here. Mauls are always "heavy" and can cause the "cripple" and "prone" condition. In addition, the extra momentum that a maul can impart to an attack means that it:
+
 - Deals an extra die of damage when used with the "sunder" manoeuvre. For example, a medium sized maul, when used to sunder a shield, despite dealing 2d6 damage, deals 3 dice of damage instead of 2.
 - When used attack inanimate object (doors, windows, walls, manacles, etc), ignores one point of damage reduction.
 
@@ -406,9 +409,9 @@ ___
 |Venetian Hammer|unwieldy, heavy|grapple, sunder|
 |Long axe|unwieldy, heavy, cripple, bleeding||
 
- **Glaive**: A blade of at least one foot at the end of a long heft. This category includes the glaive, palma, naginata, bardiche and other weapons.
+ **Glaive**: A blade of at least one foot at the end of a long haft. This category includes the glaive, palma, naginata, bardiche and other weapons.
 
- **Halberd**: This refers to a family of weapons with a complex head that often make it suitable for penetrating armour of other nasty manoeuvres.
+ **Halberd**: This refers to a family of weapons with a complex head that often make it suitable for penetrating armour or for other nasty manoeuvres.
 
  **Venetian Hammer**: Similar to a halberd, but with a hammer instead of an axe. "Sunder" vs armour and unattended items is at advantage when using this weapon.
 
@@ -417,7 +420,7 @@ ___
 ___
 ### Staves
 
-Staves are round poles with a length between 4-8ft. Staves are percussive weapons that can also be used for support when "crippled" or on difficult terrain. They particularly useful for non-lethal combat. Staves can cause "cripple" and "prone".
+Staves are round poles with a length between 4-8ft. Staves are percussive weapons that can also be used for support when "crippled" or on difficult terrain. They are particularly useful for non-lethal combat. Staves can cause "cripple" and "prone".
 
 |Weapon|Special Properties| Manoeuvres|
 |-|-|-|
@@ -447,7 +450,7 @@ Slings are simple in construction and difficult in exploitation. They make use c
 ___
 ### Bows
 
-Bows are curved ranged weapon that, when strung, appears as a length of material, bent into a curve by a string from its two extremities. This is one of the most common and effective ranged weapons used in most realms. Bows are quite delicate weapons and easily ruined by poor handling or attacks aimed to sunder them. All bows cause "bleeding". Bows have the "delicate" property. Bows cannot be used effectively from "prone".
+Bows are ranged weapon that consist of a length of supple material (usually, wood or a composite of wood, horn and sinew), bent into a curve by a string connected to its two extremities. They are used for firing arrows over a considerable range. This is one of the most common and effective ranged weapons used in most realms. Bows are quite delicate weapons and easily ruined by poor handling or attacks aimed to sunder them. All bows cause "bleeding". Bows have the "delicate" property. Bows cannot be used effectively from "prone".
 
 |Weapon|Special Properties| Manoeuvres|
 |-|-|-|
@@ -475,13 +478,13 @@ Mechanical bows are bow-like weapons where the draw is performed by a mechanism,
 |Crossbow|bleeding||
 |Winch crossbow|bleeding||
 
-**Hand Crossbow:**: This refers to small, light crossbows that can be wielded in one hand. It is a "secondary action" to reload a hand crossbow. If the wielder has a free appendage they can reload it as part of the attack (essentially using it as a two handed weapon).
+**Hand Crossbow:**: This refers to small, light crossbows that can be wielded in one hand. It is a "secondary action" to reload a hand crossbow. If the wielder has a free appendage, they can reload it as part of the attack (essentially if the hand crossbow is wielded with two hands).
 
 **Crossbow**: This refers to a lever-drawn crossbow. Reloading this weapon is a "secondary action". In practice this means that one may make only one attack per turn with this weapon.
 
 **Winch Crossbow**: This refers to larger crossbows drawn by a winch. It fires a heavy bolt and has terrific penetrating power at close range. Reloading it is a "full round action" (you want a squire or hireling for this!). In practice this means that a solitary wielder of one of these weapons can only make one attack with it every two turns. **NB:** Light winch crossbows are not included because no one in their right mind who can afford a better one would use these.
 
-**Optional rule: Repeater Crossbow**: Any crossbow can be fitted a magazine that holds 5 bolts. This means that it only needs to be reloaded every 5 rounds. However, these mechanisms are expensive, complex and prone to jamming on snake eyes. They also add 1-3lb to the weight of a crossbow. Most importantly they are not appropriate to all settings.
+**Optional rule: Repeater Crossbow**: Any crossbow that is not a winch crossbow can be fitted a magazine that holds 5 bolts. This means that it only needs to be reloaded every 5 rounds. However, these mechanisms are expensive, complex and prone to jamming on snake eyes. They also add 1-3lb to the weight of a crossbow. Most importantly they are not appropriate to all settings.
 
 ___
 ### Blowguns
@@ -503,7 +506,8 @@ Blowguns are essentially tubes used to shoot darts, propelled by air pressure, w
 ___
 ### Firearms
 
-Weapons with a closed or open barrel weapons that use the energy in explosive substances (or magic) to accelerate a projectile towards a target fall into this category. With the exception of some early and ancient firearms. This kind of weapon is easy to wield and long to reload. It is favoured by armies due to the ease of training manpower in their use, but are not ideal for explorers and adventurers who must carry several of them in order to keep anything resembling an adequate rate of fire. Firearms have several exceptional properties:
+Weapons with a closed or open barrel that use the energy in explosive substances (or magic) to accelerate a projectile towards a target fall into this category. This kind of weapon is easy to wield and slow to reload. Firearms are favoured by armies due to the ease of training manpower in their use, but are not ideal for explorers and adventurers who must carry several of them in order to keep anything resembling an adequate rate of fire. Firearms have several exceptional properties:
+
 - All firearms have the "loud", "bleeding" and "delicate" properties.
 - All firearms ignore "armour" component of HiT within the first range increment.
 - **NB:** these weapons are not appropriate for all fantasy settings.
@@ -519,21 +523,21 @@ Weapons with a closed or open barrel weapons that use the energy in explosive su
 
 **Musket**: This refers to earlier long barrelled flint lock firearms with an emphasis on range. It takes a full round action to reload this weapon.
 
-**Blunderbuss**: This refers to long barrelled flint lock firearms with an emphasis on damage rather than distance, and Yuan hand cannons. It takes a full round action to reload this weapon.
+**Blunderbuss**: This refers to long barrelled flint lock firearms with an emphasis on damage rather than distance. Yuan hand cannons can also be considered to fall into this category. It takes a full round action to reload this weapon.
 
-**Gun-blade**: This is a pistol with a short blade, allowing to make melee attacks with the same weapon. Unfortunately this causes the weapon to be incredibly unbalanced. As such all attacks with non-magical gun-blades are made at disadvantage.
+**Gun-blade**: This is a pistol with a short blade, thus allowing this firearm to be used for both melee and ranged attacks. Unfortunately this causes the weapon to be incredibly unbalanced. As such all melee attacks with non-magical gun-blades are made at disadvantage. Gun-blades with at least a level-II enchantment do not suffer from this drawback.
 
 ___
 ### Siege
 
-These are heavy weapons that are designed for destroying fortifications, large monsters and concentration of enemy soldiers. Typically these are large mechanical devices that are too heavy and unwieldy to be transported by a member of th race that made it and must be transported by other means.
+These are heavy weapons that are designed for destroying fortifications, large monsters and concentration of enemy soldiers. Typically these are large mechanical devices that are too heavy and unwieldy to be transported by a member of the race that made it and must be transported by other means.
 
 |Weapon|Special Properties|Manoeuvres|
 |-|-|-|
 |Ballista (bolt)|bleeding, delicate||
 |Ballista (bullet)|bleeding, delicate, Special||
 
-**Ballista**: A tension device, similar to a very large crossbow, that can be used to launch javelin-like bolts, which weight 6lb each, or stones/bullets weighting 60lb, over great distances with a high measure of precision. It requires 2 full-round actions to load a ballista, an additional move action to aim, and a standard action to fire. __Aiming and firing cannot be done on the same round as loading__. Ballistas, when firing bullets, ignore the [damage reduction of inanimate objects](03-movement-exploration.md#object-hit-point-durability-table).
+**Ballista**: A tension device, similar to a very large crossbow, that can be used to launch javelin-like bolts, which weight 6lb each, or stones/bullets weighting 60lb, over great distances with a high measure of precision. It requires 2 full-round actions to load a ballista, an additional move action to aim, and a main action to fire. __Aiming and firing cannot be done on the same round as loading__. Ballistas, when firing bullets, ignore the [damage reduction of inanimate objects](03-movement-exploration.md#object-hit-point-durability-table).
 
 A ballista typically weights about 400lb, and requires a space of 10ft x 10ft to operate.
 
@@ -544,10 +548,10 @@ ___
 
 ### Armour and its relationship with [HiT]
 
-Targeted attacks are rolled against ["HiT"](02-base-rules.md#hit-threshold-hit). [HiT] represents how effective/powerful/precise a target attack has to be to harm the target. It is made of the following components, all of which stack:
+Targeted attacks are rolled against ["HiT"](02-base-rules.md#hit-threshold-hit). [HiT] represents how effective/powerful/precise a targeted attack has to be to harm the target. It is made of the following components, all of which stack:
 
 - Initial Hit (ALWAYS 10).
-- Base (general experience bleeding through to various aspects of defense).
+- Base (general experience bleeding through to various aspects of defence).
 - Evasion (avoiding the brunt of the attack, eg dodging)
 - Deflection (deflecting the brunt of the attack through active means, eg parrying)
 - Shield (deflecting the brunt of the attack through passive means, eg shields)
@@ -588,7 +592,7 @@ Any entity whose body fits a suit of armour can wear the armour. As such it will
 - When an entity dons or doffs an armour it is not proficient with, it takes twice as long to don and doff the armour as normal.
 - While an entity is wearing an armour it is not proficient with:
   - If it is a **medium** or **heavy** armour: It takes a -5 penalty to all DEX and STR based rolls it makes.
-  - If it is a **light** armour or a **shield**: It takes a -2 penalty to all DEX and STR based rolls and gains only half of the armour bonus (rounded down). to HiT.
+  - If it is a **light** armour or a **shield**: It takes a -2 penalty to all DEX and STR based rolls and gains only half of the armour bonus to HiT.
 
 
 ### Donning and Doffing armour
@@ -606,12 +610,14 @@ Armour can be donned properly or hastily. Hastily donned armour has -2 to armour
 ### Armour penalties
 
 Armour tends to restrict movement, somewhat. This is reflected in several penalties:
+
 - Dex Rating.
 - Armour Weight Penalty.
 
 **Dex rating**: A character with a Dex bonus higher than the rating, only applies the "Dex rating" to all rolls, attacks and saves. 
 
 **Weight Penalty**: Medium and heavy armour give a weight penalty.
+
 - Medium Armour gives a -2 penalty to all CON rolls related to endurance.
 - Heavy Armour gives a -4 penalty to all CON rolls related to endurance and a -2 penalty to attack rolls.
 
@@ -623,6 +629,7 @@ ___
 This table gives a quick overview of armour. For details, see the armour description.  Specific properties of armour are less important than those of weapons, but it may still be of interest. As with weapons, if you do not find your favourite type of armour here, it may have been rolled into another type. For suggested costs and availability see [the armour table](12-equipment-economy.md#armour) in the [Equipment and Economy](12-equipment-economy.md) chapter.
 
 Bonus Key:
+
 - Armour: A
 - Shield: S
 
@@ -662,14 +669,16 @@ ___
 Medium armour covers armours which either protect the whole body or have a full body underlayer, and a second layer which either gives adequate protection to most of the body or good protection to the most vital areas. Most armour falls in this category. Medium Armour gives a -2 penalty to all [Con] rolls related to endurance.
 
 **Full Padded** or "padded armour" can be any particularly thick and protective clothes, including the silken armours of the saracens, hides worn by northern tribes and gambeson of medieval europe. These armours offer some protection to the whole body and are light enough to wear on a long march. they are also reasonably inexpensive.
-- Special: This armour can serve as cold or hot weather clothes depending on the specific type.
+
+- *Special*: This armour can serve as cold or hot weather clothes depending on the specific type.
 
 **Hide Armour**: This includes particularly thick all body hides and specially made hide armour and low quality leather. The thickness of the armour means that it is somewhat restrictive, but it is also easy and inexpensive to make.
-- Special: This armour can often serve as cold weather gear.
+
+- *Special*: This armour can often serve as cold weather gear.
 
 **Full leather**: This is any high quality armour made of hardened leather or materials with similar properties.
 
-**Brigandine**: Classical "studded leather". Brigandine consists of thin metal plates covered and joined by fabric or thin leather. It is worn atop padded armour and often a chain shirt. This kind of armour offers a good trade off between price, mobility, weight and protection. The segmented nature of this armour means that it is easily repaired. It is a choice of ranged troops, although elite archers will find it restrictive. Heavier linothorax armour belongs in this category.
+**Brigandine**: Classical "studded leather". Brigandine consists of thin metal plates covered and joined by fabric or thin leather. It is worn atop padded armour and often a chain shirt. This kind of armour offers a good trade-off between price, mobility, weight and protection. The segmented nature of this armour means that it is easily repaired. It is a choice of ranged troops, although elite archers will find it restrictive. Heavier linothorax armour belongs in this category.
 
 **Full Chain**: Full chain mail, worn atop padded armour to reduce chaffing.
 
@@ -682,7 +691,7 @@ Heavy armour consists of an underlayer (usually padded), a mid-layer (usually ch
 
 **Segmented Mail:** This refers to any kind of mail other than chain mail, such as scale mail, banded mail and ring mail that covers most of the body. This kind of armour typically has a layer of padded armour beneath it and at least a chain shirt.
 
-**Half Plate:** This refers to armour with a padded underlayer, chain layer, cuirass and metal segments covering all parts off the body, but without fully secured joints.
+**Half Plate:** This refers to armour with a padded under-layer, chain layer, cuirass and metal segments covering all parts off the body, but without fully secured joints.
 
 **Full Plate:** A half plate with fully secured joints is considered a full plate here.
 
@@ -697,10 +706,11 @@ Equipping light, heavy and tower shields is a "full round action". Equipping a b
 
 **Light shield**: This represents smaller shields that offer good protection for the torso but are not big enough to protect legs or head, or open up the torso when used to protect against that kind of attack.
 
-**Heavy Shield**: This represents large shields and includes older and newer kinds of kite shields, as well as some larger round shields. Typically when equipped this type of shield offers a good level of protection to torso, as well as some protection to legs and neck.
+**Heavy Shield**: This represents large shields and includes older and newer kinds of kite shields, as well as some larger round shields. Typically when equipped this type of shield offers a good level of protection to the torso, as well as some protection to the legs and neck.
 
 **Tower Shield**: This represents shields almost tall and wide enough to cover the entire body of the character. An example is the Roman scutum.
-- Special: This shield can be set as a "main action" to provide heavy cover to a single creature of the size it was made for, leaving the wielder's hands free for all kinds of wonderful things.
+
+- *Special*: This shield can be set as a "main action" to provide heavy cover to a single creature of the size it was made for, leaving the wielder's hands free for all kinds of wonderful things.
 
 #### Special
 
@@ -726,7 +736,7 @@ This section contains a few notes on "realism". It is not exhaustive.
 - In reality the relationship between armour and firearms is more complex than the rules here, but it would likely bog things down a bit too much.
 - To the question of "Why bother with armour at all, when some people have an Evasion bonus of +6 which is higher anyway?", I would remind you that for +6 is heroic. Most people have -1 to +1. Therefore, historically, in a mundane world, travellers, explorers, nobles and soldiers benefit from armour. Now if most soldiers in a civilisation were elven monks with +6 to Evasion bonus, then that civilisation would likely not have developed armour.
 - Interestingly most texts and commentators note that armours affect agility a lot less than comfort and endurance.
-- In reality each type of armour is defends specifically against different kinds of attacks. However, in a game where there are a dozen kinds of damage and monsters whose natural weapons do all kinds of wonderful things that you might not see on the battlefield, it is abstracted out.
+- In reality each type of armour defends specifically against different kinds of attacks. However, in a game where there are a dozen kinds of damage and monsters whose natural weapons do all kinds of wonderful things that you might not see on the battlefield, it is abstracted out.
 
 ## Disclaimer
 

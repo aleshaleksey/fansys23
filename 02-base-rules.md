@@ -50,11 +50,11 @@
 
 ___
 ## Foreword
-This is a FIRST DRAFT of some general rules. They are over-ruled by more specific rules that pertain to certain creatures and situations. Some rules are prefaced by an ALWAYS or NEVER directive. In these cases they are absolute and apply in all situations.
+This chapter contains base rules which form the foundations of the whole system. While it is not necessary to memorise, or even systematically read through this section, it is desirable that players at least look over it. In the worst case scenario it remains as a useful reference. The general rules contained in this chapter are over-ruled by more specific rules that pertain to certain creatures and situations. Some rules are prefaced by an ALWAYS or NEVER directive. In these cases they are absolute and apply in all situations.
 
 ___
 ## Purpose of the system
-The system codifies the rules for a fantasy roleplaying game that focuses on combat and exploration. It aims to build on what I perceive as strength of existing systems and address their weaknesses:
+The system codifies the rules for a fantasy role-playing game that focuses on combat and exploration. It aims to build on what I perceive as strength of existing systems and address their weaknesses:
 
 - Keep a well codified rulebook (PF).
 - Create a relatively deep character creation system (PF).
@@ -148,7 +148,7 @@ For dynamic thresholds, it can be difficult to tell, which of the opposing rolls
 - An observed entity is trying create a distraction so it can hide: The perception roll becomes the threshold, and the distraction/deception roll becomes the opposing roll.
 - Anne tries to throw Bob onto his back. Bob wishes to stay on his feet. Bob's grapple roll is the threshold, and Anne's roll is the opposing roll.
 
-This rule is a refinement and codification of "meets it beats it" and "defender wins" (except here defender loses). It is chosen as the method for resolving rolls as it is most similar to "meets it beats it", while being systematic and consistent, and not because it is in some way mathematically superior.
+This rule is a refinement and codification of "meets it beats it". It is chosen as the method for resolving rolls as it is most similar to "meets it beats it", while being systematic and consistent. The "meets it beats it" approach favours the character attempting to change the status quo, which is important since we wish to avoid long, stagnant encounters.
 
 ___
 #### Difficulties and recommended thresholds
@@ -167,7 +167,7 @@ The numbers on thresholds and rolls are abstractions of how difficult a task is 
 ___
 #### Modifiers vs Advantage/Disadvantage
 
-A mix of game balance and simulationism guide our understanding on what they represent and how they should be applied.
+A mix of game balance and simulationism guide our understanding of what they represent and how they should be applied.
 
 Advantage represents factors that mitigate some potential of failure, but do not improve the best result. For example a sharp knife makes it easier to gut a rabbit, but does not increase the amount of meat one can harvest (a rabbit only has a rabbit worth of meat).
 
@@ -255,12 +255,12 @@ Template is a set of attributes, usually attributed to race or species, that is 
 ___
 #### Size category
 
-Size categories [diminutive, tiny, small, medium, large, huge, gargantuan, colossal] affect how much space an entity takes up on (and off) a battlefield, its reach, its AC, and potentially other things. Size rules are described in the ["Size Rules"](#size-rules-table) section below.
+Size categories [diminutive, tiny, small, medium, large, huge, gargantuan, colossal] affect how much space an entity takes up on (and off) a battlefield, its reach, its [HiT](#hit-threshold-hit), and potentially other things. Size rules are described in the ["Size Rules"](#size-rules-table) section below.
 
 ___
 #### Movement modalities
 
-Movement modalities are usually determined by race and special abilities. A creature WITH a movement modality may (or may not!) be able to move over other terrain with an ability check. this is covered in ["movement"](03-movement-exploration.md#local-and-global-movement) rules:
+Movement modalities are usually determined by race and special abilities. A creature WITH a movement modality may (or may not!) be able to move over other terrain with an ability check. This is covered in ["movement"](03-movement-exploration.md#local-and-global-movement) rules:
 
 - **walk speed**: ground movement over horizontal-ish terrain.
 - **climb speed**: ground movement over vertical-ish terrain.
@@ -308,7 +308,7 @@ In addition at level 8 and level 16 a character gets a "race boon" from its race
 ___
 #### Level points and abilities
 
-Every character gets 3 level points at level 1 and at each subsequent level up. These can be spend as follows.
+Every character gets 3 level points at level 1 and at each subsequent level up. These can be spent as follows.
 
 + Exchanged for skill points at the rate of 1 level points = 4 skill points.
 + Used to increase any stat at the rate of 1 level point = +1 to a single stat. No stat may exceed 24 for player characters. A character can only add one level point to stats per level.
@@ -393,9 +393,9 @@ ___
  This represents your health or life force. Loss of HP represents physical/spiritual damage/degradation.
 
 - A character has maximum HP = [CON+CHA+LEVEL].
-- Every time an entity loses 1 or more HP, it must make a save or risk gaining a condition (see ["Damage types"](10-conditions-types.md#damage-types)).
+- When a character loses 1 or more HP it risk gaining a condition (see ["Damage types"](10-conditions-types.md#damage-types) and [The 2d12 roll](#the-2d12-roll)).
 - An entity at 0 HP is disabled and cannot act.
-- An entity at the negative of their HP total is destroyed.
+- An entity whose HP equals the negative of either their CON or HP total (whichever is greater) is destroyed.
 - A character regains a single point of HP per long rest (usually a day). If a character receives long term medical care this becomes 2HP. (see ["Rest and Recuperation"](04-combat.md#rest-and-recuperation))
 - When a character with no SP takes natural damage, it loses HP equal to the damage taken.
 - When a character with no MP takes supernatural damage, it loses HP equal to the damage taken.
@@ -403,7 +403,7 @@ ___
 ___
 #### MP dice pool
 
-This is the determinant of "MP pool".
+This is the determinant of "Mana pool".
 
 - A character has a capacity of up to [3 MP dice / level] + 1 (min 1).
 - A character uses MP dice to fuel powerful mental/spiritual abilities.
@@ -427,7 +427,7 @@ This is a measure of an entities' mental/spiritual energy.
 ___
 #### SP dice pool
 
-This is the determinant of "SP pool".
+This is the determinant of "Stamina pool".
 
 - A character has a capacity of up to [3 SP dice / level] + 1 (min 1).
 - A character uses SP dice to fuel powerful physical/natural abilities.
@@ -466,7 +466,7 @@ This is the "natural" (Nat) and "supernatural" (Sup) component of many bonuses. 
   - So a character with 29 "SP dice" has a Nat = 5.
 
 - **Sup = [MP / 6] rounded up**
-  - So a character with 31 "SP dice" has a Nat = 6.
+  - So a character with 31 "MP dice" has a Sup = 6.
 
 ___
 ### NAP and SAP, NAT and SAT: Attack of the three letter words II
@@ -587,7 +587,7 @@ The number of skill points a character can have in a single skill is capped to:
 ___
 ### Abilities
 
-These are the really cool abilities that a character has, like throwing fire balls, healing otherwise lethal walls, or being able to chop a giant rock in half (or carry said rock). In short extra "things" that a character can do that it might not be able to do, or the ability to withstand things it might not be able to withstand otherwise. A character can gain abilities in exchange for level points. Abilities are covered in the ["Abilities"](06-abilities.md) chapter.
+These are the really cool abilities that a character has, like throwing fire balls, healing otherwise lethal wounds, or being able to chop a giant rock in half (or carry said rock). In short extra "things" that a character can do that it might not be able to do, or the ability to withstand things it might not be able to withstand otherwise. A character can gain abilities in exchange for level points. Abilities are covered in the ["Abilities"](06-abilities.md) chapter.
 
 ___
 ### Size
@@ -606,8 +606,6 @@ Entities can have different physical sizes. These are categorised into 8 categor
 With "medium" being roughly human sized, and each size category up being approximately twice the size in length/height of the previous one (x8 in volume and weight). We do not deal with size categories below "diminutive" although smaller entities certainly exist (they're just treated as "diminutive" for the sake of mechanics).
 
 While as a human centric game the mechanics are fine tuned to medium sized characters, the size rules mean that they will also work for larger and smaller characters, although there will be certain very obvious (and some less obvious) advantages and disadvantages for characters of those size categories.
-
-NB: These rules are incomplete. More complete rules on hypo/hyperthermia affects and hunger need to be developed.
 
 ___
 #### Weapon Damage and Reach
@@ -640,7 +638,7 @@ Entities larger than "medium" take more damage when flying in stormy weather (["
 ___
 ### Senses
 
-An entity is assumed by default to have the senses of sight and hearing. Other basic, natural senses include smell, touch and taste, but not all entities possess these senses. For example an incorporeal entity might not have touch, a an undead skeleton might not have taste. In general [mortals](10-conditions-types.md#mortals) have all five senses unless stated otherwise.
+An entity is assumed by default to have the senses of sight and hearing. Other basic, natural senses include smell, touch and taste, but not all entities possess these senses. For example an incorporeal entity might not have touch, an undead skeleton might not have taste. In general [mortals](10-conditions-types.md#mortals) have all five senses unless stated otherwise.
 
 In addition an entity might have the following "special" senses that act like sight in many ways but detect something other than normally visible light:
 
@@ -665,7 +663,7 @@ Sight is the ability to see. An entity with sight can detect and distinguish sha
 
 Entities with sight may then make an ["observe"](05-skills.md#observe) roll to gain additional visual information.
 
-If light levels are low, eg. on a starlit/moonlit night, in a candle-lit hideout, these rolls are made at disadvantage, likewise, all targets of ranged "targeted attacks" and melee attacks beyond the entity's normal reach are considered to be "heavily obscured". In addition ["Prospect"](05-skills.md#investigateprospect), ["Navigate"](05-skills.md#navigate) and ["Track"](05-skills.md#track) rolls are made at disadvantage in low light conditions or darkness unless the entity making them is adapted to rely on other sense or has a special sense which is applicable in that situation. All of the drawbacks of low light levels (but not complete darkness) are negated by "low light vision". Furthermore a character with low-light vision treats the area within twice the "dim light" radius of a light source as if it were dim light (if it is not otherwise illuminated). Thus if the "dim light" radius of a torch ends within 40ft, a character with "low-light vision" would see within 40ft of the torch as if it were in bright light, and between 40-80ft as if it were in dim light.
+If light levels are low, eg. on a starlit/moonlit night, in a candle-lit hideout, these rolls are made at disadvantage, likewise, all targets of ranged "targeted attacks" and melee attacks beyond the entity's normal reach are considered to be "heavily obscured". In addition ["Prospect"](05-skills.md#investigateprospect), ["Navigate"](05-skills.md#navigate) and ["Track"](05-skills.md#track) rolls are made at disadvantage in low light conditions or darkness unless the entity making them is adapted to rely on other senses or has a special sense which is applicable in that situation. All of the drawbacks of low light levels (but not complete darkness) are negated by "low light vision". Furthermore a character with low-light vision treats the area within twice the "dim light" radius of a light source as if it were dim light (if it is not otherwise illuminated). Thus if the "dim light" radius of a torch ends within 40ft, a character with "low-light vision" would see within 40ft of the torch as if it were in bright light, and between 40-80ft as if it were in dim light.
 
 In total or near total darkness, eg in an unlit cave or catacomb, or on a moonless, cloudy night (barring torchlight), an entity with ordinary sight or even "low light vision" is ["blind"](10-conditions-types.md#conditions-in-detail). Similarly an "invisible" entity cannot be detected by ordinary sight, but the tracks it leaves might be visually detectable with a ["track"](05-skills.md#track) roll, following the normal rules for the skill.
 

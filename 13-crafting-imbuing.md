@@ -92,15 +92,15 @@ Characters can ["take care"](02-base-rules.md#taking-24-taking-13-auto-failure-a
 
 If the roll succeeds, the material is consumed and the crafting succeeds at the end of the allotted time. If the roll fails by 4 or less, the character has used up half of the material, but is immediately aware of their failure and does not use the other half of the material or time. If the roll fails by more than 4, the character uses all of the material and only realises that they ruined it at the end of the crafting period, hence also losing all of the time.
 
-Beating the threshold by 6 or more creates an item which has +1 to durability for every 6 by which the threshold is beaten.
+Beating the threshold by 6 points or more creates an item which has +1 to durability for every 6 points by which the threshold is beaten.
 
 The rules for crafting complex devices are similar, to those here, but the thresholds are defined in the ["Skills:Tinker" section](05-skills.md#tinker).
 
 #### Special
 
-- A D12 when making an item causes it to be inhabited by a minor spirit, giving it a random level one enchantment.
+- A critical success when making an item causes it to be inhabited by a minor spirit, giving it a random level one enchantment. If the material level of the item is 1, the enchantment persists for a month. If it is level 2, the enchantment persists for a year. If the material level is at least 3, the enchantment is permanent.
 - Snake eyes on making items means the tools take 1 point of damage.
-- Snake eyes on making an alchemical produce, causes it to explode (Dex save, Threshold=16) in a 10 ft radius causing 1d8 of fire damage for every "material level" of the ingredients.
+- Snake eyes on making an alchemical produce causes it to explode (Dex save, Threshold=16) in a 10 ft radius causing 1d8 of fire damage for every "material level" of the ingredients.
 - Snake eyes on making a poison means that the artisan(s) making it poison themselves in the process.
 
 ___
@@ -175,17 +175,17 @@ It should also be noted that the cost also includes costs of treatment and proce
 As an exception, "precious" materials that are highly limited in availability break these rules. For example, silver costs 600sp per lb, while gold typically costs 6000lb per lb, despite having limited use for crafting. Likewise, groups may adjust "market prices" of crafting material for world building and plot related reasons. 
 Typically, a precious material will cost at least x100 more per lb than an ordinary material, although it will grant no mechanistic benefit, setting aside the prestige. Alchemical reagents and gems and metals used to make jewellery typically fall into this category. Luckily you do not need to measure those in pounds.
 
-Lastly, groups should remember that acquiring high quality and rare materials is in itself perfect subject matter for side quests.
+Lastly, groups should remember that acquiring high quality and rare materials is in and of itself an excellent subject matter for side quests.
 
 ___
 ### Crafting for Enchantment
 
-All items can be enchanted, but only specially prepared and crafted items will hold their magic permanently. This may involve engraving special ritual circles, or symbols on parts of the item, or performing length rituals to cleanse and purify, or perhaps despoil the material. Regardless, this increases the crafting time by a factor of x1.5, with a minimum of 1 day.
+All items can be enchanted, but only specially prepared and crafted items will hold their magic permanently. This may involve engraving special ritual circles, or symbols on parts of the item, or performing lengthy rituals to cleanse and purify, or perhaps despoil the material. Regardless, this increases the crafting time by a factor of x1.5, with a minimum of 1 day.
 
 ___
 ### Eschewing Reality
 
-In reality, some seemingly simple items, like bows took a very long time to make, since drying and processing the wood, and other materials when talking about composite bows, took months. Understandably, we eschew these requirements for most crafting processes in the game, assuming that "processed" materials that do not require these very long maturation processes are available. However, if a more gritty style fits the group, then this is something to consider. 
+In reality, some seemingly simple items, such as bows, took a very long time to make. This is because preparing the materials (in the example with bows, drying and processing the wood and other materials), took months. Understandably, we eschew these requirements for most crafting processes in the game, assuming that "processed" materials that do not require these very long maturation processes are available. However, if a more gritty style fits the group, then this is something to consider. 
 
 ___
 ## Enchanting, Imbuing and Alchemy
@@ -194,7 +194,7 @@ Enchantment is placing spells upon objects, structures and locales. The item is 
 
 Imbuing is placing supernatural powers so deep within an object, structure or locale, that it itself becomes a source of supernatural power. The words written in a tome of an ancient mage could be imbued with the power to become real spells when read aloud. A pendant found in an forsaken manor could be imbued with the ability to curse those who wear or wield it. A ring bequeathed by an elemental lord of fire, may grant the rightful wearer a fraction of its creator's power.
 
-Alchemy is the process of using arcane knowledge to purify, synthesise or transmute raw ingredients into refined produce with special, and potentially supernatural properties. Often this involves infusing them with the alchemists mana, or using ingredients from beings which are intrinsically supernatural. A potion made by a spiteful witch might have the power to submerge the one who drinks it into an eternal, restless sleep, filled with endless nightmares. A salve made by the hermit who dwells in the hidden valley between two sacred peaks might transform the one to whom it is applied into a mythical beast, or heal the most grievous of wounds.
+Alchemy is the process of using arcane knowledge to purify, synthesise or transmute raw ingredients into refined produce with special, and potentially supernatural properties. Often this involves infusing them with the alchemist's mana, or using ingredients from beings which are intrinsically supernatural. A potion made by a spiteful witch might have the power to submerge the one who drinks it into an eternal, restless sleep, filled with endless nightmares. A salve made by the hermit who dwells in the hidden valley between two sacred peaks might transform the one to whom it is applied into a mythical beast, or heal the most grievous of wounds.
 
 Although the term "enchantment" or "magic item" can refer to any of the three processes, they are not, strictly speaking, interchangeable. Nevertheless the rules that govern them are similar enough to be covered jointly in the sections below.
 
@@ -263,9 +263,9 @@ ____
 
 **Hit/success triggered**: Magic in weapons can be triggered by a successful attack (eg "entangle on hit"). Magic in armour, talismans and similar can be triggered by a successful save (eg "aqueous step on save"), or on a successful skill roll. This activation does not require an action beyond a successful attack/save/skill roll.
 
-**On use**: The most common magic items are activated by an action. Like spells, these actions can have one or more of an "incantation' or "kinetic" component. Rarely they may be activated by thought alone. In general using this kind of item requires an action, be it a "reaction", "secondary action", "main action", "full round action" or other.
+**On use**: The most common magic items are activated by an action. Like spells, these actions can have one or more of an "incantation" or "kinetic" component. Rarely they may be activated by thought alone. In general using this kind of item requires an action, be it a "reaction", "secondary action", "main action", "full round action" or other.
 
-**On change of state**: Some magic items activated when its wielder's state changes, eg, when it gains or loses a condition, is hit by an attack, moves, or fails a save. Activating these items does not require an action, but does require the specific condition being met.
+**On change of state**: Some magic items activate when their wielder's state changes, eg, when it gains or loses a condition, is hit by an attack, moves, or fails a save. Activating these items does not require an action, but does require the specific condition being met.
 
 **On fulfilled contingency**: Some insidious magic items are activated when a condition is fulfilled. The condition can be incredibly complex, but must be tangible. For example "when next the sword is bathed in the light of the full moon", "when the talisman passes through the gates of Dudariarch".
 
@@ -317,6 +317,7 @@ An item can be imbued or enchanted with multiple spells, however, in this case t
 ___
 ### Modified Effects and Source Spells/Abilities
 When a supernatural effect is placed in an item, some of its parameters may differ from the source spell or ability. Namely:
+
   - An enchanter may change the form of an area of effect spell/ability (cube, plane, cone, circle, line, single target, etc). However, neither the area of effect, nor the range can exceed that of the original spell.
   - An enchanter usually need not apply all of the effects of the spell to the item being enchanted if the spell or ability:
     - causes damage or a conditions.

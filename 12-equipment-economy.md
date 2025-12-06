@@ -47,7 +47,7 @@ ___
 
 ### Early Medieval and Dark ages
 
-This is a classical dark adventuring setting. Many fields of knowledge, sciences for example, are lost. There many ruins of fallen empire. The population density is low. Possibly much of the population is bound in serfdom, keeping labour costs low. On the hand iron-work develops to a higher level, so heavy armour and weapons designed to overcome it begin to develop. Much of the world is not mapped and there are many ruins of civilisations that have been lost to time. Monsters and spirits are still rampant.
+This is a classical dark adventuring setting. Many fields of knowledge, sciences for example, are lost. There many ruins of fallen empire. The population density is low. Possibly much of the population is bound in serfdom, keeping labour costs low. On the other hand iron-work develops to a higher level, so heavy armour and weapons designed to overcome it begin to develop. Much of the world is not mapped and there are many ruins of civilisations that have been lost to time. Monsters and spirits are still rampant.
 
 ___
 
@@ -63,13 +63,13 @@ The effects of magic on an economy should be taken into account. A society, and 
 
 As an example, a society with many nature mages would likely see the cost of agricultural produce both decline and stabilise. A society where fire magic is common, would likely develop advanced smelting, increasing the availability of steel and iron. Golems and elementals may replace certain workers entirely.
 
-The tables here do not take this into account, and assume that users of supernatural abilities are not common enough to affect prices and availability of most goods. That said, there are no mechanistic limitations on how common this kind people are in a game world, and a gaming group should keep this in mind when creating a fantasy world.
+The tables here do not take this into account, and assume that users of supernatural abilities are not common enough to affect prices and availability of most goods. That said, there are no mechanistic limitations on how common this kind of people are in a game world, and a gaming group should keep this in mind when creating a fantasy world.
 
 ___
 
 ### Currency
 
-The most common currency was generally silver, although gold, copper, bronze, electrum (gold/silver allow) and other currencies have been used. The main prerequisite was that the material can be worked with available tools, does not degrade much over time and is scarce. Gold generally was worth 10-20 times more than silver. Copper currency was used mostly locally. However, silver coin or trade bars of various sizes were the most common. Good examples include the English "silver penny" (1.4g-1.55g) and the Athenian silver drachma (~4.3g).
+The most common currency was generally silver, although gold, copper, bronze, electrum (gold/silver alloy) and other currencies have been used. The main prerequisite was that the material can be worked with available tools, does not degrade much over time and is scarce. Gold generally was worth 10-20 times more than silver. Copper currency was used mostly locally. However, silver coin or trade bars of various sizes were the most common. Good examples include the English "silver penny" (1.4g-1.55g) and the Athenian silver drachma (~4.3g).
 
 This also brings up the phantom of different currencies between kingdoms. If a group is playing a socially complex game, it may be worth introducing different convertible currency or tender between powers. A roughly ~5% conversion fee seems to be a fair average to use as a starting point.
 
@@ -168,7 +168,7 @@ ___
 
 ## The lists
 
-The lists a monetary cost, a labour cost and an availability table. The availability should be taken with a large pinch of salt and is meant as a guide for settings. If availability is "no" the weapon is not generally available or the technology or technique to make it does not exist. "Rare" means it was available at some point of the age, but not commonly used.
+The lists below suggest a monetary cost, a labour cost and an availability table. The availability should be taken with a large pinch of salt and is meant as a guide for settings. If availability is "no" the weapon is not generally available or the technology or technique to make it does not exist. "Rare" means it was available at some point of the age, but not commonly used.
 
 If availability is "no" the item cannot be made, but may be bought from specialist suppliers at x10 the price.
 
@@ -458,7 +458,7 @@ ___
 
 **Explorer's Garb**: Woollen garments, possibly a cloak and boots. Generally these include the adaptations needed by adventurers and explorers on perilous journeys. They do make one stand out somewhat.
 
-**Cold Weather Garments**: Thick garments, often with an outer layer of hides/furs and an inner layer of wool or fleece. This heavy garb allows one to treat the weather as one step warmer (ie "extreme cold" is now only "severe cold", but "severe heat" is now "extreme heat" for the wearer). This carb seldom includes a cloak, as the garments themselves are thick and sturdy enough to block most wind and precipitation. On occasion, hide armour can be made for cold weather, in which case half the weight and half the cost of these garments are added to the hide armour and its wearer gains the benefits and drawbacks of cold weather garments.
+**Cold Weather Garments**: Thick garments, often with an outer layer of hides/furs and an inner layer of wool or fleece. This heavy garb allows one to treat the weather as one step warmer (ie "extreme cold" is now only "severe cold", but "severe heat" is now "extreme heat" for the wearer). This garb seldom includes a cloak, as the garments themselves are thick and sturdy enough to block most wind and precipitation. On occasion, hide armour can be made for cold weather, in which case half the weight and half the cost of these garments are added to the hide armour and its wearer gains the benefits and drawbacks of cold weather garments.
 
 **Courtier's Garb**: Fine clothes and boots, made with care, using high quality materials. The more expensive the "better". Though seldom practical, it distinguishes one as a member of high society. In most societies, characters dealing with (most) nobles when wearing other garments will gain a -2 to charisma related skill rolls related to interacting with them. Of course, this depends on the circumstances and the ways of the given society.
 
@@ -468,9 +468,9 @@ ___
 
 **Shovel**: A sturdy shovel. "Fortify", "harvest" or "prospect" rolls which involve digging are made at disadvantage without a shovel. It can be used as a weapon (attack rolls are made at disadvantage), and deals 1d8 slashing damage.
 
-**Torch**: A length of wood, usually dipped in tar. When lit, a torch sheds bright light in 20ft, and dim light in 40ft. Its light can be seen within a mile. It will burn out within 30 minutes and will be blown out by extreme precipitation or extreme wind. Torches are ideal for setting things on fire.
+**Torch**: A length of wood, usually dipped in tar. When lit, a torch sheds bright light in 20ft, and dim light in 40ft. Its light can be seen within a mile. It will burn out within 30 minutes and will be extinguished by extreme precipitation or extreme wind. Torches are ideal for setting things on fire.
 
-**Candle**: A wax candle. Made of bees' wax or tallow. A candle will shed dim light within 10ft. It will burn for 4 hours. Its light can be seen from ~800ft away. An unshielded candle will be blown out by severe wind or precipitation.
+**Candle**: A wax candle. Made of bees' wax or tallow. A candle will shed dim light within 10ft. It will burn for 4 hours. Its light can be seen from ~800ft away. An unshielded candle will be extinguished by severe wind or precipitation.
 
 **Lamp**: A glass or metal oil lamp, with a small reservoir for oil (no more than 1lb) and a wick. A lamp sheds bright light in 20ft and dim light in 40ft.
 
@@ -514,19 +514,19 @@ ___
 
 **Wagon**: A heavy, four wheeled cart, usually with an awning. A wagon typically is 5x15ft in length, 10ft in height and can house 12 passengers and 2 drivers, transporting up to 8000lb, but no more than the drag weight of the beasts of burden pulling it. Wagons can typically travel on, and off, road. The speed of a wagon is 25ft on road and 15ft off road. A wagon cannot traverse difficult terrain. A wagon weighs 800lb.
 
-**War chariot**: This is a light, two wheeled platform (5x5ft), that carries a driver and up to 2 passengers. In combat it can carry a driver and a single medium sized combatant. A combatant riding chariot may use unwieldy and heavy weapons, as if they were standing on flat, open terrain (if space permits). A chariot with one horse can travel at 40ft, with 2 horses- 50ft, with 4 horses - 60ft. A chariot can be driven off road. It can traverse difficult terrain at 10ft. A chariot weights 80lb.
+**War chariot**: This is a light, two wheeled platform (5x5ft) that carries a driver and up to 2 passengers. In combat it can carry a driver and a single medium sized combatant. A combatant riding on chariot may use unwieldy and heavy weapons as if they were standing on flat, open terrain (if space permits). A chariot with one horse can travel at 40ft, with 2 horses - 50ft, with 4 horses - 60ft. A chariot can be driven off road. It can traverse difficult terrain at 10ft. A chariot weights 80lb.
 
 **Carriage**: A carriage is a closed wagon approximately 12ft in length and 6ft in width. For combat purposes it takes up 2 squares. A carriage can house up to 6 passengers inside, as well as up to 4 crew. a carriage drawn by 2 horses (a pair) has a speed of 30ft, by 4 horses - 40ft, by 6 horses - 50ft. Travels cannot travel faster than their beasts of burden, unless travelling down hill. Carriages can only travel on roads or relatively flat, solid ground, albeit at half speed. They are seldom suitable for cross country driving. A carriage weights 1800lb.
 
-**Canoe**: A canoe is a light, narrow, rowing boat that can carry up to 4 medium sized humanoids. It has a speed of 50ft, a length of 12-18ft, and a weight of 40lb. A canoe has a durability of 2 and a damage resistance of 1 against physical and cold damage.
+**Canoe**: A canoe is a light, narrow rowing boat that can carry up to 4 medium sized humanoids. It has a speed of 50ft, a length of 12-18ft, and a weight of 40lb. A canoe has a durability of 2 and a damage reduction of 1 against physical and cold damage.
 
-**Skiff**: This refers to a boat that can hold between 4-10 medium size humanoids and has a length of no more than 18ft. It requires 1-3 crew. Rowing skiffs typically have a speed of 30ft, while sailing skiffs can have speeds of up to 100ft in good winds or 30ft in poor winds. A skiff has a durability of 8 and a damage resistance of 1 against physical and cold damage.
+**Skiff**: This refers to a boat that can hold between 4-10 medium size humanoids and has a length of no more than 18ft. It requires 1-3 crew. Rowing skiffs typically have a speed of 30ft, while sailing skiffs can have speeds of up to 100ft in good winds or 30ft in poor winds. A skiff has a durability of 8 and a damage reduction of 1 against physical and cold damage.
 
-**Longships**: A narrow hull ship, typically with a single mast and between 16-80 oarsmen. They can be between 40ft-120ft long, with displacements of ~20-60 tons. And can maintain speeds of ~90ft (90 miles per day, 180 if the crew pull double shifts). Longships were typically not armed *per se*, but the crew was often trained in combat. A longship has a durability of 20 and a damage resistance of 2 against physical and cold damage. It begins to sink once it has lost 10 points of durability.
+**Longships**: A narrow hull ship, typically with a single mast and between 16-80 oarsmen. They can be between 40ft-120ft long, with displacements of ~20-60 tons. And can maintain speeds of ~90ft (90 miles per day, 180 if the crew pull double shifts). Longships were typically not armed *per se*, but the crew was often trained in combat. A longship has a durability of 20 and a damage reduction of 2 against physical and cold damage. It begins to sink once it has lost 10 points of durability.
 
-**Sailing ship (small)**: This refers to any sailing ship with one or two masts and a displacement of 20-60 tons and a length of 30-60ft. Depending on size and journey length, it can take 4-20 crewmen. This can be either a square-rig of ancient times, or a caravel of the medieval period. The typical speed is 100ft (200 miles per day) in good wind and 30ft (60 miles per day) in poor winds. A small sailing ship has a durability of 20 and a damage resistance of 1 against physical and cold damage. It begins to sink once it has lost 10 durability. The sails have an extra 6 durability with no damage resistance and once they are destroyed the ship is at the mercy of the waves.
+**Sailing ship (small)**: This refers to any sailing ship with one or two masts and a displacement of 20-60 tons and a length of 30-60ft. Depending on size and journey length, it can take 4-20 crewmen. This can be either a square-rig of ancient times, or a caravel of the medieval period. The typical speed is 100ft (200 miles per day) in good wind and 30ft (60 miles per day) in poor winds. A small sailing ship has a durability of 20 and a damage reduction of 1 against physical and cold damage. It begins to sink once it has lost 10 durability. The sails have an extra 6 durability with no damage reduction and once they are destroyed the ship is at the mercy of the waves.
 
-**Carrack**: Carracks are sailing ships with 3 masts and a high rear castle. They have mix of square and triangular sails. They can generally handle long oceanic journeys, but are seldom made to carry large amounts of cargo. They tend to be 60ft-100ft long, and have a displacement of 100-1000 tons. A carrack can be equipped with up to 10 canons per 100 tons of displacement. This is the classic "sailing ship" of the earth colonial era. The cost is quoted for a 200 ton carrack, equipped with 10 canons (or ballistae), which is a typical tonnage for the class. A carrack needs a crew of about 10, but prefers ~40, and can transport 100-500 soldiers over short distances. A carrack has a speed of 120ft (240 miles per day) in good winds and 40ft (80 miles per day) in poor winds. A carrack has a durability of 40 and a damage resistance of 2 against physical and cold and physical damage. It begins to sink once it has lost 30 durability. The sails have an extra 12 durability with no damage resistance and once they are destroyed the ship is at the mercy of the waves.
+**Carrack**: Carracks are sailing ships with 3 masts and a high rear castle. They have mix of square and triangular sails. They can generally handle long oceanic journeys, but are seldom made to carry large amounts of cargo. They tend to be 60ft-100ft long, and have a displacement of 100-1000 tons. A carrack can be equipped with up to 10 canons per 100 tons of displacement. This is the classic "sailing ship" of the earth colonial era. The cost is quoted for a 200 ton carrack, equipped with 10 canons (or ballistae), which is a typical tonnage for the class. A carrack needs a crew of about 10, but prefers ~40, and can transport 100-500 soldiers over short distances. A carrack has a speed of 120ft (240 miles per day) in good winds and 40ft (80 miles per day) in poor winds. A carrack has a durability of 40 and a damage reduction of 2. It begins to sink once it has lost 30 durability. The sails have an extra 12 durability with no damage reduction and once they are destroyed the ship is at the mercy of the waves.
 
 ___
 
@@ -561,15 +561,15 @@ ___
 | Humanoid Slave* (lvl-1)          | 400        | 10 years                    | yes       | yes        | rare   |
 | Humanoid Slave*, Trained (lvl-3) | 3600       | 15 years                    | yes       | yes        | rare   |
 
-**Chickens**: Chickens are omnivorous, flightless, fowl. They typically weigh between 2-8lb and provide feathers, meat and eggs. They are easy to keep and raise, but are vulnerable to predation by most things and must be carefully guarded.
+**Chickens**: Chickens are omnivorous, flightless fowl. They typically weigh between 2-8lb and provide feathers, meat and eggs. They are easy to keep and raise, but are vulnerable to predation by most things and must be carefully guarded.
 
 **Sheep/Goat**: Small ruminants that typically weigh between 50-200lb. They are hardy grazers and thrive in poor, hilly environments where horses and oxen might have difficulty. They provide milk, wool, meat and hides. They are vulnerable to predation by wolves and larger predators and should be carefully guarded.
 
-**Cow/Ox**: Large ruminants that prefer lush grasses. They typically weigh between 500-2000lb and provide meat, milk and hide. They can also strong enough to pull carts and wagons, although not particularly fast. Being large, and typically horned, they are relatively defended from most beasts, but can be hunted by larger dinosaurs, monsters and dragons.
+**Cow/Ox**: Large ruminants that prefer lush grasses. They typically weigh between 500-2000lb and provide meat, milk and hide. They are also strong enough to pull carts and wagons, although not particularly fast. Being large, and typically horned, they are relatively defended from most beasts, but can be hunted by larger dinosaurs, monsters and dragons.
 
 **Bees**: Bees are venomous insects that dwell in colonies of 100K-1M individuals. They gather nectar and pollen. They provide honey and wax.
 
-**Falcon**: Falcons are predatory birds that prefer to hunt birds. This makes them valuable for hunting, but also for messengers.
+**Falcon**: Falcons are predatory birds that prefer to hunt birds. This makes them valuable for hunting, but also for delivering messages.
 
 **Hawk**: Hawks are predatory birds that prefer to hunt ground animals. Their keen eyes make them valuable for hunters, but also for scouts.
 
@@ -579,7 +579,7 @@ ___
 
 - A riding horse (use ["light horse"](monsters-npcs/beasts-and-plants.md#horse-light-level-2)) weighs between 500-1500lb and is trained to carry a rider or pulling a vehicle, but is not combat trained.
 - A draught horse weighs between 1500-2500lb and is trained for pulling a vehicle, but not riding or combat. Use ["heavy horse"](monsters-npcs/beasts-and-plants.md#horse-heavy-level-3).
-- A war horse weighs between 1000-2000lb and is trained for either riding or pulling, but is trained for combat. Use ["war horse"](monsters-npcs/beasts-and-plants.md#horse-war-level-4).
+- A war horse weighs between 1000-2000lb and is trained for either riding or for pulling, but is always trained for combat. Use ["war horse"](monsters-npcs/beasts-and-plants.md#horse-war-level-4).
 
 **Humanoid Slave**: Humanoid slaves are used as servants, for menial labour, or as gladiators (amongst other roles). Slaves must be properly trained and indoctrinated to prevent them escaping. A mistreated slave may attempt to kill its master and/or escape. High-magic society may use supernatural means to bind more dangerous or valuable slaves. Societies that use slaves generally obtain them either by breeding or raiding and capturing. Some societies may sentence certain criminals, or defeated political rivals to a life of slavery. In such societies slaves are usually not particularly expensive, because of high availability and the omnivorous nature of most humanoids (you can feed them almost anything and they will survive). *Since slavery is often a contentious topic, it should be approached sensibly by players and game masters alike.*
 
@@ -603,7 +603,7 @@ ___
 
 *Acre of land*: Land in many kingdoms is not commonly available and cannot be bought and sold without special permission from officials, lords or kings. In other settings, lands may be sparsely populated and can perhaps be claimed by anyone strong enough to defend it against errant monsters.
 
-*Keep*: A stone keep measures approximately 48 x 48 x 48 feet, has 3-4 stories and walls about 4-6 feet thick. The crafting days can be split between any number of workers and include procurement and transport costs. Even if additional man power is available, medium sized humanoids will not accomplish this task in less than 3 months by conventional means.
+*Keep*: A stone keep measures approximately 48 x 48 x 48 feet, has 3-4 stories and walls about 4-6 feet thick. The crafting days can be split between any number of workers and include procurement and transport costs. Even if additional manpower is available, medium sized humanoids will not accomplish this task in less than 3 months by conventional means.
 
 ___
 
@@ -653,7 +653,7 @@ ___
 
 **Smith's forge**: A complete forge. This is not mobile and consists of furnace as well as all other tools and structures for turning an iron ingot into an implement.
 
-**Musical instruments (simple)**: This mostly includes simple wind instruments made of reed, with no metal parts and no rare materials. These would be welcome at a festival, a fey glade, ora village tavern, but might get you laughed out of town or executed at a king's court.
+**Musical instruments (simple)**: This mostly includes simple wind instruments made of reed, with no metal parts and no rare materials. These would be welcome at a festival, a fey glade, or a village tavern, but might get you laughed out of town or executed at a king's court.
 
 **Musical instruments (average)**: This includes more robust wind instruments and certain percussion, such as tambourines. Certain simpler string instruments would fall in this category. They might contain mixture of wooden, hide and metal parts and would be acceptable either as a performance in a town's tavern or as part of a band or orchestra. A buffoon at a court might use instruments from this category.
 

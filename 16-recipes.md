@@ -112,7 +112,7 @@ A mystic warrior mixes martial and supernatural abilities to make use of its foe
 
 This build balances between supernatural and natural abilities, combat capability and the arcane. One could argue that this is an equivalent to "bard" or "red mage" of certain other systems. The general strategy is to buff the party and yourself with ["Bard Song I"](06-abilities.md#bard-song-i-iv) and spells, and then enter combat, using light weapons with ["Flurry"](06-abilities.md#flurry). ["Elemental Blast: Light"](06-abilities.md#blast-elemental-blast) gives additional firepower against supernatural entities, while ["Flash Step"](06-abilities.md#flash-step) is useful for getting in and out of trouble.
 
-[Spellcasting Local: Incantation](06-abilities.md#spellcasting-local)" is useful since these spells can be used safely in melee combat and gives some healing magic and so is recommended. For greater martial prowess it is recommended to take less spellcasting, or less ["Bard Song I"](06-abilities.md#bard-song-i-iv), and focus on either heavy blades or ["Unarmed Strike"](06-abilities.md#unarmed-strike-i-ix).
+[Spellcasting Local: Incantation](06-abilities.md#spellcasting-local)" is useful since these spells can be used safely in melee combat and gives some healing magic and so is recommended. For greater martial prowess it is recommended to take less spellcasting, or eschew ["Bard Song I"](06-abilities.md#bard-song-i-iv), and focus on either heavy blades or ["Unarmed Strike"](06-abilities.md#unarmed-strike-i-ix).
 
 The mystic warrior does suffer somewhat from "multiple attribute (stat) dependence". It is recommended to focus on DEX (or STR), WIS and CHA. If WIS is 16 or above, it is worth taking the ["foresight"](06-abilities.md#foresight) ability for greater defence.
 
@@ -187,7 +187,7 @@ ___
 ## Pyromancer
 A pyromancer is an offensive caster that makes use especially of elemental fire magic. A similar template can be made for any elemental battle mage.
 
-A pyromancer can be dangerous at range or in melee. This build works well enough with a single elemental spellcasting ability taken to high level, along with [Elementalism](06-abilities.md#elementalism-elemental-blast). A second type of elemental spellcasting (other than fire or water) taken to 3rd level is useful for counter-spelling. As with other spellcasting builds, the other abilities can be exchanged for natural combat or utility abilities for a less conventional build. Medium/heavy armour proficiency can also be taken as a also a valid option for protection.
+A pyromancer can be dangerous at range or in melee. This build works well enough with a single elemental spellcasting ability taken to high level, along with [Elementalism](06-abilities.md#elementalism-elemental-blast). A second type of elemental spellcasting (other than fire or water) taken to 3rd level is useful for counter-spelling. As with other spellcasting builds, the other abilities can be exchanged for natural combat or utility abilities for a less conventional build. Medium/heavy armour proficiency is also a valid option for protection.
 
 The primary stat for this build is WIS. If using armour STR is useful, if not, DEX. Likewise, since this is largely a combat focused build, CON and CHA should not be neglected.
 

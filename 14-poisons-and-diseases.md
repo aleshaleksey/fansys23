@@ -42,6 +42,7 @@ Poisons are substances that prevent the organisms of mortals from functioning. S
 ___
 ### Properties of a Poison
 Poisons have a several properties that can be described by game mechanics:
+
 - Threshold
 - Potency
 - Duration
@@ -64,6 +65,7 @@ Poisons can be fast acting or slow acting. Unless stated otherwise, a poison act
 
 #### Mode of Application
 Poisons are generally most effective inside of the body. Some poisons are better at getting inside the body than others. The modes, listed by dominance, are:
+
 1. **Perception**: This poison enters the body as soon as it is perceived with any sense. These poisons are always supernatural and are also effective when MP damage is inflicted.
 2. **Contact**: This poison enters the body when it makes contact with any of the body's surfaces, such as skin, eyes, hair, mucus membranes, etc.
 3. **Inhalation**: This poison enters the body when it is inhaled.
@@ -78,7 +80,7 @@ Poisons with a less dominant modality are not effective when applied through a m
 This often determines the effects and what kind of mortals can be affected. For example a poison that affects the nervous system or blood will not affect [plants](10-conditions-types.md#mortals), since they lack these. However, game mechanics generally do not tie this to the poison's function and it is considered flavour related. That said, groups that enjoy "realism" may wish to apply these rules (although it should be done with care if at all!).
 
 #### Effect
-Most poisons do some direct poison damage and cause the "poisoned" condition. In addition, poisons can cause direct HP damage, as well as damage to any of the base [stats](02-base-rules.md#stats). Certain poisons may even affect SP/MP dice or seal of supernatural abilities.
+Most poisons do some direct poison damage and cause the "poisoned" condition. In addition, poisons can cause direct HP damage, as well as damage to any of the base [stats](02-base-rules.md#stats). Certain poisons may even affect SP/MP dice or seal supernatural abilities.
 
 ___
 ### Types of Poison
@@ -117,9 +119,9 @@ When an entity recovers from poison, or is otherwise cured, the "poisoned" condi
 An entity can be cured of poison under one of four conditions:
 
 - The time of action of the poison ends. Unless otherwise stated, a poison's effect lasts for 1 week. After this the poisoned condition is removed, as well as secondary conditions, but not other effects, unless otherwise stated.
-- The poisoned entity succeeds on a CON save vs the poisons threshold. Generally this can be repeated once per day. Again, the poisoned condition is removed, as well as secondary conditions, but not other effects, unless otherwise stated.
+- The poisoned entity succeeds on a CON save vs the poison's threshold. Generally this can be repeated once per day. Again, the poisoned condition is removed, as well as secondary conditions, but not other effects, unless otherwise stated.
 - Mundane poison can be cured with a ["Heal"](05-skills.md#heal) roll equal to the poison's threshold. Unless otherwise stated, the treatment takes 1 minute and the "poisoned" condition is removed after an hour (as the organism recovers). Unless otherwise stated secondary conditions are also cured, but damage is not.
-- Spells such as the ["Cure"](08-spell-list.md#cure) immediately cure the poison, and poisoned condition, but never the secondary affects.
+- Spells such as the ["Cure"](08-spell-list.md#cure) immediately cure the poison, and poisoned condition, but never the secondary effects.
 
 ___
 ### Using Poison
@@ -278,6 +280,7 @@ ___
 #### Course
 
 This describes how the effects of a disease change from the start to the end of its duration. For some diseases they do not change, for others they do. Likewise most diseases have three possible courses:
+
 - **Asymptotic**: There are no noticeable symptoms. The victim is infectious, but does not suffer from the disease. Diagnosis is as for the [incubation period](#incubation-period).
 - **Mild**: The victim suffers only the less serious effects of a disease.
 - **Severe**: The victim suffers all of the effects of a disease. Sometimes this includes death.
@@ -309,9 +312,9 @@ In this case, the character must roll a CON save vs the disease's [Spread Thresh
 
 An infected character might then be able to spread a disease.
 
-To cure a disease, it must be first diagnosed successfully, and then treated.The disease can be cured with a successful heal roll. If the heal roll fails by less than 6, the disease then takes the mild route for the remainder of the duration instead. In this case the victim may attempt a CON save vs the [Treatment Threshold](#treatment-threshold), on a success it is cured.
+To cure a disease, it must be first diagnosed successfully, and then treated. The disease can be cured with a successful heal roll. If the heal roll fails by less than 6, the disease then takes the mild route for the remainder of the duration instead. In this case the victim may attempt a CON save vs the [Treatment Threshold](#treatment-threshold), on a success it is cured.
 
-In addition diseases can be cured by spells such as ["Cure"](08-spell-list.md#cure). It should be noted, for cure in particular, that "S" class diseases can only cured casting the spell at 5 MP dice or above. Lastly, some diseases, notably supernatural diseases such as ["Zombification"](#zombification-a-class) and "[Dryad's Touch](#dryad-touch-s-class) can only be cured by supernatural means.
+In addition diseases can be cured by spells such as ["Cure"](08-spell-list.md#cure). It should be noted, for "cure" in particular, that "S" class diseases can only be cured by casting the spell at 5 MP dice or above. Lastly, some diseases, notably supernatural diseases such as ["Zombification"](#zombification-a-class) and "[Dryad's Touch](#dryad-touch-s-class) can only be cured by supernatural means, and in the former case, only before it has run its course.
 
 ____
 ### List of Diseases
@@ -319,6 +322,7 @@ ____
 #### Cold (C class)
 
 This is a common disease that is characterised by sneezing, coughing and occasional fever. It is spread through breathing (inhalation). It is spread between humanoids. Beasts can suffer from similar diseases, but they are seldom spread beyond similar species.
+
 - **Mild**: After the incubation period, victim begins to cough and sneeze and feels mild malaise. For the duration the victim has disadvantage to ["stealth"](05-skills.md#stealth) and a -2 to STR, DEX and CON rolls.
 - **Severe**: After the incubation period, victim begins to cough and sneeze, runs a fever and feels malaise. For the duration the victim has disadvantage to ["stealth"](05-skills.md#stealth). In addition, during the second week the victim has a -2 to STR, DEX and CON rolls.
 
@@ -326,13 +330,15 @@ ___
 #### Flu (C Class)
 
 This is a common disease that is characterised by sneezing, coughing, malaise and high temperature. Superficially it is similar to a more severe cold. Beasts can suffer from similar diseases, but they are seldom spread beyond similar species. Most commonly birds are susceptible to flu and can easily become infected and spread it far and wide.
-- **Mild**: After the incubation period, victim begins to cough and sneeze, runs a fever and feels malaise. For the duration the victim has disadvantage to ["stealth"](05-skills.md#stealth). In addition, after the first week the victim has a -2 to STR, DEX and CON rolls.
+
+- **Mild**: After the incubation period, the victim begins to cough and sneeze, runs a fever and feels malaise. For the duration the victim has disadvantage to ["stealth"](05-skills.md#stealth). In addition, after the first week the victim has a -2 to STR, DEX and CON rolls.
 - **Severe**: The victim suffers all the conditions of the mild form. In addition, during the second week. the victim has disadvantage to STR, DEX, WIS and CON rolls and to concentration saves. At the end of the second week, the victim makes a CON save vs Threshold=16. If they fail the save, the disadvantage persists into the third week, in addition, the victim suffers 2d6 CON damage, which recovers at a rate of 1 point per long rest. If this CON damage drops the victim's CON to 0, it dies.
 
 ___
 #### Mudcrawler (B Class)
 
-Caused by tiny mudcrawlers burrowing into a flesh of a beast, humanoid or monster, this disease caused causes a maddening itch and distinctive, raised burrows in the skin. It is spread by Mudwalkers as they "inoculate" the humanoids they kill with their spawn. Thus humanoids that survive Mudwalker attacks and those coming into prolonged contact with their deceased victims are likeliest to be infected. The disease can be cured without any heal rolls by dealing 6 HP damage to the infected individual with bee or viper venom within the course of a minute without any healing in between.
+Caused by tiny mudcrawlers burrowing into a flesh of a beast, humanoid or monster, this disease causes a maddening itch and distinctive, raised burrows in the skin. It is spread by Mudwalkers as they "inoculate" the humanoids they kill with their spawn. Thus humanoids that survive Mudwalker attacks and those coming into prolonged contact with their deceased victims are likeliest to be infected. The disease can be cured without any heal rolls by dealing 6 HP damage to the infected individual with bee or viper venom within the course of a minute without any healing in between.
+
 - **Mild**: During the first week the victim suffers intense pain beneath its skin and itching, giving it disadvantage on initiative and WIS rolls. On the second week raised burrows appear in the skin, as the mudcrawlers grow and reproduce. Second through to fifth week the character loses 1d4 CHA and 1 point from its HP maximum each week (both are recovered at a rate of 1 per day after the disease ends). During the 6th week all symptoms cease, however, on the last day the mudcrawlers will burst from the victim's body and disperse, dealing 2d6 shear damage directly to HP.
 - **Severe**: During the first week the victim suffers intense pain beneath its skin and maddening itching, giving it disadvantage on initiative and WIS rolls. It must succeed a threshold=20 CHA save at the start of each combat or spend the first round incapacitated. On the second week raised burrows appear in the skin, as the mudcrawlers grow and reproduce. Second through to fifth week the character loses 1d4 CHA and 2 point from its HP maximum each week (both are recovered at a rate of 1 per day after the disease ends). During the 6th week all symptoms cease, however, on the last day the mudcrawlers will burst from the victim's body and disperse, dealing 4d6 shear damage directly to HP. The tiny mudcrawlers then merge into a fully formed mudcrawler and attempt to devour the body they had burst from.
 
@@ -340,6 +346,7 @@ ___
 #### Measles (B Class)
 
 This is a common and highly contagious disease that humanoids suffer from, characterised by a high fever, cough and a red rash over the whole body.
+
 - **Mild**: After the incubation period, the victim develops a cough and a high fever. This is accompanied by rash. For the duration the victim has disadvantage on "[observe](05-skills.md#observe") rolls and a -2 to STR, DEX, WIS, and CON rolls.
 - **Severe**: The victim suffers all the conditions of the mild form. In addition, during the second week, the victim has disadvantage to STR, DEX, WIS and CON rolls and to concentration saves. At the end of the second week, the victim makes a CON save vs Threshold=16, on failure the victim suffers 2d6 CON damage, which recovers at a rate of 1 point per long rest. If this CON damage drops the victim's CON to 0, it dies.
 
@@ -347,6 +354,7 @@ ___
 #### Yellow Fever (B Class)
 
 This disease is transmitted by insect bites, so the speed of its spread depends on the abundance of biting insects. As the name suggests, yellow fever is generally characterised by high fever and jaundice and generally only affects mortals.
+
 - **Mild**: After the incubation, the victim develops a high fever, back and muscle aches and nausea. The victim suffers disadvantage to STR, DEX, CON and WIS rolls and its base speed is halved. In addition, at the start of any combat it must succeed a threshold=24 CON save or spend the first round incapacitated with vomiting.
 - **Severe**: The victim suffers all effects of the mild form, as well as developing jaundice and bleeding from its orifices. It loses 1d4 from its HP total every day of the duration of the disease (this is recovered at 1 point per long rest after the end of the disease). If the HP total drops to 0, the victim dies.
 
@@ -354,6 +362,7 @@ ___
 #### Plague (bubonic, A Class)
 
 Plague is a contagious disease that is spread either by the bites of infected fleas (bubonic) or through breathing (pneumonic). Bubonic plague is characterised by severe inflammation of glands, necrosis, and high fever. Any warm blooded mortal can be infected with plague.
+
 - **Mild**: The victim suffers all the general symptoms, gaining disadvantage on all STR, DEX, CON, WIS and CHA rolls, its base speed is halved, and takes an extra 1 HP damage, every time it takes any damage (SP, MP or HP). At the end of the first week, the victim makes a CON save vs threshold=22 or suffers 1d10 CON damage (which then recovers at the rate of 1 point per long rest). If this damage takes the victim's CON to 0, it dies. 
 - **Severe**: The victim suffers all the effects of the mild form. In addition, the victim is crippled due to necrosis of a random limb and must make a CHA save vs threshold=22 at the start of a combat or be incapacitated with seizures during the first round. At the end of the first week the victim must succeed a CON save vs a threshold=22, or suffer 3d6 CON damage (this is INSTEAD of the 1d10 damage suffered in the mild form; damage is recovered at 1 point per long rest after the end of the disease) as their blood congeals. If the HP total drops to 0, the victim dies.
 
@@ -361,12 +370,14 @@ ___
 #### Plague (Pneumonic, S Class)
 
 Pneumonic plague is a contagious disease that is spread through breathing 'contaminated' air. It is characterised by coughing up blood, high fever, and chest pains. There is no mild form for this disease and it is lethal without treatment for all but the most resilient of mortals that become infected.
+
 - **Severe**: The victim suffers all the general symptoms, gaining disadvantage on all STR, DEX, CON, WIS rolls, and its base speed is halved for the duration of the disease. It takes 1d4 damage to its maximum HP every 4 hours. If it survives the disease, it will recover its maximum HP at the rate of 1 point per long rest.
 
 ___
 #### Smallpox (S Class)
 
 This is a disease spread by breathing 'contaminated' air and through contact with an infected entity. It is characterised by fever, vomiting and rash which covers the whole body and eventually turns to blisters.
+
 - **Mild**: In the first and second week, the victim suffers from fever and nausea, taking disadvantage to STR, CON and WIS rolls, as well as having to succeed a CON save vs threshold=28 at the start of every battle or spend the first round incapacitated with nausea. During the third week rash develops, adding disadvantage to DEX saves. The victim must succeed a CON save vs threshold=28 or suffer 2d6 CON damage (which then recovers at the rate of 1 point per long rest). If this damage takes the victim's CON to 0, it dies. In the fourth weeks the rash turns into a permanent blister, and the victim suffers 1d6 CHA damage.
 - **Severe**: The victim suffers all the effects of the mild disease. In addition, it suffers 1d4 HP damage for every day of the third week. In addition it must succeed a CON save (threshold=28) at the end of the third week or become permanently blind.
 
@@ -374,6 +385,7 @@ ___
 #### Creeping Amnesia (A Class)
 
 This is a progressive disease of the mind, characterised by gradual loss of memories. It cannot be healed by mundane means. While not dangerous in kingdoms with strong schools of magic and temples to gods of healing, it is problematic in places healers are rare. Creeping Amnesia lies half way between curse and disease, and can be caught by treading on cursed ground, from drinking the waters that originate in [afterlife realms](03-movement-exploration.md#afterlives), or after receiving the kiss of a spirit of oblivion.
+
 - **Mild**: Each month, a character must make a CON save vs threshold=18 or lose 1 INT and one skill point from the skill they have the most ranks in (skill of their choice). If the disease is cured, INT is regained at a rate of 1 point per month, and skills ranks at a rate of 1 per week.
 - **Severe**: The disease runs its course as per the "mild" form. However, neither the skills nor the INT damage can be recovered by any means short of ["Fairy Ball"](08-spell-list.md#fairy-ballmasquerade) or ["Edict of Life"](08-spell-list.md#edict-of-life), although one can still use ["Pact"](08-spell-list.md#pact) and ["Mage's Oath"](08-spell-list.md#mages-oath) to swap the damage/skill loss with another.
 
@@ -381,6 +393,7 @@ ___
 #### Dryad Touch (S Class)
 
 This disease affects mortals that return from at least intermediate layers of the spirit realm after having laid eyes on beings with a CHA score that exceeds their own by at least 10. It is characterised by apathy, and gradual loss of will and memories. This is a supernatural disease.
+
 - **Mild**: In the first month, the victim makes initiative rolls at disadvantage. In the second month it also suffers -2 to all INT, WIS and CHA rolls. In the third month its maximum MP dice count is reduced by 1d4 each week, in addition to previous symptoms (this is regained at the rate of 1 die per long rest at the end of the month). In the fourth month the other effects apart from the initiative penalty end, but the victim loses the ability to take reactions until the end of the month.
 - **Severe**: The victim suffers all of the effects of the mild form, however, during the third month it must succeed a CHA save vs threshold=24 every day or lose one of its abilities/boons, starting from the most recently acquired. If it has no abilities left, its maximum HP is reduced by 1d4 instead (this is recovered at 1 point per long rest after the end of the disease). The victim, should it survive the disease, can recover its abilities if it travels to the domain where it became infected and slays the being it laid eyes on.
 
@@ -388,8 +401,9 @@ ___
 #### Pilgrim's Fire (S Class)
 
 This disease affects humanoids and monsters with at least 5 INT that do not have a "divine" alignment that subsume the flame of a Seraph or that of a divinity associated with righteousness and vengeance. It is characterised by an uplifted, almost exalted state that strives for a higher justice and incapacitating pain when it is not followed. This is a divine disease that can only be treated by specific deeds or supernatural means.
+
 - **Mild**: Immediately, the victim gains the ability to distinguish [profane beings](10-conditions-types.md#profane-1) and those of profane alignment by smell, and must make a Threshold=16 CON save or be incapacitated when within 10ft of one. In the second week, the victim can tell spoken trust from falsehood, and takes 1 HP damage (entropic) every time it lies. In the third week, the victim gains a razor sharp sense of justice and advantage at ["sense motive"](05-skills.md#sense-motive) rolls. If they witness an injustice take place they must immediately set about righting (or avenging) it. Else if they recognise a profane being, they must do their utmost to destroy it. If they do, they do not suffer incapacitation due to closeness to profane beings until their next long rest. If they do not, they suffer 1d4 CON and CHA damage (which heals at a rate of 1 point per long rest). The disease is cured if the victim vanquishes profane beings of a higher level than itself, or prevents/rights/avenges injustices to a total count of 12.
-- **Severe**: For the first month the disease progresses as the mild form, except in the fourth week the victim begins to emit a bright light in a 60ft radius and dim light in a 120ft radius (this can be seen 20 miles away on a dark night). If the disease is not cured at the end of the first month, the disease becomes curable only by divine intervention. At the start of the second month the victim suffers terrible visions on following days when they pass by injustice or profane beings without attempting to vanquish them, and must make a threshold=24 CHA roll of fail to gain the benefits of the rest. When the victim has vanquished a total of 12 profane beings more powerful than itself, or prevented/righted/avenged 12 grave injustices, its essence is torn asunder and it emerges as a Seraph under the control an appropriate deity.
+- **Severe**: For the first month the disease progresses as the mild form, except in the fourth week the victim begins to emit a bright light in a 60ft radius and dim light in a 120ft radius (this can be seen 20 miles away on a dark night). If the disease is not cured at the end of the first month, the disease becomes curable only by divine intervention. At the start of the second month the victim suffers terrible visions on following days when they pass by injustice or profane beings without attempting to vanquish them, and must make a threshold=24 CHA roll or fail to gain the benefits of the rest. When the victim has vanquished a total of 12 profane beings more powerful than itself, or prevented/righted/avenged 12 grave injustices, its essence is torn asunder and it emerges as a Seraph under the control an appropriate deity.
 
 ___
 #### Zombification (A Class)

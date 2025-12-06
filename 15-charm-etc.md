@@ -13,7 +13,7 @@ Charm, mind control (domination) and possession (generally by itinerant spirits)
 ___
 ## Charm and Charmed
 
-To charm, in this context, implies to influence the mind of an entity so that it perceives the one that charms in an exceedingly favourable manner. It should be viewed as delicate alteration to the target's perception of reality than full on mind control. The nature of this favourable view is determined specifically by the nature of the charmed entity. For example:
+To charm, in this context, implies to influence the mind of an entity so that it perceives the one that charmed in an exceedingly favourable manner. It should be viewed as delicate alteration to the target's perception of reality, rather than full on mind control. The nature of this favourable view is determined specifically by the nature of the charmed entity. For example:
 
 - A previously hostile dogs might perceive its charmer as its master's friend.
 - A dragon might perceive its charmer as one to whom it owes a heavy debt of gratitude.
@@ -21,7 +21,7 @@ To charm, in this context, implies to influence the mind of an entity so that it
 
 Of course how a charmed entity sees its charmer is not limited to the above examples and the exact way that the mind of a charmed entity justifies the charm is up to the DM for entities charmed by player characters, and to the player for when their character is charmed.
 
-As the [condition](10-conditions-types.md#charmed) states, a charmed entity has disadvantage on [WIS], [CHA], [INT] saves vs its charmer. It also cannot attack the one who charmed it, and has disadvantage on attacks against it. The charmed entity is under no obligation to obey the commands of the one who charmed it (unless the source of the charm is a spell such as [Command Mortal](08-spell-list.md#command-mortal) which specifically specifies this effect).
+As the [condition](10-conditions-types.md#charmed) states, a charmed entity has disadvantage on [WIS], [CHA], [INT] saves vs its charmer. The charmed character also cannot attack the one who charmed it willingly, and the one who charmed it has advantage on attacks against it (although doing so usually at least risks breaking the charm). The charmed entity is under no obligation to obey the commands of the one who charmed it (unless the source of the charm is a spell such as [Command Mortal](08-spell-list.md#command-mortal) which specifically specifies this effect).
 
 A charmed entity will generally follow reasonable, and often even unreasonable requests from the one who charmed it, but will not go against its nature. A cat will (probably!) not attack a bear, a dragon will not relinquish its horde, a loyal son will not kill his parents. In fact requests that go against the nature of a charmed entity generally force a save to break the charm, if not breaking it outright. Furthermore, attacks from the charmer or their allies tend to automatically end the charm effect. Lastly divine or entropic damage to the charmed entity break the effect.
 
@@ -44,7 +44,7 @@ Players whose characters use domination should be aware of potential in characte
 ___
 ## Possession and Possessed
 
-Within this system. Any functional body, be it mortal or mechanical may house zero or more souls (or spirits). Most living mortals have a body and a (nascent) soul. A body that does not contain a soul is not alive (but also not necessarily dead). A soul can be in control of a body, or it can be dormant within it. The controlling soul determines the mental stats ([INT], [WIS],[CHA]), the skills, proficiencies and abilities that the entity (body and soul) together can use.
+Any functional body, be it mortal or mechanical may house zero or more souls (or spirits). Most living mortals have a body and a (nascent) soul. A body that does not contain a soul is not alive (but also not necessarily dead). A soul can be in control of a body, or it can be dormant within it. The controlling soul determines the mental stats ([INT], [WIS],[CHA]), the skills, proficiencies and abilities that the entity (body and soul) together can use.
 
 Thus there are two stages to possession.
 
@@ -62,7 +62,7 @@ Furthermore, if the possessing entity has its own body, the unattended body is e
 ___
 ### Possession and its consequences
 
-Possession is the ultimate denial of agency. For all intents and purposes, when a player character possesses an NPC, the player is playing their character with the physical stats and equipment (at some risk of their character). When an entity played by the DM possesses a player character, the DM is not only playing their entity with the physical stats and equipment of the player, in doing so, the DM is also taking away what is (probably!) the player's only piece in the game. Therefore, the DM should be extremely careful when using this mechanic, if the group elects to use it at all. 
+Possession is the ultimate denial of agency. For all intents and purposes, when a player character possesses an NPC, the player is playing their character with the physical stats and equipment of the NPC (at some risk of their character). When an entity played by the DM possesses a player character, the DM is not only playing their entity with the physical stats and equipment of the player, in doing so, the DM is also taking away what is (probably!) the player's only piece in the game. Therefore, the DM should be extremely careful when using this mechanic, if the group elects to use it at all. 
 
 ___
 ## Altering memory

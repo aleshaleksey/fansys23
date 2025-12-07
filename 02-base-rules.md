@@ -37,6 +37,9 @@
     - [NAP and SAP, NAT and SAT: Attack of the three letter words II](#nap-and-sap-nat-and-sat-attack-of-the-three-letter-words-ii)
     - [Saving throws](#saving-throws)
     - [Hit Threshold (HiT)](#hit-threshold-hit)
+      - [Components of HiT](#components-of-hit)
+      - [What components of HiT represent](#what-components-of-hit-represent)
+      - [HiT and Dropping Defences](#hit-and-dropping-defences)
     - [Skills and Proficiencies](#skills-and-proficiencies)
     - [Abilities](#abilities)
     - [Size](#size)
@@ -192,7 +195,7 @@ Because stacking modifiers can easily "break" a game or lead to situations where
 - Modifiers can come from passive abilities.
 - Modifiers from templates and size ALWAYS stack with other modifiers.
 - Modifiers cannot usually come from conditions.
-- Modifiers can NEVER come directly from active martial or supernatural (spells) abilities (although use of such abilities can induce conditions, which might provide penalties).
+- Modifiers cannot, as a rule, come directly from active martial or supernatural (spells) abilities (although use of such abilities can induce conditions, which might provide penalties).
 
 ___
 ## Time
@@ -531,36 +534,57 @@ A save can either be "good" or "bad" for a character. The calculation for the sa
 A character starts with one good save at level 1, and can gain more good saves with the ["Extra Save"](06-abilities.md#extra-save) ability.
 
 ___
-### HiT Threshold (HiT)
+### Hit Threshold (HiT)
 
-A character has an armour class/hit threshold, this is a measure of how difficult its physical (or spiritual) form is to damage using targeted attacks. It can represent any combination of armour and evasive ability and is something of an abstraction of how hard a character is to damage with a targeted attack: A targeted attack either penetrates defences, with the potential of doing damage, (hit) or it does not (miss). This is an abstraction with the following components:
-
-  - Initial HiT (ALWAYS 10).
-  - **Base**: A character always adds [Base] to HiT. This reflects the general experience of the character bleeding through to defensive capabilities.
-  - **Evasion** (avoiding the brunt of the attack, eg dodging). In general this is equal to the Dex (stat) bonus.
-  - **Deflection** (deflecting the brunt of the attack through passive means, eg protective barriers, cover)
-  - **Shield** (deflecting the brunt of the attack through active means, eg shields, parrying)
-  - **Armour** (absorbing/nullifying the brunt of the attack through, eg a breast plate or dragon's scales)
-
- Thus the final HiT is **[10 + Base + Evasion + Deflection + Shield + Armour]**
-
- In some cases not all components of HiT are used.
-
-  - Some attacks ignore armour (a ghost's touch, a musket bullet at close range, a death ray). In this case **HiT = [10 + Base + Evasion + Deflection]**.
-  - Sometimes the character is not in a position to evade of actively deflect an attack. In this case **HiT = [10 + Base + Deflection + Armour]**. Conditions where this is so are:
-    - "surprised"
-    - "restrained"
-    - "immobilised"
-    - "incapacitated"
-    - "paralysed"
-    - "helpless"
-    - "unconscious"
-    - "dying"
-
-For each component (eg Armour), the Sup and Nat aspect stack. However for each aspect only the highest bonus applies. Eg: If a character wears a full plate on top of padded armour, only the bonus for the full plate applies. Also your character's gonna be really hot and sweaty.
+A character has an armour class/hit threshold. It can represent any combination of armour, shielding, evasive ability and additional blocking factors and is something of an abstract measure of how hard a character is to damage with a targeted attack: A targeted attack either penetrates defences, with the potential of doing damage, (hit) or it does not (miss).
 
 ___
-### HiT and Dropping Defences
+#### Components of HiT
+
+HiT is the sum of a constant factor **[10 + Base]** and 7 variable components: natural armour, outer armour, shield, parry, dodge, insight and barrier. What they represent is explained below.
+
+The individual components add up to give the total HiT of a character. They always stack. Within a single component, for example "shield", the natural and supernatural aspects stack, but different instances within "natural" and "supernatural" aspects do not. Thus wearing padded armour (+2, natural) and full-plate armour (+9, natural) only grants the armour bonus from the full plate armour. It would also make most character rather hot and sweaty.
+
+However, constantly working with 7 components individually is quite tiresome, and not always helpful, so they are generally grouped together by their properties into 4 groups: Armour, shield, evasion and deflection.
+
+|Group     |Active|Contact    |
+|----------|------|-----------|
+|Armour    |No    |Yes        |
+|Shield    |Yes   |Yes        |
+|Evasion   |Yes   |No         |
+|Deflection|No    |No         |
+
+Normally, **HiT = [10 + Base + Evasion + Deflection + Shield + Armour]**.
+
+**Active** groups of HiT are included only against attacks when the target is aware of the attack and can do something about it. Thus an attack by an assassin, whose target is unaware of it bypasses "evasion" and "deflection" groups. Likewise, a dragon's scales keep protecting the dragon even as it sleeps. Active groups *do not* protect a character when it is:
+
+- "surprised"
+- "restrained"
+- ["disabled"](10-conditions-types.md#disabled-states) ("immobilised", "stunned", "incapacitated", "paralysed", "helpless", "unconscious", "dying")
+
+In these cases its **HIT = [10 + Base + Deflection + Armour]**. This is called the "Surprised HiT"
+
+**Contact** groups of HiT are included only against attacks that need to contact the actual 'body'/'form' of a target and generally do not pass through physical barriers. For example, a shade's touch passes straight through armour.
+
+In these cases the **HiT = [10 + Base + Evasion + Deflection]**. This is called "Touch HiT".
+
+___
+#### What components of HiT represent
+
+*Natural Armour* represents the armour that a character's body intrinsically possesses, or any layers of armour that are internal to it, for example scaly or supernaturally hardened skin, or iron bones. This is seldom possessed by ordinary characters and is mostly the domain of monsters.
+
+*Outer Armour* represents the armour that a character wears atop (or instead) of its clothes. This can include shining plate armour, hides, brigandine, etc. For reasons explained in [Chapter 11: Armour](11-weapons-armour.md#armour), one cannot wear two suits of armour and gain the benefit of both.
+
+*Shield* represents using a shield, be it mundane or magical, to deflect an attack or blunt its impact. While it is physically possible to wield two or more shields, the utility of such an endeavour is dubious at best.
+
+*Parry* represents using a weapon or part of one's body to redirect an attack away from oneself. This is commonly seen in martial arts, and combat between those wielding melee weapons. Fencing is a classic example.
+
+*Dodge* and *Insight* represent predicting the trajectory and timing of an incoming attack and not being there when it lands.
+
+*Deflection/Barrier* represents placing an object or structure between yourself and the attack so that it cannot physically reach you. For example, a magical barrier, an emplaced tower shield, or a tree, all count towards this component.
+
+___
+#### HiT and Dropping Defences
 
 An entity can voluntarily [drop defences](04-combat.md#dropping-defences-and-voluntary-hp-damage) as a reaction/minor interaction. In this case it does not add "evasion" or "shield" to its HiT.
 

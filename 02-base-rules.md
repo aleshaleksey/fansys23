@@ -38,7 +38,7 @@
     - [Saving throws](#saving-throws)
     - [Hit Threshold (HiT)](#hit-threshold-hit)
       - [Components of HiT](#components-of-hit)
-      - [What components of HiT represent](#what-components-of-hit-represent)
+      - [Sources of Hit](#sources-of-hit)
       - [HiT and Dropping Defences](#hit-and-dropping-defences)
     - [Skills and Proficiencies](#skills-and-proficiencies)
     - [Abilities](#abilities)
@@ -541,18 +541,16 @@ A character has an armour class/hit threshold. It can represent any combination 
 ___
 #### Components of HiT
 
-HiT is the sum of a constant factor **[10 + Base]** and 7 variable components: natural armour, outer armour, shield, parry, dodge, insight and barrier. What they represent is explained below.
+HiT is the sum of a constant factor **[10 + Base]** and 4 variable components: armour, shield, evasion and deflection.
 
-The individual components add up to give the total HiT of a character. They always stack. Within a single component, for example "shield", the natural and supernatural aspects stack, but different instances within "natural" and "supernatural" aspects do not. Thus wearing padded armour (+2, natural) and full-plate armour (+9, natural) only grants the armour bonus from the full plate armour. It would also make most character rather hot and sweaty.
+Each component has certain properties, conditions under which it adds to HiT, and those under which it doesn't. There are two main properties to a component of HiT, "active" and "contact". Furthermore each component can have several sources.
 
-However, constantly working with 7 components individually is quite tiresome, and not always helpful, so they are generally grouped together by their properties into 4 groups: Armour, shield, evasion and deflection.
-
-|Group     |Active|Contact    |
-|----------|------|-----------|
-|Armour    |No    |Yes        |
-|Shield    |Yes   |Yes        |
-|Evasion   |Yes   |No         |
-|Deflection|No    |No         |
+|Component |Active|Contact    |Sources|
+|----------|------|-----------|-------|
+|Armour    |No    |Yes        |Natural Armour, External Armour, Supernatural|
+|Shield    |Yes   |Yes        |Shield, Weapon, Parry, Supernatural|
+|Evasion   |Yes   |No         |Dodge, Insight, Supernatural|
+|Deflection|No    |No         |Cover, Barrier, Supernatural|
 
 Normally, **HiT = [10 + Base + Evasion + Deflection + Shield + Armour]**.
 
@@ -569,7 +567,15 @@ In these cases its **HIT = [10 + Base + Deflection + Armour]**. This is called t
 In these cases the **HiT = [10 + Base + Evasion + Deflection]**. This is called "Touch HiT".
 
 ___
-#### What components of HiT represent
+#### Sources of HiT
+
+While "components" explain *how and when* that part of a character's HiT works, a "source" explains *what* exactly that part of HiT is and how it is allowed to contribute to HiT.
+
+There are about 10 potential sources of HiT: natural armour, external armour, shield, weapon, parry, dodge, insight, cover, barrier and supernatural.
+
+Bonus to HiT from the same source do not stack and only the greatest bonus and the greatest penalty apply for each source. Thus only one "supernatural" bonus to HiT can apply. Likewise, wearing padded armour (+2, natural) and full-plate armour (+9, natural) only grants the armour bonus from the full plate armour. It would also make most characters rather hot and sweaty. 
+
+As a complete example, a level 3 duelist (11 constant) with a [DEX] of +3 (dodge), wearing a chain shirt (+2 outer armour) and wielding a buckler (+2 shield) and a rapier (+1 weapon) and using the "parry" ability (+2 parry, vs up to 3 attacks), could have a HiT of 21 (11+3+2+2+1+2).
 
 *Natural Armour* represents the armour that a character's body intrinsically possesses, or any layers of armour that are internal to it, for example scaly or supernaturally hardened skin, or iron bones. This is seldom possessed by ordinary characters and is mostly the domain of monsters.
 
@@ -577,11 +583,17 @@ ___
 
 *Shield* represents using a shield, be it mundane or magical, to deflect an attack or blunt its impact. While it is physically possible to wield two or more shields, the utility of such an endeavour is dubious at best.
 
+*Weapon* is like shield, but the source is a weapon. This stacks with shield, since often weapons are designed to be used with a shield, and can block attacks in ways that complement the shield.
+
 *Parry* represents using a weapon or part of one's body to redirect an attack away from oneself. This is commonly seen in martial arts, and combat between those wielding melee weapons. Fencing is a classic example.
 
 *Dodge* and *Insight* represent predicting the trajectory and timing of an incoming attack and not being there when it lands.
 
-*Deflection/Barrier* represents placing an object or structure between yourself and the attack so that it cannot physically reach you. For example, a magical barrier, an emplaced tower shield, or a tree, all count towards this component.
+*Cover* represents placing an object or structure between yourself and the attack so that it cannot physically reach you. For example, an emplaced tower shield, low wall, or a tree, all count towards this component.
+
+*Barrier* represents invisible, or almost invisible barriers which prevent an attack from reaching a target. Usually they make attacks impossible or cause damage reduction, but on occasion, they may contribute directly to HiT.
+
+*Supernatural* bonuses represent supernatural forces that enhance existing protection, usually in ways that defy the laws of nature. Usually they do not contribute to HiT, and protect the character in other ways, but exceptions are possible.
 
 ___
 #### HiT and Dropping Defences

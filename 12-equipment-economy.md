@@ -663,7 +663,57 @@ ___
 
 ___
 
-# Notes
+### Alchemical reagents and potions
+
+This includes various natural and supernatural produce that can be created through the practice of [alchemy](13-crafting-imbuing.md#alchemy). They have diverse and potentially dangerous effects. It should be noted that alchemical produce will generally have low availability, and generally a high cost. In fact there is a good chance that an alchemist will want payment in something other than currency or material goods for his wares and services. When speaking of the crafting times of alchemical goods, one should take into account that they can be prepared in a batch, which does not increase preparation time, but does require a more extensive laboratory and more ingredients, which are not guaranteed to be available. Brewing healing potions in a batch may well prove lethal.
+
+| Item                         |Cost (sp)|Material cost (sp)|crafting days|Thr|"ancient"|"medieval"|"late"   |
+|------------------------------|---------|------------------|-------------|---|---------|----------|---------|
+|Gunpowder (1/10lb)            |40       |4                 |4 days       |16 |no       |very rare |yes      |
+|Smoke-stick (1lb)             |40       |4                 |4 days       |16 |very rare|very rare |rare     |
+|Medicine (C class)            |10       |2                 |2 days       |14 |rare     |very rare |yes      |
+|Medicine (B class)            |40       |8                 |4 days       |16 |rare     |very rare |rare     |
+|Medicine (A class)            |90       |18                |9 days       |20 |very rare|no        |very rare|
+|Medicine (S class)            |160      |32                |20 days      |24 |no       |no        |no       |
+|Cure (C class)                |20       |4                 |4 days       |16 |rare     |very rare |very rare|
+|Cure (B class)                |80       |16                |8 days       |18 |rare     |very rare |very rare|
+|Cure (A class)                |Special  |Special           |18 days      |22 |very rare|very rare |very rare|
+|Cure (S Class)/Panacea        |Special  |Special           |40 days      |28 |very rare|no        |no       |
+|Poison (C class, 1 dose)      |20       |4                 |2 days       |16 |yes      |yes       |yes      |
+|Poison (B class)              |Special  |Special           |4 days       |18 |rare     |rare      |rare     |
+|Poison (A class)              |Special  |Special           |9 days       |22 |very rare|very rare |very rare|
+|Poison (S class)              |Special  |Special           |20 days      |28 |very rare|very rare |no       |
+|Healing Potion (Class I)      |Special  |-                 |5 hours      |24 |rare     |rare      |rare     |
+|Healing Potion (Class II)     |Special  |-                 |2 days       |26 |very rare|very rare |very rare|
+|Healing Potion (Class III)    |Special  |-                 |4 days       |28 |very rare|very rare |very rare|
+|Healing Potion (Class IV)     |Special  |-                 |8 days       |30 |very rare|very rare |very rare|
+|Vitality Potion (Class I)     |Special  |-                 |2 days       |26 |rare     |rare      |rare     |
+|Vitality Potion (Class II)    |Special  |-                 |4 days       |28 |very rare|very rare |very rare|
+|Vitality Potion (Class III)   |Special  |-                 |8 days       |30 |very rare|very rare |very rare|
+|Vitality Potion (Class IV)    |Special  |-                 |12 days      |32 |very rare|very rare |very rare|
+|Potion of Second Life         |Special  |-                 |12 days      |32 |very rare|very rare |very rare|
+|Spirit Bleach                 |Special  |Special           |40 day       |28 |very rare|no        |no       |
+
+**Gunpowder**: Gunpowder is arguably the first explosive. It explodes upon ignition. A single charge of gunpowder is used to fire a single bullet from a medium firearm. 10 charges weight 1/10lb. A canon requires 10 charges to fire. For every size category increase of a firearm, it requires twice as much gunpowder to fire. Gunpowder requires saltpeter, sulfur and charcoal to produce. 1/10lb of gunpowder causes an explosion that deals 2d6 damage within a 5ft radius. The damage is halved upon a successful DEX save (threshold=16). The damage is natural "pressure" and "fire" damage. For every additional 1/2lb of gunpowder, the radius increases by 5ft and the damage increases by 1d8, up to a maximum of 60ft and 12d6 damage.
+
+**Smoke-stick**: Smoke sticks are a formulation of highly flammable waxes with embedded inorganic dyes which disperse over a wide area when the stick is lit. The smoke can have various colours, as determined at the time of production of the smoke stick. A smoke stick burns for 1 minute. On the first round the smoke spreads in a 10ft radius. Every subsequent round it spreads a further 5ft, reaching a maximum radius of 40ft after 8 rounds. The smoke provides "heavy concealment" to all entities in adjacent squares, and "total concealment" for entities at least 10ft away from each other. Indoors, the smoke dissipates within 10 minutes. Outdoors the smoke dissipates after 2 minutes. In conditions of "extreme precipitation" or "severe winds" the smoke dissipates immediately beyond a radius of 10ft.
+
+**Medicine**: A dose of medicine of a given class allows a patient to make a CON save at advantage specifically against a disease or condition it was made to treat. Taking more than 2 doses causes the patient to take 1 point of necrotic damage directly to HP. The specific ingredients of medicine vary by setting. A medicine is a "natural" alchemical product. In general medicines of A and S class require rare ingredients which are generally expensive, although the greater expense is finding an alchemist who knows how to make them and has the appropriate equipment. C and B class medicine can usually be made using "herbalists'" equipment. Medicines keep for no longer than a year.
+
+**Cure**: A cure can be either "natural" or "supernatural". A "natural" cure cures the specific disease it is concocted to cure. A "supernatural" cure cures any disease, poison or condition of an equivalent or lower class. A "supernatural" cure that can cure S class conditions is called a "panacea". Wars have been fought over the secrets of the panacea and alchemists skilled enough to concoct them. Natural cures last for no longer than a month after production. Supernatural cures keep their powers as [dictated by the laws of enchantment](13-crafting-imbuing.md#permanency-and-enchantment-quality-items). Creation of a supernatural cure or panacea requires the alchemist to know "[Cure](08-spell-list.md#cure)".
+
+**Poison**: In most societies most poisons are not readily available (except perhaps basic rat poison or bee venom), however it is available for those who know where to look. Since the more effective poisons are extracted from monsters, the ingredients can be expensive and difficult to come by. Thus one needs not only a skilled alchemist to extract them, but also exceptional 'hunters' to track them down and harvest them in the first place. Lastly, as such poisons are extremely dangerous to the leaders of most kingdoms, their availability is further limited. Details on particular poisons are found in ["Chapter 14: Poisons and Diseases"](14-poisons-and-diseases.md).
+
+**Healing Potion**: Healing potions are a exceptional concoction capable of instantly healing wounds. However, since they require the alchemist to expend their own blood or life-force to create, the price likewise tends to be 'exceptional'. A class I healing potion restores 1HP, a class II healing potion restores 2HP and so on. On a battlefield and in the wilderness this can be the difference between life and death. Creation of a healing potion requires the alchemist to know ["Least Heal"](08-spell-list.md#least-heal).
+
+**Vitality Potion**: A vitality potion is an exceptional concoction that restores MP and SP, as determined at the creation of the potion. However, since it requires the alchemist to expend their own blood or life-force to create, the price likewise tends to be 'exceptional'. A class I vitality potion restores [3d4+3] MP or SP. A class II vitality potion restores [5d4+3] SP/MP, a class III restores [7d4+3] SP/MP and so on. Creation of a vitality potion requires the alchemist to know ["Least Rest"](08-spell-list.md#least-rest).
+
+**Potion of Second Life**: This exceptional potion recreates the effect of the ["Healing Seed"](08-spell-list.md#healing-seed) spell cast at the lowest level when imbibed (or more correctly, fed to the patient). As with any healing potion, its creator must pour their own vitality when creating it. Creation of this potion requires the alchemist to know "Healing Seed".
+
+**Soul Bleach**: Spirit bleach is a concoction which removes supernatural influences upon an entity's alignment, hence removing "divine", "profane" or "elemental" alignment, if it is caused by coming into contact with material, spells, or enchanted objects or locations that endow such an alignment upon a character. It has no effect on characters whose deeds and beliefs have caused them to be so aligned.
+
+___
+## Notes
 
 1. Currency is quite interesting and worth reading up on. For simplicity I am sticking with silver.
 2. Tracking down historical prices is quite laborious and difficult. It is actually questionable whether historical prices should be relied on at all in a game. Especially since game balance by equipment cost is probably more important for us than historical accuracy.

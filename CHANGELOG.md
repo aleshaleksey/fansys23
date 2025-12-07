@@ -572,6 +572,11 @@ ___
 
 ### Weapons
 - Staves now can give a shield[weapon] bonus to HiT if wielded with both hands.
+- Slightly better description of how armour works.
+- Fix some poor formatting.
+
+### Equipment and Economy
+- Add [Alchemical goods table](12-equipment-economy.md#alchemical-reagents-and-potions).
 
 ### Crafting and Imbuing
 - Adjust the threshold modifiers [in the table](13-crafting-imbuing.md#threshold-table). 

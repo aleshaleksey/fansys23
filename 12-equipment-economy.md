@@ -26,6 +26,7 @@
   - [Beasts and Slaves](#beasts-and-slaves)
   - [Property](#property)
   - [Tools and Kits](#tools-and-kits)
+  - [Alchemical reagents and potions](#alchemical-reagents-and-potions)
 
 This chapter discusses resources, basic fantasy economy and item/equipment prices. Most "adventurers" need equipment, weapons and supplies in some shape and form, so they are covered here.
 

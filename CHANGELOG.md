@@ -560,6 +560,7 @@ ___
 
 ### Combat
 - Better describe how ["grapple"](04-combat.md#basic-martial-manoeuvres) can be used to get from "restrained" to "immobilised" and the cost of maintaining a grapple.
+- Change how total [defence: shield](04-combat.md#total-defence-shield) and [total defence: dodge](04-combat.md#total-defence-dodge) work, to make them line up with the changes in concept for HiT.
 
 ### Abilities
 - Reduce prohibitive costs of Elementalism ([Chain](06-abilities.md#chain) and [Arc](06-abilities.md#chain)). First bend/30degrees are free. Afterwards reduce to 1 MP die cost.
@@ -568,6 +569,9 @@ ___
 
 ### Spells
 - Weaken [Stone Ward](08-spell-list.md#stone-ward), to take into account material levels of weapons.
+
+### Weapons
+- Staves now can give a shield[weapon] bonus to HiT if wielded with both hands.
 
 ### Crafting and Imbuing
 - Adjust the threshold modifiers [in the table](13-crafting-imbuing.md#threshold-table). 

@@ -554,15 +554,15 @@ Each component has certain properties, conditions under which it adds to HiT, an
 
 Normally, **HiT = [10 + Base + Evasion + Deflection + Shield + Armour]**.
 
-**Active** groups of HiT are included only against attacks when the target is aware of the attack and can do something about it. Thus an attack by an assassin, whose target is unaware of it bypasses "evasion" and "deflection" groups. Likewise, a dragon's scales keep protecting the dragon even as it sleeps. Active groups *do not* protect a character when it is:
+**Active** groups of HiT are included only against attacks when the target is aware of the attack and can do something about it. Thus an attack by an assassin, whose target is unaware of it bypasses "evasion" and "deflection" groups. Active groups *do not* protect a character when it is:
 
 - "surprised"
 - "restrained"
 - ["disabled"](10-conditions-types.md#disabled-states) ("immobilised", "stunned", "incapacitated", "paralysed", "helpless", "unconscious", "dying")
 
-In these cases its **HIT = [10 + Base + Deflection + Armour]**. This is called the "Surprised HiT"
+In these cases its **HIT = [10 + Base + Deflection + Armour]**. This is called the "Surprised HiT".
 
-**Contact** groups of HiT are included only against attacks that need to contact the actual 'body'/'form' of a target and generally do not pass through physical barriers. For example, a shade's touch passes straight through armour.
+**Contact** groups of HiT are included only against attacks that need to contact the actual 'body'/'form' of a target to cause harm and generally do not pass through physical barriers. For example, a shade's touch or a sword made of pure entropic energies would both pass straight through armour and shields.
 
 In these cases the **HiT = [10 + Base + Evasion + Deflection]**. This is called "Touch HiT".
 
@@ -571,7 +571,7 @@ ___
 
 While "components" explain *how and when* that part of a character's HiT works, a "source" explains *what* exactly that part of HiT is and how it is allowed to contribute to HiT.
 
-There are about 10 potential sources of HiT: natural armour, external armour, shield, weapon, parry, dodge, insight, cover, barrier and supernatural.
+There are 10 potential sources of HiT: natural armour, external armour, shield, weapon, parry, dodge, insight, cover, barrier and supernatural.
 
 Bonus to HiT from the same source do not stack and only the greatest bonus and the greatest penalty apply for each source. Thus only one "supernatural" bonus to HiT can apply. Likewise, wearing padded armour (+2, natural) and full-plate armour (+9, natural) only grants the armour bonus from the full plate armour. It would also make most characters rather hot and sweaty. 
 

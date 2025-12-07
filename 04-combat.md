@@ -93,7 +93,7 @@ ___
 #### HiT (Hit Threshold)
 Representing how difficult it is to cause it damage with a targeted attack that causes damage. Attackers roll an attack with an attack bonus against the HiT.
 
-The calculations for attack thresholds are found in ["Base Rules: Hit Threshold (HiT)"](02-base-rules.md#hit-threshold-hit).
+The calculations for attack thresholds are found in [" NAP and SAP, NAT and SAT"](02-base-rules.md#nap-and-sap-nat-and-sat-attack-of-the-three-letter-words-ii).
 
 ___
 #### Save Bonuses, one for each stat
@@ -106,7 +106,7 @@ The calculations for saves are found in ["Base Rules: Saving throws"](02-base-ru
 ___
 ### Attacks
 
-An attack is any action attempted against an entity that has the potential to reduce its combat potential, be it by direct damage, inducing a condition, or otherwise. For example, slashing an entity with a sword, trying to shove or disarming it, throwing dynamite at a spot where the explosion will catch it, casting a spell that charms, paralyses or blinds it, or dropping a piano on an entity all count as attacks, as do many other actions. There three common forms of attacks
+An attack is any action attempted against an entity that has the potential to reduce its combat potential, be it by direct damage, inducing a condition, or otherwise. For example, slashing an entity with a sword, trying to shove or disarm it, throwing dynamite at a spot where the explosion will catch it, casting a spell that charms, paralyses or blinds it, or dropping a piano on an entity all count as attacks, as do many other actions. There are three common forms of attacks:
 
 - Targeted attacks
 - Area of effect attacks
@@ -229,7 +229,7 @@ ___
 
 An entity can chose not to defend itself when it takes damage, or even to directly harm itself (eg cut itself, shoot itself, swallow a fireball). In those cases it can chose damage to be dealt directly to its own HP (bypassing MP and SP).
 
-If dropping defences in combat, the target uses a reaction/minor interaction. It will lose its "shield" and "evasion" bonus to HiT and can fail saves which can be [failed voluntarily](02-base-rules.md#taking-24-taking-13-auto-failure-and-voluntary-failure). Out of combat time, there is usually time to line up an attack and auto-hit.
+If dropping defences in combat, the target uses a reaction/minor interaction. It will lose its "shield" and "evasion" bonus to HiT and can fail saves which can be [failed voluntarily](02-base-rules.md#taking-24-taking-13-auto-failure-and-voluntary-failure). Out of combat time, there is usually time to line up an attack and auto-hit against a target that has dropped its defences.
 
 OPTIONAL RULE: Harming oneself, or dropping one's defences often takes a considerable amount of willpower. Therefore a group may rule that a character from a race that has survival instincts must succeed a Threshold=20 CHA save before it can drop its defences or harm itself.
 
@@ -363,11 +363,11 @@ For more information on movement, see ["Movement and Exploration"](03-movement-e
 
 ___
 #### Total Defence: Dodge
-A combatant may declare "total defence: dodge" and expend their "main action", "secondary action" and "reaction", hence gaining [3 + Base] to  HiT (evasion), DEX saves and Thresholds vs the following combat manoeuvres: "grapple", "shove", "throw", "trip", "disarm" and "sunder", until the start of their next turn.
+A combatant may declare "total defence: dodge" and expend their "main action", "secondary action" and "reaction", hence adding a bonus equal to your base [DEX] to HiT, DEX saves and to Thresholds vs the following combat manoeuvres: "grapple", "shove", "throw", "trip", "disarm" and "sunder", until the start of their next turn. This bonus stacks with the [DEX] that a character might already add to these defence parameters since it essentially doubles the bonus.
 
 ___
 #### Total Defence: Shield
-A combatant may declare "total defence; shield" and expend their "main action", "secondary action" and "reaction", hence gaining [3 + Base]  to  HiT (shield), STR saves and Thresholds vs the following combat manoeuvres: "restrain", "shove", "throw", "trip", "disarm" and "sunder", until the start of their next turn.
+A combatant may declare "total defence; shield" and expend their "main action", "secondary action" and "reaction", hence adding a bonus equal to your shield[shield + weapon] HiT to HiT, STR saves and to Thresholds vs the following combat manoeuvres: "restrain", "shove", "throw", "trip", "disarm" and "sunder", until the start of their next turn. This bonus stacks with the shield[shield + weapon] HiT bonus that a character might already add to these defence parameters, since it essentially doubles the bonus.
 
 ___
 ### Assisting
@@ -474,7 +474,7 @@ Cover and concealment come in three flavours "light" (1/2), "heavy" (3/4) and "f
 
 ___
 #### Cover
-Cover is when something blocks line of effect between attacker and target. Light cover (as a rule covers no more than half of the entity's body area) provides a -2 penalty to targeted attacks vs a target. Heavy cover (as a rule covers 1/2 to 3/4 of a target's area) provides a -5 penalty to targeted attacks and advantage to Dex saves. A target in full cover cannot be targeted with a targeted attack. If an effect is not stated to explicitly spread around obstacles/corners, full cover automatically blocks it. If the effect does spread around corners and obstacles, the target is affected but has advantage on the save.
+Cover is when something blocks line of effect between attacker and target. Light cover (as a rule covers no more than half of the entity's body area) provides a -2 penalty to targeted attacks vs a target (deflection[cover] bonus to HiT). Heavy cover (as a rule covers 1/2 to 3/4 of a target's area) provides a -5 penalty to targeted attacks and advantage to Dex saves (deflection[cover] bonus to HiT). A target in full cover cannot be targeted with a targeted attack. If an effect is not stated to explicitly spread around obstacles/corners, full cover automatically blocks it. If the effect does spread around corners and obstacles, the target is affected but has advantage on the save.
 
 ___
 #### Concealment

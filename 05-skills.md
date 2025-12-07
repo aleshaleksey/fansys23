@@ -205,8 +205,8 @@ Any entity whose body fits a suit of armour can wear the armour. As such it will
 
 - When an entity dons or doffs an armour it is not proficient with, it takes twice as long to don and doff the armour as normal.
 - While an entity is wearing an armour it is not proficient with:
-  - If it is a medium or heavy armour: It takes a -5 penalty to all [DEX] and [STR] based rolls it makes.
-  - If it is a light armour: It takes a -2 penalty and gains only half of the armour bonus (rounded down). to HiT.
+  - If it is a **medium** or **heavy** armour: It takes a -5 penalty to all DEX and STR based rolls it makes.
+  - If it is a **light** armour or a **shield**: It takes a -2 penalty to all DEX and STR based rolls and gains only half of the armour/shield bonus to HiT.
 
 Armour and its properties are further discussed in the ["Weapons and Armour Section"](11-weapons-armour.md).
 

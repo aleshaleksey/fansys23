@@ -495,7 +495,7 @@ ___
 
 **Type**: (Class A)
 
-**Description**: Add your [Nat] to your HiT against a number of melee attacks.
+**Description**: Add your [Nat] to your HiT (shield[parry] bonus) against a number of melee attacks.
 
 **Action**: Use as your reaction on an enemy's turn vs ONE weapon attack. Alternatively declare on your turn and give up your reaction to make a number of parries up to 2 + your multi-attack level.
 
@@ -1417,7 +1417,7 @@ ___
 
 **Type**: (Natural, Class B)
 
-**Description**: Add [Wis]/2 to your evasion modifier, on top of [Dex] and [size].
+**Description**: Add [Wis]/2 to your HiT (evasion[insight]) , on top of [Dex] and [size].
 
 **Prerequisite**: 
 
@@ -1525,7 +1525,7 @@ ___
 **Special**:
 
 - You can make no more offhand attacks than you made main attacks on a turn.
-- "Offhand fighting II" allows a character to add the shield bonus of a second blade to their HiT for a total of +2.
+- "Offhand fighting II" allows a character to add the shield[weapon] bonus of a second blade to their HiT for a total of +2.
 
 **Prerequisite table**: This ability can be taken multiple times, each time you get an extra offhand attack.
 

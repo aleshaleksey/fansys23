@@ -75,7 +75,7 @@ Weapons are tools that increase the lethality of martial combatants. For the sak
 ___
 ### Weapon durability
 
-As other objects, weapons have HP and can be broken, either by misuse, bad dice luck or abilities similar to "sunder". When a weapon's HP reaches 0, it is broken and cannot be used until repaired (more precisely it can be used, but counts as Unarmed:Strike).
+As other objects, weapons have HP and can be broken, either by misuse, bad dice luck or abilities similar to "sunder". When a weapon's HP reaches 0, it is broken and cannot be used until repaired (more precisely it can be used, but counts as "Unarmed: Strike").
 
 ___
 ### Ranged Weapons, collateral and melee
@@ -277,7 +277,7 @@ Attacking with techniques from this category without proficiency provokes attack
 ___
 ### Light blades
 
-This is something of a misnomer. Light blades refers to smaller one handed bladed weapons that weight no more than 2lb. It also refers to certain thrown weapons whose use is similar to that of bladed weapons. Light blades are typically easily hidden. All light blades can cause "bleeding". Not all light blades have the light properties. All blades give a +1 HiT to proficient wielders who are not "disabled". Wielding two blades gives a +2 total "shield" bonus to HiT if the wielder also has ["Offhand fighting II"](06-abilities.md#offhand-fighting-i-iv).
+This is something of a misnomer. Light blades refers to smaller one handed bladed weapons that weight no more than 2lb. It also refers to certain thrown weapons whose use is similar to that of bladed weapons. Light blades are typically easily hidden. All light blades can cause "bleeding". Not all light blades have the light properties. All blades give a +1 HiT (shield[weapon]) to proficient wielders who are not "disabled". Wielding two blades gives a +2 total "shield[weapon]" bonus to HiT if the wielder also has ["Offhand fighting II"](06-abilities.md#offhand-fighting-i-iv).
 
 
 |Weapon|Special Properties|Manoeuvres|
@@ -301,7 +301,7 @@ This is something of a misnomer. Light blades refers to smaller one handed blade
 ___
 ### Heavy blades
 
-These are the legendary blades of legend, and the symbol of a warrior. Heavy blades are fearsome bladed weapons. All items in this category except Falchions are "long". All heavy blades cause "bleeding". All blades give a +1 "shield" bonus to HiT to proficient wielders who are not "disabled". Wielding two blades gives a +2 total "shield" bonus to HiT if the wielder also has ["Offhand fighting II"](06-abilities.md#offhand-fighting-i-iv).
+These are the legendary blades of legend, and the symbol of a warrior. Heavy blades are fearsome bladed weapons. All items in this category except falchions are "long". All heavy blades cause "bleeding". All blades give a +1 "shield[weapon]" bonus to HiT to proficient wielders who are not "disabled". Wielding two blades gives a +2 total "shield[weapon]" bonus to HiT if the wielder also has ["Offhand fighting II"](06-abilities.md#offhand-fighting-i-iv).
 
 |Weapon|Special Properties| Manoeuvres|
 |-|-|-|
@@ -332,9 +332,9 @@ A hefted weapon with a sharp, protruding head that is used for chopping. While a
 |Greataxe|cripple, bleeding, heavy||
 
 
-**Hand Axe**: Any well balanced, one handed axe with a sturdy construction is considered a hand axe. Cavalry axes are usually also considered hand axes. Hand axes have of the "bleeding", "Tool:Carpentry", "Tool:Fortification" and "Tool: Forestry" properties.
+**Hand Axe**: Any well balanced, one handed axe with a sturdy construction is considered a hand axe. Cavalry axes are usually also considered hand axes. Hand axes have of the "bleeding", "Tool: Carpentry", "Tool: Fortification" and "Tool: Forestry" properties.
 
-**War shovel**: Shovels can be a deadly weapon. Noticing this, many armies and rebel groups keep a stock of well balanced shovels. War shovels have the "bleeding", "Tool:fortification" and "Tool:agriculture". **NB:** This weapon is most appropriate for late renaissance pre-WWI settings.
+**War shovel**: Shovels can be a deadly weapon. Noticing this, many armies and rebel groups keep a stock of well balanced shovels. War shovels have the "bleeding", "Tool: fortification" and "Tool: agriculture". **NB:** This weapon is most appropriate for late renaissance pre-WWI settings.
 
 **War pick**: Hefted picks, including kamas and european war-picks can be considered "war picks" for the sake of proficiency. War picks have the "sunder" property, and "sunder" vs armour is at advantage when using a war pick.
 
@@ -420,7 +420,7 @@ ___
 ___
 ### Staves
 
-Staves are round poles with a length between 4-8ft. Staves are percussive weapons that can also be used for support when "crippled" or on difficult terrain. They are particularly useful for non-lethal combat. Staves can cause "cripple" and "prone".
+Staves are round poles with a length between 4-8ft. Staves are percussive weapons that can also be used for support when "crippled" or on difficult terrain. They are particularly useful for non-lethal combat. Staves can cause "cripple" and "prone". Staves wielded with two hands grant a +1 bonus to HiT (shield[weapon]) to the wielder.
 
 |Weapon|Special Properties| Manoeuvres|
 |-|-|-|
@@ -548,16 +548,9 @@ ___
 
 ### Armour and its relationship with [HiT]
 
-Targeted attacks are rolled against ["HiT"](02-base-rules.md#hit-threshold-hit). [HiT] represents how effective/powerful/precise a targeted attack has to be to harm the target. It is made of the following components, all of which stack:
+Targeted attacks are rolled against ["HiT"](02-base-rules.md#hit-threshold-hit). [HiT] represents how effective/powerful/precise a targeted attack has to be to harm the target.
 
-- Initial Hit (ALWAYS 10).
-- Base (general experience bleeding through to various aspects of defence).
-- Evasion (avoiding the brunt of the attack, eg dodging)
-- Deflection (deflecting the brunt of the attack through active means, eg parrying)
-- Shield (deflecting the brunt of the attack through passive means, eg shields)
-- Armour (absorbing/nullifying the brunt of the attack through, eg a breast plate or scales)
-
-Each component of armour stacks. Furthermore, for each component, the [Nat] and [Sup] component stacks. Armour usually counts for the Nat component of Armour bonus.
+Wearing armour adds to the "armour" component of HiT from the "external armour" source (armour[external armour] - "external" since armour is worn outside of the body and not inside it). Wielding a shield or buckler adds to the "shield" component of HiT from the "shield" source (shield[shield]).
 
 ### Armour types
 
@@ -592,7 +585,7 @@ Any entity whose body fits a suit of armour can wear the armour. As such it will
 - When an entity dons or doffs an armour it is not proficient with, it takes twice as long to don and doff the armour as normal.
 - While an entity is wearing an armour it is not proficient with:
   - If it is a **medium** or **heavy** armour: It takes a -5 penalty to all DEX and STR based rolls it makes.
-  - If it is a **light** armour or a **shield**: It takes a -2 penalty to all DEX and STR based rolls and gains only half of the armour bonus to HiT.
+  - If it is a **light** armour or a **shield**: It takes a -2 penalty to all DEX and STR based rolls and gains only half of the armour/shield bonus to HiT.
 
 
 ### Donning and Doffing armour

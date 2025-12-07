@@ -397,20 +397,24 @@ This introduction leaves a lot of unanswered questions, such as "how do I attack
 
 #### HiT
 
-HiT (Hit Threshold) represents how difficult it is to harm a character with targeted attacks. An attack roll must meet or beat HiT to do damage. In most cases HiT is calculated as [10 + Evasion + Armour + Shield + Deflection].
+HiT (Hit Threshold) represents how difficult it is to harm a character with targeted attacks. An attack roll must meet or beat HiT to do damage. In most cases HiT is calculated as:
 
-+ Armour and Shield bonus is determined by the armour and shield that is equipped, usually.
+**HiT = [10 + Base + Evasion + Armour + Shield + Deflection]**
+
++ Armour and Shield bonus is determined by the armour, shield and any blades used for parrying, usually.
 + Evasion is generally equal to [Dex] + [Size modifier]
-+ Deflection is granted by blades which can be used to parry, and certain abilities.
++ Deflection is granted by cover, magical barriers, and certain abilities.
 
-In general, the higher the hit the better (See ["Base Rules: Hit Threshold (HiT)"](02-base-rules.md#hit-threshold-(hit)). A level one character can expect to have HiT 16 when kitted up.
+In general, the higher the hit the better (See ["Base Rules: Hit Threshold (HiT)"](02-base-rules.md#hit-threshold-hit)). A level one character can expect to have HiT of between 14 and 20 when kitted up.
 
 ___
 #### Attack bonuses and Hit Thresholds
 
-Attacks must overcome HiT to do damage, abilities are opposed by a save. "Natural" attacks are governed by Str and Dex (use [Str] or [Dex] bonus to hit), while "supernatural" attacks are governed by Int and Wis (use [Int] or [Wis] bonus to hit, usually [Wis]).
+Attacks must overcome HiT to do damage, abilities are opposed by a save. An attack roll with bonuses must equal or exceed ("meet or beat") the HiT to deal damage. Likewise, a saving roll must likewise meet or beat the malign effect's "save threshold" to avoid or mitigate the effect.
 
-The Attack Potential of a character's ability is determined by the total number of SP dice it has divided by 6 (for "natural" attacks) or the total number of MP dice it has divided by 6 (for "supernatural" attacks). These bonuses are called the "Nat" and "Sup" respectively, and are used a lot! Overall the total attack bonus is generally given by:
+"Natural" attacks are governed by Str and Dex (use [Str] or [Dex] bonus to hit), while "supernatural" attacks are governed by Int and Wis (use [Int] or [Wis] bonus to hit, usually [Wis]).
+
+The Attack Potential of a character's ability is determined by the total number of SP dice it has divided by 6 (for "natural" attacks) or the total number of MP dice it has divided by 6 (for "supernatural" attacks) and rounded up. These bonuses are called the "Nat" and "Sup" respectively, and are used a lot! Overall the total attack bonus is generally given by:
 
 + For "natural" abilities, attack potential **(NAP) = [Nat] + [Base]**
 + For "supernatural" abilities, attack potential **(SAP) = [Sup] + [Base]**
@@ -422,7 +426,7 @@ So for our example level one character who had 3 SP dice and 2 MP dice:
 
 With the above [Nat] and [Sup] values (1), at level one (when [Base] = 1), our example character will have both [NAP] and [SAP] equal to 2. 
 
-Now if the character has +2 [Str] and 0 [Int], for Str based attacks, such as cutting with an axe, it will have a bonus of 2 + 2 = 4. On the other hand for Int based attacks, such as casting an incantation, it will be 2 + 0 = 2. Clearly this character is better off using an axe!
+Now if the character has +2 [Str] and 0 [Int], for Str based attacks, such as cutting with an axe, it will have a bonus of 2 + 2 = 4. On the other hand for Int based attacks, such as casting an incantation, it will be 2 + 0 = 2. Clearly this character is usually better off using an axe!
 
 In short:
 

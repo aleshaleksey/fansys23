@@ -500,14 +500,14 @@ An unconscious character can make CON and CHA saves, and communicate telepathica
 #### Helpless
 A helpless character is in a condition where they cannot protect themselves. Usually they are otherwise compromised.
 
-  - It does not ga[in [STATS] to HiT.
+  - It does not gain [STATS] to HiT.
   - If it can fall prone, it falls prone.
   - All melee attacks against it are made at advantage.
   - It loses "evasion" and "shield" bonus to HiT.
   - All damage bypasses SP and MP.
   - It cannot make saves other than CON, CHA and WIS.
   - It cannot move or take take actions other than [WIS] based skill checks.
-  - If it can communicate, it cannot do so "loudly" enough to gain attention from afar without a [SKILL] check from the ]recipient.
+  - If it can communicate, it cannot do so "loudly" enough to gain attention from afar without a [SKILL] check from the recipient.
 
 #### Paralysed
 A paralysed character cannot take physical actions:

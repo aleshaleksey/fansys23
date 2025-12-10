@@ -5,9 +5,7 @@
 
 #let chapterindex() = context {
   // Get first level chapters
-  let chapters = query(
-    heading.where(level: 1),
-  )
+  let chapters = query(heading.where(level: 1))
 
   // Get start variables
   let start = here().page()
@@ -33,9 +31,7 @@
 
 #let spellindex() = context {
   // Get first level chapters
-  let chapters = query(
-    heading.where(level: 2),
-  )
+  let chapters = query(heading.where(level: 2))
 
   // Get start variables
   let start = here().page()
@@ -54,5 +50,6 @@
     .where(level: 3)
     .before(inclusive: true, last)
     .after(inclusive: true, here())
+
   outline(title: none, target: t)
 }

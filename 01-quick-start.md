@@ -215,7 +215,7 @@ This is a race that is closer to the feral side of humanoids. They are stronger 
 - +1 Con, +1 Str.
 
 ___
-### The Sea People (level-1 template = 8 points)
+#### The Sea People (level-1 template = 8 points)
 
 The sea people a race of humanoids that live in and around the islands of the shallow seas, and in the marshes and great lakes. They often disguise themselves as humans, for various reasons.
 
@@ -238,7 +238,7 @@ The sea people a race of humanoids that live in and around the islands of the sh
 - One of "life sense (1 level)" or "blind sight (1 level)".
 
 ___
-### The Winged (level-1 template = 8 points)
+#### The Winged (level-1 template = 8 points)
 
 This is a race of winged humanoids that live in high and isolated places, as well as loci associated with elemental air. They are small of stature, sharp sighted, and often shy of other races.
 
@@ -287,7 +287,7 @@ This is a race of intelligent beasts that dwells in the deepest wilderness. It i
 - 1 level of incantation magic.
 
 ___
-### Beast folk (level-1 template = 8 points)
+#### Beast folk (level-1 template = 8 points)
 
 This is a race of humanoid that has various beast like traits, usually cat-like, or dog-like. This race is loved by degenerates.
 
@@ -309,7 +309,7 @@ This is a race of humanoid that has various beast like traits, usually cat-like,
 - One of "keen hearing", "keen scent".
 
 ___
-### Fiend-touched (level-1 template = 8 points)
+#### Fiend-touched (level-1 template = 8 points)
 
 This represents those who have been touched by dark forces. Perhaps because of a pact, perhaps because of a dark ritual, perhaps because of whimsical evil. Or perhaps it's a bona fide race.
 

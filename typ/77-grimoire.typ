@@ -1,4 +1,4 @@
-#import "fansys-core.typ": chapterindex, link2
+#import "fansys-core.typ": chapterindex, link2, spellindex
 
 #set page(
   paper: "a5",
@@ -7,7 +7,6 @@
     bottom: 50pt,
     top: 50pt,
   ),
-  // header: align(right)[_Fantasy Comittee | FS_],
   header: context {
     let page = here().page()
     // Get chapters and subchapters
@@ -75,12 +74,46 @@
 )
 #show table.cell.where(y: 0): strong
 
+#show heading.where(depth: 4): h => context {
+  [
+    #text(size: 10.6pt, weight: "semibold", style: "normal", h.body)
+    #linebreak()
+  ]
+}
+#show heading.where(depth: 3): h => context {
+  [
+    #text(size: 12pt, weight: "bold", style: "normal", h.body)
+    #linebreak()
+  ]
+}
+#show heading.where(depth: 2): h => context {
+  align(center)[
+    #par(text(size: 13pt, weight: "bold", style: "normal", h.body))
+  ]
+  [#text(size: 10.6pt, weight: "regular", spellindex())]
+}
+#show heading.where(depth: 1): h => context {
+  align(center)[
+    #par(text(
+      size: 16pt,
+      weight: "bold",
+      style: "normal",
+      spacing: 106%,
+      h.body,
+    ))
+  ]
+}
+
 #show link: content => {
   underline(text(blue, content))
 }
 
 #place(top + center, float: true, scope: "parent")[= FanSys 23]
-#place(top + center, float: true, scope: "parent")[== A Grimoire for Fantasy Worlds]
+#place(
+  top + center,
+  float: true,
+  scope: "parent",
+)[== A Grimoire for Fantasy Worlds]
 
 #pagebreak()
 #include "build/08-spell-list.typ"

@@ -7,7 +7,6 @@
     bottom: 50pt,
     top: 50pt,
   ),
-  // header: align(right)[_Fantasy Comittee | FS_],
   header: context {
     let page = here().page()
     // Get chapters and subchapters
@@ -62,7 +61,6 @@
 )
 #set text(
   font: "New Computer Modern",
-  // tracking: -0.1pt,
   spacing: 115%,
   size: 10.6pt,
   overhang: true,
@@ -80,15 +78,46 @@
 )
 #show table.cell.where(y: 0): strong
 
+#show heading.where(depth: 4): h => context {
+  [
+    #text(size: 10.6pt, weight: "semibold", style: "normal", h.body)
+    #linebreak()
+  ]
+}
+#show heading.where(depth: 3): h => context {
+  [
+    #text(size: 12pt, weight: "bold", style: "normal", h.body)
+    #linebreak()
+  ]
+}
+#show heading.where(depth: 2): h => context {
+  align(center)[
+    #par(text(size: 13pt, weight: "bold", style: "normal", h.body))
+  ]
+}
+#show heading.where(depth: 1): h => context {
+  align(center)[
+    #par(text(
+      size: 16pt,
+      weight: "bold",
+      style: "normal",
+      spacing: 106%,
+      h.body,
+    ))
+  ]
+}
+
 #show figure: set block(breakable: true)
-// #show figure: it => align(left)[
-//   #it.body
-// ]
 #show figure.where(kind: table): it => context {
   let colw = measure(layout(width => width)).width
   let colh = colw * 2.9 // This is a hack.
   let tab = measure(it.body)
-  if colw < tab.width and colh < tab.height {
+  let factor = tab.width / (2.0 * colw)
+  if factor < 1.0 {
+    factor = 1.0
+  }
+  let real_tabh = tab.height * factor
+  if colw < tab.width and colh < real_tabh {
     context [
       #set page(columns: 1)
       #align(left)[#it.body]
@@ -106,7 +135,11 @@
 }
 
 #place(top + center, float: true, scope: "parent")[= FanSys 23]
-#place(top + center, float: true, scope: "parent")[== A New System for Fantasy Worlds]
+#place(
+  top + center,
+  float: true,
+  scope: "parent",
+)[== A New System for Fantasy Worlds]
 
 
 #set page(columns: 1)

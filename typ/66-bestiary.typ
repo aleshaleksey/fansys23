@@ -7,7 +7,6 @@
     bottom: 45pt,
     top: 45pt,
   ),
-  // header: align(right)[_Fantasy Comittee | FS_],
   header: context {
     let page = here().page()
     // Get chapters and subchapters
@@ -78,6 +77,35 @@
 )
 #show table.cell.where(y: 0): strong
 
+#show heading.where(depth: 4): h => context {
+  [
+    #text(size: 10.6pt, weight: "semibold", style: "normal", h.body)
+    #linebreak()
+  ]
+}
+#show heading.where(depth: 3): h => context {
+  [
+    #text(size: 12pt, weight: "bold", style: "normal", h.body)
+    #linebreak()
+  ]
+}
+#show heading.where(depth: 2): h => context {
+  align(center)[
+    #par(text(size: 13pt, weight: "bold", style: "normal", h.body))
+  ]
+}
+#show heading.where(depth: 1): h => context {
+  align(center)[
+    #par(text(
+      size: 16pt,
+      weight: "bold",
+      style: "normal",
+      spacing: 106%,
+      h.body,
+    ))
+  ]
+}
+
 #show figure: set block(breakable: true)
 #show figure: it => align(left)[
   #it.body
@@ -88,7 +116,11 @@
 }
 
 #place(top + center, float: true, scope: "parent")[= FanSys 23]
-#place(top + center, float: true, scope: "parent")[== A Bestiary for Fantasy Worlds]
+#place(
+  top + center,
+  float: true,
+  scope: "parent",
+)[== A Bestiary for Fantasy Worlds]
 
 #pagebreak()
 #outline(target: heading.where(level: 1))

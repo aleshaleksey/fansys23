@@ -1,4 +1,5 @@
 typ/build
+sphinx/*/**
 .*
 *.pdf
 

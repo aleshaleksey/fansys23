@@ -1,0 +1,1953 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="./">
+  <head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="genindex.html"><link rel="search" title="Search" href="search.html"><link rel="next" title="Abilities and Boons" href="06-abilities.html"><link rel="prev" title="Combat" href="04-combat.html">
+
+    <!-- Generated with Sphinx 8.2.3 and Furo 2025.09.25 -->
+        <title>Skills - FanSys 0.0.18</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d111a655" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=580074bf" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=8dab3a3b" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f2f2f2;
+  --color-code-foreground: #1e1e1e;
+  --color-foreground-primary: #202424;
+  --color-foreground-secondary: #4a4c53;
+  --color-brand-primary: #112233;
+  --color-brand-content: #443322;
+  --color-brand-visited: #448822;
+  --color-background-primary: #f2f4ec;
+  --color-background-secondary: #e5e7e3;
+  --color-background-hover: #fafaf5;
+  --color-background-border: #40404067;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-foreground-primary: #cfd0d0;
+  --color-foreground-secondary: #acb0b5;
+  --color-brand-primary: #AABBCC;
+  --color-brand-content: #CFBEAC;
+  --color-brand-visited: #99DD99;
+  --color-background-primary: #242628;
+  --color-background-secondary: #2a2c2e;
+  --color-background-hover: #1e2124ff;
+  --color-background-border: #483945;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-foreground-primary: #cfd0d0;
+  --color-foreground-secondary: #acb0b5;
+  --color-brand-primary: #AABBCC;
+  --color-brand-content: #CFBEAC;
+  --color-brand-visited: #99DD99;
+  --color-background-primary: #242628;
+  --color-background-secondary: #2a2c2e;
+  --color-background-hover: #1e2124ff;
+  --color-background-border: #483945;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle site navigation sidebar">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc" aria-label="Toggle table of contents sidebar">
+<label class="overlay sidebar-overlay" for="__navigation"></label>
+<label class="overlay toc-overlay" for="__toc"></label>
+
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <span class="icon"><svg><use href="#svg-menu"></use></svg></span>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="index.html"><div class="brand">FanSys 0.0.18</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="index.html">
+  
+  <span class="sidebar-brand-text">FanSys 0.0.18</span>
+  
+</a><form class="sidebar-search-container" method="get" action="search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Index:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="01-quick-start.html">FanSys23 Quick-start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="03-movement-exploration.html">Actions outside of Combat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="04-combat.html">Combat</a></li>
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Skills</a></li>
+<li class="toctree-l1"><a class="reference internal" href="06-abilities.html">Abilities and Boons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="07-magic-and-spellcasting.html">Spells</a></li>
+<li class="toctree-l1"><a class="reference internal" href="08-spell-list.html">Spell List</a></li>
+<li class="toctree-l1"><a class="reference internal" href="09-races.html">Types, Races, Species and Templates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="10-conditions-types.html">Conditions and Types</a></li>
+<li class="toctree-l1"><a class="reference internal" href="11-weapons-armour.html">Weapons and armour</a></li>
+<li class="toctree-l1"><a class="reference internal" href="12-equipment-economy.html">Equipment and Economy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="13-crafting-imbuing.html">Crafting and Imbuing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="14-poisons-and-diseases.html">Poisons and Diseases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="15-charm-etc.html">A note on charm, domination and possession</a></li>
+<li class="toctree-l1"><a class="reference internal" href="16-recipes.html">Recipes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="02-base-rules.html">Base Rules</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="bestiary.html">A Bestiary for Fantasy Worlds</a><input aria-label="Toggle navigation of A Bestiary for Fantasy Worlds" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/forwards.html">Forwards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/beasts-and-plants.html">Beasts and Plants</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/constructs.html">Constructs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/divines.html">Divines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/humanoids.html">NPC stat blocks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/monsters-and-dragons.html">Monsters and Dragons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/profanes.html">Profanes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/spirits.html">Spirits</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="CHANGELOG.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="TODO.html">Character sheet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="LICENSE.html">License</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="view-this-page">
+  <a class="muted-link" href="_sources/05-skills.md.txt" title="View this page">
+    <svg><use href="#svg-eye"></use></svg>
+    <span class="visually-hidden">View this page</span>
+  </a>
+</div>
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          <section id="skills">
+<h1>Skills<a class="headerlink" href="#skills" title="Link to this heading">¶</a></h1>
+<p>This section covers which skills exist and how they are used.</p>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="#skills-and-proficiencies">Skills and Proficiencies</a></p>
+<ul class="simple">
+<li><p><a class="reference external" href="#acquiring-skills-and-proficiencies">Acquiring skills and proficiencies</a></p></li>
+<li><p><a class="reference external" href="#skill-points-ranks">Skill points (ranks)</a></p></li>
+<li><p><a class="reference external" href="#base-and-background-bonus">Base and “background” bonus</a></p></li>
+<li><p><a class="reference external" href="#total-skill-bonus">Total Skill bonus</a></p></li>
+<li><p><a class="reference external" href="#circumstance-bonus">Circumstance bonus</a></p></li>
+<li><p><a class="reference external" href="#assisting-and-circumstance-bonuses">Assisting and Circumstance bonuses</a></p></li>
+<li><p><a class="reference external" href="#skill-groups">Skill groups</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#skills-list">Skills list</a></p></li>
+<li><p><a class="reference external" href="#proficiency-lists">Proficiency Lists</a></p>
+<ul class="simple">
+<li><p><a class="reference external" href="#language-proficiencies">Language Proficiencies</a></p></li>
+<li><p><a class="reference external" href="#tool-proficiencies">Tool Proficiencies</a></p></li>
+<li><p><a class="reference external" href="#armour-proficiencies">Armour Proficiencies</a></p></li>
+<li><p><a class="reference external" href="#weapon-proficiencies">Weapon Proficiencies</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#detailed-skill-descriptions">Detailed Skill Descriptions</a></p>
+<ul class="simple">
+<li><p><a class="reference external" href="#str-based">STR Based</a></p></li>
+<li><p><a class="reference external" href="#dex-based">DEX Based</a></p></li>
+<li><p><a class="reference external" href="#con-based">CON Based</a></p></li>
+<li><p><a class="reference external" href="#int-based">INT Based</a></p></li>
+<li><p><a class="reference external" href="#wis-based">WIS Based</a></p></li>
+<li><p><a class="reference external" href="#cha-based">CHA Based</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#optional-suggested-assisting-skills">Optional Suggested Assisting Skills</a></p></li>
+</ol>
+<hr class="docutils" />
+<section id="skills-and-proficiencies">
+<h2>Skills and Proficiencies<a class="headerlink" href="#skills-and-proficiencies" title="Link to this heading">¶</a></h2>
+<p>The game has <strong>skills</strong> and <strong>proficiencies</strong>. The game defines them as follows. They do not necessarily reflect “real life” accurately since this is both a game and an abstraction.</p>
+<ul class="simple">
+<li><p><strong>Skills:</strong> are general abilities that cover a range of activities that a character can learn and improve in with time. For example, <strong>swimming</strong> is a skill because it covers, swimming, diving and similar, and a character’s ability to swim is graded. Eg. “I can’t swim”, “I can swim but not well”, “I can cross a river, yeah”, “I’ve swam 20 miles, it took me 3 hours”.</p></li>
+<li><p><strong>Proficiencies:</strong> A proficiency is the knowledge and ability in using a very specific set of tools or abilities. Having a <strong>proficiency</strong> allows a character to use a skill with the tool/ability with a skill. Eg. Proficiency in <strong>lock picks</strong> with a <strong>tinker</strong> check allows picking locks. Proficiency with <strong>whale</strong> allows you to use <strong>diplomacy</strong> skill to persuade whales when speaking in their language.</p></li>
+</ul>
+<hr class="docutils" />
+<section id="acquiring-skills-and-proficiencies">
+<h3>Acquiring skills and proficiencies<a class="headerlink" href="#acquiring-skills-and-proficiencies" title="Link to this heading">¶</a></h3>
+<p>Skills and proficiencies are usually acquired at level up by either assigning skill points or adding a skill to “background skills”. This reflects time spent honing skills through use on adventure and picking up new skills and techniques by training. Certain special abilities also grant additional skills and proficiencies.</p>
+<p>It is NOT advisable to allow a character to gain additional skill points outside of this unless it is necessary for party balance or plot reasons. Even then it should not be taken lightly. As an optional rule, a character may spend a solid month of training to gain 1 skill point. Even so, the total number of points (ranks) in a skill cannot exceed [LVL]/2 (rounded up). Certain supernatural abilities can also transfer a skill from one entity to another, but no entity should use them lightly.</p>
+</section>
+<hr class="docutils" />
+<section id="skill-points-ranks">
+<h3>Skill points (ranks)<a class="headerlink" href="#skill-points-ranks" title="Link to this heading">¶</a></h3>
+<p>A character gets skill points (ranks) based on level and intelligence. The maximum number of points (ranks) in one skill is as follows:</p>
+<ul class="simple">
+<li><p><strong>[LEVEL / 2] rounded up</strong>.</p></li>
+</ul>
+<p>Every level a character gains skill points equal to <strong>4 + [INT]</strong> (With essentially 4 extra skill points at level 1). So at level LVL a character has <strong>4 + [LVL] x (4 + [INT])</strong> skill points (not counting any ranks gained through converting “level points” to skill points).</p>
+<p>A skill point can be assigned to either (a) gain a proficiency, or (b) add a rank to a skill. Each level a character can reassign one of the previously assigned skill points to a different proficiency or skill. If a character has <strong>zero</strong> ranks in a skill and does not have the skill as a background skill, any roll of the dice (before modifiers!) in that skill above 13 counts as 13. This reflects lack of specialist knowledge and experience that that character lacks. A character can circumvent this by using a different skill in the same <a class="reference external" href="#skill-groups">“skill group”</a>, however, in this case they take a -5 penalty to the roll instead.</p>
+</section>
+<hr class="docutils" />
+<section id="base-and-background-bonus">
+<h3>Base and “background” bonus<a class="headerlink" href="#base-and-background-bonus" title="Link to this heading">¶</a></h3>
+<p>Every ODD level a character adds a “background” skill to add its <strong>base + 1</strong> to. This cannot be reassigned later. At level N a character has N/2 (rounded up) skills which are assigned as background skills (eg: 3 at level 6, 5 at level 9). This reflects knowledge in untrained skills that a character has picked up over their adventures, travels and other lifetime experience without formal training.</p>
+</section>
+<hr class="docutils" />
+<section id="total-skill-bonus">
+<h3>Total Skill bonus<a class="headerlink" href="#total-skill-bonus" title="Link to this heading">¶</a></h3>
+<p>A character has a skill bonus of <strong>[Base + 1(optional)] + [ranks] + [ability bonus]</strong>. So a character with INT = +2, and 2 ranks in “swim” has a +4 to swim. If they have assigned “swim” as a background skill, and their base is +1, the total bonus is +6.</p>
+</section>
+<hr class="docutils" />
+<section id="circumstance-bonus">
+<h3>Circumstance bonus<a class="headerlink" href="#circumstance-bonus" title="Link to this heading">¶</a></h3>
+<p>Sometimes circumstances may add a +2/+5 to a roll (eg Homeland bonus for navigation). Sometimes they may cause advantage or disadvantage. Sometimes they are codified in the rules, sometimes the DM may apply them as appropriate.</p>
+<hr class="docutils" />
+<section id="assisting-and-circumstance-bonuses">
+<h4>Assisting and Circumstance bonuses<a class="headerlink" href="#assisting-and-circumstance-bonuses" title="Link to this heading">¶</a></h4>
+<p>A character may gain a +2 circumstance bonus on a skill or ability roll if <em>another</em> character ‘assists’. In this case, before the initiating character makes their roll, an additional character or characters declares that they are assisting.</p>
+<p>In this case the assisting character may also make the skill/ability roll (with skills/tools the assistant must be proficient). On a total of 12 or higher, the initiating character gains a +2 on the roll.</p>
+<p>This bonus stacks. However, the number of assistants can be no higher than [base] of the initiating character. So a level 5 character can benefit from no more than 1 assistant. A level 12 character can benefit from no more than 3 assistants.</p>
+<p>Some skills cannot be assisted.</p>
+<p><strong>Optional rule</strong>: If it makes sense that a different skill should be able to help (for example assisting a “Spellworking” roll with a “Knowledge: Arcana” roll, or assisting a “Tinker” roll with an “Academics” roll, or assisting a “Harvest”) in a given situation, the alternate skill can also be used for assisting. This rule can be problematic since, firstly it slows down the game as players may go into unnecessary long justifications, and secondly, adds a lot more to DM whimsy. On the other hand, this can also encourage creative role-play. An <a class="reference external" href="#optional-suggested-assisting-skills">“Optional Suggested Assisting Skills”</a> table is provided below.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="skill-groups">
+<h3>Skill groups<a class="headerlink" href="#skill-groups" title="Link to this heading">¶</a></h3>
+<p>Some skills are similar to each other as to be somewhat transferable. In this case the character may roll a different skill from the same group with a -5 penalty.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="skills-list">
+<h2>Skills list<a class="headerlink" href="#skills-list" title="Link to this heading">¶</a></h2>
+<p>There are 31 skills and a number of proficiencies.</p>
+<section id="str-based-4">
+<h3>STR Based (4)<a class="headerlink" href="#str-based-4" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Athletics Group</p>
+<ul>
+<li><p><a class="reference external" href="#athletics">Athletics</a></p></li>
+<li><p><a class="reference external" href="#climb">Climb</a></p></li>
+<li><p><a class="reference external" href="#swim">Swim</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#fortify">Fortify</a></p></li>
+</ul>
+</section>
+<section id="dex-based-7">
+<h3>DEX Based (7)<a class="headerlink" href="#dex-based-7" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Handiwork group</p>
+<ul>
+<li><p><a class="reference external" href="#sleight-of-hand">Sleight of Hand</a></p></li>
+<li><p><a class="reference external" href="#tinker">Tinker</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#heal">Heal</a></p></li>
+<li><p>Ride Group</p>
+<ul>
+<li><p><a class="reference external" href="#acrobatics">Acrobatics</a></p></li>
+<li><p><a class="reference external" href="#fly">Fly</a></p></li>
+<li><p><a class="reference external" href="#ride">Ride</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#stealth">Stealth</a></p></li>
+</ul>
+</section>
+<section id="con-based-1">
+<h3>CON Based (1)<a class="headerlink" href="#con-based-1" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="#harvest">Harvest</a></p></li>
+</ul>
+</section>
+<section id="int-based-10">
+<h3>INT Based (10)<a class="headerlink" href="#int-based-10" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="#academics">Academics</a></p></li>
+<li><p><a class="reference external" href="#appraise">Appraise</a></p></li>
+<li><p>Search Group</p>
+<ul>
+<li><p><a class="reference external" href="#investigateprospect">Investigate/Prospect</a></p></li>
+<li><p><a class="reference external" href="#navigate">Navigate</a></p></li>
+</ul>
+</li>
+<li><p>Natural Knowledge Group</p>
+<ul>
+<li><p><a class="reference external" href="#knowledge">Arcana</a></p></li>
+<li><p><a class="reference external" href="#knowledge">Geography</a></p></li>
+<li><p><a class="reference external" href="#knowledge">Nature</a></p></li>
+</ul>
+</li>
+<li><p>Constructed Knowledge Group</p>
+<ul>
+<li><p><a class="reference external" href="#knowledge">Dungeoneering</a></p></li>
+<li><p><a class="reference external" href="#knowledge">History</a></p></li>
+<li><p><a class="reference external" href="#knowledge">Religion</a></p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="wis-based-4">
+<h3>WIS Based (4)<a class="headerlink" href="#wis-based-4" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Detect Group</p>
+<ul>
+<li><p><a class="reference external" href="#observe">Observe</a></p></li>
+<li><p><a class="reference external" href="#sense-motive">Sense Motive</a></p></li>
+<li><p><a class="reference external" href="#track">Track</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#spellworking">Spellworking</a></p></li>
+</ul>
+</section>
+<section id="cha-based-5">
+<h3>CHA based (5)<a class="headerlink" href="#cha-based-5" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Diplomacy Group</p>
+<ul>
+<li><p><a class="reference external" href="#creature-handling">Creature Handling</a></p></li>
+<li><p><a class="reference external" href="#intimidate">Intimidate</a></p></li>
+<li><p><a class="reference external" href="#persuade">Persuade</a></p></li>
+</ul>
+</li>
+<li><p>Perform group</p>
+<ul>
+<li><p><a class="reference external" href="#deceive">Deceive</a></p></li>
+<li><p><a class="reference external" href="#perform">Perform</a></p></li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="proficiency-lists">
+<h2>Proficiency Lists<a class="headerlink" href="#proficiency-lists" title="Link to this heading">¶</a></h2>
+<section id="language-proficiencies">
+<h3>Language Proficiencies<a class="headerlink" href="#language-proficiencies" title="Link to this heading">¶</a></h3>
+<p>There are as many language proficiencies as there are languages in your setting. In order to speak, understand, read and write a language a character must be proficient in it.</p>
+<p>Optionally, for gritty settings language proficiency does not grant a character the ability to read and write, and they must have a rank in “academics” in order to read or write. This, however, makes “academics” very strong.</p>
+</section>
+<hr class="docutils" />
+<section id="tool-proficiencies">
+<h3>Tool Proficiencies<a class="headerlink" href="#tool-proficiencies" title="Link to this heading">¶</a></h3>
+<p>Using tools usually requires a roll of an associated skill. Some skills cannot be used for certain purposes unless the character is also proficient with appropriate tools. More precisely, they lack the specific training to make best use of it, and the dice roll is therefore capped at 12, as described in <a class="reference external" href="#skill-points-ranks">“Skill points (ranks)”</a>.</p>
+<p>At the group’s discretion it can makes sense for other skills may be associated with a tool (eg woodworking tools being used with <strong>fortify</strong> for making big items like wooden walls). Tools and their properties are further discussed below (in the <a class="reference external" href="#kit-and-tool-descriptions">“Tools”</a> sections).</p>
+<ul class="simple">
+<li><p>Athletics group based:</p>
+<ul>
+<li><p>Diver’s tools</p></li>
+<li><p>Climber’s kit (rope)</p></li>
+</ul>
+</li>
+<li><p>Fortify based</p>
+<ul>
+<li><p>Entrenching tools</p></li>
+<li><p>Mason’s tools</p></li>
+<li><p>Smith’s Tools</p></li>
+<li><p>Woodworking tools</p></li>
+</ul>
+</li>
+<li><p>Sleight of Hand</p>
+<ul>
+<li><p>Calligraphy kit</p></li>
+<li><p>Forgery kit</p></li>
+<li><p>Rope</p></li>
+</ul>
+</li>
+<li><p>Tinker</p>
+<ul>
+<li><p>Tinkerer’s tools</p></li>
+<li><p>Woodworking tools</p></li>
+<li><p>Locksmith’s tools + picks</p></li>
+<li><p>Glass-blower’s tools</p></li>
+<li><p>Jeweller’s Tools</p></li>
+<li><p>???</p></li>
+</ul>
+</li>
+<li><p>Heal</p>
+<ul>
+<li><p>Healer’s Kit</p></li>
+</ul>
+</li>
+<li><p>Harvest</p>
+<ul>
+<li><p>Butcher’s tools</p></li>
+<li><p>Herbalist’s kit</p></li>
+<li><p>Mining tools</p></li>
+<li><p>Trapper’s/Fisher’s tools</p></li>
+</ul>
+</li>
+<li><p>Academics</p>
+<ul>
+<li><p>Alchemist’s Tools</p></li>
+<li><p>Poisoner’s Tools</p></li>
+</ul>
+</li>
+<li><p>Navigate</p>
+<ul>
+<li><p>Cartographer’s tools</p></li>
+</ul>
+</li>
+<li><p>Perform</p>
+<ul>
+<li><p>Disguise kit</p></li>
+<li><p>Gaming Set (pick by group or individually)</p></li>
+<li><p>Musical Instrument (pick by group or individually)</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="armour-proficiencies">
+<h3>Armour Proficiencies<a class="headerlink" href="#armour-proficiencies" title="Link to this heading">¶</a></h3>
+<p>Any entity whose body fits a suit of armour can wear the armour. As such it will get the normal benefit to the hit threshold.</p>
+<ul class="simple">
+<li><p>When an entity dons or doffs an armour it is not proficient with, it takes twice as long to don and doff the armour as normal.</p></li>
+<li><p>While an entity is wearing an armour it is not proficient with:</p>
+<ul>
+<li><p>If it is a <strong>medium</strong> or <strong>heavy</strong> armour: It takes a -5 penalty to all DEX and STR based rolls it makes.</p></li>
+<li><p>If it is a <strong>light</strong> armour or a <strong>shield</strong>: It takes a -2 penalty to all DEX and STR based rolls and gains only half of the armour/shield bonus to HiT.</p></li>
+</ul>
+</li>
+</ul>
+<p>Armour and its properties are further discussed in the <a class="reference external" href="11-weapons-armour.html">“Weapons and Armour Section”</a>.</p>
+<p>There are three armour proficiencies that each cover several groups of armour.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Armour Category</p></th>
+<th class="head"><p>Armour types</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Light armour</p></td>
+<td><p>Leather cuirass, Chain shirt</p></td>
+</tr>
+<tr class="row-odd"><td><p>Medium armour</p></td>
+<td><p>Full padded[1], Hide, Full leather[1], Brigandine, Full chain, Cuirass</p></td>
+</tr>
+<tr class="row-even"><td><p>Heavy armour</p></td>
+<td><p>Segmented mail, Half-plate, Full-plate</p></td>
+</tr>
+<tr class="row-odd"><td><p>Shields</p></td>
+<td><p>Buckler, Light shield, Heavy shield, Tower shield</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<ol class="arabic simple">
+<li><p>Full Padded and Leather armour can be used without penalty by characters proficient with light armour. However, they are still governed by “medium armour” rules in all other ways (eg, resting, fatigue, penalties, donning/doffing, etc).</p></li>
+</ol>
+</section>
+<hr class="docutils" />
+<section id="weapon-proficiencies">
+<h3>Weapon Proficiencies<a class="headerlink" href="#weapon-proficiencies" title="Link to this heading">¶</a></h3>
+<p>Weapons are tools that increase an entity’s lethality in combat. For the sake of this definition, this does not include martial or supernatural abilities. Weapons and their properties are further discussed in the <a class="reference external" href="11-weapons-armour.html">“Weapons and Armour Section”</a>.</p>
+<p>Any entity may wield a weapon it is physically capably of wielding. If it is not proficient, it makes attacks with a -5 penalty. On snake eyes it damages itself, rolling the same damage dice it would as if it had hit the intended target. In addition it provokes attacks of opportunity when it attacks, since poor technique leaves openings.</p>
+<p>Proficiency eliminates both the penalty and the damage to self on snake eyes. In addition it allows the use of any of a weapon’s special properties.</p>
+<p>Weapon proficiencies are taken for each subgroup (eg “Strikes” and “Throws” are a separate proficiencies).</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Weapon Category</p></th>
+<th class="head"><p>Weapon Type</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Unarmed Combat</p></td>
+<td><p>Strikes, Throws, Grapples, Disarms, Interception</p></td>
+</tr>
+<tr class="row-odd"><td><p>Melee</p></td>
+<td><p>Heavy Blades, Axes, Percussive, Pole-arms, Staves</p></td>
+</tr>
+<tr class="row-even"><td><p>Melee/Thrown</p></td>
+<td><p>Light blades, Spears</p></td>
+</tr>
+<tr class="row-odd"><td><p>Ranged</p></td>
+<td><p>Slings, Bows, Mechanical bows, Firearms</p></td>
+</tr>
+<tr class="row-even"><td><p>Heavy</p></td>
+<td><p>Ballistae, Trebuchets, Canons</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</section>
+<hr class="docutils" />
+<section id="detailed-skill-descriptions">
+<h2>Detailed Skill Descriptions<a class="headerlink" href="#detailed-skill-descriptions" title="Link to this heading">¶</a></h2>
+<p>Each skill has a number of described uses. However, the list is generally not exhaustive and additional uses should be discussed within the group. For each skill there are two important questions:</p>
+<ol class="arabic simple">
+<li><p>Can an entity try the roll again, and what are the consequences? If the answer is not “yes”, then one cannot “take 20” or “take 24” in that skill.</p></li>
+<li><p>Can an entity “take care” in that skill or not under appropriate circumstances (see  <a class="reference external" href="02-base-rules.html#taking-24-taking-13-auto-failure-and-voluntary-failure">“Take Care”</a>)?</p></li>
+</ol>
+<hr class="docutils" />
+<section id="str-based">
+<h3>STR Based<a class="headerlink" href="#str-based" title="Link to this heading">¶</a></h3>
+<hr class="docutils" />
+<section id="athletics">
+<h4>Athletics<a class="headerlink" href="#athletics" title="Link to this heading">¶</a></h4>
+<p>Athletics is used for most land based physical activities including:</p>
+<ul class="simple">
+<li><p>Jumping beyond the ordinary jump distance as determined by a character’s stats.</p>
+<ul>
+<li><p>For long jumps distance = [Athletics Roll / 2] rounded up.</p></li>
+<li><p>For every 10ft of base speed above 30ft, the roll gets a +1.</p></li>
+<li><p>For high jumps distance off ground = [Athletics Roll / 5] rounded up.</p></li>
+<li><p>If the entity does not have a run up of at least 10ft, or has not moved on its previous turn, the jump distance is halved.</p></li>
+</ul>
+</li>
+<li><p>Lifting or moving objects that are above a character’s normal capacity as determined by its stats, or that have an unwieldy shape. Carrying capacity is based on the “take care” rule.</p>
+<ul>
+<li><p>A creature can drag up to [Athletics Roll x 20]lb.</p></li>
+<li><p>A creature can lift up to [Athletics Roll x 10]lb of the ground.</p></li>
+<li><p>A creature can lift over its head [Athletics Roll x 5]lb over its head.</p></li>
+<li><p>For every size category above medium this number is doubled.</p></li>
+<li><p>For every size category below medium, this number is halved.</p></li>
+</ul>
+</li>
+<li><p>Throwing items and creatures beyond a normal distance.</p>
+<ul>
+<li><p>More data needed.</p></li>
+</ul>
+</li>
+<li><p>Outrunning creatures with the same base speed in short overland chases (opposed roll rules).</p></li>
+<li><p>Bull-rushing through <a class="reference external" href="04-combat.html#occupied-area-and-hostile-squares">hostile squares</a>: A successful athletics roll vs the STR threshold of the hostile entity. On success the hostile entity is also moved one square in a direction of your choice, as long as it is not the square you have come from.</p>
+<ul>
+<li><p>The attempt is at disadvantage if you have not moved at least 10ft during your current turn.</p></li>
+<li><p>There is a +1 bonus for every 10ft above 30ft that your character has moved in a straight line during your turn.</p></li>
+</ul>
+</li>
+<li><p>Entertaining others with a feats of physical prowess (see <a class="reference external" href="02-base-rules.html#difficulties-and-recommended-thresholds">“Difficulties and recommended thresholds”</a>).</p></li>
+<li><p><strong>Take care</strong>: Yes.</p></li>
+<li><p><strong>Try again</strong>: Yes, although the DM may rule that failure on a retry results in the “crippled” condition.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="climb">
+<h4>Climb<a class="headerlink" href="#climb" title="Link to this heading">¶</a></h4>
+<p>This is a skill specific to scaling steep or vertical surfaces, trees, ropes and entities larger than oneself. A creature without a <em>climb</em> skill climbs at 1/4 of its base speed. Unless otherwise stated, no action is required, and the roll is made as part of the entity’s movement. This follows the “Difficulties and recommended thresholds” as follows.</p>
+<ul class="simple">
+<li><p>Base Thresholds:</p>
+<ul>
+<li><p>4: A steep embankment, ladder, knotted rope, or tree with many branches.</p></li>
+<li><p>8: A rope or near vertical rock with many big holds and ledges, or average tree.</p></li>
+<li><p>12: A branchless tree or lamp post or vertical wall with good holds, monkey bars.</p></li>
+<li><p>16: An slightly overhanging wall with good holds, or vertical wall (eg old brick wall).</p></li>
+<li><p>24: A steep overhanging wall with holds, or a well masoned town wall.</p></li>
+<li><p>30: A cave roof, steep overhanging wall with few holds, a perfectly masoned town wall.</p></li>
+<li><p>36: A ceiling or perfectly smooth glass/metal vertical wall</p></li>
+<li><p>50: A force wall or flowing waterfall.</p></li>
+</ul>
+</li>
+<li><p>Modifiers:</p>
+<ul>
+<li><p>Surface is wet: -5 Penalty.</p></li>
+<li><p>Surface is loose: -5 Penalty.</p></li>
+<li><p>Entity climbs at 1/2 base speed: -5 penalty.</p></li>
+<li><p>Entity spends one hour studying the climb: Advantage.</p></li>
+</ul>
+</li>
+<li><p>Special:</p>
+<ul>
+<li><p>Entities with a climb speed can always “take care” to climb.</p></li>
+<li><p>A roll of a climber’s kit allows to make a climb safe, reducing fall distance to 20ft for threshold 24+ climbs and 10ft for threshold 23- climbs.</p></li>
+<li><p>An entity that fails a climb roll fails to progress on a climb.</p></li>
+<li><p>An entity that fails by 5 or more falls half the distance and suffers the consequences. If it fails with snake eyes, the entity falls the full distance.</p></li>
+</ul>
+</li>
+<li><p><strong>Take care</strong>: No. Entities without a climb speed are always considered at risk when climbing.</p></li>
+<li><p><strong>Try again</strong>: Yes, but repeated fall damage on failure might make repeated attempts undesirable.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="fortify">
+<h4>Fortify<a class="headerlink" href="#fortify" title="Link to this heading">¶</a></h4>
+<p>The skill is used for building structures, fortifying positions (dungeon corridors, battle fields, encampments). It is also used for safely demolishing structures and fortifications. Lastly it is used for making a site safe from natural hazards and making it fit for encampment (amelioration). Fortification rolls are usually made against the threshold set by the terrain and weather.</p>
+<ul class="simple">
+<li><p><strong>Building</strong>: There are special rules for building. They need to be written.</p></li>
+<li><p><strong>Fortification</strong>: It takes 30min per 5ft square to fortify a position.</p>
+<ul>
+<li><p>This can give a heavy cover bonus to defenders.</p></li>
+<li><p>This can be used to construct a terrain/structure trap (see traps).</p></li>
+<li><p>This can be used to create a barricade (with a break threshold of your roll).</p></li>
+</ul>
+</li>
+<li><p><strong>Amelioration</strong>: For medium size creature the minimum camping area is 5ft x 10ft.</p>
+<ul>
+<li><p>It takes 10 minutes to ameliorate this area in threshold 10- terrain.</p></li>
+<li><p>It takes 1h to ameliorate this area in threshold 11+ terrain.</p></li>
+</ul>
+</li>
+<li><p><strong>Modifiers</strong>:</p>
+<ul>
+<li><p>The time can be reduced, but without special or supernatural abilities it cannot be less than 5 minutes.</p></li>
+<li><p>For every size category above medium the total time taken is halved.</p></li>
+<li><p>Multiple entities can participate in the process, in which case the time taken is divided by the number of entities taking part. For each size category above medium, an entity counts as twice as many entities of the next category down. So a large entity counts as 2 medium entities, but a huge entity counts as 4 medium entities.</p></li>
+<li><p>An entity can do a “rush job” and take half the time: -5 penalty.</p></li>
+</ul>
+</li>
+<li><p><strong>Special</strong>: A character with terrain mastery has a +2 to “fortify” in that terrain.</p>
+<ul>
+<li><p>A pick is necessary to use “fortify” rolls that involve digging through rocky terrain.</p></li>
+<li><p>“fortify” rolls that involve digging through soft ground are made at disadvantage without a shovel or similar implement.</p></li>
+<li><p>A tent gives +2 to “fortify” when ameliorating a camp, a yurt obviates the need for such a roll. This does not apply in swamps, dense forests or on steep slopes.</p></li>
+</ul>
+</li>
+<li><p><strong>Take care</strong>: Yes.</p></li>
+<li><p><strong>Try again</strong>: Yes.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="swim">
+<h4>Swim<a class="headerlink" href="#swim" title="Link to this heading">¶</a></h4>
+<p>Swimming is a separate skill from climbing and overland athletics. It is used for moving through a liquid medium, such as water, lava, quicksand, or a monster’s stomach acid. A creature without a <em>swim</em> skill swims at 1/4 of its base speed. Unless otherwise stated, no action is required, and the roll is made as part of the entity’s movement. This follows the “Difficulties and recommended thresholds” as follows. <strong>NB</strong>: Thi skill does not grant a swim speed.</p>
+<ul class="simple">
+<li><p>Base Thresholds:</p>
+<ul>
+<li><p>4: Float or swim in perfectly calm, warm water, under perfect conditions.</p></li>
+<li><p>8: To float or swim while engaged in combat.</p></li>
+<li><p>8: Swim in a direction while under water.</p></li>
+<li><p>50: Swim up a flowing waterfall or down an erupting volcano (if you’re immune to Fire[Natural]).</p></li>
+</ul>
+</li>
+<li><p>Threshold modifiers:</p>
+<ul>
+<li><p>Severe or Extreme currents: +5 or +10 to threshold.</p></li>
+<li><p>Severe or Extreme turbulence/waves: +5 or +10 to threshold.</p></li>
+<li><p>Severe or Extreme temperature: +5 or +10 to threshold.</p></li>
+</ul>
+</li>
+<li><p>Penalties:</p>
+<ul>
+<li><p>Wearing medium armour: -5 penalty.</p></li>
+<li><p>Wearing heavy armour: -10 penalty.</p></li>
+<li><p>For every 10lb of carried equipment: -1 penalty.</p></li>
+</ul>
+</li>
+<li><p>Special:</p>
+<ul>
+<li><p>Entities with a swim speed can always “take care” to swim.</p></li>
+<li><p>Floatation devices (improvised or purpose made) reduce thresholds for staying or returning to the surface by 5.</p></li>
+<li><p>An entity with a diver’s kit can see normally in the fluid, can swim at 1/2 base speed instead of 1/4 base speed, and does not need to worry about breath for 30 minutes. Usually a diver’s kit is designed specifically for one fluid.</p></li>
+</ul>
+</li>
+<li><p><strong>Take care</strong>: Yes.</p></li>
+<li><p><strong>Try again</strong>: Yes. But, the dynamic nature of failure and drowning makes it meaningless.</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="dex-based">
+<h3>DEX Based<a class="headerlink" href="#dex-based" title="Link to this heading">¶</a></h3>
+<section id="acrobatics">
+<h4>Acrobatics<a class="headerlink" href="#acrobatics" title="Link to this heading">¶</a></h4>
+<p>Acrobatics is used for complex dynamic movement and manoeuvres. Unless otherwise stated, no action is required, and the roll is made as part of the entity’s movement.</p>
+<ul class="simple">
+<li><p>Substitute for climb if the climb distance is less than the entity’s base movement.</p>
+<ul>
+<li><p>On a fail the entity automatically falls the full distance.</p></li>
+</ul>
+</li>
+<li><p>Avoid Attacks of Opportunity when moving <em>through</em> a set of threatened squares. Move through <a class="reference external" href="04-combat.html#occupied-area-and-hostile-squares">“hostile squares”</a>.</p>
+<ul>
+<li><p>Threshold: [Attack Bonus of hostile] + 13.</p></li>
+</ul>
+</li>
+<li><p>Avoid Attacks of Opportunity when moving <em>out of</em> a set of threatened squares as a bonus action instead of a main action.</p>
+<ul>
+<li><p>Threshold: [Attack Bonus of hostile] + 13.</p></li>
+</ul>
+</li>
+<li><p>Ignore the damage for the first 10ft of a fall.</p>
+<ul>
+<li><p>Deliberate fall: Threshold 12.</p></li>
+<li><p>Not deliberate fall: Threshold 16.</p></li>
+</ul>
+</li>
+<li><p>Move over narrow surfaces (adjust accordingly for entity size).:</p>
+<ul>
+<li><p>4: 1-2ft wide.</p></li>
+<li><p>8: 7-12 inches wide.</p></li>
+<li><p>12: 2-6 inches wide.</p></li>
+<li><p>16: Less than 2 inches wide.</p></li>
+</ul>
+</li>
+<li><p>When moving over unstable or slippery surfaces. For threshold, start with the threshold based on the surface’s width (or 0) and add all modifiers that apply.</p>
+<ul>
+<li><p>Slippery or Frictionless surface: +5 or +10.</p></li>
+<li><p>Violent (eg ship in a storm) or extreme movement (eg earthquake or collapse): +5 or +10.</p></li>
+<li><p>Slope (30-45 deg), Steep slope (45+): +2 or +5.</p></li>
+</ul>
+</li>
+<li><p>Entertaining others with a feats of acrobatics or gymnastics (see <a class="reference external" href="02-base-rules.html#difficulties-and-recommended-thresholds">“Difficulties and recommended thresholds”</a>). This generally represents at least one minute of performance.</p></li>
+<li><p>Failure of an acrobatics roll by 5 or more may result in falling. Failure by a lesser margin generally results in lack of progress.</p></li>
+<li><p><strong>Take care</strong>: Yes.</p></li>
+<li><p><strong>Try again</strong>: Yes, although the potential of falling often makes it meaningless.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="fly">
+<h4>Fly<a class="headerlink" href="#fly" title="Link to this heading">¶</a></h4>
+<p>I don’t know whether we even need this as a skill. It is done as part of an entity’s or vehicle’s movement. <strong>NB</strong>: Thi skill does not grant a fly speed.</p>
+<ul class="simple">
+<li><p><strong>Maintain control</strong> of one’s trajectory in unfavourable conditions.</p>
+<ul>
+<li><p>Threshold = 6 + [1 per 10mph] of wind speed.</p></li>
+<li><p>Small entities start making rolls at 30mph. This increases by +10mph for each size category above “small”, and flight category above “average”.</p></li>
+</ul>
+</li>
+<li><p><strong>Regain control</strong> when falling.</p>
+<ul>
+<li><p>Threshold = 12 + [turns falling or out of control].</p></li>
+</ul>
+</li>
+<li><p><strong>Emulate higher flight</strong> category (eg good flyer trying to hover). This is also used for manoeuvres.</p>
+<ul>
+<li><p>Threshold = 12 + [6 x number of categories above current category].</p></li>
+</ul>
+</li>
+<li><p><strong>Take care</strong>: Yes.</p></li>
+<li><p><strong>Try again</strong>: Yes, although the DM can rule that repeated failure results in the “crippled” condition or damage to the vehicle.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="heal">
+<h4>Heal<a class="headerlink" href="#heal" title="Link to this heading">¶</a></h4>
+<p>Healing is the use of medical art and science (as opposed to magic) to diagnose and treat injury and illness. It usually takes at least a minute. It is fine to use WIS instead as a governing stat, especially for diagnosis.</p>
+<ul class="simple">
+<li><p><strong>Stabilise</strong>: As an action, cure the “dying” condition.</p>
+<ul>
+<li><p>Threshold = 15</p></li>
+</ul>
+</li>
+<li><p><strong>First Aid</strong>. As an action, cure “unconscious”, or delay the effects of “crippled” or “bleeding” condition for 1 hour.</p>
+<ul>
+<li><p>Threshold = 15 if [Natural]</p></li>
+<li><p>Threshold = 25 if [Supernatural]</p></li>
+</ul>
+</li>
+<li><p><strong>Treat poison</strong>. Requires 1 minute - 1h of treatment:</p>
+<ul>
+<li><p>Threshold = Threshold of poison.</p></li>
+</ul>
+</li>
+<li><p><strong>Treat disease</strong>. Requires at least 1 minute of treatment and as much as several months. Often requires several successes over consecutive days (see diseases).</p>
+<ul>
+<li><p>Threshold = <a class="reference external" href="14-poisons-and-diseases.html#treatment-threshold">Treatment Threshold</a> of disease.</p></li>
+</ul>
+</li>
+<li><p><strong>Long term care</strong>. Duration varies (at least 8h). Double number of HP regained over a long rest.</p>
+<ul>
+<li><p>Threshold = 10 + [number of creatures x 2].</p></li>
+</ul>
+</li>
+<li><p><strong>Diagnosis</strong>. Diagnose disease, poison or condition.</p>
+<ul>
+<li><p>Natural condition: 12</p></li>
+<li><p>Supernatural condition: 20</p></li>
+<li><p>Disease: <a class="reference external" href="14-poisons-and-diseases.html#diagnosis-threshold">Diagnosis Threshold</a> of the disease or poison</p></li>
+<li><p>It is usually fine to rule that once an entity has seen it once, it knows what it is.</p></li>
+</ul>
+</li>
+<li><p><strong>Take care</strong>: Yes, for treatment. No for diagnosis.</p></li>
+<li><p><strong>Try again</strong>: For treatment, yes (although the patient might be dead by then). For “diagnose”, yes, but unless you have extra information available you always get the same result.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="ride">
+<h4>Ride<a class="headerlink" href="#ride" title="Link to this heading">¶</a></h4>
+<p>An entity riding a mount substitutes/uses its move to control its mount and its own seat on it. In return it uses the mount’s movement speed and modalities. Using a “run” or “sprint” action requires that a rider also uses their action. In addition rolls can be made to perform certain particular actions.</p>
+<ul class="simple">
+<li><p><strong>Substitute</strong> for “Athletics” or “Acrobatics” for actions that start or end with the rider on the mount. For example this includes, dancing, jumping and falling.</p></li>
+<li><p><strong>Fight</strong>: As a <strong>communicate</strong> action instruct your mount to make its attack.</p>
+<ul>
+<li><p>War trained mount: Threshold = 12.</p></li>
+<li><p>Untrained mount: Threshold = 24.</p></li>
+<li><p>An “aggressive” mount will attack of its own accord, whether you want it to or not.</p></li>
+<li><p>A mount which has used the “run” or “sprint” action cannot take the fight action.</p></li>
+</ul>
+</li>
+<li><p><strong>Control</strong>: As a <strong>communicate</strong> action, keep control of your mount in combat.</p>
+<ul>
+<li><p>Keep non combat trained mount in combat: Threshold = 24</p></li>
+<li><p>Keep an “aggressive” mount from attacking available targets: Threshold = 16.</p></li>
+<li><p>Control an uncooperative mount that is untrained or does not accept the rider. Threshold = Opposed roll vs Mount’s charisma.</p></li>
+</ul>
+</li>
+<li><p><strong>Stay in saddle</strong>: Keep your seating under adverse circumstances (non-action).</p>
+<ul>
+<li><p>Threshold = Threshold of provoking event.</p></li>
+<li><p>On damage over 20, threshold = [damage suffered / 2]</p></li>
+</ul>
+</li>
+<li><p><strong>Mount</strong>: Getting onto a mount and making yourself ready to ride is a “main action”: Threshold = 8.</p></li>
+<li><p><strong>Dismount</strong>: Getting off a mount is a “secondary action”: Threshold = 8.</p>
+<ul>
+<li><p>Failing the roll by less than 5 results in the action being wasted, failing by 5 or more results in you falling from your mount.</p></li>
+<li><p>When the mount falls, the rider makes a roll (threshold=16) as a reaction to fall the first 10ft safely and land on their feet. Otherwise they suffer the usual falling rules.</p></li>
+</ul>
+</li>
+<li><p><strong>Quick mount</strong>: Mount as a “secondary action” instead of a “main action”: Threshold = 16.</p></li>
+<li><p><strong>Take care</strong>: Yes.</p></li>
+<li><p><strong>Try again</strong>: Yes, where appropriate. For “fight” and “control” the threshold increases by 1 for every failure.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="sleight-of-hand">
+<h4>Sleight of Hand<a class="headerlink" href="#sleight-of-hand" title="Link to this heading">¶</a></h4>
+<p>Sleight of hand is not just for “hands”. It is the skill combining the use of delicate and precise manipulations with one’s body parts and the psychological know-how to make sure that they go unnoticed. It is usually a <strong>main action</strong>. The term “small” is not precise, and common sense should be used.</p>
+<ul class="simple">
+<li><p><strong>“Steal”</strong>: Take a small unattended item into your possession without being noticed. This should also be used for replacing items or performing “magic” tricks or cheating at cards:</p>
+<ul>
+<li><p>Threshold when not observed: 8 (It is possible to fail because one can fail spectacularly enough to still draw attention!)</p></li>
+<li><p>Threshold when actively observed: Opposed vs Perception.</p></li>
+</ul>
+</li>
+<li><p><strong>“Pick pocket”</strong>: Take a small attended item into your possession without being noticed:</p>
+<ul>
+<li><p>Threshold: Opposed vs [Perception (at advantage if entity has a sense of touch)].</p></li>
+</ul>
+</li>
+<li><p><strong>“Liberate item”</strong>: Remove a small jammed item or component of device or structure from where it belongs.</p>
+<ul>
+<li><p>8: Loosely jammed item (eg gem between wardrobe and wall).</p></li>
+<li><p>12: Tightly jammed item (eg lock of hair stuck in a door).</p></li>
+<li><p>Add +4 to the threshold if the item has adhered.</p></li>
+<li><p>Add +4 to the threshold if fingers (or other body parts) cannot reach.</p></li>
+</ul>
+</li>
+<li><p><strong>“Liberate”</strong>: Slip free of manacles and the like.</p>
+<ul>
+<li><p>Threshold is threshold value of manacles (usually 20-36).</p></li>
+</ul>
+</li>
+<li><p><strong>Tie rope (requires proficiency with ropes)</strong>: Tie a knot in a rope, or tie a targets into knots using a rope. The action varies, but the threshold to break the binding is equal to the “sleight of hand” roll to tie it. This can be used (amongst other things) to:</p>
+<ul>
+<li><p>Tie two objects together.</p></li>
+<li><p>Tether a ship/animal to a fixed binding.</p></li>
+<li><p>Restrain a target/prisoner, preventing its escape.</p></li>
+<li><p>See <a class="reference external" href="03-movement-exploration.html#bindings-and-restraints">“bindings and restraints”</a> for more information.</p></li>
+</ul>
+</li>
+<li><p><strong>Take care</strong>: Yes.</p></li>
+<li><p><strong>Try again</strong>: Yes, although for “steal” or “pick pocket” the threshold increases by +10 as any observers are likely to be wary this time.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="stealth">
+<h4>Stealth<a class="headerlink" href="#stealth" title="Link to this heading">¶</a></h4>
+<p>Stealth is the art and technique of hiding your presence and remaining, and moving, unseen and unheard.  It is a skill valued by hunters, scouts, saboteurs and scum. It is commonly opposed by observe. If an entity uses stealth successfully, others will be unaware of it unless they succeed an observe roll to detect it. This means that they lose track of the entity and are not able to localise it with their senses. They might successfully deduce its location by luck and logic, but this does not allow targeted attacks to be used.</p>
+<ul class="simple">
+<li><p><strong>Action</strong>: “Main action”.</p></li>
+<li><p><strong>Threshold</strong>: Stealth roll vs “observe” threshold. (Can be opposed roll out of combat).</p></li>
+<li><p><strong>Limitations</strong>:</p>
+<ul>
+<li><p>An entity cannot stealth in plain sight when observed and must generally have at least “heavy concealment” to stealth.</p></li>
+<li><p>An entity attempting to maintain stealth must move at half speed or suffer penalties. It loses stealth if it attempts to run or sprint.</p></li>
+<li><p>An entity that has “stealthed” and makes a targeted attack or basic combat manoeuvre “breaks” stealth and reveals itself.</p></li>
+</ul>
+</li>
+<li><p><strong>Modifiers</strong>: Most of the modifiers are on the observing side. However there are a couple:</p>
+<ul>
+<li><p>Armour penalty (Dex rating) affects all Dex based skills, but is especially pertinent here.</p></li>
+<li><p>Size modifier to “Evasion” also applies to stealth rolls (see <a class="reference external" href="02-base-rules.html#size-rules-table">“Size rules”</a>).</p></li>
+<li><p>Moving at full speed when trying to maintain stealth forces a reroll of the stealth with disadvantage.</p></li>
+</ul>
+</li>
+<li><p><strong>Special</strong>:</p>
+<ul>
+<li><p>An entity usually needs at least “heavy” concealment to use the stealth skill (otherwise the roll automatically fails).</p></li>
+<li><p>The <a class="reference external" href="06-abilities.html#fleet">“fleet”</a> allows an entity to hide in light concealment.</p></li>
+<li><p>Anything that grants you the “invisible” status or observers the “blind” status allows the ‘observed’ entity to stealth.</p></li>
+<li><p>The use of <a class="reference external" href="#deceive">“deceive”</a> to distract allows one to use stealth in plain sight or “light cover” at disadvantage.</p></li>
+<li><p>A character with terrain mastery has a +2 to “stealth” in that terrain.</p></li>
+</ul>
+</li>
+<li><p><strong>Take care</strong>: No. This is essentially random.</p></li>
+<li><p><strong>Try again</strong>: Yes. Although it maybe too late by then.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="tinker">
+<h4>Tinker<a class="headerlink" href="#tinker" title="Link to this heading">¶</a></h4>
+<p>Tinkering involves making, modifying and breaking delicate mechanisms, constructions or devices. This includes things like gem cutting, watch making, disabling intricate traps and picking locks. Usually this is either difficult or impossible without additional proficiency with an appropriate kit. Disabling devices carefully usually takes a minute. Modifying them takes at least a minute, while crafting can take hours, days or longer (See Crafting for discussion of this topic).</p>
+<ul class="simple">
+<li><p><strong>Pick lock or disable trap</strong>:  1 minute.</p>
+<ul>
+<li><p>Threshold: Threshold of lock/trap.</p></li>
+<li><p>Rush job (1 round): +10 to threshold.</p></li>
+<li><p>Study: Spending an hour studying the lock/trap reduces threshold by 5.</p></li>
+<li><p>Thresholds of locks generally range 20-36.</p></li>
+<li><p>Thresholds of traps generally range 8-28 (but failure can be lethal).</p></li>
+</ul>
+</li>
+<li><p><strong>Research device</strong>: Spend time to understand how a device works. This then enables the entity to recreate the device (providing it has the appropriate skills and facilities) or gain a permanent +5 to disabling such devices.</p>
+<ul>
+<li><p>Simple device (eg sand clock, thing that goes “dong”): Threshold = 12, time = 1 hour.</p></li>
+<li><p>Average device (eg watermill): Threshold = 16, time = 4h.</p></li>
+<li><p>Complex device (eg pendulum clock, steam engine): Threshold: 24, time = 1 week.</p></li>
+<li><p>Masterpiece/unique mechanism (eg antikythera mechanism): Threshold = 30, time = 1 month.</p></li>
+<li><p>If an entity takes double the time, it can reduce the threshold by -4.</p></li>
+<li><p>If an entity wishes to do a rush job and half the time, increase the threshold by +10.</p></li>
+<li><p>Research of complex (and higher) devices can be simplified by using assistants. The assistant must be proficient both in <strong>tinker</strong> and the appropriate tools. For each assistant reduce research time by 1 day, to a maximum of half the time (rounded up).</p></li>
+</ul>
+</li>
+<li><p><strong>Create device</strong>: Create a device whose general design you know.</p>
+<ul>
+<li><p>Threshold: Varies.</p></li>
+</ul>
+</li>
+<li><p><strong>Modify/sabotage device</strong>: Modify the device to alter its function or cause it to disfunction in a specific manner.</p>
+<ul>
+<li><p>Threshold: [Creation threshold + 4]</p></li>
+<li><p>Time taken: Half the time to create the device.</p></li>
+</ul>
+</li>
+<li><p><strong>Disable device</strong>: Cause the device to stop functioning without causing immediate catastrophic failure.</p>
+<ul>
+<li><p>Threshold: [Creation threshold]</p></li>
+<li><p>Time taken: 1 minute for threshold 16 and below. 1 hour for threshold 24 and below. For higher thresholds, the DM should set a reasonable time.</p></li>
+<li><p>An entity may attempt a rush job to reduce the times to 1 round, 1 minute (or ~1/10) by taking a -10 penalty.</p></li>
+</ul>
+</li>
+<li><p><strong>Special</strong>: Disabling the supernatural component of supernatural traps and devices increases the threshold by +10.</p></li>
+<li><p><strong>Take care</strong>: Yes. For “disable”, “create” or “modify”. For “research”, the time taken on the next check to research the same item doubles with each failure.</p></li>
+<li><p><strong>Try again</strong>: Yes, if it hasn’t blown up in your face yet!</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="con-based">
+<h3>CON Based<a class="headerlink" href="#con-based" title="Link to this heading">¶</a></h3>
+<section id="harvest">
+<h4>Harvest<a class="headerlink" href="#harvest" title="Link to this heading">¶</a></h4>
+<p>Harvest is the umbrella skill covering the harvesting of natural resources from the environment. This includes, gathering herbs, cutting wood, trapping small game, fishing and mining. For each individual type of harvesting proficiency with the tools is required to use the skill to its full potential. This reflects that each one is a separate discipline and often uses different tools and a different knowledge base.</p>
+<ul class="simple">
+<li><p><strong>Threshold</strong>: Determined by terrain and weather. (See “Travel rolls and terrain”)</p></li>
+<li><p><strong>Guideline yields</strong>:</p>
+<ul>
+<li><p>Hunt/trap small prey: 1 small creature per day + 1 per 5 points by which the terrain threshold is exceeded.</p></li>
+<li><p>Strip a carcass (small, medium, large, huge, enormous): (30 min, 2h, 4h, 1d, 1 week). Threshold: (6, 9, 12, 18, 24).</p>
+<ul>
+<li><p>NB: If the carcass is unusual, delicate, highly damaged, or if it degrades rapidly and must be stripped hastily (eg to obtain a still beating heart), add a +6 to the threshold, or +10 if more than one of these factors apply.</p></li>
+</ul>
+</li>
+<li><p>Harvest surface plants/minerals: 5-30 min per 5ft. Threshold: Terrain.</p></li>
+<li><p>Harvest subsurface minerals (mining): 1h-1d per 5ft Threshold: Terrain.</p></li>
+</ul>
+</li>
+<li><p><strong>Modifiers and Special</strong>.</p>
+<ul>
+<li><p>If the resource is rare, or exotic increase the threshold by +5 or +10.</p></li>
+<li><p>If the resource cannot be found in the terrain, then the time is spent and the harvest fails.</p></li>
+<li><p>The duration of the “harvesting” and the magnitude of success determine the yield of the harvest. Failure with snake eyes results in the damage to the tools used (or HP loss or injury if the tool was the character’s body or spirit).</p></li>
+<li><p>Exceeding the threshold by 5 allows to double the yield or half the time. Exceeding by 10 or more, allows both.</p></li>
+</ul>
+</li>
+<li><p><strong>Special</strong>: A character with terrain mastery has a +2 to “harvest” in that terrain.</p>
+<ul>
+<li><p>“harvest” rolls that involve digging through soft ground are made at disadvantage without a shovel or similar implement.</p></li>
+</ul>
+</li>
+<li><p><strong>Take care</strong>: Yes.</p></li>
+<li><p><strong>Try again</strong>: Yes.</p></li>
+<li><p><strong>Additional Guidelines</strong>: “Harvest” should be used for hunting/trapping small game and fishing when the prey poses little or no danger to the hunter (eg trapping rabbits, or shooting hares), or when the group wishes to resolve the activity with one or two rolls. A more involved alternative, best for game which <em>can</em> pose a threat to the hunter, would be to combine <a class="reference external" href="#track">“Track”</a> with <a class="reference external" href="#stealth">“Stealth”</a>, followed by a classical combat (eg, hunting down a boar, or a manhunt).</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="int-based">
+<h3>INT Based<a class="headerlink" href="#int-based" title="Link to this heading">¶</a></h3>
+<section id="academics">
+<h4>Academics<a class="headerlink" href="#academics" title="Link to this heading">¶</a></h4>
+<p>Academics are fundamentals of knowledge. It starts with literacy and ends in higher logic, mathematics, philosophy, linguistics, architecture, music theory and scientific method (although not actual scientific knowledge). Academics is generally used when creating or deciphering secret messages, doing research, showing off, or getting a clue from the DM. This can be a minute worth of contemplation, or weeks of dedicated study.</p>
+<ul class="simple">
+<li><p><strong>Create/Decipher</strong> secret meaning: Create or solve a cipher. Leave or discern a secret message.</p>
+<ul>
+<li><p><strong>Time taken</strong>: 1 minute if threshold 12 or below. 1 hour if threshold is 20 or below. 1 day if 32 or below. Longer if higher.</p></li>
+<li><p><strong>Threshold</strong>: Depends. See <a class="reference external" href="02-base-rules.html#difficulties-and-recommended-thresholds">“Difficulties and recommended thresholds”</a>.</p></li>
+</ul>
+</li>
+<li><p><strong>Show off</strong>: A character may attempt an opposed academics roll to “persuade” or “bluff” under certain circumstances. Alternatively this can be used to attempt to explain certain theories to others. This can make things better or worse. Can substitute for “Perform” in academic audiences.</p></li>
+<li><p><strong>Discern logic:</strong> Use of cold analysis to discern a logical inconsistency in words or actions of entities. This is a full round action.</p>
+<ul>
+<li><p>Threshold: Opposed roll if deception is performed. Threshold should be equal to at least 15 otherwise.</p></li>
+</ul>
+</li>
+<li><p><strong>Research</strong>: Attempt to understand a phenomenon, theory or puzzle. Can also be used to understand devices but requires proficiency in the appropriate tools. This requires time and an appropriately equipped space (usually). The benefits are either a narrative answer or a +4 insight bonus to dealing with this kind of “thing” in the future.</p>
+<ul>
+<li><p>Simple phenomenon: 1 hour, Threshold = 12.</p></li>
+<li><p>Complex phenomenon: 1 week+, Threshold = 24.</p></li>
+<li><p>Grand theory: 1 month+, Threshold = 32. (eg complete the unfinished theorem of a great sage of old).</p></li>
+<li><p>Unique phenomenon: 1 month+, Threshold = 32+. (eg gain an understanding of what powers the fragment of another world that one day appeared in the countryside)</p></li>
+<li><p>Develop countermeasures to a monster’s ability and gain a +4 to saves/attack against it. This requires at least one knowledge skill.</p>
+<ul>
+<li><p>Time taken: [Monster SP + MP dice] x days</p></li>
+<li><p>Threshold: [(Monster SP + MP dice) / 2]</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Learning spells</strong>: The base time for independently learning spells is 108 days per MP dice that it costs to cast. A character proficient with academics and with access to relevant resources may make an academics roll at the beginning of this period and subtract the result from the base cost, hence giving an adjusted base time. For example, with an academics roll of 24, the base time is reduced to 84 days. This can never reduce the base time below 64h per MP dice.</p></li>
+<li><p><strong>Recognise theory</strong>: Recognise a theory or phenomenon you have previously studied.</p>
+<ul>
+<li><p>Threshold = [Research threshold - 5]</p></li>
+</ul>
+</li>
+<li><p><strong>Take care</strong>: No. Knowledge and thought have too many hidden variables to take care.</p></li>
+<li><p><strong>Try again</strong>: For knowledge based roll, deciphering and logical clues, one retry at a -10 penalty is allowed. For Research, yes, although given the time and material use, it is often undesirable.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="appraise">
+<h4>Appraise<a class="headerlink" href="#appraise" title="Link to this heading">¶</a></h4>
+<p>Appraise is used to determine the value of an item, as well as to determine its origin and condition. It takes a “full round action”.</p>
+<ul class="simple">
+<li><p><strong>Assess condition</strong>: Threshold = 10.</p></li>
+<li><p><strong>Determine origin</strong>: Threshold = 15.</p></li>
+<li><p><strong>Full Appraise</strong>: Threshold = 20.</p></li>
+<li><p>The thresholds are modified as follows:</p>
+<ul>
+<li><p>Item is rare or unique: +5 or +10.</p></li>
+<li><p>Item is from a distant time or space, or from another realm or epoch: +5 or + 10.</p></li>
+</ul>
+</li>
+<li><p><strong>Detect forgery</strong>: Threshold = Threshold of forgery.</p></li>
+<li><p><strong>Special</strong>: If the check fails it may still reveal partial information, although the part for the failure will still give a false value. For example, rolling 21 to appraise a rare vase will may give a wildly inaccurate value, but still reveal the correct origin and condition.</p></li>
+<li><p><strong>Take care</strong>: No.</p></li>
+<li><p><strong>Try again</strong>: No. Same result.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="investigate-prospect">
+<h4>Investigate/Prospect<a class="headerlink" href="#investigate-prospect" title="Link to this heading">¶</a></h4>
+<p>This is a wide range of skills and methods that are used to reveal hidden details and properties of the surrounding area. Detailed use is described in “Scouting, prospecting and exploration”. The DM should take care not to put plot critical information behind this kind of check (or any other check really, this one is overdone). In addition this skill can be used for “detective” functions like:</p>
+<ul class="simple">
+<li><p><strong>Date Evidence</strong>: Determine the approximate age of evidence. Can also be used for tracks, food stuffs, etc:</p>
+<ul>
+<li><p>Exactly: Threshold = 32</p></li>
+<li><p>Within 5%: Threshold = 24</p></li>
+<li><p>Within 10%: Threshold = 20</p></li>
+<li><p>Within 25%: Threshold = 16</p></li>
+<li><p>When evidence gets to a certain age, any further deterioration can make it impossible to date. Therefore the DM should use common sense (eg “This blood is exactly 129381 years, 4 days and 3 minutes old!” is silly).</p></li>
+</ul>
+</li>
+<li><p><strong>Detect Tampering</strong>: Determine that something has been tampered with or if there is something that is missing.</p>
+<ul>
+<li><p>Threshold = Threshold of roll used to tamper.</p></li>
+</ul>
+</li>
+<li><p><strong>Special</strong>: A character with terrain mastery has a +2 to “prospect” in that terrain.</p>
+<ul>
+<li><p>A pick is necessary to use “prospect” rolls that involve digging through rocky terrain.</p></li>
+<li><p>“prospect” rolls that involve digging through soft ground are made at disadvantage without a shovel or similar implement.</p></li>
+</ul>
+</li>
+<li><p><strong>Take care</strong>: Yes.</p></li>
+<li><p><strong>Try again</strong>: Yes.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="knowledge">
+<h4>Knowledge<a class="headerlink" href="#knowledge" title="Link to this heading">¶</a></h4>
+<p>There are 6 knowledge skills in the game. Each represents various subsets of knowledge. Each skill works symmetrically and deals with recalling information from one of the fields of knowledge. Using a knowledge skill is a non-action.</p>
+<ul class="simple">
+<li><p><strong>General Thresholds</strong>:</p>
+<ul>
+<li><p>4: Common knowledge, everyone knows this! (eg Dragons exist.)</p></li>
+<li><p>8: Common knowledge, more than half the villagers know this. (eg There are dragons in the northern mountains.)</p></li>
+<li><p>16: Basic specialist knowledge, known eg. only by a few folk in the village/town. (eg, The dragons in the mountains slumber, but there is one not far from here that is awakening, it’s lair is somewhere on the side of mount X.)</p></li>
+<li><p>24: Truly specialist knowledge, which is known by only the most knowledgeable in the region. (eg. The dragon’s name is Bob, he is five centuries old, has a magical gem instead of one of its eyes and has sworn to destroy the kingdom when the moon turns blue)</p></li>
+<li><p>32: Deep knowledge, known by few or lost by most who once knew it. (eg The dragon’s crystal eye works by these magics and can be destroyed using that method. 543 years ago to the day, queen Alice tricked and killed Bob’s mate and then used her scales to make herself a suit of armour which is currently said to be lost in the ruins of XYZ. Bob’s rage against the kingdom will likely not abate until the scales of his mate are returned.)</p></li>
+<li><p>A DM may give completely false results on a failed check to obfuscate information that can be gleaned from information theory.</p></li>
+</ul>
+</li>
+<li><p><strong>Knowledge Domains</strong>:</p>
+<ul>
+<li><p><strong>Arcana</strong>: Knowledge of spells and magical rituals. Used to identify magical auras (with appropriate senses), supernatural effects, spells that are being cast, magical constructs and summoned creature. Thresholds:</p>
+<ul>
+<li><p>Identify magical aura: 16.</p></li>
+<li><p>Identify supernatural effect:</p>
+<ul>
+<li><p>Local: [16 + MP dice used to create it]</p></li>
+<li><p>Global: [8 + MP dice used to create it]</p></li>
+</ul>
+</li>
+<li><p>Identify spell being cast:</p>
+<ul>
+<li><p>Local: [12 + MP dice used to create it]</p></li>
+<li><p>Global: [MP dice used to create it]</p></li>
+</ul>
+</li>
+<li><p>Identify magical constructs or summoned creature: [4 + Total dice / 2].</p></li>
+</ul>
+</li>
+<li><p><strong>Dungeoneering</strong>: A collection of esoteric fields dealing with dangerous places such as labyrinths, monster lairs and disaster zones. It includes knowledge of things like which creatures dwell in such places, typical hazards and resources, likely locations of trap/treasure zones and core zones, and general dungeon trivia. Thresholds are as follows:</p>
+<ul>
+<li><p>Identify monstrous creature or construct: [4 + Total dice / 2]</p>
+<ul>
+<li><p>Special: for every 4 points over the identification threshold, the character gains an extra piece of information about the creature.</p></li>
+</ul>
+</li>
+<li><p>Identify hazard: [terrain + weather] or [threshold of creation].</p></li>
+<li><p>Identify material/dweomer in such a zone: See <a class="reference external" href="#appraise">“Appraise”</a>.</p></li>
+<li><p>Identify structure of zone: [terrain + weather] + 5.</p></li>
+</ul>
+</li>
+<li><p><strong>Geography</strong>: Geography and geology. Including, know geography and geology of a region. Identify landmarks. Identify regional belonging of an entity from its outwards traits and behaviour.</p></li>
+<li><p><strong>History</strong>: Know the history of a region, item or civilisation. Know obscure historical events of significance. Know power structure of a country and know details of past and present rulers. Remember what you did two sessions ago if you forgot to make notes.</p></li>
+<li><p><strong>Nature</strong>: Identify “natural” entities and know their properties. Identify natural cycles, phenomena and hazards (including diseases). Identify natural materials.</p>
+<ul>
+<li><p>Identify natural entity: [4 + total dice / 2]</p>
+<ul>
+<li><p>Special: for every 4 points over the identification threshold, the character gains an extra piece of information about the creature.</p></li>
+</ul>
+</li>
+<li><p>Identify phenomenon, hazard or cycle: [terrain + weather bonus]</p></li>
+<li><p>Identify natural materials: See <a class="reference external" href="#appraise">“appraise”</a>.</p></li>
+</ul>
+</li>
+<li><p>Religion: Know about gods, supernatural beings and religious practices.</p>
+<ul>
+<li><p>Identify supernatural being: [4 + Total dice / 2].</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Special</strong>: Identifying beings by setting thresholds based on “Total dice” can get silly. Most people would know a dragon when they see one. As such general knowledge threshold can be used instead.</p></li>
+<li><p><strong>Take care</strong>: No. You either know it or don’t.</p></li>
+<li><p><strong>Try again</strong>: no. You either know it or don’t.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="navigate">
+<h4>Navigate<a class="headerlink" href="#navigate" title="Link to this heading">¶</a></h4>
+<p>Navigation allows a character to orientate themselves in space, find the best route from A to B, hold a course, or to plan logistics. In conjunction with cartographers’ tools it can be used to create wonderful maps. Navigation can be anything from a “full round action” for orientating one-self, to a drawn out process for planning logistics.</p>
+<ul class="simple">
+<li><p><strong>Find north:</strong> Orientate your direction. Useful in unknown terrain. This is a full round action.</p>
+<ul>
+<li><p>Threshold = [Threshold of terrain with weather modifier - 5]</p></li>
+</ul>
+</li>
+<li><p><strong>Hold course:</strong> Maintain your direction of travel when circumstances change (eg weather changes). This is a “secondary action”.</p>
+<ul>
+<li><p>Threshold = [Threshold of terrain with weather modifier - 10]</p></li>
+</ul>
+</li>
+<li><p><strong>Orientate:</strong> Use map and compass to locate yourself (eg when lost). This takes a minute.</p>
+<ul>
+<li><p>Threshold = [Threshold of terrain with weather modifier]</p></li>
+<li><p>Rush job (take “full round action” instead): Increase threshold by + 5.</p></li>
+</ul>
+</li>
+<li><p><strong>Plan route/logistics:</strong> Plan out a route between two points. On a success, the party will be given the route that fulfils the desired criteria as closely as possible, pointing out potential hazards. The journey time will also be decreased by 10%.</p>
+<ul>
+<li><p><strong>Action</strong>: 1 hour / day of route. 2 hours / day if logistics are included.</p></li>
+<li><p><strong>Threshold</strong>: [Terrain threshold] + [1 / 5 entities in the group] + [1 per vehicle in the group].</p></li>
+</ul>
+</li>
+<li><p><strong>Forecast</strong>: Predict weather up to 24h ahead. The threshold = [terrain with weather modifier].</p></li>
+<li><p><strong>Special</strong>: A character with terrain mastery has a +2 to “navigate” in that terrain.</p></li>
+<li><p><strong>Take care</strong>: Yes.</p></li>
+<li><p><strong>Try again</strong>: Yes. If the situation changes, or extra data is gathered. Otherwise the result is the same.</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="wis-based">
+<h3>WIS Based<a class="headerlink" href="#wis-based" title="Link to this heading">¶</a></h3>
+<section id="observe">
+<h4>Observe<a class="headerlink" href="#observe" title="Link to this heading">¶</a></h4>
+<p>The skill of observation is used to notice hidden/camouflaged details, entities or items using one’s senses. If a character fails to observe another entity, the character is effectively “blinded” with respect to the entity. A character that fails to perceive an ambushing party at the start of combat is considered “surprised”, which is not a lot of fun.</p>
+<ul class="simple">
+<li><p><strong>Observe hidden entity</strong>:</p>
+<ul>
+<li><p><strong>Modifiers on observed entity</strong>:</p>
+<ul>
+<li><p>Medium item in plain sight: Threshold = 0</p></li>
+<li><p>Per size category larger: -2</p></li>
+<li><p>Per size category smaller: +2</p></li>
+<li><p>Poor Visibility: usually grants “concealment” (see below)</p></li>
+<li><p>Heavy concealment: +2</p></li>
+<li><p>Full concealment: +5</p></li>
+<li><p>Per 20ft of distance: +1 (+2 in more than light concealment or poor visibility)</p></li>
+<li><p>Per additional entity: -1</p></li>
+<li><p>Through solid object (eg wall): Disadvantage (auto fail for some senses like sight)</p></li>
+</ul>
+</li>
+<li><p><strong>Modifiers on perceiving entity</strong>:</p>
+<ul>
+<li><p>Maintaining “concentration”: Disadvantage</p></li>
+<li><p>Asleep: - 10</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Special</strong>: Observe always succeeds against an entity or item in plain sight within 60ft, unless certain special abilities or conditions are in play (eg “invisible”, “blinded”).</p></li>
+<li><p><strong>Take care</strong>: No. This is essentially random.</p></li>
+<li><p><strong>Try again</strong>: Yes. In this case this is a “secondary action”.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="sense-motive">
+<h4>Sense Motive<a class="headerlink" href="#sense-motive" title="Link to this heading">¶</a></h4>
+<p>See through deception or gain some insight into the motive or state of mind of an entity. Usually this is through paying careful attention to wording, intonation and body language combined with a thorough knowledge of philosophy. No action required. This skill does not allow one to read an entity’s mind (usually).</p>
+<ul class="simple">
+<li><p><strong>Discern Deception</strong>: Opposed vs “deception”.</p></li>
+<li><p><strong>Sense motive</strong>: Gain insight into motive. Threshold = 16.</p></li>
+<li><p><strong>Empathise</strong>: Gain insight into emotional state of entity. Threshold = 12.</p></li>
+<li><p><strong>Read surface thought</strong>: Read the surface thoughts of an entity of the same race:</p>
+<ul>
+<li><p>Threshold: 32</p></li>
+<li><p>Action: “full round action”</p></li>
+</ul>
+</li>
+<li><p><strong>Modifiers</strong></p>
+<ul>
+<li><p>Charmed creatures have disadvantage on deception vs those who charmed them.</p></li>
+<li><p>Different culture in same entity kind: -2 penalty.</p></li>
+<li><p>Different race in same entity kind: -5 penalty.</p></li>
+<li><p>Different entity kind: -10 penalty.</p></li>
+<li><p>Familiar with entity: +2 bonus.</p></li>
+<li><p>Intimately familiar with entity: +5 bonus.</p></li>
+</ul>
+</li>
+<li><p><strong>Take care</strong>: No. Too many random factors.</p></li>
+<li><p><strong>Try again</strong>: Yes (as “secondary action”), but the result will be the same or the state of mind will have changed and the previous one will not be deduced.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="spellworking">
+<h4>Spellworking<a class="headerlink" href="#spellworking" title="Link to this heading">¶</a></h4>
+<p>While ‘Knowledge:Arcana” deals with theory, this is the practical application of said theory to manipulate supernatural forces and magical energies. It is used mainly to interact with the supernatural by “natural”/mundane means. This includes attempting to disrupt a ritual or modify its outcome. Alter the effect of arcane/spiritual glyphs and barriers and imbue or disimbue supernatural forces into mundane/”natural” objects. This generally takes between 1 minute and 1 week but can take longer. It should be noted that many barriers and other dweomer have wards against tampering. This can end badly.</p>
+<ul class="simple">
+<li><p><strong>Threshold</strong> = creator’s [Sup] roll.</p></li>
+<li><p><strong>Time required</strong> based on threshold:</p>
+<ul>
+<li><p>Up to 12: 1 minute.</p></li>
+<li><p>Up to 16: 1 hour.</p></li>
+<li><p>Up to 24: 1 day.</p></li>
+<li><p>Up to 32: 1 week.</p></li>
+<li><p>For every 8 points the threshold is exceeded, the time category reduces by one (eg, rolling 33 vs a threshold=24 barrier means it will take an hour to disable it).</p></li>
+</ul>
+</li>
+<li><p><strong>Disable supernatural trap:</strong> Safely disenchant or diffuse a magical trap (1 minute).</p></li>
+<li><p><strong>Create bypass in supernatural barrier</strong>: Allow a passage big enough to accommodate for 1 medium size entity in a magical barrier for 1 minute.</p></li>
+<li><p><strong>Extend duration</strong>: Enforce a supernatural effect, extending the duration (requires 1 hour). Roll vs the Creator’s [Sup] roll. On success the effect is extended by:</p>
+<ul>
+<li><p>Duration =  [roll - threshold] x 10% of original duration.</p></li>
+</ul>
+</li>
+<li><p><strong>Edit enchantment</strong></p>
+<ul>
+<li><p><strong>Alter element</strong>: Change the element of an existing effect to a different element.</p></li>
+<li><p><strong>Alter conditions</strong>: Change the triggering or safety condition of the enchantment.</p></li>
+<li><p><strong>Alter effect</strong>: Alter the effect. NB: Threshold is [creator’s [Sup] roll + 10].</p></li>
+</ul>
+</li>
+<li><p><strong>Imbue</strong>: This is covered in the “crafting” section, and basically uses pathfinder rules.</p></li>
+<li><p><strong>Disimbue</strong>: Disimbue an enchantment, dissipating the energy.</p>
+<ul>
+<li><p><strong>Special</strong>: If you fail this roll by less than 5 but roll snake eyes, the energy is released in a catastrophic cascade dealing [threshold] x d6 “light”[Sup] damage to everything within [threshold] x 5ft of the source.</p></li>
+</ul>
+</li>
+<li><p><strong>Absorb</strong>: Disimbue an enchantment and absorb the energy as MP dice.</p>
+<ul>
+<li><p>If the item is a single use item and the roll fails by 5 or more, the item is destroyed in the process. On success the enchantment is disimbued and you replenish a number of MP dice equal to the number used to create the effect. Excess dice are added as temporary dice. If the resulting total dice is more than 3/2 times your maximum, two things happen:</p>
+<ol class="arabic simple">
+<li><p>All your [MP] and [SP] dice are expended, your [HP] drops to zero. You are considered dying.</p></li>
+<li><p>All OTHER entities suffer the consequence as from a “catastrophic cascade” (see “disimbue” above).</p></li>
+</ol>
+</li>
+</ul>
+</li>
+<li><p><strong>Use magic device</strong>: A character not proficient with a magical device can attempt to use it (this is a full round action unless it is normally longer). A roll is needed for each of:</p>
+<ul>
+<li><p>Equip item.</p></li>
+<li><p>Activate function or cast spell from item (-5 to threshold).</p></li>
+<li><p>The threshold is the item’s creation threshold.</p></li>
+<li><p>If the item is a single use item and the roll fails by 5 or more, the item is destroyed in the process (unless it is “durable” or “indestructible”).</p></li>
+<li><p>For each restriction on the item forbidding the character to use it, the threshold increases by +5.</p></li>
+</ul>
+</li>
+<li><p><strong>Special</strong>:</p>
+<ul>
+<li><p>Failure by 5 or more leads to the entity using the skill to expend a number of MP dice equal to the difference between threshold and result. If this leads to the MP dice count reaching 0, the skill user must make a CHA save vs the threshold or fall “unconscious” until they receive “first aid” or the status is otherwise lifted by use of natural or supernatural ability.</p></li>
+<li><p>You have disadvantage on “spellworking” rolls relating to spells with the “<strong>curse</strong> descriptor until curse’s break condition has been fulfilled. Once the condition has been fulfilled rolls to disimbue or disable the curse have advantage.</p></li>
+</ul>
+</li>
+<li><p><strong>Take care</strong>: Yes.</p></li>
+<li><p><strong>Try again</strong>: Yes, although by then it’s often too late.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="track">
+<h4>Track<a class="headerlink" href="#track" title="Link to this heading">¶</a></h4>
+<p>Tracking is used to follow entities based on disturbances they leave in their environment. Finding tracks is a “full round action”, while following tracks or identifying them is a “secondary action”. One check is needed for every hour of pursuit or every mile if speed is less than 1mph. When following tracks, an entity moves at half speed.</p>
+<ul class="simple">
+<li><p><strong>Threshold:</strong> For the fresh tracks of a single medium sized creature it is as follows:</p>
+<ul>
+<li><p>Fluid: 28</p></li>
+<li><p>Rock/hard ground: 20</p></li>
+<li><p>Unstable ground (eg sand, powder snow): 16</p></li>
+<li><p>Dirt road: 8</p></li>
+<li><p>Snow or soft ground: 4</p></li>
+</ul>
+</li>
+<li><p><strong>Modifiers</strong></p>
+<ul>
+<li><p>For every size category up: -1 to threshold.</p></li>
+<li><p>For every size category down: +1 to threshold.</p></li>
+<li><p>For every additional entity: -1 to threshold.</p></li>
+<li><p>If it has rained or fresh snow has fallen since: +6 to threshold</p></li>
+<li><p>For every day that has passed: +4 to threshold</p></li>
+<li><p>Moving at full speed when tracking: +6 to threshold when making repeated roll.</p></li>
+<li><p>Other modifiers may be applied.</p></li>
+</ul>
+</li>
+<li><p><strong>Special</strong></p>
+<ul>
+<li><p>“Prospect” or “observe” may be used to find tracks but not follow them.</p></li>
+<li><p>If a group tried to mislead the tracker, the threshold may increase by [roll - 15].</p></li>
+<li><p><a class="reference external" href="06-abilities.html#tracker-fast-search">“Tracker: Fast Search”</a> makes finding tracks a “main action” and following it a non-action.</p></li>
+<li><p><a class="reference external" href="06-abilities.html#tracker-persistent">“Tracker: Persistent”</a> allows to make the track check once per 4h or 4 miles.</p></li>
+<li><p><a class="reference external" href="06-abilities.html#tracker-swift">“Tracker: Swift”</a> removes the penalty for moving at full speed when tracking.</p></li>
+<li><p>A character with terrain mastery has a +2 to “track” in that terrain.</p></li>
+</ul>
+</li>
+<li><p><strong>Take care</strong>: Yes.</p></li>
+<li><p><strong>Try again</strong>: Yes. (Although you probably won’t catch it if you take 20)</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="cha-based">
+<h3>CHA Based<a class="headerlink" href="#cha-based" title="Link to this heading">¶</a></h3>
+<section id="creature-handling">
+<h4>Creature Handling<a class="headerlink" href="#creature-handling" title="Link to this heading">¶</a></h4>
+<p>Train a non-sapient entity or order/direct it to act. Training usually takes days, weeks, months or years. Commanding is a “communicate” action where the command is vocal or telepathic, or a “secondary action” when it is somatic. It can also be used for handling untamed creatures. This skill is generally not useable for entities with Int higher than 4. Those are treated as sapient.</p>
+<ul class="simple">
+<li><p><strong>Raise</strong>: Rear a creature from infancy to adulthood. This also involves teaching the entity a number of commands equal to its intelligence score.</p>
+<ul>
+<li><p><strong>Duration</strong>: varies with life cycle.</p></li>
+<li><p><strong>Threshold</strong>: Base threshold for a native domestic animal is 12.</p>
+<ul>
+<li><p>+4 if the entity is not a domestic breed.</p></li>
+<li><p>+4 if it is not native to the terrain and climate where you are raising it.</p></li>
+<li><p>+4 if it is a monstrosity or plant.</p></li>
+<li><p>+8 if it is a different non-animal entity.</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Tame</strong>: Tame a wild thing. This has two modes. a) Interact with an entity and move its perception of you to “neutral”. This takes a minute. b) Tame an entity. This takes between a week and a year depending on entity.</p>
+<ul>
+<li><p><strong>Threshold</strong>: Base threshold for a wild entity is 16.</p>
+<ul>
+<li><p>-4 if it has had friendly interactions with your race or similar entities.</p></li>
+<li><p>+4 if it is not an animal.</p></li>
+<li><p>+8 if it has had hostile interactions with your race or similar entities.</p></li>
+<li><p>+16 if it has had hostile interaction with you before.</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Teach</strong>: Teach an adult entity a new command.</p>
+<ul>
+<li><p><strong>Duration</strong>: 1 week (can be longer or shorter).</p></li>
+<li><p><strong>Threshold</strong>: base threshold for a domestic animal is 16.</p>
+<ul>
+<li><p>+4 if this is not a natural activity for the entity (eg. Teaching a guinea pig to attack).</p></li>
+<li><p>+4 if the entity is not an animal.</p></li>
+<li><p>+4 for each command above the entity’s intelligence score.</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Command</strong>: Order an entity to carry out a command.</p>
+<ul>
+<li><p><strong>Threshold</strong>: The base threshold is 16.</p>
+<ul>
+<li><p>-4 to threshold if you trained it.</p></li>
+<li><p>+8 if it is not trained for this command.</p></li>
+<li><p>+12 if it is an untamed entity.</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Special</strong>: A character with terrain mastery has a +2 to “creature handling” in that terrain.</p></li>
+<li><p><strong>Take care</strong>: Yes.</p></li>
+<li><p><strong>Try again</strong>: Sometimes, but at disadvantage. Raising cannot be repeated, because it already grew up.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="deceive">
+<h4>Deceive<a class="headerlink" href="#deceive" title="Link to this heading">¶</a></h4>
+<p>This is deception, whereby by direct lies (verbal, or by suggestive body language) or indirect deception or attempts to mislead. As a rule this skill should be used for direct interaction. Written form or sabotage use other skills. This is usually a “communicate” action.</p>
+<ul class="simple">
+<li><p><strong>Threshold</strong>: Opposed to “Sense Motive”.</p></li>
+<li><p><strong>Modifiers</strong></p>
+<ul>
+<li><p>The target knows that this cannot feasibly be true: +16 threshold.</p></li>
+<li><p>The deception is unlikely: +4 threshold.</p></li>
+<li><p>The target is unfriendly (skeptical): +4 threshold.</p></li>
+<li><p>The target wants to believe this is true: Advantage on deception roll.</p></li>
+</ul>
+</li>
+<li><p><strong>Secret message</strong>:</p></li>
+<li><p><strong>Distract</strong>: Give a target disadvantage on mental skill/ability rolls till the end of its next turn (or a minute out of combat). It can also allow you or another entity to stealth in plain sight at disadvantage.</p></li>
+<li><p><strong>Take care</strong>: No. Emotions are tricky.</p></li>
+<li><p><strong>Try again</strong>: Sometimes, but at disadvantage. Sometimes a target may become hostile on failure and then things get messy.</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="intimidate">
+<h3>Intimidate<a class="headerlink" href="#intimidate" title="Link to this heading">¶</a></h3>
+<p><strong>NB:</strong> Uses of intimidate in PC vs PC is not encouraged (except for “shake resolve”). For maximum effect this is one check that benefits from being roleplayed out.</p>
+<p>Encourage compliance based on fear. This can be used either force NPCs to take a certain course of action out of fear or sense of self preservation. It can also be used to shake the resolve of a combatant for a brief moment. This skill has no effect on “fearless” entities.</p>
+<ul class="simple">
+<li><p><strong>Threshold</strong>: Opposed roll vs Cha save. Snake eyes do NOT automatically fail this save.</p>
+<ul>
+<li><p>+8 to threshold if you are hopelessly outmatched.</p></li>
+<li><p>+4 to threshold if you are outnumbered or outsized.</p></li>
+<li><p>-4 to threshold if you and allies outnumber or outsize target.</p></li>
+<li><p>-8 to threshold if your target is hopelessly outmatched.</p></li>
+</ul>
+</li>
+<li><p><strong>Intimidate</strong>: Spend a minute being scary. The target will act as if it is <strong>charmed</strong> for as long as you are present (up to an hour, then a new roll may be required at the DMs discretion). When you are no longer present the target becomes “unfriendly” if it wasn’t already, and may become hostile under some circumstances, but is unlikely to attack you directly. If the check fails, the target’s attitude changes to “unfriendly” or “hostile” depending on multiple factors.</p>
+<ul>
+<li><p>This may be used on multiple targets. The targets roll once as a group, using the Cha save of the perceived leader with a +1 for every extra member up to 10.</p></li>
+</ul>
+</li>
+<li><p><strong>Shake resolve</strong>: Use “communication” action to give target disadvantage on its next targeted attack or save.</p>
+<ul>
+<li><p>If a “main action” is used instead target is “Frightened” until the end of its next turn.</p></li>
+</ul>
+</li>
+<li><p><strong>Break</strong>: Uses a “main action” to cow enemies into surrendering. The roll has the following penalties:</p>
+<ul>
+<li><p>-12 penalty if you have done at least 1 HP damage to the target this encounter.</p></li>
+<li><p>-16 penalty if the target has taken at least 1 HP damage in this encounter.</p></li>
+<li><p>-24 penalty if the target is uninjured.</p></li>
+</ul>
+</li>
+<li><p><strong>Take care</strong>: No.</p></li>
+<li><p><strong>Try again</strong>: Yes, once, with disadvantage. Subsequent checks automatically fail until circumstances change.</p></li>
+</ul>
+<hr class="docutils" />
+<section id="persuade">
+<h4>Persuade<a class="headerlink" href="#persuade" title="Link to this heading">¶</a></h4>
+<p>Unlike intimidate this does not act as a charm effect. Like intimidate it should not be used on PCs. Persuasion can range from a systematic encroachment onto an entity’s system of values and world view over many days of work, to a desperate plea thrown out in a “communicate” action. It can be used in or out of combat.</p>
+<ul class="simple">
+<li><p><strong>Threshold</strong>: Opposed roll vs Cha save. Snake eyes do NOT automatically fail this save. NB: The DM is encouraged to set their own thresholds, instead of using a save, but this is a guide in doing so.</p>
+<ul>
+<li><p><strong>Basic Threshold Modifiers</strong>:</p>
+<ul>
+<li><p>+16 if you or your request fundamentally contradicts the aims or values of the target.</p></li>
+<li><p>+12 if you or your request is utterly ridiculous or completely contradicts values of target.</p></li>
+<li><p>+8 if you or your request puts the target at a disadvantage.</p></li>
+<li><p>+4 if you or your request causes the target inconvenience.</p></li>
+<li><p>-4 if you or your request seem likely to be advantageous to the target.</p></li>
+<li><p>-8 if you or your request is something the target wants to do anyway.</p></li>
+<li><p>-16 if you or your request completely align with the aims and values of the target.</p></li>
+</ul>
+</li>
+<li><p><strong>Relationship Modifiers</strong>: Based on relationship to you a target is likely to perceive requests differently. The threshold is affected as follows:</p>
+<ul>
+<li><p>Nemesis (eg the one who swore they would cast your soul into the nether hells after seeing you slay their family before their eyes): +16</p></li>
+<li><p>Hostile (eg the ogre trying to kill you): +8</p></li>
+<li><p>Unfriendly (eg local thugs): +4</p></li>
+<li><p>Friendly (eg good neighbour): - 4</p></li>
+<li><p>Allied (eg good ally, spouse): -8</p></li>
+<li><p>Sworn (eg The blink dog that you saved from monsters as a pup): -16</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Request</strong>: Spend at least one minute supplicating the target for aid. A successful roll means that the target will assist you in this request. Depending on its character it may or may not be particularly diligent or thorough in doing so.</p></li>
+<li><p><strong>Carouse</strong>: Spend at least one hour interacting with the target, to attempt to shift its relationship one step closer to “allied”.</p>
+<ul>
+<li><p>Apart from under special circumstances a target will only advance one step up per day at most.</p></li>
+</ul>
+</li>
+<li><p><strong>Beg for mercy</strong>: As a “main action” you can beg for mercy in combat, making a persuade roll at disadvantage. On a successful roll you will be spared by your foe. If you fail by more than 5, you will become the main target.</p></li>
+<li><p><strong>Call for parley</strong>: As a “full round action” you can call for parley, making a persuade roll at disadvantage. In most cases you have a penalty from both “relationship modifiers” and “basic threshold modifiers”. If HP damage has been caused in this encounter, you have an additional -8 penalty. If you fail by 5 or more, you become the main target of the hostilities.</p></li>
+<li><p><strong>Special</strong>:</p>
+<ul>
+<li><p>Persuade checks for “Carouse” and “Request” always fail against a “Nemesis”.</p></li>
+<li><p>“Carouse” cannot move a relationship to “Sworn”.</p></li>
+<li><p>A “persuade” will only work on “nemesis” under circumstances where their goals are almost certain to fail otherwise, and sometimes not even then.</p></li>
+</ul>
+</li>
+<li><p><strong>Take care</strong>: No.</p></li>
+<li><p><strong>Try again</strong>: Yes, once, with disadvantage. Subsequent checks automatically fail until circumstances change.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="perform">
+<h4>Perform<a class="headerlink" href="#perform" title="Link to this heading">¶</a></h4>
+<p>Put on a show or act, using word or play, song or dance, instrumentals or buffoonery or any number of other means. This can either be done to earn a living, distract attention, carouse or gain information. A performance typically lasts at least a minute.</p>
+<ul class="simple">
+<li><p><strong>Carouse</strong>: Can be used to shift relationships one step in either direction between “hostile” and “friendly” for yourself or a different entity. (See “Persuade” rules above.)</p></li>
+<li><p><strong>Distract</strong>: Make a perform roll vs a threshold of the target’s Wis save. On a success the target has disadvantage on “observe” and “sense motive” checks while your performance continues. If the target gets snake eyes, it is “charmed” for the duration of your performance.</p></li>
+<li><p><strong>Gather information</strong>: Works as a “knowledge” skill with a scope limited to what the entities at the performance would know.</p></li>
+<li><p><strong>General descriptors by roll result</strong></p>
+<ul>
+<li><p>4: My 3 year old’s screams are less painful to listen to.</p></li>
+<li><p>8: Basically Begging.</p></li>
+<li><p>12: Amateur Busking.</p></li>
+<li><p>16: Enjoyable professional performance.</p></li>
+<li><p>20: A memorable performance.</p></li>
+<li><p>24: An impressive performance worthy of a famous bard.</p></li>
+<li><p>30: A performance worthy of the royal court.</p></li>
+<li><p>36: A dragon might kidnap you just to fall asleep to your lullaby.</p></li>
+<li><p>50: This music can quite literally sway the gods or raise the dead.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+</section>
+<hr class="docutils" />
+<section id="kit-and-tool-descriptions">
+<h2>Kit and Tool Descriptions<a class="headerlink" href="#kit-and-tool-descriptions" title="Link to this heading">¶</a></h2>
+<p>Empty.</p>
+</section>
+<hr class="docutils" />
+<section id="optional-suggested-assisting-skills">
+<h2>Optional Suggested Assisting Skills<a class="headerlink" href="#optional-suggested-assisting-skills" title="Link to this heading">¶</a></h2>
+<p>This table is for the optional alternative assisting rule for <a class="reference external" href="#assisting-and-circumstance-bonuses">“Assisting and Circumstance bonuses”</a>. This table is not exhaustive.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Skill Used</p></th>
+<th class="head"><p>Suggested Assisting Skills</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Athletics</p></td>
+<td><p>Academics, Fortify</p></td>
+</tr>
+<tr class="row-odd"><td><p>Climb</p></td>
+<td><p>Athletics, Fortify, Tinker</p></td>
+</tr>
+<tr class="row-even"><td><p>Swim</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Fortify</p></td>
+<td><p>Athletics, Tinker</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Sleight of Hand</p></td>
+<td><p>Academics, Fortify, Investigate, Knowledge, Tinker</p></td>
+</tr>
+<tr class="row-even"><td><p>Tinker</p></td>
+<td><p>Academics, Fortify, Investigate, Sleight of Hand</p></td>
+</tr>
+<tr class="row-odd"><td><p>Heal</p></td>
+<td><p>Academics, Investigate, Knowledge, Sleight of Hand</p></td>
+</tr>
+<tr class="row-even"><td><p>Acrobatics</p></td>
+<td><p>Academics, Athletics, Fortify</p></td>
+</tr>
+<tr class="row-odd"><td><p>Fly</p></td>
+<td><p>Fortify, Observe</p></td>
+</tr>
+<tr class="row-even"><td><p>Ride</p></td>
+<td><p>Creature Handling, Sleight of Hand</p></td>
+</tr>
+<tr class="row-odd"><td><p>Stealth</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Harvest</p></td>
+<td><p>Prospect</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Academics</p></td>
+<td><p>Investigate, Knowledge</p></td>
+</tr>
+<tr class="row-even"><td><p>Appraise</p></td>
+<td><p>Academics, Investigate, Knowledge</p></td>
+</tr>
+<tr class="row-odd"><td><p>Investigate/Prospect</p></td>
+<td><p>Academics, Harvest, Knowledge, Observe, Track</p></td>
+</tr>
+<tr class="row-even"><td><p>Navigate</p></td>
+<td><p>Academics, Observe, Knowledge: Geography</p></td>
+</tr>
+<tr class="row-odd"><td><p>Knowledge: Arcana</p></td>
+<td><p>Academics, Spellworking</p></td>
+</tr>
+<tr class="row-even"><td><p>Knowledge: Geography</p></td>
+<td><p>Academics, Navigate</p></td>
+</tr>
+<tr class="row-odd"><td><p>Knowledge: Nature</p></td>
+<td><p>Academics, Harvest, Heal</p></td>
+</tr>
+<tr class="row-even"><td><p>Knowledge: Dungeoneering</p></td>
+<td><p>Academics</p></td>
+</tr>
+<tr class="row-odd"><td><p>Knowledge: History</p></td>
+<td><p>Academics</p></td>
+</tr>
+<tr class="row-even"><td><p>Knowledge: Religion</p></td>
+<td><p>Academics, Knowledge</p></td>
+</tr>
+<tr class="row-odd"><td><p>Observe</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-even"><td><p>Sense Motive</p></td>
+<td><p>Deceive, Intimidate, Persuade</p></td>
+</tr>
+<tr class="row-odd"><td><p>Track</p></td>
+<td><p>Harvest, Observe</p></td>
+</tr>
+<tr class="row-even"><td><p>Spellworking</p></td>
+<td><p>Academics, Knowledge: Arcana</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Creature Handling</p></td>
+<td><p>Fly, Ride, Knowledge: Nature, Sleight of Hand</p></td>
+</tr>
+<tr class="row-odd"><td><p>Intimidate</p></td>
+<td><p>Athletics, Deceive, Perform, Sense Motive</p></td>
+</tr>
+<tr class="row-even"><td><p>Persuade</p></td>
+<td><p>Deceive, Perform, Sense Motive</p></td>
+</tr>
+<tr class="row-odd"><td><p>Deceive</p></td>
+<td><p>Intimidate, Persuade, Sense Motive, Sleight of Hand</p></td>
+</tr>
+<tr class="row-even"><td><p>Perform</p></td>
+<td><p>Academics, Acrobatics, Athletics, Sleight of Hand</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="06-abilities.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Abilities and Boons</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="04-combat.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Combat</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2023-3023, Fantasy Committee
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Skills</a><ul>
+<li><a class="reference internal" href="#skills-and-proficiencies">Skills and Proficiencies</a><ul>
+<li><a class="reference internal" href="#acquiring-skills-and-proficiencies">Acquiring skills and proficiencies</a></li>
+<li><a class="reference internal" href="#skill-points-ranks">Skill points (ranks)</a></li>
+<li><a class="reference internal" href="#base-and-background-bonus">Base and “background” bonus</a></li>
+<li><a class="reference internal" href="#total-skill-bonus">Total Skill bonus</a></li>
+<li><a class="reference internal" href="#circumstance-bonus">Circumstance bonus</a><ul>
+<li><a class="reference internal" href="#assisting-and-circumstance-bonuses">Assisting and Circumstance bonuses</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#skill-groups">Skill groups</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#skills-list">Skills list</a><ul>
+<li><a class="reference internal" href="#str-based-4">STR Based (4)</a></li>
+<li><a class="reference internal" href="#dex-based-7">DEX Based (7)</a></li>
+<li><a class="reference internal" href="#con-based-1">CON Based (1)</a></li>
+<li><a class="reference internal" href="#int-based-10">INT Based (10)</a></li>
+<li><a class="reference internal" href="#wis-based-4">WIS Based (4)</a></li>
+<li><a class="reference internal" href="#cha-based-5">CHA based (5)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#proficiency-lists">Proficiency Lists</a><ul>
+<li><a class="reference internal" href="#language-proficiencies">Language Proficiencies</a></li>
+<li><a class="reference internal" href="#tool-proficiencies">Tool Proficiencies</a></li>
+<li><a class="reference internal" href="#armour-proficiencies">Armour Proficiencies</a></li>
+<li><a class="reference internal" href="#weapon-proficiencies">Weapon Proficiencies</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#detailed-skill-descriptions">Detailed Skill Descriptions</a><ul>
+<li><a class="reference internal" href="#str-based">STR Based</a><ul>
+<li><a class="reference internal" href="#athletics">Athletics</a></li>
+<li><a class="reference internal" href="#climb">Climb</a></li>
+<li><a class="reference internal" href="#fortify">Fortify</a></li>
+<li><a class="reference internal" href="#swim">Swim</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#dex-based">DEX Based</a><ul>
+<li><a class="reference internal" href="#acrobatics">Acrobatics</a></li>
+<li><a class="reference internal" href="#fly">Fly</a></li>
+<li><a class="reference internal" href="#heal">Heal</a></li>
+<li><a class="reference internal" href="#ride">Ride</a></li>
+<li><a class="reference internal" href="#sleight-of-hand">Sleight of Hand</a></li>
+<li><a class="reference internal" href="#stealth">Stealth</a></li>
+<li><a class="reference internal" href="#tinker">Tinker</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#con-based">CON Based</a><ul>
+<li><a class="reference internal" href="#harvest">Harvest</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#int-based">INT Based</a><ul>
+<li><a class="reference internal" href="#academics">Academics</a></li>
+<li><a class="reference internal" href="#appraise">Appraise</a></li>
+<li><a class="reference internal" href="#investigate-prospect">Investigate/Prospect</a></li>
+<li><a class="reference internal" href="#knowledge">Knowledge</a></li>
+<li><a class="reference internal" href="#navigate">Navigate</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#wis-based">WIS Based</a><ul>
+<li><a class="reference internal" href="#observe">Observe</a></li>
+<li><a class="reference internal" href="#sense-motive">Sense Motive</a></li>
+<li><a class="reference internal" href="#spellworking">Spellworking</a></li>
+<li><a class="reference internal" href="#track">Track</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#cha-based">CHA Based</a><ul>
+<li><a class="reference internal" href="#creature-handling">Creature Handling</a></li>
+<li><a class="reference internal" href="#deceive">Deceive</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#intimidate">Intimidate</a><ul>
+<li><a class="reference internal" href="#persuade">Persuade</a></li>
+<li><a class="reference internal" href="#perform">Perform</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#kit-and-tool-descriptions">Kit and Tool Descriptions</a></li>
+<li><a class="reference internal" href="#optional-suggested-assisting-skills">Optional Suggested Assisting Skills</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="_static/documentation_options.js?v=8bafd125"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/scripts/furo.js?v=46bd48cc"></script>
+    </body>
+</html>

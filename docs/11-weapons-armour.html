@@ -1,0 +1,2393 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="./">
+  <head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="genindex.html"><link rel="search" title="Search" href="search.html"><link rel="next" title="Equipment and Economy" href="12-equipment-economy.html"><link rel="prev" title="Conditions and Types" href="10-conditions-types.html">
+
+    <!-- Generated with Sphinx 8.2.3 and Furo 2025.09.25 -->
+        <title>Weapons and armour - FanSys 0.0.18</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d111a655" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=580074bf" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=8dab3a3b" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f2f2f2;
+  --color-code-foreground: #1e1e1e;
+  --color-foreground-primary: #202424;
+  --color-foreground-secondary: #4a4c53;
+  --color-brand-primary: #112233;
+  --color-brand-content: #443322;
+  --color-brand-visited: #448822;
+  --color-background-primary: #f2f4ec;
+  --color-background-secondary: #e5e7e3;
+  --color-background-hover: #fafaf5;
+  --color-background-border: #40404067;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-foreground-primary: #cfd0d0;
+  --color-foreground-secondary: #acb0b5;
+  --color-brand-primary: #AABBCC;
+  --color-brand-content: #CFBEAC;
+  --color-brand-visited: #99DD99;
+  --color-background-primary: #242628;
+  --color-background-secondary: #2a2c2e;
+  --color-background-hover: #1e2124ff;
+  --color-background-border: #483945;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-foreground-primary: #cfd0d0;
+  --color-foreground-secondary: #acb0b5;
+  --color-brand-primary: #AABBCC;
+  --color-brand-content: #CFBEAC;
+  --color-brand-visited: #99DD99;
+  --color-background-primary: #242628;
+  --color-background-secondary: #2a2c2e;
+  --color-background-hover: #1e2124ff;
+  --color-background-border: #483945;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle site navigation sidebar">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc" aria-label="Toggle table of contents sidebar">
+<label class="overlay sidebar-overlay" for="__navigation"></label>
+<label class="overlay toc-overlay" for="__toc"></label>
+
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <span class="icon"><svg><use href="#svg-menu"></use></svg></span>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="index.html"><div class="brand">FanSys 0.0.18</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="index.html">
+  
+  <span class="sidebar-brand-text">FanSys 0.0.18</span>
+  
+</a><form class="sidebar-search-container" method="get" action="search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Index:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="01-quick-start.html">FanSys23 Quick-start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="03-movement-exploration.html">Actions outside of Combat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="04-combat.html">Combat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="05-skills.html">Skills</a></li>
+<li class="toctree-l1"><a class="reference internal" href="06-abilities.html">Abilities and Boons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="07-magic-and-spellcasting.html">Spells</a></li>
+<li class="toctree-l1"><a class="reference internal" href="08-spell-list.html">Spell List</a></li>
+<li class="toctree-l1"><a class="reference internal" href="09-races.html">Types, Races, Species and Templates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="10-conditions-types.html">Conditions and Types</a></li>
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Weapons and armour</a></li>
+<li class="toctree-l1"><a class="reference internal" href="12-equipment-economy.html">Equipment and Economy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="13-crafting-imbuing.html">Crafting and Imbuing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="14-poisons-and-diseases.html">Poisons and Diseases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="15-charm-etc.html">A note on charm, domination and possession</a></li>
+<li class="toctree-l1"><a class="reference internal" href="16-recipes.html">Recipes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="02-base-rules.html">Base Rules</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="bestiary.html">A Bestiary for Fantasy Worlds</a><input aria-label="Toggle navigation of A Bestiary for Fantasy Worlds" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/forwards.html">Forwards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/beasts-and-plants.html">Beasts and Plants</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/constructs.html">Constructs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/divines.html">Divines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/humanoids.html">NPC stat blocks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/monsters-and-dragons.html">Monsters and Dragons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/profanes.html">Profanes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/spirits.html">Spirits</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="CHANGELOG.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="TODO.html">Character sheet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="LICENSE.html">License</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="view-this-page">
+  <a class="muted-link" href="_sources/11-weapons-armour.md.txt" title="View this page">
+    <svg><use href="#svg-eye"></use></svg>
+    <span class="visually-hidden">View this page</span>
+  </a>
+</div>
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          <section id="weapons-and-armour">
+<h1>Weapons and armour<a class="headerlink" href="#weapons-and-armour" title="Link to this heading">¶</a></h1>
+<p>Weapons and armour are an essential part of any combat heavy table top RPG system. Weapon rules here are inspired primarily by DnD 3.5, and Pathfinder weapons rules.</p>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="#weapons">Weapons</a></p>
+<ul class="simple">
+<li><p><a class="reference external" href="#weapon-durability">Weapon durability</a></p></li>
+<li><p><a class="reference external" href="#ranged-weapons-collateral-and-melee">Ranged Weapons, collateral and melee</a></p></li>
+<li><p><a class="reference external" href="#range-increments">Range increments</a></p></li>
+<li><p><a class="reference external" href="#high-ground-and-weapon-ranges">High ground and weapon ranges</a></p></li>
+<li><p><a class="reference external" href="#two-handed-and-two-weapon-fighting">Two handed and two weapon fighting</a></p>
+<ul>
+<li><p><a class="reference external" href="#two-handed-weapons">Two handed weapons</a></p></li>
+<li><p><a class="reference external" href="#offhand-fighting">Offhand fighting</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#weapon-properties">Weapon properties</a></p></li>
+<li><p><a class="reference external" href="#weapon-proficiencies">Weapon proficiencies</a></p></li>
+<li><p><a class="reference external" href="#improvised-weapons">Improvised weapons</a></p></li>
+<li><p><a class="reference external" href="#weapon-table">Weapon table</a></p></li>
+<li><p><a class="reference external" href="#unarmed-combat">Unarmed Combat</a></p></li>
+<li><p><a class="reference external" href="#light-blades">Light blades</a></p></li>
+<li><p><a class="reference external" href="#heavy-blades">Heavy blades</a></p></li>
+<li><p><a class="reference external" href="#axes">Axes</a></p></li>
+<li><p><a class="reference external" href="#percussive">Percussive</a></p></li>
+<li><p><a class="reference external" href="#spears">Spears</a></p></li>
+<li><p><a class="reference external" href="#pole-arms">Pole-arms</a></p></li>
+<li><p><a class="reference external" href="#staves">Staves</a></p></li>
+<li><p><a class="reference external" href="#slings">Slings</a></p></li>
+<li><p><a class="reference external" href="#bows">Bows</a></p></li>
+<li><p><a class="reference external" href="#mechanical-bows">Mechanical Bows</a></p></li>
+<li><p><a class="reference external" href="#blowguns">Blowguns</a></p></li>
+<li><p><a class="reference external" href="#firearms">Firearms</a></p></li>
+<li><p><a class="reference external" href="#siege">Siege</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#armour">Armour</a></p>
+<ul class="simple">
+<li><p><a class="reference external" href="#armour-and-its-relationship-with-hit">Armour and its relationship with [HiT]</a></p></li>
+<li><p><a class="reference external" href="#armour-types">Armour types</a></p></li>
+<li><p><a class="reference external" href="#armour-proficiencies">Armour Proficiencies</a></p></li>
+<li><p><a class="reference external" href="#donning-and-doffing-armour">Donning and Doffing armour</a></p></li>
+<li><p><a class="reference external" href="#armour-penalties">Armour penalties</a></p></li>
+<li><p><a class="reference external" href="#the-armour-table">The Armour Table</a></p></li>
+<li><p><a class="reference external" href="#light-armour">Light Armour</a></p></li>
+<li><p><a class="reference external" href="#medium-armour">Medium Armour</a></p></li>
+<li><p><a class="reference external" href="#heavy-armour">Heavy Armour</a></p></li>
+<li><p><a class="reference external" href="#shields">Shields</a></p></li>
+</ul>
+</li>
+</ol>
+<hr class="docutils" />
+<section id="weapons">
+<h2>Weapons<a class="headerlink" href="#weapons" title="Link to this heading">¶</a></h2>
+<p>Weapons are tools that increase the lethality of martial combatants. For the sake of most abilities other than “sunder”, unarmed techniques count as weapons. Each type of weapon requires its own proficiency. Weight and size of weapons scales as with all equipment sizes (see <a class="reference external" href="02-base-rules.html#size-rules-table">“Base Rules: Size Rules”</a>). In all, there 5 categories and 18 types. The following categories and types of weapons exist:</p>
+<ul class="simple">
+<li><p><strong>Unarmed combat</strong></p>
+<ul>
+<li><p>Strikes</p></li>
+<li><p>Throws</p></li>
+<li><p>Grapples</p></li>
+<li><p>Disarms</p></li>
+<li><p>Interception</p></li>
+</ul>
+</li>
+<li><p><strong>Melee</strong></p>
+<ul>
+<li><p>Heavy blades</p></li>
+<li><p>Axes</p></li>
+<li><p>Percussive</p></li>
+<li><p>Pole-arms</p></li>
+<li><p>Staves</p></li>
+</ul>
+</li>
+<li><p><strong>Melee/Thrown</strong></p>
+<ul>
+<li><p>Light/Thrown blades</p></li>
+<li><p>Spears/Javelins</p></li>
+</ul>
+</li>
+<li><p><strong>Ranged</strong></p>
+<ul>
+<li><p>Bows</p></li>
+<li><p>Mechanical bows</p></li>
+<li><p>Slings</p></li>
+<li><p>Firearms (optional)</p></li>
+</ul>
+</li>
+<li><p><strong>Heavy</strong></p>
+<ul>
+<li><p>Ballistae</p></li>
+<li><p>Trebuchet/catapults</p></li>
+<li><p>Canons</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>Optional rule</strong>: For games with a simpler feel, proficiencies for whole categories can be taken for 3 proficiency points or 1 level point.</p>
+<hr class="docutils" />
+<section id="weapon-durability">
+<h3>Weapon durability<a class="headerlink" href="#weapon-durability" title="Link to this heading">¶</a></h3>
+<p>As other objects, weapons have HP and can be broken, either by misuse, bad dice luck or abilities similar to “sunder”. When a weapon’s HP reaches 0, it is broken and cannot be used until repaired (more precisely it can be used, but counts as “Unarmed: Strike”).</p>
+</section>
+<hr class="docutils" />
+<section id="ranged-weapons-collateral-and-melee">
+<h3>Ranged Weapons, collateral and melee<a class="headerlink" href="#ranged-weapons-collateral-and-melee" title="Link to this heading">¶</a></h3>
+<p>Ranged weapons fired while you are in melee are made at disadvantage.</p>
+<p>Ranged attacks may also hit other targets on the same line (the intervening target’s hex/square is intersected by the line from the center of your square to the center of your target’s square). This follows the <a class="reference external" href="04-combat.html#intervening-targets">intervening target rules</a>.</p>
+<p><strong>OPTIONAL RULE</strong>: It can be argued that projectiles generally follow a ballistic trajectory beyond the first range increment, and therefore do not risk hitting intervening targets more than a range increment away from either attacker or final target (although they still provide concealment). For example, if a target is 4 range increments from the attacker, intervening targets within the 2nd and 3rd range increment would not be at risk of being hit, but those in the 1st and 4th range increment would.</p>
+</section>
+<hr class="docutils" />
+<section id="range-increments">
+<h3>Range increments<a class="headerlink" href="#range-increments" title="Link to this heading">¶</a></h3>
+<p>It is harder to hit and hit effectively with a ranged weapon at greater distances. This is reflected by the range increment. Not all ranged weapons have the same size or number of ranged increments, reflecting that while some weapons might have a higher absolute range, they do not perform as well at long ranges (harder to aim, loss of projectile speed, etc).</p>
+</section>
+<hr class="docutils" />
+<section id="high-ground-and-weapon-ranges">
+<h3>High ground and weapon ranges<a class="headerlink" href="#high-ground-and-weapon-ranges" title="Link to this heading">¶</a></h3>
+<p>When using melee weapons, attacking from high ground gives advantage, attacking from low ground gives disadvantage.</p>
+<p>When using ranged weapons, attacking upwards more than 45 degrees halves the range increment and multiplies total range by 3/4. Attacking downwards more than 45 degrees doubles the range increment, however does not increase effective range (an arrow dropped from a plane will hit the ground, but is almost impossible to aim accurately).</p>
+<p><strong>OPTIONAL RULE</strong>: Weapons fired downwards beyond the weapon range are aimed at a square (HiT = 10 + number of range increments). If the attack hits the square, the target makes a Dex save vs the attackers NAT threshold (not NAP, NAT) without modifiers. On a failed save, the target takes damage.</p>
+</section>
+<hr class="docutils" />
+<section id="two-handed-and-two-weapon-fighting">
+<h3>Two handed and two weapon fighting<a class="headerlink" href="#two-handed-and-two-weapon-fighting" title="Link to this heading">¶</a></h3>
+<p>Weapons that are wielded in one hand are called “one-handed” weapons. Weapons that are made to be wielded in two or more hands (or other prehensile limbs) are called “two-handed” weapons. This kind of weapon is usually larger, heavier, harder to conceal and does more damage. Weapons that can be wielded with one or two hands are not considered to be two-handed (eg longswords, battle axes, spears and staves), but do use a bigger damage die when wielded with two hands. To use a weapon with two or more hands, a character must have the requisite number of available hands.</p>
+<hr class="docutils" />
+<section id="two-handed-weapons">
+<h4>Two handed weapons<a class="headerlink" href="#two-handed-weapons" title="Link to this heading">¶</a></h4>
+<p>Two-handed weapons must be wielded with two or more hands to be used effectively. Attacks made with a two-handed weapon using only one hand are made at a -4 penalty. Attacks made with a two-handed weapon with the “heavy” property, longbows and greatbows deal an additional [STR]/2 damage (rounded down) when wielded with two hands by a character with STR of at least 14.</p>
+<p>A character can switch from a two-handed grip to a one-handed grip on a weapon as a free action. However, switching back to a two-handed grip is a <a class="reference external" href="04-combat.html#actions-in-combat">“minor interaction”</a>.</p>
+</section>
+<hr class="docutils" />
+<section id="offhand-fighting">
+<h4>Offhand fighting<a class="headerlink" href="#offhand-fighting" title="Link to this heading">¶</a></h4>
+<p>A character with two hands can hold a one-handed weapon in each hand. If the character has made an attack as a “main action” with one weapon, then in some cases it can also make an additional “offhand attack” with the other weapon as a “secondary action”.</p>
+<ul class="simple">
+<li><p>The character can normally make a single “offhand attack” with a “light” weapon at a -4 penalty to attack and no stat bonus ([DEX] or [STR]) to damage.</p></li>
+<li><p>If the character has the <a class="reference external" href="06-abilities.html#multi-attack-i-iii">“multi-attack”</a> ability, then it can add its stat bonus to the offhand attack.</p></li>
+<li><p>It the character has <a class="reference external" href="06-abilities.html#offhand-fighting-i-iv">“offhand fighting”</a> ability, it adds its stat bonus to the damage, and does not take the penalty to the attack roll when making an offhand attack with a “light” weapon. It can instead use a weapon without the “light” property to make the attack, in which case it does take a -4 to the attack roll. Furthermore, it can make a number of attacks with the offhand weapon equal to its “offhand fighting” ability level as its offhand attack.</p></li>
+</ul>
+<p>An entity with more than two hands might be able to hold more than two weapons. In this case, all but the main weapon are considered to be offhand weapons. In this case the number of offhand or other attacks does not increase. However, if it has multiple offhand attacks, it can distribute them between its offhand weapons as it sees fit.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="weapon-properties">
+<h3>Weapon properties<a class="headerlink" href="#weapon-properties" title="Link to this heading">¶</a></h3>
+<p>Weapons come in all shapes and sizes. They can be made of various materials. As a result they have various properties as follows:</p>
+<ul class="simple">
+<li><p><strong>Delicate</strong>: On rolling snake eyes, the weapon takes 1 point of damage.</p></li>
+<li><p><strong>Unwieldy</strong>: Unwieldy weapons cannot be easily used in small spaces, where any dimension (width or height or length) are 5ft or less, or when mounted. In those conditions these weapons are wielded at disadvantage.</p></li>
+<li><p><strong>Heavy</strong>: This kind of weapon is “unwieldy”. A heavy weapon of the correct size category must be wielded in two hands or it counts as an improvised weapon. In addition they grant a +2 on all basic martial manoeuvres (except “attack”). If a heavy weapon user does not have at least +2 to [STR], it takes -4 to attacks with the weapon. If the weapon is a melee weapon, a character wielding it with at least two hands and possessing at least +2 to [STR] adds an additional [STR]/2 to the damage dealt (<em>rounded down</em> to the nearest whole number). Thus a character wielding a 2d6 greatsword with [STR] of +2 would deal 2d6+3 damage, while a character with a [STR] of +3 would deal 2d6+4 damage.</p></li>
+<li><p><strong>Reach</strong>: This weapon is “unwieldy”, but it does have a range of 10ft.</p></li>
+<li><p><strong>Long</strong>: These weapons are not quite reach weapons, but they are bit longer than usual. A long weapon allows a wielder to use its “secondary action” to lunge and extend its reach to 10ft for a single attack.</p></li>
+<li><p><strong>Light</strong>: -2 when on the receiving end of “sunder” and “disarm” manoeuvres. Its users have advantage when using stealth to conceal this kind of weapon.</p></li>
+<li><p><strong>Mounted</strong>: This weapon was made with mounted combat in mind. If normally there would be penalties for using this kind of weapon mounted, they are negated.</p></li>
+<li><p><strong>Tool</strong>: This weapon also counts as a tool and character proficient with counts as proficient in that tool when using the weapon as the stated tool type.</p></li>
+<li><p><strong>Disarm</strong>: Proficiency with this weapon allows the use of disarm as if proficient with the manoeuvre while wielding it. If the user already has proficiency with “disarm”, it gains a +2 bonus when disarming with this weapon.</p></li>
+<li><p><strong>Grapple</strong>: Proficiency with this weapon allows the use of grapple as if proficient with the manoeuvre while wielding it. If the user already has proficiency with “grapple”, it gains a +2 bonus when grappling with this weapon.</p></li>
+<li><p><strong>Throw</strong>: Proficiency with this weapon allows the use of throw as if proficient with the manoeuvre while wielding it. If the user already has proficiency with “throw”, it gains a +2 bonus when throwing an opponent with this weapon.</p></li>
+<li><p><strong>Sunder</strong>: Proficiency with this weapon allows the use of sunder as if proficient with the manoeuvre while wielding it. If the user already has proficiency with “sunder”, it gains a +2 bonus when sundering with this weapon.</p></li>
+<li><p><strong>Special</strong>: The weapon has some unique properties or rules which do not fit neatly into a different category.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="weapon-proficiencies">
+<h3>Weapon proficiencies<a class="headerlink" href="#weapon-proficiencies" title="Link to this heading">¶</a></h3>
+<p>Any entity may wield a weapon it is physically capably of wielding. If it is not proficient, it makes attacks with a -5 penalty. On rolling snake eyes it damages itself, rolling the same damage dice it would as if it had hit the intended target.</p>
+<p>Proficiency with a weapon type eliminates both the penalty and the damage to self on crit fails. In addition it allows the use of any of a weapon’s special properties.</p>
+</section>
+<hr class="docutils" />
+<section id="weapons-damage-and-governing-stats">
+<h3>Weapons, damage and governing stats<a class="headerlink" href="#weapons-damage-and-governing-stats" title="Link to this heading">¶</a></h3>
+<p>Weapon damage is almost always natural physical damage (see <a class="reference external" href="10-conditions-types.html#damage-types">“damage type”</a>). However, certain abilities like <a class="reference external" href="06-abilities.html#spirit-strike">“spirit strike”</a> can change this. Weapons deal damage based on the damage dice which are specific to each weapon (see the <a class="reference external" href="#weapon-table">weapon table</a> below) plus the bonus based on its governing stat (as well as material bonus and potentially other bonuses). For example a hand axe has an attack bonus of [[NAP] + [STR]] and deals [1d6 + [STR]] damage.</p>
+<p>Weapon attacks are generally targeted attacks that rely on NAP and are <a class="reference external" href="04-combat.html#attacks-and-damage-bonuses">“governed”</a> by one of STR or DEX. For example a hand axe is always governed by STR, a bow is always governed by DEX. However, some, mostly melee, weapons can be governed by either (STR/DEX) as per character choice. If a weapon that can be governed by either is used with DEX, then [DEX] is added to the attack bonus, but there is no stat bonus added to the damage unless the character has the <a class="reference external" href="06-abilities.html#weapon-finesse">“weapon finesse”</a> boon.</p>
+</section>
+<hr class="docutils" />
+<section id="improvised-weapons">
+<h3>Improvised Weapons<a class="headerlink" href="#improvised-weapons" title="Link to this heading">¶</a></h3>
+<p>Items that are not designed to be used as weapons can also be used for this purpose, although they are generally less effective. A character using an improvised weapon makes attack rolls as if it is not proficient (-5 penalty). The size of an improvised weapon affects how much damage it does, and its form affects the damage. For example a character wielding a vase might do percussive damage, while one wielding a fork might do [a small amount of] piercing damage.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Category</p></th>
+<th class="head"><p>Guideline Weight</p></th>
+<th class="head"><p>Damage</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Light</p></td>
+<td><p>1lb</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-odd"><td><p>Medium</p></td>
+<td><p>2lb</p></td>
+<td><p>1d4</p></td>
+</tr>
+<tr class="row-even"><td><p>Two Handed</p></td>
+<td><p>3-6lb</p></td>
+<td><p>1d6</p></td>
+</tr>
+<tr class="row-odd"><td><p>Heavy</p></td>
+<td><p>6-20lb</p></td>
+<td><p>1d8</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<hr class="docutils" />
+<section id="weapon-table">
+<h3>Weapon table<a class="headerlink" href="#weapon-table" title="Link to this heading">¶</a></h3>
+<p>This table gives a quick overview of weapons. For details on each weapon, see the weapon description. The damage dice of weapons follow the general <a class="reference external" href="02-base-rules.html#dice-size-rules">“Dice size rules”</a>. For suggested costs and availability see <a class="reference external" href="12-equipment-economy.html#weapons">the weapons table</a> in the <a class="reference external" href="12-equipment-economy.html">Equipment and Economy</a> chapter.</p>
+<p><strong>NB</strong>: Since specific properties are an important part of how a weapon is used, it is advisable to read over the description of weapons the reader is thinking of using for their character. Sometimes a weapon listed in the table represents several functionally similar historical weapons. Therefore if you do not find your beloved katana, please check the entry for “falchion”.</p>
+<p>Damage Key:</p>
+<ul class="simple">
+<li><p>Percussive: B</p></li>
+<li><p>Shear: Sh</p></li>
+<li><p>Slashing: S</p></li>
+<li><p>Piercing: P</p></li>
+</ul>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Weapon</p></th>
+<th class="head"><p>Proficiency</p></th>
+<th class="head"><p>Damage dice</p></th>
+<th class="head"><p>Type</p></th>
+<th class="head"><p>Hands</p></th>
+<th class="head"><p>Governed by</p></th>
+<th class="head"><p>Reach (ft)</p></th>
+<th class="head"><p>Range (ft)</p></th>
+<th class="head"><p>Increment (ft)</p></th>
+<th class="head"><p>Weight (lb)</p></th>
+<th class="head"><p>Durability</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Strike</p></td>
+<td><p>Strike</p></td>
+<td><p>1</p></td>
+<td><p>B/Sh</p></td>
+<td><p>1+</p></td>
+<td><p>Str/Dex</p></td>
+<td><p>5</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-odd"><td><p>Throws</p></td>
+<td><p>Throw</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>1+</p></td>
+<td><p>Str/Dex</p></td>
+<td><p>5</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-even"><td><p>Grapples</p></td>
+<td><p>Grapple</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>1+</p></td>
+<td><p>Str</p></td>
+<td><p>5</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-odd"><td><p>Disarm</p></td>
+<td><p>Disarm</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>1+</p></td>
+<td><p>Str/Dex</p></td>
+<td><p>5</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-even"><td><p>Interception</p></td>
+<td><p>Interception</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>Str/Dex</p></td>
+<td><p>10</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Throwing axe</p></td>
+<td><p>Axe</p></td>
+<td><p>1d4</p></td>
+<td><p>S</p></td>
+<td><p>1</p></td>
+<td><p>Str</p></td>
+<td><p>5</p></td>
+<td><p>20</p></td>
+<td><p>60</p></td>
+<td><p>2</p></td>
+<td><p>6</p></td>
+</tr>
+<tr class="row-odd"><td><p>Hand axe</p></td>
+<td><p>Axe</p></td>
+<td><p>1d6</p></td>
+<td><p>S</p></td>
+<td><p>1</p></td>
+<td><p>Str</p></td>
+<td><p>5</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>2</p></td>
+<td><p>8</p></td>
+</tr>
+<tr class="row-even"><td><p>War shovel</p></td>
+<td><p>Axe</p></td>
+<td><p>1d4</p></td>
+<td><p>S</p></td>
+<td><p>1</p></td>
+<td><p>Str</p></td>
+<td><p>5</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>2</p></td>
+<td><p>8</p></td>
+</tr>
+<tr class="row-odd"><td><p>War pick</p></td>
+<td><p>Axe</p></td>
+<td><p>1d6</p></td>
+<td><p>P</p></td>
+<td><p>1</p></td>
+<td><p>Str</p></td>
+<td><p>5</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>3</p></td>
+<td><p>10</p></td>
+</tr>
+<tr class="row-even"><td><p>Battleaxe</p></td>
+<td><p>Axe</p></td>
+<td><p>1d10/2d6</p></td>
+<td><p>S</p></td>
+<td><p>1+</p></td>
+<td><p>Str</p></td>
+<td><p>5</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>4</p></td>
+<td><p>10</p></td>
+</tr>
+<tr class="row-odd"><td><p>GreatAxe</p></td>
+<td><p>Axe</p></td>
+<td><p>2d8</p></td>
+<td><p>S</p></td>
+<td><p>2</p></td>
+<td><p>Str</p></td>
+<td><p>5</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>6</p></td>
+<td><p>12</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Dagger</p></td>
+<td><p>Light blade</p></td>
+<td><p>1d4</p></td>
+<td><p>P/S</p></td>
+<td><p>1</p></td>
+<td><p>Str/Dex</p></td>
+<td><p>5</p></td>
+<td><p>60</p></td>
+<td><p>10</p></td>
+<td><p>1</p></td>
+<td><p>5</p></td>
+</tr>
+<tr class="row-even"><td><p>Shuriken</p></td>
+<td><p>Light blade</p></td>
+<td><p>1d4</p></td>
+<td><p>P</p></td>
+<td><p>1</p></td>
+<td><p>Str/Dex</p></td>
+<td><p>-</p></td>
+<td><p>60</p></td>
+<td><p>20</p></td>
+<td><p>0.2</p></td>
+<td><p>3</p></td>
+</tr>
+<tr class="row-odd"><td><p>Short Sword</p></td>
+<td><p>Light blade</p></td>
+<td><p>1d6</p></td>
+<td><p>P/S</p></td>
+<td><p>1</p></td>
+<td><p>Str</p></td>
+<td><p>5</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>2</p></td>
+<td><p>8</p></td>
+</tr>
+<tr class="row-even"><td><p>Small Sword</p></td>
+<td><p>Light blade</p></td>
+<td><p>1d6</p></td>
+<td><p>P</p></td>
+<td><p>1</p></td>
+<td><p>Dex</p></td>
+<td><p>5</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>1</p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="row-odd"><td><p>Scimitar</p></td>
+<td><p>Light blade</p></td>
+<td><p>1d8</p></td>
+<td><p>S</p></td>
+<td><p>1</p></td>
+<td><p>Str/Dex</p></td>
+<td><p>5</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>2</p></td>
+<td><p>5</p></td>
+</tr>
+<tr class="row-even"><td><p>Rapier</p></td>
+<td><p>Heavy blade</p></td>
+<td><p>1d10</p></td>
+<td><p>P/S</p></td>
+<td><p>1</p></td>
+<td><p>Str/Dex</p></td>
+<td><p>5</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>3</p></td>
+<td><p>8</p></td>
+</tr>
+<tr class="row-odd"><td><p>Falchion</p></td>
+<td><p>Heavy blade</p></td>
+<td><p>1d8/1d12</p></td>
+<td><p>S</p></td>
+<td><p>1+</p></td>
+<td><p>Str</p></td>
+<td><p>5</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>3</p></td>
+<td><p>10</p></td>
+</tr>
+<tr class="row-even"><td><p>Longsword</p></td>
+<td><p>Heavy blade</p></td>
+<td><p>1d8/1d12</p></td>
+<td><p>S/P</p></td>
+<td><p>1+</p></td>
+<td><p>Str</p></td>
+<td><p>5</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>4</p></td>
+<td><p>10</p></td>
+</tr>
+<tr class="row-odd"><td><p>Greatsword</p></td>
+<td><p>Heavy blade</p></td>
+<td><p>2d6</p></td>
+<td><p>S/P/B</p></td>
+<td><p>2</p></td>
+<td><p>Str</p></td>
+<td><p>5</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>6</p></td>
+<td><p>12</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Weapon</p></td>
+<td><p>Proficiency</p></td>
+<td><p>Damage dice</p></td>
+<td><p>Type</p></td>
+<td><p>Hands</p></td>
+<td><p>Governed by</p></td>
+<td><p>Reach (ft)</p></td>
+<td><p>Range (ft)</p></td>
+<td><p>Increment (ft)</p></td>
+<td><p>Weight (lb)</p></td>
+<td><p>Durability</p></td>
+</tr>
+<tr class="row-even"><td><p>Club</p></td>
+<td><p>Percussive</p></td>
+<td><p>1d4</p></td>
+<td><p>B</p></td>
+<td><p>1</p></td>
+<td><p>Str</p></td>
+<td><p>5</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>2</p></td>
+<td><p>6</p></td>
+</tr>
+<tr class="row-odd"><td><p>Greatclub</p></td>
+<td><p>Percussive</p></td>
+<td><p>1d10</p></td>
+<td><p>B</p></td>
+<td><p>2</p></td>
+<td><p>Str</p></td>
+<td><p>5</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>6</p></td>
+<td><p>8</p></td>
+</tr>
+<tr class="row-even"><td><p>Mace</p></td>
+<td><p>Percussive</p></td>
+<td><p>1d8</p></td>
+<td><p>B</p></td>
+<td><p>1</p></td>
+<td><p>Str</p></td>
+<td><p>5</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>3</p></td>
+<td><p>12</p></td>
+</tr>
+<tr class="row-odd"><td><p>Morning Star</p></td>
+<td><p>Percussive</p></td>
+<td><p>1d8</p></td>
+<td><p>B/P</p></td>
+<td><p>1</p></td>
+<td><p>Str</p></td>
+<td><p>5</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>3</p></td>
+<td><p>10</p></td>
+</tr>
+<tr class="row-even"><td><p>Flail</p></td>
+<td><p>Percussive</p></td>
+<td><p>1d8</p></td>
+<td><p>B/P</p></td>
+<td><p>1</p></td>
+<td><p>Str</p></td>
+<td><p>5</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>4</p></td>
+<td><p>8</p></td>
+</tr>
+<tr class="row-odd"><td><p>War hammer</p></td>
+<td><p>Percussive</p></td>
+<td><p>1d8/1d12</p></td>
+<td><p>B/P</p></td>
+<td><p>1+</p></td>
+<td><p>Str</p></td>
+<td><p>5</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>3</p></td>
+<td><p>10</p></td>
+</tr>
+<tr class="row-even"><td><p>Maul</p></td>
+<td><p>Percussive</p></td>
+<td><p>2d6</p></td>
+<td><p>B/P</p></td>
+<td><p>2</p></td>
+<td><p>Str</p></td>
+<td><p>5</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>8</p></td>
+<td><p>14</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Glaive</p></td>
+<td><p>Pole-arm</p></td>
+<td><p>1d12</p></td>
+<td><p>S</p></td>
+<td><p>2</p></td>
+<td><p>Str</p></td>
+<td><p>10</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>4</p></td>
+<td><p>6</p></td>
+</tr>
+<tr class="row-odd"><td><p>Halberd</p></td>
+<td><p>Pole-arm</p></td>
+<td><p>1d10</p></td>
+<td><p>S/P</p></td>
+<td><p>2</p></td>
+<td><p>Str</p></td>
+<td><p>10</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>5</p></td>
+<td><p>8</p></td>
+</tr>
+<tr class="row-even"><td><p>Venetian Hammer</p></td>
+<td><p>Pole-arm</p></td>
+<td><p>1d10</p></td>
+<td><p>B/P</p></td>
+<td><p>2</p></td>
+<td><p>Str</p></td>
+<td><p>10</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>5</p></td>
+<td><p>8</p></td>
+</tr>
+<tr class="row-odd"><td><p>Long axe</p></td>
+<td><p>Axe</p></td>
+<td><p>2d8</p></td>
+<td><p>S</p></td>
+<td><p>2</p></td>
+<td><p>Str</p></td>
+<td><p>10</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>8</p></td>
+<td><p>12</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Short Spear</p></td>
+<td><p>Spear</p></td>
+<td><p>1d6/1d10</p></td>
+<td><p>P/B</p></td>
+<td><p>1+</p></td>
+<td><p>Str/Dex</p></td>
+<td><p>5</p></td>
+<td><p>60</p></td>
+<td><p>20</p></td>
+<td><p>2</p></td>
+<td><p>5</p></td>
+</tr>
+<tr class="row-even"><td><p>Spear</p></td>
+<td><p>Spear</p></td>
+<td><p>1d8/1d12</p></td>
+<td><p>P</p></td>
+<td><p>1+</p></td>
+<td><p>Str</p></td>
+<td><p>10</p></td>
+<td><p>60</p></td>
+<td><p>20</p></td>
+<td><p>4</p></td>
+<td><p>6</p></td>
+</tr>
+<tr class="row-odd"><td><p>Long Spear</p></td>
+<td><p>Spear</p></td>
+<td><p>1d12</p></td>
+<td><p>P</p></td>
+<td><p>2</p></td>
+<td><p>Str</p></td>
+<td><p>15</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>8</p></td>
+<td><p>10</p></td>
+</tr>
+<tr class="row-even"><td><p>Javelin</p></td>
+<td><p>Spear</p></td>
+<td><p>1d8</p></td>
+<td><p>P</p></td>
+<td><p>1</p></td>
+<td><p>Str</p></td>
+<td><p>-</p></td>
+<td><p>120</p></td>
+<td><p>40</p></td>
+<td><p>2</p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="row-odd"><td><p>War dart</p></td>
+<td><p>Spear</p></td>
+<td><p>1d4</p></td>
+<td><p>P</p></td>
+<td><p>1</p></td>
+<td><p>Str/Dex</p></td>
+<td><p>-</p></td>
+<td><p>240</p></td>
+<td><p>60</p></td>
+<td><p>0.5</p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Shortstaff</p></td>
+<td><p>Staff</p></td>
+<td><p>1d4/1d6</p></td>
+<td><p>B</p></td>
+<td><p>1+</p></td>
+<td><p>Str/Dex</p></td>
+<td><p>5</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>2</p></td>
+<td><p>5</p></td>
+</tr>
+<tr class="row-even"><td><p>Quarterstaff</p></td>
+<td><p>Staff</p></td>
+<td><p>1d10</p></td>
+<td><p>B</p></td>
+<td><p>2</p></td>
+<td><p>Str</p></td>
+<td><p>10</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>4</p></td>
+<td><p>6</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Buckler</p></td>
+<td><p>Shield</p></td>
+<td><p>1</p></td>
+<td><p>B/S</p></td>
+<td><p>1d4</p></td>
+<td><p>Str/Dex</p></td>
+<td><p>5</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>2</p></td>
+<td><p>5</p></td>
+</tr>
+<tr class="row-odd"><td><p>Light Shield</p></td>
+<td><p>Shield</p></td>
+<td><p>1d4</p></td>
+<td><p>B</p></td>
+<td><p>1</p></td>
+<td><p>Str</p></td>
+<td><p>5</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>6</p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="row-even"><td><p>Heavy Shield</p></td>
+<td><p>Shield</p></td>
+<td><p>1d6</p></td>
+<td><p>B</p></td>
+<td><p>1</p></td>
+<td><p>Str</p></td>
+<td><p>5</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>10</p></td>
+<td><p>6</p></td>
+</tr>
+<tr class="row-odd"><td><p>Tower Shield</p></td>
+<td><p>Shield</p></td>
+<td><p>1d6</p></td>
+<td><p>B</p></td>
+<td><p>1</p></td>
+<td><p>Str</p></td>
+<td><p>5</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>20</p></td>
+<td><p>8</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Weapon</p></td>
+<td><p>Proficiency</p></td>
+<td><p>Damage dice</p></td>
+<td><p>Type</p></td>
+<td><p>Hands</p></td>
+<td><p>Governed by</p></td>
+<td><p>Reach (ft)</p></td>
+<td><p>Range (ft)</p></td>
+<td><p>Increment (ft)</p></td>
+<td><p>Weight (lb)</p></td>
+<td><p>Durability</p></td>
+</tr>
+<tr class="row-even"><td><p>Sling</p></td>
+<td><p>Sling</p></td>
+<td><p>1d6</p></td>
+<td><p>B</p></td>
+<td><p>1</p></td>
+<td><p>Dex</p></td>
+<td><p>-</p></td>
+<td><p>1600</p></td>
+<td><p>80</p></td>
+<td><p>1</p></td>
+<td><p>2</p></td>
+</tr>
+<tr class="row-odd"><td><p>Shortbow</p></td>
+<td><p>Bow</p></td>
+<td><p>1d6</p></td>
+<td><p>P</p></td>
+<td><p>2</p></td>
+<td><p>Dex</p></td>
+<td><p>-</p></td>
+<td><p>600</p></td>
+<td><p>120</p></td>
+<td><p>1</p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="row-even"><td><p>Composite Bow</p></td>
+<td><p>Bow</p></td>
+<td><p>1d8</p></td>
+<td><p>P</p></td>
+<td><p>2</p></td>
+<td><p>Dex</p></td>
+<td><p>-</p></td>
+<td><p>1200</p></td>
+<td><p>240</p></td>
+<td><p>2</p></td>
+<td><p>3</p></td>
+</tr>
+<tr class="row-odd"><td><p>Longbow</p></td>
+<td><p>Bow</p></td>
+<td><p>1d10</p></td>
+<td><p>P</p></td>
+<td><p>2</p></td>
+<td><p>Dex</p></td>
+<td><p>-</p></td>
+<td><p>1200</p></td>
+<td><p>240</p></td>
+<td><p>3</p></td>
+<td><p>6</p></td>
+</tr>
+<tr class="row-even"><td><p>Greatbow</p></td>
+<td><p>Bow</p></td>
+<td><p>1d12</p></td>
+<td><p>P</p></td>
+<td><p>2</p></td>
+<td><p>Dex</p></td>
+<td><p>-</p></td>
+<td><p>1200</p></td>
+<td><p>240</p></td>
+<td><p>3</p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Hand Crossbow</p></td>
+<td><p>Mechanical Bow</p></td>
+<td><p>1d6</p></td>
+<td><p>P</p></td>
+<td><p>1</p></td>
+<td><p>Dex</p></td>
+<td><p>-</p></td>
+<td><p>360</p></td>
+<td><p>60</p></td>
+<td><p>1</p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="row-odd"><td><p>Crossbow</p></td>
+<td><p>Mechanical Bow</p></td>
+<td><p>1d10</p></td>
+<td><p>piercing</p></td>
+<td><p>2</p></td>
+<td><p>Dex</p></td>
+<td><p>-</p></td>
+<td><p>800</p></td>
+<td><p>160</p></td>
+<td><p>4</p></td>
+<td><p>6</p></td>
+</tr>
+<tr class="row-even"><td><p>Winch crossbow</p></td>
+<td><p>Mechanical Bow</p></td>
+<td><p>2d12</p></td>
+<td><p>piercing</p></td>
+<td><p>2</p></td>
+<td><p>Dex</p></td>
+<td><p>-</p></td>
+<td><p>1000</p></td>
+<td><p>200</p></td>
+<td><p>6</p></td>
+<td><p>8</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Short Blowgun</p></td>
+<td><p>Blowgun</p></td>
+<td><p>1</p></td>
+<td><p>P</p></td>
+<td><p>1</p></td>
+<td><p>Dex</p></td>
+<td><p>90</p></td>
+<td><p>30</p></td>
+<td><p>0.5</p></td>
+<td><p>3</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Blowgun</p></td>
+<td><p>Blowgun</p></td>
+<td><p>1d4</p></td>
+<td><p>P/B</p></td>
+<td><p>2</p></td>
+<td><p>Dex/Con</p></td>
+<td><p>240</p></td>
+<td><p>60</p></td>
+<td><p>1</p></td>
+<td><p>4</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Long Blowgun</p></td>
+<td><p>Blowgun</p></td>
+<td><p>1d6</p></td>
+<td><p>P/B</p></td>
+<td><p>2</p></td>
+<td><p>Dex/Con</p></td>
+<td><p>600</p></td>
+<td><p>200</p></td>
+<td><p>2</p></td>
+<td><p>5</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Pistol</p></td>
+<td><p>Firearm</p></td>
+<td><p>1d8</p></td>
+<td><p>P</p></td>
+<td><p>1</p></td>
+<td><p>Dex</p></td>
+<td><p>-</p></td>
+<td><p>120</p></td>
+<td><p>40</p></td>
+<td><p>1</p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="row-odd"><td><p>Musket</p></td>
+<td><p>Firearm</p></td>
+<td><p>2d6</p></td>
+<td><p>P</p></td>
+<td><p>2</p></td>
+<td><p>Dex</p></td>
+<td><p>-</p></td>
+<td><p>240</p></td>
+<td><p>120</p></td>
+<td><p>8</p></td>
+<td><p>6</p></td>
+</tr>
+<tr class="row-even"><td><p>Blunderbuss</p></td>
+<td><p>Firearm</p></td>
+<td><p>2d12</p></td>
+<td><p>P</p></td>
+<td><p>2</p></td>
+<td><p>Dex</p></td>
+<td><p>-</p></td>
+<td><p>120</p></td>
+<td><p>40</p></td>
+<td><p>6</p></td>
+<td><p>6</p></td>
+</tr>
+<tr class="row-odd"><td><p>Gun-blade</p></td>
+<td><p>Firearm</p></td>
+<td><p>1d8</p></td>
+<td><p>P/S</p></td>
+<td><p>1</p></td>
+<td><p>Dex</p></td>
+<td><p>5</p></td>
+<td><p>120</p></td>
+<td><p>20</p></td>
+<td><p>2</p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Ballista (bolt)</p></td>
+<td><p>Mechanical Bow</p></td>
+<td><p>4d12</p></td>
+<td><p>P</p></td>
+<td><p>2</p></td>
+<td><p>Dex</p></td>
+<td><p>-</p></td>
+<td><p>1800</p></td>
+<td><p>300</p></td>
+<td><p>400</p></td>
+<td><p>20</p></td>
+</tr>
+<tr class="row-even"><td><p>Ballista (bullet)</p></td>
+<td><p>Mechanical Bow</p></td>
+<td><p>4d12</p></td>
+<td><p>B</p></td>
+<td><p>2</p></td>
+<td><p>Dex</p></td>
+<td><p>-</p></td>
+<td><p>900</p></td>
+<td><p>120</p></td>
+<td><p>400</p></td>
+<td><p>20</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<hr class="docutils" />
+<section id="unarmed-combat">
+<h3>Unarmed Combat<a class="headerlink" href="#unarmed-combat" title="Link to this heading">¶</a></h3>
+<p>Unarmed combat is the use of one’s own body to effectively neutralise targets. Contrary to what one might think, unarmed combat techniques are effective on and off the battle field. The heavy armour of a knight can be penetrated so much more easily once its wearer is restrained, to give an example.</p>
+<p>Attacking with techniques from this category without proficiency provokes attacks of opportunity from trained combatants. Proficiency with an unarmed combat technique allows the use of that technique with no penalty even when wielding weapons not specifically designed for it or when wielding no weapon at all.</p>
+<p><strong>Disarming</strong> is the act of liberating a foe of their weapon. Also grants proficiency with “sunder”. Ranged weapons cannot be used for disarming or sundering. It follows the rules set out in “Basic Martial Manoeuvres”.</p>
+<p><strong>Grapple</strong> is the act of restricting the movement of your foe using your body or held items. It covers the “grapple” and “restrain” manoeuvres and follows the <a class="reference external" href="04-combat.html#basic-martial-manoeuvres">“Basic Martial Manoeuvres”</a> rules.</p>
+<p><strong>Strikes</strong> are the use of appendages or protruding body parts to deal percussive or shear damage to a target.</p>
+<p><strong>Throw</strong> is the act of moving your foe around the battlefield or throwing them down. It follows the “Basic Martial Manoeuvres” rules. It also gives proficiency with “shove” and “trip” manoeuvres.</p>
+<p><strong>Interception</strong> is the art of intercepting a target’s attacks as effectively as possible at the lowest cost to yourself. It is used when you need to defend one or more squishy allies from harm, or when you are trying to get your character killed.</p>
+</section>
+<hr class="docutils" />
+<section id="light-blades">
+<h3>Light blades<a class="headerlink" href="#light-blades" title="Link to this heading">¶</a></h3>
+<p>This is something of a misnomer. Light blades refers to smaller one handed bladed weapons that weight no more than 2lb. It also refers to certain thrown weapons whose use is similar to that of bladed weapons. Light blades are typically easily hidden. All light blades can cause “bleeding”. Not all light blades have the light properties. All blades give a +1 HiT (shield[weapon]) to proficient wielders who are not “disabled”. Wielding two blades gives a +2 total “shield[weapon]” bonus to HiT if the wielder also has <a class="reference external" href="06-abilities.html#offhand-fighting-i-iv">“Offhand fighting II”</a>.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Weapon</p></th>
+<th class="head"><p>Special Properties</p></th>
+<th class="head"><p>Manoeuvres</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Daggers</p></td>
+<td><p>bleeding, light</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Scimitars</p></td>
+<td><p>bleeding,cripple</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Short Swords</p></td>
+<td><p>bleeding</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Small Swords</p></td>
+<td><p>light</p></td>
+<td><p>disarm</p></td>
+</tr>
+<tr class="row-even"><td><p>Shuriken</p></td>
+<td><p>bleeding,light</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Daggers</strong> include kitchen knives, hunting knives, daggers and similar blades. They are often somewhat throwable. Daggers have the “light” property.</p>
+<p><strong>Scimitars</strong> are curved blades designed for cutting and chopping. Scimitars, sabres, kodachi, kukri and machetes all fall into this category. They can cause the “crippled” condition.</p>
+<p><strong>Short Swords</strong> are short straight blades designed primarily for stabbing. They are simple, sturdy blades. The gladius is a typical short sword.</p>
+<p><strong>Small Swords</strong> are light, elegant blades designed specifically for piercing. They are typically used by ranking members of high and low society for tidily settling scores and are not meant for heavy combat. They have the “light” and “disarm” properties. As an exception, small swords do NOT cause “bleeding” (as in they cause bleeding, but not “bleeding”). <strong>NB</strong>: The “rapier” from DnD 3.5 onwards is in fact a small sword.</p>
+<p><strong>Shuriken</strong> refers to throwing needles, throwing knives and throwing stars. These are easily concealed blades used for surprise attacks and as a distraction. They have the “light” property.</p>
+</section>
+<hr class="docutils" />
+<section id="heavy-blades">
+<h3>Heavy blades<a class="headerlink" href="#heavy-blades" title="Link to this heading">¶</a></h3>
+<p>These are the legendary blades of legend, and the symbol of a warrior. Heavy blades are fearsome bladed weapons. All items in this category except falchions are “long”. All heavy blades cause “bleeding”. All blades give a +1 “shield[weapon]” bonus to HiT to proficient wielders who are not “disabled”. Wielding two blades gives a +2 total “shield[weapon]” bonus to HiT if the wielder also has <a class="reference external" href="06-abilities.html#offhand-fighting-i-iv">“Offhand fighting II”</a>.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Weapon</p></th>
+<th class="head"><p>Special Properties</p></th>
+<th class="head"><p>Manoeuvres</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Rapier</p></td>
+<td><p>long, bleeding, special</p></td>
+<td><p>disarm</p></td>
+</tr>
+<tr class="row-odd"><td><p>Falchion</p></td>
+<td><p>bleeding, cripple</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Longsword</p></td>
+<td><p>long, bleeding, cripple</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Greatsword</p></td>
+<td><p>long, bleeding, heavy, cripple</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Rapiers</strong> are long blades designed for keeping enemies at a distance and inflicting deep, piercing wounds. Rapiers have the “disarm” property. The attack made by a rapier can be governed by either DEX or STR. However, it can ONLY be governed by DEX if the wielder has a [STR] of +1 or higher.</p>
+<p><strong>Falchions</strong> are long, curved blades with a single edge. Katanas and cutlasses are also considered falchions here. Falchions can cause “cripple”.</p>
+<p><strong>Longswords</strong> are the most iconic of swords. They represent longswords, broadswords, hand-and-a-half swords and greatswords(!!). Longswords can cause “cripple”.</p>
+<p><strong>Greatswords</strong> represent claymores and zweihanders rather than classical “greatswords”. They can be used to cut with the blade and bludgeon with the weighty pommel. These are “heavy” weapons which can, and will cause “cripple”.</p>
+</section>
+<hr class="docutils" />
+<section id="axes">
+<h3>Axes<a class="headerlink" href="#axes" title="Link to this heading">¶</a></h3>
+<p>A hefted weapon with a sharp, protruding head that is used for chopping. While also a tool used for carpentry and fortification, most axes specialised for combat are not suited for any purpose other that chopping foes and wood. All axes have the “grapple” and “cripple” property. All axes, except the war pick ignore the damage reduction of <a class="reference external" href="03-movement-exploration.html#object-hit-point-durability-table">wooden objects</a>.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Weapon</p></th>
+<th class="head"><p>Special Properties</p></th>
+<th class="head"><p>Manoeuvres</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Hand axe</p></td>
+<td><p>cripple, bleeding, “Tool:Carpentry, fortification, forestry”</p></td>
+<td><p>grapple</p></td>
+</tr>
+<tr class="row-odd"><td><p>War shovel</p></td>
+<td><p>cripple, bleeding, “Tool: Fortification, agriculture”</p></td>
+<td><p>grapple</p></td>
+</tr>
+<tr class="row-even"><td><p>War pick</p></td>
+<td><p>cripple</p></td>
+<td><p>grapple, sunder</p></td>
+</tr>
+<tr class="row-odd"><td><p>War axe</p></td>
+<td><p>cripple, bleeding, “Tool: Forestry”</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Greataxe</p></td>
+<td><p>cripple, bleeding, heavy</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Hand Axe</strong>: Any well balanced, one handed axe with a sturdy construction is considered a hand axe. Cavalry axes are usually also considered hand axes. Hand axes have of the “bleeding”, “Tool: Carpentry”, “Tool: Fortification” and “Tool: Forestry” properties.</p>
+<p><strong>War shovel</strong>: Shovels can be a deadly weapon. Noticing this, many armies and rebel groups keep a stock of well balanced shovels. War shovels have the “bleeding”, “Tool: fortification” and “Tool: agriculture”. <strong>NB:</strong> This weapon is most appropriate for late renaissance pre-WWI settings.</p>
+<p><strong>War pick</strong>: Hefted picks, including kamas and european war-picks can be considered “war picks” for the sake of proficiency. War picks have the “sunder” property, and “sunder” vs armour is at advantage when using a war pick.</p>
+<p><strong>War axe</strong>: Axes specifically made for combat. This generally refers to large, single headed axes, but on occasion can include two headed axes. War axes have the “bleeding” and “Tool: Forestry” property.</p>
+<p><strong>Greataxe</strong>: This category contains any large axes, including shorter Danish axes that require two hands to use. It has the “bleeding” and “heavy” properties.</p>
+</section>
+<hr class="docutils" />
+<section id="percussive">
+<h3>Percussive<a class="headerlink" href="#percussive" title="Link to this heading">¶</a></h3>
+<p>Percussive weapons like clubs, maces and hammers are in their essence a weight at the end of a handle and rely on blunt force trauma (percussive). All percussive weapons can cause “cripple”.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Weapon</p></th>
+<th class="head"><p>Special Properties</p></th>
+<th class="head"><p>Manoeuvres</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Clubs</p></td>
+<td><p>cripple</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Greatclub</p></td>
+<td><p>cripple, heavy, prone</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Mace</p></td>
+<td><p>cripple</p></td>
+<td><p>sunder</p></td>
+</tr>
+<tr class="row-odd"><td><p>Morning stars</p></td>
+<td><p>cripple, bleeding</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Flail</p></td>
+<td><p>cripple, special</p></td>
+<td><p>grapple, trip</p></td>
+</tr>
+<tr class="row-odd"><td><p>War hammers</p></td>
+<td><p>cripple</p></td>
+<td><p>sunder</p></td>
+</tr>
+<tr class="row-even"><td><p>Mauls</p></td>
+<td><p>cripple, heavy, prone, special</p></td>
+<td><p>sunder</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Clubs</strong> can include police batons, bats, and heavy branches and have been made from just about any material. As long as humanoids have existed they have used clubs. A basic club is easy to make and use. Clubs do NOT require proficiency to use.</p>
+<p><strong>Greatclub</strong>: A big club that needs two hands to wield. A greatclub is easy to make and use, however it is heavy. Greatclubs are “heavy” weapons that do NOT require proficiency to use. However, if a greatclub user does not have at least +2 to Str, it takes -4 to attacks. Greatclub can cause “prone”.</p>
+<p><strong>Mace</strong>: A mace consists of a heavy, worked head of stone or metal on a wooden shaft. Often the head is flanged to make it more effective at breaking both objects and bone.</p>
+<p><strong>Flail</strong>: A flail consist of a wooden haft joined to one or more metal heads via chains. Essentially this is a “ball and chain on a stick”. The chain linking the haft and head not only makes the flail a difficult to read weapon, but also makes it useful for grappling.</p>
+<p><strong>Morning stars</strong> are essentially spiked maces. This allows it to also deal piercing damage. Morning star can cause can cause “bleeding”.</p>
+<p><strong>War hammers</strong> are a family of mace-like weapons with an asymmetrical head: One end is blunt, the other end is sharp, for piercing armour. War hammers have the “sunder” property, and “sunder” vs armour and unattended items is at advantage when using a war hammer. <strong>NB</strong> long hefted war hammers in the style of venetian war hammers are considered pole-arms for for the sake of proficiency.</p>
+<p><strong>Mauls</strong>: A particularly big and heavy war hammer-like weapons that requires two hands to use is considered a maul here. Mauls are always “heavy” and can cause the “cripple” and “prone” condition. In addition, the extra momentum that a maul can impart to an attack means that it:</p>
+<ul class="simple">
+<li><p>Deals an extra die of damage when used with the “sunder” manoeuvre. For example, a medium sized maul, when used to sunder a shield, despite dealing 2d6 damage, deals 3 dice of damage instead of 2.</p></li>
+<li><p>When used attack inanimate object (doors, windows, walls, manacles, etc), ignores one point of damage reduction.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="spears">
+<h3>Spears<a class="headerlink" href="#spears" title="Link to this heading">¶</a></h3>
+<p>The venerable spear is the unsung defender of humanoids throughout the realms and ages. Any weapon with a long heft ending in a simple head with a sharp point is considered a spear. Longer spears have the “unwieldy” property and warriors who use spears as a primary weapon often carry a light weapon in reserve. All spears have the “bleeding” property.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Weapon</p></th>
+<th class="head"><p>Special Properties</p></th>
+<th class="head"><p>Manoeuvres</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Short spear</p></td>
+<td><p>bleeding, long</p></td>
+<td><p>throw, disarm</p></td>
+</tr>
+<tr class="row-odd"><td><p>Spear</p></td>
+<td><p>bleeding, unwieldy,</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Long spear</p></td>
+<td><p>bleeding, unwieldy, heavy</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Javelin</p></td>
+<td><p>bleeding, unwieldy,</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>War dart</p></td>
+<td><p>bleeding, light</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Short spear</strong>: This is any spear shorter than 6ft. It can be thrown up to 60ft in 20ft increments. It does NOT have the unwieldy property.</p>
+<p><strong>Spear</strong>: This refers to spears between 6-10ft. It can be thrown up to to 60ft in 20ft increments.</p>
+<p><strong>Long spears</strong>: This refers to obscenely long spears. Pikes are included in this category. Long spears cannot be used against targets within 5ft of the wielder.</p>
+<p><strong>Javelin:</strong> This is a short, lighter, spear-like throwing weapon designed specifically for throwing. It includes weapons like the pilum.</p>
+<p><strong>War dart:</strong> A smaller javelin-like throwing weapon, typically around 2ft long. This includes weapons like the plumbata.</p>
+</section>
+<hr class="docutils" />
+<section id="pole-arms">
+<h3>Pole-arms<a class="headerlink" href="#pole-arms" title="Link to this heading">¶</a></h3>
+<p>Here pole-arm refers to long hefted weapons with something other than a simple sharp point at the end. Historically these were mostly used as weapons of war, although some had other uses. All pole-arms have the “unwieldy” property.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Weapon</p></th>
+<th class="head"><p>Special Properties</p></th>
+<th class="head"><p>Manoeuvres</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Glaive</p></td>
+<td><p>unwieldy, bleeding, cripple</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Halberd</p></td>
+<td><p>unwieldy, heavy, bleeding, cripple</p></td>
+<td><p>grapple, sunder</p></td>
+</tr>
+<tr class="row-even"><td><p>Venetian Hammer</p></td>
+<td><p>unwieldy, heavy</p></td>
+<td><p>grapple, sunder</p></td>
+</tr>
+<tr class="row-odd"><td><p>Long axe</p></td>
+<td><p>unwieldy, heavy, cripple, bleeding</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Glaive</strong>: A blade of at least one foot at the end of a long haft. This category includes the glaive, palma, naginata, bardiche and other weapons.</p>
+<p><strong>Halberd</strong>: This refers to a family of weapons with a complex head that often make it suitable for penetrating armour or for other nasty manoeuvres.</p>
+<p><strong>Venetian Hammer</strong>: Similar to a halberd, but with a hammer instead of an axe. “Sunder” vs armour and unattended items is at advantage when using this weapon.</p>
+<p><strong>Long axe</strong>: This is a category that refers to greataxes with a haft of 5ft or longer, certain bardiche-like weapons and simple pole-axes. Due to the extra weight of the weapon, attacking foes within 5ft of you is at disadvantage.</p>
+</section>
+<hr class="docutils" />
+<section id="staves">
+<h3>Staves<a class="headerlink" href="#staves" title="Link to this heading">¶</a></h3>
+<p>Staves are round poles with a length between 4-8ft. Staves are percussive weapons that can also be used for support when “crippled” or on difficult terrain. They are particularly useful for non-lethal combat. Staves can cause “cripple” and “prone”. Staves wielded with two hands grant a +1 bonus to HiT (shield[weapon]) to the wielder.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Weapon</p></th>
+<th class="head"><p>Special Properties</p></th>
+<th class="head"><p>Manoeuvres</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Quarterstaff</p></td>
+<td><p>reach, cripple, prone</p></td>
+<td><p>throw</p></td>
+</tr>
+<tr class="row-odd"><td><p>Shortstaff</p></td>
+<td><p>long, cripple, prone</p></td>
+<td><p>throw, grapple, disarm</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Quarterstaff</strong>: This is a two handed weapon between 6-8ft long.</p>
+<p><strong>Shortstaff</strong>: This is a short staff between 4-6ft long. The shortened length allows a great deal of manoeuvres to be executed with this weapon.</p>
+</section>
+<hr class="docutils" />
+<section id="shields-as-weapons">
+<h3>Shields (as weapons)<a class="headerlink" href="#shields-as-weapons" title="Link to this heading">¶</a></h3>
+<p><a class="reference external" href="#shields">Shields</a> are not primarily weapons, however a proficient user can use them effectively as weapons. In doing so a combatant forfeits any bonus to HiT that the shield grants. Bucklers, small shields and large shields can be used in this way.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Weapon</p></th>
+<th class="head"><p>Special Properties</p></th>
+<th class="head"><p>Manoeuvres</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Buckler</p></td>
+<td><p>-</p></td>
+<td><p>disarm, interception</p></td>
+</tr>
+<tr class="row-odd"><td><p>Light Shield</p></td>
+<td><p>prone</p></td>
+<td><p>shove, interception</p></td>
+</tr>
+<tr class="row-even"><td><p>Heavy Shield</p></td>
+<td><p>prone</p></td>
+<td><p>shove, interception</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<hr class="docutils" />
+<section id="slings">
+<h3>Slings<a class="headerlink" href="#slings" title="Link to this heading">¶</a></h3>
+<p>Slings are simple in construction and difficult in exploitation. They make use centripetal force. A sling is essentially a length of sinew with a “nest” for the projectile (usually a round stone or metal bullet) at the center. Despite the range, slings are difficult to aim and therefore have a low range increment. Slings can also be used to shoot stones, in absence of proper ammunition, but the attack is at disadvantage. Slings have the “light” and “unwieldy” properties. Slings cannot be used effectively from prone.</p>
+</section>
+<hr class="docutils" />
+<section id="bows">
+<h3>Bows<a class="headerlink" href="#bows" title="Link to this heading">¶</a></h3>
+<p>Bows are ranged weapon that consist of a length of supple material (usually, wood or a composite of wood, horn and sinew), bent into a curve by a string connected to its two extremities. They are used for firing arrows over a considerable range. This is one of the most common and effective ranged weapons used in most realms. Bows are quite delicate weapons and easily ruined by poor handling or attacks aimed to sunder them. All bows cause “bleeding”. Bows have the “delicate” property. Bows cannot be used effectively from “prone”.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Weapon</p></th>
+<th class="head"><p>Special Properties</p></th>
+<th class="head"><p>Manoeuvres</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Shortbow</p></td>
+<td><p>bleeding, delicate</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Composite Bow</p></td>
+<td><p>bleeding, delicate</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Longbow</p></td>
+<td><p>bleeding, delicate, unwieldy</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Greatbow</p></td>
+<td><p>bleeding, delicate, unwieldy, mounted</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Shortbows</strong> represent actual shortbows, as well as simple, low draw weight bows that do not fall into other categories. Shortbow attacks can cause “bleeding”. Typically they are used for hunting and banditry.</p>
+<p><strong>Composite bows</strong> represent bows made of several layers of different materials and constructed in a special curved shape to maximise the power of the bow for its size. They are typically used by mounted archers and have the “mounted” property.</p>
+<p><strong>Longbows</strong> are large bows made to shoot heavy arrows over a large distance. Their construction is quite simple and they are a comparatively inexpensive weapon. Longbows have the “unwieldy” property. Longbows require great strength to use properly. For every point of [STR] below +2 that the character has, it has a -1 penalty for attacks with longbows and the range it can use the weapon at decreases by one range increment. A character with at least +2 to [STR] adds an additional [STR]/2 to the damage dealt (<em>rounded down</em> to the nearest whole number).</p>
+<p><strong>Greatbows</strong> are a large, asymmetric composite bow made for maximum power while still allowing use on horseback. Greatbows have the “unwieldy” and “mounted” property. Greatbows require great strength to use properly. For every point of [STR] below +2 that the character has, it has a -1 penalty for attacks with greatbows and the range it can use the weapon at decreases by one range increment. Unlike many other unwieldy weapons, a greatbow CANNOT physically be used in spaces where the ceiling height is less than 8ft. A character with at least +2 to [STR] adds an additional [STR]/2 to the damage dealt (<em>rounded down</em> to the nearest whole number).</p>
+</section>
+<hr class="docutils" />
+<section id="mechanical-bows">
+<h3>Mechanical bows<a class="headerlink" href="#mechanical-bows" title="Link to this heading">¶</a></h3>
+<p>Mechanical bows are bow-like weapons where the draw is performed by a mechanism, usually a lever or winch, and a short arrow (bolt) is released by the push of a trigger. They are a choice weapon of armies, since they require less training to master than normal bows, but suffer from a low firing rate. Therefore explorers and adventurers who use them tend to keep a couple of crossbows and a squire for the task of reloading them. All crossbows have the “bleeding” property.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Weapon</p></th>
+<th class="head"><p>Special Properties</p></th>
+<th class="head"><p>Manoeuvres</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Hand Crossbow</p></td>
+<td><p>bleeding</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Crossbow</p></td>
+<td><p>bleeding</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Winch crossbow</p></td>
+<td><p>bleeding</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Hand Crossbow:</strong>: This refers to small, light crossbows that can be wielded in one hand. It is a “secondary action” to reload a hand crossbow. If the wielder has a free appendage, they can reload it as part of the attack (essentially if the hand crossbow is wielded with two hands).</p>
+<p><strong>Crossbow</strong>: This refers to a lever-drawn crossbow. Reloading this weapon is a “secondary action”. In practice this means that one may make only one attack per turn with this weapon.</p>
+<p><strong>Winch Crossbow</strong>: This refers to larger crossbows drawn by a winch. It fires a heavy bolt and has terrific penetrating power at close range. Reloading it is a “full round action” (you want a squire or hireling for this!). In practice this means that a solitary wielder of one of these weapons can only make one attack with it every two turns. <strong>NB:</strong> Light winch crossbows are not included because no one in their right mind who can afford a better one would use these.</p>
+<p><strong>Optional rule: Repeater Crossbow</strong>: Any crossbow that is not a winch crossbow can be fitted a magazine that holds 5 bolts. This means that it only needs to be reloaded every 5 rounds. However, these mechanisms are expensive, complex and prone to jamming on snake eyes. They also add 1-3lb to the weight of a crossbow. Most importantly they are not appropriate to all settings.</p>
+</section>
+<hr class="docutils" />
+<section id="blowguns">
+<h3>Blowguns<a class="headerlink" href="#blowguns" title="Link to this heading">¶</a></h3>
+<p>Blowguns are essentially tubes used to shoot darts, propelled by air pressure, which is in turn produced by the wielder’s breath. This weapon is generally used for hunting small game, or, in the case of shorter blowguns, as a weapon of subterfuge. Since the darts do little damage by themselves, they are usually treated with poisons. Like crossbows and firearms, blowguns can be used from “prone” with no penalty.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Weapon</p></th>
+<th class="head"><p>Special Properties</p></th>
+<th class="head"><p>Manoeuvres</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Short Blowgun</p></td>
+<td><p>Light</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Blowgun</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Long Blowgun</p></td>
+<td><p>Unwieldy</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Short Blowgun</strong>: This is a blanket category for blowguns between 1-2ft in length. They are easily hidden or disguised as wind instruments, and are a favourite of assassins who work in environments where more obvious weapons or magic are problematic. The downside is the incredibly short range.</p>
+<p><strong>Blowgun</strong>: Covers blowguns between 2-4ft in length. This kind of blowgun is used mainly by hunters, but can also be effective in combat.</p>
+<p><strong>Long Blowgun</strong>: This covers blowguns longer than 4ft. Their length makes them unwieldy, but also grants them great precision and range.</p>
+</section>
+<hr class="docutils" />
+<section id="firearms">
+<h3>Firearms<a class="headerlink" href="#firearms" title="Link to this heading">¶</a></h3>
+<p>Weapons with a closed or open barrel that use the energy in explosive substances (or magic) to accelerate a projectile towards a target fall into this category. This kind of weapon is easy to wield and slow to reload. Firearms are favoured by armies due to the ease of training manpower in their use, but are not ideal for explorers and adventurers who must carry several of them in order to keep anything resembling an adequate rate of fire. Firearms have several exceptional properties:</p>
+<ul class="simple">
+<li><p>All firearms have the “loud”, “bleeding” and “delicate” properties.</p></li>
+<li><p>All firearms ignore “armour” component of HiT within the first range increment.</p></li>
+<li><p><strong>NB:</strong> these weapons are not appropriate for all fantasy settings.</p></li>
+</ul>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Weapon</p></th>
+<th class="head"><p>Special Properties</p></th>
+<th class="head"><p>Manoeuvres</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Pistol</p></td>
+<td><p>loud, bleeding, delicate</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Musket</p></td>
+<td><p>loud, bleeding, delicate</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Blunderbuss</p></td>
+<td><p>loud, bleeding, delicate</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Gun-blade</p></td>
+<td><p>loud, bleeding, delicate</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Pistol</strong>: This refers to flint lock pistols of all kind. It is a full round action to reload this weapon.</p>
+<p><strong>Musket</strong>: This refers to earlier long barrelled flint lock firearms with an emphasis on range. It takes a full round action to reload this weapon.</p>
+<p><strong>Blunderbuss</strong>: This refers to long barrelled flint lock firearms with an emphasis on damage rather than distance. Yuan hand cannons can also be considered to fall into this category. It takes a full round action to reload this weapon.</p>
+<p><strong>Gun-blade</strong>: This is a pistol with a short blade, thus allowing this firearm to be used for both melee and ranged attacks. Unfortunately this causes the weapon to be incredibly unbalanced. As such all melee attacks with non-magical gun-blades are made at disadvantage. Gun-blades with at least a level-II enchantment do not suffer from this drawback.</p>
+</section>
+<hr class="docutils" />
+<section id="siege">
+<h3>Siege<a class="headerlink" href="#siege" title="Link to this heading">¶</a></h3>
+<p>These are heavy weapons that are designed for destroying fortifications, large monsters and concentration of enemy soldiers. Typically these are large mechanical devices that are too heavy and unwieldy to be transported by a member of the race that made it and must be transported by other means.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Weapon</p></th>
+<th class="head"><p>Special Properties</p></th>
+<th class="head"><p>Manoeuvres</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Ballista (bolt)</p></td>
+<td><p>bleeding, delicate</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Ballista (bullet)</p></td>
+<td><p>bleeding, delicate, Special</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Ballista</strong>: A tension device, similar to a very large crossbow, that can be used to launch javelin-like bolts, which weight 6lb each, or stones/bullets weighting 60lb, over great distances with a high measure of precision. It requires 2 full-round actions to load a ballista, an additional move action to aim, and a main action to fire. <strong>Aiming and firing cannot be done on the same round as loading</strong>. Ballistas, when firing bullets, ignore the <a class="reference external" href="03-movement-exploration.html#object-hit-point-durability-table">damage reduction of inanimate objects</a>.</p>
+<p>A ballista typically weights about 400lb, and requires a space of 10ft x 10ft to operate.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="armour">
+<h2>Armour<a class="headerlink" href="#armour" title="Link to this heading">¶</a></h2>
+<p>Armour covers worn equipment that offers passive protection against targeted attacks when correctly equipped. Usually this is because armour dissipates the force of the attack, making it less lethal, or completely negating it. Shields offer protection in a similar manner, although they are generally strapped to a character’s appendage, meaning that active use of the appendage is required to make use of a shield.  Weight and size of shields scales as with all equipment sizes (see <a class="reference external" href="02-base-rules.html#size-rules-table">“Base Rules: Size Rules”</a>).</p>
+<section id="armour-and-its-relationship-with-hit">
+<h3>Armour and its relationship with [HiT]<a class="headerlink" href="#armour-and-its-relationship-with-hit" title="Link to this heading">¶</a></h3>
+<p>Targeted attacks are rolled against <a class="reference external" href="02-base-rules.html#hit-threshold-hit">“HiT”</a>. [HiT] represents how effective/powerful/precise a targeted attack has to be to harm the target.</p>
+<p>Wearing armour adds to the “armour” component of HiT from the “external armour” source (armour[external armour] - “external” since armour is worn outside of the body and not inside it). Wielding a shield or buckler adds to the “shield” component of HiT from the “shield” source (shield[shield]).</p>
+</section>
+<section id="armour-types">
+<h3>Armour types<a class="headerlink" href="#armour-types" title="Link to this heading">¶</a></h3>
+<p>Different armours exist, each with advantages and disadvantages. Each of the four categories require only a single proficiency to use. The following armours exist in the game (NB: Shields are not formally armour, but they are described here for simplicity):</p>
+<ul class="simple">
+<li><p><strong>Light armours</strong> (armour bonus)</p>
+<ul>
+<li><p>Leather Cuirass</p></li>
+<li><p>Chain Shirt</p></li>
+</ul>
+</li>
+<li><p><strong>Medium armours</strong> (armour bonus)</p>
+<ul>
+<li><p>Full Padded [1]</p></li>
+<li><p>Hide armour</p></li>
+<li><p>Full Leather [1]</p></li>
+<li><p>Brigandine</p></li>
+<li><p>Metal Cuirass</p></li>
+</ul>
+</li>
+<li><p><strong>Heavy Armour</strong> (armour bonus)</p>
+<ul>
+<li><p>Full Segmented mail</p></li>
+<li><p>Any Adamantine Armour</p></li>
+<li><p>Half Plate</p></li>
+<li><p>Full Plate</p></li>
+</ul>
+</li>
+<li><p><strong>Shields</strong> (shield bonus)</p>
+<ul>
+<li><p>Buckler</p></li>
+<li><p>Light/Round Shield</p></li>
+<li><p>Heavy/Kite Shield</p></li>
+<li><p>Tower Shield</p></li>
+</ul>
+</li>
+</ul>
+<ol class="arabic simple">
+<li><p><em>Full Padded and Leather armour can be used without penalty by characters proficient with “light armour”. However, they are still governed by “medium armour” rules in all other ways (eg, resting, fatigue, penalties, donning/doffing, etc).</em></p></li>
+</ol>
+</section>
+<section id="armour-proficiencies">
+<h3>Armour Proficiencies<a class="headerlink" href="#armour-proficiencies" title="Link to this heading">¶</a></h3>
+<p>Any entity whose body fits a suit of armour can wear the armour. As such it will get the normal benefit to the hit threshold.</p>
+<ul class="simple">
+<li><p>When an entity dons or doffs an armour it is not proficient with, it takes twice as long to don and doff the armour as normal.</p></li>
+<li><p>While an entity is wearing an armour it is not proficient with:</p>
+<ul>
+<li><p>If it is a <strong>medium</strong> or <strong>heavy</strong> armour: It takes a -5 penalty to all DEX and STR based rolls it makes.</p></li>
+<li><p>If it is a <strong>light</strong> armour or a <strong>shield</strong>: It takes a -2 penalty to all DEX and STR based rolls and gains only half of the armour/shield bonus to HiT.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="donning-and-doffing-armour">
+<h3>Donning and Doffing armour<a class="headerlink" href="#donning-and-doffing-armour" title="Link to this heading">¶</a></h3>
+<p>Armour can be donned properly or hastily. Hastily donned armour has -2 to armour. Heavy armour requires an assistant to don properly.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Armour type</p></th>
+<th class="head"><p>Time to Don</p></th>
+<th class="head"><p>Time to Don hastily</p></th>
+<th class="head"><p>Time to doff</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Light</p></td>
+<td><p>1 full round</p></td>
+<td><p>-</p></td>
+<td><p>1 full round</p></td>
+</tr>
+<tr class="row-odd"><td><p>Medium</p></td>
+<td><p>1 minute</p></td>
+<td><p>2 full rounds</p></td>
+<td><p>1 minute</p></td>
+</tr>
+<tr class="row-even"><td><p>Heavy</p></td>
+<td><p>10 minutes</p></td>
+<td><p>1 minute</p></td>
+<td><p>5 minutes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Buckler</p></td>
+<td><p>1 secondary action</p></td>
+<td><p>-</p></td>
+<td><p>secondary action</p></td>
+</tr>
+<tr class="row-even"><td><p>Shield</p></td>
+<td><p>1 full round</p></td>
+<td><p>-</p></td>
+<td><p>1 main action</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="armour-penalties">
+<h3>Armour penalties<a class="headerlink" href="#armour-penalties" title="Link to this heading">¶</a></h3>
+<p>Armour tends to restrict movement, somewhat. This is reflected in several penalties:</p>
+<ul class="simple">
+<li><p>Dex Rating.</p></li>
+<li><p>Armour Weight Penalty.</p></li>
+</ul>
+<p><strong>Dex rating</strong>: A character with a Dex bonus higher than the rating, only applies the “Dex rating” to all rolls, attacks and saves.</p>
+<p><strong>Weight Penalty</strong>: Medium and heavy armour give a weight penalty.</p>
+<ul class="simple">
+<li><p>Medium Armour gives a -2 penalty to all CON rolls related to endurance.</p></li>
+<li><p>Heavy Armour gives a -4 penalty to all CON rolls related to endurance and a -2 penalty to attack rolls.</p></li>
+</ul>
+<p><strong>Armour and resting</strong>: Likewise, armour is not pyjamas and wearing it during long rests may in some cases prevent its wearer from resting properly (see<a class="reference external" href="04-combat.html#resting-amelioration-and-armour">”Combat: Resting, amelioration and armour”</a>).</p>
+</section>
+<hr class="docutils" />
+<section id="the-armour-table">
+<h3>The Armour Table<a class="headerlink" href="#the-armour-table" title="Link to this heading">¶</a></h3>
+<p>This table gives a quick overview of armour. For details, see the armour description.  Specific properties of armour are less important than those of weapons, but it may still be of interest. As with weapons, if you do not find your favourite type of armour here, it may have been rolled into another type. For suggested costs and availability see <a class="reference external" href="12-equipment-economy.html#armour">the armour table</a> in the <a class="reference external" href="12-equipment-economy.html">Equipment and Economy</a> chapter.</p>
+<p>Bonus Key:</p>
+<ul class="simple">
+<li><p>Armour: A</p></li>
+<li><p>Shield: S</p></li>
+</ul>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Armour</p></th>
+<th class="head"><p>Proficiency</p></th>
+<th class="head"><p>Bonus type</p></th>
+<th class="head"><p>Bonus</p></th>
+<th class="head"><p>Max Dex</p></th>
+<th class="head"><p>Weight (lb)</p></th>
+<th class="head"><p>Durability</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Leather Cuirass</p></td>
+<td><p>Light</p></td>
+<td><p>A</p></td>
+<td><p>1</p></td>
+<td><p>-</p></td>
+<td><p>10</p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="row-odd"><td><p>Chain Shirt</p></td>
+<td><p>Light</p></td>
+<td><p>A</p></td>
+<td><p>2</p></td>
+<td><p>6</p></td>
+<td><p>20</p></td>
+<td><p>6</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Full Padded[1]</p></td>
+<td><p>Medium</p></td>
+<td><p>A</p></td>
+<td><p>2</p></td>
+<td><p>6</p></td>
+<td><p>10</p></td>
+<td><p>2</p></td>
+</tr>
+<tr class="row-even"><td><p>Hide Armour</p></td>
+<td><p>Medium</p></td>
+<td><p>A</p></td>
+<td><p>3</p></td>
+<td><p>3</p></td>
+<td><p>30</p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="row-odd"><td><p>Full Leather[2]</p></td>
+<td><p>Medium</p></td>
+<td><p>A</p></td>
+<td><p>3</p></td>
+<td><p>4</p></td>
+<td><p>20</p></td>
+<td><p>6</p></td>
+</tr>
+<tr class="row-even"><td><p>Brigandine</p></td>
+<td><p>Medium</p></td>
+<td><p>A</p></td>
+<td><p>4</p></td>
+<td><p>3</p></td>
+<td><p>38</p></td>
+<td><p>6</p></td>
+</tr>
+<tr class="row-odd"><td><p>Full Chain</p></td>
+<td><p>Medium</p></td>
+<td><p>A</p></td>
+<td><p>5</p></td>
+<td><p>3</p></td>
+<td><p>55</p></td>
+<td><p>8</p></td>
+</tr>
+<tr class="row-even"><td><p>Cuirass</p></td>
+<td><p>Medium</p></td>
+<td><p>A</p></td>
+<td><p>5</p></td>
+<td><p>2</p></td>
+<td><p>46</p></td>
+<td><p>8</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Segmented Mail</p></td>
+<td><p>Heavy</p></td>
+<td><p>A</p></td>
+<td><p>6</p></td>
+<td><p>1</p></td>
+<td><p>60</p></td>
+<td><p>10</p></td>
+</tr>
+<tr class="row-odd"><td><p>Half Plate</p></td>
+<td><p>Heavy</p></td>
+<td><p>A</p></td>
+<td><p>8</p></td>
+<td><p>1</p></td>
+<td><p>60</p></td>
+<td><p>12</p></td>
+</tr>
+<tr class="row-even"><td><p>Full Plate</p></td>
+<td><p>Heavy</p></td>
+<td><p>A</p></td>
+<td><p>9</p></td>
+<td><p>0</p></td>
+<td><p>65</p></td>
+<td><p>14</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Buckler</p></td>
+<td><p>Shield</p></td>
+<td><p>S</p></td>
+<td><p>2</p></td>
+<td><p>-</p></td>
+<td><p>2</p></td>
+<td><p>5</p></td>
+</tr>
+<tr class="row-odd"><td><p>Light Shield</p></td>
+<td><p>Shield</p></td>
+<td><p>S</p></td>
+<td><p>3</p></td>
+<td><p>4</p></td>
+<td><p>6</p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="row-even"><td><p>Heavy Shield</p></td>
+<td><p>Shield</p></td>
+<td><p>S</p></td>
+<td><p>4</p></td>
+<td><p>2</p></td>
+<td><p>10</p></td>
+<td><p>6</p></td>
+</tr>
+<tr class="row-odd"><td><p>Tower Shield</p></td>
+<td><p>Shield</p></td>
+<td><p>S</p></td>
+<td><p>5</p></td>
+<td><p>1</p></td>
+<td><p>20</p></td>
+<td><p>8</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<hr class="docutils" />
+<section id="light-armour">
+<h3>Light Armour<a class="headerlink" href="#light-armour" title="Link to this heading">¶</a></h3>
+<p>This refers to basic armours that can be quickly donned and doffed while giving some level of protection to the vitals. It does not offer much protection, but is better than nothing, and does not restrict movement.</p>
+<p><strong>Leather Cuirass:</strong> This refers to any armour made of a light material that protects the chest, abdomen, back and flanks. Often it has some minor protection for groins and upper legs. It is generally cheap and light. It is often worn by scouts, messengers and runners. Lighter linothorax armour belongs in this category.</p>
+<p><strong>Chain shirt:</strong> Armour made of small, interconnected metal rings. This refers to smaller chain shirts that can be somewhat hidden beneath heavy clothes. This armour offers better protection to the vitals than light cuirasses, but is considerably more expensive to construct, and it is heavier. Chain shirts are often worn by nobles and merchants who may suspect foul play but still need to appear presentable.</p>
+</section>
+<hr class="docutils" />
+<section id="medium-armour">
+<h3>Medium Armour<a class="headerlink" href="#medium-armour" title="Link to this heading">¶</a></h3>
+<p>Medium armour covers armours which either protect the whole body or have a full body underlayer, and a second layer which either gives adequate protection to most of the body or good protection to the most vital areas. Most armour falls in this category. Medium Armour gives a -2 penalty to all [Con] rolls related to endurance.</p>
+<p><strong>Full Padded</strong> or “padded armour” can be any particularly thick and protective clothes, including the silken armours of the saracens, hides worn by northern tribes and gambeson of medieval europe. These armours offer some protection to the whole body and are light enough to wear on a long march. they are also reasonably inexpensive.</p>
+<ul class="simple">
+<li><p><em>Special</em>: This armour can serve as cold or hot weather clothes depending on the specific type.</p></li>
+</ul>
+<p><strong>Hide Armour</strong>: This includes particularly thick all body hides and specially made hide armour and low quality leather. The thickness of the armour means that it is somewhat restrictive, but it is also easy and inexpensive to make.</p>
+<ul class="simple">
+<li><p><em>Special</em>: This armour can often serve as cold weather gear.</p></li>
+</ul>
+<p><strong>Full leather</strong>: This is any high quality armour made of hardened leather or materials with similar properties.</p>
+<p><strong>Brigandine</strong>: Classical “studded leather”. Brigandine consists of thin metal plates covered and joined by fabric or thin leather. It is worn atop padded armour and often a chain shirt. This kind of armour offers a good trade-off between price, mobility, weight and protection. The segmented nature of this armour means that it is easily repaired. It is a choice of ranged troops, although elite archers will find it restrictive. Heavier linothorax armour belongs in this category.</p>
+<p><strong>Full Chain</strong>: Full chain mail, worn atop padded armour to reduce chaffing.</p>
+<p><strong>Cuirass:</strong> This refers to a metallic cuirass, with skirt and pauldrons, worn atop padded armour and often a chain shirt. It is not much heavier than a brigandine, but offers better protection, in exchange for poorer agility and greater expense of manufacture.</p>
+</section>
+<hr class="docutils" />
+<section id="heavy-armour">
+<h3>Heavy Armour<a class="headerlink" href="#heavy-armour" title="Link to this heading">¶</a></h3>
+<p>Heavy armour consists of an underlayer (usually padded), a mid-layer (usually chain) and a shell layer on all parts of the body. This is heavy battlefield armour, it is not necessarily best suited for a long march, although that is often the best way of transporting it to said battlefield. This armour is used when maximum protection at all costs is needed. Heavy Armour gives a -4 penalty to all [Con] rolls related to endurance and a -2 penalty to attack rolls.</p>
+<p><strong>Segmented Mail:</strong> This refers to any kind of mail other than chain mail, such as scale mail, banded mail and ring mail that covers most of the body. This kind of armour typically has a layer of padded armour beneath it and at least a chain shirt.</p>
+<p><strong>Half Plate:</strong> This refers to armour with a padded under-layer, chain layer, cuirass and metal segments covering all parts off the body, but without fully secured joints.</p>
+<p><strong>Full Plate:</strong> A half plate with fully secured joints is considered a full plate here.</p>
+</section>
+<hr class="docutils" />
+<section id="shields">
+<h3>Shields<a class="headerlink" href="#shields" title="Link to this heading">¶</a></h3>
+<p>Not strictly armour, but also defensive equipment. These are generally held or attached to one’s arm and used to block/deflect attacks before they reach further in. The data shown are for wooden shields with only a small amount of metal in their construction (except bucklers). Metal shields weigh twice as much, but also have +2 to durability.</p>
+<p>Equipping light, heavy and tower shields is a “full round action”. Equipping a buckler is a “secondary action”.</p>
+<p><strong>Buckler</strong>: This represents small metal shields less than a foot in diameter used to deflect blows.</p>
+<p><strong>Light shield</strong>: This represents smaller shields that offer good protection for the torso but are not big enough to protect legs or head, or open up the torso when used to protect against that kind of attack.</p>
+<p><strong>Heavy Shield</strong>: This represents large shields and includes older and newer kinds of kite shields, as well as some larger round shields. Typically when equipped this type of shield offers a good level of protection to the torso, as well as some protection to the legs and neck.</p>
+<p><strong>Tower Shield</strong>: This represents shields almost tall and wide enough to cover the entire body of the character. An example is the Roman scutum.</p>
+<ul class="simple">
+<li><p><em>Special</em>: This shield can be set as a “main action” to provide heavy cover to a single creature of the size it was made for, leaving the wielder’s hands free for all kinds of wonderful things.</p></li>
+</ul>
+<section id="special">
+<h4>Special<a class="headerlink" href="#special" title="Link to this heading">¶</a></h4>
+<p><a class="reference external" href="#shields-as-weapons">Shields can be used as weapons</a>, but not at the same time as being used defensively, however when doing so a combatant must first use a secondary action to adjust their hold on the shield. Doing so forfeits any bonus to HiT granted by the shield until the combatant uses <em>another</em> secondary action on a subsequent turn to readjust the shield.</p>
+<p>The boon <a class="reference external" href="06-abilities.html#offensive-buckler">“Offensive Buckler”</a> allows the wielder of a buckler to make the readjustment without using an action.</p>
+<p>The boon <a class="reference external" href="06-abilities.html#swift-shield-bash">“Swift Shield Bash”</a> allows the wielder of a shield to make an offhand attack with a shield as a secondary action without sacrificing the HiT bonus.</p>
+<p>The boon <a class="reference external" href="06-abilities.html#shield-master">“Shield Master”</a> allows the wielder of a small, large or tower shield to gain a bonus to Dex and Str saves equal to the HiT bonus of the shield.</p>
+</section>
+</section>
+</section>
+<section id="notes">
+<h2>Notes<a class="headerlink" href="#notes" title="Link to this heading">¶</a></h2>
+<p>This section contains a few notes on “realism”. It is not exhaustive.</p>
+<ul class="simple">
+<li><p>Medieval weapons are often lighter than expected, weighing between 1-3lb. The reason for this becomes quickly apparent when one picks up one of these weapons: Even a well trained warrior would quickly tire of swinging a heavier weapon, so this becomes a necessary constraint of weapons powered by one’s own muscles.</p></li>
+<li><p>Slings have a surprisingly long range, and can out-range bows. However slinging accurately is even a lot more difficult than accurately loosing an arrow at a target.</p></li>
+<li><p>Composite bows (such as mongol bows), greatbows and longbows had similar maximum and effective ranges, but different constraints and uses.</p></li>
+<li><p>Winch crossbows typically required between 15-60s to reload, but that would make them “impossible” to use in this system, so some liberties were taken.</p></li>
+<li><p>Flint locks have a similar problem to winch crossbows, and are treated similarly.</p></li>
+<li><p>Unlike bows, the range on flintlock firearms varies a lot over centuries and model. I took some kind of reasonable average as a result.</p></li>
+<li><p>In reality the relationship between armour and firearms is more complex than the rules here, but it would likely bog things down a bit too much.</p></li>
+<li><p>To the question of “Why bother with armour at all, when some people have an Evasion bonus of +6 which is higher anyway?”, I would remind you that for +6 is heroic. Most people have -1 to +1. Therefore, historically, in a mundane world, travellers, explorers, nobles and soldiers benefit from armour. Now if most soldiers in a civilisation were elven monks with +6 to Evasion bonus, then that civilisation would likely not have developed armour.</p></li>
+<li><p>Interestingly most texts and commentators note that armours affect agility a lot less than comfort and endurance.</p></li>
+<li><p>In reality each type of armour defends specifically against different kinds of attacks. However, in a game where there are a dozen kinds of damage and monsters whose natural weapons do all kinds of wonderful things that you might not see on the battlefield, it is abstracted out.</p></li>
+</ul>
+</section>
+<section id="disclaimer">
+<h2>Disclaimer<a class="headerlink" href="#disclaimer" title="Link to this heading">¶</a></h2>
+<p>I am not a scholar of medieval weapons, and nor am I a martial arts master. Therefore this chapter should be taken with pinch of salt with regards to historical realism.</p>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="12-equipment-economy.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Equipment and Economy</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="10-conditions-types.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Conditions and Types</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2023-3023, Fantasy Committee
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Weapons and armour</a><ul>
+<li><a class="reference internal" href="#weapons">Weapons</a><ul>
+<li><a class="reference internal" href="#weapon-durability">Weapon durability</a></li>
+<li><a class="reference internal" href="#ranged-weapons-collateral-and-melee">Ranged Weapons, collateral and melee</a></li>
+<li><a class="reference internal" href="#range-increments">Range increments</a></li>
+<li><a class="reference internal" href="#high-ground-and-weapon-ranges">High ground and weapon ranges</a></li>
+<li><a class="reference internal" href="#two-handed-and-two-weapon-fighting">Two handed and two weapon fighting</a><ul>
+<li><a class="reference internal" href="#two-handed-weapons">Two handed weapons</a></li>
+<li><a class="reference internal" href="#offhand-fighting">Offhand fighting</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#weapon-properties">Weapon properties</a></li>
+<li><a class="reference internal" href="#weapon-proficiencies">Weapon proficiencies</a></li>
+<li><a class="reference internal" href="#weapons-damage-and-governing-stats">Weapons, damage and governing stats</a></li>
+<li><a class="reference internal" href="#improvised-weapons">Improvised Weapons</a></li>
+<li><a class="reference internal" href="#weapon-table">Weapon table</a></li>
+<li><a class="reference internal" href="#unarmed-combat">Unarmed Combat</a></li>
+<li><a class="reference internal" href="#light-blades">Light blades</a></li>
+<li><a class="reference internal" href="#heavy-blades">Heavy blades</a></li>
+<li><a class="reference internal" href="#axes">Axes</a></li>
+<li><a class="reference internal" href="#percussive">Percussive</a></li>
+<li><a class="reference internal" href="#spears">Spears</a></li>
+<li><a class="reference internal" href="#pole-arms">Pole-arms</a></li>
+<li><a class="reference internal" href="#staves">Staves</a></li>
+<li><a class="reference internal" href="#shields-as-weapons">Shields (as weapons)</a></li>
+<li><a class="reference internal" href="#slings">Slings</a></li>
+<li><a class="reference internal" href="#bows">Bows</a></li>
+<li><a class="reference internal" href="#mechanical-bows">Mechanical bows</a></li>
+<li><a class="reference internal" href="#blowguns">Blowguns</a></li>
+<li><a class="reference internal" href="#firearms">Firearms</a></li>
+<li><a class="reference internal" href="#siege">Siege</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#armour">Armour</a><ul>
+<li><a class="reference internal" href="#armour-and-its-relationship-with-hit">Armour and its relationship with [HiT]</a></li>
+<li><a class="reference internal" href="#armour-types">Armour types</a></li>
+<li><a class="reference internal" href="#armour-proficiencies">Armour Proficiencies</a></li>
+<li><a class="reference internal" href="#donning-and-doffing-armour">Donning and Doffing armour</a></li>
+<li><a class="reference internal" href="#armour-penalties">Armour penalties</a></li>
+<li><a class="reference internal" href="#the-armour-table">The Armour Table</a></li>
+<li><a class="reference internal" href="#light-armour">Light Armour</a></li>
+<li><a class="reference internal" href="#medium-armour">Medium Armour</a></li>
+<li><a class="reference internal" href="#heavy-armour">Heavy Armour</a></li>
+<li><a class="reference internal" href="#shields">Shields</a><ul>
+<li><a class="reference internal" href="#special">Special</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#notes">Notes</a></li>
+<li><a class="reference internal" href="#disclaimer">Disclaimer</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="_static/documentation_options.js?v=8bafd125"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/scripts/furo.js?v=46bd48cc"></script>
+    </body>
+</html>

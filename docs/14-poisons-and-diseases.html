@@ -1,0 +1,1227 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="./">
+  <head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="genindex.html"><link rel="search" title="Search" href="search.html"><link rel="next" title="A note on charm, domination and possession" href="15-charm-etc.html"><link rel="prev" title="Crafting and Imbuing" href="13-crafting-imbuing.html">
+
+    <!-- Generated with Sphinx 8.2.3 and Furo 2025.09.25 -->
+        <title>Poisons and Diseases - FanSys 0.0.18</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d111a655" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=580074bf" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=8dab3a3b" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f2f2f2;
+  --color-code-foreground: #1e1e1e;
+  --color-foreground-primary: #202424;
+  --color-foreground-secondary: #4a4c53;
+  --color-brand-primary: #112233;
+  --color-brand-content: #443322;
+  --color-brand-visited: #448822;
+  --color-background-primary: #f2f4ec;
+  --color-background-secondary: #e5e7e3;
+  --color-background-hover: #fafaf5;
+  --color-background-border: #40404067;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-foreground-primary: #cfd0d0;
+  --color-foreground-secondary: #acb0b5;
+  --color-brand-primary: #AABBCC;
+  --color-brand-content: #CFBEAC;
+  --color-brand-visited: #99DD99;
+  --color-background-primary: #242628;
+  --color-background-secondary: #2a2c2e;
+  --color-background-hover: #1e2124ff;
+  --color-background-border: #483945;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-foreground-primary: #cfd0d0;
+  --color-foreground-secondary: #acb0b5;
+  --color-brand-primary: #AABBCC;
+  --color-brand-content: #CFBEAC;
+  --color-brand-visited: #99DD99;
+  --color-background-primary: #242628;
+  --color-background-secondary: #2a2c2e;
+  --color-background-hover: #1e2124ff;
+  --color-background-border: #483945;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle site navigation sidebar">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc" aria-label="Toggle table of contents sidebar">
+<label class="overlay sidebar-overlay" for="__navigation"></label>
+<label class="overlay toc-overlay" for="__toc"></label>
+
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <span class="icon"><svg><use href="#svg-menu"></use></svg></span>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="index.html"><div class="brand">FanSys 0.0.18</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="index.html">
+  
+  <span class="sidebar-brand-text">FanSys 0.0.18</span>
+  
+</a><form class="sidebar-search-container" method="get" action="search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Index:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="01-quick-start.html">FanSys23 Quick-start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="03-movement-exploration.html">Actions outside of Combat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="04-combat.html">Combat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="05-skills.html">Skills</a></li>
+<li class="toctree-l1"><a class="reference internal" href="06-abilities.html">Abilities and Boons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="07-magic-and-spellcasting.html">Spells</a></li>
+<li class="toctree-l1"><a class="reference internal" href="08-spell-list.html">Spell List</a></li>
+<li class="toctree-l1"><a class="reference internal" href="09-races.html">Types, Races, Species and Templates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="10-conditions-types.html">Conditions and Types</a></li>
+<li class="toctree-l1"><a class="reference internal" href="11-weapons-armour.html">Weapons and armour</a></li>
+<li class="toctree-l1"><a class="reference internal" href="12-equipment-economy.html">Equipment and Economy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="13-crafting-imbuing.html">Crafting and Imbuing</a></li>
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Poisons and Diseases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="15-charm-etc.html">A note on charm, domination and possession</a></li>
+<li class="toctree-l1"><a class="reference internal" href="16-recipes.html">Recipes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="02-base-rules.html">Base Rules</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="bestiary.html">A Bestiary for Fantasy Worlds</a><input aria-label="Toggle navigation of A Bestiary for Fantasy Worlds" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/forwards.html">Forwards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/beasts-and-plants.html">Beasts and Plants</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/constructs.html">Constructs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/divines.html">Divines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/humanoids.html">NPC stat blocks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/monsters-and-dragons.html">Monsters and Dragons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/profanes.html">Profanes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/spirits.html">Spirits</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="CHANGELOG.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="TODO.html">Character sheet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="LICENSE.html">License</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="view-this-page">
+  <a class="muted-link" href="_sources/14-poisons-and-diseases.md.txt" title="View this page">
+    <svg><use href="#svg-eye"></use></svg>
+    <span class="visually-hidden">View this page</span>
+  </a>
+</div>
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          <section id="poisons-and-diseases">
+<h1>Poisons and Diseases<a class="headerlink" href="#poisons-and-diseases" title="Link to this heading">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference external" href="#poisons">Poisons</a></p>
+<ul>
+<li><p><a class="reference external" href="#properties-of-a-poison">Properties of a Poison</a></p>
+<ul>
+<li><p><a class="reference external" href="#threshold">Threshold</a></p></li>
+<li><p><a class="reference external" href="#potency">Potency</a></p></li>
+<li><p><a class="reference external" href="#duration">Duration</a></p></li>
+<li><p><a class="reference external" href="#mode-of-application">Mode of Application</a></p></li>
+<li><p><a class="reference external" href="#affected-system">Affected System</a></p></li>
+<li><p><a class="reference external" href="#effect">Effect</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#types-of-poison">Types of Poison</a></p>
+<ul>
+<li><p><a class="reference external" href="#necrotising-poisons">Necrotising Poisons</a></p></li>
+<li><p><a class="reference external" href="#nerve-poisons">Nerve Poisons</a></p></li>
+<li><p><a class="reference external" href="#general-poisons">General Poisons</a></p></li>
+<li><p><a class="reference external" href="#spirit-poisons">Spirit Poisons</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#using-poison">Using Poison</a></p></li>
+<li><p><a class="reference external" href="#poison-list">Poison List</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#diseases">Diseases</a></p>
+<ul>
+<li><p><a class="reference external" href="#properties-of-a-disease">Properties of a Disease</a></p>
+<ul>
+<li><p><a class="reference external" href="#affected-entities">Affected Entities</a></p></li>
+<li><p><a class="reference external" href="#diagnosis-threshold">Diagnosis Threshold</a></p></li>
+<li><p><a class="reference external" href="#spread-threshold">Spread Threshold</a></p></li>
+<li><p><a class="reference external" href="#treatment-threshold">Treatment Threshold</a></p></li>
+<li><p><a class="reference external" href="#route-of-transmission">Route of Transmission</a></p></li>
+<li><p><a class="reference external" href="#affected-system-1">Affected System</a></p></li>
+<li><p><a class="reference external" href="#incubation-period">Incubation period</a></p></li>
+<li><p><a class="reference external" href="#duration-1">Duration</a></p></li>
+<li><p><a class="reference external" href="#course">Course</a></p></li>
+<li><p><a class="reference external" href="#lethality">Lethality</a></p></li>
+<li><p><a class="reference external" href="#spread">Spread</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#catching-spreading-and-curing-diseases">Catching, Spreading and Curing Diseases</a></p></li>
+<li><p><a class="reference external" href="#list-of-diseases">List of Diseases</a></p></li>
+<li><p><a class="reference external" href="#summary-table-of-diseases">Summary Table of Diseases</a></p></li>
+</ul>
+</li>
+</ul>
+<hr class="docutils" />
+<p>This chapter covers the rules for various poisons and diseases. It is not necessary to use these rules, since basic rules on the <a class="reference external" href="10-conditions-types.html#conditions-in-detail">poisoned condition</a> and on <a class="reference external" href="10-conditions-types.html#biological-damage">poison damage</a> exist. However, for some campaigns, especially those in lower magic settings and campaigns with various forms of intrigue it is useful to have more rules on poison. Likewise, while diseases and plagues can be can be played narratively, rules can serve as a guide as to how they would normally play out.</p>
+<hr class="docutils" />
+<section id="poisons">
+<h2>Poisons<a class="headerlink" href="#poisons" title="Link to this heading">¶</a></h2>
+<p>Poisons are substances that prevent the organisms of mortals from functioning. Some supernatural poisons can even affect <a class="reference external" href="10-conditions-types.html#spiritual">spirits</a>, <a class="reference external" href="10-conditions-types.html#divine-1">divine entities</a> or <a class="reference external" href="10-conditions-types.html#profane-1">fiends</a>. Most, but not all, poisons have a conventional antidote.</p>
+<hr class="docutils" />
+<section id="properties-of-a-poison">
+<h3>Properties of a Poison<a class="headerlink" href="#properties-of-a-poison" title="Link to this heading">¶</a></h3>
+<p>Poisons have a several properties that can be described by game mechanics:</p>
+<ul class="simple">
+<li><p>Threshold</p></li>
+<li><p>Potency</p></li>
+<li><p>Duration</p></li>
+<li><p>Speed</p></li>
+<li><p>Mode of Application</p></li>
+<li><p>Affected system</p></li>
+<li><p>Effect</p></li>
+</ul>
+<section id="threshold">
+<h4>Threshold<a class="headerlink" href="#threshold" title="Link to this heading">¶</a></h4>
+<p>How difficult it is to resist the poison’s effects. This is the save threshold of the poison.</p>
+</section>
+<section id="potency">
+<h4>Potency<a class="headerlink" href="#potency" title="Link to this heading">¶</a></h4>
+<p>This is the magnitude of the effect of the poison. In reality, potency can be increased with dose size or by inherent properties of the poison, but the mechanics do not necessarily distinguish between the two.</p>
+</section>
+<section id="duration">
+<h4>Duration<a class="headerlink" href="#duration" title="Link to this heading">¶</a></h4>
+<p>By default, the conditions caused by a poison last for a week, while damage persists until it is healed by some means (for example by resting). The effects of some poisons (notably food poisoning) last for a day, while the effects of some particularly vile poisons are permanent.</p>
+</section>
+<section id="onset">
+<h4>Onset<a class="headerlink" href="#onset" title="Link to this heading">¶</a></h4>
+<p>Poisons can be fast acting or slow acting. Unless stated otherwise, a poison acts at the start of an entity’s next turn, unless its mode of application is ingestion, in which case, the poison acts within an hour. Monster venom is fast acting when unrefined. Purified monster venom can be fast or slow acting. The speed is written as “immediate”, or a given duration (eg, “10 minutes”). In this case the duration is the delay after an entity is “poisoned” that the poison takes effect.</p>
+</section>
+<section id="mode-of-application">
+<h4>Mode of Application<a class="headerlink" href="#mode-of-application" title="Link to this heading">¶</a></h4>
+<p>Poisons are generally most effective inside of the body. Some poisons are better at getting inside the body than others. The modes, listed by dominance, are:</p>
+<ol class="arabic simple">
+<li><p><strong>Perception</strong>: This poison enters the body as soon as it is perceived with any sense. These poisons are always supernatural and are also effective when MP damage is inflicted.</p></li>
+<li><p><strong>Contact</strong>: This poison enters the body when it makes contact with any of the body’s surfaces, such as skin, eyes, hair, mucus membranes, etc.</p></li>
+<li><p><strong>Inhalation</strong>: This poison enters the body when it is inhaled.</p></li>
+<li><p><strong>Ingestion</strong>: This poison enters the body when it is consumed (ingested).</p></li>
+<li><p><strong>Wounding</strong>: This poison enters the body through a wound (when HP/SP damage is inflicted).</p></li>
+</ol>
+<p>Poisons with a more dominant modality are ALSO effective when applied through a less dominant route (a contact poison is also effective when inhaled, ingested or enters through a wound).</p>
+<p>Poisons with a less dominant modality are not effective when applied through a more dominant route. Thus a wounding poison will not be effective if ingested or inhaled.</p>
+</section>
+<section id="affected-system">
+<h4>Affected System<a class="headerlink" href="#affected-system" title="Link to this heading">¶</a></h4>
+<p>This often determines the effects and what kind of mortals can be affected. For example a poison that affects the nervous system or blood will not affect <a class="reference external" href="10-conditions-types.html#mortals">plants</a>, since they lack these. However, game mechanics generally do not tie this to the poison’s function and it is considered flavour related. That said, groups that enjoy “realism” may wish to apply these rules (although it should be done with care if at all!).</p>
+</section>
+<section id="effect">
+<h4>Effect<a class="headerlink" href="#effect" title="Link to this heading">¶</a></h4>
+<p>Most poisons do some direct poison damage and cause the “poisoned” condition. In addition, poisons can cause direct HP damage, as well as damage to any of the base <a class="reference external" href="02-base-rules.html#stats">stats</a>. Certain poisons may even affect SP/MP dice or seal supernatural abilities.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="types-of-poison">
+<h3>Types of Poison<a class="headerlink" href="#types-of-poison" title="Link to this heading">¶</a></h3>
+<p>There are different types of poison that generally follow different rules. Poisons can be classified based on these rules. In addition a group may invent new poisons for their settings based on these rules.</p>
+<hr class="docutils" />
+<section id="necrotising-poisons">
+<h4>Necrotising Poisons<a class="headerlink" href="#necrotising-poisons" title="Link to this heading">¶</a></h4>
+<p>This is the type of poison that causes direct degradation of tissues. The most common example is viper venom. Such poisons deal direct damage, and may cause damage to STR and DEX.</p>
+</section>
+<hr class="docutils" />
+<section id="nerve-poisons">
+<h4>Nerve Poisons<a class="headerlink" href="#nerve-poisons" title="Link to this heading">¶</a></h4>
+<p>These poisons affect the nervous system and can have a wide variety of effects. Usually they cause “immobilised”/”paralysed”/”unconscious” but can also cause “catatonic”/”charmed”/”frightened”/”blinded”/”deafened” as well doing damage to INT, WIS and CHA.</p>
+</section>
+<hr class="docutils" />
+<section id="general-poisons">
+<h4>General Poisons<a class="headerlink" href="#general-poisons" title="Link to this heading">¶</a></h4>
+<p>These poisons generally cause various systems in the body to fail, and can have various effects. The most common are those found in spoilt foods. These can have effects starting from relatively benign such as upset stomachs, ending with full organ failure (and usually death).</p>
+</section>
+<hr class="docutils" />
+<section id="spirit-poisons">
+<h4>Spirit Poisons<a class="headerlink" href="#spirit-poisons" title="Link to this heading">¶</a></h4>
+<p>These poisons affect those parts of a being that interact with, or are, supernatural. They affect MP, MP dice, and the ability to use supernatural abilities. In the worst case they can sever an entity entirely from the supernatural or detach the soul from the body. Such poisons are used by certain fey, fiends and divines.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="being-poisoned-and-cured">
+<h3>Being Poisoned and Cured<a class="headerlink" href="#being-poisoned-and-cured" title="Link to this heading">¶</a></h3>
+<p>An entity affected by a poison is considered <a class="reference external" href="10-conditions-types.html#conditions-in-detail">“poisoned”</a> and may suffer additional effects.</p>
+<p>When an entity is attacked by poison, it must succeed a CON save vs the poison’s threshold, or become poisoned. Entities without a CON score cannot be poisoned.</p>
+<p>When an entity recovers from poison, or is otherwise cured, the “poisoned” condition is removed, but additional effects such as damage and secondary conditions are not always removed..</p>
+<p>An entity can be cured of poison under one of four conditions:</p>
+<ul class="simple">
+<li><p>The time of action of the poison ends. Unless otherwise stated, a poison’s effect lasts for 1 week. After this the poisoned condition is removed, as well as secondary conditions, but not other effects, unless otherwise stated.</p></li>
+<li><p>The poisoned entity succeeds on a CON save vs the poison’s threshold. Generally this can be repeated once per day. Again, the poisoned condition is removed, as well as secondary conditions, but not other effects, unless otherwise stated.</p></li>
+<li><p>Mundane poison can be cured with a <a class="reference external" href="05-skills.html#heal">“Heal”</a> roll equal to the poison’s threshold. Unless otherwise stated, the treatment takes 1 minute and the “poisoned” condition is removed after an hour (as the organism recovers). Unless otherwise stated secondary conditions are also cured, but damage is not.</p></li>
+<li><p>Spells such as the <a class="reference external" href="08-spell-list.html#cure">“Cure”</a> immediately cure the poison, and poisoned condition, but never the secondary effects.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="using-poison">
+<h3>Using Poison<a class="headerlink" href="#using-poison" title="Link to this heading">¶</a></h3>
+<p>While most venomous/poisonous monsters are naturally (or supernaturally) endowed with poison, characters and NPC must usually obtain this poison and put it to use manually. To prepare a poison for use (apply to a weapon, mix into a meal/drink, burn in an incense burner, etc) a character must succeed on an <a class="reference external" href="05-skills.html#academics">academics</a> roll using poisoner’s tools vs the poison’s threshold. This can take between a round and a minute depending on the poison, but is <a class="reference external" href="04-combat.html#types-of-actions-in-combat">“1 full round action”</a> for wounding poisons, or ingestion poisons in drinks, and 1 minute for all other poisons, unless otherwise stated for a particular poison. The roll is made at disadvantage if the character is not using a poisoner’s kit or is not proficient with its use. Furthermore, if a character fails the roll by 6 or more, or with snake-eyes, the one applying the poison, poisons themselves.</p>
+<section id="applying-poisons-to-weapons">
+<h4>Applying poisons to weapons<a class="headerlink" href="#applying-poisons-to-weapons" title="Link to this heading">¶</a></h4>
+<p>The above rules apply when applying poisons to weapons. It is therefore advisable to apply poisons to weapons before combat to avoid using the first round applying poison. A single application of poison is enough for 20 pieces of ammunition or for 10 <strong>hits</strong> with a melee weapon.</p>
+</section>
+<section id="poisons-and-shelf-life">
+<h4>Poisons and Shelf-life<a class="headerlink" href="#poisons-and-shelf-life" title="Link to this heading">¶</a></h4>
+<p>Most poisons, like many substances, have a limited shelf-life. Poisons from beasts and monsters generally have a shelf-life of one month if stored properly and 1 hour once applied to a weapon and exposed to air. Poisons of plant origin usually keep for a year and for 1 day once applied to a weapon and exposed to air. Mineral poisons, poisons of draconic origin and supernatural poisons generally keep for centuries.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="poison-list">
+<h3>Poison List<a class="headerlink" href="#poison-list" title="Link to this heading">¶</a></h3>
+<p>Below is a table of existing poisons in FanSys. Groups are free to add their own poisons.</p>
+<hr class="docutils" />
+<section id="general-properties">
+<h4>General properties<a class="headerlink" href="#general-properties" title="Link to this heading">¶</a></h4>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Name</strong></p></th>
+<th class="head"><p><strong>Type</strong></p></th>
+<th class="head"><p><strong>Threshold</strong></p></th>
+<th class="head"><p><strong>Duration</strong></p></th>
+<th class="head"><p><strong>Modality</strong></p></th>
+<th class="head"><p><strong>Onset</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Bee Venom</p></td>
+<td><p>Necrotising</p></td>
+<td><p>16</p></td>
+<td><p>1 minute</p></td>
+<td><p>Wounding</p></td>
+<td><p>Immediate</p></td>
+</tr>
+<tr class="row-odd"><td><p>Viper Venom</p></td>
+<td><p>Necrotising</p></td>
+<td><p>18</p></td>
+<td><p>1 minute</p></td>
+<td><p>Wounding</p></td>
+<td><p>Immediate</p></td>
+</tr>
+<tr class="row-even"><td><p>Cobra Venom</p></td>
+<td><p>Nerve</p></td>
+<td><p>18</p></td>
+<td><p>1 hour</p></td>
+<td><p>Wounding</p></td>
+<td><p>Immediate</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Name</strong></p></td>
+<td><p><strong>Type</strong></p></td>
+<td><p><strong>Threshold</strong></p></td>
+<td><p><strong>Duration</strong></p></td>
+<td><p><strong>Modality</strong></p></td>
+<td><p><strong>Onset</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p>Alcohol</p></td>
+<td><p>General</p></td>
+<td><p>12</p></td>
+<td><p>12 hours</p></td>
+<td><p>Ingestion</p></td>
+<td><p>10 minutes</p></td>
+</tr>
+<tr class="row-even"><td><p>Bracken Extract</p></td>
+<td><p>Nerve</p></td>
+<td><p>14</p></td>
+<td><p>Permanent</p></td>
+<td><p>Ingestion</p></td>
+<td><p>1 hour</p></td>
+</tr>
+<tr class="row-odd"><td><p>Refined Fly-trap Poison</p></td>
+<td><p>Nerve</p></td>
+<td><p>15</p></td>
+<td><p>1 week</p></td>
+<td><p>Contact</p></td>
+<td><p>Ingestion: 10 minutes, Other: Immediate</p></td>
+</tr>
+<tr class="row-even"><td><p>Refined Tripede Poison</p></td>
+<td><p>Nerve</p></td>
+<td><p>19</p></td>
+<td><p>1 week</p></td>
+<td><p>Ingestion</p></td>
+<td><p>Ingestion: 10 minutes, Wounding: Immediate</p></td>
+</tr>
+<tr class="row-odd"><td><p>Refined Tuber Extract</p></td>
+<td><p>General</p></td>
+<td><p>19</p></td>
+<td><p>1 day</p></td>
+<td><p>Inhalation</p></td>
+<td><p>Ingestion: 10 minute, Other: Immediate</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Name</strong></p></td>
+<td><p><strong>Type</strong></p></td>
+<td><p><strong>Threshold</strong></p></td>
+<td><p><strong>Duration</strong></p></td>
+<td><p><strong>Modality</strong></p></td>
+<td><p><strong>Onset</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>Refined Cradle Venom</p></td>
+<td><p>Nerve</p></td>
+<td><p>14</p></td>
+<td><p>1 day</p></td>
+<td><p>Ingestion</p></td>
+<td><p>Immediate</p></td>
+</tr>
+<tr class="row-odd"><td><p>Corpse Stork Venom</p></td>
+<td><p>General</p></td>
+<td><p>14</p></td>
+<td><p>Permanent</p></td>
+<td><p>Wounding</p></td>
+<td><p>Immediate</p></td>
+</tr>
+<tr class="row-even"><td><p>Sweet Ooze Extract</p></td>
+<td><p>General</p></td>
+<td><p>16</p></td>
+<td><p>1 hour</p></td>
+<td><p>Contact</p></td>
+<td><p>ingestion: 1 hour, Other: Immediate</p></td>
+</tr>
+<tr class="row-odd"><td><p>Hive Beast Venom</p></td>
+<td><p>General</p></td>
+<td><p>16</p></td>
+<td><p>1 week</p></td>
+<td><p>Ingestion</p></td>
+<td><p>Ingestion: 1 hour, Other: Immediate</p></td>
+</tr>
+<tr class="row-even"><td><p>Refined Mudcrawler Venom</p></td>
+<td><p>Necrotising</p></td>
+<td><p>16</p></td>
+<td><p>Instantaneous</p></td>
+<td><p>Wounding</p></td>
+<td><p>1 minute</p></td>
+</tr>
+<tr class="row-odd"><td><p>Fell Beast Venom</p></td>
+<td><p>Nerve</p></td>
+<td><p>17</p></td>
+<td><p>Permanent</p></td>
+<td><p>Wounding</p></td>
+<td><p>1 minute</p></td>
+</tr>
+<tr class="row-even"><td><p>Refined Mudwalker Venom</p></td>
+<td><p>Necrotising</p></td>
+<td><p>22</p></td>
+<td><p>Instantaneous</p></td>
+<td><p>Contact</p></td>
+<td><p>Ingestion: 10 minutes, Other: Immediate</p></td>
+</tr>
+<tr class="row-odd"><td><p>Refined Dragon Venom</p></td>
+<td><p>Necrotising/Nerve</p></td>
+<td><p>26</p></td>
+<td><p>Permanent</p></td>
+<td><p>Ingested</p></td>
+<td><p>Immediate</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Name</strong></p></td>
+<td><p><strong>Type</strong></p></td>
+<td><p><strong>Threshold</strong></p></td>
+<td><p><strong>Duration</strong></p></td>
+<td><p><strong>Modality</strong></p></td>
+<td><p><strong>Onset</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>Demon Extract</p></td>
+<td><p>General</p></td>
+<td><p>23</p></td>
+<td><p>Permanent</p></td>
+<td><p>Ingestion</p></td>
+<td><p>1 day</p></td>
+</tr>
+<tr class="row-odd"><td><p>Broken Fairy Poison</p></td>
+<td><p>General</p></td>
+<td><p>24</p></td>
+<td><p>Permanent</p></td>
+<td><p>Perception</p></td>
+<td><p>Immediate</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<hr class="docutils" />
+<section id="effects">
+<h4>Effects<a class="headerlink" href="#effects" title="Link to this heading">¶</a></h4>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Name</strong></p></th>
+<th class="head"><p><strong>Effect</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Bee Venom</p></td>
+<td><p>1d4 damage/round for 1 minute or until save is succeeded. Used for treating joint ailments amongst others.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Viper Venom</p></td>
+<td><p>1d6 damage/round for 1 minute or until save is succeeded. Used for treating joint ailments amongst others.</p></td>
+</tr>
+<tr class="row-even"><td><p>Cobra Venom</p></td>
+<td><p><a class="reference external" href="10-conditions-types.html#conditions-in-detail">“Paralysis”</a> + <a class="reference external" href="03-movement-exploration.html#characters-starvation-and-other-bad-ways-to-die">“suffocation”</a>. A character repeats the save vs suffocation at the end of each minute, but the general paralysis last for the full duration.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Alcohol</p></td>
+<td><p>1 point of DEX, CON, INT and WIS damage per dose (NB: A single dose is equivalent to 1 lb of ale, 1/4 lb of wine, or 1 shot of spirits). For each additional dose, the threshold increases by 1.</p></td>
+</tr>
+<tr class="row-even"><td><p>Bracken Extract</p></td>
+<td><p><a class="reference external" href="10-conditions-types.html#conditions-in-detail">“Blinded”</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Refined Fly-trap Poison</p></td>
+<td><p>3 saves (one per round): First fail.<a class="reference external" href="10-conditions-types.html#conditions-in-detail">”restrained”</a>. It may repeat the save at the start of each turn. If it fails a second time, it is <a class="reference external" href="10-conditions-types.html#conditions-in-detail">“immobilised”</a>, if it fails a third, it is <a class="reference external" href="10-conditions-types.html#conditions-in-detail">“paralysed”</a>.</p></td>
+</tr>
+<tr class="row-even"><td><p>Refined Tripede Poison</p></td>
+<td><p>3 saves (one per round): First fail.<a class="reference external" href="10-conditions-types.html#conditions-in-detail">”restrained”</a>. It may repeat the save at the start of each turn. If it fails a second time, it is <a class="reference external" href="10-conditions-types.html#conditions-in-detail">“immobilised”</a>, if it fails a third, it is <a class="reference external" href="10-conditions-types.html#conditions-in-detail">“paralysed”</a>.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Refined Tuber Extract</p></td>
+<td><p><a class="reference external" href="10-conditions-types.html#conditions-in-detail">“Charmed”</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Refined Cradle Venom</p></td>
+<td><p><a class="reference external" href="10-conditions-types.html#conditions-in-detail">“Aphonia”</a> + <a class="reference external" href="10-conditions-types.html#conditions-in-detail">“Immobilised”</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Corpse Stork Venom</p></td>
+<td><p>1d3 STR</p></td>
+</tr>
+<tr class="row-even"><td><p>Sweet Ooze Extract</p></td>
+<td><p>2 saves. First fail: <a class="reference external" href="10-conditions-types.html#conditions-in-detail">“restrained”</a>. It may repeat the save at the start of each turn. If it fails a second time, it is <a class="reference external" href="10-conditions-types.html#conditions-in-detail">“immobilised”</a>.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Hive Beast Venom</p></td>
+<td><p><a class="reference external" href="10-conditions-types.html#conditions-in-detail">“Incapacitated”</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Refined Mudcrawler Venom</p></td>
+<td><p>1d10 poison damage (SP/MP)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Fell Beast Venom</p></td>
+<td><p>1d6 STR damage. On snake eyes <a class="reference external" href="10-conditions-types.html#conditions-in-detail">“paralysed”</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Refined Mudwalker Venom</p></td>
+<td><p>6d8 poison damage (SP/MP)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Refined Dragon Venom</p></td>
+<td><p>2d6 DEX damage + 4d12 poison damage (SP/HP)</p></td>
+</tr>
+<tr class="row-even"><td><p>Demon Extract</p></td>
+<td><p><em>This supernatural poison treats poison immunity as if it were resistance.</em> 2d12+2 damage to MP dice count maximum. The character cannot use <a class="reference external" href="06-abilities.html#holy-strike">“Holy Strike”</a>, <a class="reference external" href="06-abilities.html#spirit-strike">“Spirit Strike”</a>, <a class="reference external" href="06-abilities.html#truesight-i-vi">“Truesight”</a> or <a class="reference external" href="06-abilities.html#divine-strike">“Divine Strike”</a> or cast spells with a “divine” or “spiritual” descriptor. <em>Multiple applications do not stack.</em></p></td>
+</tr>
+<tr class="row-odd"><td><p>Broken Fairy Poison</p></td>
+<td><p><em>This supernatural poison treats poison immunity as if it were resistance.</em> On a failed save, an entity cannot use supernatural abilities until cured. Likewise it takes 2d6 CHA and 2d6 WIS damage. <em>Multiple applications do not stack.</em></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>In most settings, most poisons are not readily available in civilisation, as the authorities of most kingdoms would quite rightly be weary of poisonings and poisoners. However this does not necessarily mean that they cannot be obtained if characters know where to look. The cost of a poison should be based on how difficult it is to obtain and produce, and how effective it is. Thus dragon venom and demon extract would be extremely expensive, while bee venom and viper venom might even be sold legally as a medical ingredient. Broken fairy poison, if at all obtainable, would likely only be available from vile and powerful profane entities (not only does one need to break a fairy, but also harvest the extremely dangerous poison without being affected).</p>
+</section>
+</section>
+</section>
+<hr class="docutils" />
+<section id="diseases">
+<h2>Diseases<a class="headerlink" href="#diseases" title="Link to this heading">¶</a></h2>
+<p>Diseases in FanSys, as in our world, are generally long term conditions that hamper the function of the body and mind. Some are contagious, some are hereditary, some are otherwise acquired. In this chapter we deal both with contagious diseases and those that that can be passed on magically. In general, only mortals suffer from diseases of the body. All entities with free will can suffer from disease of the mind/spirit.</p>
+<p>What makes diseases interesting in the sense of the game, is that they spread, therefore a scenario involving a disease there is often a race against time to find the cure, source, or to find a strategy by which it can be contained. Therefore this section also provides suggested doubling time of infected individuals and when (under what conditions) an outbreak of a disease would end without intervention.</p>
+<p>It should be noted that some disease will have a long term effect on the character, and may require a quest, or more, to fix. The use of such diseases in a game is not recommended for groups that do not wish to deal with the consequences.</p>
+<hr class="docutils" />
+<section id="properties-of-a-disease">
+<h3>Properties of a Disease<a class="headerlink" href="#properties-of-a-disease" title="Link to this heading">¶</a></h3>
+<p>Diseases have several properties which define them.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="#affected-entities">Affected Entities</a></p></li>
+<li><p><a class="reference external" href="#diagnosis-threshold">Diagnosis Threshold</a></p></li>
+<li><p><a class="reference external" href="#spread-threshold">Spread Threshold</a></p></li>
+<li><p><a class="reference external" href="#treatment-threshold">Treatment Threshold</a></p></li>
+<li><p><a class="reference external" href="#route-of-transmission">Route of Transmission</a></p></li>
+<li><p><a class="reference external" href="#affected-system-1">Affected System</a></p></li>
+<li><p><a class="reference external" href="#incubation-period">Incubation period</a></p></li>
+<li><p><a class="reference external" href="#duration-1">Duration</a></p></li>
+<li><p><a class="reference external" href="#course">Course</a></p></li>
+<li><p><a class="reference external" href="#lethality">Lethality</a></p></li>
+<li><p><a class="reference external" href="#spread">Spread</a></p></li>
+</ul>
+<section id="affected-entities">
+<h4>Affected Entities<a class="headerlink" href="#affected-entities" title="Link to this heading">¶</a></h4>
+<p>Most diseases can only affect certain species/races/types of entity, others are less selective. For example flu effects humanoids and certain birds, while plague affects mammals in general.</p>
+</section>
+<hr class="docutils" />
+<section id="diagnosis-threshold">
+<h4>Diagnosis Threshold<a class="headerlink" href="#diagnosis-threshold" title="Link to this heading">¶</a></h4>
+<p>How difficult it is to diagnose a disease. Some diseases are easy to diagnose (Threshold as low as 8), or particularly difficult (Threshold of over 30). Diagnosing a disease requires a <a class="reference external" href="05-skills.html#heal">“Heal”</a> roll governed by WIS.</p>
+</section>
+<hr class="docutils" />
+<section id="spread-threshold">
+<h4>Spread Threshold<a class="headerlink" href="#spread-threshold" title="Link to this heading">¶</a></h4>
+<p>How easily a disease spreads. This is the threshold against which an entity must make a CON save to avoid being infected.</p>
+</section>
+<hr class="docutils" />
+<section id="treatment-threshold">
+<h4>Treatment Threshold<a class="headerlink" href="#treatment-threshold" title="Link to this heading">¶</a></h4>
+<p>How difficult it is to treat a disease. Often independent of the difficulty of diagnosis. Treatment a disease requires a <a class="reference external" href="05-skills.html#heal">“Heal”</a> roll governed by DEX or WIS (usually DEX, but can be ruled otherwise by the DM, especially for diseases of the brain, mind and spirit).</p>
+</section>
+<hr class="docutils" />
+<section id="route-of-transmission">
+<h4>Route of Transmission<a class="headerlink" href="#route-of-transmission" title="Link to this heading">¶</a></h4>
+<p>How the disease is transmitted. Unlike poisons, the route of transmission is specific. If a disease is transmitted by multiple routes, they must all be listed. This can be:</p>
+<ul class="simple">
+<li><p><strong>None</strong>: The disease cannot be passed on, and is essentially a curse.</p></li>
+<li><p><strong>Hereditary</strong>: Transmitted from parent to child.</p></li>
+<li><p><strong>Bodily Fluids</strong>: Bodily fluids of an infected individual must mix with those of potential victims. This only counts for direct exchange of bodily fluids (so mosquito bites, for example, wouldn’t count).</p></li>
+<li><p><strong>Bodily Fluids (indirect)</strong>: As spread by “bodily fluids”, but also includes old bodily fluids that are taken out the infected individual and later mixed in some form with the bodily fluids of the victim, so these diseases can be spread by tics, mosquitoes, etc. These diseases are particularly contagious in unsanitary conditions.</p></li>
+<li><p><strong>Touch</strong>: These disease are spread by direct contact with the skin/fur/hair of the infected individual.</p></li>
+<li><p><strong>Breath</strong>: These diseases are spread through inhalation of particles exhaled by infected individuals. They are particularly contagious. Usually one has to spend about a minute within 15ft of an infected individual, or of a place where the infected individual has spent at least 10 minutes within the last hour.</p></li>
+<li><p><strong>Mental</strong>: These diseases are spread through the exchange of ideas between infected individual and victim. This applies mostly to diseases of the mind and some supernatural diseases.</p></li>
+<li><p><strong>Perception</strong>: These diseases are spread purely by witnessing them. Mostly applies to supernatural diseases. These diseases can have a catastrophically quick spread. Contrariwise, if they are lethal their outbreaks can be self-limiting (everyone dies).</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="id1">
+<h4>Affected System<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h4>
+<p>Which part of the body/mind the disease affects, this is a flavour aspect and determines what effects it is likely to have:</p>
+<ul class="simple">
+<li><p><strong>Bones</strong>: Reduced CON, STR, DEX, speed, incapacitating pain, etc.</p></li>
+<li><p><strong>Muscles</strong>: Reduced STR, DEX, speed, etc.</p></li>
+<li><p><strong>Heart/Lungs/Organs</strong>: CON, incapacitation, reduced speed, incapacitating pain, inability to rest, etc.</p></li>
+<li><p><strong>Brain/Mind</strong>: CHA/WIS/INT, loss of proficiencies, loss of memories, reduced speed, paralysis, etc.</p></li>
+<li><p><strong>Spirit</strong>: CHA, loss of proficiencies, inability to use supernatural abilities. Various conditions.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="incubation-period">
+<h4>Incubation Period<a class="headerlink" href="#incubation-period" title="Link to this heading">¶</a></h4>
+<p>An entity affected by a disease often only develops symptoms after the disease has spread sufficiently through the body and has sufficiently “chipped away” at them. During this period it is incredibly difficult to diagnose a disease, and the diagnosis threshold is increased by 10. During the incubation period an infected entity can spread the disease, but is not otherwise affected.</p>
+</section>
+<hr class="docutils" />
+<section id="id2">
+<h4>Duration<a class="headerlink" href="#id2" title="Link to this heading">¶</a></h4>
+<p>How long a disease lasts after the incubation period. Some diseases have a set course, and eventually either kill or release their victims. Others are permanent. A large portion of diseases last between a week and a month, although quite a few last longer.</p>
+</section>
+<hr class="docutils" />
+<section id="course">
+<h4>Course<a class="headerlink" href="#course" title="Link to this heading">¶</a></h4>
+<p>This describes how the effects of a disease change from the start to the end of its duration. For some diseases they do not change, for others they do. Likewise most diseases have three possible courses:</p>
+<ul class="simple">
+<li><p><strong>Asymptotic</strong>: There are no noticeable symptoms. The victim is infectious, but does not suffer from the disease. Diagnosis is as for the <a class="reference external" href="#incubation-period">incubation period</a>.</p></li>
+<li><p><strong>Mild</strong>: The victim suffers only the less serious effects of a disease.</p></li>
+<li><p><strong>Severe</strong>: The victim suffers all of the effects of a disease. Sometimes this includes death.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="lethality">
+<h4>Lethality<a class="headerlink" href="#lethality" title="Link to this heading">¶</a></h4>
+<p>The percentage of infected individuals that dies of a disease if it is untreated, and is determined by the <a class="reference external" href="#course">“course”</a>, <a class="reference external" href="#treatment-threshold">“treatment threshold”</a> and <a class="reference external" href="#spread-threshold">“spread threshold”</a>. This is a property used for storytelling, and is there to help a group determine the magnitude of the damage that the outbreak of this or that disease will have on the world. A group can safely ignore this property and make things up to fit the story.</p>
+</section>
+<hr class="docutils" />
+<section id="spread">
+<h4>Spread<a class="headerlink" href="#spread" title="Link to this heading">¶</a></h4>
+<p>The time needed for the number of infected individuals to double. It is determined by the <a class="reference external" href="#spread-threshold">“spread threshold”</a> and the <a class="reference external" href="#route-of-transmission">“route of transmission”</a>. As with <a class="reference external" href="#lethality">lethality</a>. This is a property used for storytelling, and is there to help a group determine the magnitude of the damage that the outbreak of this or that disease will have on the world. A group can safely ignore this property and make things up to fit the story.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="catching-spreading-and-curing-diseases">
+<h3>Catching, Spreading and Curing Diseases<a class="headerlink" href="#catching-spreading-and-curing-diseases" title="Link to this heading">¶</a></h3>
+<p>A disease can either be spread magically, (eg the <a class="reference external" href="08-spell-list.html#plague">“Plague”</a> spell), or by mundane means.</p>
+<p>Catching a disease through a spell or supernatural ability is as simple as failing the CON save against the caster’s threshold.</p>
+<p>In the case of mundane diseases a character must interact with an infected entity in a way that triggers the route of transmission (eg be bitten by a zombie (or kiss a zombie) for zombification, or for a flu, spend time around a character with a flu).</p>
+<p>In this case, the character must roll a CON save vs the disease’s <a class="reference external" href="#spread-threshold">Spread Threshold</a>. The roll can be declared and then made in secret by the DM for suspense, if the group enjoys that game style.</p>
+<ul class="simple">
+<li><p>If the character succeeds by less than 6, it is infected, but is asymptotic.</p></li>
+<li><p>If the character fails by less than 6, it is infected, and the disease runs a mild course.</p></li>
+<li><p>If the character fails by 6 or more, it is infected, and the disease runs a severe course.</p></li>
+</ul>
+<p>An infected character might then be able to spread a disease.</p>
+<p>To cure a disease, it must be first diagnosed successfully, and then treated. The disease can be cured with a successful heal roll. If the heal roll fails by less than 6, the disease then takes the mild route for the remainder of the duration instead. In this case the victim may attempt a CON save vs the <a class="reference external" href="#treatment-threshold">Treatment Threshold</a>, on a success it is cured.</p>
+<p>In addition diseases can be cured by spells such as <a class="reference external" href="08-spell-list.html#cure">“Cure”</a>. It should be noted, for “cure” in particular, that “S” class diseases can only be cured by casting the spell at 5 MP dice or above. Lastly, some diseases, notably supernatural diseases such as <a class="reference external" href="#zombification-a-class">“Zombification”</a> and “<a class="reference external" href="#dryad-touch-s-class">Dryad’s Touch</a> can only be cured by supernatural means, and in the former case, only before it has run its course.</p>
+</section>
+<hr class="docutils" />
+<section id="list-of-diseases">
+<h3>List of Diseases<a class="headerlink" href="#list-of-diseases" title="Link to this heading">¶</a></h3>
+<section id="cold-c-class">
+<h4>Cold (C class)<a class="headerlink" href="#cold-c-class" title="Link to this heading">¶</a></h4>
+<p>This is a common disease that is characterised by sneezing, coughing and occasional fever. It is spread through breathing (inhalation). It is spread between humanoids. Beasts can suffer from similar diseases, but they are seldom spread beyond similar species.</p>
+<ul class="simple">
+<li><p><strong>Mild</strong>: After the incubation period, victim begins to cough and sneeze and feels mild malaise. For the duration the victim has disadvantage to <a class="reference external" href="05-skills.html#stealth">“stealth”</a> and a -2 to STR, DEX and CON rolls.</p></li>
+<li><p><strong>Severe</strong>: After the incubation period, victim begins to cough and sneeze, runs a fever and feels malaise. For the duration the victim has disadvantage to <a class="reference external" href="05-skills.html#stealth">“stealth”</a>. In addition, during the second week the victim has a -2 to STR, DEX and CON rolls.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="flu-c-class">
+<h4>Flu (C Class)<a class="headerlink" href="#flu-c-class" title="Link to this heading">¶</a></h4>
+<p>This is a common disease that is characterised by sneezing, coughing, malaise and high temperature. Superficially it is similar to a more severe cold. Beasts can suffer from similar diseases, but they are seldom spread beyond similar species. Most commonly birds are susceptible to flu and can easily become infected and spread it far and wide.</p>
+<ul class="simple">
+<li><p><strong>Mild</strong>: After the incubation period, the victim begins to cough and sneeze, runs a fever and feels malaise. For the duration the victim has disadvantage to <a class="reference external" href="05-skills.html#stealth">“stealth”</a>. In addition, after the first week the victim has a -2 to STR, DEX and CON rolls.</p></li>
+<li><p><strong>Severe</strong>: The victim suffers all the conditions of the mild form. In addition, during the second week. the victim has disadvantage to STR, DEX, WIS and CON rolls and to concentration saves. At the end of the second week, the victim makes a CON save vs Threshold=16. If they fail the save, the disadvantage persists into the third week, in addition, the victim suffers 2d6 CON damage, which recovers at a rate of 1 point per long rest. If this CON damage drops the victim’s CON to 0, it dies.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="mudcrawler-b-class">
+<h4>Mudcrawler (B Class)<a class="headerlink" href="#mudcrawler-b-class" title="Link to this heading">¶</a></h4>
+<p>Caused by tiny mudcrawlers burrowing into a flesh of a beast, humanoid or monster, this disease causes a maddening itch and distinctive, raised burrows in the skin. It is spread by Mudwalkers as they “inoculate” the humanoids they kill with their spawn. Thus humanoids that survive Mudwalker attacks and those coming into prolonged contact with their deceased victims are likeliest to be infected. The disease can be cured without any heal rolls by dealing 6 HP damage to the infected individual with bee or viper venom within the course of a minute without any healing in between.</p>
+<ul class="simple">
+<li><p><strong>Mild</strong>: During the first week the victim suffers intense pain beneath its skin and itching, giving it disadvantage on initiative and WIS rolls. On the second week raised burrows appear in the skin, as the mudcrawlers grow and reproduce. Second through to fifth week the character loses 1d4 CHA and 1 point from its HP maximum each week (both are recovered at a rate of 1 per day after the disease ends). During the 6th week all symptoms cease, however, on the last day the mudcrawlers will burst from the victim’s body and disperse, dealing 2d6 shear damage directly to HP.</p></li>
+<li><p><strong>Severe</strong>: During the first week the victim suffers intense pain beneath its skin and maddening itching, giving it disadvantage on initiative and WIS rolls. It must succeed a threshold=20 CHA save at the start of each combat or spend the first round incapacitated. On the second week raised burrows appear in the skin, as the mudcrawlers grow and reproduce. Second through to fifth week the character loses 1d4 CHA and 2 point from its HP maximum each week (both are recovered at a rate of 1 per day after the disease ends). During the 6th week all symptoms cease, however, on the last day the mudcrawlers will burst from the victim’s body and disperse, dealing 4d6 shear damage directly to HP. The tiny mudcrawlers then merge into a fully formed mudcrawler and attempt to devour the body they had burst from.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="measles-b-class">
+<h4>Measles (B Class)<a class="headerlink" href="#measles-b-class" title="Link to this heading">¶</a></h4>
+<p>This is a common and highly contagious disease that humanoids suffer from, characterised by a high fever, cough and a red rash over the whole body.</p>
+<ul class="simple">
+<li><p><strong>Mild</strong>: After the incubation period, the victim develops a cough and a high fever. This is accompanied by rash. For the duration the victim has disadvantage on “<a class="reference external" href="05-skills.html#observe%22">observe</a> rolls and a -2 to STR, DEX, WIS, and CON rolls.</p></li>
+<li><p><strong>Severe</strong>: The victim suffers all the conditions of the mild form. In addition, during the second week, the victim has disadvantage to STR, DEX, WIS and CON rolls and to concentration saves. At the end of the second week, the victim makes a CON save vs Threshold=16, on failure the victim suffers 2d6 CON damage, which recovers at a rate of 1 point per long rest. If this CON damage drops the victim’s CON to 0, it dies.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="yellow-fever-b-class">
+<h4>Yellow Fever (B Class)<a class="headerlink" href="#yellow-fever-b-class" title="Link to this heading">¶</a></h4>
+<p>This disease is transmitted by insect bites, so the speed of its spread depends on the abundance of biting insects. As the name suggests, yellow fever is generally characterised by high fever and jaundice and generally only affects mortals.</p>
+<ul class="simple">
+<li><p><strong>Mild</strong>: After the incubation, the victim develops a high fever, back and muscle aches and nausea. The victim suffers disadvantage to STR, DEX, CON and WIS rolls and its base speed is halved. In addition, at the start of any combat it must succeed a threshold=24 CON save or spend the first round incapacitated with vomiting.</p></li>
+<li><p><strong>Severe</strong>: The victim suffers all effects of the mild form, as well as developing jaundice and bleeding from its orifices. It loses 1d4 from its HP total every day of the duration of the disease (this is recovered at 1 point per long rest after the end of the disease). If the HP total drops to 0, the victim dies.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="plague-bubonic-a-class">
+<h4>Plague (bubonic, A Class)<a class="headerlink" href="#plague-bubonic-a-class" title="Link to this heading">¶</a></h4>
+<p>Plague is a contagious disease that is spread either by the bites of infected fleas (bubonic) or through breathing (pneumonic). Bubonic plague is characterised by severe inflammation of glands, necrosis, and high fever. Any warm blooded mortal can be infected with plague.</p>
+<ul class="simple">
+<li><p><strong>Mild</strong>: The victim suffers all the general symptoms, gaining disadvantage on all STR, DEX, CON, WIS and CHA rolls, its base speed is halved, and takes an extra 1 HP damage, every time it takes any damage (SP, MP or HP). At the end of the first week, the victim makes a CON save vs threshold=22 or suffers 1d10 CON damage (which then recovers at the rate of 1 point per long rest). If this damage takes the victim’s CON to 0, it dies.</p></li>
+<li><p><strong>Severe</strong>: The victim suffers all the effects of the mild form. In addition, the victim is crippled due to necrosis of a random limb and must make a CHA save vs threshold=22 at the start of a combat or be incapacitated with seizures during the first round. At the end of the first week the victim must succeed a CON save vs a threshold=22, or suffer 3d6 CON damage (this is INSTEAD of the 1d10 damage suffered in the mild form; damage is recovered at 1 point per long rest after the end of the disease) as their blood congeals. If the HP total drops to 0, the victim dies.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="plague-pneumonic-s-class">
+<h4>Plague (Pneumonic, S Class)<a class="headerlink" href="#plague-pneumonic-s-class" title="Link to this heading">¶</a></h4>
+<p>Pneumonic plague is a contagious disease that is spread through breathing ‘contaminated’ air. It is characterised by coughing up blood, high fever, and chest pains. There is no mild form for this disease and it is lethal without treatment for all but the most resilient of mortals that become infected.</p>
+<ul class="simple">
+<li><p><strong>Severe</strong>: The victim suffers all the general symptoms, gaining disadvantage on all STR, DEX, CON, WIS rolls, and its base speed is halved for the duration of the disease. It takes 1d4 damage to its maximum HP every 4 hours. If it survives the disease, it will recover its maximum HP at the rate of 1 point per long rest.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="smallpox-s-class">
+<h4>Smallpox (S Class)<a class="headerlink" href="#smallpox-s-class" title="Link to this heading">¶</a></h4>
+<p>This is a disease spread by breathing ‘contaminated’ air and through contact with an infected entity. It is characterised by fever, vomiting and rash which covers the whole body and eventually turns to blisters.</p>
+<ul class="simple">
+<li><p><strong>Mild</strong>: In the first and second week, the victim suffers from fever and nausea, taking disadvantage to STR, CON and WIS rolls, as well as having to succeed a CON save vs threshold=28 at the start of every battle or spend the first round incapacitated with nausea. During the third week rash develops, adding disadvantage to DEX saves. The victim must succeed a CON save vs threshold=28 or suffer 2d6 CON damage (which then recovers at the rate of 1 point per long rest). If this damage takes the victim’s CON to 0, it dies. In the fourth weeks the rash turns into a permanent blister, and the victim suffers 1d6 CHA damage.</p></li>
+<li><p><strong>Severe</strong>: The victim suffers all the effects of the mild disease. In addition, it suffers 1d4 HP damage for every day of the third week. In addition it must succeed a CON save (threshold=28) at the end of the third week or become permanently blind.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="creeping-amnesia-a-class">
+<h4>Creeping Amnesia (A Class)<a class="headerlink" href="#creeping-amnesia-a-class" title="Link to this heading">¶</a></h4>
+<p>This is a progressive disease of the mind, characterised by gradual loss of memories. It cannot be healed by mundane means. While not dangerous in kingdoms with strong schools of magic and temples to gods of healing, it is problematic in places healers are rare. Creeping Amnesia lies half way between curse and disease, and can be caught by treading on cursed ground, from drinking the waters that originate in <a class="reference external" href="03-movement-exploration.html#afterlives">afterlife realms</a>, or after receiving the kiss of a spirit of oblivion.</p>
+<ul class="simple">
+<li><p><strong>Mild</strong>: Each month, a character must make a CON save vs threshold=18 or lose 1 INT and one skill point from the skill they have the most ranks in (skill of their choice). If the disease is cured, INT is regained at a rate of 1 point per month, and skills ranks at a rate of 1 per week.</p></li>
+<li><p><strong>Severe</strong>: The disease runs its course as per the “mild” form. However, neither the skills nor the INT damage can be recovered by any means short of <a class="reference external" href="08-spell-list.html#fairy-ballmasquerade">“Fairy Ball”</a> or <a class="reference external" href="08-spell-list.html#edict-of-life">“Edict of Life”</a>, although one can still use <a class="reference external" href="08-spell-list.html#pact">“Pact”</a> and <a class="reference external" href="08-spell-list.html#mages-oath">“Mage’s Oath”</a> to swap the damage/skill loss with another.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="dryad-touch-s-class">
+<h4>Dryad Touch (S Class)<a class="headerlink" href="#dryad-touch-s-class" title="Link to this heading">¶</a></h4>
+<p>This disease affects mortals that return from at least intermediate layers of the spirit realm after having laid eyes on beings with a CHA score that exceeds their own by at least 10. It is characterised by apathy, and gradual loss of will and memories. This is a supernatural disease.</p>
+<ul class="simple">
+<li><p><strong>Mild</strong>: In the first month, the victim makes initiative rolls at disadvantage. In the second month it also suffers -2 to all INT, WIS and CHA rolls. In the third month its maximum MP dice count is reduced by 1d4 each week, in addition to previous symptoms (this is regained at the rate of 1 die per long rest at the end of the month). In the fourth month the other effects apart from the initiative penalty end, but the victim loses the ability to take reactions until the end of the month.</p></li>
+<li><p><strong>Severe</strong>: The victim suffers all of the effects of the mild form, however, during the third month it must succeed a CHA save vs threshold=24 every day or lose one of its abilities/boons, starting from the most recently acquired. If it has no abilities left, its maximum HP is reduced by 1d4 instead (this is recovered at 1 point per long rest after the end of the disease). The victim, should it survive the disease, can recover its abilities if it travels to the domain where it became infected and slays the being it laid eyes on.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="pilgrim-s-fire-s-class">
+<h4>Pilgrim’s Fire (S Class)<a class="headerlink" href="#pilgrim-s-fire-s-class" title="Link to this heading">¶</a></h4>
+<p>This disease affects humanoids and monsters with at least 5 INT that do not have a “divine” alignment that subsume the flame of a Seraph or that of a divinity associated with righteousness and vengeance. It is characterised by an uplifted, almost exalted state that strives for a higher justice and incapacitating pain when it is not followed. This is a divine disease that can only be treated by specific deeds or supernatural means.</p>
+<ul class="simple">
+<li><p><strong>Mild</strong>: Immediately, the victim gains the ability to distinguish <a class="reference external" href="10-conditions-types.html#profane-1">profane beings</a> and those of profane alignment by smell, and must make a Threshold=16 CON save or be incapacitated when within 10ft of one. In the second week, the victim can tell spoken trust from falsehood, and takes 1 HP damage (entropic) every time it lies. In the third week, the victim gains a razor sharp sense of justice and advantage at <a class="reference external" href="05-skills.html#sense-motive">“sense motive”</a> rolls. If they witness an injustice take place they must immediately set about righting (or avenging) it. Else if they recognise a profane being, they must do their utmost to destroy it. If they do, they do not suffer incapacitation due to closeness to profane beings until their next long rest. If they do not, they suffer 1d4 CON and CHA damage (which heals at a rate of 1 point per long rest). The disease is cured if the victim vanquishes profane beings of a higher level than itself, or prevents/rights/avenges injustices to a total count of 12.</p></li>
+<li><p><strong>Severe</strong>: For the first month the disease progresses as the mild form, except in the fourth week the victim begins to emit a bright light in a 60ft radius and dim light in a 120ft radius (this can be seen 20 miles away on a dark night). If the disease is not cured at the end of the first month, the disease becomes curable only by divine intervention. At the start of the second month the victim suffers terrible visions on following days when they pass by injustice or profane beings without attempting to vanquish them, and must make a threshold=24 CHA roll or fail to gain the benefits of the rest. When the victim has vanquished a total of 12 profane beings more powerful than itself, or prevented/righted/avenged 12 grave injustices, its essence is torn asunder and it emerges as a Seraph under the control an appropriate deity.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="zombification-a-class">
+<h4>Zombification (A Class)<a class="headerlink" href="#zombification-a-class" title="Link to this heading">¶</a></h4>
+<p>This is a supernatural disease of profane origin that cannot be treated by mundane means. It is spread through the bite of a zombie and is fundamentally simple:</p>
+<p>Any mortal bitten once or more by a zombie must make a CON save at midnight. Should they fail, they will die and become a zombie in 6d12 hours. This disease counts as supernatural and can only be cured by supernatural means. It cannot be cured once it has run its course.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="summary-table-of-diseases">
+<h3>Summary Table of Diseases<a class="headerlink" href="#summary-table-of-diseases" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Diagnosis Threshold</p></th>
+<th class="head"><p>Spread Threshold</p></th>
+<th class="head"><p>Treatment Threshold</p></th>
+<th class="head"><p>Route of Transmission</p></th>
+<th class="head"><p>Incubation Period</p></th>
+<th class="head"><p>Duration</p></th>
+<th class="head"><p>Lethality</p></th>
+<th class="head"><p>Spread</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Cold</p></td>
+<td><p>12</p></td>
+<td><p>16</p></td>
+<td><p>12</p></td>
+<td><p>Breath</p></td>
+<td><p>1d4 days</p></td>
+<td><p>2 weeks</p></td>
+<td><p>0</p></td>
+<td><p>1 week</p></td>
+</tr>
+<tr class="row-odd"><td><p>Flu</p></td>
+<td><p>12</p></td>
+<td><p>16</p></td>
+<td><p>16</p></td>
+<td><p>Breath</p></td>
+<td><p>1d4 days</p></td>
+<td><p>3 weeks</p></td>
+<td><p>2%</p></td>
+<td><p>15 days</p></td>
+</tr>
+<tr class="row-even"><td><p>Mudcrawler</p></td>
+<td><p>8</p></td>
+<td><p>20</p></td>
+<td><p>12</p></td>
+<td><p>Contact/Special</p></td>
+<td><p>2 days</p></td>
+<td><p>6 weeks</p></td>
+<td><p>5%</p></td>
+<td><p>1 month</p></td>
+</tr>
+<tr class="row-odd"><td><p>Measles</p></td>
+<td><p>8</p></td>
+<td><p>20</p></td>
+<td><p>16</p></td>
+<td><p>Breath/Contact</p></td>
+<td><p>1d4+8 days</p></td>
+<td><p>1 week</p></td>
+<td><p>5%</p></td>
+<td><p>2 days</p></td>
+</tr>
+<tr class="row-even"><td><p>Yellow Fever</p></td>
+<td><p>14</p></td>
+<td><p>16</p></td>
+<td><p>24</p></td>
+<td><p>Bodily fluids (indirect)</p></td>
+<td><p>1d4+2</p></td>
+<td><p>4 days</p></td>
+<td><p>10%</p></td>
+<td><p>varies</p></td>
+</tr>
+<tr class="row-odd"><td><p>Plague (Bubonic)</p></td>
+<td><p>8</p></td>
+<td><p>24</p></td>
+<td><p>22</p></td>
+<td><p>Bodily fluids (indirect)</p></td>
+<td><p>1d6+1 days</p></td>
+<td><p>2 weeks</p></td>
+<td><p>50%</p></td>
+<td><p>varies</p></td>
+</tr>
+<tr class="row-even"><td><p>Plague (Pneumonic)</p></td>
+<td><p>8</p></td>
+<td><p>12</p></td>
+<td><p>32</p></td>
+<td><p>Breath</p></td>
+<td><p>1d6+2 days</p></td>
+<td><p>2 days</p></td>
+<td><p>95%</p></td>
+<td><p>2 weeks</p></td>
+</tr>
+<tr class="row-odd"><td><p>Plague</p></td>
+<td><p>8</p></td>
+<td><p>12</p></td>
+<td><p>22</p></td>
+<td><p>varies</p></td>
+<td><p>1d6+2</p></td>
+<td><p>Up to 2 weeks</p></td>
+<td><p>55%</p></td>
+<td><p>varies</p></td>
+</tr>
+<tr class="row-even"><td><p>Smallpox</p></td>
+<td><p>12</p></td>
+<td><p>28</p></td>
+<td><p>28</p></td>
+<td><p>breath</p></td>
+<td><p>1d12+6 days</p></td>
+<td><p>4 weeks</p></td>
+<td><p>30%</p></td>
+<td><p>1 week</p></td>
+</tr>
+<tr class="row-odd"><td><p>Creeping Amnesia</p></td>
+<td><p>22</p></td>
+<td><p>20</p></td>
+<td><p>-</p></td>
+<td><p>special</p></td>
+<td><p>Immediate onset</p></td>
+<td><p>chronic</p></td>
+<td><p>0</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-even"><td><p>Dryad Touch</p></td>
+<td><p>22</p></td>
+<td><p>16</p></td>
+<td><p>24</p></td>
+<td><p>Perception</p></td>
+<td><p>1d6 days</p></td>
+<td><p>4 months</p></td>
+<td><p>10%</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-odd"><td><p>Pilgrim’s Fire</p></td>
+<td><p>24</p></td>
+<td><p>24 (CHA)</p></td>
+<td><p>24</p></td>
+<td><p>special</p></td>
+<td><p>Immediate onset</p></td>
+<td><p>chronic</p></td>
+<td><p>60%</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-even"><td><p>Zombification</p></td>
+<td><p>8</p></td>
+<td><p>16</p></td>
+<td><p>16</p></td>
+<td><p>Bodily fluids</p></td>
+<td><p>6d12 hours</p></td>
+<td><p>-</p></td>
+<td><p>60%</p></td>
+<td><p>1 day</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="15-charm-etc.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">A note on charm, domination and possession</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="13-crafting-imbuing.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Crafting and Imbuing</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2023-3023, Fantasy Committee
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Poisons and Diseases</a><ul>
+<li><a class="reference internal" href="#poisons">Poisons</a><ul>
+<li><a class="reference internal" href="#properties-of-a-poison">Properties of a Poison</a><ul>
+<li><a class="reference internal" href="#threshold">Threshold</a></li>
+<li><a class="reference internal" href="#potency">Potency</a></li>
+<li><a class="reference internal" href="#duration">Duration</a></li>
+<li><a class="reference internal" href="#onset">Onset</a></li>
+<li><a class="reference internal" href="#mode-of-application">Mode of Application</a></li>
+<li><a class="reference internal" href="#affected-system">Affected System</a></li>
+<li><a class="reference internal" href="#effect">Effect</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#types-of-poison">Types of Poison</a><ul>
+<li><a class="reference internal" href="#necrotising-poisons">Necrotising Poisons</a></li>
+<li><a class="reference internal" href="#nerve-poisons">Nerve Poisons</a></li>
+<li><a class="reference internal" href="#general-poisons">General Poisons</a></li>
+<li><a class="reference internal" href="#spirit-poisons">Spirit Poisons</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#being-poisoned-and-cured">Being Poisoned and Cured</a></li>
+<li><a class="reference internal" href="#using-poison">Using Poison</a><ul>
+<li><a class="reference internal" href="#applying-poisons-to-weapons">Applying poisons to weapons</a></li>
+<li><a class="reference internal" href="#poisons-and-shelf-life">Poisons and Shelf-life</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#poison-list">Poison List</a><ul>
+<li><a class="reference internal" href="#general-properties">General properties</a></li>
+<li><a class="reference internal" href="#effects">Effects</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#diseases">Diseases</a><ul>
+<li><a class="reference internal" href="#properties-of-a-disease">Properties of a Disease</a><ul>
+<li><a class="reference internal" href="#affected-entities">Affected Entities</a></li>
+<li><a class="reference internal" href="#diagnosis-threshold">Diagnosis Threshold</a></li>
+<li><a class="reference internal" href="#spread-threshold">Spread Threshold</a></li>
+<li><a class="reference internal" href="#treatment-threshold">Treatment Threshold</a></li>
+<li><a class="reference internal" href="#route-of-transmission">Route of Transmission</a></li>
+<li><a class="reference internal" href="#id1">Affected System</a></li>
+<li><a class="reference internal" href="#incubation-period">Incubation Period</a></li>
+<li><a class="reference internal" href="#id2">Duration</a></li>
+<li><a class="reference internal" href="#course">Course</a></li>
+<li><a class="reference internal" href="#lethality">Lethality</a></li>
+<li><a class="reference internal" href="#spread">Spread</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#catching-spreading-and-curing-diseases">Catching, Spreading and Curing Diseases</a></li>
+<li><a class="reference internal" href="#list-of-diseases">List of Diseases</a><ul>
+<li><a class="reference internal" href="#cold-c-class">Cold (C class)</a></li>
+<li><a class="reference internal" href="#flu-c-class">Flu (C Class)</a></li>
+<li><a class="reference internal" href="#mudcrawler-b-class">Mudcrawler (B Class)</a></li>
+<li><a class="reference internal" href="#measles-b-class">Measles (B Class)</a></li>
+<li><a class="reference internal" href="#yellow-fever-b-class">Yellow Fever (B Class)</a></li>
+<li><a class="reference internal" href="#plague-bubonic-a-class">Plague (bubonic, A Class)</a></li>
+<li><a class="reference internal" href="#plague-pneumonic-s-class">Plague (Pneumonic, S Class)</a></li>
+<li><a class="reference internal" href="#smallpox-s-class">Smallpox (S Class)</a></li>
+<li><a class="reference internal" href="#creeping-amnesia-a-class">Creeping Amnesia (A Class)</a></li>
+<li><a class="reference internal" href="#dryad-touch-s-class">Dryad Touch (S Class)</a></li>
+<li><a class="reference internal" href="#pilgrim-s-fire-s-class">Pilgrim’s Fire (S Class)</a></li>
+<li><a class="reference internal" href="#zombification-a-class">Zombification (A Class)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#summary-table-of-diseases">Summary Table of Diseases</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="_static/documentation_options.js?v=8bafd125"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/scripts/furo.js?v=46bd48cc"></script>
+    </body>
+</html>

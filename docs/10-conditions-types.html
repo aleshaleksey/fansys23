@@ -1,0 +1,1475 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="./">
+  <head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="genindex.html"><link rel="search" title="Search" href="search.html"><link rel="next" title="Weapons and armour" href="11-weapons-armour.html"><link rel="prev" title="Types, Races, Species and Templates" href="09-races.html">
+
+    <!-- Generated with Sphinx 8.2.3 and Furo 2025.09.25 -->
+        <title>Conditions and Types - FanSys 0.0.18</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d111a655" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=580074bf" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=8dab3a3b" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f2f2f2;
+  --color-code-foreground: #1e1e1e;
+  --color-foreground-primary: #202424;
+  --color-foreground-secondary: #4a4c53;
+  --color-brand-primary: #112233;
+  --color-brand-content: #443322;
+  --color-brand-visited: #448822;
+  --color-background-primary: #f2f4ec;
+  --color-background-secondary: #e5e7e3;
+  --color-background-hover: #fafaf5;
+  --color-background-border: #40404067;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-foreground-primary: #cfd0d0;
+  --color-foreground-secondary: #acb0b5;
+  --color-brand-primary: #AABBCC;
+  --color-brand-content: #CFBEAC;
+  --color-brand-visited: #99DD99;
+  --color-background-primary: #242628;
+  --color-background-secondary: #2a2c2e;
+  --color-background-hover: #1e2124ff;
+  --color-background-border: #483945;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-foreground-primary: #cfd0d0;
+  --color-foreground-secondary: #acb0b5;
+  --color-brand-primary: #AABBCC;
+  --color-brand-content: #CFBEAC;
+  --color-brand-visited: #99DD99;
+  --color-background-primary: #242628;
+  --color-background-secondary: #2a2c2e;
+  --color-background-hover: #1e2124ff;
+  --color-background-border: #483945;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle site navigation sidebar">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc" aria-label="Toggle table of contents sidebar">
+<label class="overlay sidebar-overlay" for="__navigation"></label>
+<label class="overlay toc-overlay" for="__toc"></label>
+
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <span class="icon"><svg><use href="#svg-menu"></use></svg></span>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="index.html"><div class="brand">FanSys 0.0.18</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="index.html">
+  
+  <span class="sidebar-brand-text">FanSys 0.0.18</span>
+  
+</a><form class="sidebar-search-container" method="get" action="search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Index:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="01-quick-start.html">FanSys23 Quick-start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="03-movement-exploration.html">Actions outside of Combat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="04-combat.html">Combat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="05-skills.html">Skills</a></li>
+<li class="toctree-l1"><a class="reference internal" href="06-abilities.html">Abilities and Boons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="07-magic-and-spellcasting.html">Spells</a></li>
+<li class="toctree-l1"><a class="reference internal" href="08-spell-list.html">Spell List</a></li>
+<li class="toctree-l1"><a class="reference internal" href="09-races.html">Types, Races, Species and Templates</a></li>
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Conditions and Types</a></li>
+<li class="toctree-l1"><a class="reference internal" href="11-weapons-armour.html">Weapons and armour</a></li>
+<li class="toctree-l1"><a class="reference internal" href="12-equipment-economy.html">Equipment and Economy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="13-crafting-imbuing.html">Crafting and Imbuing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="14-poisons-and-diseases.html">Poisons and Diseases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="15-charm-etc.html">A note on charm, domination and possession</a></li>
+<li class="toctree-l1"><a class="reference internal" href="16-recipes.html">Recipes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="02-base-rules.html">Base Rules</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="bestiary.html">A Bestiary for Fantasy Worlds</a><input aria-label="Toggle navigation of A Bestiary for Fantasy Worlds" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/forwards.html">Forwards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/beasts-and-plants.html">Beasts and Plants</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/constructs.html">Constructs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/divines.html">Divines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/humanoids.html">NPC stat blocks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/monsters-and-dragons.html">Monsters and Dragons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/profanes.html">Profanes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/spirits.html">Spirits</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="CHANGELOG.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="TODO.html">Character sheet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="LICENSE.html">License</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="view-this-page">
+  <a class="muted-link" href="_sources/10-conditions-types.md.txt" title="View this page">
+    <svg><use href="#svg-eye"></use></svg>
+    <span class="visually-hidden">View this page</span>
+  </a>
+</div>
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          <section id="conditions-and-types">
+<h1>Conditions and Types<a class="headerlink" href="#conditions-and-types" title="Link to this heading">¶</a></h1>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="#natural-and-supernatural-origins">Natural and supernatural origins</a></p>
+<ul class="simple">
+<li><p><a class="reference external" href="#natural-and-supernatural-damage-and-abilities">Natural and Supernatural damage and abilities</a></p></li>
+<li><p><a class="reference external" href="#mundane-magical-and-spiritual-weapons">Mundane, magical and spiritual weapons</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#damage-types">Damage types</a></p>
+<ul class="simple">
+<li><p><a class="reference external" href="#damage-type-list">Damage type list</a></p></li>
+<li><p><a class="reference external" href="#physical-damage">Physical damage</a></p>
+<ul>
+<li><p><a class="reference external" href="#piercing">Piercing</a></p></li>
+<li><p><a class="reference external" href="#slashing">Slashing</a></p></li>
+<li><p><a class="reference external" href="#percussive">Percussive</a></p></li>
+<li><p><a class="reference external" href="#shear">Shear</a></p></li>
+<li><p><a class="reference external" href="#pressure">Pressure</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#biological-damage">Biological damage</a></p>
+<ul>
+<li><p><a class="reference external" href="#poison">Poison</a></p></li>
+<li><p><a class="reference external" href="#necrotic">Necrotic</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#energyelemental-damage">Energy/elemental damage</a></p>
+<ul>
+<li><p><a class="reference external" href="#heat-fire">Heat (Fire)</a></p></li>
+<li><p><a class="reference external" href="#cold-ice">Cold (Ice)</a></p></li>
+<li><p><a class="reference external" href="#electricity-lightning">Electricity (Lightning)</a></p></li>
+<li><p><a class="reference external" href="#light">Light</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#esoteric-damage">Esoteric damage</a></p>
+<ul>
+<li><p><a class="reference external" href="#divine">Divine</a></p></li>
+<li><p><a class="reference external" href="#entropic">Entropic</a></p></li>
+<li><p><a class="reference external" href="#profane">Profane</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#damage-rankings">Damage rankings</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#entity-types">Entity types</a></p></li>
+<li><p><a class="reference external" href="#detailed-entity-descriptions">Detailed entity descriptions</a></p>
+<ul class="simple">
+<li><p><a class="reference external" href="#mortals">Mortals</a></p></li>
+<li><p><a class="reference external" href="#constructs">Constructs</a></p></li>
+<li><p><a class="reference external" href="#spiritual">Spiritual</a></p></li>
+<li><p><a class="reference external" href="#divine-1">Divine</a></p></li>
+<li><p><a class="reference external" href="#profane-1">Profane</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#conditions-and-states">Conditions and states</a></p>
+<ul class="simple">
+<li><p><a class="reference external" href="#disabled-states">Disabled States</a></p></li>
+<li><p><a class="reference external" href="#condition-table">Condition Table</a></p></li>
+<li><p><a class="reference external" href="#conditions-in-detail">Conditions in detail</a></p></li>
+</ul>
+</li>
+</ol>
+<hr class="docutils" />
+<section id="natural-and-supernatural-origins">
+<h2>Natural and supernatural origins<a class="headerlink" href="#natural-and-supernatural-origins" title="Link to this heading">¶</a></h2>
+<p>Most entities and phenomena in the game are classified as <strong>natural</strong>/<strong>mundane</strong> (Nat) or <strong>supernatural</strong> (Sup). “Natural” implies that it generally obeys the laws of logic, mathematics, physics and other natural laws. “Supernatural” implies the fantastic, which might not obey those laws (although it must obey game mechanics, so it clearly obeys some form of logic). A normal house is “natural”/”mundane”, but a house possessed by a hungry demon is most certainly “supernatural” (at least until someone gets rid of the demon). The “supernatural” includes gods, spirits, magic and more.</p>
+<p>Often supernatural entities are not affected by “natural” attacks, or have a resistance to them and have abilities that defy reason and bypass mundane, “natural” defences.</p>
+<p>Most characters are fundamentally “natural”, but possesses some “supernatural” abilities and traits. This is an important factor both in building a character and playing it.</p>
+<hr class="docutils" />
+<section id="natural-and-supernatural-damage-and-abilities">
+<h3>Natural and Supernatural damage and abilities<a class="headerlink" href="#natural-and-supernatural-damage-and-abilities" title="Link to this heading">¶</a></h3>
+<p>Damage can be either Nat or Sup. Nat damage first affects the target’s SP, being at least partially absorbed, before affecting HP. It generally affects the physical form. Sup damage is first buffered, at least in part, by an entity’s MP, before affecting HP. It affects an entity’s essence or spirit. Thus if an entity takes 10 “fire”[Sup] damage, the first, say, 7 points may be absorbed by MP, with the remaining 3 points doing HP damage. The exact calculation for maximum Nat damage absorbed by SP is [CON + 2 x SP dice total], and is symmetrical for MP and Sup (see <a class="reference external" href="02-base-rules.html#resource-pools">“Resource Pools”</a> section).</p>
+<p>Damage caused by mundane or martial abilities is Nat, unless the ability is very powerful, at which point it may become Sup. Damage caused by magic, spells and other supernatural abilities is usually Sup, but may also be Nat on occasion (most notably <a class="reference external" href="10-conditions-types.html#physical-damage">“physical”</a> damage from spells is considered Natural).</p>
+<p>Some types of damage bypass both MP and SP, and attack HP directly. Entities that possess abilities that inflict these types of damage are extremely dangerous.</p>
+<p>Nat abilities are fuelled by SP dice. Sup damage is fuelled by MP dice.</p>
+</section>
+<hr class="docutils" />
+<section id="resistance-to-damage-and-conditions">
+<h3>Resistance to damage and conditions<a class="headerlink" href="#resistance-to-damage-and-conditions" title="Link to this heading">¶</a></h3>
+<p>This is covered in depth in <a class="reference external" href="04-combat.html#damage-and-death">“Combat: Damage and Death”</a>. In short, resistance to a type of damage means an entity takes half the damage from that type (rounded down). Damage vulnerability means it takes the full damage and then takes half the damage again (in short x1.5).</p>
+<p>Resistance to a condition means the entity has advantage on the saves vs a condition. Vulnerability means it has disadvantage.</p>
+<p>Immunity to a damage type or condition means the entity is not affected by it.</p>
+</section>
+<hr class="docutils" />
+<section id="damage-over-time">
+<h3>Damage over time<a class="headerlink" href="#damage-over-time" title="Link to this heading">¶</a></h3>
+<p>Damage over time is defined in the <a class="reference external" href="04-combat.html#damage-and-effects-over-time">“Combat: Damage and effects over time”</a> section.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="hp-damage-and-conditions">
+<h2>HP damage and conditions<a class="headerlink" href="#hp-damage-and-conditions" title="Link to this heading">¶</a></h2>
+<p>When an entity loses HP due to damage, it risks acquiring a condition (see <a class="reference external" href="#conditions-by-damage-type">“Conditions by Damage Type”</a> table).</p>
+<p>If the damage is due to a targeted attack, for every “12” on the attack roll, it gains one associated condition (likewise see extra conditions by weapon).</p>
+<p>If the damage is due to an effect that allows a save, it instead gains one associated condition for every “1” it rolls on the save.</p>
+<p>If the damage is from a source that has neither attack roll or save, it automatically gains the condition.</p>
+<hr class="docutils" />
+<section id="mundane-magical-and-spiritual-weapons">
+<h3>Mundane, magical and spiritual weapons<a class="headerlink" href="#mundane-magical-and-spiritual-weapons" title="Link to this heading">¶</a></h3>
+<p>Weapons can be mundane, magical or spiritual.</p>
+<ul class="simple">
+<li><p>A mundane weapon deals “physical”[Nat] damage, attacking SP and then HP.</p></li>
+<li><p>A magical weapon deals “physical”[Nat] damage, attacking SP and then HP. It might, on occasion, overcome resistance, but not immunity to physical damage. These weapons are useful for fighting monsters and dragons and should be rare and expensive in any sane setting.</p></li>
+<li><p>A spiritual weapon may (or may not) appear ordinary, but deals “divine”[Sup] damage. As an exception to normal “divine” damage rules, these weapons attack MP and then HP. Spiritual weapons should be exceptionally rare.</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="damage-types">
+<h2>Damage types<a class="headerlink" href="#damage-types" title="Link to this heading">¶</a></h2>
+<p>All damage is deduced from current HP. HP are protected from Nat damage by SP, and from Sup damage by MP. An entity’s MP/SP can absorb a certain amount of damage, which is then deduced from current MP/SP total. Excess damage over that limit is deduced from current HP (see <a class="reference external" href="02-base-rules.html#resource-pools">“Resource pools”</a> for more details on these limits). When an entity reaches 0 HP it is “dying”. Some damage types ignore MP/SP. They are particularly dangerous.</p>
+<p>All damage types have associated conditions. If an entity takes HP damage, it risks acquiring such a condition (see above “HP damage and conditions”).</p>
+<hr class="docutils" />
+<section id="damage-type-list">
+<h3>Damage type list<a class="headerlink" href="#damage-type-list" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><strong>Physical</strong> (Nat)</p>
+<ul>
+<li><p>Slashing</p></li>
+<li><p>Piercing</p></li>
+<li><p>Percussive</p></li>
+<li><p>Shear</p></li>
+<li><p>Pressure</p></li>
+</ul>
+</li>
+<li><p><strong>Biological</strong> (Nat or Sup)</p>
+<ul>
+<li><p>Poison</p></li>
+<li><p>Necrotic</p></li>
+</ul>
+</li>
+<li><p><strong>Corrosive</strong> (Nat or Sup)</p></li>
+<li><p><strong>Energy</strong> (Nat or Sup)</p>
+<ul>
+<li><p>Heat (fire)</p></li>
+<li><p>Cold (ice)</p></li>
+<li><p>Electricity (lightning)</p></li>
+<li><p>Light</p></li>
+</ul>
+</li>
+<li><p><strong>Esoteric</strong> (Sup)</p>
+<ul>
+<li><p>Divine</p></li>
+<li><p>Entropic</p></li>
+<li><p>Profane</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="physical-damage">
+<h3>Physical damage<a class="headerlink" href="#physical-damage" title="Link to this heading">¶</a></h3>
+<p>Physical damage destroys the physical structure of a target by direct application of physical force. Weapon damage is almost always physical damage. Entities without a physical form are ALWAYS immune to physical damage. Entities with a supernatural form may also be immune to physical damage (eg spirits).</p>
+<p>Physical damage, is generally considered “natural”, even if it is caused by most <a class="reference external" href="07-magic-and-spellcasting.html">spells</a>.</p>
+<hr class="docutils" />
+<section id="piercing">
+<h4>Piercing<a class="headerlink" href="#piercing" title="Link to this heading">¶</a></h4>
+<p>Piercing damage is typically caused by teeth and pointy weapons and projectiles. It involves the concentration of force at a small point (pressure), which results in deep penetration of the target along a line. Soft targets with and without a hard shell are typically susceptible to this kind of damage.</p>
+<p><strong>Associated Conditions:</strong> <a class="reference external" href="#bleedingwilting">“bleeding”</a>.</p>
+</section>
+<hr class="docutils" />
+<section id="slashing">
+<h4>Slashing<a class="headerlink" href="#slashing" title="Link to this heading">¶</a></h4>
+<p>Slashing damage is typically caused by bladed weapons or sharp claws. It involves the physical splitting of two parts of a target by application of concentrated force along a plane (a cut). Soft targets are particularly susceptible to slashing damage.</p>
+<p><strong>Associated Conditions:</strong> <a class="reference external" href="#bleedingwilting">“bleeding”</a> <a class="reference external" href="#crippled">“crippled”</a>.</p>
+</section>
+<hr class="docutils" />
+<section id="percussive">
+<h4>Percussive<a class="headerlink" href="#percussive" title="Link to this heading">¶</a></h4>
+<p>Percussive damage is typically caused by heavy objects with a lot of momentum. It involves the rapid transfer of physical force over a large area, causing brittle materials to break, and pressure-sensitive materials to rupture. Targets of a brittle material are particularly susceptible to this damage type.</p>
+<p><strong>Associated Conditions:</strong> <a class="reference external" href="#crippled">“crippled”</a>, <a class="reference external" href="#prone">“prone”</a>.</p>
+</section>
+<hr class="docutils" />
+<section id="shear">
+<h4>Shear<a class="headerlink" href="#shear" title="Link to this heading">¶</a></h4>
+<p>Shear damage is caused when a target is torn apart, for example by a bear’s claws. Targets of low tensile materials, such as humanoids and animals are particularly susceptible to this damage type.</p>
+<p><strong>Associated Conditions:</strong> <a class="reference external" href="#crippled">“crippled”</a>.</p>
+</section>
+<hr class="docutils" />
+<section id="pressure">
+<h4>Pressure<a class="headerlink" href="#pressure" title="Link to this heading">¶</a></h4>
+<p>Pressure damaged is usually caused by shock waves and special techniques designed to transfer force deep into a target. Much like percussive damage it ruptures pressure sensitive internal structures and can fracture very brittle materials. Targets with internal organs are particularly susceptible to this form of damage.</p>
+<p><strong>Associated Conditions:</strong> <a class="reference external" href="#stunned">“stunned”</a>, <a class="reference external" href="#frightened">“frightened”</a>, <a class="reference external" href="#prone">“prone”</a>, <a class="reference external" href="#incapacitated">“incapacitated”</a>.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="biological-damage">
+<h3>Biological damage<a class="headerlink" href="#biological-damage" title="Link to this heading">¶</a></h3>
+<p>Destroys the biological structure or physiological function of plants, animals, humanoids, monsters and dragons. Entities without a physical form, biological structure or functioning physiology are generally immune to this kind of damage (eg, skeletons, constructs).</p>
+<hr class="docutils" />
+<section id="poison">
+<h4>Poison<a class="headerlink" href="#poison" title="Link to this heading">¶</a></h4>
+<p>Poison damage is caused by substances and energies that directly interfere with biological function, often with grizzly and devastating effects. Poisons always cause the “poisoned” condition, but can also cause any S class condition, and most other conditions. Outside of esoteric damage, it is the single most dangerous form of damage to humanoids and animals (just ask the giant scorpion).</p>
+<p><strong>Associated Conditions:</strong> <a class="reference external" href="#poisoned">“Poisoned”</a>.</p>
+</section>
+<hr class="docutils" />
+<section id="necrotic">
+<h4>Necrotic<a class="headerlink" href="#necrotic" title="Link to this heading">¶</a></h4>
+<p>Necrotic damage is caused by substances and energies that destroy biological structures, often causing grizzly conditions. This damage type can affect corporeal undead since they have a biological body.</p>
+<p><strong>Associated Conditions:</strong> <a class="reference external" href="#bleedingwilting">“bleeding”</a>, <a class="reference external" href="#diseased">“diseased”</a>, <a class="reference external" href="#blinded">“blinded”</a>, <a class="reference external" href="#crippled">“crippled”</a></p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="energy-elemental-damage">
+<h3>Energy/elemental damage<a class="headerlink" href="#energy-elemental-damage" title="Link to this heading">¶</a></h3>
+<p>Energy damage is caused by various forms of energy and can affect anything with a physical form. Energies of a supernatural source, can affect incorporeal entities.</p>
+<hr class="docutils" />
+<section id="heat-fire">
+<h4>Heat (fire)<a class="headerlink" href="#heat-fire" title="Link to this heading">¶</a></h4>
+<p>Fire damage is caused by the heating of a material, and its subsequent oxidation, which causes it to become too frail to maintain its form and function (at least “natural” fire does). “Supernatural” fire burns away the essence. This damage is particularly effective against biological and flammable targets. Heat also tends to travel “upwards” and should not be underestimated! Being on fire and fire damage over time is detailed in <a class="reference external" href="03-movement-exploration.html#fire-damage-and-being-on-fire">“Movement and Exploration: Fire damage and being on fire”</a>.</p>
+<p><strong>Associated Conditions:</strong> <a class="reference external" href="#incapacitated">“incapacitated”</a> (pain), <a class="reference external" href="#blinded">“blinded”</a> (permanent).</p>
+<p><strong>Special</strong>: Flammable materials ignite[1] when dealt at least 2 damage dice of heat damage. Highly flammable materials ignite when dealt any heat damage</p>
+<ol class="arabic simple">
+<li><p>An entity that is on fire takes fire damage at the start of each of its turns unless it takes immediate measures to ameliorate its situation. Usually this is 1d8 damage per round, but can be more for larger entities (see <a class="reference external" href="03-movement-exploration.html#being-on-fire">“Movement and Exploration: Being on fire”</a>).</p></li>
+</ol>
+</section>
+<hr class="docutils" />
+<section id="cold-ice">
+<h4>Cold (ice)<a class="headerlink" href="#cold-ice" title="Link to this heading">¶</a></h4>
+<p>Cold damage is caused by cooling (often rapid) of the target, often causing it to lose physical function, become brittle, freeze and potentially break. It is particularly dangerous to constructs and mortals, while being less damaging to structures than fire or lighting, thus being a favourite of mages in most civilisations.</p>
+<p><strong>Associated Conditions:</strong> <a class="reference external" href="#immobilised">“immobilised”</a> (frozen), <a class="reference external" href="#incapacitated">“incapacitated”</a> (hypothermia).</p>
+</section>
+<hr class="docutils" />
+<section id="electricity-lightning">
+<h4>Electricity (lightning)<a class="headerlink" href="#electricity-lightning" title="Link to this heading">¶</a></h4>
+<p>Lightning damage is caused by a rapid flow of charge through a target which generally causes internal heat-like damage and particularly damages nerves and control systems. Supernatural lightning is often used by divine beings. Lightning is particularly effective against mortals and constructs. Lightning can set fire to flammable materials.</p>
+<p><strong>Associated Conditions:</strong> <a class="reference external" href="#paralysed">“paralysed”</a>, <a class="reference external" href="#immobilised">“immobilised”</a>, <a class="reference external" href="#incapacitated">“incapacitated”</a>, <a class="reference external" href="#stunned">“stunned”</a>.</p>
+<p><strong>Special</strong>:</p>
+<ul class="simple">
+<li><p>Flammable materials ignite when dealt at least 3 damage dice of lightning damage. Highly flammable materials ignite when dealt any heat damage.</p></li>
+<li><p>For every 2 dice of lightning damage taken, mortals and robots take one point of HP damage.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="light">
+<h4>Light<a class="headerlink" href="#light" title="Link to this heading">¶</a></h4>
+<p>Light damage can be caused by intense light, which can ablate both surface and deep layers of an entity. Natural light is often effective against monsters and undead. Supernatural light is particularly effective against spiritual and profane beings.</p>
+<p><strong>Associated Conditions:</strong> <a class="reference external" href="#frightened">“frightened”</a>, <a class="reference external" href="#blinded">“blinded”</a>, <a class="reference external" href="#catatonic">“catatonic”</a>, <a class="reference external" href="#incapacitated">“incapacitated”</a>.</p>
+<p><strong>Special</strong>: Profane beings and spirits take one point of HP damage for every 2 dice of light damage taken.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="esoteric-damage">
+<h3>Esoteric damage<a class="headerlink" href="#esoteric-damage" title="Link to this heading">¶</a></h3>
+<p>Esoteric damage is usually caused by supernatural beings of considerable power, usually divine beings. It typically affects either the spirit or essence of an entity. Esoteric damage cannot exist in a world without the “supernatural”. These three damage types are particularly dangerous because they ignore the SP and MP of entities that are not divine.</p>
+<hr class="docutils" />
+<section id="divine">
+<h4>Divine<a class="headerlink" href="#divine" title="Link to this heading">¶</a></h4>
+<p>Divine damage directly eliminates a target’s spiritual essence. Targets without spirit (mainly objects) are not affected by this damage type. Profane beings and mortals are particularly vulnerable to it. Beware the wrath of the gods.</p>
+<p><strong>Associated Conditions:</strong> <a class="reference external" href="#catatonic">“catatonic”</a>, <a class="reference external" href="#immobilised">“immobilised”</a>, <a class="reference external" href="#incapacitated">“incapacitated”</a>, <a class="reference external" href="#aphonic">“aphonia”</a>, <a class="reference external" href="#blinded">“blinded”</a>, <a class="reference external" href="#frightened">“frightened”</a>.</p>
+<p><strong>Special</strong>:</p>
+<ul class="simple">
+<li><p>As with other Esoteric damage, divine damage ignores SP and MP of entities other than divine entities.</p></li>
+<li><p>Divine damage is caused only by high level abilities and powerful entities. Healing spells also cause divine damage, but only to undead.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="entropic">
+<h4>Entropic<a class="headerlink" href="#entropic" title="Link to this heading">¶</a></h4>
+<p>Entropic damage prevents the laws of creation from functioning, causing physical targets to disintegrate or mutate horribly, while spiritual targets are rendered down to pure chaos.</p>
+<p><strong>Associated Conditions:</strong> <a class="reference external" href="#crippled">“crippled”</a>, <a class="reference external" href="#incapacitated">“incapacitated”</a>, <a class="reference external" href="#bleedingwilting">“bleeding”</a>.</p>
+<p><strong>Special</strong>:</p>
+<ul class="simple">
+<li><p>Entropic damage ignores SP and MP of ALL entities.</p></li>
+<li><p>Entropic damage is caused only by high level abilities and powerful entities.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="profane">
+<h4>Profane<a class="headerlink" href="#profane" title="Link to this heading">¶</a></h4>
+<p>Profane damage is caused <strong>exclusively</strong> by profane entities. It is the destruction of goodness and vital energies, as well as the draining of spiritual energy.</p>
+<p><strong>Associated Conditions:</strong> <a class="reference external" href="#bleedingwilting">“bleeding””</a>, <a class="reference external" href="#immobilised">“immobilised”</a>, <a class="reference external" href="#restrained">“restrained”</a>, <a class="reference external" href="#aphonic">“aphonia”</a>, <a class="reference external" href="#frightened">“frightened”</a>, <a class="reference external" href="#charmed">“charmed”</a>.</p>
+<p><strong>Special</strong>:</p>
+<ul class="simple">
+<li><p>Profane damage ignores SP and MP of all entities except profane entities, divinities and constructs.</p></li>
+<li><p>Profane damage is caused only by high level abilities and powerful entities.</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="damage-rankings">
+<h3>Damage rankings<a class="headerlink" href="#damage-rankings" title="Link to this heading">¶</a></h3>
+<p>Not all damage types were created equal. This is intentional. easily “obtained” damage types have more counter measures than “rare”, “dangerous” or “expensive” damage types. In return the lower class damage types are more easily available, cheaper, and generally have a greater “magnitude”.</p>
+<ul class="simple">
+<li><p>Divine (S Class)</p></li>
+<li><p>Entropic (S Class)</p></li>
+<li><p>Profane (S Class)</p></li>
+<li><p>Corrosive (A Class)</p></li>
+<li><p>Electricity (A Class)</p></li>
+<li><p>Light (A Class)</p></li>
+<li><p>Cold (B Class)</p></li>
+<li><p>Heat (B Class)</p></li>
+<li><p>Necrotic (B Class)</p></li>
+<li><p>Poison (B Class)</p></li>
+<li><p>Pressure (B Class)</p></li>
+<li><p>Percussive (C Class)</p></li>
+<li><p>Piercing (C Class)</p></li>
+<li><p>Shear (C Class)</p></li>
+<li><p>Slashing (C Class)</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="entity-types">
+<h2>Entity types<a class="headerlink" href="#entity-types" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Everything is either “<strong>natural</strong>” (that is to say it obeys the physical laws of the world and can be explained by them), or <strong>supernatural</strong> (that is to say that it does not and cannot).</p></li>
+<li><p>All entities are either:</p>
+<ol class="arabic simple">
+<li><p><strong>Mortals</strong>.</p></li>
+<li><p><strong>Machines</strong>.</p></li>
+<li><p><strong>Divine</strong>/<strong>Profane</strong>/<strong>Spiritual</strong> entities.</p></li>
+</ol>
+</li>
+<li><p>Most entities are mortals, including characters. All mortals are alive and can die.</p></li>
+<li><p>Machines are not alive and therefore cannot die. They can however be created and destroyed.</p></li>
+<li><p>Divine/Profane/Spiritual entities are often not truly alive, and often tend to be eternal. Some are referred to as “gods” or “immortals”. This leaves some unanswered questions as to what the rest of them are. Whatever else, they are all <strong>supernatural</strong>.</p></li>
+<li><p>In addition creatures fall into other categories that have additional properties and rules pertaining to them.</p></li>
+<li><p>There are more types of “supernatural” entity, but most entities a character is likely to encounter are probably “natural”.</p></li>
+<li><p>Entity types include:</p>
+<ul>
+<li><p><strong>Mortals</strong></p>
+<ul>
+<li><p><strong>animal</strong> (Nat)</p></li>
+<li><p><strong>humanoid</strong> (Nat or Sup)</p></li>
+<li><p><strong>monster</strong> (Nat or Sup)</p></li>
+<li><p><strong>plant</strong> (Nat or Sup)</p></li>
+<li><p><strong>dragon</strong> (Sup)</p></li>
+</ul>
+</li>
+<li><p><strong>Constructs</strong></p>
+<ul>
+<li><p><strong>robot</strong> (Nat)</p></li>
+<li><p><strong>golem</strong> (Sup)</p></li>
+</ul>
+</li>
+<li><p><strong>Divine</strong></p>
+<ul>
+<li><p><strong>angel</strong> (Sup)</p></li>
+<li><p><strong>glitch</strong> (Sup)</p></li>
+<li><p><strong>divine</strong> (Nat and/or Sup)</p></li>
+</ul>
+</li>
+<li><p><strong>Spiritual</strong></p>
+<ul>
+<li><p><strong>fey</strong> (Sup)</p></li>
+<li><p><strong>spirit</strong> (Sup)</p></li>
+<li><p><strong>elemental</strong> (Sup)</p></li>
+</ul>
+</li>
+<li><p><strong>Profane</strong></p>
+<ul>
+<li><p><strong>fiend</strong> (Sup)</p></li>
+<li><p><strong>undead</strong> (Sup)</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="detailed-entity-descriptions">
+<h2>Detailed entity descriptions<a class="headerlink" href="#detailed-entity-descriptions" title="Link to this heading">¶</a></h2>
+<section id="mortals">
+<h3>Mortals<a class="headerlink" href="#mortals" title="Link to this heading">¶</a></h3>
+<p>Mortals are the most common entities in the material world. Mortals have a physical form, limited lifespan and age by necessity. They need to breathe, drink, eat.</p>
+<p><strong>Plants</strong> are the the most common mortals. Plants are generally stationary (no movement speed) and generate organic mass by using water and minerals from the earth they grow in, and energy from sunlight. Some plants, however prey on other creatures.</p>
+<ul class="simple">
+<li><p>Plants do not sleep.</p></li>
+<li><p>Immunities: “frightened”, “blinded”, “stunned”, “catatonic” and “paralysed”.</p></li>
+</ul>
+<p><strong>Animals</strong> are mobile mortals with an Int below 5. They consume other mortals to live.</p>
+<ul class="simple">
+<li><p>Animals need to sleep.</p></li>
+</ul>
+<p><strong>Humanoids</strong> are bipedal animals with an Int of 5 and above.</p>
+<ul class="simple">
+<li><p>Humanoids need to sleep.</p></li>
+</ul>
+<p><strong>Dragons</strong> look like reptiles but are not. These are supernatural entities with 6 or more limbs (of which 2 or more typically wings) and scales. They have an Int of at least 10. Dragons typically have obscenely long lifespans and possess the following characteristic features:</p>
+<ul class="simple">
+<li><p>A dragon’s eye can see through illusions.</p></li>
+<li><p>Dragons have an “elemental” organ, which allows them to exhale energy, typically fire.</p></li>
+<li><p>Dragons need sleep.</p></li>
+<li><p>Dragons are an apex lifeform and as such are immune to fear.</p></li>
+<li><p>Dragons are immune to one element.</p></li>
+<li><p>Dragons are resistant to “slashing”, “shear” and “percussive” damage.</p></li>
+</ul>
+<p><strong>Monsters</strong> are mortals that do not fit in other categories. Some resemble animals, but are far more intelligent. Some resemble humanoids, but are not. Many are supernatural. They have no unifying trait, but tend to be dangerous to humanoids.</p>
+</section>
+<hr class="docutils" />
+<section id="constructs">
+<h3>Constructs<a class="headerlink" href="#constructs" title="Link to this heading">¶</a></h3>
+<p>Constructs are life-like devices that are capable of movement and are generally made of minerals or metals. They are sometimes called “living dolls”, although this term is not strictly correct. Constructs do not reproduce, breathe, drink, eat, sleep or age (unless they are made from mortals).</p>
+<p><strong>Robots</strong> are “natural” constructs, typically made by mortals. In the worlds where they exist, they are the height of non-magical artifice. Since they are merely complex machines, robots lack a spirit and thus have no Cha. Robots that are capable of emulating emotion use Int for Cha rolls. A robot that gains a spirit becomes a golem.</p>
+<ul class="simple">
+<li><p>Robots are immune to: “Frightened”, “charmed”, “surprise”, “diseased”, “poisoned”, “bleeding”, “incapacitated” and “dying”.</p></li>
+<li><p>Robots are resistant to “physical” damage.</p></li>
+</ul>
+<p><strong>Golems</strong> are “supernatural” constructs. Typically they are created for tasks which mortals cannot accomplish because of frailness or limited lifespan. Golems typically continue to carry out these tasks long after their creators pass on.</p>
+<ul class="simple">
+<li><p>Golems are immune to: “Frightened”, “charmed”, “surprise”, “diseased”, “poisoned”, “bleeding”, “stunned” “incapacitated”, “catatonic” and “dying”.</p></li>
+<li><p>Golems are at least resistant to “physical” damage and all “energy”[Nat] damage.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="spiritual">
+<h3>Spiritual<a class="headerlink" href="#spiritual" title="Link to this heading">¶</a></h3>
+<p>Spiritual entities are those for which the spirit is the main form and the physical form is a decoration rather than a necessity. Spiritual entities do not sleep or age, although they may need to breathe, drink and eat.</p>
+<ul class="simple">
+<li><p>Spiritual entities are immune to “physical” damage, as their physical form is either unnecessary or not “real”.</p></li>
+<li><p>Spiritual beings are immune to “stunned”, “immobilised”, “crippled”, “bleeding”, “poisoned”, and “paralysed”.</p></li>
+</ul>
+<p><strong>Elementals</strong> are spirits of metaphysical elements of “air”, “water”, “fire”, “earth” (although others might exist). Elementals attract the material of their element to them, giving the appearance of a physical form. However, the elemental does not require this  “body”, and attacking it does not damage the elemental. In many worlds they are thought to be part of the mechanisms of creation. Elementals do not breathe, drink or eat.</p>
+<ul class="simple">
+<li><p>An elemental in its element regenerates a number of MP and SP dice equal to at least its “base” (and often more).</p></li>
+<li><p>An elemental is immune to “restrained”, “surprised”, “helpless” and “dying” in its element.</p></li>
+</ul>
+<p><strong>Fey</strong> are spirits paradoxically associated with the natural world. Most move between the material world and whatever immaterial realms may be adjacent to it.</p>
+<ul class="simple">
+<li><p>Fey are immune to “charm”, “aphonia” and “deafened”.</p></li>
+<li><p>All fey have at least one ability that causes “frightened” or “charmed”.</p></li>
+<li><p>Most fey have a “blink” speed.</p></li>
+</ul>
+<p><strong>Spirits</strong> are spiritual beings that do not fall into either of the above categories. A mortal’s soul is said to become a spirit when it loses its body.</p>
+</section>
+<hr class="docutils" />
+<section id="id1">
+<h3>Divine<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h3>
+<p>Divine entities are those that are involved in some way in the creation of maintenance of creation, or are a manifestation of a law, concept or process of creation. Divine entities are typically incredibly powerful by the standards of mortals, and some are worshipped as gods. Divine entities do not need to breath, drink, eat, or sleep, but are often capable of doing so. They do not age.</p>
+<ul class="simple">
+<li><p>Divine entities are immune to all “natural” damage and resistant to “divine” damage.</p></li>
+<li><p>They are immune to “surprised”, “charmed”, “frightened”, “stunned” and “dying”.</p></li>
+</ul>
+<p><strong>Angels</strong> are the creations of gods, or manifestations of creation itself. They are generally created as messengers and observers, but also occasionally enforcing the will of their creator. Not all angels have free will (Cha). Not all angels align with the typical human understanding of “good” (especially the messengers of dark gods).</p>
+<ul class="simple">
+<li><p>All angels have <a class="reference external" href="06-abilities.html#truesight-i-vi">“Truesight”</a>, and can discern truth from lies.</p></li>
+<li><p>Angels takes 1HP damage whenever they lie. Some are incapable of lying.</p></li>
+<li><p>Angels are immune to “light” damage and vulnerable to “profane” damage.</p></li>
+<li><p>Angels have advantage on attacks against “Profanes”.</p></li>
+</ul>
+<p><strong>Glitches</strong> or aberrations, are flaws or inconsistencies in creation made manifest.</p>
+<ul class="simple">
+<li><p>Glitches are immune to “divine” damage and resistant to “profane” damage.</p></li>
+<li><p>Glitches heal 1HP when they are hit with an attack or ability that deals “divine” damage.</p></li>
+<li><p>Glitches have at least one ability that causes “entropic” damage.</p></li>
+<li><p>Glitches generally take on a form which is biologically, and often physically impossible.</p></li>
+</ul>
+<p>Other <strong>divines</strong> are often gods or manifestations of creation. Divines can only be destroyed by “entropic” damage. A divine that reaches minus its HP total from any other type of damage dissipates and reforms somewhere else at another time (possible “here” and “now” if it happens to be sufficiently powerful).</p>
+<ul class="simple">
+<li><p>All divines have “Truesight”, and can discern truth from lies.</p></li>
+<li><p>Divines are immune to “divine” damage and vulnerable to “entropic” damage.</p></li>
+<li><p>Divines are immune to “prone”, “stunned”, “blinded”, “deafened” and “aphonic”.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="id2">
+<h3>Profane<a class="headerlink" href="#id2" title="Link to this heading">¶</a></h3>
+<p>Profane beings are those that have been cursed by creation and whose nature drives them to destroy or oppose it. Profane beings do not breath, sleep or age, although some eat and drink.</p>
+<ul class="simple">
+<li><p>Profane entities have vulnerability to “divine” damage and immunity to “disease” and “poison”.</p></li>
+<li><p>Profane entities have resistance to “physical” damage.</p></li>
+<li><p>They also have immunity to “dying”.</p></li>
+</ul>
+<p><strong>Fiends</strong> are entities opposed to creation or mortal-kind. In realms where they exist, devils and demons are fiends. Sometimes divine entities fall and become fiends. Fiends that do not reach minus their total HP from “divine” damage will be reborn elsewhere, at another time (hence cycles of dark lord and heroes).</p>
+<ul class="simple">
+<li><p>Fiends are resistant to “fire”, “ice” and are vulnerable to supernatural light.</p></li>
+</ul>
+<p><strong>Undead</strong> are the bodies or souls of deceased mortals that refuse to rest.</p>
+<ul class="simple">
+<li><p>Undead are immune to “stunned”, “charmed”, “frightened” and “paralysed”.</p></li>
+<li><p>Undead are vulnerable to supernatural light.</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="conditions-and-states">
+<h2>Conditions and states<a class="headerlink" href="#conditions-and-states" title="Link to this heading">¶</a></h2>
+<p>Entities can be affected by a number of conditions, most of them bad. Conditions are classified in S to C class based on how much trouble an entity is in if it is afflicted by it. This starts from deadly peril (S) to mildly inconvenient (C). Of course classification is not always absolute.</p>
+<p>In addition a condition affects a being for a given duration, which is usually determined by the skill, ability, poison, disease, or phenomenon that causes it. If the rules do not explicitly state the duration of a condition, it is assumed to apply for the “usual” duration, which is defined in the table below.</p>
+<hr class="docutils" />
+<section id="disabled-states">
+<h3>Disabled states<a class="headerlink" href="#disabled-states" title="Link to this heading">¶</a></h3>
+<p>An entity afflicted by conditions that make it unable to engage in physical combat or other activities is considered <strong>“disabled”</strong>. This is a useful catch all. These conditions are: “dying”, “helpless”, “paralysed”, “unconscious”, “catatonic”, “immobilised” or “stunned”.</p>
+</section>
+<hr class="docutils" />
+<section id="condition-table">
+<h3>Condition Table<a class="headerlink" href="#condition-table" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Condition</p></th>
+<th class="head"><p>Rank</p></th>
+<th class="head"><p>Usual Duration</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Doomed</p></td>
+<td><p>S</p></td>
+<td><p>Until dead</p></td>
+</tr>
+<tr class="row-odd"><td><p>Dominated</p></td>
+<td><p>S</p></td>
+<td><p>1 hour</p></td>
+</tr>
+<tr class="row-even"><td><p>Dying</p></td>
+<td><p>S</p></td>
+<td><p>Until dead or stabilised</p></td>
+</tr>
+<tr class="row-odd"><td><p>Helpless</p></td>
+<td><p>S</p></td>
+<td><p>Until changed</p></td>
+</tr>
+<tr class="row-even"><td><p>Paralysed</p></td>
+<td><p>S</p></td>
+<td><p>1 month</p></td>
+</tr>
+<tr class="row-odd"><td><p>Possessed</p></td>
+<td><p>S</p></td>
+<td><p>Permanent</p></td>
+</tr>
+<tr class="row-even"><td><p>Catatonic</p></td>
+<td><p>A</p></td>
+<td><p>1 hour</p></td>
+</tr>
+<tr class="row-odd"><td><p>Immobilised</p></td>
+<td><p>A</p></td>
+<td><p>Until freed</p></td>
+</tr>
+<tr class="row-even"><td><p>Incapacitated</p></td>
+<td><p>A</p></td>
+<td><p>1 hour</p></td>
+</tr>
+<tr class="row-odd"><td><p>Stunned</p></td>
+<td><p>A</p></td>
+<td><p>1 round</p></td>
+</tr>
+<tr class="row-even"><td><p>Bleeding</p></td>
+<td><p>B</p></td>
+<td><p>1 hour</p></td>
+</tr>
+<tr class="row-odd"><td><p>Blinded</p></td>
+<td><p>B</p></td>
+<td><p>1 day</p></td>
+</tr>
+<tr class="row-even"><td><p>Crippled</p></td>
+<td><p>B</p></td>
+<td><p>1 month</p></td>
+</tr>
+<tr class="row-odd"><td><p>Charmed</p></td>
+<td><p>B</p></td>
+<td><p>1 hour</p></td>
+</tr>
+<tr class="row-even"><td><p>Restrained</p></td>
+<td><p>B</p></td>
+<td><p>Until freed</p></td>
+</tr>
+<tr class="row-odd"><td><p>Surprised</p></td>
+<td><p>B</p></td>
+<td><p>Until start of next round</p></td>
+</tr>
+<tr class="row-even"><td><p>Frightened</p></td>
+<td><p>B</p></td>
+<td><p>1 minute</p></td>
+</tr>
+<tr class="row-odd"><td><p>Aphonic</p></td>
+<td><p>C</p></td>
+<td><p>1 day</p></td>
+</tr>
+<tr class="row-even"><td><p>Deafened</p></td>
+<td><p>C</p></td>
+<td><p>1 day</p></td>
+</tr>
+<tr class="row-odd"><td><p>Glowing</p></td>
+<td><p>C</p></td>
+<td><p>1 minute</p></td>
+</tr>
+<tr class="row-even"><td><p>Grappled</p></td>
+<td><p>C</p></td>
+<td><p>Until freed</p></td>
+</tr>
+<tr class="row-odd"><td><p>Inaudible</p></td>
+<td><p>C</p></td>
+<td><p>1 minute</p></td>
+</tr>
+<tr class="row-even"><td><p>Invisible</p></td>
+<td><p>C</p></td>
+<td><p>1 minute</p></td>
+</tr>
+<tr class="row-odd"><td><p>Prone</p></td>
+<td><p>C</p></td>
+<td><p>Until it stands</p></td>
+</tr>
+<tr class="row-even"><td><p>Diseased</p></td>
+<td><p>C</p></td>
+<td><p>1 week</p></td>
+</tr>
+<tr class="row-odd"><td><p>Poisoned</p></td>
+<td><p>C</p></td>
+<td><p>1 day</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<hr class="docutils" />
+<section id="conditions-in-detail">
+<h3>Conditions in detail<a class="headerlink" href="#conditions-in-detail" title="Link to this heading">¶</a></h3>
+<section id="doomed">
+<h4>Doomed<a class="headerlink" href="#doomed" title="Link to this heading">¶</a></h4>
+<p>This entity is doomed to die. It looses 1 HP per round and this cannot be prevented by ANY means. The following applies also applies:</p>
+<ul class="simple">
+<li><p>It has disadvantage on all skill and stat rolls.</p></li>
+<li><p>It has advantage to all saving throws.</p></li>
+<li><p>It has advantage to all attack rolls.</p></li>
+<li><p>Its base movement speed is halved.</p></li>
+<li><p>It cannot take reactions.</p></li>
+<li><p>Every time it takes a “move”, “main” or “secondary” action it loses 1 HP.</p></li>
+<li><p>Every time it takes a “run”, “sprint” or “full round action” it loses 2 HP.</p></li>
+<li><p>As a “dying” entity, a doomed entity dies when it reaches minus its total HP (or, if higher, CON score).</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="dying">
+<h4>Dying<a class="headerlink" href="#dying" title="Link to this heading">¶</a></h4>
+<p>This entity cannot do anything other than make CON saves (threshold = 20) or lose 1 HP per round. It usually suffers from most of the detriments of “Unconscious”. If they reach their minus their HP total, or minus their CON (CHA for incorporeal beings) if it is higher than their HP, they die. If they succeed before that, or heal at least 1 HP, they stop losing HP and become “Unconscious”.</p>
+<ul class="simple">
+<li><p><strong>Special</strong>: When an entity gains the dying condition, it may choose to instead take the “<strong>Doomed</strong>” status, although this is usually ill advised.</p></li>
+</ul>
+</section>
+<section id="unconscious">
+<h4>Unconscious<a class="headerlink" href="#unconscious" title="Link to this heading">¶</a></h4>
+<p>An unconscious character can make CON and CHA saves, and communicate telepathically under certain circumstances. It can take no other actions. In addition it has the following problems:</p>
+<ul class="simple">
+<li><p>It does not gain [STATS] to AC.</p></li>
+<li><p>It it can fall prone, it falls prone.</p></li>
+<li><p>All melee attacks against it are at advantage.</p></li>
+<li><p>It loses “evasion” and “shield” bonus to HiT.</p></li>
+<li><p>All damage bypasses SP and MP.</p></li>
+<li><p>It cannot cast or concentrate on spells or take any actions.</p></li>
+<li><p>If it is unconscious because it is asleep, it has -10 on <a class="reference external" href="05-skills.html#observe">“observe”</a> rolls. If it is unconscious for any other reason, then it cannot properly perceive the outside world or think rationally.</p></li>
+</ul>
+</section>
+<section id="helpless">
+<h4>Helpless<a class="headerlink" href="#helpless" title="Link to this heading">¶</a></h4>
+<p>A helpless character is in a condition where they cannot protect themselves. Usually they are otherwise compromised.</p>
+<ul class="simple">
+<li><p>It does not gain [STATS] to HiT.</p></li>
+<li><p>If it can fall prone, it falls prone.</p></li>
+<li><p>All melee attacks against it are made at advantage.</p></li>
+<li><p>It loses “evasion” and “shield” bonus to HiT.</p></li>
+<li><p>All damage bypasses SP and MP.</p></li>
+<li><p>It cannot make saves other than CON, CHA and WIS.</p></li>
+<li><p>It cannot move or take take actions other than [WIS] based skill checks.</p></li>
+<li><p>If it can communicate, it cannot do so “loudly” enough to gain attention from afar without a [SKILL] check from the recipient.</p></li>
+</ul>
+</section>
+<section id="paralysed">
+<h4>Paralysed<a class="headerlink" href="#paralysed" title="Link to this heading">¶</a></h4>
+<p>A paralysed character cannot take physical actions:</p>
+<ul class="simple">
+<li><p>This means it cannot move.</p></li>
+<li><p>It does not gain physical [STATS] to HiT.</p></li>
+<li><p>Physical melee attacks against it have advantage.</p></li>
+<li><p>It loses “evasion” and “shield” bonus to HiT.</p></li>
+<li><p>It it can fall prone, it falls prone.</p></li>
+<li><p>Physical ranged attacks against it have advantage (if it is prone this cancels out).</p></li>
+<li><p>Natural damage bypasses SP.</p></li>
+<li><p>It cannot make [STR] or [DEX] saves.</p></li>
+<li><p>It cannot use [SKILLS], attacks or cast spells that require the use of its body (including “incantations” and “kinetic components”).</p></li>
+</ul>
+</section>
+<section id="possessed">
+<h4>Possessed<a class="headerlink" href="#possessed" title="Link to this heading">¶</a></h4>
+<p>A possessed character has an indwelling spirit that is not its own, that may subsume control of their body.</p>
+<ul class="simple">
+<li><p>Only an entity  with a body can be possessed.</p></li>
+<li><p>A body can be possessed by any number of spirits, but if the total level of the spirits exceeds twice the entity’s level, the entity loses one SP die per hour (and subsequently 1 HP per hour), until the body dies.</p></li>
+<li><p>A possessed body acts normally, but is entirely under control of the currently active spirit and uses only the skills, abilities and CHA score of the currently active spirit.</p></li>
+<li><p>When a possessing entity uses the possessed body to perform an action that is against the possessed entity’s nature, the possessed entity gains a chance to save against the domination. They also have a chance to save when they receive “light”[supernatural], “divine” or “entropic” damage.</p></li>
+</ul>
+</section>
+<section id="dominated">
+<h4>Dominated<a class="headerlink" href="#dominated" title="Link to this heading">¶</a></h4>
+<p>The mind of a dominated character is wholly under the control of an external force.</p>
+<ul class="simple">
+<li><p>A dominated entity has disadvantage on all CHA rolls.</p></li>
+<li><p>While the dominating entity is not actively controlling their charge, the dominated entity is considered incapacitated.</p></li>
+<li><p>When the dominating entity is in active control, they may act through the dominated entity, using abilities, proficiencies, skills and stats of the dominated entity.</p></li>
+<li><p>When a dominated entity is commanded to perform a task that is against their nature, they gain a chance to save against the domination. They also have a chance to save when they receive “divine” or “entropic” damage.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="catatonic">
+<h4>Catatonic<a class="headerlink" href="#catatonic" title="Link to this heading">¶</a></h4>
+<p>A catatonic character loses the will to act and cannot take actions.</p>
+<ul class="simple">
+<li><p>It cannot make attacks, use physical abilities or cast spells.</p></li>
+<li><p>It loses “evasion” and “shield” bonus to HiT.</p></li>
+<li><p>It cannot use skills other than those that are involved in perceiving the world.</p></li>
+<li><p>It cannot make “move actions”.</p></li>
+<li><p>It has disadvantage on all saves.</p></li>
+</ul>
+</section>
+<section id="crippled">
+<h4>Crippled<a class="headerlink" href="#crippled" title="Link to this heading">¶</a></h4>
+<p>This character cannot use one or more limbs.</p>
+<ul class="simple">
+<li><p>Entities with at least one crippled limb that is used for a given mode of movement cannot “run” or “sprint”, and moves at half pace. DEX saves are made at disadvantage.</p>
+<ul>
+<li><p>If more than half of the limbs used for a given mode of locomotion are crippled (usually 2 for bipeds and birds, and at least 3 for quadrupeds) it cannot use that movement modality, however, even if it loses all of its movement modalities it can still “crawl” at 5ft per round.</p></li>
+</ul>
+</li>
+<li><p>A crippled prehensile limbs cannot be used to hold or manipulate tools, weapons or objects and cannot be used (eg for making an attack). DEX based skill and stat rolls are made at disadvantage.</p>
+<ul>
+<li><p>An entity that has all of its prehensile limbs crippled cannot make DEX based skill and stat roles or complete “kinetic” components for spells.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="immobilised">
+<h4>Immobilised<a class="headerlink" href="#immobilised" title="Link to this heading">¶</a></h4>
+<p>An immobilised character is in trouble.</p>
+<ul class="simple">
+<li><p>It has a movement speed of 0ft.</p></li>
+<li><p>It cannot make [DEX] or [STR] saves, attacks.</p></li>
+<li><p>It loses “evasion” and “shield” bonus to HiT.</p></li>
+<li><p>It cannot cast spells with kinetic components.</p></li>
+<li><p>Attacks against it have advantage.</p></li>
+<li><p>It cannot use [DEX] and [STR] based skills or abilities except some escape related skills, and even then at disadvantage.</p></li>
+<li><p>If an entity is immobilised due to successive successful <a class="reference external" href="04-combat.html#basic-martial-manoeuvres">“grapple”</a> manoeuvres, it may attempt to “grapple” at disadvantage to free itself and become “restrained” instead.</p></li>
+</ul>
+</section>
+<section id="incapacitated">
+<h4>Incapacitated<a class="headerlink" href="#incapacitated" title="Link to this heading">¶</a></h4>
+<p>This creature cannot take actions (other than movement or communication) or reactions in combat.</p>
+<ul class="simple">
+<li><p>Attacks against it have advantage.</p></li>
+</ul>
+</section>
+<section id="stunned">
+<h4>Stunned<a class="headerlink" href="#stunned" title="Link to this heading">¶</a></h4>
+<p>A stunned character briefly loses control of their body and mind. Stun is a short term effect and ALWAYS provides a [SAVE] every round.</p>
+<ul class="simple">
+<li><p>It does not gain “evasion” or “shield” bonus to HiT.</p></li>
+<li><p>If it can fall prone, it falls prone.</p></li>
+<li><p>Physical attacks against it have advantage (unless the attack is ranged and the character is prone).</p></li>
+<li><p>It cannot make [STR], [DEX] or [CHA] saves.</p></li>
+<li><p>It cannot use [SKILLS], attacks or cast spells that require the use of its body (including “incantations” and “kinetic” components).</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="bleeding-wilting">
+<h4>Bleeding/Wilting<a class="headerlink" href="#bleeding-wilting" title="Link to this heading">¶</a></h4>
+<p>A bleeding character loses HP every round. A [CON] save, or appropriate healing can stem this effect.</p>
+</section>
+<section id="blinded">
+<h4>Blinded<a class="headerlink" href="#blinded" title="Link to this heading">¶</a></h4>
+<p>A blinded character cannot perceive visual input:</p>
+<ul class="simple">
+<li><p>It cannot use [WIS] based skills based on sight.</p></li>
+<li><p>It has disadvantage on [DEX] based skills.</p></li>
+<li><p>All targets have full concealment (4/6 miss chance for close (melee) and 5/6 miss chance for ranged) from it for the sake of targeted attacks. Ranged attacks beyond 60ft are also at disadvantage.</p></li>
+<li><p>It has disadvantage on [WIS] and [DEX] based saves.</p></li>
+</ul>
+</section>
+<section id="charmed">
+<h4>Charmed<a class="headerlink" href="#charmed" title="Link to this heading">¶</a></h4>
+<p>A charmed character cannot attack the source of its charm. It has disadvantage against [WIS], [CHA], [INT] saves vs it. In theory it perceives its words and actions in the most favourable manner. In practice players are players.</p>
+<ul class="simple">
+<li><p>Charmed creatures have disadvantage on deception rolls vs their charmer.</p></li>
+<li><p>When a charmed character is requested/commanded to perform a task that is against their nature, they gain a chance to save against the charm. They also have a chance to save when they take “divine” or “entropic” damage.</p></li>
+</ul>
+</section>
+<section id="frightened">
+<h4>Frightened<a class="headerlink" href="#frightened" title="Link to this heading">¶</a></h4>
+<p>A frightened character has disadvantage on targeted attacks. It must use its movement to move away from the source of its fear if it can do so without provoking an attack of opportunity or taking damage from other hazards (eg falling). In either case it cannot approach the source of its fear.</p>
+</section>
+<section id="restrained">
+<h4>Restrained<a class="headerlink" href="#restrained" title="Link to this heading">¶</a></h4>
+<p>A restrained character has problems. It has a movement speed of 0ft and suffers from one or more of the following:</p>
+<ul class="simple">
+<li><p>It cannot make kinetic components for spells.</p></li>
+<li><p>It has disadvantage on physical attacks and [DEX] saves.</p></li>
+<li><p>Attacks against it have advantage.</p></li>
+</ul>
+</section>
+<section id="surprised">
+<h4>Surprised<a class="headerlink" href="#surprised" title="Link to this heading">¶</a></h4>
+<p>A surprised character dropped the ball. It cannot take any actions. This condition seldom exists outside of the first round of combat.</p>
+<ul class="simple">
+<li><p>It does not gain “evasion” or “shield” bonus to HiT.</p></li>
+<li><p>It cannot take any actions except reactions and the communicate action.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="aphonic">
+<h4>Aphonic<a class="headerlink" href="#aphonic" title="Link to this heading">¶</a></h4>
+<p>An aphonic character cannot communicate vocally (or verbally).</p>
+<ul class="simple">
+<li><p>This means that skills and abilities requiring speech automatically fail.</p></li>
+<li><p>Incantations ALWAYS fail.</p></li>
+<li><p>The character cannot scream, even if they must.</p></li>
+</ul>
+</section>
+<section id="deafened">
+<h4>Deafened<a class="headerlink" href="#deafened" title="Link to this heading">¶</a></h4>
+<p>A deafened character cannot perceive sound. It cannot hear. It can speak only stutteringly. It must make an [INT] save to complete Incantations (unless it is deaf for longer than month).</p>
+</section>
+<section id="diseased">
+<h4>Diseased<a class="headerlink" href="#diseased" title="Link to this heading">¶</a></h4>
+<p>Afflicted by a disease. The effect varies with disease (see <a class="reference external" href="14-poisons-and-diseases.html#diseases">“Diseases”</a>).</p>
+</section>
+<section id="glowing">
+<h4>Glowing<a class="headerlink" href="#glowing" title="Link to this heading">¶</a></h4>
+<p>An glowing character cannot stealth and is never invisible.</p>
+<ul class="simple">
+<li><p>Attacks by entities whose main sense is sight against a glowing character have advantage.</p></li>
+</ul>
+</section>
+<section id="grappled">
+<h4>Grappled<a class="headerlink" href="#grappled" title="Link to this heading">¶</a></h4>
+<p>A grappled character has a movement speed of 0ft.</p>
+<ul class="simple">
+<li><p>A grappled character that is in full concealment is considered to have only 3/4 concealment vs the grappling creature.</p></li>
+</ul>
+</section>
+<section id="inaudible">
+<h4>Inaudible<a class="headerlink" href="#inaudible" title="Link to this heading">¶</a></h4>
+<p>A silent character makes no sound. It can neither make sounds willingly or unwillingly.</p>
+<ul class="simple">
+<li><p>It cannot complete incantations or communicate verbally.</p></li>
+<li><p>Rolls to detect the character based on sound ALWAYS fail.</p></li>
+</ul>
+</section>
+<section id="invisible">
+<h4>Invisible<a class="headerlink" href="#invisible" title="Link to this heading">¶</a></h4>
+<p>This character cannot be directly detected by visual means (aka sight). Characters are considered “blinded” in relation to invisible creatures.</p>
+</section>
+<section id="poisoned">
+<h4>Poisoned<a class="headerlink" href="#poisoned" title="Link to this heading">¶</a></h4>
+<p>Afflicted by a poison. This has the following general effects:</p>
+<ul class="simple">
+<li><p>The specific poison causes the effects listed in the poison table or in the description of the attack (see <a class="reference external" href="14-poisons-and-diseases.html#poisons">“Poisons”</a>).</p></li>
+<li><p>If the effect of the poison is not specified in either of these places then its effect is as follows:</p>
+<ul>
+<li><p>A poisoned entity’s base speed is halved.</p></li>
+<li><p>The entity makes all rolls at disadvantage.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="prone">
+<h4>Prone<a class="headerlink" href="#prone" title="Link to this heading">¶</a></h4>
+<p>A prone character is intimate with the ground.</p>
+<ul class="simple">
+<li><p>It can only move at a crawl.</p></li>
+<li><p>Melee attacks have advantage against it.</p></li>
+<li><p>Ranged attacks have disadvantage against it.</p></li>
+<li><p>It has disadvantage on melee attacks.</p></li>
+<li><p>It has disadvantage at [STR] and [DEX] saves.</p></li>
+<li><p>It has advantage at skills used in hiding, but may suffer penalties to perception.</p></li>
+<li><p>A flying entity that is knocked prone, drops a distance equal to its flight speed and can only move at half speed on its next turn. If this drop causes it to hit the ground, it suffers all of the consequences of falling (see <a class="reference external" href="03-movement-exploration.html#falling">“Falling”</a> section).</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="conditions-by-damage-type">
+<h3>Conditions by Damage Type<a class="headerlink" href="#conditions-by-damage-type" title="Link to this heading">¶</a></h3>
+<p>When an entity loses HP (but <em>NOT</em> MP or SP) due to a named damage type, it may gain one of the following damage types. If it meets the condition, it rolls a d6, and the condition is determined by the roll. The condition is applied for the “usual” duration defined in the <a class="reference external" href="#condition-table">“Condition Table”</a> above.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>1</p></th>
+<th class="head"><p>2</p></th>
+<th class="head"><p>3</p></th>
+<th class="head"><p>4</p></th>
+<th class="head"><p>5</p></th>
+<th class="head"><p>6</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Piercing</p></td>
+<td><p>Bleeding</p></td>
+<td><p></p></td>
+<td><p>Bleeding</p></td>
+<td><p></p></td>
+<td><p>Bleeding</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Slashing</p></td>
+<td><p>Bleeding</p></td>
+<td><p>Crippled</p></td>
+<td><p>Bleeding</p></td>
+<td><p>Crippled</p></td>
+<td><p>Bleeding</p></td>
+<td><p>Crippled</p></td>
+</tr>
+<tr class="row-even"><td><p>Percussive</p></td>
+<td><p>Prone</p></td>
+<td><p>Crippled</p></td>
+<td><p>Prone</p></td>
+<td><p>Crippled</p></td>
+<td><p>Prone</p></td>
+<td><p>Crippled</p></td>
+</tr>
+<tr class="row-odd"><td><p>Shear</p></td>
+<td><p></p></td>
+<td><p>Crippled</p></td>
+<td><p></p></td>
+<td><p>Crippled</p></td>
+<td><p></p></td>
+<td><p>Crippled</p></td>
+</tr>
+<tr class="row-even"><td><p>Pressure</p></td>
+<td><p>Stunned</p></td>
+<td><p>Frightened</p></td>
+<td><p>Prone</p></td>
+<td><p>Incapacitated</p></td>
+<td><p>Stunned</p></td>
+<td><p>Frightened</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Poison</p></td>
+<td><p>???</p></td>
+<td><p>???</p></td>
+<td><p>???</p></td>
+<td><p>???</p></td>
+<td><p>???</p></td>
+<td><p>???</p></td>
+</tr>
+<tr class="row-odd"><td><p>Necrotic</p></td>
+<td><p>Bleeding</p></td>
+<td><p>Disease</p></td>
+<td><p>Blinded</p></td>
+<td><p>Bleeding</p></td>
+<td><p>Disease</p></td>
+<td><p>Blinded</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Fire</p></td>
+<td><p>Incapacitated</p></td>
+<td><p>Blinded</p></td>
+<td><p>Incapacitated</p></td>
+<td><p>Blinded</p></td>
+<td><p>Incapacitated</p></td>
+<td><p>Blinded</p></td>
+</tr>
+<tr class="row-even"><td><p>Cold</p></td>
+<td><p>Incapacitated</p></td>
+<td><p>Immobilised</p></td>
+<td><p>Incapacitated</p></td>
+<td><p>Immobilised</p></td>
+<td><p>Incapacitated</p></td>
+<td><p>Immobilised</p></td>
+</tr>
+<tr class="row-odd"><td><p>Lightning</p></td>
+<td><p>Paralysed</p></td>
+<td><p>Immobilised</p></td>
+<td><p>Stunned</p></td>
+<td><p>Paralysed</p></td>
+<td><p>Immobilised</p></td>
+<td><p>Stunned</p></td>
+</tr>
+<tr class="row-even"><td><p>Light</p></td>
+<td><p>Frightened</p></td>
+<td><p>Blinded</p></td>
+<td><p>Catatonic</p></td>
+<td><p>Incapacitated</p></td>
+<td><p>Frightened</p></td>
+<td><p>Blinded</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Divine</p></td>
+<td><p>Blinded</p></td>
+<td><p>Catatonic</p></td>
+<td><p>Immobilised</p></td>
+<td><p>Incapacitated</p></td>
+<td><p>Aphonia</p></td>
+<td><p>Frightened</p></td>
+</tr>
+<tr class="row-odd"><td><p>Entropic</p></td>
+<td><p>Crippled</p></td>
+<td><p>Incapacitated</p></td>
+<td><p>Bleeding</p></td>
+<td><p>Crippled</p></td>
+<td><p>Incapacitated</p></td>
+<td><p>Bleeding</p></td>
+</tr>
+<tr class="row-even"><td><p>Profane</p></td>
+<td><p>Bleeding</p></td>
+<td><p>Immobilised</p></td>
+<td><p>Restrained</p></td>
+<td><p>Aphonia</p></td>
+<td><p>Frightened</p></td>
+<td><p>Charmed</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="11-weapons-armour.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Weapons and armour</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="09-races.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Types, Races, Species and Templates</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2023-3023, Fantasy Committee
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Conditions and Types</a><ul>
+<li><a class="reference internal" href="#natural-and-supernatural-origins">Natural and supernatural origins</a><ul>
+<li><a class="reference internal" href="#natural-and-supernatural-damage-and-abilities">Natural and Supernatural damage and abilities</a></li>
+<li><a class="reference internal" href="#resistance-to-damage-and-conditions">Resistance to damage and conditions</a></li>
+<li><a class="reference internal" href="#damage-over-time">Damage over time</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#hp-damage-and-conditions">HP damage and conditions</a><ul>
+<li><a class="reference internal" href="#mundane-magical-and-spiritual-weapons">Mundane, magical and spiritual weapons</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#damage-types">Damage types</a><ul>
+<li><a class="reference internal" href="#damage-type-list">Damage type list</a></li>
+<li><a class="reference internal" href="#physical-damage">Physical damage</a><ul>
+<li><a class="reference internal" href="#piercing">Piercing</a></li>
+<li><a class="reference internal" href="#slashing">Slashing</a></li>
+<li><a class="reference internal" href="#percussive">Percussive</a></li>
+<li><a class="reference internal" href="#shear">Shear</a></li>
+<li><a class="reference internal" href="#pressure">Pressure</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#biological-damage">Biological damage</a><ul>
+<li><a class="reference internal" href="#poison">Poison</a></li>
+<li><a class="reference internal" href="#necrotic">Necrotic</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#energy-elemental-damage">Energy/elemental damage</a><ul>
+<li><a class="reference internal" href="#heat-fire">Heat (fire)</a></li>
+<li><a class="reference internal" href="#cold-ice">Cold (ice)</a></li>
+<li><a class="reference internal" href="#electricity-lightning">Electricity (lightning)</a></li>
+<li><a class="reference internal" href="#light">Light</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#esoteric-damage">Esoteric damage</a><ul>
+<li><a class="reference internal" href="#divine">Divine</a></li>
+<li><a class="reference internal" href="#entropic">Entropic</a></li>
+<li><a class="reference internal" href="#profane">Profane</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#damage-rankings">Damage rankings</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#entity-types">Entity types</a></li>
+<li><a class="reference internal" href="#detailed-entity-descriptions">Detailed entity descriptions</a><ul>
+<li><a class="reference internal" href="#mortals">Mortals</a></li>
+<li><a class="reference internal" href="#constructs">Constructs</a></li>
+<li><a class="reference internal" href="#spiritual">Spiritual</a></li>
+<li><a class="reference internal" href="#id1">Divine</a></li>
+<li><a class="reference internal" href="#id2">Profane</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#conditions-and-states">Conditions and states</a><ul>
+<li><a class="reference internal" href="#disabled-states">Disabled states</a></li>
+<li><a class="reference internal" href="#condition-table">Condition Table</a></li>
+<li><a class="reference internal" href="#conditions-in-detail">Conditions in detail</a><ul>
+<li><a class="reference internal" href="#doomed">Doomed</a></li>
+<li><a class="reference internal" href="#dying">Dying</a></li>
+<li><a class="reference internal" href="#unconscious">Unconscious</a></li>
+<li><a class="reference internal" href="#helpless">Helpless</a></li>
+<li><a class="reference internal" href="#paralysed">Paralysed</a></li>
+<li><a class="reference internal" href="#possessed">Possessed</a></li>
+<li><a class="reference internal" href="#dominated">Dominated</a></li>
+<li><a class="reference internal" href="#catatonic">Catatonic</a></li>
+<li><a class="reference internal" href="#crippled">Crippled</a></li>
+<li><a class="reference internal" href="#immobilised">Immobilised</a></li>
+<li><a class="reference internal" href="#incapacitated">Incapacitated</a></li>
+<li><a class="reference internal" href="#stunned">Stunned</a></li>
+<li><a class="reference internal" href="#bleeding-wilting">Bleeding/Wilting</a></li>
+<li><a class="reference internal" href="#blinded">Blinded</a></li>
+<li><a class="reference internal" href="#charmed">Charmed</a></li>
+<li><a class="reference internal" href="#frightened">Frightened</a></li>
+<li><a class="reference internal" href="#restrained">Restrained</a></li>
+<li><a class="reference internal" href="#surprised">Surprised</a></li>
+<li><a class="reference internal" href="#aphonic">Aphonic</a></li>
+<li><a class="reference internal" href="#deafened">Deafened</a></li>
+<li><a class="reference internal" href="#diseased">Diseased</a></li>
+<li><a class="reference internal" href="#glowing">Glowing</a></li>
+<li><a class="reference internal" href="#grappled">Grappled</a></li>
+<li><a class="reference internal" href="#inaudible">Inaudible</a></li>
+<li><a class="reference internal" href="#invisible">Invisible</a></li>
+<li><a class="reference internal" href="#poisoned">Poisoned</a></li>
+<li><a class="reference internal" href="#prone">Prone</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#conditions-by-damage-type">Conditions by Damage Type</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="_static/documentation_options.js?v=8bafd125"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/scripts/furo.js?v=46bd48cc"></script>
+    </body>
+</html>

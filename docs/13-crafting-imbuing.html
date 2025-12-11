@@ -1,0 +1,1087 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="./">
+  <head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="genindex.html"><link rel="search" title="Search" href="search.html"><link rel="next" title="Poisons and Diseases" href="14-poisons-and-diseases.html"><link rel="prev" title="Equipment and Economy" href="12-equipment-economy.html">
+
+    <!-- Generated with Sphinx 8.2.3 and Furo 2025.09.25 -->
+        <title>Crafting and Imbuing - FanSys 0.0.18</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d111a655" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=580074bf" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=8dab3a3b" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f2f2f2;
+  --color-code-foreground: #1e1e1e;
+  --color-foreground-primary: #202424;
+  --color-foreground-secondary: #4a4c53;
+  --color-brand-primary: #112233;
+  --color-brand-content: #443322;
+  --color-brand-visited: #448822;
+  --color-background-primary: #f2f4ec;
+  --color-background-secondary: #e5e7e3;
+  --color-background-hover: #fafaf5;
+  --color-background-border: #40404067;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-foreground-primary: #cfd0d0;
+  --color-foreground-secondary: #acb0b5;
+  --color-brand-primary: #AABBCC;
+  --color-brand-content: #CFBEAC;
+  --color-brand-visited: #99DD99;
+  --color-background-primary: #242628;
+  --color-background-secondary: #2a2c2e;
+  --color-background-hover: #1e2124ff;
+  --color-background-border: #483945;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-foreground-primary: #cfd0d0;
+  --color-foreground-secondary: #acb0b5;
+  --color-brand-primary: #AABBCC;
+  --color-brand-content: #CFBEAC;
+  --color-brand-visited: #99DD99;
+  --color-background-primary: #242628;
+  --color-background-secondary: #2a2c2e;
+  --color-background-hover: #1e2124ff;
+  --color-background-border: #483945;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle site navigation sidebar">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc" aria-label="Toggle table of contents sidebar">
+<label class="overlay sidebar-overlay" for="__navigation"></label>
+<label class="overlay toc-overlay" for="__toc"></label>
+
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <span class="icon"><svg><use href="#svg-menu"></use></svg></span>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="index.html"><div class="brand">FanSys 0.0.18</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="index.html">
+  
+  <span class="sidebar-brand-text">FanSys 0.0.18</span>
+  
+</a><form class="sidebar-search-container" method="get" action="search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Index:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="01-quick-start.html">FanSys23 Quick-start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="03-movement-exploration.html">Actions outside of Combat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="04-combat.html">Combat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="05-skills.html">Skills</a></li>
+<li class="toctree-l1"><a class="reference internal" href="06-abilities.html">Abilities and Boons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="07-magic-and-spellcasting.html">Spells</a></li>
+<li class="toctree-l1"><a class="reference internal" href="08-spell-list.html">Spell List</a></li>
+<li class="toctree-l1"><a class="reference internal" href="09-races.html">Types, Races, Species and Templates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="10-conditions-types.html">Conditions and Types</a></li>
+<li class="toctree-l1"><a class="reference internal" href="11-weapons-armour.html">Weapons and armour</a></li>
+<li class="toctree-l1"><a class="reference internal" href="12-equipment-economy.html">Equipment and Economy</a></li>
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Crafting and Imbuing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="14-poisons-and-diseases.html">Poisons and Diseases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="15-charm-etc.html">A note on charm, domination and possession</a></li>
+<li class="toctree-l1"><a class="reference internal" href="16-recipes.html">Recipes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="02-base-rules.html">Base Rules</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="bestiary.html">A Bestiary for Fantasy Worlds</a><input aria-label="Toggle navigation of A Bestiary for Fantasy Worlds" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/forwards.html">Forwards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/beasts-and-plants.html">Beasts and Plants</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/constructs.html">Constructs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/divines.html">Divines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/humanoids.html">NPC stat blocks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/monsters-and-dragons.html">Monsters and Dragons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/profanes.html">Profanes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/spirits.html">Spirits</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="CHANGELOG.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="TODO.html">Character sheet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="LICENSE.html">License</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="view-this-page">
+  <a class="muted-link" href="_sources/13-crafting-imbuing.md.txt" title="View this page">
+    <svg><use href="#svg-eye"></use></svg>
+    <span class="visually-hidden">View this page</span>
+  </a>
+</div>
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          <section id="crafting-and-imbuing">
+<h1>Crafting and Imbuing<a class="headerlink" href="#crafting-and-imbuing" title="Link to this heading">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference external" href="#crafting">Crafting</a></p>
+<ul>
+<li><p><a class="reference external" href="#the-crafting-process">The Crafting Process</a></p></li>
+<li><p><a class="reference external" href="#skills-used">Skills Used</a></p></li>
+<li><p><a class="reference external" href="#the-crafting-roll-and-thresholds">The Crafting Roll and Thresholds</a></p></li>
+<li><p><a class="reference external" href="#crafting-equipment-environment-and-other-modifiers">Crafting, equipment, environment and other modifiers</a></p></li>
+<li><p><a class="reference external" href="#crafting-time">Crafting Time</a></p></li>
+<li><p><a class="reference external" href="#crafting-costs">Crafting Costs</a></p></li>
+<li><p><a class="reference external" href="#material-coefficients-quality-mods-for-items">Material Coefficients (quality mods) for items</a></p></li>
+<li><p><a class="reference external" href="#crafting-for-enchantment">Crafting for Enchantment</a></p></li>
+<li><p><a class="reference external" href="#eschewing-reality">Eschewing Reality</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#enchanting-imbuing-and-alchemy">Enchanting, Imbuing and Alchemy</a></p>
+<ul>
+<li><p><a class="reference external" href="#types-of-enchantments">Types of Enchantments</a></p></li>
+<li><p><a class="reference external" href="#the-process-of-enchanting">The Process of Enchanting</a></p></li>
+<li><p><a class="reference external" href="#types-of-magic-items">Types of magic items</a></p>
+<ul>
+<li><p><a class="reference external" href="#types-of-magic-in-items-by-use">Types of magic in items by use</a></p></li>
+<li><p><a class="reference external" href="#types-of-magic-in-items-by-activation">Types of magic in items by activation</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#equivalence-between-abilities-and-spells">Equivalence between abilities and spells</a></p></li>
+<li><p><a class="reference external" href="#threshold-for-enchanting-imbuing-and-alchemy">Threshold for Enchanting, Imbuing and Alchemy</a></p></li>
+<li><p><a class="reference external" href="#permanency-and-enchantment-quality-items">Permanency and “Enchantment Quality Items”</a></p></li>
+<li><p><a class="reference external" href="#places-of-power">Places of Power</a></p></li>
+<li><p><a class="reference external" href="#re-enchantingre-imbuing">Re-enchanting/Re-imbuing</a></p></li>
+<li><p><a class="reference external" href="#multiple-effects">Multiple Effects</a></p></li>
+<li><p><a class="reference external" href="#modified-effects-and-source-spellsabilities">Modified Effects and Source Spells/Abilities</a></p></li>
+<li><p><a class="reference external" href="#costs-of-enchantment-and-imbuing">Costs of enchantment and Imbuing</a></p></li>
+<li><p><a class="reference external" href="#time-taken-for-enchantingimbuing">Time taken for Enchanting/Imbuing</a></p></li>
+<li><p><a class="reference external" href="#exceptional-magic">Exceptional Magic</a></p></li>
+<li><p><a class="reference external" href="#alchemy">Alchemy</a></p></li>
+<li><p><a class="reference external" href="#threshold-table">Threshold Table</a></p></li>
+</ul>
+</li>
+</ul>
+<hr class="docutils" />
+<p>Crafting is the production of various items, and wares from raw materials. Imbuing is adding supernatural powers or properties to a crafted item, either during crafting or afterwards.</p>
+<p>Crafting lies at the heart of both human civilisation, and, indirectly, many RPGs, even if there are no explicit mechanics for it in a given gaming system.</p>
+<p>In FanSys, any item that is described in the game can be crafted by either player or non-player characters. Although using the crafting system does not fit all games, due to the requisite time costs.</p>
+<hr class="docutils" />
+<section id="crafting">
+<h2>Crafting<a class="headerlink" href="#crafting" title="Link to this heading">¶</a></h2>
+<section id="the-crafting-process">
+<h3>The Crafting Process<a class="headerlink" href="#the-crafting-process" title="Link to this heading">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Decide what you want craft.</p></li>
+<li><p>Work out what the material, equipment, skill and time requirements are.</p></li>
+<li><p>Acquire the materials and equipment for it.</p></li>
+<li><p>Declare that you are crafting (eg “I am crafting a steel halberd”).</p></li>
+<li><p>Spend half of the time and make a skill roll (the roll is made in secret by the DM).</p></li>
+<li><p>Finish successfully (spend the rest of the time), fail (spend only half the time and material), or fail catastrophically (spend all the time and material).</p></li>
+</ol>
+</section>
+<hr class="docutils" />
+<section id="skills-used">
+<h3>Skills Used<a class="headerlink" href="#skills-used" title="Link to this heading">¶</a></h3>
+<p>Depending on what is being created different skills are used. Sometimes multiple skills are needed. For example, building a castle may require masonry and carpentry for the structure, engineering for the design, tinkering for traps and so on. Thus common sense should be applied. In cases where multiple skills are needed, each skill roll must succeed for the crafting to succeed. A roll is not necessarily required. For example, it can be assumed that a hundred workers will eventually build a castle, and the poor rolls of some will merely cancel out the brilliant rolls of others.</p>
+<p>As usual, other skills in the same skill group can substitute the main skill with a penalty. However, tool proficiencies cannot be eschewed for crafting.</p>
+<p>If multiple skills or tool proficiencies are required, they can be supplied by different characters involved in the crafting process.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>To Craft</p></th>
+<th class="head"><p>Skill(tool) proficiencies</p></th>
+<th class="head"><p>notes</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Structure/Building (wooden)</p></td>
+<td><p>Fortify(carpentry)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Structure/Building (stone)</p></td>
+<td><p>Academics + Fortify(Mason’s tools)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Structure/Building (complex)</p></td>
+<td><p>Academics + Tinker(various) + Fortify(Masons’s tools)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Weapon (light weapons)</p></td>
+<td><p>Tinker(smith’s tools*)</p></td>
+<td><p>* may vary if using special materials</p></td>
+</tr>
+<tr class="row-even"><td><p>Weapon (heavy weapons)</p></td>
+<td><p>Fortify(smith’s tools*)</p></td>
+<td><p>* may vary if using special materials</p></td>
+</tr>
+<tr class="row-odd"><td><p>Weapon (stave)</p></td>
+<td><p>Fortify(carpentry)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Weapon (bow)</p></td>
+<td><p>Tinker(carpentry)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Weapon (ammunition)</p></td>
+<td><p>Tinker(carpentry)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Armour</p></td>
+<td><p>Tinker(smith’s/tanner’s tools)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Tool/Instrument</p></td>
+<td><p>Tinker(varies)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Clothes</p></td>
+<td><p>Tinker(Taylor’s kit)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Jewel</p></td>
+<td><p>Tinker(Jeweler’s tools)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Mechanical Device</p></td>
+<td><p>Academics + Tinker(varies)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Medicine</p></td>
+<td><p>Heal(healer’s kit) OR Academics(alchemist’s equipment)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Poison</p></td>
+<td><p>Heal(poisoner’s kit) OR Academics(alchemist’s equipment)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Alchemical product</p></td>
+<td><p>Academics(alchemist’s equipment)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Rations</p></td>
+<td><p>Harvest(varies)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Fine Food</p></td>
+<td><p>Academics/Tinker(cook’s equipment)</p></td>
+<td><p>eg. fine dining</p></td>
+</tr>
+<tr class="row-even"><td><p>Mass Food</p></td>
+<td><p>Fortify(cook’s equipment)</p></td>
+<td><p>eg. legion field kitchen, banquet</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<hr class="docutils" />
+<section id="the-crafting-roll-and-thresholds">
+<h3>The Crafting Roll and Thresholds<a class="headerlink" href="#the-crafting-roll-and-thresholds" title="Link to this heading">¶</a></h3>
+<p>A crafting roll, with the appropriate skill is made when half the time needed has been spent. The roll should be made in secret by the DM, but this is not always necessary.</p>
+<p>The base Threshold is:  <strong>12 + 4 x [Material level]</strong></p>
+<p>Characters can <a class="reference external" href="02-base-rules.html#taking-24-taking-13-auto-failure-and-voluntary-failure">“take care”</a> on this roll.</p>
+<p>If the roll succeeds, the material is consumed and the crafting succeeds at the end of the allotted time. If the roll fails by 4 or less, the character has used up half of the material, but is immediately aware of their failure and does not use the other half of the material or time. If the roll fails by more than 4, the character uses all of the material and only realises that they ruined it at the end of the crafting period, hence also losing all of the time.</p>
+<p>Beating the threshold by 6 points or more creates an item which has +1 to durability for every 6 points by which the threshold is beaten.</p>
+<p>The rules for crafting complex devices are similar, to those here, but the thresholds are defined in the <a class="reference external" href="05-skills.html#tinker">“Skills:Tinker” section</a>.</p>
+<section id="special">
+<h4>Special<a class="headerlink" href="#special" title="Link to this heading">¶</a></h4>
+<ul class="simple">
+<li><p>A critical success when making an item causes it to be inhabited by a minor spirit, giving it a random level one enchantment. If the material level of the item is 1, the enchantment persists for a month. If it is level 2, the enchantment persists for a year. If the material level is at least 3, the enchantment is permanent.</p></li>
+<li><p>Snake eyes on making items means the tools take 1 point of damage.</p></li>
+<li><p>Snake eyes on making an alchemical produce causes it to explode (Dex save, Threshold=16) in a 10 ft radius causing 1d8 of fire damage for every “material level” of the ingredients.</p></li>
+<li><p>Snake eyes on making a poison means that the artisan(s) making it poison themselves in the process.</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="crafting-equipment-environment-and-other-modifiers">
+<h3>Crafting, equipment, environment and other modifiers<a class="headerlink" href="#crafting-equipment-environment-and-other-modifiers" title="Link to this heading">¶</a></h3>
+<p>A character generally requires a suitable workspace and equipment. Particularly good or poor working conditions and environment affect the outcome. Likewise, a character can do a rush job, or take it slow, as needed. The following table summarises the modifiers that this brings. Modifiers from different categories stack, thus you can do a rush job in a poor workspace, under poor conditions for a -16 to the roll. Ouch:</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Factor</p></th>
+<th class="head"><p>Effect</p></th>
+<th class="head"><p>Example</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Poor Workspace</p></td>
+<td><p>-6</p></td>
+<td><p>Alchemy in the middle of a forest</p></td>
+</tr>
+<tr class="row-odd"><td><p>Superior Workspace</p></td>
+<td><p>+4</p></td>
+<td><p>A royal alchemist’s laboratory</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Poor/improvised tools</p></td>
+<td><p>-6</p></td>
+<td><p>Digging a ditch with only your hands</p></td>
+</tr>
+<tr class="row-even"><td><p>Superior Tools</p></td>
+<td><p>+4</p></td>
+<td><p>Divine gem-cutting tools</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Superior Conditions</p></td>
+<td><p>Advantage</p></td>
+<td><p>Literally the perfect conditions</p></td>
+</tr>
+<tr class="row-odd"><td><p>Poor Conditions</p></td>
+<td><p>-6</p></td>
+<td><p>Fine woodwork in a cart that is shaking</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Rush Job</p></td>
+<td><p>-4</p></td>
+<td><p>Crafting takes 3/4 of the normal time</p></td>
+</tr>
+<tr class="row-even"><td><p>Absolute Rush Job</p></td>
+<td><p>-8</p></td>
+<td><p>Crafting takes 1/2 the normal time</p></td>
+</tr>
+<tr class="row-odd"><td><p>Take it slow</p></td>
+<td><p>+2</p></td>
+<td><p>Crafting takes x1.5 times the normal time</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Enchantment quality</p></td>
+<td><p>-</p></td>
+<td><p>Crafting takes x1.5 times the normal time</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<hr class="docutils" />
+<section id="crafting-time">
+<h3>Crafting Time<a class="headerlink" href="#crafting-time" title="Link to this heading">¶</a></h3>
+<p>For simplicity, the crafting time of an item in days (10 hour working day) is equal to: <strong>[Material coefficient] x [Base price (in sp)] / 20</strong></p>
+<p>Alternatively, it can be measured in hours: <strong>[Material coefficient] x [Base price (in sp)] / 2</strong></p>
+<p>If an item takes less than 10 hours to craft, then a character can craft it quicker, although no item can have a base crafting time of less than 2 hours. This is because preparing the materials and workspace always takes some time, no matter how trivial the task.</p>
+<p>It should be noted that one need not spend a whole block of 10 hours crafting with no breaks. Crafting time can be broken up into intervals throughout the day, though no interval can be shorter than 2 hours, as outlined above. Even so, this should allow a somewhat dedicated artisan to still assist their party during the adventuring day.</p>
+<p>This is an approximation which assumes that most of the cost of any item is the cost labour and equipment used to make it, and material costs are general low in comparison (which is not always true, but keeps things simple).The time to craft an item can be split between multiple artisans, although they must all be proficient in the tools.</p>
+</section>
+<hr class="docutils" />
+<section id="crafting-costs">
+<h3>Crafting Costs<a class="headerlink" href="#crafting-costs" title="Link to this heading">¶</a></h3>
+<p>Crafting items for a character is generally cheaper than purchasing ready made items, as it means one can eliminate labour cost completely, however, if the tools are particularly expensive and must be procured, it an also be more expensive. Likewise, the crafting time, is a major immaterial cost.</p>
+<p>This leaves the main variable crafting cost, the material used to make the item, and the material expended in the crafting. For example when smithing a sword, not only does one use the iron for the blade, leather and other materials for the grip, but also, for example, the coal used in the forge.</p>
+<p>In general, recommended material costs are as follows:</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Item Kind</p></th>
+<th class="head"><p>Material Cost</p></th>
+<th class="head"><p>Note</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>weapons, armour, tools, devices and clothes</p></td>
+<td><p><strong>1sp x [quality mod] x [item weight in lb] x 2</strong></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>structures</p></td>
+<td><p><strong>1sp x [quality mod] x [number of 5ft cubes the structure encompasses] x 2</strong></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>jewellery</p></td>
+<td><p><strong>10sp x [quality mod] x [per item] x 2</strong></p></td>
+<td><p>Assumed to use 1/60lb of material</p></td>
+</tr>
+<tr class="row-odd"><td><p>medicine, poison and alchemical goods</p></td>
+<td><p><strong>10sp x [quality mod] x [number of doses] x 2</strong></p></td>
+<td><p>Assumed to use 1/60lb of material</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>It should be noted that the costs are not set in stone. For example, the table of <a class="reference external" href="12-equipment-economy.html#common-goods">“Common Goods”</a>, gives much higher cost for rare and fantastic materials, as it assumes a society where they are nigh unattainable.</p>
+</section>
+<hr class="docutils" />
+<section id="material-coefficients-quality-mods-for-items">
+<h3>Material Coefficients (quality mods) for items<a class="headerlink" href="#material-coefficients-quality-mods-for-items" title="Link to this heading">¶</a></h3>
+<p>The cost of a material generally depends on the <a class="reference external" href="12-equipment-economy.html#material-level">“material level”</a>. This is not set in stone, but the recommended costs for non precious materials are:</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Material level</p></th>
+<th class="head"><p>Cost per lb</p></th>
+<th class="head"><p>Included Quality mod</p></th>
+<th class="head"><p>Material Coefficient</p></th>
+<th class="head"><p>Examples</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>2sp</p></td>
+<td><p>x1</p></td>
+<td><p>1</p></td>
+<td><p>bronze (the raw ores), hide, softwood*</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>4sp</p></td>
+<td><p>x4</p></td>
+<td><p>2</p></td>
+<td><p>iron, hardwood</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>20sp</p></td>
+<td><p>x27</p></td>
+<td><p>4</p></td>
+<td><p>Steel, Mithril, Ironwood</p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>130sp</p></td>
+<td><p>x256</p></td>
+<td><p>12</p></td>
+<td><p>Demon Teeth, Dragon Hide, Adamantium</p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>1250sp</p></td>
+<td><p>x3125</p></td>
+<td><p>108</p></td>
+<td><p>???</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>It should be noted that this refers to materials of high enough quality and free enough of defects to be used to make weapons such as bows, staves, swords. Materials that are of construction quality are usually cheaper.</p>
+<p>It should also be noted that the cost also includes costs of treatment and processing of the material (smelting, tanning, etc).</p>
+<p>As an exception, “precious” materials that are highly limited in availability break these rules. For example, silver costs 600sp per lb, while gold typically costs 6000lb per lb, despite having limited use for crafting. Likewise, groups may adjust “market prices” of crafting material for world building and plot related reasons.
+Typically, a precious material will cost at least x100 more per lb than an ordinary material, although it will grant no mechanistic benefit, setting aside the prestige. Alchemical reagents and gems and metals used to make jewellery typically fall into this category. Luckily you do not need to measure those in pounds.</p>
+<p>Lastly, groups should remember that acquiring high quality and rare materials is in and of itself an excellent subject matter for side quests.</p>
+</section>
+<hr class="docutils" />
+<section id="crafting-for-enchantment">
+<h3>Crafting for Enchantment<a class="headerlink" href="#crafting-for-enchantment" title="Link to this heading">¶</a></h3>
+<p>All items can be enchanted, but only specially prepared and crafted items will hold their magic permanently. This may involve engraving special ritual circles, or symbols on parts of the item, or performing lengthy rituals to cleanse and purify, or perhaps despoil the material. Regardless, this increases the crafting time by a factor of x1.5, with a minimum of 1 day.</p>
+</section>
+<hr class="docutils" />
+<section id="eschewing-reality">
+<h3>Eschewing Reality<a class="headerlink" href="#eschewing-reality" title="Link to this heading">¶</a></h3>
+<p>In reality, some seemingly simple items, such as bows, took a very long time to make. This is because preparing the materials (in the example with bows, drying and processing the wood and other materials), took months. Understandably, we eschew these requirements for most crafting processes in the game, assuming that “processed” materials that do not require these very long maturation processes are available. However, if a more gritty style fits the group, then this is something to consider.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="enchanting-imbuing-and-alchemy">
+<h2>Enchanting, Imbuing and Alchemy<a class="headerlink" href="#enchanting-imbuing-and-alchemy" title="Link to this heading">¶</a></h2>
+<p>Enchantment is placing spells upon objects, structures and locales. The item is quite literally under a spell. A heavy blade can be enchanted with magic that makes it lighter, a cloak with magic that makes it warmer, or sets it on fire under certain conditions. A house may be enchanted in a way that its walls bleed on moonlit nights. A rag-doll may be enchanted to dance and sing.</p>
+<p>Imbuing is placing supernatural powers so deep within an object, structure or locale, that it itself becomes a source of supernatural power. The words written in a tome of an ancient mage could be imbued with the power to become real spells when read aloud. A pendant found in an forsaken manor could be imbued with the ability to curse those who wear or wield it. A ring bequeathed by an elemental lord of fire, may grant the rightful wearer a fraction of its creator’s power.</p>
+<p>Alchemy is the process of using arcane knowledge to purify, synthesise or transmute raw ingredients into refined produce with special, and potentially supernatural properties. Often this involves infusing them with the alchemist’s mana, or using ingredients from beings which are intrinsically supernatural. A potion made by a spiteful witch might have the power to submerge the one who drinks it into an eternal, restless sleep, filled with endless nightmares. A salve made by the hermit who dwells in the hidden valley between two sacred peaks might transform the one to whom it is applied into a mythical beast, or heal the most grievous of wounds.</p>
+<p>Although the term “enchantment” or “magic item” can refer to any of the three processes, they are not, strictly speaking, interchangeable. Nevertheless the rules that govern them are similar enough to be covered jointly in the sections below.</p>
+<hr class="docutils" />
+<section id="types-of-enchantments">
+<h3>Types of Enchantments<a class="headerlink" href="#types-of-enchantments" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><strong>Single Charge</strong>: The power activates once and then dissipates for good. Imbued scrolls are a good example of this.</p></li>
+<li><p><strong>Recharge</strong>: A power or effect can be used once, or a few times, after which the magic becomes dormant until either sufficient time has passed, or some other condition has been met.</p></li>
+<li><p><strong>Constant</strong>: The magical effect or power is exhibited constantly and does not reduce with time.</p></li>
+<li><p><strong>At Will</strong>: There are no limits to the number of times an item’s power can be activated (although usually this still requires an action of some kind).</p></li>
+</ul>
+<p>Unless an item is made to be of enchantment quality, the magic will eventually leave the item and it will once again become mundane. Items of supernatural origin are an exception: They were never mundane to start off with and thus the magic will never wear off.</p>
+</section>
+<hr class="docutils" />
+<section id="the-process-of-enchanting">
+<h3>The Process of Enchanting<a class="headerlink" href="#the-process-of-enchanting" title="Link to this heading">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Decide what item you wish to enchant/imbue, and the magic you wish to place within it.</p></li>
+<li><p>Gather the requisite materials, find a suitable place, find assistants (optional).</p></li>
+<li><p>Find a character with the ability/spell to be enchanted/imbued into the item.</p></li>
+<li><p>Find a character proficient in <a class="reference external" href="05-skills.html#spellworking">spellworking</a>, who has sufficient MP dice to perform the deed.</p></li>
+<li><p>Expend resources in the following order:</p>
+<ul class="simple">
+<li><p>Expend the requisite material cost for each day of work.</p></li>
+<li><p>Expend the time.</p></li>
+<li><p>Expend MP dice and potentially HP.</p></li>
+</ul>
+</li>
+<li><p>Roll spellcraft, with appropriate modifiers. On success the item is enchanted/imbued. On a failure it is not, and the time is wasted. Upon catastrophic failure bad things happen.</p></li>
+</ol>
+<p>The spellcraft roll must be performed by a character proficient in spellworking, who has sufficient MP dice to perform the deed. The assistants must also be proficient in spellworking. The character providing the spell/ability to be enchanted/imbued into the item need not be the main enchanter, nor do they need to be one of the assistants, nor do they even need to be proficient in spellworking.</p>
+<p>As with crafting, the time need not be spent in one block. A working day is considered to be 10 hours and can be broken up into any configuration of 2 hour blocks that the group deems appropriate.</p>
+<p>It is possible to <a class="reference external" href="02-base-rules.html#taking-24-taking-13-auto-failure-and-voluntary-failure">“take care”</a> on the spellworking roll if this would exceed the threshold to successfully enchant/imbue the item. As always, one can only take care if there is no imminent danger, or unusual and unpredictable variables at play.</p>
+</section>
+<hr class="docutils" />
+<section id="types-of-magic-items">
+<h3>Types of magic items<a class="headerlink" href="#types-of-magic-items" title="Link to this heading">¶</a></h3>
+<p>The magic in items can be:</p>
+<ul class="simple">
+<li><p>Single use (or useable N times). Not rechargeable.</p></li>
+<li><p>Rechargeable (useable N times and then needs to be recharged).</p></li>
+<li><p>Constant (always on).</p></li>
+<li><p>At will (useable an unlimited amount of times, usually without a “cool-down”).</p></li>
+</ul>
+<p>Furthermore the magic in items can be triggered by:</p>
+<ul class="simple">
+<li><p>A successful attack, save or skill roll.</p></li>
+<li><p>Triggered by words or gestures (incantation or kinetic components).</p></li>
+<li><p>Triggered by thoughts.</p></li>
+<li><p>Triggered by a change in condition of the wielder.</p></li>
+<li><p>Triggered by a programmed contingency.</p></li>
+</ul>
+<p>Different types of magic and different triggers have different affinities for different kinds of items. So for example, texts have a higher affinity to single use magics, weapons and tools have a higher affinity for magics that can be recharged. Lastly, talismans, and items of purely sentimental value have a higher affinity for “Constant” and “At will” magics.</p>
+<hr class="docutils" />
+<section id="types-of-magic-in-items-by-use">
+<h4>Types of magic in items by use<a class="headerlink" href="#types-of-magic-in-items-by-use" title="Link to this heading">¶</a></h4>
+<p><strong>Single/N use magic items</strong>: The magic in these items can be activated once, or more (up to seven times depending how much magic it holds). After the magic has been used, it is gone and the item becomes mundane again. The Threshold for imbuing/enchanting single use tomes and scrolls is reduced by 4.</p>
+<p><strong>Rechargeable</strong>: The magic in these items can be activated once (or up to seven times if it holds enough magic). When the magic runs out, it can be recharged. Depending on the item, the conditions of recharge are different. The Threshold for imbuing/enchanting rechargeable weapons, staves and wands is reduced by 4.</p>
+<p><strong>Constant</strong>: The magic in these items is always active, and unless the item is dis-enchanted or otherwise loses its powers, will continue to be active while the item exists. The threshold for imbuing/enchanting jewellery and purely sentimental items with “constant” activation is reduced by 4.</p>
+<p><strong>At will</strong>: The number and frequency of uses of the magic in these items is not limited.</p>
+</section>
+<hr class="docutils" />
+<section id="types-of-magic-in-items-by-activation">
+<h4>Types of magic in items by activation<a class="headerlink" href="#types-of-magic-in-items-by-activation" title="Link to this heading">¶</a></h4>
+<p><strong>Hit/success triggered</strong>: Magic in weapons can be triggered by a successful attack (eg “entangle on hit”). Magic in armour, talismans and similar can be triggered by a successful save (eg “aqueous step on save”), or on a successful skill roll. This activation does not require an action beyond a successful attack/save/skill roll.</p>
+<p><strong>On use</strong>: The most common magic items are activated by an action. Like spells, these actions can have one or more of an “incantation” or “kinetic” component. Rarely they may be activated by thought alone. In general using this kind of item requires an action, be it a “reaction”, “secondary action”, “main action”, “full round action” or other.</p>
+<p><strong>On change of state</strong>: Some magic items activate when their wielder’s state changes, eg, when it gains or loses a condition, is hit by an attack, moves, or fails a save. Activating these items does not require an action, but does require the specific condition being met.</p>
+<p><strong>On fulfilled contingency</strong>: Some insidious magic items are activated when a condition is fulfilled. The condition can be incredibly complex, but must be tangible. For example “when next the sword is bathed in the light of the full moon”, “when the talisman passes through the gates of Dudariarch”.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="equivalence-between-abilities-and-spells">
+<h3>Equivalence between abilities and spells<a class="headerlink" href="#equivalence-between-abilities-and-spells" title="Link to this heading">¶</a></h3>
+<p>An ability is considered to be equivalent to a spell for imbuing and enchanting. For the sake of determining costs, durations and thresholds, they are translated as follows:</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Class of Ability</p></th>
+<th class="head"><p>Equivalent Spell Level</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>C</p></td>
+<td><p>3</p></td>
+</tr>
+<tr class="row-odd"><td><p>B</p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="row-even"><td><p>A</p></td>
+<td><p>6</p></td>
+</tr>
+<tr class="row-odd"><td><p>S</p></td>
+<td><p>9</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<hr class="docutils" />
+<section id="threshold-for-enchanting-imbuing-and-alchemy">
+<h3>Threshold for Enchanting, Imbuing and Alchemy<a class="headerlink" href="#threshold-for-enchanting-imbuing-and-alchemy" title="Link to this heading">¶</a></h3>
+<p>The base threshold (spellcraft) for enchanting an item (single use) with a spell, or an individual effect within a spell is:</p>
+<p><strong>[8 + (2 x level of the spell)]</strong></p>
+<p>The base threshold (spellcraft) for imbuing an item (single use) with a spell, or an individual effect within a spell is:</p>
+<p><strong>[10 + (2 x level of the spell)]</strong></p>
+<p>The threshold for creating alchemical produce is the same as for imbuing an equivalent item.</p>
+<p>Furthermore, the base threshold is modified by various factors, such as the kind of item being made (see the <a class="reference external" href="#threshold-table">threshold table</a> below).</p>
+</section>
+<hr class="docutils" />
+<section id="permanency-and-enchantment-quality-items">
+<h3>Permanency and “Enchantment Quality Items”<a class="headerlink" href="#permanency-and-enchantment-quality-items" title="Link to this heading">¶</a></h3>
+<p>Enchantments on enchantment quality items (see <a class="reference external" href="#crafting-for-enchantment">“Crafting for Enchantment”</a>), and items made of materials of supernatural origin, are permanent. That is to say that as long as the item is not destroyed, disenchanted, or the charges are not expended, the item retains its magic indefinitely.</p>
+<p>Enchantments on other items fade. The magic lingers for: <strong>[Spellcraft roll] x [spell level] x [spell level] days</strong></p>
+</section>
+<hr class="docutils" />
+<section id="places-of-power">
+<h3>Places of Power<a class="headerlink" href="#places-of-power" title="Link to this heading">¶</a></h3>
+<p>Locations associated with supernatural powers facilitate many supernatural processes. Enchanting or imbuing in such locations lowers the threshold for successfully imbuing or enchanting. Places of power do so for all enchanting and imbuing, while locations aligned to an element only empower magics associated with that element. Enchanting and imbuing in these places lowers the threshold by -4.</p>
+</section>
+<hr class="docutils" />
+<section id="re-enchanting-re-imbuing">
+<h3>Re-enchanting/Re-imbuing<a class="headerlink" href="#re-enchanting-re-imbuing" title="Link to this heading">¶</a></h3>
+<p>If a magical item loses its magic (generally, expending the charge or disenchantment), it can be enchanted again, however, in this case, its durability decreases by 1, and the threshold to successfully enchant/imbue it increases by +2.</p>
+<p>Unlike the initial enchanting or imbuing, re-enchanting/re-imbuing does not require the enchanter to possess the spell/ability that the item is being enchanted/imbued with.</p>
+</section>
+<hr class="docutils" />
+<section id="multiple-effects">
+<h3>Multiple Effects<a class="headerlink" href="#multiple-effects" title="Link to this heading">¶</a></h3>
+<p>An item can be imbued or enchanted with multiple spells, however, in this case the threshold (above base threshold), material cost, and time spend are additive.</p>
+</section>
+<hr class="docutils" />
+<section id="modified-effects-and-source-spells-abilities">
+<h3>Modified Effects and Source Spells/Abilities<a class="headerlink" href="#modified-effects-and-source-spells-abilities" title="Link to this heading">¶</a></h3>
+<p>When a supernatural effect is placed in an item, some of its parameters may differ from the source spell or ability. Namely:</p>
+<ul class="simple">
+<li><p>An enchanter may change the form of an area of effect spell/ability (cube, plane, cone, circle, line, single target, etc). However, neither the area of effect, nor the range can exceed that of the original spell.</p></li>
+<li><p>An enchanter usually need not apply all of the effects of the spell to the item being enchanted if the spell or ability:</p>
+<ul>
+<li><p>causes damage or a conditions.</p></li>
+<li><p>directly restores HP, SP or MP.</p></li>
+<li><p>grants cover or concealment.</p></li>
+<li><p>For more complex spells/abilities all the effects must be applied in the enchantment.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="costs-of-enchantment-and-imbuing">
+<h3>Costs of enchantment and Imbuing<a class="headerlink" href="#costs-of-enchantment-and-imbuing" title="Link to this heading">¶</a></h3>
+<p>Apart from material components, where appropriate, this process has no material costs. However, there are other costs.</p>
+<p>When enchanting or imbuing an item, the enchanter must expend a number of MP dice equal to: <strong>[spell level] x 4</strong>.</p>
+<p>This cost is paid at the end of the process, just before the spellworking roll is made. If the enchanter is unable to expend the requisite number of MP dice, they are not able to imbue the item in question.</p>
+<p>When imbuing an item, in addition to the MP dice cost one also pays with the spell/ability being imbued. When imbuing a single use item, the enchanter  (or assistant providing the spell/ability) loses the spell/ability for a number of days equal to the level of the spell.</p>
+<p>This time is counted from when the process of imbuing is completed. Furthermore, the duration of ability loss is modified by various factors (see the <a class="reference external" href="#threshold-table">threshold table</a>).</p>
+</section>
+<hr class="docutils" />
+<section id="time-taken-for-enchanting-imbuing">
+<h3>Time taken for Enchanting/Imbuing<a class="headerlink" href="#time-taken-for-enchanting-imbuing" title="Link to this heading">¶</a></h3>
+<p>The time taken for the ritual to imbue or enchant an item is: <strong>[Spell level] x [Spell level] days</strong></p>
+<p>If the item is single use, the time taken to imbue it is halved. The minimum time is 1 day, except for single use items, where it is 4 hours.</p>
+</section>
+<hr class="docutils" />
+<section id="exceptional-magic">
+<h3>Exceptional Magic<a class="headerlink" href="#exceptional-magic" title="Link to this heading">¶</a></h3>
+<p>Not all magic is equal. Some forms of magic are harder to enchant/imbue into items than others. For such magics, all thresholds for successful imbuing/enchantment are increased by +12.</p>
+<p>Likewise, for every level of the spell, the enchanter must expend HP.</p>
+<ul class="simple">
+<li><p>If the item is single use, the cost is <strong>[spell level]</strong> HP.</p></li>
+<li><p>If it is rechargeable, constant, or at will, the cost is <strong>12 + 2 x [spell level]</strong> HP.</p></li>
+</ul>
+<p>As with MP, this price is paid when the process is complete, and just before the spellworking roll is made.</p>
+<p>As it stands exceptional magic includes:</p>
+<ul class="simple">
+<li><p>ANY magic that restores HP to an entity.</p></li>
+<li><p>ANY magic that restores MP, SP, SP dice or MP dice to an entity.</p></li>
+</ul>
+<p>A group may add other spells/supernatural abilities to this list if they decide that it works better for them.</p>
+</section>
+<hr class="docutils" />
+<section id="alchemy">
+<h3>Alchemy<a class="headerlink" href="#alchemy" title="Link to this heading">¶</a></h3>
+<p>As an alternative for (or addition to) imbuing or enchanting, a character may engage in alchemy to create potions, powders, salves and similar produce. In order to do so, a character uses <a class="reference external" href="05-skills.html#academics">academics</a> and alchemist’s tools in place of spellworking. At least one ranks in “academics” and proficiency with “alchemist’s tools” are required.</p>
+<p>An alchemical product cannot be rechargeable, “constant” or “at will”. It is always considered non-rechargeable, although it may contain multiple charges/doses (eg a jar of curative salve with 6 doses).</p>
+<p>Alchemical produce may be natural or supernatural. If creating alchemical produce, the same general rules are used as for other imbuing or enchanting, although there is a small but important difference between them.</p>
+<hr class="docutils" />
+<section id="supernatural-alchemical-produce">
+<h4>Supernatural Alchemical Produce<a class="headerlink" href="#supernatural-alchemical-produce" title="Link to this heading">¶</a></h4>
+<p>Supernatural alchemical produce require a source of the effect much like other imbuing or enchanting. The difference is, the source may be the freshly <a class="reference external" href="05-skills.html#harvest">harvested</a> parts of an entity possessing the supernatural ability. There are two conditions for this kind of harvest:</p>
+<ul class="simple">
+<li><p>The reagents are considered “exotic”, thus increasing the threshold for the “harvest” roll by +10.</p></li>
+<li><p>The entity must still possess enough SP dice to use the ability, or at least 1 (whichever is higher) when the part is harvested.</p></li>
+<li><p>The amount of raw material needed is x10 greater than final alchemical produce. In general, at least 1lb of reagents are required per dose, although this is not always the case.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="natural-alchemical-produce">
+<h4>Natural Alchemical Produce<a class="headerlink" href="#natural-alchemical-produce" title="Link to this heading">¶</a></h4>
+<p>Natural alchemical products can also be made and mostly follow the standard rules for alchemy, imbuing and enchanting. However, one does not place spells or abilities into such a produce. A character can instead create:</p>
+<ul class="simple">
+<li><p>Produce that cause or cure a <a class="reference external" href="10-conditions-types.html#condition-table">condition</a>, except “dying”, “doomed”, “poisoned” or “diseased”. The difficulty and time taken is determined by the class of the condition (C, B, A, S) in the same way as <a class="reference external" href="#equivalence-between-abilities-and-spells">class of abilities</a> affects these paraments. If the condition is caused, it is caused for the “default” duration.</p></li>
+<li><p>Produce that cause <a class="reference external" href="14-poisons-and-diseases.html#poison-list">poisoning</a> or <a class="reference external" href="14-poisons-and-diseases.html#list-of-diseases">disease</a>, or cause a character to roll an additional save against them prematurely. As with conditions, the class of the poison/disease determines the difficulty and time taken. Likewise a source of the poison/disease is needed to extract and concentrate the final concoction.</p></li>
+<li><p>Synthesise/extract various mundane produce such as oils, waxes, perfumes, black powder, or items like paper, torches and the like.</p></li>
+<li><p>Create various miscellaneous items from the list (to do).</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="threshold-table">
+<h3>Threshold Table<a class="headerlink" href="#threshold-table" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Modifying Circumstance</p></th>
+<th class="head"><p>Group</p></th>
+<th class="head"><p>Modifier</p></th>
+<th class="head"><p>extra</p></th>
+<th class="head"><p>Note</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Extra charge on single use/recharge item</p></td>
+<td><p>Up to lvl 2</p></td>
+<td><p>+1</p></td>
+<td><p>Max of 7 (+6)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Extra charge on single use/recharge item</p></td>
+<td><p>From lvl 2</p></td>
+<td><p>+2</p></td>
+<td><p>Max of 7 (+12)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Recharging (up to 3 charges)</p></td>
+<td><p>Up to lvl 2</p></td>
+<td><p>+1/charge</p></td>
+<td><p>Max of 3 (+3)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Recharging (up to 3 charges)</p></td>
+<td><p>From lvl 2</p></td>
+<td><p>+2/charge</p></td>
+<td><p>Max of 3 (+6)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Constant</p></td>
+<td><p></p></td>
+<td><p>+6 + [2 x spell level]</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>At Will</p></td>
+<td><p>Up to lvl 2</p></td>
+<td><p>+10 + [2 x spell level]</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>At Will</p></td>
+<td><p>From lvl 3</p></td>
+<td><p>+16 + [2 x spell level]</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Use activated, no “kinetic” component</p></td>
+<td><p></p></td>
+<td><p>+2</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Use activated, no “incantation” component</p></td>
+<td><p></p></td>
+<td><p>+2</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Use activated, no components</p></td>
+<td><p></p></td>
+<td><p>+4</p></td>
+<td><p>Activated by thought or will</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Activated on change of state of wielder</p></td>
+<td><p></p></td>
+<td><p>+4</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Activated on programmed contingency</p></td>
+<td><p></p></td>
+<td><p>+4</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Exceptional Magic</p></td>
+<td><p></p></td>
+<td><p>+12</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Enchanted/imbued in a place of power</p></td>
+<td><p></p></td>
+<td><p>-4</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Enchanted/imbued in aligned location</p></td>
+<td><p></p></td>
+<td><p>-4</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>For each assistant</p></td>
+<td><p></p></td>
+<td><p>-1</p></td>
+<td><p>Max of 7 (-7)</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="14-poisons-and-diseases.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Poisons and Diseases</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="12-equipment-economy.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Equipment and Economy</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2023-3023, Fantasy Committee
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Crafting and Imbuing</a><ul>
+<li><a class="reference internal" href="#crafting">Crafting</a><ul>
+<li><a class="reference internal" href="#the-crafting-process">The Crafting Process</a></li>
+<li><a class="reference internal" href="#skills-used">Skills Used</a></li>
+<li><a class="reference internal" href="#the-crafting-roll-and-thresholds">The Crafting Roll and Thresholds</a><ul>
+<li><a class="reference internal" href="#special">Special</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#crafting-equipment-environment-and-other-modifiers">Crafting, equipment, environment and other modifiers</a></li>
+<li><a class="reference internal" href="#crafting-time">Crafting Time</a></li>
+<li><a class="reference internal" href="#crafting-costs">Crafting Costs</a></li>
+<li><a class="reference internal" href="#material-coefficients-quality-mods-for-items">Material Coefficients (quality mods) for items</a></li>
+<li><a class="reference internal" href="#crafting-for-enchantment">Crafting for Enchantment</a></li>
+<li><a class="reference internal" href="#eschewing-reality">Eschewing Reality</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#enchanting-imbuing-and-alchemy">Enchanting, Imbuing and Alchemy</a><ul>
+<li><a class="reference internal" href="#types-of-enchantments">Types of Enchantments</a></li>
+<li><a class="reference internal" href="#the-process-of-enchanting">The Process of Enchanting</a></li>
+<li><a class="reference internal" href="#types-of-magic-items">Types of magic items</a><ul>
+<li><a class="reference internal" href="#types-of-magic-in-items-by-use">Types of magic in items by use</a></li>
+<li><a class="reference internal" href="#types-of-magic-in-items-by-activation">Types of magic in items by activation</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#equivalence-between-abilities-and-spells">Equivalence between abilities and spells</a></li>
+<li><a class="reference internal" href="#threshold-for-enchanting-imbuing-and-alchemy">Threshold for Enchanting, Imbuing and Alchemy</a></li>
+<li><a class="reference internal" href="#permanency-and-enchantment-quality-items">Permanency and “Enchantment Quality Items”</a></li>
+<li><a class="reference internal" href="#places-of-power">Places of Power</a></li>
+<li><a class="reference internal" href="#re-enchanting-re-imbuing">Re-enchanting/Re-imbuing</a></li>
+<li><a class="reference internal" href="#multiple-effects">Multiple Effects</a></li>
+<li><a class="reference internal" href="#modified-effects-and-source-spells-abilities">Modified Effects and Source Spells/Abilities</a></li>
+<li><a class="reference internal" href="#costs-of-enchantment-and-imbuing">Costs of enchantment and Imbuing</a></li>
+<li><a class="reference internal" href="#time-taken-for-enchanting-imbuing">Time taken for Enchanting/Imbuing</a></li>
+<li><a class="reference internal" href="#exceptional-magic">Exceptional Magic</a></li>
+<li><a class="reference internal" href="#alchemy">Alchemy</a><ul>
+<li><a class="reference internal" href="#supernatural-alchemical-produce">Supernatural Alchemical Produce</a></li>
+<li><a class="reference internal" href="#natural-alchemical-produce">Natural Alchemical Produce</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#threshold-table">Threshold Table</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="_static/documentation_options.js?v=8bafd125"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/scripts/furo.js?v=46bd48cc"></script>
+    </body>
+</html>

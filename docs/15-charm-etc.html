@@ -1,0 +1,450 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="./">
+  <head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="genindex.html"><link rel="search" title="Search" href="search.html"><link rel="next" title="Recipes" href="16-recipes.html"><link rel="prev" title="Poisons and Diseases" href="14-poisons-and-diseases.html">
+
+    <!-- Generated with Sphinx 8.2.3 and Furo 2025.09.25 -->
+        <title>A note on charm, domination and possession - FanSys 0.0.18</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d111a655" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=580074bf" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=8dab3a3b" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f2f2f2;
+  --color-code-foreground: #1e1e1e;
+  --color-foreground-primary: #202424;
+  --color-foreground-secondary: #4a4c53;
+  --color-brand-primary: #112233;
+  --color-brand-content: #443322;
+  --color-brand-visited: #448822;
+  --color-background-primary: #f2f4ec;
+  --color-background-secondary: #e5e7e3;
+  --color-background-hover: #fafaf5;
+  --color-background-border: #40404067;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-foreground-primary: #cfd0d0;
+  --color-foreground-secondary: #acb0b5;
+  --color-brand-primary: #AABBCC;
+  --color-brand-content: #CFBEAC;
+  --color-brand-visited: #99DD99;
+  --color-background-primary: #242628;
+  --color-background-secondary: #2a2c2e;
+  --color-background-hover: #1e2124ff;
+  --color-background-border: #483945;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-foreground-primary: #cfd0d0;
+  --color-foreground-secondary: #acb0b5;
+  --color-brand-primary: #AABBCC;
+  --color-brand-content: #CFBEAC;
+  --color-brand-visited: #99DD99;
+  --color-background-primary: #242628;
+  --color-background-secondary: #2a2c2e;
+  --color-background-hover: #1e2124ff;
+  --color-background-border: #483945;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle site navigation sidebar">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc" aria-label="Toggle table of contents sidebar">
+<label class="overlay sidebar-overlay" for="__navigation"></label>
+<label class="overlay toc-overlay" for="__toc"></label>
+
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <span class="icon"><svg><use href="#svg-menu"></use></svg></span>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="index.html"><div class="brand">FanSys 0.0.18</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="index.html">
+  
+  <span class="sidebar-brand-text">FanSys 0.0.18</span>
+  
+</a><form class="sidebar-search-container" method="get" action="search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Index:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="01-quick-start.html">FanSys23 Quick-start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="03-movement-exploration.html">Actions outside of Combat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="04-combat.html">Combat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="05-skills.html">Skills</a></li>
+<li class="toctree-l1"><a class="reference internal" href="06-abilities.html">Abilities and Boons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="07-magic-and-spellcasting.html">Spells</a></li>
+<li class="toctree-l1"><a class="reference internal" href="08-spell-list.html">Spell List</a></li>
+<li class="toctree-l1"><a class="reference internal" href="09-races.html">Types, Races, Species and Templates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="10-conditions-types.html">Conditions and Types</a></li>
+<li class="toctree-l1"><a class="reference internal" href="11-weapons-armour.html">Weapons and armour</a></li>
+<li class="toctree-l1"><a class="reference internal" href="12-equipment-economy.html">Equipment and Economy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="13-crafting-imbuing.html">Crafting and Imbuing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="14-poisons-and-diseases.html">Poisons and Diseases</a></li>
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">A note on charm, domination and possession</a></li>
+<li class="toctree-l1"><a class="reference internal" href="16-recipes.html">Recipes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="02-base-rules.html">Base Rules</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="bestiary.html">A Bestiary for Fantasy Worlds</a><input aria-label="Toggle navigation of A Bestiary for Fantasy Worlds" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/forwards.html">Forwards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/beasts-and-plants.html">Beasts and Plants</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/constructs.html">Constructs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/divines.html">Divines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/humanoids.html">NPC stat blocks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/monsters-and-dragons.html">Monsters and Dragons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/profanes.html">Profanes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/spirits.html">Spirits</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="CHANGELOG.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="TODO.html">Character sheet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="LICENSE.html">License</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="view-this-page">
+  <a class="muted-link" href="_sources/15-charm-etc.md.txt" title="View this page">
+    <svg><use href="#svg-eye"></use></svg>
+    <span class="visually-hidden">View this page</span>
+  </a>
+</div>
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          <section id="a-note-on-charm-domination-and-possession">
+<h1>A note on charm, domination and possession<a class="headerlink" href="#a-note-on-charm-domination-and-possession" title="Link to this heading">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference external" href="#charm-and-charmed">Charm and Charmed</a></p></li>
+<li><p><a class="reference external" href="#domination-and-dominated">Domination and Dominated</a></p>
+<ul>
+<li><p><a class="reference external" href="#domination-and-its-consequences">Domination and its consequences</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#possession-and-possessed">Possession and Possessed</a></p>
+<ul>
+<li><p><a class="reference external" href="#possession-and-its-consequences">Possession and its consequences</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#altering-memory">Altering memory </a></p></li>
+<li><p><a class="reference external" href="#problems-with-mind-control-in-games">Problems with mind control in games</a></p></li>
+</ul>
+<p>Charm, mind control (domination) and possession (generally by itinerant spirits) are common themes in fantasy, therefore it would not be proper to exclude mechanics that enable them from a system that aims to deal with as much of fantasy as possible. Misuse of these three mechanics, however, is one of the quickest ways to spoil a game and cultivate grudges within a gaming group. This short chapter aims to explain the differences between these three mechanics, and give advice on their proper use.</p>
+<hr class="docutils" />
+<section id="charm-and-charmed">
+<h2>Charm and Charmed<a class="headerlink" href="#charm-and-charmed" title="Link to this heading">¶</a></h2>
+<p>To charm, in this context, implies to influence the mind of an entity so that it perceives the one that charmed in an exceedingly favourable manner. It should be viewed as delicate alteration to the target’s perception of reality, rather than full on mind control. The nature of this favourable view is determined specifically by the nature of the charmed entity. For example:</p>
+<ul class="simple">
+<li><p>A previously hostile dogs might perceive its charmer as its master’s friend.</p></li>
+<li><p>A dragon might perceive its charmer as one to whom it owes a heavy debt of gratitude.</p></li>
+<li><p>An elderly human might look upon its charmer as a long lost child. An adult may see them, as a friend, comrade in arms or lover. A child as a parent, aunt/uncle or trusted teacher.</p></li>
+</ul>
+<p>Of course how a charmed entity sees its charmer is not limited to the above examples and the exact way that the mind of a charmed entity justifies the charm is up to the DM for entities charmed by player characters, and to the player for when their character is charmed.</p>
+<p>As the <a class="reference external" href="10-conditions-types.html#charmed">condition</a> states, a charmed entity has disadvantage on [WIS], [CHA], [INT] saves vs its charmer. The charmed character also cannot attack the one who charmed it willingly, and the one who charmed it has advantage on attacks against it (although doing so usually at least risks breaking the charm). The charmed entity is under no obligation to obey the commands of the one who charmed it (unless the source of the charm is a spell such as <a class="reference external" href="08-spell-list.html#command-mortal">Command Mortal</a> which specifically specifies this effect).</p>
+<p>A charmed entity will generally follow reasonable, and often even unreasonable requests from the one who charmed it, but will not go against its nature. A cat will (probably!) not attack a bear, a dragon will not relinquish its horde, a loyal son will not kill his parents. In fact requests that go against the nature of a charmed entity generally force a save to break the charm, if not breaking it outright. Furthermore, attacks from the charmer or their allies tend to automatically end the charm effect. Lastly divine or entropic damage to the charmed entity break the effect.</p>
+</section>
+<hr class="docutils" />
+<section id="domination-and-dominated">
+<h2>Domination and Dominated<a class="headerlink" href="#domination-and-dominated" title="Link to this heading">¶</a></h2>
+<p>A dominated entity has its actions controlled directly by the one dominating it (dominator). It retains its senses and mind, but control of its body is mostly transferred to the dominator. Thus this is a somewhat horrific state where the dominated entity is aware of what is going on, but is unable to fully control its body. The dominator essentially controls the actions of a dominated entity as a puppeteer controls a puppet. As the <a class="reference external" href="10-conditions-types.html#dominated">condition</a> suggests, a dominated entity has disadvantage on all CHA rolls, as its control over itself is largely suppressed. Likewise, the dominated entity is effectively incapacitated, since the control it retains over its body is limited.</p>
+<p>Essentially, the dominator is acting through the dominated entity on a rather crude level. The control of the dominated entity is on a “basic” level. It can command the body to swing a sword, for example, but how that swing will be executed will depend on how well that body can swing a sword. The dominator can command the target’s body to cast a spell, but if the dominated entity doesn’t know the motions or feelings behind the spell, nothing will be cast. In short, the dominated target uses its stats, skills, proficiencies, abilities, movement speed and modality: it cannot take actions that it is not physically capable of carrying out. Likewise the dominator must use their <a class="reference external" href="04-combat.html#actions-in-combat">actions</a> for the dominated target to carry out the corresponding action.</p>
+<p>A dominated target is very much a prisoner in its own mind. However the control of the dominator is not absolute, and should the dominated entity receive a command to directly harm itself, or a “sworn” ally, or assist a “nemesis”, they receive a chance to make a CHA save at advantage and end the effect. Likewise, “divine” or “entropic” damage automatically ends the effect. Thus even a dominated target is loath to go against its nature.</p>
+<hr class="docutils" />
+<section id="domination-and-its-consequences">
+<h3>Domination and its consequences<a class="headerlink" href="#domination-and-its-consequences" title="Link to this heading">¶</a></h3>
+<p>Domination can easily be used to force the most vile of deeds onto others, which is not only an excellent way to earn enemies, but would likely leave long term scars in the psyche of those who have thus been subject to domination.</p>
+<p>Players whose characters use domination should be aware of potential in character consequences. DMs who use this kind of ability should be aware that the majority of players probably want to play their characters and not watch the DM puppet them, and proceed with caution.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="possession-and-possessed">
+<h2>Possession and Possessed<a class="headerlink" href="#possession-and-possessed" title="Link to this heading">¶</a></h2>
+<p>Any functional body, be it mortal or mechanical may house zero or more souls (or spirits). Most living mortals have a body and a (nascent) soul. A body that does not contain a soul is not alive (but also not necessarily dead). A soul can be in control of a body, or it can be dormant within it. The controlling soul determines the mental stats ([INT], [WIS],[CHA]), the skills, proficiencies and abilities that the entity (body and soul) together can use.</p>
+<p>Thus there are two stages to possession.</p>
+<ol class="arabic simple">
+<li><p>A foreign spirit entering a body (this can be prevented with a WIS save from the entity whose body the foreign spirit is attempting to enter).</p></li>
+<li><p>A foreign spirit within the body taking control of a body as the active possessing spirit (this can be prevented with a CHA save from the entity whose body the foreign spirit is attempting to become the primary spirit of).</p></li>
+</ol>
+<p>A spirit within a body, can observe all the action that the body takes. A spirit that has active possession of a body, foreign or nascent, is the will (or self) that moves the body.</p>
+<p>Since most bodies are meant to house a single (nascent) soul, possession produces a certain burden upon the body. Thus, while a body can theoretically house any number of spirits, an entity that houses a number of levels of spirits that is more than twice its original levels loses one SP die per hour (1 HP per hour if its SP dice count reaches zero), until the body dies.</p>
+<p>When a possessing entity uses the possessed body to perform an action that is against the possessed entity’s nature, the possessed entity gains a chance to save against the domination. They also have a chance to save when they receive “light”[supernatural], “divine” or “entropic” damage.</p>
+<p>Furthermore, if the possessing entity has its own body, the unattended body is essentially <a class="reference external" href="10-conditions-types.html#unconscious">“unconscious”</a> and <a class="reference external" href="10-conditions-types.html#helpless">“helpless”</a> and is thus an easy target. More importantly, perhaps, it is the perfect residence for itinerant spirits.</p>
+<hr class="docutils" />
+<section id="possession-and-its-consequences">
+<h3>Possession and its consequences<a class="headerlink" href="#possession-and-its-consequences" title="Link to this heading">¶</a></h3>
+<p>Possession is the ultimate denial of agency. For all intents and purposes, when a player character possesses an NPC, the player is playing their character with the physical stats and equipment of the NPC (at some risk of their character). When an entity played by the DM possesses a player character, the DM is not only playing their entity with the physical stats and equipment of the player, in doing so, the DM is also taking away what is (probably!) the player’s only piece in the game. Therefore, the DM should be extremely careful when using this mechanic, if the group elects to use it at all.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="altering-memory">
+<h2>Altering memory<a class="headerlink" href="#altering-memory" title="Link to this heading">¶</a></h2>
+<p>There are spells such as <a class="reference external" href="08-spell-list.html#promise">“Promise”</a>, <a class="reference external" href="08-spell-list.html#pact">“Pact”</a>, <a class="reference external" href="08-spell-list.html#mages-oath">“Mage’s Oath”</a>, <a class="reference external" href="08-spell-list.html#isolate-essence">“Isolate Essence”</a> and <a class="reference external" href="08-spell-list.html#memory-thief">“Memory Thief”</a> which can alter player character’s memories. Despite the excellent narrative opportunities that this provides, it is strongly advised that the DM refrains from doing so, unless the subject and its consequences have been discussed with, and understood by, the group. Partially this is because it removes player agency, and partially because it creates a great deal of cognitive dissonance (ie the player knows that part of the game/story pertaining to their character has happened, but has to pretend that the character doesn’t). Use of memory alteration magic on NPCs, on the other hand, is a lot “safer” for gameplay and group cohesion.</p>
+</section>
+<hr class="docutils" />
+<section id="problems-with-mind-control-in-games">
+<h2>Problems with mind control in games<a class="headerlink" href="#problems-with-mind-control-in-games" title="Link to this heading">¶</a></h2>
+<p>One could write a treatise on the problems caused by various forms of mind control in table top RPGs, as such this section should be considered the briefest of summaries.</p>
+<p>Mind control takes an entity and changes its behaviour. When one NPC charms another NPC, or a player character charms an NPC, this is generally not a problem unless the requests asked of the charmed NPC cross some behavioural line within the group, but this is rare in mentally sound gaming groups. On the other hand, when a player character is charmed (or dominated, or possessed), the player loses some degree of agency of what their character thinks, feels and does. This is problematic on two levels. Firstly, this is a problem because the player probably came to the table to play their character, not watch it being played by the DM. Secondly, on a deeper level, player characters are often on some level an avatar of the player in the game world, and thus being told what the avatar thinks, feels and must do is generally quite unpleasant.</p>
+<p>If mind control or charm are likely to come into play in a game, a group should first agree on what is acceptable and what is not (as with a lot of other subjects!), and then proceed from there on in. Even then, DMs should avoid using charm in such a way that it would defy the point of the character, or eschew player agency for prolonged periods. Lastly, one can give the players an out: For example, the <a class="reference external" href="08-spell-list.html#slumber">Slumber</a> spell allows an entity to take SP damage equal to the SP of the caster if they fail the save, instead of falling unconscious. A similar house rules could be used for charm, possession and domination.</p>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="16-recipes.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Recipes</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="14-poisons-and-diseases.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Poisons and Diseases</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2023-3023, Fantasy Committee
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">A note on charm, domination and possession</a><ul>
+<li><a class="reference internal" href="#charm-and-charmed">Charm and Charmed</a></li>
+<li><a class="reference internal" href="#domination-and-dominated">Domination and Dominated</a><ul>
+<li><a class="reference internal" href="#domination-and-its-consequences">Domination and its consequences</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#possession-and-possessed">Possession and Possessed</a><ul>
+<li><a class="reference internal" href="#possession-and-its-consequences">Possession and its consequences</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#altering-memory">Altering memory</a></li>
+<li><a class="reference internal" href="#problems-with-mind-control-in-games">Problems with mind control in games</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="_static/documentation_options.js?v=8bafd125"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/scripts/furo.js?v=46bd48cc"></script>
+    </body>
+</html>

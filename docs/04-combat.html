@@ -1,0 +1,1834 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="./">
+  <head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="genindex.html"><link rel="search" title="Search" href="search.html"><link rel="next" title="Skills" href="05-skills.html"><link rel="prev" title="Actions outside of Combat" href="03-movement-exploration.html">
+
+    <!-- Generated with Sphinx 8.2.3 and Furo 2025.09.25 -->
+        <title>Combat - FanSys 0.0.18</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d111a655" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=580074bf" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=8dab3a3b" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f2f2f2;
+  --color-code-foreground: #1e1e1e;
+  --color-foreground-primary: #202424;
+  --color-foreground-secondary: #4a4c53;
+  --color-brand-primary: #112233;
+  --color-brand-content: #443322;
+  --color-brand-visited: #448822;
+  --color-background-primary: #f2f4ec;
+  --color-background-secondary: #e5e7e3;
+  --color-background-hover: #fafaf5;
+  --color-background-border: #40404067;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-foreground-primary: #cfd0d0;
+  --color-foreground-secondary: #acb0b5;
+  --color-brand-primary: #AABBCC;
+  --color-brand-content: #CFBEAC;
+  --color-brand-visited: #99DD99;
+  --color-background-primary: #242628;
+  --color-background-secondary: #2a2c2e;
+  --color-background-hover: #1e2124ff;
+  --color-background-border: #483945;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-foreground-primary: #cfd0d0;
+  --color-foreground-secondary: #acb0b5;
+  --color-brand-primary: #AABBCC;
+  --color-brand-content: #CFBEAC;
+  --color-brand-visited: #99DD99;
+  --color-background-primary: #242628;
+  --color-background-secondary: #2a2c2e;
+  --color-background-hover: #1e2124ff;
+  --color-background-border: #483945;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle site navigation sidebar">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc" aria-label="Toggle table of contents sidebar">
+<label class="overlay sidebar-overlay" for="__navigation"></label>
+<label class="overlay toc-overlay" for="__toc"></label>
+
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <span class="icon"><svg><use href="#svg-menu"></use></svg></span>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="index.html"><div class="brand">FanSys 0.0.18</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="index.html">
+  
+  <span class="sidebar-brand-text">FanSys 0.0.18</span>
+  
+</a><form class="sidebar-search-container" method="get" action="search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Index:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="01-quick-start.html">FanSys23 Quick-start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="03-movement-exploration.html">Actions outside of Combat</a></li>
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Combat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="05-skills.html">Skills</a></li>
+<li class="toctree-l1"><a class="reference internal" href="06-abilities.html">Abilities and Boons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="07-magic-and-spellcasting.html">Spells</a></li>
+<li class="toctree-l1"><a class="reference internal" href="08-spell-list.html">Spell List</a></li>
+<li class="toctree-l1"><a class="reference internal" href="09-races.html">Types, Races, Species and Templates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="10-conditions-types.html">Conditions and Types</a></li>
+<li class="toctree-l1"><a class="reference internal" href="11-weapons-armour.html">Weapons and armour</a></li>
+<li class="toctree-l1"><a class="reference internal" href="12-equipment-economy.html">Equipment and Economy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="13-crafting-imbuing.html">Crafting and Imbuing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="14-poisons-and-diseases.html">Poisons and Diseases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="15-charm-etc.html">A note on charm, domination and possession</a></li>
+<li class="toctree-l1"><a class="reference internal" href="16-recipes.html">Recipes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="02-base-rules.html">Base Rules</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="bestiary.html">A Bestiary for Fantasy Worlds</a><input aria-label="Toggle navigation of A Bestiary for Fantasy Worlds" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/forwards.html">Forwards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/beasts-and-plants.html">Beasts and Plants</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/constructs.html">Constructs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/divines.html">Divines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/humanoids.html">NPC stat blocks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/monsters-and-dragons.html">Monsters and Dragons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/profanes.html">Profanes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/spirits.html">Spirits</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="CHANGELOG.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="TODO.html">Character sheet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="LICENSE.html">License</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="view-this-page">
+  <a class="muted-link" href="_sources/04-combat.md.txt" title="View this page">
+    <svg><use href="#svg-eye"></use></svg>
+    <span class="visually-hidden">View this page</span>
+  </a>
+</div>
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          <section id="combat">
+<h1>Combat<a class="headerlink" href="#combat" title="Link to this heading">¶</a></h1>
+<p>This system deals heavily with combat and many of the mechanics are tuned to work smoothly in combat.</p>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="#prelude-common-combat-parameters">Prelude: Common Combat Parameters</a></p>
+<ul class="simple">
+<li><p><a class="reference external" href="#attack-bonuses">Attack Bonuses</a></p></li>
+<li><p><a class="reference external" href="#save-thresholds">Save thresholds</a></p></li>
+<li><p><a class="reference external" href="#hit-hit-threshold">HiT (Hit Threshold)</a></p></li>
+<li><p><a class="reference external" href="#save-bonuses-one-for-each-stat">Save Bonuses, one for each stat</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#attacks">Attacks</a></p>
+<ul class="simple">
+<li><p><a class="reference external" href="#targeted-attacks">Targeted attacks</a></p></li>
+<li><p><a class="reference external" href="#area-of-effect-attacks">Area of effect attacks</a></p></li>
+<li><p><a class="reference external" href="#attacks-of-influence">Attacks of influence</a></p></li>
+<li><p><a class="reference external" href="#attacks-and-damage-bonuses">Attacks and damage bonuses</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#damage-and-death">Damage and Death</a></p>
+<ul class="simple">
+<li><p><a class="reference external" href="#death-dying-and-the-relationship-between-hp-mp-and-sp">Death, dying and the relationship between HP, MP and SP</a></p>
+<ul>
+<li><p><a class="reference external" href="#losing-mp-sp-and-rebalancing">Losing MP, SP and Rebalancing</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#damage-resistance">Damage resistance</a></p></li>
+<li><p><a class="reference external" href="#damage-vulnerability">Damage vulnerability</a></p></li>
+<li><p><a class="reference external" href="#damage-reduction">Damage reduction</a></p></li>
+<li><p><a class="reference external" href="#damage-immunity">Damage immunity</a></p></li>
+<li><p><a class="reference external" href="#hp-damage-and-conditions">HP damage and conditions</a></p></li>
+<li><p><a class="reference external" href="#damage-and-effects-over-time">Damage and effects over time</a></p></li>
+<li><p><a class="reference external" href="#dropping-defences-and-voluntary-hp-damage">Dropping defences and voluntary HP damage</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#flow-of-combat">Actions in combat</a></p>
+<ul class="simple">
+<li><p><a class="reference external" href="#flow-of-combat">Flow of Combat</a></p>
+<ul>
+<li><p><a class="reference external" href="#the-turn-and-actions">The Turn and actions</a></p></li>
+<li><p><a class="reference external" href="#types-of-actions-in-combat">Types of actions in combat</a></p></li>
+<li><p><a class="reference external" href="#movement-summary">Movement Summary</a></p></li>
+<li><p><a class="reference external" href="#total-defence-dodge">Total Defence: Dodge</a></p></li>
+<li><p><a class="reference external" href="#total-defence-shield">Total Defence: Shield</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#assisting">Assisting</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#surprise-and-ambush">Surprise and Ambush</a></p>
+<ul class="simple">
+<li><p><a class="reference external" href="#intentionally-hidden-enemies">Intentionally Hidden Enemies</a></p></li>
+<li><p><a class="reference external" href="#unintentionally-hidden-enemies">Unintentionally Hidden Enemies</a></p></li>
+<li><p><a class="reference external" href="#enemies-hiding-their-intent">Enemies Hiding their Intent</a></p></li>
+<li><p><a class="reference external" href="#mutually-unaware-combatants">Mutually unaware combatants</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#space-in-combat">Space in combat</a></p>
+<ul class="simple">
+<li><p><a class="reference external" href="#squares-and-hexes">Squares and Hexes</a></p></li>
+<li><p><a class="reference external" href="#range-and-reach">Range and reach</a></p></li>
+<li><p><a class="reference external" href="#threatened-area">Threatened area</a></p></li>
+<li><p><a class="reference external" href="#occupied-area-and-hostile-squares">Occupied area and hostile squares</a></p></li>
+<li><p><a class="reference external" href="#squeezing">Squeezing</a></p></li>
+<li><p><a class="reference external" href="#creature-sizes-reach-and-combat">Creature sizes, reach and combat</a></p></li>
+<li><p><a class="reference external" href="#flanking">Flanking</a></p></li>
+<li><p><a class="reference external" href="#cover-and-concealment">Cover and Concealment</a></p>
+<ul>
+<li><p><a class="reference external" href="#cover">Cover</a></p></li>
+<li><p><a class="reference external" href="#concealment">Concealment</a></p></li>
+<li><p><a class="reference external" href="#intervening-targets">Intervening Targets</a></p></li>
+<li><p><a class="reference external" href="#concealed-targets-and-stealth">Concealed targets and stealth</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#reactions-and-causality">Reactions and Causality</a></p></li>
+<li><p><a class="reference external" href="#attacks-of-opportunity">Attacks of Opportunity</a></p>
+<ul>
+<li><p><a class="reference external" href="#provoking-attacks-of-opportunity">Provoking attacks of opportunity</a></p></li>
+<li><p><a class="reference external" href="#avoiding-attacks-of-opportunity">Avoiding attacks of opportunity</a></p></li>
+<li><p><a class="reference external" href="#causality-and-attacks-of-opportunity">Causality and attacks of opportunity</a></p></li>
+<li><p><a class="reference external" href="#concealment-and-attacks-of-opportunity">Concealment and attacks of opportunity</a></p></li>
+<li><p><a class="reference external" href="#attacks-of-opportunity-table">Attacks of Opportunity Table</a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#mounts-and-mounted-combat">Mounts and Mounted Combat</a></p></li>
+<li><p><a class="reference external" href="#basic-combat-manoeuvres-and-tactical-movement">Basic combat manoeuvres and tactical movement.</a></p>
+<ul class="simple">
+<li><p><a class="reference external" href="#basic-martial-manoeuvres">Basic Martial Manoeuvres</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#spellcasting-and-supernatural-abilities">Spellcasting and Supernatural abilities</a></p>
+<ul class="simple">
+<li><p><a class="reference external" href="#spells">Spells</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#rest-and-recuperation">Rest and Recuperation</a></p>
+<ul class="simple">
+<li><p><a class="reference external" href="#preconditions-for-resting">Preconditions for resting</a></p></li>
+<li><p><a class="reference external" href="#short-rest">Short Rest</a></p></li>
+<li><p><a class="reference external" href="#long-rest">Long Rest</a></p></li>
+<li><p><a class="reference external" href="#full-rest">Full Rest</a></p></li>
+<li><p><a class="reference external" href="#resting-amelioration-and-armour">Resting, amelioration and armour</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#tables">Tables</a></p>
+<ul class="simple">
+<li><p><a class="reference external" href="#actions-by-action-cost-how-long-they-take">Actions by action cost (how long they take)</a></p></li>
+<li><p><a class="reference external" href="#actions-by-action-category-what-they-do">Actions by action category (what they do)</a></p></li>
+</ul>
+</li>
+</ol>
+<hr class="docutils" />
+<section id="prelude-common-combat-parameters">
+<h2>Prelude: Common Combat Parameters<a class="headerlink" href="#prelude-common-combat-parameters" title="Link to this heading">¶</a></h2>
+<p>There are parameters that most, or all, beings/entities have, that denote how successfully it attacks and defends against attacks. it should be noted that in each case only one of the sides (attacker or defender) needs to make a roll. The calculations are covered in the base rules.</p>
+<section id="attack-bonuses">
+<h3>Attack Bonuses<a class="headerlink" href="#attack-bonuses" title="Link to this heading">¶</a></h3>
+<p>An entity has 4 attack bonuses (STR, DEX, INT, WIS) that represent how likely its targeted attacks are to be effective. An entity rolls an attack against a target’s HiT (if the attack causes damage), or against one of its 4 save thresholds (for all combat manoeuvres other than the attack manoeuvre).</p>
+<p>The calculations for attack bonuses are found in <a class="reference external" href="02-base-rules.html#nap-and-sap-nat-and-sat-attack-of-the-three-letter-words-ii">“Base Rules: NAP and SAP, NAT and SAT”</a>.</p>
+</section>
+<hr class="docutils" />
+<section id="save-thresholds">
+<h3>Save thresholds<a class="headerlink" href="#save-thresholds" title="Link to this heading">¶</a></h3>
+<p>An entity has 4 save thresholds (STR, DEX, INT, WIS) that represent:</p>
+<ol class="arabic simple">
+<li><p>How likely it is to successfully defend against non-damaging combat manoeuvres. In this case, the attacker rolls an attack with an attack bonus against the target save threshold.</p></li>
+<li><p>How successful its area of effect and ‘special’ attacks are (such as spells). In this case, the target rolls a saving throw with the relevant bonus against the attacker’s save threshold.</p></li>
+</ol>
+<p>The calculations for attack thresholds are found in <a class="reference external" href="02-base-rules.html#nap-and-sap-nat-and-sat-attack-of-the-three-letter-words-ii">“Base Rules: NAP and SAP, NAT and SAT”</a>.</p>
+</section>
+<hr class="docutils" />
+<section id="hit-hit-threshold">
+<h3>HiT (Hit Threshold)<a class="headerlink" href="#hit-hit-threshold" title="Link to this heading">¶</a></h3>
+<p>Representing how difficult it is to cause it damage with a targeted attack that causes damage. Attackers roll an attack with an attack bonus against the HiT.</p>
+<p>The calculations for attack thresholds are found in <a class="reference external" href="02-base-rules.html#nap-and-sap-nat-and-sat-attack-of-the-three-letter-words-ii">“ NAP and SAP, NAT and SAT”</a>.</p>
+</section>
+<hr class="docutils" />
+<section id="save-bonuses-one-for-each-stat">
+<h3>Save Bonuses, one for each stat<a class="headerlink" href="#save-bonuses-one-for-each-stat" title="Link to this heading">¶</a></h3>
+<p>An entity has 6 saving throws, one for each stat[1]. Representing how well a target resists targeted effects and area of effect attacks. A target rolls a save with a save bonus against an attacker’s save threshold.</p>
+<p>The calculations for saves are found in <a class="reference external" href="02-base-rules.html#saving-throws">“Base Rules: Saving throws”</a>.</p>
+<ol class="arabic simple">
+<li><p>Some entities do not have all 6 stats. In that case they automatically fail saves for the stats that are missing.</p></li>
+</ol>
+</section>
+<hr class="docutils" />
+<section id="attacks">
+<h3>Attacks<a class="headerlink" href="#attacks" title="Link to this heading">¶</a></h3>
+<p>An attack is any action attempted against an entity that has the potential to reduce its combat potential, be it by direct damage, inducing a condition, or otherwise. For example, slashing an entity with a sword, trying to shove or disarm it, throwing dynamite at a spot where the explosion will catch it, casting a spell that charms, paralyses or blinds it, or dropping a piano on an entity all count as attacks, as do many other actions. There are three common forms of attacks:</p>
+<ul class="simple">
+<li><p>Targeted attacks</p></li>
+<li><p>Area of effect attacks</p></li>
+<li><p>Attacks of Influence</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="targeted-attacks">
+<h3>Targeted attacks<a class="headerlink" href="#targeted-attacks" title="Link to this heading">¶</a></h3>
+<p>A targeted attack is an attack made specifically against an entity and involves the attacker making a [NAP] or [SAP] based attack roll against the target. Usually targeted attacks do damage, but they can also have other effects, for example the “grapple” manoeuvre. Targeted attacks can target more than one entity (eg <a class="reference external" href="06-abilities.html#broad-strike">“Broad Strike”</a>), as long as they are specifically attacking those entities and not the general area.</p>
+</section>
+<hr class="docutils" />
+<section id="area-of-effect-attacks">
+<h3>Area of effect attacks<a class="headerlink" href="#area-of-effect-attacks" title="Link to this heading">¶</a></h3>
+<p>Area of effect attacks are made against a given area and generally affect all, or most of the entities and potentially objects within that area. A <a class="reference external" href="06-abilities.html#cone">“Elemental Cone”</a> or <a class="reference external" href="08-spell-list.html#forest-of-flame">“Forest of Flame”</a> are examples of area of effect attacks, although an avalanche or a tsunami can also be seen as area of effect attack. Entities caught within an area of effect attack must succeed on a <a class="reference external" href="02-base-rules.html#saving-throws">saving throw</a> vs the attack’s save threshold or suffer the full effects of the attack. Sometimes, upon a successful save it still suffers some of the effects. It is possible for an area of effect attack to only target the square occupied by a single entity.</p>
+</section>
+<hr class="docutils" />
+<section id="attacks-of-influence">
+<h3>Attacks of influence<a class="headerlink" href="#attacks-of-influence" title="Link to this heading">¶</a></h3>
+<p>Some attacks, especially supernatural attacks, adversely influence a target, targets, or area. In this case it is treated like an area of effect attack (saving throw vs save threshold). An example would the <a class="reference external" href="06-abilities.html#charm-i-iv">“Charm”</a> ability, or the <a class="reference external" href="08-spell-list.html#winters-touch">“Winter’s Touch”</a> spell. <a class="reference external" href="14-poisons-and-diseases.html">Diseases and poisons</a> can also be considered attacks of influence, although on occasion they might be used as area of effect attacks, so it should be noted that there is often a fine line between the two.</p>
+</section>
+<hr class="docutils" />
+<section id="attacks-and-damage-bonuses">
+<h3>Attacks and damage bonuses<a class="headerlink" href="#attacks-and-damage-bonuses" title="Link to this heading">¶</a></h3>
+<p>Besides [NAP] and [SAP] an attack is modified by the “governing” stat. A [stat bonus] is also added to the damage in most cases. When it is added it is usually the same stat as the governing stat for the attack. Thus for an attack with a <a class="reference external" href="11-weapons-armour.html#mechanical-bows">crossbow</a> (1d10 damage), where DEX is the governing stat, so:</p>
+<ul class="simple">
+<li><p>Attack bonus = [NAP] + [DEX]</p></li>
+<li><p>Damage = 1d10 + [DEX]</p></li>
+</ul>
+<p>For a <a class="reference external" href="11-weapons-armour.html#heavy-blades">longsword</a>, where STR is the governing stat:</p>
+<ul class="simple">
+<li><p>Attack bonus = [NAP] + [STR]</p></li>
+<li><p>Damage = 1d8 + [STR]</p></li>
+</ul>
+<p>For an <a class="reference external" href="06-abilities.html#elementalism-elemental-blast">Elemental Touch: Fire</a>, where WIS is the governing stat:</p>
+<ul class="simple">
+<li><p>Attack bonus = [SAP] + [WIS]</p></li>
+<li><p>Damage = 1d6 + [WIS] (At low levels at least)</p></li>
+</ul>
+<p>There are a number of exceptions however.</p>
+<p>The first is supernatural attacks, where damage can be governed by [INT], [WIS] or [SUP], independently of governing attribute.</p>
+<p>The second is melee weapon attacks with weapons that can be governed by either STR or DEX, as per the character’s choice. For this kind of weapon attacks, if the character chooses to govern the weapon attack with STR, they add the [STR] to the damage. However, if the character chooses to govern the attack with DEX, there is no stat bonus added to the damage unless the character has the <a class="reference external" href="06-abilities.html#weapon-finesse">“weapon finesse”</a> boon.</p>
+<p>The third is for melee weapons with the “heavy” property, as well as longbows and greatbows: a character with a [STR] of +2 or higher adds an additional [STR]/2 to the damage dealt (<em>rounded down</em> to the nearest whole number) when wielding them with at least two hands.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="damage-and-death">
+<h2>Damage and death<a class="headerlink" href="#damage-and-death" title="Link to this heading">¶</a></h2>
+<p>Attacks and various harmful effects cause injury and death to combatants, or destruction of structures and equipment (amongst other things). A semi-abstract measurement, damage, is used to quantify this.</p>
+<hr class="docutils" />
+<section id="death-dying-and-the-relationship-between-hp-mp-and-sp">
+<h3>Death, dying and the relationship between HP, MP and SP<a class="headerlink" href="#death-dying-and-the-relationship-between-hp-mp-and-sp" title="Link to this heading">¶</a></h3>
+<p>A target is considered <a class="reference external" href="10-conditions-types.html#conditions-in-detail">“dying”</a> when it reaches 0 HP. It is destroyed or killed when it reaches minus its HP total, or CON score[1] if it is higher. An entity that is dying is “unconscious” and can take no actions. At the start of each turn when an entity is “dying” it attempts a CON (CHA) save (threshold=20). On failure it loses 1 HP, on success it stabilises and becomes <a class="reference external" href="10-conditions-types.html#conditions-in-detail">“unconscious”</a>.</p>
+<p>Entities that are immune to “dying” fall unconscious instead until their HP reaches 0. These entities are still destroyed when they reach the negative of their total HP. Some entities, like undead, are instantly destroyed upon reaching 0 HP. Likewise, a group may decide that monsters and NPCs simply die at 0 HP for the sake of simplicity. This kind of house rule should be made explicitly clear at the start of a game.</p>
+<p>Of course most offensive abilities must first “eat” through the SP or MP of a target before working away at the HP. “Natural” attacks will first subtract from SP and only when that reaches 0, or if an attack deals massive damage, will HP damage be sustained. Likewise “supernatural” attacks will first subtract from MP.</p>
+<p>Some damage types ignore SP and MP:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="10-conditions-types.html#esoteric-damage">“Esoteric damage types”</a> subtract directly from HP, making these damage types extremely dangerous.</p></li>
+<li><p><a class="reference external" href="10-conditions-types.html#light">“Light”</a> and <a class="reference external" href="10-conditions-types.html#electricity-lightning">“Lightning”</a> will deal 1 point of damage directly to HP for every 2 dice of damage dealt. For example if an attack deals 2d4 or 3d4 of light damage to MP, it will cause 1 point of damage to HP, if it deals 4d4 or 5d4 light damage to MP, it will cause 2 points of damage to HP.</p></li>
+</ul>
+<ol class="arabic simple">
+<li><p>Entities that do not have a CON score may use their CHA score instead.</p></li>
+</ol>
+<hr class="docutils" />
+<section id="losing-mp-sp-and-rebalancing">
+<h4>Losing MP, SP and Rebalancing<a class="headerlink" href="#losing-mp-sp-and-rebalancing" title="Link to this heading">¶</a></h4>
+<p>MP is lost when MP dice are used, or when supernatural attacks damage a character. SP is lost when SP dice are used or when natural attacks damage a character. In some cases this means that a character can end up running out of MP (or SP), while they still have SP (or MP).</p>
+<p>Characters can therefore “rebalance” as a main action, converting SP into MP or MP into SP, at the cost of 2 to 1. So 2 MP would become 1 SP, or 2 SP would become 1 MP.</p>
+<p>For example, a mage with 39/47 SP and 0/60 MP might wish to cast a MP 1 (or higher) spell, but due to having 0 MP, lack the ability to do so. They might therefore convert 4 SP to MP, and end up with 33/47 SP and 2/60 MP. Enough to get that last spell off. Likewise the same mage, having just faced a few <a class="reference external" href="bestiary/monsters-and-dragons.html#hive-beast">hive beasts</a> in an ancient ruin, might have ended up with 10/47 SP but 52/60 MP, and may wish to convert 40 MP to SP, and end up with 30/47 SP but only 12/60 MP in the hopes that this will increase their chances of getting back to the surface alive.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="damage-resistance">
+<h3>Damage resistance<a class="headerlink" href="#damage-resistance" title="Link to this heading">¶</a></h3>
+<p>An item or entity with damage resistance to a damage type is not as strongly affected by the given damage type. An item or entity with resistance to a damage type takes half damage from that type of damage. Damage is ALWAYS rounded down when divided by 2.</p>
+<p>So if an entity with resistance fire[natural] is hit for 21 points of natural fire damage, it only takes 10 points of damage.</p>
+</section>
+<hr class="docutils" />
+<section id="damage-vulnerability">
+<h3>Damage vulnerability<a class="headerlink" href="#damage-vulnerability" title="Link to this heading">¶</a></h3>
+<p>An item or entity vulnerable to a damage type takes an extra half of the damage it would normally suffer.</p>
+<p>For example, if an entity with vulnerability fire[nature] is hit for 21 points of natural fire damage, it takes 31 points of damage.</p>
+</section>
+<hr class="docutils" />
+<section id="damage-reduction">
+<h3>Damage reduction<a class="headerlink" href="#damage-reduction" title="Link to this heading">¶</a></h3>
+<p>Entities seldom have damage reduction, so this rule mostly applies for objects and structures.</p>
+<p>An item or material with damage reduction is not affected by weak attacks and ignores the first few points of damage of the type. For example, if you hit a rock with a pick, you will not chip or break it unless you hit it hard enough, and hitting the same rock with a dagger will probably never do anything (compare to hitting a warrior in armour). Damage reduction is never used for entities.</p>
+<p>So if a <a class="reference external" href="08-spell-list.html#earth-ward">barrier</a> with damage reduction=10 physical is hit for 9 points of physical damage, it takes no damage, but if it is hit for 17 points of physical damage it takes 7.</p>
+</section>
+<hr class="docutils" />
+<section id="damage-immunity">
+<h3>Damage immunity<a class="headerlink" href="#damage-immunity" title="Link to this heading">¶</a></h3>
+<p>An item or entity with immunity to a damage type does not take damage from that damage type. For example, a fire elemental might never take damage from fire[natural].</p>
+</section>
+<hr class="docutils" />
+<section id="damage-to-objects">
+<h3>Damage to objects<a class="headerlink" href="#damage-to-objects" title="Link to this heading">¶</a></h3>
+<p>Most items and objects can be destroyed by use of force. For the sake of this, most objects, including weapons and armour have a special kind of hit points (sometimes called “durability”). For the specific rules on damaging objects see the <a class="reference external" href="03-movement-exploration.html#breaking-and-entering">“breaking and entering”</a> rules.</p>
+</section>
+<hr class="docutils" />
+<section id="hp-damage-and-conditions">
+<h3>HP damage and conditions<a class="headerlink" href="#hp-damage-and-conditions" title="Link to this heading">¶</a></h3>
+<p>When an entity loses HP due to damage, it risks acquiring a condition (see <a class="reference external" href="10-conditions-types.html#conditions-by-damage-type">“Conditions by Damage Type”</a> table).</p>
+<p>If there is HP damage caused by a targeted attack (before taking the first 12 on the 2d12 into account), for every “12” on the attack roll, it gains one associated condition (likewise see extra conditions by weapon).</p>
+<p>If the damage is due to an effect that allows a save (before taking the first 1 on the 2d12 into account), it instead gains one associated condition for every “1” it rolls on the save.</p>
+<p>If the damage is from a source that has neither attack roll or save, it automatically gains the condition.</p>
+</section>
+<hr class="docutils" />
+<section id="dropping-defences-and-voluntary-hp-damage">
+<h3>Dropping defences and voluntary HP damage<a class="headerlink" href="#dropping-defences-and-voluntary-hp-damage" title="Link to this heading">¶</a></h3>
+<p>An entity can chose not to defend itself when it takes damage, or even to directly harm itself (eg cut itself, shoot itself, swallow a fireball). In those cases it can chose damage to be dealt directly to its own HP (bypassing MP and SP).</p>
+<p>If dropping defences in combat, the target uses a reaction/minor interaction. It will lose its “shield” and “evasion” bonus to HiT and can fail saves which can be <a class="reference external" href="02-base-rules.html#taking-24-taking-13-auto-failure-and-voluntary-failure">failed voluntarily</a>. Out of combat time, there is usually time to line up an attack and auto-hit against a target that has dropped its defences.</p>
+<p>OPTIONAL RULE: Harming oneself, or dropping one’s defences often takes a considerable amount of willpower. Therefore a group may rule that a character from a race that has survival instincts must succeed a Threshold=20 CHA save before it can drop its defences or harm itself.</p>
+</section>
+<hr class="docutils" />
+<section id="damage-and-effects-over-time">
+<h3>Damage and effects over time<a class="headerlink" href="#damage-and-effects-over-time" title="Link to this heading">¶</a></h3>
+<p>Some effects and damage have an immediate or short term effect (eg. being hit over the head with a hammer), others have a longer term effect (eg. being on fire). If the effect allows a save, the save is made before the effect takes place, just as an attack roll is made before damage/manoeuvre outcome might be applied.</p>
+<ul class="simple">
+<li><p>If an effect is immediate or lasts no longer than a round, the save, if any, is made immediately, and the effect/damage is likewise applied immediately unless otherwise stated.</p></li>
+<li><p>If an effect lasts for a round or longer, the save, if any, is made at the start of a target’s turn and the effect is then applied. Unless otherwise stated, the save, if applicable, is repeated at the start of each subsequent turn until the effect ends. In some cases, such as being on fire, the effect is broken by a single successful save.</p></li>
+<li><p>On occasion, damage over time is measured in minutes, hours or days. In this case the same rule is applied, (save and effects at the start of each time period).</p></li>
+</ul>
+<p>The most common damage over time is fire/heat and is summarised in <a class="reference external" href="03-movement-exploration.html#fire-damage-and-being-on-fire">“Movement and Exploration: Fire damage and being on fire”</a>.</p>
+</section>
+<hr class="docutils" />
+<section id="weather-and-combat">
+<h3>Weather and Combat<a class="headerlink" href="#weather-and-combat" title="Link to this heading">¶</a></h3>
+<p>The weather can sway, and has swayed, the course of many a battle. Poor visibility is a benefit for those who wish to remain unseen. High winds is particularly troublesome to archers and small characters. Precipitation is a hindrance to mobile units, while extremes of temperature can reduce the combat effectiveness of heavily armoured units, as well as mages and other units with lower endurance. The effect of weather on morale and logistics in long term campaigns should also not be underestimated. For a detailed breakdown of the weather rules, see <a class="reference external" href="03-movement-exploration.html#classification-of-inclement-weather-hazards">“Classification of Inclement Weather Hazards”</a>.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="actions-in-combat">
+<h2>Actions in combat<a class="headerlink" href="#actions-in-combat" title="Link to this heading">¶</a></h2>
+<hr class="docutils" />
+<section id="flow-of-combat">
+<h3>Flow of Combat<a class="headerlink" href="#flow-of-combat" title="Link to this heading">¶</a></h3>
+<p>Combat is chaotic and combatants do what they can when they can. However this is not a tenable approach for games like this one, as it usually devolves into some form of chaos. As such we use a turn-based combat system and during combat we enter something called “combat-time” where all actions take place in orderly turns.</p>
+<p>All characters take their turn one at a time. This is is a poor reflection of reality, but helps keep the game flowing smoothly. We can interpret this abstraction in several ways, but generally a good way of doing so is to imagine that all actions take place at the same time, but some characters start moving a split second before others.</p>
+<p>Combat-time starts as soon as one or both sides are capable of fighting and willing. It ends when there is at most one side remaining that is capable and willing.</p>
+<ul class="simple">
+<li><p>At the start of combat all parties make an initiative roll <a class="reference external" href="02-base-rules.html#initiative">(see “initiative”)</a>. Entities act in order of initiative (highest to lowest).</p></li>
+<li><p>Combat takes place in “rounds” (~6s) and “turns”. Once each combatant has had a “turn”, top initiative to bottom, a “round” passes.</p></li>
+<li><p>Any entities that are not aware of of the other side at the start of combat, or are not aware that combat has started, are “surprised” for the duration of the first round.</p></li>
+<li><p>The DM can declare the end of combat-time when the outcome is so obviously decided that no roll of the dice is likely to alter it, and any more rounds seem like a waste of time. In this case the DM and players should agree on what extra resources are likely to be expended to achieve a final conclusion. Usually in this case one side will have already surrendered.</p></li>
+</ul>
+<hr class="docutils" />
+<section id="the-turn-and-actions">
+<h4>The Turn and actions<a class="headerlink" href="#the-turn-and-actions" title="Link to this heading">¶</a></h4>
+<ul class="simple">
+<li><p>The following (9) actions exist:</p>
+<ul>
+<li><p>“<strong>move</strong>”</p></li>
+<li><p>“<strong>main action</strong>”</p></li>
+<li><p>“<strong>secondary action</strong>”</p></li>
+<li><p>“<strong>item interaction</strong>”</p></li>
+<li><p>“<strong>minor interaction</strong>”</p></li>
+<li><p>“<strong>communicate</strong>”</p></li>
+<li><p>“<strong>sprint</strong>”</p></li>
+<li><p>“<strong>full round action</strong>”</p></li>
+<li><p>“<strong>reaction</strong>”</p></li>
+</ul>
+</li>
+<li><p>During its turn an entity may take all of the following actions in any order:</p>
+<ul>
+<li><p>One “<strong>move</strong>” action.</p></li>
+<li><p>One “<strong>main action</strong>”.</p></li>
+<li><p>One “<strong>secondary action</strong>”.</p></li>
+<li><p>One “<strong>minor interaction</strong>”.</p></li>
+<li><p>One “<strong>communicate</strong>” action.</p></li>
+</ul>
+</li>
+<li><p>Alternatively an entity may take ONE of the following sets instead:</p>
+<ul>
+<li><p>“<strong>Sprint</strong>” action.</p></li>
+<li><p>“<strong>Full round action</strong>” and potentially a “<strong>communicate</strong>” &amp; “<strong>minor interaction</strong>” if the full round action is centred around an item.</p></li>
+</ul>
+</li>
+<li><p>In addition, regardless of the other actions, it may take one “<strong>reaction</strong>” at any point in the round, providing that it is not prevented by other factors. It regains its reaction at the start of its turn.</p></li>
+</ul>
+<p>The actions named here are further described in the next section.</p>
+</section>
+<hr class="docutils" />
+<section id="types-of-actions-in-combat">
+<h4>Types of actions in combat<a class="headerlink" href="#types-of-actions-in-combat" title="Link to this heading">¶</a></h4>
+<p>The actions an entity may take might also be restricted by its conditions and general limitations. For example, if you have two hands and both are holding swords, you cannot pick up another item with your hand. The following actions exist in combat.</p>
+<ul class="simple">
+<li><p>“<strong>Move</strong>”: Move from A to B via a route that its modality of movement permits up to its stated movement speed.</p>
+<ul>
+<li><p>A mounted character uses their own “move” action, but their mount’s movement speed and movement modalities.</p></li>
+<li><p>Movement distance in combat is summarised in the <a class="reference external" href="#movement-summary">“Movement summary”</a> section.</p></li>
+</ul>
+</li>
+<li><p>“<strong>Main Action</strong>”: This is some generalised activity that takes no longer than 6 seconds and does not interfere with general “movement”. Actions include:</p>
+<ul>
+<li><p>Making an attack action.</p></li>
+<li><p>Using most abilities that use SP or MP.</p></li>
+<li><p>Activating certain items.</p></li>
+<li><p>Using some skills.</p></li>
+<li><p>Use in combination with “move action” to <strong>run</strong>.</p>
+<ul>
+<li><p>This is considered <a class="reference external" href="03-movement-exploration.html#vigorous-motion">“vigorous motion”</a> for the sake of spellcasting.</p></li>
+</ul>
+</li>
+<li><p>Administering a potion.</p></li>
+<li><p>Retrieving/Stowing an item that is in a container in reach.</p></li>
+</ul>
+</li>
+<li><p>“<strong>Secondary action</strong>”: A minor activity that can be carried out while doing something else at the same time. (eg, Attacking with an offhand dagger while swinging a sword). These include.</p>
+<ul>
+<li><p>Attack with an offhand weapon (if it has the <a class="reference external" href="06-abilities.html#offhand-fighting-i-iv">“Offhand fighting”</a> ability).</p></li>
+<li><p>Use certain abilities that use SP or MP.</p></li>
+<li><p>Activate certain item.</p></li>
+<li><p>Drinking a potion.</p></li>
+<li><p>Picking up, or setting down an item in reach that is not in a container.</p></li>
+</ul>
+</li>
+<li><p>“<strong>Minor interaction</strong>”: The minor interaction exists to allow characters to perform an action which is usually time consuming and substantial on its own, but will only add a small overhead as part of a different action. For example, unsheathing a sword is generally a secondary action in and of itself, but it is a minor interaction as part of a strike. If an “action” involves using an object, you may carry out an activity associated with that item that involves the part of your form that is interacting with it. The creature can also drop ONE item IN ADDITION to this. This need not be the same item. Otherwise minor interactions include:</p>
+<ul>
+<li><p>Drawing/picking up a sword you are about to attack with.</p></li>
+<li><p>Uncorking a vial before administering the content.</p></li>
+<li><p>Dropping defences on your turn.</p></li>
+</ul>
+</li>
+<li><p>“<strong>Reaction/Immediate action</strong>”: An action that can be taken at any time as long as some trigger condition is fulfilled (usually this requires the entity to be aware that the trigger happens). These actions are generally very quick and can be executed almost reflexively. Eg:</p>
+<ul>
+<li><p>Attacking once with a melee weapon or using certain abilities when a creature in range drops their guard (Attack of Opportunity).</p></li>
+<li><p>Cast certain spells or use certain abilities (counter-spelling, parrying, some defensive spells).</p></li>
+<li><p>Dropping to the ground outside of your turn (eg in reaction to the casting of a powerful spell).</p></li>
+<li><p>Dropping an item outside of your turn.</p></li>
+<li><p>Dropping defences outside of your turn.</p></li>
+</ul>
+</li>
+<li><p>“<strong>Full round actions</strong>”: Certain activities involve using the whole of your turn and cannot fit into an action. They are resolved at the start of the next turn (or a subsequent turn) when they are completed. These include:</p>
+<ul>
+<li><p>Casting certain spells. Especially those with a casting time of 1 minute or more take multiple full round actions.</p></li>
+<li><p>Using certain mechanisms (eg turning a crank for a mechanism for a drawbridge).</p></li>
+</ul>
+</li>
+<li><p>“<strong>Communicate</strong>”: Most entities can communicate in parallel to doing other things. This involves using means of communication (eg Speech) that do not interfere (much!) with other activities. As a guide, a humanoid character can communicate about 1 word per second (6 per round). You cannot use modes of communication that interfere with other actions (eg communicate verbally when chanting an incantation for a spell, using sign-language while wielding a two-handed sword (usually!)).</p></li>
+<li><p>“<strong>Sprint</strong>”: Move up to 4x your movement speed in a straight line with no obstructions.</p>
+<ul>
+<li><p>This is considered <a class="reference external" href="03-movement-exploration.html#vigorous-motion">“vigorous motion”</a> for the sake of spellcasting.</p></li>
+</ul>
+</li>
+<li><p>“<strong>Non-action</strong>”: Entities also carry out certain activities autonomously as part of their existence. These do not usually require actions (eg breathing). Concentrating is also a non-action.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="movement-summary">
+<h4>Movement Summary<a class="headerlink" href="#movement-summary" title="Link to this heading">¶</a></h4>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Action name</p></th>
+<th class="head"><p>Move distance</p></th>
+<th class="head"><p>Action Cost</p></th>
+<th class="head"><p>Special</p></th>
+<th class="head"><p>Time to fatigue</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Move</p></td>
+<td><p>1x speed</p></td>
+<td><p>“move action”</p></td>
+<td><p>-</p></td>
+<td><p>10+ hours</p></td>
+</tr>
+<tr class="row-odd"><td><p>Run</p></td>
+<td><p>2x speed</p></td>
+<td><p>“move action” + “main action”</p></td>
+<td><p>3x with “sprinter” ability</p></td>
+<td><p>[CON] hours</p></td>
+</tr>
+<tr class="row-even"><td><p>Sprint</p></td>
+<td><p>4x speed</p></td>
+<td><p>“sprint action” (1)</p></td>
+<td><p>5x with “sprinter” ability</p></td>
+<td><p>[STR] rounds</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<ol class="arabic simple">
+<li><p>A character that sprints must move in a straight line with no obstacles and can take no other action on its turn.</p></li>
+</ol>
+<p>For more information on movement, see <a class="reference external" href="03-movement-exploration.html">“Movement and Exploration”</a>. In addition, there are more movement rules below.</p>
+</section>
+<hr class="docutils" />
+<section id="total-defence-dodge">
+<h4>Total Defence: Dodge<a class="headerlink" href="#total-defence-dodge" title="Link to this heading">¶</a></h4>
+<p>A combatant may declare “total defence: dodge” and expend their “main action”, “secondary action” and “reaction”, hence adding a bonus equal to your base [DEX] to HiT, DEX saves and to Thresholds vs the following combat manoeuvres: “grapple”, “shove”, “throw”, “trip”, “disarm” and “sunder”, until the start of their next turn. This bonus stacks with the [DEX] that a character might already add to these defence parameters since it essentially doubles the bonus.</p>
+</section>
+<hr class="docutils" />
+<section id="total-defence-shield">
+<h4>Total Defence: Shield<a class="headerlink" href="#total-defence-shield" title="Link to this heading">¶</a></h4>
+<p>A combatant may declare “total defence; shield” and expend their “main action”, “secondary action” and “reaction”, hence adding a bonus equal to your shield[shield + weapon] HiT to HiT, STR saves and to Thresholds vs the following combat manoeuvres: “restrain”, “shove”, “throw”, “trip”, “disarm” and “sunder”, until the start of their next turn. This bonus stacks with the shield[shield + weapon] HiT bonus that a character might already add to these defence parameters, since it essentially doubles the bonus.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="assisting">
+<h3>Assisting<a class="headerlink" href="#assisting" title="Link to this heading">¶</a></h3>
+<p>FanSys does not have a dedicated assist/help action other than for skill/ability rolls (see <a class="reference external" href="05-skills.html#assisting-and-circumstance-bonuses">“Assisting and Circumstance bonuses”</a> section in the “Skills” chapter).</p>
+<p>However, there are plenty of possible actions and manoeuvres which are helpful, eg flanking, providing cover, using combat manoeuvres to trip, disarm, or grapple/restrain foes, as well as spells as abilities that provide small bonuses, penalties, or various side-effects.</p>
+<p>The system works this way to encourage players to be creative with “minor” abilities and positioning rather than blindly calling “I assist”.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="surprise-and-ambush">
+<h2>Surprise and Ambush<a class="headerlink" href="#surprise-and-ambush" title="Link to this heading">¶</a></h2>
+<p>As mentioned above, any combatants who are not aware of the other side, or that the other side is about to attack, starts the first round <a class="reference external" href="10-conditions-types.html#conditions-in-detail">“surprised”</a>. This can happen if the enemy is either hidden, or the intention to attack is hidden.</p>
+<hr class="docutils" />
+<section id="intentionally-hidden-enemies">
+<h3>Intentionally Hidden Enemies<a class="headerlink" href="#intentionally-hidden-enemies" title="Link to this heading">¶</a></h3>
+<p>This applies if one group takes active measures to hide from others. Generally all entities on one side make a <a class="reference external" href="05-skills.html#stealth">“stealth”</a> roll to represent all members of the ambush quickly getting out sight. An alternative is for a single entity in the group to make a <a class="reference external" href="05-skills.html#fortify">“fortify”</a> roll for the group, which represents the preparation of a hidden, pre-prepared position for an ambush. The former usually takes one “main action”, while the latter can take minutes or even hours. If this meets or exceeds the [“Observe” + 13] threshold of entities on the other side, they are surprised.</p>
+</section>
+<hr class="docutils" />
+<section id="unintentionally-hidden-enemies">
+<h3>Unintentionally Hidden Enemies<a class="headerlink" href="#unintentionally-hidden-enemies" title="Link to this heading">¶</a></h3>
+<p>Sometimes some combatants are hidden by virtue of coincidence when combat starts. For example being round a corner, or bending over behind a crate, tying their shoelaces. If such a combatant is aware of the other side, they are treated as ambushers in the “Intentionally Hidden Enemies” section.</p>
+</section>
+<hr class="docutils" />
+<section id="enemies-hiding-their-intent">
+<h3>Enemies Hiding their Intent<a class="headerlink" href="#enemies-hiding-their-intent" title="Link to this heading">¶</a></h3>
+<p>Sometimes enemies in plain sight hide their intent to attack (eg secret police or thugs in the street). In this case a “deceive” roll is made by the traitorous ambushers vs [“sense motive” + 13] instead.</p>
+</section>
+<hr class="docutils" />
+<section id="mutually-unaware-combatants">
+<h3>Mutually unaware combatants<a class="headerlink" href="#mutually-unaware-combatants" title="Link to this heading">¶</a></h3>
+<p>If both parties are unaware of each other (eg bandits meet guards round the corner of a mountain path), no one is surprised and combat proceeds immediately. More accurately, both parties are considered surprised in the first round and spend the round gawking and do nothing. Either way the surprise round does not happen.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="space-in-combat">
+<h2>Space in combat<a class="headerlink" href="#space-in-combat" title="Link to this heading">¶</a></h2>
+<p>Combat can take place purely in imaginary space (ie. theatre of the mind), on paper, crafted terrain, or a virtual desktop. In either case most combatants take up space and move through space. Many manoeuvres, spells and other abilities deal with manipulating friend and foe in this space. The game can be played completely ignoring space, but it does change the balance quite severely. On the other hand, there are times when an exact map is not needed. For example, combat is taking place in a small room where all targets are within hand’s reach. Alternatively if there is a chase or shoot-out with 600ft of space between combatants, mapping can be equally impractical.</p>
+<hr class="docutils" />
+<section id="squares-and-hexes">
+<h3>Squares and Hexes<a class="headerlink" href="#squares-and-hexes" title="Link to this heading">¶</a></h3>
+<p>Space is divided into squares or hexagons (hexes). Usually squares are used, and we will discuss hexes no further (although they are a perfectly good way of dividing space). Normally the size of a square is 5ft across. This also extends upwards and downwards (so a 5ft square is in fact a 5ft cube).</p>
+</section>
+<hr class="docutils" />
+<section id="range-and-reach">
+<h3>Range and reach<a class="headerlink" href="#range-and-reach" title="Link to this heading">¶</a></h3>
+<p>Attacks have a range and reach. Range and reach is measured in 5ft increments for simplicity.</p>
+<p>Melee attacks and manoeuvres have a reach between 0ft-30ft. Ranged attacks have a range of up to a few miles (but usually 60-600ft). The range of a melee attack or ability is called its “reach”.</p>
+<p>The normal reach for medium sized creatures is 5ft (aka into the adjacent square or one square). Sometimes a reach can be described as “long”. This means that an entity may use a “secondary action”, to extend a single targeted attack by 5ft. A reach of 10ft will reach two squares, a reach of 15ft will reach 3 squares and so on. If a creature with a reach of “long” uses a weapon with a range of “long”, the long descriptors stack, and the reach is increased by 5ft. Thus a large creature wielding a longsword is considered to have a reach of 10ft when attacking with said longsword (for the reach of entities of different sizes, see <a class="reference external" href="02-base-rules.html#size-rules-table">“Base Rules: Size rules table”</a>).</p>
+<p>Ranged weapons fired by combatants in melee are generally made at disadvantage (See <a class="reference external" href="11-weapons-armour.html#ranged-weapons-collateral-and-melee">“Ranged Weapons, collateral and melee”</a>).</p>
+</section>
+<hr class="docutils" />
+<section id="threatened-area">
+<h3>Threatened area<a class="headerlink" href="#threatened-area" title="Link to this heading">¶</a></h3>
+<p>Any square within the reach of a hostile entity’s melee attacks is considered threatened (this usually includes squares that the hostile entity occupies). This includes squares in reach of a <a class="reference external" href="11-weapons-armour.html#weapon-properties">“reach”</a> weapon, but not squares which can be put in reach of a “long” weapon by expending a secondary action.</p>
+</section>
+<hr class="docutils" />
+<section id="occupied-area-and-hostile-squares">
+<h3>Occupied area and hostile squares<a class="headerlink" href="#occupied-area-and-hostile-squares" title="Link to this heading">¶</a></h3>
+<p>Characters of different sizes take up a different number of squares (see the <a class="reference external" href="02-base-rules.html#size-rules-table">Size rules table</a>). For example, a medium sized character occupies 1 square (5 x 5 feet). Moving through an occupied square counts as squeezing (see below).</p>
+<p>An squares occupied by a hostile entity are known as <strong>hostile squares</strong>. In combat a character cannot freely move through hostile squares unless the entity occupying them is <a class="reference external" href="10-conditions-types.html#disabled-states">disabled</a>. The character may move through hostile squares by one of the following methods:</p>
+<ul class="simple">
+<li><p>A successful acrobatics roll, with a <strong>Threshold = [Attack bonus of hostile entity + 13]</strong> as part of its move action.</p></li>
+<li><p>A successful athletics roll vs the STR threshold of the hostile entity. On success the hostile entity is also moved one square in a direction of your choice, as long as it is not the square you have come from.</p>
+<ul>
+<li><p>The attempt is at disadvantage if you have not moved at least 10ft during your current turn.</p></li>
+<li><p>There is a +1 bonus for every 10ft above 30ft that your character has moved in a straight line during your turn.</p></li>
+<li><p>This follows the size dependence rules of <a class="reference external" href="#basic-martial-manoeuvres">basic martial manoeuvres</a>.</p></li>
+</ul>
+</li>
+<li><p>A successful “feint”, “grapple” or “shove” <a class="reference external" href="#basic-martial-manoeuvres">manoeuvre</a> as a bonus action.</p></li>
+</ul>
+<p>Upon failure the character cannot progress through the occupied area. Whether it succeeds or fails, the character making such an attempt is subject to attacks of opportunity.</p>
+</section>
+<hr class="docutils" />
+<section id="squeezing">
+<h3>Squeezing<a class="headerlink" href="#squeezing" title="Link to this heading">¶</a></h3>
+<p>An entity can move through spaces less than its size. In general this is up to half the space it occupies, rounded down, so 2ft for a medium sized entity and 5ft for a large entity. However, in this case it loses any DEX and SHIELD bonus to armour and has disadvantage to DEX and STR saves. Movement through smaller spaces may be possible with an acrobatics roll, but the gap should never be lower than what is physically possible. For example, a human cannot fit through a gap smaller than the diameter of its head, or the width of its hips (approximately 1ft x 2ft for an adult human).</p>
+</section>
+<hr class="docutils" />
+<section id="creature-sizes-reach-and-combat">
+<h3>Creature sizes, reach and combat<a class="headerlink" href="#creature-sizes-reach-and-combat" title="Link to this heading">¶</a></h3>
+<p>Size is, amongst other things, a measure of how much space an entity occupies. This affects various combat parameters and can be seen in the <a class="reference external" href="02-base-rules.html#size-rules-table">Size rules table</a>. Tiny and diminutive entities that have a reach of 0ft must occupy the same square as their target to make the attack.</p>
+<p>Likewise entities that are separated by at least two categories (eg Diminutive and medium, medium and gargantuan, large and colossal, small and colossal) can usually occupy the same space without penalty. Although the DM may ask for Dex saves from the smaller entity (threshold=NAT+Str of the bigger entity) on the turn of the bigger entity, lest the smaller entity be knocked “prone”.</p>
+</section>
+<hr class="docutils" />
+<section id="flanking">
+<h3>Flanking<a class="headerlink" href="#flanking" title="Link to this heading">¶</a></h3>
+<p>Conceptually speaking, when a target entity has to split its attention in combat in a way that it can no longer adequately defend itself from attacks from different sides it is considered flanked. When an entity is flanked, all basic combat manoeuvres and close range spells, or abilities, against it gain a +2 on their attack roll.</p>
+<p>To simplify, a target entity is flanked if it has combatants that are hostile to it on opposite sides of it (neither of flanking combatants are <a class="reference external" href="10-conditions-types.html#conditions-and-states">disabled</a>). Formally speaking, both of the following conditions are met:</p>
+<ol class="arabic simple">
+<li><p>The target entity is in the threatened area of two or more combatants that are hostile to it.</p></li>
+<li><p>The half-way point of the line connecting the centers of each of the two hostile combatants’ squares is inside the target’s square. Importantly, the line is not considered intersecting if it is merely touching a corner or side of the target’s square.</p></li>
+</ol>
+</section>
+<hr class="docutils" />
+<section id="cover-and-concealment">
+<h3>Cover and Concealment<a class="headerlink" href="#cover-and-concealment" title="Link to this heading">¶</a></h3>
+<p>Cover and concealment come in three flavours “light” (1/2), “heavy” (3/4) and “full”. Typically terrain, trees, buildings, and objects provide cover, while foliage, fog, clouds, rain and darkness provide concealment. Other entities act as concealment and intervening targets (if they’re unlucky).</p>
+<hr class="docutils" />
+<section id="cover">
+<h4>Cover<a class="headerlink" href="#cover" title="Link to this heading">¶</a></h4>
+<p>Cover is when something blocks line of effect between attacker and target. Light cover (as a rule covers no more than half of the entity’s body area) provides a -2 penalty to targeted attacks vs a target (deflection[cover] bonus to HiT). Heavy cover (as a rule covers 1/2 to 3/4 of a target’s area) provides a -5 penalty to targeted attacks and advantage to Dex saves (deflection[cover] bonus to HiT). A target in full cover cannot be targeted with a targeted attack. If an effect is not stated to explicitly spread around obstacles/corners, full cover automatically blocks it. If the effect does spread around corners and obstacles, the target is affected but has advantage on the save.</p>
+</section>
+<hr class="docutils" />
+<section id="concealment">
+<h4>Concealment<a class="headerlink" href="#concealment" title="Link to this heading">¶</a></h4>
+<p>Concealment is when something blocks line of sight between two entities. It can also be something that blocks a different sense, if that is the main sense used by the entity. An entity can attempt to hide (“stealth” skill) if it has heavy concealment or full concealment. In addition light concealment provides a 1/6 miss chance (use a d6). Heavy concealment provides a 2/6 miss chance. Full concealment provides a 4/6 miss chance for close (melee) attacks, and a 5/6 miss chance for ranged attacks. The miss chance is rolled before or after the attack roll, but obviously before damage.</p>
+</section>
+<hr class="docutils" />
+<section id="intervening-targets">
+<h4>Intervening targets<a class="headerlink" href="#intervening-targets" title="Link to this heading">¶</a></h4>
+<p>An entity that is on the line of attack between a character and their target acts as concealment and risks becoming an intervening target for ranged attacks.</p>
+<p>An entity is on the line of attack and becomes an intervening target if its hex/square is intersected by the line from the center of the attacker’s square to the center of the intended target’s square. If the intended target is in the same size category as, or larger than, the intervening entity, it gains heavy concealment, otherwise it gains light concealment.</p>
+<p>For the sake of targeted attacks, this acts like ordinary concealment, with one exception: if the roll of the D6 (1 for light cover, 1-2 for heavy cover) results in a miss, the attack instead targets the intervening entity. If there are several intervening targets, roll the concealment separately for each one until you either run out of intervening targets, or hit one of them.</p>
+</section>
+<hr class="docutils" />
+<section id="concealed-targets-and-stealth">
+<h4>Concealed targets and stealth<a class="headerlink" href="#concealed-targets-and-stealth" title="Link to this heading">¶</a></h4>
+<p>Targeted attacks cannot be made against a target with full cover (they always target the cover instead). However, they can be made against targets in full concealment, despite the high miss chance.</p>
+<p>On the other hand, an entity that has rolled stealth and exceeded an attacker’s observe threshold (13 + [observe bonus]) cannot be subject to targeted attacks by that attacker. Likewise, the attacker fails to keep track of the stealthed entity’s location with its senses and is considered unaware of it. The attacker can still try to use luck and logic to guess the target’s location.</p>
+<p>An entity in full concealment is not automatically stealthed. An attacker may be able to localise the position of a target with its senses, either automatically if the observe threshold is below its own (13 + [observe bonus]), or by making an observe roll as an action.</p>
+<p>Usually, at close range this will successfully localise the target in full concealment. However, circumstances, such as distance and poor visibility may thwart the attempt. See the <a class="reference external" href="05-skills.html#observe">“Observe”</a> skill for more details on how the threshold is determined.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="reactions-and-causality">
+<h3>Reactions and Causality<a class="headerlink" href="#reactions-and-causality" title="Link to this heading">¶</a></h3>
+<p>The golden rule for reactions, is that “causality must be preserved”.</p>
+<p>Unless otherwise stated, a “reaction” must be declared before the provoking action has resolved (narratively a reaction is initiated when the provoking action is still ongoing and has only just started). Thus a combatant does not declare their intent to parry after seeing the enemy’s blade pierce their gut. Likewise, one cannot declare “counter-spell” after learning that the target has failed its save. Reactions which are triggered by specific events such as “taking damage” obviously cannot be declared until the provoking event has happened (in this case the damage has been taken).</p>
+<p>Likewise, the provoking action generally resolves before any reactions to it. That said, there are a few exceptions to this rule. Firstly, attacks of opportunity can resolve before, or after, the triggering action is completed (See <a class="reference external" href="#causality-and-attacks-of-opportunity">“Causality and attacks of opportunity”</a>). Secondly, <a class="reference external" href="06-abilities.html#swift-strike">“Swift Strike”</a> allows attacks of opportunity to resolve before the action that triggers them. Lastly, when <a class="reference external" href="07-magic-and-spellcasting.html#banishing-breaking-counter-spelling-and-dispelling">“counter-spelling”</a> the spell is countered after the casting has begun and the MP dice cost has been paid, but before it has a chance to manifest and have an effect.</p>
+<p>Lastly, we come back to the golden rule for reactions: “causality must be preserved”. Thus if two actions take a similar amount of time to complete, the action that is started first, resolves first. Thus, a reaction, which starts <em>after</em> the action that triggers it (by definition!), also tends to be completed second.</p>
+<p>That said, some actions are faster than others and will resolve faster. For example if the provoking action is a “full round action”, “sprint”, or takes the whole of a turn or more to complete, the reaction will resolve first (if the reaction is to <em>begin</em> an activity that takes at least as long as the provoking action, then the activity begins immediately, but resolves after the action that provokes it).</p>
+<p>In some cases (usually with attacks of opportunity) reactions resolving after the triggering action would break causality. For example an attack of opportunity that is triggered by a target moving out of a threatened square resolves before the first 5ft of movement is complete. This is explained by melee attacks generally being very fast, but usually needing an opening, which requires a little bit of manoeuvring to set up, which is what takes most of the time. However, when the target turns to move, it provides that opening, allowing for an immediate attack to be made.</p>
+</section>
+<hr class="docutils" />
+<section id="attacks-of-opportunity">
+<h3>Attacks of Opportunity<a class="headerlink" href="#attacks-of-opportunity" title="Link to this heading">¶</a></h3>
+<p>An attack of opportunity is when a combatant exploits an opening left by another, and carries out a <a class="reference external" href="#basic-martial-manoeuvres">“basic martial manoeuvre”</a> against its target. An attack of opportunity uses a character’s reaction to make a single melee weapon attack or other basic combat manoeuvre. In general a character cannot apply an ability or spell instead of a basic combat manoeuvre, unless it is explicitly stated that the spell/ability is to be used with a “basic martial manoeuvre”, eg one can use “<a class="reference external" href="06-abilities.html#elemental-strike">Elemental Strike</a> when applying the “attack” manoeuvre as one’s attack of opportunity.</p>
+<section id="provoking-attacks-of-opportunity">
+<h4>Provoking attacks of opportunity<a class="headerlink" href="#provoking-attacks-of-opportunity" title="Link to this heading">¶</a></h4>
+<p>Targets moving out of a threatened square, or undertaking certain other actions that may leave an opening, such as standing up, or drinking a potion, provoke an attack of opportunity. This is detailed in the table below (see <a class="reference external" href="#attacks-of-opportunity-table">“Attacks of Opportunity Table”</a>)</p>
+</section>
+<hr class="docutils" />
+<section id="avoiding-attacks-of-opportunity">
+<h4>Avoiding attacks of opportunity<a class="headerlink" href="#avoiding-attacks-of-opportunity" title="Link to this heading">¶</a></h4>
+<p>A target moving out of one threatened square into another threatened square may avoid AoOs by declaring “careful movement” and halving their movement speed for the rest of the turn. Likewise a combatant may roll <a class="reference external" href="05-skills.html#acrobatics">“acrobatics”</a> to try and avoid attacks of opportunity when moving through a contiguous set of threatened squares (threshold = [attack bonus of hostile] + 13), on a failure by 5 or more, the one making the acrobatics roll falls prone.</p>
+<p>A character can avoid attacks of opportunity when moving out of a threatened square (into a square that is not threatened) by using their “main action” to withdraw. As in the previous case, an “acrobatics” roll can be used to ameliorate the situation. In this case a successful roll vs [attack bonus of hostile] + 13 allows one to withdraw as a bonus action, as usual, on a failure by 5 or more, the one making the acrobatics roll falls prone.</p>
+<p>As a rule, characters only provoke attacks of opportunity when moving through/out of threatened squares if they move under their own power. For example if a character is “shoved” out of a threatened space of an enemy, it does not provoke an attack of opportunity.</p>
+<p>A character with the <a class="reference external" href="06-abilities.html#guarded">“Guarded”</a> ability does not provoke attacks of opportunity when drinking potions or standing up.</p>
+</section>
+<hr class="docutils" />
+<section id="causality-and-attacks-of-opportunity">
+<h4>Causality and attacks of opportunity<a class="headerlink" href="#causality-and-attacks-of-opportunity" title="Link to this heading">¶</a></h4>
+<p>The attack of opportunity is made after the provoking action. It begins before the provoking action is resolved, but, as a rule, resolves after the provoking action. There are exceptions to this rule:</p>
+<ul class="simple">
+<li><p>If the target is moving out of a threatened square, the attack is resolved before the movement is completed (think of it as being hit by an attack that is in progress).</p></li>
+<li><p>If the character completing the attack of opportunity has the <a class="reference external" href="06-abilities.html#swift-strike">“Swift Strike”</a> ability (their attacks are so fast that the target has no time to finish its own action).</p></li>
+</ul>
+<p>So for example, when attacking a target that is standing up, the attack is made as if the target is still prone (so usually at advantage), but the damage is applied after the target has stood up. Usually this is of no consequence.</p>
+<p>If the provoking action is drinking a potion, the effect of the potion, if immediate, kicks in before the damage dealt by the attack.</p>
+<p>If the provoking action is an attack with a weapon the provoking character is not proficient with, any damage caused by the provoking character is applied first. If this means that the provoking character was attacking a comrade of the character making the AoO, the comrade would take damage from the provoking attack and only then does the provoking character take damage from the AoO. This is reversed by “swift strike”.</p>
+<p>If a character is running away, provokes an attack of opportunity when leaving its threatened area, and is grappled (or otherwise attacked) by the ogre, the grapple (or other attack) starts, and is resolved before the provoking character has left its original square.</p>
+<p>As always with reactions, “causality must be preserved”.</p>
+</section>
+<hr class="docutils" />
+<section id="concealment-and-attacks-of-opportunity">
+<h4>Concealment and attacks of opportunity<a class="headerlink" href="#concealment-and-attacks-of-opportunity" title="Link to this heading">¶</a></h4>
+<p>Attacks of opportunity require careful observation of the target. One cannot make an attack of opportunity against a target which is “invisible” to you or otherwise has three quarters concealment or full concealment.</p>
+</section>
+<hr class="docutils" />
+<section id="attacks-of-opportunity-table">
+<h4>Attacks of Opportunity Table<a class="headerlink" href="#attacks-of-opportunity-table" title="Link to this heading">¶</a></h4>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Action</p></th>
+<th class="head"><p>Provokes AoO</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Move out of threatened square</p></td>
+<td><p>Yes</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Be</strong> moved out of threatened square</p></td>
+<td><p>No</p></td>
+</tr>
+<tr class="row-even"><td><p>Move between threatened squares</p></td>
+<td><p>Yes, usually</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Be</strong> moved between threatened squares</p></td>
+<td><p>No</p></td>
+</tr>
+<tr class="row-even"><td><p>Cast spell with kinetic components</p></td>
+<td><p>Yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Cast spell without kinetic components</p></td>
+<td><p>No</p></td>
+</tr>
+<tr class="row-even"><td><p>Execute weapon attack, when proficient</p></td>
+<td><p>No</p></td>
+</tr>
+<tr class="row-odd"><td><p>Execute weapon attack when NOT proficient</p></td>
+<td><p>Yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Execute “basic martial manoeuvre”</p></td>
+<td><p>Varies</p></td>
+</tr>
+<tr class="row-odd"><td><p>Dropping prone</p></td>
+<td><p>No</p></td>
+</tr>
+<tr class="row-even"><td><p>Standing up</p></td>
+<td><p>Yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Drink Potion</p></td>
+<td><p>Yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Use item</p></td>
+<td><p>No, usually</p></td>
+</tr>
+<tr class="row-odd"><td><p>Drop item</p></td>
+<td><p>No</p></td>
+</tr>
+<tr class="row-even"><td><p>Dropping Defences</p></td>
+<td><p>Yes</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</section>
+</section>
+<hr class="docutils" />
+<section id="mounts-and-mounted-combat">
+<h2>Mounts and Mounted Combat<a class="headerlink" href="#mounts-and-mounted-combat" title="Link to this heading">¶</a></h2>
+<p>A character may ride a mount into combat (and in combat). In this case, for movement the rider’s move action is used, with the mount’s movement speed and modality. Likewise if a mounted character wishes to “run” or “sprint” (ie it wishes for its mount to do so with them on it), the rider’s action is used for it.</p>
+<ul class="simple">
+<li><p>Mounting is a “main action”. A quick mount can be attempted as a “secondary action” but this increases the risk of failure.</p></li>
+<li><p>Dismounting is a “secondary action”.</p></li>
+<li><p>A mount can be commanded to attack with a “communicate action” (threshold=12), although an untrained mount is unlikely to obey (threshold=24).</p></li>
+<li><p>A mount not trained in combat will likely bolt or freeze (“ride”, threshold=24).</p></li>
+<li><p>A rider with the <a class="reference external" href="06-abilities.html#charge">“charge”</a> ability may make a single attack as a secondary action even if the mount “runs” or “sprints”.</p></li>
+<li><p>A rider that makes a ranged attack, or casts a spell while their mount “runs” or “sprints” is subject to the usual <a class="reference external" href="03-movement-exploration.html#vigorous-motion">“vigorous motion”</a> rules (threshold=12 concentration save or lose the spell, -2 to attack bonus of ranged attacks and certain skill rolls).</p></li>
+<li><p>When an attack of opportunity is triggered it may be made against the mount or the rider.</p></li>
+<li><p>When the mount falls, the rider makes a “ride” or “acrobatics” roll (threshold=16) as a reaction to fall the first 10ft safely and land on their feet. Otherwise they suffer the usual falling rules.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="basic-combat-manoeuvres-and-tactical-movement">
+<h2>Basic combat manoeuvres and tactical movement<a class="headerlink" href="#basic-combat-manoeuvres-and-tactical-movement" title="Link to this heading">¶</a></h2>
+<p>This is a collection of unsorted rules related to basic physical combat.</p>
+<ul class="simple">
+<li><p>Dropping/falling “prone” does not cost movement.</p></li>
+<li><p>Standing can be done as part of a “move” action and costs 1/2 your movement speed rounded down.</p></li>
+<li><p>Moving out of the threatened area of a foe without precautions provokes an attack of opportunity.</p></li>
+<li><p>Moving through a threatened area provokes attacks of opportunity unless the movement is declared as being “cautious”, ie at half speed.</p></li>
+<li><p>Melee attacks can be made “non lethal” at no penalty with “percussive” weapons, and at a penalty with other weapons.</p></li>
+<li><p>Ranged attacks cannot be made non-lethal unless otherwise stated in for a specific type of ranged attack.</p></li>
+<li><p>Supernatural attacks are generally lethal, unless otherwise stated for the specific attack. Optionally, a group may rule that it may be made non-lethal with a <a class="reference external" href="05-skills.html#spellworking">spellworking</a> roll (Threshold = <strong>20 + [MP dice used]</strong>).</p></li>
+</ul>
+<hr class="docutils" />
+<section id="basic-martial-manoeuvres">
+<h3>Basic Martial Manoeuvres<a class="headerlink" href="#basic-martial-manoeuvres" title="Link to this heading">¶</a></h3>
+<p>Any combatant may attempt a martial manoeuvre. If a combatant is not proficient in a given manoeuvre, they take a -5 penalty to the attack roll. They might also risk attacks of opportunity and other penalties. All combatants are considered proficient in the “attack” manoeuvre (but not necessarily with the weapons used to make an attack). Many monsters can carry out these manoeuvres without penalties or meeting the prerequisites.</p>
+<p>Special abilities and weapons/tools can reduce or remove penalties for manoeuvres or increase their effectiveness. Most manoeuvres are made as an attack within the attack action, which is fundamentally a “main action”. However, they can also be carried out as part of an attack of opportunity (“reaction”), or as an offhand attack when making an attack action (which also consumed one’s “secondary action”). For more more information see the “Weapons and armour: <a class="reference external" href="11-weapons-armour.html#weapons">“Weapons”</a>” and <a class="reference external" href="11-weapons-armour.html#two-handed-and-two-weapon-fighting">“Two handed and two weapon fighting”</a> sections of <a class="reference external" href="11-weapons-armour.html">“Weapons and armour”</a>.</p>
+<ul class="simple">
+<li><p>The penalty for using a manoeuvre or attack without proficiency, if there is one, is -5 to the roll.</p></li>
+<li><p><strong>Size dependent</strong>: For some manoeuvres, if the target is larger than the attacker, there is a -2 penalty for every size category by which they differ. If the attacker is more than 2 size categories larger than the attacker, the manoeuvre cannot be applied. Lastly, for these manoeuvres, the attacker gains a +4 bonus for every size category by which it is larger than the target.</p>
+<ul>
+<li><p>“Grapple”, “Restrain”, “Shove”, “Throw” and “Trip” are size dependant.</p></li>
+</ul>
+</li>
+<li><p><strong>Attack</strong>: This is not really a manoeuvre, and is available to all characters.</p>
+<ul>
+<li><p>Effect: Deal damage to a target.</p></li>
+<li><p>Requires attack roll vs target’s HiT.</p></li>
+<li><p>Penalty if not proficient with the weapon.</p></li>
+<li><p>Effect: If attack succeeds damage is dealt to the target in accordance twith the damage rules.</p></li>
+<li><p>Special: Attacking with a weapon you are not proficient with provokes an attack of opportunity as you leave more openings than a proficient combatant.</p></li>
+</ul>
+</li>
+<li><p><strong>Grapple</strong>:</p>
+<ul>
+<li><p>Effect: The target gains the <a class="reference external" href="10-conditions-types.html#conditions-in-detail">“grappled”</a> condition: It’s move speed is zero.</p></li>
+<li><p>Requires attack roll vs target’s STR or DEX threshold.</p></li>
+<li><p>Penalty if not proficient with <strong>grapples</strong>.</p></li>
+<li><p>Attack of opportunity on failure.</p></li>
+<li><p>Size dependent.</p></li>
+<li><p>A character that successfully grapples a target must use part of its body (usually a limb or an object held by that limb) to maintain the grapple. Regardless, the limb (or other body part) cannot be used for kinetic components of spells, movement, or for other combat manoeuvres.</p>
+<ul>
+<li><p>The same applies when “restraining” a target.</p></li>
+<li><p>A character that that has “immobilised” its target is considered to have used at least two limbs.</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Restrain</strong>: This is the use of grapple on a prone or grappled target.</p>
+<ul>
+<li><p>Effect: The target gains the <a class="reference external" href="10-conditions-types.html#conditions-in-detail">“restrained or aphonic”</a> conditions.</p></li>
+<li><p>Prerequisite: Foe must be prone or grappled.</p></li>
+<li><p>Requires attack roll vs target’s STR or DEX threshold.</p></li>
+<li><p>Penalty if not proficient with <strong>grapples</strong>.</p></li>
+<li><p>Size dependent.</p></li>
+<li><p>The one executing this manoeuvre declares one of the desired outcomes:</p></li>
+<li><p>“Aphonia”: Prevent foe from completing incantations.</p></li>
+<li><p>“Restrain”: Prevent a foe from casting spells with kinetic components and give penalties to weapon attacks.</p></li>
+<li><p>Keeping a target restrains requires at least one limb, hence precluding its use for movement, attacking or spellcasting.</p></li>
+</ul>
+</li>
+<li><p><strong>Immobilise</strong>: A character may use “grapple” on a “restrained” target, using its whole attack action to immobilise it.</p>
+<ul>
+<li><p>Effect: The target gains the <a class="reference external" href="10-conditions-types.html#immobilised">“immobilised”</a> condition.</p></li>
+<li><p>The character that successfully immobilises its target is considered “grappled” unless it is at least two sizes larger than the target that it has immobilised. Immobilise also requires at least two limbs (or objects held by these limbs) to keep the target immobilised, hence precluding their use for movement, spellcasting or for other combat manoeuvres.</p></li>
+<li><p>Requires attack roll vs target’s STR or DEX threshold.</p></li>
+<li><p>Penalty if not proficient with <strong>grapples</strong>.</p></li>
+<li><p>Size dependent.</p></li>
+</ul>
+</li>
+<li><p><strong>Shove</strong>:</p>
+<ul>
+<li><p>Effect: Moves a foe away from you by up to 10ft.</p></li>
+<li><p>Requires attack roll vs target’s STR or DEX threshold.</p></li>
+<li><p>Penalty if not proficient with <strong>throws</strong>.</p></li>
+<li><p>Size dependent.</p></li>
+<li><p>Special: For every size category that you are larger than your target, increase the maximum distance by 5ft.</p></li>
+</ul>
+</li>
+<li><p><strong>Throw</strong>: A different flavour of shove and uses the same proficiency.</p>
+<ul>
+<li><p>Size dependent.</p></li>
+</ul>
+</li>
+<li><p><strong>Trip</strong>: This is also a different flavour of “shove” and uses the same proficiency.</p>
+<ul>
+<li><p>Effect: Knock a foe prone.</p></li>
+<li><p>Requires attack roll vs target’s STR or DEX threshold.</p></li>
+<li><p>Penalty if not proficient with <strong>throws</strong>.</p></li>
+<li><p>Size dependent.</p></li>
+<li><p>On failure provokes attack of Opportunity if the foe is holding a weapon you are not proficient with AND you are not proficient with <strong>throws</strong>.</p></li>
+</ul>
+</li>
+<li><p><strong>Disarm</strong>:</p>
+<ul>
+<li><p>Effect: Liberate a foe of a weapon or item held.</p></li>
+<li><p>Requires attack roll vs target’s STR or DEX threshold.</p></li>
+<li><p>Penalty if not proficient with <strong>disarm</strong>.</p></li>
+<li><p>Provokes a penalty and attack of Opportunity if the foe is holding a weapon you are not proficient with AND you are not proficient with <strong>disarm</strong>.</p></li>
+<li><p>If the weapon is light, the target has a -2 on the roll. If it is heavy, it has +2 on the roll.</p></li>
+</ul>
+</li>
+<li><p><strong>Feint</strong>:</p>
+<ul>
+<li><p>Effect: Give advantage to next attack against a target (you do not have to be the one to make the next attack).</p></li>
+<li><p>Requires attack roll (attack roll governed by INT) vs target’s STR or DEX threshold.</p></li>
+</ul>
+</li>
+<li><p><strong>Interception</strong>:</p>
+<ul>
+<li><p>Effect: Redirect a target’s attacks against you, or redirect attacks against a target at you.</p></li>
+<li><p>Requires attack roll.</p></li>
+<li><p>Description: Declare a target (must be within your threatened area) to intercept and roll attack. All attacks by that target that are below that threshold will target you instead. Alternatively pick a target to defend (must be within your threatened area) and roll attack. All attacks that are below that threshold against that target will target you instead.</p></li>
+<li><p>Special: You can attempt to intercept a single attack as a reaction.</p></li>
+</ul>
+</li>
+<li><p><strong>Sunder</strong></p>
+<ul>
+<li><p>Effect: Target an accessible object on the target entity instead of the entity itself with a weapon attack that deals damage.</p>
+<ul>
+<li><p>On success, the item takes 1 point of damage for every dice of damage that the weapon normally deals, if the materials are of “equal” quality.</p></li>
+<li><p>If the weapon used in the attack is made of “higher” materials, the amount of damage is 2 per damage dice of the attacking weapon.</p></li>
+<li><p>If the weapon used in the attack is made of a “lower” material, the total amount of damage is reduced by 1, and conversely the weapon making the attack takes 1 point of damage.</p></li>
+</ul>
+</li>
+<li><p>Requires attack roll vs target’s STR or DEX threshold.</p></li>
+<li><p>Penalty if not proficient with <strong>sunder</strong>.</p></li>
+<li><p>Provokes a penalty and attack of Opportunity if the foe is holding a weapon you are not proficient with AND you are not proficient with <strong>sunder</strong>.</p></li>
+</ul>
+</li>
+</ul>
+<p>A character that is “grappled”, “restrained” can make an opposing “grapple” manoeuvre on its turn to try to break free or move its assailant. A character that is immobilised can likewise use the “grapple” manoeuvre at disadvantage to break free and become “restrained” instead.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="spellcasting-and-supernatural-abilities">
+<h2>Spellcasting and Supernatural abilities<a class="headerlink" href="#spellcasting-and-supernatural-abilities" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Abilities and phenomena that would not exist in a mundane world, that cannot be explained adequately by “scientific” means are supernatural, otherwise called magical.</p></li>
+<li><p>The supernatural can be caused by divine, profane or spiritual sources.</p></li>
+<li><p>Supernatural abilities target MP, are fueled by MP dice.</p></li>
+<li><p>Supernatural abilities usually force INT, WIS or CHA saves, but some can also force other saves, or be manifest as targeted attacks.</p></li>
+</ul>
+<hr class="docutils" />
+<section id="spells">
+<h3>Spells<a class="headerlink" href="#spells" title="Link to this heading">¶</a></h3>
+<p>Spellcasting is covered in detail in <a class="reference external" href="07-magic-and-spellcasting.html">“Chapter 7: Spells”</a>. Spells are a subset of supernatural powers that mortals have learned to channel by following certain procedures. Entities that cast spells are referred to here as “<strong>casters</strong>”. Spells can be either “<strong>local</strong>” or “<strong>global</strong>”. “Global” spells can be useful, and indeed devastating in combat, but most combat spells are “local”. “Local” spells have the following properties:</p>
+<ul class="simple">
+<li><p>They generally take between a couple of seconds to a dozen minutes to cast (“minor action” to “10 minutes”), but generally take a “main action”.</p></li>
+<li><p>Their effect is either immediate, or lasts no longer than a few days.</p></li>
+<li><p>Their range is generally no more than a mile.</p></li>
+<li><p>Their effect has a radius of no more than a mile for utility spells (eg. search spells) or about 120ft for offensive spells (eg. explosion magic).</p></li>
+<li><p>They typically take 1-10 MP dice to cast.</p></li>
+</ul>
+<p>Casting spells involve a combination of one or more of the following components:</p>
+<ol class="arabic simple">
+<li><p><strong>Kinetic Components</strong>: A set of defined, obvious gestures or movements. A character that cannot move its body cannot perform these. Likewise spells with kinetic components provoke attacks of opportunity. Spells with kinetic components tend to have a longer range.</p></li>
+<li><p><strong>Incantation components</strong>: A set of defined, well enunciated words or sounds. A character that cannot clearly enunciate sounds cannot cast spells with incantation components. Spells with only incantation components are well suited to close range combat as they do not provoke attacks of opportunity.</p></li>
+<li><p><strong>Ritual components</strong>: A ritual is a procedure involving defined movement and positioning of objects or entities, or the creation of defined patterns. Disruption of this procedure ruins the ritual. Rituals typically apply to global spells.</p></li>
+</ol>
+<p>While some combat spells do cause direct damage (usually supernatural in nature), most spells have effects which induce conditions or change the state of the battlefield, hence tipping the balance on the battlefield.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="rest-and-recuperation">
+<h2>Rest and Recuperation<a class="headerlink" href="#rest-and-recuperation" title="Link to this heading">¶</a></h2>
+<p>After expending resource or sustaining injury in combat or otherwise, a character needs time for recuperation and recovery. However, a certain level of comfort is needed to rest effectively. One does not simply rest in the middle of a dungeon. Furthermore there are three types of rest: Short rest, long rest and full rest. Depending on how harsh and “gritty” the game you are in is, the time period that such a rest covers may vary. We recommend the “high action” times for most groups. “Harsh” rules are recommended for more gritty games, or games where violence is meant as the exception and not the rule.</p>
+<hr class="docutils" />
+<section id="preconditions-for-resting">
+<h3>Preconditions for resting<a class="headerlink" href="#preconditions-for-resting" title="Link to this heading">¶</a></h3>
+<p>A character cannot rest if:</p>
+<ul class="simple">
+<li><p>They are experiencing violent motion (eg on a galloping horse).</p></li>
+<li><p>They are exerting themselves (eg casting spells or doing labour).</p></li>
+<li><p>They are experiencing any extreme weather effect without some kind of <a class="reference external" href="03-movement-exploration.html#camping">shelter, fortification or amelioration</a>.</p></li>
+</ul>
+<p>In addition, certain types of rest have additional requirements:</p>
+<ul class="simple">
+<li><p>For a long rest or longer a character must have access to sleep, food and water (if they sleep eat or drink respectively).</p></li>
+<li><p>For a long rest or longer a character must be in an “ameliorated” area or make a CON save against the [terrain + weather] threshold in order to rest successfully (see <a class="reference external" href="03-movement-exploration.html#camping">Camping</a>).</p></li>
+<li><p>In addition for a full rest a character must have access to medical care and not be subject to severe weather conditions for longer than 4h at a time (or they must make a CON save against the [terrain + weather] threshold or have to restart the rest).</p></li>
+<li><p>In addition for a full rest a character must not suffer any effects that cause it to lose hit points.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="short-rest">
+<h3>Short Rest<a class="headerlink" href="#short-rest" title="Link to this heading">¶</a></h3>
+<p>The recommended duration for a short rest is 1h in a high-action game and 4h in a harsh game. During a short rest a character regains:</p>
+<ul class="simple">
+<li><p>1/2 (rounded up) of their MP dice.</p></li>
+<li><p>1/2 (rounded up) of their SP dice.</p></li>
+<li><p>[Base x CHA + Total MP dice count] MP.</p></li>
+<li><p>[Base x CON + Total SP dice count] SP.</p></li>
+</ul>
+<p>A character can benefit from number of short rests per long rest no higher than its [Base]. So a level 3 character can benefit from only 1 short rest per long rest, while a level 16 character can benefit from 4 short rests per long rest. This represents a higher level character having a deeper reserves to draw upon.</p>
+</section>
+<hr class="docutils" />
+<section id="long-rest">
+<h3>Long Rest<a class="headerlink" href="#long-rest" title="Link to this heading">¶</a></h3>
+<p>The recommended duration for long rest is 8h in a high action game and 1 day in a harsh game. During a long rest a character gains all of the benefits of a short rest, as well as:</p>
+<ul class="simple">
+<li><p>Resetting the short rest counter.</p></li>
+<li><p>Regaining exactly 1 HP. (This can be increased to 2 HP with the long term care use of the <a class="reference external" href="05-skills.html#heal">Heal skill</a>).</p></li>
+</ul>
+<p>A character can benefit from no more than one long rest per 24h. In addition a character must carry out at least an hour of exertion after their long rest to benefit from a short rest.</p>
+</section>
+<hr class="docutils" />
+<section id="full-rest">
+<h3>Full Rest<a class="headerlink" href="#full-rest" title="Link to this heading">¶</a></h3>
+<p>A full rest is a week of downtime in a high action game, or two weeks of downtime with constant long term medical care (see <a class="reference external" href="05-skills.html#heal">Heal</a>) in a harsh game. During this time a character regains all SP dice, MP dice, MP, SP and HP.</p>
+<p>It is recommended that a character should have to take a full rest in order to level up, which represents the time needed to internalise and “own” the experience gained in previous adventures.</p>
+</section>
+<hr class="docutils" />
+<section id="resting-amelioration-and-armour">
+<h3>Resting, amelioration and armour<a class="headerlink" href="#resting-amelioration-and-armour" title="Link to this heading">¶</a></h3>
+<p>Armour, while suitable for combat, makes for an uncomfortable rest and makes proper treatment of injuries and recuperation difficult.</p>
+<p>A character wearing medium or heavy armour during a long rest must succeed on a CON save with a Threshold = [10 + Armour rating] to benefit from the long rest, even if the camp is already ameliorated.</p>
+<p>Characters taking a long rest (or longer) on terrain that is not <a class="reference external" href="03-movement-exploration.html#camping">“ameliorated”</a>, must make a CON save with a threshold determined by <a class="reference external" href="03-movement-exploration.html#travel-rolls-and-terrain-summary">terrain and weather</a>. A character who fails this CON save does not regain resources from the rest. If they fail by more than 6, they are not able to adequately drink, eat or sleep, which brings them closer to <a class="reference external" href="03-movement-exploration.html#characters-starvation-and-other-bad-ways-to-die">“starvation”</a>, if they require drink, food or sleep.</p>
+<ul class="simple">
+<li><p>In cold weather, a blanket gives +2 to this save, while a bedroll gives +4.</p></li>
+<li><p>A tent gives +2 to ameliorate/fortify, a yurt obviates the need for such a roll. This does not apply on terrain where it is not possible to place a tent or yurt, such as in swamps, dense forests or on steep slopes.</p></li>
+<li><p>Wearing medium or heavy armour gives a penalty to this CON save equal to the armour rating (instead of making a separate roll).</p></li>
+</ul>
+<p>Thus a character taking a long rest in armour on unameliorated terrain must make two separate CON saves to rest successfully.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="tables">
+<h2>Tables<a class="headerlink" href="#tables" title="Link to this heading">¶</a></h2>
+<p>This table covers the typical action economy costs of various actions. It should be noted that some spells, skills and abilities can modify these costs. This is not enumerated here.</p>
+<section id="actions-by-action-cost-how-long-they-take">
+<h3>Actions by action cost (how long they take)<a class="headerlink" href="#actions-by-action-cost-how-long-they-take" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Action</p></th>
+<th class="head"><p>Action Cost</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Use knowledge to identify something</p></td>
+<td><p>non-action</p></td>
+</tr>
+<tr class="row-odd"><td><p>“Observe” to keep track of someone trying to hide</p></td>
+<td><p>non-action</p></td>
+</tr>
+<tr class="row-even"><td><p>“Sense Motive”</p></td>
+<td><p>non-action</p></td>
+</tr>
+<tr class="row-odd"><td><p>Maintain concentration</p></td>
+<td><p>non-action</p></td>
+</tr>
+<tr class="row-even"><td><p>Dropping an item or dropping to the ground on your turn</p></td>
+<td><p>non-action, once per round</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Move your movement speed</p></td>
+<td><p>“move”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Use “run” to travel x2 movement speed</p></td>
+<td><p>“move” + “main action”</p></td>
+</tr>
+<tr class="row-even"><td><p>Use “sprint” to travel x4 movement speed in a straight line</p></td>
+<td><p>“sprint action”</p></td>
+</tr>
+<tr class="row-odd"><td><p>“Acrobatics”/”Athletics”/”Fly”/”Climb” as part of movement</p></td>
+<td><p>As the usual movement</p></td>
+</tr>
+<tr class="row-even"><td><p>Standing up from prone</p></td>
+<td><p>uses 1/2 of your movement</p></td>
+</tr>
+<tr class="row-odd"><td><p>Moving cautiously to avoid attacks of opportunity</p></td>
+<td><p>halves your movement speed for the round</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>“Creature Handling” to vocally/telepathically command a “creature”</p></td>
+<td><p>“communicate action”</p></td>
+</tr>
+<tr class="row-even"><td><p>Command a mount to attack</p></td>
+<td><p>“communicate action”</p></td>
+</tr>
+<tr class="row-odd"><td><p>“Deceive” vocally</p></td>
+<td><p>“communicate action”</p></td>
+</tr>
+<tr class="row-even"><td><p>“Intimidate” to shake resolve</p></td>
+<td><p>“communicate action”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Speak up to ~6 words</p></td>
+<td><p>“communicate action”</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Un-sheath a when making an attack</p></td>
+<td><p>“minor interaction”</p></td>
+</tr>
+<tr class="row-even"><td><p>Uncork a vial before using/administering the content</p></td>
+<td><p>“minor interaction”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Dropping defences on your turn</p></td>
+<td><p>“minor interaction”</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Extend your reach by 5ft for one attack when using a “long” weapon</p></td>
+<td><p>“secondary action”</p></td>
+</tr>
+<tr class="row-even"><td><p>“Observe” to locate hidden target</p></td>
+<td><p>“secondary action”</p></td>
+</tr>
+<tr class="row-odd"><td><p>“Track” to keep following tracks</p></td>
+<td><p>“secondary action”</p></td>
+</tr>
+<tr class="row-even"><td><p>“Deceive” somatically</p></td>
+<td><p>“secondary action”</p></td>
+</tr>
+<tr class="row-odd"><td><p>“Creature Handling” to somatically command a “creature”</p></td>
+<td><p>“secondary action”</p></td>
+</tr>
+<tr class="row-even"><td><p>Drink a potion yourself</p></td>
+<td><p>“secondary action”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Make an attack with an offhand weapon, or use “Flurry”</p></td>
+<td><p>“secondary action”</p></td>
+</tr>
+<tr class="row-even"><td><p>Pick up or set down an item in reach not in a container</p></td>
+<td><p>“secondary action”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Use “offhand attack” to make one or more attacks when it is allowed</p></td>
+<td><p>“secondary action”</p></td>
+</tr>
+<tr class="row-even"><td><p>Dismount a steed</p></td>
+<td><p>“secondary action”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Quick-mount a steed</p></td>
+<td><p>“secondary action”</p></td>
+</tr>
+<tr class="row-even"><td><p>Make a single attack when mount “runs” or “sprints”</p></td>
+<td><p>“secondary action”</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Speak more than 6 words</p></td>
+<td><p>“main action”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Mount a steed</p></td>
+<td><p>“main action”</p></td>
+</tr>
+<tr class="row-even"><td><p>Use “stealth” to hide</p></td>
+<td><p>“main action”</p></td>
+</tr>
+<tr class="row-odd"><td><p>“Track” to find tracks</p></td>
+<td><p>“main action”</p></td>
+</tr>
+<tr class="row-even"><td><p>“Sleight of hand” to steal attended item</p></td>
+<td><p>“main action”</p></td>
+</tr>
+<tr class="row-odd"><td><p>“Intimidate” to break resolve</p></td>
+<td><p>“main action”</p></td>
+</tr>
+<tr class="row-even"><td><p>“Persuade” to beg for mercy</p></td>
+<td><p>“main action”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Administer a potion to another</p></td>
+<td><p>“main action”</p></td>
+</tr>
+<tr class="row-even"><td><p>Retrieve or stow an item stowed in a container in reach</p></td>
+<td><p>“main action”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Make an attack or use another combat manoeuvre</p></td>
+<td><p>“main action”</p></td>
+</tr>
+<tr class="row-even"><td><p>Use “multi-attack” to make several attacks or use several combat manoeuvre</p></td>
+<td><p>“main action”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Dispel</p></td>
+<td><p>“main action”</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>“full defence: dodge”</p></td>
+<td><p>“main action” + secondary action” + “reaction”</p></td>
+</tr>
+<tr class="row-even"><td><p>“full defence: shield”</p></td>
+<td><p>“main action” + secondary action” + “reaction”</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>“Tinker” to pick lock or disable device with -10 penalty</p></td>
+<td><p>“full round action”</p></td>
+</tr>
+<tr class="row-odd"><td><p>“Appraise” item</p></td>
+<td><p>“full round action”</p></td>
+</tr>
+<tr class="row-even"><td><p>“Navigate” to orientate oneself</p></td>
+<td><p>“full round action”</p></td>
+</tr>
+<tr class="row-odd"><td><p>“Persuade” to call for parley</p></td>
+<td><p>“full round action”</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Dropping defences outside of your turn</p></td>
+<td><p>“minor interaction”</p></td>
+</tr>
+<tr class="row-even"><td><p>Taking some action in response to a stimulus</p></td>
+<td><p>Usually “reaction”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Making a single melee attack or using a combat manoeuvre in response to a stimulus</p></td>
+<td><p>“reaction”</p></td>
+</tr>
+<tr class="row-even"><td><p>Dropping to the ground voluntarily</p></td>
+<td><p>“reaction”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Dropping an item in response to a stimulus (eg a request to drop the item)</p></td>
+<td><p>“reaction”</p></td>
+</tr>
+<tr class="row-even"><td><p>Unprepared parry declared ad-hoc (1 parry)</p></td>
+<td><p>“reaction”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Prepared parry declared on your turn ([1 + multi-attack level] parries)</p></td>
+<td><p>“reaction”</p></td>
+</tr>
+<tr class="row-even"><td><p>Counter-spell</p></td>
+<td><p>“secondary action” + “reaction”</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Cast a local spell</p></td>
+<td><p>varies</p></td>
+</tr>
+<tr class="row-odd"><td><p>Use an ability</p></td>
+<td><p>varies</p></td>
+</tr>
+<tr class="row-even"><td><p>Activate devices</p></td>
+<td><p>varies</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="actions-by-action-category-what-they-do">
+<h3>Actions by action category (what they do)<a class="headerlink" href="#actions-by-action-category-what-they-do" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Action</p></th>
+<th class="head"><p>Action Cost</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Speak up to ~6 words</p></td>
+<td><p>“communicate action”</p></td>
+</tr>
+<tr class="row-even"><td><p>Taking some action in response to a stimulus</p></td>
+<td><p>Usually “reaction”</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Use knowledge to identify something</p></td>
+<td><p>non-action</p></td>
+</tr>
+<tr class="row-odd"><td><p>“Observe” to keep track of someone trying to hide</p></td>
+<td><p>non-action</p></td>
+</tr>
+<tr class="row-even"><td><p>“Sense Motive”</p></td>
+<td><p>non-action</p></td>
+</tr>
+<tr class="row-odd"><td><p>“Creature Handling” to vocally/telepathically command a “creature”</p></td>
+<td><p>“communicate action”</p></td>
+</tr>
+<tr class="row-even"><td><p>“Deceive” vocally</p></td>
+<td><p>“communicate action”</p></td>
+</tr>
+<tr class="row-odd"><td><p>“Intimidate” to shake resolve</p></td>
+<td><p>“communicate action”</p></td>
+</tr>
+<tr class="row-even"><td><p>“Observe” to locate hidden target</p></td>
+<td><p>“secondary action”</p></td>
+</tr>
+<tr class="row-odd"><td><p>“Track” to keep following tracks</p></td>
+<td><p>“secondary action”</p></td>
+</tr>
+<tr class="row-even"><td><p>“Deceive” somatically</p></td>
+<td><p>“secondary action”</p></td>
+</tr>
+<tr class="row-odd"><td><p>“Creature Handling” to somatically command a “creature”</p></td>
+<td><p>“secondary action”</p></td>
+</tr>
+<tr class="row-even"><td><p>Speak more than 6 words</p></td>
+<td><p>“main action”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Use “stealth” to hide</p></td>
+<td><p>“main action”</p></td>
+</tr>
+<tr class="row-even"><td><p>“Track” to find tracks</p></td>
+<td><p>“main action”</p></td>
+</tr>
+<tr class="row-odd"><td><p>“Sleight of hand” to steal attended item</p></td>
+<td><p>“main action”</p></td>
+</tr>
+<tr class="row-even"><td><p>“Intimidate” to break resolve</p></td>
+<td><p>“main action”</p></td>
+</tr>
+<tr class="row-odd"><td><p>“Persuade” to beg for mercy</p></td>
+<td><p>“main action”</p></td>
+</tr>
+<tr class="row-even"><td><p>“Tinker” to pick lock or disable device with -10 penalty</p></td>
+<td><p>“full round action”</p></td>
+</tr>
+<tr class="row-odd"><td><p>“Appraise” item</p></td>
+<td><p>“full round action”</p></td>
+</tr>
+<tr class="row-even"><td><p>“Navigate” to orientate oneself</p></td>
+<td><p>“full round action”</p></td>
+</tr>
+<tr class="row-odd"><td><p>“Persuade” to call for parley</p></td>
+<td><p>“full round action”</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Move your movement speed</p></td>
+<td><p>“move”</p></td>
+</tr>
+<tr class="row-even"><td><p>Use “run” to travel x2 movement speed</p></td>
+<td><p>“move” + “main action”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Use “sprint” to travel x4 movement speed in a straight line</p></td>
+<td><p>“sprint action”</p></td>
+</tr>
+<tr class="row-even"><td><p>“Acrobatics”/”Athletics”/”Fly”/”Climb” as part of movement</p></td>
+<td><p>As the usual movement</p></td>
+</tr>
+<tr class="row-odd"><td><p>Moving cautiously to avoid attacks of opportunity</p></td>
+<td><p>halves your movement speed for the round</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Command a mount to attack</p></td>
+<td><p>“communicate action”</p></td>
+</tr>
+<tr class="row-even"><td><p>Dismount a steed</p></td>
+<td><p>“secondary action”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Quick-mount a steed</p></td>
+<td><p>“secondary action”</p></td>
+</tr>
+<tr class="row-even"><td><p>Make a single attack when mount “runs” or “sprints”</p></td>
+<td><p>“secondary action”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Mount a steed</p></td>
+<td><p>“main action”</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Standing up from prone</p></td>
+<td><p>uses 1/2 of your movement</p></td>
+</tr>
+<tr class="row-even"><td><p>Dropping an item or dropping to the ground on your turn</p></td>
+<td><p>non-action, once per round</p></td>
+</tr>
+<tr class="row-odd"><td><p>Dropping to the ground voluntarily outside of your turn</p></td>
+<td><p>“reaction”</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Un-sheath a weapon when making an attack</p></td>
+<td><p>“minor interaction”</p></td>
+</tr>
+<tr class="row-even"><td><p>Dropping defences on your turn</p></td>
+<td><p>“minor interaction”/”reaction”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Extend your reach by 5ft for one attack when using a “long” weapon</p></td>
+<td><p>“secondary action”</p></td>
+</tr>
+<tr class="row-even"><td><p>Make an attack with an offhand weapon, or use “Flurry”</p></td>
+<td><p>“secondary action”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Use “offhand attack” to make one or more attacks when it is allowed</p></td>
+<td><p>“secondary action”</p></td>
+</tr>
+<tr class="row-even"><td><p>Make an attack or use another combat manoeuvre</p></td>
+<td><p>“main action”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Use “multi-attack” to make several attacks or use several combat manoeuvre</p></td>
+<td><p>“main action”</p></td>
+</tr>
+<tr class="row-even"><td><p>Making a single melee attack or using a combat manoeuvre in response to a stimulus</p></td>
+<td><p>“reaction”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Unprepared parry declared ad-hoc (1 parry)</p></td>
+<td><p>“reaction”</p></td>
+</tr>
+<tr class="row-even"><td><p>Prepared parry declared on your turn ([1 + multi-attack level] parries)</p></td>
+<td><p>“reaction”</p></td>
+</tr>
+<tr class="row-odd"><td><p>“full defence: dodge”</p></td>
+<td><p>“main action” + secondary action” + “reaction”</p></td>
+</tr>
+<tr class="row-even"><td><p>“full defence: shield”</p></td>
+<td><p>“main action” + secondary action” + “reaction”</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Uncork a vial before using/administering the content</p></td>
+<td><p>“minor interaction”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Drink a potion yourself</p></td>
+<td><p>“secondary action”</p></td>
+</tr>
+<tr class="row-even"><td><p>Administer a potion to another</p></td>
+<td><p>“main action”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Dropping concentration, an item or dropping to the ground on your turn</p></td>
+<td><p>non-action, once per round</p></td>
+</tr>
+<tr class="row-even"><td><p>Dropping an item in response to a stimulus (eg a request to drop the item)</p></td>
+<td><p>“reaction”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Pick up or set down an item in reach not in a container</p></td>
+<td><p>“secondary action”</p></td>
+</tr>
+<tr class="row-even"><td><p>Retrieve or stow an item stowed in a container in reach</p></td>
+<td><p>“main action”</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Maintain concentration</p></td>
+<td><p>non-action</p></td>
+</tr>
+<tr class="row-odd"><td><p>Dropping concentration, an item or dropping to the ground on your turn</p></td>
+<td><p>non-action, once per round</p></td>
+</tr>
+<tr class="row-even"><td><p>Drop concentration in response to a stimulus outside of your turn</p></td>
+<td><p>reaction</p></td>
+</tr>
+<tr class="row-odd"><td><p>Dispel</p></td>
+<td><p>“main action”</p></td>
+</tr>
+<tr class="row-even"><td><p>Counter-spell</p></td>
+<td><p>“secondary action” + “reaction”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Use an ability</p></td>
+<td><p>varies</p></td>
+</tr>
+<tr class="row-even"><td><p>Activate devices</p></td>
+<td><p>varies</p></td>
+</tr>
+<tr class="row-odd"><td><p>Cast a local spell</p></td>
+<td><p>varies</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="05-skills.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Skills</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="03-movement-exploration.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Actions outside of Combat</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2023-3023, Fantasy Committee
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Combat</a><ul>
+<li><a class="reference internal" href="#prelude-common-combat-parameters">Prelude: Common Combat Parameters</a><ul>
+<li><a class="reference internal" href="#attack-bonuses">Attack Bonuses</a></li>
+<li><a class="reference internal" href="#save-thresholds">Save thresholds</a></li>
+<li><a class="reference internal" href="#hit-hit-threshold">HiT (Hit Threshold)</a></li>
+<li><a class="reference internal" href="#save-bonuses-one-for-each-stat">Save Bonuses, one for each stat</a></li>
+<li><a class="reference internal" href="#attacks">Attacks</a></li>
+<li><a class="reference internal" href="#targeted-attacks">Targeted attacks</a></li>
+<li><a class="reference internal" href="#area-of-effect-attacks">Area of effect attacks</a></li>
+<li><a class="reference internal" href="#attacks-of-influence">Attacks of influence</a></li>
+<li><a class="reference internal" href="#attacks-and-damage-bonuses">Attacks and damage bonuses</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#damage-and-death">Damage and death</a><ul>
+<li><a class="reference internal" href="#death-dying-and-the-relationship-between-hp-mp-and-sp">Death, dying and the relationship between HP, MP and SP</a><ul>
+<li><a class="reference internal" href="#losing-mp-sp-and-rebalancing">Losing MP, SP and Rebalancing</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#damage-resistance">Damage resistance</a></li>
+<li><a class="reference internal" href="#damage-vulnerability">Damage vulnerability</a></li>
+<li><a class="reference internal" href="#damage-reduction">Damage reduction</a></li>
+<li><a class="reference internal" href="#damage-immunity">Damage immunity</a></li>
+<li><a class="reference internal" href="#damage-to-objects">Damage to objects</a></li>
+<li><a class="reference internal" href="#hp-damage-and-conditions">HP damage and conditions</a></li>
+<li><a class="reference internal" href="#dropping-defences-and-voluntary-hp-damage">Dropping defences and voluntary HP damage</a></li>
+<li><a class="reference internal" href="#damage-and-effects-over-time">Damage and effects over time</a></li>
+<li><a class="reference internal" href="#weather-and-combat">Weather and Combat</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#actions-in-combat">Actions in combat</a><ul>
+<li><a class="reference internal" href="#flow-of-combat">Flow of Combat</a><ul>
+<li><a class="reference internal" href="#the-turn-and-actions">The Turn and actions</a></li>
+<li><a class="reference internal" href="#types-of-actions-in-combat">Types of actions in combat</a></li>
+<li><a class="reference internal" href="#movement-summary">Movement Summary</a></li>
+<li><a class="reference internal" href="#total-defence-dodge">Total Defence: Dodge</a></li>
+<li><a class="reference internal" href="#total-defence-shield">Total Defence: Shield</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#assisting">Assisting</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#surprise-and-ambush">Surprise and Ambush</a><ul>
+<li><a class="reference internal" href="#intentionally-hidden-enemies">Intentionally Hidden Enemies</a></li>
+<li><a class="reference internal" href="#unintentionally-hidden-enemies">Unintentionally Hidden Enemies</a></li>
+<li><a class="reference internal" href="#enemies-hiding-their-intent">Enemies Hiding their Intent</a></li>
+<li><a class="reference internal" href="#mutually-unaware-combatants">Mutually unaware combatants</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#space-in-combat">Space in combat</a><ul>
+<li><a class="reference internal" href="#squares-and-hexes">Squares and Hexes</a></li>
+<li><a class="reference internal" href="#range-and-reach">Range and reach</a></li>
+<li><a class="reference internal" href="#threatened-area">Threatened area</a></li>
+<li><a class="reference internal" href="#occupied-area-and-hostile-squares">Occupied area and hostile squares</a></li>
+<li><a class="reference internal" href="#squeezing">Squeezing</a></li>
+<li><a class="reference internal" href="#creature-sizes-reach-and-combat">Creature sizes, reach and combat</a></li>
+<li><a class="reference internal" href="#flanking">Flanking</a></li>
+<li><a class="reference internal" href="#cover-and-concealment">Cover and Concealment</a><ul>
+<li><a class="reference internal" href="#cover">Cover</a></li>
+<li><a class="reference internal" href="#concealment">Concealment</a></li>
+<li><a class="reference internal" href="#intervening-targets">Intervening targets</a></li>
+<li><a class="reference internal" href="#concealed-targets-and-stealth">Concealed targets and stealth</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#reactions-and-causality">Reactions and Causality</a></li>
+<li><a class="reference internal" href="#attacks-of-opportunity">Attacks of Opportunity</a><ul>
+<li><a class="reference internal" href="#provoking-attacks-of-opportunity">Provoking attacks of opportunity</a></li>
+<li><a class="reference internal" href="#avoiding-attacks-of-opportunity">Avoiding attacks of opportunity</a></li>
+<li><a class="reference internal" href="#causality-and-attacks-of-opportunity">Causality and attacks of opportunity</a></li>
+<li><a class="reference internal" href="#concealment-and-attacks-of-opportunity">Concealment and attacks of opportunity</a></li>
+<li><a class="reference internal" href="#attacks-of-opportunity-table">Attacks of Opportunity Table</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#mounts-and-mounted-combat">Mounts and Mounted Combat</a></li>
+<li><a class="reference internal" href="#basic-combat-manoeuvres-and-tactical-movement">Basic combat manoeuvres and tactical movement</a><ul>
+<li><a class="reference internal" href="#basic-martial-manoeuvres">Basic Martial Manoeuvres</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#spellcasting-and-supernatural-abilities">Spellcasting and Supernatural abilities</a><ul>
+<li><a class="reference internal" href="#spells">Spells</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#rest-and-recuperation">Rest and Recuperation</a><ul>
+<li><a class="reference internal" href="#preconditions-for-resting">Preconditions for resting</a></li>
+<li><a class="reference internal" href="#short-rest">Short Rest</a></li>
+<li><a class="reference internal" href="#long-rest">Long Rest</a></li>
+<li><a class="reference internal" href="#full-rest">Full Rest</a></li>
+<li><a class="reference internal" href="#resting-amelioration-and-armour">Resting, amelioration and armour</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#tables">Tables</a><ul>
+<li><a class="reference internal" href="#actions-by-action-cost-how-long-they-take">Actions by action cost (how long they take)</a></li>
+<li><a class="reference internal" href="#actions-by-action-category-what-they-do">Actions by action category (what they do)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="_static/documentation_options.js?v=8bafd125"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/scripts/furo.js?v=46bd48cc"></script>
+    </body>
+</html>

@@ -1,0 +1,945 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="./">
+  <head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="genindex.html"><link rel="search" title="Search" href="search.html"><link rel="next" title="Spell List" href="08-spell-list.html"><link rel="prev" title="Abilities and Boons" href="06-abilities.html">
+
+    <!-- Generated with Sphinx 8.2.3 and Furo 2025.09.25 -->
+        <title>Spells - FanSys 0.0.18</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d111a655" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=580074bf" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=8dab3a3b" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f2f2f2;
+  --color-code-foreground: #1e1e1e;
+  --color-foreground-primary: #202424;
+  --color-foreground-secondary: #4a4c53;
+  --color-brand-primary: #112233;
+  --color-brand-content: #443322;
+  --color-brand-visited: #448822;
+  --color-background-primary: #f2f4ec;
+  --color-background-secondary: #e5e7e3;
+  --color-background-hover: #fafaf5;
+  --color-background-border: #40404067;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-foreground-primary: #cfd0d0;
+  --color-foreground-secondary: #acb0b5;
+  --color-brand-primary: #AABBCC;
+  --color-brand-content: #CFBEAC;
+  --color-brand-visited: #99DD99;
+  --color-background-primary: #242628;
+  --color-background-secondary: #2a2c2e;
+  --color-background-hover: #1e2124ff;
+  --color-background-border: #483945;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-foreground-primary: #cfd0d0;
+  --color-foreground-secondary: #acb0b5;
+  --color-brand-primary: #AABBCC;
+  --color-brand-content: #CFBEAC;
+  --color-brand-visited: #99DD99;
+  --color-background-primary: #242628;
+  --color-background-secondary: #2a2c2e;
+  --color-background-hover: #1e2124ff;
+  --color-background-border: #483945;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle site navigation sidebar">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc" aria-label="Toggle table of contents sidebar">
+<label class="overlay sidebar-overlay" for="__navigation"></label>
+<label class="overlay toc-overlay" for="__toc"></label>
+
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <span class="icon"><svg><use href="#svg-menu"></use></svg></span>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="index.html"><div class="brand">FanSys 0.0.18</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="index.html">
+  
+  <span class="sidebar-brand-text">FanSys 0.0.18</span>
+  
+</a><form class="sidebar-search-container" method="get" action="search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Index:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="01-quick-start.html">FanSys23 Quick-start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="03-movement-exploration.html">Actions outside of Combat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="04-combat.html">Combat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="05-skills.html">Skills</a></li>
+<li class="toctree-l1"><a class="reference internal" href="06-abilities.html">Abilities and Boons</a></li>
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Spells</a></li>
+<li class="toctree-l1"><a class="reference internal" href="08-spell-list.html">Spell List</a></li>
+<li class="toctree-l1"><a class="reference internal" href="09-races.html">Types, Races, Species and Templates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="10-conditions-types.html">Conditions and Types</a></li>
+<li class="toctree-l1"><a class="reference internal" href="11-weapons-armour.html">Weapons and armour</a></li>
+<li class="toctree-l1"><a class="reference internal" href="12-equipment-economy.html">Equipment and Economy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="13-crafting-imbuing.html">Crafting and Imbuing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="14-poisons-and-diseases.html">Poisons and Diseases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="15-charm-etc.html">A note on charm, domination and possession</a></li>
+<li class="toctree-l1"><a class="reference internal" href="16-recipes.html">Recipes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="02-base-rules.html">Base Rules</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="bestiary.html">A Bestiary for Fantasy Worlds</a><input aria-label="Toggle navigation of A Bestiary for Fantasy Worlds" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/forwards.html">Forwards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/beasts-and-plants.html">Beasts and Plants</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/constructs.html">Constructs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/divines.html">Divines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/humanoids.html">NPC stat blocks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/monsters-and-dragons.html">Monsters and Dragons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/profanes.html">Profanes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/spirits.html">Spirits</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="CHANGELOG.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="TODO.html">Character sheet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="LICENSE.html">License</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="view-this-page">
+  <a class="muted-link" href="_sources/07-magic-and-spellcasting.md.txt" title="View this page">
+    <svg><use href="#svg-eye"></use></svg>
+    <span class="visually-hidden">View this page</span>
+  </a>
+</div>
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          <section id="spells">
+<h1>Spells<a class="headerlink" href="#spells" title="Link to this heading">¶</a></h1>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="#casting-spells-and-components">Casting spells and components</a></p></li>
+<li><p><a class="reference external" href="#spell-ranges">Spell ranges</a></p></li>
+<li><p><a class="reference external" href="#general-casting-rules">General casting rules</a></p></li>
+<li><p><a class="reference external" href="#spells-limitations-and-alignment">Spells, Limitations and Alignment</a></p></li>
+<li><p><a class="reference external" href="#concentration">Concentration</a></p></li>
+<li><p><a class="reference external" href="#spell-types-table">Spell types table</a></p></li>
+<li><p><a class="reference external" href="#identifying-and-manipulating-spells">Identifying and Manipulating spells</a></p></li>
+<li><p><a class="reference external" href="#banishing-breaking-counter-spelling-and-dispelling">Banishing, Breaking, Counter-spelling and Dispelling</a></p></li>
+<li><p><a class="reference external" href="#the-catastrophic-cascade">The catastrophic cascade</a></p></li>
+<li><p><a class="reference external" href="#global-and-local-spells">Global and local spells</a></p></li>
+<li><p><a class="reference external" href="#the-7-types-of-magic">The 7 types of magic</a></p>
+<ul class="simple">
+<li><p><a class="reference external" href="#elemental-air">Elemental (Air)</a></p></li>
+<li><p><a class="reference external" href="#elemental-earth">Elemental (Earth)</a></p></li>
+<li><p><a class="reference external" href="#elemental-fire">Elemental (Fire)</a></p></li>
+<li><p><a class="reference external" href="#elemental-ice">Elemental (Ice)</a></p></li>
+<li><p><a class="reference external" href="#incantation">Incantation</a></p></li>
+<li><p><a class="reference external" href="#kinetic">Kinetic</a></p></li>
+<li><p><a class="reference external" href="#nature">Nature</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#learning-spells-and-mental-capacity">Learning spells and mental capacity</a></p></li>
+<li><p><a class="reference external" href="#spell-descriptors">Spell Descriptors</a></p></li>
+<li><p><a class="reference external" href="#spell-cards">Spell cards</a></p></li>
+</ol>
+<section id="spellcasting-basics">
+<h2>Spellcasting basics<a class="headerlink" href="#spellcasting-basics" title="Link to this heading">¶</a></h2>
+<p>Spells are a subset of supernatural powers that mortals have learned to channel by following certain procedures. Entities that cast spells are referred to here as “<strong>casters</strong>”. Spells can be either “<strong>local</strong>” or “<strong>global</strong>”.</p>
+<hr class="docutils" />
+<section id="casting-spells-and-components">
+<h3>Casting spells and components<a class="headerlink" href="#casting-spells-and-components" title="Link to this heading">¶</a></h3>
+<p>Spells can be viewed as recipes or instructions for calling forth supernatural forces. They are generally at least somewhat fixed in their formulation and procedure and have the following components.</p>
+<ol class="arabic simple">
+<li><p><strong>Kinetic Components</strong>: A set of defined, obvious gestures or movements. An “immobilised” or “restrained” caster cannot perform these. (conditions that imply “immobilised” fall under this category). Spells with kinetic components provoke attacks of opportunity. Holding objects in one or more hands (or other prehensile appendages), in and of itself, does not prevent a caster from performing kinetic components, unless it is explicitly stated in the spell description/limitations.</p></li>
+<li><p><strong>Incantation components</strong>: A set of defined, well enunciated words or sounds. A “silenced” or “silent” caster cannot perform these. (conditions that imply inability to produce defined sound fall under this category).</p></li>
+<li><p><strong>Ritual components</strong>: A ritual is a procedure involving defined movement and positioning of objects or entities, or the creation of defined patterns. Disruption of this procedure ruins the ritual. Rituals typically apply to global spells.</p></li>
+</ol>
+<p>As a consequence, a caster who is “restrained” or “immobilised” cannot cast spells with kinetic components and a caster who is “aphonic” or “silenced” cannot cast spells with incantation components.</p>
+</section>
+<hr class="docutils" />
+<section id="spell-ranges">
+<h3>Spell ranges<a class="headerlink" href="#spell-ranges" title="Link to this heading">¶</a></h3>
+<p>Spell ranges are designated as “<strong>close</strong>” or “<strong>ranged</strong>”.</p>
+<ol class="arabic simple">
+<li><p>A “<strong>close</strong>” spell, like a melee attack requires direct contact between caster and target. Its range is the caster’s reach.</p></li>
+<li><p>A “<strong>ranged</strong>” spell can have a range of 5ft or higher. It is designated as eg “ranged[60ft]”. The base distances are 15ft, 30ft, 60ft, 120ft, 240ft, although spells with greater ranges, especially in the “global” category exist. Global spell ranges can be hundreds of miles or more.</p></li>
+</ol>
+</section>
+<hr class="docutils" />
+<section id="general-casting-rules">
+<h3>General casting rules<a class="headerlink" href="#general-casting-rules" title="Link to this heading">¶</a></h3>
+<p>There are a number of general rules pertaining to spellcasting.</p>
+<ol class="arabic simple">
+<li><p>An entity can only cast ONE spell at a time. If it attempts to cast a second, either both spells dissipate, or the casting ends in spectacular failure. For example trying to cast “Fire Shield” (local) while casting “Resurrection” (global), will result in failure.</p></li>
+<li><p>Spells are never truly permanent in the material realm and can be <strong>broken</strong>, <strong>counterspelled</strong>, and <strong>dispelled</strong>. Entities summoned through spells can be <strong>banished</strong>.</p></li>
+<li><p>Casting “ranged” spells with kinetic components in melee provokes attacks of opportunity.</p></li>
+<li><p>Unless otherwise stated, a caster must have line of sight to the target of a spell to cast it, or be capable of making contact with it (close range, aka within “reach”).</p></li>
+</ol>
+<ul class="simple">
+<li><p>A caster is also considered to have line of sight to a target if it can detect it with one of <a class="reference external" href="06-abilities.html#heat-sense-i-v">“Heat sense”</a>, <a class="reference external" href="06-abilities.html#life-sense-i-vi">“Life sense”</a>, <a class="reference external" href="06-abilities.html#tremor-sense-i-vi">“tremor sense”</a> or <a class="reference external" href="06-abilities.html#blind-sight-i-vi">“blind sight”</a>.</p></li>
+<li><p>In the above case, if the target is an entity or object, any attack roll is made at disadvantage, and if the spell allows a save, the target has advantage on the roll.</p></li>
+</ul>
+<ol class="arabic simple" start="5">
+<li><p>If a spell lasts for a round or longer, affected entities make the initial save at the start of its turn and gets a save at the start of every turn against harmful effects of the spell unless otherwise stated otherwise in its description.</p></li>
+</ol>
+<ul class="simple">
+<li><p>For spells with a duration of less than one round, the save is made immediately and no repeated saves are applicable, unless stated otherwise in the spell description.</p></li>
+<li><p>This is in accordance with the <a class="reference external" href="04-combat.html#damage-and-effects-over-time">“Damage and effects over time”</a>.</p></li>
+</ul>
+<ol class="arabic simple" start="6">
+<li><p>All damage caused by spells, unless otherwise stated, counts as “supernatural”. The major exception is <a class="reference external" href="10-conditions-types.html#physical-damage">“physical damage”</a> (percussive, shear, piercing, pressure, slashing), which is always “natural”, unless stated otherwise in the spell.</p></li>
+</ol>
+</section>
+<hr class="docutils" />
+<section id="spells-limitations-and-alignment">
+<h3>Spells, Limitations and Alignment<a class="headerlink" href="#spells-limitations-and-alignment" title="Link to this heading">¶</a></h3>
+<p>Certain spells have “limitations”: factors which constrain a spell’s workings outside of range, etc. These are conditions under which the spell either does not function or, on the contrary, conditions that the spell requires to function.</p>
+<p>For example, a spell might only work on “mortals” (eg <a class="reference external" href="08-spell-list.html#revenant">“Revenant”</a>) or “spirits”, or require certain rare reagents as a prerequisite to its casting (eg <a class="reference external" href="08-spell-list.html#undying-realm">“Undying Realm”</a>).</p>
+<p>A common limitation, mainly of elemental spells, is that a spell does not function on entities and in locales with a given <a class="reference external" href="01-quick-start.html#alignment">“alignment”</a>. Thus a spell that creates undead or summons fiends might not function in areas with a “divine” alignment, while an elemental “wind”/”air” spell might not work in a locale aligned to “earth” (e.g. <a class="reference external" href="08-spell-list.html#wind-step">“Wind Step”</a>).</p>
+<p>It should be noted, especially in the later case that most places and entities in the material world are unaligned, and generally become aligned due to the influence of spells, abilities, supernatural entities, or extreme occurrences. Thus the ground, the floor, the earth beneath the characters’ feet is generally unaligned, but might become earth aligned, for a time, after a casting of <a class="reference external" href="08-spell-list.html#balance-of-elements">“Balance of Elements”</a> using Elemental (Earth) spellcasting.</p>
+</section>
+<hr class="docutils" />
+<section id="concentration">
+<h3>Concentration<a class="headerlink" href="#concentration" title="Link to this heading">¶</a></h3>
+<p>Spells with an active effect (eg summoning) and non-instantaneous duration usually require the caster to maintain their existence by “<strong>concentrating</strong>” on them. Usually this refers to “local” spells, but some “global” spells also require concentration. This mechanic exists mainly to reduce some of the unbalanced nonsense found in certain other systems. Concentration has the following rules:</p>
+<ol class="arabic simple">
+<li><p>A caster can NEVER concentrate on more than one spell.</p></li>
+<li><p>If concentration is broken, the spell dissipates or fails spectacularly. Either way its effects end.</p></li>
+<li><p>A <a class="reference external" href="10-conditions-types.html#disabled-states">“disabled”</a> (or so implied) entity cannot concentrate.</p></li>
+<li><p>A concentration save is a special save calculated as Concentration Bonus = [[Wis]/2 + [Int]/2 + [Nat]]. (A caster’s ability to focus depends on mental acuity, connectedness as well as, strangely enough, physical condition and training).</p></li>
+<li><p>Concentration can be disrupted by taking damage (threshold = 12 or 1/2 damage taken, whichever is higher).</p></li>
+<li><p>Concentration can be disrupted by <a class="reference external" href="03-movement-exploration.html#vigorous-motion">“vigorous motion”</a> (threshold = 12), violent weather (threshold = 12) or both (threshold = 16).</p></li>
+<li><p>A caster can “hold” an “instantaneous” spell with a release trigger to trigger the effect within a minute of casting. The threshold = 8 +[rounds held]. If the trigger is not met the spell dissipates. The cost of the spell is paid when the spell is cast (always), not when it is triggered.</p></li>
+</ol>
+</section>
+<hr class="docutils" />
+<section id="spell-types-table">
+<h3>Spell types table<a class="headerlink" href="#spell-types-table" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Spell type</p></th>
+<th class="head"><p>Opposite spell type</p></th>
+<th class="head"><p>Governing stat for threshold</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Elemental(Air)</p></td>
+<td><p>Elemental(Earth)</p></td>
+<td><p>Wis</p></td>
+</tr>
+<tr class="row-odd"><td><p>Elemental(Earth)</p></td>
+<td><p>Elemental(Air)</p></td>
+<td><p>Wis</p></td>
+</tr>
+<tr class="row-even"><td><p>Elemental(Fire)</p></td>
+<td><p>Elemental(Ice)</p></td>
+<td><p>Wis</p></td>
+</tr>
+<tr class="row-odd"><td><p>Elemental(Ice)</p></td>
+<td><p>Elemental(Fire)</p></td>
+<td><p>Wis</p></td>
+</tr>
+<tr class="row-even"><td><p>Incantation</p></td>
+<td><p>Kinetic</p></td>
+<td><p>Int</p></td>
+</tr>
+<tr class="row-odd"><td><p>Kinetic</p></td>
+<td><p>Incantation</p></td>
+<td><p>Int</p></td>
+</tr>
+<tr class="row-even"><td><p>Nature</p></td>
+<td><p>Nature</p></td>
+<td><p>Wis</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Spells obtained from a given spellcasting type, use the corresponding ability for determining thresholds and attack bonus. Thus, if a character obtained <a class="reference external" href="08-spell-list.html#least-shroud">“Least Shroud”</a> through Spellcasting: Kinetic, then the threshold would be Int based. If the same spell was obtained through Spellcasting: Air, the threshold would be Wis based.</p>
+</section>
+<hr class="docutils" />
+<section id="identifying-and-manipulating-spells">
+<h3>Identifying and Manipulating spells<a class="headerlink" href="#identifying-and-manipulating-spells" title="Link to this heading">¶</a></h3>
+<p>Spells can be identified while they are being cast by the <a class="reference external" href="05-skills.html#knowledge">“Knowledge:Arcana”</a> skill. This is usually a non-action. <a class="reference external" href="05-skills.html#spellworking">“Spellworking”</a> is used for interfacing with spells, magical effects, and devices. This generally takes between 1 minute and 1 week.</p>
+</section>
+<hr class="docutils" />
+<section id="banishing-breaking-counter-spelling-and-dispelling">
+<h3>Banishing, Breaking, Counter-spelling and Dispelling<a class="headerlink" href="#banishing-breaking-counter-spelling-and-dispelling" title="Link to this heading">¶</a></h3>
+<p>“<strong>Counter-spelling</strong>” is interfering with the casting of a local spell through magical means, hence causing it fail. “<strong>Dispelling</strong>” is the permanent removal of a local spell through magical means. “<strong>Banishing</strong>” is the dismissal of summoned entities to whence they came. “<strong>Breaking</strong>” is the permanent removal of a global spell either by meeting its ending condition, use of spellworking or exceptionally powerful local magic.</p>
+<p><strong>Counter-spelling</strong>: Any spellcaster with at least 9 MP dice total can counter-spell. You can only counter-spell magics from the same or opposite type (see table above). In order to counter-spell, you must be within 10ft x [MP dice] being used to counter-spell of the target caster. Counter-spelling magics of the same type is done at disadvantage. The steps are as follows:</p>
+<ol class="arabic simple">
+<li><p>Declare “preparing to counter-spell” on your turn and use your “secondary action” to watch for spellcasters. Declare the number of MP dice you are preparing for this (minimum of 3).</p></li>
+<li><p>When a spell is being cast, but before its effects take place, identify that it is with a <a class="reference external" href="05-skills.html#knowledge">“Knowledge: Arcana”</a> roll.</p></li>
+<li><p>If the spell belongs to the same type or opposite type of local magic, use your reaction and declare “counter-spell”.</p></li>
+<li><p>Pay the declared MP dice cost.</p></li>
+<li><p>Roll a SAP (Sup + Base + Wis) roll vs their SAT (Sup + Base + Wis). You have a bonus (or penalty if it’s less) to the roll equal to the difference in MP dice used by the two sides. If it is the same type of magic, your roll is at disadvantage. If it is neither the same or opposite, you cannot counter-spell it.</p></li>
+<li><p>If you meet or beat the threshold, the spell fails (maybe even catastrophically).</p></li>
+</ol>
+<p><strong>Dispelling</strong>: Any spellcaster with at least 11 MP dice total can dispel. You can only dispel magics of a type that you are capable of casting. In order to dispel you must be within 10ft x [MP dice being used to dispel the effect] of the effect and you must be able to see it. Thus you must have senses that can detect it (eg using “See Spell” or “See Unseen”). If you cannot “see” the spell you can still dispel magic if you are within its area of effect. The steps for dispelling are as follows:</p>
+<ol class="arabic simple">
+<li><p>Identify the spell using <a class="reference external" href="05-skills.html#knowledge">“Knowledge: Arcana”</a>.</p></li>
+<li><p>Declare “dispel” as a “main action” and how many MP dice you are using to dispel.</p></li>
+<li><p>Pay the declared MP dice cost.</p></li>
+<li><p>Roll a SAP (Sup + Base + Wis) roll vs their SAT (Sup + Base + Wis). You have a bonus (or penalty if it’s less) to the roll equal to the difference in MP dice used by the two sides. If you are within the area of the spell’s effect, or are its target, you have advantage on the roll.</p></li>
+<li><p>If you succeed on the roll, the spell ends, if you do not, it persists.</p></li>
+</ol>
+<p><strong>Banishing</strong>: Summoned entities are not dispelled in quite the same way as spells. There are two ways of dealing with them.</p>
+<ol class="arabic simple">
+<li><p>Dispelling as normal, but only by casters who have spells with the “summon” descriptor or the “Bind Familiar” or “Bind Beast” ability.</p></li>
+<li><p>By a “spellworking” roll to “disimbue” the summon, but only after the effect has been identified by <a class="reference external" href="05-skills.html#knowledge">“Knowledge: Arcana”</a>.</p></li>
+</ol>
+<p><strong>Breaking Global Spells</strong>: Global spells can be dispelled by any caster that has at least 11 MP dice. A dispelling character must be inside the area of effect, or adjacent to the area of effect of the spell for the whole duration of breaking in order to break it.</p>
+<ul class="simple">
+<li><p>Dispelling can be done by the basic <a class="reference external" href="05-skills.html#spellworking">“Spellworking”</a> rules and in accordance with the time required by the original caster’s threshold. In order to do this, a character must first succeed on a <a class="reference external" href="05-skills.html#knowledge">“Knowledge: Arcana”</a> roll to identify the spell.</p></li>
+<li><p>Alternatively a character can “force” the breaking by forcing their own MP into the spell. In this case, no knowledge roll is required, however, the character expends [[original caster’s MP dice used in casting the spell] - [dispelling character’s “Knowledge:Arcana” skill bonus]] MP dice when making the attempt. If this leads to their MP dice count reaching 0, the dispelling character must succeed a CHA save or fall unconscious as per the “special” clause of the <a class="reference external" href="05-skills.html#spellworking">“Spellworking”</a> rules.</p></li>
+</ul>
+<p><strong>Breaking Curses</strong>: A curse can be broken as a global spell, except the roll is made at disadvantage. Curses also have a “break condition”: If the condition is fulfilled they lose their power. Once the condition has been fulfilled rolls to disimbue or disable the curse have advantage.</p>
+</section>
+<hr class="docutils" />
+<section id="the-catastrophic-cascade">
+<h3>The catastrophic cascade<a class="headerlink" href="#the-catastrophic-cascade" title="Link to this heading">¶</a></h3>
+<p>Sometimes, when interaction with a spell or magical effect, it fails. Under certain conditions it fails catastrophically. This is known as “spectacular failure” or the “catastrophic cascade”.</p>
+<p><strong>Catastrophic cascade on casting two spells</strong>: If a caster tries to cast two spells at the same time, the process fails. If the instantaneous total MP dice of the two spells was greater than the permitted local maximum the caster must roll a Cha save vs the MP dice used + 13 that was used. On failure the spellcaster takes [MP dice total of spells] x d6 light damage. Entities within 10ft may make a Dex save for half damage. Beware of exploding mages.</p>
+<p><strong>Catastrophic cascade when concentration is broken</strong>: If a caster’s concentration is broken, the spell dissipates and its effects end. If the number of MP dice used for a local spell is equal to the maximum permitted (1/3 of the caster’s MP dice total), the caster must roll a Cha save vs the MP dice used + 13. On failure the spellcaster takes [MP dice total of spells] x d6 light damage. Entities within 10ft may make a Dex save for half damage. Beware of exploding mages.</p>
+<p><strong>Catastrophic cascade on counter-spelling</strong>: If a counter-speller’s counter-spell roll exactly equals a caster’s [SAT] (Nat + Base + Wis + 13), and the number of MP dice expended for the spell and counter-spell are equal a catastrophic cascade is triggered. All entities and structures within 10ft of the half-way point between the two casters take [the combined MP dice used] x d6 of “pressure” damage. The threshold = 18. Beware of exploding mages.</p>
+<p><strong>Other modes of spectacular failure</strong>: Failing a “spellworking” roll when interacting with powerful magics, especially when disimbuing, can lead to spectacular failure. Further information is found in the <a class="reference external" href="05-skills.html#spellworking">“spellworking”</a> rules.</p>
+</section>
+<hr class="docutils" />
+<section id="global-and-local-spells">
+<h3>Global and local spells<a class="headerlink" href="#global-and-local-spells" title="Link to this heading">¶</a></h3>
+<p>Spells can either be “local” or “global” in scope. This helps distinguish spells that are quick to cast and have a short and immediate effect, and grand spells which require a long time to cast and often have very wide reaching effects.</p>
+<p>“<strong>Local</strong>” spells have the following properties:</p>
+<ul class="simple">
+<li><p>They generally take between a couple of seconds to a dozen minutes to cast (“minor action” to “10 minutes”), but generally take a “main action”.</p></li>
+<li><p>Their effect is either immediate, or lasts no longer than a few days.</p></li>
+<li><p>Their effect has a range of no more than a mile of a caster.</p></li>
+<li><p>Their effect has a radius of no more than a mile (eg. search spells) or 108ft (eg. explosion magic).</p></li>
+<li><p>They take 1-10 MP dice to cast, although more MP can assigned (up to 1/3 of a caster’s MP dice).</p></li>
+</ul>
+<p>“<strong>Global</strong>” spells have the following properties:</p>
+<ul class="simple">
+<li><p>Generally take a dozen minutes to a month to cast, but more often an hour or a day.</p></li>
+<li><p>Their effect can be immediate and devastating, or can last for centuries (eg Great Barrier spells).</p></li>
+<li><p>Their range can be hundreds of miles (but is often much shorter).</p></li>
+<li><p>Their effect radius can be hundreds of miles, but is more often localised (eg a Mage’s Sanctum).</p></li>
+<li><p>They take at least 3 MP dice per day to cast, with the usual cost being ~20 dice per day.</p></li>
+<li><p>If the spell takes multiple days to cast, the MP dice cost is split as evenly as possible between the days, with each day’s dice being expended at the end of the casting day.</p></li>
+</ul>
+<p>Many “local” spells can also be cast as global spells. In this case the parameters of the global casting are are indicated in brackets after the parameters of the local casting.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="the-7-types-of-magic">
+<h2>The 7 types of magic<a class="headerlink" href="#the-7-types-of-magic" title="Link to this heading">¶</a></h2>
+<p>Beyond “local” and “global” spells are divided into 7 types:</p>
+<ul class="simple">
+<li><p>Elemental: Air</p></li>
+<li><p>Elemental: Earth</p></li>
+<li><p>Elemental: Fire</p></li>
+<li><p>Elemental: Ice</p></li>
+<li><p>Incantation</p></li>
+<li><p>Kinetic</p></li>
+<li><p>Nature</p></li>
+</ul>
+<p>Element and nature magic is known as “domain” magic, and the the spells that fall into these magics are associated with a domain. “Domain” spellcasting is governed by WIS.</p>
+<p>Incantation and kinetic magic is known as “methodic” magic, and are identified by how a spell is cast. “Methodic” spellcasting is governed by INT</p>
+<p>A specialist spellcaster often learns between two and four types of magic to some level of proficiency. Spell-swords on the other hand will often get away with one or two.</p>
+<hr class="docutils" />
+<section id="elemental-air">
+<h3>Elemental (Air)<a class="headerlink" href="#elemental-air" title="Link to this heading">¶</a></h3>
+<p>Spells of this type are associated with elemental air. All and any spells with the “air” descriptor are on this spell list. They are associated with the “shear” and “lighting” damage types and “paralysed”, “stunned”, “prone” and “crippled” conditions.They are often used for travel, gathering information and controlling weather, but also have combat uses.</p>
+<p>For every level of Spellcasting: Elemental(Air), a character learns 2 compatible spells. On taking Elemental(Air) I a character also gains 2 MP zero spells of the “air” descriptor.</p>
+</section>
+<hr class="docutils" />
+<section id="elemental-earth">
+<h3>Elemental (Earth)<a class="headerlink" href="#elemental-earth" title="Link to this heading">¶</a></h3>
+<p>Spells of this type are associated with elemental earth. All and any spells with the “earth” descriptor are on this spell list. They are associated with all physical damage types and the “restrained”, “grappled”, “prone”, “crippled”, and “bleeding” conditions. It is generally used for fortification and agriculture. At the first level it learns 3 zero-level spells.</p>
+<p>For every level of Spellcasting: Elemental(Air), a character learns 2 compatible spells. On taking Elemental(Earth) I a character also gains 2 MP zero spells of the “earth” descriptor.</p>
+</section>
+<hr class="docutils" />
+<section id="elemental-fire">
+<h3>Elemental (Fire)<a class="headerlink" href="#elemental-fire" title="Link to this heading">¶</a></h3>
+<p>Spells of this type are associated with elemental fire. All and any spells with the “fire” descriptor are on this spell list. They are associate with “fire” damage and the “incapacitated”, “catatonic”, “frightened” and “blinded”. It is often used in cooking, smelting and similar disciplines, as well as  and of course warfare.</p>
+<p>For every level of Spellcasting: Elemental(Fire), a character learns 2 compatible spells. On taking Elemental(Fire) I a character also gains 2 MP zero spells of the “fire” descriptor.</p>
+</section>
+<hr class="docutils" />
+<section id="elemental-ice">
+<h3>Elemental (Ice)<a class="headerlink" href="#elemental-ice" title="Link to this heading">¶</a></h3>
+<p>Spells of this type are associated with elemental water and ice. All and any spells with the “water” and “ice” descriptors are on this spell list. They are associated with “ice”, “piercing” and “pressure” damage. It is typically used in seaborne travel and agriculture.</p>
+<p>For every level of Spellcasting: Elemental(Ice), a character learns 2 compatible spells.  On taking Elemental(Ice) I a character also gains 2 MP zero spells of the “ice” descriptor.</p>
+</section>
+<hr class="docutils" />
+<section id="incantation">
+<h3>Incantation<a class="headerlink" href="#incantation" title="Link to this heading">¶</a></h3>
+<p>Incantation magic covers a wide range of spells whose effects are activated by song or chant. Incantation magic covers all spells with no “kinetic” component. Spells cast through incantation spellcasting cannot be affect by “aphonic spell”. Typically summoning spells and close combat spells are compatible with incantation magic.</p>
+<p>For every level of Spellcasting: Incantation, a character learns 1 compatible spells. On taking Incantation I a character also gains 3 compatible MP zero spells.</p>
+</section>
+<hr class="docutils" />
+<section id="kinetic">
+<h3>Kinetic<a class="headerlink" href="#kinetic" title="Link to this heading">¶</a></h3>
+<p>Kinetic magic covers a wide range of spells whose effects are activated by a precise and well defined series of motions. Kinetic magic covers all spells with no “incantation” component. Spells cast through kinetic spellcasting cannot be affected by “stilled spell”. Kinetic components seem to increase the potency of a spell, therefore spells which are not constrained by other considerations (eg close combat spells), tend to use kinetic components and be compatible with this type of magic.</p>
+<p>For every level of Spellcasting: Kinetic, a character learns 1 compatible spell. On taking Kinetic I a character also gains 3 compatible MP zero spells.</p>
+</section>
+<hr class="docutils" />
+<section id="nature">
+<h3>Nature<a class="headerlink" href="#nature" title="Link to this heading">¶</a></h3>
+<p>Nature magic covers all nature related spells. All spells of “winter”, “spring”, “summer”, “autumn” and “seasonal” fall within this category. They are not associated with any particular damage type or condition. It is used in any sphere associated with nature. Unlike other types of spellcasting, nature magic does not have an opposite spell type.</p>
+<p>For every level of Spellcasting: Nature, a character learns 2 compatible spell. On taking Nature I a character also gains 2 compatible MP zero spells.</p>
+</section>
+<hr class="docutils" />
+<section id="learning-spells-and-mental-capacity">
+<h3>Learning spells and mental capacity<a class="headerlink" href="#learning-spells-and-mental-capacity" title="Link to this heading">¶</a></h3>
+<section id="spells-known-and-spells-ready">
+<h4>Spells known and spells ready<a class="headerlink" href="#spells-known-and-spells-ready" title="Link to this heading">¶</a></h4>
+<p>A character can know any number of spells. A character can make use of any of the spells that they know, and which they are able to cast (enough MP dice, not suffering from conditions that prevent completion of the spell, etc).</p>
+</section>
+<hr class="docutils" />
+<section id="spells-gained-from-levels-in-spellcasting-ability">
+<h4>Spells gained from levels in “spellcasting” ability<a class="headerlink" href="#spells-gained-from-levels-in-spellcasting-ability" title="Link to this heading">¶</a></h4>
+<p>Characters learn a few spells every time they gain a level in one of the “Spellcasting” abilities. A character can also learn spells by independent study, apprenticeship or gifting. As a rule, “domain” spellcasting grants more spells on learning the ability, but “domain” magic is harder to learn outside of that. On the other hand “methodic” spellcasting grants fewer spells, but allows extra spells to be learned more easily. This is described in th table below and in the <a class="reference external" href="07-magic-and-spellcasting.html#the-7-types-of-magic">“7 types of magic”</a> subchapter.</p>
+<p>Notably, for the first time that a character gains a “Spellcasting” ability of a given type, they learn a number of “MP 0” spells in addition to the usual number of spells gained per level of “Spellcasting”. The exact number is likewise described in the spellcasting table.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Spellcasting kind</p></th>
+<th class="head"><p>“MP 1” (“MP 0”) spells at ability level I</p></th>
+<th class="head"><p>Spells (any level) at levels II+</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Elemental (Air)</p></td>
+<td><p>2 (2)</p></td>
+<td><p>2</p></td>
+</tr>
+<tr class="row-odd"><td><p>Elemental (Earth)</p></td>
+<td><p>2 (2)</p></td>
+<td><p>2</p></td>
+</tr>
+<tr class="row-even"><td><p>Elemental (Fire)</p></td>
+<td><p>2 (2)</p></td>
+<td><p>2</p></td>
+</tr>
+<tr class="row-odd"><td><p>Elemental (Ice)</p></td>
+<td><p>2 (2)</p></td>
+<td><p>2</p></td>
+</tr>
+<tr class="row-even"><td><p>Incantation</p></td>
+<td><p>1 (3)</p></td>
+<td><p>2</p></td>
+</tr>
+<tr class="row-odd"><td><p>Kinetic</p></td>
+<td><p>1 (3)</p></td>
+<td><p>2</p></td>
+</tr>
+<tr class="row-even"><td><p>Nature</p></td>
+<td><p>2 (2)</p></td>
+<td><p>2</p></td>
+</tr>
+<tr class="row-odd"><td><p>Global</p></td>
+<td><p>2 (0)</p></td>
+<td><p>2</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<hr class="docutils" />
+<section id="learning-spells-through-independent-study-or-from-a-mentor">
+<h4>learning spells through independent study or from a mentor<a class="headerlink" href="#learning-spells-through-independent-study-or-from-a-mentor" title="Link to this heading">¶</a></h4>
+<p>The base time to learn a spell through personal research is 108 days per MP dice cost of a spell (for global spells this is the “per day” cost). A character with access to suitable environment and resources may use academics to reduce the time (see <a class="reference external" href="05-skills.html#academics">“Academics”</a>). The rate per MP dice become (108 - [“academics” roll]) to a minimum of 64 days per MP dice. For higher level spells, independent research is incredibly time consuming, and a sage might have spent a lifetime to uncover a single new global spell.</p>
+<p>The more common way to learn spells is to learn from an entity that already has the spell, a mentor so to speak. If you are learning from a mentor, the process is a lot faster, as you are transferring skills and knowledge that already exists, as opposed to unearthing new spells. For “domain” spells the base rate is 108 hours per MP die cost of a spell. For “methodic” spells the base rate is 64 hours per MP die. This time can be reduced with a “academics” roll from the “apprentice” and a “knowledge:arcana” roll from the mentor. The final time cost per MP dice cost is [base rate - [“academics” roll] - [“arcana” roll]]. Regardless of the result, this cost cannot be reduced to lower than 20 hours (aka 2 days) per MP dice cost for “domain” magic, or 10 hours (aka 1 day) per 2 MP dice cost for “methodic” magic.</p>
+</section>
+<hr class="docutils" />
+<section id="spell-transfer">
+<h4>Spell transfer<a class="headerlink" href="#spell-transfer" title="Link to this heading">¶</a></h4>
+<p>Certain spells, such as <a class="reference external" href="08-spell-list.html#pact">“Pact”</a>, <a class="reference external" href="08-spell-list.html#mages-oath">“Mage’s Oath”</a>, <a class="reference external" href="08-spell-list.html#isolate-essence">“Isolate Essence”</a> and <a class="reference external" href="08-spell-list.html#memory-thief">“Memory Thief”</a> allow knowledge, skills and spells to be exchanged almost instantaneously between entities. However these spells carry a high cost. More importantly, the entity imparting the spell loses it from their spells known, and there are few who would agree to such a transfer without substantial recompense.</p>
+</section>
+<hr class="docutils" />
+<section id="mp-0-spells">
+<h4>MP 0 spells<a class="headerlink" href="#mp-0-spells" title="Link to this heading">¶</a></h4>
+<p>These spells use so little energy to cast, that they do not use MP. Casting them does not cause exertion. For the sake learning spells they count as taking half as long as spells that cost 1 MP dice. MP 0 spells ALWAYS have a base casting time of “main action”.</p>
+</section>
+</section>
+</section>
+<hr class="docutils" />
+<section id="spell-descriptors">
+<h2>Spell Descriptors<a class="headerlink" href="#spell-descriptors" title="Link to this heading">¶</a></h2>
+<p>A descriptor tells you something about the nature of the spell. This can include the element or force it is associated with, its purpose and its creator.</p>
+<section id="descriptors-table">
+<h3>Descriptors table<a class="headerlink" href="#descriptors-table" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Descriptor class</p></th>
+<th class="head"><p>Descriptor</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Element</p></td>
+<td><p>Air, Earth, Fire, Ice</p></td>
+</tr>
+<tr class="row-odd"><td><p>Energy</p></td>
+<td><p>Fire, Ice, Lightning, Light</p></td>
+</tr>
+<tr class="row-even"><td><p>Purpose</p></td>
+<td><p>Barrier, Curse, Healing, Travel, Destruction</p></td>
+</tr>
+<tr class="row-odd"><td><p>Season</p></td>
+<td><p>Winter, Spring, Summer, Autumn</p></td>
+</tr>
+<tr class="row-even"><td><p>Origin</p></td>
+<td><p>Nature, Mortal, Divine, Profane, Spiritual</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="elements-and-seasons-table">
+<h3>Elements and seasons table<a class="headerlink" href="#elements-and-seasons-table" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Element</p></th>
+<th class="head"><p>Associated Season</p></th>
+<th class="head"><p>Opposites</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Air</p></td>
+<td><p>Spring</p></td>
+<td><p>Earth, Autumn</p></td>
+</tr>
+<tr class="row-odd"><td><p>Earth</p></td>
+<td><p>Autumn</p></td>
+<td><p>Air, Spring</p></td>
+</tr>
+<tr class="row-even"><td><p>Fire</p></td>
+<td><p>Summer</p></td>
+<td><p>Water, Winter</p></td>
+</tr>
+<tr class="row-odd"><td><p>Water</p></td>
+<td><p>Winter</p></td>
+<td><p>Fire, Summer</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="spell-cards">
+<h3>Spell cards<a class="headerlink" href="#spell-cards" title="Link to this heading">¶</a></h3>
+<p>Spells are by their nature quite varied and cause various effects. This means that the rules and description for each one should be clearly stated and explained. Spells are laid out as “spell cards”. Below is an explanation and description:</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>parameter</p></th>
+<th class="head"><p>description</p></th>
+<th class="head"><p>example</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Name</p></td>
+<td><p>The name and descriptors of the spell</p></td>
+<td><p>Wind Walk [Air, Nature, Travel]</p></td>
+</tr>
+<tr class="row-odd"><td><p>Scope</p></td>
+<td><p>The scope and descriptors of a spell</p></td>
+<td><p>Local/Global</p></td>
+</tr>
+<tr class="row-even"><td><p>MP</p></td>
+<td><p>The minimum MP dice cost of the spell</p></td>
+<td><p>3 (12)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Target(s)</p></td>
+<td><p>The number of entities it affects</p></td>
+<td><p>1+</p></td>
+</tr>
+<tr class="row-even"><td><p>Casting time</p></td>
+<td><p>The time needed to cast the spell</p></td>
+<td><p>“main action” (1 hour)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Range</p></td>
+<td><p>How far the caster must be from the caster</p></td>
+<td><p>5ft</p></td>
+</tr>
+<tr class="row-even"><td><p>Duration</p></td>
+<td><p>Duration of spell, or maximum duration if concentration spell</p></td>
+<td><p>10 min+ (1 day+)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Components</p></td>
+<td><p>What bodily components are needed to cast the spell</p></td>
+<td><p>incantation (+ritual)</p></td>
+</tr>
+<tr class="row-even"><td><p>Materials</p></td>
+<td><p>What consumable materials are needed for the spell</p></td>
+<td><p>None (12 dandelion heads)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Focus</p></td>
+<td><p>What spell focus, or material that is not consumed is needed</p></td>
+<td><p>None</p></td>
+</tr>
+<tr class="row-even"><td><p>Limitation</p></td>
+<td><p>Any special conditions that must be fulfilled to successfully cast</p></td>
+<td><p>target cannot be earth aligned</p></td>
+</tr>
+<tr class="row-odd"><td><p>Save</p></td>
+<td><p>What save is needed , if any, and what happens on a success</p></td>
+<td><p>Wis (harmless), no effect</p></td>
+</tr>
+<tr class="row-even"><td><p>Attack</p></td>
+<td><p>What the governing attribute for the attack is, if any (usually Wis)</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-odd"><td><p>Damage</p></td>
+<td><p>Damage done if any</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-even"><td><p>Healing</p></td>
+<td><p>Healing done if any</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-odd"><td><p>Conditions</p></td>
+<td><p>Conditions caused if any</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-even"><td><p>Description</p></td>
+<td><p>A more detailed description of the spell and any peculiarities</p></td>
+<td><p>Blah blah blah</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>“Materials”, “focus”, “conditions”, “damage”, “healing”, “save”, “attack” and “conditions” may be omitted if the spell if they are not applicable to the spell, and if they are not given in the spell card, then none is caused.</p>
+<p>The clean example would look like:</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Name</p></td>
+<td><p>Wind Walk [Air, Nature, Travel]</p></td>
+</tr>
+<tr class="row-odd"><td><p>Scope</p></td>
+<td><p>Local (Global)</p></td>
+</tr>
+<tr class="row-even"><td><p>MP</p></td>
+<td><p>3 (12)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Target(s)</p></td>
+<td><p>1+</p></td>
+</tr>
+<tr class="row-even"><td><p>Casting time</p></td>
+<td><p>“main action” (1h + 20 min/4MP)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Range</p></td>
+<td><p>Close</p></td>
+</tr>
+<tr class="row-even"><td><p>Duration</p></td>
+<td><p>12 min+ (1 day+)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Components</p></td>
+<td><p>incantation (+ritual)</p></td>
+</tr>
+<tr class="row-even"><td><p>Materials</p></td>
+<td><p>None (12 dandelion heads)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Limitation</p></td>
+<td><p>target cannot be earth aligned</p></td>
+</tr>
+<tr class="row-even"><td><p>Save</p></td>
+<td><p>Wis (harmless), no effect</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Description</strong>: The target gains a good fly speed equal to your walking speed, as if walking upon the air. When the spell ends, the target loses this movement modality immediately.</p>
+<p>For every extra MP point (4, if casting globally) placed in the spell you can add either: 1. An extra target, 2. an extra 6 minutes of effect (6h if cast globally).</p>
+</section>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="08-spell-list.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Spell List</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="06-abilities.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Abilities and Boons</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2023-3023, Fantasy Committee
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Spells</a><ul>
+<li><a class="reference internal" href="#spellcasting-basics">Spellcasting basics</a><ul>
+<li><a class="reference internal" href="#casting-spells-and-components">Casting spells and components</a></li>
+<li><a class="reference internal" href="#spell-ranges">Spell ranges</a></li>
+<li><a class="reference internal" href="#general-casting-rules">General casting rules</a></li>
+<li><a class="reference internal" href="#spells-limitations-and-alignment">Spells, Limitations and Alignment</a></li>
+<li><a class="reference internal" href="#concentration">Concentration</a></li>
+<li><a class="reference internal" href="#spell-types-table">Spell types table</a></li>
+<li><a class="reference internal" href="#identifying-and-manipulating-spells">Identifying and Manipulating spells</a></li>
+<li><a class="reference internal" href="#banishing-breaking-counter-spelling-and-dispelling">Banishing, Breaking, Counter-spelling and Dispelling</a></li>
+<li><a class="reference internal" href="#the-catastrophic-cascade">The catastrophic cascade</a></li>
+<li><a class="reference internal" href="#global-and-local-spells">Global and local spells</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#the-7-types-of-magic">The 7 types of magic</a><ul>
+<li><a class="reference internal" href="#elemental-air">Elemental (Air)</a></li>
+<li><a class="reference internal" href="#elemental-earth">Elemental (Earth)</a></li>
+<li><a class="reference internal" href="#elemental-fire">Elemental (Fire)</a></li>
+<li><a class="reference internal" href="#elemental-ice">Elemental (Ice)</a></li>
+<li><a class="reference internal" href="#incantation">Incantation</a></li>
+<li><a class="reference internal" href="#kinetic">Kinetic</a></li>
+<li><a class="reference internal" href="#nature">Nature</a></li>
+<li><a class="reference internal" href="#learning-spells-and-mental-capacity">Learning spells and mental capacity</a><ul>
+<li><a class="reference internal" href="#spells-known-and-spells-ready">Spells known and spells ready</a></li>
+<li><a class="reference internal" href="#spells-gained-from-levels-in-spellcasting-ability">Spells gained from levels in “spellcasting” ability</a></li>
+<li><a class="reference internal" href="#learning-spells-through-independent-study-or-from-a-mentor">learning spells through independent study or from a mentor</a></li>
+<li><a class="reference internal" href="#spell-transfer">Spell transfer</a></li>
+<li><a class="reference internal" href="#mp-0-spells">MP 0 spells</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#spell-descriptors">Spell Descriptors</a><ul>
+<li><a class="reference internal" href="#descriptors-table">Descriptors table</a></li>
+<li><a class="reference internal" href="#elements-and-seasons-table">Elements and seasons table</a></li>
+<li><a class="reference internal" href="#spell-cards">Spell cards</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="_static/documentation_options.js?v=8bafd125"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/scripts/furo.js?v=46bd48cc"></script>
+    </body>
+</html>

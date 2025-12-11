@@ -1,0 +1,3063 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="./">
+  <head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="genindex.html"><link rel="search" title="Search" href="search.html"><link rel="next" title="Crafting and Imbuing" href="13-crafting-imbuing.html"><link rel="prev" title="Weapons and armour" href="11-weapons-armour.html">
+
+    <!-- Generated with Sphinx 8.2.3 and Furo 2025.09.25 -->
+        <title>Equipment and Economy - FanSys 0.0.18</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d111a655" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=580074bf" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=8dab3a3b" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f2f2f2;
+  --color-code-foreground: #1e1e1e;
+  --color-foreground-primary: #202424;
+  --color-foreground-secondary: #4a4c53;
+  --color-brand-primary: #112233;
+  --color-brand-content: #443322;
+  --color-brand-visited: #448822;
+  --color-background-primary: #f2f4ec;
+  --color-background-secondary: #e5e7e3;
+  --color-background-hover: #fafaf5;
+  --color-background-border: #40404067;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-foreground-primary: #cfd0d0;
+  --color-foreground-secondary: #acb0b5;
+  --color-brand-primary: #AABBCC;
+  --color-brand-content: #CFBEAC;
+  --color-brand-visited: #99DD99;
+  --color-background-primary: #242628;
+  --color-background-secondary: #2a2c2e;
+  --color-background-hover: #1e2124ff;
+  --color-background-border: #483945;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-foreground-primary: #cfd0d0;
+  --color-foreground-secondary: #acb0b5;
+  --color-brand-primary: #AABBCC;
+  --color-brand-content: #CFBEAC;
+  --color-brand-visited: #99DD99;
+  --color-background-primary: #242628;
+  --color-background-secondary: #2a2c2e;
+  --color-background-hover: #1e2124ff;
+  --color-background-border: #483945;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle site navigation sidebar">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc" aria-label="Toggle table of contents sidebar">
+<label class="overlay sidebar-overlay" for="__navigation"></label>
+<label class="overlay toc-overlay" for="__toc"></label>
+
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <span class="icon"><svg><use href="#svg-menu"></use></svg></span>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="index.html"><div class="brand">FanSys 0.0.18</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="index.html">
+  
+  <span class="sidebar-brand-text">FanSys 0.0.18</span>
+  
+</a><form class="sidebar-search-container" method="get" action="search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Index:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="01-quick-start.html">FanSys23 Quick-start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="03-movement-exploration.html">Actions outside of Combat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="04-combat.html">Combat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="05-skills.html">Skills</a></li>
+<li class="toctree-l1"><a class="reference internal" href="06-abilities.html">Abilities and Boons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="07-magic-and-spellcasting.html">Spells</a></li>
+<li class="toctree-l1"><a class="reference internal" href="08-spell-list.html">Spell List</a></li>
+<li class="toctree-l1"><a class="reference internal" href="09-races.html">Types, Races, Species and Templates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="10-conditions-types.html">Conditions and Types</a></li>
+<li class="toctree-l1"><a class="reference internal" href="11-weapons-armour.html">Weapons and armour</a></li>
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Equipment and Economy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="13-crafting-imbuing.html">Crafting and Imbuing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="14-poisons-and-diseases.html">Poisons and Diseases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="15-charm-etc.html">A note on charm, domination and possession</a></li>
+<li class="toctree-l1"><a class="reference internal" href="16-recipes.html">Recipes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="02-base-rules.html">Base Rules</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="bestiary.html">A Bestiary for Fantasy Worlds</a><input aria-label="Toggle navigation of A Bestiary for Fantasy Worlds" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/forwards.html">Forwards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/beasts-and-plants.html">Beasts and Plants</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/constructs.html">Constructs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/divines.html">Divines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/humanoids.html">NPC stat blocks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/monsters-and-dragons.html">Monsters and Dragons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/profanes.html">Profanes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/spirits.html">Spirits</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="CHANGELOG.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="TODO.html">Character sheet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="LICENSE.html">License</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="view-this-page">
+  <a class="muted-link" href="_sources/12-equipment-economy.md.txt" title="View this page">
+    <svg><use href="#svg-eye"></use></svg>
+    <span class="visually-hidden">View this page</span>
+  </a>
+</div>
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          <section id="equipment-and-economy">
+<h1>Equipment and Economy<a class="headerlink" href="#equipment-and-economy" title="Link to this heading">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference external" href="#economy-and-economies">Economy and economies</a></p>
+<ul>
+<li><p><a class="reference external" href="#ancient-setting">Ancient Setting</a></p></li>
+<li><p><a class="reference external" href="#early-medieval-and-dark-ages">Early Medieval and Dark ages</a></p></li>
+<li><p><a class="reference external" href="#late-renaissance-and-industrial-age">Late, renaissance and industrial age</a></p></li>
+<li><p><a class="reference external" href="#the-supernatural-economy">The Supernatural Economy</a></p></li>
+<li><p><a class="reference external" href="#currency">Currency</a></p></li>
+<li><p><a class="reference external" href="#labour-costs-and-crafting-times">Labour costs and crafting times</a></p></li>
+<li><p><a class="reference external" href="#materials">Materials</a></p>
+<ul>
+<li><p><a class="reference external" href="#material-ranks">Material Ranks</a></p></li>
+<li><p><a class="reference external" href="#material-types">Material types</a></p></li>
+<li><p><a class="reference external" href="#material-level">Material level</a></p></li>
+<li><p><a class="reference external" href="#material-table">Material table</a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#the-lists">The Lists</a></p>
+<ul>
+<li><p><a class="reference external" href="#weapons">Weapons</a></p></li>
+<li><p><a class="reference external" href="#ammunition">Ammunition</a></p></li>
+<li><p><a class="reference external" href="#armour">Armour</a></p></li>
+<li><p><a class="reference external" href="#labour-costs">Labour Costs</a></p></li>
+<li><p><a class="reference external" href="#upkeep">Upkeep</a></p></li>
+<li><p><a class="reference external" href="#resources">Resources</a></p></li>
+<li><p><a class="reference external" href="#adventuring-gear">Adventuring Gear</a></p></li>
+<li><p><a class="reference external" href="#common-goods">Common Goods</a></p></li>
+<li><p><a class="reference external" href="#adventuring-gear">Adventuring Gear</a></p></li>
+<li><p><a class="reference external" href="#transport">Transport</a></p></li>
+<li><p><a class="reference external" href="#beasts-and-slaves">Beasts and Slaves</a></p></li>
+<li><p><a class="reference external" href="#property">Property</a></p></li>
+<li><p><a class="reference external" href="#tools-and-kits">Tools and Kits</a></p></li>
+<li><p><a class="reference external" href="#alchemical-reagents-and-potions">Alchemical reagents and potions</a></p></li>
+</ul>
+</li>
+</ul>
+<p>This chapter discusses resources, basic fantasy economy and item/equipment prices. Most “adventurers” need equipment, weapons and supplies in some shape and form, so they are covered here.</p>
+<hr class="docutils" />
+<section id="economy-and-economies">
+<h2>Economy and economies<a class="headerlink" href="#economy-and-economies" title="Link to this heading">¶</a></h2>
+<p>We assume that the settings that will be used with this system might range from classical/ancient to early medieval, to renaissance to industrial revolution, and might not be based on european civilisations. The availability of natural resources, knowledge/crafting techniques and “human” resources (labour) will naturally vary, which will affect item prices and availability. This will also be affected by how high or low magic the setting is. With this in mind three lists are presented: “ancient”, “medieval” and “late”.</p>
+<p>Of course if a group has its own setting, then why not have your own list?</p>
+<hr class="docutils" />
+<section id="ancient-setting">
+<h3>Ancient Setting<a class="headerlink" href="#ancient-setting" title="Link to this heading">¶</a></h3>
+<p>In this kind of setting some sorts of knowledge may well be very well developed (Rome, Egypt, China are good examples of this), but population densities are generally are quite low, working of iron is limited and poorly developed. On the other hand slavery is generally widespread, so labour costs can be minimal for manual labour. Weapons and armour are somewhat “simple” although arguably this is more related to suitability rather than lack of ability to make something more complex. The world is not mapped, and much of it is ruled by monsters, spirits and other strange forces. Gods and demons might walk the world. At the same time there might be few ruins of previous civilisations.</p>
+</section>
+<hr class="docutils" />
+<section id="early-medieval-and-dark-ages">
+<h3>Early Medieval and Dark ages<a class="headerlink" href="#early-medieval-and-dark-ages" title="Link to this heading">¶</a></h3>
+<p>This is a classical dark adventuring setting. Many fields of knowledge, sciences for example, are lost. There many ruins of fallen empire. The population density is low. Possibly much of the population is bound in serfdom, keeping labour costs low. On the other hand iron-work develops to a higher level, so heavy armour and weapons designed to overcome it begin to develop. Much of the world is not mapped and there are many ruins of civilisations that have been lost to time. Monsters and spirits are still rampant.</p>
+</section>
+<hr class="docutils" />
+<section id="late-renaissance-and-industrial-age">
+<h3>Late, renaissance and industrial age<a class="headerlink" href="#late-renaissance-and-industrial-age" title="Link to this heading">¶</a></h3>
+<p>This is the usual “adventuring guilds” settings. All kinds of weapons and armours are available. Some have become obsolete (under some situations). Firearms become available. Techniques of extracting resources and crafting become very efficient, and all kinds of sciences flourish. Labour costs are high, but productivity of labour also increases due to advanced techniques and industrialisation. Population densities are generally high. Most of the world has been at least crudely mapped. Most ruins have been found and at least some are explored. It is possible that monsters and other “inhuman” forces have retreated (but who knows?).</p>
+</section>
+<hr class="docutils" />
+<section id="the-supernatural-economy">
+<h3>The Supernatural Economy<a class="headerlink" href="#the-supernatural-economy" title="Link to this heading">¶</a></h3>
+<p>The effects of magic on an economy should be taken into account. A society, and economy, where magic is common would likely be affected (unless there are certain taboos against mixing the natural and supernatural world).</p>
+<p>As an example, a society with many nature mages would likely see the cost of agricultural produce both decline and stabilise. A society where fire magic is common, would likely develop advanced smelting, increasing the availability of steel and iron. Golems and elementals may replace certain workers entirely.</p>
+<p>The tables here do not take this into account, and assume that users of supernatural abilities are not common enough to affect prices and availability of most goods. That said, there are no mechanistic limitations on how common this kind of people are in a game world, and a gaming group should keep this in mind when creating a fantasy world.</p>
+</section>
+<hr class="docutils" />
+<section id="currency">
+<h3>Currency<a class="headerlink" href="#currency" title="Link to this heading">¶</a></h3>
+<p>The most common currency was generally silver, although gold, copper, bronze, electrum (gold/silver alloy) and other currencies have been used. The main prerequisite was that the material can be worked with available tools, does not degrade much over time and is scarce. Gold generally was worth 10-20 times more than silver. Copper currency was used mostly locally. However, silver coin or trade bars of various sizes were the most common. Good examples include the English “silver penny” (1.4g-1.55g) and the Athenian silver drachma (~4.3g).</p>
+<p>This also brings up the phantom of different currencies between kingdoms. If a group is playing a socially complex game, it may be worth introducing different convertible currency or tender between powers. A roughly ~5% conversion fee seems to be a fair average to use as a starting point.</p>
+<p>By default, this game uses an anachronistic mix of modern pound (lb) measurement together with a silver obol (1/6th of a drachma), weighing ~0.76g to give us 600 silver pieces (sp) per lb (actual Obols had a weight closer to ~0.72g). The choice is made to have a practical minimum unit. Although of course most sane kingdoms would have larger denominations. I would recommend a modified drachma (~4.5g, 100/lb) and dekadrachma (~45g, 10/lb). These values are used for ease of calculation and not any semblance of pseudo-historical accuracy.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Currency</p></th>
+<th class="head"><p>Weight(lb)</p></th>
+<th class="head"><p>Conversion from obols</p></th>
+<th class="head"><p>Weight (g)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Obol</p></td>
+<td><p>1/600</p></td>
+<td><p>1</p></td>
+<td><p>0.76</p></td>
+</tr>
+<tr class="row-odd"><td><p>Drachma</p></td>
+<td><p>1/100</p></td>
+<td><p>x6</p></td>
+<td><p>4.5</p></td>
+</tr>
+<tr class="row-even"><td><p>Dekadrachma</p></td>
+<td><p>1/10</p></td>
+<td><p>x60</p></td>
+<td><p>45</p></td>
+</tr>
+<tr class="row-odd"><td><p>Silver penny</p></td>
+<td><p>1/300[1]</p></td>
+<td><p>x2</p></td>
+<td><p>1.5</p></td>
+</tr>
+<tr class="row-even"><td><p>Novgorod Grivna[2]</p></td>
+<td><p>9/20</p></td>
+<td><p>x270</p></td>
+<td><p>204</p></td>
+</tr>
+<tr class="row-odd"><td><p>“silver trade bar”[3]</p></td>
+<td><p>1/2</p></td>
+<td><p>x300</p></td>
+<td><p>228</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<ol class="arabic simple">
+<li><p>Remember, we’re using modern lb and a “modified” penny and not the measure with 240d/lb.</p></li>
+<li><p>This was a trade bar used ~10th-15th centuries AD.</p></li>
+<li><p>This is an approximate Grivna which gives simpler and nicer calculations.</p></li>
+</ol>
+<p>More importantly, the lists will give a cost in “days of labour”, which are equivalent to 12 man-hours, as availability of labour to convert stockpiled raw material into the final useable goods is a more important factor.</p>
+</section>
+<hr class="docutils" />
+<section id="labour-costs-and-crafting-times">
+<h3>Labour costs and crafting times<a class="headerlink" href="#labour-costs-and-crafting-times" title="Link to this heading">¶</a></h3>
+<p>Crafting costs are a sum of the labour cost and the material costs. Labour costs depend on the level of the worker, and the number of man hours that they need to work to complete the task.</p>
+<p>See <a class="reference external" href="#labour-costs">below</a> for the actual labour cost table.</p>
+</section>
+<hr class="docutils" />
+<section id="materials">
+<h3>Materials<a class="headerlink" href="#materials" title="Link to this heading">¶</a></h3>
+<p>Materials come in a hierarchy of hardness/quality. Materials higher on the scale have superior qualities, are harder to work with, generally rarer, give bonuses to attack/damage/armour/durability, etc. Materials lower on the scale are usually cheaper and easier to work with, but also make for less effective tools, weapons and armour.</p>
+<section id="material-ranks">
+<h4>Material Ranks<a class="headerlink" href="#material-ranks" title="Link to this heading">¶</a></h4>
+<p>Materials have an absolute rank. Absolute rank is important for the “sunder” manoeuvre rules. The highest rank is 0. If the weapon used when performing the “sunder” manoeuvre is made of a “lower ranking material, the total amount of damage is reduced by 1, and the weapon making the attack takes 1 point of damage. If the weapon used in the attack is made of “higher” materials, the amount of damage is 2 per damage dice of the attacking weapon instead of 1.</p>
+</section>
+<hr class="docutils" />
+<section id="material-types">
+<h4>Material types<a class="headerlink" href="#material-types" title="Link to this heading">¶</a></h4>
+<p>As a rule, each item of equipment can be made of materials of the same kind, but of different grades and maintain effectiveness. For example, metal swords (tungsten/adamantium, titanium/mithral, steel, iron, bronze) will all be effective to an extent, but a wooden sword is likely to be as effective as a glorified club. The types of material are classified as: cloth, hide, bone, ivory, wood, resin, ceramic, stone and metal. For simplicity, the following categories can be sensibly unified.</p>
+<ul class="simple">
+<li><p><strong>Soft</strong>: Cloth, hide.</p></li>
+<li><p><strong>Medium</strong>: Wood, Resin, Bone.</p></li>
+<li><p><strong>Hard</strong>: Ivory, ceramic, stone.</p></li>
+<li><p><strong>Metallic</strong>: Metals.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="material-level">
+<h4>Material level<a class="headerlink" href="#material-level" title="Link to this heading">¶</a></h4>
+<p>Material level is classified from one I to V. Level I materials make equipment that performs and costs as per base statics. Higher level material give a higher durability, give a higher attack/damage/armour/shield bonus, but also take longer to craft and are generally more expensive or simply unobtainable in some situations. Some higher grade materials can have other benefits or even disadvantage.</p>
+<p>Availability, crafting time and price of higher level materials may be lower in renaissance and later settings.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level</p></th>
+<th class="head"><p>Attack bonus</p></th>
+<th class="head"><p>Damage bonus</p></th>
+<th class="head"><p>Armour bonus</p></th>
+<th class="head"><p>Shield bonus</p></th>
+<th class="head"><p>Typical cost</p></th>
+<th class="head"><p>Crafting time</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>x1</p></td>
+<td><p>x1</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>+1</p></td>
+<td><p>+1</p></td>
+<td><p>+1</p></td>
+<td><p>+1</p></td>
+<td><p>x4</p></td>
+<td><p>x2</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>+2</p></td>
+<td><p>+1</p></td>
+<td><p>+2</p></td>
+<td><p>+1</p></td>
+<td><p>x27</p></td>
+<td><p>x4</p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>+3</p></td>
+<td><p>+2</p></td>
+<td><p>+3</p></td>
+<td><p>+2</p></td>
+<td><p>x256</p></td>
+<td><p>x12</p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>+4</p></td>
+<td><p>+2</p></td>
+<td><p>+4</p></td>
+<td><p>+2</p></td>
+<td><p>x3125</p></td>
+<td><p>x108</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="material-table">
+<h4>Material table<a class="headerlink" href="#material-table" title="Link to this heading">¶</a></h4>
+<p>This table contains a basic list of materials. This can, and should, be expanded with setting-specific materials.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Absolute rank</p></th>
+<th class="head"><p>Material</p></th>
+<th class="head"><p>Level</p></th>
+<th class="head"><p>Type</p></th>
+<th class="head"><p>Notes</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>0</p></td>
+<td><p>Divine Source</p></td>
+<td><p>5</p></td>
+<td><p>Any</p></td>
+<td><p>Endows divine alignment, indestructible by lower rank materials except “profane”</p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>Adamantium</p></td>
+<td><p>4</p></td>
+<td><p>Metal</p></td>
+<td><p>Weight x2 of base weight, indestructible by lower rank materials</p></td>
+</tr>
+<tr class="row-even"><td><p>2</p></td>
+<td><p>Dragon Source</p></td>
+<td><p>4</p></td>
+<td><p>Hide/Bone/Ivory</p></td>
+<td><p>gives advantage to intimidate animals and monsters</p></td>
+</tr>
+<tr class="row-odd"><td><p>3</p></td>
+<td><p>True Gems</p></td>
+<td><p>4</p></td>
+<td><p>Hard: Stone</p></td>
+<td><p>Indestructible by level 2 and lower materials, cost x128 base cost</p></td>
+</tr>
+<tr class="row-even"><td><p>4</p></td>
+<td><p>Semi-precious Gems</p></td>
+<td><p>3</p></td>
+<td><p>Hard: Stone</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>5</p></td>
+<td><p>Mithral</p></td>
+<td><p>3</p></td>
+<td><p>Metal</p></td>
+<td><p>weight x1/2 of base weight, does not corrode</p></td>
+</tr>
+<tr class="row-even"><td><p>6</p></td>
+<td><p>Fiend Source</p></td>
+<td><p>4</p></td>
+<td><p>Any</p></td>
+<td><p>Endows profane alignment</p></td>
+</tr>
+<tr class="row-odd"><td><p>7</p></td>
+<td><p>Steel</p></td>
+<td><p>3</p></td>
+<td><p>Metal</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>8</p></td>
+<td><p>Ironwood</p></td>
+<td><p>3</p></td>
+<td><p>Medium: Wood</p></td>
+<td><p>Not flammable</p></td>
+</tr>
+<tr class="row-odd"><td><p>9</p></td>
+<td><p>Superior Ceramic</p></td>
+<td><p>2</p></td>
+<td><p>Hard: Ceramic</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>10</p></td>
+<td><p>Iron</p></td>
+<td><p>2</p></td>
+<td><p>Metal</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>11</p></td>
+<td><p>Ivory (Beast)</p></td>
+<td><p>1</p></td>
+<td><p>Hard: Ivory</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>12</p></td>
+<td><p>Bronze</p></td>
+<td><p>1</p></td>
+<td><p>Metal</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>13</p></td>
+<td><p>Hardwood</p></td>
+<td><p>2</p></td>
+<td><p>Medium: Wood</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>14</p></td>
+<td><p>Glass/Ordinary Ceramic</p></td>
+<td><p>1</p></td>
+<td><p>Hard: Ceramic</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>15</p></td>
+<td><p>Bone (Beast)</p></td>
+<td><p>1</p></td>
+<td><p>Medium: Bone</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>16</p></td>
+<td><p>Softwood</p></td>
+<td><p>1</p></td>
+<td><p>Medium: Wood</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>17</p></td>
+<td><p>Silk (Beast)</p></td>
+<td><p>2</p></td>
+<td><p>Soft: Cloth</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>18</p></td>
+<td><p>Hide/Leather (Animal)</p></td>
+<td><p>1</p></td>
+<td><p>Soft: Hide</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>19</p></td>
+<td><p>Cotton</p></td>
+<td><p>1</p></td>
+<td><p>Soft: Cloth</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>20</p></td>
+<td><p>Wool</p></td>
+<td><p>1</p></td>
+<td><p>Soft: Cloth</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</section>
+</section>
+<hr class="docutils" />
+<section id="the-lists">
+<h2>The lists<a class="headerlink" href="#the-lists" title="Link to this heading">¶</a></h2>
+<p>The lists below suggest a monetary cost, a labour cost and an availability table. The availability should be taken with a large pinch of salt and is meant as a guide for settings. If availability is “no” the weapon is not generally available or the technology or technique to make it does not exist. “Rare” means it was available at some point of the age, but not commonly used.</p>
+<p>If availability is “no” the item cannot be made, but may be bought from specialist suppliers at x10 the price.</p>
+<p>If availability is “rare”, the item cost is x2 and the crafting time is x2.</p>
+<p>If the time is “ancient”, crafting times for mostly metal items is x2 the base time. If the time is “late”, the crafting cost is 1/2 the base time.</p>
+<p>Importantly crafting time can be shared between several artisans. Thus if an item has a listed crafting time of “100 days”, then ten artisans can usually craft it in 10 days, although this is not always the case (eg, you cannot have ten different artisans working on one glove for an adult human, unless, perhaps, the artisans might be as small as pixies).</p>
+<hr class="docutils" />
+<section id="weapons">
+<h3>Weapons<a class="headerlink" href="#weapons" title="Link to this heading">¶</a></h3>
+<p>See the <a class="reference external" href="11-weapons-armour.html#weapon-table">“weapons properties table”</a> for details on what the weapons do.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Weapon</p></th>
+<th class="head"><p>Weight (lb)</p></th>
+<th class="head"><p>Cost (sp)</p></th>
+<th class="head"><p>Material  Cost (sp)</p></th>
+<th class="head"><p>crafting days</p></th>
+<th class="head"><p>“ancient”</p></th>
+<th class="head"><p>“medieval”</p></th>
+<th class="head"><p>“late”</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Throwing axe</p></td>
+<td><p>2</p></td>
+<td><p>30</p></td>
+<td><p>15</p></td>
+<td><p>1</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Hand axe</p></td>
+<td><p>2</p></td>
+<td><p>30</p></td>
+<td><p>15</p></td>
+<td><p>1</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>War shovel</p></td>
+<td><p>2</p></td>
+<td><p>30</p></td>
+<td><p>15</p></td>
+<td><p>1</p></td>
+<td><p>no</p></td>
+<td><p>no</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>War pick</p></td>
+<td><p>3</p></td>
+<td><p>40</p></td>
+<td><p>25</p></td>
+<td><p>1</p></td>
+<td><p>no</p></td>
+<td><p>rare</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Battleaxe</p></td>
+<td><p>4</p></td>
+<td><p>120</p></td>
+<td><p>25</p></td>
+<td><p>6</p></td>
+<td><p>rare</p></td>
+<td><p>yes</p></td>
+<td><p>rare</p></td>
+</tr>
+<tr class="row-odd"><td><p>GreatAxe</p></td>
+<td><p>6</p></td>
+<td><p>140</p></td>
+<td><p>45</p></td>
+<td><p>6</p></td>
+<td><p>rare</p></td>
+<td><p>yes</p></td>
+<td><p>rare</p></td>
+</tr>
+<tr class="row-even"><td><p>Dagger</p></td>
+<td><p>1</p></td>
+<td><p>15</p></td>
+<td><p>10</p></td>
+<td><p>0.5</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Shuriken</p></td>
+<td><p>0.2</p></td>
+<td><p>5</p></td>
+<td><p>2</p></td>
+<td><p>0.5</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Short Sword</p></td>
+<td><p>2</p></td>
+<td><p>35</p></td>
+<td><p>20</p></td>
+<td><p>1</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Small Sword</p></td>
+<td><p>1</p></td>
+<td><p>40</p></td>
+<td><p>10</p></td>
+<td><p>2</p></td>
+<td><p>no</p></td>
+<td><p>rare</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Scimitar</p></td>
+<td><p>2</p></td>
+<td><p>120</p></td>
+<td><p>20</p></td>
+<td><p>6</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Rapier</p></td>
+<td><p>3</p></td>
+<td><p>170</p></td>
+<td><p>30</p></td>
+<td><p>9</p></td>
+<td><p>no</p></td>
+<td><p>rare</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Falchion</p></td>
+<td><p>3</p></td>
+<td><p>125</p></td>
+<td><p>40</p></td>
+<td><p>6</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Longsword</p></td>
+<td><p>4</p></td>
+<td><p>170</p></td>
+<td><p>40</p></td>
+<td><p>8</p></td>
+<td><p>rare/yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes/rare</p></td>
+</tr>
+<tr class="row-even"><td><p>Greatsword</p></td>
+<td><p>6</p></td>
+<td><p>320</p></td>
+<td><p>60</p></td>
+<td><p>16</p></td>
+<td><p>no</p></td>
+<td><p>yes</p></td>
+<td><p>yes/rare</p></td>
+</tr>
+<tr class="row-odd"><td><p>Club</p></td>
+<td><p>2</p></td>
+<td><p>8</p></td>
+<td><p>5</p></td>
+<td><p>0.5</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Greatclub</p></td>
+<td><p>6</p></td>
+<td><p>20</p></td>
+<td><p>15</p></td>
+<td><p>0.5</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Mace</p></td>
+<td><p>3</p></td>
+<td><p>45</p></td>
+<td><p>25</p></td>
+<td><p>1.5</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Morning Star</p></td>
+<td><p>3</p></td>
+<td><p>45</p></td>
+<td><p>25</p></td>
+<td><p>1.5</p></td>
+<td><p>rare</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Flail</p></td>
+<td><p>4</p></td>
+<td><p>75</p></td>
+<td><p>25</p></td>
+<td><p>3</p></td>
+<td><p>rare</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>War hammer</p></td>
+<td><p>3</p></td>
+<td><p>60</p></td>
+<td><p>25</p></td>
+<td><p>2.5</p></td>
+<td><p>rare</p></td>
+<td><p>rare</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Maul</p></td>
+<td><p>8</p></td>
+<td><p>140</p></td>
+<td><p>55</p></td>
+<td><p>5</p></td>
+<td><p>rare</p></td>
+<td><p>rare</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Glaive</p></td>
+<td><p>4</p></td>
+<td><p>115</p></td>
+<td><p>30</p></td>
+<td><p>5</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Halberd</p></td>
+<td><p>5</p></td>
+<td><p>150</p></td>
+<td><p>35</p></td>
+<td><p>7</p></td>
+<td><p>no</p></td>
+<td><p>no/rare</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Venetian Hammer</p></td>
+<td><p>5</p></td>
+<td><p>160</p></td>
+<td><p>35</p></td>
+<td><p>10</p></td>
+<td><p>no</p></td>
+<td><p>no/rare</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Long axe</p></td>
+<td><p>8</p></td>
+<td><p>170</p></td>
+<td><p>55</p></td>
+<td><p>7</p></td>
+<td><p>rare</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Short Spear</p></td>
+<td><p>2</p></td>
+<td><p>35</p></td>
+<td><p>15</p></td>
+<td><p>1.5</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Spear</p></td>
+<td><p>4</p></td>
+<td><p>60</p></td>
+<td><p>25</p></td>
+<td><p>2</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Long Spear</p></td>
+<td><p>8</p></td>
+<td><p>70</p></td>
+<td><p>40</p></td>
+<td><p>2</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Javelin</p></td>
+<td><p>2</p></td>
+<td><p>20</p></td>
+<td><p>10</p></td>
+<td><p>0.5</p></td>
+<td><p>yes</p></td>
+<td><p>rare</p></td>
+<td><p>no</p></td>
+</tr>
+<tr class="row-even"><td><p>War dart</p></td>
+<td><p>0.5</p></td>
+<td><p>12</p></td>
+<td><p>5</p></td>
+<td><p>0.5</p></td>
+<td><p>yes</p></td>
+<td><p>rare</p></td>
+<td><p>no</p></td>
+</tr>
+<tr class="row-odd"><td><p>Shortstaff</p></td>
+<td><p>2</p></td>
+<td><p>10</p></td>
+<td><p>5</p></td>
+<td><p>0.5</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Quarterstaff</p></td>
+<td><p>4</p></td>
+<td><p>15</p></td>
+<td><p>10</p></td>
+<td><p>0.5</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Sling</p></td>
+<td><p>1</p></td>
+<td><p>10</p></td>
+<td><p>3</p></td>
+<td><p>1</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>rare</p></td>
+</tr>
+<tr class="row-even"><td><p>Shortbow</p></td>
+<td><p>1</p></td>
+<td><p>20</p></td>
+<td><p>3</p></td>
+<td><p>1</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes/rare</p></td>
+</tr>
+<tr class="row-odd"><td><p>Composite Bow</p></td>
+<td><p>2</p></td>
+<td><p>100</p></td>
+<td><p>20</p></td>
+<td><p>5</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes/rare</p></td>
+</tr>
+<tr class="row-even"><td><p>Longbow</p></td>
+<td><p>3</p></td>
+<td><p>50</p></td>
+<td><p>10</p></td>
+<td><p>2.5</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes/rare</p></td>
+</tr>
+<tr class="row-odd"><td><p>Greatbow</p></td>
+<td><p>3</p></td>
+<td><p>160</p></td>
+<td><p>30</p></td>
+<td><p>8</p></td>
+<td><p>no</p></td>
+<td><p>yes</p></td>
+<td><p>rare</p></td>
+</tr>
+<tr class="row-even"><td><p>Hand Crossbow</p></td>
+<td><p>1</p></td>
+<td><p>90</p></td>
+<td><p>10</p></td>
+<td><p>5</p></td>
+<td><p>no</p></td>
+<td><p>rare</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Crossbow</p></td>
+<td><p>4</p></td>
+<td><p>80</p></td>
+<td><p>25</p></td>
+<td><p>2.5</p></td>
+<td><p>no</p></td>
+<td><p>yes</p></td>
+<td><p>yes/rare</p></td>
+</tr>
+<tr class="row-even"><td><p>Winch crossbow</p></td>
+<td><p>6</p></td>
+<td><p>140</p></td>
+<td><p>40</p></td>
+<td><p>5</p></td>
+<td><p>rare</p></td>
+<td><p>yes</p></td>
+<td><p>yes/rare</p></td>
+</tr>
+<tr class="row-odd"><td><p>Pistol</p></td>
+<td><p>1</p></td>
+<td><p>400</p></td>
+<td><p>10</p></td>
+<td><p>24</p></td>
+<td><p>no</p></td>
+<td><p>no</p></td>
+<td><p>rare/yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Musket</p></td>
+<td><p>8</p></td>
+<td><p>560</p></td>
+<td><p>80</p></td>
+<td><p>30</p></td>
+<td><p>no</p></td>
+<td><p>no</p></td>
+<td><p>rare/yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Blunderbuss</p></td>
+<td><p>6</p></td>
+<td><p>440</p></td>
+<td><p>60</p></td>
+<td><p>24</p></td>
+<td><p>no</p></td>
+<td><p>no</p></td>
+<td><p>rare/yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Gunblade</p></td>
+<td><p>2</p></td>
+<td><p>400</p></td>
+<td><p>20</p></td>
+<td><p>24</p></td>
+<td><p>no</p></td>
+<td><p>no</p></td>
+<td><p>rare</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<hr class="docutils" />
+<section id="ammunition">
+<h3>Ammunition<a class="headerlink" href="#ammunition" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Weapon</p></th>
+<th class="head"><p>Weight (lb)</p></th>
+<th class="head"><p>Cost (sp)</p></th>
+<th class="head"><p>crafting days</p></th>
+<th class="head"><p>“ancient”</p></th>
+<th class="head"><p>“medieval”</p></th>
+<th class="head"><p>“late”</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Arrow for short/composite bow(24)</p></td>
+<td><p>2.4</p></td>
+<td><p>5</p></td>
+<td><p>0.5</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Arrow for long/great bow(24)</p></td>
+<td><p>4.8</p></td>
+<td><p>5</p></td>
+<td><p>0.5</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Crossbow bolt(24)</p></td>
+<td><p>4.8</p></td>
+<td><p>5</p></td>
+<td><p>0.5</p></td>
+<td><p>rare</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Sling Bullet(24)</p></td>
+<td><p>2.4</p></td>
+<td><p>1</p></td>
+<td><p>0.5</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>rare</p></td>
+</tr>
+<tr class="row-even"><td><p>Bullets &amp; Powder(20)</p></td>
+<td><p>?</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>no</p></td>
+<td><p>no/rare</p></td>
+<td><p>yes</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<hr class="docutils" />
+<section id="armour">
+<h3>Armour<a class="headerlink" href="#armour" title="Link to this heading">¶</a></h3>
+<p>See the <a class="reference external" href="11-weapons-armour.html#the-armour-table">“armour properties table”</a> for details on what the armour does.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Armour Type</p></th>
+<th class="head"><p>Weight (lb)</p></th>
+<th class="head"><p>Cost (sp)</p></th>
+<th class="head"><p>Material Cost (sp)</p></th>
+<th class="head"><p>crafting days</p></th>
+<th class="head"><p>“ancient”</p></th>
+<th class="head"><p>“medieval”</p></th>
+<th class="head"><p>“late”</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Leather Cuirass</p></td>
+<td><p>10</p></td>
+<td><p>75</p></td>
+<td><p>50</p></td>
+<td><p>3</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Chain Shirt</p></td>
+<td><p>20</p></td>
+<td><p>280</p></td>
+<td><p>200</p></td>
+<td><p>5</p></td>
+<td><p>no</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Full Padded</p></td>
+<td><p>10</p></td>
+<td><p>55</p></td>
+<td><p>50</p></td>
+<td><p>1</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Hide Armour</p></td>
+<td><p>30</p></td>
+<td><p>115</p></td>
+<td><p>90</p></td>
+<td><p>3</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Full Leather</p></td>
+<td><p>20</p></td>
+<td><p>150</p></td>
+<td><p>100</p></td>
+<td><p>6</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Brigandine</p></td>
+<td><p>38</p></td>
+<td><p>420</p></td>
+<td><p>300</p></td>
+<td><p>15</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Full Chain</p></td>
+<td><p>55</p></td>
+<td><p>1000</p></td>
+<td><p>550</p></td>
+<td><p>30</p></td>
+<td><p>no</p></td>
+<td><p>yes</p></td>
+<td><p>yes/rare</p></td>
+</tr>
+<tr class="row-odd"><td><p>Cuirass</p></td>
+<td><p>46</p></td>
+<td><p>840</p></td>
+<td><p>460</p></td>
+<td><p>24</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Segmented Mail</p></td>
+<td><p>60</p></td>
+<td><p>1080</p></td>
+<td><p>600</p></td>
+<td><p>30</p></td>
+<td><p>no</p></td>
+<td><p>yes</p></td>
+<td><p>yes/rare</p></td>
+</tr>
+<tr class="row-odd"><td><p>Half Plate</p></td>
+<td><p>60</p></td>
+<td><p>1560</p></td>
+<td><p>600</p></td>
+<td><p>60</p></td>
+<td><p>no</p></td>
+<td><p>yes</p></td>
+<td><p>yes/rare</p></td>
+</tr>
+<tr class="row-even"><td><p>Full Plate</p></td>
+<td><p>65</p></td>
+<td><p>2200</p></td>
+<td><p>650</p></td>
+<td><p>96</p></td>
+<td><p>no</p></td>
+<td><p>yes</p></td>
+<td><p>yes/rare</p></td>
+</tr>
+<tr class="row-odd"><td><p>Buckler</p></td>
+<td><p>2</p></td>
+<td><p>35</p></td>
+<td><p>20</p></td>
+<td><p>1</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Light Shield</p></td>
+<td><p>6</p></td>
+<td><p>40</p></td>
+<td><p>20</p></td>
+<td><p>2.5</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Heavy Shield</p></td>
+<td><p>10</p></td>
+<td><p>90</p></td>
+<td><p>50</p></td>
+<td><p>5</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>rare</p></td>
+</tr>
+<tr class="row-even"><td><p>Tower Shield</p></td>
+<td><p>20</p></td>
+<td><p>150</p></td>
+<td><p>100</p></td>
+<td><p>6</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>rare</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<hr class="docutils" />
+<section id="labour-costs">
+<h3>Labour Costs<a class="headerlink" href="#labour-costs" title="Link to this heading">¶</a></h3>
+<p>Labour costs are given in silver (sp) per day (10-12 hours). Labour that does not need to be paid for, still has to be fed. Generally it should be assumed that the wages of unskilled workers, trained worker, mercenaries and scribes includes food and board where appropriate. The wages are given for medium sized humanoids. Larger entities, like giants, will have a significantly higher upkeep, but will also accomplish certain tasks, especially construction and mining a lot more quickly and effectively. Both of these factors mean that wages for those entities would be higher.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Labour type</p></th>
+<th class="head"><p>ancient</p></th>
+<th class="head"><p>medieval</p></th>
+<th class="head"><p>late</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Unskilled</p></td>
+<td><p>0</p></td>
+<td><p>1</p></td>
+<td><p>2</p></td>
+</tr>
+<tr class="row-odd"><td><p>Trained</p></td>
+<td><p>0</p></td>
+<td><p>2</p></td>
+<td><p>~5</p></td>
+</tr>
+<tr class="row-even"><td><p>Artisan (mason)</p></td>
+<td><p>0-4</p></td>
+<td><p>8</p></td>
+<td><p>20</p></td>
+</tr>
+<tr class="row-odd"><td><p>Artisan (smith)</p></td>
+<td><p>0-4</p></td>
+<td><p>16</p></td>
+<td><p>40</p></td>
+</tr>
+<tr class="row-even"><td><p>mercenary (foot, lvl-2)</p></td>
+<td><p>0-6</p></td>
+<td><p>6</p></td>
+<td><p>20</p></td>
+</tr>
+<tr class="row-odd"><td><p>mercenary (specialist, lvl-3)</p></td>
+<td><p>12</p></td>
+<td><p>24</p></td>
+<td><p>50</p></td>
+</tr>
+<tr class="row-even"><td><p>mercenary (captain, lvl-5)</p></td>
+<td><p>100</p></td>
+<td><p>200</p></td>
+<td><p>500</p></td>
+</tr>
+<tr class="row-odd"><td><p>scribe/priest, lvl-3</p></td>
+<td><p>12</p></td>
+<td><p>6</p></td>
+<td><p>20</p></td>
+</tr>
+<tr class="row-even"><td><p>magistrate, lvl-3</p></td>
+<td><p>200</p></td>
+<td><p>200</p></td>
+<td><p>500</p></td>
+</tr>
+<tr class="row-odd"><td><p>initiate, lvl-3</p></td>
+<td><p>special</p></td>
+<td><p>40</p></td>
+<td><p>500</p></td>
+</tr>
+<tr class="row-even"><td><p>mage, higher level</p></td>
+<td><p>special</p></td>
+<td><p>special</p></td>
+<td><p>special</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Untrained</strong>: This refers to untrained workforce that can be used for basic, but not necessarily easy work. This includes cleaners, fruit-pickers, and workers for digging ditches and carrying loads.</p>
+<p><strong>Trained</strong>: This refers to labourers that carry out work which requires several months or years of training to perform well. This includes miners, brick-layers, wagon drivers and sailors.</p>
+<p><strong>Artisan</strong>: Refers to craftsmen with rare and valuable skills, such as smiths, masons, bowyers, alchemists, jewellers, artists, engineers. They have significant practice in their arts, but quality varies.</p>
+<p><strong>Mercenary</strong>: This refers to low level hired combatants. This can be both <em>bona fide</em> mercenaries, as well as caravan guards, mounted messengers, and levied militia. They are loath to fight to the death, engage in expeditions lasting longer than a few weeks, or take on jobs with an obvious and significant risk of not coming back.</p>
+<p><strong>Mercenary, Specialist</strong>: This refers to archers, scouts, basic cavalry. Mercenaries will seldom fight to the death, and need significant persuasion if the job carries a risk of death or lasts longer than a month.</p>
+<p><strong>Mercenary, Captain</strong>: This refers to an NPC combatant with a significant amount of experience that can also lead a small unit. This kind of mercenary can be experienced in melee or ranged combat and may even have supernatural abilities. They usually demands a high fee for their services. This can also refer to lower level assassins.</p>
+<p><strong>Scribe</strong>: Literate individuals who can transcribe manuscripts, pen letters, and perform similar roles.</p>
+<p><strong>Magistrate</strong>: Ranking members of society, empowered with the rights and knowledge necessary to perform legal services. Magistrates are useful when dealing with nobility, major trade deals, or during dubious dealings for furthering one’s own interests. Access to a magistrate is understandably expensive.</p>
+<p><strong>Initiate</strong>: Initiates into the supernatural, who can perform simple spellcasting. They are loathe to enter combat, but often not adverse to exploration.</p>
+<p><strong>Mage</strong>: This refers to any spell caster that has level 3 or higher spellcasting. Mages can often be persuaded to perform services, usually in ritual casting, if they believe it is worth their while. The cost is generally high, and more often than not, it is not paid in gold or silver. Most mages are loathe to enter combat, but are not necessarily adverse to exploration.</p>
+</section>
+<hr class="docutils" />
+<section id="upkeep">
+<h3>Upkeep<a class="headerlink" href="#upkeep" title="Link to this heading">¶</a></h3>
+<p>Upkeep is distinct from labour cost, as it accounts only for minimal costs associated with keeping the labourer/hireling in working condition, and not the wages. This includes the upkeep cost of food, board and specialist equipment. It can also include the costs of various social/societal functions and rituals needed to maintain the position. For example, a magistrate may need to participate in “expensive” social events to retain a degree of “respectability”, a mercenary may need to attend training and replace equipment, and a mage may need maintain a supply of rare and expensive material components.</p>
+<p>This table is for medium sized humanoids. For every increase in size category, upkeep is increased by a factor of 4.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Item</p></th>
+<th class="head"><p>ancient</p></th>
+<th class="head"><p>medieval</p></th>
+<th class="head"><p>late</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Unskilled</p></td>
+<td><p>0.5</p></td>
+<td><p>1</p></td>
+<td><p>2</p></td>
+</tr>
+<tr class="row-odd"><td><p>Trained</p></td>
+<td><p>0.5</p></td>
+<td><p>2</p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="row-even"><td><p>Artisan (mason)</p></td>
+<td><p>1</p></td>
+<td><p>2</p></td>
+<td><p>10</p></td>
+</tr>
+<tr class="row-odd"><td><p>Artisan (smith)</p></td>
+<td><p>2</p></td>
+<td><p>4</p></td>
+<td><p>20</p></td>
+</tr>
+<tr class="row-even"><td><p>mercenary (foot)</p></td>
+<td><p>3</p></td>
+<td><p>4</p></td>
+<td><p>10</p></td>
+</tr>
+<tr class="row-odd"><td><p>mercenary (specialist)</p></td>
+<td><p>5</p></td>
+<td><p>6</p></td>
+<td><p>20</p></td>
+</tr>
+<tr class="row-even"><td><p>mercenary (captain)</p></td>
+<td><p>10</p></td>
+<td><p>10</p></td>
+<td><p>20</p></td>
+</tr>
+<tr class="row-odd"><td><p>scribe/priest</p></td>
+<td><p>4</p></td>
+<td><p>6</p></td>
+<td><p>10</p></td>
+</tr>
+<tr class="row-even"><td><p>magistrate</p></td>
+<td><p>6</p></td>
+<td><p>6</p></td>
+<td><p>20</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<hr class="docutils" />
+<section id="resources">
+<h3>Resources<a class="headerlink" href="#resources" title="Link to this heading">¶</a></h3>
+<p>This table provides some numbers for how much of a resource one can expect to harvest from an area. An acre is 121 x 360 feet or about 24 x 72 5ft squares.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Item</p></th>
+<th class="head"><p>Yield ancient</p></th>
+<th class="head"><p>Yield medieval</p></th>
+<th class="head"><p>Yield late</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Wheat</p></td>
+<td><p>320lb</p></td>
+<td><p>320lb</p></td>
+<td><p>800lb</p></td>
+</tr>
+<tr class="row-odd"><td><p>Apple</p></td>
+<td><p>4000lb</p></td>
+<td><p>4000lb</p></td>
+<td><p>8000lb</p></td>
+</tr>
+<tr class="row-even"><td><p>Lumber</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Iron</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Marble</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Wheat</strong>: Yield is per acre. Usually 1g of seeds was sown for 12-100g of harvest. Lower yield in earlier ages were associated with higher yields of straw which is also an important material. You need about half a dozen peasants for 10 acres.</p>
+</section>
+<hr class="docutils" />
+<section id="common-goods">
+<h3>Common Goods<a class="headerlink" href="#common-goods" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Item</p></th>
+<th class="head"><p>weight (lb)</p></th>
+<th class="head"><p>Cost (sp)</p></th>
+<th class="head"><p>Notes</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Ale, poor (gallon)</p></td>
+<td><p>10</p></td>
+<td><p>1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Ale, good (gallon)</p></td>
+<td><p>10</p></td>
+<td><p>4</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Cider, poor (gallon)</p></td>
+<td><p>10</p></td>
+<td><p>4</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Cider, good (gallon)</p></td>
+<td><p>10</p></td>
+<td><p>8</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Wine, poor (gallon)</p></td>
+<td><p>10</p></td>
+<td><p>6</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Wine, good (gallon)</p></td>
+<td><p>10</p></td>
+<td><p>16</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Wine, famous (gallon)</p></td>
+<td><p>10</p></td>
+<td><p>16+</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Wheat</p></td>
+<td><p>5</p></td>
+<td><p>1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Bread</p></td>
+<td><p>3</p></td>
+<td><p>1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Bacon</p></td>
+<td><p>1</p></td>
+<td><p>2</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Olive oil(1 gallon)</p></td>
+<td><p>10</p></td>
+<td><p>1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Eggs (12)</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Rations, good</p></td>
+<td><p>4</p></td>
+<td><p>3</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Rations, expedition</p></td>
+<td><p>4</p></td>
+<td><p>8</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>A tome/grimoire</p></td>
+<td><p>6</p></td>
+<td><p>480</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>A tome (rent)</p></td>
+<td><p>6</p></td>
+<td><p>1/day</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Candle(4)</p></td>
+<td><p>1</p></td>
+<td><p>0.5</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Firewood</p></td>
+<td><p>20</p></td>
+<td><p>0.5</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Charcoal</p></td>
+<td><p>10</p></td>
+<td><p>1</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="common-materials">
+<h3>Common Materials<a class="headerlink" href="#common-materials" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Item</p></th>
+<th class="head"><p>weight (lb)</p></th>
+<th class="head"><p>Cost (sp)</p></th>
+<th class="head"><p>Notes</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Fleece</p></td>
+<td><p>4</p></td>
+<td><p>0.5</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Common furs</p></td>
+<td><p>10</p></td>
+<td><p>-</p></td>
+<td><p>level I material</p></td>
+</tr>
+<tr class="row-even"><td><p>Rare furs</p></td>
+<td><p>100</p></td>
+<td><p>-</p></td>
+<td><p>level I material (rare)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Superior furs</p></td>
+<td><p>40</p></td>
+<td><p>-</p></td>
+<td><p>level II material</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Iron Ingot</p></td>
+<td><p>1</p></td>
+<td><p>2</p></td>
+<td><p>level II material (common)</p></td>
+</tr>
+<tr class="row-even"><td><p>Steel Ingot</p></td>
+<td><p>1</p></td>
+<td><p>20</p></td>
+<td><p>level III material (common)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bronze</p></td>
+<td><p>1</p></td>
+<td><p>10</p></td>
+<td><p>level I material (rare)</p></td>
+</tr>
+<tr class="row-even"><td><p>Silver Ingot</p></td>
+<td><p>1</p></td>
+<td><p>600</p></td>
+<td><p>level I material (does not corrode, very rare)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Gold Ingot</p></td>
+<td><p>1</p></td>
+<td><p>6000</p></td>
+<td><p>level I material (does not corrode, precious)</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Ironwood</p></td>
+<td><p>1</p></td>
+<td><p>27</p></td>
+<td><p>level III material (iron, rare, wood)</p></td>
+</tr>
+<tr class="row-even"><td><p>Mithral</p></td>
+<td><p>1</p></td>
+<td><p>1020</p></td>
+<td><p>level III material (iron, rare, does not corrode, light)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Adamantium</p></td>
+<td><p>1</p></td>
+<td><p>1280</p></td>
+<td><p>level IV material (iron, indestructible)</p></td>
+</tr>
+<tr class="row-even"><td><p>Infernal Iron</p></td>
+<td><p>1</p></td>
+<td><p>2560</p></td>
+<td><p>level IV material (iron, rare)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Dragon Scale</p></td>
+<td><p>1</p></td>
+<td><p>25K</p></td>
+<td><p>level IV material (hide, rare)</p></td>
+</tr>
+<tr class="row-even"><td><p>Divine fleece</p></td>
+<td><p>2</p></td>
+<td><p>160K</p></td>
+<td><p>level V material (fleece, precious, light)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>NB</strong>: The prices for fantastic materials are <em>especially</em> speculative. Especially in connection with the difficulty of obtaining rare, high level materials, it is more common for adventurers to obtain them by prospecting/harvesting them from the source, as rewards for great quests, or through dubious means. It should not be surprising that materials sourced from legendary creatures, or the realm of the gods would be more than worth their weight in gold. It also makes ownership of arms and armour made of such materials extremely dangerous for those who cannot handle themselves, or afford sufficient protection, as it paints an instant target on their backs.</p>
+</section>
+<hr class="docutils" />
+<section id="adventuring-gear">
+<h3>Adventuring Gear<a class="headerlink" href="#adventuring-gear" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Item</p></th>
+<th class="head"><p>Weight (lb)</p></th>
+<th class="head"><p>Cost (sp)</p></th>
+<th class="head"><p>Material cost (sp)</p></th>
+<th class="head"><p>crafting days</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Robes</p></td>
+<td><p>6</p></td>
+<td><p>60</p></td>
+<td><p>45</p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="row-odd"><td><p>Cloak</p></td>
+<td><p>3</p></td>
+<td><p>20</p></td>
+<td><p>15</p></td>
+<td><p>2</p></td>
+</tr>
+<tr class="row-even"><td><p>Woollen Garments</p></td>
+<td><p>4</p></td>
+<td><p>45</p></td>
+<td><p>30</p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="row-odd"><td><p>Linen Garment</p></td>
+<td><p>1</p></td>
+<td><p>15</p></td>
+<td><p>10</p></td>
+<td><p>3</p></td>
+</tr>
+<tr class="row-even"><td><p>Basic Woollen Garment</p></td>
+<td><p>2</p></td>
+<td><p>12</p></td>
+<td><p>10</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-odd"><td><p>Shoes</p></td>
+<td><p>2</p></td>
+<td><p>10</p></td>
+<td><p>7</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-even"><td><p>Boots</p></td>
+<td><p>4</p></td>
+<td><p>20</p></td>
+<td><p>15</p></td>
+<td><p>2</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Ceremonial/Scholar’s Garb</p></td>
+<td><p>8</p></td>
+<td><p>70</p></td>
+<td><p>52</p></td>
+<td><p>5</p></td>
+</tr>
+<tr class="row-odd"><td><p>Traveller’s Garb, Poor</p></td>
+<td><p>6</p></td>
+<td><p>22</p></td>
+<td><p>17</p></td>
+<td><p>2</p></td>
+</tr>
+<tr class="row-even"><td><p>Traveller’s Garb</p></td>
+<td><p>6-9</p></td>
+<td><p>55-75</p></td>
+<td><p>40-55</p></td>
+<td><p>5-7</p></td>
+</tr>
+<tr class="row-odd"><td><p>Explorer’s Garb</p></td>
+<td><p>8-11</p></td>
+<td><p>65-85</p></td>
+<td><p>45-60</p></td>
+<td><p>6-8</p></td>
+</tr>
+<tr class="row-even"><td><p>Cold Weather Garment</p></td>
+<td><p>18</p></td>
+<td><p>130</p></td>
+<td><p>100</p></td>
+<td><p>8+</p></td>
+</tr>
+<tr class="row-odd"><td><p>Courtier’s Garments</p></td>
+<td><p>8</p></td>
+<td><p>400+</p></td>
+<td><p>240+</p></td>
+<td><p>20+</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Rope, 20ft (hemp/cotton)</p></td>
+<td><p>2</p></td>
+<td><p>30</p></td>
+<td><p>10</p></td>
+<td><p>2.5</p></td>
+</tr>
+<tr class="row-even"><td><p>Rope, 20ft (silk)</p></td>
+<td><p>1</p></td>
+<td><p>70</p></td>
+<td><p>30</p></td>
+<td><p>10</p></td>
+</tr>
+<tr class="row-odd"><td><p>Shovel</p></td>
+<td><p>4</p></td>
+<td><p>25</p></td>
+<td><p>10</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-even"><td><p>Miner’s pick</p></td>
+<td><p>6</p></td>
+<td><p>40</p></td>
+<td><p>25</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Purse/Pouch</p></td>
+<td><p>0.5</p></td>
+<td><p>4</p></td>
+<td><p>3</p></td>
+<td><p>0.5</p></td>
+</tr>
+<tr class="row-odd"><td><p>Sack</p></td>
+<td><p>2</p></td>
+<td><p>12</p></td>
+<td><p>10</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-even"><td><p>Small Backpack</p></td>
+<td><p>3</p></td>
+<td><p>25</p></td>
+<td><p>15</p></td>
+<td><p>2</p></td>
+</tr>
+<tr class="row-odd"><td><p>Large Backpack</p></td>
+<td><p>8</p></td>
+<td><p>55</p></td>
+<td><p>30</p></td>
+<td><p>6</p></td>
+</tr>
+<tr class="row-even"><td><p>Blanket</p></td>
+<td><p>4</p></td>
+<td><p>20</p></td>
+<td><p>10</p></td>
+<td><p>3</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bedroll</p></td>
+<td><p>8</p></td>
+<td><p>55</p></td>
+<td><p>35</p></td>
+<td><p>5</p></td>
+</tr>
+<tr class="row-even"><td><p>Tent</p></td>
+<td><p>12</p></td>
+<td><p>45</p></td>
+<td><p>30</p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="row-odd"><td><p>Yurt</p></td>
+<td><p>180</p></td>
+<td><p>1040</p></td>
+<td><p>600</p></td>
+<td><p>110</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Torch(10)</p></td>
+<td><p>10</p></td>
+<td><p>5</p></td>
+<td><p>4</p></td>
+<td><p>0.5</p></td>
+</tr>
+<tr class="row-even"><td><p>Lantern</p></td>
+<td><p>1</p></td>
+<td><p>18</p></td>
+<td><p>10</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-odd"><td><p>Candle(4)</p></td>
+<td><p>1</p></td>
+<td><p>1</p></td>
+<td><p>~0.25</p></td>
+<td><p>0.5</p></td>
+</tr>
+<tr class="row-even"><td><p>Lamp oil (fragrant), 1 gallon</p></td>
+<td><p>10</p></td>
+<td><p>10</p></td>
+<td><p>6</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-odd"><td><p>Lamp oil (tallow), 1 gallon</p></td>
+<td><p>10</p></td>
+<td><p>5</p></td>
+<td><p>4</p></td>
+<td><p>0.5</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Yarn of Wool, Course</p></td>
+<td><p>1</p></td>
+<td><p>5</p></td>
+<td><p>~0.25</p></td>
+<td><p>2.5</p></td>
+</tr>
+<tr class="row-even"><td><p>Yarn of Wool</p></td>
+<td><p>1</p></td>
+<td><p>10</p></td>
+<td><p>~0.25</p></td>
+<td><p>5</p></td>
+</tr>
+<tr class="row-odd"><td><p>Spool of Silk</p></td>
+<td><p>1</p></td>
+<td><p>30</p></td>
+<td><p>10</p></td>
+<td><p>10</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Ceremonial Garb</strong>: Ceremonial Garb includes a robe, shoes and often some kind of hat. It is suitable for scholars, cultists, mages, priests and low-level officials  performing duties. As a rule they are not well suited for overland travel as they often restrict movement.</p>
+<p><strong>Traveller’s Garb, Poor</strong>: Course woollen garments and some kind of shoes. This represents clothes worn by farmers, workers, hoodlums, and low class travellers. They offer a modicum of protection against the elements. In colder weather one should also wear a cloak. These clothes do not restrict movement, but immediately mark one out as belonging to the lower echelons of society.</p>
+<p><strong>Traveller’s Garb</strong>: Woollen garments, possibly a cloak, and shoes. These are sturdy clothes that will stand up to the elements and be somewhat comfortable. These are the standard adventuring clothes.</p>
+<p><strong>Explorer’s Garb</strong>: Woollen garments, possibly a cloak and boots. Generally these include the adaptations needed by adventurers and explorers on perilous journeys. They do make one stand out somewhat.</p>
+<p><strong>Cold Weather Garments</strong>: Thick garments, often with an outer layer of hides/furs and an inner layer of wool or fleece. This heavy garb allows one to treat the weather as one step warmer (ie “extreme cold” is now only “severe cold”, but “severe heat” is now “extreme heat” for the wearer). This garb seldom includes a cloak, as the garments themselves are thick and sturdy enough to block most wind and precipitation. On occasion, hide armour can be made for cold weather, in which case half the weight and half the cost of these garments are added to the hide armour and its wearer gains the benefits and drawbacks of cold weather garments.</p>
+<p><strong>Courtier’s Garb</strong>: Fine clothes and boots, made with care, using high quality materials. The more expensive the “better”. Though seldom practical, it distinguishes one as a member of high society. In most societies, characters dealing with (most) nobles when wearing other garments will gain a -2 to charisma related skill rolls related to interacting with them. Of course, this depends on the circumstances and the ways of the given society.</p>
+<p><strong>Rope</strong>: 10ft of rope that can be used for climbing, of tying off animals (usually one would purchase lengths of 60-120ft). This weights 1lb/10ft for hemp and 1lb/20ft for silk ropes. The durability is 4. Hemp ropes for rigging are four times heavier and cost four times as much. This rope can support 1000lb, or 300lb during a fall of 10ft or more without snapping. Every time the rope takes such a fall, it takes one point of damage.</p>
+<p><strong>Miner’s Pick</strong>: A heavy, durable pick used for breaking rocky ground or leveraging it apart. It is a necessary tool for using “fortify” to fortify or dig through rock/rocky ground. This kind of pick can be used as a weapon, but attack rolls with it are made at disadvantage. It deals 1d10 piercing damage and is wielded in two hands.</p>
+<p><strong>Shovel</strong>: A sturdy shovel. “Fortify”, “harvest” or “prospect” rolls which involve digging are made at disadvantage without a shovel. It can be used as a weapon (attack rolls are made at disadvantage), and deals 1d8 slashing damage.</p>
+<p><strong>Torch</strong>: A length of wood, usually dipped in tar. When lit, a torch sheds bright light in 20ft, and dim light in 40ft. Its light can be seen within a mile. It will burn out within 30 minutes and will be extinguished by extreme precipitation or extreme wind. Torches are ideal for setting things on fire.</p>
+<p><strong>Candle</strong>: A wax candle. Made of bees’ wax or tallow. A candle will shed dim light within 10ft. It will burn for 4 hours. Its light can be seen from ~800ft away. An unshielded candle will be extinguished by severe wind or precipitation.</p>
+<p><strong>Lamp</strong>: A glass or metal oil lamp, with a small reservoir for oil (no more than 1lb) and a wick. A lamp sheds bright light in 20ft and dim light in 40ft.</p>
+<p><strong>Small Backpack</strong>: A sturdy backpack of cloth or leather that can carry up to 30lb, or a volume of 10 gallons, whatever is smallest. It leaves a traveller’s hands free for other activities.</p>
+<p><strong>Large Backpack</strong>: A sturdy backpack of cloth or leather, usually with a wooden frame. It can carry up to 90lb, or a volume of 30 gallons, whatever is smallest. It leaves a traveller’s hands free for other activities.</p>
+<p><strong>Blanket</strong>: A heavy woollen blanket big enough to wrap 2 medium sized humanoids. It gives a +2 on CON saves for resting in cold weather (where applicable).</p>
+<p><strong>Bedroll</strong>: A complete sleeping set, complete with a thick felt/woollen sleeping matt and blanket. It gives a +4 on CON saves for resting in cold weather (where applicable).</p>
+<p><strong>Tent</strong>: A tent of canvas and wood big enough for 6 medium sized humanoids. It gives a +2 to ameliorate rolls on terrain that is not swamp, dense forest, or steep slopes. It takes up 5x10ft and takes 30 minutes to assemble.</p>
+<p><strong>Yurt</strong>: A portable dwelling construction of hides, cloth, wood and bone favoured by nomadic peoples. It counts as a dwelling and obviates the need for an ameliorate/fortify roll for camping (although it is still better to make one to fortify one’s camp). A yurt takes up 15x15ft and takes 3 hours to assemble.</p>
+</section>
+<hr class="docutils" />
+<section id="transport">
+<h3>Transport<a class="headerlink" href="#transport" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Item</p></th>
+<th class="head"><p>Cost (sp)</p></th>
+<th class="head"><p>crafting/rearing days</p></th>
+<th class="head"><p>“ancient”</p></th>
+<th class="head"><p>“medieval”</p></th>
+<th class="head"><p>“late”</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Riding</p></td>
+<td><p>480</p></td>
+<td><p>-</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Draught horse</p></td>
+<td><p>60</p></td>
+<td><p>-</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Warhorse</p></td>
+<td><p>4000-80000</p></td>
+<td><p>-</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Handcart</p></td>
+<td><p>20</p></td>
+<td><p>1</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Cart</p></td>
+<td><p>48</p></td>
+<td><p>2.5</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Wagon</p></td>
+<td><p>200</p></td>
+<td><p>10</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>War Chariot</p></td>
+<td><p>1960</p></td>
+<td><p>46</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Carriage</p></td>
+<td><p>3600</p></td>
+<td><p>72</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Canoe</p></td>
+<td><p>30</p></td>
+<td><p>1.5</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Skiff</p></td>
+<td><p>90</p></td>
+<td><p>1.5</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Skiff (sailing)</p></td>
+<td><p>90</p></td>
+<td><p>1.5</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Longship</p></td>
+<td><p>4800</p></td>
+<td><p>92</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>no</p></td>
+</tr>
+<tr class="row-even"><td><p>Sailing ship (small)</p></td>
+<td><p>4800</p></td>
+<td><p>92</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Sailing ship (carrack)</p></td>
+<td><p>12600</p></td>
+<td><p>92</p></td>
+<td><p>no</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Cart</strong>: A light, two or four wheeled wooden cart, usually without an awning. Typically a cart is 5x10ft long and can house 8 passengers and 2 drivers, transporting up to 4000lb, but no more than the drag weight of the beasts of burden pulling it. Carts can typically travel on, and off, road. The speed of a wagon is 30ft on road and 20ft off road. A cart can traverse difficult terrain at 5ft per round. A cart weighs 200lb.</p>
+<p><strong>Wagon</strong>: A heavy, four wheeled cart, usually with an awning. A wagon typically is 5x15ft in length, 10ft in height and can house 12 passengers and 2 drivers, transporting up to 8000lb, but no more than the drag weight of the beasts of burden pulling it. Wagons can typically travel on, and off, road. The speed of a wagon is 25ft on road and 15ft off road. A wagon cannot traverse difficult terrain. A wagon weighs 800lb.</p>
+<p><strong>War chariot</strong>: This is a light, two wheeled platform (5x5ft) that carries a driver and up to 2 passengers. In combat it can carry a driver and a single medium sized combatant. A combatant riding on chariot may use unwieldy and heavy weapons as if they were standing on flat, open terrain (if space permits). A chariot with one horse can travel at 40ft, with 2 horses - 50ft, with 4 horses - 60ft. A chariot can be driven off road. It can traverse difficult terrain at 10ft. A chariot weights 80lb.</p>
+<p><strong>Carriage</strong>: A carriage is a closed wagon approximately 12ft in length and 6ft in width. For combat purposes it takes up 2 squares. A carriage can house up to 6 passengers inside, as well as up to 4 crew. a carriage drawn by 2 horses (a pair) has a speed of 30ft, by 4 horses - 40ft, by 6 horses - 50ft. Travels cannot travel faster than their beasts of burden, unless travelling down hill. Carriages can only travel on roads or relatively flat, solid ground, albeit at half speed. They are seldom suitable for cross country driving. A carriage weights 1800lb.</p>
+<p><strong>Canoe</strong>: A canoe is a light, narrow rowing boat that can carry up to 4 medium sized humanoids. It has a speed of 50ft, a length of 12-18ft, and a weight of 40lb. A canoe has a durability of 2 and a damage reduction of 1 against physical and cold damage.</p>
+<p><strong>Skiff</strong>: This refers to a boat that can hold between 4-10 medium size humanoids and has a length of no more than 18ft. It requires 1-3 crew. Rowing skiffs typically have a speed of 30ft, while sailing skiffs can have speeds of up to 100ft in good winds or 30ft in poor winds. A skiff has a durability of 8 and a damage reduction of 1 against physical and cold damage.</p>
+<p><strong>Longships</strong>: A narrow hull ship, typically with a single mast and between 16-80 oarsmen. They can be between 40ft-120ft long, with displacements of ~20-60 tons. And can maintain speeds of ~90ft (90 miles per day, 180 if the crew pull double shifts). Longships were typically not armed <em>per se</em>, but the crew was often trained in combat. A longship has a durability of 20 and a damage reduction of 2 against physical and cold damage. It begins to sink once it has lost 10 points of durability.</p>
+<p><strong>Sailing ship (small)</strong>: This refers to any sailing ship with one or two masts and a displacement of 20-60 tons and a length of 30-60ft. Depending on size and journey length, it can take 4-20 crewmen. This can be either a square-rig of ancient times, or a caravel of the medieval period. The typical speed is 100ft (200 miles per day) in good wind and 30ft (60 miles per day) in poor winds. A small sailing ship has a durability of 20 and a damage reduction of 1 against physical and cold damage. It begins to sink once it has lost 10 durability. The sails have an extra 6 durability with no damage reduction and once they are destroyed the ship is at the mercy of the waves.</p>
+<p><strong>Carrack</strong>: Carracks are sailing ships with 3 masts and a high rear castle. They have mix of square and triangular sails. They can generally handle long oceanic journeys, but are seldom made to carry large amounts of cargo. They tend to be 60ft-100ft long, and have a displacement of 100-1000 tons. A carrack can be equipped with up to 10 canons per 100 tons of displacement. This is the classic “sailing ship” of the earth colonial era. The cost is quoted for a 200 ton carrack, equipped with 10 canons (or ballistae), which is a typical tonnage for the class. A carrack needs a crew of about 10, but prefers ~40, and can transport 100-500 soldiers over short distances. A carrack has a speed of 120ft (240 miles per day) in good winds and 40ft (80 miles per day) in poor winds. A carrack has a durability of 40 and a damage reduction of 2. It begins to sink once it has lost 30 durability. The sails have an extra 12 durability with no damage reduction and once they are destroyed the ship is at the mercy of the waves.</p>
+</section>
+<hr class="docutils" />
+<section id="beasts-and-slaves">
+<h3>Beasts and Slaves<a class="headerlink" href="#beasts-and-slaves" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Item</p></th>
+<th class="head"><p>Cost (sp)</p></th>
+<th class="head"><p>crafting/rearing days</p></th>
+<th class="head"><p>“ancient”</p></th>
+<th class="head"><p>“medieval”</p></th>
+<th class="head"><p>“late”</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>8 chickens</p></td>
+<td><p>1</p></td>
+<td><p>5 months</p></td>
+<td><p>rare</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Sheep</p></td>
+<td><p>12</p></td>
+<td><p>6 months</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Goat</p></td>
+<td><p>12</p></td>
+<td><p>15 months</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Pig</p></td>
+<td><p>40</p></td>
+<td><p>8 months</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Cow</p></td>
+<td><p>150</p></td>
+<td><p>18 months</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Ox</p></td>
+<td><p>170</p></td>
+<td><p>2 years</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Swarm of bees</p></td>
+<td><p>16</p></td>
+<td><p>2 months</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Hive of bees</p></td>
+<td><p>48</p></td>
+<td><p>4 months</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Falcon</p></td>
+<td><p>480</p></td>
+<td><p>1 year</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Falcon, chick</p></td>
+<td><p>240</p></td>
+<td><p></p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Hawk</p></td>
+<td><p>48</p></td>
+<td><p>2 years</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Hawk, chick</p></td>
+<td><p>24</p></td>
+<td><p></p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Pup</p></td>
+<td><p>8</p></td>
+<td><p></p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Well bred pup</p></td>
+<td><p>240</p></td>
+<td><p></p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Untrained dog</p></td>
+<td><p>240</p></td>
+<td><p>6 months</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Hunting dog</p></td>
+<td><p>480</p></td>
+<td><p>2 years</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Riding</p></td>
+<td><p>480</p></td>
+<td><p>3 years to rear, 1 to train</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Draught horse</p></td>
+<td><p>60</p></td>
+<td><p>3 years to rear, 1 to train</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Warhorse</p></td>
+<td><p>4000-80000</p></td>
+<td><p>3 years to rear, 3 to train</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Humanoid Slave* (lvl-1)</p></td>
+<td><p>400</p></td>
+<td><p>10 years</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>rare</p></td>
+</tr>
+<tr class="row-even"><td><p>Humanoid Slave*, Trained (lvl-3)</p></td>
+<td><p>3600</p></td>
+<td><p>15 years</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>rare</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Chickens</strong>: Chickens are omnivorous, flightless fowl. They typically weigh between 2-8lb and provide feathers, meat and eggs. They are easy to keep and raise, but are vulnerable to predation by most things and must be carefully guarded.</p>
+<p><strong>Sheep/Goat</strong>: Small ruminants that typically weigh between 50-200lb. They are hardy grazers and thrive in poor, hilly environments where horses and oxen might have difficulty. They provide milk, wool, meat and hides. They are vulnerable to predation by wolves and larger predators and should be carefully guarded.</p>
+<p><strong>Cow/Ox</strong>: Large ruminants that prefer lush grasses. They typically weigh between 500-2000lb and provide meat, milk and hide. They are also strong enough to pull carts and wagons, although not particularly fast. Being large, and typically horned, they are relatively defended from most beasts, but can be hunted by larger dinosaurs, monsters and dragons.</p>
+<p><strong>Bees</strong>: Bees are venomous insects that dwell in colonies of 100K-1M individuals. They gather nectar and pollen. They provide honey and wax.</p>
+<p><strong>Falcon</strong>: Falcons are predatory birds that prefer to hunt birds. This makes them valuable for hunting, but also for delivering messages.</p>
+<p><strong>Hawk</strong>: Hawks are predatory birds that prefer to hunt ground animals. Their keen eyes make them valuable for hunters, but also for scouts.</p>
+<p><strong>Dogs</strong>: Dogs are predatory canines that come in many shapes and sizes. They are typically loyal and easily trainable. Together with their keen senses, endurance and lupine instincts, they are invaluable to humanoids, be it for hunting, guard duties, or companionship. Dogs are omnivores with a preference for meat and can weight between 10-200lb.</p>
+<p><strong>Horses</strong>: Horses are hoofed ruminants, prized for their speed, strength and endurance. They are used for mounts and to tow vehicles.</p>
+<ul class="simple">
+<li><p>A riding horse (use <a class="reference external" href="bestiary/beasts-and-plants.html#horse-light-level-2">“light horse”</a>) weighs between 500-1500lb and is trained to carry a rider or pulling a vehicle, but is not combat trained.</p></li>
+<li><p>A draught horse weighs between 1500-2500lb and is trained for pulling a vehicle, but not riding or combat. Use <a class="reference external" href="bestiary/beasts-and-plants.html#horse-heavy-level-3">“heavy horse”</a>.</p></li>
+<li><p>A war horse weighs between 1000-2000lb and is trained for either riding or for pulling, but is always trained for combat. Use <a class="reference external" href="bestiary/beasts-and-plants.html#horse-war-level-4">“war horse”</a>.</p></li>
+</ul>
+<p><strong>Humanoid Slave</strong>: Humanoid slaves are used as servants, for menial labour, or as gladiators (amongst other roles). Slaves must be properly trained and indoctrinated to prevent them escaping. A mistreated slave may attempt to kill its master and/or escape. High-magic society may use supernatural means to bind more dangerous or valuable slaves. Societies that use slaves generally obtain them either by breeding or raiding and capturing. Some societies may sentence certain criminals, or defeated political rivals to a life of slavery. In such societies slaves are usually not particularly expensive, because of high availability and the omnivorous nature of most humanoids (you can feed them almost anything and they will survive). <em>Since slavery is often a contentious topic, it should be approached sensibly by players and game masters alike.</em></p>
+</section>
+<hr class="docutils" />
+<section id="property">
+<h3>Property<a class="headerlink" href="#property" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Item</p></th>
+<th class="head"><p>Cost (sp)</p></th>
+<th class="head"><p>crafting/rearing days</p></th>
+<th class="head"><p>“ancient”</p></th>
+<th class="head"><p>“medieval”</p></th>
+<th class="head"><p>“late”</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Small house (rent)</p></td>
+<td><p>6/month</p></td>
+<td><p></p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>House (rent)</p></td>
+<td><p>24/month</p></td>
+<td><p></p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Small Manor (rent)</p></td>
+<td><p>90/month</p></td>
+<td><p></p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Acre of land</p></td>
+<td><p>4</p></td>
+<td><p></p></td>
+<td><p>rare</p></td>
+<td><p>rare</p></td>
+<td><p>rare</p></td>
+</tr>
+<tr class="row-even"><td><p>Small house</p></td>
+<td><p>960</p></td>
+<td><p></p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>House</p></td>
+<td><p>4800</p></td>
+<td><p></p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Small Manor</p></td>
+<td><p>144K</p></td>
+<td><p></p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Keep</p></td>
+<td><p>192K</p></td>
+<td><p>95K</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Castle</p></td>
+<td><p>672K</p></td>
+<td><p></p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Fortress</p></td>
+<td><p>4800K</p></td>
+<td><p></p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><em>Acre of land</em>: Land in many kingdoms is not commonly available and cannot be bought and sold without special permission from officials, lords or kings. In other settings, lands may be sparsely populated and can perhaps be claimed by anyone strong enough to defend it against errant monsters.</p>
+<p><em>Keep</em>: A stone keep measures approximately 48 x 48 x 48 feet, has 3-4 stories and walls about 4-6 feet thick. The crafting days can be split between any number of workers and include procurement and transport costs. Even if additional manpower is available, medium sized humanoids will not accomplish this task in less than 3 months by conventional means.</p>
+</section>
+<hr class="docutils" />
+<section id="tools-and-kits">
+<h3>Tools and Kits<a class="headerlink" href="#tools-and-kits" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Item</p></th>
+<th class="head"><p>Cost (sp)</p></th>
+<th class="head"><p>crafting days</p></th>
+<th class="head"><p>“ancient”</p></th>
+<th class="head"><p>“medieval”</p></th>
+<th class="head"><p>“late”</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Diver’s kit</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>no</p></td>
+<td><p>rare</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Climber’s kit</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Entrenching tools</p></td>
+<td><p>30</p></td>
+<td><p></p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Farmer’s equipment</p></td>
+<td><p>80</p></td>
+<td><p></p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Mason’s tools</p></td>
+<td><p>18</p></td>
+<td><p></p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Smith’s tools</p></td>
+<td><p>120</p></td>
+<td><p></p></td>
+<td><p>rare</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Smith’s forge</p></td>
+<td><p>5600</p></td>
+<td><p></p></td>
+<td><p>no/rare</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Calligraphy kit</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>rare</p></td>
+<td><p>no/rare</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Forgery kit</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Tinkerer’s tools</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>rare</p></td>
+<td><p>no/rare</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Carpenter’s tools</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Locksmith’s tools</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>no/rare</p></td>
+<td><p>rare</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Glassblower’s tools</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>yes</p></td>
+<td><p>rare</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Jeweller’s tools</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Healer’s kit</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Butcher’s tool</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Herbalist’s kit</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Miner’s tools</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Trapper’s tools</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Fisher’s tools</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Alchemist’s equipment</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>yes</p></td>
+<td><p>rare</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Poisoner’s equipment</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Cartographer’s tools</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>yes</p></td>
+<td><p>rare</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Astronomer’s tools</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>yes</p></td>
+<td><p>rare</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Disguise kit</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Gaming Set (small)</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Gaming Set (large)</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Musical instrument (simple)</p></td>
+<td><p>1-10</p></td>
+<td><p></p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Musical instrument (average)</p></td>
+<td><p>12-120</p></td>
+<td><p></p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Musical instrument (complex)</p></td>
+<td><p>120-2400</p></td>
+<td><p></p></td>
+<td><p>yes</p></td>
+<td><p>rare</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Musical instrument (exquisite)</p></td>
+<td><p>2400+</p></td>
+<td><p></p></td>
+<td><p>rare</p></td>
+<td><p>no</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Entrenching tools</strong>: This is a full set of equipment needed to fortify a a field position or make a simple dwelling. It includes, hammer, chisel, axe, shovel, knives and a number of other implements.</p>
+<p><strong>Farmer’s Equipment</strong>: Farmer’s equipment consists of yokes, ploughs, shovels and other minimal equipment needed to raise crops. Animals not included.</p>
+<p><strong>Smith’s tools</strong>: A minimal set of tools needed to make use of a forge or make a field forge. Using a field forge gives -5 on all crafting rolls. The set include hammers, vice, chisels, small anvil and other implements. The set weighs about 30lb.</p>
+<p><strong>Smith’s forge</strong>: A complete forge. This is not mobile and consists of furnace as well as all other tools and structures for turning an iron ingot into an implement.</p>
+<p><strong>Musical instruments (simple)</strong>: This mostly includes simple wind instruments made of reed, with no metal parts and no rare materials. These would be welcome at a festival, a fey glade, or a village tavern, but might get you laughed out of town or executed at a king’s court.</p>
+<p><strong>Musical instruments (average)</strong>: This includes more robust wind instruments and certain percussion, such as tambourines. Certain simpler string instruments would fall in this category. They might contain mixture of wooden, hide and metal parts and would be acceptable either as a performance in a town’s tavern or as part of a band or orchestra. A buffoon at a court might use instruments from this category.</p>
+<p><strong>Musical instrument (complex)</strong>: This includes most string instruments (guitars/lutes, violins, harps, lyres), as brass and certain others. These would be acceptable at many mortal courts and would draw crowds at backwater settlements for their rarity.</p>
+<p><strong>Musical instrument (exquisite)</strong>: This includes things like pianos, church organs and other large, complex instruments. They are generally nor easily transported.</p>
+</section>
+<hr class="docutils" />
+<section id="alchemical-reagents-and-potions">
+<h3>Alchemical reagents and potions<a class="headerlink" href="#alchemical-reagents-and-potions" title="Link to this heading">¶</a></h3>
+<p>This includes various natural and supernatural produce that can be created through the practice of <a class="reference external" href="13-crafting-imbuing.html#alchemy">alchemy</a>. They have diverse and potentially dangerous effects. It should be noted that alchemical produce will generally have low availability, and generally a high cost. In fact there is a good chance that an alchemist will want payment in something other than currency or material goods for his wares and services. When speaking of the crafting times of alchemical goods, one should take into account that they can be prepared in a batch, which does not increase preparation time, but does require a more extensive laboratory and more ingredients, which are not guaranteed to be available. Brewing healing potions in a batch may well prove lethal.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Item</p></th>
+<th class="head"><p>Cost (sp)</p></th>
+<th class="head"><p>Material cost (sp)</p></th>
+<th class="head"><p>crafting days</p></th>
+<th class="head"><p>Thr</p></th>
+<th class="head"><p>“ancient”</p></th>
+<th class="head"><p>“medieval”</p></th>
+<th class="head"><p>“late”</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Smoke-stick (1lb)</p></td>
+<td><p>40</p></td>
+<td><p>4</p></td>
+<td><p>4 days</p></td>
+<td><p>16</p></td>
+<td><p>very rare</p></td>
+<td><p>very rare</p></td>
+<td><p>rare</p></td>
+</tr>
+<tr class="row-odd"><td><p>Alchemical Fire (1lb flask)</p></td>
+<td><p>46</p></td>
+<td><p>10</p></td>
+<td><p>4 days</p></td>
+<td><p>18</p></td>
+<td><p>very rare</p></td>
+<td><p>very rare</p></td>
+<td><p>rare</p></td>
+</tr>
+<tr class="row-even"><td><p>Quicksilver (1lb flask)</p></td>
+<td><p>46</p></td>
+<td><p>10</p></td>
+<td><p>4 days</p></td>
+<td><p>18</p></td>
+<td><p>rare</p></td>
+<td><p>rare</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Fey-silver (1lb flask)</p></td>
+<td><p>Special</p></td>
+<td><p>Special</p></td>
+<td><p>18 days</p></td>
+<td><p>22</p></td>
+<td><p>very rare</p></td>
+<td><p>very rare</p></td>
+<td><p>no</p></td>
+</tr>
+<tr class="row-even"><td><p>Gunpowder (1/10lb)</p></td>
+<td><p>40</p></td>
+<td><p>4</p></td>
+<td><p>4 days</p></td>
+<td><p>16</p></td>
+<td><p>no</p></td>
+<td><p>very rare</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Medicine (C class)</p></td>
+<td><p>10</p></td>
+<td><p>2</p></td>
+<td><p>2 days</p></td>
+<td><p>14</p></td>
+<td><p>rare</p></td>
+<td><p>very rare</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Medicine (B class)</p></td>
+<td><p>40</p></td>
+<td><p>8</p></td>
+<td><p>4 days</p></td>
+<td><p>16</p></td>
+<td><p>rare</p></td>
+<td><p>very rare</p></td>
+<td><p>rare</p></td>
+</tr>
+<tr class="row-odd"><td><p>Medicine (A class)</p></td>
+<td><p>90</p></td>
+<td><p>18</p></td>
+<td><p>9 days</p></td>
+<td><p>20</p></td>
+<td><p>very rare</p></td>
+<td><p>no</p></td>
+<td><p>very rare</p></td>
+</tr>
+<tr class="row-even"><td><p>Medicine (S class)</p></td>
+<td><p>160</p></td>
+<td><p>32</p></td>
+<td><p>20 days</p></td>
+<td><p>24</p></td>
+<td><p>no</p></td>
+<td><p>no</p></td>
+<td><p>no</p></td>
+</tr>
+<tr class="row-odd"><td><p>Cure (C class)</p></td>
+<td><p>20</p></td>
+<td><p>4</p></td>
+<td><p>4 days</p></td>
+<td><p>16</p></td>
+<td><p>rare</p></td>
+<td><p>very rare</p></td>
+<td><p>very rare</p></td>
+</tr>
+<tr class="row-even"><td><p>Cure (B class)</p></td>
+<td><p>80</p></td>
+<td><p>16</p></td>
+<td><p>8 days</p></td>
+<td><p>18</p></td>
+<td><p>rare</p></td>
+<td><p>very rare</p></td>
+<td><p>very rare</p></td>
+</tr>
+<tr class="row-odd"><td><p>Cure (A class)</p></td>
+<td><p>Special</p></td>
+<td><p>Special</p></td>
+<td><p>18 days</p></td>
+<td><p>22</p></td>
+<td><p>very rare</p></td>
+<td><p>very rare</p></td>
+<td><p>very rare</p></td>
+</tr>
+<tr class="row-even"><td><p>Cure (S Class)/Panacea</p></td>
+<td><p>Special</p></td>
+<td><p>Special</p></td>
+<td><p>40 days</p></td>
+<td><p>28</p></td>
+<td><p>very rare</p></td>
+<td><p>no</p></td>
+<td><p>no</p></td>
+</tr>
+<tr class="row-odd"><td><p>Poison (C class, 1 dose)</p></td>
+<td><p>20</p></td>
+<td><p>4</p></td>
+<td><p>2 days</p></td>
+<td><p>16</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+<td><p>yes</p></td>
+</tr>
+<tr class="row-even"><td><p>Poison (B class)</p></td>
+<td><p>Special</p></td>
+<td><p>Special</p></td>
+<td><p>4 days</p></td>
+<td><p>18</p></td>
+<td><p>rare</p></td>
+<td><p>rare</p></td>
+<td><p>rare</p></td>
+</tr>
+<tr class="row-odd"><td><p>Poison (A class)</p></td>
+<td><p>Special</p></td>
+<td><p>Special</p></td>
+<td><p>9 days</p></td>
+<td><p>22</p></td>
+<td><p>very rare</p></td>
+<td><p>very rare</p></td>
+<td><p>very rare</p></td>
+</tr>
+<tr class="row-even"><td><p>Poison (S class)</p></td>
+<td><p>Special</p></td>
+<td><p>Special</p></td>
+<td><p>20 days</p></td>
+<td><p>28</p></td>
+<td><p>very rare</p></td>
+<td><p>very rare</p></td>
+<td><p>no</p></td>
+</tr>
+<tr class="row-odd"><td><p>Healing Potion (Class I)</p></td>
+<td><p>Special</p></td>
+<td><p>-</p></td>
+<td><p>5 hours</p></td>
+<td><p>24</p></td>
+<td><p>rare</p></td>
+<td><p>rare</p></td>
+<td><p>rare</p></td>
+</tr>
+<tr class="row-even"><td><p>Healing Potion (Class II)</p></td>
+<td><p>Special</p></td>
+<td><p>-</p></td>
+<td><p>2 days</p></td>
+<td><p>26</p></td>
+<td><p>very rare</p></td>
+<td><p>very rare</p></td>
+<td><p>very rare</p></td>
+</tr>
+<tr class="row-odd"><td><p>Healing Potion (Class III)</p></td>
+<td><p>Special</p></td>
+<td><p>-</p></td>
+<td><p>4 days</p></td>
+<td><p>28</p></td>
+<td><p>very rare</p></td>
+<td><p>very rare</p></td>
+<td><p>very rare</p></td>
+</tr>
+<tr class="row-even"><td><p>Healing Potion (Class IV)</p></td>
+<td><p>Special</p></td>
+<td><p>-</p></td>
+<td><p>8 days</p></td>
+<td><p>30</p></td>
+<td><p>very rare</p></td>
+<td><p>very rare</p></td>
+<td><p>very rare</p></td>
+</tr>
+<tr class="row-odd"><td><p>Vitality Potion (Class I)</p></td>
+<td><p>Special</p></td>
+<td><p>-</p></td>
+<td><p>2 days</p></td>
+<td><p>26</p></td>
+<td><p>rare</p></td>
+<td><p>rare</p></td>
+<td><p>rare</p></td>
+</tr>
+<tr class="row-even"><td><p>Vitality Potion (Class II)</p></td>
+<td><p>Special</p></td>
+<td><p>-</p></td>
+<td><p>4 days</p></td>
+<td><p>28</p></td>
+<td><p>very rare</p></td>
+<td><p>very rare</p></td>
+<td><p>very rare</p></td>
+</tr>
+<tr class="row-odd"><td><p>Vitality Potion (Class III)</p></td>
+<td><p>Special</p></td>
+<td><p>-</p></td>
+<td><p>8 days</p></td>
+<td><p>30</p></td>
+<td><p>very rare</p></td>
+<td><p>very rare</p></td>
+<td><p>very rare</p></td>
+</tr>
+<tr class="row-even"><td><p>Vitality Potion (Class IV)</p></td>
+<td><p>Special</p></td>
+<td><p>-</p></td>
+<td><p>12 days</p></td>
+<td><p>32</p></td>
+<td><p>very rare</p></td>
+<td><p>very rare</p></td>
+<td><p>very rare</p></td>
+</tr>
+<tr class="row-odd"><td><p>Potion of Second Life</p></td>
+<td><p>Special</p></td>
+<td><p>-</p></td>
+<td><p>12 days</p></td>
+<td><p>32</p></td>
+<td><p>very rare</p></td>
+<td><p>very rare</p></td>
+<td><p>very rare</p></td>
+</tr>
+<tr class="row-even"><td><p>Spirit Bleach</p></td>
+<td><p>Special</p></td>
+<td><p>Special</p></td>
+<td><p>40 day</p></td>
+<td><p>28</p></td>
+<td><p>very rare</p></td>
+<td><p>no</p></td>
+<td><p>no</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Smoke-stick</strong>: Smoke sticks are a formulation of highly flammable waxes with embedded inorganic dyes which disperse over a wide area when the stick is lit. The smoke can have various colours, as determined at the time of production of the smoke stick. A smoke stick burns for 1 minute. On the first round the smoke spreads in a 10ft radius. Every subsequent round it spreads a further 5ft, reaching a maximum radius of 40ft after 8 rounds. The smoke provides “heavy concealment” to all entities in adjacent squares, and “total concealment” for entities at least 10ft away from each other. Indoors, the smoke dissipates within 10 minutes. Outdoors the smoke dissipates after 2 minutes. In conditions of “extreme precipitation” or “severe winds” the smoke dissipates immediately beyond a radius of 10ft.</p>
+<p><strong>Alchemical Fire</strong>: This is a special formulation of oils, tars and minerals that adheres to most surfaces and spontaneously combusts when exposed to air or water. This concoction is sold in delicate ceramic flasks that are made for throwing (vs “touch” HiT) and break on impact. It can also be fired from a sling, in which case the range/increment is 360ft/40ft. The alchemical fire burns for 1 minute and can only be extinguished magically or if smothered in dry earth. The initial damage is 2d6 fire[natural], and thereafter at the start of each turn, the victim  must succeed in extinguishing it (see <a class="reference external" href="03-movement-exploration.html#being-on-fire">“Being on fire”</a> - except water does not help), or suffer fire damage in accordance with the “being on fire” rules. The extinguish threshold is 18.</p>
+<p><strong>Quicksilver</strong>: This presumes a special formulation of quicksilver that adheres especially well to metals. Applying quicksilver to an item made of bronze, silver, gold or mithral reduces its material level to 1, adds 10 to its material rank (hence moving it down in the rankings), and removes any damage resistance/reduction it has. If the quicksilver is removed from the item, its material level, rank and damage resistance/reduction is restored. Removing the quicksilver requires intensive cleaning which takes 1 minute per lb of weight of the item. This process causes 1 point of damage to the item. This quicksilver is sold in either a sturdy flask, or in a delicate glass flask that is made for throwing (vs “touch” HiT) and breaks on impact. It can also be fired from a sling, in which case the range/increment is 360ft/40ft. 1 flask is enough to cover a medium sized entity and all of its equipment.</p>
+<p><strong>Fey-silver</strong>: This is a silvery, gleaming fluid, which probably has little relation to actual silver or quicksilver. It is produced via a complex and poorly understood alchemical procedure from the blood and essence of various fey. Applying fey-silver to any metal item reduces its material level to 1, adds 16 to its material rank (hence moving it down the rankings) and removes any damage resistance/reduction it may have. Applying fey-silver to articles of bronze or iron permanently ruins them. Otherwise, it can be removed by 10 minutes of intensive cleaning per lb of weight of the item. This process causes 4 points of damage to the item. The mechanics of application of fey-silver are otherwise the same as those of application of quicksilver. Fey that witness a character wielding or preparing fey-silver may develop a deep grudge against that character.</p>
+<p><strong>Gunpowder</strong>: Gunpowder is arguably the first explosive. It explodes upon ignition. A single charge of gunpowder is used to fire a single bullet from a medium firearm. 10 charges weight 1/10lb. A canon requires 10 charges to fire. For every size category increase of a firearm, it requires twice as much gunpowder to fire. Gunpowder requires saltpeter, sulfur and charcoal to produce. 1/10lb of gunpowder causes an explosion that deals 2d6 damage within a 5ft radius. The damage is halved upon a successful DEX save (threshold=16). The damage is natural “pressure” and “fire” damage. For every additional 1/2lb of gunpowder, the radius increases by 5ft and the damage increases by 1d8, up to a maximum of 60ft and 12d6 damage.</p>
+<p><strong>Medicine</strong>: A dose of medicine of a given class allows a patient to make a CON save at advantage specifically against a disease or condition it was made to treat. Taking more than 2 doses causes the patient to take 1 point of necrotic damage directly to HP. The specific ingredients of medicine vary by setting. A medicine is a “natural” alchemical product. In general medicines of A and S class require rare ingredients which are generally expensive, although the greater expense is finding an alchemist who knows how to make them and has the appropriate equipment. C and B class medicine can usually be made using “herbalists’” equipment. Medicines keep for no longer than a year.</p>
+<p><strong>Cure</strong>: A cure can be either “natural” or “supernatural”. A “natural” cure cures the specific disease it is concocted to cure. A “supernatural” cure cures any disease, poison or condition of an equivalent or lower class. A “supernatural” cure that can cure S class conditions is called a “panacea”. Wars have been fought over the secrets of the panacea and alchemists skilled enough to concoct them. Natural cures last for no longer than a month after production. Supernatural cures keep their powers as <a class="reference external" href="13-crafting-imbuing.html#permanency-and-enchantment-quality-items">dictated by the laws of enchantment</a>. Creation of a supernatural cure or panacea requires the alchemist to know “<a class="reference external" href="08-spell-list.html#cure">Cure</a>”.</p>
+<p><strong>Poison</strong>: In most societies most poisons are not readily available (except perhaps basic rat poison or bee venom), however it is available for those who know where to look. Since the more effective poisons are extracted from monsters, the ingredients can be expensive and difficult to come by. Thus one needs not only a skilled alchemist to extract them, but also exceptional ‘hunters’ to track them down and harvest them in the first place. Lastly, as such poisons are extremely dangerous to the leaders of most kingdoms, their availability is further limited. Details on particular poisons are found in <a class="reference external" href="14-poisons-and-diseases.html">“Chapter 14: Poisons and Diseases”</a>.</p>
+<p><strong>Healing Potion</strong>: Healing potions are a exceptional concoction capable of instantly healing wounds. However, since they require the alchemist to expend their own blood or life-force to create, the price likewise tends to be ‘exceptional’. A class I healing potion restores 1HP, a class II healing potion restores 2HP and so on. On a battlefield and in the wilderness this can be the difference between life and death. Creation of a healing potion requires the alchemist to know <a class="reference external" href="08-spell-list.html#least-heal">“Least Heal”</a>.</p>
+<p><strong>Vitality Potion</strong>: A vitality potion is an exceptional concoction that restores MP and SP, as determined at the creation of the potion. However, since it requires the alchemist to expend their own blood or life-force to create, the price likewise tends to be ‘exceptional’. A class I vitality potion restores [3d4+3] MP or SP. A class II vitality potion restores [5d4+3] SP/MP, a class III restores [7d4+3] SP/MP and so on. Creation of a vitality potion requires the alchemist to know <a class="reference external" href="08-spell-list.html#least-rest">“Least Rest”</a>.</p>
+<p><strong>Potion of Second Life</strong>: This exceptional potion recreates the effect of the <a class="reference external" href="08-spell-list.html#healing-seed">“Healing Seed”</a> spell cast at the lowest level when imbibed (or more correctly, fed to the patient). As with any healing potion, its creator must pour their own vitality when creating it. Creation of this potion requires the alchemist to know “Healing Seed”.</p>
+<p><strong>Soul Bleach</strong>: Spirit bleach is a concoction which removes supernatural influences upon an entity’s alignment, hence removing “divine”, “profane” or “elemental” alignment, if it is caused by coming into contact with material, spells, or enchanted objects or locations that endow such an alignment upon a character. It has no effect on characters whose deeds and beliefs have caused them to be so aligned.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="notes">
+<h2>Notes<a class="headerlink" href="#notes" title="Link to this heading">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Currency is quite interesting and worth reading up on. For simplicity I am sticking with silver.</p></li>
+<li><p>Tracking down historical prices is quite laborious and difficult. It is actually questionable whether historical prices should be relied on at all in a game. Especially since game balance by equipment cost is probably more important for us than historical accuracy.</p></li>
+<li><p>Interestingly the costs do not vary as much as one would expect from DnD and PF list prices</p></li>
+</ol>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="13-crafting-imbuing.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Crafting and Imbuing</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="11-weapons-armour.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Weapons and armour</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2023-3023, Fantasy Committee
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Equipment and Economy</a><ul>
+<li><a class="reference internal" href="#economy-and-economies">Economy and economies</a><ul>
+<li><a class="reference internal" href="#ancient-setting">Ancient Setting</a></li>
+<li><a class="reference internal" href="#early-medieval-and-dark-ages">Early Medieval and Dark ages</a></li>
+<li><a class="reference internal" href="#late-renaissance-and-industrial-age">Late, renaissance and industrial age</a></li>
+<li><a class="reference internal" href="#the-supernatural-economy">The Supernatural Economy</a></li>
+<li><a class="reference internal" href="#currency">Currency</a></li>
+<li><a class="reference internal" href="#labour-costs-and-crafting-times">Labour costs and crafting times</a></li>
+<li><a class="reference internal" href="#materials">Materials</a><ul>
+<li><a class="reference internal" href="#material-ranks">Material Ranks</a></li>
+<li><a class="reference internal" href="#material-types">Material types</a></li>
+<li><a class="reference internal" href="#material-level">Material level</a></li>
+<li><a class="reference internal" href="#material-table">Material table</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#the-lists">The lists</a><ul>
+<li><a class="reference internal" href="#weapons">Weapons</a></li>
+<li><a class="reference internal" href="#ammunition">Ammunition</a></li>
+<li><a class="reference internal" href="#armour">Armour</a></li>
+<li><a class="reference internal" href="#labour-costs">Labour Costs</a></li>
+<li><a class="reference internal" href="#upkeep">Upkeep</a></li>
+<li><a class="reference internal" href="#resources">Resources</a></li>
+<li><a class="reference internal" href="#common-goods">Common Goods</a></li>
+<li><a class="reference internal" href="#common-materials">Common Materials</a></li>
+<li><a class="reference internal" href="#adventuring-gear">Adventuring Gear</a></li>
+<li><a class="reference internal" href="#transport">Transport</a></li>
+<li><a class="reference internal" href="#beasts-and-slaves">Beasts and Slaves</a></li>
+<li><a class="reference internal" href="#property">Property</a></li>
+<li><a class="reference internal" href="#tools-and-kits">Tools and Kits</a></li>
+<li><a class="reference internal" href="#alchemical-reagents-and-potions">Alchemical reagents and potions</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#notes">Notes</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="_static/documentation_options.js?v=8bafd125"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/scripts/furo.js?v=46bd48cc"></script>
+    </body>
+</html>

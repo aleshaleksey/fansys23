@@ -1,0 +1,1464 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="./">
+  <head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="genindex.html"><link rel="search" title="Search" href="search.html"><link rel="next" title="Base Rules" href="02-base-rules.html"><link rel="prev" title="A note on charm, domination and possession" href="15-charm-etc.html">
+
+    <!-- Generated with Sphinx 8.2.3 and Furo 2025.09.25 -->
+        <title>Recipes - FanSys 0.0.18</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d111a655" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=580074bf" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=8dab3a3b" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f2f2f2;
+  --color-code-foreground: #1e1e1e;
+  --color-foreground-primary: #202424;
+  --color-foreground-secondary: #4a4c53;
+  --color-brand-primary: #112233;
+  --color-brand-content: #443322;
+  --color-brand-visited: #448822;
+  --color-background-primary: #f2f4ec;
+  --color-background-secondary: #e5e7e3;
+  --color-background-hover: #fafaf5;
+  --color-background-border: #40404067;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-foreground-primary: #cfd0d0;
+  --color-foreground-secondary: #acb0b5;
+  --color-brand-primary: #AABBCC;
+  --color-brand-content: #CFBEAC;
+  --color-brand-visited: #99DD99;
+  --color-background-primary: #242628;
+  --color-background-secondary: #2a2c2e;
+  --color-background-hover: #1e2124ff;
+  --color-background-border: #483945;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-foreground-primary: #cfd0d0;
+  --color-foreground-secondary: #acb0b5;
+  --color-brand-primary: #AABBCC;
+  --color-brand-content: #CFBEAC;
+  --color-brand-visited: #99DD99;
+  --color-background-primary: #242628;
+  --color-background-secondary: #2a2c2e;
+  --color-background-hover: #1e2124ff;
+  --color-background-border: #483945;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle site navigation sidebar">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc" aria-label="Toggle table of contents sidebar">
+<label class="overlay sidebar-overlay" for="__navigation"></label>
+<label class="overlay toc-overlay" for="__toc"></label>
+
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <span class="icon"><svg><use href="#svg-menu"></use></svg></span>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="index.html"><div class="brand">FanSys 0.0.18</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="index.html">
+  
+  <span class="sidebar-brand-text">FanSys 0.0.18</span>
+  
+</a><form class="sidebar-search-container" method="get" action="search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Index:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="01-quick-start.html">FanSys23 Quick-start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="03-movement-exploration.html">Actions outside of Combat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="04-combat.html">Combat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="05-skills.html">Skills</a></li>
+<li class="toctree-l1"><a class="reference internal" href="06-abilities.html">Abilities and Boons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="07-magic-and-spellcasting.html">Spells</a></li>
+<li class="toctree-l1"><a class="reference internal" href="08-spell-list.html">Spell List</a></li>
+<li class="toctree-l1"><a class="reference internal" href="09-races.html">Types, Races, Species and Templates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="10-conditions-types.html">Conditions and Types</a></li>
+<li class="toctree-l1"><a class="reference internal" href="11-weapons-armour.html">Weapons and armour</a></li>
+<li class="toctree-l1"><a class="reference internal" href="12-equipment-economy.html">Equipment and Economy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="13-crafting-imbuing.html">Crafting and Imbuing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="14-poisons-and-diseases.html">Poisons and Diseases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="15-charm-etc.html">A note on charm, domination and possession</a></li>
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Recipes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="02-base-rules.html">Base Rules</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="bestiary.html">A Bestiary for Fantasy Worlds</a><input aria-label="Toggle navigation of A Bestiary for Fantasy Worlds" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/forwards.html">Forwards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/beasts-and-plants.html">Beasts and Plants</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/constructs.html">Constructs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/divines.html">Divines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/humanoids.html">NPC stat blocks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/monsters-and-dragons.html">Monsters and Dragons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/profanes.html">Profanes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/spirits.html">Spirits</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="CHANGELOG.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="TODO.html">Character sheet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="LICENSE.html">License</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="view-this-page">
+  <a class="muted-link" href="_sources/16-recipes.md.txt" title="View this page">
+    <svg><use href="#svg-eye"></use></svg>
+    <span class="visually-hidden">View this page</span>
+  </a>
+</div>
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          <section id="recipes">
+<h1>Recipes<a class="headerlink" href="#recipes" title="Link to this heading">¶</a></h1>
+<p>FanSys provides a near infinite amount of choice when building characters. This is what it was made for. This can also make it challenging to recreate classic concepts. This chapter contains some recipes for various character builds from level 1 to 12 (we invite you to complete these builds by yourself).</p>
+<p>It should be noted that none of these builds account for <a class="reference external" href="09-races.html">race(template)</a> or <a class="reference external" href="01-quick-start.html#stats">starting stats</a>, so some tweaking may be in order!</p>
+<p>Additionally sometimes the template has unfilled proficiencies/abilities in a given column for a level (should be 3 abilities and 1 proficiency, except level 1 which can accommodate 6 proficiencies). Unfilled slots indicate that just about any ability/proficiency would go well there.</p>
+<p>The recipes are presented with tables which show the number of SP dice, MP dice, abilities and proficiencies at each level. <a class="reference external" href="02-base-rules.html#base">Base</a> is written in brackets together with level. In the same way <a class="reference external" href="02-base-rules.html#nat-and-sup-attack-of-the-three-letter-words">Nat</a> and <a class="reference external" href="02-base-rules.html#nat-and-sup-attack-of-the-three-letter-words">Sup</a> are written in brackets in the “SP dice” and “MP dice” columns respectively.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="#vanguard">Vanguard</a></p></li>
+<li><p><a class="reference external" href="#protector">Protector</a></p></li>
+<li><p><a class="reference external" href="#archer">Archer</a></p></li>
+<li><p><a class="reference external" href="#scout">Scout</a></p></li>
+<li><p><a class="reference external" href="#mystic-warrior">Mystic Warrior</a></p></li>
+<li><p><a class="reference external" href="#paladin">Paladin</a></p></li>
+<li><p><a class="reference external" href="#summoner">Summoner</a></p></li>
+<li><p><a class="reference external" href="#pyromancer">Pyromancer</a></p></li>
+<li><p><a class="reference external" href="#wizard">Wizard</a></p></li>
+</ul>
+<hr class="docutils" />
+<section id="vanguard">
+<h2>Vanguard<a class="headerlink" href="#vanguard" title="Link to this heading">¶</a></h2>
+<p>The vanguard is a martial archetype that focuses on closing quickly with the enemy and inflicting massive damage, often sacrificing defence for offence.</p>
+<p>The build works best with heavy weapons and medium armour, concentrating on STR for maximum damage, but not neglecting CON and CHA for the minimum durability required to survive long enough to deal that damage.</p>
+<p>The <a class="reference external" href="06-abilities.html#flash-step">“Flash Step”</a> ability is used to close with the target, while <a class="reference external" href="06-abilities.html#berserk-i-v">“Berserk I”</a>, <a class="reference external" href="06-abilities.html">“Broad Strike”</a>, <a class="reference external" href="06-abilities.html">“Great Strike”</a> and <a class="reference external" href="06-abilities.html#multi-attack-i-iii">Multi Attack I</a>” are then used to maximise damage. Any additional abilities are there to increase survivability. Proficiency with at least one weapon group that contains heavy weapons (pole arms, axes, heavy blades, percussive) is essential.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level</p></th>
+<th class="head"><p>SP dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SAP</p></th>
+<th class="head"><p>Abilities</p></th>
+<th class="head"><p>Proficiencies</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1 (1)</p></td>
+<td><p>3  (1)</p></td>
+<td><p>2  (1)</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p><a class="reference external" href="06-abilities.html#berserk-i-v">Berserk I</a>, <a class="reference external" href="06-abilities.html#evasive">Evasive</a>, STAT +1</p></td>
+<td><p>Medium Armour, Strikes, Throws, Light Blades, Heavy Blades</p></td>
+</tr>
+<tr class="row-odd"><td><p>2 (1)</p></td>
+<td><p>5  (1)</p></td>
+<td><p>3  (1)</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p><a class="reference external" href="06-abilities.html">Broad Strike</a>, <a class="reference external" href="06-abilities.html#opportunist">Opportunist</a>, STAT +1</p></td>
+<td><p>Axes</p></td>
+</tr>
+<tr class="row-even"><td><p>3 (1)</p></td>
+<td><p>7  (2)</p></td>
+<td><p>4  (1)</p></td>
+<td><p>3</p></td>
+<td><p>2</p></td>
+<td><p><a class="reference external" href="06-abilities.html">Great Strike</a>, <a class="reference external" href="06-abilities.html#flash-step">Flash Step</a>, STAT +1</p></td>
+<td><p>Smith’s Tools</p></td>
+</tr>
+<tr class="row-odd"><td><p>4 (1)</p></td>
+<td><p>8  (2)</p></td>
+<td><p>6  (1)</p></td>
+<td><p>3</p></td>
+<td><p>2</p></td>
+<td><p><a class="reference external" href="06-abilities.html#resist-condition">Resist Condition: Grappled</a>, <a class="reference external" href="06-abilities.html#counterstrike">Counterstrike</a>, STAT +1</p></td>
+<td><p>Light Armour</p></td>
+</tr>
+<tr class="row-even"><td><p>5 (1)</p></td>
+<td><p>9  (2)</p></td>
+<td><p>8  (2)</p></td>
+<td><p>3</p></td>
+<td><p>3</p></td>
+<td><p><a class="reference external" href="06-abilities.html#berserk-i-v">Berserk II</a>, <a class="reference external" href="06-abilities.html#combined-manoeuvre-i-v">Combined Manoeuvre I</a>, STAT +1</p></td>
+<td><p>Sunder</p></td>
+</tr>
+<tr class="row-odd"><td><p>6 (2)</p></td>
+<td><p>11 (2)</p></td>
+<td><p>9  (2)</p></td>
+<td><p>4</p></td>
+<td><p>4</p></td>
+<td><p><a class="reference external" href="06-abilities.html#swift-strike">Swift Strike</a>, <a class="reference external" href="06-abilities.html#extra-save">Extra Save</a>, STAT +1</p></td>
+<td><p>Grapple</p></td>
+</tr>
+<tr class="row-even"><td><p>7 (2)</p></td>
+<td><p>13 (3)</p></td>
+<td><p>10 (2)</p></td>
+<td><p>5</p></td>
+<td><p>4</p></td>
+<td><p><a class="reference external" href="06-abilities.html#resist-condition">Resist Condition: Restrained</a>, <a class="reference external" href="06-abilities.html#multi-attack-i-iii">Multi Attack I</a>, STAT +1</p></td>
+<td><p>Disarm</p></td>
+</tr>
+<tr class="row-odd"><td><p>8 (2)</p></td>
+<td><p>14 (3)</p></td>
+<td><p>12 (2)</p></td>
+<td><p>5</p></td>
+<td><p>4</p></td>
+<td><p><a class="reference external" href="06-abilities.html#resist-condition">Resist Condition: Crippled</a>, <a class="reference external" href="06-abilities.html#speed">Speed</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>9 (2)</p></td>
+<td><p>16 (3)</p></td>
+<td><p>13 (3)</p></td>
+<td><p>5</p></td>
+<td><p>5</p></td>
+<td><p><a class="reference external" href="06-abilities.html#resist-damage">Resist Damage: Slashing</a>, <a class="reference external" href="06-abilities.html#skirmisher">Skirmisher</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>10 (3)</p></td>
+<td><p>18 (3)</p></td>
+<td><p>14 (3)</p></td>
+<td><p>6</p></td>
+<td><p>6</p></td>
+<td><p><a class="reference external" href="06-abilities.html#berserk-i-v">Berserk III</a>, <a class="reference external" href="06-abilities.html#speed">Speed</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>11 (3)</p></td>
+<td><p>19 (4)</p></td>
+<td><p>16 (3)</p></td>
+<td><p>7</p></td>
+<td><p>6</p></td>
+<td><p><a class="reference external" href="06-abilities.html#resist-condition">Resist Condition: Immobilised</a>, <a class="reference external" href="06-abilities.html#resist-damage">Resist Damage: Ice/Fire</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>12 (3)</p></td>
+<td><p>21 (4)</p></td>
+<td><p>17 (3)</p></td>
+<td><p>7</p></td>
+<td><p>6</p></td>
+<td><p><a class="reference external" href="06-abilities.html#mage-hunter-i">Mage Hunter</a>, <a class="reference external" href="06-abilities.html#extra-save">Extra Save</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<hr class="docutils" />
+<section id="protector">
+<h2>Protector<a class="headerlink" href="#protector" title="Link to this heading">¶</a></h2>
+<p>The protector is a martial archetype that focuses on defence, both their own and that of their allies over offence.</p>
+<p>This build can be made using DEX, but STR gives better defence. In addition, both CON and CHA are required for survivability. The abilities are balanced between offence (since offence is the best defence), survivability, and battlefield control. Some abilities and stat increases can be replaced with <a class="reference external" href="06-abilities.html#combined-manoeuvre-i-v">“Combined Manoeuvre”</a>, as it is useful, for example, to be able to grapple or throw a target while damaging it. Spellcasting and <a class="reference external" href="06-abilities.html#deflection">“Deflection”</a>/<a class="reference external" href="06-abilities.html#arcane-interception">”Arcane Interception”</a> can be discarded for a more martial build, but reduce defence against spellcasters.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level</p></th>
+<th class="head"><p>SP dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SAP</p></th>
+<th class="head"><p>Abilities</p></th>
+<th class="head"><p>Proficiencies</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1 (1)</p></td>
+<td><p>3  (1)</p></td>
+<td><p>2  (1)</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p><a class="reference external" href="06-abilities.html#broad-strike">Broad Strike</a>, <a class="reference external" href="06-abilities.html#blind-sight-i-vi">Blind Sight I</a>, STAT +1</p></td>
+<td><p>Medium Armour, Shields, Spear, Light Blades, Heavy Blades, Interception</p></td>
+</tr>
+<tr class="row-odd"><td><p>2 (1)</p></td>
+<td><p>4  (1)</p></td>
+<td><p>4  (1)</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p><a class="reference external" href="06-abilities.html">Guarded</a>, <a class="reference external" href="06-abilities.html#offhand-fighting-i-iv">Offhand Fighting</a>, STAT +1</p></td>
+<td><p>Heavy Armour</p></td>
+</tr>
+<tr class="row-even"><td><p>3 (1)</p></td>
+<td><p>6  (1)</p></td>
+<td><p>5  (1)</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p><a class="reference external" href="06-abilities.html#swift-shield-bash">Swift Shield Bash</a>, <a class="reference external" href="06-abilities.html#parry">Parry</a>, STAT +1</p></td>
+<td><p>Pole Arm</p></td>
+</tr>
+<tr class="row-odd"><td><p>4 (1)</p></td>
+<td><p>7  (2)</p></td>
+<td><p>7  (2)</p></td>
+<td><p>3</p></td>
+<td><p>3</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting Local: Incantation</a>, <a class="reference external" href="06-abilities.html">Extra Save Str/Dex</a>, STAT +1</p></td>
+<td><p>Disarm</p></td>
+</tr>
+<tr class="row-even"><td><p>5 (1)</p></td>
+<td><p>9  (2)</p></td>
+<td><p>8  (2)</p></td>
+<td><p>3</p></td>
+<td><p>3</p></td>
+<td><p><a class="reference external" href="06-abilities.html#shield-master">Shield Master</a>, <a class="reference external" href="06-abilities.html#arcane-interception">Arcane Interception</a>, STAT +1</p></td>
+<td><p>Grapple</p></td>
+</tr>
+<tr class="row-odd"><td><p>6 (2)</p></td>
+<td><p>10 (2)</p></td>
+<td><p>10 (2)</p></td>
+<td><p>4</p></td>
+<td><p>4</p></td>
+<td><p><a class="reference external" href="06-abilities.html">Deflect Missile</a>, <a class="reference external" href="06-abilities.html#deflection">Deflection</a>, <a class="reference external" href="06-abilities.html#resist-damage">Resist Damage: Shear</a></p></td>
+<td><p>Throw</p></td>
+</tr>
+<tr class="row-even"><td><p>7 (2)</p></td>
+<td><p>12 (2)</p></td>
+<td><p>11 (2)</p></td>
+<td><p>4</p></td>
+<td><p>4</p></td>
+<td><p><a class="reference external" href="06-abilities.html#counterstrike">Counterstrike</a>, <a class="reference external" href="06-abilities.html#blind-sight-i-vi">Blind Sight II</a>, STAT +1</p></td>
+<td><p>Sunder</p></td>
+</tr>
+<tr class="row-odd"><td><p>8 (2)</p></td>
+<td><p>13 (3)</p></td>
+<td><p>13 (3)</p></td>
+<td><p>5</p></td>
+<td><p>5</p></td>
+<td><p><a class="reference external" href="06-abilities.html#multi-attack-i-iii">Multi-attack I</a>, <a class="reference external" href="06-abilities.html#extra-save">Extra Save II</a>, <a class="reference external" href="06-abilities.html#resist-damage">Resist Damage: Slashing</a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>9 (2)</p></td>
+<td><p>15 (3)</p></td>
+<td><p>14 (3)</p></td>
+<td><p>5</p></td>
+<td><p>5</p></td>
+<td><p><a class="reference external" href="06-abilities.html#swift-strike">Swift Strike</a>, <a class="reference external" href="06-abilities.html#guardians-counterstrike">Guardian’s Counterstrike</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>10 (3)</p></td>
+<td><p>16 (3)</p></td>
+<td><p>16 (3)</p></td>
+<td><p>6</p></td>
+<td><p>6</p></td>
+<td><p><a class="reference external" href="06-abilities.html#resist-condition">Resist Condition: Frightened</a>, <a class="reference external" href="06-abilities.html#low-light-vision">Low Light Vision</a>, <a class="reference external" href="06-abilities.html#resist-damage">Resist Damage: Percussive</a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>11 (3)</p></td>
+<td><p>18 (3)</p></td>
+<td><p>17 (3)</p></td>
+<td><p>6</p></td>
+<td><p>6</p></td>
+<td><p><a class="reference external" href="06-abilities.html#resist-condition">Resist Condition: Charmed</a>, <a class="reference external" href="06-abilities.html#resist-damage">Resist Damage: Poison</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>12 (3)</p></td>
+<td><p>19 (4)</p></td>
+<td><p>19 (4)</p></td>
+<td><p>7</p></td>
+<td><p>7</p></td>
+<td><p><a class="reference external" href="06-abilities.html#resist-condition">Resist Condition: Incapacitated</a>, <a class="reference external" href="06-abilities.html#extra-save">Extra Save III</a>, <a class="reference external" href="06-abilities.html#resist-damage">Resist Damage: Piercing</a></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<hr class="docutils" />
+<section id="archer">
+<h2>Archer<a class="headerlink" href="#archer" title="Link to this heading">¶</a></h2>
+<p>The archer is a martial archetype that focuses on long range offence. In close combat most archers lose their edge.</p>
+<p>This build specialises in long range weapon attacks. It requires proficiency with bows or mechanical bows, as well as <a class="reference external" href="06-abilities.html#point-blank-shot-i-iii">“Point blank Shot I”</a> and <a class="reference external" href="06-abilities.html#precise-shot-i-iii">“Precise Shot”</a>. <a class="reference external" href="06-abilities.html#spirit-strike">“Spirit Strike”</a> is very useful at higher levels to fight against foes which are immune to conventional weapons. All other abilities are optional, depending on what character exactly one wishes to build.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level</p></th>
+<th class="head"><p>SP dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SAP</p></th>
+<th class="head"><p>Abilities</p></th>
+<th class="head"><p>Proficiencies</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1 (1)</p></td>
+<td><p>3  (1)</p></td>
+<td><p>2  (1)</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p><a class="reference external" href="06-abilities.html#fleet">Fleet</a>, <a class="reference external" href="06-abilities.html#alert">Alert</a>, STAT +1</p></td>
+<td><p>Bows, Spears, Light Blades, Light Armour</p></td>
+</tr>
+<tr class="row-odd"><td><p>2 (1)</p></td>
+<td><p>5  (1)</p></td>
+<td><p>3  (1)</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p><a class="reference external" href="06-abilities.html#weapon-finesse">Weapon Finesse</a>, <a class="reference external" href="06-abilities.html#speed">Speed</a>, STAT +1</p></td>
+<td><p>Shields</p></td>
+</tr>
+<tr class="row-even"><td><p>3 (1)</p></td>
+<td><p>7  (2)</p></td>
+<td><p>4  (1)</p></td>
+<td><p>3</p></td>
+<td><p>2</p></td>
+<td><p><a class="reference external" href="06-abilities.html#evasive">Evasive</a>, <a class="reference external" href="06-abilities.html#point-blank-shot-i-iii">Point blank Shot I</a>, STAT +1</p></td>
+<td><p>Throws</p></td>
+</tr>
+<tr class="row-odd"><td><p>4 (1)</p></td>
+<td><p>8  (2)</p></td>
+<td><p>6  (1)</p></td>
+<td><p>3</p></td>
+<td><p>2</p></td>
+<td><p><a class="reference external" href="06-abilities.html#trick-shot-i-ii">Trick shot I</a>, <a class="reference external" href="06-abilities.html#precise-shot-i-iii">Precise Shot I</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>5 (1)</p></td>
+<td><p>10 (2)</p></td>
+<td><p>7  (2)</p></td>
+<td><p>3</p></td>
+<td><p>3</p></td>
+<td><p><a class="reference external" href="06-abilities.html#speed">Speed</a>, <a class="reference external" href="06-abilities.html#point-blank-shot-i-iii">Point blank Shot II</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>6 (2)</p></td>
+<td><p>12 (2)</p></td>
+<td><p>8  (2)</p></td>
+<td><p>4</p></td>
+<td><p>4</p></td>
+<td><p><a class="reference external" href="06-abilities.html#keen-senses-i-iii">Keen Senses: Sight</a>, <a class="reference external" href="06-abilities.html#trick-shot-i-ii">Trick shot I</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>7 (2)</p></td>
+<td><p>13 (3)</p></td>
+<td><p>10 (2)</p></td>
+<td><p>5</p></td>
+<td><p>4</p></td>
+<td><p><a class="reference external" href="06-abilities.html#speed">Speed</a>, <a class="reference external" href="06-abilities.html#parry">Parry</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>8 (2)</p></td>
+<td><p>15 (3)</p></td>
+<td><p>11 (2)</p></td>
+<td><p>5</p></td>
+<td><p>4</p></td>
+<td><p><a class="reference external" href="06-abilities.html#multi-attack-i-iii">Multi-attack I</a>, <a class="reference external" href="06-abilities.html#point-blank-shot-i-iii">Point blank Shot III</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>9 (2)</p></td>
+<td><p>17 (3)</p></td>
+<td><p>12 (2)</p></td>
+<td><p>5</p></td>
+<td><p>4</p></td>
+<td><p><a class="reference external" href="06-abilities.html#precise-shot-i-iii">Precise Shot II</a>, STAT +1, ???</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>10 (3)</p></td>
+<td><p>19 (4)</p></td>
+<td><p>13 (3)</p></td>
+<td><p>7</p></td>
+<td><p>6</p></td>
+<td><p><a class="reference external" href="06-abilities.html#speed">Speed</a>, <a class="reference external" href="06-abilities.html#spirit-strike">Spirit Strike</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>11 (3)</p></td>
+<td><p>20 (4)</p></td>
+<td><p>15 (3)</p></td>
+<td><p>7</p></td>
+<td><p>6</p></td>
+<td><p><a class="reference external" href="06-abilities.html#low-light-vision">Low Light Vision</a>, <a class="reference external" href="06-abilities.html#sniper">Sniper</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>12 (3)</p></td>
+<td><p>22 (4)</p></td>
+<td><p>16 (3)</p></td>
+<td><p>7</p></td>
+<td><p>6</p></td>
+<td><p><a class="reference external" href="06-abilities.html#precise-shot-i-iii">Precise Shot III</a>, STAT +1, ???</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<hr class="docutils" />
+<section id="scout">
+<h2>Scout<a class="headerlink" href="#scout" title="Link to this heading">¶</a></h2>
+<p>This archetype is used for scouting, tracking and skirmishing.</p>
+<p>This scout build focuses not so much on moving quickly, but moving undetected while being able to gather information. Thus abilities like <a class="reference external" href="06-abilities.html#fleet">“Fleet”</a>, <a class="reference external" href="06-abilities.html#silent-step-i-iii">“Silent Step”</a> and <a class="reference external" href="06-abilities.html#keen-senses-i-iii">“Keen Senses”</a> are essential. Additionally it is given abilities useful for skirmishing, such as <a class="reference external" href="06-abilities.html#precision-attack-i-x">“Precision Attack”</a> and <a class="reference external" href="06-abilities.html#evasive">“Evasive”</a>, to make it useful in combat. Lastly it is given defensive boons and abilities.</p>
+<p>This build can be given some nature magic to make it into a ranger, or more offensive abilities (such as <a class="reference external" href="06-abilities.html#assassinate-i-v">“Assassinate”</a>) for a rogue or assassin. One can also sacrifice a couple of levels of <a class="reference external" href="06-abilities.html#precision-attack-i-x">“Precision Attack”</a> and some condition resistances, and instead gain spellcasting and a <a class="reference external" href="06-abilities.html#bind-familiar-i-iv">“familiar”</a> for communication and scouting particularly dangerous locales.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level</p></th>
+<th class="head"><p>SP dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SAP</p></th>
+<th class="head"><p>Abilities</p></th>
+<th class="head"><p>Proficiencies</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1 (1)</p></td>
+<td><p>3  (1)</p></td>
+<td><p>2  (1)</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p><a class="reference external" href="06-abilities.html#fleet">Fleet</a>, <a class="reference external" href="06-abilities.html#silent-step-i-iii">Silent Step I</a>, <a class="reference external" href="06-abilities.html#unarmed-strike-i-ix">Unarmed Strike I</a>, STAT +1</p></td>
+<td><p>Light Armour, Light Blades, Bows, Strikes, Grapples</p></td>
+</tr>
+<tr class="row-odd"><td><p>2 (1)</p></td>
+<td><p>5  (1)</p></td>
+<td><p>3  (1)</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p><a class="reference external" href="06-abilities.html#stalker">Stalker</a>, <a class="reference external" href="06-abilities.html#precision-attack-i-x">Precision Attack I</a>, STAT +1</p></td>
+<td><p>Throws</p></td>
+</tr>
+<tr class="row-even"><td><p>3 (1)</p></td>
+<td><p>7  (2)</p></td>
+<td><p>4  (1)</p></td>
+<td><p>3</p></td>
+<td><p>2</p></td>
+<td><p><a class="reference external" href="06-abilities.html#sprinter">Sprinter</a>, <a class="reference external" href="06-abilities.html#evasive">Evasive</a>, STAT +1</p></td>
+<td><p>Spears</p></td>
+</tr>
+<tr class="row-odd"><td><p>4 (1)</p></td>
+<td><p>8  (2)</p></td>
+<td><p>6  (1)</p></td>
+<td><p>3</p></td>
+<td><p>2</p></td>
+<td><p><a class="reference external" href="06-abilities.html#terrain-mastery">Terrain Mastery</a>, <a class="reference external" href="06-abilities.html#keen-senses-i-iii">Keen Senses: Hearing</a>, STAT +1</p></td>
+<td><p>Mechanical Bows</p></td>
+</tr>
+<tr class="row-even"><td><p>5 (1)</p></td>
+<td><p>10 (2)</p></td>
+<td><p>7  (2)</p></td>
+<td><p>3</p></td>
+<td><p>3</p></td>
+<td><p><a class="reference external" href="06-abilities.html#precision-attack-i-x">Precision Attack II</a>, <a class="reference external" href="06-abilities.html#alert">Alert</a>, STAT +1</p></td>
+<td><p>Staves</p></td>
+</tr>
+<tr class="row-odd"><td><p>6 (2)</p></td>
+<td><p>11 (2)</p></td>
+<td><p>9  (2)</p></td>
+<td><p>4</p></td>
+<td><p>4</p></td>
+<td><p><a class="reference external" href="06-abilities.html#silent-step-i-iii">Silent Step II</a>, <a class="reference external" href="06-abilities.html#skirmisher">Skirmisher</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>7 (2)</p></td>
+<td><p>13 (3)</p></td>
+<td><p>10 (2)</p></td>
+<td><p>5</p></td>
+<td><p>4</p></td>
+<td><p><a class="reference external" href="06-abilities.html#precision-attack-i-x">Precision Attack III</a>, <a class="reference external" href="06-abilities.html#parry">Parry</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>8 (2)</p></td>
+<td><p>14 (3)</p></td>
+<td><p>12 (2)</p></td>
+<td><p>5</p></td>
+<td><p>4</p></td>
+<td><p><a class="reference external" href="06-abilities.html#resist-condition">Resist Condition: Grappled</a>, <a class="reference external" href="06-abilities.html#resist-condition">Resist Condition: Charmed</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>9 (2)</p></td>
+<td><p>15 (3)</p></td>
+<td><p>14 (3)</p></td>
+<td><p>5</p></td>
+<td><p>5</p></td>
+<td><p><a class="reference external" href="06-abilities.html#precision-attack-i-x">Precision Attack IV</a>, <a class="reference external" href="06-abilities.html#speed">Speed</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>10 (3)</p></td>
+<td><p>17 (3)</p></td>
+<td><p>15 (3)</p></td>
+<td><p>6</p></td>
+<td><p>6</p></td>
+<td><p><a class="reference external" href="06-abilities.html#silent-step-i-iii">Silent Step III</a>, <a class="reference external" href="06-abilities.html#speed">Speed</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>11 (3)</p></td>
+<td><p>19 (4)</p></td>
+<td><p>16 (3)</p></td>
+<td><p>7</p></td>
+<td><p>6</p></td>
+<td><p><a class="reference external" href="06-abilities.html#precision-attack-i-x">Precision Attack V</a>, <a class="reference external" href="06-abilities.html#keen-senses-i-iii">Keen Senses: Sight</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>12 (3)</p></td>
+<td><p>20 (4)</p></td>
+<td><p>18 (3)</p></td>
+<td><p>7</p></td>
+<td><p>6</p></td>
+<td><p><a class="reference external" href="06-abilities.html#resist-condition">Resist Condition: Restrained</a>, <a class="reference external" href="06-abilities.html#condition-immunity">Condition Immunity: Charmed</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<hr class="docutils" />
+<section id="mystic-warrior">
+<h2>Mystic Warrior<a class="headerlink" href="#mystic-warrior" title="Link to this heading">¶</a></h2>
+<p>A mystic warrior mixes martial and supernatural abilities to make use of its foes’ weaknesses.</p>
+<p>This build balances between supernatural and natural abilities, combat capability and the arcane. One could argue that this is an equivalent to “bard” or “red mage” of certain other systems. The general strategy is to buff the party and yourself with <a class="reference external" href="06-abilities.html#bard-song-i-iv">“Bard Song I”</a> and spells, and then enter combat, using light weapons with <a class="reference external" href="06-abilities.html#flurry">“Flurry”</a>. <a class="reference external" href="06-abilities.html#blast-elemental-blast">“Elemental Blast: Light”</a> gives additional firepower against supernatural entities, while <a class="reference external" href="06-abilities.html#flash-step">“Flash Step”</a> is useful for getting in and out of trouble.</p>
+<p><a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting Local: Incantation</a>” is useful since these spells can be used safely in melee combat and gives some healing magic and so is recommended. For greater martial prowess it is recommended to take less spellcasting, or eschew <a class="reference external" href="06-abilities.html#bard-song-i-iv">“Bard Song I”</a>, and focus on either heavy blades or <a class="reference external" href="06-abilities.html#unarmed-strike-i-ix">“Unarmed Strike”</a>.</p>
+<p>The mystic warrior does suffer somewhat from “multiple attribute (stat) dependence”. It is recommended to focus on DEX (or STR), WIS and CHA. If WIS is 16 or above, it is worth taking the <a class="reference external" href="06-abilities.html#foresight">“foresight”</a> ability for greater defence.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level</p></th>
+<th class="head"><p>SP dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SAP</p></th>
+<th class="head"><p>Abilities</p></th>
+<th class="head"><p>Proficiencies</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1 (1)</p></td>
+<td><p>2  (1)</p></td>
+<td><p>3  (1)</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting Local: Incantation I</a>, <a class="reference external" href="06-abilities.html#bard-song-i-iv">Bard Song I</a>, <a class="reference external" href="06-abilities.html#flurry">Flurry</a></p></td>
+<td><p>Light Blades, Light Armour, Shields, Spear, Throws, Disarm</p></td>
+</tr>
+<tr class="row-odd"><td><p>2 (1)</p></td>
+<td><p>4  (1)</p></td>
+<td><p>4  (1)</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Water I</a>, <a class="reference external" href="06-abilities.html#spellcasting-global">Spellcasting Global I</a>, STAT +1</p></td>
+<td><p>Strikes</p></td>
+</tr>
+<tr class="row-even"><td><p>3 (1)</p></td>
+<td><p>6  (1)</p></td>
+<td><p>5  (1)</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting Local: Incantation II</a>, <a class="reference external" href="06-abilities.html#flash-step">Flash Step</a>, <a class="reference external" href="06-abilities.html#parry">Parry</a></p></td>
+<td><p>Grapple</p></td>
+</tr>
+<tr class="row-odd"><td><p>4 (1)</p></td>
+<td><p>7  (2)</p></td>
+<td><p>7  (2)</p></td>
+<td><p>3</p></td>
+<td><p>3</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Water II</a>, <a class="reference external" href="06-abilities.html#war-mage">War Mage</a>, <a class="reference external" href="06-abilities.html#deflection">Deflection</a></p></td>
+<td><p>Sunder</p></td>
+</tr>
+<tr class="row-even"><td><p>5 (1)</p></td>
+<td><p>8  (2)</p></td>
+<td><p>9  (2)</p></td>
+<td><p>3</p></td>
+<td><p>3</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting Local: Incantation III</a>, <a class="reference external" href="06-abilities.html#blast-elemental-blast">Elemental Blast: Light</a>, STAT +1</p></td>
+<td><p>Interception</p></td>
+</tr>
+<tr class="row-odd"><td><p>6 (2)</p></td>
+<td><p>10 (2)</p></td>
+<td><p>10 (2)</p></td>
+<td><p>4</p></td>
+<td><p>4</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Water III</a>, <a class="reference external" href="06-abilities.html#bard-song-i-iv">Bard Song II</a>, <a class="reference external" href="06-abilities.html#combined-manoeuvre-i-v">Combined Manoeuvre I</a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>7 (2)</p></td>
+<td><p>11 (2)</p></td>
+<td><p>12 (2)</p></td>
+<td><p>4</p></td>
+<td><p>4</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting Local: Incantation VI</a>, <a class="reference external" href="06-abilities.html#spell-strike">Spell Strike</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>8 (2)</p></td>
+<td><p>13 (3)</p></td>
+<td><p>13 (3)</p></td>
+<td><p>5</p></td>
+<td><p>5</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Water IV</a>, <a class="reference external" href="06-abilities.html#blast-elemental-blast">Greater Elemental Blast Linear: Light</a>, <a class="reference external" href="06-abilities.html#combined-manoeuvre-i-v">Combined Manoeuvre II</a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>9 (2)</p></td>
+<td><p>14 (3)</p></td>
+<td><p>15 (3)</p></td>
+<td><p>5</p></td>
+<td><p>5</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting Local: Incantation V</a>, <a class="reference external" href="06-abilities.html#multi-attack-i-iii">Multi-attack I</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>10 (3)</p></td>
+<td><p>16 (3)</p></td>
+<td><p>16 (3)</p></td>
+<td><p>6</p></td>
+<td><p>6</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Water V</a>, <a class="reference external" href="06-abilities.html#bard-song-i-iv">Bard Song III</a>, <a class="reference external" href="06-abilities.html#xenophonia-i-xiii">Xenophonia: Animals</a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>11 (3)</p></td>
+<td><p>18 (3)</p></td>
+<td><p>17 (3)</p></td>
+<td><p>6</p></td>
+<td><p>6</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting Local: Incantation IV</a>, <a class="reference external" href="06-abilities.html#spirit-strike">Spirit Strike</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>12 (3)</p></td>
+<td><p>19 (4)</p></td>
+<td><p>19 (4)</p></td>
+<td><p>7</p></td>
+<td><p>7</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Water VI</a>, <a class="reference external" href="06-abilities.html#xenophonia-i-xiii">Xenophonia: Spirits</a>, <a class="reference external" href="06-abilities.html#life-sense-i-vi">Life Sense I</a></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<hr class="docutils" />
+<section id="paladin">
+<h2>Paladin<a class="headerlink" href="#paladin" title="Link to this heading">¶</a></h2>
+<p>A paladin is a holy warrior that aligns with higher powers as their long arm in the mortal realm.</p>
+<p>The build focuses on offensive abilities with additional capabilities for fighting supernatural entities (<a class="reference external" href="06-abilities.html#holy-strike">“Holy Strike”</a> and <a class="reference external" href="06-abilities.html">“Divine strike”</a>). <a class="reference external" href="06-abilities.html#bind-beast-i-x">“Bind Beast I”</a> is recommended as it can be used to gain a more powerful steed. Likewise <a class="reference external" href="06-abilities.html#spellcasting-local">“Spellcasting Local: Incantation”</a> is a versatile school that gives some access to healing magic.</p>
+<p>Medium/Heavy armour, shield and heavy blades/axes/spears are recommended proficiencies. Likewise proficiency with disarm, sunder and grapple are useful for defeating foes without necessarily killing them.</p>
+<p>The conventional paladin in shining armour can be made into a guardian of nature by replacing the incantation magic with nature magic, and focusing on medium armour instead of heavy armour. Likewise, there are interesting builds and concepts to be tested in mixing the paladin and <a class="reference external" href="#archer">archer</a> build.</p>
+<p>A paladin should focus on STR, and CHA. If the campaign involves more combat vs mortals or constructs, it is worth focusing more on CON than CHA.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level</p></th>
+<th class="head"><p>SP dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SAP</p></th>
+<th class="head"><p>Abilities</p></th>
+<th class="head"><p>Proficiencies</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1 (1)</p></td>
+<td><p>2  (1)</p></td>
+<td><p>3  (1)</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p><a class="reference external" href="06-abilities.html#broad-strike">Broad Strike</a>, <a class="reference external" href="06-abilities.html#great-strike">Great Strike</a>, <a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting Local: Incantation I</a></p></td>
+<td><p>Medium Armour, Heavy Armour, Heavy Blades, Spears, Shields, Strikes</p></td>
+</tr>
+<tr class="row-odd"><td><p>2 (1)</p></td>
+<td><p>4  (1)</p></td>
+<td><p>4  (1)</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p><a class="reference external" href="06-abilities.html#bind-beast-i-x">Bind Beast I</a>, <a class="reference external" href="06-abilities.html#debilitating-strike">Debilitating Strike: Aphonia</a>, STAT +1</p></td>
+<td><p>Interception</p></td>
+</tr>
+<tr class="row-even"><td><p>3 (1)</p></td>
+<td><p>5  (1)</p></td>
+<td><p>6  (1)</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-global">Spellcasting Global I</a>, <a class="reference external" href="06-abilities.html#arcane-interception">Arcane Interception</a>, STAT +1</p></td>
+<td><p>Grapple</p></td>
+</tr>
+<tr class="row-odd"><td><p>4 (1)</p></td>
+<td><p>6  (1)</p></td>
+<td><p>8  (2)</p></td>
+<td><p>2</p></td>
+<td><p>3</p></td>
+<td><p><a class="reference external" href="06-abilities.html#holy-strike">Holy Strike</a>, <a class="reference external" href="06-abilities.html#parry">Parry</a>, <a class="reference external" href="06-abilities.html#counterstrike">Counterstrike</a></p></td>
+<td><p>Disarm</p></td>
+</tr>
+<tr class="row-even"><td><p>5 (1)</p></td>
+<td><p>7  (2)</p></td>
+<td><p>10 (2)</p></td>
+<td><p>3</p></td>
+<td><p>3</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting Local: Incantation II</a>, <a class="reference external" href="06-abilities.html#bind-beast-i-x">Bind Beast II</a>, STAT +1</p></td>
+<td><p>Sunder</p></td>
+</tr>
+<tr class="row-odd"><td><p>6 (2)</p></td>
+<td><p>8  (2)</p></td>
+<td><p>12 (2)</p></td>
+<td><p>4</p></td>
+<td><p>4</p></td>
+<td><p><a class="reference external" href="06-abilities.html#deflection">Deflection</a>, <a class="reference external" href="06-abilities.html#resist-condition">Resist Condition: Frightened</a>, STAT +1</p></td>
+<td><p>Throw</p></td>
+</tr>
+<tr class="row-even"><td><p>7 (2)</p></td>
+<td><p>9  (2)</p></td>
+<td><p>14 (3)</p></td>
+<td><p>4</p></td>
+<td><p>5</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting Local: Incantation III</a>, <a class="reference external" href="06-abilities.html#bind-beast-i-x">Bind Beast III</a>, <a class="reference external" href="06-abilities.html#resist-condition">Resist Condition: Diseased</a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>8 (2)</p></td>
+<td><p>11 (2)</p></td>
+<td><p>15 (3)</p></td>
+<td><p>4</p></td>
+<td><p>5</p></td>
+<td><p><a class="reference external" href="06-abilities.html#guardians-counterstrike">Guardian’s Counterstrike</a>, <a class="reference external" href="06-abilities.html#resist-condition">Resist Condition: Charm</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>9 (2)</p></td>
+<td><p>13 (3)</p></td>
+<td><p>16 (3)</p></td>
+<td><p>5</p></td>
+<td><p>5</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting Local: Incantation IV</a>, <a class="reference external" href="06-abilities.html#bind-beast-i-x">Bind Beast IV</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>10 (3)</p></td>
+<td><p>14 (3)</p></td>
+<td><p>18 (3)</p></td>
+<td><p>6</p></td>
+<td><p>6</p></td>
+<td><p><a class="reference external" href="06-abilities.html#multi-attack-i-iii">Multi-attack I</a>, <a class="reference external" href="06-abilities.html">Divine strike</a>, <a class="reference external" href="06-abilities.html#esoteric-deflection">Esoteric Deflection</a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>11 (3)</p></td>
+<td><p>16 (3)</p></td>
+<td><p>19 (4)</p></td>
+<td><p>6</p></td>
+<td><p>7</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting Local: Incantation V</a>, <a class="reference external" href="06-abilities.html#condition-immunity">Condition Immunity: Charmed</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>12 (3)</p></td>
+<td><p>17 (3)</p></td>
+<td><p>21 (4)</p></td>
+<td><p>6</p></td>
+<td><p>7</p></td>
+<td><p><a class="reference external" href="06-abilities.html#bind-beast-i-x">Bind Beast V</a>, <a class="reference external" href="06-abilities.html#xenophonia-i-xiii">Xenophonia: Spirits</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<hr class="docutils" />
+<section id="summoner">
+<h2>Summoner<a class="headerlink" href="#summoner" title="Link to this heading">¶</a></h2>
+<p>A summoner is a mage who focuses on calling various other entities to fight on their behalf.</p>
+<p>The summoner is a build that can be used for both utility and damage, due to the nature of summons. A summoner should keep out of the frontline. It has three main sources of damage, its <a class="reference external" href="06-abilities.html#bind-beast-i-x">bound beast</a>, entities summoned with spells (such as <a class="reference external" href="08-spell-list.html#summon-beast">“Summon Beast”</a>, <a class="reference external" href="08-spell-list.html#summon-flame-sprite">“Summon Fire Sprite”</a>, <a class="reference external" href="08-spell-list.html#summon-spirit">“Summon Spirit”</a>), and the few direct damage spells that exist.</p>
+<p><a class="reference external" href="06-abilities.html#war-mage">War Mage</a> should, perhaps be taken at the earliest possible moment, since losing concentrating of summoned monsters is one of the biggest threats to a summoner. A classical summoner should avoid the frontline, although variants of the build can instead specialise in only one type of magic, and use the remaining ability points to improve its martial abilities and fight along side with its summons. A summoner that concentrates on nature magic instead of elemental magic is a close approximation of a druid.</p>
+<p>Summoners are one of the least stat dependent builds, since the attack and defence of their summons does not depend on it. As such it is recommended to focus on the stats that are best compatible with the desired skill set. That said, CON and INT are important for concentration saves, so they should not be neglected.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level</p></th>
+<th class="head"><p>SP dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SAP</p></th>
+<th class="head"><p>Abilities</p></th>
+<th class="head"><p>Proficiencies</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1 (1)</p></td>
+<td><p>2  (1)</p></td>
+<td><p>3  (1)</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p><a class="reference external" href="06-abilities.html#bind-beast-i-x">Bind Beast I</a>, <a class="reference external" href="06-abilities.html#bind-familiar-i-iv">Bind Familiar I</a>, <a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Nature I</a></p></td>
+<td><p>Light Blades, Light Armour, Shields</p></td>
+</tr>
+<tr class="row-odd"><td><p>2 (1)</p></td>
+<td><p>3  (1)</p></td>
+<td><p>5  (1)</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Element I</a>, <a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Incantation I</a>, <a class="reference external" href="06-abilities.html#spellcasting-global">Spellcasting: Global I</a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>3 (1)</p></td>
+<td><p>4  (1)</p></td>
+<td><p>7  (2)</p></td>
+<td><p>2</p></td>
+<td><p>3</p></td>
+<td><p><a class="reference external" href="06-abilities.html#bind-beast-i-x">Bind Beast II</a>, <a class="reference external" href="06-abilities.html#bind-familiar-i-iv">Bind Familiar II</a>, <a class="reference external" href="06-abilities.html"></a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>4 (1)</p></td>
+<td><p>6  (1)</p></td>
+<td><p>8  (2)</p></td>
+<td><p>2</p></td>
+<td><p>3</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Element II</a>, <a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Incantation II</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>5 (1)</p></td>
+<td><p>7  (2)</p></td>
+<td><p>10 (2)</p></td>
+<td><p>3</p></td>
+<td><p>3</p></td>
+<td><p><a class="reference external" href="06-abilities.html#bind-beast-i-x">Bind Beast III</a>, <a class="reference external" href="06-abilities.html#lingering-spell">Lingering Spell</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>6 (2)</p></td>
+<td><p>8  (2)</p></td>
+<td><p>12 (2)</p></td>
+<td><p>4</p></td>
+<td><p>4</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Element III</a>, <a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Incantation III</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>7 (2)</p></td>
+<td><p>9  (2)</p></td>
+<td><p>14 (3)</p></td>
+<td><p>4</p></td>
+<td><p>5</p></td>
+<td><p><a class="reference external" href="06-abilities.html#bind-beast-i-x">Bind Beast IV</a>, <a class="reference external" href="06-abilities.html#bind-familiar-i-iv">Bind Familiar III</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>8 (2)</p></td>
+<td><p>10 (2)</p></td>
+<td><p>16 (3)</p></td>
+<td><p>4</p></td>
+<td><p>5</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Element IV</a>, <a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Incantation IV</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>9 (2)</p></td>
+<td><p>12 (2)</p></td>
+<td><p>17 (3)</p></td>
+<td><p>4</p></td>
+<td><p>5</p></td>
+<td><p><a class="reference external" href="06-abilities.html#bind-beast-i-x">Bind Beast V</a>, <a class="reference external" href="06-abilities.html#war-mage">War Mage</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>10 (3)</p></td>
+<td><p>13 (3)</p></td>
+<td><p>19 (4)</p></td>
+<td><p>6</p></td>
+<td><p>7</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Element V</a>, <a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Incantation V</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>11 (3)</p></td>
+<td><p>14 (3)</p></td>
+<td><p>21 (4)</p></td>
+<td><p>6</p></td>
+<td><p>7</p></td>
+<td><p><a class="reference external" href="06-abilities.html#bind-beast-i-x">Bind Beast VI</a>, <a class="reference external" href="06-abilities.html#bind-familiar-i-iv">Bind Familiar IV</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>12 (3)</p></td>
+<td><p>16 (3)</p></td>
+<td><p>22 (4)</p></td>
+<td><p>6</p></td>
+<td><p>7</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Element VI</a>, <a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Incantation VI</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<hr class="docutils" />
+<section id="pyromancer">
+<h2>Pyromancer<a class="headerlink" href="#pyromancer" title="Link to this heading">¶</a></h2>
+<p>A pyromancer is an offensive caster that makes use especially of elemental fire magic. A similar template can be made for any elemental battle mage.</p>
+<p>A pyromancer can be dangerous at range or in melee. This build works well enough with a single elemental spellcasting ability taken to high level, along with <a class="reference external" href="06-abilities.html#elementalism-elemental-blast">Elementalism</a>. A second type of elemental spellcasting (other than fire or water) taken to 3rd level is useful for counter-spelling. As with other spellcasting builds, the other abilities can be exchanged for natural combat or utility abilities for a less conventional build. Medium/heavy armour proficiency is also a valid option for protection.</p>
+<p>The primary stat for this build is WIS. If using armour STR is useful, if not, DEX. Likewise, since this is largely a combat focused build, CON and CHA should not be neglected.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level</p></th>
+<th class="head"><p>SP dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SAP</p></th>
+<th class="head"><p>Abilities</p></th>
+<th class="head"><p>Proficiencies</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1 (1)</p></td>
+<td><p>2  (1)</p></td>
+<td><p>3  (1)</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p><a class="reference external" href="06-abilities.html#blast-elemental-blast">Elemental Blast: Fire</a>, <a class="reference external" href="06-abilities.html#touch-elemental-touch">Elemental Touch: Fire</a>, <a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting Local: Fire I</a></p></td>
+<td><p>Interception, Light Blades, Light Armour</p></td>
+</tr>
+<tr class="row-odd"><td><p>2 (1)</p></td>
+<td><p>3  (1)</p></td>
+<td><p>5  (1)</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-global">Spellcasting Global I</a>, <a class="reference external" href="06-abilities.html#arcane-interception">Arcane Interception</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>3 (1)</p></td>
+<td><p>4  (1)</p></td>
+<td><p>7  (2)</p></td>
+<td><p>2</p></td>
+<td><p>3</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting Local: Fire II</a>, <a class="reference external" href="06-abilities.html#deflection">Deflection</a>, <a class="reference external" href="06-abilities.html#aura">Elemental Aura: Fire</a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>4 (1)</p></td>
+<td><p>6  (1)</p></td>
+<td><p>8  (2)</p></td>
+<td><p>2</p></td>
+<td><p>3</p></td>
+<td><p><a class="reference external" href="06-abilities.html#still-spell">Still Spell</a>, <a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting Local: Air I</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>5 (1)</p></td>
+<td><p>8  (2)</p></td>
+<td><p>9  (2)</p></td>
+<td><p>3</p></td>
+<td><p>3</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting Local: Fire III</a>, <a class="reference external" href="06-abilities.html#heat-sense-i-v">Heat Sense I</a>, <a class="reference external" href="06-abilities.html#energy-affinity">Energy Affinity: Fire</a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>6 (2)</p></td>
+<td><p>8  (2)</p></td>
+<td><p>12 (2)</p></td>
+<td><p>4</p></td>
+<td><p>4</p></td>
+<td><p><a class="reference external" href="06-abilities.html#resist-damage">Resist Damage: Fire</a>, <a class="reference external" href="06-abilities.html#line">Elemental Line: Fire</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>7 (2)</p></td>
+<td><p>10 (2)</p></td>
+<td><p>13 (3)</p></td>
+<td><p>4</p></td>
+<td><p>5</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting Local: Fire IV</a>,  <a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting Local: Air II</a>, <a class="reference external" href="06-abilities.html#aphonic-spell">Aphonic Spell</a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>8 (2)</p></td>
+<td><p>11 (2)</p></td>
+<td><p>15 (3)</p></td>
+<td><p>4</p></td>
+<td><p>5</p></td>
+<td><p><a class="reference external" href="06-abilities.html#circle">Elemental Circle: Fire</a>, <a class="reference external" href="06-abilities.html#heat-sense-i-v">Heat Sense II</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>9 (2)</p></td>
+<td><p>12 (2)</p></td>
+<td><p>17 (3)</p></td>
+<td><p>4</p></td>
+<td><p>5</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting Local: Fire V</a>,  <a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting Local: Air III</a>, <a class="reference external" href="06-abilities.html#war-mage">War Mage</a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>10 (3)</p></td>
+<td><p>13 (3)</p></td>
+<td><p>19 (4)</p></td>
+<td><p>6</p></td>
+<td><p>7</p></td>
+<td><p><a class="reference external" href="06-abilities.html#arc">Elemental Arc: Fire</a>, <a class="reference external" href="06-abilities.html#esoteric-deflection">Esoteric Deflection</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>11 (3)</p></td>
+<td><p>15 (3)</p></td>
+<td><p>20 (4)</p></td>
+<td><p>6</p></td>
+<td><p>7</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting Local: Fire VI</a>, <a class="reference external" href="06-abilities.html#extra-save">Extra Save</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>12 (3)</p></td>
+<td><p>16 (3)</p></td>
+<td><p>22 (4)</p></td>
+<td><p>6</p></td>
+<td><p>7</p></td>
+<td><p><a class="reference external" href="06-abilities.html#heat-sense-i-v">Heat Sense III</a>, <a class="reference external" href="06-abilities.html#swift-spell">Swift Spell</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<hr class="docutils" />
+<section id="wizard">
+<h2>Wizard<a class="headerlink" href="#wizard" title="Link to this heading">¶</a></h2>
+<p>Wizards are generalist spellcasters (who can specialise). A wizard’s power is typically built upon years or decades of arcane study.</p>
+<p>This archetype focuses mostly on support and utility, but nothing is stopping it from using summoning and direct damage spells. Wizards are especially effective at counter-spelling, dispelling and spell breaking, since they are proficient in multiple “schools” of magic.</p>
+<p>This recipe can be modifying by swapping around the types of spellcasting taken, or taking fewer different spellcasting abilities, and more boons, or elemental blast.</p>
+<p>INT and WIS are both primary stats of a wizard. The rest depends on the flavour. Since a wizard should not be in the frontline, CON and CHA are a little bit less important than for other builds, however this does make combat more risky without solid tactics.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level</p></th>
+<th class="head"><p>SP dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SAP</p></th>
+<th class="head"><p>Abilities</p></th>
+<th class="head"><p>Proficiencies</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1 (1)</p></td>
+<td><p>2  (1)</p></td>
+<td><p>3  (1)</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Kinetic/Incantation I</a>, <a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Air I</a>, <a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Water I</a></p></td>
+<td><p>Herbalist’s Kit, Staves, Light Blades</p></td>
+</tr>
+<tr class="row-odd"><td><p>2 (1)</p></td>
+<td><p>3  (1)</p></td>
+<td><p>5  (1)</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Fire I</a>, <a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Earth I</a>, <a class="reference external" href="06-abilities.html#spellcasting-global">Spellcasting: Global I</a></p></td>
+<td><p>Alchemist’s Tools</p></td>
+</tr>
+<tr class="row-even"><td><p>3 (1)</p></td>
+<td><p>4  (1)</p></td>
+<td><p>7  (2)</p></td>
+<td><p>2</p></td>
+<td><p>3</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Kinetic/Incantation II</a>, <a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Air II</a>, <a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Water II</a></p></td>
+<td><p>Healer’s Kit/Bows</p></td>
+</tr>
+<tr class="row-odd"><td><p>4 (1)</p></td>
+<td><p>6  (1)</p></td>
+<td><p>8  (2)</p></td>
+<td><p>2</p></td>
+<td><p>3</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-global">Spellcasting: Global II</a>, <a class="reference external" href="06-abilities.html#bind-familiar-i-iv">Bind Familiar I</a>, STAT +1</p></td>
+<td><p>Calligraphy Kit/Light Armour</p></td>
+</tr>
+<tr class="row-even"><td><p>5 (1)</p></td>
+<td><p>7  (2)</p></td>
+<td><p>10 (2)</p></td>
+<td><p>3</p></td>
+<td><p>3</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Kinetic/Incantation III</a>, <a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Air III</a>, <a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Water III</a></p></td>
+<td><p>Glassblowers’ Tools</p></td>
+</tr>
+<tr class="row-odd"><td><p>6 (2)</p></td>
+<td><p>9  (2)</p></td>
+<td><p>11 (2)</p></td>
+<td><p>4</p></td>
+<td><p>4</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-global">Spellcasting: Global III</a>, <a class="reference external" href="06-abilities.html#bind-familiar-i-iv">Bind Familiar II</a>, STAT +1</p></td>
+<td><p>Healer’s Kit/Bows</p></td>
+</tr>
+<tr class="row-even"><td><p>7 (2)</p></td>
+<td><p>10 (2)</p></td>
+<td><p>13 (3)</p></td>
+<td><p>4</p></td>
+<td><p>5</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Kinetic/Incantation IV</a>, <a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Air IV</a>, <a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Water IV</a></p></td>
+<td><p>Calligraphy Kit/Light Armour</p></td>
+</tr>
+<tr class="row-odd"><td><p>8 (2)</p></td>
+<td><p>11 (2)</p></td>
+<td><p>15 (3)</p></td>
+<td><p>4</p></td>
+<td><p>5</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-global">Spellcasting: Global IV</a>, <a class="reference external" href="06-abilities.html#bind-familiar-i-iv">Bind Familiar III</a>, STAT +1</p></td>
+<td><p>Shields</p></td>
+</tr>
+<tr class="row-even"><td><p>9 (2)</p></td>
+<td><p>12 (2)</p></td>
+<td><p>17 (3)</p></td>
+<td><p>4</p></td>
+<td><p>5</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Kinetic/Incantation V</a>, <a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Air V</a>, <a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Water V</a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>10 (3)</p></td>
+<td><p>13 (3)</p></td>
+<td><p>19 (4)</p></td>
+<td><p>6</p></td>
+<td><p>7</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-global">Spellcasting: Global V</a>, <a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Fire/Earth II</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>11 (3)</p></td>
+<td><p>15 (3)</p></td>
+<td><p>20 (4)</p></td>
+<td><p>6</p></td>
+<td><p>7</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Kinetic/Incantation VI</a>, <a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Air VI</a>, <a class="reference external" href="06-abilities.html#spellcasting-local">Spellcasting: Water VI</a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>12 (3)</p></td>
+<td><p>17 (3)</p></td>
+<td><p>21 (4)</p></td>
+<td><p>6</p></td>
+<td><p>7</p></td>
+<td><p><a class="reference external" href="06-abilities.html#spellcasting-global">Spellcasting: Global VI</a>, <a class="reference external" href="06-abilities.html#bind-familiar-i-iv">Bind Familiar IV</a>, STAT +1</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="02-base-rules.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Base Rules</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="15-charm-etc.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">A note on charm, domination and possession</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2023-3023, Fantasy Committee
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Recipes</a><ul>
+<li><a class="reference internal" href="#vanguard">Vanguard</a></li>
+<li><a class="reference internal" href="#protector">Protector</a></li>
+<li><a class="reference internal" href="#archer">Archer</a></li>
+<li><a class="reference internal" href="#scout">Scout</a></li>
+<li><a class="reference internal" href="#mystic-warrior">Mystic Warrior</a></li>
+<li><a class="reference internal" href="#paladin">Paladin</a></li>
+<li><a class="reference internal" href="#summoner">Summoner</a></li>
+<li><a class="reference internal" href="#pyromancer">Pyromancer</a></li>
+<li><a class="reference internal" href="#wizard">Wizard</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="_static/documentation_options.js?v=8bafd125"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/scripts/furo.js?v=46bd48cc"></script>
+    </body>
+</html>

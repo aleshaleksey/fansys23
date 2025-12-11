@@ -1,0 +1,5129 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../">
+  <head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../genindex.html"><link rel="search" title="Search" href="../search.html"><link rel="next" title="Spirits" href="spirits.html"><link rel="prev" title="Monsters and Dragons" href="monsters-and-dragons.html">
+
+    <!-- Generated with Sphinx 8.2.3 and Furo 2025.09.25 -->
+        <title>Profanes - FanSys 0.0.18</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d111a655" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=580074bf" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=8dab3a3b" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f2f2f2;
+  --color-code-foreground: #1e1e1e;
+  --color-foreground-primary: #202424;
+  --color-foreground-secondary: #4a4c53;
+  --color-brand-primary: #112233;
+  --color-brand-content: #443322;
+  --color-brand-visited: #448822;
+  --color-background-primary: #f2f4ec;
+  --color-background-secondary: #e5e7e3;
+  --color-background-hover: #fafaf5;
+  --color-background-border: #40404067;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-foreground-primary: #cfd0d0;
+  --color-foreground-secondary: #acb0b5;
+  --color-brand-primary: #AABBCC;
+  --color-brand-content: #CFBEAC;
+  --color-brand-visited: #99DD99;
+  --color-background-primary: #242628;
+  --color-background-secondary: #2a2c2e;
+  --color-background-hover: #1e2124ff;
+  --color-background-border: #483945;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-foreground-primary: #cfd0d0;
+  --color-foreground-secondary: #acb0b5;
+  --color-brand-primary: #AABBCC;
+  --color-brand-content: #CFBEAC;
+  --color-brand-visited: #99DD99;
+  --color-background-primary: #242628;
+  --color-background-secondary: #2a2c2e;
+  --color-background-hover: #1e2124ff;
+  --color-background-border: #483945;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle site navigation sidebar">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc" aria-label="Toggle table of contents sidebar">
+<label class="overlay sidebar-overlay" for="__navigation"></label>
+<label class="overlay toc-overlay" for="__toc"></label>
+
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <span class="icon"><svg><use href="#svg-menu"></use></svg></span>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../index.html"><div class="brand">FanSys 0.0.18</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
+  
+  <span class="sidebar-brand-text">FanSys 0.0.18</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Index:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../01-quick-start.html">FanSys23 Quick-start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../03-movement-exploration.html">Actions outside of Combat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../04-combat.html">Combat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../05-skills.html">Skills</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../06-abilities.html">Abilities and Boons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../07-magic-and-spellcasting.html">Spells</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../08-spell-list.html">Spell List</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../09-races.html">Types, Races, Species and Templates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../10-conditions-types.html">Conditions and Types</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../11-weapons-armour.html">Weapons and armour</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../12-equipment-economy.html">Equipment and Economy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../13-crafting-imbuing.html">Crafting and Imbuing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../14-poisons-and-diseases.html">Poisons and Diseases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../15-charm-etc.html">A note on charm, domination and possession</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../16-recipes.html">Recipes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../02-base-rules.html">Base Rules</a></li>
+<li class="toctree-l1 current has-children"><a class="reference internal" href="../bestiary.html">A Bestiary for Fantasy Worlds</a><input aria-label="Toggle navigation of A Bestiary for Fantasy Worlds" checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="forwards.html">Forwards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="beasts-and-plants.html">Beasts and Plants</a></li>
+<li class="toctree-l2"><a class="reference internal" href="constructs.html">Constructs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="divines.html">Divines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="humanoids.html">NPC stat blocks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="monsters-and-dragons.html">Monsters and Dragons</a></li>
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Profanes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="spirits.html">Spirits</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../CHANGELOG.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../TODO.html">Character sheet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../LICENSE.html">License</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="view-this-page">
+  <a class="muted-link" href="../_sources/bestiary/profanes.md.txt" title="View this page">
+    <svg><use href="#svg-eye"></use></svg>
+    <span class="visually-hidden">View this page</span>
+  </a>
+</div>
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          <section id="profanes">
+<h1>Profanes<a class="headerlink" href="#profanes" title="Link to this heading">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference external" href="#undead">Undead</a></p>
+<ul>
+<li><p><a class="reference external" href="#undead-corporeal">Undead: Corporeal</a></p>
+<ul>
+<li><p><a class="reference external" href="#corporeal-horror-lesser">Corporeal Horror, Lesser</a></p></li>
+<li><p><a class="reference external" href="#corporeal-horror-greater">Corporeal Horror, Greater</a></p></li>
+<li><p><a class="reference external" href="#lich">Lich</a></p></li>
+<li><p><a class="reference external" href="#skeleton-humanoid-levels-1-5">Skeleton, Humanoid</a></p></li>
+<li><p><a class="reference external" href="#skeletal-dragon">Skeletal Dragon</a></p></li>
+<li><p><a class="reference external" href="#zombie-humanoid-levels-1-5">Zombie, Humanoid</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#vampires">Vampires</a></p>
+<ul>
+<li><p><a class="reference external" href="#vampire-spawn">Vampire Spawn</a></p></li>
+<li><p><a class="reference external" href="#vampire">Vampire</a></p></li>
+<li><p><a class="reference external" href="#vampire-lord">Vampire Lord</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#undead-incorporeal">Undead: Incorporeal</a></p>
+<ul>
+<li><p><a class="reference external" href="#cursed-shade-lesser">Shade, Cursed, Lesser</a></p></li>
+<li><p><a class="reference external" href="#cursed-shade">Shade, Cursed</a></p></li>
+<li><p><a class="reference external" href="#earthbound-shade-lesser">Shade, Earthbound, Lesser</a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#fiends">Fiends</a></p>
+<ul>
+<li><p><a class="reference external" href="#imp">Imp</a></p></li>
+<li><p><a class="reference external" href="#minor-demon">Minor Demons</a></p></li>
+<li><p><a class="reference external" href="#shadow-flesh-fiend-human">Shadow Flesh Fiend, Human</a></p></li>
+<li><p><a class="reference external" href="#succubusincubus">Succubus</a></p></li>
+<li><p><a class="reference external" href="#fiendish-warrior">Fiendish Warrior</a></p></li>
+<li><p><a class="reference external" href="#herald-of-the-abyss">Herald of the Abyss</a></p></li>
+<li><p><a class="reference external" href="#demon-fire-or-ice">Demon</a></p></li>
+<li><p><a class="reference external" href="#unicorn-black">Unicorn, Black</a></p></li>
+</ul>
+</li>
+</ul>
+<hr class="docutils" />
+<section id="undead">
+<h2>Undead<a class="headerlink" href="#undead" title="Link to this heading">¶</a></h2>
+<p>Undead are mortals that died but failed to move on. They are cursed by creation and driven to destroy or oppose it in some way. Undead do not breath, sleep. They are vulnerable to “divine” damage. However they are immune to “disease”, “unconscious”, “dying”, “stunned”, “charmed”, “frightened” and “paralysed” and “resistant” to “physical” damage.</p>
+<p>As all profane entities, undead do not sleep or breath, and most do not age, eat or drink.</p>
+</section>
+<section id="undead-corporeal">
+<h2>Undead: Corporeal<a class="headerlink" href="#undead-corporeal" title="Link to this heading">¶</a></h2>
+<p>This section covers undead beings that have a physical body. They may be resistant to some forms of physical damage, but seldom immune. Once the body is destroyed, they usually perish.</p>
+<hr class="docutils" />
+<section id="corporeal-horror-lesser">
+<h3>Corporeal Horror, Lesser<a class="headerlink" href="#corporeal-horror-lesser" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>HiT/Surprised/Touch</p></th>
+<th class="head"><p>SP</p></th>
+<th class="head"><p>MP</p></th>
+<th class="head"><p>HP</p></th>
+<th class="head"><p>Speed (walk)</p></th>
+<th class="head"><p>Speed (other)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>10/10/10</p></td>
+<td><p>40 (<em>25</em>)</p></td>
+<td><p>24 (<em>19</em>)</p></td>
+<td><p>9</p></td>
+<td><p>30ft</p></td>
+<td><p>Climb (20ft)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Large(-1/+1)</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>Str</p></th>
+<th class="head"><p>Dex</p></th>
+<th class="head"><p>Con</p></th>
+<th class="head"><p>Int</p></th>
+<th class="head"><p>Wis</p></th>
+<th class="head"><p>Cha</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Stat</p></td>
+<td><p>23</p></td>
+<td><p>10</p></td>
+<td><p>17</p></td>
+<td><p>7</p></td>
+<td><p>15</p></td>
+<td><p>13</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bonus</p></td>
+<td><p>+6</p></td>
+<td><p>0</p></td>
+<td><p>+3</p></td>
+<td><p>-2</p></td>
+<td><p>+2</p></td>
+<td><p>+1</p></td>
+</tr>
+<tr class="row-even"><td><p>Save</p></td>
+<td><p>+7</p></td>
+<td><p>+1</p></td>
+<td><p>+4</p></td>
+<td><p>-1</p></td>
+<td><p>+3</p></td>
+<td><p>+2</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level(base)</p></th>
+<th class="head"><p>SP Dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>Nat</p></th>
+<th class="head"><p>Sup</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SAP</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>6 (1)</p></td>
+<td><p>11</p></td>
+<td><p>9</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p>4</p></td>
+<td><p>4</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Ability</p></th>
+<th class="head"><p>Bonus</p></th>
+<th class="head"><p>Damage</p></th>
+<th class="head"><p>Other</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Claws</p></td>
+<td><p>+10</p></td>
+<td><p>1d6+6</p></td>
+<td><p>Sh</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bite</p></td>
+<td><p>+10</p></td>
+<td><p>1d6+6</p></td>
+<td><p>Sh</p></td>
+</tr>
+<tr class="row-even"><td><p>Grapple</p></td>
+<td><p>+10</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Shove</p></td>
+<td><p>+10</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Aura of Nausea</p></td>
+<td><p>Thr=17 CON</p></td>
+<td><p></p></td>
+<td><p>All entities that start their turn within 15 feet must make a Thr=17 CON save or be “incapacitated”. An entity can repeat its save at the start of each of its turn. Upon succeeding, it is no longer “incapacitated”, and cannot be, for 24 hours.</p></td>
+</tr>
+<tr class="row-even"><td><p>Scream</p></td>
+<td><p>Thr=15 CON save</p></td>
+<td><p></p></td>
+<td><p>As a secondary action, the horror can issue a pained shriek (1 SP dice). Any entity within 30ft that hears the shriek must make a Thr=15 WIS save or become “frightened” of the horror. An entity can repeat its save at the start of each of its turn. Upon succeeding, it is no longer “frightened”, and cannot be, for 24 hours.</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Combined Manoeuvre I</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Monster Attack I</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>The corporeal horror makes one attack with its claws, and one with its bite</p></td>
+</tr>
+<tr class="row-even"><td><p>Broad Strike</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>Claws only</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Vulnerability</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Div”, “light”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Resistant</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“physical” damage except “Sl” and “Pr”, “grappled”, “restrained”</p></td>
+</tr>
+<tr class="row-even"><td><p>Immune</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“disease”, “unconscious”, “dying”, “stunned”, “charmed”, “frightened”, “paralysed”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Senses</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“low-light vision”, “life-sense” 30ft</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>A corporeal horror is produced when incomplete remains are animated together, producing a single whole. These undead often retain the vestiges of the memories of the mortals they comprise of. However, it is rare for them to show true intelligence. Due to the processes involved, a corporeal horror can take seemingly contradictory actions as it is driven simultaneously by a desire for release and the desire for others to meet a fate worse than its own.</p>
+</section>
+<hr class="docutils" />
+<section id="corporeal-horror-greater">
+<h3>Corporeal Horror, Greater<a class="headerlink" href="#corporeal-horror-greater" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>HiT/Surprised/Touch</p></th>
+<th class="head"><p>SP</p></th>
+<th class="head"><p>MP</p></th>
+<th class="head"><p>HP</p></th>
+<th class="head"><p>Speed (walk)</p></th>
+<th class="head"><p>Speed (other)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>14/13/12</p></td>
+<td><p>107 (<em>47</em>)</p></td>
+<td><p>79 (<em>43</em>)</p></td>
+<td><p>21</p></td>
+<td><p>30ft</p></td>
+<td><p>Climb (20ft)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Huge(-2/+2)
+Natural Armour: +4
+Saves: Wis, Cha</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>Str</p></th>
+<th class="head"><p>Dex</p></th>
+<th class="head"><p>Con</p></th>
+<th class="head"><p>Int</p></th>
+<th class="head"><p>Wis</p></th>
+<th class="head"><p>Cha</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Stat</p></td>
+<td><p>27</p></td>
+<td><p>8</p></td>
+<td><p>21</p></td>
+<td><p>9</p></td>
+<td><p>15</p></td>
+<td><p>17</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bonus</p></td>
+<td><p>+8</p></td>
+<td><p>-1</p></td>
+<td><p>+5</p></td>
+<td><p>-1</p></td>
+<td><p>+2</p></td>
+<td><p>+3</p></td>
+</tr>
+<tr class="row-even"><td><p>Save</p></td>
+<td><p>+11</p></td>
+<td><p>+2</p></td>
+<td><p>+8</p></td>
+<td><p>+2</p></td>
+<td><p>+8</p></td>
+<td><p>+9</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level(base)</p></th>
+<th class="head"><p>SP Dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>Nat</p></th>
+<th class="head"><p>Sup</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SAP</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>13 (3)</p></td>
+<td><p>21</p></td>
+<td><p>20</p></td>
+<td><p>3</p></td>
+<td><p>3</p></td>
+<td><p>6</p></td>
+<td><p>6</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Ability</p></th>
+<th class="head"><p>Bonus</p></th>
+<th class="head"><p>Damage</p></th>
+<th class="head"><p>Other</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Claws</p></td>
+<td><p>+14</p></td>
+<td><p>2d6+8</p></td>
+<td><p>Sh</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bite</p></td>
+<td><p>+14</p></td>
+<td><p>2d6+8</p></td>
+<td><p>Sh</p></td>
+</tr>
+<tr class="row-even"><td><p>Grapple</p></td>
+<td><p>+14</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Shove</p></td>
+<td><p>+14</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Aura of Nausea</p></td>
+<td><p>Thr=19 CON save</p></td>
+<td><p></p></td>
+<td><p>All entities that start their turn within 30 feet must make a Thr=19 CON save or be “incapacitated”. An entity can repeat its save at the start of each of its turn. Upon succeeding, it is no longer “incapacitated”, and cannot be, for 24 hours.</p></td>
+</tr>
+<tr class="row-even"><td><p>Scream</p></td>
+<td><p>Thr=18 CON save</p></td>
+<td><p></p></td>
+<td><p>As a secondary action, the horror can issue a pained shriek (1 SP dice). Any entity within 60ft that hears the shriek must make a Thr=18 WIS save or become “frightened” of the horror. An entity can repeat its save at the start of each of its turn. Upon succeeding, it is no longer “frightened”, and cannot be, for 24 hours.</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Combined Manoeuvre I</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Reshape (move action)</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A greater corporeal horror can reconfigure the grotesque mass of corpses that compose it into any shape as a move action, as long as it takes up the same number of 5ft cubes. The central most cube cannot be moved during such a transformation. The cubes must remain connected by one or more sides.</p></td>
+</tr>
+<tr class="row-even"><td><p>Counterstrike</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A corporeal horror can use a basic combat manoeuvre as a manoeuvre against an entity that hits it with a melee attack</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#berserk-i-v">“Berserk II”</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A corporeal horror can enter a berserk state, increasing its speed by 10ft, gaining +4 damage on its attacks</p></td>
+</tr>
+<tr class="row-even"><td><p>Monster Attack I</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>The corporeal horror makes one attack with its claws, and one with its bite</p></td>
+</tr>
+<tr class="row-odd"><td><p>Broad Strike</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>Claws only</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Vulnerability</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Div”, “light”</p></td>
+</tr>
+<tr class="row-even"><td><p>Resistant</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“physical” damage except “Sl” and “Pr”, “grappled”, “restrained”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Immune</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“disease”, “unconscious”, “dying”, “stunned”, “charmed”, “frightened”, “paralysed”</p></td>
+</tr>
+<tr class="row-even"><td><p>Senses</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“low-light vision”, “life-sense” 30ft</p></td>
+</tr>
+<tr class="row-odd"><td><p>Skills</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Observe” +8, “Track” +8, “Athletics” +9</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>A corporeal horror is produced when incomplete remains are animated together, producing a single whole. These undead often retain the vestiges of the memories of the mortals they comprise of. However, it is rare for them to show true intelligence. Due to the processes involved, a corporeal horror can take seemingly contradictory actions as it is driven simultaneously by a desire for release and the desire for others to meet a fate worse than its own.</p>
+</section>
+<hr class="docutils" />
+<section id="lich">
+<h3>Lich<a class="headerlink" href="#lich" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level</p></th>
+<th class="head"><p>HiT/Surprised/Touch</p></th>
+<th class="head"><p>SP</p></th>
+<th class="head"><p>MP</p></th>
+<th class="head"><p>HP</p></th>
+<th class="head"><p>Speed (walk)</p></th>
+<th class="head"><p>Speed (other)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>17</p></td>
+<td><p>20/16/18</p></td>
+<td><p>145</p></td>
+<td><p>93</p></td>
+<td><p>25</p></td>
+<td><p>40</p></td>
+<td><p>-</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>Str</p></th>
+<th class="head"><p>Dex</p></th>
+<th class="head"><p>Con</p></th>
+<th class="head"><p>Int</p></th>
+<th class="head"><p>Wis</p></th>
+<th class="head"><p>Cha</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Stat</p></td>
+<td><p>12</p></td>
+<td><p>18</p></td>
+<td><p>14</p></td>
+<td><p>22</p></td>
+<td><p>24</p></td>
+<td><p>18</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bonus</p></td>
+<td><p>+1</p></td>
+<td><p>+4</p></td>
+<td><p>+2</p></td>
+<td><p>+6</p></td>
+<td><p>+7</p></td>
+<td><p>+4</p></td>
+</tr>
+<tr class="row-even"><td><p>Save</p></td>
+<td><p>+5</p></td>
+<td><p>+8</p></td>
+<td><p>+6</p></td>
+<td><p>+10</p></td>
+<td><p>+11</p></td>
+<td><p>+15</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level(base)</p></th>
+<th class="head"><p>SP Dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>Nat</p></th>
+<th class="head"><p>Sup</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SAP</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>17 (4)</p></td>
+<td><p>21</p></td>
+<td><p>33</p></td>
+<td><p>4</p></td>
+<td><p>7</p></td>
+<td><p>8</p></td>
+<td><p>11</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Ability</p></th>
+<th class="head"><p>Bonus</p></th>
+<th class="head"><p>Damage</p></th>
+<th class="head"><p>Other</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Profane Short sword</p></td>
+<td><p>+14</p></td>
+<td><p>1d6+6</p></td>
+<td><p>Reach=5ft</p></td>
+</tr>
+<tr class="row-odd"><td><p>Shortstaff</p></td>
+<td><p>+12</p></td>
+<td><p>1d6+4</p></td>
+<td><p>Reach=5ft</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#unholy-strike">Unholy Strike</a></p></td>
+<td><p></p></td>
+<td><p>+2d6[Nec]</p></td>
+<td><p>(Cost=1 MP dice) on hit with sword or staff</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#profane-strike">Profane Strike</a></p></td>
+<td><p></p></td>
+<td><p>+1d6[Pro]</p></td>
+<td><p>(Cost=2 MP dice) on hit with sword or staff</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#elementalism-elemental-blast">Elementalism: Blast</a></p></td>
+<td><p>+18 (Thr=27)</p></td>
+<td><p>4d10+7[Fir]</p></td>
+<td><p>(Range=120ft + 30ft/MP die)</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#elementalism-elemental-blast">Elementalism: Touch</a></p></td>
+<td><p>+18 (Thr=27)</p></td>
+<td><p>4d6+7[Fir]</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Elementalism Forms</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>Touch, Touch Enhanced, Aura, Sweep, Blast, Line, Sphere, Arc</p></td>
+</tr>
+<tr class="row-odd"><td><p>Multi-attack I</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A lich can make two weapon attacks</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Ability</p></th>
+<th class="head"><p>Bonus</p></th>
+<th class="head"><p>Damage</p></th>
+<th class="head"><p>Other</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Sc: Fire VII</p></td>
+<td><p>Thr=27</p></td>
+<td><p></p></td>
+<td><p><a class="reference external" href="../08-spell-list.html#ignition">Ignition</a>, <a class="reference external" href="../08-spell-list.html#least-pyromancy">Least Pyromancy</a>, <a class="reference external" href="../08-spell-list.html#witchs-candle">Witch’s Candle</a>, <a class="reference external" href="../08-spell-list.html#enflame">Enflame</a>, <a class="reference external" href="../08-spell-list.html#foxfire">Foxfire</a>, <a class="reference external" href="../08-spell-list.html#meadow-of-flame">Meadow of Flame</a>, <a class="reference external" href="../08-spell-list.html#trace-secret-path">Trace Secret Path</a>, <a class="reference external" href="../08-spell-list.html#fire-ward">Fire Ward</a>, <a class="reference external" href="../08-spell-list.html#see-spell">See Spell</a>, <a class="reference external" href="../08-spell-list.html#balance-of-elements">Balance of Elements</a>, <a class="reference external" href="../08-spell-list.html#speak-through-flame">Speak through Flame</a>, <a class="reference external" href="../08-spell-list.html#flame-stride">Flame Stride</a>, <a class="reference external" href="../08-spell-list.html#revenant">Revenant</a> <a class="reference external" href="../08-spell-list.html#forest-of-flame">Forest of Flame</a>, <a class="reference external" href="../08-spell-list.html#madness">Madness</a>, <a class="reference external" href="../08-spell-list.html#meteoric-flight">Meteoric Flight</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Sc: Earth VII</p></td>
+<td><p>Thr=27</p></td>
+<td><p></p></td>
+<td><p><a class="reference external" href="../08-spell-list.html#down">Down</a>, <a class="reference external" href="../08-spell-list.html#least-geomancy">Least Geomancy</a>, <a class="reference external" href="../08-spell-list.html#sense-spell">Sense Spell</a>, <a class="reference external" href="../08-spell-list.html#shape-earth">Shape Earth</a>, <a class="reference external" href="../08-spell-list.html#dusk">Dusk</a>, <a class="reference external" href="../08-spell-list.html#warded-ground">Warded Ground</a>, <a class="reference external" href="../08-spell-list.html#earth-ward">Earth Ward</a>, <a class="reference external" href="../08-spell-list.html#blade-ward">Blade Ward</a>, <a class="reference external" href="../08-spell-list.html#animate-golem">Animate Golem</a>, <a class="reference external" href="../08-spell-list.html#enchanted-ground">Enchanted Ground</a>, <a class="reference external" href="../08-spell-list.html#rift">Rift</a>, <a class="reference external" href="../08-spell-list.html#stone-ward">Stone Ward</a>, <a class="reference external" href="../08-spell-list.html#greater-earth-ward">Greater Earth Ward</a>, <a class="reference external" href="../08-spell-list.html#false-regrowth">False Regrowth</a>, <a class="reference external" href="../08-spell-list.html#portal">Portal</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Sc: Incantation VII</p></td>
+<td><p>Thr=26</p></td>
+<td><p></p></td>
+<td><p><a class="reference external" href="../08-spell-list.html#least-spike">Least Spike</a>, <a class="reference external" href="../08-spell-list.html#least-ward">Least Ward</a>, <a class="reference external" href="../08-spell-list.html#least-heal">Least Heal</a>, <a class="reference external" href="../08-spell-list.html#promise">Promise</a>, <a class="reference external" href="../08-spell-list.html#melt">Melt</a>, <a class="reference external" href="../08-spell-list.html#summon-spirit">Summon Spirit</a>, <a class="reference external" href="../08-spell-list.html#isolate-essence">Isolate Essence</a>, <a class="reference external" href="../08-spell-list.html#spirit-restoration">Spirit Restoration</a>, <a class="reference external" href="../08-spell-list.html#create-secret-path">Create Secret Path</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Sc: Kinetic III</p></td>
+<td><p>Thr=26</p></td>
+<td><p></p></td>
+<td><p><a class="reference external" href="../08-spell-list.html#whispers">Whispers</a>, <a class="reference external" href="../08-spell-list.html#silent">Silent</a>, <a class="reference external" href="../08-spell-list.html#lesser-illusory-self">Lesser Illusory Self</a>, <a class="reference external" href="../08-spell-list.html#glide">Glide</a>, <a class="reference external" href="../08-spell-list.html#animatecontrol-dead">Animate Dead</a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#forbidden-spell">Forbidden Spell</a></p></td>
+<td><p>Thr=27</p></td>
+<td><p></p></td>
+<td><p><a class="reference external" href="../08-spell-list.html#summon-fiend">Summon Fiend</a>, <a class="reference external" href="../08-spell-list.html#dominate-mortal">Dominate Mortal</a>, <a class="reference external" href="../08-spell-list.html#legion-of-dead">Legion of Dead</a>, <a class="reference external" href="../08-spell-list.html#forced-possession">Forced Possession</a>, <a class="reference external" href="../08-spell-list.html#otherworld-step">Otherworld Step</a>, <a class="reference external" href="../08-spell-list.html#incarnate">Incarnate</a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#high-arcana">High Arcana</a></p></td>
+<td><p>Thr=27</p></td>
+<td><p></p></td>
+<td><p><a class="reference external" href="../08-spell-list.html#greater-domain">Greater Domain</a>, <a class="reference external" href="../08-spell-list.html#greater-cosmic-seal">Greater Cosmic Seal</a>, <a class="reference external" href="../08-spell-list.html#earthquake">Earthquake</a>, <a class="reference external" href="../08-spell-list.html#ifrits-gift">Ifrit’s Gift</a></p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#safe-cast">Safe Cast</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#war-mage">War Mage</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#still-spell">Still Spell</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#aphonic-spell">Aphonic Spell</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#swift-spell">Swift Spell</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#xenophonia-i-xiii">Xenophonia</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>Undead, Monsters, Spirits, Fiends</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Vulnerability</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Div”, “light”</p></td>
+</tr>
+<tr class="row-even"><td><p>Resistant</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“physical” damage except “Pe” and “Pr”, “fire”, “ice”, “profane” damages</p></td>
+</tr>
+<tr class="row-odd"><td><p>Immune</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“necrotic”, “poison” damage</p></td>
+</tr>
+<tr class="row-even"><td><p>Immune</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“disease”, “unconscious”, “dying”, “stunned”, “charmed”, “frightened”, “paralysed”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Senses</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“low-light vision”, “life-sense” 60ft</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Skills</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Spellworking” +20, “Knowledge: Arcana” +19, “Knowledge: Religion” +19, All other knowledge: +15, “Appraise” +12, “Academics” +12, “Prospect” +12, “Observe” +12, “Sense Motive” +10, All other skills +1 rank.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>A lich is mage who attains a form of immortality in undeath. Since maintaining this form usually requires the consecration of numerous souls the realms of dark gods, these mages are generally malevolently unscrupulous and powerful.</p>
+<p>A lich that is not dormant will normally have a well protected and ameliorated lair/base/castle. It will surround itself with undead minions, golems and traps. It will also use various spells to disguise and protect its dwelling.</p>
+</section>
+<hr class="docutils" />
+<section id="skeleton-humanoid-levels-1-5">
+<h3>Skeleton, humanoid (levels 1-5)<a class="headerlink" href="#skeleton-humanoid-levels-1-5" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level</p></th>
+<th class="head"><p>HiT/Surprised/Touch</p></th>
+<th class="head"><p>SP</p></th>
+<th class="head"><p>MP</p></th>
+<th class="head"><p>HP</p></th>
+<th class="head"><p>Speed (walk)</p></th>
+<th class="head"><p>Speed (other)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>15/13/12</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>9</p></td>
+<td><p>30</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-odd"><td><p>3</p></td>
+<td><p>15/13/12</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>19</p></td>
+<td><p>30</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>15/13/12</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>29</p></td>
+<td><p>30</p></td>
+<td><p>-</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>(Skeletons have a natural armour of +3)
+(A warrior’s skeleton warring full chain would have HiT=16/14/12)</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level 1, 3</p></th>
+<th class="head"><p>Str</p></th>
+<th class="head"><p>Dex</p></th>
+<th class="head"><p>Con</p></th>
+<th class="head"><p>Int</p></th>
+<th class="head"><p>Wis</p></th>
+<th class="head"><p>Cha</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Stat</p></td>
+<td><p>12</p></td>
+<td><p>14</p></td>
+<td><p>12</p></td>
+<td><p>-</p></td>
+<td><p>10</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bonus</p></td>
+<td><p>+1</p></td>
+<td><p>+2</p></td>
+<td><p>+1</p></td>
+<td><p>-</p></td>
+<td><p>0</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-even"><td><p>Save</p></td>
+<td><p>+2</p></td>
+<td><p>+3</p></td>
+<td><p>+2</p></td>
+<td><p>-</p></td>
+<td><p>+1</p></td>
+<td><p>-</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level 5</p></th>
+<th class="head"><p>Str</p></th>
+<th class="head"><p>Dex</p></th>
+<th class="head"><p>Con</p></th>
+<th class="head"><p>Int</p></th>
+<th class="head"><p>Wis</p></th>
+<th class="head"><p>Cha</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Stat</p></td>
+<td><p>14</p></td>
+<td><p>16</p></td>
+<td><p>12</p></td>
+<td><p>-</p></td>
+<td><p>12</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bonus</p></td>
+<td><p>+2</p></td>
+<td><p>+3</p></td>
+<td><p>+1</p></td>
+<td><p>-</p></td>
+<td><p>+1</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-even"><td><p>Save</p></td>
+<td><p>+3</p></td>
+<td><p>+5</p></td>
+<td><p>+2</p></td>
+<td><p>-</p></td>
+<td><p>+2</p></td>
+<td><p>-</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level(base)</p></th>
+<th class="head"><p>SP Dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>Nat</p></th>
+<th class="head"><p>Sup</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SAP</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1 (1)</p></td>
+<td><p>3</p></td>
+<td><p>2</p></td>
+<td><p>1</p></td>
+<td><p>1</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+</tr>
+<tr class="row-odd"><td><p>3 (1)</p></td>
+<td><p>6</p></td>
+<td><p>5</p></td>
+<td><p>1</p></td>
+<td><p>1</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+</tr>
+<tr class="row-even"><td><p>5 (1)</p></td>
+<td><p>10</p></td>
+<td><p>7</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p>3</p></td>
+<td><p>3</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Ability</p></th>
+<th class="head"><p>Bonus</p></th>
+<th class="head"><p>Damage</p></th>
+<th class="head"><p>Other</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Claws</p></td>
+<td><p>+4(+6)</p></td>
+<td><p>1d4+2(+3)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Longsword</p></td>
+<td><p>+3(+5)</p></td>
+<td><p>1d8/1d12+1(+2)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Sling</p></td>
+<td><p>+4(+6)</p></td>
+<td><p>1d6+2(+3)</p></td>
+<td><p>range=1600/80</p></td>
+</tr>
+<tr class="row-odd"><td><p>Vulnerability</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Div”, “light”</p></td>
+</tr>
+<tr class="row-even"><td><p>Resistant</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“physical” damage except “Pe” and “Pr”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Immune</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“disease”, “unconscious”, “dying”, “stunned”, “charmed”, “frightened”, “paralysed”</p></td>
+</tr>
+<tr class="row-even"><td><p>Senses</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“low-light vision”, “life-sense” 60ft</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Level 5</strong>: Level 5 skeletons have Multi-attack I.</p>
+<p>Skeletons generally obey the will of whoever raised them. Otherwise they take no action unless they notice another mortal, which they will generally attempt to kill. It is thus that skeletons end up spreading from the place that they were raised.</p>
+<p>Skeletons are proficient with any tools, weapons and armours they knew in life. They cannot communicate, but can be commanded by way of dark magics.</p>
+</section>
+<hr class="docutils" />
+<section id="skeletal-dragon">
+<h3>Skeletal Dragon<a class="headerlink" href="#skeletal-dragon" title="Link to this heading">¶</a></h3>
+<p><strong>Size category</strong>: Huge (15ft x 15ft)</p>
+<ul class="simple">
+<li><p>Evade: -2, Armour +2 (+6)</p></li>
+<li><p>Reach: 10ft, 15ft (tail)</p></li>
+<li><p>[DEX save]: -2, [STR save]: +2</p></li>
+<li><p>Carry capacity: (384lb light, 768lb medium, 1920lb heavy, 2880lb drag)</p></li>
+</ul>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level</p></th>
+<th class="head"><p>HiT/Surprised/Touch</p></th>
+<th class="head"><p>SP</p></th>
+<th class="head"><p>MP</p></th>
+<th class="head"><p>HP</p></th>
+<th class="head"><p>Speed (walk)</p></th>
+<th class="head"><p>Speed (other)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>17</p></td>
+<td><p>23/20/17</p></td>
+<td><p>145</p></td>
+<td><p>93</p></td>
+<td><p>25</p></td>
+<td><p>40</p></td>
+<td><p>-</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>Str</p></th>
+<th class="head"><p>Dex</p></th>
+<th class="head"><p>Con</p></th>
+<th class="head"><p>Int</p></th>
+<th class="head"><p>Wis</p></th>
+<th class="head"><p>Cha</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Stat</p></td>
+<td><p>24</p></td>
+<td><p>16</p></td>
+<td><p>20</p></td>
+<td><p>10</p></td>
+<td><p>16</p></td>
+<td><p>16</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bonus</p></td>
+<td><p>+7</p></td>
+<td><p>+3</p></td>
+<td><p>+5</p></td>
+<td><p>0</p></td>
+<td><p>+1</p></td>
+<td><p>+3</p></td>
+</tr>
+<tr class="row-even"><td><p>Save</p></td>
+<td><p>+11</p></td>
+<td><p>+7</p></td>
+<td><p>+9</p></td>
+<td><p>+4</p></td>
+<td><p>+5</p></td>
+<td><p>+7</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level(base)</p></th>
+<th class="head"><p>SP Dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>Nat</p></th>
+<th class="head"><p>Sup</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SAP</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>17 (4)</p></td>
+<td><p>30</p></td>
+<td><p>21</p></td>
+<td><p>6</p></td>
+<td><p>4</p></td>
+<td><p>10</p></td>
+<td><p>8</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Attacks</p></th>
+<th class="head"><p>Bonus</p></th>
+<th class="head"><p>Damage</p></th>
+<th class="head"><p>Other</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Claws</p></td>
+<td><p>+19</p></td>
+<td><p>2d8+9</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Bite</p></td>
+<td><p>+19</p></td>
+<td><p>2d12+9</p></td>
+<td><p>Malevolence: Thr=20 or take 1d4 Profane damage</p></td>
+</tr>
+<tr class="row-even"><td><p>Tail</p></td>
+<td><p>+17</p></td>
+<td><p>2d6+7</p></td>
+<td><p>Reach 15ft</p></td>
+</tr>
+<tr class="row-odd"><td><p>Throw</p></td>
+<td><p>+17</p></td>
+<td><p>2d8+7</p></td>
+<td><p>(Range=180ft, Increment=60ft) A skeletal dragon can throw objects and entities weighing up to 384lb as a projectile</p></td>
+</tr>
+<tr class="row-even"><td><p>Manoeuvres</p></td>
+<td><p>+16</p></td>
+<td><p></p></td>
+<td><p>(Grapple, Restrain, Throw, Sunder)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Monster Attack</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>The skeletal dragons make 3 attacks: 1 bite, 1 claws, 1 tail (must be a different target)</p></td>
+</tr>
+<tr class="row-even"><td><p>Broad strike</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>(1 SP die) useable only with tail attack</p></td>
+</tr>
+<tr class="row-odd"><td><p>Combined Manoeuvre I</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>(1 SP die) usable only with claw attack (except grapple)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Ability</p></th>
+<th class="head"><p>Bonus</p></th>
+<th class="head"><p>Damage</p></th>
+<th class="head"><p>Other</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Vulnerability</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Div”, “light”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Resistant</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“physical” damage except “Pe” and “Pr”</p></td>
+</tr>
+<tr class="row-even"><td><p>Immune</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“fire” or “ice”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Immune</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“disease”, “unconscious”, “dying”, “stunned”, “charmed”, “frightened”, “paralysed”</p></td>
+</tr>
+<tr class="row-even"><td><p>Senses</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“low-light vision”, “tremor-sense” 60ft, “life-sense” 60ft</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Sometimes the skeletons of dragons are brought back to life. Unlike most entities that leave a skeleton behind, a dragon’s skeleton retains some of the will and memories it had in life. It seldom retains its flight or any benevolence it may have had.</p>
+</section>
+<hr class="docutils" />
+<section id="zombie-humanoid-levels-1-5">
+<h3>Zombie, humanoid (levels 1-5)<a class="headerlink" href="#zombie-humanoid-levels-1-5" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level</p></th>
+<th class="head"><p>HiT/Surprised/Touch</p></th>
+<th class="head"><p>SP</p></th>
+<th class="head"><p>MP</p></th>
+<th class="head"><p>HP</p></th>
+<th class="head"><p>Speed (walk)</p></th>
+<th class="head"><p>Speed (other)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>9/10/9</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>16</p></td>
+<td><p>20</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-odd"><td><p>3</p></td>
+<td><p>9/10/9</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>26</p></td>
+<td><p>20</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>9/10/9</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+<td><p>38</p></td>
+<td><p>20</p></td>
+<td><p>-</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>(A zombified warrior warring full chain would have HiT=13/14/9)</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level 1, 3</p></th>
+<th class="head"><p>Str</p></th>
+<th class="head"><p>Dex</p></th>
+<th class="head"><p>Con</p></th>
+<th class="head"><p>Int</p></th>
+<th class="head"><p>Wis</p></th>
+<th class="head"><p>Cha</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Stat</p></td>
+<td><p>16</p></td>
+<td><p>8</p></td>
+<td><p>14</p></td>
+<td><p>-</p></td>
+<td><p>8</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bonus</p></td>
+<td><p>+3</p></td>
+<td><p>-1</p></td>
+<td><p>+2</p></td>
+<td><p>-</p></td>
+<td><p>-1</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-even"><td><p>Save</p></td>
+<td><p>+4</p></td>
+<td><p>0</p></td>
+<td><p>+3</p></td>
+<td><p>-</p></td>
+<td><p>0</p></td>
+<td><p>-</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level 5</p></th>
+<th class="head"><p>Str</p></th>
+<th class="head"><p>Dex</p></th>
+<th class="head"><p>Con</p></th>
+<th class="head"><p>Int</p></th>
+<th class="head"><p>Wis</p></th>
+<th class="head"><p>Cha</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Stat</p></td>
+<td><p>18</p></td>
+<td><p>8</p></td>
+<td><p>14</p></td>
+<td><p>-</p></td>
+<td><p>8</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bonus</p></td>
+<td><p>+4</p></td>
+<td><p>-1</p></td>
+<td><p>+2</p></td>
+<td><p>-</p></td>
+<td><p>-1</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-even"><td><p>Save</p></td>
+<td><p>+6</p></td>
+<td><p>0</p></td>
+<td><p>+3</p></td>
+<td><p>-</p></td>
+<td><p>0</p></td>
+<td><p>-</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level(base)</p></th>
+<th class="head"><p>SP Dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>Nat</p></th>
+<th class="head"><p>Sup</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SAP</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1 (1)</p></td>
+<td><p>3</p></td>
+<td><p>2</p></td>
+<td><p>1</p></td>
+<td><p>1</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+</tr>
+<tr class="row-odd"><td><p>3 (1)</p></td>
+<td><p>6</p></td>
+<td><p>5</p></td>
+<td><p>1</p></td>
+<td><p>1</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+</tr>
+<tr class="row-even"><td><p>5 (1)</p></td>
+<td><p>10</p></td>
+<td><p>8</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p>3</p></td>
+<td><p>3</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Ability</p></th>
+<th class="head"><p>Bonus</p></th>
+<th class="head"><p>Damage</p></th>
+<th class="head"><p>Other</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Bite</p></td>
+<td><p>+5(+7)</p></td>
+<td><p>1d4+3(+4)</p></td>
+<td><p>Disease: Zombify Threshold = 16(17)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Strike</p></td>
+<td><p>+5(+7)</p></td>
+<td><p>1d4+3(+4)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Longsword</p></td>
+<td><p>+0(+2)</p></td>
+<td><p>1d8/1d12+3(+4)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Vulnerability</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Div”, “light”</p></td>
+</tr>
+<tr class="row-even"><td><p>Resistant</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“physical” damage</p></td>
+</tr>
+<tr class="row-odd"><td><p>Immune</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“disease”, “unconscious”, “dying”, “stunned”, “charmed”, “frightened”, “paralysed”</p></td>
+</tr>
+<tr class="row-even"><td><p>Senses</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“low-light vision”, “life-sense” 60ft</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Level 5</strong>: Level 5 zombies have Multi-attack I.</p>
+<p>Like skeletons, zombies will obey whoever raised them. Otherwise they wonder around searching for mortals to devour.</p>
+<p>Zombies are not proficient with anything other than their natural attacks and “grapple”. They cannot communicate, but can be commanded by way of dark magics.</p>
+<p><strong>Zombify</strong>: Any mortal bitten once or more by a zombie must make a CON save at midnight. Should they fail, they will die and become a zombie in 6d12 hours. This disease counts as supernatural and can only be cured by supernatural means. It cannot be cured once it has run its course. The threshold for diagnosis is 14 within the first 2 hours after infection. More than 2 hours after infection, the threshold is reduced to 8.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="vampires">
+<h2>Vampires<a class="headerlink" href="#vampires" title="Link to this heading">¶</a></h2>
+<p>Vampires are undead that still have blood in their veins. A vampire is cursed by the sun and requires blood in order to remain active. Thus most vampires are active at night. Vampires cannot cross running water or enter another’s dwelling without an invitation. All vampires have vulnerability to “divine” and “light” damage. Furthermore, a vampire that is out in daylight, cannot use any abilities that require the expenditure of SP dice or MP dice. A vampire that is exposed to direct sunlight takes 1 HP damage at the start of its turn. Unlike living beings, a vampire that is starved of blood does not die. Instead it becomes dormant, until it has been fed.</p>
+<p>In most settings vampires are beings of intense hunger, both for sustenance (blood) and for carnal pleasures.</p>
+<hr class="docutils" />
+<section id="vampire-spawn">
+<h3>Vampire Spawn<a class="headerlink" href="#vampire-spawn" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><strong>Size</strong>: Medium</p></li>
+<li><p><strong>Natural Armour</strong>: Armour +2</p></li>
+<li><p><strong>Saves</strong>: STR, INT, WIS</p></li>
+<li><p><strong>Carrying capacity</strong></p>
+<ul>
+<li><p>Light: 60lb</p></li>
+<li><p>Medium: 120lb</p></li>
+<li><p>Heavy: 300lb</p></li>
+</ul>
+</li>
+<li><p><strong>Inventory</strong>: Usually carry some coin, and items of once sentimental value. Sometimes a weapon they were familiar with in life.</p></li>
+</ul>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>HiT/Surprised/Touch</p></th>
+<th class="head"><p>SP</p></th>
+<th class="head"><p>MP</p></th>
+<th class="head"><p>HP</p></th>
+<th class="head"><p>Speed (walk)</p></th>
+<th class="head"><p>Speed (other)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>15/13/13</p></td>
+<td><p>28 (<em>20</em>)</p></td>
+<td><p>26 (<em>18</em>)</p></td>
+<td><p>9</p></td>
+<td><p>30ft</p></td>
+<td><p>Climb (30ft)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>Str</p></th>
+<th class="head"><p>Dex</p></th>
+<th class="head"><p>Con</p></th>
+<th class="head"><p>Int</p></th>
+<th class="head"><p>Wis</p></th>
+<th class="head"><p>Cha</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Stat</p></td>
+<td><p>15</p></td>
+<td><p>14</p></td>
+<td><p>15</p></td>
+<td><p>10</p></td>
+<td><p>13</p></td>
+<td><p>14</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bonus</p></td>
+<td><p>+2</p></td>
+<td><p>+2</p></td>
+<td><p>+2</p></td>
+<td><p>0</p></td>
+<td><p>+1</p></td>
+<td><p>+2</p></td>
+</tr>
+<tr class="row-even"><td><p>Save</p></td>
+<td><p>+5</p></td>
+<td><p>+3</p></td>
+<td><p>+3</p></td>
+<td><p>+4</p></td>
+<td><p>+5</p></td>
+<td><p>+3</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level(base)</p></th>
+<th class="head"><p>SP Dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>Nat</p></th>
+<th class="head"><p>Sup</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SAP</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>5(1)</p></td>
+<td><p>9</p></td>
+<td><p>8</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p>3</p></td>
+<td><p>3</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Ability</p></th>
+<th class="head"><p>Bonus</p></th>
+<th class="head"><p>Damage</p></th>
+<th class="head"><p>Other</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Claws</p></td>
+<td><p>+5</p></td>
+<td><p>1d6+2</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Short sword</p></td>
+<td><p>+5</p></td>
+<td><p>1d6+2</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Grapple</p></td>
+<td><p>+5</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Vampiric Bite</p></td>
+<td><p>+5</p></td>
+<td><p>1d4+2</p></td>
+<td><p>If a vampire’s bite causes HP damage to а mortal with blood, the vampire regains that number of HP. If the vampire is already at full HP, its STR increases by the number of points of damage dealt to the target’s HP for 1 minute.</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#charm-i-iv">Charm I</a></p></td>
+<td><p>Thr=15</p></td>
+<td><p></p></td>
+<td><p>(Cost = 1 MP die) A lesser vampire can charm its victim. If it has imbibed its victim’s blood, then the victim has disadvantage on the save.</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#combined-manoeuvre-i-v">Combined Manoeuvre I</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>(1SP die) A vampire spawn can grapple when making a claw attack.</p></td>
+</tr>
+<tr class="row-even"><td><p>Alternate Form: Bat</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A vampire can turn into a bat, or back, as a secondary action. It takes the bat’s physical stats, saves, size, HiT, and movement modalities, but is otherwise still a vampire</p></td>
+</tr>
+<tr class="row-odd"><td><p>Resistant</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“physical” damage, “disease”, “Poi”</p></td>
+</tr>
+<tr class="row-even"><td><p>Resistant</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“prone”, “bleeding”, “crippled”, “incapacitated”, “frightened”, “poisoned”, “diseased”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Immune</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“fear”, “unconscious”</p></td>
+</tr>
+<tr class="row-even"><td><p>Vulnerability</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Div”, “light”</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#low-light-vision">Low-light vision</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A vampire can see in dim light as if it was daylight</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#heat-sense-i-v">Heat sense (30ft)</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A vampire can detect the body heat of warm blooded beings, as well as other sources of heat.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#keen-senses-i-iii">Keen scent</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A vampire has advantage on observe and prospect rolls based on scent.</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Skills</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Observe” +5, “Harvest” +6, “Athletics”+4, “Climb” +4, “Acrobatics” +4, “Sense Motive” +3, “Deception” +4, “Persuasion” +3, +1 rank for 4 other skills.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>This represents an average humanoid that has become a lesser vampire. Potentially the thrall of a greater vampire. In most settings, vampire spawn (lesser vampires) are not truly free and are bound to the existence of their sire.</p>
+<p>Vampire spawn tend to retain part of the personality and most of the memories they had in life, but their original sense of values and priorities is seldom preserved.</p>
+</section>
+<hr class="docutils" />
+<section id="vampire">
+<h3>Vampire<a class="headerlink" href="#vampire" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><strong>Size</strong>: Medium</p></li>
+<li><p><strong>Natural Armour</strong>: Armour +2. A vampire may or may not be proficient and wearing armour.</p></li>
+<li><p><strong>Saves</strong>: STR, INT, WIS</p></li>
+<li><p><strong>Carrying capacity</strong></p>
+<ul>
+<li><p>Light: 76lb</p></li>
+<li><p>Medium: 152lb</p></li>
+<li><p>Heavy: 380lb</p></li>
+</ul>
+</li>
+<li><p><strong>Inventory</strong>: Usually carry some coin, and items of once sentimental value. Sometimes a weapon they were familiar with in life. A vampire who was a warrior might wear its armour and carry its weapons. A vampire that once was a mage might not.</p></li>
+</ul>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>HiT/Surprised/Touch</p></th>
+<th class="head"><p>SP</p></th>
+<th class="head"><p>MP</p></th>
+<th class="head"><p>HP</p></th>
+<th class="head"><p>Speed (walk)</p></th>
+<th class="head"><p>Speed (other)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>17/15/15</p></td>
+<td><p>57 (<em>37</em>)</p></td>
+<td><p>55 (<em>35</em>)</p></td>
+<td><p>17</p></td>
+<td><p>40ft</p></td>
+<td><p>Climb (40ft)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>Str</p></th>
+<th class="head"><p>Dex</p></th>
+<th class="head"><p>Con</p></th>
+<th class="head"><p>Int</p></th>
+<th class="head"><p>Wis</p></th>
+<th class="head"><p>Cha</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Stat</p></td>
+<td><p>19</p></td>
+<td><p>16</p></td>
+<td><p>17</p></td>
+<td><p>14</p></td>
+<td><p>15</p></td>
+<td><p>17</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bonus</p></td>
+<td><p>+4</p></td>
+<td><p>+3</p></td>
+<td><p>+3</p></td>
+<td><p>+2</p></td>
+<td><p>+2</p></td>
+<td><p>+3</p></td>
+</tr>
+<tr class="row-even"><td><p>Save</p></td>
+<td><p>+10</p></td>
+<td><p>+3</p></td>
+<td><p>+3</p></td>
+<td><p>+8</p></td>
+<td><p>+8</p></td>
+<td><p>+3</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level(base)</p></th>
+<th class="head"><p>SP Dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>Nat</p></th>
+<th class="head"><p>Sup</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SAP</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>11(3)</p></td>
+<td><p>17</p></td>
+<td><p>16</p></td>
+<td><p>3</p></td>
+<td><p>3</p></td>
+<td><p>6</p></td>
+<td><p>6</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Ability</p></th>
+<th class="head"><p>Bonus</p></th>
+<th class="head"><p>Damage</p></th>
+<th class="head"><p>Other</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Claws</p></td>
+<td><p>+10</p></td>
+<td><p>1d6+4</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Rapier (Steel)</p></td>
+<td><p>+12</p></td>
+<td><p>1d10+5</p></td>
+<td><p>(Reach=5ft long)</p></td>
+</tr>
+<tr class="row-even"><td><p>Dagger</p></td>
+<td><p>+12</p></td>
+<td><p>1d4+5</p></td>
+<td><p>(Reach=5ft long)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Vampiric Bite</p></td>
+<td><p>+10</p></td>
+<td><p>1d4+4</p></td>
+<td><p>If a vampire’s bite causes HP damage to а mortal with blood, the vampire regains that number of HP. If the vampire is already at full HP, its STR increases by the number of points of damage dealt to the target’s HP for 1 minute.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#steel-wind-strike">Steel Wind Strike</a></p></td>
+<td><p>+12</p></td>
+<td><p>+1d8/SP die</p></td>
+<td><p>A vampire can use up to 4 SP die when executing a steel wind strike.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Grapple, Disarm</p></td>
+<td><p>+10</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#charm-i-iv">Charm II</a></p></td>
+<td><p>Thr=18</p></td>
+<td><p></p></td>
+<td><p>(Cost = 1 MP die) A vampire can charm its victim. If it has imbibed its victim’s blood, then the victim has disadvantage on the save.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#spellcasting-local">Sc: Incantation III</a></p></td>
+<td><p>Thr=18</p></td>
+<td><p></p></td>
+<td><p>Favourite Spells: <a class="reference external" href="../08-spell-list.html#least-ward">“Least Ward”</a>, <a class="reference external" href="../08-spell-list.html#down">“Down”</a>, <a class="reference external" href="../08-spell-list.html#least-pyromancy">“Least Pyromancy”</a>, <a class="reference external" href="../08-spell-list.html#least-vengeance">“Least Vengeance”</a>, <a class="reference external" href="../08-spell-list.html#promise">“Promise”</a>, <a class="reference external" href="../08-spell-list.html#wind-walk">“Wind Walk”</a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#spellcasting-local">Sc: Kinetic III</a></p></td>
+<td><p>Thr=18</p></td>
+<td><p></p></td>
+<td><p>Favourite Spells: <a class="reference external" href="../08-spell-list.html#mist">“Mist”</a>, <a class="reference external" href="../08-spell-list.html#silent">“Silent”</a>, <a class="reference external" href="../08-spell-list.html#whispers">“Whispers”</a>, <a class="reference external" href="../08-spell-list.html#spirits-secret">“Lesser Spirits’ Secret”</a>, <a class="reference external" href="../08-spell-list.html#least-transformation">“Least Transformation”</a>, <a class="reference external" href="../08-spell-list.html#least-curse">“Least Curse”</a></p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#debilitating-strike">Debilitating Strike: Blinded</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>(Cost = 1 SP die) A vampire can make an attack as a main action that temporarily blind its target.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#debilitating-strike">Debilitating Strike: Aphonia</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>(Cost = 1 SP die) A vampire can make an attack as a main action that temporarily mutes its target.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#flurry">Flurry</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>(Cost = 1 SP die) A vampire can once or twice with its dagger as a secondary action.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#parry">Parry</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A vampire can gain +3 to HiT against up to 3 attacks.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#multi-attack-i-iii">Multi-attack I</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A vampire can make two basic combat manoeuvres as part of its attack.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#combined-manoeuvre-i-v">Combined Manoeuvre I</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>(1SP die) A vampire can make a conventional combined manoeuvre</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Alternate Form: Bat</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A vampire can turn into a bat, or back, as a secondary action. It takes the bat’s physical stats, saves, size, HiT, and movement modalities, but is otherwise still a vampire</p></td>
+</tr>
+<tr class="row-odd"><td><p>Resistant</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“physical” damage, “disease”, “Poi”, Nec”</p></td>
+</tr>
+<tr class="row-even"><td><p>Resistant</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“prone”, “bleeding”, “crippled”, “incapacitated”, “frightened”, “poisoned”, “diseased”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Immune</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“fear”, “unconscious”</p></td>
+</tr>
+<tr class="row-even"><td><p>Vulnerability</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Div”, “light”</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#spellcasting-global">Sc: Global</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#low-light-vision">Low-light vision</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A vampire can see in dim light as if it was daylight</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#heat-sense-i-v">Heat sense (30ft)</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A vampire can detect the body heat of warm blooded beings, as well as other sources of heat.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#life-sense-i-vi">Life Sense (30ft)</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A vampire can detect the presence of living beings withn 30ft of itself.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#keen-senses-i-iii">Keen scent</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A vampire has advantage on observe and prospect rolls based on scent.</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Skills</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Observe” +7, “Harvest” +6, “Athletics”+6, “Climb” +6, “Acrobatics” +6, “Sense Motive” +7, “Deception” +8, “Persuasion” +7, +1 rank for 6 other skills.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>This represents a full vampire, or perhaps a vampire spawn that has existed for long enough to become a full vampire. This kind of vampire is a dangerous adversary. Vampires can have different sets of abilities. This stat block models a vampire who may have been a noble in a 15-18th style society.</p>
+<p>Vampires tend to retain part of the personality and most of the memories they had in life, but their original sense of values and priorities is seldom preserved.</p>
+<p>A vampire does not always prefer to choose to attain its goals through violence, but when it does, it will usually first assess its target carefully. It will use charm and deception to strip away allies and resources, before using its own minions to wear down remaining foes. Thereafter, if there is still a need, it will enter combat itself. A vampire may use might, magic, or a combination of both. The personality of vampires varies, but most enjoy humiliating their foes when they are weak and will only fight themselves when they are confident of victory, or have no other choice.</p>
+</section>
+<hr class="docutils" />
+<section id="vampire-lord">
+<h3>Vampire Lord<a class="headerlink" href="#vampire-lord" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><strong>Size</strong>: Medium</p></li>
+<li><p><strong>Natural Armour</strong>: Armour +4, an ancient vampire may also be wearing armour.</p></li>
+<li><p><strong>Saves</strong>: STR, INT, WIS</p></li>
+<li><p><strong>Carrying capacity</strong></p>
+<ul>
+<li><p>Light: 130lb</p></li>
+<li><p>Medium: 260lb</p></li>
+<li><p>Heavy: 520lb</p></li>
+</ul>
+</li>
+<li><p><strong>Inventory</strong>: Usually carry some coin, and items of once sentimental value. Sometimes a weapon they were familiar with in life. A vampire who was a warrior might wear its armour and carry its weapons. A vampire that once was a mage might not.</p></li>
+</ul>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>HiT/Surprised/Touch</p></th>
+<th class="head"><p>SP</p></th>
+<th class="head"><p>MP</p></th>
+<th class="head"><p>HP</p></th>
+<th class="head"><p>Speed (walk)</p></th>
+<th class="head"><p>Speed (other)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>21/21/18</p></td>
+<td><p>139 (<em>59</em>)</p></td>
+<td><p>181 (<em>59</em>)</p></td>
+<td><p>29</p></td>
+<td><p>50ft</p></td>
+<td><p>Climb (50ft)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>Str</p></th>
+<th class="head"><p>Dex</p></th>
+<th class="head"><p>Con</p></th>
+<th class="head"><p>Int</p></th>
+<th class="head"><p>Wis</p></th>
+<th class="head"><p>Cha</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Stat</p></td>
+<td><p>26</p></td>
+<td><p>16</p></td>
+<td><p>21</p></td>
+<td><p>17</p></td>
+<td><p>21</p></td>
+<td><p>24</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bonus</p></td>
+<td><p>+7</p></td>
+<td><p>+3</p></td>
+<td><p>+5</p></td>
+<td><p>+3</p></td>
+<td><p>+5</p></td>
+<td><p>+7</p></td>
+</tr>
+<tr class="row-even"><td><p>Save</p></td>
+<td><p>+16</p></td>
+<td><p>+7</p></td>
+<td><p>+9</p></td>
+<td><p>+12</p></td>
+<td><p>+14</p></td>
+<td><p>+11</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level(base)</p></th>
+<th class="head"><p>SP Dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>Nat</p></th>
+<th class="head"><p>Sup</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SAP</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>17(4)</p></td>
+<td><p>27</p></td>
+<td><p>26</p></td>
+<td><p>5</p></td>
+<td><p>5</p></td>
+<td><p>9</p></td>
+<td><p>9</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Ability</p></th>
+<th class="head"><p>Bonus</p></th>
+<th class="head"><p>Damage</p></th>
+<th class="head"><p>Other</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Claws</p></td>
+<td><p>+16</p></td>
+<td><p>1d12+7</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Great Axe (Iron)</p></td>
+<td><p>+17</p></td>
+<td><p>2d8+7</p></td>
+<td><p>(Reach=5ft long)</p></td>
+</tr>
+<tr class="row-even"><td><p>Grapple</p></td>
+<td><p>+16</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Disarm</p></td>
+<td><p>+16</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Throw</p></td>
+<td><p>+16</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Sunder</p></td>
+<td><p>+16</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Vampiric Bite</p></td>
+<td><p>+16</p></td>
+<td><p>1d4+7</p></td>
+<td><p>If a vampire’s bite causes HP damage to а mortal with blood, the vampire regains that number of HP. If the vampire is already at full HP, its STR increases by the number of points of damage dealt to the target’s HP for 1 minute.</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#steel-wind-strike">Steel Wind Strike</a></p></td>
+<td><p>+12</p></td>
+<td><p>+1d8/SP die</p></td>
+<td><p>A vampire can use up to 9 SP die when executing a steel wind strike and attack up to 6 targets.</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#charm-i-iv">Charm III</a></p></td>
+<td><p>Thr=21</p></td>
+<td><p></p></td>
+<td><p>(Cost = 1 MP die) A vampire can charm its victim. If it has imbibed its victim’s blood, then the victim has disadvantage on the save.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#spellcasting-local">Sc: Incantation VI</a></p></td>
+<td><p>Thr=21</p></td>
+<td><p></p></td>
+<td><p>Favourite Spells: <a class="reference external" href="../08-spell-list.html#least-ward">“Least Ward”</a>, <a class="reference external" href="../08-spell-list.html#down">“Down”</a>, <a class="reference external" href="../08-spell-list.html#least-pyromancy">“Least Pyromancy”</a>, <a class="reference external" href="../08-spell-list.html#least-vengeance">“Least Vengeance”</a>, <a class="reference external" href="../08-spell-list.html#promise">“Promise”</a>, <a class="reference external" href="../08-spell-list.html#wind-walk">“Wind Walk”</a>, <a class="reference external" href="../08-spell-list.html#lesser-weather-control">“Lesser Weather Control”</a>, <a class="reference external" href="../08-spell-list.html#summon-spirit">“Summon Spirit”</a>, <a class="reference external" href="../08-spell-list.html#pact">“Pact”</a>, <a class="reference external" href="../08-spell-list.html#spirit-restoration">“Spirit Restoration”</a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#spellcasting-local">Sc: Kinetic VI</a></p></td>
+<td><p>Thr=21</p></td>
+<td><p></p></td>
+<td><p>Favourite Spells: <a class="reference external" href="../08-spell-list.html#mist">“Mist”</a>, <a class="reference external" href="../08-spell-list.html#silent">“Silent”</a>, <a class="reference external" href="../08-spell-list.html#whispers">“Whispers”</a>, <a class="reference external" href="../08-spell-list.html#spirits-secret">“Lesser Spirits’ Secret”</a>, <a class="reference external" href="../08-spell-list.html#least-transformation">“Least Transformation”</a>, <a class="reference external" href="../08-spell-list.html#least-curse">“Least Curse”</a>, <a class="reference external" href="../08-spell-list.html#scry">“Scry”</a>, <a class="reference external" href="../08-spell-list.html#plague">“Plague”</a>, <a class="reference external" href="../08-spell-list.html#madness">“Madness”</a></p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#broad-strike">Broad Strike</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>(Cost = 1SP die) An ancient vampire can strike all adjacent targets within its reach.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#berserk-i-v">Berserk III</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>An ancient vampire can enter a blood frenzy as it cuts down its foes.</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#debilitating-strike">Debilitating Strike: Blinded</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>(Cost = 1 SP die) A vampire can make an attack as a main action that temporarily blind its target.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#debilitating-strike">Debilitating Strike: Aphonia</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>(Cost = 1 SP die) A vampire can make an attack as a main action that temporarily mutes its target.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#parry">Parry</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A vampire can gain +5 to HiT against up to 4 attacks.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#multi-attack-i-iii">Multi-attack II</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>An ancient vampire can make 3 basic combat manoeuvres as part of its attack.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#combined-manoeuvre-i-v">Combined Manoeuvre II</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>(1SP die) An ancient vampire can make a conventional combined manoeuvre to combine up to 3 basic combat manoeuvres.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#flash-step">Flash Step</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A vampire can move great distances as a secondary action.</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#alert">Alert</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>An ancient vampire cannot be surprised.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Alternate Form: Bat</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A vampire can turn into a bat, or back, as a secondary action. It takes the bat’s physical stats, saves, size, HiT, and movement modalities, but is otherwise still a vampire</p></td>
+</tr>
+<tr class="row-even"><td><p>Resistant</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“physical” damage, “disease”, “Poi”, Nec”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Resistant</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“prone”, “bleeding”, “crippled”, “incapacitated”, “frightened”, “poisoned”, “diseased”</p></td>
+</tr>
+<tr class="row-even"><td><p>Immune</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“fear”, “unconscious”, “charm”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Vulnerability</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Div”, “light”</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#forbidden-spell">Forbidden Spell</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p><a class="reference external" href="../08-spell-list.html#forced-possession">“Forced Possession”</a>, <a class="reference external" href="../08-spell-list.html#dominate-mortal">“Dominate Mortal”</a>, <a class="reference external" href="../08-spell-list.html#summon-fiend">“Summon Fiend”</a>, <a class="reference external" href="../08-spell-list.html#legion-of-dead">“Legion of Dead”</a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#spellcasting-global">Sc: Global</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#low-light-vision">Low-light vision</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A vampire can see in dim light as if it was daylight</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#heat-sense-i-v">Heat sense (60ft)</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A vampire can detect the body heat of warm blooded beings, as well as other sources of heat.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#life-sense-i-vi">Life Sense (30ft)</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A vampire can detect the presence of living beings withn 30ft of itself.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#keen-senses-i-iii">Keen scent</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A vampire has advantage on observe and prospect rolls based on scent.</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Skills</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Observe” +17, “Harvest” +10, “Athletics” +12, “Climb” +12, “Acrobatics” +9, “Sense Motive” +13, “Deception” +8, “Persuasion” +7, “Knowledge:Religion” +11, “Knowledge:Arcana: +11, +2 ranks for all other skills.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>This represents a lord of vampires, or an ancient vampire that has fed on humanoids for millennia. Either case, this is a legendary monster.</p>
+<p>Vampires tend to retain part of the personality and most of the memories they had in life, but their original sense of values and priorities is seldom preserved. That said, an ancient vampire that has existed for this long and gained this much power is likely to have moved so far beyond its humanity that it is unrecognisable by any human standard.</p>
+<p>A vampire does not always prefer to choose to attain its goals through violence, but when it does, it will usually first assess its target carefully. It will use charm and deception to strip away allies and resources, before using its own minions to wear down remaining foes. Thereafter, if there is still a need, it will enter combat itself. A vampire may use might, magic, or a combination of both. The personality of vampires varies, but most enjoy humiliating their foes when they are weak and will only fight themselves when they are confident of victory, or have no other choice. Alternatively, a vampire lord may just step in directly without any preparation to toy with its victims out of Sh boredom, or any other reason for that mater.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="undead-incorporeal">
+<h2>Undead: Incorporeal<a class="headerlink" href="#undead-incorporeal" title="Link to this heading">¶</a></h2>
+<p>This category comprises mostly ghosts, phantoms, shades and other malicious spirits of once living mortals. They are generally invulnerable to physical damage, and even if they are, they cannot be destroyed permanently by the application of physical force. Their attacks are particularly dangerous since they often drain the vitality, which is much more difficult to protect against than conventional attacks.</p>
+<hr class="docutils" />
+<section id="cursed-shade-lesser">
+<h3>Cursed Shade (lesser)<a class="headerlink" href="#cursed-shade-lesser" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>HiT/Surprised/Touch</p></th>
+<th class="head"><p>SP</p></th>
+<th class="head"><p>MP</p></th>
+<th class="head"><p>HP</p></th>
+<th class="head"><p>Speed (walk)</p></th>
+<th class="head"><p>Speed (other)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>11/10/11</p></td>
+<td><p>-</p></td>
+<td><p>25 (<em>22</em>)</p></td>
+<td><p>7</p></td>
+<td><p>40ft</p></td>
+<td><p>Climb (40ft), Fly (30ft, perfect, endurance = unlimited)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>Str</p></th>
+<th class="head"><p>Dex</p></th>
+<th class="head"><p>Con</p></th>
+<th class="head"><p>Int</p></th>
+<th class="head"><p>Wis</p></th>
+<th class="head"><p>Cha</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Stat</p></td>
+<td><p>-</p></td>
+<td><p>12</p></td>
+<td><p>-</p></td>
+<td><p>10</p></td>
+<td><p>8</p></td>
+<td><p>16</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bonus</p></td>
+<td><p>-</p></td>
+<td><p>+1</p></td>
+<td><p>-</p></td>
+<td><p>0</p></td>
+<td><p>-1</p></td>
+<td><p>+2</p></td>
+</tr>
+<tr class="row-even"><td><p>Save</p></td>
+<td><p>-</p></td>
+<td><p>0</p></td>
+<td><p>-</p></td>
+<td><p>+1</p></td>
+<td><p>0</p></td>
+<td><p>+3</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level(base)</p></th>
+<th class="head"><p>SP Dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>Nat</p></th>
+<th class="head"><p>Sup</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SAP</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>3 (1)</p></td>
+<td><p>1</p></td>
+<td><p>10</p></td>
+<td><p>1</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p>3</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Ability</p></th>
+<th class="head"><p>Bonus</p></th>
+<th class="head"><p>Damage</p></th>
+<th class="head"><p>Other</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Shade’s touch</p></td>
+<td><p>+5</p></td>
+<td><p>1d4+1</p></td>
+<td><p>“Profane” damage. Entities touched must succeed a Thr=18 WIS save or be “catatonic” until they are no longer in line of sight of the shade.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Profane aura</p></td>
+<td><p>Thr=16 CON</p></td>
+<td><p></p></td>
+<td><p>(Range = 30ft) A shade removes warmth and vital energies from within 30ft. The temperature within the aura drops by one category. All mortals entering or starting their turn in a shade’s aura must succeed on a CON save or have disadvantage on DEX based rolls and take 3 points of supernatural cold damage.</p></td>
+</tr>
+<tr class="row-even"><td><p>Spellcasting III</p></td>
+<td><p>Thr=18</p></td>
+<td><p></p></td>
+<td><p><a class="reference external" href="../08-spell-list.html#least-curse">“Least Curse”</a></p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Resistant</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Fir”, “ice” damage</p></td>
+</tr>
+<tr class="row-odd"><td><p>Vulnerability</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Div”, “light”</p></td>
+</tr>
+<tr class="row-even"><td><p>Immune</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“physical” damage and all combat manoeuvres carried out without “spiritual” properties</p></td>
+</tr>
+<tr class="row-odd"><td><p>Immune</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Immune</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“disease”, “unconscious”, “dying”, “stunned”, “charmed”, “frightened”, “paralysed”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Senses</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“low-light vision”, “life-sense” 60ft</p></td>
+</tr>
+<tr class="row-even"><td><p>Horror of the Dark</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>The shade has advantage on “stealth” in low-light and darkness. If exposed to direct sunlight, the shade dissipates until low-light conditions are restored</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Cursed shades are incorporeal undead. They are the vestiges of those who died cursing their own existence. Nevertheless they are incredibly dangerous.</p>
+<p>NB: Cursed Shades are extremely dangerous as profane damage attacks HP directly.</p>
+</section>
+<hr class="docutils" />
+<section id="cursed-shade">
+<h3>Cursed Shade<a class="headerlink" href="#cursed-shade" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>HiT/Surprised/Touch</p></th>
+<th class="head"><p>SP</p></th>
+<th class="head"><p>MP</p></th>
+<th class="head"><p>HP</p></th>
+<th class="head"><p>Speed (walk)</p></th>
+<th class="head"><p>Speed (other)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>11/10/11</p></td>
+<td><p>-</p></td>
+<td><p>72 (<em>48</em>)</p></td>
+<td><p>15</p></td>
+<td><p>40ft</p></td>
+<td><p>Climb (40ft), cosmic (1 realm)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>Str</p></th>
+<th class="head"><p>Dex</p></th>
+<th class="head"><p>Con</p></th>
+<th class="head"><p>Int</p></th>
+<th class="head"><p>Wis</p></th>
+<th class="head"><p>Cha</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Stat</p></td>
+<td><p>-</p></td>
+<td><p>13</p></td>
+<td><p>-</p></td>
+<td><p>14</p></td>
+<td><p>12</p></td>
+<td><p>18</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bonus</p></td>
+<td><p>-</p></td>
+<td><p>+3</p></td>
+<td><p>-</p></td>
+<td><p>0</p></td>
+<td><p>+1</p></td>
+<td><p>+4</p></td>
+</tr>
+<tr class="row-even"><td><p>Save</p></td>
+<td><p>-</p></td>
+<td><p>+6</p></td>
+<td><p>-</p></td>
+<td><p>+4</p></td>
+<td><p>+3</p></td>
+<td><p>+6</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level(base)</p></th>
+<th class="head"><p>SP Dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>Nat</p></th>
+<th class="head"><p>Sup</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SAP</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>7 (2)</p></td>
+<td><p>1</p></td>
+<td><p>22</p></td>
+<td><p>1</p></td>
+<td><p>4</p></td>
+<td><p>3</p></td>
+<td><p>6</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Ability</p></th>
+<th class="head"><p>Bonus</p></th>
+<th class="head"><p>Damage</p></th>
+<th class="head"><p>Other</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Shade’s touch</p></td>
+<td><p>+9</p></td>
+<td><p>1d4+3</p></td>
+<td><p>(main action) “Profane” damage. Entities touched must succeed a Thr=18 WIS save or be “catatonic” until they are no longer in line of sight of the shade.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Shade’s gaze</p></td>
+<td><p>Thr=21</p></td>
+<td><p>1d3</p></td>
+<td><p>(secondary action, range 30ft, 2MP dice) A shade can look into the darker part’s of a mortal’s soul, draining 1d3 SP dice and the same number of MP dice. (Averting gaze makes one immune, but also makes you blind in respect to the shade)</p></td>
+</tr>
+<tr class="row-even"><td><p>Profane aura</p></td>
+<td><p>Thr=19 CON</p></td>
+<td><p></p></td>
+<td><p>(Range = 60ft) A shade removes warmth and vital energies from within 30ft. The temperature within the aura drops by one category. All mortals entering or starting their turn in a shade’s aura must succeed on a CON save or have disadvantage on DEX based rolls and take 3 points of supernatural cold damage.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Spellcasting III</p></td>
+<td><p>Thr=18</p></td>
+<td><p></p></td>
+<td><p><a class="reference external" href="../08-spell-list.html#least-curse">“Least Curse”</a></p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Resistant</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Fir”, “ice” damage from supernatural sources</p></td>
+</tr>
+<tr class="row-even"><td><p>Vulnerability</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Div”, “light” from supernatural sources</p></td>
+</tr>
+<tr class="row-odd"><td><p>Immune</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“natural” damage (except “light”) and all combat manoeuvres carried out without “spiritual” properties</p></td>
+</tr>
+<tr class="row-even"><td><p>Immune</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>All combat manoeuvres carried by corporeal entities without the “spiritual” property</p></td>
+</tr>
+<tr class="row-odd"><td><p>Immune</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“disease”, “unconscious”, “dying”, “stunned”, “charmed”, “frightened”, “paralysed”</p></td>
+</tr>
+<tr class="row-even"><td><p>Senses</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“low-light vision”, “life-sense” 120ft</p></td>
+</tr>
+<tr class="row-odd"><td><p>Horror of the Dark</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>The shade has advantage on “stealth” in low-light and darkness. If exposed to direct sunlight, the shade dissipates until low-light conditions are restored</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Cursed shades are incorporeal undead. They are the vestiges of those who died cursing their own existence. They are incredibly dangerous.</p>
+<p>NB: Cursed Shades are extremely dangerous as profane damage attacks HP directly. This kind of shade is also immune to almost all natural damage.</p>
+</section>
+<hr class="docutils" />
+<section id="earthbound-shade-lesser">
+<h3>Earthbound Shade (lesser)<a class="headerlink" href="#earthbound-shade-lesser" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>HiT/Surprised/Touch</p></th>
+<th class="head"><p>SP</p></th>
+<th class="head"><p>MP</p></th>
+<th class="head"><p>HP</p></th>
+<th class="head"><p>Speed (walk)</p></th>
+<th class="head"><p>Speed (other)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>11/10/11</p></td>
+<td><p>-</p></td>
+<td><p>26 (<em>22</em>)</p></td>
+<td><p>7</p></td>
+<td><p>40ft</p></td>
+<td><p>Climb (40ft)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>Str</p></th>
+<th class="head"><p>Dex</p></th>
+<th class="head"><p>Con</p></th>
+<th class="head"><p>Int</p></th>
+<th class="head"><p>Wis</p></th>
+<th class="head"><p>Cha</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Stat</p></td>
+<td><p>-</p></td>
+<td><p>12</p></td>
+<td><p>-</p></td>
+<td><p>10</p></td>
+<td><p>12</p></td>
+<td><p>14</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bonus</p></td>
+<td><p>-</p></td>
+<td><p>-1</p></td>
+<td><p>-</p></td>
+<td><p>0</p></td>
+<td><p>+1</p></td>
+<td><p>+2</p></td>
+</tr>
+<tr class="row-even"><td><p>Save</p></td>
+<td><p>-</p></td>
+<td><p>0</p></td>
+<td><p>-</p></td>
+<td><p>+1</p></td>
+<td><p>+2</p></td>
+<td><p>+3</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level(base)</p></th>
+<th class="head"><p>SP Dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>Nat</p></th>
+<th class="head"><p>Sup</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SAP</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>3 (1)</p></td>
+<td><p>1</p></td>
+<td><p>10</p></td>
+<td><p>1</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p>3</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Ability</p></th>
+<th class="head"><p>Bonus</p></th>
+<th class="head"><p>Damage</p></th>
+<th class="head"><p>Other</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Shade’s touch</p></td>
+<td><p>+4</p></td>
+<td><p>2d6+1</p></td>
+<td><p>The damage counts as simultaneously cold and necrotic, entities touched must succeed a Thr=17 WIS save or be “frightened” of the shade until they are no longer in line of sight of the shade.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Spellcasting III</p></td>
+<td><p>Thr=16</p></td>
+<td><p></p></td>
+<td><p><a class="reference external" href="../08-spell-list.html#least-curse">“Least Curse”</a></p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Resistant</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Fir”, “ice” damage</p></td>
+</tr>
+<tr class="row-even"><td><p>Vulnerability</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Div”, “light”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Immune</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“physical” damage and all combat manoeuvres carried out without “spiritual” properties</p></td>
+</tr>
+<tr class="row-even"><td><p>Immune</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Immune</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“disease”, “unconscious”, “dying”, “stunned”, “charmed”, “frightened”, “paralysed”</p></td>
+</tr>
+<tr class="row-even"><td><p>Senses</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“low-light vision”, “life-sense” 60ft</p></td>
+</tr>
+<tr class="row-odd"><td><p>Horror of the Dark</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>The shade has advantage on “stealth” in low-light and darkness. If exposed to direct sunlight, the shade dissipates until low-light conditions are restored</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Earthbound shades are lesser incorporeal undead that cannot detach themselves from the earth’s surface. Nevertheless they are incredibly dangerous.</p>
+<p>NB: Shades are dangerous since they cannot be harmed by most weapons and are highly resistant to 3/4 elements.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="fiends">
+<h2>Fiends<a class="headerlink" href="#fiends" title="Link to this heading">¶</a></h2>
+<p><strong>Fiends</strong> are entities opposed to creation or mortal-kind. In realms where they exist, devils and demons are fiends. Sometimes divine entities fall and become fiends. Fiends that do not reach minus their total HP from “divine” damage will be reborn elsewhere, at another time (hence cycles of dark lord and heroes).</p>
+<p>Fiends do not breath, sleep or age, but some eat/drink. Fiends are vulnerable to “divine” damage, and are resistant to “physical”, “Fir”, “ice”, “Lig” and “light” damage. They are immune to “disease” and “poison” as well as “unconscious” and “dying”.</p>
+<hr class="docutils" />
+<section id="imp">
+<h3>Imp<a class="headerlink" href="#imp" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>HiT/Surprised/Touch</p></th>
+<th class="head"><p>SP</p></th>
+<th class="head"><p>MP</p></th>
+<th class="head"><p>HP</p></th>
+<th class="head"><p>Speed (walk)</p></th>
+<th class="head"><p>Speed (other)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>15/10/15</p></td>
+<td><p>4</p></td>
+<td><p>8</p></td>
+<td><p>3</p></td>
+<td><p>20ft</p></td>
+<td><p>Flu (40ft, good, endurance = 4 hours), Climb (20ft)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Imps are tiny (+2 evasion, +2 DEX save, -2 STR save)</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>Str</p></th>
+<th class="head"><p>Dex</p></th>
+<th class="head"><p>Con</p></th>
+<th class="head"><p>Int</p></th>
+<th class="head"><p>Wis</p></th>
+<th class="head"><p>Cha</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Stat</p></td>
+<td><p>4</p></td>
+<td><p>17</p></td>
+<td><p>11</p></td>
+<td><p>14</p></td>
+<td><p>10</p></td>
+<td><p>14</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bonus</p></td>
+<td><p>-3</p></td>
+<td><p>+3</p></td>
+<td><p>0</p></td>
+<td><p>+2</p></td>
+<td><p>0</p></td>
+<td><p>+2</p></td>
+</tr>
+<tr class="row-even"><td><p>Save</p></td>
+<td><p>-4</p></td>
+<td><p>+5</p></td>
+<td><p>+1</p></td>
+<td><p>+3</p></td>
+<td><p>+1</p></td>
+<td><p>+3</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level(base)</p></th>
+<th class="head"><p>SP Dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>Nat</p></th>
+<th class="head"><p>Sup</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SAP</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1 (1)</p></td>
+<td><p>2</p></td>
+<td><p>3</p></td>
+<td><p>1</p></td>
+<td><p>1</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Ability</p></th>
+<th class="head"><p>Bonus</p></th>
+<th class="head"><p>Damage</p></th>
+<th class="head"><p>Other</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Claw</p></td>
+<td><p>+5</p></td>
+<td><p>1d3+3</p></td>
+<td><p>(Thr=14) A mortal that is damaged by an imp’s claws must succeed on a CON save at the start of its turn, or take 1 point of STR damage</p></td>
+</tr>
+<tr class="row-odd"><td><p>Least Blast (fire)</p></td>
+<td><p>+2</p></td>
+<td><p>1d6+2 Fir[sup]</p></td>
+<td><p>Range 10ft/120ft.</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Skills</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“deception” +4, “flight” +5</p></td>
+</tr>
+<tr class="row-even"><td><p>Senses</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“low-light vision”, “heat sense” 30ft</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Resistant</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“physical” damage, “Fir”, “ice” damage</p></td>
+</tr>
+<tr class="row-odd"><td><p>Immune</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“disease”, “Poi”, “dying”</p></td>
+</tr>
+<tr class="row-even"><td><p>Vulnerability</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Div”, “light: supernatural” damage</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Imps are tiny fiends. Their potential for evil and destruction is limited only by their limited capability.</p>
+<p>An imp accomplishes its goals of undermining creation by corrupting mortals that might associate with them (as familiars but also when not bound). They are also capable of using their powers directly to cause chaos, discord, distrust and direct destruction.</p>
+<p>In combat an imp attempts to sneak up on its target and burn it with its flames. It will generally flee if it recognises that it is outmatched.</p>
+</section>
+<hr class="docutils" />
+<section id="minor-demon">
+<h3>Minor Demon<a class="headerlink" href="#minor-demon" title="Link to this heading">¶</a></h3>
+<p>Here the stat block for vaguely humanoid minor demons of levels 1-5 is presented.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level</p></th>
+<th class="head"><p>HiT/Surprised/Touch</p></th>
+<th class="head"><p>SP</p></th>
+<th class="head"><p>MP</p></th>
+<th class="head"><p>HP</p></th>
+<th class="head"><p>Speed (walk)</p></th>
+<th class="head"><p>Speed (other)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>10/10/10</p></td>
+<td><p>4</p></td>
+<td><p>6</p></td>
+<td><p>2</p></td>
+<td><p>30</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>3</p></td>
+<td><p>11/11/10</p></td>
+<td><p>14 (<em>9</em>)</p></td>
+<td><p>14 (<em>14</em>)</p></td>
+<td><p>5</p></td>
+<td><p>35</p></td>
+<td><p>Climb 35ft (optional)</p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>12/12/10</p></td>
+<td><p>26 (<em>18</em>)</p></td>
+<td><p>23 (<em>19</em>)</p></td>
+<td><p>8</p></td>
+<td><p>40</p></td>
+<td><p>Climb 40ft, Fly 40ft (poor)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>(Natural armour accounts for extra HiT)</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level</p></th>
+<th class="head"><p></p></th>
+<th class="head"><p>Str</p></th>
+<th class="head"><p>Dex</p></th>
+<th class="head"><p>Con</p></th>
+<th class="head"><p>Int</p></th>
+<th class="head"><p>Wis</p></th>
+<th class="head"><p>Cha</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>Stat</p></td>
+<td><p>14</p></td>
+<td><p>10</p></td>
+<td><p>12</p></td>
+<td><p>8</p></td>
+<td><p>8</p></td>
+<td><p>10</p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>Bonus</p></td>
+<td><p>+2</p></td>
+<td><p>0</p></td>
+<td><p>+1</p></td>
+<td><p>-1</p></td>
+<td><p>-1</p></td>
+<td><p>0</p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>Save</p></td>
+<td><p>+3</p></td>
+<td><p>+1</p></td>
+<td><p>+2</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>+1</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level</p></th>
+<th class="head"><p></p></th>
+<th class="head"><p>Str</p></th>
+<th class="head"><p>Dex</p></th>
+<th class="head"><p>Con</p></th>
+<th class="head"><p>Int</p></th>
+<th class="head"><p>Wis</p></th>
+<th class="head"><p>Cha</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>Stat</p></td>
+<td><p>16</p></td>
+<td><p>10</p></td>
+<td><p>14</p></td>
+<td><p>10</p></td>
+<td><p>8</p></td>
+<td><p>10</p></td>
+</tr>
+<tr class="row-odd"><td><p>3</p></td>
+<td><p>Bonus</p></td>
+<td><p>+3</p></td>
+<td><p>0</p></td>
+<td><p>+2</p></td>
+<td><p>0</p></td>
+<td><p>-1</p></td>
+<td><p>0</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>Save</p></td>
+<td><p>+4</p></td>
+<td><p>+1</p></td>
+<td><p>+3</p></td>
+<td><p>+1</p></td>
+<td><p>0</p></td>
+<td><p>+1</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level</p></th>
+<th class="head"><p></p></th>
+<th class="head"><p>Str</p></th>
+<th class="head"><p>Dex</p></th>
+<th class="head"><p>Con</p></th>
+<th class="head"><p>Int</p></th>
+<th class="head"><p>Wis</p></th>
+<th class="head"><p>Cha</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>Stat</p></td>
+<td><p>16</p></td>
+<td><p>10</p></td>
+<td><p>14</p></td>
+<td><p>12</p></td>
+<td><p>8</p></td>
+<td><p>12</p></td>
+</tr>
+<tr class="row-odd"><td><p>5</p></td>
+<td><p>Bonus</p></td>
+<td><p>+3</p></td>
+<td><p>0</p></td>
+<td><p>+2</p></td>
+<td><p>+1</p></td>
+<td><p>-1</p></td>
+<td><p>+1</p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>Save</p></td>
+<td><p>+4</p></td>
+<td><p>+1</p></td>
+<td><p>+3</p></td>
+<td><p>+2</p></td>
+<td><p>0</p></td>
+<td><p>+2</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level(base)</p></th>
+<th class="head"><p>SP Dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>Nat</p></th>
+<th class="head"><p>Sup</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SAP</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1 (1)</p></td>
+<td><p>2</p></td>
+<td><p>3</p></td>
+<td><p>1</p></td>
+<td><p>1</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+</tr>
+<tr class="row-odd"><td><p>3 (1)</p></td>
+<td><p>4</p></td>
+<td><p>7</p></td>
+<td><p>1</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p>3</p></td>
+</tr>
+<tr class="row-even"><td><p>5 (1)</p></td>
+<td><p>8</p></td>
+<td><p>9</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p>3</p></td>
+<td><p>3</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level</p></th>
+<th class="head"><p>Ability</p></th>
+<th class="head"><p>Bonus</p></th>
+<th class="head"><p>Damage</p></th>
+<th class="head"><p>Other</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>Claw</p></td>
+<td><p>+4</p></td>
+<td><p>1d4+2</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>Grapple</p></td>
+<td><p>+4</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>Bite</p></td>
+<td><p>+2</p></td>
+<td><p>1d8+2</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>Howl</p></td>
+<td><p>Thr=15 CON</p></td>
+<td><p></p></td>
+<td><p>(1 SP) All entities that do not succeed a CON save within 30ft of a demon’s shriek are deafened until they are treated with first aid (Thr=15). This stops the condition for one hour, as per the <a class="reference external" href="../05-skills.html#heal">“healing” skill</a>. Any ability that heals HP (including a long rest) completely cures the effect.</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>3</p></td>
+<td><p>Claw</p></td>
+<td><p>+5</p></td>
+<td><p>1d4+2</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>Bite</p></td>
+<td><p>+3</p></td>
+<td><p>1d8+2</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>3</p></td>
+<td><p>Grapple</p></td>
+<td><p>+5</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>Howl</p></td>
+<td><p>Thr=16 CON</p></td>
+<td><p></p></td>
+<td><p>(1 SP) As per level I, but the Thr=16</p></td>
+</tr>
+<tr class="row-odd"><td><p>3</p></td>
+<td><p>SC: Kinetic I</p></td>
+<td><p>Thr=15</p></td>
+<td><p></p></td>
+<td><p>Favourites are: “Deafen”, “Silent”, “Whispers” and “Enflame”</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>5</p></td>
+<td><p>Claw</p></td>
+<td><p>+5</p></td>
+<td><p>1d4+2</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>Bite</p></td>
+<td><p>+3</p></td>
+<td><p>1d8+2</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>5</p></td>
+<td><p>Grapple</p></td>
+<td><p>+5</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>Howl</p></td>
+<td><p>Thr=17</p></td>
+<td><p></p></td>
+<td><p>(1 SP) As per level 1, except the Thr=17 AND it also causes bleeding.</p></td>
+</tr>
+<tr class="row-odd"><td><p>5</p></td>
+<td><p>SC: Kinetic II</p></td>
+<td><p>Thr=16</p></td>
+<td><p></p></td>
+<td><p>Favourites are: “Deafen”, “Silent”, “Whispers”, “Call Ailment”, “Least Transformation”</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>Skills</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Fortify:+4”, “Intimidate: +2”, “Climb:+4”</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>Skills</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Fortify:+6”, “Intimidate: +3”, “Climb:+6”, “Spellcraft:0”, “Religion:0”</p></td>
+</tr>
+<tr class="row-odd"><td><p>5</p></td>
+<td><p>Skills</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Fortify:+7”, “Intimidate: +3”, “Climb:+6”, “Spellcraft:3”, “Religion:3”</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p>Vulnerability</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Div”, “light: supernatural”</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p>Resistant</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“physical” damage, “Fir” and “ice” damage</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p>Immune</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“disease”, “unconscious”, “dying”</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p>Senses</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“low-light vision”, “heat sense” 30ft</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Minor demons take many forms. The ones described in this stat block resemble, on the material world, the most ugly and wretched of humanoids, although some are capable of supernatural disguise and flight.</p>
+<p>Regardless, they all share the following characteristics: They are almost always, servile, chaotic and destructive. They are only loyal to a master (be it a master or greater demon) for as long as fear, magic or anticipation of destruction hold them.</p>
+<p>Invariably minor demons despise creation and are generally sadistic beyond the potential of of most mortals. It is only their powerlessness that prevents them from bing truly dangerous.</p>
+<p>Minor demons may be proficient with one or more weapon. In this case they will use the weapon if it increases their lethality.</p>
+</section>
+<hr class="docutils" />
+<section id="shadow-flesh-fiend-human">
+<h3>Shadow Flesh Fiend, Human<a class="headerlink" href="#shadow-flesh-fiend-human" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>HiT/Surprised/Touch</p></th>
+<th class="head"><p>SP</p></th>
+<th class="head"><p>MP</p></th>
+<th class="head"><p>HP</p></th>
+<th class="head"><p>Speed (walk)</p></th>
+<th class="head"><p>Speed (other)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>19/16/15</p></td>
+<td><p>38 (<em>28</em>)</p></td>
+<td><p>28 (<em>14</em>)</p></td>
+<td><p>11</p></td>
+<td><p>30ft</p></td>
+<td><p>Climb (30ft)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>A shadow Flesh Fiend has a +4 armour bonus from the profane flesh.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>Str</p></th>
+<th class="head"><p>Dex</p></th>
+<th class="head"><p>Con</p></th>
+<th class="head"><p>Int</p></th>
+<th class="head"><p>Wis</p></th>
+<th class="head"><p>Cha</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Stat</p></td>
+<td><p>14</p></td>
+<td><p>17</p></td>
+<td><p>15</p></td>
+<td><p>11</p></td>
+<td><p>15</p></td>
+<td><p>14</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bonus</p></td>
+<td><p>+2</p></td>
+<td><p>+3</p></td>
+<td><p>+2</p></td>
+<td><p>0</p></td>
+<td><p>+2</p></td>
+<td><p>+2</p></td>
+</tr>
+<tr class="row-even"><td><p>Save</p></td>
+<td><p>+4</p></td>
+<td><p>+5</p></td>
+<td><p>+4</p></td>
+<td><p>+2</p></td>
+<td><p>+7</p></td>
+<td><p>+7</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level(base)</p></th>
+<th class="head"><p>SP Dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>Nat</p></th>
+<th class="head"><p>Sup</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SAP</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>6 (2)</p></td>
+<td><p>13</p></td>
+<td><p>8</p></td>
+<td><p>3</p></td>
+<td><p>2</p></td>
+<td><p>5</p></td>
+<td><p>4</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Ability</p></th>
+<th class="head"><p>Bonus</p></th>
+<th class="head"><p>Damage</p></th>
+<th class="head"><p>Other</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Shadow Touch</p></td>
+<td><p>+7</p></td>
+<td><p>2 [Pro]</p></td>
+<td><p>Reach=10ft. On a successful hit, the target must succeed a Thr=17 CON save or lose 1d4+2 SP dice. If it has no SP dice left, it instead loses 2 HP.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Short Sword</p></td>
+<td><p>+8</p></td>
+<td><p>1d6+3</p></td>
+<td><p>Reach=10ft, the shadow flesh distorts the fiend’s form, giving it an unusually long reach.</p></td>
+</tr>
+<tr class="row-even"><td><p>Grapple</p></td>
+<td><p>+8</p></td>
+<td><p></p></td>
+<td><p>Reach=10ft. A target grappled by a Shadow Flesh Fiend must succeed a Thr=17 CON save at the start of its turn or lose 1d4+2 SP dice. If it has no SP dice left, it instead loses 2 HP.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Spellcasting</p></td>
+<td><p>Thr=17</p></td>
+<td><p></p></td>
+<td><p><a class="reference external" href="../08-spell-list.html#dusk">“Dusk”</a>, <a class="reference external" href="../08-spell-list.html#least-curse">“Curse”</a>, <a class="reference external" href="../08-spell-list.html#animatecontrol-dead">“Animate Dead”</a></p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Profane Blast</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#cursed-blood">Cursed Blood</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A Shadow Flesh Fiend can use its reaction to cast a pell</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#guarded">Guarded</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A Shadow Flesh Fiend does not provoke attacks of opportunity when standing up or drinking potions.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#low-light-vision">“Low Light Vision”</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>Shadow Flesh fiends can see in dim light, for example a starry night, as if it were daylight.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#low-light-vision">“Life Sense: 60ft”</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A shadow flesh fiend can detect living beings within 60ft of it if there are no significant intervening barriers.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Telltale Heart</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A Shadow Flesh Fiend ALWAYS knows the direction to its lost parts and the ones who took them.</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Skills</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Athletics: +7”, “Acrobatics:+6”, “Sleight of Hand:+5”, “Religion:+4”, “Fortify:+5”,  “Insight:+4”</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Resistant</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“physical” damage, “Fir”, “ice” damage</p></td>
+</tr>
+<tr class="row-even"><td><p>Immune</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p><a class="reference external" href="../10-conditions-types.html#biological-damage">“biological damage”</a>, diseased”, “poisoned”, “dying”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Vulnerability</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Div” damage, “Lit: supernatural” damage</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>When a sentient mortal  has a part of their body wilfully taken from them by another entity, occasionally the attachment and resentment transforms the mortal into a fiend, rematerialising the lost part.</p>
+<p>The Shadow flesh fiend seeks to avenge its loss, pursuing its lost body part and the ones who took it relentlessly. It will then return to the place it became a fiend and guard it relentlessly.</p>
+<p>A Shadow flesh who has taken its revenge and regained its lost parts ceases to exist, and depending on the world, its soul is able to rest or ceases to exist.</p>
+<p>A Shadow Flesh Fiend appears similar to the being it once were, but the profane flesh enhances all of its abilities. Its profane touch drains the vitality of beings it contacts with. In addition, beings slain by the Shadow Flesh Fiend are raised as zombies.</p>
+<p>When a shadow flesh fiend is created by removing parts from a being of a being with a spiritual or divine alignment, it may instead become a “[an abyssal blade]”.</p>
+</section>
+<hr class="docutils" />
+<section id="succubus-incubus">
+<h3>Succubus/Incubus<a class="headerlink" href="#succubus-incubus" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>HiT/Surprised/Touch</p></th>
+<th class="head"><p>SP</p></th>
+<th class="head"><p>MP</p></th>
+<th class="head"><p>HP</p></th>
+<th class="head"><p>Speed (walk)</p></th>
+<th class="head"><p>Speed (other)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>13/10/13</p></td>
+<td><p>27 (<em>21</em>)</p></td>
+<td><p>61 (<em>31</em>)</p></td>
+<td><p>13</p></td>
+<td><p>30ft</p></td>
+<td><p>fly (60ft, medium, endurance = 4 hours)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>Str</p></th>
+<th class="head"><p>Dex</p></th>
+<th class="head"><p>Con</p></th>
+<th class="head"><p>Int</p></th>
+<th class="head"><p>Wis</p></th>
+<th class="head"><p>Cha</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Stat</p></td>
+<td><p>10</p></td>
+<td><p>17</p></td>
+<td><p>13</p></td>
+<td><p>14</p></td>
+<td><p>10</p></td>
+<td><p>21</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bonus</p></td>
+<td><p>0</p></td>
+<td><p>+3</p></td>
+<td><p>+1</p></td>
+<td><p>+2</p></td>
+<td><p>0</p></td>
+<td><p>+5</p></td>
+</tr>
+<tr class="row-even"><td><p>Save</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level(base)</p></th>
+<th class="head"><p>SP Dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>Nat</p></th>
+<th class="head"><p>Sup</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SAP</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>7 (2)</p></td>
+<td><p>10</p></td>
+<td><p>13</p></td>
+<td><p>2</p></td>
+<td><p>3</p></td>
+<td><p>4</p></td>
+<td><p>5</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Ability</p></th>
+<th class="head"><p>Bonus</p></th>
+<th class="head"><p>Damage</p></th>
+<th class="head"><p>Other</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Claw</p></td>
+<td><p>+5</p></td>
+<td><p>1d4+3</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Grapple</p></td>
+<td><p>+7</p></td>
+<td><p></p></td>
+<td><p>A target grappled by a succubus has disadvantage on saves vs its “charm” and “life drain”</p></td>
+</tr>
+<tr class="row-even"><td><p>Life Drain</p></td>
+<td><p>Thr=21 CHA</p></td>
+<td><p>1d3 SP dice</p></td>
+<td><p>(Cost = 1MP die) The succubus’ life drain drains 1d3 SP dice from the target’s maximum. The actual SP dice is also reduced by that amount. Each time, the succubus gains 2 SP which can take it past its SP maximum. If the target has 0 SP dice, the attack affects HP instead.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Charm</p></td>
+<td><p>Thr=21 WIS</p></td>
+<td><p></p></td>
+<td><p>(Cost = 1MP die) As a full round action, a succubus can charm a humanoid. The humanoid is charmed for 24h, but gets a repeated save if it is subject to an attack from the succubus. If the humanoid is not attracted to the sex of the form that the succubus is currently in, it has advantage on the save.</p></td>
+</tr>
+<tr class="row-even"><td><p>Sc: Incantation II</p></td>
+<td><p>Thr=18</p></td>
+<td><p></p></td>
+<td><p>Favourites are: “Down”, “Sour”, “Least Ward”, “Least Vengeance”, “Least Veil”, “Trace Secret Path”</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Alternate Form</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A succubus has a true form, and a humanoid form. The humanoid form is generally attractive. It can shift between them as a secondary action. In its humanoid form the succubus loses its claw attack and replaces its movement modalities with those of the humanoid. Its stats, saves, and abilities are unaffected.</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Senses</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Low Light Vision”, “Heat Sense”, “Life Sense”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Skills</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Deception: +11”, “Persuasion:+11”, “Sleight of Hand:+9”, “Acrobatics:+7”, “Ride:+5”,  “Insight:+5”, “Religion:+5”, “Arcana:+4”, “Appraise”:+3, “Observe”: +1, “Athletics”:+1</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Resistant</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“physical” damage, “Fir”, “ice” damage</p></td>
+</tr>
+<tr class="row-even"><td><p>Immune</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“disease”, “Poi”, “dying”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Vulnerability</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Div” damage, “Lit: supernatural” damage</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Succubi are fiends that prey on the carnal desires of humanoids in order to drain them of life-force or otherwise corrupt them. They usually take on the form of a desirable mate.</p>
+<p>Succubi avoid fighting if possible. They study their target and then use secret paths to approach their targets in a moment of weakness. Potentially during their sleep. A succubus may use their innate charms to succumb a victim, or if this seems unlikely, they will attempt to enchant them. If it requires sustenance it will then use its life drain.</p>
+<p>If this strategy appears to be failing, the succubus will generally retreat, using <a class="reference external" href="../08-spell-list.html#dusk">“Dusk”</a> or <a class="reference external" href="../08-spell-list.html">“Lesser Veil”</a>, or Pr-prepared secret paths.</p>
+<p>If a succubus must fight, it will use magic to charm the most combat capable opponent, then obfuscate the battle field and attempt to use its life-drain if it can while using its thrall to protect it.</p>
+</section>
+<hr class="docutils" />
+<section id="fiendish-warrior">
+<h3>Fiendish Warrior<a class="headerlink" href="#fiendish-warrior" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>HiT/Surprised/Touch</p></th>
+<th class="head"><p>SP</p></th>
+<th class="head"><p>MP</p></th>
+<th class="head"><p>HP</p></th>
+<th class="head"><p>Speed (walk)</p></th>
+<th class="head"><p>Speed (other)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>18/16/12</p></td>
+<td><p>52 (<em>31</em>)</p></td>
+<td><p>48 (<em>29</em>)</p></td>
+<td><p>14</p></td>
+<td><p>40ft</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Size: Medium
+Natural Armour: Armour +6
+Saves: Str, Con</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>Str</p></th>
+<th class="head"><p>Dex</p></th>
+<th class="head"><p>Con</p></th>
+<th class="head"><p>Int</p></th>
+<th class="head"><p>Wis</p></th>
+<th class="head"><p>Cha</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Stat</p></td>
+<td><p>22</p></td>
+<td><p>14</p></td>
+<td><p>16</p></td>
+<td><p>10</p></td>
+<td><p>12</p></td>
+<td><p>17</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bonus</p></td>
+<td><p>+6</p></td>
+<td><p>+2</p></td>
+<td><p>+3</p></td>
+<td><p>0</p></td>
+<td><p>+1</p></td>
+<td><p>+3</p></td>
+</tr>
+<tr class="row-even"><td><p>Save</p></td>
+<td><p>+11</p></td>
+<td><p>+5</p></td>
+<td><p>+8</p></td>
+<td><p>+2</p></td>
+<td><p>+3</p></td>
+<td><p>+5</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level(base)</p></th>
+<th class="head"><p>SP Dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>Nat</p></th>
+<th class="head"><p>Sup</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SAP</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>8 (2)</p></td>
+<td><p>14</p></td>
+<td><p>12</p></td>
+<td><p>3</p></td>
+<td><p>2</p></td>
+<td><p>5</p></td>
+<td><p>4</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Ability</p></th>
+<th class="head"><p>Bonus</p></th>
+<th class="head"><p>Damage</p></th>
+<th class="head"><p>Other</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Flail(Or demonic flail)</p></td>
+<td><p>+11(+13)</p></td>
+<td><p>1d8+6</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Claw</p></td>
+<td><p>+11</p></td>
+<td><p>1d6+6</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Elemental Blast II (one of fire or ice)</p></td>
+<td><p>+5</p></td>
+<td><p>2d6</p></td>
+<td><p>Up to 4d6 (an extra 1d6 per 1MP dice)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Elemental Touch II (one of fire or ice)</p></td>
+<td><p>+4</p></td>
+<td><p>2d6</p></td>
+<td><p>Up to 6d6 (an extra 2d6 per 1MP dice)</p></td>
+</tr>
+<tr class="row-even"><td><p>Grapple/Throw/Disarm/Sunder</p></td>
+<td><p>+11</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Aura of Destruction</p></td>
+<td><p>Thr=18</p></td>
+<td><p></p></td>
+<td><p>(Range=30ft) Objects and man-made structures (made of materials of material level 2 or lower) within 30ft of the warrior suffer one dice of damage at the start of each of the herald’s turn unless they succeed the Thr=18 CON save. Unattended structures and items automatically fail the save.</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Monster Attack III</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A fiendish warrior makes 4 attacks/combat manoeuvres</p></td>
+</tr>
+<tr class="row-even"><td><p>Combined Manoeuvre II</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A fiendish warrior can combine up to 3 basic combat manoeuvres</p></td>
+</tr>
+<tr class="row-odd"><td><p>Parry</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A fiendish warrior adds +3 to HiT for up to 5 attacks.</p></td>
+</tr>
+<tr class="row-even"><td><p>Opportunist</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>Can make attacks of opportunity vs entities that are standing up or drinking potions</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#charge">“Charge”</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>Can attack when running/sprinting when mounted</p></td>
+</tr>
+<tr class="row-even"><td><p>Counterstrike</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>Can take an attack of opportunity against a foe that hits it in melee</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Senses</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Low Light Vision”, “Tremor Sense”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Skills</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Athletics”:+12, “Fortify”: +10”, “Climb:+8”, “Swim:+7”, “Ride:+7”, “Intimidation”:+7,”Deception”:+6, “Acrobatics:+5”, “Stealth:+5”, “Observe”:+3, “Sense Motive”: +3, “Religion:+1”, “Arcana:+1”</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Resistant</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“physical” damage, “Fir”, “ice” damage</p></td>
+</tr>
+<tr class="row-even"><td><p>Immune</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“disease”, “Poi”, “dying”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Vulnerability</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Div”, “Lit: supernatural” damage</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>A fiendish warrior is a being of violence. It relishes violence. It exists to increase the amount of bloodshed and violence in the world, usually by its own hands. It will seek out combat and is drawn to locales with a blood-stained history. Where there is none, it will work to create it. A fiendish warrior is at least as happy slaughtering and tormenting innocents and those who cannot fight back, as it is destroying strong foes.</p>
+<p>Physically, it appears as a monstrous humanoid with four arms, and is capable of wielding weapons. However, its claws are also an effective weapon.</p>
+<p>While a demon warrior might not relish intrigue and complex strategy, but will attempt to use it is necessary to bring about more bloodshed.</p>
+<p>Fiendish warriors are formidable foes. They usually prefer to fight weakened foes, but will not shy away from a difficult combat. A demon warrior will not hesitate to use an opponent’s weakness against them, or finish off a downed foe. Equally they may deliberately leave a survivor to spread tales of horror far and wide.</p>
+<p>A fiendish warrior will unleash will close in and unleash their destructive aura. Once they do, they will engage in melee.</p>
+<p>Some fiendish warriors have wings and can fly at 50ft.</p>
+</section>
+<hr class="docutils" />
+<section id="herald-of-the-abyss">
+<h3>Herald of the Abyss<a class="headerlink" href="#herald-of-the-abyss" title="Link to this heading">¶</a></h3>
+<p><strong>Size category</strong>: Large (10ft x 10ft)</p>
+<ul class="simple">
+<li><p>Evade: -1, Armour +1</p></li>
+<li><p>Other HiT: (Natural Armour: +3, Deflection: +4)</p></li>
+<li><p>Reach: 5ft (long)</p></li>
+<li><p>[DEX save]: -1, [STR save]: +1</p></li>
+<li><p>Saves: Wis, Int.</p></li>
+<li><p>Carry capacity: (176lb light, 352lb medium, 880lb heavy, 1320lb drag)</p></li>
+</ul>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>HiT/Surprised/Touch</p></th>
+<th class="head"><p>SP</p></th>
+<th class="head"><p>MP</p></th>
+<th class="head"><p>HP</p></th>
+<th class="head"><p>Speed (walk)</p></th>
+<th class="head"><p>Speed (other)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>19/17/13</p></td>
+<td><p>74 (<em>41</em>)</p></td>
+<td><p>86 (<em>42</em>)</p></td>
+<td><p>19</p></td>
+<td><p>30ft</p></td>
+<td><p>Flight (80ft, good, endurance=unlimited)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>Str</p></th>
+<th class="head"><p>Dex</p></th>
+<th class="head"><p>Con</p></th>
+<th class="head"><p>Int</p></th>
+<th class="head"><p>Wis</p></th>
+<th class="head"><p>Cha</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Stat</p></td>
+<td><p>22</p></td>
+<td><p>12</p></td>
+<td><p>16</p></td>
+<td><p>13</p></td>
+<td><p>18</p></td>
+<td><p>19</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bonus</p></td>
+<td><p>+6</p></td>
+<td><p>+1</p></td>
+<td><p>+3</p></td>
+<td><p>+1</p></td>
+<td><p>+4</p></td>
+<td><p>+4</p></td>
+</tr>
+<tr class="row-even"><td><p>Save</p></td>
+<td><p>+10</p></td>
+<td><p>+3</p></td>
+<td><p>+6</p></td>
+<td><p>+8</p></td>
+<td><p>+11</p></td>
+<td><p>+7</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level(base)</p></th>
+<th class="head"><p>SP Dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>Nat</p></th>
+<th class="head"><p>Sup</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SAP</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>12 (3)</p></td>
+<td><p>19</p></td>
+<td><p>19</p></td>
+<td><p>4</p></td>
+<td><p>4</p></td>
+<td><p>7</p></td>
+<td><p>7</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Ability</p></th>
+<th class="head"><p>Bonus</p></th>
+<th class="head"><p>Damage</p></th>
+<th class="head"><p>Other</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Claw</p></td>
+<td><p>+15</p></td>
+<td><p>1d12+6[She] + 1d10[Poi]</p></td>
+<td><p>(Reach 5ft, long) An entity that takes damage from the claws of a herald of the abyss must succeed a CON save (Thr=19) or take 1 point of CON damage.</p></td>
+</tr>
+<tr class="row-even"><td><p>Necrotic blast</p></td>
+<td><p>+11</p></td>
+<td><p>3d6+4</p></td>
+<td><p>(Range = 120ft + 30ft/MP die) The herald can project a blast of necrotic energies. This works exactly like <a class="reference external" href="../06-abilities.html#elementalism-elemental-blast">Elemental Blast</a>. For every MP die expended the blast deals an additional 2d6 damage. The maximum number of MP die expended is 4.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Necrotic sphere</p></td>
+<td><p>Thr=21</p></td>
+<td><p>3d6+4</p></td>
+<td><p>(Cost = 1MP die or more, Range = 120ft + 30ft/MP die, radius= 10ft/MP die) The herald can project a blast of necrotic energies in an expanding sphere. This works exactly like <a class="reference external" href="../06-abilities.html#circle">Elementalism: Circle</a>. For every MP die expended the blast deals an additional 2d6 damage or increases in radius by 10ft. The maximum number of MP die expended is 4.</p></td>
+</tr>
+<tr class="row-even"><td><p>Touch of the Abyss</p></td>
+<td><p></p></td>
+<td><p>1d6[Pro]</p></td>
+<td><p>(Reach 5ft, long, Cost=2MP dice) The herald of the abyss can channel profane energies when it attacks with its claws, for an extra 1d6 profane damage on a hit.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Grapple/Throw/Disarm/Sunder</p></td>
+<td><p>+13</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Ability</p></th>
+<th class="head"><p>Bonus</p></th>
+<th class="head"><p>Damage</p></th>
+<th class="head"><p>Other</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Aura of Destruction</p></td>
+<td><p>Thr=20</p></td>
+<td><p></p></td>
+<td><p>(Range=60ft) Objects and man-made structures (made of materials of material level 2 or lower) within 60ft of the herald suffer one dice of damage at the start of each of the herald’s turn unless they succeed the Thr=20 CON save. Unattended structures and items automatically fail the save.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#spellcasting-local">Sc: Incantation III</a></p></td>
+<td><p>Thr=17</p></td>
+<td><p></p></td>
+<td><p>Favourite Spells: <a class="reference external" href="../08-spell-list.html#least-vengeance">Least Vengeance</a>, <a class="reference external" href="../08-spell-list.html#promise">Promise</a>, <a class="reference external" href="../08-spell-list.html#melt">Melt</a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#spellcasting-local">Sc: Nature V</a></p></td>
+<td><p>Thr=20</p></td>
+<td><p></p></td>
+<td><p>Favourite Spells: <a class="reference external" href="../08-spell-list.html#fade">Fade</a>, <a class="reference external" href="../08-spell-list.html#least-weather-control">Least Weather Control</a>, <a class="reference external" href="../08-spell-list.html#call-ailment">Call Ailment</a>, <a class="reference external" href="../08-spell-list.html#harvest">Harvest</a>, <a class="reference external" href="../08-spell-list.html#slumber">Slumber</a>, <a class="reference external" href="../08-spell-list.html#cure">Cure</a>, <a class="reference external" href="../08-spell-list.html#balance-of-nature">Balance of Nature (destruction only)</a>, <a class="reference external" href="../08-spell-list.html#plague">Plague</a>, <a class="reference external" href="../08-spell-list.html#lesser-cosmic-seal">Lesser Cosmic Seal</a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#forbidden-spell">Forbidden Spell</a></p></td>
+<td><p>Thr=20</p></td>
+<td><p></p></td>
+<td><p><a class="reference external" href="../08-spell-list.html#summon-fiend">Summon Fiend</a>, <a class="reference external" href="../08-spell-list.html#dominate-mortal">Dominate Mortal</a></p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Monster Attack I</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A herald of the Abyss makes 2 attacks/combat manoeuvres</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Combined Manoeuvre II</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A fiendish warrior can combine up to 3 basic combat manoeuvres</p></td>
+</tr>
+<tr class="row-even"><td><p>Parry</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A fiendish warrior adds +3 to HiT for up to 5 attacks.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Opportunist</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>Can make attacks of opportunity vs entities that are standing up or drinking potions</p></td>
+</tr>
+<tr class="row-even"><td><p>Counterstrike</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>Can take an attack of opportunity against a foe that hits it in melee</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Xenophonia: Mortals</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>The herald can communicate freely with Mortals.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Call of the Abyss</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>The herald of the abyss always knows the quickest route to the nearest profane aligned realm</p></td>
+</tr>
+<tr class="row-even"><td><p>Senses</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Low Light Vision”, “Life Sense: 120ft”, “Tremor Sense”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Skills</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Athletics”:+12, “Fortify”: +10”, “Climb:+8”, “Swim:+7”, “Ride:+7”, “Intimidation”:+7,”Deception”:+6, “Acrobatics:+5”, “Stealth:+5”, “Observe”:+3, “Sense Motive”: +3, “Religion:+1”, “Arcana:+1”</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Resistant</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“physical” damage, “Fire”, “ice” damage</p></td>
+</tr>
+<tr class="row-even"><td><p>Immune</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“disease”, “poison”, “dying”, “fear”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Vulnerability</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Div”, “Lit: supernatural” damage</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>A Herald of the Abyss is a greater fiend in its own right, however, as the name suggests, its appearance often foreshadows calamity of some kind.</p>
+<p>Heralds of the abyss do not necessarily engage directly in combat, rather visibly preceding catastrophes, but may engage in seemingly random acts of violence destruction, as long as such acts might decrease the morale of mortals in the vicinity.</p>
+<p>A herald of the abyss has no instinct of self-preservation. It does not necessarily fight to the bitter end, or ignore danger, but it does not value its own existence beyond instilling despair into the souls of mortals.</p>
+<p>In combat, this kind of herald prefer to target the most trustworthy looking target magically, and subsequently puppeteer the dominated foe into destroying its former allies. Failing this it will use its necrotic blast to obliterate multiple foes at once. Foes that approach within melee, are then treated to its venomous claws. If the one who engages it melee is particularly dangerous, it will channel profane energies with its “Touch of the Abyss” to destroy it as quickly as possible.</p>
+<p>A herald is also capable of summoning additional fiends to do its bidding, as well as using its magic in other ways.</p>
+</section>
+<hr class="docutils" />
+<section id="demon-fire-or-ice">
+<h3>Demon (Fire or Ice)<a class="headerlink" href="#demon-fire-or-ice" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>HiT/Surprised/Touch</p></th>
+<th class="head"><p>SP</p></th>
+<th class="head"><p>MP</p></th>
+<th class="head"><p>HP</p></th>
+<th class="head"><p>Speed (walk)</p></th>
+<th class="head"><p>Speed (other)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>28/28/16</p></td>
+<td><p>170 (<em>56</em>)</p></td>
+<td><p>194 (<em>80</em>)</p></td>
+<td><p>32</p></td>
+<td><p>40ft</p></td>
+<td><p>Fly 90ft (average, endurance = unlimited), Blink 60ft, Cosmic I</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<ul class="simple">
+<li><p>Size: Large</p></li>
+<li><p>Natural Armour: Armour +12</p></li>
+<li><p>Profane Deflection: +4</p></li>
+<li><p>Saves: Str, Con, Wis</p></li>
+</ul>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>Str</p></th>
+<th class="head"><p>Dex</p></th>
+<th class="head"><p>Con</p></th>
+<th class="head"><p>Int</p></th>
+<th class="head"><p>Wis</p></th>
+<th class="head"><p>Cha</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Stat</p></td>
+<td><p>30</p></td>
+<td><p>14</p></td>
+<td><p>22</p></td>
+<td><p>14</p></td>
+<td><p>18</p></td>
+<td><p>22</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bonus</p></td>
+<td><p>+10</p></td>
+<td><p>+2</p></td>
+<td><p>+6</p></td>
+<td><p>+2</p></td>
+<td><p>+4</p></td>
+<td><p>+6</p></td>
+</tr>
+<tr class="row-even"><td><p>Save</p></td>
+<td><p>+11</p></td>
+<td><p>+6</p></td>
+<td><p>+15</p></td>
+<td><p>+6</p></td>
+<td><p>+15</p></td>
+<td><p>+21</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level(base)</p></th>
+<th class="head"><p>SP Dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>Nat</p></th>
+<th class="head"><p>Sup</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SAP</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>20 (4)</p></td>
+<td><p>25</p></td>
+<td><p>37</p></td>
+<td><p>5</p></td>
+<td><p>7</p></td>
+<td><p>9</p></td>
+<td><p>11</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Offensive Ability</p></th>
+<th class="head"><p>Bonus</p></th>
+<th class="head"><p>Damage</p></th>
+<th class="head"><p>Other</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Grapple/Throw/Disarm/Sunder</p></td>
+<td><p>+23</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Demonic flail</p></td>
+<td><p>+23</p></td>
+<td><p>2d8+10</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Claw</p></td>
+<td><p>+23</p></td>
+<td><p>2d6+10</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Profane Blast</p></td>
+<td><p>+15</p></td>
+<td><p>2d4 [Pro]</p></td>
+<td><p>Range 120ft. 1MP die.</p></td>
+</tr>
+<tr class="row-even"><td><p>Elemental Blast IV (one of fire or ice)</p></td>
+<td><p>+15</p></td>
+<td><p>4d6+2</p></td>
+<td><p>Up to 6d6 (an extra 1d6 per 1MP dice)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Elemental Touch IV (one of fire or ice)</p></td>
+<td><p>+13</p></td>
+<td><p>4d6+2</p></td>
+<td><p>Up to 10d6 (an extra 2d6 per 1MP dice)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Ability</p></th>
+<th class="head"><p>Bonus</p></th>
+<th class="head"><p>Damage</p></th>
+<th class="head"><p>Other</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Aura of Destruction</p></td>
+<td><p>Thr=23</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Sc: Fire/Water VI</p></td>
+<td><p>Thr=24</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Sc: Profane VIII</p></td>
+<td><p>Thr=24</p></td>
+<td><p></p></td>
+<td><p>Favourites are: <a class="reference external" href="../08-spell-list.html#dusk">“Dusk”</a>, <a class="reference external" href="../08-spell-list.html#animatecontrol-dead">“Animate Dead”</a>, <a class="reference external" href="../08-spell-list.html#balance-of-nature">“Balance of Nature”</a>, <a class="reference external" href="../08-spell-list.html#summon-fiend">“Summon Fiend”</a>, <a class="reference external" href="../08-spell-list.html#legion-of-dead">“Legion of Dead”</a>, <a class="reference external" href="../08-spell-list.html#profane-resurrection">“Profane Resurrection”</a></p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Monster Attack III</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A greater fiend makes 4 attacks/combat manoeuvres</p></td>
+</tr>
+<tr class="row-odd"><td><p>Combined Manoeuvre II</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A greater fiend can combine up to 3 basic combat manoeuvres</p></td>
+</tr>
+<tr class="row-even"><td><p>Greater Manoeuvre I</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A greater fiend can apply manoeuvres even to colossal targets</p></td>
+</tr>
+<tr class="row-odd"><td><p>Parry</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A greater fiend adds +4 to HiT for up to 5 attacks.</p></td>
+</tr>
+<tr class="row-even"><td><p>Great Strike</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A greater fiend adds +4 to HiT for up to 5 attacks.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Opportunist</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>Can make attacks of opportunity vs entities that are standing up or drinking potions</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#charge">“Charge”</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>Can attack when running/sprinting when mounted</p></td>
+</tr>
+<tr class="row-odd"><td><p>Counterstrike</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>Can take an attack of opportunity against a foe that hits it in melee</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#broad-strike">“Broad Strike”</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A demon may strike all targets adjacent to its target for the cost of 1 SP dice.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#great-strike">“Great Strike”</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A demon may sacrifice up to 5 from its attack bonus to deal extra melee damage</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#spell-strike">“Spell Strike”</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A demon may deliver spells through targetted attacks with its claws or flail for 1 MP die.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#profane-strike">“Profane Strike”</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A demon may add 1d6 profane damage per MP dice expended to damage up to a maximum of 4</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Xenophonia III</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Humanoid”, “Monster”, “Elemental”</p></td>
+</tr>
+<tr class="row-even"><td><p>Sc: Global I</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Alternate Form</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A demon has its true form and a humanoid form. It can shift between them as a secondary action. In its humanoid form the demon loses its claw attack and replaces its movement modalities with those of the humanoid. Its stats, saves, and abilities are unaffected.</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Deflection</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Esoteric Deflection</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Keen Senses</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>Scent, Hearing</p></td>
+</tr>
+<tr class="row-odd"><td><p>Senses</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Blind-sight: 30ft”, “Life Sense: 30ft”, “Low Light Vision”, “Tremor Sense: 60ft”</p></td>
+</tr>
+<tr class="row-even"><td><p>Skills</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Athletics”:+20, “Fortify”: +20”, “Climb:+20”, “Swim:+11”, “Ride:+7”, “Intimidation”:+16,”Deception”:+16, “Acrobatics:+5”, “Stealth:+10”, “Observe”:+14, “Sense Motive”: +13, “Spellworking:+11”, “Religion:+11”, “Academics:+6”</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Resistant</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“physical” damage, “Fir”, “ice” damage</p></td>
+</tr>
+<tr class="row-odd"><td><p>Immune</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“disease”, “Poi”, “dying”, “Pro”</p></td>
+</tr>
+<tr class="row-even"><td><p>Vulnerability</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Div”, “Lit: supernatural” damage</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Demonic Realm</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>Each demon has its own demonic realm which is found at least in the intermediate depths of the spirit realm. This acts as a “<a class="reference external" href="../08-spell-list.html#greater-domain">Greater Domain</a> with a radius of at least 40ft (and with no upper limit), with the exception that its alignment is “profane” and is located deeper in the spirit realm. If the domain is destroyed, the demon is likewise destroyed.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Demonic Restoration</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A demon can only be permanently destroyed by “divine” damage or if its demonic realm is destroyed. A demon which is destroyed by other means will be reborn in its domain after an arbitrary amount of time (recommended 13d12 years).</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Demons are greater fiends. They are an incarnation of the forces that wish to despoil and undo creation. A demon of fire (or ice) appears as a horror with at least two legs and at least two arms. It usually has a pair of wings and a bestial head. A demon can shift between this form an a humanoid form (always the exact same humanoid), and will often take on its humanoid form when its demonic form is not suited to a task.</p>
+<p>A demon will chose the path that leads to the greatest destruction and tragedy above all, even if it must wait decades or centuries for this outcome. For example, it might save a young child if it can help raise it to be a corrupt king that will lead to the cataclysmic downfall of its kingdom. That said, a demon would prefer a direct bloodbath if this path is available and realistic.</p>
+<p>Demons of different elements will likely have slightly different personalities and preferences. A demon of fire is likely to prefer swift and cataclysmic destruction, while a demon of ice may prefer a slow and inevitable decay.</p>
+<p>In combat a demon may use any number of strategies. However it especially delights in using a foe’s strengths and weaknesses against it. It will not hesitate to use a foe’s kindness and mercy against it. Likewise it delights in toying with weaker foes and demonstrating to defeated foes the fruits of their powerlessness. It may even rob defeated foes of that which is precious to them and then let them live to foment hatred and despair.</p>
+<p>A demon attempts to keep its demonic realm secret and protected, as the demonic realm is its true form. Should the demonic realm be destroyed, the demon likewise perishes.</p>
+</section>
+<hr class="docutils" />
+<section id="unicorn-black">
+<h3>Unicorn, Black<a class="headerlink" href="#unicorn-black" title="Link to this heading">¶</a></h3>
+<p><strong>Size category</strong>: Large (10ft x 10ft)</p>
+<ul class="simple">
+<li><p>Evade: -1, Armour +1, Deflection +6</p></li>
+<li><p>Reach: 5ft (long)</p></li>
+<li><p>Saves: DEX, INT, WIS, CHA</p></li>
+<li><p>[DEX save]: -1, [STR save]: +1</p></li>
+<li><p>Carry capacity: (216lb light, 432lb medium, 1080lb heavy, 1620lb drag)</p></li>
+</ul>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>HiT/Surprised/Touch</p></th>
+<th class="head"><p>SP</p></th>
+<th class="head"><p>MP</p></th>
+<th class="head"><p>HP</p></th>
+<th class="head"><p>Speed (walk)</p></th>
+<th class="head"><p>Speed (other)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>21/21/21</p></td>
+<td><p>86 (<em>42</em>)</p></td>
+<td><p>98 (<em>43</em>)</p></td>
+<td><p>21</p></td>
+<td><p>60ft</p></td>
+<td><p>Blink (80ft)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>Str</p></th>
+<th class="head"><p>Dex</p></th>
+<th class="head"><p>Con</p></th>
+<th class="head"><p>Int</p></th>
+<th class="head"><p>Wis</p></th>
+<th class="head"><p>Cha</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Stat</p></td>
+<td><p>22</p></td>
+<td><p>17</p></td>
+<td><p>19</p></td>
+<td><p>15</p></td>
+<td><p>15</p></td>
+<td><p>21</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bonus</p></td>
+<td><p>+6</p></td>
+<td><p>+3</p></td>
+<td><p>+4</p></td>
+<td><p>+2</p></td>
+<td><p>+2</p></td>
+<td><p>+5</p></td>
+</tr>
+<tr class="row-even"><td><p>Save</p></td>
+<td><p>+9</p></td>
+<td><p>+10</p></td>
+<td><p>+7</p></td>
+<td><p>+9</p></td>
+<td><p>+9</p></td>
+<td><p>+12</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level(base)</p></th>
+<th class="head"><p>SP Dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>Nat</p></th>
+<th class="head"><p>Sup</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SAP</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>12 (3)</p></td>
+<td><p>19</p></td>
+<td><p>19</p></td>
+<td><p>4</p></td>
+<td><p>4</p></td>
+<td><p>7</p></td>
+<td><p>7</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Ability</p></th>
+<th class="head"><p>Bonus</p></th>
+<th class="head"><p>Damage</p></th>
+<th class="head"><p>Other</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Hooves</p></td>
+<td><p>+15</p></td>
+<td><p>1d8+7</p></td>
+<td><p>(Reach=5ft, long) fiend source</p></td>
+</tr>
+<tr class="row-odd"><td><p>Horn</p></td>
+<td><p>+15</p></td>
+<td><p>1d12+7</p></td>
+<td><p>(Reach=5ft, long) fiend source</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#profane-strike">Profane Strike</a></p></td>
+<td><p></p></td>
+<td><p>1d6</p></td>
+<td><p>A black unicorn can channel profane energies through its horn. It can expend <strong>1 MP die</strong> to cause 1d6 profane damage when it strikes a foe with its horn.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#unholy-strike">Unholy Strike</a></p></td>
+<td><p></p></td>
+<td><p>2d6</p></td>
+<td><p>A black unicorn can channel dark energies through its hooves. It can expend 1 MP ide to cause 2d6 necrotic damage when it strikes a foe with its hooves. Mortals hit by this attack must succeed a CON save (Thr=13+NAT+[CON]) or start “bleeding”.</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Sunder</p></td>
+<td><p>+13</p></td>
+<td><p></p></td>
+<td><p>A unicorn can destroy the weapons and armour of its foes</p></td>
+</tr>
+<tr class="row-even"><td><p>Throw</p></td>
+<td><p>+13</p></td>
+<td><p></p></td>
+<td><p>A unicorn can knock down its foes</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#spellcasting-local">Sc: Incantation VI</a></p></td>
+<td><p>Thr=19</p></td>
+<td><p></p></td>
+<td><p>Favourite Spells: <a class="reference external" href="../08-spell-list.html#least-spike">“Least Spike”</a>, <a class="reference external" href="../08-spell-list.html#sour">“Sour”</a>, <a class="reference external" href="../08-spell-list.html#least-heal">“Least Heal”</a>, <a class="reference external" href="../08-spell-list.html#least-vengeance">“Least Vengeance”</a>, <a class="reference external" href="../08-spell-list.html#meadow-of-flame">“Meadow of Flame”</a>, <a class="reference external" href="../08-spell-list.html#wind-walk">“Wind Walk”</a>, <a class="reference external" href="../08-spell-list.html#cure">“Cure”</a>, <a class="reference external" href="../08-spell-list.html#greater-xenophonia">“Greater Xenophonia”</a>, <a class="reference external" href="../08-spell-list.html#isolate-essence">“Isolate Essence”</a>, <a class="reference external" href="../08-spell-list.html#pact">“Pact”</a>, <a class="reference external" href="../08-spell-list.html#spirit-restoration">“Spirit Restoration”</a>, <a class="reference external" href="../08-spell-list.html#razor-wind">“Razor Wind”</a>, <a class="reference external" href="../08-spell-list.html#otherworld-step">“Otherworld Step”</a></p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#combined-manoeuvre-i-v">Combined Manoeuvre I</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>(1SP die) A unicorn can combine any two basic combat manoeuvres that it is proficient with.</p></td>
+</tr>
+<tr class="row-even"><td><p>Monster Attack I</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A unicorn makes one attack with its horns and one with its hooves.</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#alert">Alert</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A unicorn cannot be surprised.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#swift-spell">Swift Spell</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A unicorn can spend 2 MP dice to cast a spell as a secondary action instead of a main action</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#deflection">Deflection</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A unicorn can can reduce damage from ranged supernatural attacks by 1d4+7+([MP dice]d4) as a reaction.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#esoteric-deflection">Esoteric Deflection</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A unicorn can, as a reaction, reduce the damage from a “esoteric” ranged attack by [1d6 + [2 x MP dice expended]]</p></td>
+</tr>
+<tr class="row-even"><td><p>Shield of Malice</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A unicorn is surrounded by a malicious force that grants it +6 to HiT</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#sprinter">Sprinter</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A unicorn can run at x3 its base speed, and sprint x5 its base speed.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#mighty-i">Mighty I</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>Can carry more weight than your average beast</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Resistant</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“physical” damage, “Fir”, “ice” damage</p></td>
+</tr>
+<tr class="row-odd"><td><p>Immune</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“disease”, “Poi”, “dying”</p></td>
+</tr>
+<tr class="row-even"><td><p>Vulnerability</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Div”, “Lit: supernatural” damage</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#low-light-vision">Low Light Vision</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A unicorn can see in dim light as well as in sunlight.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#life-sense-i-vi">Life Sense (60ft)</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A unicorn can sense living beings within 60ft of it.</p></td>
+</tr>
+<tr class="row-even"><td><p>Loot</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>While a black unicorn does not provide edible flesh, its horn, hair and blood are valuable to mages.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Skills</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Athletics” +12, “Observe” +7, “Sense Motive” +7, “Spellcraft” +7, “Knowledge: Nature” +5, “Knowledge: Arcana” +6, “Knowledge: Religion” +10</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>A black unicorn is not necessarily black of coat, but black of heart.</p>
+<p>A unicorn is a horse-like being with a single straight horn upon its head. Unicorns have a special affinity to virgins. Black unicorns particularly enjoy the taste of flesh of humanoid virgins. It also enjoys the taste of their despair.</p>
+<p>These fiends whisper promises of adventure and romance, only to whisk away their victims to fare away, secluded places, and devour them.</p>
+<p>Despite their fierce appearance, black unicorns are somewhat cowardly. They will lord over weaker foes that cannot harm them (perhaps even sparing their lives so that they can spread the word of their splendour). When it comes to truly powerful foes, a black unicorn is as likely to flee as it is to fight back.</p>
+<p>It should be noted that black unicorns share many healing spells and abilities with the true unicorn. They differ it the fact that they use these abilities for evil.</p>
+</section>
+<hr class="docutils" />
+<section id="id1">
+<h3>???<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>HiT/Surprised/Touch</p></th>
+<th class="head"><p>SP</p></th>
+<th class="head"><p>MP</p></th>
+<th class="head"><p>HP</p></th>
+<th class="head"><p>Speed (walk)</p></th>
+<th class="head"><p>Speed (other)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>Str</p></th>
+<th class="head"><p>Dex</p></th>
+<th class="head"><p>Con</p></th>
+<th class="head"><p>Int</p></th>
+<th class="head"><p>Wis</p></th>
+<th class="head"><p>Cha</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Stat</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Bonus</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Save</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level(base)</p></th>
+<th class="head"><p>SP Dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>Nat</p></th>
+<th class="head"><p>Sup</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SAP</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Ability</p></th>
+<th class="head"><p>Bonus</p></th>
+<th class="head"><p>Damage</p></th>
+<th class="head"><p>Other</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="spirits.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Spirits</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="monsters-and-dragons.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Monsters and Dragons</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2023-3023, Fantasy Committee
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Profanes</a><ul>
+<li><a class="reference internal" href="#undead">Undead</a></li>
+<li><a class="reference internal" href="#undead-corporeal">Undead: Corporeal</a><ul>
+<li><a class="reference internal" href="#corporeal-horror-lesser">Corporeal Horror, Lesser</a></li>
+<li><a class="reference internal" href="#corporeal-horror-greater">Corporeal Horror, Greater</a></li>
+<li><a class="reference internal" href="#lich">Lich</a></li>
+<li><a class="reference internal" href="#skeleton-humanoid-levels-1-5">Skeleton, humanoid (levels 1-5)</a></li>
+<li><a class="reference internal" href="#skeletal-dragon">Skeletal Dragon</a></li>
+<li><a class="reference internal" href="#zombie-humanoid-levels-1-5">Zombie, humanoid (levels 1-5)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#vampires">Vampires</a><ul>
+<li><a class="reference internal" href="#vampire-spawn">Vampire Spawn</a></li>
+<li><a class="reference internal" href="#vampire">Vampire</a></li>
+<li><a class="reference internal" href="#vampire-lord">Vampire Lord</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#undead-incorporeal">Undead: Incorporeal</a><ul>
+<li><a class="reference internal" href="#cursed-shade-lesser">Cursed Shade (lesser)</a></li>
+<li><a class="reference internal" href="#cursed-shade">Cursed Shade</a></li>
+<li><a class="reference internal" href="#earthbound-shade-lesser">Earthbound Shade (lesser)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#fiends">Fiends</a><ul>
+<li><a class="reference internal" href="#imp">Imp</a></li>
+<li><a class="reference internal" href="#minor-demon">Minor Demon</a></li>
+<li><a class="reference internal" href="#shadow-flesh-fiend-human">Shadow Flesh Fiend, Human</a></li>
+<li><a class="reference internal" href="#succubus-incubus">Succubus/Incubus</a></li>
+<li><a class="reference internal" href="#fiendish-warrior">Fiendish Warrior</a></li>
+<li><a class="reference internal" href="#herald-of-the-abyss">Herald of the Abyss</a></li>
+<li><a class="reference internal" href="#demon-fire-or-ice">Demon (Fire or Ice)</a></li>
+<li><a class="reference internal" href="#unicorn-black">Unicorn, Black</a></li>
+<li><a class="reference internal" href="#id1">???</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="../_static/documentation_options.js?v=8bafd125"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/scripts/furo.js?v=46bd48cc"></script>
+    </body>
+</html>

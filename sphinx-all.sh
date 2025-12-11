@@ -1,9 +1,9 @@
 #! /bin/bash
 
 # Make build directories.
-mkdir sphinx/build
+mkdir doc/
 mkdir sphinx/_static
-mkdir sphinx/src/
+mkdir sphinx/src
 mkdir sphinx/src/_static
 mkdir sphinx/src/bestiary
 
@@ -29,18 +29,18 @@ do
 done
 
 
-sphinx-build -j4 sphinx/src/ sphinx/build/
+sphinx-build -j4 sphinx/src/ docs/
 
-for X in $(ls sphinx/build/bestiary/ | grep .html)
+for X in $(ls docs/bestiary/ | grep .html)
 do
-  sed --in-place s@.md#@.html#@g sphinx/build/bestiary/$X
-  sed --in-place s@.md\"\>@.html\"\>@g sphinx/build/bestiary/$X
+  sed --in-place s@.md#@.html#@g docs/bestiary/$X
+  sed --in-place s@.md\"\>@.html\"\>@g docs/bestiary/$X
 done
 
-for X in $(ls sphinx/build/ | grep .html)
+for X in $(ls docs/ | grep .html)
 do
-  sed --in-place s@.md#@.html#@g sphinx/build/$X
-  sed --in-place s@.md\"\>@.html\"\>@g sphinx/build/$X
+  sed --in-place s@.md#@.html#@g docs/$X
+  sed --in-place s@.md\"\>@.html\"\>@g docs/$X
 done
 
 rm -rf sphinx/src

@@ -1,0 +1,1785 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="./">
+  <head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="genindex.html"><link rel="search" title="Search" href="search.html"><link rel="next" title="A Bestiary for Fantasy Worlds" href="bestiary.html"><link rel="prev" title="Recipes" href="16-recipes.html">
+
+    <!-- Generated with Sphinx 8.2.3 and Furo 2025.09.25 -->
+        <title>Base Rules - FanSys 0.0.18</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d111a655" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=580074bf" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=8dab3a3b" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f2f2f2;
+  --color-code-foreground: #1e1e1e;
+  --color-foreground-primary: #202424;
+  --color-foreground-secondary: #4a4c53;
+  --color-brand-primary: #112233;
+  --color-brand-content: #443322;
+  --color-brand-visited: #448822;
+  --color-background-primary: #f2f4ec;
+  --color-background-secondary: #e5e7e3;
+  --color-background-hover: #fafaf5;
+  --color-background-border: #40404067;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-foreground-primary: #cfd0d0;
+  --color-foreground-secondary: #acb0b5;
+  --color-brand-primary: #AABBCC;
+  --color-brand-content: #CFBEAC;
+  --color-brand-visited: #99DD99;
+  --color-background-primary: #242628;
+  --color-background-secondary: #2a2c2e;
+  --color-background-hover: #1e2124ff;
+  --color-background-border: #483945;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-foreground-primary: #cfd0d0;
+  --color-foreground-secondary: #acb0b5;
+  --color-brand-primary: #AABBCC;
+  --color-brand-content: #CFBEAC;
+  --color-brand-visited: #99DD99;
+  --color-background-primary: #242628;
+  --color-background-secondary: #2a2c2e;
+  --color-background-hover: #1e2124ff;
+  --color-background-border: #483945;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle site navigation sidebar">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc" aria-label="Toggle table of contents sidebar">
+<label class="overlay sidebar-overlay" for="__navigation"></label>
+<label class="overlay toc-overlay" for="__toc"></label>
+
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <span class="icon"><svg><use href="#svg-menu"></use></svg></span>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="index.html"><div class="brand">FanSys 0.0.18</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="index.html">
+  
+  <span class="sidebar-brand-text">FanSys 0.0.18</span>
+  
+</a><form class="sidebar-search-container" method="get" action="search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Index:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="01-quick-start.html">FanSys23 Quick-start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="03-movement-exploration.html">Actions outside of Combat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="04-combat.html">Combat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="05-skills.html">Skills</a></li>
+<li class="toctree-l1"><a class="reference internal" href="06-abilities.html">Abilities and Boons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="07-magic-and-spellcasting.html">Spells</a></li>
+<li class="toctree-l1"><a class="reference internal" href="08-spell-list.html">Spell List</a></li>
+<li class="toctree-l1"><a class="reference internal" href="09-races.html">Types, Races, Species and Templates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="10-conditions-types.html">Conditions and Types</a></li>
+<li class="toctree-l1"><a class="reference internal" href="11-weapons-armour.html">Weapons and armour</a></li>
+<li class="toctree-l1"><a class="reference internal" href="12-equipment-economy.html">Equipment and Economy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="13-crafting-imbuing.html">Crafting and Imbuing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="14-poisons-and-diseases.html">Poisons and Diseases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="15-charm-etc.html">A note on charm, domination and possession</a></li>
+<li class="toctree-l1"><a class="reference internal" href="16-recipes.html">Recipes</a></li>
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Base Rules</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="bestiary.html">A Bestiary for Fantasy Worlds</a><input aria-label="Toggle navigation of A Bestiary for Fantasy Worlds" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/forwards.html">Forwards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/beasts-and-plants.html">Beasts and Plants</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/constructs.html">Constructs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/divines.html">Divines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/humanoids.html">NPC stat blocks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/monsters-and-dragons.html">Monsters and Dragons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/profanes.html">Profanes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/spirits.html">Spirits</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="CHANGELOG.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="TODO.html">Character sheet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="LICENSE.html">License</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="view-this-page">
+  <a class="muted-link" href="_sources/02-base-rules.md.txt" title="View this page">
+    <svg><use href="#svg-eye"></use></svg>
+    <span class="visually-hidden">View this page</span>
+  </a>
+</div>
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          <section id="base-rules">
+<h1>Base Rules<a class="headerlink" href="#base-rules" title="Link to this heading">¶</a></h1>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="#foreword">Foreword</a></p></li>
+<li><p><a class="reference external" href="#purpose-of-the-system">Purpose of the system</a></p></li>
+<li><p><a class="reference external" href="#rolling-dice">Rolling Dice</a></p>
+<ul class="simple">
+<li><p><a class="reference external" href="#rounding-up-and-down">Rounding up and down</a></p></li>
+<li><p><a class="reference external" href="#core-rolls">Core Rolls</a></p></li>
+<li><p><a class="reference external" href="#the-2d12-roll">The 2d12 roll</a></p></li>
+<li><p><a class="reference external" href="#taking-24-taking-13-auto-failure-and-voluntary-failure">Taking 24, taking 13, auto-failure and voluntary failure</a></p></li>
+<li><p><a class="reference external" href="#opposing-rolls-vs-thresholds">Opposing Rolls vs Thresholds</a></p></li>
+<li><p><a class="reference external" href="#precedence-of-rolls-thresholds-dc-and-opposing-rolls">Precedence of Rolls: Thresholds (DC), and opposing rolls</a></p></li>
+<li><p><a class="reference external" href="#difficulties-and-recommended-thresholds">Difficulties and recommended thresholds</a></p></li>
+<li><p><a class="reference external" href="#modifiers-vs-advantagedisadvantage">Modifiers vs Advantage/Disadvantage</a></p></li>
+<li><p><a class="reference external" href="#sources-of-modifiers">Sources of Modifiers</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#time">Time</a></p></li>
+<li><p><a class="reference external" href="#character-basics-and-descriptors">Character Basics and Descriptors</a></p>
+<ul class="simple">
+<li><p><a class="reference external" href="#descriptive-attributes">Descriptive Attributes</a></p></li>
+<li><p><a class="reference external" href="#intrinsic-attributes">Intrinsic Attributes</a></p>
+<ul>
+<li><p><a class="reference external" href="#entity-type">Entity Type</a></p></li>
+<li><p><a class="reference external" href="#templaterace">Template/Race</a></p></li>
+<li><p><a class="reference external" href="#size-category">Size category</a></p></li>
+<li><p><a class="reference external" href="#movement-modalities">Movement modalities</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#character-level-and-base">Character level and Base</a></p>
+<ul>
+<li><p><a class="reference external" href="#levelling-up">Levelling up</a></p></li>
+<li><p><a class="reference external" href="#level-points-and-abilities">Level points and abilities</a></p></li>
+<li><p><a class="reference external" href="#base">Base</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#stats">Stats</a></p>
+<ul>
+<li><p><a class="reference external" href="#stat-assignment">Stat assignment</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#resource-pools">Resource pools</a></p>
+<ul>
+<li><p><a class="reference external" href="#hp-pool">HP pool</a></p></li>
+<li><p><a class="reference external" href="#mp-dice-pool">MP dice pool</a></p></li>
+<li><p><a class="reference external" href="#mana-pool">Mana pool</a></p></li>
+<li><p><a class="reference external" href="#sp-dice-pool">SP dice pool</a></p></li>
+<li><p><a class="reference external" href="#stamina-pool">Stamina pool</a></p></li>
+<li><p><a class="reference external" href="#losing-mp-sp-and-rebalancing">Losing MP, SP and Rebalancing</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#nat-and-sup-attack-of-the-three-letter-words">Nat and Sup: Attack of the three letter words</a></p></li>
+<li><p><a class="reference external" href="#nap-and-sap-nat-and-sat-attack-of-the-three-letter-words-ii">NAP and SAP, NAT and SAT: Attack of the three letter words II</a></p></li>
+<li><p><a class="reference external" href="#saving-throws">Saving throws</a></p></li>
+<li><p><a class="reference external" href="#hit-threshold-hit">Hit Threshold (HiT)</a></p>
+<ul>
+<li><p><a class="reference external" href="#components-of-hit">Components of HiT</a></p></li>
+<li><p><a class="reference external" href="#sources-of-hit">Sources of Hit</a></p></li>
+<li><p><a class="reference external" href="#hit-and-dropping-defences">HiT and Dropping Defences</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#skills-and-proficiencies">Skills and Proficiencies</a></p></li>
+<li><p><a class="reference external" href="#abilities">Abilities</a></p></li>
+<li><p><a class="reference external" href="#size">Size</a></p></li>
+<li><p><a class="reference external" href="#senses">Senses</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#tables">Tables</a></p>
+<ul class="simple">
+<li><p><a class="reference external" href="#level-parameters">Level parameters</a></p></li>
+<li><p><a class="reference external" href="#nat-vs-sp-dice-and-sup-vs-mp-dice">Nat vs SP dice and Sup vs MP dice</a></p></li>
+<li><p><a class="reference external" href="#nap-from-base-and-nat">NAP from Base and Nat</a></p></li>
+<li><p><a class="reference external" href="#size-rules-table">Size rules</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#version">Version</a></p></li>
+</ol>
+<hr class="docutils" />
+<section id="foreword">
+<h2>Foreword<a class="headerlink" href="#foreword" title="Link to this heading">¶</a></h2>
+<p>This chapter contains base rules which form the foundations of the whole system. While it is not necessary to memorise, or even systematically read through this section, it is desirable that players at least look over it. In the worst case scenario it remains as a useful reference. The general rules contained in this chapter are over-ruled by more specific rules that pertain to certain creatures and situations. Some rules are prefaced by an ALWAYS or NEVER directive. In these cases they are absolute and apply in all situations.</p>
+</section>
+<hr class="docutils" />
+<section id="purpose-of-the-system">
+<h2>Purpose of the system<a class="headerlink" href="#purpose-of-the-system" title="Link to this heading">¶</a></h2>
+<p>The system codifies the rules for a fantasy role-playing game that focuses on combat and exploration. It aims to build on what I perceive as strength of existing systems and address their weaknesses:</p>
+<ul class="simple">
+<li><p>Keep a well codified rulebook (PF).</p></li>
+<li><p>Create a relatively deep character creation system (PF).</p></li>
+<li><p>Build on the streamlined flow of combat and general play (DnD 5e).</p></li>
+<li><p>Build on the relatively well balanced system (DnD 5e).</p></li>
+<li><p>Build on the fairly well balanced magic system of DnD 5e.</p></li>
+<li><p>Build on the nuanced skill system of PF.</p></li>
+<li><p>Make a system where magic and martial based characters are both viable, while retaining more than cosmetic mechanistic differences.</p></li>
+<li><p>Build on the well codified crafting system of (PF).</p></li>
+<li><p>Expand the rules for exploration and travel.</p></li>
+<li><p>Expand the rules for weapons.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="rolling-dice">
+<h2>Rolling Dice<a class="headerlink" href="#rolling-dice" title="Link to this heading">¶</a></h2>
+<p>Rolling dice introduces uncertainty into what is otherwise a numbers game. The outcome of a dice roll should be rolled when the outcome of an action is uncertain, because of hidden variables or otherwise. Thus if an action is sure to fail (“I jump to the moon”), or sure to succeed (“I take a breath of air”), a roll should not be made.
+It is possible to play this kind of game without ever rolling dice (using average values), however this is generally considered boring, which is why we use dice.</p>
+<hr class="docutils" />
+<section id="rounding-up-and-down">
+<h3>Rounding up and down<a class="headerlink" href="#rounding-up-and-down" title="Link to this heading">¶</a></h3>
+<p>Whenever a roll (or other number) is divided (eg half damage, jump distances, bonuses, etc) and the result is not a whole number, the principle of “round up, except for damage” is applied.</p>
+</section>
+<hr class="docutils" />
+<section id="core-rolls">
+<h3>Core Rolls<a class="headerlink" href="#core-rolls" title="Link to this heading">¶</a></h3>
+<p>There are three (and a half) types of base roll.</p>
+<ul class="simple">
+<li><p>An ability/skill roll.</p></li>
+<li><p>A save.</p></li>
+<li><p>An targeted attack.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="the-2d12-roll">
+<h3>The 2d12 roll<a class="headerlink" href="#the-2d12-roll" title="Link to this heading">¶</a></h3>
+<p>The core dice for ability checks/tests, saves and attacks is 2d12. You roll a 2d12 and add a static modifier. If the result equals or exceeds a target value, you succeed. Otherwise you fail.</p>
+<ul class="simple">
+<li><p><strong>General Special</strong>: Also, for every 12 you roll, add +2 to the result. For every 1, subtract 2 from the result.</p></li>
+<li><p><strong>Saves and Attacks</strong>: Also, snake eyes (1,1) always fails (also known as a “critical fail”). D12 (12,12) always succeeds (also known as a “critical success”). For every 1 rolled on a save, if failure results in damage, the target takes an additional 1 point of damage directly to HP (no risk of gaining conditions).</p></li>
+<li><p><strong>Attacks</strong>: Also, for each 12 is rolled, if the attack deals any damage, the target takes an additional 1 point of damage directly to HP (no risk of gaining conditions).</p></li>
+<li><p><strong>Advantage</strong>: Sometimes circumstances are very favourable. Then you roll 3d12, drop lowest.</p></li>
+<li><p><strong>Disadvantage</strong>: Sometimes circumstances are very unfavourable. Then you roll 3d12, drop highest.</p></li>
+<li><p>Advantage and disadvantage, no matter from how many sources, always cancel each other out.</p></li>
+</ul>
+<p>2d12 is chosen as a core roll firstly because d12 are nice dice to roll, secondly because this solves the “high modifier - low modifier” problem, and thirdly because the “triangular” binomial probability distribution simulates life more closely than the 1d20 “uniform” distribution and this then allows us to eschew opposed rolls in time sensitive sections of the game (like combat) while preserving a similar probability distribution of success and failure.</p>
+</section>
+<hr class="docutils" />
+<section id="taking-24-taking-13-auto-failure-and-voluntary-failure">
+<h3>Taking 24, taking 13, auto-failure and voluntary failure<a class="headerlink" href="#taking-24-taking-13-auto-failure-and-voluntary-failure" title="Link to this heading">¶</a></h3>
+<p>Sometimes rolls of the core dice can be skipped.</p>
+<p><strong>Taking 24:</strong> Add 24 to the modifier and take this as the result. This represents trying something until you get the best possible result. You can do this is if:</p>
+<ol class="arabic simple">
+<li><p>You are in a safe environment.</p></li>
+<li><p>You have 100 times more time and material resources available available (which are consumed).</p></li>
+</ol>
+<p>This relies on the property of statistics that if you roll 2d12 enough times, you will eventually roll a 24. Statistically speaking, you have a 50% chance of doing so after 100 rolls. As an alternative a character may take 20, which takes 20 times the time and resources (instead of 100).</p>
+<p>These numbers are a little bit different from what we see in systems like “Pathfinder” and “Dungeons and Dragons”, because (a) we use different dice and (b) we use proper maths.</p>
+<p><strong>Taking care:</strong> Also referred to as “take 13”. Add 13 to the modifier and take this as the result. this represents using a systematic, familiar approach to solve a problem. It explains why for example a craftsman doesn’t destroy 25% of the shoes he makes despite having only +5 as his modifier while making a shoe having a threshold of 10, or why we don’t fall down the stairs every few weeks. One can “take care” if:</p>
+<ol class="arabic simple">
+<li><p>You are in a relatively safe environment, free of distractions and threats.</p></li>
+<li><p>You are performing a routine, autonomous or habitual task (eg biological functions, general movement, performing a profession or skill in which you have at least one skill point).</p></li>
+</ol>
+<p>This works because the average of 2d12 is 13.</p>
+<p><strong>Auto-failing:</strong> An entity automatically fails if it cannot perform the roll. For example a paralysed entity cannot succeed on a jump roll.</p>
+<p><strong>Voluntary failure:</strong> An entity can choose to fail any check that requires some voluntary action. One cannot usually voluntarily fail checks and saves for autonomous functions. For example a humanoid cannot volunteer to fail a Con save vs poison, since you cannot switch off your liver at will, but you can voluntarily fail a Dex save vs a runaway cart, because you can consciously decide not to move out of the way.</p>
+</section>
+<hr class="docutils" />
+<section id="opposing-rolls-vs-thresholds">
+<h3>Opposing Rolls vs Thresholds<a class="headerlink" href="#opposing-rolls-vs-thresholds" title="Link to this heading">¶</a></h3>
+<p>A threshold is a number that a roll (with bonuses or maluses) must meet or beat for success. Static thresholds are always preferred over opposed rolls in combat. This increases the speed of combat as we do not need to wait for other side to make a roll. This means that hit thresholds, save threshold and skill thresholds based on average rolls (“take care”) are used for the defending side.
+Outside of combat it is up to the group whether opposed rolls or thresholds are used. Opposed rolls make the game more interactive in non time critical sections.
+For many skill rolls the threshold is written as “Opposed vs [skill name]”. It is perfectly acceptable to calculate an average (“take care”) threshold instead of doing the opposed roll.</p>
+</section>
+<hr class="docutils" />
+<section id="turning-an-opposed-roll-into-a-threshold">
+<h3>Turning an opposed roll into a Threshold.<a class="headerlink" href="#turning-an-opposed-roll-into-a-threshold" title="Link to this heading">¶</a></h3>
+<p>An opposed roll can be converted into a threshold by taking the bonus or malus and adding 13 instead of rolling (usually 2d12).</p>
+</section>
+<hr class="docutils" />
+<section id="precedence-of-rolls-thresholds-dc-and-opposing-rolls">
+<h3>Precedence of Rolls: Thresholds (DC), and opposing rolls<a class="headerlink" href="#precedence-of-rolls-thresholds-dc-and-opposing-rolls" title="Link to this heading">¶</a></h3>
+<p>Meeting (equalling) the target number of a roll beats it. The target number can be static or dynamic. Static thresholds are when a dice is rolled and the result compared to a predefined number. Dynamic thresholds are what you get when you have two or more opposing rolls.</p>
+<ul class="simple">
+<li><p>eg <strong>static</strong>: “HiT” (Hit Threshold) of a monster, eg 18. Save threshold for a spell. Ability threshold for jumping over a gap of 15 feet.</p></li>
+<li><p>eg <strong>dynamic</strong>: Perceiving a monster in hiding (which rolled 2d12+4).</p></li>
+</ul>
+<p>For dynamic thresholds, it can be difficult to tell, which of the opposing rolls becomes the threshold, and which is the opposing roll. In this case the roll that is trying to preserve the status quo becomes the threshold, and the one that is trying to change it is the opposed roll. Eg:</p>
+<ul class="simple">
+<li><p>A hidden entity is trying to stay hidden: It’s stealth roll is the threshold, and the perception roll is the opposing roll. NB: The hidden creature is always preserving the status quo because you cannot hide when being observed.</p></li>
+<li><p>An observed entity is trying create a distraction so it can hide: The perception roll becomes the threshold, and the distraction/deception roll becomes the opposing roll.</p></li>
+<li><p>Anne tries to throw Bob onto his back. Bob wishes to stay on his feet. Bob’s grapple roll is the threshold, and Anne’s roll is the opposing roll.</p></li>
+</ul>
+<p>This rule is a refinement and codification of “meets it beats it”. It is chosen as the method for resolving rolls as it is most similar to “meets it beats it”, while being systematic and consistent. The “meets it beats it” approach favours the character attempting to change the status quo, which is important since we wish to avoid long, stagnant encounters.</p>
+</section>
+<hr class="docutils" />
+<section id="difficulties-and-recommended-thresholds">
+<h3>Difficulties and recommended thresholds<a class="headerlink" href="#difficulties-and-recommended-thresholds" title="Link to this heading">¶</a></h3>
+<p>The numbers on thresholds and rolls are abstractions of how difficult a task is to accomplish and how well it was performed respectively. As a rough guide, assuming that an average person is a level 1 character with 11 in most base stats and hence a +1 in skills they are not familiar with and + 3 in skills that they are familiar in, the table is as follows:</p>
+<ul class="simple">
+<li><p>4: Almost impossible to fail. (An infant can do better.)</p></li>
+<li><p>8: Quite easy. (Amateurish)</p></li>
+<li><p>12: Fairly tough, your average person will fail half the time, if they’re not careful. (Average well done)</p></li>
+<li><p>16: Quite tough, a trained person will fail half the time if they’re not careful. (Pretty good)</p></li>
+<li><p>24: Very difficult. (Impressive)</p></li>
+<li><p>30: Hard, even for a pro. (Olympic)</p></li>
+<li><p>36: Hard, for a legendary hero. (Legendary!)</p></li>
+<li><p>50+: Actually impossible. With maxed out stats, rolling 24 should not hit above 50. (God)</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="modifiers-vs-advantage-disadvantage">
+<h3>Modifiers vs Advantage/Disadvantage<a class="headerlink" href="#modifiers-vs-advantage-disadvantage" title="Link to this heading">¶</a></h3>
+<p>A mix of game balance and simulationism guide our understanding of what they represent and how they should be applied.</p>
+<p>Advantage represents factors that mitigate some potential of failure, but do not improve the best result. For example a sharp knife makes it easier to gut a rabbit, but does not increase the amount of meat one can harvest (a rabbit only has a rabbit worth of meat).</p>
+<p>Disadvantage represents factors that negate some potential for success, but do not make the worst result any more catastrophic. For example trying to run with shoes tied together increases a character’s chance of falling (disadvantage on acrobatics perhaps), but the worst possible fall is no more dramatic than normal.</p>
+<p>A positive modifier (bonus) represents factors that make a task easier and have a potential to improve the best result. For example, a tailwind will give a bonus when trying to travel further in a day’s sailing. This is because the speed is actually increased, making it possible to travel further.</p>
+<p>A negative modifier (penalty) represents factors that both reduce the best result and make a negative output more likely and worse. A storm gives a penalty to camping (fortify) rolls: Not only do you have to contend with the wind and rain, but your tent might get blown away. That’s definitely worse unless you were trying to lose the tent!</p>
+<p>Advantage and disadvantage always cancel each other out. Advantage and disadvantage never stack.</p>
+<p>Modifiers from “natural” sources stack (add up) if they come from a different KIND of source. For example the threshold to “fortify” your camp can be modified by severe precipitation, severe wind and severe temperature. These modifiers will stack. However if there is severe precipitation (ash) and extreme precipitation (snow), only the worst one (extreme) will count, since both modifiers come from precipitation. Thus, for modifiers of the same type, take the largest modifier, or the sum of the largest bonus and largest penalty if both are present.</p>
+<p>Modifiers from “supernatural” sources never stack with modifiers from other supernatural sources. To simplify mechanics a group can decide that the only types are “natural” and “supernatural” for minimum viable mechanics.</p>
+</section>
+<hr class="docutils" />
+<section id="sources-of-modifiers">
+<h3>Sources of Modifiers<a class="headerlink" href="#sources-of-modifiers" title="Link to this heading">¶</a></h3>
+<p>Because stacking modifiers can easily “break” a game or lead to situations where the outcome is decided early on in a scenario, it is desirable to avoid this. As a result the following rule is used with modifiers:</p>
+<ul class="simple">
+<li><p>Modifiers can come from circumstances or equipment.</p></li>
+<li><p>Modifiers can come from passive abilities.</p></li>
+<li><p>Modifiers from templates and size ALWAYS stack with other modifiers.</p></li>
+<li><p>Modifiers cannot usually come from conditions.</p></li>
+<li><p>Modifiers cannot, as a rule, come directly from active martial or supernatural (spells) abilities (although use of such abilities can induce conditions, which might provide penalties).</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="time">
+<h2>Time<a class="headerlink" href="#time" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>1 day is 24 hours. It should be noted that when an activity’s duration is measured in days, this generally assumes that 10 hours are spent on the activity, and the rest are used for maintaining vital activities and rest.</p></li>
+<li><p>1 hour (abbreviated to “h”) is 60 minutes.</p></li>
+<li><p>1 minute (abbreviated to “min”) is 60 seconds.</p></li>
+<li><p>1 round is 6 seconds (5 works as well but we’re more used to the decimal system).</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="character-basics-and-descriptors">
+<h2>Character Basics and Descriptors<a class="headerlink" href="#character-basics-and-descriptors" title="Link to this heading">¶</a></h2>
+<p>For a character to function within the game system it has a number of mechanistic parameters. In addition, a character has descriptive attributes that need not influence mechanics (within reason), eg hair/feather/scale length and colour. Timbre of voice. This kind of thing is cool, but not regulated by these rules.</p>
+<p>Mechanistic parameters are:</p>
+<ul class="simple">
+<li><p>A character has an entity type, race, size category, movement modalities and speed. These have mechanistic effects.</p>
+<ol class="arabic simple">
+<li><p><strong>Entity type</strong></p></li>
+<li><p><strong>Race</strong>/<strong>Template</strong></p></li>
+<li><p><strong>Size category</strong></p></li>
+<li><p><strong>Movement modalities</strong></p></li>
+</ol>
+</li>
+<li><p>“<strong>Character Level</strong>”: A representation of overall experience and power.</p></li>
+<li><p>“<strong>Base</strong>”: A bonus that is applied to a lot of rolls, derived from level.</p></li>
+<li><p><strong>Stats</strong> (Str, Dex, Con, Int, Wis, Cha): Represent basic attributes.</p></li>
+<li><p><strong>Resource Pools</strong>: A character has 3 primary resource pools (HP, SP dice pool, MP dice pool) and two secondary resource pools (SP and MP).</p></li>
+<li><p><strong>Nat</strong>: A bonus that is applied to a lot of “natural”/”mundane” rolls. It is derived from SP dice pool.</p></li>
+<li><p><strong>Sup</strong>: A bonus that is applied to a lot of “supernatural” rolls. It is derived from MP dice pool.</p></li>
+<li><p><strong>Natural Attack Potential (NAP)</strong>: A character’s attack potential with non-supernatural abilities.</p></li>
+<li><p><strong>Supernatural Attack Potential (SAP)</strong>: A character’s attack potential with supernatural abilities.</p></li>
+<li><p><strong>Hit Threshold (HiT)</strong>: A measure of how difficult it is to harm a character with targeted attacks.</p></li>
+<li><p><strong>Saving throws:</strong> (Str, Dex, Con, Int, Wis, Cha): Represent characters defences against indirect attacks and dangers.</p></li>
+<li><p><strong>Skills</strong>: A character has skills (eg Stealth skill).</p></li>
+<li><p><strong>Proficiencies</strong>: A character has proficiencies (eg heavy armour proficiency).</p></li>
+<li><p><strong>Abilities</strong>: A character has abilities (eg spellcasting, multi-attack).</p></li>
+</ul>
+<p>These are all covered in detail further in the base rules.</p>
+<hr class="docutils" />
+<section id="descriptive-attributes">
+<h3>Descriptive Attributes<a class="headerlink" href="#descriptive-attributes" title="Link to this heading">¶</a></h3>
+<p>A character has descriptive attributes that need not influence mechanics (within reason), eg hair/feather/scale length and colour. Timbre of voice. This kind of thing is cool, but not regulated by these rules. Unless your voice is ultrasonic and destroys superstructures, or your hair is 50ft long. Then the DM is well within their rights to interfere.</p>
+</section>
+<hr class="docutils" />
+<section id="intrinsic-attributes">
+<h3>Intrinsic Attributes<a class="headerlink" href="#intrinsic-attributes" title="Link to this heading">¶</a></h3>
+<p>A character has certain attributes that are inherent to it and are not easily changed. These include: entity type, race, size category, movement modalities and speed. These have mechanistic effects.</p>
+<hr class="docutils" />
+<section id="entity-type">
+<h4>Entity Type<a class="headerlink" href="#entity-type" title="Link to this heading">¶</a></h4>
+<p>This defines the base possibilities of a character (a plant does not require sleep, but usually requires water, air and “sustenance”, it does “see” things. A spirit does not have a corporeal form and cannot be “touched” normally, a humanoid (animal) has a movement speed, and a corporeal form, usually with one head, one torso, two arms and two legs, requires air, water, sustenance, sleep and ages). It also defines base resistances, vulnerabilities and resistances. More information can be found in the <a class="reference external" href="10-conditions-types.html#entity-types">“Entity Types”</a> chapter.</p>
+<p>Most player characters will be “Mortal: humanoid”, or “Mortal: monster”.</p>
+</section>
+<hr class="docutils" />
+<section id="template-race">
+<h4>Template/Race<a class="headerlink" href="#template-race" title="Link to this heading">¶</a></h4>
+<p>Template is a set of attributes, usually attributed to race or species, that is applied to characters on creation. It usually gives some penalties/bonuses to stats and skills, additional movement modalities, and abilities. In addition it affects the size category and appearance of a character. For example, an “orc” template gives a bonus to STR and CON, a penalty to INT, “heat sense, proficiency with “strikes” and “slings”, as well as resistance to “percussive”.</p>
+</section>
+<hr class="docutils" />
+<section id="size-category">
+<h4>Size category<a class="headerlink" href="#size-category" title="Link to this heading">¶</a></h4>
+<p>Size categories [diminutive, tiny, small, medium, large, huge, gargantuan, colossal] affect how much space an entity takes up on (and off) a battlefield, its reach, its <a class="reference external" href="#hit-threshold-hit">HiT</a>, and potentially other things. Size rules are described in the <a class="reference external" href="#size-rules-table">“Size Rules”</a> section below.</p>
+</section>
+<hr class="docutils" />
+<section id="movement-modalities">
+<h4>Movement modalities<a class="headerlink" href="#movement-modalities" title="Link to this heading">¶</a></h4>
+<p>Movement modalities are usually determined by race and special abilities. A creature WITH a movement modality may (or may not!) be able to move over other terrain with an ability check. This is covered in <a class="reference external" href="03-movement-exploration.html#local-and-global-movement">“movement”</a> rules:</p>
+<ul class="simple">
+<li><p><strong>walk speed</strong>: ground movement over horizontal-ish terrain.</p></li>
+<li><p><strong>climb speed</strong>: ground movement over vertical-ish terrain.</p></li>
+<li><p><strong>flight speed</strong>: Areal movement. Movement through the air.</p></li>
+<li><p><strong>swim speed</strong>: movement through a liquid medium (usually water).</p></li>
+<li><p><strong>dig speed</strong>: tunnelling movement.</p></li>
+<li><p><strong>cosmic speed</strong> ethereal movement. Movement through vacuum, solids (without  interacting) or alternative spaces. Very few beings have a “cosmic speed” and most are supernatural.</p></li>
+<li><p><strong>blink speed</strong>: discrete movement. An entity with a blink speed need not pass through the spaces between start and destination as long as it is in range. Very few entities have a “blink speed”, most are powerful supernatural entities.</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="character-level-and-base">
+<h3>Character level and Base<a class="headerlink" href="#character-level-and-base" title="Link to this heading">¶</a></h3>
+<p>All player characters have one. This is an abstract measure of experience and the power that is derived from it.</p>
+<hr class="docutils" />
+<section id="levelling-up">
+<h4>Levelling up<a class="headerlink" href="#levelling-up" title="Link to this heading">¶</a></h4>
+<p>Every time a character levels up it gains:</p>
+<ul class="simple">
+<li><p>1 HP</p></li>
+<li><p>3 dice points to share between gaining SP dice and MP dice.</p></li>
+<li><p>3 level points, to be used for abilities.</p>
+<ul>
+<li><p>1 level point per level can be used to increase any stat by 1.</p></li>
+<li><p>Level points can be expended for skill points (4 skill points per level point).</p></li>
+</ul>
+</li>
+<li><p>[4 + Int] skill points to put into skill ranks and proficiencies.</p></li>
+<li><p>Every ODD level: 1 skill to add to background skills</p></li>
+</ul>
+<p>A character must spend all points when it levels up. It cannot horde unspent points waiting for the next level.</p>
+<p>At level one a character starts with:</p>
+<ul class="simple">
+<li><p>1 template</p></li>
+<li><p>1 + [Con] + [Cha] HP, with a minimum of 1</p></li>
+<li><p>3 dice points + 1 SP dice + 1 MP dice</p></li>
+<li><p>2 <a class="reference external" href="05-skills.html#proficiency-lists">proficiencies</a></p></li>
+<li><p>6 + [Int] skill points (these can also be used for additional <a class="reference external" href="05-skills.html#proficiency-lists">proficiencies</a>)</p></li>
+<li><p>1 background skill</p></li>
+<li><p>3 level points</p></li>
+<li><p>Any benefits and properties it inherits from its type and race.</p></li>
+<li><p>1 good save.</p></li>
+<li><p>A homeland (see <a class="reference external" href="03-movement-exploration.html#terrains">“terrains”</a>).</p></li>
+</ul>
+<p>In addition at level 8 and level 16 a character gets a “race boon” from its race.</p>
+</section>
+<hr class="docutils" />
+<section id="level-points-and-abilities">
+<h4>Level points and abilities<a class="headerlink" href="#level-points-and-abilities" title="Link to this heading">¶</a></h4>
+<p>Every character gets 3 level points at level 1 and at each subsequent level up. These can be spent as follows.</p>
+<ul class="simple">
+<li><p>Exchanged for skill points at the rate of 1 level points = 4 skill points.</p></li>
+<li><p>Used to increase any stat at the rate of 1 level point = +1 to a single stat. No stat may exceed 24 for player characters. A character can only add one level point to stats per level.</p></li>
+<li><p>Exchanged for abilities and boons.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="base">
+<h4>Base<a class="headerlink" href="#base" title="Link to this heading">¶</a></h4>
+<p>A character’s <strong>Base</strong> is a measure of global experience that permeates into most of a character’s actions, be they day to day activities or extraordinary feats. It is a small bonus that is added to most rolls. Base is calculated as:</p>
+<p><strong>Base = [LEVEL / 5]</strong> (rounded up)</p>
+<p>The values can also be found in the <a class="reference external" href="#level-parameters">“Level parameters”</a> table.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="stats">
+<h3>Stats<a class="headerlink" href="#stats" title="Link to this heading">¶</a></h3>
+<p>A character has six <strong>base attributes</strong>. Each one represents how “strong” some aspect of the character is. In general the higher the value, the stronger that aspect of the character.</p>
+<ol class="arabic simple">
+<li><p><strong>Str</strong>: Physical strength. Upstream of most weapon attack, damage. Upstream of abilities linked to affecting the surroundings by physical force.</p>
+<ul class="simple">
+<li><p>An entity with zero Str cannot physically affect the outside world, or move itself.</p></li>
+<li><p>An entity without a material form has no Str.</p></li>
+</ul>
+</li>
+<li><p><strong>Dex</strong>: Physical agility. Upstream to some weapon attack, damage (usually ranged). Upstream to evasive abilities. Upstream to abilities linked to affecting the surroundings by delicate manipulation.</p>
+<ul class="simple">
+<li><p>An entity with zero Dex cannot move its physical form.</p></li>
+<li><p>Entities with no physical form can still have Dex.</p></li>
+</ul>
+</li>
+<li><p><strong>Con</strong>: Physical resilience. Upstream of HP, SP, aspects of physical interactions</p>
+<ul class="simple">
+<li><p>The physical form of an entity with zero Con has no integrity. Corporeal entities with 0 Con are dead.</p></li>
+<li><p>An entity with no physical form has no Con, such entities can only be damaged by “supernatural” means and “spiritual” weapons.</p></li>
+</ul>
+</li>
+<li><p><strong>Int</strong>: Mental agility. Ability to memorise, deduce, analyse, IQ. Upstream to skill points, some aspects of supernatural abilities.</p>
+<ul class="simple">
+<li><p>An entity with zero Int is not capable of reason or learning. It is mindless.</p></li>
+</ul>
+</li>
+<li><p><strong>Wis</strong>: Faculty of judgement, discernment, sense, EQ. Upstream of supernatural abilities, abilities devoted to detection, some aspects of social interactions.</p>
+<ul class="simple">
+<li><p>An entity with zero Wis has no awareness of internal or external realities. It is essentially unconscious.</p></li>
+</ul>
+</li>
+<li><p><strong>Cha</strong>: Force of Personality, pluck, mental resilience. Upstream of HP, MP, aspects of social interactions.</p>
+<ul class="simple">
+<li><p>An entity with zeo Cha has no will, drive or “spirit”. It is generally catatonic. If not, it might obey any instructions it receives to the letter. Such entities are not affected by “spiritual” weapons.</p></li>
+</ul>
+</li>
+</ol>
+<p>When an ability is written <em>without</em> square brackets, for example “Con” or “CON”, we are referring to the raw stat, which is likely to be between 5 and 24+. If it is written <em>with</em> square brackets, for example “[Con]” or “[CON]”, it is referring to the modifier, which is typically between -4 and 8+.</p>
+<hr class="docutils" />
+<section id="stat-assignment">
+<h4>Stat assignment<a class="headerlink" href="#stat-assignment" title="Link to this heading">¶</a></h4>
+<p>The bases value for stats of a character is 10. When a character is created, this value is modified. Stats can be assigned either with dice rolls, or with a “point buy” system. The usual rule for rolling up stats is (there are other methods which produce other results):</p>
+<ol class="arabic simple">
+<li><p>Roll 4d6, count the total of the highest 3 dice (4d6dl1).</p></li>
+<li><p>Repeat this for each stat.</p></li>
+<li><p>These 6 totals, in any order are your character’s stats.</p></li>
+<li><p>Apply racial/template modifiers.</p></li>
+<li><p>If any stat is below 5, raise it to 5.</p></li>
+</ol>
+<p>The rules for point buy are (this is for the standard “24 point buy”):</p>
+<ol class="arabic simple">
+<li><p>Start with a blank sheet and 24 points.</p></li>
+<li><p>Assign points in accordance with the cost table until all 6 stats are assigned and the remaining points are 0. If you end with unassigned points, those points are lost.</p></li>
+</ol>
+<p>The point cost for point buy is as follows.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Value</p></th>
+<th class="head"><p>Bonus</p></th>
+<th class="head"><p>Total Cost</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>8</p></td>
+<td><p>-1</p></td>
+<td><p>-2</p></td>
+</tr>
+<tr class="row-odd"><td><p>9</p></td>
+<td><p>-1</p></td>
+<td><p>-1</p></td>
+</tr>
+<tr class="row-even"><td><p>10</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+</tr>
+<tr class="row-odd"><td><p>11</p></td>
+<td><p>0</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-even"><td><p>12</p></td>
+<td><p>+1</p></td>
+<td><p>2</p></td>
+</tr>
+<tr class="row-odd"><td><p>13</p></td>
+<td><p>+1</p></td>
+<td><p>3</p></td>
+</tr>
+<tr class="row-even"><td><p>14</p></td>
+<td><p>+2</p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="row-odd"><td><p>15</p></td>
+<td><p>+2</p></td>
+<td><p>6</p></td>
+</tr>
+<tr class="row-even"><td><p>16</p></td>
+<td><p>+3</p></td>
+<td><p>8</p></td>
+</tr>
+<tr class="row-odd"><td><p>17</p></td>
+<td><p>+3</p></td>
+<td><p>11</p></td>
+</tr>
+<tr class="row-even"><td><p>18</p></td>
+<td><p>+4</p></td>
+<td><p>14</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</section>
+<hr class="docutils" />
+<section id="resource-pools">
+<h3>Resource pools<a class="headerlink" href="#resource-pools" title="Link to this heading">¶</a></h3>
+<p>A character has resource pools. These are a critical part of the game and are explained below.</p>
+<ul class="simple">
+<li><p>The “SP dice pool” represents stamina, physical resilience and affinity for physical (natural) activity. It is important for martial characters.</p></li>
+<li><p>The “MP dice pool” represents spirit, pluck, mental resilience and affinity for the supernatural. It is important for casters, healers and generally “magical” characters.</p></li>
+<li><p>HP represents overall life force. As soon as you start taking HP damage, you are in trouble. Having lots of HP is important, but even more so for characters who will be putting themselves in harm’s way often.</p></li>
+</ul>
+<hr class="docutils" />
+<section id="hp-pool">
+<h4>HP pool<a class="headerlink" href="#hp-pool" title="Link to this heading">¶</a></h4>
+<p>This represents your health or life force. Loss of HP represents physical/spiritual damage/degradation.</p>
+<ul class="simple">
+<li><p>A character has maximum HP = [CON+CHA+LEVEL].</p></li>
+<li><p>When a character loses 1 or more HP it risk gaining a condition (see <a class="reference external" href="10-conditions-types.html#damage-types">“Damage types”</a> and <a class="reference external" href="#the-2d12-roll">The 2d12 roll</a>).</p></li>
+<li><p>An entity at 0 HP is disabled and cannot act.</p></li>
+<li><p>An entity whose HP equals the negative of either their CON or HP total (whichever is greater) is destroyed.</p></li>
+<li><p>A character regains a single point of HP per long rest (usually a day). If a character receives long term medical care this becomes 2HP. (see <a class="reference external" href="04-combat.html#rest-and-recuperation">“Rest and Recuperation”</a>)</p></li>
+<li><p>When a character with no SP takes natural damage, it loses HP equal to the damage taken.</p></li>
+<li><p>When a character with no MP takes supernatural damage, it loses HP equal to the damage taken.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="mp-dice-pool">
+<h4>MP dice pool<a class="headerlink" href="#mp-dice-pool" title="Link to this heading">¶</a></h4>
+<p>This is the determinant of “Mana pool”.</p>
+<ul class="simple">
+<li><p>A character has a capacity of up to [3 MP dice / level] + 1 (min 1).</p></li>
+<li><p>A character uses MP dice to fuel powerful mental/spiritual abilities.</p></li>
+<li><p>A character can expend a single MP die to add 1d6 to any roll governed by INT, WIS or CHA (must be declared before the roll is made).</p></li>
+<li><p>A character with 0 MP dice cannot use the more powerful supernatural abilities that require MP.</p></li>
+<li><p>A character regains 1/2 of all MP dice on any “rest” [whatever that may be in duration], and as a result of this 2 MP per dice (see “Mana Pool” below).</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="mana-pool">
+<h4>Mana pool<a class="headerlink" href="#mana-pool" title="Link to this heading">¶</a></h4>
+<p>This is a measure of an entities’ mental/spiritual energy.</p>
+<ul class="simple">
+<li><p>A character has maximum <strong>MP = CHA x LEVEL + [MP dice count] x 2</strong>.</p></li>
+<li><p>When a character uses an MP dice, it loses 2 MP.</p></li>
+<li><p>When a character regains an MP dice, it regains 2 MP.</p></li>
+<li><p>When a character takes supernatural damage it loses 1 MP per point of damage.</p></li>
+<li><p>If a character takes more than <strong>[CHA + 2 x MP dice total]</strong> damage from a single supernatural/mental attack, the remainder is subtracted from HP.</p></li>
+<li><p>When a character rests, it regains <strong>[CHA x Base]</strong> MP. (see <a class="reference external" href="04-combat.html#rest-and-recuperation">“Rest and Recuperation”</a>)</p>
+<ul>
+<li><p>This is in addition to the MP regained due to regained MP dice. So in total a character regains <strong>[CHA x Base + Total MP dice count]</strong> MP.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="sp-dice-pool">
+<h4>SP dice pool<a class="headerlink" href="#sp-dice-pool" title="Link to this heading">¶</a></h4>
+<p>This is the determinant of “Stamina pool”.</p>
+<ul class="simple">
+<li><p>A character has a capacity of up to [3 SP dice / level] + 1 (min 1).</p></li>
+<li><p>A character uses SP dice to fuel powerful physical/natural abilities.</p></li>
+<li><p>A character can expend a single SP die to add 1d6 to any roll governed by STR, DEX or CON (must be declared before the roll is made).</p></li>
+<li><p>A character with 0 SP dice cannot use the more powerful supernatural abilities that require SP.</p></li>
+<li><p>A character regains 1/2 of all SP dice on any “rest” [whatever that may be in duration].</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="stamina-pool">
+<h4>Stamina pool<a class="headerlink" href="#stamina-pool" title="Link to this heading">¶</a></h4>
+<p>This is a measure of an entity’s physical energy, stamina.</p>
+<ul class="simple">
+<li><p>A character has maximum <strong>SP = CON x LEVEL + [SP dice count] x 2</strong>.</p></li>
+<li><p>When a character uses an SP dice, it loses 2 SP.</p></li>
+<li><p>When a character regains an SP dice, it regains 2 SP.</p></li>
+<li><p>When a character takes natural damage it loses 1 SP per point of damage.</p></li>
+<li><p>If a character takes more than <strong>[CON + 2 x SP dice total]</strong> damage from a single natural/physical attack, the remainder is subtracted from HP.</p></li>
+<li><p>When a character rests, it regains <strong>[CON x Base]</strong> SP. (see <a class="reference external" href="04-combat.html#rest-and-recuperation">“Rest and Recuperation”</a>)</p>
+<ul>
+<li><p>This is in addition to the SP regained due to regained SP dice. So in total a character regains <strong>[CON x Base + Total SP dice count]</strong> SP.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="losing-mp-sp-and-rebalancing">
+<h4>Losing MP, SP and Rebalancing<a class="headerlink" href="#losing-mp-sp-and-rebalancing" title="Link to this heading">¶</a></h4>
+<p>MP is lost when MP dice are used, or when supernatural attacks damage a character. SP is lost when SP dice are used or when natural attacks damage a character. In some cases this means that a character can end up running out of MP (or SP), while they still have SP (or MP). However, mental and physical energy is partially interconvertible. The conversion works as follows:</p>
+<ul class="simple">
+<li><p><strong>Rebalance</strong>: As a main action, convert SP into MP or MP into SP, at the cost of 2 to 1. So 2 MP would become 1 SP, or 2 SP would become 1 MP.</p></li>
+<li><p><strong>Replace SP dice</strong>: If they run out of SP dice, can use MP dice instead, expending 2 MP dice for every SP die they would normally use. This also costs a secondary action (so it does not work for abilities that require a <a class="reference external" href="04-combat.html#types-of-actions-in-combat">“full round action” or “secondary action”</a>).</p></li>
+<li><p><strong>Replace MP dice</strong>: If they run out of MP dice, they can use SP dice, expending 2 SP dice for every MP die they would normally use. This also costs a secondary action (so it does not work for abilities that require a <a class="reference external" href="04-combat.html#types-of-actions-in-combat">“full round action” or “secondary action”</a>).</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="nat-and-sup-attack-of-the-three-letter-words">
+<h3>Nat and Sup: Attack of the three letter words<a class="headerlink" href="#nat-and-sup-attack-of-the-three-letter-words" title="Link to this heading">¶</a></h3>
+<p>This is the “natural” (Nat) and “supernatural” (Sup) component of many bonuses. They represent the mastery/affinity that a character has over/with “natural” and “supernatural” aspects of the world respectively. As a rule rolls, saves and attacks governed by Str, Dex or Con a character is proficient with use Nat. Rolls, saves and attacks governed by Int, Wis or Cha a character is proficient with use Sup. They are calculated as follows:</p>
+<ul class="simple">
+<li><p><strong>Nat = [SP / 6] rounded up</strong></p>
+<ul>
+<li><p>So a character with 29 “SP dice” has a Nat = 5.</p></li>
+</ul>
+</li>
+<li><p><strong>Sup = [MP / 6] rounded up</strong></p>
+<ul>
+<li><p>So a character with 31 “MP dice” has a Sup = 6.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="nap-and-sap-nat-and-sat-attack-of-the-three-letter-words-ii">
+<h3>NAP and SAP, NAT and SAT: Attack of the three letter words II<a class="headerlink" href="#nap-and-sap-nat-and-sat-attack-of-the-three-letter-words-ii" title="Link to this heading">¶</a></h3>
+<p>Attack Potentials and Attack Thresholds are used to determine the potency, or more accurately, the success rate of a character’s offensive abilities. They are bonus added to all targeted attack rolls a character makes. NAP is used for natural attacks, SAP is used for supernatural attacks.</p>
+<p><strong>Natural Attack Potential</strong> (NAP) is the bonus used for all of a character’s “natural” attacks.</p>
+<ul class="simple">
+<li><p><strong>NAP = [Base + Nat]</strong></p></li>
+<li><p>A total bonus for an “natural” attack = NAP + Str/Dex</p></li>
+</ul>
+<p><strong>Supernatural Attack Potential</strong> (SAP) is the bonus used for all of a character’s “supernatural” attacks.</p>
+<ul class="simple">
+<li><p><strong>SAP = [Base + Sup]</strong></p></li>
+<li><p>A total bonus for a “supernatural” attack = SAP + Int/Wis</p></li>
+</ul>
+<p><strong>Natural Attack Threshold</strong> (NT) is <strong>Nat + 13</strong>. A target of a character’s “natural” <strong>abilities</strong> rolls a save against the character’s NT.</p>
+<ul class="simple">
+<li><p>The threshold for a character’s “natural” abilities = NT + Str/Dex</p></li>
+</ul>
+<p><strong>Supernatural Attack Threshold</strong> (SA) is <strong>Sup + 13</strong>. A target of a character’s “supernatural” <strong>abilities</strong> rolls a save against a character’s ST.</p>
+<ul class="simple">
+<li><p>The threshold for a character’s “supernatural” abilities = ST + Int/Wis</p></li>
+</ul>
+<p>It should be noted that for <em>targetted attacks</em> (including <a class="reference external" href="04-combat.html#basic-martial-manoeuvres">basic martial manoeuvres</a>), “Base” is included, while for <em>ability save thresholds</em> it is not. This is because improving defences against targetted attacks is easier than improving saves.</p>
+</section>
+<hr class="docutils" />
+<section id="saving-throws">
+<h3>Saving throws<a class="headerlink" href="#saving-throws" title="Link to this heading">¶</a></h3>
+<p>Some harmful effects can be negated or mitigated with a “<strong>save</strong>”. A character rolls [2d12 + save bonus] vs some threshold. If the save succeeds (meets it beats it), the brunt of a harmful effect can be avoided.</p>
+<p>A character has six saving throws, one for each stat. Abilities and effects that force a save usually specify one or two valid save types:</p>
+<ol class="arabic simple">
+<li><p><strong>Str</strong>: Use of strength to resist or redirect an effect. This can be voluntarily failed. A “<strong>helpless</strong>” being cannot succeed STR saves. Examples:</p>
+<ul class="simple">
+<li><p>Use STR to resist being knocked prone by a charging guinea pig.</p></li>
+<li><p>Use STR hang on to a ship’s mast when a storm wave washes over a ship.</p></li>
+</ul>
+</li>
+<li><p><strong>Dex</strong>: Use of agility to avoid or redirect an effect. This can be voluntarily failed. An “<strong>immobilised</strong>” being cannot succeed DEX saves. Examples:</p>
+<ul class="simple">
+<li><p>Use DEX to avoid a charging guinea pig.</p></li>
+<li><p>Defensively tuck in time to avoid the worst of a fireball’s heat wave.</p></li>
+</ul>
+</li>
+<li><p><strong>Con</strong>: Use of physical resilience to shake off an effect. This cannot be voluntarily failed. Entities without a physical form ALWAYS succeed CON saves. Examples:</p>
+<ul class="simple">
+<li><p>Immune system resisting a disease.</p></li>
+<li><p>Resisting a poison.</p></li>
+<li><p>Resisting the effect of a monsters ultrasonic blast.</p></li>
+<li><p>Resisting some supernatural abilities that eat away at the body.</p></li>
+</ul>
+</li>
+<li><p><strong>Int</strong>: Use of analysis to negate a complex effect. This can be voluntarily failed. A mindless being is not affected by abilities that force INT saves. Examples:</p>
+<ul class="simple">
+<li><p>Negate a confusion effect.</p></li>
+<li><p>Escape a magical labyrinth.</p></li>
+</ul>
+</li>
+<li><p><strong>Wis</strong>: Use of senses to detect an insidious effect. This can be voluntarily failed. A mindless being is not affected by abilities that force WIS saves. Examples:</p>
+<ul class="simple">
+<li><p>Defeat an illusion.</p></li>
+<li><p>Defeat a charm/fear effect.</p></li>
+</ul>
+</li>
+<li><p><strong>Cha</strong>: Use of force of will/presence to negate an effect. Can sometimes be voluntarily failed.</p>
+<ul class="simple">
+<li><p>Negate a devil’s attempt to cast you into a another plane.</p></li>
+<li><p>Negate a spirit’s attempt to devour your essence.</p></li>
+<li><p>Negate possession.</p></li>
+</ul>
+</li>
+</ol>
+<p>A save can either be “good” or “bad” for a character. The calculation for the save bonus is as follow:</p>
+<ul class="simple">
+<li><p><strong>Bad</strong>: [Stat bonus + Base] + [outside factors]</p></li>
+<li><p><strong>Good</strong> (Str, Dex, Con): [NAP + Stat bonus] + [outside factors]</p></li>
+<li><p><strong>Good</strong> (Int, Wis, Cha): [SAP + Stat bonus] + [outside factors]</p></li>
+</ul>
+<p>A character starts with one good save at level 1, and can gain more good saves with the <a class="reference external" href="06-abilities.html#extra-save">“Extra Save”</a> ability.</p>
+</section>
+<hr class="docutils" />
+<section id="hit-threshold-hit">
+<h3>Hit Threshold (HiT)<a class="headerlink" href="#hit-threshold-hit" title="Link to this heading">¶</a></h3>
+<p>A character has an armour class/hit threshold. It can represent any combination of armour, shielding, evasive ability and additional blocking factors and is something of an abstract measure of how hard a character is to damage with a targeted attack: A targeted attack either penetrates defences, with the potential of doing damage, (hit) or it does not (miss).</p>
+<hr class="docutils" />
+<section id="components-of-hit">
+<h4>Components of HiT<a class="headerlink" href="#components-of-hit" title="Link to this heading">¶</a></h4>
+<p>HiT is the sum of a constant factor <strong>[10 + Base]</strong> and 4 variable components: armour, shield, evasion and deflection.</p>
+<p>Each component has certain properties, conditions under which it adds to HiT, and those under which it doesn’t. There are two main properties to a component of HiT, “active” and “contact”. Furthermore each component can have several sources.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Component</p></th>
+<th class="head"><p>Active</p></th>
+<th class="head"><p>Contact</p></th>
+<th class="head"><p>Sources</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Armour</p></td>
+<td><p>No</p></td>
+<td><p>Yes</p></td>
+<td><p>Natural Armour, External Armour, Supernatural</p></td>
+</tr>
+<tr class="row-odd"><td><p>Shield</p></td>
+<td><p>Yes</p></td>
+<td><p>Yes</p></td>
+<td><p>Shield, Weapon, Parry, Supernatural</p></td>
+</tr>
+<tr class="row-even"><td><p>Evasion</p></td>
+<td><p>Yes</p></td>
+<td><p>No</p></td>
+<td><p>Dodge, Insight, Supernatural</p></td>
+</tr>
+<tr class="row-odd"><td><p>Deflection</p></td>
+<td><p>No</p></td>
+<td><p>No</p></td>
+<td><p>Cover, Barrier, Supernatural</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Normally, <strong>HiT = [10 + Base + Evasion + Deflection + Shield + Armour]</strong>.</p>
+<p><strong>Active</strong> groups of HiT are included only against attacks when the target is aware of the attack and can do something about it. Thus an attack by an assassin, whose target is unaware of it bypasses “evasion” and “deflection” groups. Active groups <em>do not</em> protect a character when it is:</p>
+<ul class="simple">
+<li><p>“surprised”</p></li>
+<li><p>“restrained”</p></li>
+<li><p><a class="reference external" href="10-conditions-types.html#disabled-states">“disabled”</a> (“immobilised”, “stunned”, “incapacitated”, “paralysed”, “helpless”, “unconscious”, “dying”)</p></li>
+</ul>
+<p>In these cases its <strong>HIT = [10 + Base + Deflection + Armour]</strong>. This is called the “Surprised HiT”.</p>
+<p><strong>Contact</strong> groups of HiT are included only against attacks that need to contact the actual ‘body’/’form’ of a target to cause harm and generally do not pass through physical barriers. For example, a shade’s touch or a sword made of pure entropic energies would both pass straight through armour and shields.</p>
+<p>In these cases the <strong>HiT = [10 + Base + Evasion + Deflection]</strong>. This is called “Touch HiT”.</p>
+</section>
+<hr class="docutils" />
+<section id="sources-of-hit">
+<h4>Sources of HiT<a class="headerlink" href="#sources-of-hit" title="Link to this heading">¶</a></h4>
+<p>While “components” explain <em>how and when</em> that part of a character’s HiT works, a “source” explains <em>what</em> exactly that part of HiT is and how it is allowed to contribute to HiT.</p>
+<p>There are 10 potential sources of HiT: natural armour, external armour, shield, weapon, parry, dodge, insight, cover, barrier and supernatural.</p>
+<p>Bonus to HiT from the same source do not stack and only the greatest bonus and the greatest penalty apply for each source. Thus only one “supernatural” bonus to HiT can apply. Likewise, wearing padded armour (+2, natural) and full-plate armour (+9, natural) only grants the armour bonus from the full plate armour. It would also make most characters rather hot and sweaty.</p>
+<p>As a complete example, a level 3 duelist (11 constant) with a [DEX] of +3 (dodge), wearing a chain shirt (+2 outer armour) and wielding a buckler (+2 shield) and a rapier (+1 weapon) and using the “parry” ability (+2 parry, vs up to 3 attacks), could have a HiT of 21 (11+3+2+2+1+2).</p>
+<p><em>Natural Armour</em> represents the armour that a character’s body intrinsically possesses, or any layers of armour that are internal to it, for example scaly or supernaturally hardened skin, or iron bones. This is seldom possessed by ordinary characters and is mostly the domain of monsters.</p>
+<p><em>Outer Armour</em> represents the armour that a character wears atop (or instead) of its clothes. This can include shining plate armour, hides, brigandine, etc. For reasons explained in <a class="reference external" href="11-weapons-armour.html#armour">Chapter 11: Armour</a>, one cannot wear two suits of armour and gain the benefit of both.</p>
+<p><em>Shield</em> represents using a shield, be it mundane or magical, to deflect an attack or blunt its impact. While it is physically possible to wield two or more shields, the utility of such an endeavour is dubious at best.</p>
+<p><em>Weapon</em> is like shield, but the source is a weapon. This stacks with shield, since often weapons are designed to be used with a shield, and can block attacks in ways that complement the shield.</p>
+<p><em>Parry</em> represents using a weapon or part of one’s body to redirect an attack away from oneself. This is commonly seen in martial arts, and combat between those wielding melee weapons. Fencing is a classic example.</p>
+<p><em>Dodge</em> and <em>Insight</em> represent predicting the trajectory and timing of an incoming attack and not being there when it lands.</p>
+<p><em>Cover</em> represents placing an object or structure between yourself and the attack so that it cannot physically reach you. For example, an emplaced tower shield, low wall, or a tree, all count towards this component.</p>
+<p><em>Barrier</em> represents invisible, or almost invisible barriers which prevent an attack from reaching a target. Usually they make attacks impossible or cause damage reduction, but on occasion, they may contribute directly to HiT.</p>
+<p><em>Supernatural</em> bonuses represent supernatural forces that enhance existing protection, usually in ways that defy the laws of nature. Usually they do not contribute to HiT, and protect the character in other ways, but exceptions are possible.</p>
+</section>
+<hr class="docutils" />
+<section id="hit-and-dropping-defences">
+<h4>HiT and Dropping Defences<a class="headerlink" href="#hit-and-dropping-defences" title="Link to this heading">¶</a></h4>
+<p>An entity can voluntarily <a class="reference external" href="04-combat.html#dropping-defences-and-voluntary-hp-damage">drop defences</a> as a reaction/minor interaction. In this case it does not add “evasion” or “shield” to its HiT.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="initiative">
+<h3>Initiative<a class="headerlink" href="#initiative" title="Link to this heading">¶</a></h3>
+<p>FanSys, like most TTRPG systems, is turn based, which means that all characters act one at a time. The order in which they act, in sensitive situations, such as combat, is determined by an “initiative roll”. This is a <em>roll</em> with an “Initiative Bonus”, which represents how quick a character is to act and react. The “Initiative Bonus” is determined as follows:</p>
+<p><strong>Initiative Bonus</strong> = [DEX] OR [INT]  (whichever is higher)</p>
+</section>
+<hr class="docutils" />
+<section id="skills-and-proficiencies">
+<h3>Skills and Proficiencies<a class="headerlink" href="#skills-and-proficiencies" title="Link to this heading">¶</a></h3>
+<p>A character has skills and proficiencies. They generally represent the mundane ability to carry out learned activities and use tools:</p>
+<ul class="simple">
+<li><p><strong>Skills:</strong> are general abilities that cover a range of activities that a character can learn and improve in with time. A character not proficient with a skill lacks specialist knowledge and training associated with the activity and has the dice roll capped at 13 before bonuses and penalties.</p></li>
+<li><p><strong>Proficiencies:</strong> A proficiency is the knowledge and ability in using a very specific set of tools or abilities. A character who is not proficient with a tool, kit or technique either cannot use it or takes a hefty penalty when they try.</p></li>
+</ul>
+<p>The number of skill points a character can have in a single skill is capped to:</p>
+<ul class="simple">
+<li><p><strong>[LEVEL / 2]</strong> (rounded up)</p></li>
+<li><p>A skill bonus for a given skill is: <strong>[Base + 1 (optional)] + [ranks] + [ability bonus]</strong> (see <a class="reference external" href="05-skills.html">“Skills”</a> chapter)</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="abilities">
+<h3>Abilities<a class="headerlink" href="#abilities" title="Link to this heading">¶</a></h3>
+<p>These are the really cool abilities that a character has, like throwing fire balls, healing otherwise lethal wounds, or being able to chop a giant rock in half (or carry said rock). In short extra “things” that a character can do that it might not be able to do, or the ability to withstand things it might not be able to withstand otherwise. A character can gain abilities in exchange for level points. Abilities are covered in the <a class="reference external" href="06-abilities.html">“Abilities”</a> chapter.</p>
+</section>
+<hr class="docutils" />
+<section id="size">
+<h3>Size<a class="headerlink" href="#size" title="Link to this heading">¶</a></h3>
+<p>Entities can have different physical sizes. These are categorised into 8 categories:</p>
+<ul class="simple">
+<li><p>diminutive (smallest),</p></li>
+<li><p>tiny,</p></li>
+<li><p>small,</p></li>
+<li><p>medium (human sized),</p></li>
+<li><p>large,</p></li>
+<li><p>huge,</p></li>
+<li><p>gargantuan,</p></li>
+<li><p>colossal (largest).</p></li>
+</ul>
+<p>With “medium” being roughly human sized, and each size category up being approximately twice the size in length/height of the previous one (x8 in volume and weight). We do not deal with size categories below “diminutive” although smaller entities certainly exist (they’re just treated as “diminutive” for the sake of mechanics).</p>
+<p>While as a human centric game the mechanics are fine tuned to medium sized characters, the size rules mean that they will also work for larger and smaller characters, although there will be certain very obvious (and some less obvious) advantages and disadvantages for characters of those size categories.</p>
+<hr class="docutils" />
+<section id="weapon-damage-and-reach">
+<h4>Weapon Damage and Reach<a class="headerlink" href="#weapon-damage-and-reach" title="Link to this heading">¶</a></h4>
+<p>As a rule, larger entities have limbs that reach further and use larger weapons, which deal more damage, while the converse is true for smaller entities. This is detailed in the <a class="reference external" href="#dice-size-rules">“Dice size rules”</a> section at the end of the chapter.</p>
+<p>Likewise reach increases. While small, medium and large entities have a reach of 5ft, larger entities usually reach further, making it harder for smaller entities to approach close enough to attack them in melee. Similarly tiny and diminutive entities must enter the space of a larger entity to engage it in melee. See the <a class="reference external" href="#size-rules-table">“Size rules tables”</a> near the end of the chapter for details.</p>
+<p>Likewise, there are more details on the effects of size in combat in the <a class="reference external" href="04-combat.html#space-in-combat">“Combat: Space in combat”</a> section.</p>
+</section>
+<hr class="docutils" />
+<section id="space-and-weight">
+<h4>Space and Weight<a class="headerlink" href="#space-and-weight" title="Link to this heading">¶</a></h4>
+<p>A medium sized entity takes up a 5ft square/hex. For the every size category up the side length of this space, is doubled, so a large entity takes up a 10ft square (4 x 5ft squares), and a huge entity takes up a 20ft square (16 x 5ft squares). Likewise, a small entity does not fully take up its 5ft square, and you can fit 4 small entities in a 5ft without. Thus small characters may be able to explore areas that a larger character cannot reach and escape from situations which a larger character may find inescapable. (Again this is found in the <a class="reference external" href="04-combat.html#space-in-combat">“Combat: Space in combat”</a> section)</p>
+<p>Likewise, weight increases proportionally to volume, so larger entities are a lot heavier, usually x8 for each size category. So if a dainty human waif might weigh 100lb, the pony/horse she rides (one size category larger) may easily be 800lb. This means that large entities should be weary of the structural integrity of the ground they tread.</p>
+</section>
+<hr class="docutils" />
+<section id="hit-strength-carrying-capacity">
+<h4>HiT, strength, carrying capacity<a class="headerlink" href="#hit-strength-carrying-capacity" title="Link to this heading">¶</a></h4>
+<p>Larger entities are bigger targets, and have more of themselves to move, so they do not dodge as easily. Thus they suffer a penalty to DEX saves and “evasion”, but gain a bonus to STR saves and “armour”.</p>
+<p>Likewise carrying capacity increases with size, but less(!) than the weight of equipment, arms and armour. (See the <a class="reference external" href="#size-rules-table">“Size rules tables”</a>).</p>
+</section>
+<hr class="docutils" />
+<section id="environmental-effects">
+<h4>Environmental Effects<a class="headerlink" href="#environmental-effects" title="Link to this heading">¶</a></h4>
+<p>Entities larger than “medium” take more damage when flying in stormy weather (<a class="reference external" href="03-movement-exploration.html#local-and-global-movement-1">“Movement and Exploration: Local and Global Movement”</a>) or when hitting the ground at the end of a fall (<a class="reference external" href="03-movement-exploration.html#falling">“Movement and Exploration: Falling”</a>). This generally results from the fact that while a larger body is sturdier than a small one, it is usually <em>less sturdy for its size</em>.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="senses">
+<h3>Senses<a class="headerlink" href="#senses" title="Link to this heading">¶</a></h3>
+<p>An entity is assumed by default to have the senses of sight and hearing. Other basic, natural senses include smell, touch and taste, but not all entities possess these senses. For example an incorporeal entity might not have touch, an undead skeleton might not have taste. In general <a class="reference external" href="10-conditions-types.html#mortals">mortals</a> have all five senses unless stated otherwise.</p>
+<p>In addition an entity might have the following “special” senses that act like sight in many ways but detect something other than normally visible light:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="06-abilities.html#heat-sense-i-v">Heat Sense</a></p></li>
+<li><p><a class="reference external" href="06-abilities.html#life-sense-i-vi">Life Sense</a></p></li>
+<li><p><a class="reference external" href="06-abilities.html#truesight-i-vi">Truesight</a></p></li>
+<li><p><a class="reference external" href="06-abilities.html#tremor-sense-i-vi">Tremor Sense</a></p></li>
+<li><p><a class="reference external" href="06-abilities.html#blind-sight-i-vi">Blind Sight</a></p></li>
+</ul>
+<p>In addition the following ability improves specifically the sense of sight.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="06-abilities.html#low-light-vision">Low Light Vision</a></p></li>
+</ul>
+<p>In addition the following ability improves hearing, sight or smell (optionally it may be used for taste or touch, but this is not considered to be of advantage in any normal game).</p>
+<ul class="simple">
+<li><p><a class="reference external" href="06-abilities.html#keen-senses-i-iii">Keen Senses</a></p></li>
+</ul>
+<hr class="docutils" />
+<section id="sight">
+<h4>Sight<a class="headerlink" href="#sight" title="Link to this heading">¶</a></h4>
+<p>Sight is the ability to see. An entity with sight can detect and distinguish shapes that it can draw a straight line to that is not blocked by opaque objects (line of sight). In addition it can often distinguish considerable details such as colour (if it has colour vision) or texture. This ability can only be used if there is a considerable amount of light, eg outside in daytime, or in a well lit indoor space.</p>
+<p>Entities with sight may then make an <a class="reference external" href="05-skills.html#observe">“observe”</a> roll to gain additional visual information.</p>
+<p>If light levels are low, eg. on a starlit/moonlit night, in a candle-lit hideout, these rolls are made at disadvantage, likewise, all targets of ranged “targeted attacks” and melee attacks beyond the entity’s normal reach are considered to be “heavily obscured”. In addition <a class="reference external" href="05-skills.html#investigateprospect">“Prospect”</a>, <a class="reference external" href="05-skills.html#navigate">“Navigate”</a> and <a class="reference external" href="05-skills.html#track">“Track”</a> rolls are made at disadvantage in low light conditions or darkness unless the entity making them is adapted to rely on other senses or has a special sense which is applicable in that situation. All of the drawbacks of low light levels (but not complete darkness) are negated by “low light vision”. Furthermore a character with low-light vision treats the area within twice the “dim light” radius of a light source as if it were dim light (if it is not otherwise illuminated). Thus if the “dim light” radius of a torch ends within 40ft, a character with “low-light vision” would see within 40ft of the torch as if it were in bright light, and between 40-80ft as if it were in dim light.</p>
+<p>In total or near total darkness, eg in an unlit cave or catacomb, or on a moonless, cloudy night (barring torchlight), an entity with ordinary sight or even “low light vision” is <a class="reference external" href="10-conditions-types.html#conditions-in-detail">“blind”</a>. Similarly an “invisible” entity cannot be detected by ordinary sight, but the tracks it leaves might be visually detectable with a <a class="reference external" href="05-skills.html#track">“track”</a> roll, following the normal rules for the skill.</p>
+<p>Normal “sight” and any special sense with the word “sight” in it is considered sight. Other senses are not.</p>
+<p><a class="reference external" href="06-abilities.html#heat-sense-i-v">“Heat sense”</a>, <a class="reference external" href="06-abilities.html#life-sense-i-vi">“Life sense”</a>, <a class="reference external" href="06-abilities.html#tremor-sense-i-vi">“tremor sense”</a> and <a class="reference external" href="06-abilities.html#blind-sight-i-vi">“blind sight”</a> negate some aspects of blindness, each under specific circumstances (see the specific sections for details).</p>
+<p><a class="reference external" href="04-combat.html#cover-and-concealment">“Concealment”</a> gives entities a chance to hide from ordinary sight, but usually not a guarantee. Likewise, light concealment grants a 1/6 miss chance, while heavy concealment provides a 2/6 miss chance. Full concealment gives a 4/6 miss chance for close (melee) attacks and 5/6 miss chance for ranged attacks (blindness/invisibility gives full concealment).</p>
+</section>
+<hr class="docutils" />
+<section id="hearing">
+<h4>Hearing<a class="headerlink" href="#hearing" title="Link to this heading">¶</a></h4>
+<p>Hearing is the ability to hear. An entity with hearing can detect certain vibrations (sound) and interpret them to gain information about the approximate of things and entities and gain some information about their properties. Hearing does not require a straight, unimpeded line between the entity and the source of the sound, however it does require the source to be located in contiguous gaseous, liquid or solid medium. Sound does not travel in a vacuum.</p>
+<p>Hearing can be used, with an <a class="reference external" href="skills#observe">“observe”</a> roll, to locate the square where the source of the sound is located if it is within 100ft, otherwise, the direction can be determined, but the distance can only be determined to “less than 200ft”, “less than 300ft”, etc.</p>
+<p>Terrestrial and flying entities have disadvantage on hearing based <a class="reference external" href="05-skills.html#observe">“Observe”</a> and <a class="reference external" href="05-skills.html#track">“Track”</a> rolls in water. Aquatic entities have disadvantage on these rolls out of water. Likewise, an intervening solid barrier between the entity and source of sound, causes these rolls to be made at disadvantage.</p>
+</section>
+<hr class="docutils" />
+<section id="smell">
+<h4>Smell<a class="headerlink" href="#smell" title="Link to this heading">¶</a></h4>
+<p>Smell is the ability to detect scents. An entity with scent can detect and identify material emanations, such as aromatic oils, sweat, and the like. Scents are generally blocked if there is no path through air, space or water for the emanations to travel between their source and detecting entity.</p>
+<p>Smell cannot be used to detect location of a target, but can be used to discern the presence/absence of otherwise concealed targets, to identify them and for tracking, investigating and prospecting.</p>
+</section>
+</section>
+</section>
+<hr class="docutils" />
+<section id="tables">
+<h2>Tables<a class="headerlink" href="#tables" title="Link to this heading">¶</a></h2>
+<section id="level-parameters">
+<h3>Level parameters<a class="headerlink" href="#level-parameters" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level</p></th>
+<th class="head"><p>Base</p></th>
+<th class="head"><p>Total SP/MP dice</p></th>
+<th class="head"><p>Max Skill ranks</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>1</p></td>
+<td><p>5</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>1</p></td>
+<td><p>8</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>1</p></td>
+<td><p>11</p></td>
+<td><p>2</p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>1</p></td>
+<td><p>14</p></td>
+<td><p>2</p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>1</p></td>
+<td><p>17</p></td>
+<td><p>3</p></td>
+</tr>
+<tr class="row-odd"><td><p>6</p></td>
+<td><p>2</p></td>
+<td><p>20</p></td>
+<td><p>3</p></td>
+</tr>
+<tr class="row-even"><td><p>7</p></td>
+<td><p>2</p></td>
+<td><p>23</p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="row-odd"><td><p>8</p></td>
+<td><p>2</p></td>
+<td><p>26</p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="row-even"><td><p>9</p></td>
+<td><p>2</p></td>
+<td><p>29</p></td>
+<td><p>5</p></td>
+</tr>
+<tr class="row-odd"><td><p>10</p></td>
+<td><p>2</p></td>
+<td><p>32</p></td>
+<td><p>5</p></td>
+</tr>
+<tr class="row-even"><td><p>11</p></td>
+<td><p>3</p></td>
+<td><p>35</p></td>
+<td><p>6</p></td>
+</tr>
+<tr class="row-odd"><td><p>12</p></td>
+<td><p>3</p></td>
+<td><p>38</p></td>
+<td><p>6</p></td>
+</tr>
+<tr class="row-even"><td><p>13</p></td>
+<td><p>3</p></td>
+<td><p>41</p></td>
+<td><p>7</p></td>
+</tr>
+<tr class="row-odd"><td><p>14</p></td>
+<td><p>3</p></td>
+<td><p>44</p></td>
+<td><p>7</p></td>
+</tr>
+<tr class="row-even"><td><p>15</p></td>
+<td><p>3</p></td>
+<td><p>47</p></td>
+<td><p>8</p></td>
+</tr>
+<tr class="row-odd"><td><p>16</p></td>
+<td><p>4</p></td>
+<td><p>50</p></td>
+<td><p>8</p></td>
+</tr>
+<tr class="row-even"><td><p>17</p></td>
+<td><p>4</p></td>
+<td><p>53</p></td>
+<td><p>9</p></td>
+</tr>
+<tr class="row-odd"><td><p>18</p></td>
+<td><p>4</p></td>
+<td><p>56</p></td>
+<td><p>9</p></td>
+</tr>
+<tr class="row-even"><td><p>19</p></td>
+<td><p>4</p></td>
+<td><p>59</p></td>
+<td><p>10</p></td>
+</tr>
+<tr class="row-odd"><td><p>20</p></td>
+<td><p>4</p></td>
+<td><p>62</p></td>
+<td><p>10</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<hr class="docutils" />
+<section id="nat-vs-sp-dice-and-sup-vs-mp-dice">
+<h3>Nat vs SP dice and Sup vs MP dice<a class="headerlink" href="#nat-vs-sp-dice-and-sup-vs-mp-dice" title="Link to this heading">¶</a></h3>
+<p>Nat vs SP dice and Sup vs MP dice are exactly the same. Therefore only one table needs to be given. Here we give Nat vs SP dice, but the numbers for Sup vs MP dice is the same.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>SP dice</p></th>
+<th class="head"><p>Nat</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1-6</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-odd"><td><p>7-12</p></td>
+<td><p>2</p></td>
+</tr>
+<tr class="row-even"><td><p>13-18</p></td>
+<td><p>3</p></td>
+</tr>
+<tr class="row-odd"><td><p>19-24</p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="row-even"><td><p>25-30</p></td>
+<td><p>5</p></td>
+</tr>
+<tr class="row-odd"><td><p>31-36</p></td>
+<td><p>6</p></td>
+</tr>
+<tr class="row-even"><td><p>37-42</p></td>
+<td><p>7</p></td>
+</tr>
+<tr class="row-odd"><td><p>43-48</p></td>
+<td><p>8</p></td>
+</tr>
+<tr class="row-even"><td><p>49-54</p></td>
+<td><p>9</p></td>
+</tr>
+<tr class="row-odd"><td><p>55-60</p></td>
+<td><p>10</p></td>
+</tr>
+<tr class="row-even"><td><p>61-62</p></td>
+<td><p>11</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<hr class="docutils" />
+<section id="nap-from-base-and-nat">
+<h3>NAP from Base and Nat<a class="headerlink" href="#nap-from-base-and-nat" title="Link to this heading">¶</a></h3>
+<p>This table is not necessary since it is a simple addition for Nat + Base. However, what harm can come from one more table? (SAP from Base and Sup is <strong>exactly</strong> the same)</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>Base</p></th>
+<th class="head"><p>1</p></th>
+<th class="head"><p>2</p></th>
+<th class="head"><p>3</p></th>
+<th class="head"><p>4</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Nat</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p></p></td>
+<td><p>2</p></td>
+<td><p>3</p></td>
+<td><p>4</p></td>
+<td><p>5</p></td>
+</tr>
+<tr class="row-even"><td><p>2</p></td>
+<td><p></p></td>
+<td><p>3</p></td>
+<td><p>4</p></td>
+<td><p>5</p></td>
+<td><p>6</p></td>
+</tr>
+<tr class="row-odd"><td><p>3</p></td>
+<td><p></p></td>
+<td><p>4</p></td>
+<td><p>5</p></td>
+<td><p>6</p></td>
+<td><p>7</p></td>
+</tr>
+<tr class="row-even"><td><p>4</p></td>
+<td><p></p></td>
+<td><p>5</p></td>
+<td><p>6</p></td>
+<td><p>7</p></td>
+<td><p>8</p></td>
+</tr>
+<tr class="row-odd"><td><p>5</p></td>
+<td><p></p></td>
+<td><p>6</p></td>
+<td><p>7</p></td>
+<td><p>8</p></td>
+<td><p>9</p></td>
+</tr>
+<tr class="row-even"><td><p>6</p></td>
+<td><p></p></td>
+<td><p>7</p></td>
+<td><p>8</p></td>
+<td><p>9</p></td>
+<td><p>10</p></td>
+</tr>
+<tr class="row-odd"><td><p>7</p></td>
+<td><p></p></td>
+<td><p>8</p></td>
+<td><p>9</p></td>
+<td><p>10</p></td>
+<td><p>11</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<hr class="docutils" />
+<section id="size-rules-table">
+<h3>Size rules table<a class="headerlink" href="#size-rules-table" title="Link to this heading">¶</a></h3>
+<p>There are 8 size categories in the game: [diminutive, tiny, small, medium, large, huge, gargantuan, colossal].</p>
+<p>As this is a human-centric game, probably designed by a human, “medium”, the standard size, is about human sized. Size affects how much space an entity takes up, how much it can lift and carry, its reach, how well it dodges, how thick its defences are, and often how much it must consume to survive. The following table describes how size affects a character.</p>
+<p><strong>NB</strong>: Size modifier to evasion also applies to certain Dex based skills such as “stealth”.
+<strong>NB2</strong>: A Reach of 0ft means that the entity must occupy the same 5ft square/cube/hex as the target of its melee attack.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Size</p></th>
+<th class="head"><p>Space</p></th>
+<th class="head"><p>Evasion</p></th>
+<th class="head"><p>Armour</p></th>
+<th class="head"><p>Dex Save</p></th>
+<th class="head"><p>Str Save</p></th>
+<th class="head"><p>Carrying capacity</p></th>
+<th class="head"><p>Equipment Weight</p></th>
+<th class="head"><p>Reach</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Diminutive</p></td>
+<td><p>5/8</p></td>
+<td><p>+3</p></td>
+<td><p>-3[2]</p></td>
+<td><p>+3</p></td>
+<td><p>-3</p></td>
+<td><p>x1/8</p></td>
+<td><p>x1/16</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-odd"><td><p>Tiny</p></td>
+<td><p>5/4</p></td>
+<td><p>+2</p></td>
+<td><p>-2[2]</p></td>
+<td><p>+2</p></td>
+<td><p>-2</p></td>
+<td><p>x1/4</p></td>
+<td><p>x1/8</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-even"><td><p>Small</p></td>
+<td><p>5/2</p></td>
+<td><p>+1</p></td>
+<td><p>-1[2]</p></td>
+<td><p>+1</p></td>
+<td><p>-1</p></td>
+<td><p>x1/2</p></td>
+<td><p>x1/4</p></td>
+<td><p>5ft</p></td>
+</tr>
+<tr class="row-odd"><td><p>Medium</p></td>
+<td><p>5</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>x1</p></td>
+<td><p>1</p></td>
+<td><p>5ft</p></td>
+</tr>
+<tr class="row-even"><td><p>Large</p></td>
+<td><p>10</p></td>
+<td><p>-1</p></td>
+<td><p>+1</p></td>
+<td><p>-1</p></td>
+<td><p>+1</p></td>
+<td><p>x2</p></td>
+<td><p>x3</p></td>
+<td><p>5ft(long[1])</p></td>
+</tr>
+<tr class="row-odd"><td><p>Huge</p></td>
+<td><p>20</p></td>
+<td><p>-2</p></td>
+<td><p>+2</p></td>
+<td><p>-2</p></td>
+<td><p>+2</p></td>
+<td><p>x4</p></td>
+<td><p>x16</p></td>
+<td><p>10ft</p></td>
+</tr>
+<tr class="row-even"><td><p>Gargantuan</p></td>
+<td><p>40</p></td>
+<td><p>-3</p></td>
+<td><p>+3</p></td>
+<td><p>-3</p></td>
+<td><p>+3</p></td>
+<td><p>x8</p></td>
+<td><p>x64</p></td>
+<td><p>15ft</p></td>
+</tr>
+<tr class="row-odd"><td><p>Colossal</p></td>
+<td><p>80</p></td>
+<td><p>-4</p></td>
+<td><p>+4</p></td>
+<td><p>-4</p></td>
+<td><p>+4</p></td>
+<td><p>x16</p></td>
+<td><p>x256</p></td>
+<td><p>20ft</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<ol class="arabic simple">
+<li><p>Applies the “long” property to all weapons of “large” size category it wields. All “large” size category that already have the “long” property lose it and instead are treated as having a reach of 10ft. (See <a class="reference external" href="04-combat.html#range-and-reach">“Combat: Range and Reach”</a>)</p></li>
+<li><p>The armour penalty on entities of size “small” and smaller applies only the armour of entities that have armour. It can never take the natural armour bonus to HiT below zero.</p></li>
+<li><p>Some basic combat manoeuvres also suffer bonuses or penalties based on size difference (see <a class="reference external" href="04-combat.html#basic-martial-manoeuvres">“Basic Martial Manoeuvres”</a>).</p></li>
+</ol>
+</section>
+<hr class="docutils" />
+<section id="dice-size-rules">
+<h3>Dice size rules<a class="headerlink" href="#dice-size-rules" title="Link to this heading">¶</a></h3>
+<p>This applies mostly to weapon attacks, but may also apply to adjustments to poison based damage based on dose at the group’s discretion. The increase in damage by larger weapons, and decrease in damage by smaller weapons is reflected by increase and decrease in the size/number of damage dice used.</p>
+<p>There are two progressions of dice size/count with weapon size/dose, the D2 and the D3 progression. All standard size-dependant transitions can be found here. Dice combos not in these transitions do not change with weapon size. The transitions upwards look like this:</p>
+<p><strong>D2:</strong> 0 -&gt; 1 -&gt; 1d2 -&gt; <strong>1d4</strong> -&gt; <strong>1d6</strong> -&gt; <strong>1d10</strong> -&gt; <strong>2d6</strong> -&gt; <strong>2d10</strong> -&gt; 3d10 -&gt; 4d12 -&gt; 6d12  -&gt; 8d12.</p>
+<p><strong>D3:</strong> 1d2[1] &lt;- 1d3[2] -&gt; 1d5[2] -&gt; <strong>1d8</strong> -&gt; <strong>1d12</strong> -&gt; <strong>2d8</strong> -&gt; <strong>2d12</strong> -&gt; 3d12 -&gt; 5d12 -&gt; 7d12</p>
+<ol class="arabic simple">
+<li><p>This transition is only ever applied for the downwards size transition from D3 and never for the size upwards size transition from D2.</p></li>
+<li><p>D3 and D5 are “virtual dice” obtained by dividing the result on a D6 or D10, respectively, by two.</p></li>
+</ol>
+<p>Downwards size transitions are just upwards size transitions in reverse with the exception of 1d2 &lt;- 1d3 transition, which is only ever applied downwards (decrease of weapon size). So if a “diminutive” entity deals 1d2 damage, if it is magically grown to “tiny”, it will deal “1d4”. However, if we know that the weapon it uses is a mace, which uses 1d8 at “medium”, and 1d2 at “diminutive” then looking at the size chart, and using downwards size transitions, we can determine that at “tiny” size it should deal “1d3”.</p>
+<p>Typically we derive weapon damage for entities that are not medium from the dice of the medium sized weapon. For example, Bob the pixie is “tiny” and uses a greatsword (2d6 damage at medium). The first size transformation to small from 2d6 gives us 1d10, and then the second from 1d10 gives us 1d6. Thus Bob’s greatsword deals 1d6 damage before applying modifiers.</p>
+<p>Lastly, only damage from <a class="reference external" href="04-combat.html#basic-martial-manoeuvres">basic combat manoeuvres</a> scales in this manner. Damage from abilities and spells is not affected by the size of the entity wielding it. Unarmed strikes count as weapons.</p>
+<p><strong>The Dice Size Rules Table:</strong> The first cell of each row shows the dice used by a weapon at “medium” size. Reading across the row then gives the damage the same weapon would do at each size category.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Original</p></th>
+<th class="head"><p>Diminutive</p></th>
+<th class="head"><p>Tiny</p></th>
+<th class="head"><p>Small</p></th>
+<th class="head"><p><strong>Medium</strong></p></th>
+<th class="head"><p>Large</p></th>
+<th class="head"><p>Huge</p></th>
+<th class="head"><p>Gargantuan</p></th>
+<th class="head"><p>Colossal</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>“1D1”</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p><strong>1</strong></p></td>
+<td><p>1d2</p></td>
+<td><p>1d4</p></td>
+<td><p>1d6</p></td>
+<td><p>1d10</p></td>
+</tr>
+<tr class="row-odd"><td><p>“1D4”</p></td>
+<td><p>0</p></td>
+<td><p>1</p></td>
+<td><p>1d2</p></td>
+<td><p><strong>1d4</strong></p></td>
+<td><p>1d6</p></td>
+<td><p>1d10</p></td>
+<td><p>2d6</p></td>
+<td><p>2d10</p></td>
+</tr>
+<tr class="row-even"><td><p>“1D6”</p></td>
+<td><p>1</p></td>
+<td><p>1d2</p></td>
+<td><p>1d4</p></td>
+<td><p><strong>1d6</strong></p></td>
+<td><p>1d10</p></td>
+<td><p>2d6</p></td>
+<td><p>2d10</p></td>
+<td><p>3d10</p></td>
+</tr>
+<tr class="row-odd"><td><p>“1D8”</p></td>
+<td><p>1d2</p></td>
+<td><p>1d3</p></td>
+<td><p>1d5</p></td>
+<td><p><strong>1d8</strong></p></td>
+<td><p>1d12</p></td>
+<td><p>2d8</p></td>
+<td><p>2d12</p></td>
+<td><p>3d12</p></td>
+</tr>
+<tr class="row-even"><td><p>“1D10”</p></td>
+<td><p>1d2</p></td>
+<td><p>1d4</p></td>
+<td><p>1d6</p></td>
+<td><p><strong>1d10</strong></p></td>
+<td><p>2d6</p></td>
+<td><p>2d10</p></td>
+<td><p>3d10</p></td>
+<td><p>4d12</p></td>
+</tr>
+<tr class="row-odd"><td><p>“1D12”</p></td>
+<td><p>1d3</p></td>
+<td><p>1d5</p></td>
+<td><p>1d8</p></td>
+<td><p><strong>1d12</strong></p></td>
+<td><p>2d8</p></td>
+<td><p>2d12</p></td>
+<td><p>3d12</p></td>
+<td><p>5d12</p></td>
+</tr>
+<tr class="row-even"><td><p>“2D6”</p></td>
+<td><p>1d4</p></td>
+<td><p>1d6</p></td>
+<td><p>1d10</p></td>
+<td><p><strong>2d6</strong></p></td>
+<td><p>2d10</p></td>
+<td><p>3d10</p></td>
+<td><p>4d12</p></td>
+<td><p>6d12</p></td>
+</tr>
+<tr class="row-odd"><td><p>“2D8”</p></td>
+<td><p>1d5</p></td>
+<td><p>1d8</p></td>
+<td><p>1d12</p></td>
+<td><p><strong>2d8</strong></p></td>
+<td><p>2d12</p></td>
+<td><p>3d12</p></td>
+<td><p>5d12</p></td>
+<td><p>7d12</p></td>
+</tr>
+<tr class="row-even"><td><p>“2D10”</p></td>
+<td><p>1d6</p></td>
+<td><p>1d10</p></td>
+<td><p>2d6</p></td>
+<td><p><strong>2d10</strong></p></td>
+<td><p>3d10</p></td>
+<td><p>4d12</p></td>
+<td><p>6d12</p></td>
+<td><p>8d12</p></td>
+</tr>
+<tr class="row-odd"><td><p>“2D12”</p></td>
+<td><p>1d8</p></td>
+<td><p>1d12</p></td>
+<td><p>2d8</p></td>
+<td><p><strong>2d12</strong></p></td>
+<td><p>3d12</p></td>
+<td><p>5d12</p></td>
+<td><p>7d12</p></td>
+<td><p>9d12</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>NB: There can never be multiple of dice sizes smaller than D6 rolled for weapon damage outside of critical hits.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="version">
+<h2>Version<a class="headerlink" href="#version" title="Link to this heading">¶</a></h2>
+<p>0.0.18</p>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="bestiary.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">A Bestiary for Fantasy Worlds</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="16-recipes.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Recipes</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2023-3023, Fantasy Committee
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Base Rules</a><ul>
+<li><a class="reference internal" href="#foreword">Foreword</a></li>
+<li><a class="reference internal" href="#purpose-of-the-system">Purpose of the system</a></li>
+<li><a class="reference internal" href="#rolling-dice">Rolling Dice</a><ul>
+<li><a class="reference internal" href="#rounding-up-and-down">Rounding up and down</a></li>
+<li><a class="reference internal" href="#core-rolls">Core Rolls</a></li>
+<li><a class="reference internal" href="#the-2d12-roll">The 2d12 roll</a></li>
+<li><a class="reference internal" href="#taking-24-taking-13-auto-failure-and-voluntary-failure">Taking 24, taking 13, auto-failure and voluntary failure</a></li>
+<li><a class="reference internal" href="#opposing-rolls-vs-thresholds">Opposing Rolls vs Thresholds</a></li>
+<li><a class="reference internal" href="#turning-an-opposed-roll-into-a-threshold">Turning an opposed roll into a Threshold.</a></li>
+<li><a class="reference internal" href="#precedence-of-rolls-thresholds-dc-and-opposing-rolls">Precedence of Rolls: Thresholds (DC), and opposing rolls</a></li>
+<li><a class="reference internal" href="#difficulties-and-recommended-thresholds">Difficulties and recommended thresholds</a></li>
+<li><a class="reference internal" href="#modifiers-vs-advantage-disadvantage">Modifiers vs Advantage/Disadvantage</a></li>
+<li><a class="reference internal" href="#sources-of-modifiers">Sources of Modifiers</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#time">Time</a></li>
+<li><a class="reference internal" href="#character-basics-and-descriptors">Character Basics and Descriptors</a><ul>
+<li><a class="reference internal" href="#descriptive-attributes">Descriptive Attributes</a></li>
+<li><a class="reference internal" href="#intrinsic-attributes">Intrinsic Attributes</a><ul>
+<li><a class="reference internal" href="#entity-type">Entity Type</a></li>
+<li><a class="reference internal" href="#template-race">Template/Race</a></li>
+<li><a class="reference internal" href="#size-category">Size category</a></li>
+<li><a class="reference internal" href="#movement-modalities">Movement modalities</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#character-level-and-base">Character level and Base</a><ul>
+<li><a class="reference internal" href="#levelling-up">Levelling up</a></li>
+<li><a class="reference internal" href="#level-points-and-abilities">Level points and abilities</a></li>
+<li><a class="reference internal" href="#base">Base</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#stats">Stats</a><ul>
+<li><a class="reference internal" href="#stat-assignment">Stat assignment</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#resource-pools">Resource pools</a><ul>
+<li><a class="reference internal" href="#hp-pool">HP pool</a></li>
+<li><a class="reference internal" href="#mp-dice-pool">MP dice pool</a></li>
+<li><a class="reference internal" href="#mana-pool">Mana pool</a></li>
+<li><a class="reference internal" href="#sp-dice-pool">SP dice pool</a></li>
+<li><a class="reference internal" href="#stamina-pool">Stamina pool</a></li>
+<li><a class="reference internal" href="#losing-mp-sp-and-rebalancing">Losing MP, SP and Rebalancing</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#nat-and-sup-attack-of-the-three-letter-words">Nat and Sup: Attack of the three letter words</a></li>
+<li><a class="reference internal" href="#nap-and-sap-nat-and-sat-attack-of-the-three-letter-words-ii">NAP and SAP, NAT and SAT: Attack of the three letter words II</a></li>
+<li><a class="reference internal" href="#saving-throws">Saving throws</a></li>
+<li><a class="reference internal" href="#hit-threshold-hit">Hit Threshold (HiT)</a><ul>
+<li><a class="reference internal" href="#components-of-hit">Components of HiT</a></li>
+<li><a class="reference internal" href="#sources-of-hit">Sources of HiT</a></li>
+<li><a class="reference internal" href="#hit-and-dropping-defences">HiT and Dropping Defences</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#initiative">Initiative</a></li>
+<li><a class="reference internal" href="#skills-and-proficiencies">Skills and Proficiencies</a></li>
+<li><a class="reference internal" href="#abilities">Abilities</a></li>
+<li><a class="reference internal" href="#size">Size</a><ul>
+<li><a class="reference internal" href="#weapon-damage-and-reach">Weapon Damage and Reach</a></li>
+<li><a class="reference internal" href="#space-and-weight">Space and Weight</a></li>
+<li><a class="reference internal" href="#hit-strength-carrying-capacity">HiT, strength, carrying capacity</a></li>
+<li><a class="reference internal" href="#environmental-effects">Environmental Effects</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#senses">Senses</a><ul>
+<li><a class="reference internal" href="#sight">Sight</a></li>
+<li><a class="reference internal" href="#hearing">Hearing</a></li>
+<li><a class="reference internal" href="#smell">Smell</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#tables">Tables</a><ul>
+<li><a class="reference internal" href="#level-parameters">Level parameters</a></li>
+<li><a class="reference internal" href="#nat-vs-sp-dice-and-sup-vs-mp-dice">Nat vs SP dice and Sup vs MP dice</a></li>
+<li><a class="reference internal" href="#nap-from-base-and-nat">NAP from Base and Nat</a></li>
+<li><a class="reference internal" href="#size-rules-table">Size rules table</a></li>
+<li><a class="reference internal" href="#dice-size-rules">Dice size rules</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#version">Version</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="_static/documentation_options.js?v=8bafd125"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/scripts/furo.js?v=46bd48cc"></script>
+    </body>
+</html>

@@ -1,0 +1,392 @@
+# Divines
+
+Divine entities are a category of supernatural beings that include gods, god-like beings, angels, and anomalies in creation.
+
+- [Angels](#angels)
+  - [Lesser Messenger](#lesser-messenger)
+  - [Watcher](#watcher)
+  - [Seraph](#seraph)
+- [Glitches](#glitches)
+  - [Abyssal Blade](#abyssal-blade)
+  - [Unbound Gnome](#unbound-gnome)
+- [Divinities](#divinities)
+  - [Unicorn, True](#unicorn-true)
+
+## Angels
+
+**Angels** are the creations of gods, or manifestations of creation itself. They are generally created as messengers and observers, but also occasionally enforcing the will of their creator. Not all angels have free will (Cha). Not all angels align with the typical human understanding of "good" (especially the messengers of dark gods).
+
+- Divine entities do not need to breath, drink, eat, or sleep, but are often capable of doing so. They do not age.
+- Divine entities are immune to all "natural" damage and resistant to "divine" damage.
+- They are immune to "surprised", "charmed", "frightened", "stunned" and "dying".
+- All angels have true sight, can discern truth from lie.
+- Angels takes 1HP damage whenever they lie. Some are incapable of lying.
+- Angels are immune to "light" damage and vulnerable to "profane" damage.
+- Angels have advantage on attacks against "Profanes".
+- Angels do not suffer from fatigue. Thus, an angel can march or fly even when a mortal would tire and require rest.
+
+The abilities and knowledge an angel is endowed with depends on the purpose it was created with. Often an angel will be endowed with divine abilities that it should not have the prerequisites for, were it a mortal or player character.
+
+
+___
+### Lesser Messenger
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|16/-/15|31 (*24*)|31 (*24*)|9|30ft|Fly, (100ft, good, endurance = unlimited)|
+
+Small (+1/0)
+Deflection +2
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|13|16|14|14|16|-|
+|Bonus|+1|+3|+2|+2|+3|-|
+|Save|+3|+5|+4|+6|+7|-|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|7 (2)|11|12|2|2|4|4|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Short-spear|+7|1d3+3[Pi]+1d6[Lit]|The spear is not real, but a manifestation of the angel.|
+|Disarm|+7|||
+|Elemental Blast|+7|1d4+3 Lit|Can upcast up to 5d4+3|
+|Elemental Blast|Thr=20|| Greater (Radial), up to 30ft radius|
+|Sc: Incantation IV|Thr=17||Favourites are: "down", "Least Ward", "Least Heal", "Lesser Veil", "Promise", "Cure", "Least Weather Control"|
+|Radiant deflection|AC: +2||A radiant power surrounds an angel, protecting them from harm|
+|||||
+|Combined Manoeuvre I||||
+|Multiattack I||||
+|[Spellsong I](../06-abilities.md#spellsong-i-iv)||||
+|[Bard Song I](../06-abilities.md#bard-song-i-iv)||||
+|Xenophonia|||Mortals, Spirits, Constructs|
+|Illuminated|||A lesser messenger emits bright light within 10ft and dim light in 20ft. This glow can be seen 3 miles away on a dark night.|
+|||||
+|Proficiencies|||Spears, Bow|
+|Skills|||"Sense Motive: +9", "Perform: +9", "Fly: +9", "Persuade: +6", "Creature Handling: +6", "K:Religion: +8", "SpellWorking: +8"|
+|Senses|||Truesight (120ft), Lifesense (15ft)|
+|Resistance(damage)|||"Div"|
+|Immunity(damage)|||all "Natural" damage, "Lit"|
+|Immunity(condition)|||"Surprised", "Charmed", "Frightened", "Stunned", "Dying"|
+|Vulnerability|||"Pro"|
+|True-speech|||A messenger cannot lie|
+
+Lesser angels take on the form of small winged humanoids do not have free will and use WIS in place of CHA for skills.
+
+Lesser messengers are generally sent to material realms to deliver important news, instructions an warnings to mortals of significance. The fact that a greater angel is not sent, should not be seen as a sign that the message is not important. The fact that a messenger is sent at all should be noticed as significant. They are also sometimes sent to guide mortals to a destination, be it physical or figurative.
+
+Lesser messengers prefer to avoid combat and will not retaliate against attacks that are not capable of obstructing their mission. If a threat is capable of obstructing its mission, the angel will incapacitate it, if possible by ridding it of the means, otherwise by using ranged attacks with its rays of light. Only in combat with profane entities will a lesser messenger strike the 'killing' blow.
+
+___
+### Watcher
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|19/-/16|63 (*33*)|95 (*43*)|19|30ft|Fly (100ft, good, endurance = unlimited)|
+
+Medium
+Deflection +4
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|13|16|16|16|19|20|
+|Bonus|+1|+3|+3|+3|+4|+5|
+|Save|+4|+6|+6|+10|+11|+12|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|11 (3)|15|20|3|4|6|7|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Short-spear|+10|1d6+3[Pi]+1d6[Lit]|The spear is not real, but a manifestation of the angel.|
+|Elemental Blast|+10|1d4+3 Lit|Can upcast up to 7d4+3|
+|Elemental Blast|Thr=20 CON|| Greater (Radial), up to 50ft radius|
+|Sc: Incantation VI|Thr=22||Favourites are: "down", "Least Ward", "Least Heal", "Lesser Veil", "Promise", "Cure", "Least Weather Control", "Pact", "Razor Wind"|
+|Disarm|+10|||
+|Radiant deflection|AC: +4||A radiant power surrounds an angel, protecting them from harm|
+|Divine Strike||+1d6 Div|Spears|
+|||||
+|[Spellsong II](../06-abilities.md#spellsong-i-iv)||||
+|[Bard Song II](../06-abilities.md#bard-song-i-iv)||||
+|||||
+|Foresight|||Add [Wis]/2 to your evasion modifier, on top of [Dex] and [size].|
+|Combined Manoeuvre I||||
+|Multi-attack I||||
+|Xenophonia|||All|
+|Illuminated|||A watcher *in its true form* emits bright light within 30ft and dim light in 60ft. This glow can be seen 10 miles away on a dark night.|
+|Alternate form II|||Watchers usually have two alternate forms, one humanoid, one of a small or medium beast, a watcher can shift between forms as a "secondary action"|
+|||||
+|Proficiencies|||Spears, Bow|
+|Skills|||"Sense Motive: +11", "Observe: +11", "Stealth: +11", "Perform: +11", "Fly: +11", "Persuade: +11", "SpellWorking: +10", "K:Religion: +10", "Creature Handling: +6", "Track: +6"|
+|||||
+|Senses|||Truesight (120ft), Life-sense (30ft)|
+|Resistance(damage)|||"Div"|
+|Immunity(damage)|||all "Natural" damage, "Lit"|
+|Immunity(condition)|||"Surprised", "Charmed", "Frightened", "Stunned", "Dying"|
+|Vulnerability|||"Pro"|
+|True-speech|||A watcher that lies takes 1 HP damage for every lie it speaks|
+
+A watcher exists to watch over an area, entity or event. Often they have a directive to not interfere. Generally they use an alternate form to hide their true nature.
+
+The true form of a watcher generally appears to a mortal as a single eye, surrounded by any a multitude of wings, or a winged serpent, though other forms can exist. Watchers seldom take on that form in the material realm.
+
+A watcher seldom engages threats that do not interfere with its mission, or those that are not capable of damaging it. Nor do they retaliate against attacks not capable of harming them. On occasion, the discovery of a watcher will jeopardise its mission. In that case those who discovered it may be eliminated, depending on the kind of god the watcher serves. When watchers engage in combat, they generally aim to eliminated all threats swiftly using Razor Wind, Elemental Blast (large radius) or divine strike as appropriate. If this is not possible, a watcher will use weather control and superior mobility to chip away at their foes over a period of time.
+
+Watchers have free will. Some sages believe that belies the true purpose of their vigil.
+
+___
+### Seraph
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|21(22)/-/19(17)|152 (*56*)|175 (*63*)|30|30ft|Fly (100ft, good, endurance = unlimited), cosmic (1 realm per day)|
+
+Large (+1/-1)
+Deflection +6
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|22|14|22|16|21|24|
+|Bonus|+6|+2|+6|+3|+5|+7|
+|Save|+4|+6|+6|+10|+11|+16|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|17 (4)|25|28|5|5|9|9|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Greatsword|+20|2d6+14|The sword is not real. It is merely a part of divine wrath and overcomes physical damage resistance and immunity. It counts as divine source for the sake of what it is.|
+|Disarm|+15|||
+|||||
+|Elemental Blast|+14|1d4+5 Lit|Can upcast up to 9d4+5|
+|Elemental Blast|Thr=23 CON|| Greater (Radial), up to 70ft radius|
+|Divine Strike||3d6 Div|Heavy Blades|
+|Radiant deflection|AC: +6||A radiant power surrounds an angel, protecting them from harm|
+|||||
+|Sc: Incantation VI|Thr=21||Favourites are: "down", "Least Ward", "Least Heal", "Lesser Veil", "Promise", "Cure", "Least Weather Control", "Pact", "Razor Wind"|
+|Sc: Fire VII|Thr=23||Favourites are: "enflame", "least vengeance", "meadow of flame", "melt", "command mortal", "revenant", "forest of flame"|
+|||||
+|Broad Strike|||Strikes multiple adjacent enemies with its sword (1SP)|
+|Flash Step|||Moves 100ft as a bonus action (1SP)|
+|Energy Affinity|||Light, Fire|
+|Foresight|||Add [Wis]/2 to your evasion modifier, on top of [Dex] and [size].|
+|Combined Manoeuvre I||||
+|Multi-attack II||||
+|Evasive||||
+|Counterstrike||||
+|Great-strike||||
+|[Spellsong III](../06-abilities.md#spellsong-i-iv)||||
+|[Bard song III](../06-abilities.md#bard-song-i-iv)||||
+|Still Spell|||Spend 1 MP dice to cast a spell without kinetic components.|
+|Xenophonia|||All|
+|Illuminated|||A seraph *in its true form* emits bright light within 60ft and dim light in 120ft. This glow can be seen 20 miles away on a dark night.|
+|Alternate form|||Seraph are known to take on alternate forms of noble beasts|
+|||||
+|Proficiencies|||Spears, Bow|
+|Skills|||"Sense Motive: +11", "Observe: +11", "Stealth: +11", "Perform: +11", "Fly: +11", "Persuade: +11", "SpellWorking: +10", "K:Religion: +10", "Creature Handling: +6", "Track: +6"|
+|Senses|||Truesight (180ft), Life-sense (45ft)|
+|Resistance(damage)|||"Div"|
+|Immunity(damage)|||all "Natural" damage, "Lit"|
+|Immunity(condition)|||"Surprised", "Charmed", "Frightened", "Stunned", "Dying"|
+|Vulnerability|||"Pro"|
+|True-speech|||A seraph that lies takes 1 HP damage for every lie it speaks|
+
+Seraphs are angels that are closest to the deity that created them. In general a seraph is sent to punish those who have gone against the god who sent it, or to prepare an area for a new beginning by bringing flaming destruction upon it. Alternatively, the coming of a seraph may portent the completion of an old prophecy, or the beginning of a new one.
+
+The true form of a seraph appears to mortals generally appear as a head surrounded by six fiery wings, or as a burning wheel.
+
+On missions of prophecy, a seraph generally appears in its true form. On missions of destruction and renewal, it may appear in its bestial form to observe and warn the mortals they are sent to punish before appearing in their true form and delivering judgement.
+
+In combat with a single target, a seraph will often make liberal use fo its divine strike to destroy its foe. On missions of destruction, it will generally rain flaming destruction on a wide area, either using its holy light, or by global ["forest of flame"](../08-spell-list.md#forest-of-flame). Unlike most angels, it will punish those that interfere with its mission, whether their interference is capable of disrupting it or not.
+
+A seraph likely has some degree of free will. Sages believe that this is an element of divine judgement.
+
+___
+## Glitches
+
+Glitches are aberrant divine beings born of flaws in creation made manifest. The abilities that glitches possess often break fundamental laws and premises of creation and sometimes even logic. They are extremely dangerous, even to other divine beings.
+
+- Glitches are divine entities, and as such are immune to all "natural" damage and resistant to "divine" damage.
+- They are immune to "surprised", "charmed", "frightened", "stunned" and "dying".
+- Glitches are immune to "divine" damage and resistant to "profane" damage.
+- Glitches heal 1HP when they are hit with an attack or ability that deals "divine" damage.
+- Glitches have at least one ability that causes "entropic" damage.
+
+___
+
+### Abyssal Blade
+
+|HiT/Surprised/Touch|SP       |MP       |HP|Speed (walk)|Speed (other)|
+|-------------------|---------|---------|--|------------|-------------|
+|23/18/23           |46 (*30*)|64 (*32*)|11|30ft        |Climb (30ft) |
+
+An Abyssal Blade has a +6 deflection bonus, and a +2 shield bonus from its blades.
+
+|     |Str|Dex|Con|Int|Wis|Cha|
+|-----|---|---|---|---|---|---|
+|Stat | 19| 17| 15| 13| 17| 19|
+|Bonus| +4| +3| +2| +1| +3| +4|
+|Save | +6| +5| +4| +3| +8| +9|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-----------|-------|-------|---|---|---|---|
+|9 (2)      |     14|     14|  3|  3|  5|  5|
+
+|Ability|Bonus|Damage|Other|
+|-------|-----|------|-----|
+|Entropic Touch|+9|1d4+3[Ent]|Reach=10ft. On a successful hit, the target must succeed a Thr=19 CON save or lose 1d4+2 SP dice. If it has no SP dice left, it instead loses 2 HP.|
+|Swords|+9|1d8+3[Ent]|Reach=10ft, the shadow flesh distorts the fiend's form, giving it an unusually long reach.|
+|Spellcasting|Thr=18||["Dusk"](../08-spell-list.md#dusk), ["Curse"](../08-spell-list.md#least-curse), ["Animate Dead"](../08-spell-list.md#animatecontrol-dead)|
+|[Cursed Blood](../06-abilities.md#cursed-blood)|||An Abyssal Blade can use its reaction to cast a pell|
+|||||
+|[Guarded](../06-abilities.md#guarded)|||An Abyssal Blade does not provoke attacks of opportunity when standing up or drinking potions.|
+|["Low Light Vision"](../06-abilities.md#low-light-vision)|||Abyssal Blades can see in dim light, for example a starry night, as if it were daylight.|
+|["Life Sense: 60ft"](../06-abilities.md#low-light-vision)|||An Abyssal Blade can detect living beings within 60ft of it if there are no significant intervening barriers.|
+|["True Sight: 60ft"](../06-abilities.md#truesight-i-vi)|||An Abyssal Blade can detect living beings within 60ft of it if there are no significant intervening barriers.|
+|Telltale Heart|||An Abyssal Blade ALWAYS knows the direction to its lost parts and the ones who took them.|
+|||||
+|Skills|||"Athletics: +9", "Acrobatics:+8", "Sleight of Hand:+7", "Religion:+6", "Fortify:+7",  "Insight:+6"|
+|||||
+|Immune|||["Natural Damage"](../10-conditions-types.md#natural-and-supernatural-damage-and-abilities), ["Divine Damage"](../10-conditions-types.md#divine)|
+|Aberrant healing|||When a glitch would take divine damage (were it not immune), it is instead healed for that number of hit-points.|
+|Immune|||["Surprised"](../10-conditions-types.md#surprised), ["Charmed"](../10-conditions-types.md#charmed), ["Frightened"](../10-conditions-types.md#frightened), ["Stunned"](../10-conditions-types.md#stunned), ["Dying"](../10-conditions-types.md#dying)|
+
+When a [shadow flesh fiend](profanes.md#shadow-flesh-fiend-human) is created by removing parts from a being of a being with a spiritual or divine alignment, it may instead become a "an abyssal blade".
+
+Unlike Abyssal Blades, an abyssal blade transcends its resentment. Instead it wanders the world, spending its time destroying the parts it is missing.
+
+___
+### Unbound Gnome
+
+|HiT/Surprised/Touch|SP       |MP       |HP|Speed (walk)|Speed (other)|
+|-------------------|---------|---------|--|------------|-------------|
+|17/10/17           |20 (*15*)|38 (*28*)|9 |Walk (45ft) |Dig (10ft), Fly (speed=100ft, perfect, endurance=unlimited)|
+
+An unbound gnome has a +6 deflection bonus.
+
+|     |Str|Dex|Con|Int|Wis|Cha|
+|-----|---|---|---|---|---|---|
+|Stat | 16| 21| 12|  8| 16| 21|
+|Bonus| +3| +5| +2| +1| +3| +5|
+|Save | +4| +8| +4| +3| +8|+11|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-----------|-------|-------|---|---|---|---|
+|6 (2)      |     14|     14|  3|  3|  5|  5|
+
+|Ability|Bonus|Damage|Other|
+|-------|-----|------|-----|
+|Strike|+12|1d6+6[Per]|(Reach 5ft)|
+|Elemental Touch|+8|2d8+3[Per] + 1d8/MP die|(Reach=5ft) earth, MP die maximum=3|
+|Elemental Touch|+8|2d8+3[Pre] + 1d8/MP die|(Reach=5ft) air, MP die maximum=3|
+|||||
+|Sc: Earth III|Thr=18||["Down"](../08-spell-list.md#down), ["Least Spike"](../08-spell-list.md#least-spike), ["Gnome's Mercy"](../08-spell-list.md#gnomes-mercy), ["Least Geomancy"](../08-spell-list.md#least-geomancy), ["Warded Ground"](../08-spell-list.md#warded-ground), ["Shape Earth"](../08-spell-list.md#shape-earth), ["Earth Ward"](../08-spell-list.md#earth-ward)|
+|Sc: Air III|Thr=18||[Glide](../08-spell-list.md#glide), [Headwind](../08-spell-list.md#headwind), [Wind Step](../08-spell-list.md#wind-step), [Wind Walk](../08-spell-list.md#wind-walk)|
+|||||
+|Immune|||["Natural Damage"](../10-conditions-types.md#natural-and-supernatural-damage-and-abilities), ["Divine Damage"](../10-conditions-types.md#divine)|
+|[Precision Attack II](../06-abilities.md#precision-attack-i-x)|||Gnomes Add 2d8 to surprise attacks if they attack with a weapon|
+|Aberrant healing|||When a glitch would take divine damage (were it not immune), it is instead healed for that number of hit-points.|
+|Immune|||["Surprised"](../10-conditions-types.md#surprised), ["Charmed"](../10-conditions-types.md#charmed), ["Frightened"](../10-conditions-types.md#frightened), ["Stunned"](../10-conditions-types.md#stunned), ["Dying"](../10-conditions-types.md#dying)|
+
+An unbound gnome is created whenever a gnome is detached from the ground despite this being impossible under ordinary circumstances. Unbound gnomes seek to free flightless beings from the shackles of mother earth. This seldom ends well.
+
+If a flightless entity captures the fancy of an unbound gnome, it will attempt to "teach" it to fly. If there is a nearby cliff, it will push it off a cliff. If there isn't, it will cast either "wind step" or "glide" or "wind walk" on it. The unbound gnome will guide its "friend" as high as it can, and then watch it fall as its spell runs out. An unbound gnome has no concept, nor care for, mortality.
+
+In actual combat it will use "glide" in combination with "headwind" to blow away its enemies, or simply use its elemental abilities, to destroy it.
+
+___
+## Divinities
+
+___
+### Unicorn, True
+
+**Size category**: Large (10ft x 10ft)
+
+- Evade: -1, Armour +1, Deflection +6
+- Reach: 5ft (long)
+- Saves: DEX, INT, WIS, CHA
+- [DEX save]: -1, [STR save]: +1
+- Carry capacity: (176lb light, 352lb medium, 880lb heavy, 1320lb drag)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|22/22/22|102 (*48*)|142 (*51*)|25|60ft|Blink (80ft), Cosmic (1 realm)|
+
+|     |Str|Dex|Con|Int|Wis|Cha|
+|-----|---|---|---|---|---|---|
+|Stat |22 |17 |19 |17 |19 |26 |
+|Bonus|+6 |+3 |+4 |+3 |+4 |+7 |
+|Save |+9 |+10|+7 |+10|+11|+14|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-----------|-------|-------|---|---|---|---|
+|14 (3)     |22     |22     |4  |4  |7  |7  |
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Hooves|+15|1d8+8|(Reach=5ft, long) divine source|
+|Horn|+15|1d12+8|(Reach=5ft, long) divine source|
+|||||
+|Sunder|+13||A unicorn can destroy the weapons and armour of its foes|
+|Throw|+13||A unicorn can knock down its foes|
+|||||
+|Radiant deflection|HiT: +6||A radiant power surrounds a unicorn, protecting them from harm|
+|[Sc: Incantation VII](../06-abilities.md#spellcasting-local)|Thr=19||Favourite Spells: ["Least Spike"](../08-spell-list.md#least-spike), ["Sour"](../08-spell-list.md#sour), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Vengeance"](../08-spell-list.md#least-vengeance), ["Meadow of Flame"](../08-spell-list.md#meadow-of-flame), ["Wind Walk"](../08-spell-list.md#wind-walk), ["Cure"](../08-spell-list.md#cure), ["Greater Xenophonia"](../08-spell-list.md#greater-xenophonia), ["Isolate Essence"](../08-spell-list.md#isolate-essence), ["Pact"](../08-spell-list.md#pact), [Heart Ward](../08-spell-list.md#heart-ward)", ["Spirit Restoration"](../08-spell-list.md#spirit-restoration), ["Razor Wind"](../08-spell-list.md#razor-wind), ["Otherworld Step"](../08-spell-list.md#otherworld-step), ["Memory Thief"](../08-spell-list.md#memory-thief)|
+|[Divine Strike](../06-abilities.md#divine-strike)||1d6|A true unicorn can channel divine energies through its horn. It can expend **1 MP die** to cause 1d6 divine damage when it strikes a foe with its horn, or 2 MP dice to cause 2d6 divine damage..|
+|[Holy Strike](../06-abilities.md#holy-strike)||2d4|A true unicorn can expend MP to infuse its hooves with supernatural light, dealing extra damage. It may expend 1 MP and deal 2d4 of light damage. Profane entities hit by this attack must succeed a CHA save (Thr=13+SUP+[CHA]) or be "blinded" (repeated save applies).|
+|||||
+|[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||(1SP die) A unicorn can combine any two basic combat manoeuvres that it is proficient with.|
+|Monster Attack I|||A unicorn makes one attack with its horns and one with its hooves.|
+|||||
+|[Alert](../06-abilities.md#alert)|||A unicorn cannot be surprised.|
+|[Swift Spell](../06-abilities.md#swift-spell)|||A unicorn can spend 2 MP dice to cast a spell as a secondary action instead of a main action|
+|[Deflection](../06-abilities.md#deflection)|||A unicorn can can reduce damage from ranged supernatural attacks by 1d4+7+([MP dice]d4) as a reaction.|
+|[Esoteric Deflection](../06-abilities.md#esoteric-deflection)|||A unicorn can, as a reaction, reduce the damage from a "esoteric" ranged attack by [1d6 + [2 x MP dice expended]]|
+|[Divine Arcana: Regrowth](../08-spell-list.md#regrowth)|||A true unicorn can cast ["Regrowth"](../08-spell-list.md#regrowth) despite not meeting the prerequisites.|
+|[Divine Arcana: Summon Angel](../08-spell-list.md#summon-angel)|||A true unicorn can cast ["Summon Angel"](../08-spell-list.md#summon-angel) despite not meeting the prerequisites.|
+|[Spellsong IV](../06-abilities.md#spellsong-i-iv)|||A unicorn's song can alter the nature of magic around it|
+|[Sprinter](../06-abilities.md#sprinter)|||A unicorn can run at x3 its base speed, and sprint x5 its base speed.|
+||||||
+|Immunity|||All "natural" damage, "divine" damage, "light" damage|
+|Immunity|||"aphonic", "blinded", "charmed", "deafened", "dying", "frightened", "prone", "stunned", "surprised"||
+|Vulnerability|||A true unicorn is vulnerable to "entropic" damage.|
+|True-speech|||A true unicorn cannot lie|
+|||||
+|[True Sight (120ft)](../06-abilities.md#truesight-i-vi)|||A true unicorn can see the true shape of reality|
+|[Low Light Vision](../06-abilities.md#low-light-vision)|||A unicorn can see in dim light as well as in sunlight.|
+|[Life Sense (60ft)](../06-abilities.md#life-sense-i-vi)|||A unicorn can sense living beings within 60ft of it.|
+|Skills|||"Athletics" +12, "Observe" +13, "Sense Motive" +7, "Spellcraft" +9, "Knowledge: Nature" +5, "Knowledge: Arcana" +7, "Knowledge: Religion" +11|
+|Loot|||A true unicorn is not a physical being, and thus once it is destroyed it may leave nothing behind. However, it may yield its horn to a mortal it deems worthy, hence ceasing to exist.|
+
+A true unicorn is not a physical being, but a divine being and manifestation of innocence. It takes the form of a white horse with a shining mane and tail. It has a single, straight horn upon its head.
+
+A true unicorn will not willingly appear before beings that lack innocence.
+
+A true unicorn has considerable healing abilities, but will not use them on beings that it does not consider worthy. On the other hand, it will use them freely and liberally on beings that it *does* consider worthy.
+
+While it prefers not to engage in battle, when facing beings that spread corruption a true unicorn will fight fiercely and mercilessly. Depending on the strength and kind of its foes its strategy will vary. Often it will first summon a ["Lesser Messenger"](#lesser-messenger) of purity, and command it create weather such that it would be unfavourable to their foes. It would then charge, using either "Razor Wind", or its considerable physical abilities to destroy its foes.
+___
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+||||||
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|||||||
+|Bonus|||||||
+|Save|||||||
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+||||||||
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|||||
+|||||
+|||||
+|||||

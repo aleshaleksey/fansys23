@@ -1,0 +1,1928 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../">
+  <head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../genindex.html"><link rel="search" title="Search" href="../search.html"><link rel="next" title="NPC stat blocks" href="humanoids.html"><link rel="prev" title="Constructs" href="constructs.html">
+
+    <!-- Generated with Sphinx 8.2.3 and Furo 2025.09.25 -->
+        <title>Divines - FanSys 0.0.18</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d111a655" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=580074bf" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=8dab3a3b" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f2f2f2;
+  --color-code-foreground: #1e1e1e;
+  --color-foreground-primary: #202424;
+  --color-foreground-secondary: #4a4c53;
+  --color-brand-primary: #112233;
+  --color-brand-content: #443322;
+  --color-brand-visited: #448822;
+  --color-background-primary: #f2f4ec;
+  --color-background-secondary: #e5e7e3;
+  --color-background-hover: #fafaf5;
+  --color-background-border: #40404067;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-foreground-primary: #cfd0d0;
+  --color-foreground-secondary: #acb0b5;
+  --color-brand-primary: #AABBCC;
+  --color-brand-content: #CFBEAC;
+  --color-brand-visited: #99DD99;
+  --color-background-primary: #242628;
+  --color-background-secondary: #2a2c2e;
+  --color-background-hover: #1e2124ff;
+  --color-background-border: #483945;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-foreground-primary: #cfd0d0;
+  --color-foreground-secondary: #acb0b5;
+  --color-brand-primary: #AABBCC;
+  --color-brand-content: #CFBEAC;
+  --color-brand-visited: #99DD99;
+  --color-background-primary: #242628;
+  --color-background-secondary: #2a2c2e;
+  --color-background-hover: #1e2124ff;
+  --color-background-border: #483945;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle site navigation sidebar">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc" aria-label="Toggle table of contents sidebar">
+<label class="overlay sidebar-overlay" for="__navigation"></label>
+<label class="overlay toc-overlay" for="__toc"></label>
+
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <span class="icon"><svg><use href="#svg-menu"></use></svg></span>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../index.html"><div class="brand">FanSys 0.0.18</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
+  
+  <span class="sidebar-brand-text">FanSys 0.0.18</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Index:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../01-quick-start.html">FanSys23 Quick-start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../03-movement-exploration.html">Actions outside of Combat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../04-combat.html">Combat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../05-skills.html">Skills</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../06-abilities.html">Abilities and Boons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../07-magic-and-spellcasting.html">Spells</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../08-spell-list.html">Spell List</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../09-races.html">Types, Races, Species and Templates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../10-conditions-types.html">Conditions and Types</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../11-weapons-armour.html">Weapons and armour</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../12-equipment-economy.html">Equipment and Economy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../13-crafting-imbuing.html">Crafting and Imbuing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../14-poisons-and-diseases.html">Poisons and Diseases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../15-charm-etc.html">A note on charm, domination and possession</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../16-recipes.html">Recipes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../02-base-rules.html">Base Rules</a></li>
+<li class="toctree-l1 current has-children"><a class="reference internal" href="../bestiary.html">A Bestiary for Fantasy Worlds</a><input aria-label="Toggle navigation of A Bestiary for Fantasy Worlds" checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="forwards.html">Forwards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="beasts-and-plants.html">Beasts and Plants</a></li>
+<li class="toctree-l2"><a class="reference internal" href="constructs.html">Constructs</a></li>
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Divines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="humanoids.html">NPC stat blocks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="monsters-and-dragons.html">Monsters and Dragons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="profanes.html">Profanes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="spirits.html">Spirits</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../CHANGELOG.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../TODO.html">Character sheet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../LICENSE.html">License</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="view-this-page">
+  <a class="muted-link" href="../_sources/bestiary/divines.md.txt" title="View this page">
+    <svg><use href="#svg-eye"></use></svg>
+    <span class="visually-hidden">View this page</span>
+  </a>
+</div>
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          <section id="divines">
+<h1>Divines<a class="headerlink" href="#divines" title="Link to this heading">¶</a></h1>
+<p>Divine entities are a category of supernatural beings that include gods, god-like beings, angels, and anomalies in creation.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="#angels">Angels</a></p>
+<ul>
+<li><p><a class="reference external" href="#lesser-messenger">Lesser Messenger</a></p></li>
+<li><p><a class="reference external" href="#watcher">Watcher</a></p></li>
+<li><p><a class="reference external" href="#seraph">Seraph</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#glitches">Glitches</a></p>
+<ul>
+<li><p><a class="reference external" href="#abyssal-blade">Abyssal Blade</a></p></li>
+<li><p><a class="reference external" href="#unbound-gnome">Unbound Gnome</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#divinities">Divinities</a></p>
+<ul>
+<li><p><a class="reference external" href="#unicorn-true">Unicorn, True</a></p></li>
+</ul>
+</li>
+</ul>
+<section id="angels">
+<h2>Angels<a class="headerlink" href="#angels" title="Link to this heading">¶</a></h2>
+<p><strong>Angels</strong> are the creations of gods, or manifestations of creation itself. They are generally created as messengers and observers, but also occasionally enforcing the will of their creator. Not all angels have free will (Cha). Not all angels align with the typical human understanding of “good” (especially the messengers of dark gods).</p>
+<ul class="simple">
+<li><p>Divine entities do not need to breath, drink, eat, or sleep, but are often capable of doing so. They do not age.</p></li>
+<li><p>Divine entities are immune to all “natural” damage and resistant to “divine” damage.</p></li>
+<li><p>They are immune to “surprised”, “charmed”, “frightened”, “stunned” and “dying”.</p></li>
+<li><p>All angels have true sight, can discern truth from lie.</p></li>
+<li><p>Angels takes 1HP damage whenever they lie. Some are incapable of lying.</p></li>
+<li><p>Angels are immune to “light” damage and vulnerable to “profane” damage.</p></li>
+<li><p>Angels have advantage on attacks against “Profanes”.</p></li>
+<li><p>Angels do not suffer from fatigue. Thus, an angel can march or fly even when a mortal would tire and require rest.</p></li>
+</ul>
+<p>The abilities and knowledge an angel is endowed with depends on the purpose it was created with. Often an angel will be endowed with divine abilities that it should not have the prerequisites for, were it a mortal or player character.</p>
+<hr class="docutils" />
+<section id="lesser-messenger">
+<h3>Lesser Messenger<a class="headerlink" href="#lesser-messenger" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>HiT/Surprised/Touch</p></th>
+<th class="head"><p>SP</p></th>
+<th class="head"><p>MP</p></th>
+<th class="head"><p>HP</p></th>
+<th class="head"><p>Speed (walk)</p></th>
+<th class="head"><p>Speed (other)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>16/-/15</p></td>
+<td><p>31 (<em>24</em>)</p></td>
+<td><p>31 (<em>24</em>)</p></td>
+<td><p>9</p></td>
+<td><p>30ft</p></td>
+<td><p>Fly, (100ft, good, endurance = unlimited)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Small (+1/0)
+Deflection +2</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>Str</p></th>
+<th class="head"><p>Dex</p></th>
+<th class="head"><p>Con</p></th>
+<th class="head"><p>Int</p></th>
+<th class="head"><p>Wis</p></th>
+<th class="head"><p>Cha</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Stat</p></td>
+<td><p>13</p></td>
+<td><p>16</p></td>
+<td><p>14</p></td>
+<td><p>14</p></td>
+<td><p>16</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bonus</p></td>
+<td><p>+1</p></td>
+<td><p>+3</p></td>
+<td><p>+2</p></td>
+<td><p>+2</p></td>
+<td><p>+3</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-even"><td><p>Save</p></td>
+<td><p>+3</p></td>
+<td><p>+5</p></td>
+<td><p>+4</p></td>
+<td><p>+6</p></td>
+<td><p>+7</p></td>
+<td><p>-</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level(base)</p></th>
+<th class="head"><p>SP Dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>Nat</p></th>
+<th class="head"><p>Sup</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SUP</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>7 (2)</p></td>
+<td><p>11</p></td>
+<td><p>12</p></td>
+<td><p>2</p></td>
+<td><p>2</p></td>
+<td><p>4</p></td>
+<td><p>4</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Ability</p></th>
+<th class="head"><p>Bonus</p></th>
+<th class="head"><p>Damage</p></th>
+<th class="head"><p>Other</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Short-spear</p></td>
+<td><p>+7</p></td>
+<td><p>1d3+3[Pi]+1d6[Lit]</p></td>
+<td><p>The spear is not real, but a manifestation of the angel.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Disarm</p></td>
+<td><p>+7</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Elemental Blast</p></td>
+<td><p>+7</p></td>
+<td><p>1d4+3 Lit</p></td>
+<td><p>Can upcast up to 5d4+3</p></td>
+</tr>
+<tr class="row-odd"><td><p>Elemental Blast</p></td>
+<td><p>Thr=20</p></td>
+<td><p></p></td>
+<td><p>Greater (Radial), up to 30ft radius</p></td>
+</tr>
+<tr class="row-even"><td><p>Sc: Incantation IV</p></td>
+<td><p>Thr=17</p></td>
+<td><p></p></td>
+<td><p>Favourites are: “down”, “Least Ward”, “Least Heal”, “Lesser Veil”, “Promise”, “Cure”, “Least Weather Control”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Radiant deflection</p></td>
+<td><p>AC: +2</p></td>
+<td><p></p></td>
+<td><p>A radiant power surrounds an angel, protecting them from harm</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Combined Manoeuvre I</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Multiattack I</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#spellsong-i-iv">Spellsong I</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#bard-song-i-iv">Bard Song I</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Xenophonia</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>Mortals, Spirits, Constructs</p></td>
+</tr>
+<tr class="row-even"><td><p>Illuminated</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A lesser messenger emits bright light within 10ft and dim light in 20ft. This glow can be seen 3 miles away on a dark night.</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Proficiencies</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>Spears, Bow</p></td>
+</tr>
+<tr class="row-odd"><td><p>Skills</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Sense Motive: +9”, “Perform: +9”, “Fly: +9”, “Persuade: +6”, “Creature Handling: +6”, “K:Religion: +8”, “SpellWorking: +8”</p></td>
+</tr>
+<tr class="row-even"><td><p>Senses</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>Truesight (120ft), Lifesense (15ft)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Resistance(damage)</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Div”</p></td>
+</tr>
+<tr class="row-even"><td><p>Immunity(damage)</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>all “Natural” damage, “Lit”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Immunity(condition)</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Surprised”, “Charmed”, “Frightened”, “Stunned”, “Dying”</p></td>
+</tr>
+<tr class="row-even"><td><p>Vulnerability</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Pro”</p></td>
+</tr>
+<tr class="row-odd"><td><p>True-speech</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A messenger cannot lie</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Lesser angels take on the form of small winged humanoids do not have free will and use WIS in place of CHA for skills.</p>
+<p>Lesser messengers are generally sent to material realms to deliver important news, instructions an warnings to mortals of significance. The fact that a greater angel is not sent, should not be seen as a sign that the message is not important. The fact that a messenger is sent at all should be noticed as significant. They are also sometimes sent to guide mortals to a destination, be it physical or figurative.</p>
+<p>Lesser messengers prefer to avoid combat and will not retaliate against attacks that are not capable of obstructing their mission. If a threat is capable of obstructing its mission, the angel will incapacitate it, if possible by ridding it of the means, otherwise by using ranged attacks with its rays of light. Only in combat with profane entities will a lesser messenger strike the ‘killing’ blow.</p>
+</section>
+<hr class="docutils" />
+<section id="watcher">
+<h3>Watcher<a class="headerlink" href="#watcher" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>HiT/Surprised/Touch</p></th>
+<th class="head"><p>SP</p></th>
+<th class="head"><p>MP</p></th>
+<th class="head"><p>HP</p></th>
+<th class="head"><p>Speed (walk)</p></th>
+<th class="head"><p>Speed (other)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>19/-/16</p></td>
+<td><p>63 (<em>33</em>)</p></td>
+<td><p>95 (<em>43</em>)</p></td>
+<td><p>19</p></td>
+<td><p>30ft</p></td>
+<td><p>Fly (100ft, good, endurance = unlimited)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Medium
+Deflection +4</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>Str</p></th>
+<th class="head"><p>Dex</p></th>
+<th class="head"><p>Con</p></th>
+<th class="head"><p>Int</p></th>
+<th class="head"><p>Wis</p></th>
+<th class="head"><p>Cha</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Stat</p></td>
+<td><p>13</p></td>
+<td><p>16</p></td>
+<td><p>16</p></td>
+<td><p>16</p></td>
+<td><p>19</p></td>
+<td><p>20</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bonus</p></td>
+<td><p>+1</p></td>
+<td><p>+3</p></td>
+<td><p>+3</p></td>
+<td><p>+3</p></td>
+<td><p>+4</p></td>
+<td><p>+5</p></td>
+</tr>
+<tr class="row-even"><td><p>Save</p></td>
+<td><p>+4</p></td>
+<td><p>+6</p></td>
+<td><p>+6</p></td>
+<td><p>+10</p></td>
+<td><p>+11</p></td>
+<td><p>+12</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level(base)</p></th>
+<th class="head"><p>SP Dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>Nat</p></th>
+<th class="head"><p>Sup</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SUP</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>11 (3)</p></td>
+<td><p>15</p></td>
+<td><p>20</p></td>
+<td><p>3</p></td>
+<td><p>4</p></td>
+<td><p>6</p></td>
+<td><p>7</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Ability</p></th>
+<th class="head"><p>Bonus</p></th>
+<th class="head"><p>Damage</p></th>
+<th class="head"><p>Other</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Short-spear</p></td>
+<td><p>+10</p></td>
+<td><p>1d6+3[Pi]+1d6[Lit]</p></td>
+<td><p>The spear is not real, but a manifestation of the angel.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Elemental Blast</p></td>
+<td><p>+10</p></td>
+<td><p>1d4+3 Lit</p></td>
+<td><p>Can upcast up to 7d4+3</p></td>
+</tr>
+<tr class="row-even"><td><p>Elemental Blast</p></td>
+<td><p>Thr=20 CON</p></td>
+<td><p></p></td>
+<td><p>Greater (Radial), up to 50ft radius</p></td>
+</tr>
+<tr class="row-odd"><td><p>Sc: Incantation VI</p></td>
+<td><p>Thr=22</p></td>
+<td><p></p></td>
+<td><p>Favourites are: “down”, “Least Ward”, “Least Heal”, “Lesser Veil”, “Promise”, “Cure”, “Least Weather Control”, “Pact”, “Razor Wind”</p></td>
+</tr>
+<tr class="row-even"><td><p>Disarm</p></td>
+<td><p>+10</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Radiant deflection</p></td>
+<td><p>AC: +4</p></td>
+<td><p></p></td>
+<td><p>A radiant power surrounds an angel, protecting them from harm</p></td>
+</tr>
+<tr class="row-even"><td><p>Divine Strike</p></td>
+<td><p></p></td>
+<td><p>+1d6 Div</p></td>
+<td><p>Spears</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#spellsong-i-iv">Spellsong II</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#bard-song-i-iv">Bard Song II</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Foresight</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>Add [Wis]/2 to your evasion modifier, on top of [Dex] and [size].</p></td>
+</tr>
+<tr class="row-even"><td><p>Combined Manoeuvre I</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Multi-attack I</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Xenophonia</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>All</p></td>
+</tr>
+<tr class="row-odd"><td><p>Illuminated</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A watcher <em>in its true form</em> emits bright light within 30ft and dim light in 60ft. This glow can be seen 10 miles away on a dark night.</p></td>
+</tr>
+<tr class="row-even"><td><p>Alternate form II</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>Watchers usually have two alternate forms, one humanoid, one of a small or medium beast, a watcher can shift between forms as a “secondary action”</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Proficiencies</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>Spears, Bow</p></td>
+</tr>
+<tr class="row-odd"><td><p>Skills</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Sense Motive: +11”, “Observe: +11”, “Stealth: +11”, “Perform: +11”, “Fly: +11”, “Persuade: +11”, “SpellWorking: +10”, “K:Religion: +10”, “Creature Handling: +6”, “Track: +6”</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Senses</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>Truesight (120ft), Life-sense (30ft)</p></td>
+</tr>
+<tr class="row-even"><td><p>Resistance(damage)</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Div”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Immunity(damage)</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>all “Natural” damage, “Lit”</p></td>
+</tr>
+<tr class="row-even"><td><p>Immunity(condition)</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Surprised”, “Charmed”, “Frightened”, “Stunned”, “Dying”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Vulnerability</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Pro”</p></td>
+</tr>
+<tr class="row-even"><td><p>True-speech</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A watcher that lies takes 1 HP damage for every lie it speaks</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>A watcher exists to watch over an area, entity or event. Often they have a directive to not interfere. Generally they use an alternate form to hide their true nature.</p>
+<p>The true form of a watcher generally appears to a mortal as a single eye, surrounded by any a multitude of wings, or a winged serpent, though other forms can exist. Watchers seldom take on that form in the material realm.</p>
+<p>A watcher seldom engages threats that do not interfere with its mission, or those that are not capable of damaging it. Nor do they retaliate against attacks not capable of harming them. On occasion, the discovery of a watcher will jeopardise its mission. In that case those who discovered it may be eliminated, depending on the kind of god the watcher serves. When watchers engage in combat, they generally aim to eliminated all threats swiftly using Razor Wind, Elemental Blast (large radius) or divine strike as appropriate. If this is not possible, a watcher will use weather control and superior mobility to chip away at their foes over a period of time.</p>
+<p>Watchers have free will. Some sages believe that belies the true purpose of their vigil.</p>
+</section>
+<hr class="docutils" />
+<section id="seraph">
+<h3>Seraph<a class="headerlink" href="#seraph" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>HiT/Surprised/Touch</p></th>
+<th class="head"><p>SP</p></th>
+<th class="head"><p>MP</p></th>
+<th class="head"><p>HP</p></th>
+<th class="head"><p>Speed (walk)</p></th>
+<th class="head"><p>Speed (other)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>21(22)/-/19(17)</p></td>
+<td><p>152 (<em>56</em>)</p></td>
+<td><p>175 (<em>63</em>)</p></td>
+<td><p>30</p></td>
+<td><p>30ft</p></td>
+<td><p>Fly (100ft, good, endurance = unlimited), cosmic (1 realm per day)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Large (+1/-1)
+Deflection +6</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>Str</p></th>
+<th class="head"><p>Dex</p></th>
+<th class="head"><p>Con</p></th>
+<th class="head"><p>Int</p></th>
+<th class="head"><p>Wis</p></th>
+<th class="head"><p>Cha</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Stat</p></td>
+<td><p>22</p></td>
+<td><p>14</p></td>
+<td><p>22</p></td>
+<td><p>16</p></td>
+<td><p>21</p></td>
+<td><p>24</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bonus</p></td>
+<td><p>+6</p></td>
+<td><p>+2</p></td>
+<td><p>+6</p></td>
+<td><p>+3</p></td>
+<td><p>+5</p></td>
+<td><p>+7</p></td>
+</tr>
+<tr class="row-even"><td><p>Save</p></td>
+<td><p>+4</p></td>
+<td><p>+6</p></td>
+<td><p>+6</p></td>
+<td><p>+10</p></td>
+<td><p>+11</p></td>
+<td><p>+16</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level(base)</p></th>
+<th class="head"><p>SP Dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>Nat</p></th>
+<th class="head"><p>Sup</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SUP</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>17 (4)</p></td>
+<td><p>25</p></td>
+<td><p>28</p></td>
+<td><p>5</p></td>
+<td><p>5</p></td>
+<td><p>9</p></td>
+<td><p>9</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Ability</p></th>
+<th class="head"><p>Bonus</p></th>
+<th class="head"><p>Damage</p></th>
+<th class="head"><p>Other</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Greatsword</p></td>
+<td><p>+20</p></td>
+<td><p>2d6+14</p></td>
+<td><p>The sword is not real. It is merely a part of divine wrath and overcomes physical damage resistance and immunity. It counts as divine source for the sake of what it is.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Disarm</p></td>
+<td><p>+15</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Elemental Blast</p></td>
+<td><p>+14</p></td>
+<td><p>1d4+5 Lit</p></td>
+<td><p>Can upcast up to 9d4+5</p></td>
+</tr>
+<tr class="row-even"><td><p>Elemental Blast</p></td>
+<td><p>Thr=23 CON</p></td>
+<td><p></p></td>
+<td><p>Greater (Radial), up to 70ft radius</p></td>
+</tr>
+<tr class="row-odd"><td><p>Divine Strike</p></td>
+<td><p></p></td>
+<td><p>3d6 Div</p></td>
+<td><p>Heavy Blades</p></td>
+</tr>
+<tr class="row-even"><td><p>Radiant deflection</p></td>
+<td><p>AC: +6</p></td>
+<td><p></p></td>
+<td><p>A radiant power surrounds an angel, protecting them from harm</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Sc: Incantation VI</p></td>
+<td><p>Thr=21</p></td>
+<td><p></p></td>
+<td><p>Favourites are: “down”, “Least Ward”, “Least Heal”, “Lesser Veil”, “Promise”, “Cure”, “Least Weather Control”, “Pact”, “Razor Wind”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Sc: Fire VII</p></td>
+<td><p>Thr=23</p></td>
+<td><p></p></td>
+<td><p>Favourites are: “enflame”, “least vengeance”, “meadow of flame”, “melt”, “command mortal”, “revenant”, “forest of flame”</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Broad Strike</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>Strikes multiple adjacent enemies with its sword (1SP)</p></td>
+</tr>
+<tr class="row-even"><td><p>Flash Step</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>Moves 100ft as a bonus action (1SP)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Energy Affinity</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>Light, Fire</p></td>
+</tr>
+<tr class="row-even"><td><p>Foresight</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>Add [Wis]/2 to your evasion modifier, on top of [Dex] and [size].</p></td>
+</tr>
+<tr class="row-odd"><td><p>Combined Manoeuvre I</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Multi-attack II</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Evasive</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Counterstrike</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Great-strike</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#spellsong-i-iv">Spellsong III</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#bard-song-i-iv">Bard song III</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Still Spell</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>Spend 1 MP dice to cast a spell without kinetic components.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Xenophonia</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>All</p></td>
+</tr>
+<tr class="row-even"><td><p>Illuminated</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A seraph <em>in its true form</em> emits bright light within 60ft and dim light in 120ft. This glow can be seen 20 miles away on a dark night.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Alternate form</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>Seraph are known to take on alternate forms of noble beasts</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Proficiencies</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>Spears, Bow</p></td>
+</tr>
+<tr class="row-even"><td><p>Skills</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Sense Motive: +11”, “Observe: +11”, “Stealth: +11”, “Perform: +11”, “Fly: +11”, “Persuade: +11”, “SpellWorking: +10”, “K:Religion: +10”, “Creature Handling: +6”, “Track: +6”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Senses</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>Truesight (180ft), Life-sense (45ft)</p></td>
+</tr>
+<tr class="row-even"><td><p>Resistance(damage)</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Div”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Immunity(damage)</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>all “Natural” damage, “Lit”</p></td>
+</tr>
+<tr class="row-even"><td><p>Immunity(condition)</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Surprised”, “Charmed”, “Frightened”, “Stunned”, “Dying”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Vulnerability</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Pro”</p></td>
+</tr>
+<tr class="row-even"><td><p>True-speech</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A seraph that lies takes 1 HP damage for every lie it speaks</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Seraphs are angels that are closest to the deity that created them. In general a seraph is sent to punish those who have gone against the god who sent it, or to prepare an area for a new beginning by bringing flaming destruction upon it. Alternatively, the coming of a seraph may portent the completion of an old prophecy, or the beginning of a new one.</p>
+<p>The true form of a seraph appears to mortals generally appear as a head surrounded by six fiery wings, or as a burning wheel.</p>
+<p>On missions of prophecy, a seraph generally appears in its true form. On missions of destruction and renewal, it may appear in its bestial form to observe and warn the mortals they are sent to punish before appearing in their true form and delivering judgement.</p>
+<p>In combat with a single target, a seraph will often make liberal use fo its divine strike to destroy its foe. On missions of destruction, it will generally rain flaming destruction on a wide area, either using its holy light, or by global <a class="reference external" href="../08-spell-list.html#forest-of-flame">“forest of flame”</a>. Unlike most angels, it will punish those that interfere with its mission, whether their interference is capable of disrupting it or not.</p>
+<p>A seraph likely has some degree of free will. Sages believe that this is an element of divine judgement.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="glitches">
+<h2>Glitches<a class="headerlink" href="#glitches" title="Link to this heading">¶</a></h2>
+<p>Glitches are aberrant divine beings born of flaws in creation made manifest. The abilities that glitches possess often break fundamental laws and premises of creation and sometimes even logic. They are extremely dangerous, even to other divine beings.</p>
+<ul class="simple">
+<li><p>Glitches are divine entities, and as such are immune to all “natural” damage and resistant to “divine” damage.</p></li>
+<li><p>They are immune to “surprised”, “charmed”, “frightened”, “stunned” and “dying”.</p></li>
+<li><p>Glitches are immune to “divine” damage and resistant to “profane” damage.</p></li>
+<li><p>Glitches heal 1HP when they are hit with an attack or ability that deals “divine” damage.</p></li>
+<li><p>Glitches have at least one ability that causes “entropic” damage.</p></li>
+</ul>
+<hr class="docutils" />
+<section id="abyssal-blade">
+<h3>Abyssal Blade<a class="headerlink" href="#abyssal-blade" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>HiT/Surprised/Touch</p></th>
+<th class="head"><p>SP</p></th>
+<th class="head"><p>MP</p></th>
+<th class="head"><p>HP</p></th>
+<th class="head"><p>Speed (walk)</p></th>
+<th class="head"><p>Speed (other)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>23/18/23</p></td>
+<td><p>46 (<em>30</em>)</p></td>
+<td><p>64 (<em>32</em>)</p></td>
+<td><p>11</p></td>
+<td><p>30ft</p></td>
+<td><p>Climb (30ft)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>An Abyssal Blade has a +6 deflection bonus, and a +2 shield bonus from its blades.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>Str</p></th>
+<th class="head"><p>Dex</p></th>
+<th class="head"><p>Con</p></th>
+<th class="head"><p>Int</p></th>
+<th class="head"><p>Wis</p></th>
+<th class="head"><p>Cha</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Stat</p></td>
+<td><p>19</p></td>
+<td><p>17</p></td>
+<td><p>15</p></td>
+<td><p>13</p></td>
+<td><p>17</p></td>
+<td><p>19</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bonus</p></td>
+<td><p>+4</p></td>
+<td><p>+3</p></td>
+<td><p>+2</p></td>
+<td><p>+1</p></td>
+<td><p>+3</p></td>
+<td><p>+4</p></td>
+</tr>
+<tr class="row-even"><td><p>Save</p></td>
+<td><p>+6</p></td>
+<td><p>+5</p></td>
+<td><p>+4</p></td>
+<td><p>+3</p></td>
+<td><p>+8</p></td>
+<td><p>+9</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level(base)</p></th>
+<th class="head"><p>SP Dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>Nat</p></th>
+<th class="head"><p>Sup</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SUP</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>9 (2)</p></td>
+<td><p>14</p></td>
+<td><p>14</p></td>
+<td><p>3</p></td>
+<td><p>3</p></td>
+<td><p>5</p></td>
+<td><p>5</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Ability</p></th>
+<th class="head"><p>Bonus</p></th>
+<th class="head"><p>Damage</p></th>
+<th class="head"><p>Other</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Entropic Touch</p></td>
+<td><p>+9</p></td>
+<td><p>1d4+3[Ent]</p></td>
+<td><p>Reach=10ft. On a successful hit, the target must succeed a Thr=19 CON save or lose 1d4+2 SP dice. If it has no SP dice left, it instead loses 2 HP.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Swords</p></td>
+<td><p>+9</p></td>
+<td><p>1d8+3[Ent]</p></td>
+<td><p>Reach=10ft, the shadow flesh distorts the fiend’s form, giving it an unusually long reach.</p></td>
+</tr>
+<tr class="row-even"><td><p>Spellcasting</p></td>
+<td><p>Thr=18</p></td>
+<td><p></p></td>
+<td><p><a class="reference external" href="../08-spell-list.html#dusk">“Dusk”</a>, <a class="reference external" href="../08-spell-list.html#least-curse">“Curse”</a>, <a class="reference external" href="../08-spell-list.html#animatecontrol-dead">“Animate Dead”</a></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#cursed-blood">Cursed Blood</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>An Abyssal Blade can use its reaction to cast a pell</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#guarded">Guarded</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>An Abyssal Blade does not provoke attacks of opportunity when standing up or drinking potions.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#low-light-vision">“Low Light Vision”</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>Abyssal Blades can see in dim light, for example a starry night, as if it were daylight.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#low-light-vision">“Life Sense: 60ft”</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>An Abyssal Blade can detect living beings within 60ft of it if there are no significant intervening barriers.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#truesight-i-vi">“True Sight: 60ft”</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>An Abyssal Blade can detect living beings within 60ft of it if there are no significant intervening barriers.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Telltale Heart</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>An Abyssal Blade ALWAYS knows the direction to its lost parts and the ones who took them.</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Skills</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Athletics: +9”, “Acrobatics:+8”, “Sleight of Hand:+7”, “Religion:+6”, “Fortify:+7”,  “Insight:+6”</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Immune</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p><a class="reference external" href="../10-conditions-types.html#natural-and-supernatural-damage-and-abilities">“Natural Damage”</a>, <a class="reference external" href="../10-conditions-types.html#divine">“Divine Damage”</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Aberrant healing</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>When a glitch would take divine damage (were it not immune), it is instead healed for that number of hit-points.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Immune</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p><a class="reference external" href="../10-conditions-types.html#surprised">“Surprised”</a>, <a class="reference external" href="../10-conditions-types.html#charmed">“Charmed”</a>, <a class="reference external" href="../10-conditions-types.html#frightened">“Frightened”</a>, <a class="reference external" href="../10-conditions-types.html#stunned">“Stunned”</a>, <a class="reference external" href="../10-conditions-types.html#dying">“Dying”</a></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>When a <a class="reference external" href="profanes.html#shadow-flesh-fiend-human">shadow flesh fiend</a> is created by removing parts from a being of a being with a spiritual or divine alignment, it may instead become a “an abyssal blade”.</p>
+<p>Unlike Abyssal Blades, an abyssal blade transcends its resentment. Instead it wanders the world, spending its time destroying the parts it is missing.</p>
+</section>
+<hr class="docutils" />
+<section id="unbound-gnome">
+<h3>Unbound Gnome<a class="headerlink" href="#unbound-gnome" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>HiT/Surprised/Touch</p></th>
+<th class="head"><p>SP</p></th>
+<th class="head"><p>MP</p></th>
+<th class="head"><p>HP</p></th>
+<th class="head"><p>Speed (walk)</p></th>
+<th class="head"><p>Speed (other)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>17/10/17</p></td>
+<td><p>20 (<em>15</em>)</p></td>
+<td><p>38 (<em>28</em>)</p></td>
+<td><p>9</p></td>
+<td><p>Walk (45ft)</p></td>
+<td><p>Dig (10ft), Fly (speed=100ft, perfect, endurance=unlimited)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>An unbound gnome has a +6 deflection bonus.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>Str</p></th>
+<th class="head"><p>Dex</p></th>
+<th class="head"><p>Con</p></th>
+<th class="head"><p>Int</p></th>
+<th class="head"><p>Wis</p></th>
+<th class="head"><p>Cha</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Stat</p></td>
+<td><p>16</p></td>
+<td><p>21</p></td>
+<td><p>12</p></td>
+<td><p>8</p></td>
+<td><p>16</p></td>
+<td><p>21</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bonus</p></td>
+<td><p>+3</p></td>
+<td><p>+5</p></td>
+<td><p>+2</p></td>
+<td><p>+1</p></td>
+<td><p>+3</p></td>
+<td><p>+5</p></td>
+</tr>
+<tr class="row-even"><td><p>Save</p></td>
+<td><p>+4</p></td>
+<td><p>+8</p></td>
+<td><p>+4</p></td>
+<td><p>+3</p></td>
+<td><p>+8</p></td>
+<td><p>+11</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level(base)</p></th>
+<th class="head"><p>SP Dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>Nat</p></th>
+<th class="head"><p>Sup</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SUP</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>6 (2)</p></td>
+<td><p>14</p></td>
+<td><p>14</p></td>
+<td><p>3</p></td>
+<td><p>3</p></td>
+<td><p>5</p></td>
+<td><p>5</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Ability</p></th>
+<th class="head"><p>Bonus</p></th>
+<th class="head"><p>Damage</p></th>
+<th class="head"><p>Other</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Strike</p></td>
+<td><p>+12</p></td>
+<td><p>1d6+6[Per]</p></td>
+<td><p>(Reach 5ft)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Elemental Touch</p></td>
+<td><p>+8</p></td>
+<td><p>2d8+3[Per] + 1d8/MP die</p></td>
+<td><p>(Reach=5ft) earth, MP die maximum=3</p></td>
+</tr>
+<tr class="row-even"><td><p>Elemental Touch</p></td>
+<td><p>+8</p></td>
+<td><p>2d8+3[Pre] + 1d8/MP die</p></td>
+<td><p>(Reach=5ft) air, MP die maximum=3</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Sc: Earth III</p></td>
+<td><p>Thr=18</p></td>
+<td><p></p></td>
+<td><p><a class="reference external" href="../08-spell-list.html#down">“Down”</a>, <a class="reference external" href="../08-spell-list.html#least-spike">“Least Spike”</a>, <a class="reference external" href="../08-spell-list.html#gnomes-mercy">“Gnome’s Mercy”</a>, <a class="reference external" href="../08-spell-list.html#least-geomancy">“Least Geomancy”</a>, <a class="reference external" href="../08-spell-list.html#warded-ground">“Warded Ground”</a>, <a class="reference external" href="../08-spell-list.html#shape-earth">“Shape Earth”</a>, <a class="reference external" href="../08-spell-list.html#earth-ward">“Earth Ward”</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Sc: Air III</p></td>
+<td><p>Thr=18</p></td>
+<td><p></p></td>
+<td><p><a class="reference external" href="../08-spell-list.html#glide">Glide</a>, <a class="reference external" href="../08-spell-list.html#headwind">Headwind</a>, <a class="reference external" href="../08-spell-list.html#wind-step">Wind Step</a>, <a class="reference external" href="../08-spell-list.html#wind-walk">Wind Walk</a></p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Immune</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p><a class="reference external" href="../10-conditions-types.html#natural-and-supernatural-damage-and-abilities">“Natural Damage”</a>, <a class="reference external" href="../10-conditions-types.html#divine">“Divine Damage”</a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#precision-attack-i-x">Precision Attack II</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>Gnomes Add 2d8 to surprise attacks if they attack with a weapon</p></td>
+</tr>
+<tr class="row-odd"><td><p>Aberrant healing</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>When a glitch would take divine damage (were it not immune), it is instead healed for that number of hit-points.</p></td>
+</tr>
+<tr class="row-even"><td><p>Immune</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p><a class="reference external" href="../10-conditions-types.html#surprised">“Surprised”</a>, <a class="reference external" href="../10-conditions-types.html#charmed">“Charmed”</a>, <a class="reference external" href="../10-conditions-types.html#frightened">“Frightened”</a>, <a class="reference external" href="../10-conditions-types.html#stunned">“Stunned”</a>, <a class="reference external" href="../10-conditions-types.html#dying">“Dying”</a></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>An unbound gnome is created whenever a gnome is detached from the ground despite this being impossible under ordinary circumstances. Unbound gnomes seek to free flightless beings from the shackles of mother earth. This seldom ends well.</p>
+<p>If a flightless entity captures the fancy of an unbound gnome, it will attempt to “teach” it to fly. If there is a nearby cliff, it will push it off a cliff. If there isn’t, it will cast either “wind step” or “glide” or “wind walk” on it. The unbound gnome will guide its “friend” as high as it can, and then watch it fall as its spell runs out. An unbound gnome has no concept, nor care for, mortality.</p>
+<p>In actual combat it will use “glide” in combination with “headwind” to blow away its enemies, or simply use its elemental abilities, to destroy it.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="divinities">
+<h2>Divinities<a class="headerlink" href="#divinities" title="Link to this heading">¶</a></h2>
+<hr class="docutils" />
+<section id="unicorn-true">
+<h3>Unicorn, True<a class="headerlink" href="#unicorn-true" title="Link to this heading">¶</a></h3>
+<p><strong>Size category</strong>: Large (10ft x 10ft)</p>
+<ul class="simple">
+<li><p>Evade: -1, Armour +1, Deflection +6</p></li>
+<li><p>Reach: 5ft (long)</p></li>
+<li><p>Saves: DEX, INT, WIS, CHA</p></li>
+<li><p>[DEX save]: -1, [STR save]: +1</p></li>
+<li><p>Carry capacity: (176lb light, 352lb medium, 880lb heavy, 1320lb drag)</p></li>
+</ul>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>HiT/Surprised/Touch</p></th>
+<th class="head"><p>SP</p></th>
+<th class="head"><p>MP</p></th>
+<th class="head"><p>HP</p></th>
+<th class="head"><p>Speed (walk)</p></th>
+<th class="head"><p>Speed (other)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>22/22/22</p></td>
+<td><p>102 (<em>48</em>)</p></td>
+<td><p>142 (<em>51</em>)</p></td>
+<td><p>25</p></td>
+<td><p>60ft</p></td>
+<td><p>Blink (80ft), Cosmic (1 realm)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>Str</p></th>
+<th class="head"><p>Dex</p></th>
+<th class="head"><p>Con</p></th>
+<th class="head"><p>Int</p></th>
+<th class="head"><p>Wis</p></th>
+<th class="head"><p>Cha</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Stat</p></td>
+<td><p>22</p></td>
+<td><p>17</p></td>
+<td><p>19</p></td>
+<td><p>17</p></td>
+<td><p>19</p></td>
+<td><p>26</p></td>
+</tr>
+<tr class="row-odd"><td><p>Bonus</p></td>
+<td><p>+6</p></td>
+<td><p>+3</p></td>
+<td><p>+4</p></td>
+<td><p>+3</p></td>
+<td><p>+4</p></td>
+<td><p>+7</p></td>
+</tr>
+<tr class="row-even"><td><p>Save</p></td>
+<td><p>+9</p></td>
+<td><p>+10</p></td>
+<td><p>+7</p></td>
+<td><p>+10</p></td>
+<td><p>+11</p></td>
+<td><p>+14</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level(base)</p></th>
+<th class="head"><p>SP Dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>Nat</p></th>
+<th class="head"><p>Sup</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SUP</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>14 (3)</p></td>
+<td><p>22</p></td>
+<td><p>22</p></td>
+<td><p>4</p></td>
+<td><p>4</p></td>
+<td><p>7</p></td>
+<td><p>7</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Ability</p></th>
+<th class="head"><p>Bonus</p></th>
+<th class="head"><p>Damage</p></th>
+<th class="head"><p>Other</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Hooves</p></td>
+<td><p>+15</p></td>
+<td><p>1d8+8</p></td>
+<td><p>(Reach=5ft, long) divine source</p></td>
+</tr>
+<tr class="row-odd"><td><p>Horn</p></td>
+<td><p>+15</p></td>
+<td><p>1d12+8</p></td>
+<td><p>(Reach=5ft, long) divine source</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Sunder</p></td>
+<td><p>+13</p></td>
+<td><p></p></td>
+<td><p>A unicorn can destroy the weapons and armour of its foes</p></td>
+</tr>
+<tr class="row-even"><td><p>Throw</p></td>
+<td><p>+13</p></td>
+<td><p></p></td>
+<td><p>A unicorn can knock down its foes</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Radiant deflection</p></td>
+<td><p>HiT: +6</p></td>
+<td><p></p></td>
+<td><p>A radiant power surrounds a unicorn, protecting them from harm</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#spellcasting-local">Sc: Incantation VII</a></p></td>
+<td><p>Thr=19</p></td>
+<td><p></p></td>
+<td><p>Favourite Spells: <a class="reference external" href="../08-spell-list.html#least-spike">“Least Spike”</a>, <a class="reference external" href="../08-spell-list.html#sour">“Sour”</a>, <a class="reference external" href="../08-spell-list.html#least-heal">“Least Heal”</a>, <a class="reference external" href="../08-spell-list.html#least-vengeance">“Least Vengeance”</a>, <a class="reference external" href="../08-spell-list.html#meadow-of-flame">“Meadow of Flame”</a>, <a class="reference external" href="../08-spell-list.html#wind-walk">“Wind Walk”</a>, <a class="reference external" href="../08-spell-list.html#cure">“Cure”</a>, <a class="reference external" href="../08-spell-list.html#greater-xenophonia">“Greater Xenophonia”</a>, <a class="reference external" href="../08-spell-list.html#isolate-essence">“Isolate Essence”</a>, <a class="reference external" href="../08-spell-list.html#pact">“Pact”</a>, <a class="reference external" href="../08-spell-list.html#heart-ward">Heart Ward</a>”, <a class="reference external" href="../08-spell-list.html#spirit-restoration">“Spirit Restoration”</a>, <a class="reference external" href="../08-spell-list.html#razor-wind">“Razor Wind”</a>, <a class="reference external" href="../08-spell-list.html#otherworld-step">“Otherworld Step”</a>, <a class="reference external" href="../08-spell-list.html#memory-thief">“Memory Thief”</a></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#divine-strike">Divine Strike</a></p></td>
+<td><p></p></td>
+<td><p>1d6</p></td>
+<td><p>A true unicorn can channel divine energies through its horn. It can expend <strong>1 MP die</strong> to cause 1d6 divine damage when it strikes a foe with its horn, or 2 MP dice to cause 2d6 divine damage..</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#holy-strike">Holy Strike</a></p></td>
+<td><p></p></td>
+<td><p>2d4</p></td>
+<td><p>A true unicorn can expend MP to infuse its hooves with supernatural light, dealing extra damage. It may expend 1 MP and deal 2d4 of light damage. Profane entities hit by this attack must succeed a CHA save (Thr=13+SUP+[CHA]) or be “blinded” (repeated save applies).</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#combined-manoeuvre-i-v">Combined Manoeuvre I</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>(1SP die) A unicorn can combine any two basic combat manoeuvres that it is proficient with.</p></td>
+</tr>
+<tr class="row-even"><td><p>Monster Attack I</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A unicorn makes one attack with its horns and one with its hooves.</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#alert">Alert</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A unicorn cannot be surprised.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#swift-spell">Swift Spell</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A unicorn can spend 2 MP dice to cast a spell as a secondary action instead of a main action</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#deflection">Deflection</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A unicorn can can reduce damage from ranged supernatural attacks by 1d4+7+([MP dice]d4) as a reaction.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#esoteric-deflection">Esoteric Deflection</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A unicorn can, as a reaction, reduce the damage from a “esoteric” ranged attack by [1d6 + [2 x MP dice expended]]</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../08-spell-list.html#regrowth">Divine Arcana: Regrowth</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A true unicorn can cast <a class="reference external" href="../08-spell-list.html#regrowth">“Regrowth”</a> despite not meeting the prerequisites.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../08-spell-list.html#summon-angel">Divine Arcana: Summon Angel</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A true unicorn can cast <a class="reference external" href="../08-spell-list.html#summon-angel">“Summon Angel”</a> despite not meeting the prerequisites.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#spellsong-i-iv">Spellsong IV</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A unicorn’s song can alter the nature of magic around it</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#sprinter">Sprinter</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A unicorn can run at x3 its base speed, and sprint x5 its base speed.</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Immunity</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>All “natural” damage, “divine” damage, “light” damage</p></td>
+</tr>
+<tr class="row-even"><td><p>Immunity</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“aphonic”, “blinded”, “charmed”, “deafened”, “dying”, “frightened”, “prone”, “stunned”, “surprised”</p></td>
+</tr>
+<tr class="row-odd"><td><p>Vulnerability</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A true unicorn is vulnerable to “entropic” damage.</p></td>
+</tr>
+<tr class="row-even"><td><p>True-speech</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A true unicorn cannot lie</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#truesight-i-vi">True Sight (120ft)</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A true unicorn can see the true shape of reality</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="../06-abilities.html#low-light-vision">Low Light Vision</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A unicorn can see in dim light as well as in sunlight.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="../06-abilities.html#life-sense-i-vi">Life Sense (60ft)</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A unicorn can sense living beings within 60ft of it.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Skills</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>“Athletics” +12, “Observe” +13, “Sense Motive” +7, “Spellcraft” +9, “Knowledge: Nature” +5, “Knowledge: Arcana” +7, “Knowledge: Religion” +11</p></td>
+</tr>
+<tr class="row-even"><td><p>Loot</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p>A true unicorn is not a physical being, and thus once it is destroyed it may leave nothing behind. However, it may yield its horn to a mortal it deems worthy, hence ceasing to exist.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>A true unicorn is not a physical being, but a divine being and manifestation of innocence. It takes the form of a white horse with a shining mane and tail. It has a single, straight horn upon its head.</p>
+<p>A true unicorn will not willingly appear before beings that lack innocence.</p>
+<p>A true unicorn has considerable healing abilities, but will not use them on beings that it does not consider worthy. On the other hand, it will use them freely and liberally on beings that it <em>does</em> consider worthy.</p>
+<p>While it prefers not to engage in battle, when facing beings that spread corruption a true unicorn will fight fiercely and mercilessly. Depending on the strength and kind of its foes its strategy will vary. Often it will first summon a <a class="reference external" href="#lesser-messenger">“Lesser Messenger”</a> of purity, and command it create weather such that it would be unfavourable to their foes. It would then charge, using either “Razor Wind”, or its considerable physical abilities to destroy its foes.</p>
+<hr class="docutils" />
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>HiT/Surprised/Touch</p></th>
+<th class="head"><p>SP</p></th>
+<th class="head"><p>MP</p></th>
+<th class="head"><p>HP</p></th>
+<th class="head"><p>Speed (walk)</p></th>
+<th class="head"><p>Speed (other)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>Str</p></th>
+<th class="head"><p>Dex</p></th>
+<th class="head"><p>Con</p></th>
+<th class="head"><p>Int</p></th>
+<th class="head"><p>Wis</p></th>
+<th class="head"><p>Cha</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Stat</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Bonus</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Save</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Level(base)</p></th>
+<th class="head"><p>SP Dice</p></th>
+<th class="head"><p>MP dice</p></th>
+<th class="head"><p>Nat</p></th>
+<th class="head"><p>Sup</p></th>
+<th class="head"><p>NAP</p></th>
+<th class="head"><p>SUP</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Ability</p></th>
+<th class="head"><p>Bonus</p></th>
+<th class="head"><p>Damage</p></th>
+<th class="head"><p>Other</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="humanoids.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">NPC stat blocks</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="constructs.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Constructs</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2023-3023, Fantasy Committee
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Divines</a><ul>
+<li><a class="reference internal" href="#angels">Angels</a><ul>
+<li><a class="reference internal" href="#lesser-messenger">Lesser Messenger</a></li>
+<li><a class="reference internal" href="#watcher">Watcher</a></li>
+<li><a class="reference internal" href="#seraph">Seraph</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#glitches">Glitches</a><ul>
+<li><a class="reference internal" href="#abyssal-blade">Abyssal Blade</a></li>
+<li><a class="reference internal" href="#unbound-gnome">Unbound Gnome</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#divinities">Divinities</a><ul>
+<li><a class="reference internal" href="#unicorn-true">Unicorn, True</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="../_static/documentation_options.js?v=8bafd125"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/scripts/furo.js?v=46bd48cc"></script>
+    </body>
+</html>

@@ -1,0 +1,962 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="./">
+  <head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="genindex.html"><link rel="search" title="Search" href="search.html"><link rel="next" title="Actions outside of Combat" href="03-movement-exploration.html"><link rel="prev" title="Fantasy System (FanSys) / New System for Fantasy Worlds (NSFW)" href="index.html">
+
+    <!-- Generated with Sphinx 8.2.3 and Furo 2025.09.25 -->
+        <title>FanSys23 Quick-start - FanSys 0.0.18</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d111a655" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=580074bf" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=8dab3a3b" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f2f2f2;
+  --color-code-foreground: #1e1e1e;
+  --color-foreground-primary: #202424;
+  --color-foreground-secondary: #4a4c53;
+  --color-brand-primary: #112233;
+  --color-brand-content: #443322;
+  --color-brand-visited: #448822;
+  --color-background-primary: #f2f4ec;
+  --color-background-secondary: #e5e7e3;
+  --color-background-hover: #fafaf5;
+  --color-background-border: #40404067;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-foreground-primary: #cfd0d0;
+  --color-foreground-secondary: #acb0b5;
+  --color-brand-primary: #AABBCC;
+  --color-brand-content: #CFBEAC;
+  --color-brand-visited: #99DD99;
+  --color-background-primary: #242628;
+  --color-background-secondary: #2a2c2e;
+  --color-background-hover: #1e2124ff;
+  --color-background-border: #483945;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-foreground-primary: #cfd0d0;
+  --color-foreground-secondary: #acb0b5;
+  --color-brand-primary: #AABBCC;
+  --color-brand-content: #CFBEAC;
+  --color-brand-visited: #99DD99;
+  --color-background-primary: #242628;
+  --color-background-secondary: #2a2c2e;
+  --color-background-hover: #1e2124ff;
+  --color-background-border: #483945;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle site navigation sidebar">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc" aria-label="Toggle table of contents sidebar">
+<label class="overlay sidebar-overlay" for="__navigation"></label>
+<label class="overlay toc-overlay" for="__toc"></label>
+
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <span class="icon"><svg><use href="#svg-menu"></use></svg></span>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="index.html"><div class="brand">FanSys 0.0.18</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="index.html">
+  
+  <span class="sidebar-brand-text">FanSys 0.0.18</span>
+  
+</a><form class="sidebar-search-container" method="get" action="search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Index:</span></p>
+<ul class="current">
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">FanSys23 Quick-start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="03-movement-exploration.html">Actions outside of Combat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="04-combat.html">Combat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="05-skills.html">Skills</a></li>
+<li class="toctree-l1"><a class="reference internal" href="06-abilities.html">Abilities and Boons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="07-magic-and-spellcasting.html">Spells</a></li>
+<li class="toctree-l1"><a class="reference internal" href="08-spell-list.html">Spell List</a></li>
+<li class="toctree-l1"><a class="reference internal" href="09-races.html">Types, Races, Species and Templates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="10-conditions-types.html">Conditions and Types</a></li>
+<li class="toctree-l1"><a class="reference internal" href="11-weapons-armour.html">Weapons and armour</a></li>
+<li class="toctree-l1"><a class="reference internal" href="12-equipment-economy.html">Equipment and Economy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="13-crafting-imbuing.html">Crafting and Imbuing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="14-poisons-and-diseases.html">Poisons and Diseases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="15-charm-etc.html">A note on charm, domination and possession</a></li>
+<li class="toctree-l1"><a class="reference internal" href="16-recipes.html">Recipes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="02-base-rules.html">Base Rules</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="bestiary.html">A Bestiary for Fantasy Worlds</a><input aria-label="Toggle navigation of A Bestiary for Fantasy Worlds" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/forwards.html">Forwards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/beasts-and-plants.html">Beasts and Plants</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/constructs.html">Constructs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/divines.html">Divines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/humanoids.html">NPC stat blocks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/monsters-and-dragons.html">Monsters and Dragons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/profanes.html">Profanes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/spirits.html">Spirits</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="CHANGELOG.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="TODO.html">Character sheet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="LICENSE.html">License</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="view-this-page">
+  <a class="muted-link" href="_sources/01-quick-start.md.txt" title="View this page">
+    <svg><use href="#svg-eye"></use></svg>
+    <span class="visually-hidden">View this page</span>
+  </a>
+</div>
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          <section id="fansys23-quick-start">
+<h1>FanSys23 Quick-start<a class="headerlink" href="#fansys23-quick-start" title="Link to this heading">¶</a></h1>
+<section id="forwards">
+<h2>Forwards<a class="headerlink" href="#forwards" title="Link to this heading">¶</a></h2>
+<p>This is a fantasy roleplaying system optimised for balance that uses 2d12 for its core roll. It is meant for games with a focus on small group combat and exploration, with an emphasis on the balance between mundane and supernatural.</p>
+</section>
+<hr class="docutils" />
+<section id="scope-and-pace-of-the-game">
+<h2>Scope and Pace of the game<a class="headerlink" href="#scope-and-pace-of-the-game" title="Link to this heading">¶</a></h2>
+<p>The rules of FanSys mostly concern small group combat in a fantasy setting, but also exploration and some aspects of general interactions with the environment, including supernatural locales. It works with various fantasy settings, both low and high. The distinction between HP damage (mortal injury) and MP/SP damage (bumps and bruises, spiritual exhaustion), is a particular feature of the game that allows groups to distinguish between mortal dangers and less perilous predicaments. The game has levels for a progression of power, but is also class-free which allows almost limitless flexibility of character creation (with some perils of its own).</p>
+<p>FanSys was designed for a slower and more thoughtful pace of play than those high-action, fast-paced games, where not a day passes without the party crossing swords with their foes. That is not to say that it can’t be used in this way. In fact it is equally well equipped for fast paced games. Nevertheless, it was designed for a slower pace of play.</p>
+<p>This is the reason for features such as the expense of healing magic, slow healing of HP and stat damage, <a class="reference external" href="04-combat.html#rest-and-recuperation">short, long and full rests</a>, the <a class="reference external" href="07-magic-and-spellcasting.html#global-and-local-spells">global spellcasting</a> system, and the <a class="reference external" href="07-magic-and-spellcasting.html#learning-spells-through-independent-study-or-from-a-mentor">slow learning of spells</a>. The slow healing especially encourages players to think twice before engaging in mortal combat and to appreciate the respite afterwards. Downtime, recovery, time taken to find and craft the arms needed to defeat dangerous foes, or to learn the magics needed to overcome them, are emphasised.</p>
+<p>After all, when reaching a village after a harrowing journey through the necromancer’s forest, the weary old knight might need a week of rest to recover his strength, while giving the local younglings a few lessons in sword-play. The ambitious peasant might have realised that unless he gets the monster hides made into some kind of armour, the next leg of the journey might be his last. And that traveller with no sense of direction? She might just follow a moonbeam over the stream and <a class="reference external" href="03-movement-exploration.html#secret-paths">disappear</a> for a while, only to return a little closer to understanding a magic that she has been having trouble with for a while now. And maybe, just maybe, during their stay in this friendly village, the three will learn a little of what links it to the necromancer who defiled the forest they travelled through not a week ago…</p>
+</section>
+<hr class="docutils" />
+<section id="playing-the-game">
+<h2>Playing the game<a class="headerlink" href="#playing-the-game" title="Link to this heading">¶</a></h2>
+<p>The game is played like any of the number of table top roleplaying games that exist. This game uses a similar concept to Pathfinder or Dungeons and Dragons, with the big difference that it uses 2d12 instead of 1d20 as the dice roll that decides the outcome of uncertain events and interactions (See <a class="reference external" href="02-base-rules.html#rolling-dice">“Base Rules: Rolling Dice”</a> for more detail). To play this game, one needs to:</p>
+<ol class="arabic simple">
+<li><p>Find a group.</p></li>
+<li><p>Assign a DM.</p></li>
+<li><p>Decide on a power level, game style, etc.</p></li>
+<li><p>Make characters.</p></li>
+<li><p>Play.</p></li>
+</ol>
+<p>Below, one can find the rules for making a character.</p>
+</section>
+<hr class="docutils" />
+<section id="making-a-character">
+<h2>Making a character<a class="headerlink" href="#making-a-character" title="Link to this heading">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Decide on a concept or build. What kind of person/creature do you wish your character to be? What kind of things do you want them to be good at?</p></li>
+<li><p>Assign stats.</p></li>
+<li><p>Apply race/template.</p></li>
+<li><p>Assign skill points and background skill.</p></li>
+<li><p>Assign stamina and mana dice and calculate HP.</p></li>
+<li><p>Assign alignment (optional).</p></li>
+<li><p>Assign abilities.</p></li>
+<li><p>If starting above level 1, repeat (4) and (5) for each level until done.</p></li>
+<li><p>Play!</p></li>
+</ol>
+<hr class="docutils" />
+<section id="character-concepts">
+<h3>Character concepts<a class="headerlink" href="#character-concepts" title="Link to this heading">¶</a></h3>
+<p>FanSys is a class-free system which supports different races and templates. So depending on what setting, power level, and game style the group has chosen, a character can be a human mage, or a cat girl sword master, or a winged beast that breathes fire, or a vampire.</p>
+<p>Likewise it is worth thinking about <em>who</em> your character is. Are they an ambitious peasant going out into the world to find their chosen one? Are they a weary old knight who has gone on one last quest? Or did they perhaps just misread a map on the way to town and ended up in this god forsaken wilderness with an overambitious peasant and a weary old knight?</p>
+</section>
+<hr class="docutils" />
+<section id="stats">
+<h3>Stats<a class="headerlink" href="#stats" title="Link to this heading">¶</a></h3>
+<p>There are six stats. Str, Dex, Con, Int, Wis and Cha. Each one represents how intrinsically “strong” some aspect of the character is.</p>
+<ol class="arabic simple">
+<li><p><strong>Str</strong>: Physical strength. Upstream of most weapon attack, damage. Upstream of abilities linked to affecting the surroundings by physical force.</p></li>
+<li><p><strong>Dex</strong>: Physical agility. Upstream to some weapon attack, damage (usually ranged). Upstream to evasive abilities. Upstream to abilities linked to affecting the surroundings by delicate manipulation.</p></li>
+<li><p><strong>Con</strong>: Physical resilience. Upstream of HP, SP, aspects of physical interactions</p></li>
+<li><p><strong>Int</strong>: Mental agility. Ability to memorise, deduce, analyse, IQ. Upstream to skill points, some aspects of supernatural abilities.</p></li>
+<li><p><strong>Wis</strong>: Faculty of judgement, discernment, sense, EQ. Upstream of supernatural abilities, abilities devoted to detection, some aspects of social interactions.</p></li>
+<li><p><strong>Cha</strong>: Force of Personality, pluck, mental resilience. Upstream of HP, MP, aspects of social interactions.</p></li>
+</ol>
+<p>Each stat also has a save of the same name. These protect you from certain indirect and insidious effects. They are used by rolling 2d12 plus the save bonus against a threshold.</p>
+<p>Assign your stats using one of these two systems.</p>
+<section id="random-roll-4d6-drop-lowest">
+<h4>Random roll 4d6 drop lowest<a class="headerlink" href="#random-roll-4d6-drop-lowest" title="Link to this heading">¶</a></h4>
+<ol class="arabic simple">
+<li><p>Roll 4d6, count the total of the highest 3 dice (4d6dl1).</p></li>
+<li><p>These 6 totals, in any order are your character’s stats.</p></li>
+<li><p>Apply racial/template modifiers.</p></li>
+<li><p>If any stat is below 5, raise it to 5.</p></li>
+</ol>
+</section>
+<section id="point-point-buy">
+<h4>24 point point buy<a class="headerlink" href="#point-point-buy" title="Link to this heading">¶</a></h4>
+<ol class="arabic simple">
+<li><p>Start with a blank sheet and 24 points.</p></li>
+<li><p>Assign points in accordance with the cost table until all 6 stats are assigned and the remaining points are 0. If you end with unassigned points, those points are lost.</p></li>
+</ol>
+<p>The point cost for point buy is as follows:</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Value</p></th>
+<th class="head"><p>Bonus</p></th>
+<th class="head"><p>Total Cost</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>8</p></td>
+<td><p>-1</p></td>
+<td><p>-2</p></td>
+</tr>
+<tr class="row-odd"><td><p>9</p></td>
+<td><p>-1</p></td>
+<td><p>-1</p></td>
+</tr>
+<tr class="row-even"><td><p>10</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+</tr>
+<tr class="row-odd"><td><p>11</p></td>
+<td><p>0</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-even"><td><p>12</p></td>
+<td><p>+1</p></td>
+<td><p>2</p></td>
+</tr>
+<tr class="row-odd"><td><p>13</p></td>
+<td><p>+1</p></td>
+<td><p>3</p></td>
+</tr>
+<tr class="row-even"><td><p>14</p></td>
+<td><p>+2</p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="row-odd"><td><p>15</p></td>
+<td><p>+2</p></td>
+<td><p>6</p></td>
+</tr>
+<tr class="row-even"><td><p>16</p></td>
+<td><p>+3</p></td>
+<td><p>8</p></td>
+</tr>
+<tr class="row-odd"><td><p>17</p></td>
+<td><p>+3</p></td>
+<td><p>11</p></td>
+</tr>
+<tr class="row-even"><td><p>18</p></td>
+<td><p>+4</p></td>
+<td><p>14</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>But which stats are important? Simply put:</p>
+<ul class="simple">
+<li><p>If you want your character to be plucky, persuasive and strong of character, focus on CHA.</p></li>
+<li><p>If you want your character to be tough and resilient, focus on CON.</p></li>
+<li><p>If you want your character to be agile, precise and good with ranged weaponry, focus on DEX.</p></li>
+<li><p>If you want them to be athletic, strong and good in melee, focus on STR.</p></li>
+<li><p>If you want your character to be discerning, sensitive and a capable elemental mage, focus on WIS.</p></li>
+<li><p>If you want your character to be smart, skilled and a capable methodic mage, focus on INT.</p></li>
+<li><p>If you want a good all-round character, then balance your stats carefully.</p></li>
+</ul>
+<p>Beware there are stats and stat bonuses. Bonuses are added to rolls, stats are just “there”. When we speak about stat bonuses we write eg [STR] (with square brackets). When we talk about a stat we write eg STR (without square brackets).</p>
+<p>For more information on stats see <a class="reference external" href="02-base-rules.html#stats">“Base Rules: Stats”</a>.</p>
+</section>
+</section>
+</section>
+<hr class="docutils" />
+<section id="types-races-species-and-templates">
+<h2>Types, Races, Species and Templates<a class="headerlink" href="#types-races-species-and-templates" title="Link to this heading">¶</a></h2>
+<p>Some role playing fantasy species support different playable races (eg humans, elves, dwarves, etc) and some do not. Systems like DnD and Pathfinder have “baked in” races. Other systems like “Ryuutama” allow only humans. This system supports races from different creature types, as this can add an enormous amount of flavour to a game, and a good amount of mechanical complexity, but does not consider them a necessary core rule, as this is considered to be setting specific.</p>
+<section id="races-and-species">
+<h3>Races and Species<a class="headerlink" href="#races-and-species" title="Link to this heading">¶</a></h3>
+<p>The system does not debate whether different races are different species or not. This is a setting specific decision.</p>
+</section>
+<hr class="docutils" />
+<section id="templates">
+<h3>Templates<a class="headerlink" href="#templates" title="Link to this heading">¶</a></h3>
+<p>All characters start with a template. A template is a set of abilities, traits and properties. Usually it is associated with a race or creature type. Not all templates are equal. Some templates (eg dragon, angel) are blatantly more powerful than others. In order to offset this, templates have levels. Templates exist for level 0, level 4 and level 9. They can also be created for other levels. For a start, level 0 templates should be considered the standard.</p>
+<p>For higher power games, where players wish to play angels, devils, dragons and other things, higher level templates should be used. It is recommended that all players use templates of the same level, as low level templates with extra class levels mix poorly with higher level templates.</p>
+</section>
+<hr class="docutils" />
+<section id="race-or-template">
+<h3>Race or template<a class="headerlink" href="#race-or-template" title="Link to this heading">¶</a></h3>
+<p>It is possible that the setting has only humans. This is fine. For some. Others prefer a world with many different kinds of sapient beings that they can play. It might be a world with timeless elves and  brutish orcs. Or it might be a world with beasts that roam the land, sea people who inhabit the waters and winged folk whose domain is the sky.</p>
+<p>In either case, the unique characteristics of these beings are represented by “templates” or “races”.</p>
+<p>Depending on the power level of the game one can pick a basic race or a “level-4” or “level-9” template. It is is essential that it is pre-agreed beforehand what level template everyone picks. I guarantee that unless the group is extremely chilled you will fall out if you do not. Advanced templates, as well as rules on how to make new ones are found in the <a class="reference external" href="09-races.html">“Races”</a> chapter. When introducing new templates or races to a setting make sure to discuss your ideas with the rest of the agree.</p>
+<hr class="docutils" />
+<section id="how-to-apply-a-race-template">
+<h4>How to apply a race/template<a class="headerlink" href="#how-to-apply-a-race-template" title="Link to this heading">¶</a></h4>
+<p>Templates generally give some small bonuses, a few nice features, some of which cannot be gained by other means. Some also give your character penalties. These can be both a pain and a roleplaying crutch. To apply a template:</p>
+<ol class="arabic simple">
+<li><p>Read over the template.</p></li>
+<li><p>Apply the creature size to your character, adjust heights and weights within 20% as desired.</p></li>
+<li><p>Apply stat bonuses and penalties.</p></li>
+<li><p>Apply <a class="reference external" href="02-base-rules.html#size-rules-table">size modifiers</a>.</p></li>
+<li><p>Apply movement speed, special senses and type.</p></li>
+<li><p>Add proficiencies and skill bonuses.</p></li>
+<li><p>Add special abilities, resistances and vulnerabilities.</p></li>
+</ol>
+</section>
+</section>
+<hr class="docutils" />
+<section id="a-few-basic-templates">
+<h3>A few basic templates<a class="headerlink" href="#a-few-basic-templates" title="Link to this heading">¶</a></h3>
+<p>I am not sure which ones exist in your setting, but I quite like these ones.</p>
+<hr class="docutils" />
+<section id="human-level-1-template-8-points">
+<h4>Human (level-1 template = 8 points)<a class="headerlink" href="#human-level-1-template-8-points" title="Link to this heading">¶</a></h4>
+<p>Human represents the human race. The human race is the base. Humans have no special senses, resistances, movement modalities or spooky abilities. To compensate this, they adapt quickly to new environments, and begin learning the skills needed to survive in their homeland as soon as they are old enough to walk. Humans have a lifespan that does not exceed a century, reach a breeding age in their teens and can produce up to two dozen offspring in their lifetime.</p>
+<ul class="simple">
+<li><p><strong>Size</strong>: Medium (Height: ~5’8”, Weight: ~140lb)</p></li>
+<li><p><strong>Stats</strong>: (Str: 0, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: 0)</p></li>
+<li><p><strong>Movement</strong>: Walk 30ft</p></li>
+<li><p><strong>Sight</strong>: Normal</p></li>
+<li><p><strong>Type</strong>: Humanoid (needs to breathe, drink, eat, and sleep). Humans age.</p></li>
+<li><p><strong>Proficiencies</strong>: One appropriate language.</p></li>
+</ul>
+<p><strong>Extra</strong>:</p>
+<ul class="simple">
+<li><p>A +2 bonus to any stat, and +1 to two other stats.</p></li>
+<li><p>+2 to any one skill.</p></li>
+<li><p>Any 2 proficiencies.</p></li>
+</ul>
+<p><strong>Race boon (level 8 and 16)</strong>:</p>
+<ul class="simple">
+<li><p>+2 bonus to any stat.</p></li>
+<li><p>4 skill points to spend on skills and proficiencies.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="elf-fey-touched-level-1-template-8-points">
+<h4>Elf/(Fey touched) (level-1 template = 8 points)<a class="headerlink" href="#elf-fey-touched-level-1-template-8-points" title="Link to this heading">¶</a></h4>
+<p>This is a race that is closer to the fey, either created when fey spirits took material form in exchange for something, or when they mingled with humankind, or bestowed their “gifts” upon humans long ago. Elves/Fey touched live ridiculously long lives. Compared to humans they have slender, wiry bodies and longer ears. They are known as sometimes known as the “fair folk” and see well in twilight hours.</p>
+<ul class="simple">
+<li><p><strong>Size</strong>: Medium (Height: ~5’8”, Weight: ~115lb)</p></li>
+<li><p><strong>Stats</strong>: (Str: 0, Dex: +2, Con: -2, Int: 0, Wis: 0, Cha: +1)</p></li>
+<li><p><strong>Movement</strong>: Walk 30ft</p></li>
+<li><p><strong>Sight</strong>: Normal, low-light vision.</p></li>
+<li><p><strong>Type</strong>: Humanoid (needs to breathe, drink, eat and sleep). Elves do not age.</p></li>
+<li><p><strong>Proficiencies</strong>: One appropriate language and the Elvish tongues. Bows OR one class of instrument.</p></li>
+</ul>
+<p><strong>Extra</strong>:</p>
+<ul class="simple">
+<li><p>+1 Observe</p></li>
+<li><p>Resistance to “Charmed”</p></li>
+</ul>
+<p><strong>Race boon (level 8 and 16)</strong>:</p>
+<ul class="simple">
+<li><p>Immunity to one of “Charmed”, “Blinded”, “Stunned” or “Bleeding”.</p></li>
+<li><p>+5 to walking speed</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="orc-level-1-template-8-points">
+<h4>Orc (level-1 template = 8 points)<a class="headerlink" href="#orc-level-1-template-8-points" title="Link to this heading">¶</a></h4>
+<p>This is a race that is closer to the feral side of humanoids. They are stronger and sturdier than humans, are apt hunters, but tend to lack aptitude for the academic. Orcs lead shorter lives than humans and reproduce even faster.</p>
+<ul class="simple">
+<li><p><strong>Size</strong>: Medium (Height: ~6’0”, Weight: ~185lb)</p></li>
+<li><p><strong>Stats</strong>: (Str: +2, Dex: 0, Con: +2, Int: -2, Wis: 0, Cha: 0)</p></li>
+<li><p><strong>Movement</strong>: Walk 30ft</p></li>
+<li><p><strong>Sight</strong>: Normal, “heat sense II” (30ft).</p></li>
+<li><p><strong>Type</strong>: Humanoid (needs to breathe, drink, eat and sleep). Ages.</p></li>
+<li><p><strong>Proficiencies</strong>: One appropriate language. Strikes AND Spears.</p></li>
+</ul>
+<p><strong>Extra</strong>:</p>
+<ul class="simple">
+<li><p>Resistance to percussive and advantage on saves vs “Prone”.</p></li>
+</ul>
+<p><strong>Race boon (level 8 and 16)</strong>:</p>
+<ul class="simple">
+<li><p>Resistance to one of “piercing”, “slashing” or “pressure” or “shear”.</p></li>
+<li><p>+1 Con, +1 Str.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="the-sea-people-level-1-template-8-points">
+<h4>The Sea People (level-1 template = 8 points)<a class="headerlink" href="#the-sea-people-level-1-template-8-points" title="Link to this heading">¶</a></h4>
+<p>The sea people a race of humanoids that live in and around the islands of the shallow seas, and in the marshes and great lakes. They often disguise themselves as humans, for various reasons.</p>
+<ul class="simple">
+<li><p><strong>Size</strong>: Medium (Height: ~5’8”, Weight: ~140lb)</p></li>
+<li><p><strong>Stats</strong>: (Str: 0, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: 0)</p></li>
+<li><p><strong>Movement</strong>: Walk 30ft, Swim 40ft.</p></li>
+<li><p><strong>Sight</strong>: Normal.</p></li>
+<li><p><strong>Type</strong>: Humanoid (needs to breathe, drink, eat and sleep). Ages.</p></li>
+<li><p><strong>Proficiencies</strong>: One appropriate language, Cetacean.</p></li>
+</ul>
+<p><strong>Extra</strong>:</p>
+<ul class="simple">
+<li><p>Water breathing</p></li>
+<li><p>Resistance to “Cold” OR +2 Swim.</p></li>
+<li><p>Resistance to “Aphonia”.</p></li>
+</ul>
+<p><strong>Race boon (level 8 and 16)</strong>:</p>
+<ul class="simple">
+<li><p>+5 to swim speed.</p></li>
+<li><p>One of “life sense (1 level)” or “blind sight (1 level)”.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="the-winged-level-1-template-8-points">
+<h4>The Winged (level-1 template = 8 points)<a class="headerlink" href="#the-winged-level-1-template-8-points" title="Link to this heading">¶</a></h4>
+<p>This is a race of winged humanoids that live in high and isolated places, as well as loci associated with elemental air. They are small of stature, sharp sighted, and often shy of other races.</p>
+<ul class="simple">
+<li><p><strong>Size</strong>: Small (Height: ~3’3”, Weight: ~32lb, Wingspan: ~11ft.)</p></li>
+<li><p><strong>Stats</strong>: (Str: -2, Dex: +2, Con: 0, Int: 0, Wis: 0, Cha: 0)</p></li>
+<li><p><strong>Movement</strong>: Walk 20ft, Fly 60ft (rating: average, endurance: 2 hours).</p></li>
+<li><p><strong>Sight</strong>: Normal.</p></li>
+<li><p><strong>Type</strong>: Humanoid (needs to breathe, drink, eat and sleep). Ages.</p></li>
+<li><p><strong>Proficiencies</strong>: One appropriate language.</p></li>
+</ul>
+<p><strong>Extra</strong>:</p>
+<ul class="simple">
+<li><p>2 to Fly.</p></li>
+<li><p>1 to Observe.</p></li>
+</ul>
+<p><strong>Race boon (level 8 and 16)</strong>:</p>
+<ul class="simple">
+<li><p>+1 fly level.</p></li>
+<li><p>+10 fly speed.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="beasts-of-the-green-level-1-template-8-points">
+<h4>Beasts of the Green (level-1 template = 8 points)<a class="headerlink" href="#beasts-of-the-green-level-1-template-8-points" title="Link to this heading">¶</a></h4>
+<p>This is a race of intelligent beasts that dwells in the deepest wilderness. It is thought that they are guardians of the wild, created by ancient forces. Outwardly they take many forms.</p>
+<ul class="simple">
+<li><p><strong>Size</strong>: Large (Height: ~6’, Weight: ~600lb)</p></li>
+<li><p><strong>Stats</strong>: (Str: +2, Dex: 0, Con: 0, Int: 0, Wis: +2, Cha: 0)</p></li>
+<li><p><strong>Movement</strong>: Walk 40ft.</p></li>
+<li><p><strong>Sight</strong>: Normal, keen-scent.</p></li>
+<li><p><strong>Type</strong>: Monster (needs to breathe, drink, eat and sleep). Ages.</p></li>
+<li><p><strong>Proficiencies</strong>: One appropriate language.</p></li>
+</ul>
+<p><strong>Penalties</strong>:</p>
+<ul class="simple">
+<li><p>Beasts of the Green have no prehensile limbs.</p></li>
+</ul>
+<p><strong>Extra</strong>:</p>
+<ul class="simple">
+<li><p>Incantation Magic (level 1).</p></li>
+<li><p>+2 Navigate.</p></li>
+</ul>
+<p><strong>Race boon (level 8 and 16)</strong>:</p>
+<ul class="simple">
+<li><p>+5 to movement speed.</p></li>
+<li><p>+2 to one of “Str”, “Dex”, “Con” or “Wis”</p></li>
+<li><p>1 level of incantation magic.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="beast-folk-level-1-template-8-points">
+<h4>Beast folk (level-1 template = 8 points)<a class="headerlink" href="#beast-folk-level-1-template-8-points" title="Link to this heading">¶</a></h4>
+<p>This is a race of humanoid that has various beast like traits, usually cat-like, or dog-like. This race is loved by degenerates.</p>
+<ul class="simple">
+<li><p><strong>Size</strong>: Medium (Height: ~5’8”, Weight: ~140lb)</p></li>
+<li><p><strong>Stats</strong>: (Str: 0, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: 0)</p></li>
+<li><p><strong>Movement</strong>: Walk 35ft + Climb 30ft.</p></li>
+<li><p><strong>Sight</strong>: Normal, low-light vision.</p></li>
+<li><p><strong>Type</strong>: Humanoid (needs to breathe, drink, eat and sleep). Ages.</p></li>
+<li><p><strong>Proficiencies</strong>: One appropriate language.</p></li>
+</ul>
+<p><strong>Extra</strong>:</p>
+<ul class="simple">
+<li><p>+1 Track.</p></li>
+<li><p>+2 to Str or Dex.</p></li>
+</ul>
+<p><strong>Race boon (level 8 and 16)</strong>:</p>
+<ul class="simple">
+<li><p>+10 to a movement speed of one modality.</p></li>
+<li><p>One of “keen hearing”, “keen scent”.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="fiend-touched-level-1-template-8-points">
+<h4>Fiend-touched (level-1 template = 8 points)<a class="headerlink" href="#fiend-touched-level-1-template-8-points" title="Link to this heading">¶</a></h4>
+<p>This represents those who have been touched by dark forces. Perhaps because of a pact, perhaps because of a dark ritual, perhaps because of whimsical evil. Or perhaps it’s a bona fide race.</p>
+<ul class="simple">
+<li><p><strong>Size</strong>: Medium (Height: ~5’10”, Weight: ~160lb)</p></li>
+<li><p><strong>Stats</strong>: (Str: 0, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: +1)</p></li>
+<li><p><strong>Movement</strong>: Walk 30ft</p></li>
+<li><p><strong>Sight</strong>: Normal, low light vision.</p></li>
+<li><p><strong>Type</strong>: Humanoid (needs to breathe, drink, eat and sleep). Ages.</p></li>
+<li><p><strong>Proficiencies</strong>: One appropriate language.</p></li>
+</ul>
+<p><strong>Extra</strong>:</p>
+<ul class="simple">
+<li><p>Resistance to “poison” + “poisoned” .</p></li>
+<li><p>Resistance to “Bleeding”.</p></li>
+<li><p>Elementalism: Elemental Touch.(level 1).</p></li>
+</ul>
+<p><strong>Race boon (level 8 and 16)</strong>:</p>
+<ul class="simple">
+<li><p>Resistance to one of “piercing”, “percussive”, “slashing” or “pressure” or “shear”, “fire” or “ice”.</p></li>
+<li><p>+1 Str, +1 Cha.</p></li>
+<li><p>+1 Elementalism: Elemental Touch.</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="skills-and-abilities">
+<h3>Skills and abilities<a class="headerlink" href="#skills-and-abilities" title="Link to this heading">¶</a></h3>
+<p>At level one a character starts with the following:</p>
+<ul class="simple">
+<li><p>Any benefits and properties it inherits from its type and race.</p></li>
+<li><p>1 + [Con] + [Cha] HP, with a minimum of 1</p></li>
+<li><p>3 dice points + 1 SP dice + 1 MP dice</p></li>
+<li><p>2 <a class="reference external" href="05-skills.html#proficiency-lists">proficiencies</a></p></li>
+<li><p>6 + [Int] skill points (these can also be used for additional <a class="reference external" href="05-skills.html#proficiency-lists">proficiencies</a>)</p></li>
+<li><p>1 background skill</p></li>
+<li><p>3 level points</p></li>
+<li><p>1 good save.</p></li>
+<li><p>A homeland (see <a class="reference external" href="03-movement-exploration.html#terrains">“terrains”</a>).</p></li>
+</ul>
+<section id="skills-and-proficiencies">
+<h4>Skills and proficiencies<a class="headerlink" href="#skills-and-proficiencies" title="Link to this heading">¶</a></h4>
+<p>Skills and proficiencies determine how well practiced your character is with certain routine or esoteric arts, skills or sciences, as well as which tools, weapons and armours they know how to use. A character essentially starts with between 5 and 11 skill points. It is recommended that you take at least one weapon proficiency and one armour proficiency, and maybe more for martial characters. For more information see the <a class="reference external" href="05-skills.html">“Skills”</a> and <a class="reference external" href="11-weapons-armour.html">“Weapons and Armour”</a> chapters.</p>
+<p>Secondly, a character starts with one background skill, where they get to add a small bonus (+2 at level 1 - this is [base + 1]).</p>
+<p>Thirdly, a character also gets to choose a homeland  (see <a class="reference external" href="03-movement-exploration.html#terrains">“terrain”</a>). This reflects the landscape of the character’s homeland, and can be anything from “town” or “plains” to “ruins” or “subterranean”. The character has a +2 bonus to <a class="reference external" href="05-skills.html#fortify">fortify</a> and <a class="reference external" href="05-skills.html#navigate">navigation</a> in that terrain (very useful).</p>
+<p>Fourthly, a character chooses a save with which they are proficient. This will help defend them against some nasty stuff, so choose carefully.</p>
+<p>Lastly, a character gains 3 level points. Level points are spent on gaining abilities. These range from extra good saves, to sword arts and spell casting, and much more. A level point can also be exchanged for 4 skill points or a +1 increase to any stat (although no stat can exceed 24 for a character). For a list of abilities see the <a class="reference external" href="06-abilities.html">“Abilities”</a> chapter.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="stamina-and-mana-dice-and-hp">
+<h3>Stamina and Mana dice and HP<a class="headerlink" href="#stamina-and-mana-dice-and-hp" title="Link to this heading">¶</a></h3>
+<p>HP represents a character’s vitality, physical body or life force. Importantly, losing HP represents taking actual damage and often has consequences, such as losing limbs, bleeding and death. A character loses HP by taking damage from attacks and indirect effects (like a fireball or an avalanche). Try not to lose too much HP too often.</p>
+<p>A character’s HP is equal to: <strong>[Level + [Con] + [Cha]]</strong>.</p>
+<p>Thus for a level one character with +3 [Con] and +1 [Cha], the HP total is 5. This is not a lot. If at the end of the calculation you start off with 0 HP, then your HP total is set to 1.</p>
+<p>Luckily a character also has mana (or mental) points (MP) and stamina points (SP). When a character is hit with a mundane (“natural”) attack, the damage is first subtracted from SP, and only if it is massive damage, or if the character runs out of SP, does the damage actually affect HP. This works in the same way of MP and supernatural attacks. SP and MP are different from HP in three ways.</p>
+<ol class="arabic simple">
+<li><p>You do not die if you run out of SP or MP. You do lose the ability to use your more powerful abilities though.</p></li>
+<li><p>You regain SP and MP a lot faster than HP, and taking damage to SP/MP represents using your combat/magical prowess to shrug off damage at the expense of expending your energy.</p></li>
+<li><p>SP and MP are used to fuel various powerful abilities. So they are both offensive and defensive. HP just sits there and looks pretty.</p></li>
+<li><p>A character may also expend a single MP/SP die to add 1d6 to a roll (must be declared before the roll is made).</p></li>
+</ol>
+<ul class="simple">
+<li><p>An SP die to add 1d6 to a STR, DEX or CON roll.</p></li>
+<li><p>An MP die to add 1d6 to a INT, WIS or CHA roll.</p></li>
+</ul>
+<p>The amount of SP or MP a character has is determined by how many SP dice and MP dice it has. A level one character starts with 1 SP dice and 1 MP and 3 dice points to assign as they wish for additional SP or MP dice.</p>
+<ul class="simple">
+<li><p>The total MP = <strong>[Level x [Cha] + 2 x [MP dice]]</strong></p></li>
+<li><p>The total SP = <strong>[Level x [Con] + 2 x [SP dice]]</strong></p></li>
+</ul>
+<p>So if a character starts with 3 SP dice and 2 MP dice, and has +3 [Con] and +1 [Cha] then,</p>
+<ul class="simple">
+<li><p>MP = [1 x 1 + 2 x 2] = 5</p></li>
+<li><p>SP = [3 x 1 + 2 x 3] = 9</p></li>
+</ul>
+<p>This is also not a lot, but already a lot better than it used to be!</p>
+</section>
+<hr class="docutils" />
+<section id="a-word-on-hit-nap-sap-and-other-3-letter-words">
+<h3>A word on HiT, NAP, SAP and other 3 letter words.<a class="headerlink" href="#a-word-on-hit-nap-sap-and-other-3-letter-words" title="Link to this heading">¶</a></h3>
+<p>This introduction leaves a lot of unanswered questions, such as “how do I attack?”, “saves defend against indirect attacks, but what about direct attacks?”, “why am I even playing this?” and probably quite a few more. Before looking for answers in other chapters, we present a brief answer to the first two.</p>
+<section id="hit">
+<h4>HiT<a class="headerlink" href="#hit" title="Link to this heading">¶</a></h4>
+<p>HiT (Hit Threshold) represents how difficult it is to harm a character with targeted attacks. An attack roll must meet or beat HiT to do damage. In most cases HiT is calculated as:</p>
+<p><strong>HiT = [10 + Base + Evasion + Armour + Shield + Deflection]</strong></p>
+<ul class="simple">
+<li><p>Armour and Shield bonus is determined by the armour, shield and any blades used for parrying, usually.</p></li>
+<li><p>Evasion is generally equal to [Dex] + [Size modifier]</p></li>
+<li><p>Deflection is granted by cover, magical barriers, and certain abilities.</p></li>
+</ul>
+<p>In general, the higher the hit the better (See <a class="reference external" href="02-base-rules.html#hit-threshold-hit">“Base Rules: Hit Threshold (HiT)”</a>). A level one character can expect to have HiT of between 14 and 20 when kitted up.</p>
+</section>
+<hr class="docutils" />
+<section id="attack-bonuses-and-hit-thresholds">
+<h4>Attack bonuses and Hit Thresholds<a class="headerlink" href="#attack-bonuses-and-hit-thresholds" title="Link to this heading">¶</a></h4>
+<p>Attacks must overcome HiT to do damage, abilities are opposed by a save. An attack roll with bonuses must equal or exceed (“meet or beat”) the HiT to deal damage. Likewise, a saving roll must likewise meet or beat the malign effect’s “save threshold” to avoid or mitigate the effect.</p>
+<p>“Natural” attacks are governed by Str and Dex (use [Str] or [Dex] bonus to hit), while “supernatural” attacks are governed by Int and Wis (use [Int] or [Wis] bonus to hit, usually [Wis]).</p>
+<p>The Attack Potential of a character’s ability is determined by the total number of SP dice it has divided by 6 (for “natural” attacks) or the total number of MP dice it has divided by 6 (for “supernatural” attacks) and rounded up. These bonuses are called the “Nat” and “Sup” respectively, and are used a lot! Overall the total attack bonus is generally given by:</p>
+<ul class="simple">
+<li><p>For “natural” abilities, attack potential <strong>(NAP) = [Nat] + [Base]</strong></p></li>
+<li><p>For “supernatural” abilities, attack potential <strong>(SAP) = [Sup] + [Base]</strong></p></li>
+</ul>
+<p>So for our example level one character who had 3 SP dice and 2 MP dice:</p>
+<ul class="simple">
+<li><p>[Nat] = [SP dice] / 6 = 3 / 6 = 1 (because we always round these things up)</p></li>
+<li><p>[Sup] = [MP dice] / 6 = 2 / 6 = 1 (because we always round up)</p></li>
+</ul>
+<p>With the above [Nat] and [Sup] values (1), at level one (when [Base] = 1), our example character will have both [NAP] and [SAP] equal to 2.</p>
+<p>Now if the character has +2 [Str] and 0 [Int], for Str based attacks, such as cutting with an axe, it will have a bonus of 2 + 2 = 4. On the other hand for Int based attacks, such as casting an incantation, it will be 2 + 0 = 2. Clearly this character is usually better off using an axe!</p>
+<p>In short:</p>
+<ul class="simple">
+<li><p>Str based attack bonus = [SP dice total] / 6 + [Base] + [Str]</p>
+<ul>
+<li><p>([Nat] + [Base]) + [Str]</p>
+<ul>
+<li><p>[NAP] + [Str]</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Luckily we don’t have to calculate the attack potentials outside of levelling up our characters. And even then we can just use the tables in the <a class="reference external" href="02-base-rules.html#tables">“Base Rules: Tables”</a>.</p>
+</section>
+<hr class="docutils" />
+<section id="spell-and-ability-saves">
+<h4>Spell and Ability Saves<a class="headerlink" href="#spell-and-ability-saves" title="Link to this heading">¶</a></h4>
+<p>When spells and some abilities are used, the onus on overcoming their effects is on the character who would be affected. In this case, the character who is affected can attempt to roll a “save” against the spell/ability’s static “threshold”. There are six types of saving throw, one for each stat. A character can either proficient or not proficient with a save. The bonus for the save is as follows:</p>
+<ul class="simple">
+<li><p><strong>Not proficient</strong>: <strong>[Stat bonus + Base]</strong></p></li>
+<li><p><strong>Proficient</strong> (Str, Dex, Con): <strong>[NAP + Stat bonus]</strong></p></li>
+<li><p><strong>Proficient</strong> (Int, Wis, Cha): <strong>[SAP + Stat bonus]</strong></p></li>
+</ul>
+<p>The “save threshold” is equal to <strong>[13 + [Nat or Sup] + [Stat bonus]]</strong>.</p>
+<p>If the roll to save (“save”) is equal or higher than Threshold, the character avoids some, or all, of the effects of the spell/ability.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="alignment">
+<h3>Alignment<a class="headerlink" href="#alignment" title="Link to this heading">¶</a></h3>
+<p>Alignment is an OPTIONAL rule.</p>
+<p>Some systems have an alignment system, usually along the order/chaos axis or the good/evil axis. The alignment referred to here does not directly intersect with morality.</p>
+<p>A character does not have to be aligned with or to anything. Not even magnetic north. A character CAN, however, be “aligned” with various types of forces if they chose. This is not necessarily guided by behaviour or moral code of a character. It is however important for certain abilities and may influence how certain entities perceive the character.</p>
+<p>Alignment is usually: “None”, “Spiritual”, “Divine” and “Profane”.</p>
+<ul class="simple">
+<li><p>None: The normal state of being for a mortal.</p></li>
+<li><p>Spiritual: Implies priority of the immaterial world over the material world.</p></li>
+<li><p>Divine: Implies deep homage to the forces that created and maintain the world.</p></li>
+<li><p>Profane: Implies deep homage to the forces that oppose creation.</p></li>
+<li><p>One cannot be aligned to “Divine” and “Profane” simultaneously as those forces oppose each other.</p></li>
+<li><p>A character or locale can also become aligned with various elements. This affects how other elements interact with the character.</p></li>
+</ul>
+<p>It should be noted that in general, locales are unaligned. The ground is not “earth aligned”, unless it is so enchanted, or consecrated to some elemental power, just as a lake will not usually be water aligned. If a locale is linked with a given element, this is all the more reason to be cautious.</p>
+<p>Divine beings always have a divine alignment. Profane beings always have a profane alignment.</p>
+<p>It is possible to have an alignment on the Spiritual/Divine/Profane axis AND on the elemental axis. So it is possible to have an alignment with both “profane” and “fire”, for example.</p>
+</section>
+<hr class="docutils" />
+<section id="level-points-and-abilities">
+<h3>Level points and abilities<a class="headerlink" href="#level-points-and-abilities" title="Link to this heading">¶</a></h3>
+<p>Every character gets 3 level points at level 1. These can be spend as follows.</p>
+<ul class="simple">
+<li><p>Exchanged for skill points at the rate of 1 level points = 4 skill points.</p></li>
+<li><p>Exchanged for an increase to stats at the rate of 1 level point = +1 to a single stat. No stat may exceed 24 for player characters. A character can only add one level point to stats per level.</p></li>
+<li><p>Exchanged for abilities and boons.</p></li>
+</ul>
+<p>Abilities and boons are special features of a character that allow them to do things they would not otherwise be able to do, or withstand things they would otherwise not be able to withstand. This also provides some of the flavour to the character. See the <a class="reference external" href="06-abilities.html">“Abilities and Boons”</a> chapter. As an example:</p>
+<ul class="simple">
+<li><p>An aspiring pyromancer would probably want to take <a class="reference external" href="06-abilities.html#touch-elemental-touch">“elemental touch”</a> or <a class="reference external" href="06-abilities.html#blast-elemental-blast">“elemental blast”</a> and <a class="reference external" href="06-abilities.html#spellcasting-local">“spellcasting: elemental (fire)”</a>.</p></li>
+<li><p>A plucky peasant or mysterious summoner might both wish to travel with a bestial companion and so take <a class="reference external" href="06-abilities.html#bind-beast-i-x">“bind beast”</a>.</p></li>
+<li><p>Swashbuckler and martial artists would probably both benefit from <a class="reference external" href="06-abilities.html#flurry">“flurry”</a>.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="levelling-up">
+<h3>Levelling up<a class="headerlink" href="#levelling-up" title="Link to this heading">¶</a></h3>
+<p>Levelling up, strangely enough, is quite easy, if not for the agony of choice. Each time a character levels up it gains:</p>
+<ul class="simple">
+<li><p>1 HP</p></li>
+<li><p>3 dice points to share between gaining SP dice and MP dice.</p></li>
+<li><p>3 level points, to be used for abilities.</p>
+<ul>
+<li><p>1 level point per level can be used to increase any stat by 1.</p></li>
+<li><p>Level points can be expended for skill points (4 skill points per level point).</p></li>
+</ul>
+</li>
+<li><p>[4 + Int] skill points to put into skill ranks and proficiencies.</p></li>
+<li><p>Every ODD level: 1 skill to add to background skills</p></li>
+</ul>
+<p>A character must spend all points when it levels up. It cannot horde unspent points waiting for the next level.</p>
+</section>
+<hr class="docutils" />
+<section id="play">
+<h3>Play<a class="headerlink" href="#play" title="Link to this heading">¶</a></h3>
+<p>Go get kitted out, and go out into the world and become a legend. Or if you prefer not to, then just roll some dice. There are a lot of different situations that a party can encounter in this game. And of course there are rules that govern how to resolve them. They are covered in <a class="reference external" href="11-weapons-armour.html">“Weapons and Armour”</a>, <a class="reference external" href="04-combat.html">“Combat”</a> <a class="reference external" href="03-movement-exploration.html">“Movement and Exploration”</a>, <a class="reference external" href="05-skills.html">“Skills”</a> and <a class="reference external" href="10-conditions-types.html">“Conditions and Types”</a>. Live and learn.</p>
+</section>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="03-movement-exploration.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Actions outside of Combat</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="index.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Home</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2023-3023, Fantasy Committee
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">FanSys23 Quick-start</a><ul>
+<li><a class="reference internal" href="#forwards">Forwards</a></li>
+<li><a class="reference internal" href="#scope-and-pace-of-the-game">Scope and Pace of the game</a></li>
+<li><a class="reference internal" href="#playing-the-game">Playing the game</a></li>
+<li><a class="reference internal" href="#making-a-character">Making a character</a><ul>
+<li><a class="reference internal" href="#character-concepts">Character concepts</a></li>
+<li><a class="reference internal" href="#stats">Stats</a><ul>
+<li><a class="reference internal" href="#random-roll-4d6-drop-lowest">Random roll 4d6 drop lowest</a></li>
+<li><a class="reference internal" href="#point-point-buy">24 point point buy</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#types-races-species-and-templates">Types, Races, Species and Templates</a><ul>
+<li><a class="reference internal" href="#races-and-species">Races and Species</a></li>
+<li><a class="reference internal" href="#templates">Templates</a></li>
+<li><a class="reference internal" href="#race-or-template">Race or template</a><ul>
+<li><a class="reference internal" href="#how-to-apply-a-race-template">How to apply a race/template</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#a-few-basic-templates">A few basic templates</a><ul>
+<li><a class="reference internal" href="#human-level-1-template-8-points">Human (level-1 template = 8 points)</a></li>
+<li><a class="reference internal" href="#elf-fey-touched-level-1-template-8-points">Elf/(Fey touched) (level-1 template = 8 points)</a></li>
+<li><a class="reference internal" href="#orc-level-1-template-8-points">Orc (level-1 template = 8 points)</a></li>
+<li><a class="reference internal" href="#the-sea-people-level-1-template-8-points">The Sea People (level-1 template = 8 points)</a></li>
+<li><a class="reference internal" href="#the-winged-level-1-template-8-points">The Winged (level-1 template = 8 points)</a></li>
+<li><a class="reference internal" href="#beasts-of-the-green-level-1-template-8-points">Beasts of the Green (level-1 template = 8 points)</a></li>
+<li><a class="reference internal" href="#beast-folk-level-1-template-8-points">Beast folk (level-1 template = 8 points)</a></li>
+<li><a class="reference internal" href="#fiend-touched-level-1-template-8-points">Fiend-touched (level-1 template = 8 points)</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#skills-and-abilities">Skills and abilities</a><ul>
+<li><a class="reference internal" href="#skills-and-proficiencies">Skills and proficiencies</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#stamina-and-mana-dice-and-hp">Stamina and Mana dice and HP</a></li>
+<li><a class="reference internal" href="#a-word-on-hit-nap-sap-and-other-3-letter-words">A word on HiT, NAP, SAP and other 3 letter words.</a><ul>
+<li><a class="reference internal" href="#hit">HiT</a></li>
+<li><a class="reference internal" href="#attack-bonuses-and-hit-thresholds">Attack bonuses and Hit Thresholds</a></li>
+<li><a class="reference internal" href="#spell-and-ability-saves">Spell and Ability Saves</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#alignment">Alignment</a></li>
+<li><a class="reference internal" href="#level-points-and-abilities">Level points and abilities</a></li>
+<li><a class="reference internal" href="#levelling-up">Levelling up</a></li>
+<li><a class="reference internal" href="#play">Play</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="_static/documentation_options.js?v=8bafd125"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/scripts/furo.js?v=46bd48cc"></script>
+    </body>
+</html>

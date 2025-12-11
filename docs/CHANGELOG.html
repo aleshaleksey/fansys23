@@ -1,0 +1,1336 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="./">
+  <head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="genindex.html"><link rel="search" title="Search" href="search.html"><link rel="next" title="Character sheet" href="TODO.html"><link rel="prev" title="Spirits" href="bestiary/spirits.html">
+
+    <!-- Generated with Sphinx 8.2.3 and Furo 2025.09.25 -->
+        <title>Changelog - FanSys 0.0.18</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d111a655" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=580074bf" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=8dab3a3b" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f2f2f2;
+  --color-code-foreground: #1e1e1e;
+  --color-foreground-primary: #202424;
+  --color-foreground-secondary: #4a4c53;
+  --color-brand-primary: #112233;
+  --color-brand-content: #443322;
+  --color-brand-visited: #448822;
+  --color-background-primary: #f2f4ec;
+  --color-background-secondary: #e5e7e3;
+  --color-background-hover: #fafaf5;
+  --color-background-border: #40404067;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-foreground-primary: #cfd0d0;
+  --color-foreground-secondary: #acb0b5;
+  --color-brand-primary: #AABBCC;
+  --color-brand-content: #CFBEAC;
+  --color-brand-visited: #99DD99;
+  --color-background-primary: #242628;
+  --color-background-secondary: #2a2c2e;
+  --color-background-hover: #1e2124ff;
+  --color-background-border: #483945;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-foreground-primary: #cfd0d0;
+  --color-foreground-secondary: #acb0b5;
+  --color-brand-primary: #AABBCC;
+  --color-brand-content: #CFBEAC;
+  --color-brand-visited: #99DD99;
+  --color-background-primary: #242628;
+  --color-background-secondary: #2a2c2e;
+  --color-background-hover: #1e2124ff;
+  --color-background-border: #483945;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle site navigation sidebar">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc" aria-label="Toggle table of contents sidebar">
+<label class="overlay sidebar-overlay" for="__navigation"></label>
+<label class="overlay toc-overlay" for="__toc"></label>
+
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <span class="icon"><svg><use href="#svg-menu"></use></svg></span>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="index.html"><div class="brand">FanSys 0.0.18</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="index.html">
+  
+  <span class="sidebar-brand-text">FanSys 0.0.18</span>
+  
+</a><form class="sidebar-search-container" method="get" action="search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Index:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="01-quick-start.html">FanSys23 Quick-start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="03-movement-exploration.html">Actions outside of Combat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="04-combat.html">Combat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="05-skills.html">Skills</a></li>
+<li class="toctree-l1"><a class="reference internal" href="06-abilities.html">Abilities and Boons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="07-magic-and-spellcasting.html">Spells</a></li>
+<li class="toctree-l1"><a class="reference internal" href="08-spell-list.html">Spell List</a></li>
+<li class="toctree-l1"><a class="reference internal" href="09-races.html">Types, Races, Species and Templates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="10-conditions-types.html">Conditions and Types</a></li>
+<li class="toctree-l1"><a class="reference internal" href="11-weapons-armour.html">Weapons and armour</a></li>
+<li class="toctree-l1"><a class="reference internal" href="12-equipment-economy.html">Equipment and Economy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="13-crafting-imbuing.html">Crafting and Imbuing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="14-poisons-and-diseases.html">Poisons and Diseases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="15-charm-etc.html">A note on charm, domination and possession</a></li>
+<li class="toctree-l1"><a class="reference internal" href="16-recipes.html">Recipes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="02-base-rules.html">Base Rules</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="bestiary.html">A Bestiary for Fantasy Worlds</a><input aria-label="Toggle navigation of A Bestiary for Fantasy Worlds" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/forwards.html">Forwards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/beasts-and-plants.html">Beasts and Plants</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/constructs.html">Constructs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/divines.html">Divines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/humanoids.html">NPC stat blocks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/monsters-and-dragons.html">Monsters and Dragons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/profanes.html">Profanes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/spirits.html">Spirits</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="TODO.html">Character sheet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="LICENSE.html">License</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="view-this-page">
+  <a class="muted-link" href="_sources/CHANGELOG.md.txt" title="View this page">
+    <svg><use href="#svg-eye"></use></svg>
+    <span class="visually-hidden">View this page</span>
+  </a>
+</div>
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          <section id="changelog">
+<h1>Changelog<a class="headerlink" href="#changelog" title="Link to this heading">¶</a></h1>
+<section id="from-v0-0-1">
+<h2>From v0.0.1<a class="headerlink" href="#from-v0-0-1" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Formatting: add more navigation menus.</p></li>
+<li><p>Add “Troll Head” and “Snatchers’ Hands” and correct “Tripede”.</p></li>
+<li><p>Add “Tracker” boons, add half speed to tracking.</p></li>
+<li><p>Add “Terrain Mastery” boon.</p></li>
+<li><p>Add gnome sprite.</p></li>
+<li><p>Add vulnerability definition for damage in combat.</p></li>
+<li><p>Add main todo list.</p></li>
+<li><p>Improved “Least Ward” with limitations.</p></li>
+<li><p>Template levels now start at level 1 <a class="reference external" href="09-races.html">races</a>. Reword stat adjustment for templates.</p></li>
+<li><p>Template resistances no longer give as much condition “resistance”.</p></li>
+<li><p>Clean up vulnerabilities in template rules a little bit.</p></li>
+<li><p>Clarify zero reach in size rules. Added size modifier link to quick-start. Improve some more wording in quick start.</p></li>
+<li><p>Weaken plant monsters that paralyse you.</p></li>
+<li><p>Add “reach” column to weapon table. Make mauls more historically accurate (spike).</p></li>
+<li><p>Add worlds crappiest gunblade.</p></li>
+<li><p>Change short rest gains for SP/MP to [CON/CHA x BASE] for mathematical simplicity.</p></li>
+</ul>
+</section>
+<section id="from-v0-0-2">
+<h2>From v0.0.2<a class="headerlink" href="#from-v0-0-2" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Add carrying capacity.</p></li>
+<li><p>Add the “promise” and “pact” spells.</p></li>
+<li><p>Amend wording of flight.</p></li>
+<li><p>Added [Base] to HiT. This should make fights a little bit more balanced, but still keep it in favour of attacks.</p></li>
+<li><p>Added truesight and clarified vision related abilities for templates.</p></li>
+<li><p>Clarified how sight and other sense should work.</p></li>
+<li><p>Table of actions and costs.</p></li>
+<li><p>Add improvised weapon rules.</p></li>
+<li><p>Add equipment weight scaling and dice scaling (for weapon sizes.)</p></li>
+<li><p>Change sneak attack to precision attack. Add assassinate.</p></li>
+<li><p>Fix some wording for “surprise and ambush.”</p></li>
+<li><p>Add xenophonia (speak with x) ability.</p></li>
+<li><p>Add sunder rules.</p></li>
+<li><p>Material ranking and rules.</p></li>
+<li><p>Refine AoO and acrobatics rules a little bit.</p></li>
+<li><p>Refine offhand fighting rules to allow offhand attacks with out offhand fighting under certain conditions.</p></li>
+<li><p>Added flanking.</p></li>
+<li><p>Added shield bash, shield mastery, buckler mastery.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="from-v0-0-3">
+<h2>From v0.0.3<a class="headerlink" href="#from-v0-0-3" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Clarify for HiT when “evasion” and “deflection” work and when they don’t.</p></li>
+<li><p>Add clarification for leveling up stats.</p></li>
+<li><p>Nerf foresight a little bit.</p></li>
+<li><p>Add a small weight endurance penalty to medium armour and add the penalty text to all sections.</p></li>
+<li><p>A lot of copypasta.</p></li>
+<li><p>A few more spells at level 5-7.</p></li>
+<li><p>Split monster pages.</p></li>
+<li><p>Add remaining two sprites. Also add raptors and hadrosaurs to “beast” list.</p></li>
+<li><p>Adjust large creature carrying capacity.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="from-v0-0-4">
+<h2>From v0.0.4<a class="headerlink" href="#from-v0-0-4" title="Link to this heading">¶</a></h2>
+<section id="general">
+<h3>General<a class="headerlink" href="#general" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Explicitly state that “kinetic components” have nothing to do with hands.</p></li>
+<li><p>Add table of spell learning to the ‘Spells gained from levels in “spellcasting” ability’ section.</p></li>
+<li><p>Change “dying” and “doomed” to only lose 1 HP per round.</p></li>
+<li><p>Chang “doomed” to give advantage on attacks.</p></li>
+<li><p>Disambiguate AoO to to not work on involuntary movement.</p></li>
+<li><p>Being on fire and damage from being in burning places.</p></li>
+</ul>
+</section>
+<section id="abilities-spells">
+<h3>Abilities &amp; Spells<a class="headerlink" href="#abilities-spells" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Make prepared Parry stronger 2 + multiattack v 1 + multiattack.</p></li>
+<li><p>Add Greater Elemental Blast (linear and radial)</p></li>
+<li><p>Change berserk to not return SP.</p></li>
+<li><p>Add “undying realm” 10 MP Dice spell.</p></li>
+<li><p>Change special on least shroud and least ward.</p></li>
+<li><p>Nerf least shroud and least ward (now only stationary)</p></li>
+<li><p>But they can use a buckler.</p></li>
+<li><p>Alter wording on spell strike.</p></li>
+<li><p>Bump level of things created by Animate dead/Animate plant by 1.</p></li>
+<li><p>Check wording on summon Sprite to remove certain ambiguities.</p></li>
+<li><p>Change the line of sight rule for spellcasting: Being in contact with the target can replace normal line of sight.</p></li>
+</ul>
+</section>
+<section id="skills">
+<h3>Skills<a class="headerlink" href="#skills" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>“Acquiring skills and proficiences” -&gt; added proficiency text.</p></li>
+</ul>
+</section>
+<section id="monsters">
+<h3>Monsters<a class="headerlink" href="#monsters" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Add brown ooze and worm that sings.</p></li>
+</ul>
+</section>
+<section id="formatting-grammar-etc">
+<h3>Formatting, Grammar, etc<a class="headerlink" href="#formatting-grammar-etc" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Better explain the feint maneuver.</p></li>
+<li><p>Link to abilities and boons in “Level points and abilities” in quickstart.</p></li>
+<li><p>Link to base rule calculations in “All entities have” in the combat section.</p></li>
+<li><p>Reorganise index.</p></li>
+<li><p>Spacers. Grammar pedantry.</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="from-v0-0-5">
+<h2>From v0.0.5<a class="headerlink" href="#from-v0-0-5" title="Link to this heading">¶</a></h2>
+<section id="spells">
+<h3>Spells<a class="headerlink" href="#spells" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Meadow of flames now works on non-flammable surfaces and does not harm the caster who cast it.</p></li>
+<li><p>Promise now has a specific list of conditions that apply to it.</p></li>
+</ul>
+</section>
+<section id="id1">
+<h3>Monsters<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Flame sprite: Boost intelligent. Clarify that it sheds light. Add text on tactics (prefers magic).</p></li>
+</ul>
+</section>
+<section id="id2">
+<h3>General<a class="headerlink" href="#id2" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Death is harder: You die at minus HP or minus CON if CON is higher than HP. instead of minus HP.</p></li>
+<li><p>Define the Save threshold for death and dying.</p></li>
+</ul>
+</section>
+<section id="paperwork">
+<h3>Paperwork<a class="headerlink" href="#paperwork" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Rename the spells file.</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="from-v0-0-6">
+<h2>From v0.0.6<a class="headerlink" href="#from-v0-0-6" title="Link to this heading">¶</a></h2>
+<section id="id3">
+<h3>General<a class="headerlink" href="#id3" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Alphabetical order for ability.</p></li>
+<li><p>Table for damage by type.</p></li>
+<li><p>Add monsters.</p></li>
+<li><p>Add section on supernatural terrain and associated hazards.</p></li>
+<li><p>Add rule for fatigue when travelling and pushing yourself.</p></li>
+</ul>
+</section>
+<section id="combat">
+<h3>Combat<a class="headerlink" href="#combat" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Change the HP damage and <a class="reference external" href="04-combat.html#hp-damage-and-conditions">associated conditions rules.</a></p></li>
+<li><p>Add blowguns as a weapon type.</p></li>
+<li><p>Fix “interception” manoeuvre to only work in threatened area.</p></li>
+<li><p>Modify AoO rules so that standing up, drinking potions and using some items can provoke AoOs.</p></li>
+<li><p>Define what concentration is (bonus = [Wis]/2 + [Int]/2 + [Nat]), and change damage threshold to 12.</p></li>
+</ul>
+</section>
+<section id="races">
+<h3>Races<a class="headerlink" href="#races" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Increase low light vision cost to 2 race-points.</p></li>
+<li><p>Add all races to quick-start.</p></li>
+</ul>
+</section>
+<section id="id4">
+<h3>Spells<a class="headerlink" href="#id4" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Fix wording on Pact, Promise and a couple of other spells.</p></li>
+<li><p>Add extra spells “mandate of the deep, mage’s oath”</p></li>
+<li><p>“Pact” and “Promise” can now be used locally as well as globally.</p></li>
+<li><p>Add “Summon Spirit” and “Lesser Incarnate” spells.</p></li>
+<li><p>Add “Summon Angel” and “Summon Fiend” spells.</p></li>
+<li><p>Add “Avatar” spell.</p></li>
+<li><p>Add “Melt”, “Flame Ward” spell.</p></li>
+<li><p>Add “Transform Mortal”, “Portal”, “Profane Resurrection” and “Incarnate” spell.</p></li>
+<li><p>“Wind Walk” global fly speed is equal to your walking speed.</p></li>
+<li><p>Add “Meteoric Flight” spell.</p></li>
+<li><p>Add “slumber” spell.</p></li>
+<li><p>Add “lesser domain” and “greater domain” spells.</p></li>
+<li><p>Add “fairy shelter”, “fairy feast” and “fairy ball”.</p></li>
+<li><p>Add “Blessing of the Fates” and “Gift of the Fates” spells.</p></li>
+<li><p>Add “Fade”, “False aura” and “Greater fade” spells.</p></li>
+<li><p>Add “Lesser Xenophonia”, “Natural Xenophonia”, “Greater Xenophonia”, “Inner Voice”.</p></li>
+</ul>
+</section>
+<section id="abilities">
+<h3>Abilities<a class="headerlink" href="#abilities" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Add riposte.</p></li>
+<li><p>Fix wording on aphonic, still and lingering spells.</p></li>
+<li><p>Add “bard song”, “spellsong”, “guarded” (vs AoOs).</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="from-v0-0-7">
+<h2>From v0.0.7<a class="headerlink" href="#from-v0-0-7" title="Link to this heading">¶</a></h2>
+<section id="id5">
+<h3>General<a class="headerlink" href="#id5" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Improve wording and spell list format check.</p></li>
+<li><p>Add crafting rules.</p></li>
+<li><p>Add basic enchanting rules.</p></li>
+<li><p>Improve section on equipment and economy.</p></li>
+<li><p>Reduce penalties for digging with a light load. Increase penalties for climbing with a light load.</p></li>
+<li><p>Swim, dig, climb above medium is now no.</p></li>
+<li><p>Restore CON vs [CON] definitions (score vs mod) terminology.</p></li>
+<li><p>Clarify what elemental alignment is.</p></li>
+<li><p>Add rules for sleeping in armour.</p></li>
+</ul>
+</section>
+<section id="id6">
+<h3>Combat<a class="headerlink" href="#id6" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Add total defence actions.</p></li>
+<li><p>Improve (I don’t know what at this point, good luck figuring it out).</p></li>
+<li><p>Rapiers can now be governed by DEX or STR, but when governed by DEX, require a +1 [STR] to use.</p></li>
+</ul>
+</section>
+<section id="id7">
+<h3>Races<a class="headerlink" href="#id7" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Reduce dig speed cost and first 5ft speed increment in dig each to 3 template points.</p></li>
+</ul>
+</section>
+<section id="id8">
+<h3>Spells<a class="headerlink" href="#id8" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Clarify that EXTRA in upcasting means EXTRA ABOVE THE MINIMAL cost of the spell.</p></li>
+<li><p>Write a limitation section to better explain what limitation by alignment means.</p></li>
+<li><p>Better word <strong>wind-step</strong>, increasing its range (60ft), but limiting some aspects of its more abusive functionality (only teleport unwilling targets 30ft, advantage on saves vs harmful transportations).</p></li>
+<li><p>Added <strong>“Isolate Essence”</strong> and <strong>“Memory Thief”</strong>.</p></li>
+</ul>
+</section>
+<section id="id9">
+<h3>Abilities<a class="headerlink" href="#id9" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Alter <strong>“Berserk”</strong> to be a little less penalising on HP when you overrun it.</p></li>
+<li><p>Lower prerequisites on <strong>multi-attack</strong>, as it is crazy high. (It needs to be high, but no that high.)</p></li>
+<li><p>Likewise lower prerequisites on a few other abilities.</p></li>
+<li><p>Add Elemental Blast as prerequisite of *<em>improved elemental blast8</em>, since it was not obvious.</p></li>
+<li><p>Moved “Parry” to “boons” section.</p></li>
+<li><p><strong>Deflect Arrows</strong> (now <strong>“Deflect Missile”</strong>) now works more like DnD ability (damage reduction)</p></li>
+<li><p>Add <strong>“Deflection”</strong> and <strong>“Esoteric Deflection”</strong> abilities for reducing damage from ranged supernatural attacks.</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="from-v0-0-8">
+<h2>From v0.0.8<a class="headerlink" href="#from-v0-0-8" title="Link to this heading">¶</a></h2>
+<section id="id10">
+<h3>General<a class="headerlink" href="#id10" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Added more monsters and NPCs.</p></li>
+<li><p>Disambiguate rules for dragging objects and towing vehicles.</p></li>
+<li><p>Clarify that you will die of starvation eventually (starts eating maximum HP after all else).</p></li>
+</ul>
+</section>
+<section id="id11">
+<h3>Combat<a class="headerlink" href="#id11" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Make DEX/STR based weapons only apply [DEX] to damage if “finesse” feat is taken.</p></li>
+<li><p>Make Great Strike attack specifically to STR based attacks and do extra damage for two handed heavy weapons.</p></li>
+<li><p>Clarify the order of MP, SP and HP damage.</p></li>
+<li><p>Increase morning star damage to 1d8 from 1d6.</p></li>
+</ul>
+</section>
+<section id="id12">
+<h3>Races<a class="headerlink" href="#id12" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li></li>
+</ul>
+</section>
+<section id="id13">
+<h3>Spells<a class="headerlink" href="#id13" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Add “regrowth” and “false regrow” spells.</p></li>
+<li><p>Modify the “cure” spell to not restore body parts.</p></li>
+<li><p>Make “Blessing of the Fates” a little bit more powerful (the save probably makes it too weak).</p></li>
+<li><p>Make “Healing Seed” a little more powerful (drop down a level, add more healing, make duration shorter).</p></li>
+</ul>
+</section>
+<section id="id14">
+<h3>Abilities<a class="headerlink" href="#id14" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Increase damage reduction by Deflect Missile (since it’s not free).</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="from-v0-0-9">
+<h2>From v0.0.9<a class="headerlink" href="#from-v0-0-9" title="Link to this heading">¶</a></h2>
+<section id="id15">
+<h3>General<a class="headerlink" href="#id15" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Better organise the base rules section.</p></li>
+<li><p>Add some more rearing times.</p></li>
+<li><p>Change shield terminology from small/large to light/heavy.</p></li>
+<li><p>Also, if one 12 is rolled, an extra damage dice is rolled for the attack. If D12 is rolled, the number of damage dice is doubled.</p></li>
+<li><p>Use D12, snake eyes as terminology instead of critical hit or miss.</p></li>
+<li><p>Rework monster intrinsic abilities (now use 13+[stat]+[base])</p></li>
+<li></li>
+</ul>
+</section>
+<section id="id16">
+<h3>Combat<a class="headerlink" href="#id16" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Upgrade maces 1d6-&gt;1d8, increase its durability.</p></li>
+<li><p>Add flails</p></li>
+<li><p>Add Ballistae as weapons</p></li>
+<li><p>Initiative is now [DEX] or [INT] (experimental)</p></li>
+<li></li>
+</ul>
+</section>
+<section id="id17">
+<h3>Races<a class="headerlink" href="#id17" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Add <a class="reference external" href="09-races.html#lesser-dragon-level-10-template--80-points">“lesser dragon”</a>.</p></li>
+<li><p>Add <a class="reference external" href="09-races.html#half-dragon-level-5-template--40-points">“half-dragon”</a> templates.</p></li>
+<li><p>Add <a class="reference external" href="09-races.html#dragonkin-level-1-template--8-points">“dragonkind”</a> templates.</p></li>
+</ul>
+</section>
+<section id="id18">
+<h3>Spells<a class="headerlink" href="#id18" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Add “Summon Beast” as a low level spell.</p></li>
+<li><p>Decrease the initial level for summon fiend, so that it is a level 7 fiend (instead of level 9), because fiends are quite strong.</p></li>
+<li><p>Reduce cast time on Mandate of the Deep.</p></li>
+<li><p>Add <a class="reference external" href="08-spell-list.html#flood">“Flood”</a> (aquamancy, level 5)</p></li>
+<li><p>Add <a class="reference external" href="08-spell-list.html#winters-grasp">“Winter’s Grasp”</a> (aquamancy, level 5)</p></li>
+<li><p>Add <a class="reference external" href="08-spell-list.html#rift">“Rift”</a> (geomancy, level 5)</p></li>
+<li><p>Add <a class="reference external" href="08-spell-list.html#true-storm">“True Storm”</a> (anemancy, level 9)</p></li>
+<li><p>Add <a class="reference external" href="08-spell-list.html#gift-of-the-winds">“Gift of the Winds”</a> (anemancy, level 10)</p></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+</section>
+<section id="id19">
+<h3>Abilities<a class="headerlink" href="#id19" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Added <a class="reference external" href="06-abilities.html#forbidden-spell">“forbidden spell”</a></p></li>
+<li><p>Added <a class="reference external" href="06-abilities.html#swift-spell">“swift spell”</a></p></li>
+<li></li>
+<li></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="from-v0-0-10">
+<h2>From v0.0.10<a class="headerlink" href="#from-v0-0-10" title="Link to this heading">¶</a></h2>
+<section id="id20">
+<h3>General<a class="headerlink" href="#id20" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Add “rebalance” mechanic in order to allow MP and SP to be interconverted (somewhat).</p></li>
+<li><p>Add a little more detail on currencies.</p></li>
+<li></li>
+</ul>
+</section>
+<section id="id21">
+<h3>Combat<a class="headerlink" href="#id21" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Change “weapon” damage scaling rules with size</p></li>
+<li><p>Change size based armour rules, to give a small advantage to small entities.</p></li>
+</ul>
+</section>
+<section id="id22">
+<h3>Races<a class="headerlink" href="#id22" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li></li>
+<li></li>
+</ul>
+</section>
+<section id="id23">
+<h3>Spells<a class="headerlink" href="#id23" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Amend the other summon spells so that the summon appears at the start of next round.</p></li>
+<li><p>Add <a class="reference external" href="08-spell-list.html#summon-elemental">Summon Elemental</a> spell</p></li>
+<li><p>Add <a class="reference external" href="08-spell-list.html#madness">“Madness”</a> and <a class="reference external" href="08-spell-list.html#spirit-restoration">“Spirit Restoration”</a>.</p></li>
+<li><p>Add <a class="reference external" href="08-spell-list.html#heart-ward">“Heart Ward”</a>, <a class="reference external" href="08-spell-list.html#greater-freedom">“Greater Freedom”</a> and <a class="reference external" href="#lesser-freedom">“Lesser Freedom”</a></p></li>
+<li><p>Add <a class="reference external" href="08-spell-list.html#stone-ward">“Stone Ward”</a> and <a class="reference external" href="08-spell-list.html#blade-ward">“Blade Ward”</a></p></li>
+<li><p>Add <a class="reference external" href="08-spell-list.html#true-geomancy">“True Geomancy”</a> and <a class="reference external" href="08-spell-list.html#gift-of-the-winds">“Gift of the Winds”</a></p></li>
+<li><p>Add <a class="reference external" href="08-spell-list.html#edict-of-life">“Edict of Life”</a>.</p></li>
+<li><p>Add <a class="reference external" href="08-spell-list.html#ifrits-gift">“Ifrit’s Gift”</a>, <a class="reference external" href="08-spell-list.html#earthquake">“Earthquake”</a> and <a class="reference external" href="08-spell-list.html#wave">“Wave”</a> spells.</p></li>
+<li><p>Add <a class="reference external" href="08-spell-list.html#lessor-illusory-self">“Lesser Illusory Self”</a> and <a class="reference external" href="08-spell-list.html#illusory-self">“Illusory Self”</a>.</p></li>
+</ul>
+</section>
+<section id="id24">
+<h3>Abilities<a class="headerlink" href="#id24" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Spellcasting now goes up to Spellcasting: VII, everything else is “High Arcana”. This keeps mechanics mostly the same, but reduces the number of useless spells at higher levels while keeping a sane set of mechanics.</p></li>
+<li><p>Add <a class="reference external" href="06-abilities.html#resist-condition">“Resist Condition”</a> and <a class="reference external" href="06-abilities.html#resist-damage">“Resist Damage”</a>. Also <a class="reference external" href="06-abilities.html#condition-immunity">“Condition Immunity”</a></p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="from-v0-0-11">
+<h2>From v0.0.11<a class="headerlink" href="#from-v0-0-11" title="Link to this heading">¶</a></h2>
+<section id="id25">
+<h3>General<a class="headerlink" href="#id25" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Major recalculation of save thresholds. Save threshold is now 13 + [Sup OR Nat] + [Stat]. (We no longer add base). This makes level based increase to ability thresholds less vicious.</p></li>
+<li><p>Make it even more explicit that characters can only increase stats by 1 point per level.</p></li>
+<li><p>Recalculate monster/NPC saving thresholds with the new rules.</p></li>
+</ul>
+</section>
+<section id="id26">
+<h3>Abilities<a class="headerlink" href="#id26" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Add <a class="reference external" href="06-abilities.html#mighty-i">Mighty I</a> and <a class="reference external" href="06-abilities.html#mighty-ii">Mighty II</a> abilities to increase carrying capacity.</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="from-v0-0-12">
+<h2>From v0.0.12<a class="headerlink" href="#from-v0-0-12" title="Link to this heading">¶</a></h2>
+<section id="id27">
+<h3>General<a class="headerlink" href="#id27" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Major recalculation of save thresholds. Save threshold is now 13 + [Sup OR Nat] + [Stat]. (We no longer add base). This makes level based increase to ability thresholds less vicious.</p></li>
+<li><p>Make it even more explicit that characters can only increase stats by 1 point per level.</p></li>
+<li><p>Recalculate monster/NPC saving thresholds with the new rules.</p></li>
+<li><p>Expand <a class="reference external" href="02-base-rules.html#losing-mp-sp-and-rebalancing">“rebalance”</a> rules to allow use of MP/SP dice interchangeably at a price (double cost, secondary action).</p></li>
+<li><p>Add SP/MD dice as 1d6 rules: Expend an SP/MP die to add 1d6 to a roll.</p></li>
+</ul>
+</section>
+<section id="spellcasting">
+<h3>Spellcasting<a class="headerlink" href="#spellcasting" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Rework spellworking <a class="reference external" href="07-magic-and-spellcasting.html#banishing-breaking-counter-spelling-and-dispelling">dispel rules</a> to make breaking global spells more costly (either in terms of time or MP dice).</p></li>
+</ul>
+</section>
+<section id="id28">
+<h3>Abilities<a class="headerlink" href="#id28" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Add <a class="reference external" href="06-abilities.html#mighty-i">Mighty I</a> and <a class="reference external" href="06-abilities.html#mighty-ii">Mighty II</a> abilities to increase carrying capacity.</p></li>
+<li><p>Add experimentally <a class="reference external" href="06-abilities.html#holy-strike">Holy Strike</a> and <a class="reference external" href="06-abilities.html#unholy-strike">Unholy Strike</a> as weaker versions of divine/profane strike.</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="from-v0-0-13">
+<h2>From v0.0.13<a class="headerlink" href="#from-v0-0-13" title="Link to this heading">¶</a></h2>
+<section id="id29">
+<h3>General<a class="headerlink" href="#id29" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Add <a class="reference external" href="14-recipes.html">Recipes</a> chapter with various basic builds.</p></li>
+<li><p>“Winged” are now small, as they should be to start off with.</p></li>
+<li><p>Add an extra 2 proficiency points to spend on proficiencies at level 1.</p></li>
+<li><p>Rename save proficiencies to “good saves” and “bad saves”.</p></li>
+</ul>
+</section>
+<section id="id30">
+<h3>Spellcasting<a class="headerlink" href="#id30" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Regularise casting time on global spells (now 1h-2h/level at levels 1-4, 1h or 12h for 5-6, 1 day for 7 and above). With a few notable exceptions (profane/forbidden spells generally take a day to cast).</p></li>
+<li><p>Double range on <a class="reference external" href="08-spell-list.html#spirits-secret">“Spirits’ Secret”</a>.</p></li>
+<li><p>Add <a class="reference external" href="08-spell-list.html#witchs-candle">“Witch’s Lantern”</a> light spell (it is weak).</p></li>
+<li><p>Add <a class="reference external" href="08-spell-list.html#flare">“Flare”</a> light/damage spell.</p></li>
+<li><p>disambiguate water/ice in the spell list.</p></li>
+<li><p>Change the wording on <a class="reference external" href="08-spell-list.html#water-snake">“Water Snake”</a></p></li>
+<li><p>Reduce MP cost of global spells that take less than a day to cast to twice the local cost. (This make them useable at low levels).</p></li>
+</ul>
+</section>
+<section id="id31">
+<h3>Abilities<a class="headerlink" href="#id31" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Improve wording on <a class="reference external" href="06-abilities.html#deflect-missile">“Deflect Missile”</a>.</p></li>
+<li><p>Reduce MP dice requirements on <a class="reference external" href="06-abilities.html#holy-strike">“Holy Strike”</a> and <a class="reference external" href="06-abilities.html#unholy-strike">“Unholy Strike”</a></p></li>
+</ul>
+</section>
+<section id="conditions-and-types">
+<h3>Conditions and Types<a class="headerlink" href="#conditions-and-types" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Change definition for “poisoned” condition and add initial rules for poisons.</p></li>
+<li><p>Change definition for “diseased” condition and add initial rules for diseases.</p></li>
+</ul>
+</section>
+<section id="id32">
+<h3>Skills<a class="headerlink" href="#id32" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Added rope as a separate proficiency under Sleight of Hand and climber’s kit.</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="from-v0-0-14">
+<h2>From v0.0.14<a class="headerlink" href="#from-v0-0-14" title="Link to this heading">¶</a></h2>
+<section id="id33">
+<h3>General<a class="headerlink" href="#id33" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Changed critical hits: For each roll of 12 on an attack roll, and for each roll of 1 on a save, if damage is caused, the target suffers 1 point of damage directly to HP. (No longer extra dice).</p></li>
+<li><p>Reduce damage for tiny and smaller creatures to use D4s, as this is how gravity works.</p></li>
+<li><p>Add rules for breaking objects (they already existed, but were not well codified).</p></li>
+<li><p>Add thresholds for escaping typical restraints.</p></li>
+<li><p>Added initial durability to ships.</p></li>
+<li><p>Added clarifications on bindings and restraints.</p></li>
+<li><p>Add explicit list of terrains to <a class="reference external" href="03-movement-exploration.html">“Movement and Exploration”</a> section.</p></li>
+<li><p>Formalise <a class="reference external" href="03-movement-exploration.html#vigorous-motion">“Vigorous Motion”</a> rules.</p></li>
+</ul>
+</section>
+<section id="id34">
+<h3>Skills<a class="headerlink" href="#id34" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Add a few more options to <a class="reference external" href="05-skills.html#harvest">“Harvest”</a> for modifiers, and an explanation of best use.</p></li>
+</ul>
+</section>
+<section id="id35">
+<h3>Abilities<a class="headerlink" href="#id35" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Add <a class="reference external" href="06-abilities.html#armour-mastery-light">“Armour Mastery, Light”</a>, <a class="reference external" href="06-abilities.html#armour-mastery-medium">“Armour Mastery, Medium”</a>, <a class="reference external" href="06-abilities.html#armour-mastery-heavy">“Armour Mastery, Heavy”</a>, <a class="reference external" href="06-abilities.html#weapon-mastery">“Weapon Mastery”</a>, <a class="reference external" href="06-abilities.html#weapon-specialisation">“Weapon Specialization”</a>.</p></li>
+<li><p>Add “<a class="reference external" href="06-abilities.html#elemental-strike">Elemental Strike</a>.</p></li>
+<li><p><a class="reference external" href="06-abilities.html#bind-familiar-i-iv">Familiars</a> gained by kinetic spellcasters are now immune (instead of resistant) to “grappled”, “restrained”, “immobilised”.</p></li>
+<li><p>Reduce prerequisites on:</p>
+<ul>
+<li><p><a class="reference external" href="06-abilities.html#combined-manoeuvre-i-v">Combined Manoeuvre</a></p></li>
+<li><p><a class="reference external" href="06-abilities#far-throw-i-v">Far Throw</a></p></li>
+<li><p><a class="reference external" href="06-abilities#greater-manoeuvre-i-v">Greater Manoeuvre</a></p></li>
+<li><p><a class="reference external" href="06-abilities.html#parry">Parry</a> (6 SP -&gt; 4 SP dice)</p></li>
+<li><p><a class="reference external" href="06-abilities.html#cursed-blood">Cursed Blood</a></p></li>
+<li><p><a class="reference external" href="06-abilities.html#weapon-finesse">Weapon Finesse</a></p></li>
+<li><p><a class="reference external" href="06-abilities.html#xenophonia-i-xiii">Xenophonia</a></p></li>
+</ul>
+</li>
+<li><p>Add/Increase prerequisites to:</p>
+<ul>
+<li><p><a class="reference external" href="06-abilities.html#foresight">Foresight</a></p></li>
+<li><p><a class="reference external" href="06-abilities.html#flurry">Flurry</a></p></li>
+<li><p><a class="reference external" href="06-abilities.html#unarmed-strike-i-ix">Unarmed Strike I-IX</a></p></li>
+</ul>
+</li>
+<li><p>Change prerequisites on:</p>
+<ul>
+<li><p><a class="reference external" href="06-abilities.html#steel-wind-strike">Steel Wind Strike</a></p></li>
+<li><p><a class="reference external" href="06-abilities.html#armour-mastery-medium">Armour Mastery, Medium</a></p></li>
+</ul>
+</li>
+<li><p>Change <a class="reference external" href="06-abilities.html#blast-elemental-blast">Elemental Blast</a>/<a class="reference external" href="06-abilities.html#touch-elemental-touch">Touch</a>: Now both use WIS for attack and damage.</p></li>
+<li><p>Increase damage dice on <a class="reference external" href="06-abilities.html#holy-strike">Holy Strike</a> and <a class="reference external" href="06-abilities.html#unholy-strike">Unholy Strike</a> by 1.</p></li>
+<li><p>Change the <a class="reference external" href="06-abilities.html#charge">“Charge”</a> manoeuvre to require linear movement before hit. Bonus to some manoeuvres.</p></li>
+<li><p>Change wording on <a class="reference external" href="06-abilities.html#point-blank-shot-i-iii">Point blank shot</a>.</p></li>
+<li><p>Change wording on <a class="reference external" href="06-abilities.html#precision-attack-i-x">Precision Attack</a>.</p></li>
+<li><p>Lower prerequisites on <a class="reference external" href="06-abilities.html#multi-attack-i-iii">Multi attack I</a> by 1 SP die, to make it reasonable to hit it at level 6.</p></li>
+</ul>
+</section>
+<section id="weapons-and-armour">
+<h3>Weapons and Armour<a class="headerlink" href="#weapons-and-armour" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Wielding two blades no longer automatically gives a +2 to shield HiT (only does so if a character has <a class="reference external" href="06-abilities.html#offhand-fighting-i-iv">“Offhand fighting II”</a>).</p></li>
+<li><p>Added +1 to the HiT bonus granted by shields.</p></li>
+<li><p>Added [STR]/2 to damage dealt by heavy weapons.</p></li>
+</ul>
+</section>
+<section id="id36">
+<h3>Spellcasting<a class="headerlink" href="#id36" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Increase the casting time of global summoning spells as follows. Duration 2 days -&gt; 6 hours. Duration 3 days - 1 week -&gt; 1 day.</p></li>
+<li><p><a class="reference external" href="08-spell-list.html#ensnare">Ensnare</a> cleared up, also now restrains instead of grappling.</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="from-v0-0-15">
+<h2>From v0.0.15<a class="headerlink" href="#from-v0-0-15" title="Link to this heading">¶</a></h2>
+<section id="id37">
+<h3>General<a class="headerlink" href="#id37" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Fill in some placeholders for <a class="reference external" href="03-movement-exploration.html#camping">camping</a>.</p></li>
+<li><p>Likewise reduce homeland bonus from +5 to +2.</p></li>
+<li><p>Revamped prices for equipment (clothing and stuff is now less brutal). These are now based on the cost of materials and labour instead of averaged out prices.</p></li>
+<li><p>Added <a class="reference external" href="10-conditions-types.html#possessed">possession</a> and <a class="reference external" href="10-conditions-types.html#dominated">domination</a> mechanics for testing.</p></li>
+<li><p>Added <a class="reference external" href="15-charm-etc.html">notes on the use of charm</a>.</p></li>
+<li><p>Better explain <a class="reference external" href="04-combat#losing-mp-sp-and-rebalancing">rebalancing</a> and remove the level 5 limit (since it does not improve gameplay).</p></li>
+</ul>
+</section>
+<section id="movement-and-exploration">
+<h3>Movement and Exploration<a class="headerlink" href="#movement-and-exploration" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Added the obvious note that items are immune to poison damage.</p></li>
+<li><p>Clearer definition of <a class="reference external" href="03-movement-exploration.html#places-that-are-on-fire">fire damage by size of fire</a>.</p></li>
+<li><p>Simplified <a class="reference external" href="03-movement-exploration.html#characters-starvation-and-other-bad-ways-to-die">time to starvation</a>.</p></li>
+<li><p>Fully classified <a class="reference external" href="03-movement-exploration.html#classification-of-inclement-weather-hazards">inclement weather hazards</a>.</p></li>
+<li><p>Added clarification to <a class="reference external" href="03-movement-exploration.html#breaking">breaking and entering</a> that attack rolls against objects against objects should only be made when missing can make a difference to the outcome.</p></li>
+<li><p>Decreased journey time regained to 2 hours per short rest instead of 5 hours.</p></li>
+<li><p>Fixed <a class="reference external" href="03-movement-exploration.html#falling">Falling rules</a> wording to use acrobatics roll instead of dex.</p></li>
+<li><p>Reformatted summary table of scouting and camping table.</p></li>
+<li><p>Clarified <a class="reference external" href="03-movement-exploration.html#global-movement-pushing-and-fatigue">fatigue rules for running and sprinting</a>.</p></li>
+</ul>
+</section>
+<section id="id38">
+<h3>Combat<a class="headerlink" href="#id38" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Attacks of opportunity reworded and better explained. Attacks of opportunity can now only be made with up to half concealment (1/6), any more and it fails.</p></li>
+</ul>
+</section>
+<section id="id39">
+<h3>Abilities<a class="headerlink" href="#id39" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Unite Elemental Blast and Touch into the <a class="reference external" href="06-abilities.html#elementalism-elemental-blast">“Elementalism”</a> group, which gives a more complete ability.</p></li>
+<li><p>Add <a class="reference external" href="06-abilities.html#rapid-shot">“Rapid shot”</a> ability.</p></li>
+<li><p>Reduce the bonus given by <a class="reference external" href="06-abilities.html#terrain-mastery">terrain mastery</a> from +4 to +2.</p></li>
+<li><p>Elaborate on commanding the beast for <a class="reference external" href="06-abilities.html#bind-beast-i-x">bind beast</a>.</p></li>
+<li><p>Added <a class="reference external" href="06-abilities.html#charm-i-iv">Charm</a>.</p></li>
+<li><p>Tweaked <a class="reference external" href="06-abilities.html#spellsong-i-iv">Spellsong</a> to be a bit more useful (added option to restore SP/MP) and <a class="reference external" href="06-abilities.html#spelldance-i-iv">Spelldance</a>.</p></li>
+<li><p>Added <a class="reference external" href="06-abilities.html#second-soul">Second Soul</a> boon, for those poor, haunted edgelords.</p></li>
+<li><p>Reduced the power boost granted by <a class="reference external" href="06-abilities.html#touch-enhanced">Enhanced Elemental Touch</a>, since it was a bit too strong.</p></li>
+</ul>
+</section>
+<section id="id40">
+<h3>Spells<a class="headerlink" href="#id40" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Amended <a class="reference external" href="08-spell-list.html#command-mortal">command mortal</a> to account for self harming.</p></li>
+<li><p>Added <a class="reference external" href="08-spell-list.html#dominate-mortal">dominate mortal</a> for testing.</p></li>
+<li><p>Added <a class="reference external" href="08-spell-list.html#forced-possession">forced possession</a> for testing.</p></li>
+<li><p>Clean up parameters on spells.</p></li>
+</ul>
+</section>
+<section id="id41">
+<h3>Weapons and Armour<a class="headerlink" href="#id41" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Greatbow increased to 1d12. This isn’t going to backfire at all.</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="from-v0-0-16">
+<h2>From v0.0.16<a class="headerlink" href="#from-v0-0-16" title="Link to this heading">¶</a></h2>
+<section id="id42">
+<h3>General<a class="headerlink" href="#id42" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Slightly reword some parts of the intro chapter.</p></li>
+<li><p>Conversion table from human NPCs to other humanoids.</p></li>
+<li><p>Beautify <a class="reference external" href="10-conditions-types.html#damage-types">damage chapter</a> and “improve” <a class="reference external" href="10-conditions-types.html#electricity-lightning">lightning</a>/<a class="reference external" href="10-conditions-types.html#light">light</a> damage.</p></li>
+<li><p>Remove lightning resistance for profane beings and add light vulnerability where missing.</p></li>
+<li><p>Skill formula is now 4+[INT] instead of 3+[INT]</p></li>
+<li><p>Background skills are halved (1 for every ODD level), but the bonus is increased by 1.</p></li>
+</ul>
+</section>
+<section id="id43">
+<h3>Combat<a class="headerlink" href="#id43" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Fix size dependence of <a class="reference external" href="04-combat.html#basic-martial-manoeuvres">basic martial manoeuvres</a> (+/-2 per size categories to size dependent manoeuvres).</p></li>
+</ul>
+</section>
+<section id="id44">
+<h3>Movement and Exploration<a class="headerlink" href="#id44" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Change flight rules to support different <a class="reference external" href="03-movement-exploration.html#flight-parameters">flight endurance</a> independently of flight rating (Also added modification to racial flight rules).</p></li>
+<li><p>Some weapons ignore part of the <a class="reference external" href="03-movement-exploration.html#object-hit-point-durability-table">damage reduction of objects</a>.</p></li>
+<li><p>Reword <a class="reference external" href="03-movement-exploration.html#load-and-carrying-capacity">“Load and Carrying Capacity”</a> for readability.</p></li>
+</ul>
+</section>
+<section id="id45">
+<h3>Abilities<a class="headerlink" href="#id45" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Added <a class="reference external" href="06-abilities.html#sleep-on-the-wing">Sleep on the Wind</a> and <a class="reference external" href="06-abilities.html#enduring-flight">Enduring Flight</a>.</p></li>
+<li><p>Add heavy armour proficiency prerequisite to <a class="reference external" href="06-abilities.html#armour-mastery-heavy">heavy armour mastery</a>.</p></li>
+<li><p>Add <a class="reference external" href="06-abilities.html#broad-strike-greater">“Greater Broad Strike”</a>.</p></li>
+<li><p>Change the wording on <a class="reference external" href="06-abilities.html#mighty-ii">“Mighty II”</a> to make it understandable by mortals.</p></li>
+<li><p>Double the cost of <a class="reference external" href="06-abilities.html#flash-step">flash step</a> when wearing medium armours.</p></li>
+<li><p>Allow two targets by default for <a class="reference external" href="06-abilities.html#sweep">elemental sweep</a>.</p></li>
+<li><p>Empower <a class="reference external" href="06-abilities.html#bard-song-i-iv">Bard Song</a> a bit more.</p></li>
+<li><p>Add <a class="reference external" href="06-abilities.html">Alternate Form</a> and []</p></li>
+</ul>
+</section>
+<section id="spell-list">
+<h3>Spell list<a class="headerlink" href="#spell-list" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Tidy up spell costs for global spells and upcasting terminology.</p></li>
+<li><p>Add more uses for <a class="reference external" href="06-abilities.html#alternate-form-i-iv">Alternate Form I-IV</a>, <a class="reference external" href="06-abilities.html#alternate-form-sequester">Alternate Form: Sequester</a> and <a class="reference external" href="06-abilities.html#alternate-form-swift-transformation">Alternate Form: Swift Transformation</a>.</p></li>
+<li><p>Balance <a class="reference external" href="08-spell-list.html#metamorphosisrebirth">Metamorphosis/Rebirth</a> to reduce the chance of dragons.</p></li>
+<li><p>Balance <a class="reference external" href="08-spell-list.html#winters-touch">Winter’s Touch</a> and <a class="reference external" href="08-spell-list.html#winters-grasp">Winter’s Grasp</a> a touch.</p></li>
+</ul>
+</section>
+<section id="id46">
+<h3>Weapons and Armour<a class="headerlink" href="#id46" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Mauls, axes and siege weapons <a class="reference external" href="11-weapons-armour.html">ignore some damage reduction</a> of certain materials.</p></li>
+<li><p><a class="reference external" href="11-weapons-armour.html#percussive">Mauls</a> deal an extra die of damage when sundering.</p></li>
+<li><p><a class="reference external" href="11-weapons-armour.html#axes">Axes</a> (war and great) no longer grant the grapple manoeuvre.</p></li>
+<li><p><a class="reference external" href="05-skills.html#armour-proficiencies">Non-proficiency penalty</a> for light armour is modified (the penalty is reduced to -2, but the armour bonus gained from the armour is halved).</p></li>
+<li><p><a class="reference external" href="05-skills.html#armour-proficiencies">Padded armour and leather armour</a> can be used through either light or medium armour proficiency, but otherwise still counts as medium armour.</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="from-v0-0-17">
+<h2>From v0.0.17<a class="headerlink" href="#from-v0-0-17" title="Link to this heading">¶</a></h2>
+<section id="id47">
+<h3>General<a class="headerlink" href="#id47" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Add <a class="reference external" href="09-races.html#lizard-folk-level-1-template--8-points">lizard folk</a></p></li>
+<li><p>Clean up <a class="reference external" href="13-crafting-imbuing.html">crafting and enchanting</a>:</p>
+<ul>
+<li><p>Clarify procedure.</p></li>
+<li><p>Add alchemy.</p></li>
+<li><p>Fix healing and related magic.</p></li>
+<li><p>Added <a class="reference external" href="10-conditions-types.html#condition-table">“usual”</a> duration for conditions.</p></li>
+</ul>
+</li>
+<li><p>CHANGE <a class="reference external" href="04-combat.html#cover-and-concealment">FULL CONCEALMENT</a>: Now for melee/close, it only gives a 4/6 miss chance.</p></li>
+<li><p>Remove references to “super advantage/disadvantage” and 4D12dl2/4D12dh2 rolls.</p></li>
+<li><p>Changed <a class="reference external" href="10-conditions-types.html#surprised">surprised</a> to allow reactions to be taken. This is potentially a breaking change.</p></li>
+<li><p>Changed <a class="reference external" href="07-magic-and-spellcasting.html#concentration">concentration</a> so that DISABLED (rather than incapacitated) spellcasters cannot concentrate.</p></li>
+<li><p>Adjust <a class="reference external" href="09-races.html#vampire-level-10-template--80">Vampire</a> and <a class="reference external" href="09-races.html#vampire-spawn-level-5-template--40">Vampire Spawn</a> template blocks.</p></li>
+</ul>
+</section>
+<section id="id48">
+<h3>Combat<a class="headerlink" href="#id48" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Improve descriptions in <a class="reference external" href="04-combat.html">Chapter 4: Combat</a>.</p></li>
+<li><p>Add forgotten penalties for not having <a class="reference external" href="11-weapons-armour.html#armour-proficiencies">shield proficiency</a> but still using a shield.</p></li>
+<li><p>Define how concealment interacts with stealth and losing track of targets. (This is important to avoid “I’m blind, but I know exactly where they are” lunacy).</p></li>
+<li><p>The concept of <a class="reference external" href="04-combat.html#occupied-area-and-hostile-squares">hostile squares</a> and how to get through them (acrobatics, bull rush, feint).</p></li>
+</ul>
+</section>
+<section id="id49">
+<h3>Skills<a class="headerlink" href="#id49" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Modify <a class="reference external" href="05-skills.html#observe">Observe</a> to have smaller bonus/penalties due to size. Increase due to concealment.</p></li>
+</ul>
+</section>
+<section id="id50">
+<h3>Abilities<a class="headerlink" href="#id50" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Fix <a class="reference external" href="06-abilities.html#deflect-missile">deflect missiles</a>:</p>
+<ul>
+<li><p>It only affects a single attack per round.</p></li>
+<li><p>It does not require use of SP dice.</p></li>
+</ul>
+</li>
+<li><p>Change around the requirements for <a class="reference external" href="06-abilities.html#assassinate-i-v">assassinate</a> II and III.</p></li>
+<li><p>Add <a class="reference external" href="06-abilities.html#foreign-forms">Foreign Forms</a> for elementalism, as a test rule.</p></li>
+<li><p>Tweak <a class="reference external" href="06-abilities.html#bind-beast-i-x">Bind Beast</a>, to make it more workable (allow levelling up of beasts, always has the HP, etc in the table, allow smaller beasts to fly and dig even at low levels).</p></li>
+<li><p>Change <a class="reference external" href="06-abilities.html#debilitating-strike">debilitating strike</a> to go off INT/WIS based threshold.</p></li>
+<li><p>Wording of <a class="reference external" href="06-abilities.html#life-sense-i-vi">Life Sense</a> and <a class="reference external" href="06-abilities.html#tremor-sense-i-vi">Tremor Sense</a>.</p></li>
+<li><p>Split <a class="reference external" href="06-abilities.html#blink-i">blink</a> into Blink I and Blink II.</p></li>
+<li><p>Rearrange ability list.</p></li>
+<li><p>Prevent recursive dragons (modify <a class="reference external" href="06-abilities.html#alternate-form-i-iv">Alternate Form</a>).</p></li>
+</ul>
+</section>
+<section id="monsters-and-npcs">
+<h3>Monsters and NPCs<a class="headerlink" href="#monsters-and-npcs" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Reduce the STR of some <a class="reference external" href="bestiary/constructs.html">golems</a> a little bit.</p></li>
+</ul>
+</section>
+<section id="id51">
+<h3>Spells<a class="headerlink" href="#id51" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Remove limit for spells memorised, because it sucks.</p></li>
+<li><p>Add concept of “domain” and “method” magic.</p></li>
+<li><p>Add <a class="reference external" href="08-spell-list.html#least-weather-control">Least Weather Control</a>, for your small, personal rain clouds.</p></li>
+<li><p>Modify <a class="reference external" href="08-spell-list.html#least-rest">Least Rest</a> to make it less useless. It is no longer in the INCANTATION spell list!</p></li>
+<li><p>Upgrade <a class="reference external" href="08-spell-list.html#animatecontrol-dead">Animate/Control Dead</a>. Now animates a level III undead.</p></li>
+<li><p>Upgrade upcasted <a class="reference external" href="08-spell-list.html#blade-ward">Blade Ward</a> to give immunity at 7 MP dice instead.</p></li>
+<li><p>Slightly weaken upcasted <a class="reference external" href="08-spell-list.html#growth">Growth</a>.</p></li>
+<li><p><a class="reference external" href="08-spell-list.html#melt">Melt</a> now does half damage on successful save.</p></li>
+<li><p>Go through the <a class="reference external" href="08-spell-list.html">Spell List</a> and touch up everything.</p></li>
+<li><p><a class="reference external" href="07-magic-and-spellcasting.html#spells-known-and-spells-ready">Double prepared spell limit</a>.</p></li>
+<li><p>Fix wording on <a class="reference external" href="08-spell-list.html#greater-earth-ward.">Greater Earth Ward</a></p></li>
+<li><p>Add <a class="reference external" href="08-spell-list.html#forbiddance">Forbiddance</a> spell (needed a more absolute barrier spell).</p></li>
+<li><p>Modify <a class="reference external" href="08-spell-list.html#summon-beast">Summon Beast</a> to be level beasts up faster after 2 MP (it is otherwise useless).</p></li>
+<li><p>Modify all summoning spells to allow summons to appear either at the end of this turn or the start of next turn, but they still can’t act until the next turn.</p></li>
+<li><p>Make <a class="reference external" href="08-spell-list.html#winters-touch">Winter’s Touch</a> a bit less horrific.</p></li>
+<li><p>Modify <a class="reference external" href="08-spell-list.html#bears-claws">Bear’s Claws</a> to scale with level a bit more.</p></li>
+<li><p>Decrease the minimum distance for 1 round falls on <a class="reference external" href="08-spell-list.html#glide">Glide</a>.</p></li>
+<li><p>Allow upcast <a class="reference external" href="08-spell-list.html#cure">cure</a> to increase damage to undead.</p></li>
+<li><p>Global <a class="reference external" href="08-spell-list.html#fairy-shelter">fairy shelter</a> now last 8 hours (long enough to sleep or rest).</p></li>
+<li><p>Adjust<a class="reference external" href="08-spell-list.html#least-curse">Least curse</a>, to be a touch less dangerous to the caster.</p></li>
+<li><p>Add STR save for <a class="reference external" href="08-spell-list.html#storm-ward">storm ward</a>.</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="from-v0-0-18">
+<h2>From v0.0.18<a class="headerlink" href="#from-v0-0-18" title="Link to this heading">¶</a></h2>
+<section id="id52">
+<h3>General<a class="headerlink" href="#id52" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Suicide and <a class="reference external" href="04-combat.html#dropping-defences-and-voluntary-hp-damage">voluntary damage</a> now has rules.</p></li>
+<li><p>Formally change <a class="reference external" href="02-base-rules.html#hit-threshold-hit">HiT rules</a> to rule that shields and parrying are active, but deflection is passive.</p></li>
+<li><p>Redefine some <a class="reference external" href="10-conditions-types.html#conditions-in-detail">conditions</a> that are affected by changes to HiT rules (and other changes to conditions, notably surprised, poisoned and diseased- crippled is also better defined):</p>
+<ul>
+<li><p><a class="reference external" href="10-conditions-types.html#surprised">Surprised</a></p></li>
+<li><p><a class="reference external" href="10-conditions-types.html#immobilised">Immobilised</a></p></li>
+<li><p><a class="reference external" href="10-conditions-types.html#catatonic">Catatonic</a></p></li>
+<li><p><a class="reference external" href="10-conditions-types.html#paralysed">Paralysed</a></p></li>
+<li><p><a class="reference external" href="10-conditions-types.html#helpless">Helpless</a></p></li>
+<li><p><a class="reference external" href="10-conditions-types.html#unconscious">Unconscious</a></p></li>
+</ul>
+</li>
+<li><p>Improve and fix monsters here and there.</p></li>
+</ul>
+</section>
+<section id="id53">
+<h3>Combat<a class="headerlink" href="#id53" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Better describe how <a class="reference external" href="04-combat.html#basic-martial-manoeuvres">“grapple”</a> can be used to get from “restrained” to “immobilised” and the cost of maintaining a grapple.</p></li>
+<li><p>Change how total <a class="reference external" href="04-combat.html#total-defence-shield">defence: shield</a> and <a class="reference external" href="04-combat.html#total-defence-dodge">total defence: dodge</a> work, to make them line up with the changes in concept for HiT.</p></li>
+</ul>
+</section>
+<section id="id54">
+<h3>Abilities<a class="headerlink" href="#id54" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Reduce prohibitive costs of Elementalism (<a class="reference external" href="06-abilities.html#chain">Chain</a> and <a class="reference external" href="06-abilities.html#chain">Arc</a>). First bend/30degrees are free. Afterwards reduce to 1 MP die cost.</p></li>
+<li><p>Allow <a class="reference external" href="06-abilities.html#deflection">deflection</a> and <a class="reference external" href="06-abilities.html#esoteric-deflection">esoteric deflection</a> to be effective against ALL supernatural attacks.</p></li>
+<li><p>Added “Blinded” and “Frightened”, and modified the “Restrained” effect to <a class="reference external" href="06-abilities.html#effects">elementalism: effects</a>.</p></li>
+</ul>
+</section>
+<section id="id55">
+<h3>Spells<a class="headerlink" href="#id55" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Weaken <a class="reference external" href="08-spell-list.html#stone-ward">Stone Ward</a>, to take into account material levels of weapons.</p></li>
+</ul>
+</section>
+<section id="weapons">
+<h3>Weapons<a class="headerlink" href="#weapons" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Staves now can give a shield[weapon] bonus to HiT if wielded with both hands.</p></li>
+<li><p>Slightly better description of how armour works.</p></li>
+<li><p>Fix some poor formatting.</p></li>
+</ul>
+</section>
+<section id="equipment-and-economy">
+<h3>Equipment and Economy<a class="headerlink" href="#equipment-and-economy" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Add <a class="reference external" href="12-equipment-economy.html#alchemical-reagents-and-potions">Alchemical goods table</a>.</p></li>
+</ul>
+</section>
+<section id="crafting-and-imbuing">
+<h3>Crafting and Imbuing<a class="headerlink" href="#crafting-and-imbuing" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Adjust the threshold modifiers <a class="reference external" href="13-crafting-imbuing.html#threshold-table">in the table</a>.</p></li>
+<li><p>Updated and expanded <a class="reference external" href="13-crafting-imbuing.html#alchemy">alchemy rules</a>.</p></li>
+<li><p>Reword enchantment <a class="reference external" href="13-crafting-imbuing.html#enchanting-imbuing-and-alchemy">introduction</a>.</p></li>
+<li><p>Add section on <a class="reference external" href="13-crafting-imbuing.html#modified-effects-and-source-spellsabilities">modifying effects</a>.</p></li>
+</ul>
+</section>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="TODO.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Character sheet</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="bestiary/spirits.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Spirits</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2023-3023, Fantasy Committee
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Changelog</a><ul>
+<li><a class="reference internal" href="#from-v0-0-1">From v0.0.1</a></li>
+<li><a class="reference internal" href="#from-v0-0-2">From v0.0.2</a></li>
+<li><a class="reference internal" href="#from-v0-0-3">From v0.0.3</a></li>
+<li><a class="reference internal" href="#from-v0-0-4">From v0.0.4</a><ul>
+<li><a class="reference internal" href="#general">General</a></li>
+<li><a class="reference internal" href="#abilities-spells">Abilities &amp; Spells</a></li>
+<li><a class="reference internal" href="#skills">Skills</a></li>
+<li><a class="reference internal" href="#monsters">Monsters</a></li>
+<li><a class="reference internal" href="#formatting-grammar-etc">Formatting, Grammar, etc</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#from-v0-0-5">From v0.0.5</a><ul>
+<li><a class="reference internal" href="#spells">Spells</a></li>
+<li><a class="reference internal" href="#id1">Monsters</a></li>
+<li><a class="reference internal" href="#id2">General</a></li>
+<li><a class="reference internal" href="#paperwork">Paperwork</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#from-v0-0-6">From v0.0.6</a><ul>
+<li><a class="reference internal" href="#id3">General</a></li>
+<li><a class="reference internal" href="#combat">Combat</a></li>
+<li><a class="reference internal" href="#races">Races</a></li>
+<li><a class="reference internal" href="#id4">Spells</a></li>
+<li><a class="reference internal" href="#abilities">Abilities</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#from-v0-0-7">From v0.0.7</a><ul>
+<li><a class="reference internal" href="#id5">General</a></li>
+<li><a class="reference internal" href="#id6">Combat</a></li>
+<li><a class="reference internal" href="#id7">Races</a></li>
+<li><a class="reference internal" href="#id8">Spells</a></li>
+<li><a class="reference internal" href="#id9">Abilities</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#from-v0-0-8">From v0.0.8</a><ul>
+<li><a class="reference internal" href="#id10">General</a></li>
+<li><a class="reference internal" href="#id11">Combat</a></li>
+<li><a class="reference internal" href="#id12">Races</a></li>
+<li><a class="reference internal" href="#id13">Spells</a></li>
+<li><a class="reference internal" href="#id14">Abilities</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#from-v0-0-9">From v0.0.9</a><ul>
+<li><a class="reference internal" href="#id15">General</a></li>
+<li><a class="reference internal" href="#id16">Combat</a></li>
+<li><a class="reference internal" href="#id17">Races</a></li>
+<li><a class="reference internal" href="#id18">Spells</a></li>
+<li><a class="reference internal" href="#id19">Abilities</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#from-v0-0-10">From v0.0.10</a><ul>
+<li><a class="reference internal" href="#id20">General</a></li>
+<li><a class="reference internal" href="#id21">Combat</a></li>
+<li><a class="reference internal" href="#id22">Races</a></li>
+<li><a class="reference internal" href="#id23">Spells</a></li>
+<li><a class="reference internal" href="#id24">Abilities</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#from-v0-0-11">From v0.0.11</a><ul>
+<li><a class="reference internal" href="#id25">General</a></li>
+<li><a class="reference internal" href="#id26">Abilities</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#from-v0-0-12">From v0.0.12</a><ul>
+<li><a class="reference internal" href="#id27">General</a></li>
+<li><a class="reference internal" href="#spellcasting">Spellcasting</a></li>
+<li><a class="reference internal" href="#id28">Abilities</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#from-v0-0-13">From v0.0.13</a><ul>
+<li><a class="reference internal" href="#id29">General</a></li>
+<li><a class="reference internal" href="#id30">Spellcasting</a></li>
+<li><a class="reference internal" href="#id31">Abilities</a></li>
+<li><a class="reference internal" href="#conditions-and-types">Conditions and Types</a></li>
+<li><a class="reference internal" href="#id32">Skills</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#from-v0-0-14">From v0.0.14</a><ul>
+<li><a class="reference internal" href="#id33">General</a></li>
+<li><a class="reference internal" href="#id34">Skills</a></li>
+<li><a class="reference internal" href="#id35">Abilities</a></li>
+<li><a class="reference internal" href="#weapons-and-armour">Weapons and Armour</a></li>
+<li><a class="reference internal" href="#id36">Spellcasting</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#from-v0-0-15">From v0.0.15</a><ul>
+<li><a class="reference internal" href="#id37">General</a></li>
+<li><a class="reference internal" href="#movement-and-exploration">Movement and Exploration</a></li>
+<li><a class="reference internal" href="#id38">Combat</a></li>
+<li><a class="reference internal" href="#id39">Abilities</a></li>
+<li><a class="reference internal" href="#id40">Spells</a></li>
+<li><a class="reference internal" href="#id41">Weapons and Armour</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#from-v0-0-16">From v0.0.16</a><ul>
+<li><a class="reference internal" href="#id42">General</a></li>
+<li><a class="reference internal" href="#id43">Combat</a></li>
+<li><a class="reference internal" href="#id44">Movement and Exploration</a></li>
+<li><a class="reference internal" href="#id45">Abilities</a></li>
+<li><a class="reference internal" href="#spell-list">Spell list</a></li>
+<li><a class="reference internal" href="#id46">Weapons and Armour</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#from-v0-0-17">From v0.0.17</a><ul>
+<li><a class="reference internal" href="#id47">General</a></li>
+<li><a class="reference internal" href="#id48">Combat</a></li>
+<li><a class="reference internal" href="#id49">Skills</a></li>
+<li><a class="reference internal" href="#id50">Abilities</a></li>
+<li><a class="reference internal" href="#monsters-and-npcs">Monsters and NPCs</a></li>
+<li><a class="reference internal" href="#id51">Spells</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#from-v0-0-18">From v0.0.18</a><ul>
+<li><a class="reference internal" href="#id52">General</a></li>
+<li><a class="reference internal" href="#id53">Combat</a></li>
+<li><a class="reference internal" href="#id54">Abilities</a></li>
+<li><a class="reference internal" href="#id55">Spells</a></li>
+<li><a class="reference internal" href="#weapons">Weapons</a></li>
+<li><a class="reference internal" href="#equipment-and-economy">Equipment and Economy</a></li>
+<li><a class="reference internal" href="#crafting-and-imbuing">Crafting and Imbuing</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="_static/documentation_options.js?v=8bafd125"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/scripts/furo.js?v=46bd48cc"></script>
+    </body>
+</html>

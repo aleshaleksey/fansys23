@@ -1,0 +1,1866 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="./">
+  <head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="genindex.html"><link rel="search" title="Search" href="search.html"><link rel="next" title="Combat" href="04-combat.html"><link rel="prev" title="FanSys23 Quick-start" href="01-quick-start.html">
+
+    <!-- Generated with Sphinx 8.2.3 and Furo 2025.09.25 -->
+        <title>Actions outside of Combat - FanSys 0.0.18</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d111a655" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=580074bf" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=8dab3a3b" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f2f2f2;
+  --color-code-foreground: #1e1e1e;
+  --color-foreground-primary: #202424;
+  --color-foreground-secondary: #4a4c53;
+  --color-brand-primary: #112233;
+  --color-brand-content: #443322;
+  --color-brand-visited: #448822;
+  --color-background-primary: #f2f4ec;
+  --color-background-secondary: #e5e7e3;
+  --color-background-hover: #fafaf5;
+  --color-background-border: #40404067;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-foreground-primary: #cfd0d0;
+  --color-foreground-secondary: #acb0b5;
+  --color-brand-primary: #AABBCC;
+  --color-brand-content: #CFBEAC;
+  --color-brand-visited: #99DD99;
+  --color-background-primary: #242628;
+  --color-background-secondary: #2a2c2e;
+  --color-background-hover: #1e2124ff;
+  --color-background-border: #483945;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  --color-foreground-primary: #cfd0d0;
+  --color-foreground-secondary: #acb0b5;
+  --color-brand-primary: #AABBCC;
+  --color-brand-content: #CFBEAC;
+  --color-brand-visited: #99DD99;
+  --color-background-primary: #242628;
+  --color-background-secondary: #2a2c2e;
+  --color-background-hover: #1e2124ff;
+  --color-background-border: #483945;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle site navigation sidebar">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc" aria-label="Toggle table of contents sidebar">
+<label class="overlay sidebar-overlay" for="__navigation"></label>
+<label class="overlay toc-overlay" for="__toc"></label>
+
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <span class="icon"><svg><use href="#svg-menu"></use></svg></span>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="index.html"><div class="brand">FanSys 0.0.18</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="index.html">
+  
+  <span class="sidebar-brand-text">FanSys 0.0.18</span>
+  
+</a><form class="sidebar-search-container" method="get" action="search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Index:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="01-quick-start.html">FanSys23 Quick-start</a></li>
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Actions outside of Combat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="04-combat.html">Combat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="05-skills.html">Skills</a></li>
+<li class="toctree-l1"><a class="reference internal" href="06-abilities.html">Abilities and Boons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="07-magic-and-spellcasting.html">Spells</a></li>
+<li class="toctree-l1"><a class="reference internal" href="08-spell-list.html">Spell List</a></li>
+<li class="toctree-l1"><a class="reference internal" href="09-races.html">Types, Races, Species and Templates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="10-conditions-types.html">Conditions and Types</a></li>
+<li class="toctree-l1"><a class="reference internal" href="11-weapons-armour.html">Weapons and armour</a></li>
+<li class="toctree-l1"><a class="reference internal" href="12-equipment-economy.html">Equipment and Economy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="13-crafting-imbuing.html">Crafting and Imbuing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="14-poisons-and-diseases.html">Poisons and Diseases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="15-charm-etc.html">A note on charm, domination and possession</a></li>
+<li class="toctree-l1"><a class="reference internal" href="16-recipes.html">Recipes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="02-base-rules.html">Base Rules</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="bestiary.html">A Bestiary for Fantasy Worlds</a><input aria-label="Toggle navigation of A Bestiary for Fantasy Worlds" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/forwards.html">Forwards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/beasts-and-plants.html">Beasts and Plants</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/constructs.html">Constructs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/divines.html">Divines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/humanoids.html">NPC stat blocks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/monsters-and-dragons.html">Monsters and Dragons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/profanes.html">Profanes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bestiary/spirits.html">Spirits</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="CHANGELOG.html">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="TODO.html">Character sheet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="LICENSE.html">License</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="view-this-page">
+  <a class="muted-link" href="_sources/03-movement-exploration.md.txt" title="View this page">
+    <svg><use href="#svg-eye"></use></svg>
+    <span class="visually-hidden">View this page</span>
+  </a>
+</div>
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle" aria-label="Toggle Light / Dark / Auto color theme">
+              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          <section id="actions-outside-of-combat">
+<h1>Actions outside of Combat<a class="headerlink" href="#actions-outside-of-combat" title="Link to this heading">¶</a></h1>
+<p>A character should be able to take actions an entity of its type should conceivably be able to take including eat, sleep, explore, and interact with the world.</p>
+<p>Some, but not all, of these activities are covered in rules for skill use, research, exploration, resting, crafting, etc. Activities that are not covered by the rules are judged either too hard to cover well within the rules, or too rare in the foreseen use of the game to bother with.</p>
+<p>A certain level of freeform RP and common sense are recommended.</p>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="#load-and-carrying-capacity">Load and Carrying Capacity</a></p></li>
+<li><p><a class="reference external" href="#local-and-global-movement">Local and Global Movement</a></p>
+<ul class="simple">
+<li><p><a class="reference external" href="#global-movement-pushing-and-fatigue">Global Movement, Pushing and Fatigue</a></p>
+<ul>
+<li><p><a class="reference external" href="#running-and-fatigue">Running and Fatigue</a></p></li>
+<li><p><a class="reference external" href="#sprinting-and-fatigue">Sprinting and Fatigue</a></p></li>
+<li><p><a class="reference external" href="#fatigue-table">Fatigue Table</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#difficult-terrain">Difficult Terrain</a></p></li>
+<li><p><a class="reference external" href="#walking">Walking</a></p></li>
+<li><p><a class="reference external" href="#climb">Climb</a></p></li>
+<li><p><a class="reference external" href="#swimming">Swimming</a></p></li>
+<li><p><a class="reference external" href="#digging">Digging</a></p></li>
+<li><p><a class="reference external" href="#flight">Flight</a></p>
+<ul>
+<li><p><a class="reference external" href="#limitations-of-flight">Limitations of Flight</a></p></li>
+<li><p><a class="reference external" href="#flight-parameters">Flight Parameters</a></p></li>
+<li><p><a class="reference external" href="#notes-on-flight">Notes on Flight</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#vigorous-motion">Vigorous Motion</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#exploration">Exploration</a></p>
+<ul class="simple">
+<li><p><a class="reference external" href="#overview">Overview</a></p></li>
+<li><p><a class="reference external" href="#local-and-global-movement-1">Local and Global Movement</a></p></li>
+<li><p><a class="reference external" href="#flying-and-turbulence">Flying and Turbulence</a></p></li>
+<li><p><a class="reference external" href="#terrains">Terrains</a></p></li>
+<li><p><a class="reference external" href="#classification-of-inclement-weather-hazards">Classification of Inclement Weather Hazards</a></p>
+<ul>
+<li><p><a class="reference external" href="#fair-weather">Fair Weather</a></p></li>
+<li><p><a class="reference external" href="#precipitation">Precipitation</a></p></li>
+<li><p><a class="reference external" href="#wind">Wind</a></p></li>
+<li><p><a class="reference external" href="#visibility">Visibility</a></p></li>
+<li><p><a class="reference external" href="#temperature">Temperature</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#weather-conditions-and-associated-hazards">Weather conditions and associated hazards</a></p></li>
+<li><p><a class="reference external" href="#travel-rolls-and-terrain-summary">Travel rolls and terrain (summary)</a></p>
+<ul>
+<li><p><a class="reference external" href="#summary-of-simplified-travel-rules-camping-and-navigation-combined">Summary of Simplified Travel Rules</a></p></li>
+<li><p><a class="reference external" href="#summary-of-full-travel-rules">Summary of Full Travel Rules</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#travel-and-getting-lost">Travel and getting lost</a></p></li>
+<li><p><a class="reference external" href="#scouting-prospecting-and-exploration">Scouting, prospecting and exploration</a></p></li>
+<li><p><a class="reference external" href="#harvesting-hunting-and-mining">Harvesting, Hunting and Mining (very draft)</a></p></li>
+<li><p><a class="reference external" href="#camping">Camping</a></p></li>
+<li><p><a class="reference external" href="#breaking-and-entering">Breaking and Entering</a></p>
+<ul>
+<li><p><a class="reference external" href="#breaking">Breaking</a></p></li>
+<li><p><a class="reference external" href="#object-hit-point-durability-table">Object hit point (durability) table</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#bindings-and-restraints">Bindings and Restraints</a></p></li>
+<li><p><a class="reference external" href="#terrain-hazards-todo">Terrain Hazards (TODO)</a></p></li>
+<li><p><a class="reference external" href="#falling">Falling</a></p></li>
+<li><p><a class="reference external" href="#fire-damage-and-being-on-fire">Fire damage and being on fire</a></p>
+<ul>
+<li><p><a class="reference external" href="#places-that-are-on-fire">Places that are on fire</a></p></li>
+<li><p><a class="reference external" href="#being-on-fire">Being on fire</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#characters-starvation-and-other-bad-ways-to-die">Characters, starvation, and other bad ways to die</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="#supernatural-terrain">Supernatural Terrain</a></p>
+<ul class="simple">
+<li><p><a class="reference external" href="#spirit-realms">Spirit Realms</a></p></li>
+<li><p><a class="reference external" href="#afterlives">Afterlives</a></p></li>
+<li><p><a class="reference external" href="#secret-paths">Secret Paths</a></p></li>
+</ul>
+</li>
+</ol>
+<hr class="docutils" />
+<section id="load-and-carrying-capacity">
+<h2>Load and Carrying Capacity<a class="headerlink" href="#load-and-carrying-capacity" title="Link to this heading">¶</a></h2>
+<p>How much a character can carry is determined by its STR and its size. As a character approaches its carrying limit, it begins to suffer penalties. The categories are as follows. These capacities are modified by the <a class="reference external" href="06-abilities.html#mighty-i">“Mighty I”</a> and <a class="reference external" href="06-abilities.html#mighty-ii">“Mighty II”</a> boons.</p>
+<section id="weight-limits-table">
+<h3>Weight limits table<a class="headerlink" href="#weight-limits-table" title="Link to this heading">¶</a></h3>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Load Level</p></th>
+<th class="head"><p>Weight Limit (lb)</p></th>
+<th class="head"><p>Special</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Light</p></td>
+<td><p>(0lb to 4lb) x Str</p></td>
+<td><p>Entities with a [natural] fly speed cannot fly when carrying more than a light load</p></td>
+</tr>
+<tr class="row-odd"><td><p>Medium</p></td>
+<td><p>(4lb+ to 8lb) x Str</p></td>
+<td><p>Entities with a dig speed cannot dig with more than a medium load</p></td>
+</tr>
+<tr class="row-even"><td><p>Heavy</p></td>
+<td><p>(8lb+ to 20lb) x Str</p></td>
+<td><p>A character can lift and carry no more than its heavy load</p></td>
+</tr>
+<tr class="row-odd"><td><p>Drag</p></td>
+<td><p>Up to 30lb x Str</p></td>
+<td><p>A character can drag twice as much if there is low friction (or when pulling a cart), if the surface is very rough, the drag limit is halved.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="weight-penalties">
+<h3>Weight penalties<a class="headerlink" href="#weight-penalties" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Light loads give no penalty.</p></li>
+<li><p>Medium loads give the following penalties.</p>
+<ul>
+<li><p>Walk, dig speed: -5ft. Climb speed: -10ft, Swim speed: -15ft.</p></li>
+<li><p>All Str, Con, Dex based rolls, attacks and saves: -2</p></li>
+</ul>
+</li>
+<li><p>Heavy load give the following penalties.</p>
+<ul>
+<li><p>Walk, climb are halved.</p></li>
+<li><p>Dig and swim speed is reduced to 0.</p></li>
+<li><p>All Str, Con, Dex based rolls, attacks and saves: -6</p></li>
+<li><p>Maximum durations for walking (marching), running and sprinting before Con saves have to be made, is halved.</p></li>
+</ul>
+</li>
+<li><p>Characters cannot carry loads heavier than the heavy load limit, but they may be able to drag such a load (see below).</p></li>
+</ul>
+</section>
+<section id="dragging">
+<h3>Dragging<a class="headerlink" href="#dragging" title="Link to this heading">¶</a></h3>
+<p>Dragging a load, or pulling a vehicle, burdens a character somewhat differently to carrying the same load.</p>
+<ul class="simple">
+<li><p>Characters dragging objects below the “light load” limit can move at full speed, unless on difficult terrain. This limit is doubled for slick surface, or pulling vehicles.</p></li>
+<li><p>When dragging a “medium” or “heavy” load, a character’s base speed is halved and they cannot sprint. This limit is likewise doubled for slick surfaces and pulling vehicles.</p></li>
+<li><p>When dragging objects heavier than their “heavy load” limit, characters move at half of their walk speed and no faster than 10ft. In addition they cannot dig.</p></li>
+</ul>
+</section>
+<section id="weight-limits-and-size">
+<h3>Weight limits and size<a class="headerlink" href="#weight-limits-and-size" title="Link to this heading">¶</a></h3>
+<p>For every size above medium, the carrying capacity limits are doubled. For every size below medium, the carrying capacity limits are halved. See the <a class="reference external" href="02-base-rules.html#size-rules-table">weight rules</a> for more details.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="local-and-global-movement">
+<h2>Local and Global Movement<a class="headerlink" href="#local-and-global-movement" title="Link to this heading">¶</a></h2>
+<p>Here basic movement is described. It is based, where possible on observations. The main forms of movement are walk, climb, swim, flight and dig. Each one has its place and its pace. There are also two exotic types of movement which are not covered yet because we can live without it. Movement is measured in feet per round (ft), or miles per hour (mph). A very rough translation is 1mph = 10ft/round. This is known as the “global movement speed”.</p>
+<section id="global-movement-pushing-and-fatigue">
+<h3>Global Movement, Pushing and Fatigue<a class="headerlink" href="#global-movement-pushing-and-fatigue" title="Link to this heading">¶</a></h3>
+<p>Typically, an experienced traveller can continue their journey for 10 hours per day at a reasonable pace (equal to their global movement speed). If a traveller has a fly speed with limitations on fly duration, the time in flight counts against this total journey time of 10 hours. Thus, if a character has a flight time of 2 hours, and they spend those 2 hours on the wing, not only do they expend their flight time, but also they have only 8 hours of journey time remaining. During any rest, 2 hours of journey time is regained, with all 10 hours being regained during a long rest.</p>
+<p>A character may “push” beyond that time, but for every hour of “pushing” themselves in this way, the character expends 1 SP die (and hence 2 SP). A character who has ran out of SP or SP dice, can continue to push, at the cost of 1HP per hour, however, in this case they immediately gain the “crippled” condition.</p>
+<p>In addition, a traveller can move faster than their global movement speed (see <a class="reference external" href="#walking">“Walking”</a> below), however the SP dice/ HP cost is applied at shorter intervals.</p>
+<section id="running-and-fatigue">
+<h4>Running and Fatigue<a class="headerlink" href="#running-and-fatigue" title="Link to this heading">¶</a></h4>
+<p><a class="reference external" href="04-combat.html#actions-in-combat">Running</a> and <a class="reference external" href="04-combat.html#actions-in-combat">sprinting</a> cause most characters to tire more quickly than moving at their base speed. Any time spent “running” or “sprinting” is subtracted from global journey time as usual.</p>
+<ul class="simple">
+<li><p>For <a class="reference external" href="#walking">“walk”</a>, <a class="reference external" href="#swimming">“swim”</a> and <a class="reference external" href="#climb">“climb”</a> modalities a character can <strong>run</strong> for [CON] hours without fatiguing. Thereafter, for every 10 minutes of running the character must succeed a [CON] save (Threshold=[16 + number of previous saves]) or expend 1 SP die. If it has no SP die, it loses 1 HP instead and gains the crippled condition in one of the limbs that it uses for running. This limit is not reset when a character stops running. After a character takes a <a class="reference external" href="04-combat.html#short-rest">“short rest”</a>, it regains 1 hour of run time. After a <a class="reference external" href="04-combat#long-rest">“long rest”</a> it regains all of its run time.</p></li>
+<li><p>For the <a class="reference external" href="#flight">“flight”</a> modality, a character can run for [CON] x 10 minutes without fatiguing. Thereafter, for every 10 minutes of running the character must succeed a [CON] save (Threshold=[16 + number of previous saves]) or expend 1 SP die. If it has no SP die, it loses 1 HP instead and gains the crippled condition in one of its limbs that it uses for running. This limit is not reset when a character stops running. After a character takes a <a class="reference external" href="04-combat.html#short-rest">“short rest”</a>, it regains 10 minutes of run time. After a <a class="reference external" href="04-combat#long-rest">“long rest”</a> it regains all of its run time.</p></li>
+<li><p>Run time is shared between all movement modalities. Thus, a character that has +3 [CON] and has flown (at run speed) for 30 minutes, has no flight run time left, and 2 hours 30 minutes for the other modalities. If the same character had instead ran (walking modality, run speed) for 1 hour, it has no run time left for its flight.</p></li>
+<li><p>For other modalities, running is not possible.</p></li>
+</ul>
+</section>
+<section id="sprinting-and-fatigue">
+<h4>Sprinting and Fatigue<a class="headerlink" href="#sprinting-and-fatigue" title="Link to this heading">¶</a></h4>
+<p><a class="reference external" href="04-combat.html#actions-in-combat">sprinting</a> is explosive movement and causes fatigue much more quickly than running. Any time spent “sprinting” is subtracted from global journey time as usual.</p>
+<ul class="simple">
+<li><p>For <a class="reference external" href="#walking">“walk”</a> and <a class="reference external" href="#swimming">“swim”</a> modalities a character can <strong>sprint</strong> for [STR] <a class="reference external" href="04-combat.html#flow-of-combat">rounds</a> (6 seconds per round) without fatiguing. Thereafter, for every round of sprinting the character must succeed a [CON] save (Threshold=[16 + number of previous saves]) or expend 1 SP die. If it has no SP die, it loses 1 HP instead and gains the crippled condition in one of its limbs, if it hasn’t already. This limit is not reset when a character stops sprinting, but resets at the end of a <a class="reference external" href="04-combat.html#short-rest">“short rest”</a>. A character can also reset its sprint limit by not moving faster than “walk” (1x base speed) for at least 1 minute and expending an SP die.</p></li>
+<li><p>For other modalities sprinting is not possible.</p></li>
+</ul>
+</section>
+<section id="fatigue-table">
+<h4>Fatigue Table<a class="headerlink" href="#fatigue-table" title="Link to this heading">¶</a></h4>
+<p>The table below summarises the</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Speed</p></th>
+<th class="head"><p>Modalities</p></th>
+<th class="head"><p>Limit</p></th>
+<th class="head"><p>Push period</p></th>
+<th class="head"><p>On short Rest</p></th>
+<th class="head"><p>On long rest</p></th>
+<th class="head"><p>Other</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Walk</p></td>
+<td><p>All except Fly</p></td>
+<td><p>10 hours</p></td>
+<td><p>1 hour</p></td>
+<td><p>regain 2 hour</p></td>
+<td><p>regain full</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-odd"><td><p>Walk</p></td>
+<td><p>Fly</p></td>
+<td><p>See fly rating</p></td>
+<td><p>1 hour</p></td>
+<td><p>regain 2 hour</p></td>
+<td><p>regain full</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-even"><td><p>Run</p></td>
+<td><p>Walk, Swim, Climb</p></td>
+<td><p>[CON] hours</p></td>
+<td><p>10 minutes</p></td>
+<td><p>regain 1 hour</p></td>
+<td><p>regain full</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-odd"><td><p>Run</p></td>
+<td><p>Fly</p></td>
+<td><p>10 x [CON] minutes</p></td>
+<td><p>10 minutes</p></td>
+<td><p>regain 10 minutes</p></td>
+<td><p>regain full</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-even"><td><p>Sprint</p></td>
+<td><p>Walk, Swim</p></td>
+<td><p>[STR] rounds</p></td>
+<td><p>1 round</p></td>
+<td><p>regain full</p></td>
+<td><p>regain full</p></td>
+<td><p>regain full limit for 1 minute rest + 1 SP die</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</section>
+<hr class="docutils" />
+<section id="difficult-terrain">
+<h3>Difficult Terrain<a class="headerlink" href="#difficult-terrain" title="Link to this heading">¶</a></h3>
+<p>It is common when adventuring to find less than ideal terrain. Loose, rocky ground or turbulent waters are typical examples. Movement speed is halved over this kind of terrain. Most entities cannot “sprint” in these conditions and if they try to run, must make a Threshold=12 <a class="reference external" href="05-skills.html#acrobatics">“Acrobatics”</a> check or fail to progress (failure with snake eyes means falling prone).</p>
+</section>
+<hr class="docutils" />
+<section id="walking">
+<h3>Walking<a class="headerlink" href="#walking" title="Link to this heading">¶</a></h3>
+<p>Most entities with a “walk” speed can:</p>
+<ul class="simple">
+<li><p><strong>Crawl (5ft/round)</strong>: Crawling is movement when prone, dragging one’s torso along the ground. It makes one harder to spot or hit with ranged attacks, but is laborious and slow. Entities without a “walk” speed can only crawl overland.</p></li>
+<li><p><strong>Walk (1x base speed)</strong>: This either represents ordinary walking, or bursts of rapid movements with pauses and changes of direction. Typically a fit humanoid can walk for hours without suffering ill effects. For a base human this is 30ft or 3mph.</p></li>
+<li><p><strong>Run (2 x base speed)</strong>: This represents a steady jog, a very brisk walk, or rapid movement with obstacles and changes of direction. Typically a humanoid can run for [CON] hours before fatiguing, and the penalty is subsequently applied every 10 minutes. For a base human this is 60ft or 6mph.</p></li>
+<li><p><strong>Sprint (4 x base speed)</strong>: This represents movement at maximum pace in a fairly straight line, over unbroken terrain free from obstacles. A typical human can sprint for [STR] rounds before becoming fatigued and the penalty is subsequently applied every round. For a base human this is 120ft or 12mph.</p></li>
+<li><p><strong>Difficult terrain:</strong> Some rocky, overgrown, sloping, slippery terrain is classed as “difficult”. Narrow passages also count as difficult terrain.</p></li>
+<li><p><strong>Dragging objects:</strong> See the <a class="reference external" href="#dragging">“dragging”</a> rules above.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="climb">
+<h3>Climb<a class="headerlink" href="#climb" title="Link to this heading">¶</a></h3>
+<p>Climbing is upwards or downwards movement over steep or near vertical terrain. Entities with a “climb” speed can move along this kind of surfaces at their stated speed. Entities with a climb speed must still succeed a “climb” roll when climbing, but they can always choose to take care on this roll.</p>
+<ul class="simple">
+<li><p><strong>Non climbers:</strong> Entities without a climb speed move at 1/4 their base speed (usually “walk”). They cannot “run” or “dash” without succeeding a “climb” roll at a -5 penalty In addition they must succeed on <a class="reference external" href="05-skills.html#climb">“climb”</a> rolls to stay attached to make progress or even stay attached to the surface.</p></li>
+<li><p><strong>Prone and falling</strong>: A climbing entity that falls prone or is knocked prone is considered prone and is subject to the falling rules (which means it accelerates downwards and then comes to a violent halt).</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="swimming">
+<h3>Swimming<a class="headerlink" href="#swimming" title="Link to this heading">¶</a></h3>
+<p>Entities with a swim speed are often well adapted to their liquid medium, but are either incapable of moving on land or very clumsy. Entities with a swim speed typically have speeds of 60-120ft and can perform “walk”, “run” and “sprint” actions in their liquid medium (usually water).</p>
+<ul class="simple">
+<li><p><strong>Not Swimmers:</strong> Entities without a swim speed either do not swim at all (they sink), or are poor swimmers and can only move at 1/2 base speed (no “run” or “sprint” possible) and must make a [SKILL] or [ABILITY] check or start drowning/sinking if conditions are not ideal.</p></li>
+<li><p><strong>Difficult terrain</strong>: Turbulent waters or strong currents, kelp beds and thick syrup are examples of difficult terrain.</p></li>
+<li><p><strong>Load</strong>: An entity with a medium load or more have their swim speed reduced to 0. Entities that exceed their heavy load limit when swimming sink.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="digging">
+<h3>Digging<a class="headerlink" href="#digging" title="Link to this heading">¶</a></h3>
+<p>Moving through solid earth is a slow and difficult process. Moving through rock is often impossible even for diggers. Entities with a dig speed are not slowed by narrow passages. Natural speeds are 5-10ft. Unless otherwise stated Digging entities cannot dig through solid rock (natural or worked), or metal.</p>
+<ul class="simple">
+<li><p><strong>Non-diggers</strong>: entities that cannot move through earth, sand, or rock.</p></li>
+<li><p><strong>Run, Sprint</strong>: Digging entities cannot run or sprint when digging.</p></li>
+<li><p><strong>Load</strong>: Digging entities cannot dig with a heavy, or heavier, load.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="flight">
+<h3>Flight<a class="headerlink" href="#flight" title="Link to this heading">¶</a></h3>
+<p>Flight is an intriguing and liberating mode of movements. To terrestrial entities a flying being seems to have the freedom of the wind. Natural flying entities move between 80-240ft per round.</p>
+<ul class="simple">
+<li><p><strong>Non-flyers</strong>: Entities without a fly speed cannot fly. But they can jump.</p></li>
+<li><p><strong>Sprint</strong>: Flying entities do not sprint.</p></li>
+<li><p><strong>Difficult terrain and falling prone</strong>: Turbulent skies, precipitation and high altitude count as difficult terrain. A flying entity that falls prone is welcomed by the firm embrace of mother earth (it falls).</p></li>
+</ul>
+<section id="limitations-of-flight">
+<h4>Limitations of Flight<a class="headerlink" href="#limitations-of-flight" title="Link to this heading">¶</a></h4>
+<p>However this comes with limitations:</p>
+<ul class="simple">
+<li><p>An entity with natural flight can only fly when carrying a light load and at most light armour.</p></li>
+<li><p>They cannot use a shield or “unwieldy”/”heavy” weapon. (But they can use a buckler)</p></li>
+<li><p>They must have a wing span of at least 1ft per [3lb / Size] of weight. (with size=[1, 2, 3, 4] for [“small”, “medium”, “large”, “huge”] entities respectively). This has general penalties and in particular this causes penalties on [DEX] and [STR] saves when not in flight. Furthermore, naturally entities cannot dig and have a penalty to swim and walk speeds.</p></li>
+<li><p>If they slow to lower than 1/2 their speed in a given terrain, they must land or fall.</p></li>
+<li><p>A flying entity that is knocked <strong>“prone”</strong>, or tripped, drops a distance equal to its speed and can only move at half speed on its next turn. If this drop causes it to hit the ground, it suffers all of the consequences of falling (see <a class="reference external" href="#falling">“Falling”</a> section).</p></li>
+</ul>
+</section>
+<section id="flight-parameters">
+<h4>Flight Parameters<a class="headerlink" href="#flight-parameters" title="Link to this heading">¶</a></h4>
+<p>Not all flying entities are equal in flight. There are three parameters by which flying ability is assessed.</p>
+<ul class="simple">
+<li><p><strong>Speed</strong>: Usually this is 80-240ft per round, but can be lower.</p></li>
+<li><p><strong>Endurance</strong>: A flying entity can fly at least 1 hour per long rest, but no longer than 10 hours (the normal overland journey time). A character that has exhausted their flight time for a given long rest may expend 1 SP die (or 1 HP is they have no SP/ SP dice remaining) to gain 1 minute of flight time.</p>
+<ul>
+<li><p>Characters with a flight speed can increase their flight endurance with the <a class="reference external" href="06-abilities.html#enduring-flight">“Enduring Flight”</a> boon.</p></li>
+<li><p>Rarely, a flying entity can <a class="reference external" href="06-abilities.html#sleep-on-the-wing">“sleep on the wing”</a>. In this case, it can continue flying at half speed after the journey time has elapsed. However, in this case it does not regain SP dice, MP dice, SP, MP or HP from resting (although it can sleep).</p></li>
+</ul>
+</li>
+<li><p><strong>Manoeuvrability (rating)</strong>:</p>
+<ul>
+<li><p><strong>Poor</strong>:</p>
+<ul>
+<li><p>These entities climb at 1/2 speed, cannot “run”, cannot ascend/descend at more than 45 degrees.</p></li>
+<li><p>Their turn radius is equal to 3/2x their fly speed.</p></li>
+</ul>
+</li>
+<li><p><strong>Average</strong>:</p>
+<ul>
+<li><p>These entities climb at 1/2 speed and cannot ascend at more than 45 degrees.</p></li>
+<li><p>Their turning circle is equal to their fly speed.</p></li>
+</ul>
+</li>
+<li><p><strong>Good:</strong></p>
+<ul>
+<li><p>These entities climb at 1/2 speed.</p></li>
+<li><p>Their turn circle is equal to 1/2x their fly speed.</p></li>
+</ul>
+</li>
+<li><p><strong>Perfect:</strong> These entities have none of the typical limits of the other three categories. In addition:</p>
+<ul>
+<li><p>They can hover without falling.</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="notes-on-flight">
+<h4>Notes on Flight<a class="headerlink" href="#notes-on-flight" title="Link to this heading">¶</a></h4>
+<p><strong>NB</strong>: Flight “time” is fully regained at the end of a <a class="reference external" href="04-combat.html#long-rest">“long rest”</a>. Likewise, half of an entity’s flight time (but no more than 2 hours) is regained at the end of a <a class="reference external" href="04-combat.html#short-rest">“short rest”</a>.</p>
+<p>A character with flight may <a class="reference external" href="#global-movement-pushing-and-fatigue">“push”</a> beyond their allocated fly time, however the penalty is applied every 10 minutes, instead of every hour.</p>
+<p>Most birds are “average” flyers, though most fowl are “poor” and small raptors are usually “good”. Flies, on the other hand have “perfect flight”. Humanoids seldom have natural flight. Those that do, are usually poor. Those races with “average” flight pay a high price for it.</p>
+<p><strong>If a group wishes to simplify</strong> these rules, it is recommended to use “Good” flight for natural fliers and “Perfect” flight for magical flight. Using “perfect” flight for all fliers is the simplest rule of course, but makes flying monsters, mounts and characters a lot more powerful. Beware!</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="walk-and-flight-logic">
+<h3>Walk and Flight Logic<a class="headerlink" href="#walk-and-flight-logic" title="Link to this heading">¶</a></h3>
+<p>Most terrestrial entities have legs and walk. Some do not. They slither. They are an exception. We ignore them for now. Using small to large animals for reference, quadrupeds have a walking speed of 2-6 miles per hour (mph), a running speed of 8-20mph, and a sprint pace of 16-40mph. There are fewer bipeds, but they are capable of similar speeds (see ostriches). Humanoids are comparatively slow. 3-4mph (~5-6ft/s) is a typical walk. The fastest sprinter reaches about 24mph (100m/9s, 35ft/s), an average human springs at ~16mph (100m/15s, 24ft/s). The speeds we have quoted in the rules are a bit lower as conditions on an adventure are seldom as ideal as on a modern running track. Likewise you will notice that I have used [STR] for sprinting. This is in keeping with sports physiology.</p>
+<p>Most natural flying entities of tiny to large sizes are fast. Indeed there are fewer flying entities that can fly slowly than those that can’t. Typical cruise speeds of birds are 10-60mph, with maximum speeds being as much as twice as high. On the other hand, flying entities usually need space to change direction and sacrifice sturdiness for the highly energetic activity of flight. Few flying entities in the real world weight much more than 10kg.</p>
+</section>
+<hr class="docutils" />
+<section id="vigorous-motion">
+<h3>Vigorous Motion<a class="headerlink" href="#vigorous-motion" title="Link to this heading">¶</a></h3>
+<p>Vigorous motion is when moving quickly over uneven terrain, when there is significant shaking and difficult to predict bumps. Vigorous motion occurs when:</p>
+<ul class="simple">
+<li><p>A character (or their mount, if mounted), uses the “run” or “sprint” action.</p>
+<ul>
+<li><p>A character “grappled”, “restrained” or “immobilised” by an entity that is in vigorous motion is also considered to be in vigorous motion.</p></li>
+</ul>
+</li>
+<li><p>A character is on board of a land based vehicle that is travelling off road, or over roads with obstacles.</p></li>
+<li><p>A character is on board of a water/flying vehicle travelling in stormy conditions (this is subjective, but assume at least “severe” wind).</p></li>
+<li><p>A character is falling.</p></li>
+<li><p>Other circumstances where the group determines it to be appropriate. As a guideline, if it is difficult/impossible to drink a half-full cup of tea without spilling it due to motion effects, then one is probably undergoing vigorous motion.</p></li>
+</ul>
+<p>The effects of vigorous motion are as following:</p>
+<ul class="simple">
+<li><p>Spellcasters casting, or concentrating on, a spell must succeed on a Threshold=12 concentration save or lose the spell (it dissipates).</p></li>
+<li><p>Ranged attacks take a -2 penalty on the attack roll.</p></li>
+<li><p>Disadvantage on <a class="reference external" href="05-skills.html#fortify">“Fortify”</a>, <a class="reference external" href="05-skills.html#sleight-of-hand">“Sleight of Hand”</a>, <a class="reference external" href="05-skills.html#tinker">“Tinker”</a>, <a class="reference external" href="05-skills.html#heal">“Heal”</a> and <a class="reference external" href="05-skills.html#spellworking">“Spellworking”</a> rolls.</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="exploration">
+<h2>Exploration<a class="headerlink" href="#exploration" title="Link to this heading">¶</a></h2>
+<p>Exploration and travel are some of the main activities outside of combat and social interactions. When exploring and travelling characters and rules deal with:</p>
+<ul class="simple">
+<li><p>Navigation and getting lost.</p></li>
+<li><p>Dealing with environmental hazards.</p></li>
+<li><p>Dealing with hazards from other entities and parties.</p></li>
+<li><p>Securing resting places, camping and losing things.</p></li>
+<li><p>Managing supplies, foraging and starvation.</p></li>
+<li><p>Investigating the surroundings and finding places and entities of interest.</p></li>
+</ul>
+<p>The rules should accommodate to all of these activities without trivialising them too much and allowing both success, failure, and forward failure.</p>
+<p>In many games where events move at the speed of plot, travel and exploration rules can be eschewed. However in some games, where exploration, strategy or time sensitive chase-like quests are present, they add an extra layer of depth.</p>
+<hr class="docutils" />
+<section id="overview">
+<h3>Overview<a class="headerlink" href="#overview" title="Link to this heading">¶</a></h3>
+<p>Travel from A to B can be summarised as follows:</p>
+<ol class="arabic simple">
+<li><p>Choose destination.</p></li>
+<li><p>Choose the desired modality (foot, mount, vehicle, magic, etc).</p></li>
+<li><p>Calculate distance, time and resources needed (can be done by game master at the party’s own risk!).</p></li>
+<li><p>Assign navigator and scout (if required).</p></li>
+<li><p>Roll for navigation (getting lost). Deal with consequences if required.</p></li>
+<li><p>Roll for scouting (ambushes). Deal with consequences if required.</p></li>
+<li><p>Advance the party along the resulting vector.</p></li>
+<li><p>Perform any rolls for prospecting, hunting and harvesting.</p></li>
+<li><p>Camp (and deal with any night ambushes, encounters and so on).</p></li>
+<li><p>Repeat (usually from (5)) until a destination is reached or everyone is dead.</p></li>
+</ol>
+</section>
+<hr class="docutils" />
+<section id="id1">
+<h3>Local and Global Movement<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h3>
+<p>This is described above in “Local and Global Movement” above, but there are some additional nuances. Tactical movement represents generally bursts of high intensity movement over short time periods and is measured in ft/round, usually limited to a few minutes at a time. On the other hand global movement reflects movement over a long range and is measured in mph. It often abstracts away elements such as winding paths and minor obstacles. Thus, an entity’s speed on a local level in ft/round is ten times greater than its speed in mph for overland travel. However, most entities are assumed to be able to travel for 10 hours per day, hence the <em>total distance</em> travelled in a day in mph is equal to its speed in ft/round.</p>
+<p>For entities and parties that travel via <strong>walk</strong>, <strong>climb</strong>, <strong>dig</strong> or <strong>blink</strong> speed, when travelling between two points that have no defined distance by road (and maybe no road), and only a map distance as the crow flies, the distance travelled is multiplied x2. This represents lack of direct roads, and often meandering routes over off road terrain. For entities using <strong>walk</strong>, <strong>climb</strong> or <strong>dig</strong> speed in <strong>swamp</strong>, <strong>deep forest</strong>, or <strong>mountain</strong> distance as the crow flies is multiplied by x4. Entities with a <strong>cosmic</strong> or <strong>fly</strong> speed do not suffer from this kind of impediment.</p>
+<hr class="docutils" />
+<section id="flying-and-turbulence">
+<h4>Flying and Turbulence<a class="headerlink" href="#flying-and-turbulence" title="Link to this heading">¶</a></h4>
+<p>Entities that move via a <strong>Fly</strong> speed have their base movement speed halved in severe precipitation and wind. If precipitation or wind is extreme, such entities must make a skill roll (usually “fly”) against the storm’s threshold number or make no progress. An entity may attempt to move at 1/4 speed and take damage every hour equal to 2d6 damage plus 2d6 per size category above medium. An entity failing the roll by more than 5 in extreme precipitation falls to the ground. An entity failing the roll by more than 5 in extreme wind is blown away in the prevailing wind direction at 1/2 the wind speed. If this leads to the collision with some kind of fixed obstacle (mountain, big tree, wall), it suffers damage as if it had fallen 100ft (see <a class="reference external" href="#falling">fall damage</a>).</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="terrains">
+<h3>Terrains<a class="headerlink" href="#terrains" title="Link to this heading">¶</a></h3>
+<p>A character may encounter many an environment on their travels, these are broken down into the following categories.</p>
+<hr class="docutils" />
+<section id="roads">
+<h4>Roads<a class="headerlink" href="#roads" title="Link to this heading">¶</a></h4>
+<p>Roads are paths that are usually built by humanoids to simplify travel. They can be built over any sort of terrain, are generally easy to travel, and provide sufficient flat, even land to set up camp (although such a camp would definitely be frowned upon!). One is likely to encounter other travellers and bandits along the road.</p>
+<ul class="simple">
+<li><p><strong>Navigation Threshold:</strong> 5</p></li>
+<li><p><strong>Camping Threshold:</strong> 5</p></li>
+<li><p><strong>Global movement cost:</strong> x1</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="plains">
+<h4>Plains<a class="headerlink" href="#plains" title="Link to this heading">¶</a></h4>
+<p>Plains refers to open grasslands, with occasional bush, hill and small groves. They are generally not difficult to navigate, although due to lack of features can be a nightmare in thick fog, and provide little shelter from ill weather. Plentiful flat land makes it easy to set camp. One can encounter all kind of beasts upon the plains, as well as shepherds, and occasionally, monsters.</p>
+<ul class="simple">
+<li><p><strong>Navigation Threshold:</strong> 10</p></li>
+<li><p><strong>Camping Threshold:</strong> 5</p></li>
+<li><p><strong>Global movement cost:</strong> x1</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="woodlands">
+<h4>Woodlands<a class="headerlink" href="#woodlands" title="Link to this heading">¶</a></h4>
+<p>This refers to lightly forested terrain, with many glades and thin undergrowth. While not easy to navigate, due to lack of horizon, setting camp is seldom troublesome (although may require a small amount of clearing). All kinds of beings can be found in the woods. Usually one can encounter beasts and woodsmen. One occasion one may find monsters or even fey in this terrain.</p>
+<ul class="simple">
+<li><p><strong>Navigation Threshold:</strong> 15</p></li>
+<li><p><strong>Camping Threshold:</strong> 5</p></li>
+<li><p><strong>Global movement cost:</strong> x2</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="hills">
+<h4>Hills<a class="headerlink" href="#hills" title="Link to this heading">¶</a></h4>
+<p>This refers to uplands with gentle peaks and valleys that can be traversed by humanoids without special equipment. The slopes can be wooded, and the valleys might be swampy. The weather here may be harsher and more changeable than upon the plains. The shorter view-horizon can make navigation tricky, and the sloping and wild terrain provides certain difficulties when setting camp. The people and beasts that dwell here are generally hardy, and one is more likely to stumble upon monsters, outlaws and ruins hidden in the hills.</p>
+<ul class="simple">
+<li><p><strong>Navigation Threshold:</strong> 10</p></li>
+<li><p><strong>Camping Threshold:</strong> 10</p></li>
+<li><p><strong>Global movement cost:</strong> x2</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="urban-ruins">
+<h4>Urban/Ruins<a class="headerlink" href="#urban-ruins" title="Link to this heading">¶</a></h4>
+<p>Villages, towns, cities, castles, temples, and their ruins. Environments where (usually!) humanoids have built their societies. They are characterised by regular structures of wood or stone, usually arranged into districts. This makes setting camp fairly simple, but can their sometimes labyrinthine logic and short view-horizon can make them a nightmare to navigate. In a city one is likely to encounter its inhabitants. In a ruin one is likely to encounter monsters and ghosts of bygone days.</p>
+<ul class="simple">
+<li><p><strong>Navigation Threshold:</strong> 15</p></li>
+<li><p><strong>Camping Threshold:</strong> 10</p></li>
+<li><p><strong>Global movement cost:</strong> x2</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="deep-forest">
+<h4>Deep Forest<a class="headerlink" href="#deep-forest" title="Link to this heading">¶</a></h4>
+<p>This refers to truly wild and ancient forests, largely untouched by the hand of man. The trees here are often ancient, and the forest floor is littered with fallen trunks, covered in undergrowth and criss-crossed by swamps. That said, finding a place to camp in this kind of place is often not difficult as long as it is properly cleared. One might encounter nothing in this quiet wilderness, or one might find great monsters, mysterious beasts, lost tribes, ruins and fey.</p>
+<ul class="simple">
+<li><p><strong>Navigation Threshold:</strong> 20</p></li>
+<li><p><strong>Camping Threshold:</strong> 10</p></li>
+<li><p><strong>Global movement cost:</strong> x4</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="fells">
+<h4>Fells<a class="headerlink" href="#fells" title="Link to this heading">¶</a></h4>
+<p>This refers to higher, steeper hills, often with many gnarly groves, fast flowing rivers and swampy plateaus. These are generally wild places, inhabited by beasts, monsters and dark spirits.</p>
+<ul class="simple">
+<li><p><strong>Navigation Threshold:</strong> 15</p></li>
+<li><p><strong>Camping Threshold:</strong> 15</p></li>
+<li><p><strong>Global movement cost:</strong> x2</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="subterranean">
+<h4>Subterranean<a class="headerlink" href="#subterranean" title="Link to this heading">¶</a></h4>
+<p>This refers to warrens, burrows and cave networks. This is an inhospitable environment for humanoids, difficult to ameliorate and navigate. There are numerous difficulties here, starting from cave ins, and ending in narrow, impassible tunnels, dead ends, and barren sections where it is impossible to find food or water.</p>
+<ul class="simple">
+<li><p><strong>Navigation Threshold:</strong> 20</p></li>
+<li><p><strong>Camping Threshold:</strong> 15</p></li>
+<li><p><strong>Global movement cost:</strong> x2</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="desert">
+<h4>Desert<a class="headerlink" href="#desert" title="Link to this heading">¶</a></h4>
+<p>Desert here refers to inhospitable plains, be they of sand or snow. It is not necessarily difficult to navigate in fair weather, but the extremes of heat, shifting terrain, and potentially disastrous storms make setting a proper camp difficult. A traveller is unlikely to encounter many beasts or other travellers in these wastes. However, it would not be out of place to find ancient ruins, complete with undead denizens, to be attacked by great monsters that dwell beneath the snows or sands, or to meet a messenger of the divine.</p>
+<ul class="simple">
+<li><p><strong>Navigation Threshold:</strong> 10</p></li>
+<li><p><strong>Camping Threshold:</strong> 20</p></li>
+<li><p><strong>Global movement cost:</strong> x2</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="mountains">
+<h4>Mountains<a class="headerlink" href="#mountains" title="Link to this heading">¶</a></h4>
+<p>Mountains refers to high and inhospitable peaks, be they of rock or snow. Travel here is slow, and sometimes impossible without proper preparation and equipment. The weather can change quickly and dramatically. The harsh terrain makes finding and ameliorating a safe camping place difficult. Mountains are often a true wilderness. Though one can find a herd of ibex, or a flock of vultures, one can also find lonely hermitages, and on the most isolated of peaks, the lairs of the greatest of mortals- dragons.</p>
+<ul class="simple">
+<li><p><strong>Navigation Threshold:</strong> 10</p></li>
+<li><p><strong>Camping Threshold:</strong> 20</p></li>
+<li><p><strong>Global movement cost:</strong> x4</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="swamp">
+<h4>Swamp<a class="headerlink" href="#swamp" title="Link to this heading">¶</a></h4>
+<p>Swamps refers to treacherous wetlands, with little solid ground to set foot on or camp. There are often woodlands and plains of high reeds to be found here, which obstruct navigation, as well as plentiful animal life, and, of course monsters. In addition, it is easy to catch various diseases in these wetlands.</p>
+<ul class="simple">
+<li><p><strong>Navigation Threshold:</strong> 15</p></li>
+<li><p><strong>Camping Threshold:</strong> 20</p></li>
+<li><p><strong>Global movement cost:</strong> x4</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="classification-of-inclement-weather-hazards">
+<h3>Classification of Inclement Weather Hazards<a class="headerlink" href="#classification-of-inclement-weather-hazards" title="Link to this heading">¶</a></h3>
+<p>Inclement weather has two severities: <strong>Severe</strong> and <strong>Extreme</strong>. This is a simplification of (usually!) real weather which is made to make the rules more manageable. Groups that desire more granularity are free too be more liberal with their sliding scale. As expected, “extreme” weather usually has a stronger effect than “severe” weather. There are four general types of weather hazard, and it is possible to find more than one in any given situation. In some cases a clever group may find ways of using weather hazards to its advantage.</p>
+<section id="fair-weather">
+<h4>Fair weather<a class="headerlink" href="#fair-weather" title="Link to this heading">¶</a></h4>
+<p>Characters may be so lucky as to find themselves travelling in fair weather that brings no direct hazards with it. In such weather it is not to cold or too hot, the wind is not strong enough to cause much of a problem, even for long ranged attacks, precipitation is, at worst, not much stronger than a drizzle, and visibility is good enough to see for miles. The main danger of this kind of weather, if anything, is that it probably does not cause problems for your foes either!</p>
+</section>
+<hr class="docutils" />
+<section id="precipitation">
+<h4>Precipitation<a class="headerlink" href="#precipitation" title="Link to this heading">¶</a></h4>
+<p>This can be rain, snow, sleet, or even ashfall. This can lead to poor visibility, difficult movement due to boggy ground or accumulation, or even collapse of structures (snow, ash).</p>
+<ul class="simple">
+<li><p><strong>Severe</strong>:</p>
+<ul>
+<li><p>+2 to thresholds for scouting (navigation and observe).</p></li>
+<li><p>+2 to thresholds to set camp (fortify, CON saves).</p></li>
+<li><p>Base movement speed of flying entities is <a class="reference external" href="#flying-and-turbulence">halved</a>.</p></li>
+</ul>
+</li>
+<li><p><strong>Extreme</strong>: As severe plus:</p>
+<ul>
+<li><p>Grants “light concealment” to targets more than 20ft away, and heavy concealment for entities beyond that. Characters that rely on sight, heat or vibrations are effectively blind beyond 600ft.</p></li>
+<li><p>Ranged weapon attacks are treated as being made at 1 range increment further away.</p></li>
+<li><p>Flying characters must make a <a class="reference external" href="05-skills.html#fly">“fly”</a> roll, or risk falling. Even if they succeed, they move at 1/4 speed and take damage (see “<a class="reference external" href="#flying-and-turbulence">flying and turbulence</a>).</p></li>
+<li><p>A character exposed to extreme precipitation must succeed a CON save (threshold=[16 + hours exposed]) every hour, or lose 1 SP die. When all SP dice are lost, it loses 1 HP instead.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="wind">
+<h4>Wind<a class="headerlink" href="#wind" title="Link to this heading">¶</a></h4>
+<p>Wind can damage structures, knock prone smaller entity and impede ranged attacks and movement. It is particularly dangerous for flying entities.</p>
+<ul class="simple">
+<li><p><strong>Severe</strong>: Gale force winds of 38 mph or higher.</p>
+<ul>
+<li><p>+2 to thresholds to set camp (fortify, CON saves).</p></li>
+<li><p>Targets are considered to be 2 range increment further out than they are (this reduces the maximum range of the ranged weapon).</p></li>
+<li><p>Characters moving against the wind (walking, climbing) move at half speed if they are medium or smaller.</p></li>
+<li><p>Base movement speed of flying entities is <a class="reference external" href="#flying-and-turbulence">halved</a>.</p></li>
+</ul>
+</li>
+<li><p><strong>Extreme</strong>: Hurricane force winds of 74 mph or higher.</p>
+<ul>
+<li><p>+2 to thresholds for scouting (navigation and observe).</p></li>
+<li><p>+5 to thresholds to set camp (fortify, CON saves).</p></li>
+<li><p>Targets of ranged weapon attacks are considered to be 4 range increment further out than they are (this reduces the maximum range of the ranged weapon, potentially making it useless).</p></li>
+<li><p>Characters moving against the wind (walking, climbing) move at half speed if they are large or larger, and at 1/4 speed if they are medium or smaller.</p></li>
+<li><p>Characters of size category medium or smaller must succeed on a STR save (threshold=20) at the start of each turn or be blown back by 20ft for every size category smaller than large and land prone. If a small or smaller character fails the save by 6 or more, they are blown away.</p></li>
+<li><p>Flying characters must make a <a class="reference external" href="05-skills.html#fly">“fly”</a> roll, or risk falling. Even if they succeed, they move at 1/4 speed and take damage (see “<a class="reference external" href="#flying-and-turbulence">flying and turbulence</a>).</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="visibility">
+<h4>Visibility<a class="headerlink" href="#visibility" title="Link to this heading">¶</a></h4>
+<p>Poor visibility is usually caused be caused by extreme precipitation, fog, murky water, cosmic clouds or darkness. It is easier to hide, and harder to detect, navigate and aim in poor visibility. The game here defines visibility ranges for poor and zero visibility, although the there will be times when these ranges can be a little lower, or a little higher, since weather, unsurprisingly, varies.</p>
+<ul class="simple">
+<li><p><strong>Severe (poor)</strong>:</p>
+<ul>
+<li><p>+2 to thresholds for scouting (navigation and observe).</p></li>
+<li><p>Characters have light concealment from entities beyond 20ft away, heavy concealment from entities beyond 60ft away (although the GM may rule that this distance is greater or lesser). With respect to targets beyond 300ft, characters that rely on sight are effectively <a class="reference external" href="10-conditions-types.html#conditions-in-detail">“blinded”</a>.</p></li>
+</ul>
+</li>
+<li><p><strong>Extreme (zero)</strong>:</p>
+<ul>
+<li><p>+2 to thresholds for camping (fortify, CON saves).</p></li>
+<li><p>+5 to thresholds for scouting (navigation and observe).</p></li>
+<li><p>Characters have light concealment beyond 5ft and heavy concealment beyond 10ft. Beyond 20ft characters that rely on sight are effectively “<a class="reference external" href="10-conditions-types.html#conditions-in-detail">blinded</a>. NB: There are times when zero visibility is truly zero visibility and a character is considered blinded beyond their fingertips, although this is rare.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="temperature">
+<h4>Temperature<a class="headerlink" href="#temperature" title="Link to this heading">¶</a></h4>
+<p>Very low or high temperatures. Exposure to temperatures that an entity is not acclimatised to can quickly lead to exhaustion (hypothermia, hyperthermia, dehydration) or even death. It is more difficult to recuperate under these conditions. In particular, trying to recuperate in unameliorated camps may require a roll, or be impossible. Unlike the other weather hazards, temperature has a third category: <em>lethal</em>. This represents extremes of heat/cold that will kill entities that are not resistant in a manner of minutes.</p>
+<p>Some effects of the cold can be mitigated by wearing cold weather garments. Mitigating the effects of heat is, unfortunately, more difficult.</p>
+<ul class="simple">
+<li><p><strong>Severe</strong>: This represents temperatures of more than 30 degrees below, or 20 degrees above ideal conditions for a character (+40/-10 degrees celsius for a human).</p>
+<ul>
+<li><p>+2 to thresholds for camping (fortify, CON saves).</p></li>
+<li><p>A character exposed to severe temperature must succeed a CON save (threshold=[12 + hours exposed]) every hour, or lose 1 SP die. When all SP dice are lost, it loses 1 HP instead.</p></li>
+</ul>
+</li>
+<li><p><strong>Extreme</strong>: This represents temperatures of more than 50 degrees below, or 30 degrees above ideal conditions for a character (+50/-30 degrees celsius for a human).</p>
+<ul>
+<li><p>+5 to thresholds for camping (fortify, CON saves).</p></li>
+<li><p>A character exposed to extreme temperature must succeed a CON save (threshold=[16 + hours exposed]) every hour, or lose 2 SP die and 1 MP die. When all MP and SP dice are lost, it loses 2 HP instead.</p></li>
+</ul>
+</li>
+<li><p><strong>Lethal</strong>: This represents temperatures of more than 80 degrees below, or 45 degrees above ideal conditions for a character (+65/-60 degrees celsius for a human).</p>
+<ul>
+<li><p>Impossible to camp or rest successfully without special abilities, equipment, or magic.</p></li>
+<li><p><a class="reference external" href="#global-movement-pushing-and-fatigue">Total journey time per day </a> is reduced to 2 hours. Short rests no longer recover journey time.</p></li>
+<li><p>A character exposed to lethal temperature must succeed a CON save (threshold=20) every <em>minute</em>, or lose 1 SP die and 1 MP die. When all MP and SP dice are lost, it loses 2 HP instead.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="weather-conditions-and-associated-hazards">
+<h3>Weather conditions and associated hazards<a class="headerlink" href="#weather-conditions-and-associated-hazards" title="Link to this heading">¶</a></h3>
+<p>Any given inclement weather phenomenon may contain one or more hazards. Here are some suggested ratings.</p>
+<ul class="simple">
+<li><p><strong>Fair weather</strong>: None.</p></li>
+<li><p><strong>Fair weather, night time</strong>: Poor visibility (entities without low light vision only).</p></li>
+<li><p><strong>Fog</strong>/<strong>Mist</strong>: Poor/Zero visibility.</p></li>
+<li><p><strong>Torrential Rain</strong>: Severe precipitation, poor visibility.</p></li>
+<li><p><strong>Gale</strong>: Severe wind.</p></li>
+<li><p><strong>Hurricane</strong>: Extreme wind.</p></li>
+<li><p><strong>Tornado</strong>: Extreme wind, poor visibility.</p></li>
+<li><p><strong>Typhoon</strong>: Extreme wind, severe precipitation.</p></li>
+<li><p><strong>Blizzard</strong>: Severe/Extreme temperature (cold), extreme precipitation(snow), severe visibility, severe wind.</p></li>
+<li><p><strong>Whiteout</strong>: Zero visibility, severe precipitation(snow).</p></li>
+<li><p><strong>Sand Storm</strong>: Zero visibility, severe/extreme wind, severe/extreme precipitation (sand).</p></li>
+<li><p><strong>Ashfall</strong>: Severe precipitation (ash), poor visibility.</p></li>
+</ul>
+<p>Of course groups that operate in exotic settings should not shy away from creating other types of inclement weather using this framework.</p>
+</section>
+<hr class="docutils" />
+<section id="travel-rolls-and-terrain-summary">
+<h3>Travel rolls and terrain (summary)<a class="headerlink" href="#travel-rolls-and-terrain-summary" title="Link to this heading">¶</a></h3>
+<p>All travel rolls are determined by the terrain type, the weather modifier from inclement weather (severe or extreme) and the familiarity bonus. They are defined in the following tables. It should be noted that weather modifiers from different categories stack.</p>
+<ul class="simple">
+<li><p>In groups where travel rolls are seen as a burden they can be dropped, but please keep in mind that this will affect the value of certain skills and abilities.</p></li>
+<li><p>There is also a simplified table provided if the full rule is deemed burdensome.</p></li>
+</ul>
+<hr class="docutils" />
+<section id="summary-of-simplified-travel-rules-camping-and-navigation-combined">
+<h4>Summary of Simplified Travel Rules (Camping and navigation combined)<a class="headerlink" href="#summary-of-simplified-travel-rules-camping-and-navigation-combined" title="Link to this heading">¶</a></h4>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Terrains</p></th>
+<th class="head"><p>Threshold</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Hill, Plains, Roads, Ruin, Woodlands</p></td>
+<td><p>5</p></td>
+</tr>
+<tr class="row-odd"><td><p>Deep Forest, Fells, Mountain, Subterranean, Swamp</p></td>
+<td><p>15</p></td>
+</tr>
+<tr class="row-even"><td><p>Severe/Extreme Weather</p></td>
+<td><p>+5 threshold modifier</p></td>
+</tr>
+<tr class="row-odd"><td><p>Homeland/”Terrain Mastery”</p></td>
+<td><p>+2 bonus to roll</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>In the simplified rules, the thresholds for navigation and camping are the same. All inclement severe/extreme weather adds +5 to the threshold, this modifier stacks, so high winds and heavy precipitation would add +10. Characters receive a bonus from homeland and terrain mastery as usual (homeland bonus stacks with terrain mastery).</p>
+<p>It should be noted that the simplified table has generally lower thresholds. This is because it is considered likely that a group that is not using the detailed tables is probably not as excited about the challenges of travel and exploration, so the challenge should be lower to occupy less of their time. The group is of course free to modify the tables as it sees fit, if they wish to adjust the challenge.</p>
+</section>
+<hr class="docutils" />
+<section id="summary-of-full-travel-rules">
+<h4>Summary of Full Travel Rules<a class="headerlink" href="#summary-of-full-travel-rules" title="Link to this heading">¶</a></h4>
+<p><em>Summary table for navigation:</em></p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Terrains (navigation)</p></th>
+<th class="head"><p>Threshold</p></th>
+<th class="head"><p>Additional Effects</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Roads</p></td>
+<td><p>5</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Deserts, Hills, Mountains, Plains</p></td>
+<td><p>10</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Fells, Ruins, Swamps, Woodlands</p></td>
+<td><p>15</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Deep Forest, Subterranean</p></td>
+<td><p>20</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Poor (Severe) visibility</p></td>
+<td><p>+2 to threshold</p></td>
+<td><p><a class="reference external" href="#visibility">See “visibility”</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Zero (Extreme) visibility</p></td>
+<td><p>+5 to threshold</p></td>
+<td><p><a class="reference external" href="#visibility">See “visibility”</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Severe/Extreme precipitation</p></td>
+<td><p>+2 to threshold</p></td>
+<td><p><a class="reference external" href="#precipitation">See “precipitation”</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Extreme Wind</p></td>
+<td><p>+2 to threshold</p></td>
+<td><p><a class="reference external" href="#wind">See “wind”</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Homeland/”Terrain Mastery”</p></td>
+<td><p>+2 bonus to roll</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><em>Summary table for camping:</em></p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Terrains (camping)</p></th>
+<th class="head"><p>Threshold</p></th>
+<th class="head"><p>Additional Effects</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Plains, Roads, Woodlands</p></td>
+<td><p>5</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Deep Forest, Hills, Ruins</p></td>
+<td><p>10</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Fells, Subterranean</p></td>
+<td><p>15</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Desert, Mountain, Swamp</p></td>
+<td><p>20</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Visibility: Zero (Extreme)</p></td>
+<td><p>+2 to threshold</p></td>
+<td><p><a class="reference external" href="#visibility">See “visibility”</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Precipitation: Severe/Extreme</p></td>
+<td><p>+2 to threshold</p></td>
+<td><p><a class="reference external" href="#precipitation">See “precipitation”</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Wind: Severe</p></td>
+<td><p>+2 to threshold</p></td>
+<td><p><a class="reference external" href="#wind">See “wind”</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Wind: Extreme</p></td>
+<td><p>+5 to threshold</p></td>
+<td><p><a class="reference external" href="#wind">See “wind”</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Temperature: Severe (+40/-10)</p></td>
+<td><p>+2 to threshold</p></td>
+<td><p><a class="reference external" href="#temperature">See “temperature”</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Temperature: Extreme (+50/-30)</p></td>
+<td><p>+5 to threshold</p></td>
+<td><p><a class="reference external" href="#temperature">See “temperature”</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Temperature: Lethal (+65/-60)</p></td>
+<td><p>camping impossible</p></td>
+<td><p><a class="reference external" href="#temperature">See “temperature”</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Homeland/”Terrain Mastery”</p></td>
+<td><p>+2 bonus to roll</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</section>
+<hr class="docutils" />
+<section id="travel-and-getting-lost">
+<h3>Travel and getting lost<a class="headerlink" href="#travel-and-getting-lost" title="Link to this heading">¶</a></h3>
+<p>When travelling on unfamiliar terrain there is generally a chance of getting lost. Likewise sabotage or illusion can facilitate this. This works as follows:</p>
+<ul class="simple">
+<li><p>At the start of a stage of travel (usually start of the day or start of the journey) the navigator makes a navigation roll (Or uses a spell or ability).</p></li>
+<li><p>On a success travel proceeds as normal. For every 5 points above the threshold, the journey time is reduced by 10% (maximum 30%).</p></li>
+<li><p>On a failure, the DM rolls a D8 to determine the direction the party gets lost in, or makes something up in the direction of plot.</p></li>
+<li><p>Various “saboteur” abilities can increase the threshold for succeeding the navigation roll (see specific skill or ability). Often failure of a navigation roll under these circumstances leads to the party travelling not in a random direction, but in the direction defined the saboteur.</p></li>
+</ul>
+<p>Generally one does not get lost on familiar terrain. Likewise if one has a guide who knows the area, or if it is expedient for the gaming group this kind of roll can be eschewed.</p>
+</section>
+<hr class="docutils" />
+<section id="scouting-prospecting-and-exploration">
+<h3>Scouting, prospecting and exploration<a class="headerlink" href="#scouting-prospecting-and-exploration" title="Link to this heading">¶</a></h3>
+<p>Characters and groups that enter new or unfamiliar terrain will often need to explore it in some way to learn useful (or occasionally useless) information about it, this includes:</p>
+<ul class="simple">
+<li><p>General topography and characteristics. (exploration)</p></li>
+<li><p>Flora, fauna and monsters. (exploration or scouting)</p></li>
+<li><p>Presence of populated centres and ruins. (exploration)</p></li>
+<li><p>Presence and prevalence of resources. (Prospecting)</p></li>
+</ul>
+<p>Different skills are used for each one. In general the thresholds for success are determined by the terrain table (see above), but in some cases skills, abilities and magics used for obfuscating and misleading can substitute the threshold value. In general exploration can be detailed (exploring a haunted house for clues to a murder), or cursory (exploring the mountainside for signs of marmots).</p>
+<ul class="simple">
+<li><p>Cursory exploration takes 4 hours per square mile of threshold 5 &amp; 10 terrain, and a full day for threshold 15 &amp; 20 terrain.</p></li>
+<li><p>Detailed exploration takes between 10 minutes and 1h per 100sq-feet of terrain depending on how much “stuff” there is to explore.</p></li>
+<li><p>For detailed exploration it is recommended that the locale is described by the DM and the players prompted to focus on a certain part of it. At this point the threshold should probably be determined by the general difficulty table.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="harvesting-hunting-and-mining">
+<h3>Harvesting, Hunting and Mining<a class="headerlink" href="#harvesting-hunting-and-mining" title="Link to this heading">¶</a></h3>
+<p>Harvesting, hunting and mining are essentially all harvesting of different types of resources from the environment. Sometimes these activities can be an adventure in and of themselves, so this refers to “mundane” harvesting, mining and hunting of resources that will not fight back.</p>
+<ul class="simple">
+<li><p>After a successful “prospecting”/”scouting” roll a character can make a harvesting roll.</p></li>
+<li><p>The duration of the “harvesting” and the magnitude of success determine the yield of the harvest. Failure with snake eyes results in the damage to the tools used (or HP loss or injury if the tool was the character’s body or spirit).</p></li>
+<li><p>Exceeding the threshold by 5 allows to double the yield or half the time. Exceeding by 10 or more, allows both.</p></li>
+<li><p>Guideline yields:</p></li>
+<li><p>Hunt/trap small prey: 1 small entity per day + 1 per 5 points by which the terrain threshold is exceeded.</p></li>
+<li><p>Strip a carcass (small, medium, large, huge, enormous): (30 min, 2h, 4h, 1d, 1 week). Threshold: (6, 9, 12, 18, 24).</p></li>
+<li><p>Harvest surface plants/minerals: 5-30 min per 5ft. Threshold: Terrain.</p></li>
+<li><p>Harvest subsurface minerals (mining): 1h-1d per 5ft Threshold: Terrain.</p></li>
+<li><p>If the resource is rare, or exotic increase the threshold by +5 or +10.</p></li>
+<li><p>If the resource cannot be found in the terrain, then the time is spent and the harvest fails.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="camping">
+<h3>Camping<a class="headerlink" href="#camping" title="Link to this heading">¶</a></h3>
+<p>In hostile or wilderness environments characters must often take additions steps before they can safely and effectively rest. These steps are:</p>
+<ol class="arabic simple">
+<li><p>Find suitable site (usually a <a class="reference external" href="05-skills.html#investigateprospect">prospect</a> or <a class="reference external" href="05-skills.html#investigateprospect">navigate</a> roll vs terrain camping threshold + weather scouting modifier). Successful check gives advantage on ameliorate/fortify check.</p></li>
+<li><p>Skill roll to <a class="reference external" href="05-skills.html#fortify">ameliorate/fortify</a> the site vs terrain camping threshold + weather camping modifier.</p></li>
+<li><p>Optional: Set sentry and watch for trouble. Successful fortification roll gives the camp cover, and the sentry advantage on rolls to detect ambushes coming for them (usually using the <a class="reference external" href="05-skills.html#observe">“observe”</a> skill).</p></li>
+<li><p>Resolve possible encounters (See <a class="reference external" href="04-combat.html">“Chapter 4: Combat”</a>).</p></li>
+<li><p>Regain resources (HP, SP, MP) if the rest is successful (see <a class="reference external" href="04-combat.html#rest-and-recuperation">“Chapter 4: Combat: Rest and Recuperation”</a>).</p></li>
+</ol>
+<p>Trying to rest on an site which is not ameliorated triggers a CON save, with the threshold determined by terrain, weather (see tables above) and any bonuses from special abilities and spells. A character who fails this CON save does not regain resources from the rest. If they fail by more than 6, they are not able to adequately drink, eat or sleep, which brings them closer to <a class="reference external" href="#characters-starvation-and-other-bad-ways-to-die">“starvation”</a>, if they require drink, food or sleep.</p>
+<ul class="simple">
+<li><p>In cold weather, a blanket gives +2 to this save, while a bedroll gives +4.</p></li>
+<li><p>A tent gives +2 to ameliorate/fortify, a yurt obviates the need for such a roll. This does not apply on terrain where it is not possible to place a tent or yurt, such as in swamps, dense forests or on steep slopes.</p></li>
+<li><p>If a site is not ameliorated, wearing medium or heavy armour gives a penalty to this CON save equal to the armour rating (instead of making a separate roll).</p></li>
+</ul>
+<p>A character wearing medium or heavy armour during a long rest must succeed on a CON save with a Threshold = [10 + Armour rating] to benefit from the long rest, even if the camp is already ameliorated.</p>
+<p>The full rules on resting can be found in <a class="reference external" href="04-combat.html#rest-and-recuperation">Rest and Recuperation</a>.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="environmental-hazards">
+<h2>Environmental hazards<a class="headerlink" href="#environmental-hazards" title="Link to this heading">¶</a></h2>
+<p>Depending on the nature of an environment being explored, it is possible to encounter various hazards. This ranges from weather related hazards like storms, extreme heat and , to terrain dangers such as raging rivers, avalanches and rockfall, to “man”-made dangers such as traps in dungeons.</p>
+<hr class="docutils" />
+<section id="breaking-and-entering">
+<h3>Breaking and Entering<a class="headerlink" href="#breaking-and-entering" title="Link to this heading">¶</a></h3>
+<p>Quite often characters may need to break objects/structures or enter closed/locked spaces.</p>
+<section id="breaking">
+<h4>Breaking<a class="headerlink" href="#breaking" title="Link to this heading">¶</a></h4>
+<p>Objects, buildings and equipment have hit points (sometimes called “durability”). These hit points are a little bit different from the hit points that characters have. Every time an object is hit with an attack, count the number of dice of damage that are rolled: This is the amount of damage dealt to the object. So if an object is hit with 3d4 damage or 3d12 damage, it takes 4 points of damage.</p>
+<p>Furthermore, if the <a class="reference external" href="12-equipment-economy.html#material-level">“material level”</a> of the weapon is higher, the attacked object takes an extra point of damage for every level of difference. Likewise, if the weapon is of a lower material level, the damage is reduced by one point for every level of difference.</p>
+<p>If the object has damage reduction, it also applies.</p>
+<p>In order to hit an object and deal damage to it, a character rolls an attack against its wielder’s <a class="reference external" href="04-combat.html#basic-martial-manoeuvres">“Sunder”</a>. On a successful hit the damage is applied. If the object is unattended, the attacker rolls with advantage vs a threshold=10 (modified by size using <a class="reference external" href="02-base-rules.html#size-rules-table">standard size rules</a>). The attack should be assumed to automatically hit in narrative time if there are no circumstances in play where missing can have a tangible effects on the outcome (eg a chase where every second lost can make a difference).</p>
+<p>On occasion, this method of breaking an object is impractical, impossible, or just too slow. For some objects there is a “break threshold”. In this case, a character may make an attack roll for the “sunder” manoeuvre, or an “athletics” skill roll, against this threshold. On a success the object is broken. Usually this applies to restraints such as ropes or manacles.</p>
+<p>It should be noted that structures, barriers, and entities, created by spells do not use these rules and are treated as normal entities, unless the spell states otherwise.</p>
+</section>
+<section id="object-hit-point-durability-table">
+<h4>Object hit point (durability) table<a class="headerlink" href="#object-hit-point-durability-table" title="Link to this heading">¶</a></h4>
+<p>The below table contains durability and recommended breaking threshold for various objects. DMs and groups should tweak these in accordance with various factors. For example, a set of rusty manacles should be easier to break than a set of manacles that has been properly maintained.</p>
+<p>NB: For weapon and armour durability see the <a class="reference external" href="11-weapons-armour.html#weapon-table">“weapons”</a> and <a class="reference external" href="11-weapons-armour.html#the-armour-table">“armour”</a> tables.</p>
+<p>NB2: All these items are immune to poison damage.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Item</p></th>
+<th class="head"><p>Durability</p></th>
+<th class="head"><p>Damage Reduction</p></th>
+<th class="head"><p>Break Threshold</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Door (wood, thin)</p></td>
+<td><p>2</p></td>
+<td><p>-</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Door (wood, solid)</p></td>
+<td><p>4</p></td>
+<td><p>1 (physical, except slashing)</p></td>
+<td><p>24</p></td>
+</tr>
+<tr class="row-even"><td><p>Door (stone)</p></td>
+<td><p>6</p></td>
+<td><p>2 (all, except esoteric and acid)</p></td>
+<td><p>30</p></td>
+</tr>
+<tr class="row-odd"><td><p>Door (iron)</p></td>
+<td><p>10</p></td>
+<td><p>3 (all, except esoteric and acid)</p></td>
+<td><p>30</p></td>
+</tr>
+<tr class="row-even"><td><p>Window</p></td>
+<td><p>1</p></td>
+<td><p>-</p></td>
+<td><p>12</p></td>
+</tr>
+<tr class="row-odd"><td><p>Iron Grating (thin)</p></td>
+<td><p>6</p></td>
+<td><p>3 (all, except esoteric and acid)</p></td>
+<td><p>24</p></td>
+</tr>
+<tr class="row-even"><td><p>Iron Grating (thick)</p></td>
+<td><p>10</p></td>
+<td><p>3 (all, except esoteric and acid)</p></td>
+<td><p>30</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Wooden Fence</p></td>
+<td><p>2</p></td>
+<td><p>-</p></td>
+<td><p>16</p></td>
+</tr>
+<tr class="row-odd"><td><p>Wall (Wood, 6”)</p></td>
+<td><p>8</p></td>
+<td><p>1 (physical, except slashing)</p></td>
+<td><p>36</p></td>
+</tr>
+<tr class="row-even"><td><p>Wall (Wood, 1ft)</p></td>
+<td><p>16</p></td>
+<td><p>1 (physical, except slashing)</p></td>
+<td><p>40</p></td>
+</tr>
+<tr class="row-odd"><td><p>Wall (Stone, 6”)</p></td>
+<td><p>10</p></td>
+<td><p>2 (all, except esoteric and acid)</p></td>
+<td><p>40</p></td>
+</tr>
+<tr class="row-even"><td><p>Wall (Stone, 1ft)</p></td>
+<td><p>20</p></td>
+<td><p>2 (all, except esoteric and acid)</p></td>
+<td><p>44</p></td>
+</tr>
+<tr class="row-odd"><td><p>Wall (Stone, 3ft)</p></td>
+<td><p>60</p></td>
+<td><p>2 (all, except esoteric and acid)</p></td>
+<td><p>48</p></td>
+</tr>
+<tr class="row-even"><td><p>Wall (Iron, 2”)</p></td>
+<td><p>10</p></td>
+<td><p>3 (all, except esoteric and acid)</p></td>
+<td><p>40</p></td>
+</tr>
+<tr class="row-odd"><td><p>Wall (Iron, 6”)</p></td>
+<td><p>30</p></td>
+<td><p>3 (all, except esoteric and acid)</p></td>
+<td><p>44</p></td>
+</tr>
+<tr class="row-even"><td><p>Wall (Iron, 1ft)</p></td>
+<td><p>60</p></td>
+<td><p>3 (all, except esoteric and acid)</p></td>
+<td><p>50</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Stockade (wooden)</p></td>
+<td><p>3</p></td>
+<td><p>1 (physical, except slashing)</p></td>
+<td><p>24</p></td>
+</tr>
+<tr class="row-odd"><td><p>Manacles (iron, basic)</p></td>
+<td><p>4</p></td>
+<td><p>2 (all, except esoteric and acid)</p></td>
+<td><p>24</p></td>
+</tr>
+<tr class="row-even"><td><p>Manacles (iron, solid)</p></td>
+<td><p>5</p></td>
+<td><p>2 (all, except esoteric and acid)</p></td>
+<td><p>28</p></td>
+</tr>
+<tr class="row-odd"><td><p>Manacles (iron, exceptional)</p></td>
+<td><p>6</p></td>
+<td><p>2 (all, except esoteric and acid)</p></td>
+<td><p>32</p></td>
+</tr>
+<tr class="row-even"><td><p>Rope (washing line)</p></td>
+<td><p>1</p></td>
+<td><p>-</p></td>
+<td><p>20</p></td>
+</tr>
+<tr class="row-odd"><td><p>Rope (hemp, climbing)</p></td>
+<td><p>2</p></td>
+<td><p>-</p></td>
+<td><p>24</p></td>
+</tr>
+<tr class="row-even"><td><p>Rope (silk, climbing)</p></td>
+<td><p>2</p></td>
+<td><p>-</p></td>
+<td><p>28</p></td>
+</tr>
+<tr class="row-odd"><td><p>Rope (nautical)</p></td>
+<td><p>4</p></td>
+<td><p>1 (physical, ice, light)</p></td>
+<td><p>32</p></td>
+</tr>
+<tr class="row-even"><td><p>Rope (nautical, thick)</p></td>
+<td><p>6</p></td>
+<td><p>1 (physical, ice, light)</p></td>
+<td><p>36</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Tent [1]</p></td>
+<td><p>2</p></td>
+<td><p>-</p></td>
+<td><p>[<a class="reference external" href="05-skills.html#fortify">“fortify”</a> roll] - 4</p></td>
+</tr>
+<tr class="row-odd"><td><p>Yurt [2]</p></td>
+<td><p>8</p></td>
+<td><p>1 (physical (except slashing), ice, light)</p></td>
+<td><p><a class="reference external" href="05-skills.html#fortify">fortify</a>” roll</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<ol class="arabic simple">
+<li><p>Cutting an opening in the fabric counts as 1 point of damage, collapsing the tent as 2.</p></li>
+<li><p>Cutting an opening in the yurt counts as 2 points of damage, collapsing the yurt as 8.</p></li>
+</ol>
+<p>Certain tools and weapons overcome the damage resistance of objects. These are as follows:</p>
+<ul class="simple">
+<li><p>A miner’s pick overcomes the damage resistance of wooden, bone and stone objects, (dealing 1 die of damage to wooden objects, and 2 dice of damage to stone objects per hit).</p></li>
+<li><p>A maul ignores 1 point of damage resistance of wooden, bone, stone and metal objects.</p></li>
+<li><p>Ballistas that use “bullets” as projectiles, catapults and canons ignore 1 point of damage resistance of wooden, bone, stone and metal objects.</p></li>
+<li><p>Axes ignore the damage reduction of wooden objects.</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="bindings-and-restraints">
+<h3>Bindings and Restraints<a class="headerlink" href="#bindings-and-restraints" title="Link to this heading">¶</a></h3>
+<p>Characters may end up being tied up, shackled, manacled, put in a stockade or otherwise restrained. Likewise a character may restrain their foes (or allies). In essence restraints come in two flavours: The kind whose escape threshold depends on the skill of character applying them, and the kind where it doesn’t. For example, how well one ties a rope depends on how well well one can tie a rope, while manacles often snap shut, and are locked in place at the turn of a key. Secondly different restraints can apply different conditions. For example a rope can be used to <a class="reference external" href="10-conditions-types.html#conditions-in-detail">“restrain”</a> or <a class="reference external" href="10-conditions-types.html#conditions-in-detail">“immobilise”</a> a target, while a stockade only to <a class="reference external" href="10-conditions-types.html#conditions-in-detail">“restrain”</a>.</p>
+<p>A target may escape a binding with a successful DEX/acrobatics roll, or break it with a STR/athletics roll (see above). Some entities may escape handcuffs by dislocating their joints, and hence gaining the “crippled” condition.</p>
+<p>Below is a table of various restraints.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Item</p></th>
+<th class="head"><p>Action</p></th>
+<th class="head"><p>Condition/Effect</p></th>
+<th class="head"><p>Escape Threshold</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Rope</p></td>
+<td><p>2 full round actions</p></td>
+<td><p>Restrain</p></td>
+<td><p>Skill roll</p></td>
+</tr>
+<tr class="row-odd"><td><p>Rope</p></td>
+<td><p>1 minute</p></td>
+<td><p>Immobilise</p></td>
+<td><p>Skill roll</p></td>
+</tr>
+<tr class="row-even"><td><p>Manacles (handcuffs, iron, basic)</p></td>
+<td><p>1 full round action</p></td>
+<td><p>Disadvantage on attacks, STR/DEX saves</p></td>
+<td><p>24</p></td>
+</tr>
+<tr class="row-odd"><td><p>Manacles (handcuffs, iron, solid)</p></td>
+<td><p>1 full round action</p></td>
+<td><p>Disadvantage on attacks, STR/DEX saves</p></td>
+<td><p>28</p></td>
+</tr>
+<tr class="row-even"><td><p>Manacles (handcuffs, iron, exceptional)</p></td>
+<td><p>1 full round action</p></td>
+<td><p>Disadvantage on attacks, STR/DEX saves</p></td>
+<td><p>32</p></td>
+</tr>
+<tr class="row-odd"><td><p>Manacles [1] (full, iron, basic)</p></td>
+<td><p>2 full round action</p></td>
+<td><p>As handcuffs, but speed also reduced to 5ft</p></td>
+<td><p>24</p></td>
+</tr>
+<tr class="row-even"><td><p>Manacles [1] (full, iron, solid)</p></td>
+<td><p>2 full round action</p></td>
+<td><p>As handcuffs, but speed also reduced to 5ft</p></td>
+<td><p>28</p></td>
+</tr>
+<tr class="row-odd"><td><p>Manacles [1] (full, iron, exceptional)</p></td>
+<td><p>2 full round action</p></td>
+<td><p>As handcuffs, but speed also reduced to 5ft</p></td>
+<td><p>32</p></td>
+</tr>
+<tr class="row-even"><td><p>Rope gag</p></td>
+<td><p>1 full round action</p></td>
+<td><p>Aphonia</p></td>
+<td><p>Skill roll</p></td>
+</tr>
+<tr class="row-odd"><td><p>Ball gag</p></td>
+<td><p>1 full round action</p></td>
+<td><p>Aphonia</p></td>
+<td><p>24</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<ol class="arabic simple">
+<li><p>Manacles can be attached to a fixture (wall, ceiling, etc) in order to also grant “grappled”, “restrained” or “immobilised” condition.</p></li>
+</ol>
+</section>
+<hr class="docutils" />
+<section id="terrain-hazards-todo">
+<h3>Terrain Hazards (TODO)<a class="headerlink" href="#terrain-hazards-todo" title="Link to this heading">¶</a></h3>
+</section>
+<hr class="docutils" />
+<section id="falling">
+<h3>Falling<a class="headerlink" href="#falling" title="Link to this heading">¶</a></h3>
+<p>A typical humanoid has a terminal velocity of about 100mph, or 1000ft per round. In the first round of falling a falling humanoid falls about 360ft. In most cases they land on the same round. In those cases they have only a “reaction” between them and the swift embrace of the Earth Mother. If the distance exceeds 360ft, they may take other actions, although for the sake of casting spells this counts as vigorous motion. One who falls from the back of a dragon, may have several minutes to contemplate their fate and do something about it.</p>
+<ul class="simple">
+<li><p>Entities between “large” and “small” inclusive take 1d8 damage per 10ft fallen. The first 1d8 of damage can be negated with an <a class="reference external" href="05-skills.html#acrobatics">“acrobatics”</a> roll. The threshold=12 if the fall is planned and 16 if the fall is not planned. This caps at 360ft (36d8), at which point they generally reach terminal velocity.</p></li>
+<li><p>“Huge” and larger entities are beloved by gravity and take 1d12 damage for every 10ft they fall. They have a higher terminal velocity and also unfavourable physical properties. Sudden drops are not kind to them. The damage also caps at 360ft at (36d12).</p></li>
+<li><p>“Tiny” and smaller entities take 1d4 damage for every 10ft fallen, as they typically have a lower terminal velocity.</p></li>
+<li><p>Damage upon “landing” is Physical[Natural] damage. Entities resistant or immune to Physical[Natural] damage need not fear the ground.</p></li>
+<li><p>Entities that do not have weight (not mass, weight) do not fall.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="fire-damage-and-being-on-fire">
+<h3>Fire damage and being on fire<a class="headerlink" href="#fire-damage-and-being-on-fire" title="Link to this heading">¶</a></h3>
+<p>Fire is a common danger that characters are likely to face, be it a forest fire, a burning building, or some mystical realm of fire, or entering the boundaries of certain fire spells.</p>
+<p>Most entities that come into contact with fire, suffer heat/fire damage. Fire damage is covered in <a class="reference external" href="10-conditions-types.html#energyelemental-damage">“Conditions and Types: Energy/elemental damage”</a>. entities that come into contact with fire may also be set on fire.</p>
+<p>When entering a fire, the damage is dependant on both the heat of a fire. When being on fire, the amount of damage depends on the size of the affected entity.</p>
+<hr class="docutils" />
+<section id="places-that-are-on-fire">
+<h4>Places that are on fire<a class="headerlink" href="#places-that-are-on-fire" title="Link to this heading">¶</a></h4>
+<p>When entering an area that is on fire or making contact with a fire a character must succeed a CON or CHA save (natural or supernatural fire) or take damage. The save and damage is repeated at the start of each turn. Once the character has failed at least one such save, they take damage automatically each turn until they leave the area that is on fire (or are otherwise no longer in contact with it). Once a character is no longer in or in contact with the fire, they suffer no further consequences unless they took damage after failing one of the CON or CHA saves. Otherwise the character is “on fire” (See below).</p>
+<p>Damage from fire is usually determined by size (as per the table below), but can be vary, especially for supernatural fire, or specific types of fire (for example the flames in a blast furnace would be hotter and hence more damaging that a bonfire of the same size).</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>‘radius’ of Fire</p></th>
+<th class="head"><p>Damage</p></th>
+<th class="head"><p>Save threshold</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>5 ft or less</p></td>
+<td><p>1d8</p></td>
+<td><p>13</p></td>
+</tr>
+<tr class="row-odd"><td><p>10-20 ft</p></td>
+<td><p>2d8</p></td>
+<td><p>16</p></td>
+</tr>
+<tr class="row-even"><td><p>20 ft or more</p></td>
+<td><p>3d8</p></td>
+<td><p>20</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<hr class="docutils" />
+<section id="being-on-fire">
+<h4>Being on fire<a class="headerlink" href="#being-on-fire" title="Link to this heading">¶</a></h4>
+<p>An entity that is on fire takes fire damage at the start of each of its turns, in a manner determined by its size. An entity may put out the fire by:</p>
+<ul class="simple">
+<li><p>Dropping prone and then use its “move action” to roll and hence attempt a DEX save at the start of its turn.</p>
+<ul>
+<li><p>The save may instead be made at any other point during its turn, but in that case it still suffers the damage at the start of its turn.</p></li>
+</ul>
+</li>
+<li><p>The entity may also use a “full round action” to attempt a “Fortify” skill check to do the same. Since “Fortify” roll uses a “full round action” the entity cannot also attempt the DEX save, which would use its “move action”.</p></li>
+<li><p>Submerge itself in water or earth using whatever action is appropriate at the time for a full round. Doing so automatically extinguishes natural fire. However supernatural flames and those caused by alchemical often follow different rules.</p></li>
+</ul>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Entity’s size</p></th>
+<th class="head"><p>Damage</p></th>
+<th class="head"><p>Extinguish threshold</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>large or smaller</p></td>
+<td><p>1d8</p></td>
+<td><p>13</p></td>
+</tr>
+<tr class="row-odd"><td><p>huge</p></td>
+<td><p>2d8</p></td>
+<td><p>16</p></td>
+</tr>
+<tr class="row-even"><td><p>gargantuan</p></td>
+<td><p>3d8</p></td>
+<td><p>20</p></td>
+</tr>
+<tr class="row-odd"><td><p>colossal</p></td>
+<td><p>4d8</p></td>
+<td><p>25</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>NB:</strong> As a consequence of size rules, not only does a bigger entity take more fire damage from being on fire, but being grappled by a bigger entity that <em>is on fire</em> does more damage than being grappled by a smaller one.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="characters-starvation-and-other-bad-ways-to-die">
+<h3>Characters, starvation, and other bad ways to die<a class="headerlink" href="#characters-starvation-and-other-bad-ways-to-die" title="Link to this heading">¶</a></h3>
+<p>Most characters are morals and therefore require <strong>sustenance</strong> and suffer from <strong>conditions</strong>. This can cause certain problems in the great outdoors and other hazardous locales. While starvation is deterioration and death from hunger, all this section uses an umbrella term “starvation” for all four forms of deprivation classified here.</p>
+<ul class="simple">
+<li><p>A mortal that goes without sustenance for a given period of time begins to deteriorate and eventually die.</p></li>
+<li><p>A mortal that is deteriorating without sustenance stops deteriorating when sustenance is returned. However if sustenance is withdrawn within a given time period, the deterioration begins immediately.</p></li>
+<li><p>The time periods can be modified by various factors. Usually environmental factors.</p></li>
+</ul>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Sustenance Kind</p></th>
+<th class="head"><p>starvation name</p></th>
+<th class="head"><p>duration before starvation</p></th>
+<th class="head"><p>refractory period</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Air</strong></p></td>
+<td><p>suffocation</p></td>
+<td><p>[CON] minutes</p></td>
+<td><p>[10 minutes - [CON]]</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Water</strong></p></td>
+<td><p>dehydration</p></td>
+<td><p>[CON] days</p></td>
+<td><p>[2 days]</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Food</strong></p></td>
+<td><p>starvation</p></td>
+<td><p>[[CON] x 3] days</p></td>
+<td><p>[10 - [CON]] days</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Sleep</strong></p></td>
+<td><p>insomnia</p></td>
+<td><p>[1 + [CHA]] days</p></td>
+<td><p>[8 - [CHA]] days</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Starvation name</p></th>
+<th class="head"><p>effect</p></th>
+<th class="head"><p>restoration time</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Suffocation</strong></p></td>
+<td><p>Lose 2d6 HP every minute.</p></td>
+<td><p>short rest</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Dehydration</strong></p></td>
+<td><p>Lose 1 SP dice per hour from your maximum.</p></td>
+<td><p>long rest</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Starvation</strong></p></td>
+<td><p>Lose 1 SP dice per day from your maximum.</p></td>
+<td><p>full rest</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Insomnia</strong></p></td>
+<td><p>Lose 3 SP AND 3 MP dice per day from your maximum.</p></td>
+<td><p>full rest</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>If an entity’s SP/MP dice maximum reaches zero through any form of privation, it will lose HP at the same rate.</p>
+<p>The loss of dice due to suffocation, dehydration, starvation and insomnia is considered “temporary”. A suitable period of rest (see above) restores the dice total and any lost dice.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="supernatural-terrain">
+<h2>Supernatural Terrain<a class="headerlink" href="#supernatural-terrain" title="Link to this heading">¶</a></h2>
+<p>Not all terrain is natural or “worked” (ie “man made”). It is not that rare, in a fantastic world, to find supernatural terrain.</p>
+<p>This can be labyrinths and lands where distances to not follow the normal laws of physics and geometry (non euclidean spaces). For example the enchanted forest where walking in a straight line will return you to your starting point, but walking in a circle will still get you to a different point altogether.</p>
+<p>This can be dreamscapes, which can change unpredictably and at the drop of a hat, and where force of will can change not only the landscape, but the very laws of the realm.</p>
+<p>This can be quite literally enchanted areas, where the enchantment alters the nature of the area (see <a class="reference external" href="08-spell-list.html#undying-realm">“Undying realm”</a>).</p>
+<p>This can be other planes that follow different physical laws. The laws of logic, causality, and magic may also be altered.</p>
+<p>This can be “spirit realms”, which are entirely immaterial, but unlike dreamscapes, very real indeed, with what characters with a physical form experience in those realms being <em>an interpretation that the mortal mind can grasp</em> rather than the true nature of those realms.</p>
+<p>This game defines rules for some kinds of supernatural terrain, but due to the vastness of the topic, encourages DMs and groups to set off on a flight of fancy, and in their fantasy worlds, create their own fantastic terrain with its own particulars. It should be noted, however, that this kind of terrain drastically changes the balance of the game, and should thus be used carefully.</p>
+<hr class="docutils" />
+<section id="spirit-realms">
+<h3>Spirit Realms<a class="headerlink" href="#spirit-realms" title="Link to this heading">¶</a></h3>
+<p>A spirit realm is generally, but not necessarily, a metaphorical layer of reality, which exists overlaid onto the material realm. In various practices and game systems, it is often referred to as the “astral plane”, “astral realm”, “otherside” or “otherworld”. It is characterised as having shallow and deeper layers, which are increasingly difficult to access for material beings and are inhabited by increasing “inhuman” spiritual beings and concepts. Perhaps even gods. Depending on the fantasy world being built, this might be the only major “otherworld”, or it might be one of many. It should be noted that a journey to a spirit realm is not necessarily literal, and may be interpreted as the journey of the traveller’s essence. The hazards of travelling to and from the spirit realm can also be thought of as resulting from the stresses and contradictions of travelling between worlds where the laws of existence are not necessarily compatible. The system assumes that a spirit realm of some kind exists, although the game can function without it.</p>
+<p><strong>Shallow</strong> layers of the spirit realm are adjacent to the material realm and are often easy to wonder in an out of unintentionally. Often they are inhabited by <a class="reference external" href="10-conditions-types.html#spiritual">fey</a>, monsters and minor spirits. The laws governing these layers are often quite similar to the material world, with only subtle differences. Mortals can dive into shallow layers of the spirit realm, and return, without consequences.</p>
+<p><strong>Intermediate</strong> layers of the spirit realm is where one may find powerful spirits and pervasive concepts. These realms are often absurd and somewhat abstracts, with the laws of reality being clearly different to the material world (all water might be alcohol, fire might be harmless, light, gravity, or emotions like love or hate might not exist). Elemental realms are often found in this layer. These may be impossible to access without a cosmic speed or “secret paths”. In addition, returning from these layers is often stressful and the journey may leave a mortal shaken or otherwise drained.</p>
+<p><strong>Deep</strong> layers of the spirit realm are where one finds afterlives, divine/profane realms, and pillar-concepts of creation. The deep realms are often alien to the mortal mind, and the laws that govern them often appear whimsical and disjointed, sometimes dreamlike, or sometimes more real than the material realm. These realms are inhabited by gods and demons which often preside over the souls that flocked to them, concepts and fates that are not destined for the material world, and by <a class="reference external" href="10-conditions-types.html#divine-1">things that should not be</a>. They generally cannot be accessed directly from the material realm, but rather from the appropriate “intermediate realm”. Journeys into the deep layers of the spirit realm are more often than not, one way journeys. If a mortal does return from a deep layer of the spirit realm, it usually through great sacrifice, and even then they return forever changed.</p>
+<hr class="docutils" />
+<section id="spirit-realm-rules-shallow">
+<h4>Spirit Realm Rules: Shallow<a class="headerlink" href="#spirit-realm-rules-shallow" title="Link to this heading">¶</a></h4>
+<p>There are no general hazards in the shallows of the Spirit Realm. However, upon leaving, the traveller must make an INT save (Threshold=16) or be disoriented by the passage between realms. An entity that fails this save has disadvantage on “navigate” rolls for the next 24 hours. If the traveller rolls snake eyes, they forget the way to that spirit realm. If they entered via a secret path, they forget that path and must find it anew. If they used a different modality, they cannot use it again unless (to enter that realm) they are taught it again by the ruler of that realm.</p>
+</section>
+<section id="spirit-realm-rules-intermediate">
+<h4>Spirit Realm Rules: Intermediate<a class="headerlink" href="#spirit-realm-rules-intermediate" title="Link to this heading">¶</a></h4>
+<p>Firstly, all the hazards of the “shallow” realms apply. Secondly, the DM should keep track of the number of short rests (long rests count as 2, full rests count as 7) taken in the intermediate layers. Upon returning to a shallower layer of the spirit world or to the material world, the traveller must make an INT save vs a Threshold=[16 + number of short rests]. Upon failure it expends a number of SP and MP dice (each) equal to the number of short rests it spent in the intermediate realms. In addition the traveller suffers from one or more of “catatonic”, “glowing”, “charmed”, “aphonic”, “blinded” and/or “blinded”. If the traveller succeeds on the save, it does not suffer from the conditions, but expends half of the SP and MP dice it would on a fail.</p>
+</section>
+<section id="spirit-realm-rules-deep">
+<h4>Spirit Realm Rules: Deep<a class="headerlink" href="#spirit-realm-rules-deep" title="Link to this heading">¶</a></h4>
+<ul class="simple">
+<li><p><strong>Firstly</strong>, all the hazards of travelling to shallower realms apply.</p></li>
+<li><p><strong>Secondly</strong>, upon entering the deep layer, a traveller must succeed a CHA save vs a Threshold=20 or be “charmed” by the realm and unable to leave willingly. The traveller succeeds the save automatically if they are in possession of an item or symbol associated with a being or place from the material realm that is precious to them.</p></li>
+<li><p><strong>Thirdly</strong>, for every long rest or longer that the traveller spends in the realm, they must succeed a CON save Threshold=[20 + number of rests] or gain a characteristic or physical change associated with the realm. This may be purely cosmetic or it may be functional. The change remains upon returning to the mortal realm.</p></li>
+<li><p><strong>Fourthly</strong>, upon leaving the realm, the traveller must make an INT save vs a Threshold=[20 + number of rests in the “deep” realm]. Upon failure the traveller becomes “diseased”[supernatural]. Until they are cured, every time they attempt to sleep, or otherwise take a long rest, the traveller is overwhelmed with wonderful and terrible visions of the realm they returned from and fail to regain MP, MP dice and HP fom the rest (but SP is regained normally).</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="afterlives">
+<h3>Afterlives<a class="headerlink" href="#afterlives" title="Link to this heading">¶</a></h3>
+<p>Afterlives take many forms, but share one common property: A soul that has reached its afterlife cannot return to the mortal realm without significant limitations and consequence. Often, it is for a brief interval of time, often but a day (see <a class="reference external" href="08-spell-list.html#revenant">“Revenant”</a>). In other case, one, or more often <em>many</em>, souls must be exchanged in order to keep it in the material realm (see <a class="reference external" href="08-spell-list.html#profane-resurrection">“Profane Resurrection”</a>). Some spells <em>bring the afterlife into the material realm</em> (see <a class="reference external" href="08-spell-list.html#undying-realm">“Undying realm”</a>). Afterlives are often “spirit realms”, but creative groups may have their own vision. Travel to an afterlife is much more often than not, a one way journey.</p>
+<p>The explanation given for the difficulties surrounding afterlives, is that the gods that govern death and the dead guard their realms and subjects jealously, and are loath to let them go. Others reason that the laws of creation allot only a fixed time to each mortal in the material realm, and extending that time is breaking, or at the very least bending, the laws of creation themselves. Others still, explain it with the finality of death: Death cannot be reversed, and turning it back is merely recreating an ephemeral simulacrum of those who once lived.</p>
+<p>Where an afterlife is part of the Spirit Realm, it is found in the “deep” layers, hence all the hazards of the deep layer of the spirit realm exists there.</p>
+<section id="general-afterlife-rules">
+<h4>General Afterlife rules<a class="headerlink" href="#general-afterlife-rules" title="Link to this heading">¶</a></h4>
+<ul class="simple">
+<li><p>All rests take twice as long as usually (so a long rest might last 16 hours (or two days) instead of 8 hours (or 1 day)).</p></li>
+<li><p>Spells and supernatural abilities that heal HP, SP and MP damage, as well as those that cure conditions, do not function.</p></li>
+<li><p>Undead lose 1 HP for every round spent in an afterlife realm (aka, they graduate to full dead and are released).</p></li>
+<li><p>Only “constructs” and “divinities” can travel freely to and from afterlife realms. Even then, there may be afterlife-like realms where even “divinities” cannot escape. Other entities can only enter by invitation of the ruler of the particular afterlife realm, or having defeated whatever guardian or challenge is placed at crossing points.</p></li>
+<li><p>Spirits that belong to the afterlife realm cannot leave without permission of its ruler.</p></li>
+<li><p>Mortals that are not dead (not spirits) and do not belong to the afterlife realm can only leave by defeating the guardian or challenge at the crossing point, unless they entered by invitation of the realm’s ruler.</p></li>
+<li><p>Mortals that take objects, or consume food or drink must succeed a CHA save vs the Threshold of the ruler, or become property of the realm, like the spirits bound there (see above).</p></li>
+<li><p>A ruler of an afterlife realm may transfer the ownership of a spirit or shade directly to another being, hence allowing it to leave that particular afterlife realm. If this spirit is returned to the material realm, its material body is restored, and it is considered resurrected. However, this is NEVER done without a hefty price being paid, be it an equivalent exchange of some kind, or a favour. The favour is often one that will bolster the interests of said afterlife realm’s ruler, cause <em>more</em> souls/shades to enter this afterlife realm, or significantly harm the interest of this realm’s ruler’s foes. It should be noted, however, that the only true resurrection that exists, is for those who have comrades on the other side who are willing to risk everything to descend into the afterlife and retrieve them.</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="secret-paths">
+<h3>Secret Paths<a class="headerlink" href="#secret-paths" title="Link to this heading">¶</a></h3>
+<p>A secret path is a hidden, supernatural path or route that connects two locations. These can be natural or supernatural locations, but more often than not, one end is a natural location, while the other is supernatural. The secret path itself is ALWAYS supernatural. Secret paths are created by mages and supernatural beings, sometimes for their own purposes, and sometimes inadvertently.</p>
+<p>A secret path can be obviously supernatural to those who walk it (eg, a moonbeam leading over water into the light, or a bridge of skull-like stepping stones through a mire or blood), or it can be indistinguishable from the natural terrain where it starts (a forest path unseen to all those not walking it, but leading to a place completely different than where one would expect it to lead by physical laws).</p>
+<section id="rules-of-secret-paths">
+<h4>Rules of Secret Paths<a class="headerlink" href="#rules-of-secret-paths" title="Link to this heading">¶</a></h4>
+<ul class="simple">
+<li><p>A secret path cannot be seen or located unconditionally without “true sight”, or if it was created by an active spell, “spell sight”</p></li>
+<li><p>A secret path can be found without special senses via a <a class="reference external" href="05-skills.html#knowledge">“Knowledge: Arcana”</a> roll to identify its start (equal to the creator’s threshold + 6). Ordinary “observe” does nothing here.</p></li>
+<li><p>A secret path that has been found can be followed with a <a class="reference external" href="05-skills.html#navigate">“Navigate”</a> roll equal to the creator’s threshold.</p></li>
+<li><p>A secret path takes a fixed amount of time (usually measured in rounds) to traverse, regardless of movement speed.</p></li>
+<li><p>Any entity on the secret path is no longer considered to be on the “material” realm, and hence cannot interact, or be interacted with from said realm. In general they “just disappear”, as if “they were there just a moment ago…”.</p></li>
+</ul>
+</section>
+</section>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="04-combat.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Combat</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="01-quick-start.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">FanSys23 Quick-start</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2023-3023, Fantasy Committee
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Actions outside of Combat</a><ul>
+<li><a class="reference internal" href="#load-and-carrying-capacity">Load and Carrying Capacity</a><ul>
+<li><a class="reference internal" href="#weight-limits-table">Weight limits table</a></li>
+<li><a class="reference internal" href="#weight-penalties">Weight penalties</a></li>
+<li><a class="reference internal" href="#dragging">Dragging</a></li>
+<li><a class="reference internal" href="#weight-limits-and-size">Weight limits and size</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#local-and-global-movement">Local and Global Movement</a><ul>
+<li><a class="reference internal" href="#global-movement-pushing-and-fatigue">Global Movement, Pushing and Fatigue</a><ul>
+<li><a class="reference internal" href="#running-and-fatigue">Running and Fatigue</a></li>
+<li><a class="reference internal" href="#sprinting-and-fatigue">Sprinting and Fatigue</a></li>
+<li><a class="reference internal" href="#fatigue-table">Fatigue Table</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#difficult-terrain">Difficult Terrain</a></li>
+<li><a class="reference internal" href="#walking">Walking</a></li>
+<li><a class="reference internal" href="#climb">Climb</a></li>
+<li><a class="reference internal" href="#swimming">Swimming</a></li>
+<li><a class="reference internal" href="#digging">Digging</a></li>
+<li><a class="reference internal" href="#flight">Flight</a><ul>
+<li><a class="reference internal" href="#limitations-of-flight">Limitations of Flight</a></li>
+<li><a class="reference internal" href="#flight-parameters">Flight Parameters</a></li>
+<li><a class="reference internal" href="#notes-on-flight">Notes on Flight</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#walk-and-flight-logic">Walk and Flight Logic</a></li>
+<li><a class="reference internal" href="#vigorous-motion">Vigorous Motion</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#exploration">Exploration</a><ul>
+<li><a class="reference internal" href="#overview">Overview</a></li>
+<li><a class="reference internal" href="#id1">Local and Global Movement</a><ul>
+<li><a class="reference internal" href="#flying-and-turbulence">Flying and Turbulence</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#terrains">Terrains</a><ul>
+<li><a class="reference internal" href="#roads">Roads</a></li>
+<li><a class="reference internal" href="#plains">Plains</a></li>
+<li><a class="reference internal" href="#woodlands">Woodlands</a></li>
+<li><a class="reference internal" href="#hills">Hills</a></li>
+<li><a class="reference internal" href="#urban-ruins">Urban/Ruins</a></li>
+<li><a class="reference internal" href="#deep-forest">Deep Forest</a></li>
+<li><a class="reference internal" href="#fells">Fells</a></li>
+<li><a class="reference internal" href="#subterranean">Subterranean</a></li>
+<li><a class="reference internal" href="#desert">Desert</a></li>
+<li><a class="reference internal" href="#mountains">Mountains</a></li>
+<li><a class="reference internal" href="#swamp">Swamp</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#classification-of-inclement-weather-hazards">Classification of Inclement Weather Hazards</a><ul>
+<li><a class="reference internal" href="#fair-weather">Fair weather</a></li>
+<li><a class="reference internal" href="#precipitation">Precipitation</a></li>
+<li><a class="reference internal" href="#wind">Wind</a></li>
+<li><a class="reference internal" href="#visibility">Visibility</a></li>
+<li><a class="reference internal" href="#temperature">Temperature</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#weather-conditions-and-associated-hazards">Weather conditions and associated hazards</a></li>
+<li><a class="reference internal" href="#travel-rolls-and-terrain-summary">Travel rolls and terrain (summary)</a><ul>
+<li><a class="reference internal" href="#summary-of-simplified-travel-rules-camping-and-navigation-combined">Summary of Simplified Travel Rules (Camping and navigation combined)</a></li>
+<li><a class="reference internal" href="#summary-of-full-travel-rules">Summary of Full Travel Rules</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#travel-and-getting-lost">Travel and getting lost</a></li>
+<li><a class="reference internal" href="#scouting-prospecting-and-exploration">Scouting, prospecting and exploration</a></li>
+<li><a class="reference internal" href="#harvesting-hunting-and-mining">Harvesting, Hunting and Mining</a></li>
+<li><a class="reference internal" href="#camping">Camping</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#environmental-hazards">Environmental hazards</a><ul>
+<li><a class="reference internal" href="#breaking-and-entering">Breaking and Entering</a><ul>
+<li><a class="reference internal" href="#breaking">Breaking</a></li>
+<li><a class="reference internal" href="#object-hit-point-durability-table">Object hit point (durability) table</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#bindings-and-restraints">Bindings and Restraints</a></li>
+<li><a class="reference internal" href="#terrain-hazards-todo">Terrain Hazards (TODO)</a></li>
+<li><a class="reference internal" href="#falling">Falling</a></li>
+<li><a class="reference internal" href="#fire-damage-and-being-on-fire">Fire damage and being on fire</a><ul>
+<li><a class="reference internal" href="#places-that-are-on-fire">Places that are on fire</a></li>
+<li><a class="reference internal" href="#being-on-fire">Being on fire</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#characters-starvation-and-other-bad-ways-to-die">Characters, starvation, and other bad ways to die</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#supernatural-terrain">Supernatural Terrain</a><ul>
+<li><a class="reference internal" href="#spirit-realms">Spirit Realms</a><ul>
+<li><a class="reference internal" href="#spirit-realm-rules-shallow">Spirit Realm Rules: Shallow</a></li>
+<li><a class="reference internal" href="#spirit-realm-rules-intermediate">Spirit Realm Rules: Intermediate</a></li>
+<li><a class="reference internal" href="#spirit-realm-rules-deep">Spirit Realm Rules: Deep</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#afterlives">Afterlives</a><ul>
+<li><a class="reference internal" href="#general-afterlife-rules">General Afterlife rules</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#secret-paths">Secret Paths</a><ul>
+<li><a class="reference internal" href="#rules-of-secret-paths">Rules of Secret Paths</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="_static/documentation_options.js?v=8bafd125"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/scripts/furo.js?v=46bd48cc"></script>
+    </body>
+</html>

@@ -37,7 +37,7 @@ the table who knows the system properly.
 
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    :caption: Index:
 
    01-quick-start
@@ -45,8 +45,8 @@ the table who knows the system properly.
    04-combat
    05-skills
    06-abilities
-   07-spells
    07-magic-and-spellcasting
+   08-spell-list
    09-races
    10-conditions-types
    11-weapons-armour
@@ -56,7 +56,10 @@ the table who knows the system properly.
    15-charm-etc
    16-recipes
    02-base-rules
+   bestiary
    CHANGELOG
+   TODO
+   LICENSE.txt
 
 Version
 -------
@@ -75,9 +78,3 @@ TODO
 - Add magic items to equipment list.
 - More monster/NPC stat blocks.
 - Playtesting and analysis of balance.
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`search`

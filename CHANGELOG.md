@@ -139,7 +139,7 @@ _____
 - Add "Meteoric Flight" spell.
 - Add "slumber" spell.
 - Add "lesser domain" and "greater domain" spells.
-- Add "fairy shelter", "fairy feast" and "fairy ball". 
+- Add "fairy shelter", "fairy feast" and "fairy ball".
 - Add "Blessing of the Fates" and "Gift of the Fates" spells.
 - Add "Fade", "False aura" and "Greater fade" spells.
 - Add "Lesser Xenophonia", "Natural Xenophonia", "Greater Xenophonia", "Inner Voice".
@@ -201,7 +201,7 @@ ___
 - Increase morning star damage to 1d8 from 1d6.
 
 ### Races
-- 
+-
 
 ### Spells
 - Add "regrowth" and "false regrow" spells.
@@ -222,14 +222,14 @@ ___
 - Also, if one 12 is rolled, an extra damage dice is rolled for the attack. If D12 is rolled, the number of damage dice is doubled.
 - Use D12, snake eyes as terminology instead of critical hit or miss.
 - Rework monster intrinsic abilities (now use 13+[stat]+[base])
-- 
+-
 
 ### Combat
 - Upgrade maces 1d6->1d8, increase its durability.
 - Add flails
 - Add Ballistae as weapons
 - Initiative is now [DEX] or [INT] (experimental)
-- 
+-
 
 ### Races
 - Add ["lesser dragon"](09-races.md#lesser-dragon-level-10-template--80-points).
@@ -245,15 +245,15 @@ ___
 - Add ["Rift"](08-spell-list.md#rift) (geomancy, level 5)
 - Add ["True Storm"](08-spell-list.md#true-storm) (anemancy, level 9)
 - Add ["Gift of the Winds"](08-spell-list.md#gift-of-the-winds) (anemancy, level 10)
-- 
-- 
-- 
+-
+-
+-
 
 ### Abilities
 - Added ["forbidden spell"](06-abilities.md#forbidden-spell)
 - Added ["swift spell"](06-abilities.md#swift-spell)
-- 
-- 
+-
+-
 
 ___
 ## From v0.0.10
@@ -261,15 +261,15 @@ ___
 ### General
 - Add "rebalance" mechanic in order to allow MP and SP to be interconverted (somewhat).
 - Add a little more detail on currencies.
-- 
+-
 
 ### Combat
 - Change "weapon" damage scaling rules with size
 - Change size based armour rules, to give a small advantage to small entities.
 
 ### Races
-- 
-- 
+-
+-
 
 ### Spells
 - Amend the other summon spells so that the summon appears at the start of next round.
@@ -337,7 +337,7 @@ ___
 
 ### Conditions and Types
 - Change definition for "poisoned" condition and add initial rules for poisons.
-- Change definition for "diseased" condition and add initial rules for diseases. 
+- Change definition for "diseased" condition and add initial rules for diseases.
 
 ### Skills
 - Added rope as a separate proficiency under Sleight of Hand and climber's kit.
@@ -484,7 +484,7 @@ ___
 
 ### General
 - Add [lizard folk](09-races.md#lizard-folk-level-1-template--8-points)
-- Clean up [crafting and enchanting](13-crafitng-imbuing.md):
+- Clean up [crafting and enchanting](13-crafting-imbuing.md):
   - Clarify procedure.
   - Add alchemy.
   - Fix healing and related magic.
@@ -502,7 +502,7 @@ ___
 - The concept of [hostile squares](04-combat.md#occupied-area-and-hostile-squares) and how to get through them (acrobatics, bull rush, feint).
 
 ### Skills
-- Modify [Observe](05-skills.md#observe) to have smaller bonus/penalties due to size. Increase due to concealment. 
+- Modify [Observe](05-skills.md#observe) to have smaller bonus/penalties due to size. Increase due to concealment.
 
 ### Abilities
 - Fix [deflect missiles](06-abilities.md#deflect-missile):
@@ -579,7 +579,7 @@ ___
 - Add [Alchemical goods table](12-equipment-economy.md#alchemical-reagents-and-potions).
 
 ### Crafting and Imbuing
-- Adjust the threshold modifiers [in the table](13-crafting-imbuing.md#threshold-table). 
+- Adjust the threshold modifiers [in the table](13-crafting-imbuing.md#threshold-table).
 - Updated and expanded [alchemy rules](13-crafting-imbuing.md#alchemy).
 - Reword enchantment [introduction](13-crafting-imbuing.md#enchanting-imbuing-and-alchemy).
 - Add section on [modifying effects](13-crafting-imbuing.md#modified-effects-and-source-spellsabilities).

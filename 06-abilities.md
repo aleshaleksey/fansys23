@@ -1539,13 +1539,17 @@ ___
 ___
 #### Opportunist
 
-**Description**: You may make attacks of opportunity against entities that are:
+**Description**: You may make attacks of opportunity against entities that move between threatened squares even when they are using careful movement.
 
-- Standing up.
-- Drinking potions.
+
+**Special**:
+- ["Evasive"](#evasive) and "opportunist" cancel each other out.
+- You can make attacks of opportunity against characters with the ["guarded"](#guarded) boon, unless they also have "opportunist" when they:
+  - Standing up.
+  - Drinking potions.
 
 ___
-#### Point blank shot I-III
+#### Point blank shot I-IIIAlso,
 
 **Type**: (Class B)
 

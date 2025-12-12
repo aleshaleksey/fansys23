@@ -128,7 +128,7 @@ It is possible that the setting has only humans. This is fine. For some. Others 
 
 In either case, the unique characteristics of these beings are represented by "templates" or "races". 
 
-Depending on the power level of the game one can pick a basic race or a "level-4" or "level-9" template. It is is essential that it is pre-agreed beforehand what level template everyone picks. I guarantee that unless the group is extremely chilled you will fall out if you do not. Advanced templates, as well as rules on how to make new ones are found in the ["Races"](09-races.md) chapter. When introducing new templates or races to a setting make sure to discuss your ideas with the rest of the agree.
+Depending on the power level of the game one can pick a basic race or a "level-4" or "level-9" template. It is is essential that it is pre-agreed beforehand what level template everyone picks. I guarantee that unless the group is extremely chilled you will fall out if you do not. Advanced templates, as well as rules on how to make new ones are found in the ["Races"](09-races.md) chapter. When introducing new templates or races to a setting make sure to discuss your ideas with the rest of the group.
 
 ___
 #### How to apply a race/template

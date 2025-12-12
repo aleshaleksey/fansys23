@@ -28,12 +28,16 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Install deps.
-        run: apt install python3-full \
-             && apt install-python3-sphinx
-             && pip3 install myst_parser
-             && pip3 install linkify-it-py
-             && pip3 install furo
+      - name: Install python and sphinx.
+        run: |
+             sudo apt update
+             sudo apt install python3-full
+             sudo apt install python3-sphinx
+             sudo apt install python3-myst-parser
+      - name: Install extra Sphinx related dependencies on python
+        run: |
+             pip3 install linkify-it-py
+             pip3 install furo
       - name: Build site
         run: ./sphinx-all.sh
       - name: Upload artifact

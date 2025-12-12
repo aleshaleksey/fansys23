@@ -11,6 +11,7 @@ mkdir sphinx/src/bestiary
 cp sphinx/index.rst sphinx/src/index.rst
 cp sphinx/bestiary.rst sphinx/src/bestiary.rst
 cp sphinx/conf.py sphinx/src/conf.py
+cp design-related/constitution.md sphinx/src/constitution.md
 
 # Special code for license
 echo "License" > sphinx/src/LICENSE.md

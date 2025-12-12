@@ -4,21 +4,16 @@ Fantasy System (FanSys) / New System for Fantasy Worlds (NSFW)
 About
 -----
 
-This system, (provisional name FanSys/NSFW) is an open fantasy gaming
-system for table top fantasy roleplaying games, inspired by d20 systems
-like PF v\`, DnD 3.5 and 5e, but designed with balance in mind and using
-2d12 as the core role.
+FanSys/NSFW is a an open fantasy gaming system for table top roleplaying games. Its core features are:
 
-The system is designed around a `Constitution <constitution.md>`__,
-which is half way between an actual constitution and a design document.
-It sets the out the aims of the system, the general principles of the
-rules and the commandments for making new rules and content. This should
-hopefully prevent half-elves and reborn dhampire faeries, amongst other
-horrors of poor game design.
+- 2d12 as the core roll.
+- A "rules before rulings" approach to running the game.
+- A class-free, ability/skill based level system.
+- A distinction between real injury (HP damage) and "soft" damage (MP/SP damage).
+- A martial combat system that makes actions and manoeuvres beyond "I hit it", viable.
+- A focus on the dichotomy between natural and supernatural phenomena.
 
-The system is designed to provide a relatively high level of complexity
-at character creation time, while keeping the intent that “outcomes are
-decided mostly at play time, not creation time”.
+It is the game system made because we wanted to play it, not because we wanted to "sell" it.
 
 Recommended starting point
 --------------------------
@@ -57,19 +52,50 @@ the table who knows the system properly.
    16-recipes
    02-base-rules
    bestiary
+   fantasy-committee
    CHANGELOG
    TODO
+   constitution
    LICENSE.txt
+
+About the Design of FanSys
+--------------------------
+
+FanSys/NSFW is an open fantasy gaming system for table top fantasy roleplaying games,
+inspired to a degree by d20 systems such as PF v1, DnD 3.5 and 5e, but designed with
+balance in mind and using 2d12 as the core roll.
+
+The design of FanSys is guided by a so called `Constitution <constitution.html>`__, which sets
+the out the aims of the system, the general principles of the rules and the commandments
+for making new rules and content. This should hopefully prevent half-elves and reborn
+dhampire faeries, amongst other horrors of poor game design.
+
+FanSys is designed to provide a relatively high level of complexity at character creation time,
+while keeping the intent that "outcomes are decided mostly at play time, not creation time".
 
 Version
 -------
 
+FanSys is currently a draft set of rules that is quite close to its final form.
+Nevertheless, the online rules show the very latest "experimental" rules,
+with previous "snapshots"/versions being kept on the FanSys github
+(https://github.com/aleshaleksey/fansys23), and will continue to be hosted
+there for the foreseeable future.
+
+The aim is to reach **v0.1.0**, at which point the rules will become more or
+less fixed, with the exception of errata which will hopefully be few and far between.
+
 The version currently stands at:
 
-**v0.0.18**
+**v0.0.18+**
 
-This is the 18th draft. It is is mostly workable, but needs more
-testing, more monsters, and a better layout for clarity.
+Fantasy Committee
+-----------------
+
+There is no dusty cabinet for those of us who dream in the dusty recesses of our mind.
+However, all those who contributed to the project one way or another, and did not
+wish to remain hidden, are listed in the `Fantasy Committee <fantasy-committee.html>`__.
+
 
 TODO
 ----

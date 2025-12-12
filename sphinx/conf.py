@@ -18,7 +18,7 @@
 project = 'FanSys'
 copyright = '2023-3023, Fantasy Committee'
 author = 'Fantasy Committee'
-release = '0.0.18'
+release = '0.0.18+'
 
 # -- General configuration ---------------------------------------------------
 
@@ -45,7 +45,7 @@ exclude_patterns = []
 html_theme = 'furo' # requires the furo theme `pip install furo`
 html_static_path = ['_static']
 # html_logo = ""
-html_title = "FanSys 0.0.18"
+html_title = "FanSys 0.0.18+"
 html_theme_options = {
     "light_css_variables": {
         "color-foreground-primary": "#202424",

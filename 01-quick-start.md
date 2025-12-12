@@ -8,7 +8,7 @@ ___
 
 The rules of FanSys mostly concern small group combat in a fantasy setting, but also exploration and some aspects of general interactions with the environment, including supernatural locales. It works with various fantasy settings, both low and high. The distinction between HP damage (mortal injury) and MP/SP damage (bumps and bruises, spiritual exhaustion), is a particular feature of the game that allows groups to distinguish between mortal dangers and less perilous predicaments. The game has levels for a progression of power, but is also class-free which allows almost limitless flexibility of character creation (with some perils of its own).
 
-FanSys was designed for a slower and more thoughtful pace of play than those high-action, fast-paced games, where not a day passes without the party crossing swords with their foes. That is not to say that it can't be used in this way. In fact it is equally well equipped for fast paced games. Nevertheless, it was designed for a slower pace of play. 
+FanSys was designed for a slower and more thoughtful pace of play than those high-action, fast-paced games, where not a day passes without the party crossing swords with their foes. That is not to say that it can't be played this way, though it does become a little more deadly as the pace increases. Nevertheless, it was designed for a slower pace of play. 
 
 This is the reason for features such as the expense of healing magic, slow healing of HP and stat damage, [short, long and full rests](04-combat.md#rest-and-recuperation), the [global spellcasting](07-magic-and-spellcasting.md#global-and-local-spells) system, and the [slow learning of spells](07-magic-and-spellcasting.md#learning-spells-through-independent-study-or-from-a-mentor). The slow healing especially encourages players to think twice before engaging in mortal combat and to appreciate the respite afterwards. Downtime, recovery, time taken to find and craft the arms needed to defeat dangerous foes, or to learn the magics needed to overcome them, are emphasised.
 
@@ -108,27 +108,32 @@ For more information on stats see ["Base Rules: Stats"](02-base-rules.md#stats).
 ___
 ## Types, Races, Species and Templates
 
-Some role playing fantasy species support different playable races (eg humans, elves, dwarves, etc) and some do not. Systems like DnD and Pathfinder have "baked in" races. Other systems like "Ryuutama" allow only humans. This system supports races from different creature types, as this can add an enormous amount of flavour to a game, and a good amount of mechanical complexity, but does not consider them a necessary core rule, as this is considered to be setting specific.
-
-### Races and Species
-
-The system does not debate whether different races are different species or not. This is a setting specific decision.
+Some role playing fantasy species support different playable races (eg humans, elves, dwarves, etc) and some do not. Systems like DnD and Pathfinder have "baked in" races. Other systems like "Ryuutama" allow only humans. This system supports races from different creature types, as this can add an enormous amount of flavour to a game, and a good amount of mechanical complexity, but does not consider them a necessary core rule, as this is considered to be setting specific. The way it does so is through "templates", which are explained below.
 
 ___
 ### Templates
 
-All characters start with a template. A template is a set of abilities, traits and properties. Usually it is associated with a race or creature type. Not all templates are equal. Some templates (eg dragon, angel) are blatantly more powerful than others. In order to offset this, templates have levels. Templates exist for level 0, level 4 and level 9. They can also be created for other levels. For a start, level 0 templates should be considered the standard.
+All characters start with a template. A template is a set of abilities, traits and properties which alter the base character. It might increase or decrease their speed or one of their stats, give them an unusual sense, change their size, give them resistances or vulnerabilities, or cause a number of other alterations.
 
-For higher power games, where players wish to play angels, devils, dragons and other things, higher level templates should be used. It is recommended that all players use templates of the same level, as low level templates with extra class levels mix poorly with higher level templates.
+Usually a template is associated with a race or creature type (eg the "fey touched" template, or "human" template), although for specific settings where there are no races, they can either be completely eschewed or used to represent cultures within the same race.
+
+Not all templates are equal. Some templates (eg dragon, angel) are blatantly more powerful than others. In order to offset this, templates have levels. Templates exist for level 0, level 4 and level 9. They can also be created for other levels (see). Templates of different levels should not be mixed within a group, as this will unbalance the game and probably cause upset. For a start, level 0 templates should be considered the standard.
+
+For higher power games, where players wish to play angels, devils, dragons and other things, higher level templates should be used. Advanced templates, as well as rules on how to make new ones are found in the ["Races"](09-races.md) chapter.
 
 ___
-### Race or template
+### Race as template
 
-It is possible that the setting has only humans. This is fine. For some. Others prefer a world with many different kinds of sapient beings that they can play. It might be a world with timeless elves and  brutish orcs. Or it might be a world with beasts that roam the land, sea people who inhabit the waters and winged folk whose domain is the sky.
+As mentioned above, some settings have only a single race (usually human), others prefer a world with many different kinds of sapient beings that are available to players. It might be a world with timeless elves and  brutish orcs. Or it might be a world with beasts that roam the land, sea people who inhabit the waters and winged folk whose domain is the sky.
 
-In either case, the unique characteristics of these beings are represented by "templates" or "races". 
+In either case, the unique characteristics of these beings are represented in "templates". 
 
-Depending on the power level of the game one can pick a basic race or a "level-4" or "level-9" template. It is is essential that it is pre-agreed beforehand what level template everyone picks. I guarantee that unless the group is extremely chilled you will fall out if you do not. Advanced templates, as well as rules on how to make new ones are found in the ["Races"](09-races.md) chapter. When introducing new templates or races to a setting make sure to discuss your ideas with the rest of the agree.
+A gaming group should agree before the start of a game what races might exist in the world, what races are playable in the game and what templates represent them. When introducing new templates or races to a setting make sure to discuss your ideas with the rest of the group.
+
+___
+### Races and Species
+
+The system does not debate whether different races are different species or not. This is a setting specific decision.
 
 ___
 #### How to apply a race/template
@@ -146,7 +151,7 @@ Templates generally give some small bonuses, a few nice features, some of which 
 ___
 ### A few basic templates
 
-I am not sure which ones exist in your setting, but I quite like these ones.
+Below, you can find a number of basic templates/races to pick from when making a character (though more can be found in [Chapter 9](09-races.md#example-templates)).
 
 ___
 #### Human (level-1 template = 8 points)

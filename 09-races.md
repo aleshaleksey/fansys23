@@ -7,7 +7,7 @@ Some roleplaying fantasy species support different playable races (eg humans, el
 The system does not debate whether different races are different species or not. This is a setting specific decision.
 
 ___
-## Example Template
+## Example Templates
 
 All characters start with a template. A template is a set of abilities, traits and properties. Usually it is associated with a race or creature type.
 

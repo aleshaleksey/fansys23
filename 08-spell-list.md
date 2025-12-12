@@ -1269,7 +1269,7 @@ ___
 |Limitation|You must be familiar with the entity kind that you're transforming into|-1(3)
 |Save|WIS|
 
-**Description**: The target transforms into another entity of its type and subtype. It loses its template and instead gains the template of any valid entity that has both (see ["example templates"](09-races.md#example-template)):
+**Description**: The target transforms into another entity of its type and subtype. It loses its template and instead gains the template of any valid entity that has both (see ["example templates"](09-races.md#example-templates)):
 
 - The same template level as its own own or a template whose level is lower than its own.
 - The same entity type and subtype as its own.

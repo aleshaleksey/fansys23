@@ -1549,7 +1549,7 @@ ___
   - Drinking potions.
 
 ___
-#### Point blank shot I-IIIAlso,
+#### Point blank shot I-III
 
 **Type**: (Class B)
 

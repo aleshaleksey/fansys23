@@ -179,3 +179,7 @@
 
 #set page(columns: 2)
 #include "build/02-base-rules.typ"
+#pagebreak()
+
+#set page(columns: 1)
+#include "build/fantasy-committee.typ"

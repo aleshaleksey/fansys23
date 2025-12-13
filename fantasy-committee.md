@@ -29,7 +29,7 @@ There is no dusty cabinet for those of us who dream in the dusty recesses of our
 - Testing
   - JetBlack_Dhalia's dead characters make level 1 survivable
 
-#### This seat appears to be taken, but its owner is not here
+#### Horusblackmar
 
 - Initial Design/Discussion
   - Your wishes guide the final form of FanSys

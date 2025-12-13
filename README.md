@@ -2,7 +2,7 @@
 
 ## About
 
-FanSys/NSFW is a an open fantasy gaming system for table top roleplaying games. Its core features are:
+FanSys/NSFW is a an open fantasy gaming system for table top role-playing games. Its core features are:
 
 - 2d12 as the core roll
 - A rules before ruling approach to running the game
@@ -54,7 +54,7 @@ Of course play will be "clunky" if there isn't at least one person at the table 
 ___
 ## About the Design of FanSys
 
-FanSys/NSFW is an open fantasy gaming system for table top fantasy roleplaying games, inspired to a degree by d20 systems such as PF v1, DnD 3.5 and 5e, but designed with balance in mind and using 2d12 as the core roll.
+FanSys/NSFW is an open fantasy gaming system for table top fantasy role-playing games, inspired to a degree by d20 systems such as PF v1, DnD 3.5 and 5e, but designed with balance in mind and using 2d12 as the core roll.
 
 The design of FanSys is guided by a so called [Constitution](constitution.md), which sets the out the aims of the system, the general principles of the rules and the commandments for making new rules and content. This should hopefully prevent half-elves and reborn dhampire faeries, amongst other horrors of poor game design.
 

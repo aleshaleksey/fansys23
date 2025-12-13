@@ -1,6 +1,6 @@
 # Types, Races, Species and Templates
 
-Some roleplaying fantasy species support different playable races (eg humans, elves, dwarves, etc) and some do not. Systems like DnD and Pathfinder have "baked in" races. Other systems like "Ryuutama" allow only humans. This system supports races from different creature types, as this can add an enormous amount of flavour to a game, and a good amount of mechanical complexity, but does not consider them a necessary core rule, as this is considered to be setting specific.
+Some role-playing fantasy species support different playable races (eg humans, elves, dwarves, etc) and some do not. Systems like DnD and Pathfinder have "baked in" races. Other systems like "Ryuutama" allow only humans. This system supports races from different creature types, as this can add an enormous amount of flavour to a game, and a good amount of mechanical complexity, but does not consider them a necessary core rule, as this is considered to be setting specific.
 
 ## Races and Species
 

@@ -1,7 +1,7 @@
 # FanSys23 Quick-start
 
 ## Forwards
-This is a fantasy roleplaying system optimised for balance that uses 2d12 for its core roll. It is meant for games with a focus on small group combat and exploration, with an emphasis on the balance between mundane and supernatural.
+This is a fantasy role-playing system optimised for balance that uses 2d12 for its core roll. It is meant for games with a focus on small group combat and exploration, with an emphasis on the balance between mundane and supernatural.
 ___
 
 ## Scope and Pace of the game
@@ -17,7 +17,7 @@ ___
 
 ## Playing the game
 
-The game is played like any of the number of table top roleplaying games that exist. This game uses a similar concept to Pathfinder or Dungeons and Dragons, with the big difference that it uses 2d12 instead of 1d20 as the dice roll that decides the outcome of uncertain events and interactions (See ["Base Rules: Rolling Dice"](02-base-rules.md#rolling-dice) for more detail). To play this game, one needs to:
+The game is played like any of the number of table top role-playing games that exist. This game uses a similar concept to Pathfinder or Dungeons and Dragons, with the big difference that it uses 2d12 instead of 1d20 as the dice roll that decides the outcome of uncertain events and interactions (See ["Base Rules: Rolling Dice"](02-base-rules.md#rolling-dice) for more detail). To play this game, one needs to:
 
 1. Find a group.
 2. Assign a DM.
@@ -43,9 +43,11 @@ ___
 
 ### Character concepts
 
-FanSys is a class-free system which supports different races and templates. So depending on what setting, power level, and game style the group has chosen, a character can be a human mage, or a cat girl sword master, or a winged beast that breathes fire, or a vampire.
+FanSys is a class-free system which supports different races and templates. So depending on what setting, power level, and game style the group has chosen, a character can more or less freely combine abilities and race/template, so one might make a mage or a fighter, or a sneaky martial artist who knows fire magic, has an animal companion and can turn into a bird. A few example character recipes are presented in ["Chapter 16"](16-recipes.md), for use as inspiration when lost in indecision.
 
-Likewise it is worth thinking about *who* your character is. Are they an ambitious peasant going out into the world to find their chosen one? Are they a weary old knight who has gone on one last quest? Or did they perhaps just misread a map on the way to town and ended up in this god forsaken wilderness with an overambitious peasant and a weary old knight?
+To make things even more interesting, they might be human, or they might have a different template, such as one of the sea people, winged, or even a vampire, dragon, or a setting specific race that can be created with the [template maker](09-races.md#making-templates) rules.
+
+Most importantly, perhaps, it is worth thinking about *who* your character is. What defines them? What are their goals and fears? What do they value, and what do they despise? Are they an ambitious peasant going out into the world to find their chosen one? Are they a weary old knight who has gone on one last quest? Or did they perhaps just misread a map on the way to the magical kingdom and ended up in this god forsaken wilderness with an overambitious peasant and a weary old knight?
 
 ___
 ### Stats
@@ -108,7 +110,7 @@ For more information on stats see ["Base Rules: Stats"](02-base-rules.md#stats).
 ___
 ## Types, Races, Species and Templates
 
-Some role playing fantasy species support different playable races (eg humans, elves, dwarves, etc) and some do not. Systems like DnD and Pathfinder have "baked in" races. Other systems like "Ryuutama" allow only humans. This system supports races from different creature types, as this can add an enormous amount of flavour to a game, and a good amount of mechanical complexity, but does not consider them a necessary core rule, as this is considered to be setting specific. The way it does so is through "templates", which are explained below.
+Some role-playing fantasy species support different playable races (eg humans, elves, dwarves, etc) and some do not. Systems like DnD and Pathfinder have "baked in" races. Other systems like "Ryuutama" allow only humans. This system supports races from different creature types, as this can add an enormous amount of flavour to a game, and a good amount of mechanical complexity, but does not consider them a necessary core rule, as this is considered to be setting specific. The way it does so is through "templates", which are explained below.
 
 ___
 ### Templates
@@ -138,7 +140,7 @@ The system does not debate whether different races are different species or not.
 ___
 #### How to apply a race/template
 
-Templates generally give some small bonuses, a few nice features, some of which cannot be gained by other means. Some also give your character penalties. These can be both a pain and a roleplaying crutch. To apply a template:
+Templates generally give some small bonuses, a few nice features, some of which cannot be gained by other means. Some also give your character penalties. These can be both a pain and a role-playing crutch. To apply a template:
 
 1. Read over the template.
 2. Apply the creature size to your character, adjust heights and weights within 20% as desired.
@@ -316,7 +318,7 @@ This is a race of humanoid that has various beast like traits, usually cat-like,
 ___
 #### Fiend-touched (level-1 template = 8 points)
 
-This represents those who have been touched by dark forces. Perhaps because of a pact, perhaps because of a dark ritual, perhaps because of whimsical evil. Or perhaps it's a bona fide race.
+This represents those who have been touched by dark forces. Perhaps because of a pact, perhaps because of a dark ritual, perhaps because of whimsical evil, or perhaps in the dark corners of society there exists a clan that does its utmost to keep the fiendish blood that flows through their veins restricted to their clan alone.
 
 - **Size**: Medium (Height: ~5'10", Weight: ~160lb)
 - **Stats**: (Str: 0, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: +1)
@@ -358,7 +360,7 @@ Skills and proficiencies determine how well practiced your character is with cer
 
 Secondly, a character starts with one background skill, where they get to add a small bonus (+2 at level 1 - this is [base + 1]).
 
-Thirdly, a character also gets to choose a homeland  (see ["terrain"](03-movement-exploration.md#terrains)). This reflects the landscape of the character's homeland, and can be anything from "town" or "plains" to "ruins" or "subterranean". The character has a +2 bonus to [fortify](05-skills.md#fortify) and [navigation](05-skills.md#navigate) in that terrain (very useful).
+Thirdly, a character also gets to choose a homeland  (see ["terrain"](03-movement-exploration.md#terrains)). This reflects the landscape of the character's homeland, and can be anything from "town" or "plains" to "ruins" or "subterranean". The character has a +2 bonus to [fortify](05-skills.md#fortify) and [navigation](05-skills.md#navigate) in that terrain.
 
 Fourthly, a character chooses a save with which they are proficient. This will help defend them against some nasty stuff, so choose carefully.
 
@@ -371,9 +373,11 @@ HP represents a character's vitality, physical body or life force. Importantly, 
 
 A character's HP is equal to: **[Level + [Con] + [Cha]]**.
 
-Thus for a level one character with +3 [Con] and +1 [Cha], the HP total is 5. This is not a lot. If at the end of the calculation you start off with 0 HP, then your HP total is set to 1.
+If at the end of the calculation you start off with 0 HP, then your HP total is set to 1.
 
-Luckily a character also has mana (or mental) points (MP) and stamina points (SP). When a character is hit with a mundane ("natural") attack, the damage is first subtracted from SP, and only if it is massive damage, or if the character runs out of SP, does the damage actually affect HP. This works in the same way of MP and supernatural attacks. SP and MP are different from HP in three ways.
+Liira, an apprentice aquamancer (level one) with +2 [Con] and +3 [Cha], has a HP total of 6. This is not a lot and she needs to be careful if she gets in a serious fight. 
+
+Luckily a character also has mana (or mental) points (MP) and stamina points (SP). When a character is hit with a mundane ("natural") attack, the damage is first subtracted from SP, and only if it is massive damage, or if the character runs out of SP, does the damage actually affect HP. This works in the same way for MP and supernatural attacks. SP and MP are different from HP in three ways.
 
 1. You do not die if you run out of SP or MP. You do lose the ability to use your more powerful abilities though.
 2. You regain SP and MP a lot faster than HP, and taking damage to SP/MP represents using your combat/magical prowess to shrug off damage at the expense of expending your energy.
@@ -388,12 +392,19 @@ The amount of SP or MP a character has is determined by how many SP dice and MP 
 - The total MP = **[Level x [Cha] + 2 x [MP dice]]**
 - The total SP = **[Level x [Con] + 2 x [SP dice]]**
 
-So if a character starts with 3 SP dice and 2 MP dice, and has +3 [Con] and +1 [Cha] then,
+Liira, for example, started with 2 SP dice and 3 MP dice at level 1. Since her [Con] is +2 and her [Cha] +3,
 
-+ MP = [1 x 1 + 2 x 2] = 5
-+ SP = [3 x 1 + 2 x 3] = 9
++ MP = [3 x 1 + 2 x 3] = 9
++ SP = [2 x 1 + 2 x 2] = 6
 
-This is also not a lot, but already a lot better than it used to be!
+In total, Liira has 6 HP, 6 SP and 9 MP. Thus she can take about 12 points of damage from physical attacks, or 15 points of damage from magical attacks before being knocked out and potentially dying. This is about:
+
+- 2-3 cuts of a bandit's short sword, or bites of a wolf's teeth.
+- 1 cut of a berserker's greataxe.
+- 2-4 blast's of an apprentice's elemental blast.
+- 1-2 hits from the elemental blast of an experienced mage.
+
+Hopefully she has the presence of mind, and opportunity, to pick her battle carefully!
 
 ___
 ### A word on HiT, NAP, SAP and other 3 letter words.
@@ -415,7 +426,7 @@ In general, the higher the hit the better (See ["Base Rules: Hit Threshold (HiT)
 ___
 #### Attack bonuses and Hit Thresholds
 
-Attacks must overcome HiT to do damage, abilities are opposed by a save. An attack roll with bonuses must equal or exceed ("meet or beat") the HiT to deal damage. Likewise, a saving roll must likewise meet or beat the malign effect's "save threshold" to avoid or mitigate the effect.
+Attacks must overcome HiT to do damage, abilities are opposed by a save. An attack roll with bonuses must equal or exceed ("meet or beat") the HiT to deal damage. Likewise, a saving roll must meet or beat the malign effect's "save threshold" to avoid or mitigate the effect.
 
 "Natural" attacks are governed by Str and Dex (use [Str] or [Dex] bonus to hit), while "supernatural" attacks are governed by Int and Wis (use [Int] or [Wis] bonus to hit, usually [Wis]).
 
@@ -424,14 +435,14 @@ The Attack Potential of a character's ability is determined by the total number 
 + For "natural" abilities, attack potential **(NAP) = [Nat] + [Base]**
 + For "supernatural" abilities, attack potential **(SAP) = [Sup] + [Base]**
 
-So for our example level one character who had 3 SP dice and 2 MP dice:
+The woodsman, Naus (level 1) had 3 SP dice and 2 MP dice:
 
 + [Nat] = [SP dice] / 6 = 3 / 6 = 1 (because we always round these things up)
 + [Sup] = [MP dice] / 6 = 2 / 6 = 1 (because we always round up)
 
-With the above [Nat] and [Sup] values (1), at level one (when [Base] = 1), our example character will have both [NAP] and [SAP] equal to 2. 
+With the above [Nat] and [Sup] values (1), at level one (when [Base] = 1), Naus will have both [NAP] and [SAP] equal to 2. He's almost equally inexperienced in matters of the natural and supernatural world.
 
-Now if the character has +2 [Str] and 0 [Int], for Str based attacks, such as cutting with an axe, it will have a bonus of 2 + 2 = 4. On the other hand for Int based attacks, such as casting an incantation, it will be 2 + 0 = 2. Clearly this character is usually better off using an axe!
+Naus had +1 [Str], +3 [Dex] and 0 [Int], so for STR based attacks, such as cutting with an axe, his stat bonus is +1 (total bonus = 3 (1 + 2)), for DEX based attacks his stat bonus is +3 (total bonus = 5 (3 + 2)), and for INT based attacks his stat bonus is 0 (total bonus = 2 (0 + 2)). Clearly Naus is best off using his uncle's old short sword. Although he might also be a dangerous opponent should he get his hands on a war axe.
 
 In short:
 
@@ -444,11 +455,11 @@ Luckily we don't have to calculate the attack potentials outside of levelling up
 ___
 #### Spell and Ability Saves
 
-When spells and some abilities are used, the onus on overcoming their effects is on the character who would be affected. In this case, the character who is affected can attempt to roll a "save" against the spell/ability's static "threshold". There are six types of saving throw, one for each stat. A character can either proficient or not proficient with a save. The bonus for the save is as follows:
+When spells and some abilities are used, the onus on overcoming their effects is on the character who would be affected. In this case, the character who is affected can attempt to roll a "save" against the spell/ability's static "threshold". There are six types of saving throw, one for each stat. For a character any given save can be a "good" save or a "bad" save. The bonus for the save is as follows:
 
-- **Not proficient**: **[Stat bonus + Base]**
-- **Proficient** (Str, Dex, Con): **[NAP + Stat bonus]**
-- **Proficient** (Int, Wis, Cha): **[SAP + Stat bonus]**
+- **Bad save**: **[Stat bonus + Base]**
+- **Good save** (Str, Dex, Con): **[NAP + Stat bonus]**
+- **Good save** (Int, Wis, Cha): **[SAP + Stat bonus]**
 
 The "save threshold" is equal to **[13 + [Nat or Sup] + [Stat bonus]]**.
 

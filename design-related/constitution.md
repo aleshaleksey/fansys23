@@ -22,7 +22,7 @@ This document describes RAI, and sets out base rules and principles behind the s
 9. No ability path should replicate the mechanics of another with no changes other than governing ability or fluff. If this happens the duplicate must be removed. Even "auto-hit" abilities should have a counter or two.
     - Skills can partially overlap (that is natural), but the overlap must be limited.
     - Spells should not mirror what martial abilities should be.
-    - Weapons should be made mechanistically unique, or when it is not possible represented by a single weapon stat (eg. gladius/shortsword/smallsword).
+    - Weapons should be made mechanistically unique, or when it is not possible represented by a single weapon stat (eg. gladius/short sword/smallsword).
 10. Martial and Casting type characters should both be viable at all levels when not deliberately build to be ineffective.
 11. All the abilities and mechanics put into the game should be useable. If the mechanic is not useable, then it should either be removed or changed to be useable.
     - Non-humanoid characters should be viable (at least mid-level and up).

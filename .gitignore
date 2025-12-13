@@ -1,4 +1,6 @@
 typ/build
 .*
 *.pdf
-
+sphinx/src
+sphinx/build
+sphinx/_static

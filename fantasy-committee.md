@@ -1,12 +1,19 @@
 # Fantasy Committee
 
-There is no dusty cabinet for those of us who dream in the dusty recesses of our mind. However, all those who contributed to the project one way or another, and did not wish to remain hidden, are listed here.
+___
+## In the house upon a secret path
+
+There is no dusty cabinet for those of us who dream in the dusty recesses of our mind. However, all those who contributed to the project one way or another, and did not wish to remain hidden, have a seat on the Fantasy Committee.
+
+___
+### Contributors:
 
 #### aleshaleksey
 
 - Yes
 
-#### Allu
+___
+#### Allu: Seat of the old one
 
 - Character Sheet Design and Implementation
 - Initial Design/Discussion
@@ -17,24 +24,28 @@ There is no dusty cabinet for those of us who dream in the dusty recesses of our
   - Telling off aleshaleksey for impossible to read sentences
 - Testing (especially exotic races)
 
-#### Fraser
+___
+#### Horusblackmar: Seat of the watcher
+
+- Initial Design/Discussion
+  - Your wishes guide the final form of FanSys
+
+___
+#### Fraser: Seat of Shapeshifting Cat-girls
 
 - Proofreading
 - Suggestions and Discussion
   - The vampires and shapeshifting cat-girls are your fault
 - Testing
 
-#### JetBlack_Dhalia
+___
+#### JetBlack_Dhalia: Seat of Dead Characters
 
 - Testing
   - JetBlack_Dhalia's dead characters make level 1 survivable
 
-#### Horusblackmar
-
-- Initial Design/Discussion
-  - Your wishes guide the final form of FanSys
-
-#### This seat too appears to be taken, but its owner is not here
+___
+#### Basil: Seat of Elemental Dragonkin
 
 - [Dragonkin](09-races.md#dragonkin-level-1-template--8-points)
 - Independent work on digestible chapter digests

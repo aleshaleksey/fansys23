@@ -573,6 +573,7 @@ ___
 - Allow [deflection](06-abilities.md#deflection) and [esoteric deflection](06-abilities.md#esoteric-deflection) to be effective against ALL supernatural attacks.
 - Added "Blinded" and "Frightened", and modified the "Restrained" effect to [elementalism: effects](06-abilities.md#effects).
 - Reinterpret ["opportunist"](06-abilities.md#opportunist) as under current rules it does nothing.
+- Reinterpret ["enduring flight"](06-abilities.md#enduring-flight) to give 2 hours of flight endurance instead of 1. Will probably need some testing.
 
 ### Spells
 - Weaken [Stone Ward](08-spell-list.md#stone-ward), to take into account material levels of weapons.

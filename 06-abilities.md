@@ -1385,14 +1385,16 @@ ___
 
 **Type**: (Natural, Class B)
 
-**Description**: Gain 1 extra hour of flight endurance.
+**Description**: Gain 2 extra hours of flight endurance.
 
 **Limitations**:
 
-- A character can only take this boon once per level.
+- A character can take this boon once per level.
 - A character cannot increase its flight endurance with this boon to beyond its [journey time](03-movement-exploration.md#global-movement-pushing-and-fatigue) (10 hours).
 
-**Prerequisites**: CON of at least 15.
+**Prerequisites**:
+- CON of at least 13: If total flight endurance is below 6 hours before boon is taken.
+- CON of at least 15: If total flight endurance is 6 hours or more before boon is taken.
 
 ___
 #### Evasive

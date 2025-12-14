@@ -58,6 +58,17 @@ This system deals heavily with combat and many of the mechanics are tuned to wor
 7. [Mounts and Mounted Combat](#mounts-and-mounted-combat)
 8. [Basic combat manoeuvres and tactical movement.](#basic-combat-manoeuvres-and-tactical-movement)
     - [Basic Martial Manoeuvres](#basic-martial-manoeuvres)
+      - [Attack](#attack)
+      - [Grapple](#grapple)
+      - [Restrain](#restrain)
+      - [Immobilise](#immobilise)
+      - [Shove](#shove)
+      - [Throw](#throw)
+      - [Trip](#trip)
+      - [Disarm](#disarm)
+      - [Feint](#feint)
+      - [Interception](#interception)
+      - [Sunder](#sunder)
 9. [Spellcasting and Supernatural abilities](#spellcasting-and-supernatural-abilities)
     - [Spells](#spells)
 10. [Rest and Recuperation](#rest-and-recuperation)
@@ -604,85 +615,156 @@ This is a collection of unsorted rules related to basic physical combat.
 - Supernatural attacks are generally lethal, unless otherwise stated for the specific attack. Optionally, a group may rule that it may be made non-lethal with a [spellworking](05-skills.md#spellworking) roll (Threshold = **20 + [MP dice used]**).
 
 ___
-#### Basic Martial Manoeuvres
+### Basic Martial Manoeuvres
 
 Any combatant may attempt a martial manoeuvre. If a combatant is not proficient in a given manoeuvre, they take a -5 penalty to the attack roll. They might also risk attacks of opportunity and other penalties. All combatants are considered proficient in the "attack" manoeuvre (but not necessarily with the weapons used to make an attack). Many monsters can carry out these manoeuvres without penalties or meeting the prerequisites.
 
 Special abilities and weapons/tools can reduce or remove penalties for manoeuvres or increase their effectiveness. Most manoeuvres are made as an attack within the attack action, which is fundamentally a "main action". However, they can also be carried out as part of an attack of opportunity ("reaction"), or as an offhand attack when making an attack action (which also consumed one's "secondary action"). For more more information see the "Weapons and armour: ["Weapons"](11-weapons-armour.md#weapons)" and ["Two handed and two weapon fighting"](11-weapons-armour.md#two-handed-and-two-weapon-fighting) sections of ["Weapons and armour"](11-weapons-armour.md).
 
 - The penalty for using a manoeuvre or attack without proficiency, if there is one, is -5 to the roll.
-- **Size dependent**: For some manoeuvres, if the target is larger than the attacker, there is a -2 penalty for every size category by which they differ. If the attacker is more than 2 size categories larger than the attacker, the manoeuvre cannot be applied. Lastly, for these manoeuvres, the attacker gains a +4 bonus for every size category by which it is larger than the target.
-  - "Grapple", "Restrain", "Shove", "Throw" and "Trip" are size dependant.
+- **Size dependent**: For some manoeuvres, if the target is larger than the attacker, there is a -4 penalty for every size category by which they differ. If the attacker is more than 2 size categories larger than the attacker, the manoeuvre cannot be applied. Lastly, for these manoeuvres, the attacker gains a +2 bonus for every size category by which it is larger than the target.
+  - "Disarm", "Grapple", "Restrain", "Immobilise", "Shove", "Throw" and "Trip" are size dependant.
+- A character that is "**grappled**", "**restrained**" by use of basic martial manoeuvres can make an opposing "grapple" manoeuvre on its turn to try to break free or move its assailant. A character that is **immobilised** can likewise use the "grapple" manoeuvre at disadvantage to break free and become "restrained" instead.
 
-- **Attack**: This is not really a manoeuvre, and is available to all characters.
-  - Effect: Deal damage to a target.
-  - Requires attack roll vs target's HiT.
-  - Penalty if not proficient with the weapon.
-  - Effect: If attack succeeds damage is dealt to the target in accordance twith the damage rules.
-  - Special: Attacking with a weapon you are not proficient with provokes an attack of opportunity as you leave more openings than a proficient combatant.
-- **Grapple**:
-  - Effect: The target gains the ["grappled"](10-conditions-types.md#conditions-in-detail) condition: It's move speed is zero.
-  - Requires attack roll vs target's STR or DEX threshold.
-  - Penalty if not proficient with **grapples**.
-  - Attack of opportunity on failure.
-  - Size dependent.
-  - A character that successfully grapples a target must use part of its body (usually a limb or an object held by that limb) to maintain the grapple. Regardless, the limb (or other body part) cannot be used for kinetic components of spells, movement, or for other combat manoeuvres.
-    - The same applies when "restraining" a target.
-    - A character that that has "immobilised" its target is considered to have used at least two limbs.
-- **Restrain**: This is the use of grapple on a prone or grappled target.
-  - Effect: The target gains the ["restrained or aphonic"](10-conditions-types.md#conditions-in-detail) conditions.
-  - Prerequisite: Foe must be prone or grappled.
-  - Requires attack roll vs target's STR or DEX threshold.
-  - Penalty if not proficient with **grapples**.
-  - Size dependent.
-  - The one executing this manoeuvre declares one of the desired outcomes:
-   - "Aphonia": Prevent foe from completing incantations.
-   - "Restrain": Prevent a foe from casting spells with kinetic components and give penalties to weapon attacks.
+___
+#### Attack
+
+This is the act of using a weapon (or one's body) to attempt to do direct damage to the target. Essentially, all characters can try attacking their target, but if they are not proficient with the weapon used, they take a -5 penalty to the attack.
+
+- **Action**: Attack roll vs HiT.
+- **Proficiency**: Individual weapon proficiencies.
+- **Effect**: Deal damage to a target.
+- **Penalty if not proficient**: -5 to attack roll.
+- **Size dependant**: No.
+- **Effect**: If attack succeeds damage is dealt to the target in accordance with the damage rules.
+- **Special**: Attacking with a weapon you are not proficient with provokes an attack of opportunity as you leave more openings than a proficient combatant.
+
+
+___
+#### Grapple
+This is the act of using one's body (or a weapon) to contact/grab the target in such a way that their movement is controlled. Any character capable of physically manipulating natural matter may attempt a grapple.
+
+- **Action**: Attack roll vs target's STR or DEX threshold (chosen by the target).
+- **Proficiency**: "grapple" proficiency.
+- **Effect**: The target gains the ["grappled"](10-conditions-types.md#conditions-in-detail) condition: It's move speed is zero.
+- **Penalty if not proficient**: -5 to attack roll.
+- **Size dependent**: Yes.
+- **Special**: A character that successfully grapples a target must use part of its body (usually a limb or an object held by that limb) to maintain the grapple. Regardless, the limb (or other body part) cannot be used for kinetic components of spells, movement, or for other combat manoeuvres.
+  - The same applies when "restraining" a target.
+  - A character that has "immobilised" its target is considered to have used at least two limbs.
+
+___
+#### Restrain
+This is the act of using one's body (or a weapon) to severely restrict the movement of a target that is already grappled or prone and hence put it in a severely disadvantageous position.
+
+- **Action**: Attack roll vs target's STR or DEX threshold (chosen by the target).
+- **Effect**: The target gains the ["restrained or aphonic"](10-conditions-types.md#conditions-in-detail) conditions.
+- **Prerequisite**: The target must be prone or grappled.
+- **Proficiency**: "grapple" proficiency.
+- **Penalty if not proficient**: -5 to attack roll.
+- **Size dependent**: Yes.
+- **Special** The one executing this manoeuvre declares one of the desired outcomes:
+  - "Aphonia": Prevent foe from completing incantations.
+  - "Restrain": Prevent a foe from casting spells with kinetic components and give penalties to weapon attacks.
   - Keeping a target restrains requires at least one limb, hence precluding its use for movement, attacking or spellcasting.
-- **Immobilise**: A character may use "grapple" on a "restrained" target, using its whole attack action to immobilise it.
-  - Effect: The target gains the ["immobilised"](10-conditions-types.md#immobilised) condition.
-  - The character that successfully immobilises its target is considered "grappled" unless it is at least two sizes larger than the target that it has immobilised. Immobilise also requires at least two limbs (or objects held by these limbs) to keep the target immobilised, hence precluding their use for movement, spellcasting or for other combat manoeuvres.
-  - Requires attack roll vs target's STR or DEX threshold.
-  - Penalty if not proficient with **grapples**.
-  - Size dependent.
-- **Shove**:
-  - Effect: Moves a foe away from you by up to 10ft.
-  - Requires attack roll vs target's STR or DEX threshold.
-  - Penalty if not proficient with **throws**.
-  - Size dependent.
-  - Special: For every size category that you are larger than your target, increase the maximum distance by 5ft.
-- **Throw**: A different flavour of shove and uses the same proficiency.
-  - Size dependent.
-- **Trip**: This is also a different flavour of "shove" and uses the same proficiency.
-  - Effect: Knock a foe prone.
-  - Requires attack roll vs target's STR or DEX threshold.
-  - Penalty if not proficient with **throws**.
-  - Size dependent.
+
+___
+#### Immobilise
+This is the act of completely immobilising a restrained target so that it cannot use its body in combat. A character may use "grapple" on a "restrained" target, using its whole attack action to immobilise it.
+
+- **Action**: Attack roll vs target's STR or DEX threshold (chosen by the target).
+- **Effect**: The target gains the ["immobilised"](10-conditions-types.md#immobilised) condition.
+- **Prerequisite**: The target must be restrained.
+- **Proficiency**: "grapple" proficiency.
+- **Penalty if not proficient**: -5 to attack roll.
+- **Size dependent**: Yes.
+- **Special**: The character that successfully immobilises its target is considered "grappled" unless it is at least two sizes larger than the target that it has immobilised. Immobilise also requires at least two limbs (or objects held by these limbs) to keep the target immobilised, hence precluding their use for movement, spellcasting or for other combat manoeuvres.
+
+___
+#### Shove
+This is the act of violently moving a target bodily away from yourself, generally against its will.
+
+- **Action**: Attack roll vs target's STR or DEX threshold (chosen by the target).
+- **Effect**: Moves a foe away from you by up to 10ft.
+- **Proficiency**: "throws" proficiency.
+- **Penalty if not proficient**: -5 to attack roll.
+- **Size dependent**: Yes.
+- **Special**: For every size category that you are larger than your target, increase the maximum distance by 5ft.
+
+___
+#### Throw
+The act of moving the target, probably violently, in such a way that it falls prone.
+
+- **Action**: Attack roll vs target's STR or DEX threshold (chosen by the target).
+- **Effect**: Moves a foe within your threatened area by 5ft and knock it "prone'.
+- **Proficiency**: "throws" proficiency.
+- **Penalty if not proficient**: -5 to attack roll.
+- **Size dependent**: Yes.
+- **Special**:
+  - For every size category that you are larger than your target, increase the maximum distance by 5ft.
+  - On failure provokes attack of Opportunity if you are not proficient with throws.
+
+___
+#### Trip
+The act of knocking a target off its feet in place.
+
+- **Action**: Attack roll vs target's STR or DEX threshold (chosen by the target).
+- **Effect**: Knock a target "prone".
+- **Proficiency**: "throws" proficiency.
+- **Penalty if not proficient**: -5 to attack roll.
+- **Size dependent**: Yes.
+- **Special**
   - On failure provokes attack of Opportunity if the foe is holding a weapon you are not proficient with AND you are not proficient with **throws**.
-- **Disarm**:
-  - Effect: Liberate a foe of a weapon or item held.
-  - Requires attack roll vs target's STR or DEX threshold.
-  - Penalty if not proficient with **disarm**.
-  - Provokes a penalty and attack of Opportunity if the foe is holding a weapon you are not proficient with AND you are not proficient with **disarm**.
+
+___
+#### Disarm
+The act of relieving a target of its weapon.
+
+- **Action**: Attack roll vs target's STR or DEX threshold (chosen by the target).
+- **Effect**: Liberate a foe of a weapon or item held. On success the weapon lands on the ground in the target's square, or in your "hand" if you have at least one prehensile limb available to receive it.
+- **Proficiency**: "disarm" proficiency.
+- **Penalty if not proficient**: -5 to attack roll.
+- **Size dependent**: Yes.
+- **Special**:
+  - For every 5 points by which your attack exceeds the target's threshold, the weapon can land an extra 5ft away from the target's square (as decided by you).
+  - Provokes an attack of opportunity if the foe is holding a weapon you are not proficient with AND you are not proficient with **disarm**.
   - If the weapon is light, the target has a -2 on the roll. If it is heavy, it has +2 on the roll.
-- **Feint**:
-  - Effect: Give advantage to next attack against a target (you do not have to be the one to make the next attack).
-  - Requires attack roll (attack roll governed by INT) vs target's STR or DEX threshold.
-- **Interception**:
-  - Effect: Redirect a target's attacks against you, or redirect attacks against a target at you.
-  - Requires attack roll.
-  - Description: Declare a target (must be within your threatened area) to intercept and roll attack. All attacks by that target that are below that threshold will target you instead. Alternatively pick a target to defend (must be within your threatened area) and roll attack. All attacks that are below that threshold against that target will target you instead.
-  - Special: You can attempt to intercept a single attack as a reaction. 
-- **Sunder**
-  - Effect: Target an accessible object on the target entity instead of the entity itself with a weapon attack that deals damage.
-    - On success, the item takes 1 point of damage for every dice of damage that the weapon normally deals, if the materials are of "equal" quality.
+
+___
+#### Feint
+The act of misdirecting your foe and creating an opening.
+
+- **Action**: Attack roll (governed by INT) vs target's WIS threshold.
+- **Effect**: Give advantage to next attack against the target (you do not have to be the one to make the next attack).
+- **Proficiency**: "feint" proficiency.
+- **Penalty if not proficient**: -5 to attack roll.
+- **Size dependent**: No.
+
+___
+#### Interception
+The act of redirecting nearby attacks targeted at other characters to yourself, hence potentially taking the hit for them.
+
+- **Action**: Roll attack. Declare a target within your threatened area. The target is either:
+  - A target *whose* attacks you are intercepting: If their attack rolls are lower than your roll, they are targeted at you instead.
+  - A target who you are protecting from attacks: If attack rolls against this target are lower than your roll, they are targeted at you instead.
+- **Effect**: On success, the attack is redirected at you and will hit you if the attack roll has met or exceeded your HiT.
+- **Proficiency**: "interception" proficiency.
+- **Penalty if not proficient**: -5 to attack roll.
+- **Size dependent**: No.
+- **Special**: You can attempt to intercept a single attack as a reaction. 
+
+___
+#### Sunder
+The act of targeting an accessible item on your foe's person in an attempt to break it.
+
+- **Action**: Attack roll vs target's STR or DEX threshold (chosen by the target).
+- **Effect**: On success, the item takes 1 point of damage for every dice of damage that the weapon normally deals, if the materials are of "equal" quality.
     - If the weapon used in the attack is made of "higher" materials, the amount of damage is 2 per damage dice of the attacking weapon.
     - If the weapon used in the attack is made of a "lower" material, the total amount of damage is reduced by 1, and conversely the weapon making the attack takes 1 point of damage.
-  - Requires attack roll vs target's STR or DEX threshold.
-  - Penalty if not proficient with **sunder**.
-  - Provokes a penalty and attack of Opportunity if the foe is holding a weapon you are not proficient with AND you are not proficient with **sunder**.
-
-A character that is "grappled", "restrained" can make an opposing "grapple" manoeuvre on its turn to try to break free or move its assailant. A character that is immobilised can likewise use the "grapple" manoeuvre at disadvantage to break free and become "restrained" instead.
+- **Proficiency**: "sunder" proficiency.
+- **Penalty if not proficient**: -5 to attack roll.
+- **Size dependent**: No.
+- **Special**: Provokes a penalty and attack of Opportunity if the foe is holding a weapon you are not proficient with AND you are not proficient with **sunder**.
 
 ___
 ## Spellcasting and Supernatural abilities

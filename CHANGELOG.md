@@ -561,6 +561,12 @@ ___
 ### Combat
 - Better describe how ["grapple"](04-combat.md#basic-martial-manoeuvres) can be used to get from "restrained" to "immobilised" and the cost of maintaining a grapple.
 - Change how total [defence: shield](04-combat.md#total-defence-shield) and [total defence: dodge](04-combat.md#total-defence-dodge) work, to make them line up with the changes in concept for HiT.
+- Rework [basic combat manoeuvres](04-combat.md#basic-combat-manoeuvres-and-tactical-movement).
+  - Reformat.
+  - Improve [disarm](04-combat.md#disarm) and [feint](04-combat.md#feint).
+  - Alter [throw](04-combat.md#throw) and [trip](04-combat.md#trip).
+  - Clarify [interception](04-combat.md#interception).
+  - [Immobilise](04-combat.md#immobilise) is now a bona fide manoeuvre.
 
 ### Abilities
 - Reduce prohibitive costs of Elementalism ([Chain](06-abilities.md#chain) and [Arc](06-abilities.md#chain)). First bend/30degrees are free. Afterwards reduce to 1 MP die cost.

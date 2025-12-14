@@ -426,7 +426,7 @@ ___
 |Components|kinetic|
 |Save|Int, harmless|
 
-**Description**: The target gains lightly concealment, by some intangible, but clearly visible phenomenon.
+**Description**: The target gains light concealment, by some intangible, but clearly visible phenomenon.
 
 **Limitation**: The "Least shroud" cannot be moved from the square it was originally cast. If the target leaves the square, the ward remains there.
 

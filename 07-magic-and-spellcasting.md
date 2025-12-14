@@ -271,7 +271,7 @@ Notably, for the first time that a character gains a "Spellcasting" ability of a
 |Global           |2 (0)|2|
 
 ___
-#### learning spells through independent study or from a mentor
+#### Learning spells through independent study or from a mentor
 
 The base time to learn a spell through personal research is 108 days per MP dice cost of a spell (for global spells this is the "per day" cost). A character with access to suitable environment and resources may use academics to reduce the time (see ["Academics"](05-skills.md#academics)). The rate per MP dice become (108 - ["academics" roll]) to a minimum of 64 days per MP dice. For higher level spells, independent research is incredibly time consuming, and a sage might have spent a lifetime to uncover a single new global spell.
 

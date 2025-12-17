@@ -455,7 +455,7 @@ Bows are ranged weapon that consist of a length of supple material (usually, woo
 |Weapon|Special Properties| Manoeuvres|
 |-|-|-|
 |Shortbow|bleeding, delicate||
-|Composite Bow|bleeding, delicate||
+|Composite Bow|bleeding, delicate, mounted||
 |Longbow|bleeding, delicate, unwieldy||
 |Greatbow|bleeding, delicate, unwieldy, mounted||
 
@@ -607,7 +607,7 @@ Armour tends to restrict movement, somewhat. This is reflected in several penalt
 - Dex Rating.
 - Armour Weight Penalty.
 
-**Dex rating**: A character with a Dex bonus higher than the rating, only applies the "Dex rating" to all rolls, attacks and saves. 
+**Dex rating**: A character with a Dex bonus higher than the rating, applies the "Dex rating" to all rolls, attacks and saves.
 
 **Weight Penalty**: Medium and heavy armour give a weight penalty.
 
@@ -619,7 +619,7 @@ Armour tends to restrict movement, somewhat. This is reflected in several penalt
 ___
 ### The Armour Table
 
-This table gives a quick overview of armour. For details, see the armour description.  Specific properties of armour are less important than those of weapons, but it may still be of interest. As with weapons, if you do not find your favourite type of armour here, it may have been rolled into another type. For suggested costs and availability see [the armour table](12-equipment-economy.md#armour) in the [Equipment and Economy](12-equipment-economy.md) chapter.
+This table gives a quick overview of armour. For details, see the armour description. Specific properties of armour are less important than those of weapons, but it may still be of interest. As with weapons, if you do not find your favourite type of armour here, it may have been rolled into another type. For suggested costs and availability see [the armour table](12-equipment-economy.md#armour) in the [Equipment and Economy](12-equipment-economy.md) chapter.
 
 Bonus Key:
 

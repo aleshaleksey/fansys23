@@ -84,7 +84,7 @@ This system deals heavily with combat and many of the mechanics are tuned to wor
 ___
 ## Prelude: Common Combat Parameters
 
-There are parameters that most, or all, beings/entities have, that denote how successfully it attacks and defends against attacks. it should be noted that in each case only one of the sides (attacker or defender) needs to make a roll. The calculations are covered in the base rules.
+There are parameters that most, or all, beings/entities have, that denote how successfully it attacks and defends against attacks. It should be noted that in each case only one of the sides (attacker or defender) needs to make a roll. The calculations are covered in the base rules.
 
 #### Attack Bonuses
 An entity has 4 attack bonuses (STR, DEX, INT, WIS) that represent how likely its targeted attacks are to be effective. An entity rolls an attack against a target's HiT (if the attack causes damage), or against one of its 4 save thresholds (for all combat manoeuvres other than the attack manoeuvre).

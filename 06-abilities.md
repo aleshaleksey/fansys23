@@ -90,6 +90,8 @@ ___
 - [Arcane Interception](#arcane-interception)
 - [Bind Beast (I-X)](#bind-beast-i-x)
 - [Bind Familiar (I-IV)](#bind-familiar-i-iv)
+- [Binder's Eye](#binders-eye)
+- [Binder's Heart](#binders-heart)
 - [Blink I](#blink-i)
 - [Charm I-IV](#charm-i-iv)
 - [Cursed Blood](#cursed-blood)
@@ -537,7 +539,7 @@ ___
 
 **Type**: (Natural, Class B)
 
-**Description**: Use a combination of main and secondary action to shoot an extra projectile, at the expense of accuracy.
+**Description**: Use a combination of main and secondary action to shoot an extra projectile (or two if expending one SP die), at the expense of accuracy.
 
 **Action**: Declare "rapid shot" and expend "main action" and "secondary action" and make the usual number of ranged weapon attacks plus one, all with the appropriate penalty to the attack roll. (See table below)
 
@@ -831,6 +833,42 @@ ___
 |Kinetic|Immunity to "immobilise", "grapple", "restrain"|"Parry"|
 |Natural|Resistance to all "energy"|"Guide"|
 |Global|Resistance to all conditions|"Least Ward"|
+
+___
+#### Binder's Eye
+
+**Type**: (Supernatural, Class A)
+
+**Description**: Expend 1 MP die and "see" through the eyes or other primary sense (eg echolocation if it's a bad) of a bound beast or familiar. 
+
+**Action**: Declare that you are using the "summoner's eye" as a bonus action, expend the MP die and switch to your bound beast/familiar's vision. While using the "summoner's eye" you are unable to use your own eyes (or other primary sense). You use *your* observe bonus for any observation. You can return to using your own vision as a bonus action.
+
+**Original State**:
+
+**Range**: For a familiar the range is equal to your "bind familiar" ability's "Link range". For a bound beast the range is equal to ["Bind Beast" level] miles (so for "Bind Beast III" it would be 3 miles).
+
+**Prerequisites**: One of:
+
+- Bind Beast I and Bind Familiar I
+- Bind Familiar II
+- Bind Beast III
+
+___
+#### Binder's Heart
+
+**Type**: (Supernatural, Class A)
+
+**Description**: You can communicate with your familiar or bound beast and understand their communication even if you otherwise do not share a language. For a bound beast the range is the range is the range your voice reaches (about 600ft), or the range you can discern subtle visual cues (about 200ft), whichever is longer. For a familiar, the range is equal to your "Bind Familiar" ability's "Link range".
+
+**Action**: None. Although you still need to use at least your "communicate action" to communicate with your familiar/bound beast.
+
+**Original State**:
+
+**Prerequisites**: One of:
+
+- Bind Beast II and Bind Familiar I
+- Bind Familiar II
+- Bind Beast IV
 
 ___
 #### Blink I

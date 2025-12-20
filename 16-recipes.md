@@ -172,8 +172,8 @@ Summoners are one of the least stat dependent builds, since the attack and defen
 |-|-|-|-|-|-|-|
 |1 (1) |2  (1)|3  (1)|2|2|[Bind Beast I](06-abilities.md#bind-beast-i-x), [Bind Familiar I](06-abilities.md#bind-familiar-i-iv), [Spellcasting: Nature I](06-abilities.md#spellcasting-local)|Light Blades, Light Armour, Shields||
 |2 (1) |3  (1)|5  (1)|2|2|[Spellcasting: Element I](06-abilities.md#spellcasting-local), [Spellcasting: Incantation I](06-abilities.md#spellcasting-local), [Spellcasting: Global I](06-abilities.md#spellcasting-global)|||
-|3 (1) |4  (1)|7  (2)|2|3|[Bind Beast II](06-abilities.md#bind-beast-i-x), [Bind Familiar II](06-abilities.md#bind-familiar-i-iv), [](06-abilities.md), STAT +1|||
-|4 (1) |6  (1)|8  (2)|2|3|[Spellcasting: Element II](06-abilities.md#spellcasting-local), [Spellcasting: Incantation II](06-abilities.md#spellcasting-local), STAT +1|||
+|3 (1) |4  (1)|7  (2)|2|3|[Bind Beast II](06-abilities.md#bind-beast-i-x), [Bind Familiar II](06-abilities.md#bind-familiar-i-iv), [](06-abilities.md), [Binder's Eye](06-abilities.md#binders-eye)|||
+|4 (1) |6  (1)|8  (2)|2|3|[Spellcasting: Element II](06-abilities.md#spellcasting-local), [Spellcasting: Incantation II](06-abilities.md#spellcasting-local), [Binder's Heart](06-abilities.md#binders-heart)|||
 |5 (1) |7  (2)|10 (2)|3|3|[Bind Beast III](06-abilities.md#bind-beast-i-x), [Lingering Spell](06-abilities.md#lingering-spell), STAT +1||                         
 |6 (2) |8  (2)|12 (2)|4|4|[Spellcasting: Element III](06-abilities.md#spellcasting-local), [Spellcasting: Incantation III](06-abilities.md#spellcasting-local), STAT +1|||
 |7 (2) |9  (2)|14 (3)|4|5|[Bind Beast IV](06-abilities.md#bind-beast-i-x), [Bind Familiar III](06-abilities.md#bind-familiar-i-iv), STAT +1||

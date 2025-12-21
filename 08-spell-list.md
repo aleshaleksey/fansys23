@@ -3237,7 +3237,7 @@ ___
 |Damage|3d8+[Sup] Fire|+9(23)
 |Save|DEX/CHA (see below)|
 
-**Description**: The caster calls flame to protect and ward an area and its perimeter is ringed by motes of flame. The barrier gives light concealment to all targets within. Entities inside the barrier have damage reduction of 10 vs non-magical physical or cold/ice attacks, regardless of their origin. In addition they have advantage against on saves against the effects of fire spells, and those caused by elemental fire. Furthermore, the caster specifies "contain", "exclude" or "both". This gives the following effects:
+**Description**: The caster calls flame to protect and ward an area and its perimeter is ringed by motes of flame. The barrier gives light concealment to all targets within. Entities inside the barrier have damage reduction of 10 vs non-magical physical or cold/ice attacks, regardless of their origin. In addition they have advantage on saves against the effects of fire spells, and those caused by elemental fire. Furthermore, the caster specifies "contain", "exclude" or "both". This gives the following effects:
 
 - Any entity on the perimeter of the area of effect, or within 5ft of it, when the ward is activated takes 4d8+[Sup] fire damage unless it succeeds a DEX save (for half).
 - Any entity or object that attempts to cross (including in making a melee attack/martial manoeuvre) the perimeter takes 4d8+[Sup] fire damage.

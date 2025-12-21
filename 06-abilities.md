@@ -2189,7 +2189,7 @@ ___
 
 **Description**: Also known as "Speak to X". You are able to communicate vocally to entities of a given subtype *other than your own* in a way that the signals will be understood. Likewise you can understand their communication, vocal or otherwise, if you have the means to detect it.
 
-**Prerequisite:** Xenophonia of various types can be taken in any order, but prerequisites must be obeyed. For example to take xenophonia(undead), a character must be at least level 6, or to take xenophonia(animals) a character must be level 2. On the other hand to take Xenophonia(Fey) a character must be at least level 6 and have at least one other xenophonia, though it can be *any* type, so for example a level 6 character with xenophonia(animal), or a level 7 character with xenophonia(elemental) can both take xenophonia(fey). 
+**Prerequisite:** Xenophonia of various types can be taken in any order, but prerequisites must be obeyed. For example to take xenophonia(undead), a character must be at least level 3, or to take xenophonia(animals) a character must be level 2. On the other hand to take Xenophonia(Fey) a character must be at least level 6 and have at least one other xenophonia, though it can be *any* type, so for example a level 6 character with xenophonia(animal), or a level 7 character with xenophonia(elemental) can both take xenophonia(fey). 
 
 |Entity sub-type|Level Prerequisite|Other|Nature of Ability
 |-|-|-|-|

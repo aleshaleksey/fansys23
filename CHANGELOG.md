@@ -574,9 +574,12 @@ ___
 - Added "Blinded" and "Frightened", and modified the "Restrained" effect to [elementalism: effects](06-abilities.md#effects).
 - Reinterpret ["opportunist"](06-abilities.md#opportunist) as under current rules it does nothing.
 - Reinterpret ["enduring flight"](06-abilities.md#enduring-flight) to give 2 hours of flight endurance instead of 1. Will probably need some testing.
+- Add [Binder's Eye](06-abilities.md#binders-eye) and [Binder's Heart](06-abilities.md#binders-heart). Enhance summoners a little bit. NB: This needs testing to avoid devaluing conventional rogues.
 
 ### Spells
 - Weaken [Stone Ward](08-spell-list.md#stone-ward), to take into account material levels of weapons.
+- Rework [Razor Wind](08-spell-list.md#razor-wind) to be closer to our constitution (less damage, more effects). 
+- Add [Dream](08-spell-list.md#dream) and [Dream Walk](08-spell-list.md#dream-walk).
 
 ### Weapons
 - Staves now can give a shield[weapon] bonus to HiT if wielded with both hands.

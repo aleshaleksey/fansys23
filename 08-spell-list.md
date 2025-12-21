@@ -124,6 +124,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 ### MP 5
 - [Blessing of the Winds](#blessing-of-the-winds)
 - [Dominate Mortal](#dominate-mortal)
+- [Dream](#dream)
 - [Flame Stride](#flame-stride)
 - [Flare](#flare)
 - [Flawed Transmute](#flawed-transmute)
@@ -162,6 +163,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 
 ### MP 7
 - [Create Secret Path](#create-secret-path)
+- [Dream-Walk](#dream-walk)
 - [Greater Weather Control](#greater-weather-control)
 - [Incarnate](#incarnate)
 - [Memory Thief](#memory-thief)
@@ -3052,6 +3054,33 @@ When dominated the target takes no action or reactions (other than movement or c
 **Global**: The spell lasts for a week, and is not concentration. For every 2 MP dice above 10, the spell lasts for an extra day.
 
 ___
+### Dream
+
+|Name|Dream [Spirit]|
+|-|-|
+|Scope|global|
+|MP Dice|10|
+|Target(s)|1|
+|Casting time|5 hours|
+|Range|close/Realms|
+|Duration|Instantaneous|
+|Components|Incantation|
+|Limitation|Yes (see below)|
+|Save|CHA| 
+
+**Description**: The target of the spell appears in the dreams of a being it choses and may deliver a message or hold a brief dialogue. The target can also deliver an object that weight no more than 4lb and fits within a side-5ft volume that will be found by the side of the chosen being when it awakens.
+
+The target may make a CHA save to negate the effect of the spell, in which case the spell fails. The chosen being may make a CHA save once it has witnessed the target to prevent the message (or potentially item) from being transmitted.
+
+**Limitations**:
+
+- The spell fails if the target of the spell or the chosen being are not unconscious at the time, or alternatively are not under the effect of the ["dream"](#dream)/["dream-walk"](#dream-walk) spell.
+- The spell is affected by seals such as ["forbiddance"](#forbiddance) or ["lesser cosmic seal"](#lesser-cosmic-seal).
+- The target must know the chosen being in AT LEAST enough detail that it would be found by the ["spirits' secret"](#spirits-secret) spell if it were in range.
+
+**Upcast**: For every 2MP dice expended above 10 MP, the caster can add an additional target.
+
+___
 ### Flame Stride
 
 |Name|Flame Stride [Fire, Summer, Travel]|
@@ -3991,18 +4020,18 @@ ___
 |-|-|
 |Scope|local|
 |MP Dice|6|
-|Target(s)|60ft, 90 degree cone, centred on caster|+10
+|Target(s)|60ft, 90 degree cone, centred on caster. The cone is planar.|+10
 |Casting time|"secondary action"|+2
 |Range|close|
 |Duration|Instantaneous|
 |Damage|5d12+[Sup] pressure|+15
-|Condition|Prone|
+|Condition|Prone, Bleeding|
 |Components|"incantation"|+1
 |Save|DEX+|+2
 
-**Description**: You summon a sharp burst of hurricane-like wind that cuts through an area, dealing 5d12+[Sup] damage to all entities, objects and structures within it. Entities can avoid the damage with a successful DEX save. Even in this case all entities and objects of "huge" and smaller are blown back 20ft (for "medium").
+**Description**: You summon a sharp burst of hurricane-like wind that cuts through an area, dealing 4d12+[Sup] damage to all entities, objects and structures within it. Entities that take this damage are knocked ["prone"](10-conditions-types.md#bleedingwilting) and gain the ["bleeding"](10-conditions-types.md#bleedingwilting) condition. Entities can fully avoid the damage (and hence the conditions) with a successful DEX save. Even in this case all entities and objects of "huge" and smaller are blown back 20ft (for "medium").
 
-**Upcast**: The size of the one increases by 15ft per MP die above 6 or the damage increases by 1d12.
+**Upcast**: The size of the cone increases by 15ft per MP die above 6 or the damage increases by 1d12.
 
 ___
 ### Spirit Restoration
@@ -4134,6 +4163,34 @@ ___
 - If "Secret Path" is learned through "air", "earth", "fire" or "water" magic, it can only be cast if at least one of the locations it connects is associated with the element, or its season. 
 - If "Secret Path" is cast through "nature" magic, it cannot connect two locales created through artifice (eg, cities, castles, houses, ships, etc).
 - The secret path MUST be between two areas in the same realm, or between adjacent realms (eg, one can trace a path between the material realm and a shallow layer of the spirit realm, or a shallow and intermediate layer of the spirit realm, but not between material realm and intermediate or deep layer of the spirit realm).
+
+___
+### Dream-Walk
+
+|Name|Dream-Walk [Spirit]|
+|-|-|
+|Scope|global|
+|MP Dice|14|
+|Target(s)|1|
+|Casting time|7 hours|
+|Range|close/Realms|
+|Duration|Instantaneous|
+|Components|Incantation|
+|Limitation|Yes (see below)|
+|Save|CHA| 
+
+**Description**: The target of the spell appears in the dreams of a being it choses. Once the dream is over, the target's chosen being awakens and the target appears within 5ft of it. The target is not capable of harming its chosen being within the dream in any way, but may chose to interfere with any harmful effects of the ["Dream"](#dream) spell, taking them upon itself.
+
+The target may make a CHA save to negate the effect of the spell, in which case the spell fails. The chosen being may make a CHA save once it has witnessed the target to prevent the teleportation from occurring, in which case it will still awaken when the dream ends.
+
+**Limitations**:
+
+- The spell fails if the target of the spell. Likewise the spell fails if the chosen being is not unconscious at the time, or alternatively is not under the effect of the ["dream"](#dream)/["dream-walk"](#dream-walk) spell.
+- The spell is affected by seals such as ["forbiddance"](#forbiddance) or ["lesser cosmic seal"](#lesser-cosmic-seal).
+- The target must know the chosen being in AT LEAST enough detail that it would be found by the ["spirits' secret"](#spirits-secret) spell if it were in range.
+- If the target is further than 1 realm away from its chosen being (eg the target is in the deep layer of the spirit realm, but the chosen being is in the material world), the teleportation fails.
+
+**Upcast**: For every 2MP dice expended above X, the caster can add an additional target. If the caster is capable of casting 9 MP incantation spells, they can cast this spell for 9 MP dice as a local spell as a "full round action".
 
 ___
 ### Greater Weather Control
@@ -5260,6 +5317,7 @@ ____
     - [Winter's Grasp](#winters-grasp)
     - [Heart Ward](#heart-ward)
 - Incantation
+    - [Dream](#dream)
     - [Flawed Transmute](#flawed-transmute)
     - [Heart Ward](#heart-ward)
     - [Isolate Essence](#isolate-essence)
@@ -5331,6 +5389,7 @@ ____
     - [Transform Mortal](#transform-mortal) [7]
 - Incantation
     - [Create Secret Path](#create-secret-path) [7]
+    - [Dream-Walk](#dream-walk) [7]
     - [Memory Thief](#memory-thief) [7]
 - Kinetic
     - [Transform Mortal](#transform-mortal) [7]
@@ -5414,7 +5473,6 @@ ___
  - While the spell allows a character to ignore reality, it does not allow them to ignore the consequences of ignoring reality. Thus for example, a character might be able to ignore gravity and jump infinitely high for a brief period. It does not, however, mean that the same character will land safely when the spell is over if they jumped too high.
  
 
- 
 ###
 |Name| []|
 |-|-|
@@ -5429,4 +5487,3 @@ ___
 |Material||
 |Limitation||
 |Save||
- 

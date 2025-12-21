@@ -1222,7 +1222,7 @@ An elementalism for each element can be enhanced with the following effects/cond
 |Restrained   |Ice or Earth          |Base = 2           |2          |
 |Catatonic    |Light or Fire         |Base = 2           |2          |
 
-The "shove" and "prone" effect are immediate and do not require repeated save. The remaining effects persist for up 1 minute, and allow a save at the end of each of the target's turns.
+The "shove" and "prone" effect are immediate and do not require repeated save. The remaining effects persist for up to 1 minute, and allow a save at the end of each of the target's turns.
 
 ___
 #### Forms
@@ -1536,9 +1536,9 @@ ___
 
 |Ability name    |Minimum Base|Minimum SP dice|Number of attacks|
 |----------------|------------|---------------|-----------------|
-|Multi-attack I  |2           |1              |12               |
-|Multi-attack II |3           |2              |25               |
-|Multi-attack III|4           |4              |38               |
+|Multi-attack I  |2           |12             |2                |
+|Multi-attack II |3           |25             |3                |
+|Multi-attack III|4           |38             |4                |
 
 **Limitations**: 
 

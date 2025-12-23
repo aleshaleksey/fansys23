@@ -589,6 +589,7 @@ ___
   - Non-proficiency-like penalties are -5.
   - Size-like penalties are -2 or -4.
   - Cover bonuses are +2 or +5.
+- Short-sword is now a finesse (DEX/STR governed) weapon. 
 
 ### Equipment and Economy
 - Add [Alchemical goods table](12-equipment-economy.md#alchemical-reagents-and-potions).

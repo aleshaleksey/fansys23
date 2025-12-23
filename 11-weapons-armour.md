@@ -108,7 +108,7 @@ Weapons that are wielded in one hand are called "one-handed" weapons. Weapons th
 ___
 #### Two handed weapons
 
-Two-handed weapons must be wielded with two or more hands to be used effectively. Attacks made with a two-handed weapon using only one hand are made at a -5 penalty. Attacks made with a two-handed weapon with the "heavy" property, longbows and greatbows deal an additional [STR]/2 damage (rounded down) when wielded with two hands by a character with STR of at least 14.
+Two-handed weapons must be wielded with two or more hands to be used effectively. Attacks made with a two-handed weapon using only one hand are made at a -5 penalty. If the weapon is also heavy, such an attack counts as if being made with an [improvised weapon](#improvised-weapons). Attacks made with a two-handed weapon with the "heavy" property, longbows and greatbows deal an additional [STR]/2 damage (rounded down) when wielded with two hands by a character with STR of at least 14.
 
 A character can switch from a two-handed grip to a one-handed grip on a weapon as a free action. However, switching back to a two-handed grip is a ["minor interaction"](04-combat.md#actions-in-combat).
 
@@ -130,10 +130,10 @@ Weapons come in all shapes and sizes. They can be made of various materials. As 
 
 - **Delicate**: On rolling snake eyes, the weapon takes 1 point of damage.
 - **Unwieldy**: Unwieldy weapons cannot be easily used in small spaces, where any dimension (width or height or length) are 5ft or less, or when mounted. In those conditions these weapons are wielded at disadvantage.
-- **Heavy**: This kind of weapon is "unwieldy". A heavy weapon of the correct size category must be wielded in two hands or it counts as an improvised weapon. In addition they grant a +2 on all basic martial manoeuvres (except "attack"). If a heavy weapon user does not have at least +2 to [STR], it takes -4 to attacks with the weapon. If the weapon is a melee weapon, a character wielding it with at least two hands and possessing at least +2 to [STR] adds an additional [STR]/2 to the damage dealt (*rounded down* to the nearest whole number). Thus a character wielding a 2d6 greatsword with [STR] of +2 would deal 2d6+3 damage, while a character with a [STR] of +3 would deal 2d6+4 damage.
-- **Reach**: This weapon is "unwieldy", but it does have a range of 10ft.
-- **Long**: These weapons are not quite reach weapons, but they are bit longer than usual. A long weapon allows a wielder to use its "secondary action" to lunge and extend its reach to 10ft for a single attack.
-- **Light**: -2 when on the receiving end of "sunder" and "disarm" manoeuvres. Its users have advantage when using stealth to conceal this kind of weapon.
+- **Heavy**: This kind of weapon is "unwieldy". A heavy weapon must be of the correct size category wielded in two hands or it counts as an [improvised weapon](#improvised-weapons). In addition they grant a +2 on all basic martial manoeuvres (except "attack"). If a heavy weapon user does not have at least +2 to [STR], it takes -4 to attacks with the weapon. If the weapon is a melee weapon, a character wielding it with at least two hands and possessing at least +2 to [STR] adds an additional [STR]/2 to the damage dealt (*rounded down* to the nearest whole number). Thus a character wielding a 2d6 greatsword with [STR] of +2 would deal 2d6+3 damage, while a character with a [STR] of +3 would deal 2d6+4 damage.
+- **Reach**: This weapon is "unwieldy", but its reach is increased by at least 5ft (may differ for different weapons).
+- **Long**: These weapons are not quite reach weapons, but they are bit longer than usual. A long weapon allows a wielder to use its "secondary action" to lunge and extend its reach by 5ft for a single attack.
+- **Light**: -2 when on the receiving end of "sunder" and "disarm" manoeuvres. Its wielder have advantage when using stealth to conceal this kind of weapon.
 - **Mounted**: This weapon was made with mounted combat in mind. If normally there would be penalties for using this kind of weapon mounted, they are negated.
 - **Tool**: This weapon also counts as a tool and character proficient with counts as proficient in that tool when using the weapon as the stated tool type.
 - **Disarm**: Proficiency with this weapon allows the use of disarm as if proficient with the manoeuvre while wielding it. If the user already has proficiency with "disarm", it gains a +2 bonus when disarming with this weapon.
@@ -145,16 +145,16 @@ Weapons come in all shapes and sizes. They can be made of various materials. As 
 ___
 ### Weapon proficiencies
 
-Any entity may wield a weapon it is physically capably of wielding. If it is not proficient, it makes attacks with a -5 penalty. On rolling snake eyes it damages itself, rolling the same damage dice it would as if it had hit the intended target.
+Any entity has the knowledge and training to wield properly wield a weapon of this type, if it is physically capably of doing so.
 
-Proficiency with a weapon type eliminates both the penalty and the damage to self on crit fails. In addition it allows the use of any of a weapon's special properties.
+If it is not proficient, on the other hand, it makes attacks with a -5 penalty. On rolling snake eyes it damages itself, rolling the same damage dice it would as if it had hit the intended target. Furthermore, a non-proficient wielder suffers from all the penalties bestowed by a weapon's properties, but gains none of the benefits.
 
 ___
 ### Weapons, damage and governing stats
 
 Weapon damage is almost always natural physical damage (see ["damage type"](10-conditions-types.md#damage-types)). However, certain abilities like ["spirit strike"](06-abilities.md#spirit-strike) can change this. Weapons deal damage based on the damage dice which are specific to each weapon (see the [weapon table](#weapon-table) below) plus the bonus based on its governing stat (as well as material bonus and potentially other bonuses). For example a hand axe has an attack bonus of [[NAP] + [STR]] and deals [1d6 + [STR]] damage.
 
-Weapon attacks are generally targeted attacks that rely on NAP and are ["governed"](04-combat.md#attacks-and-damage-bonuses) by one of STR or DEX. For example a hand axe is always governed by STR, a bow is always governed by DEX. However, some, mostly melee, weapons can be governed by either (STR/DEX) as per character choice. If a weapon that can be governed by either is used with DEX, then [DEX] is added to the attack bonus, but there is no stat bonus added to the damage unless the character has the ["weapon finesse"](06-abilities.md#weapon-finesse) boon.
+Weapon attacks are generally targeted attacks that rely on NAP and are ["governed"](04-combat.md#attacks-and-damage-bonuses) by one of STR or DEX. For example a hand axe is always governed by STR, while a bow is always governed by DEX. However, some weapons (generally melee) can be governed by either STR or DEX as per character choice. In this case, if DEX is chosen as the governing attribute, then there is no stat bonus (from [DEX] of [STR]) added to the damage unless the character has the ["weapon finesse"](06-abilities.md#weapon-finesse) boon.
 
 ___
 ### Improvised Weapons
@@ -198,7 +198,7 @@ Damage Key:
 ||||||||||
 |Dagger|Light blade|1d4|P/S|1|Str/Dex|5|60|10|1|5|
 |Shuriken|Light blade|1d4|P|1|Str/Dex|-|60|20|0.2|3|
-|Short Sword|Light blade|1d6|P/S|1|Str|5|-|-|2|8|
+|Short Sword|Light blade|1d6|P/S|1|Str/Dex|5|-|-|2|8|
 |Small Sword|Light blade|1d6|P|1|Dex|5|-|-|1|4|
 |Scimitar|Light blade|1d8|S|1|Str/Dex|5|-|-|2|5|
 |Rapier|Heavy blade|1d10|P/S|1|Str/Dex|5|-|-|3|8|
@@ -277,7 +277,7 @@ Attacking with techniques from this category without proficiency provokes attack
 ___
 ### Light blades
 
-This is something of a misnomer. Light blades refers to smaller one handed bladed weapons that weight no more than 2lb. It also refers to certain thrown weapons whose use is similar to that of bladed weapons. Light blades are typically easily hidden. All light blades can cause "bleeding". Not all light blades have the light properties. All blades give a +1 HiT (shield[weapon]) to proficient wielders who are not "disabled". Wielding two blades gives a +2 total "shield[weapon]" bonus to HiT if the wielder also has ["Offhand fighting II"](06-abilities.md#offhand-fighting-i-iv).
+This is something of a misnomer. Light blades refers to smaller one handed bladed weapons that weight no more than 2lb. It also refers to certain thrown weapons whose use is similar to that of bladed weapons. Light blades are typically easily hidden. Most light blades can cause "bleeding". Not all light blades have the light properties. All blades give a +1 HiT (shield[weapon]) to proficient wielders who are not "disabled". Wielding two blades gives a +2 total "shield[weapon]" bonus to HiT if the wielder also has ["Offhand fighting II"](06-abilities.md#offhand-fighting-i-iv).
 
 
 |Weapon|Special Properties|Manoeuvres|

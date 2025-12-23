@@ -108,7 +108,7 @@ Weapons that are wielded in one hand are called "one-handed" weapons. Weapons th
 ___
 #### Two handed weapons
 
-Two-handed weapons must be wielded with two or more hands to be used effectively. Attacks made with a two-handed weapon using only one hand are made at a -4 penalty. Attacks made with a two-handed weapon with the "heavy" property, longbows and greatbows deal an additional [STR]/2 damage (rounded down) when wielded with two hands by a character with STR of at least 14.
+Two-handed weapons must be wielded with two or more hands to be used effectively. Attacks made with a two-handed weapon using only one hand are made at a -5 penalty. Attacks made with a two-handed weapon with the "heavy" property, longbows and greatbows deal an additional [STR]/2 damage (rounded down) when wielded with two hands by a character with STR of at least 14.
 
 A character can switch from a two-handed grip to a one-handed grip on a weapon as a free action. However, switching back to a two-handed grip is a ["minor interaction"](04-combat.md#actions-in-combat).
 
@@ -117,9 +117,9 @@ ___
 
 A character with two hands can hold a one-handed weapon in each hand. If the character has made an attack as a "main action" with one weapon, then in some cases it can also make an additional "offhand attack" with the other weapon as a "secondary action".
 
-- The character can normally make a single "offhand attack" with a "light" weapon at a -4 penalty to attack and no stat bonus ([DEX] or [STR]) to damage.
+- The character can normally make a single "offhand attack" with a "light" weapon at a -5 penalty to attack and no stat bonus ([DEX] or [STR]) to damage.
 - If the character has the ["multi-attack"](06-abilities.md#multi-attack-i-iii) ability, then it can add its stat bonus to the offhand attack.
-- It the character has ["offhand fighting"](06-abilities.md#offhand-fighting-i-iv) ability, it adds its stat bonus to the damage, and does not take the penalty to the attack roll when making an offhand attack with a "light" weapon. It can instead use a weapon without the "light" property to make the attack, in which case it does take a -4 to the attack roll. Furthermore, it can make a number of attacks with the offhand weapon equal to its "offhand fighting" ability level as its offhand attack.
+- It the character has ["offhand fighting"](06-abilities.md#offhand-fighting-i-iv) ability, it adds its stat bonus to the damage, and does not take the penalty to the attack roll when making an offhand attack with a "light" weapon. It can instead use a weapon without the "light" property to make the attack, in which case it does take a -5 to the attack roll. Furthermore, it can make a number of attacks with the offhand weapon equal to its "offhand fighting" ability level as its offhand attack.
 
 An entity with more than two hands might be able to hold more than two weapons. In this case, all but the main weapon are considered to be offhand weapons. In this case the number of offhand or other attacks does not increase. However, if it has multiple offhand attacks, it can distribute them between its offhand weapons as it sees fit.
 
@@ -680,7 +680,7 @@ Medium armour covers armours which either protect the whole body or have a full 
 ___
 ### Heavy Armour
 
-Heavy armour consists of an underlayer (usually padded), a mid-layer (usually chain) and a shell layer on all parts of the body. This is heavy battlefield armour, it is not necessarily best suited for a long march, although that is often the best way of transporting it to said battlefield. This armour is used when maximum protection at all costs is needed. Heavy Armour gives a -4 penalty to all [Con] rolls related to endurance and a -2 penalty to attack rolls.
+Heavy armour consists of an under-layer (usually padded), a mid-layer (usually chain) and a shell layer on all parts of the body. This is heavy battlefield armour, it is not necessarily best suited for a long march, although that is often the best way of transporting it to said battlefield. This armour is used when maximum protection at all costs is needed. Heavy Armour gives a -4 penalty to all [Con] rolls related to endurance and a -2 penalty to attack rolls.
 
 **Segmented Mail:** This refers to any kind of mail other than chain mail, such as scale mail, banded mail and ring mail that covers most of the body. This kind of armour typically has a layer of padded armour beneath it and at least a chain shirt.
 

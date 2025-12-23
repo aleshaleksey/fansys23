@@ -585,6 +585,10 @@ ___
 - Staves now can give a shield[weapon] bonus to HiT if wielded with both hands.
 - Slightly better description of how armour works.
 - Fix some poor formatting.
+- Regularise penalties:
+  - Non-proficiency-like penalties are -5.
+  - Size-like penalties are -2 or -4.
+  - Cover bonuses are +2 or +5.
 
 ### Equipment and Economy
 - Add [Alchemical goods table](12-equipment-economy.md#alchemical-reagents-and-potions).

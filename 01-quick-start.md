@@ -354,17 +354,31 @@ At level one a character starts with the following:
 + 1 good save.
 + A homeland (see ["terrains"](03-movement-exploration.md#terrains)).
 
+___
 #### Skills and proficiencies
 
-Skills and proficiencies determine how well practiced your character is with certain routine or esoteric arts, skills or sciences, as well as which tools, weapons and armours they know how to use. A character essentially starts with between 5 and 11 skill points. It is recommended that you take at least one weapon proficiency and one armour proficiency, and maybe more for martial characters. For more information see the ["Skills"](05-skills.md) and ["Weapons and Armour"](11-weapons-armour.md) chapters.
+Skills and proficiencies determine how well practised your character is with certain routine or esoteric arts, skills or sciences, as well as which tools, weapons and armours they know how to use. A character essentially starts with between 5 and 11 skill points. It is recommended that you take at least one weapon proficiency and one armour proficiency, and maybe more for martial characters.
 
-Secondly, a character starts with one background skill, where they get to add a small bonus (+2 at level 1 - this is [base + 1]).
+A level 1 character may place no more than one skill point (1 rank) in any given skill. This limit increases by 1 rank every odd level. A character can only ever place 1 point (or non at all) in a proficiency - you are either proficient or you are not. For more information see the ["Skills"](05-skills.md) and ["Weapons and Armour"](11-weapons-armour.md) chapters.
+
+___
+#### Base
+
+Secondly, a character starts with one background skill, where they get to add a small bonus (+2 at level 1 - this is [base + 1]). See ["Base Rules: Base"](02-base-rules.md#base) for details.
+
+___
+#### Homeland
 
 Thirdly, a character also gets to choose a homeland  (see ["terrain"](03-movement-exploration.md#terrains)). This reflects the landscape of the character's homeland, and can be anything from "town" or "plains" to "ruins" or "subterranean". The character has a +2 bonus to [fortify](05-skills.md#fortify) and [navigation](05-skills.md#navigate) in that terrain.
 
-Fourthly, a character chooses a save with which they are proficient. This will help defend them against some nasty stuff, so choose carefully.
+___
+#### Saves
+Fourthly, a character chooses a save with counts as their "good save" and adds their Nat/Sup to it (1 at level 1). This will help defend them against some nasty stuff, so choose carefully. See ["Base Rules: Saving throws"](02-base-rules.md#saving-throws) for details.
 
-Lastly, a character gains 3 level points. Level points are spent on gaining abilities. These range from extra good saves, to sword arts and spell casting, and much more. A level point can also be exchanged for 4 skill points or a +1 increase to any stat (although no stat can exceed 24 for a character). For a list of abilities see the ["Abilities"](06-abilities.md) chapter.
+___
+#### Level Points
+
+Lastly, a character gains 3 level points. Level points are spent on gaining abilities. These range from extra good saves, to sword arts and spell casting, and much more. A level point can also be exchanged for 4 skill points or a +1 increase to any stat (although no stat can exceed 24 for a character, and a character can only spend 1 level point per level on stat increases). For a list of abilities see the ["Abilities"](06-abilities.md) chapter.
 
 ___
 ### Stamina and Mana dice and HP

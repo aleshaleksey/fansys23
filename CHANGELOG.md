@@ -575,6 +575,7 @@ ___
 - Reinterpret ["opportunist"](06-abilities.md#opportunist) as under current rules it does nothing.
 - Reinterpret ["enduring flight"](06-abilities.md#enduring-flight) to give 2 hours of flight endurance instead of 1. Will probably need some testing.
 - Add [Binder's Eye](06-abilities.md#binders-eye) and [Binder's Heart](06-abilities.md#binders-heart). Enhance summoners a little bit. NB: This needs testing to avoid devaluing conventional rogues.
+- Allow "flurry" to work with all "light blades" as long as the other hand is free.
 
 ### Spells
 - Weaken [Stone Ward](08-spell-list.md#stone-ward), to take into account material levels of weapons.
@@ -590,6 +591,8 @@ ___
   - Size-like penalties are -2 or -4.
   - Cover bonuses are +2 or +5.
 - Short-sword is now a finesse (DEX/STR governed) weapon. 
+- Rename "light" property to "subtle" property. 
+- Allow offhand fighting with all "light blades" as long as both weapons are "light blades".
 
 ### Equipment and Economy
 - Add [Alchemical goods table](12-equipment-economy.md#alchemical-reagents-and-potions).

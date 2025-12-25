@@ -1,6 +1,6 @@
 # Weapons and armour
 
-Weapons and armour are an essential part of any combat heavy table top RPG system. Weapon rules here are inspired primarily by DnD 3.5, and Pathfinder weapons rules.
+Weapons and armour are an essential part of any combat heavy table top RPG system. Weapon rules here are inspired primarily by DnD 3.5 and Pathfinder weapons rules.
 
 1. [Weapons](#weapons)
     - [Weapon durability](#weapon-durability)
@@ -117,9 +117,10 @@ ___
 
 A character with two hands can hold a one-handed weapon in each hand. If the character has made an attack as a "main action" with one weapon, then in some cases it can also make an additional "offhand attack" with the other weapon as a "secondary action".
 
-- The character can normally make a single "offhand attack" with a "light" weapon at a -5 penalty to attack and no stat bonus ([DEX] or [STR]) to damage.
+- The character can normally make a single "offhand attack" with a "subtle" weapon at a -5 penalty to attack and no stat bonus ([DEX] or [STR]) to damage.
 - If the character has the ["multi-attack"](06-abilities.md#multi-attack-i-iii) ability, then it can add its stat bonus to the offhand attack.
-- It the character has ["offhand fighting"](06-abilities.md#offhand-fighting-i-iv) ability, it adds its stat bonus to the damage, and does not take the penalty to the attack roll when making an offhand attack with a "light" weapon. It can instead use a weapon without the "light" property to make the attack, in which case it does take a -5 to the attack roll. Furthermore, it can make a number of attacks with the offhand weapon equal to its "offhand fighting" ability level as its offhand attack.
+- It the character has ["offhand fighting"](06-abilities.md#offhand-fighting-i-iv) ability, it adds its stat bonus to the damage, and does not take the penalty to the attack roll when making an offhand attack with a "subtle" weapon, or if both the main weapon and the offhand weapon(s) are ["light blades"](#light-blades). The character can choose to use other weapons for two weapon fighting, in which case it takes a -5 to the attack roll.
+- A character can make a number of attacks with the offhand weapon equal to its "offhand fighting" ability level as its offhand attack.
 
 An entity with more than two hands might be able to hold more than two weapons. In this case, all but the main weapon are considered to be offhand weapons. In this case the number of offhand or other attacks does not increase. However, if it has multiple offhand attacks, it can distribute them between its offhand weapons as it sees fit.
 
@@ -133,7 +134,7 @@ Weapons come in all shapes and sizes. They can be made of various materials. As 
 - **Heavy**: This kind of weapon is "unwieldy". A heavy weapon must be of the correct size category wielded in two hands or it counts as an [improvised weapon](#improvised-weapons). In addition they grant a +2 on all basic martial manoeuvres (except "attack"). If a heavy weapon user does not have at least +2 to [STR], it takes -4 to attacks with the weapon. If the weapon is a melee weapon, a character wielding it with at least two hands and possessing at least +2 to [STR] adds an additional [STR]/2 to the damage dealt (*rounded down* to the nearest whole number). Thus a character wielding a 2d6 greatsword with [STR] of +2 would deal 2d6+3 damage, while a character with a [STR] of +3 would deal 2d6+4 damage.
 - **Reach**: This weapon is "unwieldy", but its reach is increased by at least 5ft (may differ for different weapons).
 - **Long**: These weapons are not quite reach weapons, but they are bit longer than usual. A long weapon allows a wielder to use its "secondary action" to lunge and extend its reach by 5ft for a single attack.
-- **Light**: -2 when on the receiving end of "sunder" and "disarm" manoeuvres. Its wielder have advantage when using stealth to conceal this kind of weapon.
+- **Subtle**: Its wielder have advantage when using stealth to conceal this kind of weapon. However, they also take a -2 penalty when on the receiving end of "sunder" and "disarm" manoeuvres. 
 - **Mounted**: This weapon was made with mounted combat in mind. If normally there would be penalties for using this kind of weapon mounted, they are negated.
 - **Tool**: This weapon also counts as a tool and character proficient with counts as proficient in that tool when using the weapon as the stated tool type.
 - **Disarm**: Proficiency with this weapon allows the use of disarm as if proficient with the manoeuvre while wielding it. If the user already has proficiency with "disarm", it gains a +2 bonus when disarming with this weapon.
@@ -163,7 +164,7 @@ Items that are not designed to be used as weapons can also be used for this purp
 
 |Category|Guideline Weight|Damage|
 |-|-|-|
-|Light|1lb|1|
+|Subtle|1lb|1|
 |Medium|2lb|1d4|
 |Two Handed|3-6lb|1d6|
 |Heavy|6-20lb|1d8|
@@ -285,18 +286,18 @@ This is something of a misnomer. Light blades refers to smaller one handed blade
 |Daggers|bleeding, light||
 |Scimitars|bleeding,cripple||
 |Short Swords|bleeding||
-|Small Swords|light|disarm|
+|Small Swords|subtle|disarm|
 |Shuriken|bleeding,light||
 
-**Daggers** include kitchen knives, hunting knives, daggers and similar blades. They are often somewhat throwable. Daggers have the "light" property.
+**Daggers** include kitchen knives, hunting knives, daggers and similar blades. They are often somewhat throwable. Daggers have the "subtle" property.
 
 **Scimitars** are curved blades designed for cutting and chopping. Scimitars, sabres, kodachi, kukri and machetes all fall into this category. They can cause the "crippled" condition.
 
 **Short Swords** are short straight blades designed primarily for stabbing. They are simple, sturdy blades. The gladius is a typical short sword.
 
-**Small Swords** are light, elegant blades designed specifically for piercing. They are typically used by ranking members of high and low society for tidily settling scores and are not meant for heavy combat. They have the "light" and "disarm" properties. As an exception, small swords do NOT cause "bleeding" (as in they cause bleeding, but not "bleeding"). **NB**: The "rapier" from DnD 3.5 onwards is in fact a small sword.
+**Small Swords** are light, elegant blades designed specifically for piercing. They are typically used by ranking members of high and low society for tidily settling scores and are not meant for heavy combat. They have the "subtle" and "disarm" properties. As an exception, small swords do NOT cause "bleeding" (as in they cause bleeding, but not "bleeding"). **NB**: The "rapier" from DnD 3.5 onwards is in fact a small sword.
 
-**Shuriken** refers to throwing needles, throwing knives and throwing stars. These are easily concealed blades used for surprise attacks and as a distraction. They have the "light" property.
+**Shuriken** refers to throwing needles, throwing knives and throwing stars. These are easily concealed blades used for surprise attacks and as a distraction. They have the "subtle" property.
 
 ___
 ### Heavy blades
@@ -445,7 +446,7 @@ ___
 ___
 ### Slings
 
-Slings are simple in construction and difficult in exploitation. They make use centripetal force. A sling is essentially a length of sinew with a "nest" for the projectile (usually a round stone or metal bullet) at the center. Despite the range, slings are difficult to aim and therefore have a low range increment. Slings can also be used to shoot stones, in absence of proper ammunition, but the attack is at disadvantage. Slings have the "light" and "unwieldy" properties. Slings cannot be used effectively from prone.
+Slings are simple in construction and difficult in exploitation. They make use centripetal force. A sling is essentially a length of sinew with a "nest" for the projectile (usually a round stone or metal bullet) at the center. Despite the range, slings are difficult to aim and therefore have a low range increment. Slings can also be used to shoot stones, in absence of proper ammunition, but the attack is at disadvantage. Slings have the "subtle" and "unwieldy" properties. Slings cannot be used effectively from prone.
 
 ___
 ### Bows
@@ -493,7 +494,7 @@ Blowguns are essentially tubes used to shoot darts, propelled by air pressure, w
 
 |Weapon|Special Properties|Manoeuvres|
 |-|-|-|
-|Short Blowgun|Light||
+|Short Blowgun|Subtle||
 |Blowgun|||
 |Long Blowgun|Unwieldy||
 

@@ -381,7 +381,7 @@ ___
 ____
 #### Debilitating Strike
 
-**Description**: Expend 1-3 SP dice to induce a condition when making an unarmed strike or a melee attack with a "light" weapon. For each new condition the ability must be taken again.
+**Description**: Expend 1-3 SP dice to induce a condition when making an unarmed strike or a melee attack with a weapon attack governed by DEX. For each new condition the ability must be taken again.
 
 **Action**:
 
@@ -455,7 +455,9 @@ ___
 ___
 #### Flurry
 
-**Description**: As a "secondary action" make an extra attack or combat manoeuvre with a "light" weapon or unarmed strike. If you expend an SP dice, you get to make 2 attack.
+**Description**: As a "secondary action" make an extra attack or combat manoeuvre with a "subtle" weapon and "unarmed strike". If you expend an SP dice, you get to make 2 attack.
+
+**Special**: A character may flurry with any ["light blade"](11-weapons-armour.md#light-blades) as long as they are not wielding or carrying anything heavier than 1lb anything in their other hand(s).
 
 **Prerequisite**: Proficiency with "strikes".
 
@@ -1558,7 +1560,7 @@ ___
 ___
 #### Offhand fighting I-IV
 
-**Description**: Make one or more additional attacks with an offhand weapon with the "light" property as a "secondary" action when making one or more attacks as a "basic martial manoeuvre: attack" with a one handed weapon (as your "main action"). You can also make offhand attacks with a weapon that isn't "light", but you take a -4 penalty to the attack roll.
+**Description**: Make one or more additional attacks with an offhand weapon with the "subtle" property as a "secondary" action when making one or more attacks as a "basic martial manoeuvre: attack" with a one handed weapon (as your "main action"). You can also make offhand attacks with a weapon that isn't "subtle", but you take a -4 penalty to the attack roll.
 
 **Original state**: A character can make a single offhand attack with a light weapon as a "secondary action". Even so it takes a -4 penalty to the attack and does not add the governing stat modifier to the damage. A character with "Multi-attack I" has the same limitations, but adds its governing stat modifier to the damage.
 

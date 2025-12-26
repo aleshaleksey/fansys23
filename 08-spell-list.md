@@ -932,7 +932,7 @@ ___
 |Limitations|Target is ground or rock attached to the ground|-2
 |Save|DEX|
 
-**Description**: Over the course of the round you gradually shape the surface layer of earth or natural, unworked stone, manipulating material to a depth of 5ft (if earth) or 1ft if rock.
+**Description**: Over the course of the round you gradually shape the surface layer of earth or natural, unworked stone. When casting the spell and on each subsequent turn as a "main action" the caster can manipulate up to 10ft x 10ft x 10ft of valid material in range to a depth of 10ft if manipulating earth or 5ft if manipulating rock.
 
 + If this would encapsulate or otherwise trap an entity, it has enough time to use its reaction and escape the effect or do so by making a DEX save at advantage.
 + If the shape will not be structurally sound it collapses.

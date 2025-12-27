@@ -581,6 +581,7 @@ ___
 - Weaken [Stone Ward](08-spell-list.md#stone-ward), to take into account material levels of weapons.
 - Rework [Razor Wind](08-spell-list.md#razor-wind) to be closer to our constitution (less damage, more effects). 
 - Add [Dream](08-spell-list.md#dream) and [Dream Walk](08-spell-list.md#dream-walk).
+- Change [counters-pelling and dispelling rules](07-magic-and-spellcasting.md#banishing-breaking-counter-spelling-and-dispelling) to make it worth the mana.
 
 ### Weapons
 - Staves now can give a shield[weapon] bonus to HiT if wielded with both hands.

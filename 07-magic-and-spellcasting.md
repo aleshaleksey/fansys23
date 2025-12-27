@@ -8,6 +8,10 @@
 6. [Spell types table](#spell-types-table)
 7. [Identifying and Manipulating spells](#identifying-and-manipulating-spells)
 8. [Banishing, Breaking, Counter-spelling and Dispelling](#banishing-breaking-counter-spelling-and-dispelling)
+    - [Counter-spelling](#counter-spelling)
+    - [Dispelling](#dispelling)
+    - [Banishing](#banishing)
+    - [Breaking Global Spells and Curses](#breaking-global-spells-and-curses)
 9. [The catastrophic cascade](#the-catastrophic-cascade)
 10. [Global and local spells](#global-and-local-spells)
 11. [The 7 types of magic](#the-7-types-of-magic)
@@ -110,29 +114,53 @@ ___
 
 "**Counter-spelling**" is interfering with the casting of a local spell through magical means, hence causing it fail. "**Dispelling**" is the permanent removal of a local spell through magical means. "**Banishing**" is the dismissal of summoned entities to whence they came. "**Breaking**" is the permanent removal of a global spell either by meeting its ending condition, use of spellworking or exceptionally powerful local magic.
 
-**Counter-spelling**: Any spellcaster with at least 9 MP dice total can counter-spell. You can only counter-spell magics from the same or opposite type (see table above). In order to counter-spell, you must be within 10ft x [MP dice] being used to counter-spell of the target caster. Counter-spelling magics of the same type is done at disadvantage. The steps are as follows:
+#### Counter-spelling
+
+Any spellcaster who has at least 3 levels in any one type of spellcasting (eg Incantation III) can attempt to counter-spell. You can only counter-spell magics from the same or opposite type (see the [spell types table](#spell-types-table) above). In order to counter-spell, you must be within 10ft x [MP dice you are using to counter-spell] of the target caster.
 
 1. Declare "preparing to counter-spell" on your turn and use your "secondary action" to watch for spellcasters. Declare the number of MP dice you are preparing for this (minimum of 3).
 2. When a spell is being cast, but before its effects take place, identify that it is with a ["Knowledge: Arcana"](05-skills.md#knowledge) roll.
+3. Decide whether you wish to counter-spell it or not. If you decide not to counter this spell, your MP dice are not expended and you can continue watching for spells to counter.
 3. If the spell belongs to the same type or opposite type of local magic, use your reaction and declare "counter-spell".
 4. Pay the declared MP dice cost.
-5. Roll a SAP (Sup + Base + Wis) roll vs their SAT (Sup + Base + Wis). You have a bonus (or penalty if it's less) to the roll equal to the difference in MP dice used by the two sides. If it is the same type of magic, your roll is at disadvantage. If it is neither the same or opposite, you cannot counter-spell it.
+5. Roll a SAP (Sup + Base + Wis) roll vs the threshold of the caster for the spell being cast. See below for the modifiers.
 6. If you meet or beat the threshold, the spell fails (maybe even catastrophically).
 
-**Dispelling**: Any spellcaster with at least 11 MP dice total can dispel. You can only dispel magics of a type that you are capable of casting. In order to dispel you must be within 10ft x [MP dice being used to dispel the effect] of the effect and you must be able to see it. Thus you must have senses that can detect it (eg using "See Spell" or "See Unseen"). If you cannot "see" the spell you can still dispel magic if you are within its area of effect. The steps for dispelling are as follows:
+There are several modifiers to the counter-spell roll. The modifiers stack.
+
+- If the spell types are the same type, the roll is made at disadvantage.
+- If using at least as many MP dice to counter-spell as the number of dice expanded for the spell, the roll is made at advantage.
+- You have a bonus to the roll equal to the difference in MP dice used by the two sides. If you have used fewer dice than the initial caster, this becomes a penalty to the roll.
+
+**Example 1**: Thus, if the 6th level aquamancer Liira has declared 3 MP dice and attempts to counter-spell the ["melt"](08-spell-list.md#melt) spell cast by a pyromancer who has used 3 MP dice in the casting, she would make a plain roll since fire and water are opposite spell types. Since the mana dice use is the same (3 vs 3), there are no bonuses or penalties, but she does have advantage on the roll. So if Liira has a +9 to WIS based attacks (WIS+SAP), she will roll at advantage with no bonus or penalty [3D12dl1 + 9]. In this case Liira has an excellent chance of countering the pyromancer's spell.
+
+**Example 2**: If we extend the above example and the same pyromancer has used 4 MP dice in the casting, she will have a penalty of -1 (3 vs 4), and she will not have advantage. So in this case she would roll [2D12 + 8]. In this case, her chances of success are not as good, but unless the pyromancer is particularly talented, Liira still has a higher than 50:50 chance of success.
+
+**Example 3**: The same aquamancer Liira, encounters the elemental sage Lapiz, and requests a duel. Lapiz casts ["winter's grasp"](08-spell-list.md#winters-grasp) at 5 MP dice to test Liira's mettle. Since this a water type spell and Liira is also an aquamancer, the counter roll is at disadvantage. Furthermore since Liira is 6th level and can only declare 3 MP dice, so she will have a -2 penalty to the roll. Thus She will roll [3D12dh1 + 7]. Liira's chances of coming out unharmed from this silly duel of hers are not good!
+
+___
+#### Dispelling
+
+Any spellcaster who has at least 3 levels in any one type of spellcasting (eg Incantation III) can attempt to dispel. As with counter-spelling the spell must be of the same or opposite type. In order to dispel you must be within 10ft x [MP dice being used to dispel] of the effect and you must be able to sense it. Thus you must have senses that can detect it (eg using "See Spell" or "See Unseen"). If you cannot "sense" the spell you can still dispel magic if you are within its area of effect. The steps for dispelling are as follows:
 
 1. Identify the spell using ["Knowledge: Arcana"](05-skills.md#knowledge).
 2. Declare "dispel" as a "main action" and how many MP dice you are using to dispel.
 3. Pay the declared MP dice cost.
-4. Roll a SAP (Sup + Base + Wis) roll vs their SAT (Sup + Base + Wis). You have a bonus (or penalty if it's less) to the roll equal to the difference in MP dice used by the two sides. If you are within the area of the spell's effect, or are its target, you have advantage on the roll.
+4. Roll a SAP (Sup + Base + Wis) roll vs their SAT (Sup + Base + Wis).
 5. If you succeed on the roll, the spell ends, if you do not, it persists.
 
-**Banishing**: Summoned entities are not dispelled in quite the same way as spells. There are two ways of dealing with them.
+All the same modifiers that apply to counter-spelling also apply to dispelling. In addition, if you are inside the area of effect of the spell, or are a target of the spell, you have advantage on dispelling it, as you can better characterise it.
+
+____
+#### Banishing
+Summoned entities are not dispelled in quite the same way as spells. There are two ways of dealing with them.
 
 1. Dispelling as normal, but only by casters who have spells with the "summon" descriptor or the "Bind Familiar" or "Bind Beast" ability.
 2. By a "spellworking" roll to "disimbue" the summon, but only after the effect has been identified by ["Knowledge: Arcana"](05-skills.md#knowledge).
 
-**Breaking Global Spells**: Global spells can be dispelled by any caster that has at least 11 MP dice. A dispelling character must be inside the area of effect, or adjacent to the area of effect of the spell for the whole duration of breaking in order to break it.
+___
+#### Breaking Global Spells and Curses
+Global spells can be dispelled by any caster that has at least 11 MP dice. A dispelling character must be inside the area of effect, or adjacent to the area of effect of the spell for the whole duration of breaking in order to break it.
 
 - Dispelling can be done by the basic ["Spellworking"](05-skills.md#spellworking) rules and in accordance with the time required by the original caster's threshold. In order to do this, a character must first succeed on a ["Knowledge: Arcana"](05-skills.md#knowledge) roll to identify the spell.
 - Alternatively a character can "force" the breaking by forcing their own MP into the spell. In this case, no knowledge roll is required, however, the character expends [[original caster's MP dice used in casting the spell] - [dispelling character's "Knowledge:Arcana" skill bonus]] MP dice when making the attempt. If this leads to their MP dice count reaching 0, the dispelling character must succeed a CHA save or fall unconscious as per the "special" clause of the ["Spellworking"](05-skills.md#spellworking) rules.

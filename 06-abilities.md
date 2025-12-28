@@ -200,6 +200,7 @@ ___
 - [Spelldance I-IV](#spelldance-i-iv)
 - [Spellsong I-IV](#spellsong-i-iv)
 - [Still Spell](#still-spell)
+- [Studied Arcana](#studied-arcana)
 - [Swift Spell](#swift-spell)
 - [War Mage](#war-mage)
 
@@ -2260,8 +2261,6 @@ ___
 - Can be combined with "still spell" and "lingering spell".
 - This allows casting of spells with incantations when under the effects of "aphonia" or "inaudible".
 
-(Technically this is a boon)
-
 ___
 #### Forbidden Spell
 
@@ -2358,7 +2357,6 @@ There are several forms of spellcasting in this category, but they all have simi
 - Each time a character wishes to learn the new category of local magic, they must take it as a separate ability.
 - Each type of local magic also covers some global spells. As long a character has "Spellcasting: Global I" and the requisite level of local spellcasting of the type, they can cast global spells of that type and level.
 - In order to get the next level of a type of local magic, a character must have the previous one. So if a character wishes to learn "Spellcasting: Nature III", they must have "Spellcasting: Nature II", which requires having "Spellcasting: Nature I".
-- A spellcaster can never channel more than 1/3 of their MP dice total into a single "local" spell.
 - A spellcaster can never cast a spell with a minimum local (or local equivalent) MP dice cost higher than half of their level rounded up. So a level 13 character cannot cast a spell with a minimum MP dice cost of 8, 9, or 10.
 - Spells with a minimum local casting cost of more than 7 MP dice exist. A character can learn and cast these spells, if:
   - They have Spellcasting: Local VII of the appropriate category (eg Spellcasting: Local (Elemental: Fire) for ["Realm of Flame"](08-spell-list.md#realm-of-flame)).
@@ -2503,6 +2501,17 @@ ___
 - Must be taken separately for each type of spellcasting.
 - Can be combined with "aphonic spell", "lingering spell" and "swift spell".
 - This allows spellcasting when "immobilised" or "restrained".
+
+___
+#### Studied Arcana
+
+**Type**: Supernatural (C-A)
+
+**Description**: Learn any two spells of the spellcasting types that you know.
+
+**Prerequisite**: [Spellcasting: Local](#spellcasting-local) or [Spellcasting: Global](#spellcasting-global).
+
+**Limitation**: A spell learned for a given type of spellcasting cannot be of a higher MP dice cost than your level in that type of spellcasting.
 
 ___
 #### Swift Spell

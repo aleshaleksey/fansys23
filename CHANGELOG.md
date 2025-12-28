@@ -577,6 +577,8 @@ ___
 - Add [Binder's Eye](06-abilities.md#binders-eye) and [Binder's Heart](06-abilities.md#binders-heart). Enhance summoners a little bit. NB: This needs testing to avoid devaluing conventional rogues.
 - Allow "flurry" to work with all "light blades" as long as the other hand is free.
 - Weaken [Alternate Form](06-abilities.md#alternate-form-i-iv) by introducing level penalties for higher entity types and returning to original form when at 0M/MP dice.
+- Add [Studied Arcana](06-abilities.md#studied-arcana) for when you really need more spells.
+- Removed 1/3 MP dice requirement for local spells: It is never used.
 
 ### Spells
 - Weaken [Stone Ward](08-spell-list.md#stone-ward), to take into account material levels of weapons.

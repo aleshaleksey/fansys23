@@ -646,13 +646,27 @@ ___
 - A character returns to its original form when it dies, but not necessarily when it is merely unconscious.
 - A character can *be returned* to its original form by dispelling the alternate form, [as per the dispelling rules](07-magic-and-spellcasting.md#banishing-breaking-counter-spelling-and-dispelling). If the alternate form is dispelled, the character cannot use "Alternate Form" for a number of turns equal to the difference between the dispel roll and threshold. For example, if the Threshold=18, and the dispelling character rolls a 23, the shapeshifter cannot return to its alternate form for 5 rounds.
 
+
 **Limitations**:
 
 - The alternate form chosen cannot be a higher level than the initial character. Thus a level 6 character with "Alternate Form II" cannot chose the form of a [kraken](monsters-npcs/monsters-and-dragons.md#sea-monster-kraken-lesser), as it is a higher level.
-- If the difference in CON between the two forms would increase, or decrease, the SP maximum, SP changes by the difference. For example if a character has +2 [CON], but its alternate form has +3 [CON] and the character has 6 SP dice and a level of 3, its main form would have 18 SP, and its alternate form would have 21 SP. Thus if a character fights in its alternate form and is reduced to 9/21 SP, when it returns to the main form, it would have 6/18 SP. If it has 2/21 SP it will return to 0/18 and take 1 HP damage.
-- Switching between forms does not use SP or MP dice. However, when a character has 0 MP or 0 MP dice, it cannot switch between forms.
+  - When turning into entities other than "beasts" there is a "level penalty". That is to say, your level is considered lower for the sake of the minimum level to turn into the entity. For example, the level penalty for turning into a dragon is -2, so if turning into a lesser dragon, which has a level=13, your character's level must be at least 2 levels higher than the dragon's, i.e. 15.
+- If the difference in CON between the two forms would change the SP maximum, then the character's current SP changes accordingly. For example if a character has +2 [CON], but its alternate form has +3 [CON] and the character has 6 SP dice and a level of 3, its main form would have 18 SP, and its alternate form would have 21 SP. Thus if a character fights in its alternate form and is reduced to 9/21 SP, when it returns to the main form, it would have 6/18 SP. If it has 2/21 SP it will return to 0/18 and take 1 HP damage.
+- Switching between forms does not use SP or MP dice. However, when a character has 0 MP or 0 MP dice, it returns to its original form and cannot transform again until both its MP and MP dice are above 0.
 - Switching between forms does not in any way affect equipment or items carried by the character. Equipment that is incompatible with the character's may be shed or damaged.
 - If the entity that is chosen as the alternate form *itself* has the "Alternate Form" ability, then this ability is not inherited.
+
+**Level Penalty**:
+
+|Entity Type|Level Penalty|
+|-----------|-------------|
+|Beast      |-            |
+|Plant      |-1           |
+|Monster    |-1           |
+|Dragon     |-2           |
+|Spirit(Any)|-3           |
+|Fiend      |-3           |
+|Angel      |-3           |
 
 This ability is potentially broken and should only be included in a game by consensus within the group.
 

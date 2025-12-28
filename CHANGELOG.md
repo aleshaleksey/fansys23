@@ -576,6 +576,7 @@ ___
 - Reinterpret ["enduring flight"](06-abilities.md#enduring-flight) to give 2 hours of flight endurance instead of 1. Will probably need some testing.
 - Add [Binder's Eye](06-abilities.md#binders-eye) and [Binder's Heart](06-abilities.md#binders-heart). Enhance summoners a little bit. NB: This needs testing to avoid devaluing conventional rogues.
 - Allow "flurry" to work with all "light blades" as long as the other hand is free.
+- Weaken [Alternate Form](06-abilities.md#alternate-form-i-iv) by introducing level penalties for higher entity types and returning to original form when at 0M/MP dice.
 
 ### Spells
 - Weaken [Stone Ward](08-spell-list.md#stone-ward), to take into account material levels of weapons.

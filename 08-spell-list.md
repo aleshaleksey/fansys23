@@ -2076,7 +2076,7 @@ ___
 |Range|30ft|
 |Duration|1 day (permanent)|+24(23)
 |Components|kinetic|(21)
-|Save|CHA, on success the curse bounces to the caster|x0.5((22+4)/2=14)
+|Save|CHA, special on failure|x0.5((22+4)/2=14)
 
 **Description**: Curse the target with two "C" class curses from the table below or one "B" class curse from the table below.
 
@@ -2101,7 +2101,7 @@ ___
 
 **Special**:
 
-- If the target succeeds the save, the curse affects the caster instead, unless the caster also succeeds the save, in which case the spell dissipates.
+- If the target succeeds the save and rolls at least one 12 on the 2D12 roll in the process, the curse affects the caster instead, unless the caster also succeeds the save, in which case the spell dissipates.
 - If the target fails the initial save, it is affected by the curse for the full duration and does not make repeated saves.
 - Poison or Disease class depends on the class of the individual poison or disease.
 

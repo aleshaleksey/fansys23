@@ -1,5 +1,6 @@
 #! /bin/bash
-
+# This is not needed on well configured machines.
+export LC_ALL=C
 # Make build directories.
 mkdir sphinx/build
 mkdir sphinx/_static

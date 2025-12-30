@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Use pandoc to convert all files to typst and
+# Use pandoc (version 3.8.* works) to convert all files to typst and
 # fold them into a separate directory
 echo "Converting Markdown to Typst.."
 for X in $(ls | grep .md); do
@@ -11,7 +11,7 @@ done;
 mkdir typ/monsters-npcs/ | 0
 for X in $(ls monsters-npcs/ | grep .md); do
     y=${X%.*}
-    pandoc -f markdown -t typst monsters-npcs/$y.md -o typ/build/$y.typ
+    pandoc -f markdown -t typst  --wrap=preserve monsters-npcs/$y.md -o typ/build/$y.typ
 done;
 
 # Replace references in the new Typ files.

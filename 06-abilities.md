@@ -90,6 +90,8 @@ ___
 - [Arcane Interception](#arcane-interception)
 - [Bind Beast (I-X)](#bind-beast-i-x)
 - [Bind Familiar (I-IV)](#bind-familiar-i-iv)
+- [Binder's Eye](#binders-eye)
+- [Binder's Heart](#binders-heart)
 - [Blink I](#blink-i)
 - [Charm I-IV](#charm-i-iv)
 - [Cursed Blood](#cursed-blood)
@@ -198,6 +200,7 @@ ___
 - [Spelldance I-IV](#spelldance-i-iv)
 - [Spellsong I-IV](#spellsong-i-iv)
 - [Still Spell](#still-spell)
+- [Studied Arcana](#studied-arcana)
 - [Swift Spell](#swift-spell)
 - [War Mage](#war-mage)
 
@@ -379,7 +382,7 @@ ___
 ____
 #### Debilitating Strike
 
-**Description**: Expend 1-3 SP dice to induce a condition when making an unarmed strike or a melee attack with a "light" weapon. For each new condition the ability must be taken again.
+**Description**: Expend 1-3 SP dice to induce a condition when making an unarmed strike or a melee attack with a weapon attack governed by DEX. For each new condition the ability must be taken again.
 
 **Action**:
 
@@ -453,7 +456,9 @@ ___
 ___
 #### Flurry
 
-**Description**: As a "secondary action" make an extra attack or combat manoeuvre with a "light" weapon or unarmed strike. If you expend an SP dice, you get to make 2 attack.
+**Description**: As a "secondary action" make an extra attack or combat manoeuvre with a "subtle" weapon and "unarmed strike". If you expend an SP dice, you get to make 2 attack.
+
+**Special**: A character may flurry with any ["light blade"](11-weapons-armour.md#light-blades) as long as they are not wielding or carrying anything heavier than 1lb anything in their other hand(s).
 
 **Prerequisite**: Proficiency with "strikes".
 
@@ -537,7 +542,7 @@ ___
 
 **Type**: (Natural, Class B)
 
-**Description**: Use a combination of main and secondary action to shoot an extra projectile, at the expense of accuracy.
+**Description**: Use a combination of main and secondary action to shoot an extra projectile (or two if expending one SP die), at the expense of accuracy.
 
 **Action**: Declare "rapid shot" and expend "main action" and "secondary action" and make the usual number of ranged weapon attacks plus one, all with the appropriate penalty to the attack roll. (See table below)
 
@@ -642,13 +647,27 @@ ___
 - A character returns to its original form when it dies, but not necessarily when it is merely unconscious.
 - A character can *be returned* to its original form by dispelling the alternate form, [as per the dispelling rules](07-magic-and-spellcasting.md#banishing-breaking-counter-spelling-and-dispelling). If the alternate form is dispelled, the character cannot use "Alternate Form" for a number of turns equal to the difference between the dispel roll and threshold. For example, if the Threshold=18, and the dispelling character rolls a 23, the shapeshifter cannot return to its alternate form for 5 rounds.
 
+
 **Limitations**:
 
 - The alternate form chosen cannot be a higher level than the initial character. Thus a level 6 character with "Alternate Form II" cannot chose the form of a [kraken](monsters-npcs/monsters-and-dragons.md#sea-monster-kraken-lesser), as it is a higher level.
-- If the difference in CON between the two forms would increase, or decrease, the SP maximum, SP changes by the difference. For example if a character has +2 [CON], but its alternate form has +3 [CON] and the character has 6 SP dice and a level of 3, its main form would have 18 SP, and its alternate form would have 21 SP. Thus if a character fights in its alternate form and is reduced to 9/21 SP, when it returns to the main form, it would have 6/18 SP. If it has 2/21 SP it will return to 0/18 and take 1 HP damage.
-- Switching between forms does not use SP or MP dice. However, when a character has 0 MP or 0 MP dice, it cannot switch between forms.
+  - When turning into entities other than "beasts" there is a "level penalty". That is to say, your level is considered lower for the sake of the minimum level to turn into the entity. For example, the level penalty for turning into a dragon is -2, so if turning into a lesser dragon, which has a level=13, your character's level must be at least 2 levels higher than the dragon's, i.e. 15.
+- If the difference in CON between the two forms would change the SP maximum, then the character's current SP changes accordingly. For example if a character has +2 [CON], but its alternate form has +3 [CON] and the character has 6 SP dice and a level of 3, its main form would have 18 SP, and its alternate form would have 21 SP. Thus if a character fights in its alternate form and is reduced to 9/21 SP, when it returns to the main form, it would have 6/18 SP. If it has 2/21 SP it will return to 0/18 and take 1 HP damage.
+- Switching between forms does not use SP or MP dice. However, when a character has 0 MP or 0 MP dice, it returns to its original form and cannot transform again until both its MP and MP dice are above 0.
 - Switching between forms does not in any way affect equipment or items carried by the character. Equipment that is incompatible with the character's may be shed or damaged.
 - If the entity that is chosen as the alternate form *itself* has the "Alternate Form" ability, then this ability is not inherited.
+
+**Level Penalty**:
+
+|Entity Type|Level Penalty|
+|-----------|-------------|
+|Beast      |-            |
+|Plant      |-1           |
+|Monster    |-1           |
+|Dragon     |-2           |
+|Spirit(Any)|-3           |
+|Fiend      |-3           |
+|Angel      |-3           |
 
 This ability is potentially broken and should only be included in a game by consensus within the group.
 
@@ -831,6 +850,42 @@ ___
 |Kinetic|Immunity to "immobilise", "grapple", "restrain"|"Parry"|
 |Natural|Resistance to all "energy"|"Guide"|
 |Global|Resistance to all conditions|"Least Ward"|
+
+___
+#### Binder's Eye
+
+**Type**: (Supernatural, Class A)
+
+**Description**: Expend 1 MP die and "see" through the eyes or other primary sense (eg echolocation if it's a bad) of a bound beast or familiar. 
+
+**Action**: Declare that you are using the "summoner's eye" as a bonus action, expend the MP die and switch to your bound beast/familiar's vision. While using the "summoner's eye" you are unable to use your own eyes (or other primary sense). You use *your* observe bonus for any observation. You can return to using your own vision as a bonus action.
+
+**Original State**:
+
+**Range**: For a familiar the range is equal to your "bind familiar" ability's "Link range". For a bound beast the range is equal to ["Bind Beast" level] miles (so for "Bind Beast III" it would be 3 miles).
+
+**Prerequisites**: One of:
+
+- Bind Beast I and Bind Familiar I
+- Bind Familiar II
+- Bind Beast III
+
+___
+#### Binder's Heart
+
+**Type**: (Supernatural, Class A)
+
+**Description**: You can communicate with your familiar or bound beast and understand their communication even if you otherwise do not share a language. For a bound beast the range is the range is the range your voice reaches (about 600ft), or the range you can discern subtle visual cues (about 200ft), whichever is longer. For a familiar, the range is equal to your "Bind Familiar" ability's "Link range".
+
+**Action**: None. Although you still need to use at least your "communicate action" to communicate with your familiar/bound beast.
+
+**Original State**:
+
+**Prerequisites**: One of:
+
+- Bind Beast II and Bind Familiar I
+- Bind Familiar II
+- Bind Beast IV
 
 ___
 #### Blink I
@@ -1184,7 +1239,7 @@ An elementalism for each element can be enhanced with the following effects/cond
 |Restrained   |Ice or Earth          |Base = 2           |2          |
 |Catatonic    |Light or Fire         |Base = 2           |2          |
 
-The "shove" and "prone" effect are immediate and do not require repeated save. The remaining effects persist for up 1 minute, and allow a save at the end of each of the target's turns.
+The "shove" and "prone" effect are immediate and do not require repeated save. The remaining effects persist for up to 1 minute, and allow a save at the end of each of the target's turns.
 
 ___
 #### Forms
@@ -1385,14 +1440,16 @@ ___
 
 **Type**: (Natural, Class B)
 
-**Description**: Gain 1 extra hour of flight endurance.
+**Description**: Gain 2 extra hours of flight endurance.
 
 **Limitations**:
 
-- A character can only take this boon once per level.
+- A character can take this boon once per level.
 - A character cannot increase its flight endurance with this boon to beyond its [journey time](03-movement-exploration.md#global-movement-pushing-and-fatigue) (10 hours).
 
-**Prerequisites**: CON of at least 15.
+**Prerequisites**:
+- CON of at least 13: If total flight endurance is below 6 hours before boon is taken.
+- CON of at least 15: If total flight endurance is 6 hours or more before boon is taken.
 
 ___
 #### Evasive
@@ -1496,9 +1553,9 @@ ___
 
 |Ability name    |Minimum Base|Minimum SP dice|Number of attacks|
 |----------------|------------|---------------|-----------------|
-|Multi-attack I  |2           |1              |12               |
-|Multi-attack II |3           |2              |25               |
-|Multi-attack III|4           |4              |38               |
+|Multi-attack I  |2           |12             |2                |
+|Multi-attack II |3           |25             |3                |
+|Multi-attack III|4           |38             |4                |
 
 **Limitations**: 
 
@@ -1518,7 +1575,7 @@ ___
 ___
 #### Offhand fighting I-IV
 
-**Description**: Make one or more additional attacks with an offhand weapon with the "light" property as a "secondary" action when making one or more attacks as a "basic martial manoeuvre: attack" with a one handed weapon (as your "main action"). You can also make offhand attacks with a weapon that isn't "light", but you take a -4 penalty to the attack roll.
+**Description**: Make one or more additional attacks with an offhand weapon with the "subtle" property as a "secondary" action when making one or more attacks as a "basic martial manoeuvre: attack" with a one handed weapon (as your "main action"). You can also make offhand attacks with a weapon that isn't "subtle", but you take a -4 penalty to the attack roll.
 
 **Original state**: A character can make a single offhand attack with a light weapon as a "secondary action". Even so it takes a -4 penalty to the attack and does not add the governing stat modifier to the damage. A character with "Multi-attack I" has the same limitations, but adds its governing stat modifier to the damage.
 
@@ -2149,7 +2206,7 @@ ___
 
 **Description**: Also known as "Speak to X". You are able to communicate vocally to entities of a given subtype *other than your own* in a way that the signals will be understood. Likewise you can understand their communication, vocal or otherwise, if you have the means to detect it.
 
-**Prerequisite:** Xenophonia of various types can be taken in any order, but prerequisites must be obeyed. For example to take xenophonia(undead), a character must be at least level 6, or to take xenophonia(animals) a character must be level 2. On the other hand to take Xenophonia(Fey) a character must be at least level 6 and have at least one other xenophonia, though it can be *any* type, so for example a level 6 character with xenophonia(animal), or a level 7 character with xenophonia(elemental) can both take xenophonia(fey). 
+**Prerequisite:** Xenophonia of various types can be taken in any order, but prerequisites must be obeyed. For example to take xenophonia(undead), a character must be at least level 3, or to take xenophonia(animals) a character must be level 2. On the other hand to take Xenophonia(Fey) a character must be at least level 6 and have at least one other xenophonia, though it can be *any* type, so for example a level 6 character with xenophonia(animal), or a level 7 character with xenophonia(elemental) can both take xenophonia(fey). 
 
 |Entity sub-type|Level Prerequisite|Other|Nature of Ability
 |-|-|-|-|
@@ -2203,8 +2260,6 @@ ___
 - Must be taken separately for each type of spellcasting.
 - Can be combined with "still spell" and "lingering spell".
 - This allows casting of spells with incantations when under the effects of "aphonia" or "inaudible".
-
-(Technically this is a boon)
 
 ___
 #### Forbidden Spell
@@ -2302,7 +2357,6 @@ There are several forms of spellcasting in this category, but they all have simi
 - Each time a character wishes to learn the new category of local magic, they must take it as a separate ability.
 - Each type of local magic also covers some global spells. As long a character has "Spellcasting: Global I" and the requisite level of local spellcasting of the type, they can cast global spells of that type and level.
 - In order to get the next level of a type of local magic, a character must have the previous one. So if a character wishes to learn "Spellcasting: Nature III", they must have "Spellcasting: Nature II", which requires having "Spellcasting: Nature I".
-- A spellcaster can never channel more than 1/3 of their MP dice total into a single "local" spell.
 - A spellcaster can never cast a spell with a minimum local (or local equivalent) MP dice cost higher than half of their level rounded up. So a level 13 character cannot cast a spell with a minimum MP dice cost of 8, 9, or 10.
 - Spells with a minimum local casting cost of more than 7 MP dice exist. A character can learn and cast these spells, if:
   - They have Spellcasting: Local VII of the appropriate category (eg Spellcasting: Local (Elemental: Fire) for ["Realm of Flame"](08-spell-list.md#realm-of-flame)).
@@ -2447,6 +2501,17 @@ ___
 - Must be taken separately for each type of spellcasting.
 - Can be combined with "aphonic spell", "lingering spell" and "swift spell".
 - This allows spellcasting when "immobilised" or "restrained".
+
+___
+#### Studied Arcana
+
+**Type**: Supernatural (C-A)
+
+**Description**: Learn any two spells of the spellcasting types that you know.
+
+**Prerequisite**: [Spellcasting: Local](#spellcasting-local) or [Spellcasting: Global](#spellcasting-global).
+
+**Limitation**: A spell learned for a given type of spellcasting cannot be of a higher MP dice cost than your level in that type of spellcasting.
 
 ___
 #### Swift Spell

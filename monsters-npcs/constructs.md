@@ -64,7 +64,7 @@ Gingerbread golems, also known as gingerbread men are usually small or tiny past
 |Resistant|||"Physical" damage, "Energy"[nat] damage|
 |Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "stunned" "incapacitated", "catatonic" and "dying"|
 
-Gingerbread golems seldom engage in combat, preferring to avoid violence with their swift and tireless leg (not all gingerbread golems have legs, some roll). However, they are still golems and travellers that underestimate them may not live to regret it.
+Gingerbread golems seldom engage in combat, preferring to avoid violence with their swift and tireless legs (not all gingerbread golems have legs, some roll). However, they are still golems and travellers that underestimate them may not live to regret it.
 
 ___
 ### Gingerbread Golem, Warrior

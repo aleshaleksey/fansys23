@@ -13,6 +13,8 @@ All characters start with a template. A template is a set of abilities, traits a
 
 Each template specifies modifiers to to size, stats, movement, sight (and other extra senses), entity type, and proficiencies. Which are applied It may also grant extra bonuses ("extra") or penalties ("weaknesses"). Lastly each template grants "race boons" which are applied at level 8 and level 16.
 
+Each example template/race includes the template point cost of each feature of the template that has a non-zero cost. These are included as an illustration and for groups making their own templates. Players and DMs who are using the below templates in their games can ignore the template point costs have no bearing on a game once a template is created. 
+
 **BEWARE**: Not all fantasy worlds are going to be inhabited by the same entities. If these do not suit your game, it is recommended that you sit down with your group and use the [template rules](#making-templates) to craft a set that suits your world and game.
 
 ### Human (level-1 template = 8 points)

@@ -12,7 +12,7 @@ FanSys was designed for a slower and more thoughtful pace of play than those hig
 
 This is the reason for features such as the expense of healing magic, slow healing of HP and stat damage, [short, long and full rests](04-combat.md#rest-and-recuperation), the [global spellcasting](07-magic-and-spellcasting.md#global-and-local-spells) system, and the [slow learning of spells](07-magic-and-spellcasting.md#learning-spells-through-independent-study-or-from-a-mentor). The slow healing especially encourages players to think twice before engaging in mortal combat and to appreciate the respite afterwards. Downtime, recovery, time taken to find and craft the arms needed to defeat dangerous foes, or to learn the magics needed to overcome them, are emphasised.
 
-After all, when reaching a village after a harrowing journey through the necromancer's forest, the weary old knight might need a week of rest to recover his strength, while giving the local younglings a few lessons in sword-play. The ambitious peasant might have realised that unless he gets the monster hides made into some kind of armour, the next leg of the journey might be his last. And that traveller with no sense of direction? She might just follow a moonbeam over the stream and [disappear](03-movement-exploration.md#secret-paths) for a while, only to return a little closer to understanding a magic that she has been having trouble with for a while now. And maybe, just maybe, during their stay in this friendly village, the three will learn a little of what links it to the necromancer who defiled the forest they travelled through not a week ago...
+> *After all, when reaching a village after a harrowing journey through the necromancer's forest, the weary old knight might need a week of rest to recover his strength, while giving the local younglings a few lessons in sword-play. The ambitious peasant might have realised that unless he gets the monster hides made into some kind of armour, the next leg of the journey might be his last. And that traveller with no sense of direction? She might just follow a moonbeam over the stream and [disappear](03-movement-exploration.md#secret-paths) for a while, only to return a little closer to understanding a magic that she has been having trouble with for a while now. And maybe, just maybe, during their stay in this friendly village, the three will learn a little of what links it to the necromancer who defiled the forest they travelled through not a week ago...*
 ___
 
 ## Playing the game
@@ -43,28 +43,43 @@ ___
 
 ### Character concepts
 
-FanSys is a class-free system which supports different races and templates. So depending on what setting, power level, and game style the group has chosen, a character can more or less freely combine abilities and race/template, so one might make a mage or a fighter, or a sneaky martial artist who knows fire magic, has an animal companion and can turn into a bird. A few example character recipes are presented in ["Chapter 16"](16-recipes.md), for use as inspiration when lost in indecision.
+FanSys is a class-free system which supports different races and templates. So depending on what setting, power level, and game style the group has chosen, a character can more or less freely combine abilities and race/template, so one might make a mage or a fighter, or a sneaky martial artist who knows fire magic, has an animal companion and can turn into a bird (but probably doesn't do any it particularly well). A few example character recipes are presented in ["Chapter 16"](16-recipes.md), for use as inspiration when lost in indecision.
 
 To make things even more interesting, they might be human, or they might have a different template, such as one of the sea people, winged, or even a vampire, dragon, or a setting specific race that can be created with the [template maker](09-races.md#making-templates) rules.
 
-Most importantly, perhaps, it is worth thinking about *who* your character is. What defines them? What are their goals and fears? What do they value, and what do they despise? Are they an ambitious peasant going out into the world to find their chosen one? Are they a weary old knight who has gone on one last quest? Or did they perhaps just misread a map on the way to the magical kingdom and ended up in this god forsaken wilderness with an overambitious peasant and a weary old knight?
+Most importantly, perhaps, it is worth thinking about *who* your character is. What defines them? What are their goals and fears? What do they value, and what do they despise?
+
+> *Are they an ambitious peasant going out into the world to find their chosen one? Are they a weary old knight who has taken up his sword for the sake of one last quest? Or did they simply misread a map on the way to the magical kingdom and end up in this god forsaken wilderness with an overambitious peasant and a weary old knight?*
 
 ___
 ### Stats
 
 There are six stats. Str, Dex, Con, Int, Wis and Cha. Each one represents how intrinsically "strong" some aspect of the character is.
 
-1. **Str**: Physical strength. Upstream of most weapon attack, damage. Upstream of abilities linked to affecting the surroundings by physical force.
-2. **Dex**: Physical agility. Upstream to some weapon attack, damage (usually ranged). Upstream to evasive abilities. Upstream to abilities linked to affecting the surroundings by delicate manipulation.
-3. **Con**: Physical resilience. Upstream of HP, SP, aspects of physical interactions
-4. **Int**: Mental agility. Ability to memorise, deduce, analyse, IQ. Upstream to skill points, some aspects of supernatural abilities.
-5. **Wis**: Faculty of judgement, discernment, sense, EQ. Upstream of supernatural abilities, abilities devoted to detection, some aspects of social interactions.
-6. **Cha**: Force of Personality, pluck, mental resilience. Upstream of HP, MP, aspects of social interactions.
+1. **Str**: Physical strength. Governs most weapon attack, damage. Governs of abilities linked to affecting the surroundings by physical force.
+2. **Dex**: Physical agility. Governs some weapon attack, damage (usually ranged). Governs evasive abilities. Governs abilities linked to affecting the surroundings by delicate manipulation.
+3. **Con**: Physical resilience. Contributes to HP, SP, aspects of physical interactions
+4. **Int**: Mental agility. Ability to memorise, deduce, analyse, IQ. Influences skill points, some aspects of supernatural abilities.
+5. **Wis**: Faculty of judgement, discernment, sense, EQ. Governs supernatural abilities, abilities devoted to detection, some aspects of social interactions.
+6. **Cha**: Force of Personality, pluck, mental resilience. Contributes to HP, MP, aspects of social interactions.
+
+But which stats are important? Simply put:
+
+- If you want your character to be plucky, persuasive and strong of character, focus on CHA.
+- If you want your character to be tough and resilient, focus on CON.
+- If you want your character to be agile, precise and good with ranged weaponry, focus on DEX.
+- If you want them to be athletic, strong and good in melee, focus on STR.
+- If you want your character to be discerning, sensitive and a capable elemental mage, focus on WIS.
+- If you want your character to be smart, skilled and a capable methodic mage, focus on INT.
+- If you want a good all-round character, then balance your stats carefully.
+
+Each stat gives rise to a corresponding stat bonuses. Bonuses are added to rolls, stats are just "there". When we speak about stat bonuses we write eg [STR] (with square brackets). When we talk about a stat we write eg STR (without square brackets). Thus a character might have 18 STR and hence a +4 [STR] (see below).
 
 Each stat also has a save of the same name. These protect you from certain indirect and insidious effects. They are used by rolling 2d12 plus the save bonus against a threshold. 
 
 Assign your stats using one of these two systems.
 
+___
 #### Random roll 4d6 drop lowest
 
 1. Roll 4d6, count the total of the highest 3 dice (4d6dl1).
@@ -72,6 +87,7 @@ Assign your stats using one of these two systems.
 3. Apply racial/template modifiers.
 4. If any stat is below 5, raise it to 5.
 
+___
 #### 24 point point buy
 
 1. Start with a blank sheet and 24 points.
@@ -93,24 +109,14 @@ The point cost for point buy is as follows:
 |17|+3|11|
 |18|+4|14|
 
-But which stats are important? Simply put:
-
-- If you want your character to be plucky, persuasive and strong of character, focus on CHA.
-- If you want your character to be tough and resilient, focus on CON.
-- If you want your character to be agile, precise and good with ranged weaponry, focus on DEX.
-- If you want them to be athletic, strong and good in melee, focus on STR.
-- If you want your character to be discerning, sensitive and a capable elemental mage, focus on WIS.
-- If you want your character to be smart, skilled and a capable methodic mage, focus on INT.
-- If you want a good all-round character, then balance your stats carefully.
-
-Beware there are stats and stat bonuses. Bonuses are added to rolls, stats are just "there". When we speak about stat bonuses we write eg [STR] (with square brackets). When we talk about a stat we write eg STR (without square brackets).
-
-For more information on stats see ["Base Rules: Stats"](02-base-rules.md#stats).
+___
+#### Further reading
+A more in depth discussion of stats and different methods for generating them (and why you might wish to use them) can be found in ["Base Rules: Stats"](02-base-rules.md#stats).
 
 ___
 ## Types, Races, Species and Templates
 
-Some role-playing fantasy species support different playable races (eg humans, elves, dwarves, etc) and some do not. Systems like DnD and Pathfinder have "baked in" races. Other systems like "Ryuutama" allow only humans. This system supports races from different creature types, as this can add an enormous amount of flavour to a game, and a good amount of mechanical complexity, but does not consider them a necessary core rule, as this is considered to be setting specific. The way it does so is through "templates", which are explained below.
+Some fantasy role-playing games have various playable races (eg humans, elves, dwarves, etc) and some do not. Systems like DnD and Pathfinder have "baked in" races. Other systems like "Ryuutama" allow only humans. FanSys has rules for using and creating various races from different creature types, as this can add an enormous amount of flavour to a game, and a good amount of mechanical complexity. These rules can also be used to populate a human-only world with tribes and civilisations whose people are as different as elves and dwarves might be in a more classical high-fantasy setting. The way it does so is through "templates", which are explained below.
 
 ___
 ### Templates
@@ -119,14 +125,14 @@ All characters start with a template. A template is a set of abilities, traits a
 
 Usually a template is associated with a race or creature type (eg the "fey touched" template, or "human" template), although for specific settings where there are no races, they can either be completely eschewed or used to represent cultures within the same race.
 
-Not all templates are equal. Some templates (eg dragon, angel) are blatantly more powerful than others. In order to offset this, templates have levels. Templates exist for level 0, level 4 and level 9. They can also be created for other levels (see). Templates of different levels should not be mixed within a group, as this will unbalance the game and probably cause upset. For a start, level 0 templates should be considered the standard.
+Not all templates are equal. Some templates (eg dragon, angel) are blatantly more powerful than others. In order to offset this, templates have levels. Templates exist for level 0, level 4 and level 9. They can also be created for other levels. Templates of different levels should not be mixed within a group, as this will unbalance the game and probably cause upset. For a start, level 0 templates should be considered the standard.
 
 For higher power games, where players wish to play angels, devils, dragons and other things, higher level templates should be used. Advanced templates, as well as rules on how to make new ones are found in the ["Races"](09-races.md) chapter.
 
 ___
 ### Race as template
 
-As mentioned above, some settings have only a single race (usually human), others prefer a world with many different kinds of sapient beings that are available to players. It might be a world with timeless elves and  brutish orcs. Or it might be a world with beasts that roam the land, sea people who inhabit the waters and winged folk whose domain is the sky.
+As mentioned above, some settings have only a single race (usually human), others prefer a world with many different kinds of sapient beings that are available to players. It might be a world with timeless elves and brutish orcs. Or it might be a world with beasts that roam the land, sea people who inhabit the waters and winged folk whose domain is the sky.
 
 In either case, the unique characteristics of these beings are represented in "templates". 
 
@@ -156,7 +162,7 @@ ___
 Below, you can find a number of basic templates/races to pick from when making a character (though more can be found in [Chapter 9](09-races.md#example-templates)).
 
 ___
-#### Human (level-1 template = 8 points)
+#### Human
 
 Human represents the human race. The human race is the base. Humans have no special senses, resistances, movement modalities or spooky abilities. To compensate this, they adapt quickly to new environments, and begin learning the skills needed to survive in their homeland as soon as they are old enough to walk. Humans have a lifespan that does not exceed a century, reach a breeding age in their teens and can produce up to two dozen offspring in their lifetime.
 
@@ -179,7 +185,7 @@ Human represents the human race. The human race is the base. Humans have no spec
 - 4 skill points to spend on skills and proficiencies.
 
 ___
-#### Elf/(Fey touched) (level-1 template = 8 points)
+#### Elf/(Fey touched)
 
 This is a race that is closer to the fey, either created when fey spirits took material form in exchange for something, or when they mingled with humankind, or bestowed their "gifts" upon humans long ago. Elves/Fey touched live ridiculously long lives. Compared to humans they have slender, wiry bodies and longer ears. They are known as sometimes known as the "fair folk" and see well in twilight hours.
 
@@ -201,7 +207,7 @@ This is a race that is closer to the fey, either created when fey spirits took m
 - +5 to walking speed
 
 ___
-#### Orc (level-1 template = 8 points)
+#### Orc
 
 This is a race that is closer to the feral side of humanoids. They are stronger and sturdier than humans, are apt hunters, but tend to lack aptitude for the academic. Orcs lead shorter lives than humans and reproduce even faster.
 
@@ -222,7 +228,7 @@ This is a race that is closer to the feral side of humanoids. They are stronger 
 - +1 Con, +1 Str.
 
 ___
-#### The Sea People (level-1 template = 8 points)
+#### The Sea People
 
 The sea people a race of humanoids that live in and around the islands of the shallow seas, and in the marshes and great lakes. They often disguise themselves as humans, for various reasons.
 
@@ -245,7 +251,7 @@ The sea people a race of humanoids that live in and around the islands of the sh
 - One of "life sense (1 level)" or "blind sight (1 level)".
 
 ___
-#### The Winged (level-1 template = 8 points)
+#### The Winged
 
 This is a race of winged humanoids that live in high and isolated places, as well as loci associated with elemental air. They are small of stature, sharp sighted, and often shy of other races.
 
@@ -267,7 +273,7 @@ This is a race of winged humanoids that live in high and isolated places, as wel
 - +10 fly speed.
 
 ___
-#### Beasts of the Green (level-1 template = 8 points)
+#### Beasts of the Green
 
 This is a race of intelligent beasts that dwells in the deepest wilderness. It is thought that they are guardians of the wild, created by ancient forces. Outwardly they take many forms.
 
@@ -294,7 +300,7 @@ This is a race of intelligent beasts that dwells in the deepest wilderness. It i
 - 1 level of incantation magic.
 
 ___
-#### Beast folk (level-1 template = 8 points)
+#### Beast folk
 
 This is a race of humanoid that has various beast like traits, usually cat-like, or dog-like. This race is loved by degenerates.
 
@@ -316,7 +322,7 @@ This is a race of humanoid that has various beast like traits, usually cat-like,
 - One of "keen hearing", "keen scent".
 
 ___
-#### Fiend-touched (level-1 template = 8 points)
+#### Fiend-touched
 
 This represents those who have been touched by dark forces. Perhaps because of a pact, perhaps because of a dark ritual, perhaps because of whimsical evil, or perhaps in the dark corners of society there exists a clan that does its utmost to keep the fiendish blood that flows through their veins restricted to their clan alone.
 
@@ -340,7 +346,7 @@ This represents those who have been touched by dark forces. Perhaps because of a
 - +1 Elementalism: Elemental Touch.
 
 ___
-### Skills and abilities
+### Creating a level one character
 
 At level one a character starts with the following:
 
@@ -351,20 +357,51 @@ At level one a character starts with the following:
 + 6 + [Int] skill points (these can also be used for additional [proficiencies](05-skills.md#proficiency-lists))
 + 1 background skill
 + 3 level points
+  - 1 level point can be used to increase any stat by 1.
+  - Level points can be expended for skill points (4 skill points per level point).
 + 1 good save.
 + A homeland (see ["terrains"](03-movement-exploration.md#terrains)).
 
+___
+#### Levelling up
+
+Levelling up after level 1 follows a similar patten. Each time a character levels up it gains:
+
++ 1 HP
++ 3 dice points to share between gaining SP dice and MP dice.
++ 3 level points, to be used for abilities.
+  - 1 level point per level can be used to increase any stat by 1.
+  - Level points can be expended for skill points (4 skill points per level point).
++ [4 + Int] skill points to put into skill ranks and proficiencies.
++ Every ODD level: 1 skill to add to background skills
+
+A character must spend all points when it levels up. It cannot horde unspent points waiting for the next level. Characters generally level up when circumstances push them so far and so hard against the weight of experience they have accumulated on their journey, that they break new ground in terms of insight, ability and sheer will.
+
+___
 #### Skills and proficiencies
 
-Skills and proficiencies determine how well practiced your character is with certain routine or esoteric arts, skills or sciences, as well as which tools, weapons and armours they know how to use. A character essentially starts with between 5 and 11 skill points. It is recommended that you take at least one weapon proficiency and one armour proficiency, and maybe more for martial characters. For more information see the ["Skills"](05-skills.md) and ["Weapons and Armour"](11-weapons-armour.md) chapters.
+Skills and proficiencies determine how well practised your character is with certain routine or esoteric arts, skills or sciences, as well as which tools, weapons and armours they know how to use. A character essentially starts with between 5 and 11 skill points. It is recommended that you take at least one weapon proficiency and one armour proficiency, and maybe more for martial characters.
 
-Secondly, a character starts with one background skill, where they get to add a small bonus (+2 at level 1 - this is [base + 1]).
+A level 1 character may place no more than one skill point (1 rank) in any given skill. This limit increases by 1 rank every odd level. A character can only ever place 1 point (or non at all) in a proficiency - you are either proficient or you are not. For more information see the ["Skills"](05-skills.md) and ["Weapons and Armour"](11-weapons-armour.md) chapters.
+
+___
+#### Base
+
+Secondly, a character starts with one background skill, where they get to add a small bonus (+2 at level 1 - this is [base + 1]). See ["Base Rules: Base"](02-base-rules.md#base) for details.
+
+___
+#### Homeland
 
 Thirdly, a character also gets to choose a homeland  (see ["terrain"](03-movement-exploration.md#terrains)). This reflects the landscape of the character's homeland, and can be anything from "town" or "plains" to "ruins" or "subterranean". The character has a +2 bonus to [fortify](05-skills.md#fortify) and [navigation](05-skills.md#navigate) in that terrain.
 
-Fourthly, a character chooses a save with which they are proficient. This will help defend them against some nasty stuff, so choose carefully.
+___
+#### Saves
+Fourthly, a character chooses a save with counts as their "good save" and adds their Nat/Sup to it (1 at level 1). This will help defend them against some nasty stuff, so choose carefully. See ["Base Rules: Saving throws"](02-base-rules.md#saving-throws) for details.
 
-Lastly, a character gains 3 level points. Level points are spent on gaining abilities. These range from extra good saves, to sword arts and spell casting, and much more. A level point can also be exchanged for 4 skill points or a +1 increase to any stat (although no stat can exceed 24 for a character). For a list of abilities see the ["Abilities"](06-abilities.md) chapter.
+___
+#### Level Points
+
+Lastly, a character gains 3 level points. Level points are spent on gaining abilities. These range from extra good saves, to sword arts and spell casting, and much more. A level point can also be exchanged for 4 skill points or a +1 increase to any stat (although no stat can exceed 24 for a character, and a character can only spend 1 level point per level on stat increases). For a list of abilities see the ["Abilities"](06-abilities.md) chapter.
 
 ___
 ### Stamina and Mana dice and HP
@@ -392,19 +429,20 @@ The amount of SP or MP a character has is determined by how many SP dice and MP 
 - The total MP = **[Level x [Cha] + 2 x [MP dice]]**
 - The total SP = **[Level x [Con] + 2 x [SP dice]]**
 
-Liira, for example, started with 2 SP dice and 3 MP dice at level 1. Since her [Con] is +2 and her [Cha] +3,
-
-+ MP = [3 x 1 + 2 x 3] = 9
-+ SP = [2 x 1 + 2 x 2] = 6
-
-In total, Liira has 6 HP, 6 SP and 9 MP. Thus she can take about 12 points of damage from physical attacks, or 15 points of damage from magical attacks before being knocked out and potentially dying. This is about:
-
-- 2-3 cuts of a bandit's short sword, or bites of a wolf's teeth.
-- 1 cut of a berserker's greataxe.
-- 2-4 blast's of an apprentice's elemental blast.
-- 1-2 hits from the elemental blast of an experienced mage.
-
-Hopefully she has the presence of mind, and opportunity, to pick her battle carefully!
+> *Liira, for example, started with 2 SP dice and 3 MP dice at level 1. Since her [Con] is +2 and her [Cha] +3,*
+>
+> + MP = [3 x 1 + 2 x 3] = 9
+>  
+> + SP = [2 x 1 + 2 x 2] = 6
+> 
+> *In total, Liira has 6 HP, 6 SP and 9 MP. Thus she can take about 12 points of damage from physical attacks, or 15 points of damage from magical attacks before being knocked out and potentially dying. This is about:*
+>
+> - *2-3 cuts of a bandit's short sword, or bites of a wolf's teeth.*
+> - *1 cut of a berserker's greataxe.*
+> - *2-4 blast's of an apprentice's elemental blast.*
+> - *1-2 hits from the elemental blast of an experienced mage.*
+> 
+> *Hopefully she has the presence of mind, and opportunity, to pick her battle carefully!*
 
 ___
 ### A word on HiT, NAP, SAP and other 3 letter words.
@@ -435,14 +473,14 @@ The Attack Potential of a character's ability is determined by the total number 
 + For "natural" abilities, attack potential **(NAP) = [Nat] + [Base]**
 + For "supernatural" abilities, attack potential **(SAP) = [Sup] + [Base]**
 
-The woodsman, Naus (level 1) had 3 SP dice and 2 MP dice:
-
-+ [Nat] = [SP dice] / 6 = 3 / 6 = 1 (because we always round these things up)
-+ [Sup] = [MP dice] / 6 = 2 / 6 = 1 (because we always round up)
-
-With the above [Nat] and [Sup] values (1), at level one (when [Base] = 1), Naus will have both [NAP] and [SAP] equal to 2. He's almost equally inexperienced in matters of the natural and supernatural world.
-
-Naus had +1 [Str], +3 [Dex] and 0 [Int], so for STR based attacks, such as cutting with an axe, his stat bonus is +1 (total bonus = 3 (1 + 2)), for DEX based attacks his stat bonus is +3 (total bonus = 5 (3 + 2)), and for INT based attacks his stat bonus is 0 (total bonus = 2 (0 + 2)). Clearly Naus is best off using his uncle's old short sword. Although he might also be a dangerous opponent should he get his hands on a war axe.
+> *The woodsman, Naus (level 1) had 3 SP dice and 2 MP dice:*
+> 
+> + [Nat] = [SP dice] / 6 = 3 / 6 = 1 (because we always round these things up)
+> + [Sup] = [MP dice] / 6 = 2 / 6 = 1 (because we always round up)
+> 
+> *With the above [Nat] and [Sup] values (1), at level one (when [Base] = 1), Naus will have both [NAP] and [SAP] equal to 2. He's almost equally inexperienced in matters of the natural and supernatural world!*
+> 
+> *Naus had +1 [Str], +3 [Dex] and 0 [Int], so for STR based attacks, such as cutting with an axe, his stat bonus is +1 (total bonus = 3 (1 + 2)), for DEX based attacks his stat bonus is +3 (total bonus = 5 (3 + 2)), and for INT based attacks his stat bonus is 0 (total bonus = 2 (0 + 2)). Clearly Naus is best off using his uncle's old short sword. Although he might also be a dangerous opponent should he get his hands on a war axe.*
 
 In short:
 
@@ -492,7 +530,7 @@ It is possible to have an alignment on the Spiritual/Divine/Profane axis AND on 
 ___
 ### Level points and abilities
 
-Every character gets 3 level points at level 1. These can be spend as follows.
+Every character gets 3 level points at level 1. These can be spent as follows.
 
 + Exchanged for skill points at the rate of 1 level points = 4 skill points.
 + Exchanged for an increase to stats at the rate of 1 level point = +1 to a single stat. No stat may exceed 24 for player characters. A character can only add one level point to stats per level.
@@ -503,21 +541,6 @@ Abilities and boons are special features of a character that allow them to do th
 - An aspiring pyromancer would probably want to take ["elemental touch"](06-abilities.md#touch-elemental-touch) or ["elemental blast"](06-abilities.md#blast-elemental-blast) and ["spellcasting: elemental (fire)"](06-abilities.md#spellcasting-local).
 - A plucky peasant or mysterious summoner might both wish to travel with a bestial companion and so take ["bind beast"](06-abilities.md#bind-beast-i-x).
 - Swashbuckler and martial artists would probably both benefit from ["flurry"](06-abilities.md#flurry).
-
-___
-### Levelling up
-
-Levelling up, strangely enough, is quite easy, if not for the agony of choice. Each time a character levels up it gains:
-
-+ 1 HP
-+ 3 dice points to share between gaining SP dice and MP dice.
-+ 3 level points, to be used for abilities.
-  - 1 level point per level can be used to increase any stat by 1.
-  - Level points can be expended for skill points (4 skill points per level point).
-+ [4 + Int] skill points to put into skill ranks and proficiencies.
-+ Every ODD level: 1 skill to add to background skills
-
-A character must spend all points when it levels up. It cannot horde unspent points waiting for the next level.
 
 ___
 ### Play

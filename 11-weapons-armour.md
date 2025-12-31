@@ -1,6 +1,6 @@
 # Weapons and armour
 
-Weapons and armour are an essential part of any combat heavy table top RPG system. Weapon rules here are inspired primarily by DnD 3.5, and Pathfinder weapons rules.
+Weapons and armour are an essential part of any combat heavy table top RPG system. Weapon rules here are inspired primarily by DnD 3.5 and Pathfinder weapons rules.
 
 1. [Weapons](#weapons)
     - [Weapon durability](#weapon-durability)
@@ -108,7 +108,7 @@ Weapons that are wielded in one hand are called "one-handed" weapons. Weapons th
 ___
 #### Two handed weapons
 
-Two-handed weapons must be wielded with two or more hands to be used effectively. Attacks made with a two-handed weapon using only one hand are made at a -4 penalty. Attacks made with a two-handed weapon with the "heavy" property, longbows and greatbows deal an additional [STR]/2 damage (rounded down) when wielded with two hands by a character with STR of at least 14.
+Two-handed weapons must be wielded with two or more hands to be used effectively. Attacks made with a two-handed weapon using only one hand are made at a -5 penalty. If the weapon is also heavy, such an attack counts as if being made with an [improvised weapon](#improvised-weapons). Attacks made with a two-handed weapon with the "heavy" property, longbows and greatbows deal an additional [STR]/2 damage (rounded down) when wielded with two hands by a character with STR of at least 14.
 
 A character can switch from a two-handed grip to a one-handed grip on a weapon as a free action. However, switching back to a two-handed grip is a ["minor interaction"](04-combat.md#actions-in-combat).
 
@@ -117,9 +117,10 @@ ___
 
 A character with two hands can hold a one-handed weapon in each hand. If the character has made an attack as a "main action" with one weapon, then in some cases it can also make an additional "offhand attack" with the other weapon as a "secondary action".
 
-- The character can normally make a single "offhand attack" with a "light" weapon at a -4 penalty to attack and no stat bonus ([DEX] or [STR]) to damage.
+- The character can normally make a single "offhand attack" with a "subtle" weapon at a -5 penalty to attack and no stat bonus ([DEX] or [STR]) to damage.
 - If the character has the ["multi-attack"](06-abilities.md#multi-attack-i-iii) ability, then it can add its stat bonus to the offhand attack.
-- It the character has ["offhand fighting"](06-abilities.md#offhand-fighting-i-iv) ability, it adds its stat bonus to the damage, and does not take the penalty to the attack roll when making an offhand attack with a "light" weapon. It can instead use a weapon without the "light" property to make the attack, in which case it does take a -4 to the attack roll. Furthermore, it can make a number of attacks with the offhand weapon equal to its "offhand fighting" ability level as its offhand attack.
+- It the character has ["offhand fighting"](06-abilities.md#offhand-fighting-i-iv) ability, it adds its stat bonus to the damage, and does not take the penalty to the attack roll when making an offhand attack with a "subtle" weapon, or if both the main weapon and the offhand weapon(s) are ["light blades"](#light-blades). The character can choose to use other weapons for two weapon fighting, in which case it takes a -5 to the attack roll.
+- A character can make a number of attacks with the offhand weapon equal to its "offhand fighting" ability level as its offhand attack.
 
 An entity with more than two hands might be able to hold more than two weapons. In this case, all but the main weapon are considered to be offhand weapons. In this case the number of offhand or other attacks does not increase. However, if it has multiple offhand attacks, it can distribute them between its offhand weapons as it sees fit.
 
@@ -130,10 +131,10 @@ Weapons come in all shapes and sizes. They can be made of various materials. As 
 
 - **Delicate**: On rolling snake eyes, the weapon takes 1 point of damage.
 - **Unwieldy**: Unwieldy weapons cannot be easily used in small spaces, where any dimension (width or height or length) are 5ft or less, or when mounted. In those conditions these weapons are wielded at disadvantage.
-- **Heavy**: This kind of weapon is "unwieldy". A heavy weapon of the correct size category must be wielded in two hands or it counts as an improvised weapon. In addition they grant a +2 on all basic martial manoeuvres (except "attack"). If a heavy weapon user does not have at least +2 to [STR], it takes -4 to attacks with the weapon. If the weapon is a melee weapon, a character wielding it with at least two hands and possessing at least +2 to [STR] adds an additional [STR]/2 to the damage dealt (*rounded down* to the nearest whole number). Thus a character wielding a 2d6 greatsword with [STR] of +2 would deal 2d6+3 damage, while a character with a [STR] of +3 would deal 2d6+4 damage.
-- **Reach**: This weapon is "unwieldy", but it does have a range of 10ft.
-- **Long**: These weapons are not quite reach weapons, but they are bit longer than usual. A long weapon allows a wielder to use its "secondary action" to lunge and extend its reach to 10ft for a single attack.
-- **Light**: -2 when on the receiving end of "sunder" and "disarm" manoeuvres. Its users have advantage when using stealth to conceal this kind of weapon.
+- **Heavy**: This kind of weapon is "unwieldy". A heavy weapon must be of the correct size category wielded in two hands or it counts as an [improvised weapon](#improvised-weapons). In addition they grant a +2 on all basic martial manoeuvres (except "attack"). If a heavy weapon user does not have at least +2 to [STR], it takes -4 to attacks with the weapon. If the weapon is a melee weapon, a character wielding it with at least two hands and possessing at least +2 to [STR] adds an additional [STR]/2 to the damage dealt (*rounded down* to the nearest whole number). Thus a character wielding a 2d6 greatsword with [STR] of +2 would deal 2d6+3 damage, while a character with a [STR] of +3 would deal 2d6+4 damage.
+- **Reach**: This weapon is "unwieldy", but its reach is increased by at least 5ft (may differ for different weapons).
+- **Long**: These weapons are not quite reach weapons, but they are bit longer than usual. A long weapon allows a wielder to use its "secondary action" to lunge and extend its reach by 5ft for a single attack.
+- **Subtle**: Its wielder have advantage when using stealth to conceal this kind of weapon. However, they also take a -2 penalty when on the receiving end of "sunder" and "disarm" manoeuvres. 
 - **Mounted**: This weapon was made with mounted combat in mind. If normally there would be penalties for using this kind of weapon mounted, they are negated.
 - **Tool**: This weapon also counts as a tool and character proficient with counts as proficient in that tool when using the weapon as the stated tool type.
 - **Disarm**: Proficiency with this weapon allows the use of disarm as if proficient with the manoeuvre while wielding it. If the user already has proficiency with "disarm", it gains a +2 bonus when disarming with this weapon.
@@ -145,16 +146,16 @@ Weapons come in all shapes and sizes. They can be made of various materials. As 
 ___
 ### Weapon proficiencies
 
-Any entity may wield a weapon it is physically capably of wielding. If it is not proficient, it makes attacks with a -5 penalty. On rolling snake eyes it damages itself, rolling the same damage dice it would as if it had hit the intended target.
+Any entity has the knowledge and training to wield properly wield a weapon of this type, if it is physically capably of doing so.
 
-Proficiency with a weapon type eliminates both the penalty and the damage to self on crit fails. In addition it allows the use of any of a weapon's special properties.
+If it is not proficient, on the other hand, it makes attacks with a -5 penalty. On rolling snake eyes it damages itself, rolling the same damage dice it would as if it had hit the intended target. Furthermore, a non-proficient wielder suffers from all the penalties bestowed by a weapon's properties, but gains none of the benefits.
 
 ___
 ### Weapons, damage and governing stats
 
 Weapon damage is almost always natural physical damage (see ["damage type"](10-conditions-types.md#damage-types)). However, certain abilities like ["spirit strike"](06-abilities.md#spirit-strike) can change this. Weapons deal damage based on the damage dice which are specific to each weapon (see the [weapon table](#weapon-table) below) plus the bonus based on its governing stat (as well as material bonus and potentially other bonuses). For example a hand axe has an attack bonus of [[NAP] + [STR]] and deals [1d6 + [STR]] damage.
 
-Weapon attacks are generally targeted attacks that rely on NAP and are ["governed"](04-combat.md#attacks-and-damage-bonuses) by one of STR or DEX. For example a hand axe is always governed by STR, a bow is always governed by DEX. However, some, mostly melee, weapons can be governed by either (STR/DEX) as per character choice. If a weapon that can be governed by either is used with DEX, then [DEX] is added to the attack bonus, but there is no stat bonus added to the damage unless the character has the ["weapon finesse"](06-abilities.md#weapon-finesse) boon.
+Weapon attacks are generally targeted attacks that rely on NAP and are ["governed"](04-combat.md#attacks-and-damage-bonuses) by one of STR or DEX. For example a hand axe is always governed by STR, while a bow is always governed by DEX. However, some weapons (generally melee) can be governed by either STR or DEX as per character choice. In this case, if DEX is chosen as the governing attribute, then there is no stat bonus (from [DEX] of [STR]) added to the damage unless the character has the ["weapon finesse"](06-abilities.md#weapon-finesse) boon.
 
 ___
 ### Improvised Weapons
@@ -163,7 +164,7 @@ Items that are not designed to be used as weapons can also be used for this purp
 
 |Category|Guideline Weight|Damage|
 |-|-|-|
-|Light|1lb|1|
+|Subtle|1lb|1|
 |Medium|2lb|1d4|
 |Two Handed|3-6lb|1d6|
 |Heavy|6-20lb|1d8|
@@ -198,7 +199,7 @@ Damage Key:
 ||||||||||
 |Dagger|Light blade|1d4|P/S|1|Str/Dex|5|60|10|1|5|
 |Shuriken|Light blade|1d4|P|1|Str/Dex|-|60|20|0.2|3|
-|Short Sword|Light blade|1d6|P/S|1|Str|5|-|-|2|8|
+|Short Sword|Light blade|1d6|P/S|1|Str/Dex|5|-|-|2|8|
 |Small Sword|Light blade|1d6|P|1|Dex|5|-|-|1|4|
 |Scimitar|Light blade|1d8|S|1|Str/Dex|5|-|-|2|5|
 |Rapier|Heavy blade|1d10|P/S|1|Str/Dex|5|-|-|3|8|
@@ -229,7 +230,7 @@ Damage Key:
 |Shortstaff|Staff|1d4/1d6|B|1+|Str/Dex|5|-|-|2|5|
 |Quarterstaff|Staff|1d10|B|2|Str|10|-|-|4|6|
 |||||||||
-|Buckler|Shield|1|B/S|1d4|Str/Dex|5|-|-|2|5|
+|Buckler|Shield|1d4|B/S|1|Str/Dex|5|-|-|2|5|
 |Light Shield|Shield|1d4|B|1|Str|5|-|-|6|4|
 |Heavy Shield|Shield|1d6|B|1|Str|5|-|-|10|6|
 |Tower Shield|Shield|1d6|B|1|Str|5|-|-|20|8|
@@ -277,7 +278,7 @@ Attacking with techniques from this category without proficiency provokes attack
 ___
 ### Light blades
 
-This is something of a misnomer. Light blades refers to smaller one handed bladed weapons that weight no more than 2lb. It also refers to certain thrown weapons whose use is similar to that of bladed weapons. Light blades are typically easily hidden. All light blades can cause "bleeding". Not all light blades have the light properties. All blades give a +1 HiT (shield[weapon]) to proficient wielders who are not "disabled". Wielding two blades gives a +2 total "shield[weapon]" bonus to HiT if the wielder also has ["Offhand fighting II"](06-abilities.md#offhand-fighting-i-iv).
+This is something of a misnomer. Light blades refers to smaller one handed bladed weapons that weight no more than 2lb. It also refers to certain thrown weapons whose use is similar to that of bladed weapons. Light blades are typically easily hidden. Most light blades can cause "bleeding". Not all light blades have the light properties. All blades give a +1 HiT (shield[weapon]) to proficient wielders who are not "disabled". Wielding two blades gives a +2 total "shield[weapon]" bonus to HiT if the wielder also has ["Offhand fighting II"](06-abilities.md#offhand-fighting-i-iv).
 
 
 |Weapon|Special Properties|Manoeuvres|
@@ -285,18 +286,18 @@ This is something of a misnomer. Light blades refers to smaller one handed blade
 |Daggers|bleeding, light||
 |Scimitars|bleeding,cripple||
 |Short Swords|bleeding||
-|Small Swords|light|disarm|
+|Small Swords|subtle|disarm|
 |Shuriken|bleeding,light||
 
-**Daggers** include kitchen knives, hunting knives, daggers and similar blades. They are often somewhat throwable. Daggers have the "light" property.
+**Daggers** include kitchen knives, hunting knives, daggers and similar blades. They are often somewhat throwable. Daggers have the "subtle" property.
 
 **Scimitars** are curved blades designed for cutting and chopping. Scimitars, sabres, kodachi, kukri and machetes all fall into this category. They can cause the "crippled" condition.
 
 **Short Swords** are short straight blades designed primarily for stabbing. They are simple, sturdy blades. The gladius is a typical short sword.
 
-**Small Swords** are light, elegant blades designed specifically for piercing. They are typically used by ranking members of high and low society for tidily settling scores and are not meant for heavy combat. They have the "light" and "disarm" properties. As an exception, small swords do NOT cause "bleeding" (as in they cause bleeding, but not "bleeding"). **NB**: The "rapier" from DnD 3.5 onwards is in fact a small sword.
+**Small Swords** are light, elegant blades designed specifically for piercing. They are typically used by ranking members of high and low society for tidily settling scores and are not meant for heavy combat. They have the "subtle" and "disarm" properties. As an exception, small swords do NOT cause "bleeding" (as in they cause bleeding, but not "bleeding"). **NB**: The "rapier" from DnD 3.5 onwards is in fact a small sword.
 
-**Shuriken** refers to throwing needles, throwing knives and throwing stars. These are easily concealed blades used for surprise attacks and as a distraction. They have the "light" property.
+**Shuriken** refers to throwing needles, throwing knives and throwing stars. These are easily concealed blades used for surprise attacks and as a distraction. They have the "subtle" property.
 
 ___
 ### Heavy blades
@@ -445,7 +446,7 @@ ___
 ___
 ### Slings
 
-Slings are simple in construction and difficult in exploitation. They make use centripetal force. A sling is essentially a length of sinew with a "nest" for the projectile (usually a round stone or metal bullet) at the center. Despite the range, slings are difficult to aim and therefore have a low range increment. Slings can also be used to shoot stones, in absence of proper ammunition, but the attack is at disadvantage. Slings have the "light" and "unwieldy" properties. Slings cannot be used effectively from prone.
+Slings are simple in construction and difficult in exploitation. They make use centripetal force. A sling is essentially a length of sinew with a "nest" for the projectile (usually a round stone or metal bullet) at the center. Despite the range, slings are difficult to aim and therefore have a low range increment. Slings can also be used to shoot stones, in absence of proper ammunition, but the attack is at disadvantage. Slings have the "subtle" and "unwieldy" properties. Slings cannot be used effectively from prone.
 
 ___
 ### Bows
@@ -455,7 +456,7 @@ Bows are ranged weapon that consist of a length of supple material (usually, woo
 |Weapon|Special Properties| Manoeuvres|
 |-|-|-|
 |Shortbow|bleeding, delicate||
-|Composite Bow|bleeding, delicate||
+|Composite Bow|bleeding, delicate, mounted||
 |Longbow|bleeding, delicate, unwieldy||
 |Greatbow|bleeding, delicate, unwieldy, mounted||
 
@@ -493,7 +494,7 @@ Blowguns are essentially tubes used to shoot darts, propelled by air pressure, w
 
 |Weapon|Special Properties|Manoeuvres|
 |-|-|-|
-|Short Blowgun|Light||
+|Short Blowgun|Subtle||
 |Blowgun|||
 |Long Blowgun|Unwieldy||
 
@@ -607,7 +608,7 @@ Armour tends to restrict movement, somewhat. This is reflected in several penalt
 - Dex Rating.
 - Armour Weight Penalty.
 
-**Dex rating**: A character with a Dex bonus higher than the rating, only applies the "Dex rating" to all rolls, attacks and saves. 
+**Dex rating**: A character with a Dex bonus higher than the rating, applies the "Dex rating" to all rolls, attacks and saves.
 
 **Weight Penalty**: Medium and heavy armour give a weight penalty.
 
@@ -619,7 +620,7 @@ Armour tends to restrict movement, somewhat. This is reflected in several penalt
 ___
 ### The Armour Table
 
-This table gives a quick overview of armour. For details, see the armour description.  Specific properties of armour are less important than those of weapons, but it may still be of interest. As with weapons, if you do not find your favourite type of armour here, it may have been rolled into another type. For suggested costs and availability see [the armour table](12-equipment-economy.md#armour) in the [Equipment and Economy](12-equipment-economy.md) chapter.
+This table gives a quick overview of armour. For details, see the armour description. Specific properties of armour are less important than those of weapons, but it may still be of interest. As with weapons, if you do not find your favourite type of armour here, it may have been rolled into another type. For suggested costs and availability see [the armour table](12-equipment-economy.md#armour) in the [Equipment and Economy](12-equipment-economy.md) chapter.
 
 Bonus Key:
 
@@ -680,7 +681,7 @@ Medium armour covers armours which either protect the whole body or have a full 
 ___
 ### Heavy Armour
 
-Heavy armour consists of an underlayer (usually padded), a mid-layer (usually chain) and a shell layer on all parts of the body. This is heavy battlefield armour, it is not necessarily best suited for a long march, although that is often the best way of transporting it to said battlefield. This armour is used when maximum protection at all costs is needed. Heavy Armour gives a -4 penalty to all [Con] rolls related to endurance and a -2 penalty to attack rolls.
+Heavy armour consists of an under-layer (usually padded), a mid-layer (usually chain) and a shell layer on all parts of the body. This is heavy battlefield armour, it is not necessarily best suited for a long march, although that is often the best way of transporting it to said battlefield. This armour is used when maximum protection at all costs is needed. Heavy Armour gives a -4 penalty to all [Con] rolls related to endurance and a -2 penalty to attack rolls.
 
 **Segmented Mail:** This refers to any kind of mail other than chain mail, such as scale mail, banded mail and ring mail that covers most of the body. This kind of armour typically has a layer of padded armour beneath it and at least a chain shirt.
 

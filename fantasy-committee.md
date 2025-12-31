@@ -52,3 +52,8 @@ ___
 - Terrifying AI illustrations
 - Suggestions (especially for abilities)
 - Testing
+
+___
+## License
+
+This work is licensed under Attribution-NonCommercial-ShareAlike 4.0 International

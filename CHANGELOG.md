@@ -139,7 +139,7 @@ _____
 - Add "Meteoric Flight" spell.
 - Add "slumber" spell.
 - Add "lesser domain" and "greater domain" spells.
-- Add "fairy shelter", "fairy feast" and "fairy ball". 
+- Add "fairy shelter", "fairy feast" and "fairy ball".
 - Add "Blessing of the Fates" and "Gift of the Fates" spells.
 - Add "Fade", "False aura" and "Greater fade" spells.
 - Add "Lesser Xenophonia", "Natural Xenophonia", "Greater Xenophonia", "Inner Voice".
@@ -201,7 +201,7 @@ ___
 - Increase morning star damage to 1d8 from 1d6.
 
 ### Races
-- 
+-
 
 ### Spells
 - Add "regrowth" and "false regrow" spells.
@@ -222,14 +222,14 @@ ___
 - Also, if one 12 is rolled, an extra damage dice is rolled for the attack. If D12 is rolled, the number of damage dice is doubled.
 - Use D12, snake eyes as terminology instead of critical hit or miss.
 - Rework monster intrinsic abilities (now use 13+[stat]+[base])
-- 
+-
 
 ### Combat
 - Upgrade maces 1d6->1d8, increase its durability.
 - Add flails
 - Add Ballistae as weapons
 - Initiative is now [DEX] or [INT] (experimental)
-- 
+-
 
 ### Races
 - Add ["lesser dragon"](09-races.md#lesser-dragon-level-10-template--80-points).
@@ -245,15 +245,15 @@ ___
 - Add ["Rift"](08-spell-list.md#rift) (geomancy, level 5)
 - Add ["True Storm"](08-spell-list.md#true-storm) (anemancy, level 9)
 - Add ["Gift of the Winds"](08-spell-list.md#gift-of-the-winds) (anemancy, level 10)
-- 
-- 
-- 
+-
+-
+-
 
 ### Abilities
 - Added ["forbidden spell"](06-abilities.md#forbidden-spell)
 - Added ["swift spell"](06-abilities.md#swift-spell)
-- 
-- 
+-
+-
 
 ___
 ## From v0.0.10
@@ -261,15 +261,15 @@ ___
 ### General
 - Add "rebalance" mechanic in order to allow MP and SP to be interconverted (somewhat).
 - Add a little more detail on currencies.
-- 
+-
 
 ### Combat
 - Change "weapon" damage scaling rules with size
 - Change size based armour rules, to give a small advantage to small entities.
 
 ### Races
-- 
-- 
+-
+-
 
 ### Spells
 - Amend the other summon spells so that the summon appears at the start of next round.
@@ -337,7 +337,7 @@ ___
 
 ### Conditions and Types
 - Change definition for "poisoned" condition and add initial rules for poisons.
-- Change definition for "diseased" condition and add initial rules for diseases. 
+- Change definition for "diseased" condition and add initial rules for diseases.
 
 ### Skills
 - Added rope as a separate proficiency under Sleight of Hand and climber's kit.
@@ -484,7 +484,7 @@ ___
 
 ### General
 - Add [lizard folk](09-races.md#lizard-folk-level-1-template--8-points)
-- Clean up [crafting and enchanting](13-crafitng-imbuing.md):
+- Clean up [crafting and enchanting](13-crafting-imbuing.md):
   - Clarify procedure.
   - Add alchemy.
   - Fix healing and related magic.
@@ -502,7 +502,7 @@ ___
 - The concept of [hostile squares](04-combat.md#occupied-area-and-hostile-squares) and how to get through them (acrobatics, bull rush, feint).
 
 ### Skills
-- Modify [Observe](05-skills.md#observe) to have smaller bonus/penalties due to size. Increase due to concealment. 
+- Modify [Observe](05-skills.md#observe) to have smaller bonus/penalties due to size. Increase due to concealment.
 
 ### Abilities
 - Fix [deflect missiles](06-abilities.md#deflect-missile):
@@ -557,30 +557,53 @@ ___
   - [Helpless](10-conditions-types.md#helpless)
   - [Unconscious](10-conditions-types.md#unconscious)
 - Improve and fix monsters here and there.
+- Experiment with "example boxes" for big examples.
 
 ### Combat
 - Better describe how ["grapple"](04-combat.md#basic-martial-manoeuvres) can be used to get from "restrained" to "immobilised" and the cost of maintaining a grapple.
 - Change how total [defence: shield](04-combat.md#total-defence-shield) and [total defence: dodge](04-combat.md#total-defence-dodge) work, to make them line up with the changes in concept for HiT.
+- Rework [basic combat manoeuvres](04-combat.md#basic-combat-manoeuvres-and-tactical-movement).
+  - Reformat.
+  - Improve [disarm](04-combat.md#disarm) and [feint](04-combat.md#feint).
+  - Alter [throw](04-combat.md#throw) and [trip](04-combat.md#trip).
+  - Clarify [interception](04-combat.md#interception).
+  - [Immobilise](04-combat.md#immobilise) is now a bona fide manoeuvre.
 
 ### Abilities
 - Reduce prohibitive costs of Elementalism ([Chain](06-abilities.md#chain) and [Arc](06-abilities.md#chain)). First bend/30degrees are free. Afterwards reduce to 1 MP die cost.
 - Allow [deflection](06-abilities.md#deflection) and [esoteric deflection](06-abilities.md#esoteric-deflection) to be effective against ALL supernatural attacks.
 - Added "Blinded" and "Frightened", and modified the "Restrained" effect to [elementalism: effects](06-abilities.md#effects).
 - Reinterpret ["opportunist"](06-abilities.md#opportunist) as under current rules it does nothing.
+- Reinterpret ["enduring flight"](06-abilities.md#enduring-flight) to give 2 hours of flight endurance instead of 1. Will probably need some testing.
+- Add [Binder's Eye](06-abilities.md#binders-eye) and [Binder's Heart](06-abilities.md#binders-heart). Enhance summoners a little bit. NB: This needs testing to avoid devaluing conventional rogues.
+- Allow "flurry" to work with all "light blades" as long as the other hand is free.
+- Weaken [Alternate Form](06-abilities.md#alternate-form-i-iv) by introducing level penalties for higher entity types and returning to original form when at 0M/MP dice.
+- Add [Studied Arcana](06-abilities.md#studied-arcana) for when you really need more spells.
+- Removed 1/3 MP dice requirement for local spells: It is never used.
 
 ### Spells
 - Weaken [Stone Ward](08-spell-list.md#stone-ward), to take into account material levels of weapons.
+- Rework [Razor Wind](08-spell-list.md#razor-wind) to be closer to our constitution (less damage, more effects). 
+- Add [Dream](08-spell-list.md#dream) and [Dream Walk](08-spell-list.md#dream-walk).
+- Change [counters-pelling and dispelling rules](07-magic-and-spellcasting.md#banishing-breaking-counter-spelling-and-dispelling) to make it worth the mana.
 
 ### Weapons
 - Staves now can give a shield[weapon] bonus to HiT if wielded with both hands.
 - Slightly better description of how armour works.
 - Fix some poor formatting.
+- Regularise penalties:
+  - Non-proficiency-like penalties are -5.
+  - Size-like penalties are -2 or -4.
+  - Cover bonuses are +2 or +5.
+- Short-sword is now a finesse (DEX/STR governed) weapon. 
+- Rename "light" property to "subtle" property. 
+- Allow offhand fighting with all "light blades" as long as both weapons are "light blades".
 
 ### Equipment and Economy
 - Add [Alchemical goods table](12-equipment-economy.md#alchemical-reagents-and-potions).
 
 ### Crafting and Imbuing
-- Adjust the threshold modifiers [in the table](13-crafting-imbuing.md#threshold-table). 
+- Adjust the threshold modifiers [in the table](13-crafting-imbuing.md#threshold-table).
 - Updated and expanded [alchemy rules](13-crafting-imbuing.md#alchemy).
 - Reword enchantment [introduction](13-crafting-imbuing.md#enchanting-imbuing-and-alchemy).
 - Add section on [modifying effects](13-crafting-imbuing.md#modified-effects-and-source-spellsabilities).

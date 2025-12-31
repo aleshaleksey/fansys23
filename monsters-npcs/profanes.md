@@ -516,7 +516,7 @@ This represents a lord of vampires, or an ancient vampire that has fed on humano
 
 Vampires tend to retain part of the personality and most of the memories they had in life, but their original sense of values and priorities is seldom preserved. That said, an ancient vampire that has existed for this long and gained this much power is likely to have moved so far beyond its humanity that it is unrecognisable by any human standard.
 
-A vampire does not always prefer to choose to attain its goals through violence, but when it does, it will usually first assess its target carefully. It will use charm and deception to strip away allies and resources, before using its own minions to wear down remaining foes. Thereafter, if there is still a need, it will enter combat itself. A vampire may use might, magic, or a combination of both. The personality of vampires varies, but most enjoy humiliating their foes when they are weak and will only fight themselves when they are confident of victory, or have no other choice. Alternatively, a vampire lord may just step in directly without any preparation to toy with its victims out of Sh boredom, or any other reason for that mater.
+A vampire does not always prefer to choose to attain its goals through violence, but when it does, it will usually first assess its target carefully. It will use charm and deception to strip away allies and resources, before using its own minions to wear down remaining foes. Thereafter, if there is still a need, it will enter combat itself. A vampire may use might, magic, or a combination of both. The personality of vampires varies, but most enjoy humiliating their foes when they are weak and will only fight themselves when they are confident of victory, or have no other choice. Alternatively, a vampire lord may just step in directly without any preparation to toy with its victims out of sheer boredom, or any other reason for that matter.
 
 ___
 ## Undead: Incorporeal
@@ -633,7 +633,7 @@ ___
 
 **Fiends** are entities opposed to creation or mortal-kind. In realms where they exist, devils and demons are fiends. Sometimes divine entities fall and become fiends. Fiends that do not reach minus their total HP from "divine" damage will be reborn elsewhere, at another time (hence cycles of dark lord and heroes).
 
-Fiends do not breath, sleep or age, but some eat/drink. Fiends are vulnerable to "divine" damage, and are resistant to "physical", "Fir", "ice", "Lig" and "light" damage. They are immune to "disease" and "poison" as well as "unconscious" and "dying".
+Fiends do not breath, sleep or age, but some eat/drink. Fiends are vulnerable to "divine" and "light" damage, and are resistant to "physical", "fire", and "ice" damage. They are immune to "disease" and "poison" as well as "unconscious" and "dying".
 
 ___
 ### Imp
@@ -794,7 +794,7 @@ A Shadow flesh who has taken its revenge and regained its lost parts ceases to e
 
 A Shadow Flesh Fiend appears similar to the being it once were, but the profane flesh enhances all of its abilities. Its profane touch drains the vitality of beings it contacts with. In addition, beings slain by the Shadow Flesh Fiend are raised as zombies.
 
-When a shadow flesh fiend is created by removing parts from a being of a being with a spiritual or divine alignment, it may instead become a "[an abyssal blade]".
+When a shadow flesh fiend is created by removing parts from a being of a being with a spiritual or divine alignment, it may instead become a ["an abyssal blade"](divines.md#abyssal-blade).
 
 ___
 ### Succubus/Incubus
@@ -1027,7 +1027,7 @@ ___
 |Immune|||"disease", "Poi", "dying", "Pro"|
 |Vulnerability|||"Div", "Lit: supernatural" damage|
 |||||
-|Demonic Realm|||Each demon has its own demonic realm which is found at least in the intermediate depths of the spirit realm. This acts as a "[Greater Domain](../08-spell-list.md#greater-domain) with a radius of at least 40ft (and with no upper limit), with the exception that its alignment is "profane" and is located deeper in the spirit realm. If the domain is destroyed, the demon is likewise destroyed.|
+|Demonic Realm|||Each demon has its own demonic realm which is found at least in the intermediate depths of the spirit realm. This acts as a ["Greater Domain"](../08-spell-list.md#greater-domain) with a radius of at least 40ft (and with no upper limit), with the exception that its alignment is "profane" and is located deeper in the spirit realm. If the domain is destroyed, the demon is likewise destroyed.|
 |Demonic Restoration|||A demon can only be permanently destroyed by "divine" damage or if its demonic realm is destroyed. A demon which is destroyed by other means will be reborn in its domain after an arbitrary amount of time (recommended 13d12 years).|
 
 Demons are greater fiends. They are an incarnation of the forces that wish to despoil and undo creation. A demon of fire (or ice) appears as a horror with at least two legs and at least two arms. It usually has a pair of wings and a bestial head. A demon can shift between this form an a humanoid form (always the exact same humanoid), and will often take on its humanoid form when its demonic form is not suited to a task.
@@ -1070,7 +1070,7 @@ ___
 |Hooves|+15|1d8+7|(Reach=5ft, long) fiend source|
 |Horn|+15|1d12+7|(Reach=5ft, long) fiend source|
 |[Profane Strike](../06-abilities.md#profane-strike)||1d6|A black unicorn can channel profane energies through its horn. It can expend **1 MP die** to cause 1d6 profane damage when it strikes a foe with its horn.|
-|[Unholy Strike](../06-abilities.md#unholy-strike)||2d6|A black unicorn can channel dark energies through its hooves. It can expend 1 MP ide to cause 2d6 necrotic damage when it strikes a foe with its hooves. Mortals hit by this attack must succeed a CON save (Thr=13+NAT+[CON]) or start "bleeding".|
+|[Unholy Strike](../06-abilities.md#unholy-strike)||2d6|A black unicorn can channel dark energies through its hooves. It can expend 1 MP die to cause 2d6 necrotic damage when it strikes a foe with its hooves. Mortals hit by this attack must succeed a CON save (Thr=13+NAT+[CON]) or start "bleeding".|
 |||||
 |Sunder|+13||A unicorn can destroy the weapons and armour of its foes|
 |Throw|+13||A unicorn can knock down its foes|

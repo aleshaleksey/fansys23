@@ -43,6 +43,7 @@ When creating spells the cost rules should be guided by the principle of agency 
 Any spell created using this guide MUST be checked and validated. In general no spell of a lower level should be more useful or more potent than a higher level spell that is uses the same magic type or is useable in the same circumstances as a primary purpose.
 
 - Spell points: +(1 + MP dice total) per MP dice. (MP1=2, MP2=2+3=5, MP3=2+3+4=9, etc)
+  - The formula is Points=3+(3+[MP dice])*[MP dice]/2
 - Damage magnitude: +3 per (C class, 1d12) OR (B class, 1d8) OR (A class, 1d6) OR +12 (S class 1d6) 
 - Condition: +2 if Class C, +4 if Class B, +6 if Class A, +12 if Class S.
 - Healing: +5 per HP. +3 per condition MIN=LVL1

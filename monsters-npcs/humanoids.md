@@ -771,13 +771,13 @@ ___
 |-|-|-|-|-|-|
 |20/20/18|53 (*43*)|39 (*29*)|13|45ft|-|
 
-Wears padded armour. When wielding blades increases to 18.
+Wears padded armour. When wielding blades increases to 22.
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|14|20|12|12|12|12|
-|Bonus|+2|+5|+1|+1|+1|+1|
-|Save|+6|+12|+8|+4|+7|+4|
+|Stat|14|20|12|12|15|14|
+|Bonus|+2|+5|+1|+1|+2|+2|
+|Save|+6|+12|+8|+4|+8|+5|
 
 |Level(base)|SP dice|MP Dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
@@ -810,7 +810,7 @@ Wears padded armour. When wielding blades increases to 18.
 |[Spirit Strike](../06-abilities.md#spirit-strike)|||A hunter can expend an SP die to strike at the target's spirit (MP), hence allowing it to damage incorporeal targets, or those that are otherwise immune to physical damage.|
 |Resistance|||"charmed", "bleeding"|
 |Proficiencies|||One musical instrument, elvish, common|
-|Skills|||+13 stealth, +13 Acrobatics, +8 Athletics, Climb, Swim, +8 Track, Observe, +5 Sense motive, knowledge: nature, geography, "navigate" +5|
+|Skills|||+13 stealth, +13 Acrobatics, +11 Observe, +8 Athletics, Climb, Swim, +8 Track, +6 Deception, +5 Sense motive, knowledge: nature, geography, "navigate" +5|
 |Loot|||Usually some small trinket of sentimental value and the clothes on their back|
 
 This block represents an elite warrior/scout who hunts down evil creatures and enemies of elven-kind, be they monsters that hunt people, or people who hunt elves.
@@ -1827,7 +1827,7 @@ ___
 
 Before attempting to convert human NPCs to other races/templates, it is recommended to first confirm that existing stat blocks of other races are not sufficient to fulfil the desired role.
 
-In general converting NPCs is not difficult, especially if we ignore minor details (eg potentially going over weight limits or no longer meeting the prerequisites of abilities). It is encouraged to ignore minor details if converting human NPCs to other races/templates, as Pr-made NPC stat blocks exist to save the DM time and do not abide too strictly by the rules anyway, so spending too long converting them is probably counterproductive.
+In general converting NPCs is not difficult, especially if we ignore minor details (eg potentially going over weight limits or no longer meeting the prerequisites of abilities). It is encouraged to ignore minor details if converting human NPCs to other races/templates, as pre-made NPC stat blocks exist to save the DM time and do not abide too strictly by the rules anyway, so spending too long converting them is probably counterproductive.
 
 There are some races which should probably not be given additional stat blocks. Namely, these are the [Winged](../09-races.md#the-winged-level-1-template--8-points) and [Sea People](../09-races.md#the-sea-people-level-1-template--8-points). This is because their mechanics and hence environment and lifestyle would inevitably be quite inhuman, and thus many of the existing stat blocks would either not be relevant (anything with medium or heavy armour) or become grotesquely bizarre. This would also apply to other highly inhuman templates. With that in mind, here are the conversion guides.
 

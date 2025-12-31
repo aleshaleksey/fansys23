@@ -1074,6 +1074,7 @@ Unicorns dislike humanoids and may either flee or attack them on sight. They mak
 A unicorn prefers to avoid combat, but should it be sufficiently provoked, it will use its significant arcane potential to annihilate its foes. It is particularly merciless against fiends.
 
 OPTIONAL:
+
 - When a unicorn is killed for its horn or hunted for pleasure, it is reborn as a [Black Unicorn](profanes.md#unicorn-black) within the year.
 - Every 7th unicorn that sacrifices itself in the defence of innocence, is reborn as a [True Unicorn](divines.md#unicorn-true) within the year.
 

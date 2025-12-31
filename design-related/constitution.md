@@ -31,3 +31,4 @@ This document describes RAI, and sets out base rules and principles behind the s
 12. For damage over time from whatever source, the save and damage should be resolved at the start of a turn. This is especially important for area auras.
 13. Damage that bypasses "soft shielding", instantly kills, or is somehow clearly superior in some way, should not be available to player characters at low levels. When it is available, it should be expensive so that it is at least somewhat situational.
 14. When possible a calculation or prerequisite should be resolved at "compile time" (aka when building your character) and not at "run time" when executing the actions.
+15. (Amendment) The system should be self contained and free of any additional books (as a counter-example we see PF v1 or DnD 3.5).

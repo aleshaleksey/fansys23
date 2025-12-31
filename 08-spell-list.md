@@ -229,7 +229,7 @@ ___
 |Limitation|The spell ends if you or an ally attacks the target in any way|(-1)
 |Save|WIS, repeated end of turn|
 
-**Description**: The target is "deafened" (+2). (4-4)
+**Description**: The target is "deafened".
 
 ___
 ### Down
@@ -246,7 +246,7 @@ ___
 |Conditions|prone|
 |Save|WIS|
 
-**Description**: The earth attracts the target and it falls prone. (4-4)
+**Description**: The earth attracts the target and it falls prone.
 
 ___
 ### Hide
@@ -264,7 +264,7 @@ ___
 |Limitation|The spell ends if you or an ally attacks the target in any way|(-1)
 |Save|INT|
 
-**Description**: You become "invisible" to 1 target (+2).
+**Description**: You become "invisible" to 1 target.
 
 ___
 ### Ignition
@@ -281,7 +281,7 @@ ___
 |Components|incantation, kinetic| -1
 |Save|CHA|
 
-**Description**: Call forth flames at a spot. Ignite flammable material in one square, violently if desired. If cast violently, the flames do damage to any entity in the square. (4-4)
+**Description**: Call forth flames at a spot. Ignite flammable material in one square, violently if desired. If cast violently, the flames do damage to any entity in the square.
 
 ___
 ### Least Anemancy
@@ -341,7 +341,7 @@ ___
 |Components|incantation, kinetic|-1
 |Save|CON|
 
-**Description**: Still the movement inside of water. Freeze a volume of water, or a material or creature containing water, violently if desired. If cast violently the rapid cooling damages any entity on the square. (4-4)
+**Description**: Still the movement inside of water. Freeze a volume of water, or a material or creature containing water, violently if desired. If cast violently the rapid cooling damages any entity on the square.
 
 ___
 ### Least Geomancy
@@ -450,7 +450,7 @@ ___
 |Damage|1d8+[Sup] Piercing| + 3
 |Limitation|Caster must be touching the ground| -1
 
-**Description**: Ask the earth nicely to harden and strike all entities within 5ft of you with sharp spikes. (5-1=4+4)
+**Description**: Ask the earth nicely to harden and strike all entities within 5ft of you with sharp spikes.
 
 ___
 ### Least Ward
@@ -466,7 +466,7 @@ ___
 |Components|incantation|(+1)
 |Save|Int, harmless|
 
-**Description**: A single entity gains light cover from a clearly tangible phenomenon when within the target cube. (+2) (4-4)
+**Description**: A single entity gains light cover from a clearly tangible phenomenon when within the target cube.
 
 **Limitation**: The "Least ward" cannot be moved from the square it was originally cast. If the target leaves the square, the ward remains there.
 
@@ -519,7 +519,7 @@ ___
 |Conditions|inaudible*|
 |Save|None|
 
-**Description**: The target becomes "inaudible" for the duration. Unwilling targets are not affected. (+3+2-1=4, (4-4)/3=0)
+**Description**: The target becomes "inaudible" for the duration. Unwilling targets are not affected.
 
 ___
 
@@ -536,8 +536,7 @@ ___
 |Components|incantation| (+1)
 |Save|None|
 
-**Description**: This spell turns sweet grapes sour (+1).
-(4-4)/3 = 0
+**Description**: This spell turns sweet grapes sour.
 
 ___
 ### Whispers
@@ -692,7 +691,6 @@ ___
 **Upcast (local)**: Increase the radius by 5ft for every extra 1MP die above 1 of cost paid.
 
 **Global**: Create a zone of 200ft with the same properties. For every 2MP dice above 2, add either 100ft of radius, or 1 hour of duration.
-(4+1+3+2-4)=(4+2)
 
 ___
 ### Fade
@@ -939,7 +937,6 @@ ___
 + If you are attempting to make something artistic or structurally sound, you must make a "Tinker" or "Fortify" roll at disadvantage.
 
 **Global**: If cast globally the area affected is 200ft plus 100ft per 2MP above 4. In this case artistic or structurally coherent use is not possible unless at least 6 MP dice are expended in the casting of the spell.
-(4+2)
 
 **Upcast**: The radius increases by 5ft for every extra MP die used. The depth increases by 5ft (1ft) for every extra 2 MP dice used. If used globally the increase of radius per every extra MP dice is 100ft.
 
@@ -1078,7 +1075,7 @@ ___
 |Conditions|Immobilised|
 |Save|CHA|
 
-**Description**: A bitter chill binds the target. The target and other entities in the area of effect must succeed a CHA save at the start of their turn or be "immobilised". The target repeats its save at the start of every turn. Targets that succeed the save instead have their base movement speed halved, and make [STR] and [DEX] saves at disadvantage for the duration of the spell. At the start of its 3rd turn after succeeding the save (or when the duration expires), the target is completely free of the spell. (+6)
+**Description**: A bitter chill binds the target. The target and other entities in the area of effect must succeed a CHA save at the start of their turn or be "immobilised". The target repeats its save at the start of every turn. Targets that succeed the save instead have their base movement speed halved, and make [STR] and [DEX] saves at disadvantage for the duration of the spell. At the start of its 3rd turn after succeeding the save (or when the duration expires), the target is completely free of the spell.
 
 **Special**:
 
@@ -1283,7 +1280,7 @@ ___
 
 **Upcast**: For every extra MP die above 2 spent, the spell lasts for an extra hour, or can target an extra entity.
 
-**Global**: The spell lasts for a week, with a week per 4MP used when casting it. It cannot be cancelled voluntarily.
+**Global**: The spell lasts for a week, with an extra week per 2MP dice used when casting it. It cannot be cancelled voluntarily.
 
 ___
 ### Lesser Veil
@@ -1304,11 +1301,11 @@ ___
 
 **Description**: Make a target "invisible" for the duration.
 
-**Upcast**: For every extra MP used above 2, the duration increases by an hour or the number of targets increases by one.
+**Upcast**: For every extra MP die used above 2, the duration increases by an hour or the number of targets increases by one.
 
 **Warning**: "Invisibility" does not hide the sounds a target makes, or the aroma it exudes.
 
-**Global**: Hides surface features from sight, eg. a camp, with all people and objects in it. It does not hide inherent terrain features, eg mountains and lakes. All valid targets in a radius of 100ft are "invisible" for a week. For every 2MP, the radius increases by 100ft, or the duration increases by a week.
+**Global**: Hides surface features from sight, eg. a camp, with all people and objects in it. It does not hide inherent terrain features, eg mountains and lakes. All valid targets in a radius of 100ft are "invisible" for a week. For every 2MP dice, the radius increases by 100ft, or the duration increases by a week.
 
 ___
 ### Lesser Xenophonia
@@ -1484,7 +1481,7 @@ Flammable material includes wood, turf, the corporeal forms of mortals, wax, etc
 
 **Upcast**: For every MP dice added above 2 (2MP dice above 4 for global), the sprite gains two levels.
 
-**Global**: The sprite is bound by a longer contract (an extra day for every 2MP above 4) and the spell does not require concentration. For every day of the contract the material component must be paid anew.
+**Global**: The sprite is bound by a longer contract (an extra day for every 2MP dice above 4) and the spell does not require concentration. For every day of the contract the material component must be paid anew.
 
 (Summon spell rating is controversial)
 
@@ -1629,11 +1626,11 @@ ___
 
 **Upcast**: For every extra MP die above 2, the duration increase by 6 min or the radius increases by 5ft.
 
-**Global**: The spell affects a much larger area and and lasts longer. For every extra 2MP above 4 the radius increases by 200ft, or the duration increases by a day. These long durations begin to have significant effects on the surroundings as follows:
+**Global**: The spell affects a much larger area and and lasts longer. For every extra 2MP dice above 4 the radius increases by 200ft, or the duration increases by a day. These long durations begin to have significant effects on the surroundings as follows:
 
-- 1h: Per hour: 2' of snow cover melts.
+- 1h: Per hour: 2ft of snow cover melts.
 - 1h: Temperature in bodies of water smaller than 10x10x10 ft equilibrates.
-- 2h: Per 2 hour: 1' of snow ice melts.
+- 2h: Per 2 hour: 1ft of ice melts.
 - 24h: Early plants begin emerge from winter dormancy.
 
 ___
@@ -1661,7 +1658,7 @@ ___
 
 **Upcast**: For every extra MP die above 2, either, increase the duration by 8 hours, the area by 5ft, or add an extra entity type.
 
-**Global**: The spell radius is 400ft. It lasts for a month. For every 2MP above 4, either the duration increases by a month or the radius extends by 100ft. An extra entity type is automatically added for every 2MP extra. 
+**Global**: The spell radius is 400ft. It lasts for a month. For every 2MP dice above 4, either the duration increases by a month or the radius extends by 100ft. An extra entity type is automatically added for every 2MP dice above 4. 
 
 ___
 ### Wind Step
@@ -1697,7 +1694,6 @@ ___
 
 ___
 ## MP 3 spells
-4+2+3+4=13
 
 ___
 ### Animate/Control Dead
@@ -1753,7 +1749,7 @@ ___
 
 **Upcast**: For every MP dice added above 3 (12MP dice for global), the sprite gains two levels.
 
-**Global**: The plant is animated for 1 week (an extra week for every 2MP above 6) and the spell does not require concentration. If at least 12MP is used, the plant is forever animated.
+**Global**: The plant is animated for 1 week (an extra week for every 2MP dice above 6) and the spell does not require concentration. If at least 12MP dice are used, the plant is forever animated.
 
 (Summon spell rating is controversial)
 
@@ -1860,7 +1856,7 @@ ___
 
 **Special**: Undead that do not succeed the save take 3 damage (divine) directly to their HP.
 
-**Upcast**: For every extra dice increase the number of B/C class conditions removed by 1. If at least 5 dice are used, an S class condition can be removed, although this will not necessarily make things better. The damage to undead is also increased by 1 point per extra MP die.
+**Upcast**: For every extra MP die increase the number of B/C class conditions removed by 1. If at least 5 dice are used, an S class condition can be removed, although this will not necessarily make things better. The damage to undead is also increased by 1 point per extra MP die.
 
 ___
 ### Earth Ward
@@ -2153,7 +2149,7 @@ ___
 
 **Upcast**: For every extra MP die above 3 placed in the spell you can add either add an extra target or an extra 6 minutes of dig speed.
 
-**Global**: The spell has a duration of 1 day + 6h per 2MP above 6, or grants a dig speed to an additional target.
+**Global**: The spell has a duration of 1 day + 6h per 2MP dice above 6, or grants a dig speed to an additional target.
 
 ___
 ### See Spell
@@ -2426,8 +2422,6 @@ ___
 
 - For every 2 MP dice above 8 the range increases by 60 miles, or the number of passengers increases by 1.
 
-(blink speed = 12+7)
-
 ___
 ### Balance of Elements
 
@@ -2461,7 +2455,7 @@ ___
 **Global**: When the spell is cast globally it covers a radius of 400ft and lasts for a day. In addition to the normal effects, all elementals aligned to the opposite element, or entities aligned to the opposite season have their base movement speed halved in the area.
 
 - For every 2MP dice above 8 added to the spell, it lasts for an extra day, or the radius increases by 400ft.
-- If the spell is cast with at least 20MP and an intended duration of at least 1 week, the effect is permanent.
+- If the spell is cast with at least 20MP dice and an intended duration of at least 1 week, the effect is permanent.
 
 ___
 ### Balance of Nature
@@ -2498,7 +2492,7 @@ ___
 **Global**: When the spell is cast globally it covers a radius of 400ft and lasts for a day. In addition to the normal effects, if it is cast in the [Destruction] modality, "profane" entities gain +1 to all saves in the area, and "divine" entities a -1 penalty to all saves. If the spell is cast in the [Healing] modality this is reversed.
 
 - For every  2MP dice above 8 added to the spell, it lasts for an extra day, or the radius increases by 400ft.
-- If the spell is cast with at least 40MP and an intended duration of at least 1 week, the effect is permanent.
+- If the spell is cast with at least 20MP dice and an intended duration of at least 1 week, the effect is permanent.
 
 ___
 ### Bestial Transformation
@@ -2520,7 +2514,8 @@ ___
 
 - Shapeshifters can ignore the effects of this spell by using the appropriate action to return to one of their own forms.
 - The target, if it fails the initial save, does not get another chance to save.
-- If the target is not at full HP/SP/MP/SP dice/MP dice, subtract the missing amount from the maximum value of the new form. If the starting total for HP/SP/MP/SP dice/MP dice is below 1, it is set to 1 instead.
+- If the target is not at full HP/SP/MP or SP/MP dice, subtract the missing amount from the maximum value of the new form. If the starting total for HP/SP/MP is below 1, it is set to 1 instead.
+  - Any resources used while transformed are subtracted from the character's resource pools once they return to their original form.
 
 **Upcast**: For every extra MP die above 4 spend, the caster can either extend the spell by an extra hour, select an additional target, or increase the maximum level of the resulting animal/plant by 1.
 
@@ -2546,10 +2541,10 @@ ___
 
 **Description**: The caster enchants the ground around them. The ground has the following properties:
 
-- It is difficult terrain for all hostile entities.+2(11)
+- It is difficult terrain for all hostile entities.
 - At the start of their turn, all hostile entities must make a DEX save or take 1d12+[Sup] percussive damage and become "grappled".
-- All friendly entities have a +10 to movement speed and light cover.+4(15)
-- Furthermore, as an action, the caster can move or sculpt 10ftx10ftx10ft of earth of stone as if using the ["Shape Earth"](#shape-earth) spell, expect the spell can affect ground and natural rock all through the affected zone.+3(18)
+- All friendly entities have a +10 to movement speed and light cover.
+- Furthermore, as an action, the caster can move or sculpt 10ftx10ftx10ft of earth of stone as if using the ["Shape Earth"](#shape-earth) spell, expect the spell can affect ground and natural rock all through the affected zone.
 
 **Special**: The spell does not affect entities that are at least 5ft above the ground.
 
@@ -2998,7 +2993,6 @@ ___
 
 ___
 ## MP 5 Spells
-4+2+3+4+5+6=24
 
 ___
 ### Blessing of the Winds
@@ -3106,8 +3100,6 @@ ___
 **Global**: Enter a bonfire large enough to engulf the caster and emerge from another of their choice in range (200 miles). The caster is aware of all valid fires in range.
 
 - For every 2 MP dice above 10 the range increases by 60 miles, or the number of passengers increases by 1.
-
-(blink speed = 12+13)
  
  ___
 ### Flare
@@ -3185,7 +3177,7 @@ ___
 
 Any entity within the area of effect that does not succeed a STR save suffers 3d12 natural pressure damage, and is moved to the edge of the spell's range of effect (this is a "grapple" effect) and falls prone. In addition any entity within 25ft of the origin of the spell must succeed a DEX save or immediately begin ["suffocating"](03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die) (NB: since the spell is instantaneous they do not take any damage, however refractory period is immediately triggered).
 
-**Limitation**: If the spell is cast through "NATURE" magic, it can only be cast if there are at least 5 5ft cubes of water or if it is raining or snowing in the proposed area of effect.
+**Limitation**: If the spell is cast through "nature" magic, it can only be cast if there are at least 5 5ft cubes of water or if it is raining or snowing in the proposed area of effect.
 
 **Note**: 65,000 cubic feet is enough to fill a 3m deep, 25m swimming pool.
 
@@ -3548,8 +3540,6 @@ ___
 
 ___
 ## MP 6 spells
-4+2+3+4+5+6+7
-6,9,13,18,24,31
 
 ___
 ### Fairy Feast
@@ -4138,7 +4128,6 @@ ___
 
 ___
 ## MP 7 spells
-4+2+3+4+5+6+7+8=39
 
 ___
 ### Create Secret Path
@@ -4185,12 +4174,12 @@ The target may make a CHA save to negate the effect of the spell, in which case 
 
 **Limitations**:
 
-- The spell fails if the target of the spell. Likewise the spell fails if the chosen being is not unconscious at the time, or alternatively is not under the effect of the ["dream"](#dream)/["dream-walk"](#dream-walk) spell.
+- The spell fails if the chosen being is not unconscious at the time, or alternatively is not under the effect of the ["dream"](#dream)/["dream-walk"](#dream-walk) spell.
 - The spell is affected by seals such as ["forbiddance"](#forbiddance) or ["lesser cosmic seal"](#lesser-cosmic-seal).
 - The target must know the chosen being in AT LEAST enough detail that it would be found by the ["spirits' secret"](#spirits-secret) spell if it were in range.
 - If the target is further than 1 realm away from its chosen being (eg the target is in the deep layer of the spirit realm, but the chosen being is in the material world), the teleportation fails.
 
-**Upcast**: For every 2MP dice expended above X, the caster can add an additional target. If the caster is capable of casting 9 MP incantation spells, they can cast this spell for 9 MP dice as a local spell as a "full round action".
+**Upcast**: For every 2MP dice expended above 14, the caster can add an additional target. If the caster is capable of casting 9 MP incantation spells, they can cast this spell for 9 MP dice as a local spell as a "full round action".
 
 ___
 ### Greater Weather Control
@@ -4375,7 +4364,8 @@ ___
 
 - Shapeshifters can ignore the effects of this spell by using the appropriate action to return to one of their own forms.
 - The target, if it fails the initial save, does not get another chance to save.
-- If the target is not at full HP/SP/MP/SP dice/MP dice, subtract the missing amount from the maximum value of the new form. If the starting total for HP/SP/MP/SP dice/MP dice is below 1, it is set to 1 instead.
+- If the target is not at full HP/SP/MP/ or SP/MP dice, subtract the missing amount from the maximum value of the new form. If the starting total for HP/SP/MP or SP/MP dice is below 1, it is set to 1 instead.
+  - A character also expends any resources used in its transformed form once it returns to its original form.
 
 **Limitation**: The caster can specify the appearance of what the target transforms into, but cannot specify a specific individual of a certain race. For example the following three are all valid (assuming that you are familiar with them):
 
@@ -4393,11 +4383,10 @@ Thus when this spell is used, the DM and player (but mostly the DM) pick out an 
 
 **Upcast**: For every extra MP die above 7 spend, the caster can either extend the spell by an extra hour, select an additional target, or increase the maximum level of the resulting mortal by 1.
 
-**Global**: The spell lasts for a week. For every 2MP above 14 the spell lasts an extra week and the maximum level of the resulting mortal increases by 1. It cannot be cancelled voluntarily.
+**Global**: The spell lasts for a week. For every 2MP dice above 14 the spell lasts an extra week and the maximum level of the resulting mortal increases by 1. It cannot be cancelled voluntarily.
 
 ___
 ## MP 8 Spells
-3+4x(2+9) = 47
 
 ### Greater Domain
 
@@ -4537,7 +4526,6 @@ If the target is unconscious, it regains 1 HP if its current HP is below half of
 
 ___
 ## MP 9 Spells
-3+(2+10)x9/2=3+12x9/2=3+6x9= 57
 
 ### Earthquake
 
@@ -4752,7 +4740,6 @@ ___
 
 ___
 ## MP 10 Spells
-3+(2+11)x10/2=3+13x10/2 = 68
 
 ____
 ### Avatar
@@ -4961,7 +4948,7 @@ ____
 - The spot where it is cast forever resonates with an aura of [spiritual, fire and destructive] energies. Mortals born in those lands might be aligned in some way with elemental flame.
 - Even after the spell has dissipated it leaves echoes behind, ["Meadow of Flame"](#meadow-of-flame) or lesser elementals may spontaneously spring up in the place it was cast for 108 years if it was cast locally and a millennium if it was cast globally.
 
-**Global**: Realises the Realm of Flame onto the caster's current location. The radius is 1 mile. For every extra 4MP the radius increases by 200ft and the height increases by 10ft and the damage increases by 2d8.
+**Global**: Realises the Realm of Flame onto the caster's current location. The radius is 1 mile. For every extra 4MP dice the radius increases by 200ft and the height increases by 10ft and the damage increases by 2d8.
 
 ____
 ### True Geomancy
@@ -5001,7 +4988,7 @@ ____
 - The spot where it is cast forever resonates with an aura of [spiritual, earth and divine] energies. Mortals born in those lands might be aligned in some way with elemental earth.
 - Even after the spell has dissipated it leaves echoes behind. Fissures (as caused by the ["Rift"](#rift) spell) may spontaneously spring up. Likewise lesser elements may be drawn to the spot. This can continue for 108 years if it was cast locally and a millennium if it was cast globally.
 
-**Global**: The spell is realised in an area with a radius of 1600ft. For every extra 4MP the radius increases by 200ft or the duration increases by 1 week.
+**Global**: The spell is realised in an area with a radius of 1600ft. For every extra 4MP dice the radius increases by 200ft or the duration increases by 1 week.
 
 ____
 ### Undying Realm

@@ -87,12 +87,12 @@ less fixed, with the exception of errata which will hopefully be few and far bet
 
 The version currently stands at:
 
-**v0.0.18+**
+**v0.0.19+**
 
 Fantasy Committee
 -----------------
 
-There is no dusty cabinet for those of us who dream in the dusty recesses of our mind.
+There is no cabinet for those of us who dream in the dusty recesses of our mind.
 However, all those who contributed to the project one way or another, and did not
 wish to remain hidden, are listed in the `Fantasy Committee <fantasy-committee.html>`__.
 
@@ -100,7 +100,6 @@ wish to remain hidden, are listed in the `Fantasy Committee <fantasy-committee.h
 TODO
 ----
 
-- Test the abilities and spells more thoroughly.
 - Add magic items to equipment list.
 - More monster/NPC stat blocks.
-- Playtesting and analysis of balance.
+- Playtesting and analysis of balance, especially for spells and abilities.

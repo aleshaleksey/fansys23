@@ -871,4 +871,4 @@ NB: There can never be multiple of dice sizes smaller than D6 rolled for weapon 
 ___
 ## Version
 
-0.0.18
+0.0.19

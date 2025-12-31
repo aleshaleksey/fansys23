@@ -69,12 +69,12 @@ The aim is to reach **v0.1.0**, at which point the rules will become more or les
 
 The version currently stands at:
 
-**v0.0.18+**
+**v0.0.19+**
 
 ___
 ## Fantasy Committee
 
-There is no dusty cabinet for those of us who dream in the dusty recesses of our mind. However, all those who contributed to the project one way or another, and did not wish to remain hidden, are listed in the "[Fantasy Committee](fantasy-committee.md)".
+There is no cabinet for those of us who dream in the dusty recesses of our mind. However, all those who contributed to the project one way or another, and did not wish to remain hidden, are listed in the "[Fantasy Committee](fantasy-committee.md)".
 
 ___
 ## TODO

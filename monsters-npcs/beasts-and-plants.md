@@ -1373,6 +1373,7 @@ ___
 |Loot|||A single giant sheep can provide up to 2400lb of meat, the equivalent of 16 fleece (level 2) and 800lb of bones|
 
 Sheep stand at 3-4 feet at the withers. Giant sheep are often 3 times as tall, and not always domestic. An annoyed giant sheep are as dangerous as a charging elephant. In the wild, giant sheep often dwell on the steep slopes of inaccessible valleys, which they traverse with ease.
+
 - Optional: For __capybara__ replace the cold resistance with a 30ft swim speed, and the "climb" skill with the "swim" skill.
 - Optional: For __goat__ replace the cold resistance with a 20ft climb speed.
 

@@ -17,6 +17,7 @@ for X in $(ls typ/build | grep "^[^0-9]"); do
     sed --in-place 's@columns: (25%, 25%, 25%, 25%),@columns: 4,@g' typ/build/$X
     sed --in-place 's@columns: (30.43%, 21.74%, 26.09%, 21.74%),@columns: 4,@g' typ/build/$X
     sed --in-place 's@columns: (20%, 20%, 20%, 20%, 20%),@columns: 5,@g' typ/build/$X
+    sed --in-place 's@columns: (29.69%, 14.06%, 14.06%, 3.12%, 18.75%, 20.31%),@columns: 6,@g' typ/build/$X
     sed --in-place 's@columns: (16.67%, 16.67%, 16.67%, 16.67%, 16.67%, 16.67%),@columns: 6,@g' typ/build/$X
     sed --in-place 's@columns: (14.29%, 14.29%, 14.29%, 14.29%, 14.29%, 14.29%, 14.29%),@columns: 7,@g' typ/build/$X
     sed -E --in-place 's@align\(center\)\[\#table@align\(left\)\[\#table@g' typ/build/$X

@@ -3867,7 +3867,7 @@ If the undead are not destroyed by the end of the spell, or the caster loses con
 **Special**: 
 
 - The offering must include firstly, something of symbolic significance to the dead (eg, their favourite dolfie, the banner of their religion, etc). If dead of multiple allegiances are present in the radius, only those that find the offering significant will be raised.
-- If a command is given that would go against this, the caster loses control of all the dead animated by this spell. For example, animating a group of holy knights with this spell and ordering one of them to burn down their old shrine will not only lead to the command not being followed, but to the loss of control over all the dead animated in this way.
+- If a command is given that would go against this, the caster loses control of all the dead animated by this spell. For example, animating the remains of a group of holy knights with this spell and ordering one of them to burn down their old shrine will not only lead to the command not being followed, but to the loss of control over all the dead animated in this way.
 
 **Upcast**: For every MP die above 6 added (2 MP dice for global), the radius of the effect increases by 15ft.
 

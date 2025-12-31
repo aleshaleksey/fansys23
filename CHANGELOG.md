@@ -557,6 +557,7 @@ ___
   - [Helpless](10-conditions-types.md#helpless)
   - [Unconscious](10-conditions-types.md#unconscious)
 - Improve and fix monsters here and there.
+- Experiment with "example boxes" for big examples.
 
 ### Combat
 - Better describe how ["grapple"](04-combat.md#basic-martial-manoeuvres) can be used to get from "restrained" to "immobilised" and the cost of maintaining a grapple.

@@ -189,7 +189,7 @@ MP is lost when MP dice are used, or when supernatural attacks damage a characte
 
 Characters can therefore "rebalance" as a main action, converting SP into MP or MP into SP, at the cost of 2 to 1. So 2 MP would become 1 SP, or 2 SP would become 1 MP.
 
-For example, a mage with 39/47 SP and 0/60 MP might wish to cast a MP 1 (or higher) spell, but due to having 0 MP, lack the ability to do so. They might therefore convert 4 SP to MP, and end up with 33/47 SP and 2/60 MP. Enough to get that last spell off. Likewise the same mage, having just faced a few [hive beasts](monsters-npcs/monsters-and-dragons.md#hive-beast) in an ancient ruin, might have ended up with 10/47 SP but 52/60 MP, and may wish to convert 40 MP to SP, and end up with 30/47 SP but only 12/60 MP in the hopes that this will increase their chances of getting back to the surface alive.
+> *For example, the pyromancer Eleanora delved a little too deep into a ruin and cast a little too enthusiastically and now has 21/32 SP and 0/49 MP. She wishes to cast [Meadow of Flame](08-spell-list.md#meadow-of-flame) which requires 2 MP dice, but due to having 0 MP, lacks the ability to do so. She might therefore convert 4 SP to MP, and end up with 17/32 SP and 2/49 MP. Enough to get that last spell off as she retreats. On her next foray into this ancient ruin, she faces a few [hive beasts](monsters-npcs/monsters-and-dragons.md#hive-beast), which leaves her with 6/32 SP but 45/49 MP. She decides to convert 28 MP to SP, and end up with 20/32 SP but only 17/49 MP in the hopes that this will increase their chances of getting back to the surface alive. Eleanora should really be more careful.*
 
 ___
 ### Damage resistance

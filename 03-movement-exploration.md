@@ -138,7 +138,7 @@ The table below summarises the
 ___
 ### Difficult Terrain
 
-It is common when adventuring to find less than ideal terrain. Loose, rocky ground or turbulent waters are typical examples. Movement speed is halved over this kind of terrain. Most entities cannot "sprint" in these conditions and if they try to run, must make a Threshold=12 ["Acrobatics"](05-skills.md#acrobatics) check or fail to progress (failure with snake eyes means falling prone).
+It is common when adventuring to find less than ideal terrain. Loose, rocky ground or turbulent waters are typical examples. Movement speed is halved over this kind of terrain. Most entities cannot "sprint" in these conditions and if they try to run, must make a Threshold=12 ["Acrobatics"](05-skills.md#acrobatics) roll or fail to progress (failure with snake eyes means falling prone).
 
 ___
 ### Walking

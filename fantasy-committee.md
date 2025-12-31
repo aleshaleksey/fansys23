@@ -3,7 +3,7 @@
 ___
 ## In the house upon a secret path
 
-There is no dusty cabinet for those of us who dream in the dusty recesses of our mind. However, all those who contributed to the project one way or another, and did not wish to remain hidden, have a seat on the Fantasy Committee.
+There is no dusty cabinet for those of us who dream in the recesses of our mind. However, all those who contributed to the project one way or another, and did not wish to remain hidden, have a seat on the Fantasy Committee.
 
 ___
 ### Contributors:

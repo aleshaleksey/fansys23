@@ -1,6 +1,7 @@
 typ/build
 sphinx/*/**
-.*
+.vscode
+design-related
 *.pdf
 sphinx/src
 sphinx/build

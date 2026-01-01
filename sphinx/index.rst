@@ -35,6 +35,7 @@ the table who knows the system properly.
    :maxdepth: 2
    :caption: Index:
 
+   17-glossary
    01-quick-start
    03-movement-exploration
    04-combat

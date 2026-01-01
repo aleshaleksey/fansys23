@@ -2726,7 +2726,7 @@ An entity can attempt to leave the domain if it so wishes. However, if it does s
 
 When the spell ends, the remaining entities within it find themselves at the point in the material world where the spell was cast.
 
-**Limitation**: A caster must have at least 1 level in all 4 elemental spellcasting abilities in order to be able to use this spell safely. If the caster does not know all the elements, there is a chance of instead creating a shadow space inhabited by 2d8 hostile [Cursed Shades](monsters-npcs/profanes.md#cursed-shade-lesser). The probability is as follow: For 3 elements known, 25%. For 2, 50%. For 1, 75%.
+**Limitation**: A caster must have at least 1 level in all 4 elemental spellcasting abilities in order to be able to use this spell safely. If the caster does not know all the elements, there is a chance of instead creating a shadow space inhabited by 2d8 hostile [Lesser Cursed Shades](monsters-npcs/profanes.md#cursed-shade-lesser). The probability is as follow: For 3 elements known, 25%. For 2, 50%. For 1, 75%.
 
 **Upcast (local only)**: For every extra MP die above 4, the spell lasts for an extra 12 minutes.
 
@@ -4014,7 +4014,7 @@ ___
 |Casting time|"secondary action"|+2
 |Range|close|
 |Duration|Instantaneous|
-|Damage|5d12+[Sup] pressure|+15
+|Damage|4d12+[Sup] pressure|+15
 |Condition|Prone, Bleeding|
 |Components|"incantation"|+1
 |Save|DEX+|+2

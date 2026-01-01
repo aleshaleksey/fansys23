@@ -24,6 +24,7 @@
         - [Levelling up](#levelling-up)
         - [Level points and abilities](#level-points-and-abilities)
         - [Base](#base)
+        - [Homeland](#homeland)
     - [Stats](#stats)
         - [Stat assignment](#stat-assignment)
         - [Alternative stat assignment systems](#alternative-stat-assignment-systems)
@@ -41,6 +42,7 @@
       - [Components of HiT](#components-of-hit)
       - [Sources of Hit](#sources-of-hit)
       - [HiT and Dropping Defences](#hit-and-dropping-defences)
+    - [Initiative](#initiative)
     - [Skills and Proficiencies](#skills-and-proficiencies)
     - [Abilities](#abilities)
     - [Size](#size)
@@ -328,6 +330,11 @@ A character's **Base** is a measure of global experience that permeates into mos
 The values can also be found in the ["Level parameters"](#level-parameters) table.
 
 ___
+#### Homeland
+
+Thirdly, a character also gets to choose a homeland  (see ["terrain"](03-movement-exploration.md#terrains)). This reflects the landscape of the character's homeland, and can be anything from "town" or "plains" to "ruins" or "subterranean". The character has a +2 bonus to [fortify](05-skills.md#fortify) and [navigation](05-skills.md#navigate) in that terrain.
+
+___
 ### Stats
 
 A character has six **base attributes**. Each one represents how "strong" some aspect of the character is. In general the higher the value, the stronger that aspect of the character.
@@ -412,7 +419,7 @@ A character has resource pools. These are a critical part of the game and are ex
 ___
 #### HP pool
  
- This represents your health or life force. Loss of HP represents physical/spiritual damage/degradation.
+This represents your health or life force. Loss of HP represents physical/spiritual damage/degradation.
 
 - A character has maximum HP = [CON+CHA+LEVEL].
 - When a character loses 1 or more HP it risk gaining a condition (see ["Damage types"](10-conditions-types.md#damage-types) and [The 2d12 roll](#the-2d12-roll)).
@@ -624,7 +631,9 @@ ___
 
 FanSys, like most TTRPG systems, is turn based, which means that all characters act one at a time. The order in which they act, in sensitive situations, such as combat, is determined by an "initiative roll". This is a *roll* with an "Initiative Bonus", which represents how quick a character is to act and react. The "Initiative Bonus" is determined as follows:
 
-**Initiative Bonus** = [DEX] OR [INT]  (whichever is higher)
+**Initiative Bonus** = [DEX]/2 + [INT]/2  (whichever is higher)
+
+Characters that roll a higher initiative roll act before those that roll a lower initiative.
 
 ___
 ### Skills and Proficiencies

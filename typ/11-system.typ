@@ -178,6 +178,8 @@
 #pagebreak()
 
 #set page(columns: 2)
+#include "build/17-glossary.typ"
+#pagebreak()
 #include "build/02-base-rules.typ"
 #pagebreak()
 

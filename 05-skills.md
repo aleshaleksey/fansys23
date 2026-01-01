@@ -30,7 +30,7 @@ ___
 
 The game has **skills** and **proficiencies**. The game defines them as follows. They do not necessarily reflect "real life" accurately since this is both a game and an abstraction.
 
-- **Skills:** are general abilities that cover a range of activities that a character can learn and improve in with time. For example, **swimming** is a skill because it covers, swimming, diving and similar, and a character's ability to swim is graded. Eg. "I can't swim", "I can swim but not well", "I can cross a river, yeah", "I've swam 20 miles, it took me 3 hours".
+- **Skills:** are general training and expertise a range of mundane activities that a character can learn and improve in with time. For example, **swimming** is a skill because it covers, swimming, diving and similar, and a character's ability to swim is graded. Eg. "I can't swim", "I can swim but not well", "I can cross a river, yeah", "I've swam 20 miles, it took me 3 hours".
 - **Proficiencies:** A proficiency is the knowledge and ability in using a very specific set of tools or abilities. Having a **proficiency** allows a character to use a skill with the tool/ability with a skill. Eg. Proficiency in **lock picks** with a **tinker** check allows picking locks. Proficiency with **whale** allows you to use **diplomacy** skill to persuade whales when speaking in their language.
 
 ___
@@ -158,7 +158,7 @@ Optionally, for gritty settings language proficiency does not grant a character 
 ___
 ### Tool Proficiencies
 
-Using tools usually requires a roll of an associated skill. Some skills cannot be used for certain purposes unless the character is also proficient with appropriate tools. More precisely, they lack the specific training to make best use of it, and the dice roll is therefore capped at 12, as described in ["Skill points (ranks)"](#skill-points-ranks).
+Using tools usually requires a roll of an associated skill. Some skills cannot be used for certain purposes unless the character is also proficient with appropriate tools. More precisely, they lack the specific training to make best use of it, and the dice roll is therefore capped at 13, as described in ["Skill points (ranks)"](#skill-points-ranks).
 
 At the group's discretion it can makes sense for other skills may be associated with a tool (eg woodworking tools being used with **fortify** for making big items like wooden walls). Tools and their properties are further discussed below (in the ["Tools"](#kit-and-tool-descriptions) sections).
 

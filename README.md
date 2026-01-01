@@ -50,6 +50,7 @@ Of course play will be "clunky" if there isn't at least one person at the table 
 - [Poisons and Diseases](14-poisons-and-diseases.md)
 - [A Note on Charm](15-charm-etc.md)
 - [Character Recipes](16-recipes.md)
+- [Glossary](17-glossary.md)
 
 ___
 ## About the Design of FanSys

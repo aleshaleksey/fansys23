@@ -283,11 +283,11 @@ This is something of a misnomer. Light blades refers to smaller one handed blade
 
 |Weapon|Special Properties|Manoeuvres|
 |-|-|-|
-|Daggers|bleeding, light||
+|Daggers|bleeding, subtle||
 |Scimitars|bleeding,cripple||
 |Short Swords|bleeding||
 |Small Swords|subtle|disarm|
-|Shuriken|bleeding,light||
+|Shuriken|bleeding, subtle||
 
 **Daggers** include kitchen knives, hunting knives, daggers and similar blades. They are often somewhat throwable. Daggers have the "subtle" property.
 
@@ -386,7 +386,7 @@ ___
 |Spear|bleeding, unwieldy,||
 |Long spear|bleeding, unwieldy, heavy||
 |Javelin|bleeding, unwieldy,||
-|War dart|bleeding, light||
+|War dart|bleeding, subtle||
 
  **Short spear**: This is any spear shorter than 6ft. It can be thrown up to 60ft in 20ft increments. It does NOT have the unwieldy property.
 

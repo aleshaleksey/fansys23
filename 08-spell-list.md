@@ -3456,7 +3456,7 @@ The rift can be no more than 50ft wide, 400ft long and 200ft deep, the sides are
 ___
 ### Stone Ward
 
-|Name|Iron Skin [Autumn, Barrier, Earth]|
+|Name|Stone Ward [Autumn, Barrier, Earth]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|5 (10)|

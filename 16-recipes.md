@@ -2,7 +2,7 @@
 
 FanSys provides a near infinite amount of choice when building characters. This is what it was made for. This can also make it challenging to recreate classic concepts. This chapter contains some recipes for various character builds from level 1 to 12 (we invite you to complete these builds by yourself).
 
-It should be noted that none of these builds account for [race(template)](09-races.md) or [starting stats](01-overview.md#stats), so some tweaking may be in order!
+It should be noted that none of these builds account for [race(template)](09-races.md#types-races-species-and-templates) or [starting stats](01-overview.md#stats), so some tweaking may be in order!
 
 Additionally sometimes the template has unfilled proficiencies/abilities in a given column for a level (should be 3 abilities and 1 proficiency, except level 1 which can accommodate 6 proficiencies). Unfilled slots indicate that just about any ability/proficiency would go well there.
 
@@ -24,13 +24,13 @@ The vanguard is a martial archetype that focuses on closing quickly with the ene
 
 The build works best with heavy weapons and medium armour, concentrating on STR for maximum damage, but not neglecting CON and CHA for the minimum durability required to survive long enough to deal that damage.
 
-The ["Flash Step"](06-abilities.md#flash-step) ability is used to close with the target, while ["Berserk I"](06-abilities.md#berserk-i-v), ["Broad Strike"](06-abilities.md), ["Great Strike"](06-abilities.md) and [Multi Attack I](06-abilities.md#multi-attack-i-iii)" are then used to maximise damage. Any additional abilities are there to increase survivability. Proficiency with at least one weapon group that contains heavy weapons (pole arms, axes, heavy blades, percussive) is essential.
+The ["Flash Step"](06-abilities.md#flash-step) ability is used to close with the target, while ["Berserk I"](06-abilities.md#berserk-i-v), ["Broad Strike"](06-abilities.md#abilities-and-boons), ["Great Strike"](06-abilities.md#abilities-and-boons) and [Multi Attack I](06-abilities.md#multi-attack-i-iii)" are then used to maximise damage. Any additional abilities are there to increase survivability. Proficiency with at least one weapon group that contains heavy weapons (pole arms, axes, heavy blades, percussive) is essential.
 
 |Level|SP dice|MP dice|NAP|SAP|Abilities|Proficiencies|
 |-|-|-|-|-|-|-|
 |1 (1) |3  (1)|2  (1)|2|2|[Berserk I](06-abilities.md#berserk-i-v), [Evasive](06-abilities.md#evasive), STAT +1|Medium Armour, Strikes, Throws, Light Blades, Heavy Blades||
-|2 (1) |5  (1)|3  (1)|2|2|[Broad Strike](06-abilities.md), [Opportunist](06-abilities.md#opportunist), STAT +1|Axes||
-|3 (1) |7  (2)|4  (1)|3|2|[Great Strike](06-abilities.md), [Flash Step](06-abilities.md#flash-step), STAT +1|Smith's Tools||
+|2 (1) |5  (1)|3  (1)|2|2|[Broad Strike](06-abilities.md#abilities-and-boons), [Opportunist](06-abilities.md#opportunist), STAT +1|Axes||
+|3 (1) |7  (2)|4  (1)|3|2|[Great Strike](06-abilities.md#abilities-and-boons), [Flash Step](06-abilities.md#flash-step), STAT +1|Smith's Tools||
 |4 (1) |8  (2)|6  (1)|3|2|[Resist Condition: Grappled](06-abilities.md#resist-condition), [Counterstrike](06-abilities.md#counterstrike), STAT +1|Light Armour||
 |5 (1) |9  (2)|8  (2)|3|3|[Berserk II](06-abilities.md#berserk-i-v), [Combined Manoeuvre I](06-abilities.md#combined-manoeuvre-i-v), STAT +1|Sunder||                         
 |6 (2) |11 (2)|9  (2)|4|4|[Swift Strike](06-abilities.md#swift-strike), [Extra Save](06-abilities.md#extra-save), STAT +1|Grapple||
@@ -50,11 +50,11 @@ This build can be made using DEX, but STR gives better defence. In addition, bot
 |Level|SP dice|MP dice|NAP|SAP|Abilities|Proficiencies|
 |-|-|-|-|-|-|-|
 |1 (1) |3  (1)|2  (1)|2|2|[Broad Strike](06-abilities.md#broad-strike), [Blind Sight I](06-abilities.md#blind-sight-i-vi), STAT +1|Medium Armour, Shields, Spear, Light Blades, Heavy Blades, Interception||
-|2 (1) |4  (1)|4  (1)|2|2|[Guarded](06-abilities.md), [Offhand Fighting](06-abilities.md#offhand-fighting-i-iv), STAT +1|Heavy Armour||
+|2 (1) |4  (1)|4  (1)|2|2|[Guarded](06-abilities.md#abilities-and-boons), [Offhand Fighting](06-abilities.md#offhand-fighting-i-iv), STAT +1|Heavy Armour||
 |3 (1) |6  (1)|5  (1)|2|2|[Swift Shield Bash](06-abilities.md#swift-shield-bash), [Parry](06-abilities.md#parry), STAT +1|Pole Arm||
-|4 (1) |7  (2)|7  (2)|3|3|[Spellcasting Local: Incantation](06-abilities.md#spellcasting-local), [Extra Save Str/Dex](06-abilities.md), STAT +1|Disarm||
+|4 (1) |7  (2)|7  (2)|3|3|[Spellcasting Local: Incantation](06-abilities.md#spellcasting-local), [Extra Save Str/Dex](06-abilities.md#abilities-and-boons), STAT +1|Disarm||
 |5 (1) |9  (2)|8  (2)|3|3|[Shield Master](06-abilities.md#shield-master), [Arcane Interception](06-abilities.md#arcane-interception), STAT +1|Grapple||
-|6 (2) |10 (2)|10 (2)|4|4|[Deflect Missile](06-abilities.md), [Deflection](06-abilities.md#deflection), [Resist Damage: Shear](06-abilities.md#resist-damage)|Throw||
+|6 (2) |10 (2)|10 (2)|4|4|[Deflect Missile](06-abilities.md#abilities-and-boons), [Deflection](06-abilities.md#deflection), [Resist Damage: Shear](06-abilities.md#resist-damage)|Throw||
 |7 (2) |12 (2)|11 (2)|4|4|[Counterstrike](06-abilities.md#counterstrike), [Blind Sight II](06-abilities.md#blind-sight-i-vi), STAT +1|Sunder||
 |8 (2) |13 (3)|13 (3)|5|5|[Multi-attack I](06-abilities.md#multi-attack-i-iii), [Extra Save II](06-abilities.md#extra-save), [Resist Damage: Slashing](06-abilities.md#resist-damage)|||
 |9 (2) |15 (3)|14 (3)|5|5|[Swift Strike](06-abilities.md#swift-strike), [Guardian's Counterstrike](06-abilities.md#guardians-counterstrike), STAT +1|||
@@ -135,7 +135,7 @@ ___
 ## Paladin
 A paladin is a holy warrior that aligns with higher powers as their long arm in the mortal realm.
 
-The build focuses on offensive abilities with additional capabilities for fighting supernatural entities (["Holy Strike"](06-abilities.md#holy-strike) and ["Divine strike"](06-abilities.md)). ["Bind Beast I"](06-abilities.md#bind-beast-i-x) is recommended as it can be used to gain a more powerful steed. Likewise ["Spellcasting Local: Incantation"](06-abilities.md#spellcasting-local) is a versatile school that gives some access to healing magic.
+The build focuses on offensive abilities with additional capabilities for fighting supernatural entities (["Holy Strike"](06-abilities.md#holy-strike) and ["Divine strike"](06-abilities.md#abilities-and-boons)). ["Bind Beast I"](06-abilities.md#bind-beast-i-x) is recommended as it can be used to gain a more powerful steed. Likewise ["Spellcasting Local: Incantation"](06-abilities.md#spellcasting-local) is a versatile school that gives some access to healing magic.
 
 Medium/Heavy armour, shield and heavy blades/axes/spears are recommended proficiencies. Likewise proficiency with disarm, sunder and grapple are useful for defeating foes without necessarily killing them.
 
@@ -154,7 +154,7 @@ A paladin should focus on STR, and CHA. If the campaign involves more combat vs 
 |7 (2) |9  (2)|14 (3)|4|5|[Spellcasting Local: Incantation III](06-abilities.md#spellcasting-local), [Bind Beast III](06-abilities.md#bind-beast-i-x), [Resist Condition: Diseased](06-abilities.md#resist-condition)|||
 |8 (2) |11 (2)|15 (3)|4|5|[Guardian's Counterstrike](06-abilities.md#guardians-counterstrike), [Resist Condition: Charm](06-abilities.md#resist-condition), STAT +1|||
 |9 (2) |13 (3)|16 (3)|5|5|[Spellcasting Local: Incantation IV](06-abilities.md#spellcasting-local), [Bind Beast IV](06-abilities.md#bind-beast-i-x), STAT +1|||
-|10 (3)|14 (3)|18 (3)|6|6|[Multi-attack I](06-abilities.md#multi-attack-i-iii), [Divine strike](06-abilities.md), [Esoteric Deflection](06-abilities.md#esoteric-deflection)|||
+|10 (3)|14 (3)|18 (3)|6|6|[Multi-attack I](06-abilities.md#multi-attack-i-iii), [Divine strike](06-abilities.md#abilities-and-boons), [Esoteric Deflection](06-abilities.md#esoteric-deflection)|||
 |11 (3)|16 (3)|19 (4)|6|7|[Spellcasting Local: Incantation V](06-abilities.md#spellcasting-local), [Condition Immunity: Charmed](06-abilities.md#condition-immunity), STAT +1|||
 |12 (3)|17 (3)|21 (4)|6|7|[Bind Beast V](06-abilities.md#bind-beast-i-x), [Xenophonia: Spirits](06-abilities.md#xenophonia-i-xiii), STAT +1|||
 ___
@@ -172,7 +172,7 @@ Summoners are one of the least stat dependent builds, since the attack and defen
 |-|-|-|-|-|-|-|
 |1 (1) |2  (1)|3  (1)|2|2|[Bind Beast I](06-abilities.md#bind-beast-i-x), [Bind Familiar I](06-abilities.md#bind-familiar-i-iv), [Spellcasting: Nature I](06-abilities.md#spellcasting-local)|Light Blades, Light Armour, Shields||
 |2 (1) |3  (1)|5  (1)|2|2|[Spellcasting: Element I](06-abilities.md#spellcasting-local), [Spellcasting: Incantation I](06-abilities.md#spellcasting-local), [Spellcasting: Global I](06-abilities.md#spellcasting-global)|||
-|3 (1) |4  (1)|7  (2)|2|3|[Bind Beast II](06-abilities.md#bind-beast-i-x), [Bind Familiar II](06-abilities.md#bind-familiar-i-iv), [](06-abilities.md), [Binder's Eye](06-abilities.md#binders-eye)|||
+|3 (1) |4  (1)|7  (2)|2|3|[Bind Beast II](06-abilities.md#bind-beast-i-x), [Bind Familiar II](06-abilities.md#bind-familiar-i-iv), [](06-abilities.md#abilities-and-boons), [Binder's Eye](06-abilities.md#binders-eye)|||
 |4 (1) |6  (1)|8  (2)|2|3|[Spellcasting: Element II](06-abilities.md#spellcasting-local), [Spellcasting: Incantation II](06-abilities.md#spellcasting-local), [Binder's Heart](06-abilities.md#binders-heart)|||
 |5 (1) |7  (2)|10 (2)|3|3|[Bind Beast III](06-abilities.md#bind-beast-i-x), [Lingering Spell](06-abilities.md#lingering-spell), STAT +1||                         
 |6 (2) |8  (2)|12 (2)|4|4|[Spellcasting: Element III](06-abilities.md#spellcasting-local), [Spellcasting: Incantation III](06-abilities.md#spellcasting-local), STAT +1|||

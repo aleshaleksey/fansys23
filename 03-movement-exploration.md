@@ -601,7 +601,7 @@ In hostile or wilderness environments characters must often take additions steps
 1. Find suitable site (usually a [prospect](05-skills.md#investigateprospect) or [navigate](05-skills.md#investigateprospect) roll vs terrain camping threshold + weather scouting modifier). Successful check gives advantage on ameliorate/fortify check.
 2. Skill roll to [ameliorate/fortify](05-skills.md#fortify) the site vs terrain camping threshold + weather camping modifier.
 3. Optional: Set sentry and watch for trouble. Successful fortification roll gives the camp cover, and the sentry advantage on rolls to detect ambushes coming for them (usually using the ["observe"](05-skills.md#observe) skill).
-4. Resolve possible encounters (See ["Chapter 4: Combat"](04-combat.md)).
+4. Resolve possible encounters (See ["Chapter 4: Combat"](04-combat.md#combat)).
 5. Regain resources (HP, SP, MP) if the rest is successful (see ["Chapter 4: Combat: Rest and Recuperation"](04-combat.md#rest-and-recuperation)).
 
 Trying to rest on an site which is not ameliorated triggers a CON save, with the threshold determined by terrain, weather (see tables above) and any bonuses from special abilities and spells. A character who fails this CON save does not regain resources from the rest. If they fail by more than 6, they are not able to adequately drink, eat or sleep, which brings them closer to ["starvation"](#characters-starvation-and-other-bad-ways-to-die), if they require drink, food or sleep.

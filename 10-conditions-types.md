@@ -127,7 +127,7 @@ ___
 
 Physical damage destroys the physical structure of a target by direct application of physical force. Weapon damage is almost always physical damage. Entities without a physical form are ALWAYS immune to physical damage. Entities with a supernatural form may also be immune to physical damage (eg spirits).
 
-Physical damage, is generally considered "natural", even if it is caused by most [spells](07-magic-and-spellcasting.md).
+Physical damage, is generally considered "natural", even if it is caused by most [spells](07-magic-and-spellcasting.md#spells).
 
 ___
 #### Piercing

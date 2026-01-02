@@ -134,7 +134,7 @@ Area of effect attacks are made against a given area and generally affect all, o
 
 ___
 ### Attacks of influence
-Some attacks, especially supernatural attacks, adversely influence a target, targets, or area. In this case it is treated like an area of effect attack (saving throw vs save threshold). An example would the ["Charm"](06-abilities.md#charm-i-iv) ability, or the ["Winter's Touch"](08-spell-list.md#winters-touch) spell. [Diseases and poisons](14-poisons-and-diseases.md) can also be considered attacks of influence, although on occasion they might be used as area of effect attacks, so it should be noted that there is often a fine line between the two.
+Some attacks, especially supernatural attacks, adversely influence a target, targets, or area. In this case it is treated like an area of effect attack (saving throw vs save threshold). An example would the ["Charm"](06-abilities.md#charm-i-iv) ability, or the ["Winter's Touch"](08-spell-list.md#winters-touch) spell. [Diseases and poisons](14-poisons-and-diseases.md#poisons-and-diseases) can also be considered attacks of influence, although on occasion they might be used as area of effect attacks, so it should be noted that there is often a fine line between the two.
 
 ___
 ### Attacks and damage bonuses
@@ -370,7 +370,7 @@ ___
 
 1. A character that sprints must move in a straight line with no obstacles and can take no other action on its turn.
 
-For more information on movement, see ["Movement and Exploration"](03-movement-exploration.md). In addition, there are more movement rules below.
+For more information on movement, see ["Movement and Exploration"](03-movement-exploration.md#actions-outside-of-combat). In addition, there are more movement rules below.
 
 ___
 #### Total Defence: Dodge
@@ -619,7 +619,7 @@ ___
 
 Any combatant may attempt a martial manoeuvre. If a combatant is not proficient in a given manoeuvre, they take a -5 penalty to the attack roll. They might also risk attacks of opportunity and other penalties. All combatants are considered proficient in the "attack" manoeuvre (but not necessarily with the weapons used to make an attack). Many monsters can carry out these manoeuvres without penalties or meeting the prerequisites.
 
-Special abilities and weapons/tools can reduce or remove penalties for manoeuvres or increase their effectiveness. Most manoeuvres are made as an attack within the attack action, which is fundamentally a "main action". However, they can also be carried out as part of an attack of opportunity ("reaction"), or as an offhand attack when making an attack action (which also consumed one's "secondary action"). For more more information see the "Weapons and armour: ["Weapons"](11-weapons-armour.md#weapons)" and ["Two handed and two weapon fighting"](11-weapons-armour.md#two-handed-and-two-weapon-fighting) sections of ["Weapons and armour"](11-weapons-armour.md).
+Special abilities and weapons/tools can reduce or remove penalties for manoeuvres or increase their effectiveness. Most manoeuvres are made as an attack within the attack action, which is fundamentally a "main action". However, they can also be carried out as part of an attack of opportunity ("reaction"), or as an offhand attack when making an attack action (which also consumed one's "secondary action"). For more more information see the "Weapons and armour: ["Weapons"](11-weapons-armour.md#weapons)" and ["Two handed and two weapon fighting"](11-weapons-armour.md#two-handed-and-two-weapon-fighting) sections of ["Weapons and armour"](11-weapons-armour.md#weapons-and-armour).
 
 - The penalty for using a manoeuvre or attack without proficiency, if there is one, is -5 to the roll.
 - **Size dependent**: For some manoeuvres, if the target is larger than the attacker, there is a -4 penalty for every size category by which they differ. If the attacker is more than 2 size categories larger than the attacker, the manoeuvre cannot be applied. Lastly, for these manoeuvres, the attacker gains a +2 bonus for every size category by which it is larger than the target.
@@ -777,7 +777,7 @@ ___
 ___
 ### Spells
 
-Spellcasting is covered in detail in ["Chapter 7: Spells"](07-magic-and-spellcasting.md). Spells are a subset of supernatural powers that mortals have learned to channel by following certain procedures. Entities that cast spells are referred to here as "**casters**". Spells can be either "**local**" or "**global**". "Global" spells can be useful, and indeed devastating in combat, but most combat spells are "local". "Local" spells have the following properties:
+Spellcasting is covered in detail in ["Chapter 7: Spells"](07-magic-and-spellcasting.md#spells). Spells are a subset of supernatural powers that mortals have learned to channel by following certain procedures. Entities that cast spells are referred to here as "**casters**". Spells can be either "**local**" or "**global**". "Global" spells can be useful, and indeed devastating in combat, but most combat spells are "local". "Local" spells have the following properties:
 
 - They generally take between a couple of seconds to a dozen minutes to cast ("minor action" to "10 minutes"), but generally take a "main action".
 - Their effect is either immediate, or lasts no longer than a few days.

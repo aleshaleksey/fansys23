@@ -646,12 +646,12 @@ A character has skills and proficiencies. They generally represent the mundane a
 The number of skill points a character can have in a single skill is capped to:
 
 - **[LEVEL / 2]** (rounded up)
-- A skill bonus for a given skill is: **[Base + 1 (optional)] + [ranks] + [ability bonus]** (see ["Skills"](05-skills.md) chapter)
+- A skill bonus for a given skill is: **[Base + 1 (optional)] + [ranks] + [ability bonus]** (see ["Skills"](05-skills.md#skills) chapter)
 
 ___
 ### Abilities
 
-These are the really cool abilities that a character has, like throwing fire balls, healing otherwise lethal wounds, or being able to chop a giant rock in half (or carry said rock). In short extra "things" that a character can do that it might not be able to do, or the ability to withstand things it might not be able to withstand otherwise. A character can gain abilities in exchange for level points. Abilities are covered in the ["Abilities"](06-abilities.md) chapter.
+These are the really cool abilities that a character has, like throwing fire balls, healing otherwise lethal wounds, or being able to chop a giant rock in half (or carry said rock). In short extra "things" that a character can do that it might not be able to do, or the ability to withstand things it might not be able to withstand otherwise. A character can gain abilities in exchange for level points. Abilities are covered in the ["Abilities"](06-abilities.md#abilities-and-boons) chapter.
 
 ___
 ### Size

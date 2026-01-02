@@ -18,7 +18,7 @@ ___
 
 The ["Quick Start"](01-overview.md) should be enough to get an idea of the system.
 
-To play it is probably also necessary to read ["Movement and Exploration"](03-movement-exploration.md) and ["Combat"](04-combat.md). For character creation ["Skills"](05-skills.md), ["Abilities"](06-abilities.md) and the first bit of ["Spellcasting"](07-spells.md) are also important.
+To play it is probably also necessary to read ["Movement and Exploration"](03-movement-exploration.md#actions-outside-of-combat) and ["Combat"](04-combat.md#combat). For character creation ["Skills"](05-skills.md#skills), ["Abilities"](06-abilities.md#abilities-and-boons) and the first bit of ["Spellcasting"](07-spells.md) are also important.
 
 Of course play will be "clunky" if there isn't at least one person at the table who knows the system properly.
 
@@ -26,17 +26,17 @@ Of course play will be "clunky" if there isn't at least one person at the table 
 
 - [Quick Start](01-overview.md)
 - [Base Rules](02-base-rules.md)
-- [Movement and Exploration](03-movement-exploration.md)
-- [Combat](04-combat.md)
-- [Skills](05-skills.md)
-- [Abilities](06-abilities.md)
+- [Movement and Exploration](03-movement-exploration.md#actions-outside-of-combat)
+- [Combat](04-combat.md#combat)
+- [Skills](05-skills.md#skills)
+- [Abilities](06-abilities.md#abilities-and-boons)
 - [Spellcasting](07-spells.md)
-- [Spell List](08-spell-list.md)
+- [Spell List](08-spell-list.md#spell-list)
 - [Races and Templates](09-races.md)
-- [conditions and Types](10-conditions-types.md)
-- [Weapons and Armour](11-weapons-armour.md)
+- [conditions and Types](10-conditions-types.md#conditions-and-types)
+- [Weapons and Armour](11-weapons-armour.md#weapons-and-armour)
 - [Equipment and Economy](12-equipment-economy.md)
-- [Poisons and Diseases](14-poisons-and-diseases.md)
+- [Poisons and Diseases](14-poisons-and-diseases.md#poisons-and-diseases)
 - [A note on charm, domination and possession](15-charm-etc.md)
 - [Character Recipes](16-recipes.md)
 - [NPC Stat Blocks](monsters-npcs/humanoids.md)
@@ -47,7 +47,7 @@ Of course play will be "clunky" if there isn't at least one person at the table 
 - [Divine Stat Blocks](monsters-npcs/divines.md)
 - [Profane Stat Blocks](monsters-npcs/profanes.md)
 - [Crafting](13-crafting-imbuing.md)
-- [Poisons and Diseases](14-poisons-and-diseases.md)
+- [Poisons and Diseases](14-poisons-and-diseases.md#poisons-and-diseases)
 - [A Note on Charm](15-charm-etc.md)
 - [Character Recipes](16-recipes.md)
 - [Glossary](17-glossary.md)

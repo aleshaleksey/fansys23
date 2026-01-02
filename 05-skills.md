@@ -208,7 +208,7 @@ Any entity whose body fits a suit of armour can wear the armour. As such it will
   - If it is a **medium** or **heavy** armour: It takes a -5 penalty to all DEX and STR based rolls it makes.
   - If it is a **light** armour or a **shield**: It takes a -2 penalty to all DEX and STR based rolls and gains only half of the armour/shield bonus to HiT.
 
-Armour and its properties are further discussed in the ["Weapons and Armour Section"](11-weapons-armour.md).
+Armour and its properties are further discussed in the ["Weapons and Armour Section"](11-weapons-armour.md#weapons-and-armour).
 
 There are three armour proficiencies that each cover several groups of armour.
 
@@ -224,7 +224,7 @@ There are three armour proficiencies that each cover several groups of armour.
 ___
 ### Weapon Proficiencies
 
-Weapons are tools that increase an entity's lethality in combat. For the sake of this definition, this does not include martial or supernatural abilities. Weapons and their properties are further discussed in the ["Weapons and Armour Section"](11-weapons-armour.md).
+Weapons are tools that increase an entity's lethality in combat. For the sake of this definition, this does not include martial or supernatural abilities. Weapons and their properties are further discussed in the ["Weapons and Armour Section"](11-weapons-armour.md#weapons-and-armour).
 
 Any entity may wield a weapon it is physically capably of wielding. If it is not proficient, it makes attacks with a -5 penalty. On snake eyes it damages itself, rolling the same damage dice it would as if it had hit the intended target. In addition it provokes attacks of opportunity when it attacks, since poor technique leaves openings.
 

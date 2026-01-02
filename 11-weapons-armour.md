@@ -172,7 +172,7 @@ Items that are not designed to be used as weapons can also be used for this purp
 ___
 ### Weapon table
 
-This table gives a quick overview of weapons. For details on each weapon, see the weapon description. The damage dice of weapons follow the general ["Dice size rules"](02-base-rules.md#dice-size-rules). For suggested costs and availability see [the weapons table](12-equipment-economy.md#weapons) in the [Equipment and Economy](12-equipment-economy.md) chapter.
+This table gives a quick overview of weapons. For details on each weapon, see the weapon description. The damage dice of weapons follow the general ["Dice size rules"](02-base-rules.md#dice-size-rules). For suggested costs and availability see [the weapons table](12-equipment-economy.md#weapons) in the [Equipment and Economy](12-equipment-economy.md#equipment-and-economy) chapter.
 
 **NB**: Since specific properties are an important part of how a weapon is used, it is advisable to read over the description of weapons the reader is thinking of using for their character. Sometimes a weapon listed in the table represents several functionally similar historical weapons. Therefore if you do not find your beloved katana, please check the entry for "falchion".
 
@@ -620,7 +620,7 @@ Armour tends to restrict movement, somewhat. This is reflected in several penalt
 ___
 ### The Armour Table
 
-This table gives a quick overview of armour. For details, see the armour description. Specific properties of armour are less important than those of weapons, but it may still be of interest. As with weapons, if you do not find your favourite type of armour here, it may have been rolled into another type. For suggested costs and availability see [the armour table](12-equipment-economy.md#armour) in the [Equipment and Economy](12-equipment-economy.md) chapter.
+This table gives a quick overview of armour. For details, see the armour description. Specific properties of armour are less important than those of weapons, but it may still be of interest. As with weapons, if you do not find your favourite type of armour here, it may have been rolled into another type. For suggested costs and availability see [the armour table](12-equipment-economy.md#armour) in the [Equipment and Economy](12-equipment-economy.md#equipment-and-economy) chapter.
 
 Bonus Key:
 

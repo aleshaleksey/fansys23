@@ -43,7 +43,7 @@ ___
 
 ### Character concepts
 
-FanSys is a class-free system which supports different races and templates. So depending on what setting, power level, and game style the group has chosen, a character can more or less freely combine abilities and race/template, so one might make a mage or a fighter, or a sneaky martial artist who knows fire magic, has an animal companion and can turn into a bird (but probably doesn't do any it particularly well). A few example character recipes are presented in ["Chapter 16"](16-recipes.md), for use as inspiration when lost in indecision.
+FanSys is a class-free system which supports different races and templates. So depending on what setting, power level, and game style the group has chosen, a character can more or less freely combine abilities and race/template, so one might make a mage or a fighter, or a sneaky martial artist who knows fire magic, has an animal companion and can turn into a bird (but probably doesn't do any it particularly well). A few example character recipes are presented in ["Chapter 16"](16-recipes.md#recipes), for use as inspiration when lost in indecision.
 
 To make things even more interesting, they might be human, or they might have a different template, such as one of the sea people, winged, or even a vampire, dragon, or a setting specific race that can be created with the [template maker](09-races.md#making-templates) rules.
 
@@ -127,7 +127,7 @@ Usually a template is associated with a race or creature type (eg the "fey touch
 
 Not all templates are equal. Some templates (eg dragon, angel) are blatantly more powerful than others. In order to offset this, templates have levels. Templates exist for level 1, level 5 and level 10. They can also be created for other levels. Templates of different levels should not be mixed within a group, as this will unbalance the game and probably cause upset. For a start, level 1 templates should be considered the standard.
 
-For higher power games, where players wish to play angels, devils, dragons and other things, higher level templates should be used. Advanced templates, as well as rules on how to make new ones are found in the ["Races"](09-races.md) chapter.
+For higher power games, where players wish to play angels, devils, dragons and other things, higher level templates should be used. Advanced templates, as well as rules on how to make new ones are found in the ["Races"](09-races.md#types-races-species-and-templates) chapter.
 
 ___
 ### Race as template
@@ -382,7 +382,7 @@ ___
 
 Skills and proficiencies determine how well practised your character is with certain routine or esoteric arts, skills or sciences, as well as which tools, weapons and armours they know how to use. A character essentially starts with between 5 and 11 skill points. It is recommended that you take at least one weapon proficiency and one armour proficiency, and maybe more for martial characters.
 
-A level 1 character may place no more than one skill point (1 rank) in any given skill. This limit increases by 1 rank every odd level. A character can only ever place 1 point (or non at all) in a proficiency - you are either proficient or you are not. For more information see the ["Skills"](05-skills.md) and ["Weapons and Armour"](11-weapons-armour.md) chapters.
+A level 1 character may place no more than one skill point (1 rank) in any given skill. This limit increases by 1 rank every odd level. A character can only ever place 1 point (or non at all) in a proficiency - you are either proficient or you are not. For more information see the ["Skills"](05-skills.md#skills) and ["Weapons and Armour"](11-weapons-armour.md#weapons-and-armour) chapters.
 
 ___
 #### Base
@@ -401,7 +401,7 @@ Fourthly, a character chooses a save with counts as their "good save" and adds t
 ___
 #### Level Points
 
-Lastly, a character gains 3 level points. Level points are spent on gaining abilities. These range from extra good saves, to sword arts and spell casting, and much more. A level point can also be exchanged for 4 skill points or a +1 increase to any stat (although no stat can exceed 24 for a character, and a character can only spend 1 level point per level on stat increases). For a list of abilities see the ["Abilities"](06-abilities.md) chapter.
+Lastly, a character gains 3 level points. Level points are spent on gaining abilities. These range from extra good saves, to sword arts and spell casting, and much more. A level point can also be exchanged for 4 skill points or a +1 increase to any stat (although no stat can exceed 24 for a character, and a character can only spend 1 level point per level on stat increases). For a list of abilities see the ["Abilities"](06-abilities.md#abilities-and-boons) chapter.
 
 ___
 ### Stamina and Mana dice and HP
@@ -536,7 +536,7 @@ Every character gets 3 level points at level 1. These can be spent as follows.
 + Exchanged for an increase to stats at the rate of 1 level point = +1 to a single stat. No stat may exceed 24 for player characters. A character can only add one level point to stats per level.
 + Exchanged for abilities and boons.
 
-Abilities and boons are special features of a character that allow them to do things they would not otherwise be able to do, or withstand things they would otherwise not be able to withstand. This also provides some of the flavour to the character. See the ["Abilities and Boons"](06-abilities.md) chapter. As an example:
+Abilities and boons are special features of a character that allow them to do things they would not otherwise be able to do, or withstand things they would otherwise not be able to withstand. This also provides some of the flavour to the character. See the ["Abilities and Boons"](06-abilities.md#abilities-and-boons) chapter. As an example:
 
 - An aspiring pyromancer would probably want to take ["elemental touch"](06-abilities.md#touch-elemental-touch) or ["elemental blast"](06-abilities.md#blast-elemental-blast) and ["spellcasting: elemental (fire)"](06-abilities.md#spellcasting-local).
 - A plucky peasant or mysterious summoner might both wish to travel with a bestial companion and so take ["bind beast"](06-abilities.md#bind-beast-i-x).
@@ -545,4 +545,4 @@ Abilities and boons are special features of a character that allow them to do th
 ___
 ### Play
 
-Go get kitted out, and go out into the world and become a legend. Or if you prefer not to, then just roll some dice. There are a lot of different situations that a party can encounter in this game. And of course there are rules that govern how to resolve them. They are covered in ["Weapons and Armour"](11-weapons-armour.md), ["Combat"](04-combat.md) ["Movement and Exploration"](03-movement-exploration.md), ["Skills"](05-skills.md) and ["Conditions and Types"](10-conditions-types.md). Live and learn.
+Go get kitted out, and go out into the world and become a legend. Or if you prefer not to, then just roll some dice. There are a lot of different situations that a party can encounter in this game. And of course there are rules that govern how to resolve them. They are covered in ["Weapons and Armour"](11-weapons-armour.md#weapons-and-armour), ["Combat"](04-combat.md#combat) ["Movement and Exploration"](03-movement-exploration.md#actions-outside-of-combat), ["Skills"](05-skills.md#skills) and ["Conditions and Types"](10-conditions-types.md#conditions-and-types). Live and learn.

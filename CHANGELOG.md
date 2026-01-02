@@ -10,7 +10,7 @@
 - Add vulnerability definition for damage in combat.
 - Add main todo list.
 - Improved "Least Ward" with limitations.
-- Template levels now start at level 1 [races](09-races.md). Reword stat adjustment for templates.
+- Template levels now start at level 1 [races](09-races.md#types-races-species-and-templates). Reword stat adjustment for templates.
 - Template resistances no longer give as much condition "resistance".
 - Clean up vulnerabilities in template rules a little bit.
 - Clarify zero reach in size rules. Added size modifier link to overview. Improve some more wording in quick start.
@@ -317,7 +317,7 @@ ___
 ## From v0.0.13
 
 ### General
-- Add [Recipes](14-recipes.md) chapter with various basic builds.
+- Add [Recipes](14-recipes.md#recipes) chapter with various basic builds.
 - "Winged" are now small, as they should be to start off with.
 - Add an extra 2 proficiency points to spend on proficiencies at level 1.
 - Rename save proficiencies to "good saves" and "bad saves".
@@ -352,7 +352,7 @@ ___
 - Add thresholds for escaping typical restraints.
 - Added initial durability to ships.
 - Added clarifications on bindings and restraints.
-- Add explicit list of terrains to ["Movement and Exploration"](03-movement-exploration.md) section.
+- Add explicit list of terrains to ["Movement and Exploration"](03-movement-exploration.md#actions-outside-of-combat) section.
 - Formalise ["Vigorous Motion"](03-movement-exploration.md#vigorous-motion) rules.
 
 ### Skills
@@ -464,7 +464,7 @@ ____
 - Double the cost of [flash step](06-abilities.md#flash-step) when wearing medium armours.
 - Allow two targets by default for [elemental sweep](06-abilities.md#sweep).
 - Empower [Bard Song](06-abilities.md#bard-song-i-iv) a bit more.
-- Add [Alternate Form](06-abilities.md) and []
+- Add [Alternate Form](06-abilities.md#abilities-and-boons) and []
 
 ### Spell list
 - Tidy up spell costs for global spells and upcasting terminology.
@@ -473,7 +473,7 @@ ____
 - Balance [Winter's Touch](08-spell-list.md#winters-touch) and [Winter's Grasp](08-spell-list.md#winters-grasp) a touch.
 
 ### Weapons and Armour
-- Mauls, axes and siege weapons [ignore some damage reduction](11-weapons-armour.md) of certain materials.
+- Mauls, axes and siege weapons [ignore some damage reduction](11-weapons-armour.md#weapons-and-armour) of certain materials.
 - [Mauls](11-weapons-armour.md#percussive) deal an extra die of damage when sundering.
 - [Axes](11-weapons-armour.md#axes) (war and great) no longer grant the grapple manoeuvre.
 - [Non-proficiency penalty](05-skills.md#armour-proficiencies) for light armour is modified (the penalty is reduced to -2, but the armour bonus gained from the armour is halved).
@@ -496,7 +496,7 @@ ___
 - Adjust [Vampire](09-races.md#vampire-level-10-template--80) and [Vampire Spawn](09-races.md#vampire-spawn-level-5-template--40) template blocks.
 
 ### Combat
-- Improve descriptions in [Chapter 4: Combat](04-combat.md).
+- Improve descriptions in [Chapter 4: Combat](04-combat.md#combat).
 - Add forgotten penalties for not having [shield proficiency](11-weapons-armour.md#armour-proficiencies) but still using a shield.
 - Define how concealment interacts with stealth and losing track of targets. (This is important to avoid "I'm blind, but I know exactly where they are" lunacy).
 - The concept of [hostile squares](04-combat.md#occupied-area-and-hostile-squares) and how to get through them (acrobatics, bull rush, feint).
@@ -529,7 +529,7 @@ ___
 - Upgrade upcasted [Blade Ward](08-spell-list.md#blade-ward) to give immunity at 7 MP dice instead.
 - Slightly weaken upcasted [Growth](08-spell-list.md#growth).
 - [Melt](08-spell-list.md#melt) now does half damage on successful save.
-- Go through the [Spell List](08-spell-list.md) and touch up everything.
+- Go through the [Spell List](08-spell-list.md#spell-list) and touch up everything.
 - [Double prepared spell limit](07-magic-and-spellcasting.md#spells-known-and-spells-ready).
 - Fix wording on [Greater Earth Ward](08-spell-list.md#greater-earth-ward.)
 - Add [Forbiddance](08-spell-list.md#forbiddance) spell (needed a more absolute barrier spell).

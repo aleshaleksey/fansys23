@@ -72,7 +72,7 @@ Certain spells have "limitations": factors which constrain a spell's workings ou
 
 For example, a spell might only work on "mortals" (eg ["Revenant"](08-spell-list.md#revenant)) or "spirits", or require certain rare reagents as a prerequisite to its casting (eg ["Undying Realm"](08-spell-list.md#undying-realm)).
 
-A common limitation, mainly of elemental spells, is that a spell does not function on entities and in locales with a given ["alignment"](01-quick-start.md#alignment). Thus a spell that creates undead or summons fiends might not function in areas with a "divine" alignment, while an elemental "wind"/"air" spell might not work in a locale aligned to "earth" (e.g. ["Wind Step"](08-spell-list.md#wind-step)).
+A common limitation, mainly of elemental spells, is that a spell does not function on entities and in locales with a given ["alignment"](01-overview.md#alignment). Thus a spell that creates undead or summons fiends might not function in areas with a "divine" alignment, while an elemental "wind"/"air" spell might not work in a locale aligned to "earth" (e.g. ["Wind Step"](08-spell-list.md#wind-step)).
 
 It should be noted, especially in the later case that most places and entities in the material world are unaligned, and generally become aligned due to the influence of spells, abilities, supernatural entities, or extreme occurrences. Thus the ground, the floor, the earth beneath the characters' feet is generally unaligned, but might become earth aligned, for a time, after a casting of ["Balance of Elements"](08-spell-list.md#balance-of-elements) using Elemental (Earth) spellcasting.
 

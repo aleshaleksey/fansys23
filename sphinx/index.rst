@@ -18,7 +18,7 @@ It is the game system made because we wanted to play it, not because we wanted t
 Recommended starting point
 --------------------------
 
-The `“Quick Start” <01-quick-start.html>`__ should be enough to get an
+The `“Quick Start” <01-overview.html>`__ should be enough to get an
 idea of the system.
 
 To play it is probably also necessary to read `“Movement and
@@ -35,8 +35,8 @@ the table who knows the system properly.
    :maxdepth: 2
    :caption: Index:
 
+   01-overview
    17-glossary
-   01-quick-start
    03-movement-exploration
    04-combat
    05-skills

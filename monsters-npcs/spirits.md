@@ -1174,7 +1174,7 @@ Deflection: +5
 |[Low Light Vision](../06-abilities.md#low-light-vision)|||A fairy can see in moonlight, starlight or other weak sources of light as if it was bright daylight.|
 |[Life Sense IV](../06-abilities.md#life-sense-i-vi)|||A fairy can sense and pinpoint locations of living beings within 60ft of itself|
 |[Terrain Mastery](../06-abilities.md#terrain-mastery)|||A fairy has terrain mastery over one form of terrain. Usually this is "woodlands", "deep forest" or "swamp", though it can be any form of natural terrain|
-|Fairy Step|||A fairy can move between the material realm and [shallow spirit realms](../03-movement-exploration.md#spirit-realm-rules-shallow) using 5ft of movement. However, it can only do so in areas that have a ["spiritual" alignment](../01-quick-start.md#alignment).|
+|Fairy Step|||A fairy can move between the material realm and [shallow spirit realms](../03-movement-exploration.md#spirit-realm-rules-shallow) using 5ft of movement. However, it can only do so in areas that have a ["spiritual" alignment](../01-overview.md#alignment).|
 |||||
 |Immunity|||"stunned", "immobilised", "crippled", "bleeding", "poisoned", "paralysed" as well as "aphonia" and "deafened"|
 |Damage Immunity|||All physical Damage. The immunity to physical damage does not apply to damage caused by weapons made of iron or steel.|

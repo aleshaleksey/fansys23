@@ -27,7 +27,7 @@ ___
 #### Base
 A small bonus that a character applies to all saves, attacks, thresholds and a few ([Level / 2]) chosen skills. It is equal to 1 between levels 1-5, 2 between levels 6-10, 3 between levels 11-15 and 4 between levels 16-20.
 
-- ["Quick-start: Base"](01-quick-start.md#base)
+- ["Overview: Base"](01-overview.md#base)
 - ["Base Rules: Base"](02-base-rules.md#base)
 
 ___
@@ -95,7 +95,7 @@ ___
 #### HiT
 Hit Threshold: The threshold to meet or beat for an attack roll to cause damage to a target.
 
-- ["Quick-start: Attack bonuses and Hit Thresholds"](01-quick-start.md#attack-bonuses-and-hit-thresholds)
+- ["Overview: Attack bonuses and Hit Thresholds"](01-overview.md#attack-bonuses-and-hit-thresholds)
 - ["Base Rules: Hit Threshold (HiT)"](02-base-rules.md#hit-threshold-hit)
 
 ___
@@ -134,7 +134,7 @@ ___
 #### Mana Dice
 The unit of useable spiritual/supernatural energy that a character possesses. A character expends mana dice when using powerful supernatural abilities, or expending extra effort (rolling an extra 1d6) for skills, saves and attacks governed by INT, WIS or CHA.
 
-- ["Quick Start: Stamina and Mana dice and HP"](01-quick-start.md#stamina-and-mana-dice-and-hp)
+- ["Quick Start: Stamina and Mana dice and HP"](01-overview.md#stamina-and-mana-dice-and-hp)
 - ["Base rules: MP dice pool"](02-base-rules.md#mp-dice-pool)
 
 ___
@@ -148,7 +148,7 @@ ___
 #### NAP
 Natural Attack Potential: [Nat + Base]. It is sometimes more convenient to think in terms of NAP than Nat + Base.
 
-- ["Quick-start: Attack bonuses and Hit Thresholds"](01-quick-start.md#attack-bonuses-and-hit-thresholds)
+- ["Overview: Attack bonuses and Hit Thresholds"](01-overview.md#attack-bonuses-and-hit-thresholds)
 - ["NAP and SAP, NAT and SAT: Attack of the three letter words II"](02-base-rules.md#nap-and-sap-nat-and-sat-attack-of-the-three-letter-words-ii)
 
 ___
@@ -199,21 +199,21 @@ ___
 #### Stamina Dice
 The unit of useable physical/natural energy that a character possesses. A character expends stamina dice when using powerful natural abilities, or expending extra effort (rolling an extra 1d6) for skills, saves and attacks governed by STR, DEX and CON.
 
-- ["Quick Start: Stamina and Mana dice and HP"](01-quick-start.md#stamina-and-mana-dice-and-hp)
+- ["Quick Start: Stamina and Mana dice and HP"](01-overview.md#stamina-and-mana-dice-and-hp)
 - ["Base rules: SP dice pool"](02-base-rules.md#sp-dice-pool)
 
 ___
 #### Stats
 One of 6 base attributes (STR, DEX, CON, INT, WIS, CHA) that represent the innate physical and mental potential of a character.
 
-- ["Quick-start: Stats"](01-quick-start.md#stats)
+- ["Overview: Stats"](01-overview.md#stats)
 - ["Base Rules: Stats"](02-base-rules.md#stats)
 
 ___
 #### SAT
 Supernatural Attack Potential: [Sup + Base]. It is sometimes more convenient to think in terms of SAP than Sup + Base.
 
-- ["Quick-start: Attack bonuses and Hit Thresholds"](01-quick-start.md#attack-bonuses-and-hit-thresholds)
+- ["Overview: Attack bonuses and Hit Thresholds"](01-overview.md#attack-bonuses-and-hit-thresholds)
 - ["NAP and SAP, NAT and SAT: Attack of the three letter words II"](02-base-rules.md#nap-and-sap-nat-and-sat-attack-of-the-three-letter-words-ii)
 
 ___
@@ -240,14 +240,14 @@ ___
 #### Sup
 A bonus that represents how well honed a character's spiritual abilities are, and is equal to [MP dice total / 6] rounded up. It applies to supernatural attacks and those ["good saves"](#good-save) governed by INT, WIS and CHA.
 
-- ["Quick-start: Attack bonuses and Hit Thresholds"](01-quick-start.md#attack-bonuses-and-hit-thresholds)
+- ["Overview: Attack bonuses and Hit Thresholds"](01-overview.md#attack-bonuses-and-hit-thresholds)
 - ["Base Rules: Nat and Sup: Attack of the three letter words"](02-base-rules.md#nap-and-sap-nat-and-sat-attack-of-the-three-letter-words-ii)
 
 ___
 #### Template
 A collection of bonuses, penalties, abilities, and traits that are applied to each character upon creation. Usually this is defined and imparted to them by virtue of their civilisation, race, species. Many different templates exist, and new templates can be created.
 
-- ["Quick-start: Stats"](01-quick-start.md#templates)
+- ["Overview: Stats"](01-overview.md#templates)
 - ["Base Rules: Stats"](09-races.md)
 
 ___

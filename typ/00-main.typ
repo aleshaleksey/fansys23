@@ -85,7 +85,7 @@
 #pagebreak()
 #outline(target: heading.where(level: 1))
 
-#include "build/01-quick-start.typ"
+#include "build/01-overview.typ"
 #pagebreak()
 #include "build/03-movement-exploration.typ"
 #pagebreak()

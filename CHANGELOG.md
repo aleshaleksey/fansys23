@@ -13,7 +13,7 @@
 - Template levels now start at level 1 [races](09-races.md). Reword stat adjustment for templates.
 - Template resistances no longer give as much condition "resistance".
 - Clean up vulnerabilities in template rules a little bit.
-- Clarify zero reach in size rules. Added size modifier link to quick-start. Improve some more wording in quick start.
+- Clarify zero reach in size rules. Added size modifier link to overview. Improve some more wording in quick start.
 - Weaken plant monsters that paralyse you.
 - Add "reach" column to weapon table. Make mauls more historically accurate (spike).
 - Add worlds crappiest gunblade.
@@ -124,7 +124,7 @@ _____
 
 ### Races
 - Increase low light vision cost to 2 race-points.
-- Add all races to quick-start.
+- Add all races to overview.
 
 ### Spells
 - Fix wording on Pact, Promise and a couple of other spells.

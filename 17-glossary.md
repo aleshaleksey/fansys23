@@ -169,6 +169,12 @@ The training or instruction in the use of certain tools, equipment, languages or
 - ["Skills: Proficiency Lists"](05-skills.md#proficiency-lists)
 
 ___
+### Rank
+The number of skill points that a character has in a given skill. It represents the depth of training and experience that a character has in a given skill. A character's rank in a skill cannot be higher than the character's [Level / 2].
+
+- ["Skills: Skill points (ranks)"](05-skills.md#skill-points-ranks)
+
+___
 #### Round
 The basic unit of time in combat (about 6 seconds). All characters involved in the combat have a [turn](#turn) in a combat round.
 

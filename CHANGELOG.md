@@ -607,3 +607,9 @@ ___
 - Updated and expanded [alchemy rules](13-crafting-imbuing.md#alchemy).
 - Reword enchantment [introduction](13-crafting-imbuing.md#enchanting-imbuing-and-alchemy).
 - Add section on [modifying effects](13-crafting-imbuing.md#modified-effects-and-source-spellsabilities).
+
+___
+## From v0.0.19
+
+### General
+- Add glossary of common terms.

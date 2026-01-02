@@ -16,7 +16,7 @@ It is the game system made because I wanted to play it, not because I wanted to 
 ___
 ## Recommended starting point
 
-The ["Quick Start"](01-overview.md) should be enough to get an idea of the system.
+The ["Quick Start"](00-overview.md) should be enough to get an idea of the system.
 
 To play it is probably also necessary to read ["Movement and Exploration"](03-movement-exploration.md#actions-outside-of-combat) and ["Combat"](04-combat.md#combat). For character creation ["Skills"](05-skills.md#skills), ["Abilities"](06-abilities.md#abilities-and-boons) and the first bit of ["Spellcasting"](07-spells.md) are also important.
 
@@ -24,7 +24,8 @@ Of course play will be "clunky" if there isn't at least one person at the table 
 
 ## Index
 
-- [Quick Start](01-overview.md)
+- [Quick Start](00-overview.md)
+- [Character Creation Quick Reference](01-character-creation.md)
 - [Base Rules](02-base-rules.md)
 - [Movement and Exploration](03-movement-exploration.md#actions-outside-of-combat)
 - [Combat](04-combat.md#combat)

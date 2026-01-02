@@ -613,3 +613,7 @@ ___
 
 ### General
 - Add glossary of common terms.
+- Split quick start into [Overview](00-overview.md) and [Character Creation Quick Reference](01-character-creation.md).
+
+### Templates
+- Allow deviation from standard size to 40%.

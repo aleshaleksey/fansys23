@@ -146,7 +146,9 @@
 #outline(target: heading.where(level: 1))
 #set page(columns: 2)
 
-#include "build/01-overview.typ"
+#include "build/00-overview.typ"
+#pagebreak()
+#include "build/01-character-creation.typ"
 #pagebreak()
 #include "build/03-movement-exploration.typ"
 #pagebreak()

@@ -1,5 +1,38 @@
 # FanSys23 Overview
 
+- [Forwards](#forwards)
+- [Scope and Pace of the game](#scope-and-pace-of-the-game)
+- [Playing the game](#playing-the-game)
+- [The Gaming Group and Flow of the Game](#the-gaming-group-and-flow-of-the-game)
+  - [Player roles and the arbiter](#player-roles-and-the-arbiter)
+  - [The Flow of the Game](#the-flow-of-the-game)
+  - [House rules](#house-rules)
+- [Making a character](#making-a-character)
+  - [Character concepts](#character-concepts)
+  - [Stats](#stats)
+    - [Further reading](#further-reading)
+- [Types, Races, Species and Templates](#types-races-species-and-templates)
+  - [Templates](#templates)
+  - [Race as template](#race-as-template)
+  - [Races and Species](#races-and-species)
+  - [How to apply a race/template](#how-to-apply-a-racetemplate)
+- [Character basics](#character-basics)
+  - [Creating a level one character](#creating-a-level-one-character)
+  - [Levelling up](#levelling-up)
+  - [Skills and proficiencies](#skills-and-proficiencies)
+  - [Base](#base)
+  - [Homeland](#homeland)
+  - [Saves](#saves)
+  - [Level points and abilities](#level-points-and-abilities)
+  - [Stamina and Mana dice and HP](#stamina-and-mana-dice-and-hp)
+  - [A word on HiT, NAP, SAP and other 3 letter words](#a-word-on-hit-nap-sap-and-other-3-letter-words)
+    - [HiT](#hit)
+    - [Attack bonuses and Hit Thresholds](#attack-bonuses-and-hit-thresholds)
+    - [Spell and Ability Saves](#spell-and-ability-saves)
+  - [Movement](#movement)
+  - [Alignment](#alignment)
+  - [Play](#play)
+
 ## Forwards
 This is a fantasy role-playing system optimised for balance that uses 2d12 for its core roll. It is meant for games with a focus on small group combat and exploration, with an emphasis on the balance between mundane and supernatural.
 ___
@@ -8,7 +41,7 @@ ___
 
 The rules of FanSys mostly concern small group combat in a fantasy setting, but also exploration and some aspects of general interactions with the environment, including supernatural locales. It works with various fantasy settings, both low and high. The distinction between HP damage (mortal injury) and MP/SP damage (bumps and bruises, spiritual exhaustion), is a particular feature of the game that allows groups to distinguish between mortal dangers and less perilous predicaments. The game has levels for a progression of power, but is also class-free which allows almost limitless flexibility of character creation (with some perils of its own).
 
-FanSys was designed for a slower and more thoughtful pace of play than those high-action, fast-paced games, where not a day passes without the party crossing swords with their foes. That is not to say that it can't be played this way, though it does become a little more deadly as the pace increases. Nevertheless, it was designed for a slower pace of play. 
+The game was designed for a slower and more thoughtful pace of play than those high-action, fast-paced games, where not a day passes without the party crossing swords with their foes. That is not to say that it can't be played this way, though it does become a little more deadly as the pace increases.
 
 This is the reason for features such as the expense of healing magic, slow healing of HP and stat damage, [short, long and full rests](04-combat.md#rest-and-recuperation), the [global spellcasting](07-magic-and-spellcasting.md#global-and-local-spells) system, and the [slow learning of spells](07-magic-and-spellcasting.md#learning-spells-through-independent-study-or-from-a-mentor). The slow healing especially encourages players to think twice before engaging in mortal combat and to appreciate the respite afterwards. Downtime, recovery, time taken to find and craft the arms needed to defeat dangerous foes, or to learn the magics needed to overcome them, are emphasised.
 
@@ -26,7 +59,42 @@ The game is played like any of the number of table top role-playing games that e
 5. Play.
 
 Below, one can find the rules for making a character.
-____
+
+___
+## The Gaming Group and Flow of the Game
+
+The game is played in a group. A group needs at least 2 players. There is no strict upper limit to the number of players, but the flow of the game often begins to deteriorate if there are more than 5 players and starts to break down if there are more than 7. However, this does depend on the particular gaming group and their play-style.
+
+___
+### Player roles and the arbiter
+
+Like most table top role-playing games, player roles are usually divided into an arbiter (usually called Game Master (GM) or Dungeon Master (DM)) and regular players (although other modes of play are possible). It is for all players at a table to agree to the style of the game, the broad strokes of the fantasy world, the genre of the story to be told (if there is a story at all) and what is acceptable at the gaming table.
+
+However, most of the work behind materialising these wishes falls upon the arbiter. The arbiter usually creates most of the moving parts in the world, creates ruins and dungeons and sets the plots in motion. The arbiter usually decides on the adverse conditions or forces that oppose the other players and lets them loose upon their character. In addition the arbiter is to have the final say on any contentious rulings where the rules might not adequately cover the situation, or do not cover it to the liking of the group. The arbiter is not to make decisions for the other players' characters, unless they are ["possessed"](10-conditions-types.md#possessed) or ["dominated"](10-conditions-types.md#dominated). Since the arbiter has a lot more work and responsibility, they also end up with more authority, which should be used with care. For the same reason a gaming group should treat their arbiter well.
+
+The role of the other players is to create their character (or characters!) in accordance with what has been agreed and play them within the frame of the game. Players should play only their own characters and in the turns allotted to them, unless the arbiter or other players request it. Likewise, while it is generally acceptable to question an arbiter's decisions (in moderation), a regular player should keep in mind that the final decision is with the arbiter (unless a group is particularly 'democratic'). In some gaming groups it is customary for regular players to create the part of the world that their character is from, as well as giving the arbiter a few non-player characters to use as they wish for plot related reasons.
+
+___
+### The Flow of the Game
+
+There are numerous styles of play, but fundamentally the game is played as most other table top role playing games:
+
+The DM describes an event of scenario, and the other players describe what actions they take. Sometimes, it is not the DM, but a player that starts with a course of action taken by a character, and it is for everyone else to respond. Regardless, since only one player can talk and be properly heard at a time, the game is to some degree turn based.
+
+When players' actions have a significant effect upon the world, it is usually up to the DM to decide and narrate the outcome. When the outcome is uncertain, such as whether an arrow hits its mark, the outcome is decided with a [dice roll](02-base-rules.md#rolling-dice).
+
+In combat, or other time-sensitive situations, the game becomes strictly turn-based and ordered, and the DM should request ["initiative"](02-base-rules.md#initiative) to be rolled. Thereafter each player and their character(s) act strictly on the turn that is decided by the turn order, with outcomes generally being decided with the roll of the dice.
+
+___
+### House rules
+
+The rulebook, as the name suggests, contains the rules for playing the game. The rules exist to make a game that is balanced, fair, flowing, and enjoyable. The rules can serve both as a constraint and an inspiration for characters and worlds.
+
+This does not mean that the rules are perfect, or that they make the best possible game for all groups. Should a group find a certain rule burdensome or unnecessary, or alternatively find that a rule they need to enjoy the game is absent, then they should think about making a "house rule". As with other systems, a house rule is a modification to the by-the-books rules that a given gaming group uses at their table.
+
+House rules should be used judiciously, as poor house rules can easily spoil the balance of the game or introduce other unexpected and undesired consequences.
+
+___
 
 ## Making a character
 
@@ -35,10 +103,13 @@ ____
 3. Apply race/template.
 4. Assign skill points and background skill.
 5. Assign stamina and mana dice and calculate HP.
-6. Assign alignment (optional).
-7. Assign abilities.
-8. If starting above level 1, repeat (4) and (5) for each level until done.
-9. Play!
+6. Assign abilities.
+7. Assign a good save.
+8. Assign a homeland.
+9. Assign alignment (optional).
+10. If starting above level 1, repeat (4) through (6) for each level until done.
+11. Play!
+
 ___
 
 ### Character concepts
@@ -77,37 +148,7 @@ Each stat gives rise to a corresponding stat bonuses. Bonuses are added to rolls
 
 Each stat also has a save of the same name. These protect you from certain indirect and insidious effects. They are used by rolling 2d12 plus the save bonus against a threshold. 
 
-Assign your stats using one of these two systems.
-
-___
-#### Random roll 4d6 drop lowest
-
-1. Roll 4d6, count the total of the highest 3 dice (4d6dl1).
-2. These 6 totals, in any order are your character's stats.
-3. Apply racial/template modifiers.
-4. If any stat is below 5, raise it to 5.
-
-___
-#### 24 point point buy
-
-1. Start with a blank sheet and 24 points.
-2. Assign points in accordance with the cost table until all 6 stats are assigned and the remaining points are 0. If you end with unassigned points, those points are lost.
-
-The point cost for point buy is as follows:
-
-|Value|Bonus|Total Cost|
-|-|-|-|
-|8|-1|-2|
-|9|-1|-1|
-|10|0|0|
-|11|0|1|
-|12|+1|2|
-|13|+1|3|
-|14|+2|4|
-|15|+2|6|
-|16|+3|8|
-|17|+3|11|
-|18|+4|14|
+There are several methods for assigning stats, but they are divided into "point buy" and "random roll". Point buy ensures that each character is of a similar power level as others in the group. Random rolls provide an exciting way of generating stats and allow the numbers to guide character creation, although at times it can be bitterly cruel. The specific method or methods which are permitted should be agreed within the group prior to character creation.
 
 ___
 #### Further reading
@@ -144,12 +185,12 @@ ___
 The system does not debate whether different races are different species or not. This is a setting specific decision.
 
 ___
-#### How to apply a race/template
+### How to apply a race/template
 
 Templates generally give some small bonuses, a few nice features, some of which cannot be gained by other means. Some also give your character penalties. These can be both a pain and a role-playing crutch. To apply a template:
 
 1. Read over the template.
-2. Apply the creature size to your character, adjust heights and weights within 20% as desired.
+2. Apply the creature size to your character, adjust heights and weights within 40% as desired.
 3. Apply stat bonuses and penalties.
 4. Apply [size modifiers](02-base-rules.md#size-rules-table).
 5. Apply movement speed, special senses and type.
@@ -157,193 +198,9 @@ Templates generally give some small bonuses, a few nice features, some of which 
 7. Add special abilities, resistances and vulnerabilities.
 
 ___
-### A few basic templates
+## Character basics
 
-Below, you can find a number of basic templates/races to pick from when making a character (though more can be found in [Chapter 9](09-races.md#example-templates)).
-
-___
-#### Human
-
-Human represents the human race. The human race is the base. Humans have no special senses, resistances, movement modalities or spooky abilities. To compensate this, they adapt quickly to new environments, and begin learning the skills needed to survive in their homeland as soon as they are old enough to walk. Humans have a lifespan that does not exceed a century, reach a breeding age in their teens and can produce up to two dozen offspring in their lifetime.
-
-- **Size**: Medium (Height: ~5'8", Weight: ~140lb)
-- **Stats**: (Str: 0, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: 0)
-- **Movement**: Walk 30ft
-- **Sight**: Normal
-- **Type**: Humanoid (needs to breathe, drink, eat, and sleep). Humans age.
-- **Proficiencies**: One appropriate language.
-
-**Extra**:
-
-- A +2 bonus to any stat, and +1 to two other stats.
-- +2 to any one skill. 
-- Any 2 proficiencies.
-
-**Race boon (level 8 and 16)**:
-
-- +2 bonus to any stat.
-- 4 skill points to spend on skills and proficiencies.
-
-___
-#### Elf/(Fey touched)
-
-This is a race that is closer to the fey, either created when fey spirits took material form in exchange for something, or when they mingled with humankind, or bestowed their "gifts" upon humans long ago. Elves/Fey touched live ridiculously long lives. Compared to humans they have slender, wiry bodies and longer ears. They are known as sometimes known as the "fair folk" and see well in twilight hours.
-
-- **Size**: Medium (Height: ~5'8", Weight: ~115lb)
-- **Stats**: (Str: 0, Dex: +2, Con: -2, Int: 0, Wis: 0, Cha: +1)
-- **Movement**: Walk 30ft
-- **Sight**: Normal, low-light vision.
-- **Type**: Humanoid (needs to breathe, drink, eat and sleep). Elves do not age.
-- **Proficiencies**: One appropriate language and the Elvish tongues. Bows OR one class of instrument.
-
-**Extra**:
-
-- +1 Observe
-- Resistance to "Charmed"
-
-**Race boon (level 8 and 16)**:
-
-- Immunity to one of "Charmed", "Blinded", "Stunned" or "Bleeding".
-- +5 to walking speed
-
-___
-#### Orc
-
-This is a race that is closer to the feral side of humanoids. They are stronger and sturdier than humans, are apt hunters, but tend to lack aptitude for the academic. Orcs lead shorter lives than humans and reproduce even faster.
-
-- **Size**: Medium (Height: ~6'0", Weight: ~185lb)
-- **Stats**: (Str: +2, Dex: 0, Con: +2, Int: -2, Wis: 0, Cha: 0)
-- **Movement**: Walk 30ft
-- **Sight**: Normal, "heat sense II" (30ft).
-- **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
-- **Proficiencies**: One appropriate language. Strikes AND Spears.
-
-**Extra**:
-
-- Resistance to percussive and advantage on saves vs "Prone".
-
-**Race boon (level 8 and 16)**:
-
-- Resistance to one of "piercing", "slashing" or "pressure" or "shear".
-- +1 Con, +1 Str.
-
-___
-#### The Sea People
-
-The sea people a race of humanoids that live in and around the islands of the shallow seas, and in the marshes and great lakes. They often disguise themselves as humans, for various reasons.
-
-- **Size**: Medium (Height: ~5'8", Weight: ~140lb)
-- **Stats**: (Str: 0, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: 0)
-- **Movement**: Walk 30ft, Swim 40ft.
-- **Sight**: Normal.
-- **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
-- **Proficiencies**: One appropriate language, Cetacean.
-
-**Extra**:
-
-- Water breathing
-- Resistance to "Cold" OR +2 Swim.
-- Resistance to "Aphonia".
-
-**Race boon (level 8 and 16)**:
-
-- +5 to swim speed.
-- One of "life sense (1 level)" or "blind sight (1 level)".
-
-___
-#### The Winged
-
-This is a race of winged humanoids that live in high and isolated places, as well as loci associated with elemental air. They are small of stature, sharp sighted, and often shy of other races.
-
-- **Size**: Small (Height: ~3'3", Weight: ~32lb, Wingspan: ~11ft.)
-- **Stats**: (Str: -2, Dex: +2, Con: 0, Int: 0, Wis: 0, Cha: 0)
-- **Movement**: Walk 20ft, Fly 60ft (rating: average, endurance: 2 hours).
-- **Sight**: Normal.
-- **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
-- **Proficiencies**: One appropriate language.
-
-**Extra**:
-
-+ 2 to Fly.
-+ 1 to Observe.
-
-**Race boon (level 8 and 16)**:
-
-- +1 fly level.
-- +10 fly speed.
-
-___
-#### Beasts of the Green
-
-This is a race of intelligent beasts that dwells in the deepest wilderness. It is thought that they are guardians of the wild, created by ancient forces. Outwardly they take many forms.
-
-- **Size**: Large (Height: ~6', Weight: ~600lb)
-- **Stats**: (Str: +2, Dex: 0, Con: 0, Int: 0, Wis: +2, Cha: 0)
-- **Movement**: Walk 40ft.
-- **Sight**: Normal, keen-scent.
-- **Type**: Monster (needs to breathe, drink, eat and sleep). Ages.
-- **Proficiencies**: One appropriate language.
-
-**Penalties**:
-
-- Beasts of the Green have no prehensile limbs.
-
-**Extra**:
-
-- Incantation Magic (level 1).
-- +2 Navigate.
-
-**Race boon (level 8 and 16)**:
-
-- +5 to movement speed.
-- +2 to one of "Str", "Dex", "Con" or "Wis"
-- 1 level of incantation magic.
-
-___
-#### Beast folk
-
-This is a race of humanoid that has various beast like traits, usually cat-like, or dog-like. This race is loved by degenerates.
-
-- **Size**: Medium (Height: ~5'8", Weight: ~140lb)
-- **Stats**: (Str: 0, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: 0)
-- **Movement**: Walk 35ft + Climb 30ft.
-- **Sight**: Normal, low-light vision.
-- **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
-- **Proficiencies**: One appropriate language.
-
-**Extra**:
-
-- +1 Track.
-- +2 to Str or Dex.
-
-**Race boon (level 8 and 16)**:
-
-- +10 to a movement speed of one modality.
-- One of "keen hearing", "keen scent".
-
-___
-#### Fiend-touched
-
-This represents those who have been touched by dark forces. Perhaps because of a pact, perhaps because of a dark ritual, perhaps because of whimsical evil, or perhaps in the dark corners of society there exists a clan that does its utmost to keep the fiendish blood that flows through their veins restricted to their clan alone.
-
-- **Size**: Medium (Height: ~5'10", Weight: ~160lb)
-- **Stats**: (Str: 0, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: +1)
-- **Movement**: Walk 30ft
-- **Sight**: Normal, low light vision.
-- **Type**: Humanoid (needs to breathe, drink, eat and sleep). Ages.
-- **Proficiencies**: One appropriate language.
-
-**Extra**:
-
-- Resistance to "poison" + "poisoned" .
-- Resistance to "Bleeding". 
-- Elementalism: Elemental Touch.(level 1).
-
-**Race boon (level 8 and 16)**:
-
-- Resistance to one of "piercing", "percussive", "slashing" or "pressure" or "shear", "fire" or "ice".
-- +1 Str, +1 Cha.
-- +1 Elementalism: Elemental Touch.
+Most of the rules found in the rulebook deal with how a character works and interacts with the world. A few basics associated with character creation are explained below.
 
 ___
 ### Creating a level one character
@@ -363,7 +220,7 @@ At level one a character starts with the following:
 + A homeland (see ["terrains"](03-movement-exploration.md#terrains)).
 
 ___
-#### Levelling up
+### Levelling up
 
 Levelling up after level 1 follows a similar patten. Each time a character levels up it gains:
 
@@ -378,30 +235,40 @@ Levelling up after level 1 follows a similar patten. Each time a character level
 A character must spend all points when it levels up. It cannot horde unspent points waiting for the next level. Characters generally level up when circumstances push them so far and so hard against the weight of experience they have accumulated on their journey, that they break new ground in terms of insight, ability and sheer will.
 
 ___
-#### Skills and proficiencies
+### Skills and proficiencies
 
 Skills and proficiencies determine how well practised your character is with certain routine or esoteric arts, skills or sciences, as well as which tools, weapons and armours they know how to use. A character essentially starts with between 5 and 11 skill points. It is recommended that you take at least one weapon proficiency and one armour proficiency, and maybe more for martial characters.
 
 A level 1 character may place no more than one skill point (1 rank) in any given skill. This limit increases by 1 rank every odd level. A character can only ever place 1 point (or non at all) in a proficiency - you are either proficient or you are not. For more information see the ["Skills"](05-skills.md#skills) and ["Weapons and Armour"](11-weapons-armour.md#weapons-and-armour) chapters.
 
 ___
-#### Base
+### Base
 
-Secondly, a character starts with one background skill, where they get to add a small bonus (+2 at level 1 - this is [base + 1]). See ["Base Rules: Base"](02-base-rules.md#base) for details.
-
-___
-#### Homeland
-
-Thirdly, a character also gets to choose a homeland  (see ["terrain"](03-movement-exploration.md#terrains)). This reflects the landscape of the character's homeland, and can be anything from "town" or "plains" to "ruins" or "subterranean". The character has a +2 bonus to [fortify](05-skills.md#fortify) and [navigation](05-skills.md#navigate) in that terrain.
+A character starts with one background skill, where they get to add a small bonus (+2 at level 1 - this is [base + 1]). See ["Base Rules: Base"](02-base-rules.md#base) for details.
 
 ___
-#### Saves
-Fourthly, a character chooses a save with counts as their "good save" and adds their Nat/Sup to it (1 at level 1). This will help defend them against some nasty stuff, so choose carefully. See ["Base Rules: Saving throws"](02-base-rules.md#saving-throws) for details.
+### Homeland
+
+A character also gets to choose a homeland  (see ["terrain"](03-movement-exploration.md#terrains)). This reflects the landscape of the character's homeland, and can be anything from "town" or "plains" to "ruins" or "subterranean". The character has a +2 bonus to [fortify](05-skills.md#fortify) and [navigation](05-skills.md#navigate) in that terrain.
 
 ___
-#### Level Points
+### Saves
+A character chooses a save with counts as their "good save" and adds their Nat/Sup to it (1 at level 1). This will help defend them against some nasty stuff, so choose carefully. See ["Base Rules: Saving throws"](02-base-rules.md#saving-throws) for details.
 
-Lastly, a character gains 3 level points. Level points are spent on gaining abilities. These range from extra good saves, to sword arts and spell casting, and much more. A level point can also be exchanged for 4 skill points or a +1 increase to any stat (although no stat can exceed 24 for a character, and a character can only spend 1 level point per level on stat increases). For a list of abilities see the ["Abilities"](06-abilities.md#abilities-and-boons) chapter.
+___
+### Level points and abilities
+
+Every character gets 3 level points at level 1. These can be spent as follows.
+
++ Exchanged for skill points at the rate of 1 level points = 4 skill points.
++ Exchanged for an increase to stats at the rate of 1 level point = +1 to a single stat. No stat may exceed 24 for player characters. A character can only add one level point to stats per level.
++ Exchanged for abilities and boons.
+
+Abilities and boons are special features of a character that allow them to do things they would not otherwise be able to do, or withstand things they would otherwise not be able to withstand. This also provides some of the flavour to the character. See the ["Abilities and Boons"](06-abilities.md#abilities-and-boons) chapter. As an example:
+
+- An aspiring pyromancer would probably want to take ["elemental touch"](06-abilities.md#touch-elemental-touch) or ["elemental blast"](06-abilities.md#blast-elemental-blast) and ["spellcasting: elemental (fire)"](06-abilities.md#spellcasting-local).
+- A plucky peasant or mysterious summoner might both wish to travel with a bestial companion and so take ["bind beast"](06-abilities.md#bind-beast-i-x).
+- Swashbuckler and martial artists would probably both benefit from ["flurry"](06-abilities.md#flurry).
 
 ___
 ### Stamina and Mana dice and HP
@@ -412,7 +279,7 @@ A character's HP is equal to: **[Level + [Con] + [Cha]]**.
 
 If at the end of the calculation you start off with 0 HP, then your HP total is set to 1.
 
-Liira, an apprentice aquamancer (level one) with +2 [Con] and +3 [Cha], has a HP total of 6. This is not a lot and she needs to be careful if she gets in a serious fight. 
+> *Liira, an apprentice aquamancer (level one) with +2 [Con] and +3 [Cha], has a HP total of 6. This is not a lot and she needs to be careful if she gets in a serious fight. *
 
 Luckily a character also has mana (or mental) points (MP) and stamina points (SP). When a character is hit with a mundane ("natural") attack, the damage is first subtracted from SP, and only if it is massive damage, or if the character runs out of SP, does the damage actually affect HP. This works in the same way for MP and supernatural attacks. SP and MP are different from HP in three ways.
 
@@ -445,7 +312,7 @@ The amount of SP or MP a character has is determined by how many SP dice and MP 
 > *Hopefully she has the presence of mind, and opportunity, to pick her battle carefully!*
 
 ___
-### A word on HiT, NAP, SAP and other 3 letter words.
+### A word on HiT, NAP, SAP and other 3 letter words
 
 This introduction leaves a lot of unanswered questions, such as "how do I attack?", "saves defend against indirect attacks, but what about direct attacks?", "why am I even playing this?" and probably quite a few more. Before looking for answers in other chapters, we present a brief answer to the first two.
 
@@ -504,6 +371,17 @@ The "save threshold" is equal to **[13 + [Nat or Sup] + [Stat bonus]]**.
 If the roll to save ("save") is equal or higher than Threshold, the character avoids some, or all, of the effects of the spell/ability.
 
 ___
+### Movement
+
+Different characters may have different movement speeds and modalities. This is important during travel, exploration as well as in combat, as it affects where you can go, how difficult it will be, and how quickly you are likely to get there. In combat especially, exact positioning can make the difference between life and death. There are 5 common movement modalities, as well as two types of teleportation (blink and cosmic movement). The five common forms of movement are:
+
+- [Walking](03-movement-exploration.md#walking)
+- [Climb](03-movement-exploration.md#climb)
+- [Swimming](03-movement-exploration.md#swimming)
+- [Digging](03-movement-exploration.md#digging)
+- [Flight](03-movement-exploration.md#flight)
+
+___
 ### Alignment
 
 Alignment is an OPTIONAL rule.
@@ -526,21 +404,6 @@ It should be noted that in general, locales are unaligned. The ground is not "ea
 Divine beings always have a divine alignment. Profane beings always have a profane alignment.
 
 It is possible to have an alignment on the Spiritual/Divine/Profane axis AND on the elemental axis. So it is possible to have an alignment with both "profane" and "fire", for example.
-
-___
-### Level points and abilities
-
-Every character gets 3 level points at level 1. These can be spent as follows.
-
-+ Exchanged for skill points at the rate of 1 level points = 4 skill points.
-+ Exchanged for an increase to stats at the rate of 1 level point = +1 to a single stat. No stat may exceed 24 for player characters. A character can only add one level point to stats per level.
-+ Exchanged for abilities and boons.
-
-Abilities and boons are special features of a character that allow them to do things they would not otherwise be able to do, or withstand things they would otherwise not be able to withstand. This also provides some of the flavour to the character. See the ["Abilities and Boons"](06-abilities.md#abilities-and-boons) chapter. As an example:
-
-- An aspiring pyromancer would probably want to take ["elemental touch"](06-abilities.md#touch-elemental-touch) or ["elemental blast"](06-abilities.md#blast-elemental-blast) and ["spellcasting: elemental (fire)"](06-abilities.md#spellcasting-local).
-- A plucky peasant or mysterious summoner might both wish to travel with a bestial companion and so take ["bind beast"](06-abilities.md#bind-beast-i-x).
-- Swashbuckler and martial artists would probably both benefit from ["flurry"](06-abilities.md#flurry).
 
 ___
 ### Play

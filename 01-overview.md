@@ -125,7 +125,7 @@ All characters start with a template. A template is a set of abilities, traits a
 
 Usually a template is associated with a race or creature type (eg the "fey touched" template, or "human" template), although for specific settings where there are no races, they can either be completely eschewed or used to represent cultures within the same race.
 
-Not all templates are equal. Some templates (eg dragon, angel) are blatantly more powerful than others. In order to offset this, templates have levels. Templates exist for level 0, level 4 and level 9. They can also be created for other levels. Templates of different levels should not be mixed within a group, as this will unbalance the game and probably cause upset. For a start, level 0 templates should be considered the standard.
+Not all templates are equal. Some templates (eg dragon, angel) are blatantly more powerful than others. In order to offset this, templates have levels. Templates exist for level 1, level 5 and level 10. They can also be created for other levels. Templates of different levels should not be mixed within a group, as this will unbalance the game and probably cause upset. For a start, level 1 templates should be considered the standard.
 
 For higher power games, where players wish to play angels, devils, dragons and other things, higher level templates should be used. Advanced templates, as well as rules on how to make new ones are found in the ["Races"](09-races.md) chapter.
 

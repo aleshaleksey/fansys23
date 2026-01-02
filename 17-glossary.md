@@ -9,7 +9,7 @@ ___
 #### Ability
 Quite literally an ability or feature beyond the basic set of abilities that all or most characters have. It allows characters to do things they otherwise could not, often at the cost of MP or SP dice. Every level a character gains 3 level points, which can be spent to gain abilities.
 
-- ["Abilities"](06-abilities.md)
+- ["Abilities and Boons"](06-abilities.md#abilities-and-boons)
 
 ___
 #### Attack
@@ -25,14 +25,14 @@ An attack that requires an attack roll.
 
 ___
 #### Base
-A small bonus that a character applies to all saves, attacks, thresholds and a few ([Level / 2]) chosen skills. It is equal to 1 between levels 1-5, 2 between levels 6-10, 3 between levels 11-15 and 4 between levels 16-20.
+A small bonus that a character applies to all saves, attacks, thresholds and a few ([Level / 2]) chosen skills. It represents a character's overall experience bleeding through to all aspects of their life and is equal to 1 between levels 1-5, 2 between levels 6-10, 3 between levels 11-15 and 4 between levels 16-20.
 
 - ["Overview: Base"](01-overview.md#base)
 - ["Base Rules: Base"](02-base-rules.md#base)
 
 ___
 #### Basic Martial Manoeuvre
-A natural targeted attack that can be made as part of an attack action. This includes weapon attacks that deal damage and all kinds of other manoeuvres such as grappling, disarming, feinting and intercepting which attempt to put the target into a disadvantageous position.
+A natural targeted attack that can be made as part of an attack action. This includes weapon attacks that deal damage and all kinds of other manoeuvres which attempt to put the target into a disadvantageous position. These include grappling, disarming, feinting and intercepting.
 
 - ["Combat: Basic Martial Manoeuvres](04-combat.md#basic-martial-manoeuvres)
 
@@ -56,15 +56,15 @@ ___
 See ["Stats"](#stats)
 
 ___
-#### DM (Dungeon Master)
-The player who runs all the characters that the other players are not playing, comes up with the scenario, and arbitrates the game. Typically the DM has the final say on how rules are interpreted or how a scenario plays out, although it is a poor DM who excludes the other players' views from such ruling. In other words, the DM "runs" the game. The DM, therefore, typically does more much more work than any other player. Please treat your DM well.
-
-___
 #### Damage
 Physical or spiritual harm to an object, structure or character. It is reflected in the loss of SP, MP or HP.
 
 - ["Combat: Damage and Death"](04-combat.md#damage-and-death)
 - ["Conditions and Types: Natural and Supernatural damage and abilities"](10-conditions-types.md#natural-and-supernatural-damage-and-abilities)
+
+___
+#### DM (Dungeon Master)
+The player who runs all the characters that the other players are not playing, comes up with the scenario, and arbitrates the game. Typically the DM has the final say on how rules are interpreted or how a scenario plays out, although it is a poor DM who excludes the other players' views from such ruling. In other words, the DM "runs" the game. The DM, therefore, typically does more much more work than any other player. Please treat your DM well.
 
 ___
 #### DEX
@@ -100,7 +100,7 @@ Hit Threshold: The threshold to meet or beat for an attack roll to cause damage 
 
 ___
 #### Homeland
-The terrain that the character is most familiar. Characters gain a +2 bonus to fortify and navigation in this terrains.
+The terrain with which the character is most familiar. Characters gain a +2 bonus to fortify and navigation in this terrains.
 
 - ["Base rules: Homeland"](02-base-rules.md#homeland)
 - ["Exploration: Terrains"](03-movement-exploration.md#terrains)
@@ -125,14 +125,14 @@ See ["Stats"](#stats)
 
 ___
 #### Level
-Level can refer to character level, template level or ability level. Character level is a representation of its power and experience and is between 1 and 20. A template level is the power level of a race/template, and is generally 1 in most games, although can be higher (typically 5 or 10) in very high power games. An ability level is the number of times an ability can be taken, for those abilities that can be taken multiple times (eg. spellcasting).
+Level can refer to character level, template level or ability level. Character level is a representation of its power and experience, and is between 1 and 20. A template level is the power level of a race/template, and is generally 1 in most games, although can be higher (typically 5 or 10) in very high power games. An ability level is the number of times an ability can be taken, for those abilities that can be taken multiple times (eg. spellcasting).
 
 - ["Making Templates"](09-races.md#making-templates)
 - ["Base rules: Character level and Base"](02-base-rules.md#character-level-and-base)
 
 ___
 #### Mana Dice
-The unit of useable spiritual/supernatural energy that a character possesses. A character expends mana dice when using powerful supernatural abilities, or expending extra effort (rolling an extra 1d6) for skills, saves and attacks governed by INT, WIS or CHA.
+Sometimes known as "MP dice". The unit of useable spiritual/supernatural energy that a character possesses. A character expends mana dice when using powerful supernatural abilities, or expending extra effort (rolling an extra 1d6) for skills, saves and attacks governed by INT, WIS or CHA. For each mana die expended a character loses 2 mana points.
 
 - ["Quick Start: Stamina and Mana dice and HP"](01-overview.md#stamina-and-mana-dice-and-hp)
 - ["Base rules: MP dice pool"](02-base-rules.md#mp-dice-pool)
@@ -159,8 +159,12 @@ A bonus that represents how well honed a character's physical abilities are, and
 - ["Base Rules: Nat and Sup: Attack of the three letter words"](02-base-rules.md#nat-and-sup-attack-of-the-three-letter-words)
 
 ___
+#### Natural
+In FanSys "natural" does not necessarily refer to "nature" in the sense of wilderness but rather to anything that exists in a mundane world and is governed or explained by known laws of physics. Natural phenomena and abilities in FanSys are generally governed by STR, DEX, CON, and a character's ability to interact with them is generally through [SP](#sp-stamina-points) and [stamina dice](#stamina-dice). Humans, swords, castles and sailing ships, to name a few, are generally considered "natural" in this classification. Often, "natural" attacks are not very effective against supernatural beings.
+
+___
 #### Player
-Any individual playing FanSys, this can be a 'normal' player who plays a single character, or a couple of characters, or a DM, who runs most of the scenario. All players should be involved in the game and the game world.
+Any individual playing FanSys. This can be a 'regular' player who plays a single character, or a couple of characters, or a DM, who runs most of the scenario. All players should be involved in the game and the game world.
 
 ___
 #### Proficiency
@@ -189,27 +193,6 @@ A roll made to resist or avoid harmful effects, generally supernatural effects o
 - ["Base rules: Saving throws"](02-base-rules.md#saving-throws)
 
 ___
-#### SP (Stamina Points)
-A measure of an entity's physical energy or stamina. Stamina is expended when a character performs physical exertion (and hence expends stamina dice) or takes physical damage. When a character has no SP left, it cannot use powerful physical (natural) abilities, and physical damage subtracts directly from its HP.
-
-- ["Base rules: Stamina pool"](02-base-rules.md#stamina-pool)
-- ["Base rules: Losing MP, SP and Rebalancing"](02-base-rules.md#losing-mp-sp-and-rebalancing)
-
-___
-#### Stamina Dice
-The unit of useable physical/natural energy that a character possesses. A character expends stamina dice when using powerful natural abilities, or expending extra effort (rolling an extra 1d6) for skills, saves and attacks governed by STR, DEX and CON.
-
-- ["Quick Start: Stamina and Mana dice and HP"](01-overview.md#stamina-and-mana-dice-and-hp)
-- ["Base rules: SP dice pool"](02-base-rules.md#sp-dice-pool)
-
-___
-#### Stats
-One of 6 base attributes (STR, DEX, CON, INT, WIS, CHA) that represent the innate physical and mental potential of a character.
-
-- ["Overview: Stats"](01-overview.md#stats)
-- ["Base Rules: Stats"](02-base-rules.md#stats)
-
-___
 #### SAT
 Supernatural Attack Potential: [Sup + Base]. It is sometimes more convenient to think in terms of SAP than Sup + Base.
 
@@ -220,17 +203,38 @@ ___
 #### Skill
 The training and expertise in a range of mundane activities and tasks that a character can learn and improve over time. Even an untrained character can perform these activities, but their lack of familiarity with them greatly increase the chances of failure. A character improves their skills by spending "skill points" to buy ranks in the skill, hence increasing their skill bonus.
 
-- ["Skills"](05-skills.md)
+- ["Skills"](05-skills.md#skills)
+
+___
+#### SP (Stamina Points)
+A measure of an entity's physical energy or stamina. Stamina is expended when a character performs physical exertion (and hence expends stamina dice) or takes physical damage. When a character has no SP left, it cannot use powerful physical (natural) abilities, and physical damage subtracts directly from its HP.
+
+- ["Base rules: Stamina pool"](02-base-rules.md#stamina-pool)
+- ["Base rules: Losing MP, SP and Rebalancing"](02-base-rules.md#losing-mp-sp-and-rebalancing)
 
 ___
 #### Spell
 Spells are a subset of supernatural powers that mortals have learned to channel by following certain procedures.
 
-- ["Spells"](07-magic-and-spellcasting.md)
+- ["Spells"](07-magic-and-spellcasting.md#spells)
 
 ___
 #### Spellcasting
 A character that is capable of casting spells (see ["spell"](#spell)).
+
+___
+#### Stamina Dice
+Sometimes known as "SP dice". The unit of useable physical/natural energy that a character possesses. A character expends stamina dice when using powerful natural abilities, or expending extra effort (rolling an extra 1d6) for skills, saves and attacks governed by STR, DEX and CON. For each stamina die expended a character loses 2 stamina points.
+
+- ["Quick Start: Stamina and Mana dice and HP"](01-overview.md#stamina-and-mana-dice-and-hp)
+- ["Base rules: SP dice pool"](02-base-rules.md#sp-dice-pool)
+
+___
+#### Stats
+One of 6 base attributes (STR, DEX, CON, INT, WIS, CHA) that represent the innate physical and mental potential of a character.
+
+- ["Overview: Stats"](01-overview.md#stats)
+- ["Base Rules: Stats"](02-base-rules.md#stats)
 
 ___
 #### STR
@@ -244,11 +248,15 @@ A bonus that represents how well honed a character's spiritual abilities are, an
 - ["Base Rules: Nat and Sup: Attack of the three letter words"](02-base-rules.md#nap-and-sap-nat-and-sat-attack-of-the-three-letter-words-ii)
 
 ___
-#### Template
-A collection of bonuses, penalties, abilities, and traits that are applied to each character upon creation. Usually this is defined and imparted to them by virtue of their civilisation, race, species. Many different templates exist, and new templates can be created.
+#### Supernatural
+This refers to anything that cannot exist, or cannot be understood within the limits of a mundane world governed by known laws of physics. Supernatural phenomena and abilities in FanSys are generally governed by INT, WIS, and CHA, and a character's ability to interact with them is generally through [MP](#mp-mana-points) and [mana dice](#mana-dice). Ghosts, dragons, spells and the spirit world, to name a few, are generally considered "supernatural" in this classification.
 
-- ["Overview: Stats"](01-overview.md#templates)
-- ["Base Rules: Stats"](09-races.md)
+___
+#### Template
+A collection of bonuses, penalties, abilities, and traits that are applied to each character upon creation. Usually this is defined and imparted to them by virtue of their civilisation, race or species. A number of different templates exist, and new templates can be created.
+
+- ["Overview: Templates"](01-overview.md#templates)
+- ["Types, Races, Species and Templates"](09-races.md#types-races-species-and-templates)
 
 ___
 #### Threshold

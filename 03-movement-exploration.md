@@ -20,6 +20,8 @@ A certain level of freeform RP and common sense are recommended.
       - [Limitations of Flight](#limitations-of-flight)
       - [Flight Parameters](#flight-parameters)
       - [Notes on Flight](#notes-on-flight)
+    - [Blink](#blink)
+    - [Cosmic](#cosmic)
     - [Vigorous Motion](#vigorous-motion)
 3. [Exploration](#exploration)
     - [Overview](#overview)
@@ -235,6 +237,30 @@ ___
 Most terrestrial entities have legs and walk. Some do not. They slither. They are an exception. We ignore them for now. Using small to large animals for reference, quadrupeds have a walking speed of 2-6 miles per hour (mph), a running speed of 8-20mph, and a sprint pace of 16-40mph. There are fewer bipeds, but they are capable of similar speeds (see ostriches). Humanoids are comparatively slow. 3-4mph (~5-6ft/s) is a typical walk. The fastest sprinter reaches about 24mph (100m/9s, 35ft/s), an average human springs at ~16mph (100m/15s, 24ft/s). The speeds we have quoted in the rules are a bit lower as conditions on an adventure are seldom as ideal as on a modern running track. Likewise you will notice that I have used [STR] for sprinting. This is in keeping with sports physiology.
 
 Most natural flying entities of tiny to large sizes are fast. Indeed there are fewer flying entities that can fly slowly than those that can't. Typical cruise speeds of birds are 10-60mph, with maximum speeds being as much as twice as high. On the other hand, flying entities usually need space to change direction and sacrifice sturdiness for the highly energetic activity of flight. Few flying entities in the real world weight much more than 10kg.
+
+___
+### Blink
+
+Blinking is a form of teleportation. It is a strictly supernatural form of movement. A character with a blink speed can move almost instantly between two points in a world without passing through the space between them that lies in the same world. This makes it a very versatile and potent movement modality. However, in blinking a character does pass through the border between worlds. Therefore, any condition or ward that interferes with travel into and out of the realm that the character is in also interferes with blink speed. Typically, most kinds of short and mid-range teleportation work as a blink speed. Likewise, powerful supernatural beings often have an innate blink speed. Below are the rules that specifically pertain to blinking.
+
+
+- An entity with blink speed must be able to see the destination in order to be able to blink to that spot.
+  - Some specific spells bypass this requirement, in which case it must be stated in the spell description.
+- The spot must be no further than the entity's blink speed from the starting point.
+- The minimum blink distance is 10ft, though there is no limit on the number of times a character may blink during its turn.
+- A character can run, but not sprint, using its blink speed.
+- A character cannot voluntarily take another with it when blinking, unless the source of the blink speed explicitly allows it.
+- On a local scale speed and direction of travel of the character is conserved when it blinks. For blinks of longer than 108 miles the traveller is stationary relative to its destination upon arrival.
+- A character that is grappled, restrained or immobilised through the "grapple" manoeuvre can still attempt to blink, although its blink speed is halved. In this case each entity grappling it must succeed a [grapple](04-combat.md#grapple) vs the blinking character's INT or WIS threshold. This roll is at advantage if the blinking character is restrained or immobilised. Any character that succeeds the grapple roll is transported with the blinking character.
+- A character grappled, restrained or immobilised by inanimate, natural means (eg manacles) may escape their restraints by blinking at least 10ft. However, they must succeed a [concentration save](07-magic-and-spellcasting.md#concentration) equal to [Restraint Threshold / 2] or leave behind any inventory that is worn or carried.
+- Blink speed follows almost the same rules for fatigue as [walking and running](#running-and-fatigue) with two exceptions:
+  - When pushing, a character expends MP dice instead of SP dice.
+  - When a character suffers HP damage due to fatigue from blinking, it instead gains the ["catatonic"](10-conditions-types.md#catatonic) condition.
+
+___
+### Cosmic
+
+It's cosmic! (TODO)
 
 ___
 ### Vigorous Motion

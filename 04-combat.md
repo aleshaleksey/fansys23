@@ -652,6 +652,7 @@ This is the act of using one's body (or a weapon) to contact/grab the target in 
 - **Special**: A character that successfully grapples a target must use part of its body (usually a limb or an object held by that limb) to maintain the grapple. Regardless, the limb (or other body part) cannot be used for kinetic components of spells, movement, or for other combat manoeuvres.
   - The same applies when "restraining" a target.
   - A character that has "immobilised" its target is considered to have used at least two limbs.
+  - A character with a "blink speed" may attempt to escape a grapple by blinking (see ["Local and Global Movement: Blink"](03-movement-exploration.md#blink)).
 
 ___
 #### Restrain
@@ -667,6 +668,7 @@ This is the act of using one's body (or a weapon) to severely restrict the movem
   - "Aphonia": Prevent foe from completing incantations.
   - "Restrain": Prevent a foe from casting spells with kinetic components and give penalties to weapon attacks.
   - Keeping a target restrains requires at least one limb, hence precluding its use for movement, attacking or spellcasting.
+  - A character with a "blink speed" may attempt to escape this manoeuvre by blinking (see ["Local and Global Movement: Blink"](03-movement-exploration.md#blink)).
 
 ___
 #### Immobilise
@@ -679,6 +681,7 @@ This is the act of completely immobilising a restrained target so that it cannot
 - **Penalty if not proficient**: -5 to attack roll.
 - **Size dependent**: Yes.
 - **Special**: The character that successfully immobilises its target is considered "grappled" unless it is at least two sizes larger than the target that it has immobilised. Immobilise also requires at least two limbs (or objects held by these limbs) to keep the target immobilised, hence precluding their use for movement, spellcasting or for other combat manoeuvres.
+  - A character with a "blink speed" may attempt to escape this manoeuvre by blinking (see ["Local and Global Movement: Blink"](03-movement-exploration.md#blink)).
 
 ___
 #### Shove

@@ -373,7 +373,7 @@ If the roll to save ("save") is equal or higher than Threshold, the character av
 ___
 ### Movement
 
-Different characters may have different movement speeds and modalities. This is important during travel, exploration as well as in combat, as it affects where you can go, how difficult it will be, and how quickly you are likely to get there. In combat especially, exact positioning can make the difference between life and death. There are 5 common movement modalities, as well as two types of teleportation (blink and cosmic movement). The five common forms of movement are:
+Different characters may have different movement speeds and modalities. This is important during travel, exploration as well as in combat, as it affects where you can go, how difficult it will be, and how quickly you are likely to get there. In combat especially, exact positioning can make the difference between life and death. There are 5 common movement modalities, as well as two types of teleportation (["blink"](03-movement-exploration.md#blink) and cosmic movement). The five common forms of movement are:
 
 - [Walking](03-movement-exploration.md#walking)
 - [Climb](03-movement-exploration.md#climb)

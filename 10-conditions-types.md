@@ -151,7 +151,7 @@ ___
 #### Shear
 Shear damage is caused when a target is torn apart, for example by a bear's claws. Targets of low tensile materials, such as humanoids and animals are particularly susceptible to this damage type.
 
-**Associated Conditions:** ["crippled"](#crippled).
+**Associated Conditions:** ["crippled"](#crippled), ["bleeding"](#bleedingwilting).
 
 ___
 #### Pressure
@@ -677,17 +677,17 @@ When an entity loses HP (but *NOT* MP or SP) due to a named damage type, it may 
 |Piercing|Bleeding||Bleeding||Bleeding||
 |Slashing|Bleeding|Crippled|Bleeding|Crippled|Bleeding|Crippled|
 |Percussive|Prone|Crippled|Prone|Crippled|Prone|Crippled|
-|Shear||Crippled||Crippled||Crippled|
+|Shear|Bleeding|Crippled|Bleeding|Crippled|Bleeding|Crippled|
 |Pressure|Stunned|Frightened|Prone|Incapacitated|Stunned|Frightened|
 |||||||||||||
 |Poison|???|???|???|???|???|???|
 |Necrotic|Bleeding|Disease|Blinded|Bleeding|Disease|Blinded|
 |||||||||||||
-|Fire|Incapacitated|Blinded|Incapacitated|Blinded|Incapacitated|Blinded|
+|Fire|Blinded|Incapacitated|Blinded|Incapacitated|Blinded|Incapacitated|
 |Cold|Incapacitated|Immobilised|Incapacitated|Immobilised|Incapacitated|Immobilised|
-|Lightning|Paralysed|Immobilised|Stunned|Paralysed|Immobilised|Stunned|
+|Lightning|Immobilised|Paralysed|Stunned|Paralysed|Immobilised|Stunned|
 |Light|Frightened|Blinded|Catatonic|Incapacitated|Frightened|Blinded|
 |||||||||||||
-|Divine|Blinded|Catatonic|Immobilised|Incapacitated|Aphonia|Frightened|
+|Divine|Blinded|Catatonic|Immobilised|Frightened|Aphonia|Incapacitated|
 |Entropic|Crippled|Incapacitated|Bleeding|Crippled|Incapacitated|Bleeding|
 |Profane|Bleeding|Immobilised|Restrained|Aphonia|Frightened|Charmed|

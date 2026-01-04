@@ -268,13 +268,13 @@ ___
 
 Movement modalities are usually determined by race and special abilities. A creature WITH a movement modality may (or may not!) be able to move over other terrain with an ability check. This is covered in ["movement"](03-movement-exploration.md#local-and-global-movement) rules:
 
-- **walk speed**: ground movement over horizontal-ish terrain.
-- **climb speed**: ground movement over vertical-ish terrain.
-- **flight speed**: Areal movement. Movement through the air.
-- **swim speed**: movement through a liquid medium (usually water).
-- **dig speed**: tunnelling movement.
-- **cosmic speed** ethereal movement. Movement through vacuum, solids (without  interacting) or alternative spaces. Very few beings have a "cosmic speed" and most are supernatural.
-- **blink speed**: discrete movement. An entity with a blink speed need not pass through the spaces between start and destination as long as it is in range. Very few entities have a "blink speed", most are powerful supernatural entities.
+- [**walk speed**](03-movement-exploration.md#walking): ground movement over horizontal-ish terrain.
+- [**climb speed**](03-movement-exploration.md#climb): ground movement over vertical-ish terrain.
+- [**flight speed**](03-movement-exploration.md#flight): Areal movement. Movement through the air.
+- [**swim speed**](03-movement-exploration.md#swimming): movement through a liquid medium (usually water).
+- [**dig speed**](03-movement-exploration.md#digging): tunnelling movement.
+- [**blink speed**](03-movement-exploration.md#blink): discrete movement within the same realm. An entity with a blink speed need not pass through the spaces between start and destination as long as it is in range. Very few entities have a "blink speed", most are powerful supernatural entities.
+- [**cosmic speed**](03-movement-exploration.md#cosmic) ethereal movement and travel between realms. Movement through vacuum, solids (without  interacting) or alternative realities. Very few beings have a "cosmic speed" and most are powerful supernatural entities.
 
 ___
 ### Character level and Base

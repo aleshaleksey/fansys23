@@ -601,7 +601,7 @@ This is a divine being created by gods to watch over some aspect of creation (Co
 
 EITHER:
 
-+ Blink speed (30ft) OR cosmic speed (1 layer) OR +II to "truesight".
++ Blink speed (30ft) OR cosmic speed (1 realm) OR +II to "truesight".
 
 OR:
 + 10 feet fly speed.
@@ -724,8 +724,6 @@ The base template allows the following:
   - A template may grant only 2 condition resistances or immunities per template level.
 - A blink speed (30ft).
   - Template must be at least level 2 to have a blink speed.
-- A cosmic speed (100ft).
-  - A template must be at least level 5 to have a cosmic speed.
 - A passive or active (A class) ability with no prerequisites.
 - Improve fly speed rating from "good" -> "perfect".
 - Gain one of the following senses: "Life-sense", "Truesight".
@@ -736,6 +734,8 @@ The base template allows the following:
 
 - Immunity to an S class damage type and advantage vs one associated condition.
   - A template may grant only 1 damage resistance or immunity per template level.
+- A cosmic speed (1 realm).
+  - A template must be at least level 5 to have a cosmic speed.
 
 #### Vulnerabilities and Restrictions
 

@@ -243,7 +243,6 @@ ___
 
 Blinking is a form of teleportation. It is a strictly supernatural form of movement. A character with a blink speed can move almost instantly between two points in a world without passing through the space between them that lies in the same world. This makes it a very versatile and potent movement modality. However, in blinking a character does pass through the border between worlds. Therefore, any condition or ward that interferes with travel into and out of the realm that the character is in also interferes with blink speed. Typically, most kinds of short and mid-range teleportation work as a blink speed. Likewise, powerful supernatural beings often have an innate blink speed. Below are the rules that specifically pertain to blinking.
 
-
 - An entity with blink speed must be able to see the destination in order to be able to blink to that spot.
   - Some specific spells bypass this requirement, in which case it must be stated in the spell description.
 - The spot must be no further than the entity's blink speed from the starting point.
@@ -260,7 +259,12 @@ Blinking is a form of teleportation. It is a strictly supernatural form of movem
 ___
 ### Cosmic
 
-It's cosmic! (TODO)
+Cosmic speed is an exotic, supernatural ability to travel across the boundary between realms, be it the endless void, the ether, the weave, or something else entirely. Unlike other movement modalities, cosmic speed is not measured in feet, but in "realms" or "layers". A cosmic speed of a single realm allows one to cross a single boundary between worlds in one step. A cosmic speed of a single layer allows one to cross a single depth layer (see ["Supernatural terrain"](#supernatural-terrain)). Cosmic speed is available only through spells and to powerful supernatural entities that can freely cross the border between worlds. The rules for cosmic speed is as follows:
+
+- Travelling via cosmic speed requires a physical step to be taken. Thus entities that have a movement speed of 0ft for all natural movement modalities cannot use cosmic speed. This includes entities that are "grappled", "restrained", and "immobilised".
+- When travelling between different realms, the cosmic travel takes one to the equivalent location in the realm travelled to. For example, if this is a different planet, this might be the same coordinate point on its surface. When it is a parallel world or a spirit realm, it might be the place with the same meaning and significance as the point of origin in its own realm.
+- When using cosmic speed to travel to another point in the same realm, the character travelling must have previously visited the spot or be otherwise intimately familiar with it, unless the source of the cosmic speed allows this requirement to be ignored.
+  - If travelling to a point a character is not familiar with, or a point which has since then ceased to exist, the character ends up in a random location in the same world, as determined by rolling dice for coordinates, or another method that the group considers suitable.
 
 ___
 ### Vigorous Motion

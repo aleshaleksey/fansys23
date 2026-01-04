@@ -140,6 +140,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Rift](#rift)
 - [Stone Ward](#stone-ward)
 - [Summon Fiend](#summon-fiend)
+- [Summons](#summons)
 - [Winter's Grasp](#winters-grasp)
 
 ### MP 6
@@ -3516,6 +3517,37 @@ ___
 2. The fiend is summoned to perform a single task, or favour, which may last any amount of time. However, the fiend will demand some kind of reward in exchange (eg, the sacrifice of an unwilling humanoid, the desecration of a holy site, an evil deed that will blacken the soul of the one performing it).
 
 ___
+### Summons
+
+|Name|Summons [Curse, Spirit, Travel]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|5+ (12)|
+|Target(s)|1 entity|
+|Casting time|1 main action (6 hours)|
+|Range|960ft (960 miles)|
+|Duration|Instantaneous|
+|Components|Kinetic|
+|Material|Special|
+|Limitation|Special (see below)|
+|Save|CHA|
+
+**Description**: Summons a specific being or an object no larger than 20ft x 20ft x 20ft across to a location adjacent to the caster's from a point in range. If the target is an unwilling entity it must succeed a CHA save to negate the spell. When the spell succeeds, the target appears directly in front of the caster.
+
+**Limitation**: If an unwilling target is moved to a point which requires a movement modality different to the one it is currently using to move (eg ground to 30ft up in the air, or onto the surface of a lake), or a point where it would suffer damage or be subject to a condition has advantage on the save (eg into a fire if it is not immune to fire or into a cloud of gas that causes paralysis if it is not immune to it).
+
+**Special**: 
+
+- If the caster does not know the name of the specific entity it is summoning or possess a part of its body or a precious possession, then the caster must have seen the target in the last minute to cast the spell and the MP dice cost increases by 1.
+- The spell acts as a "blink speed" and rules that apply to blink speed also apply to this spell.
+
+**Upcast**: For every MP die above 5, the caster can summon an additional target.
+
+**Global**: The range of the spell is increased to 960 miles. The caster must know the name of the specific entity it is summoning or possess a part of its body or a precious possession to be able to cast the spell on it. The target entity knows the name and scent of the being summoning it when the spell is cast and may refuse the summons if it is unwilling. In this case the spell fails. For every MP die above 12, the caster can summon an additional target.
+
+NB: This spell is experimental and may be unbalanced or unbalancing.
+
+___
 ### Winter's Grasp
 
 |Name|Freeze [Curse, Water, Winter]|
@@ -5312,8 +5344,9 @@ ____
 - Kinetic
     - [Flame Stride](#flame-stride)
     - [Flare](#flare)
-    - [Plague](#plague)
     - [Flood](#flood)
+    - [Plague](#plague)
+    - [Summons](#summons)
 - Other
     - [Summon Fiend](#summon-fiend)
     - [Dominate Mortal](#dominate-mortal)

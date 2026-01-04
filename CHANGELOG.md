@@ -615,5 +615,11 @@ ___
 - Add glossary of common terms.
 - Split quick start into [Overview](00-overview.md) and [Character Creation Quick Reference](01-character-creation.md).
 
+### Movement and Exploration
+- Finally add rules for [cosmic](03-movement-exploration.md#cosmic) and [blink](03-movement-exploration.md#blink) speed.
+
+### Spells
+- Add [Summons](08-spell-list.md#summons) spell.
+
 ### Templates
 - Allow deviation from standard size to 40%.

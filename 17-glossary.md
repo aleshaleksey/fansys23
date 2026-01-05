@@ -176,13 +176,13 @@ The training or instruction in the use of certain tools, equipment, languages or
 - ["Skills: Proficiency Lists"](05-skills.md#proficiency-lists)
 
 ___
-### Rank
+#### Rank
 The number of skill points that a character has in a given skill. It represents the depth of training and experience that a character has in a given skill. A character's rank in a skill cannot be higher than the character's [Level / 2].
 
 - ["Skills: Skill points (ranks)"](05-skills.md#skill-points-ranks)
 
 ___
-### Realm
+#### Realm
 A physical world, planet or dimension. The exact meaning varies depending on the nature of the fantasy world where the game takes place. Different worlds, planets, dimensions, planes and spirit realms are all considered to be different realms.
 
 - ["Movement and Exploration: Supernatural Terrain"](03-movement-exploration.md#supernatural-terrain)

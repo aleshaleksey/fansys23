@@ -229,6 +229,20 @@ ability_name_
 ability_button_
 attr_ab_det_
 
+attr_silver_count
+attr_silver_weight
+
+attr_total_weight
+attr_light_load
+attr_mid_load
+attr_max_load
+
+(1-30)
+inv_item_name_
+inv_item_count_
+inv_item_weight_
+inv_item_desc_
+
 basic_notes
 ability_details_selector
 tabstoggle

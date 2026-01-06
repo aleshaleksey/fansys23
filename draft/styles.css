@@ -1,16 +1,39 @@
+/* NB: THE SHEET IS INTENDED FOR FIREFOX, BRAVE OR CHROME */
+
+/* This is the main character sheet body that contains both
+the invariant header and th erest of the sheet.
+By setting all elements in here we can be strict with background
+colour and element widths. */
 div.new-character-sheet-for-fantasy-worlds {
     background-color: #f2f4ec;
     min-width: 780px;
     max-width: 780px;
 }
 
+/* Since different browsers tend to work a little differently with fonts
+we make sure to keep default font sizes constant */
+/* This was found to be a problem between firefox and brave */
+div,
+table,
+input,
+button,
+textarea,
+th,
+td {
+    font-size: 13.4px;
+}
 
-.sheet-basics-inner2 {
+/* We also hide scrollbars on everything */
+::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+*/ .sheet-basics-inner2 {
     display: grid;
     grid-template-columns: 400px 360px;
     grid-template-rows: 600px;
     grid-template-areas:
-        "attack-tab x"
+        "attack-tab attack-tab"
         /*  */
     ;
     grid-gap: 3px;
@@ -24,6 +47,7 @@ div.attack-tab {
     grid-area: attack-tab;
     align-content: left;
     align-items: left;
+    background-color: #e5e7e3;
 
 }
 
@@ -229,9 +253,12 @@ th.stat-th {
 
 div.skills {
     padding: 4px;
+    max-height: 100%;
     grid-area: skills;
-    display: grid;
-    column-count: 2;
+    display: flex;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
     break-inside: avoid;
     border: 1px solid rgb(104, 101, 101);
     background-color: #e5e7e3;
@@ -278,9 +305,19 @@ div.skill-ranks-max {
     background-color: #e5e7e3;
 }
 
+table.skill-table {
+    max-height: 100%;
+    width: 100%;
+    caption-side: top;
+    padding: 3px;
+}
+
+
+
 input.tiny-input-r {
-    max-width: 40px;
-    width: 40px;
+    max-width: 60px;
+    width: 60px;
+    font-size: 13px;
 }
 
 /* ABILITIES SHEET */
@@ -357,6 +394,63 @@ input[id=ability_name] {
 }
 
 textarea.ab-det {
+    background-color: #e5e7e3;
+    scroll-behavior: smooth;
+    max-height: 200px;
+    max-width: 760px;
+    min-height: 200px;
+    min-width: 760px;
+}
+
+/* INVENTORY SHEET */
+/* INVENTORY SHEET */
+/* INVENTORY SHEET */
+div.sheet-inventory-inner {
+    display: grid;
+    grid-template-columns: 760px;
+    grid-template-rows: 60px 60px 800px 400px;
+    grid-template-areas:
+        "inventory-money"
+        "inventory-weight"
+        "inventory-items"
+        "inventory-notes"
+    ;
+    grid-gap: 3px;
+    background-color: #e5e7e3;
+    border: 1px solid rgb(104, 101, 101);
+    padding: 4px;
+}
+
+div.inventory-money {
+    grid-area: inventory-money;
+}
+
+div.inventory-weight {
+    grid-area: inventory-weight;
+}
+
+div.inventory-items {
+    grid-area: inventory-items;
+    padding: 4px;
+    max-height: 100%;
+    display: flex;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    break-inside: avoid;
+    border: 1px solid rgb(104, 101, 101);
+    background-color: #e5e7e3;
+}
+
+div.inventory-details {
+    grid-area: inventory-details;
+}
+
+input[id=inv_item_name] {
+    width: 272px;
+}
+
+textarea.inv-item-desc {
     background-color: #e5e7e3;
     scroll-behavior: smooth;
     max-height: 200px;
@@ -485,6 +579,72 @@ button[type="roll"] {
 .new-character-sheet-for-fantasy-worlds .sheet-tabstoggle[value="act_abilities"]~div.sheet-abilities,
 .new-character-sheet-for-fantasy-worlds .sheet-tabstoggle[value="act_spells"]~div.sheet-spells,
 .new-character-sheet-for-fantasy-worlds .sheet-tabstoggle[value="act_inventory"]~div.sheet-inventory {
+    display: block;
+}
+
+div.inventory-details-1,
+div.inventory-details-2,
+div.inventory-details-3,
+div.inventory-details-4,
+div.inventory-details-5,
+div.inventory-details-6,
+div.inventory-details-7,
+div.inventory-details-8,
+div.inventory-details-9,
+div.inventory-details-10,
+div.inventory-details-11,
+div.inventory-details-12,
+div.inventory-details-13,
+div.inventory-details-14,
+div.inventory-details-15,
+div.inventory-details-16,
+div.inventory-details-17,
+div.inventory-details-18,
+div.inventory-details-19,
+div.inventory-details-20,
+div.inventory-details-21,
+div.inventory-details-22,
+div.inventory-details-23,
+div.inventory-details-24,
+div.inventory-details-25,
+div.inventory-details-26,
+div.inventory-details-27,
+div.inventory-details-28,
+div.inventory-details-29,
+div.inventory-details-30 {
+    display: none;
+}
+
+.inventory-details-tab[value="1"]~div.inventory-details-1,
+.inventory-details-tab[value="2"]~div.inventory-details-2,
+.inventory-details-tab[value="3"]~div.inventory-details-3,
+.inventory-details-tab[value="4"]~div.inventory-details-4,
+.inventory-details-tab[value="5"]~div.inventory-details-5,
+.inventory-details-tab[value="6"]~div.inventory-details-6,
+.inventory-details-tab[value="7"]~div.inventory-details-7,
+.inventory-details-tab[value="8"]~div.inventory-details-8,
+.inventory-details-tab[value="9"]~div.inventory-details-9,
+.inventory-details-tab[value="10"]~div.inventory-details-10,
+.inventory-details-tab[value="11"]~div.inventory-details-11,
+.inventory-details-tab[value="12"]~div.inventory-details-12,
+.inventory-details-tab[value="13"]~div.inventory-details-13,
+.inventory-details-tab[value="14"]~div.inventory-details-14,
+.inventory-details-tab[value="15"]~div.inventory-details-15,
+.inventory-details-tab[value="16"]~div.inventory-details-16,
+.inventory-details-tab[value="17"]~div.inventory-details-17,
+.inventory-details-tab[value="18"]~div.inventory-details-18,
+.inventory-details-tab[value="19"]~div.inventory-details-19,
+.inventory-details-tab[value="20"]~div.inventory-details-20,
+.inventory-details-tab[value="21"]~div.inventory-details-21,
+.inventory-details-tab[value="22"]~div.inventory-details-22,
+.inventory-details-tab[value="23"]~div.inventory-details-23,
+.inventory-details-tab[value="24"]~div.inventory-details-24,
+.inventory-details-tab[value="25"]~div.inventory-details-25,
+.inventory-details-tab[value="26"]~div.inventory-details-26,
+.inventory-details-tab[value="27"]~div.inventory-details-27,
+.inventory-details-tab[value="28"]~div.inventory-details-28,
+.inventory-details-tab[value="29"]~div.inventory-details-29,
+.inventory-details-tab[value="30"]~div.inventory-details-30 {
     display: block;
 }
 

@@ -263,8 +263,11 @@ div.skill-esb {
 
 div.skill-rem {
     padding: 4px;
+    display: flex;
     grid-area: skill-rem;
     border: 1px solid rgb(104, 101, 101);
+    align-items: center;
+    justify-content: center;
     background-color: #e5e7e3;
 }
 
@@ -279,6 +282,89 @@ input.tiny-input-r {
     max-width: 40px;
     width: 40px;
 }
+
+/* ABILITIES SHEET */
+/* ABILITIES SHEET */
+/* ABILITIES SHEET */
+div.sheet-abilities-inner {
+    display: grid;
+    grid-template-columns: 40px 340px 40px 340px;
+    grid-template-rows: 60px 940px 400px;
+    grid-template-areas:
+        "ab-title        ab-title        ab-title        ab-title"
+        "levels-a        ab-list-a       levels-b        ab-list-b"
+        "ability-details ability-details ability-details ability-details"
+        /*  */
+    ;
+    grid-gap: 3px;
+    background-color: #e5e7e3;
+    border: 1px solid rgb(104, 101, 101);
+    padding: 4px;
+}
+
+div.ab-list-a,
+.ab-list-b,
+.levels-a,
+.levels-b,
+.ability-details {
+    padding: 4px;
+    /* border: 1px solid rgb(104, 101, 101); */
+    background-color: #e5e7e3;
+}
+
+div.ab-list-a {
+    grid-area: ab-list-a
+}
+
+div.ab-list-b {
+    grid-area: ab-list-b
+}
+
+div.levels-a {
+    height: 962px;
+    width: 124%;
+    grid-area: levels-a;
+}
+
+div.levels-b {
+    height: 962px;
+    width: 124%;
+    grid-area: levels-b;
+}
+
+div.ability-details {
+    grid-area: ability-details
+}
+
+div.ab-title {
+    padding: 4px;
+    background-color: #e5e7e3;
+    grid-area: ab-title;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table.levels-table {
+    min-height: 100%;
+    max-height: 100%;
+    height: 100%;
+    min-width: 100%;
+}
+
+input[id=ability_name] {
+    width: 272px;
+}
+
+textarea.ab-det {
+    background-color: #e5e7e3;
+    scroll-behavior: smooth;
+    max-height: 200px;
+    max-width: 760px;
+    min-height: 200px;
+    min-width: 760px;
+}
+
 
 /* BASIC STUFF */
 /* BASIC STUFF */
@@ -388,16 +474,142 @@ button[type="roll"] {
 /* configure the tab buttons */
 .new-character-sheet-for-fantasy-worlds .sheet-basics,
 .new-character-sheet-for-fantasy-worlds .sheet-skills,
-.new-character-sheet-for-fantasy-worlds .sheet-spells,
 .new-character-sheet-for-fantasy-worlds .sheet-abilities,
+.new-character-sheet-for-fantasy-worlds .sheet-spells,
 .new-character-sheet-for-fantasy-worlds .sheet-inventory {
     display: none;
 }
 
 .new-character-sheet-for-fantasy-worlds .sheet-tabstoggle[value="act_basics"]~div.sheet-basics,
 .new-character-sheet-for-fantasy-worlds .sheet-tabstoggle[value="act_skills"]~div.sheet-skills,
-.new-character-sheet-for-fantasy-worlds .sheet-tabstoggle[value="act_spells"]~div.sheet-spells,
 .new-character-sheet-for-fantasy-worlds .sheet-tabstoggle[value="act_abilities"]~div.sheet-abilities,
+.new-character-sheet-for-fantasy-worlds .sheet-tabstoggle[value="act_spells"]~div.sheet-spells,
 .new-character-sheet-for-fantasy-worlds .sheet-tabstoggle[value="act_inventory"]~div.sheet-inventory {
+    display: block;
+}
+
+div.ab-det-1,
+div.ab-det-2,
+div.ab-det-3,
+div.ab-det-4,
+div.ab-det-5,
+div.ab-det-6,
+div.ab-det-7,
+div.ab-det-8,
+div.ab-det-9,
+div.ab-det-10,
+div.ab-det-11,
+div.ab-det-12,
+div.ab-det-13,
+div.ab-det-14,
+div.ab-det-15,
+div.ab-det-16,
+div.ab-det-17,
+div.ab-det-18,
+div.ab-det-19,
+div.ab-det-20,
+div.ab-det-21,
+div.ab-det-22,
+div.ab-det-23,
+div.ab-det-24,
+div.ab-det-25,
+div.ab-det-26,
+div.ab-det-27,
+div.ab-det-28,
+div.ab-det-29,
+div.ab-det-30,
+div.ab-det-31,
+div.ab-det-32,
+div.ab-det-33,
+div.ab-det-34,
+div.ab-det-35,
+div.ab-det-36,
+div.ab-det-37,
+div.ab-det-38,
+div.ab-det-39,
+div.ab-det-40,
+div.ab-det-41,
+div.ab-det-42,
+div.ab-det-43,
+div.ab-det-44,
+div.ab-det-45,
+div.ab-det-46,
+div.ab-det-47,
+div.ab-det-48,
+div.ab-det-49,
+div.ab-det-50,
+div.ab-det-51,
+div.ab-det-52,
+div.ab-det-53,
+div.ab-det-54,
+div.ab-det-55,
+div.ab-det-56,
+div.ab-det-57,
+div.ab-det-58,
+div.ab-det-59,
+div.ab-det-60 {
+    display: none;
+}
+
+.abilities-details[value="1"]~div.ab-det-1,
+.abilities-details[value="2"]~div.ab-det-2,
+.abilities-details[value="3"]~div.ab-det-3,
+.abilities-details[value="4"]~div.ab-det-4,
+.abilities-details[value="5"]~div.ab-det-5,
+.abilities-details[value="6"]~div.ab-det-6,
+.abilities-details[value="7"]~div.ab-det-7,
+.abilities-details[value="8"]~div.ab-det-8,
+.abilities-details[value="9"]~div.ab-det-9,
+.abilities-details[value="10"]~div.ab-det-10,
+.abilities-details[value="11"]~div.ab-det-11,
+.abilities-details[value="12"]~div.ab-det-12,
+.abilities-details[value="13"]~div.ab-det-13,
+.abilities-details[value="14"]~div.ab-det-14,
+.abilities-details[value="15"]~div.ab-det-15,
+.abilities-details[value="16"]~div.ab-det-16,
+.abilities-details[value="17"]~div.ab-det-17,
+.abilities-details[value="18"]~div.ab-det-18,
+.abilities-details[value="19"]~div.ab-det-19,
+.abilities-details[value="20"]~div.ab-det-20,
+.abilities-details[value="21"]~div.ab-det-21,
+.abilities-details[value="22"]~div.ab-det-22,
+.abilities-details[value="23"]~div.ab-det-23,
+.abilities-details[value="24"]~div.ab-det-24,
+.abilities-details[value="25"]~div.ab-det-25,
+.abilities-details[value="26"]~div.ab-det-26,
+.abilities-details[value="27"]~div.ab-det-27,
+.abilities-details[value="28"]~div.ab-det-28,
+.abilities-details[value="29"]~div.ab-det-29,
+.abilities-details[value="30"]~div.ab-det-30,
+.abilities-details[value="31"]~div.ab-det-31,
+.abilities-details[value="32"]~div.ab-det-32,
+.abilities-details[value="33"]~div.ab-det-33,
+.abilities-details[value="34"]~div.ab-det-34,
+.abilities-details[value="35"]~div.ab-det-35,
+.abilities-details[value="36"]~div.ab-det-36,
+.abilities-details[value="37"]~div.ab-det-37,
+.abilities-details[value="38"]~div.ab-det-38,
+.abilities-details[value="39"]~div.ab-det-39,
+.abilities-details[value="40"]~div.ab-det-40,
+.abilities-details[value="41"]~div.ab-det-41,
+.abilities-details[value="42"]~div.ab-det-42,
+.abilities-details[value="43"]~div.ab-det-43,
+.abilities-details[value="44"]~div.ab-det-44,
+.abilities-details[value="45"]~div.ab-det-45,
+.abilities-details[value="46"]~div.ab-det-46,
+.abilities-details[value="47"]~div.ab-det-47,
+.abilities-details[value="48"]~div.ab-det-48,
+.abilities-details[value="49"]~div.ab-det-49,
+.abilities-details[value="50"]~div.ab-det-50,
+.abilities-details[value="51"]~div.ab-det-51,
+.abilities-details[value="52"]~div.ab-det-52,
+.abilities-details[value="53"]~div.ab-det-53,
+.abilities-details[value="54"]~div.ab-det-54,
+.abilities-details[value="55"]~div.ab-det-55,
+.abilities-details[value="56"]~div.ab-det-56,
+.abilities-details[value="57"]~div.ab-det-57,
+.abilities-details[value="58"]~div.ab-det-58,
+.abilities-details[value="59"]~div.ab-det-59,
+.abilities-details[value="60"]~div.ab-det-60 {
     display: block;
 }

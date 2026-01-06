@@ -224,4 +224,11 @@ wr_dbonus_
 wr_dam_dice_
 wr_dbonus_sum_
 
+(1-60)
+ability_name_
+ability_button_
+attr_ab_det_
+
 basic_notes
+ability_details_selector
+tabstoggle

@@ -1,0 +1,2747 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="new-character-sheet-for-fantasy-worlds">
+        <div class="header">
+            <div class="h-name-main-table">
+                <!-- The name goes here -->
+                <!-- Size and level parameters go here. -->
+                <div class="hl-name">
+                    <table class="stats-table">
+                        <tbody>
+                            <tr>
+                                <th>Name:</th>
+                                <td><input class="text-input-big"
+                                        name="attr_character_name"></td>
+                            </tr>
+                            <tr>
+                                <th>Level</th>
+                                <td><input class="text-input-small"
+                                        name="attr_lvl" type="number"></td>
+                            </tr>
+                            <tr>
+                                <th>Size</th>
+                                <th><select name="attr_char_size">
+                                        <option value="-2">Tiny</option>
+                                        <option value="-1">Small</option>
+                                        <option value="0">Medium</option>
+                                        <option value="1">Large</option>
+                                        <option value="2">Huge</option>
+                                        <option value="3">Gargantuan</option>
+                                    </select></th>
+                            </tr>
+                            <tr>
+                                <th>TP</th>
+                                <td><input class="text-input-small"
+                                        name="attr_char_template_lvl"
+                                        type="number"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- Initiative and roll box go here. -->
+                <div class="h-rki">
+                    <table class="general-table">
+                        <tbody>
+                            <tr>
+                                <th><label>Roll</label></th>
+                                <td><span><select class="adv-selector"
+                                            name="attr_nd12">
+                                            <option value="3d12dh1">Disadvantage
+                                            </option>
+                                            <option value="2d12">Normal</option>
+                                            <option value="3d12dl1">Advantage
+                                            </option>
+                                        </select></span></td>
+                            </tr>
+                            <tr>
+                                <th><button type="roll"
+                                        value="/r @{nd12} + @{init_total}"
+                                        name="roll_init"
+                                        class="btn ui-draggable">
+                                        Initiative
+                                    </button></th>
+                                <td><input class="tiny-input"
+                                        name="attr_init_total" type="number"
+                                        disabled="true"
+                                        value="{@{dex_bonus}+@{init_bonus}}"
+                                        data-formula="{@{dex_bonus}+@{init_bonus}}">
+                                    +
+                                    <input class="tiny-input"
+                                        name="attr_init_bonus" type="number"
+                                        value="0">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- The template box -->
+                <div class="h-template">
+                    <table class="general-table">
+                        <tbody>
+                            <tr>
+                                <th class="main-table2-cell">Template</th>
+                                <td><input name="attr_char_template"
+                                        class="text-input" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="main-table2-cell">Height</th>
+                                <td><input name="attr_char_height" type="text"
+                                        class="text-input"></td>
+                            </tr>
+                            <tr>
+                                <th class="main-table2-cell">Weight</th>
+                                <td><input name="attr_char_weight" type="text"
+                                        class="text-input"></td>
+
+                            </tr>
+                            <tr></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="h-bns">
+                    <table class="general-table">
+                        <tbody>
+                            <tr>
+                                <th class="main-table2-cell">Base</th>
+                                <td><input class="tiny-input" disabled="true"
+                                        type="number" name="attr_base"
+                                        value="{ceil(@{lvl}/5)}"
+                                        data-formula="{ceil(@{lvl}/5)}">
+                                    <input hidden="true" class="tiny-input"
+                                        disabled="true" type="number"
+                                        name="attr_base_plus" value="@{base}+1"
+                                        data-formula="@{base}+1">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="main-table2-cell">Nat</th>
+                                <td><input class="tiny-input" disabled="true"
+                                        type="number" name="attr_nat"
+                                        value="{ceil(@{sp_dice_total}/6)}"
+                                        data-formula="{ceil(@{sp_dice_total}/6)}">
+                            </tr>
+                            <tr>
+                                <th class="main-table2-cell">Sup</th>
+                                <td><input class="tiny-input" disabled="true"
+                                        type="number" name="attr_sup"
+                                        value="{ceil(@{mp_dice_total}/6)}"
+                                        data-formula="{ceil(@{mp_dice_total}/6)}">
+                                </td>
+
+                            </tr>
+                            <tr></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <p></p>
+        <!-- HEADER END -->
+        <!-- SWITCH FOR TABS START -->
+        <!-- Change value to act_basics -->
+        <input type="hidden" id="attr_sheetTab" class="sheet-tabstoggle"
+            name="attr_sheetTab" value="act_basics">
+        <div>
+            <button type="action" id="act_basics"
+                name="act_basics">Basics</button>
+            <button type="action" id="act_skills"
+                name="act_skills">Skills</button>
+            <button type="action" id="act_abilities"
+                name="act_abilities">Abilities</button>
+            <button type="action" id="act_spells"
+                name="act_spells">Spells</button>
+            <button type="action" id="act_inventory"
+                name="act_inventory">Inventory</button>
+        </div>
+        <!-- FIRST TAB START -->
+        <div class="sheet-basics">
+            <div class="sheet-basics-inner">
+                <!-- Movement modalities in header -->
+                <div class="h-movement">
+                    <table class="general-table">
+                        <tbody>
+                            <tr>
+                                <th>Modality</th>
+                                <th>Speed (ft)</th>
+                            </tr>
+                            <tr>
+                                <td>Walk</td>
+                                <td><input name="attr_walk_speed"
+                                        class="tiny-input" type="number"></td>
+                            </tr>
+                            <tr>
+                                <td>Climb</td>
+                                <td><input name="attr_climb_speed"
+                                        class="tiny-input" type="number"></td>
+                            </tr>
+                            <tr>
+                                <td>Swim</td>
+                                <td><input name="attr_swim_speed"
+                                        class="tiny-input" type="number"></td>
+                            </tr>
+                            <tr>
+                                <td>Dig</td>
+                                <td><input name="attr_dig_speed"
+                                        class="tiny-input" type="number"></td>
+                            </tr>
+                            <tr>
+                                <td>Fly</td>
+                                <td><input name="attr_fly_speed"
+                                        class="tiny-input" type="number"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="stats-table">
+                    <table class="stats-table">
+                        <tbody>
+                            <tr class="stat-tr">
+                                <th class="stat-th">
+                                    <button type="roll"
+                                        value="/r @{nd12} + @{str_bonus}"
+                                        name="roll_str"
+                                        class="btn ui-draggable">
+                                        Str
+                                    </button><input class=" tiny-input-big"
+                                        name="attr_str_bonus" type="number"
+                                        disabled="true"
+                                        value="{floor(@{stat_str}/2-5)}"
+                                        data-formula="{floor(@{stat_str}/2-5)}">
+                                    <div class="cell-h-div"><input
+                                            class="tiny-input-small"
+                                            name="attr_stat_str" type="number">
+                                    </div>
+                                </th>
+                            </tr>
+
+                            <tr class="stat-tr">
+                                <th class="stat-th">
+                                    <button type="roll"
+                                        value="/r @{nd12} + @{dex_bonus}"
+                                        name="roll_dex"
+                                        class="btn ui-draggable">
+                                        Dex
+                                    </button><input class="tiny-input-big"
+                                        name="attr_dex_bonus" type="number"
+                                        disabled="true"
+                                        value="{{floor(@{stat_dex}/2-5)}}"
+                                        data-formula="{{floor(@{stat_dex}/2-5)}}">
+                                    <div class="cell-h-div"><input
+                                            class=" tiny-input-small"
+                                            name="attr_stat_dex" type="number">
+                                    </div>
+                                </th>
+                            </tr>
+
+                            <tr class="stat-tr">
+                                <th class="stat-th">
+                                    <button type="roll"
+                                        value="/r @{nd12} + @{con_bonus}"
+                                        name="roll_con"
+                                        class="btn ui-draggable">
+                                        Con
+                                    </button><input class="tiny-input-big"
+                                        name="attr_con_bonus" type="number"
+                                        disabled="true"
+                                        value="{floor(@{stat_con}/2-5)}"
+                                        data-formula="{floor(@{stat_con}/2-5)}">
+                                    <div class="cell-h-div"><input
+                                            class=" tiny-input-small"
+                                            name="attr_stat_con" type="number">
+                                    </div>
+                                </th>
+                            </tr>
+
+                            <tr class="stat-tr">
+                                <th class="stat-th">
+                                    <button type="roll"
+                                        value="/r @{nd12} + @{int_bonus}"
+                                        name="roll_int"
+                                        class="btn ui-draggable">
+                                        Int
+                                    </button><input class="tiny-input-big"
+                                        name="attr_int_bonus" type="number"
+                                        disabled="true"
+                                        value="{floor(@{stat_int}/2-5)}"
+                                        data-formula="{floor(@{stat_int}/2-5)}">
+                                    <div class="cell-h-div"><input
+                                            class="tiny-input-small"
+                                            name="attr_stat_int" type="number">
+                                    </div>
+                                </th>
+                            </tr>
+
+                            <tr class="stat-tr">
+                                <th class="stat-th">
+                                    <button type="roll"
+                                        value="/r @{nd12} + @{wis_bonus}"
+                                        name="roll_wis"
+                                        class="btn ui-draggable">
+                                        Wis
+                                    </button><input class="tiny-input-big"
+                                        name="attr_wis_bonus" type="number"
+                                        disabled="true"
+                                        value="{floor(@{stat_wis}/2-5)}"
+                                        data-formula="{floor(@{stat_wis}/2-5)}">
+                                    <div class="cell-h-div"><input
+                                            class="tiny-input-small"
+                                            name="attr_stat_wis" type="number">
+                                    </div>
+                                </th>
+                            </tr>
+
+                            <tr class="stat-tr">
+                                <th class="stat-th">
+                                    <button type="roll"
+                                        value="/r @{nd12} + @{cha_bonus}"
+                                        name="roll_cha"
+                                        class="btn ui-draggable">
+                                        Cha
+                                    </button><input class="tiny-input-big"
+                                        name="attr_cha_bonus" type="number"
+                                        disabled="true"
+                                        value="{floor(@{stat_cha}/2-5)}"
+                                        data-formula="{floor(@{stat_cha}/2-5)}">
+                                    <div class="cell-h-div"><input
+                                            class="tiny-input-small"
+                                            name="attr_stat_cha" type="number">
+                                    </div>
+                                </th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="save-tab">
+                    <table class="save-table">
+                        <tbody>
+                            <tr>
+                                <th></th>
+                                <th>Save</th>
+                                <th>Prof</th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <button type="roll"
+                                        value="/r @{nd12} + @{save_bonus_str}"
+                                        name="roll_str_save"
+                                        class="btn ui-draggable">
+                                        Str
+                                    </button>
+                                </th>
+                                <th><input name="attr_save_bonus_str"
+                                        disabled="true" type="number"
+                                        class="tiny-input"
+                                        value="{@{base}+@{save_prof_str}*@{nat}+floor(@{stat_str}/2-5)}"
+                                        data-formula="{@{base}+@{save_prof_str}*@{nat}+floor(@{stat_str}/2-5)}">
+                                </th>
+                                <th><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_save_prof_str" value="1">
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <button type="roll"
+                                        value="/r @{nd12} + @{save_bonus_dex}"
+                                        name="roll_dex_save"
+                                        class="btn ui-draggable">
+                                        Dex
+                                    </button>
+                                </th>
+                                <th><input name="attr_save_bonus_dex"
+                                        disabled="true" type="number"
+                                        class="tiny-input"
+                                        value="{@{base}+@{nat}*@{save_prof_dex}+floor(@{stat_dex}/2-5)}"
+                                        data-formula="{@{base}+@{nat}*@{save_prof_dex}+floor(@{stat_dex}/2-5)}">
+                                </th>
+                                <th><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_save_prof_dex" value="1">
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <button type="roll"
+                                        value="/r @{nd12} + @{save_bonus_con}"
+                                        name="roll_con_save"
+                                        class="btn ui-draggable">
+                                        Con
+                                    </button>
+                                </th>
+                                <th><input name="attr_save_bonus_con"
+                                        disabled="true" type="number"
+                                        class="tiny-input"
+                                        value="{@{base}+@{nat}*@{save_prof_con}+floor(@{stat_con}/2-5)}"
+                                        data-formula="{@{base}+@{nat}*@{save_prof_con}+floor(@{stat_con}/2-5)}">
+                                </th>
+                                <th><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_save_prof_con" value="1">
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <button type="roll"
+                                        value="/r @{nd12} + @{save_bonus_int}"
+                                        name="roll_int_save"
+                                        class="btn ui-draggable">
+                                        Int
+                                    </button>
+                                </th>
+                                <th><input name="attr_save_bonus_int"
+                                        disabled="true" type="number"
+                                        class="tiny-input"
+                                        value="{@{base}+@{sup}*@{save_prof_int}+floor(@{stat_int}/2-5)}"
+                                        data-formula="{@{base}+@{sup}*@{save_prof_int}+floor(@{stat_int}/2-5)}">
+                                </th>
+                                <th><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_save_prof_int" value="1">
+                                </th>
+                            </tr>
+                            <tr>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <button type="roll"
+                                        value="/r @{nd12} + @{save_bonus_wis}"
+                                        name="roll_wis_save"
+                                        class="btn ui-draggable">
+                                        Wis
+                                    </button>
+                                </th>
+                                <th><input name="attr_save_bonus_wis"
+                                        disabled="true" type="number"
+                                        class="tiny-input"
+                                        value="{@{base}+@{sup}*@{save_prof_wis}+floor(@{stat_wis}/2-5)}"
+                                        data-formula="{@{base}+@{sup}*@{save_prof_wis}+floor(@{stat_wis}/2-5)}">
+                                </th>
+                                <th><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_save_prof_wis" value="1">
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <button type="roll"
+                                        value="/r @{nd12} + @{save_bonus_cha}"
+                                        name="roll_cha_save"
+                                        class="btn ui-draggable">
+                                        Cha
+                                    </button>
+                                </th>
+                                <th><input name="attr_save_bonus_cha"
+                                        disabled="true" type="number"
+                                        class="tiny-input"
+                                        value="{@{base}+@{sup}*@{save_prof_cha}+floor(@{stat_cha}/2-5)}"
+                                        data-formula="{@{base}+@{sup}*@{save_prof_cha}+floor(@{stat_cha}/2-5)}">
+                                </th>
+                                <th><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_save_prof_cha" value="1">
+                                </th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="b-notes">
+                    <textarea class="b-notes" name="attr_basic_notes"
+                        value="{@{basic_notes}}"
+                        placeholder="Character quick-notes"></textarea>
+                </div>
+                <div class="thr-tab">
+                    <table class="save-table">
+                        <tbody>
+                            <tr>
+                                <th></th>
+                                <th>Thr</th>
+                                <th>Attack</th>
+                            </tr>
+                            <tr>
+                                <th><button type="roll"
+                                        value="/r @{nd12}+@{base}+@{nat}+@{str_bonus}"
+                                        name="roll_str_attack"
+                                        class="btn ui-draggable">
+                                        Str!
+                                    </button></th>
+                                <td><input class="tiny-input"
+                                        name="attr_threshold_str"
+                                        disabled="true" type="number"
+                                        value="{{13+@{str_bonus}+@{nat}+@{base}}}"
+                                        data-formula="{{13+@{str_bonus}+@{nat}+@{base}}}">
+                                </td>
+                                <td><input class="tiny-input"
+                                        name="attr_attack_mod_str"
+                                        disabled="true" type="number"
+                                        value="{{@{str_bonus}+@{nat}+@{base}}}"
+                                        data-formula="{{@{str_bonus}+@{nat}+@{base}}}">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><button type="roll"
+                                        value="/r @{nd12}+@{base}+@{nat}+@{dex_bonus}"
+                                        name="roll_dex_attack"
+                                        class="btn ui-draggable">
+                                        Dex!
+                                    </button></th>
+                                <td><input class="tiny-input"
+                                        name="attr_threshold_dex"
+                                        disabled="true" type="number"
+                                        value="{{13+@{dex_bonus}+@{nat}+@{base}}}"
+                                        data-formula="{{13+@{dex_bonus}+@{nat}+@{base}}}">
+                                </td>
+                                <td><input class="tiny-input"
+                                        name="attr_attack_mod_dex"
+                                        disabled="true" type="number"
+                                        value="{{@{dex_bonus}+@{nat}+@{base}}}"
+                                        data-formula="{{@{dex_bonus}+@{nat}+@{base}}}">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><button type="roll"
+                                        value="/r @{nd12}+@{base}+@{sup}+@{int_bonus}"
+                                        name="roll_int_attack"
+                                        class="btn ui-draggable">
+                                        Int!
+                                    </button></th>
+                                <td><input class="tiny-input"
+                                        name="attr_threshold_int"
+                                        disabled="true" type="number"
+                                        value="{{13+@{int_bonus}+@{sup}}}"
+                                        data-formula="{{13+@{int_bonus}+@{sup}}}">
+                                </td>
+                                <td><input class="tiny-input"
+                                        name="attr_attack_mod_int"
+                                        disabled="true" type="number"
+                                        value="{{@{int_bonus}+@{sup}+@{base}}}"
+                                        data-formula="{{@{int_bonus}+@{sup}+@{base}}}">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><button type="roll"
+                                        value="/r @{nd12}+@{base}+@{sup}+@{wis_bonus}"
+                                        name="roll_wis_attack"
+                                        class="btn ui-draggable">
+                                        Wis!
+                                    </button></th>
+                                <td><input class="tiny-input"
+                                        name="attr_threshold_wis"
+                                        disabled="true" type="number"
+                                        value="{{13+@{wis_bonus}+@{sup}}}"
+                                        data-formula="{{13+@{wis_bonus}+@{sup}+@{base}}}">
+                                </td>
+                                <td><input class="tiny-input"
+                                        name="attr_attack_mod_wis"
+                                        disabled="true" type="number"
+                                        value="{{@{wis_bonus}+@{sup}}}"
+                                        data-formula="{{@{wis_bonus}+@{sup}+@{base}}}">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="hit-box">
+                    <table class="save-table">
+                        <caption><strong>HiT</strong></caption>
+                        <tbody>
+                            <tr>
+                                <th class="hit-main"><input
+                                        class="tiny-input-huge"
+                                        name="attr_hit_threshold"
+                                        disabled="true" type="number"
+                                        value="{{@{evasion_bonus}+@{base}+@{armour}+@{shield}+@{deflection}+@{char_size}+@{hit_extra}+10}}"
+                                        data-formula="{{@{evasion_bonus}+@{base}+@{armour}+@{shield}+@{deflection}+@{char_size}+@{hit_extra}+10}}">
+                                </th>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="hit-table">
+                        <tbody>
+                            <tr>
+                                <td>Evasion</td>
+                                <td><input class="tiny-input-small"
+                                        name="attr_evasion_bonus"
+                                        disabled="true" type="number"
+                                        value="{{@{dex_bonus}-(@{char_size})}}"
+                                        data-formula="{{@{dex_bonus}-(@{char_size})}}">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Armour</td>
+                                <td><input class="tiny-input-small"
+                                        name="attr_armour" type="number"
+                                        value="0">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Shield</td>
+                                <td><input class="tiny-input-small"
+                                        name="attr_shield" type="number"
+                                        value="0">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Deflection</td>
+                                <td><input class="tiny-input-small"
+                                        name="attr_deflection" type="number"
+                                        value="0"></td>
+                            </tr>
+                            <tr>
+                                <td>Other</td>
+                                <td><input class="tiny-input-small"
+                                        name="attr_hit_extra" type="number"
+                                        value="0">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="rest-box">
+                    <hr>
+                    </hr>
+                    <table class="resource-table">
+                        <caption><strong>On rest regain:</strong></caption>
+                        <tbody>
+                            <tr>
+                                <td><input type="number" class="tiny-input"
+                                        disabled="true"
+                                        value="{ciel(@{sp_dice_total}/2)}"
+                                        data-formula="{@{sp_dice_total}/2}">
+                                </td>
+                                <th>SP dice</th>
+                            </tr>
+                            <tr>
+                                <td><input type="number" class="tiny-input"
+                                        disabled="true"
+                                        value="{ciel(@{mp_dice_total}/2)}"
+                                        data-formula="{@{mp_dice_total}/2}">
+                                </td>
+                                <th>MP dice</th>
+                            </tr>
+                            <tr>
+                                <td><input type="number" class="tiny-input"
+                                        disabled="true"
+                                        value="{@{sp_dice_total}}"
+                                        data-formula="{@{sp_dice_total}}">
+                                </td>
+                                <th>Stamina</th>
+                            </tr>
+                            <tr>
+                                <td><input type="number" class="tiny-input"
+                                        disabled="true"
+                                        value="{@{mp_dice_total}}"
+                                        data-formula="{@{mp_dice_total}}">
+                                </td>
+                                <th>Mana</th>
+                            </tr>
+                            <tr>
+                                <td>+1 HP</td>
+                                <th>Long rest</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="hp-box">
+                    <hr>
+                    </hr>
+                    <table class="resource-table">
+                        <tbody>
+                            <tr>
+                                <th></th>
+                                <th>HP</th>
+                                <th>Stamina</th>
+                                <th>Mana</th>
+                                <th>SP absorb</th>
+                                <th>MP absorb</th>
+                            </tr>
+                            <tr>
+                                <th>Max</th>
+                                <td><input name="attr_hp_max" type="number"
+                                        class="tiny-input" disabled="true"
+                                        value="{@{lvl}+@{cha_bonus}+@{con_bonus}}"
+                                        data-formula="{@{lvl}+@{cha_bonus}+@{con_bonus}}">
+                                </td>
+                                <td><input name="attr_mp_max" type="number"
+                                        class="tiny-input" disabled="true"
+                                        value="{@{sp_dice_total}*2+@{lvl}*@{con_bonus}}"
+                                        data-formula="{@{sp_dice_total}*2+@{lvl}*@{con_bonus}}">
+                                </td>
+                                <td><input name="attr_mp_max" type="number"
+                                        class="tiny-input" disabled="true"
+                                        value="{@{mp_dice_total}*2+@{lvl}*@{cha_bonus}}"
+                                        data-formula="{@{mp_dice_total}*2+@{lvl}*@{cha_bonus}}">
+                                </td>
+                                <td><input name="attr_mp_absorb" type="number"
+                                        class="tiny-input" disabled="true"
+                                        value="{@{sp_dice_total}*2+@{con_bonus}}"
+                                        data-formula="{@{sp_dice_total}*2+@{con_bonus}}">
+                                </td>
+                                <td><input name="attr_mp_absorb" type="number"
+                                        class="tiny-input" disabled="true"
+                                        value="{@{mp_dice_total}*2+@{cha_bonus}}"
+                                        data-formula="{@{mp_dice_total}*2+@{cha_bonus}}">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Current</th>
+                                <td><input name="attr_hp" value="0"
+                                        class="tiny-input" type="number">
+                                </td>
+                                <td><input name="attr_sp" value="0"
+                                        class="tiny-input" type="number">
+                                </td>
+                                <td><input name="attr_mp" value="0"
+                                        class="tiny-input" type="number">
+                                </td>
+                                <th>-</th>
+                                <th>-</th>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <th>Current</th>
+                                <th></th>
+                                <td><input name="attr_sp_dice" value="0"
+                                        class="tiny-input" type="number">
+                                </td>
+                                <td><input name="attr_mp_dice" value="0"
+                                        class="tiny-input" type="number">
+                                </td>
+                                <th>Unassigned</th>
+                            </tr>
+                            <tr>
+                                <th>Max</th>
+                                <th></th>
+                                <td><input name="attr_sp_dice_total"
+                                        type="number" class="tiny-input"
+                                        value="1">
+                                </td>
+                                <td><input name="attr_mp_dice_total"
+                                        type="number" class="tiny-input"
+                                        value="1">
+                                </td>
+                                <td><input name="attr_unassigned_dice"
+                                        type="number" class="tiny-input"
+                                        disabled="true"
+                                        value="{{2+@{lvl}*3-(@{mp_dice_total}+@{sp_dice_total})}}"
+                                        data-formula="{{2+@{lvl}*3-(@{mp_dice_total}+@{sp_dice_total})}}">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <th></th>
+                                <th>SP Dice</th>
+                                <th>MP Dice</th>
+                                <th></th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- INNER FOR SECOND PART OF INTO STARTS HERE -->
+            <!-- IT CONTAINS WEAPONS AND CHARACTER ABILITIES -->
+            <div class="sheet-basics-inner2">
+                <div class="attack-tab">
+                    <table class="save-table">
+                        <tbody>
+                            <tr>
+                                <th>Weapon/Ability</th>
+                                <th>Attack</th>
+                                <th>Dmg</th>
+                                <th>Attack Stat</th>
+                                <th>Attack bonus</th>
+                                <th>Dmg dice</th>
+                                <th>Dmg Stat</th>
+                                <th>Dmg bonus</th>
+                                <th></th>
+                            </tr>
+                            <tr class="weapon_row_1">
+                                <!-- Weapon name -->
+                                <td><input class="wr_name" name="attr_wr_name_1"
+                                        type="text">
+                                </td>
+                                <!-- Weapon attack bonus show -->
+                                <td><input class="tiny-input"
+                                        name="attr_wr_attack_1" type="number"
+                                        disabled="true"
+                                        value="{@{wr_stat_1}+@{wr_attack_bonus_1}}"
+                                        data-formula="{@{wr_stat_1}+@{wr_attack_bonus_1}}">
+                                </td>
+                                <!-- Weapon damage show -->
+                                <!-- First do an actual damage bonus sum -->
+                                <td><input class="tiny-input"
+                                        name="attr_dbonus_sum_1" type="number"
+                                        hidden="true" disabled="true"
+                                        value="{@{wr_dbonus_1}+@{wr_dstat_1}}">
+                                    <!-- Show the actual damage -->
+                                    <input class="weapon-damage-show"
+                                        disabled="true"
+                                        value="{@{wr_dam_dice_1}+@{wr_dbonus_sum_1}}"
+                                        data-formula="{@{wr_dam_dice_1}+@{wr_dbonus_sum_1}}">
+                                </td>
+                                <!-- Weapon stat selector -->
+                                <td><select class="stat-select"
+                                        name="attr_wr_stat_1">
+                                        <option value="{@{attack_mod_str}}">
+                                            Str</option>
+                                        <option value="{@{attack_mod_dex}}">
+                                            Dex</option>
+                                        <option value="{@{attack_mod_int}}">
+                                            Int</option>
+                                        <option value="{@{attack_mod_wis}}">
+                                            Wis</option>
+                                    </select></td>
+                                <!-- The miscellaneous attack bonus -->
+                                <td><input class="tiny-input-small"
+                                        name="attr_wr_attack_bonus_1"
+                                        type="number">
+                                </td>
+                                <!-- The damage dice input box -->
+                                <td><input class="dice-input"
+                                        name="attr_wr_dam_dice_1" type="text"
+                                        value=""></td>
+                                <!-- Damage stat selector -->
+                                <td><select class="stat-select"
+                                        name="attr_wr_dstat_1">
+                                        <option value="{@{str_bonus}}">
+                                            Str
+                                        </option>
+                                        <option value="{@{dex_bonus}}">
+                                            Dex
+                                        </option>
+                                        <option value="{@{int_bonus}}">
+                                            Int
+                                        </option>
+                                        <option value="{@{wis_bonus}}">
+                                            Wis
+                                        </option>
+                                    </select></td>
+                                <!-- The damage bonus input box -->
+                                <td><input class="tiny-input-small"
+                                        name="attr_wr_dbonus_sum_1"
+                                        type="number" value=""></td>
+                                <!-- The roller -->
+                                <td class="wr_del_1"><button type="roll"
+                                        value="&amp;{template:default}{{name=@{wr_name_1} (@{character_name}) }}{{attack=[[@{nd12}+@{wr_attack_1}]]}}{{damage=[[@{wr_dam_dice_1}+@{wr_dbonus_sum_1}]]}}"
+                                        name="roll_wp_1"
+                                        class="btn ui-draggable">
+                                        Roll!
+                                    </button></td>
+                            </tr>
+                            <tr class="weapon_row_2">
+                                <!-- Weapon name -->
+                                <td><input class="wr_name" name="attr_wr_name_2"
+                                        type="text">
+                                </td>
+                                <!-- Weapon attack bonus show -->
+                                <td><input class="tiny-input"
+                                        name="attr_wr_attack_2" type="number"
+                                        disabled="true"
+                                        value="{@{wr_stat_2}+@{wr_attack_bonus_2}}"
+                                        data-formula="{@{wr_stat_2}+@{wr_attack_bonus_2}}">
+                                </td>
+                                <!-- Weapon damage show -->
+                                <!-- First do an actual damage bonus sum -->
+                                <td><input class="tiny-input"
+                                        name="attr_dbonus_sum_2" type="number"
+                                        hidden="true" disabled="true"
+                                        value="{@{wr_dbonus_2}+@{wr_dstat_2}}">
+                                    <!-- Show the actual damage -->
+                                    <input class="weapon-damage-show"
+                                        disabled="true"
+                                        value="{@{wr_dam_dice_2}+@{wr_dbonus_sum_2}}"
+                                        data-formula="{@{wr_dam_dice_2}+@{wr_dbonus_sum_2}}">
+                                </td>
+                                <!-- Weapon stat selector -->
+                                <td><select class="stat-select"
+                                        name="attr_wr_stat_2">
+                                        <option value="{@{attack_mod_str}}">
+                                            Str</option>
+                                        <option value="{@{attack_mod_dex}}">
+                                            Dex</option>
+                                        <option value="{@{attack_mod_int}}">
+                                            Int</option>
+                                        <option value="{@{attack_mod_wis}}">
+                                            Wis</option>
+                                    </select></td>
+                                <!-- The miscellaneous attack bonus -->
+                                <td><input class="tiny-input-small"
+                                        name="attr_wr_attack_bonus_2"
+                                        type="number">
+                                </td>
+                                <!-- The damage dice input box -->
+                                <td><input class="dice-input"
+                                        name="attr_wr_dam_dice_2" type="text"
+                                        value=""></td>
+                                <!-- Damage stat selector -->
+                                <td><select class="stat-select"
+                                        name="attr_wr_dstat_2">
+                                        <option value="{@{str_bonus}}">
+                                            Str
+                                        </option>
+                                        <option value="{@{dex_bonus}}">
+                                            Dex
+                                        </option>
+                                        <option value="{@{int_bonus}}">
+                                            Int
+                                        </option>
+                                        <option value="{@{wis_bonus}}">
+                                            Wis
+                                        </option>
+                                    </select></td>
+                                <!-- The damage bonus input box -->
+                                <td><input class="tiny-input-small"
+                                        name="attr_wr_dbonus_sum_2"
+                                        type="number" value=""></td>
+                                <!-- The roller -->
+                                <td class="wr_del_2"><button type="roll"
+                                        value="&amp;{template:default}{{name=@{wr_name_2} (@{character_name}) }}{{attack=[[@{nd12}+@{wr_attack_2}]]}}{{damage=[[@{wr_dam_dice_2}+@{wr_dbonus_sum_2}]]}}"
+                                        name="roll_wp_2"
+                                        class="btn ui-draggable">
+                                        Roll!
+                                    </button></td>
+                            </tr>
+                            <tr class="weapon_row_3">
+                                <!-- Weapon name -->
+                                <td><input class="wr_name" name="attr_wr_name_3"
+                                        type="text">
+                                </td>
+                                <!-- Weapon attack bonus show -->
+                                <td><input class="tiny-input"
+                                        name="attr_wr_attack_3" type="number"
+                                        disabled="true"
+                                        value="{@{wr_stat_3}+@{wr_attack_bonus_3}}"
+                                        data-formula="{@{wr_stat_3}+@{wr_attack_bonus_3}}">
+                                </td>
+                                <!-- Weapon damage show -->
+                                <!-- First do an actual damage bonus sum -->
+                                <td><input class="tiny-input"
+                                        name="attr_dbonus_sum_3" type="number"
+                                        hidden="true" disabled="true"
+                                        value="{@{wr_dbonus_3}+@{wr_dstat_3}}">
+                                    <!-- Show the actual damage -->
+                                    <input class="weapon-damage-show"
+                                        disabled="true"
+                                        value="{@{wr_dam_dice_3}+@{wr_dbonus_sum_3}}"
+                                        data-formula="{@{wr_dam_dice_3}+@{wr_dbonus_sum_3}}">
+                                </td>
+                                <!-- Weapon stat selector -->
+                                <td><select class="stat-select"
+                                        name="attr_wr_stat_3">
+                                        <option value="{@{attack_mod_str}}">
+                                            Str</option>
+                                        <option value="{@{attack_mod_dex}}">
+                                            Dex</option>
+                                        <option value="{@{attack_mod_int}}">
+                                            Int</option>
+                                        <option value="{@{attack_mod_wis}}">
+                                            Wis</option>
+                                    </select></td>
+                                <!-- The miscellaneous attack bonus -->
+                                <td><input class="tiny-input-small"
+                                        name="attr_wr_attack_bonus_3"
+                                        type="number">
+                                </td>
+                                <!-- The damage dice input box -->
+                                <td><input class="dice-input"
+                                        name="attr_wr_dam_dice_3" type="text"
+                                        value=""></td>
+                                <!-- Damage stat selector -->
+                                <td><select class="stat-select"
+                                        name="attr_wr_dstat_3">
+                                        <option value="{@{str_bonus}}">
+                                            Str
+                                        </option>
+                                        <option value="{@{dex_bonus}}">
+                                            Dex
+                                        </option>
+                                        <option value="{@{int_bonus}}">
+                                            Int
+                                        </option>
+                                        <option value="{@{wis_bonus}}">
+                                            Wis
+                                        </option>
+                                    </select></td>
+                                <!-- The damage bonus input box -->
+                                <td><input class="tiny-input-small"
+                                        name="attr_wr_dbonus_sum_3"
+                                        type="number" value=""></td>
+                                <!-- The roller -->
+                                <td class="wr_del_3"><button type="roll"
+                                        value="&amp;{template:default}{{name=@{wr_name_3} (@{character_name}) }}{{attack=[[@{nd12}+@{wr_attack_3}]]}}{{damage=[[@{wr_dam_dice_3}+@{wr_dbonus_sum_3}]]}}"
+                                        name="roll_wp_3"
+                                        class="btn ui-draggable">
+                                        Roll!
+                                    </button></td>
+                            </tr>
+                            <tr class="weapon_row_4">
+                                <!-- Weapon name -->
+                                <td><input class="wr_name" name="attr_wr_name_4"
+                                        type="text">
+                                </td>
+                                <!-- Weapon attack bonus show -->
+                                <td><input class="tiny-input"
+                                        name="attr_wr_attack_4" type="number"
+                                        disabled="true"
+                                        value="{@{wr_stat_4}+@{wr_attack_bonus_4}}"
+                                        data-formula="{@{wr_stat_4}+@{wr_attack_bonus_4}}">
+                                </td>
+                                <!-- Weapon damage show -->
+                                <!-- First do an actual damage bonus sum -->
+                                <td><input class="tiny-input"
+                                        name="attr_dbonus_sum_4" type="number"
+                                        hidden="true" disabled="true"
+                                        value="{@{wr_dbonus_4}+@{wr_dstat_4}}">
+                                    <!-- Show the actual damage -->
+                                    <input class="weapon-damage-show"
+                                        disabled="true"
+                                        value="{@{wr_dam_dice_4}+@{wr_dbonus_sum_4}}"
+                                        data-formula="{@{wr_dam_dice_4}+@{wr_dbonus_sum_4}}">
+                                </td>
+                                <!-- Weapon stat selector -->
+                                <td><select class="stat-select"
+                                        name="attr_wr_stat_4">
+                                        <option value="{@{attack_mod_str}}">
+                                            Str</option>
+                                        <option value="{@{attack_mod_dex}}">
+                                            Dex</option>
+                                        <option value="{@{attack_mod_int}}">
+                                            Int</option>
+                                        <option value="{@{attack_mod_wis}}">
+                                            Wis</option>
+                                    </select></td>
+                                <!-- The miscellaneous attack bonus -->
+                                <td><input class="tiny-input-small"
+                                        name="attr_wr_attack_bonus_4"
+                                        type="number">
+                                </td>
+                                <!-- The damage dice input box -->
+                                <td><input class="dice-input"
+                                        name="attr_wr_dam_dice_4" type="text"
+                                        value=""></td>
+                                <!-- Damage stat selector -->
+                                <td><select class="stat-select"
+                                        name="attr_wr_dstat_4">
+                                        <option value="{@{str_bonus}}">
+                                            Str
+                                        </option>
+                                        <option value="{@{dex_bonus}}">
+                                            Dex
+                                        </option>
+                                        <option value="{@{int_bonus}}">
+                                            Int
+                                        </option>
+                                        <option value="{@{wis_bonus}}">
+                                            Wis
+                                        </option>
+                                    </select></td>
+                                <!-- The damage bonus input box -->
+                                <td><input class="tiny-input-small"
+                                        name="attr_wr_dbonus_sum_4"
+                                        type="number" value=""></td>
+                                <!-- The roller -->
+                                <td class="wr_del_4"><button type="roll"
+                                        value="&amp;{template:default}{{name=@{wr_name_4} (@{character_name}) }}{{attack=[[@{nd12}+@{wr_attack_4}]]}}{{damage=[[@{wr_dam_dice_4}+@{wr_dbonus_sum_4}]]}}"
+                                        name="roll_wp_4"
+                                        class="btn ui-draggable">
+                                        Roll!
+                                    </button></td>
+                            </tr>
+                            <tr class="weapon_row_5">
+                                <!-- Weapon name -->
+                                <td><input class="wr_name" name="attr_wr_name_5"
+                                        type="text">
+                                </td>
+                                <!-- Weapon attack bonus show -->
+                                <td><input class="tiny-input"
+                                        name="attr_wr_attack_5" type="number"
+                                        disabled="true"
+                                        value="{@{wr_stat_5}+@{wr_attack_bonus_5}}"
+                                        data-formula="{@{wr_stat_5}+@{wr_attack_bonus_5}}">
+                                </td>
+                                <!-- Weapon damage show -->
+                                <!-- First do an actual damage bonus sum -->
+                                <td><input class="tiny-input"
+                                        name="attr_dbonus_sum_5" type="number"
+                                        hidden="true" disabled="true"
+                                        value="{@{wr_dbonus_5}+@{wr_dstat_5}}">
+                                    <!-- Show the actual damage -->
+                                    <input class="weapon-damage-show"
+                                        disabled="true"
+                                        value="{@{wr_dam_dice_5}+@{wr_dbonus_sum_5}}"
+                                        data-formula="{@{wr_dam_dice_5}+@{wr_dbonus_sum_5}}">
+                                </td>
+                                <!-- Weapon stat selector -->
+                                <td><select class="stat-select"
+                                        name="attr_wr_stat_5">
+                                        <option value="{@{attack_mod_str}}">
+                                            Str</option>
+                                        <option value="{@{attack_mod_dex}}">
+                                            Dex</option>
+                                        <option value="{@{attack_mod_int}}">
+                                            Int</option>
+                                        <option value="{@{attack_mod_wis}}">
+                                            Wis</option>
+                                    </select></td>
+                                <!-- The miscellaneous attack bonus -->
+                                <td><input class="tiny-input-small"
+                                        name="attr_wr_attack_bonus_5"
+                                        type="number">
+                                </td>
+                                <!-- The damage dice input box -->
+                                <td><input class="dice-input"
+                                        name="attr_wr_dam_dice_5" type="text"
+                                        value=""></td>
+                                <!-- Damage stat selector -->
+                                <td><select class="stat-select"
+                                        name="attr_wr_dstat_5">
+                                        <option value="{@{str_bonus}}">
+                                            Str
+                                        </option>
+                                        <option value="{@{dex_bonus}}">
+                                            Dex
+                                        </option>
+                                        <option value="{@{int_bonus}}">
+                                            Int
+                                        </option>
+                                        <option value="{@{wis_bonus}}">
+                                            Wis
+                                        </option>
+                                    </select></td>
+                                <!-- The damage bonus input box -->
+                                <td><input class="tiny-input-small"
+                                        name="attr_wr_dbonus_sum_5"
+                                        type="number" value=""></td>
+                                <!-- The roller -->
+                                <td class="wr_del_5"><button type="roll"
+                                        value="&amp;{template:default}{{name=@{wr_name_5} (@{character_name}) }}{{attack=[[@{nd12}+@{wr_attack_5}]]}}{{damage=[[@{wr_dam_dice_5}+@{wr_dbonus_sum_5}]]}}"
+                                        name="roll_wp_5"
+                                        class="btn ui-draggable">
+                                        Roll!
+                                    </button></td>
+                            </tr>
+                            <tr class="weapon_row_6">
+                                <!-- Weapon name -->
+                                <td><input class="wr_name" name="attr_wr_name_6"
+                                        type="text">
+                                </td>
+                                <!-- Weapon attack bonus show -->
+                                <td><input class="tiny-input"
+                                        name="attr_wr_attack_6" type="number"
+                                        disabled="true"
+                                        value="{@{wr_stat_6}+@{wr_attack_bonus_6}}"
+                                        data-formula="{@{wr_stat_6}+@{wr_attack_bonus_6}}">
+                                </td>
+                                <!-- Weapon damage show -->
+                                <!-- First do an actual damage bonus sum -->
+                                <td><input class="tiny-input"
+                                        name="attr_dbonus_sum_6" type="number"
+                                        hidden="true" disabled="true"
+                                        value="{@{wr_dbonus_6}+@{wr_dstat_6}}">
+                                    <!-- Show the actual damage -->
+                                    <input class="weapon-damage-show"
+                                        disabled="true"
+                                        value="{@{wr_dam_dice_6}+@{wr_dbonus_sum_6}}"
+                                        data-formula="{@{wr_dam_dice_6}+@{wr_dbonus_sum_6}}">
+                                </td>
+                                <!-- Weapon stat selector -->
+                                <td><select class="stat-select"
+                                        name="attr_wr_stat_6">
+                                        <option value="{@{attack_mod_str}}">
+                                            Str</option>
+                                        <option value="{@{attack_mod_dex}}">
+                                            Dex</option>
+                                        <option value="{@{attack_mod_int}}">
+                                            Int</option>
+                                        <option value="{@{attack_mod_wis}}">
+                                            Wis</option>
+                                    </select></td>
+                                <!-- The miscellaneous attack bonus -->
+                                <td><input class="tiny-input-small"
+                                        name="attr_wr_attack_bonus_6"
+                                        type="number">
+                                </td>
+                                <!-- The damage dice input box -->
+                                <td><input class="dice-input"
+                                        name="attr_wr_dam_dice_6" type="text"
+                                        value=""></td>
+                                <!-- Damage stat selector -->
+                                <td><select class="stat-select"
+                                        name="attr_wr_dstat_6">
+                                        <option value="{@{str_bonus}}">
+                                            Str
+                                        </option>
+                                        <option value="{@{dex_bonus}}">
+                                            Dex
+                                        </option>
+                                        <option value="{@{int_bonus}}">
+                                            Int
+                                        </option>
+                                        <option value="{@{wis_bonus}}">
+                                            Wis
+                                        </option>
+                                    </select></td>
+                                <!-- The damage bonus input box -->
+                                <td><input class="tiny-input-small"
+                                        name="attr_wr_dbonus_sum_6"
+                                        type="number" value=""></td>
+                                <!-- The roller -->
+                                <td class="wr_del_6"><button type="roll"
+                                        value="&amp;{template:default}{{name=@{wr_name_6} (@{character_name}) }}{{attack=[[@{nd12}+@{wr_attack_6}]]}}{{damage=[[@{wr_dam_dice_6}+@{wr_dbonus_sum_6}]]}}"
+                                        name="roll_wp_6"
+                                        class="btn ui-draggable">
+                                        Roll!
+                                    </button></td>
+                            </tr>
+                            <tr class="weapon_row_7">
+                                <!-- Weapon name -->
+                                <td><input class="wr_name" name="attr_wr_name_7"
+                                        type="text">
+                                </td>
+                                <!-- Weapon attack bonus show -->
+                                <td><input class="tiny-input"
+                                        name="attr_wr_attack_7" type="number"
+                                        disabled="true"
+                                        value="{@{wr_stat_7}+@{wr_attack_bonus_7}}"
+                                        data-formula="{@{wr_stat_7}+@{wr_attack_bonus_7}}">
+                                </td>
+                                <!-- Weapon damage show -->
+                                <!-- First do an actual damage bonus sum -->
+                                <td><input class="tiny-input"
+                                        name="attr_dbonus_sum_7" type="number"
+                                        hidden="true" disabled="true"
+                                        value="{@{wr_dbonus_7}+@{wr_dstat_7}}">
+                                    <!-- Show the actual damage -->
+                                    <input class="weapon-damage-show"
+                                        disabled="true"
+                                        value="{@{wr_dam_dice_7}+@{wr_dbonus_sum_7}}"
+                                        data-formula="{@{wr_dam_dice_7}+@{wr_dbonus_sum_7}}">
+                                </td>
+                                <!-- Weapon stat selector -->
+                                <td><select class="stat-select"
+                                        name="attr_wr_stat_7">
+                                        <option value="{@{attack_mod_str}}">
+                                            Str</option>
+                                        <option value="{@{attack_mod_dex}}">
+                                            Dex</option>
+                                        <option value="{@{attack_mod_int}}">
+                                            Int</option>
+                                        <option value="{@{attack_mod_wis}}">
+                                            Wis</option>
+                                    </select></td>
+                                <!-- The miscellaneous attack bonus -->
+                                <td><input class="tiny-input-small"
+                                        name="attr_wr_attack_bonus_7"
+                                        type="number">
+                                </td>
+                                <!-- The damage dice input box -->
+                                <td><input class="dice-input"
+                                        name="attr_wr_dam_dice_7" type="text"
+                                        value=""></td>
+                                <!-- Damage stat selector -->
+                                <td><select class="stat-select"
+                                        name="attr_wr_dstat_7">
+                                        <option value="{@{str_bonus}}">
+                                            Str
+                                        </option>
+                                        <option value="{@{dex_bonus}}">
+                                            Dex
+                                        </option>
+                                        <option value="{@{int_bonus}}">
+                                            Int
+                                        </option>
+                                        <option value="{@{wis_bonus}}">
+                                            Wis
+                                        </option>
+                                    </select></td>
+                                <!-- The damage bonus input box -->
+                                <td><input class="tiny-input-small"
+                                        name="attr_wr_dbonus_sum_7"
+                                        type="number" value=""></td>
+                                <!-- The roller -->
+                                <td class="wr_del_7"><button type="roll"
+                                        value="&amp;{template:default}{{name=@{wr_name_7} (@{character_name}) }}{{attack=[[@{nd12}+@{wr_attack_7}]]}}{{damage=[[@{wr_dam_dice_7}+@{wr_dbonus_sum_7}]]}}"
+                                        name="roll_wp_7"
+                                        class="btn ui-draggable">
+                                        Roll!
+                                    </button></td>
+                            </tr>
+                            <tr class="weapon_row_8">
+                                <!-- Weapon name -->
+                                <td><input class="wr_name" name="attr_wr_name_8"
+                                        type="text">
+                                </td>
+                                <!-- Weapon attack bonus show -->
+                                <td><input class="tiny-input"
+                                        name="attr_wr_attack_8" type="number"
+                                        disabled="true"
+                                        value="{@{wr_stat_8}+@{wr_attack_bonus_8}}"
+                                        data-formula="{@{wr_stat_8}+@{wr_attack_bonus_8}}">
+                                </td>
+                                <!-- Weapon damage show -->
+                                <!-- First do an actual damage bonus sum -->
+                                <td><input class="tiny-input"
+                                        name="attr_dbonus_sum_8" type="number"
+                                        hidden="true" disabled="true"
+                                        value="{@{wr_dbonus_8}+@{wr_dstat_8}}">
+                                    <!-- Show the actual damage -->
+                                    <input class="weapon-damage-show"
+                                        disabled="true"
+                                        value="{@{wr_dam_dice_8}+@{wr_dbonus_sum_8}}"
+                                        data-formula="{@{wr_dam_dice_8}+@{wr_dbonus_sum_8}}">
+                                </td>
+                                <!-- Weapon stat selector -->
+                                <td><select class="stat-select"
+                                        name="attr_wr_stat_8">
+                                        <option value="{@{attack_mod_str}}">
+                                            Str</option>
+                                        <option value="{@{attack_mod_dex}}">
+                                            Dex</option>
+                                        <option value="{@{attack_mod_int}}">
+                                            Int</option>
+                                        <option value="{@{attack_mod_wis}}">
+                                            Wis</option>
+                                    </select></td>
+                                <!-- The miscellaneous attack bonus -->
+                                <td><input class="tiny-input-small"
+                                        name="attr_wr_attack_bonus_8"
+                                        type="number">
+                                </td>
+                                <!-- The damage dice input box -->
+                                <td><input class="dice-input"
+                                        name="attr_wr_dam_dice_8" type="text"
+                                        value=""></td>
+                                <!-- Damage stat selector -->
+                                <td><select class="stat-select"
+                                        name="attr_wr_dstat_8">
+                                        <option value="{@{str_bonus}}">
+                                            Str
+                                        </option>
+                                        <option value="{@{dex_bonus}}">
+                                            Dex
+                                        </option>
+                                        <option value="{@{int_bonus}}">
+                                            Int
+                                        </option>
+                                        <option value="{@{wis_bonus}}">
+                                            Wis
+                                        </option>
+                                    </select></td>
+                                <!-- The damage bonus input box -->
+                                <td><input class="tiny-input-small"
+                                        name="attr_wr_dbonus_sum_8"
+                                        type="number" value=""></td>
+                                <!-- The roller -->
+                                <td class="wr_del_8"><button type="roll"
+                                        value="&amp;{template:default}{{name=@{wr_name_8} (@{character_name}) }}{{attack=[[@{nd12}+@{wr_attack_8}]]}}{{damage=[[@{wr_dam_dice_8}+@{wr_dbonus_sum_8}]]}}"
+                                        name="roll_wp_8"
+                                        class="btn ui-draggable">
+                                        Roll!
+                                    </button></td>
+                            </tr>
+                            <tr class="weapon_row_9">
+                                <!-- Weapon name -->
+                                <td><input class="wr_name" name="attr_wr_name_9"
+                                        type="text">
+                                </td>
+                                <!-- Weapon attack bonus show -->
+                                <td><input class="tiny-input"
+                                        name="attr_wr_attack_9" type="number"
+                                        disabled="true"
+                                        value="{@{wr_stat_9}+@{wr_attack_bonus_9}}"
+                                        data-formula="{@{wr_stat_9}+@{wr_attack_bonus_9}}">
+                                </td>
+                                <!-- Weapon damage show -->
+                                <!-- First do an actual damage bonus sum -->
+                                <td><input class="tiny-input"
+                                        name="attr_dbonus_sum_9" type="number"
+                                        hidden="true" disabled="true"
+                                        value="{@{wr_dbonus_9}+@{wr_dstat_9}}">
+                                    <!-- Show the actual damage -->
+                                    <input class="weapon-damage-show"
+                                        disabled="true"
+                                        value="{@{wr_dam_dice_9}+@{wr_dbonus_sum_9}}"
+                                        data-formula="{@{wr_dam_dice_9}+@{wr_dbonus_sum_9}}">
+                                </td>
+                                <!-- Weapon stat selector -->
+                                <td><select class="stat-select"
+                                        name="attr_wr_stat_9">
+                                        <option value="{@{attack_mod_str}}">
+                                            Str</option>
+                                        <option value="{@{attack_mod_dex}}">
+                                            Dex</option>
+                                        <option value="{@{attack_mod_int}}">
+                                            Int</option>
+                                        <option value="{@{attack_mod_wis}}">
+                                            Wis</option>
+                                    </select></td>
+                                <!-- The miscellaneous attack bonus -->
+                                <td><input class="tiny-input-small"
+                                        name="attr_wr_attack_bonus_9"
+                                        type="number">
+                                </td>
+                                <!-- The damage dice input box -->
+                                <td><input class="dice-input"
+                                        name="attr_wr_dam_dice_9" type="text"
+                                        value=""></td>
+                                <!-- Damage stat selector -->
+                                <td><select class="stat-select"
+                                        name="attr_wr_dstat_9">
+                                        <option value="{@{str_bonus}}">
+                                            Str
+                                        </option>
+                                        <option value="{@{dex_bonus}}">
+                                            Dex
+                                        </option>
+                                        <option value="{@{int_bonus}}">
+                                            Int
+                                        </option>
+                                        <option value="{@{wis_bonus}}">
+                                            Wis
+                                        </option>
+                                    </select></td>
+                                <!-- The damage bonus input box -->
+                                <td><input class="tiny-input-small"
+                                        name="attr_wr_dbonus_sum_9"
+                                        type="number" value=""></td>
+                                <!-- The roller -->
+                                <td class="wr_del_9"><button type="roll"
+                                        value="&amp;{template:default}{{name=@{wr_name_9} (@{character_name}) }}{{attack=[[@{nd12}+@{wr_attack_9}]]}}{{damage=[[@{wr_dam_dice_9}+@{wr_dbonus_sum_9}]]}}"
+                                        name="roll_wp_9"
+                                        class="btn ui-draggable">
+                                        Roll!
+                                    </button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="sheet-skills">
+            <div class="sheet-skills-inner">
+                <!-- SKILLS TABLE -->
+                <div class="skills">
+                    <table class="skill-table">
+                        <tbody>
+                            <tr>
+                                <th>Skill</th>
+                                <th>Bonus</th>
+                                <th>Ranks</th>
+                                <th>Base</th>
+                                <th>Other</th>
+                            </tr>
+                            <tr>
+                                <th><button type="roll"
+                                        value="/r @{nd12} + @{bonus_athletics}"
+                                        name="roll_athletics"
+                                        class="btn ui-draggable">
+                                        Athletics
+                                    </button></th>
+                                <td><input name="attr_bonus_athletics"
+                                        type="number" class="tiny-input-r"
+                                        disabled="true"
+                                        value="{{@{ranks_athletics}+@{base_plus}*@{base_athletics}+@{extra_athletics}+@{str_bonus}}}"
+                                        data-formula="{{@{ranks_athletics}+@{base_plus}*@{base_athletics}+@{extra_athletics}+@{str_bonus}}}">
+                                </td>
+                                <td><input name="attr_ranks_athletics"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                                <td><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_base_athletics" value="1">
+                                </td>
+                                <td><input name="attr_extra_athletics"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><button type="roll"
+                                        value="/r @{nd12} + @{bonus_climb}"
+                                        name="roll_climb"
+                                        class="btn ui-draggable">
+                                        Climb
+                                    </button></th>
+                                <td><input name="attr_bonus_climb" type="number"
+                                        class="tiny-input-r" disabled="true"
+                                        value="{{@{str_bonus}+@{ranks_climb}+@{base_plus}*@{base_climb}+@{extra_climb}}}"
+                                        data-formula="{{@{str_bonus}+@{ranks_climb}+@{base_plus}*@{base_climb}+@{extra_climb}}}">
+                                </td>
+                                <td><input name="attr_ranks_climb" type="number"
+                                        value="0" class="tiny-input-r">
+                                </td>
+                                <td><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_base_climb" value="1">
+                                </td>
+                                <td><input name="attr_extra_climb" type="number"
+                                        value="0" class="tiny-input-r">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><button type="roll"
+                                        value="/r @{nd12} + @{bonus_fortify}"
+                                        name="roll_fortify"
+                                        class="btn ui-draggable">
+                                        Fortify
+                                    </button></th>
+                                <td><input name="attr_bonus_fortify"
+                                        type="number" class="tiny-input-r"
+                                        disabled="true"
+                                        value="{{@{str_bonus}+@{ranks_fortify}+@{base_plus}*@{base_fortify}+@{extra_fortify}}}"
+                                        data-formula="{{@{str_bonus}+@{ranks_fortify}+@{base_plus}*@{base_fortify}+@{extra_fortify}}}">
+                                </td>
+                                <td><input name="attr_ranks_fortify"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                                <td><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_base_fortify" value="1">
+                                </td>
+                                <td><input name="attr_extra_fortify"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><button type="roll"
+                                        value="/r @{nd12} + @{bonus_swim}"
+                                        name="roll_swim"
+                                        class="btn ui-draggable">
+                                        Swim
+                                    </button></th>
+                                <td><input name="attr_bonus_swim" type="number"
+                                        class="tiny-input-r" disabled="true"
+                                        value="{{@{str_bonus}+@{ranks_swim}+@{base_plus}*@{base_swim}+@{extra_swim}}}"
+                                        data-formula="{{@{str_bonus}+@{ranks_swim}+@{base_plus}*@{base_swim}+@{extra_swim}}}">
+                                </td>
+                                <td><input name="attr_ranks_swim" type="number"
+                                        value="0" class="tiny-input-r">
+                                </td>
+                                <td><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_base_swim" value="1">
+                                </td>
+                                <td><input name="attr_extra_swim" type="number"
+                                        value="0" class="tiny-input-r">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><button type="roll"
+                                        value="/r @{nd12} + @{bonus_acrobatics}"
+                                        name="roll_acrobatics"
+                                        class="btn ui-draggable">
+                                        Acrobatics
+                                    </button></th>
+                                <td><input name="attr_bonus_acrobatics"
+                                        type="number" class="tiny-input-r"
+                                        disabled="true"
+                                        value="{{@{dex_bonus}+@{ranks_acrobatics}+@{base_plus}*@{base_acrobatics}+@{extra_acrobatics}}}"
+                                        data-formula="{{@{dex_bonus}+@{ranks_acrobatics}+@{base_plus}*@{base_acrobatics}+@{extra_acrobatics}}}">
+                                </td>
+                                <td><input name="attr_ranks_acrobatics"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                                <td><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_base_acrobatics" value="1">
+                                </td>
+                                <td><input name="attr_extra_acrobatics"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><button type="roll"
+                                        value="/r @{nd12} + @{bonus_fly}"
+                                        name="roll_fly"
+                                        class="btn ui-draggable">
+                                        Fly
+                                    </button></th>
+                                <td><input name="attr_bonus_fly" type="number"
+                                        class="tiny-input-r" disabled="true"
+                                        value="{{@{dex_bonus}+@{ranks_fly}+@{base_plus}*@{base_fly}+@{extra_fly}}}"
+                                        data-formula="{{@{dex_bonus}+@{ranks_fly}+@{base_plus}*@{base_fly}+@{extra_fly}}}">
+                                </td>
+                                <td><input name="attr_ranks_fly" type="number"
+                                        value="0" class="tiny-input-r">
+                                </td>
+                                <td><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_base_fly" value="1">
+                                </td>
+                                <td><input name="attr_extra_fly" type="number"
+                                        value="0" class="tiny-input-r">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><button type="roll"
+                                        value="/r @{nd12} + @{bonus_heal}"
+                                        name="roll_heal"
+                                        class="btn ui-draggable">
+                                        Heal
+                                    </button></th>
+                                <td><input name="attr_bonus_heal" type="number"
+                                        class="tiny-input-r" disabled="true"
+                                        value="{{@{dex_bonus}+@{ranks_heal}+@{base_plus}*@{base_heal}+@{extra_heal}}}"
+                                        data-formula="{{@{dex_bonus}+@{ranks_heal}+@{base_plus}*@{base_heal}+@{extra_heal}}}">
+                                </td>
+                                <td><input name="attr_ranks_heal" type="number"
+                                        value="0" class="tiny-input-r">
+                                </td>
+                                <td><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_base_heal" value="1">
+                                </td>
+                                <td><input name="attr_extra_heal" type="number"
+                                        value="0" class="tiny-input-r">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><button type="roll"
+                                        value="/r @{nd12} + @{bonus_ride}"
+                                        name="roll_ride"
+                                        class="btn ui-draggable">
+                                        Ride
+                                    </button></th>
+                                <td><input name="attr_bonus_ride" type="number"
+                                        class="tiny-input-r" disabled="true"
+                                        value="{{@{stealth}+@{ranks_ride}+@{base_plus}*@{base_ride}+@{extra_ride}}}"
+                                        data-formula="{{@{stealth}+@{ranks_ride}+@{base_plus}*@{base_ride}+@{extra_ride}}}">
+                                </td>
+                                <td><input name="attr_ranks_ride" type="number"
+                                        value="0" class="tiny-input-r">
+                                </td>
+                                <td><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_base_ride" value="1">
+                                </td>
+                                <td><input name="attr_extra_ride" type="number"
+                                        value="0" class="tiny-input-r">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><button type="roll"
+                                        value="/r @{nd12} + @{bonus_sleight}"
+                                        name="roll_sleight"
+                                        class="btn ui-draggable">
+                                        Sleight of Hand
+                                    </button></th>
+                                <td><input name="attr_bonus_sleight"
+                                        type="number" class="tiny-input-r"
+                                        disabled="true"
+                                        value="{{@{dex_bonus}+@{ranks_sleight}+@{base_plus}*@{base_sleight}+@{extra_sleight}}}"
+                                        data-formula="{{@{dex_bonus}+@{ranks_sleight}+@{base_plus}*@{base_sleight}+@{extra_sleight}}}">
+                                </td>
+                                <td><input name="attr_ranks_sleight"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                                <td><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_base_sleight" value="1">
+                                </td>
+                                <td><input name="attr_extra_sleight"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><button type="roll"
+                                        value="/r @{nd12} + @{bonus_stealth}"
+                                        name="roll_stealth"
+                                        class="btn ui-draggable">
+                                        Stealth
+                                    </button></th>
+                                <td><input name="attr_bonus_stealth"
+                                        type="number" class="tiny-input-r"
+                                        disabled="true"
+                                        value="{{@{dex_bonus}+@{ranks_stealth}+@{base_plus}*@{base_stealth}+@{extra_stealth}}}"
+                                        data-formula="{{@{dex_bonus}+@{ranks_stealth}+@{base_plus}*@{base_stealth}+@{extra_stealth}}}">
+                                </td>
+                                <td><input name="attr_ranks_stealth"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                                <td><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_base_stealth" value="1">
+                                </td>
+                                <td><input name="attr_extra_stealth"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><button type="roll"
+                                        value="/r @{nd12} + @{bonus_tinker}"
+                                        name="roll_tinker"
+                                        class="btn ui-draggable">
+                                        Tinker
+                                    </button></th>
+                                <td><input name="attr_bonus_tinker"
+                                        type="number" class="tiny-input-r"
+                                        disabled="true"
+                                        value="{{@{dex_bonus}+@{ranks_tinker}+@{base_plus}*@{base_tinker}+@{extra_tinker}}}"
+                                        data-formula="{{@{dex_bonus}+@{ranks_tinker}+@{base_plus}*@{base_tinker}+@{extra_tinker}}}">
+                                </td>
+                                <td><input name="attr_ranks_tinker"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                                <td><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_base_tinker" value="1">
+                                </td>
+                                <td><input name="attr_extra_tinker"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><button type="roll"
+                                        value="/r @{nd12} + @{bonus_harvest}"
+                                        name="roll_harvest"
+                                        class="btn ui-draggable">
+                                        Harvest
+                                    </button></th>
+                                <td><input name="attr_bonus_harvest"
+                                        type="number" class="tiny-input-r"
+                                        disabled="true"
+                                        value="{{@{con_bonus}+@{ranks_harvest}+@{base_plus}*@{base_harvest}+@{extra_harvest}}}"
+                                        data-formula="{{@{con_bonus}+@{ranks_harvest}+@{base_plus}*@{base_harvest}+@{extra_harvest}}}">
+                                </td>
+                                <td><input name="attr_ranks_harvest"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                                <td><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_base_harvest" value="1">
+                                </td>
+                                <td><input name="attr_extra_harvest"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><button type="roll"
+                                        value="/r @{nd12} + @{bonus_academics}"
+                                        name="roll_academics"
+                                        class="btn ui-draggable">
+                                        Academics
+                                    </button></th>
+                                <td><input name="attr_bonus_academics"
+                                        type="number" class="tiny-input-r"
+                                        disabled="true"
+                                        value="{{@{int_bonus}+@{ranks_academics}+@{base_plus}*@{base_academics}+@{extra_academics}}}"
+                                        data-formula="{{@{int_bonus}+@{ranks_academics}+@{base_plus}*@{base_academics}+@{extra_academics}}}">
+                                </td>
+                                <td><input name="attr_ranks_academics"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                                <td><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_base_academics" value="1">
+                                </td>
+                                <td><input name="attr_extra_academics"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><button type="roll"
+                                        value="/r @{nd12} + @{bonus_appraise}"
+                                        name="roll_appraise"
+                                        class="btn ui-draggable">
+                                        Appraise
+                                    </button></th>
+                                <td><input name="attr_bonus_appraise"
+                                        type="number" class="tiny-input-r"
+                                        disabled="true"
+                                        value="{{@{int_bonus}+@{ranks_appraise}+@{base_plus}*@{base_appraise}+@{extra_appraise}}}"
+                                        data-formula="{{@{int_bonus}+@{ranks_appraise}+@{base_plus}*@{base_appraise}+@{extra_appraise}}}">
+                                </td>
+                                <td><input name="attr_ranks_appraise"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                                <td><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_base_appraise" value="1">
+                                </td>
+                                <td><input name="attr_extra_appraise"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><button type="roll"
+                                        value="/r @{nd12} + @{bonus_navigate}"
+                                        name="roll_navigate"
+                                        class="btn ui-draggable">
+                                        Navigate
+                                    </button></th>
+                                <td><input name="attr_bonus_navigate"
+                                        type="number" class="tiny-input-r"
+                                        disabled="true"
+                                        value="{{@{int_bonus}+@{ranks_navigate}+@{base_plus}*@{base_navigate}+@{extra_navigate}}}"
+                                        data-formula="{{@{int_bonus}+@{ranks_navigate}+@{base_plus}*@{base_navigate}+@{extra_navigate}}}">
+                                </td>
+                                <td><input name="attr_ranks_navigate"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                                <td><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_base_navigate" value="1">
+                                </td>
+                                <td><input name="attr_extra_navigate"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><button type="roll"
+                                        value="/r @{nd12} + @{bonus_prospect}"
+                                        name="roll_prospect"
+                                        class="btn ui-draggable">
+                                        Prospect
+                                    </button></th>
+                                <td><input name="attr_bonus_prospect"
+                                        type="number" class="tiny-input-r"
+                                        disabled="true"
+                                        value="{{@{int_bonus}+@{ranks_prospect}+@{base_plus}*@{base_prospect}+@{extra_prospect}}}"
+                                        data-formula="{{@{int_bonus}+@{ranks_prospect}+@{base_plus}*@{base_prospect}+@{extra_prospect}}}">
+                                </td>
+                                <td><input name="attr_ranks_prospect"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                                <td><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_base_prospect" value="1">
+                                </td>
+                                <td><input name="attr_extra_prospect"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><button type="roll"
+                                        value="/r @{nd12} + @{bonus_karcana}"
+                                        name="roll_karcana"
+                                        class="btn ui-draggable">
+                                        Know: Arcana
+                                    </button></th>
+                                <td><input name="attr_bonus_karcana"
+                                        type="number" class="tiny-input-r"
+                                        disabled="true"
+                                        value="{{@{int_bonus}+@{ranks_karcana}+@{base_plus}*@{base_karcana}+@{extra_karcana}}}"
+                                        data-formula="{{@{int_bonus}+@{ranks_karcana}+@{base_plus}*@{base_karcana}+@{extra_karcana}}}">
+                                </td>
+                                <td><input name="attr_ranks_karcana"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                                <td><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_base_karcana" value="1">
+                                </td>
+                                <td><input name="attr_extra_karcana"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><button type="roll"
+                                        value="/r @{nd12} + @{bonus_kgeography}"
+                                        name="roll_kgeography"
+                                        class="btn ui-draggable">
+                                        Know: Geography
+                                    </button></th>
+                                <td><input name="attr_bonus_kgeography"
+                                        type="number" class="tiny-input-r"
+                                        disabled="true"
+                                        value="{{@{int_bonus}+@{ranks_kgeography}+@{base_plus}*@{base_kgeography}+@{extra_kgeography}}}"
+                                        data-formula="{{@{int_bonus}+@{ranks_kgeography}+@{base_plus}*@{base_kgeography}+@{extra_kgeography}}}">
+                                </td>
+                                <td><input name="attr_ranks_kgeography"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                                <td><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_base_kgeography" value="1">
+                                </td>
+                                <td><input name="attr_extra_kgeography"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><button type="roll"
+                                        value="/r @{nd12} + @{knature}"
+                                        name="roll_knature"
+                                        class="btn ui-draggable">
+                                        Know: Nature
+                                    </button></th>
+                                <td><input name="attr_bonus_knature"
+                                        type="number" class="tiny-input-r"
+                                        disabled="true"
+                                        value="{{@{int_bonus}+@{ranks_knature}+@{base_plus}*@{base_knature}+@{extra_knature}}}"
+                                        data-formula="{{@{int_bonus}+@{ranks_knature}+@{base_plus}*@{base_knature}+@{extra_knature}}}">
+                                </td>
+                                <td><input name="attr_ranks_knature"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                                <td><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_base_knature" value="1">
+                                </td>
+                                <td><input name="attr_extra_knature"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><button type="roll"
+                                        value="/r @{nd12} + @{bonus_kdungon}"
+                                        name="roll_kdungon"
+                                        class="btn ui-draggable">
+                                        Know: Dungeoneering
+                                    </button></th>
+                                <td><input name="attr_bonus_kdungon"
+                                        type="number" class="tiny-input-r"
+                                        disabled="true"
+                                        value="{{@{int_bonus}+@{ranks_kdungon}+@{base_plus}*@{base_}+@{extra_kdungon}}}"
+                                        data-formula="{{@{int_bonus}+@{ranks_kdungon}+@{base_plus}*@{base_}+@{extra_kdungon}}}">
+                                </td>
+                                <td><input name="attr_ranks_kdungon"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                                <td><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_base_kdungon" value="1">
+                                </td>
+                                <td><input name="attr_extra_kdungon"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><button type="roll"
+                                        value="/r @{nd12} + @{bonus_khistory}"
+                                        name="roll_khistory"
+                                        class="btn ui-draggable">
+                                        Know: History
+                                    </button></th>
+                                <td><input name="attr_bonus_khistory"
+                                        type="number" class="tiny-input-r"
+                                        disabled="true"
+                                        value="{{@{int_bonus}+@{ranks_khistory}+@{base_plus}*@{base_khistory}+@{extra_khistory}}}"
+                                        data-formula="{{@{int_bonus}+@{ranks_khistory}+@{base_plus}*@{base_khistory}+@{extra_khistory}}}">
+                                </td>
+                                <td><input name="attr_ranks_khistory"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                                <td><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_base_khistory" value="1">
+                                </td>
+                                <td><input name="attr_extra_khistory"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><button type="roll"
+                                        value="/r @{nd12} + @{bonus_kreligion}"
+                                        name="roll_kreligion"
+                                        class="btn ui-draggable">
+                                        Know: Religion
+                                    </button></th>
+                                <td><input name="attr_bonus_kreligion"
+                                        type="number" class="tiny-input-r"
+                                        disabled="true"
+                                        value="{{@{int_bonus}+@{ranks_kreligion}+@{base_plus}*@{base_kreligion}+@{extra_kreligion}}}"
+                                        data-formula="{{@{int_bonus}+@{ranks_kreligion}+@{base_plus}*@{base_kreligion}+@{extra_kreligion}}}">
+                                </td>
+                                <td><input name="attr_ranks_kreligion"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                                <td><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_base_kreligion" value="1">
+                                </td>
+                                <td><input name="attr_extra_kreligion"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><button type="roll"
+                                        value="/r @{nd12} + @{bonus_observe}"
+                                        name="roll_observe"
+                                        class="btn ui-draggable">
+                                        Observe
+                                    </button></th>
+                                <td><input name="attr_bonus_observe"
+                                        type="number" class="tiny-input-r"
+                                        disabled="true"
+                                        value="{{@{wis_bonus}+@{ranks_observe}+@{base_plus}*@{base_observe}+@{extra_observe}}}"
+                                        data-formula="{{@{wis_bonus}+@{ranks_observe}+@{base_plus}*@{base_observe}+@{extra_observe}}}">
+                                </td>
+                                <td><input name="attr_ranks_observe"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                                <td><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_base_observe" value="1">
+                                </td>
+                                <td><input name="attr_extra_observe"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><button type="roll"
+                                        value="/r @{nd12} + @{bonus_smotive}"
+                                        name="roll_smotive"
+                                        class="btn ui-draggable">
+                                        Sense Motive
+                                    </button></th>
+                                <td><input name="attr_bonus_smotive"
+                                        type="number" class="tiny-input-r"
+                                        disabled="true"
+                                        value="{{@{wis_bonus}+@{ranks_smotive}+@{base_plus}*@{base_smotive}+@{extra_smotive}}}"
+                                        data-formula="{{@{wis_bonus}+@{ranks_smotive}+@{base_plus}*@{base_smotive}+@{extra_smotive}}}">
+                                </td>
+                                <td><input name="attr_ranks_smotive"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                                <td><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_base_smotive" value="1">
+                                </td>
+                                <td><input name="attr_extra_smotive"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><button type="roll"
+                                        value="/r @{nd12} + @{bonus_track}"
+                                        name="roll_track"
+                                        class="btn ui-draggable">
+                                        Track
+                                    </button></th>
+                                <td><input name="attr_bonus_track" type="number"
+                                        class="tiny-input-r" disabled="true"
+                                        value="{{@{wis_bonus}+@{ranks_track}+@{base_plus}*@{base_track}+@{extra_track}}}"
+                                        data-formula="{{@{wis_bonus}+@{ranks_track}+@{base_plus}*@{base_track}+@{extra_track}}}">
+                                </td>
+                                <td><input name="attr_ranks_track" type="number"
+                                        value="0" class="tiny-input-r">
+                                </td>
+                                <td><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_base_track" value="1">
+                                </td>
+                                <td><input name="attr_extra_track" type="number"
+                                        value="0" class="tiny-input-r">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><button type="roll"
+                                        value="/r @{nd12} + @{bonus_spellworking}"
+                                        name="roll_spellworking"
+                                        class="btn ui-draggable">
+                                        Spellworking
+                                    </button></th>
+                                <td><input name="attr_bonus_spellworking"
+                                        type="number" class="tiny-input-r"
+                                        disabled="true"
+                                        value="{{@{wis_bonus}+@{ranks_spellworking}+@{base_plus}*@{base_spellworking}+@{extra_spellworking}}}"
+                                        data-formula="{{@{wis_bonus}+@{ranks_spellworking}+@{base_plus}*@{base_spellworking}+@{extra_spellworking}}}">
+                                </td>
+                                <td><input name="attr_ranks_spellworking"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                                <td><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_base_spellworking" value="1">
+                                </td>
+                                <td><input name="attr_extra_spellworking"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><button type="roll"
+                                        value="/r @{nd12} + @{bonus_deceive}"
+                                        name="roll_deceive"
+                                        class="btn ui-draggable">
+                                        Deceive
+                                    </button></th>
+                                <td><input name="attr_bonus_deceive"
+                                        type="number" class="tiny-input-r"
+                                        disabled="true"
+                                        value="{{@{cha_bonus}+@{ranks_deceive}+@{base_plus}*@{base_deceive}+@{extra_deceive}}}"
+                                        data-formula="{{@{cha_bonus}+@{ranks_deceive}+@{base_plus}*@{base_deceive}+@{extra_deceive}}}">
+                                </td>
+                                <td><input name="attr_ranks_deceive"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                                <td><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_base_deceive" value="1">
+                                </td>
+                                <td><input name="attr_extra_deceive"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><button type="roll"
+                                        value="/r @{nd12} + @{bonus_diplomacy}"
+                                        name="roll_diplomacy"
+                                        class="btn ui-draggable">
+                                        Diplomacy
+                                    </button></th>
+                                <td><input name="attr_bonus_diplomacy"
+                                        type="number" class="tiny-input-r"
+                                        disabled="true"
+                                        value="{{@{cha_bonus}+@{ranks_diplomacy}+@{base_plus}*@{base_diplomacy}+@{extra_diplomacy}}}"
+                                        data-formula="{{@{cha_bonus}+@{ranks_diplomacy}+@{base_plus}*@{base_diplomacy}+@{extra_diplomacy}}}">
+                                </td>
+                                <td><input name="attr_ranks_diplomacy"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                                <td><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_base_diplomacy" value="1">
+                                </td>
+                                <td><input name="attr_extra_diplomacy"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><button type="roll"
+                                        value="/r @{nd12} + @{bonus_intimidate}"
+                                        name="roll_intimidate"
+                                        class="btn ui-draggable">
+                                        Intimidate
+                                    </button></th>
+                                <td><input name="attr_bonus_intimidate"
+                                        type="number" class="tiny-input-r"
+                                        disabled="true"
+                                        value="{{@{cha_bonus}+@{ranks_intimidate}+@{base_plus}*@{base_intimidate}+@{extra_intimidate}}}"
+                                        data-formula="{{@{cha_bonus}+@{ranks_intimidate}+@{base_plus}*@{base_intimidate}+@{extra_intimidate}}}">
+                                </td>
+                                <td><input name="attr_ranks_intimidate"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                                <td><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_base_intimidate" value="1">
+                                </td>
+                                <td><input name="attr_extra_intimidate"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <button type="roll"
+                                        value="/r @{nd12} + @{bonus_perform}"
+                                        name="roll_perform"
+                                        class="btn ui-draggable">
+                                        Perform
+                                    </button>
+                                </th>
+                                <td><input name="attr_bonus_perform"
+                                        type="number" class="tiny-input-r"
+                                        disabled="true"
+                                        value="{{@{cha_bonus}+@{ranks_perform}+@{base_plus}*@{base_perform}+@{extra_perform}}}"
+                                        data-formula="{{@{cha_bonus}+@{ranks_perform}+@{base_plus}*@{base_perform}+@{extra_perform}}}">
+                                </td>
+                                <td><input name="attr_ranks_perform"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                                <td><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_base_perform" value="1">
+                                </td>
+                                <td><input name="attr_extra_perform"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th><button type="roll"
+                                        value="/r @{nd12} + @{bonus_persuade}"
+                                        name="roll_persuade"
+                                        class="btn ui-draggable">
+                                        Persuade
+                                    </button></th>
+                                <td><input name="attr_bonus_persuade"
+                                        type="number" class="tiny-input-r"
+                                        disabled="true"
+                                        value="{{@{cha_bonus}+@{ranks_persuade}+@{base_plus}*@{base_persuade}+@{extra_persuade}}}"
+                                        data-formula="{{@{cha_bonus}+@{ranks_persuade}+@{base_plus}*@{base_persuade}+@{extra_persuade}}}">
+                                </td>
+                                <td><input name="attr_ranks_persuade"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                                <td><input class="tiny-checkbox" type="checkbox"
+                                        name="attr_base_persuade" value="1">
+                                </td>
+                                <td><input name="attr_extra_persuade"
+                                        type="number" value="0"
+                                        class="tiny-input-r">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- PROFICIENCIES TABLE -->
+                <div class="proficiencies">
+                    <table class="proficiency-table">
+                        <tbody>
+                            <tr>
+                                <th>Proficiency</th>
+                                <th>Source</th>
+                            </tr>
+                            <tr>
+                                <th>(Notes)</th>
+                            </tr>
+                            <tr>
+                                <td><input class="wr_name"
+                                        name="attr_prof_name_00" type="number">
+                                </td>
+                                <td><select name="attr_prof_00">
+                                        <option value="0">Not proficient
+                                        </option>
+                                        <option value="0">Template</option>
+                                        <option value="0">Level 1</option>
+                                        <option value="1">Skill points</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td><input class="wr_name"
+                                        name="attr_prof_desc_00" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input class="wr_name"
+                                        name="attr_prof_name_01" type="number">
+                                </td>
+                                <td><select name="attr_prof_01">
+                                        <option value="0">Not proficient
+                                        </option>
+                                        <option value="0">Template</option>
+                                        <option value="0">Level 1</option>
+                                        <option value="1">Skill points</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td><input class="wr_name"
+                                        name="attr_prof_desc_01" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input class="wr_name"
+                                        name="attr_prof_name_02" type="number">
+                                </td>
+                                <td><select name="attr_prof_02">
+                                        <option value="0">Not proficient
+                                        </option>
+                                        <option value="0">Template</option>
+                                        <option value="0">Level 1</option>
+                                        <option value="1">Skill points</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td><input class="wr_name"
+                                        name="attr_prof_desc_02" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input class="wr_name"
+                                        name="attr_prof_name_03" type="number">
+                                </td>
+                                <td><select name="attr_prof_03">
+                                        <option value="0">Not proficient
+                                        </option>
+                                        <option value="0">Template</option>
+                                        <option value="0">Level 1</option>
+                                        <option value="1">Skill points</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td><input class="wr_name"
+                                        name="attr_prof_desc_03" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input class="wr_name"
+                                        name="attr_prof_name_04" type="number">
+                                </td>
+                                <td><select name="attr_prof_04">
+                                        <option value="0">Not proficient
+                                        </option>
+                                        <option value="0">Template</option>
+                                        <option value="0">Level 1</option>
+                                        <option value="1">Skill points</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td><input class="wr_name"
+                                        name="attr_prof_desc_04" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input class="wr_name"
+                                        name="attr_prof_name_05" type="number">
+                                </td>
+                                <td><select name="attr_prof_05">
+                                        <option value="0">Not proficient
+                                        </option>
+                                        <option value="0">Template</option>
+                                        <option value="0">Level 1</option>
+                                        <option value="1">Skill points</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td><input class="wr_name"
+                                        name="attr_prof_desc_05" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input class="wr_name"
+                                        name="attr_prof_name_06" type="number">
+                                </td>
+                                <td><select name="attr_prof_06">
+                                        <option value="0">Not proficient
+                                        </option>
+                                        <option value="0">Template</option>
+                                        <option value="0">Level 1</option>
+                                        <option value="1">Skill points</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td><input class="wr_name"
+                                        name="attr_prof_desc_06" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input class="wr_name"
+                                        name="attr_prof_name_07" type="number">
+                                </td>
+                                <td><select name="attr_prof_07">
+                                        <option value="0">Not proficient
+                                        </option>
+                                        <option value="0">Template</option>
+                                        <option value="0">Level 1</option>
+                                        <option value="1">Skill points</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td><input class="wr_name"
+                                        name="attr_prof_desc_07" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input class="wr_name"
+                                        name="attr_prof_name_08" type="number">
+                                </td>
+                                <td><select name="attr_prof_08">
+                                        <option value="0">Not proficient
+                                        </option>
+                                        <option value="0">Template</option>
+                                        <option value="0">Level 1</option>
+                                        <option value="1">Skill points</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td><input class="wr_name"
+                                        name="attr_prof_desc_08" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input class="wr_name"
+                                        name="attr_prof_name_09" type="number">
+                                </td>
+                                <td><select name="attr_prof_09">
+                                        <option value="0">Not proficient
+                                        </option>
+                                        <option value="0">Template</option>
+                                        <option value="0">Level 1</option>
+                                        <option value="1">Skill points</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td><input class="wr_name"
+                                        name="attr_prof_desc_09" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input class="wr_name"
+                                        name="attr_prof_name_10" type="number">
+                                </td>
+                                <td><select name="attr_prof_10">
+                                        <option value="0">Not proficient
+                                        </option>
+                                        <option value="0">Template</option>
+                                        <option value="0">Level 1</option>
+                                        <option value="1">Skill points</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td><input class="wr_name"
+                                        name="attr_prof_desc_10" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input class="wr_name"
+                                        name="attr_prof_name_11" type="number">
+                                </td>
+                                <td><select name="attr_prof_11">
+                                        <option value="0">Not proficient
+                                        </option>
+                                        <option value="0">Template</option>
+                                        <option value="0">Level 1</option>
+                                        <option value="1">Skill points</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td><input class="wr_name"
+                                        name="attr_prof_desc_11" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input class="wr_name"
+                                        name="attr_prof_name_12" type="number">
+                                </td>
+                                <td><select name="attr_prof_12">
+                                        <option value="0">Not proficient
+                                        </option>
+                                        <option value="0">Template</option>
+                                        <option value="0">Level 1</option>
+                                        <option value="1">Skill points</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td><input class="wr_name"
+                                        name="attr_prof_desc_12" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input class="wr_name"
+                                        name="attr_prof_name_13" type="number">
+                                </td>
+                                <td><select name="attr_prof_13">
+                                        <option value="0">Not proficient
+                                        </option>
+                                        <option value="0">Template</option>
+                                        <option value="0">Level 1</option>
+                                        <option value="1">Skill points</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td><input class="wr_name"
+                                        name="attr_prof_desc_13" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input class="wr_name"
+                                        name="attr_prof_name_14" type="number">
+                                </td>
+                                <td><select name="attr_prof_14">
+                                        <option value="0">Not proficient
+                                        </option>
+                                        <option value="0">Template</option>
+                                        <option value="0">Level 1</option>
+                                        <option value="1">Skill points</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td><input class="wr_name"
+                                        name="attr_prof_desc_14" type="text">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="skill-esb">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th>Extra points</th>
+                                <td><input class="tiny-input-small"
+                                        name="attr_extra_skill_points"
+                                        type="number"></td>
+                            </tr>
+                            <tr>
+                                <th>Base skills taken</th>
+                                <td>
+                                    <input class="tiny-input-small"
+                                        name="attr_base_skills_taken"
+                                        disabled="true" type="number" value="{{
+                                                @{base_athletics}
+                                                +@{base_climb}
+                                                +@{base_fortify}
+                                                +@{base_swim}
+                                                +@{base_acrobatics}
+                                                +@{base_fly}
+                                                +@{base_heal}
+                                                +@{base_sleight}
+                                                +@{base_tinker}
+                                                +@{base_ride}
+                                                +@{base_stealth}
+                                                +@{base_harvest}
+                                                +@{base_academics}
+                                                +@{base_appraise}
+                                                +@{base_prospect}
+                                                +@{base_navigate}
+                                                +@{base_karcana}
+                                                +@{base_kgeography}
+                                                +@{base_knature}
+                                                +@{base_kdungon}
+                                                +@{base_khistory}
+                                                +@{base_kreligion}
+                                                +@{base_observe}
+                                                +@{base_smotive}
+                                                +@{base_spellworking}
+                                                +@{base_track}
+                                                +@{base_deceive}
+                                                +@{base_diplomacy}
+                                                +@{base_intimidate}
+                                                +@{base_perform}
+                                                +@{base_persuade}
+                                            }}">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Base skills open</th>
+                                <td><input class="tiny-input-small"
+                                        disabled="true" type="number" value="{{
+                                               ciel(@{lvl}/2)-@{base_skills_taken}
+                                            }}">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="skill-rem">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th>
+                                    <input type="number" class="tiny-input-big"
+                                        disabled="true"
+                                        value="{{@{bonus_skill_points}+2+@{lvl}*(4+@{int_bonus})-@{skills_sum}-@{prof_sum}}}"
+                                        data-formula="{{@{bonus_skill_points}+2+@{lvl}*(4+@{int_bonus})-@{skills_sum}-@{prof_sum}}}">
+                                    <input name="attr_skills_sum" type="number"
+                                        class="tiny-input-small" disabled="true"
+                                        hidden="true" data-formula="{{
+                                @{ranks_climb}
+                                +@{ranks_athletics}
+                                +@{ranks_swim}
+                                +@{ranks_fortify}
+                                +@{ranks_sleight}
+                                +@{ranks_tinker}
+                                +@{ranks_heal}
+                                +@{ranks_acrobatics}
+                                +@{ranks_fly}
+                                +@{ranks_ride}
+                                +@{ranks_stealth}
+                                +@{ranks_harvest}
+                                +@{ranks_academics}
+                                +@{ranks_appraise}
+                                +@{ranks_prospect}
+                                +@{ranks_navigate}
+                                +@{ranks_karcana}
+                                +@{ranks_kgeography}
+                                +@{ranks_knature}
+                                +@{ranks_kdungon}
+                                +@{ranks_khistory}
+                                +@{ranks_kreligion}
+                                +@{ranks_observe}
+                                +@{ranks_smotive}
+                                +@{ranks_track}
+                                +@{ranks_spellworking}
+                                +@{ranks_diplomacy}
+                                +@{ranks_intimidate}
+                                +@{ranks_persuade}
+                                +@{ranks_deceive}
+                                +@{ranks_perform}}}">
+                                    <input name="attr_prof_sum" type="number"
+                                        disabled="true" hidden="true"
+                                        class="tiny-input-small" data-formula="{{
+                                @{prof_00}
+                                +@{prof_01}
+                                +@{prof_02}
+                                +@{prof_03}
+                                +@{prof_04}
+                                +@{prof_05}
+                                +@{prof_06}
+                                +@{prof_07}
+                                +@{prof_08}
+                                +@{prof_09}
+                                +@{prof_10}
+                                +@{prof_11}
+                                +@{prof_12}
+                                +@{prof_13}
+                                +@{prof_14}
+                                +@{prof_15}
+                            }}">
+                                </th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="skill-ranks-max">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th>Max Ranks</th>
+                            </tr>
+                            <tr>
+                                <td><input class="tiny-input" type="number"
+                                        disabled="true"
+                                        value="{{ciel(@{lvl}/2)}}">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="sheet-spells">
+                <table class="skill-table">
+                    <tbody>
+                        <tr>
+                            <th>Spell Name</th>
+                            <th>MP Dice Cost</th>
+                            <th>Type</th>
+                            <th>Link Name</th>
+                            <th>Total Link</th>
+                        </tr>
+                        <tr></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="sheet-abilities">
+                <table class="skill-table">
+                    <tbody>
+                        <tr>
+                            <th>Ability Name</th>
+                            <th>Level</th>
+                            <th>SP Dice Cost</th>
+                            <th>Type</th>
+                            <th>Link</th>
+                            <th>Link Name</th>
+                        </tr>
+                        <tr></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="sheet-inventory">
+                <div class="header">
+                    <table class="skill-table">
+                        <tbody>
+                            <tr>
+                                <th>Silver Pieces</th>
+                                <th>Weight (lb)</th>
+                            </tr>
+                            <tr>
+                                <td><input name="attr_silver_count"
+                                        type="number" value="0"
+                                        class="tiny-input-r"></td>
+                                <td><input name="attr_silver_weight"
+                                        type="number" class="tiny-input-r"
+                                        disabled="true"
+                                        value="{{round(@{silver_count}*1/60)/10}}"
+                                        data-formula="{{round(@{silver_count}*1/60)/10}}">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="skill-table">
+                        <tbody>
+                            <tr>
+                                <th>Total Weight (lb)</th>
+                                <th>Light Load</th>
+                                <th>Light Heavy Load</th>
+                                <th>Light Max Load</th>
+                            </tr>
+                            <tr>
+                                <td><input name="attr_total_weight"
+                                        type="number" class="tiny-input-r"
+                                        disabled="true"
+                                        value="{{@{silver_weight}}}"
+                                        data-formula="{{@{silver_weight}}}">
+                                </td>
+                                <td><input name="attr_light_load" type="number"
+                                        class="tiny-input-r" disabled="true"
+                                        value="{{@{stat_str}*4}}"
+                                        data-formula="{{@{stat_str}*4}}">
+                                </td>
+                                <td><input name="attr_mid_load" type="number"
+                                        class="tiny-input-r" disabled="true"
+                                        value="{{@{stat_str}*8}}"
+                                        data-formula="{{@{stat_str}*8}}">
+                                </td>
+                                <td><input name="attr_max_load" type="number"
+                                        class="tiny-input-r" disabled="true"
+                                        value="{{@{stat_str}*20}}"
+                                        data-formula="{{@{stat_str}*20}}">
+                                </td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <table class="skill-table">
+                    <tbody>
+                        <tr>
+                            <th>Item</th>
+                            <th>Count</th>
+                            <th>Weight</th>
+                            <th>Total Weight</th>
+                            <th>[Edit]</th>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th>Remove</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+</body>
+
+</html>
+
+
+<script type="text/worker">
+    const buttonlist = ["act_basics", "act_skills", "act_spells", "act_abilities", "act_inventory"];
+    buttonlist.forEach(button => {
+        on(`clicked:${button}`, function() {
+            log.console("${button}");
+            setAttrs({
+                sheetTab: button
+            });
+        });
+    });
+</script>
+
+<!-- Exists temporarily -->
+<script>
+    const buttonlist = ["act_basics", "act_skills", "act_spells", "act_abilities", "act_inventory"];
+    buttonlist.forEach(button => {
+        const b = document.getElementById(button).addEventListener('click', function () {
+            console.log(button);
+            let x = document.getElementById('attr_sheetTab');
+            console.log(x);
+            x.value = button;
+        })
+    });
+</script>

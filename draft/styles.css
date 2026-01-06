@@ -1,0 +1,403 @@
+div.new-character-sheet-for-fantasy-worlds {
+    background-color: #f2f4ec;
+    min-width: 780px;
+    max-width: 780px;
+}
+
+
+.sheet-basics-inner2 {
+    display: grid;
+    grid-template-columns: 400px 360px;
+    grid-template-rows: 600px;
+    grid-template-areas:
+        "attack-tab x"
+        /*  */
+    ;
+    grid-gap: 3px;
+    background-color: #e5e7e3;
+    border: 1px solid rgb(104, 101, 101);
+    padding: 4px;
+}
+
+div.attack-tab {
+    padding: 4px;
+    grid-area: attack-tab;
+    align-content: left;
+    align-items: left;
+
+}
+
+.sheet-basics-inner {
+    display: grid;
+    grid-template-columns: 96px 142px 0px 172px 210px 140px;
+    grid-template-rows: 184px 0px 160px 216px;
+    grid-template-areas:
+        "stats-tab save-tab thr-tab  thr-tab hit-box h-movement"
+        "stats-tab save-tab a        a       a       h-movement"
+        "stats-tab b-notes b-notes  b-notes b-notes h-movement"
+        "stats-tab rest-box rest-box hp-box  hp-box  hp-box"
+        /*  */
+    ;
+    grid-gap: 3px;
+    background-color: #e5e7e3;
+    border: 1px solid rgb(104, 101, 101);
+    padding: 4px;
+}
+
+div.b-notes {
+    padding: 4px;
+    grid-area: b-notes;
+    align-content: left;
+    align-items: left;
+}
+
+textarea.b-notes {
+    background-color: #e5e7e3;
+    scroll-behavior: smooth;
+    max-height: 152px;
+    max-width: 529px;
+    min-height: 152px;
+    min-width: 529px;
+}
+
+div.stats-table {
+    padding: 4px;
+    grid-area: stats-tab;
+    align-content: left;
+    align-items: left;
+}
+
+table.stats-table {
+    border: 1px solid rgb(104, 101, 101);
+    align-content: left;
+    align-items: left;
+}
+
+div.save-tab {
+    padding: 4px;
+    grid-area: save-tab;
+}
+
+div.thr-tab {
+    padding: 4px;
+    grid-area: thr-tab;
+}
+
+div.hit-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    grid-area: hit-box;
+    border: 1px solid rgb(104, 101, 101);
+}
+
+th.hit-main {
+    /* justify-content: top; */
+    /* justify-items: top; */
+    align-content: top;
+}
+
+table.save-table,
+.resource-table,
+.dice-table {
+    caption-side: top;
+    border: 1px solid rgb(104, 101, 101);
+    padding: 4px;
+}
+
+tbody::after {
+    content: '';
+    display: block;
+    height: 6px;
+}
+
+div.h-movement {
+    padding: 4px;
+    grid-area: h-movement;
+    display: grid;
+    column-count: 2;
+    break-inside: avoid;
+}
+
+div.hp-box {
+    padding: 4px;
+    grid-area: hp-box;
+    break-inside: avoid;
+}
+
+div.rest-box {
+    padding: 4px;
+    grid-area: rest-box;
+    break-inside: avoid;
+}
+
+table.save-table.row {
+    border: 1px solid rgb(104, 101, 101);
+}
+
+.h-name-main-table {
+    display: grid;
+    grid-template-columns: 208px 186px 94px 240px;
+    grid-template-rows: 80px 48px;
+    grid-template-areas:
+        "hl-name h-template h-bns h-rki"
+        "hl-name x x x"
+    ;
+    grid-gap: 3px;
+    background-color: #e5e7e3;
+    border: 1px solid rgb(104, 101, 101);
+}
+
+table.general-table {
+    /* border-collapse: collapse; */
+    border: 1px solid rgb(104, 101, 101);
+}
+
+/* table.general-table.th {
+    padding: 4px;
+    border: 1px solid black;
+
+} */
+
+table.general-table.th,
+td {
+    padding: 4px;
+    border: 1px solid rgb(104, 101, 101);
+
+}
+
+div.hl-name {
+    padding: 4px;
+    display: flex;
+    grid-area: hl-name;
+    flex-direction: row;
+    align-items: flex-start
+}
+
+div.h-lvl-params {
+    padding: 4px;
+    grid-area: h-lvl-params;
+    column-count: 3;
+    break-inside: avoid;
+}
+
+div.h-rki {
+    padding: 4px;
+    display: table;
+    grid-area: h-rki;
+    column-count: 2;
+    break-inside: avoid;
+}
+
+div.h-template {
+    padding: 4px;
+    grid-area: h-template;
+    display: grid;
+    column-count: 2;
+    break-inside: avoid;
+}
+
+div.h-bns {
+    padding: 4px;
+    grid-area: h-bns;
+    display: grid;
+    column-count: 2;
+    break-inside: avoid;
+}
+
+th.stat-th {
+    border: 1px solid rgb(104, 101, 101);
+}
+
+/* SKILL SHEET */
+/* SKILL SHEET */
+/* SKILL SHEET */
+.sheet-skills-inner {
+    display: grid;
+    grid-template-columns: 220px 220px 160px 160px;
+    grid-template-rows: 1000px 100px;
+    grid-template-areas:
+        "skills     skills     proficiencies  proficiencies"
+        "skill-esb skill-rem   skill-rem      skill-ranks-max"
+        /*  */
+    ;
+    grid-gap: 3px;
+    background-color: #e5e7e3;
+    border: 1px solid rgb(104, 101, 101);
+    padding: 4px;
+}
+
+div.skills {
+    padding: 4px;
+    grid-area: skills;
+    display: grid;
+    column-count: 2;
+    break-inside: avoid;
+    border: 1px solid rgb(104, 101, 101);
+    background-color: #e5e7e3;
+}
+
+div.proficiencies {
+    padding: 4px;
+    grid-area: proficiencies;
+    display: grid;
+    column-count: 2;
+    break-inside: avoid;
+    border: 1px solid rgb(104, 101, 101);
+    background-color: #e5e7e3;
+}
+
+div.skill-esb {
+    padding: 4px;
+    grid-area: skill-info;
+    border: 1px solid rgb(104, 101, 101);
+    background-color: #e5e7e3;
+}
+
+div.skill-esb {
+    padding: 4px;
+    grid-area: skill-esb;
+    border: 1px solid rgb(104, 101, 101);
+    background-color: #e5e7e3;
+}
+
+div.skill-rem {
+    padding: 4px;
+    grid-area: skill-rem;
+    border: 1px solid rgb(104, 101, 101);
+    background-color: #e5e7e3;
+}
+
+div.skill-ranks-max {
+    padding: 4px;
+    grid-area: skill-ranks-max;
+    border: 1px solid rgb(104, 101, 101);
+    background-color: #e5e7e3;
+}
+
+input.tiny-input-r {
+    max-width: 40px;
+    width: 40px;
+}
+
+/* BASIC STUFF */
+/* BASIC STUFF */
+/* BASIC STUFF */
+
+div.cell-h-div {
+    border: 1px solid rgb(104, 101, 101);
+}
+
+input {
+    background-color: #e5e7e3;
+    border: none;
+}
+
+input.checkbox {
+    background-color: #f2f4ec;
+    border: none;
+}
+
+select {
+    background-color: #f2f4ec;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* This is here just in case some poor fool uses firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+input.text-input-small {
+    max-width: 40px;
+}
+
+input.tiny-input {
+    max-width: 40px;
+}
+
+input.tiny-input-small {
+    max-width: 30px;
+    font-size: 10pt;
+}
+
+input.tiny-input-big {
+    max-width: 60px;
+    font-size: 18pt;
+    min-height: 36pt;
+}
+
+input.tiny-input-huge {
+    max-width: 60px;
+    font-size: 24pt;
+}
+
+input.text-input-med {
+    max-width: 60px;
+}
+
+input.text-input {
+    max-width: 100px;
+}
+
+input.dice-input {
+    max-width: 80px;
+}
+
+input.weapon-damage-show {
+    max-width: 80px;
+}
+
+input.text-input-big {
+    max-width: 140px;
+}
+
+* {
+    box-sizing: border-box
+}
+
+
+
+button {
+    background-color: #f2f4ec;
+    box-shadow: inset;
+    border: 1px solid rgb(104, 101, 101);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e2e4dc;
+}
+
+button:active {
+    background-color: #f4f7ee;
+}
+
+button[type="roll"] {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* configure the tab buttons */
+.new-character-sheet-for-fantasy-worlds .sheet-basics,
+.new-character-sheet-for-fantasy-worlds .sheet-skills,
+.new-character-sheet-for-fantasy-worlds .sheet-spells,
+.new-character-sheet-for-fantasy-worlds .sheet-abilities,
+.new-character-sheet-for-fantasy-worlds .sheet-inventory {
+    display: none;
+}
+
+.new-character-sheet-for-fantasy-worlds .sheet-tabstoggle[value="act_basics"]~div.sheet-basics,
+.new-character-sheet-for-fantasy-worlds .sheet-tabstoggle[value="act_skills"]~div.sheet-skills,
+.new-character-sheet-for-fantasy-worlds .sheet-tabstoggle[value="act_spells"]~div.sheet-spells,
+.new-character-sheet-for-fantasy-worlds .sheet-tabstoggle[value="act_abilities"]~div.sheet-abilities,
+.new-character-sheet-for-fantasy-worlds .sheet-tabstoggle[value="act_inventory"]~div.sheet-inventory {
+    display: block;
+}

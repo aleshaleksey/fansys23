@@ -408,7 +408,7 @@ textarea.ab-det {
 div.sheet-inventory-inner {
     display: grid;
     grid-template-columns: 760px;
-    grid-template-rows: 60px 60px 800px 400px;
+    grid-template-rows: 60px 60px 600px 400px;
     grid-template-areas:
         "inventory-money"
         "inventory-weight"
@@ -433,7 +433,7 @@ div.inventory-items {
     grid-area: inventory-items;
     padding: 4px;
     max-height: 100%;
-    display: flex;
+    /* display: flex; */
     scrollbar-width: none;
     scroll-behavior: smooth;
     overflow-y: scroll;
@@ -448,6 +448,7 @@ div.inventory-details {
 
 input[id=inv_item_name] {
     width: 272px;
+    min-width: 100%;
 }
 
 textarea.inv-item-desc {
@@ -615,36 +616,36 @@ div.inventory-details-30 {
     display: none;
 }
 
-.inventory-details-tab[value="1"]~div.inventory-details-1,
-.inventory-details-tab[value="2"]~div.inventory-details-2,
-.inventory-details-tab[value="3"]~div.inventory-details-3,
-.inventory-details-tab[value="4"]~div.inventory-details-4,
-.inventory-details-tab[value="5"]~div.inventory-details-5,
-.inventory-details-tab[value="6"]~div.inventory-details-6,
-.inventory-details-tab[value="7"]~div.inventory-details-7,
-.inventory-details-tab[value="8"]~div.inventory-details-8,
-.inventory-details-tab[value="9"]~div.inventory-details-9,
-.inventory-details-tab[value="10"]~div.inventory-details-10,
-.inventory-details-tab[value="11"]~div.inventory-details-11,
-.inventory-details-tab[value="12"]~div.inventory-details-12,
-.inventory-details-tab[value="13"]~div.inventory-details-13,
-.inventory-details-tab[value="14"]~div.inventory-details-14,
-.inventory-details-tab[value="15"]~div.inventory-details-15,
-.inventory-details-tab[value="16"]~div.inventory-details-16,
-.inventory-details-tab[value="17"]~div.inventory-details-17,
-.inventory-details-tab[value="18"]~div.inventory-details-18,
-.inventory-details-tab[value="19"]~div.inventory-details-19,
-.inventory-details-tab[value="20"]~div.inventory-details-20,
-.inventory-details-tab[value="21"]~div.inventory-details-21,
-.inventory-details-tab[value="22"]~div.inventory-details-22,
-.inventory-details-tab[value="23"]~div.inventory-details-23,
-.inventory-details-tab[value="24"]~div.inventory-details-24,
-.inventory-details-tab[value="25"]~div.inventory-details-25,
-.inventory-details-tab[value="26"]~div.inventory-details-26,
-.inventory-details-tab[value="27"]~div.inventory-details-27,
-.inventory-details-tab[value="28"]~div.inventory-details-28,
-.inventory-details-tab[value="29"]~div.inventory-details-29,
-.inventory-details-tab[value="30"]~div.inventory-details-30 {
+.inv-details[value="1"]~div.inventory-details-1,
+.inv-details[value="2"]~div.inventory-details-2,
+.inv-details[value="3"]~div.inventory-details-3,
+.inv-details[value="4"]~div.inventory-details-4,
+.inv-details[value="5"]~div.inventory-details-5,
+.inv-details[value="6"]~div.inventory-details-6,
+.inv-details[value="7"]~div.inventory-details-7,
+.inv-details[value="8"]~div.inventory-details-8,
+.inv-details[value="9"]~div.inventory-details-9,
+.inv-details[value="10"]~div.inventory-details-10,
+.inv-details[value="11"]~div.inventory-details-11,
+.inv-details[value="12"]~div.inventory-details-12,
+.inv-details[value="13"]~div.inventory-details-13,
+.inv-details[value="14"]~div.inventory-details-14,
+.inv-details[value="15"]~div.inventory-details-15,
+.inv-details[value="16"]~div.inventory-details-16,
+.inv-details[value="17"]~div.inventory-details-17,
+.inv-details[value="18"]~div.inventory-details-18,
+.inv-details[value="19"]~div.inventory-details-19,
+.inv-details[value="20"]~div.inventory-details-20,
+.inv-details[value="21"]~div.inventory-details-21,
+.inv-details[value="22"]~div.inventory-details-22,
+.inv-details[value="23"]~div.inventory-details-23,
+.inv-details[value="24"]~div.inventory-details-24,
+.inv-details[value="25"]~div.inventory-details-25,
+.inv-details[value="26"]~div.inventory-details-26,
+.inv-details[value="27"]~div.inventory-details-27,
+.inv-details[value="28"]~div.inventory-details-28,
+.inv-details[value="29"]~div.inventory-details-29,
+.inv-details[value="30"]~div.inventory-details-30 {
     display: block;
 }
 

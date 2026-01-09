@@ -227,7 +227,15 @@ wr_dbonus_sum_
 (1-60)
 ability_name_
 ability_button_
-attr_ab_det_
+ab_det_
+
+(0-10)-(1-12)
+mpX_name_Y
+mpX_type_Y
+mpX_components_Y
+mpX_desc_Y
+mpX_upcast_Y
+mpX_global_Y
 
 attr_silver_count
 attr_silver_weight

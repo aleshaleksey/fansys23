@@ -402,6 +402,61 @@ textarea.ab-det {
     min-width: 760px;
 }
 
+/* SPELLS SHEET */
+/* SPELLS SHEET */
+/* SPELLS SHEET */
+div.sheet-spells-inner {
+    display: grid;
+    grid-template-columns: 760px;
+    grid-template-rows: 30px 900px;
+    grid-template-areas:
+        "sheet-spells-title"
+        "spells-column-1"
+        /*  */
+    ;
+    grid-gap: 3px;
+    background-color: #e5e7e3;
+    border: 1px solid rgb(104, 101, 101);
+    padding: 4px;
+}
+
+div.spells-column-1 {
+    background-color: #e5e7e3;
+    scroll-behavior: smooth;
+    max-height: 100%;
+    /* display: flex; */
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    break-inside: avoid;
+    max-height: 900px;
+    max-width: 760px;
+    min-height: 900px;
+    min-width: 760px;
+}
+
+div.spellbox {
+  display: block;
+}
+
+textarea.spell-desc {
+    background-color: #e5e7e3;
+    scroll-behavior: smooth;
+    max-height: 200px;
+    max-width: 760px;
+    min-height: 200px;
+    min-width: 760px;
+}
+
+textarea.spell-extra {
+    background-color: #e5e7e3;
+    scroll-behavior: smooth;
+    max-height: 100px;
+    max-width: 760px;
+    min-height: 100px;
+    min-width: 760px;
+}
+
 /* INVENTORY SHEET */
 /* INVENTORY SHEET */
 /* INVENTORY SHEET */
@@ -445,12 +500,6 @@ div.inventory-items {
 div.inventory-details {
     grid-area: inventory-details;
 }
-
-input[id=inv_item_name] {
-    width: 272px;
-    min-width: 100%;
-}
-
 textarea.inv-item-desc {
     background-color: #e5e7e3;
     scroll-behavior: smooth;
@@ -458,6 +507,11 @@ textarea.inv-item-desc {
     max-width: 760px;
     min-height: 200px;
     min-width: 760px;
+}
+
+input[id=inv_item_name] {
+    width: 272px;
+    min-width: 100%;
 }
 
 
@@ -583,6 +637,214 @@ button[type="roll"] {
     display: block;
 }
 
+/* Toggle for spells */
+
+div.spellbox-details-mp0-1,
+div.spellbox-details-mp0-2,
+div.spellbox-details-mp0-3,
+div.spellbox-details-mp0-4,
+div.spellbox-details-mp0-5,
+div.spellbox-details-mp0-6,
+div.spellbox-details-mp0-7,
+div.spellbox-details-mp0-8,
+div.spellbox-details-mp0-9,
+div.spellbox-details-mp0-10,
+div.spellbox-details-mp0-11,
+div.spellbox-details-mp1-1,
+div.spellbox-details-mp1-2,
+div.spellbox-details-mp1-3,
+div.spellbox-details-mp1-4,
+div.spellbox-details-mp1-5,
+div.spellbox-details-mp1-6,
+div.spellbox-details-mp1-7,
+div.spellbox-details-mp1-8,
+div.spellbox-details-mp1-9,
+div.spellbox-details-mp1-10,
+div.spellbox-details-mp2-1,
+div.spellbox-details-mp2-2,
+div.spellbox-details-mp2-3,
+div.spellbox-details-mp2-4,
+div.spellbox-details-mp2-5,
+div.spellbox-details-mp2-6,
+div.spellbox-details-mp2-7,
+div.spellbox-details-mp2-8,
+div.spellbox-details-mp2-9,
+div.spellbox-details-mp2-10,
+div.spellbox-details-mp3-1,
+div.spellbox-details-mp3-2,
+div.spellbox-details-mp3-3,
+div.spellbox-details-mp3-4,
+div.spellbox-details-mp3-5,
+div.spellbox-details-mp3-6,
+div.spellbox-details-mp3-7,
+div.spellbox-details-mp3-8,
+div.spellbox-details-mp3-9,
+div.spellbox-details-mp4-1,
+div.spellbox-details-mp4-2,
+div.spellbox-details-mp4-3,
+div.spellbox-details-mp4-4,
+div.spellbox-details-mp4-5,
+div.spellbox-details-mp4-6,
+div.spellbox-details-mp4-7,
+div.spellbox-details-mp4-8,
+div.spellbox-details-mp4-9,
+div.spellbox-details-mp4-10,
+div.spellbox-details-mp5-1,
+div.spellbox-details-mp5-2,
+div.spellbox-details-mp5-3,
+div.spellbox-details-mp5-4,
+div.spellbox-details-mp5-5,
+div.spellbox-details-mp5-6,
+div.spellbox-details-mp5-7,
+div.spellbox-details-mp5-8,
+div.spellbox-details-mp5-9,
+div.spellbox-details-mp6-1,
+div.spellbox-details-mp6-2,
+div.spellbox-details-mp6-3,
+div.spellbox-details-mp6-4,
+div.spellbox-details-mp6-5,
+div.spellbox-details-mp6-6,
+div.spellbox-details-mp6-7,
+div.spellbox-details-mp6-8,
+div.spellbox-details-mp6-9,
+div.spellbox-details-mp7-1,
+div.spellbox-details-mp7-2,
+div.spellbox-details-mp7-3,
+div.spellbox-details-mp7-4,
+div.spellbox-details-mp7-5,
+div.spellbox-details-mp7-6,
+div.spellbox-details-mp7-7,
+div.spellbox-details-mp7-8,
+div.spellbox-details-mp7-9,
+div.spellbox-details-mp7-10,
+div.spellbox-details-mp8-1,
+div.spellbox-details-mp8-2,
+div.spellbox-details-mp8-3,
+div.spellbox-details-mp8-4,
+div.spellbox-details-mp8-5,
+div.spellbox-details-mp8-6,
+div.spellbox-details-mp8-7,
+div.spellbox-details-mp8-8,
+div.spellbox-details-mp8-9,
+div.spellbox-details-mp8-10,
+div.spellbox-details-mp9-1,
+div.spellbox-details-mp9-2,
+div.spellbox-details-mp9-3,
+div.spellbox-details-mp9-4,
+div.spellbox-details-mp9-5,
+div.spellbox-details-mp9-6,
+div.spellbox-details-mp10-1,
+div.spellbox-details-mp10-2,
+div.spellbox-details-mp10-3,
+div.spellbox-details-mp10-4,
+div.spellbox-details-mp10-5 {
+  display: none;
+}
+
+.mp-0-toggle-1[value="0-1"]~div.spellbox-details-mp0-1,
+.mp-0-toggle-2[value="0-2"]~div.spellbox-details-mp0-2,
+.mp-0-toggle-3[value="0-3"]~div.spellbox-details-mp0-3,
+.mp-0-toggle-4[value="0-4"]~div.spellbox-details-mp0-4,
+.mp-0-toggle-5[value="0-5"]~div.spellbox-details-mp0-5,
+.mp-0-toggle-6[value="0-6"]~div.spellbox-details-mp0-6,
+.mp-0-toggle-7[value="0-7"]~div.spellbox-details-mp0-7,
+.mp-0-toggle-8[value="0-8"]~div.spellbox-details-mp0-8,
+.mp-0-toggle-9[value="0-9"]~div.spellbox-details-mp0-9,
+.mp-0-toggle-10[value="0-10"]~div.spellbox-details-mp0-10,
+.mp-0-toggle-11[value="0-11"]~div.spellbox-details-mp0-11,
+.mp-1-toggle-1[value="1-1"]~div.spellbox-details-mp1-1,
+.mp-1-toggle-2[value="1-2"]~div.spellbox-details-mp1-2,
+.mp-1-toggle-3[value="1-3"]~div.spellbox-details-mp1-3,
+.mp-1-toggle-4[value="1-4"]~div.spellbox-details-mp1-4,
+.mp-1-toggle-5[value="1-5"]~div.spellbox-details-mp1-5,
+.mp-1-toggle-6[value="1-6"]~div.spellbox-details-mp1-6,
+.mp-1-toggle-7[value="1-7"]~div.spellbox-details-mp1-7,
+.mp-1-toggle-8[value="1-8"]~div.spellbox-details-mp1-8,
+.mp-1-toggle-9[value="1-9"]~div.spellbox-details-mp1-9,
+.mp-1-toggle-10[value="1-10"]~div.spellbox-details-mp1-10,
+.mp-2-toggle-1[value="2-1"]~div.spellbox-details-mp2-1,
+.mp-2-toggle-2[value="2-2"]~div.spellbox-details-mp2-2,
+.mp-2-toggle-3[value="2-3"]~div.spellbox-details-mp2-3,
+.mp-2-toggle-4[value="2-4"]~div.spellbox-details-mp2-4,
+.mp-2-toggle-5[value="2-5"]~div.spellbox-details-mp2-5,
+.mp-2-toggle-6[value="2-6"]~div.spellbox-details-mp2-6,
+.mp-2-toggle-7[value="2-7"]~div.spellbox-details-mp2-7,
+.mp-2-toggle-8[value="2-8"]~div.spellbox-details-mp2-8,
+.mp-2-toggle-9[value="2-9"]~div.spellbox-details-mp2-9,
+.mp-2-toggle-10[value="2-10"]~div.spellbox-details-mp2-10,
+.mp-3-toggle-1[value="3-1"]~div.spellbox-details-mp3-1,
+.mp-3-toggle-2[value="3-2"]~div.spellbox-details-mp3-2,
+.mp-3-toggle-3[value="3-3"]~div.spellbox-details-mp3-3,
+.mp-3-toggle-4[value="3-4"]~div.spellbox-details-mp3-4,
+.mp-3-toggle-5[value="3-5"]~div.spellbox-details-mp3-5,
+.mp-3-toggle-6[value="3-6"]~div.spellbox-details-mp3-6,
+.mp-3-toggle-7[value="3-7"]~div.spellbox-details-mp3-7,
+.mp-3-toggle-8[value="3-8"]~div.spellbox-details-mp3-8,
+.mp-3-toggle-9[value="3-9"]~div.spellbox-details-mp3-9,
+.mp-4-toggle-1[value="4-1"]~div.spellbox-details-mp4-1,
+.mp-4-toggle-2[value="4-2"]~div.spellbox-details-mp4-2,
+.mp-4-toggle-3[value="4-3"]~div.spellbox-details-mp4-3,
+.mp-4-toggle-4[value="4-4"]~div.spellbox-details-mp4-4,
+.mp-4-toggle-5[value="4-5"]~div.spellbox-details-mp4-5,
+.mp-4-toggle-6[value="4-6"]~div.spellbox-details-mp4-6,
+.mp-4-toggle-7[value="4-7"]~div.spellbox-details-mp4-7,
+.mp-4-toggle-8[value="4-8"]~div.spellbox-details-mp4-8,
+.mp-4-toggle-9[value="4-9"]~div.spellbox-details-mp4-9,
+.mp-4-toggle-10[value="4-10"]~div.spellbox-details-mp4-10,
+.mp-5-toggle-1[value="5-1"]~div.spellbox-details-mp5-1,
+.mp-5-toggle-2[value="5-2"]~div.spellbox-details-mp5-2,
+.mp-5-toggle-3[value="5-3"]~div.spellbox-details-mp5-3,
+.mp-5-toggle-4[value="5-4"]~div.spellbox-details-mp5-4,
+.mp-5-toggle-5[value="5-5"]~div.spellbox-details-mp5-5,
+.mp-5-toggle-6[value="5-6"]~div.spellbox-details-mp5-6,
+.mp-5-toggle-7[value="5-7"]~div.spellbox-details-mp5-7,
+.mp-5-toggle-8[value="5-8"]~div.spellbox-details-mp5-8,
+.mp-5-toggle-9[value="5-9"]~div.spellbox-details-mp5-9,
+.mp-6-toggle-1[value="6-1"]~div.spellbox-details-mp6-1,
+.mp-6-toggle-2[value="6-2"]~div.spellbox-details-mp6-2,
+.mp-6-toggle-3[value="6-3"]~div.spellbox-details-mp6-3,
+.mp-6-toggle-4[value="6-4"]~div.spellbox-details-mp6-4,
+.mp-6-toggle-5[value="6-5"]~div.spellbox-details-mp6-5,
+.mp-6-toggle-6[value="6-6"]~div.spellbox-details-mp6-6,
+.mp-6-toggle-7[value="6-7"]~div.spellbox-details-mp6-7,
+.mp-6-toggle-8[value="6-8"]~div.spellbox-details-mp6-8,
+.mp-6-toggle-9[value="6-9"]~div.spellbox-details-mp6-9,
+.mp-7-toggle-1[value="7-1"]~div.spellbox-details-mp7-1,
+.mp-7-toggle-2[value="7-2"]~div.spellbox-details-mp7-2,
+.mp-7-toggle-3[value="7-3"]~div.spellbox-details-mp7-3,
+.mp-7-toggle-4[value="7-4"]~div.spellbox-details-mp7-4,
+.mp-7-toggle-5[value="7-5"]~div.spellbox-details-mp7-5,
+.mp-7-toggle-6[value="7-6"]~div.spellbox-details-mp7-6,
+.mp-7-toggle-7[value="7-7"]~div.spellbox-details-mp7-7,
+.mp-7-toggle-8[value="7-8"]~div.spellbox-details-mp7-8,
+.mp-7-toggle-9[value="7-9"]~div.spellbox-details-mp7-9,
+.mp-7-toggle-10[value="7-10"]~div.spellbox-details-mp7-10,
+.mp-8-toggle-1[value="8-1"]~div.spellbox-details-mp8-1,
+.mp-8-toggle-2[value="8-2"]~div.spellbox-details-mp8-2,
+.mp-8-toggle-3[value="8-3"]~div.spellbox-details-mp8-3,
+.mp-8-toggle-4[value="8-4"]~div.spellbox-details-mp8-4,
+.mp-8-toggle-5[value="8-5"]~div.spellbox-details-mp8-5,
+.mp-8-toggle-6[value="8-6"]~div.spellbox-details-mp8-6,
+.mp-8-toggle-7[value="8-7"]~div.spellbox-details-mp8-7,
+.mp-8-toggle-8[value="8-8"]~div.spellbox-details-mp8-8,
+.mp-8-toggle-9[value="8-9"]~div.spellbox-details-mp8-9,
+.mp-8-toggle-10[value="8-10"]~div.spellbox-details-mp8-10,
+.mp-9-toggle-1[value="9-1"]~div.spellbox-details-mp9-1,
+.mp-9-toggle-2[value="9-2"]~div.spellbox-details-mp9-2,
+.mp-9-toggle-3[value="9-3"]~div.spellbox-details-mp9-3,
+.mp-9-toggle-4[value="9-4"]~div.spellbox-details-mp9-4,
+.mp-9-toggle-5[value="9-5"]~div.spellbox-details-mp9-5,
+.mp-9-toggle-6[value="9-6"]~div.spellbox-details-mp9-6,
+.mp-10-toggle-1[value="10-1"]~div.spellbox-details-mp10-1,
+.mp-10-toggle-2[value="10-2"]~div.spellbox-details-mp10-2,
+.mp-10-toggle-3[value="10-3"]~div.spellbox-details-mp10-3,
+.mp-10-toggle-4[value="10-4"]~div.spellbox-details-mp10-4,
+.mp-10-toggle-5[value="10-5"]~div.spellbox-details-mp10-5 {
+  display: block;
+}
+
+/* Toggle for inventory */
+
 div.inventory-details-1,
 div.inventory-details-2,
 div.inventory-details-3,
@@ -648,6 +910,8 @@ div.inventory-details-30 {
 .inv-details[value="30"]~div.inventory-details-30 {
     display: block;
 }
+
+/* Toggle for abilities */
 
 div.ab-det-1,
 div.ab-det-2,

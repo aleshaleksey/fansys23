@@ -408,16 +408,21 @@ textarea.ab-det {
 div.sheet-spells-inner {
     display: grid;
     grid-template-columns: 760px;
-    grid-template-rows: 30px 900px;
+    grid-template-rows: 30px 660px 640px;
     grid-template-areas:
         "sheet-spells-title"
         "spells-column-1"
+        "spell-description"
         /*  */
     ;
     grid-gap: 3px;
     background-color: #e5e7e3;
     border: 1px solid rgb(104, 101, 101);
     padding: 4px;
+}
+
+div.spell-description {
+  grid-area: spell-description;
 }
 
 div.spells-column-1 {
@@ -429,10 +434,12 @@ div.spells-column-1 {
     scroll-behavior: smooth;
     overflow-y: scroll;
     break-inside: avoid;
-    max-height: 900px;
+    max-height: 660px;
     max-width: 760px;
-    min-height: 900px;
+    min-height: 660px;
     min-width: 760px;
+    border: 1px solid rgb(104, 101, 101);
+    padding: 4px;
 }
 
 div.spellbox {
@@ -446,6 +453,11 @@ textarea.spell-desc {
     max-width: 760px;
     min-height: 200px;
     min-width: 760px;
+}
+
+input.text-input-spell {
+    max-width: 440px;
+    min-width: 340px;
 }
 
 textarea.spell-extra {
@@ -679,6 +691,7 @@ div.spellbox-details-mp3-6,
 div.spellbox-details-mp3-7,
 div.spellbox-details-mp3-8,
 div.spellbox-details-mp3-9,
+div.spellbox-details-mp3-10,
 div.spellbox-details-mp4-1,
 div.spellbox-details-mp4-2,
 div.spellbox-details-mp4-3,
@@ -741,8 +754,8 @@ div.spellbox-details-mp10-5 {
   display: none;
 }
 
-.mp-0-toggle-1[value="0-1"]~div.spellbox-details-mp0-1,
-.mp-0-toggle-2[value="0-2"]~div.spellbox-details-mp0-2,
+.mp-toggle[value="0-1"]~div.spellbox-details-mp0-1,
+.mp-toggle[value="0-2"]~div.spellbox-details-mp0-2,
 .mp-0-toggle-3[value="0-3"]~div.spellbox-details-mp0-3,
 .mp-0-toggle-4[value="0-4"]~div.spellbox-details-mp0-4,
 .mp-0-toggle-5[value="0-5"]~div.spellbox-details-mp0-5,
@@ -781,6 +794,7 @@ div.spellbox-details-mp10-5 {
 .mp-3-toggle-7[value="3-7"]~div.spellbox-details-mp3-7,
 .mp-3-toggle-8[value="3-8"]~div.spellbox-details-mp3-8,
 .mp-3-toggle-9[value="3-9"]~div.spellbox-details-mp3-9,
+.mp-3-toggle-9[value="3-10"]~div.spellbox-details-mp3-10,
 .mp-4-toggle-1[value="4-1"]~div.spellbox-details-mp4-1,
 .mp-4-toggle-2[value="4-2"]~div.spellbox-details-mp4-2,
 .mp-4-toggle-3[value="4-3"]~div.spellbox-details-mp4-3,

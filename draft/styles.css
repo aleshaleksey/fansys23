@@ -30,8 +30,8 @@ td {
 
 */ .sheet-basics-inner2 {
     display: grid;
-    grid-template-columns: 400px 360px;
-    grid-template-rows: 600px;
+    width: 760px;
+    grid-template: 600px;
     grid-template-areas:
         "attack-tab attack-tab"
         /*  */
@@ -51,14 +51,18 @@ div.attack-tab {
 
 }
 
+select.wp-stat-select {
+    max-width: 60px;
+}
+
 .sheet-basics-inner {
     display: grid;
     grid-template-columns: 96px 142px 0px 172px 210px 140px;
-    grid-template-rows: 184px 0px 160px 216px;
+    grid-template-rows: 184px 160px 60px 216px;
     grid-template-areas:
         "stats-tab save-tab thr-tab  thr-tab hit-box h-movement"
-        "stats-tab save-tab a        a       a       h-movement"
-        "stats-tab b-notes b-notes  b-notes b-notes h-movement"
+        "stats-tab b-notes b-notes  b-notes b-notes  h-movement"
+        "stats-tab b-notes b-notes  b-notes b-notes  a"
         "stats-tab rest-box rest-box hp-box  hp-box  hp-box"
         /*  */
     ;
@@ -78,9 +82,9 @@ div.b-notes {
 textarea.b-notes {
     background-color: #e5e7e3;
     scroll-behavior: smooth;
-    max-height: 152px;
+    max-height: 230px;
     max-width: 529px;
-    min-height: 152px;
+    min-height: 230px;
     min-width: 529px;
 }
 
@@ -95,6 +99,12 @@ table.stats-table {
     border: 1px solid rgb(104, 101, 101);
     align-content: left;
     align-items: left;
+}
+
+
+input.stats-input {
+    min-width: 60px;
+    font-size: 10pt;
 }
 
 div.save-tab {
@@ -162,7 +172,7 @@ table.save-table.row {
 .h-name-main-table {
     display: grid;
     grid-template-columns: 208px 186px 94px 240px;
-    grid-template-rows: 80px 48px;
+    grid-template-rows: 80px 52px;
     grid-template-areas:
         "hl-name h-template h-bns h-rki"
         "hl-name x x x"
@@ -175,28 +185,48 @@ table.save-table.row {
 table.general-table {
     /* border-collapse: collapse; */
     border: 1px solid rgb(104, 101, 101);
+    padding: 4px;
 }
 
-/* table.general-table.th {
-    padding: 4px;
-    border: 1px solid black;
-
-} */
 
 table.general-table.th,
 td {
-    padding: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
     border: 1px solid rgb(104, 101, 101);
 
 }
 
+select.size-selector {
+    max-width: 148;
+    width: 148px;
+    min-width: 148;
+    background-color: #f2f4ec;
+}
+
+select.adv-selector {
+    max-width: 154px;
+    background-color: #f2f4ec;
+}
+
 div.hl-name {
+    max-width: 188px;
     padding: 4px;
     display: flex;
     grid-area: hl-name;
     flex-direction: row;
     align-items: flex-start
 }
+
+input.text-input-hl-name {
+    width: 100%;
+}
+
+/* input[type=number].text-input-hl-name {
+    max-width: 148px;
+    min-width: 148px;
+    width: 100%;
+} */
 
 div.h-lvl-params {
     padding: 4px;
@@ -265,7 +295,8 @@ div.skills {
 }
 
 div.proficiencies {
-    padding: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
     grid-area: proficiencies;
     display: grid;
     column-count: 2;
@@ -274,12 +305,6 @@ div.proficiencies {
     background-color: #e5e7e3;
 }
 
-div.skill-esb {
-    padding: 4px;
-    grid-area: skill-info;
-    border: 1px solid rgb(104, 101, 101);
-    background-color: #e5e7e3;
-}
 
 div.skill-esb {
     padding: 4px;
@@ -543,11 +568,28 @@ div.cell-h-div {
 }
 
 input {
-    background-color: #e5e7e3;
+    background-color: #f2f4ec;
     border: none;
 }
 
-input.checkbox {
+input[disabled="true"] {
+    background-color: #e5e7e3;
+}
+input[readonly] {
+    background-color: #e5e7e3;
+}
+
+input[type="checkbox"] {
+    background-color: #f2f4ec;
+    border: none;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #f2f4ec;
+    border: none;
+}
+
+input[type="checkbox"]:checked::after {
     background-color: #f2f4ec;
     border: none;
 }
@@ -565,6 +607,7 @@ input::-webkit-inner-spin-button {
 /* This is here just in case some poor fool uses firefox */
 input[type=number] {
     -moz-appearance: textfield;
+    width: 100%;
 }
 
 
@@ -605,7 +648,15 @@ input.dice-input {
 }
 
 input.weapon-damage-show {
-    max-width: 80px;
+    max-width: 30px;
+}
+td.weapon-damage {
+    max-height: 30px;
+    white-space: nowrap;
+}
+input.weapon-damage-span {
+    white-space: nowrap;
+    flex-wrap: nowrap;
 }
 
 input.text-input-big {
@@ -648,11 +699,11 @@ button[type="roll"] {
     display: none;
 }
 
-.new-character-sheet-for-fantasy-worlds .sheet-tabstoggle[value="act_basics"]~div.sheet-basics,
-.new-character-sheet-for-fantasy-worlds .sheet-tabstoggle[value="act_skills"]~div.sheet-skills,
-.new-character-sheet-for-fantasy-worlds .sheet-tabstoggle[value="act_abilities"]~div.sheet-abilities,
-.new-character-sheet-for-fantasy-worlds .sheet-tabstoggle[value="act_spells"]~div.sheet-spells,
-.new-character-sheet-for-fantasy-worlds .sheet-tabstoggle[value="act_inventory"]~div.sheet-inventory {
+.new-character-sheet-for-fantasy-worlds .sheet-tabstoggle[value="basics"]~div.sheet-basics,
+.new-character-sheet-for-fantasy-worlds .sheet-tabstoggle[value="skills"]~div.sheet-skills,
+.new-character-sheet-for-fantasy-worlds .sheet-tabstoggle[value="abilities"]~div.sheet-abilities,
+.new-character-sheet-for-fantasy-worlds .sheet-tabstoggle[value="spells"]~div.sheet-spells,
+.new-character-sheet-for-fantasy-worlds .sheet-tabstoggle[value="inventory"]~div.sheet-inventory {
     display: block;
 }
 

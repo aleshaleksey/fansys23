@@ -1,0 +1,1061 @@
+/* NB: THE SHEET IS INTENDED FOR FIREFOX, BRAVE OR CHROME */
+
+/* This is the main character sheet body that contains both
+the invariant header and th erest of the sheet.
+By setting all elements in here we can be strict with background
+colour and element widths. */
+div.sheet-new-character-sheet-for-fantasy-worlds {
+    background-color: #f2f4ec;
+    min-width: 780px;
+    max-width: 780px;
+}
+
+/* Since different browsers tend to work a little differently with fonts
+we make sure to keep default font sizes constant */
+/* This was found to be a problem between firefox and brave */
+div,
+table,
+input,
+button,
+textarea,
+th,
+td {
+    font-size: 13.4px;
+}
+
+/* We also hide scrollbars on everything */
+::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+*/ .sheet-basics-inner2 {
+    display: grid;
+    grid-template-columns: 400px 360px;
+    grid-template-rows: 600px;
+    grid-template-areas:
+        "attack-tab attack-tab"
+        /*  */
+    ;
+    grid-gap: 3px;
+    background-color: #e5e7e3;
+    border: 1px solid rgb(104, 101, 101);
+    padding: 4px;
+}
+
+div.sheet-attack-tab {
+    padding: 4px;
+    grid-area: attack-tab;
+    align-content: left;
+    align-items: left;
+    background-color: #e5e7e3;
+
+}
+
+.sheet-basics-inner {
+    display: grid;
+    grid-template-columns: 96px 142px 0px 172px 210px 140px;
+    grid-template-rows: 184px 0px 160px 216px;
+    grid-template-areas:
+        "stats-tab save-tab thr-tab  thr-tab hit-box h-movement"
+        "stats-tab save-tab a        a       a       h-movement"
+        "stats-tab b-notes b-notes  b-notes b-notes h-movement"
+        "stats-tab rest-box rest-box hp-box  hp-box  hp-box"
+        /*  */
+    ;
+    grid-gap: 3px;
+    background-color: #e5e7e3;
+    border: 1px solid rgb(104, 101, 101);
+    padding: 4px;
+}
+
+div.sheet-b-notes {
+    padding: 4px;
+    grid-area: b-notes;
+    align-content: left;
+    align-items: left;
+}
+
+textarea.sheet-b-notes {
+    background-color: #e5e7e3;
+    scroll-behavior: smooth;
+    max-height: 152px;
+    max-width: 529px;
+    min-height: 152px;
+    min-width: 529px;
+}
+
+div.sheet-stats-table {
+    padding: 4px;
+    grid-area: stats-tab;
+    align-content: left;
+    align-items: left;
+}
+
+table.sheet-stats-table {
+    border: 1px solid rgb(104, 101, 101);
+    align-content: left;
+    align-items: left;
+}
+
+div.sheet-save-tab {
+    padding: 4px;
+    grid-area: save-tab;
+}
+
+div.sheet-thr-tab {
+    padding: 4px;
+    grid-area: thr-tab;
+}
+
+div.sheet-hit-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    grid-area: hit-box;
+    border: 1px solid rgb(104, 101, 101);
+}
+
+th.sheet-hit-main {
+    /* justify-content: top; */
+    /* justify-items: top; */
+    align-content: top;
+}
+
+table.sheet-save-table,
+.sheet-resource-table,
+.sheet-dice-table {
+    caption-side: top;
+    border: 1px solid rgb(104, 101, 101);
+    padding: 4px;
+}
+
+tbody::after {
+    content: '';
+    display: block;
+    height: 6px;
+}
+
+div.sheet-h-movement {
+    padding: 4px;
+    grid-area: h-movement;
+    display: grid;
+    column-count: 2;
+    break-inside: avoid;
+}
+
+div.sheet-hp-box {
+    padding: 4px;
+    grid-area: hp-box;
+    break-inside: avoid;
+}
+
+div.sheet-rest-box {
+    padding: 4px;
+    grid-area: rest-box;
+    break-inside: avoid;
+}
+
+table.sheet-save-table.row {
+    border: 1px solid rgb(104, 101, 101);
+}
+
+.sheet-h-name-main-table {
+    display: grid;
+    grid-template-columns: 208px 186px 94px 240px;
+    grid-template-rows: 80px 48px;
+    grid-template-areas:
+        "hl-name h-template h-bns h-rki"
+        "hl-name x x x"
+    ;
+    grid-gap: 3px;
+    background-color: #e5e7e3;
+    border: 1px solid rgb(104, 101, 101);
+}
+
+table.sheet-general-table {
+    /* border-collapse: collapse; */
+    border: 1px solid rgb(104, 101, 101);
+}
+
+/* table.sheet-general-table.th {
+    padding: 4px;
+    border: 1px solid black;
+
+} */
+
+table.sheet-general-table.th,
+td {
+    padding: 4px;
+    border: 1px solid rgb(104, 101, 101);
+
+}
+
+div.sheet-hl-name {
+    padding: 4px;
+    display: flex;
+    grid-area: hl-name;
+    flex-direction: row;
+    align-items: flex-start
+}
+
+div.sheet-h-lvl-params {
+    padding: 4px;
+    grid-area: h-lvl-params;
+    column-count: 3;
+    break-inside: avoid;
+}
+
+div.sheet-h-rki {
+    padding: 4px;
+    display: table;
+    grid-area: h-rki;
+    column-count: 2;
+    break-inside: avoid;
+}
+
+div.sheet-h-template {
+    padding: 4px;
+    grid-area: h-template;
+    display: grid;
+    column-count: 2;
+    break-inside: avoid;
+}
+
+div.sheet-h-bns {
+    padding: 4px;
+    grid-area: h-bns;
+    display: grid;
+    column-count: 2;
+    break-inside: avoid;
+}
+
+th.sheet-stat-th {
+    border: 1px solid rgb(104, 101, 101);
+}
+
+/* SKILL SHEET */
+/* SKILL SHEET */
+/* SKILL SHEET */
+.sheet-skills-inner {
+    display: grid;
+    grid-template-columns: 220px 220px 160px 160px;
+    grid-template-rows: 1000px 100px;
+    grid-template-areas:
+        "skills     skills     proficiencies  proficiencies"
+        "skill-esb skill-rem   skill-rem      skill-ranks-max"
+        /*  */
+    ;
+    grid-gap: 3px;
+    background-color: #e5e7e3;
+    border: 1px solid rgb(104, 101, 101);
+    padding: 4px;
+}
+
+div.sheet-skills {
+    padding: 4px;
+    max-height: 100%;
+    grid-area: skills;
+    display: flex;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    break-inside: avoid;
+    border: 1px solid rgb(104, 101, 101);
+    background-color: #e5e7e3;
+}
+
+div.sheet-proficiencies {
+    padding: 4px;
+    grid-area: proficiencies;
+    display: grid;
+    column-count: 2;
+    break-inside: avoid;
+    border: 1px solid rgb(104, 101, 101);
+    background-color: #e5e7e3;
+}
+
+div.sheet-skill-esb {
+    padding: 4px;
+    grid-area: skill-info;
+    border: 1px solid rgb(104, 101, 101);
+    background-color: #e5e7e3;
+}
+
+div.sheet-skill-esb {
+    padding: 4px;
+    grid-area: skill-esb;
+    border: 1px solid rgb(104, 101, 101);
+    background-color: #e5e7e3;
+}
+
+div.sheet-skill-rem {
+    padding: 4px;
+    display: flex;
+    grid-area: skill-rem;
+    border: 1px solid rgb(104, 101, 101);
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7e3;
+}
+
+div.sheet-skill-ranks-max {
+    padding: 4px;
+    grid-area: skill-ranks-max;
+    border: 1px solid rgb(104, 101, 101);
+    background-color: #e5e7e3;
+}
+
+table.sheet-skill-table {
+    max-height: 100%;
+    width: 100%;
+    caption-side: top;
+    padding: 3px;
+}
+
+
+
+input.sheet-tiny-input-r {
+    max-width: 60px;
+    width: 60px;
+    font-size: 13px;
+}
+
+/* ABILITIES SHEET */
+/* ABILITIES SHEET */
+/* ABILITIES SHEET */
+div.sheet-abilities-inner {
+    display: grid;
+    grid-template-columns: 40px 340px 40px 340px;
+    grid-template-rows: 60px 940px 400px;
+    grid-template-areas:
+        "ab-title        ab-title        ab-title        ab-title"
+        "levels-a        ab-list-a       levels-b        ab-list-b"
+        "ability-details ability-details ability-details ability-details"
+        /*  */
+    ;
+    grid-gap: 3px;
+    background-color: #e5e7e3;
+    border: 1px solid rgb(104, 101, 101);
+    padding: 4px;
+}
+
+div.sheet-ab-list-a,
+.sheet-ab-list-b,
+.sheet-levels-a,
+.sheet-levels-b,
+.sheet-ability-details {
+    padding: 4px;
+    /* border: 1px solid rgb(104, 101, 101); */
+    background-color: #e5e7e3;
+}
+
+div.sheet-ab-list-a {
+    grid-area: ab-list-a
+}
+
+div.sheet-ab-list-b {
+    grid-area: ab-list-b
+}
+
+div.sheet-levels-a {
+    height: 962px;
+    width: 124%;
+    grid-area: levels-a;
+}
+
+div.sheet-levels-b {
+    height: 962px;
+    width: 124%;
+    grid-area: levels-b;
+}
+
+div.sheet-ability-details {
+    grid-area: ability-details
+}
+
+div.sheet-ab-title {
+    padding: 4px;
+    background-color: #e5e7e3;
+    grid-area: ab-title;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table.sheet-levels-table {
+    min-height: 100%;
+    max-height: 100%;
+    height: 100%;
+    min-width: 100%;
+}
+
+input[id=ability_name] {
+    width: 272px;
+}
+
+textarea.sheet-ab-det {
+    background-color: #e5e7e3;
+    scroll-behavior: smooth;
+    max-height: 200px;
+    max-width: 760px;
+    min-height: 200px;
+    min-width: 760px;
+}
+
+/* SPELLS SHEET */
+/* SPELLS SHEET */
+/* SPELLS SHEET */
+div.sheet-spells-inner {
+    display: grid;
+    grid-template-columns: 760px;
+    grid-template-rows: 30px 660px 640px;
+    grid-template-areas:
+        "sheet-spells-title"
+        "spells-column-1"
+        "spell-description"
+        /*  */
+    ;
+    grid-gap: 3px;
+    background-color: #e5e7e3;
+    border: 1px solid rgb(104, 101, 101);
+    padding: 4px;
+}
+
+div.sheet-spell-description {
+  grid-area: spell-description;
+}
+
+div.sheet-spells-column-1 {
+    background-color: #e5e7e3;
+    scroll-behavior: smooth;
+    max-height: 100%;
+    /* display: flex; */
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    break-inside: avoid;
+    max-height: 660px;
+    max-width: 760px;
+    min-height: 660px;
+    min-width: 760px;
+    border: 1px solid rgb(104, 101, 101);
+    padding: 4px;
+}
+
+div.sheet-spellbox {
+  display: block;
+}
+
+textarea.sheet-spell-desc {
+    background-color: #e5e7e3;
+    scroll-behavior: smooth;
+    max-height: 200px;
+    max-width: 760px;
+    min-height: 200px;
+    min-width: 760px;
+}
+
+/* Does not work as extended, is table truly my only friend */
+span.sheet-spell-label {
+  min-width: 200px;
+  max-width: 200px;
+  padding-right: 4px;
+}
+
+input.sheet-text-input-spell {
+    max-width: 440px;
+    min-width: 340px;
+}
+
+textarea.sheet-spell-extra {
+    background-color: #e5e7e3;
+    scroll-behavior: smooth;
+    max-height: 100px;
+    max-width: 760px;
+    min-height: 100px;
+    min-width: 760px;
+}
+
+/* INVENTORY SHEET */
+/* INVENTORY SHEET */
+/* INVENTORY SHEET */
+div.sheet-inventory-inner {
+    display: grid;
+    grid-template-columns: 760px;
+    grid-template-rows: 60px 60px 600px 400px;
+    grid-template-areas:
+        "inventory-money"
+        "inventory-weight"
+        "inventory-items"
+        "inventory-notes"
+    ;
+    grid-gap: 3px;
+    background-color: #e5e7e3;
+    border: 1px solid rgb(104, 101, 101);
+    padding: 4px;
+}
+
+div.sheet-inventory-money {
+    grid-area: inventory-money;
+}
+
+div.sheet-inventory-weight {
+    grid-area: inventory-weight;
+}
+
+div.sheet-inventory-items {
+    grid-area: inventory-items;
+    padding: 4px;
+    max-height: 100%;
+    /* display: flex; */
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    break-inside: avoid;
+    border: 1px solid rgb(104, 101, 101);
+    background-color: #e5e7e3;
+}
+
+div.sheet-inventory-details {
+    grid-area: inventory-details;
+}
+textarea.sheet-inv-item-desc {
+    background-color: #e5e7e3;
+    scroll-behavior: smooth;
+    max-height: 200px;
+    max-width: 760px;
+    min-height: 200px;
+    min-width: 760px;
+}
+
+input[id=inv_item_name] {
+    width: 272px;
+    min-width: 100%;
+}
+
+
+/* BASIC STUFF */
+/* BASIC STUFF */
+/* BASIC STUFF */
+
+div.sheet-cell-h-div {
+    border: 1px solid rgb(104, 101, 101);
+}
+
+input {
+    background-color: #e5e7e3;
+    border: none;
+}
+
+input.sheet-checkbox {
+    background-color: #f2f4ec;
+    border: none;
+}
+
+select {
+    background-color: #f2f4ec;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* This is here just in case some poor fool uses firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+input.sheet-text-input-small {
+    max-width: 40px;
+}
+
+input.sheet-tiny-input {
+    max-width: 40px;
+}
+
+input.sheet-tiny-input-small {
+    max-width: 30px;
+    font-size: 10pt;
+}
+
+input.sheet-tiny-input-big {
+    max-width: 60px;
+    font-size: 18pt;
+    min-height: 36pt;
+}
+
+input.sheet-tiny-input-huge {
+    max-width: 60px;
+    font-size: 24pt;
+}
+
+input.sheet-text-input-med {
+    max-width: 60px;
+}
+
+input.sheet-text-input {
+    max-width: 100px;
+}
+
+input.sheet-dice-input {
+    max-width: 80px;
+}
+
+input.sheet-weapon-damage-show {
+    max-width: 80px;
+}
+
+input.sheet-text-input-big {
+    max-width: 140px;
+}
+
+* {
+    box-sizing: border-box
+}
+
+
+
+button {
+    background-color: #f2f4ec;
+    box-shadow: inset;
+    border: 1px solid rgb(104, 101, 101);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e2e4dc;
+}
+
+button:active {
+    background-color: #f4f7ee;
+}
+
+button[type="roll"] {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* configure the tab buttons */
+div.sheet-basics,
+div.sheet-skills,
+div.sheet-abilities,
+div.sheet-spells,
+div.sheet-inventory {
+    display: none;
+}
+
+.sheet-tabstoggle[value="act_basics"]~div.sheet-basics,
+.sheet-tabstoggle[value="act_skills"]~div.sheet-skills,
+.sheet-tabstoggle[value="act_abilities"]~div.sheet-abilities,
+.sheet-tabstoggle[value="act_spells"]~div.sheet-spells,
+.sheet-tabstoggle[value="act_inventory"]~div.sheet-inventory {
+    display: block;
+}
+
+/* Toggle for spells */
+
+div.sheet-spellbox-details-mp0-1,
+div.sheet-spellbox-details-mp0-2,
+div.sheet-spellbox-details-mp0-3,
+div.sheet-spellbox-details-mp0-4,
+div.sheet-spellbox-details-mp0-5,
+div.sheet-spellbox-details-mp0-6,
+div.sheet-spellbox-details-mp0-7,
+div.sheet-spellbox-details-mp0-8,
+div.sheet-spellbox-details-mp0-9,
+div.sheet-spellbox-details-mp0-10,
+div.sheet-spellbox-details-mp0-11,
+div.sheet-spellbox-details-mp1-1,
+div.sheet-spellbox-details-mp1-2,
+div.sheet-spellbox-details-mp1-3,
+div.sheet-spellbox-details-mp1-4,
+div.sheet-spellbox-details-mp1-5,
+div.sheet-spellbox-details-mp1-6,
+div.sheet-spellbox-details-mp1-7,
+div.sheet-spellbox-details-mp1-8,
+div.sheet-spellbox-details-mp1-9,
+div.sheet-spellbox-details-mp1-10,
+div.sheet-spellbox-details-mp2-1,
+div.sheet-spellbox-details-mp2-2,
+div.sheet-spellbox-details-mp2-3,
+div.sheet-spellbox-details-mp2-4,
+div.sheet-spellbox-details-mp2-5,
+div.sheet-spellbox-details-mp2-6,
+div.sheet-spellbox-details-mp2-7,
+div.sheet-spellbox-details-mp2-8,
+div.sheet-spellbox-details-mp2-9,
+div.sheet-spellbox-details-mp2-10,
+div.sheet-spellbox-details-mp3-1,
+div.sheet-spellbox-details-mp3-2,
+div.sheet-spellbox-details-mp3-3,
+div.sheet-spellbox-details-mp3-4,
+div.sheet-spellbox-details-mp3-5,
+div.sheet-spellbox-details-mp3-6,
+div.sheet-spellbox-details-mp3-7,
+div.sheet-spellbox-details-mp3-8,
+div.sheet-spellbox-details-mp3-9,
+div.sheet-spellbox-details-mp3-10,
+div.sheet-spellbox-details-mp4-1,
+div.sheet-spellbox-details-mp4-2,
+div.sheet-spellbox-details-mp4-3,
+div.sheet-spellbox-details-mp4-4,
+div.sheet-spellbox-details-mp4-5,
+div.sheet-spellbox-details-mp4-6,
+div.sheet-spellbox-details-mp4-7,
+div.sheet-spellbox-details-mp4-8,
+div.sheet-spellbox-details-mp4-9,
+div.sheet-spellbox-details-mp4-10,
+div.sheet-spellbox-details-mp5-1,
+div.sheet-spellbox-details-mp5-2,
+div.sheet-spellbox-details-mp5-3,
+div.sheet-spellbox-details-mp5-4,
+div.sheet-spellbox-details-mp5-5,
+div.sheet-spellbox-details-mp5-6,
+div.sheet-spellbox-details-mp5-7,
+div.sheet-spellbox-details-mp5-8,
+div.sheet-spellbox-details-mp5-9,
+div.sheet-spellbox-details-mp6-1,
+div.sheet-spellbox-details-mp6-2,
+div.sheet-spellbox-details-mp6-3,
+div.sheet-spellbox-details-mp6-4,
+div.sheet-spellbox-details-mp6-5,
+div.sheet-spellbox-details-mp6-6,
+div.sheet-spellbox-details-mp6-7,
+div.sheet-spellbox-details-mp6-8,
+div.sheet-spellbox-details-mp6-9,
+div.sheet-spellbox-details-mp7-1,
+div.sheet-spellbox-details-mp7-2,
+div.sheet-spellbox-details-mp7-3,
+div.sheet-spellbox-details-mp7-4,
+div.sheet-spellbox-details-mp7-5,
+div.sheet-spellbox-details-mp7-6,
+div.sheet-spellbox-details-mp7-7,
+div.sheet-spellbox-details-mp7-8,
+div.sheet-spellbox-details-mp7-9,
+div.sheet-spellbox-details-mp7-10,
+div.sheet-spellbox-details-mp8-1,
+div.sheet-spellbox-details-mp8-2,
+div.sheet-spellbox-details-mp8-3,
+div.sheet-spellbox-details-mp8-4,
+div.sheet-spellbox-details-mp8-5,
+div.sheet-spellbox-details-mp8-6,
+div.sheet-spellbox-details-mp8-7,
+div.sheet-spellbox-details-mp8-8,
+div.sheet-spellbox-details-mp8-9,
+div.sheet-spellbox-details-mp8-10,
+div.sheet-spellbox-details-mp9-1,
+div.sheet-spellbox-details-mp9-2,
+div.sheet-spellbox-details-mp9-3,
+div.sheet-spellbox-details-mp9-4,
+div.sheet-spellbox-details-mp9-5,
+div.sheet-spellbox-details-mp9-6,
+div.sheet-spellbox-details-mp10-1,
+div.sheet-spellbox-details-mp10-2,
+div.sheet-spellbox-details-mp10-3,
+div.sheet-spellbox-details-mp10-4,
+div.sheet-spellbox-details-mp10-5 {
+  display: none;
+}
+
+.sheet-mp-toggle[value="0-1"]~div.sheet-spellbox-details-mp0-1,
+.sheet-mp-toggle[value="0-2"]~div.sheet-spellbox-details-mp0-2,
+.sheet-mp-toggle[value="0-3"]~div.sheet-spellbox-details-mp0-3,
+.sheet-mp-toggle[value="0-4"]~div.sheet-spellbox-details-mp0-4,
+.sheet-mp-toggle[value="0-5"]~div.sheet-spellbox-details-mp0-5,
+.sheet-mp-toggle[value="0-6"]~div.sheet-spellbox-details-mp0-6,
+.sheet-mp-toggle[value="0-7"]~div.sheet-spellbox-details-mp0-7,
+.sheet-mp-toggle[value="0-8"]~div.sheet-spellbox-details-mp0-8,
+.sheet-mp-toggle[value="0-9"]~div.sheet-spellbox-details-mp0-9,
+.sheet-mp-toggle[value="0-10"]~div.sheet-spellbox-details-mp0-10,
+.sheet-mp-toggle[value="0-11"]~div.sheet-spellbox-details-mp0-11,
+.sheet-mp-toggle[value="1-1"]~div.sheet-spellbox-details-mp1-1,
+.sheet-mp-toggle[value="1-2"]~div.sheet-spellbox-details-mp1-2,
+.sheet-mp-toggle[value="1-3"]~div.sheet-spellbox-details-mp1-3,
+.sheet-mp-toggle[value="1-4"]~div.sheet-spellbox-details-mp1-4,
+.sheet-mp-toggle[value="1-5"]~div.sheet-spellbox-details-mp1-5,
+.sheet-mp-toggle[value="1-6"]~div.sheet-spellbox-details-mp1-6,
+.sheet-mp-toggle[value="1-7"]~div.sheet-spellbox-details-mp1-7,
+.sheet-mp-toggle[value="1-8"]~div.sheet-spellbox-details-mp1-8,
+.sheet-mp-toggle[value="1-9"]~div.sheet-spellbox-details-mp1-9,
+.sheet-mp-toggle[value="1-10"]~div.sheet-spellbox-details-mp1-10,
+.sheet-mp-toggle[value="2-1"]~div.sheet-spellbox-details-mp2-1,
+.sheet-mp-toggle[value="2-2"]~div.sheet-spellbox-details-mp2-2,
+.sheet-mp-toggle[value="2-3"]~div.sheet-spellbox-details-mp2-3,
+.sheet-mp-toggle[value="2-4"]~div.sheet-spellbox-details-mp2-4,
+.sheet-mp-toggle[value="2-5"]~div.sheet-spellbox-details-mp2-5,
+.sheet-mp-toggle[value="2-6"]~div.sheet-spellbox-details-mp2-6,
+.sheet-mp-toggle[value="2-7"]~div.sheet-spellbox-details-mp2-7,
+.sheet-mp-toggle[value="2-8"]~div.sheet-spellbox-details-mp2-8,
+.sheet-mp-toggle[value="2-9"]~div.sheet-spellbox-details-mp2-9,
+.sheet-mp-toggle[value="2-10"]~div.sheet-spellbox-details-mp2-10,
+.sheet-mp-toggle[value="3-1"]~div.sheet-spellbox-details-mp3-1,
+.sheet-mp-toggle[value="3-2"]~div.sheet-spellbox-details-mp3-2,
+.sheet-mp-toggle[value="3-3"]~div.sheet-spellbox-details-mp3-3,
+.sheet-mp-toggle[value="3-4"]~div.sheet-spellbox-details-mp3-4,
+.sheet-mp-toggle[value="3-5"]~div.sheet-spellbox-details-mp3-5,
+.sheet-mp-toggle[value="3-6"]~div.sheet-spellbox-details-mp3-6,
+.sheet-mp-toggle[value="3-7"]~div.sheet-spellbox-details-mp3-7,
+.sheet-mp-toggle[value="3-8"]~div.sheet-spellbox-details-mp3-8,
+.sheet-mp-toggle[value="3-9"]~div.sheet-spellbox-details-mp3-9,
+.sheet-mp-toggle[value="3-10"]~div.sheet-spellbox-details-mp3-10,
+.sheet-mp-toggle[value="4-1"]~div.sheet-spellbox-details-mp4-1,
+.sheet-mp-toggle[value="4-2"]~div.sheet-spellbox-details-mp4-2,
+.sheet-mp-toggle[value="4-3"]~div.sheet-spellbox-details-mp4-3,
+.sheet-mp-toggle[value="4-4"]~div.sheet-spellbox-details-mp4-4,
+.sheet-mp-toggle[value="4-5"]~div.sheet-spellbox-details-mp4-5,
+.sheet-mp-toggle[value="4-6"]~div.sheet-spellbox-details-mp4-6,
+.sheet-mp-toggle[value="4-7"]~div.sheet-spellbox-details-mp4-7,
+.sheet-mp-toggle[value="4-8"]~div.sheet-spellbox-details-mp4-8,
+.sheet-mp-toggle[value="4-9"]~div.sheet-spellbox-details-mp4-9,
+.sheet-mp-toggle[value="4-10"]~div.sheet-spellbox-details-mp4-10,
+.sheet-mp-toggle[value="5-1"]~div.sheet-spellbox-details-mp5-1,
+.sheet-mp-toggle[value="5-2"]~div.sheet-spellbox-details-mp5-2,
+.sheet-mp-toggle[value="5-3"]~div.sheet-spellbox-details-mp5-3,
+.sheet-mp-toggle[value="5-4"]~div.sheet-spellbox-details-mp5-4,
+.sheet-mp-toggle[value="5-5"]~div.sheet-spellbox-details-mp5-5,
+.sheet-mp-toggle[value="5-6"]~div.sheet-spellbox-details-mp5-6,
+.sheet-mp-toggle[value="5-7"]~div.sheet-spellbox-details-mp5-7,
+.sheet-mp-toggle[value="5-8"]~div.sheet-spellbox-details-mp5-8,
+.sheet-mp-toggle[value="5-9"]~div.sheet-spellbox-details-mp5-9,
+.sheet-mp-toggle[value="6-1"]~div.sheet-spellbox-details-mp6-1,
+.sheet-mp-toggle[value="6-2"]~div.sheet-spellbox-details-mp6-2,
+.sheet-mp-toggle[value="6-3"]~div.sheet-spellbox-details-mp6-3,
+.sheet-mp-toggle[value="6-4"]~div.sheet-spellbox-details-mp6-4,
+.sheet-mp-toggle[value="6-5"]~div.sheet-spellbox-details-mp6-5,
+.sheet-mp-toggle[value="6-6"]~div.sheet-spellbox-details-mp6-6,
+.sheet-mp-toggle[value="6-7"]~div.sheet-spellbox-details-mp6-7,
+.sheet-mp-toggle[value="6-8"]~div.sheet-spellbox-details-mp6-8,
+.sheet-mp-toggle[value="6-9"]~div.sheet-spellbox-details-mp6-9,
+.sheet-mp-toggle[value="7-1"]~div.sheet-spellbox-details-mp7-1,
+.sheet-mp-toggle[value="7-2"]~div.sheet-spellbox-details-mp7-2,
+.sheet-mp-toggle[value="7-3"]~div.sheet-spellbox-details-mp7-3,
+.sheet-mp-toggle[value="7-4"]~div.sheet-spellbox-details-mp7-4,
+.sheet-mp-toggle[value="7-5"]~div.sheet-spellbox-details-mp7-5,
+.sheet-mp-toggle[value="7-6"]~div.sheet-spellbox-details-mp7-6,
+.sheet-mp-toggle[value="7-7"]~div.sheet-spellbox-details-mp7-7,
+.sheet-mp-toggle[value="7-8"]~div.sheet-spellbox-details-mp7-8,
+.sheet-mp-toggle[value="7-9"]~div.sheet-spellbox-details-mp7-9,
+.sheet-mp-toggle[value="7-10"]~div.sheet-spellbox-details-mp7-10,
+.sheet-mp-toggle[value="8-1"]~div.sheet-spellbox-details-mp8-1,
+.sheet-mp-toggle[value="8-2"]~div.sheet-spellbox-details-mp8-2,
+.sheet-mp-toggle[value="8-3"]~div.sheet-spellbox-details-mp8-3,
+.sheet-mp-toggle[value="8-4"]~div.sheet-spellbox-details-mp8-4,
+.sheet-mp-toggle[value="8-5"]~div.sheet-spellbox-details-mp8-5,
+.sheet-mp-toggle[value="8-6"]~div.sheet-spellbox-details-mp8-6,
+.sheet-mp-toggle[value="8-7"]~div.sheet-spellbox-details-mp8-7,
+.sheet-mp-toggle[value="8-8"]~div.sheet-spellbox-details-mp8-8,
+.sheet-mp-toggle[value="8-9"]~div.sheet-spellbox-details-mp8-9,
+.sheet-mp-toggle[value="8-10"]~div.sheet-spellbox-details-mp8-10,
+.sheet-mp-toggle[value="9-1"]~div.sheet-spellbox-details-mp9-1,
+.sheet-mp-toggle[value="9-2"]~div.sheet-spellbox-details-mp9-2,
+.sheet-mp-toggle[value="9-3"]~div.sheet-spellbox-details-mp9-3,
+.sheet-mp-toggle[value="9-4"]~div.sheet-spellbox-details-mp9-4,
+.sheet-mp-toggle[value="9-5"]~div.sheet-spellbox-details-mp9-5,
+.sheet-mp-toggle[value="9-6"]~div.sheet-spellbox-details-mp9-6,
+.sheet-mp-toggle[value="10-1"]~div.sheet-spellbox-details-mp10-1,
+.sheet-mp-toggle[value="10-2"]~div.sheet-spellbox-details-mp10-2,
+.sheet-mp-toggle[value="10-3"]~div.sheet-spellbox-details-mp10-3,
+.sheet-mp-toggle[value="10-4"]~div.sheet-spellbox-details-mp10-4,
+.sheet-mp-toggle[value="10-5"]~div.sheet-spellbox-details-mp10-5 {
+  display: block;
+}
+
+/* Toggle for inventory */
+
+div.sheet-inventory-details-1,
+div.sheet-inventory-details-2,
+div.sheet-inventory-details-3,
+div.sheet-inventory-details-4,
+div.sheet-inventory-details-5,
+div.sheet-inventory-details-6,
+div.sheet-inventory-details-7,
+div.sheet-inventory-details-8,
+div.sheet-inventory-details-9,
+div.sheet-inventory-details-10,
+div.sheet-inventory-details-11,
+div.sheet-inventory-details-12,
+div.sheet-inventory-details-13,
+div.sheet-inventory-details-14,
+div.sheet-inventory-details-15,
+div.sheet-inventory-details-16,
+div.sheet-inventory-details-17,
+div.sheet-inventory-details-18,
+div.sheet-inventory-details-19,
+div.sheet-inventory-details-20,
+div.sheet-inventory-details-21,
+div.sheet-inventory-details-22,
+div.sheet-inventory-details-23,
+div.sheet-inventory-details-24,
+div.sheet-inventory-details-25,
+div.sheet-inventory-details-26,
+div.sheet-inventory-details-27,
+div.sheet-inventory-details-28,
+div.sheet-inventory-details-29,
+div.sheet-inventory-details-30 {
+    display: none;
+}
+
+.sheet-inv-details[value="1"]~div.sheet-inventory-details-1,
+.sheet-inv-details[value="2"]~div.sheet-inventory-details-2,
+.sheet-inv-details[value="3"]~div.sheet-inventory-details-3,
+.sheet-inv-details[value="4"]~div.sheet-inventory-details-4,
+.sheet-inv-details[value="5"]~div.sheet-inventory-details-5,
+.sheet-inv-details[value="6"]~div.sheet-inventory-details-6,
+.sheet-inv-details[value="7"]~div.sheet-inventory-details-7,
+.sheet-inv-details[value="8"]~div.sheet-inventory-details-8,
+.sheet-inv-details[value="9"]~div.sheet-inventory-details-9,
+.sheet-inv-details[value="10"]~div.sheet-inventory-details-10,
+.sheet-inv-details[value="11"]~div.sheet-inventory-details-11,
+.sheet-inv-details[value="12"]~div.sheet-inventory-details-12,
+.sheet-inv-details[value="13"]~div.sheet-inventory-details-13,
+.sheet-inv-details[value="14"]~div.sheet-inventory-details-14,
+.sheet-inv-details[value="15"]~div.sheet-inventory-details-15,
+.sheet-inv-details[value="16"]~div.sheet-inventory-details-16,
+.sheet-inv-details[value="17"]~div.sheet-inventory-details-17,
+.sheet-inv-details[value="18"]~div.sheet-inventory-details-18,
+.sheet-inv-details[value="19"]~div.sheet-inventory-details-19,
+.sheet-inv-details[value="20"]~div.sheet-inventory-details-20,
+.sheet-inv-details[value="21"]~div.sheet-inventory-details-21,
+.sheet-inv-details[value="22"]~div.sheet-inventory-details-22,
+.sheet-inv-details[value="23"]~div.sheet-inventory-details-23,
+.sheet-inv-details[value="24"]~div.sheet-inventory-details-24,
+.sheet-inv-details[value="25"]~div.sheet-inventory-details-25,
+.sheet-inv-details[value="26"]~div.sheet-inventory-details-26,
+.sheet-inv-details[value="27"]~div.sheet-inventory-details-27,
+.sheet-inv-details[value="28"]~div.sheet-inventory-details-28,
+.sheet-inv-details[value="29"]~div.sheet-inventory-details-29,
+.sheet-inv-details[value="30"]~div.sheet-inventory-details-30 {
+    display: block;
+}
+
+/* Toggle for abilities */
+
+div.sheet-ab-det-1,
+div.sheet-ab-det-2,
+div.sheet-ab-det-3,
+div.sheet-ab-det-4,
+div.sheet-ab-det-5,
+div.sheet-ab-det-6,
+div.sheet-ab-det-7,
+div.sheet-ab-det-8,
+div.sheet-ab-det-9,
+div.sheet-ab-det-10,
+div.sheet-ab-det-11,
+div.sheet-ab-det-12,
+div.sheet-ab-det-13,
+div.sheet-ab-det-14,
+div.sheet-ab-det-15,
+div.sheet-ab-det-16,
+div.sheet-ab-det-17,
+div.sheet-ab-det-18,
+div.sheet-ab-det-19,
+div.sheet-ab-det-20,
+div.sheet-ab-det-21,
+div.sheet-ab-det-22,
+div.sheet-ab-det-23,
+div.sheet-ab-det-24,
+div.sheet-ab-det-25,
+div.sheet-ab-det-26,
+div.sheet-ab-det-27,
+div.sheet-ab-det-28,
+div.sheet-ab-det-29,
+div.sheet-ab-det-30,
+div.sheet-ab-det-31,
+div.sheet-ab-det-32,
+div.sheet-ab-det-33,
+div.sheet-ab-det-34,
+div.sheet-ab-det-35,
+div.sheet-ab-det-36,
+div.sheet-ab-det-37,
+div.sheet-ab-det-38,
+div.sheet-ab-det-39,
+div.sheet-ab-det-40,
+div.sheet-ab-det-41,
+div.sheet-ab-det-42,
+div.sheet-ab-det-43,
+div.sheet-ab-det-44,
+div.sheet-ab-det-45,
+div.sheet-ab-det-46,
+div.sheet-ab-det-47,
+div.sheet-ab-det-48,
+div.sheet-ab-det-49,
+div.sheet-ab-det-50,
+div.sheet-ab-det-51,
+div.sheet-ab-det-52,
+div.sheet-ab-det-53,
+div.sheet-ab-det-54,
+div.sheet-ab-det-55,
+div.sheet-ab-det-56,
+div.sheet-ab-det-57,
+div.sheet-ab-det-58,
+div.sheet-ab-det-59,
+div.sheet-ab-det-60 {
+    display: none;
+}
+
+.sheet-abilities-details[value="1"]~div.sheet-ab-det-1,
+.sheet-abilities-details[value="2"]~div.sheet-ab-det-2,
+.sheet-abilities-details[value="3"]~div.sheet-ab-det-3,
+.sheet-abilities-details[value="4"]~div.sheet-ab-det-4,
+.sheet-abilities-details[value="5"]~div.sheet-ab-det-5,
+.sheet-abilities-details[value="6"]~div.sheet-ab-det-6,
+.sheet-abilities-details[value="7"]~div.sheet-ab-det-7,
+.sheet-abilities-details[value="8"]~div.sheet-ab-det-8,
+.sheet-abilities-details[value="9"]~div.sheet-ab-det-9,
+.sheet-abilities-details[value="10"]~div.sheet-ab-det-10,
+.sheet-abilities-details[value="11"]~div.sheet-ab-det-11,
+.sheet-abilities-details[value="12"]~div.sheet-ab-det-12,
+.sheet-abilities-details[value="13"]~div.sheet-ab-det-13,
+.sheet-abilities-details[value="14"]~div.sheet-ab-det-14,
+.sheet-abilities-details[value="15"]~div.sheet-ab-det-15,
+.sheet-abilities-details[value="16"]~div.sheet-ab-det-16,
+.sheet-abilities-details[value="17"]~div.sheet-ab-det-17,
+.sheet-abilities-details[value="18"]~div.sheet-ab-det-18,
+.sheet-abilities-details[value="19"]~div.sheet-ab-det-19,
+.sheet-abilities-details[value="20"]~div.sheet-ab-det-20,
+.sheet-abilities-details[value="21"]~div.sheet-ab-det-21,
+.sheet-abilities-details[value="22"]~div.sheet-ab-det-22,
+.sheet-abilities-details[value="23"]~div.sheet-ab-det-23,
+.sheet-abilities-details[value="24"]~div.sheet-ab-det-24,
+.sheet-abilities-details[value="25"]~div.sheet-ab-det-25,
+.sheet-abilities-details[value="26"]~div.sheet-ab-det-26,
+.sheet-abilities-details[value="27"]~div.sheet-ab-det-27,
+.sheet-abilities-details[value="28"]~div.sheet-ab-det-28,
+.sheet-abilities-details[value="29"]~div.sheet-ab-det-29,
+.sheet-abilities-details[value="30"]~div.sheet-ab-det-30,
+.sheet-abilities-details[value="31"]~div.sheet-ab-det-31,
+.sheet-abilities-details[value="32"]~div.sheet-ab-det-32,
+.sheet-abilities-details[value="33"]~div.sheet-ab-det-33,
+.sheet-abilities-details[value="34"]~div.sheet-ab-det-34,
+.sheet-abilities-details[value="35"]~div.sheet-ab-det-35,
+.sheet-abilities-details[value="36"]~div.sheet-ab-det-36,
+.sheet-abilities-details[value="37"]~div.sheet-ab-det-37,
+.sheet-abilities-details[value="38"]~div.sheet-ab-det-38,
+.sheet-abilities-details[value="39"]~div.sheet-ab-det-39,
+.sheet-abilities-details[value="40"]~div.sheet-ab-det-40,
+.sheet-abilities-details[value="41"]~div.sheet-ab-det-41,
+.sheet-abilities-details[value="42"]~div.sheet-ab-det-42,
+.sheet-abilities-details[value="43"]~div.sheet-ab-det-43,
+.sheet-abilities-details[value="44"]~div.sheet-ab-det-44,
+.sheet-abilities-details[value="45"]~div.sheet-ab-det-45,
+.sheet-abilities-details[value="46"]~div.sheet-ab-det-46,
+.sheet-abilities-details[value="47"]~div.sheet-ab-det-47,
+.sheet-abilities-details[value="48"]~div.sheet-ab-det-48,
+.sheet-abilities-details[value="49"]~div.sheet-ab-det-49,
+.sheet-abilities-details[value="50"]~div.sheet-ab-det-50,
+.sheet-abilities-details[value="51"]~div.sheet-ab-det-51,
+.sheet-abilities-details[value="52"]~div.sheet-ab-det-52,
+.sheet-abilities-details[value="53"]~div.sheet-ab-det-53,
+.sheet-abilities-details[value="54"]~div.sheet-ab-det-54,
+.sheet-abilities-details[value="55"]~div.sheet-ab-det-55,
+.sheet-abilities-details[value="56"]~div.sheet-ab-det-56,
+.sheet-abilities-details[value="57"]~div.sheet-ab-det-57,
+.sheet-abilities-details[value="58"]~div.sheet-ab-det-58,
+.sheet-abilities-details[value="59"]~div.sheet-ab-det-59,
+.sheet-abilities-details[value="60"]~div.sheet-ab-det-60 {
+    display: block;
+}

@@ -298,13 +298,17 @@ div.proficiencies {
     padding-left: 4px;
     padding-right: 4px;
     grid-area: proficiencies;
-    display: grid;
-    column-count: 2;
+    display: flex;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
     break-inside: avoid;
     border: 1px solid rgb(104, 101, 101);
     background-color: #e5e7e3;
 }
-
+table.proficiencies-table {
+    max-width: 100%;
+}
 
 div.skill-esb {
     padding: 4px;
@@ -337,7 +341,30 @@ table.skill-table {
     padding: 3px;
 }
 
+input.prof-name-input {
+    width: 188px;
+    max-width: 188px;
+}
 
+input.prof-desc-input {
+    width: 188px;
+    max-width: 188px;
+}
+
+span.prof-source-select {
+    display: flex;
+    padding-right: 4px;
+    padding-top: 4px;
+    max-width:106px;
+    min-width:106px;
+    width:100px;
+}
+
+input.prof-source-select {
+    max-width:100px;
+    min-width:100px;
+    width:100px;
+}
 
 input.tiny-input-r {
     max-width: 60px;

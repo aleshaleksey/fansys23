@@ -413,8 +413,8 @@
                                     data-formula="{{13+@{str_bonus}+@{nat}+@{base}}}">
                             </td>
                             <td><input class="tiny-input" name="attr_attack_mod_str" disabled="true"
-                                    type="number" value="{{@{str_bonus}+@{nat}+@{base}}}"
-                                    data-formula="{{@{str_bonus}+@{nat}+@{base}}}">
+                                    type="number" value="{{(@{str_bonus})+@{nat}+@{base}}}"
+                                    data-formula="{{(@{str_bonus})+@{nat}+@{base}}}">
                             </td>
                         </tr>
                         <tr>
@@ -424,42 +424,42 @@
                                     Dex!
                                 </button></th>
                             <td><input class="tiny-input" name="attr_threshold_dex" disabled="true"
-                                    type="number" value="{{13+@{dex_bonus}+@{nat}+@{base}}}"
-                                    data-formula="{{13+@{dex_bonus}+@{nat}+@{base}}}">
+                                    type="number" value="{{13+(@{dex_bonus})+@{nat}+@{base}}}"
+                                    data-formula="{{13+(@{dex_bonus})+@{nat}+@{base}}}">
                             </td>
                             <td><input class="tiny-input" name="attr_attack_mod_dex" disabled="true"
-                                    type="number" value="{{@{dex_bonus}+@{nat}+@{base}}}"
-                                    data-formula="{{@{dex_bonus}+@{nat}+@{base}}}">
+                                    type="number" value="{{(@{dex_bonus})+@{nat}+@{base}}}"
+                                    data-formula="{{(@{dex_bonus})+@{nat}+@{base}}}">
                             </td>
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} INT attack:**\n/r @{nd12}+@{base}+@{sup}+@{int_bonus} @{sm_die}"
+                                    value="**@{character_name} INT attack:**\n/r @{nd12}+@{base}+@{sup}+(@{int_bonus}) @{sm_die}"
                                     name="roll_int_attack" class="btn ui-draggable">
                                     Int!
                                 </button></th>
                             <td><input class="tiny-input" name="attr_threshold_int" disabled="true"
-                                    type="number" value="{{13+@{int_bonus}+@{sup}}}"
-                                    data-formula="{{13+@{int_bonus}+@{sup}}}">
+                                    type="number" value="{{13+(@{int_bonus})+@{sup}}}"
+                                    data-formula="{{13+(@{int_bonus})+@{sup}}}">
                             </td>
                             <td><input class="tiny-input" name="attr_attack_mod_int" disabled="true"
-                                    type="number" value="{{@{int_bonus}+@{sup}+@{base}}}"
-                                    data-formula="{{@{int_bonus}+@{sup}+@{base}}}">
+                                    type="number" value="{(@{int_bonus})+@{sup}+@{base}}"
+                                    data-formula="{{(@{int_bonus})+@{sup}+@{base}}}">
                             </td>
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} WIS attack:**\n/r @{nd12}+@{base}+@{sup}+@{wis_bonus} @{sm_die}"
+                                    value="**@{character_name} WIS attack:**\n/r @{nd12}+@{base}+@{sup}+(@{wis_bonus}) @{sm_die}"
                                     name="roll_wis_attack" class="btn ui-draggable">
                                     Wis!
                                 </button></th>
                             <td><input class="tiny-input" name="attr_threshold_wis" disabled="true"
-                                    type="number" value="{{13+@{wis_bonus}+@{sup}}}"
-                                    data-formula="{{13+@{wis_bonus}+@{sup}+@{base}}}">
+                                    type="number" value="{{13+(@{wis_bonus})+@{sup}}}"
+                                    data-formula="{{13+(@{wis_bonus})+@{sup}}}">
                             </td>
                             <td><input class="tiny-input" name="attr_attack_mod_wis" disabled="true"
-                                    type="number" value="{{@{wis_bonus}+@{sup}}}"
-                                    data-formula="{{@{wis_bonus}+@{sup}+@{base}}}">
+                                    type="number" value="{{(@{wis_bonus})+@{base}+@{sup}}}"
+                                    data-formula="{{(@{wis_bonus})+@{sup}+@{base}}}">
                             </td>
                         </tr>
                     </tbody>
@@ -2209,7 +2209,7 @@
                 <strong>Skill points remaining: </strong>
                 <input type="number" class="tiny-input-huge" name="attr_skill_points_rem"
                     disabled="true"
-                    value="{(@{extra_skill_points})+2+(@{lvl})*(4+(@{int_bonus}))-(@{skills_sum})-(@{prof_sum})}">
+                    value="{(@{extra_skill_points})+5+(@{lvl})*(4+(@{int_bonus}))-(@{skills_sum})-(@{prof_sum})}">
                 <input name="attr_skills_sum" hidden="true" type="number" class="tiny-input-small"
                     disabled="true"
                     value="{(@{ranks_athletics})+(@{ranks_climb})+(@{ranks_fortify})+(@{ranks_swim})+(@{ranks_acrobatics})+(@{ranks_fly})+(@{ranks_heal})+(@{ranks_ride})+(@{ranks_sleight})+(@{ranks_stealth})+(@{ranks_tinker})+(@{ranks_harvest})+(@{ranks_academics})+(@{ranks_appraise})+(@{ranks_navigate})+(@{ranks_prospect})+(@{ranks_karcana})+(@{ranks_kgeography})+(@{ranks_knature})+(@{ranks_kdungon})+(@{ranks_khistory})+(@{ranks_kreligion})+(@{ranks_observe})+(@{ranks_smotive})+(@{ranks_track})+(@{ranks_spellworking})+(@{ranks_deceive})+(@{ranks_diplomacy})+(@{ranks_intimidate})+(@{ranks_perform})+(@{ranks_persuade})}">

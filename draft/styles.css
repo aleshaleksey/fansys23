@@ -571,6 +571,11 @@ div.inventory-items {
 div.inventory-details {
     grid-area: inventory-details;
 }
+span.inv-item-name {
+    text-decoration-line: underline;
+    font-weight:500;
+}
+
 textarea.inv-item-desc {
     background-color: #e5e7e3;
     scroll-behavior: smooth;

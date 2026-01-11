@@ -1375,8 +1375,8 @@
                                 </button></th>
                             <td><input name="attr_bonus_ride" type="number" class="tiny-input-r"
                                     disabled="true"
-                                    value="{{@{stealth}+@{ranks_ride}+(@{base}+1)*@{base_ride}+@{extra_ride}}}"
-                                    data-formula="{{@{stealth}+@{ranks_ride}+(@{base}+1)*@{base_ride}+@{extra_ride}}}">
+                                    value="{@{dex_bonus}+(@{ranks_ride})+(@{base}+1)*@{base_ride}+@{extra_ride}}}"
+                                    data-formula="{{@{dex_bonus}+(@{ranks_ride})+(@{base}+1)*@{base_ride}+@{extra_ride}}}">
                             </td>
                             <td><input name="attr_ranks_ride" type="number" value="0"
                                     class="tiny-input-r">
@@ -8013,30 +8013,41 @@
                 </table>
             </div>
             <div class="inventory-weight">
+                <span>Mighty I <input type="checkbox" name="attr_mighty_i" value="0.5"></span>
+                <span>Mighty II <input type="checkbox" name="attr_mighty_ii" value="1"></span>
                 <table class="skill-table">
                     <tbody>
                         <tr>
                             <th>Total Weight (lb)</th>
                             <th>Light Load</th>
-                            <th>Light Heavy Load</th>
-                            <th>Light Max Load</th>
+                            <th>Medium Load</th>
+                            <th>Heavy Load</th>
+                            <th>Drag Weight</th>
                         </tr>
                         <tr>
                             <td><input name="attr_total_weight" type="number" class="tiny-input-r"
-                                    disabled="true" value="{{@{silver_weight}}}"
-                                    data-formula="{{@{silver_weight}}}">
+                                    disabled="true"
+                                    value="{{(@{silver_weight})+(@{isum_1})+(@{isum_2})+(@{isum_3})+(@{isum_4})+(@{isum_5})+(@{isum_6})+(@{isum_7})+(@{isum_8})+(@{isum_9})+(@{isum_10})+(@{isum_11})+(@{isum_12})+(@{isum_13})+(@{isum_14})+(@{isum_15})+(@{isum_16})+(@{isum_17})+(@{isum_18})+(@{isum_19})+(@{isum_20})+(@{isum_21})+(@{isum_22})+(@{isum_23})+(@{isum_24})+(@{isum_25})+(@{isum_26})+(@{isum_27})+(@{isum_28})+(@{isum_29})+(@{isum_30})}}"
+                                    data-formula="{{(@{silver_weight})+(@{isum_1})+(@{isum_2})+(@{isum_3})+(@{isum_4})+(@{isum_5})+(@{isum_6})+(@{isum_7})+(@{isum_8})+(@{isum_9})+(@{isum_10})+(@{isum_11})+(@{isum_12})+(@{isum_13})+(@{isum_14})+(@{isum_15})+(@{isum_16})+(@{isum_17})+(@{isum_18})+(@{isum_19})+(@{isum_20})+(@{isum_21})+(@{isum_22})+(@{isum_23})+(@{isum_24})+(@{isum_25})+(@{isum_26})+(@{isum_27})+(@{isum_28})+(@{isum_29})+(@{isum_30})}}">
                             </td>
                             <td><input name="attr_light_load" type="number" class="tiny-input-r"
-                                    disabled="true" value="{{@{stat_str}*4}}"
-                                    data-formula="{{@{stat_str}*4}}">
+                                    disabled="true"
+                                    value="{{(@{stat_str})*4*(1+(@{mighty_i}))*(1+(@{mighty_ii}))}}"
+                                    data-formula="{{(@{stat_str})*4}}">
                             </td>
+                            <!-- NB: Mighty 2 is supposed to break medium load and hence empty the box. -->
                             <td><input name="attr_mid_load" type="number" class="tiny-input-r"
-                                    disabled="true" value="{{@{stat_str}*8}}"
-                                    data-formula="{{@{stat_str}*8}}">
+                                    disabled="true"
+                                    value="{{(@{stat_str})*8*(1+(@{mighty_i}))*(1/(1-@{mighty_ii}))}}"
+                                    data-formula="{{(@{stat_str})*8}}">
                             </td>
                             <td><input name="attr_max_load" type="number" class="tiny-input-r"
-                                    disabled="true" value="{{@{stat_str}*20}}"
-                                    data-formula="{{@{stat_str}*20}}">
+                                    disabled="true" value="{{(@{stat_str})*20*(1+(@{mighty_i}))}}"
+                                    data-formula="{{(@{stat_str})*20}}">
+                            </td>
+                            <td><input name="attr_drag_weight" type="number" class="tiny-input-r"
+                                    disabled="true" value="{{(@{stat_str})*30*(1+(@{mighty_i}))}}"
+                                    data-formula="{{(@{stat_str})*30}}">
                             </td>
 
                         </tr>
@@ -8054,201 +8065,171 @@
                             <th></th>
                         </tr>
                         <tr>
-                            <td><input class="inv-item-name" id="inv_item_name"
-                                    name="attr_inv_item_name_1" value="{{@{inv_item_name_1}}}"
-                                    type="text">
+                            <td><input class="inv-item-name" id="inv_item_name" placeholder="Item 1"
+                                    name="attr_inv_item_name_1" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_1" value="{{@{inv_item_count_1}}}"
-                                    type="number">
+                                    name="attr_inv_item_count_1" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight"
-                                    value="{{@{inv_item_weight_1}}}" name="attr_inv_item_weight_1"
+                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                                    name="attr_inv_item_weight_1" type="number"></td>
+                            <td><input class="tiny-input" disabled="true" name="attr_isum_1"
+                                    value="{{(@{inv_item_weight_1})*@{inv_item_count_1}}}"
                                     type="number"></td>
-                            <td><input class="tiny-input" disabled="true"
-                                    value="{{@{inv_item_weight_1}+@{inv_item_count_1}}}"
-                                    type="number"></td>
-                            <th><button type="action" value="" id="inv-item-1"
+                            <th><button type="action" value="" name="act_inv_item_1"
                                     class="btn ui-draggable">
                                     Edit
                                 </button></th>
                         </tr>
                         <tr>
                             <td><input class="inv-item-name" id="inv_item_name"
-                                    name="attr_inv_item_name_2" value="{{@{inv_item_name_2}}}"
-                                    type="text">
+                                    name="attr_inv_item_name_2" placeholder="Item 2" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_2" value="{{@{inv_item_count_2}}}"
-                                    type="number">
+                                    name="attr_inv_item_count_2" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight"
-                                    value="{{@{inv_item_weight_2}}}" name="attr_inv_item_weight_2"
+                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                                    name="attr_inv_item_weight_2" type="number"></td>
+                            <td><input class="tiny-input" disabled="true" name="attr_isum_2"
+                                    value="{{(@{inv_item_weight_2})*(@{inv_item_count_2})}}"
                                     type="number"></td>
-                            <td><input class="tiny-input" disabled="true"
-                                    value="{{@{inv_item_weight_2}+@{inv_item_count_2}}}"
-                                    type="number"></td>
-                            <th><button type="action" value="" id="inv-item-2"
+                            <th><button type="action" value="" name="act_inv_item_2"
                                     class="btn ui-draggable">
                                     Edit
                                 </button></th>
                         </tr>
                         <tr>
                             <td><input class="inv-item-name" id="inv_item_name"
-                                    name="attr_inv_item_name_3" value="{{@{inv_item_name_3}}}"
-                                    type="text">
+                                    name="attr_inv_item_name_3" placeholder="Item 3" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_3" value="{{@{inv_item_count_3}}}"
-                                    type="number">
+                                    name="attr_inv_item_count_3" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight"
-                                    value="{{@{inv_item_weight_3}}}" name="attr_inv_item_weight_3"
+                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                                    name="attr_inv_item_weight_3" type="number"></td>
+                            <td><input class="tiny-input" disabled="true" name="attr_isum_3"
+                                    value="{{(@{inv_item_weight_3})*(@{inv_item_count_3})}}"
                                     type="number"></td>
-                            <td><input class="tiny-input" disabled="true"
-                                    value="{{@{inv_item_weight_3}+@{inv_item_count_3}}}"
-                                    type="number"></td>
-                            <th><button type="action" value="" id="inv-item-3"
+                            <th><button type="action" value="" name="act_inv_item_3"
                                     class="btn ui-draggable">
                                     Edit
                                 </button></th>
                         </tr>
                         <tr>
                             <td><input class="inv-item-name" id="inv_item_name"
-                                    name="attr_inv_item_name_4" value="{{@{inv_item_name_4}}}"
-                                    type="text">
+                                    name="attr_inv_item_name_4" placeholder="Item 4" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_4" value="{{@{inv_item_count_4}}}"
-                                    type="number">
+                                    name="attr_inv_item_count_4" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight"
-                                    value="{{@{inv_item_weight_4}}}" name="attr_inv_item_weight_4"
+                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                                    name="attr_inv_item_weight_4" type="number"></td>
+                            <td><input class="tiny-input" disabled="true" name="attr_isum_4"
+                                    value="{{(@{inv_item_weight_4})*(@{inv_item_count_4})}}"
                                     type="number"></td>
-                            <td><input class="tiny-input" disabled="true"
-                                    value="{{@{inv_item_weight_4}+@{inv_item_count_4}}}"
-                                    type="number"></td>
-                            <th><button type="action" value="" id="inv-item-4"
+                            <th><button type="action" value="" name="act_inv_item_4"
                                     class="btn ui-draggable">
                                     Edit
                                 </button></th>
                         </tr>
                         <tr>
                             <td><input class="inv-item-name" id="inv_item_name"
-                                    name="attr_inv_item_name_5" value="{{@{inv_item_name_5}}}"
-                                    type="text">
+                                    name="attr_inv_item_name_5" placeholder="Item 5" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_5" value="{{@{inv_item_count_5}}}"
-                                    type="number">
+                                    name="attr_inv_item_count_5" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight"
-                                    value="{{@{inv_item_weight_5}}}" name="attr_inv_item_weight_5"
+                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                                    name="attr_inv_item_weight_5" type="number"></td>
+                            <td><input class="tiny-input" disabled="true" name="attr_isum_5"
+                                    value="{{(@{inv_item_weight_5})*(@{inv_item_count_5})}}"
                                     type="number"></td>
-                            <td><input class="tiny-input" disabled="true"
-                                    value="{{@{inv_item_weight_5}+@{inv_item_count_5}}}"
-                                    type="number"></td>
-                            <th><button type="action" value="" id="inv-item-5"
+                            <th><button type="action" value="" name="act_inv_item_5"
                                     class="btn ui-draggable">
                                     Edit
                                 </button></th>
                         </tr>
                         <tr>
                             <td><input class="inv-item-name" id="inv_item_name"
-                                    name="attr_inv_item_name_6" value="{{@{inv_item_name_6}}}"
-                                    type="text">
+                                    name="attr_inv_item_name_6" placeholder="Item 6" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_6" value="{{@{inv_item_count_6}}}"
-                                    type="number">
+                                    name="attr_inv_item_count_6" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight"
-                                    value="{{@{inv_item_weight_6}}}" name="attr_inv_item_weight_6"
+                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                                    name="attr_inv_item_weight_6" type="number"></td>
+                            <td><input class="tiny-input" disabled="true" name="attr_isum_6"
+                                    value="{{(@{inv_item_weight_6})*(@{inv_item_count_6})}}"
                                     type="number"></td>
-                            <td><input class="tiny-input" disabled="true"
-                                    value="{{@{inv_item_weight_6}+@{inv_item_count_6}}}"
-                                    type="number"></td>
-                            <th><button type="action" value="" id="inv-item-6"
+                            <th><button type="action" value="" name="act_inv_item_6"
                                     class="btn ui-draggable">
                                     Edit
                                 </button></th>
                         </tr>
                         <tr>
                             <td><input class="inv-item-name" id="inv_item_name"
-                                    name="attr_inv_item_name_7" value="{{@{inv_item_name_7}}}"
-                                    type="text">
+                                    name="attr_inv_item_name_7" placeholder="Item 7" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_7" value="{{@{inv_item_count_7}}}"
-                                    type="number">
+                                    name="attr_inv_item_count_7" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight"
-                                    value="{{@{inv_item_weight_7}}}" name="attr_inv_item_weight_7"
+                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                                    name="attr_inv_item_weight_7" type="number"></td>
+                            <td><input class="tiny-input" disabled="true" name="attr_isum_7"
+                                    value="{{(@{inv_item_weight_7})*(@{inv_item_count_7})}}"
                                     type="number"></td>
-                            <td><input class="tiny-input" disabled="true"
-                                    value="{{@{inv_item_weight_7}+@{inv_item_count_7}}}"
-                                    type="number"></td>
-                            <th><button type="action" value="" id="inv-item-7"
+                            <th><button type="action" value="" name="act_inv_item_7"
                                     class="btn ui-draggable">
                                     Edit
                                 </button></th>
                         </tr>
                         <tr>
                             <td><input class="inv-item-name" id="inv_item_name"
-                                    name="attr_inv_item_name_8" value="{{@{inv_item_name_8}}}"
-                                    type="text">
+                                    name="attr_inv_item_name_8" placeholder="Item 8" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_8" value="{{@{inv_item_count_8}}}"
-                                    type="number">
+                                    name="attr_inv_item_count_8" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight"
-                                    value="{{@{inv_item_weight_8}}}" name="attr_inv_item_weight_8"
+                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                                    name="attr_inv_item_weight_8" type="number"></td>
+                            <td><input class="tiny-input" disabled="true" name="attr_isum_8"
+                                    value="{{(@{inv_item_weight_8})*(@{inv_item_count_8})}}"
                                     type="number"></td>
-                            <td><input class="tiny-input" disabled="true"
-                                    value="{{@{inv_item_weight_8}+@{inv_item_count_8}}}"
-                                    type="number"></td>
-                            <th><button type="action" value="" id="inv-item-8"
+                            <th><button type="action" value="" name="act_inv_item_8"
                                     class="btn ui-draggable">
                                     Edit
                                 </button></th>
                         </tr>
                         <tr>
                             <td><input class="inv-item-name" id="inv_item_name"
-                                    name="attr_inv_item_name_9" value="{{@{inv_item_name_9}}}"
-                                    type="text">
+                                    name="attr_inv_item_name_9" placeholder="Item 9" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_9" value="{{@{inv_item_count_9}}}"
-                                    type="number">
+                                    name="attr_inv_item_count_9" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight"
-                                    value="{{@{inv_item_weight_9}}}" name="attr_inv_item_weight_9"
+                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                                    name="attr_inv_item_weight_9" type="number"></td>
+                            <td><input class="tiny-input" disabled="true" name="attr_isum_9"
+                                    value="{{(@{inv_item_weight_9})*(@{inv_item_count_9})}}"
                                     type="number"></td>
-                            <td><input class="tiny-input" disabled="true"
-                                    value="{{@{inv_item_weight_9}+@{inv_item_count_9}}}"
-                                    type="number"></td>
-                            <th><button type="action" value="" id="inv-item-9"
+                            <th><button type="action" value="" name="act_inv_item_9"
                                     class="btn ui-draggable">
                                     Edit
                                 </button></th>
                         </tr>
                         <tr>
                             <td><input class="inv-item-name" id="inv_item_name"
-                                    name="attr_inv_item_name_10" value="{{@{inv_item_name_10}}}"
-                                    type="text">
+                                    name="attr_inv_item_name_10" placeholder="Item 10" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_10" value="{{@{inv_item_count_10}}}"
-                                    type="number">
+                                    name="attr_inv_item_count_10" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight"
-                                    value="{{@{inv_item_weight_10}}}" name="attr_inv_item_weight_10"
+                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                                    name="attr_inv_item_weight_10" type="number"></td>
+                            <td><input class="tiny-input" disabled="true" name="attr_isum_10"
+                                    value="{{(@{inv_item_weight_10})*(@{inv_item_count_10})}}"
                                     type="number"></td>
-                            <td><input class="tiny-input" disabled="true"
-                                    value="{{@{inv_item_weight_10}+@{inv_item_count_10}}}"
-                                    type="number"></td>
-                            <th><button type="action" value="" id="inv-item-10"
+                            <th><button type="action" value="" name="act_inv_item_10"
                                     class="btn ui-draggable">
                                     Edit
                                 </button></th>
@@ -8256,200 +8237,170 @@
                         <!-- 11-20 -->
                         <tr>
                             <td><input class="inv-item-name" id="inv_item_name"
-                                    name="attr_inv_item_name_11" value="{{@{inv_item_name_11}}}"
-                                    type="text">
+                                    name="attr_inv_item_name_11" placeholder="Item 11" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_11" value="{{@{inv_item_count_11}}}"
-                                    type="number">
+                                    name="attr_inv_item_count_11" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight"
-                                    value="{{@{inv_item_weight_11}}}" name="attr_inv_item_weight_11"
+                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                                    name="attr_inv_item_weight_11" type="number"></td>
+                            <td><input class="tiny-input" disabled="true" name="attr_isum_11"
+                                    value="{{(@{inv_item_weight_11})*(@{inv_item_count_11})}}"
                                     type="number"></td>
-                            <td><input class="tiny-input" disabled="true"
-                                    value="{{@{inv_item_weight_11}+@{inv_item_count_11}}}"
-                                    type="number"></td>
-                            <th><button type="action" value="" id="inv-item-11"
+                            <th><button type="action" value="" name="act_inv_item_11"
                                     class="btn ui-draggable">
                                     Edit
                                 </button></th>
                         </tr>
                         <tr>
                             <td><input class="inv-item-name" id="inv_item_name"
-                                    name="attr_inv_item_name_12" value="{{@{inv_item_name_12}}}"
-                                    type="text">
+                                    name="attr_inv_item_name_12" placeholder="Item 12" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_12" value="{{@{inv_item_count_12}}}"
-                                    type="number">
+                                    name="attr_inv_item_count_12" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight"
-                                    value="{{@{inv_item_weight_12}}}" name="attr_inv_item_weight_12"
+                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                                    name="attr_inv_item_weight_12" type="number"></td>
+                            <td><input class="tiny-input" disabled="true" name="attr_isum_12"
+                                    value="{{(@{inv_item_weight_12})*(@{inv_item_count_12})}}"
                                     type="number"></td>
-                            <td><input class="tiny-input" disabled="true"
-                                    value="{{@{inv_item_weight_12}+@{inv_item_count_12}}}"
-                                    type="number"></td>
-                            <th><button type="action" value="" id="inv-item-12"
+                            <th><button type="action" value="" name="act_inv_item_12"
                                     class="btn ui-draggable">
                                     Edit
                                 </button></th>
                         </tr>
                         <tr>
                             <td><input class="inv-item-name" id="inv_item_name"
-                                    name="attr_inv_item_name_13" value="{{@{inv_item_name_13}}}"
-                                    type="text">
+                                    name="attr_inv_item_name_13" placeholder="Item 13" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_13" value="{{@{inv_item_count_13}}}"
-                                    type="number">
+                                    name="attr_inv_item_count_13" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight"
-                                    value="{{@{inv_item_weight_13}}}" name="attr_inv_item_weight_13"
+                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                                    name="attr_inv_item_weight_13" type="number"></td>
+                            <td><input class="tiny-input" disabled="true" name="attr_isum_13"
+                                    value="{{(@{inv_item_weight_13})*(@{inv_item_count_13})}}"
                                     type="number"></td>
-                            <td><input class="tiny-input" disabled="true"
-                                    value="{{@{inv_item_weight_13}+@{inv_item_count_13}}}"
-                                    type="number"></td>
-                            <th><button type="action" value="" id="inv-item-13"
+                            <th><button type="action" value="" name="act_inv_item_13"
                                     class="btn ui-draggable">
                                     Edit
                                 </button></th>
                         </tr>
                         <tr>
                             <td><input class="inv-item-name" id="inv_item_name"
-                                    name="attr_inv_item_name_14" value="{{@{inv_item_name_14}}}"
-                                    type="text">
+                                    name="attr_inv_item_name_14" placeholder="Item 14" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_14" value="{{@{inv_item_count_14}}}"
-                                    type="number">
+                                    name="attr_inv_item_count_14" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight"
-                                    value="{{@{inv_item_weight_14}}}" name="attr_inv_item_weight_14"
+                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                                    name="attr_inv_item_weight_14" type="number"></td>
+                            <td><input class="tiny-input" disabled="true" name="attr_isum_14"
+                                    value="{{(@{inv_item_weight_14})*(@{inv_item_count_14})}}"
                                     type="number"></td>
-                            <td><input class="tiny-input" disabled="true"
-                                    value="{{@{inv_item_weight_14}+@{inv_item_count_14}}}"
-                                    type="number"></td>
-                            <th><button type="action" value="" id="inv-item-14"
+                            <th><button type="action" value="" name="act_inv_item_14"
                                     class="btn ui-draggable">
                                     Edit
                                 </button></th>
                         </tr>
                         <tr>
                             <td><input class="inv-item-name" id="inv_item_name"
-                                    name="attr_inv_item_name_15" value="{{@{inv_item_name_15}}}"
-                                    type="text">
+                                    name="attr_inv_item_name_15" placeholder="Item 15" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_15" value="{{@{inv_item_count_15}}}"
-                                    type="number">
+                                    name="attr_inv_item_count_15" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight"
-                                    value="{{@{inv_item_weight_15}}}" name="attr_inv_item_weight_15"
+                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                                    name="attr_inv_item_weight_15" type="number"></td>
+                            <td><input class="tiny-input" disabled="true" name="attr_isum_15"
+                                    value="{{(@{inv_item_weight_15})*(@{inv_item_count_15})}}"
                                     type="number"></td>
-                            <td><input class="tiny-input" disabled="true"
-                                    value="{{@{inv_item_weight_15}+@{inv_item_count_15}}}"
-                                    type="number"></td>
-                            <th><button type="action" value="" id="inv-item-15"
+                            <th><button type="action" value="" name="act_inv_item_15"
                                     class="btn ui-draggable">
                                     Edit
                                 </button></th>
                         </tr>
                         <tr>
                             <td><input class="inv-item-name" id="inv_item_name"
-                                    name="attr_inv_item_name_" value="{{@{inv_item_name_16}}}"
-                                    type="text">
+                                    name="attr_inv_item_name_" placeholder="Item 16" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_16" value="{{@{inv_item_count_16}}}"
-                                    type="number">
+                                    name="attr_inv_item_count_16" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight"
-                                    value="{{@{inv_item_weight_16}}}" name="attr_inv_item_weight_16"
+                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                                    name="attr_inv_item_weight_16" type="number"></td>
+                            <td><input class="tiny-input" disabled="true" name="attr_isum_16"
+                                    value="{{(@{inv_item_weight_16})*(@{inv_item_count_16})}}"
                                     type="number"></td>
-                            <td><input class="tiny-input" disabled="true"
-                                    value="{{@{inv_item_weight_16}+@{inv_item_count_16}}}"
-                                    type="number"></td>
-                            <th><button type="action" value="" id="inv-item-16"
+                            <th><button type="action" value="" name="act_inv_item_16"
                                     class="btn ui-draggable">
                                     Edit
                                 </button></th>
                         </tr>
                         <tr>
                             <td><input class="inv-item-name" id="inv_item_name"
-                                    name="attr_inv_item_name_17" value="{{@{inv_item_name_17}}}"
-                                    type="text">
+                                    name="attr_inv_item_name_17" placeholder="Item 17" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_17" value="{{@{inv_item_count_17}}}"
-                                    type="number">
+                                    name="attr_inv_item_count_17" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight"
-                                    value="{{@{inv_item_weight_17}}}" name="attr_inv_item_weight_17"
+                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                                    name="attr_inv_item_weight_17" type="number"></td>
+                            <td><input class="tiny-input" disabled="true" name="attr_isum_17"
+                                    value="{{(@{inv_item_weight_17})*(@{inv_item_count_17})}}"
                                     type="number"></td>
-                            <td><input class="tiny-input" disabled="true"
-                                    value="{{@{inv_item_weight_17}+@{inv_item_count_17}}}"
-                                    type="number"></td>
-                            <th><button type="action" value="" id="inv-item-17"
+                            <th><button type="action" value="" name="act_inv_item_17"
                                     class="btn ui-draggable">
                                     Edit
                                 </button></th>
                         </tr>
                         <tr>
                             <td><input class="inv-item-name" id="inv_item_name"
-                                    name="attr_inv_item_name_18" value="{{@{inv_item_name_18}}}"
-                                    type="text">
+                                    name="attr_inv_item_name_18" placeholder="Item 18" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_18" value="{{@{inv_item_count_18}}}"
-                                    type="number">
+                                    name="attr_inv_item_count_18" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight"
-                                    value="{{@{inv_item_weight_18}}}" name="attr_inv_item_weight_18"
+                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                                    name="attr_inv_item_weight_18" type="number"></td>
+                            <td><input class="tiny-input" disabled="true" name="attr_isum_18"
+                                    value="{{(@{inv_item_weight_18})*(@{inv_item_count_18})}}"
                                     type="number"></td>
-                            <td><input class="tiny-input" disabled="true"
-                                    value="{{@{inv_item_weight_18}+@{inv_item_count_18}}}"
-                                    type="number"></td>
-                            <th><button type="action" value="" id="inv-item-18"
+                            <th><button type="action" value="" name="act_inv_item_18"
                                     class="btn ui-draggable">
                                     Edit
                                 </button></th>
                         </tr>
                         <tr>
                             <td><input class="inv-item-name" id="inv_item_name"
-                                    name="attr_inv_item_name_19" value="{{@{inv_item_name_19}}}"
-                                    type="text">
+                                    name="attr_inv_item_name_19" placeholder="Item 19" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_19" value="{{@{inv_item_count_19}}}"
-                                    type="number">
+                                    name="attr_inv_item_count_19" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight"
-                                    value="{{@{inv_item_weight_19}}}" name="attr_inv_item_weight_19"
+                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                                    name="attr_inv_item_weight_19" type="number"></td>
+                            <td><input class="tiny-input" disabled="true" name="attr_isum_19"
+                                    value="{{(@{inv_item_weight_19})*(@{inv_item_count_19})}}"
                                     type="number"></td>
-                            <td><input class="tiny-input" disabled="true"
-                                    value="{{@{inv_item_weight_19}+@{inv_item_count_19}}}"
-                                    type="number"></td>
-                            <th><button type="action" value="" id="inv-item-19"
+                            <th><button type="action" value="" name="act_inv_item_19"
                                     class="btn ui-draggable">
                                     Edit
                                 </button></th>
                         </tr>
                         <tr>
                             <td><input class="inv-item-name" id="inv_item_name"
-                                    name="attr_inv_item_name_20" value="{{@{inv_item_name_20}}}"
-                                    type="text">
+                                    name="attr_inv_item_name_20" placeholder="Item 20" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_20" value="{{@{inv_item_count_20}}}"
-                                    type="number">
+                                    name="attr_inv_item_count_20" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight"
-                                    value="{{@{inv_item_weight_20}}}" name="attr_inv_item_weight_20"
+                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                                    name="attr_inv_item_weight_20" type="number"></td>
+                            <td><input class="tiny-input" disabled="true" name="attr_isum_20"
+                                    value="{{(@{inv_item_weight_20})*(@{inv_item_count_20})}}"
                                     type="number"></td>
-                            <td><input class="tiny-input" disabled="true"
-                                    value="{{@{inv_item_weight_20}+@{inv_item_count_20}}}"
-                                    type="number"></td>
-                            <th><button type="action" value="" id="inv-item-20"
+                            <th><button type="action" value="" name="act_inv_item_20"
                                     class="btn ui-draggable">
                                     Edit
                                 </button></th>
@@ -8457,200 +8408,170 @@
                         <!-- 21-30 -->
                         <tr>
                             <td><input class="inv-item-name" id="inv_item_name"
-                                    name="attr_inv_item_name_21" value="{{@{inv_item_name_21}}}"
-                                    type="text">
+                                    name="attr_inv_item_name_21" placeholder="Item 21" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_21" value="{{@{inv_item_count_21}}}"
-                                    type="number">
+                                    name="attr_inv_item_count_21" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight"
-                                    value="{{@{inv_item_weight_21}}}" name="attr_inv_item_weight_21"
+                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                                    name="attr_inv_item_weight_21" type="number"></td>
+                            <td><input class="tiny-input" disabled="true" name="attr_isum_21"
+                                    value="{{(@{inv_item_weight_21})*(@{inv_item_count_21})}}"
                                     type="number"></td>
-                            <td><input class="tiny-input" disabled="true"
-                                    value="{{@{inv_item_weight_21}+@{inv_item_count_21}}}"
-                                    type="number"></td>
-                            <th><button type="action" value="" id="inv-item-21"
+                            <th><button type="action" value="" name="act_inv_item_21"
                                     class="btn ui-draggable">
                                     Edit
                                 </button></th>
                         </tr>
                         <tr>
                             <td><input class="inv-item-name" id="inv_item_name"
-                                    name="attr_inv_item_name_22" value="{{@{inv_item_name_22}}}"
-                                    type="text">
+                                    name="attr_inv_item_name_22" placeholder="Item 22" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_22" value="{{@{inv_item_count_22}}}"
-                                    type="number">
+                                    name="attr_inv_item_count_22" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight"
-                                    value="{{@{inv_item_weight_22}}}" name="attr_inv_item_weight_22"
+                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                                    name="attr_inv_item_weight_22" type="number"></td>
+                            <td><input class="tiny-input" disabled="true" name="attr_isum_22"
+                                    value="{{(@{inv_item_weight_22})*(@{inv_item_count_22})}}"
                                     type="number"></td>
-                            <td><input class="tiny-input" disabled="true"
-                                    value="{{@{inv_item_weight_22}+@{inv_item_count_22}}}"
-                                    type="number"></td>
-                            <th><button type="action" value="" id="inv-item-22"
+                            <th><button type="action" value="" name="act_inv_item_22"
                                     class="btn ui-draggable">
                                     Edit
                                 </button></th>
                         </tr>
                         <tr>
                             <td><input class="inv-item-name" id="inv_item_name"
-                                    name="attr_inv_item_name_23" value="{{@{inv_item_name_23}}}"
-                                    type="text">
+                                    name="attr_inv_item_name_23" placeholder="Item 23" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_23" value="{{@{inv_item_count_23}}}"
-                                    type="number">
+                                    name="attr_inv_item_count_23" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight"
-                                    value="{{@{inv_item_weight_23}}}" name="attr_inv_item_weight_23"
+                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                                    name="attr_inv_item_weight_23" type="number"></td>
+                            <td><input class="tiny-input" disabled="true" name="attr_isum_23"
+                                    value="{{(@{inv_item_weight_23})*(@{inv_item_count_23})}}"
                                     type="number"></td>
-                            <td><input class="tiny-input" disabled="true"
-                                    value="{{@{inv_item_weight_23}+@{inv_item_count_23}}}"
-                                    type="number"></td>
-                            <th><button type="action" value="" id="inv-item-23"
+                            <th><button type="action" value="" name="act_inv_item_23"
                                     class="btn ui-draggable">
                                     Edit
                                 </button></th>
                         </tr>
                         <tr>
                             <td><input class="inv-item-name" id="inv_item_name"
-                                    name="attr_inv_item_name_24" value="{{@{inv_item_name_24}}}"
-                                    type="text">
+                                    name="attr_inv_item_name_24" placeholder="Item 24" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_24" value="{{@{inv_item_count_24}}}"
-                                    type="number">
+                                    name="attr_inv_item_count_24" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight"
-                                    value="{{@{inv_item_weight_24}}}" name="attr_inv_item_weight_24"
+                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                                    name="attr_inv_item_weight_24" type="number"></td>
+                            <td><input class="tiny-input" disabled="true" name="attr_isum_24"
+                                    value="{{(@{inv_item_weight_24})*(@{inv_item_count_24})}}"
                                     type="number"></td>
-                            <td><input class="tiny-input" disabled="true"
-                                    value="{{@{inv_item_weight_24}+@{inv_item_count_24}}}"
-                                    type="number"></td>
-                            <th><button type="action" value="" id="inv-item-24"
+                            <th><button type="action" value="" name="act_inv_item_24"
                                     class="btn ui-draggable">
                                     Edit
                                 </button></th>
                         </tr>
                         <tr>
                             <td><input class="inv-item-name" id="inv_item_name"
-                                    name="attr_inv_item_name_25" value="{{@{inv_item_name_25}}}"
-                                    type="text">
+                                    name="attr_inv_item_name_25" placeholder="Item 25" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_25" value="{{@{inv_item_count_25}}}"
-                                    type="number">
+                                    name="attr_inv_item_count_25" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight"
-                                    value="{{@{inv_item_weight_25}}}" name="attr_inv_item_weight_25"
+                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                                    name="attr_inv_item_weight_25" type="number"></td>
+                            <td><input class="tiny-input" disabled="true" name="attr_isum_25"
+                                    value="{{(@{inv_item_weight_25})*(@{inv_item_count_25})}}"
                                     type="number"></td>
-                            <td><input class="tiny-input" disabled="true"
-                                    value="{{@{inv_item_weight_25}+@{inv_item_count_25}}}"
-                                    type="number"></td>
-                            <th><button type="action" value="" id="inv-item-25"
+                            <th><button type="action" value="" name="act_inv_item_25"
                                     class="btn ui-draggable">
                                     Edit
                                 </button></th>
                         </tr>
                         <tr>
                             <td><input class="inv-item-name" id="inv_item_name"
-                                    name="attr_inv_item_name_26" value="{{@{inv_item_name_26}}}"
-                                    type="text">
+                                    name="attr_inv_item_name_26" placeholder="Item 26" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_26" value="{{@{inv_item_count_26}}}"
-                                    type="number">
+                                    name="attr_inv_item_count_26" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight"
-                                    value="{{@{inv_item_weight_26}}}" name="attr_inv_item_weight_26"
+                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                                    name="attr_inv_item_weight_26" type="number"></td>
+                            <td><input class="tiny-input" disabled="true" name="attr_isum_26"
+                                    value="{{(@{inv_item_weight_26})*(@{inv_item_count_26})}}"
                                     type="number"></td>
-                            <td><input class="tiny-input" disabled="true"
-                                    value="{{@{inv_item_weight_26}+@{inv_item_count_26}}}"
-                                    type="number"></td>
-                            <th><button type="action" value="" id="inv-item-26"
+                            <th><button type="action" value="" name="act_inv_item_26"
                                     class="btn ui-draggable">
                                     Edit
                                 </button></th>
                         </tr>
                         <tr>
                             <td><input class="inv-item-name" id="inv_item_name"
-                                    name="attr_inv_item_name_27" value="{{@{inv_item_name_27}}}"
-                                    type="text">
+                                    name="attr_inv_item_name_27" placeholder="Item 27" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_27" value="{{@{inv_item_count_27}}}"
-                                    type="number">
+                                    name="attr_inv_item_count_27" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight"
-                                    value="{{@{inv_item_weight_27}}}" name="attr_inv_item_weight_27"
+                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                                    name="attr_inv_item_weight_27" type="number"></td>
+                            <td><input class="tiny-input" disabled="true" name="attr_isum_27"
+                                    value="{{(@{inv_item_weight_27})*(@{inv_item_count_27})}}"
                                     type="number"></td>
-                            <td><input class="tiny-input" disabled="true"
-                                    value="{{@{inv_item_weight_27}+@{inv_item_count_27}}}"
-                                    type="number"></td>
-                            <th><button type="action" value="" id="inv-item-27"
+                            <th><button type="action" value="" name="act_inv_item_27"
                                     class="btn ui-draggable">
                                     Edit
                                 </button></th>
                         </tr>
                         <tr>
                             <td><input class="inv-item-name" id="inv_item_name"
-                                    name="attr_inv_item_name_28" value="{{@{inv_item_name_28}}}"
-                                    type="text">
+                                    name="attr_inv_item_name_28" placeholder="Item 28" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_28" value="{{@{inv_item_count_28}}}"
-                                    type="number">
+                                    name="attr_inv_item_count_28" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight"
-                                    value="{{@{inv_item_weight_28}}}" name="attr_inv_item_weight_28"
+                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                                    name="attr_inv_item_weight_28" type="number"></td>
+                            <td><input class="tiny-input" disabled="true" name="attr_isum_28"
+                                    value="{{(@{inv_item_weight_28})*(@{inv_item_count_28})}}"
                                     type="number"></td>
-                            <td><input class="tiny-input" disabled="true"
-                                    value="{{@{inv_item_weight_28}+@{inv_item_count_28}}}"
-                                    type="number"></td>
-                            <th><button type="action" value="" id="inv-item-28"
+                            <th><button type="action" value="" name="act_inv_item_28"
                                     class="btn ui-draggable">
                                     Edit
                                 </button></th>
                         </tr>
                         <tr>
                             <td><input class="inv-item-name" id="inv_item_name"
-                                    name="attr_inv_item_name_29" value="{{@{inv_item_name_29}}}"
-                                    type="text">
+                                    name="attr_inv_item_name_29" placeholder="Item 29" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_29" value="{{@{inv_item_count_29}}}"
-                                    type="number">
+                                    name="attr_inv_item_count_29" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight"
-                                    value="{{@{inv_item_weight_29}}}" name="attr_inv_item_weight_29"
+                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                                    name="attr_inv_item_weight_29" type="number"></td>
+                            <td><input class="tiny-input" disabled="true" name="attr_isum_29"
+                                    value="{{(@{inv_item_weight_29})*(@{inv_item_count_29})}}"
                                     type="number"></td>
-                            <td><input class="tiny-input" disabled="true"
-                                    value="{{@{inv_item_weight_29}+@{inv_item_count_29}}}"
-                                    type="number"></td>
-                            <th><button type="action" value="" id="inv-item-29"
+                            <th><button type="action" value="" name="act_inv_item_29"
                                     class="btn ui-draggable">
                                     Edit
                                 </button></th>
                         </tr>
                         <tr>
                             <td><input class="inv-item-name" id="inv_item_name"
-                                    name="attr_inv_item_name_30" value="{{@{inv_item_name_30}}}"
-                                    type="text">
+                                    name="attr_inv_item_name_30" placeholder="Item 30" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_30" value="{{@{inv_item_count_30}}}"
-                                    type="number">
+                                    name="attr_inv_item_count_30" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight"
-                                    value="{{@{inv_item_weight_30}}}" name="attr_inv_item_weight_30"
+                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                                    name="attr_inv_item_weight_30" type="number"></td>
+                            <td><input class="tiny-input" disabled="true" name="attr_isum_30"
+                                    value="{{(@{inv_item_weight_30})*(@{inv_item_count_30})}}"
                                     type="number"></td>
-                            <td><input class="tiny-input" disabled="true"
-                                    value="{{@{inv_item_weight_30}+@{inv_item_count_30}}}"
-                                    type="number"></td>
-                            <th><button type="action" value="" id="inv-item-30"
+                            <th><button type="action" value="" name="act_inv_item_30"
                                     class="btn ui-draggable">
                                     Edit
                                 </button></th>
@@ -8660,157 +8581,136 @@
             </div>
             <div class="inventory-notes">
                 <input type="hidden" id="inventory-details-tab" class="inv-details"
-                    name="attr_inventory_details_selector" value="">
+                    name="attr_inventory_details_selector" value="1">
                 <div class="inventory-details-1">
-                    <input class="text-input" disabled="true" class="text-input"
-                        value="{@{inv_item_name_1}}" type="text">
+                    <span class="inv-item-name" name="attr_inv_item_name_1"></span>
                     <textarea class="inv-item-desc" name="attr_inv_item_desc_1"
                         value="{@{inv_item_desc_1}}"
                         placeholder="Notes on inventory item 1"></textarea>
                 </div>
                 <div class="inventory-details-2">
-                    <input class="text-input" disabled="true" class="text-input"
-                        value="{@{inv_item_name_2}}" type="text">
+                    <span class="inv-item-name" name="attr_inv_item_name_2"></span>
                     <textarea class="inv-item-desc" name="attr_inv_item_desc_2"
                         value="{@{inv_item_desc_2}}"
                         placeholder="Notes on inventory item 2"></textarea>
                 </div>
                 <div class="inventory-details-3">
-                    <input class="text-input" disabled="true" class="text-input"
-                        value="{@{inv_item_name_3}}" type="text">
+
+                    <span class="inv-item-name" name="attr_inv_item_name_3"></span>
                     <textarea class="inv-item-desc" name="attr_inv_item_desc_3"
                         value="{@{inv_item_desc_3}}"
                         placeholder="Notes on inventory item 3"></textarea>
                 </div>
                 <div class="inventory-details-4">
-                    <input class="text-input" disabled="true" class="text-input"
-                        value="{@{inv_item_name_4}}" type="text">
+                    <span class="inv-item-name" name="attr_inv_item_name_4"></span>
                     <textarea class="inv-item-desc" name="attr_inv_item_desc_4"
                         value="{@{inv_item_desc_4}}"
                         placeholder="Notes on inventory item 4"></textarea>
                 </div>
                 <div class="inventory-details-5">
-                    <input class="text-input" disabled="true" class="text-input"
-                        value="{@{inv_item_name_5}}" type="text">
+                    <span class="inv-item-name" name="attr_inv_item_name_5"></span>
                     <textarea class="inv-item-desc" name="attr_inv_item_desc_5"
                         value="{@{inv_item_desc_5}}"
                         placeholder="Notes on inventory item 5"></textarea>
                 </div>
                 <div class="inventory-details-6">
-                    <input class="text-input" disabled="true" class="text-input"
-                        value="{@{inv_item_name_6}}" type="text">
+                    <span class="inv-item-name" name="attr_inv_item_name_6"></span>
                     <textarea class="inv-item-desc" name="attr_inv_item_desc_6"
                         value="{@{inv_item_desc_6}}"
                         placeholder="Notes on inventory item 6"></textarea>
                 </div>
                 <div class="inventory-details-7">
-                    <input class="text-input" disabled="true" class="text-input"
-                        value="{@{inv_item_name_7}}" type="text">
+                    <span class="inv-item-name" name="attr_inv_item_name_7"></span>
                     <textarea class="inv-item-desc" name="attr_inv_item_desc_7"
                         value="{@{inv_item_desc_7}}"
                         placeholder="Notes on inventory item 7"></textarea>
                 </div>
                 <div class="inventory-details-8">
-                    <input class="text-input" disabled="true" class="text-input"
-                        value="{@{inv_item_name_8}}" type="text">
+                    <span class="inv-item-name" name="attr_inv_item_name_8"></span>
                     <textarea class="inv-item-desc" name="attr_inv_item_desc_8"
                         value="{@{inv_item_desc_8}}"
                         placeholder="Notes on inventory item 8"></textarea>
                 </div>
                 <div class="inventory-details-9">
-                    <input class="text-input" disabled="true" class="text-input"
-                        value="{@{inv_item_name_9}}" type="text">
+                    <span class="inv-item-name" name="attr_inv_item_name_9"></span>
                     <textarea class="inv-item-desc" name="attr_inv_item_desc_9"
                         value="{@{inv_item_desc_9}}"
                         placeholder="Notes on inventory item 9"></textarea>
                 </div>
                 <div class="inventory-details-10">
-                    <input class="text-input" disabled="true" class="text-input"
-                        value="{@{inv_item_name_10}}" type="text">
+                    <span class="inv-item-name" name="attr_inv_item_name_10"></span>
                     <textarea class="inv-item-desc" name="attr_inv_item_desc_10"
                         value="{@{inv_item_desc_10}}"
                         placeholder="Notes on inventory item 10"></textarea>
                 </div>
                 <div class="inventory-details-11">
-                    <input class="text-input" disabled="true" class="text-input"
-                        value="{@{inv_item_name_11}}" type="text">
+                    <span class="inv-item-name" name="attr_inv_item_name_11"></span>
                     <textarea class="inv-item-desc" name="attr_inv_item_desc_11"
                         value="{@{inv_item_desc_11}}"
                         placeholder="Notes on inventory item 11"></textarea>
                 </div>
                 <div class="inventory-details-12">
-                    <input class="text-input" disabled="true" class="text-input"
-                        value="{@{inv_item_name_12}}" type="text">
+                    <span class="inv-item-name" name="attr_inv_item_name_12"></span>
                     <textarea class="inv-item-desc" name="attr_inv_item_desc_12"
                         value="{@{inv_item_desc_12}}"
                         placeholder="Notes on inventory item 12"></textarea>
                 </div>
                 <div class="inventory-details-13">
-                    <input class="text-input" disabled="true" class="text-input"
-                        value="{@{inv_item_name_13}}" type="text">
+                    <span class="inv-item-name" name="attr_inv_item_name_13"></span>
                     <textarea class="inv-item-desc" name="attr_inv_item_desc_13"
                         value="{@{inv_item_desc_13}}"
                         placeholder="Notes on inventory item 13"></textarea>
                 </div>
                 <div class="inventory-details-14">
-                    <input class="text-input" disabled="true" class="text-input"
-                        value="{@{inv_item_name_14}}" type="text">
+                    <span class="inv-item-name" name="attr_inv_item_name_14"></span>
                     <textarea class="inv-item-desc" name="attr_inv_item_desc_14"
                         value="{@{inv_item_desc_14}}"
                         placeholder="Notes on inventory item 14"></textarea>
                 </div>
                 <div class="inventory-details-15">
-                    <input class="text-input" disabled="true" class="text-input"
-                        value="{@{inv_item_name_15}}" type="text">
+                    <span class="inv-item-name" name="attr_inv_item_name_15"></span>
                     <textarea class="inv-item-desc" name="attr_inv_item_desc_15"
                         value="{@{inv_item_desc_15}}"
                         placeholder="Notes on inventory item 15"></textarea>
                 </div>
                 <div class="inventory-details-16">
-                    <input class="text-input" disabled="true" class="text-input"
-                        value="{@{inv_item_name_16}}" type="text">
+                    <span class="inv-item-name" name="attr_inv_item_name_16"></span>
                     <textarea class="inv-item-desc" name="attr_inv_item_desc_16"
                         value="{@{inv_item_desc_16}}"
                         placeholder="Notes on inventory item 16"></textarea>
                 </div>
                 <div class="inventory-details-17">
-                    <input class="text-input" disabled="true" class="text-input"
-                        value="{@{inv_item_name_17}}" type="text">
+                    <span class="inv-item-name" name="attr_inv_item_name_17"></span>
                     <textarea class="inv-item-desc" name="attr_inv_item_desc_17"
                         value="{@{inv_item_desc_17}}"
                         placeholder="Notes on inventory item 17"></textarea>
                 </div>
                 <div class="inventory-details-18">
-                    <input class="text-input" disabled="true" class="text-input"
-                        value="{@{inv_item_name_18}}" type="text">
+                    <span class="inv-item-name" name="attr_inv_item_name_18"></span>
                     <textarea class="inv-item-desc" name="attr_inv_item_desc_18"
                         value="{@{inv_item_desc_18}}"
                         placeholder="Notes on inventory item 18"></textarea>
                 </div>
                 <div class="inventory-details-19">
-                    <input class="text-input" disabled="true" class="text-input"
-                        value="{@{inv_item_name_19}}" type="text">
+                    <span class="inv-item-name" name="attr_inv_item_name_19"></span>
                     <textarea class="inv-item-desc" name="attr_inv_item_desc_19"
                         value="{@{inv_item_desc_19}}"
                         placeholder="Notes on inventory item 19"></textarea>
                 </div>
                 <div class="inventory-details-20">
-                    <input class="text-input" disabled="true" class="text-input"
-                        value="{@{inv_item_name_20}}" type="text">
+                    <span class="inv-item-name" name="attr_inv_item_name_20"></span>
                     <textarea class="inv-item-desc" name="attr_inv_item_desc_20"
                         value="{@{inv_item_desc_20}}"
                         placeholder="Notes on inventory item 20"></textarea>
                 </div>
                 <div class="inventory-details-21">
-                    <input class="text-input" disabled="true" class="text-input"
-                        value="{@{inv_item_name_21}}" type="text">
+                    <span class="inv-item-name" name="attr_inv_item_name_21"></span>
                     <textarea class="inv-item-desc" name="attr_inv_item_desc_21"
                         value="{@{inv_item_desc_21}}"
                         placeholder="Notes on inventory item 21"></textarea>
                 </div>
                 <div class="inventory-details-22">
-                    <input class="text-input" disabled="true" class="text-input"
-                        value="{@{inv_item_name_22}}" type="text">
+                    <span class="inv-item-name" name="attr_inv_item_name_22"></span>
                     <textarea class="inv-item-desc" name="attr_inv_item_desc_22"
                         value="{@{inv_item_desc_22}}"
                         placeholder="Notes on inventory item 22"></textarea>
@@ -8824,50 +8724,43 @@
                         placeholder="Notes on inventory item 23"></textarea>
                 </div>
                 <div class="inventory-details-24">
-                    <input class="text-input" disabled="true" class="text-input"
-                        value="{@{inv_item_name_24}}" type="text">
+                    <span class="inv-item-name" name="attr_inv_item_name_24"></span>
                     <textarea class="inv-item-desc" name="attr_inv_item_desc_24"
                         value="{@{inv_item_desc_24}}"
                         placeholder="Notes on inventory item 24"></textarea>
                 </div>
                 <div class="inventory-details-25">
-                    <input class="text-input" disabled="true" class="text-input"
-                        value="{@{inv_item_name_25}}" type="text">
+                    <span class="inv-item-name" name="attr_inv_item_name_25"></span>
                     <textarea class="inv-item-desc" name="attr_inv_item_desc_25"
                         value="{@{inv_item_desc_25}}"
                         placeholder="Notes on inventory item 25"></textarea>
                 </div>
                 <div class="inventory-details-26">
-                    <input class="text-input" disabled="true" class="text-input"
-                        value="{@{inv_item_name_26}}" type="text">
+                    <span class="inv-item-name" name="attr_inv_item_name_26"></span>
                     <textarea class="inv-item-desc" name="attr_inv_item_desc_26"
                         value="{@{inv_item_desc_26}}"
                         placeholder="Notes on inventory item 26"></textarea>
                 </div>
                 <div class="inventory-details-27">
-                    <input class="text-input" disabled="true" class="text-input"
-                        value="{@{inv_item_name_27}}" type="text">
+                    <span class="inv-item-name" name="attr_inv_item_name_27"></span>
                     <textarea class="inv-item-desc" name="attr_inv_item_desc_27"
                         value="{@{inv_item_desc_27}}"
                         placeholder="Notes on inventory item 27"></textarea>
                 </div>
                 <div class="inventory-details-28">
-                    <input class="text-input" disabled="true" class="text-input"
-                        value="{@{inv_item_name_28}}" type="text">
+                    <span class="inv-item-name" name="attr_inv_item_name_28"></span>
                     <textarea class="inv-item-desc" name="attr_inv_item_desc_28"
                         value="{@{inv_item_desc_28}}"
                         placeholder="Notes on inventory item 28"></textarea>
                 </div>
                 <div class="inventory-details-29">
-                    <input class="text-input" disabled="true" class="text-input"
-                        value="{@{inv_item_name_29}}" type="text">
+                    <span class="inv-item-name" name="attr_inv_item_name_29"></span>
                     <textarea class="inv-item-desc" name="attr_inv_item_desc_29"
                         value="{@{inv_item_desc_29}}"
                         placeholder="Notes on inventory item 29"></textarea>
                 </div>
                 <div class="inventory-details-30">
-                    <input class="text-input" disabled="true" class="text-input"
-                        value="{@{inv_item_name_30}}" type="text">
+                    <span class="inv-item-name" name="attr_inv_item_name_30"></span>
                     <textarea class="inv-item-desc" name="attr_inv_item_desc_30"
                         value="{@{inv_item_desc_30}}"
                         placeholder="Notes on inventory item 30"></textarea>
@@ -8876,9 +8769,6 @@
         </div>
     </div>
 </div>
-</body>
-
-</html>
 
 
 <!-- The SHEET WORKERS -->
@@ -8893,6 +8783,28 @@
         on(`clicked:${button}`, function() {
             setAttrs({
                 sheetTab: button
+            });
+        });
+    });
+
+    [...Array(30).keys()].forEach(num => {
+        let x = "inv_item_" + (num + 1);
+        console.log(x);
+        on(`clicked:${x}`, function() {
+            console.log(`Clicked on ${x}`);
+            getAttrs(["inventory_details_selector"], function(attr) {
+                console.log(`Got attrs for ${x}: ${attr}`);
+                console.log(attr);
+                let setObj = {};
+                let currTab = attr.inventory_details_selector;
+                console.log(currTab);
+                if (currTab === num + 1) {
+                    setObj = {inventory_details_selector: 0 }; 
+                }else{
+                    setObj = {inventory_details_selector: num + 1 }; 
+                }
+                console.log(`Setting: ${setObj}`);
+                setAttrs(setObj);
             });
         });
     });

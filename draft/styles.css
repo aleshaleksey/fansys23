@@ -30,8 +30,8 @@ td {
 
 .sheet-basics-inner2 {
     display: grid;
-    grid-template-columns: 400px 360;
-    grid-template-rows: 600px 0px;
+    grid-template-columns: 420px 340px;
+    grid-template-rows: 480px;
     grid-template-areas:
         "attack-tab attack-det"
         /*  */
@@ -59,8 +59,8 @@ div.attack-details {
     align-content: left;
     align-items: left;
     background-color: #e5e7e3;
-    min-width: 392px;
-    min-height: 592px;
+    min-width: 332px;
+    min-height: 472px;
 }
 
 span.attack-name-span {
@@ -82,6 +82,32 @@ button.attack-name-button {
 
 select.wp-stat-select {
     max-width: 60px;
+}
+
+div.attack-notes {
+    padding: 4px;
+    align-content: left;
+    align-items: left;
+}
+
+textarea.attack-notes {
+    background-color: #e5e7e3;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    /* max-height: 260px; */
+    max-height: max-content;
+    height: max-content;
+    max-width: 332px;
+    min-height: 100px;
+    min-width: 332px;
+}
+
+input.wr_name {
+    width: 239px;
+}
+
+table.save-table.th {
+    padding: 4px;
 }
 
 .sheet-basics-inner {
@@ -729,7 +755,9 @@ input::-webkit-inner-spin-button {
 /* This is here just in case some poor fool uses firefox */
 input[type=number] {
     -moz-appearance: textfield;
+    appearance: textfield;
     width: 100%;
+    text-align: center;
 }
 
 
@@ -806,21 +834,27 @@ button:active {
     background-color: #f4f7ee;
 }
 
-button[type="roll"] {
+button[type=roll].rb {
     background-color: #f2f4ec;
     box-shadow: inset;
+    /* background-color: transparent; */
     border: 1px solid rgb(104, 101, 101);
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     cursor: pointer;
     display: block;
-    width: 100%;
-    height: 100%;
+    width: 92%;
+    height: 88%;
+    image
 }
 
-button[type="roll"]:active {
+button[type=roll]:active {
     background-color: #f4f7ee;
 }
 
-button[type="roll"]:hover {
+button[type=roll]:hover {
     background-color: #e2e4dc;
 }
 

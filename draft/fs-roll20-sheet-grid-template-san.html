@@ -12,7 +12,8 @@
                         </tr>
                         <tr>
                             <th>Level</th>
-                            <td><input class="text-input-hl-name" name="attr_lvl" type="number">
+                            <td><input class="text-input-hl-name" name="attr_lvl" type="number"
+                                    value="1">
                             </td>
                         </tr>
                         <tr>
@@ -47,11 +48,19 @@
                                         <option value="2d12">Normal</option>
                                         <option value="3d12dl1">Advantage
                                         </option>
-                                    </select></span></td>
+                                    </select></span>
+                                <span><select class="adv-selector" name="attr_nd12bonus" value="0">
+                                        <option value="5">+5</option>
+                                        <option value="2">+2</option>
+                                        <option value="0">0</option>
+                                        <option value="-2">-2</option>
+                                        <option value="-5">-5</option>
+                                    </select></span>
+                            </td>
                         </tr>
                         <tr>
                             <th><button type="roll" value="/r @{nd12} + @{init_total}"
-                                    name="roll_init" class="btn ui-draggable">
+                                    name="roll_init" class="rb">
                                     Init.
                                 </button></th>
                             <td><input class="tiny-input" name="attr_init_total" type="number"
@@ -186,8 +195,8 @@
                         <tr class="stat-tr">
                             <th class="stat-th">
                                 <div class="cell-h-div"><button type="roll"
-                                        value="**@{character_name} STR:**\n/r @{nd12} + @{str_bonus} @{sm_die}"
-                                        name="roll_str" class="btn ui-draggable">
+                                        value="**@{character_name} STR:**\n/r @{nd12} + (@{nd12bonus}) + @{str_bonus} @{sm_die}"
+                                        name="roll_str" class="rb">
                                         Str
                                     </button>
                                     <input class=" tiny-input-big" name="attr_str_bonus"
@@ -204,8 +213,8 @@
                             <th class="stat-th">
                                 <div class="cell-h-div">
                                     <button type="roll"
-                                        value="**@{character_name} DEX:**\n/r @{nd12} + @{dex_bonus} @{sm_die}"
-                                        name="roll_dex" class="btn ui-draggable">
+                                        value="**@{character_name} DEX:**\n/r @{nd12} + (@{nd12bonus}) + @{dex_bonus} @{sm_die}"
+                                        name="roll_dex" class="rb">
                                         Dex
                                     </button><input class="tiny-input-big" name="attr_dex_bonus"
                                         type="number" disabled="true"
@@ -221,8 +230,8 @@
                             <th class="stat-th">
                                 <div class="cell-h-div">
                                     <button type="roll"
-                                        value="**@{character_name} CON:**\n/r @{nd12} + @{con_bonus} @{sm_die}"
-                                        name="roll_con" class="btn ui-draggable">
+                                        value="**@{character_name} CON:**\n/r @{nd12} + (@{nd12bonus}) + @{con_bonus} @{sm_die}"
+                                        name="roll_con" class="rb">
                                         Con
                                     </button><input class="tiny-input-big" name="attr_con_bonus"
                                         type="number" disabled="true"
@@ -238,8 +247,8 @@
                             <th class="stat-th">
                                 <div class="cell-h-div">
                                     <button type="roll"
-                                        value="**@{character_name} INT:**\n/r @{nd12} + @{int_bonus} @{sm_die}"
-                                        name="roll_int" class="btn ui-draggable">
+                                        value="**@{character_name} INT:**\n/r @{nd12} + (@{nd12bonus}) + @{int_bonus} @{sm_die}"
+                                        name="roll_int" class="rb">
                                         Int
                                     </button><input class="tiny-input-big" name="attr_int_bonus"
                                         type="number" disabled="true"
@@ -255,8 +264,8 @@
                             <th class="stat-th">
                                 <div class="cell-h-div">
                                     <button type="roll"
-                                        value="**@{character_name} WIS:**\n/r @{nd12} + @{wis_bonus} @{sm_die}"
-                                        name="roll_wis" class="btn ui-draggable">
+                                        value="**@{character_name} WIS:**\n/r @{nd12} + (@{nd12bonus}) + @{wis_bonus} @{sm_die}"
+                                        name="roll_wis" class="rb">
                                         Wis
                                     </button><input class="tiny-input-big" name="attr_wis_bonus"
                                         type="number" disabled="true"
@@ -272,8 +281,8 @@
                             <th class="stat-th">
                                 <div class="cell-h-div">
                                     <button type="roll"
-                                        value="**@{character_name} CHA:**\n/r @{nd12} + @{cha_bonus} @{sm_die}"
-                                        name="roll_cha" class="btn ui-draggable">
+                                        value="**@{character_name} CHA:**\n/r @{nd12} + (@{nd12bonus}) + @{cha_bonus} @{sm_die}"
+                                        name="roll_cha" class="rb">
                                         Cha
                                     </button><input class="tiny-input-big" name="attr_cha_bonus"
                                         type="number" disabled="true"
@@ -298,8 +307,8 @@
                         <tr>
                             <th>
                                 <button type="roll"
-                                    value="**@{character_name} STR save:**\n/r @{nd12} + (@{save_bonus_str}) @{sm_die}"
-                                    name="roll_str_save" class="btn ui-draggable">
+                                    value="**@{character_name} STR save:**\n/r @{nd12} + (@{nd12bonus}) + (@{save_bonus_str}) @{sm_die}"
+                                    name="roll_str_save" class="rb">
                                     Str
                                 </button>
                             </th>
@@ -315,8 +324,8 @@
                         <tr>
                             <th>
                                 <button type="roll"
-                                    value="**@{character_name} DEX save:**\n/r @{nd12} + (@{save_bonus_dex}) @{sm_die}"
-                                    name="roll_dex_save" class="btn ui-draggable">
+                                    value="**@{character_name} DEX save:**\n/r @{nd12} + (@{nd12bonus}) + (@{save_bonus_dex}) @{sm_die}"
+                                    name="roll_dex_save" class="rb">
                                     Dex
                                 </button>
                             </th>
@@ -332,8 +341,8 @@
                         <tr>
                             <th>
                                 <button type="roll"
-                                    value="**@{character_name} CON save:**\n/r @{nd12} + (@{save_bonus_con}) @{sm_die}"
-                                    name="roll_con_save" class="btn ui-draggable">
+                                    value="**@{character_name} CON save:**\n/r @{nd12} + (@{nd12bonus}) + (@{save_bonus_con}) @{sm_die}"
+                                    name="roll_con_save" class="rb">
                                     Con
                                 </button>
                             </th>
@@ -349,8 +358,8 @@
                         <tr>
                             <th>
                                 <button type="roll"
-                                    value="**@{character_name} INT save:**\n/r @{nd12} + (@{save_bonus_int}) @{sm_die}"
-                                    name="roll_int_save" class="btn ui-draggable">
+                                    value="**@{character_name} INT save:**\n/r @{nd12} + (@{nd12bonus}) + (@{save_bonus_int}) @{sm_die}"
+                                    name="roll_int_save" class="rb">
                                     Int
                                 </button>
                             </th>
@@ -368,8 +377,8 @@
                         <tr>
                             <th>
                                 <button type="roll"
-                                    value="**@{character_name} WIS save:**\n/r @{nd12} + (@{save_bonus_wis}) @{sm_die}"
-                                    name="roll_wis_save" class="btn ui-draggable">
+                                    value="**@{character_name} WIS save:**\n/r @{nd12} + (@{nd12bonus}) + (@{save_bonus_wis}) @{sm_die}"
+                                    name="roll_wis_save" class="rb">
                                     Wis
                                 </button>
                             </th>
@@ -385,8 +394,8 @@
                         <tr>
                             <th>
                                 <button type="roll"
-                                    value="**@{character_name} CHA save:**\n/r @{nd12} + (@{save_bonus_cha}) @{sm_die}"
-                                    name="roll_cha_save" class="btn ui-draggable">
+                                    value="**@{character_name} CHA save:**\n/r @{nd12} + (@{nd12bonus}) + (@{save_bonus_cha}) @{sm_die}"
+                                    name="roll_cha_save" class="rb">
                                     Cha
                                 </button>
                             </th>
@@ -416,8 +425,8 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} STR attack:**\n/r @{nd12}+@{base}+@{nat}+@{str_bonus} @{sm_die}"
-                                    name="roll_str_attack" class="btn ui-draggable">
+                                    value="**@{character_name} STR attack:**\n/r @{nd12} + (@{nd12bonus})+@{base}+@{nat}+@{str_bonus} @{sm_die}"
+                                    name="roll_str_attack" class="rb">
                                     Str!
                                 </button></th>
                             <td><input class="tiny-input" name="attr_threshold_str" disabled="true"
@@ -431,8 +440,8 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} DEX attack:**\n/r @{nd12}+@{base}+@{nat}+@{dex_bonus} @{sm_die}"
-                                    name="roll_dex_attack" class="btn ui-draggable">
+                                    value="**@{character_name} DEX attack:**\n/r @{nd12} + (@{nd12bonus})+@{base}+@{nat}+@{dex_bonus} @{sm_die}"
+                                    name="roll_dex_attack" class="rb">
                                     Dex!
                                 </button></th>
                             <td><input class="tiny-input" name="attr_threshold_dex" disabled="true"
@@ -446,8 +455,8 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} INT attack:**\n/r @{nd12}+@{base}+@{sup}+(@{int_bonus}) @{sm_die}"
-                                    name="roll_int_attack" class="btn ui-draggable">
+                                    value="**@{character_name} INT attack:**\n/r @{nd12} + (@{nd12bonus})+@{base}+@{sup}+(@{int_bonus}) @{sm_die}"
+                                    name="roll_int_attack" class="rb">
                                     Int!
                                 </button></th>
                             <td><input class="tiny-input" name="attr_threshold_int" disabled="true"
@@ -461,8 +470,8 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} WIS attack:**\n/r @{nd12}+@{base}+@{sup}+(@{wis_bonus}) @{sm_die}"
-                                    name="roll_wis_attack" class="btn ui-draggable">
+                                    value="**@{character_name} WIS attack:**\n/r @{nd12} + (@{nd12bonus})+@{base}+@{sup}+(@{wis_bonus}) @{sm_die}"
+                                    name="roll_wis_attack" class="rb">
                                     Wis!
                                 </button></th>
                             <td><input class="tiny-input" name="attr_threshold_wis" disabled="true"
@@ -691,8 +700,8 @@
                             </td>
                             <!-- The roller -->
                             <td class="wr_del_1"><button type="roll"
-                                    value="&amp;{template:default}{{name=@{wr_name_1} (@{character_name}) }}{{attack=[[@{nd12}+@{wr_attack_1}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_1}+@{db_1}+@{wr_dstat_1}]]}}{{damage die=[[0 @{sm_die}]]}}"
-                                    name="roll_wp_1" class="btn ui-draggable">
+                                    value="&amp;{template:default}{{name=@{wr_name_1} (@{character_name}) }}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_1}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_1}+@{db_1}+@{wr_dstat_1}]]}}{{damage die=[[0 @{sm_die}]]}}"
+                                    name="roll_wp_1" class="rb">
                                     Roll!
                                 </button></td>
                         </tr>
@@ -720,8 +729,8 @@
                             </td>
                             <!-- The roller -->
                             <td class="wr_del_2"><button type="roll"
-                                    value="&amp;{template:default}{{name=@{wr_name_2} (@{character_name}) }}{{attack=[[@{nd12}+@{wr_attack_2}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_2}+@{db_2}+@{wr_dstat_2}]]}}{{damage die=[[0 @{sm_die}]]}}"
-                                    name="roll_wp_2" class="btn ui-draggable">
+                                    value="&amp;{template:default}{{name=@{wr_name_2} (@{character_name}) }}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_2}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_2}+@{db_2}+@{wr_dstat_2}]]}}{{damage die=[[0 @{sm_die}]]}}"
+                                    name="roll_wp_2" class="rb">
                                     Roll!
                                 </button></td>
                         </tr>
@@ -749,8 +758,8 @@
                             </td>
                             <!-- The roller -->
                             <td class="wr_del_3"><button type="roll"
-                                    value="&amp;{template:default}{{name=@{wr_name_3} (@{character_name}) }}{{attack=[[@{nd12}+@{wr_attack_3}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_3}+@{db_3}+@{wr_dstat_3}]]}}{{damage die=[[0 @{sm_die}]]}}"
-                                    name="roll_wp_3" class="btn ui-draggable">
+                                    value="&amp;{template:default}{{name=@{wr_name_3} (@{character_name}) }}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_3}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_3}+@{db_3}+@{wr_dstat_3}]]}}{{damage die=[[0 @{sm_die}]]}}"
+                                    name="roll_wp_3" class="rb">
                                     Roll!
                                 </button></td>
                         </tr>
@@ -778,8 +787,8 @@
                             </td>
                             <!-- The roller -->
                             <td class="wr_del_4"><button type="roll"
-                                    value="&amp;{template:default}{{name=@{wr_name_4} (@{character_name}) }}{{attack=[[@{nd12}+@{wr_attack_4}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_4}+@{db_4}+@{wr_dstat_4}]]}}{{damage die=[[0 @{sm_die}]]}}"
-                                    name="roll_wp_4" class="btn ui-draggable">
+                                    value="&amp;{template:default}{{name=@{wr_name_4} (@{character_name}) }}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_4}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_4}+@{db_4}+@{wr_dstat_4}]]}}{{damage die=[[0 @{sm_die}]]}}"
+                                    name="roll_wp_4" class="rb">
                                     Roll!
                                 </button></td>
                         </tr>
@@ -807,8 +816,8 @@
                             </td>
                             <!-- The roller -->
                             <td class="wr_del_5"><button type="roll"
-                                    value="&amp;{template:default}{{name=@{wr_name_5} (@{character_name}) }}{{attack=[[@{nd12}+@{wr_attack_5}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_5}+@{db_5}+@{wr_dstat_5}]]}}{{damage die=[[0 @{sm_die}]]}}"
-                                    name="roll_wp_5" class="btn ui-draggable">
+                                    value="&amp;{template:default}{{name=@{wr_name_5} (@{character_name}) }}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_5}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_5}+@{db_5}+@{wr_dstat_5}]]}}{{damage die=[[0 @{sm_die}]]}}"
+                                    name="roll_wp_5" class="rb">
                                     Roll!
                                 </button></td>
                         </tr>
@@ -836,8 +845,8 @@
                             </td>
                             <!-- The roller -->
                             <td class="wr_del_6"><button type="roll"
-                                    value="&amp;{template:despellult}{{name=@{wr_name_6} (@{character_name}) }}{{attack=[[@{nd12}+@{wr_attack_6}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_6}+@{db_6}+@{wr_dstat_6}]]}}{{damage die=[[0 @{sm_die}]]}}"
-                                    name="roll_wp_6" class="btn ui-draggable">
+                                    value="&amp;{template:despellult}{{name=@{wr_name_6} (@{character_name}) }}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_6}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_6}+@{db_6}+@{wr_dstat_6}]]}}{{damage die=[[0 @{sm_die}]]}}"
+                                    name="roll_wp_6" class="rb">
                                     Roll!
                                 </button></td>
                         </tr>
@@ -865,8 +874,8 @@
                             </td>
                             <!-- The roller -->
                             <td class="wr_del_7"><button type="roll"
-                                    value="&amp;{template:default}{{name=@{wr_name_7} (@{character_name}) }}{{attack=[[@{nd12}+@{wr_attack_7}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_7}+@{db_7}+@{wr_dstat_7}]]}}{{damage die=[[0 @{sm_die}]]}}"
-                                    name="roll_wp_7" class="btn ui-draggable">
+                                    value="&amp;{template:default}{{name=@{wr_name_7} (@{character_name}) }}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_7}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_7}+@{db_7}+@{wr_dstat_7}]]}}{{damage die=[[0 @{sm_die}]]}}"
+                                    name="roll_wp_7" class="rb">
                                     Roll!
                                 </button></td>
                         </tr>
@@ -894,8 +903,8 @@
                             </td>
                             <!-- The roller -->
                             <td class="wr_del_8"><button type="roll"
-                                    value="&amp;{template:default}{{name=@{wr_name_8} (@{character_name}) }}{{attack=[[@{nd12}+@{wr_attack_8}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_8}+@{db_8}+@{wr_dstat_8}]]}}{{damage die=[[0 @{sm_die}]]}}"
-                                    name="roll_wp_8" class="btn ui-draggable">
+                                    value="&amp;{template:default}{{name=@{wr_name_8} (@{character_name}) }}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_8}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_8}+@{db_8}+@{wr_dstat_8}]]}}{{damage die=[[0 @{sm_die}]]}}"
+                                    name="roll_wp_8" class="rb">
                                     Roll!
                                 </button></td>
                         </tr>
@@ -923,8 +932,8 @@
                             </td>
                             <!-- The roller -->
                             <td class="wr_del_9"><button type="roll"
-                                    value="&amp;{template:default}{{name=@{wr_name_9} (@{character_name}) }}{{attack=[[@{nd12}+@{wr_attack_9}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_9}+@{db_9}+@{wr_dstat_9}]]}}{{damage die=[[0 @{sm_die}]]}}"
-                                    name="roll_wp_9" class="btn ui-draggable">
+                                    value="&amp;{template:default}{{name=@{wr_name_9} (@{character_name}) }}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_9}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_9}+@{db_9}+@{wr_dstat_9}]]}}{{damage die=[[0 @{sm_die}]]}}"
+                                    name="roll_wp_9" class="rb">
                                     Roll!
                                 </button></td>
                         </tr>
@@ -945,7 +954,7 @@
                             <tr>
                                 <th>Range</th>
                                 <td>
-                                    <input class="tiny-input" name="attr_wr_range_1" value="close">
+                                    <input class="wr_name" name="attr_wr_range_1" value="close">
                                 </td>
                             </tr>
                             <tr>
@@ -1012,6 +1021,10 @@
                             </tr>
                         </tbody>
                     </table>
+                    <div class="attack-notes">
+                        <textarea class="attack-notes" name="attr_attack_notes_1"
+                            placeholder="Notes on the attack."></textarea>
+                    </div>
                 </div>
                 <div class="attack-detail-2">
                     <table class="save-table">
@@ -1024,7 +1037,7 @@
                             <tr>
                                 <th>Range</th>
                                 <td>
-                                    <input class="tiny-input" name="attr_wr_range_2" value="close">
+                                    <input class="wr_name" name="attr_wr_range_2" value="close">
                                 </td>
                             </tr>
                             <tr>
@@ -1091,6 +1104,10 @@
                             </tr>
                         </tbody>
                     </table>
+                    <div class="attack-notes">
+                        <textarea class="attack-notes" name="attr_attack_notes_2"
+                            placeholder="Notes on the attack."></textarea>
+                    </div>
                 </div>
                 <div class="attack-detail-3">
                     <table class="save-table">
@@ -1103,7 +1120,7 @@
                             <tr>
                                 <th>Range</th>
                                 <td>
-                                    <input class="tiny-input" name="attr_wr_range_3" value="close">
+                                    <input class="wr_name" name="attr_wr_range_3" value="close">
                                 </td>
                             </tr>
                             <tr>
@@ -1170,6 +1187,10 @@
                             </tr>
                         </tbody>
                     </table>
+                    <div class="attack-notes">
+                        <textarea class="attack-notes" name="attr_attack_notes_3"
+                            placeholder="Notes on the attack."></textarea>
+                    </div>
                 </div>
                 <div class="attack-detail-4">
                     <table class="save-table">
@@ -1182,7 +1203,7 @@
                             <tr>
                                 <th>Range</th>
                                 <td>
-                                    <input class="tiny-input" name="attr_wr_range_4" value="close">
+                                    <input class="wr_name" name="attr_wr_range_4" value="close">
                                 </td>
                             </tr>
                             <tr>
@@ -1249,6 +1270,10 @@
                             </tr>
                         </tbody>
                     </table>
+                    <div class="attack-notes">
+                        <textarea class="attack-notes" name="attr_attack_notes_4"
+                            placeholder="Notes on the attack."></textarea>
+                    </div>
                 </div>
                 <div class="attack-detail-5">
                     <table class="save-table">
@@ -1261,7 +1286,7 @@
                             <tr>
                                 <th>Range</th>
                                 <td>
-                                    <input class="tiny-input" name="attr_wr_range_5" value="close">
+                                    <input class="wr_name" name="attr_wr_range_5" value="close">
                                 </td>
                             </tr>
                             <tr>
@@ -1328,6 +1353,10 @@
                             </tr>
                         </tbody>
                     </table>
+                    <div class="attack-notes">
+                        <textarea class="attack-notes" name="attr_attack_notes_5"
+                            placeholder="Notes on the attack."></textarea>
+                    </div>
                 </div>
                 <div class="attack-detail-6">
                     <table class="save-table">
@@ -1340,7 +1369,7 @@
                             <tr>
                                 <th>Range</th>
                                 <td>
-                                    <input class="tiny-input" name="attr_wr_range_6" value="close">
+                                    <input class="wr_name" name="attr_wr_range_6" value="close">
                                 </td>
                             </tr>
                             <tr>
@@ -1407,6 +1436,10 @@
                             </tr>
                         </tbody>
                     </table>
+                    <div class="attack-notes">
+                        <textarea class="attack-notes" name="attr_attack_notes_6"
+                            placeholder="Notes on the attack.."></textarea>
+                    </div>
                 </div>
                 <div class="attack-detail-7">
                     <table class="save-table">
@@ -1419,7 +1452,7 @@
                             <tr>
                                 <th>Range</th>
                                 <td>
-                                    <input class="tiny-input" name="attr_wr_range_7" value="close">
+                                    <input class="wr_name" name="attr_wr_range_7" value="close">
                                 </td>
                             </tr>
                             <tr>
@@ -1486,6 +1519,10 @@
                             </tr>
                         </tbody>
                     </table>
+                    <div class="attack-notes">
+                        <textarea class="attack-notes" name="attr_attack_notes_7"
+                            placeholder="Notes on the attack."></textarea>
+                    </div>
                 </div>
                 <div class="attack-detail-8">
                     <table class="save-table">
@@ -1498,7 +1535,7 @@
                             <tr>
                                 <th>Range</th>
                                 <td>
-                                    <input class="tiny-input" name="attr_wr_range_8" value="close">
+                                    <input class="wr_name" name="attr_wr_range_8" value="close">
                                 </td>
                             </tr>
                             <tr>
@@ -1565,6 +1602,10 @@
                             </tr>
                         </tbody>
                     </table>
+                    <div class="attack-notes">
+                        <textarea class="attack-notes" name="attr_attack_notes_8"
+                            placeholder="Notes on the attack."></textarea>
+                    </div>
                 </div>
                 <div class="attack-detail-9">
                     <table class="save-table">
@@ -1577,7 +1618,7 @@
                             <tr>
                                 <th>Range</th>
                                 <td>
-                                    <input class="tiny-input" name="attr_wr_range_9" value="close">
+                                    <input class="wr_name" name="attr_wr_range_9" value="close">
                                 </td>
                             </tr>
                             <tr>
@@ -1644,6 +1685,10 @@
                             </tr>
                         </tbody>
                     </table>
+                    <div class="attack-notes">
+                        <textarea class="attack-notes" name="attr_attack_notes_9"
+                            placeholder="Notes on the attack."></textarea>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1666,8 +1711,8 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} athletics:**\n/r @{nd12} @{sm_die} + @{bonus_athletics}"
-                                    name="roll_athletics" class="btn ui-draggable">
+                                    value="**@{character_name} athletics:**\n/r @{nd12} + (@{nd12bonus}) @{sm_die} + @{bonus_athletics}"
+                                    name="roll_athletics" class="rb">
                                     Athletics
                                 </button></th>
                             <td><input name="attr_bonus_athletics" type="number"
@@ -1687,8 +1732,8 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} climb:**\n/r @{nd12} @{sm_die}+ (@{bonus_climb})"
-                                    name="roll_climb" class="btn ui-draggable">
+                                    value="**@{character_name} climb:**\n/r @{nd12} + (@{nd12bonus}) @{sm_die}+ (@{bonus_climb})"
+                                    name="roll_climb" class="rb">
                                     Climb
                                 </button></th>
                             <td><input name="attr_bonus_climb" type="number" class="tiny-input-r"
@@ -1708,8 +1753,8 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} fortify:**\n/r @{nd12} @{sm_die}+ (@{bonus_fortify})"
-                                    name="roll_fortify" class="btn ui-draggable">
+                                    value="**@{character_name} fortify:**\n/r @{nd12} + (@{nd12bonus}) @{sm_die}+ (@{bonus_fortify})"
+                                    name="roll_fortify" class="rb">
                                     Fortify
                                 </button></th>
                             <td><input name="attr_bonus_fortify" type="number" class="tiny-input-r"
@@ -1729,8 +1774,8 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} swim:**\n/r @{nd12} @{sm_die}+ (@{bonus_swim})"
-                                    name="roll_swim" class="btn ui-draggable">
+                                    value="**@{character_name} swim:**\n/r @{nd12} + (@{nd12bonus}) @{sm_die}+ (@{bonus_swim})"
+                                    name="roll_swim" class="rb">
                                     Swim
                                 </button></th>
                             <td><input name="attr_bonus_swim" type="number" class="tiny-input-r"
@@ -1750,8 +1795,8 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} acrobatics:**\n/r @{nd12} @{sm_die}+ (@{bonus_acrobatics})"
-                                    name="roll_acrobatics" class="btn ui-draggable">
+                                    value="**@{character_name} acrobatics:**\n/r @{nd12} + (@{nd12bonus}) @{sm_die}+ (@{bonus_acrobatics})"
+                                    name="roll_acrobatics" class="rb">
                                     Acrobatics
                                 </button></th>
                             <td><input name="attr_bonus_acrobatics" type="number"
@@ -1771,8 +1816,8 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} fly:**\n/r @{nd12} @{sm_die}+ (@{bonus_fly})"
-                                    name="roll_fly" class="btn ui-draggable">
+                                    value="**@{character_name} fly:**\n/r @{nd12} + (@{nd12bonus}) @{sm_die}+ (@{bonus_fly})"
+                                    name="roll_fly" class="rb">
                                     Fly
                                 </button></th>
                             <td><input name="attr_bonus_fly" type="number" class="tiny-input-r"
@@ -1792,8 +1837,8 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} heal:**\n/r @{nd12} @{sm_die}+ (@{bonus_heal})"
-                                    name="roll_heal" class="btn ui-draggable">
+                                    value="**@{character_name} heal:**\n/r @{nd12} + (@{nd12bonus}) @{sm_die}+ (@{bonus_heal})"
+                                    name="roll_heal" class="rb">
                                     Heal
                                 </button></th>
                             <td><input name="attr_bonus_heal" type="number" class="tiny-input-r"
@@ -1813,8 +1858,8 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} ride:**\n/r @{nd12} @{sm_die}+ (@{bonus_ride})"
-                                    name="roll_ride" class="btn ui-draggable">
+                                    value="**@{character_name} ride:**\n/r @{nd12} + (@{nd12bonus}) @{sm_die}+ (@{bonus_ride})"
+                                    name="roll_ride" class="rb">
                                     Ride
                                 </button></th>
                             <td><input name="attr_bonus_ride" type="number" class="tiny-input-r"
@@ -1834,8 +1879,8 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} sleight of hand:**\n/r @{nd12} @{sm_die}+ (@{bonus_sleight})"
-                                    name="roll_sleight" class="btn ui-draggable">
+                                    value="**@{character_name} sleight of hand:**\n/r @{nd12} + (@{nd12bonus}) @{sm_die}+ (@{bonus_sleight})"
+                                    name="roll_sleight" class="rb">
                                     Sleight of Hand
                                 </button></th>
                             <td><input name="attr_bonus_sleight" type="number" class="tiny-input-r"
@@ -1855,8 +1900,8 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} stealth:**\n/r @{nd12} @{sm_die}+ (@{bonus_stealth})"
-                                    name="roll_stealth" class="btn ui-draggable">
+                                    value="**@{character_name} stealth:**\n/r @{nd12} + (@{nd12bonus}) @{sm_die}+ (@{bonus_stealth})"
+                                    name="roll_stealth" class="rb">
                                     Stealth
                                 </button></th>
                             <td><input name="attr_bonus_stealth" type="number" class="tiny-input-r"
@@ -1876,8 +1921,8 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} tinker:**\n/r @{nd12} @{sm_die}+ (@{bonus_tinker})"
-                                    name="roll_tinker" class="btn ui-draggable">
+                                    value="**@{character_name} tinker:**\n/r @{nd12} + (@{nd12bonus}) @{sm_die}+ (@{bonus_tinker})"
+                                    name="roll_tinker" class="rb">
                                     Tinker
                                 </button></th>
                             <td><input name="attr_bonus_tinker" type="number" class="tiny-input-r"
@@ -1897,8 +1942,8 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} harvest:**\n/r @{nd12} @{sm_die}+ (@{bonus_harvest})"
-                                    name="roll_harvest" class="btn ui-draggable">
+                                    value="**@{character_name} harvest:**\n/r @{nd12} + (@{nd12bonus}) @{sm_die}+ (@{bonus_harvest})"
+                                    name="roll_harvest" class="rb">
                                     Harvest
                                 </button></th>
                             <td><input name="attr_bonus_harvest" type="number" class="tiny-input-r"
@@ -1918,8 +1963,8 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} academics:**\n/r @{nd12} @{sm_die}+ (@{bonus_academics})"
-                                    name="roll_academics" class="btn ui-draggable">
+                                    value="**@{character_name} academics:**\n/r @{nd12} + (@{nd12bonus}) @{sm_die}+ (@{bonus_academics})"
+                                    name="roll_academics" class="rb">
                                     Academics
                                 </button></th>
                             <td><input name="attr_bonus_academics" type="number"
@@ -1939,8 +1984,8 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} appraise:**\n/r @{nd12} @{sm_die}+ (@{bonus_appraise})"
-                                    name="roll_appraise" class="btn ui-draggable">
+                                    value="**@{character_name} appraise:**\n/r @{nd12} + (@{nd12bonus}) @{sm_die}+ (@{bonus_appraise})"
+                                    name="roll_appraise" class="rb">
                                     Appraise
                                 </button></th>
                             <td><input name="attr_bonus_appraise" type="number" class="tiny-input-r"
@@ -1960,8 +2005,8 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} navigate:**\n/r @{nd12} @{sm_die}+ (@{bonus_navigate})"
-                                    name="roll_navigate" class="btn ui-draggable">
+                                    value="**@{character_name} navigate:**\n/r @{nd12} + (@{nd12bonus}) @{sm_die}+ (@{bonus_navigate})"
+                                    name="roll_navigate" class="rb">
                                     Navigate
                                 </button></th>
                             <td><input name="attr_bonus_navigate" type="number" class="tiny-input-r"
@@ -1981,8 +2026,8 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} prospect:**\n/r @{nd12} @{sm_die}+ (@{bonus_prospect})"
-                                    name="roll_prospect" class="btn ui-draggable">
+                                    value="**@{character_name} prospect:**\n/r @{nd12} + (@{nd12bonus}) @{sm_die}+ (@{bonus_prospect})"
+                                    name="roll_prospect" class="rb">
                                     Prospect
                                 </button></th>
                             <td><input name="attr_bonus_prospect" type="number" class="tiny-input-r"
@@ -2002,8 +2047,8 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} knowledge: arcana:**\n/r @{nd12} @{sm_die}+ (@{bonus_karcana})"
-                                    name="roll_karcana" class="btn ui-draggable">
+                                    value="**@{character_name} knowledge: arcana:**\n/r @{nd12} + (@{nd12bonus}) @{sm_die}+ (@{bonus_karcana})"
+                                    name="roll_karcana" class="rb">
                                     Know: Arcana
                                 </button></th>
                             <td><input name="attr_bonus_karcana" type="number" class="tiny-input-r"
@@ -2023,8 +2068,8 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} knowledge: geography:**\n/r @{nd12} @{sm_die}+ (@{bonus_kgeography})"
-                                    name="roll_kgeography" class="btn ui-draggable">
+                                    value="**@{character_name} knowledge: geography:**\n/r @{nd12} + (@{nd12bonus}) @{sm_die}+ (@{bonus_kgeography})"
+                                    name="roll_kgeography" class="rb">
                                     Know: Geography
                                 </button></th>
                             <td><input name="attr_bonus_kgeography" type="number"
@@ -2044,8 +2089,8 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} knowledge: nature:**\n/r @{nd12} @{sm_die}+ (@{bonus_knature})"
-                                    name="roll_knature" class="btn ui-draggable">
+                                    value="**@{character_name} knowledge: nature:**\n/r @{nd12} + (@{nd12bonus}) @{sm_die}+ (@{bonus_knature})"
+                                    name="roll_knature" class="rb">
                                     Know: Nature
                                 </button></th>
                             <td><input name="attr_bonus_knature" type="number" class="tiny-input-r"
@@ -2065,8 +2110,8 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} knowledge: dungeoneering:**\n/r @{nd12} @{sm_die}+ (@{bonus_kdungon})"
-                                    name="roll_kdungon" class="btn ui-draggable">
+                                    value="**@{character_name} knowledge: dungeoneering:**\n/r @{nd12} + (@{nd12bonus}) @{sm_die}+ (@{bonus_kdungon})"
+                                    name="roll_kdungon" class="rb">
                                     Know: Dungeoneering
                                 </button></th>
                             <td><input name="attr_bonus_kdungon" type="number" class="tiny-input-r"
@@ -2086,8 +2131,8 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} knowledge: history:**\n/r @{nd12} @{sm_die}+ (@{bonus_khistory})"
-                                    name="roll_khistory" class="btn ui-draggable">
+                                    value="**@{character_name} knowledge: history:**\n/r @{nd12} + (@{nd12bonus}) @{sm_die}+ (@{bonus_khistory})"
+                                    name="roll_khistory" class="rb">
                                     Know: History
                                 </button></th>
                             <td><input name="attr_bonus_khistory" type="number" class="tiny-input-r"
@@ -2107,8 +2152,8 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} knowledge: religion:**\n/r @{nd12} @{sm_die}+ (@{bonus_kreligion})"
-                                    name="roll_kreligion" class="btn ui-draggable">
+                                    value="**@{character_name} knowledge: religion:**\n/r @{nd12} + (@{nd12bonus}) @{sm_die}+ (@{bonus_kreligion})"
+                                    name="roll_kreligion" class="rb">
                                     Know: Religion
                                 </button></th>
                             <td><input name="attr_bonus_kreligion" type="number"
@@ -2128,8 +2173,8 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} observe:**\n/r @{nd12} @{sm_die}+ (@{bonus_observe})"
-                                    name="roll_observe" class="btn ui-draggable">
+                                    value="**@{character_name} observe:**\n/r @{nd12} + (@{nd12bonus}) @{sm_die}+ (@{bonus_observe})"
+                                    name="roll_observe" class="rb">
                                     Observe
                                 </button></th>
                             <td><input name="attr_bonus_observe" type="number" class="tiny-input-r"
@@ -2149,8 +2194,8 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} sense motive:**\n/r @{nd12} @{sm_die}+ (@{bonus_smotive})"
-                                    name="roll_smotive" class="btn ui-draggable">
+                                    value="**@{character_name} sense motive:**\n/r @{nd12} + (@{nd12bonus}) @{sm_die}+ (@{bonus_smotive})"
+                                    name="roll_smotive" class="rb">
                                     Sense Motive
                                 </button></th>
                             <td><input name="attr_bonus_smotive" type="number" class="tiny-input-r"
@@ -2170,8 +2215,8 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} track:**\n/r @{nd12} @{sm_die}+ (@{bonus_track})"
-                                    name="roll_track" class="btn ui-draggable">
+                                    value="**@{character_name} track:**\n/r @{nd12} + (@{nd12bonus}) @{sm_die}+ (@{bonus_track})"
+                                    name="roll_track" class="rb">
                                     Track
                                 </button></th>
                             <td><input name="attr_bonus_track" type="number" class="tiny-input-r"
@@ -2191,8 +2236,8 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} spellworking:**\n/r @{nd12} @{sm_die}+ (@{bonus_spellworking})"
-                                    name="roll_spellworking" class="btn ui-draggable">
+                                    value="**@{character_name} spellworking:**\n/r @{nd12} + (@{nd12bonus}) @{sm_die}+ (@{bonus_spellworking})"
+                                    name="roll_spellworking" class="rb">
                                     Spellworking
                                 </button></th>
                             <td><input name="attr_bonus_spellworking" type="number"
@@ -2212,8 +2257,8 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} deceive:**\n/r @{nd12} @{sm_die}+ (@{bonus_deceive})"
-                                    name="roll_deceive" class="btn ui-draggable">
+                                    value="**@{character_name} deceive:**\n/r @{nd12} + (@{nd12bonus}) @{sm_die}+ (@{bonus_deceive})"
+                                    name="roll_deceive" class="rb">
                                     Deceive
                                 </button></th>
                             <td><input name="attr_bonus_deceive" type="number" class="tiny-input-r"
@@ -2233,8 +2278,8 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} diplomacy:**\n/r @{nd12} @{sm_die}+ (@{bonus_diplomacy})"
-                                    name="roll_diplomacy" class="btn ui-draggable">
+                                    value="**@{character_name} diplomacy:**\n/r @{nd12} + (@{nd12bonus}) @{sm_die}+ (@{bonus_diplomacy})"
+                                    name="roll_diplomacy" class="rb">
                                     Diplomacy
                                 </button></th>
                             <td><input name="attr_bonus_diplomacy" type="number"
@@ -2254,8 +2299,8 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} intimidate:**\n/r @{nd12} @{sm_die}+ (@{bonus_intimidate})"
-                                    name="roll_intimidate" class="btn ui-draggable">
+                                    value="**@{character_name} intimidate:**\n/r @{nd12} + (@{nd12bonus}) @{sm_die}+ (@{bonus_intimidate})"
+                                    name="roll_intimidate" class="rb">
                                     Intimidate
                                 </button></th>
                             <td><input name="attr_bonus_intimidate" type="number"
@@ -2276,8 +2321,8 @@
                         <tr>
                             <th>
                                 <button type="roll"
-                                    value="**@{character_name} perform:**\n/r @{nd12} @{sm_die}+ (@{bonus_perform})"
-                                    name="roll_perform" class="btn ui-draggable">
+                                    value="**@{character_name} perform:**\n/r @{nd12} + (@{nd12bonus}) @{sm_die}+ (@{bonus_perform})"
+                                    name="roll_perform" class="rb">
                                     Perform
                                 </button>
                             </th>
@@ -2298,8 +2343,8 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} persuade:**\n/r @{nd12} @{sm_die}+ (@{bonus_persuade})"
-                                    name="roll_persuade" class="btn ui-draggable">
+                                    value="**@{character_name} persuade:**\n/r @{nd12} + (@{nd12bonus}) @{sm_die}+ (@{bonus_persuade})"
+                                    name="roll_persuade" class="rb">
                                     Persuade
                                 </button></th>
                             <td><input name="attr_bonus_persuade" type="number" class="tiny-input-r"
@@ -2738,8 +2783,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_1" type="text">
                             </td>
-                            <td><button type="action" value="1" name="act_ability_1"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="1" name="act_ability_1" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -2747,8 +2791,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_2" type="text">
                             </td>
-                            <td><button type="action" value="2" name="act_ability_2"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="2" name="act_ability_2" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -2756,8 +2799,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_3" type="text">
                             </td>
-                            <td><button type="action" value="3" name="act_ability_3"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="3" name="act_ability_3" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -2765,8 +2807,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_4" type="text">
                             </td>
-                            <td><button type="action" value="4" name="act_ability_4"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="4" name="act_ability_4" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -2774,8 +2815,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_5" type="text">
                             </td>
-                            <td><button type="action" value="5" name="act_ability_5"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="5" name="act_ability_5" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -2783,8 +2823,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_6" type="text">
                             </td>
-                            <td><button type="action" value="6" name="act_ability_6"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="6" name="act_ability_6" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -2792,8 +2831,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_7" type="text">
                             </td>
-                            <td><button type="action" value="7" name="act_ability_7"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="7" name="act_ability_7" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -2801,8 +2839,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_8" type="text">
                             </td>
-                            <td><button type="action" value="8" name="act_ability_8"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="8" name="act_ability_8" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -2810,8 +2847,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_9" type="text">
                             </td>
-                            <td><button type="action" value="9" name="act_ability_9"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="9" name="act_ability_9" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -2819,8 +2855,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_10" type="text">
                             </td>
-                            <td><button type="action" value="10" name="act_ability_10"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="10" name="act_ability_10" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -2829,8 +2864,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_11" type="text">
                             </td>
-                            <td><button type="action" value="11" name="act_ability_11"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="11" name="act_ability_11" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -2838,8 +2872,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_12" type="text">
                             </td>
-                            <td><button type="action" value="12" name="act_ability_12"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="12" name="act_ability_12" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -2847,8 +2880,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_13" type="text">
                             </td>
-                            <td><button type="action" value="13" name="act_ability_13"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="13" name="act_ability_13" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -2856,8 +2888,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_14" type="text">
                             </td>
-                            <td><button type="action" value="14" name="act_ability_14"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="14" name="act_ability_14" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -2865,8 +2896,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_15" type="text">
                             </td>
-                            <td><button type="action" value="15" name="act_ability_15"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="15" name="act_ability_15" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -2874,8 +2904,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_16" type="text">
                             </td>
-                            <td><button type="action" value="16" name="act_ability_16"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="16" name="act_ability_16" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -2883,8 +2912,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_17" type="text">
                             </td>
-                            <td><button type="action" value="17" name="act_ability_17"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="17" name="act_ability_17" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -2892,8 +2920,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_18" type="text">
                             </td>
-                            <td><button type="action" value="18" name="act_ability_18"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="18" name="act_ability_18" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -2901,8 +2928,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_19" type="text">
                             </td>
-                            <td><button type="action" value="19" name="act_ability_19"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="19" name="act_ability_19" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -2910,8 +2936,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_20" type="text">
                             </td>
-                            <td><button type="action" value="20" name="act_ability_20"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="20" name="act_ability_20" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -2920,8 +2945,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_21" type="text">
                             </td>
-                            <td><button type="action" value="21" name="act_ability_21"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="21" name="act_ability_21" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -2929,8 +2953,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_22" type="text">
                             </td>
-                            <td><button type="action" value="22" name="act_ability_22"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="22" name="act_ability_22" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -2938,8 +2961,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_23" type="text">
                             </td>
-                            <td><button type="action" value="23" name="act_ability_23"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="23" name="act_ability_23" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -2947,8 +2969,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_24" type="text">
                             </td>
-                            <td><button type="action" value="24" name="act_ability_24"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="24" name="act_ability_24" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -2956,8 +2977,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_25" type="text">
                             </td>
-                            <td><button type="action" value="25" name="act_ability_25"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="25" name="act_ability_25" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -2965,8 +2985,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_26" type="text">
                             </td>
-                            <td><button type="action" value="26" name="act_ability_26"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="26" name="act_ability_26" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -2974,8 +2993,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_27" type="text">
                             </td>
-                            <td><button type="action" value="27" name="act_ability_27"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="27" name="act_ability_27" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -2983,8 +3001,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_28" type="text">
                             </td>
-                            <td><button type="action" value="28" name="act_ability_28"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="28" name="act_ability_28" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -2992,8 +3009,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_29" type="text">
                             </td>
-                            <td><button type="action" value="29" name="act_ability_29"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="29" name="act_ability_29" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -3001,8 +3017,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_30" type="text">
                             </td>
-                            <td><button type="action" value="30" name="act_ability_30"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="30" name="act_ability_30" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -3018,8 +3033,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_31" type="text">
                             </td>
-                            <td><button type="action" value="31" name="act_ability_31"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="31" name="act_ability_31" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -3027,8 +3041,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_32" type="text">
                             </td>
-                            <td><button type="action" value="32" name="act_ability_32"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="32" name="act_ability_32" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -3036,8 +3049,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_33" type="text">
                             </td>
-                            <td><button type="action" value="33" name="act_ability_33"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="33" name="act_ability_33" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -3045,8 +3057,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_34" type="text">
                             </td>
-                            <td><button type="action" value="34" name="act_ability_34"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="34" name="act_ability_34" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -3054,8 +3065,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_35" type="text">
                             </td>
-                            <td><button type="action" value="35" name="act_ability_35"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="35" name="act_ability_35" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -3063,8 +3073,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_36" type="text">
                             </td>
-                            <td><button type="action" value="36" name="act_ability_36"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="36" name="act_ability_36" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -3072,8 +3081,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_37" type="text">
                             </td>
-                            <td><button type="action" value="37" name="act_ability_37"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="37" name="act_ability_37" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -3081,8 +3089,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_38" type="text">
                             </td>
-                            <td><button type="action" value="38" name="act_ability_38"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="38" name="act_ability_38" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -3090,8 +3097,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_39" type="text">
                             </td>
-                            <td><button type="action" value="39" name="act_ability_39"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="39" name="act_ability_39" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -3099,8 +3105,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_40" type="text">
                             </td>
-                            <td><button type="action" value="40" name="act_ability_40"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="40" name="act_ability_40" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -3109,8 +3114,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_41" type="text">
                             </td>
-                            <td><button type="action" value="41" name="act_ability_41"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="41" name="act_ability_41" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -3118,8 +3122,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_42" type="text">
                             </td>
-                            <td><button type="action" value="42" name="act_ability_42"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="42" name="act_ability_42" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -3127,8 +3130,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_43" type="text">
                             </td>
-                            <td><button type="action" value="43" name="act_ability_43"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="43" name="act_ability_43" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -3136,8 +3138,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_44" type="text">
                             </td>
-                            <td><button type="action" value="44" name="act_ability_44"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="44" name="act_ability_44" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -3145,8 +3146,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_45" type="text">
                             </td>
-                            <td><button type="action" value="45" name="act_ability_45"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="45" name="act_ability_45" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -3154,8 +3154,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_46" type="text">
                             </td>
-                            <td><button type="action" value="46" name="act_ability_46"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="46" name="act_ability_46" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -3163,8 +3162,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_47" type="text">
                             </td>
-                            <td><button type="action" value="47" name="act_ability_47"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="47" name="act_ability_47" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -3172,8 +3170,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_48" type="text">
                             </td>
-                            <td><button type="action" value="48" name="act_ability_48"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="48" name="act_ability_48" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -3181,8 +3178,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_49" type="text">
                             </td>
-                            <td><button type="action" value="49" name="act_ability_49"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="49" name="act_ability_49" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -3190,8 +3186,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_50" type="text">
                             </td>
-                            <td><button type="action" value="50" name="act_ability_50"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="50" name="act_ability_50" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -3200,8 +3195,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_51" type="text">
                             </td>
-                            <td><button type="action" value="51" name="act_ability_51"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="51" name="act_ability_51" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -3209,8 +3203,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_52" type="text">
                             </td>
-                            <td><button type="action" value="52" name="act_ability_52"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="52" name="act_ability_52" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -3218,8 +3211,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_53" type="text">
                             </td>
-                            <td><button type="action" value="53" name="act_ability_53"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="53" name="act_ability_53" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -3227,8 +3219,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_54" type="text">
                             </td>
-                            <td><button type="action" value="54" name="act_ability_54"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="54" name="act_ability_54" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -3236,8 +3227,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_55" type="text">
                             </td>
-                            <td><button type="action" value="55" name="act_ability_55"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="55" name="act_ability_55" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -3245,8 +3235,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_56" type="text">
                             </td>
-                            <td><button type="action" value="56" name="act_ability_56"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="56" name="act_ability_56" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -3254,8 +3243,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_57" type="text">
                             </td>
-                            <td><button type="action" value="57" name="act_ability_57"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="57" name="act_ability_57" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -3263,8 +3251,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_58" type="text">
                             </td>
-                            <td><button type="action" value="58" name="act_ability_58"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="58" name="act_ability_58" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -3272,8 +3259,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_59" type="text">
                             </td>
-                            <td><button type="action" value="59" name="act_ability_59"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="59" name="act_ability_59" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -3281,8 +3267,7 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_60" type="text">
                             </td>
-                            <td><button type="action" value="60" name="act_ability_60"
-                                    class="btn ui-draggable">
+                            <td><button type="action" value="60" name="act_ability_60" class="rb">
                                     Edit
                                 </button></td>
                         </tr>
@@ -10134,8 +10119,7 @@
                             <td><input class="tiny-input" disabled="true" name="attr_isum_1"
                                     value="{{(@{inv_item_weight_1})*@{inv_item_count_1}}}"
                                     type="number"></td>
-                            <th><button type="action" value="" name="act_inv_item_1"
-                                    class="btn ui-draggable">
+                            <th><button type="action" value="" name="act_inv_item_1" class="rb">
                                     Edit
                                 </button></th>
                         </tr>
@@ -10151,8 +10135,7 @@
                             <td><input class="tiny-input" disabled="true" name="attr_isum_2"
                                     value="{{(@{inv_item_weight_2})*(@{inv_item_count_2})}}"
                                     type="number"></td>
-                            <th><button type="action" value="" name="act_inv_item_2"
-                                    class="btn ui-draggable">
+                            <th><button type="action" value="" name="act_inv_item_2" class="rb">
                                     Edit
                                 </button></th>
                         </tr>
@@ -10168,8 +10151,7 @@
                             <td><input class="tiny-input" disabled="true" name="attr_isum_3"
                                     value="{{(@{inv_item_weight_3})*(@{inv_item_count_3})}}"
                                     type="number"></td>
-                            <th><button type="action" value="" name="act_inv_item_3"
-                                    class="btn ui-draggable">
+                            <th><button type="action" value="" name="act_inv_item_3" class="rb">
                                     Edit
                                 </button></th>
                         </tr>
@@ -10185,8 +10167,7 @@
                             <td><input class="tiny-input" disabled="true" name="attr_isum_4"
                                     value="{{(@{inv_item_weight_4})*(@{inv_item_count_4})}}"
                                     type="number"></td>
-                            <th><button type="action" value="" name="act_inv_item_4"
-                                    class="btn ui-draggable">
+                            <th><button type="action" value="" name="act_inv_item_4" class="rb">
                                     Edit
                                 </button></th>
                         </tr>
@@ -10202,8 +10183,7 @@
                             <td><input class="tiny-input" disabled="true" name="attr_isum_5"
                                     value="{{(@{inv_item_weight_5})*(@{inv_item_count_5})}}"
                                     type="number"></td>
-                            <th><button type="action" value="" name="act_inv_item_5"
-                                    class="btn ui-draggable">
+                            <th><button type="action" value="" name="act_inv_item_5" class="rb">
                                     Edit
                                 </button></th>
                         </tr>
@@ -10219,8 +10199,7 @@
                             <td><input class="tiny-input" disabled="true" name="attr_isum_6"
                                     value="{{(@{inv_item_weight_6})*(@{inv_item_count_6})}}"
                                     type="number"></td>
-                            <th><button type="action" value="" name="act_inv_item_6"
-                                    class="btn ui-draggable">
+                            <th><button type="action" value="" name="act_inv_item_6" class="rb">
                                     Edit
                                 </button></th>
                         </tr>
@@ -10236,8 +10215,7 @@
                             <td><input class="tiny-input" disabled="true" name="attr_isum_7"
                                     value="{{(@{inv_item_weight_7})*(@{inv_item_count_7})}}"
                                     type="number"></td>
-                            <th><button type="action" value="" name="act_inv_item_7"
-                                    class="btn ui-draggable">
+                            <th><button type="action" value="" name="act_inv_item_7" class="rb">
                                     Edit
                                 </button></th>
                         </tr>
@@ -10253,8 +10231,7 @@
                             <td><input class="tiny-input" disabled="true" name="attr_isum_8"
                                     value="{{(@{inv_item_weight_8})*(@{inv_item_count_8})}}"
                                     type="number"></td>
-                            <th><button type="action" value="" name="act_inv_item_8"
-                                    class="btn ui-draggable">
+                            <th><button type="action" value="" name="act_inv_item_8" class="rb">
                                     Edit
                                 </button></th>
                         </tr>
@@ -10270,8 +10247,7 @@
                             <td><input class="tiny-input" disabled="true" name="attr_isum_9"
                                     value="{{(@{inv_item_weight_9})*(@{inv_item_count_9})}}"
                                     type="number"></td>
-                            <th><button type="action" value="" name="act_inv_item_9"
-                                    class="btn ui-draggable">
+                            <th><button type="action" value="" name="act_inv_item_9" class="rb">
                                     Edit
                                 </button></th>
                         </tr>
@@ -10287,8 +10263,7 @@
                             <td><input class="tiny-input" disabled="true" name="attr_isum_10"
                                     value="{{(@{inv_item_weight_10})*(@{inv_item_count_10})}}"
                                     type="number"></td>
-                            <th><button type="action" value="" name="act_inv_item_10"
-                                    class="btn ui-draggable">
+                            <th><button type="action" value="" name="act_inv_item_10" class="rb">
                                     Edit
                                 </button></th>
                         </tr>
@@ -10305,8 +10280,7 @@
                             <td><input class="tiny-input" disabled="true" name="attr_isum_11"
                                     value="{{(@{inv_item_weight_11})*(@{inv_item_count_11})}}"
                                     type="number"></td>
-                            <th><button type="action" value="" name="act_inv_item_11"
-                                    class="btn ui-draggable">
+                            <th><button type="action" value="" name="act_inv_item_11" class="rb">
                                     Edit
                                 </button></th>
                         </tr>
@@ -10322,8 +10296,7 @@
                             <td><input class="tiny-input" disabled="true" name="attr_isum_12"
                                     value="{{(@{inv_item_weight_12})*(@{inv_item_count_12})}}"
                                     type="number"></td>
-                            <th><button type="action" value="" name="act_inv_item_12"
-                                    class="btn ui-draggable">
+                            <th><button type="action" value="" name="act_inv_item_12" class="rb">
                                     Edit
                                 </button></th>
                         </tr>
@@ -10339,8 +10312,7 @@
                             <td><input class="tiny-input" disabled="true" name="attr_isum_13"
                                     value="{{(@{inv_item_weight_13})*(@{inv_item_count_13})}}"
                                     type="number"></td>
-                            <th><button type="action" value="" name="act_inv_item_13"
-                                    class="btn ui-draggable">
+                            <th><button type="action" value="" name="act_inv_item_13" class="rb">
                                     Edit
                                 </button></th>
                         </tr>
@@ -10356,8 +10328,7 @@
                             <td><input class="tiny-input" disabled="true" name="attr_isum_14"
                                     value="{{(@{inv_item_weight_14})*(@{inv_item_count_14})}}"
                                     type="number"></td>
-                            <th><button type="action" value="" name="act_inv_item_14"
-                                    class="btn ui-draggable">
+                            <th><button type="action" value="" name="act_inv_item_14" class="rb">
                                     Edit
                                 </button></th>
                         </tr>
@@ -10373,8 +10344,7 @@
                             <td><input class="tiny-input" disabled="true" name="attr_isum_15"
                                     value="{{(@{inv_item_weight_15})*(@{inv_item_count_15})}}"
                                     type="number"></td>
-                            <th><button type="action" value="" name="act_inv_item_15"
-                                    class="btn ui-draggable">
+                            <th><button type="action" value="" name="act_inv_item_15" class="rb">
                                     Edit
                                 </button></th>
                         </tr>
@@ -10390,8 +10360,7 @@
                             <td><input class="tiny-input" disabled="true" name="attr_isum_16"
                                     value="{{(@{inv_item_weight_16})*(@{inv_item_count_16})}}"
                                     type="number"></td>
-                            <th><button type="action" value="" name="act_inv_item_16"
-                                    class="btn ui-draggable">
+                            <th><button type="action" value="" name="act_inv_item_16" class="rb">
                                     Edit
                                 </button></th>
                         </tr>
@@ -10407,8 +10376,7 @@
                             <td><input class="tiny-input" disabled="true" name="attr_isum_17"
                                     value="{{(@{inv_item_weight_17})*(@{inv_item_count_17})}}"
                                     type="number"></td>
-                            <th><button type="action" value="" name="act_inv_item_17"
-                                    class="btn ui-draggable">
+                            <th><button type="action" value="" name="act_inv_item_17" class="rb">
                                     Edit
                                 </button></th>
                         </tr>
@@ -10424,8 +10392,7 @@
                             <td><input class="tiny-input" disabled="true" name="attr_isum_18"
                                     value="{{(@{inv_item_weight_18})*(@{inv_item_count_18})}}"
                                     type="number"></td>
-                            <th><button type="action" value="" name="act_inv_item_18"
-                                    class="btn ui-draggable">
+                            <th><button type="action" value="" name="act_inv_item_18" class="rb">
                                     Edit
                                 </button></th>
                         </tr>
@@ -10441,8 +10408,7 @@
                             <td><input class="tiny-input" disabled="true" name="attr_isum_19"
                                     value="{{(@{inv_item_weight_19})*(@{inv_item_count_19})}}"
                                     type="number"></td>
-                            <th><button type="action" value="" name="act_inv_item_19"
-                                    class="btn ui-draggable">
+                            <th><button type="action" value="" name="act_inv_item_19" class="rb">
                                     Edit
                                 </button></th>
                         </tr>
@@ -10458,8 +10424,7 @@
                             <td><input class="tiny-input" disabled="true" name="attr_isum_20"
                                     value="{{(@{inv_item_weight_20})*(@{inv_item_count_20})}}"
                                     type="number"></td>
-                            <th><button type="action" value="" name="act_inv_item_20"
-                                    class="btn ui-draggable">
+                            <th><button type="action" value="" name="act_inv_item_20" class="rb">
                                     Edit
                                 </button></th>
                         </tr>
@@ -10476,8 +10441,7 @@
                             <td><input class="tiny-input" disabled="true" name="attr_isum_21"
                                     value="{{(@{inv_item_weight_21})*(@{inv_item_count_21})}}"
                                     type="number"></td>
-                            <th><button type="action" value="" name="act_inv_item_21"
-                                    class="btn ui-draggable">
+                            <th><button type="action" value="" name="act_inv_item_21" class="rb">
                                     Edit
                                 </button></th>
                         </tr>
@@ -10493,8 +10457,7 @@
                             <td><input class="tiny-input" disabled="true" name="attr_isum_22"
                                     value="{{(@{inv_item_weight_22})*(@{inv_item_count_22})}}"
                                     type="number"></td>
-                            <th><button type="action" value="" name="act_inv_item_22"
-                                    class="btn ui-draggable">
+                            <th><button type="action" value="" name="act_inv_item_22" class="rb">
                                     Edit
                                 </button></th>
                         </tr>
@@ -10510,8 +10473,7 @@
                             <td><input class="tiny-input" disabled="true" name="attr_isum_23"
                                     value="{{(@{inv_item_weight_23})*(@{inv_item_count_23})}}"
                                     type="number"></td>
-                            <th><button type="action" value="" name="act_inv_item_23"
-                                    class="btn ui-draggable">
+                            <th><button type="action" value="" name="act_inv_item_23" class="rb">
                                     Edit
                                 </button></th>
                         </tr>
@@ -10527,8 +10489,7 @@
                             <td><input class="tiny-input" disabled="true" name="attr_isum_24"
                                     value="{{(@{inv_item_weight_24})*(@{inv_item_count_24})}}"
                                     type="number"></td>
-                            <th><button type="action" value="" name="act_inv_item_24"
-                                    class="btn ui-draggable">
+                            <th><button type="action" value="" name="act_inv_item_24" class="rb">
                                     Edit
                                 </button></th>
                         </tr>
@@ -10544,8 +10505,7 @@
                             <td><input class="tiny-input" disabled="true" name="attr_isum_25"
                                     value="{{(@{inv_item_weight_25})*(@{inv_item_count_25})}}"
                                     type="number"></td>
-                            <th><button type="action" value="" name="act_inv_item_25"
-                                    class="btn ui-draggable">
+                            <th><button type="action" value="" name="act_inv_item_25" class="rb">
                                     Edit
                                 </button></th>
                         </tr>
@@ -10561,8 +10521,7 @@
                             <td><input class="tiny-input" disabled="true" name="attr_isum_26"
                                     value="{{(@{inv_item_weight_26})*(@{inv_item_count_26})}}"
                                     type="number"></td>
-                            <th><button type="action" value="" name="act_inv_item_26"
-                                    class="btn ui-draggable">
+                            <th><button type="action" value="" name="act_inv_item_26" class="rb">
                                     Edit
                                 </button></th>
                         </tr>
@@ -10578,8 +10537,7 @@
                             <td><input class="tiny-input" disabled="true" name="attr_isum_27"
                                     value="{{(@{inv_item_weight_27})*(@{inv_item_count_27})}}"
                                     type="number"></td>
-                            <th><button type="action" value="" name="act_inv_item_27"
-                                    class="btn ui-draggable">
+                            <th><button type="action" value="" name="act_inv_item_27" class="rb">
                                     Edit
                                 </button></th>
                         </tr>
@@ -10595,8 +10553,7 @@
                             <td><input class="tiny-input" disabled="true" name="attr_isum_28"
                                     value="{{(@{inv_item_weight_28})*(@{inv_item_count_28})}}"
                                     type="number"></td>
-                            <th><button type="action" value="" name="act_inv_item_28"
-                                    class="btn ui-draggable">
+                            <th><button type="action" value="" name="act_inv_item_28" class="rb">
                                     Edit
                                 </button></th>
                         </tr>
@@ -10612,8 +10569,7 @@
                             <td><input class="tiny-input" disabled="true" name="attr_isum_29"
                                     value="{{(@{inv_item_weight_29})*(@{inv_item_count_29})}}"
                                     type="number"></td>
-                            <th><button type="action" value="" name="act_inv_item_29"
-                                    class="btn ui-draggable">
+                            <th><button type="action" value="" name="act_inv_item_29" class="rb">
                                     Edit
                                 </button></th>
                         </tr>
@@ -10629,8 +10585,7 @@
                             <td><input class="tiny-input" disabled="true" name="attr_isum_30"
                                     value="{{(@{inv_item_weight_30})*(@{inv_item_count_30})}}"
                                     type="number"></td>
-                            <th><button type="action" value="" name="act_inv_item_30"
-                                    class="btn ui-draggable">
+                            <th><button type="action" value="" name="act_inv_item_30" class="rb">
                                     Edit
                                 </button></th>
                         </tr>
@@ -10850,16 +10805,13 @@
         console.log(x);
         on(`clicked:${x}`, function() {
             getAttrs(["attack_toggle"], function (attr) {
-                console.log(`Got attrs for ${x}: ${attr}`);
                 let setObj = {};
                 let currTab = attr.attack_toggle;
-                console.log(`current: ${currTab} vs ${num+1}`);
                 if (currTab === num + 1) {
                     setObj = {attack_toggle: 0 }; 
                 }else{
                     setObj = {attack_toggle: num + 1 }; 
                 }
-                console.log(setObj);
                 setAttrs(setObj);
             });
         });
@@ -10869,7 +10821,6 @@
         let x = "inv_item_" + (num + 1);
         console.log(x);
         on(`clicked:${x}`, function() {
-            console.log(`Clicked on ${x}`);
             getAttrs(["inventory_details_selector"], function(attr) {
                 let setObj = {};
                 let currTab = attr.inventory_details_selector;
@@ -10888,7 +10839,6 @@
         console.log(x);
         on(`clicked:${x}`, function() {
             getAttrs(["ability_details_selector"], function (attr) {
-                console.log(`Got attrs for ${x}: ${attr}`);
                 let setObj = {};
                 let currTab = attr.ability_details_selector;
                 if (currTab === num + 1) {
@@ -10906,7 +10856,6 @@
             let button_name = "mp" + mp + "_" + n + "_show";
             console.log(`setting up ${button_name}`);
             on(`clicked:${button_name}`, function() {
-                console.log(`in onclick ${button_name}`);
                 getAttrs(["mp_toggle"], function(attr) {
                     let secret = mp + "-" + n;
                     let setObj = {};

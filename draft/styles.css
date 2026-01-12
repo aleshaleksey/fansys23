@@ -28,12 +28,12 @@ td {
     visibility: hidden;
 }
 
-*/ .sheet-basics-inner2 {
+.sheet-basics-inner2 {
     display: grid;
-    width: 760px;
-    grid-template: 600px;
+    grid-template-columns: 400px 360;
+    grid-template-rows: 600px 0px;
     grid-template-areas:
-        "attack-tab attack-tab"
+        "attack-tab attack-det"
         /*  */
     ;
     grid-gap: 3px;
@@ -48,7 +48,36 @@ div.attack-tab {
     align-content: left;
     align-items: left;
     background-color: #e5e7e3;
+    /* width: 100%;
+    height: 100%; */
 
+}
+
+div.attack-details {
+    padding-top: 4px;
+    grid-area: attack-det;
+    align-content: left;
+    align-items: left;
+    background-color: #e5e7e3;
+    min-width: 392px;
+    min-height: 592px;
+}
+
+span.attack-name-span {
+    display: flex;
+    flex-wrap:nowrap;
+    max-width:300px;
+    min-width:300px;
+    width: 100%
+}
+button.attack-name-button {
+    padding: 4px;
+    width: 100%;
+    max-width:200px;
+    min-width:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 select.wp-stat-select {
@@ -58,12 +87,12 @@ select.wp-stat-select {
 .sheet-basics-inner {
     display: grid;
     grid-template-columns: 96px 142px 0px 172px 210px 140px;
-    grid-template-rows: 184px 160px 60px 216px;
+    grid-template-rows: 172px 216px 68px 194px;
     grid-template-areas:
         "stats-tab save-tab thr-tab  thr-tab hit-box h-movement"
-        "stats-tab b-notes b-notes  b-notes b-notes  h-movement"
-        "stats-tab b-notes b-notes  b-notes b-notes  a"
-        "stats-tab rest-box rest-box hp-box  hp-box  hp-box"
+        "stats-tab rest-box rest-box hp-box  hp-box  h-movement"
+        "stats-tab b-notes b-notes  b-notes b-notes  b-notes"
+        "stats-tab b-notes b-notes  b-notes b-notes  b-notes"
         /*  */
     ;
     grid-gap: 3px;
@@ -82,10 +111,10 @@ div.b-notes {
 textarea.b-notes {
     background-color: #e5e7e3;
     scroll-behavior: smooth;
-    max-height: 230px;
-    max-width: 529px;
-    min-height: 230px;
-    min-width: 529px;
+    max-height: 260px;
+    max-width: 668px;
+    min-height: 260px;
+    min-width: 668px;
 }
 
 div.stats-table {
@@ -96,7 +125,7 @@ div.stats-table {
 }
 
 table.stats-table {
-    border: 1px solid rgb(104, 101, 101);
+    /* border: 1px solid rgb(104, 101, 101); */
     align-content: left;
     align-items: left;
 }
@@ -655,7 +684,9 @@ input[id=inv_item_name] {
 /* BASIC STUFF */
 
 div.cell-h-div {
-    border: 1px solid rgb(104, 101, 101);
+    /* border: 1px solid rgb(104, 101, 101); */
+    padding: 4px;
+    max-width: 88px
 }
 
 input {
@@ -1211,5 +1242,29 @@ div.ab-det-60 {
 .abilities-details[value="58"]~div.ab-det-58,
 .abilities-details[value="59"]~div.ab-det-59,
 .abilities-details[value="60"]~div.ab-det-60 {
+    display: block;
+}
+
+div.attack-detail-1,
+div.attack-detail-2,
+div.attack-detail-3,
+div.attack-detail-4,
+div.attack-detail-5,
+div.attack-detail-6,
+div.attack-detail-7,
+div.attack-detail-8,
+div.attack-detail-9 {
+    display: none;
+}
+
+.attack-toggle[value="1"]~div.attack-detail-1,
+.attack-toggle[value="2"]~div.attack-detail-2,
+.attack-toggle[value="3"]~div.attack-detail-3,
+.attack-toggle[value="4"]~div.attack-detail-4,
+.attack-toggle[value="5"]~div.attack-detail-5,
+.attack-toggle[value="6"]~div.attack-detail-6,
+.attack-toggle[value="7"]~div.attack-detail-7,
+.attack-toggle[value="8"]~div.attack-detail-8,
+.attack-toggle[value="9"]~div.attack-detail-9 {
     display: block;
 }

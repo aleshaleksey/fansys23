@@ -185,90 +185,102 @@
                     <tbody>
                         <tr class="stat-tr">
                             <th class="stat-th">
-                                <button type="roll"
-                                    value="**@{character_name} STR:**\n/r @{nd12} + @{str_bonus} @{sm_die}"
-                                    name="roll_str" class="btn ui-draggable">
-                                    Str
-                                </button><input class=" tiny-input-big" name="attr_str_bonus"
-                                    type="number" disabled="true" value="{floor(@{stat_str}/2-5)}"
-                                    data-formula="{floor(@{stat_str}/2-5)}">
-                                <div class="cell-h-div"><input class="stats-input"
-                                        name="attr_stat_str" type="number">
+                                <div class="cell-h-div"><button type="roll"
+                                        value="**@{character_name} STR:**\n/r @{nd12} + @{str_bonus} @{sm_die}"
+                                        name="roll_str" class="btn ui-draggable">
+                                        Str
+                                    </button>
+                                    <input class=" tiny-input-big" name="attr_str_bonus"
+                                        type="number" disabled="true"
+                                        value="{floor(@{stat_str}/2-5)}"
+                                        data-formula="{floor(@{stat_str}/2-5)}">
+                                    <input class="stats-input" name="attr_stat_str" type="number"
+                                        value="0">
                                 </div>
                             </th>
                         </tr>
 
                         <tr class="stat-tr">
                             <th class="stat-th">
-                                <button type="roll"
-                                    value="**@{character_name} DEX:**\n/r @{nd12} + @{dex_bonus} @{sm_die}"
-                                    name="roll_dex" class="btn ui-draggable">
-                                    Dex
-                                </button><input class="tiny-input-big" name="attr_dex_bonus"
-                                    type="number" disabled="true" value="{{floor(@{stat_dex}/2-5)}}"
-                                    data-formula="{{floor(@{stat_dex}/2-5)}}">
-                                <div class="cell-h-div"><input class=" stats-input"
-                                        name="attr_stat_dex" type="number">
+                                <div class="cell-h-div">
+                                    <button type="roll"
+                                        value="**@{character_name} DEX:**\n/r @{nd12} + @{dex_bonus} @{sm_die}"
+                                        name="roll_dex" class="btn ui-draggable">
+                                        Dex
+                                    </button><input class="tiny-input-big" name="attr_dex_bonus"
+                                        type="number" disabled="true"
+                                        value="{{floor(@{stat_dex}/2-5)}}"
+                                        data-formula="{{floor(@{stat_dex}/2-5)}}">
+                                    <input class=" stats-input" name="attr_stat_dex" type="number"
+                                        value="0">
                                 </div>
                             </th>
                         </tr>
 
                         <tr class="stat-tr">
                             <th class="stat-th">
-                                <button type="roll"
-                                    value="**@{character_name} CON:**\n/r @{nd12} + @{con_bonus} @{sm_die}"
-                                    name="roll_con" class="btn ui-draggable">
-                                    Con
-                                </button><input class="tiny-input-big" name="attr_con_bonus"
-                                    type="number" disabled="true" value="{floor(@{stat_con}/2-5)}"
-                                    data-formula="{floor(@{stat_con}/2-5)}">
-                                <div class="cell-h-div"><input class=" stats-input"
-                                        name="attr_stat_con" type="number">
+                                <div class="cell-h-div">
+                                    <button type="roll"
+                                        value="**@{character_name} CON:**\n/r @{nd12} + @{con_bonus} @{sm_die}"
+                                        name="roll_con" class="btn ui-draggable">
+                                        Con
+                                    </button><input class="tiny-input-big" name="attr_con_bonus"
+                                        type="number" disabled="true"
+                                        value="{floor(@{stat_con}/2-5)}"
+                                        data-formula="{floor(@{stat_con}/2-5)}">
+                                    <input class=" stats-input" value="0" name="attr_stat_con"
+                                        type="number">
                                 </div>
                             </th>
                         </tr>
 
                         <tr class="stat-tr">
                             <th class="stat-th">
-                                <button type="roll"
-                                    value="**@{character_name} INT:**\n/r @{nd12} + @{int_bonus} @{sm_die}"
-                                    name="roll_int" class="btn ui-draggable">
-                                    Int
-                                </button><input class="tiny-input-big" name="attr_int_bonus"
-                                    type="number" disabled="true" value="{floor(@{stat_int}/2-5)}"
-                                    data-formula="{floor(@{stat_int}/2-5)}">
-                                <div class="cell-h-div"><input class="stats-input"
-                                        name="attr_stat_int" type="number">
+                                <div class="cell-h-div">
+                                    <button type="roll"
+                                        value="**@{character_name} INT:**\n/r @{nd12} + @{int_bonus} @{sm_die}"
+                                        name="roll_int" class="btn ui-draggable">
+                                        Int
+                                    </button><input class="tiny-input-big" name="attr_int_bonus"
+                                        type="number" disabled="true"
+                                        value="{floor(@{stat_int}/2-5)}"
+                                        data-formula="{floor(@{stat_int}/2-5)}">
+                                    <input class="stats-input" value="0" name="attr_stat_int"
+                                        type="number">
                                 </div>
                             </th>
                         </tr>
 
                         <tr class="stat-tr">
                             <th class="stat-th">
-                                <button type="roll"
-                                    value="**@{character_name} WIS:**\n/r @{nd12} + @{wis_bonus} @{sm_die}"
-                                    name="roll_wis" class="btn ui-draggable">
-                                    Wis
-                                </button><input class="tiny-input-big" name="attr_wis_bonus"
-                                    type="number" disabled="true" value="{floor(@{stat_wis}/2-5)}"
-                                    data-formula="{floor(@{stat_wis}/2-5)}">
-                                <div class="cell-h-div"><input class="stats-input"
-                                        name="attr_stat_wis" type="number">
+                                <div class="cell-h-div">
+                                    <button type="roll"
+                                        value="**@{character_name} WIS:**\n/r @{nd12} + @{wis_bonus} @{sm_die}"
+                                        name="roll_wis" class="btn ui-draggable">
+                                        Wis
+                                    </button><input class="tiny-input-big" name="attr_wis_bonus"
+                                        type="number" disabled="true"
+                                        value="{floor(@{stat_wis}/2-5)}"
+                                        data-formula="{floor(@{stat_wis}/2-5)}">
+                                    <input class="stats-input" value="0" name="attr_stat_wis"
+                                        type="number">
                                 </div>
                             </th>
                         </tr>
 
                         <tr class="stat-tr">
                             <th class="stat-th">
-                                <button type="roll"
-                                    value="**@{character_name} CHA:**\n/r @{nd12} + @{cha_bonus} @{sm_die}"
-                                    name="roll_cha" class="btn ui-draggable">
-                                    Cha
-                                </button><input class="tiny-input-big" name="attr_cha_bonus"
-                                    type="number" disabled="true" value="{floor(@{stat_cha}/2-5)}"
-                                    data-formula="{floor(@{stat_cha}/2-5)}">
-                                <div class="cell-h-div"><input class="stats-input"
-                                        name="attr_stat_cha" type="number">
+                                <div class="cell-h-div">
+                                    <button type="roll"
+                                        value="**@{character_name} CHA:**\n/r @{nd12} + @{cha_bonus} @{sm_die}"
+                                        name="roll_cha" class="btn ui-draggable">
+                                        Cha
+                                    </button><input class="tiny-input-big" name="attr_cha_bonus"
+                                        type="number" disabled="true"
+                                        value="{floor(@{stat_cha}/2-5)}"
+                                        data-formula="{floor(@{stat_cha}/2-5)}">
+                                    <input class="stats-input" value="0" name="attr_stat_cha"
+                                        type="number">
                                 </div>
                             </th>
                         </tr>
@@ -652,16 +664,13 @@
                             <th>Weapon/Ability</th>
                             <th>Attack</th>
                             <th>Dmg</th>
-                            <th>Attack Stat</th>
-                            <th>Attack bonus</th>
-                            <th>Dmg dice</th>
-                            <th>Dmg Stat</th>
-                            <th>Dmg bonus</th>
                             <th></th>
                         </tr>
                         <tr class="weapon_row_1">
                             <!-- Weapon name -->
-                            <td><input class="wr_name" name="attr_wr_name_1" type="text">
+                            <td><button type="action" value="" name="act_wr_name_show_1"
+                                    class="attack-name-button"><span class="weapon-name-inner"
+                                        name="attr_wr_name_1"></span></button>
                             </td>
                             <!-- Weapon attack bonus show -->
                             <td><input class="tiny-input" name="attr_wr_attack_1" type="number"
@@ -675,48 +684,11 @@
                                     value="{@{db_1}+@{wr_dstat_1}}">
                                 <!-- Show the actual damage -->
                                 <span class="weapon-damage-span"><span
-                                        name="attr_wr_dam_dice_1"></span> +
+                                        name="attr_wr_dam_dice_1"></span>
+                                    +
                                     <input class="weapon-damage-show" disabled="true"
                                         name="attr_dtotal1" value="@{db_sum_1}"></span>
                             </td>
-                            <!-- Weapon stat selector -->
-                            <td><select class=" wp-stat-select" name="attr_wr_stat_1">
-                                    <option value="{@{attack_mod_str}}">
-                                        Str</option>
-                                    <option value="{@{attack_mod_dex}}">
-                                        Dex</option>
-                                    <option value="{@{attack_mod_int}}">
-                                        Int</option>
-                                    <option value="{@{attack_mod_wis}}">
-                                        Wis</option>
-                                </select>
-                            </td>
-                            <!-- The miscellaneous attack bonus -->
-                            <td><input class="tiny-input-small" name="attr_wr_attack_bonus_1"
-                                    value="0" type="number">
-                            </td>
-                            <!-- The damage dice input box -->
-                            <td><input class="dice-input" name="attr_wr_dam_dice_1" value="1d6"
-                                    type="text">
-                            </td>
-                            <!-- Damage stat selector -->
-                            <td><select class="wp-stat-select" name="attr_wr_dstat_1">
-                                    <option value="{@{str_bonus}}">
-                                        Str
-                                    </option>
-                                    <option value="{@{dex_bonus}}">
-                                        Dex
-                                    </option>
-                                    <option value="{@{int_bonus}}">
-                                        Int
-                                    </option>
-                                    <option value="{@{wis_bonus}}">
-                                        Wis
-                                    </option>
-                                </select></td>
-                            <!-- The damage bonus input box -->
-                            <td><input class="tiny-input-small" name="attr_db_1" value="0"
-                                    type="number"></td>
                             <!-- The roller -->
                             <td class="wr_del_1"><button type="roll"
                                     value="&amp;{template:default}{{name=@{wr_name_1} (@{character_name}) }}{{attack=[[@{nd12}+@{wr_attack_1}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_1}+@{db_1}+@{wr_dstat_1}]]}}{{damage die=[[0 @{sm_die}]]}}"
@@ -726,7 +698,9 @@
                         </tr>
                         <tr class="weapon_row_2">
                             <!-- Weapon name -->
-                            <td><input class="wr_name" name="attr_wr_name_2" type="text">
+                            <td><button type="action" value="" name="act_wr_name_show_2"
+                                    class="attack-name-button"><span class="weapon-name-inner"
+                                        name="attr_wr_name_2"></span></button>
                             </td>
                             <!-- Weapon attack bonus show -->
                             <td><input class="tiny-input" name="attr_wr_attack_2" type="number"
@@ -739,47 +713,11 @@
                                     hidden="true" disabled="true" value="{@{db_2}+@{wr_dstat_2}}">
                                 <!-- Show the actual damage -->
                                 <span class="weapon-damage-span"><span
-                                        name="attr_wr_dam_dice_2"></span> +
+                                        name="attr_wr_dam_dice_2"></span>
+                                    +
                                     <input class="weapon-damage-show" disabled="true"
                                         name="attr_dtotal2" value="@{db_sum_2}"></span>
                             </td>
-                            <!-- Weapon stat selector -->
-                            <td><select class="wp-stat-select" name="attr_wr_stat_2">
-                                    <option value="{@{attack_mod_str}}">
-                                        Str</option>
-                                    <option value="{@{attack_mod_dex}}">
-                                        Dex</option>
-                                    <option value="{@{attack_mod_int}}">
-                                        Int</option>
-                                    <option value="{@{attack_mod_wis}}">
-                                        Wis</option>
-                                </select></td>
-                            <!-- The miscellaneous attack bonus -->
-                            <td><input class="tiny-input-small" name="attr_wr_attack_bonus_2"
-                                    value="0" type="number">
-                            </td>
-                            <!-- The damage dice input box -->
-                            <td><input class="dice-input" name="attr_wr_dam_dice_2" value="1d6"
-                                    type="text">
-                            </td>
-                            <!-- Damage stat selector -->
-                            <td><select class="wp-stat-select" name="attr_wr_dstat_2">
-                                    <option value="{@{str_bonus}}">
-                                        Str
-                                    </option>
-                                    <option value="{@{dex_bonus}}">
-                                        Dex
-                                    </option>
-                                    <option value="{@{int_bonus}}">
-                                        Int
-                                    </option>
-                                    <option value="{@{wis_bonus}}">
-                                        Wis
-                                    </option>
-                                </select></td>
-                            <!-- The damage bonus input box -->
-                            <td><input class="tiny-input-small" name="attr_db_2" value="0"
-                                    type="number"></td>
                             <!-- The roller -->
                             <td class="wr_del_2"><button type="roll"
                                     value="&amp;{template:default}{{name=@{wr_name_2} (@{character_name}) }}{{attack=[[@{nd12}+@{wr_attack_2}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_2}+@{db_2}+@{wr_dstat_2}]]}}{{damage die=[[0 @{sm_die}]]}}"
@@ -789,7 +727,9 @@
                         </tr>
                         <tr class="weapon_row_3">
                             <!-- Weapon name -->
-                            <td><input class="wr_name" name="attr_wr_name_3" type="text">
+                            <td><button type="action" value="" name="act_wr_name_show_3"
+                                    class="attack-name-button"><span class="weapon-name-inner"
+                                        name="attr_wr_name_3"></span></button>
                             </td>
                             <!-- Weapon attack bonus show -->
                             <td><input class="tiny-input" name="attr_wr_attack_3" type="number"
@@ -802,47 +742,11 @@
                                     hidden="true" disabled="true" value="{@{db_3}+@{wr_dstat_3}}">
                                 <!-- Show the actual damage -->
                                 <span class="weapon-damage-span"><span
-                                        name="attr_wr_dam_dice_3"></span> +
+                                        name="attr_wr_dam_dice_3"></span>
+                                    +
                                     <input class="weapon-damage-show" disabled="true"
                                         name="attr_dtotal3" value="@{db_sum_3}"></span>
                             </td>
-                            <!-- Weapon stat selector -->
-                            <td><select class="wp-stat-select" name="attr_wr_stat_3">
-                                    <option value="{@{attack_mod_str}}">
-                                        Str</option>
-                                    <option value="{@{attack_mod_dex}}">
-                                        Dex</option>
-                                    <option value="{@{attack_mod_int}}">
-                                        Int</option>
-                                    <option value="{@{attack_mod_wis}}">
-                                        Wis</option>
-                                </select></td>
-                            <!-- The miscellaneous attack bonus -->
-                            <td><input class="tiny-input-small" name="attr_wr_attack_bonus_3"
-                                    value="0" type="number">
-                            </td>
-                            <!-- The damage dice input box -->
-                            <td><input class="dice-input" name="attr_wr_dam_dice_3" value="1d6"
-                                    type="text" value="0">
-                            </td>
-                            <!-- Damage stat selector -->
-                            <td><select class="wp-stat-select" name="attr_wr_dstat_3">
-                                    <option value="{@{str_bonus}}">
-                                        Str
-                                    </option>
-                                    <option value="{@{dex_bonus}}">
-                                        Dex
-                                    </option>
-                                    <option value="{@{int_bonus}}">
-                                        Int
-                                    </option>
-                                    <option value="{@{wis_bonus}}">
-                                        Wis
-                                    </option>
-                                </select></td>
-                            <!-- The damage bonus input box -->
-                            <td><input class="tiny-input-small" name="attr_db_3" value="0"
-                                    type="number"></td>
                             <!-- The roller -->
                             <td class="wr_del_3"><button type="roll"
                                     value="&amp;{template:default}{{name=@{wr_name_3} (@{character_name}) }}{{attack=[[@{nd12}+@{wr_attack_3}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_3}+@{db_3}+@{wr_dstat_3}]]}}{{damage die=[[0 @{sm_die}]]}}"
@@ -852,7 +756,9 @@
                         </tr>
                         <tr class="weapon_row_4">
                             <!-- Weapon name -->
-                            <td><input class="wr_name" name="attr_wr_name_4" type="text">
+                            <td><button type="action" value="" name="act_wr_name_show_4"
+                                    class="attack-name-button"><span class="weapon-name-inner"
+                                        name="attr_wr_name_4"></span></button>
                             </td>
                             <!-- Weapon attack bonus show -->
                             <td><input class="tiny-input" name="attr_wr_attack_4" type="number"
@@ -865,47 +771,11 @@
                                     hidden="true" disabled="true" value="{@{db_4}+@{wr_dstat_4}}">
                                 <!-- Show the actual damage -->
                                 <span class="weapon-damage-span"><span
-                                        name="attr_wr_dam_dice_4"></span> +
+                                        name="attr_wr_dam_dice_4"></span>
+                                    +
                                     <input class="weapon-damage-show" disabled="true"
                                         name="attr_dtotal4" value="@{db_sum_4}"></span>
                             </td>
-                            <!-- Weapon stat selector -->
-                            <td><select class="wp-stat-select" name="attr_wr_stat_4">
-                                    <option value="{@{attack_mod_str}}">
-                                        Str</option>
-                                    <option value="{@{attack_mod_dex}}">
-                                        Dex</option>
-                                    <option value="{@{attack_mod_int}}">
-                                        Int</option>
-                                    <option value="{@{attack_mod_wis}}">
-                                        Wis</option>
-                                </select></td>
-                            <!-- The miscellaneous attack bonus -->
-                            <td><input class="tiny-input-small" name="attr_wr_attack_bonus_4"
-                                    value="0" type="number">
-                            </td>
-                            <!-- The damage dice input box -->
-                            <td><input class="dice-input" name="attr_wr_dam_dice_4" value="1d6"
-                                    type="text" value="0">
-                            </td>
-                            <!-- Damage stat selector -->
-                            <td><select class="wp-stat-select" name="attr_wr_dstat_4">
-                                    <option value="{@{str_bonus}}">
-                                        Str
-                                    </option>
-                                    <option value="{@{dex_bonus}}">
-                                        Dex
-                                    </option>
-                                    <option value="{@{int_bonus}}">
-                                        Int
-                                    </option>
-                                    <option value="{@{wis_bonus}}">
-                                        Wis
-                                    </option>
-                                </select></td>
-                            <!-- The damage bonus input box -->
-                            <td><input class="tiny-input-small" name="attr_db_4" value="0"
-                                    type="number"></td>
                             <!-- The roller -->
                             <td class="wr_del_4"><button type="roll"
                                     value="&amp;{template:default}{{name=@{wr_name_4} (@{character_name}) }}{{attack=[[@{nd12}+@{wr_attack_4}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_4}+@{db_4}+@{wr_dstat_4}]]}}{{damage die=[[0 @{sm_die}]]}}"
@@ -915,7 +785,9 @@
                         </tr>
                         <tr class="weapon_row_5">
                             <!-- Weapon name -->
-                            <td><input class="wr_name" name="attr_wr_name_5" type="text">
+                            <td><button type="action" value="" name="act_wr_name_show_5"
+                                    class="attack-name-button"><span class="weapon-name-inner"
+                                        name="attr_wr_name_5"></span></button>
                             </td>
                             <!-- Weapon attack bonus show -->
                             <td><input class="tiny-input" name="attr_wr_attack_5" type="number"
@@ -928,47 +800,11 @@
                                     hidden="true" disabled="true" value="{@{db_5}+@{wr_dstat_5}}">
                                 <!-- Show the actual damage -->
                                 <span class="weapon-damage-span"><span
-                                        name="attr_wr_dam_dice_5"></span> +
+                                        name="attr_wr_dam_dice_5"></span>
+                                    +
                                     <input class="weapon-damage-show" disabled="true"
                                         name="attr_dtotal5" value="@{db_sum_5}"></span>
                             </td>
-                            <!-- Weapon stat selector -->
-                            <td><select class="wp-stat-select" name="attr_wr_stat_5">
-                                    <option value="{@{attack_mod_str}}">
-                                        Str</option>
-                                    <option value="{@{attack_mod_dex}}">
-                                        Dex</option>
-                                    <option value="{@{attack_mod_int}}">
-                                        Int</option>
-                                    <option value="{@{attack_mod_wis}}">
-                                        Wis</option>
-                                </select></td>
-                            <!-- The miscellaneous attack bonus -->
-                            <td><input class="tiny-input-small" name="attr_wr_attack_bonus_5"
-                                    value="0" type="number">
-                            </td>
-                            <!-- The damage dice input box -->
-                            <td><input class="dice-input" name="attr_wr_dam_dice_5" value="1d6"
-                                    type="text" value="0">
-                            </td>
-                            <!-- Damage stat selector -->
-                            <td><select class="wp-stat-select" name="attr_wr_dstat_5">
-                                    <option value="{@{str_bonus}}">
-                                        Str
-                                    </option>
-                                    <option value="{@{dex_bonus}}">
-                                        Dex
-                                    </option>
-                                    <option value="{@{int_bonus}}">
-                                        Int
-                                    </option>
-                                    <option value="{@{wis_bonus}}">
-                                        Wis
-                                    </option>
-                                </select></td>
-                            <!-- The damage bonus input box -->
-                            <td><input class="tiny-input-small" name="attr_db_5" value="0"
-                                    type="number"></td>
                             <!-- The roller -->
                             <td class="wr_del_5"><button type="roll"
                                     value="&amp;{template:default}{{name=@{wr_name_5} (@{character_name}) }}{{attack=[[@{nd12}+@{wr_attack_5}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_5}+@{db_5}+@{wr_dstat_5}]]}}{{damage die=[[0 @{sm_die}]]}}"
@@ -978,7 +814,9 @@
                         </tr>
                         <tr class="weapon_row_6">
                             <!-- Weapon name -->
-                            <td><input class="wr_name" name="attr_wr_name_6" type="text">
+                            <td><button type="action" value="" name="act_wr_name_show_6"
+                                    class="attack-name-button"><span class="weapon-name-inner"
+                                        name="attr_wr_name_6"></span></button>
                             </td>
                             <!-- Weapon attack bonus show -->
                             <td><input class="tiny-input" name="attr_wr_attack_6" type="number"
@@ -991,57 +829,23 @@
                                     hidden="true" disabled="true" value="{@{db_6}+@{wr_dstat_6}}">
                                 <!-- Show the actual damage -->
                                 <span class="weapon-damage-span"><span
-                                        name="attr_wr_dam_dice_6"></span> +
+                                        name="attr_wr_dam_dice_6"></span>
+                                    +
                                     <input class="weapon-damage-show" disabled="true"
                                         name="attr_dtotal6" value="@{db_sum_6}"></span>
                             </td>
-                            <!-- Weapon stat selector -->
-                            <td><select class="wp-stat-select" name="attr_wr_stat_6">
-                                    <option value="{@{attack_mod_str}}">
-                                        Str</option>
-                                    <option value="{@{attack_mod_dex}}">
-                                        Dex</option>
-                                    <option value="{@{attack_mod_int}}">
-                                        Int</option>
-                                    <option value="{@{attack_mod_wis}}">
-                                        Wis</option>
-                                </select></td>
-                            <!-- The miscellaneous attack bonus -->
-                            <td><input class="tiny-input-small" name="attr_wr_attack_bonus_6"
-                                    value="0" type="number">
-                            </td>
-                            <!-- The damage dice input box -->
-                            <td><input class="dice-input" name="attr_wr_dam_dice_6" value="1d6"
-                                    type="text" value="0">
-                            </td>
-                            <!-- Damage stat selector -->
-                            <td><select class="wp-stat-select" name="attr_wr_dstat_6">
-                                    <option value="{@{str_bonus}}">
-                                        Str
-                                    </option>
-                                    <option value="{@{dex_bonus}}">
-                                        Dex
-                                    </option>
-                                    <option value="{@{int_bonus}}">
-                                        Int
-                                    </option>
-                                    <option value="{@{wis_bonus}}">
-                                        Wis
-                                    </option>
-                                </select></td>
-                            <!-- The damage bonus input box -->
-                            <td><input class="tiny-input-small" name="attr_db_6" value="0"
-                                    type="number"></td>
                             <!-- The roller -->
                             <td class="wr_del_6"><button type="roll"
-                                    value="&amp;{template:default}{{name=@{wr_name_6} (@{character_name}) }}{{attack=[[@{nd12}+@{wr_attack_6}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_6}+@{db_6}+@{wr_dstat_6}]]}}{{damage die=[[0 @{sm_die}]]}}"
+                                    value="&amp;{template:despellult}{{name=@{wr_name_6} (@{character_name}) }}{{attack=[[@{nd12}+@{wr_attack_6}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_6}+@{db_6}+@{wr_dstat_6}]]}}{{damage die=[[0 @{sm_die}]]}}"
                                     name="roll_wp_6" class="btn ui-draggable">
                                     Roll!
                                 </button></td>
                         </tr>
                         <tr class="weapon_row_7">
                             <!-- Weapon name -->
-                            <td><input class="wr_name" name="attr_wr_name_7" type="text">
+                            <td><button type="action" value="" name="act_wr_name_show_7"
+                                    class="attack-name-button"><span class="weapon-name-inner"
+                                        name="attr_wr_name_7"></span></button>
                             </td>
                             <!-- Weapon attack bonus show -->
                             <td><input class="tiny-input" name="attr_wr_attack_7" type="number"
@@ -1054,47 +858,11 @@
                                     hidden="true" disabled="true" value="{@{db_7}+@{wr_dstat_7}}">
                                 <!-- Show the actual damage -->
                                 <span class="weapon-damage-span"><span
-                                        name="attr_wr_dam_dice_7"></span> +
+                                        name="attr_wr_dam_dice_7"></span>
+                                    +
                                     <input class="weapon-damage-show" disabled="true"
                                         name="attr_dtotal7" value="@{db_sum_7}"></span>
                             </td>
-                            <!-- Weapon stat selector -->
-                            <td><select class="wp-stat-select" name="attr_wr_stat_7">
-                                    <option value="{@{attack_mod_str}}">
-                                        Str</option>
-                                    <option value="{@{attack_mod_dex}}">
-                                        Dex</option>
-                                    <option value="{@{attack_mod_int}}">
-                                        Int</option>
-                                    <option value="{@{attack_mod_wis}}">
-                                        Wis</option>
-                                </select></td>
-                            <!-- The miscellaneous attack bonus -->
-                            <td><input class="tiny-input-small" name="attr_wr_attack_bonus_7"
-                                    value="0" type="number">
-                            </td>
-                            <!-- The damage dice input box -->
-                            <td><input class="dice-input" name="attr_wr_dam_dice_7" value="1d6"
-                                    type="text" value="0">
-                            </td>
-                            <!-- Damage stat selector -->
-                            <td><select class="wp-stat-select" name="attr_wr_dstat_7">
-                                    <option value="{@{str_bonus}}">
-                                        Str
-                                    </option>
-                                    <option value="{@{dex_bonus}}">
-                                        Dex
-                                    </option>
-                                    <option value="{@{int_bonus}}">
-                                        Int
-                                    </option>
-                                    <option value="{@{wis_bonus}}">
-                                        Wis
-                                    </option>
-                                </select></td>
-                            <!-- The damage bonus input box -->
-                            <td><input class="tiny-input-small" name="attr_db_7" value="0"
-                                    type="number"></td>
                             <!-- The roller -->
                             <td class="wr_del_7"><button type="roll"
                                     value="&amp;{template:default}{{name=@{wr_name_7} (@{character_name}) }}{{attack=[[@{nd12}+@{wr_attack_7}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_7}+@{db_7}+@{wr_dstat_7}]]}}{{damage die=[[0 @{sm_die}]]}}"
@@ -1104,7 +872,9 @@
                         </tr>
                         <tr class="weapon_row_8">
                             <!-- Weapon name -->
-                            <td><input class="wr_name" name="attr_wr_name_8" type="text">
+                            <td><button type="action" value="" name="act_wr_name_show_8"
+                                    class="attack-name-button"><span class="weapon-name-inner"
+                                        name="attr_wr_name_8"></span></button>
                             </td>
                             <!-- Weapon attack bonus show -->
                             <td><input class="tiny-input" name="attr_wr_attack_8" type="number"
@@ -1117,47 +887,11 @@
                                     hidden="true" disabled="true" value="{@{db_8}+@{wr_dstat_8}}">
                                 <!-- Show the actual damage -->
                                 <span class="weapon-damage-span"><span
-                                        name="attr_wr_dam_dice_8"></span> +
+                                        name="attr_wr_dam_dice_8"></span>
+                                    +
                                     <input class="weapon-damage-show" disabled="true"
                                         name="attr_dtotal8" value="@{db_sum_8}"></span>
                             </td>
-                            <!-- Weapon stat selector -->
-                            <td><select class="wp-stat-select" name="attr_wr_stat_8">
-                                    <option value="{@{attack_mod_str}}">
-                                        Str</option>
-                                    <option value="{@{attack_mod_dex}}">
-                                        Dex</option>
-                                    <option value="{@{attack_mod_int}}">
-                                        Int</option>
-                                    <option value="{@{attack_mod_wis}}">
-                                        Wis</option>
-                                </select></td>
-                            <!-- The miscellaneous attack bonus -->
-                            <td><input class="tiny-input-small" name="attr_wr_attack_bonus_8"
-                                    value="0" type="number">
-                            </td>
-                            <!-- The damage dice input box -->
-                            <td><input class="dice-input" name="attr_wr_dam_dice_8" value="1d6"
-                                    type="text" value="0">
-                            </td>
-                            <!-- Damage stat selector -->
-                            <td><select class="wp-stat-select" name="attr_wr_dstat_8">
-                                    <option value="{@{str_bonus}}">
-                                        Str
-                                    </option>
-                                    <option value="{@{dex_bonus}}">
-                                        Dex
-                                    </option>
-                                    <option value="{@{int_bonus}}">
-                                        Int
-                                    </option>
-                                    <option value="{@{wis_bonus}}">
-                                        Wis
-                                    </option>
-                                </select></td>
-                            <!-- The damage bonus input box -->
-                            <td><input class="tiny-input-small" name="attr_db_8" value="0"
-                                    type="number"></td>
                             <!-- The roller -->
                             <td class="wr_del_8"><button type="roll"
                                     value="&amp;{template:default}{{name=@{wr_name_8} (@{character_name}) }}{{attack=[[@{nd12}+@{wr_attack_8}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_8}+@{db_8}+@{wr_dstat_8}]]}}{{damage die=[[0 @{sm_die}]]}}"
@@ -1167,7 +901,9 @@
                         </tr>
                         <tr class="weapon_row_9">
                             <!-- Weapon name -->
-                            <td><input class="wr_name" name="attr_wr_name_9" type="text">
+                            <td><button type="action" value="" name="act_wr_name_show_9"
+                                    class="attack-name-button"><span class="weapon-name-inner"
+                                        name="attr_wr_name_9"></span></button>
                             </td>
                             <!-- Weapon attack bonus show -->
                             <td><input class="tiny-input" name="attr_wr_attack_9" type="number"
@@ -1180,47 +916,11 @@
                                     hidden="true" disabled="true" value="{@{db_9}+@{wr_dstat_9}}">
                                 <!-- Show the actual damage -->
                                 <span class="weapon-damage-span"><span
-                                        name="attr_wr_dam_dice_9"></span> +
+                                        name="attr_wr_dam_dice_9"></span>
+                                    +
                                     <input class="weapon-damage-show" disabled="true"
                                         name="attr_dtotal9" value="@{db_sum_9}"></span>
                             </td>
-                            <!-- Weapon stat selector -->
-                            <td><select class="wp-stat-select" name="attr_wr_stat_9">
-                                    <option value="{@{attack_mod_str}}">
-                                        Str</option>
-                                    <option value="{@{attack_mod_dex}}">
-                                        Dex</option>
-                                    <option value="{@{attack_mod_int}}">
-                                        Int</option>
-                                    <option value="{@{attack_mod_wis}}">
-                                        Wis</option>
-                                </select></td>
-                            <!-- The miscellaneous attack bonus -->
-                            <td><input class="tiny-input-small" name="attr_wr_attack_bonus_9"
-                                    value="0" type="number">
-                            </td>
-                            <!-- The damage dice input box -->
-                            <td><input class="dice-input" name="attr_wr_dam_dice_9" value="1d6"
-                                    type="text" value="0">
-                            </td>
-                            <!-- Damage stat selector -->
-                            <td><select class="wp-stat-select" name="attr_wr_dstat_9">
-                                    <option value="{@{str_bonus}}">
-                                        Str
-                                    </option>
-                                    <option value="{@{dex_bonus}}">
-                                        Dex
-                                    </option>
-                                    <option value="{@{int_bonus}}">
-                                        Int
-                                    </option>
-                                    <option value="{@{wis_bonus}}">
-                                        Wis
-                                    </option>
-                                </select></td>
-                            <!-- The damage bonus input box -->
-                            <td><input class="tiny-input-small" name="attr_db_9" value="0"
-                                    type="number"></td>
                             <!-- The roller -->
                             <td class="wr_del_9"><button type="roll"
                                     value="&amp;{template:default}{{name=@{wr_name_9} (@{character_name}) }}{{attack=[[@{nd12}+@{wr_attack_9}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_9}+@{db_9}+@{wr_dstat_9}]]}}{{damage die=[[0 @{sm_die}]]}}"
@@ -1230,6 +930,721 @@
                         </tr>
                     </tbody>
                 </table>
+            </div>
+            <div class="attack-details">
+                <input type="hidden" id="attack-toggle" name="attr_attack_toggle"
+                    class="attack-toggle" value="">
+                <div class="attack-detail-1">
+                    <table class="save-table">
+                        <tbody>
+                            <tr>
+                                <th>Attack</th>
+                                <td><input class="wr_name" name="attr_wr_name_1" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Range</th>
+                                <td>
+                                    <input class="tiny-input" name="attr_wr_range_1" value="close">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Durability</th>
+                                <td>
+                                    <input class="tiny-input-small" name="attr_wr_dur_1" value="0"
+                                        type="number">/
+                                    <input class="tiny-input-small" name="attr_wr_dur_max_1"
+                                        value="0" type="number">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Attack Stat</th>
+                                <!-- Weapon stat selector -->
+                                <td><select class=" wp-stat-select" name="attr_wr_stat_1">
+                                        <option value="{@{attack_mod_str}}">
+                                            Str</option>
+                                        <option value="{@{attack_mod_dex}}">
+                                            Dex</option>
+                                        <option value="{@{attack_mod_int}}">
+                                            Int</option>
+                                        <option value="{@{attack_mod_wis}}">
+                                            Wis</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <th>Attack bonus</th>
+                                <!-- The miscellaneous attack bonus -->
+                                <td><input class="tiny-input-small" name="attr_wr_attack_bonus_1"
+                                        value="0" type="number">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Dmg dice</th>
+                                <!-- The damage dice input box -->
+                                <td><input class="dice-input" name="attr_wr_dam_dice_1" value="1d6"
+                                        type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Dmg Stat</th>
+                                <!-- Damage stat selector -->
+                                <td><select class="wp-stat-select" name="attr_wr_dstat_1">
+                                        <option value="{@{str_bonus}}">
+                                            Str
+                                        </option>
+                                        <option value="{@{dex_bonus}}">
+                                            Dex
+                                        </option>
+                                        <option value="{@{int_bonus}}">
+                                            Int
+                                        </option>
+                                        <option value="{@{wis_bonus}}">
+                                            Wis
+                                        </option>
+                                    </select></td>
+                            </tr>
+                            </tr>
+                            <tr>
+                                <th>Dmg bonus</th>
+                                <!-- The damage bonus input box -->
+                                <td><input class="tiny-input-small" name="attr_db_1" value="0"
+                                        type="number"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="attack-detail-2">
+                    <table class="save-table">
+                        <tbody>
+                            <tr>
+                                <th>Attack</th>
+                                <td><input class="wr_name" name="attr_wr_name_2" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Range</th>
+                                <td>
+                                    <input class="tiny-input" name="attr_wr_range_2" value="close">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Durability</th>
+                                <td>
+                                    <input class="tiny-input-small" name="attr_wr_dur_2" value="0"
+                                        type="number">/
+                                    <input class="tiny-input-small" name="attr_wr_dur_max_2"
+                                        value="0" type="number">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Attack Stat</th>
+                                <!-- Weapon stat selector -->
+                                <td><select class=" wp-stat-select" name="attr_wr_stat_2">
+                                        <option value="{@{attack_mod_str}}">
+                                            Str</option>
+                                        <option value="{@{attack_mod_dex}}">
+                                            Dex</option>
+                                        <option value="{@{attack_mod_int}}">
+                                            Int</option>
+                                        <option value="{@{attack_mod_wis}}">
+                                            Wis</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <th>Attack bonus</th>
+                                <!-- The miscellaneous attack bonus -->
+                                <td><input class="tiny-input-small" name="attr_wr_attack_bonus_2"
+                                        value="0" type="number">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Dmg dice</th>
+                                <!-- The damage dice input box -->
+                                <td><input class="dice-input" name="attr_wr_dam_dice_2" value="1d6"
+                                        type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Dmg Stat</th>
+                                <!-- Damage stat selector -->
+                                <td><select class="wp-stat-select" name="attr_wr_dstat_2">
+                                        <option value="{@{str_bonus}}">
+                                            Str
+                                        </option>
+                                        <option value="{@{dex_bonus}}">
+                                            Dex
+                                        </option>
+                                        <option value="{@{int_bonus}}">
+                                            Int
+                                        </option>
+                                        <option value="{@{wis_bonus}}">
+                                            Wis
+                                        </option>
+                                    </select></td>
+                            </tr>
+                            </tr>
+                            <tr>
+                                <th>Dmg bonus</th>
+                                <!-- The damage bonus input box -->
+                                <td><input class="tiny-input-small" name="attr_db_2" value="0"
+                                        type="number"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="attack-detail-3">
+                    <table class="save-table">
+                        <tbody>
+                            <tr>
+                                <th>Attack</th>
+                                <td><input class="wr_name" name="attr_wr_name_3" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Range</th>
+                                <td>
+                                    <input class="tiny-input" name="attr_wr_range_3" value="close">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Durability</th>
+                                <td>
+                                    <input class="tiny-input-small" name="attr_wr_dur_3" value="0"
+                                        type="number">/
+                                    <input class="tiny-input-small" name="attr_wr_dur_max_3"
+                                        value="0" type="number">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Attack Stat</th>
+                                <!-- Weapon stat selector -->
+                                <td><select class=" wp-stat-select" name="attr_wr_stat_3">
+                                        <option value="{@{attack_mod_str}}">
+                                            Str</option>
+                                        <option value="{@{attack_mod_dex}}">
+                                            Dex</option>
+                                        <option value="{@{attack_mod_int}}">
+                                            Int</option>
+                                        <option value="{@{attack_mod_wis}}">
+                                            Wis</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <th>Attack bonus</th>
+                                <!-- The miscellaneous attack bonus -->
+                                <td><input class="tiny-input-small" name="attr_wr_attack_bonus_3"
+                                        value="0" type="number">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Dmg dice</th>
+                                <!-- The damage dice input box -->
+                                <td><input class="dice-input" name="attr_wr_dam_dice_3" value="1d6"
+                                        type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Dmg Stat</th>
+                                <!-- Damage stat selector -->
+                                <td><select class="wp-stat-select" name="attr_wr_dstat_3">
+                                        <option value="{@{str_bonus}}">
+                                            Str
+                                        </option>
+                                        <option value="{@{dex_bonus}}">
+                                            Dex
+                                        </option>
+                                        <option value="{@{int_bonus}}">
+                                            Int
+                                        </option>
+                                        <option value="{@{wis_bonus}}">
+                                            Wis
+                                        </option>
+                                    </select></td>
+                            </tr>
+                            </tr>
+                            <tr>
+                                <th>Dmg bonus</th>
+                                <!-- The damage bonus input box -->
+                                <td><input class="tiny-input-small" name="attr_db_3" value="0"
+                                        type="number"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="attack-detail-4">
+                    <table class="save-table">
+                        <tbody>
+                            <tr>
+                                <th>Attack</th>
+                                <td><input class="wr_name" name="attr_wr_name_4" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Range</th>
+                                <td>
+                                    <input class="tiny-input" name="attr_wr_range_4" value="close">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Durability</th>
+                                <td>
+                                    <input class="tiny-input-small" name="attr_wr_dur_4" value="0"
+                                        type="number">/
+                                    <input class="tiny-input-small" name="attr_wr_dur_max_4"
+                                        value="0" type="number">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Attack Stat</th>
+                                <!-- Weapon stat selector -->
+                                <td><select class=" wp-stat-select" name="attr_wr_stat_4">
+                                        <option value="{@{attack_mod_str}}">
+                                            Str</option>
+                                        <option value="{@{attack_mod_dex}}">
+                                            Dex</option>
+                                        <option value="{@{attack_mod_int}}">
+                                            Int</option>
+                                        <option value="{@{attack_mod_wis}}">
+                                            Wis</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <th>Attack bonus</th>
+                                <!-- The miscellaneous attack bonus -->
+                                <td><input class="tiny-input-small" name="attr_wr_attack_bonus_4"
+                                        value="0" type="number">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Dmg dice</th>
+                                <!-- The damage dice input box -->
+                                <td><input class="dice-input" name="attr_wr_dam_dice_4" value="1d6"
+                                        type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Dmg Stat</th>
+                                <!-- Damage stat selector -->
+                                <td><select class="wp-stat-select" name="attr_wr_dstat_4">
+                                        <option value="{@{str_bonus}}">
+                                            Str
+                                        </option>
+                                        <option value="{@{dex_bonus}}">
+                                            Dex
+                                        </option>
+                                        <option value="{@{int_bonus}}">
+                                            Int
+                                        </option>
+                                        <option value="{@{wis_bonus}}">
+                                            Wis
+                                        </option>
+                                    </select></td>
+                            </tr>
+                            </tr>
+                            <tr>
+                                <th>Dmg bonus</th>
+                                <!-- The damage bonus input box -->
+                                <td><input class="tiny-input-small" name="attr_db_4" value="0"
+                                        type="number"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="attack-detail-5">
+                    <table class="save-table">
+                        <tbody>
+                            <tr>
+                                <th>Attack</th>
+                                <td><input class="wr_name" name="attr_wr_name_5" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Range</th>
+                                <td>
+                                    <input class="tiny-input" name="attr_wr_range_5" value="close">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Durability</th>
+                                <td>
+                                    <input class="tiny-input-small" name="attr_wr_dur_5" value="0"
+                                        type="number">/
+                                    <input class="tiny-input-small" name="attr_wr_dur_max_5"
+                                        value="0" type="number">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Attack Stat</th>
+                                <!-- Weapon stat selector -->
+                                <td><select class=" wp-stat-select" name="attr_wr_stat_5">
+                                        <option value="{@{attack_mod_str}}">
+                                            Str</option>
+                                        <option value="{@{attack_mod_dex}}">
+                                            Dex</option>
+                                        <option value="{@{attack_mod_int}}">
+                                            Int</option>
+                                        <option value="{@{attack_mod_wis}}">
+                                            Wis</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <th>Attack bonus</th>
+                                <!-- The miscellaneous attack bonus -->
+                                <td><input class="tiny-input-small" name="attr_wr_attack_bonus_5"
+                                        value="0" type="number">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Dmg dice</th>
+                                <!-- The damage dice input box -->
+                                <td><input class="dice-input" name="attr_wr_dam_dice_5" value="1d6"
+                                        type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Dmg Stat</th>
+                                <!-- Damage stat selector -->
+                                <td><select class="wp-stat-select" name="attr_wr_dstat_5">
+                                        <option value="{@{str_bonus}}">
+                                            Str
+                                        </option>
+                                        <option value="{@{dex_bonus}}">
+                                            Dex
+                                        </option>
+                                        <option value="{@{int_bonus}}">
+                                            Int
+                                        </option>
+                                        <option value="{@{wis_bonus}}">
+                                            Wis
+                                        </option>
+                                    </select></td>
+                            </tr>
+                            </tr>
+                            <tr>
+                                <th>Dmg bonus</th>
+                                <!-- The damage bonus input box -->
+                                <td><input class="tiny-input-small" name="attr_db_5" value="0"
+                                        type="number"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="attack-detail-6">
+                    <table class="save-table">
+                        <tbody>
+                            <tr>
+                                <th>Attack</th>
+                                <td><input class="wr_name" name="attr_wr_name_6" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Range</th>
+                                <td>
+                                    <input class="tiny-input" name="attr_wr_range_6" value="close">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Durability</th>
+                                <td>
+                                    <input class="tiny-input-small" name="attr_wr_dur_6" value="0"
+                                        type="number">/
+                                    <input class="tiny-input-small" name="attr_wr_dur_max_6"
+                                        value="0" type="number">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Attack Stat</th>
+                                <!-- Weapon stat selector -->
+                                <td><select class=" wp-stat-select" name="attr_wr_stat_6">
+                                        <option value="{@{attack_mod_str}}">
+                                            Str</option>
+                                        <option value="{@{attack_mod_dex}}">
+                                            Dex</option>
+                                        <option value="{@{attack_mod_int}}">
+                                            Int</option>
+                                        <option value="{@{attack_mod_wis}}">
+                                            Wis</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <th>Attack bonus</th>
+                                <!-- The miscellaneous attack bonus -->
+                                <td><input class="tiny-input-small" name="attr_wr_attack_bonus_6"
+                                        value="0" type="number">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Dmg dice</th>
+                                <!-- The damage dice input box -->
+                                <td><input class="dice-input" name="attr_wr_dam_dice_6" value="1d6"
+                                        type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Dmg Stat</th>
+                                <!-- Damage stat selector -->
+                                <td><select class="wp-stat-select" name="attr_wr_dstat_6">
+                                        <option value="{@{str_bonus}}">
+                                            Str
+                                        </option>
+                                        <option value="{@{dex_bonus}}">
+                                            Dex
+                                        </option>
+                                        <option value="{@{int_bonus}}">
+                                            Int
+                                        </option>
+                                        <option value="{@{wis_bonus}}">
+                                            Wis
+                                        </option>
+                                    </select></td>
+                            </tr>
+                            </tr>
+                            <tr>
+                                <th>Dmg bonus</th>
+                                <!-- The damage bonus input box -->
+                                <td><input class="tiny-input-small" name="attr_db_6" value="0"
+                                        type="number"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="attack-detail-7">
+                    <table class="save-table">
+                        <tbody>
+                            <tr>
+                                <th>Attack</th>
+                                <td><input class="wr_name" name="attr_wr_name_7" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Range</th>
+                                <td>
+                                    <input class="tiny-input" name="attr_wr_range_7" value="close">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Durability</th>
+                                <td>
+                                    <input class="tiny-input-small" name="attr_wr_dur_7" value="0"
+                                        type="number">/
+                                    <input class="tiny-input-small" name="attr_wr_dur_max_7"
+                                        value="0" type="number">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Attack Stat</th>
+                                <!-- Weapon stat selector -->
+                                <td><select class=" wp-stat-select" name="attr_wr_stat_7">
+                                        <option value="{@{attack_mod_str}}">
+                                            Str</option>
+                                        <option value="{@{attack_mod_dex}}">
+                                            Dex</option>
+                                        <option value="{@{attack_mod_int}}">
+                                            Int</option>
+                                        <option value="{@{attack_mod_wis}}">
+                                            Wis</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <th>Attack bonus</th>
+                                <!-- The miscellaneous attack bonus -->
+                                <td><input class="tiny-input-small" name="attr_wr_attack_bonus_7"
+                                        value="0" type="number">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Dmg dice</th>
+                                <!-- The damage dice input box -->
+                                <td><input class="dice-input" name="attr_wr_dam_dice_7" value="1d6"
+                                        type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Dmg Stat</th>
+                                <!-- Damage stat selector -->
+                                <td><select class="wp-stat-select" name="attr_wr_dstat_7">
+                                        <option value="{@{str_bonus}}">
+                                            Str
+                                        </option>
+                                        <option value="{@{dex_bonus}}">
+                                            Dex
+                                        </option>
+                                        <option value="{@{int_bonus}}">
+                                            Int
+                                        </option>
+                                        <option value="{@{wis_bonus}}">
+                                            Wis
+                                        </option>
+                                    </select></td>
+                            </tr>
+                            </tr>
+                            <tr>
+                                <th>Dmg bonus</th>
+                                <!-- The damage bonus input box -->
+                                <td><input class="tiny-input-small" name="attr_db_7" value="0"
+                                        type="number"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="attack-detail-8">
+                    <table class="save-table">
+                        <tbody>
+                            <tr>
+                                <th>Attack</th>
+                                <td><input class="wr_name" name="attr_wr_name_8" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Range</th>
+                                <td>
+                                    <input class="tiny-input" name="attr_wr_range_8" value="close">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Durability</th>
+                                <td>
+                                    <input class="tiny-input-small" name="attr_wr_dur_8" value="0"
+                                        type="number">/
+                                    <input class="tiny-input-small" name="attr_wr_dur_max_8"
+                                        value="0" type="number">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Attack Stat</th>
+                                <!-- Weapon stat selector -->
+                                <td><select class=" wp-stat-select" name="attr_wr_stat_8">
+                                        <option value="{@{attack_mod_str}}">
+                                            Str</option>
+                                        <option value="{@{attack_mod_dex}}">
+                                            Dex</option>
+                                        <option value="{@{attack_mod_int}}">
+                                            Int</option>
+                                        <option value="{@{attack_mod_wis}}">
+                                            Wis</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <th>Attack bonus</th>
+                                <!-- The miscellaneous attack bonus -->
+                                <td><input class="tiny-input-small" name="attr_wr_attack_bonus_8"
+                                        value="0" type="number">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Dmg dice</th>
+                                <!-- The damage dice input box -->
+                                <td><input class="dice-input" name="attr_wr_dam_dice_8" value="1d6"
+                                        type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Dmg Stat</th>
+                                <!-- Damage stat selector -->
+                                <td><select class="wp-stat-select" name="attr_wr_dstat_8">
+                                        <option value="{@{str_bonus}}">
+                                            Str
+                                        </option>
+                                        <option value="{@{dex_bonus}}">
+                                            Dex
+                                        </option>
+                                        <option value="{@{int_bonus}}">
+                                            Int
+                                        </option>
+                                        <option value="{@{wis_bonus}}">
+                                            Wis
+                                        </option>
+                                    </select></td>
+                            </tr>
+                            </tr>
+                            <tr>
+                                <th>Dmg bonus</th>
+                                <!-- The damage bonus input box -->
+                                <td><input class="tiny-input-small" name="attr_db_8" value="0"
+                                        type="number"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="attack-detail-9">
+                    <table class="save-table">
+                        <tbody>
+                            <tr>
+                                <th>Attack</th>
+                                <td><input class="wr_name" name="attr_wr_name_9" type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Range</th>
+                                <td>
+                                    <input class="tiny-input" name="attr_wr_range_9" value="close">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Durability</th>
+                                <td>
+                                    <input class="tiny-input-small" name="attr_wr_dur_9" value="0"
+                                        type="number">/
+                                    <input class="tiny-input-small" name="attr_wr_dur_max_9"
+                                        value="0" type="number">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Attack Stat</th>
+                                <!-- Weapon stat selector -->
+                                <td><select class=" wp-stat-select" name="attr_wr_stat_9">
+                                        <option value="{@{attack_mod_str}}">
+                                            Str</option>
+                                        <option value="{@{attack_mod_dex}}">
+                                            Dex</option>
+                                        <option value="{@{attack_mod_int}}">
+                                            Int</option>
+                                        <option value="{@{attack_mod_wis}}">
+                                            Wis</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <th>Attack bonus</th>
+                                <!-- The miscellaneous attack bonus -->
+                                <td><input class="tiny-input-small" name="attr_wr_attack_bonus_9"
+                                        value="0" type="number">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Dmg dice</th>
+                                <!-- The damage dice input box -->
+                                <td><input class="dice-input" name="attr_wr_dam_dice_9" value="1d6"
+                                        type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Dmg Stat</th>
+                                <!-- Damage stat selector -->
+                                <td><select class="wp-stat-select" name="attr_wr_dstat_9">
+                                        <option value="{@{str_bonus}}">
+                                            Str
+                                        </option>
+                                        <option value="{@{dex_bonus}}">
+                                            Dex
+                                        </option>
+                                        <option value="{@{int_bonus}}">
+                                            Int
+                                        </option>
+                                        <option value="{@{wis_bonus}}">
+                                            Wis
+                                        </option>
+                                    </select></td>
+                            </tr>
+                            </tr>
+                            <tr>
+                                <th>Dmg bonus</th>
+                                <!-- The damage bonus input box -->
+                                <td><input class="tiny-input-small" name="attr_db_9" value="0"
+                                        type="number"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
@@ -3214,77 +3629,88 @@
                         <button type="action" value="" name="act_mp0_1_show"
                             class="spell-button"><span class="spell-name-span"><span
                                     class="spell-name-inner" name="attr_mp0_name_1"></span> <span
-                                    class="spell-type-outer"> [<span class="spell-name-inner"
+                                    class="spell-type-outer">
+                                    [<span class="spell-name-inner"
                                         name="attr_mp0_type_1"></span>]</span></button>
                     </div>
                     <div class="spellbox">
                         <button type="action" value="" name="act_mp0_2_show"
                             class="spell-button"><span class="spell-name-span"><span
                                     class="spell-name-inner" name="attr_mp0_name_2"></span> <span
-                                    class="spell-type-outer"> [<span class="spell-name-inner"
+                                    class="spell-type-outer">
+                                    [<span class="spell-name-inner"
                                         name="attr_mp0_type_2"></span>]</span></button>
                     </div>
                     <div class="spellbox">
                         <button type="action" value="" name="act_mp0_3_show"
                             class="spell-button"><span class="spell-name-span"><span
                                     class="spell-name-inner" name="attr_mp0_name_3"></span> <span
-                                    class="spell-type-outer"> [<span class="spell-name-inner"
+                                    class="spell-type-outer">
+                                    [<span class="spell-name-inner"
                                         name="attr_mp0_type_3"></span>]</span></button>
                     </div>
                     <div class="spellbox">
                         <button type="action" value="" name="act_mp0_4_show"
                             class="spell-button"><span class="spell-name-span"><span
                                     class="spell-name-inner" name="attr_mp0_name_4"></span> <span
-                                    class="spell-type-outer"> [<span class="spell-name-inner"
+                                    class="spell-type-outer">
+                                    [<span class="spell-name-inner"
                                         name="attr_mp0_type_4"></span>]</span></button>
                     </div>
                     <div class="spellbox">
                         <button type="action" value="" name="act_mp0_5_show"
                             class="spell-button"><span class="spell-name-span"><span
                                     class="spell-name-inner" name="attr_mp0_name_5"></span> <span
-                                    class="spell-type-outer"> [<span class="spell-name-inner"
+                                    class="spell-type-outer">
+                                    [<span class="spell-name-inner"
                                         name="attr_mp0_type_5"></span>]</span></button>
                     </div>
                     <div class="spellbox">
                         <button type="action" value="" name="act_mp0_6_show"
                             class="spell-button"><span class="spell-name-span"><span
                                     class="spell-name-inner" name="attr_mp0_name_6"></span> <span
-                                    class="spell-type-outer"> [<span class="spell-name-inner"
+                                    class="spell-type-outer">
+                                    [<span class="spell-name-inner"
                                         name="attr_mp0_type_6"></span>]</span></button>
                     </div>
                     <div class="spellbox">
                         <button type="action" value="" name="act_mp0_7_show"
                             class="spell-button"><span class="spell-name-span"><span
                                     class="spell-name-inner" name="attr_mp0_name_7"></span> <span
-                                    class="spell-type-outer"> [<span class="spell-name-inner"
+                                    class="spell-type-outer">
+                                    [<span class="spell-name-inner"
                                         name="attr_mp0_type_7"></span>]</span></button>
                     </div>
                     <div class="spellbox">
                         <button type="action" value="" name="act_mp0_8_show"
                             class="spell-button"><span class="spell-name-span"><span
                                     class="spell-name-inner" name="attr_mp0_name_8"></span> <span
-                                    class="spell-type-outer"> [<span class="spell-name-inner"
+                                    class="spell-type-outer">
+                                    [<span class="spell-name-inner"
                                         name="attr_mp0_type_8"></span>]</span></button>
                     </div>
                     <div class="spellbox">
                         <button type="action" value="" name="act_mp0_9_show"
                             class="spell-button"><span class="spell-name-span"><span
                                     class="spell-name-inner" name="attr_mp0_name_9"></span> <span
-                                    class="spell-type-outer"> [<span class="spell-name-inner"
+                                    class="spell-type-outer">
+                                    [<span class="spell-name-inner"
                                         name="attr_mp0_type_9"></span>]</span></button>
                     </div>
                     <div class="spellbox">
                         <button type="action" value="" name="act_mp0_10_show"
                             class="spell-button"><span class="spell-name-span"><span
                                     class="spell-name-inner" name="attr_mp0_name_10"></span> <span
-                                    class="spell-type-outer"> [<span class="spell-name-inner"
+                                    class="spell-type-outer">
+                                    [<span class="spell-name-inner"
                                         name="attr_mp0_type_10"></span>]</span></button>
                     </div>
                     <div class="spellbox">
                         <button type="action" value="" name="act_mp0_11_show"
                             class="spell-button"><span class="spell-name-span"><span
                                     class="spell-name-inner" name="attr_mp0_name_11"></span> <span
-                                    class="spell-type-outer"> [<span class="spell-name-inner"
+                                    class="spell-type-outer">
+                                    [<span class="spell-name-inner"
                                         name="attr_mp0_type_11"></span>]</span></button>
                     </div>
                 </div>
@@ -3296,70 +3722,80 @@
                         <button type="action" value="" name="act_mp1_1_show"
                             class="spell-button"><span class="spell-name-span"><span
                                     class="spell-name-inner" name="attr_mp1_name_1"></span> <span
-                                    class="spell-type-outer"> [<span class="spell-name-inner"
+                                    class="spell-type-outer">
+                                    [<span class="spell-name-inner"
                                         name="attr_mp1_type_1"></span>]</span></button>
                     </div>
                     <div class="spellbox">
                         <button type="action" value="" name="act_mp1_2_show"
                             class="spell-button"><span class="spell-name-span"><span
                                     class="spell-name-inner" name="attr_mp1_name_2"></span> <span
-                                    class="spell-type-outer"> [<span class="spell-name-inner"
+                                    class="spell-type-outer">
+                                    [<span class="spell-name-inner"
                                         name="attr_mp1_type_2"></span>]</span></button>
                     </div>
                     <div class="spellbox">
                         <button type="action" value="" name="act_mp1_3_show"
                             class="spell-button"><span class="spell-name-span"><span
                                     class="spell-name-inner" name="attr_mp1_name_3"></span> <span
-                                    class="spell-type-outer"> [<span class="spell-name-inner"
+                                    class="spell-type-outer">
+                                    [<span class="spell-name-inner"
                                         name="attr_mp1_type_3"></span>]</span></button>
                     </div>
                     <div class="spellbox">
                         <button type="action" value="" name="act_mp1_4_show"
                             class="spell-button"><span class="spell-name-span"><span
                                     class="spell-name-inner" name="attr_mp1_name_4"></span> <span
-                                    class="spell-type-outer"> [<span class="spell-name-inner"
+                                    class="spell-type-outer">
+                                    [<span class="spell-name-inner"
                                         name="attr_mp1_type_4"></span>]</span></button>
                     </div>
                     <div class="spellbox">
                         <button type="action" value="" name="act_mp1_5_show"
                             class="spell-button"><span class="spell-name-span"><span
                                     class="spell-name-inner" name="attr_mp1_name_5"></span> <span
-                                    class="spell-type-outer"> [<span class="spell-name-inner"
+                                    class="spell-type-outer">
+                                    [<span class="spell-name-inner"
                                         name="attr_mp1_type_5"></span>]</span></button>
                     </div>
                     <div class="spellbox">
                         <button type="action" value="" name="act_mp1_6_show"
                             class="spell-button"><span class="spell-name-span"><span
                                     class="spell-name-inner" name="attr_mp1_name_6"></span> <span
-                                    class="spell-type-outer"> [<span class="spell-name-inner"
+                                    class="spell-type-outer">
+                                    [<span class="spell-name-inner"
                                         name="attr_mp1_type_6"></span>]</span></button>
                     </div>
                     <div class="spellbox">
                         <button type="action" value="" name="act_mp1_7_show"
                             class="spell-button"><span class="spell-name-span"><span
                                     class="spell-name-inner" name="attr_mp1_name_7"></span> <span
-                                    class="spell-type-outer"> [<span class="spell-name-inner"
+                                    class="spell-type-outer">
+                                    [<span class="spell-name-inner"
                                         name="attr_mp1_type_7"></span>]</span></button>
                     </div>
                     <div class="spellbox">
                         <button type="action" value="" name="act_mp1_8_show"
                             class="spell-button"><span class="spell-name-span"><span
                                     class="spell-name-inner" name="attr_mp1_name_8"></span> <span
-                                    class="spell-type-outer"> [<span class="spell-name-inner"
+                                    class="spell-type-outer">
+                                    [<span class="spell-name-inner"
                                         name="attr_mp1_type_8"></span>]</span></button>
                     </div>
                     <div class="spellbox">
                         <button type="action" value="" name="act_mp1_9_show"
                             class="spell-button"><span class="spell-name-span"><span
                                     class="spell-name-inner" name="attr_mp1_name_9"></span> <span
-                                    class="spell-type-outer"> [<span class="spell-name-inner"
+                                    class="spell-type-outer">
+                                    [<span class="spell-name-inner"
                                         name="attr_mp1_type_9"></span>]</span></button>
                     </div>
                     <div class="spellbox">
                         <button type="action" value="" name="act_mp1_10_show"
                             class="spell-button"><span class="spell-name-span"><span
                                     class="spell-name-inner" name="attr_mp1_name_10"></span> <span
-                                    class="spell-type-outer"> [<span class="spell-name-inner"
+                                    class="spell-type-outer">
+                                    [<span class="spell-name-inner"
                                         name="attr_mp1_type_10"></span>]</span></button>
                     </div>
                 </div>
@@ -3394,7 +3830,8 @@
                             <button type="action" value="" name="act_mp2_4_show"
                                 class="spell-button"><span class="spell-name-span"><span
                                         class="spell-name-inner"
-                                        name="attr_mp2_name_4"></span><span> </span>
+                                        name="attr_mp2_name_4"></span><span>
+                                    </span>
                                     <span class="spell-type-outer"> [<span class="spell-name-inner"
                                             name="attr_mp2_type_4"></span>]</span> </button>
                         </div>
@@ -10404,6 +10841,26 @@
         on(`clicked:${button}`, function() {
             setAttrs({
                 sheetTab: button
+            });
+        });
+    });
+
+    [...Array(9).keys()].forEach(num => {
+        let x = "wr_name_show_" + (num + 1);
+        console.log(x);
+        on(`clicked:${x}`, function() {
+            getAttrs(["attack_toggle"], function (attr) {
+                console.log(`Got attrs for ${x}: ${attr}`);
+                let setObj = {};
+                let currTab = attr.attack_toggle;
+                console.log(`current: ${currTab} vs ${num+1}`);
+                if (currTab === num + 1) {
+                    setObj = {attack_toggle: 0 }; 
+                }else{
+                    setObj = {attack_toggle: num + 1 }; 
+                }
+                console.log(setObj);
+                setAttrs(setObj);
             });
         });
     });

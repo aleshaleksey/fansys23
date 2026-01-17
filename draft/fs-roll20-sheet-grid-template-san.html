@@ -3,6 +3,7 @@
   - {{title}}    roll name
   - {{name}}     character name
   - {{x_die}}  # optional; extra d6s for SP/MP dice.
+  - {{xd_die}}  # optional; extra d6s for SP/MP dice. Damage only.
   - {{attack}} # optional; attack roll
     - {{thr}}  # optional in attack; if triggers a save
     - {{dmg}}  # optional in attack; if does Damage
@@ -60,7 +61,7 @@
             <!-- Display Damage information for things that deal Damage (usually attack or threshold) -->
             {{#dmg}}<div class="sheet-l2"><span class="sheet-t-ord">🗡 Damage</span><span
                     class="sheet-r-dmg">{{dmg}}{{#x_die}} +
-                    {{x_die}}{{/x_die}}</span></div>{{/dmg}}
+                    {{xd_die}}{{/x_die}}</span></div>{{/dmg}}
             <!-- Display Crit information for attack-->
             {{#rollWasCrit() attack}}{{#^rollWasFumble() attack}}<div class="sheet-l3">
                 <span class="sheet-t-crit">✩ D12</span>
@@ -185,11 +186,14 @@
                         </tr>
                         <tr>
                             <th></th>
-                            <td>Roll SP/MP die: <input type="checkbox" name="attr_sm_die"
-                                    value="[[1d6]]"></td>
+                            <td>Roll SP/MP die: <input type="checkbox" name="attr_sm_die_checker"
+                                    value="1">
+                            </td>
                         </tr>
                     </tbody>
                 </table>
+                <input type="hidden" name="attr_sm_die" value="">
+                <input type="hidden" name="attr_smd_die" value="">
             </div>
             <!-- The template box -->
             <div class="h-template">
@@ -810,7 +814,7 @@
                             </td>
                             <!-- The roller -->
                             <td class="wr_del_1"><button type="roll"
-                                    value="&amp;{template:main}{{title=@{wr_name_1}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_1}]]}}{{dmg=[[@{wr_dam_dice_1}+@{db_1}+@{wr_dstat_1}]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_1}}}"
+                                    value="&amp;{template:main}{{title=@{wr_name_1}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_1}]]}}{{dmg=[[@{wr_dam_dice_1}+@{db_1}+@{wr_dstat_1}]]}}{{xd_die=@{smd_die}}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_1}}}"
                                     name="roll_wp_1" class="rb">
                                     Roll!
                                 </button></td>
@@ -839,7 +843,7 @@
                             </td>
                             <!-- The roller -->
                             <td class="wr_del_2"><button type="roll"
-                                    value="&amp;{template:main}{{title=@{wr_name_2}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_2}]]}}{{dmg=[[@{wr_dam_dice_2}+@{db_2}+@{wr_dstat_2}]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_2}}}"
+                                    value="&amp;{template:main}{{title=@{wr_name_2}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_2}]]}}{{dmg=[[@{wr_dam_dice_2}+@{db_2}+@{wr_dstat_2}]]}}{{xd_die=@{smd_die}}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_2}}}"
                                     name="roll_wp_2" class="rb">
                                     Roll!
                                 </button></td>
@@ -868,7 +872,7 @@
                             </td>
                             <!-- The roller -->
                             <td class="wr_del_3"><button type="roll"
-                                    value="&amp;{template:main}{{title=@{wr_name_3}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_3}]]}}{{dmg=[[@{wr_dam_dice_3}+@{db_3}+@{wr_dstat_3}]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_3}}}"
+                                    value="&amp;{template:main}{{title=@{wr_name_3}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_3}]]}}{{dmg=[[@{wr_dam_dice_3}+@{db_3}+@{wr_dstat_3}]]}}{{xd_die=@{smd_die}}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_3}}}"
                                     name="roll_wp_3" class="rb">
                                     Roll!
                                 </button></td>
@@ -897,7 +901,7 @@
                             </td>
                             <!-- The roller -->
                             <td class="wr_del_4"><button type="roll"
-                                    value="&amp;{template:main}{{title=@{wr_name_4}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_4}]]}}{{dmg=[[@{wr_dam_dice_4}+@{db_4}+@{wr_dstat_4}]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_4}}}"
+                                    value="&amp;{template:main}{{title=@{wr_name_4}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_4}]]}}{{dmg=[[@{wr_dam_dice_4}+@{db_4}+@{wr_dstat_4}]]}}{{xd_die=@{smd_die}}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_4}}}"
                                     name="roll_wp_4" class="rb">
                                     Roll!
                                 </button></td>
@@ -926,7 +930,7 @@
                             </td>
                             <!-- The roller -->
                             <td class="wr_del_5"><button type="roll"
-                                    value="&amp;{template:main}{{title=@{wr_name_5}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_5}]]}}{{dmg=[[@{wr_dam_dice_5}+@{db_5}+@{wr_dstat_5}]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_5}}}"
+                                    value="&amp;{template:main}{{title=@{wr_name_5}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_5}]]}}{{dmg=[[@{wr_dam_dice_5}+@{db_5}+@{wr_dstat_5}]]}}{{xd_die=@{smd_die}}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_5}}}"
                                     name="roll_wp_5" class="rb">
                                     Roll!
                                 </button></td>
@@ -955,7 +959,7 @@
                             </td>
                             <!-- The roller -->
                             <td class="wr_del_6"><button type="roll"
-                                    value="&amp;{template:main}{{title=@{wr_name_6}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_6}]]}}{{dmg=[[@{wr_dam_dice_6}+@{db_6}+@{wr_dstat_6}]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_6}}}"
+                                    value="&amp;{template:main}{{title=@{wr_name_6}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_6}]]}}{{dmg=[[@{wr_dam_dice_6}+@{db_6}+@{wr_dstat_6}]]}}{{xd_die=@{smd_die}}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_6}}}"
                                     name="roll_wp_6" class="rb">
                                     Roll!
                                 </button></td>
@@ -984,7 +988,7 @@
                             </td>
                             <!-- The roller -->
                             <td class="wr_del_7"><button type="roll"
-                                    value="&amp;{template:main}{{title=@{wr_name_7}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_7}]]}}{{dmg=[[@{wr_dam_dice_7}+@{db_7}+@{wr_dstat_7}]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_7}}}"
+                                    value="&amp;{template:main}{{title=@{wr_name_7}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_7}]]}}{{dmg=[[@{wr_dam_dice_7}+@{db_7}+@{wr_dstat_7}]]}}{{xd_die=@{smd_die}}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_7}}}"
                                     name="roll_wp_7" class="rb">
                                     Roll!
                                 </button></td>
@@ -1013,7 +1017,7 @@
                             </td>
                             <!-- The roller -->
                             <td class="wr_del_8"><button type="roll"
-                                    value="&amp;{template:main}{{title=@{wr_name_8}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_8}]]}}{{dmg=[[@{wr_dam_dice_8}+@{db_8}+@{wr_dstat_8}]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_8}}}"
+                                    value="&amp;{template:main}{{title=@{wr_name_8}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_8}]]}}{{dmg=[[@{wr_dam_dice_8}+@{db_8}+@{wr_dstat_8}]]}}{{xd_die=@{smd_die}}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_8}}}"
                                     name="roll_wp_8" class="rb">
                                     Roll!
                                 </button></td>
@@ -1042,7 +1046,7 @@
                             </td>
                             <!-- The roller -->
                             <td class="wr_del_9"><button type="roll"
-                                    value="&amp;{template:main}{{title=@{wr_name_9}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_9}]]}}{{dmg=[[@{wr_dam_dice_9}+@{db_9}+@{wr_dstat_9}]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_9}}}"
+                                    value="&amp;{template:main}{{title=@{wr_name_9}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_9}]]}}{{dmg=[[@{wr_dam_dice_9}+@{db_9}+@{wr_dstat_9}]]}}{{xd_die=@{smd_die}}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_9}}}"
                                     name="roll_wp_9" class="rb">
                                     Roll!
                                 </button></td>
@@ -10916,9 +10920,11 @@
 
 <!-- The SHEET WORKERS -->
 <!-- 1. For the the 5 tables -->
-<!-- 2. For the descriptions of each ability -->
-<!-- 3. For the descriptions of each inventory item -->
-<!-- 4. For the descriptions of each spell -->
+<!-- 2. Show attack details -->
+<!-- 3. For the descriptions of each ability -->
+<!-- 4. For the descriptions of each inventory item -->
+<!-- 5. For the descriptions of each spell -->
+<!-- 6. Reset the 1d6 checkbox after use to remove the annoying `+0`  -->
 <!-- <script> -->
 <script type="text/worker">
     const buttonlist = ["basics", "skills", "spells", "abilities", "inventory"];
@@ -10998,6 +11004,28 @@
                     setAttrs(setObj);
                 });
             });
+        });
+    });
+    console.log("Setting up sm_die..");
+    on(`change:sm_die_checker`, function(attr) {
+console.log("box cehcekd");
+        getAttrs(["sm_die_checker"], function(attr) {
+console.log("got attrs");
+            let setObj = {};
+            let currTab = attr.sm_die_checker
+            if (attr.sm_die_checker == "1") {
+                setObj = {
+                    sm_die: "[[1d6]]",
+                    smd_die: "[[1d6]]"
+                };
+            } else {
+                setObj = {
+                    sm_die: "",
+                    smd_die: ""
+                };
+            }
+            console.log(setObj);
+            setAttrs(setObj);
         });
     });
 </script>

@@ -253,7 +253,7 @@ table.save-table.th {
 .sheet-basics-inner {
     display: grid;
     grid-template-columns: 96px 142px 0px 172px 210px 140px;
-    grid-template-rows: 172px 216px 68px 194px;
+    grid-template-rows: 172px 216px 68px 210px;
     grid-template-areas:
         "stats-tab save-tab thr-tab  thr-tab hit-box h-movement"
         "stats-tab rest-box rest-box hp-box  hp-box  h-movement"
@@ -276,9 +276,9 @@ div.b-notes {
 
 textarea.b-notes {
     background-color: #e5e7e3;
-    max-height: 260px;
+    max-height: 274px;
     max-width: 668px;
-    min-height: 260px;
+    min-height: 274px;
     min-width: 668px;
 }
 
@@ -366,7 +366,7 @@ table.save-table.row {
 .h-name-main-table {
     display: grid;
     grid-template-columns: 208px 186px 94px 240px;
-    grid-template-rows: 80px 52px;
+    grid-template-rows: 80px 60px;
     grid-template-areas:
         "hl-name h-template h-bns h-rki"
         "hl-name x x x"
@@ -415,12 +415,6 @@ div.hl-name {
 input.text-input-hl-name {
     width: 100%;
 }
-
-/* input[type=number].text-input-hl-name {
-    max-width: 148px;
-    min-width: 148px;
-    width: 100%;
-} */
 
 div.h-lvl-params {
     padding: 4px;
@@ -845,15 +839,19 @@ div.cell-h-div {
 }
 
 input {
+    /* background-color: #f2f4ec; */
     background-color: #f2f4ec;
-    border: none;
+    /* border: none; */
+    border: 1px solid #a2a29c78;
 }
 
 input[disabled="true"] {
     background-color: #e5e7e3;
+    border: none;
 }
 input[readonly] {
     background-color: #e5e7e3;
+    border: none;
 }
 
 input[type="checkbox"] {
@@ -965,10 +963,9 @@ button:active {
 
 button[type=roll].rb {
     background-color: #f2f4ec;
-    background-image: none;
     text-align: left;
     box-shadow: inset;
-    /* background-color: transparent; */
+    background-image: none;
     border: 1px solid rgb(104, 101, 101);
     padding-left: 4px;
     padding-right: 4px;

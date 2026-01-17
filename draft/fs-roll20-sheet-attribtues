@@ -179,6 +179,7 @@ stat_int
 int_bonus
 save_bonus_int
 save_prof_int
+
 stat_wis
 wis_bonus
 save_bonus_wis

@@ -1,10 +1,154 @@
 /* NB: THE SHEET IS INTENDED FOR FIREFOX, BRAVE OR CHROME */
 
+
+.sheet-rolltemplate-main .sheet-rt-container,
+.sheet-rolltemplate-init .sheet-rt-container {
+    border: 0.5px solid #40404067;
+    background: #e5e7e3;
+}
+
+.sheet-rolltemplate-main .sheet-rt-header,
+.sheet-rolltemplate-init .sheet-rt-header {
+    background: #e5e7e3;
+    border: 0.5px solid #40404067;
+    max-width: 100%;
+}
+
+/* Pure initiative style */
+/* Pure initiative style */
+.sheet-rolltemplate-main .sheet-title,
+.sheet-rolltemplate-init .sheet-title {
+    width: 100%;
+    font-size: 16pt;
+    padding: 4px;
+    align-content: center;
+    text-align: left;
+}
+
+.sheet-rolltemplate-main .sheet-char-name,
+.sheet-rolltemplate-init .sheet-char-name {
+    width: 100%;
+    font-size: 10pt;
+    padding: 2px;
+    align-content: center;
+    text-align: left;
+    color: #4a4c53;
+}
+
+.sheet-rolltemplate-main .sheet-rolls,
+.sheet-rolltemplate-init .sheet-rolls {
+    background: linear-gradient(315deg, #f2f4ec, white);
+    min-width: 100%;
+    width: 100%;
+}
+
+.sheet-rolltemplate-main .sheet-l1,
+.sheet-rolltemplate-init .sheet-line-1 {
+    min-height: 28px;
+    min-width: 100%;
+    width: 100%;
+    font-size: 14pt;
+    padding: 4px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.sheet-rolltemplate-main .sheet-l1 {
+    padding-top: 8px;
+}
+.sheet-rolltemplate-init .sheet-t-nd12 {
+    font-size: 24px;
+    padding: 4px;
+}
+.sheet-rolltemplate-main .sheet-t-nd12 {
+    font-size: 18px;
+}
+.sheet-rolltemplate-main .sheet-r-nd12,
+.sheet-rolltemplate-init .sheet-r-nd12 {
+    width: inherit;
+    min-width: inherit;
+    min-height: 100%;
+    font-size: 12pt;
+    text-align: center;
+    align-content: center;
+}
+
+/* PURE MAIN TEMPLATE STYLES */
+/* PURE MAIN TEMPLATE STYLES */
+.sheet-rolltemplate-init .sheet-l2,
+.sheet-rolltemplate-main .sheet-l3,
+.sheet-rolltemplate-main .sheet-l2 {
+    min-height: 28px;
+    /* height: 28px; */
+    box-sizing: border-box;
+    min-width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: stretch;
+}
+.sheet-rolltemplate-main .sheet-l2,
+.sheet-rolltemplate-main .sheet-l3 {
+    align-content: stretch;
+    min-height:40px;
+}
+
+.sheet-rolltemplate-init .sheet-t-crit,
+.sheet-rolltemplate-init .sheet-r-crit,
+.sheet-rolltemplate-main .sheet-t-ord,
+.sheet-rolltemplate-main .sheet-r-dmg,
+.sheet-rolltemplate-main .sheet-t-crit,
+.sheet-rolltemplate-main .sheet-r-crit {
+    color: #202424;
+    border: 0.5px solid #40404067;
+    padding: 4px;
+    text-align: center;
+    text-justify: center;
+    align-content: center;
+    justify-self:stretch;
+    display: flex;
+}
+
+.sheet-rolltemplate-init .sheet-r-crit,
+.sheet-rolltemplate-main .sheet-r-dmg,
+.sheet-rolltemplate-main .sheet-r-crit {
+    min-width: 50%;
+    width: 75%;
+    display: block;
+}
+
+.sheet-rolltemplate-main .sheet-t-ord {
+    width: 30%;
+    min-width: 20%;
+    align-items: center;
+}
+
+
+.sheet-rolltemplate-init .sheet-t-crit,
+.sheet-rolltemplate-main .sheet-t-crit {
+    min-width: 26.5%;
+    align-items: center;
+    border: 0.5px solid #483945;
+    font-size: 13pt;
+}
+
+
+.sheet-rolltemplate-init .sheet-r-crit,
+.sheet-rolltemplate-main .sheet-r-crit {
+    border: 0.5px solid #483945;
+    font-size: 13pt;
+}
+
+.sheet-rolltemplate-main .sheet-dsc {
+    background: #f2f4ec;
+    border: 0.5px solid #40404067;
+    max-width: 100%;
+    color: #202424;
+}
+
 /* This is the main character sheet body that contains both
 the invariant header and th erest of the sheet.
 By setting all elements in here we can be strict with background
 colour and element widths. */
-div.new-character-sheet-for-fantasy-worlds {
+.sheet-new-character-sheet-for-fantasy-worlds {
     background-color: #f2f4ec;
     min-width: 780px;
     max-width: 780px;
@@ -13,22 +157,18 @@ div.new-character-sheet-for-fantasy-worlds {
 /* Since different browsers tend to work a little differently with fonts
 we make sure to keep default font sizes constant */
 /* This was found to be a problem between firefox and brave */
-div,
-table,
-input,
-button,
-textarea,
-th,
-td {
+.sheet-new-character-sheet-for-fantasy-worlds div,
+.sheet-new-character-sheet-for-fantasy-worlds table,
+.sheet-new-character-sheet-for-fantasy-worlds input,
+.sheet-new-character-sheet-for-fantasy-worlds button,
+.sheet-new-character-sheet-for-fantasy-worlds textarea,
+.sheet-new-character-sheet-for-fantasy-worlds th,
+.sheet-new-character-sheet-for-fantasy-worlds td {
     font-size: 13.4px;
 }
 
-/* We also hide scrollbars on everything */
-::-webkit-scrollbar {
-    visibility: hidden;
-}
 
-.sheet-basics-inner2 {
+.sheet-new-character-sheet-for-fantasy-worlds .sheet-basics-inner2 {
     display: grid;
     grid-template-columns: 420px 340px;
     grid-template-rows: 480px;
@@ -70,6 +210,7 @@ span.attack-name-span {
     min-width:300px;
     width: 100%
 }
+
 button.attack-name-button {
     padding: 4px;
     width: 100%;
@@ -79,6 +220,7 @@ button.attack-name-button {
     justify-content: center;
     align-items: center;
 }
+
 
 select.wp-stat-select {
     max-width: 60px;
@@ -90,11 +232,9 @@ div.attack-notes {
     align-items: left;
 }
 
-textarea.attack-notes {
+.sheet-new-character-sheet-for-fantasy-worlds textarea.attack-notes {
     background-color: #e5e7e3;
-    scroll-behavior: smooth;
     scrollbar-width: none;
-    /* max-height: 260px; */
     max-height: max-content;
     height: max-content;
     max-width: 332px;
@@ -136,7 +276,6 @@ div.b-notes {
 
 textarea.b-notes {
     background-color: #e5e7e3;
-    scroll-behavior: smooth;
     max-height: 260px;
     max-width: 668px;
     min-height: 260px;
@@ -187,8 +326,8 @@ th.hit-main {
 }
 
 table.save-table,
-.resource-table,
-.dice-table {
+table.resource-table,
+table.dice-table {
     caption-side: top;
     border: 1px solid rgb(104, 101, 101);
     padding: 4px;
@@ -318,6 +457,7 @@ th.stat-th {
     border: 1px solid rgb(104, 101, 101);
 }
 
+
 /* SKILL SHEET */
 /* SKILL SHEET */
 /* SKILL SHEET */
@@ -342,7 +482,6 @@ div.skills {
     grid-area: skills;
     display: flex;
     scrollbar-width: none;
-    scroll-behavior: smooth;
     overflow-y: scroll;
     break-inside: avoid;
     border: 1px solid rgb(104, 101, 101);
@@ -355,7 +494,6 @@ div.proficiencies {
     grid-area: proficiencies;
     display: flex;
     scrollbar-width: none;
-    scroll-behavior: smooth;
     overflow-y: scroll;
     break-inside: avoid;
     border: 1px solid rgb(104, 101, 101);
@@ -447,10 +585,10 @@ div.sheet-abilities-inner {
 }
 
 div.ab-list-a,
-.ab-list-b,
-.levels-a,
-.levels-b,
-.ability-details {
+.sheet-new-character-sheet-for-fantasy-worlds div.ab-list-b,
+.sheet-new-character-sheet-for-fantasy-worlds div.levels-a,
+.sheet-new-character-sheet-for-fantasy-worlds div.levels-b,
+.sheet-new-character-sheet-for-fantasy-worlds div.ability-details {
     padding: 4px;
     /* border: 1px solid rgb(104, 101, 101); */
     background-color: #e5e7e3;
@@ -502,7 +640,6 @@ input[id=ability_name] {
 
 textarea.ab-det {
     background-color: #e5e7e3;
-    scroll-behavior: smooth;
     max-height: 200px;
     max-width: 760px;
     min-height: 200px;
@@ -537,7 +674,7 @@ div.spells-title {
     justify-content: center;
     align-items: center;
 }
-button.spell-button {
+.sheet-new-character-sheet-for-fantasy-worlds button.spell-button {
     padding: 2px;
     display: flex;
     justify-content: center;
@@ -547,10 +684,8 @@ button.spell-button {
 div.spell-description {
     grid-area: spell-description;
     background-color: #e5e7e3;
-    scroll-behavior: smooth;
     max-height: 100%;
     scrollbar-width: none;
-    scroll-behavior: smooth;
     overflow-y: scroll;
     break-inside: avoid;
     padding: 4px;
@@ -563,10 +698,8 @@ div.spell-description {
 div.spells-column-1 {
     grid-area: spells-column-1;
     background-color: #e5e7e3;
-    scroll-behavior: smooth;
     max-height: 100%;
     scrollbar-width: none;
-    scroll-behavior: smooth;
     overflow-y: scroll;
     break-inside: avoid;
     max-width: 376px;
@@ -605,7 +738,6 @@ div.spellbox {
 
 textarea.spell-desc {
     background-color: #e5e7e3;
-    scroll-behavior: smooth;
     max-height: 300px;
     max-width: 368px;
     min-height: 300px;
@@ -631,7 +763,6 @@ input.text-input-spell {
 
 textarea.spell-extra {
     background-color: #e5e7e3;
-    scroll-behavior: smooth;
     max-height: 200px;
     max-width: 368px;
     min-height: 100px;
@@ -671,7 +802,6 @@ div.inventory-items {
     max-height: 100%;
     /* display: flex; */
     scrollbar-width: none;
-    scroll-behavior: smooth;
     overflow-y: scroll;
     break-inside: avoid;
     border: 1px solid rgb(104, 101, 101);
@@ -692,7 +822,6 @@ span.inv-item-name {
 
 textarea.inv-item-desc {
     background-color: #e5e7e3;
-    scroll-behavior: smooth;
     max-height: 200px;
     max-width: 760px;
     min-height: 200px;
@@ -813,7 +942,7 @@ input.text-input-big {
     max-width: 140px;
 }
 
-* {
+.sheet-new-character-sheet-for-fantasy-worlds * {
     box-sizing: border-box
 }
 
@@ -836,6 +965,8 @@ button:active {
 
 button[type=roll].rb {
     background-color: #f2f4ec;
+    background-image: none;
+    text-align: left;
     box-shadow: inset;
     /* background-color: transparent; */
     border: 1px solid rgb(104, 101, 101);
@@ -859,19 +990,19 @@ button[type=roll]:hover {
 }
 
 /* configure the tab buttons */
-.new-character-sheet-for-fantasy-worlds .sheet-basics,
-.new-character-sheet-for-fantasy-worlds .sheet-skills,
-.new-character-sheet-for-fantasy-worlds .sheet-abilities,
-.new-character-sheet-for-fantasy-worlds .sheet-spells,
-.new-character-sheet-for-fantasy-worlds .sheet-inventory {
+.sheet-new-character-sheet-for-fantasy-worlds .sheet-basics,
+.sheet-new-character-sheet-for-fantasy-worlds .sheet-skills,
+.sheet-new-character-sheet-for-fantasy-worlds .sheet-abilities,
+.sheet-new-character-sheet-for-fantasy-worlds .sheet-spells,
+.sheet-new-character-sheet-for-fantasy-worlds .sheet-inventory {
     display: none;
 }
 
-.new-character-sheet-for-fantasy-worlds .sheet-tabstoggle[value="basics"]~div.sheet-basics,
-.new-character-sheet-for-fantasy-worlds .sheet-tabstoggle[value="skills"]~div.sheet-skills,
-.new-character-sheet-for-fantasy-worlds .sheet-tabstoggle[value="abilities"]~div.sheet-abilities,
-.new-character-sheet-for-fantasy-worlds .sheet-tabstoggle[value="spells"]~div.sheet-spells,
-.new-character-sheet-for-fantasy-worlds .sheet-tabstoggle[value="inventory"]~div.sheet-inventory {
+.sheet-new-character-sheet-for-fantasy-worlds .sheet-tabstoggle[value="basics"]~div.sheet-basics,
+.sheet-new-character-sheet-for-fantasy-worlds .sheet-tabstoggle[value="skills"]~div.sheet-skills,
+.sheet-new-character-sheet-for-fantasy-worlds .sheet-tabstoggle[value="abilities"]~div.sheet-abilities,
+.sheet-new-character-sheet-for-fantasy-worlds .sheet-tabstoggle[value="spells"]~div.sheet-spells,
+.sheet-new-character-sheet-for-fantasy-worlds .sheet-tabstoggle[value="inventory"]~div.sheet-inventory {
     display: block;
 }
 
@@ -1302,3 +1433,4 @@ div.attack-detail-9 {
 .attack-toggle[value="9"]~div.attack-detail-9 {
     display: block;
 }
+

@@ -1,24 +1,113 @@
+<!-- Type 2 template -->
+<!-- Variables are:
+  - {{title}}    roll name
+  - {{name}}     character name
+  - {{x_die}}  # optional; extra d6s for SP/MP dice.
+  - {{attack}} # optional; attack roll
+    - {{thr}}  # optional in attack; if triggers a save
+    - {{dmg}}  # optional in attack; if does Damage
+  - {{roll}}   # optional; general roll
+  - {{save}}   # optional; save roll
+  - {{dsc}}    # optional; description
+-->
 <rolltemplate class="sheet-rolltemplate-main">
-    <div class="sheet-template-container">
-        <div class="sheet-template-header">
-            <span class="sheet-template-title">{{title}}</span>
-            <br>
-            <span class="sheet-template-char-name">{{name}}</span>
+    <div class="sheet-rt-container">
+        <!-- Name of roll and name of character -->
+        <div class="sheet-rt-header">
+            <div class="sheet-title">{{#attack}}⚔ {{/attack}}{{#save}}⚖
+                {{/save}}{{title}}</div>
+            <div class="sheet-char-name">{{name}}</div>
         </div>
-        <hr>
-        {{#attack}}<div class="sheet-template-roll">Attack: {{attack}}{{#sp}} + {{sp}}{{/sp}}
+        {{#roll}}<div class="sheet-rolls">
+            <!-- General roll -->
+            <div class="sheet-l1"><span class="sheet-r-nd12"><span class="sheet-t-nd12">⚖
+                    </span>{{roll}}{{#x_die}} +
+                    {{x_die}}{{/x_die}}</span></div>
+            <!-- Display Crit information for roll-->
+            {{#rollWasCrit() roll}}{{#^rollWasFumble() roll}}<div class="sheet-l2">
+                <span class="sheet-t-crit">✩ D12</span>
+                <div class="sheet-r-crit">Lucky.</div>
+            </div>{{/^rollWasFumble() roll}}{{/rollWasCrit() roll}}
+            {{#rollWasFumble() roll}}{{#^rollWasCrit() roll}}<span class="sheet-l2">
+                <span class="sheet-t-crit">⯡ D1</span>
+                <span class="sheet-r-crit">Oh no.</span>
+            </span>{{/^rollWasCrit() roll}}{{/rollWasFumble() roll}}
+        </div>{{/roll}}
+        <!-- Saving throw rolls -->
+        {{#save}}<div class="sheet-rolls">
+            <!-- Save roll -->
+            <div class="sheet-l1"><span class="sheet-r-nd12">⚖ {{save}}{{#x_die}} +
+                    {{x_die}}{{/x_die}}</span></div>
+            <!-- Display Crit information for save-->
+            {{#rollWasCrit() save}}{{#^rollWasFumble() save}}<div class="sheet-l3">
+                <span class="sheet-t-crit">✩ D12</span>
+                <div class="sheet-r-crit">{{crit_roll}}</div>
+            </div>{{/^rollWasFumble() save}}{{/rollWasCrit() save}}<!--  -->
+            {{#rollWasFumble() save}}{{#^rollWasCrit() save}}<div class="sheet-l3">
+                <span class="sheet-t-crit">⯡ D1</span>
+                <div class="sheet-r-crit">{{crit_roll}}</div>
+            </div>{{/^rollWasCrit() save}}{{/rollWasFumble() save}}
+        </div>{{/save}}
+        {{#attack}}<div class="sheet-rolls">
+            <!-- Display threshold of attack if threshold is used -->
+            {{#thr}}
+            <div class="sheet-l2"><span class="sheet-t-ord">Threshold</span><span
+                    class="sheet-r-dmg">⚔ {{thr}}</span>
+            </div>{{/thr}}
+            <!-- Attack roll -->
+            <div class="sheet-l1"><span class="sheet-r-nd12">⚔ {{attack}}{{#x_die}}
+                    + {{x_die}}{{/x_die}}</span></div>
+            <!-- Display Damage information for things that deal Damage (usually attack or threshold) -->
+            {{#dmg}}<div class="sheet-l2"><span class="sheet-t-ord">🗡 Damage</span><span
+                    class="sheet-r-dmg">{{dmg}}{{#x_die}} +
+                    {{x_die}}{{/x_die}}</span></div>{{/dmg}}
+            <!-- Display Crit information for attack-->
+            {{#rollWasCrit() attack}}{{#^rollWasFumble() attack}}<div class="sheet-l3">
+                <span class="sheet-t-crit">✩ D12</span>
+                <div class="sheet-r-crit">{{crit_roll}}</div>
+            </div>{{/^rollWasFumble() attack}}{{/rollWasCrit() attack}}<!--  -->
+            {{#rollWasFumble() attack}}{{#^rollWasCrit() attack}}<div class="sheet-l3">
+                <span class="sheet-t-crit">⯡ D1</span>
+                <div class="sheet-r-crit">{{crit_roll}}</div>
+            </div>{{/^rollWasCrit() attack}}{{/rollWasFumble() attack}}
         </div>{{/attack}}
-        {{#nd12_roll}}<div>Roll: {{nd12_roll}}{{#sp}} + {{sp}}{{/sp}}</div>{{/nd12_roll}}
-        {{#dmg}}<div>Damage: {{dmg}}{{#dmg_die}} + {{dmg_die}}{{/dmg_die}}</div>{{/dmg}}
-        {{#rollIsCrit() attack()}}<div>D12!</div>{{/rollIsCrit() attack}}
-        {{#rollIsCrit() nd12_roll()}}<div>D12!</div>{{/rollIsCrit() nd12_roll}}
-        <hr>
-        {{#dsc}}<div>{{dsc}}</div>{{/dsc}}
+        {{#dsc}}<div class="sheet-dsc">{{dsc}}</div>{{/dsc}}
     </div>
 </rolltemplate>
 
 
-<div class="new-character-sheet-for-fantasy-worlds">
+<!-- Initiative -->
+<!-- Variables are:
+  - {{name}}
+  - {{roll}}
+-->
+<rolltemplate class="sheet-rolltemplate-init">
+    <div class="sheet-rt-container">
+        <!-- Name of roll and name of character -->
+        <div class="sheet-rt-header">
+            <div class="sheet-title">♄ Initiative</div>
+            <div class="sheet-char-name">{{name}}</div>
+        </div>
+        <div class="sheet-rolls">
+            <!-- General roll -->
+            <div class="sheet-line-1">
+                <span class="sheet-r-nd12"><span class="sheet-t-nd12">♄
+                    </span>{{roll}}</span>
+            </div>
+            <!-- Display Crit information for roll-->
+            {{#rollWasCrit() roll}}{{#^rollWasFumble() roll}}<div class="sheet-l2">
+                <span class="sheet-t-crit">✩ D12</span>
+                <div class="sheet-r-crit">Lucky.</div>
+            </div>{{/^rollWasFumble() roll}}{{/rollWasCrit() roll}}
+            {{#rollWasFumble() roll}}{{#^rollWasCrit() roll}}<span class="sheet-l2">
+                <span class="sheet-t-crit">⯡ D1</span>
+                <span class="sheet-r-crit">Oh no.</span>
+            </span>{{/^rollWasCrit() roll}}{{/rollWasFumble() roll}}
+        </div>
+    </div>
+</rolltemplate>
+
+<div class="sheet-new-character-sheet-for-fantasy-worlds">
     <div class="header">
         <div class="h-name-main-table">
             <!-- The name goes here -->
@@ -79,7 +168,8 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><button type="roll" value="/r @{nd12} + @{init_total}"
+                            <th><button type="roll"
+                                    value="&amp;{template:init}{{name=@{character_name}}}{{roll=[[@{nd12} + @{init_total} &{tracker}]]}}"
                                     name="roll_init" class="rb">
                                     Init.
                                 </button></th>
@@ -96,7 +186,7 @@
                         <tr>
                             <th></th>
                             <td>Roll SP/MP die: <input type="checkbox" name="attr_sm_die"
-                                    value="+1d6"></td>
+                                    value="[[1d6]]"></td>
                         </tr>
                     </tbody>
                 </table>
@@ -215,7 +305,7 @@
                         <tr class="stat-tr">
                             <th class="stat-th">
                                 <div class="cell-h-div"><button type="roll"
-                                        value="**@{character_name} STR:**\n/r @{nd12} + (@{nd12bonus}) + @{str_bonus} @{sm_die}"
+                                        value="&amp;{template:main}{{title=STR roll}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{str_bonus})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
                                         name="roll_str" class="rb">
                                         Str
                                     </button>
@@ -233,7 +323,7 @@
                             <th class="stat-th">
                                 <div class="cell-h-div">
                                     <button type="roll"
-                                        value="**@{character_name} DEX:**\n/r @{nd12} + (@{nd12bonus}) + @{dex_bonus} @{sm_die}"
+                                        value="&amp;{template:main}{{title=DEX roll}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{dex_bonus})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
                                         name="roll_dex" class="rb">
                                         Dex
                                     </button><input class="tiny-input-big" name="attr_dex_bonus"
@@ -250,7 +340,7 @@
                             <th class="stat-th">
                                 <div class="cell-h-div">
                                     <button type="roll"
-                                        value="**@{character_name} CON:**\n/r @{nd12} + (@{nd12bonus}) + @{con_bonus} @{sm_die}"
+                                        value="&amp;{template:main}{{title=CON roll}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{con_bonus})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
                                         name="roll_con" class="rb">
                                         Con
                                     </button><input class="tiny-input-big" name="attr_con_bonus"
@@ -267,7 +357,7 @@
                             <th class="stat-th">
                                 <div class="cell-h-div">
                                     <button type="roll"
-                                        value="**@{character_name} INT:**\n/r @{nd12} + (@{nd12bonus}) + @{int_bonus} @{sm_die}"
+                                        value="&amp;{template:main}{{title=INT roll}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{int_bonus})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
                                         name="roll_int" class="rb">
                                         Int
                                     </button><input class="tiny-input-big" name="attr_int_bonus"
@@ -284,7 +374,7 @@
                             <th class="stat-th">
                                 <div class="cell-h-div">
                                     <button type="roll"
-                                        value="**@{character_name} WIS:**\n/r @{nd12} + (@{nd12bonus}) + @{wis_bonus} @{sm_die}"
+                                        value="&amp;{template:main}{{title=WIS roll}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{wis_bonus})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
                                         name="roll_wis" class="rb">
                                         Wis
                                     </button><input class="tiny-input-big" name="attr_wis_bonus"
@@ -301,7 +391,7 @@
                             <th class="stat-th">
                                 <div class="cell-h-div">
                                     <button type="roll"
-                                        value="**@{character_name} CHA:**\n/r @{nd12} + (@{nd12bonus}) + @{cha_bonus} @{sm_die}"
+                                        value="&amp;{template:main}{{title=CHA roll}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{cha_bonus})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
                                         name="roll_cha" class="rb">
                                         Cha
                                     </button><input class="tiny-input-big" name="attr_cha_bonus"
@@ -327,7 +417,7 @@
                         <tr>
                             <th>
                                 <button type="roll"
-                                    value="**@{character_name} STR save:**\n/r @{nd12} + (@{nd12bonus}) + (@{save_bonus_str}) @{sm_die}"
+                                    value="&amp;{template:main}{{title=STR save}}{{name=@{character_name}}}{{save=[[@{nd12} + (@{nd12bonus}) + (@{save_bonus_str})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
                                     name="roll_str_save" class="rb">
                                     Str
                                 </button>
@@ -344,7 +434,7 @@
                         <tr>
                             <th>
                                 <button type="roll"
-                                    value="**@{character_name} DEX save:**\n/r @{nd12} + (@{nd12bonus}) + (@{save_bonus_dex}) @{sm_die}"
+                                    value="&amp;{template:main}{{title=DEX save}}{{name=@{character_name}}}{{save=[[@{nd12} + (@{nd12bonus}) + (@{save_bonus_dex})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
                                     name="roll_dex_save" class="rb">
                                     Dex
                                 </button>
@@ -361,7 +451,7 @@
                         <tr>
                             <th>
                                 <button type="roll"
-                                    value="**@{character_name} CON save:**\n/r @{nd12} + (@{nd12bonus}) + (@{save_bonus_con}) @{sm_die}"
+                                    value="&amp;{template:main}{{title=CON save}}{{name=@{character_name}}}{{save=[[@{nd12} + (@{nd12bonus}) + (@{save_bonus_con})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
                                     name="roll_con_save" class="rb">
                                     Con
                                 </button>
@@ -378,7 +468,7 @@
                         <tr>
                             <th>
                                 <button type="roll"
-                                    value="**@{character_name} INT save:**\n/r @{nd12} + (@{nd12bonus}) + (@{save_bonus_int}) @{sm_die}"
+                                    value="&amp;{template:main}{{title=INT save}}{{name=@{character_name}}}{{save=[[@{nd12} + (@{nd12bonus}) + (@{save_bonus_int})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
                                     name="roll_int_save" class="rb">
                                     Int
                                 </button>
@@ -397,7 +487,7 @@
                         <tr>
                             <th>
                                 <button type="roll"
-                                    value="**@{character_name} WIS save:**\n/r @{nd12} + (@{nd12bonus}) + (@{save_bonus_wis}) @{sm_die}"
+                                    value="&amp;{template:main}{{title=WIS save}}{{name=@{character_name}}}{{save=[[@{nd12} + (@{nd12bonus}) + (@{save_bonus_wis})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
                                     name="roll_wis_save" class="rb">
                                     Wis
                                 </button>
@@ -414,7 +504,7 @@
                         <tr>
                             <th>
                                 <button type="roll"
-                                    value="**@{character_name} CHA save:**\n/r @{nd12} + (@{nd12bonus}) + (@{save_bonus_cha}) @{sm_die}"
+                                    value="&amp;{template:main}{{title=CHA save}}{{name=@{character_name}}}{{save=[[@{nd12} + (@{nd12bonus}) + (@{save_bonus_cha})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
                                     name="roll_cha_save" class="rb">
                                     Cha
                                 </button>
@@ -445,7 +535,7 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} STR attack:**\n/r @{nd12} + (@{nd12bonus})+@{base}+@{nat}+@{str_bonus} @{sm_die}"
+                                    value="&amp;{template:main}{{title=STR attack}}{{name=@{character_name}}}{{thr=[[@{threshold_str}]]}}{{attack=[[@{nd12} + (@{nd12bonus})+@{base}+@{nat}+(@{str_bonus})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
                                     name="roll_str_attack" class="rb">
                                     Str!
                                 </button></th>
@@ -460,7 +550,7 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} DEX attack:**\n/r @{nd12} + (@{nd12bonus})+@{base}+@{nat}+@{dex_bonus} @{sm_die}"
+                                    value="&amp;{template:main}{{title=DEX attack}}{{name=@{character_name}}}{{thr=[[@{threshold_dex}]]}}{{attack=[[@{nd12} + (@{nd12bonus})+@{base}+@{nat}+(@{dex_bonus})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
                                     name="roll_dex_attack" class="rb">
                                     Dex!
                                 </button></th>
@@ -475,7 +565,7 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} INT attack:**\n/r @{nd12} + (@{nd12bonus})+@{base}+@{sup}+(@{int_bonus}) @{sm_die}"
+                                    value="&amp;{template:main}{{title=INT attack}}{{name=@{character_name}}}{{thr=[[@{threshold_int}]]}}{{attack=[[@{nd12} + (@{nd12bonus})+@{base}+@{nat}+(@{int_bonus})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
                                     name="roll_int_attack" class="rb">
                                     Int!
                                 </button></th>
@@ -490,7 +580,7 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} WIS attack:**\n/r @{nd12} + (@{nd12bonus})+@{base}+@{sup}+(@{wis_bonus}) @{sm_die}"
+                                    value="&amp;{template:main}{{title=WIS attack}}{{name=@{character_name}}}{{thr=[[@{threshold_wis}]]}}{{attack=[[@{nd12} + (@{nd12bonus})+@{base}+@{nat}+(@{wis_bonus})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
                                     name="roll_wis_attack" class="rb">
                                     Wis!
                                 </button></th>
@@ -720,7 +810,7 @@
                             </td>
                             <!-- The roller -->
                             <td class="wr_del_1"><button type="roll"
-                                    value="&amp;{template:default}{{name=@{wr_name_1} (@{character_name}) }}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_1}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_1}+@{db_1}+@{wr_dstat_1}]]}}{{damage die=[[0 @{sm_die}]]}}"
+                                    value="&amp;{template:main}{{title=@{wr_name_1}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_1}]]}}{{dmg=[[@{wr_dam_dice_1}+@{db_1}+@{wr_dstat_1}]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_1}}}"
                                     name="roll_wp_1" class="rb">
                                     Roll!
                                 </button></td>
@@ -749,7 +839,7 @@
                             </td>
                             <!-- The roller -->
                             <td class="wr_del_2"><button type="roll"
-                                    value="&amp;{template:default}{{name=@{wr_name_2} (@{character_name}) }}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_2}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_2}+@{db_2}+@{wr_dstat_2}]]}}{{damage die=[[0 @{sm_die}]]}}"
+                                    value="&amp;{template:main}{{title=@{wr_name_2}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_2}]]}}{{dmg=[[@{wr_dam_dice_2}+@{db_2}+@{wr_dstat_2}]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_2}}}"
                                     name="roll_wp_2" class="rb">
                                     Roll!
                                 </button></td>
@@ -778,7 +868,7 @@
                             </td>
                             <!-- The roller -->
                             <td class="wr_del_3"><button type="roll"
-                                    value="&amp;{template:default}{{name=@{wr_name_3} (@{character_name}) }}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_3}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_3}+@{db_3}+@{wr_dstat_3}]]}}{{damage die=[[0 @{sm_die}]]}}"
+                                    value="&amp;{template:main}{{title=@{wr_name_3}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_3}]]}}{{dmg=[[@{wr_dam_dice_3}+@{db_3}+@{wr_dstat_3}]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_3}}}"
                                     name="roll_wp_3" class="rb">
                                     Roll!
                                 </button></td>
@@ -807,7 +897,7 @@
                             </td>
                             <!-- The roller -->
                             <td class="wr_del_4"><button type="roll"
-                                    value="&amp;{template:default}{{name=@{wr_name_4} (@{character_name}) }}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_4}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_4}+@{db_4}+@{wr_dstat_4}]]}}{{damage die=[[0 @{sm_die}]]}}"
+                                    value="&amp;{template:main}{{title=@{wr_name_4}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_4}]]}}{{dmg=[[@{wr_dam_dice_4}+@{db_4}+@{wr_dstat_4}]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_4}}}"
                                     name="roll_wp_4" class="rb">
                                     Roll!
                                 </button></td>
@@ -836,7 +926,7 @@
                             </td>
                             <!-- The roller -->
                             <td class="wr_del_5"><button type="roll"
-                                    value="&amp;{template:default}{{name=@{wr_name_5} (@{character_name}) }}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_5}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_5}+@{db_5}+@{wr_dstat_5}]]}}{{damage die=[[0 @{sm_die}]]}}"
+                                    value="&amp;{template:main}{{title=@{wr_name_5}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_5}]]}}{{dmg=[[@{wr_dam_dice_5}+@{db_5}+@{wr_dstat_5}]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_5}}}"
                                     name="roll_wp_5" class="rb">
                                     Roll!
                                 </button></td>
@@ -865,7 +955,7 @@
                             </td>
                             <!-- The roller -->
                             <td class="wr_del_6"><button type="roll"
-                                    value="&amp;{template:despellult}{{name=@{wr_name_6} (@{character_name}) }}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_6}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_6}+@{db_6}+@{wr_dstat_6}]]}}{{damage die=[[0 @{sm_die}]]}}"
+                                    value="&amp;{template:main}{{title=@{wr_name_6}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_6}]]}}{{dmg=[[@{wr_dam_dice_6}+@{db_6}+@{wr_dstat_6}]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_6}}}"
                                     name="roll_wp_6" class="rb">
                                     Roll!
                                 </button></td>
@@ -894,7 +984,7 @@
                             </td>
                             <!-- The roller -->
                             <td class="wr_del_7"><button type="roll"
-                                    value="&amp;{template:default}{{name=@{wr_name_7} (@{character_name}) }}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_7}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_7}+@{db_7}+@{wr_dstat_7}]]}}{{damage die=[[0 @{sm_die}]]}}"
+                                    value="&amp;{template:main}{{title=@{wr_name_7}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_7}]]}}{{dmg=[[@{wr_dam_dice_7}+@{db_7}+@{wr_dstat_7}]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_7}}}"
                                     name="roll_wp_7" class="rb">
                                     Roll!
                                 </button></td>
@@ -923,7 +1013,7 @@
                             </td>
                             <!-- The roller -->
                             <td class="wr_del_8"><button type="roll"
-                                    value="&amp;{template:default}{{name=@{wr_name_8} (@{character_name}) }}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_8}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_8}+@{db_8}+@{wr_dstat_8}]]}}{{damage die=[[0 @{sm_die}]]}}"
+                                    value="&amp;{template:main}{{title=@{wr_name_8}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_8}]]}}{{dmg=[[@{wr_dam_dice_8}+@{db_8}+@{wr_dstat_8}]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_8}}}"
                                     name="roll_wp_8" class="rb">
                                     Roll!
                                 </button></td>
@@ -952,7 +1042,7 @@
                             </td>
                             <!-- The roller -->
                             <td class="wr_del_9"><button type="roll"
-                                    value="&amp;{template:default}{{name=@{wr_name_9} (@{character_name}) }}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_9}]]}}{{attack die=[[0 @{sm_die}]]}}{{damage=[[@{wr_dam_dice_9}+@{db_9}+@{wr_dstat_9}]]}}{{damage die=[[0 @{sm_die}]]}}"
+                                    value="&amp;{template:main}{{title=@{wr_name_9}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_9}]]}}{{dmg=[[@{wr_dam_dice_9}+@{db_9}+@{wr_dstat_9}]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_9}}}"
                                     name="roll_wp_9" class="rb">
                                     Roll!
                                 </button></td>
@@ -1731,259 +1821,7 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} athletics:**\n/r @{nd12} + (@{nd12bonus}) + @{bonus_athletics} @{sm_die}"
-                                    name="roll_athletics" class="rb">
-                                    Athletics
-                                </button></th>
-                            <td><input name="attr_bonus_athletics" type="number"
-                                    class="tiny-input-r" disabled="true"
-                                    value="{{@{ranks_athletics}+(@{base}+1)*@{base_athletics}+@{extra_athletics}+@{str_bonus}}}"
-                                    data-formula="{{@{ranks_athletics}+(@{base}+1)*@{base_athletics}+@{extra_athletics}+@{str_bonus}}}">
-                            </td>
-                            <td><input name="attr_ranks_athletics" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                            <td><input class="tiny-checkbox" type="checkbox"
-                                    name="attr_base_athletics" value="1">
-                            </td>
-                            <td><input name="attr_extra_athletics" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                        </tr>
-                        <tr>
-                            <th><button type="roll"
-                                    value="**@{character_name} climb:**\n/r @{nd12} + (@{nd12bonus}) + @{bonus_climb} @{sm_die}"
-                                    name="roll_climb" class="rb">
-                                    Climb
-                                </button></th>
-                            <td><input name="attr_bonus_climb" type="number" class="tiny-input-r"
-                                    disabled="true"
-                                    value="{{(@{str_bonus})+@{ranks_climb}+(@{base}+1)*@{base_climb}+@{extra_climb}}}"
-                                    data-formula="{{(@{str_bonus})+@{ranks_climb}+(@{base}+1)*@{base_climb}+@{extra_climb}}}">
-                            </td>
-                            <td><input name="attr_ranks_climb" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                            <td><input class="tiny-checkbox" type="checkbox" name="attr_base_climb"
-                                    value="1">
-                            </td>
-                            <td><input name="attr_extra_climb" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                        </tr>
-                        <tr>
-                            <th><button type="roll"
-                                    value="**@{character_name} fortify:**\n/r @{nd12} + (@{nd12bonus}) + @{bonus_fortify} @{sm_die}"
-                                    name="roll_fortify" class="rb">
-                                    Fortify
-                                </button></th>
-                            <td><input name="attr_bonus_fortify" type="number" class="tiny-input-r"
-                                    disabled="true"
-                                    value="{{(@{str_bonus})+@{ranks_fortify}+(@{base}+1)*@{base_fortify}+@{extra_fortify}}}"
-                                    data-formula="{{(@{str_bonus})+@{ranks_fortify}+(@{base}+1)*@{base_fortify}+@{extra_fortify}}}">
-                            </td>
-                            <td><input name="attr_ranks_fortify" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                            <td><input class="tiny-checkbox" type="checkbox"
-                                    name="attr_base_fortify" value="1">
-                            </td>
-                            <td><input name="attr_extra_fortify" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                        </tr>
-                        <tr>
-                            <th><button type="roll"
-                                    value="**@{character_name} swim:**\n/r @{nd12} + (@{nd12bonus}) + @{bonus_swim} @{sm_die}"
-                                    name="roll_swim" class="rb">
-                                    Swim
-                                </button></th>
-                            <td><input name="attr_bonus_swim" type="number" class="tiny-input-r"
-                                    disabled="true"
-                                    value="{{(@{str_bonus})+@{ranks_swim}+(@{base}+1)*@{base_swim}+@{extra_swim}}}"
-                                    data-formula="{{(@{str_bonus})+@{ranks_swim}+(@{base}+1)*@{base_swim}+@{extra_swim}}}">
-                            </td>
-                            <td><input name="attr_ranks_swim" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                            <td><input class="tiny-checkbox" type="checkbox" name="attr_base_swim"
-                                    value="1">
-                            </td>
-                            <td><input name="attr_extra_swim" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                        </tr>
-                        <tr>
-                            <th><button type="roll"
-                                    value="**@{character_name} acrobatics:**\n/r @{nd12} + (@{nd12bonus}) + @{bonus_acrobatics} @{sm_die}"
-                                    name="roll_acrobatics" class="rb">
-                                    Acrobatics
-                                </button></th>
-                            <td><input name="attr_bonus_acrobatics" type="number"
-                                    class="tiny-input-r" disabled="true"
-                                    value="{{(@{dex_bonus})+@{ranks_acrobatics}+(@{base}+1)*@{base_acrobatics}+@{extra_acrobatics}}}"
-                                    data-formula="{{(@{dex_bonus})+@{ranks_acrobatics}+(@{base}+1)*@{base_acrobatics}+@{extra_acrobatics}}}">
-                            </td>
-                            <td><input name="attr_ranks_acrobatics" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                            <td><input class="tiny-checkbox" type="checkbox"
-                                    name="attr_base_acrobatics" value="1">
-                            </td>
-                            <td><input name="attr_extra_acrobatics" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                        </tr>
-                        <tr>
-                            <th><button type="roll"
-                                    value="**@{character_name} fly:**\n/r @{nd12} + (@{nd12bonus}) + @{bonus_fly} @{sm_die}"
-                                    name="roll_fly" class="rb">
-                                    Fly
-                                </button></th>
-                            <td><input name="attr_bonus_fly" type="number" class="tiny-input-r"
-                                    disabled="true"
-                                    value="{{(@{dex_bonus})+@{ranks_fly}+(@{base}+1)*@{base_fly}+@{extra_fly}}}"
-                                    data-formula="{{(@{dex_bonus})+@{ranks_fly}+(@{base}+1)*@{base_fly}+@{extra_fly}}}">
-                            </td>
-                            <td><input name="attr_ranks_fly" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                            <td><input class="tiny-checkbox" type="checkbox" name="attr_base_fly"
-                                    value="1">
-                            </td>
-                            <td><input name="attr_extra_fly" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                        </tr>
-                        <tr>
-                            <th><button type="roll"
-                                    value="**@{character_name} heal:**\n/r @{nd12} + (@{nd12bonus}) + @{bonus_heal} @{sm_die}"
-                                    name="roll_heal" class="rb">
-                                    Heal
-                                </button></th>
-                            <td><input name="attr_bonus_heal" type="number" class="tiny-input-r"
-                                    disabled="true"
-                                    value="{{(@{dex_bonus})+@{ranks_heal}+(@{base}+1)*@{base_heal}+@{extra_heal}}}"
-                                    data-formula="{{(@{dex_bonus})+@{ranks_heal}+(@{base}+1)*@{base_heal}+@{extra_heal}}}">
-                            </td>
-                            <td><input name="attr_ranks_heal" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                            <td><input class="tiny-checkbox" type="checkbox" name="attr_base_heal"
-                                    value="1">
-                            </td>
-                            <td><input name="attr_extra_heal" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                        </tr>
-                        <tr>
-                            <th><button type="roll"
-                                    value="**@{character_name} ride:**\n/r @{nd12} + (@{nd12bonus}) + @{bonus_ride} @{sm_die}"
-                                    name="roll_ride" class="rb">
-                                    Ride
-                                </button></th>
-                            <td><input name="attr_bonus_ride" type="number" class="tiny-input-r"
-                                    disabled="true"
-                                    value="{@{dex_bonus}+(@{ranks_ride})+(@{base}+1)*@{base_ride}+@{extra_ride}}}"
-                                    data-formula="{{@{dex_bonus}+(@{ranks_ride})+(@{base}+1)*@{base_ride}+@{extra_ride}}}">
-                            </td>
-                            <td><input name="attr_ranks_ride" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                            <td><input class="tiny-checkbox" type="checkbox" name="attr_base_ride"
-                                    value="1">
-                            </td>
-                            <td><input name="attr_extra_ride" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                        </tr>
-                        <tr>
-                            <th><button type="roll"
-                                    value="**@{character_name} sleight of hand:**\n/r @{nd12} + (@{nd12bonus}) + @{bonus_sleight} @{sm_die}"
-                                    name="roll_sleight" class="rb">
-                                    Sleight of Hand
-                                </button></th>
-                            <td><input name="attr_bonus_sleight" type="number" class="tiny-input-r"
-                                    disabled="true"
-                                    value="{{(@{dex_bonus})+@{ranks_sleight}+(@{base}+1)*@{base_sleight}+@{extra_sleight}}}"
-                                    data-formula="{{(@{dex_bonus})+@{ranks_sleight}+(@{base}+1)*@{base_sleight}+@{extra_sleight}}}">
-                            </td>
-                            <td><input name="attr_ranks_sleight" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                            <td><input class="tiny-checkbox" type="checkbox"
-                                    name="attr_base_sleight" value="1">
-                            </td>
-                            <td><input name="attr_extra_sleight" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                        </tr>
-                        <tr>
-                            <th><button type="roll"
-                                    value="**@{character_name} stealth:**\n/r @{nd12} + (@{nd12bonus}) + @{bonus_stealth} @{sm_die}"
-                                    name="roll_stealth" class="rb">
-                                    Stealth
-                                </button></th>
-                            <td><input name="attr_bonus_stealth" type="number" class="tiny-input-r"
-                                    disabled="true"
-                                    value="{{(@{dex_bonus})+@{ranks_stealth}+(@{base}+1)*@{base_stealth}+@{extra_stealth}}}"
-                                    data-formula="{{(@{dex_bonus})+@{ranks_stealth}+(@{base}+1)*@{base_stealth}+@{extra_stealth}}}">
-                            </td>
-                            <td><input name="attr_ranks_stealth" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                            <td><input class="tiny-checkbox" type="checkbox"
-                                    name="attr_base_stealth" value="1">
-                            </td>
-                            <td><input name="attr_extra_stealth" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                        </tr>
-                        <tr>
-                            <th><button type="roll"
-                                    value="**@{character_name} tinker:**\n/r @{nd12} + (@{nd12bonus}) + @{bonus_tinker} @{sm_die}"
-                                    name="roll_tinker" class="rb">
-                                    Tinker
-                                </button></th>
-                            <td><input name="attr_bonus_tinker" type="number" class="tiny-input-r"
-                                    disabled="true"
-                                    value="{{(@{dex_bonus})+@{ranks_tinker}+(@{base}+1)*@{base_tinker}+@{extra_tinker}}}"
-                                    data-formula="{{(@{dex_bonus})+@{ranks_tinker}+(@{base}+1)*@{base_tinker}+@{extra_tinker}}}">
-                            </td>
-                            <td><input name="attr_ranks_tinker" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                            <td><input class="tiny-checkbox" type="checkbox" name="attr_base_tinker"
-                                    value="1">
-                            </td>
-                            <td><input name="attr_extra_tinker" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                        </tr>
-                        <tr>
-                            <th><button type="roll"
-                                    value="**@{character_name} harvest:**\n/r @{nd12} + (@{nd12bonus}) + @{bonus_harvest} @{sm_die}"
-                                    name="roll_harvest" class="rb">
-                                    Harvest
-                                </button></th>
-                            <td><input name="attr_bonus_harvest" type="number" class="tiny-input-r"
-                                    disabled="true"
-                                    value="{{(@{con_bonus})+@{ranks_harvest}+(@{base}+1)*@{base_harvest}+@{extra_harvest}}}"
-                                    data-formula="{{(@{con_bonus})+@{ranks_harvest}+(@{base}+1)*@{base_harvest}+@{extra_harvest}}}">
-                            </td>
-                            <td><input name="attr_ranks_harvest" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                            <td><input class="tiny-checkbox" type="checkbox"
-                                    name="attr_base_harvest" value="1">
-                            </td>
-                            <td><input name="attr_extra_harvest" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                        </tr>
-                        <tr>
-                            <th><button type="roll"
-                                    value="**@{character_name} academics:**\n/r @{nd12} + (@{nd12bonus}) + @{bonus_academics} @{sm_die}"
+                                    value="&amp;{template:main}{{title=Academics}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_academics})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
                                     name="roll_academics" class="rb">
                                     Academics
                                 </button></th>
@@ -2004,7 +1842,28 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} appraise:**\n/r @{nd12} + (@{nd12bonus}) + @{bonus_appraise} @{sm_die}"
+                                    value="&amp;{template:main}{{title=Acrobatics}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_acrobatics})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                    name="roll_acrobatics" class="rb">
+                                    Acrobatics
+                                </button></th>
+                            <td><input name="attr_bonus_acrobatics" type="number"
+                                    class="tiny-input-r" disabled="true"
+                                    value="{{(@{dex_bonus})+@{ranks_acrobatics}+(@{base}+1)*@{base_acrobatics}+@{extra_acrobatics}}}"
+                                    data-formula="{{(@{dex_bonus})+@{ranks_acrobatics}+(@{base}+1)*@{base_acrobatics}+@{extra_acrobatics}}}">
+                            </td>
+                            <td><input name="attr_ranks_acrobatics" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                            <td><input class="tiny-checkbox" type="checkbox"
+                                    name="attr_base_acrobatics" value="1">
+                            </td>
+                            <td><input name="attr_extra_acrobatics" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><button type="roll"
+                                    value="&amp;{template:main}{{title=Appraise}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_appraise})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
                                     name="roll_appraise" class="rb">
                                     Appraise
                                 </button></th>
@@ -2025,259 +1884,49 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} navigate:**\n/r @{nd12} + (@{nd12bonus}) + @{bonus_navigate} @{sm_die}"
-                                    name="roll_navigate" class="rb">
-                                    Navigate
+                                    value="&amp;{template:main}{{title=Athletics}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_athletics})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                    name="roll_athletics" class="rb">
+                                    Athletics
                                 </button></th>
-                            <td><input name="attr_bonus_navigate" type="number" class="tiny-input-r"
-                                    disabled="true"
-                                    value="{{(@{int_bonus})+@{ranks_navigate}+(@{base}+1)*@{base_navigate}+@{extra_navigate}}}"
-                                    data-formula="{{(@{int_bonus})+@{ranks_navigate}+(@{base}+1)*@{base_navigate}+@{extra_navigate}}}">
-                            </td>
-                            <td><input name="attr_ranks_navigate" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                            <td><input class="tiny-checkbox" type="checkbox"
-                                    name="attr_base_navigate" value="1">
-                            </td>
-                            <td><input name="attr_extra_navigate" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                        </tr>
-                        <tr>
-                            <th><button type="roll"
-                                    value="**@{character_name} prospect:**\n/r @{nd12} + (@{nd12bonus}) + @{bonus_prospect} @{sm_die}"
-                                    name="roll_prospect" class="rb">
-                                    Prospect
-                                </button></th>
-                            <td><input name="attr_bonus_prospect" type="number" class="tiny-input-r"
-                                    disabled="true"
-                                    value="{{(@{int_bonus})+@{ranks_prospect}+(@{base}+1)*@{base_prospect}+@{extra_prospect}}}"
-                                    data-formula="{{(@{int_bonus})+@{ranks_prospect}+(@{base}+1)*@{base_prospect}+@{extra_prospect}}}">
-                            </td>
-                            <td><input name="attr_ranks_prospect" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                            <td><input class="tiny-checkbox" type="checkbox"
-                                    name="attr_base_prospect" value="1">
-                            </td>
-                            <td><input name="attr_extra_prospect" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                        </tr>
-                        <tr>
-                            <th><button type="roll"
-                                    value="**@{character_name} knowledge: arcana:**\n/r @{nd12} + (@{nd12bonus}) + @{bonus_karcana} @{sm_die}"
-                                    name="roll_karcana" class="rb">
-                                    Know: Arcana
-                                </button></th>
-                            <td><input name="attr_bonus_karcana" type="number" class="tiny-input-r"
-                                    disabled="true"
-                                    value="{{(@{int_bonus})+@{ranks_karcana}+(@{base}+1)*@{base_karcana}+@{extra_karcana}}}"
-                                    data-formula="{{(@{int_bonus})+@{ranks_karcana}+(@{base}+1)*@{base_karcana}+@{extra_karcana}}}">
-                            </td>
-                            <td><input name="attr_ranks_karcana" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                            <td><input class="tiny-checkbox" type="checkbox"
-                                    name="attr_base_karcana" value="1">
-                            </td>
-                            <td><input name="attr_extra_karcana" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                        </tr>
-                        <tr>
-                            <th><button type="roll"
-                                    value="**@{character_name} knowledge: geography:**\n/r @{nd12} + (@{nd12bonus}) + @{bonus_kgeography} @{sm_die}"
-                                    name="roll_kgeography" class="rb">
-                                    Know: Geography
-                                </button></th>
-                            <td><input name="attr_bonus_kgeography" type="number"
+                            <td><input name="attr_bonus_athletics" type="number"
                                     class="tiny-input-r" disabled="true"
-                                    value="{{(@{int_bonus})+@{ranks_kgeography}+(@{base}+1)*@{base_kgeography}+@{extra_kgeography}}}"
-                                    data-formula="{{(@{int_bonus})+@{ranks_kgeography}+(@{base}+1)*@{base_kgeography}+@{extra_kgeography}}}">
+                                    value="{{@{ranks_athletics}+(@{base}+1)*@{base_athletics}+@{extra_athletics}+@{str_bonus}}}"
+                                    data-formula="{{@{ranks_athletics}+(@{base}+1)*@{base_athletics}+@{extra_athletics}+@{str_bonus}}}">
                             </td>
-                            <td><input name="attr_ranks_kgeography" type="number" value="0"
+                            <td><input name="attr_ranks_athletics" type="number" value="0"
                                     class="tiny-input-r">
                             </td>
                             <td><input class="tiny-checkbox" type="checkbox"
-                                    name="attr_base_kgeography" value="1">
+                                    name="attr_base_athletics" value="1">
                             </td>
-                            <td><input name="attr_extra_kgeography" type="number" value="0"
+                            <td><input name="attr_extra_athletics" type="number" value="0"
                                     class="tiny-input-r">
                             </td>
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} knowledge: nature:**\n/r @{nd12} + (@{nd12bonus}) + @{bonus_knature} @{sm_die}"
-                                    name="roll_knature" class="rb">
-                                    Know: Nature
+                                    value="&amp;{template:main}{{title=Climb}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_climb})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                    name="roll_climb" class="rb">
+                                    Climb
                                 </button></th>
-                            <td><input name="attr_bonus_knature" type="number" class="tiny-input-r"
+                            <td><input name="attr_bonus_climb" type="number" class="tiny-input-r"
                                     disabled="true"
-                                    value="{{(@{int_bonus})+@{ranks_knature}+(@{base}+1)*@{base_knature}+@{extra_knature}}}"
-                                    data-formula="{{(@{int_bonus})+@{ranks_knature}+(@{base}+1)*@{base_knature}+@{extra_knature}}}">
+                                    value="{{(@{str_bonus})+@{ranks_climb}+(@{base}+1)*@{base_climb}+@{extra_climb}}}"
+                                    data-formula="{{(@{str_bonus})+@{ranks_climb}+(@{base}+1)*@{base_climb}+@{extra_climb}}}">
                             </td>
-                            <td><input name="attr_ranks_knature" type="number" value="0"
+                            <td><input name="attr_ranks_climb" type="number" value="0"
                                     class="tiny-input-r">
                             </td>
-                            <td><input class="tiny-checkbox" type="checkbox"
-                                    name="attr_base_knature" value="1">
-                            </td>
-                            <td><input name="attr_extra_knature" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                        </tr>
-                        <tr>
-                            <th><button type="roll"
-                                    value="**@{character_name} knowledge: dungeoneering:**\n/r @{nd12} + (@{nd12bonus}) + @{bonus_kdungon} @{sm_die}"
-                                    name="roll_kdungon" class="rb">
-                                    Know: Dungeoneering
-                                </button></th>
-                            <td><input name="attr_bonus_kdungon" type="number" class="tiny-input-r"
-                                    disabled="true"
-                                    value="{{(@{int_bonus})+@{ranks_kdungon}+(@{base}+1)*@{base_kdungon}+@{extra_kdungon}}}"
-                                    data-formula="{{(@{int_bonus})+@{ranks_kdungon}+(@{base}+1)*@{base_kdungon}+@{extra_kdungon}}}">
-                            </td>
-                            <td><input name="attr_ranks_kdungon" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                            <td><input class="tiny-checkbox" type="checkbox"
-                                    name="attr_base_kdungon" value="1">
-                            </td>
-                            <td><input name="attr_extra_kdungon" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                        </tr>
-                        <tr>
-                            <th><button type="roll"
-                                    value="**@{character_name} knowledge: history:**\n/r @{nd12} + (@{nd12bonus}) + @{bonus_khistory} @{sm_die}"
-                                    name="roll_khistory" class="rb">
-                                    Know: History
-                                </button></th>
-                            <td><input name="attr_bonus_khistory" type="number" class="tiny-input-r"
-                                    disabled="true"
-                                    value="{{(@{int_bonus})+@{ranks_khistory}+(@{base}+1)*@{base_khistory}+@{extra_khistory}}}"
-                                    data-formula="{{(@{int_bonus})+@{ranks_khistory}+(@{base}+1)*@{base_khistory}+@{extra_khistory}}}">
-                            </td>
-                            <td><input name="attr_ranks_khistory" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                            <td><input class="tiny-checkbox" type="checkbox"
-                                    name="attr_base_khistory" value="1">
-                            </td>
-                            <td><input name="attr_extra_khistory" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                        </tr>
-                        <tr>
-                            <th><button type="roll"
-                                    value="**@{character_name} knowledge: religion:**\n/r @{nd12} + (@{nd12bonus}) + @{bonus_kreligion} @{sm_die}"
-                                    name="roll_kreligion" class="rb">
-                                    Know: Religion
-                                </button></th>
-                            <td><input name="attr_bonus_kreligion" type="number"
-                                    class="tiny-input-r" disabled="true"
-                                    value="{{(@{int_bonus})+@{ranks_kreligion}+(@{base}+1)*@{base_kreligion}+@{extra_kreligion}}}"
-                                    data-formula="{{(@{int_bonus})+@{ranks_kreligion}+(@{base}+1)*@{base_kreligion}+@{extra_kreligion}}}">
-                            </td>
-                            <td><input name="attr_ranks_kreligion" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                            <td><input class="tiny-checkbox" type="checkbox"
-                                    name="attr_base_kreligion" value="1">
-                            </td>
-                            <td><input name="attr_extra_kreligion" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                        </tr>
-                        <tr>
-                            <th><button type="roll"
-                                    value="**@{character_name} observe:**\n/r @{nd12} + (@{nd12bonus}) + @{bonus_observe} @{sm_die}"
-                                    name="roll_observe" class="rb">
-                                    Observe
-                                </button></th>
-                            <td><input name="attr_bonus_observe" type="number" class="tiny-input-r"
-                                    disabled="true"
-                                    value="{{(@{wis_bonus})+@{ranks_observe}+(@{base}+1)*@{base_observe}+@{extra_observe}}}"
-                                    data-formula="{{(@{wis_bonus})+@{ranks_observe}+(@{base}+1)*@{base_observe}+@{extra_observe}}}">
-                            </td>
-                            <td><input name="attr_ranks_observe" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                            <td><input class="tiny-checkbox" type="checkbox"
-                                    name="attr_base_observe" value="1">
-                            </td>
-                            <td><input name="attr_extra_observe" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                        </tr>
-                        <tr>
-                            <th><button type="roll"
-                                    value="**@{character_name} sense motive:**\n/r @{nd12} + (@{nd12bonus}) + @{bonus_smotive} @{sm_die}"
-                                    name="roll_smotive" class="rb">
-                                    Sense Motive
-                                </button></th>
-                            <td><input name="attr_bonus_smotive" type="number" class="tiny-input-r"
-                                    disabled="true"
-                                    value="{{(@{wis_bonus})+@{ranks_smotive}+(@{base}+1)*@{base_smotive}+@{extra_smotive}}}"
-                                    data-formula="{{(@{wis_bonus})+@{ranks_smotive}+(@{base}+1)*@{base_smotive}+@{extra_smotive}}}">
-                            </td>
-                            <td><input name="attr_ranks_smotive" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                            <td><input class="tiny-checkbox" type="checkbox"
-                                    name="attr_base_smotive" value="1">
-                            </td>
-                            <td><input name="attr_extra_smotive" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                        </tr>
-                        <tr>
-                            <th><button type="roll"
-                                    value="**@{character_name} track:**\n/r @{nd12} + (@{nd12bonus}) + @{bonus_track} @{sm_die}"
-                                    name="roll_track" class="rb">
-                                    Track
-                                </button></th>
-                            <td><input name="attr_bonus_track" type="number" class="tiny-input-r"
-                                    disabled="true"
-                                    value="{{(@{wis_bonus})+@{ranks_track}+(@{base}+1)*@{base_track}+@{extra_track}}}"
-                                    data-formula="{{(@{wis_bonus})+@{ranks_track}+(@{base}+1)*@{base_track}+@{extra_track}}}">
-                            </td>
-                            <td><input name="attr_ranks_track" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                            <td><input class="tiny-checkbox" type="checkbox" name="attr_base_track"
+                            <td><input class="tiny-checkbox" type="checkbox" name="attr_base_climb"
                                     value="1">
                             </td>
-                            <td><input name="attr_extra_track" type="number" value="0"
+                            <td><input name="attr_extra_climb" type="number" value="0"
                                     class="tiny-input-r">
                             </td>
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} spellworking:**\n/r @{nd12} + (@{nd12bonus}) + @{bonus_spellworking} @{sm_die}"
-                                    name="roll_spellworking" class="rb">
-                                    Spellworking
-                                </button></th>
-                            <td><input name="attr_bonus_spellworking" type="number"
-                                    class="tiny-input-r" disabled="true"
-                                    value="{{(@{wis_bonus})+@{ranks_spellworking}+(@{base}+1)*@{base_spellworking}+@{extra_spellworking}}}"
-                                    data-formula="{{(@{wis_bonus})+@{ranks_spellworking}+(@{base}+1)*@{base_spellworking}+@{extra_spellworking}}}">
-                            </td>
-                            <td><input name="attr_ranks_spellworking" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                            <td><input class="tiny-checkbox" type="checkbox"
-                                    name="attr_base_spellworking" value="1">
-                            </td>
-                            <td><input name="attr_extra_spellworking" type="number" value="0"
-                                    class="tiny-input-r">
-                            </td>
-                        </tr>
-                        <tr>
-                            <th><button type="roll"
-                                    value="**@{character_name} deceive:**\n/r @{nd12} + (@{nd12bonus}) + @{bonus_handle} @{sm_die}"
+                                    value="&amp;{template:main}{{title=Creature Handling}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_handle})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
                                     name="roll_handle" class="rb">
                                     Creature Handling
                                 </button></th>
@@ -2298,7 +1947,7 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} deceive:**\n/r @{nd12} + (@{nd12bonus}) + @{bonus_deceive} @{sm_die}"
+                                    value="&amp;{template:main}{{title=Deceive}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_deceive})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
                                     name="roll_deceive" class="rb">
                                     Deceive
                                 </button></th>
@@ -2319,7 +1968,7 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} diplomacy:**\n/r @{nd12} + (@{nd12bonus}) + @{bonus_diplomacy} @{sm_die}"
+                                    value="&amp;{template:main}{{title=Diplomacy}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_diplomacy})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
                                     name="roll_diplomacy" class="rb">
                                     Diplomacy
                                 </button></th>
@@ -2340,7 +1989,91 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} intimidate:**\n/r @{nd12} + (@{nd12bonus}) + @{bonus_intimidate} @{sm_die}"
+                                    value="&amp;{template:main}{{title=Fortify}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_fortify})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                    name="roll_fortify" class="rb">
+                                    Fortify
+                                </button></th>
+                            <td><input name="attr_bonus_fortify" type="number" class="tiny-input-r"
+                                    disabled="true"
+                                    value="{{(@{str_bonus})+@{ranks_fortify}+(@{base}+1)*@{base_fortify}+@{extra_fortify}}}"
+                                    data-formula="{{(@{str_bonus})+@{ranks_fortify}+(@{base}+1)*@{base_fortify}+@{extra_fortify}}}">
+                            </td>
+                            <td><input name="attr_ranks_fortify" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                            <td><input class="tiny-checkbox" type="checkbox"
+                                    name="attr_base_fortify" value="1">
+                            </td>
+                            <td><input name="attr_extra_fortify" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><button type="roll"
+                                    value="&amp;{template:main}{{title=Fly}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_fly})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                    name="roll_fly" class="rb">
+                                    Fly
+                                </button></th>
+                            <td><input name="attr_bonus_fly" type="number" class="tiny-input-r"
+                                    disabled="true"
+                                    value="{{(@{dex_bonus})+@{ranks_fly}+(@{base}+1)*@{base_fly}+@{extra_fly}}}"
+                                    data-formula="{{(@{dex_bonus})+@{ranks_fly}+(@{base}+1)*@{base_fly}+@{extra_fly}}}">
+                            </td>
+                            <td><input name="attr_ranks_fly" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                            <td><input class="tiny-checkbox" type="checkbox" name="attr_base_fly"
+                                    value="1">
+                            </td>
+                            <td><input name="attr_extra_fly" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><button type="roll"
+                                    value="&amp;{template:main}{{title=Harvest}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_harvest})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                    name="roll_harvest" class="rb">
+                                    Harvest
+                                </button></th>
+                            <td><input name="attr_bonus_harvest" type="number" class="tiny-input-r"
+                                    disabled="true"
+                                    value="{{(@{con_bonus})+@{ranks_harvest}+(@{base}+1)*@{base_harvest}+@{extra_harvest}}}"
+                                    data-formula="{{(@{con_bonus})+@{ranks_harvest}+(@{base}+1)*@{base_harvest}+@{extra_harvest}}}">
+                            </td>
+                            <td><input name="attr_ranks_harvest" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                            <td><input class="tiny-checkbox" type="checkbox"
+                                    name="attr_base_harvest" value="1">
+                            </td>
+                            <td><input name="attr_extra_harvest" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><button type="roll"
+                                    value="&amp;{template:main}{{title=Heal}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_heal})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                    name="roll_heal" class="rb">
+                                    Heal
+                                </button></th>
+                            <td><input name="attr_bonus_heal" type="number" class="tiny-input-r"
+                                    disabled="true"
+                                    value="{{(@{dex_bonus})+@{ranks_heal}+(@{base}+1)*@{base_heal}+@{extra_heal}}}"
+                                    data-formula="{{(@{dex_bonus})+@{ranks_heal}+(@{base}+1)*@{base_heal}+@{extra_heal}}}">
+                            </td>
+                            <td><input name="attr_ranks_heal" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                            <td><input class="tiny-checkbox" type="checkbox" name="attr_base_heal"
+                                    value="1">
+                            </td>
+                            <td><input name="attr_extra_heal" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><button type="roll"
+                                    value="&amp;{template:main}{{title=Intimidate}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_intimidate})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
                                     name="roll_intimidate" class="rb">
                                     Intimidate
                                 </button></th>
@@ -2360,9 +2093,177 @@
                             </td>
                         </tr>
                         <tr>
+                            <th><button type="roll"
+                                    value="&amp;{template:main}{{title=Knowledge: Arcana}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_karcana})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                    name="roll_karcana" class="rb">
+                                    Know: Arcana
+                                </button></th>
+                            <td><input name="attr_bonus_karcana" type="number" class="tiny-input-r"
+                                    disabled="true"
+                                    value="{{(@{int_bonus})+@{ranks_karcana}+(@{base}+1)*@{base_karcana}+@{extra_karcana}}}"
+                                    data-formula="{{(@{int_bonus})+@{ranks_karcana}+(@{base}+1)*@{base_karcana}+@{extra_karcana}}}">
+                            </td>
+                            <td><input name="attr_ranks_karcana" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                            <td><input class="tiny-checkbox" type="checkbox"
+                                    name="attr_base_karcana" value="1">
+                            </td>
+                            <td><input name="attr_extra_karcana" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><button type="roll"
+                                    value="&amp;{template:main}{{title=Knowledge: Dungeoneering}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_kdungon})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                    name="roll_kdungon" class="rb">
+                                    Know: Dungeoneering
+                                </button></th>
+                            <td><input name="attr_bonus_kdungon" type="number" class="tiny-input-r"
+                                    disabled="true"
+                                    value="{{(@{int_bonus})+@{ranks_kdungon}+(@{base}+1)*@{base_kdungon}+@{extra_kdungon}}}"
+                                    data-formula="{{(@{int_bonus})+@{ranks_kdungon}+(@{base}+1)*@{base_kdungon}+@{extra_kdungon}}}">
+                            </td>
+                            <td><input name="attr_ranks_kdungon" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                            <td><input class="tiny-checkbox" type="checkbox"
+                                    name="attr_base_kdungon" value="1">
+                            </td>
+                            <td><input name="attr_extra_kdungon" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><button type="roll"
+                                    value="&amp;{template:main}{{title=Knowledge: Geography}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_kgeography})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                    name="roll_kgeography" class="rb">
+                                    Know: Geography
+                                </button></th>
+                            <td><input name="attr_bonus_kgeography" type="number"
+                                    class="tiny-input-r" disabled="true"
+                                    value="{{(@{int_bonus})+@{ranks_kgeography}+(@{base}+1)*@{base_kgeography}+@{extra_kgeography}}}"
+                                    data-formula="{{(@{int_bonus})+@{ranks_kgeography}+(@{base}+1)*@{base_kgeography}+@{extra_kgeography}}}">
+                            </td>
+                            <td><input name="attr_ranks_kgeography" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                            <td><input class="tiny-checkbox" type="checkbox"
+                                    name="attr_base_kgeography" value="1">
+                            </td>
+                            <td><input name="attr_extra_kgeography" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><button type="roll"
+                                    value="&amp;{template:main}{{title=Knowledge: History}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_khistory})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                    name="roll_khistory" class="rb">
+                                    Know: History
+                                </button></th>
+                            <td><input name="attr_bonus_khistory" type="number" class="tiny-input-r"
+                                    disabled="true"
+                                    value="{{(@{int_bonus})+@{ranks_khistory}+(@{base}+1)*@{base_khistory}+@{extra_khistory}}}"
+                                    data-formula="{{(@{int_bonus})+@{ranks_khistory}+(@{base}+1)*@{base_khistory}+@{extra_khistory}}}">
+                            </td>
+                            <td><input name="attr_ranks_khistory" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                            <td><input class="tiny-checkbox" type="checkbox"
+                                    name="attr_base_khistory" value="1">
+                            </td>
+                            <td><input name="attr_extra_khistory" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><button type="roll"
+                                    value="&amp;{template:main}{{title=Knowledge: Nature}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_knature})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                    name="roll_knature" class="rb">
+                                    Know: Nature
+                                </button></th>
+                            <td><input name="attr_bonus_knature" type="number" class="tiny-input-r"
+                                    disabled="true"
+                                    value="{{(@{int_bonus})+@{ranks_knature}+(@{base}+1)*@{base_knature}+@{extra_knature}}}"
+                                    data-formula="{{(@{int_bonus})+@{ranks_knature}+(@{base}+1)*@{base_knature}+@{extra_knature}}}">
+                            </td>
+                            <td><input name="attr_ranks_knature" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                            <td><input class="tiny-checkbox" type="checkbox"
+                                    name="attr_base_knature" value="1">
+                            </td>
+                            <td><input name="attr_extra_knature" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><button type="roll"
+                                    value="&amp;{template:main}{{title=Knowledge: Religion}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_kreligion})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                    name="roll_kreligion" class="rb">
+                                    Know: Religion
+                                </button></th>
+                            <td><input name="attr_bonus_kreligion" type="number"
+                                    class="tiny-input-r" disabled="true"
+                                    value="{{(@{int_bonus})+@{ranks_kreligion}+(@{base}+1)*@{base_kreligion}+@{extra_kreligion}}}"
+                                    data-formula="{{(@{int_bonus})+@{ranks_kreligion}+(@{base}+1)*@{base_kreligion}+@{extra_kreligion}}}">
+                            </td>
+                            <td><input name="attr_ranks_kreligion" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                            <td><input class="tiny-checkbox" type="checkbox"
+                                    name="attr_base_kreligion" value="1">
+                            </td>
+                            <td><input name="attr_extra_kreligion" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><button type="roll"
+                                    value="&amp;{template:main}{{title=Navigate}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_navigate})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                    name="roll_navigate" class="rb">
+                                    Navigate
+                                </button></th>
+                            <td><input name="attr_bonus_navigate" type="number" class="tiny-input-r"
+                                    disabled="true"
+                                    value="{{(@{int_bonus})+@{ranks_navigate}+(@{base}+1)*@{base_navigate}+@{extra_navigate}}}"
+                                    data-formula="{{(@{int_bonus})+@{ranks_navigate}+(@{base}+1)*@{base_navigate}+@{extra_navigate}}}">
+                            </td>
+                            <td><input name="attr_ranks_navigate" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                            <td><input class="tiny-checkbox" type="checkbox"
+                                    name="attr_base_navigate" value="1">
+                            </td>
+                            <td><input name="attr_extra_navigate" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><button type="roll"
+                                    value="&amp;{template:main}{{title=Observe}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_observe})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                    name="roll_observe" class="rb">
+                                    Observe
+                                </button></th>
+                            <td><input name="attr_bonus_observe" type="number" class="tiny-input-r"
+                                    disabled="true"
+                                    value="{{(@{wis_bonus})+@{ranks_observe}+(@{base}+1)*@{base_observe}+@{extra_observe}}}"
+                                    data-formula="{{(@{wis_bonus})+@{ranks_observe}+(@{base}+1)*@{base_observe}+@{extra_observe}}}">
+                            </td>
+                            <td><input name="attr_ranks_observe" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                            <td><input class="tiny-checkbox" type="checkbox"
+                                    name="attr_base_observe" value="1">
+                            </td>
+                            <td><input name="attr_extra_observe" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                        </tr>
+                        <tr>
                             <th>
                                 <button type="roll"
-                                    value="**@{character_name} perform:**\n/r @{nd12} + (@{nd12bonus}) + @{bonus_perform} @{sm_die}"
+                                    value="&amp;{template:main}{{title=Perform}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_perform})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
                                     name="roll_perform" class="rb">
                                     Perform
                                 </button>
@@ -2384,7 +2285,7 @@
                         </tr>
                         <tr>
                             <th><button type="roll"
-                                    value="**@{character_name} persuade:**\n/r @{nd12} + (@{nd12bonus}) + @{bonus_persuade} @{sm_die}"
+                                    value="&amp;{template:main}{{title=Persuade}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_persuade})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
                                     name="roll_persuade" class="rb">
                                     Persuade
                                 </button></th>
@@ -2400,6 +2301,195 @@
                                     name="attr_base_persuade" value="1">
                             </td>
                             <td><input name="attr_extra_persuade" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><button type="roll"
+                                    value="&amp;{template:main}{{title=Prospect}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_prospect})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                    name="roll_prospect" class="rb">
+                                    Prospect
+                                </button></th>
+                            <td><input name="attr_bonus_prospect" type="number" class="tiny-input-r"
+                                    disabled="true"
+                                    value="{{(@{int_bonus})+@{ranks_prospect}+(@{base}+1)*@{base_prospect}+@{extra_prospect}}}"
+                                    data-formula="{{(@{int_bonus})+@{ranks_prospect}+(@{base}+1)*@{base_prospect}+@{extra_prospect}}}">
+                            </td>
+                            <td><input name="attr_ranks_prospect" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                            <td><input class="tiny-checkbox" type="checkbox"
+                                    name="attr_base_prospect" value="1">
+                            </td>
+                            <td><input name="attr_extra_prospect" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><button type="roll"
+                                    value="&amp;{template:main}{{title=Ride}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_ride})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                    name="roll_ride" class="rb">
+                                    Ride
+                                </button></th>
+                            <td><input name="attr_bonus_ride" type="number" class="tiny-input-r"
+                                    disabled="true"
+                                    value="{@{dex_bonus}+(@{ranks_ride})+(@{base}+1)*@{base_ride}+@{extra_ride}}"
+                                    data-formula="{{@{dex_bonus}+(@{ranks_ride})+(@{base}+1)*@{base_ride}+@{extra_ride}}}">
+                            </td>
+                            <td><input name="attr_ranks_ride" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                            <td><input class="tiny-checkbox" type="checkbox" name="attr_base_ride"
+                                    value="1">
+                            </td>
+                            <td><input name="attr_extra_ride" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><button type="roll"
+                                    value="&amp;{template:main}{{title=Sense Motive}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_smotive})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                    name="roll_smotive" class="rb">
+                                    Sense Motive
+                                </button></th>
+                            <td><input name="attr_bonus_smotive" type="number" class="tiny-input-r"
+                                    disabled="true"
+                                    value="{{(@{wis_bonus})+@{ranks_smotive}+(@{base}+1)*@{base_smotive}+@{extra_smotive}}}"
+                                    data-formula="{{(@{wis_bonus})+@{ranks_smotive}+(@{base}+1)*@{base_smotive}+@{extra_smotive}}}">
+                            </td>
+                            <td><input name="attr_ranks_smotive" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                            <td><input class="tiny-checkbox" type="checkbox"
+                                    name="attr_base_smotive" value="1">
+                            </td>
+                            <td><input name="attr_extra_smotive" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><button type="roll"
+                                    value="&amp;{template:main}{{title=Sleight of Hand}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_sleight})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                    name="roll_sleight" class="rb">
+                                    Sleight of Hand
+                                </button></th>
+                            <td><input name="attr_bonus_sleight" type="number" class="tiny-input-r"
+                                    disabled="true"
+                                    value="{{(@{dex_bonus})+@{ranks_sleight}+(@{base}+1)*@{base_sleight}+@{extra_sleight}}}"
+                                    data-formula="{{(@{dex_bonus})+@{ranks_sleight}+(@{base}+1)*@{base_sleight}+@{extra_sleight}}}">
+                            </td>
+                            <td><input name="attr_ranks_sleight" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                            <td><input class="tiny-checkbox" type="checkbox"
+                                    name="attr_base_sleight" value="1">
+                            </td>
+                            <td><input name="attr_extra_sleight" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><button type="roll"
+                                    value="&amp;{template:main}{{title=Spellworking}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_spellworking})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                    name="roll_spellworking" class="rb">
+                                    Spellworking
+                                </button></th>
+                            <td><input name="attr_bonus_spellworking" type="number"
+                                    class="tiny-input-r" disabled="true"
+                                    value="{{(@{wis_bonus})+@{ranks_spellworking}+(@{base}+1)*@{base_spellworking}+@{extra_spellworking}}}"
+                                    data-formula="{{(@{wis_bonus})+@{ranks_spellworking}+(@{base}+1)*@{base_spellworking}+@{extra_spellworking}}}">
+                            </td>
+                            <td><input name="attr_ranks_spellworking" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                            <td><input class="tiny-checkbox" type="checkbox"
+                                    name="attr_base_spellworking" value="1">
+                            </td>
+                            <td><input name="attr_extra_spellworking" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><button type="roll"
+                                    value="&amp;{template:main}{{title=Stealth}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_stealth})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                    name="roll_stealth" class="rb">
+                                    Stealth
+                                </button></th>
+                            <td><input name="attr_bonus_stealth" type="number" class="tiny-input-r"
+                                    disabled="true"
+                                    value="{{(@{dex_bonus})+@{ranks_stealth}+(@{base}+1)*@{base_stealth}+@{extra_stealth}}}"
+                                    data-formula="{{(@{dex_bonus})+@{ranks_stealth}+(@{base}+1)*@{base_stealth}+@{extra_stealth}}}">
+                            </td>
+                            <td><input name="attr_ranks_stealth" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                            <td><input class="tiny-checkbox" type="checkbox"
+                                    name="attr_base_stealth" value="1">
+                            </td>
+                            <td><input name="attr_extra_stealth" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><button type="roll"
+                                    value="&amp;{template:main}{{title=Swim}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_swim})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                    name="roll_swim" class="rb">
+                                    Swim
+                                </button></th>
+                            <td><input name="attr_bonus_swim" type="number" class="tiny-input-r"
+                                    disabled="true"
+                                    value="{{(@{str_bonus})+@{ranks_swim}+(@{base}+1)*@{base_swim}+@{extra_swim}}}"
+                                    data-formula="{{(@{str_bonus})+@{ranks_swim}+(@{base}+1)*@{base_swim}+@{extra_swim}}}">
+                            </td>
+                            <td><input name="attr_ranks_swim" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                            <td><input class="tiny-checkbox" type="checkbox" name="attr_base_swim"
+                                    value="1">
+                            </td>
+                            <td><input name="attr_extra_swim" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><button type="roll"
+                                    value="&amp;{template:main}{{title=Tinker}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_tinker})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                    name="roll_tinker" class="rb">
+                                    Tinker
+                                </button></th>
+                            <td><input name="attr_bonus_tinker" type="number" class="tiny-input-r"
+                                    disabled="true"
+                                    value="{{(@{dex_bonus})+@{ranks_tinker}+(@{base}+1)*@{base_tinker}+@{extra_tinker}}}"
+                                    data-formula="{{(@{dex_bonus})+@{ranks_tinker}+(@{base}+1)*@{base_tinker}+@{extra_tinker}}}">
+                            </td>
+                            <td><input name="attr_ranks_tinker" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                            <td><input class="tiny-checkbox" type="checkbox" name="attr_base_tinker"
+                                    value="1">
+                            </td>
+                            <td><input name="attr_extra_tinker" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><button type="roll"
+                                    value="&amp;{template:main}{{title=Track}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_track})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                    name="roll_track" class="rb">
+                                    Track
+                                </button></th>
+                            <td><input name="attr_bonus_track" type="number" class="tiny-input-r"
+                                    disabled="true"
+                                    value="{{(@{wis_bonus})+@{ranks_track}+(@{base}+1)*@{base_track}+@{extra_track}}}"
+                                    data-formula="{{(@{wis_bonus})+@{ranks_track}+(@{base}+1)*@{base_track}+@{extra_track}}}">
+                            </td>
+                            <td><input name="attr_ranks_track" type="number" value="0"
+                                    class="tiny-input-r">
+                            </td>
+                            <td><input class="tiny-checkbox" type="checkbox" name="attr_base_track"
+                                    value="1">
+                            </td>
+                            <td><input name="attr_extra_track" type="number" value="0"
                                     class="tiny-input-r">
                             </td>
                         </tr>
@@ -10770,8 +10860,7 @@
                         placeholder="Notes on inventory item 22"></textarea>
                 </div>
                 <div class="inventory-details-23">
-                    <input class="text-input" disabled="true"
-                        .new-character-sheet-for-fantasy-worlds class="text-input"
+                    <input class="text-input" disabled="true" class="text-input"
                         value="{@{inv_item_name_23}}" type="text">
                     <textarea class="inv-item-desc" name="attr_inv_item_desc_23"
                         value="{@{inv_item_desc_23}}"

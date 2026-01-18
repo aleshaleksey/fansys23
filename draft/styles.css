@@ -1000,6 +1000,7 @@ button:active {
 .rb_inner {
     display: flex;
     text-wrap: nowrap;
+    padding-right: 2pt;
 }
 
 button[type=action].rb,
@@ -1038,6 +1039,10 @@ button[type=roll]:active {
 button[type=action].rb:hover,
 button[type=roll]:hover {
     background-color: #e2e4dc;
+}
+
+button.skill_button {
+    max-width: 96%;
 }
 
 /* configure the tab buttons */

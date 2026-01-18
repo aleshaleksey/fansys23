@@ -559,6 +559,13 @@ input.tiny-input-r {
     font-size: 13px;
 }
 
+/* table.td.wr_del {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+} */
+
 /* ABILITIES SHEET */
 /* ABILITIES SHEET */
 /* ABILITIES SHEET */
@@ -984,27 +991,51 @@ button:active {
     background-color: #f4f7ee;
 }
 
+.d12 {
+    font-family: 'dicefontd12';
+    color: black;
+    font-size: 14pt;
+}
+
+.rb_inner {
+    display: flex;
+    text-wrap: nowrap;
+}
+
+button[type=action].rb,
 button[type=roll].rb {
+    font-size: 13pt;
     background-color: #f2f4ec;
     text-align: left;
     box-shadow: inset;
     background-image: none;
     border: 1px solid rgb(104, 101, 101);
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-left: 3px;
+    padding-right: 3px;
     padding-top: 2px;
     padding-bottom: 2px;
     cursor: pointer;
     display: block;
-    width: 92%;
-    height: 88%;
-    image
+    width: 100%;
+    height: 92%;
+    align-self: center;
+    justify-self: center;
 }
 
+button[type=action].rb {
+    border-radius: 4px;
+    /* max-height: 20px;  */
+    padding-top: 2px;
+    padding-bottom: 0px;
+    padding-right: 4px;
+}
+
+button[type=action].rb:active,
 button[type=roll]:active {
     background-color: #f4f7ee;
 }
 
+button[type=action].rb:hover,
 button[type=roll]:hover {
     background-color: #e2e4dc;
 }

@@ -22,7 +22,7 @@
         {{#roll}}<div class="sheet-rolls">
             <!-- General roll -->
             <div class="sheet-l1"><span class="sheet-r-nd12"><span class="sheet-t-nd12">⚖
-                    </span>{{roll}}{{#x_die}} +
+                    </span>{{computed::roll}}{{#x_die}} +
                     {{x_die}}{{/x_die}}</span></div>
             <!-- Display Crit information for roll-->
             {{#rollWasCrit() roll}}{{#^rollWasFumble() roll}}<div class="sheet-l2">
@@ -37,16 +37,16 @@
         <!-- Saving throw rolls -->
         {{#save}}<div class="sheet-rolls">
             <!-- Save roll -->
-            <div class="sheet-l1"><span class="sheet-r-nd12">⚖ {{save}}{{#x_die}} +
+            <div class="sheet-l1"><span class="sheet-r-nd12">⚖ {{computed::save}}{{#x_die}} +
                     {{x_die}}{{/x_die}}</span></div>
             <!-- Display Crit information for save-->
             {{#rollWasCrit() save}}{{#^rollWasFumble() save}}<div class="sheet-l3">
                 <span class="sheet-t-crit">✩ D12</span>
-                <div class="sheet-r-crit">{{crit_roll}}</div>
+                <div class="sheet-r-crit">({{computed::twelves}}): {{crit_roll}}</div>
             </div>{{/^rollWasFumble() save}}{{/rollWasCrit() save}}<!--  -->
             {{#rollWasFumble() save}}{{#^rollWasCrit() save}}<div class="sheet-l3">
                 <span class="sheet-t-crit">⯡ D1</span>
-                <div class="sheet-r-crit">{{crit_roll}}</div>
+                <div class="sheet-r-crit">({{computed::ones}}): {{crit_roll}}</div>
             </div>{{/^rollWasCrit() save}}{{/rollWasFumble() save}}
         </div>{{/save}}
         {{#attack}}<div class="sheet-rolls">
@@ -56,7 +56,8 @@
                     class="sheet-r-dmg">⚔ {{thr}}</span>
             </div>{{/thr}}
             <!-- Attack roll -->
-            <div class="sheet-l1"><span class="sheet-r-nd12">⚔ {{attack}}{{#x_die}}
+            <div class="sheet-l1"><span class="sheet-r-nd12">⚔
+                    {{computed::attack}}{{#x_die}}
                     + {{x_die}}{{/x_die}}</span></div>
             <!-- Display Damage information for things that deal Damage (usually attack or threshold) -->
             {{#dmg}}<div class="sheet-l2"><span class="sheet-t-ord">🗡 Damage</span><span
@@ -65,11 +66,11 @@
             <!-- Display Crit information for attack-->
             {{#rollWasCrit() attack}}{{#^rollWasFumble() attack}}<div class="sheet-l3">
                 <span class="sheet-t-crit">✩ D12</span>
-                <div class="sheet-r-crit">{{crit_roll}}</div>
+                <div class="sheet-r-crit">({{computed::twelves}}) : {{crit_roll}}</div>
             </div>{{/^rollWasFumble() attack}}{{/rollWasCrit() attack}}<!--  -->
             {{#rollWasFumble() attack}}{{#^rollWasCrit() attack}}<div class="sheet-l3">
                 <span class="sheet-t-crit">⯡ D1</span>
-                <div class="sheet-r-crit">{{crit_roll}}</div>
+                <div class="sheet-r-crit">({{computed::ones}}): {{crit_roll}}</div>
             </div>{{/^rollWasCrit() attack}}{{/rollWasFumble() attack}}
         </div>{{/attack}}
         {{#dsc}}<div class="sheet-dsc">{{dsc}}</div>{{/dsc}}
@@ -308,10 +309,13 @@
                     <tbody>
                         <tr class="stat-tr">
                             <th class="stat-th">
-                                <div class="cell-h-div"><button type="roll"
-                                        value="&amp;{template:main}{{title=STR roll}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{str_bonus})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
-                                        name="roll_str" class="rb">
-                                        Str
+                                <div class="cell-h-div"><button type="action" class="rb"
+                                        name="act_str_roll">
+                                        <input type="hidden" name="attr_str_roll"
+                                            value="&amp;{template:main}{{title=STR roll}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{str_bonus})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                            class="rb">
+                                        <span class="rb_inner"><span class="rb_inner d12">l
+                                            </span>Str</span></button>
                                     </button>
                                     <input class=" tiny-input-big" name="attr_str_bonus"
                                         type="number" disabled="true"
@@ -326,10 +330,12 @@
                         <tr class="stat-tr">
                             <th class="stat-th">
                                 <div class="cell-h-div">
-                                    <button type="roll"
-                                        value="&amp;{template:main}{{title=DEX roll}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{dex_bonus})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
-                                        name="roll_dex" class="rb">
-                                        Dex
+                                    <button type="action" class="rb" name="act_dex_roll">
+                                        <input type="hidden" name="attr_dex_roll"
+                                            value="&amp;{template:main}{{title=DEX roll}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{dex_bonus})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                            class="rb">
+                                        <span class="rb_inner"><span class="rb_inner d12">l
+                                            </span>Dex</span></button>
                                     </button><input class="tiny-input-big" name="attr_dex_bonus"
                                         type="number" disabled="true"
                                         value="{{floor(@{stat_dex}/2-5)}}"
@@ -343,10 +349,12 @@
                         <tr class="stat-tr">
                             <th class="stat-th">
                                 <div class="cell-h-div">
-                                    <button type="roll"
-                                        value="&amp;{template:main}{{title=CON roll}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{con_bonus})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
-                                        name="roll_con" class="rb">
-                                        Con
+                                    <button type="action" class="rb" name="act_con_roll">
+                                        <input type="hidden" name="attr_con_roll"
+                                            value="&amp;{template:main}{{title=CON roll}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{con_bonus})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                            class="rb">
+                                        <span class="rb_inner"><span class="rb_inner d12">l
+                                            </span>Con</span></button>
                                     </button><input class="tiny-input-big" name="attr_con_bonus"
                                         type="number" disabled="true"
                                         value="{floor(@{stat_con}/2-5)}"
@@ -360,10 +368,12 @@
                         <tr class="stat-tr">
                             <th class="stat-th">
                                 <div class="cell-h-div">
-                                    <button type="roll"
-                                        value="&amp;{template:main}{{title=INT roll}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{int_bonus})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
-                                        name="roll_int" class="rb">
-                                        Int
+                                    <button type="action" class="rb" name="act_int_roll">
+                                        <input type="hidden" name="attr_int_roll"
+                                            value="&amp;{template:main}{{title=INT roll}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{int_bonus})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                            class="rb">
+                                        <span class="rb_inner"><span class="rb_inner d12">l
+                                            </span>Int</span></button>
                                     </button><input class="tiny-input-big" name="attr_int_bonus"
                                         type="number" disabled="true"
                                         value="{floor(@{stat_int}/2-5)}"
@@ -377,10 +387,12 @@
                         <tr class="stat-tr">
                             <th class="stat-th">
                                 <div class="cell-h-div">
-                                    <button type="roll"
-                                        value="&amp;{template:main}{{title=WIS roll}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{wis_bonus})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
-                                        name="roll_wis" class="rb">
-                                        Wis
+                                    <button type="action" class="rb" name="act_wis_roll">
+                                        <input type="hidden" name="attr_wis_roll"
+                                            value="&amp;{template:main}{{title=WIS roll}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{wis_bonus})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                            class="rb">
+                                        <span class="rb_inner"><span class="rb_inner d12">l
+                                            </span>Wis</span></button>
                                     </button><input class="tiny-input-big" name="attr_wis_bonus"
                                         type="number" disabled="true"
                                         value="{floor(@{stat_wis}/2-5)}"
@@ -394,10 +406,12 @@
                         <tr class="stat-tr">
                             <th class="stat-th">
                                 <div class="cell-h-div">
-                                    <button type="roll"
-                                        value="&amp;{template:main}{{title=CHA roll}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{cha_bonus})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
-                                        name="roll_cha" class="rb">
-                                        Cha
+                                    <button type="action" class="rb" name="act_cha_roll">
+                                        <input type="hidden" name="attr_cha_roll"
+                                            value="&amp;{template:main}{{title=CHA roll}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{cha_bonus})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                            name="roll_cha" class="rb">
+                                        <span class="rb_inner"><span class="rb_inner d12">l
+                                            </span>Cha</span></button>
                                     </button><input class="tiny-input-big" name="attr_cha_bonus"
                                         type="number" disabled="true"
                                         value="{floor(@{stat_cha}/2-5)}"
@@ -420,10 +434,12 @@
                         </tr>
                         <tr>
                             <th>
-                                <button type="roll"
-                                    value="&amp;{template:main}{{title=STR save}}{{name=@{character_name}}}{{save=[[@{nd12} + (@{nd12bonus}) + (@{save_bonus_str})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
-                                    name="roll_str_save" class="rb">
-                                    Str
+                                <button type="action" class="rb" name="act_str_save">
+                                    <input type="hidden" name="attr_str_save"
+                                        value="&amp;{template:main}{{title=STR save}}{{twelves=[[0[Crit Count]]]}}{{ones=[[0[Fail Count]]]}}{{name=@{character_name}}}{{save=[[@{nd12} + (@{nd12bonus}) + (@{save_bonus_str})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                        class="rb">
+                                    <span class="rb_inner"><span class="rb_inner d12">l
+                                        </span>Str</span></button>
                                 </button>
                             </th>
                             <th><input name="attr_save_bonus_str" disabled="true" type="number"
@@ -437,10 +453,12 @@
                         </tr>
                         <tr>
                             <th>
-                                <button type="roll"
-                                    value="&amp;{template:main}{{title=DEX save}}{{name=@{character_name}}}{{save=[[@{nd12} + (@{nd12bonus}) + (@{save_bonus_dex})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
-                                    name="roll_dex_save" class="rb">
-                                    Dex
+                                <button type="action" class="rb" name="act_dex_save">
+                                    <input type="hidden" name="attr_dex_save"
+                                        value="&amp;{template:main}{{title=DEX save}}{{twelves=[[0[Crit Count]]]}}{{ones=[[0[Fail Count]]]}}{{name=@{character_name}}}{{save=[[@{nd12} + (@{nd12bonus}) + (@{save_bonus_dex})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                        class="rb">
+                                    <span class="rb_inner"><span class="rb_inner d12">l
+                                        </span>Dex</span></button>
                                 </button>
                             </th>
                             <th><input name="attr_save_bonus_dex" disabled="true" type="number"
@@ -454,10 +472,12 @@
                         </tr>
                         <tr>
                             <th>
-                                <button type="roll"
-                                    value="&amp;{template:main}{{title=CON save}}{{name=@{character_name}}}{{save=[[@{nd12} + (@{nd12bonus}) + (@{save_bonus_con})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
-                                    name="roll_con_save" class="rb">
-                                    Con
+                                <button type="action" class="rb" name="act_con_save">
+                                    <input type="hidden" name="attr_con_save"
+                                        value="&amp;{template:main}{{title=CON save}}{{twelves=[[0[Crit Count]]]}}{{ones=[[0[Fail Count]]]}}{{name=@{character_name}}}{{save=[[@{nd12} + (@{nd12bonus}) + (@{save_bonus_con})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                        class="rb">
+                                    <span class="rb_inner"><span class="rb_inner d12">l
+                                        </span>Con</span></button>
                                 </button>
                             </th>
                             <th><input name="attr_save_bonus_con" disabled="true" type="number"
@@ -471,10 +491,12 @@
                         </tr>
                         <tr>
                             <th>
-                                <button type="roll"
-                                    value="&amp;{template:main}{{title=INT save}}{{name=@{character_name}}}{{save=[[@{nd12} + (@{nd12bonus}) + (@{save_bonus_int})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
-                                    name="roll_int_save" class="rb">
-                                    Int
+                                <button type="action" class="rb" name="act_int_save">
+                                    <input type="hidden" name="attr_int_save"
+                                        value="&amp;{template:main}{{twelves=[[0[Crit Count]]]}}{{ones=[[0[Fail Count]]]}}{{title=INT save}}{{name=@{character_name}}}{{save=[[@{nd12} + (@{nd12bonus}) + (@{save_bonus_int})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                        class="rb">
+                                    <span class="rb_inner"><span class="rb_inner d12">l
+                                        </span>Int</span></button>
                                 </button>
                             </th>
                             <th><input name="attr_save_bonus_int" disabled="true" type="number"
@@ -490,10 +512,12 @@
                         </tr>
                         <tr>
                             <th>
-                                <button type="roll"
-                                    value="&amp;{template:main}{{title=WIS save}}{{name=@{character_name}}}{{save=[[@{nd12} + (@{nd12bonus}) + (@{save_bonus_wis})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
-                                    name="roll_wis_save" class="rb">
-                                    Wis
+                                <button type="action" class="rb" name="act_wis_save">
+                                    <input type="hidden" name="attr_wis_save"
+                                        value="&amp;{template:main}{{twelves=[[0[Crit Count]]]}}{{ones=[[0[Fail Count]]]}}{{title=WIS save}}{{name=@{character_name}}}{{save=[[@{nd12} + (@{nd12bonus}) + (@{save_bonus_wis})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                        class="rb">
+                                    <span class="rb_inner"><span class="rb_inner d12">l
+                                        </span>Wis</span></button>
                                 </button>
                             </th>
                             <th><input name="attr_save_bonus_wis" disabled="true" type="number"
@@ -507,10 +531,12 @@
                         </tr>
                         <tr>
                             <th>
-                                <button type="roll"
-                                    value="&amp;{template:main}{{title=CHA save}}{{name=@{character_name}}}{{save=[[@{nd12} + (@{nd12bonus}) + (@{save_bonus_cha})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
-                                    name="roll_cha_save" class="rb">
-                                    Cha
+                                <button type="action" class="rb" name="act_cha_save">
+                                    <input type="hidden" name="attr_cha_save"
+                                        value="&amp;{template:main}{{title=CHA save}}{{twelves=[[0[Crit Count]]]}}{{ones=[[0[Fail Count]]]}}{{name=@{character_name}}}{{save=[[@{nd12} + (@{nd12bonus}) + (@{save_bonus_cha})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                        class="rb">
+                                    <span class="rb_inner"><span class="rb_inner d12">l
+                                        </span>Cha</span></button>
                                 </button>
                             </th>
                             <th><input name="attr_save_bonus_cha" disabled="true" type="number"
@@ -813,10 +839,11 @@
                                         name="attr_dtotal1" value="@{db_sum_1}"></span>
                             </td>
                             <!-- The roller -->
-                            <td class="wr_del_1"><button type="roll"
-                                    value="&amp;{template:main}{{title=@{wr_name_1}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_1}]]}}{{dmg=[[@{wr_dam_dice_1}+@{db_1}+@{wr_dstat_1}]]}}{{xd_die=@{smd_die}}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_1}}}"
-                                    name="roll_wp_1" class="rb">
-                                    Roll!
+                            <td class="wr_del"><button type="action" name="act_wr_1" class="rb">
+                                    <input type="hidden" name="attr_wr_1"
+                                        value="&amp;{template:main}{{title=@{wr_name_1}}}{{twelves=[[0[Crit Count]]]}}{{ones=[[0[Fail Count]]]}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_1}]]}}{{dmg=[[@{wr_dam_dice_1}+@{db_1}+@{wr_dstat_1}]]}}{{xd_die=@{smd_die}}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_1}}}">
+                                    <span class="rb_inner"><span class="rb_inner d12">l </span>
+                                        Roll!</span></button>
                                 </button></td>
                         </tr>
                         <tr class="weapon_row_2">
@@ -842,10 +869,11 @@
                                         name="attr_dtotal2" value="@{db_sum_2}"></span>
                             </td>
                             <!-- The roller -->
-                            <td class="wr_del_2"><button type="roll"
-                                    value="&amp;{template:main}{{title=@{wr_name_2}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_2}]]}}{{dmg=[[@{wr_dam_dice_2}+@{db_2}+@{wr_dstat_2}]]}}{{xd_die=@{smd_die}}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_2}}}"
-                                    name="roll_wp_2" class="rb">
-                                    Roll!
+                            <td class="wr_del"><button type="action" name="act_wr_2" class="rb">
+                                    <input type="hidden" name="attr_wr_2"
+                                        value="&amp;{template:main}{{title=@{wr_name_2}}}{{twelves=[[0[Crit Count]]]}}{{ones=[[0[Fail Count]]]}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_2}]]}}{{dmg=[[@{wr_dam_dice_2}+@{db_2}+@{wr_dstat_2}]]}}{{xd_die=@{smd_die}}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_2}}}">
+                                    <span class="rb_inner"><span class="rb_inner d12">l </span>
+                                        Roll!</span></button>
                                 </button></td>
                         </tr>
                         <tr class="weapon_row_3">
@@ -871,10 +899,11 @@
                                         name="attr_dtotal3" value="@{db_sum_3}"></span>
                             </td>
                             <!-- The roller -->
-                            <td class="wr_del_3"><button type="roll"
-                                    value="&amp;{template:main}{{title=@{wr_name_3}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_3}]]}}{{dmg=[[@{wr_dam_dice_3}+@{db_3}+@{wr_dstat_3}]]}}{{xd_die=@{smd_die}}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_3}}}"
-                                    name="roll_wp_3" class="rb">
-                                    Roll!
+                            <td class="wr_del"><button type="action" name="act_wr_3" class="rb">
+                                    <input type="hidden" name="attr_wr_3"
+                                        value="&amp;{template:main}{{title=@{wr_name_3}}}{{twelves=[[0[Crit Count]]]}}{{ones=[[0[Fail Count]]]}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_3}]]}}{{dmg=[[@{wr_dam_dice_3}+@{db_3}+@{wr_dstat_3}]]}}{{xd_die=@{smd_die}}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_3}}}">
+                                    <span class="rb_inner"><span class="rb_inner d12">l </span>
+                                        Roll!</span></button>
                                 </button></td>
                         </tr>
                         <tr class="weapon_row_4">
@@ -900,10 +929,11 @@
                                         name="attr_dtotal4" value="@{db_sum_4}"></span>
                             </td>
                             <!-- The roller -->
-                            <td class="wr_del_4"><button type="roll"
-                                    value="&amp;{template:main}{{title=@{wr_name_4}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_4}]]}}{{dmg=[[@{wr_dam_dice_4}+@{db_4}+@{wr_dstat_4}]]}}{{xd_die=@{smd_die}}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_4}}}"
-                                    name="roll_wp_4" class="rb">
-                                    Roll!
+                            <td class="wr_del"><button type="action" name="act_wr_4" class="rb">
+                                    <input type="hidden" name="attr_wr_4"
+                                        value="&amp;{template:main}{{title=@{wr_name_4}}}{{twelves=[[0[Crit Count]]]}}{{ones=[[0[Fail Count]]]}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_4}]]}}{{dmg=[[@{wr_dam_dice_4}+@{db_4}+@{wr_dstat_4}]]}}{{xd_die=@{smd_die}}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_4}}}">
+                                    <span class="rb_inner"><span class="rb_inner d12">l </span>
+                                        Roll!</span></button>
                                 </button></td>
                         </tr>
                         <tr class="weapon_row_5">
@@ -929,10 +959,11 @@
                                         name="attr_dtotal5" value="@{db_sum_5}"></span>
                             </td>
                             <!-- The roller -->
-                            <td class="wr_del_5"><button type="roll"
-                                    value="&amp;{template:main}{{title=@{wr_name_5}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_5}]]}}{{dmg=[[@{wr_dam_dice_5}+@{db_5}+@{wr_dstat_5}]]}}{{xd_die=@{smd_die}}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_5}}}"
-                                    name="roll_wp_5" class="rb">
-                                    Roll!
+                            <td class="wr_del"><button type="action" name="act_wr_5" class="rb">
+                                    <input type="hidden" name="attr_wr_5"
+                                        value="&amp;{template:main}{{title=@{wr_name_5}}}{{twelves=[[0[Crit Count]]]}}{{ones=[[0[Fail Count]]]}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_5}]]}}{{dmg=[[@{wr_dam_dice_5}+@{db_5}+@{wr_dstat_5}]]}}{{xd_die=@{smd_die}}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_5}}}">
+                                    <span class="rb_inner"><span class="rb_inner d12">l </span>
+                                        Roll!</span></button>
                                 </button></td>
                         </tr>
                         <tr class="weapon_row_6">
@@ -958,10 +989,11 @@
                                         name="attr_dtotal6" value="@{db_sum_6}"></span>
                             </td>
                             <!-- The roller -->
-                            <td class="wr_del_6"><button type="roll"
-                                    value="&amp;{template:main}{{title=@{wr_name_6}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_6}]]}}{{dmg=[[@{wr_dam_dice_6}+@{db_6}+@{wr_dstat_6}]]}}{{xd_die=@{smd_die}}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_6}}}"
-                                    name="roll_wp_6" class="rb">
-                                    Roll!
+                            <td class="wr_del"><button type="action" name="act_wr_6" class="rb">
+                                    <input type="hidden" name="attr_wr_6"
+                                        value="&amp;{template:main}{{twelves=[[0[Crit Count]]]}}{{ones=[[0[Fail Count]]]}}{{title=@{wr_name_7}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_7}]]}}{{dmg=[[@{wr_dam_dice_7}+@{db_7}+@{wr_dstat_7}]]}}{{xd_die=@{smd_die}}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_7}}}">
+                                    <span class="rb_inner"><span class="rb_inner d12">l </span>
+                                        Roll!</span></button>
                                 </button></td>
                         </tr>
                         <tr class="weapon_row_7">
@@ -987,10 +1019,11 @@
                                         name="attr_dtotal7" value="@{db_sum_7}"></span>
                             </td>
                             <!-- The roller -->
-                            <td class="wr_del_7"><button type="roll"
-                                    value="&amp;{template:main}{{title=@{wr_name_7}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_7}]]}}{{dmg=[[@{wr_dam_dice_7}+@{db_7}+@{wr_dstat_7}]]}}{{xd_die=@{smd_die}}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_7}}}"
-                                    name="roll_wp_7" class="rb">
-                                    Roll!
+                            <td class="wr_del"><button type="action" name="act_wr_7" class="rb">
+                                    <input type="hidden" name="attr_wr_7"
+                                        value="&amp;{template:main}{{twelves=[[0[Crit Count]]]}}{{ones=[[0[Fail Count]]]}}{{title=@{wr_name_7}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_7}]]}}{{dmg=[[@{wr_dam_dice_7}+@{db_7}+@{wr_dstat_7}]]}}{{xd_die=@{smd_die}}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_7}}}">
+                                    <span class="rb_inner"><span class="rb_inner d12">l </span>
+                                        Roll!</span></button>
                                 </button></td>
                         </tr>
                         <tr class="weapon_row_8">
@@ -1016,10 +1049,11 @@
                                         name="attr_dtotal8" value="@{db_sum_8}"></span>
                             </td>
                             <!-- The roller -->
-                            <td class="wr_del_8"><button type="roll"
-                                    value="&amp;{template:main}{{title=@{wr_name_8}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_8}]]}}{{dmg=[[@{wr_dam_dice_8}+@{db_8}+@{wr_dstat_8}]]}}{{xd_die=@{smd_die}}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_8}}}"
-                                    name="roll_wp_8" class="rb">
-                                    Roll!
+                            <td class="wr_del"><button type="action" name="act_wr_8" class="rb">
+                                    <input type="hidden" name="attr_wr_8"
+                                        value="&amp;{template:main}{{twelves=[[0[Crit Count]]]}}{{ones=[[0[Fail Count]]]}}{{title=@{wr_name_8}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_8}]]}}{{dmg=[[@{wr_dam_dice_8}+@{db_8}+@{wr_dstat_8}]]}}{{xd_die=@{smd_die}}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_8}}}" />
+                                    <span class="rb_inner"><span class="rb_inner d12">l </span>
+                                        Roll!</span></button>
                                 </button></td>
                         </tr>
                         <tr class="weapon_row_9">
@@ -1045,10 +1079,11 @@
                                         name="attr_dtotal9" value="@{db_sum_9}"></span>
                             </td>
                             <!-- The roller -->
-                            <td class="wr_del_9"><button type="roll"
-                                    value="&amp;{template:main}{{title=@{wr_name_9}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_9}]]}}{{dmg=[[@{wr_dam_dice_9}+@{db_9}+@{wr_dstat_9}]]}}{{xd_die=@{smd_die}}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_9}}}"
-                                    name="roll_wp_9" class="rb">
-                                    Roll!
+                            <td class="wr_del"><button type="action" name="act_wr_9" class="rb">
+                                    <input type="hidden" name="attr_wr_9"
+                                        value="&amp;{template:main}{{twelves=[[0[Crit Count]]]}}{{ones=[[0[Fail Count]]]}}{{title=@{wr_name_9}}}{{name=@{character_name}}}{{attack=[[@{nd12} + (@{nd12bonus})+@{wr_attack_9}]]}}{{dmg=[[@{wr_dam_dice_9}+@{db_8}+@{wr_dstat_8}]]}}{{xd_die=@{smd_die}}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}{{dsc=@{attack_notes_9}}}" />
+                                    <span class="rb_inner"><span class="rb_inner d12">l </span>
+                                        Roll!</span></button>
                                 </button></td>
                         </tr>
                     </tbody>
@@ -10925,6 +10960,7 @@
 <!-- 4. For the descriptions of each inventory item -->
 <!-- 5. For the descriptions of each spell -->
 <!-- 6. Reset the 1d6 checkbox after use to remove the annoying `+0`  -->
+<!-- 7. Custom roll parsing  -->
 <!-- <script> -->
 <script type="text/worker">
     const buttonlist = ["basics", "skills", "spells", "abilities", "inventory"];
@@ -11008,9 +11044,7 @@
     });
     console.log("Setting up sm_die..");
     on(`change:sm_die_checker`, function(attr) {
-console.log("box cehcekd");
         getAttrs(["sm_die_checker"], function(attr) {
-console.log("got attrs");
             let setObj = {};
             let currTab = attr.sm_die_checker
             if (attr.sm_die_checker == "1") {
@@ -11024,8 +11058,77 @@ console.log("got attrs");
                     smd_die: ""
                 };
             }
-            console.log(setObj);
             setAttrs(setObj);
         });
     });
+
+    function roll_custom(roll_field, roll_attribute) {
+        getAttrs([roll_attribute], function (attr) {
+            console.log(attr[roll_attribute]);
+            startRoll(attr[roll_attribute], (res) => {
+                console.log(res);
+                let d = res.results[roll_field].dice;
+                let ones = 0;
+                let twelves = 0;
+                [...Array(d.length).keys()].forEach(idx => {
+                    if(d[idx]==1) {
+                        ones = ones + 1;
+                    } else if(d[idx]==12) {
+                        twelves = twelves + 1;
+                    }
+                    console.log(`${idx}, ${ones}, ${twelves}`);
+                });
+                let e = res.results[roll_field].expression;
+                if(e.includes('3d12dl1') && ones>0) {
+                    ones -= 1;
+                }
+                if(e.includes('3d12dh1') && twelves>0) {
+                    twelves -= 1;
+                }
+                if (ones>0 && twelves>0) {
+                    ones = 0;
+                    twelves = 0;
+                }
+                if(ones==3) {
+                    ones = 2;
+                }
+                if (twelves==3) {
+                    twelves = 2;
+                }
+                let final_object = {
+                    ones,
+                    twelves,
+                };
+                final_object[roll_field] = res.results[roll_field].result+2*(twelves-ones);
+                console.log(final_object);
+                finishRoll(
+                    res.rollId,
+                    final_object
+                );
+            });
+        });
+    }
+    
+    [...Array(9).keys()].forEach(n => {
+        let attr = "wr_" + (n + 1);
+        console.log(`Setting up ${attr}`);
+        on(`clicked:${attr}`, function() {
+            roll_custom("attack", attr);
+        });
+    });
+    ["str", "dex", "con", "int", "wis", "cha"].forEach(stat => {
+        console.log(`Setting up ${stat}`);
+        on(`clicked:${stat}_roll`, function() {
+            roll_custom("roll", `${stat}_roll`);
+        });
+        on(`clicked:${stat}_save`, function() {
+            roll_custom("save", `${stat}_save`);
+        });
+        if (stat!="cha" && stat!="con") {
+            on(`clicked:${stat}_attack`, function() {
+                roll_custom("attack", `${stat}_attack`);
+            });
+        }
+    });
+
 </script>

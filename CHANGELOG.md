@@ -614,6 +614,7 @@ ___
 ### General
 - Add glossary of common terms.
 - Split quick start into [Overview](00-overview.md) and [Character Creation Quick Reference](01-character-creation.md).
+- Fix thresholds (["Base Rules: NAP and SAP, NAT and SAT"](02-base-rules.md#nap-and-sap-nat-and-sat-attack-of-the-three-letter-words-ii)) to use correct values.
 
 ### Movement and Exploration
 - Finally add rules for [cosmic](03-movement-exploration.md#cosmic) and [blink](03-movement-exploration.md#blink) speed.

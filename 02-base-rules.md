@@ -492,7 +492,7 @@ ___
 This is the "natural" (Nat) and "supernatural" (Sup) component of many bonuses. They represent the mastery/affinity that a character has over/with "natural" and "supernatural" aspects of the world respectively. As a rule rolls, saves and attacks governed by Str, Dex or Con a character is proficient with use Nat. Rolls, saves and attacks governed by Int, Wis or Cha a character is proficient with use Sup. They are calculated as follows:
 
 - **Nat = [SP / 6] rounded up**
-  - So a character with 29 "SP dice" has a Nat = 5.
+  - So a character with 30 "SP dice" has a Nat = 5.
 
 - **Sup = [MP / 6] rounded up**
   - So a character with 31 "MP dice" has a Sup = 6.
@@ -512,11 +512,11 @@ Attack Potentials and Attack Thresholds are used to determine the potency, or mo
 - **SAP = [Base + Sup]**
 - A total bonus for a "supernatural" attack = SAP + Int/Wis
 
-**Natural Attack Threshold** (NT) is **Nat + 13**. A target of a character's "natural" **abilities** rolls a save against the character's NT.
+**Natural Attack Threshold** (NT) is **NAP + 13**. A target of a character's "natural" **abilities** rolls a save against the character's NT.
 
 - The threshold for a character's "natural" abilities = NT + Str/Dex
 
-**Supernatural Attack Threshold** (SA) is **Sup + 13**. A target of a character's "supernatural" **abilities** rolls a save against a character's ST.
+**Supernatural Attack Threshold** (ST) is **Sup + 13**. A target of a character's "supernatural" **abilities** rolls a save against a character's ST. ST therefore tends to be a touch lower than NT.
 
 - The threshold for a character's "supernatural" abilities = ST + Int/Wis
 

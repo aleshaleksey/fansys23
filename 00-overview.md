@@ -366,9 +366,9 @@ When spells and some abilities are used, the onus on overcoming their effects is
 - **Good save** (Str, Dex, Con): **[NAP + Stat bonus]**
 - **Good save** (Int, Wis, Cha): **[SAP + Stat bonus]**
 
-The "save threshold" is equal to **[13 + [Nat or Sup] + [Stat bonus]]**.
+The "save threshold" is equal to **[13 + [NAP or Sup] + [Stat bonus]]**.
 
-If the roll to save ("save") is equal or higher than Threshold, the character avoids some, or all, of the effects of the spell/ability.
+If the roll to save ("save") is equal or higher than Threshold, the character avoids some, or all, of the effects of the spell/ability. It should be noted that STR, DEX and CON thresholds use NAT, while INT, WIS and CHA thresholds use Sup. Therefore STR, DEX and CON thresholds tend to be a little bit higher.
 
 ___
 ### Movement

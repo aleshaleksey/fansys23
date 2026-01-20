@@ -528,6 +528,12 @@ table.skill-table {
     padding: 3px;
 }
 
+div.skill-button-span {
+    justify-content: space-between;
+    display: flex;
+    font-size: 12pt;
+}
+
 input.prof-name-input {
     width: 188px;
     max-width: 188px;
@@ -1003,6 +1009,13 @@ button:active {
     padding-right: 2pt;
 }
 
+.skill_button {
+    max-width: 96%;
+    max-height: 110%;
+    min-height: 110%;
+}
+
+button[type=action].rb-skill-button,
 button[type=action].rb,
 button[type=roll].rb {
     font-size: 13pt;
@@ -1023,6 +1036,8 @@ button[type=roll].rb {
     justify-self: center;
 }
 
+
+button[type=action].rb-skill-button,
 button[type=action].rb {
     border-radius: 4px;
     /* max-height: 20px;  */
@@ -1031,17 +1046,22 @@ button[type=action].rb {
     padding-right: 4px;
 }
 
+button[type=action].rb-skill-button:active,
 button[type=action].rb:active,
 button[type=roll]:active {
     background-color: #f4f7ee;
 }
 
+
+button[type=action].rb-skill-button:hover,
 button[type=action].rb:hover,
 button[type=roll]:hover {
     background-color: #e2e4dc;
 }
 
-button.skill_button {
+button[type=action].rb-skill-button {
+    min-height: 20pt;
+    max-height: 110%;
     max-width: 96%;
 }
 

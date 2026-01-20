@@ -1857,21 +1857,23 @@
                     <tbody>
                         <tr>
                             <th>Skill</th>
-                            <th>Stat</th>
                             <th>Bonus</th>
                             <th>Ranks</th>
                             <th>Base</th>
                             <th>Other</th>
                         </tr>
                         <tr>
-                            <th><button type="action" class="rb str_based skill_button"
-                                    name="act_skill_r1">
+                            <th><button type="action" class="rb-skill-button" name="act_skill_r1">
                                     <input type="hidden" name="attr_skill_r1"
                                         value="&amp;{template:main}{{title=Athletics}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_athletics})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}">
-                                    <span class="rb_inner"><span class="rb_inner d12">l
-                                        </span>Athletics</span></button>
+                                    <div class="skill-button-span">
+                                        <span class="rb_inner">
+                                            <span class="rb_inner d12">l</span>
+                                            <span>Athletics</span>
+                                        </span>
+                                        <span>(Str)</span>
+                                    </div>
                                 </button></th>
-                            <td>Str</td>
                             <td><input name="attr_bonus_athletics" type="number"
                                     class="tiny-input-r" disabled="true"
                                     value="{{@{ranks_athletics}+(@{base}+1)*@{base_athletics}+@{extra_athletics}+@{str_bonus}}}"
@@ -1888,14 +1890,17 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><button type="action" class="rb str_based skill_button"
-                                    name="act_skill_r2">
+                            <th><button type="action" class="rb-skill-button" name="act_skill_r2">
                                     <input type="hidden" name="attr_skill_r2"
                                         value="&amp;{template:main}{{title=Climb}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_climb})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}">
-                                    <span class="rb_inner"><span class="rb_inner d12">l
-                                        </span>Climb</span></button>
+                                    <div class="skill-button-span">
+                                        <span class="rb_inner">
+                                            <span class="rb_inner d12">l</span>
+                                            <span>Climb</span>
+                                        </span>
+                                        <span>(Str)</span>
+                                    </div>
                                 </button></th>
-                            <td>Str</td>
                             <td><input name="attr_bonus_climb" type="number" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{str_bonus})+@{ranks_climb}+(@{base}+1)*@{base_climb}+@{extra_climb}}}"
@@ -1912,14 +1917,17 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><button type="action" class="rb str_based skill_button"
-                                    name="act_skill_r3">
+                            <th><button type="action" class="rb-skill-button" name="act_skill_r3">
                                     <input type="hidden" name="attr_skill_r3"
                                         value="&amp;{template:main}{{title=Fortify}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_fortify})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}">
-                                    <span class="rb_inner"><span class="rb_inner d12">l
-                                        </span>Fortify</span></button>
+                                    <div class="skill-button-span">
+                                        <span class="rb_inner">
+                                            <span class="rb_inner d12">l</span>
+                                            <span>Fortify</span>
+                                        </span>
+                                        <span>(Str)</span>
+                                    </div>
                                 </button></th>
-                            <td>Str</td>
                             <td><input name="attr_bonus_fortify" type="number" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{str_bonus})+@{ranks_fortify}+(@{base}+1)*@{base_fortify}+@{extra_fortify}}}"
@@ -1936,14 +1944,17 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><button type="action" class="rb str_based skill_button"
-                                    name="act_skill_r4">
+                            <th><button type="action" class="rb-skill-button" name="act_skill_r4">
                                     <input type="hidden" name="attr_skill_r4"
                                         value="&amp;{template:main}{{title=Swim}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_swim})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}">
-                                    <span class="rb_inner"><span class="rb_inner d12">l
-                                        </span>Swim</span></button>
+                                    <div class="skill-button-span">
+                                        <span class="rb_inner">
+                                            <span class="rb_inner d12">l</span>
+                                            <span>Swim</span>
+                                        </span>
+                                        <span>(Str)</span>
+                                    </div>
                                 </button></th>
-                            <td>Str</td>
                             <td><input name="attr_bonus_swim" type="number" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{str_bonus})+@{ranks_swim}+(@{base}+1)*@{base_swim}+@{extra_swim}}}"
@@ -1960,14 +1971,17 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><button type="action" class="rb dex_based skill_button"
-                                    name="act_skill_r5">
+                            <th><button type="action" class="rb-skill-button" name="act_skill_r5">
                                     <input type="hidden" name="attr_skill_r5"
                                         value="&amp;{template:main}{{title=Acrobatics}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_acrobatics})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}">
-                                    <span class="rb_inner"><span class="rb_inner d12">l
-                                        </span>Acrobatics</span></button>
+                                    <div class="skill-button-span">
+                                        <span class="rb_inner">
+                                            <span class="rb_inner d12">l</span>
+                                            <span>Acrobatics</span>
+                                        </span>
+                                        <span>(Dex)</span>
+                                    </div>
                                 </button></th>
-                            <td>Dex</td>
                             <td><input name="attr_bonus_acrobatics" type="number"
                                     class="tiny-input-r" disabled="true"
                                     value="{{(@{dex_bonus})+(@{ranks_acrobatics})+(@{base}+1)*(@{base_acrobatics})+(@{extra_acrobatics})}}"
@@ -1984,14 +1998,17 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><button type="action" class="rb dex_based skill_button"
-                                    name="act_skill_r6">
+                            <th><button type="action" class="rb-skill-button" name="act_skill_r6">
                                     <input type="hidden" name="attr_skill_r6"
                                         value="&amp;{template:main}{{title=Fly}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_fly})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}">
-                                    <span class="rb_inner"><span class="rb_inner d12">l
-                                        </span>Fly</span></button>
+                                    <div class="skill-button-span">
+                                        <span class="rb_inner">
+                                            <span class="rb_inner d12">l</span>
+                                            <span>Fly</span>
+                                        </span>
+                                        <span>(Dex)</span>
+                                    </div>
                                 </button></th>
-                            <td>Dex</td>
                             <td><input name="attr_bonus_fly" type="number" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{dex_bonus})+@{ranks_fly}+(@{base}+1)*@{base_fly}+@{extra_fly}}}"
@@ -2008,14 +2025,17 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><button type="action" class="rb dex_based skill_button"
-                                    name="act_skill_r7">
+                            <th><button type="action" class="rb-skill-button" name="act_skill_r7">
                                     <input type="hidden" name="attr_skill_r7"
                                         value="&amp;{template:main}{{title=Heal}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_heal})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}">
-                                    <span class="rb_inner"><span class="rb_inner d12">l
-                                        </span>Heal</span></button>
+                                    <div class="skill-button-span">
+                                        <span class="rb_inner">
+                                            <span class="rb_inner d12">l</span>
+                                            <span>Heal</span>
+                                        </span>
+                                        <span>(Dex)</span>
+                                    </div>
                                 </button></th>
-                            <td>Dex</td>
                             <td><input name="attr_bonus_heal" type="number" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{dex_bonus})+@{ranks_heal}+(@{base}+1)*@{base_heal}+@{extra_heal}}}"
@@ -2032,14 +2052,17 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><button type="action" class="rb dex_based skill_button"
-                                    name="act_skill_r8">
+                            <th><button type="action" class="rb-skill-button" name="act_skill_r8">
                                     <input type="hidden" name="attr_skill_r8"
                                         value="&amp;{template:main}{{title=Ride}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_ride})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}">
-                                    <span class="rb_inner"><span class="rb_inner d12">l
-                                        </span>Ride</span></button>
+                                    <div class="skill-button-span">
+                                        <span class="rb_inner">
+                                            <span class="rb_inner d12">l</span>
+                                            <span>Ride</span>
+                                        </span>
+                                        <span>(Dex)</span>
+                                    </div>
                                 </button></th>
-                            <td>Dex</td>
                             <td><input name="attr_bonus_ride" type="number" class="tiny-input-r"
                                     disabled="true"
                                     value="{@{dex_bonus}+(@{ranks_ride})+(@{base}+1)*@{base_ride}+@{extra_ride}}"
@@ -2056,14 +2079,17 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><button type="action" class="rb dex_based skill_button"
-                                    name="act_skill_r9">
+                            <th><button type="action" class="rb-skill-button" name="act_skill_r9">
                                     <input type="hidden" name="attr_skill_r9"
                                         value="&amp;{template:main}{{title=Sleight of Hand}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_sleight})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}">
-                                    <span class="rb_inner"><span class="rb_inner d12">l
-                                        </span>Sleight of Hand</span></button>
+                                    <div class="skill-button-span">
+                                        <span class="rb_inner">
+                                            <span class="rb_inner d12">l</span>
+                                            <span>Sleight of Hand</span>
+                                        </span>
+                                        <span>(Str)</span>
+                                    </div>
                                 </button></th>
-                            <td>Dex</td>
                             <td><input name="attr_bonus_sleight" type="number" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{dex_bonus})+@{ranks_sleight}+(@{base}+1)*@{base_sleight}+@{extra_sleight}}}"
@@ -2080,14 +2106,17 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><button type="action" class="rb dex_based skill_button"
-                                    name="act_skill_r10">
+                            <th><button type="action" class="rb-skill-button" name="act_skill_r10">
                                     <input type="hidden" name="attr_skill_r10"
                                         value="&amp;{template:main}{{title=Stealth}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_stealth})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}">
-                                    <span class="rb_inner"><span class="rb_inner d12">l
-                                        </span>Stealth</span></button>
+                                    <div class="skill-button-span">
+                                        <span class="rb_inner">
+                                            <span class="rb_inner d12">l</span>
+                                            <span>Stealth</span>
+                                        </span>
+                                        <span>(Dex)</span>
+                                    </div>
                                 </button></th>
-                            <td>Dex</td>
                             <td><input name="attr_bonus_stealth" type="number" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{dex_bonus})+@{ranks_stealth}+(@{base}+1)*@{base_stealth}+@{extra_stealth}}}"
@@ -2104,14 +2133,16 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><button type="action" class="rb dex_based skill_button"
-                                    name="act_skill_r11">
+                            <th><button type="action" class="rb-skill-button" name="act_skill_r11">
                                     <input type="hidden" name="attr_skill_r11"
                                         value="&amp;{template:main}{{title=Tinker}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_tinker})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}">
-                                    <span class="rb_inner"><span class="rb_inner d12">l
-                                        </span>Tinker</span></button>
-                                </button></th>
-                            <td>Dex</td>
+                                    <div class="skill-button-span">
+                                        <span class="rb_inner">
+                                            <span class="rb_inner d12">l</span>
+                                            <span>Tinker</span>
+                                        </span>
+                                        <span>(Dex)</span>
+                                    </div>
                             <td><input name="attr_bonus_tinker" type="number" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{dex_bonus})+@{ranks_tinker}+(@{base}+1)*@{base_tinker}+@{extra_tinker}}}"
@@ -2128,14 +2159,17 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><button type="action" class="rb con_based skill_button"
-                                    name="act_skill_r12">
+                            <th><button type="action" class="rb-skill-button" name="act_skill_r12">
                                     <input type="hidden" name="attr_skill_r12"
                                         value="&amp;{template:main}{{title=Harvest}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_harvest})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}">
-                                    <span class="rb_inner"><span class="rb_inner d12">l
-                                        </span>Harvest</span></button>
+                                    <div class="skill-button-span">
+                                        <span class="rb_inner">
+                                            <span class="rb_inner d12">l</span>
+                                            <span>Harvest</span>
+                                        </span>
+                                        <span>(Con)</span>
+                                    </div>
                                 </button></th>
-                            <td>Con</td>
                             <td><input name="attr_bonus_harvest" type="number" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{con_bonus})+@{ranks_harvest}+(@{base}+1)*@{base_harvest}+@{extra_harvest}}}"
@@ -2152,14 +2186,17 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><button type="action" class="rb int_based skill_button"
-                                    name="act_skill_r32">
+                            <th><button type="action" class="rb-skill-button" name="act_skill_r32">
                                     <input type="hidden" name="attr_skill_r32"
                                         value="&amp;{template:main}{{title=Academics}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_academics})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}">
-                                    <span class="rb_inner"><span class="rb_inner d12">l
-                                        </span>Academics</span></button>
+                                    <div class="skill-button-span">
+                                        <span class="rb_inner">
+                                            <span class="rb_inner d12">l</span>
+                                            <span>Academics</span>
+                                        </span>
+                                        <span>(Int)</span>
+                                    </div>
                                 </button></th>
-                            <td>Int</td>
                             <td><input name="attr_bonus_academics" type="number"
                                     class="tiny-input-r" disabled="true"
                                     value="{{(@{int_bonus})+@{ranks_academics}+(@{base}+1)*@{base_academics}+@{extra_academics}}}"
@@ -2176,14 +2213,17 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><button type="action" class="rb int_based skill_button"
-                                    name="act_skill_r13">
+                            <th><button type="action" class="rb-skill-button" name="act_skill_r13">
                                     <input type="hidden" name="attr_skill_r13"
                                         value="&amp;{template:main}{{title=Appraise}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_appraise})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}">
-                                    <span class="rb_inner"><span class="rb_inner d12">l
-                                        </span>Appraise</span></button>
+                                    <div class="skill-button-span">
+                                        <span class="rb_inner">
+                                            <span class="rb_inner d12">l</span>
+                                            <span>Appraise</span>
+                                        </span>
+                                        <span>(Int)</span>
+                                    </div>
                                 </button></th>
-                            <td>Int</td>
                             <td><input name="attr_bonus_appraise" type="number" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{int_bonus})+@{ranks_appraise}+(@{base}+1)*@{base_appraise}+@{extra_appraise}}}"
@@ -2200,14 +2240,17 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><button type="action" class="rb int_based skill_button"
-                                    name="act_skill_r14">
+                            <th><button type="action" class="rb-skill-button" name="act_skill_r14">
                                     <input type="hidden" name="attr_skill_r14"
                                         value="&amp;{template:main}{{title=Knowledge: Arcana}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_karcana})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}">
-                                    <span class="rb_inner"><span class="rb_inner d12">l
-                                        </span>Know: Arcana</span></button>
+                                    <div class="skill-button-span">
+                                        <span class="rb_inner">
+                                            <span class="rb_inner d12">l</span>
+                                            <span>Know: Arcana</span>
+                                        </span>
+                                        <span>(Int)</span>
+                                    </div>
                                 </button></th>
-                            <td>Int</td>
                             <td><input name="attr_bonus_karcana" type="number" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{int_bonus})+@{ranks_karcana}+(@{base}+1)*@{base_karcana}+@{extra_karcana}}}"
@@ -2224,14 +2267,17 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><button type="action" class="rb int_based skill_button"
-                                    name="act_skill_r15">
+                            <th><button type="action" class="rb-skill-button" name="act_skill_r15">
                                     <input type="hidden" name="attr_skill_r15"
                                         value="&amp;{template:main}{{title=Knowledge: Dungeoneering}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_kdungon})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}">
-                                    <span class="rb_inner"><span class="rb_inner d12">l
-                                        </span>Know: Dungeon</span></button>
+                                    <div class="skill-button-span">
+                                        <span class="rb_inner">
+                                            <span class="rb_inner d12">l</span>
+                                            <span>Know: Dungeon</span>
+                                        </span>
+                                        <span>(Int)</span>
+                                    </div>
                                 </button></th>
-                            <td>Int</td>
                             <td><input name="attr_bonus_kdungon" type="number" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{int_bonus})+@{ranks_kdungon}+(@{base}+1)*@{base_kdungon}+@{extra_kdungon}}}"
@@ -2248,14 +2294,17 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><button type="action" class="rb int_based skill_button"
-                                    name="act_skill_r16">
+                            <th><button type="action" class="rb-skill-button" name="act_skill_r16">
                                     <input type="hidden" name="attr_skill_r16"
                                         value="&amp;{template:main}{{title=Knowledge: Geography}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_kgeography})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}">
-                                    <span class="rb_inner"><span class="rb_inner d12">l
-                                        </span>Know: Geography</span></button>
+                                    <div class="skill-button-span">
+                                        <span class="rb_inner">
+                                            <span class="rb_inner d12">l</span>
+                                            <span>Know: Geography</span>
+                                        </span>
+                                        <span>(Int)</span>
+                                    </div>
                                 </button></th>
-                            <td>Int</td>
                             <td><input name="attr_bonus_kgeography" type="number"
                                     class="tiny-input-r" disabled="true"
                                     value="{{(@{int_bonus})+@{ranks_kgeography}+(@{base}+1)*@{base_kgeography}+@{extra_kgeography}}}"
@@ -2272,14 +2321,17 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><button type="action" class="rb int_based skill_button"
-                                    name="act_skill_r17">
+                            <th><button type="action" class="rb-skill-button" name="act_skill_r17">
                                     <input type="hidden" name="attr_skill_r17"
                                         value="&amp;{template:main}{{title=Knowledge: History}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_khistory})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}">
-                                    <span class="rb_inner"><span class="rb_inner d12">l
-                                        </span>Know: History</span></button>
+                                    <div class="skill-button-span">
+                                        <span class="rb_inner">
+                                            <span class="rb_inner d12">l</span>
+                                            <span>Know: History</span>
+                                        </span>
+                                        <span>(Int)</span>
+                                    </div>
                                 </button></th>
-                            <td>Int</td>
                             <td><input name="attr_bonus_khistory" type="number" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{int_bonus})+@{ranks_khistory}+(@{base}+1)*@{base_khistory}+@{extra_khistory}}}"
@@ -2296,14 +2348,17 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><button type="action" class="rb int_based skill_button"
-                                    name="act_skill_r18">
+                            <th><button type="action" class="rb-skill-button" name="act_skill_r18">
                                     <input type="hidden" name="attr_skill_r18"
                                         value="&amp;{template:main}{{title=Knowledge: Nature}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_knature})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}">
-                                    <span class="rb_inner"><span class="rb_inner d12">l
-                                        </span>Know: Nature</span></button>
+                                    <div class="skill-button-span">
+                                        <span class="rb_inner">
+                                            <span class="rb_inner d12">l</span>
+                                            <span>Know: Nature</span>
+                                        </span>
+                                        <span>(Int)</span>
+                                    </div>
                                 </button></th>
-                            <td>Int</td>
                             <td><input name="attr_bonus_knature" type="number" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{int_bonus})+@{ranks_knature}+(@{base}+1)*@{base_knature}+@{extra_knature}}}"
@@ -2320,14 +2375,17 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><button type="action" class="rb int_based skill_button"
-                                    name="act_skill_r19">
+                            <th><button type="action" class="rb-skill-button" name="act_skill_r19">
                                     <input type="hidden" name="attr_skill_r19"
                                         value="&amp;{template:main}{{title=Knowledge: Religion}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_kreligion})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}">
-                                    <span class="rb_inner"><span class="rb_inner d12">l
-                                        </span>Know: Religion</span></button>
+                                    <div class="skill-button-span">
+                                        <span class="rb_inner">
+                                            <span class="rb_inner d12">l</span>
+                                            <span>Know: Religion</span>
+                                        </span>
+                                        <span>(Int)</span>
+                                    </div>
                                 </button></th>
-                            <td>Int</td>
                             <td><input name="attr_bonus_kreligion" type="number"
                                     class="tiny-input-r" disabled="true"
                                     value="{{(@{int_bonus})+@{ranks_kreligion}+(@{base}+1)*@{base_kreligion}+@{extra_kreligion}}}"
@@ -2344,14 +2402,17 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><button type="action" class="rb int_based skill_button"
-                                    name="act_skill_r20">
+                            <th><button type="action" class="rb-skill-button" name="act_skill_r20">
                                     <input type="hidden" name="attr_skill_r20"
                                         value="&amp;{template:main}{{title=Navigate}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_navigate})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}">
-                                    <span class="rb_inner"><span class="rb_inner d12">l
-                                        </span>Navigate</span></button>
+                                    <div class="skill-button-span">
+                                        <span class="rb_inner">
+                                            <span class="rb_inner d12">l</span>
+                                            <span>Navigate</span>
+                                        </span>
+                                        <span>(Int)</span>
+                                    </div>
                                 </button></th>
-                            <td>Int</td>
                             <td><input name="attr_bonus_navigate" type="number" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{int_bonus})+@{ranks_navigate}+(@{base}+1)*@{base_navigate}+@{extra_navigate}}}"
@@ -2368,14 +2429,17 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><button type="action" class="rb int_based skill_button"
-                                    name="act_skill_r22">
+                            <th><button type="action" class="rb-skill-button" name="act_skill_r22">
                                     <input type="hidden" name="attr_skill_r22"
                                         value="&amp;{template:main}{{title=Prospect}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_prospect})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}">
-                                    <span class="rb_inner"><span class="rb_inner d12">l
-                                        </span>Prospect</span></button>
+                                    <div class="skill-button-span">
+                                        <span class="rb_inner">
+                                            <span class="rb_inner d12">l</span>
+                                            <span>Prospect</span>
+                                        </span>
+                                        <span>(Int)</span>
+                                    </div>
                                 </button></th>
-                            <td>Int</td>
                             <td><input name="attr_bonus_prospect" type="number" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{int_bonus})+@{ranks_prospect}+(@{base}+1)*@{base_prospect}+@{extra_prospect}}}"
@@ -2392,14 +2456,17 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><button type="action" class="rb wis_based skill_button"
-                                    name="act_skill_r21">
+                            <th><button type="action" class="rb-skill-button" name="act_skill_r21">
                                     <input type="hidden" name="attr_skill_r21"
                                         value="&amp;{template:main}{{title=Observe}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_observe})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}">
-                                    <span class="rb_inner"><span class="rb_inner d12">l
-                                        </span>Observe</span></button>
+                                    <div class="skill-button-span">
+                                        <span class="rb_inner">
+                                            <span class="rb_inner d12">l</span>
+                                            <span>Observe</span>
+                                        </span>
+                                        <span>(Wis)</span>
+                                    </div>
                                 </button></th>
-                            <td>Wis</td>
                             <td><input name="attr_bonus_observe" type="number" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{wis_bonus})+@{ranks_observe}+(@{base}+1)*@{base_observe}+@{extra_observe}}}"
@@ -2416,14 +2483,17 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><button type="action" class="rb wis_based skill_button"
-                                    name="act_skill_r23">
+                            <th><button type="action" class="rb-skill-button" name="act_skill_r23">
                                     <input type="hidden" name="attr_skill_r23"
                                         value="&amp;{template:main}{{title=Sense Motive}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_smotive})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}">
-                                    <span class="rb_inner"><span class="rb_inner d12">l
-                                        </span>Sense Motive</span></button>
+                                    <div class="skill-button-span">
+                                        <span class="rb_inner">
+                                            <span class="rb_inner d12">l</span>
+                                            <span>Sense Motive</span>
+                                        </span>
+                                        <span>(Wis)</span>
+                                    </div>
                                 </button></th>
-                            <td>Wis</td>
                             <td><input name="attr_bonus_smotive" type="number" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{wis_bonus})+@{ranks_smotive}+(@{base}+1)*@{base_smotive}+@{extra_smotive}}}"
@@ -2440,14 +2510,17 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><button type="action" class="rb wis_based skill_button"
-                                    name="act_skill_r24">
+                            <th><button type="action" class="rb-skill-button" name="act_skill_r24">
                                     <input type="hidden" name="attr_skill_r24"
                                         value="&amp;{template:main}{{title=Spellworking}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_spellworking})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}">
-                                    <span class="rb_inner"><span class="rb_inner d12">l
-                                        </span>Spellworking</span></button>
+                                    <div class="skill-button-span">
+                                        <span class="rb_inner">
+                                            <span class="rb_inner d12">l</span>
+                                            <span>Spellworking</span>
+                                        </span>
+                                        <span>(Wis)</span>
+                                    </div>
                                 </button></th>
-                            <td>Wis</td>
                             <td><input name="attr_bonus_spellworking" type="number"
                                     class="tiny-input-r" disabled="true"
                                     value="{{(@{wis_bonus})+@{ranks_spellworking}+(@{base}+1)*@{base_spellworking}+@{extra_spellworking}}}"
@@ -2464,14 +2537,17 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><button type="action" class="rb wis_based skill_button"
-                                    name="act_skill_r25">
+                            <th><button type="action" class="rb-skill-button" name="act_skill_r25">
                                     <input type="hidden" name="attr_skill_r25"
                                         value="&amp;{template:main}{{title=Track}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_track})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}">
-                                    <span class="rb_inner"><span class="rb_inner d12">l
-                                        </span>Track</span></button>
+                                    <div class="skill-button-span">
+                                        <span class="rb_inner">
+                                            <span class="rb_inner d12">l</span>
+                                            <span>Track</span>
+                                        </span>
+                                        <span>(Wis)</span>
+                                    </div>
                                 </button></th>
-                            <td>Wis</td>
                             <td><input name="attr_bonus_track" type="number" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{wis_bonus})+@{ranks_track}+(@{base}+1)*@{base_track}+@{extra_track}}}"
@@ -2488,14 +2564,17 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><button type="action" class="rb cha_based skill_button"
-                                    name="act_skill_r26">
+                            <th><button type="action" class="rb-skill-button" name="act_skill_r26">
                                     <input type="hidden" name="attr_skill_r26"
                                         value="&amp;{template:main}{{title=Creature Handling}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_handle})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}">
-                                    <span class="rb_inner"><span class="rb_inner d12">l
-                                        </span>Creature Handling</span></button>
+                                    <div class="skill-button-span">
+                                        <span class="rb_inner">
+                                            <span class="rb_inner d12">l</span>
+                                            <span>Creature Handling</span>
+                                        </span>
+                                        <span>(Wis)</span>
+                                    </div>
                                 </button></th>
-                            <td>Cha</td>
                             <td><input name="attr_bonus_handle" type="number" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{cha_bonus})+@{ranks_handle}+(@{base}+1)*@{base_handle}+@{extra_handle}}}"
@@ -2512,14 +2591,17 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><button type="action" class="rb cha_based skill_button"
-                                    name="act_skill_r27">
+                            <th><button type="action" class="rb-skill-button" name="act_skill_r27">
                                     <input type="hidden" name="attr_skill_r27"
                                         value="&amp;{template:main}{{title=Deceive}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_deceive})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}">
-                                    <span class="rb_inner"><span class="rb_inner d12">l
-                                        </span>Deceive</span></button>
+                                    <div class="skill-button-span">
+                                        <span class="rb_inner">
+                                            <span class="rb_inner d12">l</span>
+                                            <span>Deceive</span>
+                                        </span>
+                                        <span>(Cha)</span>
+                                    </div>
                                 </button></th>
-                            <td>Cha</td>
                             <td><input name="attr_bonus_deceive" type="number" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{cha_bonus})+@{ranks_deceive}+(@{base}+1)*@{base_deceive}+@{extra_deceive}}}"
@@ -2536,14 +2618,17 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><button type="action" class="rb cha_based skill_button"
-                                    name="act_skill_r28">
+                            <th><button type="action" class="rb-skill-button" name="act_skill_r28">
                                     <input type="hidden" name="attr_skill_r28"
                                         value="&amp;{template:main}{{title=Diplomacy}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_diplomacy})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}">
-                                    <span class="rb_inner"><span class="rb_inner d12">l
-                                        </span>Diplomacy</span></button>
-                                </button></th>
-                            <td>Cha</td>
+                                    <div class="skill-button-span">
+                                        <span class="rb_inner">
+                                            <span class="rb_inner d12">l</span>
+                                            <span>Diplomacy</span>
+                                        </span>
+                                        <span>(Cha)</span>
+                                    </div>
+                                </button></th>\
                             <td><input name="attr_bonus_diplomacy" type="number"
                                     class="tiny-input-r" disabled="true"
                                     value="{{(@{cha_bonus})+@{ranks_diplomacy}+(@{base}+1)*@{base_diplomacy}+@{extra_diplomacy}}}"
@@ -2560,14 +2645,17 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><button type="action" class="rb cha_based skill_button"
-                                    name="act_skill_r29">
+                            <th><button type="action" class="rb-skill-button" name="act_skill_r29">
                                     <input type="hidden" name="attr_skill_r29"
                                         value="&amp;{template:main}{{title=Intimidate}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_intimidate})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}">
-                                    <span class="rb_inner"><span class="rb_inner d12">l
-                                        </span>Intimidate</span></button>
+                                    <div class="skill-button-span">
+                                        <span class="rb_inner">
+                                            <span class="rb_inner d12">l</span>
+                                            <span>Intimidate</span>
+                                        </span>
+                                        <span>(Cha)</span>
+                                    </div>
                                 </button></th>
-                            <td>Cha</td>
                             <td><input name="attr_bonus_intimidate" type="number"
                                     class="tiny-input-r" disabled="true"
                                     value="{{(@{cha_bonus})+@{ranks_intimidate}+(@{base}+1)*@{base_intimidate}+@{extra_intimidate}}}"
@@ -2584,15 +2672,18 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><button type="action" class="rb cha_based skill_button"
-                                    name="act_skill_r30">
+                            <th><button type="action" class="rb-skill-button" name="act_skill_r30">
                                     <input type="hidden" name="attr_skill_r30"
                                         value="&amp;{template:main}{{title=Perform}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_perform})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}">
-                                    <span class="rb_inner"><span class="rb_inner d12">l
-                                        </span>Perform</span></button>
+                                    <div class="skill-button-span">
+                                        <span class="rb_inner">
+                                            <span class="rb_inner d12">l</span>
+                                            <span>Perform</span>
+                                        </span>
+                                        <span>(Cha)</span>
+                                    </div>
                                 </button>
                             </th>
-                            <td>Cha</td>
                             <td><input name="attr_bonus_perform" type="number" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{cha_bonus})+@{ranks_perform}+(@{base}+1)*@{base_perform}+@{extra_perform}}}"
@@ -2609,14 +2700,17 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><button type="action" class="rb cha_based skill_button"
-                                    name="act_skill_r31">
+                            <th><button type="action" class="rb-skill-button" name="act_skill_r31">
                                     <input type="hidden" name="attr_skill_r31"
                                         value="&amp;{template:main}{{title=Persuade}}{{name=@{character_name}}}{{roll=[[@{nd12} + (@{nd12bonus}) + (@{bonus_persuade})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}">
-                                    <span class="rb_inner"><span class="rb_inner d12">l
-                                        </span>Persuade</span>
+                                    <div class="skill-button-span">
+                                        <span class="rb_inner">
+                                            <span class="rb_inner d12">l</span>
+                                            <span>Persuade</span>
+                                        </span>
+                                        <span>(Cha)</span>
+                                    </div>
                                 </button></th>
-                            <td>Cha</td>
                             <td><input name="attr_bonus_persuade" type="number" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{cha_bonus})+@{ranks_persuade}+(@{base}+1)*@{base_persuade}+@{extra_persuade}}}"

@@ -144,6 +144,13 @@
     color: #202424;
 }
 
+.sheet-rolltemplate-init .inlinerollresult,
+.sheet-rolltemplate-main .inlinerollresult {
+    background-color: transparent;
+    /* border: 1px solid #a2a29c40; */
+    border: none;
+}
+
 /* This is the main character sheet body that contains both
 the invariant header and th erest of the sheet.
 By setting all elements in here we can be strict with background
@@ -170,7 +177,7 @@ we make sure to keep default font sizes constant */
 
 .sheet-new-character-sheet-for-fantasy-worlds .sheet-basics-inner2 {
     display: grid;
-    grid-template-columns: 420px 340px;
+    grid-template-columns: 414px 346px;
     grid-template-rows: 480px;
     grid-template-areas:
         "attack-tab attack-det"
@@ -252,13 +259,13 @@ table.save-table.th {
 
 .sheet-basics-inner {
     display: grid;
-    grid-template-columns: 96px 142px 0px 172px 210px 140px;
+    grid-template-columns: 74px 130px 20px 6px 172px 210px 140px;
     grid-template-rows: 172px 216px 68px 210px;
     grid-template-areas:
-        "stats-tab save-tab thr-tab  thr-tab hit-box h-movement"
-        "stats-tab rest-box rest-box hp-box  hp-box  h-movement"
-        "stats-tab b-notes b-notes  b-notes b-notes  b-notes"
-        "stats-tab b-notes b-notes  b-notes b-notes  b-notes"
+        "stats-tab save-tab save-tab thr-tab  thr-tab hit-box  h-movement"
+        "stats-tab rest-box hp-box   hp-box   hp-box  hp-box   h-movement"
+        "stats-tab b-notes  b-notes  b-notes  b-notes b-notes  b-notes"
+        "stats-tab b-notes  b-notes  b-notes  b-notes b-notes  b-notes"
         /*  */
     ;
     grid-gap: 3px;
@@ -304,11 +311,13 @@ input.stats-input {
 div.save-tab {
     padding: 4px;
     grid-area: save-tab;
+    width: 100%;
 }
 
 div.thr-tab {
     padding: 4px;
     grid-area: thr-tab;
+    height: 156px;
 }
 
 div.hit-box {
@@ -325,6 +334,25 @@ th.hit-main {
     align-content: top;
 }
 
+th.h-movement,
+th.main-table2-cell,
+th.hp-box,
+th.rest,
+th.save-th,
+th.att-thr-th {
+     padding-left: 4px;
+     padding-right: 4px;
+     padding-top: 2px;
+     padding-top: 2px;
+}
+
+span.hp-box2 {
+    display: block;
+    min-width: 100%;
+    text-align: center;
+}
+
+table.attack-thr-table,
 table.save-table,
 table.resource-table,
 table.dice-table {
@@ -359,6 +387,7 @@ div.rest-box {
     break-inside: avoid;
 }
 
+table.attack-thr-table.row,
 table.save-table.row {
     border: 1px solid rgb(104, 101, 101);
 }
@@ -451,6 +480,14 @@ th.stat-th {
     border: 1px solid rgb(104, 101, 101);
 }
 
+th.attack-det-th,
+th.attack-tab-th {
+     padding-left: 4px;
+     padding-right: 4px;
+     padding-top: 2px;
+     padding-top: 2px;
+}
+
 
 /* SKILL SHEET */
 /* SKILL SHEET */
@@ -502,6 +539,13 @@ div.skill-esb {
     grid-area: skill-esb;
     border: 1px solid rgb(104, 101, 101);
     background-color: #e5e7e3;
+    align-items: center;
+    justify-items: center;
+}
+div.skills-esb-table {
+    max-height: 100%;
+    width: 100%;
+    padding: 3px;
 }
 
 div.skill-rem {
@@ -519,6 +563,8 @@ div.skill-ranks-max {
     grid-area: skill-ranks-max;
     border: 1px solid rgb(104, 101, 101);
     background-color: #e5e7e3;
+    align-content: center;
+    justify-items: center;
 }
 
 table.skill-table {
@@ -564,6 +610,14 @@ input.tiny-input-r {
     width: 60px;
     font-size: 13px;
 }
+
+th.skills-esb-th {
+     padding-left: 4px;
+     padding-right: 4px;
+     padding-top: 2px;
+     padding-top: 2px;
+}
+
 
 /* table.td.wr_del {
     justify-content: center;
@@ -980,7 +1034,21 @@ input.text-input-big {
     box-sizing: border-box
 }
 
+.d12 {
+    font-family: 'dicefontd12';
+    color: black;
+    font-size: 14pt;
+}
 
+.rb_inner {
+    display: flex;
+    text-wrap: nowrap;
+    padding-right: 2pt;
+}
+
+/* BUTTONS */
+/* BUTTONS */
+/* BUTTONS */
 
 button {
     background-color: #f2f4ec;
@@ -997,24 +1065,7 @@ button:active {
     background-color: #f4f7ee;
 }
 
-.d12 {
-    font-family: 'dicefontd12';
-    color: black;
-    font-size: 14pt;
-}
-
-.rb_inner {
-    display: flex;
-    text-wrap: nowrap;
-    padding-right: 2pt;
-}
-
-.skill_button {
-    max-width: 96%;
-    max-height: 110%;
-    min-height: 110%;
-}
-
+button[type=action].rb-thr-attack,
 button[type=action].rb-skill-button,
 button[type=action].rb,
 button[type=roll].rb {
@@ -1036,7 +1087,7 @@ button[type=roll].rb {
     justify-self: center;
 }
 
-
+button[type=action].rb-thr-attack,
 button[type=action].rb-skill-button,
 button[type=action].rb {
     border-radius: 4px;
@@ -1046,6 +1097,7 @@ button[type=action].rb {
     padding-right: 4px;
 }
 
+button[type=action].rb-thr-attack:active,
 button[type=action].rb-skill-button:active,
 button[type=action].rb:active,
 button[type=roll]:active {
@@ -1053,6 +1105,7 @@ button[type=roll]:active {
 }
 
 
+button[type=action].rb-thr-attack:hover,
 button[type=action].rb-skill-button:hover,
 button[type=action].rb:hover,
 button[type=roll]:hover {
@@ -1061,9 +1114,20 @@ button[type=roll]:hover {
 
 button[type=action].rb-skill-button {
     min-height: 20pt;
-    max-height: 110%;
-    max-width: 96%;
+    max-height: 90%;
+    max-width: 90%;
+    min-width: 90%;
 }
+
+button[type=action].rb-thr-attack {
+    min-height: 100%;
+    max-width: 100%;
+}
+
+button.init {
+    max-width: 92%;
+}
+
 
 /* configure the tab buttons */
 .sheet-new-character-sheet-for-fantasy-worlds .sheet-basics,

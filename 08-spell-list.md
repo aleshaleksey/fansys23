@@ -1944,7 +1944,10 @@ ___
 |Damage|3d8+[Sup] fire|(8)
 |Save|CHA, harmless|
 
-**Description**: Create a barrier of raging fire **up to** 10ft around the target. The barrier gives light concealment to all targets within. Entities inside the barrier have damage reduction of 5 vs non-magical physical and resistance to cold/ice attacks that originate outside of the barrier. In addition, any non-magical weapon (or unarmed entity) attacking or otherwise passing through the barrier takes 3d8+[Sup] fire damage. This damage can only be taken once per turn.
+**Description**: Create a barrier of raging fire **up to** 10ft around the target. The barrier gives light concealment to all targets within. Entities inside the barrier have damage reduction of 5 vs physical damage from weapons with a material level of I, and resistance to cold/ice attacks that originate outside of the barrier. In addition, items and entities in contact with the barrier can take damage once per turn as follows:
+
+- Any weapon of material level I used to attack through the barrier takes 2 damage dice of fire damage.
+- Any entity making an unarmed melee attack through the barrier or passing through it takes 3d8+[Sup] fire damage. This damage is also taken by any entity on the perimeter of the barrier when the spell first takes effect.
 
 **Limitation**:
 
@@ -3233,7 +3236,7 @@ ___
 **Description**: The caster calls flame to protect and ward an area and its perimeter is ringed by motes of flame. The barrier gives light concealment to all targets within. Entities inside the barrier have damage reduction of 10 vs non-magical physical or cold/ice attacks, regardless of their origin. In addition they have advantage on saves against the effects of fire spells, and those caused by elemental fire. Furthermore, the caster specifies "contain", "exclude" or "both". This gives the following effects:
 
 - Any entity on the perimeter of the area of effect, or within 5ft of it, when the ward is activated takes 4d8+[Sup] fire damage unless it succeeds a DEX save (for half).
-- Any entity or object that attempts to cross (including in making a melee attack/martial manoeuvre) the perimeter takes 4d8+[Sup] fire damage.
+- Any entity or object of material level of III or lower that attempts to cross (including in making a melee attack/martial manoeuvre) the perimeter takes 4d8+[Sup] fire damage.
   - If the ward was called as "contain", this damage occurs when an entity or object crosses out of the ward.
   - If the ward was called as "exclude", this damage occurs when an entity or object crosses into the ward.
 - Any entities aligned with "water" can only enter (or leave) the area if they succeed a CHA save.

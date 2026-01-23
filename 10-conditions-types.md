@@ -466,6 +466,10 @@ ___
 |Diseased     |C   |1 week                   |
 |Poisoned     |C   |1 day                    |
 
+Some conditions are curable using a ["heal"](05-skills.md#heal) roll (eg bleeding, poisoned, diseased). For certain other conditions (namely paralysed, catatonic, incapacitated, blinded, crippled and deafened) recovery may take half the time if a character is given long term care (see the heal skill) for the entire duration.
+
+Most conditions are cured by the ["cure" spell](08-spell-list.md#cure) cast at the appropriate level.
+
 ___
 ### Conditions in detail
 #### Doomed

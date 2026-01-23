@@ -619,6 +619,9 @@ ___
 ### Movement and Exploration
 - Finally add rules for [cosmic](03-movement-exploration.md#cosmic) and [blink](03-movement-exploration.md#blink) speed.
 
+### Skills
+- Allow [heal](05-skills.md#heal) to half duration of certain conditions if they can feasibly be treated by mundane means.
+
 ### Spells
 - Add [Summons](08-spell-list.md#summons) spell.
 - Tweak [Fire Ward](08-spell-list.md#fire-ward) and [Greater Fire Ward](08-spell-list.md#great-water-ward) spell to make them more balanced relative to each other.

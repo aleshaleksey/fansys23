@@ -413,8 +413,12 @@ Healing is the use of medical art and science (as opposed to magic) to diagnose 
   - Threshold = Threshold of poison.
 - **Treat disease**. Requires at least 1 minute of treatment and as much as several months. Often requires several successes over consecutive days (see diseases).
   - Threshold = [Treatment Threshold](14-poisons-and-diseases.md#treatment-threshold) of disease.
-- **Long term care**. Duration varies (at least 8h). Double number of HP regained over a long rest.
+- **Long term care**. Duration varies (at least 8h).
+    - Double number of HP regained over a long rest.
+    - Half the time to recover from the following conditions if their duration is at least 24 hours and the long term care is administered successfully for the duration of their effect: paralysed, catatonic, incapacitated, blinded, crippled, deafened.
+        - If the condition obviously cannot be cured by mundane means (eg, "crippled" with a severed limb), this does nothing.
   - Threshold = 10 + [number of creatures x 2].
+  - Long term care may invoke penalties or be impossible if the environment is unsafe or if suitable equipment is not available.
 - **Diagnosis**. Diagnose disease, poison or condition.
   - Natural condition: 12
   - Supernatural condition: 20

@@ -669,6 +669,7 @@ This is the act of using one's body (or a weapon) to severely restrict the movem
   - "Restrain": Prevent a foe from casting spells with kinetic components and give penalties to weapon attacks.
   - Keeping a target restrains requires at least one limb, hence precluding its use for movement, attacking or spellcasting.
   - A character with a "blink speed" may attempt to escape this manoeuvre by blinking (see ["Local and Global Movement: Blink"](03-movement-exploration.md#blink)).
+  - A restraining character can make a special grapple as a main action. In this case the restraining character makes an attack roll (proficiency: grapple) at disadvantage vs the __restrained__ character's STR or DEX threshold (chosen by the target). On success, the restrained character gains the crippled condition.
 
 ___
 #### Immobilise

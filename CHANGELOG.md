@@ -625,6 +625,7 @@ ___
 ### Spells
 - Add [Summons](08-spell-list.md#summons) spell.
 - Tweak [Fire Ward](08-spell-list.md#fire-ward) and [Greater Fire Ward](08-spell-list.md#great-water-ward) spell to make them more balanced relative to each other.
+- Fix wording on [Earth Ward](08-spell-list.md#earth-ward) and [Greater Earth Ward](08-spell-list.md#greater-earth-ward). The barriers regenerate in a round and not a turn.
 
 ### Templates
 - Allow deviation from standard size to 40%.

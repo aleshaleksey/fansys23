@@ -1875,7 +1875,7 @@ ___
 |Material|A brass bowl filled with earth, the bowl crumbles when the spell is cast|(3)
 |Save|CHA, harmless|
 
-**Description**: Create a solid, physical barrier of earth with a radius of **up to** 15ft around the target. The barrier gives total cover and total concealment to targets within it. Dealing 10 points of physical damage to the barrier (HiT=10, HP=10, damage reduction(except "esoteric")=10) in one turn opens a window big enough for a small size entity to enter freely (or a medium entity to squeeze through). At the end of the turn the barrier resets.
+**Description**: Create a solid, physical barrier of earth with a radius of **up to** 15ft around the target. The barrier gives total cover and total concealment to targets within it. Dealing 10 points of physical damage to the barrier (HiT=10, HP=10, damage reduction (except "esoteric")=10) in one round opens a window big enough for a small size entity to enter freely (or a medium entity to squeeze through). At the end of the caster's turn the barrier regenerates.
 
 **Limitation**:
 
@@ -3716,7 +3716,7 @@ ___
 |Material|A brass bowl filled with earth, the bowl crumbles when the spell is cast|-2
 |Save|CON,CHA|
 
-**Description**: The spell creates a solid, physical barrier of stone 5ft thick, around the caster with a radius of **up to** 50 feet. Dealing physical damage to the barrier (HiT=12, HP=20, damage reduction(except "esoteric")=20) in one turn opens a window big enough for a small size entity to enter freely, (or a medium entity to squeeze through). At the end of the turn, the barrier resets. Every time the barrier is damaged, contacted or crossed, the caster is aware of this, as well as the size and type of any entity crossing. Effects caused by area of effect "earth" spells of an equal or lower level that do not require an attack roll are excluded from the spell's area of effect.
+**Description**: The spell creates a solid, physical barrier of stone 5ft thick, around the caster with a radius of **up to** 50 feet. Dealing physical damage to the barrier (HiT=12, HP=20, damage reduction (except "esoteric")=20) in one round opens a window big enough for a small size entity to enter freely, (or a medium entity to squeeze through). At the end of the caster's turn, the barrier regenerates. Every time the barrier is damaged, contacted or crossed, the caster is aware of this, as well as the size and type of any entity crossing. Effects caused by area of effect "earth" spells of an equal or lower level that do not require an attack roll are excluded from the spell's area of effect.
 
 In addition, the caster can designate any number of entities as "protected". These can meld through the barrier as a move action. In addition:
 

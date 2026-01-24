@@ -17,6 +17,8 @@
     - [The Worm that Sings](#the-worm-that-sings)
     - [Mudwalker](#mudwalker)
     - [Kraken, Lesser](#sea-monster-kraken-lesser)
+    - [Mountain Tortoise](#mountain-tortoise-level-24)
+    - [Island Turtle: Mountain Tortoise variant](#island-turtle-mountain-tortoise-variant-level-24)
 - [Griffons and Other Chimeras](#griffons-and-other-chimeras)
     - [Chimera](#chimera)
     - [Griffon](#griffon)
@@ -711,6 +713,63 @@ A kraken makes 8 attacks with its tentacles. It can attack targets smaller than 
 A kraken is essentially a very big and very intelligent cephalopod-like monster. While younger krakens simply wonder the seas in search of prey and meaning, the elder ones generally (and erroneously) come to the conclusion that they are gods.
 
 A kraken has an enormous amount of time to learn magic. It seldom uses it in combat, but it *can*, should it choose. Storms at sea are sometimes attributed to this monster.
+
+___
+### Mountain Tortoise (level 24)
+
+- **Size**: Colossal++
+- **Natural Armour**: +16
+- **Carrying capacity**
+  - Light: 8,000 tonnes
+  - Medium: 16,0000 tonnes
+  - Heavy: 40,000 tonnes
+  - Drag: 80,000 tonnes
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|31/34/7|350 (*97*)|158 (*66*)|39|40ft|-|
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|40|4|32|5|22|18|
+|Bonus|+15|-3|+11|-3|+6|+4|
+|Save|+32|+1|+24|+3|+12|+10|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|24 (5)|43|31|8|6|13|11|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite|Thr=36 DEX|8d6+15 She|(Reach=40ft) The attack targets all entities in a 20ft x 20ft x 20ft cube. Entities smaller than huge have advantage on the save. Furthermore, entities smaller than "large" have a bonus of +10 to the save. Entities smaller than colossal must succeed a Threshold=36 DEX or STR save or be swallowed.|
+|Stomp|Thr=36 DEX|10d6+15 Per|(Reach=20ft) The attack targets all entities in a 40ft x 40ft x 40ft cube.  Entities smaller than huge have advantage on the save. Furthermore, entities smaller than "large" have a bonus of +10 on the save. Entities smaller than colossal must succeed a Threshold=36 DEX or STR save or be knocked prone and restrained. Such an entity is restrained until the tortoise moves at least 20ft or it manages to escape from beneath the tortoise's foot in some way.|
+|Digest|Thr=23 CON|3d8 Acid|A swallowed entity takes 3d8 acid damage at the start of its turn. The damage is halved on a successful Thr=23 CON save. If it is gargantuan, it is also restrained. Dealing at least 72 points of damage to a tortoise from the inside in one round causes it to regurgitate all swallowed entities.|
+|Crush|Thr=27 STR||An entity that a mountain tortoise is standing on must succeed a Thr=27 STR save or take 4d8 points of pressure damage. An entity beneath a tortoises feet can only crawl, dig, or use blink or cosmic speed to move.|
+|Monster Attack|||A mountain tortoise may make a bite attack and a stomp attack in the same round. However, it must target entities in a different area in each case.|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Damage Reduction|10||All damage except esoteric damage and weapons of material level 4 or higher. The damage reduction does not apply to damage dealt from the inside of the tortoise.|
+|Damage Resistance|||Physical, Poison, Disease, Cold, Lightning damage.|
+|Retreat|||As a main action, a tortoise can retreat into, or emerge from, its shell, giving it immunity to physical damage and natural elemental damage. The shell can be destroyed by supernatural attacks or attacks from weapons of a material grade of 4 or above (the shell acts as an object and has a HP of 40 and a damage reduction of 4 dice).|
+|Might beyond reason|||A mountain tortoise does not use normal rules for carrying capacity. A mountain turtle ignores weather effects related to wind, precipitation and temperatures outside of lethal temperatures. A mountain tortoise is immune to "grapple", "trip", "shove" and similar manoeuvres performed by entities smaller than gargantuan.|
+|Size beyond reason|||A mountain tortoise does not obey ordinary size rules. It takes up at least 400ft x 400ft (80 x 80 squares)|
+|||||
+|Low Light Vision|||A mountain tortoise can see in dim light (eg moonlight) as if it were daylight|
+|[Tremor Sense VI (120ft)](../06-abilities.md#tremor-sense-i-vi)|||A mountain tortoise can sense vibrations within 120 feet of itself|
+|Skills|||"Observe" +16, "Harvest" +16, "Stealth" +12|
+
+
+A mountain tortoise is a master of camouflage. It dwells in hilly terrain and in glacial valleys and spends most of its life pretending to be a mountain. Young mountain tortoises are no different from ordinary tortoises, but with time they do not cease from growing. A mountain tortoise continues to grow for the duration of its lifespan. And a mountain tortoise has an unfathomably long lifespan. Meter by meter, decade by decade, the tortoise continues to grow. As it grows it migrates to the mountains and spends more and more of its time sleeping. Who knows how many of the gentle forested hills a traveller may pass on his journey are in fact sleeping tortoises?
+
+Mountain tortoises are generally docile and good natured. When they feel in danger, they generally bury themselves, retreating into their shells, hence becoming nigh impervious to most attacks. A tortoise can come into conflict with humanoids when the latter build settlements on their migration routes. Tortoises usually ignore this kind of obstacle, leading to the most tragic of consequences for the settlement in its way. 
+
+___
+### Island Turtle: Mountain Tortoise variant (level 24)
+
+The Island turtle uses the same stat block as a mountain tortoise, with the exception that it has a walk speed of 10ft, and a swim speed of 80ft.
+
+Island turtles prefer cold seas rich in plankton and small fish. Elder island turtles come to the shallows to die, where the islands they carry on their back become true islands. They are particularly valued, and sometimes even worshipped by the sea people. Many an explorer has sailed past an uncharted island without realising that it was in fact a turtle.
 
 ___
 ## Griffons and Other Chimeras

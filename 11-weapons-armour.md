@@ -390,7 +390,7 @@ ___
 
  **Short spear**: This is any spear shorter than 6ft. It can be thrown up to 60ft in 20ft increments. It does NOT have the unwieldy property.
 
- **Spear**: This refers to spears between 6-10ft. It can be thrown up to to 60ft in 20ft increments.
+ **Spear**: This refers to spears between 6-10ft. It can be thrown up to 60ft in 20ft increments.
 
  **Long spears**: This refers to obscenely long spears. Pikes are included in this category. Long spears cannot be used against targets within 5ft of the wielder.
 

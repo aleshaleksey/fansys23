@@ -61,7 +61,7 @@ ___
 - Add table of spell learning to the 'Spells gained from levels in "spellcasting" ability' section.
 - Change "dying" and "doomed" to only lose 1 HP per round.
 - Chang "doomed" to give advantage on attacks.
-- Disambiguate AoO to to not work on involuntary movement.
+- Disambiguate AoO to not work on involuntary movement.
 - Being on fire and damage from being in burning places.
 
 ### Abilities & Spells

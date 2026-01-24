@@ -1690,7 +1690,7 @@ ___
 
 **Upcast**: For every extra MP die above 2 MP dice, the caster may either:
 
-- Reduce the casting time to  1 Secondary action.
+- Reduce the casting time to 1 Secondary action.
 - Extend the blink distance by 30ft.
 
 ___
@@ -2199,7 +2199,7 @@ ___
 
 **Description**: The caster causes the target entity to fall asleep (unconscious) on a failed INT save. The target repeats the save at the start of each turn, awakening on a successful save (if it lives long enough).
 
-**Special**: A target, if it fails the save, may instead choose to to take SP damage equal to the SP of the caster, plus 1 point of HP damage, and hence avoid the effect of the spell. In order to make use of this possibility the target must be proficient with ["Knowledge: Arcana"](05-skills.md#knowledge) and successfully identify the spell (Threshold of at least 15). (The mechanistic reason for this, is because unconsciousness, in this system, is extremely dangerous, so players are given the option of avoiding the effect, for a heavy, heavy toll.)
+**Special**: A target, if it fails the save, may instead choose to take SP damage equal to the SP of the caster, plus 1 point of HP damage, and hence avoid the effect of the spell. In order to make use of this possibility the target must be proficient with ["Knowledge: Arcana"](05-skills.md#knowledge) and successfully identify the spell (Threshold of at least 15). (The mechanistic reason for this, is because unconsciousness, in this system, is extremely dangerous, so players are given the option of avoiding the effect, for a heavy, heavy toll.)
 
 **Upcast**: The spell affects an additional target for each extra MP die above 3.
 

@@ -11,7 +11,7 @@ ___
 
 All characters start with a template. A template is a set of abilities, traits and properties. Usually it is associated with a race or creature type.
 
-Each template specifies modifiers to to size, stats, movement, sight (and other extra senses), entity type, and proficiencies. Which are applied It may also grant extra bonuses ("extra") or penalties ("weaknesses"). Lastly each template grants "race boons" which are applied at level 8 and level 16.
+Each template specifies modifiers to size, stats, movement, sight (and other extra senses), entity type, and proficiencies. Which are applied It may also grant extra bonuses ("extra") or penalties ("weaknesses"). Lastly each template grants "race boons" which are applied at level 8 and level 16.
 
 Each example template/race includes the template point cost of each feature of the template that has a non-zero cost. These are included as an illustration and for groups making their own templates. Players and DMs who are using the below templates in their games can ignore the template point costs have no bearing on a game once a template is created. 
 
@@ -429,7 +429,7 @@ This represents a low-grade vampire. Its type is undead, but due to lack of poin
 - Cannot cross running water willingly.
 - Vulnerability to "divine" and "light" damage.
 - Anathema Sunlight: Takes 1 HP damage (light) per turn if exposed to _direct_ sunlight.
-- Creature of the Night: Disadvantage to to attack rolls, saves and WIS based rolls when outdoors in daylight.
+- Creature of the Night: Disadvantage to attack rolls, saves and WIS based rolls when outdoors in daylight.
 
 **Extra (24)**
 
@@ -521,7 +521,7 @@ This represents a low-grade vampire. Its type is undead, but due to lack of poin
 - Cannot cross running water willingly.
 - Vulnerability to "divine" and "light" damage.
 - Anathema Sunlight: Takes 1 HP damage (light) if exposed to _direct_ sunlight.
-- Creature of the Night: Disadvantage to to attack rolls, saves and WIS based rolls when outdoors in daylight.
+- Creature of the Night: Disadvantage to attack rolls, saves and WIS based rolls when outdoors in daylight.
 
 **Extra (54)**
 

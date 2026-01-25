@@ -63,6 +63,18 @@
             {{#dmg}}<div class="sheet-l2"><span class="sheet-t-ord">🗡 Damage</span><span
                     class="sheet-r-dmg">{{dmg}}{{#x_die}} +
                     {{xd_die}}{{/x_die}}</span></div>{{/dmg}}
+            <!-- Display extra damage box 1 -->
+            {{#xdmg1}}<div class="sheet-l2"><span class="sheet-t-ord">🗡 {{xdmgn1}}</span><span
+                    class="sheet-r-dmg">{{xdmg1}}</span></div>{{/xdmg1}}
+            <!-- Display extra damage box 2 -->
+            {{#xdmg2}}<div class="sheet-l2"><span class="sheet-t-ord">🗡 {{xdmgn2}}</span><span
+                    class="sheet-r-dmg">{{xdmg2}}</span></div>{{/xdmg2}}
+            <!-- Display extra damage box 3 -->
+            {{#xdmg3}}<div class="sheet-l2"><span class="sheet-t-ord">🗡 {{xdmgn3}}</span><span
+                    class="sheet-r-dmg">{{xdmg3}}</span></div>{{/xdmg3}}
+            <!-- Display extra damage box 4 -->
+            {{#xdmg4}}<div class="sheet-l2"><span class="sheet-t-ord">🗡 {{xdmgn4}}</span><span
+                    class="sheet-r-dmg">{{xdmg4}}</span></div>{{/xdmg4}}
             <!-- Display Crit information for attack-->
             {{#rollWasCrit() attack}}{{#^rollWasFumble() attack}}<div class="sheet-l3">
                 <span class="sheet-t-crit">✩ D12</span>
@@ -141,7 +153,7 @@
                         <tr>
                             <th class="main-table2-cell">TP</th>
                             <td><input class="text-input-hl-name" name="attr_char_template_lvl"
-                                    type="number">
+                                    type="numeric">
                             </td>
                         </tr>
                     </tbody>
@@ -175,12 +187,12 @@
                                     name="roll_init" class="rb init">
                                     Init.
                                 </button></th>
-                            <td><input class="tiny-input" name="attr_init_total" type="number"
+                            <td><input class="tiny-input" name="attr_init_total" type="numeric"
                                     disabled="true" value="{@{init_stats}+@{init_bonus}}"
                                     data-formula="{@{init_stats}+@{init_bonus}}"> =
                                 <input class="tiny-input" name="attr_init_stats"
                                     value="{ceil(@{dex_bonus}/2)+ceil(@{int_bonus}/2)}"
-                                    type="number" disabled="true" value="0"> +
+                                    type="numeric" disabled="true" value="0"> +
                                 <input class="tiny-input" name="attr_init_bonus" type="number"
                                     value="0">
                             </td>
@@ -225,23 +237,23 @@
                     <tbody>
                         <tr>
                             <th class="main-table2-cell">Base</th>
-                            <td><input class="tiny-input" disabled="true" type="number"
+                            <td><input class="tiny-input" disabled="true" type="numeric"
                                     name="attr_base" value="{ceil(@{lvl}/5)}"
                                     data-formula="{ceil(@{lvl}/5)}">
                                 <input hidden="true" class="tiny-input" disabled="true"
-                                    type="number" name="attr_base_plus" value="{@{base}+1}"
+                                    type="numeric" name="attr_base_plus" value="{@{base}+1}"
                                     data-formula="{@{base}+1}">
                             </td>
                         </tr>
                         <tr>
                             <th class="main-table2-cell">Nat</th>
-                            <td><input class="tiny-input" disabled="true" type="number"
+                            <td><input class="tiny-input" disabled="true" type="numeric"
                                     name="attr_nat" value="{ceil(@{sp_dice_total}/6)}"
                                     data-formula="{ceil(@{sp_dice_total}/6)}">
                         </tr>
                         <tr>
                             <th class="main-table2-cell">Sup</th>
-                            <td><input class="tiny-input" disabled="true" type="number"
+                            <td><input class="tiny-input" disabled="true" type="numeric"
                                     name="attr_sup" value="{ceil(@{mp_dice_total}/6)}"
                                     data-formula="{ceil(@{mp_dice_total}/6)}">
                             </td>
@@ -278,27 +290,27 @@
                         </tr>
                         <tr>
                             <td>Walk</td>
-                            <td><input name="attr_walk_speed" class="tiny-input" type="number">
+                            <td><input name="attr_walk_speed" class="tiny-input" type="numeric">
                             </td>
                         </tr>
                         <tr>
                             <td>Climb</td>
-                            <td><input name="attr_climb_speed" class="tiny-input" type="number">
+                            <td><input name="attr_climb_speed" class="tiny-input" type="numeric">
                             </td>
                         </tr>
                         <tr>
                             <td>Swim</td>
-                            <td><input name="attr_swim_speed" class="tiny-input" type="number">
+                            <td><input name="attr_swim_speed" class="tiny-input" type="numeric">
                             </td>
                         </tr>
                         <tr>
                             <td>Dig</td>
-                            <td><input name="attr_dig_speed" class="tiny-input" type="number">
+                            <td><input name="attr_dig_speed" class="tiny-input" type="numeric">
                             </td>
                         </tr>
                         <tr>
                             <td>Fly</td>
-                            <td><input name="attr_fly_speed" class="tiny-input" type="number">
+                            <td><input name="attr_fly_speed" class="tiny-input" type="numeric">
                             </td>
                         </tr>
                     </tbody>
@@ -318,10 +330,10 @@
                                             </span>Str</span></button>
                                     </button>
                                     <input class=" tiny-input-big" name="attr_str_bonus"
-                                        type="number" disabled="true"
+                                        type="numeric" disabled="true"
                                         value="{floor(@{stat_str}/2-5)}"
                                         data-formula="{floor(@{stat_str}/2-5)}">
-                                    <input class="stats-input" name="attr_stat_str" type="number"
+                                    <input class="stats-input" name="attr_stat_str" type="numeric"
                                         value="0">
                                 </div>
                             </th>
@@ -337,10 +349,10 @@
                                         <span class="rb_inner"><span class="rb_inner d12">l
                                             </span>Dex</span></button>
                                     </button><input class="tiny-input-big" name="attr_dex_bonus"
-                                        type="number" disabled="true"
+                                        type="numeric" disabled="true"
                                         value="{{floor(@{stat_dex}/2-5)}}"
                                         data-formula="{{floor(@{stat_dex}/2-5)}}">
-                                    <input class=" stats-input" name="attr_stat_dex" type="number"
+                                    <input class=" stats-input" name="attr_stat_dex" type="numeric"
                                         value="0">
                                 </div>
                             </th>
@@ -356,11 +368,11 @@
                                         <span class="rb_inner"><span class="rb_inner d12">l
                                             </span>Con</span></button>
                                     </button><input class="tiny-input-big" name="attr_con_bonus"
-                                        type="number" disabled="true"
+                                        type="numeric" disabled="true"
                                         value="{floor(@{stat_con}/2-5)}"
                                         data-formula="{floor(@{stat_con}/2-5)}">
                                     <input class=" stats-input" value="0" name="attr_stat_con"
-                                        type="number">
+                                        type="numeric">
                                 </div>
                             </th>
                         </tr>
@@ -375,11 +387,11 @@
                                         <span class="rb_inner"><span class="rb_inner d12">l
                                             </span>Int</span></button>
                                     </button><input class="tiny-input-big" name="attr_int_bonus"
-                                        type="number" disabled="true"
+                                        type="numeric" disabled="true"
                                         value="{floor(@{stat_int}/2-5)}"
                                         data-formula="{floor(@{stat_int}/2-5)}">
                                     <input class="stats-input" value="0" name="attr_stat_int"
-                                        type="number">
+                                        type="numeric">
                                 </div>
                             </th>
                         </tr>
@@ -394,11 +406,11 @@
                                         <span class="rb_inner"><span class="rb_inner d12">l
                                             </span>Wis</span></button>
                                     </button><input class="tiny-input-big" name="attr_wis_bonus"
-                                        type="number" disabled="true"
+                                        type="numeric" disabled="true"
                                         value="{floor(@{stat_wis}/2-5)}"
                                         data-formula="{floor(@{stat_wis}/2-5)}">
                                     <input class="stats-input" value="0" name="attr_stat_wis"
-                                        type="number">
+                                        type="numeric">
                                 </div>
                             </th>
                         </tr>
@@ -413,11 +425,11 @@
                                         <span class="rb_inner"><span class="rb_inner d12">l
                                             </span>Cha</span></button>
                                     </button><input class="tiny-input-big" name="attr_cha_bonus"
-                                        type="number" disabled="true"
+                                        type="numeric" disabled="true"
                                         value="{floor(@{stat_cha}/2-5)}"
                                         data-formula="{floor(@{stat_cha}/2-5)}">
                                     <input class="stats-input" value="0" name="attr_stat_cha"
-                                        type="number">
+                                        type="numeric">
                                 </div>
                             </th>
                         </tr>
@@ -442,7 +454,7 @@
                                         </span>Str</span></button>
                                 </button>
                             </th>
-                            <th><input name="attr_save_bonus_str" disabled="true" type="number"
+                            <th><input name="attr_save_bonus_str" disabled="true" type="numeric"
                                     class="tiny-input"
                                     value="{@{base}+@{save_prof_str}*@{nat}+floor(@{stat_str}/2-5) + (@{char_size})}"
                                     data-formula="{@{base}+@{save_prof_str}*@{nat}+floor(@{stat_str}/2-5) + (@{char_size})}">
@@ -461,7 +473,7 @@
                                         </span>Dex</span></button>
                                 </button>
                             </th>
-                            <th><input name="attr_save_bonus_dex" disabled="true" type="number"
+                            <th><input name="attr_save_bonus_dex" disabled="true" type="numeric"
                                     class="tiny-input"
                                     value="{@{base}+@{nat}*@{save_prof_dex}+floor(@{stat_dex}/2-5) - (@{char_size})}"
                                     data-formula="{@{base}+@{nat}*@{save_prof_dex}+floor(@{stat_dex}/2-5) - (@{char_size})}">
@@ -480,7 +492,7 @@
                                         </span>Con</span></button>
                                 </button>
                             </th>
-                            <th><input name="attr_save_bonus_con" disabled="true" type="number"
+                            <th><input name="attr_save_bonus_con" disabled="true" type="numeric"
                                     class="tiny-input"
                                     value="{@{base}+@{nat}*@{save_prof_con}+floor(@{stat_con}/2-5)}"
                                     data-formula="{@{base}+@{nat}*@{save_prof_con}+floor(@{stat_con}/2-5)}">
@@ -499,7 +511,7 @@
                                         </span>Int</span></button>
                                 </button>
                             </th>
-                            <th><input name="attr_save_bonus_int" disabled="true" type="number"
+                            <th><input name="attr_save_bonus_int" disabled="true" type="numeric"
                                     class="tiny-input"
                                     value="{@{base}+@{sup}*@{save_prof_int}+floor(@{stat_int}/2-5)}"
                                     data-formula="{@{base}+@{sup}*@{save_prof_int}+floor(@{stat_int}/2-5)}">
@@ -520,7 +532,7 @@
                                         </span>Wis</span></button>
                                 </button>
                             </th>
-                            <th><input name="attr_save_bonus_wis" disabled="true" type="number"
+                            <th><input name="attr_save_bonus_wis" disabled="true" type="numeric"
                                     class="tiny-input"
                                     value="{@{base}+@{sup}*@{save_prof_wis}+floor(@{stat_wis}/2-5)}"
                                     data-formula="{@{base}+@{sup}*@{save_prof_wis}+floor(@{stat_wis}/2-5)}">
@@ -539,7 +551,7 @@
                                         </span>Cha</span></button>
                                 </button>
                             </th>
-                            <th><input name="attr_save_bonus_cha" disabled="true" type="number"
+                            <th><input name="attr_save_bonus_cha" disabled="true" type="numeric"
                                     class="tiny-input"
                                     value="{@{base}+@{sup}*@{save_prof_cha}+floor(@{stat_cha}/2-5)}"
                                     data-formula="{@{base}+@{sup}*@{save_prof_cha}+floor(@{stat_cha}/2-5)}">
@@ -572,11 +584,11 @@
                                         </span>Str!</span></button>
                                 </button></th>
                             <td><input class="tiny-input" name="attr_threshold_str" disabled="true"
-                                    type="number" value="{{13+@{str_bonus}+@{nat}+@{base}}}"
+                                    type="numeric" value="{{13+@{str_bonus}+@{nat}+@{base}}}"
                                     data-formula="{{13+@{str_bonus}+@{nat}+@{base}}}">
                             </td>
                             <td><input class="tiny-input" name="attr_attack_mod_str" disabled="true"
-                                    type="number" value="{{(@{str_bonus})+@{nat}+@{base}}}"
+                                    type="numeric" value="{{(@{str_bonus})+@{nat}+@{base}}}"
                                     data-formula="{{(@{str_bonus})+@{nat}+@{base}}}">
                             </td>
                         </tr>
@@ -589,11 +601,11 @@
                                         </span>Dex!</span></button>
                                 </button></th>
                             <td><input class="tiny-input" name="attr_threshold_dex" disabled="true"
-                                    type="number" value="{{13+(@{dex_bonus})+@{nat}+@{base}}}"
+                                    type="numeric" value="{{13+(@{dex_bonus})+@{nat}+@{base}}}"
                                     data-formula="{{13+(@{dex_bonus})+@{nat}+@{base}}}">
                             </td>
                             <td><input class="tiny-input" name="attr_attack_mod_dex" disabled="true"
-                                    type="number" value="{{(@{dex_bonus})+@{nat}+@{base}}}"
+                                    type="numeric" value="{{(@{dex_bonus})+@{nat}+@{base}}}"
                                     data-formula="{{(@{dex_bonus})+@{nat}+@{base}}}">
                             </td>
                         </tr>
@@ -606,11 +618,11 @@
                                         </span> Int!</span></button>
                                 </button></th>
                             <td><input class="tiny-input" name="attr_threshold_int" disabled="true"
-                                    type="number" value="{{13+(@{int_bonus})+@{sup}}}"
+                                    type="numeric" value="{{13+(@{int_bonus})+@{sup}}}"
                                     data-formula="{{13+(@{int_bonus})+@{sup}}}">
                             </td>
                             <td><input class="tiny-input" name="attr_attack_mod_int" disabled="true"
-                                    type="number" value="{(@{int_bonus})+@{sup}+@{base}}"
+                                    type="numeric" value="{(@{int_bonus})+@{sup}+@{base}}"
                                     data-formula="{{(@{int_bonus})+@{sup}+@{base}}}">
                             </td>
                         </tr>
@@ -623,11 +635,11 @@
                                         </span>Wis!</span></button>
                                 </button></th>
                             <td><input class="tiny-input" name="attr_threshold_wis" disabled="true"
-                                    type="number" value="{{13+(@{wis_bonus})+@{sup}}}"
+                                    type="numeric" value="{{13+(@{wis_bonus})+@{sup}}}"
                                     data-formula="{{13+(@{wis_bonus})+@{sup}}}">
                             </td>
                             <td><input class="tiny-input" name="attr_attack_mod_wis" disabled="true"
-                                    type="number" value="{{(@{wis_bonus})+@{base}+@{sup}}}"
+                                    type="numeric" value="{{(@{wis_bonus})+@{base}+@{sup}}}"
                                     data-formula="{{(@{wis_bonus})+@{sup}+@{base}}}">
                             </td>
                         </tr>
@@ -640,7 +652,7 @@
                     <tbody>
                         <tr>
                             <th class="hit-main"><input class="tiny-input-huge"
-                                    name="attr_hit_threshold" disabled="true" type="number"
+                                    name="attr_hit_threshold" disabled="true" type="numeric"
                                     value="{{@{evasion_bonus}+@{base}+@{armour}+@{shield}+@{deflection}+@{char_size}+@{hit_extra}+10}}"
                                     data-formula="{{@{evasion_bonus}+@{base}+@{armour}+@{shield}+@{deflection}+@{char_size}+@{hit_extra}+10}}">
                             </th>
@@ -652,32 +664,32 @@
                         <tr>
                             <td>Evasion</td>
                             <td><input class="tiny-input-small" name="attr_evasion_bonus"
-                                    disabled="true" type="number"
+                                    disabled="true" type="numeric"
                                     value="{{@{dex_bonus}-(@{char_size})}}"
                                     data-formula="{{@{dex_bonus}-(@{char_size})}}">
                             </td>
                         </tr>
                         <tr>
                             <td>Armour</td>
-                            <td><input class="tiny-input-small" name="attr_armour" type="number"
+                            <td><input class="tiny-input-small" name="attr_armour" type="numeric"
                                     value="0">
                             </td>
                         </tr>
                         <tr>
                             <td>Shield</td>
-                            <td><input class="tiny-input-small" name="attr_shield" type="number"
+                            <td><input class="tiny-input-small" name="attr_shield" type="numeric"
                                     value="0">
                             </td>
                         </tr>
                         <tr>
                             <td>Deflection</td>
-                            <td><input class="tiny-input-small" name="attr_deflection" type="number"
-                                    value="0">
+                            <td><input class="tiny-input-small" name="attr_deflection"
+                                    type="numeric" value="0">
                             </td>
                         </tr>
                         <tr>
                             <td>Other</td>
-                            <td><input class="tiny-input-small" name="attr_hit_extra" type="number"
+                            <td><input class="tiny-input-small" name="attr_hit_extra" type="numeric"
                                     value="0">
                             </td>
                         </tr>
@@ -691,28 +703,28 @@
                     <caption><strong>On rest regain:</strong></caption>
                     <tbody>
                         <tr>
-                            <td><input type="number" class="tiny-input" disabled="true"
+                            <td><input type="numeric" class="tiny-input" disabled="true"
                                     name="attr_regain_sp_dice" value="{{ceil(@{sp_dice_total}/2)}}"
                                     data-formula="{{ceil(@{sp_dice_total}/2)}}">
                             </td>
                             <th class="rest">SP dice</th>
                         </tr>
                         <tr>
-                            <td><input type="number" class="tiny-input" disabled="true"
+                            <td><input type="numeric" class="tiny-input" disabled="true"
                                     name="attr_regain_mp_dice" value="{{ceil(@{mp_dice_total}/2)}}"
                                     data-formula="{{ceil(@{mp_dice_total}/2)}}">
                             </td>
                             <th class="rest">MP dice</th>
                         </tr>
                         <tr>
-                            <td><input type="number" class="tiny-input" disabled="true"
+                            <td><input type="numeric" class="tiny-input" disabled="true"
                                     name="attr_regain_sp" value="{@{sp_dice_total}}"
                                     data-formula="{@{sp_dice_total}}">
                             </td>
                             <th class="rest">Stamina</th>
                         </tr>
                         <tr>
-                            <td><input type="number" class="tiny-input" disabled="true"
+                            <td><input type="numeric" class="tiny-input" disabled="true"
                                     name="attr_regain_mp" value="{@{mp_dice_total}}"
                                     data-formula="{@{mp_dice_total}}">
                             </td>
@@ -740,34 +752,34 @@
                         </tr>
                         <tr>
                             <th class="hp-box">Max</th>
-                            <td><input name="attr_hp_max" type="number" class="tiny-input"
+                            <td><input name="attr_hp_max" type="numeric" class="tiny-input"
                                     disabled="true" value="{@{lvl}+@{cha_bonus}+@{con_bonus}}"
                                     data-formula="{@{lvl}+@{cha_bonus}+@{con_bonus}}">
                             </td>
-                            <td><input name="attr_mp_max" type="number" class="tiny-input"
+                            <td><input name="attr_mp_max" type="numeric" class="tiny-input"
                                     disabled="true" value="{@{sp_dice_total}*2+@{lvl}*@{con_bonus}}"
                                     data-formula="{@{sp_dice_total}*2+@{lvl}*@{con_bonus}}">
                             </td>
-                            <td><input name="attr_mp_max" type="number" class="tiny-input"
+                            <td><input name="attr_mp_max" type="numeric" class="tiny-input"
                                     disabled="true" value="{@{mp_dice_total}*2+@{lvl}*@{cha_bonus}}"
                                     data-formula="{@{mp_dice_total}*2+@{lvl}*@{cha_bonus}}">
                             </td>
-                            <td><input name="attr_mp_absorb" type="number" class="tiny-input"
+                            <td><input name="attr_mp_absorb" type="numeric" class="tiny-input"
                                     disabled="true" value="{@{sp_dice_total}*2+@{con_bonus}}"
                                     data-formula="{@{sp_dice_total}*2+@{con_bonus}}">
                             </td>
-                            <td><input name="attr_mp_absorb" type="number" class="tiny-input"
+                            <td><input name="attr_mp_absorb" type="numeric" class="tiny-input"
                                     disabled="true" value="{@{mp_dice_total}*2+@{cha_bonus}}"
                                     data-formula="{@{mp_dice_total}*2+@{cha_bonus}}">
                             </td>
                         </tr>
                         <tr>
                             <th class="hp-box">Current</th>
-                            <td><input name="attr_hp" class="tiny-input" type="number" value="0">
+                            <td><input name="attr_hp" class="tiny-input" type="numeric" value="0">
                             </td>
-                            <td><input name="attr_sp" class="tiny-input" type="number" value="0">
+                            <td><input name="attr_sp" class="tiny-input" type="numeric" value="0">
                             </td>
-                            <td><input name="attr_mp" class="tiny-input" type="number" value="0">
+                            <td><input name="attr_mp" class="tiny-input" type="numeric" value="0">
                             </td>
                             <th><span class="hp-box2">-</span></th>
                             <th><span class="hp-box2">-</span></th>
@@ -777,10 +789,10 @@
                         <tr>
                             <th class="hp-box">Current</th>
                             <th></th>
-                            <td><input name="attr_sp_dice" class="tiny-input" type="number"
+                            <td><input name="attr_sp_dice" class="tiny-input" type="numeric"
                                     value="0">
                             </td>
-                            <td><input name="attr_mp_dice" class="tiny-input" type="number"
+                            <td><input name="attr_mp_dice" class="tiny-input" type="numeric"
                                     value="0">
                             </td>
                             <th class="hp-box">Unassigned</th>
@@ -788,13 +800,13 @@
                         <tr>
                             <th class="hp-box">Max</th>
                             <th></th>
-                            <td><input name="attr_sp_dice_total" type="number" class="tiny-input"
+                            <td><input name="attr_sp_dice_total" type="numeric" class="tiny-input"
                                     value="1">
                             </td>
-                            <td><input name="attr_mp_dice_total" type="number" class="tiny-input"
+                            <td><input name="attr_mp_dice_total" type="numeric" class="tiny-input"
                                     value="1">
                             </td>
-                            <td><input name="attr_unassigned_dice" type="number" class="tiny-input"
+                            <td><input name="attr_unassigned_dice" type="numeric" class="tiny-input"
                                     disabled="true"
                                     value="{{2+@{lvl}*3-(@{mp_dice_total}+@{sp_dice_total})}}"
                                     data-formula="{{2+@{lvl}*3-(@{mp_dice_total}+@{sp_dice_total})}}">
@@ -814,6 +826,119 @@
         <!-- INNER FOR SECOND PART OF INTO STARTS HERE -->
         <!-- IT CONTAINS WEAPONS AND CHARACTER ABILITIES -->
         <div class="sheet-basics-inner2">
+            <div class="dam-mod-tab">
+                <table class="attack-modifier-table">
+                    <tbody>
+                        <tr>
+                            <th class="attack-tab-th">Extra Damage</th>
+                            <th class="attack-tab-th">Count</th>
+                            <th class="attack-tab-th">Size</th>
+                            <th class="attack-tab-th">Static</th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td><input class="xd-name" name="attr_xd_name_1" type="text"
+                                    placeholder="Damage bonus I">
+                            </td>
+                            <td><input class="xd-count" name="attr_xd_dcount_1" type="number"
+                                    value="0" min="0"></td>
+                            <td class="xd-size-td"><span><select class="xd-dsize"
+                                        name="attr_xd_dsize_1" type="number">
+                                        <option value="2">d2</option>
+                                        <option value="3">d3</option>
+                                        <option value="4">d4</option>
+                                        <option value="5">d5</option>
+                                        <option value="6">d6</option>
+                                        <option value="8">d8</option>
+                                        <option value="10">d10</option>
+                                        <option value="12">d12</option>
+                                    </select></span></td>
+                            <td><input class="xd-count" name="attr_xd_mod_1" type="numeric"
+                                    value="0"></td>
+                            <td><input class="tiny-checkbox" type="checkbox" name="attr_xd_1"
+                                    value="1"></td>
+                        </tr>
+                        <tr>
+                            <td><input class="xd-name" name="attr_xd_name_2" type="text"
+                                    placeholder="Damage bonus II">
+                            </td>
+                            <td><input class="xd-count" name="attr_xd_dcount_2" type="number"
+                                    value="0" min="0"></td>
+                            <td class="xd-size-td"><span><select class="xd-dsize"
+                                        name="attr_xd_dsize_2" type="number">
+                                        <option value="2">d2</option>
+                                        <option value="3">d3</option>
+                                        <option value="4">d4</option>
+                                        <option value="5">d5</option>
+                                        <option value="6">d6</option>
+                                        <option value="8">d8</option>
+                                        <option value="10">d10</option>
+                                        <option value="12">d12</option>
+                                    </select></span></td>
+                            <td><input class="xd-count" name="attr_xd_mod_2" type="numeric"
+                                    value="0"></td>
+                            <td><input class="tiny-checkbox" type="checkbox" name="attr_xd_2"
+                                    value="1"></td>
+                        </tr>
+                        <tr>
+                            <td><input class="xd-name" name="attr_xd_name_3" type="text"
+                                    placeholder="Damage bonus III">
+                            </td>
+                            <td><input class="xd-count" name="attr_xd_dcount_3" type="number"
+                                    value="0" min="0"></td>
+                            <td class="xd-size-td"><span><select class="xd-dsize"
+                                        name="attr_xd_dsize_3" type="numeric">
+                                        <option value="2">d2</option>
+                                        <option value="3">d3</option>
+                                        <option value="4">d4</option>
+                                        <option value="5">d5</option>
+                                        <option value="6">d6</option>
+                                        <option value="8">d8</option>
+                                        <option value="10">d10</option>
+                                        <option value="12">d12</option>
+                                    </select></span></td>
+                            <td><input class="xd-count" name="attr_xd_mod_3" type="numeric"
+                                    value="0"></td>
+                            <td><input class="tiny-checkbox" type="checkbox" name="attr_xd_3"
+                                    value="1"></td>
+                        </tr>
+                        <tr>
+                            <td><input class="xd-name" name="attr_xd_name_4" type="text"
+                                    placeholder="Damage bonus IV">
+                            </td>
+                            <td><input class="xd-count" name="attr_xd_dcount_4" type="number"
+                                    value="0" min="0"></td>
+                            <td class="xd-size-td"><span><select class="xd-dsize"
+                                        name="attr_xd_dsize_4" type="numeric">
+                                        <option value="2">d2</option>
+                                        <option value="3">d3</option>
+                                        <option value="4">d4</option>
+                                        <option value="5">d5</option>
+                                        <option value="6">d6</option>
+                                        <option value="8">d8</option>
+                                        <option value="10">d10</option>
+                                        <option value="12">d12</option>
+                                    </select></span></td>
+                            <td><input class="xd-count" name="attr_xd_mod_4" type="numeric"
+                                    value="0"></td>
+                            <td><input class="tiny-checkbox" type="checkbox" name="attr_xd_4"
+                                    value="1"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <input type="hidden" name="attr_xdmg_1"
+                    data-formula="{@{xd_dcount_1}d@{xd_dsize_1}+@{xd_mod_1}}"
+                    value="{@{xd_dcount_1}d@{xd_dsize_1}+@{xd_mod_1}}">
+                <input type="hidden" name="attr_xdmg_2"
+                    data-formula="{@{xd_dcount_2}d@{xd_dsize_2}+@{xd_mod_2}}"
+                    value="{@{xd_dcount_2}d@{xd_dsize_2}+@{xd_mod_2}}">
+                <input type="hidden" name="attr_xdmg_3"
+                    data-formula="{@{xd_dcount_3}d@{xd_dsize_3}+@{xd_mod_3}}"
+                    value="{@{xd_dcount_3}d@{xd_dsize_3}+@{xd_mod_3}}">
+                <input type="hidden" name="attr_xdmg_4"
+                    data-formula="{@{xd_dcount_4}d@{xd_dsize_4}+@{xd_mod_4}}"
+                    value="{@{xd_dcount_4}d@{xd_dsize_4}+@{xd_mod_4}}">
+            </div>
             <div class="attack-tab">
                 <table class="save-table">
                     <tbody>
@@ -830,14 +955,14 @@
                                         name="attr_wr_name_1"></span></button>
                             </td>
                             <!-- Weapon attack bonus show -->
-                            <td><input class="tiny-input" name="attr_wr_attack_1" type="number"
+                            <td><input class="tiny-input" name="attr_wr_attack_1" type="numeric"
                                     disabled="true" value="{@{wr_stat_1}+@{wr_attack_bonus_1}}"
                                     data-formula="{@{wr_stat_1}+@{wr_attack_bonus_1}}">
                             </td>
                             <!-- Weapon damage show -->
                             <!-- First do an actual damage bonus sum -->
                             <td class="weapon-damage"><input class="tiny-input" name="attr_db_sum_1"
-                                    type="number" hidden="true" disabled="true"
+                                    type="numeric" hidden="true" disabled="true"
                                     value="{@{db_1}+@{wr_dstat_1}}">
                                 <!-- Show the actual damage -->
                                 <span class="weapon-damage-span"><span
@@ -861,13 +986,13 @@
                                         name="attr_wr_name_2"></span></button>
                             </td>
                             <!-- Weapon attack bonus show -->
-                            <td><input class="tiny-input" name="attr_wr_attack_2" type="number"
+                            <td><input class="tiny-input" name="attr_wr_attack_2" type="numeric"
                                     disabled="true" value="{@{wr_stat_2}+@{wr_attack_bonus_2}}"
                                     data-formula="{@{wr_stat_2}+@{wr_attack_bonus_2}}">
                             </td>
                             <!-- Weapon damage show -->
                             <!-- First do an actual damage bonus sum -->
-                            <td><input class="tiny-input" name="attr_db_sum_2" type="number"
+                            <td><input class="tiny-input" name="attr_db_sum_2" type="numeric"
                                     hidden="true" disabled="true" value="{@{db_2}+@{wr_dstat_2}}">
                                 <!-- Show the actual damage -->
                                 <span class="weapon-damage-span"><span
@@ -891,13 +1016,13 @@
                                         name="attr_wr_name_3"></span></button>
                             </td>
                             <!-- Weapon attack bonus show -->
-                            <td><input class="tiny-input" name="attr_wr_attack_3" type="number"
+                            <td><input class="tiny-input" name="attr_wr_attack_3" type="numeric"
                                     disabled="true" value="{@{wr_stat_3}+@{wr_attack_bonus_3}}"
                                     data-formula="{@{wr_stat_3}+@{wr_attack_bonus_3}}">
                             </td>
                             <!-- Weapon damage show -->
                             <!-- First do an actual damage bonus sum -->
-                            <td><input class="tiny-input" name="attr_db_sum_3" type="number"
+                            <td><input class="tiny-input" name="attr_db_sum_3" type="numeric"
                                     hidden="true" disabled="true" value="{@{db_3}+@{wr_dstat_3}}">
                                 <!-- Show the actual damage -->
                                 <span class="weapon-damage-span"><span
@@ -921,13 +1046,13 @@
                                         name="attr_wr_name_4"></span></button>
                             </td>
                             <!-- Weapon attack bonus show -->
-                            <td><input class="tiny-input" name="attr_wr_attack_4" type="number"
+                            <td><input class="tiny-input" name="attr_wr_attack_4" type="numeric"
                                     disabled="true" value="{@{wr_stat_4}+@{wr_attack_bonus_4}}"
                                     data-formula="{@{wr_stat_4}+@{wr_attack_bonus_4}}">
                             </td>
                             <!-- Weapon damage show -->
                             <!-- First do an actual damage bonus sum -->
-                            <td><input class="tiny-input" name="attr_db_sum_4" type="number"
+                            <td><input class="tiny-input" name="attr_db_sum_4" type="numeric"
                                     hidden="true" disabled="true" value="{@{db_4}+@{wr_dstat_4}}">
                                 <!-- Show the actual damage -->
                                 <span class="weapon-damage-span"><span
@@ -951,13 +1076,13 @@
                                         name="attr_wr_name_5"></span></button>
                             </td>
                             <!-- Weapon attack bonus show -->
-                            <td><input class="tiny-input" name="attr_wr_attack_5" type="number"
+                            <td><input class="tiny-input" name="attr_wr_attack_5" type="numeric"
                                     disabled="true" value="{@{wr_stat_5}+@{wr_attack_bonus_5}}"
                                     data-formula="{@{wr_stat_5}+@{wr_attack_bonus_5}}">
                             </td>
                             <!-- Weapon damage show -->
                             <!-- First do an actual damage bonus sum -->
-                            <td><input class="tiny-input" name="attr_db_sum_5" type="number"
+                            <td><input class="tiny-input" name="attr_db_sum_5" type="numeric"
                                     hidden="true" disabled="true" value="{@{db_5}+@{wr_dstat_5}}">
                                 <!-- Show the actual damage -->
                                 <span class="weapon-damage-span"><span
@@ -981,13 +1106,13 @@
                                         name="attr_wr_name_6"></span></button>
                             </td>
                             <!-- Weapon attack bonus show -->
-                            <td><input class="tiny-input" name="attr_wr_attack_6" type="number"
+                            <td><input class="tiny-input" name="attr_wr_attack_6" type="numeric"
                                     disabled="true" value="{@{wr_stat_6}+@{wr_attack_bonus_6}}"
                                     data-formula="{@{wr_stat_6}+@{wr_attack_bonus_6}}">
                             </td>
                             <!-- Weapon damage show -->
                             <!-- First do an actual damage bonus sum -->
-                            <td><input class="tiny-input" name="attr_db_sum_6" type="number"
+                            <td><input class="tiny-input" name="attr_db_sum_6" type="numeric"
                                     hidden="true" disabled="true" value="{@{db_6}+@{wr_dstat_6}}">
                                 <!-- Show the actual damage -->
                                 <span class="weapon-damage-span"><span
@@ -1011,13 +1136,13 @@
                                         name="attr_wr_name_7"></span></button>
                             </td>
                             <!-- Weapon attack bonus show -->
-                            <td><input class="tiny-input" name="attr_wr_attack_7" type="number"
+                            <td><input class="tiny-input" name="attr_wr_attack_7" type="numeric"
                                     disabled="true" value="{@{wr_stat_7}+@{wr_attack_bonus_7}}"
                                     data-formula="{@{wr_stat_7}+@{wr_attack_bonus_7}}">
                             </td>
                             <!-- Weapon damage show -->
                             <!-- First do an actual damage bonus sum -->
-                            <td><input class="tiny-input" name="attr_db_sum_7" type="number"
+                            <td><input class="tiny-input" name="attr_db_sum_7" type="numeric"
                                     hidden="true" disabled="true" value="{@{db_7}+@{wr_dstat_7}}">
                                 <!-- Show the actual damage -->
                                 <span class="weapon-damage-span"><span
@@ -1041,13 +1166,13 @@
                                         name="attr_wr_name_8"></span></button>
                             </td>
                             <!-- Weapon attack bonus show -->
-                            <td><input class="tiny-input" name="attr_wr_attack_8" type="number"
+                            <td><input class="tiny-input" name="attr_wr_attack_8" type="numeric"
                                     disabled="true" value="{@{wr_stat_8}+@{wr_attack_bonus_8}}"
                                     data-formula="{@{wr_stat_8}+@{wr_attack_bonus_8}}">
                             </td>
                             <!-- Weapon damage show -->
                             <!-- First do an actual damage bonus sum -->
-                            <td><input class="tiny-input" name="attr_db_sum_8" type="number"
+                            <td><input class="tiny-input" name="attr_db_sum_8" type="numeric"
                                     hidden="true" disabled="true" value="{@{db_8}+@{wr_dstat_8}}">
                                 <!-- Show the actual damage -->
                                 <span class="weapon-damage-span"><span
@@ -1071,13 +1196,13 @@
                                         name="attr_wr_name_9"></span></button>
                             </td>
                             <!-- Weapon attack bonus show -->
-                            <td><input class="tiny-input" name="attr_wr_attack_9" type="number"
+                            <td><input class="tiny-input" name="attr_wr_attack_9" type="numeric"
                                     disabled="true" value="{@{wr_stat_9}+@{wr_attack_bonus_9}}"
                                     data-formula="{@{wr_stat_9}+@{wr_attack_bonus_9}}">
                             </td>
                             <!-- Weapon damage show -->
                             <!-- First do an actual damage bonus sum -->
-                            <td><input class="tiny-input" name="attr_db_sum_9" type="number"
+                            <td><input class="tiny-input" name="attr_db_sum_9" type="numeric"
                                     hidden="true" disabled="true" value="{@{db_9}+@{wr_dstat_9}}">
                                 <!-- Show the actual damage -->
                                 <span class="weapon-damage-span"><span
@@ -1118,9 +1243,9 @@
                                 <th class="attack-det-th">Durability</th>
                                 <td>
                                     <input class="tiny-input-small" name="attr_wr_dur_1" value="0"
-                                        type="number">/
+                                        type="numeric">/
                                     <input class="tiny-input-small" name="attr_wr_dur_max_1"
-                                        value="0" type="number">
+                                        value="0" type="numeric">
                                 </td>
                             </tr>
                             <tr>
@@ -1141,7 +1266,7 @@
                                 <th class="attack-det-th">Attack bonus</th>
                                 <!-- The miscellaneous attack bonus -->
                                 <td><input class="tiny-input-small" name="attr_wr_attack_bonus_1"
-                                        value="0" type="number">
+                                        value="0" type="numeric">
                                 </td>
                             </tr>
                             <tr>
@@ -1174,7 +1299,7 @@
                                 <th class="attack-det-th">Dmg bonus</th>
                                 <!-- The damage bonus input box -->
                                 <td><input class="tiny-input-small" name="attr_db_1" value="0"
-                                        type="number"></td>
+                                        type="numeric"></td>
                             </tr>
                         </tbody>
                     </table>
@@ -1201,9 +1326,9 @@
                                 <th class="attack-det-th">Durability</th>
                                 <td>
                                     <input class="tiny-input-small" name="attr_wr_dur_2" value="0"
-                                        type="number">/
+                                        type="numeric">/
                                     <input class="tiny-input-small" name="attr_wr_dur_max_2"
-                                        value="0" type="number">
+                                        value="0" type="numeric">
                                 </td>
                             </tr>
                             <tr>
@@ -1224,7 +1349,7 @@
                                 <th class="attack-det-th">Attack bonus</th>
                                 <!-- The miscellaneous attack bonus -->
                                 <td><input class="tiny-input-small" name="attr_wr_attack_bonus_2"
-                                        value="0" type="number">
+                                        value="0" type="numeric">
                                 </td>
                             </tr>
                             <tr>
@@ -1257,7 +1382,7 @@
                                 <th class="attack-det-th">Dmg bonus</th>
                                 <!-- The damage bonus input box -->
                                 <td><input class="tiny-input-small" name="attr_db_2" value="0"
-                                        type="number"></td>
+                                        type="numeric"></td>
                             </tr>
                         </tbody>
                     </table>
@@ -1284,9 +1409,9 @@
                                 <th class="attack-det-th">Durability</th>
                                 <td>
                                     <input class="tiny-input-small" name="attr_wr_dur_3" value="0"
-                                        type="number">/
+                                        type="numeric">/
                                     <input class="tiny-input-small" name="attr_wr_dur_max_3"
-                                        value="0" type="number">
+                                        value="0" type="numeric">
                                 </td>
                             </tr>
                             <tr>
@@ -1307,7 +1432,7 @@
                                 <th class="attack-det-th">Attack bonus</th>
                                 <!-- The miscellaneous attack bonus -->
                                 <td><input class="tiny-input-small" name="attr_wr_attack_bonus_3"
-                                        value="0" type="number">
+                                        value="0" type="numeric">
                                 </td>
                             </tr>
                             <tr>
@@ -1340,7 +1465,7 @@
                                 <th class="attack-det-th">Dmg bonus</th>
                                 <!-- The damage bonus input box -->
                                 <td><input class="tiny-input-small" name="attr_db_3" value="0"
-                                        type="number"></td>
+                                        type="numeric"></td>
                             </tr>
                         </tbody>
                     </table>
@@ -1367,9 +1492,9 @@
                                 <th class="attack-det-th">Durability</th>
                                 <td>
                                     <input class="tiny-input-small" name="attr_wr_dur_4" value="0"
-                                        type="number">/
+                                        type="numeric">/
                                     <input class="tiny-input-small" name="attr_wr_dur_max_4"
-                                        value="0" type="number">
+                                        value="0" type="numeric">
                                 </td>
                             </tr>
                             <tr>
@@ -1390,7 +1515,7 @@
                                 <th class="attack-det-th">Attack bonus</th>
                                 <!-- The miscellaneous attack bonus -->
                                 <td><input class="tiny-input-small" name="attr_wr_attack_bonus_4"
-                                        value="0" type="number">
+                                        value="0" type="numeric">
                                 </td>
                             </tr>
                             <tr>
@@ -1423,7 +1548,7 @@
                                 <th class="attack-det-th">Dmg bonus</th>
                                 <!-- The damage bonus input box -->
                                 <td><input class="tiny-input-small" name="attr_db_4" value="0"
-                                        type="number"></td>
+                                        type="numeric"></td>
                             </tr>
                         </tbody>
                     </table>
@@ -1450,9 +1575,9 @@
                                 <th class="attack-det-th">Durability</th>
                                 <td>
                                     <input class="tiny-input-small" name="attr_wr_dur_5" value="0"
-                                        type="number">/
+                                        type="numeric">/
                                     <input class="tiny-input-small" name="attr_wr_dur_max_5"
-                                        value="0" type="number">
+                                        value="0" type="numeric">
                                 </td>
                             </tr>
                             <tr>
@@ -1473,7 +1598,7 @@
                                 <th class="attack-det-th">Attack bonus</th>
                                 <!-- The miscellaneous attack bonus -->
                                 <td><input class="tiny-input-small" name="attr_wr_attack_bonus_5"
-                                        value="0" type="number">
+                                        value="0" type="numeric">
                                 </td>
                             </tr>
                             <tr>
@@ -1506,7 +1631,7 @@
                                 <th class="attack-det-th">Dmg bonus</th>
                                 <!-- The damage bonus input box -->
                                 <td><input class="tiny-input-small" name="attr_db_5" value="0"
-                                        type="number"></td>
+                                        type="numeric"></td>
                             </tr>
                         </tbody>
                     </table>
@@ -1533,9 +1658,9 @@
                                 <th class="attack-det-th">Durability</th>
                                 <td>
                                     <input class="tiny-input-small" name="attr_wr_dur_6" value="0"
-                                        type="number">/
+                                        type="numeric">/
                                     <input class="tiny-input-small" name="attr_wr_dur_max_6"
-                                        value="0" type="number">
+                                        value="0" type="numeric">
                                 </td>
                             </tr>
                             <tr>
@@ -1556,7 +1681,7 @@
                                 <th class="attack-det-th">Attack bonus</th>
                                 <!-- The miscellaneous attack bonus -->
                                 <td><input class="tiny-input-small" name="attr_wr_attack_bonus_6"
-                                        value="0" type="number">
+                                        value="0" type="numeric">
                                 </td>
                             </tr>
                             <tr>
@@ -1589,7 +1714,7 @@
                                 <th class="attack-det-th">Dmg bonus</th>
                                 <!-- The damage bonus input box -->
                                 <td><input class="tiny-input-small" name="attr_db_6" value="0"
-                                        type="number"></td>
+                                        type="numeric"></td>
                             </tr>
                         </tbody>
                     </table>
@@ -1616,9 +1741,9 @@
                                 <th class="attack-det-th">Durability</th>
                                 <td>
                                     <input class="tiny-input-small" name="attr_wr_dur_7" value="0"
-                                        type="number">/
+                                        type="numeric">/
                                     <input class="tiny-input-small" name="attr_wr_dur_max_7"
-                                        value="0" type="number">
+                                        value="0" type="numeric">
                                 </td>
                             </tr>
                             <tr>
@@ -1639,7 +1764,7 @@
                                 <th class="attack-det-th">Attack bonus</th>
                                 <!-- The miscellaneous attack bonus -->
                                 <td><input class="tiny-input-small" name="attr_wr_attack_bonus_7"
-                                        value="0" type="number">
+                                        value="0" type="numeric">
                                 </td>
                             </tr>
                             <tr>
@@ -1672,7 +1797,7 @@
                                 <th class="attack-det-th">Dmg bonus</th>
                                 <!-- The damage bonus input box -->
                                 <td><input class="tiny-input-small" name="attr_db_7" value="0"
-                                        type="number"></td>
+                                        type="numeric"></td>
                             </tr>
                         </tbody>
                     </table>
@@ -1699,9 +1824,9 @@
                                 <th class="attack-det-th">Durability</th>
                                 <td>
                                     <input class="tiny-input-small" name="attr_wr_dur_8" value="0"
-                                        type="number">/
+                                        type="numeric">/
                                     <input class="tiny-input-small" name="attr_wr_dur_max_8"
-                                        value="0" type="number">
+                                        value="0" type="numeric">
                                 </td>
                             </tr>
                             <tr>
@@ -1722,7 +1847,7 @@
                                 <th class="attack-det-th">Attack bonus</th>
                                 <!-- The miscellaneous attack bonus -->
                                 <td><input class="tiny-input-small" name="attr_wr_attack_bonus_8"
-                                        value="0" type="number">
+                                        value="0" type="numeric">
                                 </td>
                             </tr>
                             <tr>
@@ -1755,7 +1880,7 @@
                                 <th class="attack-det-th">Dmg bonus</th>
                                 <!-- The damage bonus input box -->
                                 <td><input class="tiny-input-small" name="attr_db_8" value="0"
-                                        type="number"></td>
+                                        type="numeric"></td>
                             </tr>
                         </tbody>
                     </table>
@@ -1782,9 +1907,9 @@
                                 <th class="attack-det-th">Durability</th>
                                 <td>
                                     <input class="tiny-input-small" name="attr_wr_dur_9" value="0"
-                                        type="number">/
+                                        type="numeric">/
                                     <input class="tiny-input-small" name="attr_wr_dur_max_9"
-                                        value="0" type="number">
+                                        value="0" type="numeric">
                                 </td>
                             </tr>
                             <tr>
@@ -1805,7 +1930,7 @@
                                 <th class="attack-det-th">Attack bonus</th>
                                 <!-- The miscellaneous attack bonus -->
                                 <td><input class="tiny-input-small" name="attr_wr_attack_bonus_9"
-                                        value="0" type="number">
+                                        value="0" type="numeric">
                                 </td>
                             </tr>
                             <tr>
@@ -1838,7 +1963,7 @@
                                 <th class="attack-det-th">Dmg bonus</th>
                                 <!-- The damage bonus input box -->
                                 <td><input class="tiny-input-small" name="attr_db_9" value="0"
-                                        type="number"></td>
+                                        type="numeric"></td>
                             </tr>
                         </tbody>
                     </table>
@@ -1878,18 +2003,18 @@
                                         <span>(Str)</span>
                                     </div>
                                 </button></th>
-                            <td><input name="attr_bonus_athletics" type="number"
+                            <td><input name="attr_bonus_athletics" type="numeric"
                                     class="tiny-input-r" disabled="true"
                                     value="{{@{ranks_athletics}+(@{base}+1)*@{base_athletics}+@{extra_athletics}+@{str_bonus}}}"
                                     data-formula="{{@{ranks_athletics}+(@{base}+1)*@{base_athletics}+@{extra_athletics}+@{str_bonus}}}">
                             </td>
-                            <td><input name="attr_ranks_athletics" type="number" value="0"
+                            <td><input name="attr_ranks_athletics" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                             <td><input class="tiny-checkbox" type="checkbox"
                                     name="attr_base_athletics" value="1">
                             </td>
-                            <td><input name="attr_extra_athletics" type="number" value="0"
+                            <td><input name="attr_extra_athletics" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                         </tr>
@@ -1905,18 +2030,18 @@
                                         <span>(Str)</span>
                                     </div>
                                 </button></th>
-                            <td><input name="attr_bonus_climb" type="number" class="tiny-input-r"
+                            <td><input name="attr_bonus_climb" type="numeric" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{str_bonus})+@{ranks_climb}+(@{base}+1)*@{base_climb}+@{extra_climb}}}"
                                     data-formula="{{(@{str_bonus})+@{ranks_climb}+(@{base}+1)*@{base_climb}+@{extra_climb}}}">
                             </td>
-                            <td><input name="attr_ranks_climb" type="number" value="0"
+                            <td><input name="attr_ranks_climb" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                             <td><input class="tiny-checkbox" type="checkbox" name="attr_base_climb"
                                     value="1">
                             </td>
-                            <td><input name="attr_extra_climb" type="number" value="0"
+                            <td><input name="attr_extra_climb" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                         </tr>
@@ -1932,18 +2057,18 @@
                                         <span>(Str)</span>
                                     </div>
                                 </button></th>
-                            <td><input name="attr_bonus_fortify" type="number" class="tiny-input-r"
+                            <td><input name="attr_bonus_fortify" type="numeric" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{str_bonus})+@{ranks_fortify}+(@{base}+1)*@{base_fortify}+@{extra_fortify}}}"
                                     data-formula="{{(@{str_bonus})+@{ranks_fortify}+(@{base}+1)*@{base_fortify}+@{extra_fortify}}}">
                             </td>
-                            <td><input name="attr_ranks_fortify" type="number" value="0"
+                            <td><input name="attr_ranks_fortify" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                             <td><input class="tiny-checkbox" type="checkbox"
                                     name="attr_base_fortify" value="1">
                             </td>
-                            <td><input name="attr_extra_fortify" type="number" value="0"
+                            <td><input name="attr_extra_fortify" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                         </tr>
@@ -1959,18 +2084,18 @@
                                         <span>(Str)</span>
                                     </div>
                                 </button></th>
-                            <td><input name="attr_bonus_swim" type="number" class="tiny-input-r"
+                            <td><input name="attr_bonus_swim" type="numeric" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{str_bonus})+@{ranks_swim}+(@{base}+1)*@{base_swim}+@{extra_swim}}}"
                                     data-formula="{{(@{str_bonus})+@{ranks_swim}+(@{base}+1)*@{base_swim}+@{extra_swim}}}">
                             </td>
-                            <td><input name="attr_ranks_swim" type="number" value="0"
+                            <td><input name="attr_ranks_swim" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                             <td><input class="tiny-checkbox" type="checkbox" name="attr_base_swim"
                                     value="1">
                             </td>
-                            <td><input name="attr_extra_swim" type="number" value="0"
+                            <td><input name="attr_extra_swim" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                         </tr>
@@ -1986,18 +2111,18 @@
                                         <span>(Dex)</span>
                                     </div>
                                 </button></th>
-                            <td><input name="attr_bonus_acrobatics" type="number"
+                            <td><input name="attr_bonus_acrobatics" type="numeric"
                                     class="tiny-input-r" disabled="true"
                                     value="{{(@{dex_bonus})+(@{ranks_acrobatics})+(@{base}+1)*(@{base_acrobatics})+(@{extra_acrobatics})}}"
                                     data-formula="{{(@{dex_bonus})+@{ranks_acrobatics}+(@{base}+1)*(@{base_acrobatics})+@{extra_acrobatics}}}">
                             </td>
-                            <td><input name="attr_ranks_acrobatics" type="number" value="0"
+                            <td><input name="attr_ranks_acrobatics" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                             <td><input class="tiny-checkbox" type="checkbox"
                                     name="attr_base_acrobatics" value="1">
                             </td>
-                            <td><input name="attr_extra_acrobatics" type="number" value="0"
+                            <td><input name="attr_extra_acrobatics" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                         </tr>
@@ -2013,18 +2138,18 @@
                                         <span>(Dex)</span>
                                     </div>
                                 </button></th>
-                            <td><input name="attr_bonus_fly" type="number" class="tiny-input-r"
+                            <td><input name="attr_bonus_fly" type="numeric" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{dex_bonus})+@{ranks_fly}+(@{base}+1)*@{base_fly}+@{extra_fly}}}"
                                     data-formula="{{(@{dex_bonus})+@{ranks_fly}+(@{base}+1)*@{base_fly}+@{extra_fly}}}">
                             </td>
-                            <td><input name="attr_ranks_fly" type="number" value="0"
+                            <td><input name="attr_ranks_fly" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                             <td><input class="tiny-checkbox" type="checkbox" name="attr_base_fly"
                                     value="1">
                             </td>
-                            <td><input name="attr_extra_fly" type="number" value="0"
+                            <td><input name="attr_extra_fly" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                         </tr>
@@ -2040,18 +2165,18 @@
                                         <span>(Dex)</span>
                                     </div>
                                 </button></th>
-                            <td><input name="attr_bonus_heal" type="number" class="tiny-input-r"
+                            <td><input name="attr_bonus_heal" type="numeric" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{dex_bonus})+@{ranks_heal}+(@{base}+1)*@{base_heal}+@{extra_heal}}}"
                                     data-formula="{{(@{dex_bonus})+@{ranks_heal}+(@{base}+1)*@{base_heal}+@{extra_heal}}}">
                             </td>
-                            <td><input name="attr_ranks_heal" type="number" value="0"
+                            <td><input name="attr_ranks_heal" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                             <td><input class="tiny-checkbox" type="checkbox" name="attr_base_heal"
                                     value="1">
                             </td>
-                            <td><input name="attr_extra_heal" type="number" value="0"
+                            <td><input name="attr_extra_heal" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                         </tr>
@@ -2067,18 +2192,18 @@
                                         <span>(Dex)</span>
                                     </div>
                                 </button></th>
-                            <td><input name="attr_bonus_ride" type="number" class="tiny-input-r"
+                            <td><input name="attr_bonus_ride" type="numeric" class="tiny-input-r"
                                     disabled="true"
                                     value="{@{dex_bonus}+(@{ranks_ride})+(@{base}+1)*@{base_ride}+@{extra_ride}}"
                                     data-formula="{{@{dex_bonus}+(@{ranks_ride})+(@{base}+1)*@{base_ride}+@{extra_ride}}}">
                             </td>
-                            <td><input name="attr_ranks_ride" type="number" value="0"
+                            <td><input name="attr_ranks_ride" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                             <td><input class="tiny-checkbox" type="checkbox" name="attr_base_ride"
                                     value="1">
                             </td>
-                            <td><input name="attr_extra_ride" type="number" value="0"
+                            <td><input name="attr_extra_ride" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                         </tr>
@@ -2094,18 +2219,18 @@
                                         <span>(Dex)</span>
                                     </div>
                                 </button></th>
-                            <td><input name="attr_bonus_sleight" type="number" class="tiny-input-r"
+                            <td><input name="attr_bonus_sleight" type="numeric" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{dex_bonus})+@{ranks_sleight}+(@{base}+1)*@{base_sleight}+@{extra_sleight}}}"
                                     data-formula="{{(@{dex_bonus})+@{ranks_sleight}+(@{base}+1)*@{base_sleight}+@{extra_sleight}}}">
                             </td>
-                            <td><input name="attr_ranks_sleight" type="number" value="0"
+                            <td><input name="attr_ranks_sleight" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                             <td><input class="tiny-checkbox" type="checkbox"
                                     name="attr_base_sleight" value="1">
                             </td>
-                            <td><input name="attr_extra_sleight" type="number" value="0"
+                            <td><input name="attr_extra_sleight" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                         </tr>
@@ -2121,18 +2246,18 @@
                                         <span>(Dex)</span>
                                     </div>
                                 </button></th>
-                            <td><input name="attr_bonus_stealth" type="number" class="tiny-input-r"
+                            <td><input name="attr_bonus_stealth" type="numeric" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{dex_bonus})+@{ranks_stealth}+(@{base}+1)*@{base_stealth}+@{extra_stealth}}}"
                                     data-formula="{{(@{dex_bonus})+@{ranks_stealth}+(@{base}+1)*@{base_stealth}+@{extra_stealth}}}">
                             </td>
-                            <td><input name="attr_ranks_stealth" type="number" value="0"
+                            <td><input name="attr_ranks_stealth" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                             <td><input class="tiny-checkbox" type="checkbox"
                                     name="attr_base_stealth" value="1">
                             </td>
-                            <td><input name="attr_extra_stealth" type="number" value="0"
+                            <td><input name="attr_extra_stealth" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                         </tr>
@@ -2147,18 +2272,18 @@
                                         </span>
                                         <span>(Dex)</span>
                                     </div>
-                            <td><input name="attr_bonus_tinker" type="number" class="tiny-input-r"
+                            <td><input name="attr_bonus_tinker" type="numeric" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{dex_bonus})+@{ranks_tinker}+(@{base}+1)*@{base_tinker}+@{extra_tinker}}}"
                                     data-formula="{{(@{dex_bonus})+@{ranks_tinker}+(@{base}+1)*@{base_tinker}+@{extra_tinker}}}">
                             </td>
-                            <td><input name="attr_ranks_tinker" type="number" value="0"
+                            <td><input name="attr_ranks_tinker" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                             <td><input class="tiny-checkbox" type="checkbox" name="attr_base_tinker"
                                     value="1">
                             </td>
-                            <td><input name="attr_extra_tinker" type="number" value="0"
+                            <td><input name="attr_extra_tinker" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                         </tr>
@@ -2174,18 +2299,18 @@
                                         <span>(Con)</span>
                                     </div>
                                 </button></th>
-                            <td><input name="attr_bonus_harvest" type="number" class="tiny-input-r"
+                            <td><input name="attr_bonus_harvest" type="numeric" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{con_bonus})+@{ranks_harvest}+(@{base}+1)*@{base_harvest}+@{extra_harvest}}}"
                                     data-formula="{{(@{con_bonus})+@{ranks_harvest}+(@{base}+1)*@{base_harvest}+@{extra_harvest}}}">
                             </td>
-                            <td><input name="attr_ranks_harvest" type="number" value="0"
+                            <td><input name="attr_ranks_harvest" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                             <td><input class="tiny-checkbox" type="checkbox"
                                     name="attr_base_harvest" value="1">
                             </td>
-                            <td><input name="attr_extra_harvest" type="number" value="0"
+                            <td><input name="attr_extra_harvest" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                         </tr>
@@ -2201,18 +2326,18 @@
                                         <span>(Int)</span>
                                     </div>
                                 </button></th>
-                            <td><input name="attr_bonus_academics" type="number"
+                            <td><input name="attr_bonus_academics" type="numeric"
                                     class="tiny-input-r" disabled="true"
                                     value="{{(@{int_bonus})+@{ranks_academics}+(@{base}+1)*@{base_academics}+@{extra_academics}}}"
                                     data-formula="{{(@{int_bonus})+@{ranks_academics}+(@{base}+1)*@{base_academics}+@{extra_academics}}}">
                             </td>
-                            <td><input name="attr_ranks_academics" type="number" value="0"
+                            <td><input name="attr_ranks_academics" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                             <td><input class="tiny-checkbox" type="checkbox"
                                     name="attr_base_academics" value="1">
                             </td>
-                            <td><input name="attr_extra_academics" type="number" value="0"
+                            <td><input name="attr_extra_academics" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                         </tr>
@@ -2228,18 +2353,18 @@
                                         <span>(Int)</span>
                                     </div>
                                 </button></th>
-                            <td><input name="attr_bonus_appraise" type="number" class="tiny-input-r"
-                                    disabled="true"
+                            <td><input name="attr_bonus_appraise" type="numeric"
+                                    class="tiny-input-r" disabled="true"
                                     value="{{(@{int_bonus})+@{ranks_appraise}+(@{base}+1)*@{base_appraise}+@{extra_appraise}}}"
                                     data-formula="{{(@{int_bonus})+@{ranks_appraise}+(@{base}+1)*@{base_appraise}+@{extra_appraise}}}">
                             </td>
-                            <td><input name="attr_ranks_appraise" type="number" value="0"
+                            <td><input name="attr_ranks_appraise" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                             <td><input class="tiny-checkbox" type="checkbox"
                                     name="attr_base_appraise" value="1">
                             </td>
-                            <td><input name="attr_extra_appraise" type="number" value="0"
+                            <td><input name="attr_extra_appraise" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                         </tr>
@@ -2255,18 +2380,18 @@
                                         <span>(Int)</span>
                                     </div>
                                 </button></th>
-                            <td><input name="attr_bonus_karcana" type="number" class="tiny-input-r"
+                            <td><input name="attr_bonus_karcana" type="numeric" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{int_bonus})+@{ranks_karcana}+(@{base}+1)*@{base_karcana}+@{extra_karcana}}}"
                                     data-formula="{{(@{int_bonus})+@{ranks_karcana}+(@{base}+1)*@{base_karcana}+@{extra_karcana}}}">
                             </td>
-                            <td><input name="attr_ranks_karcana" type="number" value="0"
+                            <td><input name="attr_ranks_karcana" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                             <td><input class="tiny-checkbox" type="checkbox"
                                     name="attr_base_karcana" value="1">
                             </td>
-                            <td><input name="attr_extra_karcana" type="number" value="0"
+                            <td><input name="attr_extra_karcana" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                         </tr>
@@ -2282,18 +2407,18 @@
                                         <span>(Int)</span>
                                     </div>
                                 </button></th>
-                            <td><input name="attr_bonus_kdungon" type="number" class="tiny-input-r"
+                            <td><input name="attr_bonus_kdungon" type="numeric" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{int_bonus})+@{ranks_kdungon}+(@{base}+1)*@{base_kdungon}+@{extra_kdungon}}}"
                                     data-formula="{{(@{int_bonus})+@{ranks_kdungon}+(@{base}+1)*@{base_kdungon}+@{extra_kdungon}}}">
                             </td>
-                            <td><input name="attr_ranks_kdungon" type="number" value="0"
+                            <td><input name="attr_ranks_kdungon" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                             <td><input class="tiny-checkbox" type="checkbox"
                                     name="attr_base_kdungon" value="1">
                             </td>
-                            <td><input name="attr_extra_kdungon" type="number" value="0"
+                            <td><input name="attr_extra_kdungon" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                         </tr>
@@ -2309,18 +2434,18 @@
                                         <span>(Int)</span>
                                     </div>
                                 </button></th>
-                            <td><input name="attr_bonus_kgeography" type="number"
+                            <td><input name="attr_bonus_kgeography" type="numeric"
                                     class="tiny-input-r" disabled="true"
                                     value="{{(@{int_bonus})+@{ranks_kgeography}+(@{base}+1)*@{base_kgeography}+@{extra_kgeography}}}"
                                     data-formula="{{(@{int_bonus})+@{ranks_kgeography}+(@{base}+1)*@{base_kgeography}+@{extra_kgeography}}}">
                             </td>
-                            <td><input name="attr_ranks_kgeography" type="number" value="0"
+                            <td><input name="attr_ranks_kgeography" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                             <td><input class="tiny-checkbox" type="checkbox"
                                     name="attr_base_kgeography" value="1">
                             </td>
-                            <td><input name="attr_extra_kgeography" type="number" value="0"
+                            <td><input name="attr_extra_kgeography" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                         </tr>
@@ -2336,18 +2461,18 @@
                                         <span>(Int)</span>
                                     </div>
                                 </button></th>
-                            <td><input name="attr_bonus_khistory" type="number" class="tiny-input-r"
-                                    disabled="true"
+                            <td><input name="attr_bonus_khistory" type="numeric"
+                                    class="tiny-input-r" disabled="true"
                                     value="{{(@{int_bonus})+@{ranks_khistory}+(@{base}+1)*@{base_khistory}+@{extra_khistory}}}"
                                     data-formula="{{(@{int_bonus})+@{ranks_khistory}+(@{base}+1)*@{base_khistory}+@{extra_khistory}}}">
                             </td>
-                            <td><input name="attr_ranks_khistory" type="number" value="0"
+                            <td><input name="attr_ranks_khistory" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                             <td><input class="tiny-checkbox" type="checkbox"
                                     name="attr_base_khistory" value="1">
                             </td>
-                            <td><input name="attr_extra_khistory" type="number" value="0"
+                            <td><input name="attr_extra_khistory" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                         </tr>
@@ -2363,18 +2488,18 @@
                                         <span>(Int)</span>
                                     </div>
                                 </button></th>
-                            <td><input name="attr_bonus_knature" type="number" class="tiny-input-r"
+                            <td><input name="attr_bonus_knature" type="numeric" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{int_bonus})+@{ranks_knature}+(@{base}+1)*@{base_knature}+@{extra_knature}}}"
                                     data-formula="{{(@{int_bonus})+@{ranks_knature}+(@{base}+1)*@{base_knature}+@{extra_knature}}}">
                             </td>
-                            <td><input name="attr_ranks_knature" type="number" value="0"
+                            <td><input name="attr_ranks_knature" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                             <td><input class="tiny-checkbox" type="checkbox"
                                     name="attr_base_knature" value="1">
                             </td>
-                            <td><input name="attr_extra_knature" type="number" value="0"
+                            <td><input name="attr_extra_knature" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                         </tr>
@@ -2390,18 +2515,18 @@
                                         <span>(Int)</span>
                                     </div>
                                 </button></th>
-                            <td><input name="attr_bonus_kreligion" type="number"
+                            <td><input name="attr_bonus_kreligion" type="numeric"
                                     class="tiny-input-r" disabled="true"
                                     value="{{(@{int_bonus})+@{ranks_kreligion}+(@{base}+1)*@{base_kreligion}+@{extra_kreligion}}}"
                                     data-formula="{{(@{int_bonus})+@{ranks_kreligion}+(@{base}+1)*@{base_kreligion}+@{extra_kreligion}}}">
                             </td>
-                            <td><input name="attr_ranks_kreligion" type="number" value="0"
+                            <td><input name="attr_ranks_kreligion" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                             <td><input class="tiny-checkbox" type="checkbox"
                                     name="attr_base_kreligion" value="1">
                             </td>
-                            <td><input name="attr_extra_kreligion" type="number" value="0"
+                            <td><input name="attr_extra_kreligion" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                         </tr>
@@ -2417,18 +2542,18 @@
                                         <span>(Int)</span>
                                     </div>
                                 </button></th>
-                            <td><input name="attr_bonus_navigate" type="number" class="tiny-input-r"
-                                    disabled="true"
+                            <td><input name="attr_bonus_navigate" type="numeric"
+                                    class="tiny-input-r" disabled="true"
                                     value="{{(@{int_bonus})+@{ranks_navigate}+(@{base}+1)*@{base_navigate}+@{extra_navigate}}}"
                                     data-formula="{{(@{int_bonus})+@{ranks_navigate}+(@{base}+1)*@{base_navigate}+@{extra_navigate}}}">
                             </td>
-                            <td><input name="attr_ranks_navigate" type="number" value="0"
+                            <td><input name="attr_ranks_navigate" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                             <td><input class="tiny-checkbox" type="checkbox"
                                     name="attr_base_navigate" value="1">
                             </td>
-                            <td><input name="attr_extra_navigate" type="number" value="0"
+                            <td><input name="attr_extra_navigate" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                         </tr>
@@ -2444,18 +2569,18 @@
                                         <span>(Int)</span>
                                     </div>
                                 </button></th>
-                            <td><input name="attr_bonus_prospect" type="number" class="tiny-input-r"
-                                    disabled="true"
+                            <td><input name="attr_bonus_prospect" type="numeric"
+                                    class="tiny-input-r" disabled="true"
                                     value="{{(@{int_bonus})+@{ranks_prospect}+(@{base}+1)*@{base_prospect}+@{extra_prospect}}}"
                                     data-formula="{{(@{int_bonus})+@{ranks_prospect}+(@{base}+1)*@{base_prospect}+@{extra_prospect}}}">
                             </td>
-                            <td><input name="attr_ranks_prospect" type="number" value="0"
+                            <td><input name="attr_ranks_prospect" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                             <td><input class="tiny-checkbox" type="checkbox"
                                     name="attr_base_prospect" value="1">
                             </td>
-                            <td><input name="attr_extra_prospect" type="number" value="0"
+                            <td><input name="attr_extra_prospect" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                         </tr>
@@ -2471,18 +2596,18 @@
                                         <span>(Wis)</span>
                                     </div>
                                 </button></th>
-                            <td><input name="attr_bonus_observe" type="number" class="tiny-input-r"
+                            <td><input name="attr_bonus_observe" type="numeric" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{wis_bonus})+@{ranks_observe}+(@{base}+1)*@{base_observe}+@{extra_observe}}}"
                                     data-formula="{{(@{wis_bonus})+@{ranks_observe}+(@{base}+1)*@{base_observe}+@{extra_observe}}}">
                             </td>
-                            <td><input name="attr_ranks_observe" type="number" value="0"
+                            <td><input name="attr_ranks_observe" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                             <td><input class="tiny-checkbox" type="checkbox"
                                     name="attr_base_observe" value="1">
                             </td>
-                            <td><input name="attr_extra_observe" type="number" value="0"
+                            <td><input name="attr_extra_observe" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                         </tr>
@@ -2498,18 +2623,18 @@
                                         <span>(Wis)</span>
                                     </div>
                                 </button></th>
-                            <td><input name="attr_bonus_smotive" type="number" class="tiny-input-r"
+                            <td><input name="attr_bonus_smotive" type="numeric" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{wis_bonus})+@{ranks_smotive}+(@{base}+1)*@{base_smotive}+@{extra_smotive}}}"
                                     data-formula="{{(@{wis_bonus})+@{ranks_smotive}+(@{base}+1)*@{base_smotive}+@{extra_smotive}}}">
                             </td>
-                            <td><input name="attr_ranks_smotive" type="number" value="0"
+                            <td><input name="attr_ranks_smotive" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                             <td><input class="tiny-checkbox" type="checkbox"
                                     name="attr_base_smotive" value="1">
                             </td>
-                            <td><input name="attr_extra_smotive" type="number" value="0"
+                            <td><input name="attr_extra_smotive" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                         </tr>
@@ -2525,18 +2650,18 @@
                                         <span>(Wis)</span>
                                     </div>
                                 </button></th>
-                            <td><input name="attr_bonus_spellworking" type="number"
+                            <td><input name="attr_bonus_spellworking" type="numeric"
                                     class="tiny-input-r" disabled="true"
                                     value="{{(@{wis_bonus})+@{ranks_spellworking}+(@{base}+1)*@{base_spellworking}+@{extra_spellworking}}}"
                                     data-formula="{{(@{wis_bonus})+@{ranks_spellworking}+(@{base}+1)*@{base_spellworking}+@{extra_spellworking}}}">
                             </td>
-                            <td><input name="attr_ranks_spellworking" type="number" value="0"
+                            <td><input name="attr_ranks_spellworking" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                             <td><input class="tiny-checkbox" type="checkbox"
                                     name="attr_base_spellworking" value="1">
                             </td>
-                            <td><input name="attr_extra_spellworking" type="number" value="0"
+                            <td><input name="attr_extra_spellworking" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                         </tr>
@@ -2552,18 +2677,18 @@
                                         <span>(Wis)</span>
                                     </div>
                                 </button></th>
-                            <td><input name="attr_bonus_track" type="number" class="tiny-input-r"
+                            <td><input name="attr_bonus_track" type="numeric" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{wis_bonus})+@{ranks_track}+(@{base}+1)*@{base_track}+@{extra_track}}}"
                                     data-formula="{{(@{wis_bonus})+@{ranks_track}+(@{base}+1)*@{base_track}+@{extra_track}}}">
                             </td>
-                            <td><input name="attr_ranks_track" type="number" value="0"
+                            <td><input name="attr_ranks_track" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                             <td><input class="tiny-checkbox" type="checkbox" name="attr_base_track"
                                     value="1">
                             </td>
-                            <td><input name="attr_extra_track" type="number" value="0"
+                            <td><input name="attr_extra_track" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                         </tr>
@@ -2579,18 +2704,18 @@
                                         <span>(Wis)</span>
                                     </div>
                                 </button></th>
-                            <td><input name="attr_bonus_handle" type="number" class="tiny-input-r"
+                            <td><input name="attr_bonus_handle" type="numeric" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{cha_bonus})+@{ranks_handle}+(@{base}+1)*@{base_handle}+@{extra_handle}}}"
                                     data-formula="{{(@{cha_bonus})+@{ranks_handle}+(@{base}+1)*@{base_handle}+@{extra_handle}}}">
                             </td>
-                            <td><input name="attr_ranks_handle" type="number" value="0"
+                            <td><input name="attr_ranks_handle" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                             <td><input class="tiny-checkbox" type="checkbox" name="attr_base_handle"
                                     value="1">
                             </td>
-                            <td><input name="attr_extra_handle" type="number" value="0"
+                            <td><input name="attr_extra_handle" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                         </tr>
@@ -2606,18 +2731,18 @@
                                         <span>(Cha)</span>
                                     </div>
                                 </button></th>
-                            <td><input name="attr_bonus_deceive" type="number" class="tiny-input-r"
+                            <td><input name="attr_bonus_deceive" type="numeric" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{cha_bonus})+@{ranks_deceive}+(@{base}+1)*@{base_deceive}+@{extra_deceive}}}"
                                     data-formula="{{(@{cha_bonus})+@{ranks_deceive}+(@{base}+1)*@{base_deceive}+@{extra_deceive}}}">
                             </td>
-                            <td><input name="attr_ranks_deceive" type="number" value="0"
+                            <td><input name="attr_ranks_deceive" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                             <td><input class="tiny-checkbox" type="checkbox"
                                     name="attr_base_deceive" value="1">
                             </td>
-                            <td><input name="attr_extra_deceive" type="number" value="0"
+                            <td><input name="attr_extra_deceive" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                         </tr>
@@ -2633,18 +2758,18 @@
                                         <span>(Cha)</span>
                                     </div>
                                 </button></th>
-                            <td><input name="attr_bonus_diplomacy" type="number"
+                            <td><input name="attr_bonus_diplomacy" type="numeric"
                                     class="tiny-input-r" disabled="true"
                                     value="{{(@{cha_bonus})+@{ranks_diplomacy}+(@{base}+1)*@{base_diplomacy}+@{extra_diplomacy}}}"
                                     data-formula="{{(@{cha_bonus})+@{ranks_diplomacy}+(@{base}+1)*@{base_diplomacy}+@{extra_diplomacy}}}">
                             </td>
-                            <td><input name="attr_ranks_diplomacy" type="number" value="0"
+                            <td><input name="attr_ranks_diplomacy" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                             <td><input class="tiny-checkbox" type="checkbox"
                                     name="attr_base_diplomacy" value="1">
                             </td>
-                            <td><input name="attr_extra_diplomacy" type="number" value="0"
+                            <td><input name="attr_extra_diplomacy" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                         </tr>
@@ -2660,18 +2785,18 @@
                                         <span>(Cha)</span>
                                     </div>
                                 </button></th>
-                            <td><input name="attr_bonus_intimidate" type="number"
+                            <td><input name="attr_bonus_intimidate" type="numeric"
                                     class="tiny-input-r" disabled="true"
                                     value="{{(@{cha_bonus})+@{ranks_intimidate}+(@{base}+1)*@{base_intimidate}+@{extra_intimidate}}}"
                                     data-formula="{{(@{cha_bonus})+@{ranks_intimidate}+(@{base}+1)*@{base_intimidate}+@{extra_intimidate}}}">
                             </td>
-                            <td><input name="attr_ranks_intimidate" type="number" value="0"
+                            <td><input name="attr_ranks_intimidate" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                             <td><input class="tiny-checkbox" type="checkbox"
                                     name="attr_base_intimidate" value="1">
                             </td>
-                            <td><input name="attr_extra_intimidate" type="number" value="0"
+                            <td><input name="attr_extra_intimidate" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                         </tr>
@@ -2688,18 +2813,18 @@
                                     </div>
                                 </button>
                             </th>
-                            <td><input name="attr_bonus_perform" type="number" class="tiny-input-r"
+                            <td><input name="attr_bonus_perform" type="numeric" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{cha_bonus})+@{ranks_perform}+(@{base}+1)*@{base_perform}+@{extra_perform}}}"
                                     data-formula="{{(@{cha_bonus})+@{ranks_perform}+(@{base}+1)*@{base_perform}+@{extra_perform}}}">
                             </td>
-                            <td><input name="attr_ranks_perform" type="number" value="0"
+                            <td><input name="attr_ranks_perform" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                             <td><input class="tiny-checkbox" type="checkbox"
                                     name="attr_base_perform" value="1">
                             </td>
-                            <td><input name="attr_extra_perform" type="number" value="0"
+                            <td><input name="attr_extra_perform" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                         </tr>
@@ -2715,18 +2840,18 @@
                                         <span>(Cha)</span>
                                     </div>
                                 </button></th>
-                            <td><input name="attr_bonus_persuade" type="number" class="tiny-input-r"
-                                    disabled="true"
+                            <td><input name="attr_bonus_persuade" type="numeric"
+                                    class="tiny-input-r" disabled="true"
                                     value="{{(@{cha_bonus})+@{ranks_persuade}+(@{base}+1)*@{base_persuade}+@{extra_persuade}}}"
                                     data-formula="{{(@{cha_bonus})+@{ranks_persuade}+(@{base}+1)*@{base_persuade}+@{extra_persuade}}}">
                             </td>
-                            <td><input name="attr_ranks_persuade" type="number" value="0"
+                            <td><input name="attr_ranks_persuade" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                             <td><input class="tiny-checkbox" type="checkbox"
                                     name="attr_base_persuade" value="1">
                             </td>
-                            <td><input name="attr_extra_persuade" type="number" value="0"
+                            <td><input name="attr_extra_persuade" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
                         </tr>
@@ -3011,14 +3136,14 @@
                         <tr>
                             <th class="skills-esb-th">Extra points</th>
                             <td><input class="tiny-input-small" name="attr_extra_skill_points"
-                                    value="0" type="number">
+                                    value="0" type="numeric">
                             </td>
                         </tr>
                         <tr>
                             <th class="skills-esb-th">Base skills taken</th>
                             <td>
                                 <input class="tiny-input-small" name="attr_base_skills_taken"
-                                    disabled="true" type="number"
+                                    disabled="true" type="numeric"
                                     value="{@{base_athletics}+@{base_climb}+@{base_fortify}+@{base_swim}+@{base_acrobatics}+@{base_fly}+@{base_heal}+@{base_sleight}+@{base_tinker}+@{base_ride}+@{base_stealth}+@{base_harvest}+@{base_academics}+@{base_appraise}+@{base_prospect}+@{base_navigate}+@{base_karcana}+@{base_kgeography}+@{base_knature}+@{base_kdungon}+@{base_khistory}+@{base_kreligion}+@{base_observe}+@{base_smotive}+@{base_spellworking}+@{base_track}+(@{base_handle})+@{base_deceive}+@{base_diplomacy}+@{base_intimidate}+@{base_perform}+@{base_persuade}}"
                                     data-formula="{@{base_athletics}+@{base_climb}+@{base_fortify}+@{base_swim}+@{base_acrobatics}+@{base_fly}+@{base_heal}+@{base_sleight}+@{base_tinker}+@{base_ride}+@{base_stealth}+@{base_harvest}+@{base_academics}+@{base_appraise}+@{base_prospect}+@{base_navigate}+@{base_karcana}+@{base_kgeography}+@{base_knature}+@{base_kdungon}+@{base_khistory}+@{base_kreligion}+@{base_observe}+@{base_smotive}+@{base_spellworking}+@{base_track}+(@{base_handle})+@{base_deceive}+@{base_diplomacy}+@{base_intimidate}+@{base_perform}+@{base_persuade}}">
                             </td>
@@ -3026,7 +3151,7 @@
                         <tr>
                             <th class="skills-esb-th">Base skills open</th>
                             <td><input class="tiny-input-small" name="attr_base_skills_open"
-                                    disabled="true" type="number"
+                                    disabled="true" type="numeric"
                                     value="{{ceil(@{lvl}/2)-(@{base_skills_taken})}}">
                             </td>
                         </tr>
@@ -3035,14 +3160,14 @@
             </div>
             <div class="skill-rem">
                 <strong>Skill points remaining: </strong>
-                <input type="number" class="tiny-input-huge" name="attr_skill_points_rem"
+                <input type="numeric" class="tiny-input-huge" name="attr_skill_points_rem"
                     disabled="true"
                     value="{(@{extra_skill_points})+5+(@{lvl})*(4+(@{int_bonus}))-(@{skills_sum})-(@{prof_sum})}">
-                <input name="attr_skills_sum" hidden="true" type="number" class="tiny-input-small"
+                <input name="attr_skills_sum" hidden="true" type="numeric" class="tiny-input-small"
                     disabled="true"
                     value="{(@{ranks_athletics})+(@{ranks_climb})+(@{ranks_fortify})+(@{ranks_swim})+(@{ranks_acrobatics})+(@{ranks_fly})+(@{ranks_heal})+(@{ranks_ride})+(@{ranks_sleight})+(@{ranks_stealth})+(@{ranks_tinker})+(@{ranks_harvest})+(@{ranks_academics})+(@{ranks_appraise})+(@{ranks_navigate})+(@{ranks_prospect})+(@{ranks_karcana})+(@{ranks_kgeography})+(@{ranks_knature})+(@{ranks_kdungon})+(@{ranks_khistory})+(@{ranks_kreligion})+(@{ranks_observe})+(@{ranks_smotive})+(@{ranks_track})+(@{ranks_spellworking})+(@{ranks_handle})+(@{ranks_deceive})+(@{ranks_diplomacy})+(@{ranks_intimidate})+(@{ranks_perform})+(@{ranks_persuade})}">
 
-                <input name="attr_prof_sum" hidden="false" type="number" class="tiny-input-small"
+                <input name="attr_prof_sum" hidden="false" type="numeric" class="tiny-input-small"
                     disabled="true"
                     value="{(@{prof_00})+(@{prof_01})+(@{prof_02})+(@{prof_03})+(@{prof_04})+(@{prof_05})+(@{prof_06})+(@{prof_07})+(@{prof_08})+(@{prof_09})+(@{prof_10})+(@{prof_11})+(@{prof_12})+(@{prof_13})+(@{prof_14})+(@{prof_15})}">
             </div>
@@ -3053,7 +3178,7 @@
                             <th>Max Ranks</th>
                         </tr>
                         <tr>
-                            <td><input class="tiny-input" name="attr_max_ranks" type="number"
+                            <td><input class="tiny-input" name="attr_max_ranks" type="numeric"
                                     disabled="true" value="{{ceil(@{lvl}/2)}}">
                             </td>
                         </tr>
@@ -10412,10 +10537,10 @@
                             <th>Current load (lb)</th>
                         </tr>
                         <tr>
-                            <td><input name="attr_silver_count" type="number" value="0"
+                            <td><input name="attr_silver_count" type="numeric" value="0"
                                     class="tiny-input-r">
                             </td>
-                            <td><input name="attr_silver_weight" type="number" class="tiny-input-r"
+                            <td><input name="attr_silver_weight" type="numeric" class="tiny-input-r"
                                     disabled="true" value="{{round(@{silver_count}*1/60)/10}}"
                                     data-formula="{{round(@{silver_count}*1/60)/10}}">
                             </td>
@@ -10436,27 +10561,27 @@
                             <th>Drag Weight</th>
                         </tr>
                         <tr>
-                            <td><input name="attr_total_weight" type="number" class="tiny-input-r"
+                            <td><input name="attr_total_weight" type="numeric" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{silver_weight})+(@{isum_1})+(@{isum_2})+(@{isum_3})+(@{isum_4})+(@{isum_5})+(@{isum_6})+(@{isum_7})+(@{isum_8})+(@{isum_9})+(@{isum_10})+(@{isum_11})+(@{isum_12})+(@{isum_13})+(@{isum_14})+(@{isum_15})+(@{isum_16})+(@{isum_17})+(@{isum_18})+(@{isum_19})+(@{isum_20})+(@{isum_21})+(@{isum_22})+(@{isum_23})+(@{isum_24})+(@{isum_25})+(@{isum_26})+(@{isum_27})+(@{isum_28})+(@{isum_29})+(@{isum_30})}}"
                                     data-formula="{{(@{silver_weight})+(@{isum_1})+(@{isum_2})+(@{isum_3})+(@{isum_4})+(@{isum_5})+(@{isum_6})+(@{isum_7})+(@{isum_8})+(@{isum_9})+(@{isum_10})+(@{isum_11})+(@{isum_12})+(@{isum_13})+(@{isum_14})+(@{isum_15})+(@{isum_16})+(@{isum_17})+(@{isum_18})+(@{isum_19})+(@{isum_20})+(@{isum_21})+(@{isum_22})+(@{isum_23})+(@{isum_24})+(@{isum_25})+(@{isum_26})+(@{isum_27})+(@{isum_28})+(@{isum_29})+(@{isum_30})}}">
                             </td>
-                            <td><input name="attr_light_load" type="number" class="tiny-input-r"
+                            <td><input name="attr_light_load" type="numeric" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{stat_str})*4*(1+(@{mighty_i}))*(1+(@{mighty_ii}))}}"
                                     data-formula="{{(@{stat_str})*4}}">
                             </td>
                             <!-- NB: Mighty 2 is supposed to break medium load and hence empty the box. -->
-                            <td><input name="attr_mid_load" type="number" class="tiny-input-r"
+                            <td><input name="attr_mid_load" type="numeric" class="tiny-input-r"
                                     disabled="true"
                                     value="{{(@{stat_str})*8*(1+(@{mighty_i}))*(1/(1-@{mighty_ii}))}}"
                                     data-formula="{{(@{stat_str})*8}}">
                             </td>
-                            <td><input name="attr_max_load" type="number" class="tiny-input-r"
+                            <td><input name="attr_max_load" type="numeric" class="tiny-input-r"
                                     disabled="true" value="{{(@{stat_str})*20*(1+(@{mighty_i}))}}"
                                     data-formula="{{(@{stat_str})*20}}">
                             </td>
-                            <td><input name="attr_drag_weight" type="number" class="tiny-input-r"
+                            <td><input name="attr_drag_weight" type="numeric" class="tiny-input-r"
                                     disabled="true" value="{{(@{stat_str})*30*(1+(@{mighty_i}))}}"
                                     data-formula="{{(@{stat_str})*30}}">
                             </td>
@@ -10480,13 +10605,13 @@
                                     name="attr_inv_item_name_1" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_1" value="0" type="number">
+                                    name="attr_inv_item_count_1" value="0" type="numeric">
                             </td>
                             <td><input class="tiny-input" id="inv_item_weight" value="0"
-                                    name="attr_inv_item_weight_1" type="number"></td>
+                                    name="attr_inv_item_weight_1" type="numeric"></td>
                             <td><input class="tiny-input" disabled="true" name="attr_isum_1"
                                     value="{{(@{inv_item_weight_1})*@{inv_item_count_1}}}"
-                                    type="number"></td>
+                                    type="numeric"></td>
                             <th><button type="action" value="" name="act_inv_item_1" class="rb">
                                     Edit
                                 </button></th>
@@ -10496,13 +10621,13 @@
                                     name="attr_inv_item_name_2" placeholder="Item 2" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_2" value="0" type="number">
+                                    name="attr_inv_item_count_2" value="0" type="numeric">
                             </td>
                             <td><input class="tiny-input" id="inv_item_weight" value="0"
-                                    name="attr_inv_item_weight_2" type="number"></td>
+                                    name="attr_inv_item_weight_2" type="numeric"></td>
                             <td><input class="tiny-input" disabled="true" name="attr_isum_2"
                                     value="{{(@{inv_item_weight_2})*(@{inv_item_count_2})}}"
-                                    type="number"></td>
+                                    type="numeric"></td>
                             <th><button type="action" value="" name="act_inv_item_2" class="rb">
                                     Edit
                                 </button></th>
@@ -10512,13 +10637,13 @@
                                     name="attr_inv_item_name_3" placeholder="Item 3" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_3" value="0" type="number">
+                                    name="attr_inv_item_count_3" value="0" type="numeric">
                             </td>
                             <td><input class="tiny-input" id="inv_item_weight" value="0"
-                                    name="attr_inv_item_weight_3" type="number"></td>
+                                    name="attr_inv_item_weight_3" type="numeric"></td>
                             <td><input class="tiny-input" disabled="true" name="attr_isum_3"
                                     value="{{(@{inv_item_weight_3})*(@{inv_item_count_3})}}"
-                                    type="number"></td>
+                                    type="numeric"></td>
                             <th><button type="action" value="" name="act_inv_item_3" class="rb">
                                     Edit
                                 </button></th>
@@ -10528,13 +10653,13 @@
                                     name="attr_inv_item_name_4" placeholder="Item 4" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_4" value="0" type="number">
+                                    name="attr_inv_item_count_4" value="0" type="numeric">
                             </td>
                             <td><input class="tiny-input" id="inv_item_weight" value="0"
-                                    name="attr_inv_item_weight_4" type="number"></td>
+                                    name="attr_inv_item_weight_4" type="numeric"></td>
                             <td><input class="tiny-input" disabled="true" name="attr_isum_4"
                                     value="{{(@{inv_item_weight_4})*(@{inv_item_count_4})}}"
-                                    type="number"></td>
+                                    type="numeric"></td>
                             <th><button type="action" value="" name="act_inv_item_4" class="rb">
                                     Edit
                                 </button></th>
@@ -10544,13 +10669,13 @@
                                     name="attr_inv_item_name_5" placeholder="Item 5" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_5" value="0" type="number">
+                                    name="attr_inv_item_count_5" value="0" type="numeric">
                             </td>
                             <td><input class="tiny-input" id="inv_item_weight" value="0"
-                                    name="attr_inv_item_weight_5" type="number"></td>
+                                    name="attr_inv_item_weight_5" type="numeric"></td>
                             <td><input class="tiny-input" disabled="true" name="attr_isum_5"
                                     value="{{(@{inv_item_weight_5})*(@{inv_item_count_5})}}"
-                                    type="number"></td>
+                                    type="numeric"></td>
                             <th><button type="action" value="" name="act_inv_item_5" class="rb">
                                     Edit
                                 </button></th>
@@ -10560,13 +10685,13 @@
                                     name="attr_inv_item_name_6" placeholder="Item 6" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_6" value="0" type="number">
+                                    name="attr_inv_item_count_6" value="0" type="numeric">
                             </td>
                             <td><input class="tiny-input" id="inv_item_weight" value="0"
-                                    name="attr_inv_item_weight_6" type="number"></td>
+                                    name="attr_inv_item_weight_6" type="numeric"></td>
                             <td><input class="tiny-input" disabled="true" name="attr_isum_6"
                                     value="{{(@{inv_item_weight_6})*(@{inv_item_count_6})}}"
-                                    type="number"></td>
+                                    type="numeric"></td>
                             <th><button type="action" value="" name="act_inv_item_6" class="rb">
                                     Edit
                                 </button></th>
@@ -10576,13 +10701,13 @@
                                     name="attr_inv_item_name_7" placeholder="Item 7" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_7" value="0" type="number">
+                                    name="attr_inv_item_count_7" value="0" type="numeric">
                             </td>
                             <td><input class="tiny-input" id="inv_item_weight" value="0"
-                                    name="attr_inv_item_weight_7" type="number"></td>
+                                    name="attr_inv_item_weight_7" type="numeric"></td>
                             <td><input class="tiny-input" disabled="true" name="attr_isum_7"
                                     value="{{(@{inv_item_weight_7})*(@{inv_item_count_7})}}"
-                                    type="number"></td>
+                                    type="numeric"></td>
                             <th><button type="action" value="" name="act_inv_item_7" class="rb">
                                     Edit
                                 </button></th>
@@ -10592,13 +10717,13 @@
                                     name="attr_inv_item_name_8" placeholder="Item 8" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_8" value="0" type="number">
+                                    name="attr_inv_item_count_8" value="0" type="numeric">
                             </td>
                             <td><input class="tiny-input" id="inv_item_weight" value="0"
-                                    name="attr_inv_item_weight_8" type="number"></td>
+                                    name="attr_inv_item_weight_8" type="numeric"></td>
                             <td><input class="tiny-input" disabled="true" name="attr_isum_8"
                                     value="{{(@{inv_item_weight_8})*(@{inv_item_count_8})}}"
-                                    type="number"></td>
+                                    type="numeric"></td>
                             <th><button type="action" value="" name="act_inv_item_8" class="rb">
                                     Edit
                                 </button></th>
@@ -10608,13 +10733,13 @@
                                     name="attr_inv_item_name_9" placeholder="Item 9" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_9" value="0" type="number">
+                                    name="attr_inv_item_count_9" value="0" type="numeric">
                             </td>
                             <td><input class="tiny-input" id="inv_item_weight" value="0"
-                                    name="attr_inv_item_weight_9" type="number"></td>
+                                    name="attr_inv_item_weight_9" type="numeric"></td>
                             <td><input class="tiny-input" disabled="true" name="attr_isum_9"
                                     value="{{(@{inv_item_weight_9})*(@{inv_item_count_9})}}"
-                                    type="number"></td>
+                                    type="numeric"></td>
                             <th><button type="action" value="" name="act_inv_item_9" class="rb">
                                     Edit
                                 </button></th>
@@ -10624,13 +10749,13 @@
                                     name="attr_inv_item_name_10" placeholder="Item 10" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_10" value="0" type="number">
+                                    name="attr_inv_item_count_10" value="0" type="numeric">
                             </td>
                             <td><input class="tiny-input" id="inv_item_weight" value="0"
-                                    name="attr_inv_item_weight_10" type="number"></td>
+                                    name="attr_inv_item_weight_10" type="numeric"></td>
                             <td><input class="tiny-input" disabled="true" name="attr_isum_10"
                                     value="{{(@{inv_item_weight_10})*(@{inv_item_count_10})}}"
-                                    type="number"></td>
+                                    type="numeric"></td>
                             <th><button type="action" value="" name="act_inv_item_10" class="rb">
                                     Edit
                                 </button></th>
@@ -10641,13 +10766,13 @@
                                     name="attr_inv_item_name_11" placeholder="Item 11" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_11" value="0" type="number">
+                                    name="attr_inv_item_count_11" value="0" type="numeric">
                             </td>
                             <td><input class="tiny-input" id="inv_item_weight" value="0"
-                                    name="attr_inv_item_weight_11" type="number"></td>
+                                    name="attr_inv_item_weight_11" type="numeric"></td>
                             <td><input class="tiny-input" disabled="true" name="attr_isum_11"
                                     value="{{(@{inv_item_weight_11})*(@{inv_item_count_11})}}"
-                                    type="number"></td>
+                                    type="numeric"></td>
                             <th><button type="action" value="" name="act_inv_item_11" class="rb">
                                     Edit
                                 </button></th>
@@ -10657,13 +10782,13 @@
                                     name="attr_inv_item_name_12" placeholder="Item 12" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_12" value="0" type="number">
+                                    name="attr_inv_item_count_12" value="0" type="numeric">
                             </td>
                             <td><input class="tiny-input" id="inv_item_weight" value="0"
-                                    name="attr_inv_item_weight_12" type="number"></td>
+                                    name="attr_inv_item_weight_12" type="numeric"></td>
                             <td><input class="tiny-input" disabled="true" name="attr_isum_12"
                                     value="{{(@{inv_item_weight_12})*(@{inv_item_count_12})}}"
-                                    type="number"></td>
+                                    type="numeric"></td>
                             <th><button type="action" value="" name="act_inv_item_12" class="rb">
                                     Edit
                                 </button></th>
@@ -10673,13 +10798,13 @@
                                     name="attr_inv_item_name_13" placeholder="Item 13" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_13" value="0" type="number">
+                                    name="attr_inv_item_count_13" value="0" type="numeric">
                             </td>
                             <td><input class="tiny-input" id="inv_item_weight" value="0"
-                                    name="attr_inv_item_weight_13" type="number"></td>
+                                    name="attr_inv_item_weight_13" type="numeric"></td>
                             <td><input class="tiny-input" disabled="true" name="attr_isum_13"
                                     value="{{(@{inv_item_weight_13})*(@{inv_item_count_13})}}"
-                                    type="number"></td>
+                                    type="numeric"></td>
                             <th><button type="action" value="" name="act_inv_item_13" class="rb">
                                     Edit
                                 </button></th>
@@ -10689,13 +10814,13 @@
                                     name="attr_inv_item_name_14" placeholder="Item 14" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_14" value="0" type="number">
+                                    name="attr_inv_item_count_14" value="0" type="numeric">
                             </td>
                             <td><input class="tiny-input" id="inv_item_weight" value="0"
-                                    name="attr_inv_item_weight_14" type="number"></td>
+                                    name="attr_inv_item_weight_14" type="numeric"></td>
                             <td><input class="tiny-input" disabled="true" name="attr_isum_14"
                                     value="{{(@{inv_item_weight_14})*(@{inv_item_count_14})}}"
-                                    type="number"></td>
+                                    type="numeric"></td>
                             <th><button type="action" value="" name="act_inv_item_14" class="rb">
                                     Edit
                                 </button></th>
@@ -10705,13 +10830,13 @@
                                     name="attr_inv_item_name_15" placeholder="Item 15" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_15" value="0" type="number">
+                                    name="attr_inv_item_count_15" value="0" type="numeric">
                             </td>
                             <td><input class="tiny-input" id="inv_item_weight" value="0"
-                                    name="attr_inv_item_weight_15" type="number"></td>
+                                    name="attr_inv_item_weight_15" type="numeric"></td>
                             <td><input class="tiny-input" disabled="true" name="attr_isum_15"
                                     value="{{(@{inv_item_weight_15})*(@{inv_item_count_15})}}"
-                                    type="number"></td>
+                                    type="numeric"></td>
                             <th><button type="action" value="" name="act_inv_item_15" class="rb">
                                     Edit
                                 </button></th>
@@ -10721,13 +10846,13 @@
                                     name="attr_inv_item_name_" placeholder="Item 16" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_16" value="0" type="number">
+                                    name="attr_inv_item_count_16" value="0" type="numeric">
                             </td>
                             <td><input class="tiny-input" id="inv_item_weight" value="0"
-                                    name="attr_inv_item_weight_16" type="number"></td>
+                                    name="attr_inv_item_weight_16" type="numeric"></td>
                             <td><input class="tiny-input" disabled="true" name="attr_isum_16"
                                     value="{{(@{inv_item_weight_16})*(@{inv_item_count_16})}}"
-                                    type="number"></td>
+                                    type="numeric"></td>
                             <th><button type="action" value="" name="act_inv_item_16" class="rb">
                                     Edit
                                 </button></th>
@@ -10737,13 +10862,13 @@
                                     name="attr_inv_item_name_17" placeholder="Item 17" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_17" value="0" type="number">
+                                    name="attr_inv_item_count_17" value="0" type="numeric">
                             </td>
                             <td><input class="tiny-input" id="inv_item_weight" value="0"
-                                    name="attr_inv_item_weight_17" type="number"></td>
+                                    name="attr_inv_item_weight_17" type="numeric"></td>
                             <td><input class="tiny-input" disabled="true" name="attr_isum_17"
                                     value="{{(@{inv_item_weight_17})*(@{inv_item_count_17})}}"
-                                    type="number"></td>
+                                    type="numeric"></td>
                             <th><button type="action" value="" name="act_inv_item_17" class="rb">
                                     Edit
                                 </button></th>
@@ -10753,13 +10878,13 @@
                                     name="attr_inv_item_name_18" placeholder="Item 18" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_18" value="0" type="number">
+                                    name="attr_inv_item_count_18" value="0" type="numeric">
                             </td>
                             <td><input class="tiny-input" id="inv_item_weight" value="0"
-                                    name="attr_inv_item_weight_18" type="number"></td>
+                                    name="attr_inv_item_weight_18" type="numeric"></td>
                             <td><input class="tiny-input" disabled="true" name="attr_isum_18"
                                     value="{{(@{inv_item_weight_18})*(@{inv_item_count_18})}}"
-                                    type="number"></td>
+                                    type="numeric"></td>
                             <th><button type="action" value="" name="act_inv_item_18" class="rb">
                                     Edit
                                 </button></th>
@@ -10769,13 +10894,13 @@
                                     name="attr_inv_item_name_19" placeholder="Item 19" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_19" value="0" type="number">
+                                    name="attr_inv_item_count_19" value="0" type="numeric">
                             </td>
                             <td><input class="tiny-input" id="inv_item_weight" value="0"
-                                    name="attr_inv_item_weight_19" type="number"></td>
+                                    name="attr_inv_item_weight_19" type="numeric"></td>
                             <td><input class="tiny-input" disabled="true" name="attr_isum_19"
                                     value="{{(@{inv_item_weight_19})*(@{inv_item_count_19})}}"
-                                    type="number"></td>
+                                    type="numeric"></td>
                             <th><button type="action" value="" name="act_inv_item_19" class="rb">
                                     Edit
                                 </button></th>
@@ -10785,13 +10910,13 @@
                                     name="attr_inv_item_name_20" placeholder="Item 20" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_20" value="0" type="number">
+                                    name="attr_inv_item_count_20" value="0" type="numeric">
                             </td>
                             <td><input class="tiny-input" id="inv_item_weight" value="0"
-                                    name="attr_inv_item_weight_20" type="number"></td>
+                                    name="attr_inv_item_weight_20" type="numeric"></td>
                             <td><input class="tiny-input" disabled="true" name="attr_isum_20"
                                     value="{{(@{inv_item_weight_20})*(@{inv_item_count_20})}}"
-                                    type="number"></td>
+                                    type="numeric"></td>
                             <th><button type="action" value="" name="act_inv_item_20" class="rb">
                                     Edit
                                 </button></th>
@@ -10802,13 +10927,13 @@
                                     name="attr_inv_item_name_21" placeholder="Item 21" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_21" value="0" type="number">
+                                    name="attr_inv_item_count_21" value="0" type="numeric">
                             </td>
                             <td><input class="tiny-input" id="inv_item_weight" value="0"
-                                    name="attr_inv_item_weight_21" type="number"></td>
+                                    name="attr_inv_item_weight_21" type="numeric"></td>
                             <td><input class="tiny-input" disabled="true" name="attr_isum_21"
                                     value="{{(@{inv_item_weight_21})*(@{inv_item_count_21})}}"
-                                    type="number"></td>
+                                    type="numeric"></td>
                             <th><button type="action" value="" name="act_inv_item_21" class="rb">
                                     Edit
                                 </button></th>
@@ -10818,13 +10943,13 @@
                                     name="attr_inv_item_name_22" placeholder="Item 22" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_22" value="0" type="number">
+                                    name="attr_inv_item_count_22" value="0" type="numeric">
                             </td>
                             <td><input class="tiny-input" id="inv_item_weight" value="0"
-                                    name="attr_inv_item_weight_22" type="number"></td>
+                                    name="attr_inv_item_weight_22" type="numeric"></td>
                             <td><input class="tiny-input" disabled="true" name="attr_isum_22"
                                     value="{{(@{inv_item_weight_22})*(@{inv_item_count_22})}}"
-                                    type="number"></td>
+                                    type="numeric"></td>
                             <th><button type="action" value="" name="act_inv_item_22" class="rb">
                                     Edit
                                 </button></th>
@@ -10834,13 +10959,13 @@
                                     name="attr_inv_item_name_23" placeholder="Item 23" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_23" value="0" type="number">
+                                    name="attr_inv_item_count_23" value="0" type="numeric">
                             </td>
                             <td><input class="tiny-input" id="inv_item_weight" value="0"
-                                    name="attr_inv_item_weight_23" type="number"></td>
+                                    name="attr_inv_item_weight_23" type="numeric"></td>
                             <td><input class="tiny-input" disabled="true" name="attr_isum_23"
                                     value="{{(@{inv_item_weight_23})*(@{inv_item_count_23})}}"
-                                    type="number"></td>
+                                    type="numeric"></td>
                             <th><button type="action" value="" name="act_inv_item_23" class="rb">
                                     Edit
                                 </button></th>
@@ -10850,13 +10975,13 @@
                                     name="attr_inv_item_name_24" placeholder="Item 24" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_24" value="0" type="number">
+                                    name="attr_inv_item_count_24" value="0" type="numeric">
                             </td>
                             <td><input class="tiny-input" id="inv_item_weight" value="0"
-                                    name="attr_inv_item_weight_24" type="number"></td>
+                                    name="attr_inv_item_weight_24" type="numeric"></td>
                             <td><input class="tiny-input" disabled="true" name="attr_isum_24"
                                     value="{{(@{inv_item_weight_24})*(@{inv_item_count_24})}}"
-                                    type="number"></td>
+                                    type="numeric"></td>
                             <th><button type="action" value="" name="act_inv_item_24" class="rb">
                                     Edit
                                 </button></th>
@@ -10866,13 +10991,13 @@
                                     name="attr_inv_item_name_25" placeholder="Item 25" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_25" value="0" type="number">
+                                    name="attr_inv_item_count_25" value="0" type="numeric">
                             </td>
                             <td><input class="tiny-input" id="inv_item_weight" value="0"
-                                    name="attr_inv_item_weight_25" type="number"></td>
+                                    name="attr_inv_item_weight_25" type="numeric"></td>
                             <td><input class="tiny-input" disabled="true" name="attr_isum_25"
                                     value="{{(@{inv_item_weight_25})*(@{inv_item_count_25})}}"
-                                    type="number"></td>
+                                    type="numeric"></td>
                             <th><button type="action" value="" name="act_inv_item_25" class="rb">
                                     Edit
                                 </button></th>
@@ -10882,13 +11007,13 @@
                                     name="attr_inv_item_name_26" placeholder="Item 26" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_26" value="0" type="number">
+                                    name="attr_inv_item_count_26" value="0" type="numeric">
                             </td>
                             <td><input class="tiny-input" id="inv_item_weight" value="0"
-                                    name="attr_inv_item_weight_26" type="number"></td>
+                                    name="attr_inv_item_weight_26" type="numeric"></td>
                             <td><input class="tiny-input" disabled="true" name="attr_isum_26"
                                     value="{{(@{inv_item_weight_26})*(@{inv_item_count_26})}}"
-                                    type="number"></td>
+                                    type="numeric"></td>
                             <th><button type="action" value="" name="act_inv_item_26" class="rb">
                                     Edit
                                 </button></th>
@@ -10898,13 +11023,13 @@
                                     name="attr_inv_item_name_27" placeholder="Item 27" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_27" value="0" type="number">
+                                    name="attr_inv_item_count_27" value="0" type="numeric">
                             </td>
                             <td><input class="tiny-input" id="inv_item_weight" value="0"
-                                    name="attr_inv_item_weight_27" type="number"></td>
+                                    name="attr_inv_item_weight_27" type="numeric"></td>
                             <td><input class="tiny-input" disabled="true" name="attr_isum_27"
                                     value="{{(@{inv_item_weight_27})*(@{inv_item_count_27})}}"
-                                    type="number"></td>
+                                    type="numeric"></td>
                             <th><button type="action" value="" name="act_inv_item_27" class="rb">
                                     Edit
                                 </button></th>
@@ -10914,13 +11039,13 @@
                                     name="attr_inv_item_name_28" placeholder="Item 28" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_28" value="0" type="number">
+                                    name="attr_inv_item_count_28" value="0" type="numeric">
                             </td>
                             <td><input class="tiny-input" id="inv_item_weight" value="0"
-                                    name="attr_inv_item_weight_28" type="number"></td>
+                                    name="attr_inv_item_weight_28" type="numeric"></td>
                             <td><input class="tiny-input" disabled="true" name="attr_isum_28"
                                     value="{{(@{inv_item_weight_28})*(@{inv_item_count_28})}}"
-                                    type="number"></td>
+                                    type="numeric"></td>
                             <th><button type="action" value="" name="act_inv_item_28" class="rb">
                                     Edit
                                 </button></th>
@@ -10930,13 +11055,13 @@
                                     name="attr_inv_item_name_29" placeholder="Item 29" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_29" value="0" type="number">
+                                    name="attr_inv_item_count_29" value="0" type="numeric">
                             </td>
                             <td><input class="tiny-input" id="inv_item_weight" value="0"
-                                    name="attr_inv_item_weight_29" type="number"></td>
+                                    name="attr_inv_item_weight_29" type="numeric"></td>
                             <td><input class="tiny-input" disabled="true" name="attr_isum_29"
                                     value="{{(@{inv_item_weight_29})*(@{inv_item_count_29})}}"
-                                    type="number"></td>
+                                    type="numeric"></td>
                             <th><button type="action" value="" name="act_inv_item_29" class="rb">
                                     Edit
                                 </button></th>
@@ -10946,13 +11071,13 @@
                                     name="attr_inv_item_name_30" placeholder="Item 30" type="text">
                             </td>
                             <td><input class="tiny-input" id="inv_item_count"
-                                    name="attr_inv_item_count_30" value="0" type="number">
+                                    name="attr_inv_item_count_30" value="0" type="numeric">
                             </td>
                             <td><input class="tiny-input" id="inv_item_weight" value="0"
-                                    name="attr_inv_item_weight_30" type="number"></td>
+                                    name="attr_inv_item_weight_30" type="numeric"></td>
                             <td><input class="tiny-input" disabled="true" name="attr_isum_30"
                                     value="{{(@{inv_item_weight_30})*(@{inv_item_count_30})}}"
-                                    type="number"></td>
+                                    type="numeric"></td>
                             <th><button type="action" value="" name="act_inv_item_30" class="rb">
                                     Edit
                                 </button></th>
@@ -11261,8 +11386,41 @@
     });
 
     function roll_custom(roll_field, roll_attribute) {
-        getAttrs([roll_attribute], function (attr) {
-            startRoll(attr[roll_attribute], (res) => {
+        let xdmg1 = "";
+        let xdmg2 = "";
+        let xdmg3 = "";
+        let xdmg4 = "";
+
+        getAttrs([roll_attribute,
+                  "xd_1", "xd_2", "xd_3", "xd_4",
+                  "xd_name_1","xdmg_1",
+                  "xd_name_2","xdmg_2",
+                  "xd_name_3","xdmg_3",
+                  "xd_name_4","xdmg_4"], function (attr) {
+            console.log(attr);
+            if(attr.xd_1==1) {
+                xdmg1=`{{xdmgn1=${attr.xd_name_1}}}{{xdmg1=[[${attr.xdmg_1}]]}}`;
+console.log(`xdmg1=${xdmg1}`);
+            }
+            if(attr.xd_2==1) {
+                xdmg2=`{{xdmgn2=${attr.xd_name_2}}}{{xdmg2=[[${attr.xdmg_2}]]}}`;
+            }
+            if(attr.xd_3==1) {
+                xdmg3=`{{xdmgn3=${attr.xd_name_3}}}{{xdmg3=[[${attr.xdmg_3}]]}}`;
+console.log(`xdmg1=${xdmg1}`);
+            }
+            if(attr.xd_4==1) {
+                xdmg4=`{{xdmgn4=${attr.xd_name_4}}}{{xdmg4=[[${attr.xdmg_4}]]}}`;
+            }
+
+            console.log(xdmg1);
+            console.log(`Roll field: ${roll_field}`);
+            let roll_str = attr[roll_attribute];
+            if (roll_field=="attack") {
+                roll_str = attr[roll_attribute]+xdmg1+xdmg2+xdmg3+xdmg4;
+            }
+            console.log(`Final roll string: ${roll_str}`)
+            startRoll(roll_str, (res) => {
                 let d = res.results[roll_field].dice;
                 let ones = 0;
                 let twelves = 0;

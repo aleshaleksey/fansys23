@@ -631,7 +631,7 @@ ___
 
 FanSys, like most TTRPG systems, is turn based, which means that all characters act one at a time. The order in which they act, in sensitive situations, such as combat, is determined by an "initiative roll". This is a *roll* with an "Initiative Bonus", which represents how quick a character is to act and react. The "Initiative Bonus" is determined as follows:
 
-**Initiative Bonus** = [DEX]/2 + [INT]/2  (whichever is higher)
+**Initiative Bonus** = [DEX]/2 + [INT]/2
 
 Characters that roll a higher initiative roll act before those that roll a lower initiative.
 

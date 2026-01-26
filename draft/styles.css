@@ -652,8 +652,8 @@ input.prof-source-select {
 }
 
 input.tiny-input-r {
-    max-width: 60px;
-    width: 60px;
+    max-width: 50px;
+    width: 50px;
     font-size: 13px;
 }
 
@@ -1162,8 +1162,8 @@ button[type=roll]:hover {
 button[type=action].rb-skill-button {
     min-height: 20pt;
     max-height: 90%;
-    max-width: 90%;
-    min-width: 90%;
+    max-width: 94%;
+    min-width: 94%;
 }
 
 button[type=action].rb-thr-attack {

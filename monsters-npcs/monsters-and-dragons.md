@@ -989,6 +989,50 @@ ___
 A sparrow-griff is a tiny pest with the front of a sparrow and the hind-side of a mouse. It dwells around farmsteads, and wizard's towers, eats any supplies it can get its paws on, and leaves a mess behind it. Some mages use them as familiars.
 
 ___
+### Harpy
+
+**Size category**: Medium (5ft x 5ft)
+
+- Natural Armour: +1
+- Reach: 5ft
+- Carry capacity: (0 - 48lb light, 48 - 96lb medium, 96-240lb heavy, 360lb drag)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|15/12/14|18 (*15*)|18 (*15*)|6|20ft|80ft|
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|12|17|13|11|13|12|
+|Bonus|+1|+3|+1|0|+1|+1|
+|Save|+4|+4|+4|+1|+2|+2|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|4(1)|7|7|2|2|3|3|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|[Elementalism: Air (Blast)](../06-abilities.md#blast-elemental-blast)|+4|1d8+1[Pre] + 1d8/MP die|(Range=120ft+30ft/MP die) A harpy can use up to 2 MP die with its elemental blast.|
+|[Elementalism: Air (Cone)](../06-abilities.md#cone)|Thr=16 [STR]|1d8+1[Pre] + 1d8/MP die|(Range=10ft+10ft/MP die) A harpy can use up to 2 Mp with its elemental cone.|
+|[Elementalism: Air (Touch)](../06-abilities.md#touch-elemental-touch)|+4|1d8+1[Pre] + 1d8/MP die|(Range=close) A harpy can use up to 2 MP die with its elemental touch.|
+|[Elementalism: Air (Aura)](../06-abilities.md#aura)|Thr=16 [STR]|1d8+1[Pre] + 1d8/MP die|(Range=10ft/MP die) A harpy can use up to 2 Mp with its elemental aura.|
+|[Elemental Effects: Prone, Shove, Deafened](../06-abilities.md#effects)|Thr=16||A harpy can expend 1 MP die to add prone, shove or deafened to the effects of its elementalism. The save is STR based for "shove" and "prone", but CON based for "deafened". MP die expended in this way count against the limit of 2 MP per use of elementalism.|
+|Claws|+6|1d6+3|(Range=close)|
+|||||
+|[Combined Manoeuvre: Grapple, Disarm](../06-abilities.md#combined-manoeuvre-i-v)||||
+|||||
+|Senses|||[Keen Sense: Vision](../06-abilities.md#keen-senses-i-iii), [Keen Sense: Hearing](../06-abilities.md#keen-senses-i-iii)|
+|Skills|||"Fly" +7, "Acrobatics" +7, "Observe" +3, "Appraise" +2, "Creature Handling" +2, "Knowledge: Arcana" +1, "Knowledge: Religion" +1|
+
+Harpies are wind-aligned monsters that resemble humanoid women, except for their arms, which are avian wings, and their lower legs which end in raptor-like claws.
+
+Harpies prefer to inhabit remote, rocky islands, where they flock. Chaotic and generally malicious, harpies descend upon humanoid settlements, taking what they want and leaving destruction in their wake.
+
+Their tactics in combat are to attack the weak and avoid the strong. They prefer to attack during bad weather which gives them some cover, sow panic using their elemental abilities. Given the opportunity, they will carry a dangerous foe into the air before dropping them to their doom. Their aim is seldom to completely destroy a foe, but rather to plunder and pillage.
+
+
+___
 ### Minotaur
 
 **Size category**: Large (10ft x 10ft)

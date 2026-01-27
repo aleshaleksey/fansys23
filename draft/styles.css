@@ -1009,21 +1009,19 @@ select {
     background-color: #f2f4ec;
 }
 
-/* input::-webkit-outer-spin-button,
+input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
-} */
+}
 
 /* This is here just in case some poor fool uses firefox */
-input[type=numeric],
 input[type=number] {
-    /* -moz-appearance: textfield;
-    appearance: textfield; */
+    -moz-appearance: textfield;
+    appearance: textfield;
     width: 100%;
     text-align: center;
 }
-
 
 input.text-input-small {
     max-width: 40px;

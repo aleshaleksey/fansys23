@@ -25,6 +25,7 @@
     - [Griffon, Hippogriff](#griffon-hippogriff)
     - [Griffon, Owl-griff](#griffon-owl-griff)
     - [Griffon, Sparrow-griff](#griffon-sparrow-griff)
+    - [Harpy](#harpy)
     - [Pegasus](#pegasus)
     - [Unicorn, White](#unicorn-white)
 - [Lycanthropes](#lycanthropes)
@@ -1013,14 +1014,16 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|[Elementalism: Air (Blast)](../06-abilities.md#blast-elemental-blast)|+4|1d8+1[Pre] + 1d8/MP die|(Range=120ft+30ft/MP die) A harpy can use up to 2 MP die with its elemental blast.|
-|[Elementalism: Air (Cone)](../06-abilities.md#cone)|Thr=16 [STR]|1d8+1[Pre] + 1d8/MP die|(Range=10ft+10ft/MP die) A harpy can use up to 2 Mp with its elemental cone.|
-|[Elementalism: Air (Touch)](../06-abilities.md#touch-elemental-touch)|+4|1d8+1[Pre] + 1d8/MP die|(Range=close) A harpy can use up to 2 MP die with its elemental touch.|
-|[Elementalism: Air (Aura)](../06-abilities.md#aura)|Thr=16 [STR]|1d8+1[Pre] + 1d8/MP die|(Range=10ft/MP die) A harpy can use up to 2 Mp with its elemental aura.|
-|[Elemental Effects: Prone, Shove, Deafened](../06-abilities.md#effects)|Thr=16||A harpy can expend 1 MP die to add prone, shove or deafened to the effects of its elementalism. The save is STR based for "shove" and "prone", but CON based for "deafened". MP die expended in this way count against the limit of 2 MP per use of elementalism.|
+|[Elementalism: Air (Blast)](../06-abilities.md#blast-elemental-blast)|+4|1d8+1[Pre] + 1d8/MP die|(Range=120ft+30ft/MP die) A harpy can use up to 2 MP dice with its elemental blast.|
+|[Elementalism: Air (Cone)](../06-abilities.md#cone)|Thr=16 [STR]|1d8+1[Pre] + 1d8/MP die|(Range=10ft+10ft/MP die) A harpy can use up to 2 MP dice with its elemental cone.|
+|[Elementalism: Air (Touch)](../06-abilities.md#touch-elemental-touch)|+4|1d8+1[Pre] + 1d8/MP die|(Range=close) A harpy can use up to 2 MP dice with its elemental touch.|
+|[Elementalism: Air (Aura)](../06-abilities.md#aura)|Thr=16 [STR]|1d8+1[Pre] + 1d8/MP die|(Range=10ft/MP die) A harpy can use up to 2 MP dice with its elemental aura.|
+|[Elemental Effects: Prone, Shove, Deafened](../06-abilities.md#effects)|Thr=16||A harpy can expend 1 MP die to add prone, shove or deafened to the effects of its elementalism. The save is STR based for "shove" and "prone", but CON based for "deafened". MP dice expended in this way count against the limit of 2 MP per use of elementalism.|
 |Claws|+6|1d6+3|(Range=close)|
+|Disarm|+6|||
+|Grapple|+6|||
 |||||
-|[Combined Manoeuvre: Grapple, Disarm](../06-abilities.md#combined-manoeuvre-i-v)||||
+|[Combined Manoeuvre](../06-abilities.md#combined-manoeuvre-i-v)|||A harpy can expend an SP dice to combine any 2 basic combat manoeuvres it is proficient with in a single attack.|
 |||||
 |Senses|||[Keen Sense: Vision](../06-abilities.md#keen-senses-i-iii), [Keen Sense: Hearing](../06-abilities.md#keen-senses-i-iii)|
 |Skills|||"Fly" +7, "Acrobatics" +7, "Observe" +3, "Appraise" +2, "Creature Handling" +2, "Knowledge: Arcana" +1, "Knowledge: Religion" +1|
@@ -1029,7 +1032,7 @@ Harpies are wind-aligned monsters that resemble humanoid women, except for their
 
 Harpies prefer to inhabit remote, rocky islands, where they flock. Chaotic and generally malicious, harpies descend upon humanoid settlements, taking what they want and leaving destruction in their wake.
 
-Their tactics in combat are to attack the weak and avoid the strong. They prefer to attack during bad weather which gives them some cover, sow panic using their elemental abilities. Given the opportunity, they will carry a dangerous foe into the air before dropping them to their doom. Their aim is seldom to completely destroy a foe, but rather to plunder and pillage.
+Their tactics in combat are to attack the weak and avoid the strong. They prefer to attack during bad weather which gives them some cover, sowing panic using their elemental abilities as they do. Given the opportunity, they will carry a dangerous foe into the air before dropping them to their doom. Their aim is seldom to completely destroy a foe, but rather to plunder, pillage and terrorise while keeping any defenders at bay.
 
 
 ___

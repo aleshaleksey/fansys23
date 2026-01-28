@@ -26,7 +26,9 @@
     - [Griffon, Owl-griff](#griffon-owl-griff)
     - [Griffon, Sparrow-griff](#griffon-sparrow-griff)
     - [Harpy](#harpy)
+    - [Minotaur](#minotaur)
     - [Pegasus](#pegasus)
+    - [Siren (False)](#siren-false)
     - [Unicorn, White](#unicorn-white)
 - [Lycanthropes](#lycanthropes)
     - [Werewolf, Lesser](#werewolf-lesser)
@@ -1000,7 +1002,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/12/14|18 (*15*)|18 (*15*)|6|20ft|80ft|
+|15/12/14|18 (*15*)|18 (*15*)|6|20ft|Flight (80ft, good, endurance = 6 hours)|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -1115,6 +1117,49 @@ ___
 |Skills|||"Observe" +5, "Fly" +6, "Athletics" +8|
 
 A pegasus is flying horse with almost human-like intelligence that are capable of soaring flight. Wild pegasi are incredibly difficult to catch, tame, breed and train. Together this makes them extraordinarily desirable as mounts, and humanoid elite will stop at little to obtain a steed such as this.
+
+___
+### Siren (False)
+
+**Size category**: Large (10ft x 10ft)
+
+- Evade: -1, Armour +1
+- Natural armour +1
+- Reach: 5ft (long)
+- [DEX save]: -1, [STR save]: +1
+- Carry capacity: (0 - 112lb light, 112 - 224lb medium, -560lb heavy, 840lb drag)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|16/14/14|12|38 (*26*)|47 (*29*)|20ft|Flight (80ft, average, endurance = 4 hours)|
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|14|17|14|11|13|17|
+|Bonus|+2|+3|+2|0|+1|+3|
+|Save|+4|+5|+4|+2|+3|+5|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|7(2)|12|13|2|3|4|5|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Claws|+6|1d12+2 [She]|(Reach=5ft, long)|
+|Bite|+6|1d4+2 [She]|(Reach=5ft, long)|
+|Grapple|+7|||
+|||||
+|Siren's Song|Thr=19 [Cha]||(Range = 120ft, Cost = 2 MP dice, Duration = 1 minute) As a secondary action a false siren can begin to sing. The Siren must use its secondary action on each subsequent turn to maintain the song, though it does not expend additional dice. Any mortal that can hear the song within 120ft must succeed a CHA save at the start of its turn or be charmed by the false siren. A charmed mortal is charmed for the duration of the song and must use its movement to approach the siren, even if doing so can put it in danger. Every time a charmed mortal takes damage due to the Siren, its allies, or any hazards it encounters as it approaches, it may repeat its save.|
+|Siren's Lullaby|Thr=19 [Wis]||(Range = 10ft, Cost = 1 MP die, Duration = 1 minute) As a main action a false siren can change its song into a lullaby. One charmed mortal of its choice within 10ft of it must succeed a WIS save at the start of its turn or fall unconscious. It can repeat the save at the start of each subsequent turn. It awakens should it take any damage.|
+|||||
+|[Combined Manoeuvre](../06-abilities.md#combined-manoeuvre-i-v)|||A harpy can expend an SP dice to combine any 2 basic combat manoeuvres it is proficient with in a single attack.|
+|||||
+|Senses|||[Keen Sense: Vision](../06-abilities.md#keen-senses-i-iii), [Keen Sense: Hearing](../06-abilities.md#keen-senses-i-iii)|
+|Skills|||"Fly" +9, "Acrobatics" +8, "Observe" +5, "Fortify" +4, "Creature Handling" +3, "Knowledge: Arcana" +1, "Knowledge: Religion" +1|
+
+False sirens are monstrous entities enormous birdlike beings with the faces and chests of humanoid women. They dwell near dangerous roads - be it paths that wind along steep canyons or on reefs upon the sea. The song of a false siren is alluring, and upon hearing it mortals are compelled to approach and listen in rapture. If the mortal survives its approach, it will be torn apart by the false siren's claws.
+
+Unlike a [True Siren](spirits.md#siren-true), false sirens have no truths or prophecies to offer those who hear them. They are predators in search of flesh. Should its song proof ineffective, a false siren is more likely to flee than fight.
 
 ___
 ### Unicorn, White

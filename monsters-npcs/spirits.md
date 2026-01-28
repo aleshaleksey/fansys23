@@ -28,6 +28,7 @@
     - [True Fairy](#true-fairy)
     - [Wisp](#wisp)
 - [Spirits: Other](#spirits-other)
+    - [Siren (True)](#siren-true)
 
 ## Spirits: Elementals
 
@@ -1232,6 +1233,78 @@ Deflection: +2
 
 ___
 ## Spirits: Other
+
+Besides the easily categorised Fey and Elemental spirits, there are also spirits associated with other concepts, which are not so easily categorised. Some are closer to fiends and undead, others border on divinity. All can be extremely dangerous to mortals.
+
+Regardless of origin, a spirit invariably has the following properties:
+
+- Spirits are immune to "physical" damage, as their physical form is either unnecessary or not "real".
+- Spirits are immune to "stunned", "immobilised", "crippled", "bleeding", "poisoned", and "paralysed".
+
+
+___
+### Siren (True)
+
+**Size category**: Large (10ft x 10ft)
+
+- Evade: +1, Armour -1
+- Reach: 5ft (long)
+- Deflection: +6
+- [DEX save]: +1, [STR save]: -1
+- Carry capacity: (0 - 80lb light, 80 - 160lb medium, 160 - 400lb heavy, 600lb drag)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|25/25/25|21|58 (*28*)|134 (*56*)|20ft|Flight (120ft, good, endurance = unlimited)|
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|10|15|14|17|26|23|
+|Bonus|0|+2|+2|+3|+8|+6|
+|Save|+4|+4|+5|+11|+16|+14|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|13(3)|16|25|3|5|6|8|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Siren's Touch|+8|1d6 [Div/Pro]|(Range = 5ft, long - vs Touch HiT) A Siren's touch touches a being's very essence - a Siren can deal an addition 1d6 points of divine/profane damage by expending an MP die.|
+|||||
+|[Sc: Incantation VII](../06-abilities.md#spellcasting-local)|Thr=21||Knows All Incantation Spells up to VII MP, Preferred: [Least Ward](../08-spell-list.md#least-ward),  [HeadWind](../08-spell-list.md#headwind),  [Meadow of Flame](../08-spell-list.md#meadow-of-flame),  [Cure](../08-spell-list.md#cure),  [Summon Spirit](../08-spell-list.md#summon-spirit), [Isolate Essence](../08-spell-list.md#isolate-essence),  [Razor Wind](../08-spell-list.md#razor-wind),  [Create Secret Path](../08-spell-list.md#create-secret-path)|
+|[Forbidden Spell](../06-abilities.md#forbidden-spell)|Thr=26||[Summon Fiend](../08-spell-list.md#summon-fiend), [Dominate Mortal](../08-spell-list.md#dominate-mortal), [Forced Possession](../08-spell-list.md#forced-possession), [Legion of Dead](../08-spell-list.md#legion-of-dead), [Otherworld Step](../08-spell-list.md#otherworld-step), [Summon Angel](../08-spell-list.md#summon-angel), [Incarnate](../08-spell-list.md#incarnate)|
+|[Sc: Global I](../06-abilities.md#spellcasting-global)|Thr=21/26|||
+|||||
+|True Siren's Song|Thr=24 [Cha]||(Range = 120ft, Cost = 2 MP dice, Duration = 1 day) As a secondary action a true siren can begin to sing. The Siren must use its secondary action on each subsequent turn to maintain the song, though it does not expend additional dice. Any being with an INT score above 5 and a CHA score that can hear the song within 120ft must succeed a CHA save at the start of its turn or be charmed by the false siren. A charmed mortal is charmed for the duration of the song and must use its movement to approach the siren, even if doing so can put it in danger. Every time a charmed mortal takes damage due to the Siren, its allies, or any hazards it encounters as it approaches, it may repeat its save. A being that succeeds the save is never affected by the same Siren's song again.|
+|Siren's Fall|Thr=26||(Range = 10ft) A being that is charmed by the siren and approaches within 10ft, must succeed a WIS save or fall catatonic. Every day at dawn, or when it takes damage, it may repeat the save. A being that succeeds the save is never affected by the same Siren's song again.|
+|Siren's Secret|||A being that critically fails its save against "Siren's Fall" learns a random forbidden spell that it does not already know and gains the ability to cast it if it has sufficient MP dice. Alternatively, at the DM's discretion, a character may learn a plot critical secret instead.|
+|||||
+|[Aphonic Spell](../06-abilities.md#aphonic-spell)|||(Cost = 1 MP die) A siren can expend a single MP die to cast a spell without incantation.|
+|[Swift Spell: Incantation](../06-abilities.md#swift-spell)|||(Cost = 2MP dice) A Siren can speed up the casting of Incantation spels by expending 2 MP dice.|
+|[Swift Spell: Forbidden](../06-abilities.md#swift-spell)|||(Cost = 2MP dice) A Siren can speed up the casting of forbidden spells by expending 2 MP dice.|
+|[Bard's Song IV](../06-abilities.md#bard-song-i-iv)|||A Siren's song can strengthen and weaken mortals.|
+|[Spell-song IV](../06-abilities.md#spellsong-i-iv)|||A Siren's song can modify the magic it wields.|
+|||||
+|[Cursed Blood](../06-abilities.md#cursed-blood)|||A siren can cast a spell as a reaction to being dealt HP damage.|
+|||||
+|[Alert](../06-abilities.md#alert)|||A siren cannot be surprised.|
+|[Foresight](../06-abilities.md#foresight)|||A siren gains half of its wisdom bonus as an evasion bonus to HiT.|
+|[Deflection](../06-abilities.md#deflection)|||A Siren can deflect some of the damage dealt by supernatural attacks.|
+|[Esoteric Deflection](../06-abilities.md#esoteric-deflection)|||A Siren can deflect even esoteric damage when using deflection|
+|[True Sight (120ft)](../06-abilities.md#truesight-i-vi)|||A Siren can see the true nature of the things around it.|
+|[Xenophonia: Mortals](../06-abilities.md#xenophonia-i-xiii)|||A Siren's words can be understood by all mortals, as it can likewise understand the words of any mortal.|
+|||||
+|Immunities|||"Physical" damage, "Entropic" damage|
+|Immunities|||"Stunned", "Immobilised", "Crippled", "Catatonic", "Charmed", "Frightened", "Bleeding", "Poisoned", and "paralysed"|
+|||||
+|Skills|||"Perform" +17, "Spellworking" +15, "Knowledge (All)" +13, "Sense Motive" +13, "Observe" +13, "Appraise" +11, , "Track" +9, "Fly" +7, "Acrobatics" +7|
+
+True Sirens, unlike the monstrous [False Siren](monsters-and-dragons.md#siren-false), are spirits of forbidden knowledge which sing truths of the past, present and future that no mortal should know. It is that promise that lures mortals to a True Siren, where they have no recourse but to listen, while their life wastes away.
+
+The real goals of a True Siren are not well known, but they are extremely dangerous to the mortals that they come into contact with.
+
+True Sirens, when they appear in the material realm, generally do so in remote and difficult to access places. They do not engage in combat unless they must, in which case they will use their considerable supernatural prowess, and the foreknowledge they possess to fight to their advantage.
+
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|

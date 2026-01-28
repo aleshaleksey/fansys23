@@ -1157,7 +1157,7 @@ ___
 |Senses|||[Keen Sense: Vision](../06-abilities.md#keen-senses-i-iii), [Keen Sense: Hearing](../06-abilities.md#keen-senses-i-iii)|
 |Skills|||"Fly" +9, "Acrobatics" +8, "Observe" +5, "Fortify" +4, "Creature Handling" +3, "Knowledge: Arcana" +1, "Knowledge: Religion" +1|
 
-False sirens are monstrous entities enormous birdlike beings with the faces and chests of humanoid women. They dwell near dangerous roads - be it paths that wind along steep canyons or on reefs upon the sea. The song of a false siren is alluring, and upon hearing it mortals are compelled to approach and listen in rapture. If the mortal survives its approach, it will be torn apart by the false siren's claws.
+False sirens are enormous birdlike beings with the faces and chests of humanoid women. They dwell near dangerous roads - be it paths that wind along steep canyons or on reefs upon the sea. The song of a false siren is alluring, and upon hearing it mortals are compelled to approach and listen in rapture. If the mortal survives its approach, it will be torn apart by the false siren's claws.
 
 Unlike a [True Siren](spirits.md#siren-true), false sirens have no truths or prophecies to offer those who hear them. They are predators in search of flesh. Should its song proof ineffective, a false siren is more likely to flee than fight.
 

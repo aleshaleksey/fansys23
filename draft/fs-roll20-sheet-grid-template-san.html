@@ -638,63 +638,88 @@
                                     type="number" value="{{13+(@{wis_bonus})+@{sup}}}"
                                     data-formula="{{13+(@{wis_bonus})+@{sup}}}">
                             </td>
-                            <td><input class="tiny-input" name="attr_attack_mod_wis" disabled="true"
-                                    type="number" value="{{(@{wis_bonus})+@{base}+@{sup}}}"
+                            <td><input class="tinier-input" name="attr_attack_mod_wis"
+                                    disabled="true" type="number"
+                                    value="{{(@{wis_bonus})+@{base}+@{sup}}}"
                                     data-formula="{{(@{wis_bonus})+@{sup}+@{base}}}">
                             </td>
                         </tr>
                     </tbody>
                 </table>
+                <div class="conc-save-div">
+                    <table class="save-tab">
+                        <tbody>
+                            <tr>
+                                <th class="save-th"><button type="action" class="rb-thr-attack"
+                                        name="act_cen_save">
+                                        <input type="hidden" name="attr_cen_save"
+                                            value="&amp;{template:main}{{title=Concentration save}}{{twelves=[[0[Crit Count]]]}}{{ones=[[0[Fail Count]]]}}{{name=@{character_name}}}{{save=[[@{nd12} + (@{nd12bonus}) + (@{save_bonus_cen})]]}}{{x_die=@{sm_die}}}{{crit_roll=[[1d6]] [[1d6]]}}"
+                                            class="rb">
+                                        <span class="rb_inner"><span class="rb_inner d12">l
+                                            </span>Conc. Save</span></button>
+                                    </button></th>
+
+                                <th><input name="attr_save_bonus_cen" disabled="true" type="number"
+                                        class="tinier-input"
+                                        value="{@{nat}+ceil(@{wis_bonus}/2)+ceil(@{int_bonus}/2)}"
+                                        data-formula="{@{nat}+ceil(@{wis_bonus}/2)+ceil(@{int_bonus}/2)}">
+                                </th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
             <div class="hit-box">
-                <table class="save-table">
-                    <caption><strong>HiT</strong></caption>
-                    <tbody>
-                        <tr>
-                            <th class="hit-main"><input class="tiny-input-huge"
-                                    name="attr_hit_threshold" disabled="true" type="number"
-                                    value="{{@{evasion_bonus}+@{base}+@{armour}+@{shield}+@{deflection}+@{char_size}+@{hit_extra}+10}}"
-                                    data-formula="{{@{evasion_bonus}+@{base}+@{armour}+@{shield}+@{deflection}+@{char_size}+@{hit_extra}+10}}">
-                            </th>
-                        </tr>
-                    </tbody>
-                </table>
-                <table class="hit-table">
-                    <tbody>
-                        <tr>
-                            <td>Evasion</td>
-                            <td><input class="tiny-input-small" name="attr_evasion_bonus"
-                                    disabled="true" type="number"
-                                    value="{{@{dex_bonus}-(@{char_size})}}"
-                                    data-formula="{{@{dex_bonus}-(@{char_size})}}">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Armour</td>
-                            <td><input class="tiny-input-small" name="attr_armour" type="number"
-                                    value="0">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Shield</td>
-                            <td><input class="tiny-input-small" name="attr_shield" type="number"
-                                    value="0">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Deflection</td>
-                            <td><input class="tiny-input-small" name="attr_deflection" type="number"
-                                    value="0">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Other</td>
-                            <td><input class="tiny-input-small" name="attr_hit_extra" type="number"
-                                    value="0">
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="hit-box-inner">
+                    <table class="save-table">
+                        <caption><strong>HiT</strong></caption>
+                        <tbody>
+                            <tr>
+                                <th class="hit-main"><input class="tiny-input-hit"
+                                        name="attr_hit_threshold" disabled="true" type="number"
+                                        value="{{@{evasion_bonus}+@{base}+@{armour}+@{shield}+@{deflection}+@{char_size}+@{hit_extra}+10}}"
+                                        data-formula="{{@{evasion_bonus}+@{base}+@{armour}+@{shield}+@{deflection}+@{char_size}+@{hit_extra}+10}}">
+                                </th>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="hit-table">
+                        <tbody>
+                            <tr>
+                                <td>Evasion</td>
+                                <td><input class="tiny-input-small" name="attr_evasion_bonus"
+                                        disabled="true" type="number"
+                                        value="{{@{dex_bonus}-(@{char_size})}}"
+                                        data-formula="{{@{dex_bonus}-(@{char_size})}}">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Armour</td>
+                                <td><input class="tiny-input-small" name="attr_armour" type="number"
+                                        value="0">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Shield</td>
+                                <td><input class="tiny-input-small" name="attr_shield" type="number"
+                                        value="0">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Deflection</td>
+                                <td><input class="tiny-input-small" name="attr_deflection"
+                                        type="number" value="0">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Other</td>
+                                <td><input class="tiny-input-small" name="attr_hit_extra"
+                                        type="number" value="0">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
             <div class="rest-box">
                 <hr>
@@ -11490,5 +11515,9 @@ console.log(`xdmg1=${xdmg1}`);
             });
         }
     });
+    on(`clicked:cen_save`, function() {
+        roll_custom("save", "cen_save");
+    });
+
 
 </script>

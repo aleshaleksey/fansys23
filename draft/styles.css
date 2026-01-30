@@ -358,6 +358,15 @@ div.save-tab {
     padding: 4px;
     grid-area: save-tab;
     width: 100%;
+    align-content: space-between;
+}
+
+div.conc-save-div {
+    min-width: 175px;
+    width: 175px;
+    background-color: #e5e7e3;
+    border: 1px solid rgb(104, 101, 101);
+
 }
 
 div.thr-tab {
@@ -367,10 +376,20 @@ div.thr-tab {
 }
 
 div.hit-box {
-    display: flex;
+    max-width: 196px;
+    width: 196px;
+    max-height: 172px;
+    height: 172px;
     justify-content: space-between;
     padding: 4px;
     grid-area: hit-box;
+    border: none;
+}
+
+div.hit-box-inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
     border: 1px solid rgb(104, 101, 101);
 }
 
@@ -1012,6 +1031,8 @@ select {
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     margin: 0;
 }
 
@@ -1031,6 +1052,10 @@ input.tiny-input {
     max-width: 40px;
 }
 
+input.tinier-input {
+    max-width: 40px;
+}
+
 input.tiny-input-small {
     max-width: 30px;
     font-size: 10pt;
@@ -1044,6 +1069,12 @@ input.tiny-input-big {
 
 input.tiny-input-huge {
     max-width: 60px;
+    font-size: 24pt;
+}
+
+input.tiny-input-hit {
+    max-width: 52px;
+    max-height: 60px;
     font-size: 24pt;
 }
 

@@ -1746,7 +1746,10 @@ ___
 
 **Description**: Animate a plant with at least a size "medium", the plant serves and fights faithfully for the one who animated it. The plant becomes a level III plant and can communicate with its summoner and other sentient plants. At the end of the spell, the plant becomes a normal plant again.
 
-**Special**: You can only have one summon at any one time.
+**Special**:
+
+- Animate Plant can instead be used to summon a [Wooden Doll](monsters-npcs/constructs.md#wooden-doll-lesser) of an equivalent level of an animated plant. In this case the spell functions like the [Animate Golem](#animate-golem), except for wooden dolls.
+- You can only have one summon at any one time.
 
 **Upcast**: For every MP dice added above 3 (12MP dice for global), the sprite gains two levels.
 
@@ -2390,7 +2393,7 @@ ___
 |Concentration|local|-3(-4)
 |Save|-|
 
-**Description**: Creates a level IV earth/clay golem to faithfully serve and fight for you. The golem can communicate with its creator and other geomancer and golems through machine language. It is intelligent enough to understand stances and movements of mortal entities.
+**Description**: Creates a level IV golem to faithfully serve and fight for you. The golem can communicate with its creator and other geomancer and golems through machine language. It is intelligent enough to understand stances and movements of mortal entities.
 
 **Special**: When the spell ends, the golem runs of of energy but is not destroyed. Recharging a golem costs only half of the MP dice cost of creating it (rounded up).
 

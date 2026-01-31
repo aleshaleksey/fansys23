@@ -7,6 +7,8 @@ These properties make constructs excellent workers and guardians.
 - [Golems](#golems)
     - [Gingerbread Golem](#gingerbread-golem)
     - [Gingerbread Golem, Warrior](#gingerbread-golem-warrior)
+    - [Wooden Doll](#wooden-doll)
+    - [Wooden Doll, Lesser](#wooden-doll-lesser)
     - [Clay Golem, humanoid Lesser](#clay-golem-humanoid-lesser)
     - [Clay Golem, humanoid](#clay-golem-humanoid)
     - [Stone Golem, humanoid](#stone-golem-humanoid)
@@ -108,6 +110,106 @@ Gingerbread golems, also known as gingerbread men are usually small or tiny past
 Gingerbread golems seldom engage in combat, preferring to avoid violence with their swift and tireless leg (not all gingerbread golems have legs, some roll). However, sometimes a gingerbread man chooses violence. It then becomes a gingerbread warrior. Ridiculous though they may seem, these golems can easily defeat your average soldier.
 
 ___
+### Wooden doll, lesser
+
+A wooden dolls are simple to make and animate, 
+
+___
+**Size category**: Medium (5ft x 5ft)
+
+- Reach: 5ft
+- Carry capacity: (48lb light, 96lb medium, 240lb heavy, 360lb drag)
+- Natural armour: +1
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|13/12/12|15 (*13*)|14 (*11*)|5|35ft||
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|12|15|12|5|11|-|
+|Bonus|+1|+2|+1|-3|0|-|
+|Save|+2|+3|+2|-2|+1|-|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|3 (1)|6|5|1|1|2|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Strike|+4|1d6+2 [Per]||
+|Short Sword|+4|1d6+2 [Pie]|A wooden doll is proficient with light blades.|
+|Wooden Shuriken|+4|1d4+2|20ft/60ft|
+|Grapple|+4|||
+|Throw|+4|||
+|Interception|+4|||
+|Combined Manoeuvre I|||A wooden doll can combine any two manoeuvres it is proficient with by expending 1SP dice.|
+|Flurry|||A wooden doll can make a *single* combat manoeuvre as a secondary action if it used its main action to attack.|
+|||||
+|Senses|||Sight, "low-light vision", "blind-sight" 30ft|
+|Senses|||A wooden doll has no sense of smell or touch|
+|Limited Telepathy|||A wooden doll can implicitly understand its master within 120ft.|
+|Proficiencies|||1 language and up to 4 kits|
+|Skills|||"Acrobatics" +4,"Athletics" +2, "Harvest" +2, "Fortify" +2, "Observe" +1|
+|||||
+|Absorb Energy|||"Light" - Wooden dolls are immune to light damage, and any damage it would take from light instead restores the doll's SP or MP by an equal amount.|
+|Immune|||"Light"|
+|Resistant|||"Physical" damage, "Energy"[nat] damage|
+|Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "stunned" "incapacitated", "catatonic" and "dying"|
+
+Wooden dolls are often not considered true golems, but are easy to create and are sometimes created by nature mages and mage-wrights who are skilled at working wood. They make adequate servants, distractions and passable guardians where the threat is to deter assailants of opportunity.
+
+A wooden doll's intelligence barely surpasses that of a beast. It has no will of its own and follows its master's instructions to the best of its ability. If given no instructions it continues the last task until it is complete. It will defend its master unless explicitly instructed not to.
+
+___
+### Wooden doll
+
+A wooden dolls are simple to make and animate, 
+
+___
+**Size category**: Medium (5ft x 5ft)
+
+- Reach: 5ft
+- Carry capacity: (56lb light, 108lb medium, 280lb heavy, 420lb drag)
+- Natural armour: +2
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|17/14/15|30 (*25*)|22 (*17*)|8|40ft||
+
+|     |Str|Dex|Con|Int|Wis|Cha|
+|-----|---|---|---|---|---|---|
+|Stat | 14| 17| 13|  7| 15|  -|
+|Bonus| +2| +3| +1| -2| +2|  -|
+|Save | +4| +5| +3|  0| +4|  -|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|6 (2)|12|8|2|2|4|4|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Strike|+7|1d6+3 [Per]||
+|Short Sword|+7|1d6+3 [Pie]|A wooden doll is proficient with light blades.|
+|Wooden Shuriken|+7|1d4+3|20ft/60ft, a wooden doll is proficient with l|
+|Grapple|+7|||
+|Throw|+7|||
+|Interception|+7|||
+|Combined Manoeuvre I|||A wooden doll can combine any two manoeuvres it is proficient with by expending 1SP dice.|
+|Flurry|||A wooden doll can make a *single* combat manoeuvre as a secondary action if it used its main action to attack.|
+|||||
+|Senses|||Sight, "low-light vision", "blind-sight" 30ft|
+|Senses|||A wooden doll has no sense of smell or touch|
+|Limited Telepathy|||A wooden doll can implicitly understand its master within 120ft.|
+|Proficiencies|||1 language and up to 4 kits|
+|Skills|||"Acrobatics" +6,"Athletics" +4, "Harvest" +3, "Fortify" +2, "Observe" +3|
+|||||
+|Absorb Energy|||"Light" - Wooden dolls are immune to light damage, and any damage it would take from light instead restores the doll's SP or MP by an equal amount.|
+|Immune|||"Light"|
+|Resistant|||"Physical" damage, "Energy"[nat] damage|
+|Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "stunned" "incapacitated", "catatonic" and "dying"|
+
+___
 ### Clay Golem, humanoid Lesser
 
 Clay Golems can be of any size. This affects various parameters. Golems are usually humanoid in shape, but this is not necessarily so.
@@ -133,7 +235,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Strike|+8|1d8+5|Pe|
+|Strike|+8|1d8+5[Per]||
 |Rock Throw|+8|1d10+5|40ft/120ft, a golem can throw an object (or objects) weighing up to 126lb as projectiles. If the projectile is of a weaker material (or a mortal) than the target, the damage is shared evenly between projectile and target.|
 |Grapple|+8|||
 |Throw|+8|||
@@ -185,7 +287,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Strike|+11|2d8+6|Pe|
+|Strike|+11|2d8+6[Per]||
 |Rock Throw|+11|1d12+6|60ft/180ft, a golem can throw an object (or objects) weighing up to 272lb as projectiles. If the projectile is of a weaker material (or a mortal) than the target, the damage is shared evenly between projectile and target.|
 |Grapple|+11|||
 |Throw|+11|||
@@ -240,7 +342,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Strike|+14|2d8+7|Pe|
+|Strike|+14|2d8+7[Per]||
 |Rock Throw|+14|1d12+7|80ft/240ft, a golem can throw an object (or objects) weighing up to 300lb as projectiles. If the projectile is of a weaker material (or a mortal) than the target, the damage is shared evenly between projectile and target.|
 |Grapple|+14|||
 |Throw|+14|||
@@ -297,8 +399,8 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite|+13|2d8+7|Sh|
-|Claws|+13|2d6+7|Pe|
+|Bite|+13|2d8+7[She]||
+|Claws|+13|2d6+7[Per]||
 |||||
 |Grapple|+13|||
 |Interception|+15|||
@@ -354,7 +456,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Strike|+14|2d12+7|Pe|
+|Strike|+14|2d12+7[Per]||
 |Rock Throw|+14|2d8+7|80ft/240ft, a golem can throw an object (or objects) weighing up to 416lb as projectiles. If the projectile is of a weaker material (or a mortal) than the target, the damage is shared evenly between projectile and target.|
 |[Greater Elemental Blast (Linear): Lighting](../06-abilities.md#line)|+9|3d4+1d4/MP dice|(Range=120ft+30ft/MP dice) Mithril golems may use up to 7 MP dice when firing an elemental blast. The width of the beam may be up to 35ft.|
 |Grapple|+14|||
@@ -410,7 +512,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Strike|+17|2d8+8|Pe|
+|Strike|+17|2d8+8[Per]||
 |Rock Throw|+17|1d12+8|40ft/120ft, a golem can throw an object (or objects) weighing up to 104lb as projectiles. If the projectile is of a weaker material (or a mortal) than the target, the damage is shared evenly between projectile and target.|
 |[Greater Elemental Blast (Radial): Light](../06-abilities.md#circle)|+9|3d4+1d4/MP dice|(Range=120ft+30ft/MP dice) Diamond golems may use up to 8 MP dice when firing an elemental blast. The radius of the beam may be up to 80ft.|
 |Grapple|+15|||

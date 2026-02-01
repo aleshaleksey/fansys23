@@ -125,7 +125,6 @@
     align-items: center;
 }
 
-
 .sheet-rolltemplate-init .sheet-t-crit,
 .sheet-rolltemplate-main .sheet-t-crit {
     min-width: 26.5%;
@@ -959,6 +958,11 @@ input[id=inv_item_name] {
     min-width: 100%;
 }
 
+input.inv-cw {
+    width: 100%;
+    min-width: 100%;
+    justify-self: center;
+}
 
 /* BASIC STUFF */
 /* BASIC STUFF */
@@ -1031,12 +1035,18 @@ select {
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
+    margin: 0;
+}
+
+input.spin-field::-webkit-outer-spin-button,
+input.spin-field::-webkit-inner-spin-button {
+    -webkit-appearance: auto;
+    /* -webkit-appearance: default; */
     margin: 0;
 }
 
 /* This is here just in case some poor fool uses firefox */
+input[type=number].spin-field,
 input[type=number] {
     -moz-appearance: textfield;
     appearance: textfield;
@@ -1050,6 +1060,10 @@ input.text-input-small {
 
 input.tiny-input {
     max-width: 40px;
+}
+
+input.rd-input {
+    max-width: 50px;
 }
 
 input.tinier-input {

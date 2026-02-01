@@ -60,20 +60,20 @@
                     {{computed::attack}}{{#x_die}}
                     + {{x_die}}{{/x_die}}</span></div>
             <!-- Display Damage information for things that deal Damage (usually attack or threshold) -->
-            {{#dmg}}<div class="sheet-l2"><span class="sheet-t-ord">🗡 Damage</span><span
+            {{#dmg}}<div class="sheet-l2"><span class="sheet-t-ord">⯰ Damage</span><span
                     class="sheet-r-dmg">{{dmg}}{{#x_die}} +
                     {{xd_die}}{{/x_die}}</span></div>{{/dmg}}
             <!-- Display extra damage box 1 -->
-            {{#xdmg1}}<div class="sheet-l2"><span class="sheet-t-ord">🗡 {{xdmgn1}}</span><span
+            {{#xdmg1}}<div class="sheet-l2"><span class="sheet-t-ord">{{xdmgn1}}</span><span
                     class="sheet-r-dmg">{{xdmg1}}</span></div>{{/xdmg1}}
             <!-- Display extra damage box 2 -->
-            {{#xdmg2}}<div class="sheet-l2"><span class="sheet-t-ord">🗡 {{xdmgn2}}</span><span
+            {{#xdmg2}}<div class="sheet-l2"><span class="sheet-t-ord">⯰ {{xdmgn2}}</span><span
                     class="sheet-r-dmg">{{xdmg2}}</span></div>{{/xdmg2}}
             <!-- Display extra damage box 3 -->
-            {{#xdmg3}}<div class="sheet-l2"><span class="sheet-t-ord">🗡 {{xdmgn3}}</span><span
+            {{#xdmg3}}<div class="sheet-l2"><span class="sheet-t-ord">⯰ {{xdmgn3}}</span><span
                     class="sheet-r-dmg">{{xdmg3}}</span></div>{{/xdmg3}}
             <!-- Display extra damage box 4 -->
-            {{#xdmg4}}<div class="sheet-l2"><span class="sheet-t-ord">🗡 {{xdmgn4}}</span><span
+            {{#xdmg4}}<div class="sheet-l2"><span class="sheet-t-ord">⯰ {{xdmgn4}}</span><span
                     class="sheet-r-dmg">{{xdmg4}}</span></div>{{/xdmg4}}
             <!-- Display Crit information for attack-->
             {{#rollWasCrit() attack}}{{#^rollWasFumble() attack}}<div class="sheet-l3">
@@ -135,8 +135,8 @@
                         </tr>
                         <tr>
                             <th class="main-table2-cell">Level</th>
-                            <td><input class="text-input-hl-name" name="attr_lvl" type="number"
-                                    value="1">
+                            <td><input class="text-input-hl-name spin-field" name="attr_lvl"
+                                    type="number" value="1">
                             </td>
                         </tr>
                         <tr>
@@ -687,7 +687,7 @@
                         <tbody>
                             <tr>
                                 <td>Evasion</td>
-                                <td><input class="tiny-input-small" name="attr_evasion_bonus"
+                                <td><input class="tiny-input spin-field" name="attr_evasion_bonus"
                                         disabled="true" type="number"
                                         value="{{@{dex_bonus}-(@{char_size})}}"
                                         data-formula="{{@{dex_bonus}-(@{char_size})}}">
@@ -695,25 +695,25 @@
                             </tr>
                             <tr>
                                 <td>Armour</td>
-                                <td><input class="tiny-input-small" name="attr_armour" type="number"
-                                        value="0">
+                                <td><input class="tiny-input spin-field" name="attr_armour"
+                                        type="number" value="0">
                                 </td>
                             </tr>
                             <tr>
                                 <td>Shield</td>
-                                <td><input class="tiny-input-small" name="attr_shield" type="number"
-                                        value="0">
+                                <td><input class="tiny-input spin-field" name="attr_shield"
+                                        type="number" value="0">
                                 </td>
                             </tr>
                             <tr>
                                 <td>Deflection</td>
-                                <td><input class="tiny-input-small" name="attr_deflection"
+                                <td><input class="tiny-input spin-field" name="attr_deflection"
                                         type="number" value="0">
                                 </td>
                             </tr>
                             <tr>
                                 <td>Other</td>
-                                <td><input class="tiny-input-small" name="attr_hit_extra"
+                                <td><input class="tiny-input spin-field" name="attr_hit_extra"
                                         type="number" value="0">
                                 </td>
                             </tr>
@@ -800,11 +800,14 @@
                         </tr>
                         <tr>
                             <th class="hp-box">Current</th>
-                            <td><input name="attr_hp" class="tiny-input" type="number" value="0">
+                            <td><input name="attr_hp" class="rd-input spin-field" type="number"
+                                    value="0">
                             </td>
-                            <td><input name="attr_sp" class="tiny-input" type="number" value="0">
+                            <td><input name="attr_sp" class="rd-input spin-field" type="number"
+                                    value="0">
                             </td>
-                            <td><input name="attr_mp" class="tiny-input" type="number" value="0">
+                            <td><input name="attr_mp" class="rd-input spin-field" type="number"
+                                    value="0">
                             </td>
                             <th><span class="hp-box2">-</span></th>
                             <th><span class="hp-box2">-</span></th>
@@ -814,10 +817,10 @@
                         <tr>
                             <th class="hp-box">Current</th>
                             <th></th>
-                            <td><input name="attr_sp_dice" class="tiny-input" type="number"
+                            <td><input name="attr_sp_dice" class="rd-input spin-field" type="number"
                                     value="0">
                             </td>
-                            <td><input name="attr_mp_dice" class="tiny-input" type="number"
+                            <td><input name="attr_mp_dice" class="rd-input spin-field" type="number"
                                     value="0">
                             </td>
                             <th class="hp-box">Unassigned</th>
@@ -825,11 +828,11 @@
                         <tr>
                             <th class="hp-box">Max</th>
                             <th></th>
-                            <td><input name="attr_sp_dice_total" type="number" class="tiny-input"
-                                    value="1">
+                            <td><input name="attr_sp_dice_total" type="number"
+                                    class="rd-input spin-field" value="1">
                             </td>
-                            <td><input name="attr_mp_dice_total" type="number" class="tiny-input"
-                                    value="1">
+                            <td><input name="attr_mp_dice_total" type="number"
+                                    class="rd-input spin-field" value="1">
                             </td>
                             <td><input name="attr_unassigned_dice" type="number" class="tiny-input"
                                     disabled="true"
@@ -865,8 +868,8 @@
                             <td><input class="xd-name" name="attr_xd_name_1" type="text"
                                     placeholder="Damage bonus I">
                             </td>
-                            <td><input class="xd-count" name="attr_xd_dcount_1" type="number"
-                                    value="0" min="0"></td>
+                            <td><input class="xd-count spin-field" name="attr_xd_dcount_1"
+                                    type="number" value="0" min="0"></td>
                             <td class="xd-size-td"><span><select class="xd-dsize"
                                         name="attr_xd_dsize_1" type="number">
                                         <option value="2">d2</option>
@@ -887,8 +890,8 @@
                             <td><input class="xd-name" name="attr_xd_name_2" type="text"
                                     placeholder="Damage bonus II">
                             </td>
-                            <td><input class="xd-count" name="attr_xd_dcount_2" type="number"
-                                    value="0" min="0"></td>
+                            <td><input class="xd-count spin-field" name="attr_xd_dcount_2"
+                                    type="number" value="0" min="0"></td>
                             <td class="xd-size-td"><span><select class="xd-dsize"
                                         name="attr_xd_dsize_2" type="number">
                                         <option value="2">d2</option>
@@ -909,8 +912,8 @@
                             <td><input class="xd-name" name="attr_xd_name_3" type="text"
                                     placeholder="Damage bonus III">
                             </td>
-                            <td><input class="xd-count" name="attr_xd_dcount_3" type="number"
-                                    value="0" min="0"></td>
+                            <td><input class="xd-count spin-field" name="attr_xd_dcount_3"
+                                    type="number" value="0" min="0"></td>
                             <td class="xd-size-td"><span><select class="xd-dsize"
                                         name="attr_xd_dsize_3" type="number">
                                         <option value="2">d2</option>
@@ -931,8 +934,8 @@
                             <td><input class="xd-name" name="attr_xd_name_4" type="text"
                                     placeholder="Damage bonus IV">
                             </td>
-                            <td><input class="xd-count" name="attr_xd_dcount_4" type="number"
-                                    value="0" min="0"></td>
+                            <td><input class="xd-count spin-field" name="attr_xd_dcount_4"
+                                    type="number" value="0" min="0"></td>
                             <td class="xd-size-td"><span><select class="xd-dsize"
                                         name="attr_xd_dsize_4" type="number">
                                         <option value="2">d2</option>
@@ -1267,10 +1270,10 @@
                             <tr>
                                 <th class="attack-det-th">Durability</th>
                                 <td>
-                                    <input class="tiny-input-small" name="attr_wr_dur_1" value="0"
-                                        type="number">/
-                                    <input class="tiny-input-small" name="attr_wr_dur_max_1"
-                                        value="0" type="number">
+                                    <input class="tiny-input spin-field" name="attr_wr_dur_1"
+                                        value="0" type="number"> of
+                                    <input class="tiny-input" name="attr_wr_dur_max_1" value="0"
+                                        type="number">
                                 </td>
                             </tr>
                             <tr>
@@ -1350,10 +1353,10 @@
                             <tr>
                                 <th class="attack-det-th">Durability</th>
                                 <td>
-                                    <input class="tiny-input-small" name="attr_wr_dur_2" value="0"
-                                        type="number">/
-                                    <input class="tiny-input-small" name="attr_wr_dur_max_2"
-                                        value="0" type="number">
+                                    <input class="tiny-input spin-field" name="attr_wr_dur_2"
+                                        value="0" type="number"> of
+                                    <input class="tiny-input" name="attr_wr_dur_max_2" value="0"
+                                        type="number">
                                 </td>
                             </tr>
                             <tr>
@@ -1433,10 +1436,10 @@
                             <tr>
                                 <th class="attack-det-th">Durability</th>
                                 <td>
-                                    <input class="tiny-input-small" name="attr_wr_dur_3" value="0"
-                                        type="number">/
-                                    <input class="tiny-input-small" name="attr_wr_dur_max_3"
-                                        value="0" type="number">
+                                    <input class="tiny-input spin-field" name="attr_wr_dur_3"
+                                        value="0" type="number"> of
+                                    <input class="tiny-input" name="attr_wr_dur_max_3" value="0"
+                                        type="number">
                                 </td>
                             </tr>
                             <tr>
@@ -1516,10 +1519,10 @@
                             <tr>
                                 <th class="attack-det-th">Durability</th>
                                 <td>
-                                    <input class="tiny-input-small" name="attr_wr_dur_4" value="0"
-                                        type="number">/
-                                    <input class="tiny-input-small" name="attr_wr_dur_max_4"
-                                        value="0" type="number">
+                                    <input class="tiny-input spin-field" name="attr_wr_dur_4"
+                                        value="0" type="number"> of
+                                    <input class="tiny-input" name="attr_wr_dur_max_4" value="0"
+                                        type="number">
                                 </td>
                             </tr>
                             <tr>
@@ -1599,10 +1602,10 @@
                             <tr>
                                 <th class="attack-det-th">Durability</th>
                                 <td>
-                                    <input class="tiny-input-small" name="attr_wr_dur_5" value="0"
-                                        type="number">/
-                                    <input class="tiny-input-small" name="attr_wr_dur_max_5"
-                                        value="0" type="number">
+                                    <input class="tiny-input spin-field" name="attr_wr_dur_5"
+                                        value="0" type="number"> of
+                                    <input class="tiny-input" name="attr_wr_dur_max_5" value="0"
+                                        type="number">
                                 </td>
                             </tr>
                             <tr>
@@ -1682,10 +1685,10 @@
                             <tr>
                                 <th class="attack-det-th">Durability</th>
                                 <td>
-                                    <input class="tiny-input-small" name="attr_wr_dur_6" value="0"
-                                        type="number">/
-                                    <input class="tiny-input-small" name="attr_wr_dur_max_6"
-                                        value="0" type="number">
+                                    <input class="tiny-input spin-field" name="attr_wr_dur_6"
+                                        value="0" type="number"> of
+                                    <input class="tiny-input" name="attr_wr_dur_max_6" value="0"
+                                        type="number">
                                 </td>
                             </tr>
                             <tr>
@@ -1765,10 +1768,10 @@
                             <tr>
                                 <th class="attack-det-th">Durability</th>
                                 <td>
-                                    <input class="tiny-input-small" name="attr_wr_dur_7" value="0"
-                                        type="number">/
-                                    <input class="tiny-input-small" name="attr_wr_dur_max_7"
-                                        value="0" type="number">
+                                    <input class="tiny-input spin-field" name="attr_wr_dur_7"
+                                        value="0" type="number"> of
+                                    <input class="tiny-input" name="attr_wr_dur_max_7" value="0"
+                                        type="number">
                                 </td>
                             </tr>
                             <tr>
@@ -1848,10 +1851,10 @@
                             <tr>
                                 <th class="attack-det-th">Durability</th>
                                 <td>
-                                    <input class="tiny-input-small" name="attr_wr_dur_8" value="0"
-                                        type="number">/
-                                    <input class="tiny-input-small" name="attr_wr_dur_max_8"
-                                        value="0" type="number">
+                                    <input class="tiny-input spin-field" name="attr_wr_dur_8"
+                                        value="0" type="number"> of
+                                    <input class="tiny-input" name="attr_wr_dur_max_8" value="0"
+                                        type="number">
                                 </td>
                             </tr>
                             <tr>
@@ -1931,10 +1934,10 @@
                             <tr>
                                 <th class="attack-det-th">Durability</th>
                                 <td>
-                                    <input class="tiny-input-small" name="attr_wr_dur_9" value="0"
-                                        type="number">/
-                                    <input class="tiny-input-small" name="attr_wr_dur_max_9"
-                                        value="0" type="number">
+                                    <input class="tiny-input spin-field" name="attr_wr_dur_9"
+                                        value="0" type="number"> of
+                                    <input class="tiny-input" name="attr_wr_dur_max_9" value="0"
+                                        type="number">
                                 </td>
                             </tr>
                             <tr>
@@ -10629,12 +10632,12 @@
                             <td><input class="inv-item-name" id="inv_item_name" placeholder="Item 1"
                                     name="attr_inv_item_name_1" type="text">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_count"
+                            <td><input class="inv-cw spin-field" id="inv_item_count"
                                     name="attr_inv_item_count_1" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                            <td><input class="inv-cw" id="inv_item_weight" value="0"
                                     name="attr_inv_item_weight_1" type="number"></td>
-                            <td><input class="tiny-input" disabled="true" name="attr_isum_1"
+                            <td><input class="inv-cw" disabled="true" name="attr_isum_1"
                                     value="{{(@{inv_item_weight_1})*@{inv_item_count_1}}}"
                                     type="number"></td>
                             <th><button type="action" value="" name="act_inv_item_1" class="rb">
@@ -10645,12 +10648,12 @@
                             <td><input class="inv-item-name" id="inv_item_name"
                                     name="attr_inv_item_name_2" placeholder="Item 2" type="text">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_count"
+                            <td><input class="inv-cw spin-field" id="inv_item_count"
                                     name="attr_inv_item_count_2" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                            <td><input class="inv-cw" id="inv_item_weight" value="0"
                                     name="attr_inv_item_weight_2" type="number"></td>
-                            <td><input class="tiny-input" disabled="true" name="attr_isum_2"
+                            <td><input class="inv-cw" disabled="true" name="attr_isum_2"
                                     value="{{(@{inv_item_weight_2})*(@{inv_item_count_2})}}"
                                     type="number"></td>
                             <th><button type="action" value="" name="act_inv_item_2" class="rb">
@@ -10661,12 +10664,12 @@
                             <td><input class="inv-item-name" id="inv_item_name"
                                     name="attr_inv_item_name_3" placeholder="Item 3" type="text">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_count"
+                            <td><input class="inv-cw spin-field" id="inv_item_count"
                                     name="attr_inv_item_count_3" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                            <td><input class="inv-cw" id="inv_item_weight" value="0"
                                     name="attr_inv_item_weight_3" type="number"></td>
-                            <td><input class="tiny-input" disabled="true" name="attr_isum_3"
+                            <td><input class="inv-cw" disabled="true" name="attr_isum_3"
                                     value="{{(@{inv_item_weight_3})*(@{inv_item_count_3})}}"
                                     type="number"></td>
                             <th><button type="action" value="" name="act_inv_item_3" class="rb">
@@ -10677,12 +10680,12 @@
                             <td><input class="inv-item-name" id="inv_item_name"
                                     name="attr_inv_item_name_4" placeholder="Item 4" type="text">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_count"
+                            <td><input class="inv-cw spin-field" id="inv_item_count"
                                     name="attr_inv_item_count_4" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                            <td><input class="inv-cw" id="inv_item_weight" value="0"
                                     name="attr_inv_item_weight_4" type="number"></td>
-                            <td><input class="tiny-input" disabled="true" name="attr_isum_4"
+                            <td><input class="inv-cw" disabled="true" name="attr_isum_4"
                                     value="{{(@{inv_item_weight_4})*(@{inv_item_count_4})}}"
                                     type="number"></td>
                             <th><button type="action" value="" name="act_inv_item_4" class="rb">
@@ -10693,12 +10696,12 @@
                             <td><input class="inv-item-name" id="inv_item_name"
                                     name="attr_inv_item_name_5" placeholder="Item 5" type="text">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_count"
+                            <td><input class="inv-cw spin-field" id="inv_item_count"
                                     name="attr_inv_item_count_5" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                            <td><input class="inv-cw" id="inv_item_weight" value="0"
                                     name="attr_inv_item_weight_5" type="number"></td>
-                            <td><input class="tiny-input" disabled="true" name="attr_isum_5"
+                            <td><input class="inv-cw" disabled="true" name="attr_isum_5"
                                     value="{{(@{inv_item_weight_5})*(@{inv_item_count_5})}}"
                                     type="number"></td>
                             <th><button type="action" value="" name="act_inv_item_5" class="rb">
@@ -10709,12 +10712,12 @@
                             <td><input class="inv-item-name" id="inv_item_name"
                                     name="attr_inv_item_name_6" placeholder="Item 6" type="text">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_count"
+                            <td><input class="inv-cw spin-field" id="inv_item_count"
                                     name="attr_inv_item_count_6" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                            <td><input class="inv-cw" id="inv_item_weight" value="0"
                                     name="attr_inv_item_weight_6" type="number"></td>
-                            <td><input class="tiny-input" disabled="true" name="attr_isum_6"
+                            <td><input class="inv-cw" disabled="true" name="attr_isum_6"
                                     value="{{(@{inv_item_weight_6})*(@{inv_item_count_6})}}"
                                     type="number"></td>
                             <th><button type="action" value="" name="act_inv_item_6" class="rb">
@@ -10725,12 +10728,12 @@
                             <td><input class="inv-item-name" id="inv_item_name"
                                     name="attr_inv_item_name_7" placeholder="Item 7" type="text">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_count"
+                            <td><input class="inv-cw spin-field" id="inv_item_count"
                                     name="attr_inv_item_count_7" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                            <td><input class="inv-cw" id="inv_item_weight" value="0"
                                     name="attr_inv_item_weight_7" type="number"></td>
-                            <td><input class="tiny-input" disabled="true" name="attr_isum_7"
+                            <td><input class="inv-cw" disabled="true" name="attr_isum_7"
                                     value="{{(@{inv_item_weight_7})*(@{inv_item_count_7})}}"
                                     type="number"></td>
                             <th><button type="action" value="" name="act_inv_item_7" class="rb">
@@ -10741,12 +10744,12 @@
                             <td><input class="inv-item-name" id="inv_item_name"
                                     name="attr_inv_item_name_8" placeholder="Item 8" type="text">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_count"
+                            <td><input class="inv-cw spin-field" id="inv_item_count"
                                     name="attr_inv_item_count_8" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                            <td><input class="inv-cw" id="inv_item_weight" value="0"
                                     name="attr_inv_item_weight_8" type="number"></td>
-                            <td><input class="tiny-input" disabled="true" name="attr_isum_8"
+                            <td><input class="inv-cw" disabled="true" name="attr_isum_8"
                                     value="{{(@{inv_item_weight_8})*(@{inv_item_count_8})}}"
                                     type="number"></td>
                             <th><button type="action" value="" name="act_inv_item_8" class="rb">
@@ -10757,12 +10760,12 @@
                             <td><input class="inv-item-name" id="inv_item_name"
                                     name="attr_inv_item_name_9" placeholder="Item 9" type="text">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_count"
+                            <td><input class="inv-cw spin-field" id="inv_item_count"
                                     name="attr_inv_item_count_9" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                            <td><input class="inv-cw" id="inv_item_weight" value="0"
                                     name="attr_inv_item_weight_9" type="number"></td>
-                            <td><input class="tiny-input" disabled="true" name="attr_isum_9"
+                            <td><input class="inv-cw" disabled="true" name="attr_isum_9"
                                     value="{{(@{inv_item_weight_9})*(@{inv_item_count_9})}}"
                                     type="number"></td>
                             <th><button type="action" value="" name="act_inv_item_9" class="rb">
@@ -10773,12 +10776,12 @@
                             <td><input class="inv-item-name" id="inv_item_name"
                                     name="attr_inv_item_name_10" placeholder="Item 10" type="text">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_count"
+                            <td><input class="inv-cw spin-field" id="inv_item_count"
                                     name="attr_inv_item_count_10" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                            <td><input class="inv-cw" id="inv_item_weight" value="0"
                                     name="attr_inv_item_weight_10" type="number"></td>
-                            <td><input class="tiny-input" disabled="true" name="attr_isum_10"
+                            <td><input class="inv-cw" disabled="true" name="attr_isum_10"
                                     value="{{(@{inv_item_weight_10})*(@{inv_item_count_10})}}"
                                     type="number"></td>
                             <th><button type="action" value="" name="act_inv_item_10" class="rb">
@@ -10790,12 +10793,12 @@
                             <td><input class="inv-item-name" id="inv_item_name"
                                     name="attr_inv_item_name_11" placeholder="Item 11" type="text">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_count"
+                            <td><input class="inv-cw spin-field" id="inv_item_count"
                                     name="attr_inv_item_count_11" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                            <td><input class="inv-cw" id="inv_item_weight" value="0"
                                     name="attr_inv_item_weight_11" type="number"></td>
-                            <td><input class="tiny-input" disabled="true" name="attr_isum_11"
+                            <td><input class="inv-cw" disabled="true" name="attr_isum_11"
                                     value="{{(@{inv_item_weight_11})*(@{inv_item_count_11})}}"
                                     type="number"></td>
                             <th><button type="action" value="" name="act_inv_item_11" class="rb">
@@ -10806,12 +10809,12 @@
                             <td><input class="inv-item-name" id="inv_item_name"
                                     name="attr_inv_item_name_12" placeholder="Item 12" type="text">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_count"
+                            <td><input class="inv-cw spin-field" id="inv_item_count"
                                     name="attr_inv_item_count_12" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                            <td><input class="inv-cw" id="inv_item_weight" value="0"
                                     name="attr_inv_item_weight_12" type="number"></td>
-                            <td><input class="tiny-input" disabled="true" name="attr_isum_12"
+                            <td><input class="inv-cw" disabled="true" name="attr_isum_12"
                                     value="{{(@{inv_item_weight_12})*(@{inv_item_count_12})}}"
                                     type="number"></td>
                             <th><button type="action" value="" name="act_inv_item_12" class="rb">
@@ -10822,12 +10825,12 @@
                             <td><input class="inv-item-name" id="inv_item_name"
                                     name="attr_inv_item_name_13" placeholder="Item 13" type="text">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_count"
+                            <td><input class="inv-cw spin-field" id="inv_item_count"
                                     name="attr_inv_item_count_13" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                            <td><input class="inv-cw" id="inv_item_weight" value="0"
                                     name="attr_inv_item_weight_13" type="number"></td>
-                            <td><input class="tiny-input" disabled="true" name="attr_isum_13"
+                            <td><input class="inv-cw" disabled="true" name="attr_isum_13"
                                     value="{{(@{inv_item_weight_13})*(@{inv_item_count_13})}}"
                                     type="number"></td>
                             <th><button type="action" value="" name="act_inv_item_13" class="rb">
@@ -10838,12 +10841,12 @@
                             <td><input class="inv-item-name" id="inv_item_name"
                                     name="attr_inv_item_name_14" placeholder="Item 14" type="text">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_count"
+                            <td><input class="inv-cw spin-field" id="inv_item_count"
                                     name="attr_inv_item_count_14" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                            <td><input class="inv-cw" id="inv_item_weight" value="0"
                                     name="attr_inv_item_weight_14" type="number"></td>
-                            <td><input class="tiny-input" disabled="true" name="attr_isum_14"
+                            <td><input class="inv-cw" disabled="true" name="attr_isum_14"
                                     value="{{(@{inv_item_weight_14})*(@{inv_item_count_14})}}"
                                     type="number"></td>
                             <th><button type="action" value="" name="act_inv_item_14" class="rb">
@@ -10854,12 +10857,12 @@
                             <td><input class="inv-item-name" id="inv_item_name"
                                     name="attr_inv_item_name_15" placeholder="Item 15" type="text">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_count"
+                            <td><input class="inv-cw spin-field" id="inv_item_count"
                                     name="attr_inv_item_count_15" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                            <td><input class="inv-cw" id="inv_item_weight" value="0"
                                     name="attr_inv_item_weight_15" type="number"></td>
-                            <td><input class="tiny-input" disabled="true" name="attr_isum_15"
+                            <td><input class="inv-cw" disabled="true" name="attr_isum_15"
                                     value="{{(@{inv_item_weight_15})*(@{inv_item_count_15})}}"
                                     type="number"></td>
                             <th><button type="action" value="" name="act_inv_item_15" class="rb">
@@ -10870,12 +10873,12 @@
                             <td><input class="inv-item-name" id="inv_item_name"
                                     name="attr_inv_item_name_" placeholder="Item 16" type="text">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_count"
+                            <td><input class="inv-cw spin-field" id="inv_item_count"
                                     name="attr_inv_item_count_16" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                            <td><input class="inv-cw" id="inv_item_weight" value="0"
                                     name="attr_inv_item_weight_16" type="number"></td>
-                            <td><input class="tiny-input" disabled="true" name="attr_isum_16"
+                            <td><input class="inv-cw" disabled="true" name="attr_isum_16"
                                     value="{{(@{inv_item_weight_16})*(@{inv_item_count_16})}}"
                                     type="number"></td>
                             <th><button type="action" value="" name="act_inv_item_16" class="rb">
@@ -10886,12 +10889,12 @@
                             <td><input class="inv-item-name" id="inv_item_name"
                                     name="attr_inv_item_name_17" placeholder="Item 17" type="text">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_count"
+                            <td><input class="inv-cw spin-field" id="inv_item_count"
                                     name="attr_inv_item_count_17" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                            <td><input class="inv-cw" id="inv_item_weight" value="0"
                                     name="attr_inv_item_weight_17" type="number"></td>
-                            <td><input class="tiny-input" disabled="true" name="attr_isum_17"
+                            <td><input class="inv-cw" disabled="true" name="attr_isum_17"
                                     value="{{(@{inv_item_weight_17})*(@{inv_item_count_17})}}"
                                     type="number"></td>
                             <th><button type="action" value="" name="act_inv_item_17" class="rb">
@@ -10902,12 +10905,12 @@
                             <td><input class="inv-item-name" id="inv_item_name"
                                     name="attr_inv_item_name_18" placeholder="Item 18" type="text">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_count"
+                            <td><input class="inv-cw spin-field" id="inv_item_count"
                                     name="attr_inv_item_count_18" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                            <td><input class="inv-cw" id="inv_item_weight" value="0"
                                     name="attr_inv_item_weight_18" type="number"></td>
-                            <td><input class="tiny-input" disabled="true" name="attr_isum_18"
+                            <td><input class="inv-cw" disabled="true" name="attr_isum_18"
                                     value="{{(@{inv_item_weight_18})*(@{inv_item_count_18})}}"
                                     type="number"></td>
                             <th><button type="action" value="" name="act_inv_item_18" class="rb">
@@ -10918,12 +10921,12 @@
                             <td><input class="inv-item-name" id="inv_item_name"
                                     name="attr_inv_item_name_19" placeholder="Item 19" type="text">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_count"
+                            <td><input class="inv-cw spin-field" id="inv_item_count"
                                     name="attr_inv_item_count_19" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                            <td><input class="inv-cw" id="inv_item_weight" value="0"
                                     name="attr_inv_item_weight_19" type="number"></td>
-                            <td><input class="tiny-input" disabled="true" name="attr_isum_19"
+                            <td><input class="inv-cw" disabled="true" name="attr_isum_19"
                                     value="{{(@{inv_item_weight_19})*(@{inv_item_count_19})}}"
                                     type="number"></td>
                             <th><button type="action" value="" name="act_inv_item_19" class="rb">
@@ -10934,12 +10937,12 @@
                             <td><input class="inv-item-name" id="inv_item_name"
                                     name="attr_inv_item_name_20" placeholder="Item 20" type="text">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_count"
+                            <td><input class="inv-cw spin-field" id="inv_item_count"
                                     name="attr_inv_item_count_20" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                            <td><input class="inv-cw" id="inv_item_weight" value="0"
                                     name="attr_inv_item_weight_20" type="number"></td>
-                            <td><input class="tiny-input" disabled="true" name="attr_isum_20"
+                            <td><input class="inv-cw" disabled="true" name="attr_isum_20"
                                     value="{{(@{inv_item_weight_20})*(@{inv_item_count_20})}}"
                                     type="number"></td>
                             <th><button type="action" value="" name="act_inv_item_20" class="rb">
@@ -10951,12 +10954,12 @@
                             <td><input class="inv-item-name" id="inv_item_name"
                                     name="attr_inv_item_name_21" placeholder="Item 21" type="text">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_count"
+                            <td><input class="inv-cw spin-field" id="inv_item_count"
                                     name="attr_inv_item_count_21" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                            <td><input class="inv-cw" id="inv_item_weight" value="0"
                                     name="attr_inv_item_weight_21" type="number"></td>
-                            <td><input class="tiny-input" disabled="true" name="attr_isum_21"
+                            <td><input class="inv-cw" disabled="true" name="attr_isum_21"
                                     value="{{(@{inv_item_weight_21})*(@{inv_item_count_21})}}"
                                     type="number"></td>
                             <th><button type="action" value="" name="act_inv_item_21" class="rb">
@@ -10967,12 +10970,12 @@
                             <td><input class="inv-item-name" id="inv_item_name"
                                     name="attr_inv_item_name_22" placeholder="Item 22" type="text">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_count"
+                            <td><input class="inv-cw spin-field" id="inv_item_count"
                                     name="attr_inv_item_count_22" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                            <td><input class="inv-cw" id="inv_item_weight" value="0"
                                     name="attr_inv_item_weight_22" type="number"></td>
-                            <td><input class="tiny-input" disabled="true" name="attr_isum_22"
+                            <td><input class="inv-cw" disabled="true" name="attr_isum_22"
                                     value="{{(@{inv_item_weight_22})*(@{inv_item_count_22})}}"
                                     type="number"></td>
                             <th><button type="action" value="" name="act_inv_item_22" class="rb">
@@ -10983,12 +10986,12 @@
                             <td><input class="inv-item-name" id="inv_item_name"
                                     name="attr_inv_item_name_23" placeholder="Item 23" type="text">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_count"
+                            <td><input class="inv-cw spin-field" id="inv_item_count"
                                     name="attr_inv_item_count_23" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                            <td><input class="inv-cw" id="inv_item_weight" value="0"
                                     name="attr_inv_item_weight_23" type="number"></td>
-                            <td><input class="tiny-input" disabled="true" name="attr_isum_23"
+                            <td><input class="inv-cw" disabled="true" name="attr_isum_23"
                                     value="{{(@{inv_item_weight_23})*(@{inv_item_count_23})}}"
                                     type="number"></td>
                             <th><button type="action" value="" name="act_inv_item_23" class="rb">
@@ -10999,12 +11002,12 @@
                             <td><input class="inv-item-name" id="inv_item_name"
                                     name="attr_inv_item_name_24" placeholder="Item 24" type="text">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_count"
+                            <td><input class="inv-cw spin-field" id="inv_item_count"
                                     name="attr_inv_item_count_24" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                            <td><input class="inv-cw" id="inv_item_weight" value="0"
                                     name="attr_inv_item_weight_24" type="number"></td>
-                            <td><input class="tiny-input" disabled="true" name="attr_isum_24"
+                            <td><input class="inv-cw" disabled="true" name="attr_isum_24"
                                     value="{{(@{inv_item_weight_24})*(@{inv_item_count_24})}}"
                                     type="number"></td>
                             <th><button type="action" value="" name="act_inv_item_24" class="rb">
@@ -11015,12 +11018,12 @@
                             <td><input class="inv-item-name" id="inv_item_name"
                                     name="attr_inv_item_name_25" placeholder="Item 25" type="text">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_count"
+                            <td><input class="inv-cw spin-field" id="inv_item_count"
                                     name="attr_inv_item_count_25" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                            <td><input class="inv-cw" id="inv_item_weight" value="0"
                                     name="attr_inv_item_weight_25" type="number"></td>
-                            <td><input class="tiny-input" disabled="true" name="attr_isum_25"
+                            <td><input class="inv-cw" disabled="true" name="attr_isum_25"
                                     value="{{(@{inv_item_weight_25})*(@{inv_item_count_25})}}"
                                     type="number"></td>
                             <th><button type="action" value="" name="act_inv_item_25" class="rb">
@@ -11031,12 +11034,12 @@
                             <td><input class="inv-item-name" id="inv_item_name"
                                     name="attr_inv_item_name_26" placeholder="Item 26" type="text">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_count"
+                            <td><input class="inv-cw spin-field" id="inv_item_count"
                                     name="attr_inv_item_count_26" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                            <td><input class="inv-cw" id="inv_item_weight" value="0"
                                     name="attr_inv_item_weight_26" type="number"></td>
-                            <td><input class="tiny-input" disabled="true" name="attr_isum_26"
+                            <td><input class="inv-cw" disabled="true" name="attr_isum_26"
                                     value="{{(@{inv_item_weight_26})*(@{inv_item_count_26})}}"
                                     type="number"></td>
                             <th><button type="action" value="" name="act_inv_item_26" class="rb">
@@ -11047,12 +11050,12 @@
                             <td><input class="inv-item-name" id="inv_item_name"
                                     name="attr_inv_item_name_27" placeholder="Item 27" type="text">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_count"
+                            <td><input class="inv-cw spin-field" id="inv_item_count"
                                     name="attr_inv_item_count_27" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                            <td><input class="inv-cw" id="inv_item_weight" value="0"
                                     name="attr_inv_item_weight_27" type="number"></td>
-                            <td><input class="tiny-input" disabled="true" name="attr_isum_27"
+                            <td><input class="inv-cw" disabled="true" name="attr_isum_27"
                                     value="{{(@{inv_item_weight_27})*(@{inv_item_count_27})}}"
                                     type="number"></td>
                             <th><button type="action" value="" name="act_inv_item_27" class="rb">
@@ -11063,12 +11066,12 @@
                             <td><input class="inv-item-name" id="inv_item_name"
                                     name="attr_inv_item_name_28" placeholder="Item 28" type="text">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_count"
+                            <td><input class="inv-cw spin-field" id="inv_item_count"
                                     name="attr_inv_item_count_28" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                            <td><input class="inv-cw" id="inv_item_weight" value="0"
                                     name="attr_inv_item_weight_28" type="number"></td>
-                            <td><input class="tiny-input" disabled="true" name="attr_isum_28"
+                            <td><input class="inv-cw" disabled="true" name="attr_isum_28"
                                     value="{{(@{inv_item_weight_28})*(@{inv_item_count_28})}}"
                                     type="number"></td>
                             <th><button type="action" value="" name="act_inv_item_28" class="rb">
@@ -11079,12 +11082,12 @@
                             <td><input class="inv-item-name" id="inv_item_name"
                                     name="attr_inv_item_name_29" placeholder="Item 29" type="text">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_count"
+                            <td><input class="inv-cw spin-field" id="inv_item_count"
                                     name="attr_inv_item_count_29" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                            <td><input class="inv-cw" id="inv_item_weight" value="0"
                                     name="attr_inv_item_weight_29" type="number"></td>
-                            <td><input class="tiny-input" disabled="true" name="attr_isum_29"
+                            <td><input class="inv-cw" disabled="true" name="attr_isum_29"
                                     value="{{(@{inv_item_weight_29})*(@{inv_item_count_29})}}"
                                     type="number"></td>
                             <th><button type="action" value="" name="act_inv_item_29" class="rb">
@@ -11095,12 +11098,12 @@
                             <td><input class="inv-item-name" id="inv_item_name"
                                     name="attr_inv_item_name_30" placeholder="Item 30" type="text">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_count"
+                            <td><input class="inv-cw spin-field" id="inv_item_count"
                                     name="attr_inv_item_count_30" value="0" type="number">
                             </td>
-                            <td><input class="tiny-input" id="inv_item_weight" value="0"
+                            <td><input class="inv-cw" id="inv_item_weight" value="0"
                                     name="attr_inv_item_weight_30" type="number"></td>
-                            <td><input class="tiny-input" disabled="true" name="attr_isum_30"
+                            <td><input class="inv-cw" disabled="true" name="attr_isum_30"
                                     value="{{(@{inv_item_weight_30})*(@{inv_item_count_30})}}"
                                     type="number"></td>
                             <th><button type="action" value="" name="act_inv_item_30" class="rb">

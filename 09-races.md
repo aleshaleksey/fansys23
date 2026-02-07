@@ -244,54 +244,94 @@ ___
 
 Also known in various worlds as "Dragonborn", "Dragonblood" and by any other number of pretentious names. Dragonkin are humanoids with some similarities to true dragons. Sometimes, as they age and gain power, they may become true dragons. Notably they tend to have vestigial wings, reptilian tails, and the ability to breath fire, or a different element. In worlds where dragons are color coded for convenience, the same applies to dragonkin.
 
+All dragonkin templates share the following properties and race boons:
+
 - **Size**: Medium (Height: ~6', Weight: ~180lb, wingspan 10ft increasing 24ft with age.)
-- **Stats**:
-  - **(Fire)**: (Str: 0, Dex: 0, Con: +1, Int: 0, Wis: -2, Cha: +2) (1 point)
-  - **(Ice)**: (Str: +2, Dex: -2, Con: +1, Int: 0, Wis: 0, Cha: 0) (1 point)
-  - **(Poison)**: (Str: 0, Dex: -1, Con: +1, Int: +1, Wis: +1, Cha: -1) (1 point)
-  - **(Light)**: (Str: 0, Dex: 0, Con: -1, Int: 0, Wis: +1, Cha: 0)
-  - **(Lightning)**: (Str: 0, Dex: +1, Con: 0, Int: 0, Wis: -1, Cha: 0)
 - **Movement**: Walk 30ft
 - **Sight**: Normal, Keen senses: Smell" (1 point)
-- **Type**: Humanoid (needs to breathe, drink, eat, and sleep). Humans age.
-- **Proficiencies**: One appropriate language and 1 tool (NB: Fire, Ice and Poison ONLY). (1 point ~)
+- **Type**: Humanoid (needs to breathe, drink, eat, and sleep). dragonkin age.
+- **Proficiencies**: One appropriate language. (1 point ~)
 
-**Extra (5 points) [Fire, Ice, Poison]**:
-
-- Resistance to one of: (2)
-  - "fire & aphonia",
-  - "ice & grappled",
-  - "poison & diseased",
-
-Elemental Blast (Flavour: Breath) (3) (Must be same element)
-
-**Extra (7 points) [Lightning, Light]**:
-
-- Resistance to one of: (4)
-  - "lightning & deafened",
-  - "light & glowing"
-- Elemental Blast (Flavour: Breath) (3) (Must be same element)
 
 **Race boon (level 8 and 16): (6 points)**
-EITHER:
 
 - Flight 60ft (poor) OR improvement to fly + 10ft fly speed. (3)
 - "low-light vision" or "heat sense"
 - +1 to a single Stat.
 
-OR [Fire, Ice, Poison]: (6 points)
 
-- Immunity to their Element and advantage vs:
-  - "Incapacitated" (fire)
-  - "Immobilised" (ice)
-  - "poisoned" (poison)
+In addition dragonkin associated with different elements have the following addition properties and race boons:
+
+___
+#### Dragonkin: Fire
+
+- **Stats**: (Str: 0, Dex: 0, Con: +1, Int: 0, Wis: -2, Cha: +2) (1 point)
+- **Proficiencies**: One additional tool. (1 point ~)
+
+**Alternative Race boon (level 8 and 16): (6 points)**
+
+- Immunity to Fire and advantage vs: "Incapacitated"
 - "low-light vision" or "heat sense" or +2 to a single stat.
 
-OR [Lightning, Light]: (6 points)
+___
+### Dragonkin: Ice
 
-- Immunity to their Element and advantage vs:
-  - "paralysed", "immobilised" of "stunned" (lightning)
-  - "catatonic", "frightened" or "blinded" (light)
+- **Stats**: (Str: +2, Dex: -2, Con: +1, Int: 0, Wis: 0, Cha: 0) (1 point)
+- **Proficiencies**: One additional tool. (1 point ~)
+
+**Extra (5 points)**:
+
+- Resistance to one of: "ice & grappled", (2)
+- Elemental Blast (Flavour: Breath) (3) (Must be same element)
+
+**Alternative Race boon (level 8 and 16): (6 points)**
+
+- Immunity to "cold" damage and "immobilised:
+- "low-light vision" or "heat sense" or +2 to a single stat.
+
+___
+### Dragonkin: Poison
+
+- **Stats**: (Str: 0, Dex: -1, Con: +1, Int: +1, Wis: +1, Cha: -1) (1 point)
+- **Proficiencies**: One additional tool. (1 point ~)
+
+**Extra (5 points)**:
+
+- Resistance to "poison, poisoned & diseased" (2)
+- Elementalism: Blast (Poison) (Flavour: Breath) (3)
+
+**Alternative Race boon (level 8 and 16): (6 points)**
+
+- Immunity to "poison, poisoned  & diseased"
+- "low-light vision" or "heat sense" or +2 to a single stat.
+
+___
+### Dragonkin: Light
+
+- **Stats**: (Str: 0, Dex: 0, Con: -1, Int: 0, Wis: +1, Cha: 0)
+
+**Extra (7 points)**:
+
+- Resistance to "light & glowing" (4)
+- Elementalism: Blast (light) (Flavour: Breath) (3)
+
+**Alternative Race boon (level 8 and 16): (6 points)**
+
+- Immunity to "light" damage and advantage vs "catatonic", "frightened" or "blinded".
+
+___
+### Dragonkin: Lightning
+
+- **Stats**: (Str: 0, Dex: +1, Con: 0, Int: 0, Wis: -1, Cha: 0)
+
+**Extra (7 points)**:
+
+- Resistance to "lightning & deafened": (4)
+- Elemental Blast (Flavour: Breath) (3) (Must be same element)
+
+**Alternative Race boon (level 8 and 16): (6 points)**
+
+- Immunity to "lightning" and advantage vs "paralysed", "immobilised" of "stunned".
 
 ___
 ## Example Enhanced Template

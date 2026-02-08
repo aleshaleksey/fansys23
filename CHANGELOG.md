@@ -628,6 +628,9 @@ ___
 - Tweak [Fire Ward](08-spell-list.md#fire-ward) and [Greater Fire Ward](08-spell-list.md#great-water-ward) spell to make them more balanced relative to each other.
 - Fix wording on [Earth Ward](08-spell-list.md#earth-ward) and [Greater Earth Ward](08-spell-list.md#greater-earth-ward). The barriers regenerate in a round and not a turn.
 - Modify [Animate Plant](08-spell-list.md#animate-plant) to also be able to animate wooden dolls and formally allow [Animate Golem](08-spell-list.md#animate-golem) to animate any golem of the appropriate level.
+- Nerf ["Least Pyromancy"](08-spell-list.md#least-pyromancy), preventing it from affecting fires larger than "huge".
+- Add [Control Fire](08-spell-list.md#control-fire) to the spell list (level 4, fire).
+- Fix a few inaccuracies in the spell list.
 
 ### Templates
 - Allow deviation from standard size to 40%.

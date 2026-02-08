@@ -104,6 +104,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Balance of Elements](#balance-of-elements)
 - [Balance of Nature](#balance-of-nature)
 - [Bestial Transformation](#bestial-transformation)
+- [Control Fire](#control-fire)
 - [Enchanted Ground](#enchanted-ground)
 - [False Aura](#false-aura)
 - [Forbiddance](#forbiddance)
@@ -409,11 +410,10 @@ ___
 
 **Description**: If used on a magical flame or fire elemental, it has a save, else it is charmed for one round. Natural fire can be manipulated as follows:
 
-+ Increase or decrease size by 1 category.
++ Increase or decrease size by 1 category, up to and including the size of "huge".
 + Change shape, as long the volume of flame remains the same, and no part of it is displaced by more than 20ft.
 + Move the whole flame up to 40ft if it is small or smaller, 20ft if it is large or smaller, and 5ft otherwise (as long as there are flammable materials and air (or other source of oxidant) available).
 + Change the colour and other cosmetic qualities of the flame.
-+ Change the cosmetic qualities of the water.
 
 ___
 ### Least Shroud
@@ -2527,6 +2527,43 @@ ___
 **Upcast**: For every extra MP die above 4 spend, the caster can either extend the spell by an extra hour, select an additional target, or increase the maximum level of the resulting animal/plant by 1.
 
 **Global**: The spell lasts for a week. For every 2MP dice above 8 the spell lasts an extra week, and the maximum level of the resulting animal/plant increases by 1. It cannot be cancelled voluntarily.
+
+___
+### Control Fire
+
+|Name|Least Pyromancy [Fire, Summer, Spiritual]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|4 (8)|
+|Target(s)|40ft radius, or a single elemental[fire] (800ft radius)|
+|Casting time|"main action" (4 hours)|
+|Range|60ft|
+|Duration|1 hour (1 week)|
+|Components|incantation, kinetic|
+|Focus|A lit candle or torch|
+|Concentration|local|
+|Conditions|"charmed"|
+|Limitation|No effect on entities other than elementals[fire]|
+|Save|WIS|
+
+**Description**: The caster grasps the essence of fire and takes control of all flames (or sources of heat) within the area of effect, or attempts to charm a single being aligned to fire. Flames of supernatural origin (or their creators) and entities may negate the this with a WIS save at the start of their turn. The save is not repeated (see "special" for using this spell on entities).
+
+For the duration of the spell, the caster may use its "main action" to influence flames (or sources of heat) that they control within the area of effect as follows:
+
++ Arbitrarily increase or decrease the size of the flame.
++ Change the flame's shape, as long the volume of flame remains the same.
++ Displace the whole flame up to 60ft. If there is no source of fuel for the flame, it is extinguished.
++ Change the colour and other cosmetic qualities of the flame.
++ Extinguish a flame (or source of heat) with a size of no larger of 10ft x 10ft.
++ Ignite flammable materials and cause a fire with an initial size of no larger than 5ft x 5ft.
+
+**Special**: An entity that does not pass its save against the spell is affected as by ["Control Mortal"](#command-mortal) for the duration of the spell.
+
+**Limitation**: If an attempt is made to cast the spell in an area aligned with water, or overlapping another casting of the same spell, the caster makes an opposing CHA roll vs the other caster or source of the water alignment. If the caster loses this roll, the spell fails.
+
+**Upcast**: For every extra MP die above 4, the spell's radius increases by 10ft.
+
+**Global**: The spell has a radius of 800ft and lasts for 1 week. For every 2 MP dice above 8 the spell's radius increases to 1000ft.
 
 ___
 ### Enchanted Ground
@@ -5187,7 +5224,7 @@ ____
     - [Warded Ground](#warded-ground)
 - Fire
     - [Meadow of Flame](#meadow-of-flame)
-    - [Summon Fire Sprite](#summon-flame-sprite)
+    - [Summon Flame Sprite](#summon-flame-sprite)
     - [Trace Secret Path](#trace-secret-path)
     - [Warmth](#warmth)
 - Water
@@ -5245,9 +5282,6 @@ ____
     - [Water Walk](#water-walk)
     - [Water Ward](#water-ward)
     - [Winter's Blade](#winters-blade)
-- Other
-    - [Animate Dead](#animatecontrol-dead)
-    - [Least Curse](#least-curse)
 - Incantation
     - [Cure](#cure)
     - [Melt](#melt)
@@ -5286,6 +5320,7 @@ ____
     - [Lesser Domain](#lesser-domain)
 - Fire
     - [Balance of Elements](#balance-of-elements)
+    - [Control Fire](#control-fire)
     - [Lesser Domain](#lesser-domain)
     - [Speak Through Flame](#speak-through-flame)
 - Water
@@ -5457,25 +5492,8 @@ ____
     - [Avatar](#avatar)[10]
     - [Undying Realm](#undying-realm) [10]
 
+
 ___
- 
-### Innocence
-
-|Name| []|
-|-|-|
-|Scope||
-|MP Dice||
-|Target(s)||
-|Casting time||
-|Range||
-|Duration||
-|Components||
-|Focus||
-|Material||
-|Limitation||
-|Save||
- 
-
 ### Ignorance
 
 |Name| []|

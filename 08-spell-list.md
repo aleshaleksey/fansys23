@@ -3506,7 +3506,7 @@ ___
 |MP Dice|5 (10)|
 |Target(s)|1 entity|
 |Casting time|"1 main action" (5 hours + 20 minutes per 2MP dice)|
-|Range|30фт|+1(21)
+|Range|30ft|+1(21)
 |Duration|1 hour (1 day)|5(26)
 |Limitation|Immunity is resistance for weapons of material level 3+|
 |Components|incantation, kinetic|-1(25)

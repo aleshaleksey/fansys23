@@ -410,6 +410,7 @@ Different quality of diets have no mechanistic effects in game, although insuffi
 
 **Tome, Lesser (Empty)**: This is an empty tome with about two hundred pages.
 
+___
 
 ### Common Materials
 

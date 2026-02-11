@@ -23,7 +23,7 @@ The reason for different races having different kinds of stat blocks was to refl
     - [Human Elite (level 5)](#human-elite-level-5)
     - [Human Mage (level 6)](#human-mage-level-6)
     - [Human Warlock (level 7)](#human-warlock-level-7)
-    - [Human Mage, Archmage (level 6)](#human-mage-arch-mage-level-12)
+    - [Human Mage, Archmage (level 12)](#human-mage-arch-mage-level-12)
 - [Elves](#elf)
     - [Elvish Youth (level 1)](#elvish-youth-level-1)
     - [Elf (level 5)](#elf-level-5)

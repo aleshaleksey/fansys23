@@ -364,6 +364,7 @@ ___
 
 ### Common Goods
 
+See [Adventuring Gear](#adventuring-gear) for more common goods.
 
 | Item                  | weight (lb) | Cost (sp) | Notes |
 | --------------------- | ----------- | --------- | ----- |
@@ -380,14 +381,34 @@ ___
 | Bacon                 | 1           | 2         |       |
 | Olive oil(1 gallon)   | 10          | 1         |       |
 | Eggs (12)             | 2           | 2         |       |
-| Rations, good         | 4           | 3         |       |
-| Rations, expedition   | 4           | 8         |       |
+| Rations, good         | 3           | 3         |       |
+| Rations, expedition   | 2           | 8         |       |
 |                       |             |           |       |
-| A tome/grimoire       | 6           | 480       |       |
-| A tome (rent)         | 6           | 1/day     |       |
+| Tome/grimoire         | 6           | 480       |       |
+| Tome (Empty)          | 6           | 120       |       |
+| Tome, Lesser          | 2           | 120       |       |
+| Tome, Lesser (Empty)  | 6           | 30        |       |
+| Tome/Grimoire (rent)  | 6           | 1/day     |       |
 | Candle(4)             | 1           | 0.5       |       |
 | Firewood              | 20          | 0.5       |       |
 | Charcoal              | 10          | 1         |       |
+
+A commoner requires 2lb of bread or similar food to sustain himself. However, most diets would include some fruits and vegetables and perhaps eggs.
+
+Different quality of diets have no mechanistic effects in game, although insufficient food intake will lead to [starvation](03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die).
+
+**Rations, good**: These are nutritious and mostly dry trail rations which can keep for up to a month or two. Rations generally require a small amount of preparation, but some can be eaten without cooking. A character with trail rations still needs to carry sufficient water to avoid dehydration.
+
+**Rations, expedition**: These are special rations chosen for their high nutrient content and resistance to spoilage. Such rations generally do not require preparations and can keep for years if stored properly. A medium sized character requires only 2lb of expedition rations per day to sustain themselves, although they still need to carry sufficient water to avoid dehydration.
+
+**Tome/Grimoire**: This represents a great work with perhaps a thousand pages. This can be a collection of religious or historical passages, or a book of spells containing up to 24 levels of spells. Since in most worlds they have to be copied by hand or with magic, they are incredibly expensive to buy, and more commonly a tome is rented. A tome requires at least 3 month of transcribing by a full time scribe to complete, although more usually it takes over a year to copy a tome. In worlds where the printing press exists more common tomes might cost a tenth of the given value.
+
+**Tome (Empty)**: This is a tome of a thousand pages where none of the pages are filled. While usually the pages are written and only then is a tome bound, travelling mages and chroniclers may prefer to purchase empty tomes to avoid potentially losing loose pages.
+
+**Tome, Lesser**: This represents a book with about two hundred pages. This might be a single part of a larger work, or a book containing the notes on up to 6 levels of spells. It takes about a month for a skilled scribe to transcribe a tome, although more commonly this stretches out to three to four.
+
+**Tome, Lesser (Empty)**: This is an empty tome with about two hundred pages.
+
 
 ### Common Materials
 

@@ -384,6 +384,7 @@ See [Adventuring Gear](#adventuring-gear) for more common goods.
 | Rations, good         | 3           | 3         |       |
 | Rations, expedition   | 2           | 8         |       |
 |                       |             |           |       |
+| Parchment (4 sheets)  | 0.1         | 1         |       |
 | Tome/grimoire         | 6           | 480       |       |
 | Tome (Empty)          | 6           | 120       |       |
 | Tome, Lesser          | 2           | 120       |       |

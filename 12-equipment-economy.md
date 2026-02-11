@@ -293,25 +293,34 @@ Labour costs are given in silver (sp) per day (10-12 hours). Labour that does no
 | initiate, lvl-3               | special | 40       | 500     |
 | mage, higher level            | special | special  | special |
 
-**Untrained**: This refers to untrained workforce that can be used for basic, but not necessarily easy work. This includes cleaners, fruit-pickers, and workers for digging ditches and carrying loads.
+**Untrained**: This refers to untrained workforce that can be used for basic, but not necessarily easy work. This includes cleaners, fruit-pickers, and workers for digging ditches and carrying loads. Untrained workers do not require any proficiencies or ranks in skills to complete their work. While they might be skilled in other areas, usually they are not. For a human this usually a ["commoner"](monsters-npcs/humanoids.md#human-commoner-level-1).
 
-**Trained**: This refers to labourers that carry out work which requires several months or years of training to perform well. This includes miners, brick-layers, wagon drivers and sailors.
+**Trained**: This refers to labourers that carry out work which requires several months or years of training to perform well. This includes miners, brick-layers, wagon drivers and sailors. A trained worker must have at least one rank in the skill they are using and proficiency in any required kits. For a human, they are also usually ["commoners"](monsters-npcs/humanoids.md#human-commoner-level-1), with appropriately adjusted skills. The skill bonus for a human should be between +1 and +3.
 
-**Artisan**: Refers to craftsmen with rare and valuable skills, such as smiths, masons, bowyers, alchemists, jewellers, artists, engineers. They have significant practice in their arts, but quality varies.
+**Artisan**: Refers to craftsmen with rare and valuable skills, such as smiths, masons, bowyers, alchemists, jewellers, artists, engineers. They have significant practice in their arts, but quality varies. For a human these typically use either the ["commoners"](monsters-npcs/humanoids.md#human-commoner-level-1) or ["apprentice"](monsters-npcs/humanoids.md#human-mage-apprentice-level-2) stat block. Artisans tend to have a skill bonus of between +3 and +6 in their craft. More skilled artisans may produce higher quality goods, but are also rarer and correspondingly more expensive.
 
-**Mercenary**: This refers to low level hired combatants. This can be both *bona fide* mercenaries, as well as caravan guards, mounted messengers, and levied militia. They are loath to fight to the death, engage in expeditions lasting longer than a few weeks, or take on jobs with an obvious and significant risk of not coming back.
+**Mercenary**: This refers to low level hired combatants. This can be both *bona fide* mercenaries, as well as caravan guards, mounted messengers, and levied militia. They are loath to fight to the death, engage in expeditions lasting longer than a few weeks, or take on jobs with an obvious and significant risk of not coming back. Typically they are represented by the following stat blocks: ["Peasant"](monsters-npcs/humanoids.md#human-peasant-level-2), ["orc"](monsters-npcs/humanoids.md#orc-level-2), or ["beast folk"](monsters-npcs/humanoids.md#beast-folk-level-2). Although DMs are free to use custom NPCs with a similar power level as needed.
 
-**Mercenary, Specialist**: This refers to archers, scouts, basic cavalry. Mercenaries will seldom fight to the death, and need significant persuasion if the job carries a risk of death or lasts longer than a month.
+**Mercenary, Specialist**: This refers to archers, scouts, basic cavalry. Mercenaries will seldom fight to the death, and need significant persuasion if the job carries a risk of death or lasts longer than a month. Typical stat blocks include: ["Human guard"](monsters-npcs/humanoids.md#human-militia-level-3), ["beast folk traveller"](monsters-npcs/humanoids.md#beast-folk-traveller-level-4) or ["winged shepherd"](monsters-npcs/humanoids.md#winged-shepherd-level-4).
 
-**Mercenary, Captain**: This refers to an NPC combatant with a significant amount of experience that can also lead a small unit. This kind of mercenary can be experienced in melee or ranged combat and may even have supernatural abilities. They usually demands a high fee for their services. This can also refer to lower level assassins.
+**Mercenary, Captain**: This refers to an NPC combatant with a significant amount of experience who can also lead a small unit. This kind of mercenary can be experienced in melee or ranged combat and may even have supernatural abilities. ["Warrior"](monsters-npcs/humanoids.md#human-warrior-level-6) and ["mage"](monsters-npcs/humanoids.md#human-mage-level-6) are both suitable stat blocks here. They usually demands a high fee for their services. This can also refer to [lower level assassins](monsters-npcs/humanoids.md#human-scout-level-5).
 
-**Scribe**: Literate individuals who can transcribe manuscripts, pen letters, and perform similar roles.
+**Scribe**: Literate individuals who can transcribe manuscripts, pen letters, and perform similar roles. ["Apprentice"](monsters-npcs/humanoids.md#human-mage-apprentice-level-2) and ["scholar"](monsters-npcs/humanoids.md#human-scholar-level-3) are suitable stat blocks.
 
-**Magistrate**: Ranking members of society, empowered with the rights and knowledge necessary to perform legal services. Magistrates are useful when dealing with nobility, major trade deals, or during dubious dealings for furthering one's own interests. Access to a magistrate is understandably expensive.
+**Magistrate**: Ranking members of society, empowered with the rights and knowledge necessary to perform legal services. Magistrates are useful when dealing with nobility, major trade deals, or during dubious dealings for furthering one's own interests. Access to a magistrate is understandably expensive. ["scholar"](monsters-npcs/humanoids.md#human-scholar-level-3) and ["elite"](monsters-npcs/humanoids.md#human-elite-level-5) are suitable stat blocks.
 
-**Initiate**: Initiates into the supernatural, who can perform simple spellcasting. They are loathe to enter combat, but often not adverse to exploration.
+**Initiate**: Initiates into the supernatural, who can perform simple spellcasting. They are loathe to enter combat, but often not adverse to exploration. ["Apprentice"](monsters-npcs/humanoids.md#human-mage-apprentice-level-2) is the recommended stat block here.
 
-**Mage**: This refers to any spell caster that has level 3 or higher spellcasting. Mages can often be persuaded to perform services, usually in ritual casting, if they believe it is worth their while. The cost is generally high, and more often than not, it is not paid in gold or silver. Most mages are loathe to enter combat, but are not necessarily adverse to exploration.
+**Mage**: This refers to any spell caster that has level 3 or higher spellcasting. Mages can often be persuaded to perform services, usually in ritual casting, if they believe it is worth their while. The cost is generally high, and more often than not, it is not paid in gold or silver. Most mages are loathe to enter combat, but are not necessarily adverse to exploration. It is recommended to use any mage stat block or a custom character here. Typically these are:
+
+- [Elf (level 5)](monsters-npcs/humanoids.md#elf-level-5)
+- [Human Mage (level 6)](monsters-npcs/humanoids.md#human-mage-level-6)
+- [Human Warlock (level 7)](monsters-npcs/humanoids.md#human-warlock-level-7)
+- [Orcish Geomancer (level 7)](monsters-npcs/humanoids.md#orcish-geomancer-level-7)
+- [Orcish Warlock (level 8)](monsters-npcs/humanoids.md#orcish-warlock-level-8)
+- [Elvish Mage (level 10)](monsters-npcs/humanoids.md#elvish-mage-level-10)
+- [Human Mage, Archmage (level 12)](monsters-npcs/humanoids.md#human-mage-arch-mage-level-12)
+- [Winged Wind Mage (level 12)](monsters-npcs/humanoids.md#winged-wind-mage-level-12)
 
 ___
 

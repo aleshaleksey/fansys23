@@ -643,8 +643,6 @@ ___
 
 **Upcast**: For every MP die above 1 added the spell's radius increases by 5ft (this also affects the caster). OR Increase the duration by 1 minute.
 
-If the MP dice total is 3 or higher, the weird's attack is carried out as a "secondary action".
-
 ___
 ### Enflame
 

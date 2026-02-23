@@ -373,9 +373,16 @@ ___
 ___
 #### Counterstrike
 
-**Description**: Gain an attack of opportunity against an attacker striking you with any melee attack.
+**Description**: Gain an attack of opportunity against an attacker striking you with any melee attack. In doing so lose your "shield" and "evasion" bonus to HiT against the next targeted attack made against you.
 
 **Prerequisite**: 6 SP dice.
+
+**Limitations**: A character that performs "counterstrike" loses its ["shield" and "evasion" bonus](02-base-rules.md#components-of-hit) to HiT against the next targeted attack made against it.
+
+**Special**:
+
+- A character with ["foresight"](#foresight) does not lose its "evasion" bonus to HiT after using "counterstrike".
+- A character with ["weapon mastery"](#weapon-mastery) in the weapon used to make the "counterstrike" or ["shield master"](#shield-master) does not lose its "shield" to HiT after using counterstrike.
 
 **Original state**: In melee, only attacks with weapons the attacker is not proficient with provoke attacks of opportunity.
 

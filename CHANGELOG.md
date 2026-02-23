@@ -623,6 +623,9 @@ ___
 ### Skills
 - Allow [heal](05-skills.md#heal) to half duration of certain conditions if they can feasibly be treated by mundane means.
 
+### Abilities
+- Weaken [Counterstrike](06-abilities.md#counterstrike) so that the HiT is reduced for the next attack against the performing character..
+
 ### Spells
 - Add [Summons](08-spell-list.md#summons) spell.
 - Tweak [Fire Ward](08-spell-list.md#fire-ward) and [Greater Fire Ward](08-spell-list.md#great-water-ward) spell to make them more balanced relative to each other.

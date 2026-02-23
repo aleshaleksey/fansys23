@@ -1509,7 +1509,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|12/14/9|56 (*32*)|23 (*17*)|40ft|Swim (20ft)|
+|12/14/9|56 (*32*)|23 (*17*)|12|40ft|Swim (20ft)|
 
 (huge, +3 natural)
 
@@ -1527,7 +1527,7 @@ ___
 |-|-|-|-|
 |Slam|+10|1d8+6||
 |Throw|+10|||
-|Combined Manoeuvre I|||A hadrosaur often sends foes flying when it slams them|
+|[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||A hadrosaur often sends foes flying when it slams them|
 |Senses|||Keen Smell|
 |Skills|||"Observe" +5, "Swim" +10|
 

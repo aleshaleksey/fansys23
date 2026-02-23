@@ -790,7 +790,7 @@ ___
 |Concentration|local|
 |Save|CHA (avoid effects), DEX (no damage)|
 
-**Description**: The caster summons a mote of light and binds it to a valid target, giving it the "glowing" condition. An unwilling target may break the effect with a successful CHA save, thus ending the spell. The mote sheds bright light in 40ft and dim light in total radius of 100ft.
+**Description**: The caster summons a mote of light and binds it to a valid target, giving it the "glowing" condition. An unwilling target may break the effect with a successful CHA save, thus ending the spell. The mote sheds bright light within 40ft and dim light in a total radius of 100ft.
 
 Incorporeal ["undead"](10-conditions-types.md#profane-1) and ["fiends"](10-conditions-types.md#profane-1) have disadvantage on attacks and saves within the radius of the bright light.
 

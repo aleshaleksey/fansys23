@@ -251,7 +251,7 @@ ___
 |Skills|||"Athletics" +7, "Harvest" +6, "Fortify" +7, "Observe" +2, "Prospect" +1|
 |||||
 |Absorb Energy|||"Poison" - Clay golems are immune to poison. In addition any damage it would take from poison instead restores the golem's SP by an equal amount.|
-|Immune|||"Lig"|
+|Immune|||"Light"|
 |Resistant|||"Physical" damage, "Energy"[nat] damage|
 |Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "stunned" "incapacitated", "catatonic" and "dying"|
 
@@ -263,6 +263,7 @@ ___
 ### Clay Golem, humanoid
 
 Clay Golems can be of any size. This affects various parameters. Golems are usually humanoid in shape, but this is not necessarily so.
+
 ___
 **Size category**: Large (10ft x 10ft)
 
@@ -304,7 +305,7 @@ ___
 |Skills|||"Athletics" +10, "Harvest" +6, "Fortify" +10, "Observe" +4, "Prospect" +2|
 |||||
 |Absorb Energy|||"Poison" - Clay golems are immune to poison. In addition any damage it would take from poison instead restores the golem's SP by an equal amount.|
-|Immune|||"Lig"|
+|Immune|||"Light"|
 |Resistant|||"Physical" damage, "Energy"[nat] damage|
 |Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "stunned" "incapacitated", "catatonic" and "dying"|
 
@@ -316,6 +317,7 @@ ___
 ### Stone Golem, humanoid
 
 Stone Golems can be of any size. This affects various parameters. Golems are usually humanoid in shape, but this is not necessarily so.
+
 ___
 **Size category**: Large (10ft x 10ft)
 
@@ -360,8 +362,8 @@ ___
 |Skills|||"Athletics" +13, "Fortify" +12, "Climb" +9, "Harvest" +8, "Observe" +6, "Prospect" +4|
 |||||
 |Absorb Energy|||"Poison" - Stone golems are immune to poison. In addition any damage it would take from poison instead restores the golem's SP by an equal amount.|
-|Immune|||"Lig", "Nec"|
-|Immune|||"Sl", "Pi" from weapons with a material level of 2 or less.|
+|Immune|||"Light", "Necrotic"|
+|Immune|||"Slashing", "Piercing" from weapons with a material level of 2 or less.|
 |Resistant|||"Physical" damage, "Energy"[nat] damage|
 |Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "stunned" "incapacitated", "catatonic" and "dying"|
 
@@ -373,6 +375,7 @@ ___
 ### Jade Golem, beast
 
 Jade golems are sometimes known as "Sage's Horse" or "Sage's Shield". They are not superior to ordinary stone golems in terms of toughness, but the material is more closely associated with supernatural energies, so powerful mages often create them for particular purposes, a common purpose is as a mount.
+
 ___
 **Size category**: Huge (20ft x 20ft)
 
@@ -416,7 +419,7 @@ ___
 |Skills|||"Athletics" +13, "Climb" +9, "Observe" +7, "Prospect" +5, Knowledge (any 2) +5|
 |||||
 |Absorb Energy|||"Profane" - Jade golems are immune to profane damage. In addition any damage it would take from poison instead restores the golem's SP by an equal amount.|
-|Immune|||"Lig", "Nec", "Poi", |
+|Immune|||"Light", "Necrotic", "Poison"|
 |Immune|||"Physical damage" from weapons with a material level of 2 or less.|
 |Immune|||Spells of MP cost of 3 or lower|
 |Resistant|||"Physical" damage, "Energy"[nat] damage|
@@ -430,6 +433,7 @@ ___
 ### Mithril Golem, humanoid
 
 Mithril Golems can be of any size. This affects various parameters. Golems are usually humanoid in shape, but this is not necessarily so.
+
 ___
 **Size category**: Huge (20ft x 20ft)
 
@@ -475,7 +479,7 @@ ___
 |Skills|||"Athletics" +13, "Fortify" +12, "Climb" +9, "Harvest" +8, "Observe" +6, "Prospect" +4|
 |||||
 |Absorb Energy|||"Poison" - Mithril golems are immune to lightning. In addition any damage it would take from lightning instead restores the golem's SP by an equal amount.|
-|Immune|||"Poi", "Nec", "Ice"|
+|Immune|||"Poison", "Necrotic", "Ice"|
 |Immune|||Immune to physical damage from weapons with a material level of 3 or less.|
 |Resistant|||"Physical" damage, "Energy"[nat] damage|
 |Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "stunned" "incapacitated", "catatonic" and "dying"|
@@ -488,6 +492,7 @@ ___
 ### Diamond Golem, humanoid
 
 Diamond Golems can be of any size, but they are rarely larger than medium, due to scarcity of material and how difficult it is to work with.
+
 ___
 **Size category**: Medium (5ft x 5ft)
 
@@ -496,7 +501,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|26/26/12|162 (*57*)|162 (*57*)|40|40ft||
+|26/26/12|162 (*57*)|162 (*57*)|30|40ft||
 
 - Natural Armour: +12 (diamond)
 
@@ -533,7 +538,7 @@ ___
 |Skills|||"Athletics" +20, "Fortify" +20, "Climb" +12, "Harvest" +12, "Observe" +10, "Prospect" +6, 1 rank in all other skills not governed by CHA|
 |||||
 |Absorb Energy|||"Fire", "Light", "Pr" - Diamond golems are immune to these damage types. In addition any damage of these types it would take instead restores the golem's SP by an equal amount.|
-|Immune|||"Poi", "Nec", "Ice"|
+|Immune|||"Poison", "Necrotic"|
 |Immune|||Immune to physical damage from weapons with a material level of 4 or less.|
 |Resistant|||"Physical" damage, "Energy" damage|
 |Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "stunned" "incapacitated", "catatonic" and "dying"|
@@ -541,6 +546,88 @@ ___
 Simply spoken, diamond golems are the pinnacle of artifice. Incredibly difficult and impractical to create, they are likewise almost impossible to destroy and incredibly rare. When used, it is generally as guardians of sacred sites, otherworldly portals and dangerous seals.
 
 A diamond golem has a human-like intelligence, but no will of its own. It follows its master's instructions to the best of its very considerable ability. If given no instructions it continues the last task until it is complete. Given the intelligence of this golem, this task can be of a very high complexity. It will defend its master unless explicitly instructed not to.
+
+___
+### Gargoyle, Lesser
+
+Gargoyles are monstrous and grotesque golems often used as watchdogs and guardians of specific locations. Their monstrous appearance often leads to them being mistaken for monsters.
+
+___
+**Size category**: Medium (5ft x 5ft)
+
+- Reach: 5ft
+- Carry capacity: (60lb light, 120lb medium, 300lb heavy, 450lb drag)
+- Natural armour +4 (stone)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|15/15/11|26 (*20*)|16 (*12*)|8|30ft|Flight (60ft, poor, endurance = 1 hour)|
+
+|     |Str|Dex|Con|Int|Wis|Cha|
+|-----|---|---|---|---|---|---|
+|Stat | 15| 11| 15|  5| 14|  -|
+|Bonus| +2|  0| +2| -2| +2|  -|
+|Save | +5| +1| +3| -1| +3|  -|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|4(1)|9|5|2|1|3|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Claw|+5|1d6+2|Sheer|
+|Grapple|+5|||
+|Sunder|+5|||
+|Monster Attack|||A gargoyle makes 4 attacks with its claws.|
+|||||
+|Stone Camouflage|||A stationary gargoyle is indistinguishable from an ordinary stone statue without ["truesight"](../06-abilities.md#truesight-i-vi) or ["see spell"](../08-spell-list.md#see-spell)|
+|||||
+|Skills|||"Observe" +6, "Athletics" +4, "Stealth" +4, "Fly" +2|
+|Immune|||"Poison", "Necrotic", "Ice"|
+|Immune|||Immune to physical damage from weapons with a material level of 4 or less.|
+|Resistant|||"Physical" damage, "Energy" damage|
+|Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "stunned" "incapacitated", "catatonic" and "dying"|
+
+Gargoyles carry out their instructions faithfully. In the absence of specific instructions a gargoyle remain motionless. It will defend its master unless explicitly instructed not to. Gargoyles that do not have a master seek out locations of artifice (eg, castles, temples, dungeons) bordering on the supernatural and guard them fiercely. In combat they prefer to wait till their victim drop their guard before revealing their true form and attacking. Gargoyles are capable of teamwork.
+
+___
+### Gargoyle
+
+**Size category**: Medium (5ft x 5ft)
+
+- Reach: 5ft
+- Carry capacity: (76lb light, 152lb medium, 380lb heavy, 570lb drag)
+- Natural armour +6 (stone)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|19/18/13|47 (*29*)|41 (*23*)|13|30ft|Flight (70ft, average, endurance = 2 hours)|
+
+|     |Str|Dex|Con|Int|Wis|Cha|
+|-----|---|---|---|---|---|---|
+|Stat | 19| 13| 17|  5| 19|  -|
+|Bonus| +4| +1| +3| -2| +4|  -|
+|Save | +9| +3| +5|  0| +6|  -|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|7(2)|13|10|3|2|5|4|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Claw|+9|1d6+4|Sheer|
+|Bite|+9|1d4+4|Sheer|
+|Grapple|+9|||
+|Sunder|+9|||
+|Monster Attack|||A gargoyle makes 4 attacks with its claws and one with its bite.|
+|||||
+|Stone Camouflage|||A stationary gargoyle is indistinguishable from an ordinary stone statue without ["truesight"](../06-abilities.md#truesight-i-vi) or ["see spell"](../08-spell-list.md#see-spell)|
+|||||
+|Skills|||"Observe" +11, "Athletics" +8, "Stealth" +5, "Fly" +8, "Track" +5|
+|Immune|||"Poison", "Necrotic", "Ice"|
+|Immune|||Immune to physical damage from weapons with a material level of 4 or less.|
+|Resistant|||"Physical" damage, "Energy" damage|
+|Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "stunned" "incapacitated", "catatonic" and "dying"|
 
 ___
 ## Robots
@@ -590,7 +677,7 @@ ___
 |[Low light vision](../06-abilities.md#low-light-vision)|||A caretaker bot can see in dim light almost as well as bright light, but cannot see in complete darkness.|
 |Skills|||"Fortify" +2, "Sleight of Hand" +4, "Tinker" +3, "Appraise" -1, "Prospect" -1, "Observe" +2|
 |Resistant|||Physical damage|
-|Immune|||"Poi" and "disease" damage|
+|Immune|||"Poison" and "disease" damage|
 |Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "incapacitated" and "dying"|
 
 ___
@@ -634,7 +721,7 @@ ___
 |||||
 |Skills|||"Fortify" +18, "Athletics" +11, "Sleight of Hand" +10, "Tinker" +10, "Appraise" +8, "Academics" +6, "Prospect" +4, "Observe" +8|
 |Resistant|||Physical damage|
-|Immune|||"Poi" and "disease" damage|
+|Immune|||"Poison" and "disease" damage|
 |Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "incapacitated" and "dying"|
 
 ___
@@ -680,7 +767,7 @@ ___
 |[Mighty II](../06-abilities.md#mighty-ii)|||The carrying capacity of robotic steeds is abnormally high.|
 |Skills|||"Athletics" +12, "Climb": +9, "Acrobatics" +3, "Prospect" +4, "Observe" +6|
 |Resistant|||Physical damage|
-|Immune|||"Poi" and "disease" damage|
+|Immune|||"Poison" and "disease" damage|
 |Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "incapacitated" and "dying"|
 
 ___
@@ -725,7 +812,7 @@ ___
 |||||
 |Skills|||"Fortify" +12, "Athletics" +12, "Climb": +9, "Acrobatics" +3, "Prospect" +3, "Observe" +6|
 |Resistant|||Physical damage|
-|Immune|||"Poi" and "disease" damage|
+|Immune|||"Poison" and "disease" damage|
 |Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "incapacitated" and "dying"|
 
 ___
@@ -768,5 +855,5 @@ ___
 |||||
 |Skills|||"Fortify" +12, "Athletics" +19, "Climb": +19, "Acrobatics" +3, "Prospect" +3, "Observe" +6|
 |Resistant|||Physical damage|
-|Immune|||"Poi" and "disease" damage|
+|Immune|||"Poison" and "disease" damage|
 |Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "incapacitated" and "dying"|

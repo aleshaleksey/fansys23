@@ -3,7 +3,7 @@
 - [Steps of character creation](#steps-of-character-creation)
     - [Apply stats](#apply-stats)
         - [Random roll 4d6 drop lowest](#random-roll-4d6-drop-lowest)
-        - [Point buy (24 points)](#point-buy-24-points)
+        - [Point buy (23 points)](#point-buy-23-points)
     - [Apply Template](#apply-template)
         - [Human](#human)
         - [Elf/(Fey touched)](#elffey-touched)
@@ -56,9 +56,9 @@ ___
 4. If any stat is below 5, raise it to 5.
 
 ___
-#### Point buy (24 points)
+#### Point buy (23 points)
 
-1. Start with a blank sheet and 24 points.
+1. Start with a blank sheet and 23 points.
 2. Assign points in accordance with the cost table until all 6 stats are assigned and the remaining points are 0. If you end with unassigned points, those points are lost.
 
 The point cost for point buy is as follows:

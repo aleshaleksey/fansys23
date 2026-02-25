@@ -251,7 +251,7 @@ Each skill has a number of described uses. However, the list is generally not ex
 ___
 ### STR Based
 
-___
+
 #### Athletics
 
 Athletics is used for most land based physical activities including:

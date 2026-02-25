@@ -199,7 +199,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 ___
 ## MP 0 spells
 
-___
+
 ### Compass
 
 |Name|Compass [Nature, Travel]|
@@ -577,7 +577,7 @@ ___
 ____
 ## MP 1 spells
 
-___
+
 ### Bear's Claws
 
 |Name| Bear's Claws [Autumn, Earth, Nature, Travel]|
@@ -1694,7 +1694,7 @@ ___
 ___
 ## MP 3 spells
 
-___
+
 ### Animate/Control Dead
 |Name|Animate Dead [Curse, Profane]|
 |-|-|
@@ -2374,7 +2374,7 @@ ___
 ___
 ## MP 4 spells
 
-___
+
 ### Animate Golem
 
 |Name|Animate Golem [Autumn, Earth]|
@@ -3036,7 +3036,7 @@ ___
 ___
 ## MP 5 Spells
 
-___
+
 ### Blessing of the Winds
 
 |Name|Blessing of the Winds [Air, Kinetic, Spring]|
@@ -3614,7 +3614,7 @@ ___
 ___
 ## MP 6 spells
 
-___
+
 ### Fairy Feast
 
 |Name|Fairy Feast [Nature, Incantation, Spirit]|
@@ -4202,7 +4202,7 @@ ___
 ___
 ## MP 7 spells
 
-___
+
 ### Create Secret Path
 
 |Name|Create Secret Path [Nature, Air, Fire, Water, Earth, Spirit]|

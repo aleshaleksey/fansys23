@@ -1,12 +1,14 @@
 # Fantasy Committee
 
-___
+
 ## In the house upon a secret path
 
 There is no dusty cabinet for those of us who dream in the recesses of our mind. However, all those who contributed to the project one way or another, and did not wish to remain hidden, have a seat on the Fantasy Committee.
 
 ___
 ### Contributors:
+
+The following 6 contributed most to the development of this game, though of course they are not the only ones.
 
 #### aleshaleksey
 

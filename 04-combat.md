@@ -263,6 +263,8 @@ The weather can sway, and has swayed, the course of many a battle. Poor visibili
 ___
 ## Actions in combat
 
+This section covers the kinds of actions that exist in combat, what they entail and how they are used.
+
 ___
 ### Flow of Combat
 

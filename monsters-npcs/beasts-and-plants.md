@@ -62,7 +62,7 @@ Animals are common entities in the material world. They have a physical form, li
 ___
 ## Animals: Birds
 
-___
+
 ### Eagle (level 2)
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
@@ -208,7 +208,7 @@ Swans are relatively large, herbivorous waterbirds that guard their nests and yo
 ___
 ## Animals: Domestic
 
-___
+
 ### Cat
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
@@ -443,7 +443,7 @@ Bees swarm when angered, disturbed, when their home is damaged or destroyed, or 
 ___
 ## Animals: Wild
 
-___
+
 ### Deer/Antelope (level 1)
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
@@ -885,7 +885,7 @@ Wolves can be advanced to a higher level, but seldom reach above level 5.
 ___
 ## Animals: Aquatic
 
-___
+
 ### Fish, Medium
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
@@ -1088,7 +1088,7 @@ Sharks possess a sense that allows them to feel the electric fields of other liv
 ___
 ## Giant Animals
 
-___
+
 ### Giant Snail
 
 - **Size**: Large
@@ -1504,7 +1504,7 @@ Giant bears can climb trees, but most trees will not support the weight of a ful
 ___
 ## Animals: Dinosaurs
 
-___
+
 ### Hadrosaur (level 7)
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|

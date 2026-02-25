@@ -301,7 +301,7 @@ In actual combat it will use "glide" in combination with "headwind" to blow away
 ___
 ## Divinities
 
-___
+
 ### Unicorn, True
 
 **Size category**: Large (10ft x 10ft)

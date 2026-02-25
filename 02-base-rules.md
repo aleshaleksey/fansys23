@@ -368,9 +368,9 @@ The bases value for stats of a character is 10. When a character is created, thi
 4. Apply racial/template modifiers.
 5. If any stat is below 5, raise it to 5.
 
-The rules for point buy are (this is for the standard "24 point buy"):
+The rules for point buy are:
 
-1. Start with a blank sheet and 24 points.
+1. Start with a blank sheet and 23 points (see below for alternatives).
 2. Assign points in accordance with the cost table until all 6 stats are assigned and the remaining points are 0. If you end with unassigned points, those points are lost.
 
 The point cost for point buy is as follows.
@@ -397,14 +397,14 @@ Above we have two systems of stat assignment. One rolled (4d6 drop lowest) and o
 For point buy systems, the following common variants exist.
 
 - **6 point point buy**: This is a harsh system. Your characters are no better than the average representative of their race on starting. At most your character will be good at one or two abilities, but only at the cost of lowering others below 10. Combat is more difficult and dangerous. Equipment plays a greater role in the outcome of encounters. Every fight might be your last. Suitable for gritty, horror and sadistic adventures. Here the focus is not so much "how do we win?" to "how do we survive?" or "how do we remain human?". Interestingly, it is also suitable for games focusing on everyday challenges, rather than dangerous adventures.
-- **12 point point buy**: This is also harsh. Your characters are stronger and more able than the average folk, but only just. They are not the destined heroes of legend, and the gods help them if they're thrust into this role. They might be good at a couple of things, or excel in one at the expense of all others. Combat is still dangerous and difficult, but it is still an uphill battle. It is best suited for gritty adventures where the ingenuity and persistence of characters is not eclipsed by pure ability.
-- **24 point point buy**: This is the usual heroic fantasy level of power. The characters are far more powerful than ordinary folk, even at the same level. They have 4 stats which are well above average, or up to 2 that they truly excel at. These are the mightiest of warriors and greatest of mages. This point buy is the standard for heroic fantasy.
-- **30 point point buy**: This is a ludicrous level of power. They are like Hector or Achilles, Odysseus or Heracles. Use this point buy for epic fantasy. One should be conscious that at this level of power, the game can quickly become stale and boring and the focus often shifts from "how do we win?" to "how do we win without losing anyone precious to us?".
+- **13 point point buy**: This is also harsh. Your characters are stronger and more able than the average folk, but only just. They are not the destined heroes of legend, and the gods help them if they're thrust into this role. They might be good at a couple of things, or excel in one at the expense of all others. Combat is still dangerous and difficult, but it is an uphill battle. It is best suited for gritty adventures where the ingenuity and persistence of characters is not eclipsed by pure ability.
+- **23 point point buy**: This is the usual heroic fantasy level of power. The characters are far more powerful than ordinary folk, even at the same level. They have 4 stats which are well above average, or up to 2 that they truly excel at. These are the mightiest of warriors and greatest of mages. This point buy is the standard for heroic fantasy.
+- **30 point point buy**: This is a ludicrous level of power. Characters build with this point buy are like Hector or Achilles, Odysseus or Heracles. Use this point buy for epic fantasy. One should be conscious that at this level of power, the game can quickly become stale and boring and the focus often shifts from "how do we win?" to "how do we win without losing anyone precious to us?".
 
 For roll-up systems, the following common variants exist.
 
 - **3d6**: Roll 3d6, sum the dice. The average is 10-11, with a minimum of 3 and a maximum of 18. On average this is equivalent to 6 point point buy, but can occasionally produce much stronger (or even weaker) characters. The distribution is symmetrical, so you're as likely to get something that's weaker or stronger than average.
-- **4d6 drop lowest**: This is the standard roll-up system, described above. The most common rolls are between 12-13, but the distribution is asymmetric, so there is a high chance of rolls between 9-16, which should be equivalent to 15 point point buy, but due to the high chance of rolls above 13, makes it closer to 24 point point buy.
+- **4d6 drop lowest**: This is the standard roll-up system, described above. The most common rolls are between 12-13, but the distribution is asymmetric, so there is a high chance of rolls between 9-16, which should be equivalent to 15 point point buy, but due to the high chance of rolls above 13, makes it closer to ~21 point point buy (which is not a standard point buy).
 - **4d4 + 2**: This is a true represent of 15 point point buy. The average is between 12-13, but you are just as likely to get higher and lower rolls. Thus, this method gives stronger characters than 3d6, but weaker characters than 4d6 drop lowest, on average.
 
 ___

@@ -5,8 +5,11 @@ This section contains the more important terms used in the game and their meanin
 ___
 ## Terms
 
+Below the reader will find the common terms used in the game, their definitions and where they occur.
+
 ___
 #### Ability
+
 Quite literally an ability or feature beyond the basic set of abilities that all or most characters have. It allows characters to do things they otherwise could not, often at the cost of MP or SP dice. Every level a character gains 3 level points, which can be spent to gain abilities.
 
 - ["Abilities and Boons"](06-abilities.md#abilities-and-boons)

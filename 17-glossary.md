@@ -17,6 +17,7 @@ Quite literally an ability or feature beyond the basic set of abilities that all
 ___
 #### Arbiter
 See ["DM"](#dm-dungeon-master).
+
 ___
 #### Attack
 An attack is any action attempted against an entity that has the potential to reduce its combat potential, be it by direct damage, inducing a condition, or otherwise.

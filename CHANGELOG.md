@@ -636,5 +636,9 @@ ___
 - Add [Control Fire](08-spell-list.md#control-fire) to the spell list (level 4, fire).
 - Fix a few inaccuracies in the spell list.
 
+### Equipment and Economy
+- Add more material on [resources](12-equipment-economy.md#resources).
+- Add descriptions and building times for [various building](12-equipment-economy.md#property).
+
 ### Templates
 - Allow deviation from standard size to 40%.

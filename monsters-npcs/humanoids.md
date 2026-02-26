@@ -1809,8 +1809,8 @@ What is the purpose of a colossus? What is its goals? What is its nature? That v
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |[Mighty II](../06-abilities.md#mighty-ii)||||
-|Damage Resistance|||"Ent", "Div", "Pro"|
-|Damage Immunity|||"Disease", "Poi"|
+|Damage Resistance|||"Ent", "divine", "Pro"|
+|Damage Immunity|||"Disease", "poison"|
 |[Truesight V](../06-abilities.md#truesight-i-vi)|||150ft|
 |Skills|||"Spellworking" +27, "Knowledge (all)" +24, "Fortify" +24, "Athletics" +24, "Swim" +24, "Climb" +18. "Observe" +20, other skills 1 rank.|
 
@@ -1906,7 +1906,7 @@ ___
 - Add "low light vision", "heat sense II", "life sense II", "keen sense".
 - Remove requirement to breathe, sleep or age.
 - Add immunity to "unconscious", "frightened", "charmed".
-- Add resistance to "physical", "Poi" and "Nec" damage.
+- Add resistance to "physical", "poison" and "necrotic" damage.
 - [Alternate form I](../06-abilities.md#alternate-form-i-iv): Bat.
 - Add [Charm I](../06-abilities.md#charm-i-iv)
 - Add [Xenophonia III](../06-abilities.md#xenophonia-i-xiii): Beasts, Monsters, Undead.

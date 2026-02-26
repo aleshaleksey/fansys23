@@ -209,7 +209,7 @@ ___
 |Damage resistance|||"Physical" (becomes immunity at lvl4 and above)|
 |Damage immunity|||"ice"|
 |Condition immunity|||"stunned", "immobilised", "crippled", "bleeding", poisoned" and "paralysed"|
-|Vulnerability|||"Fir"|
+|Vulnerability|||"fire"|
 
 Water sprites are the least of the water elementals and take many shapes. Generally they mimic the first moving material object or entity they observe on the material realm, so while they often take the shapes of beasts, birds and humanoids, they occasionally take on somewhat inane forms.
 
@@ -304,7 +304,7 @@ Size: Small +1/-1
 |Resistance|||"Ice"|
 |Immunity|||"Physical"|
 |Immunity|||"Restrained", "Surprised", "Helpless", "Dying", "Stunned", "Immobilised", "crippled", "bleeding", "Paralysed"|
-|Vulnerability|||"Poi"|
+|Vulnerability|||"poison"|
 |Sacrifice|||As a full round action can destroy its elemental core and die. As a consequence a spring is formed on the ground beneath it. It produces 2 pints of water per round (enough to sustain a camp of ~10 thousand medium sized humanoids or a town of 100-1000) for the next 108 years.|
 
 Undines are feminine elemental spirits of water, classically associated with springs and sources of water. They are generally harmless unless their streams are threatened. They often take the form of humanoid women of great beauty.
@@ -344,7 +344,7 @@ Size: Medium
 |Resistance|||"Ice"|
 |Immunity|||"Physical"|
 |Immunity|||"Restrained", "Surprised", "Helpless", "Dying", "Stunned", "Immobilised", "crippled", "bleeding", "Paralysed"|
-|Vulnerability|||"Poi"|
+|Vulnerability|||"poison"|
 |Sacrifice|||As a full round action can destroy its elemental core and die. As a consequence a spring is formed on the ground beneath it. It produces 8 pints of water per round (enough to sustain a camp of ~40 thousand medium sized humanoids or a town of 400-4000) for a thousand years.|
 
 Undines are feminine elemental spirits of water, classically associated with springs and sources of water. They are generally harmless unless their streams are threatened. They often take the form of humanoid women of great beauty.
@@ -396,7 +396,7 @@ A Ifrit is can make two basic combat manoeuvres, or an elemental blast/touch as 
 |Sc: Fire IV|||Favourites: ["Meadow of Flame"](../08-spell-list.md#meadow-of-flame), ["Melt"](../08-spell-list.md#melt), ["Command Mortal"](../08-spell-list.md#command-mortal), ["Speak Through Flame"](../08-spell-list.md#speak-through-flame), ["Flame Stride"](../08-spell-list.md#flame-stride)|
 |Sc: Kinetic III|||Favourites: ["Whispers"](../08-spell-list.md#whispers), ["Spirits' Secret"](../08-spell-list.md#spirits-secret), ["Call Ailment"](../08-spell-list.md#call-ailment), ["Illusory Self"](../08-spell-list.md#illusory-self), ["Least Curse"](../08-spell-list.md#least-curse)|
 |Sc: Global I||||
-|Immunity|||"Physical", "Fir"|
+|Immunity|||"Physical", "fire"|
 |Immunity|||"Restrained", "Surprised", "Helpless", "Dying", "Stunned", "Immobilised", "crippled", "bleeding", "Paralysed"|
 |Vulnerability|||"Lit[sup]"|
 |Senses|||"Heat Sense"|
@@ -454,7 +454,7 @@ A Greater Ifrit is can make two basic combat manoeuvres, or an elemental blast/t
 |Sc: Fire VI|||Favourites: ["Meadow of Flame"](../08-spell-list.md#meadow-of-flame), ["Melt"](../08-spell-list.md#melt), ["Command Mortal"](../08-spell-list.md#command-mortal), ["Speak Through Flame"](../08-spell-list.md#speak-through-flame), ["Flame Stride"](../08-spell-list.md#flame-stride), ["Madness"](../08-spell-list.md#madness), ["Summon Elemental"](../08-spell-list.md#summon-elemental), ["Forest of Flame"](../08-spell-list.md#forest-of-flame)|
 |Sc: Kinetic III|||Favourites: ["Whispers"](../08-spell-list.md#whispers), ["Spirits' Secret"](../08-spell-list.md#spirits-secret), ["Call Ailment"](../08-spell-list.md#call-ailment), ["Illusory Self"](../08-spell-list.md#illusory-self), ["Least Curse"](../08-spell-list.md#least-curse)|
 |Sc: Global I||||
-|Immunity|||"Physical", "Fir"|
+|Immunity|||"Physical", "fire"|
 |Immunity|||"Restrained", "Surprised", "Helpless", "Dying", "Stunned", "Immobilised", "crippled", "bleeding", "Paralysed"|
 |Vulnerability|||"Lit[sup]"|
 |Senses|||"Heat Sense"|
@@ -903,8 +903,8 @@ Deflection: +2
 |||||
 |Immunity|||"stunned", "immobilised", "crippled", "bleeding", "poisoned", "paralysed" as well as "aphonia" and "deafened"|
 |Damage Immunity|||All physical Damage. The immunity to physical damage does not apply to damage caused by weapons made of iron or steel.|
-|Damage Resistance|||"Ice", "Div"|
-|Damage Vulnerability|||"Nec"|
+|Damage Resistance|||"Ice", "divine"|
+|Damage Vulnerability|||"necrotic"|
 |||||
 |Dryad's Curse||| A dryad cannot move beyond the edge of the root system of its tree. For this reason, dryads associated with birches are particularly powerful. A dryad whose tree perishes likewise perishes. A dryad can abandon its tree and return to the spirit realm on the first day of winter without perishing. Should it do so, however, its tree perishes.|
 
@@ -963,8 +963,8 @@ Foresight: +2
 |[Low Light Vision](../06-abilities.md#low-light-vision)|||A nymph/naiad can see in dim light as well as in bright daylight.|
 |Immunity|||"stunned", "immobilised", "crippled", "bleeding", "poisoned", "paralysed" as well as "aphonia" and "deafened"|
 |Damage Immunity|||All physical Damage. The immunity to physical damage does not apply to damage caused by weapons made of iron or steel.|
-|Damage Resistance|||"Ice", "Div"|
-|Damage Vulnerability|||"Nec"|
+|Damage Resistance|||"Ice", "divine"|
+|Damage Vulnerability|||"necrotic"|
 |||||
 |Nymph's Curse||| A nymph cannot leave the catchment of its stream. Furthermore, should its stream dry up or be dammed for a full year, the nymph perishes. A nymph can leave its stream and pass to the spirit realm by travelling to its estuary. Should it do so, however, the stream dries up. Only the sacrifice of an undine can restore it.|
 
@@ -1179,7 +1179,7 @@ Deflection: +5
 |||||
 |Immunity|||"stunned", "immobilised", "crippled", "bleeding", "poisoned", "paralysed" as well as "aphonia" and "deafened"|
 |Damage Immunity|||All physical Damage. The immunity to physical damage does not apply to damage caused by weapons made of iron or steel.|
-|Damage Resistance|||"Div" damage, "Pro" damage|
+|Damage Resistance|||"divine" damage, "Pro" damage|
 |||||
 |Skills|||"Perform" +23, "Deceive" +18, "Persuade" +18, "Creature Handling" +18, "Acrobatics" +15, "Flight" +15, "Insight" +15, "Heal" +12, "Knowledge: Nature" +12, "Knowledge: Arcana" +10, "Knowledge: History" +8, other skills: 1 rank|
 |||||
@@ -1227,7 +1227,7 @@ Deflection: +2
 |Incorporeal|||Whisps do not have a physical form, and cannot physically interact with the world. They are immune to any abilities that require a STR or CON save and automatically fail skill rolls governed by STR or CON.|
 |Immunity|||"stunned", "immobilised", "crippled", "bleeding", "poisoned", "paralysed" as well as "aphonia" and "deafened"|
 |Damage Immunity|||All physical Damage.|
-|Damage Immunity|||"Poi", "Biological", "Ice[nat]", "Fir[nat]"|
+|Damage Immunity|||"poison", "Biological", "Ice[nat]", "Fir[nat]"|
 |||||
 |Damage Resistance|||"Pro" damage|
 

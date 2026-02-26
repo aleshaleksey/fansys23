@@ -274,7 +274,7 @@ ___
 |-|-|
 |Hive mind|All hive beasts belonging to the same colony are always connected. They can communicate telepathically at any distance. Furthermore, the hive is aware whether its members are alive or dead. Lastly the hive knows the location of its conscious members.|
 |Telepathy|(Range=120ft)|
-|Resistance|"Poi" damage, "poisoned", physical damage|
+|Resistance|"poison" damage, "poisoned", physical damage|
 
 |Ability (**Young**)|Bonus|Damage|Other|
 |-|-|-|-|
@@ -543,7 +543,7 @@ ___
 |Teeth|+11|1d4+7 Pi + 2d12[acid]|Range=120ft, Increment=20ft. If the slug's venomous teeth deal damage to a target, it must succeed a CON save at the start of the next turn, or be restrained. If it fails this save, at the start of its following turn it must succeed a CON save or be paralysed for 24 hours or until cured (no repeated saves). Thr=19|
 |Acid Body|||Weapons of material grade 3 or lower striking the slugs body are dealt 1 point of damage. Furthermore the attacker must succeed a Thr=19 CON save or suffer 2d12 poison damage.|
 |||||
-|Resistances|||"Pe", "Poi", "acid" damage|
+|Resistances|||"Pe", "poison", "acid" damage|
 |Skills|||"Observe" +3, "Harvest" +8|
 
 Demonic slugs are, like demonic snails, vicious predators that devour anything that moves. They dwell in deep forest and swamps and subterranean caverns, where their sluggish movement and lack of defences against the things that could hunt them.
@@ -580,7 +580,7 @@ ___
 |Senses|||Normal + Life sense (60ft)|
 |Senses|||Keen Hearing|
 |Skills|||"Perform" +9, "Deception" + 9, "Spellworking" +11, "Knowledge:Arcane, Nature, Geography" +11, "Knowledge: History": +8, "Navigate" +8, "Observe" +8, "Prospect" +9, "Sense Motive" +6, "Track" +6, "Creature Handling" +6|
-|Resistance|||"Pe", "Pr", "light", "ice", "Nec"|
+|Resistance|||"Pe", "Pr", "light", "ice", "necrotic"|
 |Vulnerability|||"Ent"|
 
 A very dangerous otherworldly monster. The Worm that Sings is has a slender, mushroom-like body with a flat head and towers 15ft as it stands. It wonders remote and sparsely inhabited lands, with no obvious goal, singing a haunting song as it goes, that is capable of ensnaring mortals. Mortals ensnared by the song either stand motionless and allow the worm to implant its eggs in it, which hatch within a month, beginning to devour the victim as they mature. Others become violent and attempt to strike nearby beings, even close friends.
@@ -616,7 +616,7 @@ ___
 |Monster attack|||A troll makes two claw attacks. It can also make either a bite attack or a |
 ||||||
 |Resistant|||"fear", "charm", "catatonic", "stun"|
-|Extraordinary Vitality|||A troll regains 5 SP and 1 HP at the start of its turn even if it is dead. If it is below 0 HP but not dead, its HP is set to 1. This ability is inactive on turns when the troll has suffered "Fir", "divine" or "entropic" damage between the end of its previous turn and the start of this turn. A troll only dies permanently if its HP is 0 or below, and this ability is inactive.|
+|Extraordinary Vitality|||A troll regains 5 SP and 1 HP at the start of its turn even if it is dead. If it is below 0 HP but not dead, its HP is set to 1. This ability is inactive on turns when the troll has suffered "fire", "divine" or "entropic" damage between the end of its previous turn and the start of this turn. A troll only dies permanently if its HP is 0 or below, and this ability is inactive.|
 |Limited Immunity|||"crippled": A troll that suffers from the "crippled" condition is cured of it at the start of its next turn, as it regenerates. If a troll's "extraordinary vitality" is disabled by any means, this ability likewise ceases to function|
 |Senses|||"Keen senses", "low light vision"|
 |Skills|||+5 to any 2, +4 to any two (usually knowledge arcana, track, nature)|
@@ -705,7 +705,7 @@ A kraken makes 8 attacks with its tentacles. It can attack targets smaller than 
 |Deflection||| Reduce the damage from a ranged supernatural attack by [1d4 + SAP + [MP dice expended]d4] as long as it is not esoteric as a reaction|
 |Esoteric Deflection||| Reduce the damage from a "esoteric" ranged attack by [1d6 + [2 x MP dice expended]], as a reaction to taking esoteric damage|
 |||||
-|Resistance|||"Poi", "Ice", "Nec", "Pe", "Pr"|
+|Resistance|||"poison", "Ice", "necrotic", "Pe", "Pr"|
 |Resistance|||"Restrained", "Immobilised", "Stunned", "Paralysed"|
 |Immune|||"Fear", "Disease", "Catatonic", "Charmed"|
 |||||
@@ -1210,7 +1210,7 @@ ___
 |[Mighty I](../06-abilities.md#mighty-i)|||Can carry more weight than your average beast|
 ||||||
 |Immunity|||"aphonic", "blinded", "charmed", "deafened", "frightened"||
-|Vulnerability|||"Poi", "Nec", "Pro" damage.|
+|Vulnerability|||"poison", "necrotic", "Pro" damage.|
 |True-speech|||A true unicorn cannot lie|
 |||||
 |[Low Light Vision](../06-abilities.md#low-light-vision)|||A unicorn can see in dim light as well as in sunlight.|
@@ -1239,7 +1239,7 @@ Lycanthropes are classified as "Mortals", "Monsters".
 The following is common to lycanthropes:
 
 - Lycanthropes are immune to "physical" damage.
-- Lycanthropes are at least resistant to "Poi" and "disease".
+- Lycanthropes are at least resistant to "poison" and "disease".
 - Lycanthropes have an alternate form of a beast (though this is never a herbivorous beast). Less powerful lycanthropes have little control over this transformation.
 - Lycanthropes' "Pi" and "Sl" immunities are negated by weapons made of silver.
 
@@ -1267,7 +1267,7 @@ ___
 |||||
 |Proficiencies|||Any two tools or kits|
 |Resistance|||Physical damage, "bleeding", "crippled", "incapacitated", "frightened"|
-|Resistance|||"Poi", "disease"|
+|Resistance|||"poison", "disease"|
 |Greater Vitality|||A werewolf restores all SP and MP (but not dice) at the end of a short rest, as well as 1 HP. A werewolf restores HP fully following a long rest.|
 |Anathema: Silver|||Silver negates a werewolf's resistances and "Greater Vitality"|
 |||||
@@ -1308,7 +1308,7 @@ ___
 |||||
 |Proficiencies|||Any two tools or kits|
 |Resistance|||"bleeding", "crippled", "incapacitated", "frightened"|
-|Immunity|||Physical damage", "Poi", "disease"|
+|Immunity|||Physical damage", "poison", "disease"|
 |Greater Vitality|||A werewolf restores all SP and MP (but not dice) at the end of a short rest, as well as 1 HP. A werewolf restores HP fully following a long rest.|
 |Anathema: Silver|||Silver negates a werewolf's resistances and "Greater Vitality"|
 |Alternate Form|||As a main action, a werewolf can transform into a wolf, or back into its humanoid form. Any equipment, or possessions are not transformed. ([Wolf](beasts-and-plants.md#wolf), [Giant Wolf](beasts-and-plants.md#giant-wolf-level-9))|

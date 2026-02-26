@@ -69,7 +69,7 @@ Large(-1/+1)
 |Monster Attack I|||The corporeal horror makes one attack with its claws, and one with its bite|
 |Broad Strike|||Claws only|
 |||||
-|Vulnerability|||"Div", "light"|
+|Vulnerability|||"divine", "light"|
 |Resistant|||"physical" damage except "Sl" and "Pr", "grappled", "restrained"|
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
 |Senses|||"low-light vision", "life-sense" 30ft|
@@ -114,7 +114,7 @@ Saves: Wis, Cha
 |Monster Attack I|||The corporeal horror makes one attack with its claws, and one with its bite|
 |Broad Strike|||Claws only|
 |||||
-|Vulnerability|||"Div", "light"|
+|Vulnerability|||"divine", "light"|
 |Resistant|||"physical" damage except "Sl" and "Pr", "grappled", "restrained"|
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
 |Senses|||"low-light vision", "life-sense" 30ft|
@@ -167,7 +167,7 @@ ___
 |[Xenophonia](../06-abilities.md#xenophonia-i-xiii)|||Undead, Monsters, Spirits, Fiends|
 |||||
 |||||
-|Vulnerability|||"Div", "light"|
+|Vulnerability|||"divine", "light"|
 |Resistant|||"physical" damage except "Pe" and "Pr", "fire", "ice", "profane" damages|
 |Immune|||"necrotic", "poison" damage|
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
@@ -214,7 +214,7 @@ ___
 |Claws|+4(+6)|1d4+2(+3)||
 |Longsword|+3(+5)|1d8/1d12+1(+2)||
 |Sling|+4(+6)|1d6+2(+3)|range=1600/80|
-|Vulnerability|||"Div", "light"|
+|Vulnerability|||"divine", "light"|
 |Resistant|||"physical" damage except "Pe" and "Pr"|
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
 |Senses|||"low-light vision", "life-sense" 60ft|
@@ -262,7 +262,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Vulnerability|||"Div", "light"|
+|Vulnerability|||"divine", "light"|
 |Resistant|||"physical" damage except "Pe" and "Pr"|
 |Immune|||"fire" or "ice"|
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
@@ -306,7 +306,7 @@ ___
 |Bite|+5(+7)|1d4+3(+4)|Disease: Zombify Threshold = 16(17)|
 |Strike|+5(+7)|1d4+3(+4)||
 |Longsword|+0(+2)|1d8/1d12+3(+4)||
-|Vulnerability|||"Div", "light"|
+|Vulnerability|||"divine", "light"|
 |Resistant|||"physical" damage|
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
 |Senses|||"low-light vision", "life-sense" 60ft|
@@ -322,7 +322,7 @@ Zombies are not proficient with anything other than their natural attacks and "g
 ___
 ## Vampires
 
-Vampires are undead that still have blood in their veins. A vampire is cursed by the sun and requires blood in order to remain active. Thus most vampires are active at night. Vampires cannot cross running water or enter another's dwelling without an invitation. All vampires have vulnerability to "divine" and "light" damage. Furthermore, a vampire that is out in daylight, cannot use any abilities that require the expenditure of SP dice or MP dice. A vampire that is exposed to direct sunlight takes 1 HP damage at the start of its turn. Unlike living beings, a vampire that is starved of blood does not die. Instead it becomes dormant, until it has been fed.
+Vampires are undead that still have blood in their veins. A vampire is cursed by the sun and requires blood in order to remain active. Thus most vampires are active at night. Vampires cannot cross running water or enter another's dwelling without an invitation. All vampires have vulnerability to "divine" and "light" damage. Attacks with weapons made of silver overcome a vampire's resistance to physical damage. Furthermore, a vampire that is out in daylight, cannot use any abilities that require the expenditure of SP dice or MP dice. A vampire that is exposed to direct sunlight takes 1 HP damage at the start of its turn. Unlike living beings, a vampire that is starved of blood does not die. Instead it becomes dormant, until it has been fed.
 
 In most settings vampires are beings of intense hunger, both for sustenance (blood) and for carnal pleasures.
 
@@ -363,10 +363,10 @@ ___
 |||||
 |[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||(1SP die) A vampire spawn can grapple when making a claw attack.|
 |Alternate Form: Bat|||A vampire can turn into a bat, or back, as a secondary action. It takes the bat's physical stats, saves, size, HiT, and movement modalities, but is otherwise still a vampire|
-|Resistant|||"physical" damage, "disease", "Poi"|
+|Resistant|||"physical" damage (ignored by weapons made of silver), "disease", "poison"|
 |Resistant|||"prone", "bleeding", "crippled", "incapacitated", "frightened", "poisoned", "diseased"|
 |Immune|||"fear", "unconscious"|
-|Vulnerability|||"Div", "light"|
+|Vulnerability|||"divine", "light"|
 |||||
 |[Low-light vision](../06-abilities.md#low-light-vision)|||A vampire can see in dim light as if it was daylight|
 |[Heat sense (30ft)](../06-abilities.md#heat-sense-i-v)|||A vampire can detect the body heat of warm blooded beings, as well as other sources of heat.|
@@ -425,10 +425,10 @@ ___
 |[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||(1SP die) A vampire can make a conventional combined manoeuvre|
 |||||
 |Alternate Form: Bat|||A vampire can turn into a bat, or back, as a secondary action. It takes the bat's physical stats, saves, size, HiT, and movement modalities, but is otherwise still a vampire|
-|Resistant|||"physical" damage, "disease", "Poi", Nec"|
+|Resistant|||"physical" damage (ignored by weapons made of silver), "disease", "poison", "necrotic"|
 |Resistant|||"prone", "bleeding", "crippled", "incapacitated", "frightened", "poisoned", "diseased"|
 |Immune|||"fear", "unconscious"|
-|Vulnerability|||"Div", "light"|
+|Vulnerability|||"divine", "light"|
 |[Sc: Global](../06-abilities.md#spellcasting-global)||||
 |||||
 |[Low-light vision](../06-abilities.md#low-light-vision)|||A vampire can see in dim light as if it was daylight|
@@ -498,10 +498,10 @@ ___
 |||||
 |[Alert](../06-abilities.md#alert)|||An ancient vampire cannot be surprised.|
 |Alternate Form: Bat|||A vampire can turn into a bat, or back, as a secondary action. It takes the bat's physical stats, saves, size, HiT, and movement modalities, but is otherwise still a vampire|
-|Resistant|||"physical" damage, "disease", "Poi", Nec"|
+|Resistant|||"physical" damage (ignored by weapons made of silver), "disease", "poison", "necrotic"|
 |Resistant|||"prone", "bleeding", "crippled", "incapacitated", "frightened", "poisoned", "diseased"|
 |Immune|||"fear", "unconscious", "charm"|
-|Vulnerability|||"Div", "light"|
+|Vulnerability|||"divine", "light"|
 |[Forbidden Spell](../06-abilities.md#forbidden-spell)|||["Forced Possession"](../08-spell-list.md#forced-possession), ["Dominate Mortal"](../08-spell-list.md#dominate-mortal), ["Summon Fiend"](../08-spell-list.md#summon-fiend), ["Legion of Dead"](../08-spell-list.md#legion-of-dead)|
 |[Sc: Global](../06-abilities.md#spellcasting-global)||||
 |||||
@@ -546,8 +546,8 @@ ___
 |Profane aura|Thr=16 CON||(Range = 30ft) A shade removes warmth and vital energies from within 30ft. The temperature within the aura drops by one category. All mortals entering or starting their turn in a shade's aura must succeed on a CON save or have disadvantage on DEX based rolls and take 3 points of supernatural cold damage.|
 |Spellcasting III|Thr=18||["Least Curse"](../08-spell-list.md#least-curse)|
 |||||
-|Resistant|||"Fir", "ice" damage|
-|Vulnerability|||"Div", "light"|
+|Resistant|||"fire", "ice" damage|
+|Vulnerability|||"divine", "light"|
 |Immune|||"physical" damage and all combat manoeuvres carried out without "spiritual" properties|
 |Immune||||All combat manoeuvres carried by corporeal entities without the "spiritual" property|
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
@@ -582,8 +582,8 @@ ___
 |Profane aura|Thr=19 CON||(Range = 60ft) A shade removes warmth and vital energies from within 30ft. The temperature within the aura drops by one category. All mortals entering or starting their turn in a shade's aura must succeed on a CON save or have disadvantage on DEX based rolls and take 3 points of supernatural cold damage.|
 |Spellcasting III|Thr=18||["Least Curse"](../08-spell-list.md#least-curse)|
 |||||
-|Resistant|||"Fir", "ice" damage from supernatural sources|
-|Vulnerability|||"Div", "light" from supernatural sources|
+|Resistant|||"fire", "ice" damage from supernatural sources|
+|Vulnerability|||"divine", "light" from supernatural sources|
 |Immune|||"natural" damage (except "light") and all combat manoeuvres carried out without "spiritual" properties|
 |Immune|||All combat manoeuvres carried by corporeal entities without the "spiritual" property|
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
@@ -616,8 +616,8 @@ ___
 |Shade's touch|+4|2d6+1|The damage counts as simultaneously cold and necrotic, entities touched must succeed a Thr=17 WIS save or be "frightened" of the shade until they are no longer in line of sight of the shade.|
 |Spellcasting III|Thr=16||["Least Curse"](../08-spell-list.md#least-curse)|
 |||||
-|Resistant|||"Fir", "ice" damage|
-|Vulnerability|||"Div", "light"|
+|Resistant|||"fire", "ice" damage|
+|Vulnerability|||"divine", "light"|
 |Immune|||"physical" damage and all combat manoeuvres carried out without "spiritual" properties|
 |Immune||||All combat manoeuvres carried by corporeal entities without the "spiritual" property|
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
@@ -662,9 +662,9 @@ Imps are tiny (+2 evasion, +2 DEX save, -2 STR save)
 |Skills|||"deception" +4, "flight" +5|
 |Senses|||"low-light vision", "heat sense" 30ft|
 |||||
-|Resistant|||"physical" damage, "Fir", "ice" damage|
-|Immune|||"disease", "Poi", "dying"|
-|Vulnerability|||"Div", "light: supernatural" damage|
+|Resistant|||"physical" damage, "fire", "ice" damage|
+|Immune|||"disease", "poison", "dying"|
+|Vulnerability|||"divine", "light: supernatural" damage|
 
 Imps are tiny fiends. Their potential for evil and destruction is limited only by their limited capability.
 
@@ -732,8 +732,8 @@ Here the stat block for vaguely humanoid minor demons of levels 1-5 is presented
 |3|Skills|||"Fortify:+6", "Intimidate: +3", "Climb:+6", "Spellcraft:0", "Religion:0"|
 |5|Skills|||"Fortify:+7", "Intimidate: +3", "Climb:+6", "Spellcraft:3", "Religion:3"|
 ||||||
-||Vulnerability|||"Div", "light: supernatural"|
-||Resistant|||"physical" damage, "Fir" and "ice" damage|
+||Vulnerability|||"divine", "light: supernatural"|
+||Resistant|||"physical" damage, "fire" and "ice" damage|
 ||Immune|||"disease", "unconscious", "dying"|
 ||Senses|||"low-light vision", "heat sense" 30ft|
 
@@ -782,9 +782,9 @@ A shadow Flesh Fiend has a +4 armour bonus from the profane flesh.
 |||||
 |Skills|||"Athletics: +7", "Acrobatics:+6", "Sleight of Hand:+5", "Religion:+4", "Fortify:+5",  "Insight:+4"|
 |||||
-|Resistant|||"physical" damage, "Fir", "ice" damage|
+|Resistant|||"physical" damage, "fire", "ice" damage|
 |Immune|||["biological damage"](../10-conditions-types.md#biological-damage), diseased", "poisoned", "dying"|
-|Vulnerability|||"Div" damage, "Lit: supernatural" damage|
+|Vulnerability|||"divine" damage, "light[sup]" damage|
 
 When a sentient mortal  has a part of their body wilfully taken from them by another entity, occasionally the attachment and resentment transforms the mortal into a fiend, rematerialising the lost part.
 
@@ -826,9 +826,9 @@ ___
 |Senses|||"Low Light Vision", "Heat Sense", "Life Sense"|
 |Skills|||"Deception: +11", "Persuasion:+11", "Sleight of Hand:+9", "Acrobatics:+7", "Ride:+5",  "Insight:+5", "Religion:+5", "Arcana:+4", "Appraise":+3, "Observe": +1, "Athletics":+1|
 |||||
-|Resistant|||"physical" damage, "Fir", "ice" damage|
-|Immune|||"disease", "Poi", "dying"|
-|Vulnerability|||"Div" damage, "Lit: supernatural" damage|
+|Resistant|||"physical" damage, "fire", "ice" damage|
+|Immune|||"disease", "poison", "dying"|
+|Vulnerability|||"divine" damage, "light[sup]" damage|
 
 Succubi are fiends that prey on the carnal desires of humanoids in order to drain them of life-force or otherwise corrupt them. They usually take on the form of a desirable mate.
 
@@ -878,9 +878,9 @@ Saves: Str, Con
 |Senses|||"Low Light Vision", "Tremor Sense"|
 |Skills|||"Athletics":+12, "Fortify": +10", "Climb:+8", "Swim:+7", "Ride:+7", "Intimidation":+7,"Deception":+6, "Acrobatics:+5", "Stealth:+5", "Observe":+3, "Sense Motive": +3, "Religion:+1", "Arcana:+1"|
 |||||
-|Resistant|||"physical" damage, "Fir", "ice" damage|
-|Immune|||"disease", "Poi", "dying"|
-|Vulnerability|||"Div", "Lit: supernatural" damage|
+|Resistant|||"physical" damage, "fire", "ice" damage|
+|Immune|||"disease", "poison", "dying"|
+|Vulnerability|||"divine", "light[sup]" damage|
 
 A fiendish warrior is a being of violence. It relishes violence. It exists to increase the amount of bloodshed and violence in the world, usually by its own hands. It will seek out combat and is drawn to locales with a blood-stained history. Where there is none, it will work to create it. A fiendish warrior is at least as happy slaughtering and tormenting innocents and those who cannot fight back, as it is destroying strong foes.
 
@@ -950,7 +950,7 @@ ___
 |||||
 |Resistant|||"physical" damage, "Fire", "ice" damage|
 |Immune|||"disease", "poison", "dying", "fear"|
-|Vulnerability|||"Div", "Lit: supernatural" damage|
+|Vulnerability|||"divine", "light[sup]" damage|
 
 A Herald of the Abyss is a greater fiend in its own right, however, as the name suggests, its appearance often foreshadows calamity of some kind.
 
@@ -1023,9 +1023,9 @@ ___
 |Senses|||"Blind-sight: 30ft", "Life Sense: 30ft", "Low Light Vision", "Tremor Sense: 60ft"|
 |Skills|||"Athletics":+20, "Fortify": +20", "Climb:+20", "Swim:+11", "Ride:+7", "Intimidation":+16,"Deception":+16, "Acrobatics:+5", "Stealth:+10", "Observe":+14, "Sense Motive": +13, "Spellworking:+11", "Religion:+11", "Academics:+6"|
 |||||
-|Resistant|||"physical" damage, "Fir", "ice" damage|
-|Immune|||"disease", "Poi", "dying", "Pro"|
-|Vulnerability|||"Div", "Lit: supernatural" damage|
+|Resistant|||"physical" damage, "fire", "ice" damage|
+|Immune|||"disease", "poison", "dying", "Pro"|
+|Vulnerability|||"divine", "light[sup]" damage|
 |||||
 |Demonic Realm|||Each demon has its own demonic realm which is found at least in the intermediate depths of the spirit realm. This acts as a ["Greater Domain"](../08-spell-list.md#greater-domain) with a radius of at least 40ft (and with no upper limit), with the exception that its alignment is "profane" and is located deeper in the spirit realm. If the domain is destroyed, the demon is likewise destroyed.|
 |Demonic Restoration|||A demon can only be permanently destroyed by "divine" damage or if its demonic realm is destroyed. A demon which is destroyed by other means will be reborn in its domain after an arbitrary amount of time (recommended 13d12 years).|
@@ -1087,9 +1087,9 @@ ___
 |[Sprinter](../06-abilities.md#sprinter)|||A unicorn can run at x3 its base speed, and sprint x5 its base speed.|
 |[Mighty I](../06-abilities.md#mighty-i)|||Can carry more weight than your average beast|
 |||||
-|Resistant|||"physical" damage, "Fir", "ice" damage|
-|Immune|||"disease", "Poi", "dying"|
-|Vulnerability|||"Div", "Lit: supernatural" damage|
+|Resistant|||"physical" damage, "fire", "ice" damage|
+|Immune|||"disease", "poison", "dying"|
+|Vulnerability|||"divine", "light[sup]" damage|
 |||||
 |[Low Light Vision](../06-abilities.md#low-light-vision)|||A unicorn can see in dim light as well as in sunlight.|
 |[Life Sense (60ft)](../06-abilities.md#life-sense-i-vi)|||A unicorn can sense living beings within 60ft of it.|

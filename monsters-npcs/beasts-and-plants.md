@@ -173,7 +173,7 @@ Size= Small, Raven / Tiny, Crow
 |-|-|-|-|
 |Beak|+4|3|Pi damage|
 |[Evasive](../06-abilities.md#evasive)|||Avoid AoOs|
-|Resistant|||"Disease", "Poi"|
+|Resistant|||"Disease", "poison"|
 |Skills|||"Sleight of Hand" +4, "Observe" +3|
 
 Ravens are omnivorous, typically black, birds that are primarily scavengers. This stat block can also be used for crows.
@@ -708,7 +708,7 @@ Size = tiny
 |[Evasive](../06-abilities.md#evasive)|||Avoid AoOs|
 |[Stalker](../06-abilities.md#stalker)|||Hides really quickly|
 |Skills|||"Stealth" +4, "Observe" +2|
-|Resistant|||"Disease", "Poi"|
+|Resistant|||"Disease", "poison"|
 |Loot|||Rat meat is edible to humanoids, but you should probably cook it thoroughly.|
 
 This block can be used for any small rodent. Rats are resilient and prolific, eating just about anything. With small modifications, this block can be used for rabbits, guinea-pigs and similar creatures.
@@ -1155,7 +1155,7 @@ ___
 |Pseudopod|+9|1d8+6 Pe + 1d12[acid]|Reach=10ft|
 |Acid Body|||Weapons of material grade 3 or lower striking the slugs body are dealt 1 point of damage. Furthermore the attacker must succeed a Thr=19 CON save or suffer 1d12 poison damage.|
 |||||
-|Resistances|||"Pe", "Poi", "acid" damage|
+|Resistances|||"Pe", "poison", "acid" damage|
 |Skills|||"Observe" +3, "Harvest" +8|
 
 Giant slugs are large, poisonous, herbivorous molluscs. They are usually docile, but can lash out with their pseudopods when attacked. Since they are largely defenceless against stronger monsters and ranged attacks, they dwell in, or near, caverns whether this is not so much of a threat.
@@ -1614,7 +1614,7 @@ ___
 |["Greater Manoeuvre I"](../06-abilities.md#greater-manoeuvre-i-v)|||A dark cabbage can grapple/restrain entities up to huge in size with its roots|
 |||||
 |Alert|||A dark cabbage cannot be surprised|
-|Resistance|||"prone", "Lit", "Nec", "Poi", "Nec"|
+|Resistance|||"prone", "Lit", "necrotic", "poison", "necrotic"|
 |Immunity|||"Pro", "Ent"|
 |Immunity|||"frightened", "blinded", "stunned", "catatonic" and "paralysed"|
 |Skill|||"Observe" +1, "Stealth" +2|

@@ -67,7 +67,7 @@ Deflection +2
 |Proficiencies|||Spears, Bow|
 |Skills|||"Sense Motive: +9", "Perform: +9", "Fly: +9", "Persuade: +6", "Creature Handling: +6", "K:Religion: +8", "SpellWorking: +8"|
 |Senses|||Truesight (120ft), Lifesense (15ft)|
-|Resistance(damage)|||"Div"|
+|Resistance(damage)|||"divine"|
 |Immunity(damage)|||all "Natural" damage, "Lit"|
 |Immunity(condition)|||"Surprised", "Charmed", "Frightened", "Stunned", "Dying"|
 |Vulnerability|||"Pro"|
@@ -123,7 +123,7 @@ Deflection +4
 |Skills|||"Sense Motive: +11", "Observe: +11", "Stealth: +11", "Perform: +11", "Fly: +11", "Persuade: +11", "SpellWorking: +10", "K:Religion: +10", "Creature Handling: +6", "Track: +6"|
 |||||
 |Senses|||Truesight (120ft), Life-sense (30ft)|
-|Resistance(damage)|||"Div"|
+|Resistance(damage)|||"divine"|
 |Immunity(damage)|||all "Natural" damage, "Lit"|
 |Immunity(condition)|||"Surprised", "Charmed", "Frightened", "Stunned", "Dying"|
 |Vulnerability|||"Pro"|
@@ -189,7 +189,7 @@ Deflection +6
 |Proficiencies|||Spears, Bow|
 |Skills|||"Sense Motive: +11", "Observe: +11", "Stealth: +11", "Perform: +11", "Fly: +11", "Persuade: +11", "SpellWorking: +10", "K:Religion: +10", "Creature Handling: +6", "Track: +6"|
 |Senses|||Truesight (180ft), Life-sense (45ft)|
-|Resistance(damage)|||"Div"|
+|Resistance(damage)|||"divine"|
 |Immunity(damage)|||all "Natural" damage, "Lit"|
 |Immunity(condition)|||"Surprised", "Charmed", "Frightened", "Stunned", "Dying"|
 |Vulnerability|||"Pro"|

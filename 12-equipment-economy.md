@@ -108,6 +108,7 @@ ___
 
 Materials come in a hierarchy of hardness/quality. Materials higher on the scale have superior qualities, are harder to work with, generally rarer, give bonuses to attack/damage/armour/durability, etc. Materials lower on the scale are usually cheaper and easier to work with, but also make for less effective tools, weapons and armour.
 
+___
 #### Material Ranks
 
 Materials have an absolute rank. Absolute rank is important for the "sunder" manoeuvre rules. The highest rank is 0. If the weapon used when performing the "sunder" manoeuvre is made of a "lower ranking material, the total amount of damage is reduced by 1, and the weapon making the attack takes 1 point of damage. If the weapon used in the attack is made of "higher" materials, the amount of damage is 2 per damage dice of the attacking weapon instead of 1.
@@ -247,7 +248,7 @@ ___
 | Arrow for long/great bow(24)      | 4.8         | 5         | 0.5           | yes       | yes        | yes    |
 | Crossbow bolt(24)                 | 4.8         | 5         | 0.5           | rare      | yes        | yes    |
 | Sling Bullet(24)                  | 2.4         | 1         | 0.5           | yes       | yes        | rare   |
-| Bullets & Powder(20)              | ?           |           |               | no        | no/rare    | yes    |
+| Bullets & Powder(10)              | 0.5 + 0.1   | 45        | 5             | no        | no/rare    | yes    |
 
 ___
 
@@ -359,15 +360,15 @@ This table provides some numbers for how much of a resource one can expect to ha
 | Wheat             | 2 per year     | 320lb         | 320lb          | 800lb      |
 | Apple             | 1 per year     | 4000lb        | 4000lb         | 8000lb     |
 | Lumber (softwood) | 1 per 20 years | 160,000lb     | 160,000lb      | 160,000lb  |
-| Lumber (hardwood) | 1 per 50 years | 80,000lb      | 80,000lb       | 80,000lb   |
+| Lumber (hardwood) | 1 per 80 years | 80,000lb      | 80,000lb       | 80,000lb   |
 
 **Wheat**: Yield is per acre. Usually 1g of seeds was sown for 12-100g of harvest. Lower yield in earlier ages were associated with higher yields of straw which is also an important material. One peasant can work no more than two acres. 450lb of wheat can sustain one medium sized humanoid for a year.
 
 **Apples**: Apples (and other fruit) give a significantly higher harvest than wheat. However, one cannot live off apples alone and requires at least 5lb of apples by weight to obtain as much energy as 1lb of wheat. On the other hand, fruit can be made into jams and other luxury foods.
 
-**Lumber (softwood)**: Softwood can be used both as a building material and for firewood. Softwood is not as durable as hardwood (material level 1), however, on occasion it is valued higher. For example, pine is valued for shipbuilding. Softwood includes fast growing species such as pine, birth and eucalyptus. Softwood woodlands can be harvested 20 years. Alternatively an area can be partially harvested more often. Regardless, the maximal yield is 8,000lb per acre per year. Excessive harvest of lumber can anger nature spirits and local deities and hence invite natural disasters.
+**Lumber (softwood)**: Softwood can be used both as a building material and for firewood. Softwood is not as durable as hardwood (material level 1), however, on occasion it is valued higher. For example, pine is valued for shipbuilding. Softwood includes fast growing species such as pine, birch and eucalyptus. Softwood woodlands can be harvested every 20 years. Alternatively an area can be partially harvested more often. Regardless, the maximal yield is 8,000lb per acre per year. Excessive harvest of lumber can anger nature spirits and local deities and hence invite natural disasters.
 
-**Lumber (hardwood)**: Hardwood is valued for building material, as well as for furniture, tools and weapons. Cultivars such as chestnut, walnut, black cherry and oak are common varieties of hardwood. Hardwood woodlands can be harvested 80 years. Alternatively an area can be partially harvested more often. Regardless, the maximal yield is 2,000lb per acre per year. Excessive harvest of lumber can anger nature spirits and local deities and hence invite natural disasters. Ancient hardwood forest may be guarded by [Shephard Trees](monsters-npcs/beasts-and-plants.md#shephard-tree-elder), which do not take kindly to their "herds" being culled.
+**Lumber (hardwood)**: Hardwood is valued for building material, as well as for furniture, tools and weapons. Cultivars such as chestnut, walnut, black cherry and oak all count as hardwood. Such woodlands can be harvested every 80 years. Alternatively an area can be partially harvested more often. Regardless, the maximal yield is 2,000lb per acre per year. Excessive harvest of lumber can anger nature spirits and local deities and hence invite natural disasters. Ancient hardwood forest may be guarded by [Shephard Trees](monsters-npcs/beasts-and-plants.md#shephard-tree-elder), which do not take kindly to their "herds" being culled.
 
 ___
 #### Mining
@@ -380,11 +381,11 @@ Harvesting of minerals (mining) tends to rely more on the available labour and t
 | Silver    | 1 year         | 1lb                    |
 | Gold      | 1 year         | 0.1-0.4lb              |
 
-**Iron**: This refers to the weight of iron that can be produced from iron ore extracted as bog iron from swamps. In reality the weight of ore obtained is about 4-10 times greater than the amount of final smelted iron. In later periods mining of iron ores also became a viable way of obtaining iron. Folk hunting for bog iron often fall victims to the various monstrosities, undead and spirits that dwell in that kind of terrain.
+**Iron**: This refers to the weight of iron that can be produced from iron ore extracted as bog iron from swamps. In reality the weight of ore obtained is about 4-10 times greater than the amount of final smelted iron. In later periods mining of iron ores also became a viable way of obtaining iron. Bog iron hunters often fall victims to the various monstrosities, undead and spirits that dwell in fells and marshes.
 
-**Silver**: Silver mining is quite a complex process and requires dozens or even hundreds of miners to work efficiently. Silver mines are seldom more than a few hundred feet deep. Large mining operations are likely to draw the ire of [gnomes](monsters-npcs/spirits.md#gnome), break into ancient ruins infested with monsters, or even awaken [earthbound dragons](monsters-npcs/monsters-and-dragons.md#earthbound-dragon-normal). 
+**Silver**: Silver mining is quite a complex process and requires dozens or even hundreds of miners to work efficiently. Silver mines are seldom more than a few hundred feet deep. Large mining operations risk drawing the ire of [gnomes](monsters-npcs/spirits.md#gnome), breaking into ancient ruins infested with monsters, or even awakening [earthbound dragons](monsters-npcs/monsters-and-dragons.md#earthbound-dragon-normal).
 
-**Gold**: Mining of gold usually involves sifting large amounts of alluvial deposits for small grains of gold. In theory a good deposit will yield more gold in value than a silver mine and the work can be done by a single worker. In practice finding a rich deposit is often the crux of the matter. 
+**Gold**: Mining of gold usually involves sifting large amounts of alluvial deposits for small grains of gold. In theory a good deposit will yield more gold in value than a silver mine and the work can be done by a single worker. In practice finding a rich deposit is often the crux of the matter.
 
 ___
 
@@ -553,7 +554,7 @@ ___
 | Item                   | Cost (sp)  | crafting/rearing days | "ancient" | "medieval" | "late" |
 | ---------------------- | ---------- | --------------------- | --------- | ---------- | ------ |
 | Riding                 | 480        | -                     | yes       | yes        | yes    |
-| Draught horse          | 60         | -                     | yes       | yes        | yes    |
+| Draught horse          | 300        | -                     | yes       | yes        | yes    |
 | Warhorse               | 4000-80000 | -                     | yes       | yes        | yes    |
 |                        |            |                       |           |            |        |
 | Handcart               | 20         | 1                     | yes       | yes        | yes    |
@@ -567,9 +568,9 @@ ___
 | Skiff (sailing)        | 90         | 1.5                   | yes       | yes        | yes    |
 | Longship               | 4800       | 92                    | yes       | yes        | no     |
 | Sailing ship (small)   | 4800       | 92                    | yes       | yes        | yes    |
-| Sailing ship (carrack) | 12600      | 92                    | no        | yes        | yes    |
+| Sailing ship (carrack) | 12600      | 276                   | no        | yes        | yes    |
 
-**Cart**: A light, two or four wheeled wooden cart, usually without an awning. Typically a cart is 5x10ft long and can house 8 passengers and 2 drivers, transporting up to 4000lb, but no more than the drag weight of the beasts of burden pulling it. Carts can typically travel on, and off, road. The speed of a cart is 30ft on road and 20ft off road. A cart can traverse difficult terrain at 5ft per round. A cart weighs 200lb.
+**Cart**: A light, two or four wheeled wooden cart, usually without an awning. Typically a cart is 5x10ft long and can house 8 passengers and 2 drivers, transporting up to 4000lb, but no more than the drag weight of the beasts of burden pulling it. Carts can typically travel on, and off, road. The speed of a cart is 30ft on road and 20ft off road. A cart can traverse difficult terrain at 5ft per round. A cart weighs 400lb.
 
 **Wagon**: A heavy, four wheeled cart, usually with an awning. A wagon typically is 5x15ft in length, 10ft in height and can house 12 passengers and 2 drivers, transporting up to 8000lb, but no more than the drag weight of the beasts of burden pulling it. Wagons can typically travel on, and off, road. The speed of a wagon is 25ft on road and 15ft off road. A wagon cannot traverse difficult terrain. A wagon weighs 800lb.
 
@@ -613,8 +614,8 @@ ___
 | Untrained dog                    | 240        | 6 months                    | yes       | yes        | yes    |
 | Hunting dog                      | 480        | 2 years                     | yes       | yes        | yes    |
 |                                  |            |                             |           |            |        |
-| Riding                           | 480        | 3 years to rear, 1 to train | yes       | yes        | yes    |
-| Draught horse                    | 60         | 3 years to rear, 1 to train | yes       | yes        | yes    |
+| Riding                           | 480        | 3 years to rear, 2 to train | yes       | yes        | yes    |
+| Draught horse                    | 300        | 3 years to rear, 1 to train | yes       | yes        | yes    |
 | Warhorse                         | 4000-80000 | 3 years to rear, 3 to train | yes       | yes        | yes    |
 |                                  |            |                             |           |            |        |
 | Humanoid Slave* (lvl-1)          | 400        | 10 years                    | yes       | yes        | rare   |
@@ -638,7 +639,7 @@ ___
 
 - A riding horse (use ["light horse"](monsters-npcs/beasts-and-plants.md#horse-light-level-2)) weighs between 500-1500lb and is trained to carry a rider or pulling a vehicle, but is not combat trained.
 - A draught horse weighs between 1500-2500lb and is trained for pulling a vehicle, but not riding or combat. Use ["heavy horse"](monsters-npcs/beasts-and-plants.md#horse-heavy-level-3).
-- A war horse weighs between 1000-2000lb and is trained for either riding or for pulling, but is always trained for combat. Use ["war horse"](monsters-npcs/beasts-and-plants.md#horse-war-level-4).
+- A war horse weighs between 1000-2000lb and is trained for either riding or for pulling, but is always trained for combat. Use ["war horse"](monsters-npcs/beasts-and-plants.md#horse-war-level-4). A war horse might have a level above 4. Such a prized steed is often worth a literal fortune.
 
 **Humanoid Slave**: Humanoid slaves are used as servants, for menial labour, or as gladiators (amongst other roles). Slaves must be properly trained and indoctrinated to prevent them escaping. A mistreated slave may attempt to kill its master and/or escape. High-magic society may use supernatural means to bind more dangerous or valuable slaves. Societies that use slaves generally obtain them either by breeding or raiding and capturing. Some societies may sentence certain criminals, or defeated political rivals to a life of slavery. In such societies slaves are usually not particularly expensive, because of high availability and the omnivorous nature of most humanoids (you can feed them almost anything and they will survive). *Since slavery is often a contentious topic, it should be approached sensibly by players and game masters alike.*
 
@@ -656,23 +657,23 @@ ___
 | Small house        | 960       | 240 (24)              | yes       | yes        | yes    |
 | House              | 4800      | 1200 (48)             | yes       | yes        | yes    |
 | Small Manor        | 144K      | 72K (1440)            | yes       | yes        | yes    |
-| Keep               | 192K      | 95K                   | yes       | yes        | yes    |
-| Castle             | 672K      | 300K                  | yes       | yes        | yes    |
-| Fortress           | 4800K     | 2400K                 | yes       | yes        | yes    |
+| Keep               | 192K      | 48K                   | yes       | yes        | yes    |
+| Castle             | 672K      | 168K                  | yes       | yes        | yes    |
+| Fortress           | 4800K     | 1200K                 | yes       | yes        | yes    |
 
-*Acre of land*: Land in many kingdoms is not commonly available and cannot be bought and sold without special permission from officials, lords or kings. In other settings, lands may be sparsely populated and can perhaps be claimed by anyone strong enough to defend it against errant monsters. An acre is 121 x 360 feet or about 24 x 72 5ft squares.
+**Acre of land**: Land in many kingdoms is not commonly available and cannot be bought and sold without special permission from officials, lords or kings. In other settings, lands may be sparsely populated and can perhaps be claimed by anyone strong enough to defend it against errant monsters. An acre is 121 x 360 feet or about 24 x 72 5ft squares.
 
-*Small House*: This refers to a hut or cottage with a single storey of about 10 x 15 feet across, that is made of wood (double cost and construction time for stone). A house such as this can be erected by a single medium sized humanoid proficient with "fortify" and carpenter's or mason's tools in about 20 days, assuming that all the building materials are delivered and ready to use. Building such a dwelling from scratch, including the preparation of building materials requires 240 days. The work can be split between any number of workers, but a house cannot be built by medium sized humanoids in less than a day by mundane means.
+**Small House**: This refers to a hut or cottage with a single storey of about 10 x 15 feet across, that is made of wood (double cost and construction time for stone). A house such as this can be erected by a single medium sized humanoid proficient with "fortify" and carpenter's or mason's tools in about 20 days, assuming that all the building materials are delivered and ready to use. Building such a dwelling from scratch, including the preparation of building materials requires 240 days. The work can be split between any number of workers, but a house cannot be built by medium sized humanoids in less than a day by mundane means.
 
-*House*: This refers to a house or cottage with up to two stories and an area of about 30 x 30 feet across, It can be made of wood or stone (double cost and construction time for stone). A house such as this can be erected by a single medium sized humanoid proficient with "fortify" and carpenter's or mason's tools in about 50 days, if all the materials are ready to use. Including preparation of materials, a house requires about three years of work to build. The work can be split between any number of workers, but a house cannot be built by medium sized humanoids in less than 2 days by mundane means.
+**House**: This refers to a house or cottage with up to two stories and an area of about 30 x 30 feet across, It can be made of wood or stone (double cost and construction time for stone). A house such as this can be erected by a single medium sized humanoid proficient with "fortify" and carpenter's or mason's tools in about 50 days, if all the materials are ready to use. Including preparation of materials, a house requires about three years of work to build. The work can be split between any number of workers, but a house cannot be built by medium sized humanoids in less than 2 days by mundane means.
 
-*Small Manor*: This refers to a large dwelling with as many as 4 stories and a total floor area of about 100 x 100 feet and up to four houses (barns, storehouses, stables, etc). A manor is usually the residence of high up members of a given society. A manor usually contains several bedrooms, a kitchen, a grand hall, an armoury, a cellar and other chambers. A manor without a staff of at least 4 (or a mage) gradually begins to fall into disrepair. The crafting days can be split between any number of workers and include procurement and transport costs. Even if additional manpower is available, medium sized humanoids will not accomplish this task in less than a month by mundane means.
+**Small Manor**: This refers to a large dwelling with as many as 4 stories and a total floor area of about 100 x 100 feet and up to four houses (barns, storehouses, stables, etc). A manor is usually the residence of high up members of a given society. A manor usually contains several bedrooms, a kitchen, a grand hall, an armoury, a cellar and other chambers. A manor without a staff of at least 4 (or a mage) gradually begins to fall into disrepair. The crafting days can be split between any number of workers and include procurement and transport costs. Even if additional manpower is available, medium sized humanoids will not accomplish this task in less than a month by mundane means. With typically available manpower, it can take years to build a manor.
 
-*Keep*: A stone keep measures approximately 48 x 48 x 48 feet, has 3-4 stories and walls about 4-6 feet thick. A keep is a fortified structure, with few windows and solid doors. It gives a significant advantage when defending against monsters and raiders. A keep can equally serve as the dwelling of a local ruler or an outpost of a kingdom's army. A keep without a staff of at least 4 (or a mage) begins to slowly fall into disrepair. The crafting days can be split between any number of workers and include procurement and transport costs. Even if additional manpower is available, medium sized humanoids will not accomplish this task in less than 3 months by mundane means.
+**Keep**: A stone keep measures approximately 48 x 48 x 48 feet, has 3-4 stories and walls about 4-6 feet thick. A keep is a fortified structure, with few windows and solid doors. It gives a significant advantage when defending against monsters and raiders. A keep can equally serve as the dwelling of a local ruler or an outpost of a kingdom's army. A keep without a staff of at least 4 (or a mage) begins to slowly fall into disrepair. The crafting days can be split between any number of workers and include procurement and transport costs. Even if additional manpower is available, medium sized humanoids will not accomplish this task in less than 3 months by mundane means. With typically available manpower it can take several years to build a keep.
 
-*Castle*: A castle is a fortified area that encloses an area of between 1-4 acres and contains a keep and at least 4 houses (which can include stables, smithies, storehouses, etc). Formally a castle can equally be a fortified village, fortified center in a town or a stand-alone fortification. A castle requires a staff of at least 12 (or a mage) lest it begins to fall into disrepair. Likewise, a castle requires a minimal garrison of at least 20 to defend its walls. The crafting days can be split between any number of workers and include procurement and transport costs. Even if additional manpower is available, medium sized humanoids will not accomplish this task in less than 3 months by mundane means.
+**Castle**: A castle is a fortified area that encloses an area of between 1-4 acres and contains a keep and at least 4 houses (which can include stables, smithies, storehouses, etc). Formally a castle can equally be a fortified village, fortified center in a town or a stand-alone fortification. A castle requires a staff of at least 12 (or a mage) lest it begins to fall into disrepair. Likewise, a castle requires a minimal garrison of at least 20 to defend its walls. The crafting days can be split between any number of workers and include procurement and transport costs. Even if additional manpower is available, medium sized humanoids will not accomplish this task in less than 3 months by mundane means. With typically available manpower, building a castle takes over a decade.
 
-*Fortress*: A fortress is a walled area, usually with an inner and outer wall and at least one keep. In practice this can be a bastion of a kingdom's military, a prison that contains the most dangerous of prisoners, or even a walled city. The area it encloses can be over a hundred acres. A fortress requires a staff of at least a hundred (or a great mage) least it begin to fall into disrepair and a garrison of at least 200 to defend its walls. The crafting days can be split between any number of workers and include procurement and transport costs. Even if additional manpower is available, medium sized humanoids will not accomplish this task in less than 3 months by mundane means.
+**Fortress**: A fortress is a walled area, usually with an inner and outer wall and at least one keep. In practice this can be a bastion of a kingdom's military, a prison that contains the most dangerous of prisoners, or even a walled city. The area it encloses can be over a hundred acres. A fortress requires a staff of at least a hundred (or a great mage) least it begin to fall into disrepair and a garrison of at least 200 to defend its walls. The crafting days can be split between any number of workers and include procurement and transport costs. Even if additional manpower is available, medium sized humanoids will not accomplish this task in less than 3 months by mundane means. With typically available manpower, it takes decades to build a fortress.
 
 ___
 
@@ -788,7 +789,7 @@ This includes various natural and supernatural produce that can be created throu
 
 **Potion of Second Life**: This exceptional potion recreates the effect of the ["Healing Seed"](08-spell-list.md#healing-seed) spell cast at the lowest level when imbibed (or more correctly, fed to the patient). As with any healing potion, its creator must pour their own vitality when creating it. Creation of this potion requires the alchemist to know "Healing Seed".
 
-**Soul Bleach**: Spirit bleach is a concoction which removes supernatural influences upon an entity's alignment, hence removing "divine", "profane" or "elemental" alignment, if it is caused by coming into contact with material, spells, or enchanted objects or locations that endow such an alignment upon a character. It has no effect on characters whose deeds and beliefs have caused them to be so aligned.
+**Spirit Bleach**: This is a concoction which removes supernatural influences upon an entity's alignment, hence removing "divine", "profane" or "elemental" alignment, if it is caused by coming into contact with material, spells, or enchanted objects or locations that endow such an alignment upon a character. It has no effect on characters whose deeds and beliefs have caused them to be so aligned.
 
 ___
 ## Notes

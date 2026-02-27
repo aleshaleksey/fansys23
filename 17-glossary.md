@@ -41,7 +41,7 @@ ___
 #### Basic Martial Manoeuvre
 A natural targeted attack that can be made as part of an attack action. This includes weapon attacks that deal damage and all kinds of other manoeuvres which attempt to put the target into a disadvantageous position. These include grappling, disarming, feinting and intercepting.
 
-- ["Combat: Basic Martial Manoeuvres](04-combat.md#basic-martial-manoeuvres)
+- ["Combat: Basic Martial Manoeuvres"](04-combat.md#basic-martial-manoeuvres)
 
 ___
 #### Boon

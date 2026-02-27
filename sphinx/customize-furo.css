@@ -1,0 +1,11 @@
+@import '../styles/furo.css';
+
+.page .sidebar-drawer {
+    width: unset;
+}
+
+.page .content {
+    max-width: 80em;
+    width: 100%;
+    font-size: 100%;
+}

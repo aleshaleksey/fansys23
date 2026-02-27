@@ -71,3 +71,6 @@ html_theme_options = {
         "color-background-border": "#483945"
     },
 }
+html_style = [
+    'css/customize-furo.css',
+]

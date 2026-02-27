@@ -50,8 +50,13 @@ Animals are common entities in the material world. They have a physical form, li
     - [Giant Wolf](#giant-wolf-level-9)
     - [Giant Bear](#giant-bear-level-10)
 - [Animals: Dinosaurs](#animals-dinosaurs)
+    - [Brachiosaur](#brachiosaur-level-12)
+    - [Dimetrodon](#dimetrodon-level-4)
     - [Hadrosaur](#hadrosaur-level-7)
     - [Raptor](#raptor-levels-2-4)
+    - [Stegosaur](#stegosaur-level-8)
+    - [Tricerotops](#triceratops-level-9)
+    - [Tyrannosaur](#tyrannosaur-level-11)
 - [Plants](#plants)
     - [Dark Cabbage](#dark-cabbage)
     - [Giant Flytrap](#giant-flytrap)
@@ -1079,11 +1084,11 @@ Natural armour +3
 |Skills|||"observe" +8, "swim" +10, "track" +5|
 |Loot|||A reef shark can provide up to about 2000lb of meat.|
 
-Greater sharks are the larger sharks that prowl the oceanic expanse (although some also hunt in the shallows). 
+Greater sharks are the larger sharks that prowl the oceanic expanse (although some also hunt in the shallows).
 
 They take both smaller and larger prey, but often prefer mammals, such as seals, that swim near the surface and are outlined by the light from the surface. Greater sharks usually attack by charging up from the depth and delivering a vicious bite. It then circles, waiting for its prey to bleed out. As with smaller sharks, they occasionally congregate in packs to hunt larger prey.
 
-Sharks possess a sense that allows them to feel the electric fields of other living beings, which is invaluable for hunting in murky waters.If 
+Sharks possess a sense that allows them to feel the electric fields of other living beings, which is invaluable for hunting in murky waters.If
 
 ___
 ## Giant Animals
@@ -1503,15 +1508,111 @@ Giant bears can climb trees, but most trees will not support the weight of a ful
 
 ___
 ## Animals: Dinosaurs
+Dinosaurs are warm blooded, egg laying beasts that that have survived from a distant past. It is sometimes said that they are degraded dragons, or that dragons are descended from them.
 
+___
+### Brachiosaur (level 12)
 
+- **Size**: Gargantuan
+- **Reach**: 15ft
+- **Carrying capacity**
+  - Light: 1640lb
+  - Medium: 3240lb
+  - Heavy: 7200lb
+  - Drag: 10800lb
+- **HiT**: Natural armour +6
+
+___
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|19/19/13|128 (*51*)|68 (*35*)|22|40ft||
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|30|11|24|3|14|17|
+|Bonus|+10|0|+7|-4|+2|+3|
+|Save|+13|+3|+14|-1|+5|+6|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|12(3)|22|16|4|3|7|6|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Slam|+13|2d10+10[Per]|(Reach=20ft)|
+|Trample|+13|3d10+15[Per]|(Reach=10ft)|
+|Great Call|Thr=23||(Range=60ft, cost=2SP dice) As a secondary action, a brachiosaur can emit a loud, trumpet-like call.  All entities that can hear the call and fail the charisma save are [incapacitated](../10-conditions-types.md#incapacitated) till the end of the hadrosaur's next turn.|
+|Shove|+13|||
+|||||
+|[Broad Strike](../06-abilities.md#broad-strike)|||(Cost=1SP die) A brachiosaur can attack all adjacent targets with its slam or trample as long as its targets are "huge" or smaller.|
+|[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||(Cost=1SP die) A brachiosaur can shove or knock prone the targets of its attacks.|
+|Monster Attack|||A brachiosaur makes one slam attack and one trample attack. It cannot target the same entity with both attacks.|
+|Mighty I||||
+|||||
+|Skills|||"Observe" +9, "Harvest" +12|
+|Loot|||A brachiosaur can provide about ~40,000lb of flesh as well as 10,000lb of bones. Likewise it provides enough hide (material level 3) for ~128 medium suits of hide or full leather armour.|
+
+This is an enormous, herbivorous dinosaur that walked upon four legs. It is known for its long neck that is held high and enormous size.
+
+While not usually aggressive, they will defend their young fiercely, charging creatures that they deem a threat in an attempt to trample them - which they could accomplish to great effect due to their enormous mass.
+
+Raising and training a brachiosaur is laborious and expensive, but where they occur they are valued as beasts of burden for their enormous strength.
+
+___
+### Dimetrodon (level 4)
+
+- **Size**: Large
+- **Reach**: 5ft (long)
+- **Carrying capacity**
+  - Light: 112lb
+  - Medium: 224lb
+  - Heavy: 560lb
+  - Drag: 840lb
+- **HiT**: Natural armour +3
+
+___
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|15/14/12|26 (*20*)|18 (*12*)|8|40ft||
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|14|13|15|4|13|14|
+|Bonus|+2|+1|+2|-3|+1|+2|
+|Save|+3|+2|+3|-2|+2|+3|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|4(1)|9|5|2|1|3|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite|+5|1d8+2[She]|(Reach=5ft(long))|
+|Hypnosis|Thr=16||(Range=30ft, Cost=1MP dice) As a secondary action, a dimetrodon can undulate its sail, and attempt to charm a single mortal that can see the sail. The target must succeed a Thr=16 WIS save at the beginning of its turn or be charmed by the dimetrodon. It can repeat the save whenever it takes damage.|
+|||||
+|[Heat Sense III](../06-abilities.md#heat-sense-i-v)|||A dimetrodon can detect entities and objects by differences in temperature out to 45ft.|
+|||||
+|Loot|||A dimetrodon can provide up to 200lb of meat, as well as enough hide for 2 suits of medium sized leather/hide armour. The bones of its dorsal fins (approximately 20) are 5ft long have numerous uses. Though they do not always survive combat.|
+
+This is a dinosaur-like predator (synapsid) that walked on four legs. It is distinguished by a tall sail-like fin upon its back. A dimetrodon's sail is often vividly coloured and the movement of its spines can induce hallucination in prey and attackers alike. A dimetrodon weights approximately 500lb.
+
+___
 ### Hadrosaur (level 7)
 
+- **Size**: Huge
+- **Reach**: 10ft
+- **Carrying capacity**
+  - Light: 352lb
+  - Medium: 704lb
+  - Heavy: 1760lb
+  - Drag: 2640lb
+- **HiT**: Natural armour +3
+
+___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |12/14/9|56 (*32*)|23 (*17*)|12|40ft|Swim (20ft)|
 
-(huge, +3 natural)
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -1525,23 +1626,34 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Slam|+10|1d8+6||
+|Slam|+10|1d8+6[Per]||
 |Throw|+10|||
-|[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||A hadrosaur often sends foes flying when it slams them|
-|Senses|||Keen Smell|
+|Great Call|Thr=19||(Range=30ft, cost=2SP) As a secondary action, a hadrosaur can emit a loud, trumpet-like call.  All entities that can hear the call and fail the charisma save are [incapacitated](../10-conditions-types.md#incapacitated) till the end of the hadrosaur's next turn.|
+|[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||A hadrosaur often sends foes flying when it slams them.|
+|Senses|||[Keen Smell](../06-abilities.md#keen-senses-i-iii)|
 |Skills|||"Observe" +5, "Swim" +10|
+|Loot|||A hadrosaur can provide up to 4,000lb of meat, 2,000lb of bones and enough hide for 6 suits of hide or full leather armour.|
 
 This is a large, herbivorous dinosaur, that dwells mostly in marsh and wetland terrain. They are not naturally aggressive, but can be dangerous by virtue of their size.
 
 ___
 ### Raptor (levels 2, 4)
 
+- **Size**: Small
+- **Reach**: 5ft
+- **Carrying capacity**
+  - Light: 24lb
+  - Medium: 48lb
+  - Heavy: 160lb
+  - Drag: 240lb
+- **HiT**: Natural armour +3
+
+___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
 |(level 2) 14/10/11|12 (*12*)|6 (*6*)|3|45|-|
 |(level 4) 14/10/11|26 (*20*)|10 (*10*)|6|50|-|
 
-(Large, carrying capacity +3 Natural)
 
 |Level 2|Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -1562,8 +1674,8 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Claw|+5/+6|1d6+3 (Sh)|The raptor can either attack with its claw or bite, unless it has multi/monster attack|
-|Bite|+5/+6|1d8+3 (Sh)|The raptor can either attack with its claw or bite, unless it has multi/monster attack|
+|Claw|+5/+6|1d6+3[She]|The raptor can either attack with its claw or bite, unless it has multi/monster attack|
+|Bite|+5/+6|1d8+3[She]|The raptor can either attack with its claw or bite, unless it has multi/monster attack|
 |[Skirmisher](../../06-abilities.md#skirmisher)||||
 |Sprinter|||Run x5, Sprint x3|
 |Tracker: Swift (lvl4)||||
@@ -1572,7 +1684,7 @@ ___
 |Prof|||"Grapple","Throw"|
 |Skills (lvl2)|||"Track" +2, "Climb" +4, "Athletics" +5|
 |Skills (lvl4)|||"Track" +3, "Climb" +6, "Athletics" +7|
-|Loot|||Raptor pelts are valuable for armour and building materials|
+|Loot|||Raptor pelts are valuable for armour and building materials. Two raptors provide enough material for a leather cuirass (material level 2). Likewise, a raptor can provide up to 5lb of meat.|
 
 Raptors are predatory, bipedal dinosaurs, thought to hunt in packs, and possessing a single wicked claw on each talon-like foot.
 
@@ -1581,6 +1693,149 @@ This represents a large raptor, such as the ones that could be used as cavalry, 
 Wild raptors dwell on plains and hills and hunt in packs. They prefer smaller prey (including cattle and humanoid caravans), but when hungry have no hesitation when it comes to taking on larger pray, including monsters. Raptors are highly intelligent and have been known to blindside inexperienced humans that come to hunt them.
 
 Raptors are valued as fearsome mounts, but also for their tough hides, which have numerous uses.
+
+___
+### Stegosaur (level 8)
+
+- **Size**: Huge
+- **Reach**: 10ft
+- **Carrying capacity**
+  - Light: 552lb
+  - Medium: 1104lb
+  - Heavy: 3300lb
+  - Drag: 4950lb
+- **HiT**: Natural armour +4
+
+___
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|15/17/11|64 (*36*)|36 (*22*)| 14|40ft||
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|23|9|19|1|13|15|
+|Bonus|+6|-1|+4|-5|+1|+2|
+|Save|+8|+1|+6|-3|+3|+4|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|8(2)|16|10|3|2|5|4|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Trample|+11|2d12+6[She+Per]|(Reach=15ft)|
+|Slam|+11|2d8+6[Per]|(Reach=5ft)|
+|Shove|+11|||
+|||||
+|[Broad Strike](../06-abilities.md#broad-strike)|||(Cost=1SP die) A stegosaur can attack all adjacent targets with its slam or trample as long as its targets are "large" or smaller.|
+|[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||(Cost=1SP die) A stegosaur can shove or knock prone the targets of its attacks.|
+|||||
+|[Mighty I](../06-abilities.md#mighty-i)||||
+|Resistance|||"Poison" damage, "poisoned", "diseased", "prone"|
+|||||
+|Skills|||"Observe" +3, "Harvest" +7|
+|Loot|||A stegosaur can provide up to 5,000lb of meat and approximately 2,000lb of bone. It provides enough hide (material level 2) for 8 medium sized suits of armour. In addition it provides ~10 bony plates (material level 3) that are the perfect size for a medium sized [heavy shield](../11-weapons-armour.md#shields).|
+
+This is a large, herbivorous dinosaur that walked on four legs. Its head is tiny relative to its body. It has two rows of armoured plates protruding from its back, as well as a spiked tail. These herbivores are generally docile, but but will fight back if provoked. In this case a stegosaur prefers to turn its back to attackers and attempt to pierce them with the spikes of its tail. It is equally capable of charging foes in an attempt to trample them.
+
+Due to their size and relative ease of installing seating upon their backs, stegosaurs are sought after as mounts in the regions they inhabit.
+
+___
+### Triceratops (level 9)
+
+- **Size**: Huge
+- **Reach**: 10ft
+- **Carrying capacity**
+  - Light: 600lb
+  - Medium: 1200lb
+  - Heavy: 4000lb
+  - Drag: 4500lb
+- **HiT**: Natural armour +5
+
+___
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|18/17/13|92 (*44*)|54 (*24*)|19|50ft||
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|25|13|22|3|11|19|
+|Bonus|+7|+1|+6|-4|0|+4|
+|Save|+13|+3|+8|-2|+2|+6|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|9(2)|19|10|4|2|6|4|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Slam|+13|3d10+10[She+Per]|(Reach=10ft)|
+|Trample|+13|2d10+7[Per]|(Reach=5ft)|
+|Sunder|+13|||
+|Throw|+13|||
+|||||
+|[Mighty I](../06-abilities.md#mighty-i)||||
+|Monster Attack|||A triceratops can uses its slam attack followed by a trample.|
+|[Broad Strike](../06-abilities.md#broad-strike)|||(Cost=1SP die) A stegosaur can attack all adjacent targets when it tramples as long as the targets are "large" or smaller.|
+|[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||(Cost=1SP die) A stegosaur can shove or knock prone the targets it attacks.|
+|||||
+|Skills|||"Observe" +4|
+|Loot|||A triceratops can provide up to 10,000lb of flesh and enough hide for 24 suits of hide or full leather armour (material level 2). Likewise it provides up to 4,500lb of bones, many of which are large and have many uses. It also provides 500lb of ivory. A triceratops also provides up to 800 teeth.|
+
+
+This is a large, herbivorous dinosaur that walked on four legs. It is known for its three horns and armoured crest protecting its neck. These herbivores can be quite aggressive, and will not hesitate to charge anything it considers a threat to itself or its young.
+
+Due to their size and ferocity, they are sought after as combat mounts in the regions they inhabit.
+
+___
+### Tyrannosaur (level 11)
+
+- **Size**: Huge
+- **Reach**: 10ft
+- **Carrying capacity**
+  - Light: 400lb
+  - Medium: 800lb
+  - Heavy: 2000lb
+  - Drag: 3000lb
+- **HiT**: Natural armour +4
+
+___
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|19/17/15|106 (*47*)|74 (*34*)|22|50ft||
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|25|15|22|5|17|19|
+|Bonus|+7|+2|+6|-3|+3|+4|
+|Save|+14|+5|+13|0|+6|+7|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|11 (3)|20|15|4|3|7|6|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite|+14|3d10+10[She]|(Reach=15ft) A tyrannosaur can grapple or sunder targets of its bites|
+|Kick|+14|2d10+7[She+Per]|(Reach=10ft) A tyrannosaur can combine its kick with any maneuver that it is proficient in|
+|Slam|+14|2d10+7[Per]|(Reach=20ft) A tyrannosaur can shove targets of its slams|
+|Grapple|+14|||
+|Shove|+14|||
+|Sunder|+14|||
+|||||
+|Monster Attack|||A tyrannosaur can use each of its attacks once as part of an attack action. However, it cannot bite the same target as it slams.|
+|[Broad Strike](../06-abilities.md#broad-strike)|||(Cost=1SP die) A tyrannosaur can attack all adjacent targets when it slams as long as the targets are "large" or smaller.|
+|[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||(Cost=1SP die) A tyrannosaur can combine 2 maneuvers as listed above.|
+|||||
+|Resistant|||"Poison" damage and "poisoned"|
+|[Keen senses: Smell](../06-abilities.md#keen-senses-i-iii)|||A tyrannosaur has advantage on observe, track and prospect rolls that rely on scent.|
+|||||
+|Skills|||"Climb" +11, "Observe" +9, "Track" +9|
+|Loot|||A tyrannosaur can provide up to 10,000lb of flesh and enough hide for 24 suits of hide or full leather armour (material level 2). Likewise it provides up to 4,000lb of bones, many of which are large and have many uses.|
+
+This is a large, carnivorous dinosaur that walked upon two legs. It is known for its massive jaws and comparatively tiny arms.
+
+Tyrannosaurs prefer to scavenge, or chase smaller predators off their kill, but are perfectly capable of ambush predators. They are particularly fond of feasting on the sites of recent battles where there is plentiful fresh meat and little competition.
 
 ___
 ## Plants

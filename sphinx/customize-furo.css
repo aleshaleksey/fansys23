@@ -4,8 +4,47 @@
     width: unset;
 }
 
-.page .content {
-    max-width: 80em;
-    width: 96%;
+.page {
+    max-width: 100%;
+    width: 100%;
+}
+
+.content {
+    max-width: 100%;
+    width: 98%;
+    justify-items: left;
     font-size: 100%;
+}
+
+@media (max-width: 200em) {
+  html {
+    font-size: 100%;
+  }
+  .content {
+    width: calc(98% - 30em);
+    justify-items: left;
+  }
+}
+
+@media (max-width: 82em) {
+    .content {
+        width: 52em;
+        justify-items: left;
+        /* width: calc(98% - 16em); */
+    }
+}
+
+@media (max-width: 72em) {
+    .content {
+        width: 46em;
+        justify-items: left;
+    }
+}
+
+@media (max-width: 63em) {
+    .content {
+        justify-items: left;
+        width: 98%;
+        margin-right: auto;
+    }
 }

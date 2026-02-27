@@ -21,7 +21,7 @@
     font-size: 100%;
   }
   .content {
-    width: calc(98% - 30em);
+    width: max(calc(100% - 35em), 47em);
     justify-items: left;
   }
 }

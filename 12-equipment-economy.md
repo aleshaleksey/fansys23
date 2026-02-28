@@ -36,9 +36,9 @@ ___
 
 ## Economy and economies
 
-We assume that the settings that will be used with this system might range from classical/ancient to early medieval, to renaissance to industrial revolution, and might not be based on european civilisations. The availability of natural resources, knowledge/crafting techniques and "human" resources (labour) will naturally vary, which will affect item prices and availability. This will also be affected by how high or low magic the setting is. With this in mind three lists are presented: "ancient", "medieval" and "late".
+The nature of an economy depends amongst other things upon the population density, abundance of resources and the available level of knowledge, magic and technology. The availability and costs of materials, good and services will vary accordingly. With this in mind three lists are presented: "ancient", "medieval" and "late".
 
-Of course if a group has its own setting, then why not have your own list?
+Of course if a group has its own setting, with its own specifics, then all of this should be adjusted accordingly.
 
 ___
 
@@ -56,13 +56,13 @@ ___
 
 ### Late, renaissance and industrial age
 
-This is the usual "adventuring guilds" settings. All kinds of weapons and armours are available. Some have become obsolete (under some situations). Firearms become available. Techniques of extracting resources and crafting become very efficient, and all kinds of sciences flourish. Labour costs are high, but productivity of labour also increases due to advanced techniques and industrialisation. Population densities are generally high. Most of the world has been at least crudely mapped. Most ruins have been found and at least some are explored. It is possible that monsters and other "inhuman" forces have retreated (but who knows?).
+This is the usual "adventuring guilds" settings. All kinds of weapons and armours are available. Some have become obsolete (under some situations). Firearms become available. Techniques of extracting resources and crafting become very efficient, and all kinds of sciences flourish. Labour costs are high, but productivity of labour also increases due to advanced techniques and industrialisation. Population densities are generally high. Most of the world has been at least crudely mapped. Most ruins have been found and at least some are explored. It is possible that monsters and other "inhuman" forces have retreated, or are waiting for their chance to return their eminence.
 
 ___
 
 ### The Supernatural Economy
 
-The effects of magic on an economy should be taken into account. A society, and economy, where magic is common would likely be affected (unless there are certain taboos against mixing the natural and supernatural world).
+The effects of magic on an economy should be taken into account. A society, and economy, where magic is common would not function as a mundane economy (unless there are certain taboos against mixing the natural and supernatural world).
 
 As an example, a society with many nature mages would likely see the cost of agricultural produce both decline and stabilise. A society where fire magic is common, would likely develop advanced smelting, increasing the availability of steel and iron. Golems and elementals may replace certain workers entirely.
 
@@ -279,7 +279,7 @@ ___
 
 ### Labour Costs
 
-Labour costs are given in silver (sp) per day (10-12 hours). Labour that does not need to be paid for, still has to be fed. Generally it should be assumed that the wages of unskilled workers, trained worker, mercenaries and scribes includes food and board where appropriate. The wages are given for medium sized humanoids. Larger entities, like giants, will have a significantly higher upkeep, but will also accomplish certain tasks, especially construction and mining a lot more quickly and effectively. Both of these factors mean that wages for those entities would be higher.
+Labour costs are given in silver (sp) per day (10-12 hours). Labour that does not need to be paid for, still has to be fed. Generally it should be assumed that the wages of unskilled workers, trained worker, mercenaries and scribes includes food and board where appropriate. The wages are given for medium sized humanoids. Larger entities, like giants, will have a significantly higher upkeep, but will also accomplish certain tasks, especially construction and mining a lot more quickly and effectively. Both of these factors mean that wages for those entities would be higher. Recommended stat blocks for NPCs from each category are given for each category, though the recommendations are certainly not absolute.
 
 
 | Labour type                   | ancient | medieval | late    |
@@ -296,21 +296,49 @@ Labour costs are given in silver (sp) per day (10-12 hours). Labour that does no
 | initiate, lvl-3               | special | 40       | 500     |
 | mage, higher level            | special | special  | special |
 
-**Untrained**: This refers to untrained workforce that can be used for basic, but not necessarily easy work. This includes cleaners, fruit-pickers, and workers for digging ditches and carrying loads. Untrained workers do not require any proficiencies or ranks in skills to complete their work. While they might be skilled in other areas, usually they are not. For a human this usually a ["commoner"](monsters-npcs/humanoids.md#human-commoner-level-1).
+**Untrained**: This refers to untrained workforce that can be used for basic, but not necessarily easy work. This includes cleaners, fruit-pickers, and workers for digging ditches and carrying loads. Untrained workers do not require any proficiencies or ranks in skills to complete their work. While they might be skilled in other areas, usually they are not. Recommended stat blocks:
 
-**Trained**: This refers to labourers that carry out work which requires several months or years of training to perform well. This includes miners, brick-layers, wagon drivers and sailors. A trained worker must have at least one rank in the skill they are using and proficiency in any required kits. For a human, they are also usually ["commoners"](monsters-npcs/humanoids.md#human-commoner-level-1), with appropriately adjusted skills. The skill bonus for a human should be between +1 and +3.
+- ["Commoner"](monsters-npcs/humanoids.md#human-commoner-level-1)
+- ["Peasant"](monsters-npcs/humanoids.md#human-peasant-level-2)
 
-**Artisan**: Refers to craftsmen with rare and valuable skills, such as smiths, masons, bowyers, alchemists, jewellers, artists, engineers. They have significant practice in their arts, but quality varies. For a human these typically use either the ["commoners"](monsters-npcs/humanoids.md#human-commoner-level-1) or ["apprentice"](monsters-npcs/humanoids.md#human-mage-apprentice-level-2) stat block. Artisans tend to have a skill bonus of between +3 and +6 in their craft. More skilled artisans may produce higher quality goods, but are also rarer and correspondingly more expensive.
+**Trained**: This refers to labourers that carry out work which requires several months or years of training to perform well. This includes miners, brick-layers, wagon drivers and sailors. A trained worker must have at least one rank in the skill they are using and proficiency in any required kits. The skill bonus for a human should be between +1 and +3. Recommended stat blocks:
 
-**Mercenary**: This refers to low level hired combatants. This can be both *bona fide* mercenaries, as well as caravan guards, mounted messengers, and levied militia. They are loath to fight to the death, engage in expeditions lasting longer than a few weeks, or take on jobs with an obvious and significant risk of not coming back. Typically they are represented by the following stat blocks: ["Peasant"](monsters-npcs/humanoids.md#human-peasant-level-2), ["orc"](monsters-npcs/humanoids.md#orc-level-2), or ["beast folk"](monsters-npcs/humanoids.md#beast-folk-level-2). Although DMs are free to use custom NPCs with a similar power level as needed.
+- ["Commoner"](monsters-npcs/humanoids.md#human-commoner-level-1)
+- ["Peasant"](monsters-npcs/humanoids.md#human-peasant-level-2)
 
-**Mercenary, Specialist**: This refers to archers, scouts, basic cavalry. Mercenaries will seldom fight to the death, and need significant persuasion if the job carries a risk of death or lasts longer than a month. Typical stat blocks include: ["Human guard"](monsters-npcs/humanoids.md#human-militia-level-3), ["beast folk traveller"](monsters-npcs/humanoids.md#beast-folk-traveller-level-4) or ["winged shepherd"](monsters-npcs/humanoids.md#winged-shepherd-level-4).
+**Artisan**: Refers to craftsmen with rare and valuable skills, such as smiths, masons, bowyers, alchemists, jewellers, artists, engineers. They have significant practice in their arts, but quality varies. Artisans tend to have a skill bonus of between +3 and +6 in their craft. More skilled artisans may produce higher quality goods, but are also rarer and correspondingly more expensive. Recommended stat blocks:
 
-**Mercenary, Captain**: This refers to an NPC combatant with a significant amount of experience who can also lead a small unit. This kind of mercenary can be experienced in melee or ranged combat and may even have supernatural abilities. ["Warrior"](monsters-npcs/humanoids.md#human-warrior-level-6) and ["mage"](monsters-npcs/humanoids.md#human-mage-level-6) are both suitable stat blocks here. They usually demands a high fee for their services. This can also refer to [lower level assassins](monsters-npcs/humanoids.md#human-scout-level-5).
+- ["Commoner"](monsters-npcs/humanoids.md#human-commoner-level-1)
+- ["Apprentice"](monsters-npcs/humanoids.md#human-mage-apprentice-level-2)
 
-**Scribe**: Literate individuals who can transcribe manuscripts, pen letters, and perform similar roles. ["Apprentice"](monsters-npcs/humanoids.md#human-mage-apprentice-level-2) and ["scholar"](monsters-npcs/humanoids.md#human-scholar-level-3) are suitable stat blocks.
+**Mercenary**: This refers to low level hired combatants. This can be both *bona fide* mercenaries, as well as caravan guards, mounted messengers, and levied militia. They are loath to fight to the death, engage in expeditions lasting longer than a few weeks, or take on jobs with an obvious and significant risk of not coming back. Recommended stat blocks:
 
-**Magistrate**: Ranking members of society, empowered with the rights and knowledge necessary to perform legal services. Magistrates are useful when dealing with nobility, major trade deals, or during dubious dealings for furthering one's own interests. Access to a magistrate is understandably expensive. ["scholar"](monsters-npcs/humanoids.md#human-scholar-level-3) and ["elite"](monsters-npcs/humanoids.md#human-elite-level-5) are suitable stat blocks.
+- ["Commoner"](monsters-npcs/humanoids.md#human-commoner-level-1)
+- ["Peasant"](monsters-npcs/humanoids.md#human-peasant-level-2)
+- ["Orc"](monsters-npcs/humanoids.md#orc-level-2)
+- ["Beast folk"](monsters-npcs/humanoids.md#beast-folk-level-2)
+
+**Mercenary, Specialist**: This refers to archers, scouts, basic cavalry. Mercenaries will seldom fight to the death, and need significant persuasion if the job carries a risk of death or lasts longer than a month. Recommended stat blocks include:
+
+- ["Human guard"](monsters-npcs/humanoids.md#human-militia-level-3)
+- ["Beast folk traveller"](monsters-npcs/humanoids.md#beast-folk-traveller-level-4)
+- ["winged shepherd"](monsters-npcs/humanoids.md#winged-shepherd-level-4)
+
+**Mercenary, Captain**: This refers to an NPC combatant with a significant amount of experience who can also lead a small unit. Low level assassins would also be included in this category. This kind of mercenary can be experienced in melee or ranged combat and may even have supernatural abilities. Recommended stat blocks include:
+
+- ["Warrior"](monsters-npcs/humanoids.md#human-warrior-level-6)
+- ["Mage"](monsters-npcs/humanoids.md#human-mage-level-6)
+- ["Scout"](monsters-npcs/humanoids.md#human-scout-level-5).
+
+**Scribe**: Literate individuals who can transcribe manuscripts, pen letters, and perform similar roles. Recommended stat blocks:
+
+- ["Apprentice"](monsters-npcs/humanoids.md#human-mage-apprentice-level-2)
+- ["Scholar"](monsters-npcs/humanoids.md#human-scholar-level-3)
+
+**Magistrate**: Ranking members of society, empowered with the rights and knowledge necessary to perform legal services. Magistrates are useful when dealing with nobility, major trade deals, or during dubious dealings for furthering one's own interests. Access to a magistrate is understandably expensive. Recommended stat blocks:
+
+- ["Scholar"](monsters-npcs/humanoids.md#human-scholar-level-3)
+- ["Elite"](monsters-npcs/humanoids.md#human-elite-level-5)
 
 **Initiate**: Initiates into the supernatural, who can perform simple spellcasting. They are loathe to enter combat, but often not adverse to exploration. ["Apprentice"](monsters-npcs/humanoids.md#human-mage-apprentice-level-2) is the recommended stat block here.
 
@@ -329,7 +357,7 @@ ___
 
 ### Upkeep
 
-Upkeep is distinct from labour cost, as it accounts only for minimal costs associated with keeping the labourer/hireling in working condition, and not the wages. This includes the upkeep cost of food, board and specialist equipment. It can also include the costs of various social/societal functions and rituals needed to maintain the position. For example, a magistrate may need to participate in "expensive" social events to retain a degree of "respectability", a mercenary may need to attend training and replace equipment, and a mage may need maintain a supply of rare and expensive material components.
+Upkeep is distinct from labour cost, as it accounts only for minimal costs associated with keeping the labourer/hireling in working condition, and not the wages. This includes the upkeep cost of food, board and specialist equipment. It can also include the costs of various social/societal functions, guild memberships and rituals needed to maintain the position. For example, a magistrate may need to participate in "expensive" social events to retain a degree of "respectability", a mercenary may need to attend training and replace equipment, and a mage may need maintain a supply of rare and expensive material components.
 
 This table is for medium sized humanoids. For every increase in size category, upkeep is increased by a factor of 4.
 
@@ -344,7 +372,7 @@ This table is for medium sized humanoids. For every increase in size category, u
 | mercenary (specialist) | 5       | 6        | 20   |
 | mercenary (captain)    | 10      | 10       | 20   |
 | scribe/priest          | 4       | 6        | 10   |
-| magistrate             | 6       | 6        | 20   |
+| magistrate             | 20      | 20       | 40   |
 
 ___
 
@@ -373,7 +401,7 @@ This table provides some numbers for how much of a resource one can expect to ha
 ___
 #### Mining
 
-Harvesting of minerals (mining) tends to rely more on the available labour and techniques, as well as how rich the ground/waters are in the particular mineral than the actual acreage. Therefore the yields are quoted as pounds of material per worker. The worker must be at least "trained" (proficient in "harvest" and the appropriate miner's tools) to be able to mine effectively.
+Harvesting of minerals (mining) tends to depend more on the available labour and techniques, as well as how rich the ground/waters are in the particular mineral. Therefore the yields are quoted as pounds of material per worker. The worker must be at least "trained" (proficient in "harvest" and the appropriate miner's tools) to be able to mine effectively.
 
 | Item      | Harvest Period | Yield                  |
 | --------- | -------------- | ---------------------- |

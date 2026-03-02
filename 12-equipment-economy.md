@@ -538,41 +538,47 @@ ___
 | Yarn of Wool                  | 1           | 10        | ~0.25              | 5             |
 | Spool of Silk                 | 1           | 30        | 10                 | 10            |
 
-**Ceremonial Garb**: Ceremonial Garb includes a robe, shoes and often some kind of hat. It is suitable for scholars, cultists, mages, priests and low-level officials  performing duties. As a rule they are not well suited for overland travel as they often restrict movement.
+**Robes**: A set of sturdy robes. Can be the main component of either ceremonial or traveller's garb. Durability: 2.
 
-**Traveller's Garb, Poor**: Course woollen garments and some kind of shoes. This represents clothes worn by farmers, workers, hoodlums, and low class travellers. They offer a modicum of protection against the elements. In colder weather one should also wear a cloak. These clothes do not restrict movement, but immediately mark one out as belonging to the lower echelons of society.
+**Woollen Garments**: A set of woollen garments consisting of a shirt, jacket/sweatshirt and either trousers or skirts. These are the main part of worker's or traveller's garb and can serve as the under-layer of cold weather garments. Durability: 2.
 
-**Traveller's Garb**: Woollen garments, possibly a cloak, and shoes. These are sturdy clothes that will stand up to the elements and be somewhat comfortable. These are the standard adventuring clothes.
+**Linen Garment**: Light clothes made of linen. They protect their wearer from worst of the heat, but are thin and easily damaged. Consist of a shirt and trousers/shirt or a simple dress. Durability: 1.
 
-**Explorer's Garb**: Woollen garments, possibly a cloak and boots. Generally these include the adaptations needed by adventurers and explorers on perilous journeys. They do make one stand out somewhat.
+**Ceremonial Garb**: Ceremonial Garb includes a robe, shoes and often some kind of hat. It is suitable for scholars, cultists, mages, priests and low-level officials  performing duties. As a rule they are not well suited for overland travel as they often restrict movement. Durability: 2.
 
-**Cold Weather Garments**: Thick garments, often with an outer layer of hides/furs and an inner layer of wool or fleece. This heavy garb allows one to treat the weather as one step warmer (ie "extreme cold" is now only "severe cold", but "severe heat" is now "extreme heat" for the wearer). This garb seldom includes a cloak, as the garments themselves are thick and sturdy enough to block most wind and precipitation. On occasion, hide armour can be made for cold weather, in which case half the weight and half the cost of these garments are added to the hide armour and its wearer gains the benefits and drawbacks of cold weather garments.
+**Traveller's Garb, Poor**: Course woollen garments and some kind of shoes. This represents clothes worn by farmers, workers, hoodlums, and low class travellers. They offer a modicum of protection against the elements. In colder weather one should also wear a cloak. These clothes do not restrict movement, but immediately mark one out as belonging to the lower echelons of society. Durability: 2.
 
-**Courtier's Garb**: Fine clothes and boots, made with care, using high quality materials. The more expensive the "better". Though seldom practical, it distinguishes one as a member of high society. In most societies, characters dealing with (most) nobles when wearing other garments will gain a -2 to charisma related skill rolls related to interacting with them. Of course, this depends on the circumstances and the ways of the given society.
+**Traveller's Garb**: Woollen garments, possibly a cloak, and shoes. These are sturdy clothes that will stand up to the elements and be somewhat comfortable. These are the standard adventuring clothes. Durability: 3.
 
-**Rope**: 10ft of rope that can be used for climbing, of tying off animals (usually one would purchase lengths of 60-120ft). This weights 1lb/10ft for hemp and 1lb/20ft for silk ropes. The durability is 4. Hemp ropes for rigging are four times heavier and cost four times as much. This rope can support 1000lb, or 300lb during a fall of 10ft or more without snapping. Every time the rope takes such a fall, it takes one point of damage.
+**Explorer's Garb**: Woollen garments, possibly a cloak and boots. Generally these include the adaptations needed by adventurers and explorers on perilous journeys. They do make one stand out somewhat. Durability: 4.
 
-**Miner's Pick**: A heavy, durable pick used for breaking rocky ground or leveraging it apart. It is a necessary tool for using "fortify" to fortify or dig through rock/rocky ground. This kind of pick can be used as a weapon, but attack rolls with it are made at disadvantage. It deals 1d10 piercing damage and is wielded in two hands.
+**Cold Weather Garments**: Thick garments, often with an outer layer of hides/furs and an inner layer of wool or fleece. This heavy garb allows one to treat the weather as one step warmer (ie "extreme cold" is now only "severe cold", but "severe heat" is now "extreme heat" for the wearer). This garb seldom includes a cloak, as the garments themselves are thick and sturdy enough to block most wind and precipitation. On occasion, hide armour can be made for cold weather, in which case half the weight and half the cost of these garments are added to the hide armour and its wearer gains the benefits and drawbacks of cold weather garments. Durability: 3.
 
-**Shovel**: A sturdy shovel. "Fortify", "harvest" or "prospect" rolls which involve digging are made at disadvantage without a shovel. It can be used as a weapon (attack rolls are made at disadvantage), and deals 1d8 slashing damage.
+**Courtier's Garb**: Fine clothes and boots, made with care, using high quality materials. The more expensive the "better". Though seldom practical, it distinguishes one as a member of high society. In most societies, characters dealing with (most) nobles when wearing other garments will gain a -2 to charisma related skill rolls related to interacting with them. Of course, this depends on the circumstances and the ways of the given society. Durability: 2.
 
-**Torch**: A length of wood, usually dipped in tar. When lit, a torch sheds bright light in 20ft, and dim light in 40ft. Its light can be seen within a mile. It will burn out within 30 minutes and will be extinguished by extreme precipitation or extreme wind. Torches are ideal for setting things on fire.
+**Rope**: 10ft of rope that can be used for climbing, of tying off animals (usually one would purchase lengths of 60-120ft). This weights 1lb/10ft for hemp and 1lb/20ft for silk ropes. The durability is 4. Hemp ropes for rigging are four times heavier and cost four times as much. This rope can support 1000lb, or 300lb during a fall of 10ft or more without snapping. Every time the rope takes such a fall, it takes one point of damage. Durability: [See table](03-movement-exploration.md#object-hit-point-durability-table).
 
-**Candle**: A wax candle. Made of bees' wax or tallow. A candle will shed dim light within 10ft. It will burn for 4 hours. Its light can be seen from ~800ft away. An unshielded candle will be extinguished by severe wind or precipitation.
+**Miner's Pick**: A heavy, durable pick used for breaking rocky ground or leveraging it apart. It is a necessary tool for using "fortify" to fortify or dig through rock/rocky ground. This kind of pick can be used as a weapon, but attack rolls with it are made at disadvantage. It deals 1d10 piercing damage and is wielded in two hands. Durability: 8.
 
-**Lamp**: A glass or metal oil lamp, with a small reservoir for oil (no more than 1lb) and a wick. A lamp sheds bright light in 20ft and dim light in 40ft.
+**Shovel**: A sturdy shovel. "Fortify", "harvest" or "prospect" rolls which involve digging are made at disadvantage without a shovel. It can be used as a two handed weapon (attack rolls are made at disadvantage), and deals 1d8 slashing damage. Durability: 4.
 
-**Small Backpack**: A sturdy backpack of cloth or leather that can carry up to 30lb, or a volume of 10 gallons, whatever is smallest. It leaves a traveller's hands free for other activities.
+**Torch**: A length of wood, usually dipped in tar. When lit, a torch sheds bright light in 20ft, and dim light in 40ft. Its light can be seen within a mile. It will burn out within 30 minutes and will be extinguished by extreme precipitation or extreme wind. Torches are ideal for setting things on fire. Durability: 1.
 
-**Large Backpack**: A sturdy backpack of cloth or leather, usually with a wooden frame. It can carry up to 90lb, or a volume of 30 gallons, whatever is smallest. It leaves a traveller's hands free for other activities.
+**Candle**: A wax candle. Made of bees' wax or tallow. A candle will shed dim light within 10ft. It will burn for 4 hours. Its light can be seen from ~800ft away. An unshielded candle will be extinguished by severe wind or precipitation. Durability: 1.
 
-**Blanket**: A heavy woollen blanket big enough to wrap 2 medium sized humanoids. It gives a +2 on CON saves for resting in cold weather (where applicable).
+**Lamp**: A glass or metal oil lamp, with a small reservoir for oil (no more than 1lb) and a wick. A lamp sheds bright light in 20ft and dim light in 40ft. Durability: 1.
 
-**Bedroll**: A complete sleeping set, complete with a thick felt/woollen sleeping matt and blanket. It gives a +4 on CON saves for resting in cold weather (where applicable).
+**Small Backpack**: A sturdy backpack of cloth or leather that can carry up to 30lb, or a volume of 10 gallons, whatever is smallest. It leaves a traveller's hands free for other activities. Durability: 3.
 
-**Tent**: A tent of canvas and wood big enough for 6 medium sized humanoids. It gives a +2 to ameliorate rolls on terrain that is not swamp, dense forest, or steep slopes. It takes up 5x10ft and takes 30 minutes to assemble.
+**Large Backpack**: A sturdy backpack of cloth or leather, usually with a wooden frame. It can carry up to 90lb, or a volume of 30 gallons, whatever is smallest. It leaves a traveller's hands free for other activities. Durability: 4.
 
-**Yurt**: A portable dwelling construction of hides, cloth, wood and bone favoured by nomadic peoples. It counts as a dwelling and obviates the need for an ameliorate/fortify roll for camping (although it is still better to make one to fortify one's camp). A yurt takes up 15x15ft and takes 3 hours to assemble.
+**Blanket**: A heavy woollen blanket big enough to wrap 2 medium sized humanoids. It gives a +2 on CON saves for resting in cold weather (where applicable). Durability: 2.
+
+**Bedroll**: A complete sleeping set, complete with a thick felt/woollen sleeping matt and blanket. It gives a +4 on CON saves for resting in cold weather (where applicable). Durability: 2.
+
+**Tent**: A tent of canvas and wood big enough for 6 medium sized humanoids. It gives a +2 to ameliorate rolls on terrain that is not swamp, dense forest, or steep slopes. It takes up 5x10ft and takes 30 minutes to assemble. Durability: 2.
+
+**Yurt**: A portable dwelling construction of hides, cloth, wood and bone favoured by nomadic peoples. It counts as a dwelling and obviates the need for an ameliorate/fortify roll for camping (although it is still better to make one to fortify one's camp). A yurt takes up 15x15ft and takes 3 hours to assemble. Durability: 8.
 
 ___
 

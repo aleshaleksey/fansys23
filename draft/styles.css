@@ -1,12 +1,14 @@
 /* NB: THE SHEET IS INTENDED FOR FIREFOX, BRAVE OR CHROME */
 
 
+.sheet-rolltemplate-spell .sheet-rt-container,
 .sheet-rolltemplate-main .sheet-rt-container,
 .sheet-rolltemplate-init .sheet-rt-container {
     border: 0.5px solid #40404067;
     background: #e5e7e3;
 }
 
+.sheet-rolltemplate-spell .sheet-rt-header,
 .sheet-rolltemplate-main .sheet-rt-header,
 .sheet-rolltemplate-init .sheet-rt-header {
     background: #e5e7e3;
@@ -16,6 +18,7 @@
 
 /* Pure initiative style */
 /* Pure initiative style */
+.sheet-rolltemplate-spell .sheet-title,
 .sheet-rolltemplate-main .sheet-title,
 .sheet-rolltemplate-init .sheet-title {
     width: 100%;
@@ -25,6 +28,7 @@
     text-align: left;
 }
 
+.sheet-rolltemplate-spell .sheet-char-name,
 .sheet-rolltemplate-main .sheet-char-name,
 .sheet-rolltemplate-init .sheet-char-name {
     width: 100%;
@@ -35,6 +39,7 @@
     color: #4a4c53;
 }
 
+.sheet-rolltemplate-spell .sheet-rolls,
 .sheet-rolltemplate-main .sheet-rolls,
 .sheet-rolltemplate-init .sheet-rolls {
     background: linear-gradient(315deg, #f2f4ec, white);
@@ -42,6 +47,7 @@
     width: 100%;
 }
 
+.sheet-rolltemplate-spell .sheet-l1,
 .sheet-rolltemplate-main .sheet-l1,
 .sheet-rolltemplate-init .sheet-line-1 {
     min-height: 28px;
@@ -52,6 +58,7 @@
     padding-bottom: 8px;
     padding-top: 8px;
 }
+.sheet-rolltemplate-spell .sheet-l1
 .sheet-rolltemplate-main .sheet-l1 {
     padding-top: 8px;
 }
@@ -74,6 +81,7 @@
 
 /* PURE MAIN TEMPLATE STYLES */
 /* PURE MAIN TEMPLATE STYLES */
+.sheet-rolltemplate-spell .sheet-l2,
 .sheet-rolltemplate-init .sheet-l2,
 .sheet-rolltemplate-main .sheet-l3,
 .sheet-rolltemplate-main .sheet-l2 {
@@ -85,12 +93,15 @@
     display: flex;
     justify-content: stretch;
 }
+.sheet-rolltemplate-spell .sheet-l2,
 .sheet-rolltemplate-main .sheet-l2,
 .sheet-rolltemplate-main .sheet-l3 {
     align-content: stretch;
     min-height:40px;
 }
 
+.sheet-rolltemplate-spell .sheet-t-crit,
+.sheet-rolltemplate-spell .sheet-r-crit,
 .sheet-rolltemplate-init .sheet-t-crit,
 .sheet-rolltemplate-init .sheet-r-crit,
 .sheet-rolltemplate-main .sheet-t-ord,
@@ -107,6 +118,7 @@
     display: flex;
 }
 
+.sheet-rolltemplate-spell .sheet-r-crit,
 .sheet-rolltemplate-init .sheet-r-crit,
 .sheet-rolltemplate-main .sheet-r-dmg,
 .sheet-rolltemplate-main .sheet-r-crit {
@@ -133,11 +145,29 @@
     font-size: 13pt;
 }
 
+.sheet-rolltemplate-spell .sheet-spell-field-head {
+    text-decoration: underline;
+    font-size: 11pt;
+}
 
 .sheet-rolltemplate-init .sheet-r-crit,
 .sheet-rolltemplate-main .sheet-r-crit {
-    border: 0.5px solid #483945;
+    border: 0.5px solid rgb(104, 101, 101);
     font-size: 13pt;
+}
+
+.sheet-rolltemplate-spell .sheet-line-1 {
+    border: 0.25px solid rgb(104, 101, 101)
+}
+.sheet-rolltemplate-spell .sheet-t-crit,
+.sheet-rolltemplate-spell .sheet-r-crit {
+    min-width: 35%;
+    font-size: 11pt;
+    border: 0.25px solid rgb(104, 101, 101);
+    align-items: center;
+}
+.sheet-rolltemplate-spell .sheet-t-crit {
+    max-width: 35%;
 }
 
 .sheet-rolltemplate-main .sheet-dsc {
@@ -147,6 +177,7 @@
     color: #202424;
 }
 
+.sheet-rolltemplate-spell .inlinerollresult,
 .sheet-rolltemplate-init .inlinerollresult,
 .sheet-rolltemplate-main .inlinerollresult {
     background-color: transparent;
@@ -290,7 +321,7 @@ input.xd-name {
 }
 
 td.xd-size-td {
-    padding-top: 6px;
+    padding-top: 10px;
     max-height: 36px;
     height: 36px;
 }
@@ -298,8 +329,8 @@ td.xd-size-td {
 select.xd-dsize {
     display: flex;
     max-width: 56px;
-    max-height: 90%;
-    height: 90%;
+    max-height: 84%;
+    height: 84%;
 }
 
 .sheet-basics-inner {
@@ -488,12 +519,10 @@ select.size-selector {
     max-width: 148;
     width: 148px;
     min-width: 148;
-    background-color: #f2f4ec;
 }
 
 select.adv-selector {
     max-width: 154px;
-    background-color: #f2f4ec;
 }
 
 div.hl-name {
@@ -586,6 +615,7 @@ div.skills {
 div.proficiencies {
     padding-left: 4px;
     padding-right: 4px;
+    padding-top: 5px;
     grid-area: proficiencies;
     display: flex;
     scrollbar-width: none;
@@ -593,9 +623,7 @@ div.proficiencies {
     break-inside: avoid;
     border: 1px solid rgb(104, 101, 101);
     background-color: #e5e7e3;
-}
-table.proficiencies-table {
-    max-width: 100%;
+    align-items: start;
 }
 
 div.skill-esb {
@@ -637,6 +665,12 @@ table.skill-table {
     caption-side: top;
     padding: 3px;
 }
+table.proficiencies-table {
+    max-height: 100%;
+    width: 100%;
+    caption-side: top;
+    padding: 3px;
+}
 
 div.skill-button-span {
     justify-content: space-between;
@@ -644,29 +678,42 @@ div.skill-button-span {
     font-size: 11.4pt;
 }
 
+tr.prof-row {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    max-height: 10px;
+}
+
 input.prof-name-input {
+    max-height: 26px;
     width: 188px;
     max-width: 188px;
+    background-color: #f2f4ec;
 }
 
 input.prof-desc-input {
     width: 188px;
     max-width: 188px;
+    background-color: #f2f4ec;
 }
 
 span.prof-source-select {
     display: flex;
     padding-right: 4px;
     padding-top: 4px;
+    padding-bottom: calc(0px-4px);
+    align-self: center;
     max-width:106px;
     min-width:106px;
-    width:100px;
+    max-height: min-content;
 }
 
-input.prof-source-select {
-    max-width:100px;
-    min-width:100px;
-    width:100px;
+select.prof-source-select {
+    display: flex;
+    max-height: 90%;
+    height: 90%;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 input.tiny-input-r {
@@ -682,13 +729,6 @@ th.skills-esb-th {
      padding-top: 2px;
 }
 
-
-/* table.td.wr_del {
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    align-content: center;
-} */
 
 /* ABILITIES SHEET */
 /* ABILITIES SHEET */

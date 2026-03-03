@@ -121,6 +121,74 @@
     </div>
 </rolltemplate>
 
+<!-- Spell-printout -->
+<!-- Variables are:
+  - {{name}}
+  - {{element}}
+  - {{components}}
+  - {{lct}}
+  - {{target}}
+  - {{range}}
+  - {{duration}}
+  - {{concentration}}
+  - {{description}}
+  - {{upcast}}
+  - {{global}}
+-->
+<rolltemplate class="sheet-rolltemplate-spell">
+    <div class="sheet-rt-container">
+        <!-- Name of roll and name of character -->
+        <div class="sheet-rt-header">
+            <div class="sheet-title">{{name}} [{{element}}]</div>
+            <div class="sheet-char-name">{{char_name}}</div>
+        </div>
+        <div class="sheet-rolls">
+            <!-- Display components-->
+            <span class="sheet-l2">
+                <span class="sheet-t-crit">Components</span>
+                <span class="sheet-r-crit">{{components}}</span>
+            </span>
+            <!-- Display local cast time-->
+            <span class="sheet-l2">
+                <span class="sheet-t-crit">Casting Time (local)</span>
+                <span class="sheet-r-crit">{{lct}}</span>
+            </span>
+            <!-- Display target-->
+            <span class="sheet-l2">
+                <span class="sheet-t-crit">Target(s)</span>
+                <span class="sheet-r-crit">{{target}}</span>
+            </span>
+            <!-- Display range-->
+            <span class="sheet-l2">
+                <span class="sheet-t-crit">Range</span>
+                <span class="sheet-r-crit">{{range}}</span>
+            </span>
+            <!-- Display duration-->
+            <span class="sheet-l2">
+                <span class="sheet-t-crit">Duration</span>
+                <span class="sheet-r-crit">{{duration}}</span>
+            </span>
+            <!-- Display concentration-->
+            <span class="sheet-l2">
+                <span class="sheet-t-crit">Concentration</span>
+                <span class="sheet-r-crit">{{concentration}}</span>
+            </span>
+            <!-- Display Description-->
+            <div class="sheet-line-1">
+                <p class="sheet-spell-field-head">Description:</p>{{description}}
+            </div>
+            <!-- Display Upcast-->
+            <div class="sheet-line-1">
+                <p class="sheet-spell-field-head">Upcast</p>{{upcast}}
+            </div>
+            <!-- Display Global-->
+            <div class="sheet-line-1">
+                <p class="sheet-spell-field-head">Global Cast</p>{{global}}
+            </div>
+        </div>
+    </div>
+</rolltemplate>
+
 <div class="sheet-new-character-sheet-for-fantasy-worlds">
     <div class="header">
         <div class="h-name-main-table">
@@ -2894,14 +2962,15 @@
                             <th>Proficiency</th>
                             <th>Source</th>
                         </tr>
-                        <tr>
+                        <tr hidden="true">
                             <th>(Notes)</th>
                         </tr>
-                        <tr>
-                            <td><input class="prof-name-input" name="attr_prof_name_00" type="text">
+                        <tr class="prof-row">
+                            <td>
+                                <input class="prof-name-input" name="attr_prof_name_00" type="text">
                             </td>
-                            <td><span class="prof-source-select"><select class="prof-source-select"
-                                        name="attr_prof_00">
+                            <td class="prof-row"><span class="prof-source-select"><select
+                                        class="prof-source-select" name="attr_prof_00">
                                         <option value="0">Not proficient
                                         </option>
                                         <option value="0">Template</option>
@@ -2909,11 +2978,11 @@
                                         <option value="1">Skill points</option>
                                     </select></span></td>
                         </tr>
-                        <tr>
+                        <tr hidden="true">
                             <td><input class="prof-desc-input" name="attr_prof_desc_00" type="text">
                             </td>
                         </tr>
-                        <tr>
+                        <tr class="prof-row">
                             <td><input class="prof-name-input" name="attr_prof_name_01" type="text">
                             </td>
                             <td><span class="prof-source-select"><select class="prof-source-select"
@@ -2925,11 +2994,11 @@
                                         <option value="1">Skill points</option>
                                     </select></span></td>
                         </tr>
-                        <tr>
+                        <tr hidden="true">
                             <td><input class="prof-desc-input" name="attr_prof_desc_01" type="text">
                             </td>
                         </tr>
-                        <tr>
+                        <tr class="prof-row">
                             <td><input class="prof-name-input" name="attr_prof_name_02" type="text">
                             </td>
                             <td><span class="prof-source-select"><select class="prof-source-select"
@@ -2941,11 +3010,11 @@
                                         <option value="1">Skill points</option>
                                     </select></span></td>
                         </tr>
-                        <tr>
+                        <tr hidden="true">
                             <td><input class="prof-desc-input" name="attr_prof_desc_02" type="text">
                             </td>
                         </tr>
-                        <tr>
+                        <tr class="prof-row">
                             <td><input class="prof-name-input" name="attr_prof_name_03" type="text">
                             </td>
                             <td><span class="prof-source-select"><select class="prof-source-select"
@@ -2957,11 +3026,11 @@
                                         <option value="1">Skill points</option>
                                     </select></span></td>
                         </tr>
-                        <tr>
+                        <tr hidden="true">
                             <td><input class="prof-desc-input" name="attr_prof_desc_03" type="text">
                             </td>
                         </tr>
-                        <tr>
+                        <tr class="prof-row">
                             <td><input class="prof-name-input" name="attr_prof_name_04" type="text">
                             </td>
                             <td><span class="prof-source-select"><select class="prof-source-select"
@@ -2973,11 +3042,11 @@
                                         <option value="1">Skill points</option>
                                     </select></td></span>
                         </tr>
-                        <tr>
+                        <tr hidden="true">
                             <td><input class="prof-desc-input" name="attr_prof_desc_04" type="text">
                             </td>
                         </tr>
-                        <tr>
+                        <tr class="prof-row">
                             <td><input class="prof-name-input" name="attr_prof_name_05" type="text">
                             </td>
                             <td><span class="prof-source-select"><select class="prof-source-select"
@@ -2989,11 +3058,11 @@
                                         <option value="1">Skill points</option>
                                     </select></span></td>
                         </tr>
-                        <tr>
+                        <tr hidden="true">
                             <td><input class="prof-desc-input" name="attr_prof_desc_05" type="text">
                             </td>
                         </tr>
-                        <tr>
+                        <tr class="prof-row">
                             <td><input class="prof-name-input" name="attr_prof_name_06" type="text">
                             </td>
                             <td><span class="prof-source-select"><select class="prof-source-select"
@@ -3007,11 +3076,11 @@
                                 </span>
                             </td>
                         </tr>
-                        <tr>
+                        <tr hidden="true">
                             <td><input class="prof-desc-input" name="attr_prof_desc_06" type="text">
                             </td>
                         </tr>
-                        <tr>
+                        <tr class="prof-row">
                             <td><input class="prof-name-input" name="attr_prof_name_07" type="text">
                             </td>
                             <td><span class="prof-source-select"><select class="prof-source-select"
@@ -3023,11 +3092,11 @@
                                         <option value="1">Skill points</option>
                                     </select></span></td>
                         </tr>
-                        <tr>
+                        <tr hidden="true">
                             <td><input class="prof-desc-input" name="attr_prof_desc_07" type="text">
                             </td>
                         </tr>
-                        <tr>
+                        <tr class="prof-row">
                             <td><input class="prof-name-input" name="attr_prof_name_08" type="text">
                             </td>
                             <td><span class="prof-source-select"><select class="prof-source-select"
@@ -3039,11 +3108,11 @@
                                         <option value="1">Skill points</option>
                                     </select></span></td>
                         </tr>
-                        <tr>
+                        <tr hidden="true">
                             <td><input class="prof-desc-input" name="attr_prof_desc_08" type="text">
                             </td>
                         </tr>
-                        <tr>
+                        <tr class="prof-row">
                             <td><input class="prof-name-input" name="attr_prof_name_09" type="text">
                             </td>
                             <td><span class="prof-source-select"><select class="prof-source-select"
@@ -3055,11 +3124,11 @@
                                         <option value="1">Skill points</option>
                                     </select></span></td>
                         </tr>
-                        <tr>
+                        <tr hidden="true">
                             <td><input class="prof-desc-input" name="attr_prof_desc_09" type="text">
                             </td>
                         </tr>
-                        <tr>
+                        <tr class="prof-row">
                             <td><input class="prof-name-input" name="attr_prof_name_10" type="text">
                             </td>
                             <td><span class="prof-source-select"><select class="prof-source-select"
@@ -3071,11 +3140,11 @@
                                         <option value="1">Skill points</option>
                                     </select></span></td>
                         </tr>
-                        <tr>
+                        <tr hidden="true">
                             <td><input class="prof-desc-input" name="attr_prof_desc_10" type="text">
                             </td>
                         </tr>
-                        <tr>
+                        <tr class="prof-row">
                             <td><input class="prof-name-input" name="attr_prof_name_11" type="text">
                             </td>
                             <td><span class="prof-source-select"><select class="prof-source-select"
@@ -3087,11 +3156,11 @@
                                         <option value="1">Skill points</option>
                                     </select></span></td>
                         </tr>
-                        <tr>
+                        <tr hidden="true">
                             <td><input class="prof-desc-input" name="attr_prof_desc_11" type="text">
                             </td>
                         </tr>
-                        <tr>
+                        <tr class="prof-row">
                             <td><input class="prof-name-input" name="attr_prof_name_12" type="text">
                             </td>
                             <td><span class="prof-source-select"><select class="prof-source-select"
@@ -3103,11 +3172,11 @@
                                         <option value="1">Skill points</option>
                                     </select></span></td>
                         </tr>
-                        <tr>
+                        <tr hidden="true">
                             <td><input class="prof-desc-input" name="attr_prof_desc_12" type="text">
                             </td>
                         </tr>
-                        <tr>
+                        <tr class="prof-row">
                             <td><input class="prof-name-input" name="attr_prof_name_13" type="text">
                             </td>
                             <td><span class="prof-source-select"><select class="prof-source-select"
@@ -3119,11 +3188,11 @@
                                         <option value="1">Skill points</option>
                                     </select></span></td>
                         </tr>
-                        <tr>
+                        <tr hidden="true">
                             <td><input class="prof-desc-input" name="attr_prof_desc_13" type="text">
                             </td>
                         </tr>
-                        <tr>
+                        <tr class="prof-row">
                             <td><input class="prof-name-input" name="attr_prof_name_14" type="text">
                             </td>
                             <td><span class="prof-source-select"><select class="prof-source-select"
@@ -3135,11 +3204,11 @@
                                         <option value="1">Skill points</option>
                                     </select></span></td>
                         </tr>
-                        <tr>
+                        <tr hidden="true">
                             <td><input class="prof-desc-input" name="attr_prof_desc_14" type="text">
                             </td>
                         </tr>
-                        <tr>
+                        <tr class="prof-row">
                             <td><input class="prof-name-input" name="attr_prof_name_15" type="text">
                             </td>
                             <td><span class="prof-source-select"><select class="prof-source-select"
@@ -3151,7 +3220,7 @@
                                         <option value="1">Skill points</option>
                                     </select></span></td>
                         </tr>
-                        <tr>
+                        <tr hidden="true">
                             <td><input class="prof-desc-input" name="attr_prof_desc_15" type="text">
                             </td>
                         </tr>
@@ -3190,7 +3259,7 @@
                 <strong>Skill points remaining: </strong>
                 <input type="number" class="tiny-input-huge" name="attr_skill_points_rem"
                     disabled="true"
-                    value="{(@{extra_skill_points})+5+(@{lvl})*(4+(@{int_bonus}))-(@{skills_sum})-(@{prof_sum})}">
+                    value="{(@{extra_skill_points})+2+(@{lvl})*(4+(@{int_bonus}))-(@{skills_sum})-(@{prof_sum})}">
                 <input name="attr_skills_sum" hidden="true" type="number" class="tiny-input-small"
                     disabled="true"
                     value="{(@{ranks_athletics})+(@{ranks_climb})+(@{ranks_fortify})+(@{ranks_swim})+(@{ranks_acrobatics})+(@{ranks_fly})+(@{ranks_heal})+(@{ranks_ride})+(@{ranks_sleight})+(@{ranks_stealth})+(@{ranks_tinker})+(@{ranks_harvest})+(@{ranks_academics})+(@{ranks_appraise})+(@{ranks_navigate})+(@{ranks_prospect})+(@{ranks_karcana})+(@{ranks_kgeography})+(@{ranks_knature})+(@{ranks_kdungon})+(@{ranks_khistory})+(@{ranks_kreligion})+(@{ranks_observe})+(@{ranks_smotive})+(@{ranks_track})+(@{ranks_spellworking})+(@{ranks_handle})+(@{ranks_deceive})+(@{ranks_diplomacy})+(@{ranks_intimidate})+(@{ranks_perform})+(@{ranks_persuade})}">
@@ -4259,8 +4328,8 @@
                     <div class="spellbox">
                         <button type="action" value="" name="act_mp1_5_show"
                             class="spell-button"><span class="spell-name-span"><span
-                                    class="spell-name-inner" name="attr_mp1_name_5"></span> <span
-                                    class="spell-type-outer">
+                                    class="spell-name-inner" name="attr_mp1_name_5"></span>
+                                <span class="spell-type-outer">
                                     [<span class="spell-name-inner"
                                         name="attr_mp1_type_5"></span>]</span></button>
                     </div>
@@ -5490,6 +5559,9 @@
                     <br>
                 </div>
                 <div class="spellbox-details-mp1-1">
+                    <p><button type="roll" class="rb init"
+                            value="&amp;{template:spell}{{name=@{mp1_name_1}}}{{char_name=@{character_name}}}{{element=@{mp1_type_1}}}{{components=@{mp1_components_1}}}{{lct=@{mp1_cast_time_1}}}{{target=@{mp1_1_targer}}}{{range=@{mp1_1_range}}}{{duration=@{mp1_1_duration}}}{{concentration=@{mp1_1_conc}}}{{description=@{mp1_desc_1}}}{{upcast=@{mp1_upcast_1}}}{{global=@{mp1_global_1}}}">
+                            Show Spell</button></p>
                     <p><span class="spell-label">Name: </span><input type="text"
                             class="text-input-spell" name="attr_mp1_name_1" value=></p>
                     <span class="spell-label">Element: </span><select name="attr_mp1_type_1"
@@ -5528,7 +5600,8 @@
                             class="text-input-spell-small" name="attr_mp1_1_range" value="">
                     </p>
                     <p><span class="spell-label">Duration: </span><input type="text"
-                            class="text-input-spell-small" name="attr_mp1_1_duration" value=""></p>
+                            class="text-input-spell-small" name="attr_mp1_1_duration" value="">
+                    </p>
                     <span class="spell-label">Concentration: </span><select name="attr_mp1_1_conc"
                         value="{{@{attr_mp1_1_conc}}}">
                         <option value="No">No</option>
@@ -5546,6 +5619,9 @@
                         value="{@{mp1_global_1}}" placeholder="MP1 spell 1 description"></textarea>
                 </div>
                 <div class="spellbox-details-mp1-2">
+                    <p><button type="roll" class="rb init"
+                            value="&amp;{template:spell}{{name=@{mp1_name_2}}}{{char_name=@{character_name}}}{{element=@{mp1_type_2}}}{{components=@{mp1_components_2}}}{{lct=@{mp1_cast_time_2}}}{{target=@{mp1_2_targer}}}{{range=@{mp1_2_range}}}{{duration=@{mp1_2_duration}}}{{concentration=@{mp1_2_conc}}}{{description=@{mp1_desc_2}}}{{upcast=@{mp1_upcast_2}}}{{global=@{mp1_global_2}}}">
+                            Show Spell</button></p>
                     <p><span class="spell-label">Name: </span><input type="text"
                             class="text-input-spell" name="attr_mp1_name_2" value=></p>
                     <span class="spell-label">Element: </span><select name="attr_mp1_type_2"
@@ -5584,7 +5660,8 @@
                             class="text-input-spell-small" name="attr_mp1_2_range" value="">
                     </p>
                     <p><span class="spell-label">Duration: </span><input type="text"
-                            class="text-input-spell-small" name="attr_mp1_2_duration" value=""></p>
+                            class="text-input-spell-small" name="attr_mp1_2_duration" value="">
+                    </p>
                     <span class="spell-label">Concentration: </span><select name="attr_mp1_2_conc"
                         value="{{@{attr_mp1_2_conc}}}">
                         <option value="No">No</option>
@@ -5602,6 +5679,9 @@
                         value="{@{mp1_global_2}}" placeholder="MP1 spell 2 description"></textarea>
                 </div>
                 <div class="spellbox-details-mp1-3">
+                    <p><button type="roll" class="rb init"
+                            value="&amp;{template:spell}{{name=@{mp1_name_3}}}{{char_name=@{character_name}}}{{element=@{mp1_type_3}}}{{components=@{mp1_components_3}}}{{lct=@{mp1_cast_time_3}}}{{target=@{mp1_3_targer}}}{{range=@{mp1_3_range}}}{{duration=@{mp1_3_duration}}}{{concentration=@{mp1_3_conc}}}{{description=@{mp1_desc_3}}}{{upcast=@{mp1_upcast_3}}}{{global=@{mp1_global_3}}}">
+                            Show Spell</button></p>
                     <p><span class="spell-label">Name: </span><input type="text"
                             class="text-input-spell" name="attr_mp1_name_3" value=></p>
                     <span class="spell-label">Element: </span><select name="attr_mp1_type_3"
@@ -5658,6 +5738,9 @@
                         value="{@{mp1_global_3}}" placeholder="MP1 spell 3 description"></textarea>
                 </div>
                 <div class="spellbox-details-mp1-4">
+                    <p><button type="roll" class="rb init"
+                            value="&amp;{template:spell}{{name=@{mp1_name_4}}}{{char_name=@{character_name}}}{{element=@{mp1_type_4}}}{{components=@{mp1_components_4}}}{{lct=@{mp1_cast_time_4}}}{{target=@{mp1_4_targer}}}{{range=@{mp1_4_range}}}{{duration=@{mp1_4_duration}}}{{concentration=@{mp1_4_conc}}}{{description=@{mp1_desc_4}}}{{upcast=@{mp1_upcast_4}}}{{global=@{mp1_global_4}}}">
+                            Show Spell</button></p>
                     <p><span class="spell-label">Name: </span><input type="text"
                             class="text-input-spell" name="attr_mp1_name_4" value=></p>
                     <span class="spell-label">Element: </span><select name="attr_mp1_type_4"
@@ -5714,6 +5797,9 @@
                         value="{@{mp1_global_4}}" placeholder="MP1 spell 4 description"></textarea>
                 </div>
                 <div class="spellbox-details-mp1-5">
+                    <p><button type="roll" class="rb init"
+                            value="&amp;{template:spell}{{name=@{mp1_name_5}}}{{char_name=@{character_name}}}{{element=@{mp1_type_5}}}{{components=@{mp1_components_5}}}{{lct=@{mp1_cast_time_5}}}{{target=@{mp1_5_targer}}}{{range=@{mp1_5_range}}}{{duration=@{mp1_5_duration}}}{{concentration=@{mp1_5_conc}}}{{description=@{mp1_desc_5}}}{{upcast=@{mp1_upcast_5}}}{{global=@{mp1_global_5}}}">
+                            Show Spell</button></p>
                     <p><span class="spell-label">Name: </span><input type="text"
                             class="text-input-spell" name="attr_mp1_name_5" value=></p>
                     <span class="spell-label">Element: </span><select name="attr_mp1_type_5"
@@ -5770,6 +5856,9 @@
                         value="{@{mp1_global_5}}" placeholder="MP1 spell 5 description"></textarea>
                 </div>
                 <div class="spellbox-details-mp1-6">
+                    <p><button type="roll" class="rb init"
+                            value="&amp;{template:spell}{{name=@{mp1_name_6}}}{{char_name=@{character_name}}}{{element=@{mp1_type_6}}}{{components=@{mp1_components_6}}}{{lct=@{mp1_cast_time_6}}}{{target=@{mp1_6_targer}}}{{range=@{mp1_6_range}}}{{duration=@{mp1_6_duration}}}{{concentration=@{mp1_6_conc}}}{{description=@{mp1_desc_6}}}{{upcast=@{mp1_upcast_6}}}{{global=@{mp1_global_6}}}">
+                            Show Spell</button></p>
                     <p><span class="spell-label">Name: </span><input type="text"
                             class="text-input-spell" name="attr_mp1_name_6" value=></p>
                     <span class="spell-label">Element: </span><select name="attr_mp1_type_6"
@@ -5808,7 +5897,8 @@
                             class="text-input-spell-small" name="attr_mp1_6_range" value="">
                     </p>
                     <p><span class="spell-label">Duration: </span><input type="text"
-                            class="text-input-spell-small" name="attr_mp1_6_duration" value=""></p>
+                            class="text-input-spell-small" name="attr_mp1_6_duration" value="">
+                    </p>
                     <span class="spell-label">Concentration: </span><select name="attr_mp1_6_conc"
                         value="{{@{attr_mp1_6_conc}}}">
                         <option value="No">No</option>
@@ -5826,6 +5916,9 @@
                         value="{@{mp1_global_6}}" placeholder="MP1 spell 6 description"></textarea>
                 </div>
                 <div class="spellbox-details-mp1-7">
+                    <p><button type="roll" class="rb init"
+                            value="&amp;{template:spell}{{name=@{mp1_name_7}}}{{char_name=@{character_name}}}{{element=@{mp1_type_7}}}{{components=@{mp1_components_7}}}{{lct=@{mp1_cast_time_7}}}{{target=@{mp1_7_targer}}}{{range=@{mp1_7_range}}}{{duration=@{mp1_7_duration}}}{{concentration=@{mp1_7_conc}}}{{description=@{mp1_desc_7}}}{{upcast=@{mp1_upcast_7}}}{{global=@{mp1_global_7}}}">
+                            Show Spell</button></p>
                     <p><span class="spell-label">Name: </span><input type="text"
                             class="text-input-spell" name="attr_mp1_name_7" value=></p>
                     <span class="spell-label">Element: </span><select name="attr_mp1_type_7"
@@ -5882,6 +5975,9 @@
                         value="{@{mp1_global_7}}" placeholder="MP1 spell 7 description"></textarea>
                 </div>
                 <div class="spellbox-details-mp1-8">
+                    <p><button type="roll" class="rb init"
+                            value="&amp;{template:spell}{{name=@{mp1_name_8}}}{{char_name=@{character_name}}}{{element=@{mp1_type_8}}}{{components=@{mp1_components_8}}}{{lct=@{mp1_cast_time_8}}}{{target=@{mp1_8_targer}}}{{range=@{mp1_8_range}}}{{duration=@{mp1_8_duration}}}{{concentration=@{mp1_8_conc}}}{{description=@{mp1_desc_8}}}{{upcast=@{mp1_upcast_8}}}{{global=@{mp1_global_8}}}">
+                            Show Spell</button></p>
                     <p><span class="spell-label">Name: </span><input type="text"
                             class="text-input-spell" name="attr_mp1_name_8" value=></p>
                     <span class="spell-label">Element: </span><select name="attr_mp1_type_8"
@@ -5938,6 +6034,9 @@
                         value="{@{mp1_global_8}}" placeholder="MP1 spell 8 description"></textarea>
                 </div>
                 <div class="spellbox-details-mp1-9">
+                    <p><button type="roll" class="rb init"
+                            value="&amp;{template:spell}{{name=@{mp1_name_9}}}{{char_name=@{character_name}}}{{element=@{mp1_type_9}}}{{components=@{mp1_components_9}}}{{lct=@{mp1_cast_time_9}}}{{target=@{mp1_9_targer}}}{{range=@{mp1_9_range}}}{{duration=@{mp1_9_duration}}}{{concentration=@{mp1_9_conc}}}{{description=@{mp1_desc_9}}}{{upcast=@{mp1_upcast_9}}}{{global=@{mp1_global_9}}}">
+                            Show Spell</button></p>
                     <p><span class="spell-label">Name: </span><input type="text"
                             class="text-input-spell" name="attr_mp1_name_9" value=></p>
                     <span class="spell-label">Element: </span><select name="attr_mp1_type_9"
@@ -5994,6 +6093,9 @@
                         value="{@{mp1_global_9}}" placeholder="MP1 spell 9 description"></textarea>
                 </div>
                 <div class="spellbox-details-mp1-10">
+                    <p><button type="roll" class="rb init"
+                            value="&amp;{template:spell}{{name=@{mp1_name_10}}}{{char_name=@{character_name}}}{{element=@{mp1_type_10}}}{{components=@{mp1_components_10}}}{{lct=@{mp1_cast_time_10}}}{{target=@{mp1_10_targer}}}{{range=@{mp1_10_range}}}{{duration=@{mp1_1_duration}}}{{concentration=@{mp1_10_conc}}}{{description=@{mp1_desc_10}}}{{upcast=@{mp1_upcast_10}}}{{global=@{mp1_global_10}}}">
+                            Show Spell</button></p>
                     <p><span class="spell-label">Name: </span><input type="text"
                             class="text-input-spell" name="attr_mp1_name_10" value=></p>
                     <span class="spell-label">Element: </span><select name="attr_mp1_type_10"

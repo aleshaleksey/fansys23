@@ -189,6 +189,22 @@
     </div>
 </rolltemplate>
 
+<rolltemplate class="sheet-rolltemplate-ability">
+    <div class="sheet-rt-container">
+        <!-- Name of roll and name of character -->
+        <div class="sheet-rt-header">
+            <div class="sheet-title">{{name}}</div>
+            <div class="sheet-char-name">{{char_name}}</div>
+        </div>
+        <div class="sheet-rolls">
+            <!-- Display Description-->
+            <div class="sheet-spell-text">
+                <p class="sheet-spell-field-head">Description:</p>{{description}}
+            </div>
+        </div>
+    </div>
+</rolltemplate>
+
 <div class="sheet-new-character-sheet-for-fantasy-worlds">
     <div class="header">
         <div class="h-name-main-table">
@@ -3347,80 +3363,110 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_1" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_1}}}{{char_name=@{character_name}}}{{description=@{ab_det_1}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="1" name="act_ability_1" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_2" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_2}}}{{description=@{ab_det_2}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="2" name="act_ability_2" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_3" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_3}}}{{description=@{ab_det_3}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="3" name="act_ability_3" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_4" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_4}}}{{description=@{ab_det_4}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="4" name="act_ability_4" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_5" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_5}}}{{description=@{ab_det_5}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="5" name="act_ability_5" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_6" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_6}}}{{description=@{ab_det_6}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="6" name="act_ability_6" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_7" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_7}}}{{description=@{ab_det_7}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="7" name="act_ability_7" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_8" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_8}}}{{description=@{ab_det_8}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="8" name="act_ability_8" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_9" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_9}}}{{description=@{ab_det_9}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="9" name="act_ability_9" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_10" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_10}}}{{description=@{ab_det_10}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="10" name="act_ability_10" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <!-- 11-20 -->
@@ -3428,80 +3474,110 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_11" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_11}}}{{description=@{ab_det_11}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="11" name="act_ability_11" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_12" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_12}}}{{description=@{ab_det_12}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="12" name="act_ability_12" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_13" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_13}}}{{description=@{ab_det_13}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="13" name="act_ability_13" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_14" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_14}}}{{description=@{ab_det_14}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="14" name="act_ability_14" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_15" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_15}}}{{description=@{ab_det_15}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="15" name="act_ability_15" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_16" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_16}}}{{description=@{ab_det_16}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="16" name="act_ability_16" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_17" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_17}}}{{description=@{ab_det_17}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="17" name="act_ability_17" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_18" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_18}}}{{description=@{ab_det_18}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="18" name="act_ability_18" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_19" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_19}}}{{description=@{ab_det_19}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="19" name="act_ability_19" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_20" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_20}}}{{description=@{ab_det_20}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="20" name="act_ability_20" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <!-- 21-30 -->
@@ -3509,80 +3585,110 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_21" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_21}}}{{description=@{ab_det_21}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="21" name="act_ability_21" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_22" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_22}}}{{description=@{ab_det_22}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="22" name="act_ability_22" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_23" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_23}}}{{description=@{ab_det_23}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="23" name="act_ability_23" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_24" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_24}}}{{description=@{ab_det_24}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="24" name="act_ability_24" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_25" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_25}}}{{description=@{ab_det_25}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="25" name="act_ability_25" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_26" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_26}}}{{description=@{ab_det_26}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="26" name="act_ability_26" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_27" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_27}}}{{description=@{ab_det_27}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="27" name="act_ability_27" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_28" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_28}}}{{description=@{ab_det_28}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="28" name="act_ability_28" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_29" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_29}}}{{description=@{ab_det_29}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="29" name="act_ability_29" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_30" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_30}}}{{description=@{ab_det_30}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="30" name="act_ability_30" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                     </tbody>
@@ -3597,80 +3703,110 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_31" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_31}}}{{description=@{ab_det_31}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="31" name="act_ability_31" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_32" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_32}}}{{description=@{ab_det_32}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="32" name="act_ability_32" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_33" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_33}}}{{description=@{ab_det_33}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="33" name="act_ability_33" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_34" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_34}}}{{description=@{ab_det_34}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="34" name="act_ability_34" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_35" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_35}}}{{description=@{ab_det_35}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="35" name="act_ability_35" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_36" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_36}}}{{description=@{ab_det_36}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="36" name="act_ability_36" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_37" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_37}}}{{description=@{ab_det_37}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="37" name="act_ability_37" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_38" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_38}}}{{description=@{ab_det_38}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="38" name="act_ability_38" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_39" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_39}}}{{description=@{ab_det_39}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="39" name="act_ability_39" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_40" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_40}}}{{description=@{ab_det_40}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="40" name="act_ability_40" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <!-- 41-50 -->
@@ -3678,80 +3814,110 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_41" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_41}}}{{description=@{ab_det_41}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="41" name="act_ability_41" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_42" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_42}}}{{description=@{ab_det_42}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="42" name="act_ability_42" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_43" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_43}}}{{description=@{ab_det_43}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="43" name="act_ability_43" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_44" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_44}}}{{description=@{ab_det_44}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="44" name="act_ability_44" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_45" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_45}}}{{description=@{ab_det_45}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="45" name="act_ability_45" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_46" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_46}}}{{description=@{ab_det_46}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="46" name="act_ability_46" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_47" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_47}}}{{description=@{ab_det_47}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="47" name="act_ability_47" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_48" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_48}}}{{description=@{ab_det_48}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="48" name="act_ability_48" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_49" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_49}}}{{description=@{ab_det_49}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="49" name="act_ability_49" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_50" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_50}}}{{description=@{ab_det_50}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="50" name="act_ability_50" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <!-- 51-60 -->
@@ -3759,80 +3925,111 @@
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_51" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_51}}}{{description=@{ab_det_51}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="51" name="act_ability_51" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_52" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_52}}}{{description=@{ab_det_52}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="52" name="act_ability_52" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_53" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_53}}}{{description=@{ab_det_53}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="53" name="act_ability_53" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_54" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_54}}}{{description=@{ab_det_54}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="54" name="act_ability_54" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_55" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_55}}}{{description=@{ab_det_55}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="55" name="act_ability_55" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_56" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_56}}}{{description=@{ab_det_56}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="56" name="act_ability_56" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_57" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_57}}}{{description=@{ab_det_57}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="57" name="act_ability_57" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_58" type="text">
                             </td>
-                            <td><button type="action" value="58" name="act_ability_58" class="rb">
-                                    Edit
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_58}}}{{description=@{ab_det_58}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
+                            <td><button type="action" value="58" name="act_ability_58"
+                                    class="rb show-spell">
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_59" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_59}}}{{description=@{ab_det_59}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="59" name="act_ability_59" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                         <tr>
                             <td><input class="ability-name" id="ability_name"
                                     name="attr_ability_name_60" type="text">
                             </td>
+                            <td><button type="roll" class="rb init show-spell"
+                                    value="&amp;{template:ability}{{name=@{ability_name_60}}}{{description=@{ab_det_60}}}{{char_name=@{character_name}}}">
+                                    <span class="show-spell size12">Show</span></button></td>
                             <td><button type="action" value="60" name="act_ability_60" class="rb">
-                                    Edit
+                                    <span class="show-spell size12">Edit</span>
                                 </button></td>
                         </tr>
                     </tbody>
@@ -4029,11 +4226,6 @@
                     <span class="inv-item-name" name="attr_ability_name_37"></span><textarea
                         class="ab-det" name="attr_ab_det_37" value="{@{ab_det_37}}"
                         placeholder="Notes on ability 37"></textarea>
-                </div>
-                <div class="ab-det-38">
-                    <span class="inv-item-name" name="attr_ability_name_38"></span><textarea
-                        class="ab-det" name="attr_ab_det_38" value="{@{ab_det_38}}"
-                        placeholder="Notes on ability 38"></textarea>
                 </div>
                 <div class="ab-det-38">
                     <span class="inv-item-name" name="attr_ability_name_38"></span><textarea

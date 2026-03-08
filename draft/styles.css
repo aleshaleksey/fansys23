@@ -1,6 +1,7 @@
 /* NB: THE SHEET IS INTENDED FOR FIREFOX, BRAVE OR CHROME */
 
 
+.sheet-rolltemplate-ability .sheet-rt-container,
 .sheet-rolltemplate-spell .sheet-rt-container,
 .sheet-rolltemplate-main .sheet-rt-container,
 .sheet-rolltemplate-init .sheet-rt-container {
@@ -8,6 +9,7 @@
     background: #e5e7e3;
 }
 
+.sheet-rolltemplate-ability .sheet-rt-header,
 .sheet-rolltemplate-spell .sheet-rt-header,
 .sheet-rolltemplate-main .sheet-rt-header,
 .sheet-rolltemplate-init .sheet-rt-header {
@@ -18,6 +20,7 @@
 
 /* Pure initiative style */
 /* Pure initiative style */
+.sheet-rolltemplate-ability .sheet-title,
 .sheet-rolltemplate-spell .sheet-title,
 .sheet-rolltemplate-main .sheet-title,
 .sheet-rolltemplate-init .sheet-title {
@@ -28,6 +31,7 @@
     text-align: left;
 }
 
+.sheet-rolltemplate-ability .sheet-char-name,
 .sheet-rolltemplate-spell .sheet-char-name,
 .sheet-rolltemplate-main .sheet-char-name,
 .sheet-rolltemplate-init .sheet-char-name {
@@ -39,6 +43,7 @@
     color: #4a4c53;
 }
 
+.sheet-rolltemplate-ability .sheet-rolls,
 .sheet-rolltemplate-spell .sheet-rolls,
 .sheet-rolltemplate-main .sheet-rolls,
 .sheet-rolltemplate-init .sheet-rolls {
@@ -78,6 +83,7 @@
     align-content: center;
 }
 
+.sheet-rolltemplate-ability .sheet-spell-text,
 .sheet-rolltemplate-spell .sheet-spell-text {
     padding: 2px;
     box-sizing: border-box;
@@ -150,6 +156,7 @@
     font-size: 13pt;
 }
 
+.sheet-rolltemplate-ability .sheet-spell-field-head,
 .sheet-rolltemplate-spell .sheet-spell-field-head {
     text-decoration: underline;
     font-size: 11pt;
@@ -805,7 +812,7 @@ table.levels-table {
 }
 
 input[id=ability_name] {
-    width: 272px;
+    width: 212px;
 }
 
 textarea.ab-det {

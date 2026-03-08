@@ -636,6 +636,8 @@ ___
 - Add [Control Fire](08-spell-list.md#control-fire) to the spell list (level 4, fire).
 - Fix a few inaccuracies in the spell list.
 - [Ensnare](08-spell-list.md#ensnare) now formalises how damage affects the life created by the spell.
+- Experimental [table of basic spell params](08-spell-list.md#spell-component-summaries). We shall see if it is useful in this form or not.
+- Fix a couple of spell names (gift of the fates, healing seed).
 
 ### Equipment and Economy
 - Add more material on [resources](12-equipment-economy.md#resources).

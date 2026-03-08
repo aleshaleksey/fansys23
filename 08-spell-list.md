@@ -2665,7 +2665,7 @@ If the spell is cast with more than 7 MP die, its perimeter cannot be crossed by
 ___
 ### Gift of the Fates
 
-|Name|Favour of Fate [Divine, Kinetic]|
+|Name|Gift of the Fates [Divine, Kinetic]|
 |-|-|
 |Scope|local|
 |MP Dice|4|
@@ -2708,7 +2708,7 @@ ___
 ___
 ### Healing Seed
 
-|Name|Greater Heal [Earth, Life, Nature, Spring]|
+|Name|Healing Seed [Earth, Life, Nature, Spring]|
 |-|-|
 |Scope|local|
 |MP Dice|4|
@@ -5100,6 +5100,209 @@ ____
 - The spell is permanent, but even if the spell is dispelled, the place it is cast forever resonates with an aura of [Curse, Divine, Profane, Spiritual] energies. Mortals born nearby may be cursed or blessed by the gods, or have otherworldly affinities or resistances.
 - After the spell is dispelled, the area is still affected as if by a permanent ["Rejuvenate Land"](#rejuvenate-land), likewise, entities that rest here roll a 1d6. On a 1, they gain a curse (as if affected by ["Curse"](#least-curse) cast with 3 MP dice). On a 6 they are healed (as if affected by ["Cure"](#cure) cast with 3 MP dice).
 - The caster gains the grudge of a divine entity, and the favour of a [glitch](10-conditions-types.md#divine-1), the later seldom being a good thing.
+
+____
+
+## Spell Component Summaries
+
+Below one will find short summaries of each spell containing the scope, components and concentration of each spell.
+
+|Spell Name (MP 0)|MP dice|Kind|Components|Concentration|
+|-|-|-|-|-|
+|Compass|0|local|kinetic||
+|Deafen|0|local|kinetic||
+|Down|0|local|incantation||
+|Hide|0|local|kinetic||
+|Ignition|0|local|both||
+|Least Anemancy|0|local|incantation||
+|Least Blast|0|local|both||
+|Least Freeze|0|local|both||
+|Least Geomancy|0|local|incantation||
+|Least Hydromancy|0|local|incantation||
+|Least Pyromancy|0|local|incantation||
+|Least Shroud|0|local|kinetic||
+|Least Spike|0|local|incantation||
+|Least Ward|0|local|incantation||
+|Least Warmth|0|local|both||
+|Message|0|local|kinetic||
+|Mist|0|local|kinetic||
+|Silent|0|local|kinetic||
+|Sour|0|Local|incantation||
+|Witch's Candle|0|local|kinetic||
+
+|Spell Name (MP 1)|MP dice|Kind|Components|Concentration|
+|-|-|-|-|-|
+|Bear's Claws|1+|local|incantation||
+|Beast Speech|1 (2)|local (global)|both||
+|Winter's Touch|1|local|both|yes|
+|Enflame|1|local|kinetic|yes|
+|Ensnare|1 (2)|local (global)|both||
+|Fade|1|local|both||
+|Foxfire|1 (2)|local (global)|both|yes|
+|Gnomes' Mercy|1|local|both||
+|Headwind|1 (2)|local (global)|incantation|local|
+|Least Flare|1 (2)|local (global)|both|local|
+|Least Heal|1|local|incantation||
+|Lesser Illusory Self|1 (2)|local (global)|kinetic||
+|Least Vengeance|1|local|incantation||
+|Least Weather Control|1|local|both||
+|Sense Spell|1|local|both||
+|Shape Earth|1 (2)|local (global)|kinetic||
+|Spirits' Secret|1 (2)|local (global)|kinetic||
+|Summon Beast|1 (2)|local (global)|both|local|
+|Tailwind|1 (2)|local (global)|both||
+|Water Snake|1|local|both|yes|
+|Winter's Touch|1 (2)|local (global)|kinetic|local|
+
+|Spell Name (MP 2)|MP dice|Kind|Components|Concentration|
+|-|-|-|-|-|
+|Call Ailment|2 (4)|local (global)|kinetic|yes|
+|Dusk|2 (4)|local (global)|both||
+|Earthen Hand|2 (4)|local (global)|kinetic|yes|
+|Glide|2 (4)|local (global)|kinetic|local|
+|Harvest|2 (4)|local (global)|both||
+|Least Rest|2|local|both||
+|Least Transformation|2 (4)|local (global)|kinetic||
+|Lesser Veil|2 (4)|local (global)|incantation||
+|Lesser Xenophonia|2 (4)|local (global)|incantation||
+|Meadow of Flame|2|local|incantation|yes|
+|Natural Xenophonia|2 (4)|local (global)|incantation||
+|Promise|2 (4)|local (global)|incantation||
+|Silence|2 (4)|local (global)|kinetic||
+|Summon Flame Sprite|2 (4)|local (global)|both|local|
+|Summon gnome|2 (4)|local (global)|both|local|
+|Summon Water Sprite|2 (4)|local (global)|both|local|
+|Summon Wind Sprite|2 (4)|local (global)|both|local|
+|Trace Secret Path|2 (4)|local (global)|incantation||
+|Warmth|2 (4)|local (global)|kinetic||
+|Warded Ground|2 (4)|local (global)|both||
+|Wind Step|2+|Local|incantation||
+
+|Spell Name (MP 3)|MP dice|Kind|Components|Concentration|
+|-|-|-|-|-|
+|Animate Dead|3 (6)|local (global)|kinetic||
+|Animate Plant|3 (6)|local (global)|both|local|
+|Blade Ward|3 (6)|local (global)|both||
+|Blessing of the Fates|3|local|kinetic||
+|Command Mortal|3|local|both||
+|Cure|3|local|incantation||
+|Earth Ward|3 (6)|local (global)|both|local|
+|Fairy Shelter|3 (6)|local (global)|kinetic||
+|Fire Ward|3 (6)|local (global)|both|local|
+|Growth|3 (6)|local (global)|both||
+|Guidance of the Earth|3 (6)|local (global)|both||
+|Guidance of the Winds|3 (6)|local (global)|both||
+|Illusory Self|3 (6)|local (global)|kinetic||
+|Least Curse|3 (6)|local (global)|kinetic||
+|Melt|3 (6)|local (global)|incantation||
+|Mole|3 (6)|local (global)|incantation||
+|See Spell|3 (6)|local (global)|kinetic||
+|Slumber|3 (6)|local (global)|both||
+|Storm Ward|3 (6)|local (global)|both|local|
+|Summer's Blade|3|local|kinetic||
+|Water Walk|3 (6)|Local (Global)|kinetic||
+|Water Ward|3 (6)|local (global)|both|local|
+|Wind Walk|3 (6)|Local (Global)|incantation||
+|Winter's Blade|3|local|kinetic||
+
+|Spell Name (MP 4)|MP dice|Kind|Components|Concentration|
+|-|-|-|-|-|
+|Animate Golem|4 (8)|local (global)|both|local|
+|Aqueous Step|4 (8)|local (global)|kinetic||
+|Balance of Seasons|4 (8)|local (global)|incantation|local|
+|Balance of Nature|4 (8)|local (global)|incantation|local|
+|Bestial Transformation|4 (8)|local (global)|kinetic||
+|Enchanted Ground|4 (8)|local (global)|both|local|
+|False Aura|4 (8)|local (global)|both||
+|Gift of the Fates|4|local|kinetic||
+|Forbiddance|4 (8)|local (global)|kinetic|no|
+|Freedom|4 (8)|local (global)|both||
+|Greater Xenophonia|4 (8)|local (global)|incantation||
+|Healing Seed|4|local|local|yes|
+|Lesser Domain|4 (8)|local (global)|both||
+|Least Storm|4 (8)|local (global)|both|local|
+|Lesser Weather Control|4 (8)|local (global)|incantation||
+|Lesser Incarnate|4 (8)|local (global)|kinetic|yes|
+|Mirage|4 (8)|local (global)|kinetic||
+|Rejuvenate Land|4 (8)|local (global)|both||
+|Scry|4 (8)|local (global)|kinetic|local|
+|Speak Through Flame|4|local|incantation||
+|Summon Spirit|4 (8)|local (global)|incantation|local|
+
+|Spell Name (MP 5)|MP dice|Kind|Components|Concentration|
+|-|-|-|-|-|
+|Blessing of the Winds|5|local|both||
+|Cosmic Seal|5 (20)|local (global)|both||
+|Dominate Mortal|5 (10)|local (global)|both|local|
+|Dream|10|global|incantation||
+|Flame Stride|5 (10)|local (global)|kinetic||
+|Flare|5 (10)|local (global)|kinetic|local|
+|Flawed Transmutation|5 (10)|local (global)|incantation||
+|Lesser Flood|5 (20)|local (global)|kinetic||
+|Greater Fade|5 (10)|local (global)|both||
+|Greater Fire Ward|5 (10)|local (global)|both|local|
+|Heart Ward|5 (10)|local (global)|incantation||
+|Isolate Essence|5 (10)|local (global)|kinetic||
+|Pact|5 (10)|local (global)|incantation||
+|Plague|5 (10)|local (global)|kinetic||
+|Revenant|20|(global)|both||
+|Rift|5 (20)|local (global)|both||
+|Stone Ward|5 (10)|local (global)|both||
+|Summon Fiend|5 (10)|local (global)|both|local|
+|Summons|5+ (12)|local (global)|kinetic||
+|Freeze|5|local|incantation|yes|
+
+|Spell Name (MP 6)|MP dice|Kind|Components|Concentration|
+|-|-|-|-|-|
+|Fairy Feast|12 (special)|global|incantation||
+|False Regrowth|6 (12)|local (global)|both||
+|Forced Possession|6 (12)|local (global)|both|local|
+|Forest of Flame|6 (24)|local (global)|both|yes|
+|Greater Earth Ward|6 (24)|local (global)|both|local|
+|Freedom|6 (24)|local (global)|both||
+|Greater Storm Ward|6 (24)|local (global)|both|local|
+|Great Water Ward|6 (24)|local (global)|both|local|
+|Inner Voice|6|local|kinetic||
+|Legion of Dead|6 (12)|local (global)|both|yes|
+|Madness|6 (12)|local (global)|kinetic|local|
+|Metamorphosis/Rebirth|6 (12)|local (global)|both||
+|Otherworld Step|6 (12)|local(global)|both||
+|Razor Wind|6|local|incantation||
+|Spirit Restoration|6(special!)|local|incantation||
+|Summon Angel|6 (12)|local (global)|both|local|
+|Summon Elemental|6 (12)|local (global)|both||
+
+|Spell Name (MP 7)|MP dice|Kind|Components|Concentration|
+|-|-|-|-|-|
+|Create Secret Path|14|global|incantation||
+|Dream-Walk|14|global|incantation||
+|Least Weather Control|7 (28)|local (global)|both||
+|Incarnate|14|global|both||
+|Memory Thief|7|local|incantation||
+|Meteoric Flight|7 (14)|local (global)|both||
+|Portal|7 (14)|local (global)|kinetic|local|
+|Transformation Mortal|7 (14)|local (global)|kinetic||
+
+|Spell Name (MP 8+)|MP dice|Kind|Components|Concentration|
+|-|-|-|-|-|
+| Greater Domain|8 (32)|local (global)|both||
+|Greater cosmic Seal|8 (32)|local (global)|both||
+|Profane Resurrection|32|global|both||
+|Regrowth|8|local|both||
+|Earthquake|9 (36)|local (global)|both|local|
+|Fairy Ball/Masquerade|9 (36)|local (global)|kinetic||
+|Ifrit's Gift|9 (36)|local (global)|both|local|
+|Mage's Oath|9 (36)|local (global)|incantation||
+|True Storm|9 (36)|local (global)|both|local|
+|Wave|9 (36)|local (global)|both||
+|Avatar|10 (40)|local (global)|both||
+|Edict of Life|10 (40)|local(global)|both||
+|Gift of the Winds|10 (40)|local (global)|both||
+|Mandate of the Deep|10 (40)|local (global)|both|local|
+|Realm of Flame|10 (40)|local (global)|both|local|
+|True Geomancy|10 (40)|local (global)|both|local|
+|Undying Realm|40|global|both||
+
 
 ____
 

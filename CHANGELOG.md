@@ -635,6 +635,7 @@ ___
 - Nerf ["Least Pyromancy"](08-spell-list.md#least-pyromancy), preventing it from affecting fires larger than "huge".
 - Add [Control Fire](08-spell-list.md#control-fire) to the spell list (level 4, fire).
 - Fix a few inaccuracies in the spell list.
+- [Ensnare](08-spell-list.md#ensnare) now formalises how damage affects the life created by the spell.
 
 ### Equipment and Economy
 - Add more material on [resources](12-equipment-economy.md#resources).

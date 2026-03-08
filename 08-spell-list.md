@@ -687,6 +687,8 @@ ___
 
 **Description**: Vigorous plant life sprouts and grasps at all targets in range. Entities that start their turn within the area of effect must succeed a DEX or STR save or be "restrained". The save is repeated every turn that an entity is in the area of effect. The area of effect is also transformed into difficult terrain for the duration of the spell.
 
+**Special**: The plant life in a square can be destroyed by dealing 1 dice of damage to it (other than "piercing" damage). It regrows at the start of the caster's turn.
+
 **Upcast (local)**: Increase the radius by 5ft for every extra 1MP die above 1 of cost paid.
 
 **Global**: Create a zone of 200ft with the same properties. For every 2MP dice above 2, add either 100ft of radius, or 1 hour of duration.

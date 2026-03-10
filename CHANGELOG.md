@@ -626,6 +626,7 @@ ___
 
 ### Abilities
 - Weaken [Counterstrike](06-abilities.md#counterstrike) so that the HiT is reduced for the next attack against the performing character..
+- Alter [elementalism](06-abilities.md#elementalism-elemental-blast) to reduce half-damage threshold on a save to OVER 2 MP dice.
 
 ### Spells
 - Add [Summons](08-spell-list.md#summons) spell.

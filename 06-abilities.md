@@ -1199,7 +1199,7 @@ ___
 - On the other hand, if the form is "touch", "sweep" or "aura" and the target is in direct contact with the elementalist (eg grappling or being grappling), the attack is at advantage. Likewise any saving throw against the elementalism is at disadvantage.
 - In areas aligned with the given element, the elementalism gains an additional damage die.
 - In areas aligned with an opposite element, the elementalism loses a damage die.
-- If the elemental form does not require an attack roll, but instead triggers a save there is no damage on a successful save. However, if more than 4 MP dice are expended in total, then, on a successful save, the elementalism still causes half damage.
+- If the elemental form does not require an attack roll, but instead triggers a save, *then there is no damage on a successful save*. However, if more than 2 MP dice are expended in total, then, on a successful save, the elementalism still causes half damage.
 
 **Limitations**: Elementalism originates from the user and travels more or less in a straight line, unaffected by wind or gravity. The blast is affected by cover and concealment. If the blast impacts cover, it may damage, ignite, or have other affects on it (see below).
 

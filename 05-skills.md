@@ -28,10 +28,10 @@ This section covers which skills exist and how they are used.
 ___
 ## Skills and Proficiencies
 
-The game has **skills** and **proficiencies**. The game defines them as follows. They do not necessarily reflect "real life" accurately since this is both a game and an abstraction.
+The game has **skills** and **proficiencies**. The game defines them as follows:
 
-- **Skills:** are general training and expertise a range of mundane activities that a character can learn and improve in with time. For example, **swimming** is a skill because it covers, swimming, diving and similar, and a character's ability to swim is graded. Eg. "I can't swim", "I can swim but not well", "I can cross a river, yeah", "I've swam 20 miles, it took me 3 hours".
-- **Proficiencies:** A proficiency is the knowledge and ability in using a very specific set of tools or abilities. Having a **proficiency** allows a character to use a skill with the tool/ability with a skill. Eg. Proficiency in **lock picks** with a **tinker** check allows picking locks. Proficiency with **whale** allows you to use **diplomacy** skill to persuade whales when speaking in their language.
+- **Skills:** are general training and expertise in a range of mundane activities or disciplines that a character can learn and improve with time. For example, [**"swim"**](#swim) is a skill that covers swimming, diving and similar, and a character's ability to swim is not binary, i.e it is not simply you can swim or you can't, but rather: "I can't swim", "I can swim but not well", "I can cross a river, yeah", "I've swam 20 miles, it took me 3 hours".
+- **Proficiencies:** A proficiency is the knowledge and ability needed to use a specific toolset or technique. Having a **proficiency** allows a character to use a skill in situations that require the given toolset or techniques. Eg. Proficiency with "lock picks" with a [**tinker**](#tinker) check allows picking locks. Proficiency with the "orcish language" allows you to use [**persuade**](#persuade) skill to persuade those who understand only that tongue. Proficiency with "heavy blades" allows one to attack with longswords, rapiers and similar weapons without certain penalties that un-proficient wielders suffer from.
 
 ___
 ### Acquiring skills and proficiencies
@@ -47,7 +47,7 @@ A character gets skill points (ranks) based on level and intelligence. The maxim
 
 - **[LEVEL / 2] rounded up**.
 
-Every level a character gains skill points equal to **4 + [INT]** (With essentially 4 extra skill points at level 1). So at level LVL a character has **4 + [LVL] x (4 + [INT])** skill points (not counting any ranks gained through converting "level points" to skill points).
+Every level a character gains skill points equal to **4 + [INT]** (With essentially 2 extra skill points and 2 extra points for proficiencies at level 1). So at level LVL a character has **4 + [LVL] x (4 + [INT])** skill points (not counting any ranks gained through converting "level points" to skill points).
 
 A skill point can be assigned to either (a) gain a proficiency, or (b) add a rank to a skill. Each level a character can reassign one of the previously assigned skill points to a different proficiency or skill. If a character has **zero** ranks in a skill and does not have the skill as a background skill, any roll of the dice (before modifiers!) in that skill above 13 counts as 13. This reflects lack of specialist knowledge and experience that that character lacks. A character can circumvent this by using a different skill in the same ["skill group"](#skill-groups), however, in this case they take a -5 penalty to the roll instead.
 
@@ -59,12 +59,12 @@ Every ODD level a character adds a "background" skill to add its **base + 1** to
 ___
 ### Total Skill bonus
 
-A character has a skill bonus of **[Base + 1(optional)] + [ranks] + [ability bonus]**. So a character with INT = +2, and 2 ranks in "swim" has a +4 to swim. If they have assigned "swim" as a background skill, and their base is +1, the total bonus is +6.
+A character has a skill bonus of **[Base + 1] + [ranks] + [ability bonus]**. So a character with INT = +2, and 2 ranks in "swim" has a +4 to swim. If they have assigned "swim" as a background skill, and their base is +1, the total bonus then becomes +6 instead of +4.
 
 ___
 ### Circumstance bonus
 
-Sometimes circumstances may add a +2/+5 to a roll (eg Homeland bonus for navigation). Sometimes they may cause advantage or disadvantage. Sometimes they are codified in the rules, sometimes the DM may apply them as appropriate.
+Sometimes circumstances may add (or subtract!) a +2/+5 to a roll (eg Homeland bonus for navigation). Sometimes they may cause advantage or disadvantage. Sometimes they are codified in the rules, sometimes the DM may apply them as appropriate.
 
 ___
 #### Assisting and Circumstance bonuses
@@ -74,9 +74,9 @@ In this case the assisting character may also make the skill/ability roll (with 
 
 This bonus stacks. However, the number of assistants can be no higher than [base] of the initiating character. So a level 5 character can benefit from no more than 1 assistant. A level 12 character can benefit from no more than 3 assistants.
 
-Some skills cannot be assisted.
+There are times where no bonus can be gained by assisting mainly with skills where only one character is active, or when there is not enough time to do anything to help.
 
-**Optional rule**: If it makes sense that a different skill should be able to help (for example assisting a "Spellworking" roll with a "Knowledge: Arcana" roll, or assisting a "Tinker" roll with an "Academics" roll, or assisting a "Harvest") in a given situation, the alternate skill can also be used for assisting. This rule can be problematic since, firstly it slows down the game as players may go into unnecessary long justifications, and secondly, adds a lot more to DM whimsy. On the other hand, this can also encourage creative role-play. An ["Optional Suggested Assisting Skills"](#optional-suggested-assisting-skills) table is provided below.
+**Optional rule**: If it makes sense that a different skill should be able to help (for example assisting a "Spellworking" roll with a "Knowledge: Arcana" roll, or assisting a "Tinker" roll with an "Academics" roll, or assisting a "Harvest" with "Fortify" or "Knowledge: Nature") in a given situation, the alternate skill can also be used for assisting. This rule can be problematic since a) it slows down the game as players may go into unnecessary long justifications, and b), adds a lot more to DM whimsy. On the other hand, this can also encourage creative role-play. An ["Optional Suggested Assisting Skills"](#optional-suggested-assisting-skills) table is provided below.
 
 ___
 ### Skill groups
@@ -208,7 +208,7 @@ Any entity whose body fits a suit of armour can wear the armour. As such it will
   - If it is a **medium** or **heavy** armour: It takes a -5 penalty to all DEX and STR based rolls it makes.
   - If it is a **light** armour or a **shield**: It takes a -2 penalty to all DEX and STR based rolls and gains only half of the armour/shield bonus to HiT.
 
-Armour and its properties are further discussed in the ["Weapons and Armour Section"](11-weapons-armour.md#weapons-and-armour).
+Armour and its properties are further discussed in the ["Weapons and Armour"](11-weapons-armour.md#weapons-and-armour) section.
 
 There are three armour proficiencies that each cover several groups of armour.
 
@@ -228,7 +228,7 @@ Weapons are tools that increase an entity's lethality in combat. For the sake of
 
 Any entity may wield a weapon it is physically capably of wielding. If it is not proficient, it makes attacks with a -5 penalty. On snake eyes it damages itself, rolling the same damage dice it would as if it had hit the intended target. In addition it provokes attacks of opportunity when it attacks, since poor technique leaves openings.
 
-Proficiency eliminates both the penalty and the damage to self on snake eyes. In addition it allows the use of any of a weapon's special properties.
+Proficiency eliminates both the penalty and the damage to self on snake eyes. In addition it allows the use of a weapon's special properties.
 
 Weapon proficiencies are taken for each subgroup (eg "Strikes" and "Throws" are a separate proficiencies).
 

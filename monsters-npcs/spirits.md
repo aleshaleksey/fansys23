@@ -29,6 +29,8 @@
     - [Wisp](#wisp)
 - [Spirits: Other](#spirits-other)
     - [Siren (True)](#siren-true)
+    - [Echo](echo)
+    - [Echo of an Arch-mage](#echo-of-an-arch-mage)
 
 ## Spirits: Elementals
 
@@ -1253,7 +1255,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/13/15|20 (*12*)|26 (*18*)|11|||
+|15/13/15|20 (*12*)|26 (*18*)|11|-|Flight (60ft, perfect, endurance=unlimited)|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -1294,7 +1296,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-||||||
+|22/19/22|123 (*39*)|141 (*57*)|27|-|Blink 30ft, Flight (60ft, perfect, endurance=unlimited)|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|

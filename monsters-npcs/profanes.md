@@ -358,6 +358,7 @@ ___
 |-|-|-|-|
 |Claws|+5|1d6+2||
 |Short sword|+5|1d6+2||
+|Shortbow|+5|1d6+2|Range=600ft, Increment=120ft. A vampire spawn might be proficient with bows.|
 |Grapple|+5|||
 |Vampiric Bite|+5|1d4+2|If a vampire's bite causes HP damage to а mortal with blood, the vampire regains that number of HP. If the vampire is already at full HP, its STR increases by the number of points of damage dealt to the target's HP for 1 minute.|
 |||||
@@ -411,6 +412,7 @@ ___
 |Claws|+10|1d6+4||
 |Rapier (Steel)|+12|1d10+5|(Reach=5ft long)|
 |Dagger|+12|1d4+5|(Reach=5ft long)|
+|Longbow|+10|1d10+5|Range=1200ft, Increment=240ft. A vampire might be proficient with bows, though vampires do prefer melee combat.|
 |Vampiric Bite|+10|1d4+4|If a vampire's bite causes HP damage to а mortal with blood, the vampire regains that number of HP. If the vampire is already at full HP, its STR increases by the number of points of damage dealt to the target's HP for 1 minute.|
 |[Steel Wind Strike](../06-abilities.md#steel-wind-strike)|+12|+1d8/SP die|A vampire can use up to 4 SP die when executing a steel wind strike.|
 |Grapple, Disarm|+10|||
@@ -476,6 +478,7 @@ ___
 |-|-|-|-|
 |Claws|+16|1d12+7||
 |Great Axe (Iron)|+17|2d8+7|(Reach=5ft long)|
+|Longbow|+17|1d10+6|Range=1200ft, Increment=240ft. A vampire lord might be proficient with bows, though vampires do prefer melee combat.|
 |Grapple|+16|||
 |Disarm|+16|||
 |Throw|+16|||
@@ -500,7 +503,7 @@ ___
 |||||
 |[Alert](../06-abilities.md#alert)|||An ancient vampire cannot be surprised.|
 |Alternate Form: Bat|||A vampire can turn into a bat, or back, as a secondary action. It takes the bat's physical stats, saves, size, HiT, and movement modalities, but is otherwise still a vampire|
-|Resistant|||"physical" damage (ignored by weapons made of silver), "disease", "poison", "necrotic"|
+|Resistant|||"physical" damage (ignored by weapons made of silver), "cold", "disease", "poison", "necrotic"|
 |Resistant|||"prone", "bleeding", "crippled", "incapacitated", "frightened", "poisoned", "diseased"|
 |Immune|||"fear", "unconscious", "charm"|
 |Vulnerability|||"divine", "light"|

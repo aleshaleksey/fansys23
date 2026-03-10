@@ -756,6 +756,7 @@ A typical humanoid has a terminal velocity of about 100mph, or 1000ft per round.
 - "Tiny" and smaller entities take 1d4 damage for every 10ft fallen, as they typically have a lower terminal velocity.
 - Damage upon "landing" is Physical[Natural] damage. Entities resistant or immune to Physical[Natural] damage need not fear the ground.
 - Entities that do not have weight (not mass, weight) do not fall.
+- When a falling entity lands on a square occupied by another corporeal entity, then the entity it lands on must make a Threshold=20 DEX save or suffer half of the total falling damage that the falling entity would have suffered before any acrobatics rolls or damage resistance/immunity is applied. The falling entity likewise only takes half of the damage, unless the entity it lands on is immune to percussive and pressure damage.
 
 ___
 ### Fire damage and being on fire

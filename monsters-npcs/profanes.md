@@ -875,7 +875,7 @@ Saves: Str, Con
 |||||
 |Monster Attack III|||A fiendish warrior makes 4 attacks/combat manoeuvres|
 |Combined Manoeuvre II|||A fiendish warrior can combine up to 3 basic combat manoeuvres|
-|Parry|||A fiendish warrior adds +3 to HiT for up to 5 attacks.|
+|Parry|||A fiendish warrior adds +3 to Hit against up to 5 attacks.|
 |Opportunist|||Can make attacks of opportunity vs entities that are standing up or drinking potions|
 |["Charge"](../06-abilities.md#charge)|||Can attack when running/sprinting when mounted|
 |Counterstrike|||Can take an attack of opportunity against a foe that hits it in melee|
@@ -943,8 +943,8 @@ ___
 |||||
 |Monster Attack I|||A herald of the Abyss makes 2 attacks/combat manoeuvres|
 |||||
-|Combined Manoeuvre II|||A fiendish warrior can combine up to 3 basic combat manoeuvres|
-|Parry|||A fiendish warrior adds +3 to HiT for up to 5 attacks.|
+|Combined Manoeuvre II|||A herald can combine up to 3 basic combat manoeuvres|
+|Parry|||A herald adds +3 to HiT against up to 3 attacks.|
 |Opportunist|||Can make attacks of opportunity vs entities that are standing up or drinking potions|
 |Counterstrike|||Can take an attack of opportunity against a foe that hits it in melee|
 |||||
@@ -1007,8 +1007,8 @@ ___
 |Monster Attack III|||A greater fiend makes 4 attacks/combat manoeuvres|
 |Combined Manoeuvre II|||A greater fiend can combine up to 3 basic combat manoeuvres|
 |Greater Manoeuvre I|||A greater fiend can apply manoeuvres even to colossal targets|
-|Parry|||A greater fiend adds +4 to HiT for up to 5 attacks.|
-|Great Strike|||A greater fiend adds +4 to HiT for up to 5 attacks.|
+|Parry|||A greater fiend adds +4 to Hit against up to 5 attacks.|
+|Great Strike|||A greater fiend can sacrifice up to -5 from its attack bonus to add up to +5/+10 for attacks with one/two handed weapons.|
 |Opportunist|||Can make attacks of opportunity vs entities that are standing up or drinking potions|
 |["Charge"](../06-abilities.md#charge)|||Can attack when running/sprinting when mounted|
 |Counterstrike|||Can take an attack of opportunity against a foe that hits it in melee|

@@ -1243,6 +1243,94 @@ Regardless of origin, a spirit invariably has the following properties:
 
 
 ___
+### Echo
+
+**Size**: Medium (5 x 5ft), although can be any size.
+
+- Reach: 5ft
+- HiT: +2 (Deflection)
+- Carrying capacity: - (incorporeal)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|15/13/15|20 (*12*)|26 (*18*)|11|||
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|-|15|-|12|15|19|
+|Bonus|-|+2|-|+1|+2|+4|
+|Save|-|+3|-|+2|+3|+7|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
+|-|-|-|-|-|-|-|
+|3(1)|4|7|1|2|2|3|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|[Elementalism: Touch (Air)](../06-abilities.md#elementalism-elemental-blast)|+5|1d8+2[Pre]|Range=120ft + 30ft/MP die. Maximum of 2 MP die. Damage increases by 1d8 per MP die.|
+|[Elementalism: Blast (Air)](../06-abilities.md#elementalism-elemental-blast)|+5|1d8+2[Pre]|Range=Close.  Maximum of 2 MP die. Damage increases by 1d8 per MP die.|
+|||||
+|Echo's song|Thr=17||(Range=30ft, Cost=1MP die/target). As a secondary action, an echo can make the essence of its desire manifest as song. For every MP die the echo expends, one target of its choice that can hear the song must succeed a WIS save at the start of its turn or become deafened and charmed by the echo. It may repeat its save at the start of each turn.|
+|||||
+|[Bard Song](../06-abilities.md#bard-song-i-iv)|||Echoes can start and maintain bard's song as a secondary action.|
+|[Tremor-sense, 60ft](../06-abilities.md#tremor-sense-i-vi)||||
+|||||
+|Immunity|||"Physical", "necrotic", "poison" damage|
+|Immunity|||"Stunned", "immobilised", "incapacitated", "crippled", "bleeding", "poisoned", "paralysed", "aphonic"|
+|Absorb Echoes|||An echo is not only immune to "pressure" damage, but also regains MP/SP/HP (as appropriate), equal to half of the damage dealt.|
+|||||
+|Skills|||+6 "Observe", +3 "Prospect", +3 one knowledge skill|
+
+Echoes are the vestiges of the emotions, will and wishes of mortals. Unlike [cursed shades](profanes.md#cursed-shade), and [earthbound shades](profanes.md#earthbound-shade-lesser), echoes are spirits that are native to many spirit realms and are not truly undead. Echoes strive to achieve an aim that a mortal had in life. Since strong emotions often beget drastic deeds, echoes, especially the echoes of great mages and warriors can be quite dangerous.
+
+___
+### Echo of an Arch-mage
+
+**Size**: Medium (5 x 5ft), although can be any size.
+
+- Reach: 5ft
+- HiT: +6 (Deflection)
+- Carrying capacity: - (incorporeal)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+||||||
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|-|17|-|20|21|24|
+|Bonus|-|+3|-|+5|+5|+7|
+|Save|-|+|-|+8|+8|+15|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
+|-|-|-|-|-|-|-|
+|13(3)|16|25|3|6|6|8|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|[Elementalism: Touch (Air)](../06-abilities.md#elementalism-elemental-blast)|+13|3d8+5[Pre]|Range=120ft + 30ft/MP die. Maximum of 6 MP die. Damage increases by 1d8 per MP die.|
+|[Elementalism: Blast (Air)](../06-abilities.md#elementalism-elemental-blast)|+13|3d8+5[Pre]|Range=Close.  Maximum of 6 MP die. Damage increases by 1d8 per MP die.|
+|Elementalism Forms|||["Line"](../06-abilities.md#line), ["Circle"](../06-abilities.md#circle), ["Aura"](../06-abilities.md#aura)|
+|||||
+|Echo's song|Thr=20||(Range=30ft, Cost=1MP die/target). As a secondary action, an echo can make the essence of its desire manifest as song. For every MP die the echo expends, one target of its choice that can hear the song must succeed a WIS save at the start of its turn or become deafened and charmed by the echo. It may repeat its save at the start of each turn.|
+|[Spellcasting VII](../06-abilities.md#spellcasting-local)|Thr=21||An arch-mage's echo can cast spells of the "school" the mage was most attached to in life to 7th level.|
+|[Sc: Global](../06-abilities.md#spellcasting-global)|Thr=21||An arch-mage's echo retains the mage's global spellcasting.|
+|||||
+|[Bard Song](../06-abilities.md#bard-song-i-iv)|||Echoes can start and maintain bard's song as a secondary action.|
+|[Tremor-sense, 60ft](../06-abilities.md#tremor-sense-i-vi)||||
+|Immunity|||"Physical", "necrotic", "poison" damage|
+|Immunity|||"Stunned", "immobilised", "incapacitated", "crippled", "bleeding", "poisoned", "paralysed", "aphonic"|
+|Absorb Echoes|||An echo is not only immune to "pressure" damage, but also regains MP/SP/HP (as appropriate), equal to half of the damage dealt.|
+|||||
+|Resistance|||"Cold", "Fire"|
+|Immunity|||"Physical", "necrotic", "poison" damage|
+|Immunity|||"Stunned", "immobilised", "incapacitated", "crippled", "bleeding", "poisoned", "paralysed", "aphonic"|
+|Immortal Will|||An echo within a spirit realm cannot be permanently destroyed. It will reaper within 1d6+1 days, although the time may be much shorter. An echo that is vanquished in the material world can be permanently put to rest by completing its will.|
+|Loot|||An echo that is put to rest permanently imparts knowledge of a single spell to the one who put it to rest, along with a single precious memory.|
+
+Echoes are the vestiges of the emotions, will and wishes of mortals. The will of accomplished mages tends to be particularly strong and persistent and can be found lingering in places and realms of great significance to these individuals - often as guardians of great libraries, remote towers, secret paths and mystic glades.
+
+___
 ### Siren (True)
 
 **Size category**: Large (10ft x 10ft)

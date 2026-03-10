@@ -1302,7 +1302,7 @@ ___
 |-|-|-|-|-|-|-|
 |Stat|-|17|-|20|21|24|
 |Bonus|-|+3|-|+5|+5|+7|
-|Save|-|+|-|+8|+8|+15|
+|Save|-|+6|-|+8|+8|+15|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
@@ -1331,6 +1331,41 @@ ___
 |Loot|||An echo that is put to rest permanently imparts knowledge of a single spell to the one who put it to rest, along with a single precious memory.|
 
 Echoes are the vestiges of the emotions, will and wishes of mortals. The will of accomplished mages tends to be particularly strong and persistent and can be found lingering in places and realms of great significance to these individuals - often as guardians of great libraries, remote towers, secret paths and mystic glades.
+
+___
+### Shadow
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+||||||
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|-|17|-|11|15|15|
+|Bonus|-|+3|-|0|+2|+2|
+|Save|-|+6|-|0|+3|+3|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
+|-|-|-|-|-|-|-|
+|5(1)|10|7|2|2|3|3|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Shadow Sword|+6|1d6+3[Sla/Spiritual]|Reach=close. A shadow's sword is considered a spiritual weapon, and treats physical damage immunity as resistance. The sword is physically tangible, but is also an innate part of the shadow.|
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|Immunity|||"Physical", "necrotic", "cold", "poison" damage|
+|Immunity|||"Stunned", "immobilised", "restrained", "grappled", "incapacitated", "crippled", "bleeding", "poisoned", "paralysed", "glowing"|
+|||||
+
+Shadows are vestiges of the habits and common behaviours of mortals. Unlike [cursed shades](profanes.md#cursed-shade), and [earthbound shades](profanes.md#earthbound-shade-lesser), shadows are spirits that are native to many spirit realms and are not truly undead. Shadows tend to repeat certain patterns of behaviour of the original being. Most shadows are not particularly dangerous and will show little hostility to mortals, but the shadows of warriors and monsters are particularly dangerous.
 
 ___
 ### Siren (True)

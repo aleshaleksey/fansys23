@@ -239,6 +239,8 @@ ___
 |-----|-------------------|---|---|---|------------|-------------|
 |17   |23/20/17           |145|93 |25 |40          |-            |
 
+**OPTIONAL**: A skeleton dragon may or may not have a poor flight speed (120ft, poor, endurance = unlimited).
+
 |     |Str|Dex|Con|Int|Wis|Cha|
 |-----|---|---|---|---|---|---|
 |Stat |24 |16 |20 |10 |16 |16 |

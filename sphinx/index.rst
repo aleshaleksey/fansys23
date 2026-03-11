@@ -94,7 +94,7 @@ The version currently stands at:
 Rulebooks
 ---------
 
-The rulebooks for version v0.0.19 can be downloaded from the `github repository <https://github.com/aleshaleksey/fansys23/releases/tag/version-0.0.19>`__.
+The rulebooks for version v0.0.19 can be downloaded from the `github repository <https://github.com/aleshaleksey/fansys23/releases/tag/version-0.0.20>`__.
 
 Fantasy Committee
 -----------------

@@ -1279,7 +1279,7 @@ ___
 |||||
 |Immunity|||"Physical", "necrotic", "poison" damage|
 |Immunity|||"Stunned", "immobilised", "incapacitated", "crippled", "bleeding", "poisoned", "paralysed", "aphonic"|
-|Absorb Echoes|||An echo is not only immune to "pressure" damage, but also regains MP/SP/HP (as appropriate), equal to half of the damage dealt.|
+|Absorb Echoes|||An echo is not only immune to "pressure" damage, but also regains MP/SP (as appropriate), equal to half of the damage dealt.|
 |||||
 |Skills|||+6 "Observe", +3 "Prospect", +3 one knowledge skill|
 
@@ -1322,7 +1322,7 @@ ___
 |[Tremor-sense, 60ft](../06-abilities.md#tremor-sense-i-vi)||||
 |Immunity|||"Physical", "necrotic", "poison" damage|
 |Immunity|||"Stunned", "immobilised", "incapacitated", "crippled", "bleeding", "poisoned", "paralysed", "aphonic"|
-|Absorb Echoes|||An echo is not only immune to "pressure" damage, but also regains MP/SP/HP (as appropriate), equal to half of the damage dealt.|
+|Absorb Echoes|||An echo is not only immune to "pressure" damage, but also regains MP/SP (as appropriate), equal to half of the damage dealt.|
 |||||
 |Resistance|||"Cold", "Fire"|
 |Immunity|||"Physical", "necrotic", "poison" damage|
@@ -1335,9 +1335,15 @@ Echoes are the vestiges of the emotions, will and wishes of mortals. The will of
 ___
 ### Shadow
 
+**Size**: Medium (5 x 5ft), although can be any size.
+
+- Reach: 5ft
+- HiT: +2 (Deflection)
+- Carrying capacity: - (incorporeal)
+
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-||||||
+|16/13/16|30 (*22*)|24 (*16*)|9|40ft|Blink - Special (See below)|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -1351,21 +1357,67 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Shadow Sword|+6|1d6+3[Sla/Spiritual]|Reach=close. A shadow's sword is considered a spiritual weapon, and treats physical damage immunity as resistance. The sword is physically tangible, but is also an innate part of the shadow.|
+|Shadow Sword|+8|1d6+4[Sla/Spiritual]|Reach=close. A shadow's sword is considered a spiritual weapon, and treats physical damage immunity as resistance. The sword is physically tangible, but is also an innate part of the shadow. A shadow's sword counts as material level 3 weapon (included in the attack).|
+|Combat Manoeuvres|+8||A shadow is proficient with ["disarm"](../04-combat.md#disarm) and ["sunder"](../04-combat.md#sunder).|
+|Shadow Bind|Thr=18||(Cost=1MP die/target) A shadow can use its secondary action to bind any target that is within 120ft of it with shadows and within 30ft of an area of dim light or darkness. At the start of its turn the target(s) must make a STR or CHA save, or be "restrained" and "blind". A target restrained in this manner repeats the save at the start of each turn.|
 |||||
+|[Flurry](../06-abilities.md#flurry)|||(Cost=1SP die)|
+|[Opportunist](../06-abilities.md#opportunist)|||A shadow can make attacks of opportunity against entities that move between threatened squares even when they are using careful movement.|
+|[Silent Step I](../06-abilities.md#silent-step-i-iii)|||A shadow can move up to its movement speed without penalties to maintain stealth.|
+|Shadow Step|||As its move action, a shadow can blink up to 120ft between two squares that are within dim light or darkness even if it can't see its destination.|
 |||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
+|Concealed|||A shadow always has ["light concealment"](../04-combat.md#concealment), except for entities with ["true-sight"](../06-abilities.md#truesight-i-vi)|
 |Immunity|||"Physical", "necrotic", "cold", "poison" damage|
-|Immunity|||"Stunned", "immobilised", "restrained", "grappled", "incapacitated", "crippled", "bleeding", "poisoned", "paralysed", "glowing"|
-|||||
+|Immunity|||"Stunned", "immobilised", "restrained", "grappled", "incapacitated", "crippled", "bleeding", "poisoned", "paralysed", "glowing", "blind"|
+|Absorb Shadows|||A shadow is not only immune to "cold" damage, but also regains MP/SP (as appropriate), equal to half of the damage dealt.|
+|Skills|||"Observe" +7, "Stealth" +7, "Acrobatics" +4, "Knowledge: Religion" +3, "Academics" +3, "Track" +3|
 
 Shadows are vestiges of the habits and common behaviours of mortals. Unlike [cursed shades](profanes.md#cursed-shade), and [earthbound shades](profanes.md#earthbound-shade-lesser), shadows are spirits that are native to many spirit realms and are not truly undead. Shadows tend to repeat certain patterns of behaviour of the original being. Most shadows are not particularly dangerous and will show little hostility to mortals, but the shadows of warriors and monsters are particularly dangerous.
+
+___
+### Shadow, Warrior
+
+- Reach: 5ft
+- HiT: +4 (Deflection), +4 (Shield)
+- Carrying capacity: - (incorporeal)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|27/17/27|30 (*82*)|76 (*36*)|19|40ft|Blink - Special (See below)|
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|-|23|-|13|17|19|
+|Bonus|-|+6|-|+1|+3|+4|
+|Save|-|+13|-|+3|+12|+7|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
+|-|-|-|-|-|-|-|
+|11(3)|19|16|4|3|7|6|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Shadow Sword|+15|1d6+7[Sla]|(Reach=close). A shadow warrior's sword is considered a spiritual weapon, and treats physical damage immunity as resistance. The sword is physically tangible, but is also an innate part of the shadow. A shadow's sword counts as material level 3 weapon (included in the attack).|
+|Combat Manoeuvres|+13||A shadow warrior is proficient with all [combat manoeuvres](../04-combat.md#basic-martial-manoeuvres).|
+|Shadow Bind|Thr=23||(Cost=1MP die/target) A shadow can use its secondary action to bind any target that is within 120ft of it with shadows and within 30ft of an area of dim light or darkness. At the start of its turn the target(s) must make a STR or CHA save, or be "restrained" and "blind". A target restrained in this manner repeats the save at the start of each turn.|
+|||||
+|[Unholy Strike](../06-abilities.md#unholy-strike)||2d6[Nec]|(Cost=1MP die) A shadow warrior can infuse its strikes with a withering darkness if it connects.|
+|[Combined Manoeuvre II](../06-abilities.md#combined-manoeuvre-i-v)|||(Cost=1SP die/manoeuvre above 1) A shadow warrior can combine up to 3 combat manoeuvre.|
+|[Flurry](../06-abilities.md#flurry)|||(Cost=1SP die)|
+|[Multiattack I](../06-abilities.md#multi-attack-i-iii)|||A shadow warrior attacks twice with its sword.|
+|[Opportunist](../06-abilities.md#opportunist)|||A shadow can make attacks of opportunity against entities that move between threatened squares even when they are using careful movement.|
+|[Silent Step I](../06-abilities.md#silent-step-i-iii)|||A shadow can move up to its movement speed without penalties to maintain stealth.|
+|Shadow Step|||As its move action, a shadow can blink up to 120ft between two squares that are within dim light or darkness even if it can't see its destination.|
+|||||
+|Concealed|||A shadow always has ["light concealment"](../04-combat.md#concealment), except for entities with ["true-sight"](../06-abilities.md#truesight-i-vi)|
+|Immunity|||"Physical", "necrotic", "cold", "poison" damage|
+|Immunity|||"Stunned", "immobilised", "restrained", "grappled", "incapacitated", "crippled", "bleeding", "poisoned", "paralysed", "glowing", "blind"|
+|Absorb Shadows|||A shadow is not only immune to "cold" damage, but also regains MP/SP (as appropriate), equal to half of the damage dealt.|
+|Skills|||"Observe" +12, "Stealth" +15, "Acrobatics" +10, "Track" +6, "Prospect" +5, ""Knowledge: Religion" +4, "Academics" +4|
+|||||
+|Immortal Deeds|||A warrior's shadow returns 1d6+1 days after it is defeated. Outside of the material realm it cannot be permanently destroyed without destroying the spirit realm where it resides. A warrior's shadow in the material realm can be permanently put to rest by consecrating the location to the warrior's deeds.|
+
+Shadows are vestiges of the habits and common behaviours of mortals. Warrior's shadows can be seen walking sites of particularly glorious battles and horrific slaughters, or guarding passes, bridges and ruins. Since shadows are vestiges of habits and behaviours, the shadows of warriors are likely to challenge passing mortals to duels or outright attacking them.
 
 ___
 ### Siren (True)

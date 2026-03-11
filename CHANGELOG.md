@@ -639,6 +639,7 @@ ___
 - [Ensnare](08-spell-list.md#ensnare) now formalises how damage affects the life created by the spell.
 - Experimental [table of basic spell params](08-spell-list.md#spell-component-summaries). We shall see if it is useful in this form or not.
 - Fix a couple of spell names (gift of the fates, healing seed).
+- Now [ALL spells with kinetic components in melee provoke AoOs](07-magic-and-spellcasting.md#general-casting-rules).
 
 ### Equipment and Economy
 - Add more material on [resources](12-equipment-economy.md#resources).

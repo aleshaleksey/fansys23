@@ -10,6 +10,7 @@ Divine entities are a category of supernatural beings that include gods, god-lik
   - [Abyssal Blade](#abyssal-blade)
   - [Unbound Gnome](#unbound-gnome)
 - [Divinities](#divinities)
+  - [Naga, True](#naga-true)
   - [Unicorn, True](#unicorn-true)
 
 ## Angels
@@ -53,7 +54,7 @@ Deflection +2
 |Short-spear|+7|1d3+3[Pi]+1d6[Lit]|The spear is not real, but a manifestation of the angel.|
 |Disarm|+7|||
 |Elemental Blast|+7|1d4+3 Lit|Can upcast up to 5d4+3|
-|Elemental Blast|Thr=20|| Greater (Radial), up to 30ft radius|
+|Elemental Blast|Thr=20||Greater (Radial), up to 30ft radius|
 |Sc: Incantation IV|Thr=17||Favourites are: "down", "Least Ward", "Least Heal", "Lesser Veil", "Promise", "Cure", "Least Weather Control"|
 |Radiant deflection|AC: +2||A radiant power surrounds an angel, protecting them from harm|
 |||||
@@ -301,6 +302,37 @@ In actual combat it will use "glide" in combination with "headwind" to blow away
 ___
 ## Divinities
 
+**Size category**: Large (10ft x 10ft)
+
+- Evade: -1, Armour +1
+- Reach: 5ft (long)
+- [DEX save]: -1, [STR save]: +1
+- Carry capacity: (0 - 480lb light, 480-1200lb heavy, 1800 drag)
+
+
+### Naga, True
+
+___
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+||||||
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|||||||
+|Bonus|||||||
+|Save|||||||
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+||||||||
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|||||
+|||||
+|||||
+|||||
 
 ### Unicorn, True
 
@@ -369,6 +401,9 @@ A true unicorn will not willingly appear before beings that lack innocence.
 A true unicorn has considerable healing abilities, but will not use them on beings that it does not consider worthy. On the other hand, it will use them freely and liberally on beings that it *does* consider worthy.
 
 While it prefers not to engage in battle, when facing beings that spread corruption a true unicorn will fight fiercely and mercilessly. Depending on the strength and kind of its foes its strategy will vary. Often it will first summon a ["Lesser Messenger"](#lesser-messenger) of purity, and command it create weather such that it would be unfavourable to their foes. It would then charge, using either "Razor Wind", or its considerable physical abilities to destroy its foes.
+
+
+
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|

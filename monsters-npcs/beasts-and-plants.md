@@ -839,8 +839,8 @@ Size = medium
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Bite|+6|1d4+3 Pi||
-|Hypnotise|Thr=15 WIS||(Range=40ft) As an action, a cobra can attempt to hypnotise one target in range, reducing its speed to 0 until the end of its turn.|
-|Venom|Thr=18 CON||As a secondary action, a cobra can expend 1 SP die and inject a dose of its venom into its victim. At the start of its turn, the target must succeed a CON save or become paralysed at the end of its turn. Each turn the entity must succeed a CON save, or take 1d6 necrotic[nat] damage. The paralysis persists for an hour, however the [suffocation](../03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die) ends on a successful save.|
+|Hypnotise|Thr=15 WIS||(Range=40ft) As a secondary action, a cobra can attempt to hypnotise one target in range who can see it, reducing its speed to 0 until the end of its turn.|
+|Venom|Thr=18 CON||As a secondary action, a cobra can expend 1 SP die and inject a dose of its venom into its victim. At the start of its turn, the target must succeed a CON save or become restrained. It repeats this save at the start of its next two turns. If it succeeds either one, it remains restrained, else if it fails both, it becomes paralysed and begins to suffocate. Each turn when it is poisoned, the victim must succeed a CON save, or take 1d6 necrotic[nat] damage. The paralysis persists for an hour, however the [suffocation](../03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die) and necrotic damage end on a successful save.|
 |Keen Smell|||Advantage on perception rolls based on smell|
 |[Heat Sense](../06-abilities.md#heat-sense-i-v)|||A grass snake can detect warm blooded creatures within 30ft of itself|
 |[Fleet](../06-abilities.md#fleet)|||A snake has a low profile and can hide in light concealment|

@@ -27,6 +27,7 @@
     - [Griffon, Sparrow-griff](#griffon-sparrow-griff)
     - [Harpy](#harpy)
     - [Minotaur](#minotaur)
+    - [Naga, False](#naga-false)
     - [Pegasus](#pegasus)
     - [Siren (False)](#siren-false)
     - [Unicorn, White](#unicorn-white)
@@ -1084,6 +1085,63 @@ Hide Armour: +3
 A minotaur, half-bull half man, is said to be the product of the insatiable lust of humankind. A minotaur is traditionally found in a dark labyrinth where it makes its home and enjoys the taste of human flesh, though perhaps there are other interpretation.
 
 In combat a minotaur's tactics are simple: Charge. That said, before attacking it may stalk its foes through its labyrinth until it is exhausted, or drops its guard.
+
+___
+### Naga, False
+
+**Size category**: Large (10ft x 10ft)
+
+- Evade: -1, Armour +1
+- Natural Armour: +2
+- Reach: 5ft (long)
+- [DEX save]: -1, [STR save]: +1
+- Carry capacity: (0 - 480lb light, 480-1200lb heavy, 1800 drag)
+
+___
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|14/14/14|59 *(35)*|44 *(28)*|14|40ft|Climb 30ft, Swim 40ft|
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|23|15|17|10|13|15|
+|Bonus|+6|+2|+3|0|+1|+2|
+|Save|+8|+4|+5|+2|+3|+4|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|9 (2)|16|13|3|3|5|5|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Claws|+11|1d6+6|Reach=5ft(long)|
+|Scimitar|+11|1d8+6[Sla]|Reach=5ft(long)|
+|Bite|+11|1d4+6[She]|Reach=5ft. A naga can inject its venom into a target when it hits it with its bite.|
+|Elementalism (Ice)|+6/Thr=17|2d6+1+1d6/MP die|A false naga can spend up to 5 MP die per blast.|
+|Elementalism|||Forms: ["Touch"](../06-abilities.md#touch-elemental-touch), ["Sweep"](../06-abilities.md#sweep), ["Aura"](../06-abilities.md#aura), ["Blast"](../06-abilities.md#blast-elemental-blast)|
+|Elementalism|||[Effects](../06-abilities.md#effects): "Restrained"|
+|Manoeuvres|+11||["Grapple"](../04-combat.md#grapple), ["Throw"](../04-combat.md#throw)|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Hypnotise|Thr=18||(Range=40ft) As a secondary action, a false naga can attempt to hypnotise one target in range who can see it, reducing its speed to 0 until the end of its turn.|
+|Venom|Thr=18||As a secondary action, a naga can expend 1 SP die and inject a dose of its venom into its victim. At the start of its turn, the target must succeed a CON save or become restrained. It repeats this save at the start of its next two turns. If it succeeds either one, it remains restrained, else if it fails both, it becomes paralysed and begins to suffocate. Each turn when it is poisoned, the victim must succeed a CON save, or take 1d6 necrotic[nat] damage. The paralysis persists for an hour, however the [suffocation](../03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die) and necrotic damage end on a successful save.|
+|||||
+|[Multi-attack I](../06-abilities.md#multi-attack-i-iii)|||A false naga makes 2 attacks or combat manoeuvres as its main action.|
+|[Offhand fighting II](../06-abilities.md#offhand-fighting-i-iv)|||A false naga can make 2 offhand attacks or combat manoeuvres as a secondary action.|
+|||||
+|Keen Smell|||Advantage on perception rolls based on smell|
+|[Heat Sense](../06-abilities.md#heat-sense-i-v)|||A naga can detect warm blooded creatures within 60ft of itself|
+|[Fleet](../06-abilities.md#fleet)|||A naga can keep a low profile and thus hide in light concealment.|
+|||||
+|Resistance|||"Piercing" damage|
+|Resistance|||"Poison", "Prone"|
+|Skills|||"Climb" +11, "Athletics" +10, "Swim" +10, "Observe" +9, "Track" +9, "Spellworking" +6, "Creature Handling" +4, "Arcana"+3, "Acrobatics" +3, "History" +3|
+|Loot|||A naga's weapons. A naga provides enough hide for 1 suit of hide armour or scale mail. A naga also provides enough venom for 4 doses of cobra venom.|
+
+While a [true naga](divines.md#naga-true) is a being that dwells in the depths of the spirit realm, a false naga is monster created by magically splicing together giant serpents with humanoids. They are tormented with the hunger of serpents and the loss of their humanity. It is not unheard of for their creators to seal their treasures in vaults guarded by these monsters.
+
+In combat a naga prefers to ambush its victim and strike once in hope of injecting its poison before retreating and watching its target weaken. Only then does it make a final and vicious attack, aimed at taking down its prey. A false naga does not flee in the face of death.
 
 ___
 ### Pegasus

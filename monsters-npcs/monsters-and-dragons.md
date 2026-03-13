@@ -1092,7 +1092,7 @@ ___
 **Size category**: Large (10ft x 10ft)
 
 - Evade: -1, Armour +1
-- Natural Armour: +2
+- Natural Armour: +2 (swords = Shield +2)
 - Reach: 5ft (long)
 - [DEX save]: -1, [STR save]: +1
 - Carry capacity: (0 - 480lb light, 480-1200lb heavy, 1800 drag)
@@ -1100,7 +1100,7 @@ ___
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/14/14|59 *(35)*|44 *(28)*|14|40ft|Climb 30ft, Swim 40ft|
+|18/14/18|59 *(35)*|44 *(28)*|14|40ft|Climb 30ft, Swim 40ft|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -1134,12 +1134,12 @@ ___
 |[Heat Sense](../06-abilities.md#heat-sense-i-v)|||A naga can detect warm blooded creatures within 60ft of itself|
 |[Fleet](../06-abilities.md#fleet)|||A naga can keep a low profile and thus hide in light concealment.|
 |||||
-|Resistance|||"Piercing" damage|
+|Resistance|||"Piercing", "Poison" damage|
 |Resistance|||"Poison", "Prone"|
 |Skills|||"Climb" +11, "Athletics" +10, "Swim" +10, "Observe" +9, "Track" +9, "Spellworking" +6, "Creature Handling" +4, "Arcana"+3, "Acrobatics" +3, "History" +3|
 |Loot|||A naga's weapons. A naga provides enough hide for 1 suit of hide armour or scale mail. A naga also provides enough venom for 4 doses of cobra venom.|
 
-While a [true naga](divines.md#naga-true) is a being that dwells in the depths of the spirit realm, a false naga is monster created by magically splicing together giant serpents with humanoids. They are tormented with the hunger of serpents and the loss of their humanity. It is not unheard of for their creators to seal their treasures in vaults guarded by these monsters.
+While a [true naga](divines.md#naga-true) is a being that dwells in the depths of the spirit realm, a false naga is monster created by magically splicing together giant serpents with humanoids. They are tormented by the hunger of serpents and the encroaching loss of their humanity. It is not unheard of for their creators to seal their treasures and secrets in vaults guarded by these monsters.
 
 In combat a naga prefers to ambush its victim and strike once in hope of injecting its poison before retreating and watching its target weaken. Only then does it make a final and vicious attack, aimed at taking down its prey. A false naga does not flee in the face of death.
 

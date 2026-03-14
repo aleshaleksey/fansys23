@@ -302,38 +302,79 @@ In actual combat it will use "glide" in combination with "headwind" to blow away
 ___
 ## Divinities
 
-**Size category**: Large (10ft x 10ft)
-
-- Evade: -1, Armour +1
-- Reach: 5ft (long)
-- [DEX save]: -1, [STR save]: +1
-- Carry capacity: (0 - 480lb light, 480-1200lb heavy, 1800 drag)
-
 
 ### Naga, True
+
+**Size category**: Large (20ft x 20ft)
+
+- Evade: -2, Armour +2, Deflection +6, Shield +2 (wen wielding twin scimitars)
+- Reach: 10ft
+- Saves: DEX, INT, WIS, CHA
+- [DEX save]: -2, [STR save]: +2
+- Carry capacity: (200lb light, 400lb medium, 2000lb heavy, 3000lb drag)
 
 ___
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-||||||
+|29/29/27|178 (*73*)|200 (*74*)|35|40ft|Climb 40ft, Swim 40ft, Cosmic (1)|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|||||||
-|Bonus|||||||
-|Save|||||||
+|Stat|25|23|20|15|25|23|
+|Bonus|+7|+6|+5|+2|+7|+6|
+|Save|+12|+18|+10|+14|+19|+19|
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-||||||||
+|22 (5)|34|34|7|7|12|12|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|||||
-|||||
-|||||
-|||||
+|Bite|+23|2d6+9[Sh]|(Reach=5ft) A naga can inject its venom into a target that it bites successfully.|
+|Scimitar|+23|2d8+9[Sl]|(Reach=10ft)|
+|Slam|+19|2d10+7[Pe]|(Reach=10ft)|
+|Strike|+19|2d6+9[Pe]|(Reach=10ft)|
+|Elementalism: Earth|+19/Thr=27|4d8+7[Per]||
+|Elementalism: Ice|+19/Thr=27|4d6+7[Ice]||
+|Combat Manoeuvres|+19||A naga is proficient with all combat manoeuvres|
+|Forms (Ice)|||A naga has ["Touch"](../06-abilities.md#touch-elemental-touch), ["Aura"](../06-abilities.md#aura), ["Blast"](../06-abilities.md#blast-elemental-blast), ["Line"](../06-abilities.md#line) and ["Arc"](../06-abilities.md#arc) forms for Elementalism: Ice|
+|Forms (Earth)|||A naga has ["Blast](../06-abilities.md#touch-elemental-touch) and ["Circle"](../06-abilities.md#circle) forms for Elementalism: Earth|
 
+A naga's attacks count as having a divine source.
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Alert|||A naga cannot be surprised.|
+|Hypnotise|Thr=24||(Range=40ft) As a secondary action, a false naga can attempt to hypnotise one target in range who can see it, reducing its speed to 0 until the end of its turn.|
+|Venom|Thr=23||As a secondary action, a naga can expend 1 SP die and inject a dose of its venom into its victim. At the start of its turn, the target must succeed a CON save or become restrained. It repeats this save at the start of its next two turns. If it succeeds either one, it remains restrained, else if it fails both, it becomes paralysed and begins to suffocate. Each turn when it is poisoned, the victim must succeed a CON save, or take 1d6 necrotic[nat] damage. The paralysis persists for an hour, however the [suffocation](../03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die) and necrotic damage end on a successful save.|
+|[Elementalism: Effects](../06-abilities.md#effects)|Thr=27||A naga has the effects of "prone" and "shove" for Elementalism: Earth, and "restrained" for Elementalism: Ice.|
+|||||
+|[SC (Local): Water VII](../06-abilities.md#spellcasting-local)|Thr=27||A naga knows all water spells up to level VII.|
+|[SC (Local): Earth VII](../06-abilities.md#spellcasting-local)|Thr=27||A naga knows all earth spells up to level VII.|
+|[SC (global)](../06-abilities.md#spellcasting-global)|Thr=27|||
+|[Divine Strike](../06-abilities.md#divine-strike)||1d6[Div]/2MP die|A naga can infuse an attack that hits with its scimitars with divine energies and deal divine damage.|
+|[Deflection](../06-abilities.md#deflection)||1d4+12+1d4/MP die|A naga can use a reaction to absorb damage from supernatural attacks (this ability does not work for "esoteric" damage).|
+|[Esoteric Deflection](../06-abilities.md#esoteric-deflection)||1d6+2/MP die|A naga can use a reaction to absorb esoteric damage.|
+|||||
+|[Multi-attack II](../06-abilities.md#multi-attack-i-iii)|||A naga makes 3 attacks or combat manoeuvres as a main action|
+|[Offhand fighting III](../06-abilities.md#offhand-fighting-i-iv)|||A naga can make 3 attacks or combat manoeuvres with its scimitars as a secondary action.|
+|[Combined Manoeuvre II](../06-abilities.md#combined-manoeuvre-i-v)|||(Cost=1SP dice/manoeuvre) A naga can combine up to 3 basic combat manoeuvres.|
+|[Arcane Interception](../06-abilities.md#arcane-interception)|||A naga can redirect supernatural effects that require a safe to itself.|
+|[Alternate Form II](../06-abilities.md#alternate-form-i-iv)|||As long as a naga has MP and MP dice remaining, it can transform into the form of a [cobra](beasts-and-plants.md#snake-cobra), or a [human (magic knight)](humanoids.md#human-magic-knight-level-9).|
+|[AF: Sequester](../06-abilities.md#alternate-form-sequester)|||A naga can absorb its equipment when it shifts between its forms.|
+|[AF: Swift Transform](../06-abilities.md#alternate-form-swift-transformation)|||A naga can shift from one form to another as a secondary action.|
+|||||
+|Immunity|||All "natural" damage, "divine" damage, "light" damage|
+|Immunity|||"aphonic", "blinded", "charmed", "deafened", "dying", "frightened", "poisoned", "prone", "stunned", "surprised"||
+|Skills|||"Athletics" +17, "Climb" +17, "Fortify" +10, "Acrobatics" +10, "Heal" +16, "Acrobatics" +16, "Stealth" +10, "Academics" +8, "Appraise" +12, "Prospect" +6, "Navigate" +6, "Knowledge (all)" +12, "Observe" +15, "Sense Motive" +15, "Track" +10, "Spellworking" +12, "Creature Handling" +10, "Intimidate" +10, "Persuade" +7, "Deceive" +16, "Perform" +13|
+
+A true naga is a divine being that generally dwells in the depths of the spirit world in realms. They tend to be associate with afterlife realms and preside over elemental earth and water. Some nagas are the guardians of divine treasures.
+
+A naga's has three physical forms: Human, serpent and hybrid, though being a divine being, these are probably more of a physical representation than a true form.
+
+In combat, a naga will use its mastery over earth and water to prepare the battlefield with storms and movements of the earth.
+
+___
 ### Unicorn, True
 
 **Size category**: Large (10ft x 10ft)

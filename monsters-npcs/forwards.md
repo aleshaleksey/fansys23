@@ -8,6 +8,7 @@ For the sake of brevity certain terms, mainly pertaining to damage type are abbr
 
 |Abbreviation|Words    |
 |------------|---------|
+|AF          |Alternate Form|
 |Sc          |Spellcasting|
 |Thr         |Threshold|
 |Pi          |Piercing (damage)|

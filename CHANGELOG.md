@@ -542,6 +542,12 @@ ___
 - Global [fairy shelter](08-spell-list.md#fairy-shelter) now last 8 hours (long enough to sleep or rest).
 - Adjust[Least curse](08-spell-list.md#least-curse), to be a touch less dangerous to the caster.
 - Add STR save for [storm ward](08-spell-list.md#storm-ward).
+- Increase the range for [Headwind](08-spell-list.md#headwind) by 10ft/MP die instead of 5ft.
+- Better define the anti-fall protection of [glide](08-spell-list.md#glide).
+- Increase the radius of the [Silence](08-spell-list.md#silence) spell.
+- Sprites are explicitly not surprised when they appear.
+- [Warmth](08-spell-list.md#warmth) upcast not gives 12 minute.
+- [Guidance of the earth](08-spell-list.md#guidance-of-the-earth) now affects STR saves instead of DEX.
 
 ___
 ## From v0.0.18

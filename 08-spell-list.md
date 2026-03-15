@@ -302,7 +302,7 @@ ___
 |Limitation|No effect on entities other than elementals[air]|-2
 |Save|WIS|
 
-**Description**: If used on an elemental[air], or enchanted wind it must make a WIS save, else it is charmed for one round. Natural, air and wind can be manipulated as follows:
+**Description**: If used on an elemental[air], or enchanted wind it must make a WIS save, else it is charmed for one round. Natural air and wind can be manipulated as follows:
 
 + Create or erase severe wind effect within a 5ft radius of the square. This disperses airborne effects (eg mist, poison, dust, etc).
 + Blow out or kindle a small fire (size "small" or smaller).
@@ -364,7 +364,7 @@ ___
 
 **Description**: If used on an elemental[earth], or enchanted ground it must make a WIS save, else it is charmed for one round. Natural, unworked earth (but not solid rock) can be manipulated as follows:
 
-+ Move earth up to 10ft, as long as there is an open conduit of earth for it and space in the destination square (ie, you cannot float the earth through air, water and other medium).
++ Move earth up to 10ft, as long as there is an open conduit of earth for it and space in the destination square (ie, you cannot float the earth through air, water and another medium).
 + Cause the square to become difficult terrain, or difficult terrain caused by earth features to become freely passable.
 + Change the cosmetic qualities of the earth.
 
@@ -503,7 +503,7 @@ ___
 |Conditions|lightly obscured|
 |Save|-|
 
-**Description**: Calls forth a thick, cold mist. Any entity of size "huge" or smaller that is separated from an observer by at least 5ft mist has light concealment. One that is separated by 15ft of the mist has heavy concealment.
+**Description**: Calls forth a thick, cold mist. Any entity of size "huge" or smaller that is separated from an observer by at least 5ft of this mist has light concealment. One that is separated by 15ft of the mist has heavy concealment.
 
 ___
 ### Silent
@@ -712,7 +712,7 @@ ___
 
 If the detection magic has the same MP dice cost as the casting of "Fade", the detection is automatically thwarted. If the detection magic is of a higher level, or by a supernatural ability of class B or higher which is not a spell, the target of "Fade" must succeed an INT save vs the Threshold of the one who cast the detection magic the first time that the magic would normally detect it. On a successful save, the detection magic does not detect the target or any objects on its person (within its carrying capacity) or supernatural effects that are affecting it. Repeated saves are not necessary.
 
-**Upcast**: Firstly, the spell lasts for an extra 12 minutes for every extra MP die above 1 used to cast it. Secondly the spell becomes effective against spells that were cast at the same "spell level" (disadvantage no longer applies).
+**Upcast**: Firstly, the spell lasts for an extra 12 minutes for every extra MP die above 1 used to cast it. Secondly the spell counts as being one "level" higher for the sake of automatically thwarting detection magic.
 
 ___
 ### Foxfire
@@ -750,7 +750,7 @@ ___
 |Limitation|No effect on air aligned entities, damage from falls only|-3
 |Save|INT|
 
-**Description**: You call upon earth spirits to be gentle to whoever falls upon them, making the target resistant to damage taken when falling. In addition the damage it takes when hitting the ground is reduced by 1d12+[Sup] points. (+5)
+**Description**: You call upon earth spirits to be gentle to whoever falls upon them, making the target resistant to damage taken when falling. In addition the damage it takes when hitting the ground is reduced by 1d12+[Sup] points.
 
 **Upcast**: For every extra MP die above 1, increase the number of targets by 1 and decrease the damage by a further 1d12 points.
 
@@ -771,7 +771,7 @@ ___
 
 **Description**: An extreme wind emanates from you. It is more than strong enough break small branches and drop fruit from trees, or blow away unattended objects in range that weight less than 50lb. Any entity that starts its turn in the area that does not succeed a STR Save is blown back 10ft and lands prone.
 
-**Upcast**: Increase the radius of the cone by 5ft for each extra MP die above 1.
+**Upcast**: Increase the radius of the cone by 10ft for each extra MP die above 1.
 
 **Global**: The wind strength remains the same, but the spell creates a whirlwind with a 100ft radius. The duration increases to an hour. For every 2MP dice above 4 the duration increases by an hour, or the radius increases by 50ft.
 
@@ -842,7 +842,7 @@ ___
 
 The spell does not in any way alter the abilities or physical properties of the target. Thus a close examination of the target ("prospect" or "observe" at close range) vs the Threshold of the caster, reveals the illusion. Likewise, every time an observer perceives the target to behave, smell, or produce tactile stimuli that do not match its appearance, the observer may make a WIS save to break the illusion. An observer that has broken the illusion sees the actual form of the target and no longer perceives the illusory form.
 
-Thus, for example, if the target is disguised as a winged, and the illusory wings "clip" through a physical object, such as a bookshelf, any observers of this make a WIS save. A group may rule that particularly flagrant mismatches between appearances and observed 'behaviour' automatically break the illusion (but this is a slippery slope, and is not recommended).
+Thus, for example, if the target is disguised as a winged, and the illusory wings pass through a physical object, such as a bookshelf, any observers of this may make a WIS save. A group may rule that particularly flagrant mismatches between appearances and observed 'behaviour' automatically break the illusion (but this is a slippery slope, and is not recommended).
 
 **Limitations**: Entities with "tremor sense", "blind-sight" and "true sight" automatically disregard the illusion.
 
@@ -937,7 +937,7 @@ ___
 + If the shape will not be structurally sound it collapses.
 + If you are attempting to make something artistic or structurally sound, you must make a "Tinker" or "Fortify" roll at disadvantage.
 
-**Global**: If cast globally the area affected is 200ft plus 100ft per 2MP above 4. In this case artistic or structurally coherent use is not possible unless at least 6 MP dice are expended in the casting of the spell.
+**Global**: If cast globally, an area of side 200ft is affected, plus 100ft per 2MP above 4. In this case artistic or structurally coherent use is not possible unless at least 6 MP dice are expended in the casting of the spell.
 
 **Upcast**: The radius increases by 5ft for every extra MP die used. The depth increases by 5ft (1ft) for every extra 2 MP dice used. If used globally the increase of radius per every extra MP dice is 100ft.
 
@@ -1051,7 +1051,7 @@ ___
 |Attack|[SAP]+[Int]|
 |Save|CHA, spell fails|
 
-**Description**: Collects a water weird and gives control to the target (may be the caster). The weird travels with the targets, unless the caster specifies that it is anchored to a square, in which case it is stationary. The target may make a single attack with the weird (15ft reach) as a "main action" on the same turn and on subsequent turns. The weird may also carry out the "grapple" or "shove"/"throw" combat manoeuvres, or make simple interactions with its environment, similar to a 15ft snake. The attack roll of the weird always uses the casters stats.
+**Description**: Collects a water weird and gives control to the target (may be the caster). The weird travels with the targets, unless the caster specifies that it is anchored to a square, in which case it is stationary. The target may make a single attack with the weird (15ft reach) as a "main action" on the same turn and on subsequent turns. The weird may also carry out the "grapple" or "shove"/"throw" combat manoeuvres, or make simple manipulations of its environment, similar to a 15ft snake. The attack roll of the weird always uses the caster's stats.
 
 **Special**:
 
@@ -1111,7 +1111,7 @@ ___
 
 - The target does not get a save at the end of its turns vs this spell.
 - If the caster concentrates on the spell to the end of the duration, the target has a second save, and then the spell becomes permanent.
-- The spell can also be lifted with any ability that curses diseases.
+- The spell can also be lifted with any ability that cures diseases.
 
 **Global**: The spell has an affect with a 100ft radius, centred on the spot where it was cast and affects all entities within it. For every 2MP extra above 2, the spell's radius is increased by 100ft or the duration is increased by 7 days.
 
@@ -1125,7 +1125,7 @@ ___
 |Target(s)|1 target no greater than "large"|+1
 |Casting time|1 action (2h + 20 minutes per 2MP dice)|
 |Range|15ft|
-|Duration|Special: 1h, then permanent (7 days)| +6
+|Duration|1h (7 days)| +6
 |Components|incantation, kinetic|
 |Focus|A black pearl|
 |Condition|Catatonic|
@@ -1159,13 +1159,13 @@ ___
 |Attack/Manoeuvre|SAP+[WIS]|
 |Save|-|
 
-**Description**: Gather a "medium" sized hand out of the earth or chipped rock at the target square. The hand is manipulated as your own. It is considered proficient with any tools and attacks/manoeuvres you are proficient in. Including on the turn it is called, you may use your main action to move the hand 20ft and carry out one of the following actions:
+**Description**: Gather a "medium" sized hand out of the earth or rock at the target square. The hand is manipulated as your own. It is considered proficient with any tools and attacks/manoeuvres you are proficient in. Including on the turn it is called, you may use your main action to move the hand 20ft and carry out one of the following actions:
 
 + Grapple a target (SAP+[WIS]).
 + Shove/Throw a target (SAP+[WIS]).
 + Make a targeted melee attack (SAP+[WIS]).
 + Make any manipulation you can with your own hand, but at disadvantage.
-+ The hand provides heavy cover for any medium sized or smaller entity behind it.
++ The hand provides heavy cover and light concealment for any medium sized or smaller entity behind it.
 
 **Limitation**:
 
@@ -1200,7 +1200,9 @@ ___
 - When moving at more than than half its speed, the target must make a threshold=20 acrobatics roll or end up hanging mid-air at an altitude of a few feet.
 - When airborne as a result of this spell, a target is carried by the wind at half of the wind's speed.
 
-**Special**: The spell can be cast as a reaction when a target begins to fall. If cast as a reaction, the target descends at ~60ft per round. If cast as a main action on a target that is already falling, it begins to decelerate. This does nothing if the fall distance is less than ~180ft. Otherwise, if the fall is long, for every round the spell effects the target it decelerates 20ft per round (from 360ft), decreasing fall damage by 2d12 per round of falling, to an eventual safe speed of 60ft.
+**Special**: The spell can be cast as a reaction when a target begins to fall. If cast as a reaction, the target descends at ~60ft per round. If cast as a main action on a target that is already falling, it begins to decelerate. This does nothing if the fall distance is less than ~500ft. Otherwise, if the fall is long, for every round the spell effects the target its fall speed decreases (from 1000ft per round) by 500ft per round each round, decreasing fall damage by 18d12 per round of falling, to an eventual safe speed of 60ft per round 2 rounds later (having fallen 1000ft).
+
+**Upcast**: For every extra MP die, the spell can target an extra 2 entities. In addition, starting from a total of 4 MP dice expended, if the spell is cast as a "main action" on a target that is already falling, the target slows to a safe speed on the start of its next turn (having fallen 500ft).
 
 **Global**: When cast globally, the spell creates a spherical zone centred on the caster where this effect acts. For every 2 extra MP dice added above 4, the zone is expanded by 200ft or the duration increased by a day. Every entity that enters the area and does not succeed a WIS save is affected by the spell.
 
@@ -1439,7 +1441,7 @@ ___
 |-|-|
 |Scope|local (global)|
 |MP Dice|2 (4)|
-|Target(s)|1 entity or 5ft radius centred ona square (100ft)|+1
+|Target(s)|1 entity or 10 ft radius centred on a square (100ft)|+1
 |Casting time|"main action" (2 hours + 20 minutes per 2MP dice)|
 |Range|60ft|+1
 |Duration|12min (1 week)|+6
@@ -1508,7 +1510,7 @@ ___
 **Special**:
 
 - You can only have one summon at any one time.
-- The summon appears either at the end of the caster's turn, or the start of the caster's next turn. However it cannot act until the start of the caster's next turn.
+- The summon appears either at the end of the caster's turn, or the start of the caster's next turn. However it cannot act until the start of the caster's next turn. It is not surprised when it appears.
 
 **Limitation**: The gnome is "earthbound". It cannot leave, or be detached from, the ground. However, this comes at a cost. In an event where the gnome would otherwise lose contact with the ground (if not for being earthbound), it takes 1 point of ["divine"](10-conditions-types.md#esoteric-damage) damage instead.
 
@@ -1538,7 +1540,7 @@ ___
 **Special**:
 
 - You can only have one summon at any one time.
-- The summon appears either at the end of the caster's turn, or the start of the caster's next turn. However it cannot act until the start of the caster's next turn.
+- The summon appears either at the end of the caster's turn, or the start of the caster's next turn. However it cannot act until the start of the caster's next turn. It is not surprised when it appears.
 
 **Limitation**: If a water sprite does not end its turn in contact with a body of water, wet ground, rain, mist or other source of water it returns to whence it came and the spell ends.
 
@@ -1563,12 +1565,12 @@ ___
 |Concentration|local|
 |Save|-|
 
-**Description**: Summons a [level I wind sprite](monsters-npcs/spirits.md#wind-sprite) to faithfully serve and fight for you. The sprite communicates with its summoner and other water spirits and is intelligent enough to understand gestures of other mortal entities.
+**Description**: Summons a [level I wind sprite](monsters-npcs/spirits.md#wind-sprite) to faithfully serve and fight for you. The sprite communicates with its summoner and other wind spirits and is intelligent enough to understand gestures of other mortal entities.
 
 **Special**:
 
 - You can only have one summon at any one time.
-- The summon appears either at the end of the caster's turn, or the start of the caster's next turn. However it cannot act until the start of the caster's next turn.
+- The summon appears either at the end of the caster's turn, or the start of the caster's next turn. However it cannot act until the start of the caster's next turn. It is not surprised when it appears.
 
 **Limitation**: The Sprite can only be summoned in an area that is not obstructed by either liquid or solid media, weather (and other) effects such as sandstorms and rain do not count towards this limitation. In case of an attempt to summon a wind sprite in forbidden terrain, the spell ends with "catastrophic failure".
 
@@ -1597,9 +1599,9 @@ ____
 
 **Limitation**: 
 
-- If "Secret Path" is learned through "air", "earth", "fire" or "water" magic, it can only be cast if at least one of the locations it connects is associated with the element, or its season. 
-- If "Secret Path" is cast through "nature" magic, it cannot connect two locales created through artifice (eg, cities, castles, houses, ships, etc).
 - The secret path MUST be between two areas in the same realm, or between adjacent realms (eg, one can trace a path between the material realm and a shallow layer of the spirit realm, or a shallow and intermediate layer of the spirit realm, but not between material realm and intermediate or deep layer of the spirit realm).
+- If either end of the path is not in the material realm and "Secret Path" is learned through "air", "earth", "fire" or "water" magic, it can only be cast if at least one of the locations it connects is associated with the element, or its season.
+- If either end of the path is not in the material realm and "Secret Path" is cast through "nature" magic, it cannot connect two locales created through artifice (eg, cities, castles, houses, ships, etc).
 - The spell ends if the target attempts to travel via "cosmic speed", or through other supernatural means such as ["Fairy Shelter"](#fairy-shelter), ["Aqueous Step"](#aqueous-step), ["Flame Stride"](#flame-stride), ["Fairy Feast"](#fairy-feast), ["Portal"](#portal), although it does function with ["Otherworld Step"](#otherworld-step) and ["Fairy Ball/Masquerade"](#fairy-ballmasquerade).
 
 **Upcast**: For every extra MP die above 2 spent, the spell lasts for an extra 12 minutes.
@@ -1619,15 +1621,15 @@ ___
 |Target(s)|20ft radius round a square in range (400ft)|+6
 |Casting time|"full round" (2 hours + 20 minutes per 2MP dice) |-1
 |Range|30ft|
-|Duration|12min (1 day+)|+3
+|Duration|12 min (1 day+)|+3
 |Components|kinetic|
 |Save|CHA, if the area is already enchanted|
 
 **Description**: Attempts to warm an area and anything in it to up to Heat: Severe (a little above body temperature). If the area is affected by any "Extreme temperature: Cold" category, it is considered as being one step milder.
 
-**Upcast**: For every extra MP die above 2, the duration increase by 6 min or the radius increases by 5ft.
+**Upcast**: For every extra MP die above 2, the duration increase by 12 min or the radius increases by 5ft.
 
-**Global**: The spell affects a much larger area and and lasts longer. For every extra 2MP dice above 4 the radius increases by 200ft, or the duration increases by a day. These long durations begin to have significant effects on the surroundings as follows:
+**Global**: The spell affects a much larger area and lasts longer. For every extra 2MP dice above 4 the radius increases by 200ft, or the duration increases by a day. These long durations begin to have significant effects on the surroundings as follows:
 
 - 1h: Per hour: 2ft of snow cover melts.
 - 1h: Temperature in bodies of water smaller than 10x10x10 ft equilibrates.
@@ -1641,7 +1643,7 @@ ___
 |-|-|
 |Scope|local (global)|
 |MP Dice|2 (4)|
-|Target(s)|30ft (400ft)|+4 (Ground only)
+|Target(s)|ground within a 30ft radius (400ft)|+4 (Ground only)
 |Casting time|"1 minute" (2 hours + 20 minutes per 2MP dice)|-2
 |Range|close|-2
 |Duration|8 hours (1 month)|+9
@@ -1657,7 +1659,7 @@ ___
 
 **Limitations**: The spell only acts on entities that are touching the ground or other solid objects connected to it. When an entity does not fulfil this condition the spell does not act on it.
 
-**Upcast**: For every extra MP die above 2, either, increase the duration by 8 hours, the area by 5ft, or add an extra entity type.
+**Upcast**: For every extra MP die above 2, either increase the duration by 8 hours, the area by 5ft, or add an extra entity type.
 
 **Global**: The spell radius is 400ft. It lasts for a month. For every 2MP dice above 4, either the duration increases by a month or the radius extends by 100ft. An extra entity type is automatically added for every 2MP dice above 4. 
 
@@ -1751,7 +1753,7 @@ ___
 - Animate Plant can instead be used to summon a [Wooden Doll](monsters-npcs/constructs.md#wooden-doll-lesser) of an equivalent level of an animated plant. In this case the spell functions like the [Animate Golem](#animate-golem), except for wooden dolls.
 - You can only have one summon at any one time.
 
-**Upcast**: For every MP dice added above 3 (12MP dice for global), the sprite gains two levels.
+**Upcast**: For every MP dice added above 3 (12MP dice for global), the summon gains two levels.
 
 **Global**: The plant is animated for 1 week (an extra week for every 2MP dice above 6) and the spell does not require concentration. If at least 12MP dice are used, the plant is forever animated.
 
@@ -1888,7 +1890,7 @@ ___
 
 - If the spell is cast as a reaction, it cannot be upcast, and lasts for 1 minute.
 - If the attack is a rectilinear effect and the barrier crosses its path, the target is affected as if it is inside the barrier.
-- The barrier completely negates effects caused by area of effect "earth" spells of an equal or lower level than the "earth ward" that do not require an attack roll. 
+- The barrier completely negates effects caused by area of effect "earth" spells that do not require an attack roll and have an equal or lower level than the "earth ward". 
 
 **Upcast**: For every extra MP die above 3 placed in the spell, the radius extends by 5ft, or the duration increases by 1h.
 
@@ -1960,7 +1962,7 @@ ___
 
 - If the spell is cast as a reaction, it cannot be upcast, and lasts for 1 minute.
 - If the attack is a rectilinear effect and the barrier crosses its path, the target is affected as if it is inside the barrier.
-- The barrier negates effects caused by area of effect "fire" spells of an equal or lower level than the "earth ward" that do not require an attack roll. 
+- The barrier negates effects caused by area of effect "fire" spells that do not require an attack roll and have an equal or lower level than the "fire ward". 
 
 **Upcast**: For every extra MP die above 3 placed into the spell, the radius extends by 5ft, or the duration increases by 1h. Alternatively the damage increases by 1d8 and damage reduction increases by 2.
 
@@ -2006,7 +2008,7 @@ ___
 
 **Description**: The target rolls adds 1d6 to all:
 
-- DEX saves and attack rolls with melee weapons and basic combat manoeuvres.
+- STR saves and attack rolls with melee weapons and basic combat manoeuvres.
 - The following skills: Athletics group, tinker, heal, stealth, academics, search group, knowledge, detect and diplomacy groups.
 
 **Special**: This applies only for rolls made when touching the ground, or below ground level. As well as for knowledge of things that belong on and below the ground.
@@ -2083,6 +2085,16 @@ ___
 
 **Description**: Curse the target with two "C" class curses from the table below or one "B" class curse from the table below.
 
+**Special**:
+
+- If the target succeeds the save and rolls at least one 12 on the 2D12 roll in the process, the curse affects the caster instead, unless the caster also succeeds the save, in which case the spell dissipates.
+- If the target fails the initial save, it is affected by the curse for the full duration and does not make repeated saves.
+- Poison or Disease class depends on the class of the individual poison or disease.
+
+**Upcast(local)**: If upcast to 5 MP dice, the caster may choose three C class, two B class or 1 A curses. If upcast to 7 MP dice, the caster may choose 4 C class, three B class, 2 A class or 1 S class curses.
+
+**Global**: The curse is permanent. If upcast to cost 10 MP dice the caster may choose three C Class, two B class or 1 A class condition.
+
 |Class|Description|
 |-|-|
 |C|The target gains the "glowing", "aphonia" or "deafened" condition|
@@ -2100,17 +2112,6 @@ ___
 |A|The target is "crippled"|
 |A|The target has vulnerability to one damage type|
 |S|The target is "immobilised" at the end of each of its turns, it may make a grapple roll as an attack action to attempt to break it at the start of it turn|
-
-
-**Special**:
-
-- If the target succeeds the save and rolls at least one 12 on the 2D12 roll in the process, the curse affects the caster instead, unless the caster also succeeds the save, in which case the spell dissipates.
-- If the target fails the initial save, it is affected by the curse for the full duration and does not make repeated saves.
-- Poison or Disease class depends on the class of the individual poison or disease.
-
-**Upcast(local)**: If upcast to 5 MP dice, the caster may choose three C class, two B class or 1 A curses. If upcast to 7 MP dice, the caster may choose 4 C class, three B class, 2 A class or 1 S class curses.
-
-**Global**: The curse is permanent. If upcast to cost 10 MP dice the caster may choose three C Class, two B class or 1 A class condition.
 
 ___
 ### Melt
@@ -2261,11 +2262,11 @@ ___
 |Damage|1d8+[Sup] fire|+3(8) defacto more.
 |Save|DEX|
 
-**Description**: Aligns a weapon or entity with elemental fire. The weapon (or if cast on the entity, its touch/strike) deals an extra 1d8+[caster's Sup] damage. The first time an entity is hit by such a weapon, it must make a DEX save or be be set ablaze and become "incapacitated".
+**Description**: Aligns a weapon or entity with elemental fire. The weapon (or if cast on the entity, its touch/strike) deals an extra 1d8+[caster's Sup] damage. The first time an entity is hit by such a weapon, it must succeed a DEX save or be be set ablaze and become "incapacitated".
 
 **Special**: Alternatively it can affect up to 13 pieces of ammunition.
 
-**Upcast**: For every extra MP die above 3, the spell lasts for an extra 12 minutes or affect an extra 13 pieces of ammunition. Alternatively for every 2MP above 3 dice placed in the spell, it will deal an extra 1d8 damage.
+**Upcast**: For every extra MP die above 3, the spell lasts for an extra 12 minutes or affects an extra 13 pieces of ammunition. Alternatively for every 2MP above 3 dice placed in the spell, it will deal an extra 1d8 damage.
 
 ___
 ### Water Walk
@@ -2367,11 +2368,11 @@ ___
 |Damage|1d8+[Sup] ice|+3(8) de facto more.
 |Save|CON|
 
-**Description**: Aligns a weapon or entity with elemental ice/water. The weapon (or if cast on the entity, its touch/strike) deals an extra 1d8+[caster's Sup] damage. The first time an entity is hit by such a weapon, it must make a CON save or be immobilised to the end of its next turn.
+**Description**: Aligns a weapon or entity with elemental ice/water. The weapon (or if cast on the entity, its touch/strike) deals an extra 1d8+[caster's Sup] damage. The first time an entity is hit by such a weapon, it must succeed a CON save or be immobilised to the end of its next turn.
 
 **Special**: Alternatively it can affect up to 13 pieces of ammunition.
 
-**Upcast**: For every extra MP die above 3, the spell lasts for an extra 12 minutes or affect an extra 13 pieces of ammunition. Alternatively for every extra 2MP dice above 3 placed in the spell, it will deal an extra 1d8 damage.
+**Upcast**: For every extra MP die above 3, the spell lasts for an extra 12 minutes or affects an extra 13 pieces of ammunition. Alternatively for every extra 2MP dice above 3 placed in the spell, it will deal an extra 1d8 damage.
 
 ___
 ## MP 4 spells

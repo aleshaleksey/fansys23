@@ -17,8 +17,8 @@ Weapons and armour are an essential part of any combat heavy table top RPG syste
     - [Unarmed Combat](#unarmed-combat)
     - [Light blades](#light-blades)
     - [Heavy blades](#heavy-blades)
-    - [Axes](#axes-1)
-    - [Percussive](#percussive-1)
+    - [Axes](#axes)
+    - [Percussive](#percussive)
     - [Spears](#spears)
     - [Pole-arms](#pole-arms)
     - [Staves](#staves)
@@ -192,16 +192,16 @@ Damage Key:
 |[Disarm](#unarmed-combat)|Disarm|-|-|1+|Str/Dex|5|-|-|-|-|
 |[Interception](#unarmed-combat)|Interception|-|-|-|Str/Dex|10|-|-|-|-|
 
-#### Axes
+#### War Axes
 
 |Weapon|Proficiency|Damage dice|Type|Hands|Governed by|Reach (ft)|Range (ft)|Increment (ft)|Weight (lb)|Durability|
 |-|-|-|-|-|-|-|-|-|-|-|
-|[Throwing axe](#axes-1)|Axe|1d4|S|1|Str|5|20|60|2|6|
-|[Hand axe](#axes-1)|Axe|1d6|S|1|Str|5|-|-|2|8|
-|[War shovel](#axes-1)|Axe|1d4|S|1|Str|5|-|-|2|8|
-|[War pick](#axes-1)|Axe|1d6|P|1|Str|5|-|-|3|10|
-|[Battleaxe](#axes-1)|Axe|1d10/2d6|S|1+|Str|5|-|-|4|10|
-|[GreatAxe](#axes-1)|Axe|2d8|S|2|Str|5|-|-|6|12|
+|[Throwing axe](#axes)|Axe|1d4|S|1|Str|5|20|60|2|6|
+|[Hand axe](#axes)|Axe|1d6|S|1|Str|5|-|-|2|8|
+|[War shovel](#axes)|Axe|1d4|S|1|Str|5|-|-|2|8|
+|[War pick](#axes)|Axe|1d6|P|1|Str|5|-|-|3|10|
+|[Battleaxe](#axes)|Axe|1d10/2d6|S|1+|Str|5|-|-|4|10|
+|[GreatAxe](#axes)|Axe|2d8|S|2|Str|5|-|-|6|12|
 
 #### Blades
 
@@ -217,17 +217,17 @@ Damage Key:
 |[Longsword](#light-blades)|Heavy blade|1d8/1d12|S/P|1+|Str|5|-|-|4|10|
 |[Greatsword](#light-blades)|Heavy blade|2d6|S/P/B|2|Str|5|-|-|6|12|
 
-#### Percussive
+#### Percussive Weapons
 
 |Weapon|Proficiency|Damage dice|Type|Hands|Governed by|Reach (ft)|Range (ft)|Increment (ft)|Weight (lb)|Durability|
 |-|-|-|-|-|-|-|-|-|-|-|
-|[Club](#percussive-1)|Percussive|1d4|B|1|Str|5|-|-|2|6|
-|[Greatclub](#percussive-1)|Percussive|1d10|B|2|Str|5|-|-|6|8|
-|[Mace](#percussive-1)|Percussive|1d8|B|1|Str|5|-|-|3|12|
-|[Morning Star](#percussive-1)|Percussive|1d8|B/P|1|Str|5|-|-|3|10|
-|[Flail](#percussive-1)|Percussive|1d8|B/P|1|Str|5|-|-|4|8|
-|[War hammer](#percussive-1)|Percussive|1d8/1d12|B/P|1+|Str|5|-|-|3|10|
-|[Maul](#percussive-1)|Percussive|2d6|B/P|2|Str|5|-|-|8|14|
+|[Club](#percussive)|Percussive|1d4|B|1|Str|5|-|-|2|6|
+|[Greatclub](#percussive)|Percussive|1d10|B|2|Str|5|-|-|6|8|
+|[Mace](#percussive)|Percussive|1d8|B|1|Str|5|-|-|3|12|
+|[Morning Star](#percussive)|Percussive|1d8|B/P|1|Str|5|-|-|3|10|
+|[Flail](#percussive)|Percussive|1d8|B/P|1|Str|5|-|-|4|8|
+|[War hammer](#percussive)|Percussive|1d8/1d12|B/P|1+|Str|5|-|-|3|10|
+|[Maul](#percussive)|Percussive|2d6|B/P|2|Str|5|-|-|8|14|
 
 #### Polearms and Spears
 
@@ -353,11 +353,11 @@ A hefted weapon with a sharp, protruding head that is used for chopping. While a
 
 |Weapon|Special Properties| Manoeuvres|
 |-|-|-|
-|[Hand axe](#axes)|cripple, bleeding, "Tool:Carpentry, fortification, forestry"|grapple|
-|[War shovel](#axes)|cripple, bleeding, "Tool: Fortification, agriculture"|grapple|
-|[War pick](#axes)|cripple|grapple, sunder|
-|[War axe](#axes)|cripple, bleeding, "Tool: Forestry"||
-|[Greataxe](#axes)|cripple, bleeding, heavy||
+|[Hand axe](#war-axes)|cripple, bleeding, "Tool:Carpentry, fortification, forestry"|grapple|
+|[War shovel](#war-axes)|cripple, bleeding, "Tool: Fortification, agriculture"|grapple|
+|[War pick](#war-axes)|cripple|grapple, sunder|
+|[War axe](#war-axes)|cripple, bleeding, "Tool: Forestry"||
+|[Greataxe](#war-axes)|cripple, bleeding, heavy||
 
 
 **Hand Axe**: Any well balanced, one handed axe with a sturdy construction is considered a hand axe. Cavalry axes are usually also considered hand axes. Hand axes have of the "bleeding", "Tool: Carpentry", "Tool: Fortification" and "Tool: Forestry" properties.
@@ -377,13 +377,13 @@ Percussive weapons like clubs, maces and hammers are in their essence a weight a
 
 |Weapon|Special Properties| Manoeuvres|
 |-|-|-|
-|[Clubs](#percussive)|cripple||
-|[Greatclub](#percussive)|cripple, heavy, prone||
-|[Mace](#percussive)|cripple|sunder|
-|[Morning stars](#percussive)|cripple, bleeding||
-|[Flail](#percussive)|cripple, special|grapple, trip|
-|[War hammers](#percussive)|cripple|sunder|
-|[Mauls](#percussive)|cripple, heavy, prone, special|sunder|
+|[Clubs](#percussive-weapons)|cripple||
+|[Greatclub](#percussive-weapons)|cripple, heavy, prone||
+|[Mace](#percussive-weapons)|cripple|sunder|
+|[Morning stars](#percussive-weapons)|cripple, bleeding||
+|[Flail](#percussive-weapons)|cripple, special|grapple, trip|
+|[War hammers](#percussive-weapons)|cripple|sunder|
+|[Mauls](#percussive-weapons)|cripple, heavy, prone, special|sunder|
 
 **Clubs** can include police batons, bats, and heavy branches and have been made from just about any material. As long as humanoids have existed they have used clubs. A basic club is easy to make and use. Clubs do NOT require proficiency to use. 
 

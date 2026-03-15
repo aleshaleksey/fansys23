@@ -641,6 +641,9 @@ ___
 - Fix a couple of spell names (gift of the fates, healing seed).
 - Now [ALL spells with kinetic components in melee provoke AoOs](07-magic-and-spellcasting.md#general-casting-rules).
 
+### Weapons
+- Add "mounted" property to spears, as they should have. 
+
 ### Equipment and Economy
 - Add more material on [resources](12-equipment-economy.md#resources).
 - Add descriptions and building times for [various building](12-equipment-economy.md#property).

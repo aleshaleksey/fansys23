@@ -34,6 +34,7 @@ The reason for different races having different kinds of stat blocks was to refl
     - [Elvish Mage (level 10)](#elvish-mage-level-10)
 - [Orc](#orc)
     - [Orc (level 2)](#orc-level-2)
+    - [Orcish Tamer (level 4)](#orcish-tamer-level-4)
     - [Orcish Hunter (level 8)](#orcish-hunter-level-8)
     - [Orcish Berserker (level 11)](#orcish-berserker-level-11)
     - [Orcish Geomancer (level 7)](#orcish-geomancer-level-7)
@@ -993,6 +994,45 @@ This represents your average orc. This could be a tribesman, hunter, bandit or a
 
 An orc might have a lower threshold for violence than an average human, but he will generally not fight a pointless or unwinnable fight. No one wants to die.
 
+### Orcish Tamer (level 4)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|15/14/12|26 (*20*)|14 (*11*)|7|30ft|-|
+
+(Wears hide armour. If using a light shield, 18/14/15)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|17|13|14|8|14|13|
+|Bonus|+3|+1|+2|-1|+2|+1|
+|Save|+4|+2|+5|0|+3|+2|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SAP|
+|-|-|-|-|-|-|-|
+|4 (1)|9|5|2|1|3|2|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Spear|+6|1d8/1d12+3|(Reach=10ft, Range=60ft, Increment=20ft)|
+|Strike|+6|4||
+|War dart|+6|1d4+3|Range=240ft, Increment=60ft|
+|||||
+|[Bind Beast II](../06-abilities.md#bind-beast-i-x)||||
+|[Charge](../06-abilities.md#charge)|||When taking "run" action while mounted, can attempt a basic martial manoeuvre as a secondary action on the same turn.|
+|[Quick Mount](../06-abilities.md#quick-mount)|||A beast tamer can mount as a "secondary action" and quick-mount as a non-action.|
+|||||
+|Resistance|||Pe|
+|Proficiencies|||Common and if it exists, orcish|
+|Proficiencies|||Axes, strikes, spears, one set of tools, maybe one set of armour|
+|Skills|||+4 "Athletics", "climb", +2 "track" or +3 "harvest"|
+
+This represents a beast tamer who has dwelt around beasts for most of their life. Beast tamers are used by orcs as scouts, hunters or light mounted troops. Beast tamers generally do not use their bound beasts as a mount, but for support and scouting.
+
+An orc might have a lower threshold for violence than an average human, but he will generally not fight a pointless or unwinnable fight. No one wants to die.
+
+In combat a tamer will use one or more of the following three tactics: engage separately from their mount, harry their opponent/prey with war darts, or close in rapidly to force its target into melee.
+
 ___
 ### Orcish Hunter (level 8)
 
@@ -1029,6 +1069,8 @@ Wears hide armour
 This block does not represent an orc who goes hunting, but rather one that has devoted its life to the hunt. This could be a monster hunter or a hunter of men.
 
 An orcish hunter generally runs down its pray, herding it into traps and finishing it off with blows of its fists. When taking down dangerous prey much larger than itself, it will rely on massive axes to neutralise the size advantage.
+
+roughly one in ten hunters use beasts and have the following abilities: ["Charge"](../06-abilities.md#charge), ["Quick mount"](../06-abilities.md#quick-mount) and ["Bind Beast IV"](../06-abilities.md#bind-beast-i-x). These riders will usually use ["warhorses](beasts-and-plants.md#horse-war-level-4), ["boars"](beasts-and-plants.md#boar-level-4), ["crocodiles"](beasts-and-plants.md#crocodile) or ["giant owls"](beasts-and-plants.md#giant-owl-level-4).
 
 ___
 ### Orcish Berserker (level 11)

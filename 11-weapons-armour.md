@@ -382,8 +382,8 @@ ___
 
 |Weapon|Special Properties| Manoeuvres|
 |-|-|-|
-|Short spear|bleeding, long|throw, disarm|
-|Spear|bleeding, unwieldy,||
+|Short spear|bleeding, long, mounted|throw, disarm|
+|Spear|bleeding, unwieldy, mounted||
 |Long spear|bleeding, unwieldy, heavy||
 |Javelin|bleeding, unwieldy,||
 |War dart|bleeding, subtle||

@@ -117,7 +117,10 @@
     factor = 1.0
   }
   let real_tabh = tab.height * factor
-  if colw < tab.width and colh < real_tabh {
+//   If we're dealing with a one columned page, don't do special treatment.
+  if page.columns == 1 {
+    align(center)[#it.body]
+  } else if colw < tab.width and colh < real_tabh {
     context [
       #set page(columns: 1)
       #align(left)[#it.body]

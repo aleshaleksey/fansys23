@@ -17,8 +17,8 @@ Weapons and armour are an essential part of any combat heavy table top RPG syste
     - [Unarmed Combat](#unarmed-combat)
     - [Light blades](#light-blades)
     - [Heavy blades](#heavy-blades)
-    - [Axes](#axes)
-    - [Percussive](#percussive)
+    - [Axes](#axes-1)
+    - [Percussive](#percussive-1)
     - [Spears](#spears)
     - [Pole-arms](#pole-arms)
     - [Staves](#staves)
@@ -172,7 +172,7 @@ Items that are not designed to be used as weapons can also be used for this purp
 ___
 ### Weapon table
 
-This table gives a quick overview of weapons. For details on each weapon, see the weapon description. The damage dice of weapons follow the general ["Dice size rules"](02-base-rules.md#dice-size-rules). For suggested costs and availability see [the weapons table](12-equipment-economy.md#weapons) in the [Equipment and Economy](12-equipment-economy.md#equipment-and-economy) chapter.
+This table gives a quick overview of weapons. For details on each weapon, see the weapon description. The damage dice of weapons follow the general ["Dice size rules"](02-base-rules.md#dice-size-rules). For suggested costs and availability see [the weapons table](12-equipment-economy.md#weapons) in the [Equipment and Economy](12-equipment-economy.md#equipment-and-economy) chapter. The table is split into subkinds for ease of navigation.
 
 **NB**: Since specific properties are an important part of how a weapon is used, it is advisable to read over the description of weapons the reader is thinking of using for their character. Sometimes a weapon listed in the table represents several functionally similar historical weapons. Therefore if you do not find your beloved katana, please check the entry for "falchion".
 
@@ -182,81 +182,108 @@ Damage Key:
 - Slashing: S
 - Piercing: P
 
+#### Unarmed
+
 |Weapon|Proficiency|Damage dice|Type|Hands|Governed by|Reach (ft)|Range (ft)|Increment (ft)|Weight (lb)|Durability|
 |-|-|-|-|-|-|-|-|-|-|-|
-|Strike|Strike|1|B/Sh|1+|Str/Dex|5|-|-|-|-|
-|Throws|Throw|-|-|1+|Str/Dex|5|-|-|-|-|
-|Grapples|Grapple|-|-|1+|Str|5|-|-|-|-|
-|Disarm|Disarm|-|-|1+|Str/Dex|5|-|-|-|-|
-|Interception|Interception|-|-|-|Str/Dex|10|-|-|-|-|
-|||||||||
-|Throwing axe|Axe|1d4|S|1|Str|5|20|60|2|6|
-|Hand axe|Axe|1d6|S|1|Str|5|-|-|2|8|
-|War shovel|Axe|1d4|S|1|Str|5|-|-|2|8|
-|War pick|Axe|1d6|P|1|Str|5|-|-|3|10|
-|Battleaxe|Axe|1d10/2d6|S|1+|Str|5|-|-|4|10|
-|GreatAxe|Axe|2d8|S|2|Str|5|-|-|6|12|
-||||||||||
-|Dagger|Light blade|1d4|P/S|1|Str/Dex|5|60|10|1|5|
-|Shuriken|Light blade|1d4|P|1|Str/Dex|-|60|20|0.2|3|
-|Short Sword|Light blade|1d6|P/S|1|Str/Dex|5|-|-|2|8|
-|Small Sword|Light blade|1d6|P|1|Dex|5|-|-|1|4|
-|Scimitar|Light blade|1d8|S|1|Str/Dex|5|-|-|2|5|
-|Rapier|Heavy blade|1d10|P/S|1|Str/Dex|5|-|-|3|8|
-|Falchion|Heavy blade|1d8/1d12|S|1+|Str|5|-|-|3|10|
-|Longsword|Heavy blade|1d8/1d12|S/P|1+|Str|5|-|-|4|10|
-|Greatsword|Heavy blade|2d6|S/P/B|2|Str|5|-|-|6|12|
-|||||||||
+|[Strike](#unarmed-combat)|Strike|1|B/Sh|1+|Str/Dex|5|-|-|-|-|
+|[Throws](#unarmed-combat)|Throw|-|-|1+|Str/Dex|5|-|-|-|-|
+|[Grapples](#unarmed-combat)|Grapple|-|-|1+|Str|5|-|-|-|-|
+|[Disarm](#unarmed-combat)|Disarm|-|-|1+|Str/Dex|5|-|-|-|-|
+|[Interception](#unarmed-combat)|Interception|-|-|-|Str/Dex|10|-|-|-|-|
+
+#### Axes
+
 |Weapon|Proficiency|Damage dice|Type|Hands|Governed by|Reach (ft)|Range (ft)|Increment (ft)|Weight (lb)|Durability|
-|Club|Percussive|1d4|B|1|Str|5|-|-|2|6|
-|Greatclub|Percussive|1d10|B|2|Str|5|-|-|6|8|
-|Mace|Percussive|1d8|B|1|Str|5|-|-|3|12|
-|Morning Star|Percussive|1d8|B/P|1|Str|5|-|-|3|10|
-|Flail|Percussive|1d8|B/P|1|Str|5|-|-|4|8|
-|War hammer|Percussive|1d8/1d12|B/P|1+|Str|5|-|-|3|10|
-|Maul|Percussive|2d6|B/P|2|Str|5|-|-|8|14|
-|||||||||||
-|Glaive|Pole-arm|1d12|S|2|Str|10|-|-|4|6|
-|Halberd|Pole-arm|1d10|S/P|2|Str|10|-|-|5|8|
-|Venetian Hammer|Pole-arm|1d10|B/P|2|Str|10|-|-|5|8|
-|Long axe|Axe|2d8|S|2|Str|10|-|-|8|12|
-|||||||||||
-|Short Spear|Spear|1d6/1d10|P/B|1+|Str/Dex|5|60|20|2|5|
-|Spear|Spear|1d8/1d12|P|1+|Str|10|60|20|4|6|
-|Long Spear|Spear|1d12|P|2|Str|15|-|-|8|10|
-|Javelin|Spear|1d8|P|1|Str|-|120|40|2|4|
-|War dart|Spear|1d4|P|1|Str/Dex|-|240|60|0.5|4|
-||||||||||||
-|Shortstaff|Staff|1d4/1d6|B|1+|Str/Dex|5|-|-|2|5|
-|Quarterstaff|Staff|1d10|B|2|Str|10|-|-|4|6|
-|||||||||
-|Buckler|Shield|1d4|B/S|1|Str/Dex|5|-|-|2|5|
-|Light Shield|Shield|1d4|B|1|Str|5|-|-|6|4|
-|Heavy Shield|Shield|1d6|B|1|Str|5|-|-|10|6|
-|Tower Shield|Shield|1d6|B|1|Str|5|-|-|20|8|
-|||||||||
+|-|-|-|-|-|-|-|-|-|-|-|
+|[Throwing axe](#axes-1)|Axe|1d4|S|1|Str|5|20|60|2|6|
+|[Hand axe](#axes-1)|Axe|1d6|S|1|Str|5|-|-|2|8|
+|[War shovel](#axes-1)|Axe|1d4|S|1|Str|5|-|-|2|8|
+|[War pick](#axes-1)|Axe|1d6|P|1|Str|5|-|-|3|10|
+|[Battleaxe](#axes-1)|Axe|1d10/2d6|S|1+|Str|5|-|-|4|10|
+|[GreatAxe](#axes-1)|Axe|2d8|S|2|Str|5|-|-|6|12|
+
+#### Blades
+
 |Weapon|Proficiency|Damage dice|Type|Hands|Governed by|Reach (ft)|Range (ft)|Increment (ft)|Weight (lb)|Durability|
-|Sling|Sling|1d6|B|1|Dex|-|1600|80|1|2|
-|Shortbow|Bow|1d6|P|2|Dex|-|600|120|1|4|
-|Composite Bow|Bow|1d8|P|2|Dex|-|1200|240|2|3|
-|Longbow|Bow|1d10|P|2|Dex|-|1200|240|3|6|
-|Greatbow|Bow|1d12|P|2|Dex|-|1200|240|3|4|
+|-|-|-|-|-|-|-|-|-|-|-|
+|[Dagger](#light-blades)|Light blade|1d4|P/S|1|Str/Dex|5|60|10|1|5|
+|[Shuriken](#light-blades)|Light blade|1d4|P|1|Str/Dex|-|60|20|0.2|3|
+|[Short Sword](#light-blades)|Light blade|1d6|P/S|1|Str/Dex|5|-|-|2|8|
+|[Small Sword](#light-blades)|Light blade|1d6|P|1|Dex|5|-|-|1|4|
+|[Scimitar](#light-blades)|Light blade|1d8|S|1|Str/Dex|5|-|-|2|5|
+|[Rapier](#light-blades)|Heavy blade|1d10|P/S|1|Str/Dex|5|-|-|3|8|
+|[Falchion](#light-blades)|Heavy blade|1d8/1d12|S|1+|Str|5|-|-|3|10|
+|[Longsword](#light-blades)|Heavy blade|1d8/1d12|S/P|1+|Str|5|-|-|4|10|
+|[Greatsword](#light-blades)|Heavy blade|2d6|S/P/B|2|Str|5|-|-|6|12|
+
+#### Percussive
+
+|Weapon|Proficiency|Damage dice|Type|Hands|Governed by|Reach (ft)|Range (ft)|Increment (ft)|Weight (lb)|Durability|
+|-|-|-|-|-|-|-|-|-|-|-|
+|[Club](#percussive-1)|Percussive|1d4|B|1|Str|5|-|-|2|6|
+|[Greatclub](#percussive-1)|Percussive|1d10|B|2|Str|5|-|-|6|8|
+|[Mace](#percussive-1)|Percussive|1d8|B|1|Str|5|-|-|3|12|
+|[Morning Star](#percussive-1)|Percussive|1d8|B/P|1|Str|5|-|-|3|10|
+|[Flail](#percussive-1)|Percussive|1d8|B/P|1|Str|5|-|-|4|8|
+|[War hammer](#percussive-1)|Percussive|1d8/1d12|B/P|1+|Str|5|-|-|3|10|
+|[Maul](#percussive-1)|Percussive|2d6|B/P|2|Str|5|-|-|8|14|
+
+#### Polearms and Spears
+
+|Weapon|Proficiency|Damage dice|Type|Hands|Governed by|Reach (ft)|Range (ft)|Increment (ft)|Weight (lb)|Durability|
+|-|-|-|-|-|-|-|-|-|-|-|
+|[Short Spear](#spears)|Spear|1d6/1d10|P/B|1+|Str/Dex|5|60|20|2|5|
+|[Spear](#spears)|Spear|1d8/1d12|P|1+|Str|10|60|20|4|6|
+|[Long Spear](#spears)|Spear|1d12|P|2|Str|15|-|-|8|10|
+|[Javelin](#spears)|Spear|1d8|P|1|Str|-|120|40|2|4|
+|[War dart](#spears)|Spear|1d4|P|1|Str/Dex|-|240|60|0.5|4|
 |||||||||
-|Hand Crossbow|Mechanical Bow|1d6|P|1|Dex|-|360|60|1|4
-|Crossbow|Mechanical Bow|1d10|piercing|2|Dex|-|800|160|4|6
-|Winch crossbow|Mechanical Bow|2d12|piercing|2|Dex|-|1000|200|6|8
+|[Glaive](#pole-arms)|Pole-arm|1d12|S|2|Str|10|-|-|4|6|
+|[Halberd](#pole-arms)|Pole-arm|1d10|S/P|2|Str|10|-|-|5|8|
+|[Venetian Hammer](#pole-arms)|Pole-arm|1d10|B/P|2|Str|10|-|-|5|8|
+|[Long axe](#pole-arms)|Axe|2d8|S|2|Str|10|-|-|8|12|
+
+#### Staves and Shields
+
+|Weapon|Proficiency|Damage dice|Type|Hands|Governed by|Reach (ft)|Range (ft)|Increment (ft)|Weight (lb)|Durability|
+|-|-|-|-|-|-|-|-|-|-|-|
+|[Shortstaff](#staves)|Staff|1d4/1d6|B|1+|Str/Dex|5|-|-|2|5|
+|[Quarterstaff](#staves)|Staff|1d10|B|2|Str|10|-|-|4|6|
+|||||||||
+|[Buckler](#shields-as-weapons)|Shield|1d4|B/S|1|Str/Dex|5|-|-|2|5|
+|[Light Shield](#shields-as-weapons)|Shield|1d4|B|1|Str|5|-|-|6|4|
+|[Heavy Shield](#shields-as-weapons)|Shield|1d6|B|1|Str|5|-|-|10|6|
+
+#### Conventional Ranged
+
+|Weapon|Proficiency|Damage dice|Type|Hands|Governed by|Reach (ft)|Range (ft)|Increment (ft)|Weight (lb)|Durability|
+|-|-|-|-|-|-|-|-|-|-|-|
+|[Sling](#slings)|Sling|1d6|B|1|Dex|-|1600|80|1|2|
+|[Shortbow](#bows)|Bow|1d6|P|2|Dex|-|600|120|1|4|
+|[Composite Bow](#bows)|Bow|1d8|P|2|Dex|-|1200|240|2|3|
+|[Longbow](#bows)|Bow|1d10|P|2|Dex|-|1200|240|3|6|
+|[Greatbow](#bows)|Bow|1d12|P|2|Dex|-|1200|240|3|4|
+|||||||||
+|[Hand Crossbow](#mechanical-bows)|Mechanical Bow|1d6|P|1|Dex|-|360|60|1|4
+|[Crossbow](#mechanical-bows)|Mechanical Bow|1d10|piercing|2|Dex|-|800|160|4|6
+|[Winch crossbow](#mechanical-bows)|Mechanical Bow|2d12|piercing|2|Dex|-|1000|200|6|8
 |||||||||||
-|Short Blowgun|Blowgun|1|P|1|Dex|90|30|0.5|3|
-|Blowgun|Blowgun|1d4|P/B|2|Dex/Con|240|60|1|4|
-|Long Blowgun|Blowgun|1d6|P/B|2|Dex/Con|600|200|2|5|
+|[Short Blowgun](#blowguns)|Blowgun|1|P|1|Dex|90|30|0.5|3|
+|[Blowgun](#blowguns)|Blowgun|1d4|P/B|2|Dex/Con|240|60|1|4|
+|[Long Blowgun](#blowguns)|Blowgun|1d6|P/B|2|Dex/Con|600|200|2|5|
+
+#### Firearms and Siege
+
+|Weapon|Proficiency|Damage dice|Type|Hands|Governed by|Reach (ft)|Range (ft)|Increment (ft)|Weight (lb)|Durability|
+|-|-|-|-|-|-|-|-|-|-|-|
+|[Pistol](#firearms)|Firearm|1d8|P|1|Dex|-|120|40|1|4
+|[Musket](#firearms)|Firearm|2d6|P|2|Dex|-|240|120|8|6
+|[Blunderbuss](#firearms)|Firearm|2d12|P|2|Dex|-|120|40|6|6
+|[Gun-blade](#firearms)|Firearm|1d8|P/S|1|Dex|5|120|20|2|4
 |||||||||||
-|Pistol|Firearm|1d8|P|1|Dex|-|120|40|1|4
-|Musket|Firearm|2d6|P|2|Dex|-|240|120|8|6
-|Blunderbuss|Firearm|2d12|P|2|Dex|-|120|40|6|6
-|Gun-blade|Firearm|1d8|P/S|1|Dex|5|120|20|2|4
-|||||||||||
-|Ballista (bolt)|Mechanical Bow|4d12|P|2|Dex|-|1800|300|400|20
-|Ballista (bullet)|Mechanical Bow|4d12|B|2|Dex|-|900|120|400|20
+|[Ballista (bolt)](#siege)|Mechanical Bow|4d12|P|2|Dex|-|1800|300|400|20
+|[Ballista (bullet)](#siege)|Mechanical Bow|4d12|B|2|Dex|-|900|120|400|20
 
 ___
 ### Unarmed Combat
@@ -265,15 +292,15 @@ Unarmed combat is the use of one's own body to effectively neutralise targets. C
 
 Attacking with techniques from this category without proficiency provokes attacks of opportunity from trained combatants. Proficiency with an unarmed combat technique allows the use of that technique with no penalty even when wielding weapons not specifically designed for it or when wielding no weapon at all.
 
-**Disarming** is the act of liberating a foe of their weapon. Also grants proficiency with "sunder". Ranged weapons cannot be used for disarming or sundering. It follows the rules set out in "Basic Martial Manoeuvres".
+[**Disarming**](#unarmed) is the act of liberating a foe of their weapon. Also grants proficiency with "sunder". Ranged weapons cannot be used for disarming or sundering. It follows the rules set out in "Basic Martial Manoeuvres".
 
-**Grapple** is the act of restricting the movement of your foe using your body or held items. It covers the "grapple" and "restrain" manoeuvres and follows the ["Basic Martial Manoeuvres"](04-combat.md#basic-martial-manoeuvres) rules.
+[**Grapple**](#unarmed) is the act of restricting the movement of your foe using your body or held items. It covers the "grapple" and "restrain" manoeuvres and follows the ["Basic Martial Manoeuvres"](04-combat.md#basic-martial-manoeuvres) rules.
 
-**Strikes** are the use of appendages or protruding body parts to deal percussive or shear damage to a target.
+[**Strikes**](#unarmed) are the use of appendages or protruding body parts to deal percussive or shear damage to a target.
 
-**Throw** is the act of moving your foe around the battlefield or throwing them down. It follows the "Basic Martial Manoeuvres" rules. It also gives proficiency with "shove" and "trip" manoeuvres.
+[**Throw**](#unarmed) is the act of moving your foe around the battlefield or throwing them down. It follows the "Basic Martial Manoeuvres" rules. It also gives proficiency with "shove" and "trip" manoeuvres.
 
-**Interception** is the art of intercepting a target's attacks as effectively as possible at the lowest cost to yourself. It is used when you need to defend one or more squishy allies from harm, or when you are trying to get your character killed.
+[**Interception**](#unarmed) is the art of intercepting a target's attacks as effectively as possible at the lowest cost to yourself. It is used when you need to defend one or more squishy allies from harm, or when you are trying to get your character killed.
 
 ___
 ### Light blades
@@ -283,11 +310,11 @@ This is something of a misnomer. Light blades refers to smaller one handed blade
 
 |Weapon|Special Properties|Manoeuvres|
 |-|-|-|
-|Daggers|bleeding, subtle||
-|Scimitars|bleeding,cripple||
-|Short Swords|bleeding||
-|Small Swords|subtle|disarm|
-|Shuriken|bleeding, subtle||
+|[Daggers](#blades)|bleeding, subtle||
+|[Scimitars](#blades)|bleeding,cripple||
+|[Short Swords](#blades)|bleeding||
+|[Small Swords](#blades)|subtle|disarm|
+|[Shuriken](#blades)|bleeding, subtle||
 
 **Daggers** include kitchen knives, hunting knives, daggers and similar blades. They are often somewhat throwable. Daggers have the "subtle" property.
 
@@ -306,10 +333,10 @@ These are the legendary blades of legend, and the symbol of a warrior. Heavy bla
 
 |Weapon|Special Properties| Manoeuvres|
 |-|-|-|
-|Rapier|long, bleeding, special|disarm|
-|Falchion|bleeding, cripple||
-|Longsword|long, bleeding, cripple||
-|Greatsword|long, bleeding, heavy, cripple||
+|[Rapier](#blades)|long, bleeding, special|disarm|
+|[Falchion](#blades)|bleeding, cripple||
+|[Longsword](#blades)|long, bleeding, cripple||
+|[Greatsword](#blades)|long, bleeding, heavy, cripple||
 
 **Rapiers** are long blades designed for keeping enemies at a distance and inflicting deep, piercing wounds. Rapiers have the "disarm" property. The attack made by a rapier can be governed by either DEX or STR. However, it can ONLY be governed by DEX if the wielder has a [STR] of +1 or higher.
 
@@ -326,11 +353,11 @@ A hefted weapon with a sharp, protruding head that is used for chopping. While a
 
 |Weapon|Special Properties| Manoeuvres|
 |-|-|-|
-|Hand axe|cripple, bleeding, "Tool:Carpentry, fortification, forestry"|grapple|
-|War shovel|cripple, bleeding, "Tool: Fortification, agriculture"|grapple|
-|War pick|cripple|grapple, sunder|
-|War axe|cripple, bleeding, "Tool: Forestry"||
-|Greataxe|cripple, bleeding, heavy||
+|[Hand axe](#axes)|cripple, bleeding, "Tool:Carpentry, fortification, forestry"|grapple|
+|[War shovel](#axes)|cripple, bleeding, "Tool: Fortification, agriculture"|grapple|
+|[War pick](#axes)|cripple|grapple, sunder|
+|[War axe](#axes)|cripple, bleeding, "Tool: Forestry"||
+|[Greataxe](#axes)|cripple, bleeding, heavy||
 
 
 **Hand Axe**: Any well balanced, one handed axe with a sturdy construction is considered a hand axe. Cavalry axes are usually also considered hand axes. Hand axes have of the "bleeding", "Tool: Carpentry", "Tool: Fortification" and "Tool: Forestry" properties.
@@ -350,13 +377,13 @@ Percussive weapons like clubs, maces and hammers are in their essence a weight a
 
 |Weapon|Special Properties| Manoeuvres|
 |-|-|-|
-|Clubs|cripple||
-|Greatclub|cripple, heavy, prone||
-|Mace|cripple|sunder|
-|Morning stars|cripple, bleeding||
-|Flail|cripple, special|grapple, trip|
-|War hammers|cripple|sunder|
-|Mauls|cripple, heavy, prone, special|sunder|
+|[Clubs](#percussive)|cripple||
+|[Greatclub](#percussive)|cripple, heavy, prone||
+|[Mace](#percussive)|cripple|sunder|
+|[Morning stars](#percussive)|cripple, bleeding||
+|[Flail](#percussive)|cripple, special|grapple, trip|
+|[War hammers](#percussive)|cripple|sunder|
+|[Mauls](#percussive)|cripple, heavy, prone, special|sunder|
 
 **Clubs** can include police batons, bats, and heavy branches and have been made from just about any material. As long as humanoids have existed they have used clubs. A basic club is easy to make and use. Clubs do NOT require proficiency to use. 
 
@@ -382,11 +409,11 @@ ___
 
 |Weapon|Special Properties| Manoeuvres|
 |-|-|-|
-|Short spear|bleeding, long, mounted|throw, disarm|
-|Spear|bleeding, unwieldy, mounted||
-|Long spear|bleeding, unwieldy, heavy||
-|Javelin|bleeding, unwieldy,||
-|War dart|bleeding, subtle||
+|[Short spear](#polearms-and-spears)|bleeding, long, mounted|throw, disarm|
+|[Spear](#polearms-and-spears)|bleeding, unwieldy, mounted||
+|[Long spear](#polearms-and-spears)|bleeding, unwieldy, heavy||
+|[Javelin](#polearms-and-spears)|bleeding, unwieldy,||
+|[War dart](#polearms-and-spears)|bleeding, subtle||
 
  **Short spear**: This is any spear shorter than 6ft. It can be thrown up to 60ft in 20ft increments. It does NOT have the unwieldy property.
 
@@ -405,10 +432,10 @@ ___
 
 |Weapon|Special Properties| Manoeuvres|
 |-|-|-|
-|Glaive|unwieldy, bleeding, cripple||
-|Halberd|unwieldy, heavy, bleeding, cripple|grapple, sunder|
-|Venetian Hammer|unwieldy, heavy|grapple, sunder|
-|Long axe|unwieldy, heavy, cripple, bleeding||
+|[Glaive](#polearms-and-spears)|unwieldy, bleeding, cripple||
+|[Halberd](#polearms-and-spears)|unwieldy, heavy, bleeding, cripple|grapple, sunder|
+|[Venetian](#polearms-and-spears) Hammer|unwieldy, heavy|grapple, sunder|
+|[Long axe](#polearms-and-spears)|unwieldy, heavy, cripple, bleeding||
 
  **Glaive**: A blade of at least one foot at the end of a long haft. This category includes the glaive, palma, naginata, bardiche and other weapons.
 
@@ -425,8 +452,8 @@ Staves are round poles with a length between 4-8ft. Staves are percussive weapon
 
 |Weapon|Special Properties| Manoeuvres|
 |-|-|-|
-|Quarterstaff|reach, cripple, prone|throw|
-|Shortstaff|long, cripple, prone|throw, grapple, disarm|
+|[Quarterstaff](#staves-and-shields)|reach, cripple, prone|throw|
+|[Shortstaff](#staves-and-shields)|long, cripple, prone|throw, grapple, disarm|
 
 **Quarterstaff**: This is a two handed weapon between 6-8ft long.
 
@@ -439,14 +466,14 @@ ___
 
 |Weapon|Special Properties| Manoeuvres|
 |-|-|-|
-|Buckler|-|disarm, interception|
-|Light Shield|prone|shove, interception|
-|Heavy Shield|prone|shove, interception|
+|[Buckler](#staves-and-shields)|-|disarm, interception|
+|[Light Shield](#staves-and-shields)|prone|shove, interception|
+|[Heavy Shield](#staves-and-shields)|prone|shove, interception|
 
 ___
 ### Slings
 
-Slings are simple in construction and difficult in exploitation. They make use centripetal force. A sling is essentially a length of sinew with a "nest" for the projectile (usually a round stone or metal bullet) at the center. Despite the range, slings are difficult to aim and therefore have a low range increment. Slings can also be used to shoot stones, in absence of proper ammunition, but the attack is at disadvantage. Slings have the "subtle" and "unwieldy" properties. Slings cannot be used effectively from prone.
+[Slings](#conventional-ranged) are simple in construction and difficult in exploitation. They make use centripetal force. A sling is essentially a length of sinew with a "nest" for the projectile (usually a round stone or metal bullet) at the center. Despite the range, slings are difficult to aim and therefore have a low range increment. Slings can also be used to shoot stones, in absence of proper ammunition, but the attack is at disadvantage. Slings have the "subtle" and "unwieldy" properties. Slings cannot be used effectively from prone.
 
 ___
 ### Bows
@@ -455,10 +482,10 @@ Bows are ranged weapon that consist of a length of supple material (usually, woo
 
 |Weapon|Special Properties| Manoeuvres|
 |-|-|-|
-|Shortbow|bleeding, delicate||
-|Composite Bow|bleeding, delicate, mounted||
-|Longbow|bleeding, delicate, unwieldy||
-|Greatbow|bleeding, delicate, unwieldy, mounted||
+|[Shortbow](#conventional-ranged)|bleeding, delicate||
+|[Composite Bow](#conventional-ranged)|bleeding, delicate, mounted||
+|[Longbow](#conventional-ranged)|bleeding, delicate, unwieldy||
+|[Greatbow](#conventional-ranged)|bleeding, delicate, unwieldy, mounted||
 
 **Shortbows** represent actual shortbows, as well as simple, low draw weight bows that do not fall into other categories. Shortbow attacks can cause "bleeding". Typically they are used for hunting and banditry.
 
@@ -475,9 +502,9 @@ Mechanical bows are bow-like weapons where the draw is performed by a mechanism,
 
 |Weapon|Special Properties| Manoeuvres|
 |-|-|-|
-|Hand Crossbow|bleeding||
-|Crossbow|bleeding||
-|Winch crossbow|bleeding||
+|[Hand Crossbow](#conventional-ranged)|bleeding||
+|[Crossbow](#conventional-ranged)|bleeding||
+|[Winch crossbow](#conventional-ranged)|bleeding||
 
 **Hand Crossbow:**: This refers to small, light crossbows that can be wielded in one hand. It is a "secondary action" to reload a hand crossbow. If the wielder has a free appendage, they can reload it as part of the attack (essentially if the hand crossbow is wielded with two hands).
 
@@ -494,9 +521,9 @@ Blowguns are essentially tubes used to shoot darts, propelled by air pressure, w
 
 |Weapon|Special Properties|Manoeuvres|
 |-|-|-|
-|Short Blowgun|Subtle||
-|Blowgun|||
-|Long Blowgun|Unwieldy||
+|[Short Blowgun](#conventional-ranged)|Subtle||
+|[Blowgun](#conventional-ranged)|||
+|[Long Blowgun](#conventional-ranged)|Unwieldy||
 
 **Short Blowgun**: This is a blanket category for blowguns between 1-2ft in length. They are easily hidden or disguised as wind instruments, and are a favourite of assassins who work in environments where more obvious weapons or magic are problematic. The downside is the incredibly short range.
 
@@ -515,10 +542,10 @@ Weapons with a closed or open barrel that use the energy in explosive substances
 
 |Weapon|Special Properties| Manoeuvres|
 |-|-|-|
-|Pistol|loud, bleeding, delicate||
-|Musket|loud, bleeding, delicate||
-|Blunderbuss|loud, bleeding, delicate||
-|Gun-blade|loud, bleeding, delicate||
+|[Pistol](#firearms-and-siege)|loud, bleeding, delicate||
+|[Musket](#firearms-and-siege)|loud, bleeding, delicate||
+|[Blunderbuss](#firearms-and-siege)|loud, bleeding, delicate||
+|[Gun-blade](#firearms-and-siege)|loud, bleeding, delicate||
 
 **Pistol**: This refers to flint lock pistols of all kind. It is a full round action to reload this weapon.
 
@@ -535,8 +562,8 @@ These are heavy weapons that are designed for destroying fortifications, large m
 
 |Weapon|Special Properties|Manoeuvres|
 |-|-|-|
-|Ballista (bolt)|bleeding, delicate||
-|Ballista (bullet)|bleeding, delicate, Special||
+|[Ballista (bolt)](#firearms-and-siege)|bleeding, delicate||
+|[Ballista (bullet)](#firearms-and-siege)|bleeding, delicate, Special||
 
 **Ballista**: A tension device, similar to a very large crossbow, that can be used to launch javelin-like bolts, which weight 6lb each, or stones/bullets weighting 60lb, over great distances with a high measure of precision. It requires 2 full-round actions to load a ballista, an additional move action to aim, and a main action to fire. __Aiming and firing cannot be done on the same round as loading__. Ballistas, when firing bullets, ignore the [damage reduction of inanimate objects](03-movement-exploration.md#object-hit-point-durability-table).
 

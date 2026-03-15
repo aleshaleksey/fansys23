@@ -474,8 +474,8 @@ ____
 
 ### Weapons and Armour
 - Mauls, axes and siege weapons [ignore some damage reduction](11-weapons-armour.md#weapons-and-armour) of certain materials.
-- [Mauls](11-weapons-armour.md#percussive) deal an extra die of damage when sundering.
-- [Axes](11-weapons-armour.md#axes) (war and great) no longer grant the grapple manoeuvre.
+- [Mauls](11-weapons-armour.md#percussive-1) deal an extra die of damage when sundering.
+- [Axes](11-weapons-armour.md#axes-1) (war and great) no longer grant the grapple manoeuvre.
 - [Non-proficiency penalty](05-skills.md#armour-proficiencies) for light armour is modified (the penalty is reduced to -2, but the armour bonus gained from the armour is halved).
 - [Padded armour and leather armour](05-skills.md#armour-proficiencies) can be used through either light or medium armour proficiency, but otherwise still counts as medium armour.
 

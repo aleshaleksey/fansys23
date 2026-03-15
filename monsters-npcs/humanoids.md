@@ -26,6 +26,8 @@ The reason for different races having different kinds of stat blocks was to refl
     - [Human Mage, Archmage (level 12)](#human-mage-arch-mage-level-12)
 - [Elves](#elf)
     - [Elvish Youth (level 1)](#elvish-youth-level-1)
+    - [Elvish Acolyte (level 4)](#elvish-acolyte-level-4)
+    - [Elvish Apprentice (level 4)](#elvish-apprentice-level-4)
     - [Elf (level 5)](#elf-level-5)
     - [Elvish Elder (level 13)](#elvish-elder-level-13)
     - [Elvish Hunter (level 11)](#elvish-hunter-level-11)
@@ -659,8 +661,8 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Shortbow|+3|1d6+1 Pi|range = 600/120ft|
-|Knife|+3|1d4+1 Sl||
+|Shortbow|+3|1d6+1[Pi]|Range=600, Increment=120ft|
+|Knife|+3|1d4[Sl]|Reach=5ft|
 |Sc: Nature I|Thr=14||["Sour"](../08-spell-list.md#silent), ["Hide"](../08-spell-list.md#hide), ["Beast Speech"](../08-spell-list.md#beast-speech)|
 |Low-light vision||||
 |Resistance|||"charmed"|
@@ -671,6 +673,92 @@ ___
 Elves live for a ridiculously long time. This stat block represents an elf that has lived for 100 years or less.
 
 An ordinary elf will seldom carry weapons beyond a dagger for no reason. These elves will seldom try to start a fight, preferring to hide and observe. If threatened they prefer to accept the terms and obtain revenge later if there is any risk. No one wants to die.
+
+### Elvish Acolyte (level 4)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|15/12/14|14 (*14*)|18 (*15*)|4|40ft|-|
+
+The HiT includes +1 from leather cuirasse. Add +1 to shield bonus when wielding dagger of short-sword.
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|12|16|10|11|12|12|
+|Bonus|+1|+3|0|0|+1|+1|
+|Save|+2|+6|+1|+1|+2|+2|
+
+|Level(base)|SP dice|MP Dice|Nat|Sup|NAP|SAP|
+|-|-|-|-|-|-|-|
+|4 (1)|7|7|2|2|3|3|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Longbow|+5|1d10+3[Pi]|(Range=960ft, Increment=240ft) An acolyte lacks the STR needed to make best use of a longbow|
+|Short-sword|+6|1d6+3[Pi/Sl]|Reach=5ft|
+|Strike|+6|4[Pe]|Reach=5ft|
+|Dagger|+6|1d4+3[Pi/Sl]|Reach=5ft, Range=60ft, Increment=10ft|
+|Sc: Air I|Thr=14||["Whispers"](../08-spell-list.md#whispers), ["Silent"](../08-spell-list.md#silent), [""](../08-spell-list.md), [""](../08-spell-list.md)|
+|||||
+|["Finesse"](../06-abilities.md#weapon-finesse)|||An acolyte adds DEX bonus to melee attacks governed by DEX|
+|["Stalker"](../06-abilities.md#stalker)|||Hide as secondary action|
+|[Offhand fighting I](../06-abilities.md#multi-attack-i-iii)|||Make 1 offhand attack per turn|
+|[Flash Step](../06-abilities.md#flash-step)|||(Cost=2 SP die) A hunter can move up to its speed per 2 SP die as a secondary action (1 SP die when not wearing armour) to a maximum of 6 SP dice.|
+|[Fleet](../06-abilities.md#fleet)|||Hide from light concealment|
+|[Skirmisher](../06-abilities.md#skirmisher)|||Do not provoke attack of opportunity after attack|
+|[Speed II](../06-abilities.md#speed)|||+10 base movement|
+|[Alert](../06-abilities.md#alert)|||Immune to "surprised"|
+|[Silent Step I](../06-abilities.md#silent-step-i-iii)|||Move really silently|
+|||||
+|Low-light vision||||
+|Resistance|||"charmed"|
+|||||
+|Proficiencies|||One musical instrument, elvish, common|
+|Skills|||"Climb" +3, "Athletics" +3 "Swim" +3, "Acrobatics" +5, "Knowledge: Nature" +1, "Observe" +4, "Stealth" +6, "Sense Motive" +2|
+|Loot|||Usually some small trinket of sentimental value and the clothes on their back|
+
+Acolytes are young elves who train to one day become ["Hunters"](#elvish-hunter-level-11) or are chosen to become ["Elders"](#elvish-elder-level-13). They undergo harsh training, necessary for mastering these arts and skills. Acolytes are seldom sent out on missions that their masters deem too dangerous.
+
+While an acolyte has the will to fight if necessary, acolytes nevertheless generally prefer to avoid combat. If they must, they prefer to pepper their foes with arrows at a distance. Otherwise they use hit and run tactics, attempting to stay outside the range of their foes weapons.
+
+___
+### Elvish Apprentice (level 4)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|13/11/13|10 (*10*)|22 (*19*)|4|30ft|-|
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|10|14|10|12|15|13|
+|Bonus|0|+2|0|+1|+2|+1|
+|Save|+1|+3|+1|+2|+5|+2|
+
+|Level(base)|SP dice|MP Dice|Nat|Sup|NAP|SAP|
+|-|-|-|-|-|-|-|
+|4 (1)|5|9|1|2|2|3|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Shortbow|+4|1d6+2[Pi]|Range=600, Increment=120ft|
+|Knife|+4|1d4[Sl]|Reach=5ft|
+|[Elementalism: Light (Touch)]|+5|1d4+2+1d4/MP die[Lig]|(Reach=5ft) An apprentice can use up to 2 MP die per use of elementalism.|
+|[Elementalism: Light (Blast)]|+5|1d4+2+1d4/MP die[Lig]|(Range=120ft+30ft/MP die) An apprentice can use up to 2 MP die per use of elementalism.|
+|Elementalism: Forms|||["Touch"](../06-abilities.md#touch-elemental-touch), ["Blast"](../06-abilities.md#blast-elemental-blast), ["Cone"](../06-abilities.md#cone)|
+|||||
+|Sc: Nature II|Thr=14||Typical spells: ["Sour"](../08-spell-list.md#silent), ["Hide"](../08-spell-list.md#hide), ["Ensnare"](../08-spell-list.md#ensnare), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Rest"](../08-spell-list.md#least-rest), ["Natural Xenophonia"](../08-spell-list.md#natural-xenophonia)|
+|Sc: Water II|Thr=14||Typical spells: ["Least Hydromancy"](../08-spell-list.md#least-hydromancy), ["Sense Spell"](../08-spell-list.md#sense-spell), ["Least Weather Control"](../08-spell-list.md), ["Summon Water Sprite"](../08-spell-list.md#summon-water-sprite), ["Trace Secret Path"](../08-spell-list.md#trace-secret-path)|
+|||||
+|[Bind Familiar: I](../06-abilities.md#bind-familiar-i-iv)|||An apprentice is usually capable of binding familiars.|
+|Low-light vision||||
+|Resistance|||"charmed"|
+|Proficiencies|||One musical instrument, elvish, common|
+|Skills|||"Spellworking" +5, "Knowledge: Arcana" +4, "Knowledge: Nature" +4, "Observe" +4, "Stealth" +3, "Creature Handling" +2|
+|Loot|||Usually some small trinket of sentimental value and the clothes on their back|
+
+This represents an apprentice of an [elvish mage](#elvish-mage-level-10) or [elder](#elvish-elder-level-13) that has been delving into the supernatural for at least a decade.
+
+An apprentice is proficient with light blades and bows, and may use them for hunting or competition, but is unlikely to use them for self defence, preferring to rely on its arcane arts. That said, in most cases, if threatened, an apprentice will prefer to flee or accept the demanded terms and seek revenge when conditions are favourable.
 
 ___
 ### Elf (level 5)
@@ -794,9 +882,11 @@ Wears padded armour. When wielding blades increases to 22.
 |Sc: Air II|Thr=18||["Least Anemancy"](../08-spell-list.md#least-anemancy), ["Least Blast"](../08-spell-list.md#least-blast), ["Spirits' Secrets"](../08-spell-list.md#spirits-secret), ["Silence"](../08-spell-list.md#silence), ["Glide"](../08-spell-list.md#glide)|
 |||||
 |Low-light vision||||
+|["Finesse"](../06-abilities.md#weapon-finesse)|||A hunter adds [DEX] to melee attacks governed by DEX|
 |["Stalker"](../06-abilities.md#stalker)|||Hide as secondary action|
 |[Multi-attack II](../06-abilities.md#multi-attack-i-iii)|||Make 3 attacks per turn|
 |[Offhand fighting II](../06-abilities.md#multi-attack-i-iii)|||Make 2 offhand attacks per turn|
+|[Flash Step](../06-abilities.md#flash-step)|||(Cost=2 SP die) A hunter can move up to its speed per 2 SP die as a secondary action (1 SP die when not wearing armour) to a maximum of 6 SP dice.|
 |[Fleet](../06-abilities.md#fleet)|||Hide from light concealment|
 |[Skirmisher](../06-abilities.md#skirmisher)|||Do not provoke attack of opportunity after attack|
 |[Swift Strike](../06-abilities.md#swift-strike)|||Attack of opportunity hits first|

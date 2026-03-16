@@ -2394,9 +2394,9 @@ ___
 |Concentration|local|-3(-4)
 |Save|-|
 
-**Description**: Creates a level IV golem to faithfully serve and fight for you. The golem can communicate with its creator and other geomancer and golems through machine language. It is intelligent enough to understand stances and movements of mortal entities.
+**Description**: Creates a level IV golem to faithfully serve and fight for you. The golem can communicate with its creator and other geomancers and golems through machine language. It is intelligent enough to understand stances and movements of mortal entities.
 
-**Special**: When the spell ends, the golem runs of of energy but is not destroyed. Recharging a golem costs only half of the MP dice cost of creating it (rounded up).
+**Special**: When the spell ends, the golem runs of of energy but is not destroyed. Recharging a golem is accomplished by recasting the spell, but costs only half of the MP dice cost of creating it (rounded up).
 
 **Upcast**: For every extra MP die above 4 used when casting this spell, the golem can either function for an extra hour or gains two levels.
 
@@ -2532,7 +2532,7 @@ ___
 ___
 ### Control Fire
 
-|Name|Least Pyromancy [Fire, Summer, Spiritual]|
+|Name|Control Fire [Fire, Summer, Spiritual]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|4 (8)|
@@ -2624,7 +2624,7 @@ If the detection spell is cast at a higher MP dice cost (level) than "False Aura
 
 **Special**: If the target is disguised as a specific being or place (eg, 'I disguise my aura as Fana Luine's"), and is observed by an observer familiar with the new aura, the observer can see through the disguise if they succeed an INT save rolled at advantage. If the spell is of a higher "level" than the casting of "False Aura", the INT save is made at disadvantage.
 
-**Limitation**: Beings with "[Truesight](06-abilities.md#truesight-i-vi) are not affected by the deception produced by this spell. 
+**Limitation**: Beings with ["Truesight"](06-abilities.md#truesight-i-vi) are not affected by the deception produced by this spell. 
 
 **Upcast**: For every extra die above 4 expended when casting the spell, the spell lasts for an extra 8 hours, or affects an extra target. Secondly the spell is automatically effective against spells cast up to that "spell level" (INT save is no longer needed).
 
@@ -2657,7 +2657,7 @@ The caster can also invert the criterion to allow only entities that fulfil the 
 
 **Limitations** Entities can still cross the perimeter the area by "cosmic" speed without needing to succeed the save. Their base speed, however, will still be halved for their other movement modalities.
 
-**Upcast**: For every extra MP die above X, the the radius of the spell is increased by 5ft (100ft for global), or the caster can add an extra criterion, or it's duration increases by 1 hour (1 week for global).
+**Upcast**: For every extra MP die above 4, the the radius of the spell is increased by 5ft (100ft for global), or the caster can add an extra criterion, or it's duration increases by 1 hour (1 week for global).
 
 If the spell is cast with more than 7 MP die, its perimeter cannot be crossed by means of "cosmic" speed.
 
@@ -2742,8 +2742,8 @@ ___
 |Range|close (close)|-1
 |Duration|12 minutes (special)|
 |Components|incantation,kinetic|-1
-|Focus|- (a cup of clean meltwater, a handful of black earth, a bottle of spring air, a burning candle of wax gathered in summer)|
-|Material|- (1HP worth of the creator's blood)|-2
+|Focus|\- (a cup of clean meltwater, a handful of black earth, a bottle of spring air, a burning candle of wax gathered in summer)|
+|Material|\- (1HP worth of the creator's blood)|-2
 |Limitation||
 |Save|CHA|
 
@@ -2779,7 +2779,7 @@ When the spell ends, the remaining entities within it find themselves at the poi
 
 **Global**: The spell lasts for 1 day. At the end of the day, the caster may decide at the end of this period whether to make the domain permanent.
 
-**NB**: The text of the spell has presumed something about the nature of the game world, however it is reasonable to reflavour the spell if the nature of teh game world is not consistent with the description. Furthermore, this spell presumes the existence of other dimensions, planes, realms, or with the possibility of spatial distortions that are otherwise separate from the "real" or "material" world. In games where this is not the case, the group should consider whether it is reasonable and possible to include this spell in the game.
+**NB**: The text of the spell has presumed something about the nature of the game world, however it is reasonable to reflavour the spell if the nature of the game world is not consistent with the description. Furthermore, this spell presumes the existence of other dimensions, planes, realms, or with the possibility of spatial distortions that are otherwise separate from the "real" or "material" world. In games where this is not the case, the group should consider whether it is reasonable and possible to include this spell in the game.
 
 ___
 ### Lesser Freedom
@@ -2809,7 +2809,7 @@ ___
 |-|-|
 |Scope|local (global)|
 |MP Dice|4 (8)|
-|Target(s)|30ft centred on a square (600ft)|+8
+|Target(s)|30ft radius centred on a square (600ft)|+8
 |Casting time|"main action" (4 hours + 20 minutes per 2MP dice)|
 |Range|120ft|+2(10)
 |Duration|1 min (1 hour)|+6(16)
@@ -2834,7 +2834,7 @@ ___
 |-|-|
 |Scope|local (global)|
 |MP Dice|4 (8)|
-|Target(s)|30ft (600ft)|+6
+|Target(s)|30ft radius centred on a square (600ft radius)|+6
 |Casting time|"full round" (4 hours + 20 minutes per 2MP dice)|-1(5)
 |Range|close|
 |Duration|12 min (1 day)|+3(8)
@@ -2847,7 +2847,7 @@ ___
 
 **Limitation**: The weather cannot completely contradict the season and climate. For example, the spell cannot cause a snowstorm on a summer's day where snowstorms do not, as a rule, occur in summer.
 
-**Upcast**: The for every extra MP die above 4, the spell lasts for an extra 6 minutes or increases in radius by 5ft. If 7 or more MP dice are used, the caster can shift the weather by two points in any direction.
+**Upcast**: For every extra MP die above 4, the spell lasts for an extra 6 minutes or increases in radius by 5ft. If 7 or more MP dice are used, the caster can shift the weather by two points in any direction.
 
 **Global**: As local, but with a radius of 600ft and a duration of 1 day. For every 2MP dice above 8, the radius increases by 400ft or the duration increases by 1 day. If 14 or more MP dice are used the weather can be shifted by two points in any direction.
 
@@ -2913,7 +2913,7 @@ ___
 
 **Description**: The caster creates an illusionary scene which mimics the real scene to all senses except touch and pain. It can do no damage. The scene realistically mimics a real scene, at first glance, but has no material substance. For example:
 
-- An illusionary bridge over a river will hold no weight, but if a rock is thrown against might show the rock bouncing a few steps along the bridge and coming to rest on it (in the meanwhile the real rock passes straight through it).
+- An illusionary bridge over a river will hold no weight, but if a rock is thrown at it might show the rock bouncing a few steps along the bridge and coming to rest on it (in the meanwhile the real rock passes straight through it).
 - An illusionary bonfire would feel warm at a distance, but would fail to melt a block of ice at some distance (although if the ice is placed inside of the area of the "mirage" it would *appear* to melt).
 
 An illusion can be broken in the following manner:
@@ -2944,14 +2944,14 @@ ___
 
 **Description**: This spell has one of the following effects:
 
-- Cleanse the area of the effect of one curse. If the curse is a higher level than your casting, it get to make an INT save, with a bonus equal to the difference in spell level.
-- Remove the after-effects of legendary magic. The magic gets to roll an INT save against the cleansing with a bonus equal to the difference in the spell level.
+- Cleanse the area of the effect of one curse. If the curse is a higher level than your casting, it makes an INT save, with a bonus equal to the difference in spell level.
+- Remove the after-effects of legendary magic. The magic rolls an INT save against the cleansing with a bonus equal to the difference in the spell level.
 - Cure one disease or poison affecting the land.
 - Double the productivity of the land for the next harvest. Doubling zero is still zero.
 
 **Upcast**: For every extra MP die above 4 either:
 
-- Increase the radius by 5ft.
+- Increase the radius by 10ft.
 - Increase the level of the spell by 1 for the sake of determining its level for breaking curses and aftereffects.
 
 **Global**: The same, but with a 600ft radius. For every 2MP dice above 8 increase the radius by 600ft. Alternatively the level increases by 1 for the sake of breaking curses or aftereffects.
@@ -3032,7 +3032,7 @@ ___
 
 **Limitation**; A spirit summoned by this means cannot enter or leave areas affected by ["warded ground"](#warded-ground) or ["enchanted ground"](#enchanted-ground), or territory protected by similar means. Nor can it cross the border of the material/spiritual realm until the spell is over.
 
-**Upcast**: For every MP dice added above 4 (2MP dice above 8 for global), the spirit gains two levels.
+**Upcast**: For every MP die added above 4 (2MP dice above 8 for global), the spirit gains two levels.
 
 **Global**: The spirit is bound for 1 day for every 2MP dice used summon it (minimum of 4 days), it *also* gains two levels for every 2 MP dice added. For every day of the contract, the material component must be paid anew.
 

@@ -548,6 +548,7 @@ ___
 - Sprites are explicitly not surprised when they appear.
 - [Warmth](08-spell-list.md#warmth) upcast not gives 12 minute.
 - [Guidance of the earth](08-spell-list.md#guidance-of-the-earth) now affects STR saves instead of DEX.
+- [Rejuvenate Land](08-spell-list.md#rejuvenate-land) now has 10ft extra per MP die.
 
 ___
 ## From v0.0.18

@@ -3620,7 +3620,7 @@ ___
 
 ### Fairy Feast
 
-|Name|Fairy Feast [Nature, Incantation, Spirit]|
+|Name|Fairy Feast [Incantation, Nature, Spirit]|
 |-|-|
 |Scope|global|
 |MP Dice|12 (special)|
@@ -3672,7 +3672,7 @@ ___
 |Components|incantation, kinetic|
 |Save|CHA|
 
-**Description**: The caster manipulates the elements of earth or water (depending on the school used to learn the spell), to create a body part or earth or ice, functionally and visually indistinguishable from the original. The target is cured of the crippled condition and also immune to it for the duration of the spell. The entity likewise regains 1SP (but no SP dice) at the start of its turn if its total SP is below its total SP dice count for the duration of the spell.
+**Description**: The caster manipulates the elements of earth or water (depending on the school used to learn the spell), to create a body part or earth or ice, functionally and visually indistinguishable from the original. The target is cured of the crippled condition and also immune to it for the duration of the spell. The entity likewise regains 1 SP (but no SP dice) at the start of each turn if its total SP is below its total SP dice count for the duration of the spell.
 
 When the spell ends, the body part crumbles to dust or melts into a puddle.
 
@@ -3753,7 +3753,6 @@ ___
 |Duration|1 hour (1 month)|+12
 |Components|incantation/kinetic|-1
 |Concentration|local|-3
-|Focus|A brass bowl filled with earth, the bowl crumbles when the spell is cast|-1
 |Material|A brass bowl filled with earth, the bowl crumbles when the spell is cast|-2
 |Save|CON,CHA|
 
@@ -3881,7 +3880,7 @@ Unlike the local casting, entities that are "diseased"[natural] that enter the a
 ___
 ### Inner Voice
 
-|Name|Inner Voice [Water, Spirit]|
+|Name|Inner Voice [Kinetic, Water, Spirit]|
 |-|-|
 |Scope|local|
 |MP Dice|6|
@@ -3933,7 +3932,7 @@ If the undead are not destroyed by the end of the spell, or the caster loses con
 **Special**: 
 
 - The offering must include firstly, something of symbolic significance to the dead (eg, their favourite dolfie, the banner of their religion, etc). If dead of multiple allegiances are present in the radius, only those that find the offering significant will be raised.
-- If a command is given that would go against this, the caster loses control of all the dead animated by this spell. For example, animating the remains of a group of holy knights with this spell and ordering one of them to burn down their old shrine will not only lead to the command not being followed, but to the loss of control over all the dead animated in this way.
+- If a command is given that would go against the values or goals of the dead, the caster loses control of all the dead animated by this spell. For example, animating the remains of a group of holy knights with this spell and ordering one of them to burn down their old shrine will not only lead to the command being ignored, but also to the loss of control over all the dead animated in this way.
 
 **Upcast**: For every MP die above 6 added (2 MP dice for global), the radius of the effect increases by 15ft.
 
@@ -3944,7 +3943,7 @@ If the undead are not destroyed by the end of the spell, or the caster loses con
 ___
 ### Madness
 
-|Name|Madness [Curse, Fire, Spirit, Summer]|
+|Name|Madness [Curse, Fire, Kinetic, Spirit, Summer]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|6 (12)|
@@ -4036,7 +4035,7 @@ After 24 hours have passed, the life force from the consumption of the old body 
 ___
 ### Otherworld Step
 
-|Name|Otherworld Step [Travel, Fire, Water, Air, Earth]|
+|Name|Otherworld Step [Air, Earth, Incantation, Fire, Kinetic, Travel, Water]|
 |-|-|
 |Scope|local(global)|
 |MP Dice|6 (12)|
@@ -4050,7 +4049,7 @@ ___
 
 **Description**: Grants up to 7 entities the ability to travel the voids and barriers that exist between realms, and reach the nearest otherworlds. These might be the nearest stars or the closest layers of the immaterial world (spirit realms, elemental planes, etc). An unwilling target may make a WIS save vs the caster's Threshold to end the spell upon themselves (hence negating the effects).
 
-To travel, the target must move 5ft with a destination in mind. If the traveller moves 5ft with no destination in mind, they are transported to the nearest valid destination. If the traveller is unable to move 5ft, then the spell activates the moment they do and remains active until that moment. Any attempt to travel by any modality will result in an otherworld step being made.
+To travel, the target must move 5ft with a destination in mind. If the traveller moves 5ft with no destination in mind, they are transported to the nearest valid destination. If the traveller is unable to move 5ft, then the spell remains dormant and activates the moment they regain the ability. Any attempt to travel by any modality will result in an otherworld step being made.
 
 No time is seen to pass from the perspective of the traveller during their journey. From the perspective of an observer in the realm of departure, the target is seen to freeze for a moment an then flicker out of existence. Likewise, on the realm of destination, it is seen to appear with very little happening in between. As such the "step" does not provoke attacks of opportunity from entities on either side.
 
@@ -4082,17 +4081,17 @@ For the sake of mechanics, this is a "cosmic speed" effect.
 ___
 ### Razor Wind
 
-|Name|Razor Wind [Air, Destruction]|
+|Name|Razor Wind [Air, Destruction, Incantation]|
 |-|-|
 |Scope|local|
 |MP Dice|6|
-|Target(s)|60ft, 90 degree cone, centred on caster. The cone is planar.|+10
+|Target(s)|60ft, 90 degree cone, centred on the caster. The cone is planar.|+10
 |Casting time|"secondary action"|+2
 |Range|close|
 |Duration|Instantaneous|
 |Damage|4d12+[Sup] pressure|+15
 |Condition|Prone, Bleeding|
-|Components|"incantation"|+1
+|Components|incantation|+1
 |Save|DEX+|+2
 
 **Description**: You summon a sharp burst of hurricane-like wind that cuts through an area, dealing 4d12+[Sup] damage to all entities, objects and structures within it. Entities that take this damage are knocked ["prone"](10-conditions-types.md#bleedingwilting) and gain the ["bleeding"](10-conditions-types.md#bleedingwilting) condition. Entities can fully avoid the damage (and hence the conditions) with a successful DEX save. Even in this case all entities and objects of "huge" and smaller are blown back 20ft (for "medium").
@@ -4143,7 +4142,7 @@ ___
 |Concentration|local|
 |Save|-|
 
-**Description**: Summons an [angel](10-conditions-types.md#divine-1) of 8th level or lower, that will faithfully serve, or fight for the caster. The caster and angel are able to communicate (angels understand all languages anyway). 
+**Description**: Summons an [angel](10-conditions-types.md#divine-1) of 8th level or lower, that will faithfully serve the caster or fight for them. The caster and angel are able to communicate (angels understand all languages anyway). 
 
 **Special**:
 
@@ -4185,7 +4184,7 @@ ___
 - This spell can be cast with "Spellcasting: Nature", however, in this case the elemental is level VI instead of level VIII, and one can only summon elementals from their element. More precisely:
   - For a water elemental the caster needs a stream, pond, lake or sea.
   - For a fire elemental the caster needs a fire of at least medium size.
-  - For an ear elemental, the caster needs at least 4 squares (10ft x 10ft) unworked earth.
+  - For an earth elemental, the caster needs at least 4 squares (10ft x 10ft) unworked earth.
   - For an air elemental, the cast needs an open sky.
 
 **Special**:

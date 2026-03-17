@@ -2742,8 +2742,8 @@ ___
 |Range|close (close)|-1
 |Duration|12 minutes (special)|
 |Components|incantation,kinetic|-1
-|Focus|\- (a cup of clean meltwater, a handful of black earth, a bottle of spring air, a burning candle of wax gathered in summer)|
-|Material|\- (1HP worth of the creator's blood)|-2
+|Focus|`-` (a cup of clean meltwater, a handful of black earth, a bottle of spring air, a burning candle of wax gathered in summer)|
+|Material|`-` (1HP worth of the creator's blood)|-2
 |Limitation||
 |Save|CHA|
 
@@ -4207,7 +4207,7 @@ ___
 
 ### Create Secret Path
 
-|Name|Create Secret Path [Nature, Air, Fire, Water, Earth, Spirit]|
+|Name|Create Secret Path [Air, Earth, Fire, Incantation, Nature, Spirit, Water]|
 |-|-|
 |Scope|global|
 |MP Dice|14|
@@ -4245,7 +4245,7 @@ ___
 
 **Description**: The target of the spell appears in the dreams of a being it choses. Once the dream is over, the target's chosen being awakens and the target appears within 5ft of it. The target is not capable of harming its chosen being within the dream in any way, but may chose to interfere with any harmful effects of the ["Dream"](#dream) spell, taking them upon itself.
 
-The target may make a CHA save to negate the effect of the spell, in which case the spell fails. The chosen being may make a CHA save once it has witnessed the target to prevent the teleportation from occurring, in which case it will still awaken when the dream ends.
+The target may attempt a CHA save to negate the effect of the spell: If it succeeds the save then the spell fails. The chosen being may attempt a CHA save once it has witnessed the target to prevent the teleportation from occurring. In the case that it succeeds, the chosen being will still awaken when the dream ends.
 
 **Limitations**:
 
@@ -4263,7 +4263,7 @@ ___
 |-|-|
 |Scope|local (global)|
 |MP Dice|7 (28)|
-|Target(s)|60ft (1200ft)|17
+|Target(s)|60ft radius (60 mile radius)|17
 |Casting time|"full round" (3 days + 5 hours per 4MP dice)|-1(16)
 |Range|120ft|+(19)
 |Duration|8 hours (1 month)|+9(28)
@@ -4277,7 +4277,7 @@ Alternatively the caster can use the spell to affect only one aspect of the weat
 
 **Upcast**: For every extra MP die above 7, the spell lasts for an extra hour or increases in radius by 20ft.
 
-**Global**: As local, but with a radius of 1200ft and a duration of 1 month. For every extra 4MP dice, the radius increases by 600ft or the duration increases by 1 month.
+**Global**: As local, but with a radius of 60 miles and a duration of 1 month. For every extra 4MP dice, the radius increases by 6 miles or the duration increases by 1 month.
 
 Cast globally this is greater magic that can bring calamity to a land where it is cast, destroying crops, turning a growing season to drought, saturation hill sides with water and snow at the worst possible time. Likewise it can bring salvation.
 
@@ -4299,7 +4299,7 @@ ___
 |Limitation|See below| -4
 |Save|Special|
 
-**Description**: The caster performs a ritual, incarnating the residual energy of an incorporeal being that has previously been destroyed into a humanoid vessel. The entity retains all of its powers and MP/MP dice as well as skills, abilities, WIS, INT and CHA. It also uses the HP and MP/SP dice of the vessel. The vessel must be a humanoid that is ["unconscious"](10-conditions-types.md#conditions-in-detail) for the whole of the ritual, and ["dying"](10-conditions-types.md#conditions-in-detail) during the last round.
+**Description**: The caster performs a ritual, incarnating the residual energy of an incorporeal being that has previously been destroyed into a humanoid vessel. The entity retains all of its powers and MP/MP dice as well as skills, abilities, WIS, INT and CHA. It also uses the HP and SP/SP dice of the vessel. The vessel must be a humanoid that is ["unconscious"](10-conditions-types.md#conditions-in-detail) for the whole of the ritual, and ["dying"](10-conditions-types.md#conditions-in-detail) during the last round.
 
 When the ritual is complete, the entity takes full control of the mortal vessel and controls it fully as if it was its own. It cannot leave the body it possess until the body is destroyed (reaches minus its HP total) or the spell ends.
 
@@ -4396,7 +4396,7 @@ The target cannot be restrained or immobilised by any means other than a higher 
 ___
 ### Portal
 
-|Name|Portal [Travel, Earth]|
+|Name|Portal [Earth, Kinetic, Travel]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|7 (14)|
@@ -4421,7 +4421,7 @@ For the sake of mechanics, this is a "blink speed" effect.
 ___
 ### Transform Mortal
 
-|Name|Transformation Mortal [Curse, Mortal, Nature, Water]|
+|Name|Transformation Mortal [Curse, Kinetic, Mortal, Nature, Water]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|7 (14)|
@@ -4474,8 +4474,8 @@ ___
 |Range|close (close)|-1
 |Duration|1 hour (special)|+6
 |Components|incantation,kinetic|-1
-|Focus|- (a cup of clean meltwater, a handful of black earth, a bottle of spring air, a burning candle of wax gathered in summer)|
-|Material|- (1HP worth of the creator's blood)|-2
+|Focus|`-` (a cup of clean meltwater, a handful of black earth, a bottle of spring air, a burning candle of wax gathered in summer)|
+|Material|`-` (1HP worth of the creator's blood)|-2
 |Save|CHA|
 
 **Description**: The spell functions like ["Lesser Domain"](#lesser-domain), but lasts longer and affects a greater space. It also has the following differences:
@@ -4516,9 +4516,10 @@ ___
 
 - Everything in the AoE is immune to ["entropic damage"](10-conditions-types.md#esoteric-damage).
 - All secret paths that start or end in the area of effect are unusable.
-- An entity that wishes to enter or leave the area by "cosmic" or "blink" speed, or through the use of a spell or supernatural ability must succeed on a CHA sav vs the caster's Threshold, or fail. The save cannot be repeated.
+- An entity that wishes to enter or leave the area by "cosmic" or "blink" speed, or through the use of a spell or supernatural ability must succeed on a CHA save vs the caster's Threshold, or fail. The save cannot be repeated.
 
 **Limitation**: 
+
 - If the spell is learned through "air", "earth", "fire" or "water" magic, it can only be cast if the location is associated with the element, or during the appropriate season.
 - If the spell is cast through "nature" magic, it cannot be cast in locales created through artifice (eg, cities, castles, houses, ships, etc).
 
@@ -4578,7 +4579,7 @@ ___
 |Range|close|
 |Duration|12 minutes|
 |Limitation|Only affects entities with a physical form|
-|Limitation|he spell has no effect on "profane" entities.|
+|Limitation|The spell has no effect on "profane" entities.|
 |Components|incantation, kinetic|
 |Save|CHA|
 
@@ -4626,6 +4627,8 @@ ___
 - All structures take 6d12 points of damage at the start of the caster's turn, unless they are warded, in which case the caster must succeed on a SAT roll vs the threshold of the ward. Any entity inside a structure that collapses must succeed a DEX save and a STR save. If it fails the DEX save it also takes the 6d12 damage. If it fails the STR save it is "immobilised".
 - 1d4 fissures open at points of the caster's choosing. The fissure's act as per the ["Rift"](#rift) spell, but end at the edge of the spell's area of effect. At the end of the spell the fissures have a 50% chance of closing, in which case any entities inside them must succeed a STR save or take 6d12 damage and be "immobilised" (half damage on successful save).
 
+Thereafter, the caster can use their main action to open or close a fissure anywhere within the area of effect of the spell.
+
 **Global**: The spell extends for a radius of 3600ft and lasts for an hour. The fissures open once per minute instead of once per round, and their location is random.
 
 ___
@@ -4652,7 +4655,7 @@ Firstly, all targets of the caster's choice regain 4d4+[Sup] MP and SP, if they 
 
 Secondly all targets of the caster's choice are cured of up to 4 conditions of their choice, if they are in the spell's area of effect when it is cast.
 
-Thirdly, all hostile entities and all ["profane"](10-conditions-types.md#profane-1) must make a WIS save vs the caster's threshold, or gain the "glowing" condition, and be either "frightened" of, or "charmed" by, the caster and their allies for the duration of the spell (repeated saves apply). This effect occurs to entities if they are in the spell's area of effect when it is cast, or when they first enter the area of effect.
+Thirdly, all hostile entities and all ["profane" entities](10-conditions-types.md#profane-1) must make a WIS save vs the caster's threshold, or gain the "glowing" condition, and be either "frightened" of, or "charmed" by, the caster and their allies for the duration of the spell (repeated saves apply). This effect occurs to entities if they are in the spell's area of effect when it is cast, or when they first enter the area of effect.
 
 Fourthly, all willing allies are transformed into "beasts" or "fey" of the caster's choice, as if by the ["Transform Mortal"](#transform-mortal) spell. This effect occurs to entities if they are in the spell's area of effect when it is cast, or when they first enter the area of effect.
 
@@ -4714,7 +4717,7 @@ ___
 ___
 ### Mage's Oath
 
-|Name|Mage's Oath [Incantation, Curse, Divine]|
+|Name|Mage's Oath [Curse, Divine, Incantation]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|9 (36)|
@@ -4758,8 +4761,6 @@ ___
 |Range|240ft (1 mile)|3(31)
 |Duration|1 minute (2 hours)|6(37)
 |Components|incantation,kinetic|-1(36)
-|Focus||-1(35)
-|Material||-2(33)
 |Concentration|local|-3(30)
 |Damage|3d12+[SUP] shear|9(39)
 |Damage|4d8+[SUP] lightning/ice|12(51)
@@ -4810,7 +4811,7 @@ ___
 
 **Global**: The spell works in one of two ways.
 
-- It creates a wave with a width of 5000ft, that travels a distance of 3000ft and has a height of 2000ft. This wave travels at a speed of 600ft per round. The STR save is repeated at the start of affected characters' turns. Drowning damage is applied every round when the save is failed. The falling damage at the end of the spell is 36d8.
+- It creates a wave with a width of 5000ft, that travels a distance of 3000ft and has a height of 2000ft. This wave travels at a speed of 600ft per round. The STR save is repeated at the start of affected characters' turns. Drowning damage is applied every round when the save is failed. The falling damage at the end of the spell is 36d8 (The target takes 2 rounds to hit the ground).
 - Alternatively, the wave has a width of 100ft, a height of 20ft and a length of 150ft. In this case, the wave lasts for 1 month and travels at a pace of up to 200ft per round over water in the direction specified by the caster, or at 40ft per round over land. It can carry objects of up to half of its volume without and causes no damage.
 
 ___
@@ -4891,7 +4892,7 @@ ____
   - All mortals within 10 miles must make a CON save or lose 6 HP and become poisoned. For simplicity a DM may assume that 96% of level 1, 80% level 2, 36% of level 3, and 4% of level 4 mortals in the area of effect that are not directly relevant to the game die.
   - All lands territory within 10 miles becomes barren wasteland, incapable of supporting life. Crops wither. Forests begin to wilt and rot. Toxic plankton blooms in waters and wipes out fish stocks. Etc.
 
-**Special**: When cast globally, Edict of Life is a legendary magic. It it either saturates the area of effect with natural energies, or depletes those energies.
+**Special**: When cast globally, Edict of Life is a legendary magic. It either saturates the area of effect with natural energies, or depletes those energies.
 
 - If cast positively:
   - An area affected by the spell positively is becomes aligned with "Nature" for the next thousand years. Mortals born in the area may be born with innate nature magic, xenophonia, an affinity for "track", "survival" or "harvest".
@@ -5013,7 +5014,7 @@ ____
 
 - Everything within the flames in heavily concealed.
 - All entities that first enter the area or first start their turn in it, must make a CHA save or become catatonic. The entity may retry the save at the end of each turn. Those that succeed are immune to the "catatonic" condition until the end of the spell.
-- When an entity first enters the area on its turn, or starts its turn in the area, it makes a CON save or takes 10d8 fire damage. On a successful save it takes half damage. 
+- When an entity first enters the area on its turn, or starts its turn in the area, it makes a CON save or takes 12d8 fire damage. On a successful save it takes half damage. 
 
 **Upcast**: For every extra MP die above 10, increase the radius by 10ft and height by 5ft or increase the damage by 2d8.
 

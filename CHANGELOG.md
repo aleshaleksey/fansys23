@@ -550,6 +550,7 @@ ___
 - [Guidance of the earth](08-spell-list.md#guidance-of-the-earth) now affects STR saves instead of DEX.
 - [Rejuvenate Land](08-spell-list.md#rejuvenate-land) now has 10ft extra per MP die.
 - Specify [Plague](08-spell-list.md#plague) a little better.
+- Make [Greater Weather Control](08-spell-list.md#greater-weather-control) great.
 
 ___
 ## From v0.0.18

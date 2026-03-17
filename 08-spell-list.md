@@ -3042,7 +3042,7 @@ ___
 
 ### Blessing of the Winds
 
-|Name|Blessing of the Winds [Air, Kinetic, Spring]|
+|Name|Blessing of the Winds [Air, Spring]|
 |-|-|
 |Scope|local|
 |MP Dice|5|
@@ -3058,7 +3058,7 @@ ___
 
 - The target's walk and fly speeds increase by 50ft/round.
 - If the target has a fly speed, it improves by one step. If it does not, it gains an "average" fly speed equal to its walking speed, but only during its turn (it falls at the end of the turn if it is still airborne).
-- The target has advantage of acrobatics and fly rolls, as well as DEX saves. It can sacrifice this affect until the start of its next turn to instead apply an extra ["basic combat manoeuvre"](04-combat.md#basic-martial-manoeuvres) if it is using its main action to attack.
+- The target has advantage of acrobatics and fly rolls, as well as DEX saves. It can sacrifice this effect until the start of its next turn to instead apply an extra ["basic combat manoeuvre"](04-combat.md#basic-martial-manoeuvres) if it is using its main action to attack.
 
 **Upcast**: For every extra MP die above 5, the target's movement speed increases by 20ft, or an extra target can be affected.
 
@@ -3078,14 +3078,14 @@ ___
 |Limitation|Only affects mortals|
 |Save|WIS/CHA|
 
-**Description**: The caster attempts to dominate the mind of a mortal, triggering a WIS save at the start of the target's next turn. If the target fails the save, it is ["dominated"](10-conditions-types.md#dominated) by the caster until the end of the spell. The target does not get repeated saves against the effect unless certain conditions are met (see below).
+**Description**: The caster attempts to dominate the mind of a mortal, triggering a WIS save at the start of the target's next turn. If the target fails the save, it is ["dominated"](10-conditions-types.md#dominated) by the caster until the end of the spell. The target does not repeat the save against the effect unless certain conditions are met (see below).
 
 When dominated the target takes no action or reactions (other than movement or communication). Secondly the caster can use any of its own actions through the dominated target. This happens on the caster's turn (although reactions can obviously occur at any time).
 
 **Special**:
 
 + Actions taken through the target by the caster use the target's stats, skills, proficiencies, abilities, movement speed and modalities, but the caster's [actions](04-combat.md#actions-in-combat).
-+ The target is aware that it is not in control of its body. It can identity the origin of the effect by succeeding a "knowledge:arcana" roll.
++ The target is aware that it is not in control of its body. It can identity the origin of the effect by succeeding a "knowledge: arcana" roll.
 + The target retains all memories of its actions while dominated. If it recognises who dominated it, it also retains this memory.
 + If a command involves harming itself, or an entity with which its relationship is "sworn", or helping an entity with which its relationship is "nemesis" it gets an additional save against the spell at advantage. The save is a CHA save.
 + If the target receives "divine" or "entropic" damage while under effect of the spell, the spell ends.
@@ -3095,7 +3095,7 @@ When dominated the target takes no action or reactions (other than movement or c
 ___
 ### Dream
 
-|Name|Dream [Spirit]|
+|Name|Dream [Incantation, Spirit]|
 |-|-|
 |Scope|global|
 |MP Dice|10|
@@ -3113,7 +3113,7 @@ The target may make a CHA save to negate the effect of the spell, in which case 
 
 **Limitations**:
 
-- The spell fails if the target of the spell or the chosen being are not unconscious at the time, or alternatively are not under the effect of the ["dream"](#dream)/["dream-walk"](#dream-walk) spell.
+- The spell fails if the target of the spell or the chosen being are not unconscious at the time, or alternatively are conscious and not under the effect of the ["dream"](#dream)/["dream-walk"](#dream-walk) spell.
 - The spell is affected by seals such as ["forbiddance"](#forbiddance) or ["lesser cosmic seal"](#lesser-cosmic-seal).
 - The target must know the chosen being in AT LEAST enough detail that it would be found by the ["spirits' secret"](#spirits-secret) spell if it were in range.
 
@@ -3122,7 +3122,7 @@ The target may make a CHA save to negate the effect of the spell, in which case 
 ___
 ### Flame Stride
 
-|Name|Flame Stride [Fire, Summer, Travel]|
+|Name|Flame Stride [Fire, Kinetic, Summer, Travel]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|5 (10)|
@@ -3132,8 +3132,8 @@ ___
 |Duration|instantaneous|
 |Components|kinetic|-1(12)
 |Limitation (local)|The caster must be one of the entities that travels|-1(11)
-|Limitation (global)|The start and end location must be bodies of water|-1(10)
-|Focus|A fire at least 1ft x 1ft x 1ft|-1(9)
+|Limitation (global)|The start and end location must be on fire|-1(10)
+|Focus (global)|A fire at least 1ft x 1ft x 1ft|-1(9)
 |Limitation|The caster and any entities teleported are always on fire at the end of the spell though this does not harm them or equipped items. It does, however, set other flammable objects on fire. The fire extinguishes itself after 1 minute.|-2(7)
 |Save|CHA|
 |Damage|2d8+[Nat] fire|+6(13)
@@ -3186,9 +3186,9 @@ ___
 |Duration|1 day (permanent)|+24
 |Components|incantation|+1(25)
 |Focus|A vial of clean water, a vial of clean air, a vial of earth, smouldering embers|-2(23)
-|Material|A cup of the caster's blood|-2(21)
-|Limitation|The material level of the object cannot be higher than 2|-2(19)
-|Limitation|The material level of the object decreases by 1|-2(17)
+|Material|1HP worth of the caster's blood|-2(21)
+|Limitation|The material level of the object cannot be higher than 2.|-2(19)
+|Limitation|The material level of the object final object does not increase.|-2(17)
 |Limitation|The gold value of the final object cannot be higher than the value of the initial option|-2(15)
 |Limitation|The size of the transmuted object in volume is the same as the initial object|-2(13)
 |Save|Charisma (if wielded by an entity, or is magical), not otherwise|
@@ -3204,7 +3204,7 @@ ___
 ___
 ### Flood
 
-|Name|Lesser Flood [Autumn, Destruction, Nature, Water, Winter]|
+|Name|Lesser Flood [Autumn, Destruction, Kinetic, Nature, Water, Winter]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|5 (20)|
@@ -3218,13 +3218,13 @@ ___
 |Conditions|Special| 2 (23)
 |Save|STR, DEX|-1
 
-**Description**: Violently summons 65,000 cubic feet of water (enough to fill 520 5ft cubes) which spreads in a catastrophic deluge that spreads to the full radius of effect of the spell. Thereafter the water remains and spreads naturally as naturally occurring water would without causing further damage, but may sweep away small objects to an extent.
+**Description**: Violently summons 65,000 cubic feet of water (enough to fill 520 5ft cubes) which spreads in a catastrophic deluge that spreads to the full radius of effect of the spell. Thereafter the water remains and spreads as naturally occurring water would without causing further damage, but may sweep away small objects to an extent.
 
 Any entity within the area of effect that does not succeed a STR save suffers 3d12 natural pressure damage, and is moved to the edge of the spell's range of effect (this is a "grapple" effect) and falls prone. In addition any entity within 25ft of the origin of the spell must succeed a DEX save or immediately begin ["suffocating"](03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die) (NB: since the spell is instantaneous they do not take any damage, however refractory period is immediately triggered).
 
 **Limitation**: If the spell is cast through "nature" magic, it can only be cast if there are at least 5 5ft cubes of water or if it is raining or snowing in the proposed area of effect.
 
-**Note**: 65,000 cubic feet is enough to fill a 3m deep, 25m swimming pool.
+**Note**: 65,000 cubic feet is enough to fill a 10ft deep, 100ft x 65ft swimming pool.
 
 **Upcast**: The Spell's radius increases by 10ft and the volume of water produced increases by 200 5ft cubes (13,000 cubic feet) for every extra MP die above 5. Alternatively the damage increases by 1d12.
 
@@ -3274,10 +3274,10 @@ ___
 |Damage|3d8+[Sup] Fire|+9(23)
 |Save|DEX/CHA (see below)|
 
-**Description**: The caster calls flame to protect and ward an area and its perimeter is ringed by motes of flame. The barrier gives light concealment to all targets within. Entities inside the barrier have damage reduction of 10 vs non-magical physical or cold/ice attacks, regardless of their origin. In addition they have advantage on saves against the effects of fire spells, and those caused by elemental fire. Furthermore, the caster specifies "contain", "exclude" or "both". This gives the following effects:
+**Description**: The caster calls flame to protect and ward an area and its perimeter is ringed by motes of flame. The barrier gives light concealment to all targets within. Entities inside the barrier have damage reduction of 10 vs non-magical physical and cold/ice attacks, regardless of their origin. In addition they have advantage on saves against the effects of fire spells, and those caused by elemental fire. Furthermore, the caster specifies "contain", "exclude" or "both". This gives the following effects:
 
 - Any entity on the perimeter of the area of effect, or within 5ft of it, when the ward is activated takes 4d8+[Sup] fire damage unless it succeeds a DEX save (for half).
-- Any entity or object of material level of III or lower that attempts to cross (including in making a melee attack/martial manoeuvre) the perimeter takes 4d8+[Sup] fire damage.
+- Any entity or object of material level of III or lower that attempts to cross (including in making a melee attack/martial manoeuvre) the perimeter takes 4d8+[Sup] fire damage (this damage can only be taken once per round).
   - If the ward was called as "contain", this damage occurs when an entity or object crosses out of the ward.
   - If the ward was called as "exclude", this damage occurs when an entity or object crosses into the ward.
 - Any entities aligned with "water" can only enter (or leave) the area if they succeed a CHA save.
@@ -3291,7 +3291,7 @@ ___
 ___
 ### Heart Ward
 
-|Name|Heart Ward [Autumn, Incantation, Fire, Water]|
+|Name|Heart Ward [Autumn, Fire, Incantation, Water]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|5 (10)|
@@ -3302,7 +3302,7 @@ ___
 |Components|incantation|
 |Save|CHA|
 
-**Description**: Wards the heart and mind of target entities. The caster selects one condition of "aphonia", "charmed", "frightened", and gives all the targets of the spell immunity to that condition.
+**Description**: Wards the heart and mind of target entities. The caster selects one condition of "aphonia", "catatonic", "charmed", "frightened", "possessed" and gives all the targets of the spell immunity to that condition.
 
 **Special**: If the target is already affected by the warded condition, the condition is suppressed for the duration of the spell.
 
@@ -3310,7 +3310,7 @@ ___
 
 - target an extra 2 entities, or,
 - last for an extra hour, or,
-- grant immunity to an additional condition (from the three listed).
+- grant immunity to an additional condition (from the five listed).
 
 **Global**: The spell last for 1 week. For every 2 MP dice above 10, the spell lasts for an extra week.
 
@@ -3379,7 +3379,7 @@ ___
 ___
 ### Pact
 
-|Name|Pact [Curse, Global]|
+|Name|Pact [Curse, Incantation, Global]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|5 (10)|
@@ -3397,7 +3397,7 @@ ___
 **Description**: The caster allows a supernatural pact to be sealed between two targets (supplicant and patron). The caster may be one of the targets. "Pact" may work in the following manner:
 
 1. Replicate the effect of ["Promise"](#promise), with a year long duration. Furthermore, the patron knows if the promise has been broken.
-2. Chose a one of the patrons attributes: a stat, save, resource pool, ability, skill, or proficiency. A number of times a day equal to the supplicant's [Base], the supplicant may use that attribute (in place of their own as appropriate). *In return* the patron must demand that the supplicant make a promise (as in ["Promise"](#promise)) or alternatively the patron may issue a single command to the supplicant on any day that the patron's power is borrowed.
+2. Chose one of the patrons attributes: a stat, save, resource pool, ability, skill, or proficiency. A number of times a day equal to the supplicant's [Base], the supplicant may use that attribute (in place of their own as appropriate). *In return* the patron must demand that the supplicant make a promise (as in ["Promise"](#promise)) or alternatively the patron may issue a single command to the supplicant on any day that the patron's power is borrowed.
 
 **Special**:
 
@@ -3411,7 +3411,7 @@ ___
 ___
 ### Plague
 
-|Name|Plague [Nature, Curse]|
+|Name|Plague [Kinetic, Nature, Curse]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|5 (10)|
@@ -3424,11 +3424,11 @@ ___
 |Material|A rodent's liver, or a handful of dried earth|
 |Save|CON|
 
-**Description**: The caster causes a virulent and violent illness to descend upon 3 target entities in range. At the start of their turns the targets must succeed on a CON save or be afflicted by the acute phase of the illness with no incubation period. The caster chooses any two base Stats: The target has disadvantage on ALL rolls that are governed by those stats. For the duration of the spell (no repeated save). For example, if the caster chooses STR and DEX, the target has disadvantage on all strength and dex based attacks, skills, and saves, as well as miscellaneous rolls based on those Stats.
+**Description**: The caster causes a virulent and violent illness to descend upon 3 target entities in range. At the start of their turns the targets must succeed on a CON save or be afflicted by the acute phase of the illness with no incubation period. The caster chooses any two base Stats: The target has disadvantage on ALL rolls that are governed by those stats for the duration of the spell (no repeated save). For example, if the caster chooses STR and DEX, the target has disadvantage on all strength and dex based attacks, skills, and saves, as well as miscellaneous rolls based on those Stats.
 
-At the end of the spell, the acute phase ends, but the targets make a *second* CON save. If they fail this save, the target becomes a carrier. After 24 hours the disease progresses into one of those specified on the disease table (TODO).
+At the end of the spell, the acute phase ends, but the targets make a *second* CON save. If they fail this save, the target becomes a carrier. After 24 hours the disease progresses into one of those specified on the disease table (no higher than class A).
 
-**Upcast**: For every MP die above 5, the caster may select an extra 2 targets.
+**Upcast**: For every MP die above 5, the caster may select an extra 2 targets. If at least 7 MP dice are expended in the casting, the caster may specify a class S disease.
 
 **Global**: Create a zone of pestilence with a radius of 300ft that lasts for a day (the caster must select the disease at the start of the casting). All entities that enter the zone must make a CON save at dusk, or become diseased. From that point they are considered carriers and at dawn they enter the acute phase of the disease (this acts like the local spell- see above).
 
@@ -3437,7 +3437,7 @@ The zone of pestilence can be detected with a [Heal](05-skills.md#heal) roll or 
 ___
 ### Revenant
 
-|Name|Revenant [Divine, Curse, Earth, Fire]|
+|Name|Revenant [Curse, Divine, Earth, Fire]|
 |-|-|
 |Scope|(global)|
 |MP Dice|20|
@@ -3453,7 +3453,7 @@ ___
 
 **Description**: The caster performs an intricate ritual and attempts to return a deceased entity back to the mortal realm for one short day (24 hours). The target entity's vessel/body is not needed and is provided by the magic. Likewise the revenant carries equipment/garments it was typically associated with/attached to, unless they are in the possession of another entity.
 
-It returns to the world of the living at dawn if is diurnal (or at dusk if it is nocturnal), appearing before the caster, wherever they may be, as long as it is in the mortal realm, and not sealed by appropriate barriers. The revenant stays in the mortal realm for 24 hours. When its time has expired, its spirit is drawn back to the afterlife, and any physical form it held crumbles to dust if it has not already been destroyed.
+It returns to the world of the living at dawn if it is diurnal or at dusk if it is nocturnal, appearing before the caster wherever they may be, as long as it is in the mortal realm, and not sealed by appropriate barriers. The revenant stays in the mortal realm for 24 hours. When its time has expired, its spirit is drawn back to the afterlife, and any physical form it held crumbles to dust if it has not already been destroyed.
 
 The target returns with all of its SP and MP and up to 12 HP.
 
@@ -3462,7 +3462,7 @@ The target returns with all of its SP and MP and up to 12 HP.
 - The entity must be a mortal.
 - The entity must have a dice total (MP + SP) no more than twice the dice total of the caster.
 - The entity is not beholden to the caster and it is not obliged to obey the caster, although it may if it is so inclined.
--  Likewise the target entity and any divine/spiritual/profane that holds its soul is aware of who is trying return it and may attempt to resist. In this case the caster may disengage fom the ritual or try to force it. If the caster tries to force the issue, the target and caster make an opposed SAP roll. If the caster wins the ritual succeeds (although the caster may wish that it hadn't). If the ritual fails, the spell fails [catastrophically](07-magic-and-spellcasting.md#the-catastrophic-cascade) as if the spell was countered on the caster's location.
+-  Likewise the target entity and any divine/spiritual/profane that holds its soul is aware of who is trying return it and may attempt to resist. In this case the caster may disengage from the ritual or try to force it. If the caster tries to force the issue, the target and caster make an opposed SAP roll. If the caster wins the ritual succeeds (although the caster may wish that it hadn't). If the ritual fails, the spell fails [catastrophically](07-magic-and-spellcasting.md#the-catastrophic-cascade) as if the spell was countered on the caster's location.
 - The spell can NEVER be cast on the same target more than once a month.
 
 **Special**: The spell can be cast up to 7 times for the same target. However, on each casting following the first time, either the caster or an entity with at least as many MP or SP dice as the caster's total must be sacrificed (it must die in the ritual). If the sacrifice is not satisfactory, the life is lost but nothing is summoned.
@@ -3486,7 +3486,7 @@ ___
 
 **Description**: The caster shatters the earth, opening one linear rift on the ground. The spell affects worked and unworked ground, rock and structures.
 
-The rift can be no more than 50ft wide, 400ft long and 200ft deep, the sides are jagged and uneven. Any entity in the area of the rift when it opens falls if it does not succeed on a DEX saving throw. If the rift is wider than the entity, the entity falls into the rift. For every point the entity fails its DEX saving throw by, it will fall 10ft into the rift. So if it fails the save by 6, it will fall 60ft and takes the corresponding damage.
+The rift can be no more than 50ft wide, 400ft long and 200ft deep, the sides are jagged and uneven. Any entity in the area of the rift when it opens falls if it does not succeed on a DEX saving throw. If the rift is wider than the entity, the entity falls into the rift. The entity falls 10ft for every point by which it fails its DEX saving throw by. So if it fails the save by 6, it will fall 60ft and take the corresponding damage.
 
 **Special**:
 
@@ -3563,7 +3563,7 @@ ___
 ___
 ### Summons
 
-|Name|Summons [Curse, Spirit, Travel]|
+|Name|Summons [Curse, Kinetic, Spirit, Travel]|
 |-|-|
 |Scope|local (global)|
 |MP Dice|5+ (12)|
@@ -3594,7 +3594,7 @@ NB: This spell is experimental and may be unbalanced or unbalancing.
 ___
 ### Winter's Grasp
 
-|Name|Freeze [Curse, Water, Winter]|
+|Name|Freeze [Curse, Incantation, Water, Winter]|
 |-|-|
 |Scope|local|
 |MP Dice|5|
@@ -3608,7 +3608,7 @@ ___
 |Effect|Immobilised|6(21)
 |Save|CON|
 
-**Description**: Chill the target, freezing it. The target takes 3d8 damage at the start of each turn and is "immobilised". This is negated by a successful CON save. Targets that succeed the save instead have their base movement speed halved, and make [STR] and [DEX] saves at disadvantage for the next two turns. At the start of its 3rd turn after succeeding the save (or when the duration expires), the target is completely free of the spell. Furthermore, water within 10ft of the target freezes, and the temperature in the area of effect falls to "Extreme Temperature: Cold".
+**Description**: Chill the target, freezing it. The target takes 3d8 damage at the start of each turn and is "immobilised". This is negated by a successful CON save. Targets that succeed the save instead have their base movement speed halved, and make [STR] and [DEX] rolls, attacks and saves at disadvantage for the next two turns. At the start of its 3rd turn after succeeding the save (or when the duration expires), the target is completely free of the spell. Furthermore, water within 10ft of the target freezes, and the temperature in the area of effect falls to "Extreme Temperature: Cold".
 
 **Special**: The caster, if caught in the AoE, is not affected by the spell unless they so choose.
 

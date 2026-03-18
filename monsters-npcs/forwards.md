@@ -18,6 +18,7 @@ For the sake of brevity certain terms, mainly pertaining to damage type are abbr
 |Sl          |Slashing (damage)|
 |Poi         |Poison (damage)|
 |Nec         |Necrotic (damage)|
+|Aci         |Acid (damage)|
 |Fir         |Fire (damage)|
 |Ice         |Ice (damage)|
 |Lit         |Light (damage)|

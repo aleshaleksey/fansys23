@@ -367,7 +367,7 @@ ___
 |Resistant|||"Physical" damage, "Energy"[nat] damage|
 |Immune|||"Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "stunned" "incapacitated", "catatonic" and "dying"|
 
-Stone golems are more difficult to construct than clay golems, but they are also more potent. They have a use as guardian golems and war golems, since the effort of constructing them is offset by their increased utility. Its immunity to slashing and Pi weapons makes it especially useful against conventional armies.
+Stone golems are more difficult to construct than clay golems, but they are also more potent. They have a use as guardian golems and war golems, since the effort of constructing them is offset by their increased utility. Its immunity to slashing and piercing weapons makes it especially useful against conventional armies.
 
 A stone golem has a near-human intelligence, but no will of its own and follows its master's instructions to the best of its ability. If given no instructions it continues the last task until it is complete. It will defend its master unless explicitly instructed not to.
 
@@ -537,7 +537,7 @@ ___
 |Proficiencies|||1 language and up to 4 kits|
 |Skills|||"Athletics" +20, "Fortify" +20, "Climb" +12, "Harvest" +12, "Observe" +10, "Prospect" +6, 1 rank in all other skills not governed by CHA|
 |||||
-|Absorb Energy|||"Fire", "Light", "Pr" - Diamond golems are immune to these damage types. In addition any damage of these types it would take instead restores the golem's SP by an equal amount.|
+|Absorb Energy|||"Fire", "Light", "pressure" - Diamond golems are immune to these damage types. In addition any damage of these types it would take instead restores the golem's SP by an equal amount.|
 |Immune|||"Poison", "Necrotic"|
 |Immune|||Immune to physical damage from weapons with a material level of 4 or less.|
 |Resistant|||"Physical" damage, "Energy" damage|
@@ -575,7 +575,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Claw|+5|1d6+2|Sheer|
+|Claw|+5|1d6+2[Sh]|Reach=5ft
 |Grapple|+5|||
 |Sunder|+5|||
 |Monster Attack|||A gargoyle makes 4 attacks with its claws.|
@@ -615,8 +615,8 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Claw|+9|1d6+4|Sheer|
-|Bite|+9|1d4+4|Sheer|
+|Claw|+9|1d6+4[Sh]|Reach=5ft|
+|Bite|+9|1d4+4[Sh]|Reach=5ft|
 |Grapple|+9|||
 |Sunder|+9|||
 |Monster Attack|||A gargoyle makes 4 attacks with its claws and one with its bite.|

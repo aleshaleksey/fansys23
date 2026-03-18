@@ -57,8 +57,8 @@ Large(-1/+1)
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Claws|+10|1d6+6|Sh|
-|Bite|+10|1d6+6|Sh|
+|Claws|+10|1d6+6[Sh]||
+|Bite|+10|1d6+6[Sh]||
 |Grapple|+10|||
 |Shove|+10|||
 |||||
@@ -70,7 +70,7 @@ Large(-1/+1)
 |Broad Strike|||Claws only|
 |||||
 |Vulnerability|||"divine", "light"|
-|Resistant|||"physical" damage except "Sl" and "Pr", "grappled", "restrained"|
+|Resistant|||"physical" damage except "slashing" and "pressure", "grappled", "restrained"|
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
 |Senses|||"low-light vision", "life-sense" 30ft|
 
@@ -99,8 +99,8 @@ Saves: Wis, Cha
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Claws|+14|2d6+8|Sh|
-|Bite|+14|2d6+8|Sh|
+|Claws|+14|2d6+8[Sh]||
+|Bite|+14|2d6+8[Sh]||
 |Grapple|+14|||
 |Shove|+14|||
 |||||
@@ -115,7 +115,7 @@ Saves: Wis, Cha
 |Broad Strike|||Claws only|
 |||||
 |Vulnerability|||"divine", "light"|
-|Resistant|||"physical" damage except "Sl" and "Pr", "grappled", "restrained"|
+|Resistant|||"physical" damage except "slashing" and "pressure", "grappled", "restrained"|
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
 |Senses|||"low-light vision", "life-sense" 30ft|
 |Skills|||"Observe" +8, "Track" +8, "Athletics" +9|
@@ -168,7 +168,7 @@ ___
 |||||
 |||||
 |Vulnerability|||"divine", "light"|
-|Resistant|||"physical" damage except "Pe" and "Pr", "fire", "ice", "profane" damages|
+|Resistant|||"physical" damage except "percussive" and "pressure", "fire", "ice", "profane" damages|
 |Immune|||"necrotic", "poison" damage|
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
 |Senses|||"low-light vision", "life-sense" 60ft|
@@ -215,7 +215,7 @@ ___
 |Longsword|+3(+5)|1d8/1d12+1(+2)||
 |Sling|+4(+6)|1d6+2(+3)|range=1600/80|
 |Vulnerability|||"divine", "light"|
-|Resistant|||"physical" damage except "Pe" and "Pr"|
+|Resistant|||"physical" damage except "percussive" and "pressure"|
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
 |Senses|||"low-light vision", "life-sense" 60ft|
 
@@ -265,7 +265,7 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Vulnerability|||"divine", "light"|
-|Resistant|||"physical" damage except "Pe" and "Pr"|
+|Resistant|||"physical" damage except "percussive" and "pressure"|
 |Immune|||"fire" or "ice"|
 |Immune|||"disease", "unconscious", "dying", "stunned", "charmed", "frightened", "paralysed"|
 |Senses|||"low-light vision", "tremor-sense" 60ft, "life-sense" 60ft|
@@ -871,7 +871,7 @@ Saves: Str, Con
 |Elemental Blast II (one of fire or ice)|+5|2d6|Up to 4d6 (an extra 1d6 per 1MP dice)|
 |Elemental Touch II (one of fire or ice)|+4|2d6|Up to 6d6 (an extra 2d6 per 1MP dice)|
 |Grapple/Throw/Disarm/Sunder|+11|||
-|Aura of Destruction|Thr=18||(Range=30ft) Objects and man-made structures (made of materials of material level 2 or lower) within 30ft of the warrior suffer one dice of damage at the start of each of the herald's turn unless they succeed the Thr=18 CON save. Unattended structures and items automatically fail the save.|
+|Aura of Destruction|Thr=18||(Range=30ft) Objects and man-made structures (made of materials of material level 2 or lower) within 30ft of the warrior suffer one die of damage at the start of each of the fiend's turn unless they succeed the Thr=18 CON save. Unattended structures and items automatically fail the save.|
 |||||
 |Monster Attack III|||A fiendish warrior makes 4 attacks/combat manoeuvres|
 |Combined Manoeuvre II|||A fiendish warrior can combine up to 3 basic combat manoeuvres|
@@ -895,7 +895,7 @@ While a demon warrior might not relish intrigue and complex strategy, but will a
 
 Fiendish warriors are formidable foes. They usually prefer to fight weakened foes, but will not shy away from a difficult combat. A demon warrior will not hesitate to use an opponent's weakness against them, or finish off a downed foe. Equally they may deliberately leave a survivor to spread tales of horror far and wide.
 
-A fiendish warrior will unleash will close in and unleash their destructive aura. Once they do, they will engage in melee.
+A fiendish warrior will close in and unleash their destructive aura. Once they do, they will engage in melee.
 
 Some fiendish warriors have wings and can fly at 50ft.
 
@@ -1029,7 +1029,7 @@ ___
 |Skills|||"Athletics":+20, "Fortify": +20", "Climb:+20", "Swim:+11", "Ride:+7", "Intimidation":+16,"Deception":+16, "Acrobatics:+5", "Stealth:+10", "Observe":+14, "Sense Motive": +13, "Spellworking:+11", "Religion:+11", "Academics:+6"|
 |||||
 |Resistant|||"physical" damage, "fire", "ice" damage|
-|Immune|||"disease", "poison", "dying", "Pro"|
+|Immune|||"disease", "poison", "dying", "profane"|
 |Vulnerability|||"divine", "light[sup]" damage|
 |||||
 |Demonic Realm|||Each demon has its own demonic realm which is found at least in the intermediate depths of the spirit realm. This acts as a ["Greater Domain"](../08-spell-list.md#greater-domain) with a radius of at least 40ft (and with no upper limit), with the exception that its alignment is "profane" and is located deeper in the spirit realm. If the domain is destroyed, the demon is likewise destroyed.|

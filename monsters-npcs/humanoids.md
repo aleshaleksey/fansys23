@@ -79,8 +79,8 @@ The reason for different races having different kinds of stat blocks was to refl
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Club|+2|1d4 Pe|-|
-|Knife|-5|1d4 Sl|Not proficient|
+|Club|+2|1d4[Pe]|-|
+|Knife|-5|1d4[Sl]|Not proficient|
 |Proficiencies|||Any two tools or kits|
 |Skills|||Usually +2 to tinker, appraise or fortify and +1 to insight or a knowledge|
 |Loot|||Usually 1-4sp and the clothes on their back|
@@ -110,8 +110,8 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Club|+3|1d4+1 Pe|-|
-|Hand axe|+3|1d6+1 Sl|Proficient with any one weapon group, but no armour|
+|Club|+3|1d4+1[Pe]|-|
+|Hand axe|+3|1d6+1[Sl]|Proficient with any one weapon group, but no armour|
 |Proficiencies|||Any two tools or kits|
 |Skills|||Usually +3 fortify, +2 to harvest, +1 to any one from the "sense" group|
 |Loot|||Usually the tools of their trade, and clothes on their back.|
@@ -143,10 +143,10 @@ The HiT includes +2 from padded armour and +3 from a light shield.
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Mace|+5|1d6+2 Pe|-|
-|Short spear|+5|1d6+2 Pi|-|
-|Shortbow|+4|1d6+1 Pi|-|
-|Crossbow|+4|1d10+1 Pi|-|
+|Mace|+5|1d6+2[Pe]|-|
+|Short spear|+5|1d6+2[Pi]|-|
+|Shortbow|+4|1d6+1[Pi]|-|
+|Crossbow|+4|1d10+1[Pi]|-|
 |Proficiencies|||Two melee, one ranged, shield, medium armour|
 |Skills|||Usually +5 Athletics, +3 climb, fortify, +2 to any two from the "sense" group, "navigate" +2|
 
@@ -333,10 +333,10 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Dagger|+6|1d4+3 Sl/Pi|Reach=5ft, Range=60ft, Increment=10ft|
-|Shuriken|+6|1d4+3 Sl/Pi|Range=60ft, Increment=20ft|
-|Shortbow|+6|1d6+3 Pi|Range=600ft, Increment=120ft|
-|Light crossbow|+6|1d10+3 Pi||
+|Dagger|+6|1d4+3[Sl/Pi]|Reach=5ft, Range=60ft, Increment=10ft|
+|Shuriken|+6|1d4+3[Sl/Pi]|Range=60ft, Increment=20ft|
+|Shortbow|+6|1d6+3[Pi]|Range=600ft, Increment=120ft|
+|Light crossbow|+6|1d10+3[Pi]||
 |||||
 |[Precision Attack I](../06-abilities.md#precision-attack-i-x)||+1d8|A scout can deal extra damage to targets that are unaware of it|
 |[Parry](../06-abilities.md#parry)|||A scout can add +2 to HiT vs up to 3 melee attacks.|
@@ -379,10 +379,10 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Dagger|+8|1d4+4 Sl/Pi|Reach=5ft, Range=60ft, Increment=10ft|
-|Shuriken|+8|1d4+4 Sl/Pi|Range=60ft, Increment=20ft|
-|Composite Bow|+8|1d6+4 Pi|Range=600ft, Increment=120ft|
-|Hand Crossbow|+8|1d6+4 Pi|Range=360ft, Increment=60ft|
+|Dagger|+8|1d4+4[Sl/Pi]|Reach=5ft, Range=60ft, Increment=10ft|
+|Shuriken|+8|1d4+4[Sl/Pi]|Range=60ft, Increment=20ft|
+|Composite Bow|+8|1d6+4[Pi]|Range=600ft, Increment=120ft|
+|Hand Crossbow|+8|1d6+4[Pi]|Range=360ft, Increment=60ft|
 |||||
 |[Precision Attack III](../06-abilities.md#precision-attack-i-x)||+3d8|An assassin can deal extra damage to targets that are not aware of it.|
 |[Assassinate I](../06-abilities.md#assassinate-i-v)|||An assassin can deal damage directly to the HP of an [immobilised](../10-conditions-types.md#immobilised) target.|
@@ -782,9 +782,9 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Shortbow|+5|1d6+2 Pi|range = 600/120ft|
-|Sling|+5|1d6+2 Pi|range = 1600/80ft|
-|Knife|+5|1d4+2 Sl||
+|Shortbow|+5|1d6+2[Pi]|range = 600/120ft|
+|Sling|+5|1d6+2[Pi]|range = 1600/80ft|
+|Knife|+5|1d4+2[Sl]||
 |||||
 |Sc: Nature III|Thr=16||["Sour"](../08-spell-list.md#silent), ["Hide"](../08-spell-list.md#hide), ["Beast Speech"](../08-spell-list.md#beast-speech), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Rest"](../08-spell-list.md#least-rest), ["Animate Plant"](../08-spell-list.md#animate-plant)|
 |Sc: Water I|Thr=16||["Least Hydromancy"](../08-spell-list.md#least-hydromancy), ["Mist"](../08-spell-list.md#mist), ["Chill Blood"](../08-spell-list.md#chill-blood)|
@@ -822,12 +822,12 @@ ____
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Longbow|+13|1d10+6 Pi|range = 1200/240ft|
-|Sling|+13|1d6+5 Pi|range = 1600/80ft|
-|Knife|+13|1d4+5 Sl||
+|Longbow|+13|1d10+6[Pi]|range = 1200/240ft|
+|Sling|+13|1d6+5[Pi]|range = 1600/80ft|
+|Knife|+13|1d4+5[Sl]||
 |||||
-|Elementalism: Light (Blast)|+15|3d4+4 Lig|(Range=120ft+30ft/MP die), maximum of 7 dice (10d4+4)|
-|Elementalism: Light (Circle)|Thr=24|3d4+4 Lig|(Range=120ft+30ft/MP die), maximum of 7 dice (10d4+4), maximum radius of 70ft (10ft/MP die).|
+|Elementalism: Light (Blast)|+15|3d4+4[Lig]|(Range=120ft+30ft/MP die), maximum of 7 dice (10d4+4)|
+|Elementalism: Light (Circle)|Thr=24|3d4+4[Lig]|(Range=120ft+30ft/MP die), maximum of 7 dice (10d4+4), maximum radius of 70ft (10ft/MP die).|
 |||||
 |Sc: Nature VII|Thr=24||["Sour"](../08-spell-list.md#silent), ["Hide"](../08-spell-list.md#hide), ["Beast Speech"](../08-spell-list.md#beast-speech), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Rest"](../08-spell-list.md#least-rest), ["Animate Plant"](../08-spell-list.md#animate-plant),["Cure"](../08-spell-list.md#cure), ["Bestial Transformation"](../08-spell-list.md#bestial-transformation), ["Rejuvenate Land"](../08-spell-list.md#rejuvenate-land), ["Greater Fade"](../08-spell-list.md#greater-fade), ["Lesser Cosmic Seal"](../08-spell-list.md#lesser-cosmic-seal), ["Fairy Feast"](../08-spell-list.md#fairy-feast), ["Summon Elemental"](../08-spell-list.md#summon-elemental), ["Create Secret Path"](../08-spell-list.md#create-secret-path), ["Greater Weather Control"](../08-spell-list.md#greater-weather-control)|
 |Sc: Water III|Thr=24||["Least Hydromancy"](../08-spell-list.md#least-hydromancy), ["Mist"](../08-spell-list.md#mist), ["Chill Blood"](../08-spell-list.md#chill-blood), ["Winter's Touch"](../08-spell-list.md#winters-touch), ["Summon Water Sprite"](../08-spell-list.md#summon-water-sprite), ["Least Transformation"](../08-spell-list.md#least-transformation), ["See Spell"](../08-spell-list.md#see-spell), ["Water Ward"](../08-spell-list.md#water-ward)|
@@ -874,10 +874,10 @@ Wears padded armour. When wielding blades increases to 22.
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Longbow|+12|1d10+6 Pi|range = 1200/240ft|
-|Sling|+12|1d6+5 Pi|range = 1600/80ft|
-|Scimitar|+12|1d8+5 Sl||
-|Knife|+12|1d4+5 Sl||
+|Longbow|+12|1d10+6[Pi]|range = 1200/240ft|
+|Sling|+12|1d6+5[Pi]|range = 1600/80ft|
+|Scimitar|+12|1d8+5[Sl]||
+|Knife|+12|1d4+5[Sl]||
 |||||
 |Sc: Nature IV|Thr=18||["Sour"](../08-spell-list.md#silent), ["Hide"](../08-spell-list.md#hide), ["Beast Speech"](../08-spell-list.md#beast-speech), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Rest"](../08-spell-list.md#least-rest), ["Cure"](../08-spell-list.md#cure), ["Bestial Transformation"](../08-spell-list.md#bestial-transformation)|
 |Sc: Air II|Thr=18||["Least Anemancy"](../08-spell-list.md#least-anemancy), ["Least Blast"](../08-spell-list.md#least-blast), ["Spirits' Secrets"](../08-spell-list.md#spirits-secret), ["Silence"](../08-spell-list.md#silence), ["Glide"](../08-spell-list.md#glide)|
@@ -931,12 +931,12 @@ Wears a light cuirass.
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Sling|+8|1d6+3 Pi|range = 1600/80ft|
-|Shortstaff|+8|1d6+3 Pi||
-|Knife|+8|1d4+3 Sl||
+|Sling|+8|1d6+3[Pi]|range = 1600/80ft|
+|Shortstaff|+8|1d6+3[Pi]||
+|Knife|+8|1d4+3[Sl]||
 |||||
-|Elementalism: Light (Blast)|+10|2d4+4 Lig|(Range=120ft+30ft/MP die), maximum of 5 dice (7d4+4)|
-|Elementalism: Light (Circle)|Thr=21|2d4+4 Lig|(Range=120ft+30ft/MP die), maximum of 5 dice (7d4+4), maximum radius of 50ft (10ft/MP die).|
+|Elementalism: Light (Blast)|+10|2d4+4[Lig]|(Range=120ft+30ft/MP die), maximum of 5 dice (7d4+4)|
+|Elementalism: Light (Circle)|Thr=21|2d4+4[Lig]|(Range=120ft+30ft/MP die), maximum of 5 dice (7d4+4), maximum radius of 50ft (10ft/MP die).|
 |||||
 |Sc: Nature V|Thr=21||["Sour"](../08-spell-list.md#silent), ["Hide"](../08-spell-list.md#hide), ["Beast Speech"](../08-spell-list.md#beast-speech), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Rest"](../08-spell-list.md#least-rest), ["Animate Plant"](../08-spell-list.md#animate-plant),["Cure"](../08-spell-list.md#cure), ["Bestial Transformation"](../08-spell-list.md#bestial-transformation), ["Rejuvenate Land"](../08-spell-list.md#rejuvenate-land)|
 |Sc: Water V|Thr=21||["Least Hydromancy"](../08-spell-list.md#least-hydromancy), ["Mist"](../08-spell-list.md#mist), ["Chill Blood"](../08-spell-list.md#chill-blood), ["Winter's Touch"](../08-spell-list.md#winters-touch), ["Summon Water Sprite"](../08-spell-list.md#summon-water-sprite), ["Water Ward"](../08-spell-list.md#water-ward), "[](../08-spell-list.md)"|
@@ -985,7 +985,7 @@ ___
 |Axe|+5|1d6+2||
 |Strike|+5|3||
 |War dart|+5|1d4+2|Range=240ft, Increment=60ft|
-|Resistance|||Pe|
+|Resistance|||"percussive" damage, "prone"|
 |Proficiencies|||Common and if it exists, orcish|
 |Proficiencies|||Axes, strikes, spears, one set of tools, maybe one set of armour|
 |Skills|||+4 "Athletics", "climb", +2 "track" or +3 "harvest"|
@@ -1022,7 +1022,7 @@ An orc might have a lower threshold for violence than an average human, but he w
 |[Charge](../06-abilities.md#charge)|||When taking "run" action while mounted, can attempt a basic martial manoeuvre as a secondary action on the same turn.|
 |[Quick Mount](../06-abilities.md#quick-mount)|||A beast tamer can mount as a "secondary action" and quick-mount as a non-action.|
 |||||
-|Resistance|||Pe|
+|Resistance|||"percussive" damage, "prone"|
 |Proficiencies|||Common and if it exists, orcish|
 |Proficiencies|||Axes, strikes, spears, one set of tools, maybe one set of armour|
 |Skills|||+4 "Athletics", "climb", +2 "track" or +3 "harvest"|
@@ -1058,7 +1058,7 @@ Wears hide armour
 |["Long Axe"](../11-weapons-armour.md#pole-arms)|+9|2d8+6|reach = 10ft|
 |Strike|+9|1d6+4||
 |War dart|+9|1d4+4|Range=240ft, Increment=60ft|
-|Resistance|||"Pe", "Sh"|
+|Resistance|||"percussive", "shear" damage, "prone"|
 |Unarmed Strike II|||Unarmed strike base damage is 1d6|
 |Multi-attack I|||Makes 2 attacks|
 |["Stalker"](../06-abilities.md#stalker)|||Hide as secondary action|
@@ -1097,7 +1097,7 @@ Wears hide armour
 |Greataxe|+11|2d8+6|Up to 2d8+12 with berserk and great strike|
 |Strike|+11|1d6+4|Up to 1d6+12 with berserk and great strike|
 |War dart|+11|1d4+4|Range=240ft, Increment=60ft|
-|Resistance|||"Pe", "Sl"|
+|Resistance|||"percussive", "slashing" damage, "prone"|
 |Unarmed Strike II|||Unarmed strike base damage is 1d6|
 |Great Strike|||Up to -4/+4 to attack/damage|
 |Broad Strike|||Hit extra targets|
@@ -1141,6 +1141,7 @@ ___
 |Sc: Nature II|Thr=20||["Compass"](../08-spell-list.md#compass), ["Hide"](../08-spell-list.md#hide), ["Least Heal"](../08-spell-list.md#least-heal), ["Harvest"](../08-spell-list.md#harvest)|
 |Sc: Earth IV|Thr=20||["Down"](../08-spell-list.md#down), ["Least Geomancy"](../08-spell-list.md#least-geomancy), ["Bear's Claws"](../08-spell-list.md#bears-claws), ["Shape Earth"](../08-spell-list.md#shape-earth), ["Summon gnome"](../08-spell-list.md#summon-gnome), ["Guidance of the Earth"](../08-spell-list.md#guidance-of-the-earth), ["Earth Ward"](../08-spell-list.md#earth-ward), ["Enchanted Ground"](../08-spell-list.md#enchanted-ground)|
 |||||
+|Resistance|||"percussive" damage, "prone"|
 |[Cursed Blood](../06-abilities.md#cursed-blood)|||Reaction to cast spells in revenge|
 |Proficiency|||Common and any 2 languages, axes, spears, strikes, staves|
 |Skills|||"Spellworking" +10, knowledge nature, arcana +8, "observe" +7, "track" + 5, "fortify" +4, "navigate" +4|
@@ -1181,6 +1182,7 @@ ___
 |Sc: Nature I|Thr=20||["Compass"](../08-spell-list.md#compass), ["Hide"](../08-spell-list.md#hide), ["Least Heal"](../08-spell-list.md#least-heal)|
 |Sc: Earth III|Thr=20||["Down"](../08-spell-list.md#down), ["Least Geomancy"](../08-spell-list.md#least-geomancy), ["Bear's Claws"](../08-spell-list.md#bears-claws), ["Shape Earth"](../08-spell-list.md#shape-earth), ["Summon gnome"](../08-spell-list.md#summon-gnome), ["Guidance of the Earth"](../08-spell-list.md#guidance-of-the-earth), ["Earth Ward"](../08-spell-list.md#earth-ward)|
 |||||
+|Resistance|||"percussive" damage, "prone"|
 |[Cursed Blood](../06-abilities.md#cursed-blood)|||Reaction to cast spells in revenge|
 |Proficiency|||Common and any 2 languages, axes, spears, strikes, staves|
 |Skills|||"Spellworking" +10, knowledge nature, arcana +8, "observe" +7, "track" + 5, "fortify" +4, "navigate" +4|
@@ -1228,6 +1230,7 @@ ___
 |[Alternate Form: Sequester](../06-abilities.md#alternate-form-sequester)|||The shaman can chose to meld their equipment with their alternate form|
 |||||
 |[Cursed Blood](../06-abilities.md#cursed-blood)|||Reaction to cast spells in revenge|
+|Resistance|||"percussive" damage, "prone"|
 |Proficiency|||Common and any 2 languages, axes, spears, strikes, staves|
 |Skills|||"Spellworking" +12, knowledge nature, arcana +10, "observe" +12, "track" + 5, "fortify" +4, "navigate" +6, "sense motive" +6|
 
@@ -1710,7 +1713,7 @@ There is some debate as to whether giants are humanoids, monsters or an entirely
 |[Multiattack I](../06-abilities.md#multi-attack-i-iii)|||An ogre can attempt 2 combat manoeuvres as an attack action (main action)|
 |[Great Strike](../06-abilities.md#great-strike)|||An ogre can take a malus of up to 3 from its attack bonus to grant itself a corresponding bonus to one-handed attacks or twice the bonus to two handed attacks|
 |||||
-|Damage Resistance|||"Pe", "Sl", "Pi"|
+|Damage Resistance|||"percussive", "slashing", "piercing"|
 |Keen Smell|||An ogre has advantage on observe rolls dependant on smell|
 |Skills|||"Athletics" +8, "Climb" +7, "Swim" +6, "Fortify" +5, "Prospect" +3, "Track" +2|
 
@@ -1760,7 +1763,7 @@ ___
 |[Multiattack I](../06-abilities.md#multi-attack-i-iii)|||An ogre can attempt 2 combat manoeuvres as an attack action (main action)|
 |[Great Strike](../06-abilities.md#great-strike)|||An ogre can take a malus of up to 3 from its attack bonus to grant itself a corresponding bonus to one-handed attacks or twice the bonus to two handed attacks|
 |||||
-|Damage Resistance|||"Pe", "Sl", "Pi"|
+|Damage Resistance|||"percussive", "slashing", "piercing"|
 |Keen Smell|||An ogre has advantage on observe rolls dependant on smell|
 |Skills|||"Athletics" +8, "Climb" +7, "Swim" +6, "Fortify" +5, "Prospect" +3, "Track" +2|
 
@@ -1795,7 +1798,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Strike|+13|2d6+6 Pe|Reach=10ft|
+|Strike|+13|2d6+6[Pe]|Reach=10ft|
 |Giant's Javelin|+13|2d8+6|Range: 360ft, Increment: 120ft|
 |Grapple/Throw|+13|||
 |||||
@@ -1811,7 +1814,7 @@ ___
 |||||
 |Resistance|||"poisoned" and "diseased" as well as "biological" damage.|
 |Resistance|||"Frightened", "Charmed", "Grappled", "Restrained", "Incapacitated"|
-|Resistance|||"Pi" and "Pe" damage. A giant may also be resistant to *one* form of element damage.|
+|Resistance|||"piercing" and "percussive" damage. A giant may also be resistant to *one* form of element damage.|
 |Skills|||"Fortify" +15, "Harvest" +12, "Observe" +11, "Knowledge: Geography" +8, "Heal" +7, "Intimidate" +5, "Perform" +5, 1 rank in all other skills (NB: Skill sets may vary between giants)|
 
 Giants are not necessarily particularly fierce. Many know a single elemental or nature magic to at least level II. If inclined to fight, they will use their magic to increase their already formidable strength, and then use their great size and strength to beat down their foe. They will often destroy fortifications made by the smaller races with javelins that strike with the force of a small ballista, which they use to hurl small boulders. A giant's booming voice can be heard for miles, should it choose to project it, and villagers in mountain valleys will often hear their their songs.
@@ -1847,7 +1850,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Strike|+21|4d12+10 Pe|Reach=10ft|
+|Strike|+21|4d12+10[Pe]|Reach=10ft|
 |Giant's Bow|+12|2d12+6|Greatbow: Range: 1800ft, Increment: 360ft|
 |Grapple/Throw/Sunder|+21|||
 |||||
@@ -1870,7 +1873,7 @@ ___
 |Immunity|||"Frightened", "Charmed", "Grappled", "Restrained", "Incapacitated"|
 |Resistance|||"Incapacitated", "Stunned", "Paralysed"|
 |Resistance|||"poisoned" and "diseased" as well as "biological" damage.|
-|Resistance|||"Pi", "Sl" and "Pe" damage. A giant may also be resistant to *one* form of element damage.|
+|Resistance|||"piercing", "slashing" and "percussive" damage. A giant may also be resistant to *one* form of element damage.|
 |Skills|||"Fortify" +20, "Climb" +20, "Athletics" +20, "Swim" +20, "Harvest" +16, "Observe" +14, "Knowledge: Geography" +10, "Heal" +9, "Intimidate" +10, "Perform" +7, 1 rank in all other skills (NB: Skill sets may vary between giants)|
 
 Giants are not necessarily particularly fierce. Giant warriors on the other hand are. These are the giants who have gone out of their way to hone the martial abilities. A giant warrior may be cruel or righteous, but generally takes great pride in its prowess. A giant warrior is an opponent to dragons, demons and some of the other great monsters that roam the world. A single one of these warriors is generally capable single handedly wiping out a small army.
@@ -1941,7 +1944,7 @@ What is the purpose of a colossus? What is its goals? What is its nature? That v
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |[Mighty II](../06-abilities.md#mighty-ii)||||
-|Damage Resistance|||"Ent", "divine", "Pro"|
+|Damage Resistance|||"entropic", "divine", "profane"|
 |Damage Immunity|||"Disease", "poison"|
 |[Truesight V](../06-abilities.md#truesight-i-vi)|||150ft|
 |Skills|||"Spellworking" +27, "Knowledge (all)" +24, "Fortify" +24, "Athletics" +24, "Swim" +24, "Climb" +18. "Observe" +20, other skills 1 rank.|
@@ -1978,7 +1981,7 @@ ___
 
 - Add +2 to STR, +2 to CON.
 - Subtract -2 from INT.
-- Add ["heat sense II"](../06-abilities.md#heat-sense-i-v), proficiency with spears and strikes, resistance to Pe damage and ["prone"](../10-conditions-types.md#prone).
+- Add ["heat sense II"](../06-abilities.md#heat-sense-i-v), proficiency with spears and strikes, resistance to "percussive" damage and ["prone"](../10-conditions-types.md#prone).
 - If the NPC is equipped with crossbow, change to war dart instead.
 
 ___

@@ -53,7 +53,7 @@ Deflection +2
 |-|-|-|-|
 |Short-spear|+7|1d3+3[Pi]+1d6[Lit]|The spear is not real, but a manifestation of the angel.|
 |Disarm|+7|||
-|Elemental Blast|+7|1d4+3 Lit|Can upcast up to 5d4+3|
+|Elemental Blast|+7|1d4+3[Lit]|Can upcast up to 5d4+3|
 |Elemental Blast|Thr=20||Greater (Radial), up to 30ft radius|
 |Sc: Incantation IV|Thr=17||Favourites are: "down", "Least Ward", "Least Heal", "Lesser Veil", "Promise", "Cure", "Least Weather Control"|
 |Radiant deflection|AC: +2||A radiant power surrounds an angel, protecting them from harm|
@@ -69,9 +69,9 @@ Deflection +2
 |Skills|||"Sense Motive: +9", "Perform: +9", "Fly: +9", "Persuade: +6", "Creature Handling: +6", "K:Religion: +8", "SpellWorking: +8"|
 |Senses|||Truesight (120ft), Lifesense (15ft)|
 |Resistance(damage)|||"divine"|
-|Immunity(damage)|||all "Natural" damage, "Lit"|
+|Immunity(damage)|||all "Natural" damage, "light"|
 |Immunity(condition)|||"Surprised", "Charmed", "Frightened", "Stunned", "Dying"|
-|Vulnerability|||"Pro"|
+|Vulnerability|||"Profane"|
 |True-speech|||A messenger cannot lie|
 
 Lesser angels take on the form of small winged humanoids do not have free will and use WIS in place of CHA for skills.
@@ -103,12 +103,12 @@ Deflection +4
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Short-spear|+10|1d6+3[Pi]+1d6[Lit]|The spear is not real, but a manifestation of the angel.|
-|Elemental Blast|+10|1d4+3 Lit|Can upcast up to 7d4+3|
+|Elemental Blast|+10|1d4+3[Lit]|Can upcast up to 7d4+3|
 |Elemental Blast|Thr=20 CON|| Greater (Radial), up to 50ft radius|
 |Sc: Incantation VI|Thr=22||Favourites are: "down", "Least Ward", "Least Heal", "Lesser Veil", "Promise", "Cure", "Least Weather Control", "Pact", "Razor Wind"|
 |Disarm|+10|||
 |Radiant deflection|AC: +4||A radiant power surrounds an angel, protecting them from harm|
-|Divine Strike||+1d6 Div|Spears|
+|Divine Strike||+1d6[Div]|Spears|
 |||||
 |[Spellsong II](../06-abilities.md#spellsong-i-iv)||||
 |[Bard Song II](../06-abilities.md#bard-song-i-iv)||||
@@ -125,9 +125,9 @@ Deflection +4
 |||||
 |Senses|||Truesight (120ft), Life-sense (30ft)|
 |Resistance(damage)|||"divine"|
-|Immunity(damage)|||all "Natural" damage, "Lit"|
+|Immunity(damage)|||all "Natural" damage, "light"|
 |Immunity(condition)|||"Surprised", "Charmed", "Frightened", "Stunned", "Dying"|
-|Vulnerability|||"Pro"|
+|Vulnerability|||"Profane"|
 |True-speech|||A watcher that lies takes 1 HP damage for every lie it speaks|
 
 A watcher exists to watch over an area, entity or event. Often they have a directive to not interfere. Generally they use an alternate form to hide their true nature.
@@ -163,9 +163,9 @@ Deflection +6
 |Greatsword|+20|2d6+14|The sword is not real. It is merely a part of divine wrath and overcomes physical damage resistance and immunity. It counts as divine source for the sake of what it is.|
 |Disarm|+15|||
 |||||
-|Elemental Blast|+14|1d4+5 Lit|Can upcast up to 9d4+5|
+|Elemental Blast|+14|1d4+5[Lit]|Can upcast up to 9d4+5|
 |Elemental Blast|Thr=23 CON|| Greater (Radial), up to 70ft radius|
-|Divine Strike||3d6 Div|Heavy Blades|
+|Divine Strike||3d6[Div]|Heavy Blades|
 |Radiant deflection|AC: +6||A radiant power surrounds an angel, protecting them from harm|
 |||||
 |Sc: Incantation VI|Thr=21||Favourites are: "down", "Least Ward", "Least Heal", "Lesser Veil", "Promise", "Cure", "Least Weather Control", "Pact", "Razor Wind"|
@@ -191,9 +191,9 @@ Deflection +6
 |Skills|||"Sense Motive: +11", "Observe: +11", "Stealth: +11", "Perform: +11", "Fly: +11", "Persuade: +11", "SpellWorking: +10", "K:Religion: +10", "Creature Handling: +6", "Track: +6"|
 |Senses|||Truesight (180ft), Life-sense (45ft)|
 |Resistance(damage)|||"divine"|
-|Immunity(damage)|||all "Natural" damage, "Lit"|
+|Immunity(damage)|||all "Natural" damage, "light"|
 |Immunity(condition)|||"Surprised", "Charmed", "Frightened", "Stunned", "Dying"|
-|Vulnerability|||"Pro"|
+|Vulnerability|||"Profane"|
 |True-speech|||A seraph that lies takes 1 HP damage for every lie it speaks|
 
 Seraphs are angels that are closest to the deity that created them. In general a seraph is sent to punish those who have gone against the god who sent it, or to prepare an area for a new beginning by bringing flaming destruction upon it. Alternatively, the coming of a seraph may portent the completion of an old prophecy, or the beginning of a new one.

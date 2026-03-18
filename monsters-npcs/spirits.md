@@ -151,9 +151,9 @@ ___
 |Skills (lvl 5)|||Fortify +8, Harvest +6, Prospect +2|
 |Special|||A gnome not in contact with its element loses its immunity to physical damage|
 |Damage resistance|||"Physical" (becomes immunity at lvl4 and above)|
-|Damage immunity|||"Lig"|
+|Damage immunity|||"Lightning"|
 |Condition immunity|||"stunned", "immobilised", "crippled", "bleeding", poisoned" and "paralysed"|
-|Vulnerability|||"Lit"|
+|Vulnerability|||"light"|
 
 Gnomes are minor earth spirits that manifest as tiny humanoids made of dirt. In small numbers they can be either a boon or hindrance, and seldom cause problems bigger than potholes. Large numbers of angry gnomes have been known to cause landslides.
 
@@ -265,9 +265,9 @@ ___
 |Skills (lvl5)|||Fly +8, Navigate +4|
 |Special|||A wind sprite that IS in contact with an element that is not its own loses resistance/immunity to physical damage|
 |Damage resistance|||"Physical" (becomes immunity at lvl4 and above)|
-|Damage immunity|||"Lit"|
+|Damage immunity|||"light"|
 |Condition immunity|||"stunned", "immobilised", "crippled", "bleeding", poisoned" and "paralysed"|
-|Vulnerability|||"Lig"|
+|Vulnerability|||"Lightning"|
 
 Wind sprites are minor air elementals that like peaceful skies and hate lightning. They particularly like exploring topographically complex terrain and are often found near the ground. They are the ones responsible for laundry and hats blowing away and for the sudden rustling of leaves on days when one would not normally expect it.
 
@@ -294,8 +294,8 @@ Size: Small +1/-1
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Water bullet|+9|1d4+5|Pi|
-|Tendril|+9|1d6+5|Pe|
+|Water bullet|+9|1d4+5[Pi]|Range=480ft, Increment=80ft|
+|Tendril|+9|1d6+5[Pe]|Reach=10ft|
 |Grapple|+9|||
 |Combined Maneuver I||||
 |Monster Attack I|||A lesser undine can make 2 attacks with "water bullet"|
@@ -334,8 +334,8 @@ Size: Medium
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Tendril|+13|2d6+7|Pe|
-|Water bullet|+13|2d4+7|Pi|
+|Tendril|+13|2d6+7[Pe]|Reach=10ft|
+|Water bullet|+13|2d4+17[Pi]|Range=480ft, Increment=80ft|
 |Grapple|+13|||
 |Combined Manoeuvre I||||
 |Monster Attack (II)|||The greater undine makes up to 3 attacks with tendrils or water bullet|
@@ -498,7 +498,7 @@ Evasion:+3
 |[Sc: Incantation III](../06-abilities.md#spellcasting-local)|||Favourites are: [Sour](../08-spell-list.md#sour), [Least Vengeance](../08-spell-list.md#least-vengeance), [Promise](../08-spell-list.md#promise), [Cure](../08-spell-list.md#cure)|
 |[Sc: Air IV](../06-abilities.md#spellcasting-local)|||Favourites: [Least Anemancy](../08-spell-list.md#least-anemancy), [Spirits' Secret](../08-spell-list.md#spirits-secret), [Summon Wind Sprite](../08-spell-list.md#summon-wind-sprite), [See Spell](../08-spell-list.md#see-spell), [Least Storm](../08-spell-list.md#least-storm)|
 |||||
-|Immunity|||"Physical", "Lit"|
+|Immunity|||"Physical", "Light"|
 |Immunity|||"Restrained", "Surprised", "Helpless", "Dying", "Stunned", "Immobilised", "crippled", "bleeding", "Paralysed"|
 |Vulnerability|||"Lig[sup]"|
 
@@ -532,7 +532,7 @@ Evasion:+3
 |[Sc: Incantation V](../06-abilities.md#spellcasting-local)|||Favourites are: [Sour](../08-spell-list.md#sour), [Least Vengeance](../08-spell-list.md#least-vengeance), [Promise](../08-spell-list.md#promise), [Cure](../08-spell-list.md#cure), [Greater Xenophonia](../08-spell-list.md#cure), [Pact](../08-spell-list.md#pact)|
 |[Sc: Air VII](../06-abilities.md#spellcasting-local)|||Favourites: [Least Anemancy](../08-spell-list.md#least-anemancy), [Spirits' Secret](../08-spell-list.md#spirits-secret), [Summon Wind Sprite](../08-spell-list.md#summon-wind-sprite), [See Spell](../08-spell-list.md#see-spell), [Least Storm](../08-spell-list.md#least-storm), [Greater Storm Ward](../08-spell-list.md#greater-storm-ward), [Greater Weather Control](../08-spell-list.md#greater-weather-control)|
 |||||
-|Immunity|||"Physical", "Lit"|
+|Immunity|||"Physical", "Light"|
 |Immunity|||"Restrained", "Surprised", "Helpless", "Dying", "Stunned", "Immobilised", "crippled", "bleeding", "Paralysed"|
 |Vulnerability|||"Lig[sup]"|
 
@@ -568,7 +568,7 @@ Armour:+5
 |[Sc: Kinetic III](../06-abilities.md#spellcasting-local)|||Favourites are: [Mist](../08-spell-list.md#mist), [Spirits' Secret](../08-spell-list.md#spirits-secret), [Silence](../08-spell-list.md#silence), [Blessing of the Fates](../08-spell-list.md#blessing-of-the-fates)|
 |[Sc: Earth IV](../06-abilities.md#spellcasting-local)|||Favourites are: [Down](../08-spell-list.md#down), [Shape Earth](../08-spell-list.md#shape-earth), [Warded Ground](../08-spell-list.md#warded-ground), [Earth Ward](../08-spell-list.md#earth-ward), [Animate Golem](../08-spell-list.md#animate-golem)|
 |||||
-|Immunity|||"Physical", "Lig"|
+|Immunity|||"Physical", "Lightning"|
 |Immunity|||"Restrained", "Surprised", "Helpless", "Dying", "Stunned", "Immobilised", "crippled", "bleeding", "Paralysed"|
 |Vulnerability|||"Nec[sup]"|
 
@@ -604,7 +604,7 @@ Armour:+7
 |[Sc: Kinetic V](../06-abilities.md#spellcasting-local)|||Favourites are: [Mist](../08-spell-list.md#mist), [Spirits' Secret](../08-spell-list.md#spirits-secret), [Silence](../08-spell-list.md#silence), [Blessing of the Fates](../08-spell-list.md#blessing-of-the-fates), [Gift of the Fates](../08-spell-list.md#gift-of-the-fates), [Plague](../08-spell-list.md#plague)|
 |[Sc: Earth VII](../06-abilities.md#spellcasting-local)|||Favourites are: [Down](../08-spell-list.md#down), [Shape Earth](../08-spell-list.md#shape-earth), [Warded Ground](../08-spell-list.md#warded-ground), [Earth Ward](../08-spell-list.md#earth-ward), [Animate Golem](../08-spell-list.md#animate-golem), [False Regrowth](../08-spell-list.md#false-regrowth), [Portal](../08-spell-list.md#portal)|
 |||||
-|Immunity|||"Physical", "Lig"|
+|Immunity|||"Physical", "Lightning"|
 |Immunity|||"Restrained", "Surprised", "Helpless", "Dying", "Stunned", "Immobilised", "crippled", "bleeding", "Paralysed"|
 |Vulnerability|||"Nec[sup]"|
 
@@ -999,7 +999,7 @@ Deflection: +2
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite|+5|1d6+2 Sh|Reach=5ft|
+|Bite|+5|1d6+2[Sh]|Reach=5ft|
 |Grapple|+5|||
 |Trip|+5|||
 |Hypnotic Eyes|Thr=15||(Range=30ft) Expending 1 MP die a secondary action, a hound can make eye contact with a single target. The target must make a CHA save at the start of its turn, or become incapacitated. It may repeat the save at the start of each of its turns. Once a target succeeds on the save, it cannot be affected by this ability until the next dusk. A blind target is unaffected by the ability. A target that can close its eyes may voluntarily close its eyes as a reaction to avoid the effect (or as a non action on its turn), but is considered blind until the start of the hound's next turn.|
@@ -1181,7 +1181,7 @@ Deflection: +5
 |||||
 |Immunity|||"stunned", "immobilised", "crippled", "bleeding", "poisoned", "paralysed" as well as "aphonia" and "deafened"|
 |Damage Immunity|||All physical Damage. The immunity to physical damage does not apply to damage caused by weapons made of iron or steel.|
-|Damage Resistance|||"divine" damage, "Pro" damage|
+|Damage Resistance|||"divine" damage, "profane" damage|
 |||||
 |Skills|||"Perform" +23, "Deceive" +18, "Persuade" +18, "Creature Handling" +18, "Acrobatics" +15, "Flight" +15, "Insight" +15, "Heal" +12, "Knowledge: Nature" +12, "Knowledge: Arcana" +10, "Knowledge: History" +8, other skills: 1 rank|
 |||||
@@ -1231,7 +1231,7 @@ Deflection: +2
 |Damage Immunity|||All physical Damage.|
 |Damage Immunity|||"poison", "Biological", "Ice[nat]", "Fir[nat]"|
 |||||
-|Damage Resistance|||"Pro" damage|
+|Damage Resistance|||"profane" damage|
 
 ___
 ## Spirits: Other

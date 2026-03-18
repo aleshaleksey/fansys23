@@ -88,7 +88,7 @@ Size=Small
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Claws|+4|1d6+2|Sh damage|
+|Claws|+4|1d6+2[Sh]||
 |Mighty|||An eagle can carry off much larger prey its size might suggest|
 |Keen Senses: Sight|||Advantage on perception rolls based on sight|
 |Skills|||"Fly" +4, "Observe" +4|
@@ -116,7 +116,7 @@ Size=Tiny
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Claws|+5|1d3+3|Sh damage|
+|Claws|+5|1d3+3[Sh]||
 |Keen Senses: Sight|||Advantage on perception rolls based on sight|
 |[Evasive](../06-abilities.md#evasive)|||Avoid AoOs|
 |[Sprint](../06-abilities.md#sprinter)|||A hawk can fly "run" at x3 its base fly speed|
@@ -145,7 +145,7 @@ Size=Small/Tiny
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Claws|+4|1d3+2|Sh damage|
+|Claws|+4|1d3+2[Sh]||
 |Keen Senses|||Advantage on perception rolls|
 |Low light Vision|||Can see in the "dark", but not pitch black conditions|
 |[Evasive](../06-abilities.md#evasive)|||Avoid AoOs|
@@ -176,7 +176,7 @@ Size= Small, Raven / Tiny, Crow
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Beak|+4|3|Pi damage|
+|Beak|+4|3[Pi]||
 |[Evasive](../06-abilities.md#evasive)|||Avoid AoOs|
 |Resistant|||"Disease", "poison"|
 |Skills|||"Sleight of Hand" +4, "Observe" +3|
@@ -204,7 +204,7 @@ Size= Small
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Wings|+2|1d6|Pe damage|
+|Wings|+2|1d6[Pe]||
 |Resistant|||"Fear", "Charm"|
 |Skills|||"Intimidate" +4, "Observe" +3|
 
@@ -234,7 +234,7 @@ Size = tiny
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Claws|+4|1d3+2|Sh damage|
+|Claws|+4|1d3+2[Sh]||
 |Keen Senses|||Advantage on perception rolls|
 |Low light Vision|||Can see in the "dark", but not pitch black conditions|
 |[Sprint](../06-abilities.md#sprinter)|||x3 move, x5 sprint|
@@ -266,7 +266,7 @@ Size = small
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite|+3|1d4+1|Sh damage|
+|Bite|+3|1d4+1[Sh]||
 |Keen Senses|||Advantage on perception rolls based on scent and hearing|
 |Low light Vision|||Can see in the "dark", but not pitch black conditions|
 |[Sprint](../06-abilities.md#sprinter)|||x3 move, x5 sprint|
@@ -401,7 +401,7 @@ Size = medium
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Ram|+3|1d4+1|Pe|
+|Ram|+3|1d4+1[Pe]||
 |Shove|+3|||
 |Combined Manoeuvre I|||A sheep can knock prone that which it rams (1SP)|
 |Resistant|||Ice: Sheep have a thick fleece which allow them to resist the cold|
@@ -439,7 +439,7 @@ A swarm of bees is medium sized.
 |Home Territory|||A swarm always succeeds on navigation rolls on home terrain|
 |Skills|||"Navigate" -2, "Harvest" +4|
 |Scattered Cover|||The swarm is considered to have ["heavy cover"](../04-combat.md#cover-and-concealment) for the sake of targeted attacks made against it.|
-|Resistant|||"Pe, ""Pi", "Sh", "Sl"|
+|Resistant|||"Pe, ""piercing", "shear", "slashing"|
 |Resistant|||"Fear","Charm"|
 |Immune|||"Grappled","Bleeding","Grappled","Restrained","Crippled","Paralysed"|
 
@@ -497,7 +497,7 @@ Size = tiny
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite|+4|2|Sh damage|
+|Bite|+4|2[Sh]||
 |Blind-sight VI|||Bats can accurately perceive targets by echolocation up to a range of 30ft|
 |Poor Sight|||Bats have disadvantage on observe rolls that do not use its echolocation.|
 |[Evasive](../06-abilities.md#evasive)|||Avoid AoOs|
@@ -528,8 +528,8 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite|+8|1d10+3|Sh damage|
-|Claws|+8|1d6+3|Sh damage|
+|Bite|+8|1d10+3[Sh]||
+|Claws|+8|1d6+3[Sh]||
 |Monster attack|||Two claw attacks as a main action and a bite as secondary action|
 |Keen scent|||Advantage on perception rolls based on scent|
 |Low light Vision|||Can see in the "dark", but not pitch black conditions|
@@ -563,7 +563,7 @@ Size = Medium
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Gore|+5|1d12+3|Sh damage|
+|Gore|+5|1d12+3[Sh]||
 |Shove|+5|||
 |Keen scent|||Advantage on perception rolls based on scent|
 |Low light Vision|||Can see in the "dark", but not pitch black conditions|
@@ -597,7 +597,7 @@ Size = Large
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite|+7|2d8+3|Sh damage|
+|Bite|+7|2d8+3[Sh]||
 |Grapple|+7|||
 |[Combined Manoeuvre](../06-abilities.md#combined-manoeuvre-i-v)|||(1 SP die) A crocodile can, and usually does, grapple the creatures it bites, to drag them down into the murky water it inhabits.|
 |[Silent Step I](../06-abilities.md#silent-step-i-iii)|||A crocodile swims silently and at full speed when stalking its prey|
@@ -631,7 +631,7 @@ Size = Medium
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite|+5|1d8+2|Sh damage|
+|Bite|+5|1d8+2[Sh]||
 |Grapple|+5|||
 |[Combined Manoeuvre](../06-abilities.md#combined-manoeuvre-i-v)|||(1 SP die) A caiman can, and usually does, grapple the creatures it bites, to drag them down into the murky water it inhabits.|
 |[Silent Step I](../06-abilities.md#silent-step-i-iii)|||A caiman, much like its larger cousin, swims silently and at full speed when stalking its prey|
@@ -670,7 +670,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Gore|+11|2d8+6|Pe|
+|Gore|+11|2d8+6[Pe]||
 |Shove/Throw/Grapple|+11|||
 |[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||An elephant can knock over its foes as it charges them tusks first (1SP)|
 |[Broad Strike](../06-abilities.md#broad-strike)|||(1 SP die) An elephant can attack multiple adjacent targets with its tusks|
@@ -706,7 +706,7 @@ Size = tiny
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite|+4|2|Sh damage|
+|Bite|+4|2[Sh]||
 |Keen Senses|||Advantage on perception rolls|
 |Low light Vision|||Can see in the "dark", but not pitch black conditions|
 |[Sprint](../06-abilities.md#sprinter)|||x3 move, x5 sprint|
@@ -739,14 +739,14 @@ Size = small
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite|+5|4|Sh damage|
+|Bite|+5|4[Sh]||
 |Grapple|+5|||
 |[Combined Manoeuvre]|+5||A snake can bite and grapple in almost the same movement|
 |Keen Smell|||Advantage on perception rolls based on smell|
 |[Heat Sense](../06-abilities.md#heat-sense-i-v)|||A grass snake can detect warm blooded creatures within 30ft of itself|
 |[Fleet](../06-abilities.md#fleet)|||A snake has a low profile and can hide in light concealment|
 |Skills|||"Stealth" +5, "Observe" +2|
-|Resistant|||"Pi"|
+|Resistant|||"piercing"|
 |Loot|||Snake meat is edible to humanoids, the skin can be used for leather (0.25lb of meat, 0.1lb of hide)|
 
 This block represents a grass snake: A small, non-venomous snake that dwells in the plains and in wetlands, and hunts mainly small rodents.
@@ -772,15 +772,15 @@ Size = medium
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite|+4|1d4+2|Sh damage|
-|Constrict|Thr=17 STR|1d6+3 Pr|A python can constrict prey that it has grappled as a secondary action. The grappled entity must succeed on a STR save or take 1d6+3 Pr damage. It is also considered ["suffocating"](../03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die).|
+|Bite|+4|1d4+2[Sh]||
+|Constrict|Thr=17 STR|1d6+3[Pr]|A python can constrict prey that it has grappled as a secondary action. The grappled entity must succeed on a STR save or take 1d6+3[Pr] damage. It is also considered ["suffocating"](../03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die).|
 |Grapple|+5|||
 |[Combined Manoeuvre]|+5||A snake can bite and grapple in almost the same movement|
 |Keen Smell|||Advantage on perception rolls based on smell|
 |[Heat Sense](../06-abilities.md#heat-sense-i-v)|||A grass snake can detect warm blooded creatures within 30ft of itself|
 |[Fleet](../06-abilities.md#fleet)|||A snake has a low profile and can hide in light concealment|
 |Skills|||"Stealth" +4, "Observe" +2|
-|Resistant|||"Pi"|
+|Resistant|||"piercing"|
 |Loot|||Snake meat is edible to humanoids, the skin can be used for leather (~40lb of meat, ~10lb of hide)|
 
 This block represents an average sized constrictor snake, such as a python (3-8m in length, 60-120lb): A small, non-venomous snake that dwells in the plains and in wetlands, and hunts mainly small rodents.
@@ -806,13 +806,13 @@ Size = small
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite|+4|3 Pi||
+|Bite|+4|3[Pi]||
 |Venom|Thr=18 CON||As a secondary action, a viper can expend 1 SP die and inject a dose of its venom into its victim. At the start of each turn the entity must succeed a CON save, or take 1d6 necrotic[nat] damage. The venom persists for a minute, or until the victim succeeds the save.|
 |Keen Smell|||Advantage on perception rolls based on smell|
 |[Heat Sense](../06-abilities.md#heat-sense-i-v)|||A grass snake can detect warm blooded creatures within 30ft of itself|
 |[Fleet](../06-abilities.md#fleet)|||A snake has a low profile and can hide in light concealment|
 |Skills|||"Stealth" +5, "Observe" +2|
-|Resistant|||"Pi"|
+|Resistant|||"piercing"|
 |Loot|||Snake meat is edible to humanoids, the skin can be used for leather (0.25lb of meat, 0.1lb of hide)|
 
 This block represents a venomous viper. Vipers mainly hunt rodents and other small animals. They bite them once and then wait for the venom to skill them and partially digest them before eating them. Vipers also bite larger animals in perceived self defence.
@@ -838,14 +838,14 @@ Size = medium
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite|+6|1d4+3 Pi||
+|Bite|+6|1d4+3[Pi]||
 |Hypnotise|Thr=15 WIS||(Range=40ft) As a secondary action, a cobra can attempt to hypnotise one target in range who can see it, reducing its speed to 0 until the end of its turn.|
 |Venom|Thr=18 CON||As a secondary action, a cobra can expend 1 SP die and inject a dose of its venom into its victim. At the start of its turn, the target must succeed a CON save or become restrained. It repeats this save at the start of its next two turns. If it succeeds either one, it remains restrained, else if it fails both, it becomes paralysed and begins to suffocate. Each turn when it is poisoned, the victim must succeed a CON save, or take 1d6 necrotic[nat] damage. The paralysis persists for an hour, however the [suffocation](../03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die) and necrotic damage end on a successful save.|
 |Keen Smell|||Advantage on perception rolls based on smell|
 |[Heat Sense](../06-abilities.md#heat-sense-i-v)|||A grass snake can detect warm blooded creatures within 30ft of itself|
 |[Fleet](../06-abilities.md#fleet)|||A snake has a low profile and can hide in light concealment|
 |Skills|||"Stealth" +5, "Observe" +2|
-|Resistant|||"Pi"|
+|Resistant|||"piercing"|
 |Loot|||Snake meat is edible to humanoids, the skin can be used for leather (5lb of meat, 1lb of hide)|
 
 This block represents a venomous cobra. Cobra mainly hunt rodents and other small animals. They use their hypnotic hood to fascinate their prey, and then bite them once and wait for the venom to paralyse the hapless rodent before eating them. Cobras act aggressively in self defence, often Pr-emptively killing humanoids they encounter just in case.
@@ -873,7 +873,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite|+5|1d6+2|Sh damage|
+|Bite|+5|1d6+2[Sh]||
 |Keen Senses|||Advantage on perception rolls based on scent and hearing|
 |Low light Vision|||Can see in the "dark", but not pitch black conditions|
 |[Sprint](../06-abilities.md#sprinter)|||x3 move, x5 sprint|
@@ -1042,7 +1042,7 @@ Natural armour +2
 |Bite|+5|1d8+2 [Sh]|Reach=5ft|
 |Slam|+3|1d6+1 [Pe]|Reach=5ft|
 |||||
-|Rough hide|||Entities that physically "grapple", "restrain" or "immobilise" (or attempt to) sharks must succeed a DEX save or take 1d4 Sh damage at the end of their turn.|
+|Rough hide|||Entities that physically "grapple", "restrain" or "immobilise" (or attempt to) sharks must succeed a DEX save or take 1d4[Sh] damage at the end of their turn.|
 |[Berserk I](../06-abilities.md#berserk-i-v)|||Sharks can go berserk at the smell of blood and |
 |Keen Smell|||Sharks have advantage of observe rolls based on scent|
 |[Life Sense IV](../06-abilities.md#life-sense-i-vi)|||Smaller sharks can sense other living beings at a range of 60ft|
@@ -1077,7 +1077,7 @@ Natural armour +3
 |Bite|+8|2d8+4 [Sh]|Reach=5ft. A shark's bite always causes "bleeding" on 12, if a it deals HP damage to the target.|
 |Slam|+8|2d6+4 [Pe]|Reach=5ft|
 |||||
-|Rough hide|||Entities that physically "grapple", "restrain" or "immobilise" (or attempt to) sharks must succeed a DEX save or take 1d4 Sh damage at the end of their turn.|
+|Rough hide|||Entities that physically "grapple", "restrain" or "immobilise" (or attempt to) sharks must succeed a DEX save or take 1d4[Sh] damage at the end of their turn.|
 |[Berserk I](../06-abilities.md#berserk-i-v)|||Sharks can go berserk at the smell of blood and |
 |Keen Smell|||Sharks have advantage of observe rolls based on scent|
 |[Life Sense V](../06-abilities.md#life-sense-i-vi)|||Smaller sharks can sense other living beings at a range of 120ft|
@@ -1122,10 +1122,10 @@ A snail's shell gives it +10 to armour.
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Pseudopod|+9|1d8+6 Pe|Reach=10ft|
+|Pseudopod|+9|1d8+6[Pe]|Reach=10ft|
 |Retreat|||As a main action, a snail can retreat into, or emerge from, its shell, giving it immunity to physical damage. The shell can be destroyed by supernatural attacks or attacks from weapons of a material grade of 2 or above (the shell acts as an object and has a HP of 18).|
 |||||
-|Resistances|||"Pe" damage|
+|Resistances|||"percussive" damage|
 |Skills|||"Observe" +3, "Harvest" +8|
 
 Giant snails are large herbivorous molluscs. They are usually docile, but can lash out with their pseudopods when attacked, or retreat into their shell, which is their main defence against ranged attacks or predators.
@@ -1157,10 +1157,10 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Pseudopod|+9|1d8+6 Pe + 1d12[acid]|Reach=10ft|
+|Pseudopod|+9|1d8+6[Pe] + 1d12[acid]|Reach=10ft|
 |Acid Body|||Weapons of material grade 3 or lower striking the slugs body are dealt 1 point of damage. Furthermore the attacker must succeed a Thr=19 CON save or suffer 1d12 poison damage.|
 |||||
-|Resistances|||"Pe", "poison", "acid" damage|
+|Resistances|||"percussive", "poison", "acid" damage|
 |Skills|||"Observe" +3, "Harvest" +8|
 
 Giant slugs are large, poisonous, herbivorous molluscs. They are usually docile, but can lash out with their pseudopods when attacked. Since they are largely defenceless against stronger monsters and ranged attacks, they dwell in, or near, caverns whether this is not so much of a threat.
@@ -1188,7 +1188,7 @@ Size = Huge
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite|+12|2d12+5|Sh damage|
+|Bite|+12|2d12+5[Sh]||
 |Grapple|+12|||
 |[Combined Manoeuvre](../06-abilities.md#combined-manoeuvre-i-v)|||(1 SP die) A giant crocodile can, and usually does, grapple the creatures it bites, to drag them down into the murky water it inhabits.|
 |[Silent Step I](../06-abilities.md#silent-step-i-iii)|||Despite its size, a giant crocodile swims silently and at full speed when stalking its prey|
@@ -1220,15 +1220,15 @@ Size = Huge
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite|+10|1d10+5|Sh damage|
-|Constrict|Thr=20 STR|2d6+5 Pr|A python can constrict prey that it has grappled as a secondary action. The grappled entity must succeed on a STR save or take 2d6+5 Pr damage. It is also considered ["suffocating"](../03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die).|
+|Bite|+10|1d10+5[Sh]||
+|Constrict|Thr=20 STR|2d6+5[Pr]|A python can constrict prey that it has grappled as a secondary action. The grappled entity must succeed on a STR save or take 2d6+5[Pr] damage. It is also considered ["suffocating"](../03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die).|
 |Grapple|+10|||
 |[Combined Manoeuvre]|||A snake can bite and grapple in almost the same movement|
 |Keen Smell|||Advantage on perception rolls based on smell|
 |[Heat Sense](../06-abilities.md#heat-sense-i-v)|||A grass snake can detect warm blooded creatures within 30ft of itself|
 |[Fleet](../06-abilities.md#fleet)|||A snake has a low profile and can hide in light concealment|
 |Skills|||"Stealth" +5, "Observe" +3|
-|Resistant|||"Pi", "Sl"|
+|Resistant|||"piercing", "slashing"|
 |Loot|||Snake meat is edible to humanoids, the skin can be used for leather (~1280lb of meat, ~320lb of hide (level 2))|
 
 Where there are giant animals, there are also giant snakes that eat them. Giant constrictors prefer swamps and deep forest.
@@ -1259,8 +1259,8 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Claws|+8|2d6+2|Sh damage|
-|Beak|+8|2d6+2|Sh damage|
+|Claws|+8|2d6+2[Sh]||
+|Beak|+8|2d6+2[Sh]||
 |Grapple|+8||Claws only|
 |[Combined Manoeuvre](../06-abilities.md#combined-manoeuvre-i-v)|+8||A giant eagle can expend one SP die when making a claw attack and also grapple its target|
 |[Mighty II](../06-abilities.md#mighty-ii)|||An eagle can carry off much larger prey its size might suggest|
@@ -1295,7 +1295,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Claws|+6|1d10+3|Sh damage|
+|Claws|+6|1d10+3[Sh]||
 |Grapple|+6|||
 |[Combined Manoeuvre](../06-abilities.md#combined-manoeuvre-i-v)|+8||A giant owl can expend one SP die when making a claw attack and also grapple its target|
 |Keen Senses|||Advantage on perception rolls|
@@ -1333,7 +1333,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Wings|+7|2d6+4|Pe damage|
+|Wings|+7|2d6+4[Pe]||
 |Throw|+7||A giant swan can easily knock down a similarly sized being with the beating of its wings|
 |[Combined Manoeuvre](../06-abilities.md#combined-manoeuvre-i-v)|+8||A giant swan can expend one SP die when making a wing attack and also knock down its target|
 |Resistant|||"Fear", "Charm"|
@@ -1369,7 +1369,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Ram|+10|1d10+6|Pe|
+|Ram|+10|1d10+6[Pe]||
 |Shove/Throw|+10|||
 |[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||A giant sheep can knock prone that which it rams (1SP)|
 |[Far Throw I](../06-abilities.md#far-throw-i-v)|||The giant sheep throws its target 15ft + [5ft x size advantage]|
@@ -1411,7 +1411,7 @@ Size = Large
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Gore|+11|2d12+6|Sh damage|
+|Gore|+11|2d12+6[Sh]||
 |Shove|+11|||
 |Keen scent|||Advantage on perception rolls based on scent|
 |Low light Vision|||Can see in the "dark", but not pitch black conditions|
@@ -1449,7 +1449,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite|+11|1d10+6|Sh damage: The giant wolf's bite counts as a two-handed weapon.|
+|Bite|+11|1d10+6[Sh]|(Reach=5ft, long) The giant wolf's bite counts as a two-handed weapon.|
 |[Great Strike](../06-abilities.md#great-strike)|||A giant wolf can sacrifice up to 4 points fro its attack for damage|
 |Keen Senses|||Advantage on perception rolls based on scent and hearing|
 |Low light Vision|||Can see in the "dark", but not pitch black conditions|
@@ -1490,8 +1490,8 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite|+13|2d10+8|(Reach=10ft)Sh damage|
-|Claws|+13|2d6+8|Sh damage|
+|Bite|+13|2d10+8[Sh]|Reach=10ft|
+|Claws|+13|2d6+8[Sh]||
 |Monster attack|||Two claw attacks as a main action and a bite as secondary action|
 |Keen scent|||Advantage on perception rolls based on scent|
 |Low light Vision|||Can see in the "dark", but not pitch black conditions|
@@ -1869,8 +1869,8 @@ ___
 |["Greater Manoeuvre I"](../06-abilities.md#greater-manoeuvre-i-v)|||A dark cabbage can grapple/restrain entities up to huge in size with its roots|
 |||||
 |Alert|||A dark cabbage cannot be surprised|
-|Resistance|||"prone", "Lit", "necrotic", "poison", "necrotic"|
-|Immunity|||"Pro", "Ent"|
+|Resistance|||"prone", "light", "necrotic", "poison", "necrotic"|
+|Immunity|||"Profane", "Entropic"|
 |Immunity|||"frightened", "blinded", "stunned", "catatonic" and "paralysed"|
 |Skill|||"Observe" +1, "Stealth" +2|
 |Sense|||The dark cabbage does not have conventional senses other than:|
@@ -1900,7 +1900,7 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Toxic cloud|Thr=15 vs CON|(cost = 1SP dice)|"secondary action": Releases an airborne toxin that causes non-plant mortals that inhale it within 20ft to be "restrained" if it does not succeed a Con save at the start of its turn. The victim can repeat its save at the start of each turn. If it fails a second time, it is "immobilised", if it fails a third, it is "paralysed". A victim that fails 6 saves in a row is paralysed until it receives treatment.|
-|Bite|+5|1d12+2 Pi + 1d6 Poi|reach = 15ft, the flytrap makes a grapple with its bite on a hit without expending an SP dice|
+|Bite|+5|1d12+2[Pi] + 1d6[Poi]|reach = 15ft, the flytrap makes a grapple with its bite on a hit without expending an SP dice|
 |Alert|||A flytrap cannot be surprised|
 |Resistance|||"prone"|
 |Immunity|||"frightened", "blinded", "stunned", "catatonic" and "paralysed"|
@@ -1971,8 +1971,8 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Root|+27|5d8+11 Pi|reach=15ft|
-|Branch|+27|5d6+11 Pe|reach=30ft|
+|Root|+27|5d8+11[Pi]|reach=15ft|
+|Branch|+27|5d6+11[Pe]|reach=30ft|
 |Throw boulder|+15|6d12-2|range=1600/400ft|
 |Manoeuvres|||All|
 |Alert|||The elder tree is not surprised by your antics.|
@@ -1980,7 +1980,7 @@ ___
 |Monster Attack V|||The Shephard Tree makes 6 attacks between its roots and branches|
 |Simultaneous Spell(3 MP dice)|||The Shephard tree can cast a spell as a "secondary action"|
 |Immunity|||"prone", "frightened", "blinded", "stunned", "catatonic" and "paralysed"|
-|Resistant|||"charmed", "physical damage", "Lit", " ", "d"|
+|Resistant|||"charmed", "physical damage", "light", " ", "d"|
 |Camouflage|||The Shephard Tree is indistinguishable from a normal tree at first glance|
 |Skill|||"Knowledge: All" +21, "Observe" +22, "Stealth" +6, +1 rank in all other skills|
 |Sense|||The Shephard tree has the senses of sight, smell and hearing|
@@ -2011,8 +2011,8 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Root|+8|1d10+3 Pi|reach=10ft, a tripede can chose to "grapple" a target hit by its root without expending an SP dice|
-|Barb|+6|1d6+1 Pi + 2d6 ecroti|cost = 1 SP dice. Range = 120/30ft. An entity that is large or smaller that is hit by the attack and does not succeed a Con save (Thr=19) at the start of its turn becomes "restrained". It may repeat the save at the start of each turn. If it fails a second time, it is "immobilised", if it fails a third, it is "paralysed". If a victim fails its save 6 times it is paralysed until it receives treatment.|
+|Root|+8|1d10+3[Pi]|reach=10ft, a tripede can chose to "grapple" a target hit by its root without expending an SP dice|
+|Barb|+6|1d6+1[Pi] + 2d6[Nec]|cost = 1 SP dice. Range = 120/30ft. An entity that is large or smaller that is hit by the attack and does not succeed a Con save (Thr=19) at the start of its turn becomes "restrained". It may repeat the save at the start of each turn. If it fails a second time, it is "immobilised", if it fails a third, it is "paralysed". If a victim fails its save 6 times it is paralysed until it receives treatment.|
 |Resistance|||"prone"|
 |Manoeuvres|||"grapple"|
 |Monster Attack II|||The tripede makes one attack with its barbed dart and two with its roots as a "main action"|

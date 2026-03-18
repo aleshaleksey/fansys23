@@ -98,7 +98,7 @@ Size = small
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite|+3|1d4+1|Sh damage|
+|Bite|+3|1d4+1[Sh]|Reach=5ft|
 |Keen Senses|||Advantage on perception rolls based on and hearing|
 |Low light Vision|||Can see in the "dark", but not pitch black conditions|
 |[Sprint](../06-abilities.md#sprinter)|||x3 move, x5 sprint|
@@ -130,7 +130,7 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Touch (attack)|+3|1d4+1|Immobilisation poison: End of first turn the target must succeed Thr=16 Con save or be restrained. If it fails the first save, it must make a second Con save (Thr=16) at the end of its subsequent turn or be immobilised for 10 minutes. The condition can be removed with a (Thr=16) heal roll.|
-|Dissolve|+3|1d10+1 (Nec)|The ooze can use its action to enter an immobilised entity's orifices and dissolve it from the inside|
+|Dissolve|+3|1d10+1[Nec]|The ooze can use its action to enter an immobilised entity's orifices and dissolve it from the inside|
 |Amorphous|||The ooze is liquid and can fit into spaces as narrow as 1 inch across.|
 |Skills|||"Climb" +2, "Stealth" +4, "Observe" +2 |
 |Heat sense|||The ooze is blind but can accurately sense heat up to 10ft|
@@ -161,8 +161,8 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Tear|1d6+3||reach=10ft|
-|Grapple|+6||reach=10ft|
+|Tear|1d6+3||Reach=10ft|
+|Grapple|+6||Reach=10ft|
 |Combined Manoeuvre I||||
 |Senses|||"Tremor sense" 60ft, blind beyond that|
 |Skills|||Fortify +5, Observe +3|
@@ -190,11 +190,11 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Piercing limb|+6|1d4+3|Pi, Sh|
-|Bite|+6|1d6+3 + 1d10 acid|Pi, Sh (can only be used against a target it is grappling)|
+|Piercing limb|+6|1d4+3[Pi, Sh]|Reach=5ft|
+|Bite|+6|1d6+3[Pi, Sh] + 1d10[acid]|(Reach=5ft) (can only be used against a target it is grappling)|
 |Grapple|+6||Can only grapple when not biting|
 |abilities|||"Combined Manoeuvre"|
-|Resistant|||"charm", "catatonic", "stun", "Pi"|
+|Resistant|||"charm", "catatonic", "stun", "piercing"|
 |Senses|||"Tremor Sense IV" 60ft, "Blind sight" 5ft (otherwise blind)|
 |Skills|||+4 Climb, +7 Stealth, +4|
 
@@ -363,7 +363,7 @@ Adult fell beasts have a natural armour of +2, great have a natural armour of +4
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite (young)|+3|1d6+1 [Sh]||
+|Bite (young)|+3|1d6+1[Sh]||
 |Claws (young)|+3|1d4+1[Sh]|Thr=14 CON or -2 to Str, on 1, paralysed, non lethal. The poisoning persists for 24 hours or until cured.|
 |Senses|||Normal, Low-light vision, Keen Smell|
 |Skills (young)|||"Track +2", "Navigate -2", "Climb +2", "Observe +1"|
@@ -388,7 +388,7 @@ Adult fell beasts have a natural armour of +2, great have a natural armour of +4
 |Senses|||Normal, Low-light vision, Keen Smell|
 |Skills (great)|||"Track +8", "Navigate +5", "Climb +9", "Fortify: +11", "Observer +6", "Athletics +11", "Stealth +8", "Geography +3"|
 |Abilities (great)|||Tracker: Swift, Persistent, Fast Search|
-|Resistances (great)|||Pi, Sh|
+|Resistances (great)|||"piercing", "shear"|
 
 Fell beasts are predatory monsters that roam hilly and mountainous terrain. They prefer humanoid flesh, but will settle with animals, and in poor times even plants and other monsters.
 
@@ -419,7 +419,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite|+8|2d12+4|Pi, Sh|
+|Bite|+8|2d12+4[Pi, Sh]|Reach=5ft|
 |Great shout|Thr=20 CHA||Cost: 2 SP dice. Range: 30ft sphere centred on the head. All entities that can hear the shout and fail the charisma save are [incapacitated](../10-conditions-types.md#incapacitated) till the end of the head's next turn.|
 |Resistant|||"fear", "charm", "catatonic", "stun"|
 |Senses|||"Keen senses", "low light vision"|
@@ -456,8 +456,8 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite|+8|2d12+3|Reach=5ft (long)|
-|Claws|+8|1d12+3|Reach=5ft|
+|Bite|+8|2d12+3[Sh]|Reach=5ft (long)|
+|Claws|+8|1d12+3[Sh]|Reach=5ft|
 |Grapple/Trip|+8||Reach=5ft (long)|
 |[Combined Manoeuvre](../06-abilities.md#combined-manoeuvre-i-v)|||(1 SP)|
 |Monster Attack I|||A tunnel hound makes one attack with its bite, and one with its claws.|
@@ -503,11 +503,11 @@ A snail's shell gives it +12 to armour.
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Pseudopod|+11|1d8+7 Pe|Reach=10ft|
-|Teeth|+11|1d4+7 Pi + 2d12[Poi]|Range=240ft, Increment=30ft. If the snail's venomous teeth deal damage to a target, it must succeed a CON save at the start of the next turn, or be restrained. If it fails this save, at the start of its following turn it must succeed a CON save or be paralysed for 24 hours or until cured (no repeated saves). Thr=19|
+|Pseudopod|+11|1d8+7[Pe]|Reach=10ft|
+|Teeth|+11|1d4+7[Pi] + 2d12[Poi]|Range=240ft, Increment=30ft. If the snail's venomous teeth deal damage to a target, it must succeed a CON save at the start of the next turn, or be restrained. If it fails this save, at the start of its following turn it must succeed a CON save or be paralysed for 24 hours or until cured (no repeated saves). Thr=19|
 |Retreat|||As a main action, a snail can retreat into, or emerge from, its shell, giving it immunity to physical damage. The shell can be destroyed by supernatural attacks or attacks from weapons of a material grade of 2 or above (the shell acts as an object and has a HP of 18).|
 |||||
-|Resistances|||"Pe" damage|
+|Resistances|||"percussive" damage|
 |Skills|||"Observe" +3, "Harvest" +8|
 
 Giant snails are large herbivorous molluscs. Demonic snails are monsters that crawl over the land devouring anything that approaches them. They shoot venomous teeth attached to extensible pseudopods at their prey, causing paralysis. They then devour their prey at their leisure.
@@ -540,11 +540,11 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Pseudopod|+11|1d8+7 Pe + 2d12[acid]|Reach=10ft|
-|Teeth|+11|1d4+7 Pi + 2d12[acid]|Range=120ft, Increment=20ft. If the slug's venomous teeth deal damage to a target, it must succeed a CON save at the start of the next turn, or be restrained. If it fails this save, at the start of its following turn it must succeed a CON save or be paralysed for 24 hours or until cured (no repeated saves). Thr=19|
+|Pseudopod|+11|1d8+7[Pe] + 2d12[acid]|Reach=10ft|
+|Teeth|+11|1d4+7[Pi] + 2d12[acid]|Range=120ft, Increment=20ft. If the slug's venomous teeth deal damage to a target, it must succeed a CON save at the start of the next turn, or be restrained. If it fails this save, at the start of its following turn it must succeed a CON save or be paralysed for 24 hours or until cured (no repeated saves). Thr=19|
 |Acid Body|||Weapons of material grade 3 or lower striking the slugs body are dealt 1 point of damage. Furthermore the attacker must succeed a Thr=19 CON save or suffer 2d12 poison damage.|
 |||||
-|Resistances|||"Pe", "poison", "acid" damage|
+|Resistances|||"percussive", "poison", "acid" damage|
 |Skills|||"Observe" +3, "Harvest" +8|
 
 Demonic slugs are, like demonic snails, vicious predators that devour anything that moves. They dwell in deep forest and swamps and subterranean caverns, where their sluggish movement and lack of defences against the things that could hunt them.
@@ -570,8 +570,8 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Elemental Blast|+9|2d4+4|Lig|
-|Elemental Touch|+9|2d4+2|Lig|
+|Elemental Blast|+9|2d4+4[Lig]||
+|Elemental Touch|+9|2d4+2[Lig]||
 |Spore touch|||The worm uses its action to touch one willing mortal. The mortal becomes infected with its spores. It must make 3 Con saves, one at the end of the day, one after 7 days, one after 30 days. After failing a save, the target loses 1 Con (can be cured by a complete rest with medical treatment) and gains +1 to Int. If the target fails all three saves it becomes a young worm.|
 |Sc:Incantation V|||Thr=22, Always knows "command mortal"|
 |Sc: Air III|||Thr=20|
@@ -581,8 +581,8 @@ ___
 |Senses|||Normal + Life sense (60ft)|
 |Senses|||Keen Hearing|
 |Skills|||"Perform" +9, "Deception" + 9, "Spellworking" +11, "Knowledge:Arcane, Nature, Geography" +11, "Knowledge: History": +8, "Navigate" +8, "Observe" +8, "Prospect" +9, "Sense Motive" +6, "Track" +6, "Creature Handling" +6|
-|Resistance|||"Pe", "Pr", "light", "ice", "necrotic"|
-|Vulnerability|||"Ent"|
+|Resistance|||"percussive", "pressure", "light", "ice", "necrotic"|
+|Vulnerability|||"Entropic"|
 
 A very dangerous otherworldly monster. The Worm that Sings is has a slender, mushroom-like body with a flat head and towers 15ft as it stands. It wonders remote and sparsely inhabited lands, with no obvious goal, singing a haunting song as it goes, that is capable of ensnaring mortals. Mortals ensnared by the song either stand motionless and allow the worm to implant its eggs in it, which hatch within a month, beginning to devour the victim as they mature. Others become violent and attempt to strike nearby beings, even close friends.
 
@@ -609,8 +609,8 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite|+10|2d12+5|Pi, Sh|
-|Claws|+10|2d6+5|Pi, Sh|
+|Bite|+10|2d12+5[Pi, Sh]||
+|Claws|+10|2d6+5[Pi, Sh]||
 |Grapple, Restrain|+10||||
 |Great shout|Thr=20 CHA||Cost: 2 SP dice. Range: 30ft sphere centred on the troll. All entities that can hear the shout and fail the charisma save are [incapacitated](../10-conditions-types.md#incapacitated) till the end of the troll's next turn.|
 |Combined Manoeuvre: Grapple|||Bite only: Trolls can deal damage with their bite while simultaneously grappling their target (1SP die)|
@@ -647,10 +647,10 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Piercing Limb|+19|3d12+8|Pi, Sh|
+|Piercing Limb|+19|3d12+8[Pi, Sh]||
 |Noxious aura|Thr=22 Con|2d8 Poi[nat]|"main action", 2SP. Every round the aura is active it increases in radius by 20 feet beyond the mudwalker's space to a maximum of 60ft. The poison hangs in the air for 10 minutes in the area where it was active. [Severe](../03-movement-exploration.md#travel-and-getting-lost), or worse, blows away the aura upwind fom the mudwalker.|
 |"Monster Attack III"|||Makes 4 "Piercing Limb" attacks per round, it its target is of "medium" size or smaller, it can only be targetted by a single attack. If it is "large" it can only be targetted by two attacks.|
-|Resistant|||"charm", "catatonic", "stun", "Pi"|
+|Resistant|||"charm", "catatonic", "stun", "piercing"|
 |Senses|||"Tremor Sense IV" 60ft, "Blind sight" 5ft (otherwise blind)|
 |Skills|||+4 Climb, +7 Stealth, +4|
 
@@ -706,7 +706,7 @@ A kraken makes 8 attacks with its tentacles. It can attack targets smaller than 
 |Deflection||| Reduce the damage from a ranged supernatural attack by [1d4 + SAP + [MP dice expended]d4] as long as it is not esoteric as a reaction|
 |Esoteric Deflection||| Reduce the damage from a "esoteric" ranged attack by [1d6 + [2 x MP dice expended]], as a reaction to taking esoteric damage|
 |||||
-|Resistance|||"poison", "Ice", "necrotic", "Pe", "Pr"|
+|Resistance|||"poison", "Ice", "necrotic", "percussive", "pressure"|
 |Resistance|||"Restrained", "Immobilised", "Stunned", "Paralysed"|
 |Immune|||"Fear", "Disease", "Catatonic", "Charmed"|
 |||||
@@ -745,9 +745,9 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite|Thr=36 DEX|8d6+15 She|(Reach=40ft) The attack targets all entities in a 20ft x 20ft x 20ft cube. Entities smaller than huge have advantage on the save. Furthermore, entities smaller than "large" have a bonus of +10 to the save. Entities smaller than colossal must succeed a Threshold=36 DEX or STR save or be swallowed.|
-|Stomp|Thr=36 DEX|10d6+15 Per|(Reach=20ft) The attack targets all entities in a 40ft x 40ft x 40ft cube.  Entities smaller than huge have advantage on the save. Furthermore, entities smaller than "large" have a bonus of +10 on the save. Entities smaller than colossal must succeed a Threshold=36 DEX or STR save or be knocked prone and restrained. Such an entity is restrained until the tortoise moves at least 20ft or it manages to escape from beneath the tortoise's foot in some way.|
-|Digest|Thr=23 CON|3d8 Acid|A swallowed entity takes 3d8 acid damage at the start of its turn. The damage is halved on a successful Thr=23 CON save. If it is gargantuan, it is also restrained. Dealing at least 72 points of damage to a tortoise from the inside in one round causes it to regurgitate all swallowed entities.|
+|Bite|Thr=36 DEX|8d6+15[Sh]|(Reach=40ft) The attack targets all entities in a 20ft x 20ft x 20ft cube. Entities smaller than huge have advantage on the save. Furthermore, entities smaller than "large" have a bonus of +10 to the save. Entities smaller than colossal must succeed a Threshold=36 DEX or STR save or be swallowed.|
+|Stomp|Thr=36 DEX|10d6+15[Pe]|(Reach=20ft) The attack targets all entities in a 40ft x 40ft x 40ft cube.  Entities smaller than huge have advantage on the save. Furthermore, entities smaller than "large" have a bonus of +10 on the save. Entities smaller than colossal must succeed a Threshold=36 DEX or STR save or be knocked prone and restrained. Such an entity is restrained until the tortoise moves at least 20ft or it manages to escape from beneath the tortoise's foot in some way.|
+|Digest|Thr=23 CON|3d8[Aci]|A swallowed entity takes 3d8 acid damage at the start of its turn. The damage is halved on a successful Thr=23 CON save. If it is gargantuan, it is also restrained. Dealing at least 72 points of damage to a tortoise from the inside in one round causes it to regurgitate all swallowed entities.|
 |Crush|Thr=27 STR||An entity that a mountain tortoise is standing on must succeed a Thr=27 STR save or take 4d8 points of pressure damage. An entity beneath a tortoises feet can only crawl, dig, or use blink or cosmic speed to move.|
 |Monster Attack|||A mountain tortoise may make a bite attack and a stomp attack in the same round. However, it must target entities in a different area in each case.|
 
@@ -1268,7 +1268,7 @@ ___
 |[Mighty I](../06-abilities.md#mighty-i)|||Can carry more weight than your average beast|
 ||||||
 |Immunity|||"aphonic", "blinded", "charmed", "deafened", "frightened"||
-|Vulnerability|||"poison", "necrotic", "Pro" damage.|
+|Vulnerability|||"poison", "necrotic", "profane" damage.|
 |True-speech|||A true unicorn cannot lie|
 |||||
 |[Low Light Vision](../06-abilities.md#low-light-vision)|||A unicorn can see in dim light as well as in sunlight.|
@@ -1299,7 +1299,7 @@ The following is common to lycanthropes:
 - Lycanthropes are immune to "physical" damage.
 - Lycanthropes are at least resistant to "poison" and "disease".
 - Lycanthropes have an alternate form of a beast (though this is never a herbivorous beast). Less powerful lycanthropes have little control over this transformation.
-- Lycanthropes' "Pi" and "Sl" immunities are negated by weapons made of silver.
+- Lycanthropes' "piercing" and "slashing" immunities are negated by weapons made of silver.
 
 ___
 ### Werewolf, lesser
@@ -1320,8 +1320,8 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Club (human form)|+8|1d4+4 Pe|-|
-|Hand axe|+8|1d6+4 Sl|Proficient with any one weapon group, but no armour|
+|Club (human form)|+8|1d4+4[Pe]|-|
+|Hand axe|+8|1d6+4[Sl]|Proficient with any one weapon group, but no armour|
 |||||
 |Proficiencies|||Any two tools or kits|
 |Resistance|||Physical damage, "bleeding", "crippled", "incapacitated", "frightened"|
@@ -1358,8 +1358,8 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Club (human form)|+13|1d4+6 Pe|-|
-|Longsword|+13|1d8/1d12+6 Sl||
+|Club (human form)|+13|1d4+6[Pe]|-|
+|Longsword|+13|1d8/1d12+6[Sl]||
 |Multi-attack I|||A greater were-wolves makes two attacks even in its human form|
 |Great Strike|||A werewolf can sacrifice up to 4 points from attack for extra damage|
 |Combined Manoeuvre I|||(Cost = 1 SP die) A greater werewolf can grapple or trip in combination with another basic combat manoeuvre.|
@@ -1396,7 +1396,7 @@ Dragons typically look like reptiles, but are not. Dragons are supernatural enti
 - Dragons need sleep.
 - Dragons are an apex lifeform and as such are immune to fear.
 - Dragons are immune to one element.
-- Dragons are resistant to "slashing", "Sh" and "Pe" damage.
+- Dragons are resistant to "slashing", "shear" and "percussive" damage.
 - Some, but not all, dragons are shapeshifters, capable of taking on the forms of animals or humanoids.
 
 Dragons, in most worlds, are the apex mortal being. They are typically stronger, more robust and more intelligent than most other mortals. In addition they possess a whole array of potent supernatural abilities. Most dragons are spellcasters. As such this raises the very valid question of why do dragons not rule all the worlds where they are present?
@@ -1475,7 +1475,7 @@ ___
 |Keen senses|||Sight, Smell|
 |Low-light vision||||
 |Immunity|||Fire, Fear|
-|Resistance|||Sl, Sh, Pe|
+|Resistance|||"slashing", "shear", "percussive" damage|
 |Parry||||
 |Deflect Missile||||
 |Deflection||||
@@ -1561,7 +1561,7 @@ ___
 |Keen senses|||Sight, Smell|
 |Low-light vision||||
 |Immunity|||Fire, Fear|
-|Resistance|||Sl, Sh, Pe|
+|Resistance|||"slashing", "shear", "percussive" damage|
 |Parry||||
 |Deflect Missile||||
 |Deflection||||
@@ -1636,7 +1636,7 @@ ___
 |Keen senses|||Sight, Smell|
 |Low-light vision||||
 |Immunity|||Ice, Fear|
-|Resistance|||Sl, Sh, Pe|
+|Resistance|||"slashing", "shear", "percussive" damage|
 |Arcane Interception||||
 |Deflection||||
 |Draconic Spell|||A dragon may use 2 MP dice to cast a spell of 5 MP dice or less as a secondary action.|
@@ -1716,7 +1716,7 @@ ___
 |Keen senses|||Sight, Smell|
 |Low-light vision||||
 |Immunity|||Ice, Fear|
-|Resistance|||Sl, Sh, Pe|
+|Resistance|||"slashing", "shear", "percussive" damage|
 |Arcane Interception||||
 |Deflection||||
 |Skills|||Fortify +17, Athletics +17, Fly +14, Observe +14, Track +14, Appraise +12, Spellcraft + 12, Sense Motive +14, K:Arcana +12, K:History +12, K:Geography +12|
@@ -1791,7 +1791,7 @@ ___
 |Keen senses|||Sight, Smell|
 |Low-light vision||||
 |Immunity|||Lightning, Fear|
-|Resistance|||Sl, Sh, Pe, Pr|
+|Resistance|||"slashing", "shear", "percussive", "pressure" damage|
 |Parry||||
 |Deflect Missile||||
 |Deflection||||
@@ -1878,7 +1878,7 @@ ___
 |Keen senses|||Sight, Smell|
 |Low-light vision||||
 |Immunity|||Lightning, Fear|
-|Resistance|||Sl, Sh, Pe, Pr|
+|Resistance|||"slashing", "shear", "percussive", "pressure" damage|
 |Parry||||
 |Deflect Missile||||
 |Deflection||||
@@ -1944,7 +1944,7 @@ Least Heal"|
 |Keen senses|||Sight, Smell|
 |Low-light vision||||
 |Immunity|||Ice, Fear|
-|Resistance|||Sl, Sh, Pe|
+|Resistance|||"slashing", "shear", "percussive" damage|
 |Arcane Interception||||
 |Deflection||||
 |Draconic Spell|||A dragon may use 2 MP dice to cast a spell of 5 MP dice or less as a secondary action.|
@@ -2019,7 +2019,7 @@ Least Heal"|
 |Keen senses|||Sight, Smell|
 |Low-light vision||||
 |Immunity|||Ice, Fear|
-|Resistance|||Sl, Sh, Pe|
+|Resistance|||"slashing", "shear", "percussive" damage|
 |Arcane Interception||||
 |Deflection||||
 |Aphonic spell||||

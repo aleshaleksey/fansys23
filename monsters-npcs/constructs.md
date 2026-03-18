@@ -112,7 +112,7 @@ Gingerbread golems seldom engage in combat, preferring to avoid violence with th
 ___
 ### Wooden doll, lesser
 
-A wooden dolls are simple to make and animate, 
+A wooden dolls are simple to make and animate, but less capable than true golems.
 
 ___
 **Size category**: Medium (5ft x 5ft)
@@ -164,7 +164,7 @@ A wooden doll's intelligence barely surpasses that of a beast. It has no will of
 ___
 ### Wooden doll
 
-A wooden dolls are simple to make and animate, 
+A wooden dolls are simple to make and animate, but less capable than true golems.
 
 ___
 **Size category**: Medium (5ft x 5ft)

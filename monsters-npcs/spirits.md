@@ -1269,8 +1269,8 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|[Elementalism: Touch (Air)](../06-abilities.md#elementalism-elemental-blast)|+5|1d8+2[Pre]|Range=120ft + 30ft/MP die. Maximum of 2 MP die. Damage increases by 1d8 per MP die.|
-|[Elementalism: Blast (Air)](../06-abilities.md#elementalism-elemental-blast)|+5|1d8+2[Pre]|Range=Close.  Maximum of 2 MP die. Damage increases by 1d8 per MP die.|
+|[Elementalism: Touch (Air)](../06-abilities.md#elementalism-elemental-blast)|+5|1d8+2[Pr]|Range=120ft + 30ft/MP die. Maximum of 2 MP die. Damage increases by 1d8 per MP die.|
+|[Elementalism: Blast (Air)](../06-abilities.md#elementalism-elemental-blast)|+5|1d8+2[Pr]|Range=Close.  Maximum of 2 MP die. Damage increases by 1d8 per MP die.|
 |||||
 |Echo's song|Thr=17||(Range=30ft, Cost=1MP die/target). As a secondary action, an echo can make the essence of its desire manifest as song. For every MP die the echo expends, one target of its choice that can hear the song must succeed a WIS save at the start of its turn or become deafened and charmed by the echo. It may repeat its save at the start of each turn.|
 |||||
@@ -1310,8 +1310,8 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|[Elementalism: Touch (Air)](../06-abilities.md#elementalism-elemental-blast)|+13|3d8+5[Pre]|Range=120ft + 30ft/MP die. Maximum of 6 MP die. Damage increases by 1d8 per MP die.|
-|[Elementalism: Blast (Air)](../06-abilities.md#elementalism-elemental-blast)|+13|3d8+5[Pre]|Range=Close.  Maximum of 6 MP die. Damage increases by 1d8 per MP die.|
+|[Elementalism: Touch (Air)](../06-abilities.md#elementalism-elemental-blast)|+13|3d8+5[Pr]|Range=120ft + 30ft/MP die. Maximum of 6 MP die. Damage increases by 1d8 per MP die.|
+|[Elementalism: Blast (Air)](../06-abilities.md#elementalism-elemental-blast)|+13|3d8+5[Pr]|Range=Close.  Maximum of 6 MP die. Damage increases by 1d8 per MP die.|
 |Elementalism Forms|||["Line"](../06-abilities.md#line), ["Circle"](../06-abilities.md#circle), ["Aura"](../06-abilities.md#aura)|
 |||||
 |Echo's song|Thr=20||(Range=30ft, Cost=1MP die/target). As a secondary action, an echo can make the essence of its desire manifest as song. For every MP die the echo expends, one target of its choice that can hear the song must succeed a WIS save at the start of its turn or become deafened and charmed by the echo. It may repeat its save at the start of each turn.|

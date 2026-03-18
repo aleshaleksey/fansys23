@@ -247,7 +247,7 @@ An Abyssal Blade has a +6 deflection bonus, and a +2 shield bonus from its blade
 |[Guarded](../06-abilities.md#guarded)|||An Abyssal Blade does not provoke attacks of opportunity when standing up or drinking potions.|
 |["Low Light Vision"](../06-abilities.md#low-light-vision)|||Abyssal Blades can see in dim light, for example a starry night, as if it were daylight.|
 |["Life Sense: 60ft"](../06-abilities.md#low-light-vision)|||An Abyssal Blade can detect living beings within 60ft of it if there are no significant intervening barriers.|
-|["True Sight: 60ft"](../06-abilities.md#truesight-i-vi)|||An Abyssal Blade can detect living beings within 60ft of it if there are no significant intervening barriers.|
+|["True Sight: 60ft"](../06-abilities.md#truesight-i-vi)|||An Abyssal Blade can see the true nature of things within 60ft of it.|
 |Telltale Heart|||An Abyssal Blade ALWAYS knows the direction to its lost parts and the ones who took them.|
 |||||
 |Skills|||"Athletics: +9", "Acrobatics:+8", "Sleight of Hand:+7", "Religion:+6", "Fortify:+7",  "Insight:+6"|
@@ -258,7 +258,7 @@ An Abyssal Blade has a +6 deflection bonus, and a +2 shield bonus from its blade
 
 When a [shadow flesh fiend](profanes.md#shadow-flesh-fiend-human) is created by removing parts from a being of a being with a spiritual or divine alignment, it may instead become a "an abyssal blade".
 
-Unlike Abyssal Blades, an abyssal blade transcends its resentment. Instead it wanders the world, spending its time destroying the parts it is missing.
+Unlike Shadow Flesh Fiends, an abyssal blade transcends its resentment. Instead it wanders the world, spending its time destroying the parts it is missing.
 
 ___
 ### Unbound Gnome
@@ -295,7 +295,7 @@ An unbound gnome has a +6 deflection bonus.
 
 An unbound gnome is created whenever a gnome is detached from the ground despite this being impossible under ordinary circumstances. Unbound gnomes seek to free flightless beings from the shackles of mother earth. This seldom ends well.
 
-If a flightless entity captures the fancy of an unbound gnome, it will attempt to "teach" it to fly. If there is a nearby cliff, it will push it off a cliff. If there isn't, it will cast either "wind step" or "glide" or "wind walk" on it. The unbound gnome will guide its "friend" as high as it can, and then watch it fall as its spell runs out. An unbound gnome has no concept, nor care for, mortality.
+If a flightless entity captures the fancy of an unbound gnome, it will attempt to "teach" it to fly. If there is a nearby cliff, it will push it off a cliff. If there isn't, it will cast either "wind step" or "glide" or "wind walk" on it. The unbound gnome will guide its "friend" as high as it can, and then watch it fall as its spell runs out. An unbound gnome has no concept of, nor care for, mortality.
 
 In actual combat it will use "glide" in combination with "headwind" to blow away its enemies, or simply use its elemental abilities, to destroy it.
 
@@ -368,7 +368,7 @@ A naga's attacks count as having a divine source.
 |Immunity|||"aphonic", "blinded", "charmed", "deafened", "dying", "frightened", "poisoned", "prone", "stunned", "surprised"||
 |Skills|||"Athletics" +17, "Climb" +17, "Fortify" +10, "Acrobatics" +10, "Heal" +16, "Acrobatics" +16, "Stealth" +10, "Academics" +8, "Appraise" +12, "Prospect" +6, "Navigate" +6, "Knowledge (all)" +12, "Observe" +15, "Sense Motive" +15, "Track" +10, "Spellworking" +12, "Creature Handling" +10, "Intimidate" +10, "Persuade" +7, "Deceive" +16, "Perform" +13|
 
-A true naga is a divine being that generally dwells in the depths of the spirit world in realms. They tend to be associate with afterlife realms and preside over elemental earth and water. Some nagas are the guardians of divine treasures.
+A true naga is a divine being that generally dwells in the depths of the spirit world. They tend to be associate with afterlife realms and preside over elemental earth and water. Some nagas are the guardians of divine treasures.
 
 A naga's has three physical forms: Human, serpent and hybrid, though being a divine being, these are probably more of a physical representation than a true form.
 

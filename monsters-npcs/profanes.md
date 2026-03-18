@@ -953,7 +953,7 @@ ___
 |Senses|||"Low Light Vision", "Life Sense: 120ft", "Tremor Sense"|
 |Skills|||"Athletics":+12, "Fortify": +10", "Climb:+8", "Swim:+7", "Ride:+7", "Intimidation":+7,"Deception":+6, "Acrobatics:+5", "Stealth:+5", "Observe":+3, "Sense Motive": +3, "Religion:+1", "Arcana:+1"|
 |||||
-|Resistant|||"physical" damage, "Fire", "ice" damage|
+|Resistant|||"physical" damage, "fire", "ice" damage|
 |Immune|||"disease", "poison", "dying", "fear"|
 |Vulnerability|||"divine", "light[sup]" damage|
 

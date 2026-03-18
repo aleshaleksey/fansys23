@@ -1955,7 +1955,7 @@ A colossus will prepare the battlefield with ["Lesser Weather Control"](../08-sp
 
 When dealing with highly mobile foes that use long ranged attacks that exceed the range of a ~6MP dice elemental blast, a colossus will generally summon air elementals to hunt it down. Otherwise it may use teleportation to close the distance to gain an advantage.
 
-A colossus may surrender or retreat when defeated, or it may simply refuse to believe that the fact.
+A colossus may surrender or retreat when defeated, or it may simply refuse to believe it and continue to fight.
 
 ___
 ## Converting Human NPCs

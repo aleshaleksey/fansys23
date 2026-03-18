@@ -815,7 +815,7 @@ Size = small
 |Resistant|||"piercing"|
 |Loot|||Snake meat is edible to humanoids, the skin can be used for leather (0.25lb of meat, 0.1lb of hide)|
 
-This block represents a venomous viper. Vipers mainly hunt rodents and other small animals. They bite them once and then wait for the venom to skill them and partially digest them before eating them. Vipers also bite larger animals in perceived self defence.
+This block represents a venomous viper. Vipers mainly hunt rodents and other small animals. They bite them once and then wait for the venom to kill them and partially digest them before eating them. Vipers also bite larger animals in perceived self defence.
 
 ___
 ### Snake, Cobra
@@ -1197,7 +1197,7 @@ Size = Huge
 |Skills|||"Stealth" +8, "Track" +6, "Observe" +6|
 |Loot|||A giant crocodile can provide a sturdy pelt for four suits of leather/hide armour (material level 2) and more than 1200lb of meat. The problem is taking one down.|
 
-Giant crocodiles are an apex predator that will hunt just about anything that enters the estuaries, lakes, and rivers where it makes its home. They can live for centuries, sleeping for months, or even years, through times of scarcity. Giant crocodiles are sometimes mistaken for [earthbound dragons](monsters-and-dragons.md#earthbound-dragon-lesser), however they possess non of the intelligence or supernatural abilities.
+Giant crocodiles are an apex predator that will hunt just about anything that enters the estuaries, lakes, and rivers where it makes its home. They can live for centuries, sleeping for months, or even years, through times of scarcity. Giant crocodiles are sometimes mistaken for [earthbound dragons](monsters-and-dragons.md#earthbound-dragon-lesser), however they possess none of the intelligence or supernatural abilities.
 
 ___
 ### Giant Snake, Constrictor
@@ -1835,7 +1835,7 @@ ___
 
 This is a large, carnivorous dinosaur that walked upon two legs. It is known for its massive jaws and comparatively tiny arms.
 
-Tyrannosaurs prefer to scavenge, or chase smaller predators off their kill, but are perfectly capable of ambush predators. They are particularly fond of feasting on the sites of recent battles where there is plentiful fresh meat and little competition.
+Tyrannosaurs prefer to scavenge, or chase smaller predators off their kill, but are perfectly capable ambush predators. They are particularly fond of feasting on the sites of recent battles where there is plentiful fresh meat and little competition.
 
 ___
 ## Plants

@@ -103,7 +103,7 @@
     ))
   ]
 }
-
+#show figure: set block(breakable: true)
 #show link: content => {
   underline(text(blue, content))
 }

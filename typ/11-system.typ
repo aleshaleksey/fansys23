@@ -151,41 +151,58 @@
 
 #include "build/00-overview.typ"
 #pagebreak()
+#pagebreak()
 #include "build/01-character-creation.typ"
+#pagebreak()
 #pagebreak()
 #include "build/03-movement-exploration.typ"
 #pagebreak()
+#pagebreak()
 #include "build/04-combat.typ"
+#pagebreak()
 #pagebreak()
 #include "build/05-skills.typ"
 #pagebreak()
+#pagebreak()
 #include "build/06-abilities.typ"
+#pagebreak()
 #pagebreak()
 #include "build/07-magic-and-spellcasting.typ"
 #pagebreak()
+#pagebreak()
 #include "build/09-races.typ"
+#pagebreak()
 #pagebreak()
 #include "build/10-conditions-types.typ"
 #pagebreak()
+#pagebreak()
 #include "build/11-weapons-armour.typ"
+#pagebreak()
 #pagebreak()
 #include "build/12-equipment-economy.typ"
 #pagebreak()
+#pagebreak()
 #include "build/13-crafting-imbuing.typ"
+#pagebreak()
 #pagebreak()
 #include "build/14-poisons-and-diseases.typ"
 #pagebreak()
+#pagebreak()
 #include "build/15-charm-etc.typ"
+#pagebreak()
 #pagebreak()
 
 #set page(columns: 1)
 #include "build/16-recipes.typ"
 #pagebreak()
+#pagebreak()
 
 #set page(columns: 2)
 #include "build/17-glossary.typ"
 #pagebreak()
+#pagebreak()
 #include "build/02-base-rules.typ"
+#pagebreak()
 #pagebreak()
 
 #set page(columns: 1)

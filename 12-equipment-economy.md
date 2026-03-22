@@ -510,6 +510,7 @@ ___
 | Ceremonial/Scholar's Garb     | 8           | 70        | 52                 | 5             |
 | Traveller's Garb, Poor        | 6           | 22        | 17                 | 2             |
 | Traveller's Garb              | 6-9         | 55-75     | 40-55              | 5-7           |
+| Waterproof Garb               | 7-10        | 95-115    | 44-60              | 9-11          |
 | Explorer's Garb               | 8-11        | 65-85     | 45-60              | 6-8           |
 | Cold Weather Garment          | 18          | 130       | 100                | 8+            |
 | Courtier's Garments           | 8           | 400+      | 240+               | 20+           |
@@ -549,6 +550,8 @@ ___
 **Traveller's Garb, Poor**: Course woollen garments and some kind of shoes. This represents clothes worn by farmers, workers, hoodlums, and low class travellers. They offer a modicum of protection against the elements. In colder weather one should also wear a cloak. These clothes do not restrict movement, but immediately mark one out as belonging to the lower echelons of society. Durability: 2.
 
 **Traveller's Garb**: Woollen garments, possibly a cloak, and shoes. These are sturdy clothes that will stand up to the elements and be somewhat comfortable. These are the standard adventuring clothes. Durability: 3.
+
+**Traveller's Garb**: Cotton traveller's garb, possibly a cloak, and shoes that have been treated with waterproofing oils. This garb reduces the severity of precipitation (rain only) on the wearer's body, by one step and grants +2 to related CON saves. These are the standard adventuring clothes. Durability: 4.
 
 **Explorer's Garb**: Woollen garments, possibly a cloak and boots. Generally these include the adaptations needed by adventurers and explorers on perilous journeys. They do make one stand out somewhat. Durability: 4.
 
@@ -774,6 +777,7 @@ This includes various natural and supernatural produce that can be created throu
 | Item                         |Cost (sp)|Material cost (sp)|crafting days|Thr|"ancient"|"medieval"|"late"   |
 |------------------------------|---------|------------------|-------------|---|---------|----------|---------|
 |Smoke-stick (1lb)             |40       |4                 |4 days       |16 |very rare|very rare |rare     |
+|Waterproofing oil (1lb)       |40       |4                 |4 days       |16 |rare     |common    |common   |
 |Alchemical Fire (1lb flask)   |46       |10                |4 days       |18 |very rare|very rare |rare     |
 |Quicksilver (1lb flask)       |46       |10                |4 days       |18 |rare     |rare      |yes      |
 |Fey-silver (1lb flask)        |Special  |Special           |18 days      |22 |very rare|very rare |no       |
@@ -802,6 +806,8 @@ This includes various natural and supernatural produce that can be created throu
 |Spirit Bleach                 |Special  |Special           |40 day       |28 |very rare|no        |no       |
 
 **Smoke-stick**: Smoke sticks are a formulation of highly flammable waxes with embedded inorganic dyes which disperse over a wide area when the stick is lit. The smoke can have various colours, as determined at the time of production of the smoke stick. A smoke stick burns for 1 minute. On the first round the smoke spreads in a 10ft radius. Every subsequent round it spreads a further 5ft, reaching a maximum radius of 40ft after 8 rounds. The smoke provides "heavy concealment" to all entities in adjacent squares, and "total concealment" for entities at least 10ft away from each other. Indoors, the smoke dissipates within 10 minutes. Outdoors the smoke dissipates after 2 minutes. In conditions of "extreme precipitation" or "severe winds" the smoke dissipates immediately beyond a radius of 10ft.
+
+**Waterproofing oil**: A blend of thick oils and waxes specifically for waterproofing articles of wood, leather or cloth. Wearing garb which is thus waterproofed reduces the severity of of precipitation/cold by one step and requires 1 hour. Using a tent, bedroll or yurt that is waterproofed grants a +2 to "fortify" rolls in cold or wet conditions (weather or terrain). 1lb is enough to waterproof a cloak, bedroll, sack, backpack or full garments for a medium sized entity. It takes 2lb to waterproof a tent or 12lb to waterproof a yurt.
 
 **Alchemical Fire**: This is a special formulation of oils, tars and minerals that adheres to most surfaces and spontaneously combusts when exposed to air or water. This concoction is sold in delicate ceramic flasks that are made for throwing (vs "touch" HiT) and break on impact. It can also be fired from a sling, in which case the range/increment is 360ft/40ft. The alchemical fire burns for 1 minute and can only be extinguished magically or if smothered in dry earth. The initial damage is 2d6 fire[natural], and thereafter at the start of each turn, the victim  must succeed in extinguishing it (see ["Being on fire"](03-movement-exploration.md#being-on-fire) - except water does not help), or suffer fire damage in accordance with the "being on fire" rules. The extinguish threshold is 18.
 

@@ -1,19 +1,21 @@
 # Combat
 
-This system deals heavily with combat and many of the mechanics are tuned to work smoothly in combat.
+Combat is what happens when two or more parties end up trying to solve a conflict by force for whatever reason. It is usually a violent clash between two or more parties that are able and willing. It generally results in injury, and often death, of combatants and bystanders alike and damage to the battlefield, especially if the combatants are powerful. The result is often a victorious and a defeated side (though often both sides lose). The victor is the party that achieves its goals, be they successfully defending their village, rescuing their friends, plundering a caravan, clearing a monster's lair or simply surviving.
 
-1. [Prelude: Common Combat Parameters](#prelude-common-combat-parameters)
-    - [Attack Bonuses](#attack-bonuses)
-    - [Save thresholds](#save-thresholds)
-    - [HiT (Hit Threshold)](#hit-hit-threshold)
-    - [Save Bonuses, one for each stat](#save-bonuses-one-for-each-stat)
-2. [Attacks](#attacks)
+Combat is central to many narrative genres and styles of play. This chapter codifies the rules that govern combat in this system.
+
+1. [Attacks](#attacks)
     - [Targeted attacks](#targeted-attacks)
+        - [Attack Bonuses](#attack-bonuses)
+        - [HiT (Hit Threshold)](#hit-hit-threshold)
     - [Area of effect attacks](#area-of-effect-attacks)
     - [Attacks of influence](#attacks-of-influence)
+        - [Save thresholds](#save-thresholds)
+        - [Save Bonuses, one for each stat](#save-bonuses-one-for-each-stat)
     - [Attacks and damage bonuses](#attacks-and-damage-bonuses)
-3. [Damage and Death](#damage-and-death)
+2. [Damage and Death](#damage-and-death)
     - [Death, dying and the relationship between HP, MP and SP](#death-dying-and-the-relationship-between-hp-mp-and-sp)
+      -  [Massive Damage](#massive-damage)
       -  [Losing MP, SP and Rebalancing](#losing-mp-sp-and-rebalancing)
     - [Damage resistance](#damage-resistance)
     - [Damage vulnerability](#damage-vulnerability)
@@ -22,7 +24,7 @@ This system deals heavily with combat and many of the mechanics are tuned to wor
     - [HP damage and conditions](#hp-damage-and-conditions)
     - [Damage and effects over time](#damage-and-effects-over-time)
     - [Dropping defences and voluntary HP damage](#dropping-defences-and-voluntary-hp-damage)
-4. [Actions in combat](#flow-of-combat)
+3. [Actions in combat](#flow-of-combat)
     - [Flow of Combat](#flow-of-combat)
       - [The Turn and actions](#the-turn-and-actions)
       - [Types of actions in combat](#types-of-actions-in-combat)
@@ -30,12 +32,12 @@ This system deals heavily with combat and many of the mechanics are tuned to wor
       - [Total Defence: Dodge](#total-defence-dodge)
       - [Total Defence: Shield](#total-defence-shield)
     - [Assisting](#assisting)
-5. [Surprise and Ambush](#surprise-and-ambush)
+4. [Surprise and Ambush](#surprise-and-ambush)
     - [Intentionally Hidden Enemies](#intentionally-hidden-enemies)
     - [Unintentionally Hidden Enemies](#unintentionally-hidden-enemies)
     - [Enemies Hiding their Intent](#enemies-hiding-their-intent)
     - [Mutually unaware combatants](#mutually-unaware-combatants)
-6. [Space in combat](#space-in-combat)
+5. [Space in combat](#space-in-combat)
     - [Squares and Hexes](#squares-and-hexes)
     - [Range and reach](#range-and-reach)
     - [Threatened area](#threatened-area)
@@ -55,7 +57,8 @@ This system deals heavily with combat and many of the mechanics are tuned to wor
       - [Causality and attacks of opportunity](#causality-and-attacks-of-opportunity)
       - [Concealment and attacks of opportunity](#concealment-and-attacks-of-opportunity)
       - [Attacks of Opportunity Table](#attacks-of-opportunity-table)
-7. [Mounts and Mounted Combat](#mounts-and-mounted-combat)
+6. [Mounts and Mounted Combat](#mounts-and-mounted-combat)
+7. [Assorted Rules](#assorted-rules)
 8. [Basic combat manoeuvres and tactical movement.](#basic-combat-manoeuvres-and-tactical-movement)
     - [Basic Martial Manoeuvres](#basic-martial-manoeuvres)
       - [Attack](#attack)
@@ -82,40 +85,7 @@ This system deals heavily with combat and many of the mechanics are tuned to wor
     - [Actions by action category (what they do)](#actions-by-action-category-what-they-do)
 
 ___
-## Prelude: Common Combat Parameters
-
-There are parameters that most, or all, beings/entities have, that denote how successfully it attacks and defends against attacks. It should be noted that in each case only one of the sides (attacker or defender) needs to make a roll. The calculations are covered in the base rules.
-
-#### Attack Bonuses
-An entity has 4 attack bonuses (STR, DEX, INT, WIS) that represent how likely its targeted attacks are to be effective. An entity rolls an attack against a target's HiT (if the attack causes damage), or against one of its 4 save thresholds (for all combat manoeuvres other than the attack manoeuvre).
-
-The calculations for attack bonuses are found in ["Base Rules: NAP and SAP, NAT and SAT"](02-base-rules.md#nap-and-sap-nat-and-sat-attack-of-the-three-letter-words-ii).
-
-___
-#### Save thresholds
-An entity has 4 save thresholds (STR, DEX, INT, WIS) that represent:
-
-1. How likely it is to successfully defend against non-damaging combat manoeuvres. In this case, the attacker rolls an attack with an attack bonus against the target save threshold.
-2. How successful its area of effect and 'special' attacks are (such as spells). In this case, the target rolls a saving throw with the relevant bonus against the attacker's save threshold.
-
-The calculations for attack thresholds are found in ["Base Rules: NAP and SAP, NAT and SAT"](02-base-rules.md#nap-and-sap-nat-and-sat-attack-of-the-three-letter-words-ii).
-
-___
-#### HiT (Hit Threshold)
-Representing how difficult it is to cause it damage with a targeted attack that causes damage. Attackers roll an attack with an attack bonus against the HiT.
-
-The calculations for attack thresholds are found in [" NAP and SAP, NAT and SAT"](02-base-rules.md#nap-and-sap-nat-and-sat-attack-of-the-three-letter-words-ii).
-
-___
-#### Save Bonuses, one for each stat
-An entity has 6 saving throws, one for each stat[1]. Representing how well a target resists targeted effects and area of effect attacks. A target rolls a save with a save bonus against an attacker's save threshold.
-
-The calculations for saves are found in ["Base Rules: Saving throws"](02-base-rules.md#saving-throws).
-
-1. Some entities do not have all 6 stats. In that case they automatically fail saves for the stats that are missing.
-
-___
-### Attacks
+## Attacks
 
 An attack is any action attempted against an entity that has the potential to reduce its combat potential, be it by direct damage, inducing a condition, or otherwise. For example, slashing an entity with a sword, trying to shove or disarm it, throwing dynamite at a spot where the explosion will catch it, casting a spell that charms, paralyses or blinds it, or dropping a piano on an entity all count as attacks, as do many other actions. There are three common forms of attacks:
 
@@ -129,12 +99,41 @@ ___
 A targeted attack is an attack made specifically against an entity and involves the attacker making a [NAP] or [SAP] based attack roll against the target. Usually targeted attacks do damage, but they can also have other effects, for example the "grapple" manoeuvre. Targeted attacks can target more than one entity (eg ["Broad Strike"](06-abilities.md#broad-strike)), as long as they are specifically attacking those entities and not the general area.
 
 ___
+#### Attack Bonuses
+An entity has 4 attack bonuses (STR, DEX, INT, WIS) that represent how likely its targeted attacks are to be effective. An entity rolls an attack against a target's HiT (if the attack causes damage), or against one of its 4 save thresholds (for all combat manoeuvres other than the attack manoeuvre).
+
+The calculations for attack bonuses are found in ["Base Rules: NAP and SAP, NAT and SAT"](02-base-rules.md#nap-and-sap-nat-and-sat-attack-of-the-three-letter-words-ii).
+
+___
+#### HiT (Hit Threshold)
+Representing how difficult it is to cause it damage with a targeted attack that causes damage. Attackers roll an attack with an attack bonus against the HiT.
+
+The calculations for attack thresholds are found in [" NAP and SAP, NAT and SAT"](02-base-rules.md#nap-and-sap-nat-and-sat-attack-of-the-three-letter-words-ii).
+
+___
 ### Area of effect attacks
 Area of effect attacks are made against a given area and generally affect all, or most of the entities and potentially objects within that area. A ["Elemental Cone"](06-abilities.md#cone) or ["Forest of Flame"](08-spell-list.md#forest-of-flame) are examples of area of effect attacks, although an avalanche or a tsunami can also be seen as area of effect attack. Entities caught within an area of effect attack must succeed on a [saving throw](02-base-rules.md#saving-throws) vs the attack's save threshold or suffer the full effects of the attack. Sometimes, upon a successful save it still suffers some of the effects. It is possible for an area of effect attack to only target the square occupied by a single entity.
 
 ___
 ### Attacks of influence
 Some attacks, especially supernatural attacks, adversely influence a target, targets, or area. In this case it is treated like an area of effect attack (saving throw vs save threshold). An example would the ["Charm"](06-abilities.md#charm-i-iv) ability, or the ["Winter's Touch"](08-spell-list.md#winters-touch) spell. [Diseases and poisons](14-poisons-and-diseases.md#poisons-and-diseases) can also be considered attacks of influence, although on occasion they might be used as area of effect attacks, so it should be noted that there is often a fine line between the two.
+
+___
+#### Save thresholds
+An entity has 4 save thresholds (STR, DEX, INT, WIS) that represent:
+
+1. How likely it is to successfully defend against non-damaging combat manoeuvres. In this case, the attacker rolls an attack with an attack bonus against the target save threshold.
+2. How successful its area of effect and 'special' attacks are (such as spells). In this case, the target rolls a saving throw with the relevant bonus against the attacker's save threshold.
+
+The calculations for attack thresholds are found in ["Base Rules: NAP and SAP, NAT and SAT"](02-base-rules.md#nap-and-sap-nat-and-sat-attack-of-the-three-letter-words-ii).
+
+___
+#### Save Bonuses, one for each stat
+An entity has 6 saving throws, one for each stat[1]. Representing how well a target resists targeted effects and area of effect attacks. A target rolls a save with a save bonus against an attacker's save threshold.
+
+The calculations for saves are found in ["Base Rules: Saving throws"](02-base-rules.md#saving-throws).
+
+1. Some entities do not have all 6 stats. In that case they automatically fail saves for the stats that are missing.
 
 ___
 ### Attacks and damage bonuses
@@ -181,6 +180,16 @@ Some damage types ignore SP and MP:
 - ["Light"](10-conditions-types.md#light) and ["Lightning"](10-conditions-types.md#electricity-lightning) will deal 1 point of damage directly to HP for every 2 dice of damage dealt. For example if an attack deals 2d4 or 3d4 of light damage to MP, it will cause 1 point of damage to HP, if it deals 4d4 or 5d4 light damage to MP, it will cause 2 points of damage to HP.
 
 1. Entities that do not have a CON score may use their CHA score instead.
+
+___
+#### Massive Damage
+
+When a powerful attack deals a large amount of damage in a single blow, it might overwhelm an entity's defences and some of the damage might bypass MP or SP and proceed straight to HP. The threshold for massive damage is as follows:
+
+- **Natural damage**: [[CON] + 2 x SP dice]
+- **Supernatural damage**: [[CHA] + 2 x MP dice]
+
+> The vanguard, Narase has 13 SP dice and 10 MP dice. He has +3 [CON] and +2 [CHA]. Thus his massive damage threshold is 29 for natural damage and 22 for supernatural damage. When facing off against an [adult fell-beast](monsters-npcs/monsters-and-dragons.md#fell-beast), he takes 12 points of natural damage from its bite. This is less than 29 and so does not exceed his massive damage threshold, thus all the damage goes to SP. Narase counterstrikes and hits the beast with his greatsword for 25 damage. Since the fell beast has a massive damage threshold of 20, it takes 20 points of SP damage, and 5 points of HP damage (out of 7). As a result of this exchange, Narase is merely winded, but the beast is gravely wounded - if it continues to fight, it will likely face a grizzly fate.
 
 ___
 #### Losing MP, SP and Rebalancing
@@ -276,7 +285,7 @@ Combat-time starts as soon as one or both sides are capable of fighting and will
 
 - At the start of combat all parties make an initiative roll [(see "initiative")](02-base-rules.md#initiative). Entities act in order of initiative (highest to lowest).
 - Combat takes place in "rounds" (~6s) and "turns". Once each combatant has had a "turn", top initiative to bottom, a "round" passes.
-- Any entities that are not aware of of the other side at the start of combat, or are not aware that combat has started, are "surprised" for the duration of the first round.
+- Any entities that are not aware of the other side at the start of combat, or are not aware that combat has started, are ["surprised"](10-conditions-types.md#surprised) for the duration of the first round.
 - The DM can declare the end of combat-time when the outcome is so obviously decided that no roll of the dice is likely to alter it, and any more rounds seem like a waste of time. In this case the DM and players should agree on what extra resources are likely to be expended to achieve a final conclusion. Usually in this case one side will have already surrendered.
 
 ___
@@ -332,7 +341,7 @@ The actions an entity may take might also be restricted by its conditions and ge
 - "**Secondary action**": A minor activity that can be carried out while doing something else at the same time. (eg, Attacking with an offhand dagger while swinging a sword). These include.
   - Attack with an offhand weapon (if it has the ["Offhand fighting"](06-abilities.md#offhand-fighting-i-iv) ability).
   - Use certain abilities that use SP or MP.
-  - Activate certain item.
+  - Activate certain items.
   - Drinking a potion.
   - Picking up, or setting down an item in reach that is not in a container.
 
@@ -344,7 +353,7 @@ The actions an entity may take might also be restricted by its conditions and ge
 
 
 - "**Reaction/Immediate action**": An action that can be taken at any time as long as some trigger condition is fulfilled (usually this requires the entity to be aware that the trigger happens). These actions are generally very quick and can be executed almost reflexively. Eg:
-  - Attacking once with a melee weapon or using certain abilities when a creature in range drops their guard (Attack of Opportunity).
+  - Attacking once with a melee weapon, carrying out a [basic combat manoeuvre](#basic-martial-manoeuvres), or using certain abilities when a creature in range presents an opportunity.
   - Cast certain spells or use certain abilities (counter-spelling, parrying, some defensive spells).
   - Dropping to the ground outside of your turn (eg in reaction to the casting of a powerful spell).
   - Dropping an item outside of your turn.
@@ -447,10 +456,10 @@ ___
 
 Characters of different sizes take up a different number of squares (see the [Size rules table](02-base-rules.md#size-rules-table)). For example, a medium sized character occupies 1 square (5 x 5 feet). Moving through an occupied square counts as squeezing (see below).
 
-An squares occupied by a hostile entity are known as **hostile squares**. In combat a character cannot freely move through hostile squares unless the entity occupying them is [disabled](10-conditions-types.md#disabled-states). The character may move through hostile squares by one of the following methods:
+Any squares occupied by a hostile entity are known as **hostile squares**. In combat a character cannot freely move through hostile squares unless the entity occupying them is [disabled](10-conditions-types.md#disabled-states). The character may move through hostile squares by one of the following methods:
 
 - A successful acrobatics roll, with a **Threshold = [Attack bonus of hostile entity + 13]** as part of its move action.
-- A successful athletics roll vs the STR threshold of the hostile entity. On success the hostile entity is also moved one square in a direction of your choice, as long as it is not the square you have come from.
+- A successful athletics roll vs the STR threshold of the hostile entity. On success the hostile entity is also moved one square in a direction of your choice, as long as it is not a square you have come from.
   - The attempt is at disadvantage if you have not moved at least 10ft during your current turn.
   - There is a +1 bonus for every 10ft above 30ft that your character has moved in a straight line during your turn.
   - This follows the size dependence rules of [basic martial manoeuvres](#basic-martial-manoeuvres).
@@ -487,7 +496,7 @@ Cover and concealment come in three flavours "light" (1/2), "heavy" (3/4) and "f
 
 ___
 #### Cover
-Cover is when something blocks line of effect between attacker and target. Light cover (as a rule covers no more than half of the entity's body area) provides a -2 penalty to targeted attacks vs a target (deflection[cover] bonus to HiT). Heavy cover (as a rule covers 1/2 to 3/4 of a target's area) provides a -5 penalty to targeted attacks and advantage to Dex saves (deflection[cover] bonus to HiT). A target in full cover cannot be targeted with a targeted attack. If an effect is not stated to explicitly spread around obstacles/corners, full cover automatically blocks it. If the effect does spread around corners and obstacles, the target is affected but has advantage on the save.
+Cover is when something blocks line of effect between attacker and target. Light cover (as a rule covers no more than half of the entity's body area) provides a -2 penalty to targeted attacks vs a target (deflection\[cover\] bonus to HiT). Heavy cover (as a rule covers 1/2 to 3/4 of a target's area) provides a -5 penalty to targeted attacks and advantage to Dex saves (deflection\[cover\] bonus to HiT). A target in full cover cannot be targeted with a targeted attack. If an effect is not stated to explicitly spread around obstacles/corners, full cover automatically blocks it. If the effect does spread around corners and obstacles, the target is affected but has advantage on the save.
 
 ___
 #### Concealment
@@ -533,17 +542,17 @@ An attack of opportunity is when a combatant exploits an opening left by another
 
 #### Provoking attacks of opportunity
 
-Targets moving out of a threatened square, or undertaking certain other actions that may leave an opening, such as standing up, or drinking a potion, provoke an attack of opportunity. This is detailed in the table below (see ["Attacks of Opportunity Table"](#attacks-of-opportunity-table))
+In close quarters, certain actions leave gaps in one's defences which can be exploited by adversaries within reach. For example, moving out of a threatened square, standing up, and drinking a potion all provoke attacks of opportunity. A full list is provided in the ["Attacks of Opportunity Table"](#attacks-of-opportunity-table).
 
 ___
 #### Avoiding attacks of opportunity
 A target moving out of one threatened square into another threatened square may avoid AoOs by declaring "careful movement" and halving their movement speed for the rest of the turn. Likewise a combatant may roll ["acrobatics"](05-skills.md#acrobatics) to try and avoid attacks of opportunity when moving through a contiguous set of threatened squares (threshold = [attack bonus of hostile] + 13), on a failure by 5 or more, the one making the acrobatics roll falls prone.
 
-A character can avoid attacks of opportunity when moving out of a threatened square (into a square that is not threatened) by using their "main action" to withdraw. As in the previous case, an "acrobatics" roll can be used to ameliorate the situation. In this case a successful roll vs [attack bonus of hostile] + 13 allows one to withdraw as a bonus action, as usual, on a failure by 5 or more, the one making the acrobatics roll falls prone.
+A character can avoid attacks of opportunity when moving out of a threatened square (into a square that is not threatened) by using their "main action" to withdraw. A character may attempt to use "acrobatics" to instead withdraw as a "secondary action". The Threshold=[attack bonus of hostile + 13]. On failure by 5 or more, the character making the acrobatics roll falls prone.
 
 As a rule, characters only provoke attacks of opportunity when moving through/out of threatened squares if they move under their own power. For example if a character is "shoved" out of a threatened space of an enemy, it does not provoke an attack of opportunity.
 
-A character with the ["Guarded"](06-abilities.md#guarded) ability does not provoke attacks of opportunity when drinking potions or standing up.
+Certain abilities grant some protection against attacks of opportunity. A character with the ["Guarded"](06-abilities.md#guarded) ability does not provoke attacks of opportunity when drinking potions or standing up. A character with ["Evasive"](06-abilities.md#evasive) can avoid attacks of opportunity when moving between squares more easily. A character with ["Skirmisher"](06-abilities.md#skirmisher) can avoid attacks of opportunity from targets it has attacked at close range. ["Safe Cast"](06-abilities.md#safe-cast) can protect spellcasters against attacks of opportunity.
 
 ___
 #### Causality and attacks of opportunity
@@ -558,6 +567,8 @@ So for example, when attacking a target that is standing up, the attack is made 
 If the provoking action is drinking a potion, the effect of the potion, if immediate, kicks in before the damage dealt by the attack.
 
 If the provoking action is an attack with a weapon the provoking character is not proficient with, any damage caused by the provoking character is applied first. If this means that the provoking character was attacking a comrade of the character making the AoO, the comrade would take damage from the provoking attack and only then does the provoking character take damage from the AoO. This is reversed by "swift strike".
+
+> The holy knight Asphalia and her companion Mal travel through a war ravaged town. An orphan, mistaking Mal for the one that killed his family, picks up a sword and tries to stab him in the back. Since the boy is not proficient with heavy blades his attack provokes an attack of opportunity, Asphalia attempts to disarm him as an attack of opportunity, but since she does not have swift strike, she is too slow, and the boy's sword finds Mal's side before she can knock it out of his hand...
 
 If a character is running away, provokes an attack of opportunity when leaving its threatened area, and is grappled (or otherwise attacked) by the ogre, the grapple (or other attack) starts, and is resolved before the provoking character has left its original square.
 
@@ -592,7 +603,7 @@ ___
 ___
 ## Mounts and Mounted Combat
 
-A character may ride a mount into combat (and in combat). In this case, for movement the rider's move action is used, with the mount's movement speed and modality. Likewise if a mounted character wishes to "run" or "sprint" (ie it wishes for its mount to do so with them on it), the rider's action is used for it.
+A character may ride a mount into combat (and in combat). In this case, for movement the both the rider's and the mount's move action is used, with the movement using the mount's movement speed and modality. Likewise if a mounted character wishes to "run" or "sprint" (ie it wishes for its mount to do so with them on it), the both the rider's and mount's action is used for it.
 
 - Mounting is a "main action". A quick mount can be attempted as a "secondary action" but this increases the risk of failure.
 - Dismounting is a "secondary action".
@@ -604,7 +615,7 @@ A character may ride a mount into combat (and in combat). In this case, for move
 - When the mount falls, the rider makes a "ride" or "acrobatics" roll (threshold=16) as a reaction to fall the first 10ft safely and land on their feet. Otherwise they suffer the usual falling rules.
 
 ___
-## Basic combat manoeuvres and tactical movement
+## Assorted Rules
 
 This is a collection of unsorted rules related to basic physical combat.
 
@@ -617,7 +628,12 @@ This is a collection of unsorted rules related to basic physical combat.
 - Supernatural attacks are generally lethal, unless otherwise stated for the specific attack. Optionally, a group may rule that it may be made non-lethal with a [spellworking](05-skills.md#spellworking) roll (Threshold = **20 + [MP dice used]**).
 
 ___
+## Basic combat manoeuvres and tactical movement
+
+
 ### Basic Martial Manoeuvres
+
+A basic martial manoeuvre is a natural targeted attack that uses the attacker's body or a weapon to reduce a target's combat effectiveness or deal damage to the target. Throwing down a target, applying a wrist lock, knocking its sword out if its hand and shooting an arrow at it are all examples of basic combat manoeuvres. To make a basic combat manoeuvre the attacker rolls an attack roll against either the target's HiT (for the "attack" manoeuvre) or its STR or DEX threshold for other manoeuvres.
 
 Any combatant may attempt a martial manoeuvre. If a combatant is not proficient in a given manoeuvre, they take a -5 penalty to the attack roll. They might also risk attacks of opportunity and other penalties. All combatants are considered proficient in the "attack" manoeuvre (but not necessarily with the weapons used to make an attack). Many monsters can carry out these manoeuvres without penalties or meeting the prerequisites.
 
@@ -648,7 +664,7 @@ This is the act of using one's body (or a weapon) to contact/grab the target in 
 
 - **Action**: Attack roll vs target's STR or DEX threshold (chosen by the target).
 - **Proficiency**: "grapple" proficiency.
-- **Effect**: The target gains the ["grappled"](10-conditions-types.md#conditions-in-detail) condition: It's move speed is zero.
+- **Effect**: The target gains the ["grappled"](10-conditions-types.md#conditions-in-detail) condition: Its move speed is zero.
 - **Penalty if not proficient**: -5 to attack roll.
 - **Size dependent**: Yes.
 - **Special**: A character that successfully grapples a target must use part of its body (usually a limb or an object held by that limb) to maintain the grapple. Regardless, the limb (or other body part) cannot be used for kinetic components of spells, movement, or for other combat manoeuvres.
@@ -734,7 +750,7 @@ The act of relieving a target of its weapon.
 - **Special**:
   - For every 5 points by which your attack exceeds the target's threshold, the weapon can land an extra 5ft away from the target's square (as decided by you).
   - Provokes an attack of opportunity if the foe is holding a weapon you are not proficient with AND you are not proficient with **disarm**.
-  - If the weapon is light, the target has a -2 on the roll. If it is heavy, it has +2 on the roll.
+  - If the target weapon is ["subtle"](11-weapons-armour.md#weapon-properties), the attack has a +2 bonus on the roll. If it is heavy, the attack has -2 penalty on the roll.
 
 ___
 #### Feint
@@ -777,7 +793,7 @@ ___
 
 - Abilities and phenomena that would not exist in a mundane world, that cannot be explained adequately by "scientific" means are supernatural, otherwise called magical.
 - The supernatural can be caused by divine, profane or spiritual sources.
-- Supernatural abilities target MP, are fueled by MP dice.
+- Supernatural abilities target MP and are fuelled by MP dice.
 - Supernatural abilities usually force INT, WIS or CHA saves, but some can also force other saves, or be manifest as targeted attacks.
 
 ___
@@ -785,10 +801,10 @@ ___
 
 Spellcasting is covered in detail in ["Chapter 7: Spells"](07-magic-and-spellcasting.md#spells). Spells are a subset of supernatural powers that mortals have learned to channel by following certain procedures. Entities that cast spells are referred to here as "**casters**". Spells can be either "**local**" or "**global**". "Global" spells can be useful, and indeed devastating in combat, but most combat spells are "local". "Local" spells have the following properties:
 
-- They generally take between a couple of seconds to a dozen minutes to cast ("minor action" to "10 minutes"), but generally take a "main action".
+- They generally take between a couple of seconds to a dozen minutes to cast ("secondary action" to "10 minutes"), but generally take a "main action".
 - Their effect is either immediate, or lasts no longer than a few days.
 - Their range is generally no more than a mile.
-- Their effect has a radius of no more than a mile for utility spells (eg. search spells) or about 120ft for offensive spells (eg. explosion magic).
+- Their effect has a radius of no more than a mile for utility spells (eg. search spells) or about 120ft for offensive spells.
 - They typically take 1-10 MP dice to cast.
 
 Casting spells involve a combination of one or more of the following components:
@@ -815,7 +831,7 @@ A character cannot rest if:
 
 In addition, certain types of rest have additional requirements:
 
-- For a long rest or longer a character must have access to sleep, food and water (if they sleep eat or drink respectively).
+- For a long rest or longer a character must have access to sleep, food and water (if they sleep, eat or drink respectively).
 - For a long rest or longer a character must be in an "ameliorated" area or make a CON save against the [terrain + weather] threshold in order to rest successfully (see [Camping](03-movement-exploration.md#camping)).
 - In addition for a full rest a character must have access to medical care and not be subject to severe weather conditions for longer than 4h at a time (or they must make a CON save against the [terrain + weather] threshold or have to restart the rest).
 - In addition for a full rest a character must not suffer any effects that cause it to lose hit points.
@@ -860,6 +876,7 @@ Characters taking a long rest (or longer) on terrain that is not ["ameliorated"]
 
 - In cold weather, a blanket gives +2 to this save, while a bedroll gives +4.
 - A tent gives +2 to ameliorate/fortify, a yurt obviates the need for such a roll. This does not apply on terrain where it is not possible to place a tent or yurt, such as in swamps, dense forests or on steep slopes.
+- Waterproofed clothes/armour gives a +2 bonus to CON saves when travelling under severe/extreme precipitation. Waterproof gear gives a +2 bonus to CON saves when camping in wet or rainy conditions.
 - Wearing medium or heavy armour gives a penalty to this CON save equal to the armour rating (instead of making a separate roll).
 
 Thus a character taking a long rest in armour on unameliorated terrain must make two separate CON saves to rest successfully.
@@ -933,7 +950,7 @@ This table covers the typical action economy costs of various actions. It should
 |Dropping defences outside of your turn|"minor interaction"|
 |Taking some action in response to a stimulus|Usually "reaction"|
 |Making a single melee attack or using a combat manoeuvre in response to a stimulus|"reaction"|
-|Dropping to the ground voluntarily|"reaction"|
+|Dropping to the ground voluntarily outside of your turn|"reaction"|
 |Dropping an item in response to a stimulus (eg a request to drop the item)|"reaction"|
 |Unprepared parry declared ad-hoc (1 parry)|"reaction"|
 |Prepared parry declared on your turn ([1 + multi-attack level] parries)|"reaction"|

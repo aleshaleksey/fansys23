@@ -659,3 +659,17 @@ ___
 
 ### Templates
 - Allow deviation from standard size to 40%.
+
+___
+## From v0.0.20
+
+### General
+- The great proofread.
+
+### Movement and Exploration
+- [Flight speed endurance](03-movement-exploration.md#running-and-fatigue) for running is now unified with other modalities. Also cripple rules are hardened.
+- [Double penalties](03-movement-exploration.md#terrains) for certain weather condition for certain terrains.
+- Adjust [precipitation rules](03-movement-exploration.md#precipitation) to make visibility harsher and less ambiguous.
+
+### Skills
+- [Cover tracks](05-skills.md#fortify) rules (draft).

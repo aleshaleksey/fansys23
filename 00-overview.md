@@ -45,7 +45,7 @@ The game was designed for a slower and more thoughtful pace of play than those h
 
 This is the reason for features such as the expense of healing magic, slow healing of HP and stat damage, [short, long and full rests](04-combat.md#rest-and-recuperation), the [global spellcasting](07-magic-and-spellcasting.md#global-and-local-spells) system, and the [slow learning of spells](07-magic-and-spellcasting.md#learning-spells-through-independent-study-or-from-a-mentor). The slow healing especially encourages players to think twice before engaging in mortal combat and to appreciate the respite afterwards. Downtime, recovery, time taken to find and craft the arms needed to defeat dangerous foes, or to learn the magics needed to overcome them, are emphasised.
 
-> *After all, when reaching a village after a harrowing journey through the necromancer's forest, the weary old knight might need a week of rest to recover his strength, while giving the local younglings a few lessons in sword-play. The ambitious peasant might have realised that unless he gets the monster hides made into some kind of armour, the next leg of the journey might be his last. And that traveller with no sense of direction? She might just follow a moonbeam over the stream and [disappear](03-movement-exploration.md#secret-paths) for a while, only to return a little closer to understanding a magic that she has been having trouble with for a while now. And maybe, just maybe, during their stay in this friendly village, the three will learn a little of what links it to the necromancer who defiled the forest they travelled through not a week ago...*
+> *After all, when reaching a village after a harrowing journey through the necromancer's forest, the weary old knight might need a week of rest to recover his strength, while giving the local younglings a few lessons in sword-play. The ambitious peasant might have realised that unless he gets the monster hides made into some kind of armour, the next leg of the journey might be his last. And that traveller with no sense of direction? She might just follow a moonbeam over the stream and [disappear](03-movement-exploration.md#secret-paths) for a while, only to return a little closer to understanding a magic that she has been having trouble with for a while now. And maybe, just maybe, during their stay in this friendly village, the three will learn a little of what links it to the necromancer who once defiled the forest they travelled through not a week ago...*
 ___
 
 ## Playing the game
@@ -58,7 +58,7 @@ The game is played like any of the number of table top role-playing games that e
 4. Make characters.
 5. Play.
 
-Below, one can find the rules for making a character.
+In this chapter, one can find the rules for making a character.
 
 ___
 ## The Gaming Group and Flow of the Game
@@ -70,7 +70,7 @@ ___
 
 Like most table top role-playing games, player roles are usually divided into an arbiter (usually called Game Master (GM) or Dungeon Master (DM)) and regular players (although other modes of play are possible). It is for all players at a table to agree to the style of the game, the broad strokes of the fantasy world, the genre of the story to be told (if there is a story at all) and what is acceptable at the gaming table.
 
-However, most of the work behind materialising these wishes falls upon the arbiter. The arbiter usually creates most of the moving parts in the world, creates ruins and dungeons and sets the plots in motion. The arbiter usually decides on the adverse conditions or forces that oppose the other players and lets them loose upon their character. In addition the arbiter is to have the final say on any contentious rulings where the rules might not adequately cover the situation, or do not cover it to the liking of the group. The arbiter is not to make decisions for the other players' characters, unless they are ["possessed"](10-conditions-types.md#possessed) or ["dominated"](10-conditions-types.md#dominated). Since the arbiter has a lot more work and responsibility, they also end up with more authority, which should be used with care. For the same reason a gaming group should treat their arbiter well.
+However, most of the work behind materialising these wishes falls upon the arbiter. The arbiter usually creates most of the moving parts in the world, creates ruins and dungeons and sets the plots in motion. The arbiter usually decides on the adverse conditions or forces that oppose the other players' characters. In addition the arbiter is to have the final say on any contentious rulings where the rules might not adequately cover the situation, or do not cover it to the liking of the group. The arbiter is not to make decisions for the other players' characters, unless they are ["possessed"](10-conditions-types.md#possessed) or ["dominated"](10-conditions-types.md#dominated). Since the arbiter has a lot more work and responsibility, they also end up with more authority, which should be used with care. For the same reason a gaming group should treat their arbiter well.
 
 The role of the other players is to create their character (or characters!) in accordance with what has been agreed and play them within the frame of the game. Players should play only their own characters and in the turns allotted to them, unless the arbiter or other players request it. Likewise, while it is generally acceptable to question an arbiter's decisions (in moderation), a regular player should keep in mind that the final decision is with the arbiter (unless a group is particularly 'democratic'). In some gaming groups it is customary for regular players to create the part of the world that their character is from, as well as giving the arbiter a few non-player characters to use as they wish for plot related reasons.
 
@@ -120,7 +120,7 @@ To make things even more interesting, they might be human, or they might have a 
 
 Most importantly, perhaps, it is worth thinking about *who* your character is. What defines them? What are their goals and fears? What do they value, and what do they despise?
 
-> *Are they an ambitious peasant going out into the world to find their chosen one? Are they a weary old knight who has taken up his sword for the sake of one last quest? Or did they simply misread a map on the way to the magical kingdom and end up in this god forsaken wilderness with an overambitious peasant and a weary old knight?*
+> *Is he an ambitious peasant going out into the world to find their chosen one? Is he a weary old knight who has taken up his sword for the sake of one last quest? Or did she simply misread a map on the way to the magical kingdom and end up in this god forsaken wilderness with an overambitious peasant and a weary old knight?*
 
 ___
 ### Stats
@@ -144,11 +144,11 @@ But which stats are important? Simply put:
 - If you want your character to be smart, skilled and a capable methodic mage, focus on INT.
 - If you want a good all-round character, then balance your stats carefully.
 
-Each stat gives rise to a corresponding stat bonuses. Bonuses are added to rolls, stats are just "there". When we speak about stat bonuses we write eg [STR] (with square brackets). When we talk about a stat we write eg STR (without square brackets). Thus a character might have 18 STR and hence a +4 [STR] (see below).
+Each stat gives rise to the corresponding stat bonus. Bonuses are added to rolls, stats are just "there". When we speak about stat bonuses we write eg [STR] (with square brackets). When we talk about a stat we write eg STR (without square brackets). Thus a character might have 18 STR and hence a +4 [STR] (see ["Stat assignment"](02-base-rules.md#stat-assignment)).
 
 Each stat also has a save of the same name. These protect you from certain indirect and insidious effects. They are used by rolling 2d12 plus the save bonus against a threshold. 
 
-There are several methods for assigning stats, but they are divided into "point buy" and "random roll". Point buy ensures that each character is of a similar power level as others in the group. Random rolls provide an exciting way of generating stats and allow the numbers to guide character creation, although at times it can be bitterly cruel. The specific method or methods which are permitted should be agreed within the group prior to character creation.
+There are several methods for assigning stats, but they are divided into "point buy" and "random roll". Point buy ensures that each character is of a similar power level to others in the group. Random rolls provide an exciting way of generating stats and allow the numbers to guide character creation, although at times it can be bitterly cruel. The specific method or methods which are permitted should be agreed within the group prior to character creation.
 
 ___
 #### Further reading
@@ -209,7 +209,7 @@ At level one a character starts with the following:
 
 + Any benefits and properties it inherits from its type and race.
 + 1 + [Con] + [Cha] HP, with a minimum of 1
-+ 3 dice points + 1 SP dice + 1 MP dice
++ 3 dice points + 1 SP die + 1 MP die
 + 2 [proficiencies](05-skills.md#proficiency-lists)
 + 6 + [Int] skill points (these can also be used for additional [proficiencies](05-skills.md#proficiency-lists))
 + 1 background skill
@@ -291,7 +291,7 @@ Luckily a character also has mana (or mental) points (MP) and stamina points (SP
   - An MP die to add 1d6 to a INT, WIS or CHA roll.
 
 
-The amount of SP or MP a character has is determined by how many SP dice and MP dice it has. A level one character starts with 1 SP dice and 1 MP and 3 dice points to assign as they wish for additional SP or MP dice.
+The amount of SP or MP a character has is determined by how many SP dice and MP dice it has. A level one character starts with 1 SP die, 1 MP die and 3 dice points to assign as they wish for additional SP or MP dice.
 
 - The total MP = **[Level x [Cha] + 2 x [MP dice]]**
 - The total SP = **[Level x [Con] + 2 x [SP dice]]**
@@ -314,7 +314,7 @@ The amount of SP or MP a character has is determined by how many SP dice and MP 
 ___
 ### A word on HiT, NAP, SAP and other 3 letter words
 
-This introduction leaves a lot of unanswered questions, such as "how do I attack?", "saves defend against indirect attacks, but what about direct attacks?", "why am I even playing this?" and probably quite a few more. Before looking for answers in other chapters, we present a brief answer to the first two.
+This introduction leaves a lot of unanswered questions, such as "how do I attack?", "saves defend against indirect attacks, but what about direct attacks?". These questions, and potentially a few others, are answered in this chapter.
 
 #### HiT
 
@@ -331,7 +331,7 @@ In general, the higher the hit the better (See ["Base Rules: Hit Threshold (HiT)
 ___
 #### Attack bonuses and Hit Thresholds
 
-Attacks must overcome HiT to do damage, abilities are opposed by a save. An attack roll with bonuses must equal or exceed ("meet or beat") the HiT to deal damage. Likewise, a saving roll must meet or beat the malign effect's "save threshold" to avoid or mitigate the effect.
+[Targeted attacks](04-combat.md#targeted-attacks) must overcome HiT to do damage, abilities are opposed by a save. An attack roll with bonuses must equal or exceed ("meet or beat") the HiT to deal damage. Likewise, a saving roll must meet or beat the malign effect's "save threshold" to avoid or mitigate the effect.
 
 "Natural" attacks are governed by Str and Dex (use [Str] or [Dex] bonus to hit), while "supernatural" attacks are governed by Int and Wis (use [Int] or [Wis] bonus to hit, usually [Wis]).
 
@@ -355,7 +355,7 @@ In short:
     - ([Nat] + [Base]) + [Str]
         - [NAP] + [Str]
 
-Luckily we don't have to calculate the attack potentials outside of levelling up our characters. And even then we can just use the tables in the ["Base Rules: Tables"](02-base-rules.md#tables).
+Luckily we don't have to calculate the attack potentials outside of levelling up our characters. And even then we can use the tables in the ["Base Rules: Tables"](02-base-rules.md#tables).
 
 ___
 #### Spell and Ability Saves

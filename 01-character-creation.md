@@ -93,7 +93,7 @@ Templates and template rules are found in [Chapter 9](09-races.md#example-templa
 ___
 #### Human
 
-Human represents the human race. The human race is the base. Humans have no special senses, resistances, movement modalities or spooky abilities. To compensate this, they adapt quickly to new environments, and begin learning the skills needed to survive in their homeland as soon as they are old enough to walk. Humans have a lifespan that does not exceed a century, reach a breeding age in their teens and can produce up to two dozen offspring in their lifetime.
+Human represents the human race. The human race is the base. Humans have no special senses, resistances, movement modalities or spooky abilities. To compensate this, they adapt quickly to new environments, and begin learning the skills needed to survive in their homeland as soon as they are old enough to walk. Humans have a lifespan that does not exceed a century, reach a breeding age in their teens and can produce up to two dozen offspring in their lifetime (although few produce more than half a dozen).
 
 - **Size**: Medium (Height: ~5'8", Weight: ~140lb)
 - **Stats**: (Str: 0, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: 0)
@@ -116,7 +116,7 @@ Human represents the human race. The human race is the base. Humans have no spec
 ___
 #### Elf/(Fey touched)
 
-This is a race that is closer to the fey, either created when fey spirits took material form in exchange for something, or when they mingled with humankind, or bestowed their "gifts" upon humans long ago. Elves/Fey touched live ridiculously long lives. Compared to humans they have slender, wiry bodies and longer ears. They are known as sometimes known as the "fair folk" and see well in twilight hours.
+This is a race that is closer to the fey, either created when fey spirits took material form in exchange for something, or when they mingled with humankind, or bestowed their "gifts" upon humans long ago. Elves/Fey touched live ridiculously long lives. Compared to humans they have slender, wiry bodies and longer ears. They are known as sometimes known as the "fair folk" and see well in twilight hours. In most settings elves produce few offspring.
 
 - **Size**: Medium (Height: ~5'8", Weight: ~115lb)
 - **Stats**: (Str: 0, Dex: +2, Con: -2, Int: 0, Wis: 0, Cha: +1)
@@ -277,7 +277,7 @@ This represents those who have been touched by dark forces. Perhaps because of a
 ___
 ### Assign skill points and background skills
 
-Calculate the number of skill points base on your character's intelligence bonus and apply no more than one point per skill. A level one character can assign no more than one skill point per skill and starts with:
+Calculate the number of skill points based on your character's intelligence bonus and apply no more than one point per skill. A level one character can assign no more than one skill point per skill and starts with:
 
 - 6 + [Int] skill points (these can also be used for additional [proficiencies](05-skills.md#proficiency-lists))
 - 2  additional [proficiencies](05-skills.md#proficiency-lists)

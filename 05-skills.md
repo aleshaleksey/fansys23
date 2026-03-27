@@ -317,6 +317,12 @@ The skill is used for building structures, fortifying positions (dungeon corrido
 - **Amelioration**: For medium size creature the minimum camping area is 5ft x 10ft.
   - It takes 10 minutes to ameliorate this area in threshold 10- terrain.
   - It takes 1h to ameliorate this area in threshold 11+ terrain.
+- **Sabotage structure**: Spend 30 minutes per 5ft square to sabotage a structure to make it prone to collapse under load. This requires the appropriate tools. The threshold is as follows:
+  - 12: A very simple structure (eg a hut, a wooden door, or rope bridge).
+  - 18: A simple structure (eg. a wooden house, a wooden bridge).
+  - 24: A sturdy structure (eg. A stone building, a small stone bridge).
+  - 30: A well fortified structure (eg. a castle wall or gate).
+- **Cover tracks**: Spend 30 minutes per 10ft square to cover one's tracks or alter the waypoints on a route. The threshold is equal to the terrain's amelioration threshold.
 - **Modifiers**:
   - The time can be reduced, but without special or supernatural abilities it cannot be less than 5 minutes.
   - For every size category above medium the total time taken is halved.

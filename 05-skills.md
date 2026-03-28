@@ -1,6 +1,6 @@
 # Skills
 
-This section covers which skills exist and how they are used.
+A character can attempt almost any kind of action. Outside of attacking, and attempting to resist harmful effects, the chances of succeeding are determined by how skilled a character is. While actions in combat are dealt with blow-by-blow, actions outside of combat handled in a much simpler manner. A single skill roll encompasses a whole series of actions related to the skill. For example, finding a suitable spot to set up camp for the night and then breaking camp might take half an hour or more, and yet the whole series of actions can be resolved in two rolls (["prospect"](#investigateprospect) and ["fortify"](#fortify)). That said, players should not underestimate the importance of skills: After all, if tomorrow you face battle against a dreadful foe, then a dry, safe encampment that lets you rest and prepare will make the difference between life and death.
 
 1. [Skills and Proficiencies](#skills-and-proficiencies)
     - [Acquiring skills and proficiencies](#acquiring-skills-and-proficiencies)
@@ -28,10 +28,13 @@ This section covers which skills exist and how they are used.
 ___
 ## Skills and Proficiencies
 
-The game has **skills** and **proficiencies**. The game defines them as follows:
+The game distinguishes **skills** and **proficiencies**. They are defined as follows.
 
-- **Skills:** are general training and expertise in a range of mundane activities or disciplines that a character can learn and improve with time. For example, [**"swim"**](#swim) is a skill that covers swimming, diving and similar, and a character's ability to swim is not binary, i.e it is not simply you can swim or you can't, but rather: "I can't swim", "I can swim but not well", "I can cross a river, yeah", "I've swam 20 miles, it took me 3 hours".
-- **Proficiencies:** A proficiency is the knowledge and ability needed to use a specific toolset or technique. Having a **proficiency** allows a character to use a skill in situations that require the given toolset or techniques. Eg. Proficiency with "lock picks" with a [**tinker**](#tinker) check allows picking locks. Proficiency with the "orcish language" allows you to use [**persuade**](#persuade) skill to persuade those who understand only that tongue. Proficiency with "heavy blades" allows one to attack with longswords, rapiers and similar weapons without certain penalties that un-proficient wielders suffer from.
+### Skills
+Skills are general training and expertise in a range of mundane activities or disciplines that a character can learn and improve with time. For example, [**"swim"**](#swim) is a skill that covers swimming, diving and similar, and a character's ability to swim is not binary, i.e it is not simply you can swim or you can't, but rather: "I can't swim", "I can swim but not well", "I can cross a river, yeah", "I've swam 20 miles, it took me 3 hours".
+
+### Proficiencies
+A proficiency is the knowledge and ability needed to use a specific toolset or technique. Having a **proficiency** allows a character to use a skill in situations that require the given toolset or techniques. Eg. Proficiency with "lock picks" with a [**tinker**](#tinker) check allows picking locks. Proficiency with the "orcish language" allows you to use [**persuade**](#persuade) skill to persuade those who understand only that tongue. Proficiency with "heavy blades" allows one to attack with longswords, rapiers and similar weapons without certain penalties that un-proficient wielders suffer from.
 
 ___
 ### Acquiring skills and proficiencies
@@ -74,7 +77,7 @@ In this case the assisting character may also make the skill/ability roll (with 
 
 This bonus stacks. However, the number of assistants can be no higher than [base] of the initiating character. So a level 5 character can benefit from no more than 1 assistant. A level 12 character can benefit from no more than 3 assistants.
 
-There are times where no bonus can be gained by assisting mainly with skills where only one character is active, or when there is not enough time to do anything to help.
+There are times where no bonus can be gained by assisting. This applies to skills where only one character is active, or when there is not enough time to do anything to help.
 
 **Optional rule**: If it makes sense that a different skill should be able to help (for example assisting a "Spellworking" roll with a "Knowledge: Arcana" roll, or assisting a "Tinker" roll with an "Academics" roll, or assisting a "Harvest" with "Fortify" or "Knowledge: Nature") in a given situation, the alternate skill can also be used for assisting. This rule can be problematic since a) it slows down the game as players may go into unnecessary long justifications, and b), adds a lot more to DM whimsy. On the other hand, this can also encourage creative role-play. An ["Optional Suggested Assisting Skills"](#optional-suggested-assisting-skills) table is provided below.
 
@@ -280,7 +283,7 @@ Athletics is used for most land based physical activities including:
 ___
 #### Climb
 
-This is a skill specific to scaling steep or vertical surfaces, trees, ropes and entities larger than oneself. A creature without a *climb* skill climbs at 1/4 of its base speed. Unless otherwise stated, no action is required, and the roll is made as part of the entity's movement. This follows the "Difficulties and recommended thresholds" as follows.
+This is a skill specific to scaling steep or vertical surfaces, trees, ropes and entities larger than oneself. A creature without a *climb* speed climbs at 1/4 of its base speed. Unless otherwise stated, no action is required, and the roll is made as part of the entity's movement. This follows the "Difficulties and recommended thresholds" as follows.
 
 - Base Thresholds:
   - 4: A steep embankment, ladder, knotted rope, or tree with many branches.
@@ -338,7 +341,7 @@ The skill is used for building structures, fortifying positions (dungeon corrido
 ___
 #### Swim
 
-Swimming is a separate skill from climbing and overland athletics. It is used for moving through a liquid medium, such as water, lava, quicksand, or a monster's stomach acid. A creature without a *swim* skill swims at 1/4 of its base speed. Unless otherwise stated, no action is required, and the roll is made as part of the entity's movement. This follows the "Difficulties and recommended thresholds" as follows. **NB**: Thi skill does not grant a swim speed.
+Swimming is a separate skill from climbing and overland athletics. It is used for moving through a liquid medium, such as water, lava, quicksand, or a monster's stomach acid. A creature without a *swim* speed swims at 1/4 of its base speed. Unless otherwise stated, no action is required, and the roll is made as part of the entity's movement. This follows the "Difficulties and recommended thresholds" as follows. **NB**: Thi skill does not grant a swim speed.
 
 - Base Thresholds:
   - 4: Float or swim in perfectly calm, warm water, under perfect conditions.
@@ -356,7 +359,7 @@ Swimming is a separate skill from climbing and overland athletics. It is used fo
 - Special:
   - Entities with a swim speed can always "take care" to swim.
   - Floatation devices (improvised or purpose made) reduce thresholds for staying or returning to the surface by 5.
-  - An entity with a diver's kit can see normally in the fluid, can swim at 1/2 base speed instead of 1/4 base speed, and does not need to worry about breath for 30 minutes. Usually a diver's kit is designed specifically for one fluid.
+  - An entity with a diver's kit can see normally in the fluid, can swim at 1/2 base speed instead of 1/4 base speed, and does not need to worry about breath for 30 minutes. Usually a diver's kit is designed specifically for one fluid (usually this fluid is water).
 - **Take care**: Yes.
 - **Try again**: Yes. But, the dynamic nature of failure and drowning makes it meaningless.
 
@@ -447,7 +450,7 @@ An entity riding a mount substitutes/uses its move to control its mount and its 
 - **Control**: As a **communicate** action, keep control of your mount in combat.
   - Keep non combat trained mount in combat: Threshold = 24
   - Keep an "aggressive" mount from attacking available targets: Threshold = 16.
-  - Control an uncooperative mount that is untrained or does not accept the rider. Threshold = Opposed roll vs Mount's charisma.
+  - Control an uncooperative mount that is untrained or does not accept the rider. Threshold = Opposed roll vs mount's charisma roll.
 - **Stay in saddle**: Keep your seating under adverse circumstances (non-action).
   - Threshold = Threshold of provoking event.
   - On damage over 20, threshold = [damage suffered / 2]
@@ -478,7 +481,7 @@ Sleight of hand is not just for "hands". It is the skill combining the use of de
   - Threshold is threshold value of manacles (usually 20-36).
 - **Tie rope (requires proficiency with ropes)**: Tie a knot in a rope, or tie a targets into knots using a rope. The action varies, but the threshold to break the binding is equal to the "sleight of hand" roll to tie it. This can be used (amongst other things) to:
   - Tie two objects together.
-  - Tether a ship/animal to a fixed binding.
+  - Tether a ship/beast to a fixed binding.
   - Restrain a target/prisoner, preventing its escape.
   - See ["bindings and restraints"](03-movement-exploration.md#bindings-and-restraints) for more information.
 - **Take care**: Yes.
@@ -529,13 +532,13 @@ Tinkering involves making, modifying and breaking delicate mechanisms, construct
   - Research of complex (and higher) devices can be simplified by using assistants. The assistant must be proficient both in **tinker** and the appropriate tools. For each assistant reduce research time by 1 day, to a maximum of half the time (rounded up).
 - **Create device**: Create a device whose general design you know.
   - Threshold: Varies.
-- **Modify/sabotage device**: Modify the device to alter its function or cause it to disfunction in a specific manner.
+- **Modify/sabotage device**: Modify the device to alter its function or cause it to malfunction in a specific manner.
   - Threshold: [Creation threshold + 4]
   - Time taken: Half the time to create the device.
 - **Disable device**: Cause the device to stop functioning without causing immediate catastrophic failure.
   - Threshold: [Creation threshold]
   - Time taken: 1 minute for threshold 16 and below. 1 hour for threshold 24 and below. For higher thresholds, the DM should set a reasonable time.
-  - An entity may attempt a rush job to reduce the times to 1 round, 1 minute (or ~1/10) by taking a -10 penalty.
+  - An entity may attempt a rush job to reduce the times by one category (1 month to 1 week, to 1 day, to 1 hour, to 1 minute, to 1 round) -10 penalty.
 - **Special**: Disabling the supernatural component of supernatural traps and devices increases the threshold by +10.
 - **Take care**: Yes. For "disable", "create" or "modify". For "research", the time taken on the next check to research the same item doubles with each failure.
 - **Try again**: Yes, if it hasn't blown up in your face yet!
@@ -555,7 +558,7 @@ Harvest is the umbrella skill covering the harvesting of natural resources from 
   - Harvest surface plants/minerals: 5-30 min per 5ft. Threshold: Terrain.
   - Harvest subsurface minerals (mining): 1h-1d per 5ft Threshold: Terrain.
 - **Modifiers and Special**.
-  - If the resource is rare, or exotic increase the threshold by +5 or +10.
+  - If the resource is rare, or exotic, increase the threshold by +5 or +10.
   - If the resource cannot be found in the terrain, then the time is spent and the harvest fails.
   - The duration of the "harvesting" and the magnitude of success determine the yield of the harvest. Failure with snake eyes results in the damage to the tools used (or HP loss or injury if the tool was the character's body or spirit).
   - Exceeding the threshold by 5 allows to double the yield or half the time. Exceeding by 10 or more, allows both.
@@ -611,7 +614,7 @@ Appraise is used to determine the value of an item, as well as to determine its 
 ___
 #### Investigate/Prospect
 
-This is a wide range of skills and methods that are used to reveal hidden details and properties of the surrounding area. Detailed use is described in "Scouting, prospecting and exploration". The DM should take care not to put plot critical information behind this kind of check (or any other check really, this one is overdone). In addition this skill can be used for "detective" functions like:
+This is a wide range of skills and methods that are used to reveal hidden details and properties of the surrounding area. Detailed use is described in "Scouting, prospecting and exploration". The DM should take care not to put plot critical information behind this kind of roll (or any roll check for that matter). In addition this skill can be used for "detective" functions like:
 
 - **Date Evidence**: Determine the approximate age of evidence. Can also be used for tracks, food stuffs, etc:
   - Exactly: Threshold = 32
@@ -666,7 +669,7 @@ There are 6 knowledge skills in the game. Each represents various subsets of kno
     - Identify supernatural being: [4 + Total dice / 2].
 - **Special**: Identifying beings by setting thresholds based on "Total dice" can get silly. Most people would know a dragon when they see one. As such general knowledge threshold can be used instead.
 - **Take care**: No. You either know it or don't.
-- **Try again**: no. You either know it or don't.
+- **Try again**: No. You either know it or don't. A roll for the same information can be made again after a character gains another rank in the skill, or base.
 
 ___
 #### Navigate
@@ -732,7 +735,7 @@ See through deception or gain some insight into the motive or state of mind of a
   - Familiar with entity: +2 bonus.
   - Intimately familiar with entity: +5 bonus.
 - **Take care**: No. Too many random factors.
-- **Try again**: Yes (as "secondary action"), but the result will be the same or the state of mind will have changed and the previous one will not be deduced.
+- **Try again**: No. The target's thought process has probably moved on and previously discoverable cues are no longer there. A roll can be made, but success can only give information about what the target is currently focused on.
 
 ___
 #### Spellworking
@@ -811,22 +814,24 @@ Train a non-sapient entity or order/direct it to act. Training usually takes day
 
 - **Raise**: Rear a creature from infancy to adulthood. This also involves teaching the entity a number of commands equal to its intelligence score.
   - **Duration**: varies with life cycle.
-  - **Threshold**: Base threshold for a native domestic animal is 12.
+  - **Threshold**: Base threshold for a native domestic beast is 12.
     - +4 if the entity is not a domestic breed.
     - +4 if it is not native to the terrain and climate where you are raising it.
     - +4 if it is a monstrosity or plant.
-    - +8 if it is a different non-animal entity.
-- **Tame**: Tame a wild thing. This has two modes. a) Interact with an entity and move its perception of you to "neutral". This takes a minute. b) Tame an entity. This takes between a week and a year depending on entity.
+    - +8 if it is a different entity type.
+- **Tame**: Tame a wild thing. This has two modes:
+    - a. Interact with an entity and move its perception of you to "neutral". This takes a minute.
+    - b. Tame an entity. This takes between a week and a year depending on entity.
   - **Threshold**: Base threshold for a wild entity is 16.
     - -4 if it has had friendly interactions with your race or similar entities.
-    - +4 if it is not an animal.
+    - +4 if it is not a beast.
     - +8 if it has had hostile interactions with your race or similar entities.
     - +16 if it has had hostile interaction with you before.
 - **Teach**: Teach an adult entity a new command.
   - **Duration**: 1 week (can be longer or shorter).
-  - **Threshold**: base threshold for a domestic animal is 16.
+  - **Threshold**: base threshold for a domestic beast is 16.
     - +4 if this is not a natural activity for the entity (eg. Teaching a guinea pig to attack).
-    - +4 if the entity is not an animal.
+    - +4 if the entity is not a beast.
     - +4 for each command above the entity's intelligence score.
 - **Command**: Order an entity to carry out a command.
   - **Threshold**: The base threshold is 16.
@@ -840,7 +845,7 @@ Train a non-sapient entity or order/direct it to act. Training usually takes day
 ___
 #### Deceive
 
-This is deception, whereby by direct lies (verbal, or by suggestive body language) or indirect deception or attempts to mislead. As a rule this skill should be used for direct interaction. Written form or sabotage use other skills. This is usually a "communicate" action.
+This is deception, whereby by direct lies (verbal, or by suggestive body language) or indirect deception or attempts to mislead. As a rule this skill should be used for direct interaction. Deception through cleverly written letters should use ["academics"](#academics). Sabotage should use ["fortify"](#fortify) or ["tinker"](#tinker). This is usually a "communicate" action.
 
 - **Threshold**: Opposed to "Sense Motive".
 - **Modifiers**
@@ -858,7 +863,7 @@ ___
 
 **NB:** Uses of intimidate in PC vs PC is not encouraged (except for "shake resolve"). For maximum effect this is one check that benefits from being roleplayed out.
 
-Encourage compliance based on fear. This can be used either force NPCs to take a certain course of action out of fear or sense of self preservation. It can also be used to shake the resolve of a combatant for a brief moment. This skill has no effect on "fearless" entities.
+Encourage compliance based on fear. This can be used either to force NPCs to take a certain course of action out of fear or sense of self preservation. It can also be used to shake the resolve of a combatant for a brief moment. This skill has no effect on entities that are immune to fear, and are made at disadvantage against entities resistant to fear.
 
 - **Threshold**: Opposed roll vs Cha save. Snake eyes do NOT automatically fail this save.
   - +8 to threshold if you are hopelessly outmatched.
@@ -878,6 +883,8 @@ Encourage compliance based on fear. This can be used either force NPCs to take a
 
 ___
 #### Persuade
+
+Persuasion is an attempt to bring an entity to see things from your point of view, or willingly follow your suggested course of action.
 
 Unlike intimidate this does not act as a charm effect. Like intimidate it should not be used on PCs. Persuasion can range from a systematic encroachment onto an entity's system of values and world view over many days of work, to a desperate plea thrown out in a "communicate" action. It can be used in or out of combat.
 

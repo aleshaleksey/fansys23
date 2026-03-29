@@ -1966,6 +1966,27 @@ ___
 **Special**: Must be taken separately for each element.
 
 ___
+#### Elemental Form Mastery I-III
+
+**Type**: (Class A)
+
+**Description**: When using ["foreign forms"](#foreign-forms) of elementalism, ignore part of the damage penalty. Foreign forms can also be used without expending MP dice.
+
+**Original State**: It is not possible to use foreign forms of elementalism without expending MP dice. Furthermore, the damage dealt is equal to:
+
+[[MP dice][Damage dice] + [WIS]]
+
+**Table**:
+
+|Mastery Level|Min. Base|Min. Elements Known|Min. Forms Known|Foreign Forms Damage|
+|-|-|-|-|-|
+|I  |2|2|3|[MP dice][Damage dice] + 1[Damage Die] + [WIS]|
+|II |3|2|4|[MP dice][Damage dice] + 2[Damage Dice] + [WIS]|
+|III|4|3|5|[MP dice][Damage dice] + 3[Damage Dice] + [WIS]|
+
+
+
+___
 #### Extra Save
 
 **Type**: (Natural, Class A)

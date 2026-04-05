@@ -328,6 +328,7 @@ Vampires are undead that still have blood in their veins. A vampire is cursed by
 
 In most settings vampires are beings of intense hunger, both for sustenance (blood) and for carnal pleasures.
 
+___
 ### Spawn and the Vampiric Hierarchy
 
 In most settings, vampires are capable of creating spawn and have some kind of vampiric hierarchy. Below are a couple of suggested OPTIONAL rules related to vampirism.

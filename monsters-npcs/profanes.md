@@ -328,6 +328,26 @@ Vampires are undead that still have blood in their veins. A vampire is cursed by
 
 In most settings vampires are beings of intense hunger, both for sustenance (blood) and for carnal pleasures.
 
+### Spawn and the Vampiric Hierarchy
+
+In most settings, vampires are capable of creating spawn and have some kind of vampiric hierarchy. Below are a couple of suggested OPTIONAL rules related to vampirism.
+
+#### Vampiric Obedience and Vampiric Inheritance
+
+A vampire spawn can be commanded by the vampire that created (the "sire") it as if it was a mortal affected by the "command mortal" spell without a limit on the number of commands. Should a "sire" be destroyed the first spawn it created becomes a true vampire, the others become spawn under its control or are destroyed (as the new sire choses).
+
+#### Creating Spawn
+
+A vampire may perform a ritual upon the body of a ["humanoid"](../10-conditions-types.md#mortals) whose blood it has drunk, that involves using 1HP worth of its own blood to create a spawn. The ritual takes 1 hour to complete. Next dusk, the body rises as a vampire spawn of its sire. If the body is treated with [holy water](../12-equipment-economy.md#alchemical-reagents-and-potions), supernatural [light damage](../10-conditions-types.md#light), [divine](../10-conditions-types.md#divine), or [entropic](../10-conditions-types.md#entropic) damage before the next dusk, the ritual fails. If the sire is destroyed before the body has risen, it instead awakens as a true vampire instead.
+
+#### Vampiric Resurrection
+
+Ancient vampires (such as vampire lords, and other vampires that the group deems worthy, but never spawn) do not perish when their physical form is destroyed. Instead, their spirit flees to the place where they first awoke as a vampire. Their body is then reformed the next dusk, with 1 HP, and 0 MP, SP, MP dice and SP dice. Such a vampire is only truly destroyed if:
+
+- The location no longer exists.
+- The location is within the are of effect of an ["undying realm"](../08-spell-list.md#undying-realm).
+- The location is sanctified with holy water between the time that vampire's physical form is destroyed and the next dusk.
+
 ___
 ### Vampire Spawn
 
@@ -360,7 +380,7 @@ ___
 |Short sword|+5|1d6+2||
 |Shortbow|+5|1d6+2|Range=600ft, Increment=120ft. A vampire spawn might be proficient with bows.|
 |Grapple|+5|||
-|Vampiric Bite|+5|1d4+2|If a vampire's bite causes HP damage to а mortal with blood, the vampire regains that number of HP. If the vampire is already at full HP, its STR increases by the number of points of damage dealt to the target's HP for 1 minute.|
+|Vampiric Bite|+5|1d4+2|If a vampire's bite causes HP damage to а mortal with blood, the vampire regains that number of HP. If the vampire is already at full HP, its STR increases by the number of points of damage dealt to the target's HP for 1 minute. A further successful bite attack resets the duration of the strength boost to 1 minute.|
 |||||
 |[Charm I](../06-abilities.md#charm-i-iv)|Thr=15||(Cost = 1 MP die) A lesser vampire can charm its victim. If it has imbibed its victim's blood, then the victim has disadvantage on the save.|
 |||||
@@ -413,7 +433,7 @@ ___
 |Rapier (Steel)|+12|1d10+5|(Reach=5ft long)|
 |Dagger|+12|1d4+5|(Reach=5ft long)|
 |Longbow|+10|1d10+5|Range=1200ft, Increment=240ft. A vampire might be proficient with bows, though vampires do prefer melee combat.|
-|Vampiric Bite|+10|1d4+4|If a vampire's bite causes HP damage to а mortal with blood, the vampire regains that number of HP. If the vampire is already at full HP, its STR increases by the number of points of damage dealt to the target's HP for 1 minute.|
+|Vampiric Bite|+10|1d4+4|If a vampire's bite causes HP damage to а mortal with blood, the vampire regains that number of HP. If the vampire is already at full HP, its STR increases by the number of points of damage dealt to the target's HP for 1 minute. A further successful bite attack resets the duration of the strength boost to 1 minute.|
 |[Steel Wind Strike](../06-abilities.md#steel-wind-strike)|+12|+1d8/SP die|A vampire can use up to 4 SP die when executing a steel wind strike.|
 |Grapple, Disarm|+10|||
 |||||
@@ -483,7 +503,7 @@ ___
 |Disarm|+16|||
 |Throw|+16|||
 |Sunder|+16|||
-|Vampiric Bite|+16|1d4+7|If a vampire's bite causes HP damage to а mortal with blood, the vampire regains that number of HP. If the vampire is already at full HP, its STR increases by the number of points of damage dealt to the target's HP for 1 minute.|
+|Vampiric Bite|+16|1d4+7|If a vampire's bite causes HP damage to а mortal with blood, the vampire regains that number of HP. If the vampire is already at full HP, its STR increases by the number of points of damage dealt to the target's HP for 1 minute. A further successful bite attack resets the duration of the strength boost to 1 minute.|
 |||||
 |[Steel Wind Strike](../06-abilities.md#steel-wind-strike)|+12|+1d8/SP die|A vampire can use up to 9 SP die when executing a steel wind strike and attack up to 6 targets.|
 |||||

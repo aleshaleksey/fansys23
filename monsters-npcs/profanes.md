@@ -346,7 +346,7 @@ A vampire may perform a ritual upon the body of a ["humanoid"](../10-conditions-
 Ancient vampires (such as vampire lords, and other vampires that the group deems worthy, but never spawn) do not perish when their physical form is destroyed. Instead, their spirit flees to the place where they first awoke as a vampire. Their body is then reformed the next dusk, with 1 HP, and 0 MP, SP, MP dice and SP dice. Such a vampire is only truly destroyed if:
 
 - The location no longer exists.
-- The location is within the are of effect of an ["undying realm"](../08-spell-list.md#undying-realm).
+- The location is within the area of effect of an ["undying realm"](../08-spell-list.md#undying-realm).
 - The location is sanctified with holy water between the time that vampire's physical form is destroyed and the next dusk.
 
 ___

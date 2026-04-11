@@ -663,12 +663,10 @@ ___
 ___
 ## From v0.0.20
 
-### Abilities
-- [Swift Shield Bash](06-abilities.md#swift-shield-bash) now formally allows bashing with light shields without penalty.
-- [Spelldance I-IV](06-abilities.md#spelldance-i-iv), add additional damage types to group conversion.
-
 ### General
 - The great proofread.
+- Shorten description of [Global and local spells](07-magic-and-spellcasting.md#global-and-local-spells) in "Magic and Spellcasting".
+- Increase minimum duration of [learning new spells from a teacher](07-magic-and-spellcasting.md#learning-spells-through-independent-study-or-from-a-mentor).
 
 ### Movement and Exploration
 - [Flight speed endurance](03-movement-exploration.md#running-and-fatigue) for running is now unified with other modalities. Also cripple rules are hardened.
@@ -677,3 +675,10 @@ ___
 
 ### Skills
 - [Cover tracks](05-skills.md#fortify) rules (draft).
+
+### Abilities
+- [Swift Shield Bash](06-abilities.md#swift-shield-bash) now formally allows bashing with light shields without penalty.
+- [Spelldance I-IV](06-abilities.md#spelldance-i-iv), add additional damage types to group conversion.
+- Rework [Casting spells and components](07-magic-and-spellcasting.md#casting-spells-and-components).
+
+

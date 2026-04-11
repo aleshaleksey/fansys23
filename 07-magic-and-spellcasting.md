@@ -28,7 +28,7 @@
 
 ## Spellcasting basics
 
-Spells are a subset of supernatural powers that mortals have learned to channel by following certain procedures. Entities that cast spells are referred to here as "**casters**". Spells can be either "**local**" or "**global**".
+Spells are a subset of supernatural powers that mortals have learned to channel by following certain procedures. Entities that cast spells are referred to here as "**spellcasters**", or simply "**casters**". Spells can be either "**local**" or "**global**".
 
 ___
 ### Casting spells and components
@@ -37,7 +37,8 @@ Spells can be viewed as recipes or instructions for calling forth supernatural f
 
 1. **Kinetic Components**: A set of defined, obvious gestures or movements. An "immobilised" or "restrained" caster cannot perform these. (conditions that imply "immobilised" fall under this category). Spells with kinetic components provoke attacks of opportunity. Holding objects in one or more hands (or other prehensile appendages), in and of itself, does not prevent a caster from performing kinetic components, unless it is explicitly stated in the spell description/limitations.
 2. **Incantation components**: A set of defined, well enunciated words or sounds. A "silenced" or "silent" caster cannot perform these. (conditions that imply inability to produce defined sound fall under this category).
-3. **Ritual components**: A ritual is a procedure involving defined movement and positioning of objects or entities, or the creation of defined patterns. Disruption of this procedure ruins the ritual. Rituals typically apply to global spells.
+3. **Material Components**: Items or ingredients which are required for, and consumed during, the casting of some spells. The caster must be in contact with the material components for local spellcasting, or within close range of it for the casting of a global spell. Typical material components
+4. **Focus**: A symbolic item of some kind which is required to channel some spell. The focus is not consumed when the spell is cast, and can be reused. The caster must be in contact with the focus for local spellcasting, or within close range of it for the casting of a global spell.
 
 As a consequence, a caster who is "restrained" or "immobilised" cannot cast spells with kinetic components and a caster who is "aphonic" or "silenced" cannot cast spells with incantation components.
 
@@ -54,15 +55,15 @@ ___
 
 There are a number of general rules pertaining to spellcasting.
 
-1. An entity can only cast ONE spell at a time. If it attempts to cast a second, either both spells dissipate, or the casting ends in spectacular failure. For example trying to cast "Fire Shield" (local) while casting "Resurrection" (global), will result in failure. 
+1. An entity can only cast ONE spell at a time. If it attempts to cast a second, either both spells dissipate, or the casting ends in spectacular failure. For example trying to cast ["Fire Ward"](08-spell-list.md#fire-ward) (local) while casting ["Profane Resurrection"](08-spell-list.md#profane-resurrection) (global), will result in failure. 
 2. Spells are never truly permanent in the material realm and can be **broken**, **counterspelled**, and **dispelled**. Entities summoned through spells can be **banished**.
 3. Casting spells with kinetic components in melee provokes attacks of opportunity.
 4. Unless otherwise stated, a caster must have line of sight to the target of a spell to cast it, or be capable of making contact with it (close range, aka within "reach").
-  - A caster is also considered to have line of sight to a target if it can detect it with one of ["Heat sense"](06-abilities.md#heat-sense-i-v), ["Life sense"](06-abilities.md#life-sense-i-vi), ["tremor sense"](06-abilities.md#tremor-sense-i-vi) or ["blind sight"](06-abilities.md#blind-sight-i-vi).
-  - In the above case, if the target is an entity or object, any attack roll is made at disadvantage, and if the spell allows a save, the target has advantage on the roll.
-5. If a spell lasts for a round or longer, affected entities make the initial save at the start of its turn and gets a save at the start of every turn against harmful effects of the spell unless otherwise stated otherwise in its description.
-  - For spells with a duration of less than one round, the save is made immediately and no repeated saves are applicable, unless stated otherwise in the spell description.
-  - This is in accordance with the ["Damage and effects over time"](04-combat.md#damage-and-effects-over-time).
+    - A caster is also considered to have line of sight to a target if it can detect it with one of ["Heat sense"](06-abilities.md#heat-sense-i-v), ["Life sense"](06-abilities.md#life-sense-i-vi), ["tremor sense"](06-abilities.md#tremor-sense-i-vi) or ["blind sight"](06-abilities.md#blind-sight-i-vi).
+    - In the above case, if the target is an entity or object, any attack roll is made at disadvantage, and if the spell allows a save, the target has advantage on the roll.
+5. If a spell lasts for a round or longer, affected entities make the initial save at the start of their turn and get a save at the start of each of their turns against harmful effects of the spell unless otherwise stated in the spell's description.
+    - For spells with a duration of less than one round, the save is made immediately and no repeated saves are applicable, unless stated otherwise in the spell description.
+    - This is in accordance with the ["Damage and effects over time"](04-combat.md#damage-and-effects-over-time).
 6. All damage caused by spells, unless otherwise stated, counts as "supernatural". The major exception is ["physical damage"](10-conditions-types.md#physical-damage) (percussive, shear, piercing, pressure, slashing), which is always "natural", unless stated otherwise in the spell.
 
 ___
@@ -84,7 +85,7 @@ Spells with an active effect (eg summoning) and non-instantaneous duration usual
 1. A caster can NEVER concentrate on more than one spell.
 2. If concentration is broken, the spell dissipates or fails spectacularly. Either way its effects end.
 3. A ["disabled"](10-conditions-types.md#disabled-states) (or so implied) entity cannot concentrate.
-4. A concentration save is a special save calculated as Concentration Bonus = [[Wis]/2 + [Int]/2 + [Nat]]. (A caster's ability to focus depends on mental acuity, connectedness as well as, strangely enough, physical condition and training).
+4. A concentration save is a special save calculated as Concentration Bonus = [[WIS]/2 + [INT]/2 + [Nat]]. (A caster's ability to focus depends on mental acuity, connectedness as well as, strangely enough, physical condition and training).
 5. Concentration can be disrupted by taking damage (threshold = 12 or 1/2 damage taken, whichever is higher).
 6. Concentration can be disrupted by ["vigorous motion"](03-movement-exploration.md#vigorous-motion) (threshold = 12), violent weather (threshold = 12) or both (threshold = 16).
 7. A caster can "hold" an "instantaneous" spell with a release trigger to trigger the effect within a minute of casting. The threshold = 8 +[rounds held]. If the trigger is not met the spell dissipates. The cost of the spell is paid when the spell is cast (always), not when it is triggered.
@@ -94,15 +95,15 @@ ___
 
 |Spell type|Opposite spell type|Governing stat for threshold|
 |-|-|-|
-|Elemental(Air)|Elemental(Earth)|Wis|
-|Elemental(Earth)|Elemental(Air)|Wis|
-|Elemental(Fire)|Elemental(Ice)|Wis|
-|Elemental(Ice)|Elemental(Fire)|Wis|
-|Incantation|Kinetic|Int|
-|Kinetic|Incantation|Int|
-|Nature|Nature|Wis|
+|Elemental(Air)|Elemental(Earth)|WIS|
+|Elemental(Earth)|Elemental(Air)|WIS|
+|Elemental(Fire)|Elemental(Ice)|WIS|
+|Elemental(Ice)|Elemental(Fire)|WIS|
+|Incantation|Kinetic|INT|
+|Kinetic|Incantation|INT|
+|Nature|Nature|WIS|
 
- Spells obtained from a given spellcasting type, use the corresponding ability for determining thresholds and attack bonus. Thus, if a character obtained ["Least Shroud"](08-spell-list.md#least-shroud) through Spellcasting: Kinetic, then the threshold would be Int based. If the same spell was obtained through Spellcasting: Air, the threshold would be Wis based.
+ Spells obtained from a given spellcasting type, use the corresponding ability for determining thresholds and attack bonus. Thus, if a character obtained ["Least Shroud"](08-spell-list.md#least-shroud) through Spellcasting: Kinetic, then the threshold would be INT based. If the same spell was obtained through Spellcasting: Air, the threshold would be WIS based.
 
 ___
 ### Identifying and Manipulating spells
@@ -112,7 +113,7 @@ Spells can be identified while they are being cast by the ["Knowledge:Arcana"](0
 ___
 ### Banishing, Breaking, Counter-spelling and Dispelling
 
-"**Counter-spelling**" is interfering with the casting of a local spell through magical means, hence causing it fail. "**Dispelling**" is the permanent removal of a local spell through magical means. "**Banishing**" is the dismissal of summoned entities to whence they came. "**Breaking**" is the permanent removal of a global spell either by meeting its ending condition, use of spellworking or exceptionally powerful local magic.
+"**Counter-spelling**" is interfering with the casting of a local spell through magical means, hence causing it to fail. "**Dispelling**" is the permanent removal of a local spell through magical means. "**Banishing**" is the dismissal of summoned entities to whence they came. "**Breaking**" is the permanent removal of a global spell either by meeting its ending condition, use of spellworking or exceptionally powerful local magic.
 
 #### Counter-spelling
 
@@ -123,7 +124,7 @@ Any spellcaster who has at least 3 levels in any one type of spellcasting (eg In
 3. Decide whether you wish to counter-spell it or not. If you decide not to counter this spell, your MP dice are not expended and you can continue watching for spells to counter.
 3. If the spell belongs to the same type or opposite type of local magic, use your reaction and declare "counter-spell".
 4. Pay the declared MP dice cost.
-5. Roll a SAP (Sup + Base + Wis) roll vs the threshold of the caster for the spell being cast. See below for the modifiers.
+5. Roll a SAP (Sup + Base + WIS) roll vs the threshold of the caster for the spell being cast. See below for the modifiers.
 6. If you meet or beat the threshold, the spell fails (maybe even catastrophically).
 
 There are several modifiers to the counter-spell roll. The modifiers stack.
@@ -134,7 +135,7 @@ There are several modifiers to the counter-spell roll. The modifiers stack.
 
 > **Example 1:** *If the 6th level aquamancer Liira has declared 3 MP dice and attempts to counter-spell the ["melt"](08-spell-list.md#melt) spell cast by a pyromancer who has used 3 MP dice in the casting, she would make a plain roll since fire and water are opposite spell types. Since the mana dice use is the same (3 vs 3), there are no bonuses or penalties, but she does have advantage on the roll. So if Liira has a +9 to WIS based attacks (WIS+SAP), she will roll at advantage with no bonus or penalty [3D12 drop lowest + 9]. In this case Liira has an excellent chance of countering the pyromancer's spell.*
 
-> **Example 2:** *If we extend the above example and the same pyromancer has used 4 MP dice in the casting, she will have a penalty of -1 (3 vs 4), and she will not have advantage. So in this case she would roll [2D12 + 8]. In this case, her chances of success are not as good, but unless the pyromancer is particularly talented, Liira still has a higher than 50:50 chance of success.*
+> **Example 2:** *If we extend the above example and the same pyromancer has used 4 MP dice in the casting, Liira will have a penalty of -1 (3 vs 4), and she will not have advantage. So in this case she would roll [2D12 + 8]. In this case, her chances of success are not as good, but unless the pyromancer is particularly talented, Liira still has a higher than 50:50 chance of success.*
 
 > **Example 3:** *The same aquamancer Liira, encounters the elemental sage Lapiz, and requests a duel. Lapiz casts ["winter's grasp"](08-spell-list.md#winters-grasp) at 5 MP dice to test Liira's mettle. Since this a water type spell and Liira is also an aquamancer, the counter roll is at disadvantage. Furthermore Liira is 6th level and can only declare 3 MP dice, so she will have a -2 penalty to the roll. Thus She will roll [3D12 drop highest + 7]. Liira's chances of coming out unharmed from this silly duel of hers are not good!*
 
@@ -146,7 +147,7 @@ Any spellcaster who has at least 3 levels in any one type of spellcasting (eg In
 1. Identify the spell using ["Knowledge: Arcana"](05-skills.md#knowledge).
 2. Declare "dispel" as a "main action" and how many MP dice you are using to dispel.
 3. Pay the declared MP dice cost.
-4. Roll a SAP (Sup + Base + Wis) roll vs their SAT (Sup + Base + Wis).
+4. Roll a SAP (Sup + Base + WIS) roll vs their SAT (Sup + Base + WIS).
 5. If you succeed on the roll, the spell ends, if you do not, it persists.
 
 All the same modifiers that apply to counter-spelling also apply to dispelling. In addition, if you are inside the area of effect of the spell, or are a target of the spell, you have advantage on dispelling it, as you can better characterise it.
@@ -172,11 +173,11 @@ ___
 
 Sometimes, when interaction with a spell or magical effect, it fails. Under certain conditions it fails catastrophically. This is known as "spectacular failure" or the "catastrophic cascade".
 
-**Catastrophic cascade on casting two spells**: If a caster tries to cast two spells at the same time, the process fails. If the instantaneous total MP dice of the two spells was greater than the permitted local maximum the caster must roll a Cha save vs the MP dice used + 13 that was used. On failure the spellcaster takes [MP dice total of spells] x d6 light damage. Entities within 10ft may make a Dex save for half damage. Beware of exploding mages.
+**Catastrophic cascade on casting two spells**: If a caster tries to cast two spells at the same time, the process fails. If the instantaneous total MP dice of the two spells was greater than the permitted local maximum the caster must roll a CHA save vs the MP dice used + 13. On failure the spellcaster takes [MP dice total of spells] x d4 light damage. Entities within 10ft may make a DEX save for half damage. Beware of exploding mages.
 
-**Catastrophic cascade when concentration is broken**: If a caster's concentration is broken, the spell dissipates and its effects end. If the number of MP dice used for a local spell is equal to the maximum permitted (1/3 of the caster's MP dice total), the caster must roll a Cha save vs the MP dice used + 13. On failure the spellcaster takes [MP dice total of spells] x d6 light damage. Entities within 10ft may make a Dex save for half damage. Beware of exploding mages.
+**Catastrophic cascade when concentration is broken**: If a caster's concentration is broken, the spell dissipates and its effects end. If the number of MP dice used for a local spell is equal to the maximum permitted (1/3 of the caster's MP dice total), the caster must roll a CHA save vs the MP dice used + 13. On failure the spellcaster takes [MP dice total of spells] x d4 light damage. Entities within 10ft may make a DEX save for half damage. Beware of exploding mages.
 
-**Catastrophic cascade on counter-spelling**: If a counter-speller's counter-spell roll exactly equals a caster's [SAT] (Nat + Base + Wis + 13), and the number of MP dice expended for the spell and counter-spell are equal a catastrophic cascade is triggered. All entities and structures within 10ft of the half-way point between the two casters take [the combined MP dice used] x d6 of "pressure" damage. The threshold = 18. Beware of exploding mages.
+**Catastrophic cascade on counter-spelling**: If a counter-speller's counter-spell roll exactly equals a caster's [SAT] (Nat + Base + WIS + 13), and the number of MP dice expended for the spell and counter-spell are equal a catastrophic cascade is triggered. All entities and structures within 10ft of the half-way point between the two casters take [the combined MP dice used] x d8 of "pressure" damage. The threshold = 18. Beware of exploding mages.
 
 **Other modes of spectacular failure**: Failing a "spellworking" roll when interacting with powerful magics, especially when disimbuing, can lead to spectacular failure. Further information is found in the ["spellworking"](05-skills.md#spellworking) rules. 
 
@@ -186,24 +187,11 @@ ___
 
 Spells can either be "local" or "global" in scope. This helps distinguish spells that are quick to cast and have a short and immediate effect, and grand spells which require a long time to cast and often have very wide reaching effects.
 
-"**Local**" spells have the following properties:
-
-- They generally take between a couple of seconds to a dozen minutes to cast ("minor action" to "10 minutes"), but generally take a "main action".
-- Their effect is either immediate, or lasts no longer than a few days.
-- Their effect has a range of no more than a mile of a caster.
-- Their effect has a radius of no more than a mile (eg. search spells) or 108ft (eg. explosion magic).
-- They take 1-10 MP dice to cast, although more MP can assigned (up to 1/3 of a caster's MP dice).
- 
-"**Global**" spells have the following properties:
-
-- Generally take a dozen minutes to a month to cast, but more often an hour or a day.
-- Their effect can be immediate and devastating, or can last for centuries (eg Great Barrier spells).
-- Their range can be hundreds of miles (but is often much shorter).
-- Their effect radius can be hundreds of miles, but is more often localised (eg a Mage's Sanctum).
-- They take at least 3 MP dice per day to cast, with the usual cost being ~20 dice per day.
-- If the spell takes multiple days to cast, the MP dice cost is split as evenly as possible between the days, with each day's dice being expended at the end of the casting day.
-
 Many "local" spells can also be cast as global spells. In this case the parameters of the global casting are are indicated in brackets after the parameters of the local casting.
+
+Local and Global spells follow the same general rules. However, global spells take at least 1 hour to cast and generally have an effect on a much larger area and for a longer duration, although sometimes the effects of the two are completely different.
+
+When casting a global spell, a character is considered to be using consecutive "full round" actions for the duration of the casting. If a global spell takes longer than 10 hours to cast, the ritual of casting them can be split over several days and payment of MP dice cost can be divided evenly over the days when the casting takes place. The cost in material components is paid upfront on each day of casting, while the MP dice cost is paid at the end of the day of casting.
 
 ___
 ## The 7 types of magic
@@ -220,7 +208,7 @@ Beyond "local" and "global" spells are divided into 7 types:
 
 Element and nature magic is known as "domain" magic, and the the spells that fall into these magics are associated with a domain. "Domain" spellcasting is governed by WIS.
 
-Incantation and kinetic magic is known as "methodic" magic, and are identified by how a spell is cast. "Methodic" spellcasting is governed by INT
+Incantation and kinetic magic is known as "methodic" magic, and are identified by how a spell is cast. "Methodic" spellcasting is governed by INT.
 
  A specialist spellcaster often learns between two and four types of magic to some level of proficiency. Spell-swords on the other hand will often get away with one or two.
 
@@ -236,7 +224,7 @@ ___
 
 Spells of this type are associated with elemental earth. All and any spells with the "earth" descriptor are on this spell list. They are associated with all physical damage types and the "restrained", "grappled", "prone", "crippled", and "bleeding" conditions. It is generally used for fortification and agriculture. At the first level it learns 3 zero-level spells.
 
-For every level of Spellcasting: Elemental(Air), a character learns 2 compatible spells. On taking Elemental(Earth) I a character also gains 2 MP zero spells of the "earth" descriptor.
+For every level of Spellcasting: Elemental(Earth), a character learns 2 compatible spells. On taking Elemental(Earth) I a character also gains 2 MP zero spells of the "earth" descriptor.
 
 ___
 ### Elemental (Fire)
@@ -301,9 +289,9 @@ Notably, for the first time that a character gains a "Spellcasting" ability of a
 ___
 #### Learning spells through independent study or from a mentor
 
-The base time to learn a spell through personal research is 108 days per MP dice cost of a spell (for global spells this is the "per day" cost). A character with access to suitable environment and resources may use academics to reduce the time (see ["Academics"](05-skills.md#academics)). The rate per MP dice become (108 - ["academics" roll]) to a minimum of 64 days per MP dice. For higher level spells, independent research is incredibly time consuming, and a sage might have spent a lifetime to uncover a single new global spell.
+The base time to learn a spell through personal research is 108 days per MP dice cost of a spell. A character with access to suitable environment and resources may use academics to reduce the time (see ["Academics"](05-skills.md#academics)). The rate per MP die becomes (108 - ["academics" roll]) to a minimum of 64 days per MP dice. For higher level spells, independent research is incredibly time consuming, and a sage might have spent a lifetime to uncover a single new global spell.
 
-The more common way to learn spells is to learn from an entity that already has the spell, a mentor so to speak. If you are learning from a mentor, the process is a lot faster, as you are transferring skills and knowledge that already exists, as opposed to unearthing new spells. For "domain" spells the base rate is 108 hours per MP die cost of a spell. For "methodic" spells the base rate is 64 hours per MP die. This time can be reduced with a "academics" roll from the "apprentice" and a "knowledge:arcana" roll from the mentor. The final time cost per MP dice cost is [base rate - ["academics" roll] - ["arcana" roll]]. Regardless of the result, this cost cannot be reduced to lower than 20 hours (aka 2 days) per MP dice cost for "domain" magic, or 10 hours (aka 1 day) per 2 MP dice cost for "methodic" magic.
+The more common way to learn spells is to learn from an entity that already has the spell, a mentor so to speak. If you are learning from a mentor, the process is a lot faster, as you are transferring skills and knowledge that already exists, as opposed to unearthing new spells. For "domain" spells the base rate is 108 hours per MP die cost of a spell. For "methodic" spells the base rate is 64 hours per MP die. This time can be reduced with a "academics" roll from the "apprentice" and a "knowledge:arcana" roll from the mentor. The final time cost per MP dice cost is [base rate - ["academics" roll] - ["arcana" roll]]. Regardless of the result, this cost cannot be reduced to lower than 30 hours (aka 3 days) per MP dice cost for "domain" magic, or 10 hours (aka 1 day) per MP die cost for "methodic" magic.
 
 ___
 #### Spell transfer
@@ -356,8 +344,8 @@ Spells are by their nature quite varied and cause various effects. This means th
 |Materials|What consumable materials are needed for the spell|None (12 dandelion heads)|
 |Focus|What spell focus, or material that is not consumed is needed|None|
 |Limitation|Any special conditions that must be fulfilled to successfully cast|target cannot be earth aligned|
-|Save|What save is needed , if any, and what happens on a success|Wis (harmless), no effect|
-|Attack|What the governing attribute for the attack is, if any (usually Wis)|-|
+|Save|What save is needed , if any, and what happens on a success|WIS (harmless), no effect|
+|Attack|What the governing attribute for the attack is, if any (usually WIS)|-|
 |Damage|Damage done if any|-|
 |Healing|Healing done if any|-|
 |Conditions|Conditions caused if any|-|
@@ -379,7 +367,7 @@ The clean example would look like:
 |Components|incantation (+ritual)|
 |Materials|None (12 dandelion heads)|
 |Limitation|target cannot be earth aligned|
-|Save|Wis (harmless), no effect|
+|Save|WIS (harmless), no effect|
 
 **Description**: The target gains a good fly speed equal to your walking speed, as if walking upon the air. When the spell ends, the target loses this movement modality immediately.
 

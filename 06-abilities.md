@@ -27,8 +27,6 @@ ___
 
 The line between "boons" and "abilities" is a fine one, but in general "abilities" are something that is actively used, (eg, "I use elemental touch", "I use far throw"), while a boon is something that is used passively (eg "I have skirmisher so I move behind the enemy where I am flanking and you don't get an attack of opportunity.").
 
-Each category is split up into "combat", "exploration" or "general". The categories are not perfect but they cover most bases relatively well.
-
 ___
 ### Prerequisites
 
@@ -39,7 +37,7 @@ The most common prerequisites are a minimum [Base], a minimum level, or a minimu
 ___
 ### Max dice per level
 
-For combat and general abilities the number of dice used per single ability is equal to half the character's level rounded up. For global magic there is no limit.
+For combat and general abilities the number of dice used per single ability is equal to half of the character's level rounded up. For global magic there is no limit.
 
 ___
 ### Rating
@@ -49,7 +47,7 @@ All abilities and boons are rated "C" through "S" class. "C" is considered 'weak
 ___
 ### Recursive Abilities
 
-If an ability or boon somehow grants the character that possesses it more uses, or additional forms of the same ability, then these additional forms or uses are not gained. Usually this a supernatural ability like [Alternate Form](#alternate-form-i-iv) or [Spellcasting](#spellcasting). Thus if a spell gives you more 
+If an ability or boon somehow grants the character that possesses it more uses, or additional forms of the same ability, then these additional forms or uses are not gained. Usually this a supernatural ability like [Alternate Form](#alternate-form-i-iv) or [Spellcasting](#spellcasting). For example if a character uses "Alternate Form III" to turn into a dragon, they do not also gain the dragon's alternate form.
 
 ___
 ### Declaration
@@ -230,12 +228,12 @@ ___
 **Prerequisites**:
 
 - Precision attack III.
-- Character level of at least [Assassinate level] x 4
+- Character level of at least [Assassinate level] x 4.
 
 **Special**:
 
 - You can only make one attack as your main action when using "assassinate".
-- The target must affected by at least one of the conditions that your assassinate level qualifies you for. For example at "Assassinate I", it must be "immobilised", at "Assassinate 3" it must be "immobilised", or "surprised" or "stunned".
+- The target must be affected by at least one of the conditions that your assassinate level qualifies you for. For example at "Assassinate I", it must be "immobilised", at "Assassinate 3" it must be "immobilised", or "surprised" or "stunned".
 - Assassinate automatically fails if the target has heavy, or total, concealment, or if it is "invisible" to you. This means that, for example, entities without low light vision, or other special sight, cannot use "assassinate" with ranged attacks in low light conditions or darkness.
 - If "assassinate" is used with a ranged attack, it must be within the first range increment of the weapon. 
 - Since it uses a "main action" it cannot be used as a "reaction".
@@ -262,7 +260,7 @@ ___
 
 **Targets**: All allied entities within range that can hear the song.
 
-**Effect**: Each targets within range that can hear the song gain resistance to requisite conditions ("frightened", "catatonic", "incapacitated", "paralysed",depending on bard song level). In addition each affected entity in range gains the following benefits:
+**Effect**: Each target within range that can hear the song gains resistance to requisite conditions ("frightened", "catatonic", "incapacitated", "paralysed",depending on bard song level). In addition each affected entity in range gains the following benefits:
 
 - It can add its [base](02-base-rules.md#base) to a single roll per round while it can hear the song.
 - It may gain advantage on a single roll per song (see "prerequisite table" below).
@@ -441,7 +439,7 @@ ___
 |30|28|Far Throw IV|
 |35|40|Far Throw V|
 
-**Original state**: The "throw" manoeuvre moves tha target 10ft + 5ft x size advantages.
+**Original state**: The "throw" manoeuvre moves the target 10ft + 5ft x size advantages.
 
 ___
 #### Flash Step
@@ -474,7 +472,11 @@ ___
 
 **Description**: Sacrifice precision for power when making melee attacks. (Swing like a helicopter).
 
-**Action**: When making an attack with a melee weapon that is governed by STR, take a penalty up to your [Nat] to your attack roll and take the same number as a bonus to your damage if you hit. If the weapon is a two-handed ["heavy weapon"](11-weapons-armour.md#weapon-properties), the bonus to damage is doubled.
+**Action**: When making an attack with a melee weapon that is governed by STR, take a penalty up to your [Nat] to your attack roll and take the same number as a bonus to your damage if you hit.
+
+**Special**: If the weapon is a two-handed ["heavy weapon"](11-weapons-armour.md#weapon-properties), the bonus to damage is doubled.
+
+**Prerequisite**: STR, +15.
 
 ___
 #### Greater Manoeuvre I-V
@@ -542,7 +544,7 @@ ___
 - If "precision attack" is used with a ranged attack, it must be within the first range increment of the weapon. 
 - Since it uses a "main action" it cannot be used as a "reaction".
 
-**Prerequisite table**: Precision attack has 10 levels. The maximum level of precision attack a character may have is [Level / 2] (so I at level 2, II at level 4, etc..).
+**Prerequisite table**: Precision attack has 10 levels. The maximum level of precision attack a character may have is [Level / 2] rounded down (so I at level 2, II at level 4, etc..).
 
 ___
 #### Rapid Shot
@@ -581,6 +583,8 @@ ___
 ___
 #### Steel Wind Strike
 
+**Class**: (A, Natural)
+
 **Description**: Strike several targets within 30ft of you with a melee weapon that deals piercing or slashing damage and end your movement within 10ft of any of those targets.
 
 **Action**: 
@@ -614,13 +618,13 @@ ___
 
 - **SP dice total**: 16.
 - **MP dice total**: 16.
-- **Other:** At least 3 other martial combat abilities or boons, one of which must be "Swift Strike" or 2 other martial combat abilities and boons and "Flurry".
+- **Other:** At least 3 other natural combat or boons, one of which must be "Swift Strike" or 2 other natural combat abilities and boons and "Flurry".
 
 
 ___
 ### Active Abilities (Supernatural)
 
-This section contains a listing of active abilities which are supernatural in nature. The use of these abilities generally requires a declaration by the player (or the DM) who control the character.
+This section contains a listing of active abilities which are supernatural in nature. The use of these abilities generally requires a declaration by the player (or the DM) who controls the character.
 
 ___
 #### Alternate Form I-IV
@@ -633,7 +637,7 @@ ___
 
 **Prerequisites**:
 
-- At least one level of [spellcasting](07-magic-and-spellcasting.md#the-7-types-of-magic) belonging to any the categories of  "air", "nature" or "water".
+- At least one level of [spellcasting](07-magic-and-spellcasting.md#the-7-types-of-magic) belonging to any the categories of  "air", "earth", "nature" or "water".
 - 7 MP dice.
 
 **Table**:
@@ -724,7 +728,7 @@ ___
 - Declare a target to protect. You must be within reach of your mark, or the direct line between the attacker and target must pass through your square.
 - When a supernatural attack that requires a saving throw is made against your mark before the start of your next turn, it is automatically redirected at you, and you make the save and/or potentially suffer the effect.
 
-As a "reaction": This works in the same way as the "main action" mode, however you can only defend your target against one such attack.
+Alternatively, as a "reaction": This works in the same way as the "main action" mode, however you can only defend your target against one such attack.
 
 **Limitation**: You can only protect a single target against area of effect attacks, or attacks that would affect multiple targets.
 
@@ -754,7 +758,7 @@ ___
 
 **Benefits**: A bound beast may not disobey you and acts as a loyal servant, this does not mean, however that it necessarily likes it.
 
-- A bound beast understands your commands and can be commanded in and out of battle with a "communicate" action. No "creature handling" check is required.
+- A bound beast understands your commands and can be commanded in and out of battle with a "communicate" action. No "creature handling" roll is required.
 - Such a beast can be used for combat, scouting, guarding and other menial tasks within its capability.
 - Once a command has been issued, the beast will continue to perform the action until it completes the instructions. Thus if it is commanded "attack the bandit" it will continue to do so until called off, while if it is commanded to "give the bandit a bite", it will continue until it has succeeded in biting the bandit once.
 - If a command is physically or conceptually impossible for it, it may either do nothing, or do something similar to the best of its interpretation (which might cause problems).
@@ -780,7 +784,7 @@ ___
   2. Pick 2 natural boons or abilities from this chapter for which the beast meets the prerequisites.
   - Alternatively, if the beast has a stat block for more than one level, upgrade the beast to the highest available stat block (eg [velociraptors](monsters-npcs/beasts-and-plants.md#raptor-levels-2-4) have a stat block for levels 2 and 4).
 
-**Prerequisite**: You must have at least one level of "global" or "incantation" or "nature" magic to gain this ability.
+**Prerequisite**: You must have at least one level of "global", "incantation" or "nature" magic to gain this ability.
 
 (**Key**: W - walk, C - climb, S - swim, D - dig, F - fly, B - blink)
 
@@ -819,7 +823,7 @@ ___
 
 - A familiar can give advise (although it is often bad advise!).
 - A familiar gives a "supernatural" bonus equal to the "Bind Familiar" level (must be chosen when the familiar is first bound) when the familiar is within 10ft of the binder, to one of the following:
-  - "spellworking" rolls when working with global spells and to your threshold for global spells 
+  - "spellworking" rolls when working with global spells and to your threshold for global spells.
   - "concentration" saves to maintain spells.
   - "Knowledge:Arcana" rolls.
 - A familiar can deliver spells and messages.
@@ -836,7 +840,7 @@ ___
 
 - A familiar has an intelligence of 5 + [Bind Familiar level] x 2.
 - A familiar has HP, MP, and SP dependant on the "Bind Familiar" level.
-- A familiar retains the HiT of its base creature but uses your saves, has resistance to damage based on the spellcasting that was used as a prerequisite to bind it.
+- A familiar retains the HiT of its base creature but uses your saves, has additional resistances based on the spellcasting that was used as a prerequisite to bind it.
 - A familiar has an empathic link with its binder to a distance based on the "Bind familiar" level.
 
 **Prerequisites**: To bind a familiar the entity must have at least one "spellcasting" ability.
@@ -942,7 +946,7 @@ ___
 
 **Type**: (Class A)
 
-**Description**: When a "natural" or "weapon" attack deals HP damage to you or an adjacent entity, you may may use your "reaction" to cast a targeted attack spell at the entity which made the attack.
+**Description**: When a "natural" or "weapon" attack deals HP damage to you or an adjacent entity, you may use your "reaction" to cast a spell at the entity which made the attack.
 
 **Limitations**: The spell must take a "main action" or "secondary action" to cast and must affect only the entity that made the attack.
 
@@ -1008,7 +1012,7 @@ ___
 
 **Type**: B Class
 
-**Description**: Expend an MP die to infuse a weapon attack with elemental energy. The element can be fire, ice or lighting, and must correspond to the element chosen when acquiring this ability. The attack will deal an extra:
+**Description**: Expend an MP die to infuse a weapon attack with elemental energy. The element can be fire, ice or lighting, and must correspond to the element chosen when acquiring this ability. In adition to the normal damage, the attack will also deal one of the following formas of elemental damage:
 
 - 2d6 fire[supernatural] damage.
 - 2d6 ice[supernatural] damage.
@@ -1037,15 +1041,11 @@ ___
 
 **Type**: (Class S)
 
-**Description**: Use a reaction and MP to reduce damage from ["esoteric"](10-conditions-types.md#esoteric-damage) attack.
+**Description**: Use a reaction and MP to reduce damage from an ["esoteric"](10-conditions-types.md#esoteric-damage) attack.
 
 **Effect**: Reduce the damage from a "esoteric" attack by [1d6 + [2 x MP dice expended]].
 
 **Action**: As a reaction to being hit by a "esoteric" attack, declare "esoteric deflection".
-
-**Limitations**:
-
-- The ability cannot be used when you are surprised, or otherwise incapable of using reactions.
 
 **Prerequisite**: ["Deflection"](#deflection) + 17 MP dice total.
 
@@ -1168,7 +1168,7 @@ A character then picks one of the following two forms:
 - Touch
 - Blast (+ Cone)
 
-Subsequently, when a character gains the "elementalism" ability again, they may may either pick additional ["forms"](#forms) and ["effects"](#effects) for an elementalism they already possess, or begin again with a new [element](#elements). The "elementalism" ability can be taken any number of times, as long as prerequisites are met.
+Subsequently, when a character gains the "elementalism" ability again, they may either pick additional ["forms"](#forms) and ["effects"](#effects) for an elementalism they already possess, or begin again with a new [element](#elements). The "elementalism" ability can be taken any number of times, as long as prerequisites are met.
 
 Thus an aspiring elementalist may expend one level point to gain "Elementalism: Air, Blast" and then at a higher level spend another level point to gain the "Prone" effect for it. Then, later still, the same character may spend another level point to take the "Elementalism: Air, Circle". At this point, this elementalist would be able to shoot air blasts targetting a single target, cones of air targetting a small area, or blasts of air that scour wide areas. Lastly this elementalist would be able to modify any of these elemental air blasts to knock affected targets prone.
 
@@ -1206,7 +1206,7 @@ ___
 ___
 #### Elements
 
-An elementalism can only have one form, which is selected before any rolls are made. An elementalism must have an element.
+An elementalism can only have one form, which is declared before any rolls are made. An elementalism must have an element.
 
 |Element|Damage dice|Damage Type|Save Type|Extra Properties|
 |-|-|-|-|-|
@@ -1226,6 +1226,9 @@ An elementalism can only have one form, which is selected before any rolls are m
   - Ignite flammable materials.
 - Elementalism "lightning" will:
   - Shed light (visibility: 1 mile, illumination: dim, 10ft).
+  - Ignite flammable materials.
+- Elementalism "light" will:
+  - Shed light (visibility: 5 miles, illumination: bright 10ft, dim 20ft).
   - Ignite flammable materials.
 
 ____
@@ -1312,7 +1315,7 @@ ___
 
 The elemental sweep modifies an elemental touch, striking additional targets adjacent to the wielder as they sweep out an arc.
 
-**Action**: As for elemental touch, but also declare additional adjacent squares. For every additional square affected beyond 2, expend an extra MP die. Regardless of the number of squares affected, a single attack roll vs the target HiT is rolled.
+**Action**: As for elemental touch, but also declare additional adjacent squares. For every additional square affected beyond 2, expend an extra MP die. Regardless of the number of declared targets, only a single attack roll vs the target HiT is rolled.
 
 **Limitation**: The damage dice size increase from ["Touch, enhanced"](#touch-enhanced) only applies to one of the targets of elemental sweep.
 
@@ -1455,6 +1458,7 @@ ___
 - A character cannot increase its flight endurance with this boon to beyond its [journey time](03-movement-exploration.md#global-movement-pushing-and-fatigue) (10 hours).
 
 **Prerequisites**:
+
 - CON of at least 13: If total flight endurance is below 6 hours before boon is taken.
 - CON of at least 15: If total flight endurance is 6 hours or more before boon is taken.
 
@@ -1496,7 +1500,7 @@ ___
 
 **Type**: (Natural, Class B)
 
-**Description**: Avoid attacks of opportunities when standing up from prone, drinking potions, and using those items that would usually whose use would generally provoke attacks of opportunity.
+**Description**: Avoid attacks of opportunities when standing up from prone, drinking potions, and using those items whose use would generally provoke attacks of opportunity.
 
 **Original state**: Characters provoke attacks of opportunity when standing up from prone, drinking potions, and using certain items.
 
@@ -1582,9 +1586,9 @@ ___
 ___
 #### Offhand fighting I-IV
 
-**Description**: Make one or more additional attacks with an offhand weapon with the "subtle" property as a "secondary" action when making one or more attacks as a "basic martial manoeuvre: attack" with a one handed weapon (as your "main action"). You can also make offhand attacks with a weapon that isn't "subtle", but you take a -4 penalty to the attack roll.
+**Description**: Make one or more additional attacks with an offhand weapon with the "subtle" property, or with a light blade, as a "secondary" action when making one or more attacks as a "basic martial manoeuvre: attack" with a one handed weapon (as your "main action"). You can also make offhand attacks with a weapon that isn't "subtle" or a light blade, but you take a -4 penalty to the attack roll.
 
-**Original state**: A character can make a single offhand attack with a light weapon as a "secondary action". Even so it takes a -4 penalty to the attack and does not add the governing stat modifier to the damage. A character with "Multi-attack I" has the same limitations, but adds its governing stat modifier to the damage.
+**Original state**: A character can make a single offhand attack with a "subtle" weapon or a light blade as a "secondary action". Even so it takes a -4 penalty to the attack and does not add the governing stat modifier to the damage. A character with "Multi-attack I" has the same limitations, but adds its governing stat modifier to the damage.
 
 **Special**:
 
@@ -1607,6 +1611,7 @@ ___
 
 
 **Special**:
+
 - ["Evasive"](#evasive) and "opportunist" cancel each other out.
 - You can make attacks of opportunity against characters with the ["guarded"](#guarded) boon, unless they also have "opportunist" when they:
   - Standing up.
@@ -1617,7 +1622,7 @@ ___
 
 **Type**: (Class B)
 
-**Description**: Remove penalties with ranged weapons in melee.
+**Description**: Remove penalties when using ranged weapons in melee.
 
 **Original state**: Ranged weapons fired while you are in melee are made at disadvantage (See ["Ranged Weapons, collateral and melee"](11-weapons-armour.md#ranged-weapons-collateral-and-melee)).
 
@@ -1660,12 +1665,12 @@ ___
 
 **Original state**: Shields do noth grant any bonuses to saves.
 
-**Benefits:** Gain a bonus to Dex and Str saves equal to the HiT bonus of a shield when using a small, large, or tower shield.
+**Benefits:** Gain a bonus to DEX and STR saves equal to the HiT bonus of a shield when using a small, large, or tower shield.
 
 **Prerequisites:**
 
 - Proficiency with Shields.
-- Proficiency Dex or Str saves.
+- Proficiency DEX or STR saves.
 - 8 SP dice total and 3 MP dice total.
 
 ___
@@ -1674,6 +1679,8 @@ ___
 **Type**: (Natural, Class B)
 
 **Description**: You can move faster while stealthed.
+
+**Prerequisites**: At least 1 rank in stealth, or "base" in stealth. Additional description in the table.
 
 |Boon level|Prerequisite (Base)|Boon|
 |-|-|-|
@@ -1742,7 +1749,7 @@ ___
 **Special**:
 
 - Must be taken separately for each movement modality.
-- Does not affect movement modalities where "run" or "sprint" are not valid actions.
+- Does not affect movement modalities where "run" is not a valid action.
 
 ___
 #### Stalker
@@ -1762,21 +1769,23 @@ ___
 
 **Benefits:** A character can use a buckler, "light shield" or "heavy shield" as a shield (i.e. benefit from bonus to HiT and other benefits that it may bring), and still use it to make offhand attacks as a secondary action.
 
+**Special:** "Bucklers" and "light shields" no longer suffer from the -4 from penalty for making offhand attacks with a weapon without the "subtle" property and is not a "light weapon".
+
 **Prerequisites:**
 
 - Proficiency with Shields.
 - ["Offhand fighting"](#offhand-fighting-i-iv) ability.
 
-**Special**: A character that uses a shield to make an offhand attack loses the bonus to HiT from the shield to the end of their next turn.
+**Original state**: A character that uses a shield to make an offhand attack loses the bonus to HiT from the shield to the end of their next turn.
 
 ___
 #### Swift Strike
 
-**Description**: Your strikes are so quick that your attacks of opportunity hits before the triggering action is complete.
+**Description**: Your strikes are so quick that your attacks of opportunity hit before the triggering action is complete.
 
 **Prerequisite**: 10 SP dice.
 
-**Original state**: A reaction resolves after the action that provoked it.
+**Original state**: An attack of opportunity usually usually resolves after the action that provoked it.
 
 ___
 #### Terrain Mastery
@@ -1928,7 +1937,7 @@ ___
 
 **Description**: Gain immunity to one condition.
 
-**Prerequisites**: In addition to other prerequisites, a character must be first be resistant to the condition to gain the immunity.
+**Prerequisites**: In addition to other prerequisites, a character must first be resistant to the condition to gain the immunity.
 
 |Resistance|Base|Dice|Other|
 |-|-|-|-|
@@ -1957,7 +1966,7 @@ ___
 
 **Type**: (Class A)
 
-**Description**: Spend 1 MP dice to overcome damage resistance when dealing elemental/energy damage.
+**Description**: Spend 1 MP die to overcome damage resistance when dealing elemental/energy damage.
 
 **Declaration**: Declare and pay the price before calling the ability/attack/spell.
 
@@ -1993,7 +2002,7 @@ ___
 
 **Description**: Gain an extra "good save".
 
-**Prerequisite Table**: A character can take this boon more than once, but must have a high enough level.
+**Prerequisite Table**: A character can take this boon more than once, but must fulfil the level prerequisites.
 
 |Level| Max good saves| Boone Name|
 |-|-|-|
@@ -2168,8 +2177,8 @@ ___
 
 **Benefits**: 
 
-- You have resistance to [possessed](10-conditions-types.md#possessed), and thus advantage on saves against a spirit entering their body, and taking control of their body.
-- You can make ["observe"](05-skills.md#observe) rolls at a -5 penalty when asleep (instead of a -10 penalty).
+- The character has resistance to [possessed](10-conditions-types.md#possessed), and thus advantage on saves against a spirit entering their body, and taking control of their body.
+- The character can make ["observe"](05-skills.md#observe) rolls at a -5 penalty when asleep (instead of a -10 penalty).
 
 **Special (drawbacks)**:
 
@@ -2183,7 +2192,7 @@ ___
 
 **Type**: (Natural/Supernatural, Class A)
 
-**Description**: You gain the ability to determine the location of an entity based on vibrations transmitted through the ground or liquid you and the entity are both in contact with.
+**Description**: You gain the ability to determine the location of an entity based on vibrations transmitted through the ground or liquid that you and the entity are both in contact with.
 
 **Prerequisites**:
 
@@ -2209,7 +2218,7 @@ ___
 
 **Type**: (Supernatural, Class S)
 
-**Description**: You gain the ability to see through illusions and to see the true form of that which has been supernaturally transformed.
+**Description**: You gain the ability to see through illusions and to see the true form of things and entities, often including those that have been supernaturally disguised or transformed.
 
 **Special**:
 
@@ -2313,7 +2322,7 @@ ___
 
 **Type**: Supernatural (S)
 
-**Description**: Learn 1 spell with a minimum local casting cost of 8 or higher for which you meet the prerequisites.
+**Description**: Learn 1 spell with a minimum local casting cost of 8 MP dice or higher for which you meet the prerequisites.
 
 **Original State**: A character with spellcasting VII can only learn spells of a minimum MP dice cost of 7 or lower.
 
@@ -2375,14 +2384,14 @@ There are several forms of spellcasting in this category, but they all have simi
 - Elemental: Air
 - Elemental: Earth
 - Elemental: Fire
-- Elemental: Ice
+- Elemental: Water/Ice
 - Incantation
 - Kinetic
 - Nature
 
 **Special**:
 
-- Each time a character wishes to learn the new category of local magic, they must take it as a separate ability.
+- Each time a character wishes to learn a new category of local magic, they must take it as a separate ability.
 - Each type of local magic also covers some global spells. As long a character has "Spellcasting: Global I" and the requisite level of local spellcasting of the type, they can cast global spells of that type and level.
 - In order to get the next level of a type of local magic, a character must have the previous one. So if a character wishes to learn "Spellcasting: Nature III", they must have "Spellcasting: Nature II", which requires having "Spellcasting: Nature I".
 - A spellcaster can never cast a spell with a minimum local (or local equivalent) MP dice cost higher than half of their level rounded up. So a level 13 character cannot cast a spell with a minimum MP dice cost of 8, 9, or 10.
@@ -2403,14 +2412,6 @@ There are several forms of spellcasting in this category, but they all have simi
 |V|5|16|9|
 |VI|6|20|11|
 |VII|7+|24|13|
-
-**Minimum levels for higher level spells**:
-
-|Minimum MP dice casting cost|Level Prerequisite|
-|-|-|
-|8|15|
-|9|17|
-|10|19|
 
 ___
 #### Spellcasting: Global
@@ -2462,10 +2463,10 @@ ___
 |Strength|All physical|
 |Poison|Poison, Necrotic, Cold|
 |Warmth|Fire, Light, Lightning|
-|Light|Light, Cold, Divine|
-|Destruction|Necrotic, Entropic|
+|Light|Light, Cold, Divine, Fire|
+|Destruction|Necrotic, Entropic, Lightning, Profane|
 
-**Special**: Conversions to "divine" or "entropic" damage types increase the cost of the spell by 3 MP dice (instead of 1), and deal half of the damage to the caster as backlash for impinging on the domain of the gods.
+**Special**: Conversions to "divine", "profane" or "entropic" damage types increase the cost of the spell by 3 MP dice (instead of 1), and deal half of the damage to the caster as backlash for impinging on the domain of the gods.
 
 **Limitations**:
 
@@ -2518,7 +2519,7 @@ ___
 
 **Type**: (Class A)
 
-**Description**: Spend 1 MP dice to cast a spell without kinetic components.
+**Description**: Spend 1 MP die to cast a spell without kinetic components.
 
 **Declaration**: Declare "still spell" before casting the spell.
 

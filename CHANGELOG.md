@@ -663,6 +663,10 @@ ___
 ___
 ## From v0.0.20
 
+### Abilities
+- [Swift Shield Bash](06-abilities.md#swift-shield-bash) now formally allows bashing with light shields without penalty.
+- [Spelldance I-IV](06-abilities.md#spelldance-i-iv), add additional damage types to group conversion.
+
 ### General
 - The great proofread.
 

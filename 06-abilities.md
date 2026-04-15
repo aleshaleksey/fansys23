@@ -1893,6 +1893,7 @@ ___
 **Prerequisite**:
 
 - Proficiency with the chosen weapon.
+- [Weapon Mastery](#weapon-mastery) with the "weapon group" that the given weapon belongs to.
 - 7 SP dice.
 
 

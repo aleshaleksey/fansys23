@@ -1198,8 +1198,8 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite|+10|1d12+6[Pe]|(Reach=5ft)|
-|Grapple +10||||
+|Bite|+9|1d12+5[Pe]|(Reach=5ft)|
+|Grapple|+9|||
 |Inject Venom|Thr=19 CON||(Cost=1SP die) As a secondary action, a giant spider can inject its poison into a target that it has bitten. At the start of each turn the entity must succeed a CON save, or take 1d12 necrotic[nat] damage. The venom persists for a minute, or until the victim succeeds the save.|
 |Web|Thr=19 DEX||A web spinning spider may spend an hour to spin a web of strong, sticky silk. The web has a radius of about 60ft. The web can be horizontal to the ground, form a mesh suspended between structures (trees, cliffs, buildings, etc). Entities must succeed a threshold=16 observe roll to notice the web. Entities of size tiny and smaller can freely pass between the strands (if they notice it). Small and Medium sized entities attempting to pass through the web, must succeed on a threshold=20 acrobatics roll or become restrained. Large and larger entities become stuck restrained. To escape a web, an entity must destroy the strands restraining it, or break that section of web. The strands have a durability of 3 and a break threshold=28 (see ["Breaking and Entering"](../03-movement-exploration.md#breaking-and-entering)).|
 |Strand|+6 (touch attack)||(Range=0ft, Increment=20ft) A web spinning spider can cast a strand of web at a single target. On a hit the target is restrained. The target may escape with a Thr=19 STR save, or by dealing 2 dice of damage to the web (material level = 2)|
@@ -1244,7 +1244,7 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Bite|+10|1d12+6[Pe]|(Reach=5ft)|
-|Grapple +10||||
+|Grapple|+10|||
 |Inject Venom|Thr=19 CON||(Cost=1SP die) As a secondary action, a giant spider can inject its poison into a target that it has bitten. At the start of each turn the entity must succeed a CON save, or take 1d12 necrotic[nat] damage. The venom persists for a minute, or until the victim succeeds the save.|
 |Strand|+6 (touch attack)||(Range=0ft, Increment=20ft) A web spinning spider can cast a strand of web at a single target. On a hit the target is restrained. The target may escape with a Thr=19 STR save, or by dealing 2 dice of damage to the web (material level = 2)|
 |||||

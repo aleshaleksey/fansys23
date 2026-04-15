@@ -40,6 +40,8 @@ Animals are common entities in the material world. They have a physical form, li
 - [Giant Animals](#giant-animals)
     - [Giant Snail](#giant-snail)
     - [Giant Slug](#giant-slug)
+    - [Giant Web Spider](#giant-web-spider)
+    - [Giant Wolf Spider](#giant-wolf-spider)
     - [Giant Crocodile](#giant-crocodile)
     - [Giant Snake, Constrictor](#giant-snake-constrictor)
     - [Giant Eagle](#giant-eagle-level-6)
@@ -533,6 +535,7 @@ ___
 |Monster attack|||Two claw attacks as a main action and a bite as secondary action|
 |Keen scent|||Advantage on perception rolls based on scent|
 |Low light Vision|||Can see in the "dark", but not pitch black conditions|
+|[Broad Strike](../06-abilities.md#broad-strike)|||A bear can expend 1 SP die to strike all adjacent targets with a swipe of its claws.|
 |[Combined Manoeuvre](../06-abilities.md#combined-manoeuvre-i-v)|||A bear will usually grapple when biting|
 |[Greater Manoeuvre](../06-abilities.md#greater-manoeuvre-i-v)|||Bears can take down very large prey|
 |Prof|||"Grapple", "Sunder"|
@@ -874,10 +877,12 @@ ___
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
 |Bite|+5|1d6+2[Sh]||
+|Grapple|+5|||
+|Trip|+5|||
 |Keen Senses|||Advantage on perception rolls based on scent and hearing|
 |Low light Vision|||Can see in the "dark", but not pitch black conditions|
 |[Sprint](../06-abilities.md#sprinter)|||x3 move, x5 sprint|
-|[Combined Manoeuvre](../06-abilities.md#combined-manoeuvre-i-v)|||A wolf will usually grapple when biting|
+|[Combined Manoeuvre](../06-abilities.md#combined-manoeuvre-i-v)|||A wolf will often grapple or trip its prey when biting.|
 |[Greater Manoeuvre](../06-abilities.md#greater-manoeuvre-i-v)|||Wolves can take down very large prey|
 |Prof|||"Grapple", "Interception", "Shove"|
 |Skills|||"Stealth" +3, "Track" +3, "Observe" +2|
@@ -1164,6 +1169,93 @@ ___
 |Skills|||"Observe" +3, "Harvest" +8|
 
 Giant slugs are large, poisonous, herbivorous molluscs. They are usually docile, but can lash out with their pseudopods when attacked. Since they are largely defenceless against stronger monsters and ranged attacks, they dwell in, or near, caverns whether this is not so much of a threat.
+
+___
+### Giant Web Spider
+
+- **Size**: Large
+- **HiT**: -1 Evasion, +1 Armour, +4 Natural Armour (carapace)
+- **Carrying capacity**
+  - Light: 160lb
+  - Medium: 360lb
+  - Heavy: 800lb
+  - Drag: 1200lb
+- **Reach**: 5ft (long)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|18/19/13|48 (*24*)|33 (*27*)|12|30ft|Climb (40ft)|
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|20|17|19|3|15|13|
+|Bonus|+6|+2|+4|-4|+2|+1|
+|Save|+8|+4|+6|-2|+4|+3|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|7(2)|10|13|2|3|4|5|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite|+10|1d12+6[Pe]|(Reach=5ft)|
+|Grapple +10||||
+|Inject Venom|Thr=19 CON||(Cost=1SP die) As a secondary action, a giant spider can inject its poison into a target that it has bitten. At the start of each turn the entity must succeed a CON save, or take 1d12 necrotic[nat] damage. The venom persists for a minute, or until the victim succeeds the save.|
+|Web|Thr=19 DEX||A web spinning spider may spend an hour to spin a web of strong, sticky silk. The web has a radius of about 60ft. The web can be horizontal to the ground, form a mesh suspended between structures (trees, cliffs, buildings, etc). Entities must succeed a threshold=16 observe roll to notice the web. Entities of size tiny and smaller can freely pass between the strands (if they notice it). Small and Medium sized entities attempting to pass through the web, must succeed on a threshold=20 acrobatics roll or become restrained. Large and larger entities become stuck restrained. To escape a web, an entity must destroy the strands restraining it, or break that section of web. The strands have a durability of 3 and a break threshold=28 (see ["Breaking and Entering"](../03-movement-exploration.md#breaking-and-entering)).|
+|Strand|+6 (touch attack)||(Range=0ft, Increment=20ft) A web spinning spider can cast a strand of web at a single target. On a hit the target is restrained. The target may escape with a Thr=19 STR save, or by dealing 2 dice of damage to the web (material level = 2)|
+|||||
+|[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||(Cost=1SP die) a giant spider can bite targets as it grapples them.|
+|||||
+|[Tremor Sense V](../06-abilities.md#tremor-sense-i-vi)|||A giant web spider can sense the vibrations made by its prey from up to 90ft away.|
+|||||
+|Resistances|||"piercing", "slashing", "poison"|
+|Skills|||"Fortify" +10, "Climb" +8, "Harvest" +6, "Observe" +5|
+
+Giant spiders are predators that spin enormous webs and wait for unwitting prey to get stuck in them. It detects movement within its web with its sensitive feet and moves to fully immobilise its prey. It will usually bite it once and wait for the poison to circulate and kill its victim. It then returns to devour it at leisure.
+
+Giant spiders are generally not aggressive towards beings it does not identify as prey, although may protect its eggs from trespassers, unless it is particularly dangerous.
+
+___
+### Giant Wolf Spider
+
+- **Size**: Large
+- **HiT**: -1 Evasion, +1 Armour, +5 Natural Armour (carapace)
+- **Carrying capacity**
+  - Light: 176lb
+  - Medium: 396lb
+  - Heavy: 880lb
+  - Drag: 1320lb
+- **Reach**: 5ft (long)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|18/19/13|61 (*31*)|34 (*22*)|12|50ft|Climb (50ft)|
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|22|13|21|3|15|15|
+|Bonus|+7|0|+5|-4|+2|+2|
+|Save|+10|+2|+7|-2|+4|+4|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|7(2)|13|10|3|2|5|4|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite|+10|1d12+6[Pe]|(Reach=5ft)|
+|Grapple +10||||
+|Inject Venom|Thr=19 CON||(Cost=1SP die) As a secondary action, a giant spider can inject its poison into a target that it has bitten. At the start of each turn the entity must succeed a CON save, or take 1d12 necrotic[nat] damage. The venom persists for a minute, or until the victim succeeds the save.|
+|Strand|+6 (touch attack)||(Range=0ft, Increment=20ft) A web spinning spider can cast a strand of web at a single target. On a hit the target is restrained. The target may escape with a Thr=19 STR save, or by dealing 2 dice of damage to the web (material level = 2)|
+|||||
+|[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||(Cost=1SP die) a giant spider can bite targets as it grapples them.|
+|||||
+|[Tremor Sense VI](../06-abilities.md#tremor-sense-i-vi)|||A giant web spider can sense the vibrations made by its prey from up to 120ft away.|
+|||||
+|Resistances|||"piercing", "slashing", "poison"|
+|Skills|||"Climb" +11, "Fortify" +6, "Track" +6, "Observe" +6|
+
+Giant wolf spiders roam forest and canyons. They detect the presence of potential prey through vibration and chase it down relentlessly. As with web spinning spiders, they will bite once to inject their venom and wait for the prey to weaken, before returning to devour it.
 
 ___
 ### Giant Crocodile

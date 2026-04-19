@@ -1,6 +1,6 @@
 # Types, Races, Species and Templates
 
-Some role-playing fantasy species support different playable races (eg humans, elves, dwarves, etc) and some do not. Systems like DnD and Pathfinder have "baked in" races. Other systems like "Ryuutama" allow only humans. This system supports races from different creature types, as this can add an enormous amount of flavour to a game, and a good amount of mechanical complexity, but does not consider them a necessary core rule, as this is considered to be setting specific.
+Some role-playing fantasy systems support different playable races (eg humans, elves, dwarves, etc) and some do not. Systems like DnD and Pathfinder have "baked in" races. Other systems like "Ryuutama" allow only humans. This system supports races from different creature types, as this can add an enormous amount of flavour to a game, and a good amount of mechanical complexity, but does not consider them a necessary core rule, as this is considered to be setting specific.
 
 ## Races and Species
 
@@ -19,7 +19,7 @@ Each example template/race includes the template point cost of each feature of t
 
 ### Human (level-1 template = 8 points)
 
-Human represents the human race. The human race is the base. Humans have no special senses, resistances, movement modalities or spooky abilities. To compensate this, they adapt quickly to new environments, and learn appropriate skills quickly as soon as they are old enough to walk. Humans have a lifespan that does not exceed a century, reach a breeding age in their teens and can produce up to two dozen offspring in their lifetime.
+Human represents the human race. The human race is the base. Humans have no special senses, resistances, movement modalities or spooky abilities. To compensate for this, they adapt quickly to new environments, and learn appropriate skills quickly as soon as they are old enough to walk. Humans have a lifespan that does not exceed a century, reach a breeding age in their teens and can produce up to two dozen offspring in their lifetime.
 
 - **Size**: Medium (Height: ~5'8", Weight: ~140lb)
 - **Stats**: (Str: 0, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: 0)
@@ -109,7 +109,7 @@ This represents those who have been touched by dark forces. Perhaps because of a
 ___
 ### Beast folk (level-1 template = 8 points)
 
-This is a race of humanoid that has various beast like traits, usually cat-like, or dog-like. This race is loved by degenerates.
+This is a race of humanoid that has various beast-like traits, usually cat-like, or dog-like. This race is loved by degenerates.
 
 - **Size**: Medium (Height: ~5'8", Weight: ~140lb)
 - **Stats**: (Str: 0, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: 0)
@@ -197,7 +197,7 @@ OR:
 ___
 ### The Sea People (level-1 template = 8 points)
 
-The sea people a race of humanoids that live in and around the islands of the shallow seas, and in the marshes and great lakes. They often disguise themselves as humans, for various reasons.
+The sea people are a race of humanoids that live in and around the islands of the shallow seas, and in the marshes and great lakes. They often disguise themselves as humans, for various reasons.
 
 - **Size**: Medium (Height: ~5'8", Weight: ~140lb)
 - **Stats**: (Str: 0, Dex: 0, Con: 0, Int: 0, Wis: 0, Cha: 0)
@@ -249,7 +249,7 @@ All dragonkin templates share the following properties and race boons:
 - **Size**: Medium (Height: ~6', Weight: ~180lb, wingspan 10ft increasing 24ft with age.)
 - **Movement**: Walk 30ft
 - **Sight**: Normal, Keen senses: Smell" (1 point)
-- **Type**: Humanoid (needs to breathe, drink, eat, and sleep). dragonkin age.
+- **Type**: Humanoid (needs to breathe, drink, eat, and sleep). Dragonkin age.
 - **Proficiencies**: One appropriate language. (1 point ~)
 
 
@@ -454,7 +454,7 @@ Half dragons are born of the mixing of dragon and humanoid. They gain much from 
 ___
 ### Vampire spawn (level-5 template = 40)
 
-This represents a low-grade vampire. Its type is undead, but due to lack of points, it does not have all undead traits, because we can't afford them.
+Vampires are intelligent undead that still have blood in their veins. They are often portrayed as being tormented by eternal hunger for blood and carnal pleasures. Being cursed by the sun, they suffer from numerous weaknesses, which are compensated by the strength that their dark curse grants them. This represents a low-grade vampire. Its type is undead, but due to lack of points, it does not have all undead traits.
 
 - **Size**: Medium
 - **Stats**: (Str: +4, Dex: +2, Con: +2, Int: 0, Wis: +2, Cha: +2) (12 points)
@@ -484,7 +484,7 @@ This represents a low-grade vampire. Its type is undead, but due to lack of poin
 ___
 ### Werewolf, lesser (level-5 template = 32 + 8 points)
 
-This represents a cursed being: A humanoid that is cursed to become a wolf when the night of the full moon nears. More experienced werewolves do learn to control their transformation. Werewolves are supernaturally strong and swift, have sharp senses and cannot easily be harmed with weapons, with the exception of silvered weapons. Any humanoid can become a werewolf. For this the original template is taken and the werewolf template is applied on top of it.
+This represents a cursed being: A humanoid that is cursed to become a wolf when the night of the full moon nears. More experienced werewolves do learn to control their transformation. Werewolves are supernaturally strong and swift, have sharp senses and cannot easily be harmed with weapons, with the exception of silvered weapons. Any humanoid can become a werewolf. In this case, the werewolf template is applied atop the original template. Thus, for a human who became a werewolf, one first applies the human template, and then the werewolf template.
 
 - **Size**: Medium
 - **Stats**: (Str: +6, Dex: +2, Con: +4, Int: 0, Wis: +2, Cha: 0) (14 points)
@@ -546,7 +546,7 @@ This represents a dragon at the lower end of the draconic scale of power. Its na
 ___
 ### Vampire (level-10 template = 80)
 
-This represents a low-grade vampire. Its type is undead, but due to lack of points, it does not have all undead traits, because we can't afford them.
+Vampires are intelligent undead that still have blood in their veins. They are often portrayed as being tormented by eternal hunger for blood and carnal pleasures. Being cursed by the sun, they suffer from numerous weaknesses, which are compensated by the strength that their dark curse grants them. This template represents a true vampire. Its type is undead, and it has all necessary undead traits.
 
 - **Size**: Medium
 - **Stats**: (Str: +4, Dex: +2, Con: +2, Int: +2, Wis: +2, Cha: +4) (16 points)
@@ -580,7 +580,7 @@ This represents a low-grade vampire. Its type is undead, but due to lack of poin
 ___
 ### Werewolf (level-10 template = 72 + 8 points)
 
-This represents a cursed being: A humanoid that is cursed to become a wolf when the night of the full moon nears. More experienced werewolves do learn to control their transformation. Werewolves are supernaturally strong and swift, have sharp senses and cannot easily be harmed with weapons, with the exception of silvered weapons. Any humanoid can become a werewolf. For this the original template is taken and the werewolf template is applied on top of it.
+This represents a cursed being: A humanoid that is cursed to become a wolf when the night of the full moon nears. More experienced werewolves do learn to control their transformation. Werewolves are supernaturally strong and swift, have sharp senses and cannot easily be harmed with weapons, with the exception of silvered weapons. Any humanoid can become a werewolf.  In this case, the werewolf template is applied atop the original template. Thus, for a human who became a werewolf, one first applies the human template, and then the werewolf template.
 
 - **Size**: Medium
 - **Stats**: (Str: +8, Dex: +4, Con: +6, Int: 0, Wis: +4, Cha: 0) (22 points)
@@ -644,6 +644,7 @@ EITHER:
 + Blink speed (30ft) OR cosmic speed (1 realm) OR +II to "truesight".
 
 OR:
+
 + 10 feet fly speed.
 + Plus 2 to a single stat or increase flight endurance by 2.
 + "heat sense", "keen sense: sight"
@@ -685,11 +686,12 @@ ___
 
 The base template allows the following:
 
-**Stat changes**: Add +2 or +1 to any number of stats to a total of +4 or less. For each point added to a stat, a point must be subtracted from another stat. After all additions and subtractions, the total must remain zero.
+- **Stat changes**: Add +2 or +1 to any number of stats to a total of +4 or less. For each point added to a stat, a point must be subtracted from another stat. After all additions and subtractions, the total must remain zero.
+- **Size change:** Change size to small or large. This comes with advantages and disadvantage.
+- **Template points**: A template gains **8 template points** per template level. Thus a level 1 template has 8 template points, while a level 5 template has 40 template points. Template points may be spent in a packet, or one by one.
 
-**Size change:** Change size to small or large. This comes with advantages and disadvantage.
-
-**Template points**: A template gains **8 template points**. Template points may be spent in a packet, or one by one.
+___
+### Extra template traits by points
 
 #### One template point:
 
@@ -706,7 +708,6 @@ The base template allows the following:
 - Increase flight endurance by 1 hour (up to the limit of 4 hours).
 - Remove the "ageing" necessity.
 - Gain one of the following senses: "Keen senses: Smell", "Keen senses: Hearing".
-
 
 #### Two template points:
 
@@ -731,7 +732,7 @@ The base template allows the following:
 - Remove a necessity (drink or eat).
 - A 60ft (rating: poor, endurance: 2 hours) fly speed. Characters that pick this option have a -10ft speed penalty to their climb, walk and swim speeds.
 - A 5ft dig speed. Characters that pick this option have a -10ft speed penalty to their climb, walk and swim speeds.
-- Improve dig speed by 5ft from 5f->10ft.
+- Improve dig speed by 5ft from 5ft->10ft.
 
 #### Four template points:
 
@@ -744,7 +745,7 @@ The base template allows the following:
 - Improve fly speed rating from "average" -> "good".
 - Improve dig speed by 5ft from 10ft or higher.
 - A passive or active (B class) ability with no prerequisites.
-- Gain ["Sleep on the Wing"](06-abilities.md#sleep-on-the-wing) (can only gained if the race template already has 10 hours of flight endurance).
+- Gain ["Sleep on the Wing"](06-abilities.md#sleep-on-the-wing) (can only be gained if the race template already has 10 hours of flight endurance).
 - Gain one of the following senses: "Tremor Sense", "Blindsight".
   - When this enhancement is a graded ability (eg "[Tremor Sense](06-abilities.md#tremor-sense-i-vi")), it is always taken at 2nd level (eg "Tremor Sense II"). In this case increasing it by a further level costs a single point.
 
@@ -783,7 +784,7 @@ Templates with vulnerabilities and special restrictions gain additional template
 
 - Vulnerabilities:
   - Vulnerability to an A, B or C class damage, or an A or S class condition: 2 points.
-  - Vulnerability to a B or c class condition: 1 point.
+  - Vulnerability to a B or C class condition: 1 point.
   - Vulnerability to an S class damage (NB: This deadly damage type appears mostly in high level games):
     - 1 point in a game that does not go above level 10.
     - 4 points in a game that intends to go above level 10.

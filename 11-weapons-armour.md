@@ -43,7 +43,7 @@ Weapons and armour are an essential part of any combat heavy table top RPG syste
 ___
 ## Weapons
 
-Weapons are tools that increase the lethality of martial combatants. For the sake of most abilities other than "sunder", unarmed techniques count as weapons. Each type of weapon requires its own proficiency. Weight and size of weapons scales as with all equipment sizes (see ["Base Rules: Size Rules"](02-base-rules.md#size-rules-table)). In all, there 5 categories and 18 types. The following categories and types of weapons exist:
+Weapons are tools that increase the lethality of martial combatants. For the sake of most abilities other than "sunder", unarmed techniques count as weapons. Each type of weapon requires its own proficiency. Weight and size of weapons scales as with all equipment sizes (see ["Base Rules: Size Rules"](02-base-rules.md#size-rules-table)). In all, there are 5 categories and 18 types. The following categories and types of weapons exist:
 
 - **Unarmed combat**
   - Strikes
@@ -75,7 +75,7 @@ Weapons are tools that increase the lethality of martial combatants. For the sak
 ___
 ### Weapon durability
 
-As other objects, weapons have HP and can be broken, either by misuse, bad dice luck or abilities similar to "sunder". When a weapon's HP reaches 0, it is broken and cannot be used until repaired (more precisely it can be used, but counts as "Unarmed: Strike").
+As other objects, weapons have HP and can be broken, either by misuse, bad dice luck or abilities similar to "sunder". When a weapon's HP reaches 0, it is broken and cannot be used until repaired (more precisely it can be used, but counts as [improvised weapons](#improvised-weapons) of the appropriate size/weight category).
 
 ___
 ### Ranged Weapons, collateral and melee
@@ -118,9 +118,9 @@ ___
 A character with two hands can hold a one-handed weapon in each hand. If the character has made an attack as a "main action" with one weapon, then in some cases it can also make an additional "offhand attack" with the other weapon as a "secondary action".
 
 - The character can normally make a single "offhand attack" with a "subtle" weapon at a -5 penalty to attack and no stat bonus ([DEX] or [STR]) to damage.
-- If the character has the ["multi-attack"](06-abilities.md#multi-attack-i-iii) ability, then it can add its stat bonus to the offhand attack.
+- If the character has the ["multi-attack"](06-abilities.md#multi-attack-i-iii) ability, then it can add its stat bonus to the damage of the offhand attack.
 - It the character has ["offhand fighting"](06-abilities.md#offhand-fighting-i-iv) ability, it adds its stat bonus to the damage, and does not take the penalty to the attack roll when making an offhand attack with a "subtle" weapon, or if both the main weapon and the offhand weapon(s) are ["light blades"](#light-blades). The character can choose to use other weapons for two weapon fighting, in which case it takes a -5 to the attack roll.
-- A character can make a number of attacks with the offhand weapon equal to its "offhand fighting" ability level as its offhand attack.
+- A character can make a number of attacks with the offhand weapon equal to its "offhand fighting" ability level.
 
 An entity with more than two hands might be able to hold more than two weapons. In this case, all but the main weapon are considered to be offhand weapons. In this case the number of offhand or other attacks does not increase. However, if it has multiple offhand attacks, it can distribute them between its offhand weapons as it sees fit.
 
@@ -131,12 +131,12 @@ Weapons come in all shapes and sizes. They can be made of various materials. As 
 
 - **Delicate**: On rolling snake eyes, the weapon takes 1 point of damage.
 - **Unwieldy**: Unwieldy weapons cannot be easily used in small spaces, where any dimension (width or height or length) are 5ft or less, or when mounted. In those conditions these weapons are wielded at disadvantage.
-- **Heavy**: This kind of weapon is "unwieldy". A heavy weapon must be of the correct size category wielded in two hands or it counts as an [improvised weapon](#improvised-weapons). In addition they grant a +2 on all basic martial manoeuvres (except "attack"). If a heavy weapon user does not have at least +2 to [STR], it takes -4 to attacks with the weapon. If the weapon is a melee weapon, a character wielding it with at least two hands and possessing at least +2 to [STR] adds an additional [STR]/2 to the damage dealt (*rounded down* to the nearest whole number). Thus a character wielding a 2d6 greatsword with [STR] of +2 would deal 2d6+3 damage, while a character with a [STR] of +3 would deal 2d6+4 damage.
+- **Heavy**: This kind of weapon is "unwieldy". Heavy weapons must be of the correct size category or they count as [improvised weapons](#improvised-weapons). In addition they grant a +2 on all basic martial manoeuvres (except "attack"). If a heavy weapon user does not have at least +2 to [STR], it takes -2 to attacks with the weapon. If the weapon is a melee weapon, a character wielding it with at least two hands and possessing at least +2 to [STR] adds an additional [STR]/2 to the damage dealt (*rounded down* to the nearest whole number). Thus a character with [STR] of +2 wielding a 2d6 greatsword would deal 2d6+3 damage, while a character with a [STR] of +3 would deal 2d6+4 damage.
 - **Reach**: This weapon is "unwieldy", but its reach is increased by at least 5ft (may differ for different weapons).
 - **Long**: These weapons are not quite reach weapons, but they are bit longer than usual. A long weapon allows a wielder to use its "secondary action" to lunge and extend its reach by 5ft for a single attack.
 - **Subtle**: Its wielder have advantage when using stealth to conceal this kind of weapon. However, they also take a -2 penalty when on the receiving end of "sunder" and "disarm" manoeuvres. 
 - **Mounted**: This weapon was made with mounted combat in mind. If normally there would be penalties for using this kind of weapon mounted, they are negated.
-- **Tool**: This weapon also counts as a tool and character proficient with counts as proficient in that tool when using the weapon as the stated tool type.
+- **Tool**: This weapon also counts as a tool. A character proficient with counts as proficient in that tool when using the weapon as the stated tool type.
 - **Disarm**: Proficiency with this weapon allows the use of disarm as if proficient with the manoeuvre while wielding it. If the user already has proficiency with "disarm", it gains a +2 bonus when disarming with this weapon.
 - **Grapple**: Proficiency with this weapon allows the use of grapple as if proficient with the manoeuvre while wielding it. If the user already has proficiency with "grapple", it gains a +2 bonus when grappling with this weapon.
 - **Throw**: Proficiency with this weapon allows the use of throw as if proficient with the manoeuvre while wielding it. If the user already has proficiency with "throw", it gains a +2 bonus when throwing an opponent with this weapon.
@@ -153,9 +153,9 @@ If it is not proficient, on the other hand, it makes attacks with a -5 penalty. 
 ___
 ### Weapons, damage and governing stats
 
-Weapon damage is almost always natural physical damage (see ["damage type"](10-conditions-types.md#damage-types)). However, certain abilities like ["spirit strike"](06-abilities.md#spirit-strike) can change this. Weapons deal damage based on the damage dice which are specific to each weapon (see the [weapon table](#weapon-table) below) plus the bonus based on its governing stat (as well as material bonus and potentially other bonuses). For example a hand axe has an attack bonus of [[NAP] + [STR]] and deals [1d6 + [STR]] damage.
+Weapon damage is almost always natural physical damage (see ["damage type"](10-conditions-types.md#damage-types)). However, certain abilities like ["spirit strike"](06-abilities.md#spirit-strike) can change this. Weapons deal damage based on the damage dice which are specific to each weapon (see the [weapon table](#weapon-table) below) plus the bonus based on its governing stat, [material level](12-equipment-economy.md#material-level) bonus, and occasionally bonuses due to a character's abilities and boons. For example a hand axe has an attack bonus of [[NAP] + [STR]] and deals [1d6 + [STR]] damage.
 
-Weapon attacks are generally targeted attacks that rely on NAP and are ["governed"](04-combat.md#attacks-and-damage-bonuses) by one of STR or DEX. For example a hand axe is always governed by STR, while a bow is always governed by DEX. However, some weapons (generally melee) can be governed by either STR or DEX as per character choice. In this case, if DEX is chosen as the governing attribute, then there is no stat bonus (from [DEX] of [STR]) added to the damage unless the character has the ["weapon finesse"](06-abilities.md#weapon-finesse) boon.
+Weapon attacks are generally targeted attacks that rely on NAP and are ["governed"](04-combat.md#attacks-and-damage-bonuses) by one of STR or DEX. For example a hand axe is always governed by STR, while a bow is always governed by DEX. However, some weapons can be governed by either STR or DEX as per character choice. In this case, if DEX is chosen as the governing attribute for a melee (close) attack, then there is no stat bonus (from [DEX] of [STR]) added to the damage unless the character has the ["weapon finesse"](06-abilities.md#weapon-finesse) boon.
 
 ___
 ### Improvised Weapons
@@ -174,7 +174,7 @@ ___
 
 This table gives a quick overview of weapons. For details on each weapon, see the weapon description. The damage dice of weapons follow the general ["Dice size rules"](02-base-rules.md#dice-size-rules). For suggested costs and availability see [the weapons table](12-equipment-economy.md#weapons) in the [Equipment and Economy](12-equipment-economy.md#equipment-and-economy) chapter. The table is split into subkinds for ease of navigation.
 
-**NB**: Since specific properties are an important part of how a weapon is used, it is advisable to read over the description of weapons the reader is thinking of using for their character. Sometimes a weapon listed in the table represents several functionally similar historical weapons. Therefore if you do not find your beloved katana, please check the entry for "falchion".
+**NB**: Since specific properties are an important part of how a weapon is used, it is advisable to read over the description of weapons the reader is thinking of using for their character. Sometimes a weapon listed in the table represents several functionally similar historical weapons. Therefore if you do not find your beloved katana, please check the entry for "falchion" or "longsword" and decide which is closer to the specific type of katana in question.
 
 Damage Key:
 - Percussive: B
@@ -234,7 +234,7 @@ Damage Key:
 |Weapon|Proficiency|Damage dice|Type|Hands|Governed by|Reach (ft)|Range (ft)|Increment (ft)|Weight (lb)|Durability|
 |-|-|-|-|-|-|-|-|-|-|-|
 |[Short Spear](#spears)|Spear|1d6/1d10|P/B|1+|Str/Dex|5|60|20|2|5|
-|[Spear](#spears)|Spear|1d8/1d12|P|1+|Str|10|60|20|4|6|
+|[Spear](#spears)|Spear|1d8/1d12|P|1+|Str|10|60|10|4|6|
 |[Long Spear](#spears)|Spear|1d12|P|2|Str|15|-|-|8|10|
 |[Javelin](#spears)|Spear|1d8|P|1|Str|-|120|40|2|4|
 |[War dart](#spears)|Spear|1d4|P|1|Str/Dex|-|240|60|0.5|4|
@@ -282,8 +282,8 @@ Damage Key:
 |[Blunderbuss](#firearms)|Firearm|2d12|P|2|Dex|-|120|40|6|6
 |[Gun-blade](#firearms)|Firearm|1d8|P/S|1|Dex|5|120|20|2|4
 |||||||||||
-|[Ballista (bolt)](#siege)|Mechanical Bow|4d12|P|2|Dex|-|1800|300|400|20
-|[Ballista (bullet)](#siege)|Mechanical Bow|4d12|B|2|Dex|-|900|120|400|20
+|[Ballista (bolt)](#siege)|Siege|3d12|P|2|Dex|-|1800|300|400|20
+|[Ballista (bullet)](#siege)|Siege|4d12|B|2|Dex|-|900|120|400|20
 
 ___
 ### Unarmed Combat
@@ -393,14 +393,14 @@ Percussive weapons like clubs, maces and hammers are in their essence a weight a
 
 **Flail**: A flail consist of a wooden haft joined to one or more metal heads via chains. Essentially this is a "ball and chain on a stick". The chain linking the haft and head not only makes the flail a difficult to read weapon, but also makes it useful for grappling.
 
-**Morning stars** are essentially spiked maces. This allows it to also deal piercing damage. Morning star can cause can cause "bleeding".
+**Morning stars** are essentially spiked maces. This allows them to also deal piercing damage. Morning star can cause can cause "bleeding".
 
-**War hammers** are a family of mace-like weapons with an asymmetrical head: One end is blunt, the other end is sharp, for piercing armour. War hammers have the "sunder" property, and "sunder" vs armour and unattended items is at advantage when using a war hammer. **NB** long hefted war hammers in the style of venetian war hammers are considered pole-arms for for the sake of proficiency.
+**War hammers** are a family of mace-like weapons with an asymmetrical head: One end is blunt, the other end is sharp, for piercing armour. War hammers have the "sunder" property, and "sunder" vs armour and unattended items is at advantage when using a war hammer. **NB** long hefted war hammers in the style of venetian war hammers are considered pole-arms for the sake of proficiency.
 
 **Mauls**: A particularly big and heavy war hammer-like weapons that requires two hands to use is considered a maul here. Mauls are always "heavy" and can cause the "cripple" and "prone" condition. In addition, the extra momentum that a maul can impart to an attack means that it:
 
 - Deals an extra die of damage when used with the "sunder" manoeuvre. For example, a medium sized maul, when used to sunder a shield, despite dealing 2d6 damage, deals 3 dice of damage instead of 2.
-- When used attack inanimate object (doors, windows, walls, manacles, etc), ignores one point of damage reduction.
+- When used to attack inanimate object (doors, windows, walls, manacles, etc), ignores one point of damage reduction.
 
 ___
 ### Spears
@@ -417,11 +417,11 @@ ___
 
  **Short spear**: This is any spear shorter than 6ft. It can be thrown up to 60ft in 20ft increments. It does NOT have the unwieldy property.
 
- **Spear**: This refers to spears between 6-10ft. It can be thrown up to 60ft in 20ft increments.
+ **Spear**: This refers to spears between 6-10ft in length. They can be thrown up to 60ft in 10ft increments.
 
  **Long spears**: This refers to obscenely long spears. Pikes are included in this category. Long spears cannot be used against targets within 5ft of the wielder.
 
- **Javelin:** This is a short, lighter, spear-like throwing weapon designed specifically for throwing. It includes weapons like the pilum.
+ **Javelin:** This is a short, lighter, spear-like throwing weapon designed specifically for throwing. This includes weapons like the pilum.
 
  **War dart:** A smaller javelin-like throwing weapon, typically around 2ft long. This includes weapons like the plumbata.
 
@@ -473,7 +473,7 @@ ___
 ___
 ### Slings
 
-[Slings](#conventional-ranged) are simple in construction and difficult in exploitation. They make use centripetal force. A sling is essentially a length of sinew with a "nest" for the projectile (usually a round stone or metal bullet) at the center. Despite the range, slings are difficult to aim and therefore have a low range increment. Slings can also be used to shoot stones, in absence of proper ammunition, but the attack is at disadvantage. Slings have the "subtle" and "unwieldy" properties. Slings cannot be used effectively from prone.
+[Slings](#conventional-ranged) are simple in construction and difficult in exploitation. They make use centripetal force. A sling is essentially a length of sinew with a "nest" for the projectile (usually a round stone or metal bullet) at the center. Despite the range, slings are difficult to aim and therefore have a low range increment. Slings can also be used to shoot stones, in absence of proper ammunition, but in this case the maximum range is decreased by two range increments and the attack is made at a -2 penalty. Slings have the "subtle" and "unwieldy" properties. Slings cannot be used effectively from prone.
 
 ___
 ### Bows
@@ -506,7 +506,7 @@ Mechanical bows are bow-like weapons where the draw is performed by a mechanism,
 |[Crossbow](#conventional-ranged)|bleeding||
 |[Winch crossbow](#conventional-ranged)|bleeding||
 
-**Hand Crossbow:**: This refers to small, light crossbows that can be wielded in one hand. It is a "secondary action" to reload a hand crossbow. If the wielder has a free appendage, they can reload it as part of the attack (essentially if the hand crossbow is wielded with two hands).
+**Hand Crossbow**: This refers to small, light crossbows that can be wielded in one hand. It is a "secondary action" to reload a hand crossbow. If the wielder has a free appendage, they can reload it as part of the attack (essentially if the hand crossbow is wielded with two hands).
 
 **Crossbow**: This refers to a lever-drawn crossbow. Reloading this weapon is a "secondary action". In practice this means that one may make only one attack per turn with this weapon.
 
@@ -576,7 +576,7 @@ ___
 
 ### Armour and its relationship with [HiT]
 
-Targeted attacks are rolled against ["HiT"](02-base-rules.md#hit-threshold-hit). [HiT] represents how effective/powerful/precise a targeted attack has to be to harm the target.
+Targeted attacks are rolled against ["HiT"](02-base-rules.md#hit-threshold-hit). HiT represents how effective/powerful/precise a targeted attack has to be to harm the target.
 
 Wearing armour adds to the "armour" component of HiT from the "external armour" source (armour[external armour] - "external" since armour is worn outside of the body and not inside it). Wielding a shield or buckler adds to the "shield" component of HiT from the "shield" source (shield[shield]).
 
@@ -635,7 +635,7 @@ Armour tends to restrict movement, somewhat. This is reflected in several penalt
 - Dex Rating.
 - Armour Weight Penalty.
 
-**Dex rating**: A character with a Dex bonus higher than the rating, applies the "Dex rating" to all rolls, attacks and saves.
+**Dex rating**: A character with a [DEX] higher than the rating, applies the "Dex rating" instead of its [DEX] to all rolls, attacks and saves where it would otherwise apply its [DEX].
 
 **Weight Penalty**: Medium and heavy armour give a weight penalty.
 

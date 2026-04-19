@@ -27,10 +27,25 @@
 3. [Entity types](#entity-types)
 4. [Detailed entity descriptions](#detailed-entity-descriptions)
     - [Mortals](#mortals)
+        - [Plants](#plants)
+        - [Beasts](#beasts)
+        - [Humanoids](#humanoids)
+        - [Dragons](#dragons)
+        - [Monsters](#monsters)
     - [Constructs](#constructs)
+        - [Robots](#robots)
+        - [Golems](#golems)
     - [Spiritual](#spiritual)
+        - [Elementals](#elementals)
+        - [Fey](#fey)
+        - [Spirits](#spirits)
     - [Divine](#divine-1)
+        - [Angels](#angels)
+        - [Glitches](#glitches)
+        - [Divinities](#divinities)
     - [Profane](#profane-1)
+        - [Fiends](#fiends)
+        - [Undead](#undead)
 5. [Conditions and states](#conditions-and-states)
     - [Disabled States](#disabled-states)
     - [Condition Table](#condition-table)
@@ -40,7 +55,7 @@
 ___
 ## Natural and supernatural origins
 
-Most entities and phenomena in the game are classified as **natural**/**mundane** (Nat) or **supernatural** (Sup). "Natural" implies that it generally obeys the laws of logic, mathematics, physics and other natural laws. "Supernatural" implies the fantastic, which might not obey those laws (although it must obey game mechanics, so it clearly obeys some form of logic). A normal house is "natural"/"mundane", but a house possessed by a hungry demon is most certainly "supernatural" (at least until someone gets rid of the demon). The "supernatural" includes gods, spirits, magic and more.
+Most entities and phenomena in the game are classified as **natural**/**mundane** (Nat) or **supernatural** (Sup). "Natural" implies that it generally obeys the laws of logic, mathematics, physics and other natural laws. "Supernatural" implies the fantastic, which might not obey those laws (although it must obey game mechanics, so it clearly obeys some form of logic). A normal house is "natural"/"mundane", but a house possessed by a hungry demon is most certainly "supernatural" (at least until someone gets rid of the demon). The "supernatural" includes gods, spirits, magic, most monsters and many other phenomena.
 
 Often supernatural entities are not affected by "natural" attacks, or have a resistance to them and have abilities that defy reason and bypass mundane, "natural" defences.
 
@@ -49,20 +64,20 @@ Most characters are fundamentally "natural", but possesses some "supernatural" a
 ___
 ### Natural and Supernatural damage and abilities
 
-Damage can be either Nat or Sup. Nat damage first affects the target's SP, being at least partially absorbed, before affecting HP. It generally affects the physical form. Sup damage is first buffered, at least in part, by an entity's MP, before affecting HP. It affects an entity's essence or spirit. Thus if an entity takes 10 "fire"[Sup] damage, the first, say, 7 points may be absorbed by MP, with the remaining 3 points doing HP damage. The exact calculation for maximum Nat damage absorbed by SP is [CON + 2 x SP dice total], and is symmetrical for MP and Sup (see ["Resource Pools"](02-base-rules.md#resource-pools) section).
+Damage can be either "natural" or "supernatural". Natural damage first affects the target's SP, being at least partially absorbed, before affecting HP. It generally affects the physical form. Supernatural damage is first buffered, at least in part, by an entity's MP, before affecting HP. It affects an entity's essence or spirit. Thus if an entity takes 10 "fire"[Sup] damage, the first, say, 7 points may be absorbed by MP, with the remaining 3 points doing HP damage. The exact calculation for maximum natural damage absorbed by SP is [CON + 2 x SP dice total], and is symmetrical for MP and supernatural damage ([CHA + 2 x MP dice total]). See the ["Resource Pools"](02-base-rules.md#resource-pools) section for details.
 
-Damage caused by mundane or martial abilities is Nat, unless the ability is very powerful, at which point it may become Sup. Damage caused by magic, spells and other supernatural abilities is usually Sup, but may also be Nat on occasion (most notably ["physical"](10-conditions-types.md#physical-damage) damage from spells is considered Natural).
+Damage caused by mundane or martial abilities is "natural" damage in most cases, with the exception of ["spirit strike"](06-abilities.md#spirit-strike). Damage caused by magic, spells and other supernatural abilities is usually supernatural, but [physical damage](#physical-damage) from spells is still "natural".
 
-Some types of damage bypass both MP and SP, and attack HP directly. Entities that possess abilities that inflict these types of damage are extremely dangerous.
+["Estoric damage"](#esoteric-damage) bypasses both MP and SP, and attacks HP directly. Entities that possess abilities that inflict these types of damage are extremely dangerous.
 
-Nat abilities are fuelled by SP dice. Sup damage is fuelled by MP dice.
+Natural abilities are fuelled by SP dice. Supernatural damage is fuelled by MP dice.
 
 ___
 ### Resistance to damage and conditions
 
-This is covered in depth in ["Combat: Damage and Death"](04-combat.md#damage-and-death). In short, resistance to a type of damage means an entity takes half the damage from that type (rounded down). Damage vulnerability means it takes the full damage and then takes half the damage again (in short x1.5).
+This is covered in depth in ["Combat: Damage and Death"](04-combat.md#damage-and-death). In short, resistance to a type of damage means that an entity takes half the damage from that type (rounded down). Damage vulnerability means it takes the full damage and then takes half the damage again (in short x1.5).
 
-Resistance to a condition means the entity has advantage on the saves vs a condition. Vulnerability means it has disadvantage.
+Resistance to a condition means the entity has advantage on the saves vs a condition. Vulnerability means it has disadvantage on the save. Resistance to a condition also means that ["crit condition roll"](#conditions-by-damage-type) is only applied on the roll of a 4 or higher.
 
 Immunity to a damage type or condition means the entity is not affected by it.
 
@@ -75,13 +90,7 @@ ___
 
 ## HP damage and conditions
 
-When an entity loses HP due to damage, it risks acquiring a condition (see ["Conditions by Damage Type"](#conditions-by-damage-type) table). 
-
-If the damage is due to a targeted attack, for every "12" on the attack roll, it gains one associated condition (likewise see extra conditions by weapon).
-
-If the damage is due to an effect that allows a save, it instead gains one associated condition for every "1" it rolls on the save.
-
-If the damage is from a source that has neither attack roll or save, it automatically gains the condition.
+When an entity loses HP due to damage, it risks acquiring a condition. This rule is covered in [Chapter 4: HP damage and conditions](04-combat.md#hp-damage-and-conditions).
 
 ___
 ### Mundane, magical and spiritual weapons
@@ -90,12 +99,14 @@ Weapons can be mundane, magical or spiritual.
 
 - A mundane weapon deals "physical"[Nat] damage, attacking SP and then HP.
 - A magical weapon deals "physical"[Nat] damage, attacking SP and then HP. It might, on occasion, overcome resistance, but not immunity to physical damage. These weapons are useful for fighting monsters and dragons and should be rare and expensive in any sane setting.
-- A spiritual weapon may (or may not) appear ordinary, but deals "divine"[Sup] damage. As an exception to normal "divine" damage rules, these weapons attack MP and then HP. Spiritual weapons should be exceptionally rare.
+- A spiritual weapon may (or may not) appear ordinary, but deals supernatural damage and therefore attacks MP instead of SP. As a result:
+  - Spiritual weapons affect incorporeal entities.
+  - Spiritual weapons overcome resistance to physical damage and deal damage to entities with immunity to physical damage as if they were instead resistant to physical damage.
 
 ___
 ## Damage types
 
-All damage is deduced from current HP. HP are protected from Nat damage by SP, and from Sup damage by MP. An entity's MP/SP can absorb a certain amount of damage, which is then deduced from current MP/SP total. Excess damage over that limit is deduced from current HP (see ["Resource pools"](02-base-rules.md#resource-pools) for more details on these limits). When an entity reaches 0 HP it is "dying". Some damage types ignore MP/SP. They are particularly dangerous.
+Attacks and various harmful effects cause injury and death to combatants, or destruction of structures and equipment (amongst other things). Punches, cuts, punctures, burns, poisoning, frostbite, and electrocution are all damaging, but this damage affects different entities differently and has different side effects (conditions).
 
 All damage types have associated conditions. If an entity takes HP damage, it risks acquiring such a condition (see above "HP damage and conditions").
 
@@ -131,7 +142,7 @@ Physical damage, is generally considered "natural", even if it is caused by most
 
 ___
 #### Piercing
-Piercing damage is typically caused by teeth and pointy weapons and projectiles. It involves the concentration of force at a small point (pressure), which results in deep penetration of the target along a line. Soft targets with and without a hard shell are typically susceptible to this kind of damage.
+Piercing damage is typically caused by sharp teeth, piercing weapons and projectiles. It involves the concentration of force at a small point (pressure), which results in deep penetration of the target along a line. Soft targets with and without a hard shell are typically susceptible to this kind of damage.
 
 **Associated Conditions:** ["bleeding"](#bleedingwilting).
 
@@ -179,7 +190,7 @@ Necrotic damage is caused by substances and energies that destroy biological str
 ___
 ### Energy/elemental damage
 
-Energy damage is caused by various forms of energy and can affect anything with a physical form. Energies of a supernatural source, can affect incorporeal entities.
+Energy damage is caused by various forms of energy and can affect anything with a physical form. Energies of a supernatural source can affect incorporeal entities.
 
 ___
 #### Heat (fire)
@@ -206,7 +217,7 @@ Lightning damage is caused by a rapid flow of charge through a target which gene
 
 **Special**:
 
-- Flammable materials ignite when dealt at least 3 damage dice of lightning damage. Highly flammable materials ignite when dealt any heat damage.
+- Flammable materials ignite when dealt at least 3 damage dice of lightning damage. Highly flammable materials ignite when dealt any lightning damage.
 - For every 2 dice of lightning damage taken, mortals and robots take one point of HP damage.
 
 ___
@@ -224,7 +235,7 @@ Esoteric damage is usually caused by supernatural beings of considerable power, 
 
 ___
 #### Divine
-Divine damage directly eliminates a target's spiritual essence. Targets without spirit (mainly objects) are not affected by this damage type. Profane beings and mortals are particularly vulnerable to it. Beware the wrath of the gods.
+Divine damage directly eliminates a target's spiritual essence. Profane beings and mortals are particularly vulnerable to it. Beware the wrath of the gods.
 
 **Associated Conditions:** ["catatonic"](#catatonic), ["immobilised"](#immobilised), ["incapacitated"](#incapacitated), ["aphonia"](#aphonic), ["blinded"](#blinded), ["frightened"](#frightened).
 
@@ -252,13 +263,13 @@ Profane damage is caused **exclusively** by profane entities. It is the destruct
 
 **Special**: 
 
-- Profane damage ignores SP and MP of all entities except profane entities, divinities and constructs.
+- Profane damage ignores SP and MP of all entities except profane entities.
 - Profane damage is caused only by high level abilities and powerful entities.
 
 ___
 ### Damage rankings
 
-Not all damage types were created equal. This is intentional. easily "obtained" damage types have more counter measures than "rare", "dangerous" or "expensive" damage types. In return the lower class damage types are more easily available, cheaper, and generally have a greater "magnitude".
+Not all damage types were created equal. This is intentional. Easily "obtained" damage types have more counter measures than "rare", "dangerous" or "expensive" damage types. In return the lower class damage types are more easily available, cheaper, and generally have a greater "magnitude".
 
 - Divine (S Class)
 - Entropic (S Class)
@@ -279,59 +290,43 @@ Not all damage types were created equal. This is intentional. easily "obtained" 
 ___
 ## Entity types
 
-- Everything is either "**natural**" (that is to say it obeys the physical laws of the world and can be explained by them), or **supernatural** (that is to say that it does not and cannot).
-- All entities are either:
-  1. **Mortals**.
-  2. **Machines**.
-  3. **Divine**/**Profane**/**Spiritual** entities.
-- Most entities are mortals, including characters. All mortals are alive and can die.
-- Machines are not alive and therefore cannot die. They can however be created and destroyed.
-- Divine/Profane/Spiritual entities are often not truly alive, and often tend to be eternal. Some are referred to as "gods" or "immortals". This leaves some unanswered questions as to what the rest of them are. Whatever else, they are all **supernatural**.
-- In addition creatures fall into other categories that have additional properties and rules pertaining to them.
-- There are more types of "supernatural" entity, but most entities a character is likely to encounter are probably "natural".
-- Entity types include:
-  - **Mortals**
-    - **animal** (Nat)
-    - **humanoid** (Nat or Sup)
-    - **monster** (Nat or Sup)
-    - **plant** (Nat or Sup)
-    - **dragon** (Sup)
-  - **Constructs**
-    - **robot** (Nat)
-    - **golem** (Sup)
-  - **Divine**
-    - **angel** (Sup)
-    - **glitch** (Sup)
-    - **divine** (Nat and/or Sup)
-  - **Spiritual**
-    - **fey** (Sup)
-    - **spirit** (Sup)
-    - **elemental** (Sup)
-  - **Profane**
-    - **fiend** (Sup)
-    - **undead** (Sup)
+All entities fall into one of five types.
+
+1. [**Mortals**](#mortals)
+2. [**Constructs**](#constructs)
+3. [**Spirits**](#spiritual)
+4. [**Profane**](#profane-1)
+5. [**Divine**](#divine-1)
+
+Mortals and constructs might either be natural or supernatural, but spirits, profane and divine beings are always supernatural. The category that a being belongs to determines many of its traits, abilities and limitations. For example, all mortals breath (limitation). All, or almost all, spiritual beings are immune to physical damage. Profane beings do not breath or age.
+
+In addition each category of entity has at least 2 subcategories. For example, a construct can be "natural", in which case it is a robot, or it can be "supernatural", in which case it is a golem. The exact properties are detailed below.
 
 ___
-## Detailed entity descriptions
+### Detailed entity descriptions
 
-### Mortals
+#### Mortals
 
-Mortals are the most common entities in the material world. Mortals have a physical form, limited lifespan and age by necessity. They need to breathe, drink, eat.
+Mortals are the most common entities in the material world. Mortals have a physical form, limited lifespan and age by necessity. They need to breathe, drink, eat. Mortals take 1 point of HP damage for every 2 dice of lightning damage they are dealt.
 
-**Plants** are the the most common mortals. Plants are generally stationary (no movement speed) and generate organic mass by using water and minerals from the earth they grow in, and energy from sunlight. Some plants, however prey on other creatures.
+#### Plants
+Plants are the the most common mortals. Plants are generally stationary (no movement speed) and generate organic mass by using water and minerals from the earth they grow in, and energy from sunlight. Some plants, however prey on other creatures.
 
 - Plants do not sleep.
 - Immunities: "frightened", "blinded", "stunned", "catatonic" and "paralysed".
 
-**Animals** are mobile mortals with an Int below 5. They consume other mortals to live.
+#### Beasts
+Beasts are mobile mortals with an INT below 5. They consume other mortals to live.
 
-- Animals need to sleep.
+- Beasts need to sleep.
 
-**Humanoids** are bipedal animals with an Int of 5 and above.
+#### Humanoids
+Humanoids are bipedal animals with an INT of 5 and above.
 
 - Humanoids need to sleep.
 
-**Dragons** look like reptiles but are not. These are supernatural entities with 6 or more limbs (of which 2 or more typically wings) and scales. They have an Int of at least 10. Dragons typically have obscenely long lifespans and possess the following characteristic features:
+#### Dragons
+Dragons look like reptiles but are not. These are supernatural entities with 6 or more limbs (of which 2 or more typically wings) and scales. They have an INT of at least 10. Dragons typically have obscenely long lifespans and possess the following characteristic features:
 
 - A dragon's eye can see through illusions.
 - Dragons have an "elemental" organ, which allows them to exhale energy, typically fire.
@@ -340,19 +335,23 @@ Mortals are the most common entities in the material world. Mortals have a physi
 - Dragons are immune to one element.
 - Dragons are resistant to "slashing", "shear" and "percussive" damage.
 
-**Monsters** are mortals that do not fit in other categories. Some resemble animals, but are far more intelligent. Some resemble humanoids, but are not. Many are supernatural. They have no unifying trait, but tend to be dangerous to humanoids.
+#### Monsters
+Monsters are mortals that do not fit in other categories. Some resemble animals, but are far more intelligent. Some resemble humanoids, but are not. Many are supernatural. They have no unifying trait, but tend to be dangerous to humanoids.
 
 ___
 ### Constructs
 
 Constructs are life-like devices that are capable of movement and are generally made of minerals or metals. They are sometimes called "living dolls", although this term is not strictly correct. Constructs do not reproduce, breathe, drink, eat, sleep or age (unless they are made from mortals).
 
-**Robots** are "natural" constructs, typically made by mortals. In the worlds where they exist, they are the height of non-magical artifice. Since they are merely complex machines, robots lack a spirit and thus have no Cha. Robots that are capable of emulating emotion use Int for Cha rolls. A robot that gains a spirit becomes a golem.
+#### Robots
+Robots are "natural" constructs, typically made by mortals. In the worlds where they exist, they are the height of non-magical artifice. Since they are merely complex machines, robots lack a spirit and thus have no Cha. Robots that are capable of emulating emotion use INT for Cha rolls. A robot that gains a spirit becomes a golem.
 
 - Robots are immune to: "Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "incapacitated" and "dying".
 - Robots are resistant to "physical" damage.
+- Robots take 1 point of HP damage for every 2 dice of lightning damage that is dealt to them.
 
-**Golems** are "supernatural" constructs. Typically they are created for tasks which mortals cannot accomplish because of frailness or limited lifespan. Golems typically continue to carry out these tasks long after their creators pass on.
+#### Golems
+Golems are "supernatural" constructs. Typically they are created for tasks which mortals cannot accomplish because of frailness or limited lifespan. Golems typically continue to carry out these tasks long after their creators pass on.
 
 - Golems are immune to: "Frightened", "charmed", "surprise", "diseased", "poisoned", "bleeding", "stunned" "incapacitated", "catatonic" and "dying".
 - Golems are at least resistant to "physical" damage and all "energy"[Nat] damage.
@@ -365,42 +364,48 @@ Spiritual entities are those for which the spirit is the main form and the physi
 - Spiritual entities are immune to "physical" damage, as their physical form is either unnecessary or not "real".
 - Spiritual beings are immune to "stunned", "immobilised", "crippled", "bleeding", "poisoned", and "paralysed".
 
-**Elementals** are spirits of metaphysical elements of "air", "water", "fire", "earth" (although others might exist). Elementals attract the material of their element to them, giving the appearance of a physical form. However, the elemental does not require this  "body", and attacking it does not damage the elemental. In many worlds they are thought to be part of the mechanisms of creation. Elementals do not breathe, drink or eat.
+#### Elementals
+Elementals are spirits of metaphysical elements of "air", "water", "fire", "earth" (although others might exist). Elementals attract the material of their element to them, giving the appearance of a physical form. However, the elemental does not require this  "body", and attacking it does not damage the elemental. In many worlds they are thought to be part of the mechanisms of creation. Elementals do not breathe, drink or eat.
 
-- An elemental in its element regenerates a number of MP and SP dice equal to at least its "base" (and often more).
+- An elemental in its element regenerates a number of MP and SP equal to at least its "base" (and often more) at the start of its turn.
 - An elemental is immune to "restrained", "surprised", "helpless" and "dying" in its element.
 
-**Fey** are spirits paradoxically associated with the natural world. Most move between the material world and whatever immaterial realms may be adjacent to it.
+#### Fey
+Fey are spirits paradoxically associated with the natural world. Most move between the material world and whatever immaterial realms may be adjacent to it.
 
 - Fey are immune to "charm", "aphonia" and "deafened".
 - All fey have at least one ability that causes "frightened" or "charmed".
 - Most fey have a "blink" speed.
 
-**Spirits** are spiritual beings that do not fall into either of the above categories. A mortal's soul is said to become a spirit when it loses its body.
+#### Spirits
+Spirits are spiritual beings that do not fall into either of the above categories. A mortal's soul is said to become a spirit when it loses its body.
 
 ___
 ### Divine
 
-Divine entities are those that are involved in some way in the creation of maintenance of creation, or are a manifestation of a law, concept or process of creation. Divine entities are typically incredibly powerful by the standards of mortals, and some are worshipped as gods. Divine entities do not need to breath, drink, eat, or sleep, but are often capable of doing so. They do not age.
+Divine entities are those that are involved in some way in the creation or maintenance of creation, or are a manifestation of a law, concept or process of creation. Divine entities are typically incredibly powerful by the standards of mortals, and some are worshipped as gods. Divine entities do not need to breath, drink, eat, or sleep, but are often capable of doing so. They do not age.
 
 - Divine entities are immune to all "natural" damage and resistant to "divine" damage.
 - They are immune to "surprised", "charmed", "frightened", "stunned" and "dying".
 
-**Angels** are the creations of gods, or manifestations of creation itself. They are generally created as messengers and observers, but also occasionally enforcing the will of their creator. Not all angels have free will (Cha). Not all angels align with the typical human understanding of "good" (especially the messengers of dark gods).
+#### Angels
+Angels are the creations of gods, or manifestations of creation itself. They are generally created as messengers and observers, but also occasionally to enforce the will of their creator. Not all angels have free will (Cha). Not all angels align with the typical human understanding of "good" (especially the messengers of dark gods).
 
 - All angels have ["Truesight"](06-abilities.md#truesight-i-vi), and can discern truth from lies.
 - Angels takes 1HP damage whenever they lie. Some are incapable of lying.
 - Angels are immune to "light" damage and vulnerable to "profane" damage.
 - Angels have advantage on attacks against "Profanes".
 
-**Glitches** or aberrations, are flaws or inconsistencies in creation made manifest.
+#### Glitches
+Glitches or aberrations, are flaws or inconsistencies in creation made manifest.
 
 - Glitches are immune to "divine" damage and resistant to "profane" damage.
 - Glitches heal 1HP when they are hit with an attack or ability that deals "divine" damage.
 - Glitches have at least one ability that causes "entropic" damage.
 - Glitches generally take on a form which is biologically, and often physically impossible.
 
-Other **divines** are often gods or manifestations of creation. Divines can only be destroyed by "entropic" damage. A divine that reaches minus its HP total from any other type of damage dissipates and reforms somewhere else at another time (possible "here" and "now" if it happens to be sufficiently powerful).
+#### Divinities
+Other divines are often gods or manifestations of creation. Divines can only be destroyed by "entropic" damage. A divine that reaches minus its HP total from any other type of damage dissipates and reforms somewhere else at another time (possible "here" and "now" if it happens to be sufficiently powerful).
 
 - All divines have "Truesight", and can discern truth from lies.
 - Divines are immune to "divine" damage and vulnerable to "entropic" damage.
@@ -409,30 +414,32 @@ Other **divines** are often gods or manifestations of creation. Divines can only
 ___
 ### Profane
 
-Profane beings are those that have been cursed by creation and whose nature drives them to destroy or oppose it. Profane beings do not breath, sleep or age, although some eat and drink.
+Profane beings are those that have been cursed by creation and whose nature drives them to destroy or oppose it. Profane beings do not breath or age, although some sleep, eat and drink.
 
 - Profane entities have vulnerability to "divine" damage and immunity to "disease" and "poison".
 - Profane entities have resistance to "physical" damage.
 - They also have immunity to "dying".
 
-**Fiends** are entities opposed to creation or mortal-kind. In realms where they exist, devils and demons are fiends. Sometimes divine entities fall and become fiends. Fiends that do not reach minus their total HP from "divine" damage will be reborn elsewhere, at another time (hence cycles of dark lord and heroes).
+#### Fiends
+Fiends are entities opposed to creation or mortal-kind. In realms where they exist, devils and demons are fiends. Sometimes divine entities fall and become fiends. Fiends that do not reach minus their total HP from "divine" damage will be reborn elsewhere, at another time (hence cycles of dark lord and heroes).
 
 - Fiends are resistant to "fire", "ice" and are vulnerable to supernatural light.
 
-**Undead** are the bodies or souls of deceased mortals that refuse to rest.
+#### Undead
+Undead are the bodies or souls of deceased mortals that refuse to rest.
 
 - Undead are immune to "stunned", "charmed", "frightened" and "paralysed".
 - Undead are vulnerable to supernatural light.
 
 ---
 ## Conditions and states
-Entities can be affected by a number of conditions, most of them bad. Conditions are classified in S to C class based on how much trouble an entity is in if it is afflicted by it. This starts from deadly peril (S) to mildly inconvenient (C). Of course classification is not always absolute.
+Entities can be affected by a number of conditions, most of them bad. Conditions are classified in S to C class based on how much trouble an entity is in if it is afflicted by it. This starts from deadly peril (S) to mildly inconvenient (C). Of course, this classification is, by definition, somewhat situational.
 
 In addition a condition affects a being for a given duration, which is usually determined by the skill, ability, poison, disease, or phenomenon that causes it. If the rules do not explicitly state the duration of a condition, it is assumed to apply for the "usual" duration, which is defined in the table below.
 
 ___
 ### Disabled states
-An entity afflicted by conditions that make it unable to engage in physical combat or other activities is considered **"disabled"**. This is a useful catch all. These conditions are: "dying", "helpless", "paralysed", "unconscious", "catatonic", "immobilised" or "stunned".
+An entity afflicted by conditions that make it unable to engage in combat or other activities is considered **"disabled"**. This is a useful catch all. These conditions are: "dying", "helpless", "paralysed", "unconscious", "catatonic", "immobilised" or "stunned".
 
 ___
 ### Condition Table
@@ -486,14 +493,13 @@ This entity is doomed to die. It looses 1 HP per round and this cannot be preven
 
 ___
 #### Dying
-This entity cannot do anything other than make CON saves (threshold = 20) or lose 1 HP per round. It usually suffers from most of the detriments of "Unconscious". If they reach their minus their HP total, or minus their CON (CHA for incorporeal beings) if it is higher than their HP, they die. If they succeed before that, or heal at least 1 HP, they stop losing HP and become "Unconscious".
+This entity cannot do anything other than make CON saves (threshold = 20) or lose 1 HP per round. It usually suffers from most of the detriments of "Unconscious". If they reach minus their HP total, or minus their CON (CHA for incorporeal beings) if it is higher than their HP, they die. If they succeed before that, or heal at least 1 HP, they stop losing HP and become "Unconscious".
 
 - **Special**: When an entity gains the dying condition, it may choose to instead take the "**Doomed**" status, although this is usually ill advised.
 
 #### Unconscious
 An unconscious character can make CON and CHA saves, and communicate telepathically under certain circumstances. It can take no other actions. In addition it has the following problems:
 
-- It does not gain [STATS] to AC.
 - It it can fall prone, it falls prone.
 - All melee attacks against it are at advantage.
 - It loses "evasion" and "shield" bonus to HiT.
@@ -504,27 +510,25 @@ An unconscious character can make CON and CHA saves, and communicate telepathica
 #### Helpless
 A helpless character is in a condition where they cannot protect themselves. Usually they are otherwise compromised.
 
-  - It does not gain [STATS] to HiT.
   - If it can fall prone, it falls prone.
   - All melee attacks against it are made at advantage.
   - It loses "evasion" and "shield" bonus to HiT.
   - All damage bypasses SP and MP.
   - It cannot make saves other than CON, CHA and WIS.
-  - It cannot move or take take actions other than [WIS] based skill checks.
-  - If it can communicate, it cannot do so "loudly" enough to gain attention from afar without a [SKILL] check from the recipient.
+  - It cannot move or take take actions other than WIS based skill checks.
+  - If it can communicate, it cannot do so "loudly" enough to gain attention from afar without an observe roll from the recipient.
 
 #### Paralysed
 A paralysed character cannot take physical actions:
 
-- This means it cannot move.
-- It does not gain physical [STATS] to HiT.
+- It cannot move.
 - Physical melee attacks against it have advantage.
 - It loses "evasion" and "shield" bonus to HiT.
 - It it can fall prone, it falls prone.
 - Physical ranged attacks against it have advantage (if it is prone this cancels out).
 - Natural damage bypasses SP.
-- It cannot make [STR] or [DEX] saves.
-- It cannot use [SKILLS], attacks or cast spells that require the use of its body (including "incantations" and "kinetic components").
+- It cannot make STR or DEX saves.
+- It cannot use skills, attacks or cast spells that require the use of its body (including "incantations" and "kinetic components").
 
 #### Possessed
 A possessed character has an indwelling spirit that is not its own, that may subsume control of their body.
@@ -532,7 +536,7 @@ A possessed character has an indwelling spirit that is not its own, that may sub
 - Only an entity  with a body can be possessed.
 - A body can be possessed by any number of spirits, but if the total level of the spirits exceeds twice the entity's level, the entity loses one SP die per hour (and subsequently 1 HP per hour), until the body dies.
 - A possessed body acts normally, but is entirely under control of the currently active spirit and uses only the skills, abilities and CHA score of the currently active spirit.
-- When a possessing entity uses the possessed body to perform an action that is against the possessed entity's nature, the possessed entity gains a chance to save against the domination. They also have a chance to save when they receive "light"[supernatural], "divine" or "entropic" damage.
+- When a possessing entity uses the possessed body to perform an action that is against the possessed entity's nature, the possessed entity gains a chance to roll a save. They also have a chance to roll a save when they receive "light"[supernatural], "divine" or "entropic" damage.
 
 #### Dominated
 The mind of a dominated character is wholly under the control of an external force.
@@ -564,11 +568,11 @@ This character cannot use one or more limbs.
 An immobilised character is in trouble.
 
 - It has a movement speed of 0ft.
-- It cannot make [DEX] or [STR] saves, attacks.
+- It cannot make DEX or STR saves, attacks.
 - It loses "evasion" and "shield" bonus to HiT.
 - It cannot cast spells with kinetic components.
 - Attacks against it have advantage.
-- It cannot use [DEX] and [STR] based skills or abilities except some escape related skills, and even then at disadvantage.
+- It cannot use DEX and STR based skills or abilities except some escape related skills, and even then at disadvantage.
 - If an entity is immobilised due to successive successful ["grapple"](04-combat.md#basic-martial-manoeuvres) manoeuvres, it may attempt to "grapple" at disadvantage to free itself and become "restrained" instead.
 
 #### Incapacitated
@@ -582,35 +586,35 @@ A stunned character briefly loses control of their body and mind. Stun is a shor
 - It does not gain "evasion" or "shield" bonus to HiT.
 - If it can fall prone, it falls prone.
 - Physical attacks against it have advantage (unless the attack is ranged and the character is prone).
-- It cannot make [STR], [DEX] or [CHA] saves.
-- It cannot use [SKILLS], attacks or cast spells that require the use of its body (including "incantations" and "kinetic" components).
+- It cannot make STR, DEX or CHA saves.
+- It cannot use skills, attacks or cast spells that require the use of its body (including "incantations" and "kinetic" components).
 
 ___
 #### Bleeding/Wilting
-A bleeding character loses HP every round. A [CON] save, or appropriate healing can stem this effect.
+A bleeding character loses HP every round. A CON save, or appropriate healing can stem this effect.
 
 #### Blinded
 A blinded character cannot perceive visual input:
 
-- It cannot use [WIS] based skills based on sight.
-- It has disadvantage on [DEX] based skills.
+- It cannot use WIS based skills based on sight.
+- It has disadvantage on DEX based skills.
 - All targets have full concealment (4/6 miss chance for close (melee) and 5/6 miss chance for ranged) from it for the sake of targeted attacks. Ranged attacks beyond 60ft are also at disadvantage.
-- It has disadvantage on [WIS] and [DEX] based saves.
+- It has disadvantage on WIS and DEX based saves.
 
 #### Charmed
-A charmed character cannot attack the source of its charm. It has disadvantage against [WIS], [CHA], [INT] saves vs it. In theory it perceives its words and actions in the most favourable manner. In practice players are players.
+A charmed character cannot attack the source of its charm. It has disadvantage on WIS, CHA, INT saves vs it. In theory the charmed entity perceives its words and actions in the most favourable manner. In practice players are players.
 
-- Charmed creatures have disadvantage on deception rolls vs their charmer.
+- Charmed entities have disadvantage on deception rolls vs their charmer.
 - When a charmed character is requested/commanded to perform a task that is against their nature, they gain a chance to save against the charm. They also have a chance to save when they take "divine" or "entropic" damage.
 
 #### Frightened
-A frightened character has disadvantage on targeted attacks. It must use its movement to move away from the source of its fear if it can do so without provoking an attack of opportunity or taking damage from other hazards (eg falling). In either case it cannot approach the source of its fear.
+A frightened character has disadvantage on targeted attacks. It must use its movement to move away from the source of its fear if it can do so without provoking an attack of opportunity or risking damage from other hazards (eg falling). In either case it cannot approach the source of its fear.
 
 #### Restrained
 A restrained character has problems. It has a movement speed of 0ft and suffers from one or more of the following:
 
-- It cannot make kinetic components for spells.
-- It has disadvantage on physical attacks and [DEX] saves.
+- It cannot perform kinetic components for spells.
+- It has disadvantage on physical attacks and DEX saves.
 - Attacks against it have advantage.
 
 #### Surprised
@@ -624,29 +628,31 @@ ___
 An aphonic character cannot communicate vocally (or verbally).
 
 - This means that skills and abilities requiring speech automatically fail.
-- Incantations ALWAYS fail.
+- Spells with an incantation component ALWAYS fail.
 - The character cannot scream, even if they must.
 
 #### Deafened
-A deafened character cannot perceive sound. It cannot hear. It can speak only stutteringly. It must make an [INT] save to complete Incantations (unless it is deaf for longer than month).
+A deafened character cannot perceive sound. It cannot hear. It can speak only stutteringly. In order to use an ability which requires clear speech (eg casting spells with an incantation component), it must succeed a threshold=16 INT save or fail to activate the ability, wasting its action but not its SP/MP dice.
+
+- A character's speech is not affected by the "deafened" condition if it has been deaf for longer than a month.
 
 #### Diseased
 Afflicted by a disease. The effect varies with disease (see ["Diseases"](14-poisons-and-diseases.md#diseases)).
 
 #### Glowing
-An glowing character cannot stealth and is never invisible.
+An glowing character cannot be invisible. Furthermore, observe rolls to based on sight always succeed to detect a "glowing" entity unless it is in full concealment and the concealment is opaque.
 
 - Attacks by entities whose main sense is sight against a glowing character have advantage.
 
 #### Grappled
 A grappled character has a movement speed of 0ft.
 
-- A grappled character that is in full concealment is considered to have only 3/4 concealment vs the grappling creature.
+- A grappled character that is in full concealment is instead considered to have only heavy concealment vs the grappling creature.
 
 #### Inaudible
 A silent character makes no sound. It can neither make sounds willingly or unwillingly.
 
-- It cannot complete incantations or communicate verbally.
+- It cannot complete incantations or communicate verbally. If the entity makes an attempt to do so, it fails and its action is wasted.
 - Rolls to detect the character based on sound ALWAYS fail.
 
 #### Invisible

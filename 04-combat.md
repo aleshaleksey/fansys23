@@ -244,6 +244,8 @@ If the damage is due to an effect that allows a save (before taking the first 1 
 
 If the damage is from a source that has neither attack roll or save, it automatically gains the condition.
 
+To determine which condition is gained, roll a d6, and find the appropriate entry (by number and damage type) on the ["conditions by damage type" table](#conditions-by-damage-type). This condition is applied for the "usual" duration defined in the ["Condition Table"](#condition-table).
+
 ___
 ### Dropping defences and voluntary HP damage
 

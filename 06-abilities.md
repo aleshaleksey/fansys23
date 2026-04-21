@@ -1120,9 +1120,11 @@ ___
 
 **Type**: (Class A)
 
-**Description**: Spend 1 MP dice to deal "supernatural" damage with a "natural" weapon attack.
+**Description**:  Spend 1 MP dice to convert your weapon into a ["spiritual weapon"](10-conditions-types.md#mundane-magical-and-spiritual-weapons) for one weapon attack, hence dealing damage to MP and overcoming damage immunity to physical damage.
 
-**Limitation**: This must be an attack as defined in ["Basic Martial Manoeuvres"](04-combat.md#basic-martial-manoeuvres). It cannot be used in combination with abilities (other than "Multi-attack").
+**Limitations**:
+- This must be an attack as defined in ["Basic Martial Manoeuvres"](04-combat.md#basic-martial-manoeuvres).
+- Spirit strike cannot be used in combination with "spell strike", "holy strike" or "unholy strike".
 
 - OPTIONAL: If playing with alignment rules, a character who gains "Spirit Strike" should be spiritually aligned, and cannot use this ability if they lose this alignment.
 

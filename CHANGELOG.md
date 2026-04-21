@@ -680,5 +680,6 @@ ___
 - [Swift Shield Bash](06-abilities.md#swift-shield-bash) now formally allows bashing with light shields without penalty.
 - [Spelldance I-IV](06-abilities.md#spelldance-i-iv), add additional damage types to group conversion.
 - Rework [Casting spells and components](07-magic-and-spellcasting.md#casting-spells-and-components).
+- Rework [Spirit Strike](06-abilities.md#spirit-strike) to work with the new ["spiritual weapon"](10-conditions-types.md#mundane-magical-and-spiritual-weapons) ruels.
 
 

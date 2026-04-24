@@ -15,8 +15,9 @@ Combat is central to many narrative genres and styles of play. This chapter codi
     - [Attacks and damage bonuses](#attacks-and-damage-bonuses)
 2. [Damage and Death](#damage-and-death)
     - [Death, dying and the relationship between HP, MP and SP](#death-dying-and-the-relationship-between-hp-mp-and-sp)
-      -  [Massive Damage](#massive-damage)
-      -  [Losing MP, SP and Rebalancing](#losing-mp-sp-and-rebalancing)
+      - [Non-lethal damage](#non-lethal-damage)
+      - [Massive Damage](#massive-damage)
+      - [Losing MP, SP and Rebalancing](#losing-mp-sp-and-rebalancing)
     - [Damage resistance](#damage-resistance)
     - [Damage vulnerability](#damage-vulnerability)
     - [Damage reduction](#damage-reduction)
@@ -180,6 +181,21 @@ Some damage types ignore SP and MP:
 - ["Light"](10-conditions-types.md#light) and ["Lightning"](10-conditions-types.md#electricity-lightning) will deal 1 point of damage directly to HP for every 2 dice of damage dealt. For example if an attack deals 2d4 or 3d4 of light damage to MP, it will cause 1 point of damage to HP, if it deals 4d4 or 5d4 light damage to MP, it will cause 2 points of damage to HP.
 
 1. Entities that do not have a CON score may use their CHA score instead.
+
+___
+#### Non-lethal damage
+
+Damage, Non-lethal damage is damage that is delivered specifically to parts of an entity which are not essential for it to continue its existence. For humanoids, beasts or dragons, this means be aiming carefully to avoid dealing damage to vital organs or causing excessive bleeding or internal bleeding. Non-lethal damage acts like normal damage, with the following exceptions:
+
+- If "non-lethal" damage takes the target to, or below, 0 HP, the target is ["unconscious"](10-conditions-types.md#unconscious) instead of dying (or ["helpless"](10-conditions-types.md#helpless) if immune to "unconscious").
+- Non-lethal damage does not cause bleeding (in those cases where the damage otherwise would cause bleeding).
+- Non-lethal damage dealt to a target at, or below, 0 HP is ALWAYS considered lethal.
+
+Natural melee attacks and all supernatural attacks (see below) can be declared as "non-lethal" before rolling the attack roll (or before the target attempts its saving throw).
+
+- Melee attacks can be made "non lethal" at a -5 penalty to the attack roll. If the weapon deals only "percussive" damage, however, there is no penalty.
+- Ranged weapon attacks cannot be made non-lethal unless otherwise stated for the particular ranged weapon.
+- Supernatural attacks are generally lethal, unless otherwise stated for the specific attack. A group may rule that it may be made non-lethal with a [spellworking](05-skills.md#spellworking) roll (Threshold = **20 + [MP dice expended]**). If the attempt fails, lethal damage is dealt.
 
 ___
 #### Massive Damage
@@ -625,9 +641,6 @@ This is a collection of unsorted rules related to basic physical combat.
 - Standing can be done as part of a "move" action and costs 1/2 your movement speed rounded down.
 - Moving out of the threatened area of a foe without precautions provokes an attack of opportunity.
 - Moving through a threatened area provokes attacks of opportunity unless the movement is declared as being "cautious", ie at half speed.
-- Melee attacks can be made "non lethal" at no penalty with "percussive" weapons, and at a penalty with other weapons.
-- Ranged attacks cannot be made non-lethal unless otherwise stated in for a specific type of ranged attack.
-- Supernatural attacks are generally lethal, unless otherwise stated for the specific attack. Optionally, a group may rule that it may be made non-lethal with a [spellworking](05-skills.md#spellworking) roll (Threshold = **20 + [MP dice used]**).
 
 ___
 ## Basic combat manoeuvres and tactical movement

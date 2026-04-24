@@ -668,6 +668,9 @@ ___
 - Shorten description of [Global and local spells](07-magic-and-spellcasting.md#global-and-local-spells) in "Magic and Spellcasting".
 - Increase minimum duration of [learning new spells from a teacher](07-magic-and-spellcasting.md#learning-spells-through-independent-study-or-from-a-mentor).
 
+### Combat
+- Define non-lethal damage properly.
+
 ### Movement and Exploration
 - [Flight speed endurance](03-movement-exploration.md#running-and-fatigue) for running is now unified with other modalities. Also cripple rules are hardened.
 - [Double penalties](03-movement-exploration.md#terrains) for certain weather condition for certain terrains.

@@ -232,12 +232,13 @@ ___
 
 **Special**:
 
-- You can only make one attack as your main action when using "assassinate".
+- Precision attack can only be made with a DEX based weapon on a DEX based attack roll.
+- You can only make one attack as your main action when using "assassinate" (since "assassinate" is the main action).
 - The target must be affected by at least one of the conditions that your assassinate level qualifies you for. For example at "Assassinate I", it must be "immobilised", at "Assassinate 3" it must be "immobilised", or "surprised" or "stunned".
 - Assassinate automatically fails if the target has heavy, or total, concealment, or if it is "invisible" to you. This means that, for example, entities without low light vision, or other special sight, cannot use "assassinate" with ranged attacks in low light conditions or darkness.
 - If "assassinate" is used with a ranged attack, it must be within the first range increment of the weapon. 
 - Since it uses a "main action" it cannot be used as a "reaction".
-- You cannot use "assassinate" when in conjunction with "Berserk" and similar abilities.
+- Assassinate cannot be used together with "Great Strike".
 
 |Assassinate level|Exploited Condition|Minimum Level|
 |-|-|-|
@@ -291,7 +292,7 @@ ___
 **Effect**: A character enters a berserker trance.
 
 - A character can remain in the trance for a number of rounds equal to its SP dice total, or 6 rounds, whichever is greater. The character can leave the trance voluntarily as a secondary action.
-- The character gains a number of SP equal to their SP dice maximum. In addition the character has a bonus to walk, climb, swim and fly speed, weapon damage, and may have advantage on attacks (See the berserker table).
+- The character gains a number of SP equal to their SP dice maximum. In addition the character has a bonus to walk, climb, swim and fly speed, weapon damage with melee weapons and STR based ranged attacks, and may have advantage on attacks (See the berserker table).
 
 **Special**:
 
@@ -299,7 +300,6 @@ ___
 - At the end of the trance you lose the SP that was gained at the start of the berserker trance. If this would leave the character with negative SP, the character's SP drops to zero, and the character instead loses a number of HP equal to its [base]. For example, a character with [base]=2 (levels 6-10) would lose 2 HP in this case. This HP loss is IN ADDITION to the normal HP loss that occurs regardless at the end of the trance.
 - While "berserk", a character may not use INT based skills and has disadvantage on all WIS and CHA based skills with the exception of ["Observe"](05-skills.md#observe). It has disadvantage on ["Tinker"](05-skills.md#tinker) rolls.
 - While "berserk", a character cannot cast spells with a kinetic component and must roll a 1d6 when trying to cast spells with an incantation component, losing the spell on a 3 or lower.
-- While "berserk", a character may not use abilities such as "precision attack".
 
 **Berserk Table**:
 
@@ -308,7 +308,7 @@ ___
 |I    |3                   |-    |normal   |+2    |1             |-    |
 |II   |9                   |+5   |normal   |+3    |2             |Advantage vs "frightened"|
 |III  |18                  |+10  |normal   |+4    |3             |Advantage vs "grappled" & "restrained"|
-|IV   |28                  |+15  |advantage|+5    |4             |Advantage vs vs "Charmed"|
+|IV   |28                  |+15  |advantage|+5    |4             |Advantage vs "Charmed"|
 |V    |40                  |+20  |advantage|+6    |5             |Advantage vs "stunned" & "incapacitated"|
 
 ___
@@ -478,6 +478,8 @@ ___
 
 **Prerequisite**: STR, +15.
 
+**Limitations**: Great strike cannot be used together with "precision attack" or "assassinate".
+
 ___
 #### Greater Manoeuvre I-V
 
@@ -527,7 +529,7 @@ ___
 **Offence**:
 
 - Exertion: Yes.
-- Range: Weapon range.
+- Range: 70ft + 5ft/[precision attack level].
 - Duration: Instantaneous.
 - Action: "main action".
 - Target: 1.
@@ -537,12 +539,13 @@ ___
 
 **Special**:
 
-- Precision attack can only be made with a Dex based weapon on a Dex based attack roll.
+- Precision attack can only be made with a DEX based weapon on a DEX based attack roll.
 - You can only make one weapon attack when using "precision attack".
 - The target must be unaware of you, "surprised", or be in melee range of another entity hostile to it. OR you must have advantage on your attack.
 - Precision attack automatically fails if the target has heavy concealment or total concealment, or if it is "invisible" to you. (It is impossible to make a precision attack if you cannot carefully observe your target). This means that, for example, entities without low light vision, or other special sight, cannot use "precision attack" with ranged attacks in low light conditions or darkness.
 - If "precision attack" is used with a ranged attack, it must be within the first range increment of the weapon. 
 - Since it uses a "main action" it cannot be used as a "reaction".
+- Precision attack cannot be used together with "Great Strike".
 
 **Prerequisite table**: Precision attack has 10 levels. The maximum level of precision attack a character may have is [Level / 2] rounded down (so I at level 2, II at level 4, etc..).
 
@@ -585,7 +588,7 @@ ___
 
 **Class**: (A, Natural)
 
-**Description**: Strike several targets within 30ft of you with a melee weapon that deals piercing or slashing damage and end your movement within 10ft of any of those targets.
+**Description**: Strike several targets within 30ft of you with a melee weapon and end your movement within 10ft of any of those targets.
 
 **Action**: 
 
@@ -619,6 +622,8 @@ ___
 - **SP dice total**: 16.
 - **MP dice total**: 16.
 - **Other:** At least 3 other natural combat or boons, one of which must be "Swift Strike" or 2 other natural combat abilities and boons and "Flurry".
+
+**Limitation**: All damage dealt as part of Steel Wind Strike is ALWAYS considered to be lethal damage.
 
 
 ___

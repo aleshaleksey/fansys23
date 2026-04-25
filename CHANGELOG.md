@@ -683,6 +683,9 @@ ___
 - [Swift Shield Bash](06-abilities.md#swift-shield-bash) now formally allows bashing with light shields without penalty.
 - [Spelldance I-IV](06-abilities.md#spelldance-i-iv), add additional damage types to group conversion.
 - Rework [Casting spells and components](07-magic-and-spellcasting.md#casting-spells-and-components).
-- Rework [Spirit Strike](06-abilities.md#spirit-strike) to work with the new ["spiritual weapon"](10-conditions-types.md#mundane-magical-and-spiritual-weapons) ruels.
+- Rework [Spirit Strike](06-abilities.md#spirit-strike) to work with the new ["spiritual weapon"](10-conditions-types.md#mundane-magical-and-spiritual-weapons) rules.
+- Restrict [precision attack](06-abilities.md#precision-attack-i-x) to 70ft + 5ft x [ability level], to stop longbows being too invincible.
+- Restrict "Great Strike": It cannot be used with "precision attack" and "assassinate".
+- [Berserk](06-abilities.md#berserk-i-v) now does not do extra damage with DEX based ranged weapons.
 
 

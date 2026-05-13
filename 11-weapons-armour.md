@@ -269,9 +269,9 @@ Damage Key:
 |[Crossbow](#mechanical-bows)|Mechanical Bow|1d10|piercing|2|Dex|-|800|160|4|6
 |[Winch crossbow](#mechanical-bows)|Mechanical Bow|2d12|piercing|2|Dex|-|1000|200|6|8
 |||||||||||
-|[Short Blowgun](#blowguns)|Blowgun|1|P|1|Dex|90|30|0.5|3|
-|[Blowgun](#blowguns)|Blowgun|1d4|P/B|2|Dex/Con|240|60|1|4|
-|[Long Blowgun](#blowguns)|Blowgun|1d6|P/B|2|Dex/Con|600|200|2|5|
+|[Short Blowgun](#blowguns)|Blowgun|1|P|1|Dex|-|90|30|0.5|3|
+|[Blowgun](#blowguns)|Blowgun|1d4|P/B|2|Dex/Con|-|240|60|1|4|
+|[Long Blowgun](#blowguns)|Blowgun|1d6|P/B|2|Dex/Con|-|600|200|2|5|
 
 #### Firearms and Siege
 

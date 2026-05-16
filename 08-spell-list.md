@@ -80,6 +80,7 @@ Currently the spell list is not complete. It is adequate (but can be built up a 
 - [Command Mortal](#command-mortal)
 - [Cure](#cure)
 - [Earth Ward](#earth-ward)
+- [Echo of Yesterday](#echo-of-yesterday)
 - [Fairy Shelter](#fairy-shelter)
 - [Fire Ward](#fire-ward)
 - [Growth](#growth)
@@ -2208,6 +2209,39 @@ ___
 **Upcast**: The spell affects an additional target for each extra MP die above 3.
 
 **Global**: The target falls asleep permanently, and remains in a deep, stasis-like sleep. The caster must give a plausible condition of the target's awakening.
+
+___
+### Echo of Yesterday
+|Name|Echo [Air, Incantation, Spirit, Spring]|
+|-|-|
+|Scope|local (global)|
+|MP Dice|3 (6)|
+|Target(s)|1 object or entity|
+|Casting time|"full round action" (3 hours)|-2
+|Range|close/480ft (close, the realm)|+9
+|Duration|Instantaneous|
+|Components|incantation|+1
+|Focus|-|
+|Material|Thistle or Lotus petals|-1
+|Save|CHA|
+
+**Description**: The caster calls to the lingering spirits associated with an item or entity, awakening the memories of the last being to own or be heavily associated with the item (owner). The target can negate the effect of the spell with a successful CHA save (if it has a CHA score).The caster learns three properties of the last owner:
+
+- The sound of the owner's voice and the last sentence it uttered in the target's presence.
+- The scent of the owner.
+- The feel and firmness of the owner's touch and whether its STR is higher than the caster's.
+
+**Upcast (local)**: For every extra MP die above 3 placed in the spell, the spell's range is increased by 300ft, or the caster learns two more pieces of information about its owner from the following list:
+
+- The location where that owner last touched the target, if it is within range of the spell.
+- The time where that owner last touched the target, if it is within range of the spell.
+- The current location of that owner, if it is within range of the spell. (Owner can negate with a successful CHA save).
+- The current action of that owner, if it is within range of the spell. (Owner can negate with a successful CHA save).
+- The appearance of that owner, when it was last in contact with the object.
+- The action that that owner was engaged in when it was last in contact with the target.
+- The item's/entity's attitude towards that owner.
+
+**Global**: The spell has a range of "the realm". For every 2 MP dice above 6 MP dice placed in the spell, the caster learns two more pieces of information about its owner from the above list.
 
 ___
 ### Storm Ward
@@ -5188,6 +5222,7 @@ Below one will find short summaries of each spell containing the scope, componen
 |Command Mortal|3|local|both||
 |Cure|3|local|incantation||
 |Earth Ward|3 (6)|local (global)|both|local|
+|Echo of Yesterday|3 (6)| local (global)| incantation||
 |Fairy Shelter|3 (6)|local (global)|kinetic||
 |Fire Ward|3 (6)|local (global)|both|local|
 |Growth|3 (6)|local (global)|both||
@@ -5461,6 +5496,7 @@ ____
     - [Growth](#growth)
     - [Slumber](#slumber)
 - Air
+    - [Echo of Yesterday](#echo-of-yesterday)
     - [Guidance of the Winds](#guidance-of-the-winds)
     - [See Spell](#see-spell)
     - [Slumber](#slumber)
@@ -5488,6 +5524,7 @@ ____
     - [Winter's Blade](#winters-blade)
 - Incantation
     - [Cure](#cure)
+    - [Echo of Yesterday](#echo-of-yesterday)
     - [Melt](#melt)
     - [Mole](#mole)
     - [Wind Walk](#wind-walk)
@@ -5695,6 +5732,9 @@ ____
 - Other
     - [Avatar](#avatar)[10]
     - [Undying Realm](#undying-realm) [10]
+
+
+
 
 
 ___

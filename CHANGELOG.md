@@ -690,4 +690,4 @@ ___
 
 ### Spells
 - Strengthen [Lesser Freedom](08-spell-list.md#lesser-freedom) and [Greater Freedom](08-spell-list.md#greater-freedom) to include certain other conditions.
-
+- Add [Echo of Yesterday](08-spell-list.md#echo-of-yesterday) spell for more scrying.

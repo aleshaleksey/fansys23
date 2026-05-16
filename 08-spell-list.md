@@ -2796,7 +2796,7 @@ ___
 |Material|Petals of a yellow rose|-2(19)
 |Save|CHA|
 
-**Description**: The target gains immunity to: "grappled", "restrained" and resistance to: "paralysed", "immobilised", "stunned", "catatonic".
+**Description**: The target gains immunity to: "grappled", "restrained" and resistance to: "paralysed", "immobilised", "stunned", "catatonic" as well as resistance to "incapacitated".
 
 **Upcast**: For every MP die above 4, the duration increases by 1 hour.
 
@@ -3789,7 +3789,7 @@ ___
 |Material|Petals of a yellow rose|-2(31)
 |Save|CHA|
 
-**Description**: The target gains immunity to: "paralysed", "immobilised", "stunned", "catatonic", "grappled", "restrained".
+**Description**: The target gains immunity to: "paralysed", "possessed", "dominated", "immobilised", "incapacitated, "stunned", "catatonic", "grappled", "restrained", or "aphonic". Furthermore, its walk, swim, climb and fly speed cannot be reduced below its base speed for that modality by any means except the "crippled" conditioned.
 
 **Upcast**: For every MP die above 6, the duration increases by 1 hour.
 

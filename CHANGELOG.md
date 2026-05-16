@@ -688,4 +688,6 @@ ___
 - Restrict "Great Strike": It cannot be used with "precision attack" and "assassinate".
 - [Berserk](06-abilities.md#berserk-i-v) now does not do extra damage with DEX based ranged weapons.
 
+### Spells
+- Strengthen [Lesser Freedom](08-spell-list.md#lesser-freedom) and [Greater Freedom](08-spell-list.md#greater-freedom) to include certain other conditions.
 

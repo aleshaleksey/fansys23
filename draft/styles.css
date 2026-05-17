@@ -295,17 +295,27 @@ span.attack-name-span {
     min-width:300px;
     width: 100%
 }
+span.weapon-name-inner {
+    font-size: 12px;
+}
 
 button.attack-name-button {
     padding: 4px;
     width: 100%;
     max-width:200px;
     min-width:200px;
+    font-size: 10px;
     display: flex;
+    white-space: nowrap;
+    text-wrap: nowrap;
     justify-content: center;
     align-items: center;
 }
-
+button.attack-name-button,
+span.attack-name-button {
+    white-space: nowrap;
+    text-wrap: nowrap;
+}
 
 select.wp-stat-select {
     display: flex;
@@ -939,7 +949,7 @@ span.show-spell {
     text-align: center;
 }
 
-span.size12 {
+span.size10 {
     font-size: 10pt;
     padding-left: 2pt;
 }
@@ -1231,12 +1241,15 @@ input.text-input-big {
 .d12 {
     font-family: 'dicefontd12';
     color: black;
+    text-wrap: nowrap;
+    white-space: nowrap;
     font-size: 14pt;
 }
 
 .rb_inner {
     display: flex;
     text-wrap: nowrap;
+    white-space: nowrap;
     padding-right: 2pt;
 }
 
@@ -1279,6 +1292,10 @@ button[type=roll].rb {
     height: 92%;
     align-self: center;
     justify-self: center;
+}
+
+button.weapon_roll {
+    min-width: 230px;
 }
 
 button[type=action].rb-thr-attack,

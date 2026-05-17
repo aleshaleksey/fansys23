@@ -95,6 +95,7 @@
 /* PURE MAIN TEMPLATE STYLES */
 /* PURE MAIN TEMPLATE STYLES */
 .sheet-rolltemplate-spell .sheet-l2,
+.sheet-rolltemplate-ability .sheet-l2,
 .sheet-rolltemplate-init .sheet-l2,
 .sheet-rolltemplate-main .sheet-l3,
 .sheet-rolltemplate-main .sheet-l2 {
@@ -106,6 +107,7 @@
     display: flex;
     justify-content: stretch;
 }
+.sheet-rolltemplate-ability .sheet-l2,
 .sheet-rolltemplate-spell .sheet-l2,
 .sheet-rolltemplate-main .sheet-l2,
 .sheet-rolltemplate-main .sheet-l3 {
@@ -115,6 +117,8 @@
 
 .sheet-rolltemplate-spell .sheet-t-crit,
 .sheet-rolltemplate-spell .sheet-r-crit,
+.sheet-rolltemplate-ability .sheet-t-crit,
+.sheet-rolltemplate-ability .sheet-r-crit,
 .sheet-rolltemplate-init .sheet-t-crit,
 .sheet-rolltemplate-init .sheet-r-crit,
 .sheet-rolltemplate-main .sheet-t-ord,
@@ -131,6 +135,7 @@
     display: flex;
 }
 
+.sheet-rolltemplate-ability .sheet-r-crit,
 .sheet-rolltemplate-spell .sheet-r-crit,
 .sheet-rolltemplate-init .sheet-r-crit,
 .sheet-rolltemplate-main .sheet-r-dmg,
@@ -173,6 +178,8 @@
 .sheet-rolltemplate-spell .sheet-line-1 {
     border: 0.25px solid rgb(104, 101, 101)
 }
+.sheet-rolltemplate-ability .sheet-t-crit,
+.sheet-rolltemplate-ability .sheet-r-crit, 
 .sheet-rolltemplate-spell .sheet-t-crit,
 .sheet-rolltemplate-spell .sheet-r-crit {
     min-width: 35%;
@@ -759,14 +766,12 @@ th.skills-esb-th {
 div.sheet-abilities-inner {
     display: grid;
     grid-template-columns: 40px 340px 40px 340px;
-    grid-template-rows: 40px 940px 400px;
-    grid-template-areas:
+    grid-template-rows: 40px 940px;
+     grid-template-areas:
         "ab-title        ab-title        ab-title        ab-title"
         "levels-a        ab-list-a       levels-b        ab-list-b"
-        "ability-details ability-details ability-details ability-details"
-        /*  */
     ;
-    grid-gap: 3px;
+    grid-gap: 3px; 
     background-color: #e5e7e3;
     border: 1px solid rgb(104, 101, 101);
     padding: 4px;
@@ -775,8 +780,7 @@ div.sheet-abilities-inner {
 div.ab-list-a,
 .sheet-new-character-sheet-for-fantasy-worlds div.ab-list-b,
 .sheet-new-character-sheet-for-fantasy-worlds div.levels-a,
-.sheet-new-character-sheet-for-fantasy-worlds div.levels-b,
-.sheet-new-character-sheet-for-fantasy-worlds div.ability-details {
+.sheet-new-character-sheet-for-fantasy-worlds div.levels-b {
     padding: 4px;
     /* border: 1px solid rgb(104, 101, 101); */
     background-color: #e5e7e3;
@@ -803,7 +807,18 @@ div.levels-b {
 }
 
 div.ability-details {
-    grid-area: ability-details
+    position: absolute;
+    top: 320px;
+    left: 36px;
+    border: 1px solid rgb(104, 101, 101);
+    padding: 4px;
+    background-color: #e5e7e3;
+}
+button[name="act_ability_61"] {
+    max-width: 60px;
+}
+span.x1 {
+    color: rgb(104, 101, 101);
 }
 
 div.ab-title {
@@ -922,6 +937,11 @@ span.show-spell {
     font-size: 10pt;
     text-justify: center;
     text-align: center;
+}
+
+span.size12 {
+    font-size: 10pt;
+    padding-left: 2pt;
 }
 
 span.size12 {
@@ -1684,6 +1704,17 @@ div.ab-det-60 {
     display: none;
 }
 
+
+div.ability-details {
+    display: block;
+}
+
+.abilities-details2[value="0"]~div.ability-details,
+.abilities-details2[value=""]~div.ability-details,
+.abilities-details2[value="61"]~div.ability-details {
+    display: none;
+}
+
 .abilities-details[value="1"]~div.ab-det-1,
 .abilities-details[value="2"]~div.ab-det-2,
 .abilities-details[value="3"]~div.ab-det-3,
@@ -1746,6 +1777,8 @@ div.ab-det-60 {
 .abilities-details[value="60"]~div.ab-det-60 {
     display: block;
 }
+
+
 
 div.attack-detail-1,
 div.attack-detail-2,

@@ -1354,6 +1354,9 @@ button.show-spell {
     max-height: 24px;
     align-self: center;
     justify-self: center;
+}
+
+button.show-spell {
     min-width: 320px;
     max-width: 320px;
 }

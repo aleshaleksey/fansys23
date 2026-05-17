@@ -29,6 +29,7 @@
     padding: 4px;
     align-content: center;
     text-align: left;
+    color: black;
 }
 
 .sheet-rolltemplate-ability .sheet-char-name,
@@ -50,6 +51,7 @@
     background: linear-gradient(315deg, #f2f4ec, white);
     min-width: 100%;
     width: 100%;
+    color: black;
 }
 
 .sheet-rolltemplate-main .sheet-l1,
@@ -194,7 +196,16 @@
 .sheet-rolltemplate-main .inlinerollresult {
     background-color: transparent;
     /* border: 1px solid #a2a29c40; */
-    border: none;
+    border: 1px;
+}
+
+/* Special template for the roll result. */
+.sheet-rolltemplate-darkmode.sheet-rolltemplate-spell .inlinerollresult,
+.sheet-rolltemplate-darkmode.sheet-rolltemplate-init .inlinerollresult,
+.sheet-rolltemplate-darkmode.sheet-rolltemplate-main .inlinerollresult {
+    background-color: transparent;
+    /* border: 1px solid #a2a29c40; */
+    border-style: thin;
 }
 
 /* This is the main character sheet body that contains both

@@ -1356,6 +1356,11 @@ button.show-spell {
     justify-self: center;
 }
 
+button.show-ability {
+    min-width: 272px;
+    max-width: 272px;
+}
+
 /* If all else fails set the font size to ZERO to remove the D20 */
 button[type=roll] {
     font-size: 0pt !important;

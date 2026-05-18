@@ -10,6 +10,7 @@
     - [Opposing Rolls vs Thresholds](#opposing-rolls-vs-thresholds)
     - [Precedence of Rolls: Thresholds (DC), and opposing rolls](#precedence-of-rolls-thresholds-dc-and-opposing-rolls)
     - [Difficulties and recommended thresholds](#difficulties-and-recommended-thresholds)
+    - [Advantage and Disadvantage](#advantage-and-disadvantage)
     - [Modifiers vs Advantage/Disadvantage](#modifiers-vs-advantagedisadvantage)
     - [Sources of Modifiers](#sources-of-modifiers)
 4. [Time](#time)
@@ -17,9 +18,9 @@
     - [Descriptive Attributes](#descriptive-attributes)
     - [Intrinsic Attributes](#intrinsic-attributes)
         - [Entity Type](#entity-type)
-        - [Template/Race](#templaterace)
         - [Size category](#size-category)
         - [Movement modalities](#movement-modalities)
+        - [Template/Race](#templaterace)
     - [Character level and Base](#character-level-and-base)
         - [Levelling up](#levelling-up)
         - [Level points and abilities](#level-points-and-abilities)
@@ -56,35 +57,28 @@
 
 ___
 ## Foreword
+
 This chapter contains base rules which form the foundations of the whole system. While it is not necessary to memorise, or even systematically read through this section, it is desirable that players at least look over it. In the worst case scenario it remains as a useful reference. The general rules contained in this chapter are over-ruled by more specific rules that pertain to certain creatures and situations. Some rules are prefaced by an ALWAYS or NEVER directive. In these cases they are absolute and apply in all situations.
 
 ___
 ## Purpose of the system
-The system codifies the rules for a fantasy role-playing game that focuses on combat and exploration. It aims to build on what I perceive as strength of existing systems and address their weaknesses:
 
-- Keep a well codified rulebook (PF).
-- Create a relatively deep character creation system (PF).
-- Build on the streamlined flow of combat and general play (DnD 5e).
-- Build on the relatively well balanced system (DnD 5e).
-- Build on the fairly well balanced magic system of DnD 5e.
-- Build on the nuanced skill system of PF.
-- Make a system where magic and martial based characters are both viable, while retaining more than cosmetic mechanistic differences.
-- Build on the well codified crafting system of (PF).
-- Expand the rules for exploration and travel.
-- Expand the rules for weapons.
+Building on the experience of earlier games, this system codifies the rules for a fantasy role-playing game that focuses on combat and exploration. The system aims to help gaming groups, both players and arbiters play a game where the possibilities are vast and the rules clear. Whatever situation occurs in a fantasy world, be it in combat, while exploring, when dealing with monsters or with magic - there should be a rule to cover it. It is then up to you, the gaming group, to decide whether you want to use that rule, or without your game will be more fun without it.
 
 ___
 ## Rolling Dice
 
-Rolling dice introduces uncertainty into what is otherwise a numbers game. The outcome of a dice roll should be rolled when the outcome of an action is uncertain, because of hidden variables or otherwise. Thus if an action is sure to fail ("I jump to the moon"), or sure to succeed ("I take a breath of air"), a roll should not be made.
+Rolling dice introduces uncertainty into what is otherwise a deterministic numbers game. The outcome of a dice roll should be rolled when the outcome of an action is uncertain, because of hidden variables or otherwise. Thus if an action is sure to fail ("I jump to the moon"), or sure to succeed ("I take a breath of air"), a roll should not be made.
 It is possible to play this kind of game without ever rolling dice (using average values), however this is generally considered boring, which is why we use dice.
 
 ___
 #### Rounding up and down
+
 Whenever a roll (or other number) is divided (eg half damage, jump distances, bonuses, etc) and the result is not a whole number, the principle of "round up, except for damage" is applied.
 
 ___
 #### Core Rolls
+
 There are three (and a half) types of base roll.
 
 - An ability/skill roll.
@@ -93,19 +87,16 @@ There are three (and a half) types of base roll.
 
 ___
 #### The 2d12 roll
-The core dice for ability checks/tests, saves and attacks is 2d12. You roll a 2d12 and add a static modifier. If the result equals or exceeds a target value, you succeed. Otherwise you fail.
 
-- **General Special**: Also, for every 12 you roll, add +2 to the result. For every 1, subtract 2 from the result.
-- **Saves and Attacks**: Also, snake eyes (1,1) always fails (also known as a "critical fail"). D12 (12,12) always succeeds (also known as a "critical success"). For every 1 rolled on a save, if failure results in damage, the target takes an additional 1 point of damage directly to HP (no risk of gaining conditions).
-- **Attacks**: Also, for each 12 is rolled, if the attack deals any damage, the target takes an additional 1 point of damage directly to HP (no risk of gaining conditions).
-- **Advantage**: Sometimes circumstances are very favourable. Then you roll 3d12, drop lowest.
-- **Disadvantage**: Sometimes circumstances are very unfavourable. Then you roll 3d12, drop highest.
-- Advantage and disadvantage, no matter from how many sources, always cancel each other out.
+The main die used is the 12 sided dice, also known as a "d12". The core roll for ability checks/tests, saves and attacks is two 12 sided dice (2d12). You roll 2d12 and add a static modifier. If the result equals or exceeds a target value, you succeed. Otherwise you fail.
 
-2d12 is chosen as a core roll firstly because d12 are nice dice to roll, secondly because this solves the "high modifier - low modifier" problem, and thirdly because the "triangular" binomial probability distribution simulates life more closely than the 1d20 "uniform" distribution and this then allows us to eschew opposed rolls in time sensitive sections of the game (like combat) while preserving a similar probability distribution of success and failure.
+- In addition, for every 12 you roll on a d12, add +2 to the result. For every 1, subtract 2 from the result.
+- **Saves and Attacks**: Snake eyes (1,1) always fails (also known as a "critical fail"). Double twelve (12,12) always succeeds (also known as a "critical success").
+- **Saves**: For every 1 rolled on a save, if failure results in damage, the target takes an additional 1 point of damage directly to HP.
+- **Attacks**: Also, for each 12 is rolled, if the attack deals any damage, the target takes an additional 1 point of damage directly to HP.
 
 ___
-#### Taking 24, taking 13, auto-failure and voluntary failure
+#### Taking 24, taking 12, auto-failure and voluntary failure
 Sometimes rolls of the core dice can be skipped.
 
 **Taking 24:** Add 24 to the modifier and take this as the result. This represents trying something until you get the best possible result. You can do this is if:
@@ -113,16 +104,16 @@ Sometimes rolls of the core dice can be skipped.
  1. You are in a safe environment.
  2. You have 100 times more time and material resources available available (which are consumed).
 
-This relies on the property of statistics that if you roll 2d12 enough times, you will eventually roll a 24. Statistically speaking, you have a 50% chance of doing so after 100 rolls. As an alternative a character may take 20, which takes 20 times the time and resources (instead of 100).
+This relies on the property of statistics that if you roll 2d12 enough times, you will eventually roll a 24. Statistically speaking, you have a 50% chance of doing so after 100 rolls. In this case you do NOT add +4 as one would if they actually rolled (12, 12).
 
-These numbers are a little bit different from what we see in systems like "Pathfinder" and "Dungeons and Dragons", because (a) we use different dice and (b) we use proper maths.
+**OPTIONAL rule**: As an alternative to "take 24" a character may take 20, which takes 20 times the time and resources (instead of 100), but adds 20 instead of 24 to their modifier.
 
-**Taking care:** Also referred to as "take 13". Add 13 to the modifier and take this as the result. this represents using a systematic, familiar approach to solve a problem. It explains why for example a craftsman doesn't destroy 25% of the shoes he makes despite having only +5 as his modifier while making a shoe having a threshold of 10, or why we don't fall down the stairs every few weeks. One can "take care" if:
+**Taking care:** Also referred to as "take 12". Add 12 to the modifier and take this as the result. this represents using a systematic, familiar approach to solve a problem. It explains why for example a craftsman doesn't destroy 25% of the shoes he makes despite having only +5 as his modifier while making a shoe having a threshold of 10, or why we don't fall down the stairs every few weeks. One can "take care" if:
 
  1. You are in a relatively safe environment, free of distractions and threats.
  2. You are performing a routine, autonomous or habitual task (eg biological functions, general movement, performing a profession or skill in which you have at least one skill point).
 
-This works because the average of 2d12 is 13.
+This works because the average of 2d12 is 13, but to discourage playing it safe, we round down.
 
 **Auto-failing:** An entity automatically fails if it cannot perform the roll. For example a paralysed entity cannot succeed on a jump roll.
 
@@ -171,6 +162,15 @@ The numbers on thresholds and rolls are abstractions of how difficult a task is 
 - 50+: Actually impossible. With maxed out stats, rolling 24 should not hit above 50. (God)
 
 ___
+#### Advantage and Disadvantage
+
+Sometimes circumstances are very favourable or particularly unfavourable.
+
+- **Advantage**: When they are very favourable you roll 3d12 and use the two highest results ("three d12 drop lowest" or simple 3d12dl).
+- **Disadvantage**: Sometimes circumstances are particularly unfavourable. Then you roll 3d12, and use the two lowest results ("three d12 drop highest" or 3d12dh).
+- Advantage and disadvantage, no matter from how many sources, always cancel each other out.
+
+___
 #### Modifiers vs Advantage/Disadvantage
 
 A mix of game balance and simulationism guide our understanding of what they represent and how they should be applied.
@@ -211,7 +211,7 @@ ___
 ___
 ## Character Basics and Descriptors
 
-For a character to function within the game system it has a number of mechanistic parameters. In addition, a character has descriptive attributes that need not influence mechanics (within reason), eg hair/feather/scale length and colour. Timbre of voice. This kind of thing is cool, but not regulated by these rules.
+For a character to function within the game system it has a number of mechanistic parameters. In addition, a character has descriptive attributes that need not influence mechanics (within reason).
 
 Mechanistic parameters are:
 
@@ -239,7 +239,7 @@ These are all covered in detail further in the base rules.
 ___
 ### Descriptive Attributes
 
-A character has descriptive attributes that need not influence mechanics (within reason), eg hair/feather/scale length and colour. Timbre of voice. This kind of thing is cool, but not regulated by these rules. Unless your voice is ultrasonic and destroys superstructures, or your hair is 50ft long. Then the DM is well within their rights to interfere.
+In real life most of a person's attributes have some kind of tangible affect. For example, someone with dark hair would heat up a little more on a sunny day. However, this kind of thing is not reflected in the game. There are two reasons for this. Firstly, the effect is so small and situational that it is not worth modelling. Secondly it would discourages create descriptiveness. Thus in this system many attributes, such as hair/eye colour, exact height (eg 5'5" vs 6'3"), tone of voice do not affect mechanics directly. As with always, "within reason" applies, and no descriptive attribute should break suspension of disbelief within the group.
 
 ___
 ### Intrinsic Attributes
@@ -249,14 +249,9 @@ A character has certain attributes that are inherent to it and are not easily ch
 ___
 #### Entity Type
 
-This defines the base possibilities of a character (a plant does not require sleep, but usually requires water, air and "sustenance", it does "see" things. A spirit does not have a corporeal form and cannot be "touched" normally, a humanoid (animal) has a movement speed, and a corporeal form, usually with one head, one torso, two arms and two legs, requires air, water, sustenance, sleep and ages). It also defines base resistances, vulnerabilities and resistances. More information can be found in the ["Entity Types"](10-conditions-types.md#entity-types) chapter.
+This defines the base possibilities of a character (a plant does not require sleep, but usually requires water, air and "sustenance", it does "see" things. A spirit does not have a corporeal form and cannot be "touched" normally, a humanoid has a movement speed, and a corporeal form, usually with one head, one torso, two arms and two legs, requires air, water, sustenance, sleep and ages). It also defines base resistances, vulnerabilities and resistances. More information can be found in the ["Entity Types"](10-conditions-types.md#entity-types) chapter.
 
 Most player characters will be "Mortal: humanoid", or "Mortal: monster".
-
-___
-#### Template/Race
-
-Template is a set of attributes, usually attributed to race or species, that is applied to characters on creation. It usually gives some penalties/bonuses to stats and skills, additional movement modalities, and abilities. In addition it affects the size category and appearance of a character. For example, an "orc" template gives a bonus to STR and CON, a penalty to INT, "heat sense, proficiency with "strikes" and "slings", as well as resistance to "percussive".
 
 ___
 #### Size category
@@ -266,20 +261,25 @@ Size categories [diminutive, tiny, small, medium, large, huge, gargantuan, colos
 ___
 #### Movement modalities
 
-Movement modalities are usually determined by race and special abilities. A creature WITH a movement modality may (or may not!) be able to move over other terrain with an ability check. This is covered in ["movement"](03-movement-exploration.md#local-and-global-movement) rules:
+A movement modality is the ability to traverse a given terrain, in a certain manner. Certain terrains require a skill roll to traverse. Trying to move over a terrain which one does not have the modality for is either impossible, or incurs a heavy penalty. A character with no movement modalities can usually still crawl at 5ft per round. See the ["movement"](03-movement-exploration.md#local-and-global-movement) rules for more details:
 
 - [**walk speed**](03-movement-exploration.md#walking): ground movement over horizontal-ish terrain.
 - [**climb speed**](03-movement-exploration.md#climb): ground movement over vertical-ish terrain.
 - [**flight speed**](03-movement-exploration.md#flight): Areal movement. Movement through the air.
 - [**swim speed**](03-movement-exploration.md#swimming): movement through a liquid medium (usually water).
 - [**dig speed**](03-movement-exploration.md#digging): tunnelling movement.
-- [**blink speed**](03-movement-exploration.md#blink): discrete movement within the same realm. An entity with a blink speed need not pass through the spaces between start and destination as long as it is in range. Very few entities have a "blink speed", most are powerful supernatural entities.
-- [**cosmic speed**](03-movement-exploration.md#cosmic) ethereal movement and travel between realms. Movement through vacuum, solids (without  interacting) or alternative realities. Very few beings have a "cosmic speed" and most are powerful supernatural entities.
+- [**blink speed**](03-movement-exploration.md#blink): discrete movement within the same realm. An entity with a blink speed need not pass through the spaces between start and destination as long as it is in range. Very few entities have a "blink speed", most are powerful supernatural entities. Some spells bestow a limited blink speed.
+- [**cosmic speed**](03-movement-exploration.md#cosmic) ethereal movement and travel between realms. Movement through vacuum, solids (without  interacting) or alternative realities. Very few beings have a "cosmic speed" and most are powerful supernatural entities. Some spells bestow a limited cosmic speed.
+
+___
+#### Template/Race
+
+Template is a set of attributes, usually attributed to race or species, that is applied to characters on creation. It usually gives some penalties/bonuses to stats and skills, additional movement modalities, and abilities. In addition it can change the size category and appearance of a character. For example, an "orc" template gives a bonus to STR and CON, a penalty to INT, "heat sense, proficiency with "strikes" and "slings", as well as resistance to "percussive".
 
 ___
 ### Character level and Base
 
-All player characters have one. This is an abstract measure of experience and the power that is derived from it.
+This is an abstract measure of experience and the power that is derived from it. Level ranges from 1 to 20, but can go above 20 for certain powerful monsters. For every additional level a character becomes tougher, as well as gaining skills and abilities.Dp
 
 ___
 #### Levelling up
@@ -366,7 +366,7 @@ The bases value for stats of a character is 10. When a character is created, thi
 2. Repeat this for each stat.
 3. These 6 totals, in any order are your character's stats.
 4. Apply racial/template modifiers.
-5. If any stat is below 5, raise it to 5.
+5. If any stat is below 8, add 1 to the value.
 
 The rules for point buy are:
 
@@ -396,8 +396,8 @@ Above we have two systems of stat assignment. One rolled (4d6 drop lowest) and o
 
 For point buy systems, the following common variants exist.
 
-- **6 point point buy**: This is a harsh system. Your characters are no better than the average representative of their race on starting. At most your character will be good at one or two abilities, but only at the cost of lowering others below 10. Combat is more difficult and dangerous. Equipment plays a greater role in the outcome of encounters. Every fight might be your last. Suitable for gritty, horror and sadistic adventures. Here the focus is not so much "how do we win?" to "how do we survive?" or "how do we remain human?". Interestingly, it is also suitable for games focusing on everyday challenges, rather than dangerous adventures.
-- **13 point point buy**: This is also harsh. Your characters are stronger and more able than the average folk, but only just. They are not the destined heroes of legend, and the gods help them if they're thrust into this role. They might be good at a couple of things, or excel in one at the expense of all others. Combat is still dangerous and difficult, but it is an uphill battle. It is best suited for gritty adventures where the ingenuity and persistence of characters is not eclipsed by pure ability.
+- **6 point point buy**: This is a harsh system. Your characters are no better than the average representative of their race on starting. At most your character will be good at one or two abilities, but only at the cost of lowering others below 10. Combat is more difficult and dangerous. Equipment plays a greater role in the outcome of encounters. Every fight might be your last. Suitable for darker, grittier and horror related adventures. Here the focus is not so much "how do we win?" to "how do we survive?" or "how do we remain human?". Interestingly, it is also suitable for games focusing on everyday challenges, rather than dangerous adventures.
+- **13 point point buy**: This is also harsh. Your characters are stronger and more able than the average folk, but only just. They are not the destined heroes of legend, and they will need all the help they can get, if they're thrust into this role. They might be good at a couple of things, or excel in one at the expense of all others. Combat is still dangerous and difficult, but it is an uphill battle. It is best suited for gritty adventures where the ingenuity and persistence of characters is not eclipsed by pure ability.
 - **23 point point buy**: This is the usual heroic fantasy level of power. The characters are far more powerful than ordinary folk, even at the same level. They have 4 stats which are well above average, or up to 2 that they truly excel at. These are the mightiest of warriors and greatest of mages. This point buy is the standard for heroic fantasy.
 - **30 point point buy**: This is a ludicrous level of power. Characters build with this point buy are like Hector or Achilles, Odysseus or Heracles. Use this point buy for epic fantasy. One should be conscious that at this level of power, the game can quickly become stale and boring and the focus often shifts from "how do we win?" to "how do we win without losing anyone precious to us?".
 
@@ -405,16 +405,16 @@ For roll-up systems, the following common variants exist.
 
 - **3d6**: Roll 3d6, sum the dice. The average is 10-11, with a minimum of 3 and a maximum of 18. On average this is equivalent to 6 point point buy, but can occasionally produce much stronger (or even weaker) characters. The distribution is symmetrical, so you're as likely to get something that's weaker or stronger than average.
 - **4d6 drop lowest**: This is the standard roll-up system, described above. The most common rolls are between 12-13, but the distribution is asymmetric, so there is a high chance of rolls between 9-16, which should be equivalent to 15 point point buy, but due to the high chance of rolls above 13, makes it closer to ~21 point point buy (which is not a standard point buy).
-- **4d4 + 2**: This is a true represent of 15 point point buy. The average is between 12-13, but you are just as likely to get higher and lower rolls. Thus, this method gives stronger characters than 3d6, but weaker characters than 4d6 drop lowest, on average.
+- **4d4 + 2**: This is a true representation of 15 point point buy. The average is between 12-13, but you are just as likely to get higher and lower rolls. Thus, this method gives stronger characters than 3d6, but weaker characters than 4d6 drop lowest, on average.
 
 ___
 ### Resource pools
 
-A character has resource pools. These are a critical part of the game and are explained below.
+Everything that a character can use, and thus expend, is a resource. Resources and resource pools are a critical part of the game and are explained below.
 
 - The "SP dice pool" represents stamina, physical resilience and affinity for physical (natural) activity. It is important for martial characters.
 - The "MP dice pool" represents spirit, pluck, mental resilience and affinity for the supernatural. It is important for casters, healers and generally "magical" characters.
-- HP represents overall life force. As soon as you start taking HP damage, you are in trouble. Having lots of HP is important, but even more so for characters who will be putting themselves in harm's way often.
+- HP represents overall life force. As soon as a character starts taking HP damage, they are in trouble. Having lots of HP is important, but even more so for characters who will be putting themselves in harm's way often.
 
 ___
 #### HP pool
@@ -422,7 +422,7 @@ ___
 This represents your health or life force. Loss of HP represents physical/spiritual damage/degradation.
 
 - A character has maximum HP = [CON+CHA+LEVEL].
-- When a character loses 1 or more HP it risk gaining a condition (see ["Damage types"](10-conditions-types.md#damage-types) and [The 2d12 roll](#the-2d12-roll)).
+- When a character loses 2 or more HP it risk gaining a condition (see ["Damage types"](10-conditions-types.md#damage-types) and [The 2d12 roll](#the-2d12-roll)).
 - An entity at 0 HP is disabled and cannot act.
 - An entity whose HP equals the negative of either their CON or HP total (whichever is greater) is destroyed.
 - A character regains a single point of HP per long rest (usually a day). If a character receives long term medical care this becomes 2HP. (see ["Rest and Recuperation"](04-combat.md#rest-and-recuperation))
@@ -529,10 +529,10 @@ Some harmful effects can be negated or mitigated with a "**save**". A character 
 
 A character has six saving throws, one for each stat. Abilities and effects that force a save usually specify one or two valid save types:
 
-  1. **Str**: Use of strength to resist or redirect an effect. This can be voluntarily failed. A "**helpless**" being cannot succeed STR saves. Examples:
+  1. **Str**: Use of strength to resist or redirect an effect. This can be voluntarily failed. Examples:
       - Use STR to resist being knocked prone by a charging guinea pig.
       - Use STR hang on to a ship's mast when a storm wave washes over a ship.
-  2. **Dex**: Use of agility to avoid or redirect an effect. This can be voluntarily failed. An "**immobilised**" being cannot succeed DEX saves. Examples:
+  2. **Dex**: Use of agility to avoid or redirect an effect. This can be voluntarily failed. Examples:
       - Use DEX to avoid a charging guinea pig.
       - Defensively tuck in time to avoid the worst of a fireball's heat wave.
   3. **Con**: Use of physical resilience to shake off an effect. This cannot be voluntarily failed. Entities without a physical form ALWAYS succeed CON saves. Examples:
@@ -559,10 +559,12 @@ A save can either be "good" or "bad" for a character. The calculation for the sa
 
 A character starts with one good save at level 1, and can gain more good saves with the ["Extra Save"](06-abilities.md#extra-save) ability.
 
+[Conditions](10-conditions-types.md#conditions-in-detail) can give characters disadvantage of a saving throw, or prevent success completely. Likewise outside factors can also give bonus, penalties, advantage and disadvantage on saves.
+
 ___
 ### Hit Threshold (HiT)
 
-A character has an armour class/hit threshold. It can represent any combination of armour, shielding, evasive ability and additional blocking factors and is something of an abstract measure of how hard a character is to damage with a targeted attack: A targeted attack either penetrates defences, with the potential of doing damage, (hit) or it does not (miss).
+A character has an armour class/hit threshold. It can represent any combination of armour, shielding, evasive ability and additional blocking factors and is something of an abstract measure of how hard a character is to damage with a targeted attack: A targeted attack either penetrates defences, with the potential of doing damage (hit), or it does not (miss).
 
 ___
 #### Components of HiT
@@ -629,7 +631,7 @@ An entity can voluntarily [drop defences](04-combat.md#dropping-defences-and-vol
 ___
 ### Initiative
 
-FanSys, like most TTRPG systems, is turn based, which means that all characters act one at a time. The order in which they act, in sensitive situations, such as combat, is determined by an "initiative roll". This is a *roll* with an "Initiative Bonus", which represents how quick a character is to act and react. The "Initiative Bonus" is determined as follows:
+FanSys, like most TTRPG systems, is turn based, which means that all characters act one at a time. In sensitive situations, such as combat, the order in which they act in is determined by an "initiative roll". This is a *roll* with an "Initiative Bonus", which represents how quick a character is to act and react. The "Initiative Bonus" is determined as follows:
 
 **Initiative Bonus** = [DEX]/2 + [INT]/2
 
@@ -651,7 +653,7 @@ The number of skill points a character can have in a single skill is capped to:
 ___
 ### Abilities
 
-These are the really cool abilities that a character has, like throwing fire balls, healing otherwise lethal wounds, or being able to chop a giant rock in half (or carry said rock). In short extra "things" that a character can do that it might not be able to do, or the ability to withstand things it might not be able to withstand otherwise. A character can gain abilities in exchange for level points. Abilities are covered in the ["Abilities"](06-abilities.md#abilities-and-boons) chapter.
+These are additional abilities that a character has, like throwing fire balls, healing otherwise lethal wounds, or being able to chop a giant rock in half (or carry said rock). In short extra "things" that a character can do that it might not be able to do, or the ability to withstand things it might not be able to withstand otherwise. A character can gain abilities in exchange for level points. Abilities are covered in the ["Abilities"](06-abilities.md#abilities-and-boons) chapter.
 
 ___
 ### Size
@@ -676,7 +678,7 @@ ___
 
 As a rule, larger entities have limbs that reach further and use larger weapons, which deal more damage, while the converse is true for smaller entities. This is detailed in the ["Dice size rules"](#dice-size-rules) section at the end of the chapter.
 
-Likewise reach increases. While small, medium and large entities have a reach of 5ft, larger entities usually reach further, making it harder for smaller entities to approach close enough to attack them in melee. Similarly tiny and diminutive entities must enter the space of a larger entity to engage it in melee. See the ["Size rules tables"](#size-rules-table) near the end of the chapter for details.
+Likewise reach increases with size. While small, medium and large entities have a reach of 5ft, larger entities usually reach further, making it harder for smaller entities to approach close enough to attack them in melee. Similarly tiny and diminutive entities must enter the space of a larger entity to engage it in melee. See the ["Size rules tables"](#size-rules-table) near the end of the chapter for details.
 
 Likewise, there are more details on the effects of size in combat in the ["Combat: Space in combat"](04-combat.md#space-in-combat) section.
 
@@ -690,7 +692,7 @@ Likewise, weight increases proportionally to volume, so larger entities are a lo
 ___
 #### HiT, strength, carrying capacity
 
-Larger entities are bigger targets, and have more of themselves to move, so they do not dodge as easily. Thus they suffer a penalty to DEX saves and "evasion", but gain a bonus to STR saves and "armour".
+Larger entities are bigger targets, and have more of themselves to move, so they do not dodge as easily. Thus they suffer a penalty to DEX saves and "evasion", but gain a bonus to STR saves and "armour". It should be noted that the penalty from small size never reduces the "armour" bonus below 0.
 
 Likewise carrying capacity increases with size, but less(!) than the weight of equipment, arms and armour. (See the ["Size rules tables"](#size-rules-table)).
 
@@ -706,13 +708,13 @@ An entity is assumed by default to have the senses of sight and hearing. Other b
 
 In addition an entity might have the following "special" senses that act like sight in many ways but detect something other than normally visible light:
 
+- [Blind Sight](06-abilities.md#blind-sight-i-vi)
 - [Heat Sense](06-abilities.md#heat-sense-i-v)
 - [Life Sense](06-abilities.md#life-sense-i-vi)
-- [Truesight](06-abilities.md#truesight-i-vi)
 - [Tremor Sense](06-abilities.md#tremor-sense-i-vi)
-- [Blind Sight](06-abilities.md#blind-sight-i-vi)
+- [Truesight](06-abilities.md#truesight-i-vi)
 
-In addition the following ability improves specifically the sense of sight.
+In addition the following ability specifically improves the sense of sight.
 
 - [Low Light Vision](06-abilities.md#low-light-vision)
 
@@ -723,11 +725,11 @@ In addition the following ability improves hearing, sight or smell (optionally i
 ___
 #### Sight
 
-Sight is the ability to see. An entity with sight can detect and distinguish shapes that it can draw a straight line to that is not blocked by opaque objects (line of sight). In addition it can often distinguish considerable details such as colour (if it has colour vision) or texture. This ability can only be used if there is a considerable amount of light, eg outside in daytime, or in a well lit indoor space.
+Sight is the ability to see. An entity with sight can detect and distinguish shapes that it can draw a straight line to, that is not blocked by opaque objects (line of sight). In addition it can often distinguish considerable details such as colour (if it has colour vision) or texture. This ability can only be used if there is a considerable amount of light, eg outside in daytime, or in a well lit indoor space.
 
 Entities with sight may then make an ["observe"](05-skills.md#observe) roll to gain additional visual information.
 
-If light levels are low, eg. on a starlit/moonlit night, in a candle-lit hideout, these rolls are made at disadvantage, likewise, all targets of ranged "targeted attacks" and melee attacks beyond the entity's normal reach are considered to be "heavily obscured". In addition ["Prospect"](05-skills.md#investigateprospect), ["Navigate"](05-skills.md#navigate) and ["Track"](05-skills.md#track) rolls are made at disadvantage in low light conditions or darkness unless the entity making them is adapted to rely on other senses or has a special sense which is applicable in that situation. All of the drawbacks of low light levels (but not complete darkness) are negated by "low light vision". Furthermore a character with low-light vision treats the area within twice the "dim light" radius of a light source as if it were dim light (if it is not otherwise illuminated). Thus if the "dim light" radius of a torch ends within 40ft, a character with "low-light vision" would see within 40ft of the torch as if it were in bright light, and between 40-80ft as if it were in dim light.
+If light levels are too low to distinguish detail (eg too low to read words on a page), eg. on a starlit/moonlit night, in a candle-lit hideout, these rolls are made at disadvantage. Likewise, all targets of ranged "targeted attacks" and melee attacks beyond the entity's normal reach are considered to be "heavily obscured". In addition ["Prospect"](05-skills.md#investigateprospect), ["Navigate"](05-skills.md#navigate) and ["Track"](05-skills.md#track) rolls are made at disadvantage in low light conditions or darkness unless the entity making them is adapted to rely on other senses or has a special sense which is applicable in that situation. All of the drawbacks of low light levels (but not complete darkness) are negated by "low light vision". Furthermore a character with low-light vision treats the area within twice the "dim light" radius of a light source as if it were dim light (if it is not otherwise illuminated). Thus if the "dim light" radius of a torch ends within 40ft, a character with "low-light vision" would see within 40ft of the torch as if it were in bright light, and between 40-80ft as if it were in dim light.
 
 In total or near total darkness, eg in an unlit cave or catacomb, or on a moonless, cloudy night (barring torchlight), an entity with ordinary sight or even "low light vision" is ["blind"](10-conditions-types.md#conditions-in-detail). Similarly an "invisible" entity cannot be detected by ordinary sight, but the tracks it leaves might be visually detectable with a ["track"](05-skills.md#track) roll, following the normal rules for the skill.
 
@@ -736,6 +738,8 @@ Normal "sight" and any special sense with the word "sight" in it is considered s
 ["Heat sense"](06-abilities.md#heat-sense-i-v), ["Life sense"](06-abilities.md#life-sense-i-vi), ["tremor sense"](06-abilities.md#tremor-sense-i-vi) and ["blind sight"](06-abilities.md#blind-sight-i-vi) negate some aspects of blindness, each under specific circumstances (see the specific sections for details).
 
 ["Concealment"](04-combat.md#cover-and-concealment) gives entities a chance to hide from ordinary sight, but usually not a guarantee. Likewise, light concealment grants a 1/6 miss chance, while heavy concealment provides a 2/6 miss chance. Full concealment gives a 4/6 miss chance for close (melee) attacks and 5/6 miss chance for ranged attacks (blindness/invisibility gives full concealment).
+
+Special senses may negate conventional concealment. For example, heat sense allows one to see in the dark, and "tremor sense" can even detect targets behind solid objects. However, they may suffer from strange forms of concealment. For example, "heat sense" might be useless if the ambient temperature is equal to the body temperature of that which one is looking for. Likewise, it may be possible to hide from "tremor sense" in locales with a lot of noise or other vibrations.
 
 ___
 #### Hearing
@@ -749,7 +753,7 @@ Terrestrial and flying entities have disadvantage on hearing based ["Observe"](0
 ___
 #### Smell
 
-Smell is the ability to detect scents. An entity with scent can detect and identify material emanations, such as aromatic oils, sweat, and the like. Scents are generally blocked if there is no path through air, space or water for the emanations to travel between their source and detecting entity.
+Smell is the ability to detect scents. An entity with scent can detect and identify material emanations, such as aromatic oils, sweat, and so on. Scents are generally blocked if there is no path through air, space or water for the emanations to travel between their source and detecting entity.
 
 Smell cannot be used to detect location of a target, but can be used to discern the presence/absence of otherwise concealed targets, to identify them and for tracking, investigating and prospecting.
 
@@ -803,7 +807,7 @@ Nat vs SP dice and Sup vs MP dice are exactly the same. Therefore only one table
 ___
 #### NAP from Base and Nat
 
-This table is not necessary since it is a simple addition for Nat + Base. However, what harm can come from one more table? (SAP from Base and Sup is **exactly** the same)
+This table provides a quick lookup for Nat + Base. (Sup + Base is **exactly** the same)
 
 ||Base|1|2|3|4|
 |-|-|-|-|-|-|
@@ -826,7 +830,7 @@ As this is a human-centric game, probably designed by a human, "medium", the sta
 **NB**: Size modifier to evasion also applies to certain Dex based skills such as "stealth".
 **NB2**: A Reach of 0ft means that the entity must occupy the same 5ft square/cube/hex as the target of its melee attack.
 
-|Size|Space|Evasion|Armour|Dex Save|Str Save|Carrying capacity|Equipment Weight|Reach|
+|Size|Space (ft)|Evasion|Armour|Dex Save|Str Save|Carrying capacity|Equipment Weight|Reach|
 |-|-|-|-|-|-|-|-|-|
 |Diminutive|5/8|+3|-3[2]|+3|-3|x1/8|x1/16|-|
 |Tiny|5/4|+2|-2[2]|+2|-2|x1/4|x1/8|-|
@@ -837,7 +841,7 @@ As this is a human-centric game, probably designed by a human, "medium", the sta
 |Gargantuan|40|-3|+3|-3|+3|x8|x64|15ft|
 |Colossal|80|-4|+4|-4|+4|x16|x256|20ft|
 
-1. Applies the "long" property to all weapons of "large" size category it wields. All "large" size category that already have the "long" property lose it and instead are treated as having a reach of 10ft. (See ["Combat: Range and Reach"](04-combat.md#range-and-reach))
+1. Applies the "long" property to all weapons of "large" size category it wields. All "large" size category that already have the "long" property lose it and instead add 5ft to their reach. (See ["Combat: Range and Reach"](04-combat.md#range-and-reach))
 2. The armour penalty on entities of size "small" and smaller applies only the armour of entities that have armour. It can never take the natural armour bonus to HiT below zero.
 3. Some basic combat manoeuvres also suffer bonuses or penalties based on size difference (see ["Basic Martial Manoeuvres"](04-combat.md#basic-martial-manoeuvres)).
 
@@ -858,7 +862,7 @@ Downwards size transitions are just upwards size transitions in reverse with the
 
 Typically we derive weapon damage for entities that are not medium from the dice of the medium sized weapon. For example, Bob the pixie is "tiny" and uses a greatsword (2d6 damage at medium). The first size transformation to small from 2d6 gives us 1d10, and then the second from 1d10 gives us 1d6. Thus Bob's greatsword deals 1d6 damage before applying modifiers.
 
-Lastly, only damage from [basic combat manoeuvres](04-combat.md#basic-martial-manoeuvres) scales in this manner. Damage from abilities and spells is not affected by the size of the entity wielding it. Unarmed strikes count as weapons.
+Lastly, only damage from [basic combat manoeuvres](04-combat.md#basic-martial-manoeuvres) scales in this manner. Damage from abilities and spells is not affected by the size of the entity wielding it. Unarmed strikes count as a weapon.
 
 __The Dice Size Rules Table:__ The first cell of each row shows the dice used by a weapon at "medium" size. Reading across the row then gives the damage the same weapon would do at each size category.
 

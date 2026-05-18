@@ -667,6 +667,8 @@ ___
 - The great proofread.
 - Shorten description of [Global and local spells](07-magic-and-spellcasting.md#global-and-local-spells) in "Magic and Spellcasting".
 - Increase minimum duration of [learning new spells from a teacher](07-magic-and-spellcasting.md#learning-spells-through-independent-study-or-from-a-mentor).
+- Take 13 is now Take 12.
+- Make stat assignment by rolling a little bit softer (add +1 if stat is below 8).
 
 ### Combat
 - Define non-lethal damage properly.

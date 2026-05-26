@@ -1806,7 +1806,11 @@ ___
 
 **Description**: The spell allows one to redirect destiny. When an entity or object in range are targeted by an attack or suffer a harmful effect that affects only one object or entity, the caster may redirect it at another valid target within range. Likewise the caster may redirect an AoE targeted at a point in range to any other valid point in range.
 
-In the case that an AoE is being redirected, if it is caused by an entity with a WIS score, the entity may make a WIS save vs the caster's threshold to nullify the spell.
+
+**Special**: If the attack or harmful effect is caused by an entity with a WIS score, then the entity making the attack may make a WIS save to nullify the spell if:
+- An AoE is being redirected.
+- If the attack cost a greater number of MP/SP dice than "Blessing of the fates" is being cast with (save is made at advantage).
+- If the redirection of the attack would target or harm the one who made the attack, or a "sworn ally" of theirs (save is made at advantage).
 
 **Limitations**:
 

@@ -19,7 +19,9 @@
   - [Equivalence between abilities and spells](#equivalence-between-abilities-and-spells)
   - [Threshold for Enchanting, Imbuing and Alchemy](#threshold-for-enchanting-imbuing-and-alchemy)
   - [Permanency and "Enchantment Quality Items"](#permanency-and-enchantment-quality-items)
-  - [Places of Power](#places-of-power)
+  - [Enchanting and imbuing in special locations](#enchanting-and-imbuing-in-special-locations)
+    - [Locales of Elemental Alignment](#locales-of-elemental-alignment)
+    - [Places of Power](#places-of-power)
   - [Re-enchanting/Re-imbuing](#re-enchantingre-imbuing)
   - [Multiple Effects](#multiple-effects)
   - [Modified Effects and Source Spells/Abilities](#modified-effects-and-source-spellsabilities)
@@ -301,8 +303,22 @@ Enchantments on enchantment quality items (see ["Crafting for Enchantment"](#cra
 Enchantments on other items fade. The magic lingers for: **[Spellcraft roll] x [spell level] x [spell level] days**
 
 ___
-### Places of Power
-Locations associated with supernatural powers facilitate many supernatural processes. Enchanting or imbuing in such locations lowers the threshold for successfully imbuing or enchanting. Places of power do so for all enchanting and imbuing, while locations aligned to an element only empower magics associated with that element. Enchanting and imbuing in these places lowers the threshold by -4.
+### Enchanting and imbuing in special locations
+Locations associated with supernatural powers facilitate many supernatural processes. Enchanting or imbuing in such locations is either easier, or yields additional benefits.
+
+___
+#### Locales of Elemental Alignment
+Elementally aligned locales are places where supernatural forces are particularly strong. They can include elemental realms, lairs used by dragons for especially long, and places where legendary magic associated with an element had been cast.
+
+Imbuing or enchanting an item with a spell or ability associated with an element in a locale aligned to the same element lowers the threshold for successfully imbuing or enchanting it by -4.
+
+___
+#### Places of Power
+Places are powers are locales where supernatural forces are particularly active. These can be, for example, shrines to divine and profane powers, or places where the veil is particularly thin.
+
+The first item successfully enchanted/imbued by a character in a given place of power gains an additional enchantment. This enchantment is 2 levels lower (but no lower than level 0) than the highest level effect placed in the item. The effect activates and becomes apparent when the magic in the item is first activated, and has a "continuous" duration.
+
+The exact effect is determined by the DM, but should be thematic to the place of power.
 
 ___
 ### Re-enchanting/Re-imbuing
@@ -407,6 +423,6 @@ ___
 |Activated on change of state of wielder||+4||
 |Activated on programmed contingency||+4||
 |Exceptional Magic||+12||
-|Enchanted/imbued in a place of power||-4||
+|Enchanted/imbued in a place of power||Special||
 |Enchanted/imbued in aligned location||-4||
 |For each assistant||-1|Max of 7 (-7)|

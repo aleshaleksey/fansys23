@@ -693,3 +693,7 @@ ___
 ### Spells
 - Strengthen [Lesser Freedom](08-spell-list.md#lesser-freedom) and [Greater Freedom](08-spell-list.md#greater-freedom) to include certain other conditions.
 - Add [Echo of Yesterday](08-spell-list.md#echo-of-yesterday) spell for more scrying.
+- Alter [Blessing of the Fates](08-spell-list.md#blessing-of-the-fates) to make it a touch weaker.
+
+### Enchanting and Imbuing
+- Alter how enchanting/imbuing in [special locations](13-crafting-imbuing.md#enchanting-and-imbuing-in-special-locations) to do something other than bonuses in places of pwoer.

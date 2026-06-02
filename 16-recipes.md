@@ -1,6 +1,6 @@
 # Recipes
 
-FanSys provides a near infinite amount of choice when building characters. This is what it was made for. This can also make it challenging to recreate classic concepts. This chapter contains some recipes for various character builds from level 1 to 12 (we invite you to complete these builds by yourself).
+FanSys provides a near infinite amount of choice when building characters. This is what it was made for. This can also make it challenging to recreate classic concepts. This chapter contains some recipes for various character builds from level 1 to 12 (we invite you to complete the last 8 levels of these builds by yourself).
 
 It should be noted that none of these builds account for [race(template)](09-races.md#types-races-species-and-templates) or [starting stats](00-overview.md#stats), so some tweaking may be in order!
 

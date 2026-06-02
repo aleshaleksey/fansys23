@@ -669,6 +669,7 @@ ___
 - Increase minimum duration of [learning new spells from a teacher](07-magic-and-spellcasting.md#learning-spells-through-independent-study-or-from-a-mentor).
 - Take 13 is now Take 12.
 - Make stat assignment by rolling a little bit softer (add +1 if stat is below 8).
+- Make alcohol stronger.
 
 ### Combat
 - Define non-lethal damage properly.
@@ -694,6 +695,9 @@ ___
 - Strengthen [Lesser Freedom](08-spell-list.md#lesser-freedom) and [Greater Freedom](08-spell-list.md#greater-freedom) to include certain other conditions.
 - Add [Echo of Yesterday](08-spell-list.md#echo-of-yesterday) spell for more scrying.
 - Alter [Blessing of the Fates](08-spell-list.md#blessing-of-the-fates) to make it a touch weaker.
+
+### Equipment and Economy
+- [Linen garment](12-equipment-economy.md#adventuring-gear) give resistance to hot weather if it is caused by bright sunshine.
 
 ### Enchanting and Imbuing
 - Alter how enchanting/imbuing in [special locations](13-crafting-imbuing.md#enchanting-and-imbuing-in-special-locations) to do something other than bonuses in places of pwoer.

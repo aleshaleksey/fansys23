@@ -30,7 +30,7 @@
   - [Tools and Kits](#tools-and-kits)
   - [Alchemical reagents and potions](#alchemical-reagents-and-potions)
 
-This chapter discusses resources, basic fantasy economy and item/equipment prices. Most "adventurers" need equipment, weapons and supplies in some shape and form, so they are covered here.
+This chapter discusses resources, basic fantasy economy and item/equipment prices. Since most "adventurers" need equipment, weapons and supplies in some shape and form, they are covered here.
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 The nature of an economy depends amongst other things upon the population density, abundance of resources and the available level of knowledge, magic and technology. The availability and costs of materials, good and services will vary accordingly. With this in mind three lists are presented: "ancient", "medieval" and "late".
 
-Of course if a group has its own setting, with its own specifics, then all of this should be adjusted accordingly.
+Of course if a group has its own setting, with its own specifics, then the group can make adjustments to economic aspects of this chapter.
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 ### Late, renaissance and industrial age
 
-This is the usual "adventuring guilds" settings. All kinds of weapons and armours are available. Some have become obsolete (under some situations). Firearms become available. Techniques of extracting resources and crafting become very efficient, and all kinds of sciences flourish. Labour costs are high, but productivity of labour also increases due to advanced techniques and industrialisation. Population densities are generally high. Most of the world has been at least crudely mapped. Most ruins have been found and at least some are explored. It is possible that monsters and other "inhuman" forces have retreated, or are waiting for their chance to return their eminence.
+This is the usual "adventuring guilds" settings, although steampunk also tends to fall into this category. All kinds of weapons and armours are available. Some have become obsolete (under some situations). Firearms become available. Techniques of extracting resources and crafting become very efficient, and all kinds of sciences flourish. Labour costs are high, but productivity of labour also increases due to advanced techniques and industrialisation. Population densities are generally high. Most of the world has been at least crudely mapped. Most ruins have been found and at least some are explored. It is possible that monsters and other "inhuman" forces have retreated, or are waiting for their chance to return their eminence.
 
 ___
 
@@ -106,12 +106,12 @@ ___
 
 ### Materials
 
-Materials come in a hierarchy of hardness/quality. Materials higher on the scale have superior qualities, are harder to work with, generally rarer, give bonuses to attack/damage/armour/durability, etc. Materials lower on the scale are usually cheaper and easier to work with, but also make for less effective tools, weapons and armour.
+Materials come in a hierarchy of hardness/quality. Materials higher on the scale have superior qualities, are generally rarer, harder to work with, and give bonuses to attack/damage/armour/durability, etc. Materials lower on the scale are usually cheaper and easier to work with, but also make for less effective tools, weapons and armour.
 
 ___
 #### Material Ranks
 
-Materials have an absolute rank. Absolute rank is important for the "sunder" manoeuvre rules. The highest rank is 0. If the weapon used when performing the "sunder" manoeuvre is made of a "lower ranking material, the total amount of damage is reduced by 1, and the weapon making the attack takes 1 point of damage. If the weapon used in the attack is made of "higher" materials, the amount of damage is 2 per damage dice of the attacking weapon instead of 1.
+Materials have an absolute rank. Absolute rank is important for the "sunder" manoeuvre rules. The highest rank is 0. If the weapon used when performing the "sunder" manoeuvre is made of a "lower ranking material, the total amount of damage is reduced by 1, and the weapon making the attack takes 1 point of damage. If the weapon used in the attack is made of "higher ranked" materials, the amount of damage is 2 per damage dice of the attacking weapon instead of 1.
 
 ___
 #### Material types
@@ -172,7 +172,7 @@ ___
 
 ## The lists
 
-The lists below suggest a monetary cost, a labour cost and an availability table. The availability should be taken with a large pinch of salt and is meant as a guide for settings. If availability is "no" the weapon is not generally available or the technology or technique to make it does not exist. "Rare" means it was available at some point of the age, but not commonly used.
+The lists below suggest a monetary cost, a labour cost and an availability table. The availability should be taken with a large pinch of salt and is meant as a guide for settings. If availability is "no" the item is not generally available or the technology or technique to make it does not exist. "Rare" means it was available at some point during that age, but not commonly used.
 
 If availability is "no" the item cannot be made, but may be bought from specialist suppliers at x10 the price.
 
@@ -284,8 +284,8 @@ Labour costs are given in silver (sp) per day (10-12 hours). Labour that does no
 
 | Labour type                   | ancient | medieval | late    |
 | ----------------------------- | --------| -------- | ------- |
-| Unskilled                     | 0       | 1        | 2       |
-| Trained                       | 0       | 2        | ~5      |
+| Unskilled                     | 0.5     | 1        | 2       |
+| Trained                       | 0.5     | 2        | ~5      |
 | Artisan (mason)               | 0-4     | 8        | 20      |
 | Artisan (smith)               | 0-4     | 16       | 40      |
 | mercenary (foot, lvl-2)       | 0-6     | 6        | 20      |
@@ -301,12 +301,12 @@ Labour costs are given in silver (sp) per day (10-12 hours). Labour that does no
 - ["Commoner"](monsters-npcs/humanoids.md#human-commoner-level-1)
 - ["Peasant"](monsters-npcs/humanoids.md#human-peasant-level-2)
 
-**Trained**: This refers to labourers that carry out work which requires several months or years of training to perform well. This includes miners, brick-layers, wagon drivers and sailors. A trained worker must have at least one rank in the skill they are using and proficiency in any required kits. The skill bonus for a human should be between +1 and +3. Recommended stat blocks:
+**Trained**: This refers to labourers that carry out work which requires several months or years of training to perform well. This includes miners, brick-layers, wagon drivers and sailors. A trained worker must have at least one rank in the skill they are using and proficiency in any required tools. The skill bonus for a human should be between +1 and +3. Recommended stat blocks:
 
 - ["Commoner"](monsters-npcs/humanoids.md#human-commoner-level-1)
 - ["Peasant"](monsters-npcs/humanoids.md#human-peasant-level-2)
 
-**Artisan**: Refers to craftsmen with rare and valuable skills, such as smiths, masons, bowyers, alchemists, jewellers, artists, engineers. They have significant practice in their arts, but quality varies. Artisans tend to have a skill bonus of between +3 and +6 in their craft. More skilled artisans may produce higher quality goods, but are also rarer and correspondingly more expensive. Recommended stat blocks:
+**Artisan**: Refers to craftsmen with rare and valuable skills, such as smiths, masons, bowyers, alchemists, jewellers, artists, engineers. They have significant practice in their arts, but quality varies. Artisans tend to have a skill bonus of between +3 and +6 in their craft and are proficient in the tools used of their trade. More skilled artisans may produce higher quality goods, but are also rarer and correspondingly more expensive. Recommended stat blocks:
 
 - ["Commoner"](monsters-npcs/humanoids.md#human-commoner-level-1)
 - ["Apprentice"](monsters-npcs/humanoids.md#human-mage-apprentice-level-2)
@@ -335,7 +335,7 @@ Labour costs are given in silver (sp) per day (10-12 hours). Labour that does no
 - ["Apprentice"](monsters-npcs/humanoids.md#human-mage-apprentice-level-2)
 - ["Scholar"](monsters-npcs/humanoids.md#human-scholar-level-3)
 
-**Magistrate**: Ranking members of society, empowered with the rights and knowledge necessary to perform legal services. Magistrates are useful when dealing with nobility, major trade deals, or during dubious dealings for furthering one's own interests. Access to a magistrate is understandably expensive. Recommended stat blocks:
+**Magistrate**: Ranking members of society, empowered with the rights and knowledge necessary to perform legal services. Magistrates are useful when dealing with nobility, when concluding major trade deals, or during dubious dealings for furthering one's own interests. Access to a magistrate is understandably expensive. Recommended stat blocks:
 
 - ["Scholar"](monsters-npcs/humanoids.md#human-scholar-level-3)
 - ["Elite"](monsters-npcs/humanoids.md#human-elite-level-5)
@@ -357,7 +357,7 @@ ___
 
 ### Upkeep
 
-Upkeep is distinct from labour cost, as it accounts only for minimal costs associated with keeping the labourer/hireling in working condition, and not the wages. This includes the upkeep cost of food, board and specialist equipment. It can also include the costs of various social/societal functions, guild memberships and rituals needed to maintain the position. For example, a magistrate may need to participate in "expensive" social events to retain a degree of "respectability", a mercenary may need to attend training and replace equipment, and a mage may need maintain a supply of rare and expensive material components.
+Upkeep is distinct from labour cost, as it accounts only for minimal costs associated with keeping the labourer/hireling in working condition, and not the wages. This includes the upkeep: cost of food, board and specialist equipment. It can also include the costs of various social/societal functions, guild memberships and rituals needed to maintain the position. For example, a magistrate may need to participate in "expensive" social events to retain a degree of "respectability", a mercenary may need to attend training and replace equipment, and a mage may need maintain a supply of rare and expensive material components.
 
 This table is for medium sized humanoids. For every increase in size category, upkeep is increased by a factor of 4.
 
@@ -543,15 +543,15 @@ ___
 
 **Woollen Garments**: A set of woollen garments consisting of a shirt, jacket/sweatshirt and either trousers or skirts. These are the main part of worker's or traveller's garb and can serve as the under-layer of cold weather garments. Durability: 2.
 
-**Linen Garment**: Light clothes made of linen. They protect their wearer from worst of the heat, but are thin and easily damaged. Consist of a shirt and trousers/shirt or a simple dress. Durability: 1.
+**Linen Garment**: Light clothes made of linen. They protect their wearer from worst of the heat, but are thin and easily damaged. Consist of a shirt and trousers/shirt or a simple dress. This garb reduces the severity of severe/extreme heat by one step if it is caused by strong sunlight (eg in a sandy desert, but not in a rainforest or an ironworks). Durability: 1.
 
 **Ceremonial Garb**: Ceremonial Garb includes a robe, shoes and often some kind of hat. It is suitable for scholars, cultists, mages, priests and low-level officials  performing duties. As a rule they are not well suited for overland travel as they often restrict movement. Durability: 2.
 
-**Traveller's Garb, Poor**: Course woollen garments and some kind of shoes. This represents clothes worn by farmers, workers, hoodlums, and low class travellers. They offer a modicum of protection against the elements. In colder weather one should also wear a cloak. These clothes do not restrict movement, but immediately mark one out as belonging to the lower echelons of society. Durability: 2.
+**Traveller's Garb, Poor**: Course woollen garments and some kind of shoes. This represents clothes worn by farmers, workers, hoodlums, and low class travellers. They offer a modicum of protection against the elements. In colder weather one should also wear a cloak. These clothes do not restrict movement, but immediately mark one out as belonging to the lower echelons of society, giving a disadvantage to diplomacy rolls made to interact with certain nobility. Durability: 2.
 
-**Traveller's Garb**: Woollen garments, possibly a cloak, and shoes. These are sturdy clothes that will stand up to the elements and be somewhat comfortable. These are the standard adventuring clothes. Durability: 3.
+**Traveller's Garb, Woollen**: Woollen garments, possibly a cloak, and shoes. These are sturdy clothes that will stand up to the elements and be somewhat comfortable. These are the standard adventuring clothes. Durability: 3.
 
-**Traveller's Garb**: Cotton traveller's garb, possibly a cloak, and shoes that have been treated with waterproofing oils. This garb reduces the severity of precipitation (rain only) on the wearer's body, by one step and grants +2 to related CON saves. These are the standard adventuring clothes. Durability: 4.
+**Traveller's Garb, Waterproof**: Cotton traveller's garb, possibly a cloak, and shoes that have been treated with waterproofing oils. This garb reduces the severity of precipitation (rain only) on the wearer's body, by one step and grants +2 to related CON saves. These are the standard adventuring clothes. Durability: 4.
 
 **Explorer's Garb**: Woollen garments, possibly a cloak and boots. Generally these include the adaptations needed by adventurers and explorers on perilous journeys. They do make one stand out somewhat. Durability: 4.
 
@@ -561,15 +561,15 @@ ___
 
 **Rope**: 10ft of rope that can be used for climbing, of tying off animals (usually one would purchase lengths of 60-120ft). This weights 1lb/10ft for hemp and 1lb/20ft for silk ropes. The durability is 4. Hemp ropes for rigging are four times heavier and cost four times as much. This rope can support 1000lb, or 300lb during a fall of 10ft or more without snapping. Every time the rope takes such a fall, it takes one point of damage. Durability: [See table](03-movement-exploration.md#object-hit-point-durability-table).
 
-**Miner's Pick**: A heavy, durable pick used for breaking rocky ground or leveraging it apart. It is a necessary tool for using "fortify" to fortify or dig through rock/rocky ground. This kind of pick can be used as a weapon, but attack rolls with it are made at disadvantage. It deals 1d10 piercing damage and is wielded in two hands. Durability: 8.
+**Miner's Pick**: A heavy, durable pick used for breaking rocky ground or leveraging it apart. It is a necessary tool for using "fortify" to fortify or dig through rock/rocky ground. This kind of pick can be used as a weapon (proficiency: "axes"), but attack rolls with it are made at disadvantage. It deals 1d10 piercing damage and is wielded in two hands. It ignores damage reduction of objects of the same or lower material level. Durability: 8.
 
-**Shovel**: A sturdy shovel. "Fortify", "harvest" or "prospect" rolls which involve digging are made at disadvantage without a shovel. It can be used as a two handed weapon (attack rolls are made at disadvantage), and deals 1d8 slashing damage. Durability: 4.
+**Shovel**: A sturdy shovel. "Fortify", "harvest" or "prospect" rolls which involve digging are made at disadvantage without a shovel. It can be used as a two handed weapon (proficiency "axes", attack rolls are made at disadvantage), and deals 1d8 slashing damage. Durability: 4.
 
-**Torch**: A length of wood, usually dipped in tar. When lit, a torch sheds bright light in 20ft, and dim light in 40ft. Its light can be seen within a mile. It will burn out within 30 minutes and will be extinguished by extreme precipitation or extreme wind. Torches are ideal for setting things on fire. Durability: 1.
+**Torch**: A length of wood, usually dipped in tar. When lit, a torch sheds bright light in 20ft, and dim light in 40ft. Its light can be seen within a mile. It will burn out within 30 minutes and will be extinguished by extreme precipitation or extreme wind. Torches are ideal for setting things on fire. The light of a torch is visible from 5 miles away on a clear night. Durability: 1.
 
 **Candle**: A wax candle. Made of bees' wax or tallow. A candle will shed dim light within 10ft. It will burn for 4 hours. Its light can be seen from ~800ft away. An unshielded candle will be extinguished by severe wind or precipitation. Durability: 1.
 
-**Lamp**: A glass or metal oil lamp, with a small reservoir for oil (no more than 1lb) and a wick. A lamp sheds bright light in 20ft and dim light in 40ft. Durability: 1.
+**Lamp**: A glass or metal oil lamp, with a small reservoir for oil (no more than 1lb) and a wick. A lamp sheds bright light in 20ft and dim light in 40ft. The light of a lamp is visible from 5 miles away on a clear night. Durability: 1.
 
 **Small Backpack**: A sturdy backpack of cloth or leather that can carry up to 30lb, or a volume of 10 gallons, whatever is smallest. It leaves a traveller's hands free for other activities. Durability: 3.
 
@@ -581,7 +581,7 @@ ___
 
 **Tent**: A tent of canvas and wood big enough for 6 medium sized humanoids. It gives a +2 to ameliorate rolls on terrain that is not swamp, dense forest, or steep slopes. It takes up 5x10ft and takes 30 minutes to assemble. Durability: 2.
 
-**Yurt**: A portable dwelling construction of hides, cloth, wood and bone favoured by nomadic peoples. It counts as a dwelling and obviates the need for an ameliorate/fortify roll for camping (although it is still better to make one to fortify one's camp). A yurt takes up 15x15ft and takes 3 hours to assemble. Durability: 8.
+**Yurt**: A portable dwelling construction of hides, cloth, wood and bone favoured by nomadic peoples. It counts as a dwelling and obviates the need for an ameliorate/fortify roll for camping (although it is still better to fortify one's camp in most cases). A yurt takes up 15x15ft and takes 3 hours to assemble. Durability: 8.
 
 ___
 
@@ -607,11 +607,11 @@ ___
 | Sailing ship (small)   | 4800       | 92                    | yes       | yes        | yes    |
 | Sailing ship (carrack) | 12600      | 276                   | no        | yes        | yes    |
 
-**Cart**: A light, two or four wheeled wooden cart, usually without an awning. Typically a cart is 5x10ft long and can house 8 passengers and 2 drivers, transporting up to 4000lb, but no more than the drag weight of the beasts of burden pulling it. Carts can typically travel on, and off, road. The speed of a cart is 30ft on road and 20ft off road. A cart can traverse difficult terrain at 5ft per round. A cart weighs 400lb.
+**Cart**: A light, two or four wheeled wooden cart, usually without an awning. Typically a cart is 5x10ft long and can house 8 passengers and 2 drivers, transporting up to 4000lb, but no more than twice the drag weight of the beasts of burden pulling it. Carts can typically travel on, and off, road. The speed of a cart is 30ft on road and 20ft off road. A cart can traverse difficult terrain at 5ft per round. A cart weighs 400lb.
 
 **Wagon**: A heavy, four wheeled cart, usually with an awning. A wagon typically is 5x15ft in length, 10ft in height and can house 12 passengers and 2 drivers, transporting up to 8000lb, but no more than the drag weight of the beasts of burden pulling it. Wagons can typically travel on, and off, road. The speed of a wagon is 25ft on road and 15ft off road. A wagon cannot traverse difficult terrain. A wagon weighs 800lb.
 
-**War chariot**: This is a light, two wheeled platform (5x5ft) that carries a driver and up to 2 passengers. In combat it can carry a driver and a single medium sized combatant. A combatant riding on chariot may use unwieldy and heavy weapons as if they were standing on flat, open terrain (if space permits). A chariot with one horse can travel at 40ft, with 2 horses - 50ft, with 4 horses - 60ft. A chariot can be driven off road. It can traverse difficult terrain at 10ft. A chariot weights 80lb.
+**War chariot**: This is a light, two wheeled platform (5x5ft) that carries a driver and up to 2 passengers. In combat it can carry a driver and a single medium sized combatant. A combatant riding on a chariot may use unwieldy and heavy weapons as if they were standing on flat, open terrain (if space permits). A chariot with one horse can travel at 40ft, with 2 horses - 50ft, with 4 horses - 60ft. A chariot can be driven off road. It can traverse difficult terrain at 10ft. A chariot weights 80lb.
 
 **Carriage**: A carriage is a closed wagon approximately 12ft in length and 6ft in width. For combat purposes it takes up 2 squares. A carriage can house up to 6 passengers inside, as well as up to 4 crew. a carriage drawn by 2 horses (a pair) has a speed of 30ft, by 4 horses - 40ft, by 6 horses - 50ft. Carriages cannot travel faster than their beasts of burden, unless travelling down hill. Carriages can only travel on roads or relatively flat, solid ground, albeit at half speed. They are seldom suitable for cross country driving. A carriage weights 1800lb.
 
@@ -664,7 +664,7 @@ ___
 
 **Cow/Ox**: Large ruminants that prefer lush grasses. They typically weigh between 500-2000lb and provide meat, milk and hide. They are also strong enough to pull carts and wagons, although not particularly fast. Being large, and typically horned, they are relatively defended from most beasts, but can be hunted by larger dinosaurs, monsters and dragons.
 
-**Bees**: Bees are venomous insects that dwell in colonies of 100K-1M individuals. They gather nectar and pollen. They provide honey and wax.
+**Bees**: Bees are venomous insects that dwell in colonies of one hundred thousand and a million individuals. They gather nectar and pollen. They provide honey and wax.
 
 **Falcon**: Falcons are predatory birds that prefer to hunt birds. This makes them valuable for hunting, but also for delivering messages.
 
@@ -672,7 +672,7 @@ ___
 
 **Dogs**: Dogs are predatory canines that come in many shapes and sizes. They are typically loyal and easily trainable. Together with their keen senses, endurance and lupine instincts, they are invaluable to humanoids, be it for hunting, guard duties, or companionship. Dogs are omnivores with a preference for meat and can weight between 10-200lb.
 
-**Horses**: Horses are hoofed ruminants, prized for their speed, strength and endurance. They are used for mounts and to tow vehicles.
+**Horses**: Horses are hoofed ruminants, prized for their speed, strength and endurance. They are used as mounts and to tow vehicles.
 
 - A riding horse (use ["light horse"](monsters-npcs/beasts-and-plants.md#horse-light-level-2)) weighs between 500-1500lb and is trained to carry a rider or pulling a vehicle, but is not combat trained.
 - A draught horse weighs between 1500-2500lb and is trained for pulling a vehicle, but not riding or combat. Use ["heavy horse"](monsters-npcs/beasts-and-plants.md#horse-heavy-level-3).
@@ -752,21 +752,21 @@ ___
 | Musical instrument (exquisite) | 2400+     |               | rare      | no         | yes    |
 |                                |           |               |           |            |        |
 
-**Entrenching tools**: This is a full set of equipment needed to fortify a a field position or make a simple dwelling. It includes, hammer, chisel, axe, shovel, knives and a number of other implements.
+**Entrenching tools**: This is a full set of equipment needed to fortify a field position or make a simple dwelling. It includes, hammer, chisel, axe, shovel, knives and a number of other implements.
 
-**Farmer's Equipment**: Farmer's equipment consists of yokes, ploughs, shovels and other minimal equipment needed to raise crops. Animals not included.
+**Farmer's Equipment**: Farmer's equipment consists of yokes, ploughs, shovels and other minimal equipment needed to grow crops or rear livestock. Animals not included.
 
 **Smith's tools**: A minimal set of tools needed to make use of a forge or make a field forge. Using a field forge gives -5 on all crafting rolls. The set include hammers, vice, chisels, small anvil and other implements. The set weighs about 30lb.
 
 **Smith's forge**: A complete forge. This is not mobile and consists of furnace as well as all other tools and structures for turning an iron ingot into an implement.
 
-**Musical instruments (simple)**: This mostly includes simple wind instruments made of reed, with no metal parts and no rare materials. These would be welcome at a festival, a fey glade, or a village tavern, but might get you laughed out of town or executed at a king's court.
+**Musical instruments (simple)**: This mostly includes simple wind instruments made of reed, with no metal parts and no rare materials. These would be welcome at a festival, a fey glade, or a village tavern, but might get you laughed out of town or executed at a royal court.
 
 **Musical instruments (average)**: This includes more robust wind instruments and certain percussion, such as tambourines. Certain simpler string instruments would fall in this category. They might contain mixture of wooden, hide and metal parts and would be acceptable either as a performance in a town's tavern or as part of a band or orchestra. A buffoon at a court might use instruments from this category.
 
 **Musical instrument (complex)**: This includes most string instruments (guitars/lutes, violins, harps, lyres), as brass and certain others. These would be acceptable at many mortal courts and would draw crowds at backwater settlements for their rarity.
 
-**Musical instrument (exquisite)**: This includes things like pianos, church organs and other large, complex instruments. They are generally nor easily transported.
+**Musical instrument (exquisite)**: This includes things like pianos, church organs and other large, complex instruments. Such instruments are not always easily transported.
 
 ___
 
@@ -824,13 +824,13 @@ This includes various natural and supernatural produce that can be created throu
 
 **Cure**: A cure can be either "natural" or "supernatural". A "natural" cure cures the specific disease it is concocted to cure. A "supernatural" cure cures any disease, poison or condition of an equivalent or lower class. A "supernatural" cure that can cure S class conditions is called a "panacea". Wars have been fought over the secrets of the panacea and alchemists skilled enough to concoct them. Natural cures last for no longer than a month after production. Supernatural cures keep their powers as [dictated by the laws of enchantment](13-crafting-imbuing.md#permanency-and-enchantment-quality-items). Creation of a supernatural cure or panacea requires the alchemist to know "[Cure](08-spell-list.md#cure)".
 
-**Poison**: In most societies most poisons are not readily available (except perhaps basic rat poison or bee venom), however it is available for those who know where to look. Since the more effective poisons are extracted from monsters, the ingredients can be expensive and difficult to come by. Thus one needs not only a skilled alchemist to extract them, but also exceptional 'hunters' to track them down and harvest them in the first place. Lastly, as such poisons are extremely dangerous to the leaders of most kingdoms, their availability is further limited. Details on particular poisons are found in ["Chapter 14: Poisons and Diseases"](14-poisons-and-diseases.md#poisons-and-diseases).
+**Poison**: In most societies most poisons are not readily available (except perhaps basic rat poison or bee venom) due to the ease with which it can be used to bring down a society's elites. However it is available for those who know where to look. Since the more effective poisons are extracted from monsters, the ingredients can be expensive and difficult to come by. Thus one needs not only a skilled alchemist to extract them, but also exceptional 'hunters' to track them down and harvest them in the first place. Details on particular poisons are found in ["Chapter 14: Poisons and Diseases"](14-poisons-and-diseases.md#poisons-and-diseases).
 
 **Healing Potion**: Healing potions are a exceptional concoction capable of instantly healing wounds. However, since they require the alchemist to expend their own blood or life-force to create, the price likewise tends to be 'exceptional'. A class I healing potion restores 1HP, a class II healing potion restores 2HP and so on. On a battlefield and in the wilderness this can be the difference between life and death. Creation of a healing potion requires the alchemist to know ["Least Heal"](08-spell-list.md#least-heal).
 
 **Vitality Potion**: A vitality potion is an exceptional concoction that restores MP and SP, as determined at the creation of the potion. However, since it requires the alchemist to expend their own blood or life-force to create, the price likewise tends to be 'exceptional'. A class I vitality potion restores [3d4+3] MP or SP. A class II vitality potion restores [5d4+3] SP/MP, a class III restores [7d4+3] SP/MP and so on. Creation of a vitality potion requires the alchemist to know ["Least Rest"](08-spell-list.md#least-rest).
 
-**Potion of Second Life**: This exceptional potion recreates the effect of the ["Healing Seed"](08-spell-list.md#healing-seed) spell cast at the lowest level when imbibed (or more correctly, fed to the patient). As with any healing potion, its creator must pour their own vitality when creating it. Creation of this potion requires the alchemist to know "Healing Seed".
+**Potion of Second Life**: This exceptional potion recreates the effect of the ["Healing Seed"](08-spell-list.md#healing-seed) spell cast at the lowest level when imbibed (or more correctly, fed to the patient). As with any healing potion, its creator must immbue it with their own vitality when creating it. Creation of this potion requires the alchemist to know "Healing Seed".
 
 **Spirit Bleach**: This is a concoction which removes supernatural influences upon an entity's alignment, hence removing "divine", "profane" or "elemental" alignment, if it is caused by coming into contact with material, spells, or enchanted objects or locations that endow such an alignment upon a character. It has no effect on characters whose deeds and beliefs have caused them to be so aligned.
 

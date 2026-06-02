@@ -38,7 +38,7 @@ Crafting is the production of various items, and wares from raw materials. Imbui
 
 Crafting lies at the heart of both human civilisation, and, indirectly, many RPGs, even if there are no explicit mechanics for it in a given gaming system.
 
-In FanSys, any item that is described in the game can be crafted by either player or non-player characters. Although using the crafting system does not fit all games, due to the requisite time costs.
+In FanSys, any item that is described in the game can be crafted by either player or non-player characters. Although using the crafting system does not fit all games, due to the need for aspiring crafters to weigh up the requisite time costs.
 
 ___
 ## Crafting
@@ -55,7 +55,7 @@ ___
 ___
 ### Skills Used
 
-Depending on what is being created different skills are used. Sometimes multiple skills are needed. For example, building a castle may require masonry and carpentry for the structure, engineering for the design, tinkering for traps and so on. Thus common sense should be applied. In cases where multiple skills are needed, each skill roll must succeed for the crafting to succeed. A roll is not necessarily required. For example, it can be assumed that a hundred workers will eventually build a castle, and the poor rolls of some will merely cancel out the brilliant rolls of others.
+Crafting requires skill. The specific skill needed depends on the kind of item or structure in question. Sometimes multiple skills are needed. For example, building a castle may require masonry and carpentry for the structure, engineering for the design, tinkering for traps and so on. Thus common sense should be applied. In cases where multiple skills are needed, each skill roll must succeed for the crafting to succeed. A roll is not necessarily required. For example, it can be assumed that a hundred workers will eventually build a castle, and the poor rolls of some will merely cancel out the brilliant rolls of others (in this case the architect would still have to make an "academics" roll to see if blueprint is viable).
 
 As usual, other skills in the same skill group can substitute the main skill with a penalty. However, tool proficiencies cannot be eschewed for crafting.
 
@@ -76,8 +76,8 @@ If multiple skills or tool proficiencies are required, they can be supplied by d
 |Clothes|Tinker(Taylor's kit)||
 |Jewel|Tinker(Jeweler's tools)||
 |Mechanical Device|Academics + Tinker(varies)||
-|Medicine|Heal(healer's kit) OR Academics(alchemist's equipment)||
-|Poison|Heal(poisoner's kit) OR Academics(alchemist's equipment)||
+|Medicine|Heal(alchemist's kit/herbalist's kit) OR Academics(alchemist's equipment)||
+|Poison|Heal(poisoner's kit/herbalist's kit) OR Academics(alchemist's equipment)||
 |Alchemical product|Academics(alchemist's equipment)||
 |Rations|Harvest(varies)||
 |Fine Food|Academics/Tinker(cook's equipment)|eg. fine dining|
@@ -96,7 +96,7 @@ If the roll succeeds, the material is consumed and the crafting succeeds at the 
 
 Beating the threshold by 6 points or more creates an item which has +1 to durability for every 6 points by which the threshold is beaten.
 
-The rules for crafting complex devices are similar, to those here, but the thresholds are defined in the ["Skills:Tinker" section](05-skills.md#tinker).
+The rules for crafting complex devices are similar, to those here, but the thresholds are defined in the ["Skills: Tinker" section](05-skills.md#tinker).
 
 #### Special
 
@@ -137,12 +137,12 @@ If an item takes less than 10 hours to craft, then a character can craft it quic
 
 It should be noted that one need not spend a whole block of 10 hours crafting with no breaks. Crafting time can be broken up into intervals throughout the day, though no interval can be shorter than 2 hours, as outlined above. Even so, this should allow a somewhat dedicated artisan to still assist their party during the adventuring day.
 
-This is an approximation which assumes that most of the cost of any item is the cost labour and equipment used to make it, and material costs are general low in comparison (which is not always true, but keeps things simple).The time to craft an item can be split between multiple artisans, although they must all be proficient in the tools.
+The material cost (see above) assumes that most of the cost of any item is the cost of labour and equipment used to make it, and material costs are general low in comparison (which is not always true, but keeps things simple). The time to craft an item can be split between multiple artisans, although they must all be proficient in the tools.
 
 ___
 ### Crafting Costs
 
-Crafting items for a character is generally cheaper than purchasing ready made items, as it means one can eliminate labour cost completely, however, if the tools are particularly expensive and must be procured, it an also be more expensive. Likewise, the crafting time, is a major immaterial cost.
+Crafting items for a character is generally cheaper than purchasing ready made items, as it means one can eliminate labour cost completely, however, if the tools are particularly expensive and must be procured, it an also be more expensive. Likewise, the crafting time is a major immaterial cost.
 
 This leaves the main variable crafting cost, the material used to make the item, and the material expended in the crafting. For example when smithing a sword, not only does one use the iron for the blade, leather and other materials for the grip, but also, for example, the coal used in the forge.
 
@@ -155,7 +155,7 @@ In general, recommended material costs are as follows:
 |jewellery|**10sp x [quality mod] x [per item] x 2**|Assumed to use 1/60lb of material|
 |medicine, poison and alchemical goods|**10sp x [quality mod] x [number of doses] x 2**|Assumed to use 1/60lb of material|
 
-It should be noted that the costs are not set in stone. For example, the table of ["Common Goods"](12-equipment-economy.md#common-goods), gives much higher cost for rare and fantastic materials, as it assumes a society where they are nigh unattainable.
+It should be noted that the costs are not set in stone. For example, the table of ["Common Goods"](12-equipment-economy.md#common-goods), gives much higher cost for rare and fantastic materials, as it assumes a society where they are nigh unattainable. Thus, in a setting where they are readily available, this cost would understandably be lower.
 
 ___
 ### Material Coefficients (quality mods) for items
@@ -168,21 +168,21 @@ The cost of a material generally depends on the ["material level"](12-equipment-
 |2|4sp|x4|2|iron, hardwood|
 |3|20sp|x27|4|Steel, Mithril, Ironwood|
 |4|130sp|x256|12|Demon Teeth, Dragon Hide, Adamantium|
-|5|1250sp|x3125|108|???|
+|5|1250sp|x3125|108|Unicorn Horn, Angel's Feather|
 
 It should be noted that this refers to materials of high enough quality and free enough of defects to be used to make weapons such as bows, staves, swords. Materials that are of construction quality are usually cheaper.
 
 It should also be noted that the cost also includes costs of treatment and processing of the material (smelting, tanning, etc).
 
-As an exception, "precious" materials that are highly limited in availability break these rules. For example, silver costs 600sp per lb, while gold typically costs 6000lb per lb, despite having limited use for crafting. Likewise, groups may adjust "market prices" of crafting material for world building and plot related reasons. 
-Typically, a precious material will cost at least x100 more per lb than an ordinary material, although it will grant no mechanistic benefit, setting aside the prestige. Alchemical reagents and gems and metals used to make jewellery typically fall into this category. Luckily you do not need to measure those in pounds.
+As an exception, "precious" materials that are highly limited in availability break these rules. For example, silver costs 600sp per lb, while gold typically costs 6000sp per lb, despite having limited use for crafting. Likewise, groups may adjust "market prices" of crafting material for world building and plot related reasons. 
+Typically, a precious material will cost at least x100 more per lb than an ordinary material, although it will grant no mechanistic benefit, setting aside the prestige. Alchemical reagents, as well as gems and metals used to make jewellery typically fall into this category. Luckily you do not need to measure their weight in pounds.
 
 Lastly, groups should remember that acquiring high quality and rare materials is in and of itself an excellent subject matter for side quests.
 
 ___
 ### Crafting for Enchantment
 
-All items can be enchanted, but only specially prepared and crafted items will hold their magic permanently. This may involve engraving special ritual circles, or symbols on parts of the item, or performing lengthy rituals to cleanse and purify, or perhaps despoil the material. Regardless, this increases the crafting time by a factor of x1.5, with a minimum of 1 day.
+All items can be enchanted, but only specially prepared and crafted items will hold their magic permanently. This may involve engraving special sigils or symbols on parts of the item, or performing lengthy rites to cleanse and purify, or perhaps despoil the material. Regardless, this increases the crafting time by a factor of x1.5, with a minimum of 1 day.
 
 ___
 ### Eschewing Reality
@@ -267,7 +267,7 @@ ____
 
 **On use**: The most common magic items are activated by an action. Like spells, these actions can have one or more of an "incantation" or "kinetic" component. Rarely they may be activated by thought alone. In general using this kind of item requires an action, be it a "reaction", "secondary action", "main action", "full round action" or other.
 
-**On change of state**: Some magic items activate when their wielder's state changes, eg, when it gains or loses a condition, is hit by an attack, moves, or fails a save. Activating these items does not require an action, but does require the specific condition being met.
+**On change of state**: Some magic items activate when their wielder's state changes, eg, when it gains or loses a condition, is hit by an attack, moves, or fails a save. Activating these items does not require an action, but does require the specific condition to be met.
 
 **On fulfilled contingency**: Some insidious magic items are activated when a condition is fulfilled. The condition can be incredibly complex, but must be tangible. For example "when next the sword is bathed in the light of the full moon", "when the talisman passes through the gates of Dudariarch".
 
@@ -300,7 +300,7 @@ ___
 ### Permanency and "Enchantment Quality Items"
 Enchantments on enchantment quality items (see ["Crafting for Enchantment"](#crafting-for-enchantment)), and items made of materials of supernatural origin, are permanent. That is to say that as long as the item is not destroyed, disenchanted, or the charges are not expended, the item retains its magic indefinitely.
 
-Enchantments on other items fade. The magic lingers for: **[Spellcraft roll] x [spell level] x [spell level] days**
+Enchantments on other items fade with time. The magic lingers for: **[Spellcraft roll] x [spell level] x [spell level] days**
 
 ___
 ### Enchanting and imbuing in special locations
@@ -374,6 +374,7 @@ As it stands exceptional magic includes:
 
 - ANY magic that restores HP to an entity.
 - ANY magic that restores MP, SP, SP dice or MP dice to an entity.
+- ANY magic that can bring back the dead in any form.
 
 A group may add other spells/supernatural abilities to this list if they decide that it works better for them.
 
@@ -389,21 +390,21 @@ Alchemical produce may be natural or supernatural. If creating alchemical produc
 ___
 #### Supernatural Alchemical Produce
 
-Supernatural alchemical produce require a source of the effect much like other imbuing or enchanting. The difference is, the source may be the freshly [harvested](05-skills.md#harvest) parts of an entity possessing the supernatural ability. There are two conditions for this kind of harvest:
+Supernatural alchemical produce require a source of the effect much like other imbuing or enchanting. The difference is, the source may be the freshly [harvested](05-skills.md#harvest) parts of an entity possessing the supernatural ability. There are three conditions for this kind of harvest:
 
 - The reagents are considered "exotic", thus increasing the threshold for the "harvest" roll by +10.
-- The entity must still possess enough SP dice to use the ability, or at least 1 (whichever is higher) when the part is harvested.
+- The entity must still possess enough SP/MP dice to use the ability, or at least 1 (whichever is higher) when the part is harvested.
 - The amount of raw material needed is x10 greater than final alchemical produce. In general, at least 1lb of reagents are required per dose, although this is not always the case.
 
 ___
 #### Natural Alchemical Produce
 
-Natural alchemical products can also be made and mostly follow the standard rules for alchemy, imbuing and enchanting. However, one does not place spells or abilities into such a produce. A character can instead create:
+Natural alchemical produce can also be made and mostly follow the standard rules for alchemy, imbuing and enchanting. However, one does not place spells or abilities into such a produce. A character can instead create:
 
 - Produce that cause or cure a [condition](10-conditions-types.md#condition-table), except "dying", "doomed", "poisoned" or "diseased". The difficulty and time taken is determined by the class of the condition (C, B, A, S) in the same way as [class of abilities](#equivalence-between-abilities-and-spells) affects these paraments. If the condition is caused, it is caused for the "default" duration.
 - Produce that cause [poisoning](14-poisons-and-diseases.md#poison-list) or [disease](14-poisons-and-diseases.md#list-of-diseases), or cause a character to roll an additional save against them prematurely. As with conditions, the class of the poison/disease determines the difficulty and time taken. Likewise a source of the poison/disease is needed to extract and concentrate the final concoction.
 - Synthesise/extract various mundane produce such as oils, waxes, perfumes, black powder, or items like paper, torches and the like.
-- Create various miscellaneous items from the list (to do).
+- Create various miscellaneous items from the list (see ["Alchemical reagents and potions"](12-equipment-economy.md#alchemical-reagents-and-potions)).
 
 ___
 ### Threshold Table

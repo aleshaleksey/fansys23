@@ -33,7 +33,7 @@
   - [Summary Table of Diseases](#summary-table-of-diseases)
 ___
 
-This chapter covers the rules for various poisons and diseases. It is not necessary to use these rules, since basic rules on the [poisoned condition](10-conditions-types.md#conditions-in-detail) and on [poison damage](10-conditions-types.md#biological-damage) exist. However, for some campaigns, especially those in lower magic settings and campaigns with various forms of intrigue it is useful to have more rules on poison. Likewise, while diseases and plagues can be can be played narratively, rules can serve as a guide as to how they would normally play out.
+This chapter covers the rules for various poisons and diseases. It is not necessary to use these rules, since basic rules on the [poisoned condition](10-conditions-types.md#conditions-in-detail) and on [poison damage](10-conditions-types.md#biological-damage) exist. However, for some campaigns, especially those in lower magic settings and campaigns with various forms of intrigue it is useful to have more rules on poison. Likewise, while diseases and plagues can be played narratively, rules can serve as a guide as to how they would normally play out.
 
 ___
 ## Poisons
@@ -46,7 +46,7 @@ Poisons have a several properties that can be described by game mechanics:
 - Threshold
 - Potency
 - Duration
-- Speed
+- Onset
 - Mode of Application
 - Affected system
 - Effect
@@ -66,7 +66,7 @@ Poisons can be fast acting or slow acting. Unless stated otherwise, a poison act
 #### Mode of Application
 Poisons are generally most effective inside of the body. Some poisons are better at getting inside the body than others. The modes, listed by dominance, are:
 
-1. **Perception**: This poison enters the body as soon as it is perceived with any sense. These poisons are always supernatural and are also effective when MP damage is inflicted.
+1. **Perception**: This poison enters the body as soon as it is perceived with any sense. These poisons are always supernatural and, if they inflict damage, it is MP damage.
 2. **Contact**: This poison enters the body when it makes contact with any of the body's surfaces, such as skin, eyes, hair, mucus membranes, etc.
 3. **Inhalation**: This poison enters the body when it is inhaled.
 4. **Ingestion**: This poison enters the body when it is consumed (ingested).
@@ -120,7 +120,7 @@ An entity can be cured of poison under one of four conditions:
 
 - The time of action of the poison ends. Unless otherwise stated, a poison's effect lasts for 1 week. After this the poisoned condition is removed, as well as secondary conditions, but not other effects, unless otherwise stated.
 - The poisoned entity succeeds on a CON save vs the poison's threshold. Generally this can be repeated once per day. Again, the poisoned condition is removed, as well as secondary conditions, but not other effects, unless otherwise stated.
-- Mundane poison can be cured with a ["Heal"](05-skills.md#heal) roll equal to the poison's threshold. Unless otherwise stated, the treatment takes 1 minute and the "poisoned" condition is removed after an hour (as the organism recovers). Unless otherwise stated secondary conditions are also cured, but damage is not.
+- Mundane poison can be cured with a ["Heal"](05-skills.md#heal) roll equal to the poison's threshold. Unless otherwise stated, the treatment takes 1 minute and the "poisoned" condition is removed after an hour (as the organism recovers). Unless otherwise stated secondary conditions are also cured, but damage is not. Each subsequent failed attempt to "heal" the poison within 24 hours cause 1 point of HP damage to the victim.
 - Spells such as the ["Cure"](08-spell-list.md#cure) immediately cure the poison, and poisoned condition, but never the secondary effects.
 
 ___
@@ -179,7 +179,7 @@ ___
 |Bee Venom|1d4 damage/round for 1 minute or until save is succeeded. Used for treating joint ailments amongst others.|
 |Viper Venom|1d6 damage/round for 1 minute or until save is succeeded. Used for treating joint ailments amongst others.|
 |Cobra Venom|["Paralysis"](10-conditions-types.md#conditions-in-detail) + ["suffocation"](03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die). A character repeats the save vs suffocation at the end of each minute, but the general paralysis last for the full duration.|
-|Alcohol|1 point of DEX, CON, INT and WIS damage per dose (NB: A single dose is equivalent to 1 lb of ale, 1/4 lb of wine, or 1 shot of spirits). For each additional dose, the threshold increases by 1.|
+|Alcohol|1 point of DEX, CON, INT and WIS damage per dose (NB: A single dose is equivalent to 1 lb of ale, 1/4 lb of wine, or 1 shot of spirits). For each additional dose, the threshold increases by 2. A character that fails by 12 or more falls unconscious.|
 |Bracken Extract|["Blinded"](10-conditions-types.md#conditions-in-detail)|
 |Refined Fly-trap Poison|3 saves (one per round): First fail.["restrained"](10-conditions-types.md#conditions-in-detail). It may repeat the save at the start of each turn. If it fails a second time, it is ["immobilised"](10-conditions-types.md#conditions-in-detail), if it fails a third, it is ["paralysed"](10-conditions-types.md#conditions-in-detail).|
 |Refined Tripede Poison|3 saves (one per round): First fail.["restrained"](10-conditions-types.md#conditions-in-detail). It may repeat the save at the start of each turn. If it fails a second time, it is ["immobilised"](10-conditions-types.md#conditions-in-detail), if it fails a third, it is ["paralysed"](10-conditions-types.md#conditions-in-detail).|
@@ -202,7 +202,7 @@ ____
 
 Diseases in FanSys, as in our world, are generally long term conditions that hamper the function of the body and mind. Some are contagious, some are hereditary, some are otherwise acquired. In this chapter we deal both with contagious diseases and those that that can be passed on magically. In general, only mortals suffer from diseases of the body. All entities with free will can suffer from disease of the mind/spirit.
 
-What makes diseases interesting in the sense of the game, is that they spread, therefore a scenario involving a disease there is often a race against time to find the cure, source, or to find a strategy by which it can be contained. Therefore this section also provides suggested doubling time of infected individuals and when (under what conditions) an outbreak of a disease would end without intervention.
+What makes diseases interesting in the sense of the game, is that they spread. Therefore a scenario involving a disease there is often a race against time to find the cure, source, or to find a strategy by which it can be contained. Therefore this section also provides suggested doubling time of infected individuals and when (under what conditions) an outbreak of a disease would end without intervention.
 
 It should be noted that some disease will have a long term effect on the character, and may require a quest, or more, to fix. The use of such diseases in a game is not recommended for groups that do not wish to deal with the consequences.
 
@@ -224,7 +224,7 @@ Diseases have several properties which define them.
 
 #### Affected Entities
 
-Most diseases can only affect certain species/races/types of entity, others are less selective. For example flu effects humanoids and certain birds, while plague affects mammals in general.
+Most diseases can only affect certain species/races/types of entity, others are less selective. See each particular disease for details.
 
 ___
 #### Diagnosis Threshold
@@ -324,7 +324,6 @@ ____
 This is a common disease that is characterised by sneezing, coughing and occasional fever. It is spread through breathing (inhalation). It is spread between humanoids. Beasts can suffer from similar diseases, but they are seldom spread beyond similar species.
 
 - **Mild**: After the incubation period, victim begins to cough and sneeze and feels mild malaise. For the duration the victim has disadvantage to ["stealth"](05-skills.md#stealth) and a -2 to STR, DEX and CON rolls.
-- **Severe**: After the incubation period, victim begins to cough and sneeze, runs a fever and feels malaise. For the duration the victim has disadvantage to ["stealth"](05-skills.md#stealth). In addition, during the second week the victim has a -2 to STR, DEX and CON rolls.
 
 ___
 #### Flu (C Class)
@@ -332,7 +331,7 @@ ___
 This is a common disease that is characterised by sneezing, coughing, malaise and high temperature. Superficially it is similar to a more severe cold. Beasts can suffer from similar diseases, but they are seldom spread beyond similar species. Most commonly birds are susceptible to flu and can easily become infected and spread it far and wide.
 
 - **Mild**: After the incubation period, the victim begins to cough and sneeze, runs a fever and feels malaise. For the duration the victim has disadvantage to ["stealth"](05-skills.md#stealth). In addition, after the first week the victim has a -2 to STR, DEX and CON rolls.
-- **Severe**: The victim suffers all the conditions of the mild form. In addition, during the second week. the victim has disadvantage to STR, DEX, WIS and CON rolls and to concentration saves. At the end of the second week, the victim makes a CON save vs Threshold=16. If they fail the save, the disadvantage persists into the third week, in addition, the victim suffers 2d6 CON damage, which recovers at a rate of 1 point per long rest. If this CON damage drops the victim's CON to 0, it dies.
+- **Severe**: The victim suffers all the conditions of the mild form. In addition, during the second week the victim has disadvantage to STR, DEX, WIS and CON rolls and to concentration saves. At the end of the second week, the victim makes a CON save vs Threshold=16. If they fail the save, the disadvantage persists into the third week, in addition, the victim suffers 2d6 CON damage, which recovers at a rate of 1 point per long rest. If this CON damage drops the victim's CON to 0, it dies.
 
 ___
 #### Mudcrawler (B Class)
@@ -356,7 +355,7 @@ ___
 This disease is transmitted by insect bites, so the speed of its spread depends on the abundance of biting insects. As the name suggests, yellow fever is generally characterised by high fever and jaundice and generally only affects mortals.
 
 - **Mild**: After the incubation, the victim develops a high fever, back and muscle aches and nausea. The victim suffers disadvantage to STR, DEX, CON and WIS rolls and its base speed is halved. In addition, at the start of any combat it must succeed a threshold=24 CON save or spend the first round incapacitated with vomiting.
-- **Severe**: The victim suffers all effects of the mild form, as well as developing jaundice and bleeding from its orifices. It loses 1d4 from its HP total every day of the duration of the disease (this is recovered at 1 point per long rest after the end of the disease). If the HP total drops to 0, the victim dies.
+- **Severe**: The victim suffers all effects of the mild form, as well as developing jaundice and bleeding from its orifices. It loses 1d4 from its HP total every day for the duration of the disease (this is recovered at 1 point per long rest after the end of the disease). If the HP total drops to 0, the victim dies.
 
 ___
 #### Plague (bubonic, A Class)
@@ -402,7 +401,7 @@ ___
 
 This disease affects humanoids and monsters with at least 5 INT that do not have a "divine" alignment that subsume the flame of a Seraph or that of a divinity associated with righteousness and vengeance. It is characterised by an uplifted, almost exalted state that strives for a higher justice and incapacitating pain when it is not followed. This is a divine disease that can only be treated by specific deeds or supernatural means.
 
-- **Mild**: Immediately, the victim gains the ability to distinguish [profane beings](10-conditions-types.md#profane-1) and those of profane alignment by smell, and must make a Threshold=16 CON save or be incapacitated when within 10ft of one. In the second week, the victim can tell spoken trust from falsehood, and takes 1 HP damage (entropic) every time it lies. In the third week, the victim gains a razor sharp sense of justice and advantage at ["sense motive"](05-skills.md#sense-motive) rolls. If they witness an injustice take place they must immediately set about righting (or avenging) it. Else if they recognise a profane being, they must do their utmost to destroy it. If they do, they do not suffer incapacitation due to closeness to profane beings until their next long rest. If they do not, they suffer 1d4 CON and CHA damage (which heals at a rate of 1 point per long rest). The disease is cured if the victim vanquishes profane beings of a higher level than itself, or prevents/rights/avenges injustices to a total count of 12.
+- **Mild**: Immediately, the victim gains the ability to distinguish [profane beings](10-conditions-types.md#profane-1) and those of profane alignment by smell, and must make a Threshold=16 CON save or be incapacitated when within 10ft of one. In the second week, the victim can tell spoken truth from falsehood, and takes 1 HP damage (entropic) every time it lies. In the third week, the victim gains a razor sharp sense of justice and advantage at ["sense motive"](05-skills.md#sense-motive) rolls. If they witness an injustice take place they must immediately set about righting (or avenging) it. Else if they recognise a profane being, they must do their utmost to destroy it. If they do, they do not suffer incapacitation due to closeness to profane beings until their next long rest. If they do not, they suffer 1d4 CON and CHA damage (which heals at a rate of 1 point per long rest). The disease is cured if the victim vanquishes profane beings of a higher level than itself, or prevents/rights/avenges injustices to a total count of 12.
 - **Severe**: For the first month the disease progresses as the mild form, except in the fourth week the victim begins to emit a bright light in a 60ft radius and dim light in a 120ft radius (this can be seen 20 miles away on a dark night). If the disease is not cured at the end of the first month, the disease becomes curable only by divine intervention. At the start of the second month the victim suffers terrible visions on following days when they pass by injustice or profane beings without attempting to vanquish them, and must make a threshold=24 CHA roll or fail to gain the benefits of the rest. When the victim has vanquished a total of 12 profane beings more powerful than itself, or prevented/righted/avenged 12 grave injustices, its essence is torn asunder and it emerges as a Seraph under the control an appropriate deity.
 
 ___

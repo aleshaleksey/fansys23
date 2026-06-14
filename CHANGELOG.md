@@ -695,9 +695,27 @@ ___
 - Strengthen [Lesser Freedom](08-spell-list.md#lesser-freedom) and [Greater Freedom](08-spell-list.md#greater-freedom) to include certain other conditions.
 - Add [Echo of Yesterday](08-spell-list.md#echo-of-yesterday) spell for more scrying.
 - Alter [Blessing of the Fates](08-spell-list.md#blessing-of-the-fates) to make it a touch weaker.
+- [Hide](08-spell-list.md#hide) now only fails if YOU attack it.
+- [Bear's Claws](08-spell-list.md#bears-claws) now affect unarmed strike I-IX.
+- [Chill blood](08-spell-list.md#chill-blood) now better counters charm.
+- [least Vengeance](08-spell-list.md#least-vengeance) can now be served cold
+- [Sense Spell](08-spell-list.md#sense-spell) now has advantage instead of disadvantage for determining the spell/effect detected.
+- Unbreak [Least Transformation](08-spell-list.md#least-transformation)
+- [Animate Dead](08-spell-list.md#animatecontrol-dead) now does big!
+- [Melt](08-spell-list.md#melt) is concentration for specifically worn items.
+- [Mole](08-spell-list.md#mole) at level 6 lets you dig through stone.
+- [Water ward](08-spell-list.md#water-ward) make material component less harsh.
+- [Simplify balance of nature](08-spell-list.md#balance-of-nature) to allow simplified dispelling.
+- [Blessing of the Fates is kinetic again](08-spell-list.md#blessing-of-the-fates)
+- [Heart Ward](08-spell-list.md#heart-ward) can make a single target immune to all instead.
+- [Isolate essence](08-spell-list.md#isolate-essence) now steals at least 5 levels of a multilevel ability.
+- [Inner Voice](08-spell-list.md#inner-voice) no longer useless when upcast.
+- [Metamorphosis](08-spell-list.md#metamorphosisrebirth) the rebirth table is not more humanoid biased.
+- Specifify important HP/SP/MP related details for [Incarnate](08-spell-list.md#incarnate).
+- [Edict of Life](08-spell-list.md#edict-of-life) negative mode is now a touch stronger.
 
 ### Equipment and Economy
 - [Linen garment](12-equipment-economy.md#adventuring-gear) give resistance to hot weather if it is caused by bright sunshine.
 
 ### Enchanting and Imbuing
-- Alter how enchanting/imbuing in [special locations](13-crafting-imbuing.md#enchanting-and-imbuing-in-special-locations) to do something other than bonuses in places of pwoer.
+- Alter how enchanting/imbuing in [special locations](13-crafting-imbuing.md#enchanting-and-imbuing-in-special-locations) to do something other than bonuses in places of power.

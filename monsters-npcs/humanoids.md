@@ -369,9 +369,9 @@ ___
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|12|18|12|12|14|13|
-|Bonus|+1|+4|+1+1|+2|+1|
-|Save|+3|+8|+3|+3|+4|+3|
+|Stat |12|18|12|12|14|13|
+|Bonus|+1|+4|+1|+1|+2|+1|
+|Save |+3|+8|+3|+3|+4|+3|
 
 |Level(base)|SP dice|MP Dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
@@ -1525,7 +1525,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|18/16/14|40 (*28*)|34 (*28*)|11|55ft|Climb (30ft)|
+|18/16/14|40 (*28*)|34 (*28*)|11|55ft|Climb (40ft)|
 
 Wears light cuirass  (+1)
 
@@ -1553,12 +1553,12 @@ Wears light cuirass  (+1)
 |Foresight|||A mystic warrior adds +1 to HiT from WIS|
 |["Flurry"](../06-abilities.md#flurry)|||A mystic warrior makes an extra attack with a light weapon or strike as a bonus action, or two if expending 1 MP dice.|
 |["Parry"](../06-abilities.md#parry)|||Adds +3 to HiT against up to 3 weapon attacks.|
-|Deflect Missile|||Spend 1 SP dice to reduce damage from ranged weapon attacks by 1d8+9 on a failed parry.|
+|Deflect Missile|||Reduce damage from ranged weapon attacks by 1d8+9 on a failed parry.|
 |["Debilitating Strike"](../06-abilities.md#debilitating-strike)|||"Aphonic", "Blinded", "Stunned". Thr=18|
 |["Deflection"](../06-abilities.md#deflection)|||An arcane warrior may deflect some damage from supernatural attacks.|
 |["Xenophonia I"](../06-abilities.md#xenophonia-i-xiii)|||Can speak to beasts.|
 |["Speed IV"](../06-abilities.md#speed)|||+20ft to movement speed for a total of 55ft.|
-|"[Mage Hunter II](../06-abilities.md#mage-hunter-ii)|||Mystic warriors are strong against mages.|
+|["Mage Hunter II"](../06-abilities.md#mage-hunter-ii)|||Mystic warriors are strong against mages.|
 |["Silent Step I"](../06-abilities.md#silent-step-i-iii)|||A mystic warrior can stealth even while moving at full speed.|
 |["Life Sense I"](../06-abilities.md#life-sense-i-vi)|||A mystic warrior can see the life-force of beings that are not undead within 15ft. The ability is blocked by 6ft of earth or organic material, or 2ft of stone or metal.|
 |["Mental Fight"](../06-abilities.md#mental-fight)|||A mystic warrior can use MP dice and SAP for flurry, debilitating strike and Flash step if it so chooses.|
@@ -1572,6 +1572,66 @@ A mystic warrior can represent a master of martial arts who has trained for deca
 A mystic warrior might carry a quarter staff or a greatbow, but is usually capable of handling most threats without weapons. Most mystic warriors will generally prefer to get what they want through dialogue, but are not averse to the use of force.
 
 In combat a mystic warrior prefers hit and run tactics, making good use of its combat manoeuvres and "debilitating strike" to disable dangerous opponents. If it has thе opportunity to do so, it will harry enemies with its greatbow before closing in.
+
+___
+### Beast folk mystic (level 9)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|21/16/17|38 (*22*)|56 (*40*)|13|50ft|Climb (30ft)|
+
+Wears mithral chain shirt (+4), shortstaff (+1)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|10|14|14|16|16|14|
+|Bonus|0|+2|+2|+3|+3|+2|
+|Save|+4|+5|+4|+5|+9|+4|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|9 (2)|10|19|2|4|4|6|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Strike|+6|1d4+2|(Unarmed Strike I)|
+|Shortstaff|+6|1d8+2|Modifier for throw and grapple, disarm increase to +8 when using a staff|
+|Blowgun|+6|1d4+2|240ft/60ft, a mystic generally coats their darts in [cobra venom](../14-poisons-and-diseases.md#effects): On a hit the target must succeed a Threshold=18 CON save or be ["suffocating"](../03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die) and ["paralysed"](../10-conditions-types.md#paralysed). The target repeats the save vs suffocation once per minute, but the paralysis lasts for a full hour.|
+|Grapple|+6|||
+|Restrain|+6|||
+|Throw|+6|||
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|["Precision Attack III"](../06-abilities.md#precision-attack-i-x)||+3d8||
+|["Combined manoeuvre I"](../06-abilities.md#combined-manoeuvre-i-v)|||A mystic can combine 2 manoeuvres (expends 1SP dice per combination)|
+|["Foresight"](../06-abilities.md#foresight)|||A mystic adds +2 to HiT from WIS|
+|["Parry"](../06-abilities.md#parry)|||Adds +3 to HiT against up to 3 weapon attacks.|
+|Deflect Missile|||Reduce damage from ranged weapon attacks by 1d8+9 on a failed parry.|
+|["Debilitating Strike"](../06-abilities.md#debilitating-strike)|||"Blinded". Thr=18|
+|["Deflection"](../06-abilities.md#deflection)|||A mystic may deflect damage from supernatural attacks, using their reaction (1d4 + SAP + [MP dice expended]d4).|
+|["Esoteric Deflection"](../06-abilities.md#esoteric-deflection)|||A mystic may deflect esoteric damage (1d6 + [2 x MP dice expended]).|
+|||||
+|Sc Local: Air II|Thr=22||Preferred Spells: ["Whispers"](../08-spell-list.md#whispers), ["Least Anemancy"](../08-spell-list.md#least-anemancy), ["Spirits' Secret"](../08-spell-list.md#spirits-secret), ["Lesser Illusory Self"](../08-spell-list.md#lesser-illusory-self), ["Silence"](../08-spell-list.md#silence), ["Glide"](../08-spell-list.md#glide)|
+|Sc Local: Earth II|Thr=22||Preferred Spells: ["Least Geomancy"](../08-spell-list.md#least-geomancy), ["Least Spike"](../08-spell-list.md#least-spike), ["Sense Spell"](../08-spell-list.md#sense-spell), ["Shape Earth"](../08-spell-list.md#shape-earth), ["Warded Ground"](../08-spell-list.md#warded-ground), ["Trace Secret Path"](../08-spell-list.md#trace-secret-path)|
+|Sc Local: Incantation V|Thr=22||Preferred Spells: ["Sour"](../08-spell-list.md#sour), ["Least Hydromancy"](../08-spell-list.md#least-hydromancy), ["Least Pyromancy"](../08-spell-list.md#least-pyromancy), ["Least Heal"](../08-spell-list.md#least-heal), ["Promise"](../08-spell-list.md#promise), ["Echo of Yesterday"](../08-spell-list.md#echo-of-yesterday), ["Summon Spirit"](../08-spell-list.md#summon-spirit), ["Dream"](../08-spell-list.md#dream)|
+|Sc Global I|Thr=22|||
+|["Bind Familiar: II"](../06-abilities.md#bind-familiar-i-iv)||||
+|||||
+|["Xenophonia I"](../06-abilities.md#xenophonia-i-xiii)|||Can speak to beasts.|
+|["Speed I"](../06-abilities.md#speed)|||+5ft to movement speed for a total of 55ft.|
+|["Silent Step I"](../06-abilities.md#silent-step-i-iii)|||A mystic can stealth even while moving at full speed.|
+|["Life Sense III"](../06-abilities.md#life-sense-i-vi)|||A mystic can see the life-force of beings that are not undead within 45ft. The ability is blocked by 6ft of earth or organic material, or 2ft of stone or metal.|
+|["Truesight I"](../06-abilities.md#truesight-i-vi)|||A mystic can see the true form of beings and objects within 15ft of them.|
+|||||
+|Senses|||"Low light vision", "Keen Hearing"|
+|Skills|||"Fortify" +9, "Climb" +9, "Athletics" +9, "Swim" +5, "Stealth" +5, "Navigate" +3, "Sense Motive" +4, "Observe" +4, "Intimidate" +2, "Creature Handling" +2, "Harvest" +1, "Prospect" +1, "Track" +1|
+|Loot|||The clothes and weapons on their back|
+
+A mystic is a practitioner of spiritual and esoteric arts. Mystics have few direct combat abilities, but those they do possess should not be underestimated. Besides seeing the unseen, creating wards, dealing in minor pacts and summoning dangerous spirits, a mystic also has the ability to defend themself.
+
+Mystics can generally prefers to avoid combat, but can defend themselves if the situation pushes them to do so. Firstly a mystic guards themselves with "Warded Ground". Secondly, they tend to keep a familiar on hand. Thirdly, they will often form contracts with summoned spirits to guard them and their possession. Lastly a mystic will often coat their weapons in dangerous poisons, hoping to get a jump on any approaching enemies due to their superior, bestial senses.
+
 
 ___
 ## Goblins

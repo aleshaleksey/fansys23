@@ -871,6 +871,7 @@ ___
 **Description**: Invoke fiery (or cold!) vengeance on a target that has dealt damage, or otherwise attacked you since the end of your last turn. The spell can be invoked immediately upon receiving damage as a reaction, or on the next turn as a secondary action.
 
 **Special**: Least vengeance can also be taken with fire magic or water magic.
+
 - If taken with fire magic the casting time is a reaction, and the damage is fire.
 - If taken with water magic, the casting time is a secondary action, and the damage is ice.
 

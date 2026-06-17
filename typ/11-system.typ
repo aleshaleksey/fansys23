@@ -22,7 +22,7 @@
     for n in range(page, 0, step: -1) {
       for c in chapters {
         if c.location().page() == n {
-          chapter = text(size: 11pt, weight: "thin", style: "normal", c.body)
+          chapter = text(size: 10pt, weight: "thin", style: "normal", c.body)
           undone1 = false
           break
         }
@@ -32,7 +32,7 @@
     for n in range(page, 0, step: -1) {
       for c in subchapters {
         if c.location().page() == n {
-          subchapter = text(size: 11pt, weight: "thin", style: "italic", c.body)
+          subchapter = text(size: 10pt, weight: "thin", style: "italic", c.body)
           undone2 = false
           break
         }
@@ -62,7 +62,7 @@
 #set text(
   font: "New Computer Modern",
   spacing: 115%,
-  size: 10.6pt,
+  size: 10pt,
   overhang: true,
   fractions: true,
 )
@@ -80,7 +80,7 @@
 
 #show heading.where(depth: 4): h => context {
   [
-    #text(size: 10.6pt, weight: "semibold", style: "normal", h.body)
+    #text(size: 10pt, weight: "semibold", style: "normal", h.body)
     #linebreak()
   ]
 }
@@ -119,16 +119,16 @@
   let real_tabh = tab.height * factor
 //   If we're dealing with a one columned page, don't do special treatment.
   if page.columns == 1 {
-    align(center)[#it.body]
+    align(center)[#it]
   } else if colw < tab.width and colh < real_tabh {
     context [
       #set page(columns: 1)
-      #align(left)[#it.body]
+      #align(left)[#it]
     ]
   } else if colw < tab.width {
-    place(auto, float: true, scope: "parent")[#align(left)[#it.body]]
+    place(auto, float: true, scope: "parent")[#align(left)[#it]]
   } else {
-    align(center)[#it.body]
+    align(center)[#it]
   }
 }
 
@@ -144,11 +144,14 @@
   scope: "parent",
 )[== A New System for Fantasy Worlds]
 
-
+#pagebreak()
+#pagebreak()
 #set page(columns: 1)
 #outline(target: heading.where(level: 1))
 #set page(columns: 2)
 
+#pagebreak()
+#pagebreak()
 #include "build/00-overview.typ"
 #pagebreak()
 #pagebreak()
@@ -176,6 +179,7 @@
 #include "build/10-conditions-types.typ"
 #pagebreak()
 #pagebreak()
+#pagebreak()
 #include "build/11-weapons-armour.typ"
 #pagebreak()
 #pagebreak()
@@ -186,6 +190,7 @@
 #pagebreak()
 #pagebreak()
 #include "build/14-poisons-and-diseases.typ"
+#pagebreak()
 #pagebreak()
 #pagebreak()
 #include "build/15-charm-etc.typ"

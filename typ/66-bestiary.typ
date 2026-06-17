@@ -61,7 +61,7 @@
   font: "New Computer Modern",
   tracking: 0.1pt,
   spacing: 120%,
-  size: 11pt,
+  size: 10.6pt,
 )
 // #set figure(align: horizon + start)
 #set table(
@@ -123,21 +123,41 @@
 )[== A Bestiary for Fantasy Worlds]
 
 #pagebreak()
+#pagebreak()
 #outline(target: heading.where(level: 1))
 
+#pagebreak()
+#pagebreak()
 #include "build/forwards.typ"
 
+#pagebreak()
+#pagebreak()
 #include "build/beasts-and-plants.typ"
+
+#pagebreak()
 #pagebreak()
 #include "build/constructs.typ"
+
+#pagebreak()
+#pagebreak()
 #pagebreak()
 #include "build/divines.typ"
+
+#pagebreak()
 #pagebreak()
 #include "build/humanoids.typ"
+
+#pagebreak()
+#pagebreak()
 #pagebreak()
 #include "build/monsters-and-dragons.typ"
+
+#pagebreak()
+#pagebreak()
 #pagebreak()
 #include "build/profanes.typ"
+
+#pagebreak()
 #pagebreak()
 #include "build/spirits.typ"
 #pagebreak()

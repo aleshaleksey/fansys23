@@ -6,7 +6,7 @@
     - [Rounding up and down](#rounding-up-and-down)
     - [Core Rolls](#core-rolls)
     - [The 2d12 roll](#the-2d12-roll)
-    - [Taking 24, taking 13, auto-failure and voluntary failure](#taking-24-taking-13-auto-failure-and-voluntary-failure)
+    - [Taking 24, taking 13, auto-failure and voluntary failure](#taking-24-taking-12-auto-failure-and-voluntary-failure)
     - [Opposing Rolls vs Thresholds](#opposing-rolls-vs-thresholds)
     - [Precedence of Rolls: Thresholds (DC), and opposing rolls](#precedence-of-rolls-thresholds-dc-and-opposing-rolls)
     - [Difficulties and recommended thresholds](#difficulties-and-recommended-thresholds)

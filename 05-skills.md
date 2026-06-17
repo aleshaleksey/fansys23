@@ -249,7 +249,7 @@ ___
 Each skill has a number of described uses. However, the list is generally not exhaustive and additional uses should be discussed within the group. For each skill there are two important questions:
 
 1. Can an entity try the roll again, and what are the consequences? If the answer is not "yes", then one cannot "take 20" or "take 24" in that skill.
-2. Can an entity "take care" in that skill or not under appropriate circumstances (see  ["Take Care"](02-base-rules.md#taking-24-taking-13-auto-failure-and-voluntary-failure))?
+2. Can an entity "take care" in that skill or not under appropriate circumstances (see  ["Take Care"](02-base-rules.md#taking-24-taking-12-auto-failure-and-voluntary-failure))?
 
 ___
 ### STR Based

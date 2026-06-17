@@ -260,14 +260,14 @@ If the damage is due to an effect that allows a save (before taking the first 1 
 
 If the damage is from a source that has neither attack roll or save, it automatically gains the condition.
 
-To determine which condition is gained, roll a d6, and find the appropriate entry (by number and damage type) on the ["conditions by damage type" table](#conditions-by-damage-type). This condition is applied for the "usual" duration defined in the ["Condition Table"](#condition-table).
+To determine which condition is gained, roll a d6, and find the appropriate entry (by number and damage type) on the ["conditions by damage type" table](10-conditions-types.md#conditions-by-damage-type). This condition is applied for the "usual" duration defined in the ["Condition Table"](10-conditions-types.md#condition-table).
 
 ___
 ### Dropping defences and voluntary HP damage
 
 An entity can chose not to defend itself when it takes damage, or even to directly harm itself (eg cut itself, shoot itself, swallow a fireball). In those cases it can chose damage to be dealt directly to its own HP (bypassing MP and SP).
 
-If dropping defences in combat, the target uses a reaction/minor interaction. It will lose its "shield" and "evasion" bonus to HiT and can fail saves which can be [failed voluntarily](02-base-rules.md#taking-24-taking-13-auto-failure-and-voluntary-failure). Out of combat time, there is usually time to line up an attack and auto-hit against a target that has dropped its defences.
+If dropping defences in combat, the target uses a reaction/minor interaction. It will lose its "shield" and "evasion" bonus to HiT and can fail saves which can be [failed voluntarily](02-base-rules.md#taking-24-taking-12-auto-failure-and-voluntary-failure). Out of combat time, there is usually time to line up an attack and auto-hit against a target that has dropped its defences.
 
 OPTIONAL RULE: Harming oneself, or dropping one's defences often takes a considerable amount of willpower. Therefore a group may rule that a character from a race that has survival instincts must succeed a Threshold=20 CHA save before it can drop its defences or harm itself.
 

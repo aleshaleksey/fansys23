@@ -1475,6 +1475,56 @@ This represents merchants, emissaries, messengers and other experienced wayfarer
 In combat, a beast folk traveller will attempt to put some distance between themselves and targets and attack from afar. If this seems unlikely to work, they will flurry with tooth and claw, trying to take out their target as quickly as possible.
 
 ___
+### Beast folk bard (level 6)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|17/17/16|32 (*22*)|38 (*23*)|11|35ft|30ft (Climb)|
+
+Leather Cuirass (+1), shortstaff (+1)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|10|16|14|13|14|17|
+|Bonus|0|+3|+2|+1|+2|+3|
+|Save|+2|+5|+4|+2|+4|+8|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|6(2)|10|10|2|2|4|4|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Dagger|+7|1d4+3|Close (Range 60ft/10ft)|
+|Shortstaff|+7|1d4/1d8+3|Close. +2 to "Throw", "Grapple" and "Disarm".|
+|Shortbow|+7|1d6+3|1d6+3|(Range 600ft/120ft)|
+|Grapple/Throw/Disarm|+7||Close|
+|["Combined Manoeuvre I"](../06-abilities.md#combined-manoeuvre-i-v)|||(Cost=1SP die) A bard can combine up to two manoeuvres.|
+|["Offhand fighting I"](../06-abilities.md#offhand-fighting-i-iv)|||A bard can make an offhand attack as a secondary action.|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Spellcasting: Incantation II|Thr=18||Favoured Spells: ["Down"](../08-spell-list.md#down), ["Least Anemancy"](../08-spell-list.md#least-anemancy), ["Sour"](../08-spell-list.md#sour), ["Least Heal"](../08-spell-list.md#least-heal), ["Lesser Veil"](../08-spell-list.md#lesser-veil)|
+|["Xenophonia I"](../06-abilities.md#xenophonia-i-xiii)|||Can speak to beasts.|
+|["Bard Song II"](../06-abilities.md#bard-song-i-iv)|||(Cost=1SP die) As a secondary action a bard can begin and maintain bard song.|
+|||||
+|["Alert"](../06-abilities.md#alert)|||A bard cannot be surprised|
+|["Weapon Finesse"](../06-abilities.md#weapon-finesse)|||Add damage to dex based attacks.|
+|["Flurry"](../06-abilities.md#flurry)|||Makes an extra attack with their unarmed attack.|
+|["Parry"](../06-abilities.md#parry)|||Adds +2 to HiT against up to 2 weapon attacks.|
+|["Precision Attack I"](../06-abilities.md#precision-attack-i-x)|||Do extra damage against a foe as a main action.|
+|||||
+|Senses|||"Low light vision"|
+|Skills|||"Perform" +8, "Deceive" +8, "Navigate" +7, "Sense Motive" +4, "Observe" +4, "Intimidate" +4, "Creature Handling" +4, "Track" +3, "Know: Geography" +3, "Know: History" +3, "Know: Nature" +3, "Prospect" +2, "Fortify" +2, "Athletics" +1, "Climb" +1, "Swim" +1, "Harvest" +1|
+|Loot|||The clothes on their back, 10-400sp, one or two musical instruments. Occasionally a rare tome.|
+
+
+
+Beast folk bards travel the world, or at least parts of it, picking up and sharing stories and songs. They tend to combine the function heralds, messengers, spies and entertainers. While bards often follow heroes to witness and immortalise their deeds, sometimes as sidekicks, they should not be considered weak or cowardly.
+
+Most bards will generally avoid combat, but some can be vain, prideful and combative. If provoked a bard will generally use their song to bolster the morale of their allies before entering the fray. Bards generally prefer to harass their opponent from a distance before closing in for the finishing blow.
+
+___
 ### Beast folk warrior (level 7)
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|

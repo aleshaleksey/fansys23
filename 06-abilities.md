@@ -277,10 +277,10 @@ ___
 
 |Bard Song Level|Perform Ranks|Resistance|Advantage|
 |-|-|-|-|
-|I|1|"frightened"|-|
-|II|3|"catatonic"|1 skill roll per song|
-|III|5|"incapacitated"|1 skill roll or save per song|
-|IV|7|"paralysed"|1 skill roll or save or attack roll per song|
+|I|1|"frightened"|1 skill roll per song|
+|II|3|"catatonic"|1 skill or save roll per song|
+|III|5|"incapacitated"|1 roll per song|
+|IV|7|"paralysed"|2 rolls per song|
 
 ___
 #### Berserk I-V

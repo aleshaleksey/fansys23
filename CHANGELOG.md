@@ -719,3 +719,9 @@ ___
 
 ### Enchanting and Imbuing
 - Alter how enchanting/imbuing in [special locations](13-crafting-imbuing.md#enchanting-and-imbuing-in-special-locations) to do something other than bonuses in places of power.
+
+___
+## From v0.0.21
+
+### Abilities
+- [Bard Song](06-abilities.md#bard-song-i-iv) is strengthened a little (roll advantage is obtained one level lower).

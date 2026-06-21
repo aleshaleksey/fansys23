@@ -1471,6 +1471,7 @@ ___
 |Draconic Spell|||A dragon may use 2 MP dice to cast a spell of 5 MP dice or less as a secondary action.|
 |Alert||||
 |Foresight||||
+|Blind Sight (10ft)|||A dragon "see" nearby objects and entities even when effectively “blinded”.|
 |Truesight (120ft)||||
 |Keen senses|||Sight, Smell|
 |Low-light vision||||
@@ -1557,6 +1558,7 @@ ___
 |Elemental Affinity: Fire||||
 |Alert||||
 |Foresight||||
+|Blind Sight (10ft)|||A dragon "see" nearby objects and entities even when effectively “blinded”.|
 |Truesight (90ft)||||
 |Keen senses|||Sight, Smell|
 |Low-light vision||||
@@ -1632,6 +1634,7 @@ ___
 |Elemental Affinity: Ice||||
 |Alert||||
 |Foresight||||
+|Blind Sight (10ft)|||A dragon "see" nearby objects and entities even when effectively “blinded”.|
 |Truesight (120ft)||||
 |Keen senses|||Sight, Smell|
 |Low-light vision||||
@@ -1712,6 +1715,7 @@ ___
 |Elemental Affinity: Ice||||
 |Alert||||
 |Foresight||||
+|Blind Sight (10ft)|||A dragon "see" nearby objects and entities even when effectively “blinded”.|
 |Truesight (90ft)||||
 |Keen senses|||Sight, Smell|
 |Low-light vision||||
@@ -1787,6 +1791,7 @@ ___
 |Draconic Spell|||A dragon may use 2 MP dice to cast a spell of 5 MP dice or less as a secondary action.|
 |Alert||||
 |Foresight||||
+|Blind Sight (10ft)|||A dragon "see" nearby objects and entities even when effectively “blinded”.|
 |Truesight (120ft)||||
 |Keen senses|||Sight, Smell|
 |Low-light vision||||
@@ -1874,6 +1879,8 @@ ___
 |Elemental Affinity: Fire||||
 |Alert||||
 |Foresight||||
+|Blind Sight (10ft)|||A dragon "see" nearby objects and entities even when effectively “blinded”.|
+|Tremor Sense (60ft)|||An earthbound dragon can localise entities based on vibrations transmitted through solids or liquids|
 |Truesight (90ft)||||
 |Keen senses|||Sight, Smell|
 |Low-light vision||||
@@ -1930,8 +1937,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Alternate form|||The earthbound dragon has an animal and true form. Unlike other dragons it does not have a humanoid form. It may shift between them as a "main action". Each form is constant (always the same animal, always the same humanoid, always the same dragon)|
-|Sc: Earth IX|Thr=22||Favourites: "Greater Cosmic Seal", "Greater Domain", "Portal", "Create Secret Path", "False Regrowth", "see spell", slumber", "silence", "Trace Secret Path", "Revenant", "Lesser Cosmic Seal", "Healing Seed", "Balance of Elements", "Animate Golem", "Enchanted Ground", "Guidance of the Earth", "Earth Ward", "Slumber", "Dusk", "Summon Gnome", "Gnomes' Mercy", "Shape Earth", "Sour"|
+|Sc: Earth IX|Thr=22||Favourites: "Greater Cosmic Seal", "Greater Domain", "Portal", "Create Secret Path", "False Regrowth", "See Spell", Slumber", "Silence", "Trace Secret Path", "Revenant", "Lesser Cosmic Seal", "Healing Seed", "Balance of Elements", "Animate Golem", "Enchanted Ground", "Guidance of the Earth", "Earth Ward", "Slumber", "Dusk", "Summon Gnome", "Gnomes' Mercy", "Shape Earth", "Sour"|
 |Sc: Nature IV|Thr=22||Favourites: "Rejuvenate Land" "Growth", "Animate Plant", "Cure", "Harvest", "Call Ailment", "Ensnare", "
 Least Heal"|
 |Sc: Global||||
@@ -1940,14 +1946,17 @@ Least Heal"|
 |Elemental Affinity|||Earth|
 |Alert||||
 |Foresight||||
+|Blind Sight (10ft)|||A dragon "see" nearby objects and entities even when effectively “blinded”.|
+|Tremor Sense (120ft)|||An earthbound dragon can localise entities based on vibrations transmitted through solids or liquids|
 |Truesight (90ft)||||
 |Keen senses|||Sight, Smell|
 |Low-light vision||||
-|Immunity|||Ice, Fear|
+|Immunity|||Pressure, Fear|
 |Resistance|||"slashing", "shear", "percussive" damage|
 |Arcane Interception||||
 |Deflection||||
 |Draconic Spell|||A dragon may use 2 MP dice to cast a spell of 5 MP dice or less as a secondary action.|
+|Alternate form|||The earthbound dragon has an animal and true form. Unlike other dragons it does not have a humanoid form. It may shift between them as a "main action". Each form is constant (always the same animal).|
 |Skills|||Fortify + 22, Athletics +22, Observe +18, Track +18, Appraise +16, Spellcraft + 16, Sense Motive +18, K:Arcana +16, K:History +16, K:Geography +16|
 |Skills|||All others: [Stat bonus]+1|
 
@@ -2015,10 +2024,11 @@ Least Heal"|
 |Sc: Global||||
 |Alert||||
 |Foresight||||
+|Blind Sight (10ft)|||A dragon "see" nearby objects and entities even when effectively “blinded”.|
 |Truesight (90ft)||||
 |Keen senses|||Sight, Smell|
 |Low-light vision||||
-|Immunity|||Ice, Fear|
+|Immunity|||Pressure, Fear|
 |Resistance|||"slashing", "shear", "percussive" damage|
 |Arcane Interception||||
 |Deflection||||
@@ -2026,7 +2036,7 @@ Least Heal"|
 |Still Spell||||
 |Elemental Affinity|||Earth|
 |Draconic Spell|||A dragon may use 2 MP dice to cast a spell of 5 MP dice or less as a secondary action.|
-|Alternate form|||The earthbound dragon has an animal and true form. Unlike other dragons it does not have a humanoid form. It may shift between them as a "main action". Each form is constant (always the same animal, always the same humanoid, always the same dragon)|
+|Alternate form|||The earthbound dragon has an animal and true form. Unlike other dragons it does not have a humanoid form. It may shift between them as a "main action". Each form is constant (always the same animal).|
 |Skills|||Fortify + 17, Athletics +17, Observe +14, Track +14, Appraise +13, Spellcraft + 12, Sense Motive +13, K:Arcana +11, K:History +11, K:Geography +11|
 |Skills|||All others: [Stat bonus]+1|
 

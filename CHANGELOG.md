@@ -711,7 +711,7 @@ ___
 - [Isolate essence](08-spell-list.md#isolate-essence) now steals at least 5 levels of a multilevel ability.
 - [Inner Voice](08-spell-list.md#inner-voice) no longer useless when upcast.
 - [Metamorphosis](08-spell-list.md#metamorphosisrebirth) the rebirth table is not more humanoid biased.
-- Specifify important HP/SP/MP related details for [Incarnate](08-spell-list.md#incarnate).
+- Specify important HP/SP/MP related details for [Incarnate](08-spell-list.md#incarnate).
 - [Edict of Life](08-spell-list.md#edict-of-life) negative mode is now a touch stronger.
 
 ### Equipment and Economy

@@ -7,6 +7,7 @@
     - [Snatcher's Hands](#snatchers-hands)
     - [Mudcrawler](#mudcrawler)
     - [Corpse Stork](#corpse-stork)
+    - [Hover-cat](#hover-cat)
     - [Hive Beast](#hive-beast)
     - [Fell Beast](#fell-beast)
     - [Troll Head](#troll-head)
@@ -237,6 +238,53 @@ ___
 |Loot|||The quills of corpse storks are particularly valued, but alchemists generally value their innards. The flesh of these monsters, however, is often infested with all kind of parasites.|
 
 These huge bird-like monsters hunt primarily humanoids. They hunt their prey by poisoning them with their needle-like feathers and one they confirm that they are weakened, descend to finish them off. Once they have at least one corpse, they inflate its chest with its tail, causing it to mimic the voice it had in life. This creates an illusion of the corpse calling for help, which acts to lure more humanoid prey to the Corpse Stork. The Corpse Stork both feasts on the flesh and lays its eggs in it.
+
+___
+### Hover-cat
+
+**Size category**: Large (10ft x 10ft)
+
+- Evade: -1, Armour +2
+- Reach: 5ft (long)
+- [DEX save]: -1, [STR save]: +1
+- Carry capacity: (216lb light, 432lb medium, 1080lb heavy, 1620lb drag)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|15/13/13|24 (*16*)|26 (*18*)|9|20ft|Flight (45ft, perfect, endurance = 4h)|
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|18|15|14|5|13|14|
+|Bonus|+4|+2|+2|-3|+1|+2|
+|Save|+6|+4|+3|-2|+2|+3|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|5(1)|7|8|2|2|3|3|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite|+7|1d10+2 [Sh]|Reach=5ft(long)|
+|Claws|+7|1d4+4 [Sh]|Reach=5ft|
+|Grapple|+7|||
+|Monster Attack|||A hover-cat makes one bite attack and one claw attack as a main action|
+|[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||A hover-cat can grapple the creatures it attacks (1SP die)|
+|||||
+|Fleet|||A hover-cat can stealth from "light concealment"|
+|Stalker|||A hover-cat can "stealth" as a "secondary action"|
+|Opportunist|||A hover-cat may make attacks of opportunity even again entities that move between threatened squares, even when they use careful movement|
+|Mighty I|||A hover-cat can carry a lot more weight than their frame suggests|
+|||||
+|Magical flight|||A hover-cat's flight can be dispelled as if it were a ["wind walk"](../08-spell-list.md#wind-walk) spell cast with 5 MP dice (Thr=18). In this case it loses its flight for a minute.|
+|Low light Vision||||
+|Keen Scent, Keen Hearing||||
+|Skills|||"Fly" +5, "Stealth" +5, "Track" +4, "Observe" +4|
+|Loot|||Meat, 300lb. Furs: Enough for 1 set of hide armour. Heart: The heart of a hover-cat replaces the casting of a "wind walk" or "glide" spell when imbuing or enchanting magical items.|
+
+Hover-cats are fluffy ambush predators that inhabit forested canyons and other nigh-impassible terrain. Hover-cats are large, flying felines with short, vestigial legs, which makes them look somewhat like seals. Their main mode of movement is supernatural flight as their limbs are too short to support reasonable overland movement. They may be solitary or hunt in packs. Hover-cats are incredibly agile flyers, but are fundamentally slow, so if they fail to catch their prey within the first few seconds, they will usually give up.
+
+Sometimes orcs, winged and beast-folk will tame them as mounts and pets.
 
 ___
 ### Hive Beast

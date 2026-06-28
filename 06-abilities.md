@@ -970,7 +970,7 @@ ___
 
 **Limitations**:
 
-- The ability cannot be used when you are surprised, or otherwise incapable of using reaction.
+- The ability cannot be used when you incapable of using reaction.
 
 **Prerequisite**:
 

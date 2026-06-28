@@ -29,9 +29,10 @@ The reason for different races having different kinds of stat blocks was to refl
     - [Elvish Acolyte (level 4)](#elvish-acolyte-level-4)
     - [Elvish Apprentice (level 4)](#elvish-apprentice-level-4)
     - [Elf (level 5)](#elf-level-5)
-    - [Elvish Elder (level 13)](#elvish-elder-level-13)
-    - [Elvish Hunter (level 11)](#elvish-hunter-level-11)
     - [Elvish Mage (level 10)](#elvish-mage-level-10)
+    - [Elvish Hunter (level 11)](#elvish-hunter-level-11)
+    - [Elvish Spell Singer (level 12)](#elvish-spell-singer-level-12)
+    - [Elvish Elder (level 13)](#elvish-elder-level-13)
 - [Orc](#orc)
     - [Orc (level 2)](#orc-level-2)
     - [Orcish Tamer (level 4)](#orcish-tamer-level-4)
@@ -47,6 +48,7 @@ The reason for different races having different kinds of stat blocks was to refl
 - [Beast folk](#beast-folk)
     - [Beast Folk (level 2)](#beast-folk-level-2)
     - [Beast folk traveller (level 4)](#beast-folk-traveller-level-4)
+    - [Beast Folk bard (level 6)](#beast-folk-bard-level-6)
     - [Beast folk warrior (level 7)](#beast-folk-warrior-level-7)
     - [Beast folk mystic warrior (level 8)](#beast-folk-mystic-warrior-level-8)
 - [Goblins](#goblins)
@@ -801,57 +803,54 @@ The average elf has lived for centuries and has had time to learn an incredible 
 
 An average elf will carry a sling and knife for self defence, knowing that the world is more dangerous than it appears. They seldom enter combat unless there is a strict necessity for it. No one wants to die.
 
-____
-### Elvish Elder (level 13)
+___
+### Elvish Mage (level 10)
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|18/18/18|49 (*33*)|76 (*52*)|15|35ft|-|
+|16/13/15|36 (*27*)|58 (*40*)|15|35ft|-|
 
-(HiT (19/19/19) if wearing a light cuirass)
+Wears a light cuirass.
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|14|20|12|14|18|14|
-|Bonus|+2|+5|+1|+2|+4|+2|
-|Save|+5|+8|+7|+5|+15|+5|
+|Stat|10|16|12|14|18|14|
+|Bonus|+2|+3|+1|+2|+4|+2|
+|Save|+4|+5|+3|+8|+10|+4|
 
 |Level(base)|SP dice|MP Dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
-|13 (3)|16|25|3|5|6|8|
+|10 (2)|13|19|3|4|5|6|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Longbow|+13|1d10+6[Pi]|range = 1200/240ft|
-|Sling|+13|1d6+5[Pi]|range = 1600/80ft|
-|Knife|+13|1d4+5[Sl]||
+|Sling|+8|1d6+3[Pi]|range = 1600/80ft|
+|Shortstaff|+8|1d6+3[Pi]||
+|Knife|+8|1d4+3[Sl]||
 |||||
-|Elementalism: Light (Blast)|+15|3d4+4[Lig]|(Range=120ft+30ft/MP die), maximum of 7 dice (10d4+4)|
-|Elementalism: Light (Circle)|Thr=24|3d4+4[Lig]|(Range=120ft+30ft/MP die), maximum of 7 dice (10d4+4), maximum radius of 70ft (10ft/MP die).|
+|Elementalism: Light (Blast)|+10|2d4+4[Lig]|(Range=120ft+30ft/MP die), maximum of 5 dice (7d4+4)|
+|Elementalism: Light (Circle)|Thr=21|2d4+4[Lig]|(Range=120ft+30ft/MP die), maximum of 5 dice (7d4+4), maximum radius of 50ft (10ft/MP die).|
 |||||
-|Sc: Nature VII|Thr=24||["Sour"](../08-spell-list.md#silent), ["Hide"](../08-spell-list.md#hide), ["Beast Speech"](../08-spell-list.md#beast-speech), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Rest"](../08-spell-list.md#least-rest), ["Animate Plant"](../08-spell-list.md#animate-plant),["Cure"](../08-spell-list.md#cure), ["Bestial Transformation"](../08-spell-list.md#bestial-transformation), ["Rejuvenate Land"](../08-spell-list.md#rejuvenate-land), ["Greater Fade"](../08-spell-list.md#greater-fade), ["Lesser Cosmic Seal"](../08-spell-list.md#lesser-cosmic-seal), ["Fairy Feast"](../08-spell-list.md#fairy-feast), ["Summon Elemental"](../08-spell-list.md#summon-elemental), ["Create Secret Path"](../08-spell-list.md#create-secret-path), ["Greater Weather Control"](../08-spell-list.md#greater-weather-control)|
-|Sc: Water III|Thr=24||["Least Hydromancy"](../08-spell-list.md#least-hydromancy), ["Mist"](../08-spell-list.md#mist), ["Chill Blood"](../08-spell-list.md#chill-blood), ["Winter's Touch"](../08-spell-list.md#winters-touch), ["Summon Water Sprite"](../08-spell-list.md#summon-water-sprite), ["Least Transformation"](../08-spell-list.md#least-transformation), ["See Spell"](../08-spell-list.md#see-spell), ["Water Ward"](../08-spell-list.md#water-ward)|
-|Sc: Global I||||
+|Sc: Nature V|Thr=21||["Sour"](../08-spell-list.md#silent), ["Hide"](../08-spell-list.md#hide), ["Beast Speech"](../08-spell-list.md#beast-speech), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Rest"](../08-spell-list.md#least-rest), ["Animate Plant"](../08-spell-list.md#animate-plant),["Cure"](../08-spell-list.md#cure), ["Bestial Transformation"](../08-spell-list.md#bestial-transformation), ["Rejuvenate Land"](../08-spell-list.md#rejuvenate-land)|
+|Sc: Water V|Thr=21||["Least Hydromancy"](../08-spell-list.md#least-hydromancy), ["Mist"](../08-spell-list.md#mist), ["Chill Blood"](../08-spell-list.md#chill-blood), ["Winter's Touch"](../08-spell-list.md#winters-touch), ["Summon Water Sprite"](../08-spell-list.md#summon-water-sprite), ["Water Ward"](../08-spell-list.md#water-ward), "[](../08-spell-list.md)"|
+|Sc: Air III|Thr=21||["Least Anemancy"](../08-spell-list.md#least-anemancy), ["Least Blast"](../08-spell-list.md#least-blast), ["Spirits' Secrets"](../08-spell-list.md#spirits-secret), ["Silence"](../08-spell-list.md#silence), ["Glide"](../08-spell-list.md#glide), ["Wind Walk"](../08-spell-list.md#wind-walk), ["Guidance of the Winds"](../08-spell-list.md#guidance-of-the-winds)|
 |||||
-|Low-light vision||||
-|[Multi-attack I](../06-abilities.md#multi-attack-i-iii)|||Make 2 attacks per turn|
 |[Fleet](../06-abilities.md#fleet)|||Hide from light concealment|
 |[Alert](../06-abilities.md#alert)|||Immune to "surprised"|
 |[Aphonic Spell](../06-abilities.md#aphonic-spell)|||Eschew incantation components|
-|[Pointblank Shot I](../06-abilities.md#point-blank-shot-i-iii)|||Use bow and sling in melee|
-|[Precise Shot I](../06-abilities.md#precise-shot-i-iii)|||Ignore light cover|
-|[Trick Shot I](../06-abilities.md#trick-shot-i-ii)|||Avoid hitting friendlies in melee|
+|[Lingering Spell](../06-abilities.md#lingering-spell)|||Spells last longer|
+|[Safe Cast](../06-abilities.md#safe-cast)|||Eschew incantation components|
 |[Silent Step II](../06-abilities.md#silent-step-i-iii)|||Move more silently & run silently|
 |[Cursed Blood](../06-abilities.md#cursed-blood)|||Reaction to cast spells in revenge|
-|[True Sight (30ft)](../06-abilities.md#truesight-i-vi)|||An elder can see the true nature of nearby objects|
-|Resistance|||"charmed", "stunned"|
+|Low-light vision||||
+|Immunity|||"charmed"|
 |Proficiencies|||One musical instrument, elvish, common and at least 2 other languages|
-|Skills|||Usually +12 to "perform", +9 to four knowledges, +6 to the rest, +7 to "spellworking", +7 to "acrobatics" and +8 to "stealth", "navigate" +8|
+|Skills|||Usually +5 to "perform", +7 to three knowledges, +9 to "spellworking", +4 to "acrobatics" and +8 to "stealth", "navigate" +5|
 |Loot|||Usually some small trinket of sentimental value and the clothes on their back|
 
-This represents a millennia old elf. They have likely seen civilisations rise and fall. If they ever had friends amongst shorter lived mortals, then they have likely passed on long ago. This entity has a terrifying wealth of experience. This block can represent an elvish king, or some traveller who has wondered the earth for longer than he can remember. Either way, this is an extremely dangerous opponent.
+This represents an elf who has devoted several centuries to learning spellcraft.
 
-Elvish elders seldom carry much on their journeys. They will almost never engage in combat (how else does one live this long). However, should an inevitable threat appear, they will attempt to eradicate it in the most effective manner. They will not fight fair or put themselves in danger unless absolutely necessary. No one wants to die.
+An elvish mage will generally leave the scene as soon as it senses that a fight might be inevitable. However, they will defend themselves, their apprentices and their brethren fiercely. In those cases they will use communication magic to warn allies, before using appropriate magics. Elven mages are generally weary for counter-spelling mages.
 
 ___
 ### Elvish Hunter (level 11)
@@ -910,54 +909,114 @@ A hunter carries only what they need to exist autonomously and hunt down their p
 
 **NB**: Do not use this stat block unless you intend to kill the party, or know that they have a very good capacity when it comes to detecting hidden foes.
 
-___
-### Elvish Mage (level 10)
+____
+### Elvish Spell Singer (level 12)
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|16/13/15|36 (*27*)|58 (*40*)|15|35ft|-|
+|19/15/17|50 (*28*)|110 (*55*)|19|40ft|Blink (40ft)|
 
-Wears a light cuirass.
+(wears a +1 light cuirass and carries a shortstaff)
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
-|Stat|10|16|12|14|18|14|
-|Bonus|+2|+3|+1|+2|+4|+2|
-|Save|+4|+5|+3|+8|+10|+4|
+|Stat|10|16|14|17|16|20|
+|Bonus|+0|+3|+2|+3|+3|+5|
+|Save|+3|+6|+8|+6|+11|+8|
 
 |Level(base)|SP dice|MP Dice|Nat|Sup|NAP|SAP|
 |-|-|-|-|-|-|-|
-|10 (2)|13|19|3|4|5|6|
+|12 (3)|13|25|3|5|6|8|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Sling|+8|1d6+3[Pi]|range = 1600/80ft|
-|Shortstaff|+8|1d6+3[Pi]||
-|Knife|+8|1d4+3[Sl]||
+|Composite Bow|+8|1d8+3[Pi]|range = 1200/240ft|
+|Shortstaff|+8|1d6+3[Pe]|Reach = 5ft (long)|
+|Knife|+8|1d4+3[Sl]|Reach = 5ft, Range = 60/10ft|
 |||||
-|Elementalism: Light (Blast)|+10|2d4+4[Lig]|(Range=120ft+30ft/MP die), maximum of 5 dice (7d4+4)|
-|Elementalism: Light (Circle)|Thr=21|2d4+4[Lig]|(Range=120ft+30ft/MP die), maximum of 5 dice (7d4+4), maximum radius of 50ft (10ft/MP die).|
+|Elementalism: Light (Touch)|+13|3d4+3[Lig]|(Range=120ft+30ft/MP die), maximum of 6 dice (9d4+3)|
+|Elementalism: Light (Aura)|Thr=21|3d4+3[Lig]|(Range=120ft+30ft/MP die), maximum of 6 dice (9d4+3)|
+|Elementalism: Air (Blast/Touch)|+13|3d8+3[Pr]|(Range=120ft+30ft/MP die), maximum of 6 dice (9d8+3)|
+|Elementalism: Air (Circle/Line/Arc/Aura)|Thr=21|3d8+3[Pr]|(Range=120ft+30ft/MP die), maximum of 6 dice (9d8+4)|
+|Elementalism: Air (Effects)|Thr=21||Prone, Shove, Aphonic, Deafened|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Sc: Incantation VI|Thr=22||Favoured Spells: [Down](../08-spell-list.md#down), [Least Geomancy](../08-spell-list.md#least-geomancy), [Least Pyromancy](../08-spell-list.md#least-pyromancy), [Least Vengeance](../08-spell-list.md#least-vengeance), [Echo of Yesterday](../08-spell-list.md#echo-of-yesterday), [Melt](../08-spell-list.md#melt), [Wind Walk](../08-spell-list.md#wind-walk), [Lesser Weather Control](../08-spell-list.md#lesser-weather-control), [Speak through Flame](../08-spell-list.md#speak-through-flame), [Dream](../08-spell-list.md#dream), [Fairy Feast](../08-spell-list.md#fairy-feast)|
+|Sc: Nature IV|Thr=21||Favoured Spells: [Compass](../08-spell-list.md#compass), [Hide](../08-spell-list.md#hide), [Least Heal](../08-spell-list.md#least-heal), [Ensnare](../08-spell-list.md#ensnare), [Least Rest](../08-spell-list.md#least-rest), [Natural Xenophonia](../08-spell-list.md#natural-xenophonia), [Lesser Veil](../08-spell-list.md#lesser-veil), [Cure](../08-spell-list.md#cure), [Slumber](../08-spell-list.md#slumber), [Healing Seed](../08-spell-list.md#healing-seed), [Greater Xenophonia](../08-spell-list.md#greater-xenophonia)|
+|Sc: Kinetic II|Thr=22||Favoured Spells: [Whispers](../08-spell-list.md#whispers), [Witch's Candle](../08-spell-list.md#witchs-candle), [Enflame](../08-spell-list.md#enflame), [Glide](../08-spell-list.md#glide), [Least Transformation](../08-spell-list.md#least-transformation)|
+|Sc: Global I||||
 |||||
-|Sc: Nature V|Thr=21||["Sour"](../08-spell-list.md#silent), ["Hide"](../08-spell-list.md#hide), ["Beast Speech"](../08-spell-list.md#beast-speech), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Rest"](../08-spell-list.md#least-rest), ["Animate Plant"](../08-spell-list.md#animate-plant),["Cure"](../08-spell-list.md#cure), ["Bestial Transformation"](../08-spell-list.md#bestial-transformation), ["Rejuvenate Land"](../08-spell-list.md#rejuvenate-land)|
-|Sc: Water V|Thr=21||["Least Hydromancy"](../08-spell-list.md#least-hydromancy), ["Mist"](../08-spell-list.md#mist), ["Chill Blood"](../08-spell-list.md#chill-blood), ["Winter's Touch"](../08-spell-list.md#winters-touch), ["Summon Water Sprite"](../08-spell-list.md#summon-water-sprite), ["Water Ward"](../08-spell-list.md#water-ward), "[](../08-spell-list.md)"|
-|Sc: Air III|Thr=21||["Least Anemancy"](../08-spell-list.md#least-anemancy), ["Least Blast"](../08-spell-list.md#least-blast), ["Spirits' Secrets"](../08-spell-list.md#spirits-secret), ["Silence"](../08-spell-list.md#silence), ["Glide"](../08-spell-list.md#glide), ["Wind Walk"](../08-spell-list.md#wind-walk), ["Guidance of the Winds"](../08-spell-list.md#guidance-of-the-winds)|
+|[Spellsong III](../06-abilities.md#spellsong-i-iv)|||Cost = 1-3 MP dice|
+|[Charm II](../06-abilities.md#charm-i-iv)|Thr=22||Cost = 1 MP dice per target|
+|[Deflection](../06-abilities.md#deflection)||[MP dice used + 1]d4 + SAP|A spell singer can deflect arcane energies directed at it, reducing damage from supernatural effects|
+|[Esoteric Deflection](../06-abilities.md#esoteric-deflection)||1d6 + [2 x MP dice used]|A spell singer can deflect esoteric energies, reducing damage from this kind of attack|
+|[Blink I](../06-abilities.md#blink-i)|||(Cost=1MP die) A spell singer can use blink speed|
+|Speed II||||
 |||||
+|Resistance|||Charmed, Aphonia, Pressure|
+|Immunity|||Stunned|
+|Special Senses|||["Keen Hearing"](../06-abilities.md#keen-senses-i-iii), [Blind Sight I (5ft)](../06-abilities.md#blind-sight-i-vi), ["Tremor Sense I (15ft)"](../06-abilities.md#tremor-sense-i-vi)|
+|Proficiencies|||Typically: "light armour", "light blades", "staves", "bows", "throw", "disarm", "healer's kit", at least 3 groups of musical instruments, elvish, and at least three other languages.|
+|Skills|||"Perform" +14, "Deceive" +14, "Spellworking" +12, "Acrobatics" +12, "Knowledge: History" +12, "Knowledge: Arcana" +10, "Sleight of Hand" +10, "Observe" +9, "Knowledge: Nature" +8, "Knowledge: Religion" +7, All other skills: +1 rank.|
+
+A spell singer is a mage whose song carries real power, or a minstrel whose words are laced with sorcery. One way or another, spell singers approach the ability of powerful spirits, whose voice can alter the nature magic they weave, or affect the mortal mind.
+
+Spell singers often prefer to avoid overt conflict and violence, often using charm to achieve this, but this does not mean that they are incapable thereof. Well aware of the powers they wield, in single combat spell singers will often aim to open with a devastating first strike, and then retreat if their foe is still standing. If fighting as part of a unit or protecting weaker allies, a spell singer will make maximum use of their spellsong to bolster allies and weaken foes, perhaps even using charm to remove key enemy units from the battle.
+
+A spell singer seldom fights to the death, and will generally retreat if defeat seems inevitable.
+
+____
+### Elvish Elder (level 13)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|18/18/18|49 (*33*)|76 (*52*)|15|35ft|-|
+
+(HiT (19/19/19) if wearing a light cuirass)
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|14|20|12|14|18|14|
+|Bonus|+2|+5|+1|+2|+4|+2|
+|Save|+5|+8|+7|+5|+15|+5|
+
+|Level(base)|SP dice|MP Dice|Nat|Sup|NAP|SAP|
+|-|-|-|-|-|-|-|
+|13 (3)|16|25|3|5|6|8|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Longbow|+13|1d10+6[Pi]|range = 1200/240ft|
+|Sling|+13|1d6+5[Pi]|range = 1600/80ft|
+|Knife|+13|1d4+5[Sl]||
+|||||
+|Elementalism: Light (Blast)|+15|3d4+4[Lig]|(Range=120ft+30ft/MP die), maximum of 7 dice (10d4+4)|
+|Elementalism: Light (Circle)|Thr=24|3d4+4[Lig]|(Range=120ft+30ft/MP die), maximum of 7 dice (10d4+4), maximum radius of 70ft (10ft/MP die).|
+|||||
+|Sc: Nature VII|Thr=24||["Sour"](../08-spell-list.md#silent), ["Hide"](../08-spell-list.md#hide), ["Beast Speech"](../08-spell-list.md#beast-speech), ["Least Heal"](../08-spell-list.md#least-heal), ["Least Rest"](../08-spell-list.md#least-rest), ["Animate Plant"](../08-spell-list.md#animate-plant),["Cure"](../08-spell-list.md#cure), ["Bestial Transformation"](../08-spell-list.md#bestial-transformation), ["Rejuvenate Land"](../08-spell-list.md#rejuvenate-land), ["Greater Fade"](../08-spell-list.md#greater-fade), ["Lesser Cosmic Seal"](../08-spell-list.md#lesser-cosmic-seal), ["Fairy Feast"](../08-spell-list.md#fairy-feast), ["Summon Elemental"](../08-spell-list.md#summon-elemental), ["Create Secret Path"](../08-spell-list.md#create-secret-path), ["Greater Weather Control"](../08-spell-list.md#greater-weather-control)|
+|Sc: Water III|Thr=24||["Least Hydromancy"](../08-spell-list.md#least-hydromancy), ["Mist"](../08-spell-list.md#mist), ["Chill Blood"](../08-spell-list.md#chill-blood), ["Winter's Touch"](../08-spell-list.md#winters-touch), ["Summon Water Sprite"](../08-spell-list.md#summon-water-sprite), ["Least Transformation"](../08-spell-list.md#least-transformation), ["See Spell"](../08-spell-list.md#see-spell), ["Water Ward"](../08-spell-list.md#water-ward)|
+|Sc: Global I||||
+|||||
+|Low-light vision||||
+|[Multi-attack I](../06-abilities.md#multi-attack-i-iii)|||Make 2 attacks per turn|
 |[Fleet](../06-abilities.md#fleet)|||Hide from light concealment|
 |[Alert](../06-abilities.md#alert)|||Immune to "surprised"|
 |[Aphonic Spell](../06-abilities.md#aphonic-spell)|||Eschew incantation components|
-|[Lingering Spell](../06-abilities.md#lingering-spell)|||Spells last longer|
-|[Safe Cast](../06-abilities.md#safe-cast)|||Eschew incantation components|
+|[Pointblank Shot I](../06-abilities.md#point-blank-shot-i-iii)|||Use bow and sling in melee|
+|[Precise Shot I](../06-abilities.md#precise-shot-i-iii)|||Ignore light cover|
+|[Trick Shot I](../06-abilities.md#trick-shot-i-ii)|||Avoid hitting friendlies in melee|
 |[Silent Step II](../06-abilities.md#silent-step-i-iii)|||Move more silently & run silently|
 |[Cursed Blood](../06-abilities.md#cursed-blood)|||Reaction to cast spells in revenge|
-|Low-light vision||||
-|Immunity|||"charmed"|
+|[True Sight (30ft)](../06-abilities.md#truesight-i-vi)|||An elder can see the true nature of nearby objects|
+|Resistance|||"charmed", "stunned"|
 |Proficiencies|||One musical instrument, elvish, common and at least 2 other languages|
-|Skills|||Usually +5 to "perform", +7 to three knowledges, +9 to "spellworking", +4 to "acrobatics" and +8 to "stealth", "navigate" +5|
+|Skills|||Usually +12 to "perform", +9 to four knowledges, +6 to the rest, +7 to "spellworking", +7 to "acrobatics" and +8 to "stealth", "navigate" +8|
 |Loot|||Usually some small trinket of sentimental value and the clothes on their back|
 
-This represents an elf who has devoted several centuries to learning spellcraft.
+This represents a millennia old elf. They have likely seen civilisations rise and fall. If they ever had friends amongst shorter lived mortals, then they have likely passed on long ago. This entity has a terrifying wealth of experience. This block can represent an elvish king, or some traveller who has wondered the earth for longer than he can remember. Either way, this is an extremely dangerous opponent.
 
-An elvish mage will generally leave the scene as soon as it senses that a fight might be inevitable. However, they will defend themselves, their apprentices and their brethren fiercely. In those cases they will use communication magic to warn allies, before using appropriate magics. Elven mages are generally weary for counter-spelling mages.
+Elvish elders seldom carry much on their journeys. They will almost never engage in combat (how else does one live this long). However, should an inevitable threat appear, they will attempt to eradicate it in the most effective manner. They will not fight fair or put themselves in danger unless absolutely necessary. No one wants to die.
 
 ___
 ## Orc

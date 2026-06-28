@@ -24,6 +24,8 @@ Animals are common entities in the material world. They have a physical form, li
     - [Boar](#boar-level-4)
     - [Crocodile](#crocodile)
     - [Crocodile, Caiman](#crocodile-caiman)
+    - [Jaguar](#jaguar-level-5)
+    - [Lion](#lion-level-6)
     - [Rat](#rat)
     - [Snake, Grass](#snake-grass)
     - [Snake, Constrictor](#snake-constrictor)
@@ -689,7 +691,7 @@ Elephants are heavy herbivorous mammals that stand about 10ft tall and often wei
 Elephants dwell in herds and range widely. They are not necessarily aggressive (except males in heat), although they do defend their young fiercely. In combat they generally take one of two strategies. Either they form a defensive ring around their young, to ward off predators, or form a wide line and charge as a single front, hoping to trample their foes underfoot.
 
 ___
-### Jaguar
+### Jaguar (level 5)
 
 **Size category**: Large (10ft x 10ft)
 
@@ -732,7 +734,7 @@ ___
 Jaguars are large felines that dwell in forests. They are masters of stealth and hunt by pouncing down on their prey. They are not picky and are equally apt to attack hog, antelope, monkeys and humanoids.
 
 ___
-### Lion
+### Lion (level 6)
 
 **Size category**: Large (10ft x 10ft)
 

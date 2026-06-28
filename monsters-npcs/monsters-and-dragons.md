@@ -251,7 +251,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/13/13|24 (*16*)|26 (*18*)|9|20ft|Flight (45ft, perfect, endurance = 4h)|
+|15/13/13|24 (*16*)|26 (*18*)|9|15ft|Flight (45ft, perfect, endurance = 4h)|
 
 ||Str|Dex|Con|Int|Wis|Cha|
 |-|-|-|-|-|-|-|
@@ -265,7 +265,7 @@ ___
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
-|Bite|+7|1d10+2 [Sh]|Reach=5ft(long)|
+|Bite|+7|1d10+4 [Sh]|Reach=5ft(long)|
 |Claws|+7|1d4+4 [Sh]|Reach=5ft|
 |Grapple|+7|||
 |Monster Attack|||A hover-cat makes one bite attack and one claw attack as a main action|
@@ -273,7 +273,7 @@ ___
 |||||
 |Fleet|||A hover-cat can stealth from "light concealment"|
 |Stalker|||A hover-cat can "stealth" as a "secondary action"|
-|Opportunist|||A hover-cat may make attacks of opportunity even again entities that move between threatened squares, even when they use careful movement|
+|Opportunist|||A hover-cat may make attacks of opportunity even against entities that move between threatened squares, even when they use careful movement|
 |Mighty I|||A hover-cat can carry a lot more weight than their frame suggests|
 |||||
 |Magical flight|||A hover-cat's flight can be dispelled as if it were a ["wind walk"](../08-spell-list.md#wind-walk) spell cast with 5 MP dice (Thr=18). In this case it loses its flight for a minute.|

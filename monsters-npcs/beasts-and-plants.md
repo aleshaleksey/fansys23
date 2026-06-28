@@ -689,6 +689,93 @@ Elephants are heavy herbivorous mammals that stand about 10ft tall and often wei
 Elephants dwell in herds and range widely. They are not necessarily aggressive (except males in heat), although they do defend their young fiercely. In combat they generally take one of two strategies. Either they form a defensive ring around their young, to ward off predators, or form a wide line and charge as a single front, hoping to trample their foes underfoot.
 
 ___
+### Jaguar
+
+**Size category**: Large (10ft x 10ft)
+
+- Evade: -1, Armour +2
+- Reach: 5ft (long)
+- [DEX save]: -1, [STR save]: +1
+- Carry capacity: (240lb light, 480lb medium, 1200lb heavy, 1800lb drag)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|15/13/13|26 (*18*)|23 (*15*)|11|45ft|Climb (30ft)|
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|16|19|14|5|15|14|
+|Bonus|+3|+4|+2|-3|+2|+2|
+|Save|+5|+4|+5|-2|+3|+3|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|5(1)|8|7|2|2|3|3|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite|+7|1d8+4 [Sh]|Reach=5ft(long)|
+|Claws|+7|1d6+4 [Sh]|Reach=5ft (long)|
+|Grapple|+7|||
+|Monster Attack|||A jaguar makes one claw attack and a bit attack as a main action.|
+|[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||A jaguar can grapple the creatures it attacks (1SP die)|
+|||||
+|Fleet|||A jaguar can stealth from "light concealment"|
+|Stalker|||A jaguar can "stealth" as a "secondary action"|
+|Opportunist|||A jaguar may make attacks of opportunity even against entities that move between threatened squares, even when they use careful movement|
+|||||
+|Resistance|||Charm|
+|Special Senses|||Low light Vision, Keen Scent, Keen Hearing|
+|Skills|||"Stealth" +9, "Climb" +8, "Swim" +8, "Athletics" +7, "Track" +6, "Observe" +6|
+|Loot|||Meat, 100lb. Furs: Enough for 1 set of hide armour.|
+
+Jaguars are large felines that dwell in forests. They are masters of stealth and hunt by pouncing down on their prey. They are not picky and are equally apt to attack hog, antelope, monkeys and humanoids.
+
+___
+### Lion
+
+**Size category**: Large (10ft x 10ft)
+
+- Evade: -1, Armour +2
+- Reach: 5ft (long)
+- [DEX save]: -1, [STR save]: +1
+- Carry capacity: (240lb light, 480lb medium, 1200lb heavy, 1800lb drag)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|15/13/13|38 (*23*)|28 (*18*)|11|45ft|Climb (30ft)|
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|20|15|16|5|13|14|
+|Bonus|+5|+2|+3|-3|+1|+2|
+|Save|+7|+5|+5|-1|+3|+6|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|6(2)|10|8|2|2|4|4|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite|+9|1d10+5 [Sh]|Reach=5ft (long)|
+|Claws|+9|1d6+5 [Sh]|Reach=5ft (long)|
+|Grapple|+9|||
+|Monster Attack|||A lion makes two claw attacks as a main action and one bite attack as a secondary action.|
+|[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||A lion can grapple the creatures it attacks (1SP die)|
+|||||
+|Fleet|||A lion can stealth from "light concealment"|
+|Stalker|||A lion can "stealth" as a "secondary action"|
+|Opportunist|||A lion may make attacks of opportunity even against entities that move between threatened squares, even when they use careful movement|
+|Mighty I|||A lion can carry a lot more weight than their frame suggests|
+|||||
+|Special Senses|||Low light Vision, Keen Scent, Keen Hearing|
+|Resistance|||Fear, Charm|
+|Skills|||"Athletics" +10, "Climb" +8, "Intimidation" +7, "Observe" +6, "Swim" +6, "Stealth" +5, "Track" +4|
+|Loot|||Meat, 300lb. Furs: Enough for 1 set of hide armour.|
+
+Lions are large felines that hunt, and live, in packs (known as prides). They prefer plains, mountains and hills, where they hunt big game. Lions are fierce creatures that are not afraid of attacking humanoids and humanoid villages when their typical prey is in short supply. 
+
+___
 ### Rat
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|

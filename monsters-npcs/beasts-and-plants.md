@@ -33,6 +33,7 @@ Animals are common entities in the material world. They have a physical form, li
     - [Snake, Cobra](#snake-cobra)
     - [Wolf](#wolf)
 - [Animals: Aquatic](#animals-aquatic)
+    - [Acid Skipper](#acid-skipper)
     - [Fish, Medium](#fish-medium)
     - [Octopus](#octopus)
     - [Octopus, Giant](#octopus-giant)
@@ -984,12 +985,48 @@ Wolves can be advanced to a higher level, but seldom reach above level 5.
 ___
 ## Animals: Aquatic
 
+___
+### Acid Skipper
 
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|13/13/11|22 (*16*)|18 (*15*)|7|20ft|Swim (45ft)|
+
+Size: Large
+
+Natural armour +2
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|16|12|15|2|13|13|
+|Bonus|+3|+1|+2|-3|+1|+1|
+|Save|+4|+2|+2|-3|+1|+1|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|4 (1)|7|7|2|2|3|3|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Bite|+6|1d10+3 [Sh]|Reach=5ft (long)|
+|Slam|+6|1d6+3 [Pe]|Reach=5ft (long)|
+|Acid Spit|+5|1d12+2 [Nec]|(Range=60ft/10ft, Cost=1SP die) A target hit by a skipper's spit must succeed a CON save (Threshold=17) or suffer disadvantage on all WIS, CHA and INT rolls, as well as treating all targets as heavily [concealed](../04-combat.md#concealment) for the next hour. There is no repeat save.|
+|Grapple|+6|||
+|||||
+|[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||(Cost=1SP die) A skipper can grapple a target that when biting it.|
+|Skills|||"stealth" +4, "observe" +4, "swim" +4|
+|Loot|||An acid skipper can provide poison glands and hide for 1 set of hide armour. It also provides up to 300lb of meat, although consumption triggers a Threshold=17 CON save vs ["skipper venom"](../14-poisons-and-diseases.md#poison-list).|
+
+Acid skippers are large, amphibious fish that dwell in murky, polluted waters. They drink in the foul environment in which they dwell and produce a strong, hallucinogenic toxin, which accumulates in their flesh and bodily fluids. Acid skippers can spit a gooey secretion that contains this poison both when hunting and in self defence.
+
+Skippers are ambush predators, lurking below the surface of murky waters in wait of passing prey.
+
+___
 ### Fish, Medium
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|13/12/12|12 (*11*)|6 (*6*)|3|-|Swim (50ft)|
+|13/12/12|12 (*11*)|6 (*6*)|3|-|Swim (60ft)|
 
 Size: Medium
 
@@ -1011,6 +1048,7 @@ Natural armour +1
 |Slam|+3|1d6+1 [Pe]|Reach=5ft|
 |||||
 |Skills|||"observe" +2, "swim" +3|
+|Loot|||A fish of this size can provide 100-200lb of meat.|
 
 This stat block can be used for any medium sized fish (which is actually quite big), freshwater or salt water. Most fish are predatory or omnivorous, but generally eat creatures much smaller than themselves.
 
@@ -1050,7 +1088,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|14/14/12|56 (*35*)|33 (*25*)|2|-|Swim (40ft)|
+|14/14/12|56 (*35*)|33 (*25*)|2|-|Swim (50ft)|
 
 Size: Huge
 
@@ -1081,7 +1119,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|11/11/11|22 (*16*)|18 (*15*)|3|-|Swim (50ft)|
+|11/11/11|22 (*16*)|18 (*15*)|7|-|Swim (50ft)|
 
 Size: Large
 
@@ -1095,7 +1133,7 @@ Natural armour +1
 
 |Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
 |-|-|-|-|-|-|-|
-|4 (1)|7|7|1|1|2|2|
+|4 (1)|7|7|2|2|3|3|
 
 |Ability|Bonus|Damage|Other|
 |-|-|-|-|
@@ -1115,7 +1153,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|15/13/13|12 (*11*)|6 (*6*)|6|-|Swim (60ft)|
+|15/13/13|12 (*11*)|6 (*6*)|6|-|Swim (80ft)|
 
 Size: Medium
 
@@ -1150,7 +1188,7 @@ ___
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
 |-|-|-|-|-|-|
-|17/19/12|28 (*16*)|21 (*15*)|11|-|Swim (80ft)|
+|17/19/12|28 (*16*)|21 (*15*)|11|-|Swim (90ft)|
 
 Size: Huge
 

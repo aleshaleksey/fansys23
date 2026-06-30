@@ -147,6 +147,7 @@ ___
 |**Name**|**Type**|**Threshold**|**Duration**|**Modality**|**Onset**|
 |-|-|-|-|-|-|
 |Bee Venom|Necrotising|16|1 minute|Wounding|Immediate|
+|Skipper Venom|General|17|1 hour|Contact|Immediate|
 |Viper Venom|Necrotising|18|1 minute|Wounding|Immediate|
 |Cobra Venom|Nerve|18|1 hour|Wounding|Immediate|
 ||||||||
@@ -178,6 +179,7 @@ ___
 |-|-|
 |Bee Venom|1d4 damage/round for 1 minute or until save is succeeded. Used for treating joint ailments amongst others.|
 |Viper Venom|1d6 damage/round for 1 minute or until save is succeeded. Used for treating joint ailments amongst others.|
+|Skipper Venom|Fogs the minds and causes hallucinations. Disadvantage on all WIS, CHA and INT rolls, as well as treating all targets as heavily [concealed](04-combat.md#concealment) until duration is over. Does not affect plants.|
 |Cobra Venom|["Paralysis"](10-conditions-types.md#conditions-in-detail) + ["suffocation"](03-movement-exploration.md#characters-starvation-and-other-bad-ways-to-die). A character repeats the save vs suffocation at the end of each minute, but the general paralysis last for the full duration.|
 |Alcohol|1 point of DEX, CON, INT and WIS damage per dose (NB: A single dose is equivalent to 1 lb of ale, 1/4 lb of wine, or 1 shot of spirits). For each additional dose, the threshold increases by 2. A character that fails by 12 or more falls unconscious.|
 |Bracken Extract|["Blinded"](10-conditions-types.md#conditions-in-detail)|

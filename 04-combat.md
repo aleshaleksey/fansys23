@@ -495,7 +495,7 @@ ___
 
 Size is, amongst other things, a measure of how much space an entity occupies. This affects various combat parameters and can be seen in the [Size rules table](02-base-rules.md#size-rules-table). Tiny and diminutive entities that have a reach of 0ft must occupy the same square as their target to make the attack.
 
-Likewise entities that are separated by at least two categories (eg Diminutive and medium, medium and gargantuan, large and colossal, small and colossal) can usually occupy the same space without penalty. Although the DM may ask for Dex saves from the smaller entity (threshold=NAT+Str of the bigger entity) on the turn of the bigger entity, lest the smaller entity be knocked "prone".
+Likewise entities that are separated by at least two categories (eg Diminutive and medium, medium and gargantuan, large and colossal, small and colossal) can usually occupy the same space without penalty. Although the DM may ask for Dex saves from the smaller entity (threshold=NAT+Str of the bigger entity) on the turn of the bigger entity, lest the smaller entity be knocked ["prone"](10-conditions-types.md#prone).
 
 ___
 ### Flanking
@@ -637,7 +637,7 @@ ___
 
 This is a collection of unsorted rules related to basic physical combat.
 
-- Dropping/falling "prone" does not cost movement.
+- Dropping/falling ["prone"](10-conditions-types.md#prone) does not cost movement.
 - Standing can be done as part of a "move" action and costs 1/2 your movement speed rounded down.
 - Moving out of the threatened area of a foe without precautions provokes an attack of opportunity.
 - Moving through a threatened area provokes attacks of opportunity unless the movement is declared as being "cautious", ie at half speed.
@@ -746,7 +746,7 @@ ___
 The act of knocking a target off its feet in place.
 
 - **Action**: Attack roll vs target's STR or DEX threshold (chosen by the target).
-- **Effect**: Knock a target "prone".
+- **Effect**: Knock a target ["prone"](10-conditions-types.md#prone).
 - **Proficiency**: "throws" proficiency.
 - **Penalty if not proficient**: -5 to attack roll.
 - **Size dependent**: Yes.

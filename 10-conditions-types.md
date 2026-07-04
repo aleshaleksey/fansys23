@@ -667,7 +667,7 @@ Afflicted by a poison. This has the following general effects:
   - The entity makes all rolls at disadvantage.
 
 #### Prone
-A prone character is intimate with the ground.
+A prone character is intimate with the ground. In most cases, a character can stand up from prone by using half of its movement (see [action table](04-combat.md#tables)). Standing up from prone [can provoke attacks of opportunity](04-combat.md#attacks-of-opportunity).
 
 - It can only move at a crawl.
 - Melee attacks have advantage against it.

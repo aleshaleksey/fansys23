@@ -469,7 +469,7 @@ Vampires are intelligent undead that still have blood in their veins. They are o
 - Cannot cross running water willingly.
 - Vulnerability to "divine" and "light" damage.
 - Anathema Sunlight: Takes 1 HP damage (light) per turn if exposed to _direct_ sunlight.
-- Creature of the Night: Disadvantage to attack rolls, saves and WIS based rolls when outdoors in daylight.
+- Creature of the Night: Has disadvantage to all rolls and cannot use its innate "Charm" or "Alternate form" when outdoors in daylight.
 
 **Extra (24)**
 
@@ -561,7 +561,7 @@ Vampires are intelligent undead that still have blood in their veins. They are o
 - Cannot cross running water willingly.
 - Vulnerability to "divine" and "light" damage.
 - Anathema Sunlight: Takes 1 HP damage (light) if exposed to _direct_ sunlight.
-- Creature of the Night: Disadvantage to attack rolls, saves and WIS based rolls when outdoors in daylight.
+- Creature of the Night: Has disadvantage to all rolls and cannot use its innate "Charm" or "Alternate form" when outdoors in daylight.
 
 **Extra (54)**
 

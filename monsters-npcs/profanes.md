@@ -324,7 +324,7 @@ Zombies are not proficient with anything other than their natural attacks and "g
 ___
 ## Vampires
 
-Vampires are undead that still have blood in their veins. A vampire is cursed by the sun and requires blood in order to remain active. Thus most vampires are active at night. Vampires cannot cross running water or enter another's dwelling without an invitation. All vampires have vulnerability to "divine" and "light" damage. Attacks with weapons made of silver overcome a vampire's resistance to physical damage. Furthermore, a vampire that is out in daylight, cannot use any abilities that require the expenditure of SP dice or MP dice. A vampire that is exposed to direct sunlight takes 1 HP damage at the start of its turn. Unlike living beings, a vampire that is starved of blood does not die. Instead it becomes dormant, until it has been fed.
+Vampires are undead that still have blood in their veins. A vampire is cursed by the sun and requires blood in order to remain active. Thus most vampires are active at night. Vampires cannot cross running water or enter another's dwelling without an invitation. All vampires have vulnerability to "divine" and "light" damage. Attacks with weapons made of silver overcome a vampire's resistance to physical damage. Furthermore, a vampire that is out in daylight, has disadvantage to all rolls and cannot use its innate "Charm" or "Alternate form". A vampire that is exposed to direct sunlight takes 1 HP damage at the start of its turn. Unlike living beings, a vampire that is starved of blood does not die. Instead it becomes dormant, until it has been fed.
 
 In most settings vampires are beings of intense hunger, both for sustenance (blood) and for carnal pleasures.
 

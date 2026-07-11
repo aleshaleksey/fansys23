@@ -795,7 +795,7 @@ ___
 
 **Description**: The caster summons a mote of light and binds it to a valid target, giving it the "glowing" condition. An unwilling target may break the effect with a successful CHA save, thus ending the spell. The mote sheds bright light within 40ft and dim light in a total radius of 100ft.
 
-Incorporeal ["undead"](10-conditions-types.md#profane-1) and ["fiends"](10-conditions-types.md#profane-1) have disadvantage on attacks and saves within the radius of the bright light.
+Incorporeal ["undead"](10-conditions-types.md#profane-1), ["vampires"](monsters-npcs/profanes.md#vampires) and ["fiends"](10-conditions-types.md#profane-1) have disadvantage on attacks and saves within the radius of the bright light.
 
 As a secondary action the caster may dismiss the flare, causing 1d4+[SUP] damage to a single target within 5ft and hence ending the spell.
 

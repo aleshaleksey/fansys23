@@ -1807,7 +1807,8 @@ ___
 |Components|kinetic|-1
 |Focus|-|
 |Material|-|
-|Limitation|The spell does not affect "profane" or "divine" entities, or those who are "doomed".|-2
+|Limitation|The spell does not affect "divine" entities, or those who are "doomed".|-2
+|Limitation|Profane "profane" cannot benefit from the effects of the spell.|-2
 |Save|WIS|
 
 **Description**: The spell allows one to redirect destiny. When an entity or object in range are targeted by an attack or suffer a harmful effect that affects only one object or entity, the caster may redirect it at another valid target within range. Likewise the caster may redirect an area of effect targeted at a point in range to any other valid point in range.
@@ -1821,6 +1822,8 @@ ___
 **Limitations**:
 
 - If there are no valid targets in range, the spell fails.
+- Attacks and harmful effects caused by "divine" and "doomed" entities are not affected by the spell.
+- Attempt to redirect attacks or harmful effects away from "profane" entities automatically fail.
 
 **Upcast**: For every extra MP die, the range of the spell increases by 30ft.
 
@@ -2724,12 +2727,14 @@ ___
 |Components|kinetic|-1
 |Focus|-|
 |Material|-|
-|Limitation|The spell doe not affect "profane" or "divine" entities.|
+|Limitation|The spell does not affect "profane" or "divine" entities.|
 |Save|WIS|
 
 **Description**: The caster gifts one entity that is making a targetted attack or save, casting the spell after the action is declared, but before the attack/save is resolved. The target of the spell can reject the effect with a successful WIS save. Effect:
 
 - The target may treat one of the dice it rolls as 12. The target choses which of its dice to treat as a 12.
+
+**Limitiation**: "Profane" and "divine" entities cannot gain the benefits of this spell.
 
 ___
 ### Greater Xenophonia

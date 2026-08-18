@@ -355,7 +355,7 @@ This is a template for humans in a game using level-5 templates. It gives some i
 - A +2 bonus to any 3 stats. (6 points)
 - +2 to any 4 skill. (8 points) 
 - Any 2 proficiencies. (2 point)
-- Any 1 class C abilities. (2 points)
+- Any 1 class C ability. (2 points)
 - Any 1 class B ability. (4 points)
 - Resistance to any one physical damage + one associated condition. (2 points)
 - Resistance to "fire" or "ice" + one associated condition. (2 points)

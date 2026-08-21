@@ -317,7 +317,7 @@ ___
 |Wings|+8|1d8+5 [Sh]|Reach=5ft|
 |Feather|+8|1d4+5 [Pi]|Range=240ft, Increment=40ft|
 |Sunder|+8||A sword-wing can sunder when attacking with its claws.|
-|Monster Attack|||A sword-wing makes two attacks with its swords as a main action, or one attack with its beak and one with its claws. If it uses its swords as a main action, it can then attack with its beak as a secondary action|
+|Monster Attack|||A sword-wing makes two attacks with its swords as a main action, or one attack with its beak and one with its claws. If it uses its swords as a main action, it can then attack with its beak as a secondary action.|
 |[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||A sword-wing can sunder and attack (1 SP die).|
 |||||
 |[Flash Step](../06-abilities.md#flash-step)|||A sword-wing can use its secondary action to move its movement speed (1SP die).|
@@ -326,7 +326,7 @@ ___
 |||||
 |Keen Sight||||
 |Skills|||"Acrobatics" +6, "Athletics" +4, "Observe" +4, "Track" +4|
-|Loot|||Meat, 80lb. The sword of a sword-wing count as iron scimitars, although they do need a hilt to be crafted before they can be used properly. A sword-wing can provide up to 20lb of iron feathers.|
+|Loot|||Meat, 80lb. The swords of a sword-wing count as iron scimitars, although they do need a hilt to be crafted before they can be used properly. A sword-wing can provide up to 20lb of iron feathers.|
 
 A sword-wing is a vicious flightless bird-like monster that roams dry grasslands and semi-desert environments. These predators hunt in packs. They will eat anything that moves and is susceptible to their attacks. They are particularly fond of the taste of liver and blood and have been known to supplement their diets with iron ore (although they cannot live off ore alone).
 

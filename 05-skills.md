@@ -646,15 +646,14 @@ There are 6 knowledge skills in the game. Each represents various subsets of kno
   - **Arcana**: Knowledge of spells and magical rituals. Used to identify magical auras (with appropriate senses), supernatural effects, spells that are being cast, magical constructs and summoned creature. Thresholds:
     - Identify magical aura: 16.
     - Identify supernatural effect: 
-      - Local: [16 + MP dice used to create it]
-      - Global: [8 + MP dice used to create it]
+      - [16 + MP dice equivalent of the local spell used to create it]
     - Identify spell being cast:
-      - Local: [12 + MP dice used to create it]
-      - Global: [MP dice used to create it] 
+      - Local: [12 + MP dice equivalent of the local spell used to create it]
     - Identify magical constructs or summoned creature: [4 + Total dice / 2].
   - **Dungeoneering**: A collection of esoteric fields dealing with dangerous places such as labyrinths, monster lairs and disaster zones. It includes knowledge of things like which creatures dwell in such places, typical hazards and resources, likely locations of trap/treasure zones and core zones, and general dungeon trivia. Thresholds are as follows:
     - Identify monstrous creature or construct: [4 + Total dice / 2]
       - Special: for every 4 points over the identification threshold, the character gains an extra piece of information about the creature.
+      - Note: If an entity is is particularly common or well known in a setting, the group should set a threshold independent of its total dice to identify it.
     - Identify hazard: [terrain + weather] or [threshold of creation].
     - Identify material/dweomer in such a zone: See ["Appraise"](#appraise).
     - Identify structure of zone: [terrain + weather] + 5.
@@ -785,7 +784,9 @@ Tracking is used to follow entities based on disturbances they leave in their en
   - Fluid: 28
   - Rock/hard ground: 20
   - Unstable ground (eg sand, powder snow): 16
-  - Dirt road: 8
+  - grasslands: 16
+  - Dirt road (hard/dry): 12
+  - Dirt road (soft/wet): 8
   - Snow or soft ground: 4
 - **Modifiers**
   - For every size category up: -1 to threshold.

@@ -725,3 +725,6 @@ ___
 
 ### Abilities
 - [Bard Song](06-abilities.md#bard-song-i-iv) is strengthened a little (roll advantage is obtained one level lower).
+
+### Skills
+- Adjust thresholds for [Knowledge: Arcana](05-skills.md#knowledge) and [Track](05-skills.md#track) to make them make a bit more sense.

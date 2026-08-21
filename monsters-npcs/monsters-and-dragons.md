@@ -293,7 +293,7 @@ ___
 **Size category**: Medium (5ft x 5ft)
 
 - Reach: 5ft
-- Carry capacity: (216lb light, 432lb medium, 1080lb heavy, 1620lb drag)
+- Carry capacity: (60lb light, 120lb medium, 300lb heavy, 450lb drag)
 - Natural Armour: +4 (A sword wing's iron-rich feathers make effective armour.)
 
 |HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|

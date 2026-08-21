@@ -8,6 +8,7 @@
     - [Mudcrawler](#mudcrawler)
     - [Corpse Stork](#corpse-stork)
     - [Hover-cat](#hover-cat)
+    - [Sword-wing](#sword-wing)
     - [Hive Beast](#hive-beast)
     - [Fell Beast](#fell-beast)
     - [Troll Head](#troll-head)
@@ -285,6 +286,52 @@ ___
 Hover-cats are fluffy ambush predators that inhabit forested canyons and other nigh-impassible terrain. Hover-cats are large, flying felines with short, vestigial legs, which makes them look somewhat like seals. Their main mode of movement is supernatural flight as their limbs are too short to support reasonable overland movement. They may be solitary or hunt in packs. Hover-cats are incredibly agile flyers, but are fundamentally slow, so if they fail to catch their prey within the first few seconds, they will usually give up.
 
 Sometimes orcs, winged and beast-folk will tame them as mounts and pets.
+
+___
+### Sword-wing
+
+**Size category**: Medium (5ft x 5ft)
+
+- Reach: 5ft
+- Carry capacity: (216lb light, 432lb medium, 1080lb heavy, 1620lb drag)
+- Natural Armour: +4 (A sword wing's iron-rich feathers make effective armour.)
+
+|HiT/Surprised/Touch|SP|MP|HP|Speed (walk)|Speed (other)|
+|-|-|-|-|-|-|
+|20/15/16|30 (*22*)|24 (*16*)|9|60ft||
+
+||Str|Dex|Con|Int|Wis|Cha|
+|-|-|-|-|-|-|-|
+|Stat|15|21|14|2|11|14|
+|Bonus|+2|+5|+2|-5|+1|+2|
+|Save|+3|+6|+3|-4|+2|+3|
+
+|Level(base)|SP Dice|MP dice|Nat|Sup|NAP|SUP|
+|-|-|-|-|-|-|-|
+|5(1)|10|7|2|2|3|3|
+
+|Ability|Bonus|Damage|Other|
+|-|-|-|-|
+|Beak|+8|1d4+5 [Sh]|Reach=5ft(long)|
+|Claws|+8|1d6+5 [Sh]|Reach=5ft|
+|Wings|+8|1d8+5 [Sh]|Reach=5ft|
+|Feather|+8|1d4+5 [Pi]|Range=240ft, Increment=40ft|
+|Sunder|+8||A sword-wing can sunder when attacking with its claws.|
+|Monster Attack|||A sword-wing makes two attacks with its swords as a main action, or one attack with its beak and one with its claws. If it uses its swords as a main action, it can then attack with its beak as a secondary action|
+|[Combined Manoeuvre I](../06-abilities.md#combined-manoeuvre-i-v)|||A sword-wing can sunder and attack (1 SP die).|
+|||||
+|[Flash Step](../06-abilities.md#flash-step)|||A sword-wing can use its secondary action to move its movement speed (1SP die).|
+|Opportunist|||A sword-wing may make attacks of opportunity even against entities that move between threatened squares, even when they use careful movement|
+|[Sprinter](../06-abilities.md#sprinter)|||A sword-wing can move at x3 base movement when taking the “run” action and x5 when taking the “sprint” action.|
+|||||
+|Keen Sight||||
+|Skills|||"Acrobatics" +6, "Athletics" +4, "Observe" +4, "Track" +4|
+|Loot|||Meat, 80lb. The sword of a sword-wing count as iron scimitars, although they do need a hilt to be crafted before they can be used properly. A sword-wing can provide up to 20lb of iron feathers.|
+
+A sword-wing is a vicious flightless bird-like monster that roams dry grasslands and semi-desert environments. These predators hunt in packs. They will eat anything that moves and is susceptible to their attacks. They are particularly fond of the taste of liver and blood and have been known to supplement their diets with iron ore (although they cannot live off ore alone).
+
+They approach their prey at lightning speeds and make an initial strafing attack. If this causes significant damage, they will return to finish the job and feast, else they keep running.
+
 
 ___
 ### Hive Beast

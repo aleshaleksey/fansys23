@@ -728,3 +728,6 @@ ___
 
 ### Skills
 - Adjust thresholds for [Knowledge: Arcana](05-skills.md#knowledge) and [Track](05-skills.md#track) to make them make a bit more sense.
+
+### Spells
+- Tweak [Global dispelling rules](07-magic-and-spellcasting.md#breaking-global-spells-and-curses) to make the rules clearer and more workable.

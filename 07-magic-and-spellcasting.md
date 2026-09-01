@@ -163,8 +163,13 @@ ___
 #### Breaking Global Spells and Curses
 Global spells can be dispelled by any caster that has at least 11 MP dice. A dispelling character must be inside the area of effect, or adjacent to the area of effect of the spell for the whole duration of breaking in order to break it.
 
-- Dispelling can be done by the basic ["Spellworking"](05-skills.md#spellworking) rules and in accordance with the time required by the original caster's threshold. In order to do this, a character must first succeed on a ["Knowledge: Arcana"](05-skills.md#knowledge) roll to identify the spell.
-- Alternatively a character can "force" the breaking by forcing their own MP into the spell. In this case, no knowledge roll is required, however, the character expends [[original caster's MP dice used in casting the spell] - [dispelling character's "Knowledge:Arcana" skill bonus]] MP dice when making the attempt. If this leads to their MP dice count reaching 0, the dispelling character must succeed a CHA save or fall unconscious as per the "special" clause of the ["Spellworking"](05-skills.md#spellworking) rules.
+- Dispelling can be done by the basic ["Spellworking"](05-skills.md#spellworking) rules and in accordance with the time required by the original caster's threshold.
+  - In order to do this, a character must first succeed on a ["Knowledge: Arcana"](05-skills.md#knowledge) roll to identify the spell.
+- Alternatively a character can "force" the breaking by forcing their own MP into the spell.
+  - In this case, no knowledge roll is required, however, the character expends [[MP dice used in casting the spell] + ["Knowledge: Arcana" skill bonus of the spell's caster]] MP dice when making the attempt.
+  - The process takes 1 minute per MP die used to break the spell.
+  - The character breaking the spell does not know how many MP dice the process will require until it is completed, unless they succeeded a ["Knowledge: Arcana"](05-skills.md#knowledge) roll to identify the spell.
+  - If breaking the spell leads to their MP dice count reaching 0, the dispelling character must succeed a CHA save or fall unconscious as per the "special" clause of the ["Spellworking"](05-skills.md#spellworking) rules.
 
 **Breaking Curses**: A curse can be broken as a global spell, except the roll is made at disadvantage. Curses also have a "break condition": If the condition is fulfilled they lose their power. Once the condition has been fulfilled rolls to disimbue or disable the curse have advantage.
 

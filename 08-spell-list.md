@@ -705,7 +705,7 @@ ___
 |Casting time|1 full round action|-2
 |Range|close|-2 
 |Duration|12 minutes|
-|Components|incantation, incantation|-1
+|Components|incantation, kinetic|-1
 |Focus|A talisman made of material from a hidden valley, or a pouch of nettle leaves|
 |Save|WIS/INT|
 
@@ -2658,7 +2658,7 @@ ___
 |Casting time|1 full round action (4 hours + 20 minutes per 2MP dice)|-2
 |Range|close|-1
 |Duration|24 hours (4 months)|+9
-|Components|incantation, incantation|-1
+|Components|incantation, kinetic|-1
 |Focus|Flower of a Black Dhalia|-1
 |Material|An item or memory precious to the caster or target(if voluntary)|-2
 |Limitation|Does not affect True-sight|-2
@@ -2769,7 +2769,7 @@ ___
 |Casting time|1 full round action|
 |Range|close|
 |Duration|1 minute|
-|Components|incantation, incantation|
+|Components|incantation, kinetic|
 |Focus|-|
 |Material|1HP worth of blood or life essence|
 |Limitation|Spell ends when the target reaches 1 HP|
@@ -3295,7 +3295,7 @@ ___
 |Casting time|1 full round action (5 hours + 20 minutes per 2MP dice)|-2
 |Range|close|-2 
 |Duration|1 day (1 year)|+12
-|Components|incantation, incantation|-1
+|Components|incantation, kinetic|-1
 |Focus|A talisman made of material from a hidden valley|-1
 |Save|WIS/INT|
 

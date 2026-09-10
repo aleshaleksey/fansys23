@@ -411,7 +411,7 @@ ___
 
 This is a supernatural disease of profane origin that cannot be treated by mundane means. It is spread through the bite of a zombie and is fundamentally simple:
 
-Any mortal bitten once or more by a zombie must make a CON save at midnight. Should they fail, they immediately gain disadvantage on all INT and WIS rolls. After 6d12 hours have elapsed the victim dies and becomes a zombie. This disease counts as supernatural and can only be cured by supernatural means. It cannot be cured once it has run its course.
+Any mortal bitten once or more by a zombie must make a CON save at midnight. Should they fail, they immediately gain disadvantage on all INT and WIS rolls. After 6d12 hours have elapsed the victim dies and becomes a zombie. This disease counts as supernatural and can only be cured by supernatural means. It cannot be cured once it has run its course. If a victim of zombification dies before the disease has run its course, it does not rise as a zombie.
 
 ___
 ### Summary Table of Diseases

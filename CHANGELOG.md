@@ -723,6 +723,9 @@ ___
 ___
 ## From v0.0.21
 
+### General
+- [Zombification](14-poisons-and-diseases.md#zombification-a-class) now has some nuances that make it a little less broken.
+
 ### Abilities
 - [Bard Song](06-abilities.md#bard-song-i-iv) is strengthened a little (roll advantage is obtained one level lower).
 

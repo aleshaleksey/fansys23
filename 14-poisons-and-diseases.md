@@ -411,7 +411,7 @@ ___
 
 This is a supernatural disease of profane origin that cannot be treated by mundane means. It is spread through the bite of a zombie and is fundamentally simple:
 
-Any mortal bitten once or more by a zombie must make a CON save at midnight. Should they fail, they will die and become a zombie in 6d12 hours. This disease counts as supernatural and can only be cured by supernatural means. It cannot be cured once it has run its course.
+Any mortal bitten once or more by a zombie must make a CON save at midnight. Should they fail, they immediately gain disadvantage on all INT and WIS rolls. After 6d12 hours have elapsed the victim dies and becomes a zombie. This disease counts as supernatural and can only be cured by supernatural means. It cannot be cured once it has run its course.
 
 ___
 ### Summary Table of Diseases
@@ -430,4 +430,4 @@ ___
 |Creeping Amnesia|22|20|-|special|Immediate onset|chronic|0|-|
 |Dryad Touch|22|16|24|Perception|1d6 days|4 months|10%|-|
 |Pilgrim's Fire|24|24 (CHA)|24|special|Immediate onset|chronic|60%|-|
-|Zombification|8|16|16|Bodily fluids|6d12 hours|-|60%|1 day|
+|Zombification|8|16|16|Bodily fluids|Until Midnight|6d12|60%|1 day|

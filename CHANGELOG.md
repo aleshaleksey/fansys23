@@ -734,3 +734,4 @@ ___
 
 ### Spells
 - Tweak [Global dispelling rules](07-magic-and-spellcasting.md#breaking-global-spells-and-curses) to make the rules clearer and more workable.
+- Tweak [Promise](08-spell-list.md#promise) to make caster aware of it being broken.

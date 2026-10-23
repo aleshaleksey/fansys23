@@ -1435,7 +1435,10 @@ The condition counts as having a "supernatural" origin.
 |A|The target has vulnerability to one damage type|
 |S|The target is "immobilised" at the end of each of its turns, it may make a grapple roll as a main action to attempt to break it at the start of it turn|
 
-**Special**: If the target is not aware that it is being bound, or makes the promise against its will, it may attempt a WIS save if it ever brakes the promise. On a success it avoids the effects of the spell.
+**Special**:
+
+- If the target is not aware that it is being bound, or makes the promise against its will, it may attempt a WIS save if it ever brakes the promise. On a success it avoids the effects of the spell.
+- If the promise is broken or the spell dispelled, the caster of the spell is instantly aware of the fact.
 
 **Global**: The spell lasts for a month.
 

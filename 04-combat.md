@@ -62,6 +62,7 @@ Combat is central to many narrative genres and styles of play. This chapter codi
 7. [Assorted Rules](#assorted-rules)
 8. [Basic combat manoeuvres and tactical movement.](#basic-combat-manoeuvres-and-tactical-movement)
     - [Basic Martial Manoeuvres](#basic-martial-manoeuvres)
+      - [Basic Martial Manoeuvres and ranged weapons](#basic-martial-manoeuvres-and-ranged-weapons)
       - [Attack](#attack)
       - [Grapple](#grapple)
       - [Restrain](#restrain)

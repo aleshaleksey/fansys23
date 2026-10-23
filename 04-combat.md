@@ -660,6 +660,17 @@ Special abilities and weapons/tools can reduce or remove penalties for manoeuvre
 - A character that is "**grappled**", "**restrained**" by use of basic martial manoeuvres can make an opposing "grapple" manoeuvre on its turn to try to break free or move its assailant. A character that is **immobilised** can likewise use the "grapple" manoeuvre at disadvantage to break free and become "restrained" instead.
 
 ___
+#### Basic Martial Manoeuvres and ranged weapons
+
+All manoeuvres can be carried out unarmed or with melee (close) weapons. However only the following manoeuvres are possible with ranged weapons:
+
+- [Attack](#attack)
+- [Grapple](#grapple)
+- [Trip](#trip)
+- [Disarm](#disarm) (at disadvantage)
+- [Sunder](#sunder) (at disadvantage)
+
+___
 #### Attack
 
 This is the act of using a weapon (or one's body) to attempt to do direct damage to the target. Essentially, all characters can try attacking their target, but if they are not proficient with the weapon used, they take a -5 penalty to the attack.
@@ -671,6 +682,7 @@ This is the act of using a weapon (or one's body) to attempt to do direct damage
 - **Size dependant**: No.
 - **Effect**: If attack succeeds damage is dealt to the target in accordance with the damage rules.
 - **Special**: Attacking with a weapon you are not proficient with provokes an attack of opportunity as you leave more openings than a proficient combatant.
+- **Possible with ranged weapon**: Yes.
 
 
 ___
@@ -686,6 +698,7 @@ This is the act of using one's body (or a weapon) to contact/grab the target in 
   - The same applies when "restraining" a target.
   - A character that has "immobilised" its target is considered to have used at least two limbs.
   - A character with a "blink speed" may attempt to escape a grapple by blinking (see ["Local and Global Movement: Blink"](03-movement-exploration.md#blink)).
+- **Possible with ranged weapon**: Yes.
 
 ___
 #### Restrain
@@ -703,6 +716,7 @@ This is the act of using one's body (or a weapon) to severely restrict the movem
   - Keeping a target restrains requires at least one limb, hence precluding its use for movement, attacking or spellcasting.
   - A character with a "blink speed" may attempt to escape this manoeuvre by blinking (see ["Local and Global Movement: Blink"](03-movement-exploration.md#blink)).
   - A restraining character can make a special grapple as a main action. In this case the restraining character makes an attack roll (proficiency: grapple) at disadvantage vs the __restrained__ character's STR or DEX threshold (chosen by the target). On success, the restrained character gains the crippled condition.
+- **Possible with ranged weapon**: No.
 
 ___
 #### Immobilise
@@ -716,6 +730,7 @@ This is the act of completely immobilising a restrained target so that it cannot
 - **Size dependent**: Yes.
 - **Special**: The character that successfully immobilises its target is considered "grappled" unless it is at least two sizes larger than the target that it has immobilised. Immobilise also requires at least two limbs (or objects held by these limbs) to keep the target immobilised, hence precluding their use for movement, spellcasting or for other combat manoeuvres.
   - A character with a "blink speed" may attempt to escape this manoeuvre by blinking (see ["Local and Global Movement: Blink"](03-movement-exploration.md#blink)).
+- **Possible with ranged weapon**: No.
 
 ___
 #### Shove
@@ -727,6 +742,7 @@ This is the act of violently moving a target bodily away from yourself, generall
 - **Penalty if not proficient**: -5 to attack roll.
 - **Size dependent**: Yes.
 - **Special**: For every size category that you are larger than your target, increase the maximum distance by 5ft.
+- **Possible with ranged weapon**: No.
 
 ___
 #### Throw
@@ -740,6 +756,7 @@ The act of moving the target, probably violently, in such a way that it falls pr
 - **Special**:
   - For every size category that you are larger than your target, increase the maximum distance by 5ft.
   - On failure provokes attack of Opportunity if you are not proficient with throws.
+- **Possible with ranged weapon**: No.
 
 ___
 #### Trip
@@ -752,6 +769,7 @@ The act of knocking a target off its feet in place.
 - **Size dependent**: Yes.
 - **Special**
   - On failure provokes attack of Opportunity if the foe is holding a weapon you are not proficient with AND you are not proficient with **throws**.
+- **Possible with ranged weapon**: Yes.
 
 ___
 #### Disarm
@@ -766,6 +784,7 @@ The act of relieving a target of its weapon.
   - For every 5 points by which your attack exceeds the target's threshold, the weapon can land an extra 5ft away from the target's square (as decided by you).
   - Provokes an attack of opportunity if the foe is holding a weapon you are not proficient with AND you are not proficient with **disarm**.
   - If the target weapon is ["subtle"](11-weapons-armour.md#weapon-properties), the attack has a +2 bonus on the roll. If it is heavy, the attack has -2 penalty on the roll.
+- **Possible with ranged weapon**: Yes, at disadvantage.
 
 ___
 #### Feint
@@ -776,6 +795,7 @@ The act of misdirecting your foe and creating an opening.
 - **Proficiency**: "feint" proficiency.
 - **Penalty if not proficient**: -5 to attack roll.
 - **Size dependent**: No.
+- **Possible with ranged weapon**: No.
 
 ___
 #### Interception
@@ -789,6 +809,7 @@ The act of redirecting nearby attacks targeted at other characters to yourself, 
 - **Penalty if not proficient**: -5 to attack roll.
 - **Size dependent**: No.
 - **Special**: You can attempt to intercept a single attack as a reaction. 
+- **Possible with ranged weapon**: No.
 
 ___
 #### Sunder
@@ -802,6 +823,7 @@ The act of targeting an accessible item on your foe's person in an attempt to br
 - **Penalty if not proficient**: -5 to attack roll.
 - **Size dependent**: No.
 - **Special**: Provokes a penalty and attack of Opportunity if the foe is holding a weapon you are not proficient with AND you are not proficient with **sunder**.
+- **Possible with ranged weapon**: Yes, at disadvantage.
 
 ___
 ## Spellcasting and Supernatural abilities
